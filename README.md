@@ -22,3 +22,7 @@ To generate a html web documentation run
 To generate an epub ebook run
 **Linux:** `make epub`
 **Windows:** `.\make epub`
+
+The HTML files is in the `build/html` directory (e.g. with `/path/to/kdenlive-docs/build/html`). Double click `index.html` to open the generated documentation.
+
+The epub file is in the `build/epub` directory (e.g. with `/path/to/kdenlive-docs/build/epub`). Double click `index.xhtml` to open the generated documentation.
