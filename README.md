@@ -15,6 +15,10 @@ Kdenlive documentation based on [Sphinx](https://www.sphinx-doc.org)
 
 After you cloned this repository (only need to be done once), use a command line to go to its root folder (e.g. with `cd /path/to/kdenlive-docs`)
 
-To generate a html web documentation run `make html`
+To generate a html web documentation run 
+**Linux:** `make html`
+**Windows:** `.\make html`
 
-To generate an epub ebook run `make epub`
+To generate an epub ebook run
+**Linux:** `make epub`
+**Windows:** `.\make epub`
