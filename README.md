@@ -15,14 +15,15 @@ Kdenlive documentation based on [Sphinx](https://www.sphinx-doc.org)
 
 After you cloned this repository (only need to be done once), use a command line to go to its root folder (e.g. with `cd /path/to/kdenlive-docs`)
 
-To generate a html web documentation run 
-**Linux:** `make html`
+To generate a html web documentation run  
+**Linux:** `make html`  
 **Windows:** `.\make html`
 
-To generate an epub ebook run
-**Linux:** `make epub`
+To generate an epub ebook run  
+**Linux:** `make epub`  
 **Windows:** `.\make epub`
 
-The HTML files is in the `build/html` directory (e.g. with `/path/to/kdenlive-docs/build/html`). Double click `index.html` to open the generated documentation.
 
-The epub file is in the `build/epub` directory (e.g. with `/path/to/kdenlive-docs/build/epub`). Double click `index.xhtml` to open the generated documentation.
+The HTML is generated in `build/html` (e.g. with `/path/to/kdenlive-docs/build/html`). Open the web document by double click `index.html`.
+
+The epub ebook is generated in `build/epub` (e.g. with `/path/to/kdenlive-docs/build/epub`). Open the ebook by double click `index.xhtml`.
