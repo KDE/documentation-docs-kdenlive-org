@@ -6,6 +6,10 @@ import sys, os, re
 
 outputdir = "Kdenlive-Manual"
 skipnonen=True
+showwarnings=False
+
+wikifiles = []
+globalwarnings = []
 
 locales={'aa': 'Afar',
 'ab': 'Abkhazian',
@@ -132,6 +136,7 @@ locales={'aa': 'Afar',
 'pl': 'Polish',
 'ps': 'Pushto',
 'pt': 'Portuguese',
+'pt-br': 'Brazilian Portuguese',
 'qu': 'Quechua',
 'rn': 'Rundi',
 'ro': 'Romanian',
@@ -181,15 +186,24 @@ locales={'aa': 'Afar',
 'yi': 'Yiddish',
 'yo': 'Yoruba',
 'zh': 'Chinese',
+'zh-cn': 'Chinese (Simplified)',
+'zh-hans': 'Chinese (Simplified)',
+'zh-tw': 'Chinese (Taiwan))',
+'zh-hant': 'Chinese (Traditional)',
 'zu': 'Zulu'}
 
 def page_get_title(page):
-    return re.search("(?<=<title>)([\s\S]*?)(?=<\/title>)", page)
+    title = re.search("(?<=<title>)([\s\S]*?)(?=<\/title>)", page)
+    if title:
+        title = title.group().casefold()
+        return title.replace(' ', '_')
+    else:
+        return False
 
 def page_get_name(page):
     title = page_get_title(page)
     if title:
-        title = title.group().split("/")
+        title = title.split("/")
         if title[-1] in locales:
             return title[-2] + "-" + title[-1]
         else:
@@ -200,7 +214,7 @@ def page_get_name(page):
 def page_is_english(page):
     title = page_get_title(page)
     if title:
-        title = title.group().split("/")
+        title = title.split("/")
         return title[-1] not in locales
     else:
         return False
@@ -208,11 +222,11 @@ def page_is_english(page):
 def page_get_path(page):
     title = page_get_title(page)
     if title:
-        title = title.group().split("/")
-        if len(title) > 1 and "Kdenlive" in title:
-            title.remove("Kdenlive")
-        if len(title) > 1 and "Manual" in title:
-            title.remove("Manual")
+        title = title.split("/")
+        if len(title) > 1 and "kdenlive" in title:
+            title.remove("kdenlive")
+        if len(title) > 1 and "manual" in title:
+            title.remove("manual")
         if len(title) > 1:
             if title[-1] in locales:
                 if len(title) < 3:
@@ -226,41 +240,350 @@ def page_get_path(page):
     else:
         return outputdir
 
-def replace_regex(content, regex, replacement):
-    such=re.compile(regex, re.DOTALL)
-    for match in such.findall(content):
-        content=content.replace(match, replacement)
+def remove_regex(content, regex):
+    return re.sub(regex, '', content, flags=re.DOTALL | re.I)
+
+def rewrite_admonition(content, w, s):
+    res = re.compile('(?<=\{\{'+w+'\|)([\s\S]*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        if '2=' in match and '1=' in match:
+            e = match.replace('1= ', '').replace('2= ', '').split('|')
+            content = content.replace('{{'+w+'|%s}}' %match, '.. %s:: %s\n\n   %s\n' %(s, e[0], e[1]))
+        else:
+            lines = match.replace('1= ', '').split('\n')
+            content = content.replace('{{'+w+'|%s}}' %match, '.. %s::\n\n   %s\n' %(s, '\n   '.join(lines)))
     return content
 
-def reformat_content(content):
+def rewrite_heading(content, level, linechar, first=False):
+    equal = '='
+    while len(equal) < level:
+        equal = equal + '='
+    res = re.compile('(?<=={'+str(level)+'})[^=\n]+?(?=={'+str(level)+'})', re.DOTALL)
+    for match in res.findall(content):
+        n = match
+        while n.startswith(' '):
+            n = n[1:]
+        while n.endswith(' '):
+            n = n[:-1]
+        line = linechar
+        while len(line) < len(n):
+            line = line + linechar
+        if first:
+            replacement = '%s\n%s\n\n.. contents::\n\n' %(n, line)
+            first = False
+        else:
+            replacement = '\n%s\n%s\n' %(n, line)
+        content = content.replace('%s%s%s' %(equal, match, equal), replacement)
+    return content
 
-    # remove [[Category:Kdenlive]]
-    content = content.replace('[[Category:Kdenlive]]', '')
+def rewrite_embedvideo(content, service, url):
+    content = content.replace('{{#evp:%s' %service.casefold(), '{{#ev:%s' %service.casefold())
+
+    res = re.compile('(?<=\{\{#ev:'+service.casefold()+'\|)(.*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        a = match.split('|')
+        if len(a) > 3:
+            content = content.replace('{{#ev:%s|%s}}' %(service.casefold() , match), '`%s(%s) <%s%s>`_' %(a[3], service, url, a[0]))
+        else:
+            content = content.replace('{{#ev:%s|%s}}' %(service.casefold() , match), '%s%s' %(url, a[0]))
+    return content
+
+def reformat_content(content, fullpath):
+    warnings = []
+
+    # rewrite code formatting (needs to be done first do avoid conflicts)
+    res = re.compile('(?<=&lt;code&gt;&lt;nowiki&gt;)(.*?)(?=&lt;\/nowiki&gt;&lt;\/code&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;code&gt;&lt;nowiki&gt;%s&lt;/nowiki&gt;&lt;/code&gt;' %match, '``%s``' %match.replace('&lt;', '<').replace('&gt;', '>'))
+
+    res = re.compile('(?<=&lt;code&gt;)(.*?)(?=&lt;\/code&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;code&gt;%s&lt;/code&gt;' %match, '``%s``' %match.replace('&lt;', '<').replace('&gt;', '>'))
+
+    res = re.compile('(?<=&lt;nowiki&gt;)(.*?)(?=&lt;\/nowiki&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;nowiki&gt;%s&lt;/nowiki&gt;' %match, '``%s``' %match.replace('&lt;', '<').replace('&gt;', '>'))
+
+    # rewrite input and output to code formatting
+    for tag in ['Input','Output']:
+        content = content.replace('{{%s|1=' %tag, '{{%s|' %tag)
+        res = re.compile('(?<=\{\{'+tag+'\|)([\s\S]*?)(?=\}\})', re.DOTALL)
+        for match in res.findall(content):
+            lines = match.split('\n')
+            content = content.replace('{{%s|%s}}' %(tag, match), '.. code-block:: bash\n\n   %s' %'\n   '.join(lines))
+
+    res = re.compile('(?<=&lt;syntaxhighlight lang="bash"&gt;\n)[\s\S]*?(?=&lt;/syntaxhighlight&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;syntaxhighlight lang="bash"&gt;\n%s&lt;/syntaxhighlight&gt;' %match, match)
+
+    content=re.sub('vers*(ions)* &gt;=', 'version >=', content, flags=re.I)
+    content=re.sub('vers*(ions)* &gt;', 'version >', content, flags=re.I)
+    content=re.sub('vers*(ions)* &lt;=', 'version <=', content, flags=re.I)
+    content=re.sub('vers*(ions)* &lt;', 'version <', content, flags=re.I)
+
+    # remove [[Category:]]
+    content=remove_regex(content, '\[\[Category:.*?\]\]\n*')
 
     # remove side switcher
-    content=replace_regex(content, '{{Prevnext2[\s\S]*?}}', '')
+    content=remove_regex(content, '{{Prevnext2[\s\S]*?}}')
 
     # replace new line sequence
-    content = content.replace('&lt;br&gt;', '\n')
+    content=re.sub('&lt;br *.*/*&gt;', '\n', content, flags=re.I)
+    content=remove_regex(content, '&lt;div class="clearfix"&gt;&lt;/div&gt;')
 
     # remove translation patterns
-    content=replace_regex(content, '&lt;!--T:.*?--&gt;', '')
-    content=content.replace('&lt;languages/&gt;\n', '')
-    content=content.replace('&lt;translate&gt;\n', '')
-    content=content.replace('&lt;/translate&gt;', '')
-    content=content.replace('Special:myLanguage/', '')
+    content=remove_regex(content, '&lt;!--T:.*?--&gt;')
+    content=remove_regex(content, '&lt;languages */&gt;\n*')
+    content=remove_regex(content, '&lt;/*translate&gt;')
+    content=remove_regex(content, 'Special:MyLanguage/')
+    #content=remove_regex(content, '({\|class="tablecenter" style="border: 1px solid grey;")[\s\S]*?(\|})')
 
-    # {{#ev:youtube|bMwbffYIS40}}
+    content=remove_regex(content, '&lt;div class="manualtoc"&gt;\n')
 
-    # [[Kdenlive/Manual/Effects/Alpha manipulation/Color Selection|Colour Selection]]
+    content=remove_regex(content, '&lt;references */&gt;')
 
-    #
+    content=remove_regex(content, '&lt;\!--\{*--\&gt;')
+    content=remove_regex(content, '&lt;\!--\}*--\&gt;')
+
+    content=remove_regex(content, '(&lt;span id=")(.*?)("&gt;&lt;\/span&gt;)')
+
+    toplevel = 0
+    res = re.search('(={2})[^=\n]+?(={2})[^=]', content)
+    if res:
+        toplevel = 2
+    else:
+        res = re.search('(={3})[^=\n]+?(={3})[^=]', content)
+        if res:
+            toplevel = 3
+        else:
+            res = re.search('(={4})[^=\n]+?(={4})[^=]', content)
+            if res:
+                toplevel = 4
+
+    content = rewrite_heading(content, toplevel + 2, '~')
+    content = rewrite_heading(content, toplevel + 1, '-')
+    content = rewrite_heading(content, toplevel, '=', True)
+
+    # rewrite todos to commends
+    res = re.compile('(?<=\{\{:Kdenlive/Templates/ContentTodo\|\n)([\s\S]*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        lines = match.split('\n')
+        content = content.replace('{{:Kdenlive/Templates/ContentTodo|\n'+match+'}}', '..\n   TODO:\n   '+'   '.join(lines) + '\n')
+        warnings.append('[ ] TODO: %s' %' '.join(lines))
+
+    # rewrite comments
+    res = re.compile('(?<=&lt;!--)(.*?)(?=--&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;!--'+match+'--&gt;', '.. '+match)
+        warnings.append('[ ] INFO: comment ' + match.replace('\n' , ' '))
+
+    # rewrite file paths
+    res = re.compile('(?<=&lt;tt&gt;)(.*?)(?=&lt;\/tt&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;tt&gt;%s&lt;/tt&gt;' %match, ':file:`%s`' %match)
+
+    # rewrite keyboard sequences
+    res = re.compile('(?<=&lt;keycap&gt;)(.*?)(?=&lt;\/keycap&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;keycap&gt;%s&lt;/keycap&gt;' %match, ':kbd:`%s`' %match)
+
+    # rewrite paths
+    res = re.compile('(?<=\{\{Path\|)([\s\S]*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('{{Path|%s}}' %match, ':file:` /%s`' %match)
+
+    # rewrite icons
+    res = re.compile('(?<=\{\{Icon\|)([\s\S]*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        wikifiles.append('Icon: %s.svg' %match)
+        content = content.replace('{{Icon|%s}}' %match, '.. image:: /images/icons/%s.svg' %match)
+
+    res = re.compile('(?<=\{\{Icon1\|)([\s\S]*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        wikifiles.append('Icon: %s' %match)
+        content = content.replace('{{Icon1|%s}}' %match, ' .. image:: /images/icons/%s' %match)
+
+    # rewrite admonitions
+    content = rewrite_admonition(content, 'Tip', 'tip')
+    content = rewrite_admonition(content, 'Note', 'note')
+    content = rewrite_admonition(content, 'Info', 'hint')
+    content = rewrite_admonition(content, 'Remember', 'note')
+    content = rewrite_admonition(content, 'Warning', 'warning')
+
+    # rewrite bold line formatting
+    res = re.compile('(?<=\'\'\')(.*?)(?=\'\'\')', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('\'\'\'%s\'\'\'' %match, '**%s**' %match)
+
+    res = re.compile('(?<=&lt;b&gt;)(.*?)(?=&lt;\/b&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('&lt;b&gt;%s&lt;/b&gt;' %match, '\n**%s**\n' %match)
+
+    res = re.compile('(?<=\n;)(.*?)(?=\n)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('\n;%s\n' %match, '\n**%s**\n' %match)
+
+    # rewrite italic inline formatting
+    res = re.compile('(?<=\'\')(.*?)(?=\'\')', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('\'\'%s\'\'' %match, '*%s*' %match)
+
+    # rewrite bold line indents
+    res = re.compile('(?<=\n: )(.*?)(?=\n)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('\n: %s\n' %match, '\n   %s\n' %match)
+    res = re.compile('(?<=\n:)(.*?)(?=\n)', re.DOTALL)
+    for match in res.findall(content):
+        content = content.replace('\n:%s\n' %match, '\n   %s\n' %match)
+
+    # rewrite menu menuchoice
+    res = re.compile('(?<=&lt;menuchoice&gt;)(.*?)(?=&lt;/menuchoice&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        e = match.split(' -&gt; ')
+        if not len(e) > 1:
+            e = match.split('-&gt;')
+        if len(e) > 1:
+            content = content.replace('&lt;menuchoice&gt;%s&lt;/menuchoice&gt;' %match, ':menuselection:`%s`' %' --> '.join(e))
+        else:
+            content = content.replace('&lt;menuchoice&gt;%s&lt;/menuchoice&gt;' %match, ':menuselection:`%s`' %match)
+
+    # rewrite embed video templates
+    content = rewrite_embedvideo(content, 'YouTube', 'https://youtu.be/')
+    content = rewrite_embedvideo(content, 'Vimeo', 'https://vimeo.com/')
+
+    res = re.compile('(?<=\{\{#ev:)(.*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        print('[ ] ERROR: ev embed video with service %s that is not implemented yet – n file %s' %(match, fullpath))
+
+    res = re.compile('(?<=\{\{#evp:)(.*?)(?=\}\})', re.DOTALL)
+    for match in res.findall(content):
+        print('[ ] ERROR: evp embed video with service %s that is not implemented yet – n file %s' %(match, fullpath))
+
+    # rewrite wiki files
+    for tag in ['File', 'file', 'Image']:
+        res = re.compile('(?<=\[\['+tag+':).*?(?=\]\])', re.DOTALL)
+        for match in res.findall(content):
+            a = match.split('|')
+            while a[0].startswith(' '):
+                a[0] = a[0][1:]
+            if '.mp4' in a[0]:
+                warnings.append('[ ] WARNING: Video file %s (not supported by Sphinx)' %(a[0]))
+                replacement = ' VIDEO FILE %s MISSING ' %a[0]
+            elif '.zip' in a[0]:
+                warnings.append('[ ] WARNING: Archive file %s (not supported by Sphinx)' %(a[0]))
+                replacement = '` Archive File: %s <%s>`_  ' %(a[0], a[0])
+            else:
+                replacement = '\n.. image:: /images/%s\n' %a[0]
+                wikifiles.append(a[0])
+                a.pop(0)
+                for e in a:
+                    if re.search('(center|left|right)',e):
+                        replacement = replacement + '\n   :align:: '+e
+                    elif re.search('[0-9]+px',e):
+                        replacement = replacement + '\n   :width:: '+e
+                    elif not re.search('(thumb|frame)',e):
+                        replacement = replacement + '\n   :alt:: '+e
+            content = content.replace('[[%s:%s]]' %(tag, match), replacement)
+
+    # [[a/b/c|xyz]]
+    for tag in ['Kdenlive/Manual/', ' Kdenlive/Manual/', '']:
+        res = re.compile('(?<=\[\['+tag+').*?\|.*?(?=\]\])', re.DOTALL)
+        for match in res.findall(content):
+            a = match.split('|')
+            b = a[0].split('/')
+            refname = b[-1].casefold()
+            if '#' in refname:
+                c = refname.split('#')
+                refname = c[1]
+            if a[1] and a[1].replace(' ', '_').casefold() != refname:
+                content = content.replace('[[%s%s]]' %(tag, match), ':ref:`%s<%s>`' %(refname.replace(' ', '_'), a[1]))
+            else:
+                content = content.replace('[[%s%s]]' %(tag, match), ':ref:`%s`' % refname.replace(' ', '_'))
+
+    # rewrite some specific links
+    for tag in ['K3b', 'Kaffeine']:
+        content = content.replace('[[%s]]' %tag, tag)
+
+    # rewrite external links
+    res = re.compile('(?<=\[)(http.*?)(?=\])', re.DOTALL)
+    for match in res.findall(content):
+        a = match.split(' ')
+        if len(a) > 1:
+            link = a[0]
+            a.pop(0)
+            name = ' '.join(a)
+            while name.startswith(' '):
+                name = name[1:]
+            content = content.replace('[' + match + ']', '`%s <%s>`_' %(name, link))
+        else:
+            link = match
+            content = content.replace('[' + match + ']', link)
+        # check for old bugtracker
+        if 'kdenlive.org/mantis' in link:
+            warnings.append('[ ] WARNING: link old mantis bug tracker %s' %link)
+
+    # tables (see effects.rst)
+    res = re.compile('(?<={\|)[\s\S]*?(?=\|})', re.DOTALL)
+    for match in res.findall(content):
+        if 'class=' in match:
+            tabcontent = re.search('\|-[\s\S]*', match)
+            if not tabcontent:
+                tabcontent = re.search('\|[\s\S]*', match)
+                items = tabcontent.group().split('|')
+                items = '\n'.join(items)
+                content = content.replace('{|%s|}' %match, items)
+                continue
+            else:
+                tabcontent = tabcontent.group()
+            tabcontent = tabcontent.replace('\n\n\n', '\n')
+            tabcontent = tabcontent.split('|-\n|')
+            res = re.search('(?<=!).*?(?=\n)', match)
+            col = 0
+            if res:
+                tabhead = res.group().split('!!')
+                col = len(tabhead)
+                table = '.. list-table::\n   :header-rows: 1\n\n   * - %s' %'\n     - '.join(tabhead)
+            else:
+                table = '.. list-table::\n'
+            if not tabcontent[0]:
+                tabcontent.pop(0)
+            for row in tabcontent:
+                cells = row.replace('\n', ' ')
+                cells = cells.split('||')
+                while col > 0 and len(cells) < col:
+                    cells.append(' -')
+                table = table + '\n   * - %s' %'\n     - '.join(cells)
+            content = content.replace('{|%s|}' %match, table)
+        else:
+            items = match.split('|')
+            items = '\n'.join(items)
+            content = content.replace('{|%s|}' %match, items)
 
     # reduce blank line
-    content=replace_regex(content, '\n{4,}', '\n\n\n')
+    content=re.sub('\n{4,}', '\n\n\n', content)
+
+    # rewrite footnotes
+    footnotes = []
+    res = re.compile('(?<=&lt;ref&gt;)(.*?)(?=&lt;\/ref&gt;)', re.DOTALL)
+    for match in res.findall(content):
+        footnotes.append('.. [%d] %s' %(len(footnotes)+1, match))
+        content = content.replace('&lt;ref&gt;' + match + '&lt;/ref&gt;', ' [%d]_ ' %len(footnotes))
+
+    for fn in footnotes:
+        content = content + fn + '\n'
+
+    content = content.replace('&amp;rarr;', '>')
+    content = content.replace('&amp;mdash;', '–')
+    content = content.replace(' &amp;', ' & ')
+    content = content.replace('&lt;', '<')
+    content = content.replace('&gt;', '>')
+
+    if warnings:
+        globalwarnings.append('**MESSAGES FOR FILE %s**\n' %fullpath)
+        globalwarnings.append('\n'.join(warnings))
+        globalwarnings.append('\n')
 
     return content
-
 
 def page_get_content(page):
     content = re.search("(?<=<text)([\s\S]*?)(?=<\/text>)", page)
@@ -284,17 +607,62 @@ for page in pages:
     if not page_get_title(page):
         pages.remove(page)
 
+count = 0
 for page in pages:
-
     if skipnonen and page_is_english(page):
         path = page_get_path(page)
+        if 'user:' in path:
+            continue
         if not os.path.isdir(path):
             os.makedirs(path)
-        content = page_get_content(page)
-        if content:
-            content = reformat_content(content.group())
-            f = open(path + "/" + page_get_name(page) + ".rst", "w")
+        raw = page_get_content(page)
+        if raw:
+            fullpath = path + "/" + page_get_name(page) + ".rst"
+
+            content = '.. _%s:\n\n%s' %(page_get_name(page).replace(' ','_').casefold(), reformat_content(raw.group(), fullpath))
+            f = open(fullpath, "w")
             f.write(content)
             f.close()
+            parentfolder = path.split('/')[-1]
+            if parentfolder == outputdir:
+                indexfile = outputdir + '/index.rst'
+            else:
+                indexfile = path+'.rst'
+            if os.path.isfile(indexfile):
+                f = open(indexfile, "r")
+                if f.read().find('toctree')  > -1:
+                    content = '   ' + fullpath.replace(outputdir+'/', '').replace('.rst', '') + '\n'
+                else:
+                    content = '.. toctree::\n'
+                    content = content + '   :maxdepth: 1\n'
+                    content = content + '   :caption: Contents:\n\n'
+                    content = content + '   ' + fullpath.replace(outputdir+'/', '').replace('.rst', '') + '\n'
+                f = open(indexfile, "a")
+                f.write(content)
+                f.close()
+            else:
+                content = 'Welcome to Kdenlive\'s documentation!\n'
+                content = content + '====================================\n'
+                content = content + '.. toctree::\n'
+                content = content + '   :maxdepth: 1\n'
+                content = content + '   :caption: Contents:\n\n'
+                content = content + '   ' + fullpath.replace(outputdir+'/', '').replace('.rst', '') + '\n'
+                f = open(indexfile, "w")
+                f.write(content)
+                f.close()
 
-print("Successfully wrote %d files to dir %s" %(len(pages), outputdir))
+            count = count + 1
+
+if showwarnings:
+    print('\n'.join(globalwarnings))
+if globalwarnings:
+    f = open('messages.md', "w")
+    f.write('\n'.join(globalwarnings))
+    f.close()
+    print('Messages have been written to messages.md')
+if wikifiles:
+    f = open('wikifiles.txt', "w")
+    f.write('\n'.join(wikifiles))
+    f.close()
+    print('Found %d (image) files that are not downloaded yet. You can find a list with filename in wikifiles.txt.' %len(wikifiles))
+print("Successfully wrote %d files out of %d possible pages (skipped %d) to dir %s" %(count, len(pages), len(pages)-count, outputdir))
