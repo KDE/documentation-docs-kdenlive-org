@@ -325,7 +325,13 @@ def reformat_content(content, fullpath):
         res = re.compile('(?<=\{\{'+tag+'\|)([\s\S]*?)(?=\}\})', re.DOTALL)
         for match in res.findall(content):
             lines = match.split('\n')
-            content = content.replace('{{%s|%s}}' %(tag, match), '.. code-block:: bash\n\n   %s' %'\n   '.join(lines))
+            r = '\n   '.join(lines)
+            while r.startswith('``'):
+                r = r[2:]
+            while r.endswith('``'):
+                r = r[:-2]
+
+            content = content.replace('{{%s|%s}}' %(tag, match), '\n\n.. code-block:: bash\n\n   %s' %r)
 
     res = re.compile('(?<=&lt;syntaxhighlight lang="bash"&gt;\n)[\s\S]*?(?=&lt;/syntaxhighlight&gt;)', re.DOTALL)
     for match in res.findall(content):
