@@ -3,10 +3,14 @@
 # Author: Julius Künzel <jk.kdedev@smartlab.uber.space>
 
 import sys, os, re
+import subprocess
+import json
+
 
 outputdir = "Kdenlive-Manual"
 skipnonen=True
 showwarnings=False
+fetchauthors=False
 
 wikifiles = []
 globalwarnings = []
@@ -192,11 +196,17 @@ locales={'aa': 'Afar',
 'zh-hant': 'Chinese (Traditional)',
 'zu': 'Zulu'}
 
-def page_get_title(page):
+def page_get_raw_title(page):
     title = re.search("(?<=<title>)([\s\S]*?)(?=<\/title>)", page)
     if title:
-        title = title.group().casefold()
-        return title.replace(' ', '_')
+        return title.group()
+    else:
+        return False
+
+def page_get_title(page):
+    title = page_get_raw_title(page)
+    if title:
+        return title.casefold().replace(' ', '_')
     else:
         return False
 
@@ -239,6 +249,35 @@ def page_get_path(page):
             return outputdir
     else:
         return outputdir
+
+def page_get_authors(page):
+    authors = []
+    if not fetchauthors:
+        return False
+    title = page_get_raw_title(page)
+    url = 'https://userbase.kde.org/api.php?action=query&prop=contributors&format=json&pclimit=max&titles=%s' %title
+    result = subprocess.run(['wget', '-qO-', url], stdout=subprocess.PIPE)
+    #print(str(result.stdout))
+    contents = json.loads(str(result.stdout)[2:-1])
+    if contents:
+        pages = contents['query']['pages']
+        for key in pages.keys():
+            namedict =	{
+                "Jlskuz": "Julius Künzel <jk.kdedev@smartlab.uber.space",
+                "J-b-m": "Jean-Baptiste Mardelle <jb@kdenlive.org>",
+                "Vpinon": "Vincent Pinon <vpinon@kde.org>",
+                "Yurchor": "Yuri Chornoivan",
+                "Granjow": "Simon Eugster",
+                "Merlimau": "Eugen Mohr",
+                "Alund": "Anders Lund",
+                "Claus chr", "Claus Christensen"
+            }
+            for author in pages[key]['contributors']:
+                if namedict.get(author['name']):
+                    authors.append(namedict.get(author['name']))
+                else:
+                    authors.append('%s (https://userbase.kde.org/User:%s)' %(author['name'], author['name']))
+    return authors
 
 def remove_regex(content, regex):
     return re.sub(regex, '', content, flags=re.DOTALL | re.I)
@@ -695,9 +734,17 @@ for page in pages:
             os.makedirs(path)
         raw = page_get_content(page)
         if raw:
+
             fullpath = path + "/" + page_get_name(page) + ".rst"
 
-            content = '.. _%s:\n\n%s' %(page_get_name(page).replace(' ','_').casefold(), reformat_content(raw.group(), fullpath))
+            authors = page_get_authors(page)
+            meta = '.. metadata-placeholder\n\n'
+            if authors:
+                print('processing page %d' %(count))
+                meta = meta + '   :authors: - %s\n' %'\n             - '.join(authors)
+            meta = meta + '   :license: Creative Commons License SA 4.0'
+
+            content = '%s\n\n.. _%s:\n\n%s' %(meta, page_get_name(page).replace(' ','_').casefold(), reformat_content(raw.group(), fullpath))
             #content = '%s' %(reformat_content(raw.group(), fullpath))
             f = open(fullpath, "w")
             f.write(content)
