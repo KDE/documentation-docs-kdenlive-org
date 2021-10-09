@@ -10,7 +10,7 @@ import json
 outputdir = "Kdenlive-Manual"
 skipnonen=True
 showwarnings=False
-fetchauthors=False
+fetchauthors=True
 
 wikifiles = []
 globalwarnings = []
@@ -270,7 +270,7 @@ def page_get_authors(page):
                 "Granjow": "Simon Eugster",
                 "Merlimau": "Eugen Mohr",
                 "Alund": "Anders Lund",
-                "Claus chr", "Claus Christensen"
+                "Claus chr": "Claus Christensen"
             }
             for author in pages[key]['contributors']:
                 if namedict.get(author['name']):
