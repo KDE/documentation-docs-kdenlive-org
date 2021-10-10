@@ -14,6 +14,7 @@ fetchauthors=True
 
 wikifiles = []
 globalwarnings = []
+allauthors = {''}
 
 locales={'aa': 'Afar',
 'ab': 'Abkhazian',
@@ -267,16 +268,21 @@ def page_get_authors(page):
                 "J-b-m": "Jean-Baptiste Mardelle <jb@kdenlive.org>",
                 "Vpinon": "Vincent Pinon <vpinon@kde.org>",
                 "Yurchor": "Yuri Chornoivan",
-                "Granjow": "Simon Eugster",
+                "Granjow": "Simon Eugster <simon.eu@gmail.com>",
                 "Merlimau": "Eugen Mohr",
                 "Alund": "Anders Lund",
-                "Claus chr": "Claus Christensen"
+                "Ttill": "Till Theato <root@ttill.de>",
+                "Camillemo": "Camille Moulin",
+                "Claus chr": "Claus Christensen",
+                "Ognarb": "Carl Schwan <carl@carlschwan.eu>"
             }
             for author in pages[key]['contributors']:
                 if namedict.get(author['name']):
                     authors.append(namedict.get(author['name']))
+                    allauthors.add(namedict.get(author['name']))
                 else:
                     authors.append('%s (https://userbase.kde.org/User:%s)' %(author['name'], author['name']))
+                    allauthors.add('%s (https://userbase.kde.org/User:%s)' %(author['name'], author['name']))
     return authors
 
 def remove_regex(content, regex):
@@ -741,7 +747,7 @@ for page in pages:
             meta = '.. metadata-placeholder\n\n'
             if authors:
                 print('processing page %d' %(count))
-                meta = meta + '   :authors: - %s\n' %'\n             - '.join(authors)
+                meta = meta + '   :authors: - %s\n\n' %'\n             - '.join(authors)
             meta = meta + '   :license: Creative Commons License SA 4.0'
 
             content = '%s\n\n.. _%s:\n\n%s' %(meta, page_get_name(page).replace(' ','_').casefold(), reformat_content(raw.group(), fullpath))
@@ -789,4 +795,9 @@ if wikifiles:
     f.write('\n'.join(wikifiles))
     f.close()
     print('Found %d (image) files that are not downloaded yet. You can find a list with filename in wikifiles.txt' %len(wikifiles))
+if allauthors:
+    f = open('authors.txt', "w")
+    f.write('\n'.join(allauthors))
+    f.close()
+    print('Found %d authors. Names are written to authors.txt' %len(allauthors))
 print("Successfully wrote %d files out of %d possible pages (skipped %d) to dir %s" %(count, len(pages), len(pages)-count, outputdir))
