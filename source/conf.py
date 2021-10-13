@@ -19,11 +19,11 @@
 
 project = 'Kdenlive'
 description = 'The official Kdenlive Documentation'
-copyright = '2021, Kdenlive Community'
+copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise'
 author = 'Kdenlive Community'
 
 # The full version, including alpha/beta/rc tags
-release = '["21.04","21.08","21.12"]'
+release = '21.12'
 
 
 # -- General configuration ---------------------------------------------------
@@ -35,7 +35,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['../resources/templates']
+templates_path = ['../ressources/templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
