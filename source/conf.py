@@ -53,6 +53,15 @@ master_doc = 'index'
 # Usually you set "language" from the command line for these cases.
 language = 'en'
 
+# This reStructuredText will be included at the begin of every source file.
+#rst_prolog = ""
+# This reStructuredText will be included at the end of every source file.
+rst_epilog = """
+.. |kdenlive-add-clip| image:: /images/icons/kdenlive-add-clip.svg
+   :width: 22px
+
+"""
+
 
 # -- Options for HTML output -------------------------------------------------
 

@@ -4,8 +4,8 @@ Welcome to Kdenlive's documentation!
    :caption: Contents:
 
    installation
-   projects_and_files
    quickstart
+   projects_and_files
    shootinghints
    troubleshooting_and_common_problems
    rendering
