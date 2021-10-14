@@ -21,60 +21,50 @@
 .. _installation:
 
 
-
 Installation
 ============
 
 .. contents::
 
-
-
-
-Visit the `download <https://kdenlive.org/download/>`_ page of the Kdenlive Web site for up to date information on installing **Kdenlive**.  (Aug 2017)
-
-
-Follow this link for  :ref:`historical_install_information`
+Visit the `download <https://kdenlive.org/download/>`_ page of the Kdenlive Web site for up to date information on installing **Kdenlive**.
 
 
 Configuration Information
 -------------------------
 
-
-
 Kdenlive's application-wide persistent settings are stored in the following locations, depending on your platform. 
 
 
-GNU/Linux
-~~~~~~~~~
+.. list-table::
+   :header-rows: 1
 
-
-
-* **~/.config/kdenliverc** : contains the general settings of the application. Delete this and restart kdenlive to reset the application to "factory" settings
-
-
-* **~/.config/session/kdenlive_104534dcfdb61d887154xxxxxxxxxxx_154yyyyyy_98zzzz** : temporary session info
-
-
-* ~/.cache/kdenlive : cache location storing audio thumbnails, video thumbnails, and proxy clips
-
-
-* ~/.local/share/kdenlive/HD : lumas folder inside here contains the files used for   :ref:`wipe`
-
-
-* ~/.local/share/stalefiles/kdenlive
-
-
-Windows
-~~~~~~~
-
-
-
-* %LOCALAPPDATA%\kdenlive\cache : cache location storing audio thumbnails, video thumbnails, and proxy clips
-
-
-* %APPDATA%\kdenlive : contains user library clips, speech models, profiles and titles
-
-
-* %PROGRAMFILES%\kdenlive\bin\data\kdenlive\lumas : lumas folder inside here contains the files used for :ref:`wipe`
+   * - Description
+     - Linux
+     - Windows
+     - macOS
+   * - General settings of the application. Delete this and restart Kdenlive to reset the application to "factory" settings
+     - :file:`~/.config/kdenliverc`
+     -
+     -
+   * - temporary session info
+     - :file:`~/.config/session/kdenlive_*`
+     -
+     -
+   * - cache location storing audio and video thumbnails, and proxy clips
+     - :file:`~/.cache/kdenlive`
+     - :file:`%LOCALAPPDATA%\kdenlive\cache`
+     -
+   * - contains user library clips, speech models, profiles and titles
+     - :file:`~/.local/share/kdenlive`
+     - :file:`%APPDATA%\kdenlive`
+     -
+   * - lumas folder inside here contains the files used for :ref:`wipe`
+     - :file:`~/.local/share/kdenlive/HD`
+     - :file:`%PROGRAMFILES%\kdenlive\bin\data\kdenlive\lumas`
+     -
+   * - Auto Save Recovery files
+     - :file:`~/.local/share/stalefiles/kdenlive`
+     -
+     -
 
 
