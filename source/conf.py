@@ -60,6 +60,9 @@ rst_epilog = """
 .. |kdenlive-add-clip| image:: /images/icons/kdenlive-add-clip.svg
    :width: 22px
 
+.. |application-menu| image:: /images/icons/application-menu.svg
+   :width: 22px
+
 """
 
 

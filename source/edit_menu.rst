@@ -16,22 +16,6 @@
 Edit Menu
 =========
 
-.. contents::
-
- 
-
-
-* :ref:`undo`
-
-* :ref:`redo`
-
-* :ref:`copy`
-
-* :ref:`paste`
-
-* :ref:`paste_effects`
-
-
 .. toctree::
    :caption: Contents:
 
