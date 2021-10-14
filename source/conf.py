@@ -71,3 +71,11 @@ html_static_path = ['../ressources/static']
 html_favicon = '../ressources/static/images/favicon.ico'
 
 html_logo = '../ressources/static/images/logo-light.svg'
+
+# -- Internationalization Options --------------------------------------------
+
+locale_dirs = ['../locale/']   # Where the PO files will be stored at
+gettext_compact = False     # optional.
+#gettext_additional_targets = ['image', 'index', 'literal-block'] # allows images to be translatable
+#figure_language_filename = "{path}{language}/{basename}{ext}"
+
