@@ -20,9 +20,6 @@ Transitions
 
 .. contents::
 
-
-
-
 In **kdenlive** a transition is a wipe or dissolve composition between two overlapping clips.
 
 
@@ -35,9 +32,7 @@ Wipes are greyscale images in .pgm (Portable GreyMap) format, and during the tra
 Mix Clips
 ---------
 
-
-
-Since 20.12
+.. versionadded:: 20.12
 
 
 .. image:: /images/Kdenlive_mixed_clip_800.png
@@ -86,8 +81,6 @@ To delete the transition, select it and press the delete key.
 
 Transitions between clips on different tracks
 ---------------------------------------------
-
-
 
 This is the legacy way of doing transitions in **kdenlive**.
 

@@ -16,13 +16,8 @@ Full Luma
 
 .. contents::
 
-
-
-
 Advance Clip Property - Full Luma Range
 ---------------------------------------
-
-
 
 A clip can have its full luma flag set from the :ref:`clips` 
 

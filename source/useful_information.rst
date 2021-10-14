@@ -16,31 +16,7 @@
 Useful Information
 ==================
 
-.. contents::
-
-
-
-
-* :ref:`faq`
-
-
-* :ref:`versionhistory`
-
-
-* :ref:`shortcuts`
-
-
-* :ref:`surround_sound`
-
-
-* :ref:`tips_tricks`
-
-
-* :ref:`useful_resources`
-
-
 *  `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_
-
 
 .. toctree::
    :caption: Contents:

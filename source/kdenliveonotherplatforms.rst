@@ -9,22 +9,9 @@
 
 .. _kdenliveonotherplatforms:
 
-..  Please use level 2 top heading, i.e. "==" 
-
 
 Kdenlive On Other Desktops and Operating Systems
 ================================================
-
-.. contents::
-
-
-
-
-* :ref:`non-kde_desktops`
-
-
-* :ref:`osx`
-
 
 .. toctree::
    :caption: Contents:

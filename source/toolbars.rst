@@ -16,15 +16,10 @@ Toolbars
 
 .. contents::
 
-
-
-
 Main and Extra Toolbars
 -----------------------
 
-
-
-* *Kdenlive** has a *Main Toolbar*,    
+**Kdenlive** has a *Main Toolbar*,
 
 .. image:: /images/Kdenlive_Main_tool_bar.png
 
@@ -45,8 +40,6 @@ For more info on the Bottom Toolbar see :ref:`editing`.
 Configuring the Toolbars
 ------------------------
 
-
-
 The tools that are available on these are defined in :menuselection:`Settings --> Configure Toolbars`.
 
 
@@ -56,8 +49,4 @@ The tools that are available on these are defined in :menuselection:`Settings --
 Hiding and Showing the Toolbars
 -------------------------------
 
-
-
 You can toggle the hiding and showing of the toolbars from the  :ref:`view_menu` using the :menuselection:`Main Toolbar` and :menuselection:`Extra Toolbar` menu items. You can also control this from the :ref:`toolbars_shown` menu item in the :menuselection:`Settings` menu.
-
-

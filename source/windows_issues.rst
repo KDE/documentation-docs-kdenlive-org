@@ -16,9 +16,6 @@ Windows Issues
 
 .. contents::
 
-
-
-
 The current **Kdenlive** on Windows® (April 2020, version 20.04.0) has a few issues that have workarounds. The purpose of this wiki page is to document these issues and their workarounds.
 
 
@@ -39,14 +36,11 @@ This application failed to start because no Qt platform plugin could be initiali
 
 Hit :kbd:`CTRL + SHIFT + ,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
 
-
 Download `qt.conf <https://bugs.kde.org/show_bug.cgi?id=415408>`_. Put the file :file:`qt.conf` into the "bin" folder (the folder where :file:`kdenlive.exe` is)
 
 
 First time use of Kdenlive
 --------------------------
-
-
 
 This issue should be solved with Windows version 19.04.2-6. That :file:`kdenliverc` is correct set up please start Kdenlive twice (start -> close -> start). Then start your work.
 
@@ -54,23 +48,19 @@ This issue should be solved with Windows version 19.04.2-6. That :file:`kdenlive
 Intel graphic card driver
 -------------------------
 
-
-
 Updated Intel graphic driver versions lead to a corrupted Kdenlive GUI.
 
-* *Solution 1:** Open Kdenlive. Move the mouse to the top. The menus are showing up. Try to reach :menuselection:`Settings` -> :menuselection:`openGL backend` -> enable :menuselection:`OpenGLES`/:menuselection:`DirectX`. Restart Kdenlive. This should solve your Intel graphic driver issue. 
+**Solution 1:** Open Kdenlive. Move the mouse to the top. The menus are showing up. Try to reach :menuselection:`Settings` -> :menuselection:`openGL backend` -> enable :menuselection:`OpenGLES`/:menuselection:`DirectX`. Restart Kdenlive. This should solve your Intel graphic driver issue.
 
 Maybe this statement helps: https://forum.kde.org/viewtopic.php?f=265&amp;t=161309#p425882.
 
 
-* *Solution 2:** Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it open :file:`kdenliverc` with an editor. Search for ``[misc]`` and delete ``[misc]`` and the following entry. 
+**Solution 2:** Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it open :file:`kdenliverc` with an editor. Search for ``[misc]`` and delete ``[misc]`` and the following entry.
 . Restart Kdenlive.
 
 
 Timeline: right-click menu close immediately after releasing mouse button
 -------------------------------------------------------------------------
-
-
 
 Don’t use the style :menuselection:`Fusion`.   
 
@@ -81,15 +71,11 @@ Go to: :menuselection:`Settings` -> :menuselection:`Style` and choose :menuselec
 Icons are missing
 -----------------
 
-
-
 Go to: :menuselection:`settings` -> untick :menuselection:`force breeze icon theme`. Kdenlive restarts and you should see the icons.
 
 
 Cannot open projects made with previous version, timeline snaps back, cannot import clip
 ----------------------------------------------------------------------------------------
-
-
 
 Go to: :menuselection:`Help` -> :menuselection:`Reset configuration`. 
 
@@ -106,8 +92,6 @@ If you have still problems try :ref:`windows_issues`.
 Windows 10: timeline stuttering or Kdenlive hangs.
 --------------------------------------------------
 
-
-
 Most probably you got a major Win10 update (i.e 1809). If so you have to update all drivers for audio and video.   
    
 Intel driver can be updated with this updater: https://downloadcenter.intel.com/en/download/28425/Intel-Driver-Support-Assistant.
@@ -115,8 +99,6 @@ Intel driver can be updated with this updater: https://downloadcenter.intel.com/
 
 "Clip is invalid, will be removed"
 ----------------------------------
-
-
 
 This bug can appear if you do a clean reinstall of **Kdenlive** (see above). Simply close and open **Kdenlive** once, and it should be fixed.
 
@@ -126,8 +108,6 @@ Additionally this can be a problem either with the :file:`kdenliverc` file (see 
 
 Any critical bug
 ----------------
-
-
 
 This describes the process of doing a clean install on Windows®.
 
@@ -152,23 +132,17 @@ Reinstall the latest version of **Kdenlive** from the `download page <https://kd
 JPG files appear as white picture after rendering
 -------------------------------------------------
 
-
-
 This issue should be solved with Windows version 19.04.0. If not convert the JPG to PNG and it renders correctly.
 
 
 Play/Pause Issue
 ----------------
 
-
-
 This issue is solved with Windows version 18.08.2 (30. Oct 2018). Get the current version from the `download page <https://kdenlive.org/en/download>`_.
 
 
 Qt rendering crash
 ------------------
-
-
 
 Hit :kbd:`CTRL + SHIFT + ,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
 
@@ -178,8 +152,6 @@ When switching from kdenlive for windows 17.12 > 18.04/18.08, a Qt rendering cra
 
 Kdenlive cannot be deleted, running process on exit
 ---------------------------------------------------
-
-
 
 This issue is solved with Windows version 18.12.1. Get the current version from the `download page <https://kdenlive.org/en/download>`_.
 
@@ -197,16 +169,12 @@ Or download the ` Archive File: Kdenlive-kill.zip <Kdenlive-kill.zip>`_
 Kdenlive cannot be uninstalled
 ------------------------------
 
-
-
 If the uninstaller doesn't work you can delete following folder: :file:` /C:\Program Files\kdenlive`.
 You have to manually delete in the start menu the Kdenlive folder.
 
 
 Kdenlive crash or green Monitor
 -------------------------------
-
-
 
 Get all newest Windows® updates. Afterwards, update your graphic card driver and your sound card driver and your printer driver.
 Some crashes could occur of incompatibility of the graphics card and sound card with the newest Windows®10 updates (18.09 update).
@@ -225,16 +193,10 @@ Make sure you set processing thread to 1: :kbd:`Ctrl+Shift+, (comma)` > :menusel
 General Issues
 ==============
 
-
-
 The current **Kdenlive** version (November 2018, version 18.08.3) has a few issues that have workarounds. 
 
 
 Audio Pops and Ticks in Render
 ------------------------------
 
-
-
-If this problem appears make sure the audio file is: 16-bit PCM WAV. 
-
-
+If this problem appears make sure the audio file is: 16-bit PCM WAV.

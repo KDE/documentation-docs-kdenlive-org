@@ -105,7 +105,7 @@ Since some cutlery is needed as well, grab the spoon clip and drop it on the fir
   :align: left
   :alt: Timeline cursor
 
-The result can already be previewed by pressing :kbd:`Space` (or the :menuselection:`Play` button in the project monitor). You will see the Napoli directly followed by a Spoon. If the timeline cursor is not at the beginning, the project monitor will start playing somewhere in the middle; you can move it by dragging it either on the timeline ruler or in the project monitor. If you prefer keyboard shortcuts, :kbd:`Ctrl + Home` does the same for the monitor that is activated. (Select the :menuselection:`Project Monitor` if it is not selected yet before using the shortcut.)
+The result can already be previewed by pressing :kbd:`Space` (or the :guilabel:`Play` button in the project monitor). You will see the Napoli directly followed by a Spoon. If the timeline cursor is not at the beginning, the project monitor will start playing somewhere in the middle; you can move it by dragging it either on the timeline ruler or in the project monitor. If you prefer keyboard shortcuts, :kbd:`Ctrl + Home` does the same for the monitor that is activated. (Select the :menuselection:`Project Monitor` if it is not selected yet before using the shortcut.)
 
 
 .. image:: /images/Kdenlive_Quickstart-Resize-Marker.png
@@ -178,7 +178,7 @@ After clicking the :menuselection:`keyframe` icon (the clock icon framed in the 
 
 Make sure the last keyframe is selected in the Properties list. Then you are ready to flood the piano with a deep blue.
 
-Moving the timeline cursor to the beginning of the project and playing it (with :kbd:`Space`, or the :menuselection:`Play` button in the :menuselection:`Project Monitor`), the piano should now change the colour as desired.
+Moving the timeline cursor to the beginning of the project and playing it (with :kbd:`Space`, or the :guilabel:`Play` button in the :menuselection:`Project Monitor`), the piano should now change the colour as desired.
 
 Keyframing was the hardest part of this tutorial. If you managed to do it, you will master **Kdenlive** easily!
 

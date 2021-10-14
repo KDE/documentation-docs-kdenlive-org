@@ -11,32 +11,8 @@
 
 .. _file_menu:
 
-
-
 File Menu
 =========
-
-.. contents::
-
- 
-* :ref:`new`
-
-* :ref:`open`
-
-* :ref:`open_recent`
-
-* :ref:`save`
-
-* :ref:`save_as`
-
-* :ref:`revert`
-
-* :ref:`dvd_wizard`
-
-* :ref:`transcode_clips`
-
-* :ref:`quit`
-
 
 .. toctree::
    :caption: Contents:

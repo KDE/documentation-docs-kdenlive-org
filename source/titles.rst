@@ -154,8 +154,6 @@ The .kdenlivetitle files that supply these templates are installed to /usr/share
 Import an Image into the title
 ------------------------------
 
-
-
 On the Toolbar overflow  menu (**>>**) shown in the picture below, the second menu item - (labeled only with :kbd:`Alt + I` in ver 0.9.2 - fixed in ver 0.9.4) -  is the **Add Image** Button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
 
 
@@ -165,16 +163,12 @@ On the Toolbar overflow  menu (**>>**) shown in the picture below, the second me
 Draw Rectangle Toolbar Item
 ---------------------------
 
-
-
 The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt + R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
-
 
 .. image:: /images/Kdenlive_Alt-R_title_menu.png
 
 
 The rectangles can be placed behind text by selecting them and the changing the Z-index (top right corner) to a lower value.
-
 
 .. image:: /images/Kdenlive_Rectangle_on_title.png
   :width: 700px
@@ -186,13 +180,13 @@ To make the title scroll vertically
 Put a long title onto the title window. Zoom out so you can see it all. The text should run off the top (or bottom) of the viewable area.
 
 
-Select the :menuselection:`Animation` tab and click :menuselection:`Edit start`. Now drag the start rectangle to above the viewable area.
+Select the :guilabel:`Animation` tab and click :guilabel:`Edit start viewport`. Now drag the start rectangle to above the viewable area.
 
 
-Select :menuselection:`Edit end` and drag the end rectangle to below the viewable area.
+Select :guilabel:`Edit end viewport` and drag the end rectangle to below the viewable area.
 
 
-Click :menuselection:`OK` and preview the scrolling title.
+Click :guilabel:`OK` and preview the scrolling title.
 
 
 .. image:: /images/Scrolling_titles.png
@@ -216,35 +210,23 @@ Note: the above description of title behaviour with respect to duration only app
 To make the title scroll Horizontally
 -------------------------------------
 
-
-
 Use the instructions for vertical scrolling - just put the start and stop rectangles off to the sides of the screen rather than the top and bottom
-
 
 How to fade titles in and/or out
 --------------------------------
 
-
-
 To make titles fade in and out, you modify the transition which gets automatically added between the title and the track below.  The modifications consist of adding keyframes into the transition and adjusting the opacity of the transitions at these keyframes. In version 0.9.3 it is an :ref:`affine` transition that is automatically added between the title and the track below. In ver 0.9.2 it is  a :ref:`composite` transition.
-
 
 In the image below we have four keyframes (labeled 1 to 4). The first keyframe is the one currently displayed and we can see that the opacity on this keyframe is zero. The opacity at keyframes 2 and 3 is 100%. The opacity at the 4th keyframe is zero percent. The overall effect is that the title fades in between keyframe 1 and keyframe 2. And then it fades out between keyframe 3 and keyframe 4 .
 
-
 .. image:: /images/Kdenlive_Fade_titles_anotated.png
-
 
 How to fade in more than one title sequentially
 -----------------------------------------------
 
-
-
 To create a title sequence like this ...
 
-
 https://youtu.be/IIV87bFjfo0
-
 
 you put three titles on three different tracks but you make all three affine transitions go to the same empty video track (instead of the tracks directly below them, which is the default). See timeline screenshot below.
 
@@ -254,8 +236,6 @@ you put three titles on three different tracks but you make all three affine tra
 
 FAQ
 ---
-
-
 
 Q: How to duplicate a title clip to modify it slightly.
 
