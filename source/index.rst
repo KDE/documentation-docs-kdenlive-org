@@ -3,38 +3,36 @@ Welcome to Kdenlive's documentation!
 .. toctree::
    :caption: Contents:
 
-   installation
-   quickstart
-   projects_and_files
-   shootinghints
-   troubleshooting_and_common_problems
-   rendering
    introduction
-   tutorials
-   capturing
-   clip_menu
-   edit_menu
-   effects
-   effects_and_transitions
-   full_luma
+   installation
    kdenliveonotherplatforms
-   monitor_menu
-   monitors
-   project_menu
-   settings_menu
-   timeline
-   timeline_menu
-   titles
+   quickstart
    toolbars
-   transitions
-   useful_information
-   view_menu
    menu
    file_menu
-   alpha_operation_transitions
-   bugreporting
-   capturingaudio
-   windows_issues
-   historical_install_information
+   view_menu
+   project_menu
+   settings_menu
+   timeline_menu
    tool_menu
+   clip_menu
+   edit_menu
+   monitor_menu
+   monitors
+   timeline
+   projects_and_files
+   effects_and_transitions
+   effects
+   transitions
+   alpha_operation_transitions
+   titles
+   capturing
+   capturingaudio
+   rendering
+   full_luma
+   tutorials
+   useful_information
+   shootinghints
+   troubleshooting_and_common_problems
+   windows_issues
    credits_and_license
