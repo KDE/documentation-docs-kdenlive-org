@@ -35,12 +35,12 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['../ressources/templates']
+templates_path = ['ressources/templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['../build', 'Thumbs.db', '.DS_Store', '.venv*']
+exclude_patterns = ['build', 'Thumbs.db', '.DS_Store', '.venv*']
 html_extra_path = ['404handler.php'] # bring our 404 handler in
 
 # The master toctree document.
@@ -79,15 +79,15 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['../ressources/static']
+html_static_path = ['ressources/static']
 
-html_favicon = '../ressources/static/images/favicon.ico'
+html_favicon = 'ressources/static/images/favicon.ico'
 
-html_logo = '../ressources/static/images/logo-light.svg'
+html_logo = 'ressources/static/images/logo-light.svg'
 
 # -- Internationalization Options --------------------------------------------
 
-locale_dirs = ['../locale/']   # Where the PO files will be stored at
+locale_dirs = ['locale/']   # Where the PO files will be stored at
 gettext_compact = False     # optional.
 #gettext_additional_targets = ['image', 'index', 'literal-block'] # allows images to be translatable
 #figure_language_filename = "{path}{language}/{basename}{ext}"

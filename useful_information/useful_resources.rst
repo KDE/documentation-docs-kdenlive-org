@@ -13,9 +13,6 @@
 
 .. _useful_resources:
 
-..  Please use level 3 top heading, i.e. "===" 
-
-
 Useful Resources
 ================
 
