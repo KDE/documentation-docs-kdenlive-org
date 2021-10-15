@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Kdenlive'
+project = 'Kdenlive Manual'
 description = 'The official Kdenlive Documentation'
 copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise'
 author = 'Kdenlive Community'
