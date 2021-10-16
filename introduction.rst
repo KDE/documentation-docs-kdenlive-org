@@ -36,14 +36,14 @@ Introduction
 
 
 
-* *Kdenlive** is an acronym for `**KDE** <http://www.kde.org>`_ **N**on-**Li**near **V**ideo **E**ditor.
+**Kdenlive** is an acronym for `KDE <http://www.kde.org>`_ **N**\ on-\ **Li**\ near **V**\ ideo **E**\ ditor.
 It is a free software (`GPL licensed <http://www.fsf.org/licensing/licenses/gpl.html>`_) primarily aimed at the Linux platform, but it also works on BSD [1]_  as it relies only on portable components (`Qt <https://www.qt.io/>`_ and `MLT <http://www.mltframework.org/>`_ framework). Windows versions are also available, with some drawbacks. See :ref:`windows_issues` for more information. A port on MacOS is `currently in progress <https://invent.kde.org/multimedia/kdenlive/-/issues/993>`_. 
 
 
-* Non-linear video editing* is much more powerful than beginners' (linear) editors, hence it requires a bit more organization before starting. However, it is not reserved to specialists and can be used for small personal projects.
+*Non-linear video editing* is much more powerful than beginners' (linear) editors, hence it requires a bit more organization before starting. However, it is not reserved to specialists and can be used for small personal projects.
 
 
-Through the MLT framework, **Kdenlive** integrates many plugin effects for video and sound processing or creation.  Furthermore **Kdenlive** brings a powerful titling tool, a subtitling feature with automatic speech to text conversion, and can then be used as a complete studio for video creation.
+Through the MLT framework, **Kdenlive** integrates many plugin effects for video and sound processing or creation. Furthermore **Kdenlive** brings a powerful titling tool, a subtitling feature with automatic speech to text conversion, and can then be used as a complete studio for video creation.
 
 ..  Content imported from wikibook version 
 
