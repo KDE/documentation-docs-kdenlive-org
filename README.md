@@ -1,7 +1,8 @@
 # (Unofficial) Documentation for Kdenlive
 
-[![Build Status](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/badge/icon)](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/)
-
+[![Build Status](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/badge/icon)](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/)  
+[Link to Kdenlive Sphinx documentation](https://docs.kdenlive.org)
+  
 **IMPORTANT: This repository does NOT contain the official Kdenlive Documentation it is created for testing purposes. The official manual is located at https://userbase.kde.org/Kdenlive/Manual**
 
 Kdenlive documentation based on [Sphinx](https://www.sphinx-doc.org)
@@ -17,15 +18,16 @@ Kdenlive documentation based on [Sphinx](https://www.sphinx-doc.org)
 
 After you cloned this repository (only need to be done once), use a command line to go to its root folder (e.g. with `cd /path/to/kdenlive-docs`)
 
-To generate a html web documentation run  
+### To generate a html web documentation run  
+
 **Linux:** `make html`  
 **Windows:** `.\make html`
 
-To generate an epub ebook run  
+The HTML is generated in `build/html` (e.g. with `/path/to/kdenlive-docs/build/html`). Open the web document by double click `index.html`.
+
+### To generate an epub ebook run  
+
 **Linux:** `make epub`  
 **Windows:** `.\make epub`
-
-
-The HTML is generated in `build/html` (e.g. with `/path/to/kdenlive-docs/build/html`). Open the web document by double click `index.html`.
 
 The epub ebook is generated in `build/epub` (e.g. with `/path/to/kdenlive-docs/build/epub`). Open the ebook by double click `index.xhtml`.
