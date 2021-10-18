@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configure Kdenlive &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Configure Notifications" href="configure_notifications.html" />
+    <link rel="prev" title="Settings Menu" href="../settings_menu.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kdenliveonotherplatforms.html">Kdenlive On Other Desktops and Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../toolbars.html">Toolbars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file_menu.html">File Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../view_menu.html">View Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project_menu.html">Project Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../settings_menu.html">Settings Menu</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../settings_menu.html#settings-menu-mac-os-x">Settings Menu - Mac OS X</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configure Kdenlive</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#misc">Misc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#project-defaults">Project Defaults</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#timeline">Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#environment">Environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mlt-environment">MLT Environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#default-folders">Default Folders</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#default-apps">Default Apps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#capture">Capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configure-firewire-capture">Configure Firewire Capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configure-screen-grab-capture">Configure Screen Grab Capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jog-shuttle">Jog Shuttle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linux">Linux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#windows">Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#playback">Playback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#transcode">Transcode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#transcode-options">Transcode Options</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="configure_notifications.html">Configure Notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configure_shortcuts.html">Configure Shortcuts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configure_shortcuts.html#raise-widgets-with-shortcuts-window">Raise widgets with shortcuts (window)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configure_shortcuts.html#shortcuts-for-keyframe-functions">Shortcuts for keyframe functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configure_shortcuts.html#command-bar">Command Bar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="download_new_render_profiles.html">Download New Render Profiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="download_new_render_profiles.html#upload-share-render-profiles">Upload/Share Render Profiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="download_new_wipes.html">Download New Wipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="full_screen_mode.html">Full Screen Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="run_config_wizard.html">Run Config Wizard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="toolbars_shown.html">Toolbars Shown</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manage_project_profiles.html">Manage Project Profiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="download_new_project_profiles.html">Download New Project Profiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="themes.html">Settings&gt;Themes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../timeline_menu.html">Timeline Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tool_menu.html">Tool Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clip_menu.html">Clip Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../edit_menu.html">Edit Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor_menu.html">Monitor Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitors.html">Monitors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../timeline.html">Timeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects_and_files.html">Project and File management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../effects_and_transitions.html">Alphabetical List of Effects and Compositions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../effects.html">Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transitions.html">Transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../alpha_operation_transitions.html">Alpha operation transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles.html">Titles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../capturing.html">Capturing Video</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../capturingaudio.html">Capturing Audio (Dubbing)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rendering.html">Rendering Using Guides and Rendering Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../full_luma.html">Full Luma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Written Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html#video-tutorials">Video Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../useful_information.html">Useful Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shootinghints.html">Shooting Hints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting_and_common_problems.html">Troubleshooting and Common Problems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../windows_issues.html">Windows Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../windows_issues.html#general-issues">General Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../credits_and_license.html">Credits and License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../settings_menu.html">Settings Menu</a> &raquo;</li>
+      <li>Configure Kdenlive</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/settings_menu/configure_kdenlive.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="configure-kdenlive">
+<span id="id1"></span><h1><a class="toc-backref" href="#id22">Configure Kdenlive</a><a class="headerlink" href="#configure-kdenlive" title="Permalink to this headline">¶</a></h1>
+<section id="misc">
+<h2><a class="toc-backref" href="#id23">Misc</a><a class="headerlink" href="#misc" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Configure_misc.png"><img alt="../_images/Kdenlive_Configure_misc.png" src="../_images/Kdenlive_Configure_misc.png" style="width: 500px;" /></a>
+<p>Open the last project on startup</p>
+<p>Check if the first added clip matches the project profile</p>
+<p>Crash recovery (automatic backup)</p>
+<p>Use KDE job tracking for render jobs</p>
+<p>Use on-monitor effects</p>
+<p>Disable parameters when the effect is disabled</p>
+<p>Default Durations</p>
+<p>Automatically import image sequences</p>
+<p>Transparent background for imported images</p>
+</section>
+<section id="project-defaults">
+<h2><a class="toc-backref" href="#id24">Project Defaults</a><a class="headerlink" href="#project-defaults" title="Permalink to this headline">¶</a></h2>
+<p>Configures what the project settings will look like by default when you choose File&gt;:ref:<cite>new</cite>.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Configure_project_defaults.png"><img alt="../_images/Kdenlive_Configure_project_defaults.png" src="../_images/Kdenlive_Configure_project_defaults.png" style="width: 500px;" /></a>
+</section>
+<section id="timeline">
+<h2><a class="toc-backref" href="#id25">Timeline</a><a class="headerlink" href="#timeline" title="Permalink to this headline">¶</a></h2>
+<p>Configure how the timeline appears in <strong>Kdenlive</strong></p>
+<a class="reference internal image-reference" href="../_images/Configure_Timeline.png"><img alt="../_images/Configure_Timeline.png" src="../_images/Configure_Timeline.png" style="width: 500px;" /></a>
+<p><strong>Thumbnails - video</strong> - Turns on  <span class="xref std std-ref">editing</span> by default.</p>
+<p><strong>Thumbnails - Audio</strong> - Turns on  <span class="xref std std-ref">editing</span> by default.</p>
+<p>Normalize audio for thumbnails</p>
+<p><strong>Channels</strong> (ver 0.9.10) - if checked you will get a separate waveform in the audio thumbnail for each audio channel in the audio track. If unchecked you will get a single waveform as the audio thumbnail.</p>
+<p><strong>Display clip markers comments</strong> - Turns on  <span class="xref std std-ref">editing</span> by default.</p>
+<p>Autoscroll while playing</p>
+<p>Zoom using vertical drag in the ruler</p>
+<p><strong>Automatically split audio and video</strong> - tracks will automatically have the video and audio portions split into a video and audio track when they are dragged from the project tree to the timeline; i.e., this setting will cause Kdenlive to automatically do what the <a class="reference internal" href="../clip_menu.html#clip-menu"><span class="std std-ref">Clip Menu</span></a> function on the Clip Menu does.</p>
+<p><strong>Track Height</strong> - defines the default track height in pixels for the tracks on the timeline.</p>
+</section>
+<section id="environment">
+<h2><a class="toc-backref" href="#id26">Environment</a><a class="headerlink" href="#environment" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="mlt-environment">
+<h2><a class="toc-backref" href="#id27">MLT Environment</a><a class="headerlink" href="#mlt-environment" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Configure_environment_MLT.png"><img alt="../_images/Kdenlive_Configure_environment_MLT.png" src="../_images/Kdenlive_Configure_environment_MLT.png" style="width: 500px;" /></a>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Paths on Windows</p></td>
+</tr>
+</tbody>
+</table>
+<p>This setting tells <strong>Kdenlive</strong> where to find the MLT executables and profile files. Only advanced users would really need to change these settings. <strong>Kdenlive</strong> is basically a front end to the MLT program and this setting tells <strong>Kdenlive</strong> where to find the engine that runs the whole application.</p>
+<p><strong>Proxy Clips - Concurrent Threads</strong>  This will set the number of threads the program will attempt to use when calling ffmpeg to encode <a class="reference internal" href="../projects_and_files/clips.html#clips"><span class="std std-ref">Clips</span></a>. This will be what kdenlive passes to the ffmpeg  <em>-threads</em> parameter.   Increasing this parameter may not have an effect if you have changed the proxy encoding settings using <a class="reference internal" href="../projects_and_files/project_settings.html#project-settings"><span class="std std-ref">Project Settings Dialog</span></a> to a codec that ffmpeg does not do multi-thread on. ( Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)</p>
+<p><strong>Processing threads</strong>: This is experimental and was removed in ver 0.9.10. This number was passed to melts <em>real_time</em> consumer property. This parameter increases the number of threads the program uses for video decoding and processing (but not encoding which is controlled via <span class="xref std std-ref">render</span>).  See <a class="reference external" href="http://www.mltframework.org/bin/view/MLT/Questions#Does_MLT_take_advantage_of_multi">mlt doco</a>. Using this has potential side effects - see <a class="reference external" href="https://forum.kde.org/viewtopic.php?f=265&amp;amp;t=122140#p317318">this</a> forum post from the author of the Melt program.</p>
+<p>If you want to experiment with multi threading in versions higher than 0.9.10  you could add something like “real_time=-4” to a custom render profile.  And yes that is a minus 4 in the example - as per the    <a class="reference external" href="http://www.mltframework.org/bin/view/MLT/Questions#Does_MLT_take_advantage_of_multi">mlt doco</a> - numbers &lt;0 implement threading without dropping frames.</p>
+</section>
+<section id="default-folders">
+<h2><a class="toc-backref" href="#id28">Default Folders</a><a class="headerlink" href="#default-folders" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/Kdenlive_Configure_environment_default_folders.png" src="../_images/Kdenlive_Configure_environment_default_folders.png" />
+<p>This setting controls where <strong>Kdenlive</strong> expects project files to be by default. It also controls what folder <strong>Kdenlive</strong> will use as a temporary file storage location and it controls where files captured from an external source will be saved.</p>
+</section>
+<section id="default-apps">
+<h2><a class="toc-backref" href="#id29">Default Apps</a><a class="headerlink" href="#default-apps" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/Kdenlive_Configure_envrionment_default_apps.png" src="../_images/Kdenlive_Configure_envrionment_default_apps.png" />
+<p>This setting controls what application opens when you choose <a class="reference internal" href="../clip_menu/edit_clip.html#edit-clip"><span class="std std-ref">Edit Clip</span></a> for a clip in the project tree. Note there is no application for video editing - because <strong>Kdenlive</strong> is a video editor.  Images and audio files are edited by the external applications defined here. The video player is used by the DVD wizard previewer.</p>
+</section>
+<section id="capture">
+<h2><a class="toc-backref" href="#id30">Capture</a><a class="headerlink" href="#capture" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>At least Firewire capture was removed in porting to KDE 5 due to lack of manpower.</p>
+</div>
+<p>Configure the <a class="reference internal" href="../capturing.html#capturing"><span class="std std-ref">Capturing Video</span></a> devices (Firewire, FFmpeg, Screen Grab, Blackmagic) from this section.</p>
+</section>
+<section id="configure-firewire-capture">
+<h2><a class="toc-backref" href="#id31">Configure Firewire Capture</a><a class="headerlink" href="#configure-firewire-capture" title="Permalink to this headline">¶</a></h2>
+<p>The image shows the Configure Firewire capture tab which can be accessed from the <span class="menuselection">Settings ‣ Configure Kdenlive</span> menu or from the spanner icon in the <a class="reference internal" href="../capturing.html#capturing"><span class="std std-ref">Capturing Video</span></a></p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Configure_Capture.png"><img alt="../_images/Kdenlive_Configure_Capture.png" src="../_images/Kdenlive_Configure_Capture.png" style="width: 500px;" /></a>
+<p>The firewire capture functionality uses the <a class="reference external" href="http://linux.die.net/man/1/dvgrab">dvgrab</a> program.
+The settings applied here to define how dvgrab will be used to capture the video.</p>
+<p><strong>Capture Format options</strong> are
+* DV RAW
+* DV AVI Type 1
+* DV AVI Type 2
+* HDV</p>
+<p>The first three are quality-wise the same (exactly the same DV 25Mb/s standard definition codec), just packed differently into the file. Type 2 seems to be the most widely supported by other applications.</p>
+<p>The raw format contains just the plain video frames (with audio interleaved) without any additional information. Raw is useful for some Linux software. Files in this format can also be played with Windows QuickTime when renamed to file.dv .</p>
+<p>AVI files may contain multiple streams. Typically, they include one video and one audio stream. The native DV stream format already includes the audio interleaved into its video stream. A type 1 DV AVI file only includes one DV video stream where the audio must be extracted from the DV video stream. A type 2 DV AVI file includes a separate audio stream in addition to the audio data already interleaved in the DV video stream. Therefore, the type 2 DV AVI file is redundant and consumes more space.</p>
+<p>HDV is a high-definition format used on tape-based HD camcorders.</p>
+<ul class="simple">
+<li><p><em>Add recording time to captured file name*</em> option: If this is unchecked then each captured file will get a sequential number post-pended to the file names listed in the Capture file name setting. With this checked, date and timestamp (derived from when the footage was captured) is post-pended to the capture file name, e.g. <strong>capture2012.07.15_11-38-37.dv</strong></p></li>
+<li><p><em>Automatically start a new file on scene cut*</em> option:  With this checked it tries to detect whenever a new recording starts, and store it into a separate file. This is the -autosplit parameter in  <a class="reference external" href="http://linux.die.net/man/1/dvgrab">dvgrab</a>  and it works by detecting timecode discontinuities from the source footage.  Where a timecode discontinuity is anything backward or greater than one second it will start a new capture file.</p></li>
+</ul>
+<p>The <strong>dvgrab additional parameters</strong> edit box allows you to add extra dvgrab switches to the capture process that will run. See  <a class="reference external" href="http://linux.die.net/man/1/dvgrab">dvgrab manual</a> for more info.</p>
+</section>
+<section id="configure-screen-grab-capture">
+<h2><a class="toc-backref" href="#id32">Configure Screen Grab Capture</a><a class="headerlink" href="#configure-screen-grab-capture" title="Permalink to this headline">¶</a></h2>
+<p>This shows the configure tab for screen grab in ver 0.9.3 of <strong>Kdenlive</strong>. It will be different in ver. 0.9.2 because that version used Record My Desktop to do the screen capture.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Configure_screen_grab.png"><img alt="../_images/Kdenlive_Configure_screen_grab.png" src="../_images/Kdenlive_Configure_screen_grab.png" style="width: 500px;" /></a>
+</section>
+<section id="jog-shuttle">
+<h2><a class="toc-backref" href="#id33">Jog Shuttle</a><a class="headerlink" href="#jog-shuttle" title="Permalink to this headline">¶</a></h2>
+<p>Configure a connected Jog-Shuttle device. Contour ShuttlePro and Contour ShuttleXpress are known to work.</p>
+</section>
+<section id="linux">
+<h2><a class="toc-backref" href="#id34">Linux</a><a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h2>
+<p>Ensure that your Jog-Shuttle device is connected via USB and working. An udev rule is necessary to correct the access rights to the device file: Create a file /etc/udev/rules.d/90-contour-shuttleXpress.rules with the line:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>SUBSYSTEMS<span class="s2">&quot;usb&quot;</span>, ATTRS<span class="o">{</span>idVendor<span class="o">}</span>
+</pre></div>
+</div>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#configure-kdenlive" id="id5">Configure Kdenlive</a></p>
+<ul>
+<li><p><a class="reference internal" href="#misc" id="id6">Misc</a></p></li>
+<li><p><a class="reference internal" href="#project-defaults" id="id7">Project Defaults</a></p></li>
+<li><p><a class="reference internal" href="#timeline" id="id8">Timeline</a></p></li>
+<li><p><a class="reference internal" href="#environment" id="id9">Environment</a></p></li>
+<li><p><a class="reference internal" href="#mlt-environment" id="id10">MLT Environment</a></p></li>
+<li><p><a class="reference internal" href="#default-folders" id="id11">Default Folders</a></p></li>
+<li><p><a class="reference internal" href="#default-apps" id="id12">Default Apps</a></p></li>
+<li><p><a class="reference internal" href="#capture" id="id13">Capture</a></p></li>
+<li><p><a class="reference internal" href="#configure-firewire-capture" id="id14">Configure Firewire Capture</a></p></li>
+<li><p><a class="reference internal" href="#configure-screen-grab-capture" id="id15">Configure Screen Grab Capture</a></p></li>
+<li><p><a class="reference internal" href="#jog-shuttle" id="id16">Jog Shuttle</a></p></li>
+<li><p><a class="reference internal" href="#linux" id="id17">Linux</a></p></li>
+<li><p><a class="reference internal" href="#windows" id="id18">Windows</a></p></li>
+<li><p><a class="reference internal" href="#playback" id="id19">Playback</a></p></li>
+<li><p><a class="reference internal" href="#transcode" id="id20">Transcode</a></p></li>
+<li><p><a class="reference internal" href="#transcode-options" id="id21">Transcode Options</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>“0b33”, ATTRS{idProduct}==”0020”, MODE=”0444”</p>
+<p>for Contour ShuttleXpress or</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>SUBSYSTEMS<span class="s2">&quot;usb&quot;</span>, ATTRS<span class="o">{</span>idVendor<span class="o">}</span>
+</pre></div>
+</div>
+<div class="contents topic" id="id4">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#configure-kdenlive" id="id22">Configure Kdenlive</a></p>
+<ul>
+<li><p><a class="reference internal" href="#misc" id="id23">Misc</a></p></li>
+<li><p><a class="reference internal" href="#project-defaults" id="id24">Project Defaults</a></p></li>
+<li><p><a class="reference internal" href="#timeline" id="id25">Timeline</a></p></li>
+<li><p><a class="reference internal" href="#environment" id="id26">Environment</a></p></li>
+<li><p><a class="reference internal" href="#mlt-environment" id="id27">MLT Environment</a></p></li>
+<li><p><a class="reference internal" href="#default-folders" id="id28">Default Folders</a></p></li>
+<li><p><a class="reference internal" href="#default-apps" id="id29">Default Apps</a></p></li>
+<li><p><a class="reference internal" href="#capture" id="id30">Capture</a></p></li>
+<li><p><a class="reference internal" href="#configure-firewire-capture" id="id31">Configure Firewire Capture</a></p></li>
+<li><p><a class="reference internal" href="#configure-screen-grab-capture" id="id32">Configure Screen Grab Capture</a></p></li>
+<li><p><a class="reference internal" href="#jog-shuttle" id="id33">Jog Shuttle</a></p></li>
+<li><p><a class="reference internal" href="#linux" id="id34">Linux</a></p></li>
+<li><p><a class="reference internal" href="#windows" id="id35">Windows</a></p></li>
+<li><p><a class="reference internal" href="#playback" id="id36">Playback</a></p></li>
+<li><p><a class="reference internal" href="#transcode" id="id37">Transcode</a></p></li>
+<li><p><a class="reference internal" href="#transcode-options" id="id38">Transcode Options</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>“0b33”, ATTRS{idProduct}==”0030”, MODE=”0444”</p>
+<p>for Contour ShuttlePRO V2. Obtain the device file by a command</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>fgrep Contour -A4 /proc/bus/input/devices
+</pre></div>
+</div>
+<p>The last line of the output says</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>H: <span class="nv">Handlers</span><span class="o">=</span>mouse0 event3
+</pre></div>
+</div>
+<p>which should tell the device file to be entered into kdenlive’s setting dialog: In the text field enter /dev/input/<strong>event3</strong> (use the last word on the line above to specify the device file in /dev/input), set the buttons and apply the changes.</p>
+<a class="reference internal image-reference" href="../_images/KDENLIVE_Configure_jog_shuttle.png"><img alt="../_images/KDENLIVE_Configure_jog_shuttle.png" src="../_images/KDENLIVE_Configure_jog_shuttle.png" style="width: 500px;" /></a>
+<p>Enable Jog-Shuttle. For the Contour ShuttleXpress the buttons 5 - 9 are relevant, whereas Contour ShuttlePro uses all buttons. The actions for the jog- and the shuttle wheel are working as expected.</p>
+</section>
+<section id="windows">
+<h2><a class="toc-backref" href="#id35">Windows</a><a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h2>
+<p>On the desktop, bottom-right opens the system tray. Right-click on the Contour icon and choose “Open control Panel”.</p>
+<img alt="../_images/Contour_open-cotrol-panel.png" src="../_images/Contour_open-cotrol-panel.png" />
+<p>In the configuration window choose under “Application setting” the program “Adobe Premiere Pro CS&amp;amp;CC (Edit)”. Then click on <span class="menuselection">Options ‣ Create new settings ‣ Copy contents from Current Settings</span>.</p>
+<img alt="../_images/Contour_new_settings.png" src="../_images/Contour_new_settings.png" />
+<p>Then choose Kdenlive.exe in C:Program Fileskdenlivebin.</p>
+<img alt="../_images/Contour_Design_Choose_Aplication.png" src="../_images/Contour_Design_Choose_Aplication.png" />
+<p>Now the basic functionality should work. Adjust the buttons of the shuttle with shortcuts as you like.
+.. hint:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>You can make Kdenlive settings from scratch using :menuselection:`Options --&gt; Create new settings --&gt; Create Empty Settings` when creating new settings.
+</pre></div>
+</div>
+</section>
+<section id="playback">
+<h2><a class="toc-backref" href="#id36">Playback</a><a class="headerlink" href="#playback" title="Permalink to this headline">¶</a></h2>
+<p>Configure the Video and Audio drivers and devices. For advanced users only.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Configure_playback.png"><img alt="../_images/Kdenlive_Configure_playback.png" src="../_images/Kdenlive_Configure_playback.png" style="width: 500px;" /></a>
+<p>In version 0.9.4 of <strong>Kdenlive</strong>, checking the “use Open GL for video playback” checkbox turns on the ability to have audio scrubbing available for use in the clips.  Audio scrubbing lets you hear the audio at the playhead position as you drag the playhead so you can quickly find a particular sound or event in the audio. This feature can be useful for placing the play head at the correct spot in the clip relative to an important bit of audio.</p>
+<p>In ver 15.04 or higher, there is no “use Open GL for video playback” checkbox  - Open GL is used by default.</p>
+</section>
+<section id="transcode">
+<h2><a class="toc-backref" href="#id37">Transcode</a><a class="headerlink" href="#transcode" title="Permalink to this headline">¶</a></h2>
+<p>This controls the <a class="reference internal" href="../clip_menu/transcode.html#transcode"><span class="std std-ref">Transcode Menu Item</span></a> functionality. The parameters section are ffmpeg parameters. Find help on them by issuing <code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-h</span></code> at a command line.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Configure_transcode.png"><img alt="../_images/Kdenlive_Configure_transcode.png" src="../_images/Kdenlive_Configure_transcode.png" style="width: 500px;" /></a>
+</section>
+<section id="transcode-options">
+<h2><a class="toc-backref" href="#id38">Transcode Options</a><a class="headerlink" href="#transcode-options" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Option</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Parameters</p></th>
+<th class="head"><p>Meanings of Parameters</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Wav 48000Hz</p></td>
+<td><p>Extract audio as WAV file</p></td>
+<td><p>-vn -ar 48000</p></td>
+<td><p>-vn=disable video, -ar 48000 = set audio sampling rate to 48kHz</p></td>
+</tr>
+<tr class="row-odd"><td><p>Remux with MKV</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>-vcodec copy -acodec copy -sn</p></td>
+<td><p>copy the video and the audio. -sn = disable subtitles</p></td>
+</tr>
+<tr class="row-even"><td><p>Remux MPEG-2 PS/VOB</p></td>
+<td><p>Fix audio sync in MPEG-2 vob files</p></td>
+<td><p>-vcodec copy -acodec copy</p></td>
+<td><p>copy the video and the audio</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="configure_notifications.html" class="btn btn-neutral float-right" title="Configure Notifications" accesskey="n" rel="next"> <!-- Next --> <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../settings_menu.html" class="btn btn-neutral" title="Settings Menu" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> <!-- Previous  -->  </a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

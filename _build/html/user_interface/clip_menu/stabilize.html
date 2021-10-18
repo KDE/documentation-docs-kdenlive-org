@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stabilize &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../effects.html">Effects</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Stabilize</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/user_interface/clip_menu/stabilize.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="stabilize">
+<span id="id1"></span><h1><a class="toc-backref" href="#id6">Stabilize</a><a class="headerlink" href="#stabilize" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#stabilize" id="id6">Stabilize</a></p>
+<ul>
+<li><p><a class="reference internal" href="#id2" id="id7">Stabilize</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>This menu item is available from <a class="reference internal" href="../view_menu/project_tree.html#project-tree"><span class="std std-ref">View&gt;Project Tree</span></a> on a clip in the Project Tree or under the <a class="reference internal" href="../project_menu.html#project-menu"><span class="std std-ref">Project Menu</span></a> menu when a clip is selected in the Project Tree.</p>
+<p>This feature applies image stabilization algorithms to the clip which can reduce the shakiness of a bit of footage.</p>
+<p>In versions 0.9.8 and earlier of Kdenlive, there were two different methods of stabilization available: vstab and transcode. In version 0.9.10, the vstab method was removed leaving us with just the “transcode”  method (based on <a class="reference external" href="http://public.hronopik.de/vid.stab/">this</a> work).</p>
+<p>This video shows a side by side comparison between vstab and transcode stabilize methods.</p>
+<p><a class="reference external" href="https://youtu.be/86SUhodScDE">https://youtu.be/86SUhodScDE</a></p>
+<section id="id2">
+<h2><a class="toc-backref" href="#id7">Stabilize</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<img alt="Transcode Dialog in version 0.9.2" class="align-left" src="../../_images/Kdenlive_stabilise_transcode.png" />
+<p>This menu item was called  <em>stabilize (transcode)</em> in versions 0.9.2 and earlier.</p>
+<img alt="Transcode Dialog in version 0.9.3 and higher" class="align-left" src="../../_images/Kdenlive_Stablise_transcode_v0.9.3.png" />
+<p>In version 0.9.3, the transcode GUI was simplified.</p>
+<p>Based on the tooltips from this screen and the docs <a class="reference external" href="http://public.hronopik.de/vid.stab/features.php?lang=en">here</a>, this is what all the options mean:</p>
+<p><strong>optzoom</strong> = use optimal zoom  (calculated from transforms). Causes video to zoom until 90% of transformations are hidden.  Default is checked. Hint: You can further zoom in with the zoom option.</p>
+<p><strong>accuracy</strong> = accuracy of shakiness detection. Should be  &gt;= shakiness factor. 1: low (fast processing). 15: high (slow processing).  Default: 4. Recommended: 8.</p>
+<p><strong>algo</strong> = algorithm used. Checked = small measurement fields. Default = checked. Unchecked means use brute force algorithm. The brute force algorithm is deprecated and this option is not available after version 0.9.3.</p>
+<p><strong>maxangle</strong> = maximum angle to rotate in radians. Default = -1, which means no limit.</p>
+<p><strong>relative</strong>  Unchecked = absolute transform (don’t use this). Checked = relative transform. Default is checked. This option is not available in version 0.9.3 - it uses relative transform.</p>
+<p><strong>zoom</strong> - Additional zoom during transform. Percentage to zoom &gt; 0 = zoom in, &lt; 0 = zoom out.  The zoom specified here is in addition to the optimum zoom calculated by the program when optzoom is checked. Default = 0.</p>
+<p><strong>shakiness</strong> How shaky is the video? And how quick is the camera? 1: little (fast processing). 10: very strong/quick (slow processing). Default = 4. Note: large values may also reduce the accuracy. This is due to the internals of the movement-detection. Typically you don’t need a value greater than 7.</p>
+<p><strong>invert</strong> Invert the transform. Default = unchecked. Inverting the transform is pointless - leave unchecked. This option is not available in version 0.9.3.</p>
+<p><strong>sharpen</strong> Sharpen transformed image.  Amount of sharpening: 0: no sharpening. Uses filter unsharp with 5x5 matrix. Default = 0.8.</p>
+<p><strong>stepsize</strong> Step size of search process. Region around minimum is scanned with 1 pixel resolution. Default = 6.</p>
+<p><strong>show</strong> 0 = draw nothing, 1 or 2 = show fields and transforms.  Use 1 or 2 to preview what the process is going to do.   <a class="reference external" href="http://public.hronopik.de/vid.stab/files/skiing_veryshaky_visualized8_short.ogv">example</a>. Default = 0. Non-zero values of this parameter are not relevant in the <strong>Kdenlive</strong> implementation - use zero.  This option is not available in version 0.9.3.</p>
+<p><strong>mincontrast</strong> Below this contrast, the field is discarded.  Range 0-1. Default = 0.3. You may want to use a smaller value for a really low contrast clip.</p>
+<p><strong>smoothing</strong> Controls the amount of smoothing/stabilization. The larger the value for smoothing, the more camera movements are compensated. The resulting clip has a lower change in camera speed.
+Technically it is the number of frames for lowpass filtering = (smoothing * 2) + 1.
+For example, with a with 25 fps clip, a value of 12 for the smoothing factor means we would smooth over one second - 12 frames behind the current frame + the current frame (1) + 12 frames after the current frame. Default =10.</p>
+<p>Demo of the difference  <a class="reference external" href="http://public.hronopik.de/vid.stab/files/skiing_veryshaky_short_vs_longsmoothing_above.ogv">here</a>  (top:3, bottom: 30).</p>
+<p><strong>maxshift</strong> Maximal number of pixels to translate image. Default = -1. No limit.</p>
+<p><strong>crop</strong> Unchecked means the border of the transformed frames contains the pixels from previous frames. Checked = black background. Default = unchecked.</p>
+<p>Example of the effect of running stabilize - transcode from the original author - Georg Martius.</p>
+<p>Side by side
+<a class="reference external" href="https://youtu.be/HYE3KAl8RAQ">https://youtu.be/HYE3KAl8RAQ</a></p>
+<p>Deshaked
+<a class="reference external" href="https://youtu.be/c3CEm8bgVQ0">https://youtu.be/c3CEm8bgVQ0</a></p>
+<p>Original
+<a class="reference external" href="https://youtu.be/cRA5H1LYzM4">https://youtu.be/cRA5H1LYzM4</a></p>
+<p>===== stabilize (vstab) - version &lt;=0.9.8  =====</p>
+<p>This is based on <a class="reference external" href="http://vstab.sourceforge.net/">this</a> work and is not available in versions of kdenlive &gt;= 0.9.10.</p>
+<p>This tutorial shows how to use the stabilize feature - vstab version:</p>
+<p><a class="reference external" href="https://youtu.be/SWCoqZLJNgY">https://youtu.be/SWCoqZLJNgY</a></p>
+<p>The “shutter angle” setting that the narrator says he does not know what it does (1:35) … Shutter angle is an angle that images could be maximum rotated for stabilization. see <a class="reference external" href="http://www.mltframework.org/bin/view/MLT/FilterVideostab">here</a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

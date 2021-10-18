@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editing Surround Sound with Kdenlive &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Shooting Hints" href="../shootinghints.html" />
+    <link rel="prev" title="Useful Resources" href="useful_resources.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kdenliveonotherplatforms.html">Kdenlive On Other Desktops and Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../toolbars.html">Toolbars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file_menu.html">File Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../view_menu.html">View Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project_menu.html">Project Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../settings_menu.html">Settings Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../settings_menu.html#settings-menu-mac-os-x">Settings Menu - Mac OS X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../timeline_menu.html">Timeline Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tool_menu.html">Tool Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clip_menu.html">Clip Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../edit_menu.html">Edit Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor_menu.html">Monitor Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitors.html">Monitors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../timeline.html">Timeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects_and_files.html">Project and File management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../effects_and_transitions.html">Alphabetical List of Effects and Compositions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../effects.html">Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transitions.html">Transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../alpha_operation_transitions.html">Alpha operation transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles.html">Titles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../capturing.html">Capturing Video</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../capturingaudio.html">Capturing Audio (Dubbing)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rendering.html">Rendering Using Guides and Rendering Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../full_luma.html">Full Luma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Written Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html#video-tutorials">Video Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../useful_information.html">Useful Information</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shortcuts.html">Keyboard Shortcuts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tips_tricks.html">Tips &amp;  Tricks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="useful_resources.html">Useful Resources</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Editing Surround Sound with Kdenlive</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#external-tools-used-here">External Tools Used Here</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-new-surround-sound">Creating New Surround Sound</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#create-and-edit-surround-sound-with-audacity">Create and Edit Surround Sound with Audacity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#muxing-video-and-audio-together">Muxing Video and Audio Together</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#editing-existing-surround-sound">Editing Existing Surround Sound</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#extract-and-split-the-audio-track">Extract and Split the Audio Track</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#import-audio-tracks-into-kdenlive">Import Audio Tracks into Kdenlive</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#rendering-the-project">Rendering the Project</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#compose-a-surround-sound-audio-file">Compose a Surround Sound Audio File</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Muxing Video and Audio Together</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../shootinghints.html">Shooting Hints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting_and_common_problems.html">Troubleshooting and Common Problems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../windows_issues.html">Windows Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../windows_issues.html#general-issues">General Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../credits_and_license.html">Credits and License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../useful_information.html">Useful Information</a> &raquo;</li>
+      <li>Editing Surround Sound with Kdenlive</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/useful_information/surround_sound.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="editing-surround-sound-with-kdenlive">
+<span id="surround-sound"></span><h1><a class="toc-backref" href="#id2">Editing Surround Sound with Kdenlive</a><a class="headerlink" href="#editing-surround-sound-with-kdenlive" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#editing-surround-sound-with-kdenlive" id="id2">Editing Surround Sound with Kdenlive</a></p>
+<ul>
+<li><p><a class="reference internal" href="#external-tools-used-here" id="id3">External Tools Used Here</a></p></li>
+<li><p><a class="reference internal" href="#creating-new-surround-sound" id="id4">Creating New Surround Sound</a></p>
+<ul>
+<li><p><a class="reference internal" href="#create-and-edit-surround-sound-with-audacity" id="id5">Create and Edit Surround Sound with Audacity</a></p></li>
+<li><p><a class="reference internal" href="#muxing-video-and-audio-together" id="id6">Muxing Video and Audio Together</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#editing-existing-surround-sound" id="id7">Editing Existing Surround Sound</a></p>
+<ul>
+<li><p><a class="reference internal" href="#extract-and-split-the-audio-track" id="id8">Extract and Split the Audio Track</a></p></li>
+<li><p><a class="reference internal" href="#import-audio-tracks-into-kdenlive" id="id9">Import Audio Tracks into Kdenlive</a></p></li>
+<li><p><a class="reference internal" href="#rendering-the-project" id="id10">Rendering the Project</a></p></li>
+<li><p><a class="reference internal" href="#compose-a-surround-sound-audio-file" id="id11">Compose a Surround Sound Audio File</a></p></li>
+<li><p><a class="reference internal" href="#id1" id="id12">Muxing Video and Audio Together</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>At the time of writing, <strong>Kdenlive</strong> only supports rendering a project to a video containing stereo audio. It is not possible to render to more audio channels or to explicitly map audio tracks to channels in the rendered audio. In order to edit and create surround sound, some manual steps, including external tools, are required.</p>
+<p>This guide is using a 6 channel 5.1 surround sound as example.</p>
+<section id="external-tools-used-here">
+<h2><a class="toc-backref" href="#id3">External Tools Used Here</a><a class="headerlink" href="#external-tools-used-here" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://audacity.sourceforge.net/">Audacity</a> - Free Audio Editor and Recorder</p></li>
+<li><p><a class="reference external" href="http://libav.org/avconv.html">avconv</a> - A Video and Audio Converter</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Kdenlive uses ffmpeg, while on (k)ubuntu, ffmpeg is deprecated and avconv is used instead. So these (and possibly other) distributions already have avconv installed.</p>
+</div>
+</section>
+<section id="creating-new-surround-sound">
+<h2><a class="toc-backref" href="#id4">Creating New Surround Sound</a><a class="headerlink" href="#creating-new-surround-sound" title="Permalink to this headline">¶</a></h2>
+<p>This guide describes one possible workaround using <strong>Audacity</strong> to create and render a 5.1 surround sound audio track that can be added to the video rendered by <strong>Kdenlive</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>More advanced features such as surround panning (i.e. let a sound move from rear to front) are beyond the capabilities of Audacity - but it is possible to create similar effects manually.</p>
+</div>
+<section id="create-and-edit-surround-sound-with-audacity">
+<h3><a class="toc-backref" href="#id5">Create and Edit Surround Sound with Audacity</a><a class="headerlink" href="#create-and-edit-surround-sound-with-audacity" title="Permalink to this headline">¶</a></h3>
+<p>The following example of a simple 5.1 surround sound is used in this guide:</p>
+<ul class="simple">
+<li><p>Some original field recording from the front (stereo)</p></li>
+<li><p>Some voice from the (front) center (mono)</p></li>
+<li><p>Some music from the rear (stereo)</p></li>
+</ul>
+<p>If, like in this example, some original field recording from a video clip is supposed to be used to create the surround sound audio track, it can be easily extracted using Kdenlive with <span class="menuselection">Extract Audio ‣ Wav 48000Hz</span> from the context menu of the clip. This creates a WAV audio file in the same folder where the video clip is located.</p>
+<p>The audio clips to be used in this example are:</p>
+<ul class="simple">
+<li><p>Field.wav (stereo) for Front L+R</p></li>
+<li><p>Voice.wav (mono) for Center</p></li>
+<li><p>Music.mp3 (stereo) for Surround L+R (rear)</p></li>
+</ul>
+<p>In a new Audacity project, they can be imported in the above order with <span class="menuselection">File ‣ Import ‣ Audio…</span>, the project should now look something like this:</p>
+<img alt="../_images/AudacitySurround.jpg" src="../_images/AudacitySurround.jpg" />
+<p>The channel mapping for 5.1 surround sound is:</p>
+<ul class="simple">
+<li><p>1 - Front Left</p></li>
+<li><p>2 - Front Right</p></li>
+<li><p>3 - Center</p></li>
+<li><p>4 - LFE</p></li>
+<li><p>5 - Surround Left</p></li>
+<li><p>6 - Surround Right</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>LFE (Low Frequency Effects) is often referred to as “subwoofer channel”, which is not quite correct. A surround sound speaker setup is perfectly valid without subwoofer. In this case the surround sound system will redirect the LFE channel to “large” speakers, usually the front speakers.</p>
+</div>
+<p>The stereo track “Field” can now be mapped to Front L+R, “Voice” to Center and “Music” to Surround L+R. There is just one problem: the Surround (rear) speakers of a surround speaker system are usually “small” and not able to reproduce low frequencies. So it would be necessary to map the low frequency range of the “Music” track to the LFE channel, otherwise the music might sound a little “thin”.</p>
+<p>To do this, the “Music” track can simply be duplicated with <span class="menuselection">Edit ‣ Duplicate</span> after selecting it, and then <span class="menuselection">Split Stereo to Mono</span> from the context menu of the third track. Then one of the two mono tracks can be deleted; the other one can be renamed to “LFE”.</p>
+<p>Now the “Equalization…” effect could be used to cut off frequencies above around 100Hz from the “LFE” track, and reverse, cut off frequencies below around 100Hz from the “Music” track.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Creating technically perfect surround sound is a science all its own and thus beyond the scope of this guide - please refer to respective resources on the web for details.</p>
+</div>
+<p>What remains for now is to make sure that the surround sound track has the same length as the video track it should be added to. The video track used in this example has a length of 1:00 minute, so the lengths of the audio tracks in Audacity are adjusted accordingly:</p>
+<p>The Audacity project should now look something like this:</p>
+<img alt="../_images/AudacitySurroundLFE.jpg" src="../_images/AudacitySurroundLFE.jpg" />
+<p>The next thing to do is to export the project to a multichannel 5.1 surround sound audio file. The format used here is AC-3 (Dolby Digital).</p>
+<p>Before exporting, Audacity needs to be configured to allow exporting to a multichannel audio file: In <span class="menuselection">Edit ‣ Preferences</span>, under <span class="menuselection">Import/Export</span>, select “Use custom mix (for example to export a 5.1 multichannel file)”.</p>
+<p>The project can now be exported into a 5.1 surround sound audio file:</p>
+<ul class="simple">
+<li><p>Select <span class="menuselection">File ‣ Export…</span></p></li>
+<li><p>Provide a name for “Name” and select “AC3 Files (FFmpeg)”</p></li>
+<li><p>Click “Options…” and choose “512 kbps” as “Bit Rate”</p></li>
+</ul>
+<p>The “Advanced Mixing Options” dialog should show up. The number of “Output Channels” should be 6 and the channel mapping should already be correct:</p>
+<img alt="../_images/AdvancedMixingOptions2.jpg" src="../_images/AdvancedMixingOptions2.jpg" />
+<p>The result of the export should be an <em>.ac3 file which is playable with e.g. **VLC*</em> or <strong>Dragon Player</strong>.</p>
+</section>
+<section id="muxing-video-and-audio-together">
+<h3><a class="toc-backref" href="#id6">Muxing Video and Audio Together</a><a class="headerlink" href="#muxing-video-and-audio-together" title="Permalink to this headline">¶</a></h3>
+<p>The final step is to add the surround sound audio track to the video track, assuming the video was rendered without audio.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When muxing audio and video files into one file, the actual streams are just copied, and not transcoded. So there is no quality loss to either the audio or the video streams. Also, because the streams are just copied, muxing is very fast.</p>
+</div>
+<p>Assuming the video track was rendered to “Video.mkv” and the surround sound was exported to “5.1.ac3” the command to mux both to “Video-5.1.mkv” with <strong>avconv</strong> would be:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>avconv -i Video.mkv -i <span class="m">5</span>.1.ac3 -c copy -map <span class="m">0</span>:0 -map <span class="m">1</span>:0 Video-5.1.mkv
+</pre></div>
+</div>
+<p>The result should be an MKV video containing a Dolby Digital 5.1 surround sound audio track.</p>
+</section>
+</section>
+<section id="editing-existing-surround-sound">
+<h2><a class="toc-backref" href="#id7">Editing Existing Surround Sound</a><a class="headerlink" href="#editing-existing-surround-sound" title="Permalink to this headline">¶</a></h2>
+<p>When adding a clip with more than two channels to a project, <strong>Kdenlive</strong> creates an audio thumbnail that correctly shows all audio channels:</p>
+<img alt="../_images/AudioThumbnail.png" src="../_images/AudioThumbnail.png" />
+<p>The clip can be edited and (audio) effects applied to it, and all appears to work just fine - but once rendering the project, it turns out that the audio track in the resulting video file is 2 channels (stereo) only.</p>
+<p>The following steps provide a manual workaround for this issue.</p>
+<section id="extract-and-split-the-audio-track">
+<h3><a class="toc-backref" href="#id8">Extract and Split the Audio Track</a><a class="headerlink" href="#extract-and-split-the-audio-track" title="Permalink to this headline">¶</a></h3>
+<p>The first step is to extract the audio track from the video clip. This can be done in <strong>Kdenlive</strong> with <span class="menuselection">Extract Audio ‣ Wav 48000Hz</span> from the context menu of the clip. This creates a WAV audio file in the same folder as where the video clip is located.</p>
+<p>The extracted WAV audio file can then be opened in <strong>Audacity</strong>, it should show all 6 channels, these are:</p>
+<ul class="simple">
+<li><p>1 - Front Left</p></li>
+<li><p>2 - Front Right</p></li>
+<li><p>3 - Center</p></li>
+<li><p>4 - LFE</p></li>
+<li><p>5 - Surround Left</p></li>
+<li><p>6 - Surround Right</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>LFE (Low Frequency Effects) is often referred to as “subwoofer channel”, which is not quite correct. A surround sound speaker setup is perfectly valid without subwoofer. In this case the surround sound system will redirect the LFE channel to “large” speakers, usually the front speakers.</p>
+</div>
+<p>The idea now is to split the surround sound into four separate (stereo/mono) audio files that <strong>Kdenlive</strong> can handle:</p>
+<ul class="simple">
+<li><p>Front (stereo)</p></li>
+<li><p>Center (mono)</p></li>
+<li><p>LFE (mono)</p></li>
+<li><p>Surround (stereo)</p></li>
+</ul>
+<p>First, Audacity needs to be configured to not always export to stereo audio files: In <span class="menuselection">Edit ‣ Preferences</span>, under <span class="menuselection">Import/Export</span>, select “Use custom mix (for example to export a 5.1 multichannel file)”.</p>
+<p>Now, tracks 1+2 and 5+6 should be turned into stereo tracks by choosing <span class="menuselection">Make Stereo Track</span> from the context menu of the 1st and the 5th track, respectively. This should result in 4 tracks, two stereo and two mono.</p>
+<p>Next, the 4 tracks should be renamed to “Front”, “Center”, “LFE” and “Surround” starting from the top, using <span class="menuselection">Name…</span> from the context menu of each track.</p>
+<p>The tracks now look like this:</p>
+<img alt="../_images/AudacityChannels2.jpg" src="../_images/AudacityChannels2.jpg" />
+<p>After all this hard work, exporting the four tracks to four separate audio files is easy with <span class="menuselection">File ‣ Export ‣ Export Multiple…</span>. Use “WAV” as “Export format”, the rest of the settings should already be okay: “Split files based on: Tracks” and “Name files: Using Label/Track name”.</p>
+<p>The “Edit metadata” dialog might pop up for each track. It is fine to just say “OK”. At the end there should be a confirmation dialog and four audio files should have been exported: “Front.wav”, “Center.wav”, “LFE.wav” and “Surround.wav”.</p>
+</section>
+<section id="import-audio-tracks-into-kdenlive">
+<h3><a class="toc-backref" href="#id9">Import Audio Tracks into Kdenlive</a><a class="headerlink" href="#import-audio-tracks-into-kdenlive" title="Permalink to this headline">¶</a></h3>
+<p>The previously created audio files can now be added to the Kdenlive project using <span class="menuselection">Project ‣ Add Clip</span>.</p>
+<p>Since there are only two audio tracks in a project by default, it is necessary to add two more using <span class="menuselection">Project ‣ Tracks ‣ Insert Track</span> before adding the four audio tracks to the timeline.</p>
+<p>The next thing to do is to group the four audio tracks with the video clip by selecting all of them and then choosing <span class="menuselection">Timeline ‣ Group Clips</span>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Don’t forget to mute the original audio track in the video clip if necessary!</p>
+</div>
+<p>The <strong>Kdenlive</strong> project should now be ready for the usual editing, like cutting clips and adding effects, and should look something like this:</p>
+<img alt="../_images/KdenliveProjectEdit.jpg" src="../_images/KdenliveProjectEdit.jpg" />
+</section>
+<section id="rendering-the-project">
+<h3><a class="toc-backref" href="#id10">Rendering the Project</a><a class="headerlink" href="#rendering-the-project" title="Permalink to this headline">¶</a></h3>
+<p>Since it is not possible to render the project with a surround sound audio track, some manual steps are necessary to work around this.</p>
+<p>First, the video track needs to be rendered without audio. This is simply done by rendering the project as it would normally be done, but without audio, by deselecting the “Export audio” checkbox.</p>
+<p>Then, each of the four surround sound audio tracks “Front.wav”, “Center.wav”, “LFE.wav” and “Surround.wav” needs to be rendered into a separate audio file. For each of them, do the following:</p>
+<ul class="simple">
+<li><p>Mute all other audio tracks</p></li>
+<li><p>Enter a respective file name for “Output file”</p></li>
+<li><p>Select “Audio only” as “Destination”</p></li>
+<li><p>Select profile “WAV 48000 KHz”</p></li>
+<li><p>Make sure “Export audio” is checked</p></li>
+</ul>
+<img alt="../_images/RenderAudio.jpg" src="../_images/RenderAudio.jpg" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Unfortunately, the mono tracks “Center.wav” and “LFE.wav” are rendered as stereo tracks, and there seems to be no way to avoid this. But this can be handled later in Audacity.</p>
+</div>
+</section>
+<section id="compose-a-surround-sound-audio-file">
+<h3><a class="toc-backref" href="#id11">Compose a Surround Sound Audio File</a><a class="headerlink" href="#compose-a-surround-sound-audio-file" title="Permalink to this headline">¶</a></h3>
+<p>Now the separate audio tracks rendered by <strong>Kdenlive</strong> need to be “merged” into a single multichannel 5.1 surround sound audio file. This is again done in Audacity:</p>
+<ul class="simple">
+<li><p>Import “Front.wav”, “Center.wav”, “LFE.wav” and “Surround.wav” (in this order!) using <span class="menuselection">File ‣ Import ‣ Audio…</span></p></li>
+</ul>
+<p>“Center” and “LFE” are now stereo, which is not what is needed. This can be fixed by selecting <span class="menuselection">Split Stereo to Mono</span> from the context menu of each track, and deleting one of the two resulting mono tracks.</p>
+<p>Eventually, there should be four tracks in the Audacity project:</p>
+<ul class="simple">
+<li><p>Front (stereo)</p></li>
+<li><p>Center (mono)</p></li>
+<li><p>LFE (mono)</p></li>
+<li><p>Surround (stereo)</p></li>
+</ul>
+<p>The project can now be exported into a 5.1 surround sound audio file:</p>
+<ul class="simple">
+<li><p>Select <span class="menuselection">File ‣ Export…</span></p></li>
+<li><p>Provide a name for “Name” and select “AC3 Files (FFmpeg)”</p></li>
+<li><p>Click <strong>Options…</strong> and choose “512 kbps” as “Bit Rate”</p></li>
+</ul>
+<p>The <strong>Advanced Mixing Options</strong> dialog should show up. The number of <strong>Output Channels</strong> should be 6 and the channel mapping should already be correct:</p>
+<img alt="../_images/AdvancedMixingOptions.jpg" src="../_images/AdvancedMixingOptions.jpg" />
+<p>The result of the export should be an <em>.ac3 file which is playable with i.e. **VLC*</em> or <strong>Dragon Player</strong>.</p>
+</section>
+<section id="id1">
+<h3><a class="toc-backref" href="#id12">Muxing Video and Audio Together</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Since video and audio was rendered separately, both need to be multiplexed into a single file containing both the video and audio stream.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When muxing audio and video files into one file, the actual streams are just copied, and not transcoded. So there is no quality loss to either the audio or the video streams. Also, because the streams are just copied, muxing is very fast.</p>
+</div>
+<p>Assuming the video track was rendered to “Video.mkv” and the surround sound was exported to “5.1.ac3”, the command to mux both to “Video-5.1.mkv” with <strong>avconv</strong> would be:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>avconv -i Video.mkv -i <span class="m">5</span>.1.ac3 -c copy -map <span class="m">0</span>:0 -map <span class="m">1</span>:0 Video-5.1.mkv
+</pre></div>
+</div>
+<p>The result should be an MKV video containing a Dolby Digital 5.1 surround sound audio track.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../shootinghints.html" class="btn btn-neutral float-right" title="Shooting Hints" accesskey="n" rel="next"> <!-- Next --> <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="useful_resources.html" class="btn btn-neutral" title="Useful Resources" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> <!-- Previous  -->  </a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

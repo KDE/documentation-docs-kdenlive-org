@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Effects &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Effects</a><ul>
+<li><a class="reference internal" href="#effects-tab">Effects Tab</a></li>
+<li><a class="reference internal" href="#the-properties-tab-and-its-menu">The Properties Tab and its Menu</a><ul>
+<li><a class="reference internal" href="#the-properties-tab">The Properties Tab</a></li>
+<li><a class="reference internal" href="#reset-effect">Reset Effect</a></li>
+<li><a class="reference internal" href="#save-effect">Save Effect</a></li>
+<li><a class="reference internal" href="#create-group">Create Group</a></li>
+<li><a class="reference internal" href="#create-region">Create Region</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#keyframes-in-effects">Keyframes in effects</a><ul>
+<li><a class="reference internal" href="#working-with-keyframes-in-the-effect-stack">Working with keyframes in the effect stack</a></li>
+<li><a class="reference internal" href="#exchange-keyframes-across-effects">Exchange keyframes across effects</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#effect-zones">Effect Zones</a></li>
+<li><a class="reference internal" href="#seek-to-active-frame">Seek To Active Frame</a></li>
+<li><a class="reference internal" href="#effects-demos">Effects Demos</a></li>
+<li><a class="reference internal" href="#effects-categories">Effects Categories</a></li>
+<li><a class="reference internal" href="#faq">FAQ</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Effects</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/effects/effects.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="effects">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2">Effects</a><a class="headerlink" href="#effects" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#effects" id="id2">Effects</a></p>
+<ul>
+<li><p><a class="reference internal" href="#effects-tab" id="id3">Effects Tab</a></p></li>
+<li><p><a class="reference internal" href="#the-properties-tab-and-its-menu" id="id4">The Properties Tab and its Menu</a></p>
+<ul>
+<li><p><a class="reference internal" href="#the-properties-tab" id="id5">The Properties Tab</a></p></li>
+<li><p><a class="reference internal" href="#reset-effect" id="id6">Reset Effect</a></p></li>
+<li><p><a class="reference internal" href="#save-effect" id="id7">Save Effect</a></p></li>
+<li><p><a class="reference internal" href="#create-group" id="id8">Create Group</a></p></li>
+<li><p><a class="reference internal" href="#create-region" id="id9">Create Region</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#keyframes-in-effects" id="id10">Keyframes in effects</a></p>
+<ul>
+<li><p><a class="reference internal" href="#working-with-keyframes-in-the-effect-stack" id="id11">Working with keyframes in the effect stack</a></p></li>
+<li><p><a class="reference internal" href="#exchange-keyframes-across-effects" id="id12">Exchange keyframes across effects</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#effect-zones" id="id13">Effect Zones</a></p></li>
+<li><p><a class="reference internal" href="#seek-to-active-frame" id="id14">Seek To Active Frame</a></p></li>
+<li><p><a class="reference internal" href="#effects-demos" id="id15">Effects Demos</a></p></li>
+<li><p><a class="reference internal" href="#effects-categories" id="id16">Effects Categories</a></p></li>
+<li><p><a class="reference internal" href="#faq" id="id17">FAQ</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Effects in <strong>Kdenlive</strong> can be used to modify the audio and video properties of the source material.</p>
+<p>You add effects to clips by choosing them from the <strong>Effects Tab</strong> and dragging them onto a clip in the timeline. Or by selecting a clip in the timeline and choosing <span class="menuselection">Add Effect</span> from the <a class="reference internal" href="../user_interface/timeline_menu.html#timeline-menu"><span class="std std-ref">Timeline Menu</span></a> or <span class="menuselection">Add Effect</span> from Clip in Timeline <a class="reference internal" href="../cutting_and_assembling/timeline/right_click_menu.html#right-click-menu"><span class="std std-ref">Clip in Timeline - Right-Click Menu</span></a> menu . For more detail see <a class="reference internal" href="../getting_started/quickstart.html#quickstart"><span class="std std-ref">Quick Start</span></a></p>
+<p>The effects that are in play on a given clip can be viewed and edited via the Properties Tab that displays when the clip in question is selected in the timeline.</p>
+<p>You can also apply effects to an entire track. This is achieved by dragging an effect from the <strong>Effect Tab</strong> to the <strong>Track Header</strong>.  Or you can click on the track header and chose <span class="menuselection">Add Effect</span> from the <a class="reference internal" href="../user_interface/timeline_menu.html#timeline-menu"><span class="std std-ref">Timeline Menu</span></a>. Tracks which have effects added in this fashion will have a gold star icon in the track header.</p>
+<img alt="Figure 1a. Track header showing star icon indicating an effect has been added to this track." class="align-left" src="../_images/Kdenlive_Effect_on_whole_track.png" />
+<section id="effects-tab">
+<h2><a class="toc-backref" href="#id3">Effects Tab</a><a class="headerlink" href="#effects-tab" title="Permalink to this headline">¶</a></h2>
+<p>Make the Effects Tab visible from the <span class="menuselection">View</span> menu (<span class="menuselection">View ‣ Effects</span>)</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Effects_tab_17_04.png"><img alt="Figure 1b - effects tab. The Information icon (6) has been toggled so that the tab displays a brief description of the selected effect at the bottom" class="align-left" src="../_images/Kdenlive_Effects_tab_17_04.png" style="width: 520px;" /></a>
+<p>The effects tab has 5 different icons that cause the application to show and hide different categories of effects.</p>
+<p>By default the effects tab displays the “Main Effects” (Icon 1 selected). These are the Audio Correction, Alpha/Transform, Analysis and data, Colour and the Image adjustment categories.</p>
+<p>Icon 2 makes it display all the video effects categories (This option hides the Audio Correction category that is in the “Main Effects” and adds the Misc and Motion categories).</p>
+<p>Icon 3 makes it display all the Audio effects categories</p>
+<p>Icon 4 is Custom effects</p>
+<p>Icon 5 is Favorite Effects. This is the same list that appears in the “Insert an Effect …” context sensitive menu obtained on a clip in the timeline. An effect gets in this list by choosing <em>Add to Favorites</em> from the context sensitive menu on each of the effects.</p>
+<p>Icon 6 toggles the information display which - when on - shows a description of what the effect does.</p>
+<p>If you find that you are missing some effects or effects categories that you know and love it is probably because you need to choose to display the hidden effects by choosing an Icon other that Icon 1 - “Main Effects”</p>
+<p>To add an effect to a clip, simply drag it from the <strong>Effects Tab</strong> to the clip on the <span class="xref std std-ref">timeline</span>.</p>
+</section>
+<section id="the-properties-tab-and-its-menu">
+<h2><a class="toc-backref" href="#id4">The Properties Tab and its Menu</a><a class="headerlink" href="#the-properties-tab-and-its-menu" title="Permalink to this headline">¶</a></h2>
+<section id="the-properties-tab">
+<h3><a class="toc-backref" href="#id5">The Properties Tab</a><a class="headerlink" href="#the-properties-tab" title="Permalink to this headline">¶</a></h3>
+<p>The Properties Tab displays the settings for the effects on the currently selected clip (Figure 3) or the settings for  the currently selected transition (Figure 4)  depending on whether it is a clip or a transition that is currently selected.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_selection_param1.png"><img alt="Figure 3 - Properties when a clip with effects is selected" class="align-left" src="../_images/Kdenlive_selection_param1.png" style="width: 527px;" /></a>
+<a class="reference internal image-reference" href="../_images/Kdenlive_selection_param2.png"><img alt="Figure 4 - Properties when a transition is selected" class="align-left" src="../_images/Kdenlive_selection_param2.png" style="width: 527px;" /></a>
+<p>Click the eye icon shown at 2 to temporarily disable the effect and toggle the button to the state shown at 1.
+Click the empty eye icon shown at 1 to re-enable a disabled effect and toggle the button to the state shown at 2.</p>
+<img alt="../_images/Toggle_effect_on_and_off.png" src="../_images/Toggle_effect_on_and_off.png" />
+<p>To remove an effect from a clip, click the trash can icon labelled 3 in the image below. The arrow labelled 1 minimizes the effect in the Properties Window. And the icon labelled 2 brings up the Properties Tab menu shown.</p>
+<img alt="../_images/Kdenlive_Effect_stack_icons2_17.04.png" src="../_images/Kdenlive_Effect_stack_icons2_17.04.png" />
+</section>
+<section id="reset-effect">
+<h3><a class="toc-backref" href="#id6">Reset Effect</a><a class="headerlink" href="#reset-effect" title="Permalink to this headline">¶</a></h3>
+<p>This reverts all the settings in the effect back to their default values.</p>
+</section>
+<section id="save-effect">
+<h3><a class="toc-backref" href="#id7">Save Effect</a><a class="headerlink" href="#save-effect" title="Permalink to this headline">¶</a></h3>
+<p>This allows you to save the current effect and all its settings. The saved effect will appear in the Effect List in the Custom category.</p>
+</section>
+<section id="create-group">
+<h3><a class="toc-backref" href="#id8">Create Group</a><a class="headerlink" href="#create-group" title="Permalink to this headline">¶</a></h3>
+<p>This creates an Effect Group. An Effect Group is a place holder for multiple effects. You can then save the group of effects – they will the appear in the Effect List, in the Custom Section.  You can then later apply the whole group of effects to other parts of the timeline.</p>
+<p>To add effects to the group, first add the effect in question to a clip. Then drag that effect and drop it onto the Effect Group in  the Properties Tab.</p>
+</section>
+<section id="create-region">
+<h3><a class="toc-backref" href="#id9">Create Region</a><a class="headerlink" href="#create-region" title="Permalink to this headline">¶</a></h3>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 0.9.3.</span></p>
+</div>
+<p>The “Create Region” feature enables a user to apply an effect to a part of a clip only. It is a really powerful feature but currently the UI is not fully ready to get its full potential.</p>
+<p>Basically, you add an effect to a clip – for example “Sepia” – then you go in the effect’s menu and select “Create Region”. This will now open a file dialog.</p>
+<p>In that dialog, you need to point to an MLT clip with alpha transparency. This is where Kdenlive is not 100% ready because there are many ways we could create such clips, using for example a threshold filter or rotoscoping. But as a start, let’s say you can open any image with alpha transparency, or a title clip created with Kdenlive. Then, the “sepia” effect will only be applied on the non-transparent areas of this “region” clip.</p>
+</section>
+</section>
+<section id="keyframes-in-effects">
+<h2><a class="toc-backref" href="#id10">Keyframes in effects</a><a class="headerlink" href="#keyframes-in-effects" title="Permalink to this headline">¶</a></h2>
+<p>Many effects use the concept of “Keyframes”. Keyframes are user-defined points in your clip where you want an effect to start, stop or change.  You can set the parameters for your effects to different values at different keyframes and <strong>Kdenlive</strong> will then gradually change the parameters between the two keyframes so that by the time the video has arrived at the next keyframe it will have adjusted the parameter to match that key frame. It interpolates between keyframes.</p>
+<p>See <a class="reference internal" href="../getting_started/quickstart.html#quickstart"><span class="std std-ref">Quick Start</span></a> for an example on keyframing the RGB adjustment effect.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 20.08.0.</span></p>
+</div>
+<p>Effect panels get zoom bars. Adjusting keyframes just get easier.</p>
+<p>VIDEO FILE Zoombar-effects.mp4 MISSING</p>
+<section id="working-with-keyframes-in-the-effect-stack">
+<h3><a class="toc-backref" href="#id11">Working with keyframes in the effect stack</a><a class="headerlink" href="#working-with-keyframes-in-the-effect-stack" title="Permalink to this headline">¶</a></h3>
+<p>Since Version 21.04.0</p>
+<p>The effect’s keyframe panel has new icons, improved keyframe grabbing and new functions like:</p>
+<p>VIDEO FILE move-kf-to-cursor.mp4 MISSING</p>
+<p># Select the keyframe you want to move
+# Move the cursor to the position where you want to move the keyframe to</p>
+<ul class="simple">
+<li><p>Click on <span class="menuselection">Move selected keyframe to cursor position</span></p></li>
+</ul>
+<p>VIDEO FILE duplicate-keyframe.mp4 MISSING</p>
+<p># Select the keyframe you want to duplicate
+# Move the cursor to the position where you want to insert the new keyframe</p>
+<ul class="simple">
+<li><p>Click on <span class="menuselection">Duplicate selected keyframe</span></p></li>
+</ul>
+<p>VIDEO FILE apply-value-to-selected-kf.mp4 MISSING</p>
+<p># Select all keyframes you want to apply the value on
+# Go to one of the selected keyframes and change the value(s) as you want
+# Click on <span class="menuselection">Apply values to selected keyframes</span></p>
+<ul class="simple">
+<li><p>Select the parameters you want to apply and click on <span class="menuselection">OK</span></p></li>
+</ul>
+<p>VIDEO FILE kf-ctrl-select.mp4 MISSING</p>
+<p>VIDEO FILE kf-rubber-select.mp4 MISSING</p>
+<p>VIDEO FILE multiple-kf-move.mp4 MISSING</p>
+</section>
+<section id="exchange-keyframes-across-effects">
+<h3><a class="toc-backref" href="#id12">Exchange keyframes across effects</a><a class="headerlink" href="#exchange-keyframes-across-effects" title="Permalink to this headline">¶</a></h3>
+<p>You can import and export keyframes from/to the clipboard. This feature is not only useful to copy keyframes from one clip to another, it can e.g. also be used to copy the results of the motion tracker to a transform effect.</p>
+<p>To export the keyframes the clipboard click on <a class="reference internal" href="../_images/application-menu.svg"><img alt="application-menu" src="../_images/application-menu.svg" width="22px" /></a> inside the keyframe widget and choose <span class="menuselection">Copy keyframes to clipboard</span></p>
+<img alt="Import keyframes dialog" class="align-left" src="../_images/Kdenlive_import_keyframes_dialog.png" />
+<p>To import keyframes from the clipboard click on <a class="reference internal" href="../_images/application-menu.svg"><img alt="application-menu" src="../_images/application-menu.svg" width="22px" /></a> inside the keyframe widget and choose <span class="menuselection">Import keyframes from clipboard</span>. If you have valid data on your clipboard you should see a dialog similar to the screenshot where you can adjust the mapping of the data.</p>
+</section>
+</section>
+<section id="effect-zones">
+<h2><a class="toc-backref" href="#id13">Effect Zones</a><a class="headerlink" href="#effect-zones" title="Permalink to this headline">¶</a></h2>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 21.04.0.</span></p>
+</div>
+<p>The new Effect Zones allow you to apply effects to specific regions of tracks or the timeline. Zones can be set from the effect zone bar in the timeline or from the interface in the effect panel.</p>
+<p><strong>Track Effect Zone</strong></p>
+<p>VIDEO FILE track-effect-zone.mp4 MISSING</p>
+<p><strong>Master Effect Zone</strong></p>
+<p>VIDEO FILE timeline-effect-zone.mp4 MISSING</p>
+</section>
+<section id="seek-to-active-frame">
+<h2><a class="toc-backref" href="#id14">Seek To Active Frame</a><a class="headerlink" href="#seek-to-active-frame" title="Permalink to this headline">¶</a></h2>
+<p>Some keyframe controls have a <em>seek to active frame</em> button</p>
+<img alt="../_images/kdenlive_Seek_to_Active_frame_button.png" src="../_images/kdenlive_Seek_to_Active_frame_button.png" />
+<p>(labeled 1 in screenshot A below). When <em>seek to active frame</em> is toggled on and you click on one of the keyframes in the keyframe list,  Kdenlive will scroll the preview window to that keyframe. In the example of the screenshot, we have selected the keyframe at 9:20 in A and the clip position caret (highlighted in red box) shows the location of this keyframe. Clicking the keyframe at 10:00 in B shows how the clip position has moved.</p>
+<img alt="../_images/Kdenlive_Seek_to_active_frame.png" src="../_images/Kdenlive_Seek_to_active_frame.png" />
+</section>
+<section id="effects-demos">
+<h2><a class="toc-backref" href="#id15">Effects Demos</a><a class="headerlink" href="#effects-demos" title="Permalink to this headline">¶</a></h2>
+<p>The following three YouTube videos display the results of a number of the video effects available in <strong>Kdenlive</strong> (Spanish captioning).</p>
+<p><a class="reference external" href="https://youtu.be/C6oeu2Yc64I">https://youtu.be/C6oeu2Yc64I</a></p>
+<p><a class="reference external" href="https://youtu.be/jrC4F_G64jA">https://youtu.be/jrC4F_G64jA</a></p>
+<p><a class="reference external" href="https://youtu.be/XMoSgHHbA4k">https://youtu.be/XMoSgHHbA4k</a></p>
+<p>Another YouTube video  (English Captions).</p>
+<p><a class="reference external" href="https://youtu.be/capV7lUzbOw">https://youtu.be/capV7lUzbOw</a></p>
+<p>See also this YouTube play list from <a class="reference external" href="http://www.youtube.com/playlist?list=PLc1VErdvjnSFE6w6sryFWIu4lfKavhnvz">Franz M.P.</a></p>
+</section>
+<section id="effects-categories">
+<h2><a class="toc-backref" href="#id16">Effects Categories</a><a class="headerlink" href="#effects-categories" title="Permalink to this headline">¶</a></h2>
+<p>See also <a class="reference internal" href="effects_and_transitions.html#effects-and-transitions"><span class="std std-ref">Alphabetical List of Effects and Compositions</span></a> for an alphabetical list of effects and transitions.</p>
+<p>The effects are divided into the following categories:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="alpha_manipulation.html#alpha-manipulation"><span class="std std-ref">Alpha manipulation</span></a></p></li>
+<li><p><a class="reference internal" href="analysis_and_data.html#analysis-and-data"><span class="std std-ref">Analysis and Data</span></a></p></li>
+<li><p><span class="xref std std-ref">artistic</span></p></li>
+<li><p><a class="reference internal" href="audio.html#audio"><span class="std std-ref">Audio Effects</span></a></p></li>
+<li><p><a class="reference internal" href="audio_channels.html#audio-channels"><span class="std std-ref">Audio channels</span></a></p></li>
+<li><p><a class="reference internal" href="audio_correction.html#audio-correction"><span class="std std-ref">Audio Correction</span></a></p></li>
+<li><p><a class="reference internal" href="blur_and_hide.html#blur-and-hide"><span class="std std-ref">Blur and Hide</span></a></p></li>
+<li><p><a class="reference internal" href="colour.html#colour"><span class="std std-ref">Color</span></a></p></li>
+<li><p><a class="reference internal" href="colour_correction.html#colour-correction"><span class="std std-ref">Color Correction</span></a></p></li>
+<li><p><a class="reference internal" href="crop_and_transform.html#crop-and-transform"><span class="std std-ref">Crop and Transform</span></a></p></li>
+<li><p><a class="reference internal" href="custom.html#custom"><span class="std std-ref">Custom Effects</span></a></p></li>
+<li><p><a class="reference internal" href="distort.html#distort"><span class="std std-ref">Distort</span></a></p></li>
+<li><p><a class="reference internal" href="enhancement.html#enhancement"><span class="std std-ref">Enhancement</span></a></p></li>
+<li><p><a class="reference internal" href="fade.html#fade"><span class="std std-ref">Fade</span></a></p></li>
+<li><p><a class="reference internal" href="misc.html#misc"><span class="std std-ref">Misc Effects</span></a></p></li>
+<li><p><a class="reference internal" href="motion.html#motion"><span class="std std-ref">Motion</span></a></p></li>
+</ul>
+<p>The available effects are defined by <code class="file docutils literal notranslate"><span class="pre">.xml</span></code> files found in <code class="file docutils literal notranslate"><span class="pre">$KDEDIR/share/kde4/apps/kdenlive/effects</span></code> (e.g. <code class="file docutils literal notranslate"><span class="pre">/usr/share/kde4/apps/kdenlive/effects</span></code>).</p>
+<p>Or at <code class="file docutils literal notranslate"><span class="pre">/usr/share/kdenlive/effects</span></code> on version 15.n.</p>
+<p>These .xml files contain the default values for the effects parameters. So if you don’t like the default values for the effects in Kdenlive, you can modify the defaults by editing these .xml files.</p>
+</section>
+<section id="faq">
+<h2><a class="toc-backref" href="#id17">FAQ</a><a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h2>
+<p>Q: How to duplicate an effect to use similar settings somewhere else?</p>
+<p>A: Select your effect in the timeline. In the Properties Tab choose <span class="menuselection">Save</span> (from the <a class="reference internal" href="#effects"><span class="std std-ref">Effects</span></a>). You will now find this effect available in the <strong>Effect List</strong> <span class="menuselection">Custom</span> section.</p>
+<p>A: Other solution: select a strip containing the effect, <span class="menuselection">Copy</span>, then, where you want to apply it again, right-click and select <span class="menuselection">Paste effect</span> instead of <span class="menuselection">Paste</span>.</p>
+<p>Q: How to apply an effect on several clips (all) at the same time?</p>
+<p>A: You can select multiple clips with <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">drag</kbd></kbd> (left mouse button) around them. Then right-click and group clips (or <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">G</kbd></kbd>).</p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

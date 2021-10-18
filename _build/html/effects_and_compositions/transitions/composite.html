@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Composite Transition &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user_interface.html">User interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../importing_and_assets_management.html">Importing and assets management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cutting_and_assembling.html">Cutting and assembling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../exporting.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../get_involved.html">Get involved</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Composite Transition</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/effects_and_compositions/transitions/composite.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="composite-transition">
+<span id="composite"></span><h1><a class="toc-backref" href="#id1">Composite Transition</a><a class="headerlink" href="#composite-transition" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#composite-transition" id="id1">Composite Transition</a></p>
+<ul>
+<li><p><a class="reference internal" href="#alpha-operations" id="id2">Alpha operations</a></p></li>
+<li><p><a class="reference internal" href="#tutorial-1" id="id3">Tutorial 1</a></p></li>
+<li><p><a class="reference internal" href="#tutorial-2-composite-transition-and-blue-screen" id="id4">Tutorial 2 - composite transition and Blue Screen</a></p></li>
+<li><p><a class="reference internal" href="#tutorial-3-video-masks" id="id5">Tutorial 3 - Video Masks</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>The Composite transition combines the video data from two video tracks into one. This transition is used in combination with Alpha Channel information supplied by one of the <a class="reference internal" href="../alpha_manipulation.html#alpha-manipulation"><span class="std std-ref">Alpha manipulation</span></a> or by the use of a <a class="reference internal" href="#composite"><span class="std std-ref">Composite Transition</span></a>. This Alpha Channel data describes how the data from the two video tracks should be combined. Until you define some alpha channel data using an <a class="reference internal" href="../alpha_manipulation.html#alpha-manipulation"><span class="std std-ref">Alpha manipulation</span></a> or a Wipe File, changes in the Composite transition settings will have no visible effect.</p>
+<p>Note: The disadvantages of the <strong>Composite</strong> transition are: luma bleed, and less precise position control. When compared to <strong>Affine</strong>, the <strong>Composite</strong> transition, it does not support rotation or skewing but it is much faster, albeit at the cost of luma bleed.</p>
+<section id="alpha-operations">
+<h2><a class="toc-backref" href="#id2">Alpha operations</a><a class="headerlink" href="#alpha-operations" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../../_images/Composite_transition_showing_alpha_channel_operation_options.png"><img alt="../../_images/Composite_transition_showing_alpha_channel_operation_options.png" class="align-left" src="../../_images/Composite_transition_showing_alpha_channel_operation_options.png" style="width: 400px;" /></a>
+<p>Alpha operation options are <em>Over</em>, ‘’And*,*Or*and*Xor*</p>
+<p>Operation <strong>Over</strong></p>
+<ul class="simple">
+<li><p>The clip with alpha information is located on the top track: the selected color acquires transparency.</p></li>
+<li><p>The clip with alpha information is located on the bottom track: we see only the top clip.</p></li>
+</ul>
+<img alt="../../_images/alpha_operation_Over.png" src="../../_images/alpha_operation_Over.png" />
+<p>Operation <strong>And</strong></p>
+<ul class="simple">
+<li><p>The clip with the alpha information is located on the top track: the selected color becomes transparent.</p></li>
+<li><p>The clip with alpha information is located on the bottom track: everything in the image becomes transparent, except for the selected color.</p></li>
+</ul>
+<img alt="../../_images/alpha_operation_And.png" src="../../_images/alpha_operation_And.png" />
+<p>Operation <strong>Or</strong> clears any alpha information</p>
+<img alt="../../_images/alpha_operation_Or.png" src="../../_images/alpha_operation_Or.png" />
+<p>Operation <strong>Xor</strong></p>
+<ul class="simple">
+<li><p>The clip with alpha information is located on the top track: everything in the image becomes transparent, except for the selected color.</p></li>
+<li><p>The clip with alpha information is located on the bottom track: the selected color acquires transparency.</p></li>
+</ul>
+<img alt="../../_images/alpha_operation_Xor.png" src="../../_images/alpha_operation_Xor.png" />
+</section>
+<section id="tutorial-1">
+<h2><a class="toc-backref" href="#id3">Tutorial 1</a><a class="headerlink" href="#tutorial-1" title="Permalink to this headline">¶</a></h2>
+<p>See this <a class="reference internal" href="../alpha_manipulation/blue_screen.html#blue-screen"><span class="std std-ref">Chroma Key</span></a> that describes how to use:</p>
+<ul class="simple">
+<li><p>Alpha Manipulation -&gt; <a class="reference internal" href="../alpha_manipulation/blue_screen.html#blue-screen"><span class="std std-ref">Chroma Key</span></a></p></li>
+<li><p><a class="reference internal" href="../alpha_manipulation/rotoscoping.html#rotoscoping"><span class="std std-ref">Rotoscoping</span></a></p></li>
+<li><p>Composite Transition.</p></li>
+<li><p>Crop and Transform -&gt; <a class="reference internal" href="../crop_and_transform/pan_and_zoom.html#pan-and-zoom"><span class="std std-ref">Position and Zoom</span></a></p></li>
+<li><p>Enhancement -&gt; <a class="reference internal" href="../enhancement/sharpen.html#sharpen"><span class="std std-ref">Sharpen</span></a></p></li>
+<li><p>Alpha Manipulation -&gt; <a class="reference internal" href="../alpha_manipulation/alpha_operations.html#alpha-operations"><span class="std std-ref">Alpha operations</span></a></p></li>
+</ul>
+</section>
+<section id="tutorial-2-composite-transition-and-blue-screen">
+<h2><a class="toc-backref" href="#id4">Tutorial 2 - composite transition and Blue Screen</a><a class="headerlink" href="#tutorial-2-composite-transition-and-blue-screen" title="Permalink to this headline">¶</a></h2>
+<p>Tutorial  showing how to use the “Blue screen” function, composite transition and <a class="reference internal" href="../effects.html#effects"><span class="std std-ref">Effects</span></a> to animate one image moving over another in the <strong>Kdenlive</strong> video editor.</p>
+<p><a class="reference external" href="https://youtu.be/M8hC5FbIzdE">https://youtu.be/M8hC5FbIzdE</a></p>
+</section>
+<section id="tutorial-3-video-masks">
+<h2><a class="toc-backref" href="#id5">Tutorial 3 - Video Masks</a><a class="headerlink" href="#tutorial-3-video-masks" title="Permalink to this headline">¶</a></h2>
+<p>This tutorial uses the Composite transition and a custom video mask (a.k.a. a Wipe File or <a class="reference external" href="http://en.wikipedia.org/wiki/Matte_%28filmmaking%29*matte">http://en.wikipedia.org/wiki/Matte_%28filmmaking%29*matte</a>’’) to create an effect where you can make it appear that one video is playing on the screen of a still of a computer monitor.</p>
+<p>The mask/matte is created with <strong>GIMP</strong>.</p>
+<p>Save your mattes to <code class="file docutils literal notranslate"><span class="pre">/usr/share/kdenlive/lumas</span></code>.</p>
+<p>It would appear that you need to stop and restart <strong>Kdenlive</strong> in order for it to pick up new matte/wipe files saved in the above directory.</p>
+<p>There appears to be a defect in this functionality which means that when the composite is on 100% Opacity, the wipe file does not work. You need to change it to 99% to make the effect kick in.</p>
+<p><a class="reference external" href="https://youtu.be/FIpnGlRY27U">https://youtu.be/FIpnGlRY27U</a></p>
+<img alt="../../_images/Composite_transition_with_wipe_file.png" class="align-left" src="../../_images/Composite_transition_with_wipe_file.png" />
+<p>Screenshot of Composite transition using a custom wipe file to mask out a section of video - as described in Tutorial 3.</p>
+<p>Aspirational goal - a compositing experiment made using detonation films free sample effects.</p>
+<p><strong>Warning</strong>: video below may be inappropriate for some users. <a class="reference external" href="https://youtu.be/vo-xntF1bns">https://youtu.be/vo-xntF1bns</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

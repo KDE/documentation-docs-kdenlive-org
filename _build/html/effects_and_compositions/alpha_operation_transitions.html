@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alpha operation transitions &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user_interface.html">User interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../importing_and_assets_management.html">Importing and assets management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cutting_and_assembling.html">Cutting and assembling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exporting.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../get_involved.html">Get involved</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Alpha operation transitions</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/effects_and_compositions/alpha_operation_transitions.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="alpha-operation-transitions">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2">Alpha operation transitions</a><a class="headerlink" href="#alpha-operation-transitions" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#alpha-operation-transitions" id="id2">Alpha operation transitions</a></p></li>
+</ul>
+</div>
+<p>The addition, addition_alpha, alpha*atop*, alpha’’in*, alpha*out*, alpha over and alpha*xor’’ transitions all perform alpha operations between the two video tracks. These transitions only have an effect if the videos on the tracks have alpha channel information in them.</p>
+<p>The Alpha Channel information is supplied by one of the <a class="reference internal" href="alpha_manipulation.html#alpha-manipulation"><span class="std std-ref">Alpha manipulation</span></a>.  This Alpha Channel data describes which regions of the video track is transparent and how transparent it should be. Until you define some alpha channel data using an <a class="reference internal" href="alpha_manipulation.html#alpha-manipulation"><span class="std std-ref">Alpha manipulation</span></a>  changes in the alpha operation transition settings will have no visible effect.</p>
+<p>The alpha operation transitions define how the two different alpha channel information should be combined to produce the final image. These operations are implementing the operations described at Wikipedia page on <a class="reference external" href="http://en.wikipedia.org/wiki/Alpha_compositing">Alpha Compositing</a>.</p>
+<p>In the examples below the yellow clip has a triangle alpha shape with min = 0 and max =618. This translates to 0% opacity outside the triangle and 61.8% opacity inside the triangle. Ie the alpha channel in the yellow track say show all the track underneath outside the triangle and show 38.2% of the underneath track inside the triangle</p>
+<p>The Green clip has a rectangle alpha shape with min=0 and max =1000. This translates to make the clip 100% transparent outside the rectangle and 0% transparent inside the rectangle.</p>
+<img alt="../_images/Kdenlive_Alphaxor.png" src="../_images/Kdenlive_Alphaxor.png" />
+<p>alpha*xor*</p>
+<img alt="../_images/Kdenlive_Alphaout.png" src="../_images/Kdenlive_Alphaout.png" />
+<p>alpha*out*</p>
+<img alt="../_images/Kdenlive_Alphaain.png" src="../_images/Kdenlive_Alphaain.png" />
+<p>alpha*in*</p>
+<img alt="../_images/Kdenlive_Alphaatop.png" src="../_images/Kdenlive_Alphaatop.png" />
+<p>alpha*atop*</p>
+<img alt="../_images/Kdenlive_Alpha_over.png" src="../_images/Kdenlive_Alpha_over.png" />
+<p>alpha over</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

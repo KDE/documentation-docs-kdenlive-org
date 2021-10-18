@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titles &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Download New Title Templates" href="titles/download_new_title_templates.html" />
+    <link rel="prev" title="Alpha operation transitions" href="alpha_operation_transitions.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kdenliveonotherplatforms.html">Kdenlive On Other Desktops and Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="toolbars.html">Toolbars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menu.html">Menu Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="file_menu.html">File Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="view_menu.html">View Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project_menu.html">Project Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings_menu.html">Settings Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings_menu.html#settings-menu-mac-os-x">Settings Menu - Mac OS X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="timeline_menu.html">Timeline Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tool_menu.html">Tool Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clip_menu.html">Clip Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="edit_menu.html">Edit Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="monitor_menu.html">Monitor Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="monitors.html">Monitors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="timeline.html">Timeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files.html">Project and File management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects_and_transitions.html">Alphabetical List of Effects and Compositions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="effects.html">Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transitions.html">Transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alpha_operation_transitions.html">Alpha operation transitions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Titles</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-save-a-title">How to Save a Title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-load-a-title">How to Load a Title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-edit-an-existing-title">How to edit an existing title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#template-titles-user-defined">Template Titles - User-Defined</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#template-titles-built-in">Template Titles - Built In</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#import-an-image-into-the-title">Import an Image into the title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#draw-rectangle-toolbar-item">Draw Rectangle Toolbar Item</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#to-make-the-title-scroll-vertically">To make the title scroll vertically</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#to-make-the-title-scroll-horizontally">To make the title scroll Horizontally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-fade-titles-in-and-or-out">How to fade titles in and/or out</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-fade-in-more-than-one-title-sequentially">How to fade in more than one title sequentially</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#faq">FAQ</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="titles/download_new_title_templates.html">Download New Title Templates</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="capturing.html">Capturing Video</a></li>
+<li class="toctree-l1"><a class="reference internal" href="capturingaudio.html">Capturing Audio (Dubbing)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rendering.html">Rendering Using Guides and Rendering Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="full_luma.html">Full Luma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Written Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html#video-tutorials">Video Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="useful_information.html">Useful Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shootinghints.html">Shooting Hints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting_and_common_problems.html">Troubleshooting and Common Problems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="windows_issues.html">Windows Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="windows_issues.html#general-issues">General Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="credits_and_license.html">Credits and License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Titles</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/titles.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="titles">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2">Titles</a><a class="headerlink" href="#titles" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#titles" id="id2">Titles</a></p>
+<ul>
+<li><p><a class="reference internal" href="#how-to-save-a-title" id="id3">How to Save a Title</a></p></li>
+<li><p><a class="reference internal" href="#how-to-load-a-title" id="id4">How to Load a Title</a></p></li>
+<li><p><a class="reference internal" href="#how-to-edit-an-existing-title" id="id5">How to edit an existing title</a></p></li>
+<li><p><a class="reference internal" href="#template-titles-user-defined" id="id6">Template Titles - User-Defined</a></p></li>
+<li><p><a class="reference internal" href="#template-titles-built-in" id="id7">Template Titles - Built In</a></p></li>
+<li><p><a class="reference internal" href="#import-an-image-into-the-title" id="id8">Import an Image into the title</a></p></li>
+<li><p><a class="reference internal" href="#draw-rectangle-toolbar-item" id="id9">Draw Rectangle Toolbar Item</a></p></li>
+<li><p><a class="reference internal" href="#to-make-the-title-scroll-vertically" id="id10">To make the title scroll vertically</a></p></li>
+<li><p><a class="reference internal" href="#to-make-the-title-scroll-horizontally" id="id11">To make the title scroll Horizontally</a></p></li>
+<li><p><a class="reference internal" href="#how-to-fade-titles-in-and-or-out" id="id12">How to fade titles in and/or out</a></p></li>
+<li><p><a class="reference internal" href="#how-to-fade-in-more-than-one-title-sequentially" id="id13">How to fade in more than one title sequentially</a></p></li>
+<li><p><a class="reference internal" href="#faq" id="id14">FAQ</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Titles are text elements that can be added to the timeline and appear over the top of other clips. Titles are created in the <a class="reference internal" href="view_menu/project_tree.html#project-tree"><span class="std std-ref">View&gt;Project Tree</span></a> and then dragged to the timeline like other video clips.</p>
+<p>If you want titles to overlay other footage, you put title clips on video track 1 and have the other footage on video track 2.  You also need to retain the affine transition that is automatically added to the title clips if you want the footage visible underneath.</p>
+<p>To create a title, choose <span class="menuselection">Add Title Clip</span> from the <a class="reference internal" href="project_menu.html#project-menu"><span class="std std-ref">Project Menu</span></a> or from the Right-Click menu in the <a class="reference internal" href="view_menu/project_tree.html#project-tree"><span class="std std-ref">View&gt;Project Tree</span></a></p>
+<section id="how-to-save-a-title">
+<h2><a class="toc-backref" href="#id3">How to Save a Title</a><a class="headerlink" href="#how-to-save-a-title" title="Permalink to this headline">¶</a></h2>
+<p>Open the title in the  <a class="reference internal" href="view_menu/project_tree.html#project-tree"><span class="std std-ref">View&gt;Project Tree</span></a> by double-clicking it or right-click then choose <span class="menuselection">Clip Properties</span>.</p>
+<a class="reference internal image-reference" href="_images/Title_clip_in_proj_tree.png"><img alt="_images/Title_clip_in_proj_tree.png" class="align-center" src="_images/Title_clip_in_proj_tree.png" style="width: 100px;" /></a>
+<p>Click the <span class="menuselection">Save As</span> button on the tool bar</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Title Editor toolbar when title editor is wide enough for the whole toolbar to display. The toolbar items are: <strong>Selection Tool</strong>, <em>‘Add Text*</em>,**Add Rectangle**,**Add Image**,**Open Document**,**Save As**</p></td>
+</tr>
+</tbody>
+</table>
+<p>or select <span class="menuselection">Save as</span> from the toolbar overflow menu which can be found under the <span class="menuselection">&gt;&gt;</span> button on the toolbar - see picture.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Title Editor</strong> toolbar when title editor is not wide enough for the whole toolbar to display. The toolbar items that do not fit can be accessed from the <span class="menuselection">&gt;&gt;</span> button that appears at the end of the toolbar.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Choose a save location within your project.</p>
+<p>The titles are saved as <code class="file docutils literal notranslate"><span class="pre">.kdenlivetitle</span></code> type documents.</p>
+</section>
+<section id="how-to-load-a-title">
+<h2><a class="toc-backref" href="#id4">How to Load a Title</a><a class="headerlink" href="#how-to-load-a-title" title="Permalink to this headline">¶</a></h2>
+<p>Choose <span class="menuselection">Add Title Clip</span> from the**Add Clip*’ drop down (see picture)</p>
+<a class="reference internal image-reference" href="_images/Add_clip_drop_down.png"><img alt="_images/Add_clip_drop_down.png" class="align-center" src="_images/Add_clip_drop_down.png" style="width: 100px;" /></a>
+<p>Click the <strong>Open Document</strong> button on the Title Clip editor toolbar or choose <strong>Open document</strong> from the <span class="menuselection">&gt;&gt;</span> menu and load up a title saved earlier.</p>
+</section>
+<section id="how-to-edit-an-existing-title">
+<h2><a class="toc-backref" href="#id5">How to edit an existing title</a><a class="headerlink" href="#how-to-edit-an-existing-title" title="Permalink to this headline">¶</a></h2>
+<p>Right-click the title clip in the Project Tree and select <span class="menuselection">Clip properties</span>.</p>
+</section>
+<section id="template-titles-user-defined">
+<h2><a class="toc-backref" href="#id6">Template Titles - User-Defined</a><a class="headerlink" href="#template-titles-user-defined" title="Permalink to this headline">¶</a></h2>
+<p><em>Template Titles</em> allow you to create a template for other titles in your project. You create the template title with the settings that all the titles in the project should have and then base subsequent titles on the template. If you decide to change the look of your titles, you only need change the template title and the titles based on this template will automatically update to reflect any formatting changes you made to the template title.</p>
+<p><strong>To create a template title</strong></p>
+<p>Choose <span class="menuselection">Add Title Clip</span> from the <span class="menuselection">Add Clip</span> drop down and create a title with the text <em>%s</em> in it and formatted how you desire it. Save this title as described above.</p>
+<a class="reference internal image-reference" href="_images/Template_title1.png"><img alt="_images/Template_title1.png" class="align-center" src="_images/Template_title1.png" style="width: 250px;" /></a>
+<p><strong>To use the template title</strong></p>
+<p>Choose <span class="menuselection">Add Template Title</span> from the <span class="menuselection">Add Clip</span> drop down and choose the title with the <em>%s</em> in it that you just saved.</p>
+<p>Right-click this clip in the Project Tree and select <span class="menuselection">Clip Properties</span>,</p>
+<a class="reference internal image-reference" href="_images/Title_clip_properties.png"><img alt="_images/Title_clip_properties.png" class="align-center" src="_images/Title_clip_properties.png" style="width: 200px;" /></a>
+<p>Enter the text that this title should display into the text field in the dialog that appears.</p>
+<a class="reference internal image-reference" href="_images/Title_template2.png"><img alt="_images/Title_template2.png" class="align-center" src="_images/Title_template2.png" style="width: 250px;" /></a>
+<p>Drag the title to the timeline.</p>
+<p>The <em>%s</em> in the template will be replaced with the text that you enter in the <span class="menuselection">Clip Properties ‣ Text</span>.</p>
+<a class="reference internal image-reference" href="_images/Title_template3.png"><img alt="_images/Title_template3.png" src="_images/Title_template3.png" style="width: 400px;" /></a>
+<p>A known issue with template titles is that text centering does not work correctly for text replacing the %s -  see <a class="reference external" href="http://kdenlive.org/forum/title-template-aligning-doesnt-work">this</a> forum post.</p>
+</section>
+<section id="template-titles-built-in">
+<h2><a class="toc-backref" href="#id7">Template Titles - Built In</a><a class="headerlink" href="#template-titles-built-in" title="Permalink to this headline">¶</a></h2>
+<p><strong>Kdenlive</strong> has some built-in title templates that can be accessed from the <span class="menuselection">Template</span> drop-down list found on the bottom of the <strong>Title Clip</strong> window - see below.</p>
+<a class="reference internal image-reference" href="_images/Kdenlive_Template_Title1.png"><img alt="_images/Kdenlive_Template_Title1.png" src="_images/Kdenlive_Template_Title1.png" style="width: 700px;" /></a>
+<p>To install more built-in title templates choose  <a class="reference internal" href="titles/download_new_title_templates.html#download-new-title-templates"><span class="std std-ref">Download New Title Templates</span></a> from the <span class="menuselection">Settings</span> menu.</p>
+<p>The .kdenlivetitle files that supply these templates are installed to /usr/share/kde4/apps/kdenlive/titles/</p>
+</section>
+<section id="import-an-image-into-the-title">
+<h2><a class="toc-backref" href="#id8">Import an Image into the title</a><a class="headerlink" href="#import-an-image-into-the-title" title="Permalink to this headline">¶</a></h2>
+<p>On the Toolbar overflow  menu (<strong>&gt;&gt;</strong>) shown in the picture below, the second menu item - (labeled only with <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Alt</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">I</kbd></kbd> in ver 0.9.2 - fixed in ver 0.9.4) -  is the <strong>Add Image</strong> Button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.</p>
+<img alt="_images/Kdenlive_Add_image_to_title.png" src="_images/Kdenlive_Add_image_to_title.png" />
+</section>
+<section id="draw-rectangle-toolbar-item">
+<h2><a class="toc-backref" href="#id9">Draw Rectangle Toolbar Item</a><a class="headerlink" href="#draw-rectangle-toolbar-item" title="Permalink to this headline">¶</a></h2>
+<p>The 1st menu item shown in the picture above - (labeled only with <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Alt</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">R</kbd></kbd> in ver 0.9.2 - fixed in ver 0.9.4) - is the <strong>Add Rectangle</strong> button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.</p>
+<img alt="_images/Kdenlive_Alt-R_title_menu.png" src="_images/Kdenlive_Alt-R_title_menu.png" />
+<p>The rectangles can be placed behind text by selecting them and the changing the Z-index (top right corner) to a lower value.</p>
+<a class="reference internal image-reference" href="_images/Kdenlive_Rectangle_on_title.png"><img alt="_images/Kdenlive_Rectangle_on_title.png" src="_images/Kdenlive_Rectangle_on_title.png" style="width: 700px;" /></a>
+</section>
+<section id="to-make-the-title-scroll-vertically">
+<h2><a class="toc-backref" href="#id10">To make the title scroll vertically</a><a class="headerlink" href="#to-make-the-title-scroll-vertically" title="Permalink to this headline">¶</a></h2>
+<p>Put a long title onto the title window. Zoom out so you can see it all. The text should run off the top (or bottom) of the viewable area.</p>
+<p>Select the <span class="guilabel">Animation</span> tab and click <span class="guilabel">Edit start viewport</span>. Now drag the start rectangle to above the viewable area.</p>
+<p>Select <span class="guilabel">Edit end viewport</span> and drag the end rectangle to below the viewable area.</p>
+<p>Click <span class="guilabel">OK</span> and preview the scrolling title.</p>
+<img alt="_images/Scrolling_titles.png" src="_images/Scrolling_titles.png" />
+<p>The  text in the above title scrolls up the screen. It is as if the camera starts on the “start rectangle” and then pans down to the “end rectangle”</p>
+<p>To make the text scroll faster, change the duration field highlighted in red in the image above to a smaller value. To make the text scroll slower, change the duration to a larger value.</p>
+<p>Note: changing the length of the title clip on the timeline does not change the scrolling speed. If the length of the clip on the timeline is longer than the duration specified in the title editor, the titles will pause on the screen between the time the title’s duration expires until the end of the clip.</p>
+<p>If the length of the clip on the timeline is shorter than the duration specified in the title editor, the scrolling will not complete before the title clip finishes.</p>
+<p>Note: the above description of title behaviour with respect to duration only applies to titles that don’t get edited after they have been placed on the timeline. If you expand the length of a title clip on the timeline and then edit the title (by double-clicking it in the Project Tree), its apparent duration will become the length that it currently has on the timeline (i.e., the scrolling will not pause at the end anymore) but the duration displayed in the title editor will not have changed.</p>
+</section>
+<section id="to-make-the-title-scroll-horizontally">
+<h2><a class="toc-backref" href="#id11">To make the title scroll Horizontally</a><a class="headerlink" href="#to-make-the-title-scroll-horizontally" title="Permalink to this headline">¶</a></h2>
+<p>Use the instructions for vertical scrolling - just put the start and stop rectangles off to the sides of the screen rather than the top and bottom</p>
+</section>
+<section id="how-to-fade-titles-in-and-or-out">
+<h2><a class="toc-backref" href="#id12">How to fade titles in and/or out</a><a class="headerlink" href="#how-to-fade-titles-in-and-or-out" title="Permalink to this headline">¶</a></h2>
+<p>To make titles fade in and out, you modify the transition which gets automatically added between the title and the track below.  The modifications consist of adding keyframes into the transition and adjusting the opacity of the transitions at these keyframes. In version 0.9.3 it is an <a class="reference internal" href="transitions/affine.html#affine"><span class="std std-ref">Affine Transition</span></a> transition that is automatically added between the title and the track below. In ver 0.9.2 it is  a <a class="reference internal" href="transitions/composite.html#composite"><span class="std std-ref">Composite Transition</span></a> transition.</p>
+<p>In the image below we have four keyframes (labeled 1 to 4). The first keyframe is the one currently displayed and we can see that the opacity on this keyframe is zero. The opacity at keyframes 2 and 3 is 100%. The opacity at the 4th keyframe is zero percent. The overall effect is that the title fades in between keyframe 1 and keyframe 2. And then it fades out between keyframe 3 and keyframe 4 .</p>
+<img alt="_images/Kdenlive_Fade_titles_anotated.png" src="_images/Kdenlive_Fade_titles_anotated.png" />
+</section>
+<section id="how-to-fade-in-more-than-one-title-sequentially">
+<h2><a class="toc-backref" href="#id13">How to fade in more than one title sequentially</a><a class="headerlink" href="#how-to-fade-in-more-than-one-title-sequentially" title="Permalink to this headline">¶</a></h2>
+<p>To create a title sequence like this …</p>
+<p><a class="reference external" href="https://youtu.be/IIV87bFjfo0">https://youtu.be/IIV87bFjfo0</a></p>
+<p>you put three titles on three different tracks but you make all three affine transitions go to the same empty video track (instead of the tracks directly below them, which is the default). See timeline screenshot below.</p>
+<img alt="_images/Kdenlive_3_fade_in_titles.png" src="_images/Kdenlive_3_fade_in_titles.png" />
+</section>
+<section id="faq">
+<h2><a class="toc-backref" href="#id14">FAQ</a><a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h2>
+<p>Q: How to duplicate a title clip to modify it slightly.</p>
+<p>A:  You can save a copy of the title (see <a class="reference internal" href="#titles"><span class="std std-ref">Titles</span></a>) and then create a new title based on that saved version as described  <a class="reference internal" href="#titles"><span class="std std-ref">Titles</span></a>, Or you could use the  <a class="reference internal" href="#titles"><span class="std std-ref">Titles</span></a> functionality to base the two slightly different titles on the one template.</p>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="titles/download_new_title_templates.html">Download New Title Templates</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="titles/download_new_title_templates.html" class="btn btn-neutral float-right" title="Download New Title Templates" accesskey="n" rel="next"> <!-- Next --> <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="alpha_operation_transitions.html" class="btn btn-neutral" title="Alpha operation transitions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> <!-- Previous  -->  </a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

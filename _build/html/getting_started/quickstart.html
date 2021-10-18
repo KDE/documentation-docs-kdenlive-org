@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick Start &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Quick Start</a><ul>
+<li><a class="reference internal" href="#creating-a-new-project">Creating a new project</a></li>
+<li><a class="reference internal" href="#adding-clips">Adding clips</a></li>
+<li><a class="reference internal" href="#timeline">Timeline</a><ul>
+<li><a class="reference internal" href="#effects">Effects</a></li>
+<li><a class="reference internal" href="#music">Music</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#rendering">Rendering</a></li>
+<li><a class="reference internal" href="#references-and-notes">References and notes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Quick Start</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/getting_started/quickstart.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="quick-start">
+<span id="quickstart"></span><h1><a class="toc-backref" href="#id14">Quick Start</a><a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#quick-start" id="id14">Quick Start</a></p>
+<ul>
+<li><p><a class="reference internal" href="#creating-a-new-project" id="id15">Creating a new project</a></p></li>
+<li><p><a class="reference internal" href="#adding-clips" id="id16">Adding clips</a></p></li>
+<li><p><a class="reference internal" href="#timeline" id="id17">Timeline</a></p>
+<ul>
+<li><p><a class="reference internal" href="#effects" id="id18">Effects</a></p></li>
+<li><p><a class="reference internal" href="#music" id="id19">Music</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#rendering" id="id20">Rendering</a></p></li>
+<li><p><a class="reference internal" href="#references-and-notes" id="id21">References and notes</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="creating-a-new-project">
+<h2><a class="toc-backref" href="#id15">Creating a new project</a><a class="headerlink" href="#creating-a-new-project" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Folder-Structure.png"><img alt="Kdenlive directory structure" class="align-left" src="../_images/Kdenlive_Quickstart-Folder-Structure.png" style="width: 200px;" /></a>
+<p>The first step is creating a new (empty) folder for our new project. I will call it <code class="file docutils literal notranslate"><span class="pre">quickstart-tutorial/</span></code> in this tutorial. Then get some sample video clips, or download them from here:` Archive File: kdenlive-tutorial-videos-2011-avi.zip &lt;kdenlive-tutorial-videos-2011-avi.zip&gt;`_
+(7 MB) <a class="footnote-reference brackets" href="#id7" id="id1">1</a> , and extract them to e.g. a <code class="file docutils literal notranslate"><span class="pre">quickstart-tutorial/Videos/</span></code> subfolder inside the project folder.</p>
+<p>The image on the left shows the suggested directory structure: Each project has its own directory, with video files in the <code class="file docutils literal notranslate"><span class="pre">Videos</span></code> subdirectory, audio files in the <code class="file docutils literal notranslate"><span class="pre">Audio</span></code> directory, etc. (<span class="xref std std-ref">projects_and_files</span>)</p>
+<p>(The tutorial from now on assumes that you use the sample videos provided, but it works with any.)</p>
+<a class="reference internal image-reference" href="../_images/20210508-kdenlive-21.04-NewProjectWindow.png"><img alt="New Project dialog" class="align-left" src="../_images/20210508-kdenlive-21.04-NewProjectWindow.png" style="width: 250px;" /></a>
+<p>Open <strong>Kdenlive</strong> and create a new project <span class="menuselection">File ‣ New</span>.</p>
+<p>Choose the previously created project folder (<code class="file docutils literal notranslate"><span class="pre">quickstart-tutorial/</span></code>) and select an appropriate project profile. The video files provided above are 720p, 23.98 fps. <a class="footnote-reference brackets" href="#id8" id="id2">2</a>  If you are using your own files and don’t know which one to use, <strong>Kdenlive</strong> will suggest an appropriate one when the first clip is added  <a class="footnote-reference brackets" href="#id10" id="id3">3</a>  , so you can leave the field on whatever it is.</p>
+<p>If you like you can change to the dark theme: <span class="menuselection">Settings ‣ Colour Theme</span> i.e Breeze-Dark</p>
+</section>
+<section id="adding-clips">
+<h2><a class="toc-backref" href="#id16">Adding clips</a><a class="headerlink" href="#adding-clips" title="Permalink to this headline">¶</a></h2>
+<img alt="Project Bin: Adding video clips" class="align-left" src="../_images/Kdenlive_Quickstart-Add-Clips.png" />
+<p>Now that the project is ready, let’s start adding some clips (i.e. the ones you downloaded). This works via the <em>Project Bin widget</em>; a click on the <span class="menuselection">Add Clip or Folder</span> icon <a class="reference internal" href="../_images/kdenlive-add-clip.svg"><img alt="kdenlive-add-clip" src="../_images/kdenlive-add-clip.svg" width="22px" /></a> directly opens the file dialog, a click on the small arrow shows a list of additional clip types that can be added as well. Video clips, audio clips, images, and other <strong>Kdenlive</strong> projects can be added via the default <span class="menuselection">Add Clip or Folder</span> dialog.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Mainwindow.png"><img alt="Kdenlive window with the tutorial files" class="align-left" src="../_images/Kdenlive_Quickstart-Mainwindow.png" style="width: 400px;" /></a>
+<p>After loading the clips, <strong>Kdenlive</strong> will look similar to this. On the top left there is the already known project tree. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Save-Project.png"><img alt="Saving a Kdenlive project" class="align-left" src="../_images/Kdenlive_Quickstart-Save-Project.png" style="width: 400px;" /></a>
+<p>Let’s save the work via <span class="menuselection">File ‣ Save</span>. This saves our project, i.e. where we placed the clips on the timeline, which effects we applied, and so on. It can <em>not</em> be played. <a class="footnote-reference brackets" href="#id11" id="id4">4</a>  The process of creating the final video is called <em>Rendering</em>.</p>
+</section>
+<section id="timeline">
+<h2><a class="toc-backref" href="#id17">Timeline</a><a class="headerlink" href="#timeline" title="Permalink to this headline">¶</a></h2>
+<p>See also <span class="xref std std-ref">timeline</span></p>
+<p>Now comes the actual editing. Project clips are combined to the final result on the timeline.  They get there by drag and drop: Drag some Napoli (assuming you are using the files provided above, as in the rest of this quick start tutorial; If not, please make sure your screen is waterproof, and perhaps tomatoproof) from the project tree, and drop it onto the first track in the timeline. In this case track V2.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Timeline-Clips.png"><img alt="First clips in the timeline" class="align-left" src="../_images/Kdenlive_Quickstart-Timeline-Clips.png" style="width: 400px;" /></a>
+<p>Since some cutlery is needed as well, grab the spoon clip and drop it on the first track as well (track V2). Then drag the Napoli to the beginning of the timeline (otherwise the rendered video would start with some seconds of plain black), and the Spoon right after the Napoli, such that it looks like in the image on the left. (Where I have zoomed in with <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">Wheel</kbd></kbd>.)</p>
+<img alt="Timeline cursor" class="align-left" src="../_images/Kdenlive_Quickstart-TimelineCursor.png" />
+<p>The result can already be previewed by pressing <kbd class="kbd docutils literal notranslate">Space</kbd> (or the <span class="guilabel">Play</span> button in the project monitor). You will see the Napoli directly followed by a Spoon. If the timeline cursor is not at the beginning, the project monitor will start playing somewhere in the middle; you can move it by dragging it either on the timeline ruler or in the project monitor. If you prefer keyboard shortcuts, <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">Home</kbd></kbd> does the same for the monitor that is activated. (Select the <span class="menuselection">Project Monitor</span> if it is not selected yet before using the shortcut.)</p>
+<img alt="Resize marker" class="align-left" src="../_images/Kdenlive_Quickstart-Resize-Marker.png" />
+<p>Since after eating comes playing, there is a Billiards clip. Add it to the timeline as well (track V1). For the first 1.5 seconds nothing happens in the clip, so it should perhaps be <strong>cut</strong> to avoid the video becoming boring. An easy way <a class="footnote-reference brackets" href="#id12" id="id5">5</a>  for this is to move the timeline cursor to the desired position (i.e. the position where you want to cut the video), then drag the left border of the clip when the resize marker appears. It will snap in at the timeline cursor when you move close enough.</p>
+<img alt="Overlapping clips" class="align-left" src="../_images/Kdenlive_Quickstart-Overlap-Clips.png" />
+<p>To add a <em>transition</em> between eating (the Spoon) and playing billiards, the two clips need to overlap. To be precise: place the second clip above or below the first one. The first clip should end some frames after the second one begins. Zooming in until the ticks for single frames appear helps here; it also makes it easy to always have the same transition duration, five frames in this case.</p>
+<p>You can zoom in by either using the <span class="menuselection">zoom slider</span> at the bottom right corner of the <strong>Kdenlive</strong> window, or with <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">Mousewheel</kbd></kbd>. <strong>Kdenlive</strong> will zoom to the timeline cursor, so first set it to the position which you want to see enlarged, then zoom in.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive-Quickstart-Add-Transition.png"><img alt="Transition marker" class="align-left" src="../_images/Kdenlive-Quickstart-Add-Transition.png" style="width: 350px;" /></a>
+<p>Now that the clips overlap, the transition can be added. This is done either by right-clicking on the upper clip and choosing <span class="menuselection">Insert a Composition</span> and choose <span class="menuselection">Wipe</span> or, easier, by hovering the mouse over the lower right corner of the Spoon clip until the pointing-finger pointer is shown and the message “Click to add composition” appears. The latter, by default, adds a wipe transition, which is in this case the best idea anyway since the Spoon is not required for playing.</p>
+<p>The wipe transitions fades the first clip into the second one. See also <a class="reference internal" href="../transitions.html#transitions"><span class="std std-ref">Transitions</span></a>.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive-Quickstart-Add-Last-Clip.png"><img alt="../_images/Kdenlive-Quickstart-Add-Last-Clip.png" class="align-left" src="../_images/Kdenlive-Quickstart-Add-Last-Clip.png" style="width: 395px;" /></a>
+<p>Let’s now add the last clip, the Piano, and again apply a wipe transition. When adding it on the first track of the timeline (track V2), you need to click on the new clip’s lower left edge to add the transition to the previous clip.</p>
+<section id="effects">
+<h3><a class="toc-backref" href="#id18">Effects</a><a class="headerlink" href="#effects" title="Permalink to this headline">¶</a></h3>
+<img alt="Effect List" class="align-left" src="../_images/Kdenlive_Quickstart-Add-Effect.png" />
+<p>The Piano can be colourized by adding an <em>effect</em> to it.  Click on the effect view (if effect view is not visible enable the view: <span class="menuselection">View ‣ Effects</span>). Type <em>rgb</em> in the search field then double-click the <span class="menuselection">RGB Adjustment</span> effect.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Effect-Flag.png"><img alt="../_images/Kdenlive_Quickstart-Effect-Flag.png" class="align-left" src="../_images/Kdenlive_Quickstart-Effect-Flag.png" style="width: 352px;" /></a>
+<p>Once the effect has been added, click on an empty part in the timeline and you see its name on the timeline clip. It will also be shown in the <span class="menuselection">Effect/Composition Stack</span> widget.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive-Quickstart-EffectStack.png"><img alt="Effect Stack with RGB adjustment" class="align-left" src="../_images/Kdenlive-Quickstart-EffectStack.png" style="width: 402px;" /></a>
+<p>To get a warm yellow-orange tone on the image, fitting the comfortable evening, blue needs to be reduced and red and green improved.</p>
+<p>The values in the Effect/Composition Stack widget can be changed by using the slider (middle mouse button resets it to the default value), or by entering a value directly by double-clicking the number to the right of the slider.</p>
+<p>The Effect/Composition Stack widget always refers to the timeline clip that is currently selected. Each effect can be temporarily disabled by clicking the eye icon, or all effects for that clip can be disabled using the check box at the top of the Effect/Composition Stack widget (the settings are saved though), this is e.g. useful for effects that require a lot of computing power, so they can be disabled when editing and enabled again for rendering.</p>
+<p>For some effects, like the one used there, it is possible to add keyframes. The framed watch icon indicates this. Keyframes are used for changing effect parameters over time. In our clip this allows us to fade the piano’s colour from a warm evening colour to a cold night colour.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Keyframes.png"><img alt="Keyframes for effects" class="align-left" src="../_images/Kdenlive_Quickstart-Keyframes.png" style="width: 401px;" /></a>
+<p>After clicking the <span class="menuselection">keyframe</span> icon (the clock icon framed in the previous image), the Properties widget will re-arrange. By default there will be two keyframes, one at the beginning of the timeline clip and one at the end. Move the timeline cursor to the end of the timeline clip, such that the project monitor actually shows the new colours when changing the parameters of the keyframe at the end.</p>
+<p>Make sure the last keyframe is selected in the Properties list. Then you are ready to flood the piano with a deep blue.</p>
+<p>Moving the timeline cursor to the beginning of the project and playing it (with <kbd class="kbd docutils literal notranslate">Space</kbd>, or the <span class="guilabel">Play</span> button in the <span class="menuselection">Project Monitor</span>), the piano should now change the colour as desired.</p>
+<p>Keyframing was the hardest part of this tutorial. If you managed to do it, you will master <strong>Kdenlive</strong> easily!</p>
+<p>See also <a class="reference internal" href="../effects.html#effects"><span class="std std-ref">Effects</span></a>.</p>
+</section>
+<section id="music">
+<h3><a class="toc-backref" href="#id19">Music</a><a class="headerlink" href="#music" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Fadeout.png"><img alt="Audio fadeout" class="align-left" src="../_images/Kdenlive_Quickstart-Fadeout.png" style="width: 395px;" /></a>
+<p>Since the clips do not provide any audio, let’s search for some nice piece of music, from your local collection or on web pages like <a class="reference external" href="http://www.jamendo.com">Jamendo</a>. The audio clip should, after adding it, be dragged to an audio track on the timeline.</p>
+<p>The audio clip can be resized on the timeline the same way as video clips are. The cursor will snap in at the end of the project automatically. To add a fade out effect at the end of the audio clip (except if you found a file with exactly the right length) you can hover the top right (or left) edge of the timeline clip and drag the red shaded triangle to the position where fading out should start. <a class="footnote-reference brackets" href="#id13" id="id6">6</a></p>
+</section>
+</section>
+<section id="rendering">
+<h2><a class="toc-backref" href="#id20">Rendering</a><a class="headerlink" href="#rendering" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Renderer.png"><img alt="Rendering dialog" class="align-left" src="../_images/Kdenlive_Quickstart-Renderer.png" style="width: 210px;" /></a>
+<p>A few minutes left, and the project is finished! Click the Render button (or go to <span class="menuselection">Project ‣ Render</span>, or press <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">Enter</kbd></kbd>) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the <span class="menuselection">Render to File</span> button.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Quickstart-Rendering.png"><img alt="Rendering progress" class="align-left" src="../_images/Kdenlive_Quickstart-Rendering.png" style="width: 210px;" /></a>
+<p>After some seconds rendering will be finished, and your first <strong>Kdenlive</strong> project completed. Congratulations!</p>
+</section>
+<section id="references-and-notes">
+<h2><a class="toc-backref" href="#id21">References and notes</a><a class="headerlink" href="#references-and-notes" title="Permalink to this headline">¶</a></h2>
+<dl class="footnote brackets">
+<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>If you prefer Theora (which you probably don’t since Ogg Video usually causes problems), you can alternatively download <a class="reference external" href="http://granjow.net/uploads/kdenlive/manual/kdenlive-tutorial-videos-2011-ogv.tar.bz2">kdenlive-tutorial-videos-2011-ogv.tar.bz2</a>.</p>
+</dd>
+<dt class="label" id="id8"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p><a class="reference external" href="http://en.wikipedia.org/wiki/720p">720</a> is the video height, p stands for <a class="reference external" href="http://en.wikipedia.org/wiki/Progressive_scan">progressive scan</a> in contrast to <a class="reference external" href="http://en.wikipedia.org/wiki/Interlaced_video">interlaced video</a>, and the fps number denotes the number of full frames per second.</p>
+</dd>
+<dt class="label" id="id10"><span class="brackets"><a class="fn-backref" href="#id3">3</a></span></dt>
+<dd><p>Provided Configure Kdenlive Settings under <a class="reference internal" href="../settings_menu/configure_kdenlive.html#configure-kdenlive"><span class="std std-ref">Configure Kdenlive</span></a> is set to <em>Check if first added clip matches project profile</em></p>
+</dd>
+<dt class="label" id="id11"><span class="brackets"><a class="fn-backref" href="#id4">4</a></span></dt>
+<dd><p>To be correct, it <em>can</em> be played using <code class="docutils literal notranslate"><span class="pre">melt</span> <span class="pre">yourproject.kdenlive</span></code>, but this is not the way you would want to present your final video since it is (most likely) too slow. Additionally, it only works if melt is installed.</p>
+</dd>
+<dt class="label" id="id12"><span class="brackets"><a class="fn-backref" href="#id5">5</a></span></dt>
+<dd><p>Writing it this way suggests that there are several ways of cutting a clip. This is in fact true.</p>
+</dd>
+<dt class="label" id="id13"><span class="brackets"><a class="fn-backref" href="#id6">6</a></span></dt>
+<dd><p>This shaded triangle is a shorthand for adding the effect <span class="menuselection">Fade ‣ Fade out</span>. Both ways lead to the same result.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

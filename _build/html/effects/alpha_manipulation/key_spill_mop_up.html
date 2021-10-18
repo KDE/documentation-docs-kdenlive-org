@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorial &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Audio Effects" href="../audio.html" />
+    <link rel="prev" title="Rotoscoping" href="rotoscoping.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../kdenliveonotherplatforms.html">Kdenlive On Other Desktops and Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../toolbars.html">Toolbars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../menu.html">Menu Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../file_menu.html">File Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../view_menu.html">View Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../project_menu.html">Project Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../settings_menu.html">Settings Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../settings_menu.html#settings-menu-mac-os-x">Settings Menu - Mac OS X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../timeline_menu.html">Timeline Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tool_menu.html">Tool Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../clip_menu.html">Clip Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../edit_menu.html">Edit Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../monitor_menu.html">Monitor Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../monitors.html">Monitors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../timeline.html">Timeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../projects_and_files.html">Project and File management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../effects_and_transitions.html">Alphabetical List of Effects and Compositions</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../effects.html">Effects</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../effects.html#effects-tab">Effects Tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../effects.html#the-properties-tab-and-its-menu">The Properties Tab and its Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../effects.html#keyframes-in-effects">Keyframes in effects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../effects.html#effect-zones">Effect Zones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../effects.html#seek-to-active-frame">Seek To Active Frame</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../effects.html#effects-demos">Effects Demos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../effects.html#effects-categories">Effects Categories</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../effects.html#faq">FAQ</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../alpha_manipulation.html">Alpha manipulation</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../alpha_manipulation.html#general-information-about-alpha-manipulation">General Information about Alpha Manipulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../alpha_manipulation.html#effects-in-the-alpha-manipulation-category">Effects in the Alpha Manipulation Category</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../alpha_manipulation.html#compositing-reference-material">Compositing Reference Material</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../audio.html">Audio Effects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../audio_correction.html">Audio Correction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../audio_channels.html">Audio channels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../blur_and_hide.html">Blur and Hide</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../colour.html">Color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../colour_correction.html">Color Correction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../crop_and_transform.html">Crop and Transform</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../custom.html">Custom Effects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort.html">Distort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../enhancement.html">Enhancement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../fade.html">Fade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../fun.html">Fun Effects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../misc.html">Misc Effects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../motion.html">Motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../analysis_and_data.html">Analysis and Data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../transitions.html">Transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../alpha_operation_transitions.html">Alpha operation transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../titles.html">Titles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../capturing.html">Capturing Video</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../capturingaudio.html">Capturing Audio (Dubbing)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rendering.html">Rendering Using Guides and Rendering Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../full_luma.html">Full Luma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials.html">Written Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials.html#video-tutorials">Video Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../useful_information.html">Useful Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../shootinghints.html">Shooting Hints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting_and_common_problems.html">Troubleshooting and Common Problems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../windows_issues.html">Windows Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../windows_issues.html#general-issues">General Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../credits_and_license.html">Credits and License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../effects.html">Effects</a> &raquo;</li>
+          <li><a href="../alpha_manipulation.html">Alpha manipulation</a> &raquo;</li>
+      <li>Tutorial</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/effects/alpha_manipulation/key_spill_mop_up.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p id="key-spill-mop-up">This effect is used when using chroma keying (otherwise known as greenscreen or <a class="reference internal" href="blue_screen.html#blue-screen"><span class="std std-ref">Chroma Key</span></a> effect). Its purpose is to compensate for the fact that sometimes the color from the green or blue screen reflects onto the subject and will make them a shade of blue or green - especially around the edges.  This is known as “keyspill”.  This effect can attempt to compensate for this issue.</p>
+<section id="tutorial">
+<h1><a class="toc-backref" href="#id1">Tutorial</a><a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#tutorial" id="id1">Tutorial</a></p></li>
+<li><p><a class="reference internal" href="#details" id="id2">Details</a></p></li>
+</ul>
+</div>
+<p>This tutorial shows usage of the following effects: Key Spill Mop Up,  blue screen, alpha operations - shrinkhard and denoiser</p>
+<p>Note: <strong>This video is outdated.</strong> In newer versions of kdenlive have the <a class="reference internal" href="../misc/keysplillm0pup.html#keysplillm0pup"><span class="std std-ref">Key Spill Mop Up</span></a> effect installed by default, and it is no longer required to use a composite transition.</p>
+<p><a class="reference external" href="https://youtu.be/l43Hz7YEcYU">https://youtu.be/l43Hz7YEcYU</a></p>
+</section>
+<section id="details">
+<h1><a class="toc-backref" href="#id2">Details</a><a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h1>
+<p>The README for the Key Spill Mop Up is this:</p>
+<p>DESCRIPTION</p>
+<p>After some experimentation with chroma keying, it looked to me that there is no single method of key cleaning, that works in all situations, like keyspill on bright, keyspill on dark, etc. So I included several cleaning options, which can be used alone or in combination. In short, it offers three ways of pixel selection (masking), that can be combined with four types of color changing operations. The three selection / masking modes are based on:</p>
+<ul class="simple">
+<li><p>similarity to key color</p></li>
+<li><p>transparency</p></li>
+<li><p>closeness to the edge</p></li>
+</ul>
+<p>and the four things that can be done to the selected pixels are:</p>
+<ul class="simple">
+<li><p>move away from the key color (De-Key)</p></li>
+<li><p>move towards an target color (Target)</p></li>
+<li><p>desaturate</p></li>
+<li><p>luma (brightness) adjust.</p></li>
+</ul>
+<p>MASKS</p>
+<p>Color difference masks are based on the color of the image, and do not depend on the alpha from the preceding keying, except for ignoring the 100% transparent areas, to increase speed.</p>
+<p>Transparency and Edge masks are based on the alpha channel from the preceding keying operation. Transparency masks will affect only the parts that are neither 100% opaque nor 100% transparent, based on the alpha values from the preceding keying operation. The effect will be proportional to the transparency.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If a “hard key” was used in the preceding keying, there will be no areas that T operations could affect. Edge maskss will affect only pixels close to the edge, with the effect diminishing away from the edge. The outer edge is the edge of the fully opaque part, where the alpha from the preceding keying is 1.0 (255).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The edge masking algorithm is not yet what I would like it to be. I will have to look some more into this, and improve it, so consider it a “temporary solution” that will change in the future.</p>
+</div>
+<p>All masks can be further pruned with two parameters: an “hue gate”, which will limit the mask to hues close to the key hue, and an “saturation threshold”, which will limit the mask to areas with color saturation above a threshold.</p>
+<p>CASCADING</p>
+<p>This plugin can be cascaded, but it is not possible to get the same color based mask in the second instance, because the colors will be changed by the first instance. To enable two operations with the same mask, each plugin instance can do two operations. With transparency and edge masks, cascading is a bit easier. If the hue gate and saturation threshold are not used, transparency and edge masks can be exactly the same in cascaded plugins.</p>
+<p>PARAMETERS:</p>
+<p>Key color: This should be the same or similar to the key color used for the preceding keying operation.</p>
+<p>Target color: This is only used when “Target” operation is used with one of the masks. The colors in the affected areas will be moved towards this color, according to the “Amount” parameter.</p>
+<p>Mask type: Selects the type of mask that will determine where the color altering operations will occur.</p>
+<p>Tolerance: For the color difference mask, the range of colors around the key, that will be 100% affected. For the transparency mask, the “amplification”. For the edge mask, the width of the affected area.</p>
+<p>Slope: For the color difference mask, the range of colors outside of “Tolerance”, that will be gradually less affected. No function for the transparency and edge masks.</p>
+<p>Hue gate: Reduces the mask according to difference from key hue, to prevent change to pixels that are within the mask, but not polluted by key.</p>
+<p>Saturation threshold: Reduces the mask according to color saturation, to avoid affecting the neutral areas.</p>
+<p>Operation 1: Selects which of the four possible operations will be done on the mask-selected pixels. Apart from no operation, there are four possibilities: De-key, Target, De-saturate and Luma adjust.</p>
+<p>Amount 1: The amount of the selected operation 1, how much the colors will change.</p>
+<p>Operation 2, Amount 2: Enable a second operation to be performed with the same mask.</p>
+<p>Show mask: This will show the selected mask as a greyscale image, to help with fine tuning of the masks. Should be OFF for the final render.</p>
+<p>Mask to Alpha: Copies the active mask to the alpha channel. For all normal spill cleaning operations, this should be OFF. By setting it ON, the Key Spill Mop Up itself can be used as a keyer, or to generate some special effects.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../audio.html" class="btn btn-neutral float-right" title="Audio Effects" accesskey="n" rel="next"> <!-- Next --> <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="rotoscoping.html" class="btn btn-neutral" title="Rotoscoping" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> <!-- Previous  -->  </a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

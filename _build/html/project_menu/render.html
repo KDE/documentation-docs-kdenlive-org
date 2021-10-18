@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rendering &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Render Profile Parameters" href="render/render_profile_parameters.html" />
+    <link rel="prev" title="Open Backup File" href="open_backup_file.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kdenliveonotherplatforms.html">Kdenlive On Other Desktops and Operating Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../toolbars.html">Toolbars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file_menu.html">File Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../view_menu.html">View Menu</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../project_menu.html">Project Menu</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="adjust_profile_to_current_clip.html">Adjust Profile to Current Clip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clean_project.html">Clean Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_folder.html">Create Folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="online_resources.html">Online Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="open_backup_file.html">Open Backup File</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Rendering</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rendering-dialog-ver-17-04">Rendering Dialog Ver 17.04</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rendering-profile-categories">Rendering Profile Categories</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#file-rendering-earlier-versions">File Rendering - earlier Versions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#variable-bit-rate-earlier-versions">Variable Bit Rate - earlier Versions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#constant-bit-rate-earlier-versions">Constant Bit Rate - earlier Versions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dvd-rendering-earlier-versions">DVD Rendering - earlier Versions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#websites-earlier-versions">Websites  - earlier Versions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#mobile-devices-earlier-versions">Mobile Devices  - earlier Versions</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#create-custom-render-profiles">Create Custom Render Profiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rendering-in-batch-mode">Rendering In Batch mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rendering-using-the-guide-zone-option">Rendering Using the Guide Zone Option</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rendering-using-the-selected-zone-option">Rendering Using the Selected Zone Option</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#render-overlay">Render Overlay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#export-metadata">Export Metadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#export-audio-checkbox">Export Audio Checkbox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#encoder-threads">Encoder Threads</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#scanning-dropdown">Scanning Dropdown</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="render/render_profile_parameters.html">Render Profile Parameters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="stop_motion_capture.html">Stop Motion Capture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generators.html">Generators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reverse_clip.html">Reverse Clip</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../settings_menu.html">Settings Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../settings_menu.html#settings-menu-mac-os-x">Settings Menu - Mac OS X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../timeline_menu.html">Timeline Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tool_menu.html">Tool Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clip_menu.html">Clip Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../edit_menu.html">Edit Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor_menu.html">Monitor Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitors.html">Monitors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../timeline.html">Timeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects_and_files.html">Project and File management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../effects_and_transitions.html">Alphabetical List of Effects and Compositions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../effects.html">Effects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transitions.html">Transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../alpha_operation_transitions.html">Alpha operation transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../titles.html">Titles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../capturing.html">Capturing Video</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../capturingaudio.html">Capturing Audio (Dubbing)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rendering.html">Rendering Using Guides and Rendering Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../full_luma.html">Full Luma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Written Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html#video-tutorials">Video Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../useful_information.html">Useful Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shootinghints.html">Shooting Hints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting_and_common_problems.html">Troubleshooting and Common Problems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../windows_issues.html">Windows Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../windows_issues.html#general-issues">General Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../credits_and_license.html">Credits and License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../project_menu.html">Project Menu</a> &raquo;</li>
+      <li>Rendering</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/project_menu/render.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <span class="target" id="render"></span><section id="rendering">
+<h1><a class="toc-backref" href="#id2">Rendering</a><a class="headerlink" href="#rendering" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#rendering" id="id2">Rendering</a></p>
+<ul>
+<li><p><a class="reference internal" href="#rendering-dialog-ver-17-04" id="id3">Rendering Dialog Ver 17.04</a></p></li>
+<li><p><a class="reference internal" href="#rendering-profile-categories" id="id4">Rendering Profile Categories</a></p>
+<ul>
+<li><p><a class="reference internal" href="#file-rendering-earlier-versions" id="id5">File Rendering - earlier Versions</a></p></li>
+<li><p><a class="reference internal" href="#variable-bit-rate-earlier-versions" id="id6">Variable Bit Rate - earlier Versions</a></p></li>
+<li><p><a class="reference internal" href="#constant-bit-rate-earlier-versions" id="id7">Constant Bit Rate - earlier Versions</a></p></li>
+<li><p><a class="reference internal" href="#dvd-rendering-earlier-versions" id="id8">DVD Rendering - earlier Versions</a></p></li>
+<li><p><a class="reference internal" href="#websites-earlier-versions" id="id9">Websites  - earlier Versions</a></p></li>
+<li><p><a class="reference internal" href="#mobile-devices-earlier-versions" id="id10">Mobile Devices  - earlier Versions</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#create-custom-render-profiles" id="id11">Create Custom Render Profiles</a></p></li>
+<li><p><a class="reference internal" href="#rendering-in-batch-mode" id="id12">Rendering In Batch mode</a></p></li>
+<li><p><a class="reference internal" href="#rendering-using-the-guide-zone-option" id="id13">Rendering Using the Guide Zone Option</a></p></li>
+<li><p><a class="reference internal" href="#rendering-using-the-selected-zone-option" id="id14">Rendering Using the Selected Zone Option</a></p></li>
+<li><p><a class="reference internal" href="#render-overlay" id="id15">Render Overlay</a></p></li>
+<li><p><a class="reference internal" href="#export-metadata" id="id16">Export Metadata</a></p></li>
+<li><p><a class="reference internal" href="#export-audio-checkbox" id="id17">Export Audio Checkbox</a></p></li>
+<li><p><a class="reference internal" href="#encoder-threads" id="id18">Encoder Threads</a></p></li>
+<li><p><a class="reference internal" href="#scanning-dropdown" id="id19">Scanning Dropdown</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Rendering is the process where the edited clips are saved into a single complete video clip. During the rendering process the video can be compressed and converted to a number of different video formats (aka codecs).</p>
+<p>The rendering dialog is brought up from the render button</p>
+<img alt="../_images/media-record.svg" src="../_images/media-record.svg" /><p>from selecting <span class="menuselection">Render</span> in the <a class="reference internal" href="../project_menu.html#project-menu"><span class="std std-ref">Project Menu</span></a>  or by the <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">Enter</kbd></kbd> shortcut.</p>
+<section id="rendering-dialog-ver-17-04">
+<h2><a class="toc-backref" href="#id3">Rendering Dialog Ver 17.04</a><a class="headerlink" href="#rendering-dialog-ver-17-04" title="Permalink to this headline">¶</a></h2>
+<img alt="File rendering dialog - ver 17.04" class="align-left" src="../_images/Kdenlive_Render_dialog_17_04.png" />
+</section>
+<section id="rendering-profile-categories">
+<h2><a class="toc-backref" href="#id4">Rendering Profile Categories</a><a class="headerlink" href="#rendering-profile-categories" title="Permalink to this headline">¶</a></h2>
+<img alt="File rendering categories- ver 17.04" class="align-left" src="../_images/Kdenlive_Render_dialog_17_04_categories_expanded.png" />
+<ul class="simple">
+<li><p><em>Kdenlive*</em> offers many different preset rendering profiles to choose from. The rendering profiles are grouped into categories. See picture Above.</p></li>
+</ul>
+<img alt="../_images/Kdenlive_Rendering_options2.png" src="../_images/Kdenlive_Rendering_options2.png" />
+<section id="file-rendering-earlier-versions">
+<h3><a class="toc-backref" href="#id5">File Rendering - earlier Versions</a><a class="headerlink" href="#file-rendering-earlier-versions" title="Permalink to this headline">¶</a></h3>
+<p>The following figures show the render dialog when the <span class="menuselection">Destination</span> category is <strong>File Rendering</strong>. The first two figures show the layout of the dialog under ver 0.9.10 of <strong>Kdenlive</strong> and the third figure shows how the dialog appears in ver 0.9.8 of <strong>Kdenlive</strong>.</p>
+<p>Version 0.9.10 of <strong>Kdenlive</strong> changes the render dialog significantly because it implements a method where you can choose to render the project with either a variable video bitrate (VBR) or a constant video bitrate (CBR)</p>
+</section>
+<section id="variable-bit-rate-earlier-versions">
+<h3><a class="toc-backref" href="#id6">Variable Bit Rate - earlier Versions</a><a class="headerlink" href="#variable-bit-rate-earlier-versions" title="Permalink to this headline">¶</a></h3>
+<img alt="File rendering dialog Variable Bit Rate - ver 0.9.10" class="align-left" src="../_images/Kdenlive_Render_dialog_vbr_0.9.10.png" />
+<p>When a variable bitrate profile is selected, the <span class="menuselection">File Size</span> section displays a drop down for choosing the <strong>Video quality</strong> you want. This quality figure is a codec-dependent number representing the quality of the video that will be rendered. Generally, lower numbers mean higher quality video and larger file sizes (e.g. x264, MPEG2, VPx), but some codecs use opposite order (e.g. Theora). Profiles provided with <strong>Kdenlive</strong> offer these numbers ordered from best quality (almost lossless) to lower quality (still not degrading too much).  The exact file size that is produced can not be predicted when using the VBR method.  The idea behind this is that you specify a certain quality of video that you want through the entire video and the encoding optimizes bitrate to give you that constant quality, lowering data size for low action scenes and using more bits for high action scenes.</p>
+<p>Example: 1min 55 seconds of 720 x 576 H.264 iPhone footage rendered at quality 15 with the H.264/AAC High Profile would produce a file size of 186 Mb. Whereas rendering the same footage at quality quality 20 produced an 83Mb file.</p>
+</section>
+<section id="constant-bit-rate-earlier-versions">
+<h3><a class="toc-backref" href="#id7">Constant Bit Rate - earlier Versions</a><a class="headerlink" href="#constant-bit-rate-earlier-versions" title="Permalink to this headline">¶</a></h3>
+<img alt="File rendering dialog Constant Bit Rate - ver 0.9.10" class="align-left" src="../_images/Kdenlive_Render_dialog_cbr_0.9.10.png" />
+<p>When a constant bitrate (CBR) profile is selected, the <span class="menuselection">File Size</span> section displays a drop down for choosing the <strong>Video bitrate</strong> you want. This is similar to the version &lt;=0.9.8 behaviour of <strong>Kdenlive</strong>. You select the video bitrate you want and the video is encoded at that video bitrate across its entire length.</p>
+<img alt="File rendering dialog - ver 0.9.8" class="align-left" src="../_images/Kdenlive_Render_dialog_0.9.8.png" />
+</section>
+<section id="dvd-rendering-earlier-versions">
+<h3><a class="toc-backref" href="#id8">DVD Rendering - earlier Versions</a><a class="headerlink" href="#dvd-rendering-earlier-versions" title="Permalink to this headline">¶</a></h3>
+<p>DVD Rendering produces files that are compatible with DVD authoring software.  MPEG2 files created from <span class="xref std std-ref">render</span> profiles are less likely to be compatible with DVD software.  For quality settings see <span class="xref std std-ref">render</span> and <span class="xref std std-ref">render</span>. For DVD VBR lower <span class="menuselection">Video quality</span> setting number means better quality.</p>
+<p>Note that this rendering does not create a DVD file system. It merely creates DVD-compatible MPEG2 files that can be used by DVD authoring software.  If you check the <span class="menuselection">Open DVD Wizard after Rendering</span> check box, then the <a class="reference internal" href="../file_menu/dvd_wizard.html#dvd-wizard"><span class="std std-ref">DVD Wizard</span></a> will open and you can use it to create a DVD file system (in .ISO format).  The DVD Wizard is also available from the <a class="reference internal" href="../file_menu.html#file-menu"><span class="std std-ref">File Menu</span></a>.</p>
+<p><span class="menuselection">Create chapter file based on guides</span> enables chapter markings on your DVD. Chapters work with the “next” and “previous” buttons on the DVD player and can populate scene selection menus. In order to create chapters this way you need to have marked chapters with  <span class="xref std std-ref">guides</span> on timeline. DVD wizard enables marking of chapters also during DVD creation step.</p>
+<img alt="../_images/Kdenlive_DVD_rendering.png" src="../_images/Kdenlive_DVD_rendering.png" />
+</section>
+<section id="websites-earlier-versions">
+<h3><a class="toc-backref" href="#id9">Websites  - earlier Versions</a><a class="headerlink" href="#websites-earlier-versions" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/Kdenlive_WebSites_rendering.png" src="../_images/Kdenlive_WebSites_rendering.png" />
+</section>
+<section id="mobile-devices-earlier-versions">
+<h3><a class="toc-backref" href="#id10">Mobile Devices  - earlier Versions</a><a class="headerlink" href="#mobile-devices-earlier-versions" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/Kdenlive_Mobile_devices.png" src="../_images/Kdenlive_Mobile_devices.png" />
+</section>
+</section>
+<section id="create-custom-render-profiles">
+<h2><a class="toc-backref" href="#id11">Create Custom Render Profiles</a><a class="headerlink" href="#create-custom-render-profiles" title="Permalink to this headline">¶</a></h2>
+<p>You can create your own custom render profiles by clicking the button highlighted in the screenshot below.</p>
+<a class="reference internal image-reference" href="../_images/Custom_render_profiles.png"><img alt="../_images/Custom_render_profiles.png" src="../_images/Custom_render_profiles.png" style="width: 350px;" /></a>
+<p>This will open the <strong>Save Profile</strong> dialog (also shown in the above screenshot) and the <span class="menuselection">Parameters</span> section will be filled in with the render parameters of the profile that you had selected when you clicked the <a class="reference internal" href="../_images/document-new.svg"><img alt="document-new" src="../_images/document-new.svg" width="32px" /></a> button. You can edit values in the parameters and save your own custom render profile.</p>
+<p>The parameters in the rendering profile are <em>melt</em> parameters. For an explanation of their meaning, check the <em>melt</em> <a class="reference external" href="http://www.mltframework.org/bin/view/MLT/Documentation">documentation</a> or type <code class="docutils literal notranslate"><span class="pre">melt</span> <span class="pre">-help</span></code> in a command prompt.</p>
+<p>The above screenshot shows the <strong>Save Profile</strong> dialog as it appears in version &lt;=0.9.4 of <strong>Kdenlive</strong>.</p>
+<p>In version &gt;=0.9.5 there is an improved version of the <strong>Save Profile</strong> dialog (see below) which allows you to customize the bitrates that are offered in the render profile.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Custom_render_profile_0.9.5.png"><img alt="../_images/Kdenlive_Custom_render_profile_0.9.5.png" src="../_images/Kdenlive_Custom_render_profile_0.9.5.png" style="width: 350px;" /></a>
+<p>See also <a class="reference internal" href="render/render_profile_parameters.html#render-profile-parameters"><span class="std std-ref">Render Profile Parameters</span></a></p>
+</section>
+<section id="rendering-in-batch-mode">
+<h2><a class="toc-backref" href="#id12">Rendering In Batch mode</a><a class="headerlink" href="#rendering-in-batch-mode" title="Permalink to this headline">¶</a></h2>
+<p>If you have a lot of rendering jobs to do, you can use <strong>Kdenlive</strong> to create rendering scripts which you can accumulate and then execute in batch mode overnight. See <a class="reference internal" href="../rendering.html#rendering"><span class="std std-ref">Rendering Using Guides and Rendering Scripts</span></a>.</p>
+<p>Alternatively, once you have submitted a rendering job on a project and it is up and running in the <strong>Job Queue</strong>, you can drag the render window out of the way and edit the project some more or load a new project and render that one too. The second render job submitted will go into the <strong>Job Queue</strong>. Editing the project after a render job is submitted will not change the settings on that job.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Rendering_job_queue.png"><img alt="../_images/Kdenlive_Rendering_job_queue.png" src="../_images/Kdenlive_Rendering_job_queue.png" style="width: 500px;" /></a>
+</section>
+<section id="rendering-using-the-guide-zone-option">
+<h2><a class="toc-backref" href="#id13">Rendering Using the Guide Zone Option</a><a class="headerlink" href="#rendering-using-the-guide-zone-option" title="Permalink to this headline">¶</a></h2>
+<p>This makes use of <span class="xref std std-ref">guides</span> to define a region of the project that is to be rendered. See <a class="reference internal" href="../rendering.html#rendering"><span class="std std-ref">Rendering Using Guides and Rendering Scripts</span></a>.</p>
+</section>
+<section id="rendering-using-the-selected-zone-option">
+<h2><a class="toc-backref" href="#id14">Rendering Using the Selected Zone Option</a><a class="headerlink" href="#rendering-using-the-selected-zone-option" title="Permalink to this headline">¶</a></h2>
+<p>If you select the <span class="menuselection">Selected Zone</span> radio button from the bottom of the render dialog, <strong>Kdenlive</strong> will only render that portion of the project which has a selected zone created for it. See <a class="reference internal" href="../monitors.html#monitors"><span class="std std-ref">Monitors</span></a></p>
+</section>
+<section id="render-overlay">
+<h2><a class="toc-backref" href="#id15">Render Overlay</a><a class="headerlink" href="#render-overlay" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/Kdenlive_Render_overlay.png" src="../_images/Kdenlive_Render_overlay.png" />
+<p>This option overlays a time code or frame count over the rendered video.  This will put the overlay over the entire rendered project.  Alternatively you can use the <span class="xref std std-ref">dynamic_text</span> effect to overlay selected regions of the video.</p>
+<a class="reference internal image-reference" href="../_images/Kdenlive_Render_overlay_result_eg.png"><img alt="render overlay result" class="align-left" src="../_images/Kdenlive_Render_overlay_result_eg.png" style="width: 150px;" /></a>
+</section>
+<section id="export-metadata">
+<h2><a class="toc-backref" href="#id16">Export Metadata</a><a class="headerlink" href="#export-metadata" title="Permalink to this headline">¶</a></h2>
+<p>Check this to have the metadata which has been entered under <span class="menuselection">Project Settings- &gt;</span> <a class="reference internal" href="../projects_and_files/project_settings.html#project-settings"><span class="std std-ref">Project Settings Dialog</span></a>  placed into the metadata of the rendered file.</p>
+<p>In version 0.9.6 for Linux, you have to double-click the data area of a metadata field line to make the field available for input.</p>
+<p>This image shows metadata settings for a project:</p>
+<img alt="../_images/Kdenlive_project_settings_metadata.png" src="../_images/Kdenlive_project_settings_metadata.png" />
+<p>And this is the metadata on the resulting clip (rendered with <span class="menuselection">Export Metadata</span> checked).</p>
+<img alt="../_images/Kdenlive_Clip_properties_metadata_res.png" src="../_images/Kdenlive_Clip_properties_metadata_res.png" />
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ffprobe dog_rotated_meta_data.mp4
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Metadata:
+major_brand     : isom
+minor_version   : <span class="m">512</span>
+compatible_brands: isomiso2avc1mp41
+title           : Bailey
+encoder         : Lavf53.21.1
+copyright       : VSF
+</pre></div>
+</div>
+<p>This reveals a bug in ver 0.9.4 of <strong>Kdenlive</strong> - the full title is not placed in the metadata - it is truncated at the first space. This has been fixed in 0.9.5 of <strong>Kdenlive</strong> as Mantis number <a class="reference external" href="http://www.kdenlive.org/mantis/view.php?id=2996">2996</a>.</p>
+</section>
+<section id="export-audio-checkbox">
+<h2><a class="toc-backref" href="#id17">Export Audio Checkbox</a><a class="headerlink" href="#export-audio-checkbox" title="Permalink to this headline">¶</a></h2>
+<p>This is an unusual one. Instead of a normal on/off checkbox toggle, the <span class="menuselection">Export Audio</span> checkbox cycles among three choices.</p>
+<img alt="../_images/Kdenlive_Export_audio_check_box_crop.png" src="../_images/Kdenlive_Export_audio_check_box_crop.png" />
+<img alt="../_images/kdenlive_export_audio_checked_ubuntu.png" src="../_images/kdenlive_export_audio_checked_ubuntu.png" />
+<img alt="../_images/kdenlive_export_audio_unchecked_ubuntu.png" src="../_images/kdenlive_export_audio_unchecked_ubuntu.png" />
+<p>As if that weren’t confusing enough, the <em>Export audio (automatic)</em> option may appear different depending on your combination of distribution, desktop environment and theme.  See three examples below:</p>
+<img alt="../_images/Kdenlive_Export_audio_check_box_crop.png" src="../_images/Kdenlive_Export_audio_check_box_crop.png" />
+<img alt="../_images/kdenlive_export_audio_automatic_dashed.png" src="../_images/kdenlive_export_audio_automatic_dashed.png" />
+<img alt="../_images/kdenlive_export_audio_automatic_nocheck.png" src="../_images/kdenlive_export_audio_automatic_nocheck.png" />
+<p>Regardless of how the checkbox on the <em>Export audio (automatic)</em> option may appear on your installation, rest assured that when that option is showing, it is enabled.</p>
+<p>So what do the three options mean?</p>
+<ul class="simple">
+<li><p>Export audio (automatic)* means detect if an audio track is present and write the audio track if found</p></li>
+<li><p>Export audio*, when checked, means write an audio track in the rendered file even if there is no audio track to write.</p></li>
+<li><p>Export audio*, when unchecked, means do not write an audio track in the rendered file.</p></li>
+</ul>
+<p>The difference in behavior between enabling <em>Export audio</em> versus <em>Export audio (automatic)</em> can be seen in the situation where you have a video on the timeline but there is no audio track on the timeline and the video in the video track also does not have an audio track. An example of such a situation is shown in the screenshot below.</p>
+<img alt="../_images/Kdenlive_Video_with_no_audio.png" src="../_images/Kdenlive_Video_with_no_audio.png" />
+<p>In this situation, if you render with <em>Export audio (automatic)</em>, the rendered file will not have an audio track (Result 1 on screenshot below). But if you render with <em>Export Audio</em> checked, then the rendered file will contain an audio track – the track will however be empty  (Result 2 on screenshot below).</p>
+<img alt="../_images/Kdenlive_Render_export_audio_auto_vs_just_checked2.png" src="../_images/Kdenlive_Render_export_audio_auto_vs_just_checked2.png" />
+<p>FFprobe on file generated from an audio-less track using <em>Export audio (automatic)</em>. Note only one stream – Stream #0.0 – a video stream. <strong>Kdenlive</strong> automatically detected there was not an audio track and so it did not write one.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ffprobe dog_rotated_exp_audio_auto.mp4
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>  Metadata:
+    major_brand     : isom
+    minor_version   : <span class="m">512</span>
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf53.21.1
+Duration: <span class="m">00</span>:00:03.62, start: <span class="m">0</span>.000000, bitrate: <span class="m">12592</span> kb/s
+Stream <span class="c1">#0.0(und): Video: h264 (High), yuv420p, 1280x720 [PAR 1:1 DAR 16:9], 12587 kb/s, 27.83 fps, 27.83 tbr, 30k tbn, 55.66 tbc</span>
+</pre></div>
+</div>
+<p>FFprobe on file generated from an audio-less track using <em>Export audio</em> checked. Note two streams – Stream #0.0 and Stream #0.1 – the latter being an aac audio track.  We forced <strong>Kdenlive</strong> to write an audio track even though there was not any source audio to write.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ffprobe dog_rotated_exp_audio.mp4
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>  Metadata:
+    major_brand     : isom
+    minor_version   : <span class="m">512</span>
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf53.21.1
+  Duration: <span class="m">00</span>:00:03.62, start: <span class="m">0</span>.000000, bitrate: <span class="m">12598</span> kb/s
+
+
+Stream <span class="c1">#0.0(und): Video: h264 (High), yuv420p, 1280x720 [PAR 1:1 DAR 16:9], 12587 kb/s, 27.83 fps, 27.83 tbr, 30k tbn, 55.66 tbc</span>
+Stream <span class="c1">#0.1(und): Audio: aac, 48000 Hz, stereo, s16, 2 kb/s</span>
+</pre></div>
+</div>
+<p>In cases where there is an audio track …</p>
+<img alt="../_images/Kdenlive_Video_plus_Audio_in_seperate_tracks.png" src="../_images/Kdenlive_Video_plus_Audio_in_seperate_tracks.png" />
+<p>Rendering with <em>Export audio</em> unchecked will produce a file with no audio track – result 4 in the screenshot above.
+Rendering with <em>Export audio (automatic)</em>  (result 3  in the screenshot above) or with  <em>Export audio</em> checked will produce files with Audio tracks.</p>
+</section>
+<section id="encoder-threads">
+<h2><a class="toc-backref" href="#id18">Encoder Threads</a><a class="headerlink" href="#encoder-threads" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/Kdenlive_Encoder_threads.png" src="../_images/Kdenlive_Encoder_threads.png" />
+<p>Determines the value of <em>Encoding threads</em> passed to melt.  For encoding to certain codecs, namely MPEG-2, MPEG-4, H.264, and VP8, kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines.  See <a class="reference external" href="http://www.mltframework.org/bin/view/MLT/ConsumerAvformat#threads">melt doco - threads</a> and <a class="reference external" href="http://www.mltframework.org/bin/view/MLT/Questions#Does_MLT_take_advantage_of_multi">melt FAQ</a> on multi-threading.</p>
+</section>
+<section id="scanning-dropdown">
+<h2><a class="toc-backref" href="#id19">Scanning Dropdown</a><a class="headerlink" href="#scanning-dropdown" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/Kdenlive_Render_scanning.png" src="../_images/Kdenlive_Render_scanning.png" />
+<p>This option controls the frame scanning setting the rendered file will have.
+Options are <em>Force Progressive</em>, <em>Force Interlaced</em> and  <em>Auto</em>.</p>
+<ul class="simple">
+<li><p>Auto* causes the rendered file to take the scanning settings that are defined in the <a class="reference internal" href="../projects_and_files/project_settings.html#project-settings"><span class="std std-ref">Project Settings Dialog</span></a>. Use the other options to override the setting defined in the project settings.</p></li>
+</ul>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="render/render_profile_parameters.html">Render Profile Parameters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="render/render_profile_parameters.html#render-profile-parameters-how-to-read-them-ver-0-9-10">Render Profile Parameters - How to read them - ver 0.9.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="render/render_profile_parameters.html#render-profile-parameters-how-to-read-them-earlier-versions-of-kdenlive">Render Profile Parameters - How to read them - earlier versions of Kdenlive</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="render/render_profile_parameters.html" class="btn btn-neutral float-right" title="Render Profile Parameters" accesskey="n" rel="next"> <!-- Next --> <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="open_backup_file.html" class="btn btn-neutral" title="Open Backup File" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> <!-- Previous  -->  </a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

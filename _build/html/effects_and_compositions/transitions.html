@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transitions &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user_interface.html">User interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../importing_and_assets_management.html">Importing and assets management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cutting_and_assembling.html">Cutting and assembling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exporting.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../get_involved.html">Get involved</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Transitions</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/effects_and_compositions/transitions.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="transitions">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2">Transitions</a><a class="headerlink" href="#transitions" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#transitions" id="id2">Transitions</a></p>
+<ul>
+<li><p><a class="reference internal" href="#mix-clips" id="id3">Mix Clips</a></p></li>
+<li><p><a class="reference internal" href="#transitions-between-clips-on-different-tracks" id="id4">Transitions between clips on different tracks</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>In <strong>kdenlive</strong> a transition is a wipe or dissolve composition between two overlapping clips.</p>
+<p>There are two ways of adding transitions in <strong>kdenlive</strong>: <strong>Mix clips</strong>, aka same tracks transitions, and the legacy way, which is transitions between clips on different tracks.</p>
+<p>Wipes are greyscale images in .pgm (Portable GreyMap) format, and during the transition the composition track will be displayed in the darkest areas of the wipe image first. If the wipe is inversed, the composition track will become visible in the brightest areas of the wipe image first instead. You can download more wipes (by clicking the download button in the wipe composition properties) or create your own  and load them by clicking the folder button.</p>
+<section id="mix-clips">
+<h2><a class="toc-backref" href="#id3">Mix Clips</a><a class="headerlink" href="#mix-clips" title="Permalink to this headline">¶</a></h2>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 20.12.</span></p>
+</div>
+<img alt="Kdenlive with mixed clips in the timeline. The toolbar button is circled with red, and the transition properties are on the right." class="align-left" src="../_images/Kdenlive_mixed_clip_800.png" />
+<p>Mix Clips provides a way to add a transition between clips on the same track. To use it:</p>
+<ul class="simple">
+<li><p>Ensure that there is at least half a second worth of frames at the end of both clips (outside the timeline clip). Without that, kdenlive will not apply the transition, but display an error message.</p></li>
+<li><p>Select either clip. If there are clips in both ends of the one selected, the transition will be added nearest the playhead.</p></li>
+</ul>
+<p>Ready to add the transition:</p>
+<ul class="simple">
+<li><p><strong>Keyboard:</strong> Press the <kbd class="kbd docutils literal notranslate">U</kbd> key.</p></li>
+<li><p><strong>Mouse:</strong> double-click at the point where the clips meet. This does not require a clip to be selected.</p></li>
+<li><p><strong>Toolbar:</strong> Press the Mix Clips button on the timeline toolbar</p></li>
+</ul>
+<p>The transition length defaults to one second equally distributed between the two clips. You can drag either end of the transition to adjust.</p>
+<p>The default transition is dissolve, but you can select (click) the transtion and edit the wipe method and properties as desired in the effect/transition stack window.</p>
+<p>The composition method is set to Luma, and it does not make sense to change that, since there will not really be a transition. Other methods are meant for compositing two videos, not transitioning between them.</p>
+<ul class="simple">
+<li><p>Select the desired wipe from Wipe Method</p></li>
+<li><p>The Reverse option reverses the transtion.</p></li>
+<li><p>The Softness slider will affect the edges of wipe transtions.</p></li>
+<li><p>Set the desired duration</p></li>
+<li><p>Since 21.08: select the alignment of the transition, either left, centered (default) or right.</p></li>
+</ul>
+<p>To delete the transition, select it and press the delete key.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To apply only transitions on either the video or audio track just lock the track on which you don’t want a transition to be applied and add transitions by one of the above ways on the other track.</p>
+</div>
+</section>
+<section id="transitions-between-clips-on-different-tracks">
+<h2><a class="toc-backref" href="#id4">Transitions between clips on different tracks</a><a class="headerlink" href="#transitions-between-clips-on-different-tracks" title="Permalink to this headline">¶</a></h2>
+<p>This is the legacy way of doing transitions in <strong>kdenlive</strong>.</p>
+<img alt="To the left the purple one-click circle to add a wipe composition. In the middle the composition bar, and on the right the properties." class="align-left" src="../_images/Kdenlive_transitions_legacy_god.png" />
+<p>To add a transition,</p>
+<ul class="simple">
+<li><p>Adjust your clips so that they overlap.</p></li>
+<li><p>hold the mouse wheel over the top clip bottom corner, and click the purple circle appearing (the status bar will say “Click to add a composition”), or alternatively right-click either clip and select <span class="menuselection">Insert a composition | Wipe</span></p></li>
+</ul>
+<p>The default transition is a dissolve, to change that select (click) the composition bar to show the effect/composition stack window.</p>
+<p>The transition, when added this way, will cover the overlapping area between the clips.</p>
+<p>You can:</p>
+<ul class="simple">
+<li><p>Select a composition track. The default is “Automatic” which is likely the correct choice in this case.</p></li>
+<li><p>Select a wipe.</p></li>
+<li><p>Enable Inverse to inverse the wipe.</p></li>
+<li><p>Enable Revert to revert the order of the videos in the transition (which you probably do not want).</p></li>
+</ul>
+<p>If you move or adjust your clips after adding the transition, you need to refit it manually if desired. You can drag the entire transition with the select tool, and adjust its duration by dragging either end.</p>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="transitions/composite.html">Composite Transition</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="transitions/composite.html#alpha-operations">Alpha operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transitions/composite.html#tutorial-1">Tutorial 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transitions/composite.html#tutorial-2-composite-transition-and-blue-screen">Tutorial 2 - composite transition and Blue Screen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transitions/composite.html#tutorial-3-video-masks">Tutorial 3 - Video Masks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="transitions/wipe.html">Composition - Wipe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transitions/screen.html">Transitions - Screen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transitions/hue.html">Hue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transitions/affine.html">Affine Transition</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="transitions/affine.html#example-1">Example 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transitions/affine.html#disolve-using-affine-transition">Disolve using Affine Transition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transitions/affine.html#rotation-using-affine-transition">Rotation using Affine Transition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transitions/affine.html#example-2-rotate-y">Example 2 - Rotate Y</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="transitions/alphaxor.html">alphaxor transtion</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

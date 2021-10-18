@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project and File management &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Project and File management</a><ul>
+<li><a class="reference internal" href="#interface-and-layouts">Interface and Layouts</a></li>
+<li><a class="reference internal" href="#file-structure">File Structure</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Project and File management</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/projects_and_files.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <span class="target" id="projects-and-files"></span><section id="project-and-file-management">
+<h1><a class="toc-backref" href="#id1">Project and File management</a><a class="headerlink" href="#project-and-file-management" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#project-and-file-management" id="id1">Project and File management</a></p>
+<ul>
+<li><p><a class="reference internal" href="#interface-and-layouts" id="id2">Interface and Layouts</a></p></li>
+<li><p><a class="reference internal" href="#file-structure" id="id3">File Structure</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="interface-and-layouts">
+<h2><a class="toc-backref" href="#id2">Interface and Layouts</a><a class="headerlink" href="#interface-and-layouts" title="Permalink to this headline">¶</a></h2>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 20.08.0.</span></p>
+</div>
+<img alt="_images/interface_layouts.gif" src="_images/interface_layouts.gif" />
+<p>These workspaces aim to improve the layout for each stage of video production:</p>
+<ul class="simple">
+<li><p><strong>Logging</strong> for reviewing your footage</p></li>
+<li><p><strong>Editing</strong> to compose your story in the timeline</p></li>
+<li><p><strong>Audio</strong> for mixing and adjusting your audio</p></li>
+<li><p><strong>Effects</strong> for adding effects</p></li>
+<li><p><strong>Color</strong> for adjusting and color grading</p></li>
+</ul>
+<p>Check out this <a class="reference external" href="https://www.youtube.com/watch?v=BdHbUUjfBLk">video</a> for more details.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Video scopes do not work with DirectX under Windows.</p>
+</div>
+</section>
+<section id="file-structure">
+<h2><a class="toc-backref" href="#id3">File Structure</a><a class="headerlink" href="#file-structure" title="Permalink to this headline">¶</a></h2>
+<p>As already pointed out in the <a class="reference internal" href="getting_started/quickstart.html#quickstart"><span class="std std-ref">Quick Start</span></a>, we suggest using a different project folder for each project. <strong>Kdenlive</strong> will generate the following folders for caching in the project folder:</p>
+<ul class="simple">
+<li><p><code class="file docutils literal notranslate"><span class="pre">/proxy/</span></code> for the <a class="reference internal" href="projects_and_files/clips.html#clips"><span class="std std-ref">Clips</span></a> that have been generated</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">/thumbs/</span></code> for thumbnails to all used clips</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">/titles/</span></code> default location for the <a class="reference internal" href="titles.html#titles"><span class="std std-ref">Titles</span></a> saved outside the project file</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">/.backup/</span></code> for your project’s automatic <a class="reference internal" href="projects_and_files/backup.html#backup"><span class="std std-ref">Backup</span></a> These directories can be deleted if not required anymore (for example for saving space on the harddrive). <strong>Kdenlive</strong> will create them again when you load the project the next time.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The <code class="file docutils literal notranslate"><span class="pre">/titles/</span></code> directory is the default directory for saved <code class="file docutils literal notranslate"><span class="pre">.kdenlivetitle</span></code> title files. Make sure that you did not save any important files in there before deleting it.</p>
+</div>
+<p>Source clips can be located anywhere. Still, here are some thoughts about their location:</p>
+<ul class="simple">
+<li><p>Material (images, clips, audio) that is used for one project only can be put into a subdirectory of the project folder as well. This keeps all important files together, and searching for the files takes less time.</p></li>
+<li><p>Material that is used by multiple projects is convenient when kept together. I’ve got a video collection the same way that I have a photo collection.</p></li>
+</ul>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/archiving.html">Archiving</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/backup.html">Backup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/clips.html">Clips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/media_browser.html">Media Browser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/notes.html">Annotating</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/project.html">Project File Details</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/project_settings.html">Project Settings Dialog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects_and_files/project_tree.html">The Project Bin</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

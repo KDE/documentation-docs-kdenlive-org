@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editing &mdash; Kdenlive Manual 21.12 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> Kdenlive Manual
+            <img src="../../_static/logo-light.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Editing</a><ul>
+<li><a class="reference internal" href="#seeking-through-your-project">Seeking through your project</a></li>
+<li><a class="reference internal" href="#cutting-a-clip">Cutting a clip</a></li>
+<li><a class="reference internal" href="#resizing-a-clip">Resizing a clip</a></li>
+<li><a class="reference internal" href="#removing-space-between-clips">Removing Space Between Clips</a></li>
+<li><a class="reference internal" href="#middle-tool-bar">Middle Tool Bar</a></li>
+<li><a class="reference internal" href="#bottom-tool-bar">Bottom Tool Bar</a></li>
+<li><a class="reference internal" href="#button-descriptions">Button Descriptions</a><ul>
+<li><a class="reference internal" href="#track-compositing-none">Track Compositing - None</a></li>
+<li><a class="reference internal" href="#track-compositing-preview">Track Compositing - Preview</a></li>
+<li><a class="reference internal" href="#track-compositing-high-quality">Track Compositing - High Quality</a></li>
+<li><a class="reference internal" href="#timeline-edit-mode-normal-mode">Timeline Edit Mode - Normal Mode</a></li>
+<li><a class="reference internal" href="#timeline-edit-mode-overwrite-mode">Timeline Edit Mode - Overwrite Mode</a></li>
+<li><a class="reference internal" href="#timeline-edit-mode-insert-mode">Timeline Edit Mode - Insert Mode</a></li>
+<li><a class="reference internal" href="#selection-tool">Selection Tool</a></li>
+<li><a class="reference internal" href="#razor-tool">Razor Tool</a></li>
+<li><a class="reference internal" href="#spacer-tool">Spacer Tool</a></li>
+<li><a class="reference internal" href="#fit-zoom-to-project">Fit Zoom to Project</a></li>
+<li><a class="reference internal" href="#zoom-project">Zoom project</a></li>
+<li><a class="reference internal" href="#split-audio-and-video-automatically">Split Audio and Video Automatically</a></li>
+<li><a class="reference internal" href="#automatic-transitions">Automatic Transitions</a></li>
+<li><a class="reference internal" href="#show-video-thumbnails">Show Video Thumbnails</a></li>
+<li><a class="reference internal" href="#show-audio-thumbnails">Show Audio Thumbnails</a></li>
+<li><a class="reference internal" href="#show-marker-comments">Show marker comments</a></li>
+<li><a class="reference internal" href="#snap">Snap</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cutting-footage-from-multiple-aligned-tracks-ripple-delete">Cutting Footage from multiple aligned tracks - Ripple Delete</a></li>
+<li><a class="reference internal" href="#subtitle">Subtitle</a></li>
+<li><a class="reference internal" href="#speech-to-text">Speech to text</a><ul>
+<li><a class="reference internal" href="#install-python">Install Python</a></li>
+<li><a class="reference internal" href="#install-a-language">Install a language</a></li>
+<li><a class="reference internal" href="#speech-recognition">Speech recognition</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#point-editing">3 point editing</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Kdenlive Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Editing</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/cutting_and_assembling/timeline/editing.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <span class="target" id="editing"></span><section id="id1">
+<h1><a class="toc-backref" href="#id6">Editing</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#id1" id="id6">Editing</a></p>
+<ul>
+<li><p><a class="reference internal" href="#seeking-through-your-project" id="id7">Seeking through your project</a></p></li>
+<li><p><a class="reference internal" href="#cutting-a-clip" id="id8">Cutting a clip</a></p></li>
+<li><p><a class="reference internal" href="#resizing-a-clip" id="id9">Resizing a clip</a></p></li>
+<li><p><a class="reference internal" href="#removing-space-between-clips" id="id10">Removing Space Between Clips</a></p></li>
+<li><p><a class="reference internal" href="#middle-tool-bar" id="id11">Middle Tool Bar</a></p></li>
+<li><p><a class="reference internal" href="#bottom-tool-bar" id="id12">Bottom Tool Bar</a></p></li>
+<li><p><a class="reference internal" href="#button-descriptions" id="id13">Button Descriptions</a></p>
+<ul>
+<li><p><a class="reference internal" href="#track-compositing-none" id="id14">Track Compositing - None</a></p></li>
+<li><p><a class="reference internal" href="#track-compositing-preview" id="id15">Track Compositing - Preview</a></p></li>
+<li><p><a class="reference internal" href="#track-compositing-high-quality" id="id16">Track Compositing - High Quality</a></p></li>
+<li><p><a class="reference internal" href="#timeline-edit-mode-normal-mode" id="id17">Timeline Edit Mode - Normal Mode</a></p></li>
+<li><p><a class="reference internal" href="#timeline-edit-mode-overwrite-mode" id="id18">Timeline Edit Mode - Overwrite Mode</a></p></li>
+<li><p><a class="reference internal" href="#timeline-edit-mode-insert-mode" id="id19">Timeline Edit Mode - Insert Mode</a></p></li>
+<li><p><a class="reference internal" href="#selection-tool" id="id20">Selection Tool</a></p></li>
+<li><p><a class="reference internal" href="#razor-tool" id="id21">Razor Tool</a></p></li>
+<li><p><a class="reference internal" href="#spacer-tool" id="id22">Spacer Tool</a></p></li>
+<li><p><a class="reference internal" href="#fit-zoom-to-project" id="id23">Fit Zoom to Project</a></p></li>
+<li><p><a class="reference internal" href="#zoom-project" id="id24">Zoom project</a></p></li>
+<li><p><a class="reference internal" href="#split-audio-and-video-automatically" id="id25">Split Audio and Video Automatically</a></p></li>
+<li><p><a class="reference internal" href="#automatic-transitions" id="id26">Automatic Transitions</a></p></li>
+<li><p><a class="reference internal" href="#show-video-thumbnails" id="id27">Show Video Thumbnails</a></p></li>
+<li><p><a class="reference internal" href="#show-audio-thumbnails" id="id28">Show Audio Thumbnails</a></p></li>
+<li><p><a class="reference internal" href="#show-marker-comments" id="id29">Show marker comments</a></p></li>
+<li><p><a class="reference internal" href="#snap" id="id30">Snap</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#cutting-footage-from-multiple-aligned-tracks-ripple-delete" id="id31">Cutting Footage from multiple aligned tracks - Ripple Delete</a></p></li>
+<li><p><a class="reference internal" href="#subtitle" id="id32">Subtitle</a></p></li>
+<li><p><a class="reference internal" href="#speech-to-text" id="id33">Speech to text</a></p>
+<ul>
+<li><p><a class="reference internal" href="#install-python" id="id34">Install Python</a></p></li>
+<li><p><a class="reference internal" href="#install-a-language" id="id35">Install a language</a></p></li>
+<li><p><a class="reference internal" href="#speech-recognition" id="id36">Speech recognition</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#point-editing" id="id37">3 point editing</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Editing is done in the <span class="xref std std-ref">timeline</span>. Add a clip by dragging it from the <a class="reference internal" href="../../user_interface/view_menu/project_tree.html#project-tree"><span class="std std-ref">View&gt;Project Tree</span></a> or the <a class="reference internal" href="../../user_interface/monitors.html#monitors"><span class="std std-ref">Monitors</span></a>. Once a clip is dropped on a track, it can be moved (drag and drop it) to another place on the same track or onto another track.</p>
+<img alt="../../_images/Kdenlive-addcliptotimeline.gif" class="align-center" src="../../_images/Kdenlive-addcliptotimeline.gif" />
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 19.08.0: </span>Editing with keyboard shortcuts was introduce</p>
+</div>
+<p>This will speed up the editing work and you can do editing steps that are not possible or not as quick and easy with the mouse. Working with keyboard shortcuts in 19.08 is different as in the former Kdenlive versions. Mouse operations have not changed and working as before. See <a class="reference internal" href="#point-editing">3 Point Editing</a></p>
+<section id="seeking-through-your-project">
+<h2><a class="toc-backref" href="#id7">Seeking through your project</a><a class="headerlink" href="#seeking-through-your-project" title="Permalink to this headline">¶</a></h2>
+<p>The timeline cursor shows your current position in the project. The positions of the cursors on the timeline ruler and Project Monitor are always in sync. Position can be moved in the following ways:</p>
+<ul class="simple">
+<li><p>Keyboard shortcut: right / left arrows for one frame, Shift+ right / left for 1 second</p></li>
+<li><p>Clicking/dragging in the <span class="xref std std-ref">timeline</span> or in an empty area of the timeline.</p></li>
+<li><p>Clicking/dragging in the <a class="reference internal" href="../../user_interface/monitors.html#monitors"><span class="std std-ref">Monitors</span></a> ruler.</p></li>
+<li><p>Rotating the mouse wheel while the pointer is over the <span class="xref std std-ref">timeline</span> or over the <a class="reference internal" href="../../user_interface/monitors.html#monitors"><span class="std std-ref">Monitors</span></a></p></li>
+<li><p>Editing the timecode in the <a class="reference internal" href="../../user_interface/monitors.html#monitors"><span class="std std-ref">Monitors</span></a>  timecode widget</p></li>
+<li><p>Clicking the up or down arrows on the <a class="reference internal" href="../../user_interface/monitors.html#monitors"><span class="std std-ref">Monitors</span></a> timecode widget</p></li>
+</ul>
+</section>
+<section id="cutting-a-clip">
+<h2><a class="toc-backref" href="#id8">Cutting a clip</a><a class="headerlink" href="#cutting-a-clip" title="Permalink to this headline">¶</a></h2>
+<p>To cut a clip, the easiest way is to place the timeline cursor where you want to cut the clip, then select the clip (left click in it) and use the menu <span class="menuselection">Timeline ‣ Current Clip ‣ Cut Clip</span> (default shortcut: <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd> <kbd class="kbd docutils literal notranslate"></kbd>+<kbd class="kbd docutils literal notranslate"></kbd> <kbd class="kbd docutils literal notranslate">R</kbd></kbd>).</p>
+<p>Or  <span class="menuselection">Right Click ‣ Cut Clip</span></p>
+<p>Alternatively - use the <a class="reference internal" href="#spacer-tool">Spacer Tool</a>.</p>
+</section>
+<section id="resizing-a-clip">
+<h2><a class="toc-backref" href="#id9">Resizing a clip</a><a class="headerlink" href="#resizing-a-clip" title="Permalink to this headline">¶</a></h2>
+<p>A clip can be resized from its start or end by dragging its left or right edge. If you want a more precise resize, you can place the timeline cursor wherever you want the resize to end and use the menu <span class="menuselection">Timeline ‣ Resize Item Start</span> (default shortcut: <kbd class="kbd docutils literal notranslate">1</kbd>) or <span class="menuselection">Timeline ‣ Resize Item End</span> (default shortcut: <kbd class="kbd docutils literal notranslate">2</kbd>)</p>
+<p>To even more precisely control the length of a clip, double click it in the timeline and adjust its duration using the <strong>Clip duration</strong> dialog. You can have frame-level accuracy with this method.</p>
+<img alt="../../_images/kdenlive_timeline_current_clip_duration02.png" src="../../_images/kdenlive_timeline_current_clip_duration02.png" />
+<p>You can also resize a clip by cutting it with the  <a class="reference internal" href="#razor-tool">Razor Tool</a> and then deleting the bit you do not want.</p>
+</section>
+<section id="removing-space-between-clips">
+<h2><a class="toc-backref" href="#id10">Removing Space Between Clips</a><a class="headerlink" href="#removing-space-between-clips" title="Permalink to this headline">¶</a></h2>
+<p>Right click in the space between the clips and choose <span class="menuselection">Remove Space</span>. Be aware however that if you have clips on multiple tracks in the timeline and they are not grouped, then removing space may disturb the alignment of the clips between the different tracks – the space is only removed from the timeline where you clicked.  Under this situation it may be safer to use the <a class="reference internal" href="#spacer-tool">Spacer Tool</a>.</p>
+<img alt="../../_images/Kdenlive-removespace.gif" class="align-center" src="../../_images/Kdenlive-removespace.gif" />
+</section>
+<section id="middle-tool-bar">
+<h2><a class="toc-backref" href="#id11">Middle Tool Bar</a><a class="headerlink" href="#middle-tool-bar" title="Permalink to this headline">¶</a></h2>
+<p>There is a toolbar between monitors and the timeline that controls various aspects of the editor.</p>
+<img alt="Middle Toolbar ver  21.04" class="align-center" src="../../_images/Kdenlive-middle-toolbar.png" />
+<ol class="arabic simple">
+<li><p><strong>Track Compositing</strong> drop down.</p></li>
+</ol>
+<p>1a. <a class="reference internal" href="#track-compositing-none">Track Compositing - None</a></p>
+<p>1b. <a class="reference internal" href="#track-compositing-preview">Track Compositing - Preview</a></p>
+<p>1c. <a class="reference internal" href="#track-compositing-high-quality">Track Compositing - High Quality</a></p>
+<p>1d. <strong>Mixed Audio tracks</strong> changes the order in which tracks are displayed to mixed audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, V1, A2, V2, A3, V3</p>
+<p>1e. <strong>Split Audio tracks</strong> changes the order in which tracks are displayed to separate audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A1, V1, V2, V3</p>
+<p>1f. <strong>Split Audio tracks (reverse)</strong> changes the order in which tracks are displayed to separate audio and video tracks with the audio tracks in reverse order.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A3, V1, V2, V3</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Timeline Edit Mode</strong>   Drop Down</p></li>
+</ol>
+<p>2a. <a class="reference internal" href="#timeline-edit-mode-normal-mode">Timeline Edit Mode - Normal Mode</a></p>
+<p>2b. <a class="reference internal" href="#timeline-edit-mode-overwrite-mode">Timeline Edit Mode - Overwrite Mode</a></p>
+<p>2c. <a class="reference internal" href="#timeline-edit-mode-insert-mode">Timeline Edit Mode - Insert Mode</a></p>
+<p>These same settings can be found under the <span class="menuselection">Tool</span> menu.</p>
+<ol class="arabic simple" start="3">
+<li><p>Use timeline zone</p></li>
+</ol>
+<img alt="../../_images/Kdenlive_Use_timeline_zone_for_insert.png" src="../../_images/Kdenlive_Use_timeline_zone_for_insert.png" />
+<p>/ Do not use timeline zone</p>
+<img alt="../../_images/Kdenlive_Dont_Use_timeline_zone_for_insert.png" src="../../_images/Kdenlive_Dont_Use_timeline_zone_for_insert.png" />
+<p>for insert (toggles). See <a class="reference external" href="https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/">Insert &amp;  Overwrite Advanced Timeline Editing</a> on Kdenlive Home page.</p>
+<p><strong>Tool Group</strong> (one of these 3 can be active)</p>
+<p>Active buttons are grey.</p>
+<ol class="arabic simple" start="4">
+<li><p><a class="reference internal" href="#selection-tool">Selection Tool</a> - Also selected with the ‘S’ hotkey.  Allows the selection and manipulation of clips on the timeline</p></li>
+<li><p><a class="reference internal" href="#razor-tool">Razor Tool</a> - Also selected with the ‘X’ hotkey, or to cut at the point of the play head use “Shift-R”.   This allows a clip to be cut into two clips.</p></li>
+<li><p><a class="reference internal" href="#spacer-tool">Spacer Tool</a> - Also selected with the ‘M’ hotkey.  This tool will select all clips at one point in the timeline and allow them to be shifted at once.</p></li>
+<li><p>Position indicator - displays the time point or frame number of the location of the hovering mouse on the left side, and the total length of the project on the right side.</p></li>
+</ol>
+<p>7a. <strong>hh:mm:ss:ff;</strong> Sets the position indicator to display time units</p>
+<p>7b. <strong>Frames</strong> Sets the position indicator to display frames</p>
+<ol class="arabic simple" start="8">
+<li><p><strong>Mix Clips</strong> - allows same-track transitions to be applied between two clips. See <a href="#id38"><span class="problematic" id="id39">`Same Track Transitions`_</span></a> for a detailed explination.</p></li>
+<li><p>Insert Clip Zone in Timeline. See <a class="reference external" href="https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/">Insert &amp; Overwrite Advanced Timeline Editing</a> on Kdenlive Home page.</p></li>
+<li><p>Overwrite Clip Zone in Timeline. See <a class="reference external" href="https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/">Insert &amp; Overwrite Advanced Timeline Editing</a> on Kdenlive Home page.</p></li>
+<li><p>Extract Timeline Zone</p></li>
+<li><p>Lift Timeline Zone</p></li>
+<li><p>Favourite Effects</p></li>
+<li><p>Start Preview Render</p></li>
+</ol>
+<p>14a. Stop Preview Render</p>
+<p>14b. Add Preview Zone</p>
+<p>14c. Remove Preview Zone</p>
+<p>14d. Remove All Preview Zones</p>
+<p>14e. Automatic Preview</p>
+<p>14f. Disable Timeline Preview</p>
+<p>14g. Manage Cached Data</p>
+<p>Items 14, 14a-14g are covered in detail by <a class="reference external" href="https://kdenlive.org/project/timeline-preview-rendering/">Timeline preview rendering</a> article on the Kdenlive Home Page</p>
+<ol class="arabic simple" start="15">
+<li><p>Show/Hide the <strong>Audio Mixer</strong> tool.  The audio mixer tool allows audio to be managed in the project.</p></li>
+<li><p>Show/Hide the <strong>Subtitle Tool</strong>.  This will show or hide the subtitle track where subtitles can be created or edited in the project.</p></li>
+</ol>
+</section>
+<section id="bottom-tool-bar">
+<h2><a class="toc-backref" href="#id12">Bottom Tool Bar</a><a class="headerlink" href="#bottom-tool-bar" title="Permalink to this headline">¶</a></h2>
+<img alt="Bottom toolbar ver 17.04" class="align-left" src="../../_images/Kdenlive_Bottom_toolbar17_04b.png" />
+<ol class="arabic simple" start="24">
+<li><p><a class="reference internal" href="#split-audio-and-video-automatically">Split Audio and Video Automatically</a></p></li>
+<li><p><a class="reference internal" href="#automatic-transitions">Automatic Transitions</a></p></li>
+<li><p><a class="reference internal" href="#show-video-thumbnails">Show Video Thumbnails</a></p></li>
+<li><p><a class="reference internal" href="#show-audio-thumbnails">Show Audio Thumbnails</a></p></li>
+<li><p><a class="reference internal" href="#show-marker-comments">Show marker comments</a></p></li>
+<li><p><a class="reference internal" href="#snap">Snap</a></p></li>
+</ol>
+<p><strong>Zoom Tools</strong></p>
+<ol class="arabic simple" start="30">
+<li><p><a class="reference internal" href="#fit-zoom-to-project">Fit Zoom to Project</a></p></li>
+<li><p>Zoom Out</p></li>
+<li><p><a class="reference internal" href="#zoom-project">Zoom Project</a></p></li>
+<li><p>Zoom In</p></li>
+</ol>
+</section>
+<section id="button-descriptions">
+<h2><a class="toc-backref" href="#id13">Button Descriptions</a><a class="headerlink" href="#button-descriptions" title="Permalink to this headline">¶</a></h2>
+<section id="track-compositing-none">
+<h3><a class="toc-backref" href="#id14">Track Compositing - None</a><a class="headerlink" href="#track-compositing-none" title="Permalink to this headline">¶</a></h3>
+<p>When Track Compositing is set to None you will not get tracks with alpha channel information to composite with the other tracks unless an explicit composite or affine transition is added between the clips.  This is the behavior that <strong>Kdenlive</strong> displayed in older ( &lt;= ver 0.9.X).</p>
+</section>
+<section id="track-compositing-preview">
+<h3><a class="toc-backref" href="#id15">Track Compositing - Preview</a><a class="headerlink" href="#track-compositing-preview" title="Permalink to this headline">¶</a></h3>
+<p>When track compositing is set to Preview tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat faster than the algorithm used with <em>Track Compositing - HighQuality</em> but which slightly degrades the colors.</p>
+</section>
+<section id="track-compositing-high-quality">
+<h3><a class="toc-backref" href="#id16">Track Compositing - High Quality</a><a class="headerlink" href="#track-compositing-high-quality" title="Permalink to this headline">¶</a></h3>
+<p>When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm (qtblend) that is somewhat slower than the algorithm used with <em>Track Compositing - Preview</em> but which retains higher fidelity color information.</p>
+</section>
+<section id="timeline-edit-mode-normal-mode">
+<h3><a class="toc-backref" href="#id17">Timeline Edit Mode - Normal Mode</a><a class="headerlink" href="#timeline-edit-mode-normal-mode" title="Permalink to this headline">¶</a></h3>
+<p>In this edit mode, you can not drag clips on top of other clips in the same track in the timeline. You can drag them to another track in the timeline but not into the same track at the same time point as an existing clip. Contrast this to overwrite mode.</p>
+</section>
+<section id="timeline-edit-mode-overwrite-mode">
+<h3><a class="toc-backref" href="#id18">Timeline Edit Mode - Overwrite Mode</a><a class="headerlink" href="#timeline-edit-mode-overwrite-mode" title="Permalink to this headline">¶</a></h3>
+<p>In this edit mode, you can drag a clip onto a track where there is an existing clip and the incoming clip will overwrite that portion of the existing clip (or clips) covered by the incoming clip.</p>
+<img alt="Before" class="align-left" src="../../_images/kdenlive_overwrite_mode_before01.png" />
+<img alt="After" class="align-left" src="../../_images/kdenlive_overwrite_mode_after01.png" />
+<p>In the “After” screenshot above, you can see that the clip which was dragged from the upper track has replaced a portion of the clip on the lower track.</p>
+<p><strong>Rearrange clips in the timeline</strong></p>
+<p>Performing a rearrange edit. This technique lets you quickly change the order of clips in the timeline.</p>
+<p>VIDEO FILE Overwrite-mode.mp4 MISSING</p>
+<p>Drag a clip, as you drop it to a new location performs an overwrite edit that overwrites the existing clip.</p>
+</section>
+<section id="timeline-edit-mode-insert-mode">
+<h3><a class="toc-backref" href="#id19">Timeline Edit Mode - Insert Mode</a><a class="headerlink" href="#timeline-edit-mode-insert-mode" title="Permalink to this headline">¶</a></h3>
+<p>With this mode selected and you drop a selection into the timeline the selection will be inserted into the timeline at the point where the mouse is released. The clip that the selection is dropped on is cut and clips are moved to the right to accommodate the incoming clip.</p>
+<img alt="Before" class="align-left" src="../../_images/Kdenlive_Insert_mode0before.png" />
+<img alt="During" class="align-left" src="../../_images/Kdenlive_Insert_mode1before.png" />
+<img alt="After. Incoming Clip inserted. Clips after the insert point are shifted Right" class="align-left" src="../../_images/Kdenlive_Insert_mode1after.png" />
+<p><strong>Rearrange edit in the timeline</strong></p>
+<p>Performing a rearrange edit. Only clips in the destination track are shifted; clips in other tracks are not affected. This technique lets you quickly change the order of clips in the timeline.</p>
+<p>It always closes all space in the track.</p>
+<p>VIDEO FILE Insert-mode.mp4 MISSING</p>
+<p>Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.</p>
+</section>
+<section id="selection-tool">
+<h3><a class="toc-backref" href="#id20">Selection Tool</a><a class="headerlink" href="#selection-tool" title="Permalink to this headline">¶</a></h3>
+<p>Use this to select clips in the timeline. The cursor becomes a hand when this tool is active.</p>
+</section>
+<section id="razor-tool">
+<h3><a class="toc-backref" href="#id21">Razor Tool</a><a class="headerlink" href="#razor-tool" title="Permalink to this headline">¶</a></h3>
+<p>Use this to cut clips in the timeline. The cursor becomes a pair of scissors when this tool is active.</p>
+</section>
+<section id="spacer-tool">
+<h3><a class="toc-backref" href="#id22">Spacer Tool</a><a class="headerlink" href="#spacer-tool" title="Permalink to this headline">¶</a></h3>
+<p>Use this tool (</p>
+<img alt="../../_images/distribute-horizontal.svg" src="../../_images/distribute-horizontal.svg" /><p>) to temporarily group separate clips and then drag them around the timeline to create or remove space between clips. Very useful. Experiment with this tool to see how it works.</p>
+<a class="reference internal image-reference" href="../../_images/Kdenlive_Spacer_tool_crop.png"><img alt="../../_images/Kdenlive_Spacer_tool_crop.png" src="../../_images/Kdenlive_Spacer_tool_crop.png" style="width: 600px;" /></a>
+<p>In the above example, these clips are not grouped. However, the spacer tool groups them temporarily for you so you can move them all as a group.</p>
+</section>
+<section id="fit-zoom-to-project">
+<h3><a class="toc-backref" href="#id23">Fit Zoom to Project</a><a class="headerlink" href="#fit-zoom-to-project" title="Permalink to this headline">¶</a></h3>
+<p>This will zoom the project out so that it all fits in the timeline window. This is the same function that is triggered by <a class="reference internal" href="../../user_interface/timeline_menu.html#timeline-menu"><span class="std std-ref">Timeline Menu</span></a> Menu item, <span class="menuselection">Fit Zoom to Project</span>.</p>
+</section>
+<section id="zoom-project">
+<h3><a class="toc-backref" href="#id24">Zoom project</a><a class="headerlink" href="#zoom-project" title="Permalink to this headline">¶</a></h3>
+<p>The magnifying glasses zoom in or out on the timeline. The slider adjusts the zoom by large increments. These same settings are controlled by the <span class="menuselection">Timeline</span> menu items, <span class="menuselection">Zoom In</span> and <span class="menuselection">Zoom Out</span>.</p>
+</section>
+<section id="split-audio-and-video-automatically">
+<h3><a class="toc-backref" href="#id25">Split Audio and Video Automatically</a><a class="headerlink" href="#split-audio-and-video-automatically" title="Permalink to this headline">¶</a></h3>
+<p>When this is on and you drag a clip to the timeline, the audio in the clip will end up on an audio track and the video on a video track. You can achieve the same result if you select the clip, <a class="reference internal" href="right_click_menu.html#right-click-menu"><span class="std std-ref">Clip in Timeline - Right-Click Menu</span></a>, <span class="menuselection">Split Audio</span>.  When this is off and you drag a clip onto the timeline, both the audio and video tracks are combined into one video track.</p>
+</section>
+<section id="automatic-transitions">
+<h3><a class="toc-backref" href="#id26">Automatic Transitions</a><a class="headerlink" href="#automatic-transitions" title="Permalink to this headline">¶</a></h3>
+<p>When active any transitions added to the timeline will have the automatic transition option checked by default.
+See <a class="reference internal" href="../../effects/transitions.html#transitions"><span class="std std-ref">Transitions</span></a></p>
+</section>
+<section id="show-video-thumbnails">
+<h3><a class="toc-backref" href="#id27">Show Video Thumbnails</a><a class="headerlink" href="#show-video-thumbnails" title="Permalink to this headline">¶</a></h3>
+<p>When on, the video clips in the timeline will contain thumbnails as well as a filename. Otherwise, they just have the clip filename.</p>
+<p>When the timeline is zoomed in to the maximum, the video track will show a thumbnail for every frame in the clip. When the timeline is not on maximum zoom, the video track will show a thumbnail for the first and last frame in the clip.</p>
+</section>
+<section id="show-audio-thumbnails">
+<h3><a class="toc-backref" href="#id28">Show Audio Thumbnails</a><a class="headerlink" href="#show-audio-thumbnails" title="Permalink to this headline">¶</a></h3>
+<p>When on, the audio clip will have a wave representation of the audio data as well as a filename.  Otherwise, they just have the clip filename.</p>
+</section>
+<section id="show-marker-comments">
+<h3><a class="toc-backref" href="#id29">Show marker comments</a><a class="headerlink" href="#show-marker-comments" title="Permalink to this headline">¶</a></h3>
+<p>This toggles on and off the display of the comments saved within <a class="reference internal" href="../../user_interface/projects_and_files/clips.html#clips"><span class="std std-ref">Clips</span></a> (the text with the gold background in the example below) and within <span class="xref std std-ref">guides</span> (the text with the purple background).</p>
+<img alt="../../_images/Kdenlive_Markers_and_guides_crop.png" src="../../_images/Kdenlive_Markers_and_guides_crop.png" />
+</section>
+<section id="snap">
+<h3><a class="toc-backref" href="#id30">Snap</a><a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h3>
+<p>When this feature is on, dragging the beginning of one clip near to the end of another will result at the end of the first clip snapping into place to be perfectly aligned with the beginning of the second clip. As you move the two ends near to each other, as soon as they get within a certain small distance, they snap together so there is no space and no overlap. Note that this occurs even if the clips are on different tracks in the timeline.</p>
+<p>Clips will also snap to the cursor position, markers and <span class="xref std std-ref">guides</span>.</p>
+</section>
+</section>
+<section id="cutting-footage-from-multiple-aligned-tracks-ripple-delete">
+<h2><a class="toc-backref" href="#id31">Cutting Footage from multiple aligned tracks - Ripple Delete</a><a class="headerlink" href="#cutting-footage-from-multiple-aligned-tracks-ripple-delete" title="Permalink to this headline">¶</a></h2>
+<p>This is available on the <span class="menuselection">Timeline</span> menu under <span class="menuselection">All clips ‣ Ripple Delete</span>  <a class="footnote-reference brackets" href="#id5" id="id4">1</a> .</p>
+<p><strong>Seems missing in Kdenlive 17.04 &amp; 18.04</strong></p>
+<p>Mark In and Out points in the Project Monitor, then choose <span class="menuselection">Timeline ‣ All clips ‣ Ripple Delete</span> (or <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd>-<kbd class="kbd docutils literal notranslate">X</kbd></kbd>).  Kdenlive deletes all footage between the In and Out points in unlocked tracks, slides everything else back to fill the gap, and puts the playhead on the In point.</p>
+</section>
+<section id="subtitle">
+<h2><a class="toc-backref" href="#id32">Subtitle</a><a class="headerlink" href="#subtitle" title="Permalink to this headline">¶</a></h2>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 20.12.0.</span></p>
+</div>
+<img alt="../../_images/subtitle-timeline-1.gif" src="../../_images/subtitle-timeline-1.gif" />
+<p>The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the new subtitle window. You can also import (SRT/ASS) and export (SRT) subtitles.</p>
+<p>There are 3 ways to add subtitle:</p>
+<ul class="simple">
+<li><p><strong>Menu</strong></p>
+<ul>
+<li><p><span class="menuselection">Project ‣ Subtitle ‣ Add Subtitle</span></p></li>
+</ul>
+</li>
+<li><p><strong>Keyboard</strong></p>
+<ul>
+<li><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd>+<kbd class="kbd docutils literal notranslate">S</kbd></kbd> adds a subtitle.</p></li>
+</ul>
+</li>
+<li><p><strong>Icon and Mouse</strong></p>
+<ul>
+<li><p>Click the “subtitle” icon in the timeline toolbar to open the subtitle track in the timeline.</p></li>
+<li><p>Double-click in the subtitle track to add a subtitle.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Adding and editing text</strong></p>
+<p>Add or editing text either directly into the subtitle clip or in the subtitle window.</p>
+<p><strong>Adjust the length of subtitle</strong></p>
+<p>Grab the end of a subtitle with the mouse and lengthen or shorten it as needed.
+Set subtitle in/out can be achieved with the same shortcut as to set clip in/out (left/right parenthesis shortcut).</p>
+<p><strong>Subtitle window</strong></p>
+<img alt="../../_images/subtitle-widget.gif" src="../../_images/subtitle-widget.gif" />
+<ul class="simple">
+<li><p>The subtitles window allows easier editing and also makes it possible to easily navigate between subtitles with the left/right button.</p></li>
+<li><p>With the plus sign, you can add subtitles.</p></li>
+<li><p>The scissors are mostly here for divide subtitles: let’s say your subtitle text is too long and you want to make it 2 different subtitles. Put the cursor in the text widget where you want to cut and click the scissors, it will split the text between 2 different subtitle items. The scissors are only working when the playhead is over the subtitle itself.</p></li>
+<li><p>The tick adds the text to the subtitle.</p></li>
+</ul>
+<p><strong>Import and export subtitle</strong></p>
+<p>Importing SRT and ASS subtitle file: <span class="menuselection">Project ‣ Subtitles ‣ Import subtitles file</span></p>
+<p>Exporting SRT subtitles only: <span class="menuselection">Project ‣ Subtitles ‣ Export subtitles file</span></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<blockquote>
+<div><p>SRT supports markup for: bold, italic, underline, text color and line break.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;b&gt;text</span> <span class="pre">in</span> <span class="pre">boldface&lt;/b&gt;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;i&gt;text</span> <span class="pre">in</span> <span class="pre">italics&lt;/i&gt;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;u&gt;text</span> <span class="pre">underlined&lt;/u&gt;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;font</span> <span class="pre">color=&quot;#00ff00&quot;&gt;</span> <span class="pre">text</span> <span class="pre">in</span> <span class="pre">green&lt;/font&gt;</span></code> you can use the font tag only to change color.</p></li>
+<li><p>And all combined: <code class="docutils literal notranslate"><span class="pre">&lt;font</span> <span class="pre">color=&quot;#00ff00&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;All</span> <span class="pre">combined&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;</span></code></p></li>
+<li><p><strong>Line break:</strong> Add on the end of each line a <code class="docutils literal notranslate"><span class="pre">&lt;br&gt;</span></code> (for break). Now the srt file is stored correct and reopened with the line break. The subtitle in the subtitle window will be all in 1 line after several save but the breaks is working.</p></li>
+</ul>
+<p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Alt</kbd>+<kbd class="kbd docutils literal notranslate">arrow</kbd></kbd> jumps from subtitle to subtitle.</p>
+</div>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 21.04.0.</span></p>
+</div>
+<p><strong>Spelling check</strong></p>
+<p>Spelling check for subtitle is integrated and shows incorrect words by a red wiggly line. Right-click on the word and you get a list of possible words you can choose by click on it.</p>
+<img alt="../../_images/Speech-to-text_Spell-Check.png" src="../../_images/Speech-to-text_Spell-Check.png" />
+</section>
+<section id="speech-to-text">
+<h2><a class="toc-backref" href="#id33">Speech to text</a><a class="headerlink" href="#speech-to-text" title="Permalink to this headline">¶</a></h2>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 21.04.0.</span></p>
+</div>
+<section id="install-python">
+<h3><a class="toc-backref" href="#id34">Install Python</a><a class="headerlink" href="#install-python" title="Permalink to this headline">¶</a></h3>
+<p>Python needs to be installed on your computer. Download it from here <a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a> for installation on your computer.</p>
+<p>Speech recognition requires the vosk and srt python modules</p>
+<ul class="simple">
+<li><p>On Linux open a terminal and put in and run: “pip3 install vosk;pip3 install srt”.</p></li>
+<li><p>On Windows, you can download this batch file (<a class="reference external" href="Install_vosk_srt.zip">Archive File: Install_vosk_srt.zip</a>). After download double click starts the installations.</p></li>
+</ul>
+</section>
+<section id="install-a-language">
+<h3><a class="toc-backref" href="#id35">Install a language</a><a class="headerlink" href="#install-a-language" title="Permalink to this headline">¶</a></h3>
+<p>Goto <span class="menuselection">Settings ‣ Configure Kdenlive ‣ Speech to Text</span></p>
+<p>Click on the link to get a language model</p>
+<img alt="../../_images/Speech-to-text_Download-link.png" src="../../_images/Speech-to-text_Download-link.png" />
+<p>Drag &amp;  drop the language you want from the vosk-model download page to the model window, and it will download and extract it for you.</p>
+<img alt="../../_images/Speech-to-text_Download-model.png" src="../../_images/Speech-to-text_Download-model.png" />
+<p>If you have problems click on “Check configuration” button.</p>
+</section>
+<section id="speech-recognition">
+<h3><a class="toc-backref" href="#id36">Speech recognition</a><a class="headerlink" href="#speech-recognition" title="Permalink to this headline">¶</a></h3>
+<p><strong>Creating subtitle by speech recognition</strong></p>
+<ol class="arabic simple">
+<li><p>Mark the timeline zone you want to recognize (adjust the blue line).</p></li>
+<li><p>Click on the “Speech recognition” icon.</p></li>
+<li><p>Choose the language.</p></li>
+<li><p>Choose how the selected zone should be applied.</p></li>
+<li><p>Click “Process”</p></li>
+</ol>
+<p>The subtitle gets created and inserted automatically.</p>
+<p>Remark: Only timeline zone is implemented for now in automatic subtitles.</p>
+<img alt="../../_images/Speech-to-text_Subtitle.png" src="../../_images/Speech-to-text_Subtitle.png" />
+<p><strong>Creating clips by speech recognition</strong>
+This is useful for interviews and other speech-related footage.
+Enable <span class="menuselection">View ‣ Text Edit</span></p>
+<p>Select a clip in the project bin.</p>
+<ol class="arabic simple">
+<li><p>If needed set in/out point in the clip monitor and enable “selected zone only”. This will only recognize the text inside the zone.</p></li>
+<li><p>Choose the correct language</p></li>
+<li><p>Click “start recognition”</p></li>
+<li><p>Selecting the text you want to either</p></li>
+<li><p>Put into the timeline</p></li>
+<li><p>Save as a new clip</p></li>
+<li><p>Add a Bookmark. You can jump to these bookmarks in the timeline with <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">alt</kbd>+<kbd class="kbd docutils literal notranslate">arrow</kbd></kbd> or edit the bookmark by double click.</p></li>
+<li><p>Delete the selection.</p></li>
+<li><p>Here you can search in the text.</p></li>
+<li><p>And navigate up</p></li>
+<li><p>Or down in the text.</p></li>
+</ol>
+<img alt="../../_images/Speech-to-text_Text-Edit.png" src="../../_images/Speech-to-text_Text-Edit.png" />
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Speech to text doesn’t work with version 21.04.2 due to vosk API issues. Use version 21.04.1 or 21.04.3 and later versions.</p>
+</div>
+</section>
+</section>
+<section id="point-editing">
+<h2><a class="toc-backref" href="#id37">3 point editing</a><a class="headerlink" href="#point-editing" title="Permalink to this headline">¶</a></h2>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 19.08.0.</span></p>
+</div>
+<p>3 important points to understand the 3 point editing concept (with keyboard shortcuts):</p>
+<img alt="../../_images/3p-Source-1.gif" src="../../_images/3p-Source-1.gif" />
+<p><strong>Source</strong></p>
+<blockquote>
+<div><p>On the left of the track head the green vertical lines (V1 or A2). The green line is connected to the source clip in the project bin. Only when a clip is selected in the project bin, the green line shows up depending on the type of the clip (A/V clip, picture/title/color clip, audio clip).</p>
+</div></blockquote>
+<img alt="../../_images/3p-Target-active-1.gif" src="../../_images/3p-Target-active-1.gif" />
+<p><strong>Target</strong></p>
+<blockquote>
+<div><p>In the track head the target V1 or A1 is active when it’s yellow. An active target track reacts to edit operations like insert a clip even if the source is not active.</p>
+</div></blockquote>
+<p><strong>The concept is like thinking of connectors</strong></p>
+<blockquote>
+<div><p>Connect the source (the clip in the project bin) to a target (a track in the timeline). Only when both connectors on the <strong>same</strong> track are switched on the clip “flow” from the project bin to the timeline.</p>
+</div></blockquote>
+<p><strong>Be aware</strong></p>
+<blockquote>
+<div><p>Active target tracks without connected source react on edit operations.</p>
+</div></blockquote>
+<p><strong>Example of advanced edit</strong></p>
+<p>Here is a brief introduction to the 3 point editing system.</p>
+<img alt="../../_images/3p-Insert-clip-1.gif" src="../../_images/3p-Insert-clip-1.gif" />
+<ol class="arabic simple">
+<li><p>Select a clip in the project bin with an up/down arrow</p></li>
+<li><p>Navigate the clip by the <kbd class="kbd docutils literal notranslate">JKL</kbd> keys or by the <kbd class="kbd docutils literal notranslate">left/right</kbd> arrows and set the IN and the OUT point by the <kbd class="kbd docutils literal notranslate">I</kbd> and <kbd class="kbd docutils literal notranslate">O</kbd> keys.</p></li>
+<li><p>Hit <kbd class="kbd docutils literal notranslate">T</kbd> to change to the timeline</p></li>
+<li><p>Select a video or audio track in the timeline (up/down arrow key) and set it as source with <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd>+<kbd class="kbd docutils literal notranslate">T</kbd></kbd>.</p></li>
+<li><p>Activate the track as a target with shortcut <kbd class="kbd docutils literal notranslate">A</kbd> (this connects the track to the source)</p></li>
+<li><p>Hit <kbd class="kbd docutils literal notranslate">V</kbd> (insert) or <kbd class="kbd docutils literal notranslate">B</kbd> (overwrite) to add the clip at the play-head position or to fill the selected area in the timeline if it is active. If you need to activate it use the <kbd class="kbd docutils literal notranslate">G</kbd> key.</p></li>
+</ol>
+<img alt="../../_images/3p-Advanced-edit-1.gif" src="../../_images/3p-Advanced-edit-1.gif" />
+<p>In the following example, we want only to insert the audio part of a clip in A2 and we want to create a gap in all the other video and audio tracks:</p>
+<ol class="arabic simple">
+<li><p>Activate all the target tracks which contain clips (yellow buttons).</p></li>
+<li><p>Activate just the audio source on A2</p></li>
+<li><p>Press <kbd class="kbd docutils literal notranslate">V</kbd> (insert).</p></li>
+</ol>
+<dl class="footnote brackets">
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id4">1</a></span></dt>
+<dd><p>available on bleeding edge version &gt; 0.9.10 (Jan2015)</p>
+</dd>
+</dl>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+            &copy; Copyright licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.<br/>
+  <a href="https://kdenlive.org" title="Kdenlive official website.">Kdenlive official website</a> |
+  <a href="https://invent.kde.org/documentation/docs-kdenlive-org/" title="The Gitlab instance to edit this pages and collaborate.">Git repository for docs.kdenlive.org </a> |
+  <a href="https://www.kde.org/community/whatiskde/impressum-en.php" title="To know more about KDE, code of conduct, privacy policy and GDPR.">KDE Impressum</a>.
+   
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
