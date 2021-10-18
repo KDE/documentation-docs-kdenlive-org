@@ -9,10 +9,8 @@
 
 .. _mirror:
 
-
-######
 Mirror
-######
+======
 
 .. contents::
 

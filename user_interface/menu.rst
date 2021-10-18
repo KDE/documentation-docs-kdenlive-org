@@ -8,7 +8,6 @@
 
 .. _menu:
 
-
 Menu Reference
 ==============
 

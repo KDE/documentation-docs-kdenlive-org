@@ -12,7 +12,6 @@
 
 .. _project_menu:
 
-
 Project Menu
 ============
 

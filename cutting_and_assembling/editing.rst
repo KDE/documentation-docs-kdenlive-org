@@ -17,13 +17,13 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _editing:
+
 
 ..  Please use level 3 top heading, i.e. "===" 
+.. _editing:
 
-#######
 Editing
-#######
+=======
 
 .. contents::
 

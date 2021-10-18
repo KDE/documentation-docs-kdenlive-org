@@ -12,8 +12,6 @@
 
 .. _edit_menu:
 
-
-
 Edit Menu
 =========
 

@@ -11,7 +11,6 @@
 
 .. _clip_menu:
 
-
 Clip Menu
 =========
 

@@ -11,8 +11,6 @@
 
 .. _settings_menu:
 
-
-
 Settings Menu
 =============
 
@@ -23,6 +21,7 @@ Settings Menu
 
 .. image:: /images/Settings_menu.png
   :align: left
+  :alt: Settings menu
 
 
 * :ref:`manage_project_profiles`
@@ -46,12 +45,15 @@ Settings Menu - Mac OS X
 
 
 .. image:: /images/Kdenlive_Settings_OSX.png
-
+   :align: left
+   :alt: Settings OSX
 
 On the Mac OS X build of Kdenlive the :menuselection:`Settings` menu does not contain the :menuselection:`Configure Kdenlive` menu item. The equivalent on Mac OS X is the :menuselection:`Preferences` menu item found under the :menuselection:`Kdenlive` menu.
 
 
 .. image:: /images/Kdenlive_Preferences_OSX.png
+   :align: left
+   :alt: Preference OSX
 
 
 .. toctree::

@@ -12,8 +12,7 @@
    :license: Creative Commons License SA 4.0
 
 
-
-
+.. _timeline_menu:
 
 Timeline Menu
 =============
@@ -22,6 +21,8 @@ Timeline Menu
 
 
 .. image:: /images/kdenlive_timeline_menu.png
+   :align: left
+   :alt: timeline menu
 
 
 :ref:`selection`

@@ -12,8 +12,6 @@
 
 .. _monitor_menu:
 
-
-
 Monitor Menu
 ============
 

@@ -22,8 +22,8 @@ Timeline
 .. contents::
 
 .. image:: /images/Kdenlive_timeline.png
-  :width: 300px
-  :align: right
+  :width: 450px
+  :align: left
   :alt: Timeline pane
 
 The timeline is the central part of **Kdenlive**. It is made of 4 different areas (see screenshot).
@@ -38,10 +38,12 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
 3 -  **Track header**. This box shows some options for a track. First is the track name (Main Video Track in the screenshot). That name can be changed by simply clicking in it. Below are icons to :menuselection:`Lock the track` 
 
 .. image:: /images/icons/kdenlive-lock.svg
-
+   
+      
 which will prevent adding clips, removing clips, or moving of clips on the timeline; :menuselection:`Mute the track` 
 
 .. image:: /images/icons/kdenlive-hide-audio.svg
+   
 
 * *:menuselection:`Hide video`**
 
@@ -107,6 +109,7 @@ Timeline Cursor/Position Caret/Playhead
 ---------------------------------------
 
 .. image:: /images/kdenlive_timeline_playhead.png
+  :witdth: 450px
   :align: left
 
 This indicates the position we are displaying in the :ref:`monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead). 
