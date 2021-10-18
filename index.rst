@@ -41,6 +41,7 @@ User Interface
 
 +--------------------------------------------------------+--------------------------------------------------------+
 |                                                        |:ref:`Project_tree`                                     |
+|                                                        |                                                        |
 |                                                        |:ref:`Timeline`                                         |
 |:ref:`Project_Settings`                                 |                                                        |
 |                                                        |:ref:`Monitors`                                         |
@@ -99,7 +100,7 @@ Troubleshooting, issues and bug reporting
 +--------------------------------------------------------+--------------------------------------------------------+
 |                                                        |                                                        |
 |                                                        |                                                        |
-|:ref:`Bug_Reporting`                                    |:ref:`Frequently_Asked_Questions`                       |
+|https://kdenlive.org/en/bug-reports/                    |:ref:`faq`                                              |
 |                                                        |                                                        |
 |How to file a bug.                                      |Answers to questions frequently asked                   |
 |                                                        |                                                        |
@@ -127,7 +128,7 @@ Get Involved
 +------------------------------------------------------------+
 |                                                            |
 |                                                            |
-|<https://community.kde.org/Kdenlive/Workgroup/Documentation>|
+|https://community.kde.org/Kdenlive/Workgroup/Documentation  |
 |                                                            |
 |Contribute to this Manual.                                  |
 |                                                            |

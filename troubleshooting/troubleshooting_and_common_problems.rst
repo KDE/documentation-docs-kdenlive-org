@@ -12,12 +12,11 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _troubleshooting_and_common_problems:
-
 ..
   TODO:
   * How to file a bug report, and where? How to do debugging if necessary (link gdb tutorials) when using a dev version?   
 
+.. _troubleshooting_and_common_problems:
 
 Troubleshooting and Common Problems
 ===================================

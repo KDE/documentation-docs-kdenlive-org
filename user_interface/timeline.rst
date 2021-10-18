@@ -16,9 +16,6 @@
 
 .. _timeline:
 
-..  Please use level 3 heading (===) to aid docbook creation 
-
-
 Timeline
 ========
 

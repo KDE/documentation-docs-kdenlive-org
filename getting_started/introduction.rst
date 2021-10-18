@@ -13,27 +13,18 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _introduction:
-
-.. 
-..
-  TODO:
+..  TODO:
   * What is kdenlive good for? (Editing videos …)   * Where is it located? (Semi-Pro?) Alternatives? (Cinelerra, OpenShot, Lightworks, ...)   * What components does kdenlive use? See `this image <http://kdenlive.org/sites/default/files/images/kdenlive-mlt-diagram.png>`_.
+  * What components does kdenlive use?
 
+  In effect Kdenlive is front end to melt - also known as MLT. The MLT video framework  relies on the FFMPEG project. Kdenlive writes sh.mlt XML files that code the edit points and transitions and it then calls /usr/bin/kdenlive_render and /usr/bin/melt to render the video.
 
-* What components does kdenlive use?
-
-In effect Kdenlive is front end to melt - also known as MLT. The MLT video framework  relies on the FFMPEG project.
-Kdenlive writes sh.mlt XML files that code the edit points and transitions and it then calls 
-/usr/bin/kdenlive_render and /usr/bin/melt to render the video.
-
+.. _introduction:
 
 Introduction
 ============
 
 .. contents::
-
-
 
 
 **Kdenlive** is an acronym for `KDE <http://www.kde.org>`_ **N**\ on-\ **Li**\ near **V**\ ideo **E**\ ditor.

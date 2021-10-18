@@ -17,12 +17,10 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _tutorials:
-
-..
-  TODO:
+..  TODO:
   * Short tutorials explaining frequently mis- or not-understood features or workflows   
 
+.. _tutorials:
 
 Written Tutorials
 =================
