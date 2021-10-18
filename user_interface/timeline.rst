@@ -167,32 +167,13 @@ Disabling individual clips
 Individual clips can be disabled while still in the timeline but with no audio and no video – (works for all clip types). Right-click on the clip and choose :menuselection:`Disable clip` or :menuselection:`Enable clip`.
 
 
-See also
---------
-
-
-* :ref:`quickstart`
-
-
-* :ref:`editing`
-
-
-* :ref:`grouping`
-
-
-* :ref:`guides`
-
-
-* :ref:`right_click_menu`
-
-
-* :ref:`timeline_menu`
-
-
 .. toctree::
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: See also:
 
-   timeline/editing
-   timeline/grouping
-   timeline/guides
-   timeline/right_click_menu
+   ../getting_started/quickstart
+   ../cutting_and_assembling/editing
+   ../cutting_and_assembling/grouping
+   ../cutting_and_assembling/guides
+   ../cutting_and_assembling/right_click_menu
+   timeline_menu

@@ -52,7 +52,7 @@ Project Menu
 
 * :ref:`open_backup_file`
 
-* :ref:`archiving_`
+* :ref:`archiving`
 
 
 * :ref:`stabilize` (ver 0.9.2)
@@ -84,13 +84,6 @@ Project Menu
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
-   project_menu/adjust_profile_to_current_clip
-   project_menu/clean_project
-   project_menu/create_folder
-   project_menu/online_resources
-   project_menu/open_backup_file
-   project_menu/render
-   project_menu/stop_motion_capture
-   project_menu/generators
-   project_menu/reverse_clip
+   project_menu/*
