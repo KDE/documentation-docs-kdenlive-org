@@ -9,133 +9,150 @@
 ###############
 Kdenlive Manual
 ###############
+
 Welcome to the manual for `kdenlive <https://kdenlive.org>`_, the free and open source video editor.
 
 ###############
 Getting started
 ###############
 
-+--------------------------------------------------------+--------------------------------------------------------+
-|                                                        |                                                        |
-|                                                        |                                                        |
-|:ref:`Introduction`                                     |:ref:`Installation`                                     |
-|                                                        |                                                        |
-|About Kdenlive                                          |How to install Kdenlive                                 |
-|                                                        |                                                        |
-|                                                        |                                                        |
-|                                                        |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-|                                                        |                                                        |
-|                                                        |                                                        |
-|:ref:`quickstart`                                       |:ref:`Tutorials`                                        |
-|                                                        |                                                        |
-|Going trough the workflow with an example.              |How to do                                               |
-|                                                        |                                                        |
-|                                                        |Written and video tutorials                             |
-|                                                        |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
+.. container:: tocdescr
+
+    .. container:: descr
+
+        :ref:`Introduction`
+           About Kdenlive
+
+    .. container:: descr
+
+        :ref:`Installation`
+           How to install Kdenlive
+
+    .. container:: descr
+
+        :ref:`quickstart`
+           Going trough the workflow with an example.
+
+    .. container:: descr
+
+        :ref:`Tutorials`
+           How to do
+
+           Written and video tutorials
 
 ##############
 User Interface
 ##############
 
-+--------------------------------------------------------+--------------------------------------------------------+
-|                                                        |:ref:`Project_tree`                                     |
-|                                                        |                                                        |
-|                                                        |:ref:`Timeline`                                         |
-|:ref:`Project_Settings`                                 |                                                        |
-|                                                        |:ref:`Monitors`                                         |
-|Setting the correct project values                      |                                                        |
-|                                                        |:ref:`toolbars`                                         |
-|                                                        |                                                        |
-|                                                        |Key components                                          |
-+--------------------------------------------------------+--------------------------------------------------------+
-|                                                        |                                                        |
-|                                                        |                                                        |
-|:ref:`shortcuts`                                        |:ref:`Menu`                                             |
-|                                                        |                                                        |
-|                                                        |                                                        |
-|                                                        |                                                        |
-|                                                        |                                                        |
-|                                                        |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
+.. container:: tocdescr
+
+    .. container:: descr
+
+       :ref:`Project_Settings`
+          Setting the correct project values
+
+    .. container:: descr
+
+       Key components
+          :ref:`Project_tree`
+
+          :ref:`Timeline`
+
+          :ref:`Monitors`
+
+          :ref:`toolbars`
+
+    .. container:: descr
+
+       :ref:`shortcuts`
+          Improve your workflow by using the keyboard
+
+    .. container:: descr
+
+       :ref:`Menu`
+          Learn more about the different menus
+
 
 ########
 Workflow
 ########
   
-+--------------------------------------------------------+--------------------------------------------------------+
-| .. image:: /images/intro_page/Intro-placeholder.png    | .. image:: /images/intro_page/Intro-placeholder.png    |
-|                                                        |                                                        |
-|:ref:`Importing_and_assets_management`                  |:ref:`Cutting_and_assembling`                           |
-|                                                        |                                                        |
-|                                                        |Start editing in the Timeline                           |
-|Load files into Kdenlive and be prepared                |                                                        |
-|                                                        |See how the time line and the monitors are working      |
-|Starting video editing                                  |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-| .. image:: /images/intro_page/Intro-placeholder.png    | .. image:: /images/intro_page/Intro-placeholder.png    |
-|                                                        |                                                        |
-|:ref:`Effects`                                          |:ref:`Exporting`                                        |
-|                                                        |                                                        |
-|Add video and audio effects and compositions.           |Render out your final video so you can distribute       |
-|                                                        |                                                        |
-|Create Titles and Subtitles and use Speech to Text.     |as MP4 or other formats.                                |
-|Make color correction.                                  |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
+.. container:: tocdescr
+
+    .. container:: descr
+
+        .. figure:: /images/intro_page/Intro-placeholder.png
+           :target: importing_and_assets_management.html
+
+        :doc:`importing_and_assets_management`
+           Load files into Kdenlive and be prepared
+
+           Starting video editing
+
+    .. container:: descr
+
+        .. figure:: /images/intro_page/Intro-placeholder.png
+
+        :ref:`Cutting_and_assembling`
+           Start editing in the Timeline
+
+           See how the time line and the monitors are working
+
+    .. container:: descr
+
+       .. figure:: /images/intro_page/Intro-placeholder.png
+
+       :ref:`Effects`
+          Add video and audio effects and compositions.
+
+          Create Titles and Subtitles and use Speech to Text.
+
+          Make color correction.
+
+    .. container:: descr
+
+       .. figure:: /images/intro_page/Intro-placeholder.png
+
+       :ref:`Exporting`
+          Render out your final video so you can distribute as MP4 or other formats.
+
 
 #########################################
 Troubleshooting, issues and bug reporting
 #########################################
 
-+--------------------------------------------------------+--------------------------------------------------------+
-|                                                        |                                                        |
-|                                                        |                                                        |
-|:ref:`Windows_Issues`                                   |:ref:`troubleshooting_and_common_problems`              |
-|                                                        |                                                        |
-|Solving specific Windows issues                         |General problem solving                                 |
-|                                                        |                                                        |
-|                                                        |                                                        |
-|                                                        |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-|                                                        |                                                        |
-|                                                        |                                                        |
-|https://kdenlive.org/en/bug-reports/                    |:ref:`faq`                                              |
-|                                                        |                                                        |
-|How to file a bug.                                      |Answers to questions frequently asked                   |
-|                                                        |                                                        |
-|                                                        |                                                        |
-|                                                        |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
+.. container:: tocdescr
 
-########
-Glossary
-########
-+--------------------------------------------------------+
-|                                                        |
-|                                                        |
-|:ref:`Glossary`                                         |
-|                                                        |
-|References and further information.                     |
-|                                                        |
-|                                                        |
-|                                                        |
-+--------------------------------------------------------+
+   .. container:: descr
 
-############
-Get Involved
-############
-+------------------------------------------------------------+
-|                                                            |
-|                                                            |
-|https://community.kde.org/Kdenlive/Workgroup/Documentation  |
-|                                                            |
-|Contribute to this Manual.                                  |
-|                                                            |
-|                                                            |
-|                                                            |
-+------------------------------------------------------------+
+      :ref:`Windows_Issues`
+         Solving specific Windows issues
 
+   .. container:: descr
+
+      :ref:`troubleshooting_and_common_problems`
+         General problem solving
+
+   .. container:: descr
+
+      `Bug Reports <https://kdenlive.org/en/bug-reports/>`__
+         How to file a bug.
+
+   .. container:: descr
+
+      :ref:`faq`
+         Answers to questions frequently asked
+
+   .. container:: descr
+
+      :ref:`Glossary`
+         References and further information.
+
+
+   .. container:: descr
+
+      `Get Involved <https://community.kde.org/Kdenlive/Workgroup/Documentation>`__
+         Contribute to this Manual.
 
 
 .. toctree::

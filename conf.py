@@ -85,6 +85,9 @@ html_favicon = 'ressources/static/images/favicon.ico'
 
 html_logo = 'ressources/static/images/logo-light.svg'
 
+if html_theme == "sphinx_rtd_theme":
+    html_css_files = ["css/theme_overrides.css"]
+
 # -- Internationalization Options --------------------------------------------
 
 locale_dirs = ['locale/']   # Where the PO files will be stored at
