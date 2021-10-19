@@ -16,7 +16,6 @@
 
 .. _effects:
 
-
 Effects
 =======
 
@@ -248,14 +247,14 @@ Seek To Active Frame
 Some keyframe controls have a *seek to active frame* button 
 
 .. image:: /images/kdenlive_Seek_to_Active_frame_button.png
-  :align: left
-  :alt: Seek to active frame button
+   :align: left
+   :alt: Seek to active frame button
 
 (labeled 1 in screenshot A below). When *seek to active frame* is toggled on and you click on one of the keyframes in the keyframe list,  Kdenlive will scroll the preview window to that keyframe. In the example of the screenshot, we have selected the keyframe at 9:20 in A and the clip position caret (highlighted in red box) shows the location of this keyframe. Clicking the keyframe at 10:00 in B shows how the clip position has moved.
 
 .. image:: /images/Kdenlive_Seek_to_active_frame.png
-  :align: left
-  :alt: Seek to active frame
+   :align: left
+   :alt: Seek to active frame
 
 
 Effects Demos

@@ -23,7 +23,6 @@
 
 .. _quickstart:
 
-
 Quick Start
 ===========
 

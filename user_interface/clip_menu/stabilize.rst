@@ -12,7 +12,6 @@
 
 .. _stabilize:
 
-
 Stabilize
 =========
 

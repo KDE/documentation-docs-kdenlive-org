@@ -11,8 +11,8 @@
 
 .. _color_selection:
 
-
-
+Color selection
+===============
 
 Chroma-Key
 ----------
@@ -25,7 +25,7 @@ The **Chroma-Key** is a more advanced version of the :ref:`blue_screen` effect. 
 This is better for backgrounds that have less contrast with the foreground, or more complex backgrounds. For simple backgrounds (such as green, blue, red or possibly black), use the :ref:`blue_screen` effect.
 
 Basic Technique
-===============
+---------------
 
 .. contents::
 
@@ -39,9 +39,11 @@ If the effect took lots of time to experiment, and you will need to use this eff
 
 
 All Options
-===========
+-----------
 
 .. image:: /images/Color_selection_effect.png
+   :align: left
+   :alt: Color_selection_effect
 
 
 Here is an outline of all the options:

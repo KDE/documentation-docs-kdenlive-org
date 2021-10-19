@@ -14,7 +14,6 @@
 
 .. _capturing:
 
-
 Capturing Video
 ===============
 

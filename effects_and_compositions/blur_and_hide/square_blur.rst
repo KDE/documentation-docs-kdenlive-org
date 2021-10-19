@@ -10,7 +10,6 @@
 
 .. _square_blur:
 
-
 Square Blur
 ===========
 

@@ -9,7 +9,6 @@
 
 .. _screen:
 
-
 Transitions - Screen
 ====================
 
@@ -24,6 +23,8 @@ Timeline showing how to apply the "Screen" transition
 
 
 .. image:: /images/Kdenlive_Screen_effect.png
+   :align: left
+   :alt: Kdenlive_Screen_effect
 
 
 This video composites a video of fire filmed on a black background into another bit of footage using the *Screen* transition.

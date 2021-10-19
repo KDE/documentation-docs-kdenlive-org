@@ -12,7 +12,6 @@
 
 .. _wipe:
 
-
 Composition - Wipe
 ==================
 
@@ -28,12 +27,16 @@ The Wipe composition contains the following parameters:
 
 
 .. image:: /images/Kdenlive_Wipe_transition.png
+   :align: left
+   :alt: Kdenlive_Wipe_transition
 
 
 * **Softness**: Determines the softness of the transition between the top and bottom clips.
 
 
 .. image:: /images/Kdenlive_Wipe_softness.png
+   :align: left
+   :alt: Kdenlive_Wipe_softness
 
 
 * **Wipe Method**: Selecting a luma file allows you to shape the composition in different shapes.

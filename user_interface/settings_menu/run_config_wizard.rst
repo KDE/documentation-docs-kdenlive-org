@@ -9,7 +9,6 @@
 
 .. _run_config_wizard:
 
-
 Run Config Wizard
 =================
 

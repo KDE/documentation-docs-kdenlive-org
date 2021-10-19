@@ -11,7 +11,6 @@
 
 .. _custom:
 
-
 Custom Effects
 ==============
 
@@ -24,11 +23,17 @@ The **Custom Group** in the **Effect List** is where effects appear when you cho
 
 
 .. image:: /images/Save_Effect.png
+   :align: left
+   :alt: Save_Effect
 
 
 .. image:: /images/Name_effect.png
+   :align: left
+   :alt: Name_effect
 
 
 .. image:: /images/Custom_effect.png
+   :align: left
+   :alt: Custom_effect
 
 

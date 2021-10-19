@@ -9,7 +9,6 @@
 
 .. _manage_project_profiles:
 
-
 Manage Project Profiles
 =======================
 

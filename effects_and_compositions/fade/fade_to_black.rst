@@ -10,7 +10,6 @@
 
 .. _fade_to_black:
 
-
 Fade to Black
 =============
 
@@ -29,5 +28,7 @@ Adjust the duration of the fade by dragging the green blob  that appears when yo
 
 
 .. image:: /images/Kdenlive_Fade_to_black.png
+   :align: left
+   :alt: Kdenlive_Fade_to_black
 
 

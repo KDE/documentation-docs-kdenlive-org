@@ -8,7 +8,6 @@
 
 .. _tool_menu:
 
-
 Tool Menu
 =========
 
@@ -16,7 +15,7 @@ Tool Menu
 
 .. image:: /images/Kdenlive_tool_menu_selection_kde.png
   :align: center
-  :alt: Tool menu
+  :alt: Tool menu selection
 
 
 The options on this menu provide two modes and three tools which affect how operations are performed on clips in the timeline. These same options can also be accessed from the :ref:`editing` and more details on their usage can be found there.

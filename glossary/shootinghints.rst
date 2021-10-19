@@ -11,8 +11,6 @@
 
 .. _shootinghints:
 
-
-
 Shooting Hints
 ==============
 

@@ -9,7 +9,6 @@
 
 .. _effect_stack:
 
-
 View>Effect Stack
 ====================
 

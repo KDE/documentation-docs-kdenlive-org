@@ -13,8 +13,6 @@
 
 .. _colour_correction:
 
-
-
 Color Correction
 ================
 

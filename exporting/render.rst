@@ -16,13 +16,13 @@
 
 .. _render:
 
+Rendering
+=========
+
 ..
   TODO:
   * How to choose the correct output format and bit rate?   * What to do for rendering lossless, for an iPhone, or whatever? (Dropdown containing targets like lossless/HQ/player)   
 
-
-Rendering
-=========
 
 .. contents::
 
@@ -45,8 +45,8 @@ Rendering Dialog Ver 17.04
 
 
 .. image:: /images/Kdenlive_Render_dialog_17_04.png
-  :align: left
-  :alt: File rendering dialog - ver 17.04
+   :align: left
+   :alt: File rendering dialog - ver 17.04
 
 
 Rendering Profile Categories
@@ -55,14 +55,16 @@ Rendering Profile Categories
 
 
 .. image:: /images/Kdenlive_Render_dialog_17_04_categories_expanded.png
-  :align: left
-  :alt: File rendering categories- ver 17.04
+   :align: left
+   :alt: File rendering categories- ver 17.04
 
 
 * *Kdenlive** offers many different preset rendering profiles to choose from. The rendering profiles are grouped into categories. See picture Above. 
 
 
 .. image:: /images/Kdenlive_Rendering_options2.png
+   :align: left
+   :alt: Kdenlive_Rendering_options2
 
 
 File Rendering - earlier Versions
@@ -82,8 +84,8 @@ Variable Bit Rate - earlier Versions
 
 
 .. image:: /images/Kdenlive_Render_dialog_vbr_0.9.10.png
-  :align: left
-  :alt: File rendering dialog Variable Bit Rate - ver 0.9.10
+   :align: left
+   :alt: File rendering dialog Variable Bit Rate - ver 0.9.10
 
 
 When a variable bitrate profile is selected, the :menuselection:`File Size` section displays a drop down for choosing the **Video quality** you want. This quality figure is a codec-dependent number representing the quality of the video that will be rendered. Generally, lower numbers mean higher quality video and larger file sizes (e.g. x264, MPEG2, VPx), but some codecs use opposite order (e.g. Theora). Profiles provided with **Kdenlive** offer these numbers ordered from best quality (almost lossless) to lower quality (still not degrading too much).  The exact file size that is produced can not be predicted when using the VBR method.  The idea behind this is that you specify a certain quality of video that you want through the entire video and the encoding optimizes bitrate to give you that constant quality, lowering data size for low action scenes and using more bits for high action scenes.
@@ -98,8 +100,8 @@ Constant Bit Rate - earlier Versions
 
 
 .. image:: /images/Kdenlive_Render_dialog_cbr_0.9.10.png
-  :align: left
-  :alt: File rendering dialog Constant Bit Rate - ver 0.9.10
+   :align: left
+   :alt: File rendering dialog Constant Bit Rate - ver 0.9.10
 
 
 When a constant bitrate (CBR) profile is selected, the :menuselection:`File Size` section displays a drop down for choosing the **Video bitrate** you want. This is similar to the version <=0.9.8 behaviour of **Kdenlive**. You select the video bitrate you want and the video is encoded at that video bitrate across its entire length.
@@ -107,8 +109,8 @@ When a constant bitrate (CBR) profile is selected, the :menuselection:`File Size
 
 
 .. image:: /images/Kdenlive_Render_dialog_0.9.8.png
-  :align: left
-  :alt: File rendering dialog - ver 0.9.8
+   :align: left
+   :alt: File rendering dialog - ver 0.9.8
 
 
 DVD Rendering - earlier Versions
@@ -126,18 +128,24 @@ Note that this rendering does not create a DVD file system. It merely creates DV
 
 
 .. image:: /images/Kdenlive_DVD_rendering.png
+   :align: left
+   :alt: Kdenlive_DVD_rendering
 
 
 Websites  - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/Kdenlive_WebSites_rendering.png
+   :align: left
+   :alt: Kdenlive_WebSites_rendering
 
 
 Mobile Devices  - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/Kdenlive_Mobile_devices.png
+   :align: left
+   :alt: Kdenlive_Mobile_devices
 
 
 Create Custom Render Profiles
@@ -147,7 +155,9 @@ You can create your own custom render profiles by clicking the button highlighte
 
 
 .. image:: /images/Custom_render_profiles.png
-  :width: 350px
+   :width: 350px
+   :align: left
+   :alt: Custom_render_profiles
 
 .. |document-new| image:: /images/icons/document-new.svg
    :width: 32px
@@ -165,7 +175,9 @@ In version >=0.9.5 there is an improved version of the **Save Profile** dialog (
 
 
 .. image:: /images/Kdenlive_Custom_render_profile_0.9.5.png
-  :width: 350px
+   :width: 350px
+   :align: left
+   :alt: Kdenlive_Custom_render_profile_0.9.5
 
 
 See also :ref:`render_profile_parameters`
@@ -181,7 +193,9 @@ Alternatively, once you have submitted a rendering job on a project and it is up
 
 
 .. image:: /images/Kdenlive_Rendering_job_queue.png
-  :width: 500px
+   :width: 400px
+   :align: left
+   :alt: Kdenlive_Rendering_job_queue
 
 
 Rendering Using the Guide Zone Option
@@ -200,15 +214,17 @@ Render Overlay
 --------------
 
 .. image:: /images/Kdenlive_Render_overlay.png
+   :align: left
+   :alt: Kdenlive_Render_overlay
 
 
 This option overlays a time code or frame count over the rendered video.  This will put the overlay over the entire rendered project.  Alternatively you can use the :ref:`dynamic_text` effect to overlay selected regions of the video.
 
 
 .. image:: /images/Kdenlive_Render_overlay_result_eg.png
-  :width: 150px
-  :align: left
-  :alt: render overlay result
+   :width: 150px
+   :align: left
+   :alt: render overlay result
 
 
 Export Metadata
@@ -224,12 +240,16 @@ This image shows metadata settings for a project:
 
 
 .. image:: /images/Kdenlive_project_settings_metadata.png
+   :align: left
+   :alt: Kdenlive_project_settings_metadata
 
 
 And this is the metadata on the resulting clip (rendered with :menuselection:`Export Metadata` checked).
 
 
 .. image:: /images/Kdenlive_Clip_properties_metadata_res.png
+   :align: left
+   :alt: Kdenlive_Clip_properties_metadata_res
 
 
 .. code-block:: bash
@@ -260,24 +280,36 @@ This is an unusual one. Instead of a normal on/off checkbox toggle, the :menusel
 
 
 .. image:: /images/Kdenlive_Export_audio_check_box_crop.png
+   :align: left
+   :alt: Kdenlive_Export_audio_check_box_crop
 
 
 .. image:: /images/kdenlive_export_audio_checked_ubuntu.png
+   :align: left
+   :alt: kdenlive_export_audio_checked_ubuntu
 
 
 .. image:: /images/kdenlive_export_audio_unchecked_ubuntu.png
+   :align: left
+   :alt: kdenlive_export_audio_unchecked_ubuntu
 
 
 As if that weren't confusing enough, the *Export audio (automatic)* option may appear different depending on your combination of distribution, desktop environment and theme.  See three examples below:
 
 
 .. image:: /images/Kdenlive_Export_audio_check_box_crop.png
+   :align: left
+   :alt: Kdenlive_Export_audio_check_box_crop
 
 
 .. image:: /images/kdenlive_export_audio_automatic_dashed.png
+   :align: left
+   :alt: kdenlive_export_audio_automatic_dashed
 
 
 .. image:: /images/kdenlive_export_audio_automatic_nocheck.png
+   :align: left
+   :alt: kdenlive_export_audio_automatic_nocheck
 
 
 Regardless of how the checkbox on the *Export audio (automatic)* option may appear on your installation, rest assured that when that option is showing, it is enabled.
@@ -299,12 +331,16 @@ The difference in behavior between enabling *Export audio* versus *Export audio 
 
 
 .. image:: /images/Kdenlive_Video_with_no_audio.png
+   :align: left
+   :alt: Kdenlive_Video_with_no_audio
 
 
 In this situation, if you render with *Export audio (automatic)*, the rendered file will not have an audio track (Result 1 on screenshot below). But if you render with *Export Audio* checked, then the rendered file will contain an audio track – the track will however be empty  (Result 2 on screenshot below).
 
 
 .. image:: /images/Kdenlive_Render_export_audio_auto_vs_just_checked2.png
+   :align: left
+   :alt: Kdenlive_Render_export_audio_auto_vs_just_checked2
 
 
 FFprobe on file generated from an audio-less track using *Export audio (automatic)*. Note only one stream – Stream #0.0 – a video stream. **Kdenlive** automatically detected there was not an audio track and so it did not write one.
@@ -354,6 +390,8 @@ In cases where there is an audio track ...
 
 
 .. image:: /images/Kdenlive_Video_plus_Audio_in_seperate_tracks.png
+   :align: left
+   :alt: Kdenlive_Video_plus_Audio_in_seperate_tracks
 
 
 Rendering with *Export audio* unchecked will produce a file with no audio track – result 4 in the screenshot above.
@@ -364,6 +402,8 @@ Encoder Threads
 ---------------
 
 .. image:: /images/Kdenlive_Encoder_threads.png
+   :align: left
+   :alt: Kdenlive_Encoder_threads
 
 
 Determines the value of *Encoding threads* passed to melt.  For encoding to certain codecs, namely MPEG-2, MPEG-4, H.264, and VP8, kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines.  See `melt doco - threads <http://www.mltframework.org/bin/view/MLT/ConsumerAvformat#threads>`_ and `melt FAQ <http://www.mltframework.org/bin/view/MLT/Questions#Does_MLT_take_advantage_of_multi>`_ on multi-threading.
@@ -373,6 +413,8 @@ Scanning Dropdown
 -----------------
 
 .. image:: /images/Kdenlive_Render_scanning.png
+   :align: left
+   :alt: Kdenlive_Render_scanning
 
 
 This option controls the frame scanning setting the rendered file will have. 

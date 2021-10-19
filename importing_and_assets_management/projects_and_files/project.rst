@@ -12,8 +12,6 @@
 
 .. _project:
 
-
-
 Project File Details
 ====================
 

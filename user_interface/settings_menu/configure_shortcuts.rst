@@ -10,7 +10,6 @@
 
 .. _configure_shortcuts:
 
-
 Configure Shortcuts
 ===================
 

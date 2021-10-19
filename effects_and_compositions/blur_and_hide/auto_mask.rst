@@ -12,11 +12,13 @@
 
 .. _auto_mask:
 
+Auto Mask
+=========
+
 .. deprecated:: 21.08
    Use *Motion Tracker* instead
 
-Auto Mask
-=========
+
 
 .. contents::
 

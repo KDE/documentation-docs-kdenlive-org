@@ -9,7 +9,6 @@
 
 .. _insert_clip_zone:
 
-
 Insert Clip Zone in Timeline
 ============================
 

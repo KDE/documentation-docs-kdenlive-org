@@ -10,7 +10,6 @@
 
 .. _rgb_adjustment:
 
-
 RGB adjustment
 ==============
 

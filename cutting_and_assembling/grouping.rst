@@ -12,7 +12,6 @@
 
 .. _grouping:
 
-
 Grouping
 ========
 
@@ -33,6 +32,8 @@ You can select multiple clips in preparation for grouping them by holding shift 
 
 
 .. image:: /images/Kdenlive_Shift_click_drag_to_multi_select.png
+   :align: left
+   :alt: Kdenlive_Shift_click_drag_to_multi_select
 
 
 To group the selected clips select :menuselection:`Timeline --> Group Clips` or right-click the selected clips and choose :menuselection:`Group Clips`.
@@ -53,13 +54,17 @@ If you cut the video clip using the :ref:`editing` when there is an audio clip g
 
 .. image:: /images/Kdenlive_Grouped_video_audio.png
   :align: left
+  :alt: Kdenlive_Grouped_video_audio
 
 
 .. image:: /images/kdenlive_arrow_right.png
+   :align: left
+   :alt: kdenlive_arrow_right
 
 
 .. image:: /images/Kdenilve_Cutting_grouped_clips.png
-  :align: right
+   :align: right
+   :alt: Kdenilve_Cutting_grouped_clips
 
 
 Removing Clip Grouping
@@ -82,6 +87,8 @@ A: Right-click on the clip and choose :menuselection:`Split Audio`. The audio wi
 
 
 .. image:: /images/Kdenlive_Grouped_video_audio.png
+   :align: left
+   :alt: Kdenlive_Grouped_video_audio
 
 
 Right-click again and choose :menuselection:`Ungroup Clips`. 

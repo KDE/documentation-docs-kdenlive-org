@@ -26,6 +26,8 @@ The regions labeled 2 are in the middle of the scope and the dip in the graph th
 
 
 .. image:: /images/kdenlive_Rgb_parade5.png
+   :align: left
+   :alt: RGB parade
 
 
 For more information, see `Granjow's blog <http://kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-parade>`_ on the waveform and RGB Parade scopes. This blog gives some information on how to use the data provided by the RGB Parade to do color correction on video footage.

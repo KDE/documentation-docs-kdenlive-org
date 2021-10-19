@@ -13,8 +13,6 @@
 
 .. _view_menu:
 
-
-
 View Menu
 =========
 
@@ -25,6 +23,7 @@ From the View menu you can control which windows appear on the screen. You can a
 
 .. image:: /images/Kdenlive_view_menu.png
   :align: left
+  :alt: Kdenlive_view_menu
 
 .. toctree::
    :caption: Contents:

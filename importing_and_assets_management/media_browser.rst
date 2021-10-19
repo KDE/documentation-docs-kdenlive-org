@@ -4,6 +4,7 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _media_browser:
 
 Media Browser

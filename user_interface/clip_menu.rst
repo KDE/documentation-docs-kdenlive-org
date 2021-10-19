@@ -23,6 +23,8 @@ The functions controlled from this menu affect the clip that is selected in the 
 
 
 .. image:: /images/Kdenlive_Clip_menu.png
+   :align: left
+   :alt: clip_menu
 
 
 Markers Menu Item

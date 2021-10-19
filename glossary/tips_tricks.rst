@@ -14,7 +14,6 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _tips_tricks:
 
 ..  Please use level 3 top heading, i.e. "===" 
 
@@ -22,9 +21,10 @@
   TODO:
   * Like: Setting in/out points for a clip, then dragging it from the _clip monitor_ (not project tree) to the timeline adds the selected section only   * Or: Timeline zoom by vertical drag on the ruler (if enabled in settings)   * Clip monitor settings like frame dropping   
 
+.. _tips_tricks:
 
 Tips &  Tricks
-=================
+==============
 
 .. contents::
 

@@ -10,7 +10,6 @@
 
 .. _stop_motion_capture:
 
-
 Stop Motion Capture
 ===================
 

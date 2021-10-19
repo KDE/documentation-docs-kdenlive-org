@@ -10,7 +10,6 @@
 
 .. _blue_screen:
 
-
 Chroma Key
 ==========
 

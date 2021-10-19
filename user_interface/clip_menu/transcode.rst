@@ -9,7 +9,6 @@
 
 .. _transcode:
 
-
 Transcode Menu Item
 ===================
 

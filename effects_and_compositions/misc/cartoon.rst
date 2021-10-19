@@ -9,7 +9,6 @@
 
 .. _cartoon:
 
-
 Cartoon
 =======
 

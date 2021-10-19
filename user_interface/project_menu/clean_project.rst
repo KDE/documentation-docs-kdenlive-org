@@ -10,7 +10,6 @@
 
 .. _clean_project:
 
-
 Clean Project
 =============
 

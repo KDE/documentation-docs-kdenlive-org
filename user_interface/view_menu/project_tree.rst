@@ -9,7 +9,6 @@
 
 .. _project_tree:
 
-
 View>Project Tree
 ====================
 

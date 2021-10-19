@@ -16,8 +16,6 @@
 
 .. _rendering:
 
-
-
 Rendering Using Guides and Rendering Scripts
 ============================================
 
@@ -43,27 +41,27 @@ Start by adding a clip into the timeline. I've added some retro footage about ai
 
 
 .. image:: /images/kden-render-howto-9.png
-  :align: center
-  :width: 500px
-  :alt: Figure 1
+   :align: center
+   :width: 400px
+   :alt: Figure 1
 
 
 Next we want to add a guide for a specific section of the clip on the timeline. You can add a guide by selecting :menuselection:`Timeline` in the menu and then slide down to :menuselection:`Guides` and select :menuselection:`Add Guide` from the menu. Right clicking the top of the timeline also gives you the option :menuselection:`Add Guide`. If you want to, you can also edit the guides you have set by right clicking on the timeline.
 
 
 .. image:: /images/Kden-render-howto-8.png
-  :align: center
-  :width: 500px
-  :alt: Figure 2
+   :align: center
+   :width: 400px
+   :alt: Figure 2
 
 
 After selecting this option, a window appears giving you the *Position* of the guide and a field to add a comment. Labeling the guide won't hurt anyone, so I'll name my first guide the extraordinary *Section 1*. A dark blue line appears vertically down through the tracks on your timeline. 
 
 
 .. image:: /images/Kden-render-howto-10.png
-  :align: center
-  :width: 500px
-  :alt: Figure 3
+   :align: center
+   :width: 400px
+   :alt: Figure 3
 
 
 
@@ -72,9 +70,9 @@ I'll add a few more guides and then we'll start rendering.
 
 
 .. image:: /images/Kden-render-howto-11.png
-  :align: center
-  :width: 500px
-  :alt: Figure 4
+   :align: center
+   :width: 400px
+   :alt: Figure 4
 
 
 
@@ -90,9 +88,9 @@ Start by clicking on the :menuselection:`Render` button in your toolbar, the one
 
 
 .. image:: /images/Kden-render-howto-1.png
-  :align: center
-  :width: 500px
-  :alt: Figure 5
+   :align: center
+   :width: 400px
+   :alt: Figure 5
 
 
 
@@ -100,27 +98,27 @@ The new window gives us many choices about how to render our video. Look at the 
 
 
 .. image:: /images/Kden-render-howto-2.png
-  :align: center
-  :width: 500px
-  :alt: Figure 6
+   :align: center
+   :width: 400px
+   :alt: Figure 6
 
 
 We now can choose which guides will establish the regions of video we want to export using the pull down menus next to *From* and *to*. I'll cut out the *Beginning* and instead use *section 1* to *Section 1 End*, the guide names I defined earlier.
 
 
 .. image:: /images/Kden-render-howto-3.png
-  :align: center
-  :width: 500px
-  :alt: Figure 7
+   :align: center
+   :width: 400px
+   :alt: Figure 7
 
 
 Now I can render this to a file or generate a script that will render this guide zone to a file. Click :menuselection:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in :file:`/yourhomedirectory/kdenlive/scripts` 
 
 
 .. image:: /images/Kden-render-howto-5.png
-  :align: center
-  :width: 500px
-  :alt: Figure 8
+   :align: center
+   :width: 400px
+   :alt: Figure 8
 
 
 
@@ -128,9 +126,9 @@ After saving the script, the top tab in the window switches to :menuselection:`S
 
 
 .. image:: /images/Kden-render-howto-6.png
-  :align: center
-  :width: 500px
-  :alt: Figure 9
+   :align: center
+   :width: 400px
+   :alt: Figure 9
 
 
 I went ahead and generated 3 scripts based on the guide zones I set up in my timeline. Be sure and keep the :file:`.sh` extension otherwise the rendering script will not be generated. 
@@ -145,9 +143,9 @@ Once each script is generated, you need to start each one. You should be in the 
 
 
 .. image:: /images/Kden-render-howto-7.png
-  :align: center
-  :width: 500px
-  :alt: Figure 10
+   :align: center
+   :width: 400px
+   :alt: Figure 10
 
 
 After clicking each script, you are switched to the *Job Queue* tab. Here you will see what script is being run and how many more are waiting to be run. If you have a large queue, you can take advantage of the nifty checkbox in the bottom left: :menuselection:`Shutdown computer after renderings`.

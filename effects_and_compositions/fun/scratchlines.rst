@@ -10,7 +10,6 @@
 
 .. _scratchlines:
 
-
 Scratchlines
 ============
 

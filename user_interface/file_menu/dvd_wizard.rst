@@ -12,7 +12,6 @@
 
 .. _dvd_wizard:
 
-
 DVD Wizard
 ==========
 

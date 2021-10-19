@@ -20,6 +20,5 @@ This effect causes the video to freeze. If you add the effect and leave both che
 
 
 .. image:: /images/Kdenlive_Motion_freeze.png
-
-
-a
+   :align: left
+   :alt: Kdenlive_Motion_freeze

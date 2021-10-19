@@ -9,7 +9,6 @@
 
 .. _letterb0xed:
 
-
 LetterB0xed
 ===========
 

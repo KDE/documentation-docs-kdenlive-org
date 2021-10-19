@@ -10,7 +10,6 @@
 
 .. _sat:
 
-
 SOP/Sat Effect
 ==============
 
@@ -26,6 +25,8 @@ You can use this effect to achieve proper white balance.
 
 
 .. image:: /images/Kdenlive_SOP_sat_effect.png
+   :align: left
+   :alt: Kdenlive_SOP_sat_effect
 
 
 This filter implements a standard way of color correction proposed by the American Society of Cinematographers: The Color Decision List, also known as the ASC CDL

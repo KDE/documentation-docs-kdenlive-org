@@ -9,7 +9,6 @@
 
 .. _transition:
 
-
 View>Transition
 ==================
 

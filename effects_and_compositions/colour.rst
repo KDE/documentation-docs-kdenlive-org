@@ -13,7 +13,6 @@
 
 .. _colour:
 
-
 Color
 =====
 

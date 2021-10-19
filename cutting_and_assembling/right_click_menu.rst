@@ -13,7 +13,6 @@
 
 .. _right_click_menu:
 
-
 Clip in Timeline - Right-Click Menu
 ===================================
 
@@ -26,6 +25,8 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/kdenlive_right-click_on_clip.png
+   :align: left
+   :alt: kdenlive_right-click_on_clip
 
 
 * :menuselection:`Copy` will copy the clip and selected clips to the clipboard.
@@ -53,7 +54,8 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/Kdenlive-restore-audio.gif
-  :align: center
+   :align: center
+   :alt: Kdenlive-restore-audio
 
 
 * :menuselection:`Disable clip` will disable the clip so it will not render in the project monitor or in a final video render.
@@ -63,14 +65,16 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/Kdenlive-extract_clip.gif
-  :align: center
+   :align: center
+  :alt: Kdenlive-extract_clip
 
 
 * :menuselection:`Save timeline zone to bin` will take the selected timeline zone and add markers to your clips in the project bin.
 
 
 .. image:: /images/Kdenlive-timeline-righ-click-markersmenu.png
-  :align: center
+   :align: center
+   :alt: Kdenlive-timeline-righ-click-markersmenu
 
 * The markers sub-menu allows you to add, edit and remove markers from your clips that are displayed on the timeline.  These markers will move with the clips.  See :ref:`markers`.
 
@@ -97,7 +101,8 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/Kdenlive-change_speed_dialog.png
-  :align: center
+   :align: center
+   :alt: Kdenlive-change_speed_dialog
 
 
 * :menuselection:`Clip in project bin` will highlight the selected clip in the project bin.
@@ -121,6 +126,8 @@ A different menu appears if you click in empty space in the timeline.
 
 
 .. image:: /images/kdenlive_right-click_in_timeline_space.png
+   :align: left
+   :alt: kdenlive_right-click_in_timeline_space
 
 
 * :menuselection:`Paste` will paste a clip from the clipboard into the timeline

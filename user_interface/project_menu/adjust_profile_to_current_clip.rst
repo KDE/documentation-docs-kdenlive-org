@@ -10,8 +10,6 @@
 
 .. _adjust_profile_to_current_clip:
 
-
-
 Adjust Profile to Current Clip
 ==============================
 

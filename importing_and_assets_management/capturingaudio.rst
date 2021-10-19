@@ -11,7 +11,6 @@
 
 .. _capturingaudio:
 
-
 Capturing Audio (Dubbing)
 =========================
 

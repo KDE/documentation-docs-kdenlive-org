@@ -9,10 +9,8 @@
 
 .. _threshold:
 
-
-#########
 Threshold
-#########
+=========
 
 .. contents::
 

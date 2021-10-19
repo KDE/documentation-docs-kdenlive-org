@@ -9,7 +9,6 @@
 
 .. _vignette:
 
-
 Vignette
 ========
 

@@ -7,7 +7,6 @@
 
 .. _rename_clip:
 
-
 Rename Clip
 ===========
 

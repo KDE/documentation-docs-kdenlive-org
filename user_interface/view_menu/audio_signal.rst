@@ -9,7 +9,6 @@
 
 .. _audio_signal:
 
-
 Audio Signal
 ============
 
@@ -20,5 +19,7 @@ You can monitor the levels of the audio as the clip plays with this widget.
 
 
 .. image:: /images/Audio_signal.png
+   :align: left
+   :alt: Audio signal
 
 

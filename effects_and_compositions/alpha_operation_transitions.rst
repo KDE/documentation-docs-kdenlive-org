@@ -8,7 +8,6 @@
 
 .. _alpha_operation_transitions:
 
-
 Alpha operation transitions
 ===========================
 
@@ -35,6 +34,8 @@ The Green clip has a rectangle alpha shape with min=0 and max =1000. This transl
 
 
 .. image:: /images/Kdenlive_Alphaxor.png
+   :align: left
+   :alt: alphaxor
 
 
 alpha*xor*
@@ -43,24 +44,32 @@ alpha*xor*
 
 
 .. image:: /images/Kdenlive_Alphaout.png
+   :align: left
+   :alt: Kdenlive_Alphaout
 
 
 alpha*out*
 
 
 .. image:: /images/Kdenlive_Alphaain.png
+   :align: left
+   :alt: Kdenlive_Alphaain
 
 
 alpha*in*
 
 
 .. image:: /images/Kdenlive_Alphaatop.png
+   :align: left
+   :alt: Kdenlive_Alphaatop
 
 
 alpha*atop*
 
 
 .. image:: /images/Kdenlive_Alpha_over.png
+   :align: left
+   :alt: Kdenlive_Alpha_over
 
 
 alpha over

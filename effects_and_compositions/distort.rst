@@ -11,8 +11,6 @@
 
 .. _distort:
 
-
-
 Distort
 =======
 

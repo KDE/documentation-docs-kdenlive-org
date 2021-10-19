@@ -12,7 +12,6 @@
 
 .. _useful_information:
 
-
 Useful Information
 ==================
 

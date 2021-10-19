@@ -12,9 +12,6 @@
 
 .. _pan_and_zoom:
 
-
-
-
 Position and Zoom
 =================
 

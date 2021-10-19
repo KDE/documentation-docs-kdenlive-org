@@ -11,7 +11,6 @@
 
 .. _audio_channels:
 
-
 Audio channels
 ==============
 

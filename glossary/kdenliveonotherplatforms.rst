@@ -12,7 +12,6 @@
 
 .. _kdenliveonotherplatforms:
 
-
 Kdenlive On Other Desktops and Operating Systems
 ================================================
 

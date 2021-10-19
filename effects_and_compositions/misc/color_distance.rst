@@ -9,7 +9,6 @@
 
 .. _color_distance:
 
-
 Color Distance
 ==============
 

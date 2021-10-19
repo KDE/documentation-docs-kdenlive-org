@@ -13,7 +13,6 @@
 
 .. _audio_correction:
 
-
 Audio Correction
 ================
 

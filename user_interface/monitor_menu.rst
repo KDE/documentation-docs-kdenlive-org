@@ -22,6 +22,7 @@ Monitor Menu
 
 .. image:: /images/kdenlive_monitor_menu.png
   :align: left
+  :alt: Monitor menu
 
 The monitor menu contains controls for viewing and navigating through the clips in your project for the purpose of making edits and seeing the effects of your changes.  Depending on which monitor window you have selected at the time, the controls will affect either the currently selected clip in the Project Bin (**Clip Monitor**) or the playhead in the Timeline (**Project Monitor**).
 

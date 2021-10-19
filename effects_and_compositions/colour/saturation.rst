@@ -10,8 +10,8 @@
 
 .. _saturation:
 
-Saturation Effect
-=================
+Saturation
+==========
 
 .. contents::
 

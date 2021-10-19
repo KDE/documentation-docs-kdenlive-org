@@ -12,7 +12,6 @@
 
 .. _audio:
 
-
 Audio Effects
 =============
 

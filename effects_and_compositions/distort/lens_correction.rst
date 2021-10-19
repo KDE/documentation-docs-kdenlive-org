@@ -9,7 +9,6 @@
 
 .. _lens_correction:
 
-
 Lens Correction
 ===============
 

@@ -9,9 +9,8 @@
 
 .. _threshold0r:
 
-
-threshold0
-==========
+threshold0r
+===========
 
 .. contents::
 

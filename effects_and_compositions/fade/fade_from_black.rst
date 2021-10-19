@@ -9,7 +9,6 @@
 
 .. _fade_from_black:
 
-
 Fade From Black
 ===============
 

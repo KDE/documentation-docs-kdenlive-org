@@ -22,5 +22,7 @@ The Vectorscope shows the hue and saturation distribution in a way we can unders
 See  Granjow's blog `here <http://kdenlive.org/users/granjow/introducing-color-scopes-vectorscope>`_ and `here <http://kdenlive.org/users/granjow/vectorscope-what-i-and-q-lines-are-good>`_ on the Vectorscope.
 
 .. image:: /images/Vector_scope.png
+   :align: left
+   :alt: Vector_scope
 
 

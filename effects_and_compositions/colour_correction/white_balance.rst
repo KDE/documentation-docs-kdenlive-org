@@ -10,7 +10,6 @@
 
 .. _white_balance:
 
-
 White Balance
 =============
 

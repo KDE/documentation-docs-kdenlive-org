@@ -14,7 +14,6 @@
 
 .. _transitions:
 
-
 Transitions
 ===========
 
@@ -35,9 +34,11 @@ Mix Clips
 .. versionadded:: 20.12
 
 
-.. image:: /images/Kdenlive_mixed_clip_800.png
-  :align: left
-  :alt: Kdenlive with mixed clips in the timeline. The toolbar button is circled with red, and the transition properties are on the right.
+.. figure:: /images/Kdenlive_mixed_clip_800.png
+   :align: left
+   :alt: Kdenlive_mixed_clip_800
+   
+   Kdenlive with mixed clips in the timeline. The toolbar button is circled with red, and the transition properties are on the right.
 
 
 Mix Clips provides a way to add a transition between clips on the same track. To use it:
@@ -85,9 +86,11 @@ Transitions between clips on different tracks
 This is the legacy way of doing transitions in **kdenlive**.
 
 
-.. image:: /images/Kdenlive_transitions_legacy_god.png
-  :align: left
-  :alt: To the left the purple one-click circle to add a wipe composition. In the middle the composition bar, and on the right the properties.
+.. figure:: /images/Kdenlive_transitions_legacy_god.png
+   :align: left
+   :alt: Kdenlive_transitions_legacy_god
+   
+   To the left the purple one-click circle to add a wipe composition. In the middle the composition bar, and on the right the properties.
 
 
 To add a transition,

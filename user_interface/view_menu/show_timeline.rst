@@ -9,7 +9,6 @@
 
 .. _show_timeline:
 
-
 View>Timeline
 =============
 

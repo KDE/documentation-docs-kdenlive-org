@@ -1,6 +1,20 @@
-Welcome to Kdenlive's documentation!
-====================================
-.. toctree::
-   :caption: Contents:
+.. metadata-placeholder
 
-   sop/sat
+   :authors: - Eugen Mohr
+             
+   :license: Creative Commons License SA 4.0
+
+.. _sop:
+
+###
+SOP
+###
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   :glob:
+
+   sop/*

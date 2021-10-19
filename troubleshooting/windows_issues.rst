@@ -8,8 +8,8 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _windows_issues:
 
+.. _windows_issues:
 
 Windows Issues
 ==============

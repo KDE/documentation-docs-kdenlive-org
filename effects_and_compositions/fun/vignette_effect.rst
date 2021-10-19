@@ -10,7 +10,6 @@
 
 .. _vignette_effect:
 
-
 Vignette Effect
 ===============
 

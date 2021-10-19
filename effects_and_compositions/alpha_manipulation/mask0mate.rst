@@ -10,9 +10,11 @@
 
 .. _mask0mate:
 
+Mask0mate
+=========
 
 Rectangular Alpha Mask
-======================
+----------------------
 
 .. contents::
 
@@ -25,5 +27,7 @@ Creates an rectangular alpha-channel mask
 
 
 .. image:: /images/Kdenlive_Mask0Mate.png
+   :align: left
+   :alt: Mask0Mate 
 
 

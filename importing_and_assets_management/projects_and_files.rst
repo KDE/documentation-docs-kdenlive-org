@@ -15,13 +15,15 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _projects_and_files:
+
+Project and File management
+===========================
 
 .. TODO: Project profile vs. Render profile: What is the difference, how to choose correctly?
 
 
-Project and File management
-===========================
 
 .. contents::
 

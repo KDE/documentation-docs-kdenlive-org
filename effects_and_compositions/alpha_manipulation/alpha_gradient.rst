@@ -9,7 +9,6 @@
 
 .. _alpha_gradient:
 
-
 Alpha gradient
 ==============
 

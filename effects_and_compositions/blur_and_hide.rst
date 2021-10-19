@@ -13,8 +13,6 @@
 
 .. _blur_and_hide:
 
-
-
 Blur and Hide
 =============
 

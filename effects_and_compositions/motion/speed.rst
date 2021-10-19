@@ -10,7 +10,6 @@
 
 .. _speed:
 
-
 Motion Effects - Speed
 ======================
 
@@ -21,6 +20,8 @@ Make clip play faster or slower. Use of this effect mutes the audio of the clip.
 
 
 .. image:: /images/Kdenlive_Motion_speed_effect.png
+   :align: left
+   :alt: Kdenlive_Motion_speed_effect
 
 
 The *Stroboscope* setting defines the number frames the effect skips when playing back. For example, if *Stroboscope* is set to 5 then the efect will only show every fifth frame but will show these frames for five times as long, producing a jumpy, stroboscopic effect.

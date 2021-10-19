@@ -8,7 +8,6 @@
 
 .. _affine:
 
-
 Affine Transition
 =================
 
@@ -33,8 +32,8 @@ https://youtu.be/hylowKurZaw
 
 
 .. image:: /images/Kdenlive_Affine_transition.png
-  :align: left
-  :alt: Affine Transition
+   :align: left
+   :alt: Affine Transition
 
 
 Disolve using Affine Transition
@@ -74,13 +73,13 @@ This example is created using 3 keyframes. The second keyframe is shown below wi
 
 
 .. image:: /images/Kdenlive_Affine_rotate_kf2.png
-  :align: left
-  :alt: Keyframe two
+   :align: left
+   :alt: Keyframe two
 
 
 .. image:: /images/Kdenlive_Affine_rotate_timeline.png
-  :align: left
-  :alt: Timeline for this demo clip
+   :align: left
+   :alt: Timeline for this demo clip
 
 
 The difference between **Rotate Y** and **Rotate Z** is that the apparent rotation in **Rotate Y** appears to be around a horizontal axis. The rotation in **Rotate Z** appears to be around a vertical axis

@@ -12,7 +12,6 @@
 
 .. _edit_clip:
 
-
 Edit Clip
 =========
 

@@ -14,7 +14,6 @@
 
 .. _titles:
 
-
 Titles
 ======
 
@@ -37,7 +36,8 @@ Open the title in the  :ref:`project_tree` by double-clicking it or right-click 
 
 .. image:: /images/Title_clip_in_proj_tree.png
    :align: center
-   :width: 100px
+   :width: 200px
+   :alt: Title_clip_in_proj_tree
 
 
 Click the :menuselection:`Save As` button on the tool bar
@@ -70,6 +70,7 @@ Choose :menuselection:`Add Title Clip` from the**Add Clip*' drop down (see pictu
 .. image:: /images/Add_clip_drop_down.png
    :align: center
    :width: 100px
+   :alt: Add_clip_drop_down
 
 
 Click the **Open Document** button on the Title Clip editor toolbar or choose **Open document** from the :menuselection:`>>` menu and load up a title saved earlier.
@@ -94,8 +95,9 @@ Choose :menuselection:`Add Title Clip` from the :menuselection:`Add Clip` drop d
 
 
 .. image:: /images/Template_title1.png
-  :align: center
-  :width: 250px
+   :align: center
+   :width: 250px
+   :alt: Template_title1
 
 
 **To use the template title**
@@ -108,16 +110,18 @@ Right-click this clip in the Project Tree and select :menuselection:`Clip Proper
 
 
 .. image:: /images/Title_clip_properties.png
-  :align: center
-  :width: 200px
+   :align: center
+   :width: 200px
+   :alt: Title_clip_properties
 
 
 Enter the text that this title should display into the text field in the dialog that appears.
 
 
 .. image:: /images/Title_template2.png
-  :align: center
-  :width: 250px
+   :align: center
+   :width: 250px
+   :alt: Title_template2
 
 
 Drag the title to the timeline.
@@ -127,7 +131,9 @@ The *%s* in the template will be replaced with the text that you enter in the :m
 
 
 .. image:: /images/Title_template3.png
-  :width: 400px
+   :width: 400px
+   :align: left
+   :alt: Title_template3
 
 
 A known issue with template titles is that text centering does not work correctly for text replacing the %s -  see `this <http://kdenlive.org/forum/title-template-aligning-doesnt-work>`_ forum post.
@@ -142,7 +148,9 @@ Template Titles - Built In
 
 
 .. image:: /images/Kdenlive_Template_Title1.png
-  :width: 700px
+   :width: 450px
+   :align: left
+   :alt: Template_title1
 
 
 To install more built-in title templates choose  :ref:`download_new_title_templates` from the :menuselection:`Settings` menu.
@@ -158,6 +166,8 @@ On the Toolbar overflow  menu (**>>**) shown in the picture below, the second me
 
 
 .. image:: /images/Kdenlive_Add_image_to_title.png
+   :align: left
+   :alt: Kdenlive_Add_image_to_title
 
 
 Draw Rectangle Toolbar Item
@@ -166,12 +176,16 @@ Draw Rectangle Toolbar Item
 The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt + R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
 
 .. image:: /images/Kdenlive_Alt-R_title_menu.png
+   :align: left
+   :alt: Kdenlive_Alt-R_title_menu
 
 
 The rectangles can be placed behind text by selecting them and the changing the Z-index (top right corner) to a lower value.
 
 .. image:: /images/Kdenlive_Rectangle_on_title.png
-  :width: 700px
+   :width: 450px
+   :align: left
+   :alt: Kdenlive_Rectangle_on_title
 
 
 To make the title scroll vertically
@@ -190,6 +204,8 @@ Click :guilabel:`OK` and preview the scrolling title.
 
 
 .. image:: /images/Scrolling_titles.png
+   :align: left
+   :alt: Scrolling_titles
 
 
 The  text in the above title scrolls up the screen. It is as if the camera starts on the "start rectangle" and then pans down to the "end rectangle"
@@ -220,6 +236,8 @@ To make titles fade in and out, you modify the transition which gets automatical
 In the image below we have four keyframes (labeled 1 to 4). The first keyframe is the one currently displayed and we can see that the opacity on this keyframe is zero. The opacity at keyframes 2 and 3 is 100%. The opacity at the 4th keyframe is zero percent. The overall effect is that the title fades in between keyframe 1 and keyframe 2. And then it fades out between keyframe 3 and keyframe 4 .
 
 .. image:: /images/Kdenlive_Fade_titles_anotated.png
+   :align: left
+   :alt: Kdenlive_Fade_titles_anotated
 
 How to fade in more than one title sequentially
 -----------------------------------------------
@@ -232,6 +250,8 @@ you put three titles on three different tracks but you make all three affine tra
 
 
 .. image:: /images/Kdenlive_3_fade_in_titles.png
+   :align: left
+   :alt: Kdenlive_3_fade_in_titles
 
 
 FAQ

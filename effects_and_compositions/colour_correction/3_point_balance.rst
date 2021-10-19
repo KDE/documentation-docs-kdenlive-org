@@ -10,7 +10,6 @@
 
 .. _3_point_balance:
 
-
 3 point balance
 ===============
 

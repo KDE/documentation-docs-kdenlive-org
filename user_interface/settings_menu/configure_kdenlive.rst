@@ -14,7 +14,6 @@
 
 .. _configure_kdenlive:
 
-
 Configure Kdenlive
 ~~~~~~~~~~~~~~~~~~
 

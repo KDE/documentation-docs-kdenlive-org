@@ -7,8 +7,6 @@
 
 .. _tracks:
 
-
-
 Tracks
 ======
 

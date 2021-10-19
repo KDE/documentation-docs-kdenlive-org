@@ -10,7 +10,6 @@
 
 .. _scale_and_tilt:
 
-
 Crop, Scale and Tilt
 ====================
 

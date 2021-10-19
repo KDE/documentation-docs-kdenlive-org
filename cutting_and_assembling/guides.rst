@@ -12,9 +12,9 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _guides:
-
 ..  Please use level 3 top heading, i.e. "===" 
+
+.. _guides:
 
 Guides
 ======
@@ -25,7 +25,8 @@ Guides
 
 
 .. image:: /images/Kdenlive_Add_guide.png
-  :align: left
+   :align: left
+   :alt: Kdenlive_Add_guide
 
 Guides are labels on the timeline that can be added by right-clicking at a spot on the timeline scale and choosing :menuselection:`Add Guide`. You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
 
@@ -34,6 +35,8 @@ Guides in the pic below are the purple flags. Not to be confused with :ref:`clip
 
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
+   :align: left
+   :alt: Kdenlive_Markers_and_guides_crop
 
 
 Guides can be used to define regions for rendering. See :ref:`rendering`.
@@ -51,6 +54,8 @@ Easily moves Guides along with clips using the Spacer Tool by using the new :men
 
 
 .. image:: /images/guidemove.gif
+   :align: left
+   :alt: guidemove
   
 
 

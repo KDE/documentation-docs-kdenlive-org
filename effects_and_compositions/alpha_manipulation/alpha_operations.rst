@@ -10,7 +10,6 @@
 
 .. _alpha_operations:
 
-
 Alpha operations
 ================
 
@@ -84,14 +83,18 @@ Inverts the input alpha channel, transparent will become opaque and vice versa.
 
 
 .. image:: /images/Alpha_operations.png
+   :align: left
+   :alt: Alpha_operations
 
 
 .. image:: /images/alpha_operations_display_menu.png
-  :alt: Display Menu Options
+   :align: left
+   :alt: Display Menu Options
 
 
 .. image:: /images/Alpha_operations_operation_menu.png
-  :alt: Operation Menu Options
+   :align: left
+   :alt: Operation Menu Options
 
 
 Tutorial 1

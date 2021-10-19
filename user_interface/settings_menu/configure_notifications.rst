@@ -10,7 +10,6 @@
 
 .. _configure_notifications:
 
-
 Configure Notifications
 =======================
 

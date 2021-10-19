@@ -13,8 +13,6 @@
 
 .. _effects_and_transitions:
 
-
-
 Alphabetical List of Effects and Compositions
 =============================================
 

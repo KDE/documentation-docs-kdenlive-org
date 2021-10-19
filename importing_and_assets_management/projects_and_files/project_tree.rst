@@ -16,7 +16,6 @@
 
 .. _project_tree:
 
-
 The Project Bin
 ===============
 

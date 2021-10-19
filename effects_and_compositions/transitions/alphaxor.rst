@@ -7,7 +7,6 @@
 
 .. _alphaxor:
 
-
 alphaxor transtion
 ==================
 
@@ -32,5 +31,7 @@ alphaxor is the transition in between
 
 
 .. image:: /images/Kdenlive_Alphaxor.png
+   :align: left
+   :alt: alphaxor
 
 

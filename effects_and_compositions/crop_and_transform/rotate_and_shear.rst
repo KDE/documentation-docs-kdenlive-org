@@ -9,7 +9,6 @@
 
 .. _rotate_and_shear:
 
-
 Rotate and Shear
 ================
 
@@ -26,6 +25,8 @@ Do a rotate X of 900 units (the units are in tenths of a degree). You can also a
 
 
 .. image:: /images/Kdenlive_Rotate_and_shear.png
+   :align: left
+   :alt: Kdenlive_Rotate_and_shear
 
 
 https://youtu.be/WadSGu05HAw

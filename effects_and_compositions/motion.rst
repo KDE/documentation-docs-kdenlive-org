@@ -11,8 +11,6 @@
 
 .. _motion:
 
-
-
 Motion
 ======
 

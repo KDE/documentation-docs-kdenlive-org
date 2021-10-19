@@ -10,7 +10,6 @@
 
 .. _charcoal:
 
-
 Charcoal
 ========
 

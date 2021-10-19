@@ -6,10 +6,13 @@
 
 .. _key_spill_mop_up:
 
+Key spill mop up
+================
+
 This effect is used when using chroma keying (otherwise known as greenscreen or :ref:`blue_screen` effect). Its purpose is to compensate for the fact that sometimes the color from the green or blue screen reflects onto the subject and will make them a shade of blue or green - especially around the edges.  This is known as "keyspill".  This effect can attempt to compensate for this issue.
 
 Tutorial
-========
+--------
 
 .. contents::
 
@@ -22,7 +25,7 @@ https://youtu.be/l43Hz7YEcYU
 
 
 Details
-=======
+-------
 
 
 The README for the Key Spill Mop Up is this:

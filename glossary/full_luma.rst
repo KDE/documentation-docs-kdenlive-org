@@ -10,7 +10,6 @@
 
 .. _full_luma:
 
-
 Full Luma
 =========
 

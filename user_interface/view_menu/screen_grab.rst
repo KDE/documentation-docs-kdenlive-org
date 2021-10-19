@@ -7,7 +7,6 @@
 
 .. _screen_grab:
 
-
 Screen Grab
 ===========
 
@@ -17,6 +16,8 @@ Screen Grab
 
 
 .. image:: /images/Kdenlive_screen-grab.png
+   :align: left
+   :alt: screen grab
  
 
 

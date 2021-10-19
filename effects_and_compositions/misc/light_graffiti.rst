@@ -23,5 +23,7 @@ https://vimeo.com/20217266
 
 
 .. image:: /images/lightgraffiti-v2-avg.jpg
+   :align: left
+   :alt: lightgraffiti-v2-avg
 
 

@@ -9,7 +9,6 @@
 
 .. _toolbars_shown:
 
-
 Toolbars Shown
 ==============
 

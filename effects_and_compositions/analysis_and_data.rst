@@ -8,7 +8,6 @@
 
 .. _analysis_and_data:
 
-
 Analysis and Data
 =================
 

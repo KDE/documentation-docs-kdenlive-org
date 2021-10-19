@@ -13,8 +13,6 @@
 
 .. _project_settings:
 
-
-
 Project Settings Dialog
 =======================
 

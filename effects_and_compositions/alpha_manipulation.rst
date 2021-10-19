@@ -13,7 +13,6 @@
 
 .. _alpha_manipulation:
 
-
 Alpha manipulation
 ==================
 

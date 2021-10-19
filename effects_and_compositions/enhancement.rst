@@ -11,7 +11,6 @@
 
 .. _enhancement:
 
-
 Enhancement
 ===========
 

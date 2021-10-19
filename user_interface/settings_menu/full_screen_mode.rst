@@ -9,7 +9,6 @@
 
 .. _full_screen_mode:
 
-
 Full Screen Mode
 ================
 

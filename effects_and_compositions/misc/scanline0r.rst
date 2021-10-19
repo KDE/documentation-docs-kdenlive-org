@@ -9,7 +9,6 @@
 
 .. _scanline0r:
 
-
 scanline0r
 ==========
 

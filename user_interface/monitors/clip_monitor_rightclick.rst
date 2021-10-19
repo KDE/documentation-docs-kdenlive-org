@@ -8,7 +8,6 @@
 
 .. _clip_monitor_rightclick:
 
-
 Clip Monitor - Right Click Menu
 ===============================
 

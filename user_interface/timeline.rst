@@ -84,6 +84,8 @@ The timeline got a visual overhaul with more and better looking guides/marker co
 
 
 .. image:: /images/timeline-overhaul.png
+  :align: left
+   :alt: timeline-overhaul
   
 Before (above) and after (below)
 
@@ -97,6 +99,8 @@ Since version 19.04.0
 
 
 .. image:: /images/splitAV.gif
+  :align: left
+   :alt: splitAV
 
 
 Since version 19.04.0 the way timeline tracks work has changed. Each track is now either audio or video, and will only accept audio and video clips respectively. When dragging an AV clip from the project bin in the timeline, the clip will be automatically split, the video part going on a video track, and the audio part on an audio track.   
@@ -111,6 +115,7 @@ Timeline Cursor/Position Caret/Playhead
 .. image:: /images/kdenlive_timeline_playhead.png
   :witdth: 450px
   :align: left
+  :alt: timeline playhead
 
 This indicates the position we are displaying in the :ref:`monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead). 
 
@@ -131,6 +136,8 @@ Resizing tracks
 
 
 .. image:: /images/resize-tracks.gif
+   :align: left
+   :alt: resize-tracks
   
 
 
@@ -138,6 +145,8 @@ Tracks can be individually resized. (Holding down :kbd:`Shift` makes all video o
 
 
 .. image:: /images/layout-modes.gif
+   :align: left
+   :alt: layout-modes
   
 
 
@@ -151,6 +160,8 @@ Configurable thumbnails for each track
 
 
 .. image:: /images/Configurable_thumbnails.png
+   :align: left
+   :alt: Configurable_thumbnails
   
 
 
@@ -164,6 +175,8 @@ Disabling individual clips
 
 
 .. image:: /images/Disabling_individual_clips.png
+   :align: left
+   :alt: Disabling_individual_clips
   
 
 

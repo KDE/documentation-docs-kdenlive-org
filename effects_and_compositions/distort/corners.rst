@@ -9,7 +9,6 @@
 
 .. _corners:
 
-
 Distort - Corners
 =================
 

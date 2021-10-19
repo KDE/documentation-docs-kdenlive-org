@@ -9,7 +9,6 @@
 
 .. _surround_sound:
 
-
 Editing Surround Sound with Kdenlive
 ====================================
 

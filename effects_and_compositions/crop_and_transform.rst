@@ -12,8 +12,6 @@
 
 .. _crop_and_transform:
 
-
-
 Crop and Transform
 ==================
 

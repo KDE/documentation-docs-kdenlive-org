@@ -9,8 +9,8 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _delete_clip:
 
+.. _delete_clip:
 
 Delete Clip
 ===========

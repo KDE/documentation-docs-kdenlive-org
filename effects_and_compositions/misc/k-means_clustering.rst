@@ -9,7 +9,6 @@
 
 .. _k-means_clustering:
 
-
 K-Means Clustering
 ==================
 

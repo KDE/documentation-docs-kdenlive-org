@@ -7,7 +7,6 @@
 
 .. _markers:
 
-
 Clip Menu - Markers
 ===================
 

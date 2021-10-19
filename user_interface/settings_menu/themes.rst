@@ -7,7 +7,7 @@
 .. _themes:
 
 Settings>Themes
-==================
+===============
 
 .. contents::
 

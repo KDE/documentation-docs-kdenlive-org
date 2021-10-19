@@ -10,7 +10,6 @@
 
 .. _obscure:
 
-
 Obscure
 =======
 

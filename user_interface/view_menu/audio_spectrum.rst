@@ -9,7 +9,6 @@
 
 .. _audio_spectrum:
 
-
 Audio Spectrum
 ==============
 
@@ -28,6 +27,8 @@ See also :ref:`spectogram` scope which displays a graphical representation of th
 
 
 .. image:: /images/Audio_spectogram.png
+   :align: left
+   :alt: Audio spectrogram
 
 
 For more information see `Granjow's blog <http://kdenlive.org/users/granjow/introducing-scopes-audio-spectrum-and-spectrogram>`_ on Audio Spectrum

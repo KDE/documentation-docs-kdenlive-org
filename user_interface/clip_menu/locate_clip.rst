@@ -8,7 +8,6 @@
 
 .. _locate_clip:
 
-
 Clip Menu — Locate Clip
 =======================
 

@@ -8,7 +8,6 @@
 
 .. _project_monitor_rightclick:
 
-
 Project Monitor - Right Click menu
 ==================================
 

@@ -4,7 +4,6 @@
 
 .. _credits_and_license:
 
-
 Credits and License
 ===================
 

@@ -12,8 +12,6 @@
 
 .. _misc:
 
-
-
 Misc Effects
 ============
 

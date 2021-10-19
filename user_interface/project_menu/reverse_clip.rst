@@ -7,7 +7,6 @@
 
 .. _reverse_clip:
 
-
 Reverse Clip
 ============
 

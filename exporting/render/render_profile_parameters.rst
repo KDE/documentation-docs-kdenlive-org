@@ -12,7 +12,6 @@
 
 .. _render_profile_parameters:
 
-
 Render Profile Parameters
 =========================
 
@@ -28,6 +27,8 @@ In version 0.9.10 the render profile parameters changed significantly.
 
 
 .. image:: /images/Kdenlive_Edit_render_profile_0.9.10.png
+   :align: left
+   :alt: Kdenlive_Edit_render_profile_0
 
 
 Kdenlive now makes use of "property presets" delivered by the *melt* project (see `melt doco <http://www.mltframework.org/bin/view/MLT/PropertyPresets>`_). These presets are referenced by the *properties=<preset>* syntax.  In the example illustrated, the render profile is referencing *lossless/H.264*.  This refers to a property preset found in file H.264 found on the system at :file:`/usr/share/mlt/presets/consumer/avformat/lossless`.
@@ -79,7 +80,9 @@ Render Profile Parameters - How to read them - earlier versions of Kdenlive
 
 
 .. image:: /images/Custom_render_profiles.png
-  :width: 300px
+   :width: 300px
+   :align: left
+   :alt: Custom_render_profiles
 
 
 The parameters that go into a render profile derive from the **ffmpeg** program.

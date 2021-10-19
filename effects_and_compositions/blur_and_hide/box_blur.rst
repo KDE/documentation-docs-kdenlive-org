@@ -10,7 +10,6 @@
 
 .. _box_blur:
 
-
 Box Blur
 ========
 

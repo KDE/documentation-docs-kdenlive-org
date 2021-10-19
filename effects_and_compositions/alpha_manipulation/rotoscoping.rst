@@ -12,7 +12,6 @@
 
 .. _rotoscoping:
 
-
 Rotoscoping
 ===========
 
@@ -33,6 +32,8 @@ Draw a region on one video track, and everything outside/inside that region will
 
 
 .. image:: /images/Kdenlive_rotoscoping.png
+   :align: left
+   :alt: rotoscoping
 
 
 
@@ -54,6 +55,8 @@ Make a line curved by dragging the control "handles". These are the two dots on 
 
 
 .. image:: /images/Rotoscoping_Handles.png
+   :align: left
+   :alt: Rotoscoping_Handles
 
 
 To define if it is the inside or the outside of the curve that is transparent toggle the *invert* checkbox.
@@ -81,6 +84,8 @@ To remove a key frame move to the frame with the key frame using the *Go to prev
 
 
 .. image:: /images/Kdenlive_Rotoscoping_drag_points.png
+   :align: left
+   :alt: Kdenlive_Rotoscoping_drag_points
 
 
 This effect is based on the MLT `FilterRotoscoping <http://www.mltframework.org/bin/view/MLT/FilterRotoscoping>`_  
@@ -92,6 +97,8 @@ Rotoscoping options greyed out
 
 
 .. image:: /images/Roto_scoping_greyed_out.png
+   :align: left
+   :alt: Roto_scoping_greyed_out
 
 
 When you first add the rotoscope effect the keyframe options in it are greyed out. You can not even add a new keyframe.
