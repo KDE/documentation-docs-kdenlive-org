@@ -27,7 +27,7 @@ Available from the :ref:`project_menu` menu and the :ref:`clips` dropdown,  this
 .. image:: /images/Kdenlive_Search_Online_services.png
 
 
-Since Version 21.04.0 
+.. versionadded:: 21.04.0 
   
 The new online resources window features more source footage providers such as `Pixabay <https://pixabay.com/>`_ and `Pexels <https://www.pexels.com/>`_ besides the already available `Freesound <https://freesound.org/>`_ and `Internet Archive <https://archive.org/>`_. Other possible providers are being considered, see `here <https://invent.kde.org/multimedia/kdenlive/-/issues/918>`_ for more details.
 

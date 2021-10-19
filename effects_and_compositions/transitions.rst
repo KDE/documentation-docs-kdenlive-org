@@ -97,7 +97,7 @@ To add a transition,
 
 
 * Adjust your clips so that they overlap.
-* hold the mouse wheel over the top clip bottom corner, and click the purple circle appearing (the status bar will say "Click to add a composition"), or alternatively right-click either clip and select :menuselection:`Insert a composition | Wipe`
+* hold the mouse wheel over the top clip bottom corner, and click the purple circle appearing (the status bar will say "Click to add a composition"), or alternatively right-click either clip and select :menuselection:`Insert a composition --> Wipe`
 
 
 The default transition is a dissolve, to change that select (click) the composition bar to show the effect/composition stack window.

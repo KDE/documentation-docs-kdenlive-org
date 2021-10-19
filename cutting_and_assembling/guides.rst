@@ -48,7 +48,7 @@ Guides can also be used as chapters for DVD videos. See :ref:`rendering`.
 Move Guides with Spacer Tool
 ----------------------------
 
-Since Version 21.08.0
+.. versionadded:: 21.08.0
 
 Easily moves Guides along with clips using the Spacer Tool by using the new :menuselection:`Guides Locked` option.
 

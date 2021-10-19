@@ -56,7 +56,7 @@ To use this feature, first, add the clip you want to analyze in the timeline, an
 
 .. image:: /images/Tracking01.png
   :width: 400px
-  :align: right
+  :align: left
   :alt: Figure 1.
 
 Go to the first frame where your object is visible, and adjust the yellow rectangle so that it surrounds the object, like the hand in Figure 1.
@@ -66,7 +66,7 @@ Then click on the :menuselection:`Analyse` button in the effect options. This wi
 
 .. image:: /images/Tracking03.png
   :width: 400px
-  :align: right
+  :align: left
   :alt: Figure 2.
 
 When the job is finished, the motion tracking data is stored in the clip properties. To use this data, you can, for example, add a title clip and affine transition over the clip you just analyzed, like in the screenshot in Figure 2.. 
@@ -74,7 +74,7 @@ When the job is finished, the motion tracking data is stored in the clip propert
 
 .. image:: /images/Kdenlive_Affine_options_menu.png
   :width: 400px
-  :align: right
+  :align: left
   :alt: Figure 3.
 
 Next step is to import the motion data in the transition. To do this, first, select the clip you have analyzed, then select the transition using the :kbd:`CTRL` key so that both items are selected. Finally, go in the transitions's Options menu  

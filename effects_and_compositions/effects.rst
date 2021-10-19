@@ -358,7 +358,7 @@ A: Other solution: select a strip containing the effect, :menuselection:`Copy`, 
 
 Q: How to apply an effect on several clips (all) at the same time?
 
-A: You can select multiple clips with :kbd:`Shift + drag` (left mouse button) around them. Then right-click and group clips (or :kbd:`Ctrl + G`).
+A: You can select multiple clips with :kbd:`Shift` + :kbd:`drag` (left mouse button) around them. Then right-click and group clips (or :kbd:`Ctrl` + :kbd:`G`).
 
 
 .. toctree::

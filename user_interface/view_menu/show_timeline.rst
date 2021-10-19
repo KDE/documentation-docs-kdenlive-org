@@ -9,7 +9,7 @@
 
 .. _show_timeline:
 
-View>Timeline
+View Timeline
 =============
 
 .. contents::

@@ -11,7 +11,6 @@
 
 .. _show_title_bars:
 
-
 View Menu — Show Title Bars
 ===========================
 

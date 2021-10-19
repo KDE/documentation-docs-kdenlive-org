@@ -13,7 +13,7 @@ Clip Menu — Replace Clip
 .. contents::
 
 
-Since version 20.04.0
+.. versionadded:: 20.04.0
 
 
 .. image:: /images/20210508-kdenlive-replace_clip.png

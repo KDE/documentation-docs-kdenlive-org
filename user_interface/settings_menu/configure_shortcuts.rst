@@ -26,7 +26,7 @@ Raise widgets with shortcuts (window)
 =====================================
 
 
-Since Version 21.08.0
+.. versionadded:: 21.08.0
   
 With the word "raise" you see all dock widgets (window) on which you can assign shortcuts to raise dock widgets (window). The actions are called like "Raise Project Bin".
 
@@ -39,7 +39,7 @@ Shortcuts for keyframe functions
 ================================
 
 
-Since Version 21.08.0
+.. versionadded:: 21.08.0
 
 Allow assigning shortcuts to 3 keyframe functions: *Add/Remove Keyframe*, *Go to next keyfram*e and *Go to previous keyframe*.
 Click on the clip and you can add/remove keyframe by shortcut.
@@ -53,7 +53,7 @@ Command Bar
 ===========
 
 
-Since Version 21.08.0
+.. versionadded:: 21.08.0
 
 The command bar allows to easily searching for any action in Kdenlive like changing themes, adding effects, opening files and more. It can be accessed with the shortcut: Ctrl + Alt + i. The shortcut is defined by KDE-Framework, so do not change it. (This feature requires KDE Frameworks lib version 5.83).
 

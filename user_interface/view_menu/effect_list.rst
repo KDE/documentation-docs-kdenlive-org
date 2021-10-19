@@ -11,7 +11,6 @@
 
 .. _effect_list:
 
-
 View Menu — Effects
 ===================
 

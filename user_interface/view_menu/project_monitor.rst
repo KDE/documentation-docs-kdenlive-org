@@ -9,8 +9,8 @@
 
 .. _project_monitor:
 
-View>Project Monitor
-=======================
+Project Monitor
+===============
 
 .. contents::
 

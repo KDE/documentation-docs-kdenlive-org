@@ -21,13 +21,13 @@ The spectrogram displays the loudness (in decibels) of the audio at different au
 
 
 .. image:: /images/Kdenlive_Spectrogram.png
-  :align: left
-  :alt: Spectogram monitor in versions 0.9.8 or lower.
+   :align: left
+   :alt: Spectogram monitor in versions 0.9.8 or lower.
 
 
 .. image:: /images/Kdenlive_Spectogram_v0.9.10.png
-  :align: left
-  :alt: Spectogram monitor in versions 0.9.10 or higher.
+   :align: left
+   :alt: Spectogram monitor in versions 0.9.10 or higher.
 
 
 

@@ -66,7 +66,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 **4**. Deletes the selected clip from the Project Bin (but not from the file system).
 
 
-**5** Color tagging. (Since version 20.04.0)
+**5** Color tagging. (.. versionadded:: 20.04.0)
 
 
 .. image:: /images/tags.gif

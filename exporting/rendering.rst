@@ -84,7 +84,7 @@ Generating Rendering Scripts
 
 
 
-Start by clicking on the :menuselection:`Render` button in your toolbar, the one with the red circle surrounded by a white and black ring. You can also select this by going to the :menuselection:`Project --> Render` menu (:kbd:`Ctrl + Return`). 
+Start by clicking on the :menuselection:`Render` button in your toolbar, the one with the red circle surrounded by a white and black ring. You can also select this by going to the :menuselection:`Project --> Render` menu (:kbd:`Ctrl` + :kbd:`Return`). 
 
 
 .. image:: /images/Kden-render-howto-1.png

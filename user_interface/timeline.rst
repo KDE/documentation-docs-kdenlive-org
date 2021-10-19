@@ -95,7 +95,7 @@ Split Audio/Video
 
 
 
-Since version 19.04.0
+.. versionadded:: 19.04.0
 
 
 .. image:: /images/splitAV.gif
@@ -103,7 +103,7 @@ Since version 19.04.0
    :alt: splitAV
 
 
-Since version 19.04.0 the way timeline tracks work has changed. Each track is now either audio or video, and will only accept audio and video clips respectively. When dragging an AV clip from the project bin in the timeline, the clip will be automatically split, the video part going on a video track, and the audio part on an audio track.   
+.. versionadded:: 19.04.0 the way timeline tracks work has changed. Each track is now either audio or video, and will only accept audio and video clips respectively. When dragging an AV clip from the project bin in the timeline, the clip will be automatically split, the video part going on a video track, and the audio part on an audio track.   
 
 
 The separation of audio/video is important for implementing same-track-transitions.

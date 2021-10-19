@@ -25,13 +25,13 @@ Titles are text elements that can be added to the timeline and appear over the t
 If you want titles to overlay other footage, you put title clips on video track 1 and have the other footage on video track 2.  You also need to retain the affine transition that is automatically added to the title clips if you want the footage visible underneath. 
 
 
-To create a title, choose :menuselection:`Add Title Clip` from the :ref:`project_menu` or from the Right-Click menu in the :ref:`project_tree`
+To create a title, choose :guilabel:`Add Title Clip` from the :ref:`project_menu` or from the Right-Click menu in the :ref:`project_tree`
 
 
 How to Save a Title
 -------------------
 
-Open the title in the  :ref:`project_tree` by double-clicking it or right-click then choose :menuselection:`Clip Properties`.
+Open the title in the  :ref:`project_tree` by double-clicking it or right-click then choose :guilabel:`Clip Properties`.
 
 
 .. image:: /images/Title_clip_in_proj_tree.png
@@ -40,7 +40,7 @@ Open the title in the  :ref:`project_tree` by double-clicking it or right-click 
    :alt: Title_clip_in_proj_tree
 
 
-Click the :menuselection:`Save As` button on the tool bar
+Click the :guilabel:`Save As` button on the tool bar
 
 
 .. list-table::
@@ -48,12 +48,12 @@ Click the :menuselection:`Save As` button on the tool bar
   * -  Title Editor toolbar when title editor is wide enough for the whole toolbar to display. The toolbar items are: **Selection Tool**, *'Add Text**,**Add Rectangle**,**Add Image**,**Open Document**,**Save As** 
 
 
-or select :menuselection:`Save as` from the toolbar overflow menu which can be found under the :menuselection:`>>` button on the toolbar - see picture. 
+or select :guilabel:`Save as` from the toolbar overflow menu which can be found under the :guilabel:`>>` button on the toolbar - see picture. 
 
 
 .. list-table::
 
-  * - **Title Editor** toolbar when title editor is not wide enough for the whole toolbar to display. The toolbar items that do not fit can be accessed from the :menuselection:`>>` button that appears at the end of the toolbar.
+  * - **Title Editor** toolbar when title editor is not wide enough for the whole toolbar to display. The toolbar items that do not fit can be accessed from the :guilabel:`>>` button that appears at the end of the toolbar.
 
 Choose a save location within your project.
 
@@ -64,7 +64,7 @@ The titles are saved as :file:`.kdenlivetitle` type documents.
 How to Load a Title
 -------------------
   
-Choose :menuselection:`Add Title Clip` from the**Add Clip*' drop down (see picture)
+Choose :guilabel:`Add Title Clip` from the**Add Clip*' drop down (see picture)
 
 
 .. image:: /images/Add_clip_drop_down.png
@@ -73,13 +73,13 @@ Choose :menuselection:`Add Title Clip` from the**Add Clip*' drop down (see pictu
    :alt: Add_clip_drop_down
 
 
-Click the **Open Document** button on the Title Clip editor toolbar or choose **Open document** from the :menuselection:`>>` menu and load up a title saved earlier.
+Click the **Open Document** button on the Title Clip editor toolbar or choose **Open document** from the :guilabel:`>>` menu and load up a title saved earlier.
 
 
 How to edit an existing title
 -----------------------------
 
-Right-click the title clip in the Project Tree and select :menuselection:`Clip properties`.
+Right-click the title clip in the Project Tree and select :guilabel:`Clip properties`.
 
 
 Template Titles - User-Defined
@@ -91,7 +91,7 @@ Template Titles - User-Defined
 **To create a template title**
 
 
-Choose :menuselection:`Add Title Clip` from the :menuselection:`Add Clip` drop down and create a title with the text *%s* in it and formatted how you desire it. Save this title as described above. 
+Choose :guilabel:`Add Title Clip` from the :guilabel:`Add Clip` drop down and create a title with the text *%s* in it and formatted how you desire it. Save this title as described above. 
 
 
 .. image:: /images/Template_title1.png
@@ -103,10 +103,10 @@ Choose :menuselection:`Add Title Clip` from the :menuselection:`Add Clip` drop d
 **To use the template title**
 
 
-Choose :menuselection:`Add Template Title` from the :menuselection:`Add Clip` drop down and choose the title with the *%s* in it that you just saved.
+Choose :guilabel::`Add Template Title` from the :guilabel:`Add Clip` drop down and choose the title with the *%s* in it that you just saved.
 
 
-Right-click this clip in the Project Tree and select :menuselection:`Clip Properties`,
+Right-click this clip in the Project Tree and select :guilabel:`Clip Properties`,
 
 
 .. image:: /images/Title_clip_properties.png
@@ -144,7 +144,7 @@ Template Titles - Built In
 
 
 
-**Kdenlive** has some built-in title templates that can be accessed from the :menuselection:`Template` drop-down list found on the bottom of the **Title Clip** window - see below.
+**Kdenlive** has some built-in title templates that can be accessed from the :guilabel:`Template` drop-down list found on the bottom of the **Title Clip** window - see below.
 
 
 .. image:: /images/Kdenlive_Template_Title1.png
@@ -153,7 +153,7 @@ Template Titles - Built In
    :alt: Template_title1
 
 
-To install more built-in title templates choose  :ref:`download_new_title_templates` from the :menuselection:`Settings` menu.
+To install more built-in title templates choose  :ref:`download_new_title_templates` from the :guilabel:`Settings` menu.
 
 
 The .kdenlivetitle files that supply these templates are installed to /usr/share/kde4/apps/kdenlive/titles/
@@ -162,7 +162,7 @@ The .kdenlivetitle files that supply these templates are installed to /usr/share
 Import an Image into the title
 ------------------------------
 
-On the Toolbar overflow  menu (**>>**) shown in the picture below, the second menu item - (labeled only with :kbd:`Alt + I` in ver 0.9.2 - fixed in ver 0.9.4) -  is the **Add Image** Button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
+On the Toolbar overflow  menu (**>>**) shown in the picture below, the second menu item - (labeled only with :kbd:`Alt` + :kbd:`I` in ver 0.9.2 - fixed in ver 0.9.4) -  is the **Add Image** Button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
 
 
 .. image:: /images/Kdenlive_Add_image_to_title.png
@@ -173,7 +173,7 @@ On the Toolbar overflow  menu (**>>**) shown in the picture below, the second me
 Draw Rectangle Toolbar Item
 ---------------------------
 
-The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt + R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
+The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt` + :kbd:`R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
 
 .. image:: /images/Kdenlive_Alt-R_title_menu.png
    :align: left

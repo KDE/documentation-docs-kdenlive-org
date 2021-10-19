@@ -20,6 +20,7 @@
 
 
 ..  Please use level 3 top heading, i.e. "===" 
+
 .. _editing:
 
 Editing
@@ -515,7 +516,7 @@ There are 3 ways to add subtitle:
 * **Keyboard**   
 
 
-  * :kbd:`Shift+S` adds a subtitle.  
+  * :kbd:`Shift`+ :kbd:`S` adds a subtitle.  
 
 
 * **Icon and Mouse**  
@@ -579,7 +580,7 @@ SRT supports markup for: bold, italic, underline, text color and line break.
 * And all combined: ``<font color="#00ff00"><b><i><u>All combined</u></i></b></font>``     
 * **Line break:** Add on the end of each line a ``<br>`` (for break). Now the srt file is stored correct and reopened with the line break. The subtitle in the subtitle window will be all in 1 line after several save but the breaks is working.
   
-  :kbd:`Alt+arrow` jumps from subtitle to subtitle.
+  :kbd:`Alt` + :kbd:`arrow` jumps from subtitle to subtitle.
 
 .. versionadded:: 21.04.0
 
@@ -690,7 +691,7 @@ Select a clip in the project bin.
 6.	Save as a new clip
 
 
-7.	Add a Bookmark. You can jump to these bookmarks in the timeline with :kbd:`alt+arrow` or edit the bookmark by double click.
+7.	Add a Bookmark. You can jump to these bookmarks in the timeline with :kbd:`alt` + :kbd:`arrow` or edit the bookmark by double click.
 
 
 8.	Delete the selection.
@@ -774,7 +775,7 @@ Here is a brief introduction to the 3 point editing system.
 3.	Hit :kbd:`T` to change to the timeline
 
 
-4.	Select a video or audio track in the timeline (up/down arrow key) and set it as source with :kbd:`Shift+T`.
+4.	Select a video or audio track in the timeline (up/down arrow key) and set it as source with :kbd:`Shift` + :kbd:`T`.
 
 
 5.	Activate the track as a target with shortcut :kbd:`A` (this connects the track to the source)

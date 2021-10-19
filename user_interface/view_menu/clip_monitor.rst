@@ -10,8 +10,6 @@
 
 .. _clip_monitor:
 
-
-
 View Menu — Clip Monitor
 ========================
 

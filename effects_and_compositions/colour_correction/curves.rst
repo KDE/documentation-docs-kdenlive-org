@@ -24,6 +24,8 @@ The  :ref:`bezier_curves` filter is also an interface to this same frei0r filter
 
 
 .. image:: /images/Kdenlive_curves.png
+   :align: left
+   :alt: Curves
 
 
 https://youtu.be/xJ0SyVzssfI
