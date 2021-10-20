@@ -162,7 +162,7 @@ The .kdenlivetitle files that supply these templates are installed to /usr/share
 Import an Image into the title
 ------------------------------
 
-On the Toolbar overflow  menu (**>>**) shown in the picture below, the second menu item - (labeled only with :kbd:`Alt` + :kbd:`I` in ver 0.9.2 - fixed in ver 0.9.4) -  is the **Add Image** Button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
+On the Toolbar overflow  menu (**>>**) shown in the picture below, the second menu item - (labeled only with :kbd:`Alt + I` in ver 0.9.2 - fixed in ver 0.9.4) -  is the **Add Image** Button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
 
 
 .. image:: /images/Kdenlive_Add_image_to_title.png
@@ -173,7 +173,7 @@ On the Toolbar overflow  menu (**>>**) shown in the picture below, the second me
 Draw Rectangle Toolbar Item
 ---------------------------
 
-The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt` + :kbd:`R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
+The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt + R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
 
 .. image:: /images/Kdenlive_Alt-R_title_menu.png
    :align: left

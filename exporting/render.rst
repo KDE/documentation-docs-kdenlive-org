@@ -36,7 +36,8 @@ The rendering dialog is brought up from the render button
 
 .. image:: /images/icons/media-record.svg
 
-from selecting :menuselection:`Render` in the :ref:`project_menu`  or by the :kbd:`Ctrl + Enter` shortcut.
+from selecting :menuselection:`Render` in the :ref:`project_menu`  or by the :kbd:`Ctrl` + 
+`Enter` shortcut.
 
 
 Rendering Dialog Ver 17.04

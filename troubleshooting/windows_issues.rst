@@ -27,14 +27,13 @@ After rendering you get de-synced audio or wrong effects or black frames at end 
 
 Audio crackling while playback
 ------------------------------
-
-Hit :kbd:`CTRL` + :kbd:`SHIFT` + :kbd:`,`(comma), select :menuselection:`Playback --> audio backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), :menuselection:`DirectSound` to see what give the best result.
+:kbd:`CRL + SHIFT +,`(comma), select :menuselection:`Playback --> audio backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), :menuselection:`DirectSound` to see what give the best result.
 
 
 This application failed to start because no Qt platform plugin could be initialized
 -----------------------------------------------------------------------------------
 
-Hit :kbd:`CTRL` + :kbd:`SHIFT` + :kbd:`,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
+Hit :kbd:`CTRL + SHIFT + ,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
 
 Download `qt.conf <https://bugs.kde.org/show_bug.cgi?id=415408>`_. Put the file :file:`qt.conf` into the "bin" folder (the folder where :file:`kdenlive.exe` is)
 
@@ -55,7 +54,7 @@ Updated Intel graphic driver versions lead to a corrupted Kdenlive GUI.
 Maybe this statement helps: https://forum.kde.org/viewtopic.php?f=265&amp;t=161309#p425882.
 
 
-**Solution 2:** Press :kbd:`Win` + :kbd:`R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it open :file:`kdenliverc` with an editor. Search for ``[misc]`` and delete ``[misc]`` and the following entry.
+**Solution 2:** Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it open :file:`kdenliverc` with an editor. Search for ``[misc]`` and delete ``[misc]`` and the following entry.
 . Restart Kdenlive.
 
 
@@ -80,7 +79,7 @@ Cannot open projects made with previous version, timeline snaps back, cannot imp
 Go to: :menuselection:`Help` -> :menuselection:`Reset configuration`. 
 
 
-If this is not solving the problem: Press :kbd:`Win` + :kbd:`R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive -> do nothing -> close Kdenlive -> and restart Kdenlive again.    
+If this is not solving the problem: Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive -> do nothing -> close Kdenlive -> and restart Kdenlive again.    
 
 
 If you have still problems delete proxy clips and other cached data by going to :menuselection:`Project` menu > :menuselection:`Project Setting` > :menuselection:`Cache Data` tab > there you can delete cached data.   
@@ -115,7 +114,7 @@ This describes the process of doing a clean install on Windows®.
 Firstly, delete your normal **Kdenlive** folder (containing the application)
 
 
-Access the **Appdata** folder (:kbd:`Win` + :kbd:`R` and then type **APPDATA** in full caps). Go to :file:`local` and search for folder :file:`kdenlive`.
+Access the **Appdata** folder (:kbd:`Win + R` and then type **APPDATA** in full caps). Go to :file:`local` and search for folder :file:`kdenlive`.
 
 
 .. note::
@@ -144,10 +143,10 @@ This issue is solved with Windows version 18.08.2 (30. Oct 2018). Get the curren
 Qt rendering crash
 ------------------
 
-Hit :kbd:`CTRL` + :kbd:`SHIFT` + :kbd:`,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
+Hit :kbd:`CTRL + SHIFT + ,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
 
 
-When switching from kdenlive for windows 17.12 > 18.04/18.08, a Qt rendering crash appears. To make sure this doesn't happen, you need to edit the :file:`kdenliverc` file in the :file:`appdata/local` folder. To access your appdata, press :kbd:`Win` + :kbd:`R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`.
+When switching from kdenlive for windows 17.12 > 18.04/18.08, a Qt rendering crash appears. To make sure this doesn't happen, you need to edit the :file:`kdenliverc` file in the :file:`appdata/local` folder. To access your appdata, press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`.
 
 
 Kdenlive cannot be deleted, running process on exit
@@ -159,7 +158,7 @@ This issue is solved with Windows version 18.12.1. Get the current version from 
 If you want to reinstall **Kdenlive** or re-run **Kdenlive**, it may tell you "The file or folder is open in another program". Windows® then won't let you delete or re-run **Kdenlive**.
 
 
-To fix this you have to kill the running process: press and hold :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Esc` &  expand the task manager by clicking :menuselection:`all details`. Then find :file:`kdenlive.exe` &  :file:`dbus-daemon.exe`, and click :menuselection:`End task` for both of them.
+To fix this you have to kill the running process: press and hold :kbd:`Ctrl + Shift + Esc` &  expand the task manager by clicking :menuselection:`all details`. Then find :file:`kdenlive.exe` &  :file:`dbus-daemon.exe`, and click :menuselection:`End task` for both of them.
 
 
 Or download the ` Archive File: Kdenlive-kill.zip <Kdenlive-kill.zip>`_  
@@ -187,7 +186,7 @@ If this is not solving the problem switch your standard printer to “Microsoft 
 Delete the :file:`kdenliverc` file as descript here under :ref:`windows_issues`.
 
 
-Make sure you set processing thread to 1: :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`,` (comma) > :menuselection:`Environment` > :menuselection:`Processing thread` > set to 1
+Make sure you set processing thread to 1: :kbd:`Ctrl + Shift + ,` (comma) > :menuselection:`Environment` > :menuselection:`Processing thread` > set to 1
 
 
 General Issues

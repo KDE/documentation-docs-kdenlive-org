@@ -98,13 +98,13 @@ Now comes the actual editing. Project clips are combined to the final result on 
   :width: 400px
   :alt: First clips in the timeline
 
-Since some cutlery is needed as well, grab the spoon clip and drop it on the first track as well (track V2). Then drag the Napoli to the beginning of the timeline (otherwise the rendered video would start with some seconds of plain black), and the Spoon right after the Napoli, such that it looks like in the image on the left. (Where I have zoomed in with :kbd:`Ctrl` + :kbd:`Wheel`.) 
+Since some cutlery is needed as well, grab the spoon clip and drop it on the first track as well (track V2). Then drag the Napoli to the beginning of the timeline (otherwise the rendered video would start with some seconds of plain black), and the Spoon right after the Napoli, such that it looks like in the image on the left. (Where I have zoomed in with :kbd:`Ctrl + Wheel`.) 
 
 .. image:: /images/Kdenlive_Quickstart-TimelineCursor.png
   :align: left
   :alt: Timeline cursor
 
-The result can already be previewed by pressing :kbd:`Space` (or the :guilabel:`Play` button in the project monitor). You will see the Napoli directly followed by a Spoon. If the timeline cursor is not at the beginning, the project monitor will start playing somewhere in the middle; you can move it by dragging it either on the timeline ruler or in the project monitor. If you prefer keyboard shortcuts, :kbd:`Ctrl` + :kbd:`Home` does the same for the monitor that is activated. (Select the :menuselection:`Project Monitor` if it is not selected yet before using the shortcut.)
+The result can already be previewed by pressing :kbd:`Space` (or the :guilabel:`Play` button in the project monitor). You will see the Napoli directly followed by a Spoon. If the timeline cursor is not at the beginning, the project monitor will start playing somewhere in the middle; you can move it by dragging it either on the timeline ruler or in the project monitor. If you prefer keyboard shortcuts, :kbd:`Ctrl + Home` does the same for the monitor that is activated. (Select the :menuselection:`Project Monitor` if it is not selected yet before using the shortcut.)
 
 
 .. image:: /images/Kdenlive_Quickstart-Resize-Marker.png
@@ -121,7 +121,7 @@ Since after eating comes playing, there is a Billiards clip. Add it to the timel
 To add a *transition* between eating (the Spoon) and playing billiards, the two clips need to overlap. To be precise: place the second clip above or below the first one. The first clip should end some frames after the second one begins. Zooming in until the ticks for single frames appear helps here; it also makes it easy to always have the same transition duration, five frames in this case.
 
 
-You can zoom in by either using the :menuselection:`zoom slider` at the bottom right corner of the **Kdenlive** window, or with :kbd:`Ctrl` + :kbd:`Mousewheel`. **Kdenlive** will zoom to the timeline cursor, so first set it to the position which you want to see enlarged, then zoom in.
+You can zoom in by either using the :menuselection:`zoom slider` at the bottom right corner of the **Kdenlive** window, or with :kbd:`Ctrl + Mousewheel`. **Kdenlive** will zoom to the timeline cursor, so first set it to the position which you want to see enlarged, then zoom in.
 
 
 .. image:: /images/Kdenlive-Quickstart-Add-Transition.png
@@ -206,7 +206,7 @@ Rendering
   :width: 210px
   :alt: Rendering dialog
 
-A few minutes left, and the project is finished! Click the Render button (or go to :menuselection:`Project --> Render`, or press :kbd:`Ctrl` + :kbd:`Enter`) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the :menuselection:`Render to File` button. 
+A few minutes left, and the project is finished! Click the Render button (or go to :menuselection:`Project --> Render`, or press :kbd:`Ctrl + Enter`) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the :menuselection:`Render to File` button. 
 
 
 .. image:: /images/Kdenlive_Quickstart-Rendering.png

@@ -36,13 +36,13 @@ Editing
   * -  Action 
     -  Shortcut
   * -  Make a cut (make sure track is selected first) 
-    -  :kbd:`Shift` + :kbd:`R` 
+    -  :kbd:`Shift + R` 
   * -  Play 
     -  :kbd:`Space` 
   * -  Play zone 
-    -  :kbd:`Ctrl` + :kbd:`Space` 
+    -  :kbd:`Ctrl + Space` 
   * -  Render 
-    -  :kbd:`Ctrl` + :kbd:`Return` 
+    -  :kbd:`Ctrl + Return` 
   * -  Switch Monitor 
     -  :kbd:`T` 
   * -  Forward 
@@ -54,37 +54,37 @@ Editing
   * -  Rewind 1 frame 
     -  :kbd:`Left` 
   * -  Forward 1 second 
-    -  :kbd:`Shift` + :kbd:`Right` 
+    -  :kbd:`Shift + Right` 
   * -  Rewind 1 second 
-    -  :kbd:`Shift` + :kbd:`Left` 
+    -  :kbd:`Shift + Left` 
   * -  Toggle Full Screen Mode on and off 
-    -  :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`F` 
+    -  :kbd:`Ctrl + Shift + F` 
   * -  Go to Clip End 
     -  :kbd:`End` 
   * -  Go to Clip Start 
     -  :kbd:`Home` 
   * -  Go to Next Snap Point 
-    -  :kbd:`Alt` + :kbd:`Right` 
+    -  :kbd:`Alt + Right` 
   * -  Go to Previous Snap Point 
-    -  :kbd:`Alt` + :kbd:`Left` 
+    -  :kbd:`Alt + Left` 
   * -  Go to Project End 
-    -  :kbd:`Ctrl` + :kbd:`End` 
+    -  :kbd:`Ctrl + End` 
   * -  Go to Project Start 
-    -  :kbd:`Ctrl` + :kbd:`Home` 
+    -  :kbd:`Ctrl + Home` 
   * -  Go to Zone End 
-    -  :kbd:`Shift` + :kbd:`O` 
+    -  :kbd:`Shift + O` 
   * -  Go to Zone Start 
-    -  :kbd:`Shift` + :kbd:`I` 
+    -  :kbd:`Shift + I` 
   * -  Group Clips 
-    -  :kbd:`Ctrl` + :kbd:`G` 
+    -  :kbd:`Ctrl + G` 
   * -  Set Zone In 
     -  :kbd:`I` 
   * -  Ungroup Clips 
-    -  :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`G` 
+    -  :kbd:`Ctrl + Shift + G` 
   * -  Set Zone Out 
     -  :kbd:`O` 
   * -  :ref:`editing` 
-    - :kbd:`Ctrl` + :kbd:`X` [1]_   
+    - :kbd:`Ctrl + X` [1]_   
 
 
 .. [1]  available in bleeding edge version > 0.9.10 (Jan2015)

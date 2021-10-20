@@ -18,7 +18,7 @@ Clean Project
 
 Available from the :ref:`project_menu` menu this function removes any clips from the Project Tree that are not currently being used on the timeline. The files remain on the hard drive and are only removed from the Project Tree.
 
-You can undo this action with :kbd:`Ctrl` + :kbd:`Z`.
+You can undo this action with :kbd:`Ctrl + Z`.
 
 
 .. image:: /images/Kdenlive_Clean_project.png

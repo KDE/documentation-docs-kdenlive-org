@@ -9,8 +9,8 @@
 
 .. _project_tree:
 
-View>Project Tree
-=================
+Project Tree
+============
 
 .. contents::
 

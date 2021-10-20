@@ -84,8 +84,8 @@ The timeline got a visual overhaul with more and better looking guides/marker co
 
 
 .. image:: /images/timeline-overhaul.png
-  :align: left
-   :alt: timeline-overhaul
+   :align: left 
+   :alt: timeline_overhaul
   
 Before (above) and after (below)
 
@@ -99,7 +99,7 @@ Split Audio/Video
 
 
 .. image:: /images/splitAV.gif
-  :align: left
+   :align: left 
    :alt: splitAV
 
 
@@ -113,7 +113,7 @@ Timeline Cursor/Position Caret/Playhead
 ---------------------------------------
 
 .. image:: /images/kdenlive_timeline_playhead.png
-  :witdth: 450px
+  :width: 450px
   :align: left
   :alt: timeline playhead
 
