@@ -80,6 +80,9 @@ Timeline Menu
 
 
 .. image:: /images/kdenlive_timeline_allclips_rippledelete.png
+   :align: left
+   :alt: kdenlive_timeline_allclips_rippledelete
+
 
 :ref:`editing`  [1]_ 
 

@@ -48,6 +48,8 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/kdenlive_timeline_current_clip_duration02.png
+   :align: left
+   :alt: kdenlive_timeline_current_clip_duration02
 
 
 * :menuselection:`Restore audio` will add any audio track that is part of the original clip to the timeline
@@ -66,7 +68,7 @@ This is the context menu that appears when you right-click on a clip in the time
 
 .. image:: /images/Kdenlive-extract_clip.gif
    :align: center
-  :alt: Kdenlive-extract_clip
+   :alt: Kdenlive-extract_clip
 
 
 * :menuselection:`Save timeline zone to bin` will take the selected timeline zone and add markers to your clips in the project bin.

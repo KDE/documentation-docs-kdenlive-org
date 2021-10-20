@@ -113,9 +113,9 @@ Timeline Cursor/Position Caret/Playhead
 ---------------------------------------
 
 .. image:: /images/kdenlive_timeline_playhead.png
-  :width: 450px
-  :align: left
-  :alt: timeline playhead
+   :width: 450px
+   :align: left
+   :alt: timeline playhead
 
 This indicates the position we are displaying in the :ref:`monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead). 
 

@@ -28,6 +28,9 @@ Kdenlive warns me about missing codecs, I cannot render in some formats
 -----------------------------------------------------------------------
 
 .. image:: /images/icons/MissingCodec.png
+   :align: left
+   :alt: Missing Codec
+
 
 There are several possible reasons for this:
 

@@ -571,14 +571,14 @@ Exporting SRT subtitles only: :menuselection:`Project --> Subtitles --> Export s
 
 .. tip::
 
-SRT supports markup for: bold, italic, underline, text color and line break.
+  SRT supports markup for: bold, italic, underline, text color and line break.
 
-* ``<b>text in boldface</b>``
-* ``<i>text in italics</i>``
-* ``<u>text underlined</u>``
-* ``<font color="#00ff00"> text in green</font>`` you can use the font tag only to change color.
-* And all combined: ``<font color="#00ff00"><b><i><u>All combined</u></i></b></font>``     
-* **Line break:** Add on the end of each line a ``<br>`` (for break). Now the srt file is stored correct and reopened with the line break. The subtitle in the subtitle window will be all in 1 line after several save but the breaks is working.
+  * ``<b>text in boldface</b>``
+  * ``<i>text in italics</i>``
+  * ``<u>text underlined</u>``
+  * ``<font color="#00ff00"> text in green</font>`` you can use the font tag only to change color.
+  * And all combined: ``<font color="#00ff00"><b><i><u>All combined</u></i></b></font>``     
+  * **Line break:** Add on the end of each line a ``<br>`` (for break). Now the srt file is stored correct and reopened with the line break. The subtitle in the subtitle window will be all in 1 line after several save but the breaks is working.
   
   :kbd:`Alt + arrow` jumps from subtitle to subtitle.
 
