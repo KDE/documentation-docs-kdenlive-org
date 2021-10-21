@@ -9,7 +9,19 @@
 // Our list of supported languages
 $supported_languages = array(
     "en",
-    "fr"
+    "de",
+    "fr",
+    "nl",
+    "es",
+    "tr",
+    "da",
+    "pt_BR",
+    "ru",
+    "uk_UA",
+    "zh_CN",
+    "zh_TW",
+    "ja",
+    "ko"
 );
 
 // List of page redirect rules
