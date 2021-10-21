@@ -80,7 +80,7 @@ buildList: function(l) {
         if (ix === cur) {
             buf.push(' class="selected" tabindex="-1" role="presentation"><span tabindex="-1" role="menuitem" aria-current="page">' + title + '</spanp></li>');
         } else {
-            pathSplit[2] = ix;
+            pathSplit[1] = ix;
             var href = new URL(url);
             href.pathname = pathSplit.join('/');
             buf.push(' tabindex="-1" role="presentation"><a href ="' + href + '" tabindex="-1">' + title + '</a></li>');
