@@ -17,6 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
+import os
+import subprocess
+
 project = 'Kdenlive Manual'
 description = 'The official Kdenlive Documentation'
 copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise'
@@ -24,6 +27,13 @@ author = 'Kdenlive Community'
 
 # The full version, including alpha/beta/rc tags
 release = '21.12'
+
+# Get the git description if possible, to put it in the footer.
+
+try:
+    gitcommitfriendly = subprocess.check_output(["git", "describe", "--always"]).decode("utf-8").strip()
+except subprocess.CalledProcessError as exc:
+    gitcommitfriendly = None
 
 
 # -- General configuration ---------------------------------------------------
@@ -89,6 +99,14 @@ if html_theme == "sphinx_rtd_theme":
     html_css_files = ["css/theme_overrides.css",
                       "css/version_switch.css"]
     html_js_files = ["js/version_switch.js"]
+
+html_context = {
+    'build_id': os.getenv('BUILD_NUMBER', None),
+    'build_url': os.getenv('BUILD_URL', None),
+    'commit' : gitcommitfriendly
+}
+
+html_last_updated_fmt = '%Y-%m-%dT%H:%M:%S'
 
 # -- Internationalization Options --------------------------------------------
 
