@@ -197,7 +197,7 @@ Active buttons are grey.
 7b. **Frames** Sets the position indicator to display frames
 
 
-8. **Mix Clips** - allows same-track transitions to be applied between two clips. See `Same Track Transitions`_ for a detailed explanation.
+8. **Mix Clips** - allows same-track transitions to be applied between two clips. See :ref:`transition` for a detailed explanation.
 
 
 9. Insert Clip Zone in Timeline. See `Insert & Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.

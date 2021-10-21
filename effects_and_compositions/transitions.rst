@@ -27,6 +27,7 @@ There are two ways of adding transitions in **kdenlive**: **Mix clips**, aka sam
 
 Wipes are greyscale images in .pgm (Portable GreyMap) format, and during the transition the composition track will be displayed in the darkest areas of the wipe image first. If the wipe is inversed, the composition track will become visible in the brightest areas of the wipe image first instead. You can download more wipes (by clicking the download button in the wipe composition properties) or create your own  and load them by clicking the folder button.
 
+.. _transition:
 
 Mix Clips
 ---------
