@@ -86,7 +86,9 @@ html_favicon = 'ressources/static/images/favicon.ico'
 html_logo = 'ressources/static/images/logo-light.svg'
 
 if html_theme == "sphinx_rtd_theme":
-    html_css_files = ["css/theme_overrides.css"]
+    html_css_files = ["css/theme_overrides.css",
+                      "css/version_switch.css"]
+    html_js_files = ["js/version_switch.js"]
 
 # -- Internationalization Options --------------------------------------------
 
