@@ -1,6 +1,6 @@
 /* Start section description. */
 @media screen and (min-width: 450px){
-    .tocdescr {
+    .toctile {
         display: flex; display: -webkit-flex;
         flex-flow: row wrap; -webkit-flex-flow: row wrap;
         justify-content: space-between; -webkit-justify-content: space-between;
@@ -10,7 +10,7 @@
         margin-bottom: 10px;
     }
     /* Dan Andreasson on Stack Overflow. */
-    .tocdescr:after {
+    .toctile:after {
         content: "";
         flex: 1 0 33.3%; -webkit-flex: 1 0 33.3%;
         margin-left: 45px;
@@ -18,7 +18,7 @@
     }
 }
 @media screen and (max-width: 450px) {
-    .tocdescr {
+    .toctile {
         display: flex; display: -webkit-flex;
         flex-flow: column wrap; -webkit-flex-flow: column wrap;
         justify-content: space-between; -webkit-justify-content: space-between;
@@ -27,51 +27,51 @@
         list-style-type: none;
         margin-bottom: 10px;
     }
-    .tocdescr:after {
+    .toctile:after {
         content: "";
         flex: none; -webkit-flex: none;
     }
 }
-.descr {
+.tile {
     flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
     margin: 10px 15px;
     border-radius: .3em;
     user-select: none;
 }
-.descr div.figure,
-.descr figure {
+.tile div.figure,
+.tile figure {
     margin-bottom: 0px;
     display: block;
 }
-.descr img {
+.tile img {
     border-top-left-radius: .3em;
     border-top-right-radius: .3em;
 }
-.descr dl {margin-bottom: 10px}
-.descr dl dt > a {
+.tile dl {margin-bottom: 10px}
+.tile dl dt > a {
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
-.descr dl dt{
+.tile dl dt, .tile.no-descr p{
     font-weight: bold;
     font-style: normal;
     font-size: 1.3em;
 }
-.descr dl dt{padding: 18px 15px 0px!important}
-.descr dl dd{
+.tile dl dt, .tile.no-descr p{padding: 18px 15px 0px!important}
+.tile dl dd{
     padding: 0px 15px;
     font-style: normal;
     margin: 0px;
     color: #808080;
     font-size: 90%;
 }
-.descr {
+.tile {
     box-shadow: rgba(0,0,0,0.05) 0px 1px 4px 0px,
                     rgba(211,216,223,0.33) 0px 15px 20px -1px;
 }
 
-/*#getting-started .descr {
+/*#getting-started .tile {
     box-shadow: none;
 }*/
 /* End section description. */

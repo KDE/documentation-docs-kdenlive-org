@@ -16,40 +16,40 @@ Welcome to the manual for `kdenlive <https://kdenlive.org>`_, the free and open 
 Getting started
 ###############
 
-.. container:: tocdescr
+.. container:: toctile
 
-    .. container:: descr
+    .. container:: tile no-descr
 
         :ref:`Introduction`
 
 
-    .. container:: descr
+    .. container:: tile no-descr
 
         :ref:`Installation`
 
 
-    .. container:: descr
+    .. container:: tile
 
         :ref:`quickstart`
            Basic workflow with a video example.
 
-    .. container:: descr
+    .. container:: tile no-descr
 
-        :ref:`Tutorials`
+            :ref:`Tutorials`
 
 
 ##############
 User Interface
 ##############
 
-.. container:: tocdescr
+.. container:: toctile
 
-    .. container:: descr
+    .. container:: tile
 
        :ref:`Project_Settings`
           Setting the correct project values
 
-    .. container:: descr
+    .. container:: tile
 
        Key components
           :ref:`Project_tree`
@@ -60,12 +60,12 @@ User Interface
 
           :ref:`toolbars`
 
-    .. container:: descr
+    .. container:: tile
 
        :ref:`shortcuts`
           Improve your workflow by using the keyboard
 
-    .. container:: descr
+    .. container:: tile
 
        :ref:`Menu`
           Learn more about the different menus
@@ -75,9 +75,9 @@ User Interface
 Workflow
 ########
   
-.. container:: tocdescr
+.. container:: toctile
 
-    .. container:: descr
+    .. container:: tile
 
         .. figure:: /images/intro_page/Index_Logging.png
            :target: importing_and_assets_management.html
@@ -87,7 +87,7 @@ Workflow
 
            Starting video editing
 
-    .. container:: descr
+    .. container:: tile
 
         .. figure:: /images/intro_page/Index_Editing.png
 
@@ -96,7 +96,7 @@ Workflow
 
            See how the time line and the monitors are working
 
-    .. container:: descr
+    .. container:: tile
 
        .. figure:: /images/intro_page/Index_Effects.png
 
@@ -107,7 +107,7 @@ Workflow
 
           Make color correction.
 
-    .. container:: descr
+    .. container:: tile
 
        .. figure:: /images/intro_page/Index_Rendering.png
 
@@ -119,35 +119,35 @@ Workflow
 Troubleshooting, issues and bug reporting
 #########################################
 
-.. container:: tocdescr
+.. container:: toctile
 
-   .. container:: descr
+   .. container:: tile
 
       :ref:`Windows_Issues`
          Solving specific Windows issues
 
-   .. container:: descr
+   .. container:: tile
 
       :ref:`troubleshooting_and_common_problems`
          General problem solving
 
-   .. container:: descr
+   .. container:: tile
 
       `Bug Reports <https://kdenlive.org/en/bug-reports/>`__
          How to file a bug.
 
-   .. container:: descr
+   .. container:: tile
 
       :ref:`faq`
          Answers to questions frequently asked
 
-   .. container:: descr
+   .. container:: tile
 
       :ref:`Glossary`
          References and further information.
 
 
-   .. container:: descr
+   .. container:: tile
 
       `Get Involved <https://community.kde.org/Kdenlive/Workgroup/Documentation>`__
          Contribute to this Manual.
