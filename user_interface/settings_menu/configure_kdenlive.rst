@@ -22,7 +22,10 @@ Misc
 
 
 .. image:: /images/Kdenlive_Configure_misc.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Kdenlive_Configure_misc
+
 
 
 Open the last project on startup
@@ -52,7 +55,10 @@ Configures what the project settings will look like by default when you choose F
 
 
 .. image:: /images/Kdenlive_Configure_project_defaults.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Kdenlive_Configure_project_defaults
+
 
 
 Timeline
@@ -62,7 +68,10 @@ Configure how the timeline appears in **Kdenlive**
 
 
 .. image:: /images/Configure_Timeline.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Configure_Timeline
+
 
 
 **Thumbnails - video** - Turns on  :ref:`editing` by default.
@@ -92,7 +101,10 @@ MLT Environment
 ^^^^^^^^^^^^^^^
 
 .. image:: /images/Kdenlive_Configure_environment_MLT.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Kdenlive_Configure_environment_MLT
+
 
 .. list-table::
 
@@ -110,6 +122,9 @@ Default Folders
 ^^^^^^^^^^^^^^^
 
 .. image:: /images/Kdenlive_Configure_environment_default_folders.png
+   :align: left
+   :alt: Kdenlive_Configure_environment_default_folders
+
 
 
 This setting controls where **Kdenlive** expects project files to be by default. It also controls what folder **Kdenlive** will use as a temporary file storage location and it controls where files captured from an external source will be saved.
@@ -118,6 +133,9 @@ Default Apps
 ^^^^^^^^^^^^
 
 .. image:: /images/Kdenlive_Configure_envrionment_default_apps.png
+   :align: left
+   :alt: Kdenlive_Configure_envrionment_default_apps
+
 
 
 This setting controls what application opens when you choose :ref:`edit_clip` for a clip in the project tree. Note there is no application for video editing - because **Kdenlive** is a video editor.  Images and audio files are edited by the external applications defined here. The video player is used by the DVD wizard previewer.
@@ -141,7 +159,10 @@ The image shows the Configure Firewire capture tab which can be accessed from th
 
 
 .. image:: /images/Kdenlive_Configure_Capture.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Kdenlive_Configure_Capture
+
 
 
 The firewire capture functionality uses the `dvgrab <http://linux.die.net/man/1/dvgrab>`_ program.
@@ -174,7 +195,10 @@ This shows the configure tab for screen grab in ver 0.9.3 of **Kdenlive**. It wi
 
 
 .. image:: /images/Kdenlive_Configure_screen_grab.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Kdenlive_Configure_screen_grab
+
 
 
 Jog Shuttle
@@ -226,7 +250,10 @@ which should tell the device file to be entered into kdenlive's setting dialog: 
 
 
 .. image:: /images/KDENLIVE_Configure_jog_shuttle.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: KDENLIVE_Configure_jog_shuttle
+
 
 
 Enable Jog-Shuttle. For the Contour ShuttleXpress the buttons 5 - 9 are relevant, whereas Contour ShuttlePro uses all buttons. The actions for the jog- and the shuttle wheel are working as expected.
@@ -238,21 +265,31 @@ On the desktop, bottom-right opens the system tray. Right-click on the Contour i
 
 
 .. image:: /images/Contour_open-cotrol-panel.png
+   :align: left
+   :alt: Contour_open-cotrol-panel
+
   
 
 In the configuration window choose under "Application setting" the program "Adobe Premiere Pro CS&amp;CC (Edit)". Then click on :menuselection:`Options --> Create new settings --> Copy contents from Current Settings`. 
 
 
 .. image:: /images/Contour_new_settings.png
+   :align: left
+   :alt: Contour_new_settings
+
   
 
 Then choose Kdenlive.exe in C:\Program Files\kdenlive\bin. 
 
 
 .. image:: /images/Contour_Design_Choose_Aplication.png
+   :align: left
+   :alt: Contour_Design_Choose_Aplication
+
   
 
 Now the basic functionality should work. Adjust the buttons of the shuttle with shortcuts as you like.
+
 .. hint::
 
    You can make Kdenlive settings from scratch using :menuselection:`Options --> Create new settings --> Create Empty Settings` when creating new settings.
@@ -266,7 +303,10 @@ Configure the Video and Audio drivers and devices. For advanced users only.
 
 
 .. image:: /images/Kdenlive_Configure_playback.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Kdenlive_Configure_playback
+
 
 
 In version 0.9.4 of **Kdenlive**, checking the "use Open GL for video playback" checkbox turns on the ability to have audio scrubbing available for use in the clips.  Audio scrubbing lets you hear the audio at the playhead position as you drag the playhead so you can quickly find a particular sound or event in the audio. This feature can be useful for placing the play head at the correct spot in the clip relative to an important bit of audio.
@@ -282,7 +322,10 @@ This controls the :ref:`transcode` functionality. The parameters section are ffm
 
 
 .. image:: /images/Kdenlive_Configure_transcode.png
-  :width: 500px
+   :width: 500px
+   :align: left
+   :alt: Kdenlive_Configure_transcode
+
 
 
 Transcode Options
