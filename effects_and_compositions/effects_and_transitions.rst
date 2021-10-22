@@ -1339,7 +1339,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Simple color adjustment (frei0r.coloradj_RGB) 
-  * -  :ref:`rgb_parade` 
+  * -  :ref:`_rgb_parade_MLT` 
     -  Video Effect 
     -  Utility 
     -  Display a histogram of R, G and B components of the video data (frei0r.rgbparade).  
@@ -1859,7 +1859,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1209) 
-  * -  :ref:`vectorscope` 
+  * -  :ref:`vectorscope_MLT` 
     -  Video Effect 
     -  Utility 
     -  Display a vectorscope of the video data (frei0r.vectorscope)  

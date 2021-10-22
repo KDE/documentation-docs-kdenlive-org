@@ -32,6 +32,6 @@ The regions labeled 2 are in the middle of the scope and the dip in the graph th
 
 For more information, see `Granjow's blog <http://kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-parade>`_ on the waveform and RGB Parade scopes. This blog gives some information on how to use the data provided by the RGB Parade to do color correction on video footage.
 
-The RGB Parade option in the View menu is somewhat different from the  :ref:`rgb_parade` in that :menuselection:`View --> RGB Parade` displays the histogram in the application whereas the **RGB Parade** effect writes the histogram into the video output file.
+The RGB Parade option in the View menu is somewhat different from the  :ref:`_rgb_parade_MLT` in that :menuselection:`View --> RGB Parade` displays the histogram in the application whereas the **RGB Parade** effect writes the histogram into the video output file.
 
 

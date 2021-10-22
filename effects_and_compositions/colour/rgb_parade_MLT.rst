@@ -9,7 +9,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _rgb_parade:
+.. _rgb_parade_MLT:
 
 RGB Parade
 ==========

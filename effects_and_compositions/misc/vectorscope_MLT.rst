@@ -8,7 +8,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _vectorscope:
+.. _vectorscope_MLT:
 
 Analysis and Data - Vectorscope
 ===============================
