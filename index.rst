@@ -21,7 +21,8 @@ Getting started
     .. container:: descr
 
         :ref:`Introduction`
-
+            
+          
 
     .. container:: descr
 
@@ -46,6 +47,11 @@ User Interface
 
     .. container:: descr
 
+       :ref:`user_interface`
+          Introduction to Kdenlive's window system and widgets
+
+    .. container:: descr
+
        :ref:`Project_Settings`
           Setting the correct project values
 
@@ -65,10 +71,7 @@ User Interface
        :ref:`shortcuts`
           Improve your workflow by using the keyboard
 
-    .. container:: descr
 
-       :ref:`Menu`
-          Learn more about the different menus
 
 
 ########
