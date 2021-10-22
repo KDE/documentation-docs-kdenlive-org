@@ -21,24 +21,22 @@ Getting started
     .. container:: descr
 
         :ref:`Introduction`
-           About Kdenlive
+
 
     .. container:: descr
 
         :ref:`Installation`
-           How to install Kdenlive
+
 
     .. container:: descr
 
         :ref:`quickstart`
-           Going trough the workflow with an example.
+           Basic workflow with a video example.
 
     .. container:: descr
 
         :ref:`Tutorials`
-           How to do
 
-           Written and video tutorials
 
 ##############
 User Interface
@@ -81,7 +79,7 @@ Workflow
 
     .. container:: descr
 
-        .. figure:: /images/intro_page/Intro-placeholder.png
+        .. figure:: /images/intro_page/Index_Logging.png
            :target: importing_and_assets_management.html
 
         :doc:`importing_and_assets_management`
@@ -91,7 +89,7 @@ Workflow
 
     .. container:: descr
 
-        .. figure:: /images/intro_page/Intro-placeholder.png
+        .. figure:: /images/intro_page/Index_Editing.png
 
         :ref:`Cutting_and_assembling`
            Start editing in the Timeline
@@ -100,7 +98,7 @@ Workflow
 
     .. container:: descr
 
-       .. figure:: /images/intro_page/Intro-placeholder.png
+       .. figure:: /images/intro_page/Index_Effects.png
 
        :ref:`Effects`
           Add video and audio effects and compositions.
@@ -111,10 +109,10 @@ Workflow
 
     .. container:: descr
 
-       .. figure:: /images/intro_page/Intro-placeholder.png
+       .. figure:: /images/intro_page/Index_Rendering.png
 
        :ref:`Exporting`
-          Render out your final video so you can distribute as MP4 or other formats.
+          Render out your final video for distributing.
 
 
 #########################################

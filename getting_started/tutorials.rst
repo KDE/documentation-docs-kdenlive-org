@@ -22,13 +22,14 @@
 
 .. _tutorials:
 
-Written Tutorials
-=================
+Tutorials
+=========
 
 .. contents::
 
 
-
+Written Tutorials
+-----------------
 
 * See :ref:`quickstart` for a step-by-step introductory tutorial
 
@@ -52,7 +53,7 @@ Written Tutorials
 
 
 Video Tutorials
-===============
+---------------
 
 `Image and Title Layers Transparency Tutorial - Open Source Bug <https://www.youtube.com/watch?v=f6VHlOZutm8>`_
 
