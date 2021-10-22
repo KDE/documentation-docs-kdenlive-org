@@ -28,7 +28,7 @@ Under the **Record Monitor**, choose *FFmpeg* capture and enable *Audio* only an
 Version 19.04
 -------------
 
-
+.. versionadded:: 19.04
 
 An option in track headers allows you to have audio record controls. This enables you to play your project while recording a voice over comment. Very handy for making tutorials.
 
@@ -37,6 +37,9 @@ You will need to right-click an audio track and then click **Show Record Control
 
 
 .. image:: /images/audio-recording.gif
+   :align: left
+   :alt: audio-recording 
+
 
 
 .. note::

@@ -21,7 +21,8 @@ Getting started
     .. container:: tile no-descr
 
         :ref:`Introduction`
-
+            
+          
 
     .. container:: tile no-descr
 
@@ -46,6 +47,11 @@ User Interface
 
     .. container:: tile
 
+       :ref:`user_interface`
+          Introduction to Kdenlive's window system and widgets
+
+    .. container:: tile
+
        :ref:`Project_Settings`
           Setting the correct project values
 
@@ -64,11 +70,6 @@ User Interface
 
        :ref:`shortcuts`
           Improve your workflow by using the keyboard
-
-    .. container:: tile
-
-       :ref:`Menu`
-          Learn more about the different menus
 
 
 ########
