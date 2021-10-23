@@ -23,7 +23,7 @@ This menu item is available from :ref:`project_tree` on a clip in the Project Tr
 This feature applies image stabilization algorithms to the clip which can reduce the shakiness of a bit of footage.
 
 
-In versions 0.9.8 and earlier of Kdenlive, there were two different methods of stabilization available: vstab and transcode. In version 0.9.10, the vstab method was removed leaving us with just the "transcode"  method (based on `this <http://public.hronopik.de/vid.stab/>`_ work).
+In versions 0.9.8 and earlier of Kdenlive, there were two different methods of stabilization available: vstab and transcode. In version 0.9.10, the vstab method was removed leaving us with just the "transcode"  method (`based on this <http://public.hronopik.de/vid.stab/>`_ work).
 
 
 This video shows a side by side comparison between vstab and transcode stabilize methods.
@@ -32,8 +32,8 @@ This video shows a side by side comparison between vstab and transcode stabilize
 https://youtu.be/86SUhodScDE
 
 
-Stabilize
----------
+**Stabilize**
+
 
 .. image:: /images/Kdenlive_stabilise_transcode.png
   :align: left
@@ -49,7 +49,7 @@ This menu item was called  *stabilize (transcode)* in versions 0.9.2 and earlier
 In version 0.9.3, the transcode GUI was simplified.
 
 
-Based on the tooltips from this screen and the docs `here <http://public.hronopik.de/vid.stab/features.php?lang=en>`_, this is what all the options mean:
+Based on the tooltips from this screen and the `docs here <http://public.hronopik.de/vid.stab/features.php?lang=en>`_, this is what all the options mean:
 
 
 **optzoom** = use optimal zoom  (calculated from transforms). Causes video to zoom until 90% of transformations are hidden.  Default is checked. Hint: You can further zoom in with the zoom option.
@@ -128,6 +128,6 @@ This tutorial shows how to use the stabilize feature - vstab version:
 https://youtu.be/SWCoqZLJNgY
 
 
-The "shutter angle" setting that the narrator says he does not know what it does (1:35) ... Shutter angle is an angle that images could be maximum rotated for stabilization. see `here <http://www.mltframework.org/bin/view/MLT/FilterVideostab>`_.
+The "shutter angle" setting that the narrator says he does not know what it does (1:35) ... Shutter angle is an angle that images could be maximum rotated for stabilization. `See here <http://www.mltframework.org/bin/view/MLT/FilterVideostab>`_.
 
 

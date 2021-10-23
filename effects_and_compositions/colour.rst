@@ -66,7 +66,7 @@ The Color group of effects contains the follow effects:
    colour/hue_shift
    colour/invert
    colour/primaries
-   colour/rgb_parade
+   colour/rgb_parade_MLT
    colour/saturation
    colour/sepia
    colour/techicolor

@@ -204,7 +204,7 @@ Misc Effects
    misc/tehroxx0r
    misc/threshold
    misc/threshold0r
-   misc/vectorscope
+   misc/vectorscope_MLT
    misc/vignette
    misc/keysplillm0pup
    misc/nosync0r
