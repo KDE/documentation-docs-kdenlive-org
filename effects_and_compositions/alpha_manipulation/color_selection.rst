@@ -58,7 +58,7 @@ Here is an outline of all the options:
 **Selection Subspace** options are: RGB (Red Green Blue), ABI and HCI  (Hue Chromacity Intensity)
 
 
-These different options yield different results. While RGB should yield the sharpest and best results, sometimes (as :ref:`user:themickyrosen-left` have seen from experience) the other option, HCI &  ABI, can yield much better results than RGB. So if RGB isn't producing good results then try on of the other options.
+These different options yield different results. While RGB should yield the sharpest and best results, sometimes (as user *themickyrosen-left* have seen from experience) the other option, HCI &  ABI, can yield much better results than RGB. So if RGB isn't producing good results then try on of the other options.
 
 
 .. note::

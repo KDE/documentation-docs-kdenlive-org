@@ -17,7 +17,8 @@ Annotating
 .. contents::
 
 .. image:: /images/Noteswidget.png
-  :align: left
+   :align: left
+   :alt: Noteswidget
 
 Sometimes, you want to keep some notes about your project to remember ideas or things to do. For this task, **Kdenlive** provides a "Notes" widget that is available through :menuselection:`View --> Project Notes`.
 

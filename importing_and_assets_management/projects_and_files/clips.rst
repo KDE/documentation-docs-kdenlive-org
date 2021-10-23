@@ -40,8 +40,9 @@ button (Add Clip) brings up the **Add Clip** Dialog where you can choose video, 
 
 
 .. image:: /images/Add_clip_dialog.png
-  :width: 450px
-  :align: center
+   :width: 450px
+   :align: center
+   :alt: Add_clip_dialog
 
 
 The button 
@@ -59,7 +60,8 @@ button.
 
 
 .. image:: /images/Kdenlive_Add_other_clip_types.png
-  :align: center
+   :align: center
+   :alt: Kdenlive_Add_other_clip_types
 
 
 Color clips
@@ -81,8 +83,9 @@ This brings up the **Color Clip** dialog from which you can choose a color and a
 
 
 .. image:: /images/Add_color_clip.png
-  :align: center
-  :width: 200px
+   :align: center
+   :width: 200px
+   :alt: Add_color_clip
 
 
 Clicking :menuselection:`OK` adds the clip to the project tree. The clip can then be dragged to the timeline. The duration of the color clip can be adjusted on the timeline.
@@ -108,8 +111,9 @@ To create an image sequence clip, choose :menuselection:`Add Image Sequence` fro
 
 
 .. image:: /images/Create_slide_show_clip.png
-  :align: center
-  :width: 300px
+   :align: center
+   :width: 300px
+   :alt: Create_slide_show_clip
 
 
 From the **Image Sequence** dialog choose :menuselection:`Filename pattern` as **Image selection method**.
@@ -166,9 +170,9 @@ Proxy clips
 
 
 .. image:: /images/Kdenlive_ProxyClipsSettings.png
-  :align: center
-  :width: 500px
-  :alt: Activating proxy clips
+   :align: center
+   :width: 500px
+   :alt: Activating proxy clips
 
 
 * Proxy clips* create a lower-quality transcode of the original footage for use in real-time rendering in the project monitor.  This allows for a smoother editing experience even on slower computers with High Definition footage.  When rendering, by default, the original quality footage is used and not the proxy footage. For example, Video decoding of H.264 or H.265 clips, requires a lot of computing power to decode and could cause playback *stutter* when rendering effects in real time.
@@ -182,8 +186,9 @@ See also the :ref:`project_settings`  page
 
 
 .. image:: /images/Proxy_clip_creation.png
-  :align: left
-  :width: 210px
+   :align: left
+   :width: 210px
+   :alt: Proxy_clip_creation
 
 
 As soon as proxy clips are enabled, they can be generated for specific project clips in the Project Tree widget via the context menu :menuselection:`Proxy Clip`. After you select :menuselection:`Proxy Clip` for a clip, a job will start to create the clip. You can view the progress of this job by looking at the little gray progress bar that appears at the bottom of the clip in the Project Tree – see picture. Clicking :menuselection:`Proxy Clip` again disables the proxy for this clip.
@@ -193,8 +198,9 @@ You can multi-select clips in the Project Tree and select :menuselection:`Proxy 
 
 
 .. image:: /images/Proxy_clip_creation_completed.png
-  :align: left
-  :width: 210px
+   :align: left
+   :width: 210px
+   :alt: Proxy_clip_creation_completed
 
 
 Once the proxy clip creation has completed, the proxy clip will appear with a **P** icon in the Project Tree.
@@ -220,6 +226,9 @@ The :menuselection:`File Info` tab displays information about the file.
 
 
 .. image:: /images/Clip_properties_video.png
+   :align: left
+   :alt: Clip_properties_video
+
 
 
 Properties
@@ -231,8 +240,9 @@ The :menuselection:`Properties` tab displays advanced properties of the clip whe
 
 
 .. image:: /images/Clip_properties_advanced.png
-  :align: center
-  :width: 340px
+   :align: center
+   :width: 340px
+   :alt: Clip_properties_advanced
 
 
 Advanced Clip property options are:
@@ -280,7 +290,9 @@ Markers
 
 
 .. image:: /images/Clip_properties_Markers.png
-  :width: 300px
+   :width: 300px
+   :align: left
+   :alt: Clip_properties_Markers
 
 
 You can use the :menuselection:`Markers` tab to add markers for certain points in the source file that are important. However, it is probably easier to add markers to your clips via the  :ref:`monitors` because that allows you to preview the file at the location where you are adding the marker.
@@ -290,7 +302,9 @@ Once markers are put in your clip, you can access them in the :ref:`monitors` by
 
 
 .. image:: /images/Markers_in_clip_monitor.png
-  :width: 450px
+   :width: 450px
+   :align: left
+   :alt: Markers_in_clip_monitor
 
 
 Markers can also be added to clips on the timeline. :ref:`right_click_menu` the clip and choose :menuselection:`Markers --> Add Marker`.  Markers added this way also appear in the clip in the Project Bin.
@@ -313,6 +327,8 @@ You can view and delete motion vector data that is associated with the clip from
 
 
 .. image:: /images/Kdenlive_Clip_properties_analysis.png
+   :align: left
+   :alt: Kdenlive_Clip_properties_analysis
 
 
 Button 1 Will delete the selected analysis data, Button 2 will allow you to export the data (semi colon delimited text file), Button 3 will allow you to import analysis data.
@@ -332,6 +348,8 @@ This generates a counter timer clip in various formats which you can put onto th
 
 
 .. image:: /images/Kdenlive_Counter_dialog.png
+   :align: left
+   :alt: Kdenlive_Counter_dialog
 
 
 You can choose to have the clip count up by checking that option, otherwise it will count down by default.   The No Background option will remove the background from the counter leaving only the grey background without the lines.
@@ -350,6 +368,8 @@ In ver 17.04 it generates audio white noise as well as video snow.
 
 
 .. image:: /images/Kdenlive_Noize_generator.png
+  :align: left
+  :alt: Kdenlive_Noize_generator
 
 
 Color Bars
@@ -361,5 +381,7 @@ Including PAL color bars, BBC color bars, EBU color bars, SMPTE color bars, Phil
 
 
 .. image:: /images/Kdenlive_Colour_bars.png
+  :align: left
+  :alt: Kdenlive_Colour_bars
 
 

@@ -18,7 +18,8 @@ Archiving
 .. contents::
 
 .. image:: /images/Archive.png
-  :align: left
+   :align: left
+   :alt: Archive
 
 The Archiving feature (:menuselection:`Project --> Archive Project`, see :ref:`project_menu`) in **Kdenlive** allows you to copy all files required by the project (images, video clips, project files,...) to a folder, and alternatively to compress the whole into a tar.gz or a zip file.
 

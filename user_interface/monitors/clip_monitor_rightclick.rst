@@ -18,6 +18,8 @@ These are the menu items that are available when you right click a clip in the :
 
 
 .. image:: /images/Kdenlive_Clip_monitor_right_click_menu.png
+   :align: left
+   :alt: Kdenlive_Clip_monitor_right_click_menu
 
 
 Play...
@@ -163,6 +165,8 @@ This brings up the **Save Zone** dialog
 
 
 .. image:: /images/Kdenlive_Save_clip_zone.png
+   :align: left
+   :alt: Kdenlive_Save_clip_zone
 
 
 This causes the current zone (see :ref:`monitors`) to be saved as a :file:`.mlt` file. This is a MLT video playlist file which is an xml format file describing the zone that we saved. 
@@ -178,6 +182,8 @@ This brings up the **Cut Clip** dialog which appears to be setup to extract the 
 
 
 .. image:: /images/Kdenlive_Extract_zone.png
+   :align: left
+   :alt: Kdenlive_Extract_zone
 
 
 On the authors 0.9.2  and 0.9.5 version of **Kdenlive** this feature is broken for .dv format clips at least.  It does work for .mp4 type clips. However, the accuracy of the cuts on the clip is way out. 
