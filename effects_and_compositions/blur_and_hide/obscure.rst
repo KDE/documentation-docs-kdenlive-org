@@ -16,7 +16,7 @@ Obscure
 .. contents::
 
 
-`Obscure <http://www.mltframework.org/bin/view/MLT/FilterObscure>`_
+`See obscure <http://www.mltframework.org/bin/view/MLT/FilterObscure>`_
 
 Hide a region of the clip
 

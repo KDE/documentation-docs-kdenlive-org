@@ -15,7 +15,7 @@ Mirror
 .. contents::
 
 
-This is the `Mirror <http://www.mltframework.org/bin/view/MLT/FilterMirror>`_ MLT filter 
+`This is the Mirror <http://www.mltframework.org/bin/view/MLT/FilterMirror>`_ MLT filter 
 
 Provides various mirror and image reversing effects.
 
