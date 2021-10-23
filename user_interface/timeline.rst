@@ -35,25 +35,12 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
 2 - **Timeline ruler**. This shows the time in frames or in hh:mm:ss notation. The area highlighted in green is called the selection zone, and is useful if you want to render only a part of your project. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. The Timeline ruler context menu allows you to manage :ref:`guides`.
 
 
-3 -  **Track header**. This box shows some options for a track. First is the track name (Main Video Track in the screenshot). That name can be changed by simply clicking in it. Below are icons to :menuselection:`Lock the track` 
-
-.. image:: /images/icons/kdenlive-lock.svg
-   
-      
-which will prevent adding clips, removing clips, or moving of clips on the timeline; :menuselection:`Mute the track` 
-
-.. image:: /images/icons/kdenlive-hide-audio.svg
-   
-
-* *:menuselection:`Hide video`**
-
-.. image:: /images/icons/kdenlive-hide-video.svg
-
-from this track; and, :menuselection:`Enable/Disable track effects` 
-
-.. image:: /images/icons/tools-wizard.svg
-
-allows you to enable or disable the effects applied to the track. Right clicking in the track header will give you a context menu allowing to manage (add / delete) tracks.
+3 -  **Track header**. This box shows some options for a track. First is the track name (Main Video Track in the screenshot). That name can be changed by simply clicking in it. Below are icons to 
+* * :menuselection:`Lock the track` |kdenlive-lock| which will prevent adding clips, removing clips, or moving of clips on the timeline;
+* * :menuselection:`Mute the track` |kdenlive-hide-audio|
+* * :menuselection:`Hide video` |kdenlive-hide-video| from this track; and, 
+* * :menuselection:`Enable/Disable track effects` |tools-wizard| allows you to enable or disable the effects applied to the track. 
+* Right clicking in the track header will give you a context menu allowing to manage (add / delete) tracks.
 
 
 * 4 - The track itself, this is where you can drop your clips.

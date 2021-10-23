@@ -401,13 +401,7 @@ Spacer Tool
 
 
 
-Use this tool (
-
-.. image:: /images/icons/distribute-horizontal.svg
-   :align: left
-   :alt: distribute horizontal
-
-) to temporarily group separate clips and then drag them around the timeline to create or remove space between clips. Very useful. Experiment with this tool to see how it works.
+Use this tool (|distribute-horizontal|) to temporarily group separate clips and then drag them around the timeline to create or remove space between clips. Very useful. Experiment with this tool to see how it works.
 
 
 .. image:: /images/Kdenlive_Spacer_tool_crop.png

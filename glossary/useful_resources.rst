@@ -29,9 +29,9 @@ Useful Resources
 Keyboard Stickers - courtesy of Weevil 
 
 
-.. image:: /images/Kdenlive_Keyboard_074.svg
+|Kdenlive_Keyboard_074|
 
 
-.. image:: /images/Kdenlive_Keyboard_074_A4.svg
+|Kdenlive_Keyboard_074_A4|
 
 

@@ -32,11 +32,7 @@ Clips (Video, Audio and Images)
  
 
 
-The 
-
-.. image:: /images/icons/kdenlive-add-clip.svg
-
-button (Add Clip) brings up the **Add Clip** Dialog where you can choose video, audio or still image clips to add to the :ref:`project_tree`.
+The |kdenlive-add-clip| button (Add Clip) brings up the **Add Clip** Dialog where you can choose video, audio or still image clips to add to the :ref:`project_tree`.
 
 
 .. image:: /images/Add_clip_dialog.png
@@ -45,18 +41,10 @@ button (Add Clip) brings up the **Add Clip** Dialog where you can choose video, 
    :alt: Add_clip_dialog
 
 
-The button 
-
-.. image:: /images/icons/view-preview.svg
-
-labeled 1 toggles File Preview on and off (applies to image files only). The slider labeled 2 adjusts the size of the preview icons. The :menuselection:`Import image sequence` checkbox labeled 3 enables the import of a series of images that can be used to make a stop motion animation.
+The button |view-preview| labeled 1 toggles File Preview on and off (applies to image files only). The slider labeled 2 adjusts the size of the preview icons. The :menuselection:`Import image sequence` checkbox labeled 3 enables the import of a series of images that can be used to make a stop motion animation.
 
 
-You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the  
-
-.. image:: /images/icons/kdenlive-add-clip.svg
-
-button.
+You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the |kdenlive-add-clip| button.
 
 
 .. image:: /images/Kdenlive_Add_other_clip_types.png
@@ -72,11 +60,7 @@ Color clips
 Color clips are images composed of a single color that can be added to the Project Tree. They can be useful to provide a background on which to place titles.
 
 
-Add color clips by choosing :menuselection:`Add Color Clip` from the drop down button next to the 
-
-.. image:: /images/icons/kdenlive-add-clip.svg
-
-button.
+Add color clips by choosing :menuselection:`Add Color Clip` from the drop down button next to the |kdenlive-add-clip| button.
 
 
 This brings up the **Color Clip** dialog from which you can choose a color and a duration.

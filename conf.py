@@ -73,6 +73,36 @@ rst_epilog = """
 .. |application-menu| image:: /images/icons/application-menu.svg
    :width: 22px
 
+.. |view-preview| image:: /images/icons/view-preview.svg
+   :width: 22px
+
+.. |distribute-horizontal| image:: /images/icons/distribute-horizontal.svg
+   :width: 22px
+
+.. |media-record| image:: /images/icons/media-record.svg
+   :width: 22px
+
+.. |document-new| image:: /images/icons/document-new.svg
+   :width: 22px
+
+.. |kdenlive-lock| image:: /images/icons/kdenlive-lock.svg
+   :width: 22px
+
+.. |kdenlive-hide-audio| image:: /images/icons/kdenlive-hide-audio.svg
+   :width: 22px
+
+.. |kdenlive-hide-video| image:: /images/icons/kdenlive-hide-video.svg
+   :width: 22px
+
+.. |tools-wizard| image:: /images/icons/tools-wizard.svg
+   :width: 22px
+
+.. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
+   :width: 480px
+
+.. |Kdenlive_Keyboard_074_A4| image:: /images/Kdenlive_Keyboard_074_A4.svg
+   :width: 480px
+
 """
 
 

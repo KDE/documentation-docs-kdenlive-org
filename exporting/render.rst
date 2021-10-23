@@ -32,12 +32,7 @@ Rendering
 Rendering is the process where the edited clips are saved into a single complete video clip. During the rendering process the video can be compressed and converted to a number of different video formats (aka codecs).
 
 
-The rendering dialog is brought up from the render button 
-
-.. image:: /images/icons/media-record.svg
-
-from selecting :menuselection:`Render` in the :ref:`project_menu`  or by the :kbd:`Ctrl` + 
-`Enter` shortcut.
+The rendering dialog is brought up from the render button |media-record| from selecting :menuselection:`Render` in the :ref:`project_menu`  or by the :kbd:`Ctrl + Enter` shortcut.
 
 
 Rendering Dialog Ver 17.04
@@ -160,8 +155,7 @@ You can create your own custom render profiles by clicking the button highlighte
    :align: left
    :alt: Custom_render_profiles
 
-.. |document-new| image:: /images/icons/document-new.svg
-   :width: 32px
+|document-new|
 
 This will open the **Save Profile** dialog (also shown in the above screenshot) and the :menuselection:`Parameters` section will be filled in with the render parameters of the profile that you had selected when you clicked the |document-new| button. You can edit values in the parameters and save your own custom render profile.
 
