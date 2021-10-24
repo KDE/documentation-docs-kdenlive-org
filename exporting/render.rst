@@ -417,9 +417,3 @@ Options are *Force Progressive*, *Force Interlaced* and  *Auto*.
 
 
 * Auto* causes the rendered file to take the scanning settings that are defined in the :ref:`project_settings`. Use the other options to override the setting defined in the project settings.
-
-
-.. toctree::
-   :caption: Contents:
-
-   render/render_profile_parameters
