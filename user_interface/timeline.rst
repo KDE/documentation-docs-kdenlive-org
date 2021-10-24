@@ -174,9 +174,4 @@ Individual clips can be disabled while still in the timeline but with no audio a
    :maxdepth: 1
    :caption: See also:
 
-   ../getting_started/quickstart
-   ../cutting_and_assembling/editing
-   ../cutting_and_assembling/grouping
-   ../cutting_and_assembling/guides
-   ../cutting_and_assembling/right_click_menu
    timeline_menu
