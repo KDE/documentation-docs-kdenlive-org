@@ -13,12 +13,13 @@
 
 .. _right_click_menu:
 
-Clip in Timeline - Right-Click Menu
-===================================
+Right-Click Menus
+=================
 
 .. contents::
 
-
+Clip in Timeline
+----------------
 
 
 This is the context menu that appears when you right-click on a clip in the timeline.  A different menu appears if you click in empty space in the timeline.
@@ -119,8 +120,8 @@ This is the context menu that appears when you right-click on a clip in the time
 * :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`compositeandtransform` or the :ref:`wipe` composition
 
 
-Empty Space in Timeline - Right-Click Menu
-==========================================
+Empty Space in Timeline
+-----------------------
 
 
 
