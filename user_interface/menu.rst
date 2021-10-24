@@ -14,12 +14,12 @@ Menu Reference
 .. contents::
 
 
-
-
 * :ref:`file_menu`
 
 
 * :ref:`edit_menu`
+
+* :ref:`view_menu`
 
 
 * :ref:`project_menu`
@@ -37,9 +37,19 @@ Menu Reference
 * :ref:`monitor_menu`
 
 
-* :ref:`view_menu`
-
-
 * :ref:`settings_menu`
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   :glob:
 
+   menu/file_menu
+   menu/edit_menu
+   menu/view_menu
+   menu/project_menu
+   menu/tool_menu
+   menu/clip_menu
+   menu/timeline_menu
+   menu/monitor_menu
+   menu/settings_menu

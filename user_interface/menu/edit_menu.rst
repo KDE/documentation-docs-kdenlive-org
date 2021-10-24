@@ -40,6 +40,8 @@ Paste
 
 Pastes an existing clip in the clipboard into a different spot on the timeline. The default keyboard shortcut is :kbd:`Ctrl + V`.
 
+.. _paste_effects:
+
 Paste Effects
 -------------
 
