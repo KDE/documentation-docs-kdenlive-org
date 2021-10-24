@@ -15,7 +15,7 @@ Threshold
 .. contents::
 
 
-This is the `Threshold <http://www.mltframework.org/bin/view/MLT/FilterThreshold>`_ MLT filter
+`This is the Threshold <http://www.mltframework.org/bin/view/MLT/FilterThreshold>`_ MLT filter
 
 Make monochrome clip
 
