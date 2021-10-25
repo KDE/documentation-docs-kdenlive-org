@@ -40,10 +40,7 @@ Crop and Transform
 
 
 .. toctree::
-   :caption: Contents:
-
-   crop_and_transform/crop
-   crop_and_transform/letterb0xed
-   crop_and_transform/pan_and_zoom
-   crop_and_transform/rotate_and_shear
-   crop_and_transform/scale_and_tilt
+   :maxdepth: 2
+   :glob: 
+   
+   crop_and_transform/*

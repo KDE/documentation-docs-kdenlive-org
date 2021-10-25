@@ -27,4 +27,8 @@ The Analysis and Data category of effects are useful for getting information abo
 * :ref:`vectorscope`
 * :ref:`video_values`
 
+.. toctree::
+   :maxdepth: 2
+   :glob: 
 
+   analysis_and_data/*
