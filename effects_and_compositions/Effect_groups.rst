@@ -4,11 +4,11 @@
              
    :license: Creative Commons License SA 4.0
 
-.. _effect_group:
+.. _effect_groups:
 
-############
-Effect Group
-############
+#############
+Effect Groups
+#############
 
 
 

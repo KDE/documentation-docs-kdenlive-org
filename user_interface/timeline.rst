@@ -174,4 +174,4 @@ Individual clips can be disabled while still in the timeline but with no audio a
    :maxdepth: 1
    :caption: See also:
 
-   timeline_menu
+   menu/timeline_menu
