@@ -17,5 +17,5 @@ Effect Groups
    :caption: Contents:
    :glob:
 
-   effect_group/*
+   effect_groups/*
    
