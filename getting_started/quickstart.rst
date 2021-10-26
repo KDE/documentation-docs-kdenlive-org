@@ -37,7 +37,7 @@ Creating a new project
   :width: 200px
   :alt: Kdenlive directory structure
 
-The first step is creating a new (empty) folder for our new project. I will call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample video clips, or download them from here:` Archive File: kdenlive-tutorial-videos-2011-avi.zip <kdenlive-tutorial-videos-2011-avi.zip>`_  
+The first step is creating a new (empty) folder for our new project. I will call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample video clips, or download them from here: :download:`kdenlive-tutorial-videos-2011-avi.zip </files/kdenlive-tutorial-videos-2011-avi.zip>`.  
 (7 MB) [1]_ , and extract them to e.g. a :file:`quickstart-tutorial/Videos/` subfolder inside the project folder.
 
 
@@ -220,7 +220,7 @@ After some seconds rendering will be finished, and your first **Kdenlive** proje
 References and notes
 --------------------
 
-.. [1] If you prefer Theora (which you probably don’t since Ogg Video usually causes problems), you can alternatively download `kdenlive-tutorial-videos-2011-ogv.tar.bz2 <http://granjow.net/uploads/kdenlive/manual/kdenlive-tutorial-videos-2011-ogv.tar.bz2>`_.
+.. [1] If you prefer Theora (which you probably don’t since Ogg Video usually causes problems), you can alternatively download ::download:`kdenlive-tutorial-videos-2011-ogv.tar.bz2 </files/kdenlive-tutorial-videos-2011-ogv.tar.bz2>`.
 .. [2] `720 <http://en.wikipedia.org/wiki/720p>`_ is the video height, p stands for `progressive scan <http://en.wikipedia.org/wiki/Progressive_scan>`_ in contrast to `interlaced video <http://en.wikipedia.org/wiki/Interlaced_video>`_, and the fps number denotes the number of full frames per second.
 .. [3] Provided Configure Kdenlive Settings under :ref:`configure_kdenlive` is set to *Check if first added clip matches project profile*
 .. [4] To be correct, it *can* be played using ``melt yourproject.kdenlive``, but this is not the way you would want to present your final video since it is (most likely) too slow. Additionally, it only works if melt is installed.
