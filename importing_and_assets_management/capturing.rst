@@ -38,7 +38,9 @@ To execute a video capture, select the :ref:`monitors` and choose the capture de
 
 
 .. image:: /images/Kdenlive_Capture_video1.png
-  :width: 500px
+  :width: 450px
+  :align: left
+  :alt: Kdenlive_Capture_video1
 
 
 Firewire
@@ -59,7 +61,8 @@ To perform a capture:
 * Click the *Connect Button* 
 
 .. image:: /images/Kdenlive_Connect_firewire_button.png
-
+  :align: left
+  :alt: Kdenlive_Connect_firewire_button
 
 * Click the Record Button – note it toggles to grey while you are recording
 
@@ -70,12 +73,16 @@ To perform a capture:
 * Once capturing is finished, click the disconnect button 
 
 .. image:: /images/Kdenlive_Disconnect_capture.png
+  :align: left
+  :alt: Kdenlive_Disconnect_capture
 
 
 * In the *Captured Files* dialog, click the import button to have the captured files automatically imported into the project bin.
 
 
 .. image:: /images/Kdenlive_Captured_files_dialog.png
+  :align: left
+  :alt: Kdenlive_Captured_files_dialog
 
 
 .. note::
@@ -96,7 +103,7 @@ Screen Grab
 
 
 
-This captures video of the PC screen. In version 0.9.2 it uses *recordMyDesktop* to do the capture. There is an open defect with this functionality in ver 0.9.2 – See bug tracker ID `2643 <http://www.kdenlive.org/mantis/view.php?id=2643>`_. 
+This captures video of the PC screen. In version 0.9.2 it uses *recordMyDesktop* to do the capture. There is an open defect with this functionality in ver 0.9.2 – Mentioned in legacy Mantis bug tracker ID 2643. 
 
 
 In version 0.9.3, the screen grab is done by the *ffmpeg* functionality instead.  For screen capture to work in ver 0.9.3, the version of *ffmpeg* installed needs to have been compiled with the ``--enable-x11grab``  option. Ubuntu comes with an *ffmpeg* version compiled with this option.  
@@ -119,7 +126,7 @@ Blackmagic
 
 
 
-This is for capturing from Blackmagics `decklink <http://www.blackmagic-design.com/uk/products/decklink/>`_ video capture cards (AFAIK). Not sure how stable this code is at the moment. See defect `2130 <http://www.kdenlive.org/mantis/view.php?id=2130>`_.
+This is for capturing from Blackmagics `decklink <http://www.blackmagic-design.com/uk/products/decklink/>`_ video capture cards (AFAIK). Not sure how stable this code is at the moment. Mentioned in legacy Mantis bug tracker ID 2130.
 
 
 Footnotes

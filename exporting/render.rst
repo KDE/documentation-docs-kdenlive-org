@@ -265,7 +265,7 @@ And this is the metadata on the resulting clip (rendered with :menuselection:`Ex
   
 
 
-This reveals a bug in ver 0.9.4 of **Kdenlive** - the full title is not placed in the metadata - it is truncated at the first space. This has been fixed in 0.9.5 of **Kdenlive** as Mantis number `2996 <http://www.kdenlive.org/mantis/view.php?id=2996>`_.
+This reveals a bug in ver 0.9.4 of **Kdenlive** - the full title is not placed in the metadata - it is truncated at the first space. This has been fixed in 0.9.5 of **Kdenlive** as mentioned in legacy Mantis bug tracker ID 2996.
 
 
 Export Audio Checkbox

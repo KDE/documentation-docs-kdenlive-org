@@ -22,7 +22,7 @@ Generates image rotation in 3D space, skew and distortion.
 Provides keyframable animated affine transformations with dissolve functionality.
 
 
-In many applications, this transition can be used instead of a :ref:`composite` transition and this provides a workaround to the composite transition  "green tinge" bug reported by some. (Mantis #`2759 <http://www.kdenlive.org/mantis/view.php?id=2759>`_)
+In many applications, this transition can be used instead of a :ref:`composite` transition and this provides a workaround to the composite transition  "green tinge" bug reported by some. (Mentioned in legacy Mantis bug tracker ID 2759)
 
 
 Example 1
