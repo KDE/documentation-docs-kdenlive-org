@@ -31,10 +31,12 @@ The effects that are in play on a given clip can be viewed and edited via the Pr
 You can also apply effects to an entire track. This is achieved by dragging an effect from the **Effect Tab** to the **Track Header**.  Or you can click on the track header and chose :menuselection:`Add Effect` from the :ref:`timeline_menu`. Tracks which have effects added in this fashion will have a gold star icon in the track header.
 
 
-.. image:: /images/Kdenlive_Effect_on_whole_track.png
+.. figure:: /images/Kdenlive_Effect_on_whole_track.png
   :align: left
   :width: 100px
-  :alt: Figure 1a. Track header showing star icon indicating an effect has been added to this track.
+  :alt: Kdenlive_Effect_on_whole_track
+  
+  Figure 1a. Track header showing star icon indicating an effect has been added to this track.
 
 
 Effects Tab
@@ -43,10 +45,12 @@ Effects Tab
 Make the Effects Tab visible from the :menuselection:`View` menu (:menuselection:`View --> Effects`)
 
 
-.. image:: /images/Kdenlive_Effects_tab_17_04.png
+.. figure:: /images/Kdenlive_Effects_tab_17_04.png
   :align: left
   :width: 350px
-  :alt: Figure 1b - effects tab. The Information icon (6) has been toggled so that the tab displays a brief description of the selected effect at the bottom
+  :alt: Kdenlive_Effects_tab_17_04
+  
+  Figure 1b - effects tab. The Information icon (6) has been toggled so that the tab displays a brief description of the selected effect at the bottom
 
 
 The effects tab has 5 different icons that cause the application to show and hide different categories of effects. 
@@ -82,23 +86,30 @@ The Properties Tab
 The Properties Tab displays the settings for the effects on the currently selected clip (Figure 3) or the settings for  the currently selected transition (Figure 4)  depending on whether it is a clip or a transition that is currently selected.
 
 
-.. image:: /images/Kdenlive_selection_param1.png
+.. figure:: /images/Kdenlive_selection_param1.png
   :align: left
   :width: 350px
-  :alt: Figure 3 - Properties when a clip with effects is selected
+  :alt: Kdenlive_selection_param1
+  
+  Figure 3 - Properties when a clip with effects is selected
 
 
-.. image:: /images/Kdenlive_selection_param2.png
+.. figure:: /images/Kdenlive_selection_param2.png
   :align: left
   :width: 250px
-  :alt: Figure 4 - Properties when a transition is selected
+  :alt: Kdenlive_selection_param2
+  
+  Figure 4 - Properties when a transition is selected
+
 
 Click the eye icon shown at 2 to temporarily disable the effect and toggle the button to the state shown at 1. 
 Click the empty eye icon shown at 1 to re-enable a disabled effect and toggle the button to the state shown at 2.
 
-.. image:: /images/Toggle_effect_on_and_off.png
+.. figure:: /images/Toggle_effect_on_and_off.png
   :align: left
-  :alt: toggle effect n and off
+  :alt: Toggle_effect_on_and_off
+  
+  toggle effect on and off
 
 
 To remove an effect from a clip, click the trash can icon labelled 3 in the image below. The arrow labelled 1 minimizes the effect in the Properties Window. And the icon labelled 2 brings up the Properties Tab menu shown. 
@@ -155,8 +166,10 @@ See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
   
 Effect panels get zoom bars. Adjusting keyframes just get easier.
 
+.. image:: /images/Zoombar-effects.gif
+  :align: left
+  :alt: Zoombar-effects
 
-VIDEO FILE Zoombar-effects.mp4 MISSING 
   
 
 
@@ -167,8 +180,11 @@ Working with keyframes in the effect stack
   
 The effect’s keyframe panel has new icons, improved keyframe grabbing and new functions like:
 
+.. image:: /images/move-kf-to-cursor.gif
+  :align: left
+  :alt: move-kf-to-cursor
 
-VIDEO FILE move-kf-to-cursor.mp4 MISSING 
+
 
 # Select the keyframe you want to move
 # Move the cursor to the position where you want to move the keyframe to
@@ -176,7 +192,10 @@ VIDEO FILE move-kf-to-cursor.mp4 MISSING
 * Click on :menuselection:`Move selected keyframe to cursor position`
 
 
-VIDEO FILE duplicate-keyframe.mp4 MISSING 
+.. image:: /images/duplicate-keyframe.gif
+  :align: left
+  :alt: duplicate-keyframe
+
 
 # Select the keyframe you want to duplicate
 # Move the cursor to the position where you want to insert the new keyframe
@@ -184,7 +203,10 @@ VIDEO FILE duplicate-keyframe.mp4 MISSING
 * Click on :menuselection:`Duplicate selected keyframe`
 
 
-VIDEO FILE apply-value-to-selected-kf.mp4 MISSING 
+.. image:: /images/apply-value-to-selected-kf.gif
+  :align: left
+  :alt: apply-value-to-selected-kf
+ 
 
 # Select all keyframes you want to apply the value on
 # Go to one of the selected keyframes and change the value(s) as you want
@@ -193,13 +215,19 @@ VIDEO FILE apply-value-to-selected-kf.mp4 MISSING
 * Select the parameters you want to apply and click on :menuselection:`OK`
 
 
-VIDEO FILE kf-ctrl-select.mp4 MISSING 
+.. image:: /images/kf-ctrl-select.gif
+  :align: left
+  :alt: kf-ctrl-select
 
 
-VIDEO FILE kf-rubber-select.mp4 MISSING 
+.. image:: /images/kf-rubber-select.gif
+  :align: left
+  :alt: kf-rubber-select 
 
 
-VIDEO FILE multiple-kf-move.mp4 MISSING 
+.. image:: /images/multiple-kf-move.gif
+  :align: left
+  :alt: multiple-kf-move 
 
 
 Exchange keyframes across effects
@@ -230,14 +258,18 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 **Track Effect Zone**
 
 
-VIDEO FILE track-effect-zone.mp4 MISSING 
+.. image:: /images/track-effect-zone.gif
+  :align: left
+  :alt: track-effect-zone 
   
 
 
 **Master Effect Zone**
 
 
-VIDEO FILE timeline-effect-zone.mp4 MISSING 
+.. image:: /images/timeline-effect-zone.gif
+  :align: left
+  :alt: timeline-effect-zone
   
 
 
