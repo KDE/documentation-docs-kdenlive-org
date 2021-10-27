@@ -21,7 +21,7 @@ Timeline
 
 .. contents::
 
-.. image:: /images/Kdenlive_timeline.png
+.. figure:: /images/Kdenlive_timeline.png
   :width: 450px
   :align: left
   :alt: Timeline pane
@@ -52,15 +52,22 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
 
 
 Besides the availability of zoombars in the monitor and keyframe scroll bars, zoombars are now available in the timeline as well. You can easily zoom in/out in the timeline by dragging the edges of the timeline scrollbar. (Vertical zoombars coming soon.) Recommend playing this video in full-screen mode.
-VIDEO FILE zoom-bar.mp4 MISSING 
-  
 
+.. image:: /images/Zoom-bar.gif
+   :align: left 
+   :alt: Zoom-bar
+ 
+  
 
 **Key binding information**
 
 
 Key binding info has been added on the left while context item information has been moved to the right of the status bar. Recommend playing this video in full-screen mode.
-VIDEO FILE context-and-keybinds.mp4 MISSING 
+
+
+.. image:: /images/context-and-keybinds.gif
+   :align: left 
+   :alt: context-and-keybinds
   
 
 
