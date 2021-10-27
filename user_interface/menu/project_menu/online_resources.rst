@@ -25,6 +25,8 @@ Available from the :ref:`project_menu` menu and the :ref:`clips` dropdown,  this
 
 
 .. image:: /images/Kdenlive_Search_Online_services.png
+   :align: left
+   :alt: Kdenlive_Search_Online_services
 
 
 .. versionadded:: 21.04.0 
@@ -32,7 +34,9 @@ Available from the :ref:`project_menu` menu and the :ref:`clips` dropdown,  this
 The new online resources window features more source footage providers such as `Pixabay <https://pixabay.com/>`_ and `Pexels <https://www.pexels.com/>`_ besides the already available `Freesound <https://freesound.org/>`_ and `Internet Archive <https://archive.org/>`_. Other possible providers are being considered, see `here <https://invent.kde.org/multimedia/kdenlive/-/issues/918>`_ for more details.
 
 
-VIDEO FILE online-resources-widget.mp4 MISSING 
+.. image:: /images/online-resources-widget.gif
+   :align: left
+   :alt: copyright
   
 
 
@@ -40,9 +44,13 @@ It is important to give credit to the downloaded sources so we’ve added an opt
 
 
 .. image:: /images/copyright.png
+   :align: left
+   :alt: copyright
 
 
 .. image:: /images/license-text-notes.png
+   :align: left
+   :alt: license-text-notes
   
 
 
@@ -55,6 +63,8 @@ The Freesound Audio Library part of this became non-functional on old versions o
 
 
 .. image:: /images/Kdenlive_Search_online_resources2.png
+   :align: left
+   :alt: Kdenlive_Search_online_resources2
 
 
 Version 15.12 (December 2015) allowed users to automatically download the high-quality .mp3 preview file from freesound using the **Online Resources** module.
@@ -76,6 +86,9 @@ On hitting the import button, and if this is the first time you have used the fr
 
 
 .. image:: /images/Kdenlive_freesound1.png
+   :align: left
+   :alt: Kdenlive_freesound1
+
 
 
 It might take a few seconds for the freesound web page to load in the window – be patient.
@@ -85,6 +98,8 @@ Once you have logged into the freesound system, you must grant Kdenlive permissi
 
 
 .. image:: /images/Kdenlive_freesound2.png
+   :align: left
+   :alt: Kdenlive_freesound2
 
 
 You can revoke Kdenlive's access to your freesound account from the freesound website. Log in to your account and click the link in the App permissions section on the settings page "Manage your list of permissions granted to API applications"
