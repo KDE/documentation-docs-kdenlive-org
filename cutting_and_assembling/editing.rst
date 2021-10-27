@@ -323,14 +323,18 @@ Timeline Edit Mode - Overwrite Mode
 In this edit mode, you can drag a clip onto a track where there is an existing clip and the incoming clip will overwrite that portion of the existing clip (or clips) covered by the incoming clip.
 
 
-.. image:: /images/kdenlive_overwrite_mode_before01.png
+.. figure:: /images/kdenlive_overwrite_mode_before01.png
    :align: left
-   :alt: Before
+   :alt: kdenlive_overwrite_mode_after01
+   
+   Before
 
 
-.. image:: /images/kdenlive_overwrite_mode_after01.png
+.. figure:: /images/kdenlive_overwrite_mode_after01.png
    :align: left
-   :alt: After
+   :alt: kdenlive_overwrite_mode_after01
+   
+   After
 
 
 In the "After" screenshot above, you can see that the clip which was dragged from the upper track has replaced a portion of the clip on the lower track.
@@ -341,8 +345,9 @@ In the "After" screenshot above, you can see that the clip which was dragged fro
 
 Performing a rearrange edit. This technique lets you quickly change the order of clips in the timeline.
 
-
-VIDEO FILE Overwrite-mode.mp4 MISSING 
+.. image:: /images/Overwrite-mode.gif
+   :align: center
+   :alt: Overwrite-mode
  
 
 Drag a clip, as you drop it to a new location performs an overwrite edit that overwrites the existing clip.
@@ -354,19 +359,25 @@ Timeline Edit Mode - Insert Mode
 With this mode selected and you drop a selection into the timeline the selection will be inserted into the timeline at the point where the mouse is released. The clip that the selection is dropped on is cut and clips are moved to the right to accommodate the incoming clip.
 
 
-.. image:: /images/Kdenlive_Insert_mode0before.png
+.. figure:: /images/Kdenlive_Insert_mode0before.png
    :align: left
-   :alt: Before
+   :alt: Kdenlive_Insert_mode0before
+   
+   Before
 
 
-.. image:: /images/Kdenlive_Insert_mode1before.png
+.. figure:: /images/Kdenlive_Insert_mode1before.png
    :align: left
-   :alt: During
+   :alt: Kdenlive_Insert_mode1before
+   
+   During
 
 
-.. image:: /images/Kdenlive_Insert_mode1after.png
+.. figure:: /images/Kdenlive_Insert_mode1after.png
    :align: left
-   :alt: After. Incoming Clip inserted. Clips after the insert point are shifted Right
+   :alt: Kdenlive_Insert_mode1after
+   
+   After. Incoming Clip inserted. Clips after the insert point are shifted Right
 
 
 **Rearrange edit in the timeline**
@@ -378,7 +389,11 @@ Performing a rearrange edit. Only clips in the destination track are shifted; cl
 It always closes all space in the track.
 
 
-VIDEO FILE Insert-mode.mp4 MISSING 
+.. image:: /images/Insert-mode.gif
+   :align: left
+   :alt: Insert-mode
+   
+
   
 
 Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.
