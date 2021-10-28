@@ -60,7 +60,7 @@ Project Menu
 
 * %s
 
-* Clip Jobs > :ref:`reverse_clip_` (ver 0.9.6)
+* Clip Jobs > :ref:`reverse_clip` (ver 0.9.6)
 
 * :ref:`transcode`
 

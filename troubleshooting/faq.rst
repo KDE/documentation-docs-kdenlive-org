@@ -40,7 +40,7 @@ Often this is caused by having mixtures of different audio sources in the projec
 To fix ...
 
 
-If your audio source is from a video file try extracting the audio from your video sources and transcoding the audio to WAV format. If you use the :ref:`extract_audio_`  feature of Kdenlive to do this it will write a .wav file for you.
+If your audio source is from a video file try extracting the audio from your video sources and transcoding the audio to WAV format. If you use the :ref:`extract_audio`  feature of Kdenlive to do this it will write a .wav file for you.
 
 
 If you have a pure audio source try transcoding that to WAV.

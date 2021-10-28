@@ -22,7 +22,7 @@ Window in the middle.
 
 Status Bar at the bottom.
 
-.. figure:: /Images/interface_window_system_editing_screen.png
+.. figure:: /images/interface_window_system_editing_screen.png
    :align: left
    :alt: interface_window-system_editing-screen
 

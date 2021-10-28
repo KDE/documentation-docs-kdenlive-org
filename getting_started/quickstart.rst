@@ -32,23 +32,28 @@ Quick Start
 Creating a new project
 ----------------------
 
-.. image:: /images/Kdenlive_Quickstart-Folder-Structure.png
+.. figure:: /images/Kdenlive_Quickstart-Folder-Structure.png
   :align: left
   :width: 200px
-  :alt: Kdenlive directory structure
+  :alt: Kdenlive_Quickstart-Folder-Structure
+  
+  Kdenlive directory structure
 
-The first step is creating a new (empty) folder for our new project. I will call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample video clips, or download them from here :download:`kdenlive-tutorial-videos-2011-avi.zip </files/kdenlive-tutorial-videos-2011-avi.zip>`.  
-(7 MB) [1]_ , and extract them to e.g. a :file:`quickstart-tutorial/Videos/` subfolder inside the project folder.
+
+The first step is creating a new (empty) folder for our new project. I will call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample video clips, or download them from here :download:`kdenlive-tutorial-videos-2011-avi.zip </files/Kdenlive-tutorial-videos-2011-avi.zip>` (7 MB) [1]_ , and extract them to e.g. a :file:`quickstart-tutorial/Videos/` subfolder inside the project folder.
 
 
 The image on the left shows the suggested directory structure: Each project has its own directory, with video files in the :file:`Videos` subdirectory, audio files in the :file:`Audio` directory, etc. (:ref:`projects_and_files`)
 
 (The tutorial from now on assumes that you use the sample videos provided, but it works with any.)
 
-.. image:: /images/20210508-kdenlive-21.04-NewProjectWindow.png
+.. figure:: /images/20210508-kdenlive-21.04-NewProjectWindow.png
   :align: left
   :width: 250px
-  :alt: New Project dialog
+  :alt: 20210508-kdenlive-21.04-NewProjectWindow
+  
+  New Project dialog
+
 
 Open **Kdenlive** and create a new project :menuselection:`File --> New`. 
 
@@ -62,26 +67,34 @@ If you like you can change to the dark theme: :menuselection:`Settings --> Colou
 Adding clips
 ------------
 
-.. image:: /images/Kdenlive_Quickstart-Add-Clips.png
+.. figure:: /images/Kdenlive_Quickstart-Add-Clips.png
   :align: left
-  :alt: Project Bin: Adding video clips
+  :alt: Kdenlive_Quickstart-Add-Clips
+  
+  Project Bin: Adding video clips
 
 
 Now that the project is ready, let’s start adding some clips (i.e. the ones you downloaded). This works via the *Project Bin widget*; a click on the :menuselection:`Add Clip or Folder` icon |kdenlive-add-clip| directly opens the file dialog, a click on the small arrow shows a list of additional clip types that can be added as well. Video clips, audio clips, images, and other **Kdenlive** projects can be added via the default :menuselection:`Add Clip or Folder` dialog.
 
 
-.. image:: /images/Kdenlive_Quickstart-Mainwindow.png
+.. figure:: /images/Kdenlive_Quickstart-Mainwindow.png
   :align: left
   :width: 400px
-  :alt: Kdenlive window with the tutorial files
+  :alt: Kdenlive_Quickstart-Mainwindow
+  
+  Kdenlive window with the tutorial files
+
 
 After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known project tree. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.
 
 
-.. image:: /images/Kdenlive_Quickstart-Save-Project.png
+.. figure:: /images/Kdenlive_Quickstart-Save-Project.png
   :align: left
   :width: 400px
-  :alt: Saving a Kdenlive project
+  :alt: Kdenlive_Quickstart-Save-Project
+  
+  Saving a Kdenlive project
+
 
 Let’s save the work via :menuselection:`File --> Save`. This saves our project, i.e. where we placed the clips on the timeline, which effects we applied, and so on. It can *not* be played. [4]_  The process of creating the final video is called *Rendering*.
 
@@ -93,30 +106,42 @@ See also :ref:`timeline`
 
 Now comes the actual editing. Project clips are combined to the final result on the timeline.  They get there by drag and drop: Drag some Napoli (assuming you are using the files provided above, as in the rest of this quick start tutorial; If not, please make sure your screen is waterproof, and perhaps tomatoproof) from the project tree, and drop it onto the first track in the timeline. In this case track V2.
 
-.. image:: /images/Kdenlive_Quickstart-Timeline-Clips.png
+.. figure:: /images/Kdenlive_Quickstart-Timeline-Clips.png
   :align: left
   :width: 400px
-  :alt: First clips in the timeline
+  :alt: Kdenlive_Quickstart-Timeline-Clips
+  
+  First clips in the timeline
+
 
 Since some cutlery is needed as well, grab the spoon clip and drop it on the first track as well (track V2). Then drag the Napoli to the beginning of the timeline (otherwise the rendered video would start with some seconds of plain black), and the Spoon right after the Napoli, such that it looks like in the image on the left. (Where I have zoomed in with :kbd:`Ctrl + Wheel`.) 
 
-.. image:: /images/Kdenlive_Quickstart-TimelineCursor.png
+.. figure:: /images/Kdenlive_Quickstart-TimelineCursor.png
   :align: left
-  :alt: Timeline cursor
+  :alt: 
+  
+  Timeline cursor
+
 
 The result can already be previewed by pressing :kbd:`Space` (or the :guilabel:`Play` button in the project monitor). You will see the Napoli directly followed by a Spoon. If the timeline cursor is not at the beginning, the project monitor will start playing somewhere in the middle; you can move it by dragging it either on the timeline ruler or in the project monitor. If you prefer keyboard shortcuts, :kbd:`Ctrl + Home` does the same for the monitor that is activated. (Select the :menuselection:`Project Monitor` if it is not selected yet before using the shortcut.)
 
 
-.. image:: /images/Kdenlive_Quickstart-Resize-Marker.png
+.. figure:: /images/Kdenlive_Quickstart-Resize-Marker.png
   :align: left
-  :alt: Resize marker
+  :alt: Kdenlive_Quickstart-Resize-Marker
+  
+  Resize marker
+
 
 Since after eating comes playing, there is a Billiards clip. Add it to the timeline as well (track V1). For the first 1.5 seconds nothing happens in the clip, so it should perhaps be **cut** to avoid the video becoming boring. An easy way [5]_  for this is to move the timeline cursor to the desired position (i.e. the position where you want to cut the video), then drag the left border of the clip when the resize marker appears. It will snap in at the timeline cursor when you move close enough.
 
 
-.. image:: /images/Kdenlive_Quickstart-Overlap-Clips.png
+.. figure:: /images/Kdenlive_Quickstart-Overlap-Clips.png
   :align: left
-  :alt: Overlapping clips
+  :alt: Kdenlive_Quickstart-Overlap-Clips
+  
+  Overlapping clips
+
 
 To add a *transition* between eating (the Spoon) and playing billiards, the two clips need to overlap. To be precise: place the second clip above or below the first one. The first clip should end some frames after the second one begins. Zooming in until the ticks for single frames appear helps here; it also makes it easy to always have the same transition duration, five frames in this case.
 
@@ -124,10 +149,13 @@ To add a *transition* between eating (the Spoon) and playing billiards, the two 
 You can zoom in by either using the :menuselection:`zoom slider` at the bottom right corner of the **Kdenlive** window, or with :kbd:`Ctrl + Mousewheel`. **Kdenlive** will zoom to the timeline cursor, so first set it to the position which you want to see enlarged, then zoom in.
 
 
-.. image:: /images/Kdenlive-Quickstart-Add-Transition.png
+.. figure:: /images/Kdenlive-Quickstart-Add-Transition.png
   :align: left
   :width: 350px
-  :alt: Transition marker
+  :alt: Kdenlive-Quickstart-Add-Transition
+  
+  Transition marker
+
 
 Now that the clips overlap, the transition can be added. This is done either by right-clicking on the upper clip and choosing :menuselection:`Insert a Composition` and choose :menuselection:`Wipe` or, easier, by hovering the mouse over the lower right corner of the Spoon clip until the pointing-finger pointer is shown and the message "Click to add composition" appears. The latter, by default, adds a wipe transition, which is in this case the best idea anyway since the Spoon is not required for playing.
 
@@ -136,6 +164,7 @@ The wipe transitions fades the first clip into the second one. See also :ref:`tr
 .. image:: /images/Kdenlive-Quickstart-Add-Last-Clip.png
   :align: left
   :width: 395px
+  :alt: Kdenlive-Quickstart-Add-Last-Clip
 
 Let’s now add the last clip, the Piano, and again apply a wipe transition. When adding it on the first track of the timeline (track V2), you need to click on the new clip’s lower left edge to add the transition to the previous clip.
 
@@ -143,22 +172,29 @@ Let’s now add the last clip, the Piano, and again apply a wipe transition. Whe
 Effects
 ~~~~~~~
 
-.. image:: /images/Kdenlive_Quickstart-Add-Effect.png
+.. figure:: /images/Kdenlive_Quickstart-Add-Effect.png
   :align: left
-  :alt: Effect List
+  :alt: 
+  
+  Effect List
+
 
 The Piano can be colourized by adding an *effect* to it.  Click on the effect view (if effect view is not visible enable the view: :menuselection:`View --> Effects`). Type *rgb* in the search field then double-click the :menuselection:`RGB Adjustment` effect.
 
 .. image:: /images/Kdenlive_Quickstart-Effect-Flag.png
   :align: left
   :width: 352px
+  :alt: Kdenlive_Quickstart-Effect-Flag
 
 Once the effect has been added, click on an empty part in the timeline and you see its name on the timeline clip. It will also be shown in the :menuselection:`Effect/Composition Stack` widget.
 
-.. image:: /images/Kdenlive-Quickstart-EffectStack.png
+.. figure:: /images/Kdenlive-Quickstart-EffectStack.png
   :align: left
   :width: 402px
-  :alt: Effect Stack with RGB adjustment
+  :alt: 
+  
+  Effect Stack with RGB adjustment
+
 
 To get a warm yellow-orange tone on the image, fitting the comfortable evening, blue needs to be reduced and red and green improved. 
 
@@ -168,10 +204,13 @@ The Effect/Composition Stack widget always refers to the timeline clip that is c
 
 For some effects, like the one used there, it is possible to add keyframes. The framed watch icon indicates this. Keyframes are used for changing effect parameters over time. In our clip this allows us to fade the piano’s colour from a warm evening colour to a cold night colour. 
 
-.. image:: /images/Kdenlive_Quickstart-Keyframes.png
+.. figure:: /images/Kdenlive_Quickstart-Keyframes.png
   :align: left
   :width: 401px
-  :alt: Keyframes for effects
+  :alt: Kdenlive_Quickstart-Keyframes
+  
+  Keyframes for effects
+
 
 After clicking the :menuselection:`keyframe` icon (the clock icon framed in the previous image), the Properties widget will re-arrange. By default there will be two keyframes, one at the beginning of the timeline clip and one at the end. Move the timeline cursor to the end of the timeline clip, such that the project monitor actually shows the new colours when changing the parameters of the keyframe at the end. 
 
@@ -187,10 +226,13 @@ See also :ref:`effects`.
 Music
 ~~~~~
 
-.. image:: /images/Kdenlive_Quickstart-Fadeout.png
+.. figure:: /images/Kdenlive_Quickstart-Fadeout.png
   :align: left
   :width: 395px
-  :alt: Audio fadeout
+  :alt: Kdenlive_Quickstart-Fadeout
+  
+  Audio fadeout
+
 
 Since the clips do not provide any audio, let’s search for some nice piece of music, from your local collection or on web pages like `Jamendo <http://www.jamendo.com>`_. The audio clip should, after adding it, be dragged to an audio track on the timeline.
 
@@ -201,18 +243,24 @@ The audio clip can be resized on the timeline the same way as video clips are. T
 Rendering
 ---------
 
-.. image:: /images/Kdenlive_Quickstart-Renderer.png
+.. figure:: /images/Kdenlive_Quickstart-Renderer.png
   :align: left
   :width: 210px
-  :alt: Rendering dialog
+  :alt: Kdenlive_Quickstart-Renderer
+  
+  Rendering dialog
+
 
 A few minutes left, and the project is finished! Click the Render button (or go to :menuselection:`Project --> Render`, or press :kbd:`Ctrl + Enter`) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the :menuselection:`Render to File` button. 
 
 
-.. image:: /images/Kdenlive_Quickstart-Rendering.png
+.. figure:: /images/Kdenlive_Quickstart-Rendering.png
   :align: left
   :width: 210px
-  :alt: Rendering progress
+  :alt: Kdenlive_Quickstart-Rendering
+  
+  Rendering progress
+
 
 After some seconds rendering will be finished, and your first **Kdenlive** project completed. Congratulations!
 

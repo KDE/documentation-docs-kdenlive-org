@@ -180,7 +180,7 @@ Working with keyframes in the effect stack
   
 The effect’s keyframe panel has new icons, improved keyframe grabbing and new functions like:
 
-.. image:: /images/move-kf-to-cursor.gif
+.. image:: /images/Move-kf-to-cursor.gif
   :align: left
   :alt: move-kf-to-cursor
 
@@ -192,7 +192,7 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
 * Click on :menuselection:`Move selected keyframe to cursor position`
 
 
-.. image:: /images/duplicate-keyframe.gif
+.. image:: /images/Duplicate-keyframe.gif
   :align: left
   :alt: duplicate-keyframe
 
@@ -203,7 +203,7 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
 * Click on :menuselection:`Duplicate selected keyframe`
 
 
-.. image:: /images/apply-value-to-selected-kf.gif
+.. image:: /images/Apply-value-to-selected-kf.gif
   :align: left
   :alt: apply-value-to-selected-kf
  
@@ -215,17 +215,17 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
 * Select the parameters you want to apply and click on :menuselection:`OK`
 
 
-.. image:: /images/kf-ctrl-select.gif
+.. image:: /images/Kf-ctrl-select.gif
   :align: left
   :alt: kf-ctrl-select
 
 
-.. image:: /images/kf-rubber-select.gif
+.. image:: /images/Kf-rubber-select.gif
   :align: left
   :alt: kf-rubber-select 
 
 
-.. image:: /images/multiple-kf-move.gif
+.. image:: /images/Multiple-kf-move.gif
   :align: left
   :alt: multiple-kf-move 
 
@@ -258,7 +258,7 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 **Track Effect Zone**
 
 
-.. image:: /images/track-effect-zone.gif
+.. image:: /images/Track-effect-zone.gif
   :align: left
   :alt: track-effect-zone 
   
@@ -267,7 +267,7 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 **Master Effect Zone**
 
 
-.. image:: /images/timeline-effect-zone.gif
+.. image:: /images/Timeline-effect-zone.gif
   :align: left
   :alt: timeline-effect-zone
   
