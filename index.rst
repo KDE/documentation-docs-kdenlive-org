@@ -16,6 +16,7 @@ Welcome to the manual for `kdenlive <https://kdenlive.org>`_, the free and open 
 Getting started
 ###############
 
+<<<<<<< Updated upstream
 .. container:: toctile
 
     .. container:: tile no-descr
@@ -38,6 +39,27 @@ Getting started
 
             :ref:`Tutorials`
 
+=======
++--------------------------------------------------------+--------------------------------------------------------+
+|                                                        |                                                        |
+|                                                        |                                                        |
+|:ref:`introduction`                                     |:ref:`installation`                                     |
+|                                                        |                                                        |
+|About Kdenlive                                          |How to install Kdenlive                                 |
+|                                                        |                                                        |
+|                                                        |                                                        |
+|                                                        |                                                        |
++--------------------------------------------------------+--------------------------------------------------------+
+|                                                        |                                                        |
+|                                                        |                                                        |
+|:ref:`quickstart`                                       |:ref:`tutorials`                                        |
+|                                                        |                                                        |
+|Going trough the workflow with an example.              |How to do                                               |
+|                                                        |                                                        |
+|                                                        |Written and video tutorials                             |
+|                                                        |                                                        |
++--------------------------------------------------------+--------------------------------------------------------+
+>>>>>>> Stashed changes
 
 ##############
 User Interface
@@ -76,6 +98,7 @@ User Interface
 Workflow
 ########
   
+<<<<<<< Updated upstream
 .. container:: toctile
 
     .. container:: tile
@@ -115,12 +138,57 @@ Workflow
        :ref:`Exporting`
           Render out your final video for distributing.
 
+=======
++--------------------------------------------------------+--------------------------------------------------------+
+| .. image:: /images/intro_page/Intro-placeholder.png    | .. image:: /images/intro_page/Intro-placeholder.png    |
+|                                                        |                                                        |
+|:ref:`Importing_and_assets_management`                  |:ref:`Cutting_and_assembling`                           |
+|                                                        |                                                        |
+|                                                        |Start editing in the Timeline                           |
+|Load files into Kdenlive and be prepared                |                                                        |
+|                                                        |See how the time line and the monitors are working      |
+|Starting video editing                                  |                                                        |
++--------------------------------------------------------+--------------------------------------------------------+
+| .. image:: /images/intro_page/Intro-placeholder.png    | .. image:: /images/intro_page/Intro-placeholder.png    |
+|                                                        |                                                        |
+|:ref:`Effects`                                          |:ref:`Exporting`                                        |
+|                                                        |                                                        |
+|Add video and audio effects and compositions.           |Render out your final video so you can distribute       |
+|                                                        |                                                        |
+|Create Titles and Subtitles and use Speech to Text.     |as MP4 or other formats.                                |
+|                                                        |                                                        | 
+|Make color correction.                                  |                                                        |
++--------------------------------------------------------+--------------------------------------------------------+
+>>>>>>> Stashed changes
+
 
 #########################################
 Troubleshooting, issues and bug reporting
 #########################################
 
+<<<<<<< Updated upstream
 .. container:: toctile
+=======
++--------------------------------------------------------+--------------------------------------------------------+
+|                                                        |                                                        |
+|                                                        |                                                        |
+|:ref:`Windows_issues`                                   |:ref:`troubleshooting_and_common_problems`              |
+|                                                        |                                                        |
+|Solving specific Windows issues                         |General problem solving                                 |
+|                                                        |                                                        |
+|                                                        |                                                        |
+|                                                        |                                                        |
++--------------------------------------------------------+--------------------------------------------------------+
+|                                                        |                                                        |
+|                                                        |                                                        |
+|:ref:`Bug_Reporting`                                    |:ref:`FAQ`                                              |
+|                                                        |                                                        |
+|How to file a bug.                                      |Answers to questions frequently asked                   |
+|                                                        |                                                        |
+|                                                        |                                                        |
+|                                                        |                                                        |
++--------------------------------------------------------+--------------------------------------------------------+
+>>>>>>> Stashed changes
 
    .. container:: tile
 
