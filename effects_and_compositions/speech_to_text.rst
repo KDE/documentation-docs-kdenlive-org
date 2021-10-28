@@ -39,7 +39,7 @@ Speech recognition requires the vosk and srt python modules
  
 -	On Linux open a terminal and put in and run: "pip3 install vosk;pip3 install srt".   
 
--	On Windows, you can download this batch file (`Archive File: Install_vosk_srt.zip <Install_vosk_srt.zip>`_). After download double click starts the installations.
+-	On Windows, you can download this batch file (:download:`Install_vosk_srt.zip <Install_vosk_srt.zip>`). After download double click starts the installations.
   
 Install a language
 ~~~~~~~~~~~~~~~~~~
@@ -67,6 +67,9 @@ Speech recognition
 
 **Creating subtitle by speech recognition**
 
+.. image:: /images/Speech-to-text_Subtitle.png
+   :align: left
+   :alt: Speech to text subtitle
 
 1.	Mark the timeline zone you want to recognize (adjust the blue line).
 
@@ -89,13 +92,15 @@ The subtitle gets created and inserted automatically.
 Remark: Only timeline zone is implemented for now in automatic subtitles.
 
 
-.. image:: /images/Speech-to-text_Subtitle.png
-   :align: left
-   :alt: Speech to text subtitle
 
 **Creating clips by speech recognition**
 This is useful for interviews and other speech-related footage.
 Enable :menuselection:`View --> Text Edit`
+
+
+.. image:: /images/Speech-to-text_Text-Edit.png
+   :align: left
+   :alt: Text edit
 
 
 Select a clip in the project bin.
@@ -134,9 +139,6 @@ Select a clip in the project bin.
 11.	Or down in the text.
 
 
-.. image:: /images/Speech-to-text_Text-Edit.png
-   :align: left
-   :alt: Text edit
 
 
 .. warning::
