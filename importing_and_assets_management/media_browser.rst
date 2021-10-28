@@ -18,5 +18,5 @@ Media Browser
 The new Media Browser allows you to easily navigate through your file system and add clips directly to the Bin or Timeline. You can enable it from View menu. 
 
 .. image:: /images/media-browser.gif
-  :align: left
-    :alt: media-browser
+   :align: left
+   :alt: media-browser
