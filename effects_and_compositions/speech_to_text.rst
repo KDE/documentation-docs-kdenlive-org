@@ -39,7 +39,7 @@ Speech recognition requires the vosk and srt python modules
  
 -	On Linux open a terminal and put in and run: "pip3 install vosk;pip3 install srt".   
 
--	On Windows, you can download this batch file (:download:`Install_vosk_srt.zip <Install_vosk_srt.zip>`). After download double click starts the installations.
+-	On Windows, you can download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download double click starts the installations.
   
 Install a language
 ~~~~~~~~~~~~~~~~~~
