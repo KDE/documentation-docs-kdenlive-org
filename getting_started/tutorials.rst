@@ -17,30 +17,16 @@
 
    :license: Creative Commons License SA 4.0
 
-<<<<<<< Updated upstream
 ..  TODO:
-  * Short tutorials explaining frequently mis- or not-understood features or workflows   
+  * Short tutorials explaining frequently mis- or not-understood features or workflows
 
 .. _tutorials:
 
-=======
-.. _tutorials:
-
-
->>>>>>> Stashed changes
 Tutorials
 =========
 
 .. contents::
 
-
-<<<<<<< Updated upstream
-=======
-..
-  TODO:
-  * Short tutorials explaining frequently mis- or not-understood features or workflows   
-
->>>>>>> Stashed changes
 Written Tutorials
 -----------------
 

@@ -39,13 +39,7 @@ Creating a new project
   
   Kdenlive directory structure
 
-<<<<<<< HEAD
-
 The first step is creating a new (empty) folder for our new project. I will call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample video clips, or download them from here :download:`kdenlive-tutorial-videos-2011-avi.zip </files/Kdenlive-tutorial-videos-2011-avi.zip>` (7 MB) [1]_ , and extract them to e.g. a :file:`quickstart-tutorial/Videos/` subfolder inside the project folder.
-=======
-The first step is creating a new (empty) folder for our new project. I will call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample video clips, or download them from here :download:`kdenlive-tutorial-videos-2011-avi.zip </files/Kdenlive-tutorial-videos-2011-avi.zip>`.  
-(7 MB) [1]_ , and extract them to e.g. a :file:`quickstart-tutorial/Videos/` subfolder inside the project folder.
->>>>>>> 09173e92bbae27e598cc496a09216807ffb002c1
 
 
 The image on the left shows the suggested directory structure: Each project has its own directory, with video files in the :file:`Videos` subdirectory, audio files in the :file:`Audio` directory, etc. (:ref:`projects_and_files`)
