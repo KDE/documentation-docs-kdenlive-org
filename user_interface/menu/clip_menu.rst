@@ -110,3 +110,5 @@ The other menu items which appear when in the Clip menu are also available from 
    clip_menu/replace_clip
    clip_menu/reload_clip
    clip_menu/duplicate_clip
+   clip_menu/automaticscenesplit
+   clip_menu/duplicate_clip_with_speed_change

@@ -93,3 +93,6 @@ Timeline Menu
 
    timeline_menu/tracks
    timeline_menu/insert_clip_zone
+   timeline_menu/space
+   timeline_menu/selection
+   timeline_menu/current_clip

@@ -1,0 +1,26 @@
+.. metadata-placeholder
+
+   :authors: - Yuri Chornoivan
+             - Ttguy (https://userbase.kde.org/User:Ttguy)
+
+   :license: Creative Commons License SA 4.0
+
+.. _alphain:
+
+alphain transition
+==================
+
+.. contents::
+
+
+`Frei0r-alphain <http://www.mltframework.org/bin/view/MLT/TransitionFrei0r-alphain>`_
+The alpha IN operation. 
+
+Yellow clip has a triangle alpha shape with min = 0 and max =618.
+
+Green clip has rectangle alpha shape with min=0 and max =1000
+
+alphain is the transition in between 
+
+
+.. image:: /images/Kdenlive_Alphaain.png

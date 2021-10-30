@@ -122,9 +122,4 @@ If you move or adjust your clips after adding the transition, you need to refit 
 .. toctree::
    :caption: Contents:
 
-   transitions/composite
-   transitions/wipe
-   transitions/screen
-   transitions/hue
-   transitions/affine
-   transitions/alphaxor
+   transitions/*
