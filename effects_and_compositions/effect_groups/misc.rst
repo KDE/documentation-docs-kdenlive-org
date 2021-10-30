@@ -193,20 +193,4 @@ Misc Effects
 .. toctree::
    :caption: Contents:
 
-   misc/cartoon
-   misc/color_distance
-   misc/edge_glow
-   misc/equaliz0r
-   misc/k-means_clustering
-   misc/light_graffiti
-   misc/luminance
-   misc/sobel
-   misc/tehroxx0r
-   misc/threshold
-   misc/threshold0r
-   misc/vectorscope_MLT
-   misc/vignette
-   misc/keysplillm0pup
-   misc/nosync0r
-   misc/scanline0r
-   misc/twolay0r
+   misc/*

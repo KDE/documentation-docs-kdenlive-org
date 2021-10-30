@@ -9,24 +9,12 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _fun:
+.. _artistic:
 
-Fun Effects
-===========
-
-.. contents::
-
- 
-
-
-The fun category was removed in  ~ver 17.04.  All the effects in the Fun category are now found in the :ref:`artistic` Category 
-
+Artistic Effects
+================
 
 .. toctree::
    :caption: Contents:
 
-   fun/charcoal
-   fun/dust
-   fun/oldfilm
-   fun/scratchlines
-   fun/vignette_effect
+   artistic/*

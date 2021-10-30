@@ -14,23 +14,7 @@
 Enhancement
 ===========
 
-.. contents::
-
- 
-
-
-* :ref:`denoiser`
-
-* :ref:`nikon_d90_stairstepping_fix`
-
-* :ref:`sharpen`
-
-
-* :ref:`spillsuppress`
-
-
 .. toctree::
    :caption: Contents:
 
-   enhancement/denoiser
-   enhancement/sharpen
+   enhancement/*

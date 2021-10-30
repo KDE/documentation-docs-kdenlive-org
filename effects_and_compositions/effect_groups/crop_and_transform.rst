@@ -15,30 +15,6 @@
 Crop and Transform
 ==================
 
-.. contents::
-
- 
-
-
-* :ref:`scale_and_tilt` 
-
-* :ref:`crop`
-
-* :ref:`letterb0xed`
-
-
-*  :ref:`nosync0r`
-
-* :ref:`pan_and_zoom`
-
-* :ref:`rotate_(keyframable)`
-
-* :ref:`rotate_and_shear`
-
-
-* :ref:`transform`
-
-
 .. toctree::
    :maxdepth: 2
    :glob: 

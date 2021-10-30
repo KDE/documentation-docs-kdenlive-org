@@ -14,31 +14,7 @@
 Distort
 =======
 
-.. contents::
-
- 
-
-
-* :ref:`corners`
-
-* :ref:`defish`
-
-* :ref:`distort`
-
-* :ref:`lens_correction`
-
-* :ref:`mirror`
-
-* :ref:`pixelize`
-
-* :ref:`wave`
-
-
 .. toctree::
    :caption: Contents:
 
-   distort/corners
-   distort/lens_correction
-   distort/mirror
-   distort/pixelize
-   distort/wave
+   distort/*

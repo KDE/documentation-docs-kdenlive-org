@@ -16,36 +16,6 @@
 Blur and Hide
 =============
 
-.. contents::
-
-
-
-
-The Blur and Hide group of effects contains the following effects:
-
-
-* :ref:`auto_mask`
-
-* :ref:`blur`
-
-* :ref:`box_blur`
-
-
-* :ref:`edge_glow`
-
-* :ref:`glow`
-
-
-* :ref:`medians`
-
-* :ref:`obscure`
-
-
-* :ref:`softglow`
-
-* :ref:`square_blur`
-
-
 .. toctree::
    :caption: Contents:
 

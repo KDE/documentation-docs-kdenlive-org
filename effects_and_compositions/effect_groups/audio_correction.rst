@@ -16,34 +16,10 @@
 Audio Correction
 ================
 
-.. contents::
-
-
-
-
-The :menuselection:`Audio Correction` group contains the following effects:
-
-
-* :ref:`gain`
-
-
-* :ref:`hard_limiter`
-
-* :ref:`mono_amplifier` (version >= 0.9.10)
-
-
-* :ref:`mute`
-
-
-* :ref:`normalise`
-
-* :ref:`stereo_amplifier` (version >= 0.9.10)
-
-
-* :ref:`volume_(keyframable)`
+.. TODO "hard_limiter" and "normalise" missing
 
 
 .. toctree::
    :caption: Contents:
 
-   audio_correction/mute
+   audio_correction/*
