@@ -35,7 +35,7 @@ This application failed to start because no Qt platform plugin could be initiali
 
 Hit :kbd:`CTRL + SHIFT + ,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
 
-Download `qt.conf <https://bugs.kde.org/show_bug.cgi?id=415408>`_. Put the file :file:`qt.conf` into the "bin" folder (the folder where :file:`kdenlive.exe` is)
+Download ::download:`qt.conf </files/qt.conf>`. Put the file :file:`qt.conf` into the "bin" folder (the folder where :file:`kdenlive.exe` is)
 
 
 First time use of Kdenlive
@@ -161,8 +161,7 @@ If you want to reinstall **Kdenlive** or re-run **Kdenlive**, it may tell you "T
 To fix this you have to kill the running process: press and hold :kbd:`Ctrl + Shift + Esc` &  expand the task manager by clicking :menuselection:`all details`. Then find :file:`kdenlive.exe` &  :file:`dbus-daemon.exe`, and click :menuselection:`End task` for both of them.
 
 
-Or download the ` Archive File: Kdenlive-kill.zip <Kdenlive-kill.zip>`_  
-. Unpack it and just double-click the batch file which kills all running **Kdenlive** processes.
+Or download the ::download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>` ` Archive File: Kdenlive-kill.zip <Kdenlive-kill.zip>`. Unpack it and just double-click the batch file which kills all running **Kdenlive** processes.
 
 
 Kdenlive cannot be uninstalled
