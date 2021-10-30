@@ -16,5 +16,6 @@ Enhancement
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
    enhancement/*

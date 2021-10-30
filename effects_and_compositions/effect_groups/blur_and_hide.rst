@@ -18,9 +18,6 @@ Blur and Hide
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
-   blur_and_hide/auto_mask
-   blur_and_hide/box_blur
-   blur_and_hide/glow
-   blur_and_hide/obscure
-   blur_and_hide/square_blur
+   blur_and_hide/*

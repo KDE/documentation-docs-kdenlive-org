@@ -18,5 +18,6 @@ Color Correction
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
    colour_correction/*

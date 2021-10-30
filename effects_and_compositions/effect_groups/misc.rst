@@ -192,5 +192,6 @@ Misc Effects
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
    misc/*

@@ -121,5 +121,6 @@ If you move or adjust your clips after adding the transition, you need to refit 
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
    transitions/*

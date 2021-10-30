@@ -16,5 +16,6 @@ Distort
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
    distort/*

@@ -16,5 +16,6 @@ Artistic Effects
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
    artistic/*

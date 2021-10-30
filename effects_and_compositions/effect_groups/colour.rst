@@ -24,39 +24,6 @@ Color
 The Color group of effects contains the follow effects:
 
 
-* %s
-
-
-* %s
-
-* %s
-
-
-* %s
-
-* %s
-
-* %s
-
-* %s
-
-
-* %s
-
-
-* %s
-
-* %s
-
-* %s
-
-* %s
-
-* %s
-
-* %s
-
-
 .. toctree::
    :caption: Contents:
 

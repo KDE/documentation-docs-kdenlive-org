@@ -21,5 +21,6 @@ Audio Correction
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
    audio_correction/*
