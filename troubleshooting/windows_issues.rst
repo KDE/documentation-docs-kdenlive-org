@@ -161,7 +161,7 @@ If you want to reinstall **Kdenlive** or re-run **Kdenlive**, it may tell you "T
 To fix this you have to kill the running process: press and hold :kbd:`Ctrl + Shift + Esc` &  expand the task manager by clicking :menuselection:`all details`. Then find :file:`kdenlive.exe` &  :file:`dbus-daemon.exe`, and click :menuselection:`End task` for both of them.
 
 
-Or download the ::download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>` ` Archive File: Kdenlive-kill.zip <Kdenlive-kill.zip>`. Unpack it and just double-click the batch file which kills all running **Kdenlive** processes.
+Or download the ::download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>`. Unpack it and just double-click the batch file which kills all running **Kdenlive** processes.
 
 
 Kdenlive cannot be uninstalled
