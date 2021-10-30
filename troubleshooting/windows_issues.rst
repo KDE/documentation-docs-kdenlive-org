@@ -24,6 +24,11 @@ Render problems
 
 After rendering you get de-synced audio or wrong effects or black frames at end of the last clip: download version 20.08.1 or higher from the `download page <https://kdenlive.org/en/download>`_. If you still experience problems see :ref:`windows_issues`.
 
+Scopes doesn't show anything
+----------------------------
+
+:ref:`scopes_directx` 
+
 
 Audio crackling while playback
 ------------------------------

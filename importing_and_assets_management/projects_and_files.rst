@@ -27,35 +27,6 @@ Project and File management
 
 .. contents::
 
-Interface and Layouts
----------------------
-
-.. versionadded:: 20.08.0
-
-
-.. image:: /images/interface_layouts.gif
-
-These workspaces aim to improve the layout for each stage of video production:
-
-
-* **Logging** for reviewing your footage
-
-* **Editing** to compose your story in the timeline
-
-* **Audio** for mixing and adjusting your audio
-
-* **Effects** for adding effects
-
-* **Color** for adjusting and color grading
-
-
-Check out this `video <https://www.youtube.com/watch?v=BdHbUUjfBLk>`_ for more details.
-
-
-.. note::
-
-   Video scopes do not work with DirectX under Windows.
-
 
 File Structure
 --------------

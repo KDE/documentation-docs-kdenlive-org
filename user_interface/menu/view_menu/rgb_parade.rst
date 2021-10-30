@@ -34,4 +34,6 @@ For more information, see `Granjow's blog <http://kdenlive.org/users/granjow/int
 
 The RGB Parade option in the View menu is somewhat different from the  :ref:`_rgb_parade_MLT` in that :menuselection:`View --> RGB Parade` displays the histogram in the application whereas the **RGB Parade** effect writes the histogram into the video output file.
 
+.. attention::
 
+   :ref:`scopes_directx`

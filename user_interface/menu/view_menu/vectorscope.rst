@@ -25,4 +25,6 @@ The Vectorscope shows the hue and saturation distribution in a way we can unders
    :align: left
    :alt: Vector_scope
 
+.. attention::
 
+   :ref:`scopes_directx`
