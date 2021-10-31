@@ -72,8 +72,12 @@ Adding clips
   
   Project Bin: Adding video clips
 
-
 Now that the project is ready, let’s start adding some clips (i.e. the ones you downloaded). This works via the *Project Bin widget*; a click on the :menuselection:`Add Clip or Folder` icon |kdenlive-add-clip| directly opens the file dialog, a click on the small arrow shows a list of additional clip types that can be added as well. Video clips, audio clips, images, and other **Kdenlive** projects can be added via the default :menuselection:`Add Clip or Folder` dialog.
+
+
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 200px
 
 
 .. figure:: /images/Kdenlive_Quickstart-Mainwindow.png
@@ -96,6 +100,11 @@ After loading the clips, **Kdenlive** will look similar to this. On the top left
 
 
 Let’s save the work via :menuselection:`File --> Save`. This saves our project, i.e. where we placed the clips on the timeline, which effects we applied, and so on. It can *not* be played. [4]_  The process of creating the final video is called *Rendering*.
+
+
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 130px
 
 
 Timeline
@@ -173,12 +182,18 @@ Effects
 
 .. figure:: /images/Kdenlive_Quickstart-Add-Effect.png
   :align: left
-  :alt: 
+  :alt: Kdenlive_Quickstart-Add-Effect
+  :width: 450px
   
   Effect List
 
 
 The Piano can be colourized by adding an *effect* to it.  Click on the effect view (if effect view is not visible enable the view: :menuselection:`View --> Effects`). Type *rgb* in the search field then double-click the :menuselection:`RGB Adjustment` effect.
+
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 220px
+
 
 .. image:: /images/Kdenlive_Quickstart-Effect-Flag.png
   :align: left
@@ -186,6 +201,11 @@ The Piano can be colourized by adding an *effect* to it.  Click on the effect vi
   :alt: Kdenlive_Quickstart-Effect-Flag
 
 Once the effect has been added, click on an empty part in the timeline and you see its name on the timeline clip. It will also be shown in the :menuselection:`Effect/Composition Stack` widget.
+
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 50px
+
 
 .. figure:: /images/Kdenlive-Quickstart-EffectStack.png
   :align: left
@@ -244,7 +264,7 @@ Rendering
 
 .. figure:: /images/Kdenlive_Quickstart-Renderer.png
   :align: left
-  :width: 210px
+  :width: 300px
   :alt: Kdenlive_Quickstart-Renderer
   
   Rendering dialog
@@ -252,10 +272,15 @@ Rendering
 
 A few minutes left, and the project is finished! Click the Render button (or go to :menuselection:`Project --> Render`, or press :kbd:`Ctrl + Enter`) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the :menuselection:`Render to File` button. 
 
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 160px
+
+
 
 .. figure:: /images/Kdenlive_Quickstart-Rendering.png
   :align: left
-  :width: 210px
+  :width: 300px
   :alt: Kdenlive_Quickstart-Rendering
   
   Rendering progress
@@ -263,6 +288,9 @@ A few minutes left, and the project is finished! Click the Render button (or go 
 
 After some seconds rendering will be finished, and your first **Kdenlive** project completed. Congratulations!
 
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 300px
 
 References and notes
 --------------------

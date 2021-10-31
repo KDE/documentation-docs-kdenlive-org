@@ -32,7 +32,6 @@ Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:
 
 
 .. image:: /images/Kdenlive-addcliptotimeline.gif
-   :align: center
    :alt: add clip to timeline
 
 .. versionadded:: 19.08.0
@@ -88,7 +87,6 @@ To even more precisely control the length of a clip, double click it in the time
 
 
 .. image:: /images/kdenlive_timeline_current_clip_duration02.png
-   :align: left
    :alt: clip duration
 
 
@@ -104,7 +102,6 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
 
 
 .. image:: /images/Kdenlive-removespace.gif
-   :align: center
    :alt: remove space
 
 
@@ -117,7 +114,6 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 
 .. image:: /images/Kdenlive-middle-toolbar.png
-   :align: center
    :alt: Middle Toolbar ver  21.04
 
 
@@ -160,13 +156,11 @@ These same settings can be found under the :menuselection:`Tool` menu.
 3. Use timeline zone 
 
 .. image:: /images/Kdenlive_Use_timeline_zone_for_insert.png
-   :align: left
    :alt: use timeline zone
 
 / Do not use timeline zone 
 
 .. image:: /images/Kdenlive_Dont_Use_timeline_zone_for_insert.png
-   :align: left
    :alt: don't use timeline zone
 
 
@@ -252,7 +246,6 @@ Bottom Tool Bar
 ---------------
 
 .. image:: /images/Kdenlive_Bottom_toolbar17_04b.png
-   :align: left
    :alt: Bottom toolbar ver 17.04
 
 
@@ -324,14 +317,12 @@ In this edit mode, you can drag a clip onto a track where there is an existing c
 
 
 .. figure:: /images/kdenlive_overwrite_mode_before01.png
-   :align: left
    :alt: kdenlive_overwrite_mode_after01
    
    Before
 
 
 .. figure:: /images/kdenlive_overwrite_mode_after01.png
-   :align: left
    :alt: kdenlive_overwrite_mode_after01
    
    After
@@ -346,7 +337,6 @@ In the "After" screenshot above, you can see that the clip which was dragged fro
 Performing a rearrange edit. This technique lets you quickly change the order of clips in the timeline.
 
 .. image:: /images/Overwrite-mode.gif
-   :align: center
    :alt: Overwrite-mode
  
 
@@ -360,21 +350,18 @@ With this mode selected and you drop a selection into the timeline the selection
 
 
 .. figure:: /images/Kdenlive_Insert_mode0before.png
-   :align: left
    :alt: Kdenlive_Insert_mode0before
    
    Before
 
 
 .. figure:: /images/Kdenlive_Insert_mode1before.png
-   :align: left
    :alt: Kdenlive_Insert_mode1before
    
    During
 
 
 .. figure:: /images/Kdenlive_Insert_mode1after.png
-   :align: left
    :alt: Kdenlive_Insert_mode1after
    
    After. Incoming Clip inserted. Clips after the insert point are shifted Right
@@ -390,7 +377,6 @@ It always closes all space in the track.
 
 
 .. image:: /images/Insert-mode.gif
-   :align: left
    :alt: Insert-mode
    
 
@@ -420,7 +406,6 @@ Use this tool (|distribute-horizontal|) to temporarily group separate clips and 
 
 
 .. image:: /images/Kdenlive_Spacer_tool_crop.png
-   :align: left
    :alt: spacer tool crop
    :width: 300px
 
@@ -476,7 +461,6 @@ This toggles on and off the display of the comments saved within :ref:`clips` (t
 
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
-   :align: left
    :alt: markers and guides
 
 
@@ -511,20 +495,25 @@ Mark In and Out points in the Project Monitor, then choose :menuselection:`Timel
 3 important points to understand the 3 point editing concept (with keyboard shortcuts): 
 
 
-.. image:: /images/3p-Source-1.gif
-   :align: left
+.. figure:: /images/3p-Source-1.gif
+   :align: right
    :alt: 3point source
-  
+   :width: 200px
+        
 
 **Source**
 
 
 On the left of the track head the green vertical lines (V1 or A2). The green line is connected to the source clip in the project bin. Only when a clip is selected in the project bin, the green line shows up depending on the type of the clip (A/V clip, picture/title/color clip, audio clip).
 
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 340px
 
-.. image:: /images/3p-Target-active-1.gif
-   :align: left
+.. figure:: /images/3p-Target-active-1.gif
+   :align: right
    :alt: 3point target
+   :width: 200px
   
 
 **Target**
@@ -541,6 +530,9 @@ Connect the source (the clip in the project bin) to a target (a track in the tim
 
 Active target tracks without connected source react on edit operations.
 
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 100px
 
 **Example of advanced edit**
 
@@ -548,9 +540,10 @@ Active target tracks without connected source react on edit operations.
 Here is a brief introduction to the 3 point editing system.
 
 
-.. image:: /images/3p-Insert-clip-1.gif
-   :align: left
+.. figure:: /images/3p-Insert-clip-1.gif
+   :align: right
    :alt: 3point insert
+   :width: 200px
   
 1.	Select a clip in the project bin with an up/down arrow
 
@@ -569,10 +562,14 @@ Here is a brief introduction to the 3 point editing system.
 
 6.	Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-head position or to fill the selected area in the timeline if it is active. If you need to activate it use the :kbd:`G` key.
 
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 280px
 
-.. image:: /images/3p-Advanced-edit-1.gif
-   :align: left
+.. figure:: /images/3p-Advanced-edit-1.gif
+   :align: right
    :alt: 3point edit
+   :width: 200px
   
 
 
@@ -586,6 +583,10 @@ In the following example, we want only to insert the audio part of a clip in A2 
 
 
 3.	Press :kbd:`V` (insert).   
+
+.. image:: /images/transparent.png
+   :alt: transparent
+   :width: 300px
 
 
 .. [1] available on bleeding edge version > 0.9.10 (Jan2015)
