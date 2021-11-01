@@ -115,8 +115,7 @@ Filtering by clip type
    :width: 350px
    :alt: filter-by-type
   
-  Menu under Icon 7
-
+   Menu under Icon 7
 
 
 **8**. A search box to display all the clips in the bin whose filenames or titles contain the entered text.

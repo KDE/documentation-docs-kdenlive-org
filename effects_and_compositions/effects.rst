@@ -408,7 +408,6 @@ A: You can select multiple clips with :kbd:`Shift + drag` (left mouse button) ar
    effect_groups/distort
    effect_groups/enhancement
    effect_groups/fade
-   effect_groups/fun
    effect_groups/misc
    effect_groups/motion
    effect_groups/analysis_and_data
