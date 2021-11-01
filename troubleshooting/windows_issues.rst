@@ -32,13 +32,13 @@ Scopes doesn't show anything
 
 Audio crackling while playback
 ------------------------------
-:kbd:`CRL + SHIFT +,`(comma), select :menuselection:`Playback --> audio backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), :menuselection:`DirectSound` to see what give the best result.
+:kbd:`CRL + SHIFT +,` (comma), select :menuselection:`Playback --> audio backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), :menuselection:`DirectSound` to see what give the best result.
 
 
 This application failed to start because no Qt platform plugin could be initialized
 -----------------------------------------------------------------------------------
 
-Hit :kbd:`CTRL + SHIFT + ,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
+Hit :kbd:`CTRL + SHIFT + ,` (comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
 
 Download ::download:`qt.conf </files/qt.conf>`. Put the file :file:`qt.conf` into the "bin" folder (the folder where :file:`kdenlive.exe` is)
 
@@ -148,7 +148,7 @@ This issue is solved with Windows version 18.08.2 (30. Oct 2018). Get the curren
 Qt rendering crash
 ------------------
 
-Hit :kbd:`CTRL + SHIFT + ,`(comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
+Hit :kbd:`CTRL + SHIFT + ,` (comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
 
 
 When switching from kdenlive for windows 17.12 > 18.04/18.08, a Qt rendering crash appears. To make sure this doesn't happen, you need to edit the :file:`kdenliverc` file in the :file:`appdata/local` folder. To access your appdata, press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`.

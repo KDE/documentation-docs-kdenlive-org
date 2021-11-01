@@ -26,7 +26,6 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/kdenlive_right-click_on_clip.png
-   :align: left
    :alt: kdenlive_right-click_on_clip
 
 

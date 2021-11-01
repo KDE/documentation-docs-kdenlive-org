@@ -39,14 +39,15 @@ To execute a video capture, select the :ref:`monitors` and choose the capture de
 
 .. image:: /images/Kdenlive_Capture_video1.png
   :width: 450px
-  :align: left
   :alt: Kdenlive_Capture_video1
 
 
 Firewire
 --------
 
-This option is not available in recent versions of Kdenlive. Use dvgrab directly in a terminal to capture video from firewire.
+.. note::
+
+    This option is not available in recent versions of Kdenlive. Use dvgrab directly in a terminal to capture video from firewire.
 
 
 This captures video from sources connected via a firewire (also known as -  IEEE 1394 High Speed Serial Bus) card and cable. This functionality uses the `dvgrab <http://linux.die.net/man/1/dvgrab>`_ program and the settings for this can be customized by clicking the spanner icon or choosing  :menuselection:`Settings>Configure Kdenlive`.  See :ref:`configure_kdenlive`.
@@ -93,15 +94,11 @@ To perform a capture:
 FFmpeg
 ------
 
-
-
 I believe this captures video from an installed Web Cam using *Video4Linux2*.
 
 
 Screen Grab
 -----------
-
-
 
 This captures video of the PC screen. In version 0.9.2 it uses *recordMyDesktop* to do the capture. There is an open defect with this functionality in ver 0.9.2 – Mentioned in legacy Mantis bug tracker ID 2643. 
 

@@ -70,11 +70,13 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 **4**. Deletes the selected clip from the Project Bin (but not from the file system).
 
 
-**5** Color tagging. 
+**5** Color tagging.
+
 .. versionadded:: 20.04.0
 
 .. figure:: /images/tags.gif
    :align: left
+   :width: 350px
    :alt: tags
    
    Menu under Icon 5
@@ -85,6 +87,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 .. figure:: /images/kdenlive_project_bin2.png
    :align: left
+   :width: 350px
    :alt: kdenlive_project_bin2
    
    Menu under Icon 6
@@ -97,6 +100,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 .. figure:: /images/filter.gif
    :align: left
+   :width: 350px
    :alt: filter
    
    Menu under Icon 7
@@ -107,8 +111,9 @@ Filtering by clip type
 
 
 .. figure:: /images/filter-by-type.png
-  :align: left
-  :alt: filter-by-type
+   :align: left
+   :width: 350px
+   :alt: filter-by-type
   
   Menu under Icon 7
 
@@ -122,68 +127,51 @@ Filtering by clip type
 
 Clips can be dragged from the Project Bin to the :ref:`timeline`.
 
+.. rst-class:: clear-both
 
 Project Bin - Right-Click Menu
 ------------------------------
-
-
 
 The images below show the menu items available when you right-click a clip in the Project Bin.   
 
 
 .. image:: /images/Kdenlive_Project_bin_right_click_menu.png
    :width: 300px
-   :align: left
+   :align: right
 
 
 The menu items which appear when you right-click on an item in the Project Bin are also available from the :ref:`clip_menu`.
 
-
 * :ref:`extract_audio`
-
 
 * :ref:`transcode`
 
-
 * :menuselection:`Clip Jobs`
 
- * :ref:`stabilize`
+   * :ref:`stabilize`
 
- * :ref:`automaticscenesplit` 
+   * :ref:`automaticscenesplit`
 
- * :ref:`duplicate_clip_with_speed_change`
-
+   * :ref:`duplicate_clip_with_speed_change`
 
 * :ref:`clip_in_timeline`
 
-
 * :ref:`locate_clip`
-
 
 * :ref:`reload_clip`
 
-
 * :ref:`replace_clip`
-
 
 * :ref:`duplicate_clip`
 
-
 * :ref:`clips`
 
-
 * :ref:`clips`
-
 
 * :ref:`edit_clip`
 
-
 * :ref:`rename_clip`
-
 
 * :ref:`delete_clip`
 
-
 If you want to reverse a clip you can do it via  :ref:`speed` or by :ref:`duplicate_clip_with_speed_change`
-
-

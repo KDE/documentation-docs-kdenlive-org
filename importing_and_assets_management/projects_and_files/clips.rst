@@ -127,31 +127,23 @@ Animation: adds preset slow smooth pan and zoom effects also known as the Ken Bu
 Create Folder
 -------------
 
-
-
 See :ref:`create_folder`
 
 
 Online Resources
 ----------------
 
-
-
 See :ref:`online_resources`
 
 
 Stop Motion
 -----------
- 
-
 
 See :ref:`stop_motion_capture`
 
 
 Proxy clips
 -----------
-
-
 
 .. image:: /images/Kdenlive_ProxyClipsSettings.png
    :align: center
@@ -196,82 +188,60 @@ When rendering to the final output file, you can choose whether to use the proxy
 Clip Properties
 ---------------
 
-
-
 You can display and edit clip properties by selecting a clip in the :ref:`project_tree` and choosing :menuselection:`Clip Properties` from the :menuselection:`Project` menu or from the right-click menu. Or by turning on the display of clip properties the :menuselection:`View` > :menuselection:`Clip Properties`  check box.
 
 
 File Info
 ~~~~~~~~~
 
-
-
-The :menuselection:`File Info` tab displays information about the file.
-
-
-.. image:: /images/Clip_properties_video.png
-   :align: left
+.. figure:: /images/Clip_properties_video.png
    :alt: Clip_properties_video
 
+   The :menuselection:`File Info` tab displays information about the file.
 
 
 Properties
 ~~~~~~~~~~
 
-
-
-The :menuselection:`Properties` tab displays advanced properties of the clip where you can select a check box and then force the clip to take the property you specify. For example, you can use :menuselection:`Aspect ratio` to tell a clip that seems to have forgotten it was 16:9 ratio that it really is 16:9 ratio.
-
-
 .. image:: /images/Clip_properties_advanced.png
-   :align: center
+   :align: left
    :width: 340px
    :alt: Clip_properties_advanced
 
+The :menuselection:`Properties` tab displays advanced properties of the clip where you can select a check box and then force the clip to take the property you specify. For example, you can use :menuselection:`Aspect ratio` to tell a clip that seems to have forgotten it was 16:9 ratio that it really is 16:9 ratio.
 
-Advanced Clip property options are:
+.. container:: clear-both
 
+    Advanced Clip property options are:
 
-* Duration: Change the clip duration. If the duration is shorter than the clip duration, then the clip is **cropped**. If the duration is bigger than the clip duration, then the last image is repeated until the new duration is over.
+    * Duration: Change the clip duration. If the duration is shorter than the clip duration, then the clip is **cropped**. If the duration is bigger than the clip duration, then the last image is repeated until the new duration is over.
 
+    * Aspect ratio: Change the clip aspect.
 
-* Aspect ratio: Change the clip aspect.
+    * Proxy clips: Enable a proxy clip for this clip. See :ref:`clips`.
 
+    * Frame rate: Change the clip frame rate. See `Wikipedia Frame rate <https://en.wikipedia.org/wiki/Frame_rate>`_.
 
-* Proxy clips: Enable a proxy clip for this clip. See :ref:`clips`.
+    * Scanning
 
+    * Field order
 
-* Frame rate: Change the clip frame rate. See `Wikipedia Frame rate <https://en.wikipedia.org/wiki/Frame_rate>`_.
+    * Disable autorotate
 
+    * Threads
 
-* Scanning
+    * Video stream
 
+    * Audio stream
 
-* Field order
+    * Colorspace
 
+    * :ref:`full_luma`
 
-* Disable autorotate
-
-
-* Threads
-
-
-* Video stream
-
-
-* Audio stream
-
-
-* Colorspace
-
-
-* :ref:`full_luma` 
-
+.. rst-class:: clear-both
 
 Markers
 ~~~~~~~
-
-
 
 .. image:: /images/Clip_properties_Markers.png
    :width: 300px
@@ -293,11 +263,11 @@ Once markers are put in your clip, you can access them in the :ref:`monitors` by
 
 Markers can also be added to clips on the timeline. :ref:`right_click_menu` the clip and choose :menuselection:`Markers --> Add Marker`.  Markers added this way also appear in the clip in the Project Bin.
 
+.. rst-class:: clear-both
+
 
 Metadata
 ~~~~~~~~
-
-
 
 You expect this to show any meta data that is contained in the clip. Does not appear to work.
 
@@ -305,67 +275,60 @@ You expect this to show any meta data that is contained in the clip. Does not ap
 Analysis
 ~~~~~~~~
 
-
-
-You can view and delete motion vector data that is associated with the clip from here. This is data created by :ref:`auto_mask`
-
-
 .. image:: /images/Kdenlive_Clip_properties_analysis.png
    :align: left
    :alt: Kdenlive_Clip_properties_analysis
 
+You can view and delete motion vector data that is associated with the clip from here. This is data created by :ref:`auto_mask`
 
 Button 1 Will delete the selected analysis data, Button 2 will allow you to export the data (semi colon delimited text file), Button 3 will allow you to import analysis data.
 
+.. rst-class:: clear-both
 
 Generators
 ----------
 
-
-
 Counter
 ~~~~~~~
 
-
-
-This generates a counter timer clip in various formats which you can put onto the timeline.
-
-
 .. image:: /images/Kdenlive_Counter_dialog.png
    :align: left
+   :width: 400px
    :alt: Kdenlive_Counter_dialog
 
+This generates a counter timer clip in various formats which you can put onto the timeline.
 
 You can choose to have the clip count up by checking that option, otherwise it will count down by default.   The No Background option will remove the background from the counter leaving only the grey background without the lines.
 
 
 To change the size and position of the clip, you can add an effect to the clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`.
 
+.. rst-class:: clear-both
 
 White Noise
 ~~~~~~~~~~~
 
-
+.. image:: /images/Kdenlive_Noize_generator.png
+  :align: left
+  :width: 400px
+  :alt: Kdenlive_Noize_generator
 
 This generates a video noise clip – like the "snow" on an out-of-tune analogue TV.
 In ver 17.04 it generates audio white noise as well as video snow.
 
-
-.. image:: /images/Kdenlive_Noize_generator.png
-  :align: left
-  :alt: Kdenlive_Noize_generator
-
+.. rst-class:: clear-both
 
 Color Bars
 ~~~~~~~~~~
+
+.. image:: /images/Kdenlive_Colour_bars.png
+  :align: left
+  :width: 400px
+  :alt: Kdenlive_Colour_bars
 
 This generator came in to **Kdenlive** around ver 17.04.
 Generates a color test pattern of various types.
 Including PAL color bars, BBC color bars, EBU color bars, SMPTE color bars, Philips PM5544, FuBK
 
-
-.. image:: /images/Kdenlive_Colour_bars.png
-  :align: left
-  :alt: Kdenlive_Colour_bars
 
 

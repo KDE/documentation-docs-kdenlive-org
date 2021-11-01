@@ -27,8 +27,6 @@ Rendering
 .. contents::
 
 
-
-
 Rendering is the process where the edited clips are saved into a single complete video clip. During the rendering process the video can be compressed and converted to a number of different video formats (aka codecs).
 
 
@@ -38,35 +36,26 @@ The rendering dialog is brought up from the render button |media-record| from se
 Rendering Dialog Ver 17.04
 --------------------------
 
-
-
 .. image:: /images/Kdenlive_Render_dialog_17_04.png
-   :align: left
    :alt: File rendering dialog - ver 17.04
 
 
 Rendering Profile Categories
 ----------------------------
 
-
-
 .. image:: /images/Kdenlive_Render_dialog_17_04_categories_expanded.png
-   :align: left
    :alt: File rendering categories- ver 17.04
 
 
-* *Kdenlive** offers many different preset rendering profiles to choose from. The rendering profiles are grouped into categories. See picture Above. 
+**Kdenlive** offers many different preset rendering profiles to choose from. The rendering profiles are grouped into categories. See picture Above.
 
 
 .. image:: /images/Kdenlive_Rendering_options2.png
-   :align: left
    :alt: Kdenlive_Rendering_options2
 
 
 File Rendering - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 The following figures show the render dialog when the :menuselection:`Destination` category is **File Rendering**. The first two figures show the layout of the dialog under ver 0.9.10 of **Kdenlive** and the third figure shows how the dialog appears in ver 0.9.8 of **Kdenlive**. 
 
@@ -77,10 +66,7 @@ Version 0.9.10 of **Kdenlive** changes the render dialog significantly because i
 Variable Bit Rate - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
 .. image:: /images/Kdenlive_Render_dialog_vbr_0.9.10.png
-   :align: left
    :alt: File rendering dialog Variable Bit Rate - ver 0.9.10
 
 
@@ -93,38 +79,27 @@ Example: 1min 55 seconds of 720 x 576 H.264 iPhone footage rendered at quality 1
 Constant Bit Rate - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
 .. image:: /images/Kdenlive_Render_dialog_cbr_0.9.10.png
-   :align: left
    :alt: File rendering dialog Constant Bit Rate - ver 0.9.10
 
 
 When a constant bitrate (CBR) profile is selected, the :menuselection:`File Size` section displays a drop down for choosing the **Video bitrate** you want. This is similar to the version <=0.9.8 behaviour of **Kdenlive**. You select the video bitrate you want and the video is encoded at that video bitrate across its entire length.
 
-
-
 .. image:: /images/Kdenlive_Render_dialog_0.9.8.png
-   :align: left
    :alt: File rendering dialog - ver 0.9.8
 
 
 DVD Rendering - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
 DVD Rendering produces files that are compatible with DVD authoring software.  MPEG2 files created from :ref:`render` profiles are less likely to be compatible with DVD software.  For quality settings see :ref:`render` and :ref:`render`. For DVD VBR lower :menuselection:`Video quality` setting number means better quality.
 
-
 Note that this rendering does not create a DVD file system. It merely creates DVD-compatible MPEG2 files that can be used by DVD authoring software.  If you check the :menuselection:`Open DVD Wizard after Rendering` check box, then the :ref:`dvd_wizard` will open and you can use it to create a DVD file system (in .ISO format).  The DVD Wizard is also available from the :ref:`file_menu`.  
-
 
 :menuselection:`Create chapter file based on guides` enables chapter markings on your DVD. Chapters work with the "next" and "previous" buttons on the DVD player and can populate scene selection menus. In order to create chapters this way you need to have marked chapters with  :ref:`guides` on timeline. DVD wizard enables marking of chapters also during DVD creation step.
 
 
 .. image:: /images/Kdenlive_DVD_rendering.png
-   :align: left
    :alt: Kdenlive_DVD_rendering
 
 
@@ -132,7 +107,6 @@ Websites  - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/Kdenlive_WebSites_rendering.png
-   :align: left
    :alt: Kdenlive_WebSites_rendering
 
 
@@ -140,7 +114,6 @@ Mobile Devices  - earlier Versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/Kdenlive_Mobile_devices.png
-   :align: left
    :alt: Kdenlive_Mobile_devices
 
 
@@ -152,7 +125,6 @@ You can create your own custom render profiles by clicking the button highlighte
 
 .. image:: /images/Custom_render_profiles.png
    :width: 350px
-   :align: left
    :alt: Custom_render_profiles
 
 |document-new|
@@ -171,7 +143,6 @@ In version >=0.9.5 there is an improved version of the **Save Profile** dialog (
 
 .. image:: /images/Kdenlive_Custom_render_profile_0.9.5.png
    :width: 350px
-   :align: left
    :alt: Kdenlive_Custom_render_profile_0.9.5
 
 
@@ -189,7 +160,6 @@ Alternatively, once you have submitted a rendering job on a project and it is up
 
 .. image:: /images/Kdenlive_Rendering_job_queue.png
    :width: 400px
-   :align: left
    :alt: Kdenlive_Rendering_job_queue
 
 
@@ -218,7 +188,6 @@ This option overlays a time code or frame count over the rendered video.  This w
 
 .. image:: /images/Kdenlive_Render_overlay_result_eg.png
    :width: 150px
-   :align: left
    :alt: render overlay result
 
 
@@ -235,7 +204,6 @@ This image shows metadata settings for a project:
 
 
 .. image:: /images/Kdenlive_project_settings_metadata.png
-   :align: left
    :alt: Kdenlive_project_settings_metadata
 
 
@@ -243,7 +211,6 @@ And this is the metadata on the resulting clip (rendered with :menuselection:`Ex
 
 
 .. image:: /images/Kdenlive_Clip_properties_metadata_res.png
-   :align: left
    :alt: Kdenlive_Clip_properties_metadata_res
 
 
@@ -273,39 +240,7 @@ Export Audio Checkbox
  
 This is an unusual one. Instead of a normal on/off checkbox toggle, the :menuselection:`Export Audio` checkbox cycles among three choices.
 
-
-.. image:: /images/Kdenlive_Export_audio_check_box_crop.png
-   :align: left
-   :alt: Kdenlive_Export_audio_check_box_crop
-
-
-.. image:: /images/kdenlive_export_audio_checked_ubuntu.png
-   :align: left
-   :alt: kdenlive_export_audio_checked_ubuntu
-
-
-.. image:: /images/kdenlive_export_audio_unchecked_ubuntu.png
-   :align: left
-   :alt: kdenlive_export_audio_unchecked_ubuntu
-
-
 As if that weren't confusing enough, the *Export audio (automatic)* option may appear different depending on your combination of distribution, desktop environment and theme.  See three examples below:
-
-
-.. image:: /images/Kdenlive_Export_audio_check_box_crop.png
-   :align: left
-   :alt: Kdenlive_Export_audio_check_box_crop
-
-
-.. image:: /images/kdenlive_export_audio_automatic_dashed.png
-   :align: left
-   :alt: kdenlive_export_audio_automatic_dashed
-
-
-.. image:: /images/kdenlive_export_audio_automatic_nocheck.png
-   :align: left
-   :alt: kdenlive_export_audio_automatic_nocheck
-
 
 Regardless of how the checkbox on the *Export audio (automatic)* option may appear on your installation, rest assured that when that option is showing, it is enabled.
 
@@ -313,20 +248,28 @@ Regardless of how the checkbox on the *Export audio (automatic)* option may appe
 So what do the three options mean?
 
 
-* Export audio (automatic)* means detect if an audio track is present and write the audio track if found
+.. image:: /images/Kdenlive_Export_audio_check_box_crop.png
+   :alt: Kdenlive_Export_audio_check_box_crop
+
+*Export audio (automatic)* means detect if an audio track is present and write the audio track if found
 
 
-* Export audio*, when checked, means write an audio track in the rendered file even if there is no audio track to write.
+.. image:: /images/kdenlive_export_audio_checked_ubuntu.png
+   :alt: kdenlive_export_audio_checked_ubuntu
+
+*Export audio*, when checked, means write an audio track in the rendered file even if there is no audio track to write.
 
 
-* Export audio*, when unchecked, means do not write an audio track in the rendered file.
+.. image:: /images/kdenlive_export_audio_unchecked_ubuntu.png
+   :alt: kdenlive_export_audio_unchecked_ubuntu
+
+*Export audio*, when unchecked, means do not write an audio track in the rendered file.
 
 
 The difference in behavior between enabling *Export audio* versus *Export audio (automatic)* can be seen in the situation where you have a video on the timeline but there is no audio track on the timeline and the video in the video track also does not have an audio track. An example of such a situation is shown in the screenshot below.
 
 
 .. image:: /images/Kdenlive_Video_with_no_audio.png
-   :align: left
    :alt: Kdenlive_Video_with_no_audio
 
 
@@ -334,7 +277,6 @@ In this situation, if you render with *Export audio (automatic)*, the rendered f
 
 
 .. image:: /images/Kdenlive_Render_export_audio_auto_vs_just_checked2.png
-   :align: left
    :alt: Kdenlive_Render_export_audio_auto_vs_just_checked2
 
 
@@ -389,8 +331,8 @@ In cases where there is an audio track ...
    :alt: Kdenlive_Video_plus_Audio_in_seperate_tracks
 
 
-Rendering with *Export audio* unchecked will produce a file with no audio track – result 4 in the screenshot above.
-Rendering with *Export audio (automatic)*  (result 3  in the screenshot above) or with  *Export audio* checked will produce files with Audio tracks.
+Rendering with :menuselection:`Export audio` unchecked will produce a file with no audio track – result 4 in the screenshot above.
+Rendering with :menuselection:`Export audio (automatic)`  (result 3  in the screenshot above) or with  *Export audio* checked will produce files with Audio tracks.
 
 
 Encoder Threads
@@ -408,12 +350,10 @@ Scanning Dropdown
 -----------------
 
 .. image:: /images/Kdenlive_Render_scanning.png
-   :align: left
    :alt: Kdenlive_Render_scanning
 
 
 This option controls the frame scanning setting the rendered file will have. 
 Options are *Force Progressive*, *Force Interlaced* and  *Auto*. 
 
-
-* Auto* causes the rendered file to take the scanning settings that are defined in the :ref:`project_settings`. Use the other options to override the setting defined in the project settings.
+:menuselection:`Auto` causes the rendered file to take the scanning settings that are defined in the :ref:`project_settings`. Use the other options to override the setting defined in the project settings.
