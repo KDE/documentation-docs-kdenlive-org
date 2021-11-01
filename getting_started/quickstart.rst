@@ -74,21 +74,16 @@ Adding clips
 
 Now that the project is ready, let’s start adding some clips (i.e. the ones you downloaded). This works via the *Project Bin widget*; a click on the :menuselection:`Add Clip or Folder` icon |kdenlive-add-clip| directly opens the file dialog, a click on the small arrow shows a list of additional clip types that can be added as well. Video clips, audio clips, images, and other **Kdenlive** projects can be added via the default :menuselection:`Add Clip or Folder` dialog.
 
+.. container:: clear-both
 
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 200px
+   .. figure:: /images/Kdenlive_Quickstart-Mainwindow.png
+      :align: left
+      :width: 400px
+      :alt: Kdenlive_Quickstart-Mainwindow
 
+      Kdenlive window with the tutorial files
 
-.. figure:: /images/Kdenlive_Quickstart-Mainwindow.png
-  :align: left
-  :width: 400px
-  :alt: Kdenlive_Quickstart-Mainwindow
-  
-  Kdenlive window with the tutorial files
-
-
-After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known project tree. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.
+   After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known project tree. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.
 
 
 .. figure:: /images/Kdenlive_Quickstart-Save-Project.png
@@ -101,11 +96,7 @@ After loading the clips, **Kdenlive** will look similar to this. On the top left
 
 Let’s save the work via :menuselection:`File --> Save`. This saves our project, i.e. where we placed the clips on the timeline, which effects we applied, and so on. It can *not* be played. [4]_  The process of creating the final video is called *Rendering*.
 
-
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 130px
-
+.. rst-class:: clear-both
 
 Timeline
 --------
@@ -159,7 +150,7 @@ You can zoom in by either using the :menuselection:`zoom slider` at the bottom r
 
 .. figure:: /images/Kdenlive-Quickstart-Add-Transition.png
   :align: left
-  :width: 350px
+  :width: 375px
   :alt: Kdenlive-Quickstart-Add-Transition
   
   Transition marker
@@ -171,7 +162,7 @@ The wipe transitions fades the first clip into the second one. See also :ref:`tr
 
 .. image:: /images/Kdenlive-Quickstart-Add-Last-Clip.png
   :align: left
-  :width: 395px
+  :width: 375px
   :alt: Kdenlive-Quickstart-Add-Last-Clip
 
 Let’s now add the last clip, the Piano, and again apply a wipe transition. When adding it on the first track of the timeline (track V2), you need to click on the new clip’s lower left edge to add the transition to the previous clip.
@@ -183,39 +174,33 @@ Effects
 .. figure:: /images/Kdenlive_Quickstart-Add-Effect.png
   :align: left
   :alt: Kdenlive_Quickstart-Add-Effect
-  :width: 450px
+  :width: 375px
   
   Effect List
 
 
 The Piano can be colourized by adding an *effect* to it.  Click on the effect view (if effect view is not visible enable the view: :menuselection:`View --> Effects`). Type *rgb* in the search field then double-click the :menuselection:`RGB Adjustment` effect.
 
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 220px
+.. container:: clear-both
+
+   .. image:: /images/Kdenlive_Quickstart-Effect-Flag.png
+      :align: left
+      :width: 375px
+      :alt: Kdenlive_Quickstart-Effect-Flag
+
+   Once the effect has been added, click on an empty part in the timeline and you see its name on the timeline clip. It will also be shown in the :menuselection:`Effect/Composition Stack` widget.
+
+.. container:: clear-both
+
+   .. figure:: /images/Kdenlive-Quickstart-EffectStack.png
+      :align: left
+      :width: 375px
+      :alt:
+
+      Effect Stack with RGB adjustment
 
 
-.. image:: /images/Kdenlive_Quickstart-Effect-Flag.png
-  :align: left
-  :width: 352px
-  :alt: Kdenlive_Quickstart-Effect-Flag
-
-Once the effect has been added, click on an empty part in the timeline and you see its name on the timeline clip. It will also be shown in the :menuselection:`Effect/Composition Stack` widget.
-
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 50px
-
-
-.. figure:: /images/Kdenlive-Quickstart-EffectStack.png
-  :align: left
-  :width: 402px
-  :alt: 
-  
-  Effect Stack with RGB adjustment
-
-
-To get a warm yellow-orange tone on the image, fitting the comfortable evening, blue needs to be reduced and red and green improved. 
+   To get a warm yellow-orange tone on the image, fitting the comfortable evening, blue needs to be reduced and red and green improved.
 
 The values in the Effect/Composition Stack widget can be changed by using the slider (middle mouse button resets it to the default value), or by entering a value directly by double-clicking the number to the right of the slider. 
 
@@ -225,7 +210,7 @@ For some effects, like the one used there, it is possible to add keyframes. The 
 
 .. figure:: /images/Kdenlive_Quickstart-Keyframes.png
   :align: left
-  :width: 401px
+  :width: 375px
   :alt: Kdenlive_Quickstart-Keyframes
   
   Keyframes for effects
@@ -247,7 +232,7 @@ Music
 
 .. figure:: /images/Kdenlive_Quickstart-Fadeout.png
   :align: left
-  :width: 395px
+  :width: 375px
   :alt: Kdenlive_Quickstart-Fadeout
   
   Audio fadeout
@@ -272,25 +257,18 @@ Rendering
 
 A few minutes left, and the project is finished! Click the Render button (or go to :menuselection:`Project --> Render`, or press :kbd:`Ctrl + Enter`) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the :menuselection:`Render to File` button. 
 
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 160px
+.. container:: clear-both
 
+   .. figure:: /images/Kdenlive_Quickstart-Rendering.png
+      :align: left
+      :width: 300px
+      :alt: Kdenlive_Quickstart-Rendering
 
+      Rendering progress
 
-.. figure:: /images/Kdenlive_Quickstart-Rendering.png
-  :align: left
-  :width: 300px
-  :alt: Kdenlive_Quickstart-Rendering
-  
-  Rendering progress
+   After some seconds rendering will be finished, and your first **Kdenlive** project completed. Congratulations!
 
-
-After some seconds rendering will be finished, and your first **Kdenlive** project completed. Congratulations!
-
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 300px
+.. rst-class:: clear-both
 
 References and notes
 --------------------

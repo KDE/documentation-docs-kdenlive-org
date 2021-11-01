@@ -18,9 +18,6 @@
    :license: Creative Commons License SA 4.0
 
 
-
-..  Please use level 3 top heading, i.e. "===" 
-
 .. _editing:
 
 Editing
@@ -42,7 +39,6 @@ This will speed up the editing work and you can do editing steps that are not po
 
 Seeking through your project
 ----------------------------
-
 
 The timeline cursor shows your current position in the project. The positions of the cursors on the timeline ruler and Project Monitor are always in sync. Position can be moved in the following ways:
 
@@ -96,8 +92,6 @@ You can also resize a clip by cutting it with the  `Razor Tool`_ and then deleti
 Removing Space Between Clips
 ----------------------------
 
-
-
 Right click in the space between the clips and choose :menuselection:`Remove Space`. Be aware however that if you have clips on multiple tracks in the timeline and they are not grouped, then removing space may disturb the alignment of the clips between the different tracks – the space is only removed from the timeline where you clicked.  Under this situation it may be safer to use the `Spacer Tool`_.
 
 
@@ -108,8 +102,6 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
 Middle Tool Bar
 ---------------
 
-
-
 There is a toolbar between monitors and the timeline that controls various aspects of the editor. 
 
 
@@ -119,33 +111,23 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 1.  **Track Compositing** drop down. 
 
-
 1a. `Track Compositing - None`_
-
 
 1b. `Track Compositing - Preview`_
 
-
 1c. `Track Compositing - High Quality`_
-
 
 1d. **Mixed Audio tracks** changes the order in which tracks are displayed to mixed audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, V1, A2, V2, A3, V3
 
-
 1e. **Split Audio tracks** changes the order in which tracks are displayed to separate audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A1, V1, V2, V3
-
 
 1f. **Split Audio tracks (reverse)** changes the order in which tracks are displayed to separate audio and video tracks with the audio tracks in reverse order.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A3, V1, V2, V3
 
-
 2. **Timeline Edit Mode**   Drop Down
-
 
 2a. `Timeline Edit Mode - Normal Mode`_
 
-
 2b. `Timeline Edit Mode - Overwrite Mode`_
-
 
 2c. `Timeline Edit Mode - Insert Mode`_
 
@@ -153,18 +135,7 @@ There is a toolbar between monitors and the timeline that controls various aspec
 These same settings can be found under the :menuselection:`Tool` menu.
 
 
-3. Use timeline zone 
-
-.. image:: /images/Kdenlive_Use_timeline_zone_for_insert.png
-   :alt: use timeline zone
-
-/ Do not use timeline zone 
-
-.. image:: /images/Kdenlive_Dont_Use_timeline_zone_for_insert.png
-   :alt: don't use timeline zone
-
-
-for insert (toggles). See `Insert &  Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page. 
+3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See `Insert &  Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.
 
 
 **Tool Group** (one of these 3 can be active)
@@ -175,72 +146,49 @@ Active buttons are grey.
 
 4. `Selection Tool`_ - Also selected with the 'S' hotkey.  Allows the selection and manipulation of clips on the timeline
 
-
 5. `Razor Tool`_ - Also selected with the 'X' hotkey, or to cut at the point of the play head use "Shift-R".   This allows a clip to be cut into two clips.
-
 
 6. `Spacer Tool`_ - Also selected with the 'M' hotkey.  This tool will select all clips at one point in the timeline and allow them to be shifted at once.
 
-
 7. Position indicator - displays the time point or frame number of the location of the hovering mouse on the left side, and the total length of the project on the right side.
-
 
 7a. **hh:mm:ss:ff;** Sets the position indicator to display time units
 
-
 7b. **Frames** Sets the position indicator to display frames
-
 
 8. **Mix Clips** - allows same-track transitions to be applied between two clips. See :ref:`same_track_transition` for a detailed explanation.
 
-
 9. Insert Clip Zone in Timeline. See `Insert & Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.
-
 
 10. Overwrite Clip Zone in Timeline. See `Insert & Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.
 
-
 11. Extract Timeline Zone
-
 
 12. Lift Timeline Zone
 
-
 13. Favourite Effects
-
 
 14. Start Preview Render
 
-
 14a. Stop Preview Render
-
 
 14b. Add Preview Zone
 
-
 14c. Remove Preview Zone
-
 
 14d. Remove All Preview Zones
 
-
 14e. Automatic Preview
-
 
 14f. Disable Timeline Preview
 
-
 14g. Manage Cached Data
-
 
 Items 14, 14a-14g are covered in detail by `Timeline preview rendering <https://kdenlive.org/project/timeline-preview-rendering/>`_ article on the Kdenlive Home Page
 
-
 15. Show/Hide the **Audio Mixer** tool.  The audio mixer tool allows audio to be managed in the project.
 
-
 16. Show/Hide the **Subtitle Tool**.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
-
 
 Bottom Tool Bar
 ---------------
@@ -251,33 +199,24 @@ Bottom Tool Bar
 
 24. `Split Audio and Video Automatically`_
 
-
 25. `Automatic Transitions`_
-
 
 26. `Show Video Thumbnails`_
 
-
 27. `Show Audio Thumbnails`_
 
-
 28. `Show marker comments`_
-
 
 29. `Snap`_
 
 
 **Zoom Tools**
 
-
 30. `Fit Zoom to Project`_
-
 
 31. Zoom Out
 
-
 32. `Zoom Project`_
-
 
 33. Zoom In
 
@@ -287,7 +226,6 @@ Button Descriptions
 
 Track Compositing - None
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 When Track Compositing is set to None you will not get tracks with alpha channel information to composite with the other tracks unless an explicit composite or affine transition is added between the clips.  This is the behavior that **Kdenlive** displayed in older ( <= ver 0.9.X). 
 
@@ -369,19 +307,13 @@ With this mode selected and you drop a selection into the timeline the selection
 
 **Rearrange edit in the timeline**
 
-
 Performing a rearrange edit. Only clips in the destination track are shifted; clips in other tracks are not affected. This technique lets you quickly change the order of clips in the timeline. 
 
-
 It always closes all space in the track.
-
 
 .. image:: /images/Insert-mode.gif
    :alt: Insert-mode
    
-
-  
-
 Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.
 
 
@@ -400,8 +332,6 @@ Use this to cut clips in the timeline. The cursor becomes a pair of scissors whe
 Spacer Tool
 ~~~~~~~~~~~
 
-
-
 Use this tool (|distribute-horizontal|) to temporarily group separate clips and then drag them around the timeline to create or remove space between clips. Very useful. Experiment with this tool to see how it works.
 
 
@@ -415,7 +345,6 @@ In the above example, these clips are not grouped. However, the spacer tool grou
 
 Fit Zoom to Project
 ~~~~~~~~~~~~~~~~~~~
- 
 
 This will zoom the project out so that it all fits in the timeline window. This is the same function that is triggered by :ref:`timeline_menu` Menu item, :menuselection:`Fit Zoom to Project`.
 
@@ -444,7 +373,6 @@ Show Video Thumbnails
 
 When on, the video clips in the timeline will contain thumbnails as well as a filename. Otherwise, they just have the clip filename.
 
-
 When the timeline is zoomed in to the maximum, the video track will show a thumbnail for every frame in the clip. When the timeline is not on maximum zoom, the video track will show a thumbnail for the first and last frame in the clip.
 
 
@@ -458,7 +386,6 @@ Show marker comments
 ~~~~~~~~~~~~~~~~~~~~
 
 This toggles on and off the display of the comments saved within :ref:`clips` (the text with the gold background in the example below) and within :ref:`guides` (the text with the purple background).
-
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
    :alt: markers and guides
@@ -476,8 +403,6 @@ Clips will also snap to the cursor position, markers and :ref:`guides`.
 Cutting Footage from multiple aligned tracks - Ripple Delete
 ------------------------------------------------------------
 
-
-
 This is available on the :menuselection:`Timeline` menu under :menuselection:`All clips --> Ripple Delete`  [1]_ .
 
 
@@ -491,32 +416,28 @@ Mark In and Out points in the Project Monitor, then choose :menuselection:`Timel
 
 .. versionadded:: 19.08.0
 
-
 3 important points to understand the 3 point editing concept (with keyboard shortcuts): 
 
+
+Source
+~~~~~~
 
 .. figure:: /images/3p-Source-1.gif
    :align: right
    :alt: 3point source
    :width: 200px
-        
-
-**Source**
-
 
 On the left of the track head the green vertical lines (V1 or A2). The green line is connected to the source clip in the project bin. Only when a clip is selected in the project bin, the green line shows up depending on the type of the clip (A/V clip, picture/title/color clip, audio clip).
 
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 340px
+.. rst-class:: clear-both
+
+Target
+~~~~~~
 
 .. figure:: /images/3p-Target-active-1.gif
    :align: right
    :alt: 3point target
    :width: 200px
-  
-
-**Target**
 
 In the track head the target V1 or A1 is active when it’s yellow. An active target track reacts to edit operations like insert a clip even if the source is not active.
 
@@ -526,67 +447,47 @@ In the track head the target V1 or A1 is active when it’s yellow. An active ta
 Connect the source (the clip in the project bin) to a target (a track in the timeline). Only when both connectors on the **same** track are switched on the clip “flow” from the project bin to the timeline.
 
 
-**Be aware**
+.. important::
 
-Active target tracks without connected source react on edit operations.
+    Active target tracks without connected source react on edit operations.
 
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 100px
-
-**Example of advanced edit**
-
+Examples of advanced edit
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Here is a brief introduction to the 3 point editing system.
-
 
 .. figure:: /images/3p-Insert-clip-1.gif
    :align: right
    :alt: 3point insert
    :width: 200px
   
-1.	Select a clip in the project bin with an up/down arrow
+1. Select a clip in the project bin with an up/down arrow
 
+2. Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys.
 
-2.	Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys.
+3. Hit :kbd:`T` to change to the timeline
 
+4. Select a video or audio track in the timeline (up/down arrow key) and set it as source with :kbd:`Shift + T`.
 
-3.	Hit :kbd:`T` to change to the timeline
+5. Activate the track as a target with shortcut :kbd:`A` (this connects the track to the source)
 
+6. Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-head position or to fill the selected area in the timeline if it is active. If you need to activate it use the :kbd:`G` key.
 
-4.	Select a video or audio track in the timeline (up/down arrow key) and set it as source with :kbd:`Shift + T`.
+.. container:: clear-both
 
+   .. figure:: /images/3p-Advanced-edit-1.gif
+      :align: right
+      :alt: 3point edit
+      :width: 200px
 
-5.	Activate the track as a target with shortcut :kbd:`A` (this connects the track to the source)
+   In the following example, we want only to insert the audio part of a clip in A2 and we want to create a gap in all the other video and audio tracks:
 
+   1. Activate all the target tracks which contain clips (yellow buttons).
 
-6.	Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-head position or to fill the selected area in the timeline if it is active. If you need to activate it use the :kbd:`G` key.
+   2. Activate just the audio source on A2
 
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 280px
+   3. Press :kbd:`V` (insert).
 
-.. figure:: /images/3p-Advanced-edit-1.gif
-   :align: right
-   :alt: 3point edit
-   :width: 200px
-  
+.. container:: clear-both
 
-
-In the following example, we want only to insert the audio part of a clip in A2 and we want to create a gap in all the other video and audio tracks:
-
-
-1.	Activate all the target tracks which contain clips (yellow buttons).   
-
-
-2.	Activate just the audio source on A2   
-
-
-3.	Press :kbd:`V` (insert).   
-
-.. image:: /images/transparent.png
-   :alt: transparent
-   :width: 300px
-
-
-.. [1] available on bleeding edge version > 0.9.10 (Jan2015)
+   .. [1] available on bleeding edge version > 0.9.10 (Jan2015)
