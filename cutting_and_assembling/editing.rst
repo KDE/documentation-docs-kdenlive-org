@@ -190,8 +190,10 @@ Items 14, 14a-14g are covered in detail by `Timeline preview rendering <https://
 
 16. Show/Hide the **Subtitle Tool**.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
-Bottom Tool Bar
----------------
+.. _status_bar:
+
+Status Bar
+----------
 
 .. image:: /images/Kdenlive_Bottom_toolbar17_04b.png
    :alt: Bottom toolbar ver 17.04

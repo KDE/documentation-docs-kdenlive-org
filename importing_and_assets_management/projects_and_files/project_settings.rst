@@ -66,7 +66,7 @@ You can select the default number of audio and video tracks that your project wi
 Thumbnails
 ~~~~~~~~~~
 
-The Audio and Video thumbnails are shown in the :ref:`timeline`. They can also be enabled/disabled through buttons in the status bar.
+The Audio and Video thumbnails are shown in the :ref:`timeline`. They can also be enabled/disabled through buttons in the :ref:`status_bar`.
 
 
 Proxy Clips Tab

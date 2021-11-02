@@ -20,7 +20,7 @@ Kdenlive’s interface is separated into four main parts:
 
 Window in the middle.
 
-Status Bar at the bottom.
+:ref:`status_bar` at the bottom.
 
 .. figure:: /images/interface_window_system_editing_screen.png
    :align: left

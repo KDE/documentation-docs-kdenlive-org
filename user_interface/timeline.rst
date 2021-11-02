@@ -63,7 +63,7 @@ Besides the availability of zoombars in the monitor and keyframe scroll bars, zo
 **Key binding information**
 
 
-Key binding info has been added on the left while context item information has been moved to the right of the status bar. Recommend playing this video in full-screen mode.
+Key binding info has been added on the left while context item information has been moved to the right of the :ref:`status_bar`. Recommend playing this video in full-screen mode.
 
 
 .. image:: /images/Context-and-keybinds.gif
