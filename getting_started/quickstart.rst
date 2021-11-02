@@ -83,7 +83,7 @@ Now that the project is ready, let’s start adding some clips (i.e. the ones yo
 
       Kdenlive window with the tutorial files
 
-   After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known project tree. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.
+After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known project tree. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.
 
 
 .. figure:: /images/Kdenlive_Quickstart-Save-Project.png
@@ -117,7 +117,7 @@ Since some cutlery is needed as well, grab the spoon clip and drop it on the fir
 
 .. figure:: /images/Kdenlive_Quickstart-TimelineCursor.png
   :align: left
-  :alt: 
+  :alt: Kdenlive_Quickstart-TimelineCursor
   
   Timeline cursor
 
@@ -195,12 +195,12 @@ The Piano can be colourized by adding an *effect* to it.  Click on the effect vi
    .. figure:: /images/Kdenlive-Quickstart-EffectStack.png
       :align: left
       :width: 375px
-      :alt:
+      :alt: Kdenlive-Quickstart-EffectStack
 
       Effect Stack with RGB adjustment
 
 
-   To get a warm yellow-orange tone on the image, fitting the comfortable evening, blue needs to be reduced and red and green improved.
+To get a warm yellow-orange tone on the image, fitting the comfortable evening, blue needs to be reduced and red and green improved.
 
 The values in the Effect/Composition Stack widget can be changed by using the slider (middle mouse button resets it to the default value), or by entering a value directly by double-clicking the number to the right of the slider. 
 

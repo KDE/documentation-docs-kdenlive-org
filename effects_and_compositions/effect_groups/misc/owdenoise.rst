@@ -13,7 +13,7 @@ Owdenoise
 .. contents::
 
 
-This is the `owdenoise  <https://www.mltframework.org/plugins/FilterAvfilter-owdenoise/>`_ from Melt
+This is the `MLT owdenoise <https://www.mltframework.org/plugins/FilterAvfilter-owdenoise/>`_ from Melt
 
 Denoise using wavelets.
 
