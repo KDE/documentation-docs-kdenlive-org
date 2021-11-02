@@ -19,7 +19,6 @@ Keyboard Shortcuts
 
 
 
-..  Please use level 3 top heading, i.e. "===" 
 ..
   TODO:
   * Important shortcuts (i.e. excluding Ctrl-S for saving and other general shortcuts working everywhere)   

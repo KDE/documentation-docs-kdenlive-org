@@ -12,7 +12,7 @@
 
    :license: Creative Commons License SA 4.0
 
-..  Please use level 3 top heading, i.e. "===" 
+
 
 .. _guides:
 

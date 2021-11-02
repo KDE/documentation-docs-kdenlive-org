@@ -19,7 +19,6 @@
 
 
 
-..  Please use level 3 top heading, i.e. "===" 
 
 .. _subtitle:
 

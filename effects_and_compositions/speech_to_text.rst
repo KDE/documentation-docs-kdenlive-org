@@ -19,7 +19,7 @@
 
 
 
-..  Please use level 3 top heading, i.e. "===" 
+
 
 .. _speech_to_text:
 
