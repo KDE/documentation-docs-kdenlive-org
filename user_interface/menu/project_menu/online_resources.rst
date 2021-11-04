@@ -28,6 +28,7 @@ Available from the :ref:`project_menu` menu and the :ref:`clips` dropdown,  this
    :align: left
    :alt: Kdenlive_Search_Online_services
 
+.. container:: clear-both
 
 .. versionadded:: 21.04.0 
   
@@ -69,6 +70,8 @@ The Freesound Audio Library part of this became non-functional on old versions o
 
 Version 15.12 (December 2015) allowed users to automatically download the high-quality .mp3 preview file from freesound using the **Online Resources** module.
 
+.. container:: clear-both
+
 
 Freesound Audio Library - Future version
 ----------------------------------------
@@ -96,6 +99,7 @@ It might take a few seconds for the freesound web page to load in the window –
 
 Once you have logged into the freesound system, you must grant Kdenlive permission to access your freesound account.
 
+.. container:: clear-both
 
 .. image:: /images/Kdenlive_freesound2.png
    :align: left

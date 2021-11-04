@@ -48,7 +48,6 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/kdenlive_timeline_current_clip_duration02.png
-   :align: left
    :alt: kdenlive_timeline_current_clip_duration02
 
 
@@ -56,7 +55,6 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/Kdenlive-restore-audio.gif
-   :align: center
    :alt: Kdenlive-restore-audio
 
 
@@ -67,7 +65,6 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/Kdenlive-extract_clip.gif
-   :align: center
    :alt: Kdenlive-extract_clip
 
 
@@ -75,7 +72,6 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/Kdenlive-timeline-righ-click-markersmenu.png
-   :align: center
    :alt: Kdenlive-timeline-righ-click-markersmenu
 
 * The markers sub-menu allows you to add, edit and remove markers from your clips that are displayed on the timeline.  These markers will move with the clips.  See :ref:`markers`.
@@ -103,7 +99,6 @@ This is the context menu that appears when you right-click on a clip in the time
 
 
 .. image:: /images/Kdenlive-change_speed_dialog.png
-   :align: center
    :alt: Kdenlive-change_speed_dialog
 
 
@@ -128,7 +123,6 @@ A different menu appears if you click in empty space in the timeline.
 
 
 .. image:: /images/kdenlive_right-click_in_timeline_space.png
-   :align: left
    :alt: kdenlive_right-click_in_timeline_space
 
 

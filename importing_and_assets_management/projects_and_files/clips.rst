@@ -27,6 +27,8 @@ Clips
 See also :ref:`clip_menu`.
 
 
+.. _add_clip:
+
 Clips (Video, Audio and Images)
 -------------------------------
  
@@ -51,6 +53,7 @@ You can add other types of clips by choosing a clip type from the menu brought u
    :align: center
    :alt: Kdenlive_Add_other_clip_types
 
+.. _add_color_clip:
 
 Color clips
 -----------
@@ -82,6 +85,7 @@ Title clips
 
 See :ref:`titles`
 
+.. _add_slideshow_clip:
 
 Image Sequence clips
 --------------------

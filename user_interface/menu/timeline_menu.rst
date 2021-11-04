@@ -83,6 +83,7 @@ Timeline Menu
    :align: left
    :alt: kdenlive_timeline_allclips_rippledelete
 
+.. rst-class:: clear-both
 
 :ref:`editing`  [1]_ 
 

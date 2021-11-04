@@ -64,6 +64,8 @@ There is also a find window at the top of the :ref:`project_tree`. Typing text i
 
 This clip filtering is independent of the :menuselection:`Edit --> Find` menu item.
 
+.. rst-class:: clear-both
+
 Find Next
 ---------
 

@@ -24,6 +24,7 @@ Main and Extra Toolbars
    :align: left
    :alt: Kdenlive_Main_tool_bar
 
+.. container:: clear-both
 
 an *Extra Toolbar*, which by default contains the **Render** button,   
 
@@ -31,15 +32,16 @@ an *Extra Toolbar*, which by default contains the **Render** button,
    :align: left
    :alt: Kdenlive_Render_button
 
+.. container:: clear-both
 
-and a bottom toolbar.    
+and a status toolbar.    
 
 .. image:: /images/kdenlive_bottom_toolbar01.png
    :align: left
    :alt: kdenlive_bottom_toolbar01
 
 
-For more info on the Bottom Toolbar see :ref:`editing`.
+For more info on the status toolbar see :ref:`editing`.
 
 
 Configuring the Toolbars

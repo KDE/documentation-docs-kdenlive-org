@@ -132,7 +132,6 @@ The *%s* in the template will be replaced with the text that you enter in the :m
 
 .. image:: /images/Title_template3.png
    :width: 400px
-   :align: left
    :alt: Title_template3
 
 
@@ -149,7 +148,6 @@ Template Titles - Built In
 
 .. image:: /images/Kdenlive_Template_Title1.png
    :width: 450px
-   :align: left
    :alt: Template_title1
 
 
@@ -166,7 +164,6 @@ On the Toolbar overflow  menu (**>>**) shown in the picture below, the second me
 
 
 .. image:: /images/Kdenlive_Add_image_to_title.png
-   :align: left
    :alt: Kdenlive_Add_image_to_title
 
 
@@ -176,7 +173,6 @@ Draw Rectangle Toolbar Item
 The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt + R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
 
 .. image:: /images/Kdenlive_Alt-R_title_menu.png
-   :align: left
    :alt: Kdenlive_Alt-R_title_menu
 
 
@@ -184,7 +180,6 @@ The rectangles can be placed behind text by selecting them and the changing the 
 
 .. image:: /images/Kdenlive_Rectangle_on_title.png
    :width: 450px
-   :align: left
    :alt: Kdenlive_Rectangle_on_title
 
 
@@ -204,7 +199,6 @@ Click :guilabel:`OK` and preview the scrolling title.
 
 
 .. image:: /images/Scrolling_titles.png
-   :align: left
    :alt: Scrolling_titles
 
 
@@ -236,7 +230,6 @@ To make titles fade in and out, you modify the transition which gets automatical
 In the image below we have four keyframes (labeled 1 to 4). The first keyframe is the one currently displayed and we can see that the opacity on this keyframe is zero. The opacity at keyframes 2 and 3 is 100%. The opacity at the 4th keyframe is zero percent. The overall effect is that the title fades in between keyframe 1 and keyframe 2. And then it fades out between keyframe 3 and keyframe 4 .
 
 .. image:: /images/Kdenlive_Fade_titles_anotated.png
-   :align: left
    :alt: Kdenlive_Fade_titles_anotated
 
 How to fade in more than one title sequentially
@@ -250,7 +243,6 @@ you put three titles on three different tracks but you make all three affine tra
 
 
 .. image:: /images/Kdenlive_3_fade_in_titles.png
-   :align: left
    :alt: Kdenlive_3_fade_in_titles
 
 

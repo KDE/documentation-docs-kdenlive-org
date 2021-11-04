@@ -32,7 +32,6 @@ You can also apply effects to an entire track. This is achieved by dragging an e
 
 
 .. figure:: /images/Kdenlive_Effect_on_whole_track.png
-  :align: left
   :width: 100px
   :alt: Kdenlive_Effect_on_whole_track
   
@@ -46,7 +45,6 @@ Make the Effects Tab visible from the :menuselection:`View` menu (:menuselection
 
 
 .. figure:: /images/Kdenlive_Effects_tab_17_04.png
-  :align: left
   :width: 350px
   :alt: Kdenlive_Effects_tab_17_04
   
@@ -87,26 +85,24 @@ The Properties Tab displays the settings for the effects on the currently select
 
 
 .. figure:: /images/Kdenlive_selection_param1.png
-  :align: left
-  :width: 350px
-  :alt: Kdenlive_selection_param1
+   :alt: Kdenlive_selection_param1
   
-  Figure 3 - Properties when a clip with effects is selected
+   Figure 3 - Properties when a clip with effects is selected
+
 
 
 .. figure:: /images/Kdenlive_selection_param2.png
-  :align: left
-  :width: 250px
-  :alt: Kdenlive_selection_param2
-  
-  Figure 4 - Properties when a transition is selected
+   :alt: Kdenlive_selection_param2
+ 
+   Figure 4 - Properties when a transition is selected
+
+.. rst-class:: clear-both
 
 
 Click the eye icon shown at 2 to temporarily disable the effect and toggle the button to the state shown at 1. 
 Click the empty eye icon shown at 1 to re-enable a disabled effect and toggle the button to the state shown at 2.
 
 .. figure:: /images/Toggle_effect_on_and_off.png
-  :align: left
   :alt: Toggle_effect_on_and_off
   
   toggle effect on and off
@@ -115,7 +111,6 @@ Click the empty eye icon shown at 1 to re-enable a disabled effect and toggle th
 To remove an effect from a clip, click the trash can icon labelled 3 in the image below. The arrow labelled 1 minimizes the effect in the Properties Window. And the icon labelled 2 brings up the Properties Tab menu shown. 
 
 .. image:: /images/Kdenlive_Effect_stack_icons2_17.04.png
-  :align: left
   :alt: Effect stack version 17.04
 
 
@@ -181,53 +176,62 @@ Working with keyframes in the effect stack
 The effect’s keyframe panel has new icons, improved keyframe grabbing and new functions like:
 
 .. image:: /images/Move-kf-to-cursor.gif
+  :width: 220px
   :align: left
   :alt: move-kf-to-cursor
 
 
 
-# Select the keyframe you want to move
-# Move the cursor to the position where you want to move the keyframe to
+1. Select the keyframe you want to move
+2. Move the cursor to the position where you want to move the keyframe to
+3. Click on :menuselection:`Move selected keyframe to cursor position`
 
-* Click on :menuselection:`Move selected keyframe to cursor position`
+.. container:: clear-both
 
-
-.. image:: /images/Duplicate-keyframe.gif
-  :align: left
-  :alt: duplicate-keyframe
-
-
-# Select the keyframe you want to duplicate
-# Move the cursor to the position where you want to insert the new keyframe
-
-* Click on :menuselection:`Duplicate selected keyframe`
+   .. image:: /images/Duplicate-keyframe.gif
+     :width: 220px
+     :align: left
+     :alt: duplicate-keyframe
 
 
-.. image:: /images/Apply-value-to-selected-kf.gif
-  :align: left
-  :alt: apply-value-to-selected-kf
+   1. Select the keyframe you want to duplicate
+   2. Move the cursor to the position where you want to insert the new keyframe
+   3. Click on :menuselection:`Duplicate selected keyframe`
+
+.. container:: clear-both
+
+   .. image:: /images/Apply-value-to-selected-kf.gif
+     :width: 220px
+     :align: left
+     :alt: apply-value-to-selected-kf
  
 
-# Select all keyframes you want to apply the value on
-# Go to one of the selected keyframes and change the value(s) as you want
-# Click on :menuselection:`Apply values to selected keyframes`
+   1. Select all keyframes you want to apply the value on
+   2. Go to one of the selected keyframes and change the value(s) as you want
+   3. Click on :menuselection:`Apply values to selected keyframes`
+   4. Select the parameters you want to apply and click on :menuselection:`OK`
 
-* Select the parameters you want to apply and click on :menuselection:`OK`
+.. rst-class:: clear-both
 
-
-.. image:: /images/Kf-ctrl-select.gif
-  :align: left
+.. figure:: /images/Kf-ctrl-select.gif
+  :width: 220px
   :alt: kf-ctrl-select
 
+  Select keyframes with :kbd:`Ctrl + click`
 
-.. image:: /images/Kf-rubber-select.gif
-  :align: left
+
+.. figure:: /images/Kf-rubber-select.gif
+  :width: 220px
   :alt: kf-rubber-select 
 
+  Rubber select select keyframes with :kbd:`Shift + click`
 
-.. image:: /images/Multiple-kf-move.gif
-  :align: left
+
+.. figure:: /images/Multiple-kf-move.gif
+  :width: 220px
   :alt: multiple-kf-move 
+
+  Move multiple keyframes at once
 
 
 Exchange keyframes across effects
@@ -246,6 +250,7 @@ To export the keyframes the clipboard click on |application-menu| inside the key
 
 To import keyframes from the clipboard click on |application-menu| inside the keyframe widget and choose :menuselection:`Import keyframes from clipboard`. If you have valid data on your clipboard you should see a dialog similar to the screenshot where you can adjust the mapping of the data.
 
+.. rst-class:: clear-both
 
 Effect Zones
 ------------
@@ -259,7 +264,6 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 
 
 .. image:: /images/Track-effect-zone.gif
-  :align: left
   :alt: track-effect-zone 
   
 
@@ -268,7 +272,6 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 
 
 .. image:: /images/Timeline-effect-zone.gif
-  :align: left
   :alt: timeline-effect-zone
   
 
@@ -285,7 +288,7 @@ Some keyframe controls have a *seek to active frame* button
 (labeled 1 in screenshot A below). When *seek to active frame* is toggled on and you click on one of the keyframes in the keyframe list,  Kdenlive will scroll the preview window to that keyframe. In the example of the screenshot, we have selected the keyframe at 9:20 in A and the clip position caret (highlighted in red box) shows the location of this keyframe. Clicking the keyframe at 10:00 in B shows how the clip position has moved.
 
 .. image:: /images/Kdenlive_Seek_to_active_frame.png
-   :align: left
+   :align: right
    :alt: Seek to active frame
 
 

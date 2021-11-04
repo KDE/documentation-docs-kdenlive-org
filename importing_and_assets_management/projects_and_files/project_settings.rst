@@ -32,6 +32,7 @@ Project Settings Tab
 
 The Project Settings dialog is shown when you start a new project (:menuselection:`File --> New`). This allows you to set all basic properties for your project. You can also edit the properties of your current :ref:`project_menu` in :menuselection:`Project --> Project Settings`.
 
+.. rst-class:: clear-both
 
 Project Folder
 ~~~~~~~~~~~~~~
@@ -105,6 +106,7 @@ Project Files Tab
 -----------------
 
 .. image:: /images/Kdenlive_Project_settings_Project_Files_tab.png
+  :alt: Kdenlive_Project_settings_Project_Files_tab
 
 
 From here you can export the project files data.   

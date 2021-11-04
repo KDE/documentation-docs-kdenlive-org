@@ -25,7 +25,6 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 
 .. figure:: /images/Kdenlive_Project_bin_17_04.png
-   :align: left
    :alt: Kdenlive_Project_bin_17_04
   
    20.04+
@@ -43,13 +42,13 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
    Options from Menu under Icon 2
 
 
-* :ref:`clips`
+* :ref:`Add Clip <add_clip>`
 
 
-* :ref:`clips`
+* :ref:`Add Color Clip <add_color_clip>`
 
 
-* :ref:`clips`
+* :ref:`Add Slideshow Clip <Add Slideshow Clip>`
 
 
 * :ref:`titles`
@@ -75,7 +74,6 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 .. versionadded:: 20.04.0
 
 .. figure:: /images/tags.gif
-   :align: left
    :width: 350px
    :alt: tags
    
@@ -86,7 +84,6 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 
 .. figure:: /images/kdenlive_project_bin2.png
-   :align: left
    :width: 350px
    :alt: kdenlive_project_bin2
    
@@ -99,7 +96,6 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 
 .. figure:: /images/filter.gif
-   :align: left
    :width: 350px
    :alt: filter
    
@@ -111,7 +107,6 @@ Filtering by clip type
 
 
 .. figure:: /images/filter-by-type.png
-   :align: left
    :width: 350px
    :alt: filter-by-type
   
@@ -136,7 +131,7 @@ The images below show the menu items available when you right-click a clip in th
 
 .. image:: /images/Kdenlive_Project_bin_right_click_menu.png
    :width: 300px
-   :align: right
+   :alt: Kdenlive_Project_bin_right_click_menu
 
 
 The menu items which appear when you right-click on an item in the Project Bin are also available from the :ref:`clip_menu`.

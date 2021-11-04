@@ -26,6 +26,7 @@ The functions controlled from this menu affect the clip that is selected in the 
    :align: left
    :alt: clip_menu
 
+.. rst-class:: clear-both
 
 Markers Menu Item
 -----------------

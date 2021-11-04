@@ -32,6 +32,7 @@ Kdenlive allows a great deal of freedom to customize screen layout. You can choo
 
 Kdenlive lets you name and save up to four custom layouts.   In the example shown, no custom layouts have been saved yet so they are just labeled 1 through 4.  Click :menuselection:`Save Layout As` and then choose one of the four choices presented.
 
+.. container:: clear-both
 
 .. image:: /images/kdenlive_view_menu_save_layout02.png
   :align: center

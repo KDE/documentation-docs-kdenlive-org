@@ -28,7 +28,6 @@ Subtitle
 .. versionadded:: 20.12.0
 
 .. image:: /images/subtitle-timeline-1.gif
-   :align: left
    :alt: subtitle
   
 The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the new subtitle window. You can also import (SRT/ASS) and export (SRT) subtitles.   
@@ -75,7 +74,6 @@ Set subtitle in/out can be achieved with the same shortcut as to set clip in/out
 
 
 .. image:: /images/subtitle-widget.gif
-   :align: left
    :alt: subtitle window
   
 * The subtitles window allows easier editing and also makes it possible to easily navigate between subtitles with the left/right button.   

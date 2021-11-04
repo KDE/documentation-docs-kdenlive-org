@@ -49,13 +49,11 @@ Goto :menuselection:`Settings --> Configure Kdenlive --> Speech to Text`
 Click on the link to get a language model
 
 .. image:: /images/Speech-to-text_Download-link.png
-   :align: left
    :alt: download link
 
 Drag &  drop the language you want from the vosk-model download page to the model window, and it will download and extract it for you.
 
 .. image:: /images/Speech-to-text_Download-model.png
-   :align: left
    :alt: download model
 
 
@@ -68,7 +66,6 @@ Speech recognition
 **Creating subtitle by speech recognition**
 
 .. image:: /images/Speech-to-text_Subtitle.png
-   :align: left
    :alt: Speech to text subtitle
 
 1.	Mark the timeline zone you want to recognize (adjust the blue line).
@@ -99,7 +96,6 @@ Enable :menuselection:`View --> Text Edit`
 
 
 .. image:: /images/Speech-to-text_Text-Edit.png
-   :align: left
    :alt: Text edit
 
 
