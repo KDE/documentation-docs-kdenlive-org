@@ -18,7 +18,7 @@ Kdenlive’s interface is separated into four main parts:
 
 :ref:`Toolbars` at the top and above the timeline
 
-Window in the middle.
+:ref:`Window <view_menu>` in the middle.
 
 :ref:`status_bar` at the bottom.
 
