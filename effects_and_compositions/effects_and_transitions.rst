@@ -19,9 +19,8 @@ Alphabetical List of Effects and Compositions
 .. contents::
 
 
-
-
-* *Please note:** The effects and compositions included will differ depending on the available plug-ins on the specific packaging on each operating system.  Kdenlive will auto-detect and make available any supported LADSPA plug-in packages from your distribution.   For the greatest compatibility, please use the AppImage version of Kdenlive.
+.. note::
+    The effects and compositions included will differ depending on the available plug-ins on the specific packaging on each operating system.  Kdenlive will auto-detect and make available any supported LADSPA plug-in packages from your distribution.   For the greatest compatibility, please use the AppImage version of Kdenlive.
 
 
 .. list-table::
@@ -35,11 +34,11 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Balances colors along with 3 points (frei0r.three_point_balance)  
-  * -  :ref:`3d_fft_denoiser` 
+  * -  3d_fft_denoiser
     -  Video Effect 
     -  Grain and Noise 
     -  Denoise frames using 3D FFT (Frequency Domain Filtering) (avfilter.fftdnoiz)  
-  * -  :ref:`3-level_threshold` 
+  * -  3-level_threshold
     -  Video Effect 
     - Stylize 
     -  Dynamic 3-level thresholding (frei0r.threelay0r)  
@@ -47,55 +46,55 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1218)   
-  * -  :ref:`acontrast` 
+  * -  acontrast
     -  Audio Effect 
     -  Audio 
     -  Simple audio dynamic range compression/expansion filter. 
-  * -  :ref:`acrusher` 
+  * -  acrusher
     -  Audio Effect 
     -  Audio 
     -  Reduce audio bit resolution (avfilter.acrusher) 
-  * -  :ref:`acue` 
+  * -  acue
     -  Audio Effect 
     -  Audio 
     -  Delay filtering to match a cue. (avfilter.acue) 
   * -  :ref:`addition` 
     -  Compositions 
-    -  - 
+    -
     -  Perform a RGB[A] addition operation of the pixel sources. (frei0r.addition) 
   * -  :ref:`addition_alpha` 
     -  Compositions 
-    -  - 
+    -
     -  Perform a RGB[A] addition_alpha operation of the pixel sources. (frei0r.addition_alpha)  
-  * -  :ref:`addroi` 
+  * -  addroi
     -  Compositions 
-    -  - 
+    -
     -  Add region of interest to frame. (avfilter.addroi)  
-  * -  :ref:`adeclick` 
+  * -  adeclick
     -  Audio Effect 
     -  Audio 
     -  Remove impulsive noise from input audio. (avfilter.adeclick)  
-  * -  :ref:`adenorm` 
+  * -  adenorm
     -  Audio Effect 
     -  Audio 
-    -  Remedy denormals by adding extremely low-level noise. (afilter.adenorm)  
-  * -  :ref:`aderivative` 
+    -  Remedy denormals by adding extremely low-level noise. (avfilter.adenorm)
+  * -  aderivative
     -  Audio Effect 
     -  Audio 
     -  Compute derivative of input audio. (avfilter.aderivative)  
-  * -  :ref:`aexciter` 
+  * -  aexciter
     -  Audio Effect 
     -  Audio 
     -  Enhance high frequency part of audio. (avfilter.aexciter)  
-  * -  :ref:`afftdn` 
+  * -  afftdn
     -  Audio Effect 
     -  Audio 
     -  Denoise audio samples using FFT (avfilter.afftdn)  
-  * -  :ref:`afreqshift` 
+  * -  afreqshift
     -  Audio Effect 
     -  Audio 
     -  Apply frequency shifting to input audio. (avfilter.afreqshift)  
-  * -  :ref:`aintergral` 
+  * -  aintergral
     -  Audio Effect 
     -  Audio 
     -  Compute integral of input audio. (avfilter.aintegral)  
@@ -103,11 +102,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1407)  
-  * -  :ref:`alimiter` 
+  * -  alimiter
     -  Audio Effect 
     -  Audio 
     -  Audio lookahead limiter. (avfilter.alimiter)  
-  * -  :ref:`allpass` 
+  * -  allpass
     -  Audio Effect 
     -  Audio 
     -  Apply a two-pole all-pass filter. (avfilter.allpass)  
@@ -123,7 +122,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1895)  
-  * -  :ref:`aloop` 
+  * -  aloop
     -  Audio Effect 
     -  Audio 
     -  Loop audio samples. (avfilter.aloop)  
@@ -139,13 +138,13 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Draws simple shapes into the alpha channel (frei0r.alphaspot) 
-  * -  :ref:`alphastrobing` 
+  * -  alphastrobing
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Strobes the alpha channel to 0.  Many other filters overwrite the alpha channel, in that case this needs to be last. (strobe)  
   * -  :ref:`alphaatop` 
     -  Compositions 
-    -  - 
+    -
     -  The alpha ATOP operation (frei0r.alphatop)  
   * -  :ref:`alphain` 
     -  Compositions 
@@ -153,29 +152,29 @@ Alphabetical List of Effects and Compositions
     -  The alpha IN operation (frei0r.alphain) 
   * -  :ref:`alphaout` 
     -  Compositions 
-    -  - 
+    -
     -  The alpha OUT operation (frei0r.alphaout) 
   * -  :ref:`alphaover` 
     -  Compositions 
-    -  - 
+    -
     -  The alpha OVER operation (frei0r.alphaover) 
   * -  :ref:`alphaxor` 
     -  Compositions 
-    -  - 
+    -
     -  The alpha XOR operation (frei0r.alphaxor) 
   * -  `AM pitchshifter <https://www.mltframework.org/plugins/FilterLadspa-1433/>`_ 
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1433)   
-  * -  :ref:`anlmdn` 
+  * -  anlmdn
     -  Audio Effect 
     -  Audio 
     -  Reduce broadband noise from stream using Non-Local Means. (avfilter.anlmdn) 
-  * -  :ref:`aphaser` 
+  * -  aphaser
     -  Audio Effect 
     -  Audio 
     -  Add a phasing effect to the audio. (avfilter.aphaser)  
-  * -  :ref:`aphaseshift` 
+  * -  aphaseshift
     -  Audio Effect 
     -  Audio 
     -  Apply phase shifting to input audio. (avfilter.aphaseshift) 
@@ -183,11 +182,11 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Apply a Look Up Table (LUT) to the video. A LUT is an easy way to correct the color of a video. Supported formats: 3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora) (avfilter.lut3d)  
-  * -  :ref:`apulsator` 
+  * -  apulsator
     -  Audio Effect 
     -  Audio 
     -  Audio Pulsator. (avfilter.apulsator)  
-  * -  :ref:`arndn` 
+  * -  arndn
     -  Audio Effect 
     -  Audio 
     -  Reduce noise from speech using recurrent Neural Networks. (avfilter.arnndn)  
@@ -195,35 +194,35 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1914)   
-  * -  :ref:`asidedata` 
+  * -  asidedata
     -  Audio Effect 
     -  Audio 
     -  Manipulate audio frame side data. (avfilter.asidedata)  
-  * -  :ref:`asoftclip` 
+  * -  asoftclip
     -  Audio Effect 
     -  Audio 
     -  Audio soft clipper. (avfilter.asoftclip)  
-  * -  :ref:`asubboost` 
+  * -  asubboost
     -  Audio Effect 
     -  Audio 
     -  Show time domain statistics about audio frames (avfilter.astats)  
-  * -  :ref:`astats` 
+  * -  astats
     -  Audio Effect 
     -  Audio 
     -  Boost subwoofer frequencies. (avfilter.asubboost)  
-  * -  :ref:`asubcut` 
+  * -  asubcut
     -  Audio Effect 
     -  Audio 
     -  Cut subwoofer frequencies. (avfilter.asubcut)  
-  * -  :ref:`asupercut` 
+  * -  asupercut
     -  Audio Effect 
     -  Audio 
     -  Cut super frequencies. (avfilter.asupercut)  
-  * -  :ref:`asuperpass` 
+  * -  asuperpass
     -  Audio Effect 
     -  Audio 
     -  Apply high order butterworth band-pass filter. (avfilter.asuperpass)  
-  * -  :ref:`asuperstop` 
+  * -  asuperstop
     -  Audio Effect 
     -  Audio 
     -  Apply high order Butterworth bad-stop filter. (avfilter.asuperstop)  
@@ -231,15 +230,15 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1186)  
-  * -  :ref:`audio_equalizer_(avfilter)` 
+  * -  audio_equalizer_(avfilter)
     -  Audio Effect 
     -  Audio 
     -  Apply two-pole peaking equalization (EQ) filter (avfilter.equalizer)  
-  * -  :ref:`audio_levels` 
+  * -  audio_levels
     -  Audio Effect 
     -  Audio 
     -  Compute the audio amplitude. (audiolevel) 
-  * -  :ref:`audio_pan`  
+  * -  audio_pan
     -  Audio Effect 
     -  Audio 
     -  Pan an audio channel, adjust balance, or adjust fade. (panner) 
@@ -251,11 +250,11 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  On Master 
     -  Display the audio waveform instead of the video (audiowave)  
-  * -  :ref:`audio_waveform_filter`  
+  * -  audio_waveform_filter
     -  Audio Effect 
     -  Audio 
     -  An audio visualization filter that draws an audio waveform on the image. (audiowaveform)  
-  * -  :ref:`audiomap`  
+  * -  audiomap
     -  Audio Effect 
     -  Audio 
     -  audiomap (audiomap)  
@@ -267,23 +266,19 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1219)  
-  * -  :ref:`average_blur` 
+  * -  average_blur
     -  Video Effects 
     -  Blur and Sharpen 
     -  Apply average blur filter. (avfilter.avgblur)  
-  * -  :ref:`bandpass` 
+  * -  bandpass
     -  Audio Effect 
     -  Audio 
     -  Apply a two-pole band-pass filter. (avfilter.bandpass)  
-  * -  :ref:`bandreject`  
+  * -  bandreject
     -  Audio Effect 
     -  Audio 
-    -  Apply a two-pole Butterworth band-reject filter. (avfilter.bandreject)  
-  * -  :ref:`audiomap`  
-    -  Audio Effect 
-    -  Audio 
-    -  audiomap (audiomap)  
-  * -  :ref:`balance` 
+    -  Apply a two-pole Butterworth band-reject filter. (avfilter.bandreject)
+  * -  balance
     -  Video Effect 
     -  Color and Image correction 
     -  Extracts Blue from Image (frei0r.B) 
@@ -291,7 +286,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1408)  
-  * -  :ref:`bass`  
+  * -  bass
     -  Audio Effect 
     -  Audio 
     -  Boost or cut lower frequencies (avfilter.bass)  
@@ -299,7 +294,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image Correction  
     -  Color curves adjustment (frei0r.curves)  
-  * -  :ref:`bilateral` 
+  * -  bilateral
     -  Video Effect 
     -  Misc 
     -  Apply Bilateral filter. (avfilter.bilateral)  
@@ -307,15 +302,15 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Stylize 
     -  Make monochrome clip (threshold) 
-  * -  :ref:`binarizedynamically` 
+  * -  binarizedynamically
     -  Video Effect 
     -  Stylize 
     -  Dynamic thresholding (frei0r.twolay0r)  
-  * -  :ref:`biquad` 
+  * -  biquad
     -  Audio Effect 
     -  Audio 
     -  Apply a biquad IIR filter with the given coefficients. (avftiler.biquad)  
-  * -  :ref:`bluescreen0r` 
+  * -  bluescreen0r
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Color to alpha (blit SRCALPHA) (frei0r.bluescreen0r) 
@@ -347,23 +342,23 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Change the image brightness with keyframes (brightness) 
-  * -  :ref:`burn` 
+  * -  burn
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] dodge operation between the pixel sources, using the generalized algorithm: D = saturation of 255 or depletion of 0, of ((255-A)*256) / (b+1) (frei0r.burn)  
   * -  BurningTV – Deprecated]] 
     -  Video Effect 
     -  Deprecated 
     -  burningtv  
-  * -  :ref:`bw0r` 
+  * -  bw0r
     -  Video Effect 
     -  Color and Image correction 
     -  Turns image Black/White (Frei0r.bw0r)  
-  * -  :ref:`cairo_affine_blend` 
+  * -  cairo_affine_blend
     -  Compositions 
-    -  - 
+    -
     -  Composites second input on first input applying user-defined transformations, opacity, and blend mode. (frei0r.cairoaffineblend) 
-  * -  :ref:`cairo_blend` 
+  * -  cairo_blend
     -  Compositions 
     -  - 
     -  Composies second input on the first input with user-defined blend mode and opacity. (frei0r.cairoblend) 
@@ -403,27 +398,27 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Make Selected Color transparent (chroma)    
-  * -  :ref:`chroma_shift` 
+  * -  chroma_shift
     -  Video Effect 
     -  Stylize 
     -  Shift chroma pixels horizontally and/or vertically. (avfilter.chromashift)  
-  * -  :ref:`chromanr` 
+  * -  chromanr
     -  Video Effect 
     -  Misc 
     -  Reduce chrominance noise. (avfilter.chromanr)  
-  * -  :ref:`ciescope` 
+  * -  ciescope
     -  Video Effect 
     -  Utility 
     -  Video CIE scope (avfilter.ciescope)  
-  * -  :ref:`cmyk_adjust_(avfilter)` 
+  * -  cmyk_adjust_(avfilter)
     -  Video Effect 
     -  Color and Image correction 
     -  Apply CMYK correction to specific color ranges (avfilter.selectivecolor)  
-  * -  :ref:`color_balance` 
+  * -  color_balance
     -  Video Effect 
     -  Color and Image correction 
     -  Modify indensity of primary colors (red, green and blue) of input frames. (avfilter.colorbalance)  
-  * -  :ref:`color_channel_mixer` 
+  * -  color_channel_mixer
     -  Video Effect 
     -  Color and Image correction 
     -  Modifies a color channel by adding the vlues associated to the other channels of the same pixels. (avfilter.colorchannelmixer)  
@@ -435,7 +430,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Stylize 
     -  Applies a pre-made color effect to image (frei0r.colortap)  
-  * -  :ref:`color_hold` 
+  * -  color_hold
     -  Video Effect 
     -  Color and Image correction 
     -  Remove all color information all RGB colors except for certain one. (avfilter.colorhold)  
@@ -443,35 +438,35 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Chroma Key with more advanced options (e.g. different color models).  Use if basic chroma key is not working effectively (frei0r.select0r)    
-  * -  :ref:`color_only` 
+  * -  color_only
     -  Compositions 
-    -  - 
+    -
     -  Perform a conversion to color only of the source input using the hue and saturation vludes of input2. (frei0r.color_only)  
-  * -  :ref:`colorcontrast` 
+  * -  colorcontrast
     -  Video Effect 
     -  Stylize 
     -  Calculates the disstance between the selected color and the current pixel and uses that value as a new pixel value 9frei0r.colordistance)  
-  * -  :ref:`colorcorrect` 
+  * -  colorcorrect
     -  Video Effect 
     -  Stylize 
     -  Applies a pre-made color effect to image (frei0r.colortap)  
-  * -  :ref:`colorize` 
+  * -  colorize
     -  Video Effect 
     -  Color and Image correction 
     -  Colorizes image to selected hue, saturation and lightness (frei0r.colorize) 
-  * -  :ref:`colorize` 
+  * -  colorize
     -  Video Effect 
     -  Color and Image correction 
     -  Overlay a solid color on the video stream. (avfilter.colorize) 
-  * -  :ref:`colorlevels` 
+  * -  colorlevels
     -  Video Effect 
     -  Color and Image correction 
     -  Adjust video input frames using levels. (avfilter.colorlevels) 
-  * -  :ref:`colormatrix` 
+  * -  colormatrix
     -  Video Effect 
     -  Image Adjustment 
     -  Covert color matrix. (avfilter.colormatrix)  
-  * -  :ref:`colortemperature` 
+  * -  colortemperature
     -  Video Effect 
     -  Misc 
     -  Adjust color temperature of video. (avfilter.colortemperature)  
@@ -491,25 +486,25 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1190)  
-  * -  :ref:`comb_splitter` 
+  * -  comb_splitter
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1411)  
-  * -  :ref:`compand` 
+  * -  compand
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.1430)  
-  * -  :ref:`compensationdelay` 
+  * -  compensationdelay
     -  Audio Effect 
     -  Audio 
     -  Audio Compensation Delay Line. (avfilter.compensationdelay)   
   * -  :ref:`composite` 
     -  Compositions 
-    -  - 
+    -
     -  A key-framable alpha-channel compositor for two frames. (composite) 
-  * -  :ref:`compositeandtransform` 
+  * -  compositeandtransform
     -  Compositions  
-    -  - 
+    -
     -  Composites second input on the first input with user-defined blend mode, opacity and scale. (qtblend) 
   * -  `Constant Signal Generator <https://www.mltframework.org/plugins/FilterLadspa-1909/>`_ 
     -  Audio Effect 
@@ -519,7 +514,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Adjusts the contrast of a source image (frei0r.contrast0r)) 
-  * -  :ref:`copy_channels` 
+  * -  copy_channels
     -  Audio Effect 
     -  Audio 
     -  Copy one audio channel to another. (channelcopy) 
@@ -527,7 +522,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Four corners geometry engine (frei0r.c0rners)  
-  * -  :ref:`crop_by_padding` 
+  * -  crop_by_padding
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  This filter crops the image to a rounded rectangle or cirlce by padding it in with a color. (qtcrop)  
@@ -543,7 +538,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA Plugin (ladspa.1917)  
-  * -  :ref:`crossfeed` 
+  * -  crossfeed
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  Apply headphone crossfeed filter. (avfilter.crossfeed)  
@@ -551,7 +546,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1404)  
-  * -  :ref:`crystalizer` 
+  * -  crystalizer
     -  Audio Effect 
     -  Audio 
     -  Simple audio noise sharpening filter. (avfilter.crystalizer)  
@@ -563,15 +558,15 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  On Master 
     -  An audio visualization fitler that moves the image around proportional to the magnitude of the audio spectrum. (dance) 
-  * -  :ref:`darken` 
+  * -  darken
     -  Compositions 
-    -  - 
+    -
     -  Perform a darken operation between two sources (minimum value fo both sources). (frei0r.darken)  
-  * -  :ref:`datascope` 
+  * -  datascope
     -  Video Effect 
     -  Utility 
     -  Video data analysis (avfilter.datascope)  
-  * -  :ref:`dblur` 
+  * -  dblur
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Non rectilinear lens mappings (frei0r.defish0r)  
@@ -579,11 +574,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1207) 
-  * -  :ref:`dctdnoiz` 
+  * -  dctdnoiz
     -  Video Effect 
     -  Deprecated 
     -  Denoise frames using 2D DCT frequency domain filtering (avfilter.dctdnoiz) 
-  * -  :ref:`deband` 
+  * -  deband
     -  Video Effect 
     -  Image Adjustment 
     -  remove banding artifacts from input video. It works by replacing banded pixels with an average value of referenced pixels (avfilter.deband) 
@@ -595,7 +590,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1195)  
-  * -  :ref:`deesser` 
+  * -  deesser
     -  Audio Effect 
     -  Audio 
     -  Apply a de-essing to the audio. (avfilter.deesser)  
@@ -603,7 +598,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Non rectilinear lens mappings (frei0r.defish0r)  
-  * -  :ref:`deinterlace_qsv` 
+  * -  deinterlace_qsv
     -  Video Effect 
     -  Misc 
     -  QuickSync video deinterlacing (avfilter.deinterlace_qsv)  
@@ -611,7 +606,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1402) 
-  * -  :ref:`delogo` 
+  * -  delogo
     -  Video Effect 
     -  Deprecated 
     -  Perform an RGB[A] difference operation between the pixel sources. (frei0r.difference) 
@@ -619,19 +614,19 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Grain and Noise 
     -  High Quality 3d denoiser (frei0r.hqdn3d) 
-  * -  :ref:`deshake` 
+  * -  deshake
     -  Video Effect 
     -  Misc 
     -  Feature-point based video stabilization filter (avfilter.deshake_opencl) 
-  * -  :ref:`despill` 
+  * -  despill
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Remove unwanted contamination of foreground colors, caused by reflected color of greenscreen or bluescreen (avfilter.despill) 
-  * -  :ref:`difference` 
+  * -  difference
     -  Compositions 
-    -  - 
+    -
     -  Plasma (frei0r.distort0r) 
-  * -  :ref:`dilation` 
+  * -  dilation
     -  Video Effect 
     -  Image Adjustment 
     -  Apply dilation effect (avfilter.dilation) 
@@ -639,9 +634,9 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1185) 
-  * -  :ref:`dissolve` 
+  * -  dissolve
     -  Compositions 
-    -  - 
+    -
     -  Fade out one video while fading in the other video. (luma) 
   * -  :ref:`distort` 
     -  Video Effect 
@@ -651,9 +646,9 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Deprecated 
     -  Dithers the image and reduces the number of available colors (frei0r.dither)  
-  * -  :ref:`divide` 
+  * -  divide
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] divide operation between the pixel sources: input1 is the numerator, input2 the denominator (frei0r.divide)  
   * -  `DJ EQ <https://www.mltframework.org/plugins/FilterLadspa-1901/>`_ 
     -  Audio Effect 
@@ -667,23 +662,23 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1438)  
-  * -  :ref:`dnn_processing` 
+  * -  dnn_processing
     -  Video Effect 
     -  Misc 
     -  Apply DNN processing filter to the input. (avfilter.dnn_processing)  
-  * -  :ref:`dodge` 
+  * -  dodge
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] dodge operation between the pixel sources, using the generalized algorithm: D = saturation of 255 or (A*256)/(256-B) (frei0r.dodge) 
-  * -  :ref:`drawbox` 
+  * -  drawbox
     -  Video Effect 
     -  Generate 
     -  Draw a colored box on the input video (avfilter.drawbox) 
-  * -  :ref:`drawgrid` 
+  * -  drawgrid
     -  Video Effect 
     -  Generate 
     -  Draw a colored grid on the input video (avfilter.drawgrid)  
-  * -  :ref:`drmeter` 
+  * -  drmeter
     -  Audio Effect 
     -  Audio 
     -  Measure audio dynamic range. (avfilter.drmeter)  
@@ -695,14 +690,14 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Stylize 
     -  Overlay text with keywords replaced (dynamictext)  
-  * -  :ref:`dynaudnorm` 
+  * -  dynaudnorm
     -  Audio Effect 
     -  Audio 
     -  Dynamic Audio Normalizer. (avfilter.dynaudnorm)  
   * -  `Dyson compressor <https://www.mltframework.org/plugins/FilterLadspa-1403/>`_ 
     -  Audio Effect 
     -  Audio 
-    -  -
+    -
   * -  :ref:`crop`  
     -  Video Effect 
     -  Transform, Distort and Perspective 
@@ -711,19 +706,19 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Stylize 
     -  Edge glow filter (frei0r.edgeglow) 
-  * -  :ref:`edgedetect` 
+  * -  edgedetect
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Detect and draw edges.  The filter uses the Canny Edge Detection algorithm. (avfilter.edgedetect)   
-  * -  :ref:`elastic_scale_filter` 
+  * -  elastic_scale_filter
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  This is a frei0r filter which allows to scale video footage non-linearly. (frei0r.elastic_scale)   
-  * -  :ref:`elbg` 
+  * -  elbg
     -  Video Effect 
     -  Stylize 
     -  Apply posterize effect, using the ELBG algorithm (avfilter.elbg) 
-  * -  :ref:`emboss` 
+  * -  emboss
     -  Video Effect 
     -  Stylize 
     -  Creates embossed relief image of source image (frei0r.emboss)  
@@ -731,11 +726,11 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Equalizes the indesity historgrams (frei0r.equaliz0r) 
-  * -  :ref:`erosion` 
+  * -  erosion
     -  Video Effect 
     -  Image Adjustment 
     -  Apply erosion effect (avfilter.erosion)  
-  * -  :ref:`estdif` 
+  * -  estdif
     -  Video Effect 
     -  Misc 
     -  Apply edge Slope Tracking deinterlace. (avfilter.estdif)  
@@ -743,23 +738,23 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1886)  
-  * -  :ref:`exposure` 
+  * -  exposure
     -  Video Effect 
     -  Misc 
     -  Adjust exposure of the video stream. (avfilter.exposure)  
-  * -  :ref:`extrastereo` 
+  * -  extrastereo
     -  Audio Effect 
     -  Audio 
     -  Increase difference between stereo audio channels. (avfilter.extrastereo)  
-  * -  :ref:`fade_from_black`  (video effect) 
+  * -  :ref:`fade_from_black` (video effect)
     -  Video Effect 
     -  Motion 
     -  Fade video from black (brightness) 
-  * -  :ref:`fade_in`  (audio effect) 
+  * -  fade_in (audio effect)
     -  Audio Effect 
     -  fade 
     -  Fade in audio track (volume) 
-  * -  :ref:`fade_out`  (audio effect) 
+  * -  fade_out (audio effect)
     -  Audio Effect 
     -  fade 
     -  Fade out audio track (volume) 
@@ -767,7 +762,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Motion 
     -  Fade video to black (brightness) 
-  * -  :ref:`fast_lookahead_limiter` 
+  * -  fast_lookahead_limiter
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1913) 
@@ -775,19 +770,19 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Audio 
     -    
-  * -  :ref:`fft` 
+  * -  fft
     -  Audio Effect 
     -  Audio 
     -  An audio filter that computes the FFT of the audio. This filter does not modify the audio or the image. It only computes the FFT and stores the result in the “bins” property of the filter (fft)  
-  * -  :ref:`fill_boarders` 
+  * -  fill_boarders
     -  Video Effect 
     -  Transform, Distort, and Perspective 
     -  Fill borders of the input video, without changing video stream dimensions. Sometimes video can have garbage at the four edges and you may not want to crop video input to keep size multiple of some number (avfilter.fillborders)  
-  * -  :ref:`filp_horizontally` 
+  * -  filp_horizontally
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Horizontally flip the input video (avfilter.hflip)  
-  * -  :ref:`firequalier` 
+  * -  firequalier
     -  Audio Effect 
     -  Audio 
     -  Finite Impuse Response Equalizer. (avfilter.firequalizer)  
@@ -795,15 +790,15 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1191)  
-  * -  :ref:`flanger` 
+  * -  flanger
     -  Audio Effect 
     -  Audio 
     -  Apply a flanging effect to the audio. (avfilter.flanger)  
-  * -  :ref:`flip_vertically` 
+  * -  flip_vertically
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Vertically flip the input video (avfilter.vflip)  
-  * -  :ref:`flippo` 
+  * -  flippo
     -  Video Effect 
     -  Transform, distort and Perspective 
     -  Flipping X and Y axis (frei0r.flippo) 
@@ -843,7 +838,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1410)  
-  * -  :ref:`gaussian_blur` 
+  * -  gaussian_blur
     -  Video Effect 
     -  Blur and Sharpen 
     -  Apply Gaussian Blur filter (avfilter.gblur)  
@@ -879,7 +874,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1891) 
-  * -  :ref:`glitch0r` 
+  * -  glitch0r
     -  Video Effect 
     -  Motion 
     -  Adds gliches and block shifting (frei0r.glitch0r) 
@@ -895,7 +890,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1424) 
-  * -  :ref:`gradfun` 
+  * -  gradfun
     -  Video Effect 
     -  Grain and Noise 
     -  Debrands video quickly using gradients. (avfilter.gradfun) 
@@ -903,13 +898,13 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Depricated 
     -  Grain over the image (grain) 
-  * -  :ref:`grain_extract` 
+  * -  grain_extract
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] grain-extract operation between the pixel sources. (frei0r.grain_extract)  
-  * -  :ref:`grain_merge` 
+  * -  grain_merge
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] grain-merge operation between the pixel sources. (frei0r.grain_merge)  
   * -  :ref:`greyscale` 
     -  Video Effect 
@@ -923,23 +918,23 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1216)  
-  * -  :ref:`haas` 
+  * -  haas
     -  Audio Effect 
     -  Audio 
     -  Apply Haas Stereo Enhancer. (avfilter.haas)  
-  * -  :ref:`hard_limiter` 
+  * -  hard_limiter
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1413) 
-  * -  :ref:`hardlight` 
+  * -  hardlight
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] hardlight operation between the pixel sources (frei0r.hardlight) 
   * -  `Harmonic generator <https://www.mltframework.org/plugins/FilterLadspa-1220/>`_ 
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1220)  
-  * -  :ref:`hdcd` 
+  * -  hdcd
     -  Audio Effect 
     -  Audio 
     -  Apply High Definition Compatible Digital (HDCD) decoding. (avfilter.hdcd)  
@@ -951,11 +946,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1194)  
-  * -  :ref:`highpass` 
+  * -  highpass
     -  Audio Effect 
     -  Audio 
     -  Apply a high-pass filter with 3dB point frequency. (avfilter.highpass)  
-  * -  :ref:`highshelf` 
+  * -  highshelf
     -  Audio Effect 
     -  Audio 
     -  Apply a high self filter. (avfilter.highshelf)  
@@ -963,7 +958,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1440)  
-  * -  :ref:`histogram_equalizer` 
+  * -  histogram_equalizer
     -  Video Effect 
     -  Color and Image correction 
     -  This filter applies a global color histogram equalization on a per-frame basis (avfilter.histeq)  
@@ -971,13 +966,13 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Utility 
     -  Compute and draw a color distribution histogram for the input video (avfilter.histogram) 
-  * -  :ref:`hqx` 
+  * -  hqx
     -  Video Effect 
     -  Image Adjustment 
     -  Scale the inmput by 2, 3 or 4 using the hq*x magnification algorithm (avfilter.hqx) 
   * -  :ref:`hue` 
     -  Compositions 
-    -  - 
+    -
     -  Perform a conversion to hue only of the source input1 using the hue of input2. (frei0r.hue) 
   * -  :ref:`hue_shift` 
     -  Video Effect 
@@ -987,11 +982,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1199)   
-  * -  :ref:`interlace_field_order` 
+  * -  interlace_field_order
     -  Video Effect 
     -  Image Adjustment 
     -  Transform the field order of the input video. (avfilter.fieldorder)  
-  * -  :ref:`interleavedeinterleave` 
+  * -  interleavedeinterleave
     -  Video Effect 
     -  Image Adjustment 
     -  Deinterleave or interleave fields (avfilter.il)  
@@ -1003,7 +998,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Invert colors (invert)  
-  * -  :ref:`invert04` 
+  * -  invert0r
     -  Video Effect 
     -  Color and Image correction 
     -  Inverts all colors of a source image (frei0r.invert0r)  
@@ -1019,7 +1014,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1409)  
-  * -  :ref:`kernel_deinterlacer` 
+  * -  kernel_deinterlacer
     -  Video Effect 
     -  Image Adjustment 
     -  Deinterlace input video by applying donald Graft’s adaptive kernel deinterlacing. Works on interlaced parts of a video to produce progressive frames. (avfilter.kerndeint)  
@@ -1027,7 +1022,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Reduces the visability of key color spill in chroma keying (frei0r.keyspillm0pup)   
-  * -  :ref:`kirsch` 
+  * -  kirsch
     -  Video Effect 
     -  Misc 
     -  Apply kirsch operator. (avfilter.kirsch)  
@@ -1035,7 +1030,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1436)   
-  * -  :ref:`ladspa` 
+  * -  ladspa
     -  Audio Effect 
     -  Audio  
     -  Process audio using LADSPA plugins. (ladspa)  
@@ -1047,10 +1042,10 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Correct radial lens distortion (avfilter.lenscorrection)  
-  * -  :ref:`lenscorrection` 
+  * -  lenscorrection
     -  Video Effect 
     -  misc 
-    -  -
+    -
   * -  :ref:`letterb0xed` 
     -  Video Effect 
     -  Transform, Distort and Perspective 
@@ -1066,32 +1061,32 @@ Alphabetical List of Effects and Compositions
   * -  :ref:`lift_gamma_gain` 
     -  Video Effect 
     -  Color Correction 
-    -  -
-  * -  :ref:`lightshow` 
+    -
+  * -  lightshow
     -  Video Effect 
     -  On Master 
     -  An audio visualation filter that colors the image proportional to the magnitude of the audio spectrum. (lightshow) 
-  * -  :ref:`lighten` 
+  * -  lighten
     -  Compositions 
-    -  - 
+    -
     -  Perform a lighten operation between two sources (maximum value of voth sources). (frei0r.lighten)  
-  * -  :ref:`limiter` 
+  * -  limiter
     -  Video Effect 
     -  Color and Image correction 
     -  Lilmits the pixel components values to the specified range [min,max] (avfilter.limiter)  
-  * -  :ref:`loudness_meter` 
+  * -  loudness_meter
     -  Audio Effect 
     -  Audio  
     -  Measure audio loudness as recommended by EBU R128. (Loudness_meter)  
-  * -  :ref:`lowpass` 
+  * -  lowpass
     -  Audio Effect 
     -  Audio  
     -  EBU R128 loudness normalization (avfilter.loudnorm)  
-  * -  :ref:`lowshelf` 
+  * -  lowshelf
     -  Audiofect 
     -  Audio  
     -  Apply a low-pass filter with 3dB point frequency. (avfilter.lowpass)  
-  * -  :ref:`lighten` 
+  * -  lighten
     -  Audio Effect 
     -  Audio  
     -  Apply a low shelf filter. (avfilter.lowshelf)  
@@ -1099,15 +1094,15 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1908)  
-  * -  :ref:`luma` 
+  * -  luma
     -   Composition 
-    -  -  
+    -  -
     -  Applies a stationary transition between the current and the next frames. (luma)  
   * -  :ref:`lumakey` 
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  This filter modifies image’s alpha channel as a function of its luma value.  This is used together with a compositor to combine two images so that bright or dark areas of source image are overwritten on top of the destination image. (lumakey)   
-  * -  :ref:`lumaliftgaingamma` 
+  * -  lumaliftgaingamma
     -  Video Effect 
     -  Color and Image correction 
     -  Filter can be used to apply lift gain and gamma corrections to luma values of an image. (lumaliftgammagain) 
@@ -1131,27 +1126,27 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1420) 
-  * -  :ref:`lighten` 
+  * -  lighten
     -  Compositions 
-    -  - 
+    -
     -  Replace the alpha channel of track A with the luma channel from track B. (matte)  
-  * -  :ref:`mcompand` 
+  * -  mcompand
     -  Audio Effect 
     -  Audio 
     -  Multiband Compress or expand audio dynamic range. (avfilter.mcompand)  
-  * -  :ref:`compositions` 
+  * -  :compositions
     -  Compositions 
-    -  - 
-    -  RPerform an RGB[A] multiply operation between the pixel sources. (frei0r.multiply)  
+    -
+    -  Perform an RGB[A] multiply operation between the pixel sources. (frei0r.multiply)
   * -  :ref:`medians` 
     -  Video Effect 
     -  Deprecated 
-    -  Impelements several median-type filters (frei0r.medians) 
+    -  Implements several median-type filters (frei0r.medians)
   * -  :ref:`mirror` 
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Flip your image in any direction (mirror)  
-  * -  :ref:`mixdown` 
+  * -  mixdown
     -  Audio Effect 
     -  Audio 
     -  Mix all channels of audio into a mono signal and output it as N channels (mono)  
@@ -1159,23 +1154,23 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1419) 
-  * -  :ref:`mono_amplifier` (version >= 0.9.10) 
+  * -  :ref:`mono_amplifier`
     -  Audio Effect 
     -  Misc 
-    -   -  
-  * -  :ref:`mono_to_stereo_splitter` 
+    -
+  * -  mono_to_stereo_splitter
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1406)  
-  * -  :ref:`monochrome` 
+  * -  monochrome
     -  Video Effect 
     -  Misc 
     -  Convert video to gray using custom color filter. (avfilter.monochrome)  
-  * -  :ref:`motion_compensation_deinterlacing` 
+  * -  motion_compensation_deinterlacing
     -  Video Effect 
     -  Image Adjustment 
     -  Apply motion-compensation deinterlacing (avfilter.mcdeint)  
-  * -  :ref:`motiontracker` 
+  * -  motiontracker
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Select a zone to follow its movements (opencv.tracker) 
@@ -1183,9 +1178,9 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1197) 
-  * -  :ref:`multiply` 
+  * -  multiply
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] multiply operation between the pixel sources. (frei0r.multiply) 
   * -  `Multivoice Chorus <https://www.mltframework.org/plugins/FilterLadspa-1201/>`_ 
     -  Audio Effect 
@@ -1194,7 +1189,7 @@ Alphabetical List of Effects and Compositions
   * -  :ref:`mute` 
     -  Audio Effect 
     -  Audio Correction    
-    -  -
+    -
   * -  :ref:`ndvi_filter` 
     -  Video Effect 
     -  Utility 
@@ -1203,38 +1198,34 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Motion 
     -  Flushes frames in time in a nervous way (frei0r.nervous) 
-  * -  :ref:`nikon_d90_stairstepping_fix` 
+  * -  nikon_d90_stairstepping_fix
     -  Video Effect 
     -  Utility 
     -  Removes stairstepping artifacts from Nikon D90's 720p videos.  Sharp lines in videos from the Nikon D90 show steps each 8th or 9th line, assumedly due to poor downsampling.  These can be smoothed out with this filter if they become too annoying (frei0r.d90stairsteppingfix) 
-  * -  :ref:`normalise` 
-    -  Audio Effect 
-    -  Audio 
-    -  Dynamically normalise the audio volume (volume)  
-  * -  :ref:`normalise` 
+  * -  normalise
     -  Audio Effect 
     -  Audio Correction 
     -  Correct audio loudness as recommended by EBU R128 (loudness)  
-  * -  :ref:`normalise` 
+  * -  normalise
     -  Audio Effect 
     -  Audio Correction 
     -  Dynamically normalise the audio volume (volume)  
-  * -  :ref:`normaliz0r` 
+  * -  normaliz0r
     -  Video Effect 
     -  Color and Image correction 
     -  Normalize (aka histogram stretch, contrast stretch). (Frei0r.normaliz0r)  
-  * -  :ref:`normalize_rgb_video` 
+  * -  normalize_rgb_video
     -  Video Effect 
     -  Color and Image correction 
     -  Normalize RGB video (aka histogram stretching, contrast stretching). See: https://en.wikipedia.org/wiki/ Normalization_(image_processing) (avfilter.normalize)  
-  * -  :ref:`nosync0r` 
+  * -  :ref:`nosync0r`
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Broken TV (frei0r.nosync0r) 
   * -  :ref:`obscure` 
     -  Video Effect 
     -  Blur and Hide 
-    -  -
+    -
   * -  :ref:`oldfilm` 
     -  Video Effect 
     -  Stylize 
@@ -1247,27 +1238,27 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Utility 
     -  2D Video Oscilloscope. (avfilter.oscilloscope)  
-  * -  :ref:`overlay` 
+  * -  overlay
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] overlay operation between the pixel sources, using the generalised algorithm: D =  A * (B + (2 * B) * (255 - A)) (frei0r.overlay) 
-  * -  :ref:`pad` 
+  * -  pad
     -  Video Effect 
     -  Stylize 
-    -  - 
-  * -  :ref:`pan` 
+    -
+  * -  pan
     -  Audio Effect 
     -  Audio Channels 
     -  Adjust the left/right spread of a channel (panner)  
-  * -  :ref:`phase` 
+  * -  phase
     -  Video Effect 
     -  Image Adjustment 
     -  Delay interlaced video by one field time so that the field order changes. (avfilter.phase)  
-  * -  :ref:`photosensitivity` 
+  * -  photosensitivity
     -  Video Effect 
     -  Misc 
     -  Filter out photosensitive epilepsy seizure-inducing flashes. (avfilter.photosensitivity)  
-  * -  :ref:`pillar_echo` 
+  * -  pillar_echo
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Create an echo effect (blur) outside of an area of interest. (pillar_echo)  
@@ -1291,15 +1282,15 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Adjust size and position of clip (affine) 
-  * -  :ref:`posterize` 
+  * -  posterize
     -  Video Effect 
     -  Stylize 
     -  Posterizes image by reducing the number of oclors used in image (frei0r.posterize) 
-  * -  :ref:`pp` 
+  * -  pp
     -  Video Effect 
     -  Utility 
-    -  -   
-  * -  :ref:`prewitt` 
+    -
+  * -  prewitt
     -  Video Effect 
     -  Stylize 
     -  Apply prewitt operator to input video stream (avfilter.prewitt)  
@@ -1307,7 +1298,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Stylize 
     -  Reduce image to primary colors (frei0r.primaries)  
-  * -  :ref:`r` 
+  * -  r
     -  Video Effect 
     -  Color and Image correction 
     -  Extracts Red from Image (frei0r.R)  
@@ -1321,9 +1312,9 @@ Alphabetical List of Effects and Compositions
     -  Creates a square alpha-channel mask (frei0r.mask0mate) 
   * -  :ref:`regionalize` 
     -  Compositions 
-    -  - 
+    -
     -  Use alpha channel of another clip to create a transition. (region)  
-  * -  :ref:`rescale` 
+  * -  rescale
     -  Video Effect 
     -  Image Adjustment 
     -  Scale the producer video frames size to match the consumer. This filter is designed for use as a normaliser forthe loader producer. (rescale)  
@@ -1339,11 +1330,11 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Simple color adjustment (frei0r.coloradj_RGB) 
-  * -  :ref:`_rgb_parade_MLT` 
+  * -  rgb_parade_MLT
     -  Video Effect 
     -  Utility 
     -  Display a histogram of R, G and B components of the video data (frei0r.rgbparade).  
-  * -  :ref:`rgba_shift` 
+  * -  rgba_shift
     -  Video Effect 
     -  Stylize 
     -  Shift R/G/B/A pixels horizontally and/or vertically (avfilter.rgbashift)  
@@ -1363,7 +1354,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1188)  
-  * -  :ref:`roberts` 
+  * -  roberts
     -  Video Effect 
     -  Stylize 
     -  Apply roberts cross operator to input video stream (avfilter.roberts)  
@@ -1375,15 +1366,15 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -   Rotate clip in any 3 directions (affine)  
-  * -  :ref:`rubber_band_mono_pitch_shifter` 
+  * -  rubber_band_mono_pitch_shifter
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.2979)  
-  * -  :ref:`rubber_band_mono_pitch_shifter` 
+  * -  rubber_band_mono_pitch_shifter
     -  Audio Effect 
     -  Audio 
     -  Adjust the audio ptich using the Rubberband library. (rbptich)  
-  * -  :ref:`rubber_band_mono_pitch_shifter` 
+  * -  rubber_band_mono_pitch_shifter`
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.2979)   
@@ -1393,7 +1384,7 @@ Alphabetical List of Effects and Compositions
     -  Keyframable vector based rotoscoping (rotoscoping)  
   * -  :ref:`saturation` 
     -  Composition 
-    -  - 
+    -
     -  Perform a conversion to saturation only of the source input1 using the saturation level of input2. (frei0r.saturation) 
   * -  :ref:`saturation` 
     -  Video Effect 
@@ -1419,11 +1410,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1916)  
-  * -  :ref:`scale_cuda` 
+  * -  scale_cuda
     -  Video Effect 
     -  Stylize 
-    -  -  
-  * -  :ref:`scale_qsv` 
+    -
+  * -  scale_qsv
     -  Video Effect 
     -  misc 
     -  QuickSync video scaling and format conversion (avfilter.scale_qsv)  
@@ -1431,7 +1422,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Generate 
     -  Interlaced black lines (frei0r.scanline0r)  
-  * -  :ref:`scdet` 
+  * -  scdet
     -  Video Effect 
     -  Misc 
     -  Detect video scene change (avfilter.scdet) 
@@ -1441,9 +1432,9 @@ Alphabetical List of Effects and Compositions
     -  Scratchlines over the picture (lines) 
   * -  :ref:`screen` 
     -  Compositions 
-    -  - 
+    -
     -  Perform a RGB[A] screen operation between the pixel sources, using the generalised algorithm: D = 255 - (255 - A) * (255 - B) (frei0r.screen)  
-  * -  :ref:`scroll` 
+  * -  scroll
     -  Video Effect 
     -  Misc 
     -  Scroll input video (avfilter.scroll)  
@@ -1455,19 +1446,19 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Turn clip colors to sepia (sepia)  
-  * -  :ref:`set_range` 
+  * -  set_range
     -  Video Effect 
     -  Blur and Sharpen 
     -  Force color range for the output video frame (avfilter.setrange)  
-  * -  :ref:`shape_adaptive_blur` 
+  * -  shape_adaptive_blur
     -  Video Effect 
     -  Color and Image correction 
     -  Shape Adaptive Blur (avfliter.sab) 
-  * -  :ref:`shapealpha` 
+  * -  shapealpha
     -  Video Effect 
     -  Alpha, Mask, and Keying 
     -  Create an alpha channel (transparency) based on another resource (shape)  
-  * -  :ref:`sharp-unsharp` 
+  * -  sharp-unsharp
     -  Video Effect 
     -  Blur and Sharpen 
     -  Sharpen or Blur your video (avfilter.unsharp)  
@@ -1475,18 +1466,18 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Deprecated 
     -  Unsharp masking (port from Mplayer) (frei0r.sharpness)  
-  * -  :ref:`shear` 
+  * -  shear
     -  Video Effect 
     -  Misc 
     -  Shear transform the input image. (avfilter.shear)  
-  * -  :ref:`shufflepixels` 
+  * -  shufflepixels
     -  Video Effect 
     -  Misc 
     -  Shuffle video pixels. (avfilter.shufflepixels)  
-  * -  :ref:`shuffleplanes` 
+  * -  shuffleplanes
     -  Video Effect 
     -  misc 
-    -  -
+    -
   * -  :ref:`sigmoidaltransfer` 
     -  Video Effect 
     -  Stylize 
@@ -1495,11 +1486,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa 1210) 
-  * -  :ref:`signalstats` 
+  * -  signalstats
     -  Video Effect 
     -  Stylize 
     -    
-  * -  :ref:`silencedetect` 
+  * -  silencedetect
     -  Video Effect 
     -  Stylize 
     -  Detect silence. (avfilter.silencedetect)  
@@ -1519,23 +1510,23 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1898)  
-  * -  :ref:`simple_high_pass_filter` 
+  * -  simple_high_pass_filter
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.1042) 
-  * -  :ref:`simple_low_pass_filter` 
+  * -  simple_low_pass_filter
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.1041) 
-  * -  :ref:`sine_oscillator` 
+  * -  sine_oscillator
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.1044) 
-  * -  :ref:`sine_oscillator` 
+  * -  sine_oscillator
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.1045) 
-  * -  :ref:`sine_oscillator` 
+  * -  sine_oscillator
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.1046) 
@@ -1547,11 +1538,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1198) 
-  * -  :ref:`slide` 
+  * -  slide
     -  Compositions 
-    -  - 
+    -
     -  Slide image from one side to another. (composite)  
-  * -  :ref:`smartblur` 
+  * -  smartblur
     -  Video Effect 
     -  Blur and Sharpen 
     -  Blur the input video without impacting the outlines. (avfilter.smartlblur) 
@@ -1571,9 +1562,9 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Stylize 
     -  Does softglow effect on highlights (frei0r.softglow) 
-  * -  :ref:`softlight` 
+  * -  softlight
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] softlight operation between the pixel sources. (frei0r.softlight) 
   * -  :ref:`sat` 
     -  Video Effect 
@@ -1614,16 +1605,16 @@ Alphabetical List of Effects and Compositions
   * -  :ref:`spillsuppress` 
     -  Video Effect 
     -  Enhancement  
-    -  -
-  * -  :ref:`speechnorm` 
+    -
+  * -  speechnorm
     -  Audio Effect 
     -  Audio 
     -  Speech Normalizer. (avfilter.speechnorm)  
-  * -  :ref:`spill_suppress` 
+  * -  spill_suppress
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Remove green or blue spill light from subjects shot in front of a green or blue screen (frei0r.spillsupress)   
-  * -  :ref:`spotremover` 
+  * -  spotremover
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Replace an area with interpolated pixels.  The new pixel values are interpolated from the nearest pixel. 
@@ -1643,31 +1634,31 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Audio Correction 
     -  LADSPA plugin (ladspa.1049)  
-  * -  :ref:`stereo_to_mono` 
+  * -  stereo_to_mono
     -  Audio Effect 
     -  Audio Correction 
     -  Copy one channel to another (channelcopy)  
-  * -  :ref:`stereoscopic_3d` 
+  * -  stereoscopic_3d
     -  Video Effect 
     -  VR360 and 3D 
     -  Convert between different stereoscopic image formats. (avfilter.stereo3d)  
-  * -  :ref:`stereotools` 
+  * -  stereotools
     -  Audio Effect 
     -  Audio 
     -  Apply various stereo tools. (avfilter.stereotools)  
-  * -  :ref:`stereowiden` 
+  * -  stereowiden
     -  Audio Effect 
     -  Audio 
     -  Apply stereo widening effect. (avfilter.stereowiding)  
-  * -  :ref:`subtract` 
+  * -  subtract
     -  Compositions 
-    -  - 
+    -
     -  Perform an RGB[A] subtract operation of the pixel source input2 from input2. (frei0r.subtract)  
-  * -  :ref:`super2xsai` 
+  * -  super2xsai
     -  Video Effect 
     -  Image Adjustment 
     -  Scale the input by 2x using the Super2xSaI pixel art algorithm. (avfilter.super2xsai)  
-  * -  :ref:`superequalizer` 
+  * -  superequalizer
     -  Audio Effect 
     -  Audio 
     -  Apply 18 band equalization filter. (avfilter.superequalizer)  
@@ -1675,11 +1666,11 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1401) 
-  * -  :ref:`swap_channels` 
+  * -  swap_channels
     -  Audio Effect 
     -  Audio Channels 
     -  Move the left channel to the right and the right-to-left (channelswap)  
-  * -  :ref:`swapuv` 
+  * -  swapuv
     -  Video Effect 
     -  Color and Image correction 
     -  Swap U and V components. (avfilter.swapuv)  
@@ -1763,7 +1754,7 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  TAP Plugins 
     -  LADSPA plugin (ladspa.2148) 
-  * -  :ref:`tape_delay_simulation` 
+  * -  tape_delay_simulation
     -  Audio Effect 
     -  Steve Harris’ SWH plugins  
     -  LADSPA plugin (ladspa.1211)  
@@ -1775,9 +1766,9 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Misc 
     -  Something videowall-ish (frei0r.tehRoxx0r)  
-  * -  :ref:`thistogram` 
+  * -  thistogram
     -  Compositions 
-    -  - 
+    -
     -  Uses Input 1 as a UV  Map to distort Input 2 (frei0r.uvmap)  
   * -  :ref:`threshold`  
     -  Video Effect 
@@ -1791,15 +1782,15 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Color and Image correction 
     -  Maps source image luminance between two colors specified (frei0r.tint0r) 
-  * -  :ref:`tmedian` 
+  * -  tmedian
     -  Video Effect 
     -  Misc 
     -  Pick median pixels from successive frames. (avfilter.tmedian) 
-  * -  :ref:`tmidequalizer` 
+  * -  tmidequalizer
     -  Video Effect 
     -  Misc 
     -  Apply Temporal Midway Equalization. (avfilter.tmidequalizer) 
-  * -  :ref:`tonemap_vaapi` 
+  * -  tonemap_vaapi
     -  Video Effect 
     -  Misc 
     -  VAAPI VPP for tone-mapping (avfilter.tonemap_vaapi) 
@@ -1809,25 +1800,25 @@ Alphabetical List of Effects and Compositions
     -  Position, Scale and opacity, (qtblend)  
   * -  :ref:`transform` 
     -  Compositions 
-    -  - 
+    -
     -  Peform an affine transform on for compositing. (affine)  
   * -  `Transient mangler <https://www.mltframework.org/plugins/FilterLadspa-1206/>`_ 
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1206) 
-  * -  :ref:`transparency` 
+  * -  transparency
     -  Video Effect 
     -  Alpha, Mask and Keying 
     -  Tunes the alpha channel. (Frei0r.transparency) 
-  * -  :ref:`transpose` 
+  * -  transpose
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Transpose rows with columns in the input video and optionally flip it (avfilter.transpose)  
-  * -  :ref:`treble` 
+  * -  treble
     -  Audio Effect 
     -  Audio 
     -  Boost or cut upper frequencies. (avfilter.treble)  
-  * -  :ref:`tremolo` 
+  * -  tremolo
     -  Audio Effect 
     -  Audio 
     -  Apply tremolo effect (avfilter.tremolo)  
@@ -1835,21 +1826,21 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1204)  
-  * -  :ref:`typewriter` 
+  * -  typewriter
     -  Video Effect 
     -  Misc 
     -  Typerwriter effect v0.3.3 (typewriter)  
-  * -  :ref:`untile` 
+  * -  untile
     -  Video Effect 
     -  Misc 
     -  Untile a frame into a sequence of frames. (avfilter.untile)  
-  * -  :ref:`v360` 
+  * -  v360
     -  Video Effect 
     -  Misc 
     -  Convert 360 projection of video. (avfilter.v360)  
-  * -  :ref:`value` 
+  * -  value
     -  Transition 
-    -  - 
+    -
     -  Applies a stationary transition between the current and next frames. (composite)  
   * -  `Valve rectifier <https://www.mltframework.org/plugins/FilterLadspa-1405/>`_ 
     -  Audio Effect 
@@ -1867,21 +1858,21 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Utility 
     -  Display 2 color component values in the two dimensial graph (which is called a vectorscope) (avfilter.vectorscope) 
-  * -  :ref:`vertigo` 
+  * -  vertigo
     -  Video Effect 
     -  Motion 
     -  Alpha blending with zoomed and rotated images (frei0r.vertigo)  
-  * -  :ref:`vibrato` 
+  * -  vibrato
     -  Audio Effect 
     -  Audio 
     -  Apply vibrato effect. (avfilter.vibrato)  
-  * -  :ref:`video_noise_generator` 
+  * -  video_noise_generator
     -  Video Effect 
     -  Grain and Noise 
     -  Add noise on video input frame (avfilter.noise)  
-  * -  :ref:`videoquality_measurement` 
+  * -  videoquality_measurement
     -  Transition 
-    -  - 
+    -
     -  This performs the PSNR and SSIm video quality measurements by comparing the B frames to the refernce fram A. It outputs the numbers to stdout in space-delimited format for easy use by another tool.  The bottom half of the B frame is placed below the top haf of the A frame for visual comparison. (vqm) 
   * -  :ref:`video_values` 
     -  Video Effect 
@@ -1895,7 +1886,7 @@ Alphabetical List of Effects and Compositions
     -  Video Effect 
     -  Generate 
     -  Adjustable Vignette (vignette)  
-  * -  :ref:`vocoder` 
+  * -  vocoder
     -  Audio Effect 
     -  Audio 
     -  LADSPA plugin (ladspa.1337)  
@@ -1903,32 +1894,32 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Audio Correction 
     -  Adjust the audio volume with keyframes (volume)  
-  * -  :ref:`vpp_qsv` 
+  * -  vpp_qsv
     - Video Effect 
     -  Misc 
     -  Quick Sync Video VPP. (avfilter.vpp_qsv)  
-  * -  :ref:`vr360_equirectangular_mask` 
-    - Video Effect 
+  * -  vr360_equirectangular_mas
+    -  Video Effect
     -  VR360 and 3D 
     -  Adds a black matte to the fram. Use this if you filmed using a 360 camera but only want to use part of the 360 image - for example if you and the film crew occupy the 90 degrees behind the camera. (frei0r.bigsh0t_eq_mask)  
-  * -  :ref:`vr360_equirectangular_to_rectilinear` 
-    - Video Effect 
+  * -  vr360_equirectangular_to_rectilinear
+    -  Video Effect
     -  VR360 and 3D 
     -  converts an equirectangular frame (panoramic) to a rectilinear frame (what you're used to seeing). Can be used to preview what will be shown in a 360 video viewer. Delayed frame blitting mapping on a time bitmap. (frei0r.bigsh0t_eq_to_rect)  
-  * -  :ref:`vr360_hemispherical_to_equirectangular` 
-    - Video Effect 
+  * -  vr360_hemispherical_to_equirectangular
+    -  Video Effect
     -  VR360 and 3D 
     -  Converts a video frame with two hemispherical images to a single equirectangular frame. The plugin assumes that both hemispheres are in the frame (freior.bigsh0t_hemi_to_eq)  
-  * -  :ref:`vr360_rectilinear_to_equirectangular` 
+  * -  vr360_rectilinear_to_equirectangular
     - Video Effect 
     -  VR360 and 3D 
     -  Converts a rectilinear (a normal-looking) image to an equirectangular image. Use this together with transform 360 to place "normal" footage in a 360 movie. (frei0r.bigsh0t_rect_to_eq)  
-  * -  :ref:`vr360_stabilize` 
-    - Video Effect 
+  * -  vr360_stabilize
+    -  Video Effect
     -  VR360 and 3D 
     -  Stabilizes 360 footage.  The plugin works in two phases - analysis and stabilization.  When analyzing footage, it detects frame-toframe rotation, and when stabilizing it tries to correct high-frequency motion (shake) (frei0r.bighsh0t_stabilize_360)  
-  * -  :ref:`vr360_transform` 
-    - Video Effect 
+  * -  vr360_transform
+    -  Video Effect
     -  VR360 and 3D 
     -  Rotates a panoramic image. (frei0r.bigsh0t_transform_360) 
   * -  VyNil (Vinyl Effect) 
@@ -1950,7 +1941,7 @@ Alphabetical List of Effects and Compositions
   * -  :ref:`white_balance` 
     -  Video Effect 
     -  Color Correction 
-    -  -
+    -
   * -  :ref:`white_balance`  
     -  Video Effect 
     -  Color and Image correctin 
@@ -1961,17 +1952,17 @@ Alphabetical List of Effects and Compositions
     -  Do simple color correction, in a physically meaningful way (frei0r.colgate)  
   * -  :ref:`wipe` 
     -  Compositions 
-    -  - 
+    -
     -  Applies a stationary transition between the current and next frames. (composite)  
-  * -  :ref:`xbr` 
+  * -  xbr
     -  Video Effect 
     -  Image Adjustment 
     -  Apply the xBR high-quality magnification filter which is designed for pixel art. It follows a set of edge-detection rules, see https://forums.libreto.com/t/xbr-algorithm-tutorial/123 (avfilter.xbr)  
-  * -  :ref:`yadif_cuda` 
+  * -  yadif_cuda
     -  Video Effect 
     -  Misc 
     -  Deinterlace CUDA frames (avfilter.yadif_cuda)  
-  * -  :ref:`yaepblur` 
+  * -  yaepblur
     -  Video Effect 
     -  Misc 
     -  Yet another edge preserving blur filter. (avfilter.yaepblur)  
@@ -1979,15 +1970,15 @@ Alphabetical List of Effects and Compositions
     -  Audio Effect 
     -  Steve Harris’ SWH plugins 
     -  LADSPA plugin (ladspa.1428) 
-  * -  :ref:`zmq` 
+  * -  zmq
     -  Video Effect 
     -  misc 
-    -  - 
-  * -  :ref:`zoompan` 
+    -
+  * -  zoompan
     -  Video Effect 
     -  Transform, Distort and Perspective 
     -  Apply Zoom and Pan effect (avfilter.zoompan) 
-  * -  :ref:`zscale` 
+  * -  zscale
     -  Video Effect 
     -  Misc 
     -  Apply resizing, colorspace and bit depth conversion. (avfilter.zscale)  
