@@ -7,8 +7,8 @@
 
 .. _undo_history:
 
-View Menu — Undo History
-========================
+Undo History
+============
 
 .. contents::
 

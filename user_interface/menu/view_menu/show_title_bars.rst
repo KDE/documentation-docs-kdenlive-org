@@ -11,13 +11,10 @@
 
 .. _show_title_bars:
 
-View Menu — Show Title Bars
-===========================
+Show Title Bars
+===============
 
 .. contents::
-
-
-
 
 This toggles the display of the title bar and control buttons on dockable windows in **Kdenlive**.
 

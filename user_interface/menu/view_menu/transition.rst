@@ -9,8 +9,8 @@
 
 .. _transition:
 
-View>Transition
-==================
+Transition
+==========
 
 .. contents::
 

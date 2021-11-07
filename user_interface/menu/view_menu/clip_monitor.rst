@@ -10,13 +10,10 @@
 
 .. _clip_monitor:
 
-View Menu — Clip Monitor
-========================
+Clip Monitor
+============
 
 .. contents::
-
-
-
 
 Toggles the display of the :ref:`monitors`.
 

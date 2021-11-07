@@ -11,16 +11,13 @@
 
 .. _effect_list:
 
-View Menu — Effects
-===================
+Effects
+=======
 
 .. contents::
 
 
-
-
 Toggles the display of the :ref:`effects`
-
 
 .. image:: /images/Kdenlive_Effects_tab.png
   :align: center
