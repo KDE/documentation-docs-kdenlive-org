@@ -34,9 +34,9 @@ Kdenlive lets you name and save up to four custom layouts.   In the example show
 
 .. container:: clear-both
 
-.. image:: /images/kdenlive_view_menu_save_layout02.png
-  :align: center
-  :width: 190px
+    .. image:: /images/kdenlive_view_menu_save_layout02.png
+        :align: center
+        :width: 190px
 
 The Save Layout dialog appears and you can give your custom layout a name.
 

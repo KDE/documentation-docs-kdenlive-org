@@ -26,7 +26,7 @@ Main and Extra Toolbars
 
 .. container:: clear-both
 
-an *Extra Toolbar*, which by default contains the **Render** button,   
+    an *Extra Toolbar*, which by default contains the **Render** button,
 
 .. image:: /images/Kdenlive_Render_button.png
    :align: left
@@ -34,7 +34,7 @@ an *Extra Toolbar*, which by default contains the **Render** button,
 
 .. container:: clear-both
 
-and a status toolbar.    
+    and a status toolbar.
 
 .. image:: /images/kdenlive_bottom_toolbar01.png
    :align: left

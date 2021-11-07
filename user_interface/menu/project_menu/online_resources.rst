@@ -18,9 +18,6 @@ Online Resources
 
 .. contents::
 
-
-
-
 Available from the :ref:`project_menu` menu and the :ref:`clips` dropdown,  this feature allows you to search online audio, video and graphics libraries for resources to download.
 
 
@@ -28,7 +25,7 @@ Available from the :ref:`project_menu` menu and the :ref:`clips` dropdown,  this
    :align: left
    :alt: Kdenlive_Search_Online_services
 
-.. container:: clear-both
+.. rst-class:: clear-both
 
 .. versionadded:: 21.04.0 
   
@@ -58,8 +55,6 @@ It is important to give credit to the downloaded sources so we’ve added an opt
 Freesound Audio Library
 -----------------------
 
-
-
 The Freesound Audio Library part of this became non-functional on old versions of Kdenlive in October 2015 because freesound now requires user registration. If you are using an old version of Kdenlive, you can still download great audio clips from `https://www.freesound.org/ <https://www.freesound.org/>`_ – just not through the Kdenlive interface.
 
 
@@ -70,8 +65,7 @@ The Freesound Audio Library part of this became non-functional on old versions o
 
 Version 15.12 (December 2015) allowed users to automatically download the high-quality .mp3 preview file from freesound using the **Online Resources** module.
 
-.. container:: clear-both
-
+.. rst-class:: clear-both
 
 Freesound Audio Library - Future version
 ----------------------------------------
@@ -93,24 +87,20 @@ On hitting the import button, and if this is the first time you have used the fr
    :alt: Kdenlive_freesound1
 
 
-
 It might take a few seconds for the freesound web page to load in the window – be patient.
-
 
 Once you have logged into the freesound system, you must grant Kdenlive permission to access your freesound account.
 
+.. image:: /images/Kdenlive_freesound2.png
+    :align: left
+    :alt: Kdenlive_freesound2
+
 .. container:: clear-both
 
-.. image:: /images/Kdenlive_freesound2.png
-   :align: left
-   :alt: Kdenlive_freesound2
+    You can revoke Kdenlive's access to your freesound account from the freesound website. Log in to your account and click the link in the App permissions section on the settings page "Manage your list of permissions granted to API applications"
+    http://freesound.org/home/app_permissions/.
 
-
-You can revoke Kdenlive's access to your freesound account from the freesound website. Log in to your account and click the link in the App permissions section on the settings page "Manage your list of permissions granted to API applications"
-http://freesound.org/home/app_permissions/.
-
-
-Once permission is granted, Kdenlive obtains authentication keys that it saves to the kdenlive config file (:file:` /~/.config/kdenliverc`). It uses these keys to automatically authenticate on future file import requests.  Delete the tokens from the kdenlive config file to prevent this.
+Once permission is granted, Kdenlive obtains authentication keys that it saves to the kdenlive config file (:file:`/~/.config/kdenliverc`). It uses these keys to automatically authenticate on future file import requests.  Delete the tokens from the kdenlive config file to prevent this.
 
 
 Archive Org  Video Library
