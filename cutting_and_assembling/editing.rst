@@ -33,7 +33,7 @@ Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:
    :alt: add clip to timeline
 
 .. versionadded:: 19.08.0
-   Editing with keyboard shortcuts was introduce
+   Editing with keyboard shortcuts was introduced
 
 This will speed up the editing work and you can do editing steps that are not possible or not as quick and easy with the mouse. Working with keyboard shortcuts in 19.08 is different as in the former Kdenlive versions. Mouse operations have not changed and working as before. See `3 Point Editing`_
 
@@ -100,8 +100,8 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
    :alt: remove space
 
 
-Middle Tool Bar
----------------
+Timeline Toolbar
+----------------
 
 There is a toolbar between monitors and the timeline that controls various aspects of the editor. 
 
@@ -124,23 +124,18 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 1f. **Split Audio tracks (reverse)** changes the order in which tracks are displayed to separate audio and video tracks with the audio tracks in reverse order.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A3, V1, V2, V3
 
-2. **Timeline Edit Mode**   Drop Down
+2. **Timeline Edit Mode**  Drop Down. These same settings can be found under the :menuselection:`Tool` menu.
 
-2a. ref:`timline_normal_mode`
+2a. :ref:`timline_normal_mode`
 
-2b. ref:`timline_overwrite_mode`
+2b. :ref:`timline_overwrite_mode`
 
-2c. ref:`timline_insert_mode`
-
-
-These same settings can be found under the :menuselection:`Tool` menu.
-
+2c. :ref:`timline_insert_mode`
 
 3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See `Insert &  Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.
 
 
 **Tool Group** (one of these 3 can be active)
-
 
 Active buttons are grey.
 
@@ -191,43 +186,11 @@ Items 14, 14a-14g are covered in detail by `Timeline preview rendering <https://
 
 16. Show/Hide the **Subtitle Tool**.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
-.. _status_bar:
-
-Status Bar
-----------
-
-.. image:: /images/Kdenlive_Bottom_toolbar17_04b.png
-   :alt: Bottom toolbar ver 17.04
-
-
-24. `Split Audio and Video Automatically`_
-
-25. `Automatic Transitions`_
-
-26. `Show Video Thumbnails`_
-
-27. `Show Audio Thumbnails`_
-
-28. `Show marker comments`_
-
-29. `Snap`_
-
-
-**Zoom Tools**
-
-30. `Fit Zoom to Project`_
-
-31. Zoom Out
-
-32. `Zoom Project`_
-
-33. Zoom In
-
 
 Track Compositing
 -----------------
 
-.. partly moved from https://kdenlive.org/en/project/configuring-the-default-transition-duration/
+.. partly moved from https://kdenlive.org/en/project/timeline-track-compositing/
 
 The track compositing applies uniformly to all tracks in your timeline.
 
@@ -247,7 +210,7 @@ When Track Compositing is set to None you will not get tracks with alpha channel
 Preview
 ~~~~~~~
 
-.. deprecated:: 21.12
+.. deprecated:: 21.08
 
 .. note::
 
@@ -373,19 +336,33 @@ Use this tool (|distribute-horizontal|) to temporarily group separate clips and 
 
 In the above example, these clips are not grouped. However, the spacer tool groups them temporarily for you so you can move them all as a group.
 
-Button Descriptions
--------------------
+.. _status_bar:
 
-Fit Zoom to Project
-~~~~~~~~~~~~~~~~~~~
+Status Bar
+----------
 
-This will zoom the project out so that it all fits in the timeline window. This is the same function that is triggered by :ref:`timeline_menu` Menu item, :menuselection:`Fit Zoom to Project`.
+.. image:: /images/Kdenlive_Bottom_toolbar17_04b.png
+   :alt: Bottom toolbar ver 17.04
 
+24. `Split Audio and Video Automatically`_
 
-Zoom project
-~~~~~~~~~~~~
+25. `Automatic Transitions`_
 
-The magnifying glasses zoom in or out on the timeline. The slider adjusts the zoom by large increments. These same settings are controlled by the :menuselection:`Timeline` menu items, :menuselection:`Zoom In` and :menuselection:`Zoom Out`.
+26. `Show Video Thumbnails`_
+
+27. `Show Audio Thumbnails`_
+
+28. `Show marker comments`_
+
+29. `Snap`_
+
+30. `Fit Zoom to Project`_
+
+31. Zoom Out
+
+32. `Zoom Project`_
+
+33. Zoom In
 
 
 Split Audio and Video Automatically
@@ -431,6 +408,18 @@ When this feature is on, dragging the beginning of one clip near to the end of a
 
 
 Clips will also snap to the cursor position, markers and :ref:`guides`.
+
+
+Fit Zoom to Project
+~~~~~~~~~~~~~~~~~~~
+
+This will zoom the project out so that it all fits in the timeline window. This is the same function that is triggered by :ref:`timeline_menu` Menu item, :menuselection:`Fit Zoom to Project`.
+
+
+Zoom project
+~~~~~~~~~~~~
+
+The magnifying glasses zoom in or out on the timeline. The slider adjusts the zoom by large increments. These same settings are controlled by the :menuselection:`Timeline` menu items, :menuselection:`Zoom In` and :menuselection:`Zoom Out`.
 
 
 Cutting Footage from multiple aligned tracks - Ripple Delete
