@@ -28,6 +28,10 @@ Speech to text
 
 .. versionadded:: 21.04.0
 
+.. warning::
+
+   Speech to text doesn't work with version 21.04.2 due to vosk API issues. Use version 21.04.1 or 21.04.3 and later versions.
+
 
 Install Python
 ~~~~~~~~~~~~~~
@@ -134,9 +138,3 @@ Select a clip in the project bin.
 
 11.	Or down in the text.
 
-
-
-
-.. warning::
-
-  Speech to text doesn't work with version 21.04.2 due to vosk API issues. Use version 21.04.1 or 21.04.3 and later versions.

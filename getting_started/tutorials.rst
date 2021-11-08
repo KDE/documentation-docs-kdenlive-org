@@ -33,7 +33,10 @@ Written Tutorials
 * See :ref:`quickstart` for a step-by-step introductory tutorial
 
 
-* :ref:`split_screen_how_to`
+.. toctree::
+   :caption: Contents:
+
+   tutorials/split_screen_how_to
 
 
 * `Introduction to Kdenlive <http://opensource.com/life/11/11/introduction-kdenlive>`_ by Seth Kenlon
@@ -49,6 +52,8 @@ Written Tutorials
 
 
 * `Wikibooks Kdenlive manual <http://en.wikibooks.org/wiki/Kdenlive>`_
+
+
 
 
 Video Tutorials
@@ -69,7 +74,4 @@ Video Tutorials
 More videos can be found using a `YouTube search <https://www.youtube.com/results?search_query=kdenlive+tutorials>`_ and on the `Vimeo Kdenlive Tutorial Channel <https://vimeo.com/groups/kdenlivetutorials/videos>`_
 
 
-.. toctree::
-   :caption: Contents:
 
-   tutorials/split_screen_how_to

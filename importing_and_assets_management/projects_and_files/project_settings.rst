@@ -90,23 +90,19 @@ You can choose an *Encoding profile* for the proxy clips, which will define the 
 Metadata Tab
 ------------
 
-Screenshots below show the **Metadata** tab for two different versions of **Kdenlive**. Version 0.9.6 introduces buttons to add and subtract metadata fields.
-
-
-.. list-table::
-
-  * -  version >=0.9.5 
-    -  version <= 0.9.6 
+Screenshots below show the **Metadata** tab of **Kdenlive**.
 
 
 Metadata set up here will be written to the files rendered from the project if :ref:`render` is checked in File Rendering.
 
+.. image:: /images/Kdenlive_Metadata2.png
+   :alt: Kdenlive Metadata Dialog
 
 Project Files Tab
 -----------------
 
 .. image:: /images/Kdenlive_Project_settings_Project_Files_tab.png
-  :alt: Kdenlive_Project_settings_Project_Files_tab
+   :alt: Kdenlive_Project_settings_Project_Files_tab
 
 
 From here you can export the project files data.   
@@ -119,8 +115,8 @@ Cache Data Tab
 --------------
 
 .. image:: /images/20210508-kdenlive-cache_data.png
-  :align: center
-  :alt: Cache data dialog
+   :align: center
+   :alt: Cache data dialog
 
 
 The Cache data tab shows the data used in the project including the timeline preview, proxy clips, audio thumbnails, and video thumbnails.  

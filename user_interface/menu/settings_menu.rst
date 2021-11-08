@@ -38,11 +38,10 @@ Settings Menu
 * :ref:`configure_notifications`
 * :ref:`configure_kdenlive`
 
+.. rst-class:: clear-both
 
 Settings Menu - Mac OS X
 ========================
-
-
 
 .. image:: /images/Kdenlive_Settings_OSX.png
    :align: left

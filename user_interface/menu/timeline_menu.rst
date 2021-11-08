@@ -24,59 +24,21 @@ Timeline Menu
    :align: left
    :alt: timeline menu
 
-
-:ref:`selection`
-
-
-:menuselection:`Insertion > `:ref:`insert_clip_zone`
-
-
-:ref:`editing`
-
-
-:ref:`editing`
-
-
-:ref:`current_clip`
-
-
-:ref:`guides`
-
-
-:ref:`space`
-
-
-:ref:`grouping`
-
-
-:ref:`grouping`
-
-
-:ref:`tracks`
-
-
-:ref:`effects`
-
-
-:ref:`editing`
-
-
-:ref:`editing`
-
-
-:ref:`editing`
-
-
-:ref:`editing`
-
-
-:ref:`editing`
-
-
-:ref:`editing`
-
-
-:ref:`editing`
+- Resize Item Start
+- Resize Item End
+- Current Clip
+- :ref:`guides`
+- Group Clips
+- Ungroup Clips
+- Add Effect
+- Show video thumbnails
+- Show audio thumbnails
+- Show markers comments
+- Snap
+- Zoom In
+- Zoom Out
+- Fit zoom to project
+- :menuselection:`All clips --> Ripple Delete`
 
 
 .. image:: /images/kdenlive_timeline_allclips_rippledelete.png
@@ -85,10 +47,7 @@ Timeline Menu
 
 .. rst-class:: clear-both
 
-:ref:`editing`  [1]_ 
 
-
-.. [1] available on bleeding edge version > 0.9.10 (Jan2015)
 .. toctree::
    :caption: Contents:
 
