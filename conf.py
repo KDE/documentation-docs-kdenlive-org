@@ -109,6 +109,8 @@ rst_epilog = """
 .. |Kdenlive_Keyboard_074_A4| image:: /images/Kdenlive_Keyboard_074_A4.svg
    :width: 480px
 
+.. |outdated| replace:: The instructions of this section are probably out-dated please help us to improve the documentation! See :ref:`get_involved`
+
 """
 
 

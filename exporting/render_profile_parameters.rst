@@ -17,22 +17,15 @@ Render Profile Parameters
 
 .. contents::
 
+Render Profile Parameters - How to read them
+--------------------------------------------
 
-
-
-Render Profile Parameters - How to read them - ver 0.9.10
----------------------------------------------------------
-
-In version 0.9.10 the render profile parameters changed significantly. 
-
-
-.. image:: /images/Kdenlive_Edit_render_profile_0.9.10.png
+.. image:: /images/exporting/edit_render_profile_21-08.png
    :align: left
    :alt: Kdenlive_Edit_render_profile_0
 
 
 Kdenlive now makes use of "property presets" delivered by the *melt* project (see `melt doco <http://www.mltframework.org/bin/view/MLT/PropertyPresets>`_). These presets are referenced by the *properties=<preset>* syntax.  In the example illustrated, the render profile is referencing *lossless/H.264*.  This refers to a property preset found in file H.264 found on the system at :file:`/usr/share/mlt/presets/consumer/avformat/lossless`.
-
 
 All the *<presets>* referenced in the render settings in Kdenlive will be referring to presets found at :file:`/usr/share/mlt/presets/consumer/avformat/` (on a default install). Note that you reference presets found in subdirectories of this folder using a :file:`<dirname>/<profile>`  syntax as shown in the example above. 
 
@@ -74,26 +67,18 @@ Contents of  lossless/H.264:
    
 
 
-Render Profile Parameters - How to read them - earlier versions of Kdenlive
----------------------------------------------------------------------------
+Render Profile Parameters - How to read them
+--------------------------------------------
 
+.. warning::
 
-
-.. image:: /images/Custom_render_profiles.png
-   :width: 300px
-   :align: left
-   :alt: Custom_render_profiles
-
+   |outdated|
 
 The parameters that go into a render profile derive from the **ffmpeg** program.
 
-
 This is a worked example to show how you can understand what these parameters mean using the **ffmpeg** documentation.
 
-
 In the example above the parameters are:
-
-
 
 
 .. code-block:: bash
@@ -168,12 +153,9 @@ The AVCodecContext AVOptions include:
   -g                <int>   E.V.. set the group of picture size
   
 
-
 So all the render profile options are documented here in the **ffmpeg** documentation.
 
-
 See also `MLT doco <http://www.mltframework.org/bin/view/MLT/ConsumerAvformat>`_ on ConsumerAvFormat.
-
 
 See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_
 
