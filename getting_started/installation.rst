@@ -27,6 +27,15 @@ Installation
 
 Visit the `download <https://kdenlive.org/download/>`_ page of the Kdenlive Web site for up to date information on installing **Kdenlive**.
 
+Non-KDE Desktops
+----------------
+
+**Kdenlive** can be installed on non-KDE Desktops without any issues.
+
+Kdenlive on macOS
+-----------------
+
+**Kdenlive** and **MLT** can compile and run under macOS. There is no stable macOS version yet, but you can help to have one soon by testing our daily macOS version (available on the `download <https://kdenlive.org/download/>`_ page). If you have experience with building software for macOS, please help us!
 
 Configuration Information
 -------------------------
