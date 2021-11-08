@@ -27,12 +27,3 @@ You’ll find the corresponding option in the main menu :menuselection:`Timeline
 However, please note that prior to Kdenlive 16.08.1, track effects are not properly disabled or re-enabled by :menuselection:`Timeline --> Disable Timeline Effects`.
 
 Please see :ref:`effects_everywhere` about how to temporarily disable bin clip effects.
-
-.. rst-class:: clear-both
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   :glob:
-
-   glossary/*

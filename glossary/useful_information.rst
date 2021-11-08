@@ -19,5 +19,6 @@ Useful Information
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
-   useful_information/surround_sound
+   useful_information/*

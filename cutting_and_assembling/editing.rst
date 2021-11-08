@@ -4,6 +4,7 @@
              - Claus Christensen
              - Yuri Chornoivan
              - Jean-Baptiste Mardelle <jb@kdenlive.org>
+             - TheDiveO
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Vincent Pinon <vpinon@kde.org>
              - Jessej (https://userbase.kde.org/User:Jessej)
@@ -111,11 +112,11 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 1.  **Track Compositing** drop down. 
 
-1a. `Track Compositing - None`_
+1a. :ref:`track_compositing_none`
 
-1b. `Track Compositing - Preview`_
+1b. :ref:`track_compositing_preview`
 
-1c. `Track Compositing - High Quality`_
+1c. :ref:`track_compositing_hq`
 
 1d. **Mixed Audio tracks** changes the order in which tracks are displayed to mixed audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, V1, A2, V2, A3, V3
 
@@ -125,11 +126,11 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 2. **Timeline Edit Mode**   Drop Down
 
-2a. `Timeline Edit Mode - Normal Mode`_
+2a. ref:`timline_normal_mode`
 
-2b. `Timeline Edit Mode - Overwrite Mode`_
+2b. ref:`timline_overwrite_mode`
 
-2c. `Timeline Edit Mode - Insert Mode`_
+2c. ref:`timline_insert_mode`
 
 
 These same settings can be found under the :menuselection:`Tool` menu.
@@ -223,35 +224,60 @@ Status Bar
 33. Zoom In
 
 
-Button Descriptions
--------------------
+Track Compositing
+-----------------
 
-Track Compositing - None
-~~~~~~~~~~~~~~~~~~~~~~~~
+.. partly moved from https://kdenlive.org/en/project/configuring-the-default-transition-duration/
 
-When Track Compositing is set to None you will not get tracks with alpha channel information to composite with the other tracks unless an explicit composite or affine transition is added between the clips.  This is the behavior that **Kdenlive** displayed in older ( <= ver 0.9.X). 
+The track compositing applies uniformly to all tracks in your timeline.
+
+.. tip::
+
+  Under certain compositing conditions, if you see the outcome of a transition not to be what you would expect, try to switch track compositing off for a quick check. If the oddity is gone, then this is an interference between the automatic timeline track compositing and your user transitions.
+
+.. _track_compositing_none:
+
+None
+~~~~
+
+When Track Compositing is set to None you will not get tracks with alpha channel information to composite with the other tracks unless an explicit composite or affine transition is added between the clips. This is basically kind of an expert mode when you need full control over any compositing in your timeline.
+
+.. _track_compositing_preview:
+
+Preview
+~~~~~~~
+
+.. deprecated:: 21.12
+
+.. note::
+
+    Final rendering always uses either **High Quality** or **None**. So Preview quality is, well, for preview only.
+
+When track compositing is set to Preview tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat faster than the algorithm used with :ref:`track_compositing_hq` but which slightly degrades the colors.
 
 
-Track Compositing - Preview
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _track_compositing_hq:
 
-When track compositing is set to Preview tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat faster than the algorithm used with *Track Compositing - HighQuality* but which slightly degrades the colors.
+High Quality
+~~~~~~~~~~~~
 
-
-Track Compositing - High Quality
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm (qtblend) that is somewhat slower than the algorithm used with *Track Compositing - Preview* but which retains higher fidelity color information.
+When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat slower than the algorithm used with :ref:`track_compositing_preview` but which retains higher fidelity color information.
 
 
-Timeline Edit Mode - Normal Mode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Timeline Edit Mode
+------------------
+
+.. _timline_normal_mode:
+
+Normal Mode
+~~~~~~~~~~~
 
 In this edit mode, you can not drag clips on top of other clips in the same track in the timeline. You can drag them to another track in the timeline but not into the same track at the same time point as an existing clip. Contrast this to overwrite mode.
 
+.. _timline_overwrite_mode:
 
-Timeline Edit Mode - Overwrite Mode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Overwrite Mode
+~~~~~~~~~~~~~~
 
 In this edit mode, you can drag a clip onto a track where there is an existing clip and the incoming clip will overwrite that portion of the existing clip (or clips) covered by the incoming clip.
 
@@ -282,9 +308,10 @@ Performing a rearrange edit. This technique lets you quickly change the order of
 
 Drag a clip, as you drop it to a new location performs an overwrite edit that overwrites the existing clip.
 
+.. _timline_insert_mode:
 
-Timeline Edit Mode - Insert Mode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Insert Mode
+~~~~~~~~~~~
 
 With this mode selected and you drop a selection into the timeline the selection will be inserted into the timeline at the point where the mouse is released. The clip that the selection is dropped on is cut and clips are moved to the right to accommodate the incoming clip.
 
@@ -318,6 +345,8 @@ It always closes all space in the track.
    
 Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.
 
+Timeline Edit Tools
+-------------------
 
 Selection Tool
 ~~~~~~~~~~~~~~
@@ -344,6 +373,8 @@ Use this tool (|distribute-horizontal|) to temporarily group separate clips and 
 
 In the above example, these clips are not grouped. However, the spacer tool groups them temporarily for you so you can move them all as a group.
 
+Button Descriptions
+-------------------
 
 Fit Zoom to Project
 ~~~~~~~~~~~~~~~~~~~
