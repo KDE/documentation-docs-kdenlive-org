@@ -71,4 +71,4 @@ Please check your :menuselection:`Settings --> Configure Kdenlive --> Playback` 
 
 I want to back out to a previous release.
 -----------------------------------------
-See Notes at  :ref:`installation`.
+See Notes at :ref:`installation`.

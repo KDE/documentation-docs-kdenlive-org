@@ -177,7 +177,6 @@ You can then load the :file:`.mlt` files as clips into the project monitor and e
 Extract Zone
 ------------
 
-
 This brings up the **Cut Clip** dialog which appears to be setup to extract the zone into a new file and add it to the project tree.
 
 
@@ -212,13 +211,11 @@ On the authors 0.9.2  and 0.9.5 version of **Kdenlive** this feature is broken f
 Extract frame
 -------------
 
-
 Extracts the frame currently in the clip monitor as a :file:`.PNG` image which you can save to the file system.
 
 
 Set current image as thumbnail
 ------------------------------
-
 
 This will change the thumbnail that represents this clip in the project tree to the frame that is currently selected in the clip monitor.
 
@@ -226,13 +223,11 @@ This will change the thumbnail that represents this clip in the project tree to 
 Monitor overlay infos
 ---------------------
 
-
 ???
 
 
 Real time (drop frames)
 -----------------------
-
 
 Setting this to the Checked state means the clip monitor will drop frames during playback to ensure the clip plays in real time. This does not effect the final rendered file - it just effect how the clip appears when being previewed in the clip monitor
 

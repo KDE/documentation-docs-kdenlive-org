@@ -110,7 +110,7 @@ There is a toolbar between monitors and the timeline that controls various aspec
    :alt: Middle Toolbar ver  21.04
 
 
-1.  **Track Compositing** drop down. 
+1.  `Track Compositing`_ drop down.
 
 1a. :ref:`track_compositing_none`
 

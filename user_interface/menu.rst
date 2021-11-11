@@ -11,34 +11,6 @@
 Menu Reference
 ==============
 
-.. contents::
-
-
-* :ref:`file_menu`
-
-
-* :ref:`edit_menu`
-
-* :ref:`view_menu`
-
-
-* :ref:`project_menu`
-
-
-* :ref:`tool_menu`
-
-
-* :ref:`clip_menu`
-
-
-* :ref:`timeline_menu`
-
-
-* :ref:`monitor_menu`
-
-
-* :ref:`settings_menu`
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

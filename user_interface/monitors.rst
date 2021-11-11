@@ -5,6 +5,6 @@ Monitors
 
 .. toctree::
    :caption: Contents:
+   :glob:
 
-   monitors/clip_monitor_rightclick
-   monitors/project_monitor_rightclick
+   monitors/*
