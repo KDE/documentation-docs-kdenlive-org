@@ -1,0 +1,42 @@
+.. metadata-placeholder
+
+   :authors: - Claus Christensen
+             - Yuri Chornoivan
+             - Ttguy (https://userbase.kde.org/User:Ttguy)
+             - Bushuev (https://userbase.kde.org/User:Bushuev)
+             - Jack (https://userbase.kde.org/User:Jack)
+             - Roger (https://userbase.kde.org/User:Roger)
+             - Smolyaninov (https://userbase.kde.org/User:Smolyaninov)
+
+   :license: Creative Commons License SA 4.0
+
+.. _download_new_title_templates:
+
+Download New Title Templates
+============================
+
+.. contents::
+
+
+To install more title templates choose from the click the :menuselection:`Download New Title Templates...` button on the tool bar when title editor.
+
+
+.. image:: /images/Kdenlive_download_new_title_templates.png
+   :align: center
+   :alt: Kdenlive_download_new_title_templates
+
+
+If you have a good title template, you can post it `here <https://store.kde.org/browse/cat/335/>`_ so that other **Kdenlive** users can download it through :menuselection:`Download New Title Templates...` and use it.
+
+
+.. image:: /images/Kdenlive_Download_title_templates.png
+   :align: center
+   :alt: Kdenlive_Download_title_templates
+
+
+Once these title templates are installed, they can be accessed via the :ref:`titles` drop down on the **Title Clip** dialog.
+
+
+The .kdenlivetitle  files that are downloaded are installed to .local/share/kdenlive/titles/
+
+
