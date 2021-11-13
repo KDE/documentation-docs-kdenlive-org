@@ -63,6 +63,18 @@ master_doc = 'index'
 # Usually you set "language" from the command line for these cases.
 language = 'en'
 
+# languages to exclude from smartquotes transformation. Requested by catalan translators due l':ref:`<crop_tool>` getting rendered as l"crop tool.
+smartquotes_excludes = {'languages':[
+                                    'ja',
+                                    'ca',
+                                    'fr'
+                                    ],
+                        'builders': [
+                                    'man',
+                                    'text'
+                                    ]
+                        }
+
 # This reStructuredText will be included at the begin of every source file.
 #rst_prolog = ""
 # This reStructuredText will be included at the end of every source file.
