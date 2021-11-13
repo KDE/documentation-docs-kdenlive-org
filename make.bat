@@ -30,6 +30,10 @@ goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+goto end
+
+:test
+python3 %SOURCEDIR%/tests/check_filenames.py
 
 :end
 popd
