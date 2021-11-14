@@ -16,24 +16,17 @@ Audio channels
 
 .. contents::
 
-
-
-
 The :menuselection:`Audio channels` group in the Effect List has the following effects:
 
 
-* :ref:`balance`
+* balance
 
+* copy_channels
 
-* :ref:`copy_channels`
+* mono_to_stereo_splitter
 
+* pan
 
-* :ref:`mono_to_stereo_splitter`
-
-
-* :ref:`pan`
-
-
-* :ref:`swap_channels`
+* swap_channels
 
 

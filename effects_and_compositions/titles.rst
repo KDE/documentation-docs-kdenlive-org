@@ -141,8 +141,6 @@ A known issue with template titles is that text centering does not work correctl
 Template Titles - Built In
 --------------------------
 
-
-
 **Kdenlive** has some built-in title templates that can be accessed from the :guilabel:`Template` drop-down list found on the bottom of the **Title Clip** window - see below.
 
 
