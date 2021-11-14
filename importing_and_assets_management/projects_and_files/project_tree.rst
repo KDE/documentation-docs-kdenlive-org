@@ -48,7 +48,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 * :ref:`Add Color Clip <add_color_clip>`
 
 
-* :ref:`Add Slideshow Clip <Add Slideshow Clip>`
+* :ref:`Add Slideshow Clip <add_slideshow_clip>`
 
 
 * :ref:`titles`

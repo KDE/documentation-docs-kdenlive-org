@@ -9,6 +9,7 @@
 // Our list of supported languages
 $supported_languages = array(
     "en",
+    "ca",
     "de",
     "fr",
     "nl",

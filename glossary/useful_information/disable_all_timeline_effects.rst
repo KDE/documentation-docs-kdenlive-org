@@ -21,7 +21,6 @@ Did you know that you can **temporarily disable all timeline effects at once?** 
    :width: 400px
 
 
-
 You’ll find the corresponding option in the main menu :menuselection:`Timeline --> Disable Timeline Effects`. This disables or re-enables all timeline effects, that is, timeline clip effects and track effects.
 
 However, please note that prior to Kdenlive 16.08.1, track effects are not properly disabled or re-enabled by :menuselection:`Timeline --> Disable Timeline Effects`.

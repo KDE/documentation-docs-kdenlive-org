@@ -21,11 +21,11 @@ Project Menu
   :align: center
   :alt: Project Menu
 
-* :ref:`clips`
+* :ref:`Add Clip <add_clip>`
 
-* :ref:`clips`
+* :ref:`Add Color Clip <add_color_clip>`
 
-* :ref:`clips`
+* :ref:`Add Slideshow Clip <add_slideshow_clip>`
 
 * :ref:`titles`
 
@@ -52,33 +52,6 @@ Project Menu
 * :ref:`open_backup_file`
 
 * :ref:`archiving`
-
-
-* :ref:`stabilize` (ver 0.9.2)
-
-* %s
-
-* %s
-
-* Clip Jobs > :ref:`reverse_clip` (ver 0.9.6)
-
-* :ref:`transcode`
-
-* :ref:`tracks`
-
-* :ref:`stop_motion_capture`
-
-* :ref:`reload_clip`
-
-* :ref:`clips`
-
-* :ref:`clip_in_timeline`
-
-* :ref:`clips`
-
-* :ref:`edit_clip`
-
-* :ref:`delete_clip` 
 
 
 .. toctree::

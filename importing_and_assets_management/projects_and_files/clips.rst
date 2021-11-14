@@ -58,8 +58,6 @@ You can add other types of clips by choosing a clip type from the menu brought u
 Color clips
 -----------
 
-
-
 Color clips are images composed of a single color that can be added to the Project Tree. They can be useful to provide a background on which to place titles.
 
 
@@ -81,15 +79,12 @@ Clicking :menuselection:`OK` adds the clip to the project tree. The clip can the
 Title clips
 -----------
 
-
-
 See :ref:`titles`
 
 .. _add_slideshow_clip:
 
 Image Sequence clips
 --------------------
-
 
 
 Image Sequence clips are clips created from a series of still images. The feature can be used to make an animation from a collection of still images or to create a slideshow of still images. To create the former, use a short frame duration; to create the latter, use a long frame duration.

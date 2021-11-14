@@ -19,25 +19,9 @@ Misc Effects
 
 * atadenoise
 
-* :ref:`baltan`
-
 * bgsubtract
 
-* :ref:`box_blur`
-
-* :ref:`cairogradient`
-
-* :ref:`cairoimagegrid`
-
-* :ref:`cartoon`
-
-* :ref:`color_distance`
-
-* :ref:`color_effect`
-
 * colorchannelmixer
-
-* :ref:`colorhalftone`
 
 * colorlevels
 
@@ -45,15 +29,11 @@ Misc Effects
 
 * cropdetect
 
-* :ref:`dance`
-
 * dctdnoiz
 
 * deband
 
 * deflate
-
-* :ref:`delay_grab`
 
 * delay0r
 
@@ -69,15 +49,13 @@ Misc Effects
 
 * drawgrid
 
-* :ref:`dynamic_text`
+* edgedetect
 
-* :ref:`edgedetect`
+* elbg
 
-* :ref:`elbg`
+* eq
 
-* :ref:`eq`
-
-* :ref:`erosion`
+* erosion
 
 * face_blur
 
@@ -109,15 +87,9 @@ Misc Effects
 
 * inflate
 
-* :ref:`k-means_clustering` 
-
 * lenscorrection
 
-* :ref:`light_graffiti`
-
 * lightshow
-
-* :ref:`lumakey`
 
 * lut
 
@@ -125,13 +97,7 @@ Misc Effects
 
 * lutyuv
 
-* :ref:`ndvi_filter`
-
-* :ref:`nervous`
-
 * noise
-
-* :ref:`owdenoise`
 
 * pad
 
@@ -143,17 +109,11 @@ Misc Effects
 
 * random
 
-* :ref:`regionalize`
-
 * removegrain
-
-* :ref:`rgbsplit0r`
 
 * rotate
 
 * sab
-
-* :ref:`scanline0r`
 
 * shuffleplanes
 
@@ -165,19 +125,17 @@ Misc Effects
 
 * tblend
 
-* :ref:`tehroxx0r`
+* transpose
 
-* transpose`
+* unsharp
 
-* unsharp`
+* uspp
 
-* uspp`
+* vertigo
 
-* vertigo`
+* vid.stab_deshake
 
-* vid.stab_deshake`
-
-* vid.stab_detect_and_transform`
+* vid.stab_detect_and_transform
 
 * w3fdif
 
