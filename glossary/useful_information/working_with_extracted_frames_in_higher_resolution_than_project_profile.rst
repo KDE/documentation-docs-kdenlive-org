@@ -109,7 +109,7 @@ Remember that we wrote above that Kdenlive extracts frames from bin clips using 
       :alt: hires-frames-hiresframe-clipmonitor
       :width: 350px
    
-   If you happen to see color changes at this stage, then please check out our other Toolbox post about :ref:`Color Hell Ffmpeg Transcoding and Preserving BT.601`.
+   If you happen to see color changes at this stage, then please check out our other Toolbox post about :ref:`color_hell_ffmpeg_transcoding_and_preserving_BT.601`.
 
 .. rst-class:: clear-both
 
@@ -128,7 +128,7 @@ References
     
 `Vertical Video Syndrome <https://www.youtube.com/watch?v=Bt9zSfinwFA>`_ – A PSA by Glove and Boots on YouTube.
     
-:ref:`Color Hell Ffmpeg Transcoding and Preserving BT.601`
+:ref:`color_hell_ffmpeg_transcoding_and_preserving_BT.601`
 
 
 
