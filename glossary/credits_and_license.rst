@@ -58,6 +58,7 @@ Documentation authors
 * Brylie Christopher Oxley (https://userbase.kde.org/User:Brylie Christopher Oxley)
 * Vincent Pinon <vpinon@kde.org>
 * Qubodup (https://userbase.kde.org/User:Qubodup)
+* TheDiveO (https://thediveo-e.blogspot.com/)
 * Torsten R\u00c3\u00b6mer (https://userbase.kde.org/User:Torsten R\u00c3\u00b6mer)
 * Roanna (https://userbase.kde.org/User:Roanna)
 * Roger (https://userbase.kde.org/User:Roger)
