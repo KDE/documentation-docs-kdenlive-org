@@ -115,6 +115,18 @@ rst_epilog = """
 .. |timeline-use-zone-on| image:: /images/icons/timeline-use-zone-on.svg
    :width: 22px
 
+.. |timeline-extract| image:: /images/icons/timeline-extract.svg
+   :width: 22px
+
+.. |timeline-insert| image:: /images/icons/timeline-insert.svg
+   :width: 22px
+
+.. |timeline-lift| image:: /images/icons/timeline-lift.svg
+   :width: 22px
+
+.. |timeline-overwrite| image:: /images/icons/timeline-overwrite.svg
+   :width: 22px
+
 .. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
    :width: 480px
 
