@@ -116,31 +116,23 @@ Workflow
           Render out your final video for distributing.
 
 
-#########################################
-Troubleshooting, issues and bug reporting
-#########################################
+#######################################
+Troubleshooting, Glossary, Get Involved
+#######################################
 
 .. container:: toctile
 
    .. container:: tile
 
-      :ref:`Windows_Issues`
-         Solving specific Windows issues
+      :ref:`troubleshooting`
+         Solving specific :ref:`windows_issues`
 
-   .. container:: tile
-
-      :ref:`troubleshooting_and_common_problems`
          General problem solving
 
    .. container:: tile
 
       `Bug Reports <https://kdenlive.org/en/bug-reports/>`__
          How to file a bug.
-
-   .. container:: tile
-
-      :ref:`faq`
-         Answers to questions frequently asked
 
    .. container:: tile
 
