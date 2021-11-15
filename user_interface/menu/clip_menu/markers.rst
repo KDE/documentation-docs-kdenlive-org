@@ -24,7 +24,7 @@ The items that appear as sub-menu items on the Clip>Markers menu item are ...
 Add Marker
 ----------
 
-Adds a marker to the clip at the curent timepoint.  Markers are properties of the clips in the project tree. So this action puts a marker in the clip in the project tree. 
+Adds a marker to the clip at the current timepoint.  Markers are properties of the clips in the project tree. So this action puts a marker in the clip in the project tree. 
 
 Edit Marker
 -----------
@@ -43,7 +43,7 @@ Markers are properties of the clips in the project tree. So this action removes 
 Delete All Markers
 ------------------
 
-Deletes all markers from the curent clip. Does not appear to work - get "Cannot find clip to remove marker"
+Deletes all markers from the current clip. Does not appear to work - get "Cannot find clip to remove marker"
 
 Go To marker ...
 ----------------
