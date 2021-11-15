@@ -136,4 +136,4 @@ Useful References
 -----------------
 
 * Wikipedia article on `alpha compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_, with a reference to the original Porter Duff SIGGRAPH’84 paper on «Compositing Digital Images».
-* the SVG Open 2015 paper by Craig Northway on `understanding compositing and color extensions in SVG 1.2 in 30 minutes! <http://www.svgopen.org/2005/papers/abstractsvgopen/>`_ – especially the Porter Duff operator table in chapter 6 with resulting alpha calculation column.
+* the SVG Open 2015 paper by Craig Northway on `understanding compositing and color extensions in SVG 1.2 in 30 minutes! <http://www.graphicalweb.org/2005/papers/abstractsvgopen/index.html>`_ – especially the Porter Duff operator table in chapter 6 with resulting alpha calculation column.
