@@ -1,0 +1,507 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-13 00:22+0000\n"
+"PO-Revision-Date: 2021-11-14 21:40+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: ../../glossary/useful_information/surround_sound.rst:13
+msgid "Editing Surround Sound with Kdenlive"
+msgstr ""
+"Редагування об'ємного звуку за допомогою Kdenlive"
+
+#: ../../glossary/useful_information/surround_sound.rst:15
+msgid "Contents"
+msgstr ""
+"Зміст"
+
+#: ../../glossary/useful_information/surround_sound.rst:17
+msgid "At the time of writing, **Kdenlive** only supports rendering a project to a video containing stereo audio. It is not possible to render to more audio channels or to explicitly map audio tracks to channels in the rendered audio. In order to edit and create surround sound, some manual steps, including external tools, are required."
+msgstr ""
+"На момент написання цього підручника у **Kdenlive** було передбачено підтримку обробки проєктів, у яких міститься лише стереозвук. У програмі не було передбачено можливості обробки більшої кількості каналів або явної прив'язки каналів у оброблених звукових даних. З метою редагування та створення об'ємного звуку слід було виконати декілька кроків вручну, зокрема з використанням сторонніх інструментів."
+
+#: ../../glossary/useful_information/surround_sound.rst:20
+msgid "This guide is using a 6 channel 5.1 surround sound as example."
+msgstr ""
+"У нашому підручнику для прикладу використано 6-канальний об'ємний звук формату 5.1."
+
+#: ../../glossary/useful_information/surround_sound.rst:24
+msgid "External Tools Used Here"
+msgstr ""
+"Зовнішні інструменти"
+
+#: ../../glossary/useful_information/surround_sound.rst:26
+msgid "`Audacity <http://audacity.sourceforge.net/>`_ - Free Audio Editor and Recorder"
+msgstr ""
+"`Audacity <http://audacity.sourceforge.net/>`_ — вільна програма для редагування і запису звуку"
+""
+
+#: ../../glossary/useful_information/surround_sound.rst:27
+msgid "`avconv <http://libav.org/avconv.html>`_ - A Video and Audio Converter"
+msgstr ""
+"`avconv <http://libav.org/avconv.html>`_ — програма для перетворення відео та звукових даних"
+
+#: ../../glossary/useful_information/surround_sound.rst:32
+msgid "Kdenlive uses ffmpeg, while on (k)ubuntu, ffmpeg is deprecated and avconv is used instead. So these (and possibly other) distributions already have avconv installed."
+msgstr ""
+"Kdenlive використовує ffmpeg, а у (k)ubuntu ffmpeg вважається застарілим і використовується avconv. Отже, у цих (і, можливо, інших) дистрибутивах вже встановлено avconv."
+
+#: ../../glossary/useful_information/surround_sound.rst:36
+msgid "Creating New Surround Sound"
+msgstr ""
+"Створення об'ємного звуку"
+
+#: ../../glossary/useful_information/surround_sound.rst:38
+msgid "This guide describes one possible workaround using **Audacity** to create and render a 5.1 surround sound audio track that can be added to the video rendered by **Kdenlive**."
+msgstr ""
+"У цьому підручнику описано один із можливих обхідних маневрів з використанням **Audacity** для створення та обробки звукової доріжки об'ємного звуку 5.1, який можна додати до відео, обробленого за допомогою **Kdenlive**."
+""
+
+#: ../../glossary/useful_information/surround_sound.rst:42
+msgid "More advanced features such as surround panning (i.e. let a sound move from rear to front) are beyond the capabilities of Audacity - but it is possible to create similar effects manually."
+msgstr ""
+"Ширші можливості, зокрема об'ємне панорамування (тобто рух звуку ззаду вперед), є недоступними для Audacity, але ці ефекти можна створити вручну."
+
+#: ../../glossary/useful_information/surround_sound.rst:46
+msgid "Create and Edit Surround Sound with Audacity"
+msgstr ""
+"Створення і редагування об'ємного звуку за допомогою Audacity"
+
+#: ../../glossary/useful_information/surround_sound.rst:48
+msgid "The following example of a simple 5.1 surround sound is used in this guide:"
+msgstr ""
+"У наведеному нижче прикладі використано простий об'ємний звук 5.1:"
+
+#: ../../glossary/useful_information/surround_sound.rst:51
+msgid "Some original field recording from the front (stereo)"
+msgstr ""
+"Якийсь оригінальний польовий запис спереду (стерео)"
+
+#: ../../glossary/useful_information/surround_sound.rst:53
+msgid "Some voice from the (front) center (mono)"
+msgstr ""
+"Якісь голосові дані (спереду) по центру (моно)"
+
+#: ../../glossary/useful_information/surround_sound.rst:55
+msgid "Some music from the rear (stereo)"
+msgstr ""
+"Якась музика ззаду (стерео)"
+
+#: ../../glossary/useful_information/surround_sound.rst:58
+msgid "If, like in this example, some original field recording from a video clip is supposed to be used to create the surround sound audio track, it can be easily extracted using Kdenlive with :menuselection:`Extract Audio --> Wav 48000Hz` from the context menu of the clip. This creates a WAV audio file in the same folder where the video clip is located."
+msgstr ""
+"Якщо, як у нашому прикладі, якусь із частин записаного матеріалу з відеокліпу слід використати для створення доріжки об'ємного звуку, її можна без проблем видобути за допомогою Kdenlive, скориставшись пунктом :menuselection:`Видобути звук --> Wav 48000Hz` контекстного меню кліпу. У результаті буде створено файл звукових даних WAV у тій самій теці, де зберігається файл відеокліпу."
+""
+
+#: ../../glossary/useful_information/surround_sound.rst:60
+msgid "The audio clips to be used in this example are:"
+msgstr ""
+"Звукові кліпи, які використано у цьому прикладі:"
+
+#: ../../glossary/useful_information/surround_sound.rst:63
+msgid ":file:`Field.wav` (stereo) for Front L+R"
+msgstr ""
+":file:`Field.wav` (стерео) для передніх лівого і правого каналів"
+""
+
+#: ../../glossary/useful_information/surround_sound.rst:65
+msgid ":file:`Voice.wav` (mono) for Center"
+msgstr ""
+":file:`Voice.wav` (моно) для центрального каналу"
+
+#: ../../glossary/useful_information/surround_sound.rst:67
+msgid ":file:`Music.mp3` (stereo) for Surround L+R (rear)"
+msgstr ""
+":file:`Music.mp3` (стерео) для об'ємного звуку лівого і правого каналів (ззаду)"
+
+#: ../../glossary/useful_information/surround_sound.rst:70
+msgid "In a new Audacity project, they can be imported in the above order with :menuselection:`File --> Import --> Audio...`, the project should now look something like this:"
+msgstr ""
+"У новому проєкті Audacity їх можна імпортувати у вказаному вище порядку за допомогою пункту меню :menuselection:`Файл --> Імпорт --> Звукові дані...`. Проєкт після цього має виглядати десь так:"
+
+#: ../../glossary/useful_information/surround_sound.rst:76
+msgid "The channel mapping for 5.1 surround sound is:"
+msgstr ""
+"Прив'язка каналів для об'ємного звуку у форматі 5.1 є такою:"
+
+#: ../../glossary/useful_information/surround_sound.rst:79
+#: ../../glossary/useful_information/surround_sound.rst:198
+msgid "1 - Front Left"
+msgstr ""
+"1 — передній лівий"
+
+#: ../../glossary/useful_information/surround_sound.rst:82
+#: ../../glossary/useful_information/surround_sound.rst:200
+msgid "2 - Front Right"
+msgstr ""
+"2 — передній правий"
+
+#: ../../glossary/useful_information/surround_sound.rst:85
+#: ../../glossary/useful_information/surround_sound.rst:202
+msgid "3 - Center"
+msgstr ""
+"3 — центральний"
+
+#: ../../glossary/useful_information/surround_sound.rst:88
+#: ../../glossary/useful_information/surround_sound.rst:204
+msgid "4 - LFE"
+msgstr ""
+"4 — низькочастотні ефекти (LFE)"
+
+#: ../../glossary/useful_information/surround_sound.rst:91
+#: ../../glossary/useful_information/surround_sound.rst:206
+msgid "5 - Surround Left"
+msgstr ""
+"5 — об'ємний лівий"
+
+#: ../../glossary/useful_information/surround_sound.rst:94
+#: ../../glossary/useful_information/surround_sound.rst:208
+msgid "6 - Surround Right"
+msgstr ""
+"6 — об'ємний правий"
+
+#: ../../glossary/useful_information/surround_sound.rst:99
+#: ../../glossary/useful_information/surround_sound.rst:212
+msgid "LFE (Low Frequency Effects) is often referred to as \"subwoofer channel\", which is not quite correct. A surround sound speaker setup is perfectly valid without subwoofer. In this case the surround sound system will redirect the LFE channel to \"large\" speakers, usually the front speakers."
+msgstr ""
+"LFE (низькочастотні ефекти) часто називають «каналом сабвуфера», що не зовсім правильно. Налаштування гучномовців об'ємного звуку є ідеально коректною без сабвуфера. У цьому випадку звукова система об'ємного звуку переспрямовуватиме канал LFE до «більших» гучномовців, зазвичай гучномовців, які розташовано перед слухачем."
+
+#: ../../glossary/useful_information/surround_sound.rst:102
+msgid "The stereo track \"Field\" can now be mapped to Front L+R, \"Voice\" to Center and \"Music\" to Surround L+R. There is just one problem: the Surround (rear) speakers of a surround speaker system are usually \"small\" and not able to reproduce low frequencies. So it would be necessary to map the low frequency range of the \"Music\" track to the LFE channel, otherwise the music might sound a little \"thin\"."
+msgstr ""
+"Стереодоріжку «Field» тепер можна пов'язати із лівим і правим передніми каналами, «Voice» — із центральним каналом, а «Music» із лівим і правим каналами об'ємного звуку. Але є одна проблема: гучномовці об'ємного (заднього) звуку зазвичай є «малими» і не здатними до відтворення низьких частот. Тому необхідно пов'язати діапазон низьких частот доріжки «Music» із каналом LFE, інакше музичний супровід може видатися надто «тонким»."
+
+#: ../../glossary/useful_information/surround_sound.rst:105
+msgid "To do this, the \"Music\" track can simply be duplicated with :menuselection:`Edit --> Duplicate` after selecting it, and then :menuselection:`Split Stereo to Mono` from the context menu of the third track. Then one of the two mono tracks can be deleted; the other one can be renamed to \"LFE\"."
+msgstr ""
+"Щоб зробити це, можна просто здублювати доріжку «Music» за допомогою позначення цієї доріжки із наступним використанням пункту меню :menuselection:`Зміни --> Дублювати`. Потім слід скористатися пунктом :menuselection:`Розділити стерео на моно` з контекстного меню третьої доріжки. Далі, одну або дві монодоріжки можна вилучити. Доріжку, яка лишилася, можна перейменувати на «LFE»."
+
+#: ../../glossary/useful_information/surround_sound.rst:108
+msgid "Now the \"Equalization...\" effect could be used to cut off frequencies above around 100Hz from the \"LFE\" track, and reverse, cut off frequencies below around 100Hz from the \"Music\" track."
+msgstr ""
+"Тепер можна скористатися ефектом «Еквалайзер…» для обрізання частот понад приблизно 100 Гц з доріжки «LFE», і навпаки, відрізанням усіх частот, які є нижчими за приблизно 100 Гц на доріжці «Музика»."
+
+#: ../../glossary/useful_information/surround_sound.rst:113
+msgid "Creating technically perfect surround sound is a science all its own and thus beyond the scope of this guide - please refer to respective resources on the web for details."
+msgstr ""
+"Створення технічно ідеального об'ємного звуку є саме складною справою. Його опис не є предметом цього підручника. Будь ласка, зверніться до відповідних ресурсів у мережі, щоб дізнатися більше."
+
+#: ../../glossary/useful_information/surround_sound.rst:116
+msgid "What remains for now is to make sure that the surround sound track has the same length as the video track it should be added to. The video track used in this example has a length of 1:00 minute, so the lengths of the audio tracks in Audacity are adjusted accordingly:"
+msgstr ""
+"Лишилося дорівняти тривалість доріжки об'ємного звуку до тривалості відеодоріжки, до якої має бути додано звук. У нашому прикладі використано відеодоріжку тривалістю у 1:00 хвилину, тому тривалості звукових доріжок у Audacity відповідним чином скореговано:"
+
+#: ../../glossary/useful_information/surround_sound.rst:119
+msgid "The Audacity project should now look something like this:"
+msgstr ""
+"Проєкт Audacity після цього має виглядати десь так:"
+
+#: ../../glossary/useful_information/surround_sound.rst:125
+msgid "The next thing to do is to export the project to a multichannel 5.1 surround sound audio file. The format used here is AC-3 (Dolby Digital)."
+msgstr ""
+"Далі, слід експортувати проєкт до мультиканального файла звукових даних об'ємного звуку 5.1. У нашому прикладі ми використали формат AC-3 (Dolby Digital)."
+
+#: ../../glossary/useful_information/surround_sound.rst:128
+msgid "Before exporting, Audacity needs to be configured to allow exporting to a multichannel audio file: In :menuselection:`Edit --> Preferences`, under :menuselection:`Import/Export`, select \"Use custom mix (for example to export a 5.1 multichannel file)\"."
+msgstr ""
+"Перш ніж експортувати дані, Audacity слід налаштувати так, щоб програма змогла експортувати багатоканальний файл звукових даних: скористайтеся пунктом меню :menuselection:`Зміни --> Параметри`, на сторінці :menuselection:`Імпорт/Експорт` позначте «Використати нетиповий мікс»."
+
+#: ../../glossary/useful_information/surround_sound.rst:131
+#: ../../glossary/useful_information/surround_sound.rst:319
+msgid "The project can now be exported into a 5.1 surround sound audio file:"
+msgstr ""
+"Проєкт тепер можна експортувати до файла звукових даних у форматі об'ємного звуку 5.1:"
+
+#: ../../glossary/useful_information/surround_sound.rst:134
+#: ../../glossary/useful_information/surround_sound.rst:322
+msgid "Select :menuselection:`File --> Export...`"
+msgstr ""
+"Виберіть пункт меню :menuselection:`Файл --> Експортувати...`"
+
+#: ../../glossary/useful_information/surround_sound.rst:137
+#: ../../glossary/useful_information/surround_sound.rst:324
+msgid "Provide a name for \"Name\" and select \"AC3 Files (FFmpeg)\""
+msgstr ""
+"Вкажіть у полі «Назва» назву і виберіть формат «файли AC3 (FFmpeg)»"
+
+#: ../../glossary/useful_information/surround_sound.rst:140
+msgid "Click :guilabel:`Options...` and choose \"512 kbps\" as \"Bit Rate\""
+msgstr ""
+"Натисніть кнопку :guilabel:`Параметри...` і виберіть «512 кбіт/c» у полі «Бітова швидкість»"
+
+#: ../../glossary/useful_information/surround_sound.rst:143
+msgid "The \"Advanced Mixing Options\" dialog should show up. The number of \"Output Channels\" should be 6 and the channel mapping should already be correct:"
+msgstr ""
+"Має бути відкрито діалогове вікно «Додаткові параметри мікшування». Слід встановити кількість каналів 6, а прив'язка каналів вже має бути належною:"
+
+#: ../../glossary/useful_information/surround_sound.rst:149
+msgid "The result of the export should be an :file:`*.ac3` file which is playable with e.g. **VLC** or **Dragon Player**."
+msgstr ""
+"Результатом експортування має бути файл :file:`*.ac3`, який можна відтворити, наприклад, у **VLC** або **Програвачі Dragon**."
+
+#: ../../glossary/useful_information/surround_sound.rst:153
+#: ../../glossary/useful_information/surround_sound.rst:339
+msgid "Muxing Video and Audio Together"
+msgstr ""
+"Мікшування відео та звуку"
+
+#: ../../glossary/useful_information/surround_sound.rst:155
+msgid "The final step is to add the surround sound audio track to the video track, assuming the video was rendered without audio."
+msgstr ""
+"Останнім кроком є додавання звукової доріжки із об'ємним звуком до відеодоріжки. Ми припускаємо, що відео було оброблено без звуку."
+
+#: ../../glossary/useful_information/surround_sound.rst:160
+#: ../../glossary/useful_information/surround_sound.rst:347
+msgid "When muxing audio and video files into one file, the actual streams are just copied, and not transcoded. So there is no quality loss to either the audio or the video streams. Also, because the streams are just copied, muxing is very fast."
+msgstr ""
+"При мікшуванні звукових файлів та файлів відео до одного файла потоки даних просто копіюються без перекодування. Не відбувається втрати якості ні у звукових, ні у відеоданих. Крім того, оскільки потоки даних просто копіюються, мікшування відбувається дуже швидко."
+
+#: ../../glossary/useful_information/surround_sound.rst:163
+msgid "Assuming the video track was rendered to :file:`Video.mkv` and the surround sound was exported to :file:`5.1.ac3` the command to mux both to :file:`Video-5.1.mkv` with **avconv** would be:"
+msgstr ""
+"Припускаємо, що відеодоріжку було оброблено до файла :file:`Video.mkv`, а об'ємний звук було експортовано до файла :file:`5.1.ac3`. Тоді команда для мікшування обох цих файлів до файла :file:`Video-5.1.mkv` за допомогою програми **avconv** буде такою:"
+""
+
+#: ../../glossary/useful_information/surround_sound.rst:171
+#: ../../glossary/useful_information/surround_sound.rst:357
+msgid "The result should be an MKV video containing a Dolby Digital 5.1 surround sound audio track."
+msgstr ""
+"Результатом обробки має бути відео у форматі MKV, у якому міститиметься звукова доріжка із об'ємним звуком у форматі Dolby Digital 5.1."
+
+#: ../../glossary/useful_information/surround_sound.rst:175
+msgid "Editing Existing Surround Sound"
+msgstr ""
+"Редагування наявних даних об'ємного звуку"
+
+#: ../../glossary/useful_information/surround_sound.rst:177
+msgid "When adding a clip with more than two channels to a project, **Kdenlive** creates an audio thumbnail that correctly shows all audio channels:"
+msgstr ""
+"При додаванні до проєкту кліпу, у якому міститься більше двох каналів звукових даних, **Kdenlive** створює мініатюру звукових даних, яка правильно показує усі канали звукових даних:"
+
+#: ../../glossary/useful_information/surround_sound.rst:183
+msgid "The clip can be edited and (audio) effects applied to it, and all appears to work just fine - but once rendering the project, it turns out that the audio track in the resulting video file is 2 channels (stereo) only."
+msgstr ""
+"Кліп можна редагувати і застосовувати (звукові) ефекти. Здається, що все чудово, але під час обробки проєкту з'ясовується, що у відеофайлі результатів звукова доріжка містить лише 2 канали (стерео)."
+
+#: ../../glossary/useful_information/surround_sound.rst:186
+msgid "The following steps provide a manual workaround for this issue."
+msgstr ""
+"За допомогою наведених нижче кроків можна вручну обійти цю проблему."
+
+#: ../../glossary/useful_information/surround_sound.rst:190
+msgid "Extract and Split the Audio Track"
+msgstr ""
+"Видобування і відокремлення звукової доріжки"
+
+#: ../../glossary/useful_information/surround_sound.rst:192
+msgid "The first step is to extract the audio track from the video clip. This can be done in **Kdenlive** with :menuselection:`Extract Audio --> Wav 48000Hz` from the context menu of the clip. This creates a WAV audio file in the same folder as where the video clip is located."
+msgstr ""
+"Першим кроком є видобування звукової доріжки з відеокліпу. Зробити це можна за допомогою пункту контекстного меню кліпу **Kdenlive** :menuselection:`Видобути звук --> Wav 48000Hz`. У результаті буде створено файл звукових даних WAV у теці, де зберігається файл відеокліпу."
+
+#: ../../glossary/useful_information/surround_sound.rst:195
+msgid "The extracted WAV audio file can then be opened in **Audacity**, it should show all 6 channels, these are:"
+msgstr ""
+"Далі, видобутий файл звукових даних WAV можна відкрити в **Audacity**. Програма має показати усі 6 каналів, зокрема:"
+
+#: ../../glossary/useful_information/surround_sound.rst:215
+msgid "The idea now is to split the surround sound into four separate (stereo/mono) audio files that **Kdenlive** can handle:"
+msgstr ""
+"Ідея тепер полягає у тому, щоб розділити об'ємний звук на чотири окремих (стерео/моно) звукових файли, з якими може працювати **Kdenlive**:"
+
+#: ../../glossary/useful_information/surround_sound.rst:217
+#: ../../glossary/useful_information/surround_sound.rst:310
+msgid "Front (stereo)"
+msgstr ""
+"Передній (стерео)"
+
+#: ../../glossary/useful_information/surround_sound.rst:219
+#: ../../glossary/useful_information/surround_sound.rst:312
+msgid "Center (mono)"
+msgstr ""
+"Центральний (моно)"
+
+#: ../../glossary/useful_information/surround_sound.rst:221
+#: ../../glossary/useful_information/surround_sound.rst:314
+msgid "LFE (mono)"
+msgstr ""
+"LFE (моно)"
+
+#: ../../glossary/useful_information/surround_sound.rst:223
+#: ../../glossary/useful_information/surround_sound.rst:316
+msgid "Surround (stereo)"
+msgstr ""
+"Об'ємний (стерео)"
+
+#: ../../glossary/useful_information/surround_sound.rst:225
+msgid "First, Audacity needs to be configured to not always export to stereo audio files: In :menuselection:`Edit --> Preferences`, under :menuselection:`Import/Export`, select \"Use custom mix (for example to export a 5.1 multichannel file)\"."
+msgstr ""
+"Спочатку, Audacity слід налаштувати так, щоб програма не завжди експортувала файли звукових даних у форматі стерео: скористайтеся пунктом меню :menuselection:`Зміни --> Параметри`, на сторінці :menuselection:`Імпорт/Експорт` позначте «Використати нетиповий мікс»."
+
+#: ../../glossary/useful_information/surround_sound.rst:228
+msgid "Now, tracks 1+2 and 5+6 should be turned into stereo tracks by choosing :menuselection:`Make Stereo Track` from the context menu of the 1st and the 5th track, respectively. This should result in 4 tracks, two stereo and two mono."
+msgstr ""
+"Тепер, слід перетворити доріжки 1+2 та 5+6 у стереодоріжки за допомогою пункту :menuselection:`Створити стереодоріжку` з контекстного меню першої та п'ятої доріжки, відповідно. Маємо отримати 4 доріжки — дві стерео і дві моно."
+
+#: ../../glossary/useful_information/surround_sound.rst:231
+msgid "Next, the 4 tracks should be renamed to \"Front\", \"Center\", \"LFE\" and \"Surround\" starting from the top, using :menuselection:`Name...` from the context menu of each track."
+msgstr ""
+"Далі, ці чотири доріжки має бути перейменовано на «Front», «Center», «LFE» та «Surround», починаючи згори, за допомогою пункту :menuselection:`Назва...` контекстного меню кожної з доріжок."
+
+#: ../../glossary/useful_information/surround_sound.rst:234
+msgid "The tracks now look like this:"
+msgstr ""
+"Тепер доріжки виглядатимуть так:"
+
+#: ../../glossary/useful_information/surround_sound.rst:240
+msgid "After all this hard work, exporting the four tracks to four separate audio files is easy with :menuselection:`File --> Export --> Export Multiple...`. Use \"WAV\" as \"Export format\", the rest of the settings should already be okay: \"Split files based on: Tracks\" and \"Name files: Using Label/Track name\"."
+msgstr ""
+"Після виконання усієї цієї складної роботи експортування чотирьох доріжок до окремих файлів звукових даних є простим: достатньо скористатися пунктом меню :menuselection:`Файл --> Експорт --> Експортувати у декілька файлів...`. Виберіть формат «WAV» як «Формат». Потреби у зміні решти параметрів не має виникнути: «Розділити файли за принципом: Доріжки» і «Назви файлів: Використовується мітка/назва доріжки»."
+
+#: ../../glossary/useful_information/surround_sound.rst:243
+msgid "The \"Edit metadata\" dialog might pop up for each track. It is fine to just say :guilabel:`OK`. At the end there should be a confirmation dialog and four audio files should have been exported: :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` and :file:`Surround.wav`."
+msgstr ""
+"Для кожної доріжки має бути показано діалогове вікно «Редагувати метадані». Можна просто натиснути кнопку :guilabel:`Гаразд`. Наприкінці, має бути показано діалогове вікно підтвердження, а усі звукові дані має бути експортовано до таких файлів: :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` та :file:`Surround.wav`."
+
+#: ../../glossary/useful_information/surround_sound.rst:247
+msgid "Import Audio Tracks into Kdenlive"
+msgstr ""
+"Імпортування звукових доріжок до Kdenlive"
+
+#: ../../glossary/useful_information/surround_sound.rst:249
+msgid "The previously created audio files can now be added to the Kdenlive project using :menuselection:`Project --> Add Clip`."
+msgstr ""
+"Створені файли звукових даних тепер можна додати до проєкту Kdenlive за допомогою пункту меню :menuselection:`Проєкт --> Додати кліп`."
+
+#: ../../glossary/useful_information/surround_sound.rst:251
+msgid "Since there are only two audio tracks in a project by default, it is necessary to add two more using :menuselection:`Project --> Tracks --> Insert Track` before adding the four audio tracks to the timeline."
+msgstr ""
+"Оскільки типово у проєкті лише дві звукові доріжки, слід додати ще дві за допомогою пункту меню :menuselection:`Проєкт --> Доріжки --> Вставити доріжку`, перш ніж додавати чотири звукові доріжки на монтажний стіл."
+""
+
+#: ../../glossary/useful_information/surround_sound.rst:253
+msgid "The next thing to do is to group the four audio tracks with the video clip by selecting all of them and then choosing :menuselection:`Timeline --> Group Clips`."
+msgstr ""
+"Далі, слід згрупувати чотири звукових доріжки із відеокліпом, позначивши їх усі і вибравши пункт меню :menuselection:`Монтажний стіл --> Згрупувати кліпи`."
+
+#: ../../glossary/useful_information/surround_sound.rst:258
+msgid "Don't forget to mute the original audio track in the video clip if necessary!"
+msgstr ""
+"Не забудьте вимкнути початкову звукову доріжку у відеокліпі, якщо це потрібно!"
+
+#: ../../glossary/useful_information/surround_sound.rst:261
+msgid "The **Kdenlive** project should now be ready for the usual editing, like cutting clips and adding effects, and should look something like this:"
+msgstr ""
+"Тепер проєкт **Kdenlive** має бути готовим до звичайного редагування, зокрема вирізання кліпів та додавання ефектів. Проєкт має виглядати якось так:"
+
+#: ../../glossary/useful_information/surround_sound.rst:268
+msgid "Rendering the Project"
+msgstr ""
+"Обробка даних проєкту"
+
+#: ../../glossary/useful_information/surround_sound.rst:270
+msgid "Since it is not possible to render the project with a surround sound audio track, some manual steps are necessary to work around this."
+msgstr ""
+"Оскільки програма не вміє обробляти проєкти із звуковими доріжками із об'ємним звуком, доведеться виконати остаточну обробку вручну."
+
+#: ../../glossary/useful_information/surround_sound.rst:272
+msgid "First, the video track needs to be rendered without audio. This is simply done by rendering the project as it would normally be done, but without audio, by deselecting the \"Export audio\" checkbox."
+msgstr ""
+"Спочатку слід обробити відео без звуку. Зробити це просто: обробіть проєкт у звичайний спосіб, але зніміть позначку з пункту «Експортувати звук»."
+
+#: ../../glossary/useful_information/surround_sound.rst:274
+msgid "Then, each of the four surround sound audio tracks :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` and :file:`Surround.wav` needs to be rendered into a separate audio file. For each of them, do the following:"
+msgstr ""
+"Далі, кожну з чотирьох звукових доріжок об'ємного звуку, :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` та :file:`Surround.wav` має бути оброблено до окремого файла звукових даних. Для кожного з них виконайте такі дії:"
+
+#: ../../glossary/useful_information/surround_sound.rst:277
+msgid "Mute all other audio tracks"
+msgstr ""
+"Вимкніть усі інші звукові доріжки"
+
+#: ../../glossary/useful_information/surround_sound.rst:279
+msgid "Enter a respective file name for \"Output file\""
+msgstr ""
+"Вкажіть відповідну назву файла у полі «Вихідний файл»"
+
+#: ../../glossary/useful_information/surround_sound.rst:281
+msgid "Select :guilabel:`Audio only` as \"Destination\""
+msgstr ""
+"Виберіть :guilabel:`Лише звук` як «Призначення»"
+
+#: ../../glossary/useful_information/surround_sound.rst:283
+msgid "Select profile \"WAV 48000 KHz\""
+msgstr ""
+"Виберіть профіль «WAV 48000 кГц»"
+
+#: ../../glossary/useful_information/surround_sound.rst:285
+msgid "Make sure :guilabel:`Export audio` is checked"
+msgstr ""
+"Не забудьте позначити пункт :guilabel:`Експортувати звукові дані`"
+
+#: ../../glossary/useful_information/surround_sound.rst:292
+msgid "Unfortunately, the mono tracks :file:`Center.wav` and :file:`LFE.wav` are rendered as stereo tracks, and there seems to be no way to avoid this. But this can be handled later in Audacity."
+msgstr ""
+"На жаль, монодоріжки :file:`Center.wav` та :file:`LFE.wav` буде записано як стереодоріжки. Здається, уникнути цього не можна. Втім, з цим ми можемо впоратися згодом в Audacity."
+
+#: ../../glossary/useful_information/surround_sound.rst:296
+msgid "Compose a Surround Sound Audio File"
+msgstr ""
+"Компонування звукового файла із об'ємним звуком"
+
+#: ../../glossary/useful_information/surround_sound.rst:298
+msgid "Now the separate audio tracks rendered by **Kdenlive** need to be \"merged\" into a single multichannel 5.1 surround sound audio file. This is again done in Audacity:"
+msgstr ""
+"Тепер окремі звукові доріжки, які оброблено **Kdenlive** слід «об'єднати» до одного багатоканального файла звукових даних об'ємного звуку 5.1. Це, знову ж таки, можна зробити в Audacity:"
+
+#: ../../glossary/useful_information/surround_sound.rst:301
+msgid "Import :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` and :file:`Surround.wav` (in this order!) using :menuselection:`File --> Import --> Audio...`"
+msgstr ""
+"Імпортуйте :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` та :file:`Surround.wav` (саме у цьому порядку!) за допомогою пункту меню :menuselection:`Файл --> Імпорт --> Звукові дані...`"
+
+#: ../../glossary/useful_information/surround_sound.rst:304
+msgid "\"Center\" and \"LFE\" are now stereo, which is not what is needed. This can be fixed by selecting :menuselection:`Split Stereo to Mono` from the context menu of each track, and deleting one of the two resulting mono tracks."
+msgstr ""
+"«Center» і «LFE» є тепер стереодоріжками, але нам це не потрібно. Виправити помилку можна за допомогою пункту :menuselection:`Поділити стерео на моно` з контекстного меню кожної з доріжок. Далі слід вилучити одну з отриманих у результаті поділу монодоріжок."
+
+#: ../../glossary/useful_information/surround_sound.rst:307
+msgid "Eventually, there should be four tracks in the Audacity project:"
+msgstr ""
+"Врешті, у проєкті Audacity має з'явитися чотири доріжки:"
+
+#: ../../glossary/useful_information/surround_sound.rst:326
+msgid "Click :guilabel:`Options...` and choose :guilabel:`512 kbps` as \"Bit Rate\""
+msgstr ""
+"Натисніть кнопку :guilabel:`Параметри...` і виберіть :guilabel:`512 кбіт/c` у полі «Бітова швидкість»"
+
+#: ../../glossary/useful_information/surround_sound.rst:329
+msgid "The **Advanced Mixing Options** dialog should show up. The number of **Output Channels** should be 6 and the channel mapping should already be correct:"
+msgstr ""
+"Має бути відкрито діалогове вікно **Додаткові параметри мікшування**. Слід встановити кількість каналів 6, а прив'язка каналів вже має бути належною:"
+
+#: ../../glossary/useful_information/surround_sound.rst:335
+msgid "The result of the export should be an :file:`*.ac3` file which is playable with i.e. **VLC** or **Dragon Player**."
+msgstr ""
+"Результатом експортування має бути файл :file:`*ac3`, який можна відтворити, наприклад, у **VLC** або **Програвачі Dragon**."
+
+#: ../../glossary/useful_information/surround_sound.rst:342
+msgid "Since video and audio was rendered separately, both need to be multiplexed into a single file containing both the video and audio stream."
+msgstr ""
+"Оскільки відео і звук було оброблено окремо, дані слід змікшувати до одного файла, який міститиме дані відео та звукових потоків даних."
+
+#: ../../glossary/useful_information/surround_sound.rst:350
+msgid "Assuming the video track was rendered to :file:`Video.mkv` and the surround sound was exported to :file:`5.1.ac3`, the command to mux both to :file:`Video-5.1.mkv` with **avconv** would be:"
+msgstr ""
+"Припускаємо, що відеодоріжку було оброблено до файла :file:`Video.mkv`, а об'ємний звук було експортовано до файла :file:`5.1.ac3`. Тоді команда для мікшування обох цих файлів до файла :file:`Video-5.1.mkv` за допомогою програми **avconv** буде такою:"
+""
