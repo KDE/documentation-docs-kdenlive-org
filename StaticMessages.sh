@@ -39,7 +39,7 @@ function import_po_dirs # First parameter will be a path that will be a director
             mv $podir/$lang/*.po locale/$lang/LC_MESSAGES
             cd locale/$lang/LC_MESSAGES
             # Recreate the dir structure
-            find * -type f -exec bash -c 'new=$(echo "{}" | sed s#docs_kdenlive_org_##g | sed s#___#/#g); mkdir -p `dirname $new`; mv {} $new' \;
+            find * -type f -exec bash -c 'new=$(echo "{}" | sed s#docs_kdenlive_org_##g | sed s#___#/#g); mkdir -p `dirname $new`; mv "{}" $new' \;
             cd ../../..
             rm -rf $podir/$lang
         fi
