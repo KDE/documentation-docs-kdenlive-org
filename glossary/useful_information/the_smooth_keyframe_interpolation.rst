@@ -143,10 +143,10 @@ Make Flat Great Again
 
    Now, how do we get a flat top? Fortunately, that’s easy to achieve, as you can see from the screenshots.
 
-    1. first keyframe: smooth,
-    2. second keyframe: interpolated(!),
-    3. third keyframe: smooth,
-    4. forth keyframe: interpolated (albeit that does not really matter if there are no further keyframes).
+   1. first keyframe: smooth,
+   2. second keyframe: interpolated(!),
+   3. third keyframe: smooth,
+   4. forth keyframe: interpolated (albeit that does not really matter if there are no further keyframes).
 
    So great!
 
