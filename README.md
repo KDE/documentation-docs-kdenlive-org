@@ -1,9 +1,7 @@
-# (Unofficial) Documentation for Kdenlive
+# Official Documentation for Kdenlive
 
 [![Build Status](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/badge/icon)](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/)  
 [Link to Kdenlive Sphinx documentation](https://docs.kdenlive.org)
-  
-**IMPORTANT: This repository does NOT contain the official Kdenlive Documentation it is created for testing purposes. The official manual is located at <https://userbase.kde.org/Kdenlive/Manual>**
 
 Kdenlive documentation based on [Sphinx](https://www.sphinx-doc.org)
 
