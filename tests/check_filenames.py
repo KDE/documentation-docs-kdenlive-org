@@ -24,6 +24,20 @@ class TestFilenames(unittest.TestCase):
 
                 pass
 
+    def test_bracketsInFilename(self):
+        self.maxDiff = None
+        for dirpath, dirnames, filenames in os.walk(SRC_DIR):
+            for f in filenames:
+
+                # Filter out files
+                if not f.endswith('.rst'):
+                    continue
+
+                self.assertNotIn('(', f)
+                self.assertNotIn(')', f)
+
+                pass
+
 
 if __name__ == "__main__":
     unittest.main()
