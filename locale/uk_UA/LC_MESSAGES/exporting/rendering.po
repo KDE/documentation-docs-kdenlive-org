@@ -1,0 +1,153 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-13 00:22+0000\n"
+"PO-Revision-Date: 2021-11-15 21:50+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: ../../exporting/rendering.rst:20
+msgid "Rendering Using Guides and Rendering Scripts"
+msgstr ""
+"Обробка з використанням напрямних та скриптів обробки"
+
+#: ../../exporting/rendering.rst:22
+msgid "Contents"
+msgstr ""
+"Зміст"
+
+#: ../../exporting/rendering.rst:25
+msgid "Purpose"
+msgstr ""
+"Створення і використання скриптів обробки"
+
+#: ../../exporting/rendering.rst:27
+msgid "When editing video, time means everything. Especially how long it takes you to edit the clips, project, or footage you are working on. If you ever need to export sequences of your timeline separately, **Kdenlive** offers a great way to do this. You can set guides in your project that establish zones. You then can generate rendering scripts that will export these zones at a later date, during your sleep, or while you hunt and find food. Let's check out how to do this."
+msgstr ""
+"Під час редагування відео час вирішує все. Особливо важливим є те, наскільки тривалим для вас буде редагування кліпів, проекту або відзнятого матеріалу, над яким ви працюєте. Якщо у вас виникне потреба експортувати частини кліпів на лінійці запису окремо, у **Kdenlive** передбачено чудовий спосіб виконання цього завдання. Ви можете встановити у вашому проекті напрямні, які визначатимуть зони. Після цього ви можете створити скрипти обробки, які експортують ці зони колись пізніше, під час вашого сну або доки ви перехопите чогось їстівного. Нижче наведено настанови щодо того, як все це налаштувати."
+
+#: ../../exporting/rendering.rst:31
+msgid "Picking Sections with Guides"
+msgstr ""
+"Позначення частин напрямними"
+
+#: ../../exporting/rendering.rst:33
+msgid "Start by adding a clip into the timeline. I've added some retro footage about airplanes. Cool."
+msgstr ""
+"Почніть з додавання кліпу на лінійку запису. Автор цього підручника додав давній матеріал зі знятими літаками. Ось так!"
+
+#: ../../exporting/rendering.rst:41
+msgid "Next we want to add a guide for a specific section of the clip on the timeline. You can add a guide by selecting :menuselection:`Timeline` in the menu and then slide down to :menuselection:`Guides` and select :menuselection:`Add Guide` from the menu. Right clicking the top of the timeline also gives you the option :menuselection:`Add Guide`. If you want to, you can also edit the guides you have set by right clicking on the timeline."
+msgstr ""
+"Далі нам слід додати напрямну для певної частини кліпу на монтажному столі. Ви можете додати напрямну за допомогою меню :menuselection:`Монтажний стіл`: перейдіть до пункту :menuselection:`Напрямні` і виберіть пункт :menuselection:`Додати напрямну`. Якщо ви клацнете правою кнопкою миші у верхній частині монтажного стола, ви також зможете скористатися пунктом :menuselection:`Додати напрямну`. Якщо ви хочете, ви також можете змінити встановлені вами напрямні клацанням правою кнопкою миші на монтажному столі."
+
+#: ../../exporting/rendering.rst:50
+msgid "After selecting this option, a window appears giving you the *Position* of the guide and a field to add a comment. Labeling the guide won't hurt anyone, so I'll name my first guide the extraordinary *Section 1*. A dark blue line appears vertically down through the tracks on your timeline."
+msgstr ""
+"Після вибору цього пункту програма відкриє вікно з даними щодо *позиції* напрямної і полем додавання коментаря. Додавання мітки до напрямної може бути корисним, тому ми додамо для першої напрямної мітку *Розділ 1*. Після цього на місці напрямної буде показано темно-синю вертикальну лінію, яка проходитиме через усі доріжки на монтажному столі."
+
+#: ../../exporting/rendering.rst:58
+msgid "I'll add a few more guides and then we'll start rendering."
+msgstr ""
+"Додамо ще декілька напрямних, а потім розпочнемо обробку."
+
+#: ../../exporting/rendering.rst:65
+msgid "The screenshot shows the 6 guides I have put in my project. They chop up the existing clip as I want for my project (that hopefully will become the first hit retro-experimental film...). Now we can export scripts that, when executed, will render these  guide zones."
+msgstr ""
+"На знімку вікна показано 6 напрямних, які було додано до нашого проекту. Вони розрізають вже створений кліп потрібним чином для проекту (який може стати першим визначним ретро-експериментальним шедевром...). Тепер можна експортувати скрипт, який під час виконання обробить обмежені напрямними зони."
+
+#: ../../exporting/rendering.rst:69
+msgid "Generating Rendering Scripts"
+msgstr ""
+"Створення скриптів обробки"
+
+#: ../../exporting/rendering.rst:71
+msgid "Start by clicking on the :menuselection:`Render` button in your toolbar, the one with the red circle surrounded by a white and black ring. You can also select this by going to the :menuselection:`Project --> Render` menu (:kbd:`Ctrl + Return`)."
+msgstr ""
+"Почнемо з натискання кнопки :menuselection:`Обробити` на панелі інструментів, кнопки з червоним колом з намальованими навколо білим і чорним кільцями. Виконати цю дію можна також за допомогою пункту меню :menuselection:`Проєкт --> Обробити` (:kbd:`Ctrl + Enter`)."
+
+#: ../../exporting/rendering.rst:79
+msgid "The new window gives us many choices about how to render our video. Look at the bottom of the window. We need to select the :menuselection:`Guide Zone` option. Selecting this will allow us to render our project using the guides we made earlier. Be sure and name the output file to a unique name for each script we will create. Otherwise the scripts will overwrite the different guide zones and not do what you wanted."
+msgstr ""
+"За допомогою відкритого вікна ви отримаєте змогу налаштувати параметри обробки вашого відео. Зверніть увагу на нижню частину вікна. Нам потрібно вибрати пункт :menuselection:`Ділянка напрямних`. Вибір цього варіанта надасть нам змогу обробити наш проект на основі напрямних, створених нами раніше. Створіть файл виведення даних з унікальною назвою для кожного створеного вами скрипту. Якщо ви цього не зробите, скрипти перезаписуватимуть різні ділянки напрямних і не виконають поставленого вами перед ними завдання."
+""
+
+#: ../../exporting/rendering.rst:88
+msgid "We now can choose which guides will establish the regions of video we want to export using the pull down menus next to *From* and *to*. I'll cut out the *Beginning* and instead use *section 1* to *Section 1 End*, the guide names I defined earlier."
+msgstr ""
+"Тепер ви можете вибрати, які напрямні визначать ділянки відео, які слід експортувати за допомогою спадних меню поряд з мітками *Від* і *до*. Ми виріжемо *Початок* і скористаємося *розділ 1* до *Кінець розділу 1* (назви напрямних було визначено нами раніше)."
+
+#: ../../exporting/rendering.rst:97
+msgid "Now I can render this to a file or generate a script that will render this guide zone to a file. Click :menuselection:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in :file:`/yourhomedirectory/kdenlive/scripts`"
+msgstr ""
+"Тепер ми можемо обробити дані до файла або створити скрипт, який обробить цю ділянку напрямних до файла. Натисніть кнопку :menuselection:`Створити скрипт`, у відповідь з’явиться меню, у якому програма попросить вас вказати назву скрипту. **Kdenlive** зберігає кліпи у :file:`/ваш_домашній_каталог/kdenlive/scripts`"
+
+#: ../../exporting/rendering.rst:105
+msgid "After saving the script, the top tab in the window switches to :menuselection:`Scripts`. This lists all the scripts you have generated for the current project."
+msgstr ""
+"Після збереження скрипту, напис на вкладці вікна буде змінено на :menuselection:`Скрипти`. На ній буде показано список всіх скриптів, які було створено вами у поточному проєкті."
+""
+
+#: ../../exporting/rendering.rst:114
+msgid "I went ahead and generated 3 scripts based on the guide zones I set up in my timeline. Be sure and keep the :file:`.sh` extension otherwise the rendering script will not be generated."
+msgstr ""
+"Нами було створено 3 скрипти на основі ділянок напрямних, створених на монтажному столі. Скрипти слід зберегти у файлах з суфіксами назв :file:`.sh`, інакше скрипт обробки не буде створено."
+
+#: ../../exporting/rendering.rst:118
+msgid "Starting Your Rendering Scripts"
+msgstr ""
+"Запуск ваших скриптів обробки"
+
+#: ../../exporting/rendering.rst:120
+msgid "Once each script is generated, you need to start each one. You should be in the script tab and see your scripts listed. Start the process by selecting the script and clicking the :menuselection:`Start Script` button. Do this for each script."
+msgstr ""
+"Після створення кожного скрипту його слід запустити. Вам слід перейти на вкладку скриптів, на якій буде показано список ваших скриптів. Запустіть процес позначенням скрипту у списку з наступним натисканням кнопки :menuselection:`Виконати скрипт`. Запустіть всі скрипти один за одним."
+
+#: ../../exporting/rendering.rst:129
+msgid "After clicking each script, you are switched to the *Job Queue* tab. Here you will see what script is being run and how many more are waiting to be run. If you have a large queue, you can take advantage of the nifty checkbox in the bottom left: :menuselection:`Shutdown computer after renderings`."
+msgstr ""
+"Після натискання кожного з пунктів скриптів ви перейдете на вкладку *Черга завдань*. За допомогою цієї вкладки ви зможете спостерігати за тим, який скрипт виконується і скільки скриптів ще має бути виконано. Якщо черга буде довгою, ви зможете скористатися пунктом ліворуч у нижній частині вікна: :menuselection:`Після завершення обробки вимкнути комп’ютер`."
+
+#: ../../exporting/rendering.rst:133
+msgid "Starting Your Rendering Scripts in a Command Line Terminal"
+msgstr ""
+"Запуск скриптів обробки з термінала командного рядка"
+
+#: ../../exporting/rendering.rst:135
+msgid "For troubleshooting purposes there could be times that you want to run the render script in a terminal prompt.  Rendering in the terminal can produce error logging information that can assist in debugging rendering issues."
+msgstr ""
+"Для визначення причин проблем у роботі програми іноді буває корисним запустити скрипт обробки з термінала. Обробка у терміналі може надати дані із повідомленнями про помилку, які допоможуть усунути проблеми із обробкою відео."
+
+#: ../../exporting/rendering.rst:138
+msgid "To render the video in the terminal ... * Note the location where **Kdenlive** has saved the .sh script (see Figure 8) * Open a terminal and change directories to the location of the .sh script * execute the .sh script"
+msgstr ""
+"Щоб виконати обробку відео у терміналі…"
+"Визначте місце, у якому **Kdenlive** зберігає скрипт .sh (див. Рис. 8)"
+"Відкрийте термінал і перейдіть до каталогу, до якого збережено скрипт .sh"
+"Запустіть скрипт .sh"
+
+#: ../../exporting/rendering.rst:150
+msgid "or"
+msgstr ""
+"або"
+
+#: ../../exporting/rendering.rst:158
+msgid "Summary"
+msgstr ""
+"Підсумки"
+
+#: ../../exporting/rendering.rst:160
+msgid "Creating guides can help organize your project while you work on it and when you share it with the world. You can use guides to keep track of areas or to generate rendering scripts that will do the mundane task for you. This feature makes exporting sections of your project quite easy. There are also other ways to take advantage of rendering sections and guide zones using guides. Have fun. Explore!"
+msgstr ""
+"Створення напрямних може допомогти у впорядковуванні вашого проекту під час роботи над ним, після чого ви зможете поділитися результатами. Ви можете скористатися напрямними для визначення ділянок проекту або для створення скриптів обробки, які виконуватимуть ваші типові завдання. Напрямні роблять експортування розділів вашого проекту дуже простим. Існують і інші сфери використання напрямних для обробки розділів та визначення ділянок. Користуйтеся ними. Вивчайте їх!"
