@@ -376,7 +376,7 @@ Alphabetical List of Effects and Compositions
     - Video Effect
     - Misc
     - Contrast Adaptive Sharpen. (avfilter.cas)
-  * - :ref:`charcoal`
+  * - :ref:`charcoal_effect`
     - Video Effect
     - Stylize
     - Charcoal drawing effect (charcoal)
@@ -384,11 +384,11 @@ Alphabetical List of Effects and Compositions
     - Audio Effect
     - Steve Harris’ SWH plugins
     - LADSPA plugin (ladspa.1430)
-  * - :ref:`chroma_hold`
+  * - :ref:`chroma_hold_effect`
     - Video Effect
     - Color and Image correction
     - Make image greyscale except for chosen color (chroma_hold)
-  * - :ref:`chroma_hold`
+  * - chromahold
     - Video Effect
     - Color and Image correction
     - Removes all color information for all colors except for a certain one. (avfilter.chromahold)
@@ -824,11 +824,11 @@ Alphabetical List of Effects and Compositions
     - Audio Effect
     - Audio Correction
     - Adjust the audio volume without keyframes (volume)
-  * - :ref:`gamma`
+  * - Gamma
     - Video Effect
     - Color and Image correction
     - Adjusts the gamma value of a source image (frei0r.gamma)
-  * - :ref:`gamma`
+  * - :ref:`gamma_effect`
     - Video Effect
     - Color and Image correction
     - Change gamma color value (gamma)
@@ -904,7 +904,7 @@ Alphabetical List of Effects and Compositions
     - Compositions
     -
     - Perform an RGB[A] grain-merge operation between the pixel sources. (frei0r.grain_merge)
-  * - :ref:`greyscale`
+  * - :ref:`greyscale_effect`
     - Video Effect
     - Color and Image correction
     - Discord color infomration (greyscale)
@@ -988,11 +988,11 @@ Alphabetical List of Effects and Compositions
     - Video Effect
     - Image Adjustment
     - Deinterleave or interleave fields (avfilter.il)
-  * - :ref:`invert`
+  * - Invert
     - Video Effect
     - Color and Image correction
     - AllNegate (invert) the input video. (avfilter.negate)
-  * - :ref:`invert`
+  * - :ref:`invert_effect`
     - Video Effect
     - Color and Image correction
     - Invert colors (invert)
@@ -1056,7 +1056,7 @@ Alphabetical List of Effects and Compositions
     - Audio Effect
     - Steve Harris’ SWH plugins
     - LADSPA plugin (ladspa 1217)
-  * - :ref:`lift_gamma_gain`
+  * - :ref:`lift_gamma_gain_effect`
     - Video Effect
     - Color Correction
     -
@@ -1140,7 +1140,7 @@ Alphabetical List of Effects and Compositions
     - Video Effect
     - Deprecated
     - Implements several median-type filters (frei0r.medians)
-  * - :ref:`mirror`
+  * - :ref:`mirror_effect`
     - Video Effect
     - Transform, Distort and Perspective
     - Flip your image in any direction (mirror)
@@ -1220,11 +1220,11 @@ Alphabetical List of Effects and Compositions
     - Video Effect
     - Transform, Distort and Perspective
     - Broken TV (frei0r.nosync0r)
-  * - :ref:`obscure`
+  * - :ref:`obscure_effect`
     - Video Effect
     - Blur and Hide
     -
-  * - :ref:`oldfilm`
+  * - :ref:`oldfilm_effect`
     - Video Effect
     - Stylize
     - Moves the Picture up and down and random brightness change (oldfilm)
@@ -1440,7 +1440,7 @@ Alphabetical List of Effects and Compositions
     - Audio Effect
     - Steve Harris’ SWH plugins
     - LADSPA plugin (ladspa 1883)
-  * - :ref:`sepia`
+  * - :ref:`sepia_effect`
     - Video Effect
     - Color and Image correction
     - Turn clip colors to sepia (sepia)
@@ -1768,7 +1768,7 @@ Alphabetical List of Effects and Compositions
     - Compositions
     -
     - Uses Input 1 as a UV  Map to distort Input 2 (frei0r.uvmap)
-  * - :ref:`threshold`
+  * - :ref:`threshold_effect`
     - Video Effect
     - Stylize
     - Thresholds a source image (frei0r.threshold0r)
@@ -1924,7 +1924,7 @@ Alphabetical List of Effects and Compositions
     - Audio Effect
     - Steve Harris’ SWH plugins
     - LADSPA plugin (ladspa.1905)
-  * - :ref:`wave`
+  * - :ref:`wave_effect`
     - Video Effect
     - Deprecated
     - Makes waves on your clip with keyframes (wave)

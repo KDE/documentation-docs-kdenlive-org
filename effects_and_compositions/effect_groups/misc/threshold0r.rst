@@ -22,5 +22,5 @@ https://youtu.be/Bx5frOYPlKU
 
 https://youtu.be/PWueJhFlHsg 
 
-Different to :ref:`threshold`.
+Different to :ref:`threshold_effect`.
 

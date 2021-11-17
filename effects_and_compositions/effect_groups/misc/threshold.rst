@@ -7,7 +7,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _threshold:
+.. _threshold_effect:
 
 Threshold
 =========

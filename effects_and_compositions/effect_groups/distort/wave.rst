@@ -7,7 +7,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _wave:
+.. _wave_effect:
 
 Wave
 ====

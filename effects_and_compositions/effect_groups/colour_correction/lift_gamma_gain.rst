@@ -4,7 +4,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _lift_gamma_gain:
+.. _lift_gamma_gain_effect:
 
 Lift/Gamma/Gain
 ===============

@@ -7,7 +7,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _chroma_hold:
+.. _chroma_hold_effect:
 
 Chroma Hold
 ===========

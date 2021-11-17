@@ -30,10 +30,10 @@ The effects that are in play on a given clip can be viewed and edited via the Pr
 You can also apply effects to an entire track. This is achieved by dragging an effect from the **Effect Tab** to the **Track Header**. Or you can click on the track header and chose the :menuselection:`Timeline --> Add Effect` menu item. Tracks which have effects added in this fashion will have a gold star icon in the track header.
 
 .. figure:: /images/Kdenlive_Effect_on_whole_track.png
-  :width: 100px
-  :alt: Kdenlive_Effect_on_whole_track
+   :width: 100px
+   :alt: Kdenlive_Effect_on_whole_track
 
-  Figure 1a. Track header showing star icon indicating an effect has been added to this track.
+   Figure 1a. Track header showing star icon indicating an effect has been added to this track.
 
 Effects Tab
 -----------
@@ -41,10 +41,10 @@ Effects Tab
 Make the Effects Tab visible use the :menuselection:`View --> Effects` menu item.
 
 .. figure:: /images/Kdenlive_Effects_tab_17_04.png
-  :width: 350px
-  :alt: Kdenlive_Effects_tab_17_04
+   :width: 350px
+   :alt: Kdenlive_Effects_tab_17_04
 
-  Figure 1b - effects tab. The Information icon (6) has been toggled so that the tab displays a brief description of the selected effect at the bottom
+   Figure 1b - effects tab. The Information icon (6) has been toggled so that the tab displays a brief description of the selected effect at the bottom
 
 The effects tab has 5 different icons that cause the application to show and hide different categories of effects.
 
@@ -88,14 +88,14 @@ Click the eye icon shown at 2 to temporarily disable the effect and toggle the b
 Click the empty eye icon shown at 1 to re-enable a disabled effect and toggle the button to the state shown at 2.
 
 .. figure:: /images/Toggle_effect_on_and_off.png
-  :alt: Toggle_effect_on_and_off
+   :alt: Toggle_effect_on_and_off
 
-  Toggle effect on and off
+   Toggle effect on and off
 
 To remove an effect from a clip, click the trash can icon labelled 3 in the image below. The arrow labelled 1 minimizes the effect in the Properties Window. And the icon labelled 2 brings up the Properties Tab menu shown.
 
 .. image:: /images/Kdenlive_Effect_stack_icons2_17.04.png
-  :alt: Effect stack version 17.04
+   :alt: Effect stack version 17.04
 
 Reset Effect
 ~~~~~~~~~~~~
@@ -148,9 +148,9 @@ Working with keyframes in the effect stack
 The effect’s keyframe panel has new icons, improved keyframe grabbing and new functions like:
 
 .. image:: /images/Move-kf-to-cursor.gif
-  :width: 220px
-  :align: left
-  :alt: move-kf-to-cursor
+   :width: 220px
+   :align: left
+   :alt: move-kf-to-cursor
 
 1. Select the keyframe you want to move
 2. Move the cursor to the position where you want to move the keyframe to
@@ -185,19 +185,19 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
    :width: 220px
    :alt: kf-ctrl-select
 
-  Select keyframes with :kbd:`Ctrl + click`
+   Select keyframes with :kbd:`Ctrl + click`
 
 .. figure:: /images/Kf-rubber-select.gif
    :width: 220px
    :alt: kf-rubber-select
 
-  Rubber select select keyframes with :kbd:`Shift + click`
+   Rubber select select keyframes with :kbd:`Shift + click`
 
 .. figure:: /images/Multiple-kf-move.gif
    :width: 220px
    :alt: multiple-kf-move
 
-  Move multiple keyframes at once
+   Move multiple keyframes at once
 
 Exchange keyframes across effects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

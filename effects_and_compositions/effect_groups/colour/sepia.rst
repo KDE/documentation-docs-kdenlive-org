@@ -8,7 +8,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _sepia:
+.. _sepia_effect:
 
 Sepia
 =====

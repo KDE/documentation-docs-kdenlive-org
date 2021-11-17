@@ -7,7 +7,7 @@
 
 .. moved from https://kdenlive.org/en/project/kdenlive-transitions/   
 
-.. _kdenlive-transitions:
+.. _kdenlive_transitions:
 
 Kdenlive transitions
 ====================

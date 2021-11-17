@@ -10,7 +10,7 @@
 .. _insert_overwrite_advanced_timeline_editing:
 
 Insert and Overwrite: advanced timeline editing
-===========================================
+===============================================
 
 .. versionadded:: 15.12.0
 

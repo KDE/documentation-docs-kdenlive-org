@@ -8,14 +8,14 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _charcoal:
+.. _charcoal_effect:
 
 Charcoal
 ========
 
 .. contents::
 
-This is the `Charcoal <https://www.mltframework.org/plugins/FilterCharcoal/>`_ MLT filter.
+This is the `Charcoalx <https://www.mltframework.org/plugins/FilterCharcoal/>`_ MLT filter.
 
 Charcoal drawing effect.
 

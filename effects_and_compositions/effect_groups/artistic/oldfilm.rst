@@ -8,7 +8,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _oldfilm:
+.. _oldfilm_effect:
 
 Old Film
 ========
