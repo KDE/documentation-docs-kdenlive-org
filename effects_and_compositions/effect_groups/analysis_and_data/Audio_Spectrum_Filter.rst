@@ -14,7 +14,7 @@ Audio Spectrum Filter
 
 .. contents::
 
-
-This is the `audiospectrum filter <https://www.mltframework.org/plugins/FilterAudiospectrum/>`_ from MLT
+This is the `audiospectrum <https://www.mltframework.org/plugins/FilterAudiospectrum/>`_ MLT filter.
 
 It is a audio visualization filter that draws an audio spectrum on the image.
+

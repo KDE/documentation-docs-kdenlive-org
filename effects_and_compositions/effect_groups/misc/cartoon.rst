@@ -14,11 +14,9 @@ Cartoon
 
 .. contents::
 
+This is the `Frei0r cartoon <https://www.mltframework.org/plugins/FilterFrei0r-cartoon/>`_ MLT filter.
 
-`Frei0r-cartoon <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-cartoon>`_
-
-Cartoonify video, do a form of edge detect
+Cartoonify video, do a form of edge detect.
 
 https://youtu.be/92fI4znypEo
-
 

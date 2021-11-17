@@ -15,13 +15,11 @@ Obscure
 
 .. contents::
 
+See the `Obscure <https://www.mltframework.org/plugins/FilterObscure/>`_ MLT filter.
 
-`See obscure <http://www.mltframework.org/bin/view/MLT/FilterObscure>`_
-
-Hide a region of the clip
+Hide a region of the clip.
 
 https://youtu.be/NL8cBqJc-WU
 
 https://youtu.be/oIu9FQwVx0c
-
 

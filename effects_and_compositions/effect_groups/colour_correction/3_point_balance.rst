@@ -15,9 +15,7 @@
 
 .. contents::
 
-
-This is probably the `| FilterFrei0r-three_point_balance <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-three_point_balance>`_  MLT frame work filter
+This is the `Frei0r three_point_balance <https://www.mltframework.org/plugins/FilterFrei0r-three_point_balance/>`_ MLT filter.
 
 https://youtu.be/ZFhfTsl7St8
-
 

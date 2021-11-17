@@ -15,11 +15,9 @@ Invert
 
 .. contents::
 
-
-This is the `FilterInvert <http://www.mltframework.org/bin/view/MLT/FilterInvert|>`_  MLT frame work filter.
+This is the `Invert <https://www.mltframework.org/plugins/FilterInvert/>`_ MLT filter.
 
 Inverts colors.
 
 https://youtu.be/7jQt8xmdSzI
-
 

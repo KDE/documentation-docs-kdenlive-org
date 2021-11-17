@@ -12,15 +12,15 @@ alphaatop transition
 
 .. contents::
 
+This is the `Frei0r alphaatop <https://www.mltframework.org/plugins/TransitionFrei0r-alphaatop>`_ MLT transition.
 
-`Frei0r-alphaatop <http://www.mltframework.org/bin/view/MLT/TransitionFrei0r-alphaatop>`_
 The alpha ATOP operation.
 
 Yellow clip has a triangle alpha shape with min = 0 and max =618.
 
 Green clip has rectangle alpha shape with min=0 and max =1000
 
-alphaatop is the transition in between . 
-
+alphaatop is the transition in between.
 
 .. image:: /images/Kdenlive_Alphaatop.png
+

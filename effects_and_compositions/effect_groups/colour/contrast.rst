@@ -15,7 +15,7 @@ Contrast
 
 .. contents::
 
+This is the `Sox contrast <https://www.mltframework.org/plugins/FilterSox-contrast/>`_ MLT filter.
 
-This is probably the `FilterSox-contrast <http://www.mltframework.org/bin/view/MLT/FilterSox-contrast|>`_  MLT frame work filter.
-
+Process audio using a SoX effect.
 

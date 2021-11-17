@@ -15,15 +15,13 @@ Square Blur
 
 .. contents::
 
+This is the `Frei0r squareblur <https://www.mltframework.org/plugins/FilterFrei0r-squareblur/>`_ MLT filter.
 
-`Frei0r-squareblur <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-squareblur>`_
-
-Variable-size square blur
+Variable-size square blur.
 
 https://youtu.be/mNP3LTy7nao
 
 * Not 100% sure if this sample is Square Blur or Box Blur. The caption on this sample was translated from Spanish. Original Spanish was "Difuminar de cuadro"*
 
 https://youtu.be/dMJqPhO0DEQ
-
 

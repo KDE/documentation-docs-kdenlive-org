@@ -13,16 +13,15 @@ Medians
 
 .. contents::
 
-
 This filter implements several median type filters.
 
-INTRODUCTION
+INTRODUCTION:
 
 Median is a quite popular non-linear filter in image processing. Most often it is used to remove impulsive noise, like "salt &  pepper" noise, "dead" and "hot" pixels, dirt on film, etc. This is because it behaves kind of "inversely" compared to linear denoisers. The more a bad pixel stands out from the surrounding area, the bigger residual it will leave with a linear filter - but the more probably it will be eliminated by the median.
 
-The down side is that the median operation is quite slow. As an order-statistic filter, it is similar to sorting, that must be done for each pixel, so using a fast algorithm is very important. For the small medians, the algorithms of the type described in `this page <http://ndevilla.free.fr/median/median/src/optmed.c>`_ are used here, with some small modifications for a further slight improvement in speed. For the "Variable size" median, code from  [1]_  is used. The compound filters (ArceBI, ML3D, ML3dEX) are made according to the formulas given in the corresponding work<ref name="anil">`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.36.9618&amp;rep=rep1&amp;type=pdf>`_</ref>. For more info on median filtering see `Wikipedia article <http://en.wikipedia.org/wiki/Median_filter>`_.
+The down side is that the median operation is quite slow. As an order-statistic filter, it is similar to sorting, that must be done for each pixel, so using a fast algorithm is very important. For the small medians, the algorithms of the type described in `this page <http://ndevilla.free.fr/median/median/src/optmed.c>`_ are used here, with some small modifications for a further slight improvement in speed. For the "Variable size" median, code from  [1]_  is used. The compound filters (ArceBI, ML3D, ML3dEX) are made according to the formulas given in the corresponding work <ref name="anil">`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.36.9618&rep=rep1&type=pdf>`_</ref>. For more info on median filtering see `Wikipedia article <https://en.wikipedia.org/wiki/Median_filter>`_.
 
-IMPLEMENTED ALGORITHMS
+IMPLEMENTED ALGORITHMS:
 
 **Cross5**
   Median of the pixel with its top, bottom, left and right neighbor.
@@ -60,10 +59,11 @@ IMPLEMENTED ALGORITHMS
 PARAMETERS:
 
 **Type**
-  Selects one of the eleven algorithms
+  Selects one of the eleven algorithms.
 
 **Size**
   Only active when "VarSize" type is selected. Determines the size of the square area over which the median is taken.
 
 
-.. [1] Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF version <http://nomis80.org/ctmf.pdf>`_, `HTML version <http://nomis80.org/ctmf.html>`_
+.. [1] Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80.org/ctmf.html>`_
+

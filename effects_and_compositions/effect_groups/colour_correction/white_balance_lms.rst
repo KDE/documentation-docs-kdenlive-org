@@ -13,15 +13,13 @@ White Balance (LMS)
 
 .. contents::
 
+This is the `Frei0r colgate <https://www.mltframework.org/plugins/FilterFrei0r-colgate/>`_ MLT filter by Steiner H. Gunderson.
 
-This is the `frei0r.colgate <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-colgate>`_ filter from Steiner H. Gunderson.
-
-Do simple color correction, in a physically meaningful way
+Do simple color correction, in a physically meaningful way.
 
 * *Parameters:**
 
 Neutral Color: Choose a color from the source image that should be white.
 
 Color Temperature: Choose an output color temperature, if different from 6500 K.
-
 

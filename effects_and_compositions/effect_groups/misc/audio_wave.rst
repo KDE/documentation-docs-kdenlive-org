@@ -13,8 +13,7 @@ Audio Wave
 
 .. contents::
 
-
-This is the MLT filter `audiowave <http://www.mltframework.org/bin/view/MLT/FilterAudiowave>`_
+This is the `Audiowave <https://www.mltframework.org/plugins/FilterAudiowave/>`_ MLT filter.
 
 In ver 17.04 this is found in the  :ref:`analysis_and_data` category of Effects.
 
@@ -22,19 +21,14 @@ Display the audio waveform instead of the video. Author Dan Dennedy.
 
 This does not work alone on audio-only clips. It must have video to overwrite. A workaround is to apply this to a multi-track with a color generator. 
 
-
 .. image:: /images/Kdenlive_Audio_wave.png
-
 
 Overlaying the Wave
 -------------------
 
-
 This effect replaces the video. If you want the effect overlaying the video you can do something like shown below.
 
-
 .. image:: /images/Kdenlive_Audio_wave_overlayed.png
-
 
 Duplicate the video track on a track below the one with the Audio wave on it.
 

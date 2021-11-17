@@ -16,14 +16,11 @@ Motion
 
 .. contents::
 
- 
-
-
 * :ref:`freeze`
-
 
 .. toctree::
    :caption: Contents:
 
    motion/freeze
    motion/speed
+

@@ -6,18 +6,14 @@
 
 .. _oscilloscope:
 
-
 Oscilloscope
 ============
 
 .. contents::
 
+This is the `Frei0r pr0file <https://www.mltframework.org/plugins/FilterFrei0r-pr0file/>`_ MLT filter.
 
-This is `frei0r.pr0file <https://www.mltframework.org/plugins/FilterFrei0r-pr0file/>`_
-
-2D video oscilloscope
-
+2D video oscilloscope.
 
 .. image:: /images/Kdenlive_Ocilloscope.png
-
 

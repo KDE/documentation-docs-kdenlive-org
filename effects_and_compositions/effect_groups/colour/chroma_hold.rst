@@ -14,13 +14,11 @@ Chroma Hold
 
 .. contents::
 
-
-This is the `FilterChroma_hold <http://www.mltframework.org/bin/view/MLT/FilterChroma_hold|>`_  MLT frame work filter.
+This is the `Chroma_hold <https://www.mltframework.org/plugins/FilterChroma_hold/>`_ MLT filter.
 
 Makes image greyscale except for chosen color.
 
 https://youtu.be/XDJEzN4XEXo
 
 https://youtu.be/dXnFsOjS734
-
 

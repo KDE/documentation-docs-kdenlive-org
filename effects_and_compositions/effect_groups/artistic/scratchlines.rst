@@ -15,13 +15,11 @@ Scratchlines
 
 .. contents::
 
-
-This the `Lines <http://www.mltframework.org/bin/view/MLT/FilterLines>`_ MLT filter.
+This is the `Lines <https://www.mltframework.org/plugins/FilterLines/>`_ MLT filter.
 
 Adds scratch lines over the picture.
 
 https://youtu.be/F8gZhHDQQBE
 
 https://youtu.be/3laMxZBwqqY
-
 

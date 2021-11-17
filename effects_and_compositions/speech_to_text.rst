@@ -17,10 +17,6 @@
 
    :license: Creative Commons License SA 4.0
 
-
-
-
-
 .. _speech_to_text:
 
 Speech to text
@@ -32,37 +28,33 @@ Speech to text
 
    Speech to text doesn't work with version 21.04.2 due to vosk API issues. Use version 21.04.1 or 21.04.3 and later versions.
 
-
 Install Python
 ~~~~~~~~~~~~~~
 
-Python needs to be installed on your computer. Download it from here https://www.python.org/downloads/ for installation on your computer.  
-
+Python needs to be installed on your computer. Download it from here https://www.python.org/downloads/ for installation on your computer.
 
 Speech recognition requires the vosk and srt python modules
- 
--	On Linux open a terminal and put in and run: "pip3 install vosk;pip3 install srt".   
 
--	On Windows, you can download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download double click starts the installations.
-  
+- On Linux open a terminal and put in and run: "pip3 install vosk;pip3 install srt".
+
+- On Windows, you can download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download double click starts the installations.
+
 Install a language
 ~~~~~~~~~~~~~~~~~~
 
-Goto :menuselection:`Settings --> Configure Kdenlive --> Speech to Text` 
+Goto :menuselection:`Settings --> Configure Kdenlive --> Speech to Text`
 
 Click on the link to get a language model
 
 .. image:: /images/Speech-to-text_Download-link.png
    :alt: download link
 
-Drag &  drop the language you want from the vosk-model download page to the model window, and it will download and extract it for you.
+Drag & drop the language you want from the vosk-model download page to the model window, and it will download and extract it for you.
 
 .. image:: /images/Speech-to-text_Download-model.png
    :alt: download model
 
-
-If you have problems click on "Check configuration" button. 
-
+If you have problems click on "Check configuration" button.
 
 Speech recognition
 ~~~~~~~~~~~~~~~~~~
@@ -72,69 +64,49 @@ Speech recognition
 .. image:: /images/Speech-to-text_Subtitle.png
    :alt: Speech to text subtitle
 
-1.	Mark the timeline zone you want to recognize (adjust the blue line).
+1. Mark the timeline zone you want to recognize (adjust the blue line).
 
+2. Click on the "Speech recognition" icon.
 
-2.	Click on the "Speech recognition" icon.
+3. Choose the language.
 
+4. Choose how the selected zone should be applied.
 
-3.	Choose the language.
-
-
-4.	Choose how the selected zone should be applied.
-
-
-5.	Click "Process"
-
+5. Click "Process"
 
 The subtitle gets created and inserted automatically.
 
-
 Remark: Only timeline zone is implemented for now in automatic subtitles.
 
-
-
 **Creating clips by speech recognition**
+
 This is useful for interviews and other speech-related footage.
 Enable :menuselection:`View --> Text Edit`
-
 
 .. image:: /images/Speech-to-text_Text-Edit.png
    :alt: Text edit
 
-
 Select a clip in the project bin.
 
+1. If needed set in/out point in the clip monitor and enable "selected zone only". This will only recognize the text inside the zone.
 
-1.	If needed set in/out point in the clip monitor and enable "selected zone only". This will only recognize the text inside the zone.
+2. Choose the correct language
 
+3. Click "start recognition"
 
-2.	Choose the correct language
+4. Selecting the text you want to either
 
+5. Put into the timeline
 
-3.	Click "start recognition"
+6. Save as a new clip
 
+7. Add a Bookmark. You can jump to these bookmarks in the timeline with :kbd:`alt + arrow` or edit the bookmark by double click.
 
-4.	Selecting the text you want to either
+8. Delete the selection.
 
+9. Here you can search in the text.
 
-5.	Put into the timeline
+10. And navigate up
 
-
-6.	Save as a new clip
-
-
-7.	Add a Bookmark. You can jump to these bookmarks in the timeline with :kbd:`alt + arrow` or edit the bookmark by double click.
-
-
-8.	Delete the selection.
-
-
-9.	Here you can search in the text.
-
-
-10.	And navigate up
-
-
-11.	Or down in the text.
+11. Or down in the text.
 

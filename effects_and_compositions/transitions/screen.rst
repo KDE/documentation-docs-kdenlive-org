@@ -14,22 +14,15 @@ Transitions - Screen
 
 .. contents::
 
+This is very much like :ref:`blue_screen` but it works with footage filmed against a black background.
 
-
-
-This is very much like  :ref:`blue_screen` but it works with footage filmed against a black background.
-
-Timeline showing how to apply the "Screen" transition
-
+Timeline showing how to apply the "Screen" transition.
 
 .. image:: /images/Kdenlive_Screen_effect.png
    :align: left
    :alt: Kdenlive_Screen_effect
 
-
 This video composites a video of fire filmed on a black background into another bit of footage using the *Screen* transition.
 
-
 https://youtu.be/GkFdHcf9jbY
-
 

@@ -7,11 +7,10 @@
 
 .. _baltan:
 
-
 Baltan
 ======
 
 .. contents::
 
-
 https://youtu.be/BBdcOCrEcC4
+

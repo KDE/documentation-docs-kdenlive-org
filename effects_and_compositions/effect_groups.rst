@@ -10,8 +10,6 @@
 Effect Groups
 #############
 
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

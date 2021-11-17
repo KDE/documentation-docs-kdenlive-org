@@ -14,13 +14,11 @@ twolay0r
 
 .. contents::
 
+This is the `Frei0r twolay0r <https://www.mltframework.org/plugins/FilterFrei0r-twolay0r/>`_ MLT filter.
 
-This is the `Frei0r-twolay0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-twolay0r>`_ filter.
-
-Dynamic thresholding
+Dynamic thresholding.
 
 https://youtu.be/yEPzS6AKFyo
 
 https://youtu.be/N9TpjQmVSyQ
-
 

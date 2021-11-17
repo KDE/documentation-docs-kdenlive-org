@@ -15,9 +15,7 @@ Primaries
 
 .. contents::
 
-
-This is probably the `FilterFrei0r-primaries <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-primaries|>`_  MLT frame work filter.
+This is the `Frei0r primaries <https://www.mltframework.org/plugins/FilterFrei0r-primaries/>`_ MLT filter.
 
 https://youtu.be/gjgQphzQZrQ
-
 

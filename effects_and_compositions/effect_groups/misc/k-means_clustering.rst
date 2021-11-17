@@ -14,13 +14,11 @@ K-Means Clustering
 
 .. contents::
 
-
-This is the `Frei0r cluster <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-cluster>`_ MLT filter.
+This is the `Frei0r cluster <https://www.mltframework.org/plugins/FilterFrei0r-cluster/>`_ MLT filter.
 
 Clusters of a source image by color and spatial distance
 
 https://youtu.be/a3Yz2xJWmN8
 
 https://youtu.be/qwTD__a5oqo
-
 

@@ -16,14 +16,9 @@ Edge Crop
 
 .. contents::
 
-
-This effect by Dan Dennedy trim the edges of a clip. 
-
-It changed its name from *Crop* to *Edge Crop* in ver 0.9.3 of **Kdenlive**
-
+This effect by Dan Dennedy trim the edges of a clip.
 
 .. image:: /images/EffectEdgeCropKdenlive20p08p2.png
   :align: center
   :alt: Edge Crop effect (Kdenlive 20.08.2)
-
 

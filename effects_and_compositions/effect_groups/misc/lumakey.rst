@@ -12,10 +12,9 @@ Lumakey Effect
 
 .. contents::
 
+Available in the Misc category of effects in version 15.n.
 
-Available in the Misc category of effects in version 15.n. 
-
-The Lumakey effect changes the clip's alpha channel.  To see its effect, you need a transition (like the Composite transition that is available in tracks) and another clip beneath.
-
+The Lumakey effect changes the clip's alpha channel. To see its effect, you need a transition (like the Composite transition that is available in tracks) and another clip beneath.
 
 .. image:: /images/Kdenlive_Lumakey.png
+

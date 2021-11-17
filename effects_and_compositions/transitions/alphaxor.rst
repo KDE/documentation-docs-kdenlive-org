@@ -12,26 +12,17 @@ alphaxor transtion
 
 .. contents::
 
+This is the `Frei0r alphaxor <http://www.mltframework.org/bin/view/MLT/TransitionFrei0r-alphaxor>`_ MLT transition.
 
-
-
-`Frei0r-alphaxor <http://www.mltframework.org/bin/view/MLT/TransitionFrei0r-alphaxor>`_
-
-
-The alpha XOR operation. 
-
+The alpha XOR operation.
 
 Yellow clip has a triangle alpha shape with min = 0 and max =618.
 
-
 Green clip has rectangle alpha shape with min=0 and max =1000
 
-
-alphaxor is the transition in between 
-
+alphaxor is the transition in between
 
 .. image:: /images/Kdenlive_Alphaxor.png
    :align: left
    :alt: alphaxor
-
 

@@ -15,14 +15,11 @@ Gamma
 
 .. contents::
 
-
-This is the `| FilterGamma <http://www.mltframework.org/bin/view/MLT/FilterGamma>`_  MLT frame work filter.
-
+This is the `Gamma <https://www.mltframework.org/plugins/FilterGamma/>`_ MLT filter.
 
 Changes gamma color value.
 
 https://youtu.be/bceEqjbt2XM
 
 https://youtu.be/v5KRzActKCQ
-
 

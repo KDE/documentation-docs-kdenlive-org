@@ -21,3 +21,4 @@ Color Correction
    :glob:
 
    colour_correction/*
+

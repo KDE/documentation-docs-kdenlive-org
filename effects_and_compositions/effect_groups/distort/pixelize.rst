@@ -14,13 +14,11 @@ Pixelize
 
 .. contents::
 
-
-This is the `Frei0r pixeliz0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-pixeliz0r>`_ MLT filter.
+This is the `Frei0r pixeliz0r <https://www.mltframework.org/plugins/FilterFrei0r-pixeliz0r/>`_ MLT filter.
 
 Pixelize input image.
 
 https://youtu.be/iFj1y1OES2Q
 
 https://youtu.be/jvuFSVGbVRg
-
 

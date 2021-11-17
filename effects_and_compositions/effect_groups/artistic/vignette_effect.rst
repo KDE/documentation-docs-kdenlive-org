@@ -15,12 +15,9 @@ Vignette Effect
 
 .. contents::
 
-
-This is the `Vignette <http://www.mltframework.org/bin/view/MLT/FilterVignette>`_ MLT filter.
+This is the `Vignette <https://www.mltframework.org/plugins/FilterVignette/>`_ MLT filter.
 
 Vignette around a point with adjustable smoothness, radius, position and transparency.
 
-
 https://youtu.be/FJrYRD6RzJ4
-
 

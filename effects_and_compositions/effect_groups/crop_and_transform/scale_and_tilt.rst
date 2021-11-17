@@ -15,16 +15,13 @@ Crop, Scale and Tilt
 
 .. contents::
 
+This effect was previously named as **Scale and Tilt** and **Crop, Scale and Position**.
 
-This effect was previously named as **Scale and Tilt** and  **Crop, Scale and Position** 
-
-This is the `Frei0r scale0tilt <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-scale0tilt>`_ MLT filter from Richard Spindler.
+This is the `Frei0r scale0tilt <https://www.mltframework.org/plugins/FilterFrei0r-scale0tilt/>`_ MLT filter from Richard Spindler.
 
 Scales, Tilts and Crops an Image
 
 https://youtu.be/WV4bocj7ygw
 
-
 See also :ref:`pan_and_zoom` which can do very similar things and may do them better.
-
 

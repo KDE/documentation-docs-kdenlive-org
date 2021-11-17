@@ -15,8 +15,7 @@ Box Blur
 
 .. contents::
 
-
-This is the `Boxblur <http://www.mltframework.org/bin/view/MLT/FilterBoxblur>`_ MLT filter.
+This is the `Boxblur <https://www.mltframework.org/plugins/FilterBoxblur/>`_ MLT filter.
 
 Separate horizontal and vertical blur.
 
@@ -27,5 +26,4 @@ https://youtu.be/MBO-STDoj_Y
 * Not 100% sure if this sample is Box Blur or Square Blur. The caption on this sample was translated from Spanish. Original Spanish was "Difuminar en cuadro".*
 
 https://youtu.be/0Q_BtThC-V0
-
 

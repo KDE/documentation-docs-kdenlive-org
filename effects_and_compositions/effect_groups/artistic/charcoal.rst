@@ -15,8 +15,7 @@ Charcoal
 
 .. contents::
 
-
-`FilterCharcoal <http://www.mltframework.org/bin/view/MLT/FilterCharcoal>`_
+This is the `Charcoal <https://www.mltframework.org/plugins/FilterCharcoal/>`_ MLT filter.
 
 Charcoal drawing effect.
 
@@ -25,5 +24,4 @@ https://youtu.be/fI1YrZcT26k
 https://youtu.be/1XpJCI6tHSc
 
 https://youtu.be/m-_MFMSb75w
-
 

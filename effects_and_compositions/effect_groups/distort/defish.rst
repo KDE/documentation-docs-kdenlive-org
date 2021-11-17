@@ -13,18 +13,15 @@ Defish
 
 .. contents::
 
-
 This effect can transform footage shot with a fisheye lens, to look like it was shot with a rectilinear lens, and vice versa. It can also be used to straighten the video that was shot with one of these wideangle converters, which are only slightly curvy, or with a semi-fisheye camera, like the GoPro hero.
 
-
 .. image:: /images/Kdenlive_Defish.png
-
 
 PARAMETERS
 ----------
 
-
 "Amount"
+
 Controls the amount of (de)distortion applied to the video. It controls the ratio of fisheye focal length to image half diagonal, but
 in an nonlinear inverse way, to make the control more "comfortable". It can be adjusted beyond "reasonable" values (which differ between the mapping function types), to produce some looney effects. When exploring this range, and the image disappears, check the scaling, could be that the image became too big or too small to see. For some unreasonable values the image might indeed disappear, when there are math overflows or imaginary results... (types 1 and 2 are more prone to image vanishing). Anyway, when working in the "special effect" range, it is always worth to try manual scaling. If the video contains zooming through a curvy wideangle adaptor, the needed amount will vary. In this case use keyframing.
 
@@ -33,6 +30,7 @@ in an nonlinear inverse way, to make the control more "comfortable". It can be a
 If checked, the transform direction is from fisheye to rectiliear, when not checked, it is rectilinear to fisheye.
 
 "Type"
+
 Selects the fisheye angular mapping function used, among four possibilities:
 
 * equidistant
@@ -43,6 +41,7 @@ Selects the fisheye angular mapping function used, among four possibilities:
 Wikipedia has a nice article about these.
 
 "Scaling"
+
 Select among three auto scaling options and manual scale:
 * scale to fill
 * keep center scale
@@ -70,6 +69,7 @@ Selects among seven different interpolators. This allows one to make a quality/s
 * Lanczos 16x16
 
 "Aspect Type"
+
 Selects among four pixel aspect ratio presets, and manual: To get the math right, Defish0r needs to know the pixel aspect
 ratio.
 
@@ -83,20 +83,17 @@ ratio.
 
 When "Aspect Type" is set to option manual variable, this control directly affects the pixel aspect ratio, from 0.5 to 2. Only has effect when "Aspect Type" is set to manual!
 
-
 SOME APPLICATION NOTES
 ----------------------
-
 
 1. Tweaking the parameters for best defish
 
 Take a shot of something like a brick wall or bathroom tiles, that has a lot of horizontal and vertical straight lines. Be careful to keep the optical axis as perpendicular as possible to the wall (=keep a maximally symmetrical image in the viewfinder). Use this
 image to tweak the parameters, primarily amount, type and aspect.
 
-
 2. Some examples of Defish0r abuse
 
-These were tried with PAL DV.  These examples work best, when there is some interesting action near the center of the image.
+These were tried with PAL DV. These examples work best, when there is some interesting action near the center of the image.
 
 For a kind of roundish kaleidoscope, try this:
 
@@ -120,3 +117,4 @@ Amount = 900,
 Defish = ON,
 Type = stereographic,
 Scaling = fill
+

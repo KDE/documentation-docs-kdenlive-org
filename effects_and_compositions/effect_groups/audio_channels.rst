@@ -18,15 +18,9 @@ Audio channels
 
 The :menuselection:`Audio channels` group in the Effect List has the following effects:
 
-
 * balance
-
 * copy_channels
-
 * mono_to_stereo_splitter
-
 * pan
-
 * swap_channels
-
 

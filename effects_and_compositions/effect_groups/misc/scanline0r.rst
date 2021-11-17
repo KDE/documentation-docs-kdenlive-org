@@ -15,12 +15,11 @@ scanline0r
 .. contents::
 
 
-This is the `Frei0r scanline0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-scanline0r>`_ MLT filter.
+This is the `Frei0r scanline0r <https://www.mltframework.org/plugins/FilterFrei0r-scanline0r/>`_ MLT filter.
 
-interlaced black lines
+interlaced black lines.
 
 https://youtu.be/nJ2TE4SdaJM
 
 https://youtu.be/St4P6Ziwmcw
-
 

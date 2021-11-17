@@ -11,5 +11,4 @@ Mono Amplifier
 
 .. contents::
 
-
-This is the LADSAP filter number `1048 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1048>`_
+This is the LADSAP filter number `1048 <https://www.mltframework.org/plugins/FilterLadspa-1048/>`_ from MLT.

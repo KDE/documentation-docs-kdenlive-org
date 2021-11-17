@@ -15,10 +15,9 @@ Greyscale
 
 .. contents::
 
+This is the `Greyscale <https://www.mltframework.org/plugins/FilterGreyscale/>`_ MLT filter.
 
-This is the `FilterGreyscale <http://www.mltframework.org/bin/view/MLT/FilterGreyscale|>`_  MLT frame work filter.
-
-Discards color information.
+Convert colour image to greyscale.
 
 https://youtu.be/5L9KTfJFw80
 

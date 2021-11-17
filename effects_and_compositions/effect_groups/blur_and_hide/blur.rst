@@ -11,10 +11,7 @@ Blur
 
 .. contents::
 
-
 Blurs the entire image.
 
-
 .. image:: /images/Kdenlive_Blur.png
-
 

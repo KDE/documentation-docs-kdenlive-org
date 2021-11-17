@@ -13,13 +13,13 @@ Delay grab effect
 
 .. contents::
 
-
 This effect is available from the misc group.
 
-"Delayed frame blitting mapped on a time bitmap" 
+This is the `Frei0r delaygrab <https://www.mltframework.org/plugins/FilterFrei0r-delaygrab/>`_ MLT filter by Bill Spinhover, Andreas Scheffler and Jaromil.
 
-This is the `frei0r.delaygrab <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-delaygrab>`_ MLT filter by Bill Spinhover, Andreas Scheffler and Jaromil 
+Delayed frame blitting mapped on a time bitmap.
 
 https://youtu.be/t6rsEdDiuAQ
 
 https://youtu.be/vh63RxHm8Lg
+

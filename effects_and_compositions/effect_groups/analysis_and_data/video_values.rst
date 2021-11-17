@@ -6,18 +6,14 @@
 
 .. _video_values:
 
-
 Video Values
 ============
 
 .. contents::
 
-
-This is `frei0r.pr0be <https://www.mltframework.org/plugins/FilterFrei0r-pr0be/>`_
+This is the `Frei0r pr0be <https://www.mltframework.org/plugins/FilterFrei0r-pr0be/>`_ MLT filter.
 
 Measures video values.
 
-
 .. image:: /images/Kdenlive_Video_Values.png
-
 

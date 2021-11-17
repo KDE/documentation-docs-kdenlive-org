@@ -15,13 +15,11 @@ Dust
 
 .. contents::
 
-
-`See dust filter <http://www.mltframework.org/bin/view/MLT/FilterDust>`_
+See `dust filter <https://www.mltframework.org/plugins/FilterDust/>`_ from MLT.
 
 Add dust and specks to the video clip, as in old movies.
 
 https://youtu.be/h0s0PBfpcEE
 
 https://youtu.be/wbX7Df8rC0M
-
 

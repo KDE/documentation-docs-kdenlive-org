@@ -12,7 +12,7 @@ Addition_alpha transition
 
 .. contents::
 
+This is the `Frei0r addition_alpha <https://www.mltframework.org/plugins/TransitionFrei0r-addition_alpha/>`_ MLT transition.
 
-`Frei0r-addition_alpha <http://www.mltframework.org/bin/view/MLT/TransitionFrei0r-addition_alpha>`_
+Perform an RGB[A] addition_alpha operation of the pixel sources.
 
-Perform an RGB[A] addition_alpha operation of the pixel sources

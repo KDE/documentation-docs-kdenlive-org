@@ -14,12 +14,7 @@ Distort - Corners
 
 .. contents::
 
-
 .. image:: /images/corners-intro.png
    :align: left
    :alt: corners intro
-
-
-See `ttill's blog <http://kdenlive.org/users/ttill/perspective-image-placement>`_
-
 

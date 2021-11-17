@@ -14,13 +14,11 @@ nosync0r
 
 .. contents::
 
+This is the `Frei0r nosync0r <https://www.mltframework.org/plugins/FilterFrei0r-nosync0r/>`_ MLT filter.
 
-This is the `Frei0r-nosync0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-nosync0r>`_ MLT filter
-
-Video looks like a broken TV with bottom half of picture on the top of screen
+Video looks like a broken TV with bottom half of picture on the top of screen.
 
 https://youtu.be/91lPpm1nMTk
 
 https://youtu.be/VO1Mele0lzU
-
 

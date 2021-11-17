@@ -14,12 +14,7 @@ Alpha gradient
 
 .. contents::
 
+This is the `Frei0r alphagrad <https://www.mltframework.org/plugins/FilterFrei0r-alphagrad/>`_ MLT filter, see also `Frei0r-alphagrad readme <https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme>`_ file.
 
-This is the `frei0r.alphagrad <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-alphagrad>`_ effect 
-
-
-see also `Frei0r-alphagrad readme <http://www.piksel.no/trac/browser/src/filter/alpha0ps/readme>`_ file.
-
-This effect fills the alpha channel with a gradient.
-
+Fills the alpha channel with a gradient.
 

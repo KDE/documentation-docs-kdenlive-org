@@ -15,8 +15,7 @@ Luminance
 
 .. contents::
 
-
-This is then `Frei0r luminance <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-luminance>`_ MLT filter.
+This is the `Frei0r luminance <https://www.mltframework.org/plugins/FilterFrei0r-luminance/>`_ MLT filter.
 
 Creates a luminance map of the image.
 
@@ -25,5 +24,4 @@ Moved to color section in ver 15.n
 https://youtu.be/2NlTk95kCY8
 
 https://youtu.be/0wiM77K-ENQ
-
 

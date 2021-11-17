@@ -17,7 +17,7 @@ Hue Shift
 .. contents::
 
 
-This is  the `FilterFrei0r-hueshift0r <https://www.mltframework.org/plugins/FilterFrei0r-hueshift0r/>`_  MLT frame work filter.
+This is the `Frei0r hueshift0r <https://www.mltframework.org/plugins/FilterFrei0r-hueshift0r/>`_ MLT filter.
 
 Shifts the hue of a source image.
 
@@ -26,5 +26,4 @@ https://youtu.be/Mq_G-AFznoc
 https://youtu.be/J7RCdP0-4Qs
 
 https://youtu.be/D9w-I8hb3kU
-
 

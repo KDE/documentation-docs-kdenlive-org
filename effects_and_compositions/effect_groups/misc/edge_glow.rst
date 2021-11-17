@@ -16,13 +16,11 @@ Edge Glow
 
 .. contents::
 
-
-`Frie0r edgeglow <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-edgeglow>`_
+This is the `Frie0r edgeglow <https://www.mltframework.org/plugins/FilterFrei0r-edgeglow/>`_ MLT filter.
 
 In version 15.n of Kdenlive this is in the Blur and Hide section.
 
 https://youtu.be/d0MvA_7VuJk
 
 https://youtu.be/Cl0Z8FXULbQ
-
 

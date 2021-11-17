@@ -18,16 +18,12 @@ Rectangular Alpha Mask
 
 .. contents::
 
-
 Previously known as Mask0Mate.
-This is `FilterFrei0r-mask0mate <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-mask0mate>`_ 
+This is the `Frei0r mask0mate <https://www.mltframework.org/plugins/FilterFrei0r-mask0mate/>`_ MLT filter.
 
-
-Creates an rectangular alpha-channel mask
-
+Creates an rectangular alpha-channel mask.
 
 .. image:: /images/Kdenlive_Mask0Mate.png
    :align: left
-   :alt: Mask0Mate 
-
+   :alt: Mask0Mate
 

@@ -14,13 +14,11 @@ Lens Correction
 
 .. contents::
 
-
-This is the `Frei0r-lenscorrection <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-lenscorrection>`_ MLT filter.
+This is the `Frei0r lenscorrection <https://www.mltframework.org/plugins/FilterFrei0r-lenscorrection/>`_ MLT filter.
 
 Allows compensation of lens distortion.
 
 https://youtu.be/axQdm482Uto
 
 https://youtu.be/cEwZzNRiVks
-
 

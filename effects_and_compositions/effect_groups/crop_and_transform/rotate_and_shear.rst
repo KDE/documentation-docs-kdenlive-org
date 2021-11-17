@@ -14,21 +14,17 @@ Rotate and Shear
 
 .. contents::
 
+This would appear to be the `Affine <https://www.mltframework.org/plugins/FilterAffine/>`_ MLT filter as defined in rotation.xml (/usr/share/kdenlive/effects/).
 
-This would appear to be the `Affine <http://www.mltframework.org/bin/view/MLT/FilterAffine>`_ MLT filter as defined in rotation.xml  (/usr/share/kde4/apps/kdenlive/effects)
-
-Rotate clip in any 3 directions
+Rotate clip in any 3 directions.
 
 This screen shot shows settings for Rotate and Shear that can correct wide-screen footage shot while holding the camera the wrong orientation.
 
-Do a rotate X of 900 units (the units are in tenths of a degree). You can also adjust the size with this  effect
-
+Do a rotate X of 900 units (the units are in tenths of a degree). You can also adjust the size with this effect.
 
 .. image:: /images/Kdenlive_Rotate_and_shear.png
    :align: left
    :alt: Kdenlive_Rotate_and_shear
 
-
 https://youtu.be/WadSGu05HAw
-
 

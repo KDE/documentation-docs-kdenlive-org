@@ -15,14 +15,13 @@ Analysis and Data - Vectorscope
 
 .. contents::
 
+This is the `Frei0r vectorscope <https://www.mltframework.org/plugins/FilterFrei0r-vectorscope/>`_ MLT filter.
 
-This is the `frei0r.vectorscope <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-vectorscope>`_ plugin.
+Displays the vectorscope of the video-data.
 
-Not to be confused with  :ref:`vectorscope` described on `Granjow's blog <http://kdenlive.org/users/granjow/introducing-color-scopes-vectorscope>`_
+In ver 17.04 this is found in the :ref:`analysis_and_data` category of Effects.
 
-In ver 17.04 this is found in the  :ref:`analysis_and_data` category of Effects.
-
-It is recommended to use the vectorscope from  :ref:`vectorscope`, because the effect  Analysis and Data - Vectorscope  is not correct - it uses a graticule from an analog NTSC vectorscope, but equations from digital video (Source: `this <http://www.kdenlive.org/forum/color-or-colour-correction-kdenlive-how-use-reference-chart-and-vectorscope-and-other-tools-eg#comment-20712>`_ forum post.)
+It is recommended to use the vectorscope from :ref:`vectorscope`, because the effect Analysis and Data - Vectorscope is not correct - it uses a graticule from an analog NTSC vectorscope, but equations from digital video.
 
 https://youtu.be/2ybBzDEjdRo
 

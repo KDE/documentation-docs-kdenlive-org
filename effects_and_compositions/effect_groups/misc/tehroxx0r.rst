@@ -15,8 +15,7 @@ tehroxx0r
 
 .. contents::
 
-
-This is the `Frei0r tehroxx0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-tehroxx0r>`_ filter.
+This is the `Frei0r tehroxx0r <https://www.mltframework.org/plugins/FilterFrei0r-tehroxx0r/>`_ MLT filter.
 
 Something videowall-ish.
 
@@ -27,5 +26,4 @@ This effect has one parameter – *interval* – with a range from zero to 1. Th
 https://youtu.be/qyv15F834h4
 
 https://youtu.be/ii47tIsYFHQ
-
 

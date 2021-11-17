@@ -11,12 +11,9 @@ cairoimagegrid
 
 .. contents::
 
-
-This effect creates a grid of copies of the video footage as shown in the screen shot
-
+This effect creates a grid of copies of the video footage as shown in the screen shot.
 
 .. image:: /images/Kdenlive_Cairoimagegrid.png
-
 
 You adjust the number of rows and columns in the image with the rows and columns parameters. These take decimal fractions from zero to 1. The maximum value of 1 means 20 rows or columns. 
 
@@ -27,3 +24,4 @@ In this eg
 rows = 0.1 ->  means (0.1 X 20) + 1 =  3 rows
 
 columns = 0.2 -> means (0.2 X 20) + 1 = 5  columns
+

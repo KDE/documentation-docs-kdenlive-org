@@ -14,11 +14,9 @@ Threshold
 
 .. contents::
 
+This is the `Threshold <https://www.mltframework.org/plugins/FilterThreshold/>`_ MLT filter.
 
-`This is the Threshold <http://www.mltframework.org/bin/view/MLT/FilterThreshold>`_ MLT filter
+Make monochrome clip.
 
-Make monochrome clip
-
-Different to :ref:`threshold0r`
-
+Different to :ref:`threshold0r`.
 

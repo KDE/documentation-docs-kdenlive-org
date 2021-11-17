@@ -14,9 +14,7 @@ Vignette
 
 .. contents::
 
+This is the `Frei0r vignette <https://www.mltframework.org/plugins/FilterFrei0r-vignette/>`_ MLT filter.
 
-This is the `Frei0r-vignette <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-vignette>`_ filter.
-
-Lens vignetting effect, applies natural vignetting
-
+Lens vignetting effect, applies natural vignetting.
 

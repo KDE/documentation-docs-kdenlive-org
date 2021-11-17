@@ -15,13 +15,11 @@ Old Film
 
 .. contents::
 
-
-`This is the OldFilm <http://www.mltframework.org/bin/view/MLT/FilterOldfilm>`_ MLT Filter.
+This is the `OldFilm <https://www.mltframework.org/plugins/FilterOldfilm/>`_ MLT filter.
 
 Moves the video up and down and adds random brightness changes, making it look like old film footage.
 
 https://youtu.be/0g1xDo-pwm0
 
 https://youtu.be/PuQTd6D2Y2Y
-
 

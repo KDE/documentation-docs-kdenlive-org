@@ -14,16 +14,13 @@ threshold0r
 
 .. contents::
 
-
-`This is the Frei0r-threshold0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-threshold0r>`_ filter
+This is the `Frei0r threshold0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-threshold0r>`_ MLT filter.
 
 Thresholds a source image.
-
 
 https://youtu.be/Bx5frOYPlKU
 
 https://youtu.be/PWueJhFlHsg 
 
-Different to :ref:`threshold`
-
+Different to :ref:`threshold`.
 

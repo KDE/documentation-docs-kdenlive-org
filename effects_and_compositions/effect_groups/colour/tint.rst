@@ -14,9 +14,7 @@ Tint
 
 .. contents::
 
-
-This is probably the `FilterFrei0r-tint0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-tint0r|>`_  MLT frame work filter.
+This is the `Frei0r tint0r <https://www.mltframework.org/plugins/FilterFrei0r-tint0r/>`_ MLT filter.
 
 https://youtu.be/kq7w1ZdS6GI
-
 

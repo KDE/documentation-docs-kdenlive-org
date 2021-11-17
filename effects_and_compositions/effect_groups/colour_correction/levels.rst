@@ -15,9 +15,7 @@ Levels
 
 .. contents::
 
+This is the `Frei0r levels <https://www.mltframework.org/plugins/FilterFrei0r-levels/>`_ MLT filter.
 
-This is probably the `| FilterFrei0r-levels <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-levels>`_  MLT frame work filter.
-
-https://youtu.be/iMbohQnyFV4 
-
+https://youtu.be/iMbohQnyFV4
 

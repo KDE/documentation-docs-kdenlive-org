@@ -14,11 +14,9 @@ Sobel
 
 .. contents::
 
-
-This is the `Frei0r sobel <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-sobel>`_ MLT Filter.
+This is the `Frei0r sobel <https://www.mltframework.org/plugins/FilterFrei0r-sobel/>`_ MLT filter.
 
 Sobel filter is an edge detection filter.
 
 https://youtu.be/sSlJovKEZJk
-
 

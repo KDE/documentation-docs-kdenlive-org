@@ -12,6 +12,7 @@ addition transition
 
 .. contents::
 
+This is the `Frei0r addition <https://www.mltframework.org/plugins/TransitionFrei0r-addition/>`_ MLT transition.
 
-`Frei0r-addition <http://www.mltframework.org/bin/view/MLT/TransitionFrei0r-addition>`_
 Perform an RGB[A] addition operation of the pixel sources.
+

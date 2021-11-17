@@ -18,11 +18,7 @@ Color
 
 .. contents::
 
-
-
-
 The Color group of effects contains the follow effects:
-
 
 .. toctree::
    :caption: Contents:
@@ -38,3 +34,4 @@ The Color group of effects contains the follow effects:
    colour/sepia
    colour/techicolor
    colour/tint
+

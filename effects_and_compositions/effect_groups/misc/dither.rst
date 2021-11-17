@@ -6,13 +6,10 @@
 
 .. _dither:
 
-
 Dither
 ======
 
 .. contents::
 
-
 .. image:: /images/Kdenlive_Dither.png
-
 

@@ -15,14 +15,11 @@ Glow
 
 .. contents::
 
-
-This the `Frei0r glow <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-glow>`_ MLT filter.
+This is the `Frei0r glow <https://www.mltframework.org/plugins/FilterFrei0r-glow/>`_ MLT filter.
 
 Creates a Glamorous Glow.
 
 https://youtu.be/vh4lrkFaVWc
 
-
 https://youtu.be/UtBWFrYN9kA
-
 

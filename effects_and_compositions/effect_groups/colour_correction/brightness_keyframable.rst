@@ -15,7 +15,5 @@ Brightness (keyframable)
 
 .. contents::
 
-
-This is probably the `| FilterBrightness <http://www.mltframework.org/bin/view/MLT/FilterBrightness>`_  MLT frame work filter
-
+This is the `Brightness <https://www.mltframework.org/plugins/FilterBrightness/>`_ MLT filter.
 

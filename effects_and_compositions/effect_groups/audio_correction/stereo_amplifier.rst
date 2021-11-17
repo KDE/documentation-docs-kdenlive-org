@@ -11,5 +11,5 @@ Stereo Amplifier
 
 .. contents::
 
+This is the LADSAP filter number `1049 <https://www.mltframework.org/plugins/FilterLadspa-1049/>`_ from MLT.
 
-This is the LADSAP filter number `1049 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1049>`_

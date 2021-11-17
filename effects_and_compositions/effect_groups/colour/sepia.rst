@@ -15,13 +15,11 @@ Sepia
 
 .. contents::
 
-
-This is the `FilterSepia <http://www.mltframework.org/bin/view/MLT/FilterSepia|>`_  MLT frame work filter.
+This is the `Sepia <https://www.mltframework.org/plugins/FilterSepia/>`_ MLT filter.
 
 Turns clip colors to sepia.
 
 https://youtu.be/gD5bJBJp79M
 
 https://youtu.be/wVFfb4E9ztQ
-
 

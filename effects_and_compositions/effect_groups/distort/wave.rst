@@ -14,13 +14,11 @@ Wave
 
 .. contents::
 
-
-`This is the Wave <http://www.mltframework.org/bin/view/MLT/FilterWave>`_ MLT filter
+This is the `Wave <https://www.mltframework.org/plugins/FilterWave/>`_ MLT filter.
 
 Make waves on your clip with keyframes.
 
 https://youtu.be/8VDzfR-q_sc
 
 https://youtu.be/KEijSvZ6vvc
-
 

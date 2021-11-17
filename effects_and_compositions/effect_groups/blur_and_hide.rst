@@ -21,3 +21,4 @@ Blur and Hide
    :glob:
 
    blur_and_hide/*
+

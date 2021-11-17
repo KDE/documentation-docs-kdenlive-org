@@ -15,20 +15,14 @@ Fade
 
 .. contents::
 
- 
-
-
-* :ref:`fade_from_black`  (video effect)
-
-* fade_in  (audio effect)
-
-* fade_out  (audio effect)
-
-* :ref:`fade_to_black`  (video effect)
-
+* :ref:`fade_from_black` (video effect)
+* fade_in (audio effect)
+* fade_out (audio effect)
+* :ref:`fade_to_black` (video effect)
 
 .. toctree::
    :caption: Contents:
    :glob:
 
    fade/*
+

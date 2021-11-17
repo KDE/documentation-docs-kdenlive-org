@@ -14,9 +14,7 @@ Technicolor
 
 .. contents::
 
-
-This is probably the `FilterTcolor <http://www.mltframework.org/bin/view/MLT/FilterTcolor|>`_  MLT frame work filter.
+This is the `Tcolor <https://www.mltframework.org/plugins/FilterTcolor/>`_ MLT filter.
 
 https://youtu.be/hDLp5IymciA 
-
 

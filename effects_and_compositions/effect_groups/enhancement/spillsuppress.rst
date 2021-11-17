@@ -6,12 +6,10 @@
 
 .. _spillsuppress:
 
-
 Spill Suppress
 ==============
 
 .. contents::
 
-
-Remove green or blue spill light from subjects shot in front of green or blue screen
+Remove green or blue spill light from subjects shot in front of green or blue screen.
 

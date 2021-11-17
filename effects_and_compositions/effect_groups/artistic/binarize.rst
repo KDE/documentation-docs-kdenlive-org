@@ -6,16 +6,12 @@
 
 .. _binarize:
 
-
 Binarize
 ========
 
 .. contents::
 
-
-Create a black and white image
-
+Create a black and white image.
 
 .. image:: /images/Kdenlive_Binarize.png
-
 

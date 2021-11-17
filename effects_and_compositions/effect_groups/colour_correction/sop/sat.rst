@@ -15,25 +15,22 @@ SOP/Sat Effect
 
 .. contents::
 
-
-This is the `FilterFrei0r-sopsat <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-sopsat>`_  MLT frame work filter.
-It changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List) `reference <http://en.wikipedia.org/wiki/ASC_CDL>`_
+This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/FilterFrei0r-sopsat/>`_  MLT framework filter.
+It changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/wiki/ASC_CDL>`_.
 
 Changing the slope means multiplying the pixel value with a constant value. Black pixels will remain black, whileas brighter ones will be changed. All effects can be observed well when applied on a greyscale gradient and looking at the RGB Parade monitor.
 
-You can use this effect to achieve proper white balance. 
-
+You can use this effect to achieve proper white balance.
 
 .. image:: /images/Kdenlive_SOP_sat_effect.png
    :align: left
    :alt: Kdenlive_SOP_sat_effect
 
+This filter implements a standard way of color correction proposed by the American Society of Cinematographers: The Color Decision List, also known as the ASC CDL.
 
-This filter implements a standard way of color correction proposed by the American Society of Cinematographers: The Color Decision List, also known as the ASC CDL
+More information about the ASC CDL can be found on `wikipedia <https://en.wikipedia.org/wiki/ASC_CDL>`_.
 
-More information about the ASC CDL can be found on `wikipedia <http://en.wikipedia.org/wiki/ASC_CDL>`_.
-
-The ASC CDL is a standard format for basic primary color correction (primary  meaning affecting the whole image and not only selected parts).
+The ASC CDL is a standard format for basic primary color correction (primary meaning affecting the whole image and not only selected parts).
 
 Basically there are two stages in the correction:
 1. SOP correction for each channel separately
@@ -54,6 +51,5 @@ All corrections work on [0,1], so the RGB(A) values need to be transposed from {
 
 As the values may exceed 1 (or 0), they need to be clamped where necessary.
 
-See `Granjow's blog <http://kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-parade>`_ where he uses the effect to adjust white balance of a clip.
-
+See `Granjow's blog <https://web.archive.org/web/20160319050009/https://kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-parade>`_ where he uses the effect to adjust white balance of a clip.
 

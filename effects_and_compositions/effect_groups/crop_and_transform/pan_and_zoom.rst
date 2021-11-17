@@ -17,21 +17,13 @@ Position and Zoom
 
 .. contents::
 
-
-
-
-Adjust size and position of clip using smooth affine transformations. Formerly known as "Pan and Zoom"
-
+Adjust size and position of clip using smooth affine transformations. Formerly known as "Pan and Zoom".
 
 In this example we have two keyframes in the pan and zoom, one at the beginning and one at the end. Size is 25% at the start keyframe and 100% at the end. The images are centered on the screen at both keyframes.
 
-
-
 https://youtu.be/0aSe1y6e4RE
 
-
-See also this :ref:`blue_screen` that describes how to use :
-
+See also this :ref:`blue_screen` that describes how to use:
 
 * Alpha Manipulation>:ref:`blue_screen`
 * :ref:`rotoscoping`
@@ -40,7 +32,5 @@ See also this :ref:`blue_screen` that describes how to use :
 * Enhancement>:ref:`sharpen`
 * Alpha Manipulation>:ref:`alpha_operations`
 
-
-`Tutorial: How to do pan and zoom with Kdenlive video editor -  Peter Thomson(YouTube) <https://youtu.be/B8ZPoWaxQrA>`_
-
+`Tutorial: How to do pan and zoom with Kdenlive video editor - Peter Thomson(YouTube) <https://youtu.be/B8ZPoWaxQrA>`_
 

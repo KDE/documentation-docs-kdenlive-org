@@ -15,11 +15,11 @@ Brightness
 
 .. contents::
 
+This is the `Frei0r brightness filter <https://www.mltframework.org/plugins/FilterFrei0r-brightness/>`_ MLT filter.
 
-This is the `| FilterFrei0r-brightness <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-brightness>`_  MLT frame work filter
+Adjusts the brightness of a source image.
 
 https://youtu.be/qDZVBPoaEzY
 
 https://youtu.be/t4SfVod5zCE
-
 

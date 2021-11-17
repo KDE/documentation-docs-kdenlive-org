@@ -17,366 +17,243 @@ Audio Effects
 
 .. contents::
 
+The following effects are available under the :menuselection:`Effects List --> Audio`. The links below are to the MLT framework documentation for these audio effects. Somewhat better documenation may be found at Steve Harris' LADSPA Plugin Docs `here <http://plugin.org.uk/ladspa-swh/docs/ladspa-swh.html>`_.https://www.mltframework.org/plugins/
 
+`4 x 4 pole allpass <https://www.mltframework.org/plugins/FilterLadspa-1218/>`_
 
+`Aliasing <https://www.mltframework.org/plugins/FilterLadspa-1407/>`_
 
-The following effects are available under the :menuselection:`Effects List --> Audio`.  The links below are to the MLT framework documentation for these audio effects.  Somewhat better documenation may be found at Steve Harris' LADSPA Plugin Docs `here <http://plugin.org.uk/ladspa-swh/docs/ladspa-swh.html>`_. 
+`Allpass delay line cubic spline interpolation <https://www.mltframework.org/plugins/FilterLadspa-1897/>`_
 
+`Allpass delay line linear interpolation <https://www.mltframework.org/plugins/FilterLadspa-1896/>`_
 
-`4 x 4 pole allpass <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1218>`_
+`Allpass delay line noninterpolating <https://www.mltframework.org/plugins/FilterLadspa-1895/>`_
 
+`AM pitchshifter <https://www.mltframework.org/plugins/FilterLadspa-1433/>`_
 
-`Aliasing <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1407>`_
+`Artificial latency <https://www.mltframework.org/plugins/FilterLadspa-1914/>`_
 
+`Audio Divider (Suboctave Generator) <https://www.mltframework.org/plugins/FilterLadspa-1186/>`_
 
-`Allpass delay line cubic spline interpolation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1897>`_
+`Audio Levels <https://www.mltframework.org/plugins/FilterAudiolevel/>`_
 
+`Audio Pan <https://www.mltframework.org/plugins/FilterPanner/>`_
 
-`Allpass delay line linear interpolation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1896>`_
+`Auto phaser <https://www.mltframework.org/plugins/FilterLadspa-1219/>`_
 
+`Barry's Satan Maximiser <https://www.mltframework.org/plugins/FilterLadspa-1408/>`_
 
-`Allpass delay line noninterpolating <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1895>`_
+`Bode frequency shifter <https://www.mltframework.org/plugins/FilterLadspa-1431/>`_
 
+`Bode frequency shifter (CV) <https://www.mltframework.org/plugins/FilterLadspa-1432/>`_
 
-`AM pitchshifter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1433>`_
+`Chebyshev distortion <https://www.mltframework.org/plugins/FilterLadspa-1430/>`_
 
+`Comb delay line cubic spline interpolation <https://www.mltframework.org/plugins/FilterLadspa-1888/>`_
 
-`Artificial latency <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1914>`_
+`Comb delay line linear interpolation <https://www.mltframework.org/plugins/FilterLadspa-1887/>`_
 
+`Comb delay line noninterpolating <https://www.mltframework.org/plugins/FilterLadspa-1889/>`_
 
-Audio Divider (Suboctave Generator)
-
-
-Audio Levels
-
-
-Audio Pan 
-
-
-`Auto phaser <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1219>`_
-
-
-`Barry's Satan Maximiser <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1408>`_
-
-
-`Bode frequency shifter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1431>`_
-
-
-`Bode frequency shifter (CV) <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1432>`_
-
-
-`Chebyshev distortion <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1430>`_
-
-
-`Comb delay line cubic spline interpolation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1888>`_
-
-
-`Comb delay line linear interpolation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1887>`_
-
-
-`Comb delay line noninterpolating <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1889>`_
-
-
-`Comb Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1190>`_
-
+`Comb Filter <https://www.mltframework.org/plugins/FilterLadspa-1190/>`_
 
 `Compand <https://www.mltframework.org/plugins/FilterAvfilter-compand/>`_
 
+`Constant Signal Generator <https://www.mltframework.org/plugins/FilterLadspa-1909/>`_
 
-`Constant Signal Generator <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1909>`_
+`Crossfade <https://www.mltframework.org/plugins/FilterLadspa-1915/>`_
 
+`Crossfade (4 outs) <https://www.mltframework.org/plugins/FilterLadspa-1917/>`_
 
-`Crossfade <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1915>`_
+`Crossover distortion <https://www.mltframework.org/plugins/FilterLadspa-1404/>`_
 
+`DC Offset Remover <https://www.mltframework.org/plugins/FilterLadspa-1207/>`_
 
-`Crossfade (4 outs) <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1917>`_
+`Decimator <https://www.mltframework.org/plugins/FilterLadspa-1202/>`_
 
+`Declipper <https://www.mltframework.org/plugins/FilterLadspa-1195/>`_
 
-`Crossover distortion <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1404>`_
+`Delayorama <https://www.mltframework.org/plugins/FilterLadspa-1402/>`_
 
+`Diode Processor <https://www.mltframework.org/plugins/FilterLadspa-1185/>`_
 
-`DC Offset Remover <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1207>`_
+`DJ EQ <https://www.mltframework.org/plugins/FilterLadspa-1901/>`_
 
+`DJ EQ (mono) <https://www.mltframework.org/plugins/FilterLadspa-1907/>`_
 
-`Decimator <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1202>`_
+`DJ flanger <https://www.mltframework.org/plugins/FilterLadspa-1438/>`_
 
+`Dyson compressor <https://www.mltframework.org/plugins/FilterLadspa-1403/>`_
 
-`Declipper <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1195>`_
+`Exponential signal decay <https://www.mltframework.org/plugins/FilterLadspa-1886/>`_
 
+`Fast overdrive <https://www.mltframework.org/plugins/FilterLadspa-1196/>`_
 
-`Delayorama <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1402>`_
+`Fast Lookahead limiter <https://www.mltframework.org/plugins/FilterLadspa-1913/>`_
 
+`Flanger <https://www.mltframework.org/plugins/FilterLadspa-1191/>`_
 
-`Diode Processor <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1185>`_
+`FM Oscillator <https://www.mltframework.org/plugins/FilterLadspa-1415/>`_
 
+`Foldover distortion <https://www.mltframework.org/plugins/FilterLadspa-1213/>`_
 
-`DJ EQ <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1901>`_
+`Fractionally Addressed Delay Line <https://www.mltframework.org/plugins/FilterLadspa-1192/>`_
 
+`Frequency tracker <https://www.mltframework.org/plugins/FilterLadspa-1418/>`_
 
-`DJ EQ (mono) <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1907>`_
+`Gate <https://www.mltframework.org/plugins/FilterLadspa-1410/>`_
 
+`Giant flange <https://www.mltframework.org/plugins/FilterLadspa-1437/>`_
 
-`DJ flanger <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1438>`_
+`Glame Bandpass Analog Filter <https://www.mltframework.org/plugins/FilterLadspa-1893/>`_
 
+`Glame Bandpass Filter <https://www.mltframework.org/plugins/FilterLadspa-1892/>`_
 
-`Dyson compressor <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1403>`_
+`GLAME Butterworth Highpass <https://www.mltframework.org/plugins/FilterLadspa-1904/>`_
 
+`GLAME Butterworth Lowpass <https://www.mltframework.org/plugins/FilterLadspa-1903/>`_
 
-`Exponential signal decay <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1886>`_
+`Glame Butterworth X-over Filter <https://www.mltframework.org/plugins/FilterLadspa-1902/>`_
 
+`Glame Highpass Filter <https://www.mltframework.org/plugins/FilterLadspa-1890/>`_
 
-`Fast overdrive <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1196>`_
+`Glame Lowpass Filter <https://www.mltframework.org/plugins/FilterLadspa-1891/>`_
 
+`Gong beater <https://www.mltframework.org/plugins/FilterLadspa-1439/>`_
 
-Fast Lookahead limiter
+`Gong model <https://www.mltframework.org/plugins/FilterLadspa-1424/>`_
 
+`GSM simulator <https://www.mltframework.org/plugins/FilterLadspa-1215/>`_
 
-`Flanger <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1191>`_
+`GVerb <https://www.mltframework.org/plugins/FilterLadspa-1216/>`_
 
+`Harmonic generator <https://www.mltframework.org/plugins/FilterLadspa-1220/>`_
 
-`FM Oscillator <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1415>`_
+`Hermes Filter <https://www.mltframework.org/plugins/FilterLadspa-1200/>`_
 
+`Higher Quality Pitch Scaler <https://www.mltframework.org/plugins/FilterLadspa-1194/>`_
 
-`Foldover distortion <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1213>`_
+`Hilbert transformer <https://www.mltframework.org/plugins/FilterLadspa-1440/>`_
 
+`Impulse convolver <https://www.mltframework.org/plugins/FilterLadspa-1199/>`_
 
-`Fractionally Addressed Delay Line <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1192>`_
+`Inverter <https://www.mltframework.org/plugins/FilterLadspa-1429/>`_
 
+`Karaoke <https://www.mltframework.org/plugins/FilterLadspa-1409/>`_
 
-`Frequency tracker <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1418>`_
+`L/C/R Delay <https://www.mltframework.org/plugins/FilterLadspa-1436/>`_
 
+`LFO Phaser <https://www.mltframework.org/plugins/FilterLadspa-1217/>`_
 
-`Gate <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1410>`_
+`LS Filter <https://www.mltframework.org/plugins/FilterLadspa-1908/>`_
 
+`Mag's Notch Filter <https://www.mltframework.org/plugins/FilterLadspa-1894/>`_
 
-`Giant flange <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1437>`_
+`Matrix Spatialiser <https://www.mltframework.org/plugins/FilterLadspa-1422/>`_
 
+`Matrix: MS to Stereo <https://www.mltframework.org/plugins/FilterLadspa-1421/>`_
 
-`Glame Bandpass Analog Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1893>`_
+`Matrix: Stereo to MS <https://www.mltframework.org/plugins/FilterLadspa-1420/>`_
 
+`Modulatable delay <https://www.mltframework.org/plugins/FilterLadspa-1419/>`_
 
-`Glame Bandpass Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1892>`_
+`Mono to stereo <https://www.mltframework.org/plugins/FilterLadspa-1406/>`_
 
+`Multiband EQ <https://www.mltframework.org/plugins/FilterLadspa-1197/>`_
 
-`GLAME Butterworth Highpass <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1904>`_
-
-
-`GLAME Butterworth Lowpass <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1903>`_
-
-
-`Glame Butterworth X-over Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1902>`_
-
-
-`Glame Highpass Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1890>`_
-
-
-`Glame Lowpass Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1891>`_
-
-
-`Gong beater <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1439>`_
-
-
-`Gong model <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1424>`_
-
-
-`GSM simulator <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1215>`_
-
-
-`GVerb <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1216>`_
-
-
-`Harmonic generator <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1220>`_
-
-
-`Hermes Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1200>`_
-
-
-`Higher Quality Pitch Scaler <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1194>`_
-
-
-`Hilbert transformer <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1440>`_
-
-
-`Impulse convolver <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1199>`_
-
-
-`Inverter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1429>`_
-
-
-`Karaoke <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1409>`_
-
-
-`L/C/R Delay <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1436>`_
-
-
-`LFO Phaser <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1217>`_
-
-
-`LS Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1908>`_
-
-
-`Mag's Notch Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1894>`_
-
-
-`Matrix Spatialiser <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1422>`_
-
-
-`Matrix: MS to Stereo <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1421>`_
-
-
-`Matrix: Stereo to MS <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1420>`_
-
-
-`Modulatable delay <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1419>`_
-
-
-Mono to stereo
-
-
-`Multiband EQ <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1197>`_
-
-
-`Multivoice Chorus <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1201>`_
-
+`Multivoice Chorus <https://www.mltframework.org/plugins/FilterLadspa-1201/>`_
 
 `Pitch Scaler <https://www.mltframework.org/plugins/FilterLadspa-1193/>`_
 
+`Plate reverb <https://www.mltframework.org/plugins/FilterLadspa-1423/>`_
 
-`Plate reverb <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1423>`_
+`Pointer cast distortion <https://www.mltframework.org/plugins/FilterLadspa-1910/>`_
 
+`Rate shifter <https://www.mltframework.org/plugins/FilterLadspa-1417/>`_
 
-`Pointer cast distortion <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1910>`_
+`Retro Flanger <https://www.mltframework.org/plugins/FilterLadspa-1208/>`_
 
+`Reverse Delay (5s max) <https://www.mltframework.org/plugins/FilterLadspa-1605/>`_
 
-`Rate shifter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1417>`_
+`Ringmod with LFO <https://www.mltframework.org/plugins/FilterLadspa-1189/>`_
 
+`Ringmod with two inputs <https://www.mltframework.org/plugins/FilterLadspa-1188/>`_
 
-`Retro Flanger <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1208>`_
+`SC1 <https://www.mltframework.org/plugins/FilterLadspa-1425/>`_
 
+`SC2 <https://www.mltframework.org/plugins/FilterLadspa-1426/>`_
 
-`Reverse Delay (5s max) <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1605>`_
+`SC3 <https://www.mltframework.org/plugins/FilterLadspa-1427/>`_
 
+`SC4 <https://www.mltframework.org/plugins/FilterLadspa-1882/>`_
 
-`Ringmod with LFO <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1189>`_
+`SC4 mono <https://www.mltframework.org/plugins/FilterLadspa-1916/>`_
 
+`SE4 <https://www.mltframework.org/plugins/FilterLadspa-1883/>`_
 
-`Ringmod with two inputs <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1188>`_
+`Signal sifter <https://www.mltframework.org/plugins/FilterLadspa-1210/>`_
 
+`Simple amplifier <https://www.mltframework.org/plugins/FilterLadspa-1181/>`_
 
-`SC1 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1425>`_
+`Simple Delay Line <https://www.mltframework.org/plugins/FilterLadspa-1043/>`_
 
+`Simple delay line cubic spline interpolation <https://www.mltframework.org/plugins/FilterLadspa-1900/>`_
 
-`SC2 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1426>`_
+`Simple delay line linear interpolation <https://www.mltframework.org/plugins/FilterLadspa-1899/>`_
 
+`Simple Delay Line, noninterpolating <https://www.mltframework.org/plugins/FilterLadspa-1898/>`_
 
-`SC3 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1427>`_
+`Simple High Pass Filter <https://www.mltframework.org/plugins/FilterLadspa-1042/>`_
 
+`Simple Low Pass Filter <https://www.mltframework.org/plugins/FilterLadspa-1041/>`_
 
-`SC4 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1882>`_
+`Sine Oscillator (Freq:Audio,Amp:audio) <https://www.mltframework.org/plugins/FilterLadspa-1044/>`_
 
+`Sine Oscillator (Freq:Audio,Amp:control) <https://www.mltframework.org/plugins/FilterLadspa-1045/>`_
 
-`SC4 mono <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1916>`_
+`Sine Oscillator (Freq:control,Amp:audio) <https://www.mltframework.org/plugins/FilterLadspa-1046/>`_
 
+`Single band parametric <https://www.mltframework.org/plugins/FilterLadspa-1203/>`_
 
-`SE4 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1883>`_
+`Sinus wavewrapper <https://www.mltframework.org/plugins/FilterLadspa-1198/>`_
 
+`Smooth Decimator <https://www.mltframework.org/plugins/FilterLadspa-1414/>`_
 
-`Signal sifter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1210>`_
+`Sox band <https://www.mltframework.org/plugins/FilterSox-band/>`_
 
+`Sox bass <https://www.mltframework.org/plugins/FilterSox-bass/>`_
 
-`Simple amplifier <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1181>`_
+`Sox echo <https://www.mltframework.org/plugins/FilterSox-echo/>`_
 
+`Sox flanger <https://www.mltframework.org/plugins/FilterSox-flanger/>`_
 
-Simple Delay Line
+`Sox gain <https://www.mltframework.org/plugins/FilterSox-gain/>`_
 
+`Sox phaser <https://www.mltframework.org/plugins/FilterSox-phaser/>`_
 
-`Simple delay line cubic spline interpolation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1900>`_
+`Sox stretch <https://www.mltframework.org/plugins/FilterSox-stretch/>`_
 
+`State Variable Filter <https://www.mltframework.org/plugins/FilterLadspa-1214/>`_
 
-`Simple delay line linear interpolation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1899>`_
+`Step Demuxer <https://www.mltframework.org/plugins/FilterLadspa-1212/>`_
 
+`Surround matrix encoder <https://www.mltframework.org/plugins/FilterLadspa-1401/>`_
 
-Simple Delay Line, noninterpolating
+`Tape Delay Simulation <https://www.mltframework.org/plugins/FilterLadspa-1211/>`_
 
+`Transient mangler <https://www.mltframework.org/plugins/FilterLadspa-1206/>`_
 
-Simple High Pass Filter
+`Triple band parametric with shelves <https://www.mltframework.org/plugins/FilterLadspa-1204/>`_
 
+`Valve rectifier <https://www.mltframework.org/plugins/FilterLadspa-1405/>`_
 
-Simple Low Pass Filter
+`Valve saturation <https://www.mltframework.org/plugins/FilterLadspa-1209/>`_
 
+`VyNil (Vinyl Effect) <https://www.mltframework.org/plugins/FilterLadspa-1905/>`_
 
-Sine Oscillator (Freq:Audio,Amp:audio)
+`Wave shaper <https://www.mltframework.org/plugins/FilterLadspa-1187/>`_
 
+`Wave Terrain Oscillator <https://www.mltframework.org/plugins/FilterLadspa-1412/>`_
 
-Sine Oscillator (Freq:Audio,Amp:control)
-
-
-Sine Oscillator (Freq:control,Amp:audio)
-
-
-`Single band parametric <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1203>`_
-
-
-`Sinus wavewrapper <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1198>`_
-
-
-`Smooth Decimator <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1414>`_
-
-
-`Sox band <http://www.mltframework.org/bin/view/MLT/FilterSox-band>`_
-
-
-`Sox bass <http://www.mltframework.org/bin/view/MLT/FilterSox-bass>`_
-
-
-`Sox echo <http://www.mltframework.org/bin/view/MLT/FilterSox-echo>`_
-
-
-`Sox flanger <http://www.mltframework.org/bin/view/MLT/FilterSox-flanger>`_
-
-
-`Sox gain <http://www.mltframework.org/bin/view/MLT/FilterSox-gain>`_
-
-
-`Sox phaser <http://www.mltframework.org/bin/view/MLT/FilterSox-phaser>`_
-
-
-`Sox stretch <http://www.mltframework.org/bin/view/MLT/FilterSox-stretch>`_
-
-
-`State Variable Filter <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1214>`_
-
-
-`Step Demuxer <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1212>`_
-
-
-`Surround matrix encoder <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1401>`_
-
-
-`Tape Delay Simulation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1211>`_
-
-
-`Transient mangler <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1206>`_
-
-
-`Triple band parametric with shelves <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1204>`_
-
-
-`Valve rectifier <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1405>`_
-
-
-`Valve saturation <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1209>`_
-
-
-VyNil (Vinyl Effect)
-
-
-`Wave shaper <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1187>`_
-
-
-`Wave Terrain Oscillator <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1412>`_
-
-
-`z-1 <http://www.mltframework.org/bin/view/MLT/FilterLadspa-1428>`_
-
+`z-1 <https://www.mltframework.org/plugins/FilterLadspa-1428/>`_
 

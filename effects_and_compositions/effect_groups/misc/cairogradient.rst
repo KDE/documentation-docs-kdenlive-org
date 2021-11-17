@@ -11,8 +11,7 @@ cairogradient
 
 .. contents::
 
-
 This effect adds a gradient of colour across the frame.
 
-
 .. image:: /images/Kdenlive_Cairogradient.png
+

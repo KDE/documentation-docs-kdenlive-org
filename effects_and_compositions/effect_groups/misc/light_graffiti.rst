@@ -14,16 +14,11 @@ Misc - Light Graffiti
 
 .. contents::
 
-
-`till's blog <http://kdenlive.org/users/granjow/writing-light-graffiti-effect>`_
-
 https://vimeo.com/18497028
 
 https://vimeo.com/20217266
 
-
 .. image:: /images/lightgraffiti-v2-avg.jpg
    :align: left
    :alt: lightgraffiti-v2-avg
-
 

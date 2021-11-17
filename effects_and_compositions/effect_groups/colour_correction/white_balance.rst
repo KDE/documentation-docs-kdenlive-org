@@ -15,13 +15,11 @@ White Balance
 
 .. contents::
 
+This is the `Frei0r balanc0r <https://www.mltframework.org/plugins/FilterFrei0r-balanc0r/>`_ MLT filter.
 
-This is the `| FilterFrei0r-balanc0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-balanc0r>`_  MLT frame work filter
-
-Adjust the white balance / color temperature
+Adjust the white balance / color temperature.
 
 https://youtu.be/foPVqzBV_vM
 
 https://youtu.be/BqmMi6L945E 
-
 
