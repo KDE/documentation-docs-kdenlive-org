@@ -127,6 +127,27 @@ rst_epilog = """
 .. |timeline-overwrite| image:: /images/icons/timeline-overwrite.svg
    :width: 22px
 
+.. |add-subtitle| image:: /images/icons/add-subtitle.svg
+   :width: 22px
+
+.. |composite-track-preview| image:: /images/icons/composite-track-preview.svg
+   :width: 22px
+
+.. |favorite| image:: /images/icons/favorite.svg
+   :width: 22px
+
+.. |kdenlive-ripple| image:: /images/icons/kdenlive-ripple.svg
+   :width: 22px
+
+.. |kdenlive-slip| image:: /images/icons/kdenlive-slip.svg
+   :width: 22px
+
+.. |preview-render-on| image:: /images/icons/preview-render-on.svg
+   :width: 22px
+
+.. |view-media-equalizer| image:: /images/icons/view-media-equalizer.svg
+   :width: 22px
+
 .. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
    :width: 480px
 
@@ -136,7 +157,6 @@ rst_epilog = """
 .. |outdated| replace:: The instructions of this section are probably out-dated please help us to improve the documentation! See :ref:`get_involved`
 
 """
-
 
 # -- Options for HTML output -------------------------------------------------
 
