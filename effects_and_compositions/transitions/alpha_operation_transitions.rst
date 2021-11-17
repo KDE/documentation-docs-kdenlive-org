@@ -13,7 +13,7 @@ Alpha operation transitions
 
 .. contents::
 
-The addition, addition_alpha, alpha*atop*, alpha''in*, alpha*out*, alpha over and alpha*xor'' transitions all perform alpha operations between the two video tracks. These transitions only have an effect if the videos on the tracks have alpha channel information in them.
+The addition, addition_alpha, alpha*atop*, alpha*in*, alpha*out*, alpha over and alpha*xor* transitions all perform alpha operations between the two video tracks. These transitions only have an effect if the videos on the tracks have alpha channel information in them.
 
 The Alpha Channel information is supplied by one of the :ref:`alpha_manipulation`. This Alpha Channel data describes which regions of the video track is transparent and how transparent it should be. Until you define some alpha channel data using an :ref:`alpha_manipulation` changes in the alpha operation transition settings will have no visible effect.
 
