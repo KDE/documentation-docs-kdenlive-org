@@ -13,7 +13,17 @@ Alpha operation transitions
 
 .. contents::
 
-The addition, addition_alpha, alpha*atop*, alpha*in*, alpha*out*, alpha over and alpha*xor* transitions all perform alpha operations between the two video tracks. These transitions only have an effect if the videos on the tracks have alpha channel information in them.
+The following transitions all perform alpha operations between the two video tracks:
+
+* :ref:`addition_alpha`
+* :ref:`addition`
+* :ref:`alphaatop`
+* :ref:`alphain`
+* :ref:`alphaout`
+* :ref:`alphaover`
+* :ref:`alphaxor`
+
+These transitions only have an effect if the videos on the tracks have alpha channel information in them.
 
 The Alpha Channel information is supplied by one of the :ref:`alpha_manipulation`. This Alpha Channel data describes which regions of the video track is transparent and how transparent it should be. Until you define some alpha channel data using an :ref:`alpha_manipulation` changes in the alpha operation transition settings will have no visible effect.
 
@@ -23,33 +33,33 @@ In the examples below the yellow clip has a triangle alpha shape with min = 0 an
 
 The Green clip has a rectangle alpha shape with min=0 and max =1000. This translates to make the clip 100% transparent outside the rectangle and 0% transparent inside the rectangle.
 
-.. image:: /images/Kdenlive_Alphaxor.png
+.. figure:: /images/Kdenlive_Alphaxor.png
    :align: left
    :alt: alphaxor
 
-alpha*xor*
+   :ref:`alphaxor`
 
-.. image:: /images/Kdenlive_Alphaout.png
+.. figure:: /images/Kdenlive_Alphaout.png
    :align: left
    :alt: Kdenlive_Alphaout
 
-alpha*out*
+   :ref:`alphaout`
 
-.. image:: /images/Kdenlive_Alphaain.png
+.. figure:: /images/Kdenlive_Alphaain.png
    :align: left
    :alt: Kdenlive_Alphaain
 
-alpha*in*
+   :ref:`alphain`
 
-.. image:: /images/Kdenlive_Alphaatop.png
+.. figure:: /images/Kdenlive_Alphaatop.png
    :align: left
    :alt: Kdenlive_Alphaatop
 
-alpha*atop*
+   :ref:`alphaatop`
 
-.. image:: /images/Kdenlive_Alpha_over.png
+.. figure:: /images/Kdenlive_Alpha_over.png
    :align: left
    :alt: Kdenlive_Alpha_over
 
-alpha over
+   :ref:`alphaover`
 

@@ -19,7 +19,8 @@ Audio Correction
 .. TODO "hard_limiter" and "normalise" missing
 
 .. toctree::
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Effects in this category
    :glob:
 
    audio_correction/*

@@ -14,8 +14,6 @@
 Audio channels
 ==============
 
-.. contents::
-
 The :menuselection:`Audio channels` group in the Effect List has the following effects:
 
 * balance

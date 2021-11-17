@@ -16,22 +16,10 @@
 Color
 =====
 
-.. contents::
-
-The Color group of effects contains the follow effects:
-
 .. toctree::
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Effects in this category
+   :glob:
 
-   colour/chroma_hold
-   colour/contrast
-   colour/greyscale
-   colour/hue_shift
-   colour/invert
-   colour/primaries
-   colour/rgb_parade_MLT
-   colour/saturation
-   colour/sepia
-   colour/techicolor
-   colour/tint
+   colour/*
 

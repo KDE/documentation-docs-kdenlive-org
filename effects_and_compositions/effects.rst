@@ -159,9 +159,9 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
 .. container:: clear-both
 
    .. image:: /images/Duplicate-keyframe.gif
-     :width: 220px
-     :align: left
-     :alt: duplicate-keyframe
+      :width: 220px
+      :align: left
+      :alt: duplicate-keyframe
 
    1. Select the keyframe you want to duplicate
    2. Move the cursor to the position where you want to insert the new keyframe
@@ -170,9 +170,9 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
 .. container:: clear-both
 
    .. image:: /images/Apply-value-to-selected-kf.gif
-     :width: 220px
-     :align: left
-     :alt: apply-value-to-selected-kf
+      :width: 220px
+      :align: left
+      :alt: apply-value-to-selected-kf
 
    1. Select all keyframes you want to apply the value on
    2. Go to one of the selected keyframes and change the value(s) as you want
@@ -182,20 +182,20 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
 .. rst-class:: clear-both
 
 .. figure:: /images/Kf-ctrl-select.gif
-  :width: 220px
-  :alt: kf-ctrl-select
+   :width: 220px
+   :alt: kf-ctrl-select
 
   Select keyframes with :kbd:`Ctrl + click`
 
 .. figure:: /images/Kf-rubber-select.gif
-  :width: 220px
-  :alt: kf-rubber-select
+   :width: 220px
+   :alt: kf-rubber-select
 
   Rubber select select keyframes with :kbd:`Shift + click`
 
 .. figure:: /images/Multiple-kf-move.gif
-  :width: 220px
-  :alt: multiple-kf-move
+   :width: 220px
+   :alt: multiple-kf-move
 
   Move multiple keyframes at once
 
@@ -207,8 +207,8 @@ You can import and export keyframes from/to the clipboard. This feature is not o
 To export the keyframes the clipboard click on |application-menu| inside the keyframe widget and choose :menuselection:`Copy keyframes to clipboard`.
 
 .. image:: /images/Kdenlive_import_keyframes_dialog.png
-  :align: left
-  :alt: Import keyframes dialog
+   :align: left
+   :alt: Import keyframes dialog
 
 To import keyframes from the clipboard click on |application-menu| inside the keyframe widget and choose :menuselection:`Import keyframes from clipboard`. If you have valid data on your clipboard you should see a dialog similar to the screenshot where you can adjust the mapping of the data.
 
@@ -224,12 +224,12 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 **Track Effect Zone**
 
 .. image:: /images/Track-effect-zone.gif
-  :alt: track-effect-zone
+   :alt: track-effect-zone
 
 **Master Effect Zone**
 
 .. image:: /images/Timeline-effect-zone.gif
-  :alt: timeline-effect-zone
+   :alt: timeline-effect-zone
 
 Seek To Active Frame
 --------------------
@@ -270,22 +270,11 @@ See also :ref:`effects_and_transitions` for an alphabetical list of effects and 
 
 The effects are divided into the following categories:
 
-* :ref:`alpha_manipulation`
-* :ref:`analysis_and_data`
-* :ref:`artistic`
-* :ref:`audio`
-* :ref:`audio_channels`
-* :ref:`audio_correction`
-* :ref:`blur_and_hide`
-* :ref:`colour`
-* :ref:`colour_correction`
-* :ref:`crop_and_transform`
-* :ref:`custom`
-* :ref:`distort`
-* :ref:`enhancement`
-* :ref:`fade`
-* :ref:`misc`
-* :ref:`motion`
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   effect_groups/*
 
 The available effects are defined by :file:`.xml` files found in :file:`.local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`).
 
@@ -303,23 +292,4 @@ A: Other solution: select a strip containing the effect, :menuselection:`Copy`, 
 Q: How to apply an effect on several clips (all) at the same time?
 
 A: You can select multiple clips with :kbd:`Shift + drag` (left mouse button) around them. Then right-click and group clips (or :kbd:`Ctrl + G`).
-
-.. toctree::
-   :caption: Contents:
-
-   effect_groups/alpha_manipulation
-   effect_groups/audio
-   effect_groups/audio_correction
-   effect_groups/audio_channels
-   effect_groups/blur_and_hide
-   effect_groups/colour
-   effect_groups/colour_correction
-   effect_groups/crop_and_transform
-   effect_groups/custom
-   effect_groups/distort
-   effect_groups/enhancement
-   effect_groups/fade
-   effect_groups/misc
-   effect_groups/motion
-   effect_groups/analysis_and_data
 

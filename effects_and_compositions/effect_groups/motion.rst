@@ -14,13 +14,10 @@
 Motion
 ======
 
-.. contents::
-
-* :ref:`freeze`
-
 .. toctree::
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Effects in this category
+   :glob:
 
-   motion/freeze
-   motion/speed
+   motion/*
 

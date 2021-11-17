@@ -17,7 +17,8 @@ Blur and Hide
 =============
 
 .. toctree::
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Effects in this category
    :glob:
 
    blur_and_hide/*

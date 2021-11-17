@@ -23,14 +23,16 @@ In **kdenlive** a transition is a wipe or dissolve composition between two overl
 
 There are two ways of adding transitions in **kdenlive**: **Mix clips**, aka same tracks transitions, and the legacy way, which is transitions between clips on different tracks.
 
-Wipes are greyscale images in .pgm (Portable GreyMap) format, and during the transition the composition track will be displayed in the darkest areas of the wipe image first. If the wipe is inversed, the composition track will become visible in the brightest areas of the wipe image first instead. You can download more wipes (by clicking the download button in the wipe composition properties) or create your own and load them by clicking the folder button.
+Wipes are greyscale images in :file:`.pgm` (Portable GreyMap) format, and during the transition the composition track will be displayed in the darkest areas of the wipe image first. If the wipe is inversed, the composition track will become visible in the brightest areas of the wipe image first instead. You can download more wipes (by clicking the download button in the wipe composition properties) or create your own and load them by clicking the folder button.
 
 .. _same_track_transition:
 
-Transition
-----------
+Mixes
+-----
 
 .. versionadded:: 20.12
+
+Mixes are transitions between clips on the same track.
 
 .. figure:: /images/Kdenlive_mixed_clip_800.png
    :align: left
@@ -38,7 +40,7 @@ Transition
 
    Kdenlive with mixed clips in the timeline. The toolbar button is circled with red, and the transition properties are on the right.
 
-Mix Clips provides a way to add a transition between clips on the same track. To use it:
+To use it:
 
 * Ensure that there is at least half a second worth of frames at the end of both clips (outside the timeline clip). Without that, kdenlive will not apply the transition, but display an error message.
 * Select either clip. If there are clips in both ends of the one selected, the transition will be added nearest the playhead.
@@ -65,12 +67,12 @@ To delete the transition, select it and press the delete key.
 
 .. tip::
 
-  To apply only transitions on either the video or audio track just lock the track on which you don’t want a transition to be applied and add transitions by one of the above ways on the other track.
+   To apply only transitions on either the video or audio track just lock the track on which you don’t want a transition to be applied and add transitions by one of the above ways on the other track.
 
-Transitions between clips on different tracks
----------------------------------------------
+Compositions
+------------
 
-This is the legacy way of doing transitions in **kdenlive**.
+Compositions are transitions between clips on different tracks. This is the legacy way of doing transitions in **kdenlive**.
 
 .. figure:: /images/Kdenlive_transitions_legacy_god.png
    :align: left
@@ -96,8 +98,11 @@ You can:
 
 If you move or adjust your clips after adding the transition, you need to refit it manually if desired. You can drag the entire transition with the select tool, and adjust its duration by dragging either end.
 
+Available Transitions
+---------------------
+
 .. toctree::
-   :caption: Contents:
+   :maxdepth: 1
    :glob:
 
    transitions/*

@@ -15,7 +15,12 @@
 Misc Effects
 ============
 
-.. contents::
+.. toctree::
+   :maxdepth: 1
+   :caption: Effects in this category
+   :glob:
+
+   misc/*
 
 * atadenoise
 * bgsubtract
@@ -82,10 +87,4 @@ Misc Effects
 * xbr
 * zmq
 * zoompan
-
-.. toctree::
-   :caption: Contents:
-   :glob:
-
-   misc/*
 

@@ -18,6 +18,13 @@ Alpha manipulation
 
 .. contents::
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Effects in this category
+   :glob:
+
+   alpha_manipulation/*
+
 General Information about Alpha Manipulation
 --------------------------------------------
 
@@ -28,32 +35,9 @@ More information can be found on the pages for the effects themselves:
 * :ref:`blue_screen` (for simple chroma key effects)
 * :ref:`color_selection` (for complex chroma key effects)
 
-Effects in the Alpha Manipulation Category
-------------------------------------------
-
-* :ref:`alpha_gradient`
-* :ref:`alpha_operations`
-* :ref:`alpha_shapes`
-* :ref:`blue_screen`
-* :ref:`color_selection`
-* :ref:`mask0mate`
-* :ref:`rotoscoping`
-* :ref:`keysplillm0pup`
 
 Compositing Reference Material
 ------------------------------
 
 For some background, the Wikipedia article in `alpha compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_ is useful. See also Porter, Thomas; Tom Duff (1984). "Compositing Digital Images". Computer Graphics 18 (3): p253–259 1984 `pdf <https://keithp.com/~keithp/porterduff/p253-porter.pdf>`_
-
-.. toctree::
-   :caption: Contents:
-
-   alpha_manipulation/alpha_gradient
-   alpha_manipulation/alpha_operations
-   alpha_manipulation/alpha_shapes
-   alpha_manipulation/blue_screen
-   alpha_manipulation/color_selection
-   alpha_manipulation/mask0mate
-   alpha_manipulation/rotoscoping
-   alpha_manipulation/key_spill_mop_up
 
