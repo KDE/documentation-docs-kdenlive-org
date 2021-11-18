@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-13 00:22+0000\n"
-"PO-Revision-Date: 2021-11-15 11:41+0100\n"
+"PO-Revision-Date: 2021-11-17 13:38+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -23,7 +23,7 @@ msgstr "Automatisch maskeren"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:18
 msgid "Use *Motion Tracker* instead"
-msgstr ""
+msgstr "In plaats daarvan *Volger van beweging* gebruiken"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:24
 msgid "Contents"
@@ -31,34 +31,36 @@ msgstr "Inhoud"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:26
 msgid ""
-"This effect can be used to mask peoples faces. It uses motion estimation to "
+"This effect can be used to mask peoples faces. It uses motion estimation"
+" to "
 "track subjects and mask faces. It is the MLT filter  `autotrack_rectangle "
 "<http://www.mltframework.org/bin/view/MLT/"
 "FilterAutotrackRectangleDiscussion>`_"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:30
-#, fuzzy
 msgid "Demo"
-msgstr "&Demo"
+msgstr "Demo"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:32
+#, fuzzy
 msgid "https://youtu.be/rRg_i5C8_Hc"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:36
 msgid "How to apply Auto Mask"
-msgstr ""
+msgstr "Hoe automatisch maskeren toepassen"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:38
 msgid ""
-"See video below on how to use this effect. Warning: The effect is not 100% "
+"See video below on how to use this effect. Warning: The effect is not 100"
+"% "
 "reliable."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:41
 msgid "https://youtu.be/ZD0WOsX6B5A"
-msgstr ""
+msgstr "https://youtu.be/ZD0WOsX6B5A"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:45
 msgid "Motion Tracking"
@@ -66,17 +68,21 @@ msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:47
 msgid ""
-"The Auto Mask effect can also be used to track motion of an object and use "
+"The Auto Mask effect can also be used to track motion of an object and"
+" use "
 "it later as keyframes for an effect / transition."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:52
 msgid ""
-"The method described here is a re-purposing of the motion tracking data that "
+"The method described here is a re-purposing of the motion tracking data"
+" that "
 "the Auto Mask effect calculates. You do not need to follow the method "
 "described below to generate an Auto Mask that will obscure faces. The "
-"instructions in the above video should be enough. Nor can you use the method "
-"described below to improve the tracking of the mask created by the Auto Mask "
+"instructions in the above video should be enough. Nor can you use the"
+" method "
+"described below to improve the tracking of the mask created by the Auto"
+" Mask "
 "effect."
 msgstr ""
 
@@ -95,7 +101,8 @@ msgstr ""
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:65
 msgid ""
 "Then click on the :menuselection:`Analyse` button in the effect options. "
-"This will start an analysis of the clip (you can follow its progress in the "
+"This will start an analysis of the clip (you can follow its progress in"
+" the "
 "Project Tree view)."
 msgstr ""
 
@@ -103,33 +110,44 @@ msgstr ""
 msgid ""
 "When the job is finished, the motion tracking data is stored in the clip "
 "properties. To use this data, you can, for example, add a title clip and "
-"affine transition over the clip you just analyzed, like in the screenshot in "
+"affine transition over the clip you just analyzed, like in the screenshot"
+" in "
 "Figure 2.."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:80
 msgid ""
-"Next step is to import the motion data in the transition. To do this, first, "
-"select the clip you have analyzed, then select the transition using the :kbd:"
-"`CTRL` key so that both items are selected. Finally, go in the transitions's "
+"Next step is to import the motion data in the transition. To do this,"
+" first, "
+"select the clip you have analyzed, then select the transition using the"
+" :kbd:"
+"`CTRL` key so that both items are selected. Finally, go in the"
+" transitions's "
 "Options menu"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:84
 msgid ""
-"and select :menuselection:`Import keyframes from clip`. You can now delete "
-"the \"Auto Mask\" effect from the clip in the timeline and play the project "
+"and select :menuselection:`Import keyframes from clip`. You can now"
+" delete "
+"the \"Auto Mask\" effect from the clip in the timeline and play the"
+" project "
 "to see your title clip following the object."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:91
 msgid ""
-"Checking the *Limit keyframes number* checkbox In the \"Import Keyframes\" "
-"dialog (Figure 4) will cause Kdenlive to only import every nth frame (where "
-"n is the number selected in the combo box). This is a useful feature if you "
-"want to manually edit the keyframes that are imported because it allows you "
+"Checking the *Limit keyframes number* checkbox In the \"Import"
+" Keyframes\" "
+"dialog (Figure 4) will cause Kdenlive to only import every nth frame"
+" (where "
+"n is the number selected in the combo box). This is a useful feature if"
+" you "
+"want to manually edit the keyframes that are imported because it allows"
+" you "
 "to limit the number of keyframes you will need to manually edit. If this "
-"checkbox is not checked then you import a keyframe for every frame that is "
+"checkbox is not checked then you import a keyframe for every frame that"
+" is "
 "in the source clip."
 msgstr ""
 
@@ -139,7 +157,8 @@ msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:97
 msgid ""
-"The motion tracking data is saved with the  :ref:`clips`. You can view this "
+"The motion tracking data is saved with the  :ref:`clips`. You can view"
+" this "
 "data from the clip properties Analysis tab - Figure 5.  Delete the data "
 "using button 1"
 msgstr ""
