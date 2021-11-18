@@ -10,7 +10,7 @@
 .. _restoring_audio_mixing:
 
 Restoring Audio Mixing
-========================
+======================
 
 .. versionadded:: 16.08
 
