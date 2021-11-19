@@ -6,93 +6,126 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-13 00:22+0000\n"
-"PO-Revision-Date: 2021-11-17 20:17+0200\n"
+"POT-Creation-Date: 2021-11-18 00:21+0000\n"
+"PO-Revision-Date: 2021-11-18 21:03+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #: ../../exporting/render_profile_parameters.rst:16
 msgid "Render Profile Parameters"
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:18
+#: ../../exporting/render_profile_parameters.rst:19
 msgid "Contents"
-msgstr ""
-"Зміст"
+msgstr "Зміст"
 
-#: ../../exporting/render_profile_parameters.rst:21
-#: ../../exporting/render_profile_parameters.rst:71
+#: ../../exporting/render_profile_parameters.rst:22
+#: ../../exporting/render_profile_parameters.rst:64
 msgid "Render Profile Parameters - How to read them"
 msgstr ""
 
 #: ../../exporting/render_profile_parameters.rst:28
-msgid "Kdenlive now makes use of \"property presets\" delivered by the *melt* project (see `melt doco <http://www.mltframework.org/bin/view/MLT/PropertyPresets>`_). These presets are referenced by the *properties=<preset>* syntax.  In the example illustrated, the render profile is referencing *lossless/H.264*.  This refers to a property preset found in file H.264 found on the system at :file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
+msgid ""
+"Kdenlive now makes use of \"property presets\" delivered by the *melt* "
+"project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). "
+"These presets are referenced by the *properties=<preset>* syntax. In the "
+"example illustrated, the render profile is referencing *lossless/H.264*. "
+"This refers to a property preset found in file H.264 found on the system at :"
+"file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
 msgstr ""
 
 #: ../../exporting/render_profile_parameters.rst:30
-msgid "All the *<presets>* referenced in the render settings in Kdenlive will be referring to presets found at :file:`/usr/share/mlt/presets/consumer/avformat/` (on a default install). Note that you reference presets found in subdirectories of this folder using a :file:`<dirname>/<profile>`  syntax as shown in the example above."
+msgid ""
+"All the *<presets>* referenced in the render settings in Kdenlive will be "
+"referring to presets found at :file:`/usr/share/mlt/presets/consumer/"
+"avformat/` (on a default install). Note that you reference presets found in "
+"subdirectories of this folder using a :file:`<dirname>/<profile>` syntax as "
+"shown in the example above."
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:43
-msgid "The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` are simple text files that contain the *melt* parameters that define the rendering. An example is shown below.  These are the same parameters that were used in earlier versions of Kdenlive – see next section for how to read those."
+#: ../../exporting/render_profile_parameters.rst:39
+msgid ""
+"The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` "
+"are simple text files that contain the *melt* parameters that define the "
+"rendering. An example is shown below. These are the same parameters that "
+"were used in earlier versions of Kdenlive – see next section for how to read "
+"those."
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:45
-msgid "Contents of  lossless/H.264:"
+#: ../../exporting/render_profile_parameters.rst:41
+msgid "Contents of lossless/H.264:"
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:75
+#: ../../exporting/render_profile_parameters.rst:68
 msgid "|outdated|"
-msgstr ""
-"|застарілий|"
+msgstr "|застарілий|"
 
-#: ../../exporting/render_profile_parameters.rst:77
-msgid "The parameters that go into a render profile derive from the **ffmpeg** program."
-msgstr ""
-
-#: ../../exporting/render_profile_parameters.rst:79
-msgid "This is a worked example to show how you can understand what these parameters mean using the **ffmpeg** documentation."
+#: ../../exporting/render_profile_parameters.rst:70
+msgid ""
+"The parameters that go into a render profile derive from the **ffmpeg** "
+"program."
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:81
+#: ../../exporting/render_profile_parameters.rst:72
+msgid ""
+"This is a worked example to show how you can understand what these "
+"parameters mean using the **ffmpeg** documentation."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:74
 msgid "In the example above the parameters are:"
 msgstr ""
+"У наведеному вище прикладі було використано такі параметри:"
 
-#: ../../exporting/render_profile_parameters.rst:105
-msgid "Looking up the `ffmpeg help <http://linux.die.net/man/1/ffmpeg>`_ translates these parameters as shown below."
+#: ../../exporting/render_profile_parameters.rst:96
+msgid ""
+"Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
+"translates these parameters as shown below."
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:108
+#: ../../exporting/render_profile_parameters.rst:98
 msgid "Main option is:"
 msgstr ""
+"Основний параметр:"
 
-#: ../../exporting/render_profile_parameters.rst:116
+#: ../../exporting/render_profile_parameters.rst:104
 msgid "Video options are:"
 msgstr ""
+"Параметри відео:"
 
-#: ../../exporting/render_profile_parameters.rst:132
+#: ../../exporting/render_profile_parameters.rst:116
 msgid "Audio options are:"
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:144
+#: ../../exporting/render_profile_parameters.rst:124
 msgid "The AVCodecContext AVOptions include:"
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:156
-msgid "So all the render profile options are documented here in the **ffmpeg** documentation."
+#: ../../exporting/render_profile_parameters.rst:133
+msgid ""
+"So all the render profile options are documented here in the **ffmpeg** "
+"documentation."
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:158
-msgid "See also `MLT doco <http://www.mltframework.org/bin/view/MLT/ConsumerAvformat>`_ on ConsumerAvFormat."
+#: ../../exporting/render_profile_parameters.rst:135
+msgid ""
+"See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on "
+"ConsumerAvFormat."
 msgstr ""
 
-#: ../../exporting/render_profile_parameters.rst:160
-msgid "See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_"
+#: ../../exporting/render_profile_parameters.rst:137
+#| msgid ""
+#| "See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://"
+#| "forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_"
+msgid ""
+"See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum."
+"kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
 msgstr ""
-"Див. також, як створювати відео 4k і 2K, які будуть сумісними з YouTube <https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_"
+"Див. також, як створювати відео 4k і 2K, які будуть сумісними з YouTube "
+"<https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_"

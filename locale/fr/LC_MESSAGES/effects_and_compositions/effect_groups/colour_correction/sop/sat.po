@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-13 00:22+0000\n"
+"POT-Creation-Date: 2021-11-18 00:21+0000\n"
 "PO-Revision-Date: 2021-11-15 18:32+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -16,20 +16,20 @@ msgstr ""
 msgid "SOP/Sat Effect"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:17
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:16
 msgid "Contents"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:19
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:18
 msgid ""
-"This is the `FilterFrei0r-sopsat <http://www.mltframework.org/bin/view/MLT/"
-"FilterFrei0r-sopsat>`_  MLT frame work filter. It changes Slope, Offset, and "
+"This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/"
+"FilterFrei0r-sopsat/>`_  MLT framework filter. It changes Slope, Offset, and "
 "Power of the color components, and the overall Saturation, according to the "
-"ASC CDL (Color Decision List) `reference <http://en.wikipedia.org/wiki/"
-"ASC_CDL>`_"
+"ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/wiki/"
+"ASC_CDL>`_."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:22
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:21
 msgid ""
 "Changing the slope means multiplying the pixel value with a constant value. "
 "Black pixels will remain black, whileas brighter ones will be changed. All "
@@ -37,77 +37,77 @@ msgid ""
 "looking at the RGB Parade monitor."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:24
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:23
 msgid "You can use this effect to achieve proper white balance."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:32
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:29
 msgid ""
 "This filter implements a standard way of color correction proposed by the "
 "American Society of Cinematographers: The Color Decision List, also known as "
-"the ASC CDL"
+"the ASC CDL."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:34
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:31
 msgid ""
-"More information about the ASC CDL can be found on `wikipedia <http://en."
+"More information about the ASC CDL can be found on `wikipedia <https://en."
 "wikipedia.org/wiki/ASC_CDL>`_."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:36
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:33
 msgid ""
-"The ASC CDL is a standard format for basic primary color correction "
-"(primary  meaning affecting the whole image and not only selected parts)."
+"The ASC CDL is a standard format for basic primary color correction (primary "
+"meaning affecting the whole image and not only selected parts)."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:38
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:35
 msgid ""
 "Basically there are two stages in the correction: 1. SOP correction for each "
 "channel separately 2. Overall saturation correction"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:42
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:39
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from {0,...,255} to [0,1]."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:41
 msgid "SOP correction"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:46
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
 msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:47
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
 msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:48
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:45
 msgid "Power:   ``out = in^power;     0 < power < \\infty``"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:50
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:47
 msgid "Saturation"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:52
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:49
 msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:53
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:50
 msgid "Forall channels: ``out = luma + sat * (in-luma)``"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:55
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:52
 msgid ""
 "As the values may exceed 1 (or 0), they need to be clamped where necessary."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:57
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:54
 msgid ""
-"See `Granjow's blog <http://kdenlive.org/users/granjow/introducing-color-"
-"scopes-waveform-and-rgb-parade>`_ where he uses the effect to adjust white "
-"balance of a clip."
+"See `Granjow's blog <https://web.archive.org/web/20160319050009/https://"
+"kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-"
+"parade>`_ where he uses the effect to adjust white balance of a clip."
 msgstr ""
