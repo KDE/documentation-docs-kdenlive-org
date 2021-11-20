@@ -10,7 +10,7 @@
 .. _library_clips:
 
 Library clips with image sequences, Titles, Color clips
-=====================================================
+=======================================================
 
 .. versionadded:: 16.12.0
 
