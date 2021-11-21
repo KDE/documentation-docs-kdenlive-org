@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-18 00:21+0000\n"
-"PO-Revision-Date: 2021-11-15 15:56+0100\n"
+"PO-Revision-Date: 2021-11-20 15:39+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.08.1\n"
+"X-Generator: Lokalize 21.08.3\n"
 
 #: ../../effects_and_compositions/speech_to_text.rst:23
 msgid "Speech to text"
@@ -28,6 +28,9 @@ msgid ""
 "Speech to text doesn't work with version 21.04.2 due to vosk API issues. Use "
 "version 21.04.1 or 21.04.3 and later versions."
 msgstr ""
+"El text a veu no funciona amb la versió 21.04.2 a causa de problemes en la "
+"`API de Vosk <https://github.com/alphacep/vosk-api>`_. Utilitzeu la versió "
+"21.04.1 o 21.04.3, així com versions posteriors."
 
 #: ../../effects_and_compositions/speech_to_text.rst:32
 msgid "Install Python"
@@ -38,16 +41,21 @@ msgid ""
 "Python needs to be installed on your computer. Download it from here https://"
 "www.python.org/downloads/ for installation on your computer."
 msgstr ""
+"Cal instal·lar Python al vostre ordinador. Per a instal·lar-lo al vostre "
+"ordinador, baixeu-lo des d'aquí https://www.python.org/downloads/."
 
 #: ../../effects_and_compositions/speech_to_text.rst:36
 msgid "Speech recognition requires the vosk and srt python modules"
 msgstr ""
+"El reconeixement de la veu requereix els mòduls «vosk» i «sr» de Python:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:38
 msgid ""
 "On Linux open a terminal and put in and run: \"pip3 install vosk;pip3 "
 "install srt\"."
 msgstr ""
+"A Linux, obriu un terminal i introduïu i executeu: «pip3 install vosk;pip3 "
+"install srt»"
 
 #: ../../effects_and_compositions/speech_to_text.rst:40
 msgid ""
@@ -55,6 +63,9 @@ msgid ""
 "zip </files/Install_vosk_srt.zip>`). After download double click starts the "
 "installations."
 msgstr ""
+"A Windows, podeu baixar aquest fitxer per lots (:download:`Install_vosk_srt."
+"zip </files/Install_vosk_srt.zip>`). Després de la baixada, feu-hi doble clic "
+"per a començar la instal·lació."
 
 #: ../../effects_and_compositions/speech_to_text.rst:43
 msgid "Install a language"
@@ -64,20 +75,26 @@ msgstr "Instal·lar un idioma"
 msgid ""
 "Goto :menuselection:`Settings --> Configure Kdenlive --> Speech to Text`"
 msgstr ""
+"Aneu a :menuselection:`Arranjament --> Configura el Kdenlive... --> pàgina "
+"Text a veu`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:47
 msgid "Click on the link to get a language model"
-msgstr ""
+msgstr "Feu clic a l'enllaç per a obtenir un model d'idioma."
 
 #: ../../effects_and_compositions/speech_to_text.rst:52
 msgid ""
 "Drag & drop the language you want from the vosk-model download page to the "
 "model window, and it will download and extract it for you."
 msgstr ""
+"Arrossegueu i deixeu anar l'idioma que voleu des de la pàgina de descàrrega "
+"del model Vosk a la finestra de models, d'aquesta manera es descarregarà i "
+"extraurà."
 
 #: ../../effects_and_compositions/speech_to_text.rst:57
 msgid "If you have problems click on \"Check configuration\" button."
 msgstr ""
+"Si teniu problemes, premeu el botó :guilablel:`Comprova la configuració`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:60
 msgid "Speech recognition"
@@ -85,15 +102,17 @@ msgstr "Reconeixement de la veu"
 
 #: ../../effects_and_compositions/speech_to_text.rst:62
 msgid "**Creating subtitle by speech recognition**"
-msgstr ""
+msgstr "**Crear subtítols mitjançant el reconeixement de la veu**"
 
 #: ../../effects_and_compositions/speech_to_text.rst:67
 msgid "Mark the timeline zone you want to recognize (adjust the blue line)."
 msgstr ""
+"Marqueu la zona en la línia de temps que voleu reconèixer (ajusteu la línia "
+"blava)."
 
 #: ../../effects_and_compositions/speech_to_text.rst:69
 msgid "Click on the \"Speech recognition\" icon."
-msgstr ""
+msgstr "Feu clic a la icona :guilabel:`Reconeixement de la veu`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:71
 msgid "Choose the language."
@@ -101,79 +120,89 @@ msgstr "Trieu l'idioma."
 
 #: ../../effects_and_compositions/speech_to_text.rst:73
 msgid "Choose how the selected zone should be applied."
-msgstr ""
+msgstr "Escolliu com s'haurà d'aplicar la zona seleccionada."
 
 #: ../../effects_and_compositions/speech_to_text.rst:75
 msgid "Click \"Process\""
-msgstr ""
+msgstr "Premeu el botó :guilabel:`Processa`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:77
 msgid "The subtitle gets created and inserted automatically."
-msgstr ""
+msgstr "Els subtítols es crearan i s'inseriran automàticament."
 
 #: ../../effects_and_compositions/speech_to_text.rst:79
 msgid ""
 "Remark: Only timeline zone is implemented for now in automatic subtitles."
 msgstr ""
+"Observació: de moment per als subtítols automàtics només s'ha implementat la "
+"zona de la línia de temps."
 
 #: ../../effects_and_compositions/speech_to_text.rst:81
 msgid "**Creating clips by speech recognition**"
-msgstr ""
+msgstr "**Crear clips mitjançant el reconeixement de la veu**"
 
 #: ../../effects_and_compositions/speech_to_text.rst:83
 msgid ""
 "This is useful for interviews and other speech-related footage. Enable :"
 "menuselection:`View --> Text Edit`"
 msgstr ""
+"Això és útil per a entrevistes i altres metratges relacionats amb la parla. "
+"Habiliteu-ho amb l'element de menú :menuselection:`Visualitza --> Edita el "
+"text`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:89
 msgid "Select a clip in the project bin."
-msgstr ""
+msgstr "Seleccioneu un clip a la safata del projecte."
 
 #: ../../effects_and_compositions/speech_to_text.rst:91
 msgid ""
 "If needed set in/out point in the clip monitor and enable \"selected zone "
 "only\". This will only recognize the text inside the zone."
 msgstr ""
+"Si cal, establiu el punt d'entrada/sortida en el monitor del clip i marqueu "
+"la casella de selecció :guilabel:`Només la zona seleccionada`. D'aquesta "
+"manera només es reconeixerà el text dins de la zona."
 
 #: ../../effects_and_compositions/speech_to_text.rst:93
 msgid "Choose the correct language"
-msgstr ""
+msgstr "Trieu l'idioma correcte."
 
 #: ../../effects_and_compositions/speech_to_text.rst:95
 msgid "Click \"start recognition\""
-msgstr ""
+msgstr "Premeu el botó :guilabel:`Inicia el reconeixement`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:97
 msgid "Selecting the text you want to either"
-msgstr ""
+msgstr "Seleccioneu el text que voleu."
 
 #: ../../effects_and_compositions/speech_to_text.rst:99
 msgid "Put into the timeline"
-msgstr ""
+msgstr "Poseu-lo dins la línia de temps."
 
 #: ../../effects_and_compositions/speech_to_text.rst:101
 msgid "Save as a new clip"
-msgstr ""
+msgstr "Deseu com a un clip nou."
 
 #: ../../effects_and_compositions/speech_to_text.rst:103
 msgid ""
 "Add a Bookmark. You can jump to these bookmarks in the timeline with :kbd:"
 "`alt + arrow` or edit the bookmark by double click."
 msgstr ""
+"Afegiu-hi un marcador. Podreu saltar a aquests marcadors en la línia de temps "
+"amb la drecera :kbd:`Alt + fletxa` o editeu el marcador fent-hi doble clic."
 
 #: ../../effects_and_compositions/speech_to_text.rst:105
 msgid "Delete the selection."
-msgstr ""
+msgstr "Suprimiu la selecció."
 
 #: ../../effects_and_compositions/speech_to_text.rst:107
 msgid "Here you can search in the text."
-msgstr ""
+msgstr "Aquí podreu cercar en el text."
 
 #: ../../effects_and_compositions/speech_to_text.rst:109
 msgid "And navigate up"
-msgstr ""
+msgstr "I navegar-hi."
 
 #: ../../effects_and_compositions/speech_to_text.rst:111
 msgid "Or down in the text."
-msgstr ""
+msgstr "O per tot el text."
