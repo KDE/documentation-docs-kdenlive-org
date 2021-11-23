@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-18 00:21+0000\n"
-"PO-Revision-Date: 2021-11-18 17:42+0200\n"
+"PO-Revision-Date: 2021-11-22 17:38+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:16
@@ -36,6 +35,7 @@ msgid ""
 "track subjects and mask faces. It is the `AutotrackRectangle <https://www."
 "mltframework.org/docs/FilterAutotrackRectangleDiscussion/>`_ MLT filter."
 msgstr ""
+"Цим ефектом можна скористатися для маскування облич людей. Він використовує оцінку руху для стеження за суб'єктами і маскування облич. Це фільтр MLT `AutotrackRectangle <https://www.mltframework.org/docs/FilterAutotrackRectangleDiscussion/>`_."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:26
 msgid "Demo"
@@ -54,6 +54,7 @@ msgid ""
 "See video below on how to use this effect. Warning: The effect is not 100% "
 "reliable."
 msgstr ""
+"Ознайомтеся із відео, наведеним нижче, щоб дізнатися про те, як застосувати цей ефект. Попередження: робота ефекту не є 100% надійною."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:35
 msgid "https://youtu.be/ZD0WOsX6B5A"
@@ -62,12 +63,14 @@ msgstr "https://youtu.be/ZD0WOsX6B5A"
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:38
 msgid "Motion Tracking"
 msgstr ""
+"Стеження за рухом"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:40
 msgid ""
 "The Auto Mask effect can also be used to track motion of an object and use "
 "it later as keyframes for an effect / transition."
 msgstr ""
+"Ефект маскування може також бути використано для стеження за рухом об'єкта і скористатися ним пізніше як ключовими кадрами для ефекту або переходу."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:44
 msgid ""
@@ -78,18 +81,21 @@ msgid ""
 "described below to improve the tracking of the mask created by the Auto Mask "
 "effect."
 msgstr ""
+"Описаний тут метод є результатом використання даних стеження за рухом, які обчислюються при застосуванні ефекту автоматичного маскування. Вам не потрібно виконувати усі наведені нижче настанови для створення автоматичної маски, яка приховуватиме обличчя на відео. Настанов із наведеного вище відео достатньо. Крім того, наведеним нижче методом не можна скористатися для поліпшення стеження за маскою, створеною ефектом автоматичного маскування."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:46
 msgid ""
 "To use this feature, first, add the clip you want to analyze in the "
 "timeline, and add the \"Auto Mask\" effect to it - Figure 1."
 msgstr ""
+"Щоб скористатися цією можливістю, спочатку слід додати кліп, який ви хочете проаналізувати, на монтажний стіл, а потім додати до нього ефект «Автомаскування» (Рис. 1)."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:53
 msgid ""
 "Go to the first frame where your object is visible, and adjust the yellow "
 "rectangle so that it surrounds the object, like the hand in Figure 1."
 msgstr ""
+"Перейдіть до першого кадру, у якому видимим є ваш об'єкт, і скоригуйте червоний прямокутник так, щоб він оточував об'єкт, подібно до кола на Рис. 1."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:55
 msgid ""
@@ -97,6 +103,7 @@ msgid ""
 "This will start an analysis of the clip (you can follow its progress in the "
 "Project Tree view)."
 msgstr ""
+"Далі, натисніть кнопку :menuselection:`Аналіз` на панелі параметрів ефекту. У відповідь буде розпочато аналіз кліпу (можете стежити за поступом на панелі контейнера проєкту)."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:62
 msgid ""
@@ -105,6 +112,7 @@ msgid ""
 "affine transition over the clip you just analyzed, like in the screenshot in "
 "Figure 2."
 msgstr ""
+"Коли обробку буде завершено, дані стеження за рухом буде збережено у властивостях кліпу. Щоб скористатися цими даними, ви, наприклад, можете додати кліп титрів і афінний перехід до кліпу, який було проаналізовано, подібно до того, що наведено на Рис. 2."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:69
 msgid ""
@@ -113,6 +121,7 @@ msgid ""
 "`CTRL` key so that both items are selected. Finally, go in the transitions's "
 "Options menu."
 msgstr ""
+"Наступним кроком є імпортування даних руху у переході. Для цього, спочатку, позначте кліп, який було проаналізовано, одночасно натиснувши клавішу :kbd:`Ctrl`, щоб було позначено перехід і кліп одночасно. Нарешті, перейдіть до панелі параметрів переходу."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:73
 msgid ""
@@ -120,6 +129,7 @@ msgid ""
 "the \"Auto Mask\" effect from the clip in the timeline and play the project "
 "to see your title clip following the object."
 msgstr ""
+"і виберіть пункт :menuselection:`Імпортувати ключові кадри з кліпу`. Тепер можна вилучити ефект «Автомаскування» з кліпу на монтажному столі і відтворити проєкт, щоб переконатися у тому, що титри слідують за об'єктом."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:80
 msgid ""
@@ -131,10 +141,12 @@ msgid ""
 "checkbox is not checked then you import a keyframe for every frame that is "
 "in the source clip."
 msgstr ""
+"Позначення пункту «Обмежити кількість ключових кадрів» у діалоговому вікні «Імпортувати ключові кадри» (Рис. 4) призведе до того, що Kdenlive імпортуватиме лише один кадр з вказаної кількості (кількість можна вибрати за допомогою спадного списку). Це корисна можливість, якщо ви хочете вручну редагувати імпортовані ключові кадри, оскільки вона надає змогу обмежити кількість ключових кадрів, які вам доведеться редагувати вручну. Якщо цей пункт не буде позначено, кожен кадр початкового кліпу буде імпортовано як ключовий."
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:83
 msgid "Deleting Motion Tracking Data"
 msgstr ""
+"Вилучення даних стеження за рухом"
 
 #: ../../effects_and_compositions/effect_groups/blur_and_hide/auto_mask.rst:85
 msgid ""
@@ -142,3 +154,4 @@ msgid ""
 "data from the clip properties Analysis tab - Figure 5. Delete the data using "
 "button 1"
 msgstr ""
+"Дані стеження за рухом зберігаються у :ref:`властивостях кліпу <clips>`. Ви можете переглядати ці дані на вкладці «Аналіз» властивостей (Рис. 5). Вилучити ці дані можна за допомогою натискання кнопки 1."
