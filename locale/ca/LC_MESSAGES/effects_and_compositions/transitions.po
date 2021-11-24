@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-18 00:21+0000\n"
-"PO-Revision-Date: 2021-11-19 13:10+0100\n"
+"PO-Revision-Date: 2021-11-23 17:37+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.08.3\n"
+"X-Generator: Lokalize 21.11.80\n"
 
 #: ../../effects_and_compositions/transitions.rst:18
 msgid "Transitions"
@@ -32,6 +32,8 @@ msgid ""
 "In **kdenlive** a transition is a wipe or dissolve composition between two "
 "overlapping clips."
 msgstr ""
+"En el **Kdenlive**, una transició és una composició de cortineta o dissolució "
+"entre dos clips superposats."
 
 #: ../../effects_and_compositions/transitions.rst:24
 msgid ""
@@ -39,6 +41,9 @@ msgid ""
 "same tracks transitions, and the legacy way, which is transitions between "
 "clips on different tracks."
 msgstr ""
+"Hi ha dues maneres d'afegir transicions en el **Kdenlive**: **Mescla els "
+"clips**, també coneguda com transicions de les mateixes pistes, i la forma "
+"heretada, les quals són transicions entre clips de pistes diferents."
 
 #: ../../effects_and_compositions/transitions.rst:26
 msgid ""
@@ -50,6 +55,14 @@ msgid ""
 "wipe composition properties) or create your own and load them by clicking "
 "the folder button."
 msgstr ""
+"Les cortinetes són imatges en escala de grisos en el format :file:`.pgm` "
+"(mapa de grisos portable) i durant la transició, la composició de la pista es "
+"mostrarà primer a les zones més fosques de la imatge de cortineta. Sila "
+"cortineta és invertida, la composició de la pista serà visible primer a les "
+"zones més brillants de la imatge de cortineta. Podeu baixar més cortinetes "
+"(fent clic al botó de baixada en les propietats de la composició de la "
+"cortineta) o crear-ne la vostra pròpia i carregar-la fent clic al botó de "
+"carpeta."
 
 #: ../../effects_and_compositions/transitions.rst:31
 msgid "Mixes"
@@ -57,13 +70,16 @@ msgstr "Mescles"
 
 #: ../../effects_and_compositions/transitions.rst:35
 msgid "Mixes are transitions between clips on the same track."
-msgstr ""
+msgstr "Les mescles són transicions entre clips en la mateixa pista."
 
 #: ../../effects_and_compositions/transitions.rst:41
 msgid ""
 "Kdenlive with mixed clips in the timeline. The toolbar button is circled "
 "with red, and the transition properties are on the right."
 msgstr ""
+"El Kdenlive amb clips mesclats en la línia de temps. El botó de la barra "
+"d'eines està encerclat amb vermell i les propietats de la transició es troben "
+"a la dreta."
 
 #: ../../effects_and_compositions/transitions.rst:43
 msgid "To use it:"
@@ -75,36 +91,49 @@ msgid ""
 "both clips (outside the timeline clip). Without that, kdenlive will not "
 "apply the transition, but display an error message."
 msgstr ""
+"Assegureu-vos que almenys hi hagi mig segon de fotogrames al final dels dos "
+"clips (fora del clip en la línia de temps). Sense això, el Kdenlive no "
+"aplicarà la transició, però sí mostrarà un missatge d'error."
 
 #: ../../effects_and_compositions/transitions.rst:46
 msgid ""
 "Select either clip. If there are clips in both ends of the one selected, the "
 "transition will be added nearest the playhead."
 msgstr ""
+"Seleccioneu qualsevol dels clips. Si hi ha clips a ambdós extrems del "
+"seleccionat, la transició s'afegirà més a prop de la capçalera de "
+"reproducció."
 
 #: ../../effects_and_compositions/transitions.rst:48
 msgid "Ready to add the transition:"
-msgstr "A punt per afegir la transició:"
+msgstr "A punt per a afegir la transició:"
 
 #: ../../effects_and_compositions/transitions.rst:50
 msgid "**Keyboard:** Press the :kbd:`U` key."
-msgstr ""
+msgstr "**Teclat:** premeu la tecla :kbd:`U`."
 
 #: ../../effects_and_compositions/transitions.rst:51
 msgid ""
 "**Mouse:** double-click at the point where the clips meet. This does not "
 "require a clip to be selected."
 msgstr ""
+"**Ratolí:** feu doble clic al punt on es troben els clips. Això no requereix "
+"seleccionar un clip."
 
 #: ../../effects_and_compositions/transitions.rst:52
 msgid "**Toolbar:** Press the Mix Clips button on the timeline toolbar."
 msgstr ""
+"**Barra d'eines:** premeu el botó :guilabel:`Mescla els clips` a la barra "
+"d'eines de la línia de temps."
 
 #: ../../effects_and_compositions/transitions.rst:54
 msgid ""
 "The transition length defaults to one second equally distributed between the "
 "two clips. You can drag either end of the transition to adjust."
 msgstr ""
+"La durada predeterminada de la transició és d'un segon distribuït de manera "
+"igual entre els dos clips. Podeu arrossegar qualsevol dels extrems de la "
+"transició per a ajustar-la."
 
 #: ../../effects_and_compositions/transitions.rst:56
 msgid ""
@@ -112,6 +141,9 @@ msgid ""
 "and edit the wipe method and properties as desired in the effect/transition "
 "stack window."
 msgstr ""
+"La transició predeterminada és dissoldre, però podeu seleccionar (fent clic) "
+"la transició i editar el mètode de cortineta, així com les propietats que "
+"voleu a la finestra de la pila d'efectes/transició."
 
 #: ../../effects_and_compositions/transitions.rst:58
 msgid ""
@@ -119,18 +151,23 @@ msgid ""
 "that, since there will not really be a transition. Other methods are meant "
 "for compositing two videos, not transitioning between them."
 msgstr ""
+"El mètode de composició està establert a Luma, i no té sentit canviar-ho, ja "
+"que realment no hi haurà una transició. Els altres mètodes estan pensats per "
+"a compondre dos vídeos, no per a fer la transició entre ells."
 
 #: ../../effects_and_compositions/transitions.rst:60
 msgid "Select the desired wipe from Wipe Method."
-msgstr ""
+msgstr "Seleccioneu la cortineta desitjada des del Mètode de cortineta."
 
 #: ../../effects_and_compositions/transitions.rst:61
 msgid "The Reverse option reverses the transtion."
-msgstr ""
+msgstr "L'opció Inverteix, inverteix la transició."
 
 #: ../../effects_and_compositions/transitions.rst:62
 msgid "The Softness slider will affect the edges of wipe transtions."
 msgstr ""
+"El control lliscant :guilabel:`Suavitat:` afectarà les vores de les "
+"transicions de cortineta."
 
 #: ../../effects_and_compositions/transitions.rst:63
 msgid "Set the desired duration."
@@ -141,10 +178,14 @@ msgid ""
 "Since 21.08: select the alignment of the transition, either left, centered "
 "(default) or right."
 msgstr ""
+"Des de la 21.08: seleccioneu l'alineació de la transició, ja sigui a "
+"l'esquerra, centrada (la predeterminada) o a la dreta."
 
 #: ../../effects_and_compositions/transitions.rst:66
 msgid "To delete the transition, select it and press the delete key."
 msgstr ""
+"Per a suprimir la transició, seleccioneu-la i premeu la tecla "
+":kbd:`Suprimeix`."
 
 #: ../../effects_and_compositions/transitions.rst:70
 msgid ""
@@ -152,6 +193,9 @@ msgid ""
 "track on which you don’t want a transition to be applied and add transitions "
 "by one of the above ways on the other track."
 msgstr ""
+"Per a aplicar només transicions a la pista de vídeo o d'àudio, senzillament "
+"bloqueu la pista amb la qual no voleu que s'apliqui una transició i afegiu "
+"les transicions a l'altra pista d'una de les maneres anteriors."
 
 #: ../../effects_and_compositions/transitions.rst:73
 msgid "Compositions"
@@ -162,20 +206,24 @@ msgid ""
 "Compositions are transitions between clips on different tracks. This is the "
 "legacy way of doing transitions in **kdenlive**."
 msgstr ""
+"Les composicions són transicions entre clips en pistes diferents. Aquesta és "
+"la forma heretada de fer transicions en el **Kdenlive**."
 
 #: ../../effects_and_compositions/transitions.rst:81
 msgid ""
 "To the left the purple one-click circle to add a wipe composition. In the "
 "middle the composition bar, and on the right the properties."
 msgstr ""
+"A l'esquerra, el cercle porpra d'un clic per a afegir una composició de "
+"cortineta. Al mig la barra de composició, i a la dreta les propietats."
 
 #: ../../effects_and_compositions/transitions.rst:83
 msgid "To add a transition,"
-msgstr ""
+msgstr "Per a afegir una transició:"
 
 #: ../../effects_and_compositions/transitions.rst:85
 msgid "Adjust your clips so that they overlap."
-msgstr ""
+msgstr "Ajusteu els clips perquè se superposin."
 
 #: ../../effects_and_compositions/transitions.rst:86
 msgid ""
@@ -184,18 +232,28 @@ msgid ""
 "\"), or alternatively right-click either clip and select :menuselection:"
 "`Insert a composition --> Wipe`."
 msgstr ""
+"Manteniu la roda del ratolí sobre la cantonada inferior del clip de dalt i "
+"feu clic en el cercle porpra que apareix (la :ref:`status_bar` dirà «Feu clic "
+"per a afegir una composició»), o, de manera alternativa, feu clic dret a "
+"qualsevol dels clips i seleccioneu :menuselection:`Insereix una composició... "
+"--> Cortineta`."
 
 #: ../../effects_and_compositions/transitions.rst:88
 msgid ""
 "The default transition is a dissolve, to change that select (click) the "
 "composition bar to show the effect/composition stack window."
 msgstr ""
+"La transició predeterminada és una dissolució, per a canviar-la, seleccioneu "
+"(feu clic) a la barra de composició per a mostrar la finestra de pila "
+"d'efectes/composició."
 
 #: ../../effects_and_compositions/transitions.rst:90
 msgid ""
 "The transition, when added this way, will cover the overlapping area between "
 "the clips."
 msgstr ""
+"La transició, quan s'afegeix d'aquesta manera, cobrirà l'àrea de superposició "
+"entre els clips."
 
 #: ../../effects_and_compositions/transitions.rst:92
 msgid "You can:"
@@ -206,20 +264,24 @@ msgid ""
 "Select a composition track. The default is \"Automatic\" which is likely the "
 "correct choice in this case."
 msgstr ""
+"Seleccioneu la composició d'una pista. El valor predeterminat és "
+"«Automàtica», la qual probablement és l'opció correcta en aquest cas."
 
 #: ../../effects_and_compositions/transitions.rst:95
 msgid "Select a wipe."
-msgstr ""
+msgstr "Seleccionar una cortineta."
 
 #: ../../effects_and_compositions/transitions.rst:96
 msgid "Enable Inverse to inverse the wipe."
-msgstr ""
+msgstr "Activeu :guilabel:`Inverteix` per a invertir la cortineta."
 
 #: ../../effects_and_compositions/transitions.rst:97
 msgid ""
 "Enable Revert to revert the order of the videos in the transition (which you "
 "probably do not want)."
 msgstr ""
+"Activeu :guilabel:`Reverteix` per a revertir l'ordre dels vídeos en la "
+"transició (cosa que probablement no voleu)."
 
 #: ../../effects_and_compositions/transitions.rst:99
 msgid ""
@@ -227,6 +289,9 @@ msgid ""
 "refit it manually if desired. You can drag the entire transition with the "
 "select tool, and adjust its duration by dragging either end."
 msgstr ""
+"Si moveu o ajusteu els vostres clips després d'afegir la transició, l'haureu "
+"de reajustar manualment. Podeu arrossegar tota la transició amb l'eina de "
+"selecció i ajustar-ne la durada arrossegant qualsevol dels extrems."
 
 #: ../../effects_and_compositions/transitions.rst:102
 msgid "Available Transitions"
