@@ -29,3 +29,7 @@ The HTML is generated in `build/html` (e.g. with `/path/to/kdenlive-docs/build/h
 **Windows:** `.\make epub`
 
 The epub ebook is generated in `build/epub` (e.g. with `/path/to/kdenlive-docs/build/epub`). Open the ebook by double click `index.xhtml`.
+  
+## Status of translation
+  
+The status of the Kdenlive documentation you can see [here](https://l10n.kde.org/stats/gui/trunk-kf5/package/documentation-docs-kdenlive-org/).
