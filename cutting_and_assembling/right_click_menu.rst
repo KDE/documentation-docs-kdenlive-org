@@ -58,7 +58,7 @@ This is the context menu that appears when you right-click on a clip in the time
    :alt: Kdenlive-restore-audio
 
 
-* :menuselection:`Disable clip` will disable the clip so it will not render in the project monitor or in a final video render.
+* :menuselection:`Disable clip` will disable the clip so it will not render in the project monitor or in a final video render. To disable the video or audio part of an A/V clip you have to un-group the A/V clip, disable the video or audio part and group the A/V clip again.
 
 
 * :menuselection:`Extract clip` will remove the clip from the timeline and the space it occupied. 
