@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-18 00:21+0000\n"
-"PO-Revision-Date: 2021-11-22 13:42+0100\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2021-11-25 17:27+0100\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 21.11.80\n"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:12
 msgid "Medians"
@@ -45,6 +45,13 @@ msgid ""
 "from the surrounding area, the bigger residual it will leave with a linear "
 "filter - but the more probably it will be eliminated by the median."
 msgstr ""
+"La mediana és un filtre no lineal força popular en el processament d'imatges. "
+"Molt sovint s'utilitza per a eliminar el soroll impulsiu, com ara el soroll "
+"«sal i pebre», píxels «morts» i «calents», brutícia a la pel·lícula, etc. "
+"Això és perquè es comporta una mica «inversament» en comparació amb els "
+"reductors de soroll lineals. Com més sobresurti un píxel dolent de l'àrea "
+"circumdant, més gran serà el residu amb un filtre lineal, però més probable "
+"serà que l'elimini la mediana."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:22
 msgid ""
@@ -62,6 +69,19 @@ msgid ""
 "filtering see `Wikipedia article <https://en.wikipedia.org/wiki/"
 "Median_filter>`_."
 msgstr ""
+"L'inconvenient és que l'operació de mediana és força lenta. Com a filtre "
+"estadístic d'ordre, és similar a l'ordenació, que s'ha de fer per a cada "
+"píxel, per la qual cosa és molt important utilitzar un algorisme ràpid. Per a "
+"les medianes petites, aquí s'utilitzen els algorismes del tipus descrit en "
+"`aquesta pàgina <http://ndevilla.free.fr/median/median/src/optmed.c>`_ , amb "
+"algunes petites modificacions per a una lleugera millora addicional de la "
+"velocitat. Per a la mediana «Mida variable», s'utilitza el codi [1]_. Els "
+"filtres compostos (ArceBI, ML3D, ML3dEX) es fan segons les fórmules que es "
+"donen en el treball corresponent `Anil Christopher Kokaram: Motion Picture "
+"Restoration, tesi Ph.D. <https://citeseerx.ist.psu.edu/viewdoc/download?doi="
+"10.1.1.36.9618&rep=rep1&type=pdf>`_. Per a obtenir més informació sobre el "
+"filtratge de mediana, vegeu l'`article de la Viquipèdia "
+"<https://en.wikipedia.org/wiki/Median_filter>`_."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:24
 msgid "IMPLEMENTED ALGORITHMS:"
@@ -73,7 +93,7 @@ msgstr "**Creu 5**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:27
 msgid "Median of the pixel with its top, bottom, left and right neighbor."
-msgstr ""
+msgstr "Mediana del píxel amb el seu veí de dalt, baix, esquerra i dreta."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:30
 msgid "**Square3x3**"
@@ -81,11 +101,11 @@ msgstr "**Quadrat 3x3**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:30
 msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
-msgstr ""
+msgstr "Mediana del píxel amb els 8 píxels que l'envolten. (quadre 3x3)"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:33
 msgid "**Bilevel**"
-msgstr ""
+msgstr "**Binivell**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:33
 msgid ""
@@ -94,6 +114,10 @@ msgid ""
 "previously calculated medians. Slightly better preserves detail than the "
 "simple medians above."
 msgstr ""
+"Primer, feu la mediana Creu 5, després feu la mediana del píxel amb els seus "
+"quatre veïns en les diagonals i, finalment, preneu la mediana del píxel i les "
+"dues medianes calculades anteriorment. Conserva els detalls una mica millor "
+"que les medianes senzilles anteriors."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:36
 msgid "**Diamond3x3**"
@@ -104,6 +128,8 @@ msgid ""
 "Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
 "pattern."
 msgstr ""
+"Pren la mediana del píxel amb 12 píxels veïns disposats en un patró de "
+"diamant."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:39
 msgid "**Square5x5**"
@@ -111,7 +137,7 @@ msgstr "**Quadrat 5x5**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:39
 msgid "Median of the pixel with the 5x5 surrounding box."
-msgstr ""
+msgstr "Mediana del píxel amb el quadre de 5x5 que l'envolta."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:42
 msgid "**Temp3**"
@@ -122,6 +148,9 @@ msgid ""
 "Temporal only median of three frames. Can be used to reduce single frame "
 "time-impulsive noise like photoflash. Delays the video by 1 frame."
 msgstr ""
+"Mediana temporal única de tres fotogrames. Es pot utilitzar per a reduir el "
+"soroll impulsiu del temps d'un sol fotograma com ara el flaix fotogràfic. "
+"Retarda el vídeo 1 fotograma."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:45
 msgid "**Temp5**"
@@ -133,16 +162,24 @@ msgid ""
 "impulsive noise, but the artifacts on fast moving objects are stronger than "
 "with temp3. Delays the video by 2 frames."
 msgstr ""
+"Mediana temporal única de cinc fotogrames. Es pot utilitzar per a reduir el "
+"soroll impulsiu del temps de doble fotograma, però els defectes sobre els "
+"objectes en moviment ràpid són més forts que amb Temp. 3. Retarda el vídeo 2 "
+"fotogrames."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:48
 msgid "**ArceBI**"
-msgstr "**Arce BI**"
+msgstr "**ArceBI**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:48
 msgid ""
 "Spatio-temporal multilevel median, as described by Arce. See the "
 "corresponding work<ref name=\"anil\" />. Delays the video by 1 frame."
 msgstr ""
+"Mediana multinivell d'espai temporal, tal com la descriu Arce. Vegeu el "
+"treball corresponent `Anil Christopher Kokaram: Motion Picture Restoration, "
+"Ph.D. thesis <https://citeseerx.ist.psu.edu/viewdoc/download?doi="
+"10.1.1.36.9618&rep=rep1&type=pdf>`_. Retarda el vídeo 1 fotograma."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:51
 msgid "**ML3D**"
@@ -153,6 +190,10 @@ msgid ""
 "Spatio-temporal multilevel median, as described by Alp. See the "
 "corresponding work<ref name=\"anil\" />. Delays the video by 1 frame."
 msgstr ""
+"Mediana multinivell d'espai temporal, tal com la descriu Alp. Vegeu el "
+"treball corresponent `Anil Christopher Kokaram: Motion Picture Restoration, "
+"Ph.D. thesis <https://citeseerx.ist.psu.edu/viewdoc/download?doi="
+"10.1.1.36.9618&rep=rep1&type=pdf>`_. Retarda el vídeo 1 fotograma."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:54
 msgid "**ML3dEX**"
@@ -163,10 +204,15 @@ msgid ""
 "Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
 "see the corresponding work<ref name=\"anil\" />. Delays the video by 1 frame."
 msgstr ""
+"Mediana multinivell d'espai temporal. Més desenvolupament de ML3D per en "
+"Kokaram, vegeu el treball corresponent `Anil Christopher Kokaram: Motion "
+"Picture Restoration, Ph.D. thesis <https://citeseerx.ist.psu.edu/viewdoc/"
+"download?doi=10.1.1.36.9618&rep=rep1&type=pdf>`_. Retarda el vídeo 1 "
+"fotograma."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:57
 msgid "**VarSize**"
-msgstr ""
+msgstr "**VarSize**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:57
 msgid ""
@@ -174,6 +220,10 @@ msgid ""
 "pixel. The effect could be described as \"quasi edge preserving, corner "
 "rounding, small stuff eliminator\". Or maybe just an \"artsy blur\"."
 msgstr ""
+"Mitjana d'espai senzill en un quadre quadrat de mida seleccionada per "
+"l'usuari al voltant de cada píxel. L'efecte podria descriure's com a "
+"«preservació de gairebé les vores, arrodoniment de les cantonades, eliminador "
+"de les coses petites». O potser, senzillament un «desenfocament artístic»."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:59
 msgid "PARAMETERS:"
@@ -192,6 +242,8 @@ msgid ""
 "Only active when \"VarSize\" type is selected. Determines the size of the "
 "square area over which the median is taken."
 msgstr ""
+"Només està actiu quan se selecciona el tipus «VarSize». Determina la mida de "
+"l'àrea quadrada sobre la qual es pren la mediana."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:66
 msgid "**Size**"
