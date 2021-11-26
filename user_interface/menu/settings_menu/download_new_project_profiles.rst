@@ -15,6 +15,6 @@ Download New Project Profiles
 
 * *Note:** Since around August, 2013 when the kdenlive.org web site was refurbished, this feature has been unavailable and the "Get Hot New Stuff" window will wait forever to update. See Mantis `3133 <https://bugs.kdenlive.org/view.php?id=3133>`_. 
 
-The Download new Render profiles is now working as at Oct 2105. However the download New Project Profiles is still not working as at Oct 2015.
+The Download new Render profiles is now working as at Oct 2015. However the download New Project Profiles is still not working as at Oct 2015.
 
 

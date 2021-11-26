@@ -38,7 +38,7 @@ And in case you're wondering, the default **Duration** for the inserted space is
   :align: left
   :alt: Figure 3.
 
-Let's look at an example, albeit an unrealistic one, of how inserting a space from the playhead position will affect clips and transitions on different tracks.  In general, inserting a space will shift any clips that the playhead is touching as well as all clips to the right of the playhead on the affected track(s).  Transitions are a little trickier because they span two tracks.  The are assumed to “belong” to the higher track (regardless of the direction of the transition) and so if the playhead is touching them, they will go if the higher track is included in the shift.  Figure 3 shows a scenario with clips on three video tracks before inserting a space.  All of the following examples assume we're starting from this postion.
+Let's look at an example, albeit an unrealistic one, of how inserting a space from the playhead position will affect clips and transitions on different tracks.  In general, inserting a space will shift any clips that the playhead is touching as well as all clips to the right of the playhead on the affected track(s).  Transitions are a little trickier because they span two tracks.  They are assumed to “belong” to the higher track (regardless of the direction of the transition) and so if the playhead is touching them, they will go if the higher track is included in the shift.  Figure 3 shows a scenario with clips on three video tracks before inserting a space.  All of the following examples assume we're starting from this position.
 
 
 .. image:: /images/Kdenlive_timeline_space-all.png
