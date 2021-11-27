@@ -52,7 +52,7 @@ To use this feature, first, add the clip you want to analyze in the timeline, an
 
 Go to the first frame where your object is visible, and adjust the yellow rectangle so that it surrounds the object, like the hand in Figure 1.
 
-Then click on the :menuselection:`Analyse` button in the effect options. This will start an analysis of the clip (you can follow its progress in the Project Tree view).
+Then click on the :menuselection:`Analyse` button in the effect options. This will start an analysis of the clip (you can follow its progress in the Project Bin view).
 
 .. image:: /images/Tracking03.png
   :width: 400px

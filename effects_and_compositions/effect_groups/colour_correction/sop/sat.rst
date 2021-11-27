@@ -18,7 +18,7 @@ SOP/Sat Effect
 This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/FilterFrei0r-sopsat/>`_  MLT framework filter.
 It changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/wiki/ASC_CDL>`_.
 
-Changing the slope means multiplying the pixel value with a constant value. Black pixels will remain black, whileas brighter ones will be changed. All effects can be observed well when applied on a greyscale gradient and looking at the RGB Parade monitor.
+Changing the slope means multiplying the pixel value with a constant value. Black pixels will remain black, while as brighter ones will be changed. All effects can be observed well when applied on a greyscale gradient and looking at the RGB Parade monitor.
 
 You can use this effect to achieve proper white balance.
 

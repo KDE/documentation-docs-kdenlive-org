@@ -41,7 +41,7 @@ Shortcuts for keyframe functions
 
 .. versionadded:: 21.08.0
 
-Allow assigning shortcuts to 3 keyframe functions: *Add/Remove Keyframe*, *Go to next keyfram*e and *Go to previous keyframe*.
+Allow assigning shortcuts to 3 keyframe functions: *Add/Remove Keyframe*, *Go to next keyframe* and *Go to previous keyframe*.
 Click on the clip and you can add/remove keyframe by shortcut.
 
 

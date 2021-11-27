@@ -66,7 +66,7 @@ Click the **Open Document** button on the Title Clip editor toolbar or choose **
 How to edit an existing title
 -----------------------------
 
-Right-click the title clip in the Project Tree and select :guilabel:`Clip properties`.
+Right-click the title clip in the Project Bin and select :guilabel:`Clip properties`.
 
 Template Titles - User-Defined
 ------------------------------
@@ -86,7 +86,7 @@ Choose :guilabel:`Add Title Clip` from the :guilabel:`Add Clip` drop down and cr
 
 Choose :guilabel::`Add Template Title` from the :guilabel:`Add Clip` drop down and choose the title with the *%s* in it that you just saved.
 
-Right-click this clip in the Project Tree and select :guilabel:`Clip Properties`,
+Right-click this clip in the Project Bin and select :guilabel:`Clip Properties`,
 
 .. image:: /images/Title_clip_properties.png
    :align: center
@@ -167,7 +167,7 @@ Note: changing the length of the title clip on the timeline does not change the 
 
 If the length of the clip on the timeline is shorter than the duration specified in the title editor, the scrolling will not complete before the title clip finishes.
 
-Note: the above description of title behaviour with respect to duration only applies to titles that don't get edited after they have been placed on the timeline. If you expand the length of a title clip on the timeline and then edit the title (by double-clicking it in the Project Tree), its apparent duration will become the length that it currently has on the timeline (i.e., the scrolling will not pause at the end anymore) but the duration displayed in the title editor will not have changed.
+Note: the above description of title behaviour with respect to duration only applies to titles that don't get edited after they have been placed on the timeline. If you expand the length of a title clip on the timeline and then edit the title (by double-clicking it in the Project Bin), its apparent duration will become the length that it currently has on the timeline (i.e., the scrolling will not pause at the end anymore) but the duration displayed in the title editor will not have changed.
 
 To make the title scroll Horizontally
 -------------------------------------

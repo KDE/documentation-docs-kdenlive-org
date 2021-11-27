@@ -82,7 +82,7 @@ When the :menuselection:`Proxy Clip` feature is enabled, **Kdenlive** will autom
 
 The :menuselection:`Generate for videos larger than x pixels` option will automatically create proxy clips for all videos added to the project that have a frame width larger than x. This also applies to images.
 
-You also have the choice to manually enable / disable proxy clips for each clip in your project tree by right-clicking on the clip and choosing :menuselection:`Proxy Clip`.
+You also have the choice to manually enable / disable proxy clips for each clip in your project bin by right-clicking on the clip and choosing :menuselection:`Proxy Clip`.
 
 You can choose an *Encoding profile* for the proxy clips, which will define the size, codecs and bitrate used when creating a proxy. The proxy profiles can be managed from the **Kdenlive** Settings dialog (:menuselection:`Settings --> Configure Kdenlive --> Project Defaults`).
 

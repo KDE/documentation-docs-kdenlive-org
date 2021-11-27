@@ -11,7 +11,7 @@
 Project Monitor - Right Click menu
 ==================================
 
-These are the menu items that are available when you right click a clip in the :ref:`monitors`. These actions effect the clip that is currently selected in the timeline. Similar menu items are available from a Right click menu in the clip monitor. However clip monitor menu items effect the currently selected clip on the project tree.
+These are the menu items that are available when you right click a clip in the :ref:`monitors`. These actions effect the clip that is currently selected in the timeline. Similar menu items are available from a Right click menu in the clip monitor. However clip monitor menu items effect the currently selected clip on the project bin.
 
 .. contents::
 
@@ -22,7 +22,7 @@ Play...
 Play
 ~~~~
 
-Plays the clip currently selected in the project tree
+Plays the clip currently selected in the project bin
 
 
 Play Zone

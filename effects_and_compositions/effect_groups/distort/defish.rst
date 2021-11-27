@@ -13,7 +13,7 @@ Defish
 
 .. contents::
 
-This effect can transform footage shot with a fisheye lens, to look like it was shot with a rectilinear lens, and vice versa. It can also be used to straighten the video that was shot with one of these wideangle converters, which are only slightly curvy, or with a semi-fisheye camera, like the GoPro hero.
+This effect can transform footage shot with a fisheye lens, to look like it was shot with a rectilinear lens, and vice versa. It can also be used to straighten the video that was shot with one of these wide angle converters, which are only slightly curvy, or with a semi-fisheye camera, like the GoPro hero.
 
 .. image:: /images/Kdenlive_Defish.png
 
@@ -23,11 +23,11 @@ PARAMETERS
 "Amount"
 
 Controls the amount of (de)distortion applied to the video. It controls the ratio of fisheye focal length to image half diagonal, but
-in an nonlinear inverse way, to make the control more "comfortable". It can be adjusted beyond "reasonable" values (which differ between the mapping function types), to produce some looney effects. When exploring this range, and the image disappears, check the scaling, could be that the image became too big or too small to see. For some unreasonable values the image might indeed disappear, when there are math overflows or imaginary results... (types 1 and 2 are more prone to image vanishing). Anyway, when working in the "special effect" range, it is always worth to try manual scaling. If the video contains zooming through a curvy wideangle adaptor, the needed amount will vary. In this case use keyframing.
+in an nonlinear inverse way, to make the control more "comfortable". It can be adjusted beyond "reasonable" values (which differ between the mapping function types), to produce some looney effects. When exploring this range, and the image disappears, check the scaling, could be that the image became too big or too small to see. For some unreasonable values the image might indeed disappear, when there are math overflows or imaginary results... (types 1 and 2 are more prone to image vanishing). Anyway, when working in the "special effect" range, it is always worth to try manual scaling. If the video contains zooming through a curvy wid angle adaptor, the needed amount will vary. In this case use keyframing.
 
 "DeFish"
 
-If checked, the transform direction is from fisheye to rectiliear, when not checked, it is rectilinear to fisheye.
+If checked, the transform direction is from fisheye to rectilinear, when not checked, it is rectilinear to fisheye.
 
 "Type"
 

@@ -14,6 +14,6 @@ Generators
 
 Used to create a clip with either a countdown timer or noise.
 
-This option is also available from the Add Clip icon in the Project Tree – see :ref:`clips`.
+This option is also available from the Add Clip icon in the Project Bin – see :ref:`clips`.
 
 

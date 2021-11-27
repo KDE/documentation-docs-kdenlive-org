@@ -19,5 +19,5 @@ This is the `Qtblend <https://www.mltframework.org/plugins/FilterQtblend/>`_ MLT
 
 Manipulates Position, scale and opacity.
 
-The Composition mode parameter of the effect is documented on the Qt doco under `QPainter CompositionMode <https://doc.qt.io/qt-5/qpainter.html#CompositionMode-enum>`_.
+The Composition mode parameter of the effect is documented on the Qt documentation under `QPainter CompositionMode <https://doc.qt.io/qt-5/qpainter.html#CompositionMode-enum>`_.
 

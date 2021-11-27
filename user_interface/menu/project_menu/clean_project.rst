@@ -16,7 +16,7 @@ Clean Project
 .. contents::
 
 
-Available from the :ref:`project_menu` menu this function removes any clips from the Project Tree that are not currently being used on the timeline. The files remain on the hard drive and are only removed from the Project Tree.
+Available from the :ref:`project_menu` menu this function removes any clips from the Project Bin that are not currently being used on the timeline. The files remain on the hard drive and are only removed from the Project Bin.
 
 You can undo this action with :kbd:`Ctrl + Z`.
 

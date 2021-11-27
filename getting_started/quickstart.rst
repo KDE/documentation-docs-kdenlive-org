@@ -83,7 +83,7 @@ Now that the project is ready, let’s start adding some clips (i.e. the ones yo
 
       Kdenlive window with the tutorial files
 
-After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known project tree. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.
+After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known Project Bin. Right of it are the monitors that show video; The clip monitor displays video from the original clips, the project monitor shows how the output video will look, with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks, Video and Audio. Video tracks can contain any kind of clip, audio tracks as well – but when dropping a video file to the audio track, only the audio will be used.
 
 
 .. figure:: /images/Kdenlive_Quickstart-Save-Project.png
@@ -103,7 +103,7 @@ Timeline
 
 See also :ref:`timeline`
 
-Now comes the actual editing. Project clips are combined to the final result on the timeline.  They get there by drag and drop: Drag some Napoli (assuming you are using the files provided above, as in the rest of this quick start tutorial; If not, please make sure your screen is waterproof, and perhaps tomatoproof) from the project tree, and drop it onto the first track in the timeline. In this case track V2.
+Now comes the actual editing. Project clips are combined to the final result on the timeline.  They get there by drag and drop: Drag some Napoli (assuming you are using the files provided above, as in the rest of this quick start tutorial; If not, please make sure your screen is waterproof, and perhaps tomatoproof) from the project bin, and drop it onto the first track in the timeline. In this case track V2.
 
 .. figure:: /images/Kdenlive_Quickstart-Timeline-Clips.png
   :align: left

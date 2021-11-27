@@ -29,9 +29,9 @@ Choose a transcode profile from the available list to transcode the selected cli
 
 The above screenshot is the dialog presented after choosing a transcode profile for transcoding the clip. The wrench icon toggles the display of the details of the command that will be used for transcoding.  The description comes from the description supplied in the :ref:`configure_kdenlive` for this functionality.
 
-Use the checkbox to cause the transcoded clip to be added to the Project Tree once the transcode job has finished.
+Use the checkbox to cause the transcoded clip to be added to the Project Bin once the transcode job has finished.
 
-While the transcode job is running, the Project Tree will display a progress bar on the thumbnail of the clip and a job list menu item will appear at the top of the Project Tree.
+While the transcode job is running, the Project Bin will display a progress bar on the thumbnail of the clip and a job list menu item will appear at the top of the Project Bin.
 
 
 .. image:: /images/Proxy_clip_creation.png

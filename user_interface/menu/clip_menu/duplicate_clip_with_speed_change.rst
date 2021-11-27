@@ -14,7 +14,7 @@ Duplicate Clip with speed change
 .. contents::
 
 
-This menu item is available from the Clip Jobs menu that appears when you :ref:`project_tree` on a clip in the Project Tree or from under the :ref:`project_menu` menu when a clip is selected in the Project Tree.  
+This menu item is available from the Clip Jobs menu that appears when you :ref:`project_tree` on a clip in the Project Bin or from under the :ref:`project_menu` menu when a clip is selected in the Project Bin.  
 
 
 .. image:: /images/Kdenlive_Create_duplicate_with_speed_effect.png
@@ -27,6 +27,6 @@ With the new version of the clip job the sound in the clip is also reversed - so
 .. image:: /images/Kdenlvie_Clip_job_clip_added.png
   :align: left
 
-When you select the :menuselection:`Duplicate Clip with speed change` option from the menu, a new clip is created in the Project Tree.  It has the filename you supplied in the dialog with a .mlt extension.  You can then add this clip to the timeline and when you play it, the video of the original source clip will played, but at the new speed (or in reverse).
+When you select the :menuselection:`Duplicate Clip with speed change` option from the menu, a new clip is created in the Project Bin.  It has the filename you supplied in the dialog with a .mlt extension.  You can then add this clip to the timeline and when you play it, the video of the original source clip will played, but at the new speed (or in reverse).
 
 

@@ -18,7 +18,7 @@ Adjust Profile to Current Clip
 
 This function is available from the :ref:`project_menu` menu.
 
-This function offers up a suggested Project Profile that would be most suitable for the properties of the currently selected clip (selected in the Project Tree?).
+This function offers up a suggested Project Profile that would be most suitable for the properties of the currently selected clip (selected in the Project Bin?).
 
 You get to see the profile it suggests and accept the suggestion or cancel.
 

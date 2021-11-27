@@ -24,7 +24,7 @@ What is Rotoscoping?
 
    -- `Wikipedia <https://en.wikipedia.org/wiki/Rotoscoping>`_
 
-Draw a region on one video track, and everything outside/inside that region will dissapear, showing the video track underneath.
+Draw a region on one video track, and everything outside/inside that region will disappear, showing the video track underneath.
 
 .. image:: /images/Kdenlive_rotoscoping.png
    :align: left

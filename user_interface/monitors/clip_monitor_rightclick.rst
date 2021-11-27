@@ -30,7 +30,7 @@ Play
 ~~~~
 
 
-Plays the clip currently selected in the project tree
+Plays the clip currently selected in the project bin
 
 
 Play Zone
@@ -177,7 +177,7 @@ You can then load the :file:`.mlt` files as clips into the project monitor and e
 Extract Zone
 ------------
 
-This brings up the **Cut Clip** dialog which appears to be setup to extract the zone into a new file and add it to the project tree.
+This brings up the **Cut Clip** dialog which appears to be setup to extract the zone into a new file and add it to the project bin.
 
 
 .. image:: /images/Kdenlive_Extract_zone.png
@@ -217,7 +217,7 @@ Extracts the frame currently in the clip monitor as a :file:`.PNG` image which y
 Set current image as thumbnail
 ------------------------------
 
-This will change the thumbnail that represents this clip in the project tree to the frame that is currently selected in the clip monitor.
+This will change the thumbnail that represents this clip in the project bin to the frame that is currently selected in the clip monitor.
 
 
 Monitor overlay infos

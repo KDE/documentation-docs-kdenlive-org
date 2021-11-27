@@ -17,7 +17,7 @@ Stabilize
 
 .. contents::
 
-This menu item is available from :ref:`project_tree` on a clip in the Project Tree or under the :ref:`project_menu` menu when a clip is selected in the Project Tree.
+This menu item is available from :ref:`project_tree` on a clip in the Project Bin or under the :ref:`project_menu` menu when a clip is selected in the Project Bin.
 
 
 This feature applies image stabilization algorithms to the clip which can reduce the shakiness of a bit of footage.

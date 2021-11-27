@@ -58,7 +58,7 @@ You can add other types of clips by choosing a clip type from the menu brought u
 Color clips
 -----------
 
-Color clips are images composed of a single color that can be added to the Project Tree. They can be useful to provide a background on which to place titles.
+Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place titles.
 
 
 Add color clips by choosing :menuselection:`Add Color Clip` from the drop down button next to the |kdenlive-add-clip| button.
@@ -73,7 +73,7 @@ This brings up the **Color Clip** dialog from which you can choose a color and a
    :alt: Add_color_clip
 
 
-Clicking :menuselection:`OK` adds the clip to the project tree. The clip can then be dragged to the timeline. The duration of the color clip can be adjusted on the timeline.
+Clicking :menuselection:`OK` adds the clip to the project bin. The clip can then be dragged to the timeline. The duration of the color clip can be adjusted on the timeline.
 
 
 Title clips
@@ -111,7 +111,7 @@ For example, if the first image is :file:`100_1697.jpg` then the next will be :f
 Select an appropriate frame duration – this defines how long each image be displayed.
 
 
-Then hit :menuselection:`OK`.  A video file made up of all the images in the folder from which you selected the first frame file from will be added to the Project Tree.
+Then hit :menuselection:`OK`.  A video file made up of all the images in the folder from which you selected the first frame file from will be added to the Project Bin.
 
 
 You can then drag this video to the timeline.
@@ -166,10 +166,10 @@ See also the :ref:`project_settings`  page
    :alt: Proxy_clip_creation
 
 
-As soon as proxy clips are enabled, they can be generated for specific project clips in the Project Tree widget via the context menu :menuselection:`Proxy Clip`. After you select :menuselection:`Proxy Clip` for a clip, a job will start to create the clip. You can view the progress of this job by looking at the little gray progress bar that appears at the bottom of the clip in the Project Tree – see picture. Clicking :menuselection:`Proxy Clip` again disables the proxy for this clip.
+As soon as proxy clips are enabled, they can be generated for specific project clips in the Project Bin widget via the context menu :menuselection:`Proxy Clip`. After you select :menuselection:`Proxy Clip` for a clip, a job will start to create the clip. You can view the progress of this job by looking at the little gray progress bar that appears at the bottom of the clip in the Project Bin – see picture. Clicking :menuselection:`Proxy Clip` again disables the proxy for this clip.
 
 
-You can multi-select clips in the Project Tree and select :menuselection:`Proxy Clip` to start a batch proxy clip generation job which will queue up multiple proxy clip generation jobs. 
+You can multi-select clips in the Project Bin and select :menuselection:`Proxy Clip` to start a batch proxy clip generation job which will queue up multiple proxy clip generation jobs. 
 
 
 .. image:: /images/Proxy_clip_creation_completed.png
@@ -178,7 +178,7 @@ You can multi-select clips in the Project Tree and select :menuselection:`Proxy 
    :alt: Proxy_clip_creation_completed
 
 
-Once the proxy clip creation has completed, the proxy clip will appear with a **P** icon in the Project Tree.
+Once the proxy clip creation has completed, the proxy clip will appear with a **P** icon in the Project Bin.
 
 
 When rendering to the final output file, you can choose whether to use the proxy clips as well. It is disabled by default , but for a quick rendering preview it is useful.

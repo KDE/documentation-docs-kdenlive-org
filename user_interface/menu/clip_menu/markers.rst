@@ -24,21 +24,21 @@ The items that appear as sub-menu items on the Clip>Markers menu item are ...
 Add Marker
 ----------
 
-Adds a marker to the clip at the current timepoint.  Markers are properties of the clips in the project tree. So this action puts a marker in the clip in the project tree. 
+Adds a marker to the clip at the current timepoint.  Markers are properties of the clips in the project bin. So this action puts a marker in the clip in the project bin. 
 
 Edit Marker
 -----------
 
 For this to work the cursor caret needs to right on top of a marker. If you are not then you get an error on the bottom left "No Marker found at Cursor time".  Since the Go To Marker for the clip menu does not work, it is some times a bit tricky to make this menu item work.
 
-Editing a marker in the timeline causes the marker to update in the project tree and thus it also updates anywhere else the clip appears in the timeline.
+Editing a marker in the timeline causes the marker to update in the project bin and thus it also updates anywhere else the clip appears in the timeline.
 
 Delete Marker
 -------------
 
 For this to work the cursor caret needs to right on top of a marker. If you are not then you get an error on the bottom left "No Marker found at Cursor time". Since the Go To Marker for the clip menu does not work, it is some times a bit tricky to make this menu item work. 
 
-Markers are properties of the clips in the project tree. So this action removes the marker from the clip in the project tree an thus from any other instances of this clip in the timeline.
+Markers are properties of the clips in the project bin. So this action removes the marker from the clip in the project bin an thus from any other instances of this clip in the timeline.
 
 Delete All Markers
 ------------------

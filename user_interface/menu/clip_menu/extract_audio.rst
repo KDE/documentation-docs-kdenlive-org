@@ -22,7 +22,7 @@ Extract Audio
 This feature extracts the audio out of a video clip into a :file:`.WAV` file and adds it to the :ref:`project_tree`.
 
 
-This menu item is available from :ref:`project_tree` on a clip in the Project Tree or under the :ref:`clip_menu` when a clip is selected in the Project Bin.
+This menu item is available from :ref:`project_tree` on a clip in the Project Bin or under the :ref:`clip_menu` when a clip is selected in the Project Bin.
 
 
 .. image:: /images/Kdnelive_Extract_audio.png

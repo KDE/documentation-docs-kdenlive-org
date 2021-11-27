@@ -21,7 +21,7 @@ The Project Bin
 
 .. contents::
 
-The Project Bin is a view in Kdenlive which lists all the clips that are associated with the project. In earlier versions of Kdenlive this view was known as the Project Tree.  In addition to the new name, versions 15.04 and higher introduced two new options to the view's toolbar. The list following the example describes the options represented by the icons on the toolbar (identified by the numbers in the screenshots).
+The Project Bin is a view in Kdenlive which lists all the clips that are associated with the project. In earlier versions of Kdenlive this view was known as the Project Bin.  In addition to the new name, versions 15.04 and higher introduced two new options to the view's toolbar. The list following the example describes the options represented by the icons on the toolbar (identified by the numbers in the screenshots).
 
 
 .. figure:: /images/Kdenlive_Project_bin_17_04.png

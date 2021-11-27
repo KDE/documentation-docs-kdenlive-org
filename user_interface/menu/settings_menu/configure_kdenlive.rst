@@ -88,7 +88,7 @@ Autoscroll while playing
 
 Zoom using vertical drag in the ruler
 
-**Automatically split audio and video** - tracks will automatically have the video and audio portions split into a video and audio track when they are dragged from the project tree to the timeline; i.e., this setting will cause Kdenlive to automatically do what the :ref:`clip_menu` function on the Clip Menu does.
+**Automatically split audio and video** - tracks will automatically have the video and audio portions split into a video and audio track when they are dragged from the project bin to the timeline; i.e., this setting will cause Kdenlive to automatically do what the :ref:`clip_menu` function on the Clip Menu does.
 
 **Track Height** - defines the default track height in pixels for the tracks on the timeline.
 
@@ -138,7 +138,7 @@ Default Apps
 
 
 
-This setting controls what application opens when you choose :ref:`edit_clip` for a clip in the project tree. Note there is no application for video editing - because **Kdenlive** is a video editor.  Images and audio files are edited by the external applications defined here. The video player is used by the DVD wizard previewer.
+This setting controls what application opens when you choose :ref:`edit_clip` for a clip in the project bin. Note there is no application for video editing - because **Kdenlive** is a video editor.  Images and audio files are edited by the external applications defined here. The video player is used by the DVD wizard previewer.
 
 
 Capture

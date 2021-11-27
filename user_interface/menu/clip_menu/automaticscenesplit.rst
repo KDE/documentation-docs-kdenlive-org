@@ -33,7 +33,7 @@ Cut scenes are numbered and sorted under the clip in the project bin window and 
   :align: center
 
 
-This menu item is available from the Clip Jobs menu that appears when you :ref:`project_tree` on a clip in the Project Tree
+This menu item is available from the Clip Jobs menu that appears when you :ref:`project_tree` on a clip in the Project Bin.
 
 
 .. image:: /images/20210508-kdenlive-21.04-Scene_Split_Menu.png
