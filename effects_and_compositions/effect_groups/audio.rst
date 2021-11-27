@@ -17,7 +17,7 @@ Audio Effects
 
 .. contents::
 
-The following effects are available under the :menuselection:`Effects List --> Audio`. The links below are to the MLT framework documentation for these audio effects. Somewhat better documenation may be found at Steve Harris' LADSPA Plugin Docs `here <http://plugin.org.uk/ladspa-swh/docs/ladspa-swh.html>`_.https://www.mltframework.org/plugins/
+The following effects are available under the :menuselection:`Effects List --> Audio`. The links below are to the MLT framework documentation for these audio effects. Somewhat better documentation may be found at Steve Harris' LADSPA Plugin Docs `here <http://plugin.org.uk/ladspa-swh/docs/ladspa-swh.html>`_.https://www.mltframework.org/plugins/
 
 `4 x 4 pole allpass <https://www.mltframework.org/plugins/FilterLadspa-1218/>`_
 

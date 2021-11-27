@@ -48,5 +48,5 @@ Deletes all markers from the current clip. Does not appear to work - get "Cannot
 Go To marker ...
 ----------------
 
-The Go To Marker menu item (clip menu) does not appear to work properly. Choosing a marker from this menu item causes the cursor caret to scoot to the end of the clip - it does not stop at the marker choosen. The :ref:`clip_monitor_rightclick` on the Clip Monitor right click menu does work.
+The Go To Marker menu item (clip menu) does not appear to work properly. Choosing a marker from this menu item causes the cursor caret to scoot to the end of the clip - it does not stop at the marker chosen. The :ref:`clip_monitor_rightclick` on the Clip Monitor right click menu does work.
 

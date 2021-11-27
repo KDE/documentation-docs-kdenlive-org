@@ -62,7 +62,7 @@ Let’s start with those **archetypical transitions** most users would probably 
       :alt: transition-slide
       :width: 350px
 
-   **Slide**: gradually replaces one clip by another clip, by travelling from one side of the frame to another (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
+   **Slide**: gradually replaces one clip by another clip, by traveling from one side of the frame to another (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
 
 .. container:: clear-both
 

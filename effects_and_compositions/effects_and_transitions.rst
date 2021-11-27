@@ -243,7 +243,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`audio_spectrum_filter`
     - Video Effect
     - On Master
-    - An audio visualation fitler that draws an audio spectrum on the image. (audiospectrum)
+    - An audio visualization fitler that draws an audio spectrum on the image. (audiospectrum)
   * - :ref:`audio_wave`
     - Video Effect
     - On Master
@@ -359,7 +359,7 @@ Alphabetical List of Effects and Compositions
   * - cairo_blend
     - Compositions
     - -
-    - Composies second input on the first input with user-defined blend mode and opacity. (frei0r.cairoblend)
+    - Composites second input on the first input with user-defined blend mode and opacity. (frei0r.cairoblend)
   * - :ref:`cairogradient`
     - Video Effect
     - Generate
@@ -415,7 +415,7 @@ Alphabetical List of Effects and Compositions
   * - color_balance
     - Video Effect
     - Color and Image correction
-    - Modify indensity of primary colors (red, green and blue) of input frames. (avfilter.colorbalance)
+    - Modify intensity of primary colors (red, green and blue) of input frames. (avfilter.colorbalance)
   * - color_channel_mixer
     - Video Effect
     - Color and Image correction
@@ -723,7 +723,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`equaliz0r`
     - Video Effect
     - Color and Image correction
-    - Equalizes the indesity historgrams (frei0r.equaliz0r)
+    - Equalizes the intensity historgrams (frei0r.equaliz0r)
   * - erosion
     - Video Effect
     - Image Adjustment
@@ -783,7 +783,7 @@ Alphabetical List of Effects and Compositions
   * - firequalier
     - Audio Effect
     - Audio
-    - Finite Impuse Response Equalizer. (avfilter.firequalizer)
+    - Finite Impulse Response Equalizer. (avfilter.firequalizer)
   * - `Flanger <https://www.mltframework.org/plugins/FilterLadspa-1191/>`_
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -907,7 +907,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`greyscale_effect`
     - Video Effect
     - Color and Image correction
-    - Discord color infomration (greyscale)
+    - Discord color information (greyscale)
   * - `GSM simulator <https://www.mltframework.org/plugins/FilterLadspa-1215/>`_
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -967,7 +967,7 @@ Alphabetical List of Effects and Compositions
   * - hqx
     - Video Effect
     - Image Adjustment
-    - Scale the inmput by 2, 3 or 4 using the hq*x magnification algorithm (avfilter.hqx)
+    - Scale the input by 2, 3 or 4 using the hq*x magnification algorithm (avfilter.hqx)
   * - :ref:`hue`
     - Compositions
     -
@@ -1019,7 +1019,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`keysplillm0pup`
     - Video Effect
     - Alpha, Mask and Keying
-    - Reduces the visability of key color spill in chroma keying (frei0r.keyspillm0pup)
+    - Reduces the visibility of key color spill in chroma keying (frei0r.keyspillm0pup)
   * - kirsch
     - Video Effect
     - Misc
@@ -1063,7 +1063,7 @@ Alphabetical List of Effects and Compositions
   * - lightshow
     - Video Effect
     - On Master
-    - An audio visualation filter that colors the image proportional to the magnitude of the audio spectrum. (lightshow)
+    - An audio visualization filter that colors the image proportional to the magnitude of the audio spectrum. (lightshow)
   * - lighten
     - Compositions
     -
@@ -1942,11 +1942,11 @@ Alphabetical List of Effects and Compositions
     -
   * - :ref:`white_balance`
     - Video Effect
-    - Color and Image correctin
+    - Color and Image correcting
     - Adjust the white balance / color temperature (frei0r.balanc0r)
   * - :ref:`white_balance(lms)`
     - Video Effect
-    - Color and Image correctin
+    - Color and Image correcting
     - Do simple color correction, in a physically meaningful way (frei0r.colgate)
   * - :ref:`wipe`
     - Compositions

@@ -8,7 +8,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _spectogram:
+.. _spectrogram:
 
 Spectrogram
 ===========
@@ -22,16 +22,16 @@ The spectrogram displays the loudness (in decibels) of the audio at different au
 
 .. image:: /images/Kdenlive_Spectrogram.png
    :align: left
-   :alt: Spectogram monitor in versions 0.9.8 or lower.
+   :alt: Spectrogram monitor in versions 0.9.8 or lower.
 
 
 .. image:: /images/Kdenlive_Spectogram_v0.9.10.png
    :align: left
-   :alt: Spectogram monitor in versions 0.9.10 or higher.
+   :alt: Spectrogram monitor in versions 0.9.10 or higher.
 
 
 
-For more information see `Granjow's blog <http://kdenlive.org/users/granjow/introducing-scopes-audio-spectrum-and-spectrogram>`_ on Spectogram
+For more information see `Granjow's blog <http://kdenlive.org/users/granjow/introducing-scopes-audio-spectrum-and-spectrogram>`_ on Spectrogram
 
 .. attention::
 

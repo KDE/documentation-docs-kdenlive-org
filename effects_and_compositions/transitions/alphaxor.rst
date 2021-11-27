@@ -7,8 +7,8 @@
 
 .. _alphaxor:
 
-alphaxor transtion
-==================
+alphaxor transition
+===================
 
 .. contents::
 

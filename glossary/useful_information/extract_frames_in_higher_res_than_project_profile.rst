@@ -60,7 +60,7 @@ Project Profile … and Profile-Differing Footage
       :alt: hires-frames-frame-properties
       :width: 350px
 
-   Hardly what you want here, as our detail screenshot shows. When comparing this clip monitor screenshot with the clip monitor screenshot taken from the raw footage, you’ll notice their different qualities. It doesn’t matter which we you prefer, the issue is that they noticably differ.
+   Hardly what you want here, as our detail screenshot shows. When comparing this clip monitor screenshot with the clip monitor screenshot taken from the raw footage, you’ll notice their different qualities. It doesn’t matter which we you prefer, the issue is that they noticeably differ.
 
    This is a no-no when we need to use both the raw footage as well as the extracted frames in the same project, especially adjacent to each other in the timeline. The differences are clearly visible, unless you compress the resulting video to the extreme of looking rather like a fake `Barbapapa <https://en.wikipedia.org/wiki/Barbapapa>`_ episode (yep, I’m *that old* to have this seen in its time).
 

@@ -53,13 +53,13 @@ Ready to add the transition:
 
 The transition length defaults to one second equally distributed between the two clips. You can drag either end of the transition to adjust.
 
-The default transition is dissolve, but you can select (click) the transtion and edit the wipe method and properties as desired in the effect/transition stack window.
+The default transition is dissolve, but you can select (click) the transition and edit the wipe method and properties as desired in the effect/transition stack window.
 
 The composition method is set to Luma, and it does not make sense to change that, since there will not really be a transition. Other methods are meant for compositing two videos, not transitioning between them.
 
 * Select the desired wipe from Wipe Method.
-* The Reverse option reverses the transtion.
-* The Softness slider will affect the edges of wipe transtions.
+* The Reverse option reverses the transition.
+* The Softness slider will affect the edges of wipe transitions.
 * Set the desired duration.
 * Since 21.08: select the alignment of the transition, either left, centered (default) or right.
 

@@ -23,7 +23,7 @@ This allows you to monitor the audio properties of your clip in detail. The grap
 It graphs the loudness of the audio (in decibels - vertical axis) for each audio frequency (horizontal axis) in the current frame. The blue curve is +- the maximum over the previous few samples.
 
 
-See also :ref:`spectogram` scope which displays a graphical representation of the audio spectrum over the entire clip.
+See also :ref:`spectrogram` scope which displays a graphical representation of the audio spectrum over the entire clip.
 
 
 .. image:: /images/Audio_spectogram.png
