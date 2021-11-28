@@ -891,7 +891,7 @@ Alphabetical List of Effects and Compositions
   * - gradfun
     - Video Effect
     - Grain and Noise
-    - Debrands video quickly using gradients. (avfilter.gradfun)
+    - Debands video quickly using gradients. (avfilter.gradfun)
   * - :ref:`grain`
     - Video Effect
     - Deprecated
@@ -1015,7 +1015,7 @@ Alphabetical List of Effects and Compositions
   * - kernel_deinterlacer
     - Video Effect
     - Image Adjustment
-    - Deinterlace input video by applying donald Graft’s adaptive kernel deinterlacing. Works on interlaced parts of a video to produce progressive frames. (avfilter.kerndeint)
+    - Deinterlace input video by applying Donald Graft’s adaptive kernel deinterlacing. Works on interlaced parts of a video to produce progressive frames. (avfilter.kerndeint)
   * - :ref:`keysplillm0pup`
     - Video Effect
     - Alpha, Mask and Keying
@@ -1067,7 +1067,7 @@ Alphabetical List of Effects and Compositions
   * - lighten
     - Compositions
     -
-    - Perform a lighten operation between two sources (maximum value of voth sources). (frei0r.lighten)
+    - Perform a lighten operation between two sources (maximum value of both sources). (frei0r.lighten)
   * - limiter
     - Video Effect
     - Color and Image correction
