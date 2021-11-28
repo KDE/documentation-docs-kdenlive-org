@@ -47,58 +47,54 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
 4 - The track itself, this is where you can drop your clips.
 
 
-.. versionadded:: 21.04.0
-  
+
 **Zoombars**
 
+.. versionadded:: 21.04.0
 
-Besides the availability of zoombars in the monitor and keyframe scroll bars, zoombars are now available in the timeline as well. You can easily zoom in/out in the timeline by dragging the edges of the timeline scrollbar. (Vertical zoombars coming soon.) Recommend playing this video in full-screen mode.
+.. container:: clear-both
 
-.. image:: /images/Zoom-bar.gif
-   :align: left 
-   :alt: Zoom-bar
- 
-  
+   .. image:: /images/Zoom-bar.gif
+      :align: left 
+      :alt: Zoom-bar
+
+   Besides the availability of zoombars in the monitor and keyframe scroll bars, zoombars are now available in the timeline as well. You can easily zoom in/out in the timeline by dragging the edges of the timeline scrollbar. (Vertical zoombars coming soon.) Recommend playing this video in full-screen mode.
 
 **Key binding information**
 
+.. versionadded:: 21.04.0
 
-Key binding info has been added on the left while context item information has been moved to the right of the :ref:`status_bar`. Recommend playing this video in full-screen mode.
+.. container:: clear-both
 
+   .. image:: /images/Context-and-keybinds.gif
+      :align: left 
+      :alt: context-and-keybinds
 
-.. image:: /images/Context-and-keybinds.gif
-   :align: left 
-   :alt: context-and-keybinds
-  
+   Key binding info has been added on the left while context item information has been moved to the right of the :ref:`status_bar`. Recommend playing this video in full-screen mode.
 
 
 **Improved timeline visuals**
 
+.. versionadded:: 21.04.0
 
 The timeline got a visual overhaul with more and better looking guides/marker colors, the guides have been moved above the timeline ruler while preview and zone bars have been moved below.
 
 
 .. image:: /images/timeline-overhaul.png
-   :align: left 
    :alt: timeline_overhaul
   
 Before (above) and after (below)
 
+.. rst-class:: clear-both
 
 Split Audio/Video
 -----------------
 
-
-
 .. versionadded:: 19.04.0
 
-
 .. image:: /images/splitAV.gif
-   :align: left 
    :alt: splitAV
 
-
-.. versionadded:: 19.04.0 
    
 The way timeline tracks work has changed. Each track is now either audio or video, and will only accept audio and video clips respectively. When dragging an AV clip from the project bin in the timeline, the clip will be automatically split, the video part going on a video track, and the audio part on an audio track.   
 
@@ -109,16 +105,18 @@ The separation of audio/video is important for implementing same-track-transitio
 Timeline Cursor/Position Caret/Playhead
 ---------------------------------------
 
-.. image:: /images/kdenlive_timeline_playhead.png
-   :width: 450px
-   :align: left
-   :alt: timeline playhead
+.. container:: clear-both
 
-This indicates the position we are displaying in the :ref:`monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead). 
+   .. image:: /images/kdenlive_timeline_playhead.png
+      :width: 450px
+      :align: left
+      :alt: timeline playhead
 
+   This indicates the position we are displaying in the :ref:`monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead). 
 
-Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :ref:`configure_kdenlive`.
+   Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :ref:`configure_kdenlive`.
 
+.. rst-class:: clear-both
 
 Tracks
 ------
@@ -133,7 +131,6 @@ Resizing tracks
 
 
 .. image:: /images/resize-tracks.gif
-   :align: left
    :alt: resize-tracks
   
 
@@ -142,43 +139,68 @@ Tracks can be individually resized. (Holding down :kbd:`Shift` makes all video o
 
 
 .. image:: /images/layout-modes.gif
-   :align: left
    :alt: layout-modes
   
 
 
 Switch live between two different layout modes (Mixed or Split).
 
+Keyboard Navigation
+~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 19.04.0
+
+.. image:: /images/shift-g.gif
+   :alt: shift-g
+
+You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in timeline and use the ::guilabel:`Grab Current Item` (:kbd:`Shift + G`) function from the :menuselection:`Timeline` menu.
+
+.. image:: /images/moving-keyframes.gif
+   :alt: moving-keyframes
+
+You can then move the item with your arrow keys. Keyframes can also be moved individually. Just click on a keyframe in timeline, then move it left/right with :kbd:`arrows`, change its value with :kb:`+` and :kbd:`-`. :kbd:`Alt + arrow` to go to another keyframe.
+
+Keyframe handling
+~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 19.04.0
+
+.. image:: /images/keyframe-improvements.gif
+   :alt: keyframe-improvements
+
+* Add a new keyframe by double clicking in timeline.
+* You can move a keyframe without altering it’s value by using the vertical line that appears when you are above or below a keyframe.
+* Remove a keyframe by dragging it far above or below the clip limits.
 
 Configurable thumbnails for each track
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. versionadded:: 19.04.0
 
+.. container:: clear-both
 
-.. image:: /images/Configurable_thumbnails.png
-   :align: left
-   :alt: Configurable_thumbnails
+   .. image:: /images/Configurable_thumbnails.png
+      :align: left
+      :alt: Configurable_thumbnails
   
+   You can choose to display between :menuselection:`In frame`, :menuselection:`In/Out frames`, :menuselection:`All frames` or :menuselection:`No thumbnails`.
 
-
-You can choose to display between :menuselection:`In frame`, :menuselection:`In/Out frames`, :menuselection:`All frames` or :menuselection:`No thumbnails`.
-
+.. rst-class:: clear-both
 
 Disabling individual clips
 --------------------------
 
 .. versionadded:: 19.04.0
 
+.. container:: clear-both
 
-.. image:: /images/Disabling_individual_clips.png
-   :align: left
-   :alt: Disabling_individual_clips
+   .. image:: /images/Disabling_individual_clips.png
+      :align: left
+      :alt: Disabling_individual_clips
   
+   Individual clips can be disabled while still in the timeline but with no audio and no video – (works for all clip types). Right-click on the clip and choose :menuselection:`Disable clip` or :menuselection:`Enable clip`.
 
-
-Individual clips can be disabled while still in the timeline but with no audio and no video – (works for all clip types). Right-click on the clip and choose :menuselection:`Disable clip` or :menuselection:`Enable clip`.
-
+.. rst-class:: clear-both
 
 .. toctree::
    :maxdepth: 1
