@@ -50,7 +50,7 @@ Transparency and Edge masks are based on the alpha channel from the preceding ke
 
 .. note::
 
-  If a "hard key" was used in the preceding keying, there will be no areas that T operations could affect. Edge maskss will affect only pixels close to the edge, with the effect diminishing away from the edge. The outer edge is the edge of the fully opaque part, where the alpha from the preceding keying is 1.0 (255).
+  If a "hard key" was used in the preceding keying, there will be no areas that T operations could affect. Edge masks will affect only pixels close to the edge, with the effect diminishing away from the edge. The outer edge is the edge of the fully opaque part, where the alpha from the preceding keying is 1.0 (255).
 
 .. note::
 
