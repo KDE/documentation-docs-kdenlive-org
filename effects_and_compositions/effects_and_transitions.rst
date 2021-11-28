@@ -363,7 +363,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`cairogradient`
     - Video Effect
     - Generate
-    - Draws a gradient on top of image. Filter is given gradient start and end points, oclors and opacities.
+    - Draws a gradient on top of image. Filter is given gradient start and end points, colors and opacities.
   * - :ref:`cairoimagegrid`
     - Video Effect
     - Generate
@@ -423,7 +423,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`color_distance`
     - Video Effect
     - Stylize
-    - Calculates the disstance between the selected color and the current pixel and uses that value as a new pixel value 9frei0r.colordistance)
+    - Calculates the distance between the selected color and the current pixel and uses that value as a new pixel value (frei0r.colordistance)
   * - :ref:`color_effect`
     - Video Effect
     - Stylize
@@ -443,7 +443,7 @@ Alphabetical List of Effects and Compositions
   * - colorcontrast
     - Video Effect
     - Stylize
-    - Calculates the disstance between the selected color and the current pixel and uses that value as a new pixel value 9frei0r.colordistance)
+    - Calculates the distance between the selected color and the current pixel and uses that value as a new pixel value (frei0r.colordistance)
   * - colorcorrect
     - Video Effect
     - Stylize
@@ -463,7 +463,7 @@ Alphabetical List of Effects and Compositions
   * - colormatrix
     - Video Effect
     - Image Adjustment
-    - Covert color matrix. (avfilter.colormatrix)
+    - Convert color matrix. (avfilter.colormatrix)
   * - colortemperature
     - Video Effect
     - Misc
@@ -511,7 +511,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`contrast`
     - Video Effect
     - Color and Image correction
-    - Adjusts the contrast of a source image (frei0r.contrast0r))
+    - Adjusts the contrast of a source image (frei0r.contrast0r)
   * - copy_channels
     - Audio Effect
     - Audio
@@ -523,7 +523,7 @@ Alphabetical List of Effects and Compositions
   * - crop_by_padding
     - Video Effect
     - Transform, Distort and Perspective
-    - This filter crops the image to a rounded rectangle or cirlce by padding it in with a color. (qtcrop)
+    - This filter crops the image to a rounded rectangle or circle by padding it with a color. (qtcrop)
   * - :ref:`scale_and_tilt`
     - Video Effect
     - Transform, Distort and Perspective
@@ -551,7 +551,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`curves`
     - Video Effect
     - Color and Image correction
-    - Color cureves adjustment (frei0r.curves)
+    - Color curves adjustment (frei0r.curves)
   * - :ref:`dance`
     - Video Effect
     - On Master
@@ -707,7 +707,7 @@ Alphabetical List of Effects and Compositions
   * - edgedetect
     - Video Effect
     - Transform, Distort and Perspective
-    - Detect and draw edges.  The filter uses the Canny Edge Detection algorithm. (avfilter.edgedetect)
+    - Detect and draw edges. The filter uses the Canny Edge Detection algorithm. (avfilter.edgedetect)
   * - elastic_scale_filter
     - Video Effect
     - Transform, Distort and Perspective
@@ -875,7 +875,7 @@ Alphabetical List of Effects and Compositions
   * - glitch0r
     - Video Effect
     - Motion
-    - Adds gliches and block shifting (frei0r.glitch0r)
+    - Adds glitches and block shifting (frei0r.glitch0r)
   * - :ref:`glow`
     - Video Effect
     - Blur and Hide
@@ -894,7 +894,7 @@ Alphabetical List of Effects and Compositions
     - Debrands video quickly using gradients. (avfilter.gradfun)
   * - :ref:`grain`
     - Video Effect
-    - Depricated
+    - Deprecated
     - Grain over the image (grain)
   * - grain_extract
     - Compositions
@@ -907,7 +907,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`greyscale_effect`
     - Video Effect
     - Color and Image correction
-    - Discord color information (greyscale)
+    - Discard color information (greyscale)
   * - `GSM simulator <https://www.mltframework.org/plugins/FilterLadspa-1215/>`_
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -951,7 +951,7 @@ Alphabetical List of Effects and Compositions
   * - highshelf
     - Audio Effect
     - Audio
-    - Apply a high self filter. (avfilter.highshelf)
+    - Apply a high shelf filter. (avfilter.highshelf)
   * - `Hilbert transformer <https://www.mltframework.org/plugins/FilterLadspa-1440/>`_
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -1071,7 +1071,7 @@ Alphabetical List of Effects and Compositions
   * - limiter
     - Video Effect
     - Color and Image correction
-    - Lilmits the pixel components values to the specified range [min,max] (avfilter.limiter)
+    - Limits the pixel components values to the specified range [min,max] (avfilter.limiter)
   * - loudness_meter
     - Audio Effect
     - Audio 
@@ -1081,7 +1081,7 @@ Alphabetical List of Effects and Compositions
     - Audio 
     - EBU R128 loudness normalization (avfilter.loudnorm)
   * - lowshelf
-    - Audiofect
+    - Audio Effect
     - Audio 
     - Apply a low-pass filter with 3dB point frequency. (avfilter.lowpass)
   * - lighten
@@ -1191,7 +1191,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`ndvi_filter`
     - Video Effect
     - Utility
-    - This filter creates a false image from a visible + infrared source. (frei0r.ndvi))
+    - This filter creates a false image from a visible + infrared source. (frei0r.ndvi)
   * - :ref:`nervous`
     - Video Effect
     - Motion
@@ -1199,7 +1199,7 @@ Alphabetical List of Effects and Compositions
   * - nikon_d90_stairstepping_fix
     - Video Effect
     - Utility
-    - Removes stairstepping artifacts from Nikon D90's 720p videos.  Sharp lines in videos from the Nikon D90 show steps each 8th or 9th line, assumedly due to poor downsampling.  These can be smoothed out with this filter if they become too annoying (frei0r.d90stairsteppingfix)
+    - Removes stairstepping artifacts from Nikon D90's 720p videos.  Sharp lines in videos from the Nikon D90 show steps each 8th or 9th line, assumedly due to poor downsampling. These can be smoothed out with this filter if they become too annoying (frei0r.d90stairsteppingfix)
   * - normalise
     - Audio Effect
     - Audio Correction
@@ -1283,7 +1283,7 @@ Alphabetical List of Effects and Compositions
   * - posterize
     - Video Effect
     - Stylize
-    - Posterizes image by reducing the number of oclors used in image (frei0r.posterize)
+    - Posterizes image by reducing the number of colors used in image (frei0r.posterize)
   * - pp
     - Video Effect
     - Utility
@@ -1315,7 +1315,7 @@ Alphabetical List of Effects and Compositions
   * - rescale
     - Video Effect
     - Image Adjustment
-    - Scale the producer video frames size to match the consumer. This filter is designed for use as a normaliser forthe loader producer. (rescale)
+    - Scale the producer video frames size to match the consumer. This filter is designed for use as a normaliser for the loader producer. (rescale)
   * - `Retro Flanger <https://www.mltframework.org/plugins/FilterLadspa-1208/>`_
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -1371,7 +1371,7 @@ Alphabetical List of Effects and Compositions
   * - rubber_band_mono_pitch_shifter
     - Audio Effect
     - Audio
-    - Adjust the audio ptich using the Rubberband library. (rbptich)
+    - Adjust the audio pitch using the Rubberband library. (rbpitch)
   * - rubber_band_mono_pitch_shifter`
     - Audio Effect
     - Audio
@@ -1799,7 +1799,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`transform`
     - Compositions
     -
-    - Peform an affine transform on for compositing. (affine)
+    - Perform an affine transform on for compositing. (affine)
   * - `Transient mangler <https://www.mltframework.org/plugins/FilterLadspa-1206/>`_
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -1871,7 +1871,7 @@ Alphabetical List of Effects and Compositions
   * - videoquality_measurement
     - Transition
     -
-    - This performs the PSNR and SSIm video quality measurements by comparing the B frames to the refernce fram A. It outputs the numbers to stdout in space-delimited format for easy use by another tool.  The bottom half of the B frame is placed below the top haf of the A frame for visual comparison. (vqm)
+    - This performs the PSNR and SSIm video quality measurements by comparing the B frames to the reference frame A. It outputs the numbers to stdout in space-delimited format for easy use by another tool. The bottom half of the B frame is placed below the top half of the A frame for visual comparison. (vqm)
   * - :ref:`video_values`
     - Video Effect
     - Utility
@@ -1915,7 +1915,7 @@ Alphabetical List of Effects and Compositions
   * - vr360_stabilize
     - Video Effect
     - VR360 and 3D
-    - Stabilizes 360 footage.  The plugin works in two phases - analysis and stabilization.  When analyzing footage, it detects frame-toframe rotation, and when stabilizing it tries to correct high-frequency motion (shake) (frei0r.bighsh0t_stabilize_360)
+    - Stabilizes 360 footage. The plugin works in two phases - analysis and stabilization. When analyzing footage, it detects frame-to-frame rotation, and when stabilizing it tries to correct high-frequency motion (shake) (frei0r.bighsh0t_stabilize_360)
   * - vr360_transform
     - Video Effect
     - VR360 and 3D
