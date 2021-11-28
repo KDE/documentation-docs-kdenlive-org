@@ -10,11 +10,12 @@ msgstr ""
 "PO-Revision-Date: 2021-11-25 09:57+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:13
@@ -22,13 +23,18 @@ msgid "How to fading in-out Kdenlive titles"
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:15
-msgid "In this short *HOWTO* video, we show you how to (smoothly) fade in and out Kdenlive titles over a video clip, fading from and to transparency. The key to success is to use a **Composite & Transform** transition with keyframes (**Affine** and **Composite** will work too). **Don’t use** the Fade from/to Black effects though, as these effects remove the title transparency information."
+msgid ""
+"In this short *HOWTO* video, we show you how to (smoothly) fade in and out "
+"Kdenlive titles over a video clip, fading from and to transparency. The key "
+"to success is to use a **Composite & Transform** transition with keyframes "
+"(**Affine** and **Composite** will work too). **Don’t use** the Fade from/to "
+"Black effects though, as these effects remove the title transparency "
+"information."
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:23
 msgid "Notes"
-msgstr ""
-"Нотатки"
+msgstr "Нотатки"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:25
 msgid "These are the individual steps shown in this HOWTO video:"
@@ -39,23 +45,37 @@ msgid "Add a Composite & Transform transition to the title clip."
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:28
-msgid "First keyframe: set the opacity to 0%. This marks the beginning of the fade in (ramp up)."
+msgid ""
+"First keyframe: set the opacity to 0%. This marks the beginning of the fade "
+"in (ramp up)."
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
-msgid "Second keyframe: add a new keyframe where you want the title to be fully faded in, set the opacity to 100%. Set the type of the keyframe to Linear."
+msgid ""
+"Second keyframe: add a new keyframe where you want the title to be fully "
+"faded in, set the opacity to 100%. Set the type of the keyframe to Linear."
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
-msgid "The rationale to set this keyframe to Linear is that otherwise Kdenlive (MLT) calculates a smooth curve fitting to the previous and following keyframe, causing the opacity value to overshoot. With a maximum possible opacity of 100% you won’t notice. However, when you use a maximum opacity of less than 100%, then this overshooting may become visible."
+msgid ""
+"The rationale to set this keyframe to Linear is that otherwise Kdenlive "
+"(MLT) calculates a smooth curve fitting to the previous and following "
+"keyframe, causing the opacity value to overshoot. With a maximum possible "
+"opacity of 100% you won’t notice. However, when you use a maximum opacity of "
+"less than 100%, then this overshooting may become visible."
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:31
-msgid "Ensure that the first keyframe is Smooth. You can only adjust the type of the first keyframes after you’ve added a second keyframe."
+msgid ""
+"Ensure that the first keyframe is Smooth. You can only adjust the type of "
+"the first keyframes after you’ve added a second keyframe."
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:32
-msgid "Third keyframe: add another keyframe near the end where you want to start fading out the title. Leave the opacity at 100%. Set the keyframe type to Smooth."
+msgid ""
+"Third keyframe: add another keyframe near the end where you want to start "
+"fading out the title. Leave the opacity at 100%. Set the keyframe type to "
+"Smooth."
 msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:33
@@ -64,9 +84,11 @@ msgstr ""
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:35
 msgid "Done."
-msgstr ""
-"Готово."
+msgstr "Готово."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:37
-msgid "In case you are scratching your head now, why this mixture of smooth and linear interpolated keyframes? Then head over to our new article on :ref:`the_smooth_keyframe_interpolation`."
+msgid ""
+"In case you are scratching your head now, why this mixture of smooth and "
+"linear interpolated keyframes? Then head over to our new article on :ref:"
+"`the_smooth_keyframe_interpolation`."
 msgstr ""
