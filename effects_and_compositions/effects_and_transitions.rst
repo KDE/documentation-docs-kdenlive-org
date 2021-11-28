@@ -344,7 +344,7 @@ Alphabetical List of Effects and Compositions
     - Compositions
     -
     - Perform an RGB[A] dodge operation between the pixel sources, using the generalized algorithm: D = saturation of 255 or depletion of 0, of ((255-A)*256) / (b+1) (frei0r.burn)
-  * - BurningTV – Deprecated]]
+  * - BurningTV – Deprecated
     - Video Effect
     - Deprecated
     - burningtv

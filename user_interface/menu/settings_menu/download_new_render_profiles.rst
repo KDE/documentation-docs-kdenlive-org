@@ -17,7 +17,7 @@ Download New Render Profiles
 .. contents::
 
 
-* *Note:** Between August, 2013 and October 2014 this feature had been unavailable and the "Get Hot New Stuff" window will wait forever to update. See Mantis `3133 <https://bugs.kdenlive.org/view.php?id=3133>`_.  From around Oct  2014 this feature has been re-instated. However as at Oct 2015 there are only two profiles available for download.
+**Note:** Between August, 2013 and October 2014 this feature had been unavailable and the "Get Hot New Stuff" window will wait forever to update. See Mantis `3133 <https://bugs.kdenlive.org/view.php?id=3133>`_.  From around Oct  2014 this feature has been re-instated. However as at Oct 2015 there are only two profiles available for download.
 
 The workaround for this issue is to use Kdenlive ver 0.9.10 (or higher) and create your own new render profiles and make use of the *melt* property presets – as described  :ref:`render_profile_parameters`.
 

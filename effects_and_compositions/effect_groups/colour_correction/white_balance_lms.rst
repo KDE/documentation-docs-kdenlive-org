@@ -17,7 +17,7 @@ This is the `Frei0r colgate <https://www.mltframework.org/plugins/FilterFrei0r-c
 
 Do simple color correction, in a physically meaningful way.
 
-* *Parameters:**
+**Parameters:**
 
 Neutral Color: Choose a color from the source image that should be white.
 

@@ -20,8 +20,6 @@ Key Spill Mop Up
 
    This page is outdated. You may find the new one `here <https://userbase.kde.org/Kdenlive/Manual/Effects/Alpha_manipulation/Key_Spill_Mop_Up>`_
 
-* *This page is outdated. You may find the new one `here <https://userbase.kde.org/Kdenlive/Manual/Effects/Alpha_manipulation/Key_Spill_Mop_Up>`_.**
-
 This effect is used when using chroma keying (otherwise known as greenscreen or :ref:`blue_screen` effect). Its purpose is to compensate for the fact that sometimes the color from the green or blue screen reflects onto the subject and will make them a shade of blue or green - especially around the edges. This is known as "keyspill". This effect can attempt to compensate for this issue.
 
 The effect may be found in the :ref:`misc` group or in the :ref:`alpha_manipulation` group (version >= 0.9.3)
