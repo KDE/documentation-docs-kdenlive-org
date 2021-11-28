@@ -182,9 +182,9 @@ Active buttons are grey.
 
 Items 14, 14a-14g are covered in detail by `Timeline preview rendering <https://kdenlive.org/project/timeline-preview-rendering/>`_ article on the Kdenlive Home Page
 
-15. Show/Hide the **Audio Mixer** tool.  The audio mixer tool allows audio to be managed in the project.
+15. Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
 
-16. Show/Hide the **Subtitle Tool**.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
+16. Show/Hide the :ref:`subtitle` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
 
 Track Compositing

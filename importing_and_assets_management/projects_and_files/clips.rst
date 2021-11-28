@@ -187,7 +187,7 @@ When rendering to the final output file, you can choose whether to use the proxy
 Clip Properties
 ---------------
 
-You can display and edit clip properties by selecting a clip in the :ref:`project_tree` and choosing :menuselection:`Clip Properties` from the :menuselection:`Project` menu or from the right-click menu. Or by turning on the display of clip properties the :menuselection:`View` > :menuselection:`Clip Properties`  check box.
+You can display and edit clip properties by selecting a clip in the :ref:`project_tree` and choosing :menuselection:`Clip Properties` from the :menuselection:`Project` menu or from the right-click menu. Or by turning on the display of clip properties the :menuselection:`View` and enable :guilabel:`Clip Properties`.
 
 
 File Info
@@ -196,7 +196,7 @@ File Info
 .. figure:: /images/Clip_properties_video.png
    :alt: Clip_properties_video
 
-   The :menuselection:`File Info` tab displays information about the file.
+   The :guilabel:`File Info` tab displays information about the file.
 
 
 Properties
@@ -236,6 +236,30 @@ The :menuselection:`Properties` tab displays advanced properties of the clip whe
     * Colorspace
 
     * :ref:`full_luma`
+
+.. rst-class:: clear-both
+
+.. _audio_properties:
+
+Audio properties
+~~~~~~~~~~~~~~~~
+
+.. image:: /images/Audio-properties.png
+   :align: left
+   :width: 340px
+   :alt: Audio-properties
+
+For each channel you can adjust: 
+
+1. Choose which audio channel should be enabled or disabled. Rename with double click.
+2. Normalize the channel
+3. Swap the channels
+4. Copy a channel on the other one
+5. Adjust the volume 
+
+for all channels:
+
+6. Adjust the synchronization time related to the video of the clip. 
 
 .. rst-class:: clear-both
 
