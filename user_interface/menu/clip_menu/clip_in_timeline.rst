@@ -33,6 +33,6 @@ In the example, we have clicked on the third video entry which is located on vid
 This option will be greyed out if the clip is not being used in the timeline.
 
 
-See also :menuselection:`Clip in Project Tree` found by :ref:`right_click_menu` on a clip in the timeline.
+See also :menuselection:`Clip in Project Bin` found by :ref:`right_click_menu` on a clip in the timeline.
 
 

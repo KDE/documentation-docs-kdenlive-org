@@ -33,7 +33,7 @@ From `this <http://www.kdenlive.org/forum/what-does-full-luma-exactly-do#comment
   Then when we render out, those levels remain in the final video, compressed shadows and saturated highlights, so there is a mismatch between the levels in the video we import compared to that exported. **This only really matters for round tripping to an external application**.
 
 
-  For any playback on DVD's, bluray and including the web like Vimeo or Youtube our video levels in the final rendered output should be in the 16 - 235 range, otherwise we see so called 'gamma shifts', 'washed out' or saturated playback depending on playback handling.
+  For any playback on DVD's, Blu-ray and including the web like Vimeo or Youtube our video levels in the final rendered output should be in the 16 - 235 range, otherwise we see so called 'gamma shifts', 'washed out' or saturated playback depending on playback handling.
 
 
   However really we want to have control of the levels adjustment in **Kdenlive** i.e.: 0 - 255 into 16 - 235 so full luma option changes the handling of the files and preview / scopes are based on an alternative YCbCr to RGB calculation.
