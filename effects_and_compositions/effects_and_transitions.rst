@@ -59,11 +59,11 @@ Alphabetical List of Effects and Compositions
   * - :ref:`addition`
     - Compositions
     -
-    - Perform a RGB[A] addition operation of the pixel sources. (frei0r.addition)
+    - Perform an RGB[A] addition operation of the pixel sources. (frei0r.addition)
   * - :ref:`addition_alpha`
     - Compositions
     -
-    - Perform a RGB[A] addition_alpha operation of the pixel sources. (frei0r.addition_alpha)
+    - Perform an RGB[A] addition_alpha operation of the pixel sources. (frei0r.addition_alpha)
   * - addroi
     - Compositions
     -
@@ -243,7 +243,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`audio_spectrum_filter`
     - Video Effect
     - On Master
-    - An audio visualization fitler that draws an audio spectrum on the image. (audiospectrum)
+    - An audio visualization filter that draws an audio spectrum on the image. (audiospectrum)
   * - :ref:`audio_wave`
     - Video Effect
     - On Master
@@ -344,7 +344,7 @@ Alphabetical List of Effects and Compositions
     - Compositions
     -
     - Perform an RGB[A] dodge operation between the pixel sources, using the generalized algorithm: D = saturation of 255 or depletion of 0, of ((255-A)*256) / (b+1) (frei0r.burn)
-  * - BurningTV – Deprecated]]
+  * - BurningTV – Deprecated
     - Video Effect
     - Deprecated
     - burningtv
@@ -555,7 +555,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`dance`
     - Video Effect
     - On Master
-    - An audio visualization fitler that moves the image around proportional to the magnitude of the audio spectrum. (dance)
+    - An audio visualization filter that moves the image around proportional to the magnitude of the audio spectrum. (dance)
   * - darken
     - Compositions
     -
@@ -1431,7 +1431,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`screen`
     - Compositions
     -
-    - Perform a RGB[A] screen operation between the pixel sources, using the generalised algorithm: D = 255 - (255 - A) * (255 - B) (frei0r.screen)
+    - Perform an RGB[A] screen operation between the pixel sources, using the generalised algorithm: D = 255 - (255 - A) * (255 - B) (frei0r.screen)
   * - scroll
     - Video Effect
     - Misc
@@ -1739,7 +1739,7 @@ Alphabetical List of Effects and Compositions
   * - `TAP Stereo Echo <https://www.mltframework.org/plugins/FilterLadspa-2143/>`_
     - Audio Effect
     - TAP Plugins
-    - LADSPA plugin (ladspa.2143 )
+    - LADSPA plugin (ladspa.2143)
   * - `TAP Tremolo <https://www.mltframework.org/plugins/FilterLadspa-2144/>`_
     - Audio Effect
     - TAP Plugins
@@ -1767,7 +1767,7 @@ Alphabetical List of Effects and Compositions
   * - thistogram
     - Compositions
     -
-    - Uses Input 1 as a UV  Map to distort Input 2 (frei0r.uvmap)
+    - Uses Input 1 as a UV Map to distort Input 2 (frei0r.uvmap)
   * - :ref:`threshold_effect`
     - Video Effect
     - Stylize
@@ -1899,7 +1899,7 @@ Alphabetical List of Effects and Compositions
   * - vr360_equirectangular_mas
     - Video Effect
     - VR360 and 3D
-    - Adds a black matte to the fram. Use this if you filmed using a 360 camera but only want to use part of the 360 image - for example if you and the film crew occupy the 90 degrees behind the camera. (frei0r.bigsh0t_eq_mask)
+    - Adds a black matte to the frame. Use this if you filmed using a 360 camera but only want to use part of the 360 image - for example if you and the film crew occupy the 90 degrees behind the camera. (frei0r.bigsh0t_eq_mask)
   * - vr360_equirectangular_to_rectilinear
     - Video Effect
     - VR360 and 3D

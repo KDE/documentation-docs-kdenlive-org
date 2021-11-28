@@ -38,8 +38,8 @@ Rotation using Affine Transition
 
 To rotate the image, add a keyframe and enter values for rotation. The units are 10ths of degrees. (e.g. 900 = 90 degree rotation).
 
-* *Rotate X** rotates the frame in the plane of the screen.
-* *Rotate Y** and **Rotate Z** create the illusion of 3D rotation when used dynamically with keyframes - see example below.
+**Rotate X** rotates the frame in the plane of the screen.
+**Rotate Y** and **Rotate Z** create the illusion of 3D rotation when used dynamically with keyframes - see example below.
 
 You can create a similar effect using the :ref:`rotate_(keyframable)` effect from the Crop and Transform group.
 

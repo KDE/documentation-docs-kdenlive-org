@@ -122,6 +122,7 @@ Starting Your Rendering Scripts in a Command Line Terminal
 For troubleshooting purposes there could be times that you want to run the render script in a terminal prompt. Rendering in the terminal can produce error logging information that can assist in debugging rendering issues.
 
 To render the video in the terminal ...
+
 * Note the location where **Kdenlive** has saved the .sh script (see Figure 8)
 * Open a terminal and change directories to the location of the :file:`.sh` script
 * execute the :file:`.sh` script

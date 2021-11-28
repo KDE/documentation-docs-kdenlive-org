@@ -21,11 +21,11 @@ This filter is for simple manual color adjustment by RGB channel, either through
 
 Parameters:
 
-* *R,G,B:**
+**R,G,B:**
 
   These determine the change in each of the three color channels.
 
-* *Action:**
+**Action:**
 
   * :menuselection:`Add constant` adds a fixed value between -150 and +150 (this is sometimes called "black level" or "setup").
   * :menuselection:`Change gamma` changes channel gamma between 0.3333 and 3.0.
@@ -41,7 +41,7 @@ Parameters:
 
 To visualize this plugin's actions, apply it to a gray gradient, and watch the result with "pr0file".
 
-* *Keep luma:**
+**Keep luma:**
 
   Fixes the luma value, so that the sliders only affect color.
 

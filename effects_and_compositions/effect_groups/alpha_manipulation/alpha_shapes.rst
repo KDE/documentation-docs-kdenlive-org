@@ -78,7 +78,7 @@ Alpha shapes effect draws areas of opacity onto the image. The addition of this 
 
 The Max and Min controls adjust the opacity of the image inside and outside of the shape respectively. A setting of 1000 is 100% opaque. A setting of zero is 0% opaque (i.e., 100% transparent).
 
-* *Max control**
+**Max control**
 
 .. image:: /images/Alpha_shapes_max_control2.png
    :align: left
@@ -98,7 +98,7 @@ At Max = 500 it is semi-transparent inside the shape and you can see the backgro
 
 At Max = 0 inside the shape is completely transparent - the same as the rest of the foreground image - and you can see all background.
 
-* *Min Control**
+**Min Control**
 
 .. image:: /images/Alpha_shapes_min_control.png
    :align: left
@@ -112,7 +112,7 @@ The Min control adjusts how opaque it is outside the shape. When Min = 0 outside
 
 At Min = 1000 the opacity outside the shape is 100% and nothing of the background appears.
 
-* *Combining Alpha Shapes - Operations**
+**Combining Alpha Shapes - Operations**
 
 .. image:: /images/Triangle_alpha_shape.png
    :align: left

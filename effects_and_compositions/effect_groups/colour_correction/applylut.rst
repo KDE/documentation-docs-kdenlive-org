@@ -15,11 +15,11 @@ This is the `Avfilter lut3d <https://www.mltframework.org/plugins/FilterAvfilter
 
 Apply a Look Up Table (LUT) to the video. A LUT is an easy way to correct the color of a video.
 
-* *Supported formats:**
+**Supported formats:**
 
 .3dl (AfterEffects), .cube (Iridas), .dat(DaVinci), .m3d (Pandora)
 
-* *Parameters:**
+**Parameters:**
 
 Filename: File containing the LUT to be applied.
 

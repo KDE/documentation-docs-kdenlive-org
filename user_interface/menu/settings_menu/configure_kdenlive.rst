@@ -182,9 +182,9 @@ AVI files may contain multiple streams. Typically, they include one video and on
 
 HDV is a high-definition format used on tape-based HD camcorders.
 
-* *Add recording time to captured file name** option: If this is unchecked then each captured file will get a sequential number post-pended to the file names listed in the Capture file name setting. With this checked, date and timestamp (derived from when the footage was captured) is post-pended to the capture file name, e.g. **capture2012.07.15_11-38-37.dv**
+**Add recording time to captured file name** option: If this is unchecked then each captured file will get a sequential number post-pended to the file names listed in the Capture file name setting. With this checked, date and timestamp (derived from when the footage was captured) is post-pended to the capture file name, e.g. **capture2012.07.15_11-38-37.dv**
 
-* *Automatically start a new file on scene cut** option:  With this checked it tries to detect whenever a new recording starts, and store it into a separate file. This is the -autosplit parameter in  `dvgrab <http://linux.die.net/man/1/dvgrab>`_  and it works by detecting timecode discontinuities from the source footage.  Where a timecode discontinuity is anything backward or greater than one second it will start a new capture file.
+**Automatically start a new file on scene cut** option:  With this checked it tries to detect whenever a new recording starts, and store it into a separate file. This is the -autosplit parameter in  `dvgrab <http://linux.die.net/man/1/dvgrab>`_  and it works by detecting timecode discontinuities from the source footage.  Where a timecode discontinuity is anything backward or greater than one second it will start a new capture file.
 
 The **dvgrab additional parameters** edit box allows you to add extra dvgrab switches to the capture process that will run. See  `dvgrab manual <http://linux.die.net/man/1/dvgrab>`_ for more info.
 
