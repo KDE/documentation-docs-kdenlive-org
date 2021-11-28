@@ -214,6 +214,13 @@ To import keyframes from the clipboard click on |application-menu| inside the ke
 
 .. rst-class:: clear-both
 
+Master effect
+-------------
+
+.. versionadded:: 19.12..0
+
+The ability to apply audio or video effects to all tracks. See :ref:`master_effect` 
+
 Effect Zones
 ------------
 
