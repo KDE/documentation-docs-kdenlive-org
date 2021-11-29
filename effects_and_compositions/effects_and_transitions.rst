@@ -219,11 +219,11 @@ Alphabetical List of Effects and Compositions
   * - asuperpass
     - Audio Effect
     - Audio
-    - Apply high order butterworth band-pass filter. (avfilter.asuperpass)
+    - Apply high order Butterworth band-pass filter. (avfilter.asuperpass)
   * - asuperstop
     - Audio Effect
     - Audio
-    - Apply high order Butterworth bad-stop filter. (avfilter.asuperstop)
+    - Apply high order Butterworth band-stop filter. (avfilter.asuperstop)
   * - Audio Divider (Suboctave Generator)
     - Audio Effect
     - Steve Harris’ SWH plugins
