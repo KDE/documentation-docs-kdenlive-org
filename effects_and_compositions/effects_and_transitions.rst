@@ -419,7 +419,7 @@ Alphabetical List of Effects and Compositions
   * - color_channel_mixer
     - Video Effect
     - Color and Image correction
-    - Modifies a color channel by adding the vlues associated to the other channels of the same pixels. (avfilter.colorchannelmixer)
+    - Modifies a color channel by adding the values associated to the other channels of the same pixels. (avfilter.colorchannelmixer)
   * - :ref:`color_distance`
     - Video Effect
     - Stylize
@@ -439,7 +439,7 @@ Alphabetical List of Effects and Compositions
   * - color_only
     - Compositions
     -
-    - Perform a conversion to color only of the source input using the hue and saturation vludes of input2. (frei0r.color_only)
+    - Perform a conversion to color only of the source input using the hue and saturation values of input2. (frei0r.color_only)
   * - colorcontrast
     - Video Effect
     - Stylize
@@ -559,7 +559,7 @@ Alphabetical List of Effects and Compositions
   * - darken
     - Compositions
     -
-    - Perform a darken operation between two sources (minimum value fo both sources). (frei0r.darken)
+    - Perform a darken operation between two sources (minimum value of both sources). (frei0r.darken)
   * - datascope
     - Video Effect
     - Utility
@@ -579,7 +579,7 @@ Alphabetical List of Effects and Compositions
   * - deband
     - Video Effect
     - Image Adjustment
-    - remove banding artifacts from input video. It works by replacing banded pixels with an average value of referenced pixels (avfilter.deband)
+    - Remove banding artifacts from input video. It works by replacing banded pixels with an average value of referenced pixels (avfilter.deband)
   * - `Decimator <https://www.mltframework.org/plugins/FilterLadspa-1202/>`_
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -1199,7 +1199,7 @@ Alphabetical List of Effects and Compositions
   * - nikon_d90_stairstepping_fix
     - Video Effect
     - Utility
-    - Removes stairstepping artifacts from Nikon D90's 720p videos.  Sharp lines in videos from the Nikon D90 show steps each 8th or 9th line, assumedly due to poor downsampling. These can be smoothed out with this filter if they become too annoying (frei0r.d90stairsteppingfix)
+    - Removes stairstepping artifacts from Nikon D90's 720p videos. Sharp lines in videos from the Nikon D90 show steps each 8th or 9th line, assumedly due to poor downsampling. These can be smoothed out with this filter if they become too annoying (frei0r.d90stairsteppingfix)
   * - normalise
     - Audio Effect
     - Audio Correction
@@ -1215,7 +1215,7 @@ Alphabetical List of Effects and Compositions
   * - normalize_rgb_video
     - Video Effect
     - Color and Image correction
-    - Normalize RGB video (aka histogram stretching, contrast stretching). See: https://en.wikipedia.org/wiki/ Normalization_(image_processing) (avfilter.normalize)
+    - Normalize RGB video (aka histogram stretching, contrast stretching). See: https://en.wikipedia.org/wiki/Normalization_(image_processing) (avfilter.normalize)
   * - :ref:`nosync0r`
     - Video Effect
     - Transform, Distort and Perspective
@@ -1651,7 +1651,7 @@ Alphabetical List of Effects and Compositions
   * - subtract
     - Compositions
     -
-    - Perform an RGB[A] subtract operation of the pixel source input2 from input2. (frei0r.subtract)
+    - Perform an RGB[A] subtract operation of the pixel source input2 from input1. (frei0r.subtract)
   * - super2xsai
     - Video Effect
     - Image Adjustment
@@ -1855,7 +1855,7 @@ Alphabetical List of Effects and Compositions
   * - :ref:`vectorscope`
     - Video Effect
     - Utility
-    - Display 2 color component values in the two dimensial graph (which is called a vectorscope) (avfilter.vectorscope)
+    - Display 2 color component values in the two dimensional graph (which is called a vectorscope) (avfilter.vectorscope)
   * - vertigo
     - Video Effect
     - Motion
