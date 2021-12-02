@@ -18,13 +18,12 @@ Key Spill Mop Up
 
 .. warning::
 
-   This page is outdated. You may find the new one `here <https://userbase.kde.org/Kdenlive/Manual/Effects/Alpha_manipulation/Key_Spill_Mop_Up>`_
+   This page is outdated. You may find the new one here: :ref:`key_spill_mop_up`.
 
 This effect is used when using chroma keying (otherwise known as greenscreen or :ref:`blue_screen` effect). Its purpose is to compensate for the fact that sometimes the color from the green or blue screen reflects onto the subject and will make them a shade of blue or green - especially around the edges. This is known as "keyspill". This effect can attempt to compensate for this issue.
 
 The effect may be found in the :ref:`misc` group or in the :ref:`alpha_manipulation` group (version >= 0.9.3)
 
-.. See `this <http://www.kdenlive.org/forum/greenscreen-keying-edge>`_ thread for the genesis of this effect.
 
 Tutorial
 --------
@@ -33,10 +32,11 @@ This tutorial shows usage of the following effects: keysplillm0pup, blue screen,
 
 https://youtu.be/l43Hz7YEcYU
 
+
 Details
 -------
 
-The README for the keyspillm0pup is this:
+The :file:`README` for the keyspillm0pup is this:
 
 DESCRIPTION:
 
@@ -61,11 +61,11 @@ Transparency and Edge masks are based on the alpha channel from the preceding ke
 
 .. note::
 
-  If a "hard key" was used in the preceding keying, there will be no areas that T operations could affect. Edge masks will affect only pixels close to the edge, with the effect diminishing away from the edge. The outer edge is the edge of the fully opaque part, where the alpha from the preceding keying is 1.0 (255).
+   If a "hard key" was used in the preceding keying, there will be no areas that T operations could affect. Edge masks will affect only pixels close to the edge, with the effect diminishing away from the edge. The outer edge is the edge of the fully opaque part, where the alpha from the preceding keying is 1.0 (255).
 
 .. note::
 
-  The edge masking algorithm is not yet what I would like it to be. I will have to look some more into this, and improve it, so consider it a "temporary solution" that will change in the future.
+   The edge masking algorithm is not yet what I would like it to be. I will have to look some more into this, and improve it, so consider it a "temporary solution" that will change in the future.
 
 All masks can be further pruned with two parameters: an "hue gate", which will limit the mask to hues close to the key hue, and an "saturation threshold", which will limit the mask to areas with color saturation above a threshold.
 

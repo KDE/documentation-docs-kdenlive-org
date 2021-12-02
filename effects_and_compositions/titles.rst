@@ -23,19 +23,19 @@ Titles are text elements that can be added to the timeline and appear over the t
 
 If you want titles to overlay other footage, you put title clips on video track 1 and have the other footage on video track 2. You also need to retain the affine transition that is automatically added to the title clips if you want the footage visible underneath.
 
-To create a title, choose :guilabel:`Add Title Clip` from the :ref:`project_menu` or from the Right-Click menu in the :ref:`project_tree`.
+To create a title, choose the :menuselection:`Project --> Add Title Clip` menu item or from the Right-Click menu in the :ref:`project_tree`.
 
 How to Save a Title
 -------------------
 
-Open the title in the :ref:`project_tree` by double-clicking it or right-click then choose :guilabel:`Clip Properties`.
+Open the title in the :ref:`project_tree` by double-clicking it or right-click then choose :menuselection:`Clip Properties`.
 
 .. image:: /images/Title_clip_in_proj_tree.png
    :align: center
    :width: 200px
    :alt: Title_clip_in_proj_tree
 
-Click the :guilabel:`Save As` button on the tool bar
+Press the :guilabel:`Save As` button on the tool bar.
 
 .. list-table::
 
@@ -54,19 +54,19 @@ The titles are saved as :file:`.kdenlivetitle` type documents.
 How to Load a Title
 -------------------
 
-Choose :guilabel:`Add Title Clip` from the**Add Clip*' drop down (see picture)
+Choose the :menuselection:`Add Title Clip` item from the :guilabel:`Add Clip` drop down (see picture).
 
 .. image:: /images/Add_clip_drop_down.png
    :align: center
    :width: 100px
    :alt: Add_clip_drop_down
 
-Click the **Open Document** button on the Title Clip editor toolbar or choose **Open document** from the :guilabel:`>>` menu and load up a title saved earlier.
+Press the :guilabel:`Open Document` button on the Title Clip editor toolbar or choose :menuselection:`Open document` from the :guilabel:`>>` menu and load up a title saved earlier.
 
 How to edit an existing title
 -----------------------------
 
-Right-click the title clip in the Project Bin and select :guilabel:`Clip properties`.
+Right-click the title clip in the Project Bin and select the :menuselection:`Clip properties` item.
 
 Template Titles - User-Defined
 ------------------------------
@@ -75,7 +75,7 @@ Template Titles - User-Defined
 
 **To create a template title**
 
-Choose :guilabel:`Add Title Clip` from the :guilabel:`Add Clip` drop down and create a title with the text *%s* in it and formatted how you desire it. Save this title as described above.
+Choose the :menuselection:`Add Title Clip` item from the :guilabel:`Add Clip` drop down and create a title with the text *%s* in it and formatted how you desire it. Save this title as described above.
 
 .. image:: /images/Template_title1.png
    :align: center
@@ -84,9 +84,9 @@ Choose :guilabel:`Add Title Clip` from the :guilabel:`Add Clip` drop down and cr
 
 **To use the template title**
 
-Choose :guilabel::`Add Template Title` from the :guilabel:`Add Clip` drop down and choose the title with the *%s* in it that you just saved.
+Choose the :menuselection:`Add Template Title` item from the :guilabel:`Add Clip` drop down and choose the title with the *%s* in it that you just saved.
 
-Right-click this clip in the Project Bin and select :guilabel:`Clip Properties`,
+Right-click this clip in the Project Bin and select :menuselection:`Clip Properties` item.
 
 .. image:: /images/Title_clip_properties.png
    :align: center
@@ -102,7 +102,7 @@ Enter the text that this title should display into the text field in the dialog 
 
 Drag the title to the timeline.
 
-The *%s* in the template will be replaced with the text that you enter in the :menuselection:`Clip Properties --> Text`.
+The *%s* in the template will be replaced with the text that you enter in the :guilabel:`Text:` field.
 
 .. image:: /images/Title_template3.png
    :width: 400px
@@ -113,20 +113,20 @@ A known issue with template titles is that text centering does not work correctl
 Template Titles - Built In
 --------------------------
 
-**Kdenlive** has some built-in title templates that can be accessed from the :guilabel:`Template` drop-down list found on the bottom of the **Title Clip** window - see below.
+**Kdenlive** has some built-in title templates that can be accessed from the :guilabel:`Template:` drop-down list found on the bottom of the **Title Clip** window - see below.
 
 .. image:: /images/Kdenlive_Template_Title1.png
    :width: 450px
    :alt: Template_title1
 
-To install more built-in title templates choose :ref:`download_new_title_templates` from the :guilabel:`Settings` menu.
+To install more built-in title templates choose the :menuselection:`Settings --> Download New Title Templates...` menu item. See :ref:`download_new_title_templates`.
 
 The :file:`.kdenlivetitle` files that supply these templates are installed to :file:`/usr/share/kdenlive/titles`.
 
 Import an Image into the title
 ------------------------------
 
-On the Toolbar overflow menu (**>>**) shown in the picture below, the second menu item - (labeled only with :kbd:`Alt + I` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Image** Button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
+On the Toolbar overflow menu (:guilabel:`>>`) shown in the picture below, the second menu item is the :guilabel:`Add Image` button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
 
 .. image:: /images/Kdenlive_Add_image_to_title.png
    :alt: Kdenlive_Add_image_to_title
@@ -134,12 +134,12 @@ On the Toolbar overflow menu (**>>**) shown in the picture below, the second men
 Draw Rectangle Toolbar Item
 ---------------------------
 
-The 1st menu item shown in the picture above - (labeled only with :kbd:`Alt + R` in ver 0.9.2 - fixed in ver 0.9.4) - is the **Add Rectangle** button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
+The 1st menu item shown in the picture above is the :guilabel:`Add Rectangle` button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
 
 .. image:: /images/Kdenlive_Alt-R_title_menu.png
    :alt: Kdenlive_Alt-R_title_menu
 
-The rectangles can be placed behind text by selecting them and the changing the Z-index (top right corner) to a lower value.
+The rectangles can be placed behind text by selecting them and the changing the :guilabel:`Z-index:` (top right corner) to a lower value.
 
 .. image:: /images/Kdenlive_Rectangle_on_title.png
    :width: 450px
@@ -161,18 +161,18 @@ To make the title scroll vertically
 
 Put a long title onto the title window. Zoom out so you can see it all. The text should run off the top (or bottom) of the viewable area.
 
-Select the :guilabel:`Animation` tab and click :guilabel:`Edit start viewport`. Now drag the start rectangle to above the viewable area.
+Select the :guilabel:`Animation` tab and check the :guilabel:`Edit start viewport` option. Now drag the start rectangle to above the viewable area.
 
-Select :guilabel:`Edit end viewport` and drag the end rectangle to below the viewable area.
+Check the :guilabel:`Edit end viewport` option and drag the end rectangle to below the viewable area.
 
-Click :guilabel:`OK` and preview the scrolling title.
+Press the :guilabel:`OK` button and preview the scrolled title.
 
 .. image:: /images/Scrolling_titles.png
    :alt: Scrolling_titles
 
 The text in the above title scrolls up the screen. It is as if the camera starts on the "start rectangle" and then pans down to the "end rectangle".
 
-To make the text scroll faster, change the duration field highlighted in red in the image above to a smaller value. To make the text scroll slower, change the duration to a larger value.
+To make the text scroll faster, set the :guilabel:`Duration:` field (highlighted in red in the image above) to a smaller value. To make the text scroll slower, set it to a larger value.
 
 Note: changing the length of the title clip on the timeline does not change the scrolling speed. If the length of the clip on the timeline is longer than the duration specified in the title editor, the titles will pause on the screen between the time the title's duration expires until the end of the clip.
 
@@ -188,7 +188,7 @@ Use the instructions for vertical scrolling - just put the start and stop rectan
 How to fade titles in and/or out
 --------------------------------
 
-To make titles fade in and out, you modify the transition which gets automatically added between the title and the track below. The modifications consist of adding keyframes into the transition and adjusting the opacity of the transitions at these keyframes. In version 0.9.3 it is an :ref:`affine` transition that is automatically added between the title and the track below. In ver 0.9.2 it is a :ref:`composite` transition.
+To make titles fade in and out, you modify the transition which gets automatically added between the title and the track below. The modifications consist of adding keyframes into the transition and adjusting the opacity of the transitions at these keyframes. In version 0.9.3 it is an :ref:`affine` transition that is automatically added between the title and the track below. In ver 0.9.2 it is a :ref:`composite`.
 
 In the image below we have four keyframes (labeled 1 to 4). The first keyframe is the one currently displayed and we can see that the opacity on this keyframe is zero. The opacity at keyframes 2 and 3 is 100%. The opacity at the 4th keyframe is zero percent. The overall effect is that the title fades in between keyframe 1 and keyframe 2. And then it fades out between keyframe 3 and keyframe 4 .
 
@@ -202,7 +202,7 @@ To create a title sequence like this ...
 
 https://youtu.be/IIV87bFjfo0
 
-you put three titles on three different tracks but you make all three affine transitions go to the same empty video track (instead of the tracks directly below them, which is the default). See timeline screenshot below.
+You put three titles on three different tracks but you make all three affine transitions go to the same empty video track (instead of the tracks directly below them, which is the default). See timeline screenshot below.
 
 .. image:: /images/Kdenlive_3_fade_in_titles.png
    :alt: Kdenlive_3_fade_in_titles

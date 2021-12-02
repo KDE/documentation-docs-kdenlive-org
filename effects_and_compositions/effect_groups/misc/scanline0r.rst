@@ -17,7 +17,7 @@ scanline0r
 
 This is the `Frei0r scanline0r <https://www.mltframework.org/plugins/FilterFrei0r-scanline0r/>`_ MLT filter.
 
-interlaced black lines.
+Interlaced black lines.
 
 https://youtu.be/nJ2TE4SdaJM
 

@@ -13,11 +13,11 @@ Apply LUT
 
 This is the `Avfilter lut3d <https://www.mltframework.org/plugins/FilterAvfilter-lut3d/>`_ MLT filter.
 
-Apply a Look Up Table (LUT) to the video. A LUT is an easy way to correct the color of a video.
+Apply a 3D Look Up Table (LUT) to the video. A LUT is an easy way to correct the color of a video.
 
 **Supported formats:**
 
-.3dl (AfterEffects), .cube (Iridas), .dat(DaVinci), .m3d (Pandora)
+.3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora)
 
 **Parameters:**
 

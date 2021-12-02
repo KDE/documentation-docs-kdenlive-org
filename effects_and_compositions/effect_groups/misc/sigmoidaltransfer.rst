@@ -18,9 +18,9 @@ Desaturates image and creates a particular look that could be called Stamp, News
 
 Two parameters:
 
-**Brightness**: Controls Brightness of image. Range 0 to 1
+**Brightness**: Controls Brightness of image. Range 0 to 1.
 
-**Sharpness**: Controls sharpness of transfer Range 0 to 1
+**Sharpness**: Controls sharpness of transfer. Range 0 to 1.
 
 Both parameters default to 0 in **Kdenlive** - which is unfortunate because this results in a totally black frame. You need to have numbers above zero to see the effect.
 

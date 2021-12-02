@@ -19,7 +19,7 @@ This is the `Frei0r equaliz0r <https://www.mltframework.org/plugins/FilterFrei0r
 
 Equalizes the intensity histograms.
 
-(Moved to Color section in ver 15.n)
+(Moved to Color section in ver 15.n).
 
 https://youtu.be/KdlxSA2gs68
 

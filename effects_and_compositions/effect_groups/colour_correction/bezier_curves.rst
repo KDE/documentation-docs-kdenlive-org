@@ -19,5 +19,5 @@ Adjusts luminance or color channel intensity with curve level mapping.
 
 See `TheDiveo blog <http://thediveo-e.blogspot.de/2013/10/grading-of-hero-3-above-waterline.html>`_ for an example of how to use this effect to colour grade clips.
 
-:ref:`curves` is also an interface into this frie0r filter.
+:ref:`curves` is also an interface into this Frie0r filter.
 

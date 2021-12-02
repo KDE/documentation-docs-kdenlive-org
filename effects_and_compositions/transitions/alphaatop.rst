@@ -16,9 +16,9 @@ This is the `Frei0r alphaatop <https://www.mltframework.org/plugins/TransitionFr
 
 The alpha ATOP operation.
 
-Yellow clip has a triangle alpha shape with min = 0 and max =618.
+Yellow clip has a triangle alpha shape with min=0 and max=618.
 
-Green clip has rectangle alpha shape with min=0 and max =1000
+Green clip has rectangle alpha shape with min=0 and max=1000.
 
 alphaatop is the transition in between.
 

@@ -12,15 +12,15 @@ alphain transition
 
 .. contents::
 
-This is the `Frei0r alphain <http://www.mltframework.org/bin/view/MLT/TransitionFrei0r-alphain>`_ MLT transition.
+This is the `Frei0r alphain <https://www.mltframework.org/plugins/TransitionFrei0r-alphain/>`_ MLT transition.
 
 The alpha IN operation.
 
-Yellow clip has a triangle alpha shape with min = 0 and max =618.
+Yellow clip has a triangle alpha shape with min=0 and max=618.
 
-Green clip has rectangle alpha shape with min=0 and max =1000
+Green clip has rectangle alpha shape with min=0 and max=1000.
 
-alphain is the transition in between
+alphain is the transition in between.
 
 .. image:: /images/Kdenlive_Alphaain.png
 

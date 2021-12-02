@@ -21,7 +21,7 @@ Displays the vectorscope of the video-data.
 
 In ver 17.04 this is found in the :ref:`analysis_and_data` category of Effects.
 
-It is recommended to use the vectorscope from :ref:`vectorscope`, because the effect Analysis and Data - Vectorscope is not correct - it uses a graticule from an analog NTSC vectorscope, but equations from digital video.
+It is recommended to use the vectorscope from :ref:`vectorscope`, because the effect *Analysis and Data - Vectorscope* is not correct - it uses a graticule from an analog NTSC vectorscope, but equations from digital video.
 
 https://youtu.be/2ybBzDEjdRo
 

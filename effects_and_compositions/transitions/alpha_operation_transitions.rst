@@ -29,9 +29,9 @@ The Alpha Channel information is supplied by one of the :ref:`alpha_manipulation
 
 The alpha operation transitions define how the two different alpha channel information should be combined to produce the final image. These operations are implementing the operations described at Wikipedia page on `Alpha Compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_.
 
-In the examples below the yellow clip has a triangle alpha shape with min = 0 and max =618. This translates to 0% opacity outside the triangle and 61.8% opacity inside the triangle. Ie the alpha channel in the yellow track say show all the track underneath outside the triangle and show 38.2% of the underneath track inside the triangle.
+In the examples below the yellow clip has a triangle alpha shape with min=0 and max=618. This translates to 0% opacity outside the triangle and 61.8% opacity inside the triangle. Ie the alpha channel in the yellow track say show all the track underneath outside the triangle and show 38.2% of the underneath track inside the triangle.
 
-The Green clip has a rectangle alpha shape with min=0 and max =1000. This translates to make the clip 100% transparent outside the rectangle and 0% transparent inside the rectangle.
+The Green clip has a rectangle alpha shape with min=0 and max=1000. This translates to make the clip 100% transparent outside the rectangle and 0% transparent inside the rectangle.
 
 .. figure:: /images/Kdenlive_Alphaxor.png
    :align: left

@@ -12,7 +12,7 @@ Lumakey Effect
 
 .. contents::
 
-Available in the Misc category of effects in version 15.n.
+In version 15.n of Kdenlive this is in the Misc category of effects.
 
 The Lumakey effect changes the clip's alpha channel. To see its effect, you need a transition (like the Composite transition that is available in tracks) and another clip beneath.
 

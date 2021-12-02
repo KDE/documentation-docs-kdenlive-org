@@ -15,11 +15,11 @@ Audio Wave
 
 This is the `Audiowave <https://www.mltframework.org/plugins/FilterAudiowave/>`_ MLT filter.
 
-In ver 17.04 this is found in the  :ref:`analysis_and_data` category of Effects.
+In ver 17.04 this is found in the :ref:`analysis_and_data` category of Effects.
 
 Display the audio waveform instead of the video. Author Dan Dennedy.
 
-This does not work alone on audio-only clips. It must have video to overwrite. A workaround is to apply this to a multi-track with a color generator. 
+This does not work alone on audio-only clips. It must have video to overwrite. A workaround is to apply this to a multi-track with a color generator.
 
 .. image:: /images/Kdenlive_Audio_wave.png
 
@@ -34,7 +34,7 @@ Duplicate the video track on a track below the one with the Audio wave on it.
 
 Add a composite transition.
 
-On the top video track (the one with the audio wave effect) add a  :ref:`color_selection`  effect. 
+On the top video track (the one with the audio wave effect) add a :ref:`color_selection` effect.
 
 Make the color you are selecting black and check the invert selection.
 

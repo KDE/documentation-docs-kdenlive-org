@@ -48,24 +48,24 @@ Make a line curved by dragging the control "handles". These are the two dots on 
    :align: left
    :alt: Rotoscoping_Handles
 
-To define if it is the inside or the outside of the curve that is transparent toggle the *invert* checkbox.
+To define if it is the inside or the outside of the curve that is transparent toggle the :guilabel:`Invert` checkbox.
 
-In a previous version of kdenlive you could add a new nodes by clicking on the line between existing nodes. You could subtract nodes by right clicking on them. But it looks like you can not do this with the 17.04 & 18.04 version.
+In a previous version of Kdenlive you could add a new nodes by clicking on the line between existing nodes. You could subtract nodes by right clicking on them. But it looks like you can not do this with the 17.04 & 18.04 version.
 
 How to move the mask to follow the action - keyframes
 -----------------------------------------------------
 
 To make the drawn mask follow the action in a clip...
 
-Move the position in the clip by dragging the carat on the time line (1 or 3 in screenshot below) or by using the time code control in the rotoscope effect (2 in the screenshot)
+Move the position in the clip by dragging the carat on the time line (1 or 3 in screenshot below) or by using the time code control in the rotoscope effect (2 in the screenshot).
 
-Click *add key frame* (5 in the screen shot).
+Click :guilabel:`Add keyframe` (5 in the screen shot).
 
 Now adjust the position of the nodes in the curve to match the action.
 
 Kdenlive will calculate a path to move the nodes from the position they were in the previous key frame to the position you put them in at this keyframe. So you do not have to draw a curve for every frame in the clip.
 
-To remove a key frame move to the frame with the key frame using the *Go to previous keyframe* (4) or *Go to next keyframe* (6) and then click the red X that the *add key frame* (5) becomes when you are on an existing keyframe.
+To remove a key frame move to the frame with the key frame using the :guilabel:`Go to previous keyframe` (4) or :guilabel:`Go to next keyframe` (6) and then click the red X that which becomes :guilabel:`Add keyframe` (5) when you are on an existing keyframe.
 
 .. image:: /images/Kdenlive_Rotoscoping_drag_points.png
    :align: left

@@ -19,7 +19,7 @@ This is the `Frei0r luminance <https://www.mltframework.org/plugins/FilterFrei0r
 
 Creates a luminance map of the image.
 
-Moved to color section in ver 15.n
+(Moved to Color section in ver 15.n).
 
 https://youtu.be/2NlTk95kCY8
 

@@ -27,7 +27,7 @@ Subtitle
 .. image:: /images/subtitle-timeline-1.gif
    :alt: subtitle
 
-The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the new subtitle window. You can also import (SRT/ASS) and export (SRT) subtitles.
+The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the new subtitle window. You can also import (**SRT**/**ASS**) and export (**SRT**) subtitles.
 
 There are 3 ways to add subtitle:
 
@@ -58,27 +58,28 @@ Set subtitle in/out can be achieved with the same shortcut as to set clip in/out
 .. image:: /images/subtitle-widget.gif
    :alt: subtitle window
 
-* The subtitles window allows easier editing and also makes it possible to easily navigate between subtitles with the left/right button.
-* With the plus sign, you can add subtitles.
+* The subtitles window allows easier editing and also makes it possible to easily navigate between subtitles with the :guilabel:`Left` and :guilabel:`Right` buttons.
+* With the plus sign button, you can add subtitles.
 * The scissors are mostly here for divide subtitles: let's say your subtitle text is too long and you want to make it 2 different subtitles. Put the cursor in the text widget where you want to cut and click the scissors, it will split the text between 2 different subtitle items. The scissors are only working when the playhead is over the subtitle itself.
-* The tick adds the text to the subtitle.
+* The tick button adds the text to the subtitle.
+
 
 **Import and export subtitle**
 
-Importing SRT and ASS subtitle file: :menuselection:`Project --> Subtitles --> Import subtitles file`
+Importing **SRT** and **ASS** subtitle file: :menuselection:`Project --> Subtitles --> Import Subtitle File`
 
-Exporting SRT subtitles only: :menuselection:`Project --> Subtitles --> Export subtitles file`
+Exporting **SRT** subtitles only: :menuselection:`Project --> Subtitles --> Export Subtitle File`
 
 .. tip::
 
-  SRT supports markup for: bold, italic, underline, text color and line break.
+  **SRT** supports markup for: bold, italic, underline, text color and line break.
 
   * ``<b>text in boldface</b>``
   * ``<i>text in italics</i>``
   * ``<u>text underlined</u>``
   * ``<font color="#00ff00"> text in green</font>`` you can use the font tag only to change color.
   * And all combined: ``<font color="#00ff00"><b><i><u>All combined</u></i></b></font>``
-  * **Line break:** Add on the end of each line a ``<br>`` (for break). Now the srt file is stored correct and reopened with the line break. The subtitle in the subtitle window will be all in 1 line after several save but the breaks is working.
+  * **Line break:** Add on the end of each line a ``<br>`` (for break). Now the :file:`.srt` file is stored correct and reopened with the line break. The subtitle in the subtitle window will be all in 1 line after several save but the breaks is working.
 
   :kbd:`Alt + arrow` jumps from subtitle to subtitle.
 

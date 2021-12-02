@@ -30,7 +30,7 @@ Alpha operations
    :align: left
    :alt: Composite_transition_showing_alpha_channel_operation_options
 
-Alpha operation options are *Over*, ''And*,*Or*and*Xor*
+Alpha operation options are *Over*, *And*, *Or* and *Xor*:
 
 Operation **Over**
 
@@ -43,7 +43,7 @@ Operation **Over**
 
 Operation **And**
 
-* The clip with the alpha information is located on the top track: the selected color becomes transparent.
+* The clip with alpha information is located on the top track: the selected color becomes transparent.
 * The clip with alpha information is located on the bottom track: everything in the image becomes transparent, except for the selected color.
 
 .. image:: /images/alpha_operation_And.png
@@ -65,6 +65,7 @@ Operation **Xor**
    :align: left
    :alt: alpha_operation_Xor
 
+
 Tutorial 1
 ----------
 
@@ -77,6 +78,7 @@ See this :ref:`blue_screen` that describes how to use:
 * Enhancement -> :ref:`sharpen`
 * Alpha Manipulation -> :ref:`alpha_operations`
 
+
 Tutorial 2 - composite transition and Blue Screen
 -------------------------------------------------
 
@@ -84,16 +86,17 @@ Tutorial showing how to use the "Blue screen" function, composite transition and
 
 https://youtu.be/M8hC5FbIzdE
 
+
 Tutorial 3 - Video Masks
 ------------------------
 
-This tutorial uses the Composite transition and a custom video mask (a.k.a. a Wipe File or http://en.wikipedia.org/wiki/Matte_%28filmmaking%29*matte'') to create an effect where you can make it appear that one video is playing on the screen of a still of a computer monitor.
+This tutorial uses the Composite transition and a custom video mask (a.k.a. a Wipe File or `matte <https://en.wikipedia.org/wiki/Matte_(filmmaking)>`_) to create an effect where you can make it appear that one video is playing on the screen of a still of a computer monitor.
 
 The mask/matte is created with **GIMP**.
 
 Save your mattes to :file:`/usr/share/kdenlive/lumas`.
 
-It would appear that you need to stop and restart **Kdenlive** in order for it to pick up new matte/wipe files saved in the above directory.
+It would appear that you need to stop and restart **Kdenlive** in order for it to pick up new matte/wipe files saved in the above folder.
 
 There appears to be a defect in this functionality which means that when the composite is on 100% Opacity, the wipe file does not work. You need to change it to 99% to make the effect kick in.
 

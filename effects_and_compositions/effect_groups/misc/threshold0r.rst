@@ -14,7 +14,7 @@ threshold0r
 
 .. contents::
 
-This is the `Frei0r threshold0r <http://www.mltframework.org/bin/view/MLT/FilterFrei0r-threshold0r>`_ MLT filter.
+This is the `Frei0r threshold0r <https://www.mltframework.org/plugins/FilterFrei0r-threshold0r/>`_ MLT filter.
 
 Thresholds a source image.
 

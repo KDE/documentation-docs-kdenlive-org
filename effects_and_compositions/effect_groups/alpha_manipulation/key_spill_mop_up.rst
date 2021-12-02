@@ -18,14 +18,14 @@ Tutorial
 
 This tutorial shows usage of the following effects: Key Spill Mop Up, blue screen, alpha operations - shrinkhard and denoiser.
 
-Note: **This video is outdated.** In newer versions of kdenlive have the :ref:`keysplillm0pup` effect installed by default, and it is no longer required to use a composite transition.
+Note: **This video is outdated.** In newer versions of Kdenlive have the :ref:`keysplillm0pup` effect installed by default, and it is no longer required to use a composite transition.
 
 https://youtu.be/l43Hz7YEcYU
 
 Details
 -------
 
-The README for the Key Spill Mop Up is this:
+The :file:`README` file for the Key Spill Mop Up is this:
 
 DESCRIPTION:
 

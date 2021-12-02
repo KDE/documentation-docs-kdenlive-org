@@ -17,7 +17,8 @@ Generates image rotation in 3D space, skew and distortion.
 
 Provides keyframable animated affine transformations with dissolve functionality.
 
-In many applications, this transition can be used instead of a :ref:`composite` transition and this provides a workaround to the composite transition "green tinge" bug reported by some. (Mentioned in legacy Mantis bug tracker ID 2759).
+In many applications, this transition can be used instead of a :ref:`composite` and this provides a workaround to the composite transition "green tinge" bug reported by some. (Mentioned in legacy Mantis bug tracker ID 2759.
+
 
 Example 1
 ---------
@@ -28,10 +29,12 @@ https://youtu.be/hylowKurZaw
    :align: left
    :alt: Affine Transition
 
+
 Disolve using Affine Transition
 -------------------------------
 
 To add a Dissolve, change the opacity to zero percent.
+
 
 Rotation using Affine Transition
 --------------------------------
@@ -42,6 +45,7 @@ To rotate the image, add a keyframe and enter values for rotation. The units are
 **Rotate Y** and **Rotate Z** create the illusion of 3D rotation when used dynamically with keyframes - see example below.
 
 You can create a similar effect using the :ref:`rotate_(keyframable)` effect from the Crop and Transform group.
+
 
 Example 2 - Rotate Y
 --------------------

@@ -17,7 +17,7 @@ Download New Title Templates
 
 .. contents::
 
-To install more title templates choose from the click the :menuselection:`Download New Title Templates...` button on the tool bar when title editor.
+To install more title templates press the :guilabel:`Download New Title Templates...` icon on the tool bar when you are in the title editor.
 
 .. image:: /images/Kdenlive_download_new_title_templates.png
    :align: center
@@ -31,5 +31,5 @@ If you have a good title template, you can post it `here <https://store.kde.org/
 
 Once these title templates are installed, they can be accessed via the :ref:`titles` drop down on the **Title Clip** dialog.
 
-The :file:`.kdenlivetitle` files that are downloaded are installed to :file:`.local/share/kdenlive/titles/`
+The :file:`.kdenlivetitle` files that are downloaded are installed to :file:`.local/share/kdenlive/titles/`.
 

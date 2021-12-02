@@ -25,12 +25,12 @@ https://youtu.be/0aSe1y6e4RE
 
 See also this :ref:`blue_screen` that describes how to use:
 
-* Alpha Manipulation>:ref:`blue_screen`
+* Alpha Manipulation -> :ref:`blue_screen`
 * :ref:`rotoscoping`
 * :ref:`composite`
-* Crop and Transform>Pan and Zoom effect
-* Enhancement>:ref:`sharpen`
-* Alpha Manipulation>:ref:`alpha_operations`
+* Crop and Transform -> Pan and Zoom effect
+* Enhancement -> :ref:`sharpen`
+* Alpha Manipulation -> :ref:`alpha_operations`
 
 `Tutorial: How to do pan and zoom with Kdenlive video editor - Peter Thomson(YouTube) <https://youtu.be/B8ZPoWaxQrA>`_
 

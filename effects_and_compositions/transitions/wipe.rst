@@ -33,16 +33,16 @@ The Wipe composition contains the following parameters:
 
 * **Wipe Method**: Selecting a luma file allows you to shape the composition in different shapes.
 
-* **Invert**: changes the direction of motion of the luma file. That is, if the file "radial.pgm" is selected in the "Wipe Method" parameter and the image of the clip of the upper track disappears in a gradually decreasing circle until it is replaced by the clip of the lower track. And if the parameter is selected, on the contrary, the clip image on the lower track will appear in a growing circle until it fills the entire monitor.
+* **Invert**: changes the direction of motion of the luma file. That is, if the file :file:`radial.pgm` is selected in the "Wipe Method" parameter and the image of the clip of the upper track disappears in a gradually decreasing circle until it is replaced by the clip of the lower track. And if the parameter is selected, on the contrary, the clip image on the lower track will appear in a growing circle until it fills the entire monitor.
 
 * **Revert**: If there is a sharp transition (without the correct effect) between the clips and only then the luma file, turn on the "Revert" parameter so that the composition works correctly.
 
 You can install new wipe files from :ref:`download_new_wipes` on the :menuselection:`Settings menu`.
 
 There was a defect with the download new wipe files - it did not download them to where they are needed.
-They should go here :file:`~/.local/share/kdenlive/lumas/HD/`, but were going here :file:`~/.local/share/kdenlive/lumas/`
+They should go here :file:`~/.local/share/kdenlive/lumas/HD/`, but were going here :file:`~/.local/share/kdenlive/lumas/`.
 
-To fix manually create a HD folder and move the .pgm files there.
+To fix manually create a HD folder and move the :file:`.pgm` files there.
 
 See also :ref:`composite`.
 

@@ -14,7 +14,7 @@ Rotate and Shear
 
 .. contents::
 
-This would appear to be the `Affine <https://www.mltframework.org/plugins/FilterAffine/>`_ MLT filter as defined in rotation.xml (/usr/share/kdenlive/effects/).
+This would appear to be the `Affine <https://www.mltframework.org/plugins/FilterAffine/>`_ MLT filter as defined in :file:`rotation.xml` (:file:`/usr/share/kdenlive/effects/`).
 
 Rotate clip in any 3 directions.
 
