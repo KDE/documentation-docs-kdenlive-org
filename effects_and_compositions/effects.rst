@@ -238,6 +238,35 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 .. image:: /images/Timeline-effect-zone.gif
    :alt: timeline-effect-zone
 
+Time Remapping (Speed Ramps)
+----------------------------
+
+.. versionadded:: 21.08.0
+
+The new Time Remap feature allows to keyframe the speed of a clip.
+
+.. image:: /images/timeremap.gif
+   :alt: timeremap
+
+
+Masking Effects
+---------------
+
+.. versionadded:: 21.08.0
+
+Masking Effects
+
+You may now apply effects to only affect specific regions of a clip by using masks. Do note that this is only the initial implementation so expect an improved workflow in the coming releases. For now the process involves 3 steps:
+
+1. Add one of the 3 available masks: Shape alpha (mask), Rotoscoping (mask) or Alpha shapes (mask).
+2. Add an effect (or effects) to be applied to the masked region.
+3. Add Mask Apply to activate the mask to the effects in step 2.
+
+.. image:: /images/mask.gif
+   :alt: mask
+
+You may apply more than one mask per clip by following the same 3 step process.
+
 Seek To Active Frame
 --------------------
 
