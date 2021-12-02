@@ -145,6 +145,17 @@ The rectangles can be placed behind text by selecting them and the changing the 
    :width: 450px
    :alt: Kdenlive_Rectangle_on_title
 
+Typewriter
+----------
+
+.. versionadded:: 21.04.0
+
+.. image:: /images/title-clip-typewriter.png
+   :alt: title-clip-typewriter
+
+The beloved typewriter effect is back with 3 animation modes (by: character, word, line).
+
+
 To make the title scroll vertically
 -----------------------------------
 
