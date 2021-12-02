@@ -18,6 +18,8 @@ $supported_languages = array(
     "da",
     "pt_BR",
     "ru",
+    "sk",
+    "sv",
     "uk_UA",
     "zh_CN",
     "zh_TW",
