@@ -219,11 +219,11 @@ Alphabetical List of Effects and Compositions
   * - asuperpass
     - Audio Effect
     - Audio
-    - Apply high order butterworth band-pass filter (avfilter.asuperpass)
+    - Apply high order Butterworth band-pass filter (avfilter.asuperpass)
   * - asuperstop
     - Audio Effect
     - Audio
-    - Apply high order Butterworth bad-stop filter (avfilter.asuperstop)
+    - Apply high order Butterworth band-stop filter (avfilter.asuperstop)
   * - Audio Divider (Suboctave Generator)
     - Audio Effect
     - Steve Harris’ SWH plugins
@@ -419,7 +419,7 @@ Alphabetical List of Effects and Compositions
   * - color_channel_mixer
     - Video Effect
     - Color and Image correction
-    - Modifies a color channel by adding the vlues associated to the other channels of the same pixels (avfilter.colorchannelmixer)
+    - Modifies a color channel by adding the values associated to the other channels of the same pixels (avfilter.colorchannelmixer)
   * - :ref:`color_distance`
     - Video Effect
     - Stylize
@@ -439,7 +439,7 @@ Alphabetical List of Effects and Compositions
   * - color_only
     - Compositions
     -
-    - Perform a conversion to color only of the source input using the hue and saturation vludes of input2 (frei0r.color_only)
+    - Perform a conversion to color only of the source input using the hue and saturation values of input2 (frei0r.color_only)
   * - colorcontrast
     - Video Effect
     - Stylize
