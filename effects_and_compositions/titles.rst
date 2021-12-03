@@ -145,6 +145,8 @@ The rectangles can be placed behind text by selecting them and the changing the 
    :width: 450px
    :alt: Kdenlive_Rectangle_on_title
 
+.. _typewriter:
+
 Typewriter
 ----------
 
@@ -153,8 +155,31 @@ Typewriter
 .. image:: /images/title-clip-typewriter.png
    :alt: title-clip-typewriter
 
-The beloved typewriter effect is back with 3 animation modes (by: character, word, line).
+The beloved typewriter effect is back. By default it expands text by characters, but other modes like expansion by words and lines are also available.
 
+- Frame step
+   Tells how fast next element will be displayed. The speed is constant over the whole clip and effect period. 
+   
+   Values: 1-240, default: 25
+
+- Variation / Sigma
+   Allows for introducing small fluctuation to the step length.
+   
+   Values 0-20, default: 0
+
+- Seed
+   The random generator for fluctuations is initialized with constant seed to assure predictable pattern. The seed parameter changes the initial value of random generator.
+   
+   Values: 0-100, default 0
+
+- Expansion mode
+   By character: types character by character
+  
+   By word: types word by word
+   
+   By line: types line by line
+   
+   Custom: custom macros (not implemented)
 
 To make the title scroll vertically
 -----------------------------------

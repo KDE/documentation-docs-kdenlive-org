@@ -1824,8 +1824,8 @@ Alphabetical List of Effects and Compositions
     - Audio Effect
     - Steve Harris’ SWH plugins
     - LADSPA plugin (ladspa.1204)
-  * - typewriter
-    - Video Effect
+  * - :ref:`typewriter`
+    - Text Effect
     - Misc
     - Typerwriter effect v0.3.3 (typewriter)
   * - untile
