@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-18 00:21+0000\n"
+"POT-Creation-Date: 2021-12-03 00:38+0000\n"
 "PO-Revision-Date: 2021-11-13 11:00+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:31
 msgid ""
-"After this, either chose the color using the little droplet button. Click on "
+"After this, either chose the color using the little droplet button. Press "
 "the droplet button, and then click on the background part of the clip you "
 "want to remove. Adjust the Delta sliders until the background is removed "
 "correctly. This might need to experimenting. If you find it isn't removing "
@@ -72,39 +72,54 @@ msgstr ""
 msgid ""
 "If the effect took lots of time to experiment, and you will need to use this "
 "effect again, then click on the three horizontal lines in the top right "
-"corner, and then click **Save effect**. Give the effect a name, and save. "
-"You can now search for this specific effect in your effects tab."
+"corner, and then click :guilabel:`Save effect`. Give the effect a name, and "
+"save. You can now search for this specific effect in your effects tab."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:36
 msgid "All Options"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:42
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:41
 msgid "Here is an outline of all the options:"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:44
+#, fuzzy
+#| msgid "Color selection"
+msgid "Color to select:"
+msgstr "Kleurselectie"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:44
 msgid ""
-"**Color to select**: the color to select. This is the color that will be "
-"transparent/the only color that is opaque."
+"The color to select. This is the color that will be transparent/the only "
+"color that is opaque."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:46
-msgid ""
-"**Invert selection**: When ON (default), the selected color will be "
-"transparent. When OFF the selected color will be opaque. Keeping the "
-"selected color opaque may be more effective if the foreground is simple and "
-"the background is complicated."
-msgstr ""
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:47
+#, fuzzy
+#| msgid "Color selection"
+msgid "Invert selection:"
+msgstr "Kleurselectie"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:48
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:47
 msgid ""
-"**Selection Subspace** options are: RGB (Red Green Blue), ABI and HCI (Hue "
-"Chromacity Intensity)."
+"When ON (default), the selected color will be transparent. When OFF the "
+"selected color will be opaque. Keeping the selected color opaque may be more "
+"effective if the foreground is simple and the background is complicated."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:50
+msgid ""
+"The options are: RGB (Red Green Blue), ABI and HCI (Hue Chromacity "
+"Intensity)."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:52
+msgid "Selection subspace:"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:52
 msgid ""
 "These different options yield different results. While RGB should yield the "
 "sharpest and best results, sometimes (as user *themickyrosen-left* have seen "
@@ -113,24 +128,24 @@ msgid ""
 "options."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:54
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:56
 msgid ""
 "**Previews of video chroma keyed using HCI will be slow** since it has to "
 "calculate values for every single pixel."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:56
-msgid "**Edge Mode** Options are: Hard, Fat, Normal, Skinny, Slope"
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:59
+msgid "Options are: Hard, Fat, Normal, Skinny, Slope"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:58
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:61
 msgid ""
 "If the Edge Mode is set to slope, you can use the \"slope\" slider. This "
 "slider determines the smoothness of the edges. The higher the value, the "
 "smoother the edges of your color selection will be."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:60
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:63
 msgid ""
 "\"Hard\" means there is no featuring (edges are not smooth at all). Any part "
 "of the image/video is either fully opaque and fully transparent. This means "
@@ -139,7 +154,11 @@ msgid ""
 "perfect."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:62
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:65
+msgid "Edge Mode:"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:65
 msgid ""
 "The remaining options (\"Fat\", \"Normal\" and \"Skinny\") create a gradual "
 "transition between transparent and opaque. The fatter the choice, the more "
@@ -147,25 +166,29 @@ msgid ""
 "choices). This is useful if your color selection did not turn out that well."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:64
-msgid ""
-"**Delta XXXX:** These three parameters determine the tolerance of the chroma "
-"keying. The higher the value, the more of the background is removed. The "
-"lower the value, less is removed. A bit of experimenting is required to find "
-"the correct values for each clip."
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:68
+msgid "Delta XXXX:"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:68
+msgid ""
+"These three parameters determine the tolerance of the chroma keying. The "
+"higher the value, the more of the background is removed. The lower the "
+"value, less is removed. A bit of experimenting is required to find the "
+"correct values for each clip."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:71
 msgid "See Also"
 msgstr "Zie ook"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:70
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:73
 msgid ""
 "See also :ref:`blue_screen` which does color based alpha selection but is a "
 "bit simpler."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:72
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/color_selection.rst:75
 msgid ""
 "This `page <https://www.worqx.com/color/index.htm>`_ covers some Color "
 "Theory to help understand Hue, Chroma, Luminance, etc."
