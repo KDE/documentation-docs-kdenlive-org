@@ -169,7 +169,7 @@ Keyframe handling
    :alt: keyframe-improvements
 
 * Add a new keyframe by double clicking in timeline.
-* You can move a keyframe without altering it’s value by using the vertical line that appears when you are above or below a keyframe.
+* You can move a keyframe without altering its value by using the vertical line that appears when you are above or below a keyframe.
 * Remove a keyframe by dragging it far above or below the clip limits.
 
 Configurable thumbnails for each track

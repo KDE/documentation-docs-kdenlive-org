@@ -44,7 +44,7 @@ This is the context menu that appears when you right-click on a clip in the time
 * :menuselection:`Ungroup Clips` - see :ref:`grouping`
 
 
-* :menuselection:`Edit Duration` - will open the Duration Dialog and will allow you to adjust the position of the clip int he timeline, what time point of the source clip to start on the timeline, the duration of the clip, and what time point of the source clip to end on the timeline.   Note that Kdenlive will automatically adjust co-related values. 
+* :menuselection:`Edit Duration` - will open the Duration Dialog and will allow you to adjust the position of the clip in the timeline, what time point of the source clip to start on the timeline, the duration of the clip, and what time point of the source clip to end on the timeline. Note that Kdenlive will automatically adjust co-related values. 
 
 
 .. image:: /images/kdenlive_timeline_current_clip_duration02.png

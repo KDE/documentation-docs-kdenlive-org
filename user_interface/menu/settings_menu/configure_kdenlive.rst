@@ -169,14 +169,15 @@ The firewire capture functionality uses the `dvgrab <http://linux.die.net/man/1/
 The settings applied here to define how dvgrab will be used to capture the video. 
 
 **Capture Format options** are
+
 * DV RAW
 * DV AVI Type 1
-* DV AVI Type 2 
+* DV AVI Type 2
 * HDV
 
 The first three are quality-wise the same (exactly the same DV 25Mb/s standard definition codec), just packed differently into the file. Type 2 seems to be the most widely supported by other applications.
 
-The raw format contains just the plain video frames (with audio interleaved) without any additional information. Raw is useful for some Linux software. Files in this format can also be played with Windows QuickTime when renamed to file.dv .
+The raw format contains just the plain video frames (with audio interleaved) without any additional information. Raw is useful for some Linux software. Files in this format can also be played with Windows QuickTime when renamed to :file:`file.dv`.
 
 AVI files may contain multiple streams. Typically, they include one video and one audio stream. The native DV stream format already includes the audio interleaved into its video stream. A type 1 DV AVI file only includes one DV video stream where the audio must be extracted from the DV video stream. A type 2 DV AVI file includes a separate audio stream in addition to the audio data already interleaved in the DV video stream. Therefore, the type 2 DV AVI file is redundant and consumes more space.
 
