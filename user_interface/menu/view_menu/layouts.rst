@@ -30,7 +30,7 @@ Kdenlive allows a great deal of freedom to customize screen layout. You can choo
   :align: left
   :width: 290px
 
-Kdenlive lets you name and save up to four custom layouts.   In the example shown, no custom layouts have been saved yet so they are just labeled 1 through 4.  Click :menuselection:`Save Layout As` and then choose one of the four choices presented.
+Kdenlive lets you name and save up to four custom layouts. In the example shown, no custom layouts have been saved yet so they are just labeled 1 through 4. Click :menuselection:`Save Layout As` and then choose one of the four choices presented.
 
 .. container:: clear-both
 

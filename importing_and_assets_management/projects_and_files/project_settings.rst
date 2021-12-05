@@ -105,7 +105,7 @@ Project Files Tab
    :alt: Kdenlive_Project_settings_Project_Files_tab
 
 
-From here you can export the project files data.   
+From here you can export the project files data.
 
 
 If you want to remove unused files from your project use Project >  :ref:`clean_project`.

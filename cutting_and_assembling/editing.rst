@@ -142,7 +142,7 @@ Active buttons are grey.
 
 4. `Selection Tool`_ - Also selected with the 'S' hotkey.  Allows the selection and manipulation of clips on the timeline
 
-5. `Razor Tool`_ - Also selected with the 'X' hotkey, or to cut at the point of the play head use "Shift-R".   This allows a clip to be cut into two clips.
+5. `Razor Tool`_ - Also selected with the 'X' hotkey, or to cut at the point of the play head use "Shift-R". This allows a clip to be cut into two clips.
 
 6. `Spacer Tool`_ - Also selected with the 'M' hotkey.  This tool will select all clips at one point in the timeline and allow them to be shifted at once.
 

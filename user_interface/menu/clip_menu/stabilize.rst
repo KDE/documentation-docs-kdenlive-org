@@ -82,7 +82,7 @@ Based on the tooltips from this screen and the `docs here <http://public.hronopi
 **stepsize** Step size of search process. Region around minimum is scanned with 1 pixel resolution. Default = 6.
 
 
-**show** 0 = draw nothing, 1 or 2 = show fields and transforms.  Use 1 or 2 to preview what the process is going to do.   `example <http://public.hronopik.de/vid.stab/files/skiing_veryshaky_visualized8_short.ogv>`_. Default = 0. Non-zero values of this parameter are not relevant in the **Kdenlive** implementation - use zero.  This option is not available in version 0.9.3.
+**show** 0 = draw nothing, 1 or 2 = show fields and transforms.  Use 1 or 2 to preview what the process is going to do. `Example <http://public.hronopik.de/vid.stab/files/skiing_veryshaky_visualized8_short.ogv>`_. Default = 0. Non-zero values of this parameter are not relevant in the **Kdenlive** implementation - use zero.  This option is not available in version 0.9.3.
 
 
 **mincontrast** Below this contrast, the field is discarded.  Range 0-1. Default = 0.3. You may want to use a smaller value for a really low contrast clip.

@@ -66,7 +66,7 @@ Maybe this statement helps: https://forum.kde.org/viewtopic.php?f=265&amp;t=1613
 Timeline: right-click menu close immediately after releasing mouse button
 -------------------------------------------------------------------------
 
-Don’t use the style :menuselection:`Fusion`.   
+Don’t use the style :menuselection:`Fusion`.
 
 
 Go to: :menuselection:`Settings` -> :menuselection:`Style` and choose :menuselection:`Default` or :menuselection:`Windows`.
@@ -84,10 +84,10 @@ Cannot open projects made with previous version, timeline snaps back, cannot imp
 Go to: :menuselection:`Help` -> :menuselection:`Reset configuration`. 
 
 
-If this is not solving the problem: Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive -> do nothing -> close Kdenlive -> and restart Kdenlive again.    
+If this is not solving the problem: Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive -> do nothing -> close Kdenlive -> and restart Kdenlive again.
 
 
-If you have still problems delete proxy clips and other cached data by going to :menuselection:`Project` menu > :menuselection:`Project Setting` > :menuselection:`Cache Data` tab > there you can delete cached data.   
+If you have still problems delete proxy clips and other cached data by going to :menuselection:`Project` menu > :menuselection:`Project Setting` > :menuselection:`Cache Data` tab > there you can delete cached data.
 
 
 If you have still problems try :ref:`windows_issues`.
@@ -96,7 +96,7 @@ If you have still problems try :ref:`windows_issues`.
 Windows 10: timeline stuttering or Kdenlive hangs.
 --------------------------------------------------
 
-Most probably you got a major Win10 update (i.e 1809). If so you have to update all drivers for audio and video.   
+Most probably you got a major Win10 update (i.e 1809). If so you have to update all drivers for audio and video.
    
 Intel driver can be updated with this updater: https://downloadcenter.intel.com/en/download/28425/Intel-Driver-Support-Assistant.
 

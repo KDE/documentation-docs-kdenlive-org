@@ -38,7 +38,7 @@ The new online resources window features more source footage providers such as `
   
 
 
-It is important to give credit to the downloaded sources so we’ve added an option to directly import the license attribution as a project note.   
+It is important to give credit to the downloaded sources so we’ve added an option to directly import the license attribution as a project note.
 
 
 .. image:: /images/copyright.png

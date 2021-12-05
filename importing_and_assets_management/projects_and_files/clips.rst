@@ -321,7 +321,7 @@ Counter
 
 This generates a counter timer clip in various formats which you can put onto the timeline.
 
-You can choose to have the clip count up by checking that option, otherwise it will count down by default.   The No Background option will remove the background from the counter leaving only the grey background without the lines.
+You can choose to have the clip count up by checking that option, otherwise it will count down by default. The :guilabel:`No Background` option will remove the background from the counter leaving only the grey background without the lines.
 
 
 To change the size and position of the clip, you can add an effect to the clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`.

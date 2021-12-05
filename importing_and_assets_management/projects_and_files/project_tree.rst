@@ -126,7 +126,7 @@ Clips can be dragged from the Project Bin to the :ref:`timeline`.
 Project Bin - Right-Click Menu
 ------------------------------
 
-The images below show the menu items available when you right-click a clip in the Project Bin.   
+The images below show the menu items available when you right-click a clip in the Project Bin.
 
 
 .. image:: /images/Kdenlive_Project_bin_right_click_menu.png
