@@ -15,7 +15,7 @@ Motion Tracker
 What is Motion Tracking?
 ------------------------
 
-Motion tracking is the process of locating a moving object across time. Kdenlive uses `OpenCV (Open Source Computer Vision Library)<https://opencv.org/about/>`_ for motion detection.  
+Motion tracking is the process of locating a moving object across time. Kdenlive uses `OpenCV (Open Source Computer Vision Library) <https://opencv.org/about/>`_ for motion detection.  
 
    -- `Wikipedia <https://en.wikipedia.org/wiki/Video_tracking>`_
 

@@ -1168,7 +1168,7 @@ Alphabetical List of Effects and Compositions
     - Video Effect
     - Image Adjustment
     - Apply motion-compensation deinterlacing (avfilter.mcdeint)
-  * - motiontracker
+  * - :ref:`motion_tracker`
     - Video Effect
     - Alpha, Mask and Keying
     - Select a zone to follow its movements (opencv.tracker)
