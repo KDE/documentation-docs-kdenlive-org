@@ -8,6 +8,7 @@
 
 Motion Tracker
 ==============
+.. versionadded:: 19.04.0
 
 .. contents::
 
@@ -19,7 +20,6 @@ Motion tracking is the process of locating a moving object across time. Kdenlive
    -- `Wikipedia <https://en.wikipedia.org/wiki/Video_tracking>`_
 
 .. image:: /images/motion_tracker.png
-   :align: left
    :alt: motion tracker
 
 How to track a region of a video? 
@@ -32,7 +32,6 @@ The basic workflow for tracking a region consists of:
 * Click on the Analyse button.
 
 .. image:: /images/motion_tracking_face.png
-   :align: center
    :alt: motion tracking face
    
 
