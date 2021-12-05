@@ -273,7 +273,7 @@ A few minutes left, and the project is finished! Click the Render button (or go 
 References and notes
 --------------------
 
-.. [1] If you prefer Theora (which you probably don’t since Ogg Video usually causes problems), you can alternatively download ::download:`kdenlive-tutorial-videos-2011-ogv.tar.bz2 </files/kdenlive-tutorial-videos-2011-ogv.tar.bz2>`.
+.. [1] If you prefer Theora (which you probably don’t since Ogg Video usually causes problems), you can alternatively download :download:`kdenlive-tutorial-videos-2011-ogv.tar.bz2 </files/kdenlive-tutorial-videos-2011-ogv.tar.bz2>`.
 .. [2] `720 <http://en.wikipedia.org/wiki/720p>`_ is the video height, p stands for `progressive scan <http://en.wikipedia.org/wiki/Progressive_scan>`_ in contrast to `interlaced video <http://en.wikipedia.org/wiki/Interlaced_video>`_, and the fps number denotes the number of full frames per second.
 .. [3] Provided Configure Kdenlive Settings under :ref:`configure_kdenlive` is set to *Check if first added clip matches project profile*
 .. [4] To be correct, it *can* be played using ``melt yourproject.kdenlive``, but this is not the way you would want to present your final video since it is (most likely) too slow. Additionally, it only works if melt is installed.

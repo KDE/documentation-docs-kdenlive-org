@@ -153,12 +153,12 @@ Keyboard Navigation
 .. image:: /images/shift-g.gif
    :alt: shift-g
 
-You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in timeline and use the ::guilabel:`Grab Current Item` (:kbd:`Shift + G`) function from the :menuselection:`Timeline` menu.
+You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in timeline and use the :guilabel:`Grab Current Item` (:kbd:`Shift + G`) function from the :menuselection:`Timeline` menu.
 
 .. image:: /images/moving-keyframes.gif
    :alt: moving-keyframes
 
-You can then move the item with your arrow keys. Keyframes can also be moved individually. Just click on a keyframe in timeline, then move it left/right with :kbd:`arrows`, change its value with :kb:`+` and :kbd:`-`. :kbd:`Alt + arrow` to go to another keyframe.
+You can then move the item with your arrow keys. Keyframes can also be moved individually. Just click on a keyframe in timeline, then move it left/right with :kbd:`arrows`, change its value with :kbd:`+` and :kbd:`-`. :kbd:`Alt + arrow` to go to another keyframe.
 
 Keyframe handling
 ~~~~~~~~~~~~~~~~~
