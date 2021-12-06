@@ -77,7 +77,7 @@ Alternatively - use the `Spacer Tool`_.
 Resizing a clip
 ---------------
 
-A clip can be resized from its start or end by dragging its left or right edge. If you want a more precise resize, you can place the timeline cursor wherever you want the resize to end and use the menu :menuselection:`Timeline --> Resize Item Start` (default shortcut: :kbd:`1`) or :menuselection:`Timeline --> Resize Item End` (default shortcut: :kbd:`2`)
+A clip can be resized from its start or end by dragging its left or right edge. If you want a more precise resize, you can place the timeline cursor wherever you want the resize to end and use the menu :menuselection:`Timeline --> Resize Item Start` (default shortcut: :kbd:`(` or :menuselection:`Timeline --> Resize Item End` (default shortcut: :kbd:`)`)
 
 
 To even more precisely control the length of a clip, double click it in the timeline and adjust its duration using the **Clip duration** dialog. You can have frame-level accuracy with this method.
@@ -88,6 +88,29 @@ To even more precisely control the length of a clip, double click it in the time
 
 
 You can also resize a clip by cutting it with the  `Razor Tool`_ and then deleting the bit you do not want.
+
+.. versionadded:: 19.08
+
+Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or video part of a clip. 
+
+:kbd:`alt + Move` in timeline allows to move the audio or video part to another track independently.
+
+.. image:: /images/av-metamove.gif
+   :alt: av-metamove
+
+.. _change_speed_of_a_clip: 
+
+Change speed of a clip
+----------------------
+
+.. versionadded:: 19.08
+
+.. image:: /images/adjustspeed.gif
+   :alt: adjustspeed
+
+Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the timeline.
+
+Doing with right click on the clip see :ref:`change_speed`. 
 
 
 Removing Space Between Clips

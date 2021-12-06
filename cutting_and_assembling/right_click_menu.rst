@@ -80,26 +80,32 @@ This is the context menu that appears when you right-click on a clip in the time
 * :menuselection:`Set Audio Reference` and :menuselection:`Align Audio to Reference` are used to align two clips on different tracks in the timeline base on the audio in the tracks. This is useful if two cameras recorded the same scene simultaneously. **Kdenlive** can use the almost identical audio track to align the two clips.
 
 
-* : To use this feature:
+   To use this feature:
 
 
-* :* Select the clip that you would like to align *to*.
+   * Select the clip that you would like to align *to*.
 
 
-* :* Right click, select :menuselection:`Set Audio Reference`.
+   * Right click, select :menuselection:`Set Audio Reference`.
 
 
-* :* Select all the clips that you would like to get aligned.
+   * Select all the clips that you would like to get aligned.
 
 
-* :* Right-click and select :menuselection:`Align Audio to Reference`.
+   * Right-click and select :menuselection:`Align Audio to Reference`.
 
+.. _change_speed:
+
+Change speed
+^^^^^^^^^^^^
 
 *  :menuselection:`Change speed` will open the change speed dialog that will allow you to increase or decrease the playback speed of a clip, allow you to play the clip in reverse, and will enable / disable pitch compensation for the audio on a speed-adjusted clip.
 
 
-.. image:: /images/Kdenlive-change_speed_dialog.png
-   :alt: Kdenlive-change_speed_dialog
+   .. image:: /images/Kdenlive-change_speed_dialog.png
+      :alt: Kdenlive-change_speed_dialog
+
+   Doing speed change of a clip with the mouse see: :ref:`change_speed_of_a_clip` 
 
 
 * :menuselection:`Clip in project bin` will highlight the selected clip in the project bin.

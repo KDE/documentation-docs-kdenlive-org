@@ -13,6 +13,12 @@
 Motion Effects - Speed
 ======================
 
+.. attention::
+
+   .. deprecated:: 21.04
+      Use :ref:`change_speed` instead
+
+
 .. contents::
 
 Make clip play faster or slower. Use of this effect mutes the audio of the clip.
