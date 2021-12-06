@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-29 00:22+0000\n"
-"PO-Revision-Date: 2021-11-29 17:14+0100\n"
+"POT-Creation-Date: 2021-12-05 00:38+0000\n"
+"PO-Revision-Date: 2021-12-05 12:40+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -131,7 +131,7 @@ msgid ""
 "Menu does."
 msgstr ""
 "**Divideix automàticament l'àudio i el vídeo** - Les pistes tindran "
-"automàticament les porcions d'àudio i de vídeo dividides en un pista de "
+"automàticament les porcions d'àudio i de vídeo dividides en una pista de "
 "vídeo i d'àudio quan s'arrosseguen des de la safata del projecte a la línia "
 "de temps; és a dir, aquest paràmetre provoca que el Kdenlive faci "
 "automàticament la funció que fa :ref:`clip_menu` en el menú del clip."
@@ -164,10 +164,10 @@ msgid ""
 "setting tells **Kdenlive** where to find the engine that runs the whole "
 "application."
 msgstr ""
-"Aquest paràmetre informa al **Kdenlive** o on trobar els executables MLT i "
-"els fitxers dels perfils. Només els usuaris avançat necessitaran canviar "
+"Aquest paràmetre informa el **Kdenlive** o on trobar els executables MLT i "
+"els fitxers dels perfils. Només els usuaris avançats necessitaran canviar "
 "realment aquests paràmetres. El **Kdenlive** és bàsicament un frontal del "
-"programa MLT i això informa al **Kdenlive** a on trobar el motor que executa "
+"programa MLT i això informa el **Kdenlive** a on trobar el motor que executa "
 "l'aplicació sencera."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:115
@@ -307,13 +307,26 @@ msgstr ""
 "s'usarà el «dvgrab» per a capturar el vídeo."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:171
-msgid ""
-"**Capture Format options** are * DV RAW * DV AVI Type 1 * DV AVI Type 2 * HDV"
-msgstr ""
-"Les **opcions del format de captura** són * DV RAW * DV AVI Tipus 1 * DV AVI "
-"Tipus 2 * HDV"
+msgid "**Capture Format options** are"
+msgstr "Les **opcions de format de captura** són"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:177
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:173
+msgid "DV RAW"
+msgstr "DV RAW"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:174
+msgid "DV AVI Type 1"
+msgstr "DV AVI tipus 1"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:175
+msgid "DV AVI Type 2"
+msgstr "DV AVI tipus 2"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:176
+msgid "HDV"
+msgstr "HDV"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:178
 msgid ""
 "The first three are quality-wise the same (exactly the same DV 25Mb/s "
 "standard definition codec), just packed differently into the file. Type 2 "
@@ -321,21 +334,26 @@ msgid ""
 msgstr ""
 "Les tres primeres tenen la mateixa qualitat (exactament el mateix còdec de "
 "definició estàndard DV 25Mb/s), encara que amb diferent empaquetatge en el "
-"fitxer. El Tipus 2 sembla que és el més acceptat per altres aplicacions."
+"fitxer. El tipus 2 sembla que és el més acceptat per altres aplicacions."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:179
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:180
+#| msgid ""
+#| "The raw format contains just the plain video frames (with audio "
+#| "interleaved) without any additional information. Raw is useful for some "
+#| "Linux software. Files in this format can also be played with Windows "
+#| "QuickTime when renamed to file.dv ."
 msgid ""
 "The raw format contains just the plain video frames (with audio interleaved) "
 "without any additional information. Raw is useful for some Linux software. "
 "Files in this format can also be played with Windows QuickTime when renamed "
-"to file.dv ."
+"to :file:`file.dv`."
 msgstr ""
 "El format «raw» conté els fotogrames normals de vídeo (amb l'àudio "
 "entrellaçat) sense cap informació addicional. El «raw» és útil per a divers "
-"programari Linux. Els fitxers en aquesta format també poden ser reproduïts "
-"amb el Windows QuickTime quan el fitxer es reanomena a «fitxer.dv»."
+"programari Linux. Els fitxers en aquest format també poden ser reproduïts "
+"amb el Windows QuickTime quan el fitxer es reanomena a :file:`file.dv`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:181
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:182
 msgid ""
 "AVI files may contain multiple streams. Typically, they include one video "
 "and one audio stream. The native DV stream format already includes the audio "
@@ -346,19 +364,19 @@ msgid ""
 "AVI file is redundant and consumes more space."
 msgstr ""
 "Els fitxers AVI poden contenir diversos fluxos. Normalment, inclouen un flux "
-"de vídeo i un d'àudio. El format de flux DV natiu ja incou l'àudio "
+"de vídeo i un d'àudio. El format de flux DV natiu ja inclou l'àudio "
 "entrellaçat en el seu flux de vídeo. Un fitxer AVI DV de tipus 1 només "
 "inclou un flux de vídeo DV a on l'àudio s'ha d'extreure del flux de vídeo "
 "DV. Un fitxer AVI DV de tipus 2 inclou un flux d'àudio separat "
 "addicionalment a les dades ja entrellaçades en el flux de vídeo DV. Per "
 "tant, el fitxer AVI DV de tipus 2 és redundant i ocupa més espai."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:183
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:184
 msgid "HDV is a high-definition format used on tape-based HD camcorders."
 msgstr ""
 "L'HDV és un format d'alta definició usat en càmeres de vídeo HD de cinta."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:185
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:186
 msgid ""
 "**Add recording time to captured file name** option: If this is unchecked "
 "then each captured file will get a sequential number post-pended to the file "
@@ -374,7 +392,7 @@ msgstr ""
 "dv**"
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:187
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:188
 msgid ""
 "**Automatically start a new file on scene cut** option:  With this checked "
 "it tries to detect whenever a new recording starts, and store it into a "
@@ -392,7 +410,7 @@ msgstr ""
 "comença un fitxer de captura nou."
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:189
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:190
 msgid ""
 "The **dvgrab additional parameters** edit box allows you to add extra dvgrab "
 "switches to the capture process that will run. See  `dvgrab manual <http://"
@@ -403,11 +421,11 @@ msgstr ""
 "el `manual del «dvgrab» <http://linux.die.net/man/1/dvgrab>`_ per a més "
 "informació."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:192
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:193
 msgid "Configure Screen Grab Capture"
 msgstr "Configuració de la captura de pantalla"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:194
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:195
 msgid ""
 "This shows the configure tab for screen grab in ver 0.9.3 of **Kdenlive**. "
 "It will be different in ver. 0.9.2 because that version used Record My "
@@ -417,11 +435,11 @@ msgstr ""
 "**Kdenlive**. Era diferent en la ver. 0.9.2 perquè aquesta versió usava "
 "«Record My Desktop» per a fer la captura de pantalla."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:205
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:206
 msgid "Jog Shuttle"
 msgstr "Jog Shuttle"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:208
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:209
 msgid ""
 "Configure a connected Jog-Shuttle device. Contour ShuttlePro and Contour "
 "ShuttleXpress are known to work."
@@ -429,11 +447,11 @@ msgstr ""
 "Configura un dispositiu Jog-Shuttle connectat. Se sap que funcionen el "
 "Contour ShuttlePro i el Contour ShuttleXpress."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:211
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:212
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:213
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:214
 msgid ""
 "Ensure that your Jog-Shuttle device is connected via USB and working. An "
 "udev rule is necessary to correct the access rights to the device file: "
@@ -444,33 +462,33 @@ msgstr ""
 "al fitxer del dispositiu: creeu un fitxer /etc/udev/rules.d/90-contour-"
 "shuttleXpress.rules amb la línia:"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:220
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:231
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:221
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:232
 msgid "Contents"
 msgstr "Contingut"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:222
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:223
 msgid "\"0b33\", ATTRS{idProduct}==\"0020\", MODE=\"0444\""
 msgstr "\"0b33\", ATTRS{idProduct}==\"0020\", MODE=\"0444\""
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:224
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:225
 msgid "for Contour ShuttleXpress or"
 msgstr "per al Contour ShuttleXpress o"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:233
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:234
 msgid "\"0b33\", ATTRS{idProduct}==\"0030\", MODE=\"0444\""
 msgstr "\"0b33\", ATTRS{idProduct}==\"0030\", MODE=\"0444\""
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:235
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:236
 msgid "for Contour ShuttlePRO V2. Obtain the device file by a command"
 msgstr ""
-"per al Contour ShuttlePRO V2. Obtingueu el fitxer des dispositiu amb l'ordre"
+"per al Contour ShuttlePRO V2. Obtingueu el fitxer del dispositiu amb l'ordre"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:242
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:243
 msgid "The last line of the output says"
 msgstr "La darrera línia de la sortida diu"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:249
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:250
 msgid ""
 "which should tell the device file to be entered into kdenlive's setting "
 "dialog: In the text field enter /dev/input/**event3** (use the last word on "
@@ -483,7 +501,7 @@ msgstr ""
 "el fitxer de dispositiu a /dev/input), definiu els botons i apliqueu els "
 "canvis."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:259
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:260
 msgid ""
 "Enable Jog-Shuttle. For the Contour ShuttleXpress the buttons 5 - 9 are "
 "relevant, whereas Contour ShuttlePro uses all buttons. The actions for the "
@@ -493,11 +511,11 @@ msgstr ""
 "ShuttleXpress, mentre que el Contour ShuttlePro usa tots els botons. Les "
 "accions per al «jog-» i la roda «shuttle» funcionen com s'espera."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:262
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:263
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:264
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:265
 msgid ""
 "On the desktop, bottom-right opens the system tray. Right-click on the "
 "Contour icon and choose \"Open control Panel\"."
@@ -505,7 +523,7 @@ msgstr ""
 "A l'escriptori, a la part inferior dreta s'obre la safata del sistema. Feu "
 "clic dret en la icona del Contour i trieu «Obre el plafó de control»."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:273
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:274
 msgid ""
 "In the configuration window choose under \"Application setting\" the program "
 "\"Adobe Premiere Pro CS&amp;CC (Edit)\". Then click on :menuselection:"
@@ -516,11 +534,11 @@ msgstr ""
 "menuselection:`Opcions --> Crea una configuració nova --> Copia el contingut "
 "a partir de la configuració actual`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:282
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:283
 msgid "Then choose Kdenlive.exe in C:\\Program Files\\kdenlive\\bin."
 msgstr "Després trieu Kdenlive.exe a C:\\Program Files\\kdenlive\\bin."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:291
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:292
 msgid ""
 "Now the basic functionality should work. Adjust the buttons of the shuttle "
 "with shortcuts as you like."
@@ -528,7 +546,7 @@ msgstr ""
 "Ara, les funcionalitats bàsiques haurien de funcionar. Ajusteu els botons "
 "del Shuttle amb les dreceres que vulgueu."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:295
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:296
 msgid ""
 "You can make Kdenlive settings from scratch using :menuselection:`Options --"
 "> Create new settings --> Create Empty Settings` when creating new settings."
@@ -536,18 +554,18 @@ msgstr ""
 "Podeu fer la configuració del Kdenlive des de zero usant :menuselection:"
 "`Opcions --> Crea una configuració nova --> Crea una configuració buida`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:299
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:300
 msgid "Playback"
 msgstr "Reproducció"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:302
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:303
 msgid ""
 "Configure the Video and Audio drivers and devices. For advanced users only."
 msgstr ""
 "Configura els controladors de vídeo i d'àudio i dels dispositius. Només per "
 "a usuaris avançats."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:312
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:313
 msgid ""
 "In version 0.9.4 of **Kdenlive**, checking the \"use Open GL for video "
 "playback\" checkbox turns on the ability to have audio scrubbing available "
@@ -566,7 +584,7 @@ msgstr ""
 "pot ser útil per a situar el capçal de reproducció en el punt correcte del "
 "clip en relació amb un tros important d'àudio."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:314
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:315
 msgid ""
 "In ver 15.04 or higher, there is no \"use Open GL for video playback\" "
 "checkbox  - Open GL is used by default."
@@ -574,11 +592,11 @@ msgstr ""
 "A la ver. 15.04 o superior, no hi ha cap casella de selecció «Usa l'Open GL "
 "per a la reproducció de vídeo», l'Open GL s'usa de manera predeterminada."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:318
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:319
 msgid "Transcode"
 msgstr "Transcodificació"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:321
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:322
 msgid ""
 "This controls the :ref:`transcode` functionality. The parameters section are "
 "ffmpeg parameters. Find help on them by issuing ``ffmpeg -h`` at a command "
@@ -588,68 +606,75 @@ msgstr ""
 "són paràmetres del «ffmpeg». Cerqueu ajuda quant a ells introduint ``ffmpeg -"
 "h`` a la línia d'ordres."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:332
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:333
 msgid "Transcode Options"
 msgstr "Opcions de transcodificació"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:337
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:338
 msgid "Option"
 msgstr "Opció"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:338
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:339
 msgid "Description"
 msgstr "Descripció"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:339
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:340
 msgid "Parameters"
 msgstr "Paràmetres"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:340
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:341
 msgid "Meanings of Parameters"
 msgstr "Significats dels paràmetres"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:341
-msgid "Wav 48000Hz"
-msgstr "Wav 48000Hz"
-
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:342
+msgid "Wav 48000Hz"
+msgstr "Wav 48000 Hz"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:343
 msgid "Extract audio as WAV file"
 msgstr "Extreu l'àudio com a fitxer WAV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:343
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:344
 msgid "-vn -ar 48000"
 msgstr "-vn -ar 48000"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:344
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:345
 msgid "-vn=disable video, -ar 48000 = set audio sampling rate to 48kHz"
 msgstr ""
 "-vn=desactiva el vídeo, -ar 48000 = estableix la freqüència de mostreig "
-"d'àudio a 48kHz"
+"d'àudio a 48 kHz"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:345
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:346
 msgid "Remux with MKV"
 msgstr "Remux amb MKV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:347
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:348
 msgid "-vcodec copy -acodec copy -sn"
 msgstr "-vcodec copy -acodec copy -sn"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:348
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:349
 msgid "copy the video and the audio. -sn = disable subtitles"
 msgstr "copia el vídeo i l'àudio. -sn = desactiva els subtítols"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:349
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:350
 msgid "Remux MPEG-2 PS/VOB"
 msgstr "Remux MPEG-2 PS/VOB"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:350
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:351
 msgid "Fix audio sync in MPEG-2 vob files"
 msgstr "Corregeix la sincronització de l'àudio en els fitxers vob MPEG-2"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:351
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:352
 msgid "-vcodec copy -acodec copy"
 msgstr "-vcodec copy -acodec copy"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:352
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:353
 msgid "copy the video and the audio"
 msgstr "copia el vídeo i l'àudio"
+
+#~ msgid ""
+#~ "**Capture Format options** are * DV RAW * DV AVI Type 1 * DV AVI Type 2 * "
+#~ "HDV"
+#~ msgstr ""
+#~ "Les **opcions del format de captura** són * DV RAW * DV AVI Tipus 1 * DV "
+#~ "AVI Tipus 2 * HDV"
