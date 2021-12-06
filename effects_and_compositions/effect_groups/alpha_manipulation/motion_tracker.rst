@@ -33,7 +33,14 @@ The basic workflow for tracking a region consists of:
 
 .. image:: /images/motion_tracking_face.png
    :alt: motion tracking face
-   
+
+.. image:: /images/motion-tracker-copy-keyframe.png
+   :align: right
+   :alt: motion-tracker-copy-keyframe
+
+* When Analyse is done you can export the keyframes to the clipboard by click on |application-menu| and choose :menuselection:`Copy keyframes to clipboard`. See: :ref:`exchange_keyframes_across_effects`
+
+.. rst-class:: clear-both
 
 Tracking algorithms?
 --------------------
@@ -57,9 +64,21 @@ MedianFlow
 ^^^^^^^^^^
 soon
 
-`DaSiam<https://arxiv.org/pdf/1808.06048.pdf>`
-^^^^^^^
-In order to use the DaSiam algorithm you need to download the AI models and place them in *$HOME/.local/share/kdenlive/opencvmodels*.
+`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In order to use the DaSiam algorithm you need to download the AI models and place them in: 
+
+   **Linux**
+
+   *$HOME/.local/share/kdenlive/opencvmodels*.
+
+   **Windows**
+
+   *%AppData%\kdenlive\opencvmodels*
+
+   Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and copy **%AppData%\kdenlive\**. Then create the folder `opencvmodels`
+
+
 
 1. https://www.dropbox.com/s/rr1lk9355vzolqv/dasiamrpn_model.onnx?dl=1
 2. https://www.dropbox.com/s/999cqx5zrfi7w4p/dasiamrpn_kernel_r1.onnx?dl=1

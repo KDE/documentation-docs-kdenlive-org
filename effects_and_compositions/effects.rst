@@ -199,6 +199,8 @@ The effect’s keyframe panel has new icons, improved keyframe grabbing and new 
 
    Move multiple keyframes at once
 
+.. _exchange_keyframes_across_effects:
+
 Exchange keyframes across effects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
