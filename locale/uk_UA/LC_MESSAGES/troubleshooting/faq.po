@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-13 00:22+0000\n"
-"PO-Revision-Date: 2021-12-05 20:49+0200\n"
+"PO-Revision-Date: 2021-12-06 20:25+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -37,11 +37,11 @@ msgid ""
 "XML files that code the edit points and transitions and it then calls :file:"
 "`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to render the video."
 msgstr ""
+"Насправді, **Kdenlive** є оболонкою до `melt <http://www.mltframework.org/bin/view/MLT/MltMelt>`_, у якій використано бібліотеку для роботи з відео MLT. Робота бібліотеки MLT залежить від програм проєкту FFMPEG. **Kdenlive** записує файли XML :file:`sh.mlt`, у яких закодовано позиції редагування та переходи, і потім викликає :file:`/usr/bin/kdenlive_render` і :file:`/usr/bin/melt` для обробки відео."
 
 #: ../../troubleshooting/faq.rst:29
 msgid "How do I fix Audio Sync Issues?"
-msgstr ""
-"Як виправити проблеми із синхронізацією звуку?"
+msgstr "Як виправити проблеми із синхронізацією звуку?"
 
 #: ../../troubleshooting/faq.rst:31
 msgid ""
@@ -49,6 +49,7 @@ msgid ""
 "project. Audio encoded with VBR (be it pure audio like MP3 or video with "
 "audio) can be problematic."
 msgstr ""
+"Часто це пов'язано із утворенням суміш різних джерел звукових даних у проєкті. Кодування звукових даних зі змінною бітовою швидкістю (суто звукових даних, подібно до MP3, чи відеоданих зі звуком) може бути проблематичним."
 
 #: ../../troubleshooting/faq.rst:33
 msgid ""
@@ -57,8 +58,11 @@ msgid ""
 "`extract_audio` feature of Kdenlive to do this it will write a .wav file for "
 "you."
 msgstr ""
+"Якщо джерелом звукових даних є відеофайл, спробуйте видобути звукові дані з ваших відеоджерел і перекодувати звукові дані у формат WAV. Якщо для цього ви скористаєтеся можливістю :ref:"
+"`extract_audio` Kdenlive, буде записано файл .wav."
 
 #: ../../troubleshooting/faq.rst:36
 msgid "If you have a pure audio source try transcoding that to WAV."
 msgstr ""
-"Якщо у вас є початковий звук, який не потребує обробки, спробуйте перекодувати дані у WAV."
+"Якщо у вас є початковий звук, який не потребує обробки, спробуйте "
+"перекодувати дані у WAV."
