@@ -155,7 +155,7 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 2c. :ref:`timline_insert_mode`
 
-3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See `Insert &  Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.
+3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See ::ref:`insert_overwrite_advanced_timeline_editing` for more details.
 
 
 **Tool Group** (one of these 3 can be active)
@@ -177,9 +177,9 @@ Active buttons are grey.
 
 8. **Mix Clips** - allows same-track transitions to be applied between two clips. See :ref:`same_track_transition` for a detailed explanation.
 
-9. Insert Clip Zone in Timeline. See `Insert & Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.
+9. Insert Clip Zone in Timeline. See :ref:`insert_overwrite_advanced_timeline_editing` for more details.
 
-10. Overwrite Clip Zone in Timeline. See `Insert & Overwrite Advanced Timeline Editing <https://kdenlive.org/project/insert-overwrite-advanced-timeline-editing/>`_ on Kdenlive Home page.
+10. Overwrite Clip Zone in Timeline. See :ref:`insert_overwrite_advanced_timeline_editing` for more details.
 
 11. Extract Timeline Zone
 
@@ -203,11 +203,11 @@ Active buttons are grey.
 
 14g. Manage Cached Data
 
-Items 14, 14a-14g are covered in detail by `Timeline preview rendering <https://kdenlive.org/project/timeline-preview-rendering/>`_ article on the Kdenlive Home Page
+Items 14, 14a-14g are covered in detail by :ref:`timeline-preview-rendering` article.
 
-15. Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
+1.  Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
 
-16. Show/Hide the :ref:`subtitle` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
+2.  Show/Hide the :ref:`subtitle` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
 
 Track Compositing
