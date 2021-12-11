@@ -74,9 +74,9 @@ In order to use the DaSiam algorithm you need to download the AI models and plac
 
    **Windows**
 
-   *%AppData%\kdenlive\opencvmodels*
+   *%AppData%/kdenlive/opencvmodels*
 
-   Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and copy **%AppData%\kdenlive\**. Then create the folder `opencvmodels`
+   Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and copy **%AppData%/kdenlive/**. Then create the folder `opencvmodels`
 
 
 
