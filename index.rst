@@ -91,9 +91,9 @@ Workflow
     .. container:: tile
 
         .. figure:: /images/intro_page/Index_Editing.png
-           :target: Cutting_and_assembling.html
+           :target: cutting_and_assembling.html
 
-        :ref:`Cutting_and_assembling`
+        :ref:`cutting_and_assembling`
            Start editing in the Timeline
 
            See how the time line and the monitors are working
@@ -101,9 +101,9 @@ Workflow
     .. container:: tile
 
        .. figure:: /images/intro_page/Index_Effects.png
-          :target: Effects.html
+          :target: /effects_and_compositions/effects.html
 
-       :ref:`Effects`
+       :ref:`effects`
           Add video and audio effects and compositions.
 
           Create Titles and Subtitles and use Speech to Text.
@@ -113,9 +113,9 @@ Workflow
     .. container:: tile
 
        .. figure:: /images/intro_page/Index_Rendering.png
-          :target: Exporting.html
+          :target: exporting.html
 
-       :ref:`Exporting`
+       :ref:`exporting`
           Render out your final video for distributing.
 
 
