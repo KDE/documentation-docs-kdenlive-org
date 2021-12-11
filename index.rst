@@ -83,7 +83,7 @@ Workflow
         .. figure:: /images/intro_page/Index_Logging.png
            :target: importing_and_assets_management.html
 
-        :doc:`importing_and_assets_management`
+        :ref:`importing_and_assets_management`
            Load files into Kdenlive and be prepared
 
            Starting video editing
@@ -91,6 +91,7 @@ Workflow
     .. container:: tile
 
         .. figure:: /images/intro_page/Index_Editing.png
+           :target: Cutting_and_assembling.html
 
         :ref:`Cutting_and_assembling`
            Start editing in the Timeline
@@ -100,6 +101,7 @@ Workflow
     .. container:: tile
 
        .. figure:: /images/intro_page/Index_Effects.png
+          :target: Effects.html
 
        :ref:`Effects`
           Add video and audio effects and compositions.
@@ -111,6 +113,7 @@ Workflow
     .. container:: tile
 
        .. figure:: /images/intro_page/Index_Rendering.png
+          :target: Exporting.html
 
        :ref:`Exporting`
           Render out your final video for distributing.
