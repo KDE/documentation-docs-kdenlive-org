@@ -1,28 +1,30 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-13 00:22+0000\n"
-"PO-Revision-Date: 2021-11-15 18:32+0100\n"
-"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
-"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2021-12-10 13:03+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.0\n"
 
 #: ../../troubleshooting/faq.rst:17
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Foire aux questions"
 
 #: ../../troubleshooting/faq.rst:20
 msgid "Contents"
-msgstr ""
+msgstr "Contenu"
 
 #: ../../troubleshooting/faq.rst:23
 msgid "What components does Kdenlive use?"
-msgstr ""
+msgstr "Quels composants sont ils utilisés par Kdenlive ?"
 
 #: ../../troubleshooting/faq.rst:25
 msgid ""
@@ -32,10 +34,16 @@ msgid ""
 "XML files that code the edit points and transitions and it then calls :file:"
 "`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to render the video."
 msgstr ""
+"En effet, **Kdenlive** est une interface avec « melt <http://www."
+"mltframework.org/bin/view/MLT/MltMelt> »_ - utilisant l'environnement vidéo "
+"« MLT ». Ce dernier s'appuie sur le projet « FFMpeg ». **Kdenlive** écrit "
+"des fichiers XML :file:`sh.mlt` codant les points de montage et les "
+"transitions. Ensuite, il appelle :file:`/usr/bin/kdenlive_render` et :file:`/"
+"usr/bin/melt` pour effectuer le rendu de vidéo."
 
 #: ../../troubleshooting/faq.rst:29
 msgid "How do I fix Audio Sync Issues?"
-msgstr ""
+msgstr "Comment puis-je résoudre les problèmes de synchronisation audio ?"
 
 #: ../../troubleshooting/faq.rst:31
 msgid ""
@@ -43,6 +51,9 @@ msgid ""
 "project. Audio encoded with VBR (be it pure audio like MP3 or video with "
 "audio) can be problematic."
 msgstr ""
+"Ce problème est souvent dû à un mélange de différentes sources audio dans le "
+"projet. L'audio codé avec « VBR » (qu'il s'agisse d'audio pur comme le "
+"« MP3 » ou d'une vidéo avec audio) peut devenir problématique."
 
 #: ../../troubleshooting/faq.rst:33
 msgid ""
@@ -51,7 +62,13 @@ msgid ""
 "`extract_audio` feature of Kdenlive to do this it will write a .wav file for "
 "you."
 msgstr ""
+"Si votre source audio provient d'un fichier vidéo, essayez d'extraire "
+"l'audio à partir de vos sources vidéo et de les transcoder au format "
+"« WAV ». L'utilisation de la fonction :ref:`extraire_audio` de Kdenlive le "
+"fera en enregistrant un fichier « .wav » pour vous."
 
 #: ../../troubleshooting/faq.rst:36
 msgid "If you have a pure audio source try transcoding that to WAV."
 msgstr ""
+"Si vous utilisez une source audio pure, veuillez tenter de la transcoder au "
+"format « WAV »."
