@@ -80,9 +80,9 @@ In order to use the DaSiam algorithm you need to download the AI models and plac
 
 
 
-1. https://www.dropbox.com/s/rr1lk9355vzolqv/dasiamrpn_model.onnx?dl=1
-2. https://www.dropbox.com/s/999cqx5zrfi7w4p/dasiamrpn_kernel_r1.onnx?dl=1
-3. https://www.dropbox.com/s/qvmtszx5h339a0w/dasiamrpn_kernel_cls1.onnx?dl=1
+1. https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_cls1.onnx
+2. https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_r1.onnx
+3. https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_model.onnx
 
 
 
