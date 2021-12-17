@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-06 00:38+0000\n"
-"PO-Revision-Date: 2021-12-13 00:05+0200\n"
+"PO-Revision-Date: 2021-12-17 00:57+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:18
@@ -127,6 +126,7 @@ msgid ""
 "Kdenlive to automatically do what the :ref:`clip_menu` function on the Clip "
 "Menu does."
 msgstr ""
+"**Автоматично розділяти звук і відео** — доріжки, у яких є частини відео і звуку, буде автоматично розділено на відеодоріжку та звукову доріжку при перетягуванні з панелі контейнера проєкту на монтажний стіл; тобто цей параметр спричиняє автоматичне виконання Kdenlive дії пункту :ref:`clip_menu` у меню кліпу."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:93
 msgid ""
@@ -156,6 +156,7 @@ msgid ""
 "setting tells **Kdenlive** where to find the engine that runs the whole "
 "application."
 msgstr ""
+"Цей параметр повідомляє **Kdenlive**, ще шукати виконувані файли та файли профілів MLT. Справжня потреба у зміні цього параметра може виникнути лише у досвідченого користувача. **Kdenlive**, на базовому рівні, є оболонкою до програми MLT, а цей параметр вказує **Kdenlive**, де шукати рушій, який є основою усієї програми."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:115
 msgid ""
@@ -167,6 +168,7 @@ msgid ""
 "does not do multi-thread on. (Multi-threading is supported for MPEG-2, "
 "MPEG-4, H.264, and VP8)"
 msgstr ""
+"**Проміжні кліпи – Конкурентні потоки обробки**. Цей параметр встановлює кількість потоків обробки, якими програма спробує скористатися при виклику ffmpeg для кодування :ref:`кліпів <clips>`. Саме це значення kdenlive передасть до параметра ffmpeg  *-threads*. Збільшення значення цього параметра може не спрацювати, якщо вами було змінено параметри кодування проміжних кліпів на за допомогою вікна :ref:`project_settings` так, що буде використано кодек, для якого у ffmpeg не передбачено багатопотокової обробки. (Багатопотокову обробку передбачено для MPEG-2, MPEG-4, H.264 і VP8)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:117
 msgid ""
@@ -179,6 +181,7 @@ msgid ""
 "effects - see `this <https://forum.kde.org/viewtopic.php?f=265&amp;"
 "t=122140#p317318>`_ forum post from the author of the Melt program."
 msgstr ""
+"**Потоки обробки**: експериментальний параметр, який було вилучено у версії 0.9.10. Це число програма передавала до властивості споживача *real_time* melt. Цей параметр збільшував кількість потоків обробки, які програма використовувала для декодування і обробки відео (але не кодування, яким керувала :ref:`render`).  Див. `документацію з mlt <http://www.mltframework.org/bin/view/MLT/Questions#Does_MLT_take_advantage_of_multi>`_. Використання цього параметра мало певні непередбачені наслідки — див. `цей допис <https://forum.kde.org/viewtopic.php?f=265&amp;t=122140#p317318>`_ від автора програми Melt."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:119
 msgid ""
@@ -189,6 +192,8 @@ msgid ""
 "Questions#Does_MLT_take_advantage_of_multi>`_ - numbers <0 implement "
 "threading without dropping frames."
 msgstr ""
+"Якщо ви хочете поекспериментувати із багатопотоковою обробкою у версіях, новіших за 0.9.10, ви можете додати щось подібне до «real_time=-4» до нетипового профілю обробки. І так, у прикладі це саме мінус 4 — оскільки за `документацією mlt <http://www.mltframework.org/bin/view/MLT/"
+"Questions#Does_MLT_take_advantage_of_multi>`_ числа <0 реалізують багатопотокову обробку без викидання кадрів."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:122
 msgid "Default Folders"
@@ -218,6 +223,7 @@ msgid ""
 "files are edited by the external applications defined here. The video player "
 "is used by the DVD wizard previewer."
 msgstr ""
+"Цей параметр керує тим, які програми буде запущено, коли ви виберете пункт :ref:`edit_clip` для кліпу на панелі контейнера проєкту. Зауважте, що тут не буде програм для редагування відео, оскільки **Kdenlive** уже є програмою для редагування відео. Тут визначають зовнішні програми для редагування зображень та звукових даних. Програму для відтворення відео буде використано у засобі попереднього перегляду майстра створення DVD."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:145
 msgid "Capture"
@@ -249,6 +255,7 @@ msgid ""
 "from the :menuselection:`Settings --> Configure Kdenlive` menu or from the "
 "spanner icon in the :ref:`capturing`"
 msgstr ""
+"На цьому зображенні показано вкладку налаштовування захоплення з Firewire, відкрити яку можна за допомогою пункту меню :menuselection:`Параметри --> Налаштувати Kdenlive` або за допомогю піктограми із гайковим ключем у :ref:`capturing`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:168
 msgid ""
@@ -286,6 +293,7 @@ msgid ""
 "standard definition codec), just packed differently into the file. Type 2 "
 "seems to be the most widely supported by other applications."
 msgstr ""
+"Перші три варіанти є рівноцінними за якістю (абсолютно однаковий кодек DV 25 Мбіт/с із стандартним визначенням), їх лише запаковано по-різному до файла. Підтримка типу 2, здається, є найрозповсюдженішою у інших програмах."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:180
 msgid ""
