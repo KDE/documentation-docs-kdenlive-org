@@ -150,14 +150,14 @@ Proxy clips
    :alt: Activating proxy clips
 
 
-* Proxy clips* create a lower-quality transcode of the original footage for use in real-time rendering in the project monitor.  This allows for a smoother editing experience even on slower computers with High Definition footage.  When rendering, by default, the original quality footage is used and not the proxy footage. For example, Video decoding of H.264 or H.265 clips, requires a lot of computing power to decode and could cause playback *stutter* when rendering effects in real time.
+*Proxy clips* create a lower-quality transcode of the original footage for use in real-time rendering in the project monitor.  This allows for a smoother editing experience even on slower computers with High Definition footage.  When rendering, by default, the original quality footage is used and not the proxy footage. For example, Video decoding of H.264 or H.265 clips, requires a lot of computing power to decode and could cause playback *stutter* when rendering effects in real time.
 
 
-Proxy clips can be enabled/disabled for the current project in the Project Settings (:menuselection:`Project` > :menuselection:`Project Settings` > :menuselection:`Proxy` > :menuselection:`Enable Proxy Clips`).
+Proxy clips can be enabled/disabled for the current project in the Project Settings (:menuselection:`Project --> Project Settings --> Proxy --> Enable Proxy Clips`).
 
 
-To enable proxy clips by default for new projects, go to :menuselection:`Settings` > :menuselection:`Configure Kdenlive` > :menuselection:`Proxy Clips` > :menuselection:`Enable Proxy Clips`.
-See also the :ref:`project_settings`  page
+To enable proxy clips by default for new projects, go to :menuselection:`Settings --> Configure Kdenlive --> Proxy Clips --> Enable Proxy Clips`.
+See also the :ref:`project_settings` page
 
 
 .. image:: /images/Proxy_clip_creation.png
