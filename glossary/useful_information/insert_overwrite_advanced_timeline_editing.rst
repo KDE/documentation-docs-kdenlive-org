@@ -54,7 +54,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    Now **place the timeline cursor** to where you want to start with the insert.
 
-   Also make sure to **select the correct track** for insertion – using the :kbd:`cursor up`` and :kbd:`cursor down`` keys. (Remember that the currently selected track is marked with the semi-transparent selection color, the exact color of which depends on your particular color theme.)
+   Also make sure to **select the correct track** for insertion – using the :kbd:`cursor up` and :kbd:`cursor down` keys. (Remember that the currently selected track is marked with the semi-transparent selection color, the exact color of which depends on your particular color theme.)
 
 .. container:: clear-both
 

@@ -78,10 +78,12 @@ Remove Space
 :menuselection:`Remove Space` is not the exact opposite of :menuselection:`Insert Space`. 
 
 The similarities are:
+
 * If you access :menuselection:`Remove Space` from the :menuselection:`Timeline` menu, the playhead governs where the removal will happen.  When using right-click, it happens at the mouse cursor.
 * Transitions will move with clips on the higher track.
 
 There are the following differences:
+
 * It only works on one track at a time – there is no *All Tracks* option.
 * If you accessed :menuselection:`Remove Space` from the :menuselection:`Timeline` menu, the playhead must be on an empty space in the track where the space is to be removed.
 * You can not set the duration of the space to be removed – all the empty space between clips is removed.  All the clips and transitions to the right of the playhead or mouse cursor will be shifted left until the first clip encounters another clip or the beginning of the track.

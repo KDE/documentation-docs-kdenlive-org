@@ -26,7 +26,7 @@ ALSA to the Res-Cue
 
    Luckily, there’s an easy remedy in case you’re affected.
 
-   Go to the menu :menuselection:`Settings > Configure Kdenlive`, then in the configuration dialog select the :guilabel:`Playback` section. Change the :guilabel:`Audio driver`` from :guilabel:`Automatic` to :guilabel:`ALSA`. Leave the Audio device set to “Default”, so your desktop audio device settings apply.
+   Go to the menu :menuselection:`Settings > Configure Kdenlive`, then in the configuration dialog select the :guilabel:`Playback` section. Change the :guilabel:`Audio driver` from :guilabel:`Automatic` to :guilabel:`ALSA`. Leave the Audio device set to “Default”, so your desktop audio device settings apply.
 
    Click :guilabel:`OK`, and you’re done.
 

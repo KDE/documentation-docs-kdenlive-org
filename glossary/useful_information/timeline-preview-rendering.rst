@@ -77,7 +77,7 @@ Step 1: Set Preview Zone
 
    Set the timeline zone in (:kbd:`I`) and out (:kbd:`O`) points for the zone you want to render for preview.
 
-   Next, select :guilabel:`Add Preview Zone`` (alternatively, :menuselection:`Timeline --> Timeline Preview --> Add Preview Zone`).
+   Next, select :guilabel:`Add Preview Zone` (alternatively, :menuselection:`Timeline --> Timeline Preview --> Add Preview Zone`).
 
 .. note:: 
    For the first time, you won’t see any change yet.
