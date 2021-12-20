@@ -150,38 +150,38 @@ Layer Compositing
 ^^^^^^^^^^^^^^^^^
 
 
-    Addition
-    Addition Alpha
-    Burn
-    Color Only
-    Darken
-    Difference
-    Divide
-    Dodge
-    Grain Handling: Extract / Merge
-    Hardlight / Overlay
-    Hue
-    Lighten
-    Multiply
-    Overlay / Hardlight
-    Saturation
-    Screen
-    Softlight
-    Substract
-    UV Map
-    Value
-    Video Quality Management
+    * Addition
+    * Addition Alpha
+    * Burn
+    * Color Only
+    * Darken
+    * Difference
+    * Divide
+    * Dodge
+    * Grain Handling: Extract / Merge
+    * Hardlight / Overlay
+    * Hue
+    * Lighten
+    * Multiply
+    * Overlay / Hardlight
+    * Saturation
+    * Screen
+    * Softlight
+    * Substract
+    * UV Map
+    * Value
+    * Video Quality Management
 
 Alpha Compositing
 ^^^^^^^^^^^^^^^^^
 
 
-    Alpha atop
-    Alpha in
-    Alpha out
-    Alpha over
-    Alpha XOR
-    Matte
+    * Alpha atop
+    * Alpha in
+    * Alpha out
+    * Alpha over
+    * Alpha XOR
+    * Matte
 
 .. note::
 
