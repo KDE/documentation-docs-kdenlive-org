@@ -65,7 +65,7 @@ MedianFlow
 soon
 
 `DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In order to use the DaSiam algorithm you need to download the AI models and place them in: 
 
    **Linux**

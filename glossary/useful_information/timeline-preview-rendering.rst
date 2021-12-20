@@ -94,7 +94,7 @@ Step 2: Render Preview Zone in Background
       :alt: preview-timeline-step-render
       :width: 350px
 
-   Select Start Preview Render (:menuitem:`Timeline --> Timeline Preview --> Start Preview Render`). Or press :kbd:`Shift + Return`. Or click on |preview-render-on|.
+   Select Start Preview Render (:menuselection:`Timeline --> Timeline Preview --> Start Preview Render`). Or press :kbd:`Shift + Return`. Or click on |preview-render-on|.
 
 .. note::
    
@@ -173,6 +173,6 @@ Preview Profiles
 .. rst-class:: clear-both
 
 De-synchronized Preview
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 If for some reason the rendered preview should get out of sync with your timeline editing, simply remove the corresponding preview zone (:guilabel:`Remove Preview Zone`) or all preview zones (:guilabel:`Remove All Preview Zones`). This gets you back to a sane preview state. Then add the zone back again (using :guilabel:`Add Preview Zone`), and rerender.

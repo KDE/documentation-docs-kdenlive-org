@@ -181,15 +181,12 @@ This brings up the **Cut Clip** dialog which appears to be setup to extract the 
 
 
 .. image:: /images/Kdenlive_Extract_zone.png
-   :align: left
    :alt: Kdenlive_Extract_zone
 
 
 On the authors 0.9.2  and 0.9.5 version of **Kdenlive** this feature is broken for .dv format clips at least.  It does work for .mp4 type clips. However, the accuracy of the cuts on the clip is way out. 
 
-
-.. code-block:: bash
-
+.. code-block:: text
   
    ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
     built on Jun 12 2012 16:37:58 with gcc 4.6.3

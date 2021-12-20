@@ -10,7 +10,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _audio:
+.. _audio_effects:
 
 Audio Effects
 =============
