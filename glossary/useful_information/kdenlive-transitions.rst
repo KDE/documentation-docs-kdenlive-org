@@ -193,4 +193,4 @@ Alpha Compositing
 
 .. versionadded:: 21.08
 
-In-track ore same-track transition is implemented with Kdenlive 21.08.
+In-track or same-track transition is implemented with Kdenlive 21.08.
