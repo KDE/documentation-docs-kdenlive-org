@@ -32,7 +32,7 @@ Display
 
 What to display. There are seven options: :menuselection:`Image`, :menuselection:`Alpha as gray`, :menuselection:`Gray + red`, :menuselection:`Selection on black`, :menuselection:`Selection on gray`, :menuselection:`Selection on white`, and :menuselection:`Selection on checkers`.
 
-This effect lets the unchanged input image through - this plugin is intended to change only the alpha channel...
+This effect lets the unchanged input image though - this plugin is intended to change only the alpha channel...
 
 Display input alpha
 ~~~~~~~~~~~~~~~~~~~~

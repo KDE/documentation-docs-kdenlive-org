@@ -30,7 +30,7 @@ See also :ref:`clip_menu`.
 Clips (Video, Audio and Images)
 -------------------------------
 
-The |kdenlive-add-clip| button (Add Clip) brings up the **Add Clip** Dialog where you can choose video, audio or still image clips to add to the :ref:`project_tree`.
+The |kdenlive-add-clip| button (Add Clip) brings up the **Add Clip** Dialog where you can choose video, audio or still image clips to add to :ref:`project_tree`.
 
 .. image:: /images/Add_clip_dialog.png
    :width: 450px

@@ -28,7 +28,7 @@ Basic Technique
 
 Find a clip with a background (preferably multiple, or slightly complex, because the "chroma key effect" can do easy backgrounds such as green or blue). Add the Chroma-Key effect to the clip.
 
-After this, either chose the color using the little droplet button. Press the droplet button, and then click on the background part of the clip you want to remove. Adjust the Delta sliders until the background is removed correctly. This might need to experimenting. If you find it isn't removing the background well, try changing the "selection subspace" and experiment again. If you experimented and cycled through all the "selection subspaces", and the background isn't still removed properly, then it is probably too complicated for **Kdenlive** to remove. At this point, you will need to use :ref:`rotoscoping`.
+After this, either choose the color using the little droplet button. Press the droplet button, and then click on the background part of the clip you want to remove. Adjust the Delta sliders until the background is removed correctly. This might need to experimenting. If you find it isn't removing the background well, try changing the "selection subspace" and experiment again. If you experimented and cycled through all the "selection subspaces", and the background isn't still removed properly, then it is probably too complicated for **Kdenlive** to remove. At this point, you will need to use :ref:`rotoscoping`.
 
 If the effect took lots of time to experiment, and you will need to use this effect again, then click on the three horizontal lines in the top right corner, and then click :guilabel:`Save effect`. Give the effect a name, and save. You can now search for this specific effect in your effects tab.
 
@@ -60,9 +60,9 @@ Edge Mode:
 
    If the Edge Mode is set to slope, you can use the "slope" slider. This slider determines the smoothness of the edges. The higher the value, the smoother the edges of your color selection will be.
 
-   "Hard" means there is no featuring (edges are not smooth at all). Any part of the image/video is either fully opaque and fully transparent. This means there will be no blue between the removed parts and the remaining parts whatsoever, and this option is useful if your chroma key turned out to be perfect.
+   "Hard" means there is no feathering (edges are not smooth at all). Any part of the image/video is either fully opaque and fully transparent. This means there will be no blue between the removed parts and the remaining parts whatsoever, and this option is useful if your chroma key turned out to be perfect.
 
-   The remaining options ("Fat", "Normal" and "Skinny") create a gradual transition between transparent and opaque. The fatter the choice, the more the selected areas are filled towards the rim (AKA more featuring for fatter choices). This is useful if your color selection did not turn out that well.
+   The remaining options ("Fat", "Normal" and "Skinny") create a gradual transition between transparent and opaque. The fatter the choice, the more the selected areas are filled towards the rim (AKA more feathering for fatter choices). This is useful if your color selection did not turn out that well.
 
 Delta XXXX:
    These three parameters determine the tolerance of the chroma keying. The higher the value, the more of the background is removed. The lower the value, less is removed. A bit of experimenting is required to find the correct values for each clip.

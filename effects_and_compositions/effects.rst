@@ -27,7 +27,7 @@ You add effects to clips by choosing them from the **Effects Tab** and dragging 
 
 The effects that are in play on a given clip can be viewed and edited via the Properties Tab that displays when the clip in question is selected in the timeline.
 
-You can also apply effects to an entire track. This is achieved by dragging an effect from the **Effect Tab** to the **Track Header**. Or you can click on the track header and chose the :menuselection:`Timeline --> Add Effect` menu item. Tracks which have effects added in this fashion will have a gold star icon in the track header.
+You can also apply effects to an entire track. This is achieved by dragging an effect from the **Effect Tab** to the **Track Header**. Or you can click on the track header and choose the :menuselection:`Timeline --> Add Effect` menu item. Tracks which have effects added in this fashion will have a gold star icon in the track header.
 
 .. figure:: /images/Kdenlive_Effect_on_whole_track.png
    :width: 100px
