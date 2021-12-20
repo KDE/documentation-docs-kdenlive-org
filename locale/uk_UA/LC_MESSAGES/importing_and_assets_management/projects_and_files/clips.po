@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 00:37+0000\n"
-"PO-Revision-Date: 2021-12-19 00:00+0200\n"
+"PO-Revision-Date: 2021-12-19 23:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:20
@@ -200,6 +199,7 @@ msgid ""
 "the image will not be zoomed, but black bars will appear when the photo "
 "orientation or aspect does not match the video's."
 msgstr ""
+"Обрізання за центром: автоматично заповнити відеокадр результату зображенням, зберігаючи співвідношення розмірів шляхом масштабування зображення і обрізання однакових смуг з кожного краю, аж доки зображення не заповнить кадр. Якщо цей пункт не буде позначено, програма не масштабуватиме зображення, лишаючи чорні смуги там, де орієнтація фотографії або її співвідношення розмірів не збігатимуться із відповідними параметрами відео."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:123
 msgid ""
@@ -210,6 +210,7 @@ msgid ""
 "pass filtering is much slower, so you should preview without it, and then "
 "enable it to render."
 msgstr ""
+"Анімація: додає набір повільного плавного панорамування та ефекти масштабування, також відомий як ефект Кена Бернса. Ви можете вибрати варіант без анімації, лише панорамування, лише масштабування або комбінацію панорамувань та змін масштабу. У кожного варіант є фільтр низьких частот для зменшення шумності на зображеннях, яка може виникнути під час виконання дій над зображенням. Фільтрування низьких частот є набагато повільнішим, тому його слід виключити з попереднього перегляду, а потім увімкнути під час остаточної обробки."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:127
 msgid "Create Folder"
@@ -240,7 +241,6 @@ msgid "Proxy clips"
 msgstr "Проміжні кліпи"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:153
-#, fuzzy
 #| msgid ""
 #| "Proxy clips* create a lower-quality transcode of the original footage for "
 #| "use in real-time rendering in the project monitor.  This allows for a "
@@ -268,7 +268,6 @@ msgstr ""
 "обробці ефектів у реальному часі."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:156
-#, fuzzy
 #| msgid ""
 #| "Proxy clips can be enabled/disabled for the current project in the "
 #| "Project Settings (:menuselection:`Project` > :menuselection:`Project "
@@ -283,7 +282,6 @@ msgstr ""
 "Проміжні кліпи --> Увімкнути проміжні кліпи`)."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:159
-#, fuzzy
 #| msgid ""
 #| "To enable proxy clips by default for new projects, go to :menuselection:"
 #| "`Settings` > :menuselection:`Configure Kdenlive` > :menuselection:`Proxy "
@@ -309,6 +307,7 @@ msgid ""
 "clip in the Project Bin – see picture. Clicking :menuselection:`Proxy Clip` "
 "again disables the proxy for this clip."
 msgstr ""
+"Щойно буде увімкнено проміжні кліпи, їх можна буде створити для певних кліпів проєкту на віджеті контейнера проєкту за допомогою контекстного меню :menuselection:`Проміжний кліп`. Після вибору пункту :menuselection:`Проміжний кліп` для кліпу програма розпочне виконання завдання зі створення кліпу. Ви можете стежити за поступом цього завдання за маленькою сірою смужкою поступу, яка з'явиться у нижній частині пункту кліпу на панелі контейнера проєкту — див. знімок. Повторний вибір пункту :menuselection:`Проміжний кліп` вимикає проміжний кліп для цього кліпу."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:172
 msgid ""
@@ -335,6 +334,7 @@ msgid ""
 "proxy clips as well. It is disabled by default , but for a quick rendering "
 "preview it is useful."
 msgstr ""
+"Під час обробки до остаточного файла результатів ви також можете вибрати, чи слід використовувати проміжні кліпи. Типово, цей пункт вимкнено, але для пришвидшення створення попереднього варіанта він може виявитися корисним."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:188
 msgid "Clip Properties"
@@ -348,6 +348,7 @@ msgid ""
 "the display of clip properties the :menuselection:`View` and enable :"
 "guilabel:`Clip Properties`."
 msgstr ""
+"Ви можете переглядати і редагувати властивості кліпів: позначте кліп на :ref:`панелі контейнера проєкту <project_tree>` і виберіть пункт :menuselection:`Властивості кліпу` з меню :menuselection:`Проєкт` або контекстного меню. Ви також можете увімкнути показ властивостей кліпу у меню :menuselection:`Перегляд`, пункт :guilabel:`Властивості кліпу`."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:194
 msgid "File Info"
@@ -371,6 +372,7 @@ msgid ""
 "to tell a clip that seems to have forgotten it was 16:9 ratio that it really "
 "is 16:9 ratio."
 msgstr ""
+"На вкладці :menuselection:`Властивості` буде показано додаткові властивості кліпу. Там ви можете позначити відповідний пункт і потім примусово встановити значення властивості кліпу. Наприклад, ви можете скористатися пунктом :menuselection:`Співвідношення розмірів`, щоб повідомити програмі, що кліп для якого не встановлено співвідношення розмірів кадру 16:9, слід встановити таке співвідношення."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:214
 msgid "Advanced Clip property options are:"
@@ -488,6 +490,7 @@ msgid ""
 "to add markers to your clips via the  :ref:`monitors` because that allows "
 "you to preview the file at the location where you are adding the marker."
 msgstr ""
+"Ви можете скористатися вкладкою :menuselection:`Позначки`, щоб додати позначки для певних точок у початковому файлі, які є з певних міркувань важливими. Втім, ймовірно, простіше додавати позначки до ваших кліпів за допомогою :ref:`моніторів <monitors>`, оскільки це надає вам змогу попередньо переглядати файл у місці, де було додано позначку."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:278
 msgid ""
@@ -498,6 +501,8 @@ msgid ""
 "can turn on the display of the marker comments in the timeline too (see :ref:"
 "`editing`)."
 msgstr ""
+"Щойно ви розставите позначки на кліпі, ви зможете отримувати до них доступ на :ref:`моніторах <monitors>` клацанням правою кнопкою миші із наступним вибором пункту меню :menuselection:`Перейти до позначки` (див. зображення). Також зауважте, що позначки буде показано як червоні вертикальні лінії на **Моніторі кліпу** (див. підсвічені жовтим області на зображенні). Крім того, ви можете увімкнути показ коментарів до позначок на монтажному столі (див. :ref:"
+"`editing`)."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:287
 msgid ""
@@ -569,6 +574,7 @@ msgid ""
 "remove the background from the counter leaving only the grey background "
 "without the lines."
 msgstr ""
+"Позначенням цього пункту ви можете наказати програмі вести відлік за зростанням. Якщо пункт не буде позначено, відлік вестиметься за спаданням. За допомогою пункту :guilabel:`Без тла` можна вилучити тло з лічильника, лишивши лише сірий фон без ліній."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:327
 msgid ""
