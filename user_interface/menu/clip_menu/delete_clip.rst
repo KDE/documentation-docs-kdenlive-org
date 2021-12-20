@@ -17,20 +17,12 @@ Delete Clip
 
 .. contents::
 
-
-
-
 This menu item is available from :ref:`project_tree` on a clip in the Project Bin or under the :ref:`clip_menu` when a clip is selected in the Project Bin.
-
 
 This function removes the clip from the Project Bin and from the timeline if it is being used on the timeline.
 
-
 You are warned if the clip is in use on the timeline.
-
 
 .. image:: /images/Kdenlive_Delete_clip.png
   :align: center
   :width: 300px
-
-

@@ -8,6 +8,7 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _open_backup_file:
 
 Open Backup File
@@ -15,9 +16,6 @@ Open Backup File
 
 .. contents::
 
-
 This allows you to open up the automatic backups of the projects that **Kdenlive** creates.
 
 See :ref:`backup`.
-
-

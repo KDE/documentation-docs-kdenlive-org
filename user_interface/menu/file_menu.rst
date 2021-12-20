@@ -10,6 +10,7 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _file_menu:
 
 File Menu
@@ -26,8 +27,8 @@ See :ref:`quickstart`.
 
 The default settings that appear on this feature are defined under :menuselection:`Settings --> Configure Kdenlive` > :ref:`configure_kdenlive`.
 
-Open
-----
+Open...
+-------
 
 Opens a project that has been saved in a :ref:`project` format file. The default keyboard shortcut is :kbd:`Ctrl + O`.
 
@@ -41,21 +42,21 @@ Save
 
 Saves the current state of the project in a :ref:`project` format file. Prompts for a file name if this is the first time the file is being saved. The default keyboard shortcut is :kbd:`Ctrl + S`.
 
-Save As
--------
+Save As...
+----------
 
 Saves the current state of the project in a :ref:`project` format file of your choice. The default keyboard shortcut is :kbd:`Ctrl + Shift + S`.
 
-Save Copy
----------
+Save Copy...
+------------
 
 Revert
 ------
 
 This abandons any changes to the project you have made since last saving and reverts back to the last saved version of the project.
 
-Transcode Clips
----------------
+Transcode Clips...
+------------------
 
 .. image:: /images/Transcode.png
   :align: center

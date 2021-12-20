@@ -10,6 +10,7 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _edit_menu:
 
 Edit Menu
@@ -22,8 +23,7 @@ Undo
 
 :menuselection:`Edit --> Undo` is used to reverse the last change you made or operation you performed in Kdenlive.  If you have made multiple changes to your project, **Undo** can be used repeatedly to rollback each of the changes in the reverse order they were performed. **Undo** can also be executed from the icon on the **Extra Toolbar** (:menuselection:`Settings --> Toolbars Shown`) or by using the keyboard shortcut :kbd:`Ctrl + Z`.
 
-
-To view a navigable list of all the changes which can be undone, see `Undo_History`.
+To view a navigable list of all the changes which can be undone, see :ref:`Undo_History`.
 
 Redo
 ----
@@ -33,7 +33,7 @@ Redo
 Copy
 ----
 
-Copies a clip selected in the timeline to the clipboard. The default keyboard shortcut is :kbd:`Ctrl + C`.  It also copies the effects attached to the clip to the clipboard. Use `Paste`_ to paste the clip into a different spot on the timeline. Use `Paste Effects`_ to paste just the effects from the copied clip onto a different clip.
+Copies a clip selected in the timeline to the clipboard. The default keyboard shortcut is :kbd:`Ctrl + C`. It also copies the effects attached to the clip to the clipboard. Use `Paste`_ to paste the clip into a different spot on the timeline. Use `Paste Effects`_ to paste just the effects from the copied clip onto a different clip.
 
 Paste
 -----

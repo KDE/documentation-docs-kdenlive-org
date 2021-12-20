@@ -9,6 +9,7 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _clip_menu:
 
 Clip Menu
@@ -16,11 +17,7 @@ Clip Menu
 
 .. contents::
 
-
-
-
 The functions controlled from this menu affect the clip that is selected in the timeline. This is in contrast to :ref:`project_menu` functions which affect the clips selected in the Project Bin.
-
 
 .. image:: /images/Kdenlive_Clip_menu.png
    :align: left
@@ -31,70 +28,47 @@ The functions controlled from this menu affect the clip that is selected in the 
 Markers Menu Item
 -----------------
 
-
-
-The menu allows you to :menuselection:`Add`, :menuselection:`Edit` and :menuselection:`Delete` :ref:`markers`
-
+The menu allows you to :menuselection:`Add`, :menuselection:`Edit` and :menuselection:`Delete` in :ref:`markers`.
 
 Automatic Transition
 --------------------
 
-
-
 When a transition is selected, this menu item allows you toggle the transition to and from :ref:`transitions` mode.
-
 
 Other Items
 -----------
 
-
-
 The other menu items which appear when in the Clip menu are also available from the :ref:`project_tree`.
-
 
 * :ref:`extract_audio`
 
-
-* :ref:`transcode`
-
-
 * :menuselection:`Clip Jobs`
-
 
  * :ref:`stabilize`
 
-
- * :ref:`automaticscenesplit` 
+ * :ref:`automaticscenesplit`
 
  * :ref:`duplicate_clip_with_speed_change`
 
+* :ref:`transcode`
+
+* :ref:`Locate Clip... <locate_clip>`
+
+* :ref:`Reload Clip <reload_clip>`
+
+* :ref:`Duplicate Clip <duplicate_clip>`
+
+* :ref:`Proxy Clip <proxy_clip>`
 
 * :ref:`clip_in_timeline`
 
-
-* :ref:`locate_clip`
-
-
-* :ref:`reload_clip`
-
-
-* :ref:`duplicate_clip`
-
-
-* :ref:`clips`
-
-
-* :ref:`clips`
-
+* :ref:`Clip Properties <clip_properties>`
 
 * :ref:`edit_clip`
 
-
-* :ref:`rename_clip`
-
+* :ref:`Rename... <rename_clip>`
 
 * :ref:`delete_clip`
-
 
 .. toctree::
    :caption: Contents:

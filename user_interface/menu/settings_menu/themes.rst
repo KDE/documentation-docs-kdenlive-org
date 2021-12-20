@@ -6,8 +6,8 @@
 
 .. _themes:
 
-Settings>Themes
-===============
+Color Theme
+===========
 
 .. contents::
 

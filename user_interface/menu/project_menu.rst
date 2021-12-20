@@ -21,15 +21,15 @@ Project Menu
   :align: center
   :alt: Project Menu
 
-* :ref:`Add Clip <add_clip>`
+* :ref:`Add Clip or Folder... <add_clip>`
 
-* :ref:`Add Color Clip <add_color_clip>`
+* :ref:`Add Color Clip... <add_color_clip>`
 
 * :ref:`Add Slideshow Clip <add_slideshow_clip>`
 
-* :ref:`titles`
+* :ref:`Add Title Clip... <titles>`
 
-* :ref:`titles`
+* :ref:`Add Template Title... <titles>`
 
 * :ref:`create_folder`
 
@@ -41,17 +41,17 @@ Project Menu
 
 * :ref:`clean_project`
 
-* :ref:`render`
+* :ref:`Render... <render>`
 
 * :ref:`extract_audio`
 
 * :ref:`adjust_profile_to_current_clip`
 
-* :ref:`project_settings`
+* :ref:`Archive Project... <archiving>`
 
-* :ref:`open_backup_file`
+* :ref:`Open Backup File... <open_backup_file>`
 
-* :ref:`archiving`
+* :ref:`Project Settings... <project_settings>`
 
 
 .. toctree::
