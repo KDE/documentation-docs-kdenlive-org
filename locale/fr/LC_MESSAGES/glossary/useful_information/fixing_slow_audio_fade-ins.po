@@ -1,20 +1,24 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 00:37+0000\n"
-"PO-Revision-Date: 2021-11-17 18:32+0100\n"
-"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
-"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2021-12-23 14:53+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.0\n"
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:13
 msgid "Fixing Unwanted Slow Audio Fade-Ins with Some USB Audio Cards"
 msgstr ""
+"Correction d'un fondu audio lent indésirable avec certaines cartes audio "
+"« USB »"
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:15
 msgid ""
@@ -23,14 +27,20 @@ msgid ""
 "audio fade effects applied at all? Turns out this is some odd interference "
 "between some(!) USB audio cards and the PulseAudio sound backend…"
 msgstr ""
+"Êtes-vous gêné par un lent fondu audio indésirable lors du démarrage de la "
+"lecture dans la frise chronologique ou dans l'écran de la vidéo, alors "
+"qu'aucun effet de fondu audio n'est appliqué  Il s'avère qu'il s'agit d'une "
+"interférence bizarre entre certaines ( !) cartes audio « USB » et le moteur "
+"de sons PulseAudio..."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:18
 msgid "ALSA to the Res-Cue"
-msgstr ""
+msgstr "ALSA à la rescousse"
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:27
 msgid "Luckily, there’s an easy remedy in case you’re affected."
 msgstr ""
+"Heureusement, il existe une solution facile au cas où vous seriez concerné."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:29
 msgid ""
@@ -40,16 +50,25 @@ msgid ""
 "Leave the Audio device set to “Default”, so your desktop audio device "
 "settings apply."
 msgstr ""
+"Allez dans le menu :menuselection:`Configuration / Configurer Kdenlive`, "
+"puis dans la boîte de dialogue de configuration, sélectionnez la section "
+":guilabel:`Lecture`. Modifiez le :guilabel:`Pilote audio` de "
+":guilabel:`Automatique` à :guilabel:`ALSA`. Laissez le périphérique audio "
+"défini à « Défaut », de sorte que les paramètres du périphérique audio de "
+"votre bureau s'appliquent."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:31
 msgid "Click :guilabel:`OK`, and you’re done."
-msgstr ""
+msgstr "Cliquez sur :guilabel:`Ok`, et vous avez terminé."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:33
 msgid ""
 "Your timeline and bin clip audio playback should now be working as expected, "
 "without any unwanted slow audio fade-ins anymore."
 msgstr ""
+"La lecture audio de votre frise chronologique et du dossier de vidéos "
+"devrait maintenant fonctionner comme prévu, sans aucun fondu audio lent "
+"indésirable."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:36
 msgid ""
@@ -57,6 +76,11 @@ msgid ""
 "`Timeline --> Disable Timeline Effects`. This disables or re-enables all "
 "timeline effects, that is, timeline clip effects and track effects."
 msgstr ""
+"Vous trouverez l'option correspondante dans le menu principal "
+":menuselection:`Frise chronologique / Désactiver les effets de la frise "
+"chronologique`. Ceci désactive ou réactive tous les effets de la frise "
+"chronologique, c'est-à-dire les effets de vidéo de la frise chronologique et "
+"les effets de piste."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:38
 msgid ""
@@ -64,16 +88,22 @@ msgid ""
 "properly disabled or re-enabled by :menuselection:`Timeline --> Disable "
 "Timeline Effects`."
 msgstr ""
+"Cependant, veuillez noter qu'avant la version 16.08.1 de Kdenlive, les "
+"effets de piste ne sont pas correctement désactivés ou réactivés par "
+":menuselection:`Frise chronologique / Désactiver les effets de la frise "
+"chronologique`."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:40
 msgid ""
 "Please see :ref:`effects_everywhere` about how to temporarily disable bin "
 "clip effects."
 msgstr ""
+"Veuillez consulter :ref:`effets_n_importe_ou` pour savoir comment désactiver "
+"temporairement les effets du dossier de vidéos."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:45
 msgid "Background Information"
-msgstr ""
+msgstr "Informations générales"
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:47
 msgid ""
@@ -81,6 +111,10 @@ msgid ""
 "some USB audio cards, but not others. I’ve noticed when trying a Steinberg "
 "UR22mkII USB audio interface."
 msgstr ""
+"Veuillez noter que le fondu audio indésirable de ~2 secondes ne se produit "
+"qu'avec certaines cartes audio « USB », mais pas avec d'autres. Je l'ai "
+"remarqué en essayant une interface audio avec le périphérique « USB "
+"Steinberg UR22mkII »."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:49
 msgid ""
@@ -92,6 +126,15 @@ msgid ""
 "(much more bulky) Behringer QX1202USB doesn’t exhibit the strange behavior "
 "even with the default audio settings in Kdenlive, or when using PulseAudio."
 msgstr ""
+"L'utilisation du périphérique « UR22mkII » dans Kdenlive avec les paramètres "
+"audio standard était impossible, car le fondu automatique rendait toute "
+"édition de voix en superposition totalement ratée. Curieusement, ce "
+"périphérique a fonctionné à merveille lorsque j'ai lu l'audio à l'aide d'une "
+"tablette Android (c'est un bel aspect de pour ce périphérique « UR22mkII » : "
+"elle est conçue pour être utilisée avec des appareils mobiles). À titre de "
+"comparaison, mon périphérique « Behringer QX1202USB » (beaucoup plus "
+"encombrant) ne présente pas ce comportement étrange, même avec les "
+"paramètres audio par défaut dans Kdenlive ou en utilisant PulseAudio."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:51
 msgid ""
@@ -99,6 +142,9 @@ msgid ""
 "such as VLC, are unaffected either, even when using PulseAudio for audio "
 "output."
 msgstr ""
+"Et ce qui est encore plus étrange et surprenant : au moins certains autres "
+"logiciels, comme VLC, ne sont pas affectés, y compris avec utilisation de "
+"PulseAudio pour la sortie audio."
 
 #: ../../glossary/useful_information/fixing_slow_audio_fade-ins.rst:53
 msgid ""
@@ -107,3 +153,8 @@ msgid ""
 "of help to those Kdenlive users experiencing the same strange audio fade-in "
 "behavior."
 msgstr ""
+"Malheureusement, personne n'a été en mesure de me donner la solution. Mais "
+"heureusement, j'ai fini par la trouver moi-même après quelques essais et "
+"erreurs. J'espère qu'avec un peu de chance, ma solution pourra aider les "
+"utilisateurs de Kdenlive rencontrant le même comportement étrange de fondu "
+"audio."
