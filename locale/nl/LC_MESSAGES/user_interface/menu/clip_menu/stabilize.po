@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 00:37+0000\n"
+"POT-Creation-Date: 2021-12-24 00:38+0000\n"
 "PO-Revision-Date: 2021-11-19 12:47+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -39,198 +39,181 @@ msgid ""
 msgstr ""
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:25
-msgid ""
-"In versions 0.9.8 and earlier of Kdenlive, there were two different methods "
-"of stabilization available: vstab and transcode. In version 0.9.10, the "
-"vstab method was removed leaving us with just the \"transcode\" method "
-"(`based on this <http://public.hronopik.de/vid.stab/>`_ work)."
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:27
-msgid ""
-"This video shows a side by side comparison between vstab and transcode "
-"stabilize methods."
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:29
-msgid "https://youtu.be/86SUhodScDE"
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:32
 msgid "**Stabilize**"
 msgstr "**Stabiliseren**"
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:38
-msgid ""
-"This menu item was called *stabilize (transcode)* in versions 0.9.2 and "
-"earlier."
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:44
-msgid "In version 0.9.3, the transcode GUI was simplified."
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:46
+#: ../../user_interface/menu/clip_menu/stabilize.rst:31
 msgid ""
 "Based on the tooltips from this screen and the `docs here <http://public."
 "hronopik.de/vid.stab/features.php?lang=en>`_, this is what all the options "
 "mean:"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:48
-msgid ""
-"**optzoom** = use optimal zoom (calculated from transforms). Causes video to "
-"zoom until 90% of transformations are hidden. Default is checked. Hint: You "
-"can further zoom in with the zoom option."
+#: ../../user_interface/menu/clip_menu/stabilize.rst:34
+msgid "Accuracy"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:50
+#: ../../user_interface/menu/clip_menu/stabilize.rst:34
 msgid ""
-"**accuracy** = accuracy of shakiness detection. Should be >= shakiness "
-"factor. 1: low (fast processing). 15: high (slow processing). Default: 4. "
-"Recommended: 8."
+"Accuracy of shakiness detection. Should be >= shakiness factor. 1: low (fast "
+"processing). 15: high (slow processing). Default: 4. Recommended: 8."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:52
-msgid ""
-"**algo** = algorithm used. Checked = small measurement fields. Default = "
-"checked. Unchecked means use brute force algorithm. The brute force "
-"algorithm is deprecated and this option is not available after version 0.9.3."
+#: ../../user_interface/menu/clip_menu/stabilize.rst:37
+msgid "Shakiness"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:54
+#: ../../user_interface/menu/clip_menu/stabilize.rst:37
 msgid ""
-"**maxangle** = maximum angle to rotate in radians. Default = -1, which means "
-"no limit."
+"How shaky is the video? And how quick is the camera? 1: little (fast "
+"processing). 10: very strong/quick (slow processing). Default = 4. Note: "
+"large values may also reduce the accuracy. This is due to the internals of "
+"the movement-detection. Typically you don't need a value greater than 7."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:56
-msgid ""
-"**relative** Unchecked = absolute transform (don't use this). Checked = "
-"relative transform. Default is checked. This option is not available in "
-"version 0.9.3 - it uses relative transform."
+#: ../../user_interface/menu/clip_menu/stabilize.rst:40
+msgid "Stepsize"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:58
+#: ../../user_interface/menu/clip_menu/stabilize.rst:40
 msgid ""
-"**zoom** - Additional zoom during transform. Percentage to zoom > 0 = zoom "
-"in, < 0 = zoom out. The zoom specified here is in addition to the optimum "
-"zoom calculated by the program when optzoom is checked. Default = 0."
+"Step size of search process. Region around minimum is scanned with 1 pixel "
+"resolution. Default = 6."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:60
-msgid ""
-"**shakiness** How shaky is the video? And how quick is the camera? 1: little "
-"(fast processing). 10: very strong/quick (slow processing). Default = 4. "
-"Note: large values may also reduce the accuracy. This is due to the "
-"internals of the movement-detection. Typically you don't need a value "
-"greater than 7."
+#: ../../user_interface/menu/clip_menu/stabilize.rst:43
+msgid "Min. contrast"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:62
+#: ../../user_interface/menu/clip_menu/stabilize.rst:43
 msgid ""
-"**invert** Invert the transform. Default = unchecked. Inverting the "
-"transform is pointless - leave unchecked. This option is not available in "
-"version 0.9.3."
+"Below this contrast, the field is discarded. Range 0-1. Default = 0.3. You "
+"may want to use a smaller value for a really low contrast clip."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:64
+#: ../../user_interface/menu/clip_menu/stabilize.rst:46
 msgid ""
-"**sharpen** Sharpen transformed image. Amount of sharpening: 0: no "
-"sharpening. Uses filter unsharp with 5x5 matrix. Default = 0.8."
+"Controls the amount of smoothing/stabilization. The larger the value for "
+"smoothing, the more camera movements are compensated. The resulting clip has "
+"a lower change in camera speed. Technically it is the number of frames for "
+"lowpass filtering = (smoothing * 2) + 1."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:66
+#: ../../user_interface/menu/clip_menu/stabilize.rst:49
 msgid ""
-"**stepsize** Step size of search process. Region around minimum is scanned "
-"with 1 pixel resolution. Default = 6."
+"For example, with a with 25 fps clip, a value of 12 for the smoothing factor "
+"means we would smooth over one second - 12 frames behind the current frame + "
+"the current frame (1) + 12 frames after the current frame. Default =   10."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:68
-msgid ""
-"**show** 0 = draw nothing, 1 or 2 = show fields and transforms. Use 1 or 2 "
-"to preview what the process is going to do. `Example <http://public.hronopik."
-"de/vid.stab/files/skiing_veryshaky_visualized8_short.ogv>`_. Default = 0. "
-"Non-zero values of this parameter are not relevant in the **Kdenlive** "
-"implementation - use zero. This option is not available in version 0.9.3."
+#: ../../user_interface/menu/clip_menu/stabilize.rst:51
+msgid "Smoothing"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:70
-msgid ""
-"**mincontrast** Below this contrast, the field is discarded. Range 0-1. "
-"Default = 0.3. You may want to use a smaller value for a really low contrast "
-"clip."
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:72
-msgid ""
-"**smoothing** Controls the amount of smoothing/stabilization. The larger the "
-"value for smoothing, the more camera movements are compensated. The "
-"resulting clip has a lower change in camera speed. Technically it is the "
-"number of frames for lowpass filtering = (smoothing * 2) + 1. For example, "
-"with a with 25 fps clip, a value of 12 for the smoothing factor means we "
-"would smooth over one second - 12 frames behind the current frame + the "
-"current frame (1) + 12 frames after the current frame. Default =10."
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:76
+#: ../../user_interface/menu/clip_menu/stabilize.rst:51
 msgid ""
 "Demo of the difference `here <http://public.hronopik.de/vid.stab/files/"
 "skiing_veryshaky_short_vs_longsmoothing_above.ogv>`_ (top:3, bottom: 30)."
 msgstr ""
 
+#: ../../user_interface/menu/clip_menu/stabilize.rst:54
+msgid "Max shift"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:54
+msgid "Maximal number of pixels to translate image. Default = -1. No limit."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:57
+msgid "Max angle"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:57
+msgid "Maximum angle to rotate in radians. Default = -1, which means no limit."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:60
+msgid "Crop"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:60
+msgid ""
+"Unchecked means the border of the transformed frames contains the pixels "
+"from previous frames. Checked = black background. Default = unchecked."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:63
+msgid "Zoom"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:63
+msgid ""
+"Additional zoom during transform. Percentage to zoom > 0 = zoom in, < 0 = "
+"zoom out. The zoom specified here is in addition to the optimum zoom "
+"calculated by the program when optzoom is checked. Default = 0."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:66
+#: ../../user_interface/menu/clip_menu/stabilize.rst:69
+msgid "Optimal Zoom"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:66
+msgid ""
+"Use optimal zoom (calculated from transforms). Causes video to zoom until "
+"90% of transformations are hidden. Default is checked. Hint: You can further "
+"zoom in with the zoom option."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:69
+msgid "Zoom per frame (used when \"Optimal Zoom\" = 2)"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:72
+msgid "Sharpen"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:72
+msgid ""
+"Sharpen transformed image. Amount of sharpening: 0: no sharpening. Uses "
+"filter unsharp with 5x5 matrix. Default = 0.8."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:75
+msgid "Show fields"
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:75
+msgid ""
+"0 = draw nothing, 1 or 2 = show fields and transforms. Use 1 or 2 to preview "
+"what the process is going to do. `Example <http://public.hronopik.de/vid."
+"stab/files/skiing_veryshaky_visualized8_short.ogv>`_. Default = 0. Non-zero "
+"values of this parameter are not relevant in the **Kdenlive** implementation "
+"- use zero."
+msgstr ""
+
 #: ../../user_interface/menu/clip_menu/stabilize.rst:78
-msgid ""
-"**maxshift** Maximal number of pixels to translate image. Default = -1. No "
-"limit."
+msgid "Reference frame"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:80
-msgid ""
-"**crop** Unchecked means the border of the transformed frames contains the "
-"pixels from previous frames. Checked = black background. Default = unchecked."
+#: ../../user_interface/menu/clip_menu/stabilize.rst:79
+msgid "Tripod"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:82
+#: ../../user_interface/menu/clip_menu/stabilize.rst:81
 msgid ""
 "Example of the effect of running stabilize - transcode from the original "
 "author - Georg Martius."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:84
+#: ../../user_interface/menu/clip_menu/stabilize.rst:83
 msgid "Side by side https://youtu.be/HYE3KAl8RAQ"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:87
+#: ../../user_interface/menu/clip_menu/stabilize.rst:86
 msgid "Deshaked https://youtu.be/c3CEm8bgVQ0"
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu/stabilize.rst:90
+#: ../../user_interface/menu/clip_menu/stabilize.rst:89
 msgid "Original https://youtu.be/cRA5H1LYzM4"
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:94
-msgid "**Stabilize (vstab) - version <=0.9.8**"
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:96
-msgid ""
-"This is based on `this <http://vstab.sourceforge.net/>`_ work and is not "
-"available in versions of kdenlive >= 0.9.10."
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:98
-msgid "This tutorial shows how to use the stabilize feature - vstab version:"
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:100
-msgid "https://youtu.be/SWCoqZLJNgY"
-msgstr ""
-
-#: ../../user_interface/menu/clip_menu/stabilize.rst:102
-msgid ""
-"The \"shutter angle\" setting that the narrator says he does not know what "
-"it does (1:35) ... Shutter angle is an angle that images could be maximum "
-"rotated for stabilization. `See here <http://www.mltframework.org/bin/view/"
-"MLT/FilterVideostab>`_."
 msgstr ""
