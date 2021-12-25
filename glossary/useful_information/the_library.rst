@@ -203,7 +203,7 @@ Configuring Your Library Storage Location
       :alt: library-config
       :width: 350px
 
-   All items in your Kdenlive library are stored in a user-configurable place inside your file system. The default location, unless configured otherwise, is where your other semi-temporary caching data is stored. Typically, this is `$HOME/.cache/kdenlive/library`. You library clips are then stored inside this directory, as well as in subdirectories in case you also use library folders.
+   All items in your Kdenlive library are stored in a user-configurable place inside your file system. The default location, unless configured otherwise, is where your other semi-temporary caching data is stored. Typically, this is `$HOME/.cache/kdenlive/library`. Your library clips are then stored inside this directory, as well as in subdirectories in case you also use library folders.
 
    To change the location of your library, go to :menuselection:`Settings --> Configure Kdenlive`. Next, select the section :guilabel:`Environment`. Switch to the :guilabel:`Default folders` tab. Locate the part titled :guilabel:`Library folder`, and deselect the option :guilabel:`Use default folder`. Select or enter another location for your Kdenlive library.
 
