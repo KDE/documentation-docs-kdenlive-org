@@ -37,7 +37,15 @@ The |kdenlive-add-clip| button (Add Clip) brings up the **Add Clip** Dialog wher
    :align: center
    :alt: Add_clip_dialog
 
-The button |view-preview| labeled 1 toggles File Preview on and off (applies to image files only). The slider labeled 2 adjusts the size of the preview icons. The :menuselection:`Import image sequence` checkbox labeled 3 enables the import of a series of images that can be used to make a stop motion animation.
+The button |view-preview| labeled 1 toggles File Preview on and off (applies to image files only). 
+
+The slider labeled 2 adjusts the size of the preview icons. 
+
+The :menuselection:`Import image sequence` checkbox labeled 3 enables the import of a series of images that can be used to make a stop motion animation.
+
+.. versionadded:: 21.12
+The :menuselection:`Ignore subfolder structure` checkbox labeled 4 enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
+
 
 You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the |kdenlive-add-clip| button.
 
