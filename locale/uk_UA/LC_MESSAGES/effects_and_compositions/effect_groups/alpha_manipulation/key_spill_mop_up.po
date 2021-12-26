@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-03 00:38+0000\n"
-"PO-Revision-Date: 2021-12-25 00:59+0200\n"
+"PO-Revision-Date: 2021-12-25 20:08+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -30,6 +30,7 @@ msgid ""
 "edges. This is known as \"keyspill\". This effect can attempt to compensate "
 "for this issue."
 msgstr ""
+"Цей ефект використовують при зніманні на фоні екрана (також відомому як хромакей або ефект :ref:`blue_screen`). Його мета компенсувати відбиття кольору від зеленого або синього екрана на об'єкт знімання, у результаті якого на об'єкті з'являються області синього або зеленого відтінку — особливо на краях. Таке дефекти зображення називають «скалками ключового кольору» («keyspill»). Цей ефект покликано вирішити цю проблему."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:15
 msgid "Tutorial"
@@ -44,6 +45,7 @@ msgid ""
 "This tutorial shows usage of the following effects: Key Spill Mop Up, blue "
 "screen, alpha operations - shrinkhard and denoiser."
 msgstr ""
+"У цьому підручнику показано використання таких ефектів: поглинання ключового кольору, синій екран, дії з прозорістю — жорстке стискання і усування шуму."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:21
 msgid ""
@@ -51,6 +53,8 @@ msgid ""
 "ref:`keysplillm0pup` effect installed by default, and it is no longer "
 "required to use a composite transition."
 msgstr ""
+"Зауваження: **це відео застаріло.** У новіших версіях Kdenlive модуль ефекту :"
+"ref:`keysplillm0pup` типово встановлено, і для його роботи більше не потрібно користуватися композиційним переходом."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:23
 msgid "https://youtu.be/l43Hz7YEcYU"
@@ -80,6 +84,7 @@ msgid ""
 "types of color changing operations. The three selection / masking modes are "
 "based on:"
 msgstr ""
+"Після певного експериментування із хромаеєм автор документації дійшов висновку, що немає єдиного способу вилучення ключового кольору, які працювали б в усіх випадках, зокрема поглинання кольору на яскравому, поглинання кольору на темному тощо. Тому включено декілька варіантів чищення, якими можна користуватися окремо або у поєднанні. Якщо коротко, це три способи вибору пікселів (маскування), які можна поєднати з чотирма типами дій зі зміни кольорів. Три режими вибору або маскування засновано на таких критеріях:"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:34
 msgid "similarity to key color"
@@ -135,6 +140,7 @@ msgid ""
 "from the preceding keying operation. The effect will be proportional to the "
 "transparency."
 msgstr ""
+"Маски прозорості і країв засновано на даних каналу прозорості від попередньої дії з виключення ключового кольору. Маски прозорості буде застосовано лише до частин, які не є ні на 100% непрозорими, на на 100% прозорими після попередньої дії з виключення ключового кольору. Потужність ефекту буде пропорційною до рівня прозорості."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:53
 msgid ""
@@ -144,6 +150,7 @@ msgid ""
 "the edge of the fully opaque part, where the alpha from the preceding keying "
 "is 1.0 (255)."
 msgstr ""
+"Якщо на попередньому етапі виключення ключового кольору було використано «жорсткий ключовий колір», у кадрі не буде областей, до яких може бути застосовано T-операції. Маскування країв змінюватиме лише пікселі, які близькі до краю — потужність ефекту спадатиме зі зростанням відстані від краю. Зовнішнім краєм вважатимуться край із повністю непрозорою частиною, де ɑ від попереднього виключення ключового кольору дорівнює 1.0 (255)."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:57
 msgid ""
@@ -151,6 +158,7 @@ msgid ""
 "have to look some more into this, and improve it, so consider it a "
 "\"temporary solution\" that will change in the future."
 msgstr ""
+"Алгоритм маскування країв ще не є ідеальним з точки зору автора. Потрібна додаткова робота з удосконалення, тому розглядайте це як «тимчасове рішення», яке буде змінено у майбутньому."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:59
 msgid ""
@@ -159,6 +167,7 @@ msgid ""
 "threshold\", which will limit the mask to areas with color saturation above "
 "a threshold."
 msgstr ""
+"Усі маски можна додатково обмежити за допомогою двох параметрів: «шлюзу відтінків», який обмежує маску до відтінків, які близькі до відтінку ключового кольору, і «поріг насичення», який обмежує маску до ділянок, де насиченість кольорів перевищує порогове значення."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:61
 msgid "CASCADING:"
@@ -173,6 +182,7 @@ msgid ""
 "is a bit easier. If the hue gate and saturation threshold are not used, "
 "transparency and edge masks can be exactly the same in cascaded plugins."
 msgstr ""
+"Цей додаток можна накладати на самого себе, але у другому екземплярі неможливо отримати таку саму маску на основі кольорів, скільки кольори буде змінено першим екземпляром. Щоб уможливити дії із тією самою маскою, кожен із екземплярів додатка може виконувати дві операції. З масками прозорості та країв накладає є дещо простішим. Якщо не використано шлюз відтінків та поріг прозорості, маски прозорості і країв можуть бути абсолютно однаковими у накладених один на одного додатках."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:65
 msgid "PARAMETERS:"
@@ -183,6 +193,7 @@ msgid ""
 "Key color: This should be the same or similar to the key color used for the "
 "preceding keying operation."
 msgstr ""
+"Ключовий колір: має бути тим самим або подібним до ключового кольору, який використано для попередньої дії з виключення ключового кольору."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:69
 msgid ""
@@ -190,13 +201,15 @@ msgid ""
 "of the masks. The colors in the affected areas will be moved towards this "
 "color, according to the \"Amount\" parameter."
 msgstr ""
+"Колір призначення: використовується, лише якщо використано операцію «призначення» з однією з масок. Кольори змінених ділянок буде пересунуто у напрямку цього кольору, відповідно до параметра «Величина»."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:71
 msgid ""
 "Mask type: Selects the type of mask that will determine where the color "
 "altering operations will occur."
 msgstr ""
-"Тип маскування: визначає тип маскування, який вкаже, де мають відбуватися дії зі зміни кольорів."
+"Тип маскування: визначає тип маскування, який вкаже, де мають відбуватися "
+"дії зі зміни кольорів."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:73
 msgid ""
@@ -204,6 +217,7 @@ msgid ""
 "key, that will be 100% affected. For the transparency mask, the "
 "\"amplification\". For the edge mask, the width of the affected area."
 msgstr ""
+"Чутливість: для маски різниці кольорів, діапазон кольорів навколо ключового, які буде змінено з ймовірністю 100%. Для маски прозорості «збільшення». Для маски країв ширина зміненої ділянки."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:75
 msgid ""
@@ -211,18 +225,21 @@ msgid ""
 "\"Tolerance\", that will be gradually less affected. No function for the "
 "transparency and edge masks."
 msgstr ""
+"Нахил: для маски різниці кольорів діапазон кольорів поза «Чутливістю», які буде змінено з поступовим зменшенням рівня змін. Не працює для маски прозорості і маски країв."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:77
 msgid ""
 "Hue gate: Reduces the mask according to difference from key hue, to prevent "
 "change to pixels that are within the mask, but not polluted by key."
 msgstr ""
+"Шлюз відтінків: обмежує маску різницею від відтінку ключового кольору для запобігання внесенню змін до пікселів, які належать до маски, але не забарвлені відбиттям ключового кольору."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:79
 msgid ""
 "Saturation threshold: Reduces the mask according to color saturation, to "
 "avoid affecting the neutral areas."
 msgstr ""
+"Поріг насичення: обмежує маску за насиченістю кольору для уникнення внесенню змін до нейтральних ділянок."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:81
 msgid ""
@@ -230,24 +247,28 @@ msgid ""
 "the mask-selected pixels. Apart from no operation, there are four "
 "possibilities: De-key, Target, De-saturate and Luma adjust."
 msgstr ""
+"Операція 1: визначає, яку з чотирьох можливих операцій буде виконано над позначеними маскою пікселями. Окрім варіанта без операції, передбачено чотири варіанти: усування ключового кольору, колір призначення, зменшення насиченості та коригування яскравості."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:83
 msgid ""
 "Amount 1: The amount of the selected operation 1, how much the colors will "
 "change."
 msgstr ""
+"Величина 1: потужність вибраної операції 1, величина зміни кольорів."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:85
 msgid ""
 "Operation 2, Amount 2: Enable a second operation to be performed with the "
 "same mask."
 msgstr ""
+"Операція 2, величина 2: уможливити виконання другої операції із тією самою маскою."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:87
 msgid ""
 "Show mask: This will show the selected mask as a greyscale image, to help "
 "with fine tuning of the masks. Should be OFF for the final render."
 msgstr ""
+"Показати маску: показує вибрану маску як зображення у відтінках сірого кольору для полегшення коригування масок. Має бути вимкнено під час остаточної обробки."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/key_spill_mop_up.rst:89
 msgid ""
@@ -256,3 +277,4 @@ msgid ""
 "Spill Mop Up itself can be used as a keyer, or to generate some special "
 "effects."
 msgstr ""
+"Маску у альфу: копіює активну маску до каналу прозорості. Для усіх звичайних операцій поглинання ключового кольору має бути вимкнено. Якщо увімкнути, поглинання ключового кольору можна використати як засіб визначення ключового кольору або для створення деяких спеціальних ефектів."
