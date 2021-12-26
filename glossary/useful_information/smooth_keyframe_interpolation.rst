@@ -146,7 +146,7 @@ Make Flat Great Again
    1. first keyframe: smooth,
    2. second keyframe: interpolated(!),
    3. third keyframe: smooth,
-   4. forth keyframe: interpolated (albeit that does not really matter if there are no further keyframes).
+   4. fourth keyframe: interpolated (albeit that does not really matter if there are no further keyframes).
 
    So great!
 

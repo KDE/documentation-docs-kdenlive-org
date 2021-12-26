@@ -80,7 +80,7 @@ Temporarily disable ALL bin effects
 You can also temporarily disable all bin effects at once, using either a keyboard shortcut or a toolbar button. Unfortunately, this function is slightly hidden, as there is (yet) no menu item for it. You’ll need to either configure a shortcut for this action, or add the action to a toolbar:
 
    * To configure a keyboard shortcut, go to :menuselection:`Settings --> Configure Shortcuts…`, then search for :guilabel:`Disable Bin Effects`. Now set your desired shortcut, click :guilabel:`OK`. Done.
-   * Alternatively, go to :menuselection:`Settings --> Configure Toolbars…`, then search for the available action :guilabel:`Disable Bin Effects`. Add it to whatever toolbar you like, such as the **Timeline Toolbar** by clicking the :guilabel:`>` button. Click ::guilabel:`OK`. Done.
+   * Alternatively, go to :menuselection:`Settings --> Configure Toolbars…`, then search for the available action :guilabel:`Disable Bin Effects`. Add it to whatever toolbar you like, such as the **Timeline Toolbar** by clicking the :guilabel:`>` button. Click :guilabel:`OK`. Done.
 
 You can now quickly disable and enable all bin effects at once using either the shortcut or toolbar button you’ve configured above.
 
