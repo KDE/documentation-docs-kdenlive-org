@@ -249,18 +249,19 @@ High Quality
 
 When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat slower than the algorithm used with :ref:`track_compositing_preview` but which retains higher fidelity color information.
 
+.. _timeline_edit_modes:
 
-Timeline Edit Mode
-------------------
+Timeline Edit Modes
+-------------------
 
-.. _timline_normal_mode:
+.. _timeline_normal_mode:
 
 Normal Mode
 ~~~~~~~~~~~
 
 In this edit mode, you can not drag clips on top of other clips in the same track in the timeline. You can drag them to another track in the timeline but not into the same track at the same time point as an existing clip. Contrast this to overwrite mode.
 
-.. _timline_overwrite_mode:
+.. _timeline_overwrite_mode:
 
 Overwrite Mode
 ~~~~~~~~~~~~~~
@@ -294,7 +295,7 @@ Performing a rearrange edit. This technique lets you quickly change the order of
 
 Drag a clip, as you drop it to a new location performs an overwrite edit that overwrites the existing clip.
 
-.. _timline_insert_mode:
+.. _timeline_insert_mode:
 
 Insert Mode
 ~~~~~~~~~~~
@@ -331,6 +332,8 @@ It always closes all space in the track.
    
 Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.
 
+.. _timeline_edit_tools:
+
 Timeline Edit Tools
 -------------------
 
@@ -345,6 +348,7 @@ Razor Tool
  
 Use this to cut clips in the timeline. The cursor becomes a pair of scissors when this tool is active.
 
+:kbd:`ESC`: Return from any tools back to Selection tool.
 
 Spacer Tool
 ~~~~~~~~~~~
@@ -358,6 +362,62 @@ Use this tool (|distribute-horizontal|) to temporarily group separate clips and 
 
 
 In the above example, these clips are not grouped. However, the spacer tool groups them temporarily for you so you can move them all as a group.
+
+:kbd:`ESC`: Return from any tools back to Selection tool.
+
+.. versionadded:: 21.12
+
+Slip Tool
+~~~~~~~~~
+
+.. image:: /images/slip_trim02.jpg
+   :alt: slip tool
+
+Slip keeps the original duration of the clip. Like working with old film material: beneath the given "window" of the clip length it slips the film strip back and forth.
+
+.. image:: /images/slip.gif
+   :alt: slip tool in action
+
+Use Slip (|kdenlive-slip|) to trim, in a single operation, the IN and OUT points of a clip forward or backward by the same number of frames, while keeping the original duration and without affecting adjacent clips.
+
+You can slip multiple clips at once now: select all clips you want to slip with the selection tool using :kbd:`Shift` then enable the slip tool and go ahead…
+
+Slip can be done with the mouse, with the :kbd:`arrow` keys and with the buttons on the monitor toolbar.
+
+:kbd:`ESC`: Return from any tools back to Selection tool. 
+
+Ripple Tool
+~~~~~~~~~~~
+
+.. image:: /images/ripple-trim.png
+   :alt: ripple tool
+
+Ripple changes the original duration of the clip. Like working with old film material: You lengthen or shorten the film strip and move the adjacent clips back and forth as you do that.
+
+Use Ripple (|kdenlive-ripple|) to trim a clip and shift following clips in the track by the number of frames you trim. When you shorten a clip by this action all clips that follow the cut shift back in time, contrariwise, when you extend a clip the clips after the cut shift forward in time. If an empty space is on the track it behaves as a clip and it shifts in time as a standard clip would be.
+
+You can Ripple only a single clip at once.
+
+Ripple can be done with the mouse only.
+
+:kbd:`ESC`: Return from any tools back to Selection tool.
+
+Multicam Tool
+~~~~~~~~~~~~~
+
+.. image:: /images/multicam.gif
+   :alt: multicam tool
+   
+Add your clips in different tracks, but at the same position in the timeline and activate the multicam tool by going to menu :menuselection:`Tool -> Multicam tool`. You may trim the clips in the desired track while the timeline is playing by pressing their corresponding numbers (for track V1, press key :kbd:`1`; for track V2 press key :kbd:`2`, etc…) or simply select the desired track in the project monitor by clicking on it with the mouse.
+
+Select multicam tool will switch on the multitrack view in the project monitor and set a marker at the current timeline position. You can then seek/play to the wanted position, click on a track view in the project monitor and it will lift all tracks except for the previously active track. You can then repeat seek and click in another track to continue lifting tracks.
+
+It doesn't stop playing when you perform the operation to avoid to lose the rhythm and to work as you are working during a live broadcasting. If you need to correct the editing you can manually stop and trim the cut as you do when you video editing as normal.
+
+The audio tracks is not involved in the process as you generally use only one audio track (the one which come from the main mixer to which the other ones are synced to)
+
+:kbd:`ESC`: Return from any tools back to Selection tool.
+
 
 .. _status_bar:
 
