@@ -1,29 +1,33 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-13 00:22+0000\n"
-"PO-Revision-Date: 2021-11-15 18:32+0100\n"
-"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
-"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2021-12-25 16:53+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.0\n"
 
 #: ../../glossary/shootinghints.rst:15
 msgid "Shooting Hints"
-msgstr ""
+msgstr "Conseils de tournage"
 
 #: ../../glossary/shootinghints.rst:20
 msgid "Contents"
-msgstr ""
+msgstr "Contenu"
 
 #: ../../glossary/shootinghints.rst:23
 msgid ""
 "Using P2 footage from the Panasonic HVX200 on GNU/Linux (tested on Ubuntu)"
 msgstr ""
+"Utilisation des vidéos P2 de la Panasonic HVX200 sous GNU / Linux (testé sur "
+"Ubuntu)"
 
 #: ../../glossary/shootinghints.rst:27
 msgid ""
@@ -36,30 +40,44 @@ msgid ""
 "there is no transcoding and so can be done in the field while shooting just "
 "as fast as simply transferring the original P2 files."
 msgstr ""
+"L'utilisation des séquences provenant de cartes P2 est facile quand on sait "
+"comment faire ! Les fichiers « MXF » des cartes P2 ne peuvent pas être lus "
+"tant que vous ne les convertissez pas avec **mxfsplit**, une partie de "
+"**FreeMXF**. La conversion est sans perte et les fichiers résultants "
+"contiennent à la fois de la vidéo et de l'audio, pouvant être édités en "
+"temps réel avec **Kdenlive** (ou **Blender 2.5+**) sur la plupart des "
+"ordinateurs fabriqués au cours des cinq dernières années environ. De plus, "
+"**FFMPEG** peut lire ces fichiers. Ce processus est très rapide car il n'y a "
+"pas de transcodage. Il peut donc être effectué sur le terrain pendant le "
+"tournage aussi rapidement que le simple transfert des fichiers P2 originaux."
 
 #: ../../glossary/shootinghints.rst:31
 msgid "Step One: FreeMXF"
-msgstr ""
+msgstr "Étape 1 : FreeMXF"
 
 #: ../../glossary/shootinghints.rst:35
 msgid ""
 "Get the source code for **MFXlib** from `here <http://sourceforge.net/"
 "projects/mxflib/>`_."
 msgstr ""
+"Obtenez le code source de **MFXlib** à partir de « ici <http://sourceforge."
+"net/projects/mxflib/> »_."
 
 #: ../../glossary/shootinghints.rst:38
 msgid ""
 "Then configure, compile, and install it by running the following code in the "
 "directory where you saved the source files:"
 msgstr ""
+"Ensuite, configurez, compilez et installez-le en exécutant le code suivant "
+"dans le répertoire où vous avez enregistré les fichiers sources :"
 
 #: ../../glossary/shootinghints.rst:49
 msgid "This will get **mxfsplit** (part of **mxflib**) working."
-msgstr ""
+msgstr "Cela permettra à **mxfsplit** (partie de **mxflib**) de fonctionner."
 
 #: ../../glossary/shootinghints.rst:53
 msgid "Step Two: Using mxfsplit"
-msgstr ""
+msgstr "Étape 2 : utilisation de mxfsplit"
 
 #: ../../glossary/shootinghints.rst:57
 msgid ""
@@ -67,10 +85,14 @@ msgid ""
 "MXF files in a chosen directory into usable files. Do a search and replace "
 "for /source/directory and /destination/directory"
 msgstr ""
+"Voici un script simple pouvant être exécuté dans le terminal. Il va "
+"convertir tous les fichiers « MXF » dans un répertoire choisi en fichiers "
+"utilisables. Veuillez effectuer une recherche et un remplacement pour les "
+"dossiers source et destination."
 
 #: ../../glossary/shootinghints.rst:81
 msgid "Conclusion"
-msgstr ""
+msgstr "Conclusion"
 
 #: ../../glossary/shootinghints.rst:85
 msgid ""
@@ -80,3 +102,8 @@ msgid ""
 "example, the following code would get the files ready for **Youtube**, "
 "**Vimeo**, etc.:"
 msgstr ""
+"Vous disposez maintenant d'un script pouvant facilement préparer la vidéo "
+"pour l'édition (par exemple avec **Kdenlive** ou **Blender**) et pour le "
+"transcodage. **FFMPEG** peut être utilisé pour transcoder les fichiers « ."
+"MXF » résultants quelque soit votre choix de format. Par exemple, le code "
+"suivant préparerait les fichiers pour **Youtube**, **Vimeo**, etc. :"
