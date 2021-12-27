@@ -29,10 +29,11 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
   
    20.04+
 
-**1**. Opens the Project Folder in a window for selecting video and audio clips to be added to the bin.
+
+**1, 10**. Opens the Project Folder in a window for selecting video and audio clips to be added to the bin (1). Or double click on free space (10).  
 
 
-**2**. Displays a drop down list for adding other clip types to the Project Bin.
+**2, 10**. Displays a drop down list for adding other clip types to the Project Bin (2). Or right-click on free space (10). 
 
 
 .. figure:: /images/Kdenlive_Add_other_clip_types.png
@@ -42,19 +43,19 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
    Options from Menu under Icon 2
 
 
-* :ref:`Add Clip <add_clip>`
+* :ref:`Add Clip or Folder <add_clip>`
 
 
 * :ref:`Add Color Clip <add_color_clip>`
 
 
-* :ref:`Add Slideshow Clip <add_slideshow_clip>`
+* :ref:`Add Image Clip <add_slideshow_clip>`
 
 
-* :ref:`titles`
+* :ref:`Add Title Clip <titles>`
 
 
-* :ref:`titles`
+* :ref:`Add Template Title Clip <titles>`
 
 
 * :ref:`online_resources`
@@ -62,8 +63,9 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 * :ref:`generators`
 
+.. rst-class:: clear-both
 
-**3**. Allows you to add folders to the Project Bin. These are not actual file system folders but virtual folders to help you organize large Project Bins. See :ref:`create_folder`
+**3, 10**. Allows you to add folders to the Project Bin (3). Or right-click on free space (10) and select :guilabel:`Create Folder` add folder.These are not actual file system folders but virtual folders to help you organize large Project Bins. See :ref:`create_folder`
 
 
 **4**. Deletes the selected clip from the Project Bin (but not from the file system).
@@ -88,8 +90,6 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
    :alt: kdenlive_project_bin2
    
    Menu under Icon 6
-
-
  
 
 **7** Filter by tags and stars
@@ -123,8 +123,24 @@ Clips can be dragged from the Project Bin to the :ref:`timeline`.
 
 .. rst-class:: clear-both
 
-Project Bin - Right-Click Menu
+.. _multibin:
+
+Create additional project bins
 ------------------------------
+
+.. versionadded:: 21.12
+
+.. image:: /images/multibin.gif
+   :alt: multibin 
+
+You can create various bins from :ref:`folders <create_folder>` you have created. Right-click the folder name and choose :guilabel:`Open in new bin` 
+
+Closing the extra bins either by pressing :kbd:`CTRL + w` or on the bin you want to close click on |application-menu| and choose :guilabel:`Close` .
+
+
+
+Clip - Right-Click Menu
+-----------------------
 
 The images below show the menu items available when you right-click a clip in the Project Bin.
 
