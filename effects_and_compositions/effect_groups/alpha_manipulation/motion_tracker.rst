@@ -49,7 +49,7 @@ KCF
 
 **Kernelized Correlation Filters**
 
-**Pros:** Accuracy and speed are both better than MIL Pros: Accuracy and speed are both better than MIL and it reports tracking failure better than MIL.
+**Pros:** Accuracy and speed are both better than MIL and it reports tracking failure better than MIL.
 
 **Cons:** Does not recover from full occlusion. 
 

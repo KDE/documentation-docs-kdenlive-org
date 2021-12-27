@@ -77,7 +77,7 @@ Let’s start with those **archetypical transitions** most users would probably 
 
 These three transitions don’t offer any (user-) keyframes. Instead, their *start* and *end* keyframes are *implicit* and fixed to the *start* and *end* of the transition respectively.
 
-**Because Kdenlive always uses two separate tracks for transitions**, there’s a peculiarity to note: normally, as time moves forward in the timeline, these transition change (or kind of fade) from the clip on the upper track to the clip on the lower track. The somewhat strangely named transition parameter **Reverse** allows you to switch the track roles: if **Reverse** is checked, then these transitions from the lower track to the upper track, as time progresses.
+**Because Kdenlive always uses two separate tracks for transitions**, there’s a peculiarity to note: normally, as time moves forward in the timeline, these transitions change (or kind of fade) from the clip on the upper track to the clip on the lower track. The somewhat strangely named transition parameter **Reverse** allows you to switch the track roles: if **Reverse** is checked, then these transitions change from the lower track to the upper track, as time progresses.
 
 Simply put:
 
@@ -94,8 +94,8 @@ Simply put:
 To some degree, Kdenlive supports (simple) compositing in its timeline. Actually, even this simple compositing can get you a long way in many projects (as the above screenshot may hint at). Kdenlive currently offers the following (keyframable) compositing transitions:
 
    * **Affine** – allows to size, rotate, skew, and position. Together with keyframes, this transition is really versatile. Its only drawbacks are: it is slower than other complex transitions (due to the affine transformation), and it doesn’t support wipes (which only **Composite** and **Region** support in this class of transitions).
-   * **Cairo Blend** – a simple compositing transition, supporting several compositing mode. In addition, the opacity of the upper frames can be controlled. This transition also supports keyframes.
-   * **Cairo Affine Blend** – this is has the functionality of both **Affine** and **Composite**: position, rotate (you can even control the center of rotation!), and finally skew. And all this is keyframable.
+   * **Cairo Blend** – a simple compositing transition, supporting several compositing modes. In addition, the opacity of the upper frames can be controlled. This transition also supports keyframes.
+   * **Cairo Affine Blend** – this has the functionality of both **Affine** and **Composite**: position, rotate (you can even control the center of rotation!), and finally skew. And all this is keyframable.
    * **Composite** – allows keyframed dissolves, wipes, and swipes; and all this in the same transition. In contrast to Affine, it does not support rotation or skewing. The downsides of Composite are: luma bleed, and less precise position control. When compared to Affine, the Composite transition is much faster, albeit at the cost of luma bleed.
    * **Composite & Transform** – this is a rather new transition that made its debut with Kdenlive 16.04. It allows to easily composite clips onto each other (supported several compositing modes), as well as to move the upper track clips. However, there is neither support for scaling, nor for rotation, but for dynamic opacity. But keyframes are supported. In those situations, use **Affine** or **Cairo Affine Blend** instead.
    * **Region** – like **Composite**, but restricted to a region in form of a matte. In the **Region** transition properties, this matte is called the **Transparency clip**.
