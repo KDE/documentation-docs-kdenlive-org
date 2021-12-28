@@ -29,4 +29,4 @@ Create additional bins
 
 .. versionadded:: 21.12
 
-You can create a separate bin from each folder, following :ref:`this steps <multibin>`.
+You can create a separate bin from each folder, following :ref:`these steps <multibin>`.

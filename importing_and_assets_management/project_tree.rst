@@ -65,7 +65,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 .. rst-class:: clear-both
 
-**3, 10**. Allows you to add folders to the Project Bin (3). Or right-click on free space (10) and select :guilabel:`Create Folder` add folder.These are not actual file system folders but virtual folders to help you organize large Project Bins. See :ref:`create_folder`
+**3, 10**. Allows you to add folders to the Project Bin (3). Or right-click on free space (10) and select :guilabel:`Create Folder` to add folder. These are not actual file system folders but virtual folders to help you organize large Project Bins. See :ref:`create_folder`
 
 
 **4**. Deletes the selected clip from the Project Bin (but not from the file system).
