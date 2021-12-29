@@ -33,7 +33,7 @@ The Fade-In Ramp
 
    Let’s start with a simple ramp, as shown here. We use two keyframes, one with a low value setting, and the other with a high value setting. The particular values don’t matter. We set both keyframe to the interpolation mode smooth.
 
-   The effect display inside the timeline clip looks like a straight ramp. But if you watch the interpolated values closely while scrubbing the timeline, you should notice that the slope of the ram varies. At the end and beginning the slope is smaller than in the middle, where it is higher.
+   The effect display inside the timeline clip looks like a straight ramp. But if you watch the interpolated values closely while scrubbing the timeline, you should notice that the slope of the ramp varies. At the end and beginning the slope is smaller than in the middle, where it is higher.
 
    But what exactly is going on here?
 
@@ -156,4 +156,4 @@ Make Flat Great Again
 For the Curious (Furious?)
 --------------------------
 
-As you may (or rather may not) remember, Kdenlive’s rendering engine is the `MLT Multimedia Framework <https://www.mltframework.org/>`_. While `MLT has smooth interpolation <https://www.mltframework.org/blog/v0.9.0_released_with_new_property_animation_api/>`_ since around mid-2013, Kdenlive only later caught up and now supports all three interpolation modes linear, discrete, and finally smooth. As can be seen from the MLT `source code <https://github.com/mltframework/mlt/blob/e8b92affcafbc206a5af0d446c446ed339d79a8b/src/framework/mlt_property.c#L1087>`_, smooth interpolation is done using a `Catmull-Rome spline <https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline>`_. In particular, MLT uses the so-called “uniform” variant, because it is so simple. The downside is that this smoothing sometimes has the unwanted property of overshooting, especially when you least expect it.
+As you may (or rather may not) remember, Kdenlive’s rendering engine is the `MLT Multimedia Framework <https://www.mltframework.org/>`_. While `MLT has smooth interpolation <https://www.mltframework.org/blog/v0.9.0_released_with_new_property_animation_api/>`_ since around mid-2013, Kdenlive only later caught up and now supports all three interpolation modes linear, discrete, and finally smooth. As can be seen from the MLT `source code <https://github.com/mltframework/mlt/blob/e8b92affcafbc206a5af0d446c446ed339d79a8b/src/framework/mlt_property.c#L1087>`_, smooth interpolation is done using a `Catmull-Rom spline <https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline>`_. In particular, MLT uses the so-called “uniform” variant, because it is so simple. The downside is that this smoothing sometimes has the unwanted property of overshooting, especially when you least expect it.
