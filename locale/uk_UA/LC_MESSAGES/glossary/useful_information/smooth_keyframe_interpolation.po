@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-27 00:37+0000\n"
-"PO-Revision-Date: 2021-12-29 00:01+0200\n"
+"PO-Revision-Date: 2021-12-29 23:43+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -28,7 +28,7 @@ msgid ""
 "situations?"
 msgstr ""
 "Чи запитували ви себе, чому **режим плавної інтерполяції Kdenlive може "
-"забігати за межі** між ключовими кадрами? І як наказати Kdenlive уникати "
+"призводити до перевищення значень** між ключовими кадрами? І як наказати Kdenlive уникати "
 "таких ситуацій?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:17
@@ -40,6 +40,7 @@ msgid ""
 "don’t want it. And for the really curious what the mathematics behind "
 "“smooth” interpolation are: just see the end of this toolbox post."
 msgstr ""
+"Автору стало цікаво, він розпочав заглиблюватися у питання і поринув у дивний світ плавності. Не хвилюйтеся, ми обійдемося без вивчення або розуміння математичних основ. Просто розглядатимемо рисунки. Також розглянемо принципи уникнення помилок, коли вони є небажаними. А для тих, кому все ж кортить дізнатися, що таке «плавна» інтерполяція, приготовано матеріали наприкінці цього розділу."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:20
 msgid "The Fade-In Ramp"
@@ -52,7 +53,10 @@ msgid ""
 "particular values don’t matter. We set both keyframe to the interpolation "
 "mode smooth."
 msgstr ""
-"Почнімо із простої рампи. Ми скористаємося двома ключовими кадрами. Для одного з них встановимо нижній рівень значення, а для другого — верхній. Конкретні рівні не мають значення. Для обох ключових кадрів встановимо плавний режим інтерполяції."
+"Почнімо із простої рампи. Ми скористаємося двома ключовими кадрами. Для "
+"одного з них встановимо нижній рівень значення, а для другого — верхній. "
+"Конкретні рівні не мають значення. Для обох ключових кадрів встановимо "
+"плавний режим інтерполяції."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:36
 msgid ""
@@ -61,6 +65,7 @@ msgid ""
 "you should notice that the slope of the ram varies. At the end and beginning "
 "the slope is smaller than in the middle, where it is higher."
 msgstr ""
+"На панелі показу ефектів у кліпі на монтажному столі форма виглядає яка проста рампа. Але якщо поглянути на інтерпольовані значення ближче, при перетягуванні позиції відтворення на монтажному столі, ви зауважите, що нахил рампи змінюється. Наприкінці і на початку нахил є меншим, ніж посередині, де він вищий."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:38
 msgid "But what exactly is going on here?"
@@ -87,6 +92,7 @@ msgid ""
 "is. But this is how the underlying math works (you know: see the end for "
 "details)."
 msgstr ""
+"На цьому рисунку показано два ключових кадри P1=0 і P2=1 із зовсім типовою конфігурацією із рампою підвищення. Якщо у вас вже виникло питання: немає значення, на яких саме кадрах розташовано окремі ключові кадри. Якщо це здається вам дивним, ймовірно, це і є дивним. Але таким чином працюють базові математичні алгоритми (ви вже знаєте — докладніше наприкінці)."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:53
 msgid ""
@@ -94,14 +100,16 @@ msgid ""
 "line. It’s bend a little bit like the capital letter S, but then, not really "
 "too much."
 msgstr ""
-"Плавну інтерполяцію, яку обчислить MLT, намальовано як товсту зелену лінію. Вона трохи вигинається, подібно до великої літери S, втім, лише трохи."
+"Плавну інтерполяцію, яку обчислить MLT, намальовано як товсту зелену лінію. "
+"Вона трохи вигинається, подібно до великої літери S, втім, лише трохи."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:55
 msgid ""
 "And if you look closely, then beginning and ending slope of the green line "
 "aren’t horizontal ‒ at least what I expected at first."
 msgstr ""
-"І, якщо придивитися, дотична до зеленої лінії у початковій і кінцевій точці не є горизонтальною — цього б очікував автор документації для початку."
+"І, якщо придивитися, дотична до зеленої лінії у початковій і кінцевій точці "
+"не є горизонтальною — цього б очікував автор документації для початку."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:57
 msgid ""
@@ -111,6 +119,7 @@ msgid ""
 "preceding (P0) or trailing (P1) keyframe, then we’ll simple repeat the left "
 "(P1) or right (P2) keyframe."
 msgstr ""
+"Можливо, вам хочеться дізнатися, для чого призначено два інших ключових кадри, P0 і P3? Гаразд, для базових математичних алгоритмів потрібно чотири ключових кадри, щоб інтерполювати посегментно між будь-якими двома сусідніми ключовими кадрами. Якщо немає попереднього (P0) або наступного (P1) ключового кадру, ми просто повторюємо лівий (P1) або правий (P2) ключовий кадр."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:62
 msgid "Ramp-Up, and … Overshoot"
@@ -130,6 +139,7 @@ msgid ""
 "this looks smooth, but not exactly what we may have intended? So why is this "
 "the way it is?"
 msgstr ""
+"А тепер на рампі виник видимий горб замість різкого згину. Гаразд, виглядає плавним, але не зовсім таким, як ми на це сподівалися? Чому ж так сталося?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:87
 msgid ""
@@ -146,6 +156,7 @@ msgid ""
 "Instead, the interpolation math causes the interpolated values to overshoot, "
 "as you can easily see in the figure."
 msgstr ""
+"Очікували, що плато буде *прямим* плато? Автор теж. Але ви, мабуть, вже зауважили, що Kdenlive не дає точно такого результату. Замість цього, базові математичні алгоритми дають перевищення інтерпольованих значень, як можна легко бачити на рисунку."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:91
 msgid ""
@@ -153,6 +164,7 @@ msgid ""
 "the slope to the *left* of P1 is the same as to the *right* of P1. Yeah, "
 "that’s a slightly different “smooth” from what you might have been expecting."
 msgstr ""
+"Базові математичні алгоритми працюють так: інтерполяція плавна, отже нахил *ліворуч* від P1 є таким сами, що і *праворуч* від P1. Так, це трохи інша «плавність», ніж та, на яку ви, можливо, розраховували."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:93
 msgid ""
@@ -162,6 +174,7 @@ msgid ""
 "a “rough bent” at P1, but luckily you probably won’t notice in most "
 "situations."
 msgstr ""
+"Якщо вам потрібно рівне плато, вам слід встановити *лінійний* режим інтерполяції у ключовому кадрі P1. Між іншим, це не змінить *попередній* плавний сегмент будь-яким чином. І це дасть нам «різкий згин» у P1, але, на щастя, це, ймовірно, буде непомітним у більшості ситуацій."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:98
 msgid "Ramp Up-Flat-Down"
@@ -181,13 +194,15 @@ msgid ""
 "And look, what’s happening: we’ve good a hunch-back, but not a nice and flat "
 "middle section. Gosh!"
 msgstr ""
-"І, погляньте, що вийшло: маємо чудовий горбик, але він некрасивий і не плоский усередині. Чорт!"
+"І, погляньте, що вийшло: маємо чудовий горбик, але він некрасивий і не "
+"плоский усередині. Чорт!"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:123
 msgid ""
 "This time, we look at the middle section P1-P2. To the left, we see the up "
 "ramp, to the right, the down ramp."
 msgstr ""
+"Цього разу ми поглянемо на середню секцію P1-P2. Ліворуч ми бачимо рампу підвищення, а праворуч — рампу зниження."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:125
 msgid ""
@@ -196,6 +211,7 @@ msgid ""
 "middle section. And this causes our interpolated value to overshoot. So "
 "awful. So sad. Shhh."
 msgstr ""
+"Знову ж таки, «плавність» тепер означає, що у сегментах не буде різких згинів. Замість цього, лівий і правих нахили дотичної є неперервними функціями у P1 і P2; тобто у середній секції. І це спричиняє перевищення нашого інтерпольованого значення. Так жахливо. Так прикро. Ох-ох-ох."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:130
 msgid "Make Flat Great Again"
@@ -206,6 +222,7 @@ msgid ""
 "Now, how do we get a flat top? Fortunately, that’s easy to achieve, as you "
 "can see from the screenshots."
 msgstr ""
+"А тепер, як отримати плоску вершину? На щастя, досягти цього просто, як можна бачити зі знімків вікон."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:146
 msgid "first keyframe: smooth,"
@@ -251,3 +268,8 @@ msgid ""
 "simple. The downside is that this smoothing sometimes has the unwanted "
 "property of overshooting, especially when you least expect it."
 msgstr ""
+"Як ви могли знати (а могли і не знати), рушієм обробки даних Kdenlive є `мультимедійна бібліотека MLT <https://www.mltframework.org/>`_. Хоча у `MLT реалізовано плавну інтерполяцію <https://www.mltframework.org/blog/v0.9.0_released_with_new_property_animation_api/>`_ десь із середини 2013 року, "
+"Kdenlive певний час відставав, і лише тепер у програмі передбачено підтримку трьох режимів інтерполяції — лінійного, дискретного і, нарешті, плавного. Як можна бачити з `початкового коду <https://github.com/mltframework/mlt/blob/"
+"e8b92affcafbc206a5af0d446c446ed339d79a8b/src/framework/mlt_property."
+"c#L1087>`_ MLT, плавна інтерполяція виконується за допомогою `сплайнів Кетмула-Рома "
+"<https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline>`_. Зокрема, у MLT використано так званий «однорідний» варіант, оскільки він дуже простий. Недоліком використання цього варіанта є те, що іноді у нього є небажана властивість перевищення значень, особливо тоді, коли ви цього найменше очікуєте."
