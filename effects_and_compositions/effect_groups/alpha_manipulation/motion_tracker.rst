@@ -94,6 +94,10 @@ In order to use the DaSiam algorithm you need to download the AI models and plac
 
    *$HOME/.local/share/kdenlive/opencvmodels*.
 
+   Flatpak
+
+   *$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels
+
    **Windows**
 
    *%AppData%/kdenlive/opencvmodels*
