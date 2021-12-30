@@ -75,7 +75,7 @@ Fortunately, there’s the easy route using the so-called `extract-frames <https
 
 **A word of caution: before you let loose anything on your Kdenlive project directory that makes changes, make sure to have backed up your project first. You have been warned. We take no responsibility for any data losses or other losses you may experience.**
 
-Now run the script it inside your project directory, where your frame image PNGs are located together with the corresponding video files from which the frames have been extracted. You always need to specify the Kdenlive project filename in order to run the script:
+Now run the script inside your project directory, where your frame image PNGs are located together with the corresponding video files from which the frames have been extracted. You always need to specify the Kdenlive project filename in order to run the script:
 
 $ ``extract-frames myproject.kdenlive``
 
