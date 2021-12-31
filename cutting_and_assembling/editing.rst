@@ -149,11 +149,11 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 2. **Timeline Edit Mode**  Drop Down. These same settings can be found under the :menuselection:`Tool` menu.
 
-2a. :ref:`timline_normal_mode`
+2a. **Timeline Normal Mode**
 
-2b. :ref:`timline_overwrite_mode`
+2b. **Timeline Overwrite Mode**
 
-2c. :ref:`timline_insert_mode`
+2c. **Timeline Insert Mode**
 
 3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See ::ref:`insert_overwrite_advanced_timeline_editing` for more details.
 

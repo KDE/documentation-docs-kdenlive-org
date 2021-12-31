@@ -46,7 +46,6 @@ The :menuselection:`Import image sequence` checkbox labeled 3 enables the import
 .. versionadded:: 21.12
 The :menuselection:`Ignore subfolder structure` checkbox labeled 4 enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
 
-
 You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the |kdenlive-add-clip| button.
 
 .. image:: /images/Kdenlive_Add_other_clip_types.png
