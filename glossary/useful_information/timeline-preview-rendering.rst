@@ -168,7 +168,7 @@ Preview Profiles
 
    Most of the time, it should suffice to leave the preview profile set to :guilabel:`Auto`. Kdenlive then will select a suitable preview profile based on your project profile.
 
-   In some rare cases, as with unusual frame rates, or when you want to control the preview rendering encoding quality, then you can change the preview profile, or create your own preview profile. Use the :guilabel:`Manage timeline preview profiles`` button next to the preview profile selection.
+   In some rare cases, as with unusual frame rates, or when you want to control the preview rendering encoding quality, then you can change the preview profile, or create your own preview profile. Use the :guilabel:`Manage timeline preview profiles` button next to the preview profile selection.
 
 .. rst-class:: clear-both
 
