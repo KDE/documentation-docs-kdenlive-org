@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-17 00:21+0000\n"
-"PO-Revision-Date: 2021-12-26 20:50+0200\n"
+"PO-Revision-Date: 2021-12-30 23:18+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
 #: ../../glossary/useful_information/color_hell.rst:13
@@ -37,6 +36,7 @@ msgstr ""
 #: ../../glossary/useful_information/color_hell.rst:19
 msgid "“Run-of-the-Mill” Footage"
 msgstr ""
+"«Звичайний» матеріал"
 
 #: ../../glossary/useful_information/color_hell.rst:21
 msgid ""
@@ -45,6 +45,7 @@ msgid ""
 "a screen recording app (such as «AZ Screen Recording», but not the “Pro” "
 "fake). And this footage has two slightly unusual properties:"
 msgstr ""
+"Драма розпочинається з матеріалу запису з екрана, який є доволі невинним і звичайним з першого погляду. Його могло бути записано на пристроях Android 7 за допомогою програми для запису з екрана (зокрема «AZ Screen Recording», але не підробкою з суфіксом «Pro»). І цей матеріал має дві трохи незвичні властивості:"
 
 #: ../../glossary/useful_information/color_hell.rst:23
 msgid "a *highly variable frame rate*,"
@@ -55,6 +56,7 @@ msgid ""
 "it’s using `BT.601 <https://en.wikipedia.org/wiki/Rec._601>`_ , instead of "
 "BT.709 like so much HD footage these days."
 msgstr ""
+"використано `BT.601 <https://en.wikipedia.org/wiki/Rec._601>`_ замість BT.709, який використовують у більшій частині матеріалу із високою роздільністю на сьогодні."
 
 #: ../../glossary/useful_information/color_hell.rst:26
 msgid "Should cause no problems, right? Well…"
@@ -72,6 +74,7 @@ msgid ""
 "seconds before the interaction will appear. This is probably caused by a "
 "very low fps during the inactivity period just before the user interaction."
 msgstr ""
+"Виявляється, мультимедійний рушій Kdenlive, `MLT <https://www.mltframework.org/>`_ має певні проблеми із відеоматеріалом зі значним розбігом частот кадрів, зокрема розбігом від 0,001 до понад 100 кадрів за секунду. Симптоми незначні, але можуть зашкодити якості результатів: здається, MLT може вибирати наступний кадр доволі неправильно у ділянках із низькою частотою кадрів. Це не так помітно для досить високих частот кадрів, але може давати неоковирні результати в інших місцях. Наприклад, у матеріалах автора реакція на дотик користувача з'являлася за декілька секунд до самого торкання. Ймовірно, це спричинено дуже низькою частотою кадрів під час періоду неактивності одразу перед взаємодією з користувачем."
 
 #: ../../glossary/useful_information/color_hell.rst:30
 msgid ""
@@ -79,6 +82,7 @@ msgid ""
 "www.ffmpeg.org/>`_ easy tasks (this example assumes a constant project frame "
 "rate of 25 fps):"
 msgstr ""
+"На жаль, перекодування до фіксованої частоти кадрів справді є одним з простих завдань `ffmpeg <https://www.ffmpeg.org/>`_ (у цьому прикладі ми припускаємо сталу частоту кадрів проєкту у 25 кадрів за секунду):"
 
 #: ../../glossary/useful_information/color_hell.rst:32
 msgid "$ ``ffmpeg -i raw.mp4 -r 25 -crf 18 screen-rec.mp4``"
@@ -89,6 +93,7 @@ msgid ""
 "The constant frame rate cures the issues mentioned above, so the results are "
 "as to be expected. Except…"
 msgstr ""
+"Стала частота кадрів усування згадані вище проблеми, отже результат буде очікуваним. Але…"
 
 #: ../../glossary/useful_information/color_hell.rst:38
 msgid "Easy Transcoding: Color Me Bad"
@@ -102,6 +107,7 @@ msgid ""
 "you are going to mix this footage side-by-side with further processed "
 "versions of it, such as extracted frames for stills."
 msgstr ""
+"На жаль, у отриманому у результаті відео бачимо зсув кольорів! Спочатку це не надто помітно, але це може бути доволі помітним, коли обсяг матеріалу збільшуватиметься. І це стане очевидним для ваших глядачів, якщо ви захочете створити суміш цього матеріалу із його обробленими версіями, зокрема видобутими стоп-кадрами."
 
 #: ../../glossary/useful_information/color_hell.rst:49
 msgid ""
@@ -111,16 +117,19 @@ msgid ""
 "did *not transform the colors* at all during transcoding, and simply dropped "
 "the correct color profile information!"
 msgstr ""
+"Якщо поглянути прискіпливіше або за допомогою вбудованої панелі властивостей кліпу Kdenlive, або за допомогою `ffprobe <https://www.ffmpeg.org/ffprobe.html>`_, бачимо, що *перекодований файл* **не містить зазначення профілю кольорів BT.601**. Втім, ffmpeg *не перетворював кольорів* під час перекодування, — правильні дані щодо профілю кольорів було просто відкинуто!"
 
 #: ../../glossary/useful_information/color_hell.rst:54
 msgid "Makeshift Measures"
 msgstr ""
+"Паліативні заходи"
 
 #: ../../glossary/useful_information/color_hell.rst:63
 msgid ""
 "Of course, there’s always Kdenlive’s ability to overwrite source clip "
 "properties using the built-in clip properties pane."
 msgstr ""
+"Звичайно ж, у Kdenlive завжди є можливість перезаписати властивості початкового кліпу за допомогою вбудованої панелі властивостей кліпу."
 
 #: ../../glossary/useful_information/color_hell.rst:65
 msgid ""
@@ -129,6 +138,7 @@ msgid ""
 "*writing pen*. Check “Colorspace” and then select “ITU-R 601”. Kdenlive now "
 "applies the correct color profile."
 msgstr ""
+"Просто виберіть кліп із перекодованим відео на панелі контейнера проєкту. Потім перейдіть на панель властивостей кліпу і перейдіть на вкладку «Примусові властивості», де буде показано кнопку із *ручкою*. Позначте пункт «Простір кольорів», а потім виберіть «ITU-R 601». Тепер Kdenlive застосує належний профіль кольорів."
 
 #: ../../glossary/useful_information/color_hell.rst:67
 msgid ""
@@ -139,6 +149,7 @@ msgid ""
 "clip property overrides. We thus need to get the correct color profile "
 "information right into the transcoded video files themselves."
 msgstr ""
+"Хоча цей спосіб дуже простий, він має власні обмеження; він працює добре, доки ви продовжуєте працювати *лише у редакторі Kdenlive і його обробнику MLT*. Але щойно вам потрібно скористатися зовнішніми засобами для роботи з відео, зокрема *ffmpeg* для видобування зображення, усе пропало: ці засоби нічого не знають про перевизначення властивостей початкового кліпу у Kdenlive. Тому нам потрібно записати належні дані щодо профілю кольорів у самі перекодовані файли відео."
 
 #: ../../glossary/useful_information/color_hell.rst:72
 msgid "Preserving BT.601 in Transcoding"
@@ -151,6 +162,7 @@ msgid ""
 "complains about not being to transform between the same input and output "
 "color profile. *Grrr*."
 msgstr ""
+"Що гірше, очевидне перетворення профілю кольорів за допомогою ``-vf colormatrix=bt601:bt601`` просто не працює: ffmpeg скаржиться про те, що неможливо перетворення між однаковими вхідним і вихідним профілем кольорів. *Р-р-р…*"
 
 #: ../../glossary/useful_information/color_hell.rst:76
 msgid ""
@@ -160,6 +172,10 @@ msgid ""
 "stackexchange.com/questions/16840/ffmpeg-explicitly-tag-h-264-as-bt-601-"
 "rather-than-leaving-unspecified>`_"
 msgstr ""
+"Довелося доволі інтенсивно пошукати, аж доки не було знайдено шматочок мозаїки, якого не вистачало, на сайті Stack Exchange сайта питань і відповідей щодо роботи з відео: `ffmpeg: explicitly tag "
+"h.264 as bt.601, rather than leaving unspecified? <https://video."
+"stackexchange.com/questions/16840/ffmpeg-explicitly-tag-h-264-as-bt-601-"
+"rather-than-leaving-unspecified>`_"
 
 #: ../../glossary/useful_information/color_hell.rst:78
 msgid ""
@@ -171,6 +187,7 @@ msgid ""
 "definition (SD) resolution at all, but it does matter when it comes to "
 "encoding color."
 msgstr ""
+"Є ще одна річ, яку слід врахувати: BT.601 має варіанти PAL і NTSC, які мають дещо різні основні колірності, криві перетворення і простори кольорів. Тому початковий матеріал слід спочатку визначити за допомогою ``ffprobe`` (або ``mediainfo``), яку було використано під час записування у вашому випадку. Будь ласка, зауважте, що взагалі немає значення, чи має ваш запис з екрана роздільну здатність зі стандартного набору, але ця роздільна здатність має значення при кодуванні кольорів."
 
 #: ../../glossary/useful_information/color_hell.rst:81
 msgid "I’m Not Quite Dead Yet: PAL and NTSC DNA"
@@ -183,6 +200,7 @@ msgid ""
 "in order to not get lost in all the nitty-gritty details ``ffprobe`` will "
 "throw at you, we need to tame it using a few options and ``grep``:"
 msgstr ""
+"Отже, як нам визначити, що у певному файлі запису відео, скажімо ``raw.mp4``, використано простір кольорів PAL чи NTSC? Звичайно ж, нам на допомогу прийде ``ffprobe``. Але щоб не загубитися серед усіх цих подробиць, які ``ffprobe`` видасть нам, вам слід вгамувати його параметрами та ``grep``:"
 
 #: ../../glossary/useful_information/color_hell.rst:85
 msgid "$ ``ffprobe -v error -show_streams raw.mp4 | grep color_``"
@@ -208,6 +226,7 @@ msgid ""
 "will tell us whether we’re dealing with PAL (``=bt470bg``) or NTSC "
 "(``=smpte170m``)."
 msgstr ""
+"Декому може здатися, що використання пов'язаного з телестандартами BT.601 є чудовою ідеєю для записування з екранів мобільних пристроїв. Такому собі гіпстеру зі старим ламповим телевізором на столі. Втім, рядок ``color_space=...`` повідомить нам, маємо ми справу з PAL (``=bt470bg``) чи NTSC (``=smpte170m``)."
 
 #: ../../glossary/useful_information/color_hell.rst:97
 msgid "PAL"
@@ -218,6 +237,7 @@ msgid ""
 "If it’s **PAL chromaticities** (``=bt470bg``), we then need to transcode as "
 "follows:"
 msgstr ""
+"Якщо це **колірності PAL** (``=bt470bg``), нам доведеться далі перекодувати дані так:"
 
 #: ../../glossary/useful_information/color_hell.rst:101
 #: ../../glossary/useful_information/color_hell.rst:110
@@ -242,6 +262,7 @@ msgid ""
 "For **NTSC chromaticities** (``=smpte170m``), we’ll need a different set of "
 "primaries, transfer curve, and colorspace:"
 msgstr ""
+"Для **колірностей NTSC** (``=smpte170m``) нам знадобиться інший набір основ, крива перетворення та простір кольорів:"
 
 #: ../../glossary/useful_information/color_hell.rst:111
 msgid ""
@@ -256,3 +277,4 @@ msgid ""
 "color profile too – unless they are broken in that they don’t understand "
 "BT.601 at all."
 msgstr ""
+"За будь-яких умов, Kdenlive/MLT бачитиме перекодоване відео належним чином, з використанням профілю кольорів BT.601. Крім того, інші інструменти обробки мультимедійних даних також належними чином визначатимуть профіль кольорів — якщо у них немає загальних проблем із обробкою BT.601."
