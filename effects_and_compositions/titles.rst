@@ -9,6 +9,7 @@
              - Jack (https://userbase.kde.org/User:Jack)
              - Roger (https://userbase.kde.org/User:Roger)
              - Carl Schwan <carl@carlschwan.eu>
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -21,52 +22,237 @@ Titles
 
 Titles are text elements that can be added to the timeline and appear over the top of other clips. Titles are created in the :ref:`project_tree` and then dragged to the timeline like other video clips.
 
-If you want titles to overlay other footage, you put title clips on video track 1 and have the other footage on video track 2. You also need to retain the affine transition that is automatically added to the title clips if you want the footage visible underneath.
+If you want titles to overlay other footage, you put title clips above (on video track 2 for example) and have the other footage below (on video track 1 for example). You also need to retain the affine transition that is automatically added to the title clips if you want the footage visible underneath.
 
-To create a title, choose the :menuselection:`Project --> Add Title Clip` menu item or from the Right-Click menu in the :ref:`project_tree`.
+Create and edit Title
+---------------------
 
-How to Save a Title
--------------------
+.. image:: /images/title_window.png
+   :width: 600px
+   :alt: Title window
 
-Open the title in the :ref:`project_tree` by double-clicking it or right-click then choose :menuselection:`Clip Properties`.
+**Create a Title:** Choose :menuselection:`Project --> Add Title Clip` or right-click in an empty area in :ref:`project_tree` and choose :menuselection:`Add Title Clip`.
 
-.. image:: /images/Title_clip_in_proj_tree.png
-   :align: center
-   :width: 200px
-   :alt: Title_clip_in_proj_tree
+**Edit a Title:** Double click the title clip either in the project bin or in the timeline. Or right-click the title clip in the project bin and select :menuselection:`Edit Clip`.
 
-Press the :guilabel:`Save As` button on the tool bar.
+**In the title window (1):**
 
-.. list-table::
+   Select an item by clicking on it.
 
-  * - **Title Editor** toolbar when title editor is wide enough for the whole toolbar to display. The toolbar items are: **Selection Tool**, **Add Text**, **Add Rectangle**, **Add Image**, **Open Document** and **Save As**.
+   Edit text by double-clicking.
+
+Ones your edit is done click ::guilabel:`Update Title` (bottom right).
+
+Add items
+^^^^^^^^^
+
+.. image:: /images/title_toolbar.png
+   :alt: titler toolbar
+
+From the toolbar (green marked area) choose:
+
+:guilabel:`Text` :kbd:`alt+t` and click into the title window (1)
+
+:guilabel:`Rectangle` :kbd:`alt+r` and in the title window (1) drag the mouse to draw a rectangle
+
+:guilabel:`Ellipse` :kbd:`alt+e` and in the title window (1) drag the mouse to draw a ellipse.
+
+:guilabel:`Image` :kbd:`alt+i` brings up a file chooser where you can choose an image to be inserted into your title (1).   
+
+Default selection is :guilabel:`Text` for a new title clip.
+
+:kbd:`Alt + s` brings you back to :menuselection:`Selection Tool` (icon with the 4 arrows, yellow marked)
+
+.. image:: /images/title_level.png
+   :alt: Title level
+
+Items can be placed behind each other by selecting them and changing the :guilabel:`Z-index:` (top right corner) to a lower value or with the 4 icons left to the :guilabel:`Z-index`  
+
+
+Select items
+^^^^^^^^^^^^
+
+.. image:: /images/title_selection.png
+   :alt: Title selection
+
+Yellow marked area. Make sure :guilabel:`Selection Tool` is selected or press :kbd:`Alt + s`. 
+
+In the title window (1) clicking on an item.
+
+Holding :kbd:`SHIFT` to select several items by clicking on it.
+
+:kbd:`CTRL + a` select all items.
+
+.. image:: /images/title_item-selection.png
+   :alt: Title item selection
+
+You can select items with one of the 5 selection possibilities (yellow marked area, bottom left), from left to right:
+
+1. If you have a selection: Keep only images selected
+2. If you have a selection: Keep only text items selected
+3. Deselect everything
+4. Select All
+5. If you have a selection: Keep only rect items selected
+
+.. _adjust_items:
+
+Adjust items
+^^^^^^^^^^^^
+
+.. image:: /images/title_adjust-items.png
+   :width: 500px
+   :alt: titler toolbar
+
+Red marked areas: All items can be adjusted in position, size, level, alignment and properties either with the mouse or by entering values.
+
+Holding :kbd:`SHIFT` move selected items vertical only.
+
+Holding :kbd:`SHIFT + alt` move selected items horizontally only.
+
+Ones done click :guilabel:`Create Title` (bottom right) or :guilabel:`Update Title`.  
+
+
+.. _typewriter:
+
+Typewriter
+----------
+
+.. versionadded:: 21.04.0
+
+.. image:: /images/title-clip-typewriter.png
+   :alt: title-clip-typewriter
+
+The beloved typewriter effect is back. By default it expands text by characters, but other modes like expansion by words and lines are also available.
+
+- Frame step
+   Tells how fast next element will be displayed. The speed is constant over the whole clip and effect period. 
+   
+   Values: 1-240, default: 25
+
+- Variation / Sigma
+   Allows for introducing small fluctuation to the step length.
+   
+   Values 0-20, default: 0
+
+- Seed
+   The random generator for fluctuations is initialized with constant seed to assure predictable pattern. The seed parameter changes the initial value of random generator.
+   
+   Values: 0-100, default 0
+
+- Expansion mode
+   By character: types character by character
+  
+   By word: types word by word
+   
+   By line: types line by line
+   
+   Custom: custom macros (not implemented)
+
+
+Scroll title vertically
+-----------------------
+
+Put a long title onto the title window. Zoom out so you can see it all. The text should run off the top (or bottom) of the viewable area.
+
+Select the :guilabel:`Animation` tab and check the :guilabel:`Edit start viewport` option. Now drag the start rectangle to above the viewable area.
+
+Check the :guilabel:`Edit end viewport` option and drag the end rectangle to below the viewable area.
+
+Press the :guilabel:`OK` button and preview the scrolled title.
+
+.. image:: /images/Scrolling_titles.png
+   :alt: Scrolling_titles
+
+The text in the above title scrolls up the screen. It is as if the camera starts on the "start rectangle" and then pans down to the "end rectangle".
+
+To make the text scroll faster, set the :guilabel:`Duration:` field (highlighted in red in the image above) to a smaller value. To make the text scroll slower, set it to a larger value.
+
+Note: changing the length of the title clip on the timeline does not change the scrolling speed. If the length of the clip on the timeline is longer than the duration specified in the title editor, the titles will pause on the screen between the time the title's duration expires until the end of the clip.
+
+If the length of the clip on the timeline is shorter than the duration specified in the title editor, the scrolling will not complete before the title clip finishes.
+
+Note: the above description of title behaviour with respect to duration only applies to titles that don't get edited after they have been placed on the timeline. If you expand the length of a title clip on the timeline and then edit the title (by double-clicking it in the Project Bin), its apparent duration will become the length that it currently has on the timeline (i.e., the scrolling will not pause at the end anymore) but the duration displayed in the title editor will not have changed.
+
+
+Scroll title Horizontally
+-------------------------
+
+Use the instructions for vertical scrolling - just put the start and stop rectangles off to the sides of the screen rather than the top and bottom.
+
+
+Save a Title
+------------
+
+.. image:: /images/title_save-as.png
+   :alt: Title save as
+
+Blue marked area: Press the :guilabel:`Save As` button on the tool bar.
+
+**Title Editor** toolbar when title editor is wide enough for the whole toolbar to display. The toolbar items are: **Selection Tool**, **Add Text**, **Add Rectangle**, **Add Ellipse**, **Add Image**, **Open Document** and **Save As**.
 
 or select :guilabel:`Save as` from the toolbar overflow menu which can be found under the :guilabel:`>>` button on the toolbar - see picture.
 
-.. list-table::
-
-  * - **Title Editor** toolbar when title editor is not wide enough for the whole toolbar to display. The toolbar items that do not fit can be accessed from the :guilabel:`>>` button that appears at the end of the toolbar.
+**Title Editor** toolbar when title editor is not wide enough for the whole toolbar to display. The toolbar items that do not fit can be accessed from the :guilabel:`>>` button that appears at the end of the toolbar.
 
 Choose a save location within your project.
 
 The titles are saved as :file:`.kdenlivetitle` type documents.
 
-How to Load a Title
--------------------
 
-Choose the :menuselection:`Add Title Clip` item from the :guilabel:`Add Clip` drop down (see picture).
+Load a Title
+------------
 
-.. image:: /images/Add_clip_drop_down.png
-   :align: center
-   :width: 100px
-   :alt: Add_clip_drop_down
+.. image:: /images/title_open-document.png
+   :alt: Title open Document
 
-Press the :guilabel:`Open Document` button on the Title Clip editor toolbar or choose :menuselection:`Open document` from the :guilabel:`>>` menu and load up a title saved earlier.
+Blue marked area: Press the :guilabel:`Open Document` button on the Title Clip editor toolbar or choose :menuselection:`Open document` from the :guilabel:`>>` menu and load up a title saved earlier.
 
-How to edit an existing title
------------------------------
 
-Right-click the title clip in the Project Bin and select the :menuselection:`Clip properties` item.
+Title Template 
+--------------
+
+.. _title_template:
+
+Built In
+^^^^^^^^
+
+.. image:: /images/Kdenlive_Template_Title1.png
+   :width: 450px
+   :alt: Template_title1
+
+**Kdenlive** has some built-in title templates that can be accessed from the :guilabel:`Template:` drop-down list found on the bottom of the **Title Clip** window - see below.
+
+
+Download new title template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: /images/Kdenlive_download_new_title_templates.png
+   :alt: Kdenlive_download_new_title_templates
+
+Blue marked area: To install more title templates press the :guilabel:`Download New Title Templates...` icon on the tool bar when you are in the title editor.
+
+If you have a good title template, you can post it `here <https://store.kde.org/browse/cat/335/>`_ so that other **Kdenlive** users can download it through :menuselection:`Download New Title Templates...` and use it.
+
+.. image:: /images/Kdenlive_Download_title_templates.png
+   :alt: Kdenlive_Download_title_templates
+
+Once these title templates are installed, they can be accessed via the drop down on the :ref:`template <title_template>` dialog.
+
+The :file:`.kdenlivetitle` files that supply these templates are installed to:
+
+   **Linux**
+
+   *$HOME/.local/share/kdenlive/titles*.
+
+   Flatpak
+
+   *$HOME/.var/app/org.kde.kdenlive/data/kdenlive/titles*
+
+   **Windows**
+
+   *%AppData%/kdenlive/titles*
+
+   Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and copy **%AppData%/kdenlive/**.
 
 Template Titles - User-Defined
 ------------------------------
@@ -110,105 +296,6 @@ The *%s* in the template will be replaced with the text that you enter in the :g
 
 A known issue with template titles is that text centering does not work correctly for text replacing the %s.
 
-Template Titles - Built In
---------------------------
-
-**Kdenlive** has some built-in title templates that can be accessed from the :guilabel:`Template:` drop-down list found on the bottom of the **Title Clip** window - see below.
-
-.. image:: /images/Kdenlive_Template_Title1.png
-   :width: 450px
-   :alt: Template_title1
-
-To install more built-in title templates choose the :menuselection:`Settings --> Download New Title Templates...` menu item. See :ref:`download_new_title_templates`.
-
-The :file:`.kdenlivetitle` files that supply these templates are installed to :file:`/usr/share/kdenlive/titles`.
-
-Import an Image into the title
-------------------------------
-
-On the Toolbar overflow menu (:guilabel:`>>`) shown in the picture below, the second menu item is the :guilabel:`Add Image` button. Selecting this brings up a file chooser where you can choose an image to be inserted into your title.
-
-.. image:: /images/Kdenlive_Add_image_to_title.png
-   :alt: Kdenlive_Add_image_to_title
-
-Draw Rectangle Toolbar Item
----------------------------
-
-The 1st menu item shown in the picture above is the :guilabel:`Add Rectangle` button. After selecting this, drag the mouse to draw a rectangle. Use the rectangle toolbar (shown below) to change the fill color, border color and border width of the rectangle.
-
-.. image:: /images/Kdenlive_Alt-R_title_menu.png
-   :alt: Kdenlive_Alt-R_title_menu
-
-The rectangles can be placed behind text by selecting them and the changing the :guilabel:`Z-index:` (top right corner) to a lower value.
-
-.. image:: /images/Kdenlive_Rectangle_on_title.png
-   :width: 450px
-   :alt: Kdenlive_Rectangle_on_title
-
-.. _typewriter:
-
-Typewriter
-----------
-
-.. versionadded:: 21.04.0
-
-.. image:: /images/title-clip-typewriter.png
-   :alt: title-clip-typewriter
-
-The beloved typewriter effect is back. By default it expands text by characters, but other modes like expansion by words and lines are also available.
-
-- Frame step
-   Tells how fast next element will be displayed. The speed is constant over the whole clip and effect period. 
-   
-   Values: 1-240, default: 25
-
-- Variation / Sigma
-   Allows for introducing small fluctuation to the step length.
-   
-   Values 0-20, default: 0
-
-- Seed
-   The random generator for fluctuations is initialized with constant seed to assure predictable pattern. The seed parameter changes the initial value of random generator.
-   
-   Values: 0-100, default 0
-
-- Expansion mode
-   By character: types character by character
-  
-   By word: types word by word
-   
-   By line: types line by line
-   
-   Custom: custom macros (not implemented)
-
-To make the title scroll vertically
------------------------------------
-
-Put a long title onto the title window. Zoom out so you can see it all. The text should run off the top (or bottom) of the viewable area.
-
-Select the :guilabel:`Animation` tab and check the :guilabel:`Edit start viewport` option. Now drag the start rectangle to above the viewable area.
-
-Check the :guilabel:`Edit end viewport` option and drag the end rectangle to below the viewable area.
-
-Press the :guilabel:`OK` button and preview the scrolled title.
-
-.. image:: /images/Scrolling_titles.png
-   :alt: Scrolling_titles
-
-The text in the above title scrolls up the screen. It is as if the camera starts on the "start rectangle" and then pans down to the "end rectangle".
-
-To make the text scroll faster, set the :guilabel:`Duration:` field (highlighted in red in the image above) to a smaller value. To make the text scroll slower, set it to a larger value.
-
-Note: changing the length of the title clip on the timeline does not change the scrolling speed. If the length of the clip on the timeline is longer than the duration specified in the title editor, the titles will pause on the screen between the time the title's duration expires until the end of the clip.
-
-If the length of the clip on the timeline is shorter than the duration specified in the title editor, the scrolling will not complete before the title clip finishes.
-
-Note: the above description of title behaviour with respect to duration only applies to titles that don't get edited after they have been placed on the timeline. If you expand the length of a title clip on the timeline and then edit the title (by double-clicking it in the Project Bin), its apparent duration will become the length that it currently has on the timeline (i.e., the scrolling will not pause at the end anymore) but the duration displayed in the title editor will not have changed.
-
-To make the title scroll Horizontally
--------------------------------------
-
-Use the instructions for vertical scrolling - just put the start and stop rectangles off to the sides of the screen rather than the top and bottom.
 
 How to fade titles in and/or out
 --------------------------------
@@ -219,6 +306,7 @@ In the image below we have four keyframes (labeled 1 to 4). The first keyframe i
 
 .. image:: /images/Kdenlive_Fade_titles_anotated.png
    :alt: Kdenlive_Fade_titles_anotated
+
 
 How to fade in more than one title sequentially
 -----------------------------------------------
@@ -231,6 +319,7 @@ You put three titles on three different tracks but you make all three affine tra
 
 .. image:: /images/Kdenlive_3_fade_in_titles.png
    :alt: Kdenlive_3_fade_in_titles
+
 
 FAQ
 ---

@@ -23,7 +23,7 @@ Kdenlive’s interface is separated into four main parts:
 :ref:`status_bar` at the bottom.
 
 .. figure:: /images/interface_window_system_editing_screen.png
-   :align: left
+   :width: 650px
    :alt: interface_window-system_editing-screen
 
    Kdenlive’s default Screen Layout (example editing view). Topbar (blue), Toolbars (yellow), Window (green) and Status Bar (red).
