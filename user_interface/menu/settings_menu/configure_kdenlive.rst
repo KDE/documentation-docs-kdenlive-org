@@ -51,7 +51,7 @@ Project Defaults
 ^^^^^^^^^^^^^^^^
 
 
-Configures what the project settings will look like by default when you choose File>:ref:`new`.
+Configures what the project settings will look like by default when you choose File --> :ref:`new`.
 
 
 .. image:: /images/Kdenlive_Configure_project_defaults.png

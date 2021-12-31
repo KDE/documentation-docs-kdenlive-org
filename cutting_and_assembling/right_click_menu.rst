@@ -117,7 +117,7 @@ Change speed
 * :menuselection:`Insert Effect` will open a sub-menu to allow you to quickly add the :ref:`transform` or the :ref:`lift_gamma_gain_effect` effects.
 
 
-* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the compositeandtransform or the :ref:`wipe` composition
+* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`composite_and_transform` or the :ref:`wipe` composition
 
 
 Empty Space in Timeline
@@ -153,6 +153,6 @@ A different menu appears if you click in empty space in the timeline.
 * :menuselection:`Go to Guide` will pop-up a sub-menu with a list of your guides and will move the timeline position marker to that guide.
 
 
-* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the compositeandtransform or the :ref:`wipe` composition
+* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`composite_and_transform` or the :ref:`wipe` composition
 
 

@@ -102,6 +102,7 @@ To some degree, Kdenlive supports (simple) compositing in its timeline. Actually
 
 **Fun Fact**: Admittedly, MLT and Kdenlive offer a lot of choice here; probably too much choice. A non-representative poll in our official Kdenlive G+ community showed that **Composite is used the most often**, followed by **Composite & Transform** and **Affine**.
 
+.. _composite_and_transform:
 
 Compositing with Transparency
 -----------------------------
