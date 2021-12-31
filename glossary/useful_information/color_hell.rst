@@ -64,7 +64,7 @@ Makeshift Measures
 
    Simply select the transcoded video clip in the project bin. Then go to the clip properties pane and select its “Force Properties” tab which shows a *writing pen*. Check “Colorspace” and then select “ITU-R 601”. Kdenlive now applies the correct color profile.
 
-   While very easy, this method has it’s limitations; it’s fine while you keep working *solely inside the Kdenlive editor and its MLT renderer*. But as soon as you need to pull in external video tools, such as *ffmpeg* for image extraction…, you will loose: these tools don’t know about Kdenlive’s source clip property overrides. We thus need to get the correct color profile information right into the transcoded video files themselves.
+   While very easy, this method has its limitations; it’s fine while you keep working *solely inside the Kdenlive editor and its MLT renderer*. But as soon as you need to pull in external video tools, such as *ffmpeg* for image extraction…, you will loose: these tools don’t know about Kdenlive’s source clip property overrides. We thus need to get the correct color profile information right into the transcoded video files themselves.
 
 .. rst-class:: clear-both
 
