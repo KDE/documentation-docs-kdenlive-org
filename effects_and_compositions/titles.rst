@@ -109,7 +109,7 @@ Holding :kbd:`Shift` move selected items vertical only.
 
 Holding :kbd:`Shift + Alt` move selected items horizontally only.
 
-Ones done click :guilabel:`Create Title` (bottom right) or :guilabel:`Update Title`.  
+Once done click :guilabel:`Create Title` (bottom right) or :guilabel:`Update Title`.  
 
 
 .. _typewriter:
