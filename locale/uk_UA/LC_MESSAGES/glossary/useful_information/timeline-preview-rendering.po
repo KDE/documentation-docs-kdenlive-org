@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-21 00:37+0000\n"
-"PO-Revision-Date: 2021-12-30 23:25+0200\n"
+"PO-Revision-Date: 2021-12-31 20:38+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -33,6 +33,7 @@ msgid ""
 "don’t need to leave Kdenlive, as you would need when rendering your timeline "
 "to an traditional video file."
 msgstr ""
+"**Обробка попереднього перегляду на монтажному столі є визначною можливістю Kdenlive**. Вперше цю можливість було впроваджено у версії 16.08. Обробка попереднього перегляду надає вам змогу програмі обробляти частини або увесь монтажний стіл у фоновому режимі, щоб його відтворення, коли це потрібно, відбувалося плавно. Це особливо корисно, якщо ви працюєте зі складними композиціями доріжок або використовуєте ефекти, які пов'язано зі складними обчисленнями. Замість відтворення із затинаннями, ви матимете плавне відтворення. Таким чином, ви зможете перевірити правильність розташування ключових кадрів та обробки ефектів. При цьому вам не доведеться полишати вікна Kdenlive, як мало б бути при обробці монтажного столу до традиційного відеофайла."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:20
 msgid "Full-FPS Preview of Effect-Heavy Timeline Stuff"
@@ -47,6 +48,7 @@ msgid ""
 "system easily plays this clip back at its original frame rate of 25fps. This "
 "isn’t even a job for proxy clips on a decent system."
 msgstr ""
+"**Необроблений початковий матеріал**: чудовий приклад можливості попереднього перегляду на монтажному столі Kdenlive є таким: скажімо, у вас є початковий матеріал у форматі FullHD. Без обробки, ваша система без проблем відтворює цей кліп з початковою частотою кадрів у 25 кадрів за секунду. Для обробки проміжних кліпів такого матеріалу потрібна лише мізерна потжуність сучасної системи."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:31
 msgid ""
@@ -63,6 +65,7 @@ msgid ""
 "And then, we also have to decompress the tonal curve (Protune, y’know). "
 "Wait, there’s more: saturation needs to be corrected too (again, Protune)."
 msgstr ""
+"**Тепер додамо складних ефектів**. Для показу нам потрібно буде усунути ефект риб'ячого ока з цього матеріалу (екшен-камери, ви знаєте). Після усування ефекту риб'ячого ока потрібне збільшення різкості. А потім нам також знадобиться декомпресія кривої відтінків (Protune, знаєте). Чекайте, ще дещо: слід також виконати виправлення насиченості (знову ж таки, Protune)."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:42
 msgid ""
@@ -98,6 +101,7 @@ msgid ""
 "editing. It speeds up the timeline playback. Why should you need that? For "
 "instance, to check the correct timing of keyframed effects and transitions."
 msgstr ""
+"**Будь ласка, зауважте**: обробка попереднього перегляду на монтажному столі **не** пришвидшить редагування на монтажному столі. Вона пришвидшить відтворення на монтажному столі. Навіщо ж це? Наприклад, для того, щоб перевірити часову прив'язку ефектів і переходів, які пов'язано із ключовими кадрами."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:55
 msgid ""
@@ -106,6 +110,7 @@ msgid ""
 "rendering. In particular, you can make audio changes at any time without "
 "affecting preview rendering."
 msgstr ""
+"Обробка для попереднього перегляду стосується лише обробки відео для монтажного столу. На відміну від відео, Kdenlive завжди обробляє звукові дані незалежно від режиму обробки для попереднього перегляду. Зокрема, ви можете будь-коли вносити зміни до звукових даних без впливу на обробку для попереднього перегляду."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:64
 msgid ""
@@ -114,6 +119,7 @@ msgid ""
 "most of the menu items also in the main menu :menuselection:`Timeline --> "
 "Timeline Preview --> …`"
 msgstr ""
+"Керувати обробкою попереднього перегляду на монтажному столі краще за все за допомогою відповідного меню :guilabel:`Перегляд на монтажному столі` на панелі інструментів монтажного столу. Крім того, ви можете знайти більшість пунктів меню у головному меню вікна програми: :menuselection:`Монтажний стіл --> Перегляд на монтажному столі --> …`"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:69
 msgid "Step 1: Set Preview Zone"
@@ -150,6 +156,7 @@ msgid ""
 "> Start Preview Render`). Or press :kbd:`Shift + Return`. Or click on |"
 "preview-render-on|."
 msgstr ""
+"Запустіть обробку попереднього перегляду (:menuselection:`Монтажний стіл --> Перегляд на монтажному столі --> Почати обробку перегляду`). Або просто натисніть :kbd:`Shift + Enter`чи кнопку |preview-render-on|."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:101
 msgid "You can even add multiple, non-continuous preview rendering zones."
@@ -163,6 +170,7 @@ msgid ""
 "between the timeline ruler and the topmost track. As background rendering "
 "progresses, this bar will slowly turn green, chunk by chunk."
 msgstr ""
+"З'явиться червоний прямокутник (якщо його ще не було показано): його розташовано одразу між лінійкою монтажного столу і найвищою доріжкою. Із поступом обробки у фоновому режимі цей прямокутник поволі ставатиме зеленим, фрагмент за фрагментом."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:105
 msgid ""
@@ -171,6 +179,7 @@ msgid ""
 "touch your preview zones, rendering will stop, and the affected preview "
 "zones turn back to red. Simply restart rendering, if you need."
 msgstr ""
+"Доки обробка попереднього перегляду буде активною, ви можете продовжувати працювати над будь-якою частиною вашого монтажного столу. Втім, якщо ви внесене зміни до кліпів або переходів, які стосуються ділянок попереднього перегляду, обробку буде зупинено, а відповідні ділянки попереднього перегляду стануть червоними. Просто перезапустіть обробку, якщо вам це потрібно."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:107
 msgid ""
@@ -201,7 +210,10 @@ msgid ""
 "Timeline playback is now full 25fps, even as the corresponding timeline clip "
 "makes heave use of effects (especially de-fish is computational intensive)."
 msgstr ""
-"Відтворення на монтажному столі тепер відбуватиметься із повною частотою у 25 кадрів за секунду, навіть якщо відповідний кліп на монтажному столі обробляється широким спектром ефектів (особливо обтяжливим щодо обчислень є усування ефекту риб'ячого ока)."
+"Відтворення на монтажному столі тепер відбуватиметься із повною частотою у "
+"25 кадрів за секунду, навіть якщо відповідний кліп на монтажному столі "
+"обробляється широким спектром ефектів (особливо обтяжливим щодо обчислень є "
+"усування ефекту риб'ячого ока)."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:135
 msgid "Notes"
@@ -217,6 +229,7 @@ msgid ""
 "check out the results of a two different effect settings by quickly undoing "
 "and redoing the effect change without having to render anew the preview."
 msgstr ""
+"Kdenlive є достатньо інтелектуальною програмою, щоб мати підтримку певних рівнів скасовування і повторення дій. Отже, ви можете ознайомитися із результатами застосування двох різних значень параметрів ефектів простим скасуванням і повторенням зміни ефекту без потреби у повторному запуску обробки попереднього перегляду."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:144
 msgid "Preview Cache Storage"
@@ -228,7 +241,10 @@ msgid ""
 "timeline preview. Use :menuselection:`Project --> Project Settings`, then "
 "select the tab :guilabel:`Cache Data`."
 msgstr ""
-"Ви можете без проблем визначити, скільки місця на диску використовується для попереднього перегляду на монтажному столі. Скористайтеся пунктом меню :menuselection:`Проєкт --> Параметри проєкту` і перейдіть на вкладку :guilabel:`Дані кешу`."
+"Ви можете без проблем визначити, скільки місця на диску використовується для "
+"попереднього перегляду на монтажному столі. Скористайтеся пунктом меню :"
+"menuselection:`Проєкт --> Параметри проєкту` і перейдіть на вкладку :"
+"guilabel:`Дані кешу`."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:155
 msgid ""
@@ -237,7 +253,11 @@ msgid ""
 "preview: simply click on the :guilabel:`trash` button next to row **Timeline "
 "Preview**."
 msgstr ""
-"Програма покаже вам чудову ілюстрацію споживання місця на диску даними кешу. Ви будь-коли можете швидко вилучити дані кешу, які використовуються на для попереднього перегляду на монтажному столі: просто натисніть кнопку :guilabel:`смітника` поряд із рядком **Попереднього перегляду на монтажному столі**."
+"Програма покаже вам чудову ілюстрацію споживання місця на диску даними кешу. "
+"Ви будь-коли можете швидко вилучити дані кешу, які використовуються на для "
+"попереднього перегляду на монтажному столі: просто натисніть кнопку :"
+"guilabel:`смітника` поряд із рядком **Попереднього перегляду на монтажному "
+"столі**."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:160
 msgid "Preview Profiles"
@@ -249,7 +269,9 @@ msgid ""
 "guilabel:`Auto`. Kdenlive then will select a suitable preview profile based "
 "on your project profile."
 msgstr ""
-"У більшості випадків достатньо лишити для профілю попереднього перегляду значення :guilabel:`Авто`. Kdenlive вибере належний профіль попереднього перегляду на основі профілю вашого проєкту."
+"У більшості випадків достатньо лишити для профілю попереднього перегляду "
+"значення :guilabel:`Авто`. Kdenlive вибере належний профіль попереднього "
+"перегляду на основі профілю вашого проєкту."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:171
 msgid ""
@@ -258,6 +280,7 @@ msgid ""
 "profile, or create your own preview profile. Use the :guilabel:`Manage "
 "timeline preview profiles`` button next to the preview profile selection."
 msgstr ""
+"У деяких рідкісних випадках, зокрема за нетипових частот кадрів, або тоді, коли виникає потреба у керуванні якістю кодування матеріалу попереднього перегляду, ви можете змінити профіль попереднього перегляду або створити ваш власний профіль. Для цього скористайтеся кнопкою :guilabel:`Керування профілями перегляду на монтажному столі`, яку розташовано порід із засобом вибору профілю попереднього перегляду."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:176
 msgid "De-synchronized Preview"
@@ -271,3 +294,5 @@ msgid ""
 "Zones`). This gets you back to a sane preview state. Then add the zone back "
 "again (using :guilabel:`Add Preview Zone`), and rerender."
 msgstr ""
+"Якщо з якихось причин оброблений попередній перегляд розсинхронізовано із вашими редагуваннями на монтажному столі, просто вилучіть відповідну ділянку попереднього перегляду (:guilabel:"
+"`Вилучити зону перегляду`) або усі ділянки попереднього перегляду (:guilabel:`Вилучити усі зони перегляду`). Це поверне програму до належного стану синхронізації. Потім додайте ділняку знову (за допомогою пункту :guilabel:`Додати зону перегляду`) і перезапустіть обробку."
