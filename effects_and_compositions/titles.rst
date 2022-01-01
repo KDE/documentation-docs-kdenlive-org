@@ -41,7 +41,7 @@ Create and edit Title
 
    Edit text by double-clicking.
 
-Ones your edit is done click ::guilabel:`Update Title` (bottom right).
+Once your edit is done click :guilabel:`Update Title` (bottom right).
 
 Add items
 ^^^^^^^^^
@@ -51,17 +51,17 @@ Add items
 
 From the toolbar (green marked area) choose:
 
-:guilabel:`Text` :kbd:`alt+t` and click into the title window (1)
+:guilabel:`Text` :kbd:`Alt+T` and click into the title window (1)
 
-:guilabel:`Rectangle` :kbd:`alt+r` and in the title window (1) drag the mouse to draw a rectangle
+:guilabel:`Rectangle` :kbd:`Alt+R` and in the title window (1) drag the mouse to draw a rectangle
 
-:guilabel:`Ellipse` :kbd:`alt+e` and in the title window (1) drag the mouse to draw a ellipse.
+:guilabel:`Ellipse` :kbd:`Alt+E` and in the title window (1) drag the mouse to draw a ellipse.
 
-:guilabel:`Image` :kbd:`alt+i` brings up a file chooser where you can choose an image to be inserted into your title (1).   
+:guilabel:`Image` :kbd:`Alt+I` brings up a file chooser where you can choose an image to be inserted into your title (1).   
 
 Default selection is :guilabel:`Text` for a new title clip.
 
-:kbd:`Alt + s` brings you back to :menuselection:`Selection Tool` (icon with the 4 arrows, yellow marked)
+:kbd:`Alt + S` brings you back to :menuselection:`Selection Tool` (icon with the 4 arrows, yellow marked)
 
 .. image:: /images/title_level.png
    :alt: Title level
@@ -75,13 +75,13 @@ Select items
 .. image:: /images/title_selection.png
    :alt: Title selection
 
-Yellow marked area. Make sure :guilabel:`Selection Tool` is selected or press :kbd:`Alt + s`. 
+Yellow marked area. Make sure :guilabel:`Selection Tool` is selected or press :kbd:`Alt + S`. 
 
 In the title window (1) clicking on an item.
 
-Holding :kbd:`SHIFT` to select several items by clicking on it.
+Holding :kbd:`Shift` to select several items by clicking on it.
 
-:kbd:`CTRL + a` select all items.
+:kbd:`Ctrl + A` selects all items.
 
 .. image:: /images/title_item-selection.png
    :alt: Title item selection
@@ -105,9 +105,9 @@ Adjust items
 
 Red marked areas: All items can be adjusted in position, size, level, alignment and properties either with the mouse or by entering values.
 
-Holding :kbd:`SHIFT` move selected items vertical only.
+Holding :kbd:`Shift` move selected items vertical only.
 
-Holding :kbd:`SHIFT + alt` move selected items horizontally only.
+Holding :kbd:`Shift + Alt` move selected items horizontally only.
 
 Ones done click :guilabel:`Create Title` (bottom right) or :guilabel:`Update Title`.  
 
