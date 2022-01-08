@@ -18,4 +18,3 @@ Contrast
 This is the `Sox contrast <https://www.mltframework.org/plugins/FilterSox-contrast/>`_ MLT filter.
 
 Process audio using a SoX effect.
-

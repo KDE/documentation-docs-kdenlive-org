@@ -509,6 +509,10 @@ Alphabetical List of Effects and Compositions
     - Steve Harris’ SWH plugins
     - LADSPA plugin (ladspa.1909)
   * - :ref:`contrast`
+    - Audio Effect
+    - Audio correction
+    - Process audio using a SoX effect
+  * - contrast
     - Video Effect
     - Color and Image correction
     - Adjusts the contrast of a source image (frei0r.contrast0r)
