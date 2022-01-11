@@ -32,7 +32,7 @@ Scopes doesn't show anything
 
 Audio crackling while playback
 ------------------------------
-:kbd:`CRL + SHIFT +,` (comma), select :menuselection:`Playback --> audio backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), :menuselection:`DirectSound` to see what give the best result.
+:kbd:`CRL + SHIFT +,` (comma), select :menuselection:`Playback --> audio backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), :menuselection:`DirectSound` to see what give the best result. Restart Kdenlive after each switch.
 
 
 This application failed to start because no Qt platform plugin could be initialized
