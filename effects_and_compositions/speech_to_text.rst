@@ -28,19 +28,27 @@ Speech to text
 
    Speech to text doesn't work with version 21.04.2 due to `Vosk API <https://github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and later versions.
 
+
 Install Python
-~~~~~~~~~~~~~~
+--------------
 
-Python needs to be installed on your computer. Download it from here https://www.python.org/downloads/ for installation on your computer.
+Python 3 needs to be installed on your computer as well as the vosk and srt python modules:
 
-Speech recognition requires the vosk and srt python modules:
+Linux
+~~~~~
 
-- On Linux open a terminal and put in and run: ``pip3 install vosk;pip3 install srt``
+On most Linux distributions python is installed by default. You can check if that is the case for you too by running ``python3 -V`` in a terminal. If python is missing just search the internet, there are lots of instructions around.
 
-- On Windows, you can download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download double click starts the installations.
+To install vosk and srt open a terminal and run: ``pip3 install vosk srt``
+
+Windows
+~~~~~~~
+
+1. Download python from https://www.python.org/downloads/ for installation on your computer.
+2. Download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download a double click starts the installations.
 
 Install a language
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text page`
 
@@ -57,9 +65,10 @@ Drag & drop the language you want from the vosk-model download page to the model
 If you have problems press on the :guilabel:`Check configuration` button.
 
 Speech recognition
-~~~~~~~~~~~~~~~~~~
+------------------
 
-**Creating subtitle by speech recognition**
+Creating subtitle by speech recognition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/Speech-to-text_Subtitle.png
    :alt: Speech to text subtitle
@@ -78,7 +87,8 @@ The subtitle gets created and inserted automatically.
 
 Remark: Only timeline zone is implemented for now in automatic subtitles.
 
-**Creating clips by speech recognition**
+Creating clips by speech recognition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is useful for interviews and other speech-related footage.
 Enable the :menuselection:`View --> Text Edit` menu item.
