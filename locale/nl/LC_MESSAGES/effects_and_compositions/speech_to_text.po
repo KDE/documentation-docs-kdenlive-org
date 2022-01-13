@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Freek de Kruijf <freekdekruijf@kde.nl>, 2021.
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-03 00:38+0000\n"
-"PO-Revision-Date: 2021-12-20 14:06+0100\n"
+"POT-Creation-Date: 2022-01-12 00:38+0000\n"
+"PO-Revision-Date: 2022-01-12 11:39+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -23,166 +23,215 @@ msgstr "Spraak naar tekst"
 
 #: ../../effects_and_compositions/speech_to_text.rst:29
 msgid ""
-"Speech to text doesn't work with version 21.04.2 due to `Vosk API <https://"
-"github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and "
+"Speech to text doesn't work with version 21.04.2 due to `Vosk API <"
+"https://"
+"github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3"
+" and "
 "later versions."
 msgstr ""
-"Spraak naar tekst werkt niet met versie 21.04.2 vanwege problemen met `Vosk "
+"Spraak naar tekst werkt niet met versie 21.04.2 vanwege problemen met"
+" `Vosk "
 "API <https://github.com/alphacep/vosk-api>`_. Gebruik versie 21.04.1 of "
 "21.04.3 en latere versies."
 
-#: ../../effects_and_compositions/speech_to_text.rst:32
+#: ../../effects_and_compositions/speech_to_text.rst:33
 msgid "Install Python"
 msgstr "Python installeren"
 
-#: ../../effects_and_compositions/speech_to_text.rst:34
+#: ../../effects_and_compositions/speech_to_text.rst:35
+#| msgid "Speech recognition requires the vosk and srt python modules:"
 msgid ""
-"Python needs to be installed on your computer. Download it from here https://"
-"www.python.org/downloads/ for installation on your computer."
+"Python 3 needs to be installed on your computer as well as the vosk and"
+" srt "
+"python modules:"
 msgstr ""
-"Python moet op uw computer geïnstalleerd worden. Download het vanaf hier "
-"https://www.python.org/downloads/ voor installatie op uw computer of gebruik "
-"de methode van uw distributie."
-
-#: ../../effects_and_compositions/speech_to_text.rst:36
-msgid "Speech recognition requires the vosk and srt python modules:"
-msgstr "Spraakherkenning vereist de python modules vosk en srt:"
+"Python 3 moet geïnstalleerd zijn op uw computer evenals de python-modulen "
+"vosk en srt:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:38
-msgid ""
-"On Linux open a terminal and put in and run: ``pip3 install vosk;pip3 "
-"install srt``"
-msgstr ""
-"Open op Linux een terminal en voer in en voer uit: ``pip3 install vosk;pip3 "
-"install srt``"
+msgid "Linux"
+msgstr "Linux"
 
 #: ../../effects_and_compositions/speech_to_text.rst:40
 msgid ""
-"On Windows, you can download this batch file (:download:`Install_vosk_srt."
-"zip </files/Install_vosk_srt.zip>`). After download double click starts the "
+"On most Linux distributions python is installed by default. You can check"
+" if "
+"that is the case for you too by running ``python3 -V`` in a terminal. If "
+"python is missing just search the internet, there are lots of"
+" instructions "
+"around."
+msgstr ""
+"Op de meeste Linux distributies is python standaard geïnstalleerd. U kunt "
+"controleren of dat voor u het geval is door ``python3 -V`` in een "
+"terminal uit te voeren. Als python ontbreekt zoek dan op het internet, er "
+"zijn veel instructies beschikbaar."
+
+#: ../../effects_and_compositions/speech_to_text.rst:42
+#| msgid ""
+#| "On Linux open a terminal and put in and run: ``pip3 install vosk;pip3 "
+#| "install srt``"
+msgid ""
+"To install vosk and srt open a terminal and run: ``pip3 install vosk srt``"
+msgstr ""
+"om vosk en srt te installeren, open een terminal en voer uit: ``pip3 "
+"install vosk pip3``"
+
+#: ../../effects_and_compositions/speech_to_text.rst:45
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../effects_and_compositions/speech_to_text.rst:47
+#| msgid ""
+#| "Python needs to be installed on your computer. Download it from here "
+#| "https://www.python.org/downloads/ for installation on your computer."
+msgid ""
+"Download python from https://www.python.org/downloads/ for installation"
+" on "
+"your computer."
+msgstr ""
+"Download python vanaf https://www.python.org/downloads/ voor installatie "
+"op uw computer."
+
+#: ../../effects_and_compositions/speech_to_text.rst:48
+#| msgid ""
+#| "On Windows, you can download this batch file (:download:`Install_vosk_srt."
+#| "zip </files/Install_vosk_srt.zip>`). After download double click starts "
+#| "the installations."
+msgid ""
+"Download this batch file (:download:`Install_vosk_srt.zip </files/"
+"Install_vosk_srt.zip>`). After download a double click starts the "
 "installations."
 msgstr ""
-"Op Windows kunt u dit batch-bestand downloaden (:download:`Install_vosk_srt."
-"zip </files/Install_vosk_srt.zip>`). Na downloaden dubbelklikken start de "
+"Download dit batch-bestand (:download:`Install_vosk_srt.zip </files/"
+"Install_vosk_srt.zip>`). Na downloaden start dubbelklikken de "
 "installaties."
 
-#: ../../effects_and_compositions/speech_to_text.rst:43
+#: ../../effects_and_compositions/speech_to_text.rst:51
 msgid "Install a language"
 msgstr "Een taal installeren"
 
-#: ../../effects_and_compositions/speech_to_text.rst:45
+#: ../../effects_and_compositions/speech_to_text.rst:53
 msgid ""
-"Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
+"Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to"
+" Text "
 "page`"
 msgstr ""
+"Ga naar :menuselection:`Instellingen --> Kdenlive configureren... --> "
+"Pagina Spraak naar tekst`"
 
-#: ../../effects_and_compositions/speech_to_text.rst:47
+#: ../../effects_and_compositions/speech_to_text.rst:55
 msgid "Click on the link to get a language model."
-msgstr ""
+msgstr "Klik op de koppeling om een taalmodel op te halen."
 
-#: ../../effects_and_compositions/speech_to_text.rst:52
+#: ../../effects_and_compositions/speech_to_text.rst:60
 msgid ""
-"Drag & drop the language you want from the vosk-model download page to the "
+"Drag & drop the language you want from the vosk-model download page to"
+" the "
 "model window, and it will download and extract it for you."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:57
+#: ../../effects_and_compositions/speech_to_text.rst:65
 msgid ""
 "If you have problems press on the :guilabel:`Check configuration` button."
 msgstr ""
+"Als u problemen hebt druk op de knop :guilabel:`Configuratie controleren`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:60
+#: ../../effects_and_compositions/speech_to_text.rst:68
 msgid "Speech recognition"
 msgstr "Spraakherkenning"
 
-#: ../../effects_and_compositions/speech_to_text.rst:62
-msgid "**Creating subtitle by speech recognition**"
+#: ../../effects_and_compositions/speech_to_text.rst:71
+msgid "Creating subtitle by speech recognition"
+msgstr "Ondertiteling aanmaken door spraakherkenning"
+
+#: ../../effects_and_compositions/speech_to_text.rst:76
+msgid ""
+"Mark the timeline zone you want to recognize (adjust the blue line)."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:67
-msgid "Mark the timeline zone you want to recognize (adjust the blue line)."
-msgstr ""
-
-#: ../../effects_and_compositions/speech_to_text.rst:69
+#: ../../effects_and_compositions/speech_to_text.rst:78
 msgid "Click on the :guilabel:`Speech recognition` icon."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:71
+#: ../../effects_and_compositions/speech_to_text.rst:80
 msgid "Choose the language."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:73
+#: ../../effects_and_compositions/speech_to_text.rst:82
 msgid "Choose how the selected zone should be applied."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:75
+#: ../../effects_and_compositions/speech_to_text.rst:84
 msgid "Press on the :guilabel:`Process` button."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:77
+#: ../../effects_and_compositions/speech_to_text.rst:86
 msgid "The subtitle gets created and inserted automatically."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:79
+#: ../../effects_and_compositions/speech_to_text.rst:88
 msgid ""
 "Remark: Only timeline zone is implemented for now in automatic subtitles."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:81
-msgid "**Creating clips by speech recognition**"
-msgstr ""
+#: ../../effects_and_compositions/speech_to_text.rst:91
+#| msgid "Speech recognition"
+msgid "Creating clips by speech recognition"
+msgstr "Clips aanmaken met spraakherkenning"
 
-#: ../../effects_and_compositions/speech_to_text.rst:83
+#: ../../effects_and_compositions/speech_to_text.rst:93
 msgid ""
-"This is useful for interviews and other speech-related footage. Enable the :"
+"This is useful for interviews and other speech-related footage. Enable"
+" the :"
 "menuselection:`View --> Text Edit` menu item."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:89
+#: ../../effects_and_compositions/speech_to_text.rst:99
 msgid "Select a clip in the project bin."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:91
+#: ../../effects_and_compositions/speech_to_text.rst:101
 msgid ""
 "If needed set in/out point in the clip monitor and enable :guilabel:"
-"`Selected zone only` selection box. This will only recognize the text inside "
+"`Selected zone only` selection box. This will only recognize the text"
+" inside "
 "the zone."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:93
+#: ../../effects_and_compositions/speech_to_text.rst:103
 msgid "Choose the correct language."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:95
+#: ../../effects_and_compositions/speech_to_text.rst:105
 msgid "Press the :guilabel:`Start Recognition` button."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:97
+#: ../../effects_and_compositions/speech_to_text.rst:107
 msgid "Selecting the text you want to either."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:99
+#: ../../effects_and_compositions/speech_to_text.rst:109
 msgid "Put into the timeline."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:101
+#: ../../effects_and_compositions/speech_to_text.rst:111
 msgid "Save as a new clip."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:103
+#: ../../effects_and_compositions/speech_to_text.rst:113
 msgid ""
 "Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
 "kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:105
+#: ../../effects_and_compositions/speech_to_text.rst:115
 msgid "Delete the selection."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:107
+#: ../../effects_and_compositions/speech_to_text.rst:117
 msgid "Here you can search in the text."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:109
+#: ../../effects_and_compositions/speech_to_text.rst:119
 msgid "And navigate up or down in the text."
 msgstr ""
