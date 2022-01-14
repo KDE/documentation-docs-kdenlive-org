@@ -1,24 +1,26 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-12 00:38+0000\n"
-"PO-Revision-Date: 2021-11-15 18:32+0100\n"
-"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
-"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2022-01-12 12:11+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.1\n"
 
 #: ../../troubleshooting/windows_issues.rst:15
 msgid "Windows issues"
-msgstr ""
+msgstr "Problèmes avec Windows"
 
 #: ../../troubleshooting/windows_issues.rst:17
 msgid "Contents"
-msgstr ""
+msgstr "Contenu"
 
 #: ../../troubleshooting/windows_issues.rst:19
 msgid ""
@@ -26,10 +28,14 @@ msgid ""
 "issues that have workarounds. The purpose of this wiki page is to document "
 "these issues and their workarounds."
 msgstr ""
+"La version de **Kdenlive** sur Windows® (Avril 2020, version 20.04.0) "
+"présente quelques problèmes, pouvant être traités par des solutions de "
+"contournement. L'objectif de cette page de wiki est de documenter ces "
+"problèmes et leurs solutions de contournement."
 
 #: ../../troubleshooting/windows_issues.rst:23
 msgid "Render problems"
-msgstr ""
+msgstr "Problèmes de rendu"
 
 #: ../../troubleshooting/windows_issues.rst:25
 msgid ""
@@ -38,18 +44,23 @@ msgid ""
 "page <https://kdenlive.org/en/download>`_. If you still experience problems "
 "see :ref:`windows_issues`."
 msgstr ""
+"Après le rendu, vous obtenez un son désynchronisé ou des effets erronés ou "
+"des trames noires à la fin de la dernière vidéo : téléchargez la version 20."
+"08.1 ou supérieure à partir de la « page <https://kdenlive.org/fr/"
+"download> »_. Si vous rencontrez toujours des problèmes, veuillez consulter "
+":ref:‘windows_issues’."
 
 #: ../../troubleshooting/windows_issues.rst:28
 msgid "Scopes doesn't show anything"
-msgstr ""
+msgstr "Les oscilloscopes n'affichent absolument rien."
 
 #: ../../troubleshooting/windows_issues.rst:30
 msgid ":ref:`scopes_directx`"
-msgstr ""
+msgstr ":ref:`scopes_directx`"
 
 #: ../../troubleshooting/windows_issues.rst:34
 msgid "Audio crackling while playback"
-msgstr ""
+msgstr "Grésillements audio durant la lecture"
 
 #: ../../troubleshooting/windows_issues.rst:35
 msgid ""
@@ -64,6 +75,8 @@ msgid ""
 "This application failed to start because no Qt platform plugin could be "
 "initialized"
 msgstr ""
+"Cette application n'a pas réussi à se lancer car aucun module externe pour "
+"la plate-forme Qt n'a pu être initialisé."
 
 #: ../../troubleshooting/windows_issues.rst:41
 #: ../../troubleshooting/windows_issues.rst:151
@@ -71,16 +84,22 @@ msgid ""
 "Hit :kbd:`CTRL + SHIFT + ,` (comma) > :menuselection:`environment` > make "
 "sure the paths point to the same path as \"MLT profiles folder\"."
 msgstr ""
+"Appuyez sur :kbd:` « CTRL » + « Maj », puis :menuselection:`environnement` "
+"et assurez-vous que les emplacements référent au même emplacement que le "
+"« dossier de profils MLT »."
 
 #: ../../troubleshooting/windows_issues.rst:43
 msgid ""
 "Download: :download:`qt.conf </files/qt.conf>`. Put the file :file:`qt.conf` "
 "into the \"bin\" folder (the folder where :file:`kdenlive.exe` is)"
 msgstr ""
+"Télécharger : :download:`qt.conf </files/qt.conf>`. Placez le fichier "
+":file:`qt.conf` dans le dossier « bin » (le dossier où se trouve "
+":file:`kdenlive.exe`)."
 
 #: ../../troubleshooting/windows_issues.rst:47
 msgid "First time use of Kdenlive"
-msgstr ""
+msgstr "Première utilisation de Kdenlive"
 
 #: ../../troubleshooting/windows_issues.rst:49
 msgid ""
@@ -88,14 +107,20 @@ msgid ""
 "`kdenliverc` is correct set up please start Kdenlive twice (start -> close -"
 "> start). Then start your work."
 msgstr ""
+"Ce problème devrait être résolu avec Windows en version 19.04.2-6. Ce "
+"fichier :file:‘kdenliverc’ est un paramétrage correct. Veuillez relancer "
+"Kdenlive deux fois (Lancer / Quitter / Lancer). Ensuite, vous pouvez "
+"reprendre votre travail."
 
 #: ../../troubleshooting/windows_issues.rst:53
 msgid "Intel graphic card driver"
-msgstr ""
+msgstr "Pilote de carte graphique Intel"
 
 #: ../../troubleshooting/windows_issues.rst:55
 msgid "Updated Intel graphic driver versions lead to a corrupted Kdenlive GUI."
 msgstr ""
+"Les versions de mise à jour du pilote de la carte graphique Intel conduisent "
+"à une corruption de l'interface graphique de Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:57
 msgid ""
@@ -104,12 +129,19 @@ msgid ""
 "backend` -> enable :menuselection:`OpenGLES`/:menuselection:`DirectX`. "
 "Restart Kdenlive. This should solve your Intel graphic driver issue."
 msgstr ""
+"**Solution 1 :** Ouvrez Kdenlive. Déplacez la souris vers le haut. Les menus "
+"s'affichent. Essayez d’atteindre :menuselection:`Configuration` / "
+":menuselection:`Moteur OpenGL` et activer :menuselection:`OpenGLES` / "
+":menuselection:`DirectX'. Redémarrez Kdenlive. Cela devrait résoudre votre "
+"problème avec le pilote graphique Intel."
 
 #: ../../troubleshooting/windows_issues.rst:59
 msgid ""
 "Maybe this statement helps: https://forum.kde.org/viewtopic.php?f=265&amp;"
 "t=161309#p425882."
 msgstr ""
+"Peut être que cette information peut vous aider : https://forum.kde.org/"
+"viewtopic.php?f=265&amp;t=161309#p425882."
 
 #: ../../troubleshooting/windows_issues.rst:62
 msgid ""
@@ -118,41 +150,57 @@ msgid ""
 "open :file:`kdenliverc` with an editor. Search for ``[misc]`` and delete "
 "``[misc]`` and the following entry. . Restart Kdenlive."
 msgstr ""
+"**Solution 2 :** Appuyez sur :kbd:' « Win » + « R » ' (:kbd:'Windows' et "
+":kbd:'R' simultanément) et saisissez **appdata**. Accédez au dossier "
+":file:‘local’ et ouvrez avec un éditeur, le fichier :file:‘kdenliverc’ se "
+"trouvant à l'intérieur de ce dossier. Recherchez ‘[divers]’ et supprimez «"
+"[divers]» et l'entrée suivante. Redémarrez Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:67
 msgid ""
 "Timeline: right-click menu close immediately after releasing mouse button"
 msgstr ""
+"Frise chronologique : le menu avec le clic droit se ferme juste après avoir "
+"relâché le bouton de la souris."
 
 #: ../../troubleshooting/windows_issues.rst:69
 msgid "Don’t use the style :menuselection:`Fusion`."
-msgstr ""
+msgstr "Ne pas utiliser le style : :menuselection:`Fusion`."
 
 #: ../../troubleshooting/windows_issues.rst:72
 msgid ""
 "Go to: :menuselection:`Settings` -> :menuselection:`Style` and choose :"
 "menuselection:`Default` or :menuselection:`Windows`."
 msgstr ""
+"Allez à : :menuselection:`Configuration` / :menuselection:`Style` et "
+"sélectionnez :menuselection:`Défaut` ou :menuselection:`Windows`."
 
 #: ../../troubleshooting/windows_issues.rst:76
 msgid "Icons are missing"
-msgstr ""
+msgstr "Les icônes sont manquantes."
 
 #: ../../troubleshooting/windows_issues.rst:78
 msgid ""
 "Go to: :menuselection:`settings` -> untick :menuselection:`force breeze icon "
 "theme`. Kdenlive restarts and you should see the icons."
 msgstr ""
+"Allez à : :menuselection:`Configuration`, décochez :menuselection:`Forcer le "
+"thème d'icônes Breeze`. Kdenlive redémarre et vous devriez voir les icônes."
 
 #: ../../troubleshooting/windows_issues.rst:82
 msgid ""
 "Cannot open projects made with previous version, timeline snaps back, cannot "
 "import clip"
 msgstr ""
+"Impossible d'ouvrir des projets réalisés avec la version précédente. La "
+"frise chronologique revient en arrière et il est impossible d'importer des "
+"vidéos."
 
 #: ../../troubleshooting/windows_issues.rst:84
 msgid "Go to: :menuselection:`Help` -> :menuselection:`Reset configuration`."
 msgstr ""
+"Allez à :menuselection:`Aide` -> :menuselection:`Ré-initialiser la "
+"configuration`."
 
 #: ../../troubleshooting/windows_issues.rst:87
 msgid ""
@@ -161,6 +209,11 @@ msgid ""
 "and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start "
 "Kdenlive -> do nothing -> close Kdenlive -> and restart Kdenlive again."
 msgstr ""
+"Si cela ne résout pas le problème : appuyez sur :kbd:‘ « Win » + « R » ’ "
+"(Touches :kbd:‘Windows’ et :kbd:‘R’ simultanément) et saisissez **appdata**. "
+"Allez dans le dossier :file:‘local’ et à l’intérieur, renommez le fichier "
+":file:‘kdenliverc’ en :file:‘kdenliverc.old’. Démarrez Kdenlive, ne rien "
+"faire, fermer Kdenlive et redémarrer Kdenlive à nouveau."
 
 #: ../../troubleshooting/windows_issues.rst:90
 msgid ""
@@ -168,36 +221,51 @@ msgid ""
 "to :menuselection:`Project` menu > :menuselection:`Project Setting` > :"
 "menuselection:`Cache Data` tab > there you can delete cached data."
 msgstr ""
+"Si vous avez encore des problèmes, supprimez les vidéos en cache et les "
+"autres données mises en cache en allant dans le menu :menuselection:`Menu de "
+"projet’ / :menuselection:`Configuration du projet` / Onglet "
+":menuselection:‘Données en cache’. Ainsi, vous pourrez supprimer toutes les "
+"données mises en cache."
 
 #: ../../troubleshooting/windows_issues.rst:93
 msgid "If you have still problems try :ref:`windows_issues`."
 msgstr ""
+"Si vous rencontrez encore des problèmes, essayez :ref:`windows_issues`."
 
 #: ../../troubleshooting/windows_issues.rst:97
 msgid "Windows 10: timeline stuttering or Kdenlive hangs."
 msgstr ""
+"Windows 10 : sautillement de la frise chronologique ou blocage de Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:99
 msgid ""
 "Most probably you got a major Win10 update (i.e 1809). If so you have to "
 "update all drivers for audio and video."
 msgstr ""
+"Vous avez probablement reçu une mise à jour majeure de Win10 (c'est-à-dire "
+"1809). Si c'est le cas, vous devez mettre à jour tous les pilotes pour "
+"l'audio et la vidéo."
 
 #: ../../troubleshooting/windows_issues.rst:101
 msgid ""
 "Intel driver can be updated with this updater: https://downloadcenter.intel."
 "com/en/download/28425/Intel-Driver-Support-Assistant."
 msgstr ""
+"Le pilote Intel peut être mis à jour avec cet outil de mise à jour : https://"
+"downloadcenter.intel.com/en/download/28425/Intel-Driver-Support-Assistant."
 
 #: ../../troubleshooting/windows_issues.rst:105
 msgid "\"Clip is invalid, will be removed\""
-msgstr ""
+msgstr "« Une vidéo est non valable et sera supprimée »"
 
 #: ../../troubleshooting/windows_issues.rst:107
 msgid ""
 "This bug can appear if you do a clean reinstall of **Kdenlive** (see above). "
 "Simply close and open **Kdenlive** once, and it should be fixed."
 msgstr ""
+"Ce bogue peut apparaître si vous effectuez une réinstallation propre de "
+"**Kdenlive** (voir ci-dessus). Il suffit de fermer et d'ouvrir **Kdenlive** "
+"une fois, ce qui devrait résoudre le problème."
 
 #: ../../troubleshooting/windows_issues.rst:110
 msgid ""
@@ -205,67 +273,88 @@ msgid ""
 "(see here :ref:`windows_issues`) or you have some mismatch in the \"local\" "
 "folder (see here :ref:`windows_issues`)."
 msgstr ""
+"De plus, cela peut être un problème soit avec le fichier :file:`kdenliverc' "
+"(Voir ici :ref:`windows_issues'), soit vous avez une incohérence dans le "
+"dossier « local » (voir ici :ref:`windows_issues')."
 
 #: ../../troubleshooting/windows_issues.rst:114
 msgid "Any critical bug"
-msgstr ""
+msgstr "Tout bogue critique"
 
 #: ../../troubleshooting/windows_issues.rst:116
 msgid "This describes the process of doing a clean install on Windows®."
 msgstr ""
+"Ceci décrit le processus pour réaliser une installation propre sous Windows®."
 
 #: ../../troubleshooting/windows_issues.rst:119
 msgid ""
 "Firstly, delete your normal **Kdenlive** folder (containing the application)"
 msgstr ""
+"Tout d'abord, supprimez votre dossier standard **Kdenlive** (contenant "
+"l'application)"
 
 #: ../../troubleshooting/windows_issues.rst:122
 msgid ""
 "Access the **Appdata** folder (:kbd:`Win + R` and then type **APPDATA** in "
 "full caps). Go to :file:`local` and search for folder :file:`kdenlive`."
 msgstr ""
+"Accédez au dossier **Appdata** (:kbd:` « Win » + « R » ’ et saisissez "
+"**APPDATA**, tout en majuscules). Allez à :file:`local' et recherchez le "
+"dossier :file:`kdenlive'."
 
 #: ../../troubleshooting/windows_issues.rst:127
 msgid ""
 "If you have any saved effects or clips stored in your library, make a backup "
 "of the library folder."
 msgstr ""
+"Si vous avez des effets ou des vidéos enregistrés dans votre bibliothèque, "
+"faites une sauvegarde du dossier de bibliothèque."
 
 #: ../../troubleshooting/windows_issues.rst:130
 msgid ""
 "Then once you have backup up your library folder, delete the :file:"
 "`kdenlive` folder."
 msgstr ""
+"Ensuite, une fois que vous avez enregistré votre dossier de bibliothèque, "
+"supprimez le dossier :file:`kdenlive`."
 
 #: ../../troubleshooting/windows_issues.rst:133
 msgid ""
 "Reinstall the latest version of **Kdenlive** from the `download page "
 "<https://kdenlive.org/en/download>`_"
 msgstr ""
+"Réinstaller la dernière version de **Kdenlive** à partir de la « page de "
+"téléchargement <https://kdenlive.org/en/download> »_."
 
 #: ../../troubleshooting/windows_issues.rst:137
 msgid "JPG files appear as white picture after rendering"
-msgstr ""
+msgstr "Les fichiers « JPG » ressemblent à une image blanche après rendu."
 
 #: ../../troubleshooting/windows_issues.rst:139
 msgid ""
 "This issue should be solved with Windows version 19.04.0. If not convert the "
 "JPG to PNG and it renders correctly."
 msgstr ""
+"Ce problème devrait être résolu avec la version 19.04.0 de Windows. Sinon, "
+"convertissez le fichier « JPG » vers le format « PNG » et le rendu sera "
+"réalisé correctement."
 
 #: ../../troubleshooting/windows_issues.rst:143
 msgid "Play/Pause Issue"
-msgstr ""
+msgstr "Problème avec la lecture / mise en pause"
 
 #: ../../troubleshooting/windows_issues.rst:145
 msgid ""
 "This issue is solved with Windows version 18.08.2 (30. Oct 2018). Get the "
 "current version from the `download page <https://kdenlive.org/en/download>`_."
 msgstr ""
+"Ce problème est résolu avec Windows version 18.08.2 (30 Oct 2018). Obtenez "
+"la version actuelle à partir de la « page de téléchargement <https://"
+"kdenlive.org/fr/download> »_."
 
 #: ../../troubleshooting/windows_issues.rst:149
 msgid "Qt rendering crash"
-msgstr ""
+msgstr "Plantage de Qt durant le rendu"
 
 #: ../../troubleshooting/windows_issues.rst:154
 msgid ""
@@ -276,16 +365,29 @@ msgid ""
 "simultaneously) and type **appdata**. Go to :file:`local` and within it "
 "rename :file:`kdenliverc` to :file:`kdenliverc.old`."
 msgstr ""
+"Lors du passage de Kdenlive sous Windows de la version 17.12 vers 18.04 / 18."
+"08, un plantage lors du rendu Qt est apparu. Pour vous assurer que cela ne "
+"se produise, vous devez modifier le fichier :file:‘kdenliverc’ dans le "
+"dossier :file:‘appdata/local’. Pour accéder à vos données d'application, "
+"veuillez appuyer sur les touches :kbd:`  Win » + « R » ' (Touches "
+":kbd:`Windows' et :kbd:`R' simultanément) et saisissez **appdata**. Accédez "
+"au dossier :file:‘local’ et à l'intérieur de celui-ci, renommez le fichier "
+":file:‘kdenliverc’ en :file:‘kdenliverc.old’."
 
 #: ../../troubleshooting/windows_issues.rst:158
 msgid "Kdenlive cannot be deleted, running process on exit"
 msgstr ""
+"Il est impossible de supprimer Kdenlive. Lancement du processus à la "
+"fermeture."
 
 #: ../../troubleshooting/windows_issues.rst:160
 msgid ""
 "This issue is solved with Windows version 18.12.1. Get the current version "
 "from the `download page <https://kdenlive.org/en/download>`_."
 msgstr ""
+"Ce problème est résolu avec la version 18.12.1 de Windows. Obtenez la "
+"version actuelle à partir de la « page de téléchargement <https://kdenlive."
+"org/en/download> »_."
 
 #: ../../troubleshooting/windows_issues.rst:163
 msgid ""
@@ -293,6 +395,10 @@ msgid ""
 "you \"The file or folder is open in another program\". Windows® then won't "
 "let you delete or re-run **Kdenlive**."
 msgstr ""
+"Si vous souhaitez réinstaller **Kdenlive** ou relancer **Kdenlive**, vous "
+"pourriez voir le message : « Le fichier ou le dossier est ouvert dans un "
+"autre programme . ». Windows® vous empêchera ensuite de supprimer ou de "
+"relancer **Kdenlive**."
 
 #: ../../troubleshooting/windows_issues.rst:166
 msgid ""
@@ -301,6 +407,12 @@ msgid ""
 "details`. Then find :file:`kdenlive.exe` &  :file:`dbus-daemon.exe`, and "
 "click :menuselection:`End task` for both of them."
 msgstr ""
+"Pour résoudre ce problème, vous devez tuer le processus en cours "
+"d'exécution : maintenez enfoncé :kbd:` « CTRL » + « Maj » + « Échap » ’ et "
+"développez le gestionnaire de tâches par un clic sur :menuselection:`Tous "
+"les détails`. Puis localisez les fichiers :file:`kdenlive.exe” et "
+":file:`dbus-daemon.exe' et cliquez sur :menuselection:‘Terminer la tâche’ "
+"pour les deux fichiers."
 
 #: ../../troubleshooting/windows_issues.rst:169
 msgid ""
@@ -308,10 +420,13 @@ msgid ""
 "Unpack it and just double-click the batch file which kills all running "
 "**Kdenlive** processes."
 msgstr ""
+"Ou téléchargez le fichier : :download:`Kdenlive-kill.zip </files/Kdenlive-"
+"kill.zip>. Décompressez-le et effectuez un double clic sur le fichier de "
+"commandes, stoppant tous les processus de Kdenlive en cours d'exécution."
 
 #: ../../troubleshooting/windows_issues.rst:173
 msgid "Kdenlive cannot be uninstalled"
-msgstr ""
+msgstr "Il est impossible de désinstaller Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:175
 msgid ""
@@ -319,10 +434,13 @@ msgid ""
 "\\Program Files\\kdenlive`. You have to manually delete in the start menu "
 "the Kdenlive folder."
 msgstr ""
+"Si le désinstallateur ne fonctionne pas, vous pouvez supprimer le dossier "
+"suivant : :file:`/C : Program Files kdenlive'. Vous devez supprimer "
+"manuellement le dossier de Kdenlive dans le menu « Démarrer »."
 
 #: ../../troubleshooting/windows_issues.rst:180
 msgid "Kdenlive crash or green Monitor"
-msgstr ""
+msgstr "Plantage de Kdenlive ou écran vert"
 
 #: ../../troubleshooting/windows_issues.rst:182
 msgid ""
@@ -332,39 +450,58 @@ msgid ""
 "Windows®10 updates (18.09 update). After you have updated the drivers re-"
 "start the computer and try again by starting :file:`kdenlive.exe`."
 msgstr ""
+"Téléchargez toutes les dernières mises à jour de Windows®. Ensuite, mettez à "
+"jour votre pilote de carte graphique, celui de votre carte son et celui de "
+"votre imprimante. Certains plantages pourraient se produire en cas "
+"d'incompatibilité entre la carte graphique et la carte son avec les mises à "
+"jour les plus récentes de Windows®10 (mise à jour 18.09). Après avoir mis à "
+"jour les pilotes, redémarrez l'ordinateur et réessayez en démarrant "
+":file:`kdenlive.exe'."
 
 #: ../../troubleshooting/windows_issues.rst:187
 msgid ""
 "If this is not solving the problem switch your standard printer to "
 "“Microsoft XPS Document Writer” and try again to start Kdenlive."
 msgstr ""
+"Si cela ne résout pas le problème, réglez votre imprimante standard sur "
+"« Microsoft XPS Document Writer » et essayez à nouveau de lancer Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:190
 msgid ""
 "Delete the :file:`kdenliverc` file as descript here under :ref:"
 "`windows_issues`."
 msgstr ""
+"Supprimez le dossier :file:`kdenliverc` comme décrit ici sous "
+":ref:`windows_issues`."
 
 #: ../../troubleshooting/windows_issues.rst:193
 msgid ""
 "Make sure you set processing thread to 1: :kbd:`Ctrl + Shift + ,` (comma) > :"
 "menuselection:`Environment` > :menuselection:`Processing thread` > set to 1"
 msgstr ""
+"Veuillez vous assurer de bien définir le processus de traitement à 1 : "
+":kbd:`« CTRL » + « Maj » puis  :menuselection:`Environnement` / "
+":menuselection:`Processus de traitement`> défini à 1."
 
 #: ../../troubleshooting/windows_issues.rst:197
 msgid "General Issues"
-msgstr ""
+msgstr "Problèmes généraux"
 
 #: ../../troubleshooting/windows_issues.rst:199
 msgid ""
 "The current **Kdenlive** version (November 2018, version 18.08.3) has a few "
 "issues that have workarounds."
 msgstr ""
+"La version actuelle de **Kdenlive** (Novembre 2018, version 18.08.3) "
+"présente quelques problèmes pour lesquels il existe des solutions de "
+"contournement."
 
 #: ../../troubleshooting/windows_issues.rst:203
 msgid "Audio Pops and Ticks in Render"
-msgstr ""
+msgstr "Sauts et marques audio dans le rendu"
 
 #: ../../troubleshooting/windows_issues.rst:205
 msgid "If this problem appears make sure the audio file is: 16-bit PCM WAV."
 msgstr ""
+"Si ce problème persiste, veuillez vous assurer que le fichier audio est :16 "
+"bits au format « PCM WAV »."
