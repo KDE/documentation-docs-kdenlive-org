@@ -17,8 +17,6 @@ Settings Menu
 .. contents::
 
 
-
-
 .. image:: /images/Settings_menu.png
   :align: left
   :alt: Settings menu

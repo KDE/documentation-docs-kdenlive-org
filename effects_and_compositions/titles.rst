@@ -24,7 +24,7 @@ Titles are text elements that can be added to the timeline and appear over the t
 
 If you want titles to overlay other footage, you put title clips above (on video track 2 for example) and have the other footage below (on video track 1 for example). You also need to retain the affine transition that is automatically added to the title clips if you want the footage visible underneath.
 
-Create and edit Title
+Create and Edit Title
 ---------------------
 
 .. image:: /images/title_window.png
@@ -43,8 +43,8 @@ Create and edit Title
 
 Once your edit is done click :guilabel:`Update Title` (bottom right).
 
-Add items
-^^^^^^^^^
+Add Items
+~~~~~~~~~
 
 .. image:: /images/title_toolbar.png
    :alt: titler toolbar
@@ -69,8 +69,8 @@ Default selection is :guilabel:`Text` for a new title clip.
 Items can be placed behind each other by selecting them and changing the :guilabel:`Z-index:` (top right corner) to a lower value or with the 4 icons left to the :guilabel:`Z-index`  
 
 
-Select items
-^^^^^^^^^^^^
+Select Items
+~~~~~~~~~~~~
 
 .. image:: /images/title_selection.png
    :alt: Title selection
@@ -96,8 +96,8 @@ You can select items with one of the 5 selection possibilities (yellow marked ar
 
 .. _adjust_items:
 
-Adjust items
-^^^^^^^^^^^^
+Adjust Items
+~~~~~~~~~~~~
 
 .. image:: /images/title_adjust-items.png
    :width: 500px
@@ -149,7 +149,7 @@ The beloved typewriter effect is back. By default it expands text by characters,
    Custom: custom macros (not implemented)
 
 
-Scroll title vertically
+Scroll Title Vertically
 -----------------------
 
 Put a long title onto the title window. Zoom out so you can see it all. The text should run off the top (or bottom) of the viewable area.
@@ -174,7 +174,7 @@ If the length of the clip on the timeline is shorter than the duration specified
 Note: the above description of title behaviour with respect to duration only applies to titles that don't get edited after they have been placed on the timeline. If you expand the length of a title clip on the timeline and then edit the title (by double-clicking it in the Project Bin), its apparent duration will become the length that it currently has on the timeline (i.e., the scrolling will not pause at the end anymore) but the duration displayed in the title editor will not have changed.
 
 
-Scroll title Horizontally
+Scroll Title Horizontally
 -------------------------
 
 Use the instructions for vertical scrolling - just put the start and stop rectangles off to the sides of the screen rather than the top and bottom.
@@ -214,7 +214,7 @@ Title Template
 .. _title_template:
 
 Built In
-^^^^^^^^
+~~~~~~~~
 
 .. image:: /images/Kdenlive_Template_Title1.png
    :width: 450px
@@ -222,12 +222,13 @@ Built In
 
 **Kdenlive** has some built-in title templates that can be accessed from the :guilabel:`Template:` drop-down list found on the bottom of the **Title Clip** window - see below.
 
+.. _download_new_title_templates:
 
 Download new title template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/Kdenlive_download_new_title_templates.png
-   :alt: Kdenlive_download_new_title_templates
+   :alt: Toolbar showing buttons to download new title templates
 
 Blue marked area: To install more title templates press the :guilabel:`Download New Title Templates...` icon on the tool bar when you are in the title editor.
 
@@ -240,17 +241,17 @@ Once these title templates are installed, they can be accessed via the drop down
 
 The :file:`.kdenlivetitle` files that supply these templates are installed to:
 
-   **Linux**
+**Linux**
 
-   *$HOME/.local/share/kdenlive/titles*.
+   :file:`$HOME/.local/share/kdenlive/titles`
 
-   Flatpak
+**Flatpak**
 
-   *$HOME/.var/app/org.kde.kdenlive/data/kdenlive/titles*
+   :file:`$HOME/.var/app/org.kde.kdenlive/data/kdenlive/titles`
 
-   **Windows**
+**Windows**
 
-   *%AppData%/kdenlive/titles*
+   :file:`%AppData%/kdenlive/titles`
 
    Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and copy **%AppData%/kdenlive/**.
 
@@ -259,7 +260,8 @@ Template Titles - User-Defined
 
 *Template Titles* allow you to create a template for other titles in your project. You create the template title with the settings that all the titles in the project should have and then base subsequent titles on the template. If you decide to change the look of your titles, you only need change the template title and the titles based on this template will automatically update to reflect any formatting changes you made to the template title.
 
-**To create a template title**
+Create a Template Title
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Choose the :menuselection:`Add Title Clip` item from the :guilabel:`Add Clip` drop down and create a title with the text *%s* in it and formatted how you desire it. Save this title as described above.
 
@@ -268,7 +270,8 @@ Choose the :menuselection:`Add Title Clip` item from the :guilabel:`Add Clip` dr
    :width: 250px
    :alt: Template_title1
 
-**To use the template title**
+Use the Template Title
+~~~~~~~~~~~~~~~~~~~~~~
 
 Choose the :menuselection:`Add Template Title` item from the :guilabel:`Add Clip` drop down and choose the title with the *%s* in it that you just saved.
 
@@ -327,9 +330,4 @@ FAQ
 Q: How to duplicate a title clip to modify it slightly.
 
 A: You can save a copy of the title (see :ref:`titles`) and then create a new title based on that saved version as described :ref:`titles`. Or you could use the :ref:`titles` functionality to base the two slightly different titles on the one template.
-
-.. toctree::
-   :caption: Contents:
-
-   titles/download_new_title_templates
 
