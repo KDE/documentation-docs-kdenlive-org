@@ -1,3 +1,7 @@
+.. meta::
+   :description: Do your first steps with Kdenlive video editor
+   :keywords: KDE, Kdenlive, quick start, first steps, video editor, help, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
