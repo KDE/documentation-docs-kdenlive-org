@@ -1,3 +1,7 @@
+.. meta::
+   :description: How to setup your project in Kdenlive video editor
+   :keywords: KDE, Kdenlive, project, setup, settings, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)

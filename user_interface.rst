@@ -1,3 +1,7 @@
+.. meta::
+   :description: Introduction to Kdenlive's window system and widgets
+      :keywords: KDE, Kdenlive, user interface, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr

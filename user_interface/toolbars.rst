@@ -1,3 +1,8 @@
+.. meta::
+   :description: How to use the toolbars in Kdenlive video editor
+   :keywords: KDE, Kdenlive, use, using, toolbars, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen

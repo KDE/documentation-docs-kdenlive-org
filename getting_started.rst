@@ -1,3 +1,7 @@
+.. meta::
+   :description: Do your first steps with Kdenlive video editor
+   :keywords: KDE, Kdenlive, quick start, first steps, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr

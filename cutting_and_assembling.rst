@@ -1,3 +1,7 @@
+.. meta::
+   :description: Start editing in the timeline with Kdenlive video editor
+   :keywords: KDE, Kdenlive, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr

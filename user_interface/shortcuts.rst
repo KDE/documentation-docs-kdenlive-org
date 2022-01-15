@@ -1,3 +1,7 @@
+.. meta::
+   :description: Set your own shortcuts in Kdenlive video editor
+   :keywords: KDE, Kdenlive, shortcuts, set, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)

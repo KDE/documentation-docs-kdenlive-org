@@ -1,3 +1,7 @@
+.. meta::
+   :description: Solve your problems while working with Kdenlive video editor
+   :keywords: KDE, Kdenlive, solving, issues, windows, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr

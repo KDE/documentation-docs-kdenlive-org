@@ -1,3 +1,7 @@
+.. meta::
+   :description: Kdenlive references and further information
+   :keywords: KDE, Kdenlive, references, information, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr

@@ -1,3 +1,7 @@
+.. meta::
+   :description: Add in Kdenlive video editor, video effects, audio effects, compositions, title, subtitle, speech to text, color correction.
+   :keywords: KDE, Kdenlive, effects, audio, video, title, subtitle, speech to text, color correction, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr

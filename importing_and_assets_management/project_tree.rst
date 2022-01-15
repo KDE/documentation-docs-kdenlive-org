@@ -1,3 +1,8 @@
+.. meta::
+   :description: How to work with the project bin in Kdenlive video editor
+   :keywords: KDE, Kdenlive, project bin, working, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)

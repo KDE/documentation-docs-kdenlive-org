@@ -1,3 +1,7 @@
+.. meta::
+   :description: Introduction to Kdenlive video editor
+   :keywords: KDE, Kdenlive, Introduction, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)

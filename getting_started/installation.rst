@@ -1,3 +1,8 @@
+.. meta::
+   :description: How to install Kdenlive video editor
+   :keywords: KDE, Kdenlive, install, Installation, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)

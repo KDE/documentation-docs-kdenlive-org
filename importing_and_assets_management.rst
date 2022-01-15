@@ -1,3 +1,7 @@
+.. meta::
+   :description: Load files and start video editing with Kdenlive
+   :keywords: KDE, Kdenlive, file loading, start video editing, first steps, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr

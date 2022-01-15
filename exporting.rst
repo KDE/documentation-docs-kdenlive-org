@@ -1,3 +1,7 @@
+.. meta::
+   :description: Render out your final Kdenlive video for distributing
+   :keywords: KDE, Kdenlive, render, distribute, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Eugen Mohr
