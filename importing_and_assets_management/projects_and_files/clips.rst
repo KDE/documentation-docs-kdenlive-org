@@ -44,7 +44,7 @@ The slider labeled 2 adjusts the size of the preview icons.
 The :menuselection:`Import image sequence` checkbox labeled 3 enables the import of a series of images that can be used to make a stop motion animation.
 
 .. versionadded:: 21.12
-The :menuselection:`Ignore subfolder structure` checkbox labeled 4 enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
+   The :menuselection:`Ignore subfolder structure` checkbox labeled 4 enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
 
 You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the |kdenlive-add-clip| button.
 

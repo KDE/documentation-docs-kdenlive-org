@@ -18,6 +18,8 @@ File Menu
 
 .. contents::
 
+.. _new:
+
 New
 ---
 
