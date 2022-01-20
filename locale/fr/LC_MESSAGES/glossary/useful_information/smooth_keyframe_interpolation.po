@@ -1,20 +1,22 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-30 00:38+0000\n"
-"PO-Revision-Date: 2021-11-17 18:32+0100\n"
-"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
-"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2022-01-19 18:16+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.1\n"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:13
 msgid "The “Smooth” Keyframe Interpolation"
-msgstr ""
+msgstr "L'interpolation « Douce » de trames clé"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:15
 msgid ""
@@ -22,6 +24,9 @@ msgid ""
 "overshoot** between keyframes? And how to tell Kdenlive to avoid such "
 "situations?"
 msgstr ""
+"Vous êtes-vous déjà demandé pourquoi le mode **Interpolation lisse de "
+"Kdenlive peut provoquer des dépassements^** entre les trames clé ? Et "
+"comment dire à Kdenlive d'éviter de telles situations ?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:17
 msgid ""
@@ -35,7 +40,7 @@ msgstr ""
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:20
 msgid "The Fade-In Ramp"
-msgstr ""
+msgstr "La rampe de montée"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:34
 msgid ""
@@ -44,6 +49,10 @@ msgid ""
 "particular values don’t matter. We set both keyframe to the interpolation "
 "mode smooth."
 msgstr ""
+"Commençons par une simple rampe, comme présenté ici. Deux trames clé sont "
+"utilisées, l'une avec une valeur faible et l'autre avec une valeur élevée. "
+"Les valeurs particulières n'ont pas d'importance. Les deux trames clé sont "
+"définies sur le mode d'interpolation douce."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:36
 msgid ""
@@ -52,20 +61,28 @@ msgid ""
 "you should notice that the slope of the ramp varies. At the end and "
 "beginning the slope is smaller than in the middle, where it is higher."
 msgstr ""
+"L'affichage de l'effet dans la vidéo sur la frise chronologique ressemble à "
+"une rampe droite. Mais si vous observez attentivement les valeurs "
+"interpolées tout en parcourant la frise chronologique, vous remarquerez que "
+"la pente de la rampe varie. À la fin et au début, la pente est plus faible "
+"qu'au milieu, où elle est plus élevée."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:38
 msgid "But what exactly is going on here?"
-msgstr ""
+msgstr "Mais que se passe-t-il exactement ici ?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:47
 msgid ""
 "So I discovered this sweet tool `GeoGebra <https://www.geogebra.org/>`_ "
 "(Open Source) for trying out the Mathematics inside Kdenlive’s MLT engine."
 msgstr ""
+"Ainsi, j'ai découvert cet outil génial « GeoGebra <https://www.geogebra.org/"
+"> »_ (Open Source) pour tester les mathématiques à l'intérieur du moteur MLT "
+"de Kdenlive."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:49
 msgid "**Eh, no panic!**"
-msgstr ""
+msgstr "**He, pas de panique ! **"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:51
 msgid ""
@@ -82,12 +99,17 @@ msgid ""
 "line. It’s bend a little bit like the capital letter S, but then, not really "
 "too much."
 msgstr ""
+"L'interpolation lisse que MLT va calculer est dessinée comme une ligne verte "
+"épaisse. Elle se courbe un peu comme la lettre majuscule « S », mais bon, "
+"pas vraiment trop."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:55
 msgid ""
 "And if you look closely, then beginning and ending slope of the green line "
 "aren’t horizontal ‒ at least what I expected at first."
 msgstr ""
+"Et si vous regardez attentivement, les pentes de début et de fin de la ligne "
+"verte ne sont pas horizontales - du moins, c'est ce que je pensais au départ."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:57
 msgid ""
@@ -100,13 +122,15 @@ msgstr ""
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:62
 msgid "Ramp-Up, and … Overshoot"
-msgstr ""
+msgstr "Monter et ... dépassement"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:76
 msgid ""
 "Now let’s add a third keyframe, so this looks like a ramp with a plateau. "
 "This is shown in the screen shots."
 msgstr ""
+"Ajoutons maintenant une troisième trame clé, pour que cela ressemble à une "
+"rampe avec un plateau. Ceci est présenté dans les copies d'écran."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:78
 msgid ""
@@ -114,12 +138,17 @@ msgid ""
 "this looks smooth, but not exactly what we may have intended? So why is this "
 "the way it is?"
 msgstr ""
+"Et maintenant, la rampe présente une bosse bien visible au lieu d'un virage "
+"serré. Eh bien, cela semble lisse, mais pas exactement ce que nous avons "
+"peut-être voulu ? Alors pourquoi est-ce que cela fonctionne comme cela ?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:87
 msgid ""
 "This is now our ramp with a plateau: P0=0, P1=1, P2=2. Don’t worry about the "
 "keyframe numbering, though."
 msgstr ""
+"Ceci est maintenant notre rampe avec un plateau : P0 = 0, P1 = 1, P2 = 2. Ne "
+"vous inquiétez pas de la numérotation des trames clé."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:89
 msgid ""
@@ -128,6 +157,11 @@ msgid ""
 "Instead, the interpolation math causes the interpolated values to overshoot, "
 "as you can easily see in the figure."
 msgstr ""
+"Vous attendiez-vous à ce que le plateau soit, eh bien, un plateau *droit* ? "
+"Moi aussi. Mais, vous avez peut-être déjà remarqué que Kdenlive ne se "
+"comporte pas exactement comme ça. Au lieu de cela, les mathématiques "
+"d'interpolation entraînent un dépassement des valeurs interpolées, comme "
+"vous pouvez facilement le voir sur la figure."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:91
 msgid ""
@@ -135,6 +169,10 @@ msgid ""
 "the slope to the *left* of P1 is the same as to the *right* of P1. Yeah, "
 "that’s a slightly different “smooth” from what you might have been expecting."
 msgstr ""
+"Voici ce que font les mathématiques sous-jacentes : l'interpolation est "
+"douce, de sorte que la pente à *gauche* de P1 est la même qu'à *droite* de "
+"P1. Oui, c'est un « lissage » légèrement différent de ce à quoi vous vous "
+"attendiez."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:93
 msgid ""
@@ -147,25 +185,32 @@ msgstr ""
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:98
 msgid "Ramp Up-Flat-Down"
-msgstr ""
+msgstr "Montée - Aplatissement"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:112
 msgid ""
 "Let’s add another, fourth keyframe, so we have: ramp-up first, then flat, "
 "then ramp-down. A fairly typical fade-in and fade-out keyframe template."
 msgstr ""
+"Ajoutons une quatrième trame clé, de sorte d'avoir : d'abord la montée, puis "
+"le plat et enfin la descente. Un modèle assez typique de trame clé avec "
+"fondu en éclaircissement puis en assombrissement."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:114
 msgid ""
 "And look, what’s happening: we’ve good a hunch-back, but not a nice and flat "
 "middle section. Gosh!"
 msgstr ""
+"Et regardez, ce qui se passe : il y a bien une bosse, mais pas une section "
+"centrale agréable et plate. Bon sang !"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:123
 msgid ""
 "This time, we look at the middle section P1-P2. To the left, we see the up "
 "ramp, to the right, the down ramp."
 msgstr ""
+"Cette fois, regardons la section centrale P1 - P2. À gauche, il y a la rampe "
+"de montée et à droite, la rampe de descente."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:125
 msgid ""
@@ -174,6 +219,11 @@ msgid ""
 "middle section. And this causes our interpolated value to overshoot. So "
 "awful. So sad. Shhh."
 msgstr ""
+"Encore une fois, « douce » signifie maintenant qu'il n'y a pas de courbure "
+"nette dans les segments. Au lieu de cela, les pentes gauche + droite sont "
+"continues à P1 et P2, c'est-à-dire dans la section centrale. Et cela "
+"provoque un dépassement de notre valeur interpolée. C'est affreux. Tellement "
+"triste."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:130
 msgid "Make Flat Great Again"
@@ -184,32 +234,36 @@ msgid ""
 "Now, how do we get a flat top? Fortunately, that’s easy to achieve, as you "
 "can see from the screenshots."
 msgstr ""
+"Maintenant, comment obtenir un sommet plat ? Heureusement, ceci est facile à "
+"réaliser, comme vous pouvez le voir sur les copies d'écran."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:146
 msgid "first keyframe: smooth,"
-msgstr ""
+msgstr "première trame clé : douce,"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:147
 msgid "second keyframe: interpolated(!),"
-msgstr ""
+msgstr "seconde trame clé : interpolée ( ! ),"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:148
 msgid "third keyframe: smooth,"
-msgstr ""
+msgstr "troisième trame clé : douce,"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:149
 msgid ""
 "fourth keyframe: interpolated (albeit that does not really matter if there "
 "are no further keyframes)."
 msgstr ""
+"quatrième trame clé : interpolée (bien que cela n'ait pas vraiment "
+"d'importance s'il n'y a plus aucune trame clé)."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:151
 msgid "So great!"
-msgstr ""
+msgstr "Excellent !"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:157
 msgid "For the Curious (Furious?)"
-msgstr ""
+msgstr "Pour les personnes curieuses (Furieuse ?)"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:159
 msgid ""
