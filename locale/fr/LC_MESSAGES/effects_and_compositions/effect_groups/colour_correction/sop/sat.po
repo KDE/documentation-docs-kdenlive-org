@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 00:22+0000\n"
-"PO-Revision-Date: 2022-01-23 09:27+0100\n"
+"PO-Revision-Date: 2022-01-25 11:08+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -30,6 +30,12 @@ msgid ""
 "ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/wiki/"
 "ASC_CDL>`_."
 msgstr ""
+"Il s'agit du filtre « FilterFrei0r-sopsat <https://www.mltframework.org/"
+"plugins/FilterFrei0r-sopsat/> »_ de l'environnement de développement "
+"« MLT ». Il modifie la pente, le décalage et la puissance des composantes de "
+"couleurs, ainsi que la saturation globale, selon la « référence pour la "
+"liste de décisions sur les couleurs (CDL, Color Decision List) de l'ASC "
+"<https://en.wikipedia.org/wiki/ASC_CDL> (En anglais) »_."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:21
 msgid ""
@@ -38,6 +44,11 @@ msgid ""
 "effects can be observed well when applied on a greyscale gradient and "
 "looking at the RGB Parade monitor."
 msgstr ""
+"Une modification de pente signifie multiplier la valeur du pixel par une "
+"valeur constante. Les pixels noirs resteront noirs, tandis que les plus "
+"clairs seront modifiés. Tous les effets peuvent être bien observés "
+"lorsqu'ils sont appliqués sur un dégradé de gris et en regardant l'écran "
+"« Défilé RVB »."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:23
 msgid "You can use this effect to achieve proper white balance."
@@ -50,30 +61,42 @@ msgid ""
 "American Society of Cinematographers: The Color Decision List, also known as "
 "the ASC CDL."
 msgstr ""
+"Ce filtre met en œuvre une méthode standard de correction des couleurs "
+"proposée par l'« ASC » (American Society of Cinematographers) : la « CDL » "
+"(Color Decision List), également connue sous le nom de « ASC CDL »."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:31
 msgid ""
 "More information about the ASC CDL can be found on `wikipedia <https://en."
 "wikipedia.org/wiki/ASC_CDL>`_."
 msgstr ""
+"Vous trouverez plus d'informations sur « ASC CDL » sur « wikipedia <https://"
+"en.wikipedia.org/wiki/ASC_CDL> (En anglais) »_."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:33
 msgid ""
 "The ASC CDL is a standard format for basic primary color correction (primary "
 "meaning affecting the whole image and not only selected parts)."
 msgstr ""
+"Le « ASC CDL » est un format standard pour la correction de base des "
+"couleurs primaires (« primaire » signifiant qu'elle affecte la totalité de "
+"l'image et pas seulement les parties sélectionnées)."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:35
 msgid ""
 "Basically there are two stages in the correction: 1. SOP correction for each "
 "channel separately 2. Overall saturation correction"
 msgstr ""
+"En principe, la correction se fait en deux étapes : 1. Correction « SOP » "
+"pour chaque canal séparément. 2. Correction de la saturation globale."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:39
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from {0,...,255} to [0,1]."
 msgstr ""
+"Toutes les corrections fonctionnent avec l'intervalle [0, 1], les valeurs "
+"« RVB(A) » doivent donc être transposées de {0,...,255} à [0, 1]."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:41
 msgid "SOP correction"
@@ -81,11 +104,11 @@ msgstr "Correction SOP"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
 msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
-msgstr "Pente :\t« out = in * slope ;   0 <= slope < \\infty »"
+msgstr "Pente :\t« out = in * slope ; 0 <= slope < \\infty »"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
 msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
-msgstr "Décalage :\t« out = in + offset ;  -\\infty < offset < \\infty »"
+msgstr "Décalage :\t« out = in + offset ; -\\infty < offset < \\infty »"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:45
 msgid "Power:   ``out = in^power;     0 < power < \\infty``"
@@ -116,3 +139,7 @@ msgid ""
 "kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-"
 "parade>`_ where he uses the effect to adjust white balance of a clip."
 msgstr ""
+"Veuillez consulter le « blog de Granjow <https://web.archive.org/web/"
+"20160319050009/https://kdenlive.org/users/granjow/introducing-color-scopes-"
+"waveform-and-rgb-parade> »_ où il utilise l'effet pour ajuster la balance "
+"des blancs d'une vidéo."
