@@ -9,6 +9,7 @@
              - Jack (https://userbase.kde.org/User:Jack)
              - Roger (https://userbase.kde.org/User:Roger)
              - Julius Künzel <jk.kdedev@smartlab.uber.space
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -96,14 +97,25 @@ FFmpeg
 
 I believe this captures video from an installed Web Cam using *Video4Linux2*.
 
+.. _screen_grab:
 
 Screen Grab
 -----------
 
-This captures video of the PC screen. In version 0.9.2 it uses *recordMyDesktop* to do the capture. There is an open defect with this functionality in ver 0.9.2 – Mentioned in legacy Mantis bug tracker ID 2643. 
+This captures video of the PC screen.
+
+Open screen grab: :menuselection:`view --> Screen Grab`.
+
+Start recording: click the “record” button.  
 
 
-In version 0.9.3, the screen grab is done by the *ffmpeg* functionality instead.  For screen capture to work in ver 0.9.3, the version of *ffmpeg* installed needs to have been compiled with the ``--enable-x11grab``  option. Ubuntu comes with an *ffmpeg* version compiled with this option.  
+Stop record: click the "record" button again.  
+
+
+The recorded clip will be added in the project bin.
+
+
+Settings can be adjusted in :ref:`configure_kdenlive`  
 
 
 To check on your linux distro, type ``ffmpeg -version`` in a terminal and look for ``--enable-x11grab`` in the reported configuration info.  [1]_ 

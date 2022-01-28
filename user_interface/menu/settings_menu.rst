@@ -39,7 +39,7 @@ Settings Menu
 .. rst-class:: clear-both
 
 Settings Menu - Mac OS X
-========================
+------------------------
 
 .. image:: /images/Kdenlive_Settings_OSX.png
    :align: left
@@ -47,23 +47,7 @@ Settings Menu - Mac OS X
 
 On the Mac OS X build of Kdenlive the :menuselection:`Settings` menu does not contain the :menuselection:`Configure Kdenlive` menu item. The equivalent on Mac OS X is the :menuselection:`Preferences` menu item found under the :menuselection:`Kdenlive` menu.
 
+.. rst-class:: clear-both
 
 .. image:: /images/Kdenlive_Preferences_OSX.png
-   :align: left
    :alt: Preference OSX
-
-
-.. toctree::
-   :caption: Contents:
-
-   settings_menu/configure_kdenlive
-   settings_menu/configure_notifications
-   settings_menu/configure_shortcuts
-   settings_menu/download_new_render_profiles
-   settings_menu/download_new_wipes
-   settings_menu/full_screen_mode
-   settings_menu/run_config_wizard
-   settings_menu/toolbars_shown
-   settings_menu/manage_project_profiles
-   settings_menu/download_new_project_profiles
-   settings_menu/themes
