@@ -56,7 +56,7 @@ Updated Intel graphic driver versions lead to a corrupted Kdenlive GUI.
 
 **Solution 1:** Open Kdenlive. Move the mouse to the top. The menus are showing up. Try to reach :menuselection:`Settings` -> :menuselection:`openGL backend` -> enable :menuselection:`OpenGLES`/:menuselection:`DirectX`. Restart Kdenlive. This should solve your Intel graphic driver issue.
 
-Maybe this statement helps: https://forum.kde.org/viewtopic.php?f=265&amp;t=161309#p425882.
+Maybe this statement helps: `Corrupted GUI <https://forum.kde.org/viewtopic.php?f=265&t=161309#p425882>`_.
 
 
 **Solution 2:** Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it open :file:`kdenliverc` with an editor. Search for ``[misc]`` and delete ``[misc]`` and the following entry.
@@ -66,7 +66,7 @@ Maybe this statement helps: https://forum.kde.org/viewtopic.php?f=265&amp;t=1613
 Timeline: right-click menu close immediately after releasing mouse button
 -------------------------------------------------------------------------
 
-Don’t use the style :menuselection:`Fusion`.
+Don't use the style :menuselection:`Fusion`.
 
 
 Go to: :menuselection:`Settings` -> :menuselection:`Style` and choose :menuselection:`Default` or :menuselection:`Windows`.
@@ -98,7 +98,7 @@ Windows 10: timeline stuttering or Kdenlive hangs.
 
 Most probably you got a major Win10 update (i.e 1809). If so you have to update all drivers for audio and video.
    
-Intel driver can be updated with this updater: https://downloadcenter.intel.com/en/download/28425/Intel-Driver-Support-Assistant.
+Intel driver can be updated with this updater: `Intel updater <https://downloadcenter.intel.com/en/download/28425/Intel-Driver-Support-Assistant>`_.
 
 
 "Clip is invalid, will be removed"
