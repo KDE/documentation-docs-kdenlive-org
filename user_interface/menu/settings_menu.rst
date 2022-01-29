@@ -51,3 +51,9 @@ On the Mac OS X build of Kdenlive the :menuselection:`Settings` menu does not co
 
 .. image:: /images/Kdenlive_Preferences_OSX.png
    :alt: Preference OSX
+
+.. toctree::
+   :caption: Contents:
+   :glob:
+
+   settings_menu/*
