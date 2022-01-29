@@ -83,7 +83,7 @@ Configure how the timeline appears in **Kdenlive**
 
 **Thumbnails** 
 
-- video: Turns on video thumbnail by default.
+- Video: Turns on video thumbnail by default.
 
 - Audio: Turns on audio thumbnail by default.
 
@@ -105,7 +105,7 @@ On import, enable: select if :menuselection:`all audio streams`, :menuselection:
 
 **Raise properties pane when selecting in timeline**
 
-More details about see :ref:`automatically-raising-the-properties-pane`
+More details :ref:`here <automatically-raising-the-properties-pane>`
 
 
 .. _environment:
@@ -138,7 +138,7 @@ MLT Environment
 
 This setting tells **Kdenlive** where to find the MLT executables and profile files. Only advanced users would really need to change these settings. **Kdenlive** is basically a front end to the MLT program and this setting tells **Kdenlive** where to find the engine that runs the whole application.
 
-Path to the MediaInfo file. If filled in Kdenlive show more details in clip properties.
+Path to the MediaInfo file. If filled in Kdenlive shows more details in clip properties.
 
 **Proxy Clips - Concurrent Threads**  This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
 
@@ -210,7 +210,7 @@ Speech To Text
    :width: 500px
    :alt: Kdenlive_Configure_speech-to-text
 
-More details about speech to text see here :ref:`speech_to_text`. 
+More details about speech to text see :ref:`here <speech_to_text>`. 
 
 
 
@@ -268,7 +268,7 @@ Configure Screen Grab Capture
    :width: 500px
    :alt: Kdenlive_Configure_screen_grab
 
-This settings configure screen grab within **Kdenlive**. More details see here :ref:`capturing`.
+These settings configure screen grab within **Kdenlive**. More details see :ref:`here <capturing>`.
 
 Blackmagic
 ~~~~~~~~~~

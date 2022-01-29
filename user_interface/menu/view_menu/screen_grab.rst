@@ -21,13 +21,13 @@ Screen Grab
  
 
 
-Start recording: click the “record” button.  
+Start recording: click the “record” button.
 
 
-Stop record: click the "record" button again.  
+Stop record: click the "record" button again.
 
 
-For more information see :ref:`screen_grab` 
+For more information see :ref:`screen_grab_capturing`
 
 
 Clicking on the configure button brings you to the :ref:`configure_kdenlive` window.

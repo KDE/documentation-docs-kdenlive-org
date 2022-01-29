@@ -97,14 +97,14 @@ FFmpeg
 
 I believe this captures video from an installed Web Cam using *Video4Linux2*.
 
-.. _screen_grab:
+.. _screen_grab_capturing:
 
 Screen Grab
 -----------
 
 This captures video of the PC screen.
 
-Open screen grab: :menuselection:`view --> Screen Grab`.
+Open screen grab: :menuselection:`View --> Screen Grab`.
 
 Start recording: click the “record” button.  
 
