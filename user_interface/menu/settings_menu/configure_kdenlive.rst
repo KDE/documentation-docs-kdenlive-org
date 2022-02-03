@@ -17,7 +17,11 @@
 Configure Kdenlive
 ==================
 
+.. contents::
+
 Following settings applies when you start a project with :ref:`new`.
+
+.. _configure_misc:
 
 Misc
 ----
@@ -47,6 +51,7 @@ Automatically import image sequences
 
 Transparent background for imported images
 
+.. _configure_project_defaults:
 
 Project Defaults
 ----------------
@@ -59,6 +64,7 @@ Configures what the project settings will look like by default when you choose F
    :width: 500px
    :alt: Kdenlive_Configure_project_defaults
 
+.. _configure_proxy_clips:
 
 Proxy Clips
 -----------
@@ -69,6 +75,7 @@ Configures what the proxy settings will be when you choose File --> :ref:`New`.
    :width: 500px
    :alt: Kdenlive_Configure_project_proxy
 
+.. _configure_timeline:
 
 Timeline
 --------
@@ -93,9 +100,11 @@ Configure how the timeline appears in **Kdenlive**
 
 - Autoscroll while playing
 
+- Pause playback when seeking: **Enabled:** It stops playback while you click on a new position in the timeline. **Disabled:** Playback is ongoing while you click on a new position in the timeline. It allows looping playback, see :ref:`loop_playback`.
+
 - Zoom using vertical drag in the ruler
 
-Track Height: defines the default track height in pixels for the tracks on the timeline.
+- Track Height: defines the default track height in pixels for the tracks on the timeline.
 
 **Multi stream audio clips**
 
@@ -108,7 +117,7 @@ On import, enable: select if :menuselection:`all audio streams`, :menuselection:
 More details :ref:`here <automatically-raising-the-properties-pane>`
 
 
-.. _environment:
+.. _configure_environment:
 
 Environment
 -----------
@@ -147,6 +156,7 @@ Path to the MediaInfo file. If filled in Kdenlive shows more details in clip pro
 **Processing and transcode jobs**: This is experimental and was removed in ver 0.9.10. This number was passed to melts *real_time* consumer property. This parameter increases the number of threads the program uses for video decoding and processing (but not encoding which is controlled via :ref:`render`).  See `mlt doco <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_. Using this has potential side effects - see `this <https://forum.kde.org/viewtopic.php?f=265&t=122140#p317318>`_ forum post from the author of the Melt program.
 
 If you want to experiment with multi threading in versions higher than 0.9.10  you could add something like "real_time=-4" to a custom render profile.  And yes that is a minus 4 in the example - as per the    `mlt doco <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_ - numbers <0 implement threading without dropping frames.
+
 
 Default Folders
 ~~~~~~~~~~~~~~~
@@ -192,6 +202,7 @@ Mime types
 
 Specifies the Media Types (formerly known as MIME types) which Kdenlive can working with.
 
+.. _configure_colors:
 
 Colors
 ------
@@ -202,6 +213,7 @@ Colors
 
 This sets the color of the audio wave thumbnail.
 
+.. _configure_speech_to_text:
 
 Speech To Text
 --------------
@@ -212,7 +224,7 @@ Speech To Text
 
 More details about speech to text see :ref:`here <speech_to_text>`. 
 
-
+.. _configure_capture:
 
 Capture
 -------
@@ -287,6 +299,8 @@ Audio
    :alt: Kdenlive_Configure_screen_grab_audio
 
 Microphone settings, either for screen :ref:`capturing` or for :ref:`capturingaudio` direct into the timeline.
+
+.. _configure_jog_shuttle:
 
 Jog Shuttle
 -----------
@@ -382,6 +396,7 @@ Now the basic functionality should work. Adjust the buttons of the shuttle with 
 
    You can make Kdenlive settings from scratch using :menuselection:`Options --> Create new settings --> Create Empty Settings` when creating new settings.
 
+.. _configure_playback:
 
 Playback
 --------
@@ -416,6 +431,7 @@ In version 0.9.4 of **Kdenlive**, checking the "use Open GL for video playback" 
 
 In ver 15.04 or higher, there is no "use Open GL for video playback" checkbox  - Open GL is used by default. On Windows you can set the OpenGL backend under :menuselection:`Settings --> OpenGL Backend`  
 
+.. _configure_transcode:
 
 Transcode
 ---------

@@ -206,6 +206,16 @@ Disabling individual clips
 
 .. rst-class:: clear-both
 
+.. _loop_playback:
+
+Continuously loop playback
+--------------------------
+
+- Disable :guilabel:`Pause playback when seeking` in :ref:`configure_timeline` settings (:menuselection:`Settings --> Configure Kdenlive --> Timeline`). 
+- Make a timeline zone the length you like to loop.
+- Loop Zone (:kbd:`Ctrl + Shift + Space`)
+
+
 .. toctree::
    :maxdepth: 1
    :caption: See also:
