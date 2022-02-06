@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-16 00:37+0000\n"
+"POT-Creation-Date: 2022-02-05 00:37+0000\n"
 "PO-Revision-Date: 2022-01-16 15:31+0100\n"
 "Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -29,15 +29,15 @@ msgstr ""
 "KDE, Kdenlive, installare, installazione, documentazione, manuale utente, "
 "editor video, open source, libero, impara, facile"
 
-#: ../../getting_started/installation.rst:29
+#: ../../getting_started/installation.rst:30
 msgid "Installation"
 msgstr "Installazione"
 
-#: ../../getting_started/installation.rst:31
+#: ../../getting_started/installation.rst:32
 msgid "Contents"
 msgstr "Contenuto"
 
-#: ../../getting_started/installation.rst:33
+#: ../../getting_started/installation.rst:34
 msgid ""
 "Visit the `download <https://kdenlive.org/download/>`_ page of the Kdenlive "
 "Web site for up to date information on installing **Kdenlive**."
@@ -46,48 +46,44 @@ msgstr ""
 "sito web di Kdenlive per delle informazioni aggiornate sull'installazione di "
 "**Kdenlive**."
 
-#: ../../getting_started/installation.rst:36
-msgid "Non-KDE Desktops"
+#: ../../getting_started/installation.rst:37
+#, fuzzy
+#| msgid "Non-KDE Desktops"
+msgid "Non-KDE Desktops and Windows"
 msgstr "Desktop diversi da KDE"
 
-#: ../../getting_started/installation.rst:38
-msgid "**Kdenlive** can be installed on non-KDE Desktops without any issues."
+#: ../../getting_started/installation.rst:39
+#, fuzzy
+#| msgid ""
+#| "**Kdenlive** can be installed on non-KDE Desktops without any issues."
+msgid ""
+"**Kdenlive** can be installed on non-KDE Desktops and on Windows without any "
+"issues."
 msgstr ""
 "**Kdenlive** può essere installato senza problemi in desktop diversi da KDE"
 
-#: ../../getting_started/installation.rst:41
+#: ../../getting_started/installation.rst:42
 msgid "Kdenlive on macOS"
 msgstr "Kdenlive in macOS"
 
-#: ../../getting_started/installation.rst:43
+#: ../../getting_started/installation.rst:44
 msgid ""
-"**Kdenlive** and **MLT** can compile and run under macOS. There is no stable "
-"macOS version yet, but you can help to have one soon by testing our daily "
-"macOS version (available on the `download <https://kdenlive.org/download/>`_ "
-"page). If you have experience with building software for macOS, please help "
-"us!"
+"**Kdenlive** run under macOS 11 and 12 on Intel CPU only (available on the "
+"`download <https://kdenlive.org/download/>`_ page). Kdenlive isn't running "
+"on MacOS 10 and on M1."
 msgstr ""
-"**Kdenlive** e **MLT** possono essere compilati ed eseguiti in macOS. Non "
-"c'è ancora una versione stabile per macOS, ma puoi aiutarci ad averne presto "
-"una provando la nostra versione quotidiana per macOS (disponibile nella "
-"pagina degli `scaricamenti <https://kdenlive.org/download/>`_). Se hai "
-"esperienza nella compilazione di software per macOS, per favore aiutaci!"
 
-#: ../../getting_started/installation.rst:46
+#: ../../getting_started/installation.rst:47
 msgid "Configuration Information"
 msgstr "Informazioni sulla configurazione"
 
-#: ../../getting_started/installation.rst:48
+#: ../../getting_started/installation.rst:49
 msgid ""
 "Kdenlive's application-wide persistent settings are stored in the following "
 "locations, depending on your platform."
 msgstr ""
 "A seconda della tua piattaforma, le impostazioni persistenti "
 "dell'applicazione Kdenlive sono salvate nelle seguenti posizioni."
-
-#: ../../getting_started/installation.rst:54
-msgid "Description"
-msgstr "Descrizione"
 
 #: ../../getting_started/installation.rst:55
 msgid "Linux"
@@ -102,6 +98,20 @@ msgid "macOS"
 msgstr "macOS"
 
 #: ../../getting_started/installation.rst:58
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../../getting_started/installation.rst:59
+msgid ":file:`~/.config/kdenliverc`"
+msgstr ":file:`~/.config/kdenliverc`"
+
+#: ../../getting_started/installation.rst:60
+#, fuzzy
+#| msgid ":file:`%APPDATA%\\kdenlive`"
+msgid ":file:`%LocalAppData%\\\\kdenliverc`"
+msgstr ":file:`%APPDATA%\\kdenlive`"
+
+#: ../../getting_started/installation.rst:62
 msgid ""
 "General settings of the application. Delete this and restart Kdenlive to "
 "reset the application to \"factory\" settings"
@@ -109,63 +119,215 @@ msgstr ""
 "Impostazioni generali dell'applicazione. Eliminalo e riavvia Kdenlive per "
 "riportare l'applicazione alle impostazioni \"di fabbrica\"."
 
-#: ../../getting_started/installation.rst:59
-msgid ":file:`~/.config/kdenliverc`"
+#: ../../getting_started/installation.rst:63
+#, fuzzy
+#| msgid ":file:`~/.config/kdenliverc`"
+msgid ":file:`~/.config/kdenlive-appimagerc`"
 msgstr ":file:`~/.config/kdenliverc`"
 
-#: ../../getting_started/installation.rst:62
-msgid "temporary session info"
-msgstr "informazioni sulla sessione temporanea"
+#: ../../getting_started/installation.rst:66
+msgid "Linux AppImage only: contains the general settings of the application"
+msgstr ""
 
-#: ../../getting_started/installation.rst:63
+#: ../../getting_started/installation.rst:67
 msgid ":file:`~/.config/session/kdenlive_*`"
 msgstr ":file:`~/.config/session/kdenlive_*`"
 
-#: ../../getting_started/installation.rst:66
-msgid "cache location storing audio and video thumbnails, and proxy clips"
+#: ../../getting_started/installation.rst:70
+msgid "temporary session info"
+msgstr "informazioni sulla sessione temporanea"
+
+#: ../../getting_started/installation.rst:71
+msgid ":file:`~/.cache/kdenlive`"
+msgstr ":file:`~/.cache/kdenlive`"
+
+#: ../../getting_started/installation.rst:72
+#, fuzzy
+#| msgid ":file:`%APPDATA%\\kdenlive`"
+msgid ":file:`%LocalAppData%\\\\kdenlive`"
+msgstr ":file:`%APPDATA%\\kdenlive`"
+
+#: ../../getting_started/installation.rst:74
+#, fuzzy
+#| msgid "cache location storing audio and video thumbnails, and proxy clips"
+msgid ""
+"cache location storing audio and video thumbnails, and proxy clips, user "
+"defined titles, LUTS, lumas"
 msgstr ""
 "posizione della cache per memorizzare le miniature audio e video, e le clip "
 "rappresentative"
 
-#: ../../getting_started/installation.rst:67
-msgid ":file:`~/.cache/kdenlive`"
-msgstr ":file:`~/.cache/kdenlive`"
+#: ../../getting_started/installation.rst:75
+msgid ":file:`~/.local/share/kdenlive`"
+msgstr ":file:`~/.local/share/kdenlive`"
 
-#: ../../getting_started/installation.rst:68
-msgid ":file:`%LOCALAPPDATA%\\kdenlive\\cache`"
-msgstr ":file:`%LOCALAPPDATA%\\kdenlive\\cache`"
+#: ../../getting_started/installation.rst:76
+#, fuzzy
+#| msgid ":file:`%APPDATA%\\kdenlive`"
+msgid ":file:`%AppData%\\\\kdenlive`"
+msgstr ":file:`%APPDATA%\\kdenlive`"
 
-#: ../../getting_started/installation.rst:70
-msgid "contains user library clips, speech models, profiles and titles"
+#: ../../getting_started/installation.rst:78
+#, fuzzy
+#| msgid "contains user library clips, speech models, profiles and titles"
+msgid ""
+"contains downloaded: effects, export, library, opencvmodels, profiles, "
+"speech models, and titles"
 msgstr ""
 "contiene le clip della libreria utente, i modelli di riconoscimento vocale, "
 "i profili e i titoli"
 
-#: ../../getting_started/installation.rst:71
-msgid ":file:`~/.local/share/kdenlive`"
+#: ../../getting_started/installation.rst:79
+#, fuzzy
+#| msgid ":file:`~/.local/share/kdenlive`"
+msgid ":file:`~/.local/share/kdenlive/lumas`"
 msgstr ":file:`~/.local/share/kdenlive`"
 
-#: ../../getting_started/installation.rst:72
-msgid ":file:`%APPDATA%\\kdenlive`"
+#: ../../getting_started/installation.rst:80
+#, fuzzy
+#| msgid ":file:`%APPDATA%\\kdenlive`"
+msgid ":file:`%LocalAppData%\\\\kdenlive\\\\lumas`"
 msgstr ":file:`%APPDATA%\\kdenlive`"
 
-#: ../../getting_started/installation.rst:74
+#: ../../getting_started/installation.rst:82
 msgid "lumas folder inside here contains the files used for :ref:`wipe`"
 msgstr ""
 "le cartelle delle luma qui dentro contengono i file usati per le :ref:`wipe`"
 
-#: ../../getting_started/installation.rst:75
-msgid ":file:`~/.local/share/kdenlive/HD`"
-msgstr ":file:`~/.local/share/kdenlive/HD`"
+#: ../../getting_started/installation.rst:83
+#, fuzzy
+#| msgid ":file:`~/.local/share/kdenlive`"
+msgid ":file:`~/.local/share/kdenlive/.backup`"
+msgstr ":file:`~/.local/share/kdenlive`"
 
-#: ../../getting_started/installation.rst:76
-msgid ":file:`%PROGRAMFILES%\\kdenlive\\bin\\data\\kdenlive\\lumas`"
-msgstr ":file:`%PROGRAMFILES%\\kdenlive\\bin\\data\\kdenlive\\lumas`"
+#: ../../getting_started/installation.rst:84
+#, fuzzy
+#| msgid ":file:`%APPDATA%\\kdenlive`"
+msgid ":file:`%AppData%\\\\kdenlive\\\\.backup`"
+msgstr ":file:`%APPDATA%\\kdenlive`"
 
-#: ../../getting_started/installation.rst:78
+#: ../../getting_started/installation.rst:86
 msgid "Auto Save Recovery files"
 msgstr "File del salvataggio automatico"
 
-#: ../../getting_started/installation.rst:79
-msgid ":file:`~/.local/share/stalefiles/kdenlive`"
+#: ../../getting_started/installation.rst:87
+#, fuzzy
+#| msgid ":file:`~/.config/kdenliverc`"
+msgid ":file:`~/.config/kdenlive-layoutsrc`"
+msgstr ":file:`~/.config/kdenliverc`"
+
+#: ../../getting_started/installation.rst:88
+#, fuzzy
+#| msgid ":file:`%APPDATA%\\kdenlive`"
+msgid ":file:`%LocalAppData%\\\\kdenlive-layoutsrc`"
+msgstr ":file:`%APPDATA%\\kdenlive`"
+
+#: ../../getting_started/installation.rst:90
+msgid "contains the layout settings"
+msgstr ""
+
+#: ../../getting_started/installation.rst:91
+#, fuzzy
+#| msgid ":file:`~/.local/share/stalefiles/kdenlive`"
+msgid ":file:`~/.local/share/kxmlgui5/kdenlive/kdenliveui.rc`"
 msgstr ":file:`~/.local/share/stalefiles/kdenlive`"
+
+#: ../../getting_started/installation.rst:92
+msgid ":file:`%LocalAppData%\\\\kxmlgui5\\kdenlive\\\\kdenliveui.rc`"
+msgstr ""
+
+#: ../../getting_started/installation.rst:94
+msgid "contains UI configuration, if your UI is broken, delete this file"
+msgstr ""
+
+#: ../../getting_started/installation.rst:95
+#, fuzzy
+#| msgid ":file:`~/.local/share/kdenlive`"
+msgid ":file:`~/.local/share/knewstuff3`"
+msgstr ":file:`~/.local/share/kdenlive`"
+
+#: ../../getting_started/installation.rst:96
+msgid ":file:`%LocalAppData%\\\\knewstuff3`"
+msgstr ""
+
+#: ../../getting_started/installation.rst:98
+msgid "contains LUT definition"
+msgstr ""
+
+#: ../../getting_started/installation.rst:100
+#, fuzzy
+#| msgid "Windows"
+msgid "**Windows**"
+msgstr "Windows"
+
+#: ../../getting_started/installation.rst:102
+msgid ""
+"To reach above folders: :kbd:`windows + r` then copy above path into the "
+"window."
+msgstr ""
+
+#: ../../getting_started/installation.rst:105
+msgid "Kdenlive in a Windows domain"
+msgstr ""
+
+#: ../../getting_started/installation.rst:107
+msgid ""
+"If you want to use Kdenlive with domain users with using Windows Active "
+"Directory and/or Group Policies (GPOs) make sure all users have read/write "
+"rights to the following folders:"
+msgstr ""
+
+#: ../../getting_started/installation.rst:111
+msgid "%AppData%\\\\kdenlive"
+msgstr ""
+
+#: ../../getting_started/installation.rst:113
+msgid "%LocalAppData%\\\\kdenlive"
+msgstr ""
+
+#: ../../getting_started/installation.rst:115
+msgid "%LocalAppData%\\\\kdenliverc"
+msgstr ""
+
+#: ../../getting_started/installation.rst:117
+msgid "%LocalAppData%\\\\kdenlive-layoutsrc"
+msgstr ""
+
+#: ../../getting_started/installation.rst:119
+msgid "%LocalAppData%\\\\kxmlgui5\\\\kdenlive\\kdenliveui.rc"
+msgstr ""
+
+#: ../../getting_started/installation.rst:121
+msgid "%AppData%\\\\kdenlive\\\\.backup"
+msgstr ""
+
+#: ../../getting_started/installation.rst:123
+msgid "%LocalAppData%\\\\knewstuff3"
+msgstr ""
+
+#: ../../getting_started/installation.rst:125
+msgid "Do also make sure no GPO is blocking the access to these folders."
+msgstr ""
+
+#~ msgid ""
+#~ "**Kdenlive** and **MLT** can compile and run under macOS. There is no "
+#~ "stable macOS version yet, but you can help to have one soon by testing "
+#~ "our daily macOS version (available on the `download <https://kdenlive.org/"
+#~ "download/>`_ page). If you have experience with building software for "
+#~ "macOS, please help us!"
+#~ msgstr ""
+#~ "**Kdenlive** e **MLT** possono essere compilati ed eseguiti in macOS. Non "
+#~ "c'è ancora una versione stabile per macOS, ma puoi aiutarci ad averne "
+#~ "presto una provando la nostra versione quotidiana per macOS (disponibile "
+#~ "nella pagina degli `scaricamenti <https://kdenlive.org/download/>`_). Se "
+#~ "hai esperienza nella compilazione di software per macOS, per favore "
+#~ "aiutaci!"
+
+#~ msgid ":file:`%LOCALAPPDATA%\\kdenlive\\cache`"
+#~ msgstr ":file:`%LOCALAPPDATA%\\kdenlive\\cache`"
+
+#~ msgid ":file:`~/.local/share/kdenlive/HD`"
+#~ msgstr ":file:`~/.local/share/kdenlive/HD`"
+
+#~ msgid ":file:`%PROGRAMFILES%\\kdenlive\\bin\\data\\kdenlive\\lumas`"
+#~ msgstr ":file:`%PROGRAMFILES%\\kdenlive\\bin\\data\\kdenlive\\lumas`"
