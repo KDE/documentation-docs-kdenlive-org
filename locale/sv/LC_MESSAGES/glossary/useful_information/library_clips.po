@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-21 00:22+0000\n"
-"PO-Revision-Date: 2021-11-21 12:57+0100\n"
+"PO-Revision-Date: 2022-02-19 16:12+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -28,6 +28,11 @@ msgid ""
 "Kdenlive user will notice the improved functionality, as it affects only "
 "library clips where the same image sequence or title is used multiple times."
 msgstr ""
+"Kdenlive 16.12.0 kommer att förbättras ytterligare när det gäller **expansion"
+" av biblioteksklipp** (och  som en konsekvens av det import av"
+" MLT-spellistor). Alla användare av Kdenlive kommer inte att märka de"
+" förbättrade funktionerna, eftersom de bara påverkar biblioteksklipp där"
+" samma bildsekvens eller titel används flera gånger."
 
 #: ../../glossary/useful_information/library_clips.rst:19
 msgid ""
@@ -39,6 +44,13 @@ msgid ""
 "project bin. To emphasize, this undesired behavior only affected image "
 "sequences, titles, and color clips."
 msgstr ""
+"I synnerhet, om man (åter)använder samma bildsekvensklipp, titelklippe eller"
+" till och med färgklipp flera gånger **i samma biblioteksklipp**, sådana"
+" bildsekvenser och titlar **läggs bara till en gång i projektkorgen**. Innan"
+" Kdenlive 16.12.0, resulterade flera instanser av samma klipp i tidslinjen"
+" tyvärr att klippen lades till flera gånger i projektkorgen. För att"
+" förtydliga, påverkade det oönskade beteendet bara bildsekvenser, titlar och"
+" färgklipp."
 
 #: ../../glossary/useful_information/library_clips.rst:21
 msgid ""
@@ -47,6 +59,10 @@ msgid ""
 "original bin folder location. If there is a match, then such a timeline clip "
 "will be added only once to your project bin."
 msgstr ""
+"När ett bibliotek expanderas, kontrollerar Kdenlive 16.12.0 nu innehåll,"
+" klippnamn och ursprunglig korgkatalogplats för bildsekvenser, titlar, och"
+" färgklipp på tidslinjen. Om en matchning hittas, läggs bara ett sådant"
+" tidslinjeklipp till en gång i projektkorgen."
 
 #: ../../glossary/useful_information/library_clips.rst:25
 msgid ""
@@ -54,6 +70,9 @@ msgid ""
 "that has been added to your personal Kdenlive library. They show up in "
 "Kdenlive’s library pane."
 msgstr ""
+"Ett \"biblioteksklipp\" är et klipp med ändelsen “.mlt”, och i synnerhet ett"
+" klipp som har lagts till i ett personligt Kdenlive-bibliotek. De dyker upp i"
+" Kdenlives biblioteksruta."
 
 #: ../../glossary/useful_information/library_clips.rst:27
 msgid ""
@@ -62,6 +81,10 @@ msgid ""
 "the file system in a “.mlt” file (which is an MLT playlist to be precise), "
 "and shown in the library widget as a new library clip."
 msgstr ""
+"När man markera några klipp och övertoningar på tidslinjen och lägger till"
+" dem i Kdenlives bibliotek, lagras klippen och övertoningarna internt på"
+" filsystemet i en “.mlt”-fil (som är en MLT-spellista för att vara precis),"
+" och visas i bibliotekskomponenten som ett nytt biblioteksklipp."
 
 #: ../../glossary/useful_information/library_clips.rst:29
 msgid ""
@@ -71,3 +94,9 @@ msgid ""
 "an MP4 video, you can “expand” library (that is, MLT playlist) clips to get "
 "back the individual clips and transitions inside it."
 msgstr ""
+"Tekniskt sett är Kdenlive-projekt också MLT-spellistefiler. När man lägger"
+" till ett klipp från biblioteksrutan i projektet lägger det helt enkelt till"
+" den underliggande MLT-spellistefilen i projektet. Men i kontrast till andra"
+" klipp, såsom en MP4-video, kan man \"expandera\" biblioteksklippen (det vill"
+" säga, MLT-spellistan) för att få tillbaka de individuella klippen och"
+" övergångarna inne i den."
