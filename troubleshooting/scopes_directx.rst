@@ -13,6 +13,8 @@ Windows issue with scopes
 
 .. note::
 
-   Video scopes do not work with DirectX under Windows. 
+    .. versionadded:: 21.12.2
+        All video scopes are working with DirectX. 
    
+
    Workaround: Change the backend to OpenGL (:menuselection:`Settings --> OpenGL Backend --> OpenGL`)
