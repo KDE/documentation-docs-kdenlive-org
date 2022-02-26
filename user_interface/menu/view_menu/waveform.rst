@@ -23,7 +23,7 @@ This data is a 3D histogram.  It represents the Luma component (whiteness) of th
    :alt: Wave form
 
 
-For more information see `Granjow's blog <http://kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-parade>`_ on the waveform and RGB parade scopes. This blog gives some information on how to use the data provided by the RGB parade to do color correction on video footage.
+For more information see :ref:`Granjow's blog <waveform_and_RGB_parade>` on the waveform and RGB parade scopes. This blog gives some information on how to use the data provided by the RGB parade to do color correction on video footage.
 
 .. attention::
 

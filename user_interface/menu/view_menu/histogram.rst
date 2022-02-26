@@ -25,7 +25,7 @@ The histograms have the luminance on the horizontal axis going from 0 on the lef
    :alt: Histogram
 
 
-For more information read `Granjow's blog <http://kdenlive.org/users/granjow/introducing-color-scopes-histogram>`_ on the histogram scope.
+For more information read :ref:`Granjow's blog <histogram_working>` on the histogram scope.
 
 .. attention::
 

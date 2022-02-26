@@ -51,5 +51,5 @@ All corrections work on [0,1], so the RGB(A) values need to be transposed from {
 
 As the values may exceed 1 (or 0), they need to be clamped where necessary.
 
-See `Granjow's blog <https://web.archive.org/web/20160319050009/https://kdenlive.org/users/granjow/introducing-color-scopes-waveform-and-rgb-parade>`_ where he uses the effect to adjust white balance of a clip.
+See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect to adjust white balance of a clip.
 

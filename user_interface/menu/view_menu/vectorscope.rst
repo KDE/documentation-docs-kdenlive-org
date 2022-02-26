@@ -19,7 +19,7 @@ This window allows you to monitor the colour properties of your clip in detail.
 
 The Vectorscope shows the hue and saturation distribution in a way we can understand without problems. This is useful for quickly recognizing color casts, but also helps judging the color distribution of a clip and matching it to others. 
 
-`See  Granjow's blog here <http://kdenlive.org/users/granjow/introducing-color-scopes-vectorscope>`_ and `here <http://kdenlive.org/users/granjow/vectorscope-what-i-and-q-lines-are-good>`_ on the Vectorscope.
+:ref:`See Granjow's blog here <vectorscope>` and :ref:`here <vectorscope_i-q_lines>` on the Vectorscope.
 
 .. image:: /images/Vector_scope.png
    :align: left

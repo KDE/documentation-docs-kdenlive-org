@@ -31,7 +31,7 @@ The spectrogram displays the loudness (in decibels) of the audio at different au
 
 
 
-For more information see `Granjow's blog <http://kdenlive.org/users/granjow/introducing-scopes-audio-spectrum-and-spectrogram>`_ on Spectrogram
+For more information see :ref:`Granjow's blog <audio_spectrum_and_spectrogram>` on Spectrogram
 
 .. attention::
 
