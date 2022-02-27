@@ -124,8 +124,6 @@ Summary
 
 The Histogram is a great tool for exposure correction, together with the Curves and the Levels effects. It helps to avoid clipping (burned out areas) and crushed blacks (the opposite) when applying effects.
 
-
-
 Thanks for reading! Continue with the :ref:`Waveform and the RGB Parade <waveform_and_RGB_parade>`.
 
 Please drop your comments below.
