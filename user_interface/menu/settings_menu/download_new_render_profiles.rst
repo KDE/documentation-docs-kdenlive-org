@@ -44,8 +44,6 @@ The installed files are placed in /usr/share/mlt/presets/consumer/avformat
 Upload/Share Render Profiles
 ============================
 
-If you want to share a render profile you can do so at the `Create Rendering profile <https://kdenlive.org/node/add/render-profile>`_ page at kdenlive.org. Profiles submitted there appear in the *Download New Render Profiles*.
-
-Unfortunately the Create Rendering Profile page is only available to users logged in to kdenlive.org and kdenlive.org is not taking on new members. 
+If you want to share a render profile you can do so at the `KDE Store page <https://store.kde.org/browse?cat=334>`_. Profiles submitted there appear in the *Download New Render Profiles*.
 
 

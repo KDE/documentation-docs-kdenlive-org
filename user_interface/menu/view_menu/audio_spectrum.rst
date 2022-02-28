@@ -31,6 +31,6 @@ See also :ref:`spectrogram` scope which displays a graphical representation of t
    :alt: Audio spectrogram
 
 
-For more information see :rst:`Granjow's blog <audio_spectrum_and_spectrogram>` on Audio Spectrum
+For more information see :ref:`Granjow's blog <audio_spectrum_and_spectrogram>` on Audio Spectrum
 
 

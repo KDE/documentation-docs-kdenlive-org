@@ -20,7 +20,7 @@ With kdenlive 0.7.8 I added some color scopes, used for displaying color informa
 
 For color correction we basically need two things, Effects for changing the colors and Scopes for monitoring the changes. The first scope I'm showing now is, as already mentioned, the histogram:
 
-.. image:: /images/kdenlive_histogram.png
+.. image:: /images/Kdenlive_Histogram.png
    :alt: kdenlive-histogram
 
 Basic Scope Options
