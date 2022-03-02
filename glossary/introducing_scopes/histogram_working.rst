@@ -39,7 +39,7 @@ Really? Yes. Take a look at these two images.
 
 Exactly the same Histogram. Totally different colors. (What you can do is guessing the color tone; see below.) But what is the histogram good for now?
 
-To answer this question, I would like to point an article from the «Cambridge in Colour»: `Understanding Digital Camera Histograms: Tones and Contrast <kdenlive-colorscopes-histogram-gradient-color.png>`_ and the second part `Luminance & Color <https://www.cambridgeincolour.com/tutorials/histograms2.htm>`_. Although written for digital photo cameras, exactly the same applies for digital video cameras. Both articles are easy to read and understand (and may also be of interest for experienced users).
+To answer this question, I would like to point an article from the «Cambridge in Colour»: `Understanding Digital Camera Histograms: Tones and Contrast <https://www.cambridgeincolour.com/tutorials/histograms1.htm>`_ and the second part `Luminance & Color <https://www.cambridgeincolour.com/tutorials/histograms2.htm>`_. Although written for digital photo cameras, exactly the same applies for digital video cameras. Both articles are easy to read and understand (and may also be of interest for experienced users).
 
 Histogram example: Candlelight
 ------------------------------
