@@ -27,7 +27,7 @@ The Histogram is merely statistics; it shows how often a component of a certain 
 What the Histogram shows
 ------------------------
 
-The Histogram only shows the distribution of the luminance of the selected components – nothing more, nothing less. Also when looking at the RGB channels separately, instead of at the calculated Luma component only. You cannot really guess the colors in the image.
+The Histogram only shows the distribution of the luminance of the selected components – nothing more, nothing less. Also when looking at the RGB channels separately, instead of at the calculated Luma component only, you cannot really guess the colors in the image.
 
 Really? Yes. Take a look at these two images.
 
