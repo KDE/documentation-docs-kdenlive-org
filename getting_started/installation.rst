@@ -29,19 +29,137 @@
 Installation
 ============
 
-.. contents::
-
 Visit the `download <https://kdenlive.org/download/>`_ page of the Kdenlive Web site for up to date information on installing **Kdenlive**.
 
-Non-KDE Desktops and Windows
+Minimum system requirements
+---------------------------
+
+**Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.14 or newer, 64-bit Linux. Details see below.
+
+**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD-Video, 4 cores for HD-Video, and 8 cores for 4K-Video. Details se below.
+
+**GPU:** OpenGL 2.0 that works correctly and is compatible. On Windows, you can also use a card with good, compatible DirectX 9 or 11 drivers.
+
+**RAM:** At least 4 GB for SD-Video, 8 GB for HD-Video, and 16 GB for 4K-Video.
+
+.. note::
+   
+   If your computer is at the lower end of CPU and RAM requirements, you should use both the Preview Resolution and :ref:`Proxy <proxy_clips_tab>` features to help reduce preview lag.
+
+Non-KDE Desktops
+----------------
+
+**Kdenlive** can be installed on non-KDE Desktops without any issues.
+
+Kdenlive on Windows
+-------------------
+
+**Kdenlive** runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and newer. We can not guaranty that Kdenlive runs on server or embedded Windows version.
+
+Kdenlive is available as an install and as a standalone version.
+
+- Install version: Needs administrator rights and gets installed on your local machine. It's also listed as a program.
+   
+   - it's available for all users on your computer.
+
+   - The Kdenlive files are always located in the same folder.  
+
+- Standalone version: **Doesn't** need administrator rights and isn't installed. It's **not** listed as a program. Is only accessible for the user who has downloaded the file.  
+   
+   - If you work with a normal user on your computer, you can use Kdenlive.
+
+   - You can copy the Kdenlive folder on any external drive and run it on different computer without install it. However, your personal settings and downloads within Kdenlive are related to the computer you work on.   
+
+.. epigraph::
+
+   Double click the downloaded file.
+
+   .. image:: /images/Kdenlive_Zip-self-extracting_archive.png
+      :alt: Kdenlive_Zip-self-extracting_archive
+      :width: 40%
+
+   Point to the folder you like to store the Kdenlive folder  
+
+   .. image:: /images/Kdenive_bin-folder.png
+      :alt: Kdenive_bin-folder
+      :width: 30%
+
+   To start Kdenlive navigate to the `bin folder` and double click Kdenlive
+
+.. rst-class:: clear-both
+
+Kdenlive in a Windows domain
 ----------------------------
 
-**Kdenlive** can be installed on non-KDE Desktops and on Windows without any issues.
+If you want to use Kdenlive with domain users with using Windows Active Directory and/or Group Policies (GPOs) make sure all users have read/write rights to the following folders:
+
+.. epigraph::
+
+   %AppData%\\kdenlive
+
+   %LocalAppData%\\kdenlive   
+
+   %LocalAppData%\\kdenliverc   
+
+   %LocalAppData%\\kdenlive-layoutsrc   
+
+   %LocalAppData%\\kxmlgui5\\kdenlive\kdenliveui.rc   
+
+   %AppData%\\kdenlive\\.backup   
+
+   %LocalAppData%\\knewstuff3
+
+Do also make sure no GPO is blocking the access to these folders.
 
 Kdenlive on macOS
 -----------------
 
-**Kdenlive** run under macOS 11 and 12 on Intel CPU only (available on the `download <https://kdenlive.org/download/>`_ page). Kdenlive isn't running on MacOS 10 and on M1.
+**Kdenlive** runs with Intel based Mac's on macOS 10.14 (Mojave) and newer (available on the `download <https://kdenlive.org/download/>`_ page). Kdenlive isn't running on MacOS older than 10.14 (Mojave) and on M1.
+
+Install procedure
+~~~~~~~~~~~~~~~~~
+
+.. image:: /images/macos_download_option.png
+   :alt: macos_download_option
+   :width: 30%
+
+Chose the option *Open with DiskImageMounter (Default)*.
+
+.. image:: /images/macos_diskimagemounter.png
+   :alt: macos_diskimagemounter
+   :width: 30%
+
+When the dmg file is downloaded, the *DiskImageMounter* will open. Drag the *Kdenlive* Logo into the *Applications* Folder.
+
+.. image:: /images/macos_copy.png
+   :alt: macos_copy
+   :width: 30%
+
+The files get copied.
+
+.. image:: /images/macos_check.png
+   :alt: macos_check
+   :width: 30%
+
+MacOS will try to check the files for malware.
+
+.. image:: /images/macos_warnig.png
+   :alt: macos_warnig
+   :width: 30%
+
+The message *“kdenlive" cannot be opened, because Apple cannot search for malware in it* will appear. Here you have to click :guilabel:`Show in Finder`.
+
+.. image:: /images/macos_right_click.png
+   :alt: macos_right_click
+   :width: 30%
+
+The Finder opens. Now right click on *Kdenlive* and chose :guilabel:`Open`.
+
+.. image:: /images/macos_open.png
+   :alt: macos_open
+   :width: 30%
+
+The message that Apple ca't search for malware will appear again. Just click on :guilabel:`Open` and Kdenlive will open up.
 
 Configuration Information
 -------------------------
@@ -100,26 +218,3 @@ Kdenlive's application-wide persistent settings are stored in the following loca
 **Windows**
 
 To reach above folders: :kbd:`windows + r` then copy above path into the window.
-
-Kdenlive in a Windows domain
-----------------------------
-
-If you want to use Kdenlive with domain users with using Windows Active Directory and/or Group Policies (GPOs) make sure all users have read/write rights to the following folders:
-
-.. epigraph::
-
-   %AppData%\\kdenlive
-
-   %LocalAppData%\\kdenlive   
-
-   %LocalAppData%\\kdenliverc   
-
-   %LocalAppData%\\kdenlive-layoutsrc   
-
-   %LocalAppData%\\kxmlgui5\\kdenlive\kdenliveui.rc   
-
-   %AppData%\\kdenlive\\.backup   
-
-   %LocalAppData%\\knewstuff3
-
-Do also make sure no GPO is blocking the access to these folders.
