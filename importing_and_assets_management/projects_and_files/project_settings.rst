@@ -73,6 +73,7 @@ Thumbnails
 
 The Audio and Video thumbnails are shown in the :ref:`timeline`. They can also be enabled/disabled through buttons in the :ref:`status_bar`.
 
+.. _proxy_clips_tab:
 
 Proxy Clips Tab
 ~~~~~~~~~~~~~~~
