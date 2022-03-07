@@ -33,8 +33,13 @@ Kdenlive’s interface is separated into four main parts:
    Kdenlive’s default Screen Layout (example editing view). Topbar (blue), Toolbars (yellow), Window (green) and Status Bar (red).
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
-   :caption: Contents:
    :glob:
 
-   user_interface/*
+   user_interface/monitors
+   user_interface/timeline
+   user_interface/workspace_layouts
+   user_interface/toolbars
+   user_interface/shortcuts
+   user_interface/menu

@@ -78,6 +78,7 @@ Rendering Using the Guide Zone Option
 
 This makes use of :ref:`guides` to define a region of the project that is to be rendered. See :ref:`rendering`.
 
+.. _remder_using_zone:
 
 Rendering Using the Selected Zone Option
 ----------------------------------------

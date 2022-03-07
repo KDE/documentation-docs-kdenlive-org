@@ -44,7 +44,7 @@ Minimum system requirements
 
 .. note::
    
-   If your computer is at the lower end of CPU and RAM requirements, you should use both the Preview Resolution and :ref:`Proxy <proxy_clips_tab>` features to help reduce preview lag.
+   If your computer is at the lower end of CPU and RAM requirements, you should use both the :ref:`Preview Resolution <preview_resolution>` and :ref:`Proxy <proxy_clips_tab>` features to help reduce preview lag.
 
 Non-KDE Desktops
 ----------------
