@@ -36,7 +36,7 @@ Minimum system requirements
 
 **Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.14 or newer, 64-bit Linux. Details see below.
 
-**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD-Video, 4 cores for HD-Video, and 8 cores for 4K-Video. Details se below.
+**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD-Video, 4 cores for HD-Video, and 8 cores for 4K-Video. Details see below.
 
 **GPU:** OpenGL 2.0 that works correctly and is compatible. On Windows, you can also use a card with good, compatible DirectX 9 or 11 drivers.
 
@@ -54,13 +54,13 @@ Non-KDE Desktops
 Kdenlive on Windows
 -------------------
 
-**Kdenlive** runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and newer. We can not guaranty that Kdenlive runs on server or embedded Windows version.
+**Kdenlive** runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and newer. We cannot guarantee that Kdenlive runs on server or embedded Windows version.
 
 Kdenlive is available as an install and as a standalone version.
 
 - Install version: Needs administrator rights and gets installed on your local machine. It's also listed as a program.
    
-   - it's available for all users on your computer.
+   - It's available for all users on your computer.
 
    - The Kdenlive files are always located in the same folder.  
 
@@ -68,7 +68,7 @@ Kdenlive is available as an install and as a standalone version.
    
    - If you work with a normal user on your computer, you can use Kdenlive.
 
-   - You can copy the Kdenlive folder on any external drive and run it on different computer without install it. However, your personal settings and downloads within Kdenlive are related to the computer you work on.   
+   - You can copy the Kdenlive folder on any external drive and run it on a different computer without installing it. However, your personal settings and downloads within Kdenlive are related to the computer you work on.   
 
 .. epigraph::
 
@@ -123,7 +123,7 @@ Install procedure
    :alt: macos_download_option
    :width: 30%
 
-Chose the option *Open with DiskImageMounter (Default)*.
+Choose the option *Open with DiskImageMounter (Default)*.
 
 .. image:: /images/macos_diskimagemounter.png
    :alt: macos_diskimagemounter
@@ -153,13 +153,13 @@ The message *“kdenlive" cannot be opened, because Apple cannot search for malw
    :alt: macos_right_click
    :width: 30%
 
-The Finder opens. Now right click on *Kdenlive* and chose :guilabel:`Open`.
+The Finder opens. Now right click on *Kdenlive* and choose :guilabel:`Open`.
 
 .. image:: /images/macos_open.png
    :alt: macos_open
    :width: 30%
 
-The message that Apple ca't search for malware will appear again. Just click on :guilabel:`Open` and Kdenlive will open up.
+The message that Apple can't search for malware will appear again. Just click on :guilabel:`Open` and Kdenlive will open up.
 
 Configuration Information
 -------------------------

@@ -122,7 +122,7 @@ Waveform options
 
 - *Paint Mode* – Changes the paint mode for the Waveform. Usually changes its brightness as well. Green also highlights pixels with values 0 or 255.
 
-- *Luma mode* (Context menu) – As for the Histogram you can chose how to calculate Luma (Rec.601 or Rec.709).
+- *Luma mode* (Context menu) – As for the Histogram you can choose how to calculate Luma (Rec.601 or Rec.709).
 
 .. image:: /images/kdenlive-colorscopes-waveform-green.png
    :alt: kdenlive-colorscopes-waveform-green
