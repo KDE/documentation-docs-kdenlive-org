@@ -22,7 +22,9 @@ Monitors
 ========
 
 Kdenlive uses 2 monitor widgets to display your videos: Clip Monitor and Project Monitor. A third monitor - the Record Monitor - previews video capture. These monitors can be selected by clicking the corresponding tabs which appear at the bottom of the monitor window.
+
 Resizing the Monitors
+---------------------
 
 You can resize the monitors by dragging the sizing widget. It is a bit tricky to find the bottom widget. You need to hover just between the bottom of the monitor tab and the timeline 
 
