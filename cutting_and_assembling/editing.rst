@@ -203,6 +203,14 @@ Active buttons are grey.
 
 14g. Manage Cached Data
 
+.. versionadded:: 22.04
+
+   .. image:: /images/preview_using_proxy_clips.png
+      :alt: Preview Using Proxy Clips
+
+   14h. Preview Using Proxy Clips. Option to render preview using original clips, not proxies (disabled by default). 
+
+
 Items 14, 14a-14g are covered in detail by :ref:`timeline-preview-rendering` article.
 
 1.  Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
