@@ -41,7 +41,7 @@ There are 3 ways to add subtitle:
 
 * **Icon and Mouse**
 
-  * Click the "subtitle" icon in the timeline toolbar to open the subtitle track in the timeline.
+  * Click :guilabel:`Add Subtitle` icon in the :ref:`timeline toolbar<guides>` to open the subtitle track in the timeline.
   * Double-click in the subtitle track to add a subtitle.
 
 **Adding and editing text**

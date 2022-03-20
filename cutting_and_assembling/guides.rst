@@ -28,10 +28,25 @@ Guides
    :align: left
    :alt: Kdenlive_Add_guide
 
-Guides are labels on the timeline that can be added by right-clicking at a spot on the timeline scale and choosing :menuselection:`Add Guide`. You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
+Guides are labels on the timeline that can be added by right-clicking at a spot on the timeline ruler and choosing :menuselection:`Add/Remove Guide`. You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
 
+.. rst-class:: clear-both
 
-Guides in the pic below are the purple flags. Not to be confused with :ref:`clips` (gold in the picture below). Guides are static on the timeline and are stationary when clips are moved around. Markers are inside the clips and move with the clips.
+.. versionadded:: 21.08
+   
+Guides Locked: See :ref:`move_guides_with_spacer_tool`  
+
+.. versionadded:: 22.04
+
+Set Zone In/Out. See :ref:`timeline-preview-rendering`
+
+Add Project Notes: See :ref:`notes`
+
+.. versionadded:: 20.12
+
+Add Subtitle: See :ref:`subtitle`
+
+Guides in the picture below are the purple flags. Not to be confused with :ref:`clips` (gold in the picture below). Guides are static on the timeline and are stationary when clips are moved around. Markers are inside the clips and move with the clips.
 
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
@@ -44,6 +59,7 @@ Guides can be used to define regions for rendering. See :ref:`rendering`.
 
 Guides can also be used as chapters for DVD videos. See :ref:`rendering`.
 
+.. _move_guides_with_spacer_tool:
 
 Move Guides with Spacer Tool
 ----------------------------
