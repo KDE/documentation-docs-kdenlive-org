@@ -1,6 +1,7 @@
 .. metadata-placeholder
 
    :authors: - Mmaguire (https://userbase.kde.org/User:Mmaguire)
+   :authors: - Maris (https://userbase.kde.org/User:limerick)
 
    :license: Creative Commons License SA 4.0
 
@@ -24,4 +25,25 @@ Apply a 3D Look Up Table (LUT) to the video. A LUT is an easy way to correct the
 Filename: File containing the LUT to be applied.
 
 Interpolation Method: Can be Nearest, Trilinear or Tetrahedral. Defaults to Tetrahedral.
+
+
+.. _examplelut:
+
+Example of LUT Filter
+=========
+
+
+
+Example of Manual workflow Before and after applying LUT
+
+.. figure:: /images/image1b.png
+   :width: 800px
+   :alt: workflow-lut
+
+   Figure 1 - View of the interface
+
+
+
+
+
 
