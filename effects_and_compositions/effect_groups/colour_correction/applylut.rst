@@ -43,7 +43,7 @@ Example of Manual workflow Before and after applying LUT
    Figure 1 - View of the interface
 
 
-
+Simple steps:
 
 
 
