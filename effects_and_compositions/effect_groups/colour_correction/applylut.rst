@@ -44,6 +44,16 @@ Example of Manual workflow Before and after applying LUT
 
 
 Simple steps:
+1. FREE LUTS – For our example, we rely on the files that can be downloaded from the address https://goo.gl/OeIFkr
+
+2. SEVEN CUBE FILES – Download the zip file, just extract it into a folder: each of the files, which is then a simple text file, represents a Look Up Table. Those examples were developed inspired by famous films (whose titles are parodied in the file name).
+
+3.Once package is downloaded and unpacked, open effects menu in the right corner of the program window.
 
 
+.. figure:: /images/image4.png
+   :width: 800px
+   :alt: workflow-lut
+
+   Figure 2 - View of main menu.
 
