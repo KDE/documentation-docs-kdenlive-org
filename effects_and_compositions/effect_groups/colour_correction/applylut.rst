@@ -52,7 +52,8 @@ Simple steps:
 
 
 .. figure:: /images/image4.png
-   :width: 1000px
+   :width: 800px
+   :height 800px
    :alt: workflow-lut
 
    Figure 2 - View of main menu.
