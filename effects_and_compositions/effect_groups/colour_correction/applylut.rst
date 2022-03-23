@@ -52,7 +52,7 @@ Simple steps:
 
 
 .. figure:: /images/image4.png
-   :width: 800px
+   :width: 1200px
  
    :alt: workflow-lut
 
