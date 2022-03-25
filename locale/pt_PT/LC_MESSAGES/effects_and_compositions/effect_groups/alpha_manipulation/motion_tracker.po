@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
@@ -12,9 +11,11 @@ msgstr ""
 "PO-Revision-Date: 2022-03-23 17:48+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:10
 msgid "Motion Tracker"
@@ -29,7 +30,10 @@ msgid "What is Motion Tracking?"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:18
-msgid "Motion tracking is the process of locating a moving object across time. Kdenlive uses `OpenCV (Open Source Computer Vision Library) <https://opencv.org/about/>`_ for motion detection."
+msgid ""
+"Motion tracking is the process of locating a moving object across time. "
+"Kdenlive uses `OpenCV (Open Source Computer Vision Library) <https://opencv."
+"org/about/>`_ for motion detection."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:20
@@ -57,7 +61,10 @@ msgid "Click on the Analyse button."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:41
-msgid "When Analyse is done you can export the keyframes to the clipboard by click on |application-menu| and choose :menuselection:`Copy keyframes to clipboard`. See: :ref:`exchange_keyframes_across_effects`"
+msgid ""
+"When Analyse is done you can export the keyframes to the clipboard by click "
+"on |application-menu| and choose :menuselection:`Copy keyframes to "
+"clipboard`. See: :ref:`exchange_keyframes_across_effects`"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:46
@@ -73,7 +80,9 @@ msgid "**Kernelized Correlation Filters**"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:52
-msgid "**Pros:** Accuracy and speed are both better than MIL and it reports tracking failure better than MIL."
+msgid ""
+"**Pros:** Accuracy and speed are both better than MIL and it reports "
+"tracking failure better than MIL."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:54
@@ -85,7 +94,14 @@ msgid "CSRT"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:59
-msgid "In the Discriminative Correlation Filter with Channel and Spatial Reliability (DCF-CSR), we use the spatial reliability map for adjusting the filter support to the part of the selected region from the frame for tracking. This ensures enlarging and localization of the selected region and improved tracking of the non-rectangular regions or objects. It uses only 2 standard features (HoGs and Colornames). It also operates at a comparatively lower fps (25 fps) but gives higher accuracy for object tracking."
+msgid ""
+"In the Discriminative Correlation Filter with Channel and Spatial "
+"Reliability (DCF-CSR), we use the spatial reliability map for adjusting the "
+"filter support to the part of the selected region from the frame for "
+"tracking. This ensures enlarging and localization of the selected region and "
+"improved tracking of the non-rectangular regions or objects. It uses only 2 "
+"standard features (HoGs and Colornames). It also operates at a comparatively "
+"lower fps (25 fps) but gives higher accuracy for object tracking."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:62
@@ -97,7 +113,14 @@ msgid "**Minimum Output Sum of Squared Error**"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:66
-msgid "MOSSE uses an adaptive correlation for object tracking which produces stable correlation filters when initialized using a single frame. MOSSE tracker is robust to variations in lighting, scale, pose, and non-rigid deformations. It also detects occlusion based upon the peak-to-sidelobe ratio, which enables the tracker to pause and resume where it left off when the object reappears. MOSSE tracker also operates at a higher fps (450 fps and even more)."
+msgid ""
+"MOSSE uses an adaptive correlation for object tracking which produces stable "
+"correlation filters when initialized using a single frame. MOSSE tracker is "
+"robust to variations in lighting, scale, pose, and non-rigid deformations. "
+"It also detects occlusion based upon the peak-to-sidelobe ratio, which "
+"enables the tracker to pause and resume where it left off when the object "
+"reappears. MOSSE tracker also operates at a higher fps (450 fps and even "
+"more)."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:68
@@ -105,7 +128,9 @@ msgid "**Pros:** It is as accurate as other complex trackers and much faster."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:70
-msgid "**Cons:** On a performance scale, it lags behind the deep learning based trackers."
+msgid ""
+"**Cons:** On a performance scale, it lags behind the deep learning based "
+"trackers."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:73
@@ -113,11 +138,15 @@ msgid "MIL"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:75
-msgid "**Pros:** The performance is pretty good. It does a reasonable job under partial occlusion."
+msgid ""
+"**Pros:** The performance is pretty good. It does a reasonable job under "
+"partial occlusion."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:77
-msgid "**Cons:** Tracking failure is not reported reliably. Does not recover from full occlusion."
+msgid ""
+"**Cons:** Tracking failure is not reported reliably. Does not recover from "
+"full occlusion."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:80
@@ -125,7 +154,9 @@ msgid "MedianFlow"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:82
-msgid "**Pros:** Excellent tracking failure reporting. Works very well when the motion is predictable and there is no occlusion."
+msgid ""
+"**Pros:** Excellent tracking failure reporting. Works very well when the "
+"motion is predictable and there is no occlusion."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:84
@@ -137,11 +168,15 @@ msgid "`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:89
-msgid "The DaSiamRPN visual tracking algorithm relies on deep-learning models to provide extremely accurate results."
+msgid ""
+"The DaSiamRPN visual tracking algorithm relies on deep-learning models to "
+"provide extremely accurate results."
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:91
-msgid "In order to use the DaSiam algorithm you need to download the AI models and place them in:"
+msgid ""
+"In order to use the DaSiam algorithm you need to download the AI models and "
+"place them in:"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:93
@@ -169,19 +204,26 @@ msgid "*%AppData%/kdenlive/opencvmodels*"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:105
-msgid "Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and copy **%AppData%/kdenlive/**. Then create the folder `opencvmodels`"
+msgid ""
+"Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) "
+"and copy **%AppData%/kdenlive/**. Then create the folder `opencvmodels`"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:107
-msgid "https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_cls1.onnx"
+msgid ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_kernel_cls1.onnx"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:108
-msgid "https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_r1.onnx"
+msgid ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_r1."
+"onnx"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:109
-msgid "https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_model.onnx"
+msgid ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_model.onnx"
 msgstr ""
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:112
@@ -202,5 +244,7 @@ msgid "Blur type"
 msgstr "Tipo de borrão"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:127
-msgid "Four blur types are available: Median blur, Gaussian blur, Pixelate, Opaque fill"
+msgid ""
+"Four blur types are available: Median blur, Gaussian blur, Pixelate, Opaque "
+"fill"
 msgstr ""
