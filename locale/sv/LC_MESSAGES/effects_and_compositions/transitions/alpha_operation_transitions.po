@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-03 00:38+0000\n"
-"PO-Revision-Date: 2021-11-19 17:00+0100\n"
+"PO-Revision-Date: 2022-03-27 19:42+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:12
 msgid "Alpha operation transitions"
-msgstr ""
+msgstr "Alfa-operationsövergångar"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:14
 msgid "Contents"
@@ -30,6 +30,7 @@ msgid ""
 "The following transitions all perform alpha operations between the two video "
 "tracks:"
 msgstr ""
+"Följande övergångar utför alla alfaoperationer mellan de två videospåren:"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:18
 msgid ":ref:`addition_alpha`"
@@ -69,6 +70,8 @@ msgid ""
 "These transitions only have an effect if the videos on the tracks have alpha "
 "channel information in them."
 msgstr ""
+"Övergångarna får bara effekt om videorna på spåren innehåller"
+" alfakanalinformation."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:28
 msgid ""
@@ -78,6 +81,11 @@ msgid ""
 "define some alpha channel data using an :ref:`alpha_manipulation` changes in "
 "the alpha operation transition settings will have no visible effect."
 msgstr ""
+"Alfakanalinformationen tillhandahålls av en :ref:`alpha_manipulation`."
+" Alfakanaldata beskriver vilka områden av videospåret som är genomskinliga"
+" och hur genomskinliga de ska vara. Innan man definierar någon alfakanaldata"
+" genom att använda en :ref:`alpha_manipulation` får ändringar av"
+" alfaoperationsövergångar ingen synlig effekt."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:30
 msgid ""
@@ -86,6 +94,10 @@ msgid ""
 "are implementing the operations described at Wikipedia page on `Alpha "
 "Compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_."
 msgstr ""
+"Alfaoperationsövergångar definierar hur de två olika alfakanlernas"
+" information ska kombineras för att skapa den slutliga bilden. Operationerna"
+" implementerar operationerna som beskrivs på Wikipedias sida om `Alpha"
+" Compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:32
 msgid ""
@@ -95,6 +107,11 @@ msgid ""
 "show all the track underneath outside the triangle and show 38.2% of the "
 "underneath track inside the triangle."
 msgstr ""
+"I exemplen nedan har det gula klippet en triangelformad alfaform med min = 0"
+" och max = 618. Det översätts till 0 % ogenomskinlighet utanför triangeln och"
+" 61,8 % ogenomskinlighet inne i triangeln. Det vill säga alfakanalen i det"
+" gula spåret visar hela underliggande spåret utanför triangeln, och visar"
+" 38,2 % av det underliggande spåret inne i triangeln."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:34
 msgid ""
@@ -102,3 +119,6 @@ msgid ""
 "translates to make the clip 100% transparent outside the rectangle and 0% "
 "transparent inside the rectangle."
 msgstr ""
+"Det gröna klippet har en rektangelformad alfaform med min = 0 och max = 1000."
+" Det översätts till 100 % genomskinlighet utanför rektangeln och 0 %"
+" genomskinlighet inne i triangeln."
