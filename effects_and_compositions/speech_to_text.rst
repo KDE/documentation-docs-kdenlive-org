@@ -1,3 +1,7 @@
+.. meta::
+   :description: The Kdenlive User Manual
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, speech to text, silence detection
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -46,6 +50,8 @@ Windows
 
 1. Download python from https://www.python.org/downloads/ for installation on your computer.
 2. Download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download a double click starts the installations.
+
+.. _install_language:
 
 Install a language
 ------------------
@@ -108,7 +114,7 @@ Select a clip in the project bin.
 
 5. Put into the timeline.
 
-6. Save as a new clip.
+6. :guilabel:`Save` edited text as a new playlist.
 
 7. Add a Bookmark. You can jump to these bookmarks in the timeline with the :kbd:`Alt + arrow` shortcut or edit the bookmark by double click.
 
@@ -118,3 +124,17 @@ Select a clip in the project bin.
 
 10. And navigate up or down in the text.
 
+.. _silence_detection:
+
+Silence detection
+-----------------
+
+Open the clip in the clip monitor and open the speech editor window (:menuselection:`View --> Speech Editor`) .
+
+Select your language or :ref:`install_language` and download the model for it.
+
+Then click :guilabel:`Start Recognition` button.
+
+Once this is done, click on the time-code where no-speech is indicated and just hit the :kbd:`delete` key. Repeat the operation for all the parts you want to remove, including where someone says what you don't want to listen in your final edit.
+
+Once finished, make sure :guilabel:`Selected zone only` is disabled, click on the :guilabel:`Save` button on the lower left part of the speech editor window and after few seconds a new playlist is added in the project bin without silence and without the text you don't want.
