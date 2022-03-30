@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-13 00:22+0000\n"
-"PO-Revision-Date: 2021-11-13 18:48+0100\n"
+"PO-Revision-Date: 2022-03-29 20:14+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../troubleshooting/faq.rst:17
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Vanliga frågor"
 
 #: ../../troubleshooting/faq.rst:20
 msgid "Contents"
@@ -27,7 +27,7 @@ msgstr "Innehåll"
 
 #: ../../troubleshooting/faq.rst:23
 msgid "What components does Kdenlive use?"
-msgstr ""
+msgstr "Vilka komponenter använder Kdenlive?"
 
 #: ../../troubleshooting/faq.rst:25
 msgid ""
@@ -37,10 +37,16 @@ msgid ""
 "XML files that code the edit points and transitions and it then calls :file:"
 "`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to render the video."
 msgstr ""
+"I själva verket är **Kdenlive** ett gränssnitt för `melt <"
+"http://www.mltframework.org/bin/view/MLT/MltMelt>`_ - which uses the MLT"
+" video framework. The MLT video framework relies on the FFMPEG project."
+" **Kdenlive** writes :file:`sh.mlt` XML files that code the edit points and"
+" transitions and it then calls :file:`/usr/bin/kdenlive_render` and"
+" :file:`/usr/bin/melt` to render the video."
 
 #: ../../troubleshooting/faq.rst:29
 msgid "How do I fix Audio Sync Issues?"
-msgstr ""
+msgstr "Hur rättar man problem med ljudsynkronisering?"
 
 #: ../../troubleshooting/faq.rst:31
 msgid ""
@@ -48,6 +54,9 @@ msgid ""
 "project. Audio encoded with VBR (be it pure audio like MP3 or video with "
 "audio) can be problematic."
 msgstr ""
+"Ofta orsakas de av att ha en blandning av olika ljudkällor i projektet. Ljud"
+" kodad med variabel bithastighet (vare sig det är rent ljud som MP3 eller"
+" video med ljud) kan vara problematiskt."
 
 #: ../../troubleshooting/faq.rst:33
 msgid ""
@@ -56,7 +65,11 @@ msgid ""
 "`extract_audio` feature of Kdenlive to do this it will write a .wav file for "
 "you."
 msgstr ""
+"Om ljudkällan kommer från en videofil, försök att extrahera ljudet från"
+" videokällan och omkoda ljudet till WAV-format. Om funktionen"
+" :ref:`extract_audio` i Kdenlive används för att göra det, skrivs en .wav-fil"
+" ut."
 
 #: ../../troubleshooting/faq.rst:36
 msgid "If you have a pure audio source try transcoding that to WAV."
-msgstr ""
+msgstr "Om man har en ren ljudfil, försök att omkoda den till WAV."
