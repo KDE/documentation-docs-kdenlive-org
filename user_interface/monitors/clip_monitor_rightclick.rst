@@ -119,21 +119,21 @@ Add Marker
 ~~~~~~~~~~
 
 
-Adds a new :ref:`clips` into the clip at the current time point.
+Adds a new :ref:`clip <clips>` into the clip at the current time point.
 
 
 Edit Marker
 ~~~~~~~~~~~
 
 
-Brings up a dialog where you can edit the :ref:`clips`  that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to edit.
+Brings up a dialog where you can edit the :ref:`clip <clips>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to edit.
 
 
 Delete Marker
 ~~~~~~~~~~~~~
 
 
-Deletes the :ref:`clips`  that is a the current timepoint.  Use *Go to marker* to put the monitor at the marker you want to delete.
+Deletes the :ref:`clip <clips>` that is a the current timepoint. Use *Go to marker* to put the monitor at the marker you want to delete.
 
 
 Delete All Markers
