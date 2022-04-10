@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-29 00:22+0000\n"
-"PO-Revision-Date: 2021-12-07 19:12+0100\n"
+"PO-Revision-Date: 2022-04-09 13:33+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -27,23 +27,30 @@ msgstr "Innehåll"
 
 #: ../../glossary/useful_information/full_luma.rst:19
 msgid "Advance Clip Property - Full Luma Range"
-msgstr ""
+msgstr "Avancerad klippegenskap - Fullständigt luminansintervall"
 
 #: ../../glossary/useful_information/full_luma.rst:21
 msgid "A clip can have its full luma flag set from the :ref:`clips`"
 msgstr ""
+"Ett klipp kan få sin fullständiga luminansalternativ inställt från"
+" :ref:`clips`"
 
 #: ../../glossary/useful_information/full_luma.rst:24
 msgid ""
 "From `this <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
 "do#comment-18298>`_ forum post by Yellow"
 msgstr ""
+"Från `detta <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
+"do#comment-18298>`_ foruminlägg av Yellow"
 
 #: ../../glossary/useful_information/full_luma.rst:27
 msgid ""
 "The full luma option refers to video sources with luma recorded outside of "
 "the typical 'broadcast', 'restricted' 16 - 235 8bit range."
 msgstr ""
+"Det fullständiga luminansalternativet gäller videokällor med luminans"
+" inspelad utanför det typiska 'utsända', 'begränsade' 16 - 235 8-bitars"
+" intervallet."
 
 #: ../../glossary/useful_information/full_luma.rst:30
 msgid ""
@@ -54,6 +61,12 @@ msgid ""
 "highlights saturated, in the preview within **Kdenlive** for camera sources "
 "that are full range."
 msgstr ""
+"Alternativet rättar problem med skicka videofiler fram och tillbaka med"
+" luminans utanför 16 - 235 8-bitars intervallet. Normal, när vi importerar en"
+" video, hanteras och visas den baserat på 16 - 235 intervallet, nivåer under"
+" ungefär 0 till 15 och de ovanför 235 till 255 komprimeras till 0 och 255, så"
+" att skuggor blir överdrivet mörka och dagrar mättade, i förhandsgranskningar"
+" inne i **Kdenlive** för kamerakällor som har hela intervallet."
 
 #: ../../glossary/useful_information/full_luma.rst:33
 msgid ""
@@ -62,6 +75,11 @@ msgid ""
 "in the video we import compared to that exported. **This only really matters "
 "for round tripping to an external application**."
 msgstr ""
+"Sedan när vi återger, förblir nivåerna i den slutliga videon, med"
+" komprimerade skuggor och mättade dagrar, så att det är skillnad mellan"
+" nivåerna i videon vi importerade jämfört med den exporterade. **Det spelar"
+" egentligen bara någon roll när videofiler skickas fram och tillbaka med ett"
+" externt program**."
 
 #: ../../glossary/useful_information/full_luma.rst:36
 msgid ""
@@ -70,6 +88,10 @@ msgid ""
 "235 range, otherwise we see so called 'gamma shifts', 'washed out' or "
 "saturated playback depending on playback handling."
 msgstr ""
+"För all uppspelning på dvd:er, Blue-ray, och dessutom på webben, som Vimeo"
+" eller YouTube, ska våra videonivåer i den slutliga återgivna resultatet vara"
+" i intervallet 16 - 235, annars ser man så kallade 'gammaskiftningar',"
+" 'urtvättat' eller mättad uppspelning, beroende på uppspelningshanteringen."
 
 #: ../../glossary/useful_information/full_luma.rst:39
 msgid ""
@@ -78,6 +100,10 @@ msgid ""
 "handling of the files and preview / scopes are based on an alternative YCbCr "
 "to RGB calculation."
 msgstr ""
+"Dock vill vi egentligen ha kontroll över nivåjusteringarna i **Kdenlive**,"
+" alltså 0 - 255 till 16 - 235 så att alternativet för fullständig luminans"
+" ändrar hantering av filerna, med förhandsgranskning och oscilloskop baserade"
+" på en alternativ beräkning av YCbCr till RGB."
 
 #: ../../glossary/useful_information/full_luma.rst:42
 msgid ""
