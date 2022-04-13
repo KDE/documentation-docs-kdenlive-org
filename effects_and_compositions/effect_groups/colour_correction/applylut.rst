@@ -67,4 +67,8 @@ Simple steps:
    
    Figure 3 - Apply LUT
 
-  
+  5. BALANCING – Adjusting color, for example col 3-point balance, you need to insert the effect above that of the LUT. This allows you to correct the image before it reaches the LUT, then obtaining homogeneous results with other clips.
+  .. figure:: /images/image6.png
+   :width: 800px
+ 
+   :alt: workflow-lut
