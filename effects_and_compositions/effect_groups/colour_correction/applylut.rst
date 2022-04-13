@@ -59,7 +59,6 @@ Simple steps:
    Figure 2 - View of main menu.
 4. Then you need to find the LUT effect to apply. There are several, the majority of which are maintained only for backwards compatibility but not for any result. The right one is Apply LUT, in the section Color correction.
 
-
 .. figure:: /images/image5.png
    :width: 800px
  
@@ -67,7 +66,7 @@ Simple steps:
    
    Figure 3 - Apply LUT
 
-  5. BALANCING – Adjusting color, for example col 3-point balance, you need to insert the effect above that of the LUT. This allows you to correct the image before it reaches the LUT, then obtaining homogeneous results with other clips.
+5. BALANCING – Adjusting color, for example col 3-point balance, you need to insert the effect above that of the LUT. This allows you to correct the image before it reaches the LUT, then obtaining homogeneous results with other clips.
  
   
   
@@ -75,4 +74,4 @@ Simple steps:
    :width: 800px
  
    :alt: workflow-lut
-    Figure 4 - Colour balance
+    Figure 4.  Colour balance
