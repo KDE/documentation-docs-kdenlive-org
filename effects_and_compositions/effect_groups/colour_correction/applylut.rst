@@ -57,4 +57,4 @@ Simple steps:
    :alt: workflow-lut
 
    Figure 2 - View of main menu.
-
+4. Then you need to find the LUT effect to apply. There are several, the majority of which are maintained only for backwards compatibility but not for any result. The right one is Apply LUT, in the section Color correction.
