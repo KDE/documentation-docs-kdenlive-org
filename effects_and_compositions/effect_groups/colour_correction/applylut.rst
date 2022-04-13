@@ -73,3 +73,4 @@ Simple steps:
    :width: 800px
  
    :alt: workflow-lut
+    Figure 4.Colour balance
