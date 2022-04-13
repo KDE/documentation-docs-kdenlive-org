@@ -77,6 +77,7 @@ Simple steps:
     Figure 4.  Colour balance
 
 6.Manually adjust the clip
+==========================
 
 In addition to the LUT, other effects can be used to manually correct the colors   
 
@@ -93,4 +94,16 @@ In addition to the LUT, other effects can be used to manually correct the colors
  
    :alt: workflow-lut
 
+2.SATURATION – After changing the coloration of the image, with one of the two effects that is presented, this allows saturate the color differently depending on the brightness by drawing a curve on the canal saturation.
 
+.. figure:: /images/imagea.png
+   :width: 800px
+ 
+   :alt: workflow-lut
+  
+Before and After
+
+.. figure:: /images/image1d.png
+   :width: 800px
+ 
+   :alt: workflow-lut
