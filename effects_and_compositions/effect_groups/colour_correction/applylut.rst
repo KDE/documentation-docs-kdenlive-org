@@ -76,7 +76,7 @@ Simple steps:
    :alt: workflow-lut
     Figure 4.  Colour balance
 
-6.Manually adjust the clip
+Manually adjust the clip
 ==========================
 
 In addition to the LUT, other effects can be used to manually correct the colors   
