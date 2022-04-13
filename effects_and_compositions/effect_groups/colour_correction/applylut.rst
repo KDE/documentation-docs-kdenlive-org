@@ -75,3 +75,22 @@ Simple steps:
  
    :alt: workflow-lut
     Figure 4.  Colour balance
+
+6.Manually adjust the clip
+
+In addition to the LUT, other effects can be used to manually correct the colors   
+
+.. figure:: /images/image7.png
+   :width: 800px
+ 
+   :alt: workflow-lut
+
+1 CHANGE OF SHADES – This allows, for example, to color the background in blue and the actor in orange, widely used in classic Hollywood postproduction setup. A faster but less detailed alternative is Hue shift, which shifts all shades towards red or blue.
+
+
+.. figure:: /images/image20.png
+   :width: 800px
+ 
+   :alt: workflow-lut
+
+
