@@ -94,6 +94,48 @@ https://youtu.be/h36S-awjLBk
 
 https://youtu.be/nFv46XQUO34
 
+
+Example 1.How to make rotoscoping selection.
+----------
+1.Open Setting Menu, Change DirectX (Angle) to OpenGL, this will restart Kdenlive to new settings. 
+
+.. image:: /images/imagef.png
+   :align: left
+
+2.Choose Color, from the main menu to allow work with color scope.
+
+.. image:: /images/image10.png
+   :align: left
+
+For this example, the Sun object will be chosen for changing tone. Come back to edit mode.
+
+.. image:: /images/image21.png
+   :align: left
+
+3.Head over to effects menu, type in Rotoscoping than drag it over video to see further instructions.
+
+.. image:: /images/image13.png 
+   :align: right
+
+
+4. By clicking the left mouse button for selection object and right mouse click to complete selection. 
+
+.. image:: /images/image14.png 
+   :align: left
+
+.. image:: /images/image15.png 
+   :align: left 
+5.Come back to color menu then vectorospe via drop-down at the bottom right-hand corner choose YUV paint mode. 
+
+.. image:: /images/image18.png 
+   :align: left 
+
+ 6.Choose color balance for color grading.
+
+.. image:: /images/image19.png 
+   :align: left 
+
+
 Tutorial with Rotoscoping
 -------------------------
 
