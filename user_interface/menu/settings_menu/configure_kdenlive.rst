@@ -37,7 +37,7 @@ Open the last project on startup
 
 Check if the first added clip matches the project profile
 
-Crash recovery (automatic backup)
+Crash recovery (:ref:`auto_save`)
 
 Use KDE job tracking for render jobs
 
