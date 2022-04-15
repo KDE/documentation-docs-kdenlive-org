@@ -1,3 +1,7 @@
+.. meta::
+   :description: The Kdenlive User Manual
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, archive, archiving
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -15,8 +19,6 @@
 Archiving
 =========
 
-.. contents::
-
 .. image:: /images/Archive.png
    :align: left
    :alt: Archive
@@ -27,6 +29,29 @@ Archiving changes the project file to update the path of video clips to the arch
 
 This can be useful if you finished working on a project and want to keep a copy of it, or if you want to move a project from one computer to another.
 
-The resulting tar.gz file can be opened directly in **Kdenlive**.  Kdenlive will uncompress it to a location you specify before opening it.
+.. container:: clear-both
 
+   .. image:: /images/Kdenlive_Arcive_Open.png
+      :align: left
+      :alt: Kdenlive Arcive Open
 
+   The resulting tar.gz or zip file can be opened directly in **Kdenlive** with :menuselection:`File --> Open`, then switch file ending to :guilabel:`Archived Project`.
+
+.. container:: clear-both
+
+   .. image:: /images/Kdenlive_Open_Archived_Project.png
+      :align: left
+      :alt: Kdenlive Open Archived Project
+
+   Kdenlive will uncompress it to a location you specify before opening it.
+
+.. container:: clear-both
+
+   .. image:: /images/Kdenlive_Missing_Clips.png
+      :align: left
+      :width: 350px
+      :alt: Kdenlive Missing Clips
+
+   If you have archived the project with the option :guilabel:`Archive only timeline clips`, **Kdenlive** ask what it should do with the not archived cips.
+
+.. rst-class:: clear-both
