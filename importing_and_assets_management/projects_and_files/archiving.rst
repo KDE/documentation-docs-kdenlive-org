@@ -52,6 +52,6 @@ This can be useful if you finished working on a project and want to keep a copy 
       :width: 350px
       :alt: Kdenlive Missing Clips
 
-   If you have archived the project with the option :guilabel:`Archive only timeline clips`, **Kdenlive** ask what it should do with the not archived cips.
+   If you have archived the project with the option :guilabel:`Archive only timeline clips`, **Kdenlive** ask what it should do with the not archived clips.
 
 .. rst-class:: clear-both
