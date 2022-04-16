@@ -1,3 +1,7 @@
+.. meta::
+   :description: The Kdenlive User Manual
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, Windows workaround, problem solving
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
@@ -16,7 +20,14 @@ Windows issues
 
 .. contents::
 
-The current **Kdenlive** on Windows® (April 2020, version 20.04.0) has a few issues that have workarounds. The purpose of this wiki page is to document these issues and their workarounds.
+The current **Kdenlive** on Windows® (April 2022, version 21.12.3) has a few issues that have workarounds. The purpose of this wiki page is to document these issues and their workarounds.
+
+.. _reset_configuration:
+
+Title tool, display real background not working in "DirectX" backend
+--------------------------------------------------------------------
+
+Something with the settings went wrong. Go to: :menuselection:`Help --> Reset Configuration` and try again.
 
 
 Render problems
@@ -81,7 +92,7 @@ Go to: :menuselection:`settings` -> untick :menuselection:`force breeze icon the
 Cannot open projects made with previous version, timeline snaps back, cannot import clip
 ----------------------------------------------------------------------------------------
 
-Go to: :menuselection:`Help` -> :menuselection:`Reset configuration`. 
+Go to: :menuselection:`Help --> Reset configuration`. 
 
 
 If this is not solving the problem: Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive -> do nothing -> close Kdenlive -> and restart Kdenlive again.

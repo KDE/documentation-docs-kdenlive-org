@@ -18,3 +18,5 @@ Windows issue with scopes
    
 
    Workaround: Change the backend to OpenGL (:menuselection:`Settings --> OpenGL Backend --> OpenGL`)
+
+   If it's still not working go to: :menuselection:`Help --> Reset Configuration` and try again.
