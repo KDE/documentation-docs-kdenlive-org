@@ -74,6 +74,8 @@ Maybe this statement helps: `Corrupted GUI <https://forum.kde.org/viewtopic.php?
 . Restart Kdenlive.
 
 
+.. _style:
+
 Timeline: right-click menu close immediately after releasing mouse button
 -------------------------------------------------------------------------
 
@@ -82,6 +84,7 @@ Don't use the style :menuselection:`Fusion`.
 
 Go to: :menuselection:`Settings` -> :menuselection:`Style` and choose :menuselection:`Default` or :menuselection:`Windows`.
 
+.. _force_breeze_icon_theme:
 
 Icons are missing
 -----------------

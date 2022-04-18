@@ -36,6 +36,7 @@ Rendering Dialog Version
 .. image:: /images/exporting/render_dialog_21-08.png
    :alt: File rendering dialog
 
+:ref:`download_new_render_profiles`
 
 Rendering Profile Categories
 ----------------------------

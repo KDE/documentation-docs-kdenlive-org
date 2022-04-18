@@ -1,3 +1,7 @@
+.. meta::
+   :description: The Kdenlive User Manual
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, setting, configure, adjustment, change setting
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -6,6 +10,7 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Jack (https://userbase.kde.org/User:Jack)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -18,23 +23,24 @@ Settings Menu
 
 
 .. image:: /images/Settings_menu.png
-  :align: left
-  :alt: Settings menu
+   :align: left
+   :width: 350px
+   :alt: Settings menu
 
-
-* :ref:`manage_project_profiles`
-* :ref:`download_new_wipes`
-* :ref:`download_new_render_profiles`
-* :ref:`download_new_project_profiles`
-* :ref:`download_new_title_templates`
-* :ref:`run_config_wizard`
-* :ref:`themes`
-* :ref:`toolbars_shown`
-* :ref:`full_screen_mode`
-* :ref:`configure_shortcuts`
-* :ref:`toolbars`
-* :ref:`configure_notifications`
-* :ref:`configure_kdenlive`
+*  :ref:`manage_cached_data`
+*  :ref:`run_config_wizard`
+*  :ref:`OpenGL Backend <scopes_directx>` Windows only: You can switch the OpenGL backend if you have playback issues.
+*  :ref:`Force Breeze Icon Theme <force_breeze_icon_theme>`
+*  :ref:`Color Theme <themes>`
+*  :ref:`Style <style>`
+*  :ref:`Show Menubar <toolbars_shown>`
+*  :ref:`Toolbars Shown <toolbars_shown>`
+*  :ref:`Show Status bar <toolbars>`
+*  :ref:`Configure Language... <configure_language>` 
+*  :ref:`Configure Keyboard Shortcute <configure_shortcuts>`
+*  :ref:`Configure Toolbars <toolbars>`
+*  :ref:`configure_notifications`
+*  :ref:`configure_kdenlive`
 
 .. rst-class:: clear-both
 
@@ -52,8 +58,12 @@ On the Mac OS X build of Kdenlive the :menuselection:`Settings` menu does not co
 .. image:: /images/Kdenlive_Preferences_OSX.png
    :alt: Preference OSX
 
-.. toctree::
-   :caption: Contents:
-   :glob:
+.. _configure_language:
 
-   settings_menu/*
+Configure Language
+------------------
+
+.. image:: /images/configure_language.png
+   :alt: configure language
+
+Setting Kdenlive to your preferred language.
