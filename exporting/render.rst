@@ -1,3 +1,7 @@
+.. meta::
+   :description: The Kdenlive User Manual
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, render, render parameter, render zone, render multiple zone
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -11,6 +15,7 @@
              - Jack (https://userbase.kde.org/User:Jack)
              - Roger (https://userbase.kde.org/User:Roger)
              - KGHN (https://userbase.kde.org/User:KGHN)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -30,11 +35,13 @@ Rendering is the process where the edited clips are saved into a single complete
 The rendering dialog is brought up from the render button |media-record| from selecting :menuselection:`Project --> Render` menu item or by the :kbd:`Ctrl + Enter` shortcut.
 
 
-Rendering Dialog Version
-------------------------
+Rendering Dialog
+----------------
 
-.. image:: /images/exporting/render_dialog_21-08.png
-   :alt: File rendering dialog
+.. versionchanged:: 22.04
+   
+.. image:: /images/exporting/render_dialog_22-04.png
+   :alt: File rendering dialog 22.04
 
 :ref:`download_new_render_profiles`
 
@@ -46,45 +53,76 @@ Rendering Profile Categories
 
 **Kdenlive** offers many different preset rendering profiles to choose from. The rendering profiles are grouped into categories. See picture Above.
 
+Full Project
+------------
 
-Create Custom Render Profiles
------------------------------
+:guilabel:`Full Project` radio button is the default setting. **Kdenlive** render from from the first clip until the last clip in the timeline. 
 
-You can create your own custom render profiles by clicking |document-new|.
+Selected Zone
+-------------
 
-This will open the **Save Profile** dialog (also shown in the above screenshot) and the :guilabel:`Parameters` section will be filled in with the render parameters of the profile that you had selected when you clicked the |document-new| button. You can edit values in the parameters and save your own custom render profile.
-
-.. image:: /images/exporting/edit_render_profile_21-08.png
-   :alt: Dialog to edit render profiles
-
-The parameters in the rendering profile are *melt* parameters. For an explanation of their meaning, check the *melt* `documentation <https://www.mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt.
-
-See also :ref:`render_profile_parameters`.
-
-
-Rendering In Batch mode
------------------------
-
-If you have a lot of rendering jobs to do, you can use **Kdenlive** to create rendering scripts which you can accumulate and then execute in batch mode overnight. See :ref:`rendering`.
-
-Alternatively, once you have submitted a rendering job on a project and it is up and running in the **Job Queue**, you can drag the render window out of the way and edit the project some more or load a new project and render that one too. The second render job submitted will go into the **Job Queue**. Editing the project after a render job is submitted will not change the settings on that job.
-
-.. image:: /images/Kdenlive_Rendering_job_queue.png
-   :width: 400px
-   :alt: Kdenlive_Rendering_job_queue
-
-
-Rendering Using the Guide Zone Option
--------------------------------------
-
-This makes use of :ref:`guides` to define a region of the project that is to be rendered. See :ref:`rendering`.
+:guilabel:`Selected Zone` radio button, **Kdenlive** will only render that portion of the project which has a selected zone created for it. See :ref:`monitors`.
 
 .. _remder_using_zone:
 
-Rendering Using the Selected Zone Option
-----------------------------------------
+Guide Zone
+----------
 
-If you select the :guilabel:`Selected Zone` radio button from the bottom of the render dialog, **Kdenlive** will only render that portion of the project which has a selected zone created for it. See :ref:`monitors`.
+.. image:: /images/exporting/render_guide_zone_22-04.png
+   :alt: render guide zone 22-04
+
+:guilabel:`Guide zone` radio button makes use of :ref:`guides` to define a region of the project that is to be rendered. See :ref:`rendering`.
+
+
+Guide Multi-Export
+------------------
+
+.. versionadded:: 22.04
+
+.. image:: /images/exporting/render_guide_multi-export_22-04.png
+   :alt: render guide multi export 22-04
+
+:guilabel:`Guide Multi-Export` radio button makes use of :ref:`guides` categories to be rendered. 
+
+.. image:: /images/exporting/render_guide_multi-export_example_22-04.png
+   :alt: render guide multi-export example 22-04
+
+The selection of guide categories indicates which guides categories will be considered for rendering. In the example above, there are the following options:
+
+*	"All Categories": This leads to four files: 
+
+   * `projectname-begin.mp4` (from 00:00:00 to "guide1")
+  
+   * `projectname-guide1.mp4` (from "guide1" to "guide2")
+   
+   * `projectname-guide2.mp4` (from "guide2" to "guide3")
+  
+   * `projectname-guide3.mp4` (from "guide3" to the end)
+
+*	"Category 0 (purple)": This leads to three files:
+   
+   * `projectname-begin.mp4` (from 00:00:00 to "guide1")
+    
+   * `projectname-guide1.mp4` (from "guide1" to "guide2")
+   
+   * `projectname-guide2.mp4` (from "guide2" to the end)
+
+*	"Category 1 (blue)": This leads to two files: 
+
+   * `projectname-begin.mp4` (from 00:00:00 to "guide3")
+   * `projectname-guide3.mp4` (from "guide3" to the end)
+
+* If guides are behind the last timeline clip, they are ignored. 
+
+* If a guide sits right at the beginning of the timeline, the name of that guide is used instead of "begin". 
+
+* If two guides have the same name, an underscore and a number will be added to the file name.
+
+
+More Option
+-----------
+
+:guilabel:`More Option` show you more options for rendering.
 
 
 Render Overlay
@@ -228,18 +266,32 @@ Encoder Threads
 Determines the value of *Encoding threads* passed to melt. For encoding to certain codecs, namely MPEG-2, MPEG-4, H.264, and VP8, kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines. See `melt doco - threads <https://www.mltframework.org/plugins/ConsumerAvformat/#threads>`_ and `melt FAQ <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_ on multi-threading.
 
 
-Scanning Dropdown
------------------
 
-.. image:: /images/exporting/render_dialog_21-08_scanning.png
-   :alt: Scanning dropdown of the render dialog
-   :align: left
+Create Custom Render Profiles
+-----------------------------
 
-This option controls the frame scanning setting the rendered file will have.
-Options are *Force Progressive*, *Force Interlaced* and *Auto*.
+You can create your own custom render profiles by clicking |document-new|.
 
-:menuselection:`Auto` causes the rendered file to take the scanning settings that are defined in the :ref:`project_settings`. Use the other options to override the setting defined in the project settings.
+This will open the **Save Profile** dialog (also shown in the above screenshot) and the :guilabel:`Parameters` section will be filled in with the render parameters of the profile that you had selected when you clicked the |document-new| button. You can edit values in the parameters and save your own custom render profile.
 
+.. image:: /images/exporting/edit_render_profile_22-04.png
+   :alt: Dialog to edit render profiles
+
+The parameters in the rendering profile are *melt* parameters. For an explanation of their meaning, check the *melt* `documentation <https://www.mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt.
+
+See also :ref:`render_profile_parameters`.
+
+
+Rendering In Batch mode
+-----------------------
+
+If you have a lot of rendering jobs to do, you can use **Kdenlive** to create rendering scripts which you can accumulate and then execute in batch mode overnight. See :ref:`rendering`.
+
+Alternatively, once you have submitted a rendering job on a project and it is up and running in the **Job Queue**, you can drag the render window out of the way and edit the project some more or load a new project and render that one too. The second render job submitted will go into the **Job Queue**. Editing the project after a render job is submitted will not change the settings on that job.
+
+.. image:: /images/Kdenlive_Rendering_job_queue.png
+   :width: 400px
+   :alt: Kdenlive_Rendering_job_queue
 
 Variable Bit Rate - earlier Versions
 ------------------------------------

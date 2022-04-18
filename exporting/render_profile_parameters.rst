@@ -1,3 +1,7 @@
+.. meta::
+   :description: The Kdenlive User Manual
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, render, render profile, render parameter
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -7,6 +11,7 @@
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Jack (https://userbase.kde.org/User:Jack)
              - Roger (https://userbase.kde.org/User:Roger)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -21,9 +26,20 @@ Render Profile Parameters
 Render Profile Parameters - How to read them
 --------------------------------------------
 
-.. image:: /images/exporting/edit_render_profile_21-08.png
+.. versionchanged:: 22.04
+
+.. image:: /images/exporting/edit_render_profile_22-04.png
    :align: left
-   :alt: Kdenlive_Edit_render_profile_0
+   :alt: Kdenlive_Edit_render_profile_video
+
+.. image:: /images/exporting/edit_render_profile__audio_22-04.png
+   :align: left
+   :alt: Kdenlive_Edit_render_profile_audio
+
+.. image:: /images/exporting/edit_render_profile_other_22-04.png
+   :align: left
+   :alt: Kdenlive_Edit_render_profile_other
+   
 
 Kdenlive now makes use of "property presets" delivered by the *melt* project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). These presets are referenced by the *properties=<preset>* syntax. In the example illustrated, the render profile is referencing *lossless/H.264*. This refers to a property preset found in file H.264 found on the system at :file:`/usr/share/mlt/presets/consumer/avformat/lossless`.
 
@@ -58,6 +74,18 @@ Contents of lossless/H.264:
   <!--T:28-->
   meta.preset.extension=mp4
   meta.preset.note=Intra-frame only, lossless compressed MPEG-4 AVC with AAC audio
+
+Scanning Dropdown
+-----------------
+
+.. image:: /images/exporting/render_dialog_21-08_scanning.png
+   :alt: Scanning dropdown of the render dialog
+   :align: left
+
+This option controls the frame scanning setting the rendered file will have.
+Options are *Force Progressive*, *Force Interlaced* and *Auto*.
+
+:menuselection:`Auto` causes the rendered file to take the scanning settings that are defined in the :ref:`project_settings`. Use the other options to override the setting defined in the project settings.
 
 
 Render Profile Parameters - How to read them
