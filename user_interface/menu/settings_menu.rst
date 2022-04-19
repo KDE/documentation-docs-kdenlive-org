@@ -37,7 +37,7 @@ Settings Menu
 *  :ref:`Toolbars Shown <toolbars_shown>`
 *  :ref:`Show Status bar <toolbars>`
 *  :ref:`Configure Language... <configure_language>` 
-*  :ref:`Configure Keyboard Shortcute <configure_shortcuts>`
+*  :ref:`Configure Keyboard Shortcuts <configure_shortcuts>`
 *  :ref:`Configure Toolbars <toolbars>`
 *  :ref:`configure_notifications`
 *  :ref:`configure_kdenlive`
