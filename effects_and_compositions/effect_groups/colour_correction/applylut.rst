@@ -48,7 +48,7 @@ Simple steps:
 
 2. SEVEN CUBE FILES – Download the zip file, just extract it into a folder: each of the files, which is then a simple text file, represents a Look Up Table. Those examples were developed inspired by famous films (whose titles are parodied in the file name).
 
-3.Once package is downloaded and unpacked, open effects menu in the right corner of the program window.
+3. Once package is downloaded and unpacked, open effects menu in the right corner of the program window.
 
 
 .. figure:: /images/image4.png
@@ -86,7 +86,7 @@ In addition to the LUT, other effects can be used to manually correct the colors
  
    :alt: workflow-lut
 
-1 CHANGE OF SHADES – This allows, for example, to color the background in blue and the actor in orange, widely used in classic Hollywood postproduction setup. A faster but less detailed alternative is Hue shift, which shifts all shades towards red or blue.
+1. CHANGE OF SHADES – This allows, for example, to color the background in blue and the actor in orange, widely used in classic Hollywood postproduction setup. A faster but less detailed alternative is Hue shift, which shifts all shades towards red or blue.
 
 
 .. figure:: /images/image20.png
@@ -94,7 +94,7 @@ In addition to the LUT, other effects can be used to manually correct the colors
  
    :alt: workflow-lut
 
-2.SATURATION – After changing the coloration of the image, with one of the two effects that is presented, this allows saturate the color differently depending on the brightness by drawing a curve on the canal saturation.
+2. SATURATION – After changing the coloration of the image, with one of the two effects that is presented, this allows saturate the color differently depending on the brightness by drawing a curve on the canal saturation.
 
 .. figure:: /images/imagea.png
    :width: 800px
