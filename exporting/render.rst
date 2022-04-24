@@ -45,13 +45,13 @@ Rendering Dialog
 
 :ref:`download_new_render_profiles`
 
-Rendering Profile Categories
+Rendering Preset Categories
 ----------------------------
 
-.. image:: /images/exporting/render_dialog_17-04_categories_expanded.png
-   :alt: File rendering categories - ver 17.04
+.. image:: /images/exporting/render_dialog_22-04_categories_expanded.png
+   :alt: File rendering categories - ver 22.04
 
-**Kdenlive** offers many different preset rendering profiles to choose from. The rendering profiles are grouped into categories. See picture Above.
+**Kdenlive** offers many different rendering presets to choose from. The rendering presets are grouped into categories. See picture Above.
 
 Full Project
 ------------
@@ -265,19 +265,29 @@ Encoder Threads
 
 Determines the value of *Encoding threads* passed to melt. For encoding to certain codecs, namely MPEG-2, MPEG-4, H.264, and VP8, kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines. See `melt doco - threads <https://www.mltframework.org/plugins/ConsumerAvformat/#threads>`_ and `melt FAQ <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_ on multi-threading.
 
+.. _custom_render_presets:
+
+Create Custom Render Presets
+----------------------------
+
+.. image:: /images/exporting/kdenlive_custom_render_presets.png
+   :alt: kdenlive_custom_render_presets
 
 
-Create Custom Render Profiles
------------------------------
+|document-new| Creates a new preset based on the project profile.
 
-You can create your own custom render profiles by clicking |document-new|.
+|edit-download| Downloading additional user created presets.
 
-This will open the **Save Profile** dialog (also shown in the above screenshot) and the :guilabel:`Parameters` section will be filled in with the render parameters of the profile that you had selected when you clicked the |document-new| button. You can edit values in the parameters and save your own custom render profile.
+|document-save-as| Save the selected preset under a new name.
+
+|document-edit| Save the preset under the current name ie. change it.
+
+|document-new| |document-save-as| |document-edit| Will open the **Save Render Preset** dialog (also shown in the screenshot below) and the :guilabel:`Parameters` section will be filled in with the render parameters of the preset that you had selected when you clicked either of the |document-new| or |document-save-as| or |document-edit| button. You can edit values in the parameters and save your own custom render preset.
 
 .. image:: /images/exporting/edit_render_profile_22-04.png
-   :alt: Dialog to edit render profiles
+   :alt: Dialog to edit render presets
 
-The parameters in the rendering profile are *melt* parameters. For an explanation of their meaning, check the *melt* `documentation <https://www.mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt.
+The parameters in the rendering presets are *melt* parameters. For an explanation of their meaning, check the *melt* `documentation <https://www.mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt.
 
 See also :ref:`render_profile_parameters`.
 

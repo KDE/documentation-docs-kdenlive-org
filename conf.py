@@ -97,6 +97,15 @@ rst_epilog = """
 .. |document-new| image:: /images/icons/document-new.svg
    :width: 22px
 
+.. |document-save-as| image:: /images/icons/document-save-as.svg
+   :width: 22px
+
+.. |document-edit| image:: /images/icons/document-edit.svg
+   :width: 22px
+
+.. |edit-download| image:: /images/icons/edit-download.svg
+   :width: 22px
+
 .. |kdenlive-lock| image:: /images/icons/kdenlive-lock.svg
    :width: 22px
 
