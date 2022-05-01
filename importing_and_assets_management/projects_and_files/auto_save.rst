@@ -14,4 +14,4 @@
 Auto Save
 =========
 
-Autosaves are generated 3 seconds after the user do a undoable action, **BUT** only if you don't do another action within these 3 seconds. These autosaves are offered the first time after you open the project again in case the autosave is newer than the last saved project version. Autosaves are stored in stale files, not in normal *.kdenlive files
+Autosaves are generated 3 seconds after the user do a undoable action, **BUT** only if you don't do another action within these 3 seconds. These autosaves are offered the first time after you open the project again in case the autosave is newer than the last saved project version. Autosaves are stored in stale files, not in normal \*.kdenlive files

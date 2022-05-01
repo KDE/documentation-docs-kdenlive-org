@@ -67,3 +67,9 @@ Configure Language
    :alt: configure language
 
 Setting Kdenlive to your preferred language.
+
+.. toctree::
+   :caption: Contents:
+   :glob:
+
+   settings_menu/*
