@@ -83,7 +83,7 @@ Extract frame
 
 Extracts the frame currently in the project monitor as a .PNG image which you can save to the file system.
 
-Example how to extract frame
+Example how to extract frame?
 ----------------------------
 Kdenlive sends that frame to the stills gallery, which includes the image and the node structure. You can see if you display node graph by right-clicking, which is helpful to copy and paste adjustments for other clips.
 
