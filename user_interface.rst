@@ -50,7 +50,7 @@ This page introduces the Kdenlive user interface (UI), explaining where to find 
 
 Customizing interface
 ---------------------
-The User interface model has clear division between the different panes, that they work on allows you to reorder them, drag them out into separate windows or size them up as you will.
+The User interface model has a clear division between the different panes, that they work on allows you to reorder them, drag them out into separate windows or size them up as you will.
 
 The interface is divided into many sections. The menu is on top and then on the left you can make a note about the project. All loaded clips and videos are in the project tree, the second section. Third and my favorite section is the Effect list. You can apply many transaction effects on your video. You can always watch the project preview in the last section. You can create as many audio/video track as you need. This is impressive about Kdenlive. If you’re new to video editing then this is very useful. You can import multiple title clips inside video track.Remove/Adjust Sections
 
