@@ -56,7 +56,7 @@ Rendering Preset Categories
 Full Project
 ------------
 
-:guilabel:`Full Project` radio button is the default setting. **Kdenlive** render from from the first clip until the last clip in the timeline. 
+:guilabel:`Full Project` radio button is the default setting. **Kdenlive** render from the first clip until the last clip in the timeline. 
 
 Selected Zone
 -------------
@@ -280,7 +280,7 @@ Create Custom Render Presets
 
 |document-save-as| Save the selected preset under a new name.
 
-|document-edit| Save the preset under the current name ie. change it.
+|document-edit| Save the preset under the current name i.e. replace it.
 
 |document-new| |document-save-as| |document-edit| Will open the **Save Render Preset** dialog (also shown in the screenshot below) and the :guilabel:`Parameters` section will be filled in with the render parameters of the preset that you had selected when you clicked either of the |document-new| or |document-save-as| or |document-edit| button. You can edit values in the parameters and save your own custom render preset.
 
