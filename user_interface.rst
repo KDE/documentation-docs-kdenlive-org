@@ -46,7 +46,7 @@ Kdenlive’s interface is separated into four main parts:
 
    Kdenlive UI
    ------------
-This page introduces the Kdenlive user interface (UI), explaining where to find each group of features, and how the highly focused and tightly integrated Media, Edit,Color, Fairlight, and Deliver pages work together to let you pursue nearly any post-production workflow you can imagine.
+This page introduces the Kdenlive user interface (UI), explaining where to find each group of features, and how the highly focused and tightly integrated Media, Edit, Color, Fairlight, and Deliver pages work together to let you pursue nearly any post-production workflow you can imagine.
 
 Customizing interface
 ---------------------
