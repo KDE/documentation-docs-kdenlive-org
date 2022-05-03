@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-18 00:21+0000\n"
-"PO-Revision-Date: 2021-12-31 14:19+0200\n"
+"POT-Creation-Date: 2022-05-02 00:38+0000\n"
+"PO-Revision-Date: 2022-05-02 08:33+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,20 +18,33 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#: ../../exporting/render_profile_parameters.rst:16
+#: ../../exporting/render_profile_parameters.rst:1
+msgid "The Kdenlive User Manual"
+msgstr "Підручник користувача Kdenlive"
+
+#: ../../exporting/render_profile_parameters.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, render, render profile, render parameter"
+msgstr ""
+"KDE, Kdenlive, документація, підручник, відеоредактор, відео, відкритий код, "
+"вільний, довідка, допомога, вивчення, вивчити, обробка, профіль обробки,"
+" параметр обробки"
+
+#: ../../exporting/render_profile_parameters.rst:21
 msgid "Render Profile Parameters"
 msgstr "Параметри профілю обробки"
 
-#: ../../exporting/render_profile_parameters.rst:19
+#: ../../exporting/render_profile_parameters.rst:24
 msgid "Contents"
 msgstr "Зміст"
 
-#: ../../exporting/render_profile_parameters.rst:22
-#: ../../exporting/render_profile_parameters.rst:64
+#: ../../exporting/render_profile_parameters.rst:27
+#: ../../exporting/render_profile_parameters.rst:92
 msgid "Render Profile Parameters - How to read them"
 msgstr "Параметри профілю обробки — як їх читати"
 
-#: ../../exporting/render_profile_parameters.rst:28
+#: ../../exporting/render_profile_parameters.rst:44
 msgid ""
 "Kdenlive now makes use of \"property presets\" delivered by the *melt* "
 "project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). "
@@ -47,7 +60,7 @@ msgstr ""
 "визначення посилання на набір властивостей у файлі H.264, який зберігається "
 "у теці :file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
 
-#: ../../exporting/render_profile_parameters.rst:30
+#: ../../exporting/render_profile_parameters.rst:46
 msgid ""
 "All the *<presets>* referenced in the render settings in Kdenlive will be "
 "referring to presets found at :file:`/usr/share/mlt/presets/consumer/"
@@ -62,7 +75,7 @@ msgstr ""
 "синтаксичних конструкцій :file:`<назва_каталогу>/<профіль>`, як це показано "
 "у наведеному вище прикладі."
 
-#: ../../exporting/render_profile_parameters.rst:39
+#: ../../exporting/render_profile_parameters.rst:55
 msgid ""
 "The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` "
 "are simple text files that contain the *melt* parameters that define the "
@@ -76,15 +89,39 @@ msgstr ""
 "параметри, які використовувалися у застарілих версіях Kdenlive (див. "
 "наступний розділ, присвячений їхньому опису)."
 
-#: ../../exporting/render_profile_parameters.rst:41
+#: ../../exporting/render_profile_parameters.rst:57
 msgid "Contents of lossless/H.264:"
 msgstr "Вміст lossless/H.264:"
 
-#: ../../exporting/render_profile_parameters.rst:68
+#: ../../exporting/render_profile_parameters.rst:79
+msgid "Scanning Dropdown"
+msgstr "Спадний список сканування"
+
+#: ../../exporting/render_profile_parameters.rst:85
+msgid ""
+"This option controls the frame scanning setting the rendered file will have. "
+"Options are *Force Progressive*, *Force Interlaced* and *Auto*."
+msgstr ""
+"За допомогою цього пункту можна керувати параметром сканування кадрів у "
+"обробленому файлі. Варіантами є *Примусова прогресивність*, *Примусова "
+"черезрядковість* та *Авто*."
+
+#: ../../exporting/render_profile_parameters.rst:88
+msgid ""
+":menuselection:`Auto` causes the rendered file to take the scanning settings "
+"that are defined in the :ref:`project_settings`. Use the other options to "
+"override the setting defined in the project settings."
+msgstr ""
+":menuselection:`Авто` означає, що у обробленому файлі буде використано "
+"параметри сканування, які було визначено у :ref:`параметрах проєкту "
+"<project_settings>`. Скористайтеся запропонованими варіантами, щоб "
+"перевизначити значення параметра, яке визначено у параметрах проєкту."
+
+#: ../../exporting/render_profile_parameters.rst:96
 msgid "|outdated|"
 msgstr "|outdated|"
 
-#: ../../exporting/render_profile_parameters.rst:70
+#: ../../exporting/render_profile_parameters.rst:98
 msgid ""
 "The parameters that go into a render profile derive from the **ffmpeg** "
 "program."
@@ -92,7 +129,7 @@ msgstr ""
 "Параметри, які є частиною профілю обробки, походять від параметрів програми "
 "**ffmpeg**."
 
-#: ../../exporting/render_profile_parameters.rst:72
+#: ../../exporting/render_profile_parameters.rst:100
 msgid ""
 "This is a worked example to show how you can understand what these "
 "parameters mean using the **ffmpeg** documentation."
@@ -100,11 +137,11 @@ msgstr ""
 "Це типовий приклад для демонстрації того, як розібратися із значенням "
 "параметрів за допомогою документації з **ffmpeg**."
 
-#: ../../exporting/render_profile_parameters.rst:74
+#: ../../exporting/render_profile_parameters.rst:102
 msgid "In the example above the parameters are:"
 msgstr "У наведеному вище прикладі було використано такі параметри:"
 
-#: ../../exporting/render_profile_parameters.rst:96
+#: ../../exporting/render_profile_parameters.rst:124
 msgid ""
 "Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
 "translates these parameters as shown below."
@@ -112,30 +149,30 @@ msgstr ""
 "Дані з `довідки ffmpeg <https://linux.die.net/man/1/ffmpeg>`_ описують "
 "параметри так, як вказано нижче."
 
-#: ../../exporting/render_profile_parameters.rst:98
+#: ../../exporting/render_profile_parameters.rst:126
 msgid "Main option is:"
 msgstr "Основний параметр:"
 
-#: ../../exporting/render_profile_parameters.rst:104
+#: ../../exporting/render_profile_parameters.rst:132
 msgid "Video options are:"
 msgstr "Параметри відео:"
 
-#: ../../exporting/render_profile_parameters.rst:116
+#: ../../exporting/render_profile_parameters.rst:144
 msgid "Audio options are:"
 msgstr "Параметри звуку:"
 
-#: ../../exporting/render_profile_parameters.rst:124
+#: ../../exporting/render_profile_parameters.rst:152
 msgid "The AVCodecContext AVOptions include:"
 msgstr "Параметри звуку і відео AVCodecContext включають:"
 
-#: ../../exporting/render_profile_parameters.rst:133
+#: ../../exporting/render_profile_parameters.rst:161
 msgid ""
 "So all the render profile options are documented here in the **ffmpeg** "
 "documentation."
 msgstr ""
 "Отже, усі параметри профілю обробки описано у документації з **ffmpeg**."
 
-#: ../../exporting/render_profile_parameters.rst:135
+#: ../../exporting/render_profile_parameters.rst:163
 msgid ""
 "See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on "
 "ConsumerAvFormat."
@@ -143,7 +180,7 @@ msgstr ""
 "Див. також `документацію з MLT <https://www.mltframework.org/docs/presets/"
 ">`_ щодо ConsumerAvFormat."
 
-#: ../../exporting/render_profile_parameters.rst:137
+#: ../../exporting/render_profile_parameters.rst:165
 msgid ""
 "See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum."
 "kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."

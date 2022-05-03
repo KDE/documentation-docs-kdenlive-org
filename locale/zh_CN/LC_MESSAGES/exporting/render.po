@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 00:38+0000\n"
+"POT-Creation-Date: 2022-05-02 00:38+0000\n"
 "PO-Revision-Date: 2022-04-26 15:21\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -18,15 +18,25 @@ msgstr ""
 "docs_kdenlive_org_exporting___render.pot\n"
 "X-Crowdin-File-ID: 26081\n"
 
-#: ../../exporting/render.rst:20
+#: ../../exporting/render.rst:1
+msgid "The Kdenlive User Manual"
+msgstr ""
+
+#: ../../exporting/render.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, render, render parameter, render zone, render multiple zone"
+msgstr ""
+
+#: ../../exporting/render.rst:25
 msgid "Rendering"
 msgstr "渲染"
 
-#: ../../exporting/render.rst:26
+#: ../../exporting/render.rst:31
 msgid "Contents"
 msgstr "目录"
 
-#: ../../exporting/render.rst:28
+#: ../../exporting/render.rst:33
 msgid ""
 "Rendering is the process where the edited clips are saved into a single "
 "complete video clip. During the rendering process the video can be "
@@ -35,7 +45,7 @@ msgstr ""
 "渲染是将编辑好的片段保存到单个完整视频片段的过程。 在渲染过程中，视频可以被压"
 "缩并转换成多种不同的视频格式（又名编码）。"
 
-#: ../../exporting/render.rst:30
+#: ../../exporting/render.rst:35
 msgid ""
 "The rendering dialog is brought up from the render button |media-record| "
 "from selecting :menuselection:`Project --> Render` menu item or by the :kbd:"
@@ -44,106 +54,148 @@ msgstr ""
 "点击 :menuselection:`项目 --> 渲染` 菜单项中的渲染按钮 |media-record| ，或按"
 "下 :kbd:`Ctrl + Enter` 快捷键打开渲染对话框。"
 
-#: ../../exporting/render.rst:34
-msgid "Rendering Dialog Version"
+#: ../../exporting/render.rst:39
+#, fuzzy
+#| msgid "Rendering Dialog Version"
+msgid "Rendering Dialog"
 msgstr "渲染对话框界面"
 
-#: ../../exporting/render.rst:39
+#: ../../exporting/render.rst:46
 msgid ":ref:`download_new_render_profiles`"
 msgstr ""
 
-#: ../../exporting/render.rst:42
-msgid "Rendering Profile Categories"
+#: ../../exporting/render.rst:49
+#, fuzzy
+#| msgid "Rendering Profile Categories"
+msgid "Rendering Preset Categories"
 msgstr "渲染配置文件分类"
 
-#: ../../exporting/render.rst:47
+#: ../../exporting/render.rst:54
+#, fuzzy
+#| msgid ""
+#| "**Kdenlive** offers many different preset rendering profiles to choose "
+#| "from. The rendering profiles are grouped into categories. See picture "
+#| "Above."
 msgid ""
-"**Kdenlive** offers many different preset rendering profiles to choose from. "
-"The rendering profiles are grouped into categories. See picture Above."
+"**Kdenlive** offers many different rendering presets to choose from. The "
+"rendering presets are grouped into categories. See picture Above."
 msgstr ""
 "**Kdenlive** 提供了许多不同的预设渲染配置文件，并且进行了分类。请参阅下面的图"
 "片。"
 
-#: ../../exporting/render.rst:51
-msgid "Create Custom Render Profiles"
-msgstr "创建自定义渲染配置文件"
-
-#: ../../exporting/render.rst:53
-msgid ""
-"You can create your own custom render profiles by clicking |document-new|."
-msgstr "您可以通过点击 |document-new| 来创建您的自定义渲染配置文件。"
-
-#: ../../exporting/render.rst:55
-msgid ""
-"This will open the **Save Profile** dialog (also shown in the above "
-"screenshot) and the :guilabel:`Parameters` section will be filled in with "
-"the render parameters of the profile that you had selected when you clicked "
-"the |document-new| button. You can edit values in the parameters and save "
-"your own custom render profile."
+#: ../../exporting/render.rst:57
+msgid "Full Project"
 msgstr ""
 
-#: ../../exporting/render.rst:60
+#: ../../exporting/render.rst:59
 msgid ""
-"The parameters in the rendering profile are *melt* parameters. For an "
-"explanation of their meaning, check the *melt* `documentation <https://www."
-"mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt."
+":guilabel:`Full Project` radio button is the default setting. **Kdenlive** "
+"render from from the first clip until the last clip in the timeline."
 msgstr ""
-"渲染配置文件中的参数是 *melt* 参数。 要了解它们的含义，参见 *melt* `文档 "
-"<https://www.mltframework.org/docs/>`_ 或在命令行中输入 ``melt -help`` 。"
 
 #: ../../exporting/render.rst:62
-msgid "See also :ref:`render_profile_parameters`."
-msgstr "参见 :ref:`render_profile_parameters` 。"
-
-#: ../../exporting/render.rst:66
-msgid "Rendering In Batch mode"
-msgstr "批量渲染模式"
-
-#: ../../exporting/render.rst:68
-msgid ""
-"If you have a lot of rendering jobs to do, you can use **Kdenlive** to "
-"create rendering scripts which you can accumulate and then execute in batch "
-"mode overnight. See :ref:`rendering`."
+msgid "Selected Zone"
 msgstr ""
-"如果您有大量的渲染任务要完成，您可以使用 **Kdenlive** 来创建可以累积并在批量"
-"模式下执行的一组渲染脚本。参见 :ref:`rendering` 。"
 
-#: ../../exporting/render.rst:70
+#: ../../exporting/render.rst:64
 msgid ""
-"Alternatively, once you have submitted a rendering job on a project and it "
-"is up and running in the **Job Queue**, you can drag the render window out "
-"of the way and edit the project some more or load a new project and render "
-"that one too. The second render job submitted will go into the **Job "
-"Queue**. Editing the project after a render job is submitted will not change "
-"the settings on that job."
+":guilabel:`Selected Zone` radio button, **Kdenlive** will only render that "
+"portion of the project which has a selected zone created for it. See :ref:"
+"`monitors`."
+msgstr ""
+
+#: ../../exporting/render.rst:69
+msgid "Guide Zone"
+msgstr ""
+
+#: ../../exporting/render.rst:74
+msgid ""
+":guilabel:`Guide zone` radio button makes use of :ref:`guides` to define a "
+"region of the project that is to be rendered. See :ref:`rendering`."
 msgstr ""
 
 #: ../../exporting/render.rst:78
-msgid "Rendering Using the Guide Zone Option"
-msgstr ""
-
-#: ../../exporting/render.rst:80
-msgid ""
-"This makes use of :ref:`guides` to define a region of the project that is to "
-"be rendered. See :ref:`rendering`."
+msgid "Guide Multi-Export"
 msgstr ""
 
 #: ../../exporting/render.rst:85
-msgid "Rendering Using the Selected Zone Option"
-msgstr ""
-
-#: ../../exporting/render.rst:87
 msgid ""
-"If you select the :guilabel:`Selected Zone` radio button from the bottom of "
-"the render dialog, **Kdenlive** will only render that portion of the project "
-"which has a selected zone created for it. See :ref:`monitors`."
+":guilabel:`Guide Multi-Export` radio button makes use of :ref:`guides` "
+"categories to be rendered."
 msgstr ""
 
-#: ../../exporting/render.rst:91
+#: ../../exporting/render.rst:90
+msgid ""
+"The selection of guide categories indicates which guides categories will be "
+"considered for rendering. In the example above, there are the following "
+"options:"
+msgstr ""
+
+#: ../../exporting/render.rst:92
+msgid "\"All Categories\": This leads to four files:"
+msgstr ""
+
+#: ../../exporting/render.rst:94 ../../exporting/render.rst:104
+msgid "`projectname-begin.mp4` (from 00:00:00 to \"guide1\")"
+msgstr ""
+
+#: ../../exporting/render.rst:96 ../../exporting/render.rst:106
+msgid "`projectname-guide1.mp4` (from \"guide1\" to \"guide2\")"
+msgstr ""
+
+#: ../../exporting/render.rst:98
+msgid "`projectname-guide2.mp4` (from \"guide2\" to \"guide3\")"
+msgstr ""
+
+#: ../../exporting/render.rst:100 ../../exporting/render.rst:113
+msgid "`projectname-guide3.mp4` (from \"guide3\" to the end)"
+msgstr ""
+
+#: ../../exporting/render.rst:102
+msgid "\"Category 0 (purple)\": This leads to three files:"
+msgstr ""
+
+#: ../../exporting/render.rst:108
+msgid "`projectname-guide2.mp4` (from \"guide2\" to the end)"
+msgstr ""
+
+#: ../../exporting/render.rst:110
+msgid "\"Category 1 (blue)\": This leads to two files:"
+msgstr ""
+
+#: ../../exporting/render.rst:112
+msgid "`projectname-begin.mp4` (from 00:00:00 to \"guide3\")"
+msgstr ""
+
+#: ../../exporting/render.rst:115
+msgid "If guides are behind the last timeline clip, they are ignored."
+msgstr ""
+
+#: ../../exporting/render.rst:117
+msgid ""
+"If a guide sits right at the beginning of the timeline, the name of that "
+"guide is used instead of \"begin\"."
+msgstr ""
+
+#: ../../exporting/render.rst:119
+msgid ""
+"If two guides have the same name, an underscore and a number will be added "
+"to the file name."
+msgstr ""
+
+#: ../../exporting/render.rst:123
+msgid "More Option"
+msgstr ""
+
+#: ../../exporting/render.rst:125
+msgid ":guilabel:`More Option` show you more options for rendering."
+msgstr ""
+
+#: ../../exporting/render.rst:129
 msgid "Render Overlay"
 msgstr "渲染叠加"
 
-#: ../../exporting/render.rst:97
+#: ../../exporting/render.rst:135
 msgid ""
 "This option overlays a time code or frame count over the rendered video. "
 "This will put the overlay over the entire rendered project. Alternatively "
@@ -153,27 +205,27 @@ msgstr ""
 "此选项将渲染出的视频上叠加时间代码或帧计数。这将在整个视频上叠加。或者，您可"
 "以使用 :ref:`dynamic_text` 来在视频的选定区域上叠加。"
 
-#: ../../exporting/render.rst:105
+#: ../../exporting/render.rst:143
 msgid "Export Metadata"
 msgstr "导出元数据"
 
-#: ../../exporting/render.rst:107
+#: ../../exporting/render.rst:145
 msgid ""
 "Check this to have the metadata which has been entered under :ref:"
 "`project_settings` placed into the metadata of the rendered file."
 msgstr ""
 
-#: ../../exporting/render.rst:112
+#: ../../exporting/render.rst:150
 msgid ""
 "And this is the metadata on the resulting clip (rendered with :guilabel:"
 "`Export Metadata` checked)."
 msgstr ""
 
-#: ../../exporting/render.rst:133
+#: ../../exporting/render.rst:171
 msgid "Export Audio Checkbox"
 msgstr "导出音频复选框"
 
-#: ../../exporting/render.rst:135
+#: ../../exporting/render.rst:173
 msgid ""
 "This is an unusual one. Instead of a normal on/off checkbox toggle, the :"
 "guilabel:`Export Audio` checkbox cycles among three choices."
@@ -181,7 +233,7 @@ msgstr ""
 ":guilabel:`导出音频` 是一个特殊的复选框。 它不是一般的切换打开/关闭的复选框，"
 "而包含着三个选项。"
 
-#: ../../exporting/render.rst:137
+#: ../../exporting/render.rst:175
 msgid ""
 "As if that weren't confusing enough, the :guilabel:`Export audio "
 "(automatic)` option may appear different depending on your combination of "
@@ -190,36 +242,36 @@ msgstr ""
 "似乎这一点没有造成足够的混淆。 :guilabel:`导出音频(自动)` 选项可能会根据您的"
 "发行版、桌面环境和主题的组合而出现差异。 见下面三个例子："
 
-#: ../../exporting/render.rst:139
+#: ../../exporting/render.rst:177
 msgid ""
 "Regardless of how the checkbox on the :guilabel:`Export audio (automatic)` "
 "option may appear on your installation, rest assured that when that option "
 "is showing, it is enabled."
 msgstr ""
 
-#: ../../exporting/render.rst:141
+#: ../../exporting/render.rst:179
 msgid "So what do the three options mean?"
 msgstr "那么，这三种选择的含义是什么呢？"
 
-#: ../../exporting/render.rst:147
+#: ../../exporting/render.rst:185
 msgid ""
 "*Export audio (automatic)* means detect if an audio track is present and "
 "write the audio track if found"
 msgstr ""
 
-#: ../../exporting/render.rst:155
+#: ../../exporting/render.rst:193
 msgid ""
 "*Export audio*, when checked, means write an audio track in the rendered "
 "file even if there is no audio track to write."
 msgstr ""
 
-#: ../../exporting/render.rst:163
+#: ../../exporting/render.rst:201
 msgid ""
 "*Export audio*, when unchecked, means do not write an audio track in the "
 "rendered file."
 msgstr ""
 
-#: ../../exporting/render.rst:165
+#: ../../exporting/render.rst:203
 msgid ""
 "The difference in behavior between enabling *Export audio* versus *Export "
 "audio (automatic)* can be seen in the situation where you have a video on "
@@ -228,7 +280,7 @@ msgid ""
 "situation is shown in the screenshot below."
 msgstr ""
 
-#: ../../exporting/render.rst:170
+#: ../../exporting/render.rst:208
 msgid ""
 "In this situation, if you render with *Export audio (automatic)*, the "
 "rendered file will not have an audio track (Result 1 on screenshot below). "
@@ -237,7 +289,7 @@ msgid ""
 "screenshot below)."
 msgstr ""
 
-#: ../../exporting/render.rst:175
+#: ../../exporting/render.rst:213
 msgid ""
 "FFprobe on file generated from an audio-less track using *Export audio "
 "(automatic)*. Note only one stream – Stream #0.0 – a video stream. "
@@ -245,7 +297,7 @@ msgid ""
 "did not write one."
 msgstr ""
 
-#: ../../exporting/render.rst:191
+#: ../../exporting/render.rst:229
 msgid ""
 "FFprobe on file generated from an audio-less track using *Export audio* "
 "checked. Note two streams – Stream #0.0 and Stream #0.1 – the latter being "
@@ -253,11 +305,11 @@ msgid ""
 "though there was not any source audio to write."
 msgstr ""
 
-#: ../../exporting/render.rst:209
+#: ../../exporting/render.rst:247
 msgid "In cases where there is an audio track ..."
 msgstr "如果有音轨时..."
 
-#: ../../exporting/render.rst:215
+#: ../../exporting/render.rst:253
 msgid ""
 "Rendering with :menuselection:`Export audio` unchecked will produce a file "
 "with no audio track – result 4 in the screenshot above. Rendering with :"
@@ -268,11 +320,11 @@ msgstr ""
 "屏幕截图中显示为结果 4。勾选 :menuselection:`导出音频(自动)` (上面屏幕截图中"
 "的结果3)，或勾选 **导出音频** 进行渲染，将产生带有音轨的文件。"
 
-#: ../../exporting/render.rst:222
+#: ../../exporting/render.rst:260
 msgid "Encoder Threads"
 msgstr "编码器线程"
 
-#: ../../exporting/render.rst:228
+#: ../../exporting/render.rst:266
 msgid ""
 "Determines the value of *Encoding threads* passed to melt. For encoding to "
 "certain codecs, namely MPEG-2, MPEG-4, H.264, and VP8, kdenlive can use more "
@@ -290,36 +342,88 @@ msgstr ""
 "faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-"
 "processing>`_ 。"
 
-#: ../../exporting/render.rst:232
-msgid "Scanning Dropdown"
-msgstr "扫描下拉列表"
+#: ../../exporting/render.rst:271
+#, fuzzy
+#| msgid "Create Custom Render Profiles"
+msgid "Create Custom Render Presets"
+msgstr "创建自定义渲染配置文件"
 
-#: ../../exporting/render.rst:238
-msgid ""
-"This option controls the frame scanning setting the rendered file will have. "
-"Options are *Force Progressive*, *Force Interlaced* and *Auto*."
+#: ../../exporting/render.rst:277
+msgid "|document-new| Creates a new preset based on the project profile."
 msgstr ""
-"此选项控制渲染文件的帧扫描设置。选项为 **强制逐行扫描** ， **强制隔行扫描** "
-"和 **自动** 。"
 
-#: ../../exporting/render.rst:241
-msgid ""
-":menuselection:`Auto` causes the rendered file to take the scanning settings "
-"that are defined in the :ref:`project_settings`. Use the other options to "
-"override the setting defined in the project settings."
+#: ../../exporting/render.rst:279
+msgid "|edit-download| Downloading additional user created presets."
 msgstr ""
-":menuselection:`自动` 会使渲染文件使用在 :ref:`project_settings` 中定义的扫描"
-"设置。 使用其他选项可以覆盖项目设置中定义的设置。"
 
-#: ../../exporting/render.rst:245
+#: ../../exporting/render.rst:281
+msgid "|document-save-as| Save the selected preset under a new name."
+msgstr ""
+
+#: ../../exporting/render.rst:283
+msgid "|document-edit| Save the preset under the current name ie. change it."
+msgstr ""
+
+#: ../../exporting/render.rst:285
+msgid ""
+"|document-new| |document-save-as| |document-edit| Will open the **Save "
+"Render Preset** dialog (also shown in the screenshot below) and the :"
+"guilabel:`Parameters` section will be filled in with the render parameters "
+"of the preset that you had selected when you clicked either of the |document-"
+"new| or |document-save-as| or |document-edit| button. You can edit values in "
+"the parameters and save your own custom render preset."
+msgstr ""
+
+#: ../../exporting/render.rst:290
+#, fuzzy
+#| msgid ""
+#| "The parameters in the rendering profile are *melt* parameters. For an "
+#| "explanation of their meaning, check the *melt* `documentation <https://"
+#| "www.mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt."
+msgid ""
+"The parameters in the rendering presets are *melt* parameters. For an "
+"explanation of their meaning, check the *melt* `documentation <https://www."
+"mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt."
+msgstr ""
+"渲染配置文件中的参数是 *melt* 参数。 要了解它们的含义，参见 *melt* `文档 "
+"<https://www.mltframework.org/docs/>`_ 或在命令行中输入 ``melt -help`` 。"
+
+#: ../../exporting/render.rst:292
+msgid "See also :ref:`render_profile_parameters`."
+msgstr "参见 :ref:`render_profile_parameters` 。"
+
+#: ../../exporting/render.rst:296
+msgid "Rendering In Batch mode"
+msgstr "批量渲染模式"
+
+#: ../../exporting/render.rst:298
+msgid ""
+"If you have a lot of rendering jobs to do, you can use **Kdenlive** to "
+"create rendering scripts which you can accumulate and then execute in batch "
+"mode overnight. See :ref:`rendering`."
+msgstr ""
+"如果您有大量的渲染任务要完成，您可以使用 **Kdenlive** 来创建可以累积并在批量"
+"模式下执行的一组渲染脚本。参见 :ref:`rendering` 。"
+
+#: ../../exporting/render.rst:300
+msgid ""
+"Alternatively, once you have submitted a rendering job on a project and it "
+"is up and running in the **Job Queue**, you can drag the render window out "
+"of the way and edit the project some more or load a new project and render "
+"that one too. The second render job submitted will go into the **Job "
+"Queue**. Editing the project after a render job is submitted will not change "
+"the settings on that job."
+msgstr ""
+
+#: ../../exporting/render.rst:307
 msgid "Variable Bit Rate - earlier Versions"
 msgstr "可变比特率 - 早期版本"
 
-#: ../../exporting/render.rst:249 ../../exporting/render.rst:264
+#: ../../exporting/render.rst:311 ../../exporting/render.rst:326
 msgid "|outdated|"
 msgstr "|outdated|"
 
-#: ../../exporting/render.rst:254
+#: ../../exporting/render.rst:316
 msgid ""
 "When a variable bitrate (VBR) profile is selected, the :menuselection:`File "
 "Size` section displays a drop down for choosing the **Video quality** you "
@@ -336,7 +440,7 @@ msgid ""
 "scenes."
 msgstr ""
 
-#: ../../exporting/render.rst:256
+#: ../../exporting/render.rst:318
 msgid ""
 "Example: 1min 55 seconds of 720 x 576 H.264 iPhone footage rendered at "
 "quality 15 with the H.264/AAC High Profile would produce a file size of 186 "
@@ -347,11 +451,11 @@ msgstr ""
 "H.264/AAC 高质量编码的渲染，将产生大小为 186MB 的文件，而画面质量为 20，其他"
 "设置相同的渲染，将产生大小为 83MB 的文件。"
 
-#: ../../exporting/render.rst:260
+#: ../../exporting/render.rst:322
 msgid "Constant Bit Rate - earlier Versions"
 msgstr "固定比特率 - 早期版本"
 
-#: ../../exporting/render.rst:269
+#: ../../exporting/render.rst:331
 msgid ""
 "When a constant bitrate (CBR) profile is selected, the :menuselection:`File "
 "Size` section displays a drop down for choosing the **Video bitrate** you "
@@ -359,3 +463,25 @@ msgid ""
 "select the video bitrate you want and the video is encoded at that video "
 "bitrate across its entire length."
 msgstr ""
+
+#~ msgid ""
+#~ "You can create your own custom render profiles by clicking |document-new|."
+#~ msgstr "您可以通过点击 |document-new| 来创建您的自定义渲染配置文件。"
+
+#~ msgid "Scanning Dropdown"
+#~ msgstr "扫描下拉列表"
+
+#~ msgid ""
+#~ "This option controls the frame scanning setting the rendered file will "
+#~ "have. Options are *Force Progressive*, *Force Interlaced* and *Auto*."
+#~ msgstr ""
+#~ "此选项控制渲染文件的帧扫描设置。选项为 **强制逐行扫描** ， **强制隔行扫描"
+#~ "** 和 **自动** 。"
+
+#~ msgid ""
+#~ ":menuselection:`Auto` causes the rendered file to take the scanning "
+#~ "settings that are defined in the :ref:`project_settings`. Use the other "
+#~ "options to override the setting defined in the project settings."
+#~ msgstr ""
+#~ ":menuselection:`自动` 会使渲染文件使用在 :ref:`project_settings` 中定义的"
+#~ "扫描设置。 使用其他选项可以覆盖项目设置中定义的设置。"
