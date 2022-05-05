@@ -114,7 +114,11 @@ Do also make sure no GPO is blocking the access to these folders.
 Kdenlive on macOS
 -----------------
 
-**Kdenlive** runs with Intel based Mac's on macOS 10.14 (Mojave) and newer (available on the `download <https://kdenlive.org/download/>`_ page). Kdenlive isn't running on MacOS older than 10.14 (Mojave) and on M1.
+**Kdenlive** runs with Intel based Mac's on macOS 10.14 (Mojave) and newer (available on the `download <https://kdenlive.org/download/>`_ page). 
+
+.. versionadded:: 22.04.0
+
+Kdenlive is running with Intel based Mac's not older than 10.13.6 (High Sierra) and on M1.
 
 Install procedure
 ~~~~~~~~~~~~~~~~~
