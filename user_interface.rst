@@ -52,11 +52,11 @@ Customizing interface
 ---------------------
 The User interface model has a clear division between the different panes, that they work on allows you to reorder them, drag them out into separate windows or size them up as you will.
 
-The interface is divided into many sections. The menu is on top and then on the left you can make a note about the project. All loaded clips and videos are in the project tree, the second section. Third and my favorite section is the Effect list. You can apply many transaction effects on your video. You can always watch the project preview in the last section. You can create as many audio/video track as you need. This is impressive about Kdenlive. If you’re new to video editing then this is very useful. You can import multiple title clips inside video track.Remove/Adjust Sections
+The interface is divided into many sections. The menu is on top and then on the left you can make a note about the project. All loaded clips and videos are in the project tree, the second section. Third section is the Effect list. You can apply many transaction effects on your video. You can always watch the project preview in the last section. You can create as many audio/video track as you need. This is impressive about Kdenlive. If you’re new to video editing then this is very useful. You can import multiple title clips inside video track.Remove/Adjust Sections
 
-You won't notice on the spot, but the tabs that appear on the bottom of the panes aren't built in them, but change according to what panes you have aggregated into that particular frame. This way you can group functions than you don't expect to use simultaneously into a single place on the user interface, thus reducing clutter.
+You won't notice on the spot, but the tabs that appear on the bottom of the panes aren't built in them, but change according to what panes you have aggregated into that particular frame. This way you can group functions that you don't expect to use simultaneously into a single place on the user interface, thus reducing clutter.
 
-If you don’t want certain sections on the screen then you can simply delete them to make other sections wider. Just click the close button on that section and that section will be closed,by removing unnecessary video/audio tracks and now You can organize enough space to preview your project and all other necessary sections are wider.
+If you don’t want certain sections on the screen then you can simply delete them to make other sections wider. Just click the close button on that section and that section will be closed, by removing unnecessary video/audio tracks and now You can organize enough space to preview your project and all other necessary sections are wider.
 
 .. figure:: /images/userinterface.png
    :width: 650px
