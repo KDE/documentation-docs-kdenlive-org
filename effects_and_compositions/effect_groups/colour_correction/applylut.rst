@@ -30,7 +30,7 @@ Interpolation Method: Can be Nearest, Trilinear or Tetrahedral. Defaults to Tetr
 .. _examplelut:
 
 Example of LUT Filter
-=========
+=====================
 
 
 
