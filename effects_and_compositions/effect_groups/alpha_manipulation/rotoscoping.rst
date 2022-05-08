@@ -101,41 +101,47 @@ Example 1.How to make rotoscoping selection.
 
 .. image:: /images/imagef.png
    :align: left
+   :alt: Settings
 
 2. Choose Color, from the main menu to allow work with color scope.
 
 .. image:: /images/image10.png
    :align: left
+   :alt: Settings
 
 For this example, the Sun object will be chosen for changing tone. Come back to edit mode.
 
 .. image:: /images/image21.png
    :align: left
+   :alt: Object selection
 
 3. Head over to effects menu, type in Rotoscoping then drag it over video to see further instructions.
 
 .. image:: /images/image13.png 
    :align: right
+   :alt: Menu setting
 
 
 4. By clicking the left mouse button for selection object and right mouse click to complete selection. 
 
 .. image:: /images/image14.png 
    :align: left
+   :alt: Object selection
 
 .. image:: /images/image15.png 
    :align: left 
+   :alt: Object selection
 5. Come back to color menu then vectorospe via drop-down at the bottom right-hand corner choose YUV paint mode. 
 
 .. image:: /images/image18.png 
    :align: left 
-   
+   :alt: YUV selection
 
 6.  Choose color balance for color grading.
 
 .. image:: /images/image19.png 
    :align: left 
-
+   :alt: Color balance selection
 
 Tutorial with Rotoscoping
 -------------------------
