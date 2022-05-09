@@ -58,6 +58,6 @@ You won't notice on the spot, but the tabs that appear on the bottom of the pane
 
 If you don’t want certain sections on the screen then you can simply delete them to make other sections wider. Just click the close button on that section and that section will be closed, by removing unnecessary video/audio tracks and now You can organize enough space to preview your project and all other necessary sections are wider.
 
-.. figure:: /images/userinterface.png
+.. figure:: /images/KDENLIVE User Interface.jpg
    :width: 650px
    :alt: interface_window-system_editing-screen
