@@ -61,8 +61,7 @@ You won't notice on the spot, but the tabs that appear on the bottom of the pane
 
 If you don’t want certain sections on the screen then you can simply delete them to make other sections wider. Just click the close button on that section and that section will be closed, by removing unnecessary video/audio tracks and now You can organize enough space to preview your project and all other necessary sections are wider.
 
-
-.. figure:: /images/Kdenlive_user_interface.png
+.. figure:: /images/KDENLIVE_User_Interface.png
    :width: 650px
    :alt: interface_window-system_editing-screen
 
@@ -90,3 +89,6 @@ This is the area where clips are placed in the order in which they will appear i
 ---------------
 
 The sound quality and volume can be adjusted, either for the entire sequence or selected sections. The editing software will display audio meters and generally any dialogue or narration in a video should be at about -10dB most of the time.
+
+7. Status Bar.
+--------------
