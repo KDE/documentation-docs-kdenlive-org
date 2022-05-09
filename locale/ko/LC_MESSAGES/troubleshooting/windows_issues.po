@@ -1,0 +1,291 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Shinjo Park <kde@peremen.name>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-19 00:38+0000\n"
+"PO-Revision-Date: 2022-05-08 16:45+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: ../../troubleshooting/windows_issues.rst:1
+msgid "The Kdenlive User Manual"
+msgstr "Kdenlive 사용자 설명서"
+
+#: ../../troubleshooting/windows_issues.rst:1
+msgid "KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, Windows workaround, problem solving"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:19
+msgid "Windows issues"
+msgstr "Windows 문제점"
+
+#: ../../troubleshooting/windows_issues.rst:21
+msgid "Contents"
+msgstr "목차"
+
+#: ../../troubleshooting/windows_issues.rst:23
+msgid "The current **Kdenlive** on Windows® (April 2022, version 21.12.3) has a few issues that have workarounds. The purpose of this wiki page is to document these issues and their workarounds."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:28
+msgid "Title tool, display real background not working in \"DirectX\" backend"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:30
+msgid "Something with the settings went wrong. Go to: :menuselection:`Help --> Reset Configuration` and try again."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:34
+msgid "Render problems"
+msgstr "렌더 문제"
+
+#: ../../troubleshooting/windows_issues.rst:36
+msgid "After rendering you get de-synced audio or wrong effects or black frames at end of the last clip: download version 20.08.1 or higher from the `download page <https://kdenlive.org/en/download>`_. If you still experience problems see :ref:`windows_issues`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:39
+msgid "Scopes doesn't show anything"
+msgstr "스코프에서 아무것도 표시되지 않음"
+
+#: ../../troubleshooting/windows_issues.rst:41
+msgid ":ref:`scopes_directx`"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:45
+msgid "Audio crackling while playback"
+msgstr "오디오 재생 중 깨짐"
+
+#: ../../troubleshooting/windows_issues.rst:46
+msgid ":kbd:`CRL + SHIFT +,` (comma), select :menuselection:`Playback --> audio backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), :menuselection:`DirectSound` to see what give the best result. Restart Kdenlive after each switch."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:50
+msgid "This application failed to start because no Qt platform plugin could be initialized"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:52
+#: ../../troubleshooting/windows_issues.rst:165
+msgid "Hit :kbd:`CTRL + SHIFT + ,` (comma) > :menuselection:`environment` > make sure the paths point to the same path as \"MLT profiles folder\"."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:54
+msgid "Download: :download:`qt.conf </files/qt.conf>`. Put the file :file:`qt.conf` into the \"bin\" folder (the folder where :file:`kdenlive.exe` is)"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:58
+msgid "First time use of Kdenlive"
+msgstr "Kdenlive 첫 사용"
+
+#: ../../troubleshooting/windows_issues.rst:60
+msgid "This issue should be solved with Windows version 19.04.2-6. That :file:`kdenliverc` is correct set up please start Kdenlive twice (start -> close -> start). Then start your work."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:64
+msgid "Intel graphic card driver"
+msgstr "Intel 그래픽 카드 드라이버"
+
+#: ../../troubleshooting/windows_issues.rst:66
+msgid "Updated Intel graphic driver versions lead to a corrupted Kdenlive GUI."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:68
+msgid "**Solution 1:** Open Kdenlive. Move the mouse to the top. The menus are showing up. Try to reach :menuselection:`Settings` -> :menuselection:`openGL backend` -> enable :menuselection:`OpenGLES`/:menuselection:`DirectX`. Restart Kdenlive. This should solve your Intel graphic driver issue."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:70
+msgid "Maybe this statement helps: `Corrupted GUI <https://forum.kde.org/viewtopic.php?f=265&t=161309#p425882>`_."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:73
+msgid "**Solution 2:** Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it open :file:`kdenliverc` with an editor. Search for ``[misc]`` and delete ``[misc]`` and the following entry. . Restart Kdenlive."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:80
+msgid "Timeline: right-click menu close immediately after releasing mouse button"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:82
+msgid "Don't use the style :menuselection:`Fusion`."
+msgstr ":menuselection:`Fusion` 스타일을 사용하지 마십시오."
+
+#: ../../troubleshooting/windows_issues.rst:85
+msgid "Go to: :menuselection:`Settings` -> :menuselection:`Style` and choose :menuselection:`Default` or :menuselection:`Windows`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:90
+msgid "Icons are missing"
+msgstr "아이콘이 빠짐"
+
+#: ../../troubleshooting/windows_issues.rst:92
+msgid "Go to: :menuselection:`settings` -> untick :menuselection:`force breeze icon theme`. Kdenlive restarts and you should see the icons."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:96
+msgid "Cannot open projects made with previous version, timeline snaps back, cannot import clip"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:98
+msgid "Go to: :menuselection:`Help --> Reset configuration`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:101
+msgid "If this is not solving the problem: Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive -> do nothing -> close Kdenlive -> and restart Kdenlive again."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:104
+msgid "If you have still problems delete proxy clips and other cached data by going to :menuselection:`Project` menu > :menuselection:`Project Setting` > :menuselection:`Cache Data` tab > there you can delete cached data."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:107
+msgid "If you have still problems try :ref:`windows_issues`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:111
+msgid "Windows 10: timeline stuttering or Kdenlive hangs."
+msgstr "Windows 10: 타임라인 스터터링 또는 Kdenlive가 응답하지 않음."
+
+#: ../../troubleshooting/windows_issues.rst:113
+msgid "Most probably you got a major Win10 update (i.e 1809). If so you have to update all drivers for audio and video."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:115
+msgid "Intel driver can be updated with this updater: `Intel updater <https://downloadcenter.intel.com/en/download/28425/Intel-Driver-Support-Assistant>`_."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:119
+msgid "\"Clip is invalid, will be removed\""
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:121
+msgid "This bug can appear if you do a clean reinstall of **Kdenlive** (see above). Simply close and open **Kdenlive** once, and it should be fixed."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:124
+msgid "Additionally this can be a problem either with the :file:`kdenliverc` file (see here :ref:`windows_issues`) or you have some mismatch in the \"local\" folder (see here :ref:`windows_issues`)."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:128
+msgid "Any critical bug"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:130
+msgid "This describes the process of doing a clean install on Windows®."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:133
+msgid "Firstly, delete your normal **Kdenlive** folder (containing the application)"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:136
+msgid "Access the **Appdata** folder (:kbd:`Win + R` and then type **APPDATA** in full caps). Go to :file:`local` and search for folder :file:`kdenlive`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:141
+msgid "If you have any saved effects or clips stored in your library, make a backup of the library folder."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:144
+msgid "Then once you have backup up your library folder, delete the :file:`kdenlive` folder."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:147
+msgid "Reinstall the latest version of **Kdenlive** from the `download page <https://kdenlive.org/en/download>`_"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:151
+msgid "JPG files appear as white picture after rendering"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:153
+msgid "This issue should be solved with Windows version 19.04.0. If not convert the JPG to PNG and it renders correctly."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:157
+msgid "Play/Pause Issue"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:159
+msgid "This issue is solved with Windows version 18.08.2 (30. Oct 2018). Get the current version from the `download page <https://kdenlive.org/en/download>`_."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:163
+msgid "Qt rendering crash"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:168
+msgid "When switching from kdenlive for windows 17.12 > 18.04/18.08, a Qt rendering crash appears. To make sure this doesn't happen, you need to edit the :file:`kdenliverc` file in the :file:`appdata/local` folder. To access your appdata, press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:172
+msgid "Kdenlive cannot be deleted, running process on exit"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:174
+msgid "This issue is solved with Windows version 18.12.1. Get the current version from the `download page <https://kdenlive.org/en/download>`_."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:177
+msgid "If you want to reinstall **Kdenlive** or re-run **Kdenlive**, it may tell you \"The file or folder is open in another program\". Windows® then won't let you delete or re-run **Kdenlive**."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:180
+msgid "To fix this you have to kill the running process: press and hold :kbd:`Ctrl + Shift + Esc` &  expand the task manager by clicking :menuselection:`all details`. Then find :file:`kdenlive.exe` &  :file:`dbus-daemon.exe`, and click :menuselection:`End task` for both of them."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:183
+msgid "Or download the: :download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>`. Unpack it and just double-click the batch file which kills all running **Kdenlive** processes."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:187
+msgid "Kdenlive cannot be uninstalled"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:189
+msgid "If the uninstaller doesn't work you can delete following folder: :file:`/C:\\Program Files\\kdenlive`. You have to manually delete in the start menu the Kdenlive folder."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:194
+msgid "Kdenlive crash or green Monitor"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:196
+msgid "Get all newest Windows® updates. Afterwards, update your graphic card driver and your sound card driver and your printer driver. Some crashes could occur of incompatibility of the graphics card and sound card with the newest Windows®10 updates (18.09 update). After you have updated the drivers re-start the computer and try again by starting :file:`kdenlive.exe`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:201
+msgid "If this is not solving the problem switch your standard printer to “Microsoft XPS Document Writer” and try again to start Kdenlive."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:204
+msgid "Delete the :file:`kdenliverc` file as descript here under :ref:`windows_issues`."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:207
+msgid "Make sure you set processing thread to 1: :kbd:`Ctrl + Shift + ,` (comma) > :menuselection:`Environment` > :menuselection:`Processing thread` > set to 1"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:211
+msgid "General Issues"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:213
+msgid "The current **Kdenlive** version (November 2018, version 18.08.3) has a few issues that have workarounds."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:217
+msgid "Audio Pops and Ticks in Render"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:219
+msgid "If this problem appears make sure the audio file is: 16-bit PCM WAV."
+msgstr ""
