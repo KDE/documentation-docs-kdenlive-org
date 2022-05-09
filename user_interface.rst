@@ -70,7 +70,7 @@ If you don’t want certain sections on the screen then you can simply delete th
 ---------------
 The top left section of the screen is known as the library, bin or browser, where clips, still images, audio files etc. are displayed, ready for use.Replicating the folder naming system within the editing software library will help keep everything organized. It may be helpful to label each clip with one or more descriptive keywords. These can be searched and are a useful way to rapidly locate the desired footage, especially with the use of many clips. It is preferable to edit using the same frame rate and frame size that the footage was shot with. 
 
-2. Clip monitor.
+2. Clip Monitor.
 ----------------
 The preview or canvas window (top centre) plays what is currently selected in the timeline.
 
@@ -78,11 +78,11 @@ The preview or canvas window (top centre) plays what is currently selected in th
 -------------------
 This screen shows all effects such as titles or transitions were be applied to the footage. To apply effects, select it from the effects menu and then drag and drop it between the two clips where it is.
 
-4. Editing toolbar.
+4. Editing Toolbar.
 -------------------
 Trimming and other editing tools do not alter or delete the original footage, they only adjust the copy that has been added to the timeline.
 
-5. The timeline editor.
+5. The Timeline editor.
 -----------------------
 This is the area where clips are placed in the order in which they will appear in the final video and trimmed to the desired length and content. When assembling the initial “rough cut” of the video, users can place clips from the library into the timeline in the desired sequence. To reorder clips simply click and drag them to a new position. Trimming tools allow only the relevant footage to be used by marking the desired start and end (“in” and “out”) points on each clip, to shorten or lengthen it.
 
