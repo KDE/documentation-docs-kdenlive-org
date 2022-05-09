@@ -5,6 +5,7 @@
 .. metadata-placeholder
 
    :authors: - Eugen Mohr
+   :author: - Maris Stalte
              
    :license: Creative Commons License SA 4.0
 
@@ -43,10 +44,11 @@ Kdenlive’s interface is separated into four main parts:
    user_interface/toolbars
    user_interface/shortcuts
    user_interface/menu
-
+ 
    Kdenlive UI
    ------------
-This page introduces the Kdenlive user interface (UI), explaining where to find each group of features, and how the highly focused and tightly integrated Media, Edit, Color, Fairlight, and Deliver pages work together to let you pursue nearly any post-production workflow you can imagine.
+   
+   This page introduces the Kdenlive user interface (UI), explaining where to find each group of features, and how the highly focused and tightly integrated Media, Edit, Color, Fairlight, and Deliver pages work together to let you pursue nearly any post-production workflow you can imagine.
 
 Customizing interface
 ---------------------
@@ -58,6 +60,7 @@ You won't notice on the spot, but the tabs that appear on the bottom of the pane
 
 If you don’t want certain sections on the screen then you can simply delete them to make other sections wider. Just click the close button on that section and that section will be closed, by removing unnecessary video/audio tracks and now You can organize enough space to preview your project and all other necessary sections are wider.
 
-.. figure:: /images/KDENLIVE User Interface.jpg
-   :width: 650px
+
+.. figure:: /images/Kdenlive_user_interface.png
+    :width: 650px
    :alt: interface_window-system_editing-screen
