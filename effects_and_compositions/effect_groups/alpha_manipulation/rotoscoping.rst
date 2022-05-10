@@ -1,3 +1,8 @@
+.. meta::
+   :description: Do your first steps with Kdenlive video editor
+   :keywords: KDE, Kdenlive, quick start, first steps, documentation, user manual, video editor, open source, free, learn, easy, effects, rotoscoping, 
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -7,6 +12,7 @@
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Roger (https://userbase.kde.org/User:Roger)
              - TheMickyRosen-Left (https://userbase.kde.org/User:TheMickyRosen-Left)
+             - Maris Stalte (https://userbase.kde.org/User:limerick)
 
    :license: Creative Commons License SA 4.0
 

@@ -1,8 +1,14 @@
+.. meta::
+   :description: Do your first steps with Kdenlive video editor
+   :keywords: KDE, Kdenlive, quick start, first steps, documentation, user manual, video editor, open source, free, learn, easy, monitor, play, zone, loop, go to, extract frame
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
              - Yuri Chornoivan
              - Ttguy (https://userbase.kde.org/User:Ttguy)
+             - Eugen Mohr
+             - Maris Stalte (https://userbase.kde.org/User:limerick)
 
    :license: Creative Commons License SA 4.0
 
@@ -88,12 +94,14 @@ Example how to extract frame
 Kdenlive sends that frame to the stills gallery, which includes the image and the node structure. You can see if you display node graph by right-clicking, which is helpful to copy and paste adjustments for other clips.
 
 .. image:: /images/image27.png
-  :width: 350px
+   :width: 350px
+   :alt: extract frame
 
 Click export, name it something logical, pick a safe location on your computer and change the format down below to png.
 
 .. image:: /images/image28.png
-  :width: 350px
+   :width: 350px
+   :alt: save extracted frame
 
 Split View
 ----------
@@ -102,13 +110,18 @@ Selecting this allows you to view all the video tracks at once in split screen i
 
 
 .. image:: /images/Kdenlive_Split_view.png
-  :width: 350px
+   :width: 350px
+   :alt: split view
 
 
 Monitor overlay infos
 ---------------------
 
-???
+.. image:: /images/monitor_overlay.png
+   :width: 350px
+   :alt: monitor overlay
+
+4 different monitor overlays help you to show you more information about your videos. This overlays will be not rendered to the final video.
 
 
 Real time (drop frames)

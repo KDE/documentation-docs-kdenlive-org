@@ -1,7 +1,7 @@
 .. metadata-placeholder
 
    :authors: - Mmaguire (https://userbase.kde.org/User:Mmaguire)
-   :authors: - Maris (https://userbase.kde.org/User:limerick)
+             - Maris (https://userbase.kde.org/User:limerick)
 
    :license: Creative Commons License SA 4.0
 

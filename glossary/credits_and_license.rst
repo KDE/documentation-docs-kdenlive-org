@@ -47,7 +47,7 @@ Documentation authors
 * Loopduplicate (https://userbase.kde.org/User:Loopduplicate)
 * Anders Lund
 * Jean-Baptiste Mardelle <jb@kdenlive.org>
-* Marko (https://userbase.kde.org/User:Marko)
+* * Marko (https://userbase.kde.org/User:Marko)
 * Mmaguire (https://userbase.kde.org/User:Mmaguire)
 * Eugen Mohr
 * Roger Morton (Ttguy)
@@ -64,6 +64,7 @@ Documentation authors
 * Roger (https://userbase.kde.org/User:Roger)
 * Carl Schwan <carl@carlschwan.eu>
 * Smolyaninov (https://userbase.kde.org/User:Smolyaninov)
+* Maris Stalte (https://userbase.kde.org/User:limerick)
 * Sunab (https://userbase.kde.org/User:Sunab)
 * Tenzen (https://userbase.kde.org/User:Tenzen)
 * Thanks4theFish (https://userbase.kde.org/User:Thanks4theFish)

@@ -122,6 +122,7 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
 .. image:: /images/Kdenlive-removespace.gif
    :alt: remove space
 
+.. _timeline_toolbar:
 
 Timeline Toolbar
 ----------------
