@@ -128,7 +128,7 @@ For this example, the Sun object will be chosen for changing tone. Come back to 
    :align: left 
    :alt: Object selection
 
-4. Come back to color menu then vectorospe via drop-down at the bottom right-hand corner choose YUV paint mode.
+4. Come back to color menu then vectorscope via drop-down at the bottom right-hand corner choose YUV paint mode.
 
 .. image:: /images/image18.png 
    :align: left 

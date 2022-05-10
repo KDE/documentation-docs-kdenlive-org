@@ -32,8 +32,6 @@ Interpolation Method: Can be Nearest, Trilinear or Tetrahedral. Defaults to Tetr
 Example of LUT Filter
 =====================
 
-
-
 Example of Manual workflow Before and after applying LUT
 
 .. figure:: /images/image1b.png
@@ -44,6 +42,7 @@ Example of Manual workflow Before and after applying LUT
 
 
 Simple steps:
+
 1. FREE LUTS – For our example, we rely on the files that can be downloaded from the address https://goo.gl/OeIFkr
 
 2. SEVEN CUBE FILES – Download the zip file, just extract it into a folder: each of the files, which is then a simple text file, represents a Look Up Table. Those examples were developed inspired by famous films (whose titles are parodied in the file name).
@@ -71,7 +70,7 @@ Simple steps:
    :width: 800px
    :alt: workflow-lut
 
-    Figure 4.  Colour balance
+   Figure 4 - Colour balance
 
 Manually adjust the clip
 ========================
