@@ -53,37 +53,33 @@ Simple steps:
 
 .. figure:: /images/image4.png
    :width: 1200px
- 
    :alt: workflow-lut
 
    Figure 2 - View of main menu.
+
 4. Then you need to find the LUT effect to apply. There are several, the majority of which are maintained only for backwards compatibility but not for any result. The right one is Apply LUT, in the section Color correction.
 
 .. figure:: /images/image5.png
    :width: 800px
- 
    :alt: workflow-lut
-   
+
    Figure 3 - Apply LUT
 
 5. BALANCING – Adjusting color, for example col 3-point balance, you need to insert the effect above that of the LUT. This allows you to correct the image before it reaches the LUT, then obtaining homogeneous results with other clips.
- 
-  
-  
+
 .. figure:: /images/image6.png
    :width: 800px
- 
    :alt: workflow-lut
+
     Figure 4.  Colour balance
 
 Manually adjust the clip
-==========================
+========================
 
 In addition to the LUT, other effects can be used to manually correct the colors   
 
 .. figure:: /images/image7.png
    :width: 800px
- 
    :alt: workflow-lut
 
 1. CHANGE OF SHADES – This allows, for example, to color the background in blue and the actor in orange, widely used in classic Hollywood postproduction setup. A faster but less detailed alternative is Hue shift, which shifts all shades towards red or blue.
@@ -91,19 +87,16 @@ In addition to the LUT, other effects can be used to manually correct the colors
 
 .. figure:: /images/image20.png
    :width: 800px
- 
    :alt: workflow-lut
 
 2. SATURATION – After changing the coloration of the image, with one of the two effects that is presented, this allows saturate the color differently depending on the brightness by drawing a curve on the canal saturation.
 
 .. figure:: /images/imagea.png
    :width: 800px
- 
    :alt: workflow-lut
-  
+
 Before and After
 
 .. figure:: /images/image1d.png
    :width: 800px
- 
    :alt: workflow-lut

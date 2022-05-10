@@ -96,7 +96,7 @@ https://youtu.be/nFv46XQUO34
 
 
 Example 1.How to make rotoscoping selection.
-----------
+--------------------------------------------
 
 
 1. Choose Color, from the main menu to allow work with color scope.
@@ -118,7 +118,7 @@ For this example, the Sun object will be chosen for changing tone. Come back to 
    :alt: Menu setting
 
 
-3. By clicking the left mouse button for selection object and right mouse click to complete selection. 
+3. By clicking the left mouse button for selection object and right mouse click to complete selection.
 
 .. image:: /images/image14.png 
    :align: left
@@ -127,7 +127,8 @@ For this example, the Sun object will be chosen for changing tone. Come back to 
 .. image:: /images/image15.png 
    :align: left 
    :alt: Object selection
-4. Come back to color menu then vectorospe via drop-down at the bottom right-hand corner choose YUV paint mode. 
+
+4. Come back to color menu then vectorospe via drop-down at the bottom right-hand corner choose YUV paint mode.
 
 .. image:: /images/image18.png 
    :align: left 

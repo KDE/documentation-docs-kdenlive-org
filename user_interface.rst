@@ -32,18 +32,6 @@ Kdenlive’s interface is separated into four main parts:
    :alt: interface_window-system_editing-screen
 
    Kdenlive’s default Screen Layout (example editing view). Topbar (blue), Toolbars (yellow), Window (green) and Status Bar (red).
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-   :glob:
-
-   user_interface/monitors
-   user_interface/timeline
-   user_interface/workspace_layouts
-   user_interface/toolbars
-   user_interface/shortcuts
-   user_interface/menu
   
    ------------
    Kdenlive UI
@@ -92,3 +80,15 @@ The sound quality and volume can be adjusted, either for the entire sequence or 
 
 7. Status Bar.
 --------------
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   :glob:
+
+   user_interface/monitors
+   user_interface/timeline
+   user_interface/workspace_layouts
+   user_interface/toolbars
+   user_interface/shortcuts
+   user_interface/menu
