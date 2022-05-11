@@ -121,7 +121,7 @@ Monitor overlay infos
    :width: 350px
    :alt: monitor overlay
 
-4 different monitor overlays help you to show you more information about your videos. This overlays will be not rendered to the final video.
+4 different monitor overlays help you to show you more information about your videos. These overlays will not be rendered to the final video.
 
 
 Real time (drop frames)
