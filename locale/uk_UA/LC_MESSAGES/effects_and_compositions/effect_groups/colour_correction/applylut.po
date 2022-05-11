@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-03 00:38+0000\n"
-"PO-Revision-Date: 2021-12-03 19:09+0200\n"
+"POT-Creation-Date: 2022-05-10 00:38+0000\n"
+"PO-Revision-Date: 2022-05-10 08:49+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,15 +18,15 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:10
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:11
 msgid "Apply LUT"
 msgstr "Застосувати LUT"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:12
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:13
 msgid "Contents"
 msgstr "Вміст"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:14
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:15
 msgid ""
 "This is the `Avfilter lut3d <https://www.mltframework.org/plugins/"
 "FilterAvfilter-lut3d/>`_ MLT filter."
@@ -34,7 +34,7 @@ msgstr ""
 "Це фільтр MLT `Avfilter lut3d <https://www.mltframework.org/plugins/"
 "FilterAvfilter-lut3d/>`_."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:16
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:17
 msgid ""
 "Apply a 3D Look Up Table (LUT) to the video. A LUT is an easy way to correct "
 "the color of a video."
@@ -42,26 +42,127 @@ msgstr ""
 "Застосувати до відео просторову таблицю пошуку (LUT). LUT є простим способом "
 "виправлення кольорів на відео."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:18
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:19
 msgid "**Supported formats:**"
 msgstr "**Підтримувані формати:**"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:20
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:21
 msgid ".3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora)"
 msgstr ".3dl (AfterEffects), .cube (Iridas), .dat(DaVinci), .m3d (Pandora)"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:22
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:23
 msgid "**Parameters:**"
 msgstr "**Параметри:**"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:24
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:25
 msgid "Filename: File containing the LUT to be applied."
 msgstr "Назва файла: файл, у якому міститься LUT, яку слід застосувати."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:26
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:27
 msgid ""
 "Interpolation Method: Can be Nearest, Trilinear or Tetrahedral. Defaults to "
 "Tetrahedral."
 msgstr ""
 "Спосіб інтерполяції: може бути «найближчим», «трилінійним» або "
 "«тетраедральним». Типовим є «тетраедральний»."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:33
+msgid "Example of LUT Filter"
+msgstr "Приклад фільтра LUT"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:37
+msgid "Example of Manual workflow Before and after applying LUT"
+msgstr "Приклад застосування фільтра LUT, до і після"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:43
+msgid "Figure 1 - View of the interface"
+msgstr "Рис. 1. — Інтерфейс"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:46
+msgid ""
+"Simple steps: 1. FREE LUTS – For our example, we rely on the files that can "
+"be downloaded from the address https://goo.gl/OeIFkr"
+msgstr ""
+"Прості кроки: 1. Вільні LUTS — для нашого прикладу ми використаємо файли, які"
+" можна отримати за адресою https://goo.gl/OeIFkr"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:49
+msgid ""
+"SEVEN CUBE FILES – Download the zip file, just extract it into a folder: "
+"each of the files, which is then a simple text file, represents a Look Up "
+"Table. Those examples were developed inspired by famous films (whose titles "
+"are parodied in the file name)."
+msgstr ""
+"СІМ ФАЙЛІВ — отримайте файл zip, виконайте видобування з нього даних до теки."
+" Кожен з файлів є простим текстовим файлом таблиці пошуку. Приклади було"
+" створено на основі ефектів відомих фільмів (їхні заголовки спародійовано у"
+" назвах файлів)."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:51
+msgid ""
+"Once package is downloaded and unpacked, open effects menu in the right "
+"corner of the program window."
+msgstr ""
+"Після отримання і видобування даних відкрийте меню ефектів у правому куті"
+" вікна програми."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:60
+msgid ""
+"Then you need to find the LUT effect to apply. There are several, the "
+"majority of which are maintained only for backwards compatibility but not "
+"for any result. The right one is Apply LUT, in the section Color correction."
+msgstr ""
+"Далі, вам слід знайти ефект LUT, який слід застосувати. Передбачено декілька"
+" ефектів, більшість з них лишаються у меню з міркувань зворотної сумісності,"
+" але не дають результатів. Нам потрібен ефект «Застосувати LUT» з розділу"
+" «Виправлення кольорів»."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:69
+msgid ""
+"BALANCING – Adjusting color, for example col 3-point balance, you need to "
+"insert the effect above that of the LUT. This allows you to correct the "
+"image before it reaches the LUT, then obtaining homogeneous results with "
+"other clips."
+msgstr ""
+"БАЛАНСУВАННЯ – для коригування кольорів, наприклад триточкового балансу, вам"
+" слід вставити ефект над ефектом LUT. Це надасть вам змогу виправити"
+" зображення до того, як воно потрапить доe LUT, а потім отримати однорідні"
+" результати із іншими кліпами."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:80
+msgid "Manually adjust the clip"
+msgstr "Коригування кліпу вручну"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:82
+msgid ""
+"In addition to the LUT, other effects can be used to manually correct the "
+"colors"
+msgstr ""
+"На додачу до LUT, для виправлення кольорів можна вручну застосувати інші"
+" ефекти."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:89
+msgid ""
+"CHANGE OF SHADES – This allows, for example, to color the background in blue "
+"and the actor in orange, widely used in classic Hollywood postproduction "
+"setup. A faster but less detailed alternative is Hue shift, which shifts all "
+"shades towards red or blue."
+msgstr ""
+"ЗМІНА ВІДТІНКІВ – це надає змогу, наприклад, зафарбувати тло синім кольором,"
+" а актора — помаранчевим, що широко використовується під час остаточної"
+" обробки у Голлівуді. Швидшим, але менш детальною альтернативою є ефект «Зсув"
+" відтінку», який зсуває усі відтінки до червоного або синього кольорів."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:97
+msgid ""
+"SATURATION – After changing the coloration of the image, with one of the two "
+"effects that is presented, this allows saturate the color differently "
+"depending on the brightness by drawing a curve on the canal saturation."
+msgstr ""
+"НАСИЧЕНІСТЬ – після внесення змін у кольори зображення за допомогою одного"
+" або двох ефектів, зміна насиченості надає змогу наситити кольори залежно від"
+" яскравості, намалювавши криву на панелі насиченості каналу."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/applylut.rst:104
+msgid "Before and After"
+msgstr "До і після"
