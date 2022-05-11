@@ -70,7 +70,7 @@ This screen shows all clips, still images, audio files and effects such as title
 `````````````````````````````````````````````
 Trimming and other editing tools do not alter or delete the original footage, they only adjust the copy that has been added to the timeline.
 
-1. :ref:`The Timeline <editing>`
+5. :ref:`The Timeline <editing>`
 ````````````````````````````````
 This is the area where clips are placed in the order in which they will appear in the final video and trimmed to the desired length and content. When assembling the initial “rough cut” of the video, users can place clips from the project bin into the timeline in the desired sequence. To reorder clips simply click and drag them to a new position. Trimming tools allow only the relevant footage to be used by marking the desired start and end (“in” and “out”) points on each clip, to shorten or lengthen it.
 
