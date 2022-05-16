@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022.
+# Ronald Stroethoff <stroe43@zonnet.nl>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 00:37+0000\n"
-"PO-Revision-Date: 2022-01-16 14:53+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-05-11 18:10+0200\n"
+"Last-Translator: Ronald Stroethoff <stroe43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.1\n"
+"X-Generator: Lokalize 20.04.2\n"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:10
 msgid "Timeline>Space"
@@ -37,10 +38,11 @@ msgid ""
 "aside to make room for new clips but also want to preserve the relationships "
 "among all the clips that were shifted, including their transitions."
 msgstr ""
-":menuselection:`Ruimte` brengt een submenu met opties :menuselection:`Ruimte "
+":menuselection:`Ruimte` opent een submenu met de opties"
+" :menuselection:`Ruimte "
 "invoegen` en :menuselection:`Ruimte verwijderen`. Een ruimte invoegen is een "
-"nuttige functie wanneer u alle bestaande clips op de tijdlijn wilt invoegen "
-"naast het ruimte maken voor nieuwe clips, maar ook relaties tussen alle "
+"nuttige functie wanneer u alle bestaande clips op de tijdlijn wilt opschuiven"
+" om ruimte maken voor nieuwe clips, terwijl u ook de relaties tussen alle "
 "clips wilt handhaven die zijn verschoven, inclusief hun overgangen."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:25
@@ -53,6 +55,14 @@ msgid ""
 "brings up the **Add Space** dialog shown in Figure 1 where the default "
 "choice for **Track:** is *All tracks*."
 msgstr ""
+"Behalve het oproepen van dit menu via :menuselection:`Tijdlijn --> Ruimte`, "
+"kunt u het ook oproepen door op een leeg stuk van een track in de tijdlijn"
+" rechts te klikken.  Er zijn echter een aantal verschillen tussen hoe :"
+"menuselection:`Ruimte invoegen` zich gedraagt, afhankelijk van welke methode"
+" u kiest.  Ten eerste, als u :menuselection:`Tijdlijn --> Ruimte --> Ruimte"
+" invoegen` "
+"gebruikt dan opent het dialoogvenster  **Ruimte toevoegen** zoals te zien is"
+" in figuur 1 waar de standaard keuze is voor  **Track:** is *Alle tracks*."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:32
 msgid ""
@@ -63,6 +73,13 @@ msgid ""
 "operation originates from the Timeline menu; it takes place at the mouse "
 "cursor position when right-clicking."
 msgstr ""
+"Als u dit menu aanroept door op een track  rechts te klikken, dan verschijnt"
+" hetzelfde dialoogvenster maar dan is de standaard keuze de track waarop u"
+" geklikt heeft. In beide gevallen kunt u natuurlijk afwijken van de standaard"
+" keuze door een andere keuze te selecteren (Figuur 2).  "
+"Het andere verschil is het toevoegen gebeurt op de playhead als de bewerking"
+" gebeurt vanuit het tijdlijn-menu; en dat het gebeurt op de locatie van de"
+" muiscursor bij het rechtsklikken."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:34
 msgid ""
@@ -73,6 +90,12 @@ msgid ""
 "frame rate happens to be 30 fps and that's why the default **Duration** "
 "works out to be 00:00:02.05."
 msgstr ""
+"En als u het zich afvraagt, de standaard **Tijdsduur** voor de ingevoegde"
+" ruimte is 65 frames, wat niet te wijzigen is in de instellingen van Kdenlive"
+" of het project.  65 frames zal overeenkomen met verschillende"
+" tijdhoeveelheden afhankelijk de ingestelde frame rate in uw project-profiel."
+"  In het voorbeeld van ons project is de frame rate 30 fps en daarom is het"
+" dat de standaard **Tijdsduur** uitkomt op 00:00:02.05."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:41
 msgid ""
@@ -88,6 +111,18 @@ msgid ""
 "a space.  All of the following examples assume we're starting from this "
 "position."
 msgstr ""
+"Laten we een voorbeeld bekijken, ofschoon een onrealistische, waarin we een"
+" ruimte invoegen van de playhead position die alle clips en overgangen op"
+" meerdere tracks zal gaan beïnvloeden.  In het algemeen zal het invoegen van"
+" een ruimte alle clips die de playhead aanraakt en alle clips rechts van de"
+" playhead op de betreffende track(s) verplaatsen.  Overgangen zijn een beetje"
+" ingewikkelder omdat over twee tracks gaan. Er wordt aangenomen dat ze"
+" “horen” bij de bovenliggende track "
+"(onafhankelijk van de richting van de overgang) en daarom zal als de playhead"
+" ze aanraakt, ze mee zullen gaan als de bovenliggende track in de"
+" verschuiving zit.  "
+"Figuur 3 toont een scenario met clips op drie video tracks voor het invoegen"
+" van een ruimte.  Bij alle volgende voorbeelden gaan we van deze positie uit."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:48
 msgid ""
@@ -97,6 +132,13 @@ msgid ""
 "It did not shift the black clip on track 1 because it was to the left of the "
 "playhead."
 msgstr ""
+"In figuur 4, hebben we keuze gemaakt om een ruimte op *Alle Tracks* in te"
+" voegen.  Omdat de "
+"playhead de beide overgangen en de kleuren clips op tracks 2 en "
+"3 aanraakte, worden deze verschoven, samen met alle clips rechts van de"
+" playhead.  "
+"Het verschoof niet de zwarte clip op track 1 omdat deze links van de playhead"
+" was."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:55
 msgid ""
@@ -105,6 +147,9 @@ msgid ""
 "the left of the playhead.  The red clip on track 1 also went because it was "
 "to the right of the playhead."
 msgstr ""
+"In figuur 5, kozen we Track 1.  De overgang ging omdat  “hoort” bij de zwarte"
+" clip op track 1, maar de clip zelf ging niet omdat links van de playhead"
+" was.  De rode clip op track 1 ging ook omdat het rechts van de playhead."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:62
 msgid ""
@@ -113,10 +158,15 @@ msgid ""
 "it, because it belongs to track 1.  The other transition does go, because it "
 "belongs to the higher track 2."
 msgstr ""
+"In figuur 6, verschoven we de clips op Track 2.  De Dissolve overgang tussen"
+" de tracks 1 en 2 is niet verschoven, ofschoon de playhead het wel aanraakte,"
+" omdat hoort bij track 1.  De andere overgang verschuift wel omdat hoort bij"
+" de bovenliggende track 2."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:69
 msgid "Finally, In Figure 7, we chose track 3 and just the clips move."
 msgstr ""
+"Tenslotte, in figuur 7, kozen we track 3 en verschoven alleen de clips."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:72
 msgid ""
@@ -124,6 +174,10 @@ msgid ""
 "track 3 which corresponds to the playhead position in the example, the "
 "results would have been the same."
 msgstr ""
+"Als we dit proces waren begonnen door rechts te klikken op een plek op track"
+" 1 of "
+"track 3 die overeenkomt met de  playhead positie in het voorbeeld, dan zouden"
+" de resultaten hetzelfde zijn."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:76
 msgid "Remove Space"
@@ -139,7 +193,7 @@ msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:80
 msgid "The similarities are:"
-msgstr "De gelijkenissen zijn:"
+msgstr "De overeenkomsten zijn:"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:82
 msgid ""
@@ -147,18 +201,25 @@ msgid ""
 "`Timeline` menu, the playhead governs where the removal will happen.  When "
 "using right-click, it happens at the mouse cursor."
 msgstr ""
+"Als u in het :menuselection:`Tijdlijn` menu het menu-item"
+" :menuselection:`Ruimte verwijderen` opent, dan is de positie van de playhead"
+" leidend voor waar de verwijdering zal plaats vinden.  Als u rechtsklikken"
+" gebruikt dan vindt het plaats op de locatie van de muiscursor."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:83
 msgid "Transitions will move with clips on the higher track."
 msgstr ""
+"Overgangen zullen met de clips op de bovenliggende track mee verplaatsen."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:85
 msgid "There are the following differences:"
-msgstr ""
+msgstr "Er zijn de volgende verschillen:"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:87
 msgid "It only works on one track at a time – there is no *All Tracks* option."
 msgstr ""
+"Het werkt alleen maar op een track tegelijk – er is geen *Alle Tracks*"
+" mogelijkheid."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:88
 msgid ""
@@ -166,6 +227,9 @@ msgid ""
 "`Timeline` menu, the playhead must be on an empty space in the track where "
 "the space is to be removed."
 msgstr ""
+"Als u in het :menuselection:`Tijdlijn` menu het menu-item"
+" :menuselection:`Ruimte verwijderen` opent, dan moet de playhead op de lege"
+" plek zijn waar u de ruimte wilt verwijderen."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:89
 msgid ""
@@ -174,3 +238,7 @@ msgid ""
 "of the playhead or mouse cursor will be shifted left until the first clip "
 "encounters another clip or the beginning of the track."
 msgstr ""
+"U kunt van de ruimte die u wilt verwijderen niet de tijdsduur instellen –"
+" alle lege ruimte tussen de clips wordt verwijderd.  Alle clips en overgangen"
+" rechts van de playhead of muiscursor zal naar links worden verschoven totdat"
+" de eerste clip een andere clip of het begin van de track tegenkomt."
