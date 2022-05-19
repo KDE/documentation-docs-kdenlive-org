@@ -36,7 +36,7 @@ To get the correct color picker you have to change the variable `QT_QPA_PLATFORM
 
 - either for each user in the file `~.profile` to `export QT_QPA_PLATFORMTHEME="qt5ct"`
 
-- or globally: add in the file `etc/enviroment` the variable `QT_QPA_PLATFORMTHEME=qt5ct` (if set globally: do not make the entry in file `~.profile`).
+- or globally: add in the file `etc/environment` the variable `QT_QPA_PLATFORMTHEME=qt5ct` (if set globally: do not make the entry in file `~.profile`).
 
 After you have changed the the variable `QT_QPA_PLATFORMTHEME` to `qt5ct` you get the correct color picker:
 
