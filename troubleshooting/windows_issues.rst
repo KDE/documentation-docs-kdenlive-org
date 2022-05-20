@@ -183,10 +183,13 @@ To fix this you have to kill the running process: press and hold :kbd:`Ctrl + Sh
 Or download the: :download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>`. Unpack it and just double-click the batch file which kills all running **Kdenlive** processes.
 
 
-Kdenlive cannot be uninstalled
-------------------------------
+Kdenlive crash at start up, Kdenlive cannot be uninstalled
+----------------------------------------------------------
 
-If the uninstaller doesn't work you can delete following folder: :file:`/C:\Program Files\kdenlive`.
+If Kdenlive crash at startup or if the uninstaller doesn't work delete the entire folder: :file:`C:/Program Files/kdenlive`.
+
+Re-install Kdenlive
+
 You have to manually delete in the start menu the Kdenlive folder.
 
 
