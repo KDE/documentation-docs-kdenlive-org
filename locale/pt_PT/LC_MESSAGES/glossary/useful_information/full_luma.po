@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-29 00:22+0000\n"
-"PO-Revision-Date: 2022-03-23 17:48+0000\n"
+"PO-Revision-Date: 2022-05-22 00:59+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Luma Clip clip luma ref clips Yellow restricted\n"
+"X-POFile-SpellExtra: externsa Blu ray Vimeo Youtube YCbCr FS Nex HV DSLR\n"
+"X-POFile-SpellExtra: Canon Nikon SOP SAT\n"
 
 #: ../../glossary/useful_information/full_luma.rst:14
 msgid "Full Luma"
-msgstr ""
+msgstr "Luma Total"
 
 #: ../../glossary/useful_information/full_luma.rst:16
 msgid "Contents"
@@ -27,23 +30,23 @@ msgstr "Conteúdo"
 
 #: ../../glossary/useful_information/full_luma.rst:19
 msgid "Advance Clip Property - Full Luma Range"
-msgstr ""
+msgstr "Propriedade Avançada do 'Clip' - Gama Total do Luma"
 
 #: ../../glossary/useful_information/full_luma.rst:21
 msgid "A clip can have its full luma flag set from the :ref:`clips`"
-msgstr ""
+msgstr "Um 'clip' poderá ter a sua opção de luma total a partir dos :ref:`clips`"
 
 #: ../../glossary/useful_information/full_luma.rst:24
 msgid ""
 "From `this <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
 "do#comment-18298>`_ forum post by Yellow"
-msgstr ""
+msgstr "Com base `nesta publicação <http://www.kdenlive.org/forum/what-does-full-luma-exactly-do#comment-18298>`_ do fórum de Yellow"
 
 #: ../../glossary/useful_information/full_luma.rst:27
 msgid ""
 "The full luma option refers to video sources with luma recorded outside of "
 "the typical 'broadcast', 'restricted' 16 - 235 8bit range."
-msgstr ""
+msgstr "a opção de luma total refere-se às fontes de vídeo com o luma gravado fora da gama típica de 'broadcast', 'restricted' em 8 bits de 16 - 235."
 
 #: ../../glossary/useful_information/full_luma.rst:30
 msgid ""
@@ -53,7 +56,7 @@ msgid ""
 "above 235 to 255 are compressed to 0 and 255, so shadows get overly dark and "
 "highlights saturated, in the preview within **Kdenlive** for camera sources "
 "that are full range."
-msgstr ""
+msgstr "Esta opção corrige problemas de arredondamento com ficheiros de vídeo cujo luma fique fora do intervalo de 8 bits de 16 - 235. Por omissão, quando importamos u m vídeo, o mesmo é tratado e apresentado com base na gama de 16 - 235, sendo que os níveis de 0 to 15 e os de 235 a 255 são comprimidos respectivamente para 0 e 255, pelo que os tons mais escuros ficarão totalmente escuros, e os claros ficarão saturados na antevisão do **Kdenlive** para as fontes de vídeo que sejam de gama total."
 
 #: ../../glossary/useful_information/full_luma.rst:33
 msgid ""
@@ -61,7 +64,7 @@ msgid ""
 "shadows and saturated highlights, so there is a mismatch between the levels "
 "in the video we import compared to that exported. **This only really matters "
 "for round tripping to an external application**."
-msgstr ""
+msgstr "Assim. quando se gerar o desenho, estes níveis permanecem no vídeo final, comprimindo os tons escuros e saturando os claros, pelo que haverá uma não-correspondência entre os níveis do vídeo que importámos face aos que foram exportados. **Isto só interessa realmente para compatibilização com aplicações externsa**."
 
 #: ../../glossary/useful_information/full_luma.rst:36
 msgid ""
@@ -69,7 +72,7 @@ msgid ""
 "Youtube our video levels in the final rendered output should be in the 16 - "
 "235 range, otherwise we see so called 'gamma shifts', 'washed out' or "
 "saturated playback depending on playback handling."
-msgstr ""
+msgstr "Para qualquer reprodução em DVD's, Blu-ray's e as aplicações da Web como o Vimeo ou o Youtube, os nossos níveis de vídeo no resultado final deverão estar no intervalo de 16 - 235, caso contrário veremos alguns 'desvios no gama', imagens deslavadas ou saturadas, dependendo do tratamento na reprodução."
 
 #: ../../glossary/useful_information/full_luma.rst:39
 msgid ""
@@ -77,7 +80,7 @@ msgid ""
 "**Kdenlive** i.e.: 0 - 255 into 16 - 235 so full luma option changes the "
 "handling of the files and preview / scopes are based on an alternative YCbCr "
 "to RGB calculation."
-msgstr ""
+msgstr "Contudo, realmente queremos ter controlo do ajuste de níveis no **Kdenlive** i.e.: 0 - 255 para 16 - 235, pelo que a opção de luma total muda o tratamento do ficheiros, assim como a antevisão e os medidores se baseiam num cálculo alternativo de YCbCr para RGB."
 
 #: ../../glossary/useful_information/full_luma.rst:42
 msgid ""
@@ -88,7 +91,7 @@ msgid ""
 "BUT and it's a big but, that is without doing any RGB operations in "
 "**Kdenlive**, so no effects, color correction etc. If any effects are added "
 "then the output will be restricted range again."
-msgstr ""
+msgstr "Ao activar o luma total, o que deverá ser feito para as fontes de vídeo conhecidas por serem de gama total 0 - 255 ou mesmo 16 - 255, como a FS100, Nex5, HV20, HV30 e provavelmente muitas mais câmaras dos consumidores usuais. As DSLR's da Canon e Nikon também suportam, mas o processo é um pouco mais complicado, sendo que podemos exportar o vídeo com os níveis que foram importados, MAS - e é um grande 'mas' - isso ocorrerá sem efectuar quaisquer operações de RGB no **Kdenlive**; como tal, não haverá suporte para efeitos, correcções de cores, etc. Se forem adicionados quaisquer efeitos, então o resultado ficará de novo na gama restrita."
 
 #: ../../glossary/useful_information/full_luma.rst:45
 msgid ""
@@ -96,4 +99,4 @@ msgid ""
 "and maintaining levels for grading in an external application that offers "
 "32bit float precision. When it's necessary to otherwise happy with "
 "**Kdenlive's** SOP/SAT and scopes."
-msgstr ""
+msgstr "Por mim, uso o luma total sempre, porque permite desempenhar uma edição do vídeo e manter os níveis de graduação para uma aplicação externa que ofereça uma precisão em 32 bits de vírgula flutuante. Se necessário, poderá ficar satisfeito com  o SOP/SAT e os medidores do **Kdenlive**."
