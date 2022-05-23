@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-29 00:22+0000\n"
-"PO-Revision-Date: 2021-11-13 11:26+0000\n"
+"PO-Revision-Date: 2022-05-22 23:08+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: menuselection coloradjRGB truncagem pr luma MLT\n"
+"X-POFile-SpellExtra: coloradjrgb\n"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:14
 msgid "RGB adjustment"
-msgstr ""
+msgstr "Ajuste de RGB"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:16
 msgid "Contents"
@@ -29,7 +31,7 @@ msgstr "Conteúdo"
 msgid ""
 "This filter is for simple manual color adjustment by RGB channel, either "
 "through adding constants, or changing the channel gammas or gains."
-msgstr ""
+msgstr "Este filtro serve para um ajuste manual de cores por canal RGB, seja através de mudança dos valores de gama ou ganho dos canais."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:20
 msgid ""
@@ -40,7 +42,7 @@ msgid ""
 "migrate into red, it will simply be too small. Amplifying the blue (and a "
 "bit of green too) should be all that is needed. Similar, an underwater shot "
 "will simply be red deficient, needing some red boost, etc."
-msgstr ""
+msgstr ":menuselection:`Simples` significa que funciona a nível de cada canal e não de forma cruzada. Os elementos fora da diagonal da matriz de transformação são iguais a zero - sem propagação de cores, sem rotação do espaço de cores. Mas isto deverá ser suficiente para a maioria da starefas. Por exemplo, ao fotografar sob uma luz de tungsténio, o sinal azul não irá migrar para o vermelho, por ser realmente reduzido. Se amplificar o azul (e um pouco do verde também), deverá ser tudo o que é necessário. De igual forma, uma foto debaixo de água deverá ter deficiências a nível do vermelho, precisando de algum reforço no vermelho, etc."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:22
 msgid "Parameters:"
@@ -48,37 +50,37 @@ msgstr "Parâmetros:"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:24
 msgid "**R,G,B:**"
-msgstr ""
+msgstr "**R,G,B:**"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:26
 msgid "These determine the change in each of the three color channels."
-msgstr ""
+msgstr "Estes determinam a mudança em cada dos três canais de cores."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:28
 msgid "**Action:**"
-msgstr ""
+msgstr "**Acção:**"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:30
 msgid ""
 ":menuselection:`Add constant` adds a fixed value between -150 and +150 (this "
 "is sometimes called \"black level\" or \"setup\")."
-msgstr ""
+msgstr "A opção :menuselection:`Adicionar uma constante` adiciona um valor fixo entre -150 e +150 (isto chama-se normalmente \"nível de preto\" ou \"configuração\")."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:31
 msgid ""
 ":menuselection:`Change gamma` changes channel gamma between 0.3333 and 3.0."
-msgstr ""
+msgstr "A :menuselection:`Mudar o gama` altera o gama do canal entre 0,3333 e 3,0."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:32
 msgid ""
 ":menuselection:`Multiply` multiplies channel with a value between 0.3333 and "
 "3.0 (sometimes called \"gain\" or \"contrast\")."
-msgstr ""
+msgstr "O :menuselection:`Multiplicar` multiplica o canal por um valor entre 0,3333 e 3,0 (algumas vezes chamadas de \"ganho\" ou \"contraste\")."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:36
 msgid ""
 "To apply more than one action above, use cascaded instances of coloradj_RGB."
-msgstr ""
+msgstr "Para aplicar mais que uma acção acima, use instâncias em cascata do módulo 'coloradj_RGB'."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:40
 msgid ""
@@ -91,24 +93,24 @@ msgid ""
 "255 truncated. :menuselection:`Change gamma` keeps the whole cube in the "
 "same place, just stretches and squeezes its interior, so no zero filling or "
 "truncation is necessary."
-msgstr ""
+msgstr "O :menuselection:`Adicionar uma constante` simplesmente aplica um desvio no espaço de cores do \"cubo\" RGB. Isto significa que, de um dos lados, ficamos com um espaço vazio, que ficará preenchido com zeros e, do outro lado, os valores poderão \"sair fora dos limites\" e, nesse caso, serão truncados ao valor máximo (255). A opção :menuselection:`Modificar o ganho` muda o tamanho do cubo, mantendo o canto \"preto\" corrigido, afectando de forma predominante os tons claros, mas o outro extremo poderá continuar a \"sair dos limites\" e ficar truncado a 255. A opção :menuselection:`Modificar o gama` mantém o cubo inteiro no mesmo lugar, simplesmente esticando ou reduzindo o seu interior, para que assim não seja necessário qualquer preenchimento com zeros ou truncagem."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:42
 msgid ""
 "To visualize this plugin's actions, apply it to a gray gradient, and watch "
 "the result with \"pr0file\"."
-msgstr ""
+msgstr "Para visualizar as acções deste 'plugin', aplique-a a um gradiente cinzento, vendo depois o resultado com \"pr0file\"."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:44
 msgid "**Keep luma:**"
-msgstr ""
+msgstr "**Manter o luma:**"
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:46
 msgid "Fixes the luma value, so that the sliders only affect color."
-msgstr ""
+msgstr "Corrige o valor do luma, de forma que as barras deslizantes só afectam a cor."
 
 #: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:48
 msgid ""
 "This is the `Frei0r coloradj_rgb <https://www.mltframework.org/plugins/"
 "FilterFrei0r-coloradj_rgb/>`_ MLT filter."
-msgstr ""
+msgstr "Este é o filtro do MLT `Frei0r coloradj_rgb <https://www.mltframework.org/plugins/FilterFrei0r-coloradj_rgb/>`_."
