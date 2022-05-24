@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-02 00:38+0000\n"
-"PO-Revision-Date: 2022-05-23 01:11+0100\n"
+"PO-Revision-Date: 2022-05-23 15:29+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: melt properties lossless usr share mlt presets\n"
+"X-POFile-SpellExtra: consumer avformat menuselection ref projectsettings\n"
+"X-POFile-SpellExtra: outdated ffmpeg AVOptions AVCodecContext MLT\n"
+"X-POFile-SpellExtra: ConsumerAvFormat YouTube\n"
 
 #: ../../exporting/render_profile_parameters.rst:1
 msgid "The Kdenlive User Manual"
@@ -48,7 +52,7 @@ msgid ""
 "example illustrated, the render profile is referencing *lossless/H.264*. "
 "This refers to a property preset found in file H.264 found on the system at :"
 "file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
-msgstr ""
+msgstr "O Kdenlive agora tira partido de \"predefinições das propriedades\" oferecidas pelo projecto *melt* (veja a `documentação do melt <https://www.mltframework.org/docs/presets/>`_). Estas predefinições são referenciadas através da sintaxe *properties=<preset>*. No exemplo ilustrado, o perfil de desenho está a referenciar o *lossless/H.264*. Isto refere-se a uma predefinição de propriedade encontrada no ficheiro H.264 encontrado no sistema em :file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
 
 #: ../../exporting/render_profile_parameters.rst:46
 msgid ""
@@ -57,7 +61,7 @@ msgid ""
 "avformat/` (on a default install). Note that you reference presets found in "
 "subdirectories of this folder using a :file:`<dirname>/<profile>` syntax as "
 "shown in the example above."
-msgstr ""
+msgstr "Todas as *<presets>* (predefinições) referenciadas na configuração do desenho no Kdenlive farão referência às predefinições encontradas em :file:`/usr/share/mlt/presets/consumer/avformat/` (numa instalação predefinida). Lembre-se que poderá referenciar as predefinições encontradas nas sub-pastas desta pasta, usando uma sintaxe :file:`<pasta>/<perfil>` como no exemplo acima."
 
 #: ../../exporting/render_profile_parameters.rst:55
 msgid ""
@@ -66,7 +70,7 @@ msgid ""
 "rendering. An example is shown below. These are the same parameters that "
 "were used in earlier versions of Kdenlive – see next section for how to read "
 "those."
-msgstr ""
+msgstr "Os ficheiros de predefinições encontrados em :file:`/usr/share/mlt/presets/consumer/avformat/` são ficheiros de texto simples que contêm os parâmetros do *melt* que definem o desenho. Está disponível um exemplo em baixo. Estes são os mesmos parâmetros que foram usados nas versões anteriores do Kdenlive – veja a secção seguinte para saber como os ler."
 
 #: ../../exporting/render_profile_parameters.rst:57
 msgid "Contents of lossless/H.264:"
@@ -80,71 +84,71 @@ msgstr "Lista de Análise"
 msgid ""
 "This option controls the frame scanning setting the rendered file will have. "
 "Options are *Force Progressive*, *Force Interlaced* and *Auto*."
-msgstr ""
+msgstr "Esta opção controla a opção de análise da imagem que o ficheiro desenhado irá ter. As opções são *Forçar o Progressivo*, *Forçar o Entrelaçado* e o *Auto*."
 
 #: ../../exporting/render_profile_parameters.rst:88
 msgid ""
 ":menuselection:`Auto` causes the rendered file to take the scanning settings "
 "that are defined in the :ref:`project_settings`. Use the other options to "
 "override the setting defined in the project settings."
-msgstr ""
+msgstr "O :menuselection:`Auto` faz com que o ficheiro gerado tenha em conta a configuração de análise definida na :ref:`project_settings`. Use as outras opções para substituir o valor predefinido na configuração do projecto."
 
 #: ../../exporting/render_profile_parameters.rst:96
 msgid "|outdated|"
-msgstr ""
+msgstr "|outdated|"
 
 #: ../../exporting/render_profile_parameters.rst:98
 msgid ""
 "The parameters that go into a render profile derive from the **ffmpeg** "
 "program."
-msgstr ""
+msgstr "Os parâmetros que vão para um perfil de desenho derivam do programa **ffmpeg**."
 
 #: ../../exporting/render_profile_parameters.rst:100
 msgid ""
 "This is a worked example to show how you can understand what these "
 "parameters mean using the **ffmpeg** documentation."
-msgstr ""
+msgstr "Este é um exemplo funcional que lhe mostra como poderá compreender o que significam estes parâmetros, usando a documentação do **ffmpeg**."
 
 #: ../../exporting/render_profile_parameters.rst:102
 msgid "In the example above the parameters are:"
-msgstr ""
+msgstr "No exemplo acima, os parâmetros são:"
 
 #: ../../exporting/render_profile_parameters.rst:124
 msgid ""
 "Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
 "translates these parameters as shown below."
-msgstr ""
+msgstr "Ao consultar a `ajuda do ffmpeg <https://linux.die.net/man/1/ffmpeg>`_, isso traduz-se nos parâmetros apresentados abaixo."
 
 #: ../../exporting/render_profile_parameters.rst:126
 msgid "Main option is:"
-msgstr ""
+msgstr "A opção principal é:"
 
 #: ../../exporting/render_profile_parameters.rst:132
 msgid "Video options are:"
-msgstr ""
+msgstr "As opções do vídeo são:"
 
 #: ../../exporting/render_profile_parameters.rst:144
 msgid "Audio options are:"
-msgstr ""
+msgstr "As opções do áudio são:"
 
 #: ../../exporting/render_profile_parameters.rst:152
 msgid "The AVCodecContext AVOptions include:"
-msgstr ""
+msgstr "As AVOptions do AVCodecContext incluem:"
 
 #: ../../exporting/render_profile_parameters.rst:161
 msgid ""
 "So all the render profile options are documented here in the **ffmpeg** "
 "documentation."
-msgstr ""
+msgstr "Como tal, todas as opções do perfil de desenho estão aqui documentadas na documentação do **ffmpeg**."
 
 #: ../../exporting/render_profile_parameters.rst:163
 msgid ""
 "See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on "
 "ConsumerAvFormat."
-msgstr ""
+msgstr "Consulte também a `documentação do MLT <https://www.mltframework.org/docs/presets/>`_ sobre o ConsumerAvFormat."
 
 #: ../../exporting/render_profile_parameters.rst:165
 msgid ""
 "See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum."
 "kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
-msgstr ""
+msgstr "Veja também `COMO Produzir vídeos em 4k e 2K, compatíveis com o YouTube <https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
