@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 00:37+0000\n"
-"PO-Revision-Date: 2021-11-13 11:26+0000\n"
+"PO-Revision-Date: 2022-05-24 22:34+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: menuselection clips ips clip vaziona\n"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:10
 msgid "Timeline>Space"
-msgstr ""
+msgstr "Linha Temporal > Espaço"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:13
 msgid "Contents"
@@ -36,7 +37,7 @@ msgid ""
 "useful feature when you want to push all the existing clips on the timeline "
 "aside to make room for new clips but also want to preserve the relationships "
 "among all the clips that were shifted, including their transitions."
-msgstr ""
+msgstr "O :menuselection:`Espaço` invoca um submenu com as opções :menuselection:`Inserir um Espaço` e :menuselection:`Remover o Espaço`. A inserção de um espaço é uma funcionalidade útil quando quiser desviar todos os 'clips' existentes na linha temporal para o lado para criar espaço para os 'clips' novos, mas mantendo à mesma as relações entre todos os 'clips' que foram desviados, incluindo as suas transições."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:25
 msgid ""
@@ -47,7 +48,7 @@ msgid ""
 "choose.  First, using :menuselection:`Timeline --> Space --> Insert Space` "
 "brings up the **Add Space** dialog shown in Figure 1 where the default "
 "choice for **Track:** is *All tracks*."
-msgstr ""
+msgstr "Para além de invocar este menu a partir de :menuselection:`Linha Temporal --> Espaço`, também o poderá invocar se carregar com o botão direito sobre um espaço vazio de uma faixa na linha temporal. Existem algumas diferenças importantes na forma como a opção :menuselection:`Inserir um Espaço` se comporta, dependendo do método que escolher. Em primeiro lugar, se usar a opção :menuselection:`Linha Temporal --> Espaço --> Inserir um Espaço` invoca a janela para **Adicionar um Espaço** que aparece na Figura 1, onde a opção predefinida da **Faixa:** é *Todas as faixas*."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:32
 msgid ""
@@ -57,7 +58,7 @@ msgid ""
 "The other difference is that the insertion happens at the playhead when the "
 "operation originates from the Timeline menu; it takes place at the mouse "
 "cursor position when right-clicking."
-msgstr ""
+msgstr "Quando aceder ao menu através do botão direito sobre uma faixa, a mesma janela aparece mas aí a faixa predefinida é a faixa onde carregou. Em qualquer dos casos, poderá à mesma substituir o valor predefinido, escolhendo outra opção (Figura 2). A outra diferença é que a inserção ocorre na posição de reprodução onde a operação tem origem no menu Linha Temporal; neste caso, toma lugar na posição do cursor onde carregou com o botão direito do rato."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:34
 msgid ""
@@ -67,7 +68,7 @@ msgid ""
 "the frame rate set in your project profile.  In the example, our project's "
 "frame rate happens to be 30 fps and that's why the default **Duration** "
 "works out to be 00:00:02.05."
-msgstr ""
+msgstr "E em caso de dúvidas, a **Duração** predefinida para o espaço inserido é de 65 imagens, o que não é configurável na configuração do projecto ou do Kdenlive. As 65 imagens irão corresponder a períodos de tempo diferentes, dependendo da taxa de imagens definida no seu perfil do projecto. No exemplo, a taxa de imagens do nosso projecto era por acaso de 30 ips, pelo que a **Duração** correspondia a 00:00:02,05."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:41
 msgid ""
@@ -82,7 +83,7 @@ msgid ""
 "Figure 3 shows a scenario with clips on three video tracks before inserting "
 "a space.  All of the following examples assume we're starting from this "
 "position."
-msgstr ""
+msgstr "Vejamos um exemplo, ainda que pouco alista, de como inserir um espaço na posição de reprodução irá afectar os 'clips' e transições nas diferentes faixas. De um modo geral, a inserção de um espaço irá desviar todos os 'clips' onde a posição de reprodução estiver em contacto, assim como todos os 'clips' à direita da posição de reprodução das faixas afectadas. As transições são um pouco mais complicadas por ocuparem duas faixas. Assume-se que as mesmas “pertencem” à faixa superior (independentemente da direcção da transição) e, como tal, se a posição de reprodução estiver em contacto com elas, as mesmas avançam se a faixa superior estiver incluída no desvio. A Figura 3 mostra um cenário com 'clips' nas três faixas de vídeo antes da inserção de um espaço. Em todos os seguintes exemplos, assumimos que partimos desta posição."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:48
 msgid ""
@@ -91,7 +92,7 @@ msgid ""
 "3, it shifted them, along with all the clips to the right of the playhead.  "
 "It did not shift the black clip on track 1 because it was to the left of the "
 "playhead."
-msgstr ""
+msgstr "Na Figura 4, optámos por inserir um espaço em *Todas as Faixas*. Dado que a posição de reprodução estava a tocar tanto nas transições como nos 'clips' de cores nas faixas 2 e 3, desviou as mesmas, em conjunto com todos os 'clips' à direita da posição de reprodução. Não desviou o 'clip' a preto na faixa 1, porque estava à esquerda da posição de reprodução."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:55
 msgid ""
@@ -99,7 +100,7 @@ msgid ""
 "the black clip on track 1, but the clip itself did not go because it was to "
 "the left of the playhead.  The red clip on track 1 also went because it was "
 "to the right of the playhead."
-msgstr ""
+msgstr "Na Figura 5, escolhemos a Faixa 1. A transição veio porque “pertence” ao 'clip' a preto na faixa 1, mas o 'clip' em si não veio por estar à esquerda da posição de produção. O 'clip' vermelho na faixa 1 também veio por estar à direita da posição de reprodução."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:62
 msgid ""
@@ -107,18 +108,18 @@ msgid ""
 "between tracks 1 and 2 does not shift, even though the playhead was touching "
 "it, because it belongs to track 1.  The other transition does go, because it "
 "belongs to the higher track 2."
-msgstr ""
+msgstr "Na Figura 6, desviámos os 'clips' na Faixa 2.  Agora a transição de Dissolução entre as faixas 1 e 2 não muda de posição, ainda que a posição de reprodução estivesse em contacto com a mesma, por pertencer à faixa 1. As outras transições avançam de facto por pertencerem à faixa superior 2."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:69
 msgid "Finally, In Figure 7, we chose track 3 and just the clips move."
-msgstr ""
+msgstr "Finalmente, na Figura 7, escolhemos a faixa 3 e apenas os 'clips' se movem."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:72
 msgid ""
 "If we had started this process by right-clicking on a spot on track 1 or "
 "track 3 which corresponds to the playhead position in the example, the "
 "results would have been the same."
-msgstr ""
+msgstr "Se tivermos iniciado este processo ao carregar com o botão direito num ponto da faixa 1 ou faixa 3 que corresponda à posição de reprodução no exemplo, os resultados seriam iguais."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:76
 msgid "Remove Space"
@@ -128,37 +129,37 @@ msgstr "Remover o Espaço"
 msgid ""
 ":menuselection:`Remove Space` is not the exact opposite of :menuselection:"
 "`Insert Space`."
-msgstr ""
+msgstr "A opção :menuselection:`Remover o Espaço` não é exactamente o oposto de :menuselection:`Inserir um Espaço`."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:80
 msgid "The similarities are:"
-msgstr ""
+msgstr "As semelhanças são:"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:82
 msgid ""
 "If you access :menuselection:`Remove Space` from the :menuselection:"
 "`Timeline` menu, the playhead governs where the removal will happen.  When "
 "using right-click, it happens at the mouse cursor."
-msgstr ""
+msgstr "Se aceder a :menuselection:`Remover o Espaço` a partir do menu :menuselection:`Linha Temporal`, a posição de reprodução indica onde irá ocorrer a remoção. Quando usar o botão direito, irá ocorrer na posição do cursor do rato."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:83
 msgid "Transitions will move with clips on the higher track."
-msgstr ""
+msgstr "As transições irão mover com os 'clips' na faixa superior."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:85
 msgid "There are the following differences:"
-msgstr ""
+msgstr "Existem as seguintes diferenças:"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:87
 msgid "It only works on one track at a time – there is no *All Tracks* option."
-msgstr ""
+msgstr "Só funciona com uma faixa de cada vez - não existe uma opção *Todas as Faixas*."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:88
 msgid ""
 "If you accessed :menuselection:`Remove Space` from the :menuselection:"
 "`Timeline` menu, the playhead must be on an empty space in the track where "
 "the space is to be removed."
-msgstr ""
+msgstr "Se tiver acedido a :menuselection:`Remover o Espaço` no menu :menuselection:`Linha Temporal`, a posição de reprodução deverá estar num espaço vaziona faixa em que o espaço será removido."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:89
 msgid ""
@@ -166,4 +167,4 @@ msgid ""
 "space between clips is removed.  All the clips and transitions to the right "
 "of the playhead or mouse cursor will be shifted left until the first clip "
 "encounters another clip or the beginning of the track."
-msgstr ""
+msgstr "Não poderá definir a duração do espaço a remover - todo os espaço vazio entre os 'clips' será removido. Todos os 'clips' e transições à direita da posição de reprodução ou do cursor do rato serão desviadas para a esquerda até que o primeiro 'clip' encontre outro 'clip' ou o início da faixa."
