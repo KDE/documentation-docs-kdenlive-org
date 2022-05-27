@@ -284,8 +284,12 @@ Create Custom Render Presets
 
 |document-new| |document-save-as| |document-edit| Will open the **Save Render Preset** dialog (also shown in the screenshot below) and the :guilabel:`Parameters` section will be filled in with the render parameters of the preset that you had selected when you clicked either of the |document-new| or |document-save-as| or |document-edit| button. You can edit values in the parameters and save your own custom render preset.
 
+**Creating new groups:** When you save a preset and enter a group name that does not yet exist, the group will be created.
+
 .. image:: /images/exporting/edit_render_profile_22-04.png
    :alt: Dialog to edit render presets
+
+The parameters are not limited by the UI, you can add custom parameters in the box `Additional Parameters` under the tab :guilabel:`Other`.
 
 The parameters in the rendering presets are *melt* parameters. For an explanation of their meaning, check the *melt* `documentation <https://www.mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt.
 
