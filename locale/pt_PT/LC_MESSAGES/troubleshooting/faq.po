@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-13 00:22+0000\n"
-"PO-Revision-Date: 2021-11-13 11:26+0000\n"
+"PO-Revision-Date: 2022-05-19 14:57+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: melt MLT FFMPEG sh mlt usr bin kdenliverender VBR ref\n"
+"X-POFile-SpellExtra: extractaudio\n"
 
 #: ../../troubleshooting/faq.rst:17
 msgid "Frequently Asked Questions"
@@ -27,7 +29,7 @@ msgstr "Conteúdo"
 
 #: ../../troubleshooting/faq.rst:23
 msgid "What components does Kdenlive use?"
-msgstr ""
+msgstr "Quais os componentes que o Kdenlive usa?"
 
 #: ../../troubleshooting/faq.rst:25
 msgid ""
@@ -37,10 +39,16 @@ msgid ""
 "XML files that code the edit points and transitions and it then calls :file:"
 "`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to render the video."
 msgstr ""
+"De facto, o **Kdenlive** é uma interface para o `melt <http://www."
+"mltframework.org/bin/view/MLT/MltMelt>`_ - que usa a plataforma de vídeo "
+"MLT. Esta plataforma por sua vez baseia-se no projecto FFMPEG. O "
+"**Kdenlive** gera ficheiros XML :file:`sh.mlt` que codificam os pontos de "
+"edição e transições e depois invoca o :file:`/usr/bin/kdenlive_render` e o :"
+"file:`/usr/bin/melt` para gerar o vídeo."
 
 #: ../../troubleshooting/faq.rst:29
 msgid "How do I fix Audio Sync Issues?"
-msgstr ""
+msgstr "Como é que corrijo os problemas de Sincronização do Áudio?"
 
 #: ../../troubleshooting/faq.rst:31
 msgid ""
@@ -48,6 +56,9 @@ msgid ""
 "project. Audio encoded with VBR (be it pure audio like MP3 or video with "
 "audio) can be problematic."
 msgstr ""
+"Muitas das vezes é causado por ter misturas de diferentes fontes de áudio no "
+"projecto. O áudio codificado com VBR (seja ele áudio puro, como um MP3, ou "
+"vídeo com áudio) pode ter problemas."
 
 #: ../../troubleshooting/faq.rst:33
 msgid ""
@@ -56,7 +67,11 @@ msgid ""
 "`extract_audio` feature of Kdenlive to do this it will write a .wav file for "
 "you."
 msgstr ""
+"Se a sua fonte de áudio é de um ficheiro de vídeo, tente extrair o áudio das "
+"suas fontes de vídeo e converter o áudio para o formato WAV. Se usar a "
+"funcionalidade :ref:`extract_audio` do Kdenlive para o fazer, irá gerar logo "
+"um ficheiro .wav para si."
 
 #: ../../troubleshooting/faq.rst:36
 msgid "If you have a pure audio source try transcoding that to WAV."
-msgstr ""
+msgstr "Se tem uma fonte de áudio puro, tente converter o mesmo para WAV."

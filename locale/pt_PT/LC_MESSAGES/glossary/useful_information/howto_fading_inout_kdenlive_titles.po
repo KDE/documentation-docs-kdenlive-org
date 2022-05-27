@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-25 00:22+0000\n"
-"PO-Revision-Date: 2022-03-23 17:48+0000\n"
+"PO-Revision-Date: 2022-05-20 16:22+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: clip MLT ref thesmoothkeyframeinterpolation\n"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:13
 msgid "How to fading in-out Kdenlive titles"
-msgstr ""
+msgstr "Como fazer aparecer/desaparecer os títulos do Kdenlive"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:15
 msgid ""
@@ -30,6 +31,13 @@ msgid ""
 "Black effects though, as these effects remove the title transparency "
 "information."
 msgstr ""
+"Neste vídeo curto *COMO FAZER*, iremos mostrar como poderá fazer aparecer/"
+"desaparecer (suavemente) os títulos do Kdenlive num 'clip' de vídeo, "
+"transitando de e para a transparência. A chave do sucesso é usar uma "
+"transição de **Composição & Transformação** com imagens-chave (a "
+"**Afinidade** e a **Composição** também irão funcionar). Contudo, **não "
+"use** os efeitos de Desvanecer de/para Preto, dado que estes efeitos removem "
+"a informação de transparência do título."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:23
 msgid "Notes"
@@ -37,23 +45,29 @@ msgstr "Notas"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:25
 msgid "These are the individual steps shown in this HOWTO video:"
-msgstr ""
+msgstr "Estes são os passos individuais disponíveis neste vídeo COMO FAZER:"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:27
 msgid "Add a Composite & Transform transition to the title clip."
 msgstr ""
+"Adicione uma transição de Composição & Transformação para o 'clip' do título."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:28
 msgid ""
 "First keyframe: set the opacity to 0%. This marks the beginning of the fade "
 "in (ramp up)."
 msgstr ""
+"Primeira imagem-chave: configure a opacidade como 0%. Isto marca o início do "
+"aparecimento (subida da rampa)."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
 msgid ""
 "Second keyframe: add a new keyframe where you want the title to be fully "
 "faded in, set the opacity to 100%. Set the type of the keyframe to Linear."
 msgstr ""
+"Segunda imagem-chave: adicione uma nova imagem-chave onde quer que o título "
+"apareça por completo e configure opacidade como 100%. Configure o tipo da "
+"imagem-chave como Linear."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
 msgid ""
@@ -63,12 +77,19 @@ msgid ""
 "opacity of 100% you won’t notice. However, when you use a maximum opacity of "
 "less than 100%, then this overshooting may become visible."
 msgstr ""
+"A razão para definir esta imagem-chave como Linear é que, caso contrário, o "
+"Kdenlive (MLT) calcula uma ajuste a uma curva suave para a imagem-chave "
+"anterior e seguinte, fazendo com que o valor de opacidade dispare. Com uma "
+"opacidade máxima de 100% não irá notar. Contudo, quando usar uma opacidade "
+"máxima inferior a 100%, então este disparo poderá ficar visível."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:31
 msgid ""
 "Ensure that the first keyframe is Smooth. You can only adjust the type of "
 "the first keyframes after you’ve added a second keyframe."
 msgstr ""
+"Garanta que a primeira imagem-chave é Suave. Só poderá ajustar o tipo das "
+"primeiras imagens-chave após ter adicionado uma segunda imagem-chave."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:32
 msgid ""
@@ -76,10 +97,15 @@ msgid ""
 "fading out the title. Leave the opacity at 100%. Set the keyframe type to "
 "Smooth."
 msgstr ""
+"Terceira imagem-chave: adicione outra imagem-chave perto do fim, onde deseja "
+"começar a desvanecer o título. Deixe a opacidade como 100%. Configure o tipo "
+"de imagem-chave como Suave."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:33
 msgid "Fourth keyframe: add a final keyframe, where you set the opacity to 0%."
 msgstr ""
+"Quarta imagem-chave: adicione uma imagem-chave final, onde configura a "
+"opacidade como 0%."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:35
 msgid "Done."
@@ -91,3 +117,6 @@ msgid ""
 "linear interpolated keyframes? Then head over to our new article on :ref:"
 "`the_smooth_keyframe_interpolation`."
 msgstr ""
+"No caso de estar confuso, porquê esta mistura de imagens-chave interpoladas "
+"suaves e lineares? Para perceber, consulte o nosso novo artigo sobre :ref:"
+"`the_smooth_keyframe_interpolation`."

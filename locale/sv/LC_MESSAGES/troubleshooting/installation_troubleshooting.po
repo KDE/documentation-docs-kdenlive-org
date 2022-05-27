@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-16 00:37+0000\n"
-"PO-Revision-Date: 2022-01-19 20:11+0100\n"
+"PO-Revision-Date: 2022-05-26 20:32+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -28,6 +28,10 @@ msgid ""
 "process all video operations, and MLT uses many other libraries like FFmpeg, "
 "Frei0r, …"
 msgstr ""
+"Många problem som man stöter på i Kdenlive orsakas av installationsproblem"
+" (saknade paket eller paket som inte matchar varandra). Kdenlive använder"
+" ramverket MLT för att behandla alla video-operationer, och MLT använder"
+" många andra bibliotek såsom FFmpeg, Frei0r, ..."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:14
 msgid ""
@@ -35,10 +39,13 @@ msgid ""
 "the error message you get on startup. If this does not help you, check the "
 "forums."
 msgstr ""
+"Här är några tips för att förstå vad som kan vara fel, beroende på"
+" felmeddelandet man får vid start. Om det inte hjälper, ta en titt på forumen."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:17
 msgid "Your MLT installation cannot be found or Cannot start MLT backend"
 msgstr ""
+"Installationen av MLT kan inte hittas eller Kan inte starta MLT-gränssnitt"
 
 #: ../../troubleshooting/installation_troubleshooting.rst:19
 msgid ""
@@ -47,12 +54,18 @@ msgid ""
 "installation from a terminal, type: `melt color:red` This should bring up a "
 "red window (press :kbd:`q` to close it)."
 msgstr ""
+"Det är uppenbarligen något fel med installationen av MLT. Antingen är det"
+" inte installerat, eller inte på den normala platsen. Man kan prova sin"
+" installation av MLT i en terminal, skriv: `melt color:red`. Det ska visa ett"
+" rött fönster (tryck på :kbd:`q` för att stänga det)."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:22
 msgid ""
 "If you see an error message, try reinstalling MLT or check that you don't "
 "have several versions installed on the system."
 msgstr ""
+"Om ett felmeddelande visas, försök installera om MLT eller kontrollera att"
+" det inte finns flera versioner installerade på systemet."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:24
 msgid ""
@@ -60,6 +73,9 @@ msgid ""
 "Then delete Kdenlive's config file (`$HOME/.config/kdenliverc`) and restart "
 "Kdenlive."
 msgstr ""
+"Om det röda fönstret visas, kontrollera var MLT är installerat: `which melt`."
+" Ta sedan bort Kdenlives inställningsfil (`$HOME/.config/kdenliverc`) och"
+" starta om Kdenlive."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:27
 msgid "Missing package"
@@ -93,6 +109,9 @@ msgid ""
 "many parts of the UI will not appear correctly. You can simply install "
 "breeze-icon-theme or breeze-icons from your package manager."
 msgstr ""
+"Många ikoner som används av Kdenlive kommer från Breeze ikonpaket. Utan det,"
+" visas många delar av användargränssnittet felaktigt. Man kan helt enkelt"
+" installera breeze-icon-theme eller breeze-icons från pakethanteraren."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:42
 msgid "MediaInfo"
@@ -103,6 +122,8 @@ msgid ""
 "Download and install MediaInfo from `here <https://mediaarea.net/MediaInfo/"
 "Download>`_"
 msgstr ""
+"Ladda ner och installera MediaInfo `härifrån <"
+"https://mediaarea.net/MediaInfo/Download>`_"
 
 #: ../../troubleshooting/installation_troubleshooting.rst:47
 msgid "Missing MLT module"
@@ -110,7 +131,7 @@ msgstr "Saknar MLT-modul"
 
 #: ../../troubleshooting/installation_troubleshooting.rst:49
 msgid "An MLT dependency is missing and it is required to install it."
-msgstr ""
+msgstr "Ett MLT-beroende saknas och det är krävs att det installeras."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:51
 msgid ""
@@ -130,13 +151,15 @@ msgstr ""
 
 #: ../../troubleshooting/installation_troubleshooting.rst:56
 msgid "The following codecs were not found on your system…"
-msgstr ""
+msgstr "Följande kodare hittades inte på systemet..."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:58
 msgid ""
 "Some audio / video codecs are not installed by default. Installing a package "
 "called `libavcodec-extra` might solve the problem."
 msgstr ""
+"Visa ljud- och videokodare är inte normalt installerade. Att installera ett"
+" paket som kallas `libavcodec-extra` kan lösa problemet."
 
 #: ../../troubleshooting/installation_troubleshooting.rst:60
 msgid ""
@@ -145,3 +168,7 @@ msgid ""
 "org/SDB:Vendor_change_update#Full_repository_Vendor_change>`_ on the packman "
 "repository."
 msgstr ""
+"På openSuse, måste man lägga till `arkivet packman <"
+"https://www.opensuse-community.org/>`_, och sedan aktivera `ersätt"
+" leverantörspaket <https://en.opensuse.org/SDB:Vendor_change_update#Full_repos"
+"itory_Vendor_change>`_ för packman-arkivet."

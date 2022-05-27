@@ -2,12 +2,13 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022.
+# Ronald Stroethoff <stroe43@zonnet.nl>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-16 00:39+0000\n"
-"PO-Revision-Date: 2022-04-16 11:19+0200\n"
+"PO-Revision-Date: 2022-05-21 13:52+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.04.1\n"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:18
 msgid "Configure Kdenlive"
@@ -141,6 +142,10 @@ msgid ""
 "you click on a new position in the timeline. It allows looping playback, "
 "see :ref:`loop_playback`."
 msgstr ""
+"Afspelen pauzeren bij positioneren: **Ingeschakeld:** Afspelen stopt als u "
+"op een nieuwe positie in de tijdlijn klikt. **Uitgeschakeld:** Afspelen gaat "
+"verder als u op een nieuwe positie in de tijdlijn klikt. Herhaalt afspelen "
+"is mogelijk, zie :ref:`loop_playback`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:105
 msgid "Zoom using vertical drag in the ruler"
@@ -151,6 +156,8 @@ msgid ""
 "Track Height: defines the default track height in pixels for the tracks on "
 "the timeline."
 msgstr ""
+"Trackhoogte:: definieert de standaard trackhoogte in pixels voor de tracks "
+"op de tijdlijn."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:109
 msgid "**Multi stream audio clips**"
@@ -162,12 +169,18 @@ msgid ""
 "menuselection:`first audio stream`, :menuselection:`first 2 audio streams` "
 "should be imported."
 msgstr ""
+"Bij importeren, ingeschakeld: kies welke :menuselection:`Alle "
+"audiostreams`, :menuselection:`Eerste audiostream`, :menuselection:`Eerste 2 "
+"audiostreams` moet worden geïmporteerd."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:113
 msgid ""
 "Check if project contains enough audio tracks. If enabled Kdenlive asks if "
 "it should generate the additional audio tracks needed automatically."
 msgstr ""
+"Controleert of het project genoeg audio tracks heeft. Indien ingeschakeld, "
+"zal Kdenlive vragen of het automatisch de nodige extra audio tracks moet "
+"genereren."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:115
 msgid "**Raise properties pane when selecting in timeline**"
@@ -175,7 +188,7 @@ msgstr "**Paneel met eigenschappen tonen bij selecteren in tijdlijn**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:117
 msgid "More details :ref:`here <automatically-raising-the-properties-pane>`"
-msgstr ""
+msgstr "Meer details :ref:`hier <automatically-raising-the-properties-pane>`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:123
 msgid "Environment"
@@ -187,17 +200,19 @@ msgstr "MLT-omgeving"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:133
 msgid "Environment variables on Windows"
-msgstr ""
+msgstr "Omgevingsvariabelen bij Windows"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:139
 msgid ""
 "Environment variables on Kdenlive normal installed on Linux (Appimage, "
 "Flatpak, Snap may have integrated paths)"
 msgstr ""
+"Omgevingsvariabelen van Kdenlive normaal geïnstalleerd op Linux (Appimage, "
+"Flatpak, Snap kunnen geïntegreerde paden hebben)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:145
 msgid "Environment variables on MacOS"
-msgstr ""
+msgstr "Omgevingsvariabelen bij MacOS"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:148
 msgid ""
@@ -207,12 +222,19 @@ msgid ""
 "setting tells **Kdenlive** where to find the engine that runs the whole "
 "application."
 msgstr ""
+"Deze gegevens vertellen **Kdenlive** waar het MLT programma en de profiel-"
+"bestanden kunnen worden gevonden. Alleen voor gevorderde gebruikers kan het "
+"zinvol zijn om deze instellingen te veranderen. **Kdenlive** is eigenlijk "
+"een front end voor het MLT-programma en deze instellingen vertellen "
+"**Kdenlive** waar het de engine kan vinden waarom het hele programma draait."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:150
 msgid ""
 "Path to the MediaInfo file. If filled in Kdenlive shows more details in clip "
 "properties."
 msgstr ""
+"Pad voor het MediaInfo bestand. Indien ingevuld zal Kdenlive meer details in "
+"clip eigenschappen tonen."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:152
 msgid ""
@@ -224,6 +246,13 @@ msgid ""
 "does not do multi-thread on. (Multi-threading is supported for MPEG-2, "
 "MPEG-4, H.264, and VP8)"
 msgstr ""
+"**Proxy-clips - Concurrerende threads:** hier stelt u het aantal threads in "
+"dat het programma gaat proberen te gebruiken als het ffmpeg aanroept om :ref:"
+"`clips` te coderen. Dit is wat kdenlive doorgeeft aan de ffmpeg *-threads* "
+"parameter. Het vergroten van deze parameter heeft wellicht geen effect als u "
+"de proxy codering-instellingen heeft gewijzigd in de :ref:`project_settings` "
+"naar een codering waarvoor ffmpeg geen multi-thread voor beschikbaar heeft. "
+"(Multi-threading is beschikbaar voor MPEG-2, MPEG-4, H.264, en VP8)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:156
 msgid ""
@@ -236,6 +265,15 @@ msgid ""
 "this has potential side effects - see `this <https://forum.kde.org/viewtopic."
 "php?f=265&t=122140#p317318>`_ forum post from the author of the Melt program."
 msgstr ""
+"**Processing and transcode jobs**: Dit is experimentele code en is weer "
+"verwijdert in ver 0.9.10. Dit getal werd doorgegeven aan melts *real_time* "
+"consumer property. Deze parameter verhoogt het aantal threads dat het "
+"programma gebruikt voor video decoderen en bewerken (maar niet voor coderen "
+"wat wordt gecontroleerd via :ref:`render`). Zie `mlt doco <https://www."
+"mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-"
+"enable-parallel-processing>`_. Het gebruik hiervan heeft potentiële "
+"neveneffecten - zie `dit<https://forum.kde.org/viewtopic.php?"
+"f=265&t=122140#p317318>`_ forum post van de auteur van het Melt programma."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:158
 msgid ""
@@ -246,6 +284,12 @@ msgid ""
 "or-how-do-i-enable-parallel-processing>`_ - numbers <0 implement threading "
 "without dropping frames."
 msgstr ""
+"Als u wilt experimenteren met multi threading bij versies nieuwer dan 0.9.10 "
+"dan kunt u zoiets als \"real_time=-4\" toevoegen aan een eigen render "
+"profiel. En ja, dat is een minus 4 in het voorbeeld - zoals opgegeven in  "
+"`mlt doco <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-"
+"multiple-cores-or-how-do-i-enable-parallel-processing>`_ - numbers <0 "
+"implement threading without dropping frames."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:162
 msgid "Default Folders"
@@ -270,6 +314,10 @@ msgid ""
 "file storage location and it controls where files captured from an external "
 "source will be saved."
 msgstr ""
+"Hiermee stelt u in waar **Kdenlive** standaard verwacht de projectbestanden "
+"te vinden. Het regelt ook welke map **Kdenlive** zal gebruiken als "
+"tijdelijke locatie voor opslag van bestanden en het regelt ook waar "
+"bestanden die van een externe bron komen worden opgeslagen."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:186
 msgid "Default Apps"
@@ -282,6 +330,11 @@ msgid ""
 "video editing - because **Kdenlive** is a video editor.  Images and audio "
 "files are edited by the external applications defined here."
 msgstr ""
+"Hier stelt u in welk programma wordt geopend als u :ref:`edit_clip` voor een "
+"clip in de project bin selecteert. Merk op dat er geen programma is voor "
+"video bewerken - omdat **Kdenlive** een video bewerkingsprogramma is.  "
+"Afbeeldingen en audio bestanden worden bewerkt met externe programma's die "
+"hier genoemd worden."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:197
 msgid "Mime types"
@@ -292,6 +345,8 @@ msgid ""
 "Specifies the Media Types (formerly known as MIME types) which Kdenlive can "
 "working with."
 msgstr ""
+"Specificeert de Media-typen (vroeger bekend als MIME typen) waarmee Kdenlive "
+"kan werken."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:208
 msgid "Colors"
@@ -299,7 +354,7 @@ msgstr "Kleuren"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:214
 msgid "This sets the color of the audio wave thumbnail."
-msgstr ""
+msgstr "Dit stelt de kleur in van de audio golf miniatuur."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:219
 msgid "Speech To Text"
@@ -307,7 +362,7 @@ msgstr "Spraak naar tekst"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:225
 msgid "More details about speech to text see :ref:`here <speech_to_text>`."
-msgstr ""
+msgstr "Meer details over spraak naar tekst zie :ref:`hier <speech_to_text>`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:230
 msgid "Capture"
@@ -318,18 +373,20 @@ msgid ""
 "At least Firewire capture was removed in porting to KDE 5 due to lack of "
 "manpower."
 msgstr ""
-"Minstens Firewire opnemen is verwijderd in overzetten naar KDE 5 vanwege "
-"gebrek aan mankracht."
+"In ieder geval is opnemen met Firewire verwijderd bij het overzetten naar "
+"KDE 5 vanwege gebrek aan mankracht."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:237
 msgid ""
 "Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, "
 "Blackmagic, Audio) from this section."
 msgstr ""
+"Stel de :ref:`capturing` apparaten in zoals (Firewire, FFmpeg, Screen Grab, "
+"Blackmagic, Audio) in deze sectie."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:241
 msgid "Configure Firewire Capture"
-msgstr ""
+msgstr "Firewire Opname instellen"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:243
 msgid ""
@@ -337,6 +394,9 @@ msgid ""
 "from the :menuselection:`Settings --> Configure Kdenlive` menu or from the "
 "spanner icon in the :ref:`capturing`"
 msgstr ""
+"De afbeelding toont de Firewire opname configuratie tab die u kunt openen "
+"via :menuselection:`Instellingen --> Kdenlive configureren` menu of met het "
+"icoon met de steeksleutel in de :ref:`capturing`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:252
 msgid ""
@@ -344,22 +404,25 @@ msgid ""
 "man/1/dvgrab>`_ program. The settings applied here to define how dvgrab will "
 "be used to capture the video."
 msgstr ""
+"De firewire opname functie gebruikt het programma `dvgrab <http://linux.die."
+"net/man/1/dvgrab>`_ . De hier gemaakte instellingen regelen hoe dvgrab zal "
+"worden gebruikt om de video-opname te maken."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:255
 msgid "**Capture Format options** are"
-msgstr ""
+msgstr "**Opname formaat keuzes** zijn"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:257
 msgid "DV RAW"
-msgstr ""
+msgstr "DV RAW"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:258
 msgid "DV AVI Type 1"
-msgstr ""
+msgstr "DV AVI Type 1"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:259
 msgid "DV AVI Type 2"
-msgstr ""
+msgstr "DV AVI Type 2"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:260
 msgid "HDV"
@@ -371,6 +434,9 @@ msgid ""
 "standard definition codec), just packed differently into the file. Type 2 "
 "seems to be the most widely supported by other applications."
 msgstr ""
+"De eerste drie zijn wat kwaliteit betreft hetzelfde (exact dezelfde DV 25Mb/"
+"s standaard definitie codec), alleen verschillend verpakt in het bestand. "
+"Type 2 lijkt door andere programma's het meest gebruikt te worden."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:264
 msgid ""
@@ -379,6 +445,10 @@ msgid ""
 "Files in this format can also be played with Windows QuickTime when renamed "
 "to :file:`file.dv`."
 msgstr ""
+"Het raw formaat bevat alleen de kale video frames (met audio interleaved) "
+"zonder enige extra informatie. Raw is bruikbaar voor enige Linux software. "
+"Bestanden in dit formaat kan ook afgespeeld worden met Windows QuickTime als "
+"het hernoemd is naar :file:`file.dv`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:266
 msgid ""
@@ -390,10 +460,19 @@ msgid ""
 "data already interleaved in the DV video stream. Therefore, the type 2 DV "
 "AVI file is redundant and consumes more space."
 msgstr ""
+"In AVI bestanden kunnen meerdere streams aanwezig zijn. Standaard is er een "
+"video en een audio stream aanwezig. De native DV stream formaat heeft al de "
+"audio gemengd in zijn video stream. Een type 1 DV AVI bestand heeft alleen "
+"een DV video stream waar de audio van de DV video stream geëxtraheerd moet "
+"worden. Een type 2 DV AVI bestand heeft een separate audio stream naast de "
+"audio data die al gemengd is met de DV video stream. Daarom is het type 2 DV "
+"AVI bestand redundant en neemt meer ruimte in beslag."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:268
 msgid "HDV is a high-definition format used on tape-based HD camcorders."
 msgstr ""
+"HDV is een high-definition formaat gebruikt bij op tape gebaseerde HD "
+"camcorders."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:270
 msgid ""
@@ -403,6 +482,11 @@ msgid ""
 "timestamp (derived from when the footage was captured) is post-pended to the "
 "capture file name, e.g. **capture2012.07.15_11-38-37.dv**"
 msgstr ""
+"**Add recording time to captured file name** optie: Als dit is uitgeschakeld "
+"dan krijgt elk opname-bestand een volgnummer toegevoegd achter de ingestelde "
+"bestandsnaam. Als dit is ingeschakeld, dan wordt de datum en tijdstip "
+"(verkregen van wanneer de opname is gemaakt) toegevoegd achter de ingestelde "
+"bestandsnaam, b.v. **capture2012.07.15_11-38-37.dv**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:272
 msgid ""
@@ -413,6 +497,13 @@ msgid ""
 "from the source footage.  Where a timecode discontinuity is anything "
 "backward or greater than one second it will start a new capture file."
 msgstr ""
+"**Automatically start a new file on scene cut** optie: Als dit is "
+"ingeschakeld dan probeert het te detecteren wanneer een nieuwe opname plaats "
+"vindt, en slaat dit op in een separaat bestand. Dit is de -autosplit "
+"parameter in `dvgrab <http://linux.die.net/man/1/dvgrab>`_ en het werkt door "
+"onderbrekingen in de tijdcode van filmmateriaal te detecteren. Als er een "
+"onderbreking in de tijdcode is die gelijk of groter is dan een seconde dan "
+"start het een nieuw opnamebestand."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:274
 msgid ""
@@ -420,16 +511,21 @@ msgid ""
 "switches to the capture process that will run. See  `dvgrab manual <http://"
 "linux.die.net/man/1/dvgrab>`_ for more info."
 msgstr ""
+"In het bewerkingvak **dvgrab additional parameters** kunt u extra dvgrab "
+"parameters toevoegen aan het te gebruiken opnameproces. Zie `dvgrab manual "
+"<http://linux.die.net/man/1/dvgrab>`_ voor meer informatie."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:277
 msgid "Configure Screen Grab Capture"
-msgstr ""
+msgstr "Scherm opname instellen"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:283
 msgid ""
 "These settings configure screen grab within **Kdenlive**. More details see :"
 "ref:`here <capturing>`."
 msgstr ""
+"Hier stelt u de scherm-opnamen binnen **Kdenlive** in. Voor meer details "
+"zie :ref:`hier <capturing>`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:286
 msgid "Blackmagic"
@@ -440,6 +536,8 @@ msgid ""
 "If you have a Blackmagic DecLink video capture card you can set here the "
 "import parameter."
 msgstr ""
+"Als u een Blackmagic DecLink video opname kaart heeft dan kunt u hier de "
+"import parameter instellen."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:295
 msgid "Audio"
@@ -450,16 +548,20 @@ msgid ""
 "Microphone settings, either for screen :ref:`capturing` or for :ref:"
 "`capturingaudio` direct into the timeline."
 msgstr ""
+"Microfoon-instellingen, zowel voor scherm-:ref:`capturing` en voor :ref:"
+"`capturingaudio` direct in de tijdlijn."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:306
 msgid "Jog Shuttle"
-msgstr ""
+msgstr "Jog Shuttle"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:309
 msgid ""
 "Configure a connected Jog-Shuttle device. Contour ShuttlePro and Contour "
 "ShuttleXpress are known to work."
 msgstr ""
+"Stel hier de verbonden Jog-Shuttle in. Van Contour ShuttlePro en Contour "
+"ShuttleXpress is het bekend dat ze functioneren."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:317
 msgid "Linux"
@@ -471,18 +573,22 @@ msgid ""
 "udev rule is necessary to correct the access rights to the device file: "
 "Create a file /etc/udev/rules.d/90-contour-shuttleXpress.rules with the line:"
 msgstr ""
+"Controleer dat uw jog-Shuttle is verbonden via USB en werkt. Een udev rule "
+"is noodzakelijk voor de juiste toegangsrechten voor het device-bestand: "
+"Creëer het bestand /etc/udev/rules.d/90-contour-shuttleXpress.rules met de "
+"regel:"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:330
 msgid "for Contour ShuttleXpress or"
-msgstr ""
+msgstr "voor Contour ShuttleXpress of"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:341
 msgid "for Contour ShuttlePRO V2. Obtain the device file by a command"
-msgstr ""
+msgstr "voor Contour ShuttlePRO V2. Krijg het device-bestand met het commando"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:348
 msgid "The last line of the output says"
-msgstr ""
+msgstr "De laatste regel van uitvoer zegt"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:355
 msgid ""
@@ -491,6 +597,11 @@ msgid ""
 "the line above to specify the device file in /dev/input), set the buttons "
 "and apply the changes."
 msgstr ""
+"Wat zou moeten vertellen welk device-bestand moet worden opgegeven in het "
+"instellingsdialoog van kdenlive: Vul in het tekstvak in /dev/input/"
+"**event3** (gebruik het laatste woord op de regel erboven om het device -"
+"bestand in /dev/input op te geven), stel de knoppen in en sla de wijzigingen "
+"op."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:364
 msgid ""
@@ -498,6 +609,9 @@ msgid ""
 "relevant, whereas Contour ShuttlePro uses all buttons. The actions for the "
 "jog- and the shuttle wheel are working as expected."
 msgstr ""
+"Schakel de Jog-Shuttle in. Voor de Contour ShuttleXpress zijn de knoppen 5 - "
+"9 relevant, terwijl de Contour ShuttlePro alle knoppen gebruikt. De jog- en "
+"het shuttle wheel geven de verwachte acties."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:367
 msgid "Windows"
@@ -508,6 +622,8 @@ msgid ""
 "On the desktop, bottom-right opens the system tray. Right-click on the "
 "Contour icon and choose \"Open control Panel\"."
 msgstr ""
+"Op het bureaublad, rechtsonder wordt het systeemvak geopend. Klik rechts op "
+"het contourpictogram en kies \"Besturingspaneel openen\"."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:377
 msgid ""
@@ -515,22 +631,32 @@ msgid ""
 "\"Adobe Premiere Pro CS&amp;CC (Edit)\". Then click on :menuselection:"
 "`Options --> Create new settings --> Copy contents from Current Settings`."
 msgstr ""
+"In het configuratievenster kies onder \"Toepassingsinstellingen\" het "
+"programma \"Adobe Premiere Pro CS&amp;CC (Edit)\". Klik daarna op :"
+"menuselection:`Opties --> Nieuwe instellingen aanmaken --> Inhoud van "
+"huidige instellingen kopiëren`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:385
 msgid "Then choose Kdenlive.exe in C:\\Program Files\\kdenlive\\bin."
-msgstr ""
+msgstr "Selecteer dan Kdenlive.exe in C:\\Program Files\\kdenlive\\bin."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:393
 msgid ""
 "Now the basic functionality should work. Adjust the buttons of the shuttle "
 "with shortcuts as you like."
 msgstr ""
+"De basis-functionaliteit zou nu moeten werken. Geef de knoppen van de "
+"shuttle de gewenste sneltoetsen en acties."
 
+# "Create new settings" en "Create Empty Settings" komen niet voor in menu
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:397
 msgid ""
 "You can make Kdenlive settings from scratch using :menuselection:`Options --"
 "> Create new settings --> Create Empty Settings` when creating new settings."
 msgstr ""
+"U kunt Kdenlive instellingen vanaf nul maken door het volgende te gebruiken :"
+"menuselection:`Instellingen --> Create new settings --> Create Empty "
+"Settings` waar u nieuwe instellingen kunt invoeren."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:402
 msgid "Playback"
@@ -540,6 +666,8 @@ msgstr "Afspelen"
 msgid ""
 "Configure the Video and Audio drivers and devices. For advanced users only."
 msgstr ""
+"Het instellen van de video en audio drivers en apparaten. Alleen voor "
+"gevorderde gebruikers."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:412
 msgid "Playback view on Windows."
@@ -547,11 +675,11 @@ msgstr "Afspeelweergave onder Windows"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:418
 msgid "Audio driver on Linux."
-msgstr ""
+msgstr "Audio driver onder Linux."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:424
 msgid "Audio driver on MAcOS."
-msgstr ""
+msgstr "Audio driver onder MAcOS."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:426
 msgid "**Audio driver**"
@@ -562,6 +690,9 @@ msgid ""
 "**Windows:** WinMM (Win7), Wasapi (Win10), DirectSound. If you have any "
 "audio issue or playback stuttering you may change to another audio driver."
 msgstr ""
+"**Windows:** WinMM (Win7), Wasapi (Win10), DirectSound. Als u een probleem "
+"met de audio heeft bij het afspelen zoals stotteren dan kan u naar een "
+"andere audio driver gaan."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:430
 msgid ""
@@ -573,6 +704,13 @@ msgid ""
 "placing the play head at the correct spot in the clip relative to an "
 "important bit of audio."
 msgstr ""
+"Vanaf versie 0.9.4 van **Kdenlive**, zal als u \"use Open GL for video "
+"playback\" inschakelt de mogelijkheid krijgen om in clips audio scrubbing te "
+"gebruiken. Met audio scrubbing kunt u de audio van de afspeellocatie horen "
+"terwijl u de afspeellocatie versleept zodat u makkelijk een bepaald geluid "
+"of gebeurtenis in de audio kan vinden. Dit kan handig zijn bij het plaatsen "
+"van de afspeel-kop op de correcte plaats in de clip ten opzichte van een "
+"belangrijk stuk audio."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:432
 msgid ""
@@ -580,6 +718,10 @@ msgid ""
 "checkbox  - Open GL is used by default. On Windows you can set the OpenGL "
 "backend under :menuselection:`Settings --> OpenGL Backend`"
 msgstr ""
+"Vanaf versie 15.04 en nieuwer is er geen keuzevakje voor \"use Open GL for "
+"video playback\" meer - Open GL word standaard gebruikt. Bij Windows kunt u "
+"de OpenGL backend selecteren in :menuselection:`Instellingen --> OpenGL "
+"Backend`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:437
 msgid "Transcode"
@@ -591,10 +733,13 @@ msgid ""
 "ffmpeg parameters. Find help on them by issuing ``ffmpeg -h`` at a command "
 "line."
 msgstr ""
+"Dit regelt de :ref:`transcode` functionaliteit. De parameters sectie zijn "
+"ffmpeg parameters. U kunt meer uitleg krijgen door ``ffmpeg -h`` op de "
+"commandoregel in te voeren."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:450
 msgid "Transcode Options"
-msgstr ""
+msgstr "Codering instellingen"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:455
 msgid "Option"
@@ -610,51 +755,51 @@ msgstr "Parameters"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:458
 msgid "Meanings of Parameters"
-msgstr ""
+msgstr "Beschrijving van de parameters"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:459
 msgid "Wav 48000Hz"
-msgstr ""
+msgstr "Wav 48000Hz"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:460
 msgid "Extract audio as WAV file"
-msgstr ""
+msgstr "Extract audio als een WAV-bestand"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:461
 msgid "-vn -ar 48000"
-msgstr ""
+msgstr "-vn -ar 48000"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:462
 msgid "-vn=disable video, -ar 48000 = set audio sampling rate to 48kHz"
-msgstr ""
+msgstr "-vn=disable video, -ar 48000 = set audio sampling rate to 48kHz"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
 msgid "Remux with MKV"
-msgstr ""
+msgstr "Remux met MKV"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:465
 msgid "-vcodec copy -acodec copy -sn"
-msgstr ""
+msgstr "-vcodec copy -acodec copy -sn"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:466
 msgid "copy the video and the audio. -sn = disable subtitles"
-msgstr ""
+msgstr "Kopieert de video en de audio. -sn = ondertitels uitgeschakeld"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:467
 msgid "Remux MPEG-2 PS/VOB"
-msgstr ""
+msgstr "Remux MPEG-2 PS/VOB"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:468
 msgid "Fix audio sync in MPEG-2 vob files"
-msgstr ""
+msgstr "Herstelt de audio synchronisatie in MPEG-2 vob bestanden"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:469
 msgid "-vcodec copy -acodec copy"
-msgstr ""
+msgstr "-vcodec copy -acodec copy"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:470
 msgid "copy the video and the audio"
-msgstr ""
+msgstr "Kopieert de video en de audio."
 
 #~ msgid "**Thumbnails - video** - Turns on  :ref:`editing` by default."
 #~ msgstr "**Miniaturen - video** - zet standaard :ref:`editing` aan."

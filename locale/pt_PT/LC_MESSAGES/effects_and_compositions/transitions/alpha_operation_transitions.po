@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-03 00:38+0000\n"
-"PO-Revision-Date: 2022-03-23 17:48+0000\n"
+"PO-Revision-Date: 2022-05-22 12:43+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: ref additionalpha addition alphaatop alphain alphaout\n"
+"X-POFile-SpellExtra: alphaover alphaxor alphamanipulation clip mín máx\n"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:12
 msgid "Alpha operation transitions"
-msgstr ""
+msgstr "Transições de operações com o alfa"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:14
 msgid "Contents"
@@ -30,45 +32,49 @@ msgid ""
 "The following transitions all perform alpha operations between the two video "
 "tracks:"
 msgstr ""
+"As seguintes transições efectuam todas elas operações sobre o canal alfa "
+"entre as duas faixas de vídeo:"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:18
 msgid ":ref:`addition_alpha`"
-msgstr ""
+msgstr ":ref:`addition_alpha`"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:19
 msgid ":ref:`addition`"
-msgstr ""
+msgstr ":ref:`addition`"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:20
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:58
 msgid ":ref:`alphaatop`"
-msgstr ""
+msgstr ":ref:`alphaatop`"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:21
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:52
 msgid ":ref:`alphain`"
-msgstr ""
+msgstr ":ref:`alphain`"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:22
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:46
 msgid ":ref:`alphaout`"
-msgstr ""
+msgstr ":ref:`alphaout`"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:23
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:64
 msgid ":ref:`alphaover`"
-msgstr ""
+msgstr ":ref:`alphaover`"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:24
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:40
 msgid ":ref:`alphaxor`"
-msgstr ""
+msgstr ":ref:`alphaxor`"
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:26
 msgid ""
 "These transitions only have an effect if the videos on the tracks have alpha "
 "channel information in them."
 msgstr ""
+"Estas transições só farão efeito se os vídeos nas faixas tiverem informações "
+"no canal alfa das mesmas."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:28
 msgid ""
@@ -78,6 +84,12 @@ msgid ""
 "define some alpha channel data using an :ref:`alpha_manipulation` changes in "
 "the alpha operation transition settings will have no visible effect."
 msgstr ""
+"A informação do Canal Alfa é fornecida por uma das :ref:"
+"`alpha_manipulation`. Estes dados do Canal Alfa descrevem quais as regiões "
+"da faixa de vídeo que são transparentes e quão transparentes serão as "
+"mesmas. Até que defina alguns dados do canal alfa com uma :ref:"
+"`alpha_manipulation`, as alterações na operação com o alfa não terão efeito "
+"visível."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:30
 msgid ""
@@ -86,6 +98,11 @@ msgid ""
 "are implementing the operations described at Wikipedia page on `Alpha "
 "Compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_."
 msgstr ""
+"As transições das operações com o alfa definem como como as duas diferentes "
+"informações do canal alfa deverão ser combinadas para produzir a imagem "
+"final. Estas operações estão a implementar as operações descritas na página "
+"do Wikipédia sobre a `Composição do Alfa <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:32
 msgid ""
@@ -95,6 +112,11 @@ msgid ""
 "show all the track underneath outside the triangle and show 38.2% of the "
 "underneath track inside the triangle."
 msgstr ""
+"Nos exemplos abaixo, o 'clip' amarelo tem uma forma de alfa triangular com "
+"mín=0 e máx=618. Isto traduz-se em 0% de opacidade fora do triângulo e 61,8% "
+"de opacidade dentro do triângulo. Isto é, o canal alfa na faixa amarela diz "
+"que aparece toda a faixa fora do triângulo e aparecem 38,2% da parte da "
+"faixa dentro do triângulo."
 
 #: ../../effects_and_compositions/transitions/alpha_operation_transitions.rst:34
 msgid ""
@@ -102,3 +124,6 @@ msgid ""
 "translates to make the clip 100% transparent outside the rectangle and 0% "
 "transparent inside the rectangle."
 msgstr ""
+"O 'clip' verde tem uma forma rectangular do alfa com um mín=0 e um máx=1000. "
+"Isto faz com que o 'clip' fique 100% transparente fora do rectângulo e 0% "
+"transparente dentro do rectângulo."
