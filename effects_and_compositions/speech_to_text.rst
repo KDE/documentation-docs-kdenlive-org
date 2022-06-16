@@ -93,6 +93,8 @@ The subtitle gets created and inserted automatically.
 
 Remark: Only timeline zone is implemented for now in automatic subtitles.
 
+Remark to 4: The default is to analyze only the :guilabel:`timeline zone (all tracks)` (the blue bar in the timeline ruler). Set the zone in the timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to set in and out points). :guilabel:`Selected clips` option analyses the selected clip only.
+
 Creating clips by speech recognition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
