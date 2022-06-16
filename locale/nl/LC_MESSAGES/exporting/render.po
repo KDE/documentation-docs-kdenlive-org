@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-03 00:38+0000\n"
-"PO-Revision-Date: 2022-05-03 11:21+0200\n"
+"POT-Creation-Date: 2022-05-28 00:38+0000\n"
+"PO-Revision-Date: 2022-05-28 21:41+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.04.0\n"
+"X-Generator: Lokalize 22.04.1\n"
 
 #: ../../exporting/render.rst:1
 msgid "The Kdenlive User Manual"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: ../../exporting/render.rst:62
 msgid "Selected Zone"
-msgstr ""
+msgstr "Geselecteerde zone"
 
 #: ../../exporting/render.rst:64
 msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../exporting/render.rst:69
 msgid "Guide Zone"
-msgstr ""
+msgstr "Hulplijnzone"
 
 #: ../../exporting/render.rst:74
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../exporting/render.rst:78
 msgid "Guide Multi-Export"
-msgstr ""
+msgstr "Hulplijn voor multi-exporteren"
 
 #: ../../exporting/render.rst:85
 msgid ""
@@ -135,35 +135,35 @@ msgstr ""
 
 #: ../../exporting/render.rst:92
 msgid "\"All Categories\": This leads to four files:"
-msgstr ""
+msgstr "\"Alle categorieën\": dit leidt naar vier bestanden:"
 
 #: ../../exporting/render.rst:94 ../../exporting/render.rst:104
 msgid "`projectname-begin.mp4` (from 00:00:00 to \"guide1\")"
-msgstr ""
+msgstr "`projectnaam-begin.mp4` (vanaf 00:00:00 tot \"hulplijn1\")"
 
 #: ../../exporting/render.rst:96 ../../exporting/render.rst:106
 msgid "`projectname-guide1.mp4` (from \"guide1\" to \"guide2\")"
-msgstr ""
+msgstr "`projectnaam-hulplijn1.mp4` (vanaf \"hulplijn1\" tot \"hulplijn2\")"
 
 #: ../../exporting/render.rst:98
 msgid "`projectname-guide2.mp4` (from \"guide2\" to \"guide3\")"
-msgstr ""
+msgstr "`projectnaam-hulplijn2.mp4` (van \"hulplijn2\" tot \"hulplijn3\")"
 
 #: ../../exporting/render.rst:100 ../../exporting/render.rst:113
 msgid "`projectname-guide3.mp4` (from \"guide3\" to the end)"
-msgstr ""
+msgstr "`projectnaam-hulplijn3.mp4` (van \"hulplijn3\" tot het eind)"
 
 #: ../../exporting/render.rst:102
 msgid "\"Category 0 (purple)\": This leads to three files:"
-msgstr ""
+msgstr "\"Categorie 0 (purper)\": dit leidt tot drie bestanden:"
 
 #: ../../exporting/render.rst:108
 msgid "`projectname-guide2.mp4` (from \"guide2\" to the end)"
-msgstr ""
+msgstr "`projectnaam-hulplijn2.mp4` (van \"hulplijn2\" tot het eind)"
 
 #: ../../exporting/render.rst:110
 msgid "\"Category 1 (blue)\": This leads to two files:"
-msgstr ""
+msgstr "\"Categorie 1 (blauw)\": dit leidt tot twee bestanden:"
 
 #: ../../exporting/render.rst:112
 msgid "`projectname-begin.mp4` (from 00:00:00 to \"guide3\")"
@@ -369,7 +369,19 @@ msgstr ""
 "edit|. U Kunt waarden in de parameters bewerken en uw eigen aangepaste "
 "voorinstelling voor renderen opslaan."
 
-#: ../../exporting/render.rst:290
+#: ../../exporting/render.rst:287
+msgid ""
+"**Creating new groups:** When you save a preset and enter a group name that "
+"does not yet exist, the group will be created."
+msgstr ""
+
+#: ../../exporting/render.rst:292
+msgid ""
+"The parameters are not limited by the UI, you can add custom parameters in "
+"the box `Additional Parameters` under the tab :guilabel:`Other`."
+msgstr ""
+
+#: ../../exporting/render.rst:294
 msgid ""
 "The parameters in the rendering presets are *melt* parameters. For an "
 "explanation of their meaning, check the *melt* `documentation <https://www."
@@ -380,15 +392,15 @@ msgstr ""
 "<https://www.mltframework.org/docs/>`_ of typ ``melt -help`` in een "
 "opdrachtregel."
 
-#: ../../exporting/render.rst:292
+#: ../../exporting/render.rst:296
 msgid "See also :ref:`render_profile_parameters`."
 msgstr "Zie ook :ref:`render_profile_parameters`."
 
-#: ../../exporting/render.rst:296
+#: ../../exporting/render.rst:300
 msgid "Rendering In Batch mode"
 msgstr "Renderen in modus batch"
 
-#: ../../exporting/render.rst:298
+#: ../../exporting/render.rst:302
 msgid ""
 "If you have a lot of rendering jobs to do, you can use **Kdenlive** to "
 "create rendering scripts which you can accumulate and then execute in batch "
@@ -398,7 +410,7 @@ msgstr ""
 "renderscripts te maken die u kunt opsparen en daarna uitvoeren in bulkmodus "
 "gedurende de nacht. Zie :ref:`rendering`."
 
-#: ../../exporting/render.rst:300
+#: ../../exporting/render.rst:304
 msgid ""
 "Alternatively, once you have submitted a rendering job on a project and it "
 "is up and running in the **Job Queue**, you can drag the render window out "
@@ -414,15 +426,15 @@ msgstr ""
 "**Jobwachtrij** gaan. Het project bewerken die na een renderjob is ingediend "
 "zal de instellingen van die reeds ingediende job niet wijzigen."
 
-#: ../../exporting/render.rst:307
+#: ../../exporting/render.rst:311
 msgid "Variable Bit Rate - earlier Versions"
 msgstr ""
 
-#: ../../exporting/render.rst:311 ../../exporting/render.rst:326
+#: ../../exporting/render.rst:315 ../../exporting/render.rst:330
 msgid "|outdated|"
-msgstr ""
+msgstr "|outdated|"
 
-#: ../../exporting/render.rst:316
+#: ../../exporting/render.rst:320
 msgid ""
 "When a variable bitrate (VBR) profile is selected, the :menuselection:`File "
 "Size` section displays a drop down for choosing the **Video quality** you "
@@ -439,7 +451,7 @@ msgid ""
 "scenes."
 msgstr ""
 
-#: ../../exporting/render.rst:318
+#: ../../exporting/render.rst:322
 msgid ""
 "Example: 1min 55 seconds of 720 x 576 H.264 iPhone footage rendered at "
 "quality 15 with the H.264/AAC High Profile would produce a file size of 186 "
@@ -447,11 +459,11 @@ msgid ""
 "83Mb file."
 msgstr ""
 
-#: ../../exporting/render.rst:322
+#: ../../exporting/render.rst:326
 msgid "Constant Bit Rate - earlier Versions"
 msgstr ""
 
-#: ../../exporting/render.rst:331
+#: ../../exporting/render.rst:335
 msgid ""
 "When a constant bitrate (CBR) profile is selected, the :menuselection:`File "
 "Size` section displays a drop down for choosing the **Video bitrate** you "
