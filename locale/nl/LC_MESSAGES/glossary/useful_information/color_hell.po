@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022.
+# Ronald Stroethoff <stroe43@zonnet.nl>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-31 00:37+0000\n"
-"PO-Revision-Date: 2022-02-17 12:53+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-06-18 07:39+0200\n"
+"Last-Translator: Ronald Stroethoff <stroe43@zonnet.nl>\n"
+"Language-Team: vertalen\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.2\n"
+"X-Generator: Lokalize 20.04.2\n"
 
 #: ../../glossary/useful_information/color_hell.rst:13
 msgid "Color Hell: Ffmpeg Transcoding and Preserving BT.601"
@@ -29,13 +30,13 @@ msgid ""
 "wrong? Colors, for instance…"
 msgstr ""
 "Van tijd tot tijd kunt u tamelijk onverwacht in merkwaardig digitale "
-"videoterritorium terecht komen. U wilt gewoon enige schermopnamen gemaakt o "
+"video-territorium terecht komen. U wilt gewoon enige schermopnamen gemaakt op "
 "mobiele apparaten, zoals tablets of mobiele telefoons, bewerken. Wat zou er "
 "mogelijk fout kunnen gaan? Kleuren, bijvoorbeeld…"
 
 #: ../../glossary/useful_information/color_hell.rst:19
 msgid "“Run-of-the-Mill” Footage"
-msgstr "Opname “Run-of-the-Mill”"
+msgstr "Opname “Dertien-in-een-dozijn”"
 
 #: ../../glossary/useful_information/color_hell.rst:21
 msgid ""
@@ -45,24 +46,27 @@ msgid ""
 "fake). And this footage has two slightly unusual properties:"
 msgstr ""
 "Het drama begint met de opname van het scherm dat tamelijk onschuldig en "
-"normaal op het eerste gezicht lijkt. Het kan opgenomen zijn onder Android 7 "
-"apparaten met een app voor opnemen van scherm (zoals «AZ Screen Recording», "
+"normaal op het eerste gezicht lijkt. Het kan opgenomen zijn op Android 7 "
+"apparaten met een app voor het opnemen van een scherm (zoals «AZ Screen"
+" Recording», "
 "maar niet de “Pro” fake). En deze opname heeft twee tamelijk ongewone "
 "eigenschappen:"
 
 #: ../../glossary/useful_information/color_hell.rst:23
 msgid "a *highly variable frame rate*,"
-msgstr "een *zeer variabele framesnelheid*,"
+msgstr "een *zeer variabele framerate*,"
 
 #: ../../glossary/useful_information/color_hell.rst:24
 msgid ""
 "it’s using `BT.601 <https://en.wikipedia.org/wiki/Rec._601>`_ , instead of "
 "BT.709 like so much HD footage these days."
 msgstr ""
+"Het gebruikt `BT.601 <https://en.wikipedia.org/wiki/Rec._601>`_ , in plaats"
+" van BT.709 zoals zoveel HD opnames tegenwoordig."
 
 #: ../../glossary/useful_information/color_hell.rst:26
 msgid "Should cause no problems, right? Well…"
-msgstr ""
+msgstr "Zou toch geen problemen mogen geven? Wel..."
 
 #: ../../glossary/useful_information/color_hell.rst:28
 msgid ""
@@ -76,6 +80,16 @@ msgid ""
 "seconds before the interaction will appear. This is probably caused by a "
 "very low fps during the inactivity period just before the user interaction."
 msgstr ""
+"Het blijkt dat Kdenlive’s media engine `MLT <https://www.mltframework.org/"
+">`_ wat problemen kan geven bij filmmateriaal dat een zeer variabele"
+" framerate heeft, zoals tussen de 0.001 en de 100+ fps. De symptomen zijn"
+" subtiel, maar brengen de productie-kwaliteit in gevaar: het lijkt erop dat"
+" MLT een toekomstige frame kan selecteren die helemaal verkeerd is in stukken"
+" met een lage framerate. Terwijl dit geen probleem is bij een acceptabel hoge"
+" framerate, veroorzaakt dit rare resultaten op andere plaatsen. In mijn"
+" producties bijvoorbeeld verschijnen gebruikers-acties een paar seconden voor"
+" de interactie zelf. Dit wordt waarschijnlijk veroorzaakt door een zeer lage"
+" fps tijdens de inactieve periode net voor de gebruiker-actie."
 
 #: ../../glossary/useful_information/color_hell.rst:30
 msgid ""
@@ -83,20 +97,25 @@ msgid ""
 "www.ffmpeg.org/>`_ easy tasks (this example assumes a constant project frame "
 "rate of 25 fps):"
 msgstr ""
+"Wel, transcoderen naar een vaste frame rate is zeker een eenvoudige taak voor"
+" `ffmpeg <https://www.ffmpeg.org/>`_ (in dit voorbeeld wordt wordt een"
+" constante project frame rate van 25 fps aangenomen):"
 
 #: ../../glossary/useful_information/color_hell.rst:32
 msgid "$ ``ffmpeg -i raw.mp4 -r 25 -crf 18 screen-rec.mp4``"
-msgstr ""
+msgstr "$ ``ffmpeg -i raw.mp4 -r 25 -crf 18 screen-rec.mp4``"
 
 #: ../../glossary/useful_information/color_hell.rst:34
 msgid ""
 "The constant frame rate cures the issues mentioned above, so the results are "
 "as to be expected. Except…"
 msgstr ""
+"De constante framerate herstelt de hierboven genoemde problemen, zodat de"
+" resultaten zijn zoals verwacht. Behalve…"
 
 #: ../../glossary/useful_information/color_hell.rst:38
 msgid "Easy Transcoding: Color Me Bad"
-msgstr ""
+msgstr "Eenvoudig Transcoderen: kleur me verkeerd"
 
 #: ../../glossary/useful_information/color_hell.rst:47
 msgid ""
@@ -106,6 +125,11 @@ msgid ""
 "you are going to mix this footage side-by-side with further processed "
 "versions of it, such as extracted frames for stills."
 msgstr ""
+"Helaas, de resulterende video toont kleurverschuivingen! Op het eerste"
+" gezicht valt het niet zo op, maar het kan vrij duidelijk zijn als u meer met"
+" uw filmmateriaal werkt. En het is duidelijk zichtbaar voor uw publiek in het"
+" geval dat u dit filmmateriaal gaat mengen met ander meer bewerkte versies"
+" daarvan, zoals uitgelichte frames voor foto's."
 
 #: ../../glossary/useful_information/color_hell.rst:49
 msgid ""
@@ -115,17 +139,28 @@ msgid ""
 "did *not transform the colors* at all during transcoding, and simply dropped "
 "the correct color profile information!"
 msgstr ""
+"een meer gedetailleerde inspectie, naar keuze met Kdenlive’s ingebouwde"
+" paneel voor clip-eigenschappen of `ffprobe <"
+"https://www.ffmpeg.org/ffprobe.html>`_, laat zien dat in het "
+"*getranscodeerde bestand* **de BT.601 kleurenprofiel indicatie** ontbreekt."
+" Maar, ffmpeg heeft helemaal *de kleuren niet getransformeerd* tijdens de"
+" transcodering, maar"
+" vergat eenvoudig de correcte kleurprofiel informatie!"
 
 #: ../../glossary/useful_information/color_hell.rst:54
 msgid "Makeshift Measures"
-msgstr ""
+msgstr "Tijdelijke oplossingen"
 
 #: ../../glossary/useful_information/color_hell.rst:63
 msgid ""
 "Of course, there’s always Kdenlive’s ability to overwrite source clip "
 "properties using the built-in clip properties pane."
 msgstr ""
+"Er is natuurlijk altijd de mogelijkheid in Kdenlive om de clipeigenschappen"
+" van het materiaal te overschrijven in het ingebouwde paneel voor"
+" clip-eigenschappen."
 
+# "Force Properties"is niet te vinden in menu
 #: ../../glossary/useful_information/color_hell.rst:65
 msgid ""
 "Simply select the transcoded video clip in the project bin. Then go to the "
@@ -133,6 +168,11 @@ msgid ""
 "*writing pen*. Check “Colorspace” and then select “ITU-R 601”. Kdenlive now "
 "applies the correct color profile."
 msgstr ""
+"Selecteer gewoon de getranscordeerde video clip in de project bin. Ga dan"
+" naar het paneel voor clip-eigenschappen en selecteer de tab “Force"
+" Properties” dat een *schrijfpen* laat zien. Selecteer “Kleurruimte” en"
+" selecteer vervolgens “ITU-R 601”. Kdenlive zou nu het correcte kleurprofiel"
+" moeten gebruiken."
 
 #: ../../glossary/useful_information/color_hell.rst:67
 msgid ""
@@ -143,10 +183,18 @@ msgid ""
 "clip property overrides. We thus need to get the correct color profile "
 "information right into the transcoded video files themselves."
 msgstr ""
+"Ofschoon deze methode makkelijk in het gebruik is, heeft deze methode zijn"
+" beperkingen; het gaat goed zolang u *uitsluitend werkt in de editor van"
+" Kdenlive en de MLT renderer daarvan*. Maar zodra de noodzaak er is om"
+" externe video tools te gebruiken, zoals *ffmpeg* voor de extractie van"
+" afbeeldingen…, dan delft u het onderspit: deze tools weten niets van het"
+" overschrijven van de clipeigenschappen door Kdenlive. We zullen dus de"
+" correcte informatie over het kleurenprofiel in de getranscordeerde"
+" videobestanden zelf moeten krijgen."
 
 #: ../../glossary/useful_information/color_hell.rst:72
 msgid "Preserving BT.601 in Transcoding"
-msgstr ""
+msgstr "Het bewaren van BT.601 tijdens het transcoderen"
 
 #: ../../glossary/useful_information/color_hell.rst:74
 msgid ""
@@ -155,6 +203,10 @@ msgid ""
 "complains about not being to transform between the same input and output "
 "color profile. *Grrr*."
 msgstr ""
+"Om het nog erger te maken, de op het eerste blik duidelijke kleurenprofiel"
+" transformatie ``-vf colormatrix=bt601:bt601`` werkt gewoon niet: ffmpeg "
+"klaagt over niet kunnen transformeren tussen dezelfde invoer en uitvoer"
+" kleurprofielen. *Grrr*."
 
 #: ../../glossary/useful_information/color_hell.rst:76
 msgid ""
@@ -164,6 +216,11 @@ msgid ""
 "stackexchange.com/questions/16840/ffmpeg-explicitly-tag-h-264-as-bt-601-"
 "rather-than-leaving-unspecified>`_"
 msgstr ""
+"Ik moest nogal lang zoeken voordat ik het ontbrekende puzzelstukje vond op"
+" Stack Exchange’s Video Production Q&A site: `ffmpeg: expliciet tag h.264 als"
+" bt.601, en niet het ongespecificeerd te laten? <"
+"https://video.stackexchange.com/questions/16840/ffmpeg-explicitly-tag-h-264-as"
+"-bt-601-rather-than-leaving-unspecified>`_"
 
 #: ../../glossary/useful_information/color_hell.rst:78
 msgid ""
@@ -175,10 +232,17 @@ msgid ""
 "definition (SD) resolution at all, but it does matter when it comes to "
 "encoding color."
 msgstr ""
+"Er is een ding waarop u moet letten: BT.601 komt in de smaken PAL en NTSC die"
+" een klein beetje verschillen wat betreft primary chromaticities, transfer"
+" krommen en kleurruimtes. Controleer daarom eerst uw basis filmmateriaal met"
+" het commando ``ffprobe`` (of ``mediainfo``) welke is gebruikt tijdens de"
+" filmopname van uw geval. Merk op dat het niet uitmaakt dat uw schermopname"
+" helemaal geen standaard definitie (SD) resolutie heeft, maar wat wel"
+" belangrijk is met welke kleurcodering het gemaakt is."
 
 #: ../../glossary/useful_information/color_hell.rst:81
 msgid "I’m Not Quite Dead Yet: PAL and NTSC DNA"
-msgstr ""
+msgstr "Ik ben nog niet helemaal dood: PAL en NTSC DNA"
 
 #: ../../glossary/useful_information/color_hell.rst:83
 msgid ""
@@ -187,20 +251,27 @@ msgid ""
 "in order to not get lost in all the nitty-gritty details ``ffprobe`` will "
 "throw at you, we need to tame it using a few options and ``grep``:"
 msgstr ""
+"Maar hoe komen we te weten van een bepaalde video-opname bestand, laten we"
+" zeggen ``raw.mp4``, de PAL of de NTSC kleurruimte gebruikt? Natuurlijk, komt"
+" ``ffprobe`` ons te hulp. Maar om niet verdwaald te raken in alle"
+" pietepeuterige details die ``ffprobe`` op u af zal sturen, moeten we het"
+" temmen door een paar opties te gebruiken met daarbij ``grep``:"
 
 #: ../../glossary/useful_information/color_hell.rst:85
 msgid "$ ``ffprobe -v error -show_streams raw.mp4 | grep color_``"
-msgstr ""
+msgstr "$ ``ffprobe -v error -show_streams raw.mp4 | grep color_``"
 
 #: ../../glossary/useful_information/color_hell.rst:87
 msgid "This should give you something along these lines:"
-msgstr ""
+msgstr "Dit zou u zoiets als dit moeten geven:"
 
 #: ../../glossary/useful_information/color_hell.rst:89
 msgid ""
 "``color_range=tv`` ``color_space=bt470bg`` ``color_transfer=smpte170m`` "
 "``color_primaries=bt470bg``"
 msgstr ""
+"``color_range=tv`` ``color_space=bt470bg`` ``color_transfer=smpte170m`` "
+"``color_primaries=bt470bg``"
 
 #: ../../glossary/useful_information/color_hell.rst:94
 msgid ""
@@ -210,6 +281,12 @@ msgid ""
 "will tell us whether we’re dealing with PAL (``=bt470bg``) or NTSC "
 "(``=smpte170m``)."
 msgstr ""
+"Iemand zal hebben gedacht dat het een goed idee is om een TV standaard"
+" definitie-gerelateerde BT.601 te gebruiken om het scherm van een mobiel"
+" apparaat op te nemen. Dat moet een hipster met een ouderwetse buizen-TV op"
+" zijn bureau zijn geweest. Maar OK, de regel``color_space=...`` "
+"zal ons vertellen of we te maken hebben met PAL (``=bt470bg``) of met NTSC "
+"(``=smpte170m``)."
 
 #: ../../glossary/useful_information/color_hell.rst:97
 msgid "PAL"
@@ -220,20 +297,22 @@ msgid ""
 "If it’s **PAL chromaticities** (``=bt470bg``), we then need to transcode as "
 "follows:"
 msgstr ""
+"Als het is **PAL chromaticities** (``=bt470bg``), dan moeten we als volgt"
+" transcoderen:"
 
 #: ../../glossary/useful_information/color_hell.rst:101
 #: ../../glossary/useful_information/color_hell.rst:110
 msgid "$ ``ffmpeg -i raw.mp4``"
-msgstr ""
+msgstr "$ ``ffmpeg -i raw.mp4``"
 
 #: ../../glossary/useful_information/color_hell.rst:102
 msgid "``-color_primaries bt470bg -color_trc gamma28 -colorspace bt470bg``"
-msgstr ""
+msgstr "``-color_primaries bt470bg -color_trc gamma28 -colorspace bt470bg``"
 
 #: ../../glossary/useful_information/color_hell.rst:103
 #: ../../glossary/useful_information/color_hell.rst:112
 msgid "``-r 25 -crf 18 screen-rec.mp4``"
-msgstr ""
+msgstr "``-r 25 -crf 18 screen-rec.mp4``"
 
 #: ../../glossary/useful_information/color_hell.rst:106
 msgid "NTSC"
@@ -244,11 +323,14 @@ msgid ""
 "For **NTSC chromaticities** (``=smpte170m``), we’ll need a different set of "
 "primaries, transfer curve, and colorspace:"
 msgstr ""
+"Voor **NTSC chromaticities** (``=smpte170m``), hebben we een andere set met"
+"primaries, transfer curve, en kleurruimte nodig:"
 
 #: ../../glossary/useful_information/color_hell.rst:111
 msgid ""
 "``-color_primaries smpte170m -color_trc smpte170m -colorspace smpte170m``"
 msgstr ""
+"``-color_primaries smpte170m -color_trc smpte170m -colorspace smpte170m``"
 
 #: ../../glossary/useful_information/color_hell.rst:124
 msgid ""
@@ -257,3 +339,8 @@ msgid ""
 "color profile too – unless they are broken in that they don’t understand "
 "BT.601 at all."
 msgstr ""
+"In beide gevallen, zal Kdenlive/MLT nu de getranscordeerde video correct zien"
+" met het BT.601 kleurprofiel. Daarnaast zal ook andere media tools het"
+" kleurprofiel"
+" correct detecteren – tenzij ze niet goed werken zodat ze BT.601 helemaal"
+" niet begrijpen."
