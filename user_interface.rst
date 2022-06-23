@@ -15,6 +15,18 @@
 User interface
 ##############
 
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   :glob:
+
+   user_interface/monitors
+   user_interface/timeline
+   user_interface/workspace_layouts
+   user_interface/toolbars
+   user_interface/shortcuts
+   user_interface/menu
+
 After starting Kdenlive the Kdenlive window should look something similar to the image below; as Kdenlive’s user interface is consistent across all platforms.
 
 Kdenlive’s interface is separated into four main parts:
@@ -81,16 +93,3 @@ The sound quality and volume can be adjusted, either for the entire sequence or 
 7. :ref:`Status Bar <status_bar>`
 `````````````````````````````````
 On the left side you see hints what you can do when you hover over items. In the middle you see the names of the clips you hover over in the timeline. Followed by mode you are in (default is :guilabel:`Select`). On the right end are switches for :guilabel:`Labels`, :guilabel:`Thumbnails`, :guilabel:`Snap` and for zooming the timeline.    
-
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-   :glob:
-
-   user_interface/monitors
-   user_interface/timeline
-   user_interface/workspace_layouts
-   user_interface/toolbars
-   user_interface/shortcuts
-   user_interface/menu
