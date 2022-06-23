@@ -38,12 +38,14 @@ The new render profile installed above shows up in the Web Sites category under 
   It has the big red cross because the render profile is in need of an audio codec not installed on this machine
 
 
-The installed files are placed in /usr/share/mlt/presets/consumer/avformat
+The installed files are placed in :file:`/usr/share/mlt/presets/consumer/avformat`
 
 
 Upload/Share Render Profiles
 ============================
 
-If you want to share a render profile you can do so at the `KDE Store page <https://store.kde.org/browse?cat=334>`_. Profiles submitted there appear in the *Download New Render Profiles*.
+If you want to share a render profile you can do so at the `KDE Store page <https://store.kde.org/browse?cat=334>`_. You need to create a login, then you can upload your custom rendering profile file, which is on Linux stored in :file:`.local/share/kdenlive/export/customprofiles.xml` and on Windows stored in :file:`%LocalAppData%\kdenlive\export\customprofiles.xml`. The file contains all your custom rendering profiles so you should copy it and remove the ones you don't want to export.
+
+Profiles submitted there appear in the *Download New Render Profiles*.
 
 
