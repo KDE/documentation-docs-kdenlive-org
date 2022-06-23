@@ -19,6 +19,7 @@ Useful Information
 
 .. toctree::
    :caption: Contents:
+   :maxdepth: 1
    :glob:
 
    useful_information/*
