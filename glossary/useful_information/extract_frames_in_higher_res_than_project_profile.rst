@@ -29,7 +29,7 @@ Project Profile … and Profile-Differing Footage
 
    In some projects you may face source footage that *doesn’t match the project profile at all*. For instance, when working with certain screen recordings, especially when recorded on tablets and smartphone. The recordings might be even in a different orientation.
 
-   Agreed, such footage *might* be a sign of the – rather hilarious – `Vertical Video Syndrome <https://www.youtube.com/watch?v=Bt9zSfinwFA>`_ (link to YouTube explanation). Or it might be the sign of an outstanding arthouse production. But there are other sensible reasons, such as their use in tutorial videos: a portrait mobile device screen can be easily composed with a 16:9 scene, leaving room for additional illustrations, explanations, and so on.
+   Agreed, such footage *might* be a sign of the – rather hilarious – `Vertical Video Syndrome <https://www.youtube.com/watch?v=f2picMQC-9E>`_ (link to YouTube explanation). Or it might be the sign of an outstanding arthouse production. But there are other sensible reasons, such as their use in tutorial videos: a portrait mobile device screen can be easily composed with a 16:9 scene, leaving room for additional illustrations, explanations, and so on.
 
 .. container:: clear-both
 
