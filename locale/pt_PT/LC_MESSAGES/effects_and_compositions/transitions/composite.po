@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-03 00:38+0000\n"
-"PO-Revision-Date: 2021-11-13 11:26+0000\n"
+"PO-Revision-Date: 2022-06-25 01:40+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: ref alphamanipulation composite luma Xor clip\n"
+"X-POFile-SpellExtra: bluescreen rotoscoping panandzoom sharpen\n"
+"X-POFile-SpellExtra: alphaoperations effects usr share kdenlive lumas\n"
 
 #: ../../effects_and_compositions/transitions/composite.rst:17
 msgid "Composite Transition"
-msgstr ""
+msgstr "Transição por Composição"
 
 #: ../../effects_and_compositions/transitions/composite.rst:19
 msgid "Contents"
@@ -34,7 +37,7 @@ msgid ""
 "video tracks should be combined. Until you define some alpha channel data "
 "using an :ref:`alpha_manipulation` or a Wipe File, changes in the Composite "
 "transition settings will have no visible effect."
-msgstr ""
+msgstr "A transição de Composição combina os dados de vídeo de duas faixas de vídeo numa só. Esta transição é usada em conjunto com a informação do Canal Alfa fornecida por um dos algoritmos em :ref:`alpha_manipulation` ou usando um :ref:`composite`. Estes dados do Canal Alfa descrevem como os dados das duas faixas de vídeo deverão ser combinados. Até que defina alguns dados do canal alfa com a :ref:`alpha_manipulation` ou um ficheiro de varrimento, as alterações na configuração da transição de composição não terão nenhum efeito visível."
 
 #: ../../effects_and_compositions/transitions/composite.rst:23
 msgid ""
@@ -42,7 +45,7 @@ msgid ""
 "less precise position control. When compared to **Affine**, the "
 "**Composite** transition, it does not support rotation or skewing but it is "
 "much faster, albeit at the cost of luma bleed."
-msgstr ""
+msgstr "Nota: As desvantagens da transição de **Composição** são: difusão do luma e um controlo da posição menos preciso. Em comparação com a **Afim**, a transição de **Composição** não suporta a rotação ou a inclinação, mas é muito mais rápida, ainda que seja à custa da tal difusão do luma."
 
 #: ../../effects_and_compositions/transitions/composite.rst:26
 msgid "Alpha operations"
@@ -50,59 +53,59 @@ msgstr "Operações com o alfa"
 
 #: ../../effects_and_compositions/transitions/composite.rst:33
 msgid "Alpha operation options are *Over*, *And*, *Or* and *Xor*:"
-msgstr ""
+msgstr "As opções da operação alfa são *Sobre*, *E*, *Ou* e *Xor* (Ou exclusivo):"
 
 #: ../../effects_and_compositions/transitions/composite.rst:35
 msgid "Operation **Over**"
-msgstr ""
+msgstr "Operação **Sobre**"
 
 #: ../../effects_and_compositions/transitions/composite.rst:37
 msgid ""
 "The clip with alpha information is located on the top track: the selected "
 "color acquires transparency."
-msgstr ""
+msgstr "O 'clip' com a informação do alfa localiza-se na faixa de topo: a cor seleccionada adquire a transparência."
 
 #: ../../effects_and_compositions/transitions/composite.rst:38
 msgid ""
 "The clip with alpha information is located on the bottom track: we see only "
 "the top clip."
-msgstr ""
+msgstr "O 'clip' com a informação do alfa localiza-se na faixa do fundo: só vemos o 'clip' de topo."
 
 #: ../../effects_and_compositions/transitions/composite.rst:44
 msgid "Operation **And**"
-msgstr ""
+msgstr "Operação **E**"
 
 #: ../../effects_and_compositions/transitions/composite.rst:46
 msgid ""
 "The clip with alpha information is located on the top track: the selected "
 "color becomes transparent."
-msgstr ""
+msgstr "O 'clip' com a informação do alfa localiza-se na faixa de topo: a cor seleccionada fica transparente."
 
 #: ../../effects_and_compositions/transitions/composite.rst:47
 msgid ""
 "The clip with alpha information is located on the bottom track: everything "
 "in the image becomes transparent, except for the selected color."
-msgstr ""
+msgstr "O 'clip' com a informação do alfa localiza-se na faixa do fundo: tudo na imagem fica transparente, excepto a cor seleccionada."
 
 #: ../../effects_and_compositions/transitions/composite.rst:53
 msgid "Operation **Or** clears any alpha information"
-msgstr ""
+msgstr "A operação **Ou** limpa os dados do alfa"
 
 #: ../../effects_and_compositions/transitions/composite.rst:59
 msgid "Operation **Xor**"
-msgstr ""
+msgstr "Operação **Xor** (Ou Exclusivo)"
 
 #: ../../effects_and_compositions/transitions/composite.rst:61
 msgid ""
 "The clip with alpha information is located on the top track: everything in "
 "the image becomes transparent, except for the selected color."
-msgstr ""
+msgstr "O 'clip' com a informação do alfa localiza-se na faixa de topo: tudo na imagem fica transparente excepto a cor seleccionada."
 
 #: ../../effects_and_compositions/transitions/composite.rst:62
 msgid ""
 "The clip with alpha information is located on the bottom track: the selected "
 "color acquires transparency."
-msgstr ""
+msgstr "O 'clip' com a informação do alfa localiza-se na faixa do fundo: a cor seleccionada adquire a transparência."
 
 #: ../../effects_and_compositions/transitions/composite.rst:70
 msgid "Tutorial 1"
@@ -110,7 +113,7 @@ msgstr "Tutorial 1"
 
 #: ../../effects_and_compositions/transitions/composite.rst:72
 msgid "See this :ref:`blue_screen` that describes how to use:"
-msgstr ""
+msgstr "Veja em :ref:`blue_screen` uma descrição de como o usar:"
 
 #: ../../effects_and_compositions/transitions/composite.rst:74
 msgid "Alpha Manipulation -> :ref:`blue_screen`"
@@ -122,7 +125,7 @@ msgstr ":ref:`rotoscoping`"
 
 #: ../../effects_and_compositions/transitions/composite.rst:76
 msgid "Composite Transition."
-msgstr ""
+msgstr "Transição de Composição."
 
 #: ../../effects_and_compositions/transitions/composite.rst:77
 msgid "Crop and Transform -> :ref:`pan_and_zoom`"
@@ -138,22 +141,22 @@ msgstr "Manipulação do Alfa -> :ref:`alpha_operations`"
 
 #: ../../effects_and_compositions/transitions/composite.rst:83
 msgid "Tutorial 2 - composite transition and Blue Screen"
-msgstr ""
+msgstr "Tutorial 2 - Transição de Composição e Ecrã Azul"
 
 #: ../../effects_and_compositions/transitions/composite.rst:85
 msgid ""
 "Tutorial showing how to use the \"Blue screen\" function, composite "
 "transition and :ref:`effects` to animate one image moving over another in "
 "the **Kdenlive** video editor."
-msgstr ""
+msgstr "Um tutorial que mostra como usar a função de \"Ecrã azul\", a transição de composição e os :ref:`effects` para animar uma imagem a mover-se sobre outra no editor de vídeo **Kdenlive**."
 
 #: ../../effects_and_compositions/transitions/composite.rst:87
 msgid "https://youtu.be/M8hC5FbIzdE"
-msgstr ""
+msgstr "https://youtu.be/M8hC5FbIzdE"
 
 #: ../../effects_and_compositions/transitions/composite.rst:91
 msgid "Tutorial 3 - Video Masks"
-msgstr ""
+msgstr "Tutorial 3 - Máscaras de Vídeo"
 
 #: ../../effects_and_compositions/transitions/composite.rst:93
 msgid ""
@@ -161,47 +164,47 @@ msgid ""
 "a Wipe File or `matte <https://en.wikipedia.org/wiki/Matte_(filmmaking)>`_) "
 "to create an effect where you can make it appear that one video is playing "
 "on the screen of a still of a computer monitor."
-msgstr ""
+msgstr "Este tutorial usa a transição de Composição e uma máscara de vídeo personalizada (também conhecida por Ficheiro de Varrimento ou `mate <https://en.wikipedia.org/wiki/Matte_(filmmaking)>`_) para criar um efeito onde poderá fazer com que um vídeo esteja em reprodução no ecrã de uma imagem estática de um monitor de computador."
 
 #: ../../effects_and_compositions/transitions/composite.rst:95
 msgid "The mask/matte is created with **GIMP**."
-msgstr ""
+msgstr "A máscara/mate é criada com o **GIMP**."
 
 #: ../../effects_and_compositions/transitions/composite.rst:97
 msgid "Save your mattes to :file:`/usr/share/kdenlive/lumas`."
-msgstr ""
+msgstr "Grave os seus 'mates' em :file:`/usr/share/kdenlive/lumas`."
 
 #: ../../effects_and_compositions/transitions/composite.rst:99
 msgid ""
 "It would appear that you need to stop and restart **Kdenlive** in order for "
 "it to pick up new matte/wipe files saved in the above folder."
-msgstr ""
+msgstr "Poderá parecer que tenha de parar e reiniciar o **Kdenlive** para que ele escolha os novos ficheiros de mate/varrimento gravados na pasta acima."
 
 #: ../../effects_and_compositions/transitions/composite.rst:101
 msgid ""
 "There appears to be a defect in this functionality which means that when the "
 "composite is on 100% Opacity, the wipe file does not work. You need to "
 "change it to 99% to make the effect kick in."
-msgstr ""
+msgstr "Parece haver um problema nesta funcionalidade, o que significa que quando a composição tiver 100% de Opacidade, o ficheiro de varrimento não funciona. Terá de o mudar para 99% para que o efeito se manifeste."
 
 #: ../../effects_and_compositions/transitions/composite.rst:103
 msgid "https://youtu.be/FIpnGlRY27U"
-msgstr ""
+msgstr "https://youtu.be/FIpnGlRY27U"
 
 #: ../../effects_and_compositions/transitions/composite.rst:109
 msgid ""
 "Screenshot of Composite transition using a custom wipe file to mask out a "
 "section of video - as described in Tutorial 3."
-msgstr ""
+msgstr "Imagem da transição de Composição com um ficheiro de varrimento personalizado para mascarar uma secção de vídeo - como escrito no Tutorial 3."
 
 #: ../../effects_and_compositions/transitions/composite.rst:111
 msgid ""
 "Aspirational goal - a compositing experiment made using detonation films "
 "free sample effects."
-msgstr ""
+msgstr "Objectivo pretendido - uma experiência de composição feita com efeitos de exemplo de filmes com detonações."
 
 #: ../../effects_and_compositions/transitions/composite.rst:113
 msgid ""
 "**Warning**: video below may be inappropriate for some users. https://youtu."
 "be/vo-xntF1bns"
-msgstr ""
+msgstr "**Atenção**: o vídeo abaixo poderá não ser apropriado para alguns utilizadores. https://youtu.be/vo-xntF1bns"

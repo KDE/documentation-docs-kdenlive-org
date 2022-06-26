@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-03 00:38+0000\n"
-"PO-Revision-Date: 2021-11-13 11:26+0000\n"
+"PO-Revision-Date: 2022-06-25 01:22+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: ArceBI ML dEX Bi Temp temp espacio Arce Alp Kokaram\n"
+"X-POFile-SpellExtra: Perreault Hebert\n"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:12
 msgid "Medians"
-msgstr ""
+msgstr "Medianas"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:14
 msgid "Contents"
@@ -27,11 +29,11 @@ msgstr "Conteúdo"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:16
 msgid "This filter implements several median type filters."
-msgstr ""
+msgstr "Este filtro implementa vários filtros baseados na mediana."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:18
 msgid "INTRODUCTION:"
-msgstr ""
+msgstr "INTRODUÇÃO:"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:20
 msgid ""
@@ -41,7 +43,7 @@ msgid ""
 "\"inversely\" compared to linear denoisers. The more a bad pixel stands out "
 "from the surrounding area, the bigger residual it will leave with a linear "
 "filter - but the more probably it will be eliminated by the median."
-msgstr ""
+msgstr "A mediana é um filtro não-linear bastante conhecido no processamento de imagens. Frequentemente é usado para remover ruídos de impulsos, como o ruído de \"sal & pimenta\", pixels \"mortos\" e \"queimados\", pó no filme, etc. Isto é porque se comporta de forma \"inversa\" aos sistemas de redução de ruído lineares. Quanto mais um pixel inválido se destacar na área envolvente, maiores resíduos irá deixar com um filtro linear - mas provavelmente será melhor eliminado com a mediana."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:22
 msgid ""
@@ -55,31 +57,31 @@ msgid ""
 "made according to the formulas given in the corresponding work [2]_. For "
 "more info on median filtering see `Wikipedia article <https://en.wikipedia."
 "org/wiki/Median_filter>`_."
-msgstr ""
+msgstr "A contrapartida é que a operação da mediana é bastante lenta. Como um filtro estatístico da ordem, é semelhante à ordenação, pelo que terá de ser feito para cada pixel, pelo que o uso de um algoritmo rápido é muito importante. Para as medianas pequenas, os algoritmos do tipo descritos `nesta página <http://ndevilla.free.fr/median/median/src/optmed.c>`_ são aqui usados, com algumas pequenas modificações às curtas de uma ligeira melhoria na velocidade. Para a mediana de \"Tamanho variável\", é usado o código de [1]_. Os filtros compostos (ArceBI, ML3D, ML3dEX) são feitos de acordo com as fórmulas indicadas no trabalho correspondente em [2]_. Para mais informações sobre a filtragem pela mediana, veja o `artigo da Wikipédia <https://en.wikipedia.org/wiki/Median_filter>`_."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:24
 msgid "IMPLEMENTED ALGORITHMS:"
-msgstr ""
+msgstr "ALGORITMOS IMPLEMENTADOS:"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:27
 msgid "**Cross5**"
-msgstr ""
+msgstr "**Cruz5**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:27
 msgid "Median of the pixel with its top, bottom, left and right neighbor."
-msgstr ""
+msgstr "A mediana do pixel com o seu vizinho de topo, fundo, esquerdo e direito."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:30
 msgid "**Square3x3**"
-msgstr ""
+msgstr "**Quadrado3x3**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:30
 msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
-msgstr ""
+msgstr "Mediana do pixel com os 8 pixels envolventes. (caixa de 3x3)"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:33
 msgid "**Bilevel**"
-msgstr ""
+msgstr "**Bi-nível**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:33
 msgid ""
@@ -87,120 +89,120 @@ msgid ""
 "diagonal neighbors, and finally take the median of the pixel and the two "
 "previously calculated medians. Slightly better preserves detail than the "
 "simple medians above."
-msgstr ""
+msgstr "Primeiro, aplica a mediana \"cruz5\", depois retira a mediana do pixel com os seus quatro vizinhos diagonais e finalmente tira a mediana do pixel e das duas medianas calculadas anteriormente. É ligeiramente melhor a preservar o detalhe que as medianas simples acima descritas."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:36
 msgid "**Diamond3x3**"
-msgstr ""
+msgstr "**Diamante3x3**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:36
 msgid ""
 "Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
 "pattern."
-msgstr ""
+msgstr "Tira a mediana do pixel com os 12 pixels vizinhos organizados num padrão em diamante."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:39
 msgid "**Square5x5**"
-msgstr ""
+msgstr "**Quadrado5x5**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:39
 msgid "Median of the pixel with the 5x5 surrounding box."
-msgstr ""
+msgstr "Mediana do pixel com a caixa envolvente 5x5."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:42
 msgid "**Temp3**"
-msgstr ""
+msgstr "**Temp3**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:42
 msgid ""
 "Temporal only median of three frames. Can be used to reduce single frame "
 "time-impulsive noise like photoflash. Delays the video by 1 frame."
-msgstr ""
+msgstr "Mediana apenas temporal de três imagens. Pode ser usada para reduzir o ruído de impulsos temporais entre imagens individuais, como o flash fotográfico. Atrasa o vídeo em 1 imagem."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:45
 msgid "**Temp5**"
-msgstr ""
+msgstr "**Temp5**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:45
 msgid ""
 "Temporal only median of five frames. Can be used to reduce double frame time-"
 "impulsive noise, but the artifacts on fast moving objects are stronger than "
 "with temp3. Delays the video by 2 frames."
-msgstr ""
+msgstr "Mediana apenas temporal de cinco imagens. Pode ser usada para reduzir o ruído de impulsos temporais entre duas imagens, mas onde os artefactos dos objectos em movimento rápido são mais fortes do que o 'temp3'. Atrasa o vídeo em 2 imagens."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:48
 msgid "**ArceBI**"
-msgstr ""
+msgstr "**ArceBI**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:48
 msgid ""
 "Spatio-temporal multilevel median, as described by Arce. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
-msgstr ""
+msgstr "Mediana multi-nível espacio-temporal, como descrito por Arce. Veja o trabalho correspondente [2]_. Atrasa o vídeo em 1 imagem."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:51
 msgid "**ML3D**"
-msgstr ""
+msgstr "**ML3D**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:51
 msgid ""
 "Spatio-temporal multilevel median, as described by Alp. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
-msgstr ""
+msgstr "Mediana multi-nível espacio-temporal, como descrito por Alp. Veja o trabalho correspondente [2]_. Atrasa o vídeo em 1 imagem."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:54
 msgid "**ML3dEX**"
-msgstr ""
+msgstr "**ML3dEX**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:54
 msgid ""
 "Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
 "see the corresponding work [2]_. Delays the video by 1 frame."
-msgstr ""
+msgstr "Mediana multi-nível espacio-temporal. Desenvolvimentos posteriores do ML3D por Kokaram. Veja o trabalho correspondente [2]_. Atrasa o vídeo em 1 imagem."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:57
 msgid "**VarSize**"
-msgstr ""
+msgstr "**Tamanho Variável**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:57
 msgid ""
 "Simple spatial only median in a user selected size square box around each "
 "pixel. The effect could be described as \"quasi edge preserving, corner "
 "rounding, small stuff eliminator\". Or maybe just an \"artsy blur\"."
-msgstr ""
+msgstr "Mediana espacial simples numa caixa quadrada com um tamanho seleccionado pelo utilizador em torno de cada pixel. O efeito poderá ser descrito como \"quase preservação das arestas, arredondamento de cantos e eliminação de pequenos defeitos\". Ou talvez seja um \"borrão artístico\"."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:59
 msgid "PARAMETERS:"
-msgstr ""
+msgstr "PARÂMETROS:"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:62
 msgid "**Type**"
-msgstr ""
+msgstr "**Tipo**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:62
 msgid "Selects one of the eleven algorithms."
-msgstr ""
+msgstr "Selecciona uma dos onze algoritmos."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:65
 msgid ""
 "Only active when \"VarSize\" type is selected. Determines the size of the "
 "square area over which the median is taken."
-msgstr ""
+msgstr "Só fica activo quando seleccionar o tipo \"Tamanho Variável\". Determina o tamanho da área quadrada sobre a qual é calculada a mediana."
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:66
 msgid "**Size**"
-msgstr ""
+msgstr "**Tamanho**"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:68
 msgid ""
 "Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF "
 "version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80.org/"
 "ctmf.html>`_"
-msgstr ""
+msgstr "Simon Perreault, Patrick Hebert: Filtragem da mediana num tempo constante, `versão em PDF <https://nomis80.org/ctmf.pdf>`_, `versão em HTML <https://nomis80.org/ctmf.html>`_"
 
 #: ../../effects_and_compositions/effect_groups/misc/medians.rst:70
 msgid ""
 "`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://"
 "citeseerx.ist.psu.edu/viewdoc/download?"
 "doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
-msgstr ""
+msgstr "`Anil Christopher Kokaram: Restauração de Filmes, tese de Doutoramento <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-24 00:38+0000\n"
-"PO-Revision-Date: 2021-11-13 11:26+0000\n"
+"PO-Revision-Date: 2022-06-25 16:34+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: ref projecttree clip projectmenu Tremuras Mín ips\n"
+"X-POFile-SpellExtra: Georg Martius\n"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:17
 msgid "Stabilize"
@@ -30,24 +32,24 @@ msgid ""
 "This menu item is available from :ref:`project_tree` on a clip in the "
 "Project Bin or under the :ref:`project_menu` menu when a clip is selected in "
 "the Project Bin."
-msgstr ""
+msgstr "Este item do menu está disponível no :ref:`project_tree` num 'clip' do Grupo do Projecto ou no :ref:`project_menu` quando está seleccionado um 'clip' no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:23
 msgid ""
 "This feature applies image stabilization algorithms to the clip which can "
 "reduce the shakiness of a bit of footage."
-msgstr ""
+msgstr "Esta funcionalidade aplica algoritmos de estabilização da imagem ao 'clip', o que poderá reduzir alguma instabilidade num bloco de filmagem."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:25
 msgid "**Stabilize**"
-msgstr ""
+msgstr "**Estabilizar**"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:31
 msgid ""
 "Based on the tooltips from this screen and the `docs here <http://public."
 "hronopik.de/vid.stab/features.php?lang=en>`_, this is what all the options "
 "mean:"
-msgstr ""
+msgstr "Baseado nas dicas deste ecrã e na `documentação aqui <http://public.hronopik.de/vid.stab/features.php?lang=en>`_, isto é o que todas as opções significam:"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:34
 msgid "Accuracy"
@@ -57,7 +59,7 @@ msgstr "Precisão"
 msgid ""
 "Accuracy of shakiness detection. Should be >= shakiness factor. 1: low (fast "
 "processing). 15: high (slow processing). Default: 4. Recommended: 8."
-msgstr ""
+msgstr "A precisão da detecção da instabilidade. Deverá ser >= factor de instabilidade. 1: baixo (processamento rápido). 15: alto (processamento lento). Por omissão: 4. Recomendado: 8."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:37
 msgid "Shakiness"
@@ -69,7 +71,7 @@ msgid ""
 "processing). 10: very strong/quick (slow processing). Default = 4. Note: "
 "large values may also reduce the accuracy. This is due to the internals of "
 "the movement-detection. Typically you don't need a value greater than 7."
-msgstr ""
+msgstr "Quão instável está o vídeo? E quão rápida é a câmara? 1: pouco (processamento  rápido). 10: muito forte/rápido (processamento lento). Por omissão = 4. Nota: os valores mais elevados também podem reduzir a precisão. Isto é devido aos factores internos da detecção de movimento. Tipicamente não será necessário um valor superior a 7."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:40
 msgid "Stepsize"
@@ -79,7 +81,7 @@ msgstr "Tamanho do passo"
 msgid ""
 "Step size of search process. Region around minimum is scanned with 1 pixel "
 "resolution. Default = 6."
-msgstr ""
+msgstr "Tamanho do passo do processo de pesquisa. A região em torno do mínimo é analisada com a resolução de 1 pixel. Por omissão = 6."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:43
 msgid "Min. contrast"
@@ -89,7 +91,7 @@ msgstr "Mín. de contraste"
 msgid ""
 "Below this contrast, the field is discarded. Range 0-1. Default = 0.3. You "
 "may want to use a smaller value for a really low contrast clip."
-msgstr ""
+msgstr "Abaixo deste contraste, o campo é descartado. Intervalo 0-1. Por omissão = 0,3. Poderá querer usar um valor inferior para um 'clip' de contraste realmente baixo."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:46
 msgid ""
@@ -97,14 +99,14 @@ msgid ""
 "smoothing, the more camera movements are compensated. The resulting clip has "
 "a lower change in camera speed. Technically it is the number of frames for "
 "lowpass filtering = (smoothing * 2) + 1."
-msgstr ""
+msgstr "Controla a quantidade de suavização/estabilização. Quanto maior o valor para a suavização, mais os movimentos da câmara serão compensados. O 'clip' resultante terá uma menor mudança na velocidade da câmara. Tecnicamente é o número de imagens para a filtragem passa-baixo = (suavização * 2) + 1."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:49
 msgid ""
 "For example, with a with 25 fps clip, a value of 12 for the smoothing factor "
 "means we would smooth over one second - 12 frames behind the current frame + "
 "the current frame (1) + 12 frames after the current frame. Default =   10."
-msgstr ""
+msgstr "Por exemplo, com um 'clip' de 25 ips, um valor de 12 para o factor de suavização significa que teríamos de suavizar ao longo de um segundo - 12 imagens abaixo da imagem actual + a imagem actual (1) + 12 imagens depois da imagem actual. Por omissão = 10."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:51
 msgid "Smoothing"
@@ -114,7 +116,7 @@ msgstr "Suavização"
 msgid ""
 "Demo of the difference `here <http://public.hronopik.de/vid.stab/files/"
 "skiing_veryshaky_short_vs_longsmoothing_above.ogv>`_ (top:3, bottom: 30)."
-msgstr ""
+msgstr "Demonstração da diferença `aqui <http://public.hronopik.de/vid.stab/files/skiing_veryshaky_short_vs_longsmoothing_above.ogv>`_ (superior:3, inferior: 30)."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:54
 msgid "Max shift"
@@ -122,7 +124,7 @@ msgstr "Desvio máximo"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:54
 msgid "Maximal number of pixels to translate image. Default = -1. No limit."
-msgstr ""
+msgstr "O número máximo de pixels para transladar a imagem. Por omissão = -1. Sem limite."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:57
 msgid "Max angle"
@@ -130,7 +132,7 @@ msgstr "Ângulo máximo"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:57
 msgid "Maximum angle to rotate in radians. Default = -1, which means no limit."
-msgstr ""
+msgstr "Ângulo máximo a rodar em radianos. Por omissão = -1, o que significa que é ilimitado."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:60
 msgid "Crop"
@@ -140,7 +142,7 @@ msgstr "Recortar"
 msgid ""
 "Unchecked means the border of the transformed frames contains the pixels "
 "from previous frames. Checked = black background. Default = unchecked."
-msgstr ""
+msgstr "Se estiver desligado, significa que o contorno das imagens transformadas contêm os pixels das imagens anteriores. Ligado = fundo preto. Por omissão = desligado."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:63
 msgid "Zoom"
@@ -151,7 +153,7 @@ msgid ""
 "Additional zoom during transform. Percentage to zoom > 0 = zoom in, < 0 = "
 "zoom out. The zoom specified here is in addition to the optimum zoom "
 "calculated by the program when optzoom is checked. Default = 0."
-msgstr ""
+msgstr "Uma ampliação adicional durante a transformação. A percentagem a ampliar > 0 = ampliação, < 0 = redução. A ampliação aqui definida é uma adição ao factor de ampliação calculado pelo programa quando a ampliação óptima está activada. Por omissão = 0."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:66
 #: ../../user_interface/menu/clip_menu/stabilize.rst:69
@@ -163,11 +165,11 @@ msgid ""
 "Use optimal zoom (calculated from transforms). Causes video to zoom until "
 "90% of transformations are hidden. Default is checked. Hint: You can further "
 "zoom in with the zoom option."
-msgstr ""
+msgstr "Usar a ampliação óptima (calculada a partir das transformações). Faz com que o vídeo amplie até que 90% das transformações fiquem escondidas. Por omissão, está assinalada. Sugestão: poderá ampliar ainda mais com a opção de ampliação."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:69
 msgid "Zoom per frame (used when \"Optimal Zoom\" = 2)"
-msgstr ""
+msgstr "Ampliação por imagem (usada quando a opção \"Ampliação Óptima\" = 2)"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:72
 msgid "Sharpen"
@@ -177,7 +179,7 @@ msgstr "Afiamento"
 msgid ""
 "Sharpen transformed image. Amount of sharpening: 0: no sharpening. Uses "
 "filter unsharp with 5x5 matrix. Default = 0.8."
-msgstr ""
+msgstr "Aumenta a nitidez da imagem transformada. Quantidade de nitidez: 0: sem nitidez. Usa o filtro de afiamento com uma matriz de 5x5. Por omissão = 0,8."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:75
 msgid "Show fields"
@@ -190,7 +192,7 @@ msgid ""
 "stab/files/skiing_veryshaky_visualized8_short.ogv>`_. Default = 0. Non-zero "
 "values of this parameter are not relevant in the **Kdenlive** implementation "
 "- use zero."
-msgstr ""
+msgstr "0 = não desenha nada, 1 ou 2 = mostrar os campos e transformações. Use o 1 ou 2 para antever o que o processo vai fazer. `Exemplo <http://public.hronopik.de/vid.stab/files/skiing_veryshaky_visualized8_short.ogv>`_. Por omissão = 0. Os valores diferentes de zero deste parâmetro não são relevantes na implementação do **Kdenlive** - use o zero."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:78
 msgid "Reference frame"
@@ -204,16 +206,16 @@ msgstr "Tripé"
 msgid ""
 "Example of the effect of running stabilize - transcode from the original "
 "author - Georg Martius."
-msgstr ""
+msgstr "Exemplo do efeito de executar a estabilização - conversão do autor original - Georg Martius."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:83
 msgid "Side by side https://youtu.be/HYE3KAl8RAQ"
-msgstr ""
+msgstr "Lado-a-lado https://youtu.be/HYE3KAl8RAQ"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:86
 msgid "Deshaked https://youtu.be/c3CEm8bgVQ0"
-msgstr ""
+msgstr "Sem tremuras https://youtu.be/c3CEm8bgVQ0"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:89
 msgid "Original https://youtu.be/cRA5H1LYzM4"
-msgstr ""
+msgstr "Original https://youtu.be/cRA5H1LYzM4"
