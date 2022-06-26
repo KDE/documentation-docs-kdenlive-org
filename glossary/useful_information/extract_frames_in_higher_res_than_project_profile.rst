@@ -126,7 +126,7 @@ References
 
 `extract-frames GitHubGist <https://gist.githubusercontent.com/TheDiveO/57fd76e4d15252232aaacc7e422a79a2/raw/b3e605eb74737916bffa55bbc1b907e29ee7016d/extract-frames>`_
     
-`Vertical Video Syndrome <https://www.youtube.com/watch?v=Bt9zSfinwFA>`_ – A PSA by Glove and Boots on YouTube.
+`Vertical Video Syndrome <https://www.youtube.com/watch?v=f2picMQC-9E>`_ – A PSA by Glove and Boots on YouTube.
     
 :ref:`color_hell_ffmpeg_transcoding_and_preserving_BT.601`
 
