@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-29 00:22+0000\n"
-"PO-Revision-Date: 2021-11-13 11:26+0000\n"
+"PO-Revision-Date: 2022-06-28 01:49+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: MLT alphaspot ref composite clip menuselection Máx\n"
+"X-POFile-SpellExtra: Mín máx mín\n"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:13
 msgid "Alpha Shapes"
-msgstr ""
+msgstr "Formas do Alfa"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:15
 msgid "Contents"
@@ -32,6 +34,10 @@ msgid ""
 "<https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme>`_ "
 "file."
 msgstr ""
+"Este é o filtro do MLT `Frei0r alphaspot <https://www.mltframework.org/"
+"plugins/FilterFrei0r-alphaspot/>`_; veja também o ficheiro `README do Frei0r-"
+"alphaspot <https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/"
+"readme>`_."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:24
 msgid ""
@@ -41,21 +47,28 @@ msgid ""
 "transparency is outside the shape that is drawn. Inside the shape is an area "
 "of opacity where the overlaying clip is visible."
 msgstr ""
+"Use isto em combinação com uma :ref:`composite` para colocar áreas de "
+"transparência sobre um 'clip' sobreposto, de forma que o 'clip' abaixo "
+"apareça em alguns pontos definidos através de formas geométricas. Por "
+"omissão, a área de transparência fica fora da forma desenhada. Dentro da "
+"forma existe uma área de opacidade onde o 'clip' sobreposto é visível."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:27
 msgid "Shape Options"
-msgstr ""
+msgstr "Opções da Forma"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:29
 msgid ""
 "This controls the shape of the area of opacity that the effect will create."
-msgstr ""
+msgstr "Isto controla a forma da área de opacidade que o efeito irá criar."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:31
 msgid ""
 "Shape options are :menuselection:`Rectangle`, :menuselection:`Ellipse`, :"
 "menuselection:`Triangle`, and :menuselection:`Diamond`."
 msgstr ""
+"As opções da forma são :menuselection:`Rectângulo`, :menuselection:"
+"`Elipse`, :menuselection:`Triângulo` e :menuselection:`Diamante`."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:34
 msgid "Tilt"
@@ -67,32 +80,38 @@ msgid ""
 "1000ths of a full rotation. Eg, a factor of 250 is one-quarter of a circle "
 "turn and 500 is a 180 turn. I.e., 1000 tilt units = 360 degrees."
 msgstr ""
+"Isto controla o ângulo com que aparece a forma no ecrã. As unidades são em "
+"milésimos de uma rotação completa. P.ex., um factor de 250 é um quarto de "
+"círculo e o valor 500 é uma curva em 180 graus. I.e., 1000 unidades de "
+"desvio = 360 graus."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:39
 msgid "Position X and Y"
-msgstr ""
+msgstr "Posição em X e Y"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:41
 msgid "This defines the position of the shape on the screen."
-msgstr ""
+msgstr "Isto define a posição da forma no ecrã."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:44
 msgid "Size X and Y"
-msgstr ""
+msgstr "Tamanho em X e Y"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:46
 msgid "Defines the size of the shape."
-msgstr ""
+msgstr "Define o tamanho da forma."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:49
 msgid "Transition Width"
-msgstr ""
+msgstr "Largura da Transição"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:51
 msgid ""
 "Defines the width of a border on the shape where the transparency grades "
 "from inside to outside the shape."
 msgstr ""
+"Define a largura de um contorno da forma onde a transparência varia "
+"gradualmente de dentro para fora da forma."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:54
 msgid "Operations"
@@ -103,46 +122,55 @@ msgid ""
 "Operations define what is to happen when you have more than one Alpha effect "
 "on the clip."
 msgstr ""
+"As operações definem o que vai acontecer se tiver mais que um efeito de Alfa "
+"no 'clip'."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:58
 msgid ""
 "Operations are :menuselection:`Write On Clear`, :menuselection:`Max`, :"
 "menuselection:`Min`, :menuselection:`Add`, and :menuselection:`Subtract`:"
 msgstr ""
+"As operações são :menuselection:`Gravar ao Limpar`, :menuselection:`Máx`, :"
+"menuselection:`Mín`, :menuselection:`Adicionar` e :menuselection:`Subtrair`:"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:60
 msgid "Write On Clear = existing alpha mask is overwritten"
-msgstr ""
+msgstr "Gravar ao Limpar = a máscara do alfa existente é substituída"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:61
 msgid "Max = maximum( existing alpha mask, mask generated by this filter)"
-msgstr ""
+msgstr "Máx = máximo( máscara alfa existente, máscara gerada por este filtro)"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:62
 msgid "Min = minimum(existing alpha mask, mask generated by this filter)"
-msgstr ""
+msgstr "Mín = mínimo( máscara alfa existente, máscara gerada por este filtro)"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:63
 msgid "Add = existing alpha mask + mask generated by this filter"
-msgstr ""
+msgstr "Adicionar = máscara alfa existente + máscara gerada por este filtro"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:64
 msgid "Subtract = existing alpha mask - mask generated by this filter"
-msgstr ""
+msgstr "Subtrair = máscara alfa existente - máscara gerada por este filtro"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:66
 msgid "See the worked examples below to understand what these operations do."
 msgstr ""
+"Veja os exemplos trabalhados em baixo para compreender o que fazem estas "
+"operações."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:69
 msgid "Min and Max Operations - Worked examples"
-msgstr ""
+msgstr "Operações de Mín e Máx - Exemplos funcionais"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:75
 msgid ""
 "These examples are performed on a simple composite transition with a video "
 "file on Video track 1 and a color clip (yellow) on Video track 2."
 msgstr ""
+"Estes exemplos são aplicados sobre uma transição por composição simples com "
+"um ficheiro de vídeo na faixa de vídeo 1 e um 'clip' de cor (amarela) na "
+"faixa de vídeo 2."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:77
 msgid ""
@@ -151,6 +179,10 @@ msgid ""
 "whole frame transparent except for an area of opaqueness where the top image "
 "can be seen."
 msgstr ""
+"O efeito das formas do alfa desenha áreas de opacidade na imagem. A adição "
+"deste filtro (com os valores predefinidos de Mín = 0 e Máx =1000) torna a "
+"imagem completamente transparente, excepto numa área opaca, onde poderá ver "
+"a imagem de topo."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:79
 msgid ""
@@ -158,10 +190,13 @@ msgid ""
 "of the shape respectively. A setting of 1000 is 100% opaque. A setting of "
 "zero is 0% opaque (i.e., 100% transparent)."
 msgstr ""
+"Os controlos Máx e Mín ajustam a opacidade da imagem dentro e fora da forma, "
+"respectivamente. Um valor de 1000 é 100% opaco. Um valor de 0 é 0% opaco (i."
+"e., 100% transparente)."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:81
 msgid "**Max control**"
-msgstr ""
+msgstr "**Controlo do Máx**"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:87
 msgid ""
@@ -169,22 +204,28 @@ msgid ""
 "it is completely opaque inside the shape and nothing of the background image "
 "shows through."
 msgstr ""
+"O controlo do Máx regula quão opaco fica dentro da forma. Com o Máx = 1000, "
+"fica completamente opaco dentro da forma e nada da imagem de fundo aparece."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:93
 msgid ""
 "At Max = 500 it is semi-transparent inside the shape and you can see the "
 "background bleeding through."
 msgstr ""
+"Com Máx = 500 fica semi-transparente dentro da forma e consegue ver o fundo "
+"a aparecer através dele."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:99
 msgid ""
 "At Max = 0 inside the shape is completely transparent - the same as the rest "
 "of the foreground image - and you can see all background."
 msgstr ""
+"Com Máx = 0 dentro da forma fica completamente transparente - o mesmo que o "
+"resto da imagem principal - e consegue ver todo o fundo."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:101
 msgid "**Min Control**"
-msgstr ""
+msgstr "**Controlo do Mín**"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:107
 msgid ""
@@ -192,16 +233,21 @@ msgid ""
 "outside the shape is completely transparent (opacity of zero) and at Min = "
 "500 we see something of the foreground appears outside the shape."
 msgstr ""
+"O controlo do Mín regula quão opaco fica fora da forma. Com o Mín = 0, fica "
+"completamente transparente fora da forma e com Mín = 500 conseguimos ver "
+"alguma coisa da imagem principal fora da forma."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:113
 msgid ""
 "At Min = 1000 the opacity outside the shape is 100% and nothing of the "
 "background appears."
 msgstr ""
+"Com o Mín = 1000, fica completamente opaco fora da forma e nada da imagem de "
+"fundo aparece."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:115
 msgid "**Combining Alpha Shapes - Operations**"
-msgstr ""
+msgstr "**Combinar as Formas do Alfa - Operações**"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:121
 msgid ""
@@ -209,55 +255,69 @@ msgid ""
 "at the top of the effect stack with operation :menuselection:`Write on "
 "clear`."
 msgstr ""
+"Neste exemplo, temos uma forma de alfa em Triângulo, definida como aparece, "
+"estando a mesma no topo da pilha de efeitos com a operação :menuselection:"
+"`Gravar ao limpar`."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:127
 msgid "Which appears like this on its own."
-msgstr ""
+msgstr "O que aparece assim, por si só."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:133
 msgid ""
 "And I have Rectangle alpha shape as shown which is at the bottom of the "
 "effect stack. Note the Max = 500 - i.e., 50% opacity inside the rectangle."
 msgstr ""
+"E temos uma forma de alfa em Rectângulo visível no fundo da pilha de "
+"efeitos. Repare no Máx = 500 - i.e., 50% opacidade dentro do rectângulo."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:139
 msgid "Which appears like this when on its own."
-msgstr ""
+msgstr "O que aparece assim quando está por si só."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:141
 msgid ""
 "In the images below I demonstrate the effect of different alpha operations "
 "on the Rectangle alpha shape."
 msgstr ""
+"Nas imagens abaixo, foi demonstrado o efeito das diferentes operações do "
+"alfa sobre a forma de alfa do Rectângulo."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:147
 msgid "Write on Clear - the existing alpha mask is overwritten"
-msgstr ""
+msgstr "Gravar ao Limpar - a máscara de alfa existente é substituída"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:153
 msgid "add = existing alpha mask + mask generated by this filter."
-msgstr ""
+msgstr "adicionar = máscara alfa existente + máscara gerada por este filtro."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:155
 msgid ""
 "Note that areas with 1000 + 500 opacity would be 150% opaque. But you cant "
 "get 150% opaque so they look the same as the 100% opaque areas."
 msgstr ""
+"Repare que as áreas com 1000 + 500 de opacidade seriam 150% opacas. Mas não "
+"é possível obter 150% de opacidade, pelo que ficarão iguais às 100% opacas."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:161
 msgid "subtract = existing alpha mask - mask generated by this filter."
-msgstr ""
+msgstr "subtrair = máscara alfa existente - máscara gerada por este filtro."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:163
 msgid ""
 "Note that areas with 0 - 500 opacity would be minus 50% opaque. But you cant "
 "get -50% opaque so they look the same as the 0% opaque areas."
 msgstr ""
+"Repare que as áreas com opacidade de 0 - 500 ficariam -50% opacas. Mas não é "
+"possível obter uma opacidade de -50%, pelo que ficam iguais às áreas 0% "
+"opacas."
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:169
 msgid "max = maximum( <existing alpha mask> , <mask generated by this filter>)"
 msgstr ""
+"máx = máximo( <máscara alfa existente>, <máscara gerada por este filtro>)"
 
 #: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:175
 msgid "min = minimum( <existing alpha mask> , <mask generated by this filter>)"
 msgstr ""
+"mín = mínimo( <máscara alfa existente>, <máscara gerada por este filtro>)"

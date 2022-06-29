@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-01 00:38+0000\n"
-"PO-Revision-Date: 2022-06-27 00:50+0100\n"
+"PO-Revision-Date: 2022-06-28 01:12+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,7 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-POFile-SpellExtra: IPS FullHD clip ips clips\n"
+"X-POFile-SpellExtra: IPS FullHD clip ips clips Protune guilabel\n"
+"X-POFile-SpellExtra: menuselection kbd Return preview on trá\n"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:13
 msgid "Timeline preview rendering"
@@ -34,10 +35,21 @@ msgid ""
 "don’t need to leave Kdenlive, as you would need when rendering your timeline "
 "to an traditional video file."
 msgstr ""
+"**A geração da antevisão da linha temporal é uma funcionalidade espantosa do "
+"Kdenlive**. Estreou-se oficialmente na versão 16.08. A geração da antevisão "
+"permite-lhe gerar partes da sua linha temporal completa em segundo plano, "
+"para que a possa reproduzir suavemente de novo. Isto é especialmente útil "
+"quando trabalhar com composições de faixas complexas ou usar efeitos que são "
+"computacionalmente intensivos. Em vez de uma reprodução intermitente, passa "
+"a ter uma reprodução mais suave. Desta forma, poderá verificar se a "
+"temporização das imagens-chave e dos efeitos está a resultar correctamente. "
+"E não precisa de sair do Kdenlive, como teria de o fazer ao desenhar a sua "
+"linha temporal num ficheiro de vídeo tradicional."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:20
 msgid "Full-FPS Preview of Effect-Heavy Timeline Stuff"
-msgstr "Antevisão em IPS Completos das Partes Pesadas em Efeitos da Linha Temporal"
+msgstr ""
+"Antevisão em IPS Completos das Partes Pesadas em Efeitos da Linha Temporal"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:29
 msgid ""
@@ -45,13 +57,21 @@ msgid ""
 "rendering is this: say, you have some FullHD source footage. Raw, your "
 "system easily plays this clip back at its original frame rate of 25fps. This "
 "isn’t even a job for proxy clips on a decent system."
-msgstr "**Filmagens originais em bruto**: um bom exemplo da nova geração da antevisão da linha temporal é este: imagine que tem algumas filmagens originais em FullHD. Em bruto, o seu sistema consegue reproduzir facilmente este 'clip' na sua taxa original de 25ips. Nem sequer é matéria para 'clips' indirectos num sistema decente."
+msgstr ""
+"**Filmagens originais em bruto**: um bom exemplo da nova geração da "
+"antevisão da linha temporal é este: imagine que tem algumas filmagens "
+"originais em FullHD. Em bruto, o seu sistema consegue reproduzir facilmente "
+"este 'clip' na sua taxa original de 25ips. Nem sequer é matéria para 'clips' "
+"indirectos num sistema decente."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:31
 msgid ""
 "But you may have already suspected: this raw footage is in dire need of some "
 "serious processing before it can be shown to any audience…"
-msgstr "Mas como poderá já ter suspeitado: estas filmagens em bruto têm grandes necessidades de algum processamento a sério antes de poderem ser apresentadas a alguma audiência…"
+msgstr ""
+"Mas como poderá já ter suspeitado: estas filmagens em bruto têm grandes "
+"necessidades de algum processamento a sério antes de poderem ser "
+"apresentadas a alguma audiência…"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:40
 msgid ""
@@ -60,6 +80,11 @@ msgid ""
 "And then, we also have to decompress the tonal curve (Protune, y’know). "
 "Wait, there’s more: saturation needs to be corrected too (again, Protune)."
 msgstr ""
+"**Agora vamos ficar cheios de efeitos**. Para produção, é preciso remover o "
+"efeito de olho de peixe da filmagem. Depois da remoção deste efeito, é "
+"preciso algum afiamento para melhor a nitidez. E depois, teremos de "
+"descomprimir a curva de tonalidades (Protune, já sabe). Espere, ainda há "
+"mais: a saturação também tem de ser corrigida (mais uma vez, Protune)."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:42
 msgid ""
@@ -67,6 +92,9 @@ msgid ""
 "shown in the bottom right corner of the monitor: dismal six frames per "
 "second! It crawls."
 msgstr ""
+"Com estes quatro efeitos inocentes aplicados, veja a taxa de reprodução que "
+"é apresentada no canto inferior direito do monitor: umas simples seis "
+"imagens por segundo! Arrasta-se."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:44
 msgid ""
@@ -74,14 +102,18 @@ msgid ""
 "res and low-quality variants of the source clips, without any effects "
 "applied. So our effects will slow down also proxy clips considerably."
 msgstr ""
+"Infelizmente, os 'clips' indirectos não ajudam nesta situação: os 'clips' "
+"indirectos são variantes de resolução e qualidade mais baixas que os 'clips' "
+"originais, sem quaisquer efeitos aplicados. Como tal, os nossos efeitos "
+"também irão tornar mais lentos os 'clips' indirectos de forma considerável."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:46
 msgid "You need timeline preview rendering."
-msgstr ""
+msgstr "É preciso gerar o desenho da antevisão da linha temporal."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:51
 msgid "HowTo: Timeline Preview Rendering"
-msgstr ""
+msgstr "Como: Gerar a Antevisão da Linha Temporal"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:53
 msgid ""
@@ -89,6 +121,10 @@ msgid ""
 "editing. It speeds up the timeline playback. Why should you need that? For "
 "instance, to check the correct timing of keyframed effects and transitions."
 msgstr ""
+"**Lembre-se por favor**: a geração da antevisão da linha temporal **não** "
+"acelera a reprodução da linha temporal. Porque é que precisa disso? Por "
+"exemplo, para ver os tempos correctos dos efeitos e transições sobre as "
+"imagens-chave."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:55
 msgid ""
@@ -97,6 +133,10 @@ msgid ""
 "rendering. In particular, you can make audio changes at any time without "
 "affecting preview rendering."
 msgstr ""
+"A geração da antevisão só cobre a geração da parte de vídeo da linha "
+"temporal. Em contraste, o Kdenlive gera o áudio sempre de forma independente "
+"da geração da antevisão. Em particular, poderá fazer alterações no áudio em "
+"qualquer altura sem afectar a geração da antevisão."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:64
 msgid ""
@@ -105,30 +145,40 @@ msgid ""
 "most of the menu items also in the main menu :menuselection:`Timeline --> "
 "Timeline Preview --> …`"
 msgstr ""
+"A geração da antevisão da linha temporal é melhor controlada se usar o menu "
+"dedicado da :guilabel:`Antevisão da Linha Temporal` na barra da linha "
+"temporal. Para além disso, poderá encontrar a maioria dos itens do menu "
+"também no menu principal :menuselection:`Linha Temporal --> Antevisão da "
+"Linha Temporal --> …`"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:69
 msgid "Step 1: Set Preview Zone"
-msgstr ""
+msgstr "Passo 1: Definir a Zona de Antevisão"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:78
 msgid ""
 "Set the timeline zone in (:kbd:`I`) and out (:kbd:`O`) points for the zone "
 "you want to render for preview."
 msgstr ""
+"Defina a zona da linha temporal com os pontos de entrada (:kbd:`I`) e saída "
+"(:kbd:`O`) da zona que deseja gerar para a antevisão."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:80
 msgid ""
 "Next, select :guilabel:`Add Preview Zone` (alternatively, :menuselection:"
 "`Timeline --> Timeline Preview --> Add Preview Zone`)."
 msgstr ""
+"Em seguida, seleccione a opção para :guilabel:`Adicionar uma Zona de "
+"Antevisão` (em alternativa, use a opção :menuselection:`Linha Temporal --> "
+"Antevisão da Linha Temporal --> Adicionar uma Zona de Antevisão`)."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:83
 msgid "For the first time, you won’t see any change yet."
-msgstr ""
+msgstr "Para a primeira vez, não irá ver nenhuma alteração ainda."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:88
 msgid "Step 2: Render Preview Zone in Background"
-msgstr ""
+msgstr "Passo 2: Gerar a Zona de Antevisão em Segundo Plano"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:97
 msgid ""
@@ -136,10 +186,15 @@ msgid ""
 "> Start Preview Render`). Or press :kbd:`Shift + Return`. Or click on |"
 "preview-render-on|."
 msgstr ""
+"Seleccione a opção para Iniciar a Geração da Antevisão (:menuselection:"
+"`Linha Temporal --> Antevisão da Linha Temporal --> Iniciar o Desenho da "
+"Antevisão`), ou carregue em :kbd:`Shift + Return`. Pode ainda carregar em |"
+"preview-render-on|."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:101
 msgid "You can even add multiple, non-continuous preview rendering zones."
 msgstr ""
+"Poderá até adicionar várias zonas de desenho da antevisão não contínuas."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:103
 msgid ""
@@ -147,6 +202,10 @@ msgid ""
 "between the timeline ruler and the topmost track. As background rendering "
 "progresses, this bar will slowly turn green, chunk by chunk."
 msgstr ""
+"Irá aparecer uma barra vermelha (se não tiver sido já apresentada): localiza-"
+"se à direita, entre a régua da linha temporal e a faixa de topo. À medida "
+"que o desenho em segundo plano evolui, esta barra vai-se tornando lentamente "
+"verde, bloco a bloco."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:105
 msgid ""
@@ -155,16 +214,23 @@ msgid ""
 "touch your preview zones, rendering will stop, and the affected preview "
 "zones turn back to red. Simply restart rendering, if you need."
 msgstr ""
+"Poderá continuar a trabalhar em qualquer parte da sua linha temporal "
+"enquanto a geração da antevisão estiver activa. Contudo, assim que editar os "
+"'clips' ou as transições que alteram as suas zonas de antevisão, a geração "
+"irá parar e as zonas da antevisão afectadas ficarão de novo vermelhas. Basta "
+"reiniciar a geração do vídeo, se necessitar."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:107
 msgid ""
 "The preview is divided into chunks, where each is 25 frames in size; this "
 "corresponds with 1s of playback length for 25fps projects."
 msgstr ""
+"A antevisão está dividida em blocos, onde cada um tem 25 imagens de tamanho; "
+"isto corresponde a 1 segundo de reprodução para projectos em 25 ips."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:112
 msgid "Step 3: Enjoy Smooth Timeline Preview!"
-msgstr ""
+msgstr "Passo 3: Desfrutar da Antevisão Suave da Linha Temporal!"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:121
 msgid ""
@@ -172,12 +238,19 @@ msgid ""
 "should immediately notice that scrubbing such timeline zones will be much "
 "faster too."
 msgstr ""
+"Todos os blocos verdes da sua linha temporal serão agora reproduzidos a toda "
+"a velocidade. Deverá notar de imediato que deslocar o cursor sobre estas "
+"zonas da linha temporal também será muito mais rápido."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:130
 msgid ""
 "Timeline playback is now full 25fps, even as the corresponding timeline clip "
 "makes heave use of effects (especially de-fish is computational intensive)."
 msgstr ""
+"A reprodução da linha temporal está agora a 25 ips completos, mesmo que o "
+"'clip' correspondente na linha temporal tire partido intensivo dos efeitos "
+"(especialmente a remoção do efeito de olho-de-peixe é extremamente pesada a "
+"nível computacional)."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:135
 msgid "Notes"
@@ -185,7 +258,7 @@ msgstr "Notas"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:138
 msgid "Smart Preview Undo/Redo"
-msgstr ""
+msgstr "Desfazer/Refazer a Antevisão de Forma Inteligente"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:140
 msgid ""
@@ -193,10 +266,14 @@ msgid ""
 "check out the results of a two different effect settings by quickly undoing "
 "and redoing the effect change without having to render anew the preview."
 msgstr ""
+"O Kdenlive é inteligente o suficiente para suportar alguns níveis de "
+"operações para desfazer/refazer. Como tal, poderá ver os resultados de duas "
+"configurações diferentes dos efeitos, desfazendo rapidamente e refazendo a "
+"mudança do efeito sem ter de gerar de novo a antevisão."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:144
 msgid "Preview Cache Storage"
-msgstr ""
+msgstr "Armazenamento da 'Cache' da Antevisão"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:153
 msgid ""
@@ -204,6 +281,10 @@ msgid ""
 "timeline preview. Use :menuselection:`Project --> Project Settings`, then "
 "select the tab :guilabel:`Cache Data`."
 msgstr ""
+"Poderá descobrir facilmente quanto armazenamento está a usar de momento na "
+"antevisão da linha temporal. Use a opção :menuselection:`Projecto --> "
+"Configuração do Projecto` e seleccione depois a página :guilabel:`Dados em "
+"Cache`."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:155
 msgid ""
@@ -212,10 +293,14 @@ msgid ""
 "preview: simply click on the :guilabel:`trash` button next to row **Timeline "
 "Preview**."
 msgstr ""
+"Irá agora ver uma imagem bonita que ilustra o consumo de espaço em disco dos "
+"dados em 'cache'. Em qualquer altura, poderá remover rapidamente os dados em "
+"'cache' usados para a antevisão da linha temporal: basta carregar no botão "
+"do :guilabel:`lixo` a seguir à **Antevisão da Linha Temporal**."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:160
 msgid "Preview Profiles"
-msgstr ""
+msgstr "Perfis de Antevisão"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:169
 msgid ""
@@ -223,6 +308,9 @@ msgid ""
 "guilabel:`Auto`. Kdenlive then will select a suitable preview profile based "
 "on your project profile."
 msgstr ""
+"Na maior parte das vezes, deverá ser suficiente deixar o perfil da antevisão "
+"como :guilabel:`Auto`. O Kdenlive irá então seleccionar um perfil de "
+"antevisão adequado com base no perfil do seu projecto."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:171
 msgid ""
@@ -231,10 +319,15 @@ msgid ""
 "profile, or create your own preview profile. Use the :guilabel:`Manage "
 "timeline preview profiles` button next to the preview profile selection."
 msgstr ""
+"Em alguns casos raros, como por exemplo taxas de imagens anormais, ou quando "
+"quiser controlar a qualidade da codificação do desenho da antevisão, então "
+"poderá alterar o perfil de antevisão ou criar o seu próprio perfil de "
+"antevisão. Use o botão :guilabel:`Gerir os perfis de antevisão da linha "
+"temporal` a seguir à selecção do perfil de antevisão."
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:176
 msgid "De-synchronized Preview"
-msgstr ""
+msgstr "Antevisão não Sincronizada"
 
 #: ../../glossary/useful_information/timeline-preview-rendering.rst:178
 msgid ""
@@ -244,3 +337,10 @@ msgid ""
 "Zones`). This gets you back to a sane preview state. Then add the zone back "
 "again (using :guilabel:`Add Preview Zone`), and rerender."
 msgstr ""
+"Se por alguma razão o desenho gerado deixar de estar sincronizado com a "
+"edição da sua linha temporal, basta remover a zona de antevisão "
+"correspondente (:guilabel:`Remover a Zona de Antevisão`) ou todas as zonas "
+"de antevisão (:guilabel:`Remover Todas as Zonas de Antevisão`). Isto trá-lo "
+"de volta a um estado de antevisão estável. Depois adicione a zona de novo de "
+"volta (usando a opção :guilabel:`Adicionar uma Zona de Antevisão`) e volte a "
+"gerar o desenho."
