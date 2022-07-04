@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-01 00:38+0000\n"
-"PO-Revision-Date: 2022-07-02 18:55+0100\n"
+"PO-Revision-Date: 2022-07-03 10:45+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Clip clip clips MLT varrimentos Luma over atop ref\n"
+"X-POFile-SpellExtra: compositingwithtransparency Open Craig Northway\n"
+"X-POFile-SpellExtra: Porter Duff UV XOR\n"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:13
 msgid "Kdenlive transitions"
@@ -26,7 +29,11 @@ msgid ""
 "Depending on their background in video editing, users may find **Kdenlive "
 "transitions** somewhat confusing. Hopefully, this article clears up this "
 "confusion surrounding Kdenlive transitions, at least to some degree."
-msgstr "Dependendo dos seus conhecimentos de edição de vídeos, os utilizadores poderá achar as **transições do Kdenlive** ligeiramente confusas. Felizmente, este artigo esclarece algumas das confusões que envolvem as transições do Kdenlive, pelo menos em algum grau."
+msgstr ""
+"Dependendo dos seus conhecimentos de edição de vídeos, os utilizadores "
+"poderá achar as **transições do Kdenlive** ligeiramente confusas. "
+"Felizmente, este artigo esclarece algumas das confusões que envolvem as "
+"transições do Kdenlive, pelo menos em algum grau."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:19
 msgid "Kdenlive Transitions: 3-in-1"
@@ -36,7 +43,9 @@ msgstr "Transições do Kdenlive: 3-em-1"
 msgid ""
 "In Kdenlive, **transitions** can roughly be classified into three different "
 "types as follows:"
-msgstr "No Kdenlive, as **transições** poderão ser classificadas em três tipos diferentes, como se segue:"
+msgstr ""
+"No Kdenlive, as **transições** poderão ser classificadas em três tipos "
+"diferentes, como se segue:"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:24
 msgid "Type of Transition"
@@ -55,7 +64,10 @@ msgid ""
 "Gradually replaces one clip by another clip. Has exactly two implicit "
 "keyframes, for start and end. This is what many users usually understand "
 "transitions to be."
-msgstr "Gradualmente substitui um 'clip' por outro. Tem exactamente duas imagens-chave implícitas, uma para o início e outra para o fim. Isto é o que normalmente muitos utilizadores entendem por transições."
+msgstr ""
+"Gradualmente substitui um 'clip' por outro. Tem exactamente duas imagens-"
+"chave implícitas, uma para o início e outra para o fim. Isto é o que "
+"normalmente muitos utilizadores entendem por transições."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:30
 msgid "Dynamic Compositing"
@@ -66,7 +78,10 @@ msgid ""
 "For combining two clips, and the way of combination may vary with time. "
 "Supports user-defined keyframes that allow to control at least certain "
 "parameters."
-msgstr "Para combinar dois 'clips', e a forma de composição poderá variar ao longo do tempo. Suporta imagens-chave definidas pelo utilizador que permitem controlar pelo menos certos parâmetros."
+msgstr ""
+"Para combinar dois 'clips', e a forma de composição poderá variar ao longo "
+"do tempo. Suporta imagens-chave definidas pelo utilizador que permitem "
+"controlar pelo menos certos parâmetros."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:34
 #: ../../glossary/useful_information/kdenlive-transitions.rst:151
@@ -78,7 +93,11 @@ msgid ""
 "For combining two clips in a constant, static way: much like you see layer "
 "compositing in image tools. As no keyframes are supported, this type of "
 "compositing is static, thus invariant of time."
-msgstr "Para combinar dois 'clips' de uma forma constante e estática: é muito parecido com o que está habituado com a composição de camadas nas ferramentas de imagens. Como não são suportadas imagens-chave, este tipo de composição é estático, ou seja, não varia ao longo do tempo."
+msgstr ""
+"Para combinar dois 'clips' de uma forma constante e estática: é muito "
+"parecido com o que está habituado com a composição de camadas nas "
+"ferramentas de imagens. Como não são suportadas imagens-chave, este tipo de "
+"composição é estático, ou seja, não varia ao longo do tempo."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:39
 msgid ""
@@ -87,7 +106,7 @@ msgid ""
 ">`_. MLT does all the video and audio processing according in your timeline. "
 "In the MLT universe, transitions basically «merge» video frames from upper "
 "tracks with video frames from lower tracks, producing result frames."
-msgstr ""
+msgstr "Historicamente, o Kdenlive usou o termo **transição**, com o seu significado a 3 níveis, directamente do `motor multimédia MLT <https://mltframework.org/>`_. O MLT faz todo o processamento de vídeo e áudio de acordo com a sua linha temporal. No universo do MLT, as transições basicamente «reúnem» imagens de vídeo de faixas superiores com as faixas inferiores, produzindo imagens de resultado."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:41
 msgid ""
@@ -96,7 +115,13 @@ msgid ""
 "Kdenlive doesn’t even support such in-track transitions. Instead you need to "
 "place these clips on separate tracks, and then you add a Kdenlive transition "
 "for combining these clips in some clever way."
-msgstr "Por contraste, muitos utilizadores depararam-se na edição de vídeo que as transições são apenas um mecanismo para passar entre 'clips' adjacentes. Contudo, o Kdenlive nem sequer suporta esse tipo de transições na mesma faixa. Em vez disso, tem de colocar esses 'clips' em faixas separadas e depois então adicionar uma transição do Kdenlive para combinar esses 'clips' de alguma forma hábil."
+msgstr ""
+"Por contraste, muitos utilizadores depararam-se na edição de vídeo que as "
+"transições são apenas um mecanismo para passar entre 'clips' adjacentes. "
+"Contudo, o Kdenlive nem sequer suporta esse tipo de transições na mesma "
+"faixa. Em vez disso, tem de colocar esses 'clips' em faixas separadas e "
+"depois então adicionar uma transição do Kdenlive para combinar esses 'clips' "
+"de alguma forma hábil."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:45
 msgid "1. Clip-to-Clip Transitions"
@@ -107,35 +132,42 @@ msgid ""
 "Let’s start with those **archetypical transitions** most users would "
 "probably expect when they hear the word *transition*: the dissolve, slide, "
 "and wipe transitions. See for yourself…"
-msgstr "Comecemos por aquelas **transições típicas** que a maioria dos utilizadores estaria provavelmente à espera quando ouvem falar da palavra *transição*: as transições de dissolução, deslizamento e varrimento. Veja por si…"
+msgstr ""
+"Comecemos por aquelas **transições típicas** que a maioria dos utilizadores "
+"estaria provavelmente à espera quando ouvem falar da palavra *transição*: as "
+"transições de dissolução, deslizamento e varrimento. Veja por si…"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:56
 msgid ""
 "**Dissolve**: gradually transitions from one clip to another. So it’s kind "
 "of fading between the two clips. (See also the Wikipedia article on "
 "`Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
-msgstr "**Dissolução**: transita gradualmente de um 'clip' para outro. Como tal, é uma espécie de desvanecimento entre os dois 'clips'. (Veja também o artigo da Wikipédia sobre a `Dissolução. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
+msgstr ""
+"**Dissolução**: transita gradualmente de um 'clip' para outro. Como tal, é "
+"uma espécie de desvanecimento entre os dois 'clips'. (Veja também o artigo "
+"da Wikipédia sobre a `Dissolução. <https://en.wikipedia.org/wiki/Dissolve_"
+"%28filmmaking%29>`_)"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:65
 msgid ""
 "**Slide**: gradually replaces one clip by another clip, by traveling from "
 "one side of the frame to another (See also the Wikipedia article on `Wipe "
 "<https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
-msgstr ""
+msgstr "**Deslizamento**: substitui gradualmente um 'clip' po outro, viajando de um lado da imagem para o outro (veja também o artigo sobre o `Varrimento <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:74
 msgid ""
 "**Wipe**: one clip gradually replaces another clip, often in form of some "
 "shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/"
 "wiki/Wipe_%28transition%29>`_.)"
-msgstr ""
+msgstr "**Varrimento**: um 'clip' substitui gradualmente o outro, normalmente sob alguma determinada forma. (Veja também o artigo da Wikipédia sobre o `Varrimento <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:78
 msgid ""
 "These three transitions don’t offer any (user-) keyframes. Instead, their "
 "*start* and *end* keyframes are *implicit* and fixed to the *start* and "
 "*end* of the transition respectively."
-msgstr ""
+msgstr "Estas três transições não oferecem nenhumas imagens-chave (definidas pelo utilizador). Em vez disso, as suas imagens-chave de *início* e *fim* são *implícitas* e fixadas no *início* e *fim* da transição, respectivamente."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:80
 msgid ""
@@ -146,7 +178,7 @@ msgid ""
 "transition parameter **Reverse** allows you to switch the track roles: if "
 "**Reverse** is checked, then these transitions change from the lower track "
 "to the upper track, as time progresses."
-msgstr ""
+msgstr "**Dado que o Kdenlive usa sempre duas faixas separadas para as transições**, existe uma particularidade a notar: normalmente, à medida que o tempo avança na linha temporal, estas transições mudam (ou desvanecem de alguma forma) do 'clip' na faixa superior para o da faixa inferior. O estranho parâmetro da transição **Inverso** permite-lhe trocar os papéis das faixas: se a opção **Inverso** estiver assinalada, então estas transições mudam da faixa inferior para a superior, à medida que o tempo avança."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:82
 msgid "Simply put:"
@@ -154,15 +186,15 @@ msgstr "De forma simples:"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:84
 msgid "▼ **Reverse off**: transition from upper track to ▼ lower track."
-msgstr ""
+msgstr "▼ **Inverso desligado**: transição da faixa superior para a ▼ faixa inferior."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:86
 msgid "▲ **Reverse on**: transition from lower track to ▲ upper track instead."
-msgstr ""
+msgstr "▲ **Inverso ligado**: transição da faixa inferior para a ▲ faixa superior, em alternativa."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:89
 msgid "2. Dynamic Compositing Transitions"
-msgstr ""
+msgstr "2. Transições de Composição Dinâmicas"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:94
 msgid ""
@@ -170,7 +202,7 @@ msgid ""
 "Actually, even this simple compositing can get you a long way in many "
 "projects (as the above screenshot may hint at). Kdenlive currently offers "
 "the following (keyframable) compositing transitions:"
-msgstr ""
+msgstr "Até certo ponto, o Kdenlive suporta a composição (simples) na sua linha temporal. De facto, até mesmo esta composição simples poderá ser uma grande ajuda em vários projectos (como poderá sugerir a imagem acima). O Kdenlive oferece de momento as seguintes transições de composição (com imagens-chave):"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:96
 msgid ""
@@ -179,21 +211,21 @@ msgid ""
 "is slower than other complex transitions (due to the affine transformation), "
 "and it doesn’t support wipes (which only **Composite** and **Region** "
 "support in this class of transitions)."
-msgstr ""
+msgstr "**Afim** – permite ajustar o tamanho, rodar, inclinar e posicionar. Em conjunto com as imagens-chave, esta transição é realmente versátil. Os seus únicos problemas são: é mais lenta que as outras transições complexas (devido à transformação afim), e não suporta varrimentos (que só a **Composição** e a **Região** suportam nesta classe de transições)."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:97
 msgid ""
 "**Cairo Blend** – a simple compositing transition, supporting several "
 "compositing modes. In addition, the opacity of the upper frames can be "
 "controlled. This transition also supports keyframes."
-msgstr ""
+msgstr "**Mistura do Cairo** – uma transição de composição simples, que suporta vários modos de composição. Para além disso, é possível controlar a opacidade das imagens superiores. Esta transição também suporta as imagens-chave."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:98
 msgid ""
 "**Cairo Affine Blend** – this has the functionality of both **Affine** and "
 "**Composite**: position, rotate (you can even control the center of "
 "rotation!), and finally skew. And all this is keyframable."
-msgstr ""
+msgstr "**Mistura do Cairo Afim** – Tem a funcionalidade de ambas as transformações **Afim** e **Composição**: posição, rotação (até poderá controlar o centro da rotação!) e finalmente a inclinação. E tudo isto permite a definição das imagens-chave."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:99
 msgid ""
@@ -202,7 +234,7 @@ msgid ""
 "or skewing. The downsides of Composite are: luma bleed, and less precise "
 "position control. When compared to Affine, the Composite transition is much "
 "faster, albeit at the cost of luma bleed."
-msgstr ""
+msgstr "**Composição** – permite dissoluções, varrimentos e deslizamentos com imagens-chave - tudo isto na mesma transição. Em contraste com a transição Afim, não suporta a rotação ou a inclinação. Os problemas da Composição são: dispersão do Luma e um controlo da posição menos preciso. Em comparação com a Afim, a transição por Composição é muito mais rápida, ainda que seja à custa da dispersão do Luma."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:100
 msgid ""
@@ -212,14 +244,14 @@ msgid ""
 "track clips. However, there is neither support for scaling, nor for "
 "rotation, but for dynamic opacity. But keyframes are supported. In those "
 "situations, use **Affine** or **Cairo Affine Blend** instead."
-msgstr ""
+msgstr "**Composição & Transformação** – esta é uma transição relativamente nova que teve a sua estreia no Kdenlive 16.04. Permite uma composição simples dos 'clips' uns com os outros (com vários modos de composição suportados), assim como mover os 'clips' da faixa superior. Contudo, não existe suporta para a escala, nem para a rotação - só mesmo para a opacidade dinâmica. Contudo, são suportadas as imagens-chave. Nessas situações, use as transições **Afim** ou **Mistura do Cairo Afim** em alternativa."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:101
 msgid ""
 "**Region** – like **Composite**, but restricted to a region in form of a "
 "matte. In the **Region** transition properties, this matte is called the "
 "**Transparency clip**."
-msgstr ""
+msgstr "**Região** – como a **Composição**, mas restrita apenas a uma região sob a forma de um 'mate'. Nas propriedades da transição da **Região**, este 'mate' é chamado de **clip da Transparência**."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:103
 msgid ""
@@ -227,11 +259,11 @@ msgid ""
 "probably too much choice. A non-representative poll in our official Kdenlive "
 "G+ community showed that **Composite is used the most often**, followed by "
 "**Composite & Transform** and **Affine**."
-msgstr ""
+msgstr "**Facto Engraçado**: De facto, o MLT e o Kdenlive oferecem uma grande gama de escolhas aqui; talvez opções a mais. Um inquérito não-representativo na nossa comunidade de G+ oficial do Kdenlive mostrou que a **Composição é usada com maior frequência**, seguida da **Composição & Transformação** e a transformação **Afim**."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:108
 msgid "Compositing with Transparency"
-msgstr ""
+msgstr "Composição com Transparência"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:110
 msgid ""
@@ -242,7 +274,7 @@ msgid ""
 "mode (paint) *over* – which is what probably most users need when "
 "compositing. In contrast, **Affine** uses the atop alpha compositing "
 "strategy that can drive unexpected users mad. But see for yourself…"
-msgstr ""
+msgstr "a **Composição & Transformação** são a nova transição favorita do Kdenlive, dado que tornará a vida muito mais fácil para muita gente, se não for para a maioria dos utilizadores do Kdenlive. Em comparação com a **Afim**, esta nova transição é também mais rápida nos casos normais de composição. Para além disso, a **Composição & Transformação** muda para o modo de composição do alfa (pintura) *over* –  que é provavelmente o que a maioria dos utilizadores irá precisar na composição. Em contraste, a transição **Afim** usa a estratégia de composição do alfa *atop*, que poderá deixar os utilizadores confusos de forma inesperada. Mas veja por si…"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:119
 msgid ""
@@ -251,7 +283,7 @@ msgid ""
 "track. Hence the name of this compositing mode: over. Please note: in the "
 "transition properties, this mode is to be found as **Compositing**: **Alpha "
 "Blend** instead."
-msgstr ""
+msgstr "**Composição & Transformação**: se a imagem da faixa superior for semi-transparente ou não-transparente, será pintada sobre a imagem da faixa inferior. Daí o nome deste modo de composição: *over* (sobre). Lembre-se por favor: nas propriedades da transição este modo estará apresentado como **Composição**: **Mistura do Alfa** em alternativa."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:121
 msgid ""
@@ -259,7 +291,7 @@ msgid ""
 "use the same over compositing strategy, as Composite & Transform does. For "
 "**Cairo Blend** and **Cairo Affine Blend** this **Blend mode** is called "
 "**Normal** instead."
-msgstr ""
+msgstr "Para além disso, a **Composição**, **Mistura do Cairo** e a **Mistura do Cairo Afim** usam também a mesma estratégia de composição, como acontece com a Composição & Transformação. Para a **Mistura do Cairo** e a **Mistura do Cairo Afim**, este **Modo de mistura** é chamado de **Normal** em alternativa."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:130
 msgid ""
@@ -268,27 +300,27 @@ msgid ""
 "simply gets completely ignored. In consequence, if your lower frame has "
 "regions of full transparency, whatever falls within them on the upper frame "
 "will be invisible! You can see this result also in the screenshot."
-msgstr ""
+msgstr "**Afim**: como regra de algibeira simples, a transparência é apenas controlada pela faixa *inferior*. Qualquer informação de transparência da faixa superior será completamente ignorada. Por consequência, se a sua imagem inferior tiver regiões com transparência completa, o que calhar dentro dela na imagem superior ficará invisível. Poderá ver este resultado também na imagem."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:132
 msgid ""
 "At least at this time, **Composite & Transform** does not support this alpha "
 "handling as **Affine** does."
-msgstr ""
+msgstr "Pelo menos nesta altura, a **Composição & Transformação** não suporta este tratamento do canal alfa como a transformação **Afim**."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:138
 msgid "Please see also for further information:"
-msgstr ""
+msgstr "Por favor consulte também, para obter mais informações:"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:140
 msgid "our separate Kdenlive article on :ref:`compositing_with_transparency`."
-msgstr ""
+msgstr "o nosso artigo separado do Kdenlive sobre a :ref:`compositing_with_transparency`."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:141
 msgid ""
 "the Wikipedia article on `alpha compositing <https://en.wikipedia.org/wiki/"
 "Alpha_compositing>`_."
-msgstr ""
+msgstr "o artigo do Wikipédia sobre a `composição do alfa <https://en.wikipedia.org/wiki/Alpha_compositing>`_."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:142
 msgid ""
@@ -305,7 +337,7 @@ msgstr ""
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:146
 msgid "3. Layer Compositing Transitions"
-msgstr ""
+msgstr "3. Transições de Composição das Camadas"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:148
 msgid ""
@@ -313,7 +345,7 @@ msgid ""
 "modes in image editors** (such as `GIMP <https://www.gimp.org/>`_`). **These "
 "static layer compositing transitions do not have any parameters at all**. "
 "This category actually has the most Kdenlive transitions to offer:"
-msgstr ""
+msgstr "Este terceiro tipo de transições do Kdenlive/MLT funcionam de **forma semelhante aos modos de camadas nos editores de imagens** (como o `GIMP <https://www.gimp.org/>`_`). **Estas transições de composições de camadas estáticas não têm quaisquer parâmetros de todo**. Esta categoria tem de facto a maioria das transições do Kdenlive como oferta:"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:154
 msgid "Addition"
@@ -321,15 +353,15 @@ msgstr "Adição"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:155
 msgid "Addition Alpha"
-msgstr ""
+msgstr "Adição do Alfa"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:156
 msgid "Burn"
-msgstr ""
+msgstr "Queimadura"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:157
 msgid "Color Only"
-msgstr ""
+msgstr "Apenas a Cor"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:158
 msgid "Darken"
@@ -341,7 +373,7 @@ msgstr "Diferença"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:160
 msgid "Divide"
-msgstr ""
+msgstr "Divisão"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:161
 msgid "Dodge"
@@ -349,11 +381,11 @@ msgstr "Desvio"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:162
 msgid "Grain Handling: Extract / Merge"
-msgstr ""
+msgstr "Tratamento do grão: Extracção / Junção"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:163
 msgid "Hardlight / Overlay"
-msgstr ""
+msgstr "Luz Forte / Sobreposição"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:164
 msgid "Hue"
@@ -365,11 +397,11 @@ msgstr "Aclarar"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:166
 msgid "Multiply"
-msgstr ""
+msgstr "Multiplicação"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:167
 msgid "Overlay / Hardlight"
-msgstr ""
+msgstr "Sobreposição / Luz Forte"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:168
 msgid "Saturation"
@@ -381,15 +413,15 @@ msgstr "Ecrã"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:170
 msgid "Softlight"
-msgstr ""
+msgstr "Luz Suave"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:171
 msgid "Substract"
-msgstr ""
+msgstr "Substrato"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:172
 msgid "UV Map"
-msgstr ""
+msgstr "Mapa de UV"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:173
 msgid "Value"
@@ -397,42 +429,42 @@ msgstr "Valor"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:174
 msgid "Video Quality Management"
-msgstr ""
+msgstr "Gestão da Qualidade do Vídeo"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:177
 msgid "Alpha Compositing"
-msgstr ""
+msgstr "Composição do Alfa"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:180
 msgid "Alpha atop"
-msgstr ""
+msgstr "Alfa 'atop'"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:181
 msgid "Alpha in"
-msgstr ""
+msgstr "Alfa à entrada"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:182
 msgid "Alpha out"
-msgstr ""
+msgstr "Alfa à saída"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:183
 msgid "Alpha over"
-msgstr ""
+msgstr "Alfa 'over'"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:184
 msgid "Alpha XOR"
-msgstr ""
+msgstr "Alfa XOR (OU exclusivo)"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:185
 msgid "Matte"
-msgstr ""
+msgstr "Mate"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:189
 msgid ""
 "Kdenlive’s (or, MLT’s) fixed compositing transitions don’t have a "
 "transparency parameter. To some extent, you may substitute the **Cairo "
 "Blend** transition, which has an opacity parameter."
-msgstr ""
+msgstr "O Kdenlive (ou o MLT) corrigiu as transições de composição não têm nenhum parâmetro de transparência. Até certo nível, poderá substituir a transição **Mistura do Cairo**, que tem um parâmetro de opacidade."
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:193
 msgid ""
@@ -443,8 +475,8 @@ msgid ""
 "to our limited developer resources, **in-track transitions are thus not on "
 "our near-term roadmap**. We will gladly accept coding help, so if you are "
 "willing to accept this challenge, please let us know!"
-msgstr ""
+msgstr "Os utilizadores perguntam com frequência o **suporte do Kdenlive para as transições dentro das próprias faixas** (Dissolução, Deslizamento, Varrimento). Infelizmente, devido à forma como funciona o motor multimédia do Kdenlive, o MLT, isto obriga a uma grande quantidade de código refeito, já para não falar em vários testes abrangentes para garantir a estabilidade esperada. Devido aos nossos recursos de desenvolvimento limitados, as **transições dentro das faixas não estão nas nossas prioridades a curto-prazo**. Aceitaremos com todo o gosto alguma ajuda no código, por isso, se estiver disposto a aceitar este desafio, por favor entre em contacto connosco!"
 
 #: ../../glossary/useful_information/kdenlive-transitions.rst:197
 msgid "In-track or same-track transition is implemented with Kdenlive 21.08."
-msgstr ""
+msgstr "A transição na própria faixa está implementada no Kdenlive 21.08."
