@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Freek de Kruijf <freekdekruijf@kde.nl>, 2021.
+# Ronald Stroethoff <stroe43@zonnet.nl>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-18 00:38+0000\n"
-"PO-Revision-Date: 2021-11-21 11:57+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-07-10 15:55+0200\n"
+"Last-Translator: Ronald Stroethoff <stroe43@zonnet.nl>\n"
+"Language-Team: vertalen\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.08.3\n"
+"X-Generator: Lokalize 20.04.2\n"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:13
 msgid "Adding meta data to mp4 video"
@@ -31,10 +32,20 @@ msgid ""
 "meta data to video files is … a nightmare. But don’t despair, as we’ve "
 "compiled some useful information for you!"
 msgstr ""
+"Het toevoegen van bruikbare informatie aan uw videobestanden – zoals titel,"
+" auteur(s), "
+"de productiedatum, en een korte omschrijving – kan erg behulpzaam zijn voor u"
+" zelf en uw klanten. Deze extra data – of *meta data* – kan worden gebruikt"
+" door mediaspelers voor de organisatie van uw videobestanden (als u hiervan"
+" veel heeft). Helaas, terwijl het toevoegen van dergelijke meta data aan"
+" audiobestanden recht toe"
+" recht aan is, is het toevoegen van zinvolle metadata aan videobestanden …"
+" een nachtmerrie. Maar wanhoop niet, omdat we voor u wat bruikbare informatie"
+" hebben samengesteld!"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:18
 msgid "Project Meta Data"
-msgstr ""
+msgstr "Project Meta Data"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:29
 msgid ""
@@ -42,12 +53,18 @@ msgid ""
 "a rendered file. Just go to :menuselection:`Project --> Project Settings`, "
 "then select the second tab named :guilabel:`Metadata`."
 msgstr ""
+"In Kdenlive kunt u de metagegevens opgeven die aan een gerendert bestand"
+" toegevoegd zou moeten worden. Ga daarvoor gewoon naar"
+" :menuselection:`Project --> Projectinstellingen`, "
+"en selecteer dan de tweede tab genaamd :guilabel:`Metadata`."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:31
 msgid ""
 "For your convenience, Kdenlive automatically adds the following four "
 "elements to each new project:"
 msgstr ""
+"Om het u makkelijk te maken, voegt Kdenlive automatisch de volgende vier"
+" elementen toe aan elk nieuw project:"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:33
 msgid "**title**."
@@ -58,10 +75,12 @@ msgid ""
 "**author** – doesn’t work for .mp4 containers, but for .mov containers; you "
 "may use **artist** instead with .mp4 containers."
 msgstr ""
+"**auteur** – werkt niet bij .mp4 containers, maar wel bij .mov containers; u"
+" kunt in plaats daarvan **artist** gebruiken bij .mp4 containers."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:35
 msgid "**copyright**."
-msgstr "**copyright**."
+msgstr "**Auteursrecht**."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:36
 msgid ""
@@ -71,16 +90,23 @@ msgid ""
 "can delete it, but it will automatically reappear. So simply ignore it … as "
 "ffmpeg does too."
 msgstr ""
+"**jaar** – merk op dat dit element niet werkt bij video dat naar MP4"
+" containers wordt gerenderd (zoals .mov en .mp4). Zie hieronder voor meer"
+" details. Gebruik in dat geval in de plaats daarvan een date-element. Oh, dit"
+" jaar-element is nogal vervelend ; u kan het verwijderen , maar het komt"
+" automatisch weer terug. Negeer het gewoon … net zoals ffmpeg dat ook doet."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:38
 msgid ""
 "But there are more elements that you actually may use with your MP4 "
 "containers."
 msgstr ""
+"Maar er zijn meer elementen die u wellicht wilt gebruiken bij uw MP4 "
+"containers."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:42
 msgid "MP4 Containers"
-msgstr ""
+msgstr "MP4 Containers"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:44
 msgid ""
@@ -90,6 +116,12 @@ msgid ""
 "of meta data, and even changes the allowed set from time to time. We will "
 "come back to this difference in a second."
 msgstr ""
+"Helaas zijn er meerdere concurrerende sets van metadata voor het werken met"
+" MP4 containers. De oudere standaard MP4 set is nogal beperkt welke extra"
+" metadata"
+" kan worden gebruikt. En dan is daar Apple iTunes, en daarmee komt een"
+" heleboel metadata, en van tijd tot tijd zelfs wijzigingen in wat is"
+" toegestaan. We komen op deze verschillen terug over een paar minuten."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:46
 msgid ""
@@ -106,6 +138,20 @@ msgid ""
 "blob/5a8b41b4a76fc6586ff6afff78e5f0aa7b25068a/libavformat/movenc."
 "c#L2996>`__). Luckily, you don’t need to dive into the source anymore."
 msgstr ""
+"Helaas is de informatie over welke metadata in welke situatie worden gebruikt"
+" nogal schaars, soms verouderd, en soms gewoon fout. "
+"Natuurlijk kan dit ook gelden voor dit artikel, maar ik heb veel moeite"
+" gespendeerd in het dubbel checken in het echte leven. Omdat Kdenlive "
+" `ffmpeg <https://"
+"www.ffmpeg.org/>`_ voor het coderen gebruikt, zou men denken dat er voldoende"
+" informatie beschikbaar is – helaas, dat is niet het geval, en de schaarse"
+" informatie is soms gewoon fout. Op een bepaalt moment, rest mij niets anders"
+" dan het bestuderen van de broncode om uit te vinden welke welke zogeheten"
+" MP4 atoms daadwerkelijk in gebruik zijn en via welke element namen (de magie"
+" vindt plaats in "
+"`mov_write_ilst_tag()` in `moveenc.c <https://github.com/FFmpeg/FFmpeg/"
+"blob/5a8b41b4a76fc6586ff6afff78e5f0aa7b25068a/libavformat/movenc."
+"c#L2996>`__). Gelukkig hoeft u niet meer in de broncode te duiken."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:48
 msgid ""
@@ -114,16 +160,24 @@ msgid ""
 "Interleave <https://en.wikipedia.org/wiki/Audio_Video_Interleave>`_ (.avi), "
 "support yet other sets of meta data elements. So, variance galore!"
 msgstr ""
+"Merk tenslotte op dat andere container formaten, zoals `Matroska "
+"<https://en.wikipedia.org/wiki/Matroska>`_ (.mkv) of *cough* `Audio Video "
+"Interleave <https://en.wikipedia.org/wiki/Audio_Video_Interleave>`_ (.avi), "
+"weer andere sets van metadata elements gebruiken. Daarom dus lang leve de"
+" variatie!"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:51
 msgid "Ffmpeg Supported MP4 Container Meta Information"
-msgstr ""
+msgstr "Door Ffmpeg ondersteunde MP4 Container Meta Informatie"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:53
 msgid ""
 "But now for the real meat: here come the available meta data elements that "
 "ffmpeg supports."
 msgstr ""
+"En dan nu het echte werk: hier komen de beschikbare metadata elementen"
+" waarmee "
+"ffmpeg overweg kan."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:55
 msgid ""
@@ -131,6 +185,9 @@ msgid ""
 "column in the table below as the metadata keys in Kdenlive’s Project "
 "Metadata dialog!"
 msgstr ""
+"Merk op dat u de ffmpeg metadata keys van de tweede kolom in de tabel"
+" hieronder moet gebruiken als de metadata keys in het Project "
+"Metadata dialoogvenster van Kdenlive."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:56
 msgid ""
@@ -138,6 +195,10 @@ msgid ""
 "container. And this container type normally gets derived from the container "
 "filename suffix (ending): in particular, .mp4 and .mov."
 msgstr ""
+"Ffmpeg kan met verschillende metadata elementen overweg, gebaseerd op het"
+" type container. En dit container type wordt normaal gesproken afgeleid van"
+" het"
+" container bestandsnaam-extensie (eindigend): in dit geval, .mp4 en .mov."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:61
 msgid "Element"
@@ -145,7 +206,7 @@ msgstr "Element"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:62
 msgid "ffmpeg Meta Data Key"
-msgstr ""
+msgstr "ffmpeg Meta Data Key"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:63
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:115
@@ -154,11 +215,11 @@ msgstr "Beschrijving"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:64
 msgid "MOV"
-msgstr ""
+msgstr "MOV"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:65
 msgid "MP4 (iTunes)"
-msgstr ""
+msgstr "MP4 (iTunes)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:66
 msgid "Tag"
@@ -170,11 +231,11 @@ msgstr "Titel"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:68
 msgid "title"
-msgstr "titel"
+msgstr "title"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:69
 msgid "The title of this video. (String)"
-msgstr ""
+msgstr "De titel van deze video. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:70
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:71
@@ -211,7 +272,7 @@ msgstr ""
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:232
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:239
 msgid "✔"
-msgstr ""
+msgstr "✔"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:72
 msgid "©nam"
@@ -219,17 +280,20 @@ msgstr "©nam"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:73
 msgid "Year"
-msgstr "Jaar"
+msgstr "Year"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:74
 msgid "date"
-msgstr "datum"
+msgstr "date"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:75
 msgid ""
 "The date of production. Please note that the ffmpeg documentation is totally "
 "wrong here, there is no key named year, but only date. (String)"
 msgstr ""
+"De productiedatum. Merk op dat de documentatie van ffmpeg helaas wat dit"
+" betreft compleet fout is, er is geen key genaamd year, maar wel date."
+" (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:78
 msgid "©day"
@@ -237,7 +301,7 @@ msgstr "©day"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:79
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Auteursrecht"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:80
 msgid "copyright"
@@ -245,11 +309,11 @@ msgstr "copyright"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:81
 msgid "The copyright of your video. (String)"
-msgstr ""
+msgstr "De auteursrecht van uw video. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:84
 msgid "©cpy"
-msgstr ""
+msgstr "©cpy"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:85
 msgid "Artist"
@@ -257,7 +321,7 @@ msgstr "Artiest"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:86
 msgid "artist"
-msgstr "artiest"
+msgstr "artist"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:87
 msgid ""
@@ -265,6 +329,8 @@ msgid ""
 "composer, as there is a dedicated element especially for the composer, see "
 "below. (String)"
 msgstr ""
+"De naam van de (video) artiest. Gebruik dit element niet voor de componist,"
+" omdat er een speciaal element voor de componist is, zie hieronder. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:90
 msgid "©ART"
@@ -276,7 +342,7 @@ msgstr "Albumartiest"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:92
 msgid "album_artist"
-msgstr ""
+msgstr "album_artist"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:93
 msgid ""
@@ -284,6 +350,9 @@ msgid ""
 "artist. This element can also be left out or be the same name as the artist. "
 "(String)"
 msgstr ""
+"De naam van de album artiest: dit kan de gast-artiest zijn of een extra"
+" artiest. Dit kan ook weggelaten worden of dezelfde naam zijn als de artiest. "
+"(String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:96
 msgid "aART"
@@ -295,15 +364,15 @@ msgstr "Auteur"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:98
 msgid "author"
-msgstr "auteur"
+msgstr "author"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:99
 msgid "The author of the video. (String)"
-msgstr ""
+msgstr "De auteur van de video. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:102
 msgid "©aut"
-msgstr ""
+msgstr "©aut"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:103
 msgid "Composer"
@@ -311,11 +380,11 @@ msgstr "Componist"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:104
 msgid "composer"
-msgstr "componist"
+msgstr "composer"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:105
 msgid "The name of the composer. (String)"
-msgstr ""
+msgstr "De naam van de componist. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:108
 msgid "©wrt"
@@ -331,7 +400,7 @@ msgstr "album"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:111
 msgid "The title or the name of this album. (String)"
-msgstr ""
+msgstr "De titel of naam van dit album. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:114
 msgid "©alb"
@@ -341,13 +410,15 @@ msgstr "©alb"
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:122
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:128
 msgid "comment"
-msgstr "toelichting"
+msgstr "comment"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:117
 msgid ""
 "A (content) description of this video. For a synopsis, please see the "
 "separate element instead. (String)"
 msgstr ""
+"Een (inhoudelijke) omschrijving van deze video. Voor een samenvatting, zie"
+" daarvoor de separate element. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:120
 msgid "desc"
@@ -363,14 +434,17 @@ msgid ""
 "A (short) comment on your video. This will probably a comment set by the "
 "audience, not at the time of production. (String)"
 msgstr ""
+"Een (kort) commentaar over uw video. Dit zal waarschijnlijk een commentaar"
+" zijn gegeven door het publiek, niet op het moment van de productie. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:126
 msgid "©des"
-msgstr ""
+msgstr "©des"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:129
 msgid "Same as before, but encoded in a separate element. (String)"
 msgstr ""
+"Hetzelfde als de vorige, maar gecodeerd in een separaat element. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:132
 msgid "©cmt"
@@ -382,15 +456,15 @@ msgstr "Samenvatting"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:134
 msgid "synopsis"
-msgstr "samenvatting"
+msgstr "synopsis"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:135
 msgid "A synopsis, a longer description of this video. (String)"
-msgstr ""
+msgstr "Een samenvatting, een langere omschrijving van deze video. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:138
 msgid "ldes"
-msgstr ""
+msgstr "ldes"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:139
 msgid "Genre"
@@ -402,7 +476,7 @@ msgstr "genre"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:141
 msgid "The genre this video belongs to. (String)"
-msgstr ""
+msgstr "Het genre waar deze video toe behoort. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:144
 msgid "©gen"
@@ -410,11 +484,11 @@ msgstr "©gen"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:145
 msgid "Make"
-msgstr ""
+msgstr "Merk"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:146
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:147
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:153
@@ -445,7 +519,7 @@ msgstr "Locatie"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:158
 msgid "location"
-msgstr "locatie"
+msgstr "location"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:162
 msgid "©xyz"
@@ -457,7 +531,7 @@ msgstr "Groeperen"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:164
 msgid "grouping"
-msgstr "groeperen"
+msgstr "grouping"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:165
 msgid ""
@@ -465,6 +539,10 @@ msgid ""
 "album element, grouping happens inside (that is, below) the album level. "
 "(String)"
 msgstr ""
+"De naam van een groep video's die op de een of andere manier bij elkaar"
+" horen. In tegenstelling tot het "
+"album element, gebeurt het groeperen in (dat is onder) het niveau album. "
+"(String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:168
 msgid "©grp"
@@ -472,19 +550,19 @@ msgstr "©grp"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:169
 msgid "Show"
-msgstr "Tonen"
+msgstr "Show"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:170
 msgid "show"
-msgstr "tonen"
+msgstr "show"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:171
 msgid "The name of the TV show, if applicable. (String)"
-msgstr ""
+msgstr "De naam van de TV show, indien van toepassing. (String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:174
 msgid "tvsh"
-msgstr ""
+msgstr "tvsh"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:175
 msgid "Episode"
@@ -492,7 +570,7 @@ msgstr "Aflevering"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:176
 msgid "episode_id"
-msgstr ""
+msgstr "episode_id"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:177
 msgid ""
@@ -500,18 +578,22 @@ msgid ""
 "the separate, yet optional episode number element for correct sorting. "
 "(String)"
 msgstr ""
+"Naar keuze de naam van de episode of de episode-nummer, om getoond te worden."
+" Gebruik indien noodzakelijk de separate, maar optionele episode-nummer"
+" element voor een correcte volgorde. "
+"(String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:180
 msgid "tven"
-msgstr ""
+msgstr "tven"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:181
 msgid "Episode (Sorting)"
-msgstr ""
+msgstr "Episode (Volgorde)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:182
 msgid "episode_sort"
-msgstr ""
+msgstr "episode_sort"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:183
 msgid ""
@@ -520,10 +602,15 @@ msgid ""
 "The valid range is limited to 0 to 255 only, so this doesn’t support all "
 "those endless telenovas, it seems… (Int8)"
 msgstr ""
+"Dit element is alleen voor het op volgorde leggen, en wordt nooit getoond."
+" Hiermee is het op volgorde leggen van episode-namen welke tekenreeksen zijn,"
+" en geen (nodige) nummers. "
+"De geldige reeks is beperkt van 0 tot alleen 255, Al die eindeloze telenovas"
+" zijn hiermee dus niet mogelijk, lijkt het… (Int8)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:186
 msgid "tves"
-msgstr ""
+msgstr "tves"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:187
 msgid "Season"
@@ -531,15 +618,15 @@ msgstr "Seizoen"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:188
 msgid "season_number"
-msgstr ""
+msgstr "season_number"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:189
 msgid "The season number, in the range of 0 to 255 only. (Int8)"
-msgstr ""
+msgstr "Het seizoen-nummer, alleen in de reeks van 0 tot 255. (Int8)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:192
 msgid "tvsn"
-msgstr ""
+msgstr "tvsn"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:193
 msgid "Lyrics"
@@ -547,11 +634,11 @@ msgstr "Liedtekst"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:194
 msgid "lyrics"
-msgstr "liedtekst"
+msgstr "lyrics"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:195
 msgid "Optional lyrics for badly sung sing-along… (String)"
-msgstr ""
+msgstr "Optionele songteksten om slecht mee te kunnen zingen...(String)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:198
 msgid "©lyr"
@@ -563,12 +650,14 @@ msgstr "Compilatie"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:200
 msgid "compilation"
-msgstr "compilatie"
+msgstr "compilation"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:201
 msgid ""
 "If 1, then this video file is part of a compilation. 0 otherwise. (Int8)"
 msgstr ""
+"Indien 1, dan is dit videobestand onderdeel van een compilatie. 0 in het"
+" andere geval. (Int8)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:204
 msgid "cpil"
@@ -584,7 +673,7 @@ msgstr "netwerk"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:210
 msgid "tvnn"
-msgstr ""
+msgstr "tvnn"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:211
 msgid "Media Type"
@@ -592,7 +681,7 @@ msgstr "Mediatype"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:212
 msgid "media_type"
-msgstr ""
+msgstr "media_type"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:213
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:219
@@ -602,7 +691,7 @@ msgstr "(Int8)"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:216
 msgid "stik"
-msgstr ""
+msgstr "stik"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:217
 msgid "HD Video"
@@ -610,11 +699,11 @@ msgstr "HD-video"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:218
 msgid "hd_video"
-msgstr ""
+msgstr "hd_video"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:222
 msgid "hdvd"
-msgstr ""
+msgstr "hdvd"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:223
 msgid "Gapless Playback"
@@ -622,20 +711,20 @@ msgstr "Afspelen zonder tussenpauze"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:224
 msgid "gapless_playback"
-msgstr ""
+msgstr "gapless_playback"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:228
 msgid "pgap"
-msgstr ""
+msgstr "pgap"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:229
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:235
 msgid "Encoding Tool"
-msgstr ""
+msgstr "Codeer-programma"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:230
 msgid "encoder"
-msgstr "codeerder"
+msgstr "encoder"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:231
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:237
@@ -643,14 +732,17 @@ msgid ""
 "Not available to us users, as it gets automatically set by ffmpeg itself; "
 "this is set to the libavformat version string."
 msgstr ""
+"Niet beschikbaar voor gebruikers, omdat het automatisch wordt ingevuld door"
+" ffmpeg zelf; "
+"dit zal overeenkomen met de libavformat versie string."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:234
 msgid "©swr"
-msgstr ""
+msgstr "©swr"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:236
 msgid "encoding_tool"
-msgstr ""
+msgstr "encoding_tool"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:240
 msgid "©too"
@@ -667,40 +759,57 @@ msgid ""
 "other video container tagging tools, such as `AtomicParsley <https://"
 "sourceforge.net/p/atomicparsley/wiki/Home/>`_."
 msgstr ""
+"er is geen manier om album-afbeelding of DVD-afbeelding aan MP4 containers"
+" via ffmpeg toe te voegen, en als gevolg daarvan, ook niet in Kdenlive. U zal"
+" in"
+" plaats daarvan andere video container tag-programma's moeten gebruiken,"
+" zoals bijvoorbeeld `AtomicParsley <https://"
+"sourceforge.net/p/atomicparsley/wiki/Home/>`_."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:247
 msgid ""
 "Kdenlive leverages ffmpeg for encoding, so if ffmpeg doesn’t support certain "
 "atoms, there’s no way for Kdenlive to get it into the rendered output file."
 msgstr ""
+"Kdenlive gebruikt ffmpeg voor het coderen, als dus ffmpeg bepaalde soorten"
+" codering niet kan produceren, dan is er voor kdenlive geen manier om het"
+" gewenste bestand te produceren."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:250
 msgid "Useful References"
-msgstr ""
+msgstr "Handige Referenties"
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:252
 msgid ""
 "The following references give some more background information on ffmpeg and "
 "meta data in .mov/.mp4 containers."
 msgstr ""
+"De volgende referenties geven wat meer achtergrond informatie over ffmpeg en "
+"meta data in .mov/.mp4 containers."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:255
 msgid ""
 "First, and foremost, the ffmpeg source code for reference, and `moveenc.c "
 "<https://sourceforge.net/p/atomicparsley/wiki/Home/>`_ in particular."
 msgstr ""
+"Op de allereerste plaats, de ffmpeg broncode als referentie, en `moveenc.c "
+"<https://sourceforge.net/p/atomicparsley/wiki/Home/>`_ met name."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:255
 msgid ""
 "`mov_write_ilst_tag()` is responsible to write the iTunes-compatible tags "
 "for .mp4 containers."
 msgstr ""
+"`mov_write_ilst_tag()` is verantwoordelijk voor het schrijven van de"
+" iTunes-compatibel tags in de .mp4 containers."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:256
 msgid ""
 "`mov_write_udta_tag()` write the MPEG-standard tags instead, when using a ."
 "mov container."
 msgstr ""
+"`mov_write_udta_tag()` schrijft in plaats daarvan de MPEG-standaard tags, bij"
+" gebruik van een mov container."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:257
 msgid ""
@@ -716,6 +825,20 @@ msgid ""
 "application, but don’t give you any clue as to what is actually going on "
 "behind the scenes."
 msgstr ""
+"`How To: Create/Write ID3 tags using ffmpeg <https://jonhall.info/"
+"create_id3_tags_using_ffmpeg/>`_ door Jon Hall. Dit artikel zette me"
+" tenslotte op het juiste spoor. Echter, wees bedacht op een paar incorrecte"
+" ffmpeg keys in Jon’s "
+"tabel (zoals de TIT3 key, waarvan ik denk dat het niet correct is); dit kan"
+" gekomen zijn vanwege latere wijzigingen in ffmpeg (of wat dan ook)."
+" Tenslotte, omdat enkele van Jon’s "
+"keys niet werkten, ben ik naar de broncode van ffmpeg gegaan wat tenslotte"
+" natuurlijk de belangrijkste bron is. Desondanks ben ik zeer dankbaar voor "
+" Jon en is hij een van de zeldzaam goed ingevoerde bronnen met een goed"
+" inzicht in het onderwerp. "
+"De meeste andere bronnen vertellen u alleen welke knoppen u bij een programma"
+" moet indrukken, maar geven u geen idee wat er achter de schermen aan de hand"
+" is."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:258
 msgid ""
@@ -723,6 +846,9 @@ msgid ""
 "dump_and_load_metadata_with_ffmpeg/>`_ by Jon Hall. Sheds more light on how "
 "to work with meta data when it comes to ffmpeg."
 msgstr ""
+"`How To: Dump and Load metadata with ffmpeg <https://jonhall.info/how-to/"
+"dump_and_load_metadata_with_ffmpeg/>`_ door Jon Hall. Laat wat meer schijnen"
+" op hoe u met metadata moet werken wat betreft ffmpeg."
 
 #: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:259
 msgid ""
@@ -730,3 +856,6 @@ msgid ""
 "title=FFmpeg_Metadata>`_ article from the `MultimediaWiki <https://wiki."
 "multimedia.cx/index.php?title=Main_Page>`_."
 msgstr ""
+"`FFmpeg Metadata <https://wiki.multimedia.cx/index.php?"
+"title=FFmpeg_Metadata>`_ artikel van `MultimediaWiki <https://wiki."
+"multimedia.cx/index.php?title=Main_Page>`_."
