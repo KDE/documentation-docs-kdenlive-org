@@ -94,7 +94,7 @@ Editing
 .. [1]  available in bleeding edge version > 0.9.10 (Jan2015)
 
 Raise widgets with shortcuts (window)
-=====================================
+-------------------------------------
 
 
 .. versionadded:: 21.08.0
@@ -107,7 +107,7 @@ With the word "raise" you see all dock widgets (window) on which you can assign 
 
 
 Shortcuts for keyframe functions
-================================
+--------------------------------
 
 
 .. versionadded:: 21.08.0
@@ -121,7 +121,7 @@ Click on the clip and you can add/remove keyframe by shortcut.
 
 
 Command Bar
-===========
+-----------
 
 
 .. versionadded:: 21.08.0
