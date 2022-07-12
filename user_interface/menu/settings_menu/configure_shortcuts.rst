@@ -1,3 +1,7 @@
+.. meta::
+   :description: Configure your own shortcuts in Kdenlive video editor
+   :keywords: KDE, Kdenlive, shortcuts, configure, set, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
@@ -19,46 +23,27 @@ Configure Shortcuts
 Allows modification of the keyboard shortcuts for various **Kdenlive** tasks.
 
 
-.. image:: /images/Kdenlive_Configure_shortcuts.png
+.. image:: /images/Kdenlive_Configure_shortcuts_1.png
 
+**Icons, bottom row**
 
-Raise widgets with shortcuts (window)
-=====================================
+:guilabel:`Defaults`: set back the shortcuts to default.
 
+:guilabel:`Manage Schemes`: opens the Shortcut Schemes.
 
-.. versionadded:: 21.08.0
-  
-With the word "raise" you see all dock widgets (window) on which you can assign shortcuts to raise dock widgets (window). The actions are called like "Raise Project Bin".
+:guilabel:`Print...`: opens the printer window dialog and you can print the actual shortcuts.
 
+**Icons, Shortcut Schemes**
 
-.. image:: /images/shortcuts.gif
-  
+:guilabel:`New Scheme`: switching between schemes you have saved on your computer.
 
+:guilabel:`New...`:  creates a new empty shortcut schemes
 
-Shortcuts for keyframe functions
-================================
+:guilabel:`Delete`: deletes your actual scheme. 
 
+:guilabel:`More Actions`: your actual scheme can be:
 
-.. versionadded:: 21.08.0
-
-Allow assigning shortcuts to 3 keyframe functions: *Add/Remove Keyframe*, *Go to next keyframe* and *Go to previous keyframe*.
-Click on the clip and you can add/remove keyframe by shortcut.
-
-
-.. image:: /images/shortcut-keyframe.gif
-  
-
-
-Command Bar
-===========
-
-
-.. versionadded:: 21.08.0
-
-The command bar allows to easily searching for any action in Kdenlive like changing themes, adding effects, opening files and more. It can be accessed with the shortcut: Ctrl + Alt + i. The shortcut is defined by KDE-Framework, so do not change it. (This feature requires KDE Frameworks lib version 5.83).
-
-
-.. image:: /images/searchbar.gif
-  
-
-
+- saved (storage place see :ref:`configuration`)
+- exported
+- imported
+- or download new schemes from the KDE server.

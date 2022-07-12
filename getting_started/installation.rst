@@ -165,6 +165,8 @@ The Finder opens. Now right click on *Kdenlive* and choose :guilabel:`Open`.
 
 The message that Apple can't search for malware will appear again. Just click on :guilabel:`Open` and Kdenlive will open up.
 
+.. _configuration:
+
 Configuration Information
 -------------------------
 
@@ -193,7 +195,7 @@ Kdenlive's application-wide persistent settings are stored in the following loca
    * - :file:`~/.cache/kdenlive`
      - :file:`%LocalAppData%\\kdenlive`
      -
-     - cache location storing audio and video thumbnails, and proxy clips, user defined titles, LUTS, lumas
+     - cache location storing audio and video thumbnails, and proxy clips, user defined titles, LUTS, lumas, shortcuts
    * - :file:`~/.local/share/kdenlive`
      - :file:`%AppData%\\kdenlive`
      -
