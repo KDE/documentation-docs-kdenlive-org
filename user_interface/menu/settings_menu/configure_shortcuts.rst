@@ -35,9 +35,9 @@ Allows modification of the keyboard shortcuts for various **Kdenlive** tasks.
 
 **Icons, Shortcut Schemes**
 
-:guilabel:`New Scheme`: switching between schemes you have saved on your computer.
+:guilabel:`Current scheme`: switching between schemes you have saved on your computer.
 
-:guilabel:`New...`:  creates a new empty shortcut schemes
+:guilabel:`New...`:  creates a new empty shortcut scheme
 
 :guilabel:`Delete`: deletes your actual scheme. 
 
