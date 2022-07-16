@@ -1,6 +1,6 @@
 .. meta::
    :description: Clip monitor and project monitor in Kdenlive video editor
-   :keywords: KDE, Kdenlive, clip, project, monitor, documentation, user manual, video editor, open source, free, learn, easy
+   :keywords: KDE, Kdenlive, clip, project, monitor, overlay, resizing, zoombar, preview, toolbar, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
 
@@ -58,6 +58,10 @@ Monitor toolbar
    :alt: Monitors
 
 Support multiple guide overlays. Move with the mouse to the upper-right corner of the monitor to access the toolbar. 
+
+.. versionadded:: 22.08.0
+
+The color of the guide overlays can be changed. See :ref:`monitor_toolbars`    
 
 .. _preview_resolution:
 
