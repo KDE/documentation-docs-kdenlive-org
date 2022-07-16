@@ -211,7 +211,11 @@ Colors
    :width: 500px
    :alt: Kdenlive_Configure_colors
 
-This sets the color of the audio wave thumbnail.
+:guilabel:`Audio thumbnail colors` Click on the color bar and change the color of the audio wave thumbnail.
+
+.. versionadded:: 22.08.0
+
+:guilabel:`Monitor overlay color` Click on the color bar and change the color of the monitor overlay lines. See :ref:`monitor_toolbars`
 
 .. _configure_speech_to_text:
 
