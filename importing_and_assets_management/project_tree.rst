@@ -86,6 +86,17 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
    
    Menu under Icon 5
 
+Edit tags: double click a tag for changing the description.
+
+.. versionadded:: 22.08
+
+.. figure:: /images/tags_change.png
+   :width: 350px
+   :alt: changing tags
+
+You can: add, delete and reordering tags.
+
+Reordering tags: grab a tag and drag it to the desired place in the list.
 
 **6**. Brings up additional options shown below for customizing the Project Bin view .
 
