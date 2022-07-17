@@ -1,3 +1,8 @@
+.. meta::
+   :description: Add Subtitle in the timeline with Kdenlive video editor
+   :keywords: KDE, Kdenlive, subtitle, styling, SRT, ASS, VTT, SBV, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -63,10 +68,19 @@ Set subtitle in/out can be achieved with the same shortcut as to set clip in/out
 * The scissors are mostly here for divide subtitles: let's say your subtitle text is too long and you want to make it 2 different subtitles. Put the cursor in the text widget where you want to cut and click the scissors, it will split the text between 2 different subtitle items. The scissors are only working when the playhead is over the subtitle itself.
 * The tick button adds the text to the subtitle.
 
+.. versionadded:: 22.08
+
+.. image:: /images/subtitle-style.png
+   :alt: subtitle style
+
+This is a global, simple subtitle styling possibility. It only allows one style for all subtitles of the project. Accessible through the "T drop" icon in the subtitle edit widget.
 
 **Import and export subtitle**
 
-Importing **SRT** and **ASS** subtitle file: :menuselection:`Project --> Subtitles --> Import Subtitle File`
+.. versionadded:: 22.08
+  Allows importing .vtt (Web Video Text Tracks) and .sbv (YouTube) files.
+
+Importing **SRT**, **ASS**, **VTT** and **SBV** subtitle file: :menuselection:`Project --> Subtitles --> Import Subtitle File`
 
 Exporting **SRT** subtitles only: :menuselection:`Project --> Subtitles --> Export Subtitle File`
 
