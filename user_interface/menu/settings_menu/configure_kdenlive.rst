@@ -149,7 +149,15 @@ This setting tells **Kdenlive** where to find the MLT executables and profile fi
 
 Path to the MediaInfo file. If filled in Kdenlive shows more details in clip properties.
 
-**Proxy Clips - Concurrent Threads**  This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
+**Proxy and Transcode Jobs**
+
+:guilabel:`Concurrent threads` This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
+
+.. versionadded:: 22.08
+
+:guilabel:`Use lower CPU priority for proxy and transcode tasks`
+
+This adds a Kdenlive setting to lower the priority of the proxy rendering (QProcess). This helps keep the main UI responsive when proxies are rendering.
 
 .. deprecated:: 19.04
 
