@@ -1,3 +1,7 @@
+.. meta::
+   :description: Apply effects in Kdenlive video editor
+   :keywords: KDE, Kdenlive, effects, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -33,22 +37,26 @@ You can also apply effects to an entire track. This is achieved by dragging an e
    :width: 100px
    :alt: Kdenlive_Effect_on_whole_track
 
-   Figure 1a. Track header showing star icon indicating an effect has been added to this track.
+   Figure 1a. Track header showing effect icon enabled indicating an effect has been added to this track.
 
 Effects Tab
 -----------
 
 Make the Effects Tab visible use the :menuselection:`View --> Effects` menu item.
 
-.. figure:: /images/Kdenlive_Effects_tab_17_04.png
+.. figure:: /images/Kdenlive_Effects_tab_22_08.png
    :width: 350px
-   :alt: Kdenlive_Effects_tab_17_04
+   :alt: Kdenlive_Effects_tab_22_08
 
    Figure 1b - effects tab. The Information icon (6) has been toggled so that the tab displays a brief description of the selected effect at the bottom
 
 The effects tab has 5 different icons that cause the application to show and hide different categories of effects.
 
-By default the effects tab displays the "Main Effects" (Icon 1 selected). These are the Audio Correction, Alpha/Transform, Analysis and data, Colour and the Image adjustment categories.
+.. versionchanged:: 22.08
+     
+   Main tab now displays all video and audio effects.
+
+By default the effects tab displays the "Main Effects" (Icon 1 selected) which show all video and audio effects.
 
 Icon 2 makes it display all the video effects categories (This option hides the Audio Correction category that is in the "Main Effects" and adds the Misc and Motion categories).
 
@@ -60,7 +68,7 @@ Icon 5 is Favorite Effects. This is the same list that appears in the "Insert an
 
 Icon 6 toggles the information display which - when on - shows a description of what the effect does.
 
-If you find that you are missing some effects or effects categories that you know and love it is probably because you need to choose to display the hidden effects by choosing an Icon other that Icon 1 - "Main Effects"
+Icon 7 let you download effects users had created and uploaded to the KDE Kdenlive store. 
 
 To add an effect to a clip, simply drag it from the **Effects Tab** to the clip on the :ref:`timeline`.
 
