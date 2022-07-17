@@ -136,11 +136,26 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 1.  `Track Compositing`_ drop down.
 
-1a. :ref:`track_compositing_none`
+.. versionchanged:: 22.08
 
-1b. :ref:`track_compositing_preview`
+.. image:: /images/Kdenlive-enable-track-composition.png
+   :alt: Kdenlive-enable-track-composition
 
-1c. :ref:`track_compositing_hq`
+Track compositing is now a simple checkbox instead of the deprecated none/high resolution choice.
+
+When enabled Kdenlive is set to :ref:`track_compositing_hq`
+
+When disabled Kdenlive is set to :ref:`track_compositing_none`
+
+.. deprecated:: 22.08
+
+1a, 1b and 1c cannot be selected anymore.   
+
+   1a. :ref:`track_compositing_none`
+
+   1b. :ref:`track_compositing_preview`
+
+   1c. :ref:`track_compositing_hq`
 
 1d. **Mixed Audio tracks** changes the order in which tracks are displayed to mixed audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, V1, A2, V2, A3, V3
 
@@ -218,6 +233,7 @@ Items 14, 14a-14g are covered in detail by :ref:`timeline-preview-rendering` art
 
 2.  Show/Hide the :ref:`subtitle` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
+.. _timeline_edit_modes:
 
 Track Compositing
 -----------------
@@ -229,6 +245,17 @@ The track compositing applies uniformly to all tracks in your timeline.
 .. tip::
 
   Under certain compositing conditions, if you see the outcome of a transition not to be what you would expect, try to switch track compositing off for a quick check. If the oddity is gone, then this is an interference between the automatic timeline track compositing and your user transitions.
+
+.. versionchanged:: 22.08
+
+Track compositing is now a simple checkbox instead of the none/high resolution choice.
+
+.. _track_compositing_hq:
+
+High Quality
+~~~~~~~~~~~~
+
+When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat slower than the algorithm used with :ref:`track_compositing_preview` but which retains higher fidelity color information.
 
 .. _track_compositing_none:
 
@@ -249,16 +276,6 @@ Preview
     Final rendering always uses either **High Quality** or **None**. So Preview quality is, well, for preview only.
 
 When track compositing is set to Preview tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat faster than the algorithm used with :ref:`track_compositing_hq` but which slightly degrades the colors.
-
-
-.. _track_compositing_hq:
-
-High Quality
-~~~~~~~~~~~~
-
-When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat slower than the algorithm used with :ref:`track_compositing_preview` but which retains higher fidelity color information.
-
-.. _timeline_edit_modes:
 
 Timeline Edit Modes
 -------------------
