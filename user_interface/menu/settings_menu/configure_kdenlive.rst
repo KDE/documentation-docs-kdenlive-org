@@ -1,3 +1,8 @@
+.. meta::
+   :description: Configure settings in Kdenlive video editor
+   :keywords: KDE, Kdenlive, setting, file type, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
@@ -209,6 +214,10 @@ Mime types
    :alt: Kdenlive_Configure_environment_mime_types
 
 Specifies the Media Types (formerly known as MIME types) which Kdenlive can working with.
+
+.. versionadded:: 22.08
+
+   Added file type: `AVIF`, `HEIF` and `JPEG XL`
 
 .. _configure_colors:
 
