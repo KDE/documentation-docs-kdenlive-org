@@ -111,6 +111,8 @@ If you want to use Kdenlive with domain users with using Windows Active Director
 
 Do also make sure no GPO is blocking the access to these folders.
 
+.. _kdenlive_macos:
+
 Kdenlive on macOS
 -----------------
 

@@ -195,6 +195,8 @@ Default Folders
 
 This setting controls where **Kdenlive** expects project files to be by default. It also controls what folder **Kdenlive** will use as a temporary file storage location and it controls where files captured from an external source will be saved.
 
+.. _default_apps:
+
 Default Apps
 ~~~~~~~~~~~~
 
@@ -202,9 +204,22 @@ Default Apps
    :width: 500px
    :alt: Kdenlive_Configure_environment_default_apps
 
+This setting controls what external application opens when you choose :ref:`edit_clip` for a clip in the project bin. 
+
+:guilabel:`Image editing`: A free software would be `Krita <https://www.audacityteam.org/>`_.
+
+:guilabel:`Audio editing`: A free software would be `Audacity <https://krita.org/en/>`_.
+
+:guilabel:`Animation editing`: Kdenlive updates automatically files which are saved in Glaxnimate. Glaxnimate can be downloaded from `here <https://glaxnimate.mattbas.org/>`_ (Linux, Windows, Mac).
+
+**Mac user:** :ref:`Instruction <kdenlive_macos>` how to install and run `dmg` files.
+
+**Windows user:** Make sure all the paths points to an `.exe` file. `Glaxnimate.exe` is in folder `C:/YourPath/glaxnimate-x86_64/glaxnimate/bin/glaxnimate.exe`.
 
 
-This setting controls what application opens when you choose :ref:`edit_clip` for a clip in the project bin. Note there is no application for video editing - because **Kdenlive** is a video editor.  Images and audio files are edited by the external applications defined here.
+.. hint::
+
+   There is no application for video editing - because **Kdenlive** is a video editor.
 
 Mime types
 ~~~~~~~~~~
@@ -217,7 +232,9 @@ Specifies the Media Types (formerly known as MIME types) which Kdenlive can work
 
 .. versionadded:: 22.08
 
-   Added file type: `AVIF`, `HEIF` and `JPEG XL`
+Added file type: `AVIF`, `HEIF` and `JPEG XL`
+
+Added animation file type: `JSon` (Lottie animations) and `rawr` (Glaxnimate animation)
 
 .. _configure_colors:
 

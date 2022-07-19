@@ -63,6 +63,9 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 * :ref:`Add Template Title Clip <titles>`
 
 
+* :ref:`Create Animation... <add_animation>` (*new in version 22.08*)
+   
+
 * :ref:`online_resources`
 
 
@@ -153,7 +156,7 @@ You can create various bins from :ref:`folders <create_folder>` you have created
 
 Closing the extra bins either by pressing :kbd:`CTRL + w` or on the bin you want to close click on |application-menu| and choose :guilabel:`Close` .
 
-
+.. _clip_right-click:
 
 Clip - Right-Click Menu
 -----------------------

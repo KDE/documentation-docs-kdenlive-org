@@ -1,3 +1,8 @@
+.. meta::
+   :description: Project bin in Kdenlive video editor
+   :keywords: KDE, Kdenlive, add clips, animation, color clip, image, title clip, online resources, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -27,10 +32,10 @@ See also :ref:`clip_menu`.
 .. _add_clip:
 
 
-Clips (Video, Audio and Images)
--------------------------------
+Clips (Video, Audio, Images and Animation)
+------------------------------------------
 
-The |kdenlive-add-clip| button (Add Clip) brings up the **Add Clip** Dialog where you can choose video, audio or still image clips to add to :ref:`project_tree`.
+The |kdenlive-add-clip| button (or :guilabel:`Add Clip or Folder...` or double click into an empty place in the project bin) brings up the **Add Clip** Dialog where you can choose video, audio, animation (*new in version 22.08*) or still image clips to add to :ref:`project_tree`.
 
 .. image:: /images/Add_clip_dialog.png
    :width: 450px
@@ -41,10 +46,11 @@ The button |view-preview| labeled 1 toggles File Preview on and off (applies to 
 
 The slider labeled 2 adjusts the size of the preview icons. 
 
-The :menuselection:`Import image sequence` checkbox labeled 3 enables the import of a series of images that can be used to make a stop motion animation.
+Checkbox :guilabel:`Import image sequence` (labeled 3) enables the import of a series of images that can be used to make a stop motion animation.
 
 .. versionadded:: 21.12
-   The :menuselection:`Ignore subfolder structure` checkbox labeled 4 enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
+
+Checkbox :guilabel:`Ignore subfolder structure` (labeled 4) enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
 
 You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the |kdenlive-add-clip| button.
 
@@ -58,7 +64,7 @@ You can add other types of clips by choosing a clip type from the menu brought u
 Color clips
 -----------
 
-Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place titles.
+:guilabel:`Add Color Clip...`: Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place titles.
 
 Add color clips by choosing :menuselection:`Add Color Clip` from the drop down button next to the |kdenlive-add-clip| button.
 
@@ -72,10 +78,7 @@ This brings up the **Color Clip** dialog from which you can choose a color and a
 Clicking :menuselection:`OK` adds the clip to the project bin. The clip can then be dragged to the timeline. The duration of the color clip can be adjusted on the timeline.
 
 
-Title clips
------------
 
-See :ref:`titles`.
 
 
 .. _add_slideshow_clip:
@@ -83,7 +86,7 @@ See :ref:`titles`.
 Image Sequence clips
 --------------------
 
-Image Sequence clips are clips created from a series of still images. The feature can be used to make an animation from a collection of still images or to create a slideshow of still images. To create the former, use a short frame duration; to create the latter, use a long frame duration.
+:guilabel:`Add Image Sequence`: Image Sequence clips are clips created from a series of still images. The feature can be used to make an animation from a collection of still images or to create a slideshow of still images. To create the former, use a short frame duration; to create the latter, use a long frame duration.
 
 To create an image sequence clip, choose :menuselection:`Add Image Sequence` from the :menuselection:`Add Clip` drop down list.
 
@@ -108,12 +111,31 @@ Center crop: automatically fills the output video frame with the images while ma
 
 Animation: adds preset slow smooth pan and zoom effects also known as the Ken Burns Effect. You can choose no animation, pans only, zooms only, or a combination of pans and zooms. Each option also has a low pass filter to reduce the noise in the images that may occur during this operation. Low pass filtering is much slower, so you should preview without it, and then enable it to render.
 
+Title clips
+-----------
 
-Create Folder
--------------
+See :ref:`titles`.
 
-See :ref:`create_folder`.
 
+.. _add_animation:
+
+Create Animation
+----------------
+
+.. versionadded:: 22.08
+
+:guilabel:`Create Animation...`: Creates a new animation. Give a name for your new animation and it opens Glaxnimate and adds the newly created animation to the project bin. You can then edit the animation in Glaxnimate by right-click on the animation and choose :guilabel:`Edit Clip` and whenever you save it, it is automatically updated in Kdenlive.
+
+Kdenlive supports `JSon` (Lottie animations) and `rawr` (Glaxnimate animation) animation.
+
+`JSon` and `rawr` files contains an alpha channel so the imported animations have a background which is not visible.
+
+If Glaxnimate is not installed on your computer following message pops-up:
+
+.. image:: /images/Kdenlive_install_Glaxnimate.png
+   :alt: Kdenlive_install_Glaxnimate
+
+For Glaxnimate installation see :ref:`here <default_apps>`.
 
 Online Resources
 ----------------
