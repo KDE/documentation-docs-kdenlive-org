@@ -1,3 +1,8 @@
+.. meta::
+   :description: Set guides in Kdenlive video editor
+   :keywords: KDE, Kdenlive, set guides, DVD, youtube, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -28,23 +33,25 @@ Guides
    :align: left
    :alt: Kdenlive_Add_guide
 
-Guides are labels on the timeline that can be added by right-clicking at a spot on the timeline ruler and choosing :menuselection:`Add/Remove Guide`. You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
+Guides are labels on the timeline that can be added by right-clicking at a spot on the timeline ruler and choosing :menuselection:`Add/Remove Guide` or press :kbd:`G`. You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
 
 .. rst-class:: clear-both
 
 .. versionadded:: 21.08
    
-Guides Locked: See :ref:`move_guides_with_spacer_tool`  
+:guilabel:`Guides Locked`: See :ref:`move_guides_with_spacer_tool`  
 
 .. versionadded:: 22.04
 
-Set Zone In/Out. See :ref:`timeline-preview-rendering`
+:guilabel:`Set Zone In/Out`. See :ref:`timeline-preview-rendering`
 
-Add Project Notes: See :ref:`notes`
+:guilabel:`Add Project Notes`: See :ref:`notes`
+
+
 
 .. versionadded:: 20.12
 
-Add Subtitle: See :ref:`subtitle`
+:guilabel:`Add Subtitle`: See :ref:`subtitle`
 
 Guides in the picture below are the purple flags. Not to be confused with :ref:`clips` (gold in the picture below). Guides are static on the timeline and are stationary when clips are moved around. Markers are inside the clips and move with the clips.
 
@@ -58,6 +65,33 @@ Guides can be used to define regions for rendering. See :ref:`rendering`.
 
 
 Guides can also be used as chapters for DVD videos. See :ref:`rendering`.
+
+.. versionadded:: 22.08
+
+**Export guides as chapter description**
+
+Guides can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the guides can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
+
+Right click in the timeline ruler and choose :guilabel:`Export Guides` or :menuselection:`Timeline -> Guides -> Export Guides`. Then the window `Export guides as chapters description` appears.
+
+.. image:: /images/Kdenlive_export_guides.png
+   :alt: Kdenlive_export_guides
+
+:guilabel:`Marker Type`: Choose one of the guide types to mark chapters and use other types to do other things.
+
+:guilabel:`Offset`: This adds the ability to set a general offset (hh:mm:ss:ff) to each guide.
+
+:guilabel:`Format`: This defines how the chapter marks are exported. If using the default format string, Kdenlive check if the chapter marker matches YouTube's guideline, and display a notice if it doesn't match.
+
+{{nexttimecode}}: Allow describe chapter time range in a single line (default).
+
+{{comment}}: Show the guide text (default).
+
+{{frame}}: Adds the frame number of each guide.
+
+:guilabel:`Exported`: Shows what get exported. To change the guide text you have to edit the guide in the timeline.
+
+:guilabel:`Copy to Clipboard`: Copy the data viewed in :guilabel:`Exported` into the clipboard to use it in other applications (Youtube).
 
 .. _move_guides_with_spacer_tool:
 
