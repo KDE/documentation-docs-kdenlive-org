@@ -102,7 +102,12 @@ Raise widgets with shortcuts (window)
 With the word "raise" you see all dock widgets (window) on which you can assign shortcuts to raise dock widgets (window). The actions are called like "Raise Project Bin".
 
 
-.. image:: /images/shortcuts.gif
+.. figure:: /images/shortcuts_still.png
+   :width: 100%
+   :target: ../_images/shortcuts.gif
+   :alt: shortcuts
+
+   Click on image to start the animation.
   
 
 
@@ -117,6 +122,8 @@ Click on the clip and you can add/remove keyframe by shortcut.
 
 
 .. image:: /images/shortcut-keyframe.gif
+   :width: 100%
+   :alt: shortcuts keyframe
   
 
 
@@ -130,3 +137,6 @@ The command bar allows to easily searching for any action in Kdenlive like chang
 
 
 .. image:: /images/searchbar.gif
+   :width: 100%
+   :alt: searchbar
+  
