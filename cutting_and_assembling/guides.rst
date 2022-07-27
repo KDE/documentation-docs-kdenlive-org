@@ -68,7 +68,8 @@ Guides can also be used as chapters for DVD videos. See :ref:`rendering`.
 
 .. versionadded:: 22.08
 
-**Export guides as chapter description**
+Export guides as chapter
+------------------------
 
 Guides can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the guides can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
 
@@ -81,13 +82,23 @@ Right click in the timeline ruler and choose :guilabel:`Export Guides` or :menus
 
 :guilabel:`Offset`: This adds the ability to set a general offset (hh:mm:ss:ff) to each guide.
 
-:guilabel:`Format`: This defines how the chapter marks are exported. If using the default format string, Kdenlive check if the chapter marker matches YouTube's guideline, and display a notice if it doesn't match.
+:guilabel:`Format`: This defines how the chapter marks are exported. When using the 2 default format strings (as shown on the picture), Kdenlive check if the chapter marker matches YouTube's guideline, and display a notice if it doesn't match.
 
-{{nexttimecode}}: Allow describe chapter time range in a single line (default).
+:guilabel:`i`: Shows all possible export strings. Select the string you want and Kdenlive adds it to the :guilabel:`Format` for export. Add spaces between the strings as needed. 
 
-{{comment}}: Show the guide text (default).
+{{timecode}} adds guide position in HH:MM.SS (default)
 
-{{frame}}: Adds the frame number of each guide.
+{{comment}} adds the guide text (default)
+
+{{frame}} adds the frame number of each guide
+
+{{index}} adds guide number
+
+{{nexttimecode}} adds next guide position in HH:MM.SS
+
+{{realtimecode}} adds guide position in HH:MM:SS:FF
+
+:guilabel:`Reset`: Resets the settings to the default: {{timecode}} {{comment}}
 
 :guilabel:`Exported`: Shows what get exported. To change the guide text you have to edit the guide in the timeline.
 
