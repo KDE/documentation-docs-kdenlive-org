@@ -1,6 +1,6 @@
 .. meta::
    :description: Timeline, central part of Kdenlive video editor
-   :keywords: KDE, Kdenlive, timeline, working, documentation, user manual, video editor, open source, free, learn, easy
+   :keywords: KDE, Kdenlive, timeline, track, configure, navigation, working, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
 
@@ -45,14 +45,15 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
    * :menuselection:`Mute the track` |kdenlive-hide-audio|
    * :menuselection:`Hide video` |kdenlive-hide-video| from this track; and,
    * :menuselection:`Enable/Disable track effects` |tools-wizard| allows you to enable or disable the effects applied to the track.
-   * Right clicking in the track header will give you a context menu allowing to manage (add / delete) tracks.
+   * Right clicking in the track header will give you a context menu allowing to manage (add / delete) tracks. See :ref:`configure trakcs <configure_tracks>`
 
 
 4 - The track itself, this is where you can drop your clips.
 
 
 
-**Zoombars**
+Zoombars
+--------
 
 .. versionadded:: 21.04.0
 
@@ -64,7 +65,8 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
 
    Besides the availability of zoombars in the monitor and keyframe scroll bars, zoombars are now available in the timeline as well. You can easily zoom in/out in the timeline by dragging the edges of the timeline scrollbar. (Vertical zoombars coming soon.) Recommend playing this video in full-screen mode.
 
-**Key binding information**
+Key binding information
+-----------------------
 
 .. versionadded:: 21.04.0
 
@@ -77,7 +79,8 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
    Key binding info has been added on the left while context item information has been moved to the right of the :ref:`status_bar`. Recommend playing this video in full-screen mode.
 
 
-**Improved timeline visuals**
+Timeline visuals
+----------------
 
 .. versionadded:: 21.04.0
 
@@ -176,8 +179,10 @@ Keyframe handling
 * You can move a keyframe without altering its value by using the vertical line that appears when you are above or below a keyframe.
 * Remove a keyframe by dragging it far above or below the clip limits.
 
-Configurable thumbnails for each track
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _configure_tracks:
+
+Configurable tracks
+~~~~~~~~~~~~~~~~~~~
 
 .. versionadded:: 19.04.0
 
@@ -187,7 +192,29 @@ Configurable thumbnails for each track
       :align: left
       :alt: Configurable_thumbnails
   
-   You can choose to display between :menuselection:`In frame`, :menuselection:`In/Out frames`, :menuselection:`All frames` or :menuselection:`No thumbnails`.
+   **Video track:** You can choose to display between:
+   
+   - :guilabel:`In frame`
+   
+   - :guilabel:`In/Out frames`
+   
+   - :guilabel:`All frames` or 
+   
+   - :guilabel:`No thumbnails`.
+
+.. container:: clear-both
+
+   .. image:: /images/audio-track_right-click.png
+      :align: left
+      :alt: audio-track_right-click
+
+   **Audio track:** You can enable:
+   
+   - :guilabel:`Show Record Control` to record audio direct into the track
+   
+   - :guilabel:`Separate Channels` to see each channel of an audio track (i.e stereo, 5.1)
+   
+   - :guilabel:`Normalize Audio Thumbnails` maximize the audio level peak to -3dB.   
 
 .. rst-class:: clear-both
 
@@ -202,7 +229,7 @@ Disabling individual clips
       :align: left
       :alt: Disabling_individual_clips
   
-   Individual clips can be disabled while still in the timeline but with no audio and no video – (works for all clip types). Right-click on the clip and choose :menuselection:`Disable clip` or :menuselection:`Enable clip`.
+   Individual clips can be disabled while still in the timeline but with no audio and no video – (works for all clip types). Right-click on the clip and choose :guilabel:`Disable clip` or :guilabel:`Enable clip`.
 
 .. rst-class:: clear-both
 
