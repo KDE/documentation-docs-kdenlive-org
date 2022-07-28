@@ -210,7 +210,7 @@ Configurable tracks
 
    **Audio track:** You can enable:
    
-   - :guilabel:`Show Record Control` to record audio direct into the track
+   - :guilabel:`Show Record Control` to record audio direct into the track. More details see :ref:`audio-recording`.
    
    - :guilabel:`Separate Channels` to see each channel of an audio track (i.e stereo, 5.1)
    
