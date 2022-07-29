@@ -45,7 +45,7 @@ The timeline is the central part of **Kdenlive**. It is made of 4 different area
    * :menuselection:`Mute the track` |kdenlive-hide-audio|
    * :menuselection:`Hide video` |kdenlive-hide-video| from this track; and,
    * :menuselection:`Enable/Disable track effects` |tools-wizard| allows you to enable or disable the effects applied to the track.
-   * Right clicking in the track header will give you a context menu allowing to manage (add / delete) tracks. See :ref:`configure trakcs <configure_tracks>`
+   * Right clicking in the track header will give you a context menu allowing to manage (add / delete) tracks. See :ref:`configure tracks <configure_tracks>`
 
 
 4 - The track itself, this is where you can drop your clips.
