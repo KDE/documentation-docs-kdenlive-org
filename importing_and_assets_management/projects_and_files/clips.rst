@@ -126,9 +126,9 @@ Create Animation
 
 :guilabel:`Create Animation...`: Creates a new animation. Give a name for your new animation and it opens Glaxnimate and adds the newly created animation to the project bin. You can then edit the animation in Glaxnimate by right-click on the animation and choose :guilabel:`Edit Clip` and whenever you save it, it is automatically updated in Kdenlive.
 
-Kdenlive supports `JSon` (Lottie animations) and `rawr` (Glaxnimate animation) animation.
+Kdenlive supports `Json` (Lottie animations) and `rawr` (Glaxnimate animation) animation.
 
-`JSon` and `rawr` files contains an alpha channel so the imported animations have a background which is not visible.
+`Json` and `rawr` files contains an alpha channel so the imported animations have a background which is not visible.
 
 If Glaxnimate is not installed on your computer following message pops-up:
 

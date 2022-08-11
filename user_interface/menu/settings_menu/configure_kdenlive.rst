@@ -234,7 +234,7 @@ Specifies the Media Types (formerly known as MIME types) which Kdenlive can work
 
 Added file type: `AVIF`, `HEIF` and `JPEG XL`
 
-Added animation file type: `JSon` (Lottie animations) and `rawr` (Glaxnimate animation)
+Added animation file type: `Json` (Lottie animations) and `rawr` (Glaxnimate animation)
 
 .. _configure_colors:
 
