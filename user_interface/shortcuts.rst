@@ -479,12 +479,12 @@ Raise widgets with shortcuts (window)
 With the word "raise" you see all dock widgets (window) on which you can assign shortcuts to raise dock widgets (window). The actions are called like "Raise Project Bin".
 
 
-.. figure:: /images/shortcuts_still.png
+.. figure:: ../images/shortcuts_still.png
    :width: 100%
-   :target: ../images/shortcuts.gif
+   :target: ../_images/shortcuts.gif
    :alt: shortcuts
 
-   Click on image to start the animation.
+   Click into the image to start the animation.
   
 
 
