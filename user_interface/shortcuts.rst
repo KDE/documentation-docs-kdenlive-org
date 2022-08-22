@@ -481,7 +481,7 @@ With the word "raise" you see all dock widgets (window) on which you can assign 
 
 .. figure:: /images/shortcuts_still.png
    :width: 100%
-   :target: ../_images/shortcuts.gif
+   :target: ../images/shortcuts.gif
    :alt: shortcuts
 
    Click on image to start the animation.
