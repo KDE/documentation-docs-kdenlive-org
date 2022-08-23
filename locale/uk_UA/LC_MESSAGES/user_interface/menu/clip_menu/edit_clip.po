@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 00:37+0000\n"
-"PO-Revision-Date: 2021-12-31 14:27+0200\n"
+"POT-Creation-Date: 2022-08-22 00:38+0000\n"
+"PO-Revision-Date: 2022-08-22 22:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,58 +18,131 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#: ../../user_interface/menu/clip_menu/edit_clip.rst:17
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:1
+msgid "Edit clip in Kdenlive video editor"
+msgstr "Редагування кліпу у редакторі відео Kdenlive"
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:1
+msgid ""
+"KDE, Kdenlive, edit clip, animation, color clip, image, editing, timeline, "
+"documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, редагування кліпу, анімація, кольоровий кліп, зображення,"
+" редагування, монтажний стіл, документація, підручник, відеоредактор, відео,"
+" відкритий код, вільний, вивчення, вивчити, просто"
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:23
 msgid "Edit Clip"
 msgstr "Змінити кліп"
 
-#: ../../user_interface/menu/clip_menu/edit_clip.rst:19
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:25
 msgid "Contents"
 msgstr "Зміст"
 
-#: ../../user_interface/menu/clip_menu/edit_clip.rst:21
-msgid ""
-"This option is available from :ref:`clip_menu` for audio and image files. It "
-"is greyed out for video clips. It opens the clip in an external editor."
-msgstr ""
-"Цим пунктом можна скористатися за допомогою :ref:`меню кліпу <clip_menu>` "
-"для файлів зі звуковими даними та даними зображень. Ним не можна "
-"скористатися для відеокліпів. Використання цього пункту призведе до "
-"відкриття кліпу у зовнішньому редакторі."
-
-#: ../../user_interface/menu/clip_menu/edit_clip.rst:23
-msgid ""
-"Selecting :menuselection:`Edit Clip` on audio clips causes the audio editing "
-"software specified in :menuselection:`Settings --> Configure Kdenlive... --> "
-"Environment page --> Default Apps tab` to open the audio clip ready for "
-"editing. `Audacity <https://www.audacityteam.org/>`_ is the app that is "
-"configured by default to be the audio editing tool for Kdenlive."
-msgstr ""
-"Вибір пункту :menuselection:`Змінити кліп` для звукових кліпів призведе до "
-"запуску програми для редагування звукових даних, яку визначено за допомогою "
-"пункту :menuselection:`Параметри --> Налаштувати Kdenlive --> Середовище --> "
-"Типові програми --> Редагування звукових даних`. Типовою програмою для "
-"редагування звукових даних у Kdenlive є `Audacity <https://www.audacityteam."
-"org/>`_."
-
-#: ../../user_interface/menu/clip_menu/edit_clip.rst:25
-msgid ""
-"Selecting :menuselection:`Edit Clip` on image clips causes the image editing "
-"software specified in :menuselection:`Settings --> Configure Kdenlive... --> "
-"Environment page --> Default Apps tab` to open the image file ready for "
-"editing. `Krita <https://krita.org/>`_ is the app that is configured by "
-"default to be the audio editing tool for Kdenlive."
-msgstr ""
-"Вибір пункту :menuselection:`Змінити кліп` для кліпів зображень призведе до "
-"запуску програми для редагування зображень, яку визначено за допомогою "
-"пункту :menuselection:`Параметри --> Налаштувати Kdenlive --> Середовище --> "
-"Типові програми --> Редагування зображень`. Типовою програмою для "
-"редагування звукових даних у Kdenlive є `GIMP <https://www.gimp.org/>`_."
-
 #: ../../user_interface/menu/clip_menu/edit_clip.rst:27
 msgid ""
-"The option is not available for video clips because **Kdenlive** is the "
-"video editor - only audio and image clips are edited by external software."
+"This option is available from :ref:`clip_menu` or by right-click on the clip "
+"in the :ref:`project bin <clip_right-click>` for following clip types:"
+msgstr ""
+"Доступ до цього пункту можна отримати за допомогою :ref:`clip_menu` або"
+" клацанням правою кнопкою миші на пункті кліпу у списку :ref:`контейнера"
+" проєкту <clip_right-click>`. Доступні такі типи кліпів:"
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:29
+msgid "audio"
+msgstr "звук"
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:31
+msgid "image"
+msgstr "зображення"
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:33
+msgid "animation (*new in version 22.08*)"
+msgstr "анімація (*нове у версії 22.08*)"
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:35
+msgid ""
+"It opens the clip in an external software specified in :ref:`default_apps` (:"
+"menuselection:`Settings --> Configure Kdenlive... --> Environment page --> "
+"Default Apps tab`) ready for editing."
+msgstr ""
+"Відкриває кліп у зовнішній програмі для редагування, яку вказано у списку"
+" :ref:`default_apps` (:menuselection:`Параметри --> Налаштувати Kdenlive..."
+" --> сторінка «Середовище» --> вкладка «Типові програми»`), готовий до"
+" редагування."
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:37
+msgid ""
+"If the path is not set a pop-up window appears to define the path to the "
+"external software on your computer:"
+msgstr ""
+"Якщо шлях не встановлено, буде показано контекстне вікно для визначення"
+" шляху до зовнішньої програми на вашому комп'ютері:"
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:42
+msgid ""
+"Once the path is set the application starts and opens the clip you like. The "
+"entered path gets added automatically in :ref:`default_apps`."
+msgstr ""
+"Щойно шлях буде встановлено, система запустить програму і відкриє потрібний"
+" вам кліп. Введений шлях буде автоматично додано до списку"
+" :ref:`default_apps`."
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:44
+msgid ""
+"More details for installing the external software and how to set the path "
+"see :ref:`default_apps`."
+msgstr ""
+"Докладніше про встановлення зовнішніх програмі і те, як встановити шлях,"
+" можна дізнатися з розділу :ref:`default_apps`."
+
+#: ../../user_interface/menu/clip_menu/edit_clip.rst:48
+#| msgid ""
+#| "The option is not available for video clips because **Kdenlive** is the "
+#| "video editor - only audio and image clips are edited by external software."
+msgid ""
+"The option is greyed out for video clips because **Kdenlive** is the video "
+"editor - only audio, image and animation clips are edited by external "
+"software."
 msgstr ""
 "Цим пунктом не можна скористатися для відеокліпів, оскільки редактором для "
-"відеоданих є **Kdenlive** — лише звукові кліпи та зображення можна "
+"відеоданих є **Kdenlive** — лише звукові кліпи, зображення та кліпи анімації"
+" можна "
 "редагувати у зовнішньому програмному забезпеченні."
+
+#~ msgid ""
+#~ "This option is available from :ref:`clip_menu` for audio and image files. "
+#~ "It is greyed out for video clips. It opens the clip in an external editor."
+#~ msgstr ""
+#~ "Цим пунктом можна скористатися за допомогою :ref:`меню кліпу <clip_menu>` "
+#~ "для файлів зі звуковими даними та даними зображень. Ним не можна "
+#~ "скористатися для відеокліпів. Використання цього пункту призведе до "
+#~ "відкриття кліпу у зовнішньому редакторі."
+
+#~ msgid ""
+#~ "Selecting :menuselection:`Edit Clip` on audio clips causes the audio "
+#~ "editing software specified in :menuselection:`Settings --> Configure "
+#~ "Kdenlive... --> Environment page --> Default Apps tab` to open the audio "
+#~ "clip ready for editing. `Audacity <https://www.audacityteam.org/>`_ is "
+#~ "the app that is configured by default to be the audio editing tool for "
+#~ "Kdenlive."
+#~ msgstr ""
+#~ "Вибір пункту :menuselection:`Змінити кліп` для звукових кліпів призведе "
+#~ "до запуску програми для редагування звукових даних, яку визначено за "
+#~ "допомогою пункту :menuselection:`Параметри --> Налаштувати Kdenlive --> "
+#~ "Середовище --> Типові програми --> Редагування звукових даних`. Типовою "
+#~ "програмою для редагування звукових даних у Kdenlive є `Audacity <https://"
+#~ "www.audacityteam.org/>`_."
+
+#~ msgid ""
+#~ "Selecting :menuselection:`Edit Clip` on image clips causes the image "
+#~ "editing software specified in :menuselection:`Settings --> Configure "
+#~ "Kdenlive... --> Environment page --> Default Apps tab` to open the image "
+#~ "file ready for editing. `Krita <https://krita.org/>`_ is the app that is "
+#~ "configured by default to be the audio editing tool for Kdenlive."
+#~ msgstr ""
+#~ "Вибір пункту :menuselection:`Змінити кліп` для кліпів зображень призведе "
+#~ "до запуску програми для редагування зображень, яку визначено за допомогою "
+#~ "пункту :menuselection:`Параметри --> Налаштувати Kdenlive --> Середовище "
+#~ "--> Типові програми --> Редагування зображень`. Типовою програмою для "
+#~ "редагування звукових даних у Kdenlive є `GIMP <https://www.gimp.org/>`_."
