@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-01 00:38+0000\n"
+"PO-Revision-Date: 2022-09-20 01:57\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/documentation-docs-kdenlive-org/"
+"docs_kdenlive_org_effects_and_compositions___effect_groups___alpha_manipulation___motion_tracker."
+"pot\n"
+"X-Crowdin-File-ID: 26461\n"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:10
+msgid "Motion Tracker"
+msgstr "Motion Tracker - 运动跟踪器"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:13
+msgid "Contents"
+msgstr "目录"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:16
+msgid "What is Motion Tracking?"
+msgstr "什么是运动跟踪？"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:18
+msgid ""
+"Motion tracking is the process of locating a moving object across time. "
+"Kdenlive uses `OpenCV (Open Source Computer Vision Library) <https://opencv."
+"org/about/>`_ for motion detection."
+msgstr ""
+"运动跟踪是一个跨时间定位运动物体的过程。Kdenlive 使用 `OpenCV (Open Source "
+"Computer Vision Library) <https://opencv.org/about/>`_ 进行运动侦测。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:20
+msgid "-- `Wikipedia <https://en.wikipedia.org/wiki/Video_tracking>`_"
+msgstr "-- `维基百科 <https://en.wikipedia.org/wiki/Video_tracking>`_"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:26
+msgid "How to track a region of a video?"
+msgstr "如何跟踪视频中的一个区域？"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:28
+msgid "The basic workflow for tracking a region consists of:"
+msgstr "跟踪特定区域的基本操作流程包括："
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:30
+msgid "Select the desired region to track on the Project Monitor."
+msgstr "在项目监视器上选择要跟踪的区域。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:31
+msgid "Choose a tracking algorithm."
+msgstr "选择一个跟踪算法。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:32
+msgid "Click on the Analyse button."
+msgstr "点击分析按钮。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:41
+msgid ""
+"When Analyse is done you can export the keyframes to the clipboard by click "
+"on |application-menu| and choose :menuselection:`Copy keyframes to "
+"clipboard`. See: :ref:`exchange_keyframes_across_effects`"
+msgstr ""
+"分析完成后，您可以点击 |application-menu| 并选择 :menuselection:`复制关键帧到"
+"剪贴板' 以将关键帧导出到剪贴板。参见： :ref:"
+"`exchange_keyframes_across_effects`"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:46
+msgid "Tracking algorithms"
+msgstr "跟踪算法"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:48
+msgid "KCF"
+msgstr "KCF"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:50
+msgid "**Kernelized Correlation Filters**"
+msgstr "**Kernelized Correlation Filters，目标跟踪算法**"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:52
+msgid ""
+"**Pros:** Accuracy and speed are both better than MIL and it reports "
+"tracking failure better than MIL."
+msgstr ""
+"**优点：** 精度和速度都优于 MIL，它对于跟踪过程出现故障的报告也优于 MIL。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:54
+msgid "**Cons:** Does not recover from full occlusion."
+msgstr ""
+"**缺点：** 在物体的运动过程中，如果某一段时间内物体被完全遮挡，KCF 无法继续跟"
+"踪。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:57
+msgid "CSRT"
+msgstr "CSRT"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:59
+msgid ""
+"In the Discriminative Correlation Filter with Channel and Spatial "
+"Reliability (DCF-CSR), we use the spatial reliability map for adjusting the "
+"filter support to the part of the selected region from the frame for "
+"tracking. This ensures enlarging and localization of the selected region and "
+"improved tracking of the non-rectangular regions or objects. It uses only 2 "
+"standard features (HoGs and Colornames). It also operates at a comparatively "
+"lower fps (25 fps) but gives higher accuracy for object tracking."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:62
+msgid "MOSSE"
+msgstr "MOSSE"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:64
+msgid "**Minimum Output Sum of Squared Error**"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:66
+msgid ""
+"MOSSE uses an adaptive correlation for object tracking which produces stable "
+"correlation filters when initialized using a single frame. MOSSE tracker is "
+"robust to variations in lighting, scale, pose, and non-rigid deformations. "
+"It also detects occlusion based upon the peak-to-sidelobe ratio, which "
+"enables the tracker to pause and resume where it left off when the object "
+"reappears. MOSSE tracker also operates at a higher fps (450 fps and even "
+"more)."
+msgstr ""
+"MOSSE 在使用单帧初始化时，会使用自适应关联关系，以产生稳定相关过滤器的对象跟"
+"踪。 MOSSE 跟踪器能够适应照明、尺寸、姿势和非硬性变形等变化。 MOSSE 还能够检"
+"测到基于峰对侧边比率的关联，这使得它能够在物体被遮挡时暂停，并在物体重新出现"
+"时恢复跟踪。MOSSE 跟踪器还能够以更高的帧率运行（450 fps 或更高）。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:68
+msgid "**Pros:** It is as accurate as other complex trackers and much faster."
+msgstr "**优点：** 它与其他复杂的跟踪器一样精确，速度也更快。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:70
+msgid ""
+"**Cons:** On a performance scale, it lags behind the deep learning based "
+"trackers."
+msgstr "**缺点：** 从性能的角度上来说，它落后于基于深度学习的跟踪算法。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:73
+msgid "MIL"
+msgstr "MIL"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:75
+msgid ""
+"**Pros:** The performance is pretty good. It does a reasonable job under "
+"partial occlusion."
+msgstr "**Pros:** 性能很好。它在物体被部分遮挡时依然能够得出不错的跟踪结果。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:77
+msgid ""
+"**Cons:** Tracking failure is not reported reliably. Does not recover from "
+"full occlusion."
+msgstr ""
+"**缺点：** 无法可靠地报告跟踪失败；在物体的运动过程中，如果某一段时间内物体被"
+"完全遮挡，MIL 无法继续跟踪。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:80
+msgid "MedianFlow"
+msgstr "MedianFlow"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:82
+msgid ""
+"**Pros:** Excellent tracking failure reporting. Works very well when the "
+"motion is predictable and there is no occlusion."
+msgstr ""
+"**优点：** 非常好的跟踪故障报告。当物体的运动轨迹可以预测并且没有中断时，非常"
+"有效。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:84
+msgid "**Cons:** Fails under large motion."
+msgstr "**缺点：** 当物体运动幅度较大时可能出现跟踪失败。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:87
+msgid "`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_"
+msgstr "`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:89
+msgid ""
+"The DaSiamRPN visual tracking algorithm relies on deep-learning models to "
+"provide extremely accurate results."
+msgstr "DasiamRPN 视觉跟踪算法依靠深度学习模型提供极为准确的结果。"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:91
+msgid ""
+"In order to use the DaSiam algorithm you need to download the AI models and "
+"place them in:"
+msgstr "为了使用 DaSiam 算法，您需要下载 AI 模型并将其放置于："
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:93
+msgid "**Linux**"
+msgstr "**Linux**"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:95
+msgid "*$HOME/.local/share/kdenlive/opencvmodels*."
+msgstr "*$HOME/.local/share/kdenlive/opencvmodels*"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:97
+msgid "Flatpak"
+msgstr "Flatpak 版本"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:99
+msgid "*$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels*"
+msgstr "*$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels*"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:101
+msgid "**Windows**"
+msgstr "**Windows**"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:103
+msgid "*%AppData%/kdenlive/opencvmodels*"
+msgstr "*%AppData%/kdenlive/opencvmodels*"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:105
+msgid ""
+"Press :kbd:`Win + R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) "
+"and copy **%AppData%/kdenlive/**. Then create the folder `opencvmodels`"
+msgstr ""
+"同时按 :kbd:`Win + R` (:kbd:`Windows` 键与 :kbd:`R` key 键)，复制 **%AppData"
+"%/kdenlive/** ，然后创建文件夹 `opencvmodels`"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:107
+msgid ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_kernel_cls1.onnx"
+msgstr ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_kernel_cls1.onnx"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:108
+msgid ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_r1."
+"onnx"
+msgstr ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_r1."
+"onnx"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:109
+msgid ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_model.onnx"
+msgstr ""
+"https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_model.onnx"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:112
+msgid "Frame shape"
+msgstr "帧形状"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:114
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:119
+msgid "soon"
+msgstr "敬请期待"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:117
+msgid "Shape color"
+msgstr "形状颜色"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:122
+msgid "Blur type"
+msgstr "模糊类型"
+
+#: ../../effects_and_compositions/effect_groups/alpha_manipulation/motion_tracker.rst:127
+msgid ""
+"Four blur types are available: Median blur, Gaussian blur, Pixelate, Opaque "
+"fill"
+msgstr "有四种模糊类型可供选择：中间模糊、高斯模糊、马赛克、不透明填充"

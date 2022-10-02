@@ -1,0 +1,123 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-25 00:22+0000\n"
+"PO-Revision-Date: 2022-01-10 10:00+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.1\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:13
+msgid "How to fading in-out Kdenlive titles"
+msgstr "Comment faire un assombrissement des titres de Kdenlive"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:15
+msgid ""
+"In this short *HOWTO* video, we show you how to (smoothly) fade in and out "
+"Kdenlive titles over a video clip, fading from and to transparency. The key "
+"to success is to use a **Composite & Transform** transition with keyframes "
+"(**Affine** and **Composite** will work too). **Don’t use** the Fade from/to "
+"Black effects though, as these effects remove the title transparency "
+"information."
+msgstr ""
+"Dans cette courte vidéo de *tutoriel*, nous vous montrons comment réaliser "
+"(en douceur) un fondu /apparition des titres de Kdenlive sur une vidéo, "
+"s’estompant de et vers la transparence. La clé du succès est d’utiliser une "
+"transition **Composition & Transformation** avec des trames clé "
+"(**Affinage** et **Composition** fonctionneront aussi). **Ne pas utiliser** "
+"les effets Fondu de/vers Noir, car ces effets suppriment les informations de "
+"transparence du titre."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:23
+msgid "Notes"
+msgstr "Remarques"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:25
+msgid "These are the individual steps shown in this HOWTO video:"
+msgstr "Les étapes individuelles sont affichées dans cette vidéo de tutoriel :"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:27
+msgid "Add a Composite & Transform transition to the title clip."
+msgstr ""
+"Ajouter une transformation « Composite et transformation » à la vidéo de "
+"titre."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:28
+msgid ""
+"First keyframe: set the opacity to 0%. This marks the beginning of the fade "
+"in (ramp up)."
+msgstr ""
+"Première trame clé : définir l'opacité à 0 %. Ceci va marquer le début de "
+"l'éclaircissement (montée)."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
+msgid ""
+"Second keyframe: add a new keyframe where you want the title to be fully "
+"faded in, set the opacity to 100%. Set the type of the keyframe to Linear."
+msgstr ""
+"Deuxième trame clé : ajoutez une nouvelle trame clé dans laquelle vous "
+"voulez que le titre soit complètement fondu, définissez l’opacité à 100 %. "
+"Définissez le type de trame clé sur « Linéaire »."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
+msgid ""
+"The rationale to set this keyframe to Linear is that otherwise Kdenlive "
+"(MLT) calculates a smooth curve fitting to the previous and following "
+"keyframe, causing the opacity value to overshoot. With a maximum possible "
+"opacity of 100% you won’t notice. However, when you use a maximum opacity of "
+"less than 100%, then this overshooting may become visible."
+msgstr ""
+"La justification pour définir cette trame clé sur « Linéaire » est que sinon "
+"Kdenlive (MLT) calcule un ajustement de courbe lisse concernant la trame clé "
+"précédente et la suivante, ce qui provoque un dépassement de la valeur "
+"d’opacité. Avec une opacité maximale de 100 %, vous ne le remarquerez pas. "
+"Cependant, lorsque vous utilisez une opacité maximale inférieure à 100 %, ce "
+"dépassement peut devenir visible."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:31
+msgid ""
+"Ensure that the first keyframe is Smooth. You can only adjust the type of "
+"the first keyframes after you’ve added a second keyframe."
+msgstr ""
+"Assurez-vous que la première trame clé est douce. Vous ne pouvez ajuster le "
+"type de la première trame clé qu’après l'addition d'une seconde trame clé."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:32
+msgid ""
+"Third keyframe: add another keyframe near the end where you want to start "
+"fading out the title. Leave the opacity at 100%. Set the keyframe type to "
+"Smooth."
+msgstr ""
+"Troisième trame clé : ajoutez une autre trame clé près de la fin où vous "
+"souhaitez commencer à estomper le titre. Laissez l’opacité à 100 %. Réglez "
+"le type d’image clé sur « Doux »."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:33
+msgid "Fourth keyframe: add a final keyframe, where you set the opacity to 0%."
+msgstr ""
+"Quatrième trame clé : ajouter la trame clé finale, dans laquelle vous "
+"définirez l'opacité à 0 %."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:35
+msgid "Done."
+msgstr "Terminé."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:37
+msgid ""
+"In case you are scratching your head now, why this mixture of smooth and "
+"linear interpolated keyframes? Then head over to our new article on :ref:"
+"`the_smooth_keyframe_interpolation`."
+msgstr ""
+"Au cas où vous vous gratteriez la tête maintenant, pourquoi ce mélange de "
+"trames clé interpolées lisses et linéaires ? Ensuite, rendez-vous à notre "
+"nouvel article sur :ref:‘the_smooth_keyframe_interpolation’."

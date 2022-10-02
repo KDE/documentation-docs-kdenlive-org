@@ -1,0 +1,150 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-02 00:38+0000\n"
+"PO-Revision-Date: 2021-11-13 18:41+0100\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.1\n"
+
+#: ../../exporting/render_profile_parameters.rst:1
+msgid "The Kdenlive User Manual"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, render, render profile, render parameter"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:21
+msgid "Render Profile Parameters"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:24
+msgid "Contents"
+msgstr "Innehåll"
+
+#: ../../exporting/render_profile_parameters.rst:27
+#: ../../exporting/render_profile_parameters.rst:92
+msgid "Render Profile Parameters - How to read them"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:44
+msgid ""
+"Kdenlive now makes use of \"property presets\" delivered by the *melt* "
+"project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). "
+"These presets are referenced by the *properties=<preset>* syntax. In the "
+"example illustrated, the render profile is referencing *lossless/H.264*. "
+"This refers to a property preset found in file H.264 found on the system at :"
+"file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:46
+msgid ""
+"All the *<presets>* referenced in the render settings in Kdenlive will be "
+"referring to presets found at :file:`/usr/share/mlt/presets/consumer/"
+"avformat/` (on a default install). Note that you reference presets found in "
+"subdirectories of this folder using a :file:`<dirname>/<profile>` syntax as "
+"shown in the example above."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:55
+msgid ""
+"The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` "
+"are simple text files that contain the *melt* parameters that define the "
+"rendering. An example is shown below. These are the same parameters that "
+"were used in earlier versions of Kdenlive – see next section for how to read "
+"those."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:57
+msgid "Contents of lossless/H.264:"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:79
+msgid "Scanning Dropdown"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:85
+msgid ""
+"This option controls the frame scanning setting the rendered file will have. "
+"Options are *Force Progressive*, *Force Interlaced* and *Auto*."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:88
+msgid ""
+":menuselection:`Auto` causes the rendered file to take the scanning settings "
+"that are defined in the :ref:`project_settings`. Use the other options to "
+"override the setting defined in the project settings."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:96
+msgid "|outdated|"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:98
+msgid ""
+"The parameters that go into a render profile derive from the **ffmpeg** "
+"program."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:100
+msgid ""
+"This is a worked example to show how you can understand what these "
+"parameters mean using the **ffmpeg** documentation."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:102
+msgid "In the example above the parameters are:"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:124
+msgid ""
+"Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
+"translates these parameters as shown below."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:126
+msgid "Main option is:"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:132
+msgid "Video options are:"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:144
+msgid "Audio options are:"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:152
+msgid "The AVCodecContext AVOptions include:"
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:161
+msgid ""
+"So all the render profile options are documented here in the **ffmpeg** "
+"documentation."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:163
+msgid ""
+"See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on "
+"ConsumerAvFormat."
+msgstr ""
+
+#: ../../exporting/render_profile_parameters.rst:165
+msgid ""
+"See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum."
+"kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
+msgstr ""

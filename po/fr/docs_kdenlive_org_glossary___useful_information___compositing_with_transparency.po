@@ -1,0 +1,382 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 00:22+0000\n"
+"PO-Revision-Date: 2022-01-14 16:29+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.1\n"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:13
+msgid "Compositing with transparency"
+msgstr "Composition avec transparence"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:15
+msgid ""
+"When transparency is involved in both frames processed by one of Kdenlive’s "
+"dynamic compositing transitions, the outcome may be surprising to some of us "
+"users. Luckily, things aren’t as inexplicable as they appear, so let’s dive "
+"right into transparency and transitions…"
+msgstr ""
+"Lorsque la transparence est impliquée dans les deux trames traitées par "
+"l'une des transitions de composition dynamique de Kdenlive. Le résultat peut "
+"surprendre certains d'entre nous, utilisateurs. Heureusement, les choses ne "
+"sont pas aussi inexplicables qu'elles en ont l'air. Ainsi, plongeons "
+"directement dans la transparence et les transitions..."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:18
+msgid "Transparency & Dynamic Transitions"
+msgstr "Transitions de transparence et de dynamique"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:20
+msgid ""
+"When it comes to handling transparency, Kdenlive’s :ref:"
+"`kdenlive_transitions` fall into two categories:"
+msgstr ""
+"Quand il s’agit de gérer la transparence, les :ref:‘kdenlive_transitions’ de "
+"Kdenlive se divisent en deux catégories :"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:22
+msgid "**Affine:** uses the so-called **atop** compositing operator."
+msgstr "**Affiner : ** utilise l'opérateur de composition dénommé **atop**."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:23
+msgid ""
+"**Composite**, **Composite & Transform**, **Cairo (Affine) Blend**: uses the "
+"**over** compositing operator instead."
+msgstr ""
+"**Composition**, **Composition & Transformation**, **Mixage Cairo (Affinage) "
+"** : utilises l'opérateur de **sur**-composition à la place."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:25
+msgid ""
+"So what does these **atop** and **over** really mean? Let’s discover what "
+"these compositing operators do using a typical title and semi-transparent "
+"background example. For simplicity, we first will ignore the **Opacity** "
+"parameter of the aforementioned transitions to keep things easier to grasp. "
+"And after we’ve mastered this step, we will finally look at how the opacity "
+"parameter fits into the full picture."
+msgstr ""
+"Alors, que signifient réellement ces opérations **atop** et **sur** ? "
+"Découvrons ce que ces opérateurs de composition réalisent à l'aide d'un "
+"exemple typique avec un titre et un arrière-plan semi-transparent. Pour "
+"simplifier, nous allons d'abord ignorer le paramètre **Opacité** des "
+"transitions susmentionnées afin de faciliter la compréhension des choses. "
+"Une fois que nous aurons maîtrisé cette étape, nous examinerons enfin "
+"comment le paramètre d'opacité s'intègre dans l'ensemble du processus."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:29
+msgid "Affine: Atop Compositing"
+msgstr "Affinage : composition « Atop »"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:38
+msgid ""
+"The result of the **atop** compositing is best explained at first by showing "
+"its outcome: Text from the topmost title clip (partly) vanishes in those "
+"regions where the underlying clip on the middle track is (semi) transparent."
+msgstr ""
+"Le résultat de la composition **atop** est mieux expliqué, en montrant "
+"d'abord son résultat : le texte à partir de la vidéo de titre la plus haute "
+"disparaît (partiellement) dans les régions où la vidéo sous-jacente de la "
+"piste centrale est (semi-) transparent."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:40
+msgid ""
+"The checkerboard clip on the bottom track just serves for illustrational "
+"purposes, so we can better see the transparent regions."
+msgstr ""
+"La vidéo en damier sur la piste inférieure sert uniquement à des fins "
+"d'illustration. Ainsi, nous pourrons mieux voir les régions transparentes."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:42
+msgid ""
+"Please notice how the two **Affine** transitions are chained: first, the "
+"upper Affine composes the title clip onto the gradient background. Then, the "
+"lower Affine composes the result onto the checkboard background."
+msgstr ""
+"Veuillez noter comment les deux transitions **Affinage** sont enchaînées : "
+"d'abord, la transition « Affinage » supérieure compose la vidéo de titre sur "
+"le fond dégradé. Ensuite, la transition « Affinage » inférieure compose le "
+"résultat sur le fond en damier."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:51
+msgid ""
+"But how does the **Affine** transition exactly handle transparency? Let’s "
+"look at this hand-made illustration, where we have two pixels with some "
+"transparency each (the alpha values, αA and αB). It’s important to **not** "
+"confuse pixel transparency with the opaque parameter of transitions."
+msgstr ""
+"Mais comment la transition **Affinage** gère-t-elle exactement la "
+"transparence ? Regardons regardons cette illustration faite à la main, où "
+"nous avons deux pixels avec une certaine transparence chacun (les valeurs "
+"alpha, αA et αB). Il est important de **ne pas** confondre la transparence "
+"des pixels avec le paramètre « Opacité » des transitions."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:53
+msgid ""
+"Our red pixel comes from the upper track frame (B), whereas the green pixel "
+"stems from the lower track frame (A). An alpha of 0 means a completely "
+"transparent pixel, whereas an alpha of 1.0 (or 255) means totally opaque "
+"pixel."
+msgstr ""
+"Notre pixel rouge provient de la trame supérieure de la piste (B), tandis "
+"que le pixel vert provient de la trame inférieure de la piste (A). Une "
+"valeur alpha de 0 signifie un pixel complètement transparent, tandis qu'un "
+"alpha de 1,0 (ou 255) signifie un pixel totalement opaque."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:55
+msgid ""
+"The **Affine** transition now simply ignores the transparency information "
+"from the upper frame pixel (the red one)."
+msgstr ""
+"La transition **Affinage** ignore désormais simplement les informations de "
+"transparence du pixel supérieur de la trame (le rouge)."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:57
+msgid ""
+"It solely uses the transparency information (green) contained in the lower "
+"track frames! Or more mathematical: α = αA"
+msgstr ""
+"Il utilise uniquement l'information de transparence (verte) contenue dans "
+"les trames de la piste inférieure ! Ou de façon plus mathématique : α = α A."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:59
+msgid ""
+"And that’s the explanation why in our example above the title text vanishes "
+"in those regions where the middle clip is transparent."
+msgstr ""
+"Et c'est la raison pour laquelle dans notre exemple ci-dessus, le texte du "
+"titre disparaît dans les régions où la vidéo du milieu est transparente."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:65
+msgid "Composite & Co: Over Compositing"
+msgstr "Composition & Autres : sur-composition"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:74
+msgid ""
+"Again, we basically use the same setup as before, but this time we use "
+"**Composite & Transform** in place of **Affine** transitions. We chain the "
+"transitions as before, so that the lower transition works on the outcome of "
+"the upper transition."
+msgstr ""
+"Encore une fois, nous utilisons essentiellement la même configuration que "
+"précédemment, mais cette fois, nous utilisons la transition **Composition & "
+"Transformation** à la place des transitions **Affinage**. Nous enchaînons "
+"les transitions comme précédemment, de sorte que la transition inférieure "
+"fonctionne à partir du résultat de la transition supérieure."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:76
+msgid ""
+"But look! The outcome is different! The result of the **over** operator is "
+"probably more to the expectations of most users. Now, the top title clip "
+"doesn’t get (*sorry*) clipped anymore."
+msgstr ""
+"Mais regardez ! Le résultat est différent ! Le résultat de l'opérateur "
+"**sur** est probablement plus conforme aux attentes de la plupart des "
+"utilisateurs. Maintenant, la vidéo du titre supérieur n'est plus coupé "
+"(*désolé*)."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:85
+msgid ""
+"As the **over** operation produces results more to the expectations of many "
+"users, how does it handle transparency exactly?"
+msgstr ""
+"Comme lé**sur**-opération produit des résultats plus conformes aux attentes "
+"de nombreux utilisateurs, comment gère-t-elle exactement la transparence ?"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:87
+msgid ""
+"**Simply spoken:** if you paint some semi-transparent pixel over another "
+"semi-transparent pixel, then **the result will be less transparent**. It "
+"will be even less transparent than the lower frame pixel transparency. This "
+"is what we would probably expect from painting with semi-opaque paint."
+msgstr ""
+"**En clair : **si vous peignez un pixel semi-transparent sur un autre pixel "
+"semi-transparent, alors **le résultat sera moins transparent**. Il sera même "
+"moins transparent que la transparence des pixels de la trame inférieure. "
+"C'est ce que nous attendons probablement pour peindre avec de la peinture "
+"semi-opaque."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:89
+msgid ""
+"Calculating the resulting transparency for two given pixels from an upper "
+"frame (B) and a lower frame (A) is thus more involved this time."
+msgstr ""
+"Le calcul de la transparence résultante pour deux pixels donnés à partir de "
+"la trame supérieure (B) et de la trame inférieure (A) est donc plus concerné "
+"cette fois-ci."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:91
+msgid ""
+"Again, we start with the transparency of the lower frame pixel (green) as a "
+"base. But this time, we can’t ignore the transparency of the (red) upper "
+"frame pixel. But simply adding both transparencies wouldn’t yield sensible "
+"results; what does a transparency of 2.0 or 511 mean?"
+msgstr ""
+"Encore une fois, nous partons de la transparence du pixel de la trame "
+"inférieure (vert) comme base. Mais cette fois, nous ne pouvons pas ignorer "
+"la transparence du pixel (rouge) de la trame supérieure. Mais la simple "
+"addition des deux transparences ne donnerait pas de résultats sensibles. Que "
+"signifie une transparence de 2.0 ou 511 ?"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:93
+msgid ""
+"So the red pixel transparency is **scaled**: you may think of shrinking the "
+"original 0-1.0 scale into the available space above the green transparency "
+"value. The resulting transparency then is the sum of the green base alpha "
+"value, plus the rescaled red alpha value. Remember, we kind of paint over "
+"the lower frame. For the formular-affines: α = αA + αB (1-αA)"
+msgstr ""
+"Ainsi, la transparence du pixel rouge est donc **mis à l'échelle** : vous "
+"pouvez penser à rétrécir l'échelle originale 0 - 1.0 dans l'espace "
+"disponible au-dessus de la valeur de transparence verte. La transparence "
+"résultante est alors la somme de la valeur alpha de base du vert, plus la "
+"valeur alpha du rouge redimensionnée. Veuillez vous rappeler que nous "
+"peignons en quelque sorte par-dessus la trame inférieure. Pour les personnes "
+"éprises de mathématiques : α = αA + αB (1-αA)"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:98
+msgid "Transition Parameter Opacity"
+msgstr "Opacité pour les paramètres de transition"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:100
+msgid ""
+"The dynamic compositing transitions also feature a parameter called "
+"**Opacity**. It’s easy to confuse it with pixel transparency, but it’s "
+"something different. The opacity parameter applies to the upper frames (B) "
+"only. It is kind of a master control … but how does it work?"
+msgstr ""
+"Les transitions de composition dynamique comportent également un paramètre "
+"appelé **Opacité**. Il est facile de le confondre avec la transparence des "
+"pixels. Mais, il s'agit de quelque chose de différent. Le paramètre "
+"d'opacité s'applique aux trames supérieures (B) uniquement. Il s'agit en "
+"quelque sorte d'un contrôle principal... mais comment fonctionne-t-il ?"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:109
+msgid ""
+"Let’s start with the **Affine** transition, again. Above, we’ve seen that "
+"Affine ignores the transparency of the (red) upper frame pixels. And Affine "
+"also **ignores** the **Opacity** parameter when calculating the result "
+"**pixel transparency**."
+msgstr ""
+"Commençons par la transition **Affinage**, encore une fois. Ci-dessus, nous "
+"avons vu que la transition « Affinage » ignore la transparence des pixels "
+"(rouges) de la trame supérieure. Elle ignore également le paramètre "
+"**Opacité** lors du calcul du résultat  pour la **transparence des pixels**."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:111
+msgid ""
+"Instead, the Opacity parameter influences how the result **pixel color** "
+"gets calculated: this is a linear interpolation between the color of the "
+"upper frame (B) pixel and the lower frame (A) pixel. The Opacity now "
+"controls the exact blending point. An opacity of 0.0 results in only the "
+"lower frame (B) pixel color, while 1.0 solely yields the upper frame pixel "
+"(A) color. 0.5 would be halfway between the two pixel colors."
+msgstr ""
+"Au lieu de cela, le paramètre « Opacité » influence la façon dont la couleur "
+"du **pixel** résultant est calculée : il s'agit d'une interpolation linéaire "
+"entre la couleur du pixel de la trame supérieure (B) et celle du pixel de la "
+"trame inférieure (A). Le paramètre « Opacité » contrôle maintenant le point "
+"exact de mélange. Une opacité de 0,0 donne uniquement la couleur du pixel de "
+"la trame inférieure (B), tandis que 1,0 donne uniquement la couleur du pixel "
+"de la trame supérieure (A). Une opacité de 0,5 se situe à mi-chemin entre "
+"les deux couleurs de pixel."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:113
+msgid ""
+"To sum up: in case of the **Affine** transition, **the Opacity parameter "
+"solely affects color blending** between upper frame (B) and lower frame (A) "
+"pixels."
+msgstr ""
+"Pour résumé : dans le cas de la transition **Affinage**, **le paramètre "
+"« Opacité » affecte uniquement le mélange de couleurs** entre les pixels de "
+"la trame supérieure (B) et de la trame inférieur (A)."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:122
+msgid "Next, let’s look at the other transitions: **Composite** & Co."
+msgstr "Ensuite, regardons les autres transitions : **Composition** & Autres."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:124
+msgid ""
+"As for the color blending, the same procedure applies that we’ve just seen "
+"with the Affine transition: the Opacity parameter controls how much upper "
+"frame (B) pixel color gets into the blend."
+msgstr ""
+"En ce qui concerne le mélange des couleurs, la même procédure s'applique que "
+"celle que nous venons de voir avec la transition « Affinage » : le paramètre "
+"« Opacité » contrôle la quantité de couleur du pixel de la trame supérieure "
+"(B) entrant dans le mélange."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:126
+msgid ""
+"But when we look at how the transparency of the resulting pixel gets "
+"calculated, things are starting to look different. We’ve seen that the "
+"transparency of the upper frame (B) pixel gets scaled down in reverse "
+"proportion of the lower frame (A) pixel transparency. The **Opacity** "
+"parameter takes this even further: it additionally scales down the upper "
+"frame (B) pixel transparency. Please see also the illustration."
+msgstr ""
+"Mais, lorsque nous regardons comment la transparence du pixel résultant est "
+"calculée, les choses commencent à être différentes. Nous avons vu que la "
+"transparence du pixel de la trame supérieure (B) est réduite en proportion "
+"inverse de la transparence du pixel de la trame inférieure (A). Le paramètre "
+"**Opacité** va encore plus loin : il réduit également la transparence du "
+"pixel de la trame supérieure (B). Veuillez également consulter "
+"l'illustration."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:128
+msgid ""
+"In consequence, the Opacity parameter thus controls how much opacity of an "
+"upper frame (B) pixel is applied at all. This way, you can fade in or out "
+"the upper frame."
+msgstr ""
+"En conséquence, le paramètre « Opacité » contrôle de combien l'opacité d'un "
+"pixel de la trame supérieure (B) doit être appliquée partout. De cette "
+"façon, vous pouvez faire un fondu en éclaircissement ou en assombrissement "
+"avec la trame supérieure."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:130
+msgid ""
+"To sum up: in case of the **Composite** (&Co) transitions, **the Opacity "
+"parameter affects both color blending** of upper frame (B) and lower frame "
+"(A) pixels, **as well as transparency of the upper frame (B)**."
+msgstr ""
+"En résumé : dans le cas des transitions **Composition** (&Co), **le "
+"paramètre « Opacité » affecte à la fois le mélange de couleurs** des pixels "
+"de la trame supérieure (B) et de la trame inférieure (A), **ainsi que la "
+"transparence de la trame supérieure (B)**."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:136
+msgid "Useful References"
+msgstr "Références utiles"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:138
+msgid ""
+"Wikipedia article on `alpha compositing <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_, with a reference to the original Porter Duff "
+"SIGGRAPH’84 paper on «Compositing Digital Images»."
+msgstr ""
+"Article de Wikipedia sur la « Composition Alpha <https://https://fr."
+"wikipedia.org/wiki/Alpha_blending> »_, avec une référence à l'article "
+"original de Porter Duff  au « SIGGRAPH'84 » sur la « composition d'images "
+"numériques »."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:139
+msgid ""
+"the SVG Open 2015 paper by Craig Northway on `understanding compositing and "
+"color extensions in SVG 1.2 in 30 minutes! <http://www.graphicalweb.org/2005/"
+"papers/abstractsvgopen/index.html>`_ – especially the Porter Duff operator "
+"table in chapter 6 with resulting alpha calculation column."
+msgstr ""
+"Le document « SVG Open 2015 » de Craig Northway sur « comprendre la "
+"composition et les extensions de couleurs dans SVG 1.2 en 30 minutes ! "
+"<http://www.graphicalweb.org/2005/papers/abstractsvgopen/index.html> »_, en "
+"particulier, le tableau de l'opérateur Porter Duff au chapitre 6 avec la "
+"colonne de calcul de l'alpha résultant."

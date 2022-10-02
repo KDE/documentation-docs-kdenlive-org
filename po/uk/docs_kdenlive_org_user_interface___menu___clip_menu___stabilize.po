@@ -1,0 +1,368 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-24 00:38+0000\n"
+"PO-Revision-Date: 2021-12-31 14:28+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:17
+msgid "Stabilize"
+msgstr "Стабілізація"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:19
+msgid "Contents"
+msgstr "Зміст"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:21
+msgid ""
+"This menu item is available from :ref:`project_tree` on a clip in the "
+"Project Bin or under the :ref:`project_menu` menu when a clip is selected in "
+"the Project Bin."
+msgstr ""
+"Цим пунктом меню можна скористатися за допомогою контекстного меню пункту "
+"кліпу на :ref:`панелі контейнера проєкту <project_tree>` або за допомогою :"
+"ref:`меню «Проєкт» <project_menu>`, якщо кліп позначено на панелі контейнера "
+"проєкту."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:23
+msgid ""
+"This feature applies image stabilization algorithms to the clip which can "
+"reduce the shakiness of a bit of footage."
+msgstr ""
+"За допомогою цієї можливості можна застосувати алгоритми стабілізації "
+"зображення, які дещо зменшують тремтіння зображення на знятому матеріалі."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:25
+msgid "**Stabilize**"
+msgstr "**Стабілізація**"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:31
+msgid ""
+"Based on the tooltips from this screen and the `docs here <http://public."
+"hronopik.de/vid.stab/features.php?lang=en>`_, this is what all the options "
+"mean:"
+msgstr ""
+"Зважаючи на підказки у цьому вікні та `документацію тут <http://public."
+"hronopik.de/vid.stab/features.php?lang=en>`_, ось що означають усі ці "
+"параметри:"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:34
+msgid "Accuracy"
+msgstr "Точність"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:34
+msgid ""
+"Accuracy of shakiness detection. Should be >= shakiness factor. 1: low (fast "
+"processing). 15: high (slow processing). Default: 4. Recommended: 8."
+msgstr ""
+"Точність визначення тремтіння. Має бути >= коефіцієнта «shakiness». 1: "
+"низький рівень (швидка обробка). 15: високий рівень (повільна обробка). "
+"Типове значення —: 4. Рекомендоване значення — 8."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:37
+msgid "Shakiness"
+msgstr "Тремтіння"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:37
+msgid ""
+"How shaky is the video? And how quick is the camera? 1: little (fast "
+"processing). 10: very strong/quick (slow processing). Default = 4. Note: "
+"large values may also reduce the accuracy. This is due to the internals of "
+"the movement-detection. Typically you don't need a value greater than 7."
+msgstr ""
+"Наскільки високим є тремтіння у відео? І наскільки швидкою є камера? 1: "
+"низьке тремтіння (швидка обробка). 10: дуже сильне тремтіння/швидка камера "
+"(повільна обробка). Типове значення = 4. Зауваження: великі значення можуть "
+"призвести до зниження точності. Причиною є внутрішні алгоритми виявлення "
+"руху. Типово, не слід використовувати значення, які є більшими за 7."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:40
+msgid "Stepsize"
+msgstr "Розмір кроку"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:40
+msgid ""
+"Step size of search process. Region around minimum is scanned with 1 pixel "
+"resolution. Default = 6."
+msgstr ""
+"Розмір кроку у процесі пошуку. Буде виконано сканування сусідньої області із "
+"роздільною здатністю у 1 піксель. Типове значення розміру = 6."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:43
+msgid "Min. contrast"
+msgstr "Мін. контрастність"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:43
+msgid ""
+"Below this contrast, the field is discarded. Range 0-1. Default = 0.3. You "
+"may want to use a smaller value for a really low contrast clip."
+msgstr ""
+"Якщо контрастність буде нижчою за вказану, поле буде відкинуто. Діапазон "
+"значень — 0–1. Типове значення = 0.3. Вам варто використовувати менше "
+"значення для малоконтрастних кліпів."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:46
+msgid ""
+"Controls the amount of smoothing/stabilization. The larger the value for "
+"smoothing, the more camera movements are compensated. The resulting clip has "
+"a lower change in camera speed. Technically it is the number of frames for "
+"lowpass filtering = (smoothing * 2) + 1."
+msgstr ""
+"Керує рівнем згладжування або стабілізації. Чим більшим буде значення "
+"згладжування, тим більше рухів камери буде компенсовано. У результаті зміни "
+"у швидкості руху камери будуть меншими. З технічної точки зору, кількість "
+"кадрів для фільтрування за нижніми частотами = (smoothing * 2) + 1."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:49
+msgid ""
+"For example, with a with 25 fps clip, a value of 12 for the smoothing factor "
+"means we would smooth over one second - 12 frames behind the current frame + "
+"the current frame (1) + 12 frames after the current frame. Default =   10."
+msgstr ""
+"Наприклад, якщо у кліпі 25 кадрів за секунду, значення 12 для параметра "
+"smoothing означатиме, що згладжування відбуватиметься за діапазоном у одну "
+"секунду — 12 кадрів до поточного кадру + поточний кадр (1) + 12 кадрів після "
+"поточного кадру. Типове значення =10."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:51
+msgid "Smoothing"
+msgstr "Згладжування"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:51
+msgid ""
+"Demo of the difference `here <http://public.hronopik.de/vid.stab/files/"
+"skiing_veryshaky_short_vs_longsmoothing_above.ogv>`_ (top:3, bottom: 30)."
+msgstr ""
+"Демонстрацію відмінностей наведено `тут <http://public.hronopik.de/vid.stab/"
+"files/skiing_veryshaky_short_vs_longsmoothing_above.ogv>`_ (вгорі: 3, внизу: "
+"30)."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:54
+msgid "Max shift"
+msgstr "Макс. зсув"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:54
+msgid "Maximal number of pixels to translate image. Default = -1. No limit."
+msgstr ""
+"Максимальна відстань перенесення зображення у пікселях. Типове значення = –1 "
+"— без обмежень."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:57
+msgid "Max angle"
+msgstr "Макс. кут"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:57
+msgid "Maximum angle to rotate in radians. Default = -1, which means no limit."
+msgstr ""
+"Максимальний кут обертання у радіанах. Типове значення = -1, тобто без "
+"обмежень."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:60
+msgid "Crop"
+msgstr "Обрізати"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:60
+msgid ""
+"Unchecked means the border of the transformed frames contains the pixels "
+"from previous frames. Checked = black background. Default = unchecked."
+msgstr ""
+"Якщо цей пункт не буде позначено, на межі перетворених кадрів лишатимуться "
+"пікселі з попередніх кадрів. Якщо пункт буде позначено, лишатиметься чорне "
+"тло. Типове значення = не позначено."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:63
+msgid "Zoom"
+msgstr "Масштабування"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:63
+msgid ""
+"Additional zoom during transform. Percentage to zoom > 0 = zoom in, < 0 = "
+"zoom out. The zoom specified here is in addition to the optimum zoom "
+"calculated by the program when optzoom is checked. Default = 0."
+msgstr ""
+"Додаткове масштабування під час перетворення. Значення масштабу у відсотках "
+"> 0 = збільшити, < 0 = зменшити. Масштаб, який тут вказано, буде додано до "
+"оптимального масштабу, обчислено програмою, якщо позначено пункт optzoom. "
+"Типове значення = 0."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:66
+#: ../../user_interface/menu/clip_menu/stabilize.rst:69
+msgid "Optimal Zoom"
+msgstr "Оптимальний масштаб"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:66
+msgid ""
+"Use optimal zoom (calculated from transforms). Causes video to zoom until "
+"90% of transformations are hidden. Default is checked. Hint: You can further "
+"zoom in with the zoom option."
+msgstr ""
+"Використовувати оптимальне масштабування (обчислене на основі перетворень). "
+"Призводить до масштабування відео аж до рівня, коли 90% перетворень буде "
+"приховано. Типово, цей пункт позначено. Підказка: ви можете додатково "
+"збільшити масштаб за допомогою параметра «zoom»."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:69
+msgid "Zoom per frame (used when \"Optimal Zoom\" = 2)"
+msgstr ""
+"Масштабування за кадром (використовується, якщо оптимальний масштаб = 2)"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:72
+msgid "Sharpen"
+msgstr "Збільшити різкість"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:72
+msgid ""
+"Sharpen transformed image. Amount of sharpening: 0: no sharpening. Uses "
+"filter unsharp with 5x5 matrix. Default = 0.8."
+msgstr ""
+"Збільшити різкість перетвореного зображення. Потужність збільшення різкості: "
+"0: не збільшувати різкість. Використовує матрицю 5x5 для фільтрування "
+"областей зменшеної різкості. Типове значення = 0.8."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:75
+msgid "Show fields"
+msgstr "Показ полів"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:75
+msgid ""
+"0 = draw nothing, 1 or 2 = show fields and transforms. Use 1 or 2 to preview "
+"what the process is going to do. `Example <http://public.hronopik.de/vid."
+"stab/files/skiing_veryshaky_visualized8_short.ogv>`_. Default = 0. Non-zero "
+"values of this parameter are not relevant in the **Kdenlive** implementation "
+"- use zero."
+msgstr ""
+"0 = нічого не малювати, 1 або 2 = показувати поля і перетворення. "
+"Скористайтеся значенням 1 або 2, щоб попередньо переглянути результати "
+"обробки. `Приклад <http://public.hronopik.de/vid.stab/files/"
+"skiing_veryshaky_visualized8_short.ogv>`_. Типове значення = 0. Ненульовими "
+"значеннями цього параметра не можна скористатися у **Kdenlive** — слід "
+"завжди лишати нульове значення."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:78
+msgid "Reference frame"
+msgstr "Еталонний кадр"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:79
+msgid "Tripod"
+msgstr "Тринога"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:81
+msgid ""
+"Example of the effect of running stabilize - transcode from the original "
+"author - Georg Martius."
+msgstr "Приклад використання стабілізації від автора — Georg Martius."
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:83
+msgid "Side by side https://youtu.be/HYE3KAl8RAQ"
+msgstr "Обабіч https://youtu.be/HYE3KAl8RAQ"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:86
+msgid "Deshaked https://youtu.be/c3CEm8bgVQ0"
+msgstr "З усуванням тремтіння: https://youtu.be/c3CEm8bgVQ0"
+
+#: ../../user_interface/menu/clip_menu/stabilize.rst:89
+msgid "Original https://youtu.be/cRA5H1LYzM4"
+msgstr "Оригінал: https://youtu.be/cRA5H1LYzM4"
+
+#~ msgid ""
+#~ "In versions 0.9.8 and earlier of Kdenlive, there were two different "
+#~ "methods of stabilization available: vstab and transcode. In version "
+#~ "0.9.10, the vstab method was removed leaving us with just the \"transcode"
+#~ "\" method (`based on this <http://public.hronopik.de/vid.stab/>`_ work)."
+#~ msgstr ""
+#~ "У версіях Kdenlive 0.9.8 та раніших було передбачено два різних способи "
+#~ "стабілізації: vstab та transcode. У версії 0.9.10 спосіб vstab було "
+#~ "вилучено. Лишився лише спосіб «transcode» (`заснований на цій роботі "
+#~ "<http://public.hronopik.de/vid.stab/>`_)."
+
+#~ msgid ""
+#~ "This video shows a side by side comparison between vstab and transcode "
+#~ "stabilize methods."
+#~ msgstr ""
+#~ "У цьому відео показано порівняння між способами стабілізації vstab та "
+#~ "transcode."
+
+#~ msgid "https://youtu.be/86SUhodScDE"
+#~ msgstr "https://youtu.be/86SUhodScDE"
+
+#~ msgid ""
+#~ "This menu item was called *stabilize (transcode)* in versions 0.9.2 and "
+#~ "earlier."
+#~ msgstr ""
+#~ "Цей пункт меню мав назву *Стабілізувати (transcode)* у версіях 0.9.2 і "
+#~ "старіших."
+
+#~ msgid "In version 0.9.3, the transcode GUI was simplified."
+#~ msgstr "У версії 0.9.3 графічний інтерфейс було спрощено. "
+
+#~ msgid ""
+#~ "**algo** = algorithm used. Checked = small measurement fields. Default = "
+#~ "checked. Unchecked means use brute force algorithm. The brute force "
+#~ "algorithm is deprecated and this option is not available after version "
+#~ "0.9.3."
+#~ msgstr ""
+#~ "**algo** = використаний алгоритм. Позначено = малі поля вимірювання. "
+#~ "Типове значення = позначено. Зняття позначки означає використання "
+#~ "алгоритму простого перебирання. Алгоритм простого перебирання вважається "
+#~ "застарілим, цим пунктом не можна скористатися, починаючи з версії 0.9.3."
+
+#~ msgid ""
+#~ "**relative** Unchecked = absolute transform (don't use this). Checked = "
+#~ "relative transform. Default is checked. This option is not available in "
+#~ "version 0.9.3 - it uses relative transform."
+#~ msgstr ""
+#~ "**relative** — Не позначено = абсолютне перетворення (не використовуйте). "
+#~ "Позначено = відносне перетворення. Типово позначено. Цього пункту немає у "
+#~ "версії 0.9.3 — у ній використовується відносне перетворення."
+
+#~ msgid ""
+#~ "**invert** Invert the transform. Default = unchecked. Inverting the "
+#~ "transform is pointless - leave unchecked. This option is not available in "
+#~ "version 0.9.3."
+#~ msgstr ""
+#~ "**invert** — інвертувати перетворення. Типове значення = не позначено. "
+#~ "Інвертування перетворення не має сенсу — не позначайте цей пункт. Цей "
+#~ "пункт було вилучено у версії 0.9.3."
+
+#~ msgid "**Stabilize (vstab) - version <=0.9.8**"
+#~ msgstr "**Stabilize (vstab) — версія <=0.9.8**"
+
+#~ msgid ""
+#~ "This is based on `this <http://vstab.sourceforge.net/>`_ work and is not "
+#~ "available in versions of kdenlive >= 0.9.10."
+#~ msgstr ""
+#~ "Цю реалізацію засновано на `цьому коді <http://vstab.sourceforge.net/>`_. "
+#~ "Нею не можна скористатися у версіях kdenlive >= 0.9.10."
+
+#~ msgid ""
+#~ "This tutorial shows how to use the stabilize feature - vstab version:"
+#~ msgstr ""
+#~ "У цьому підручнику показано, як скористатися можливістю стабілізації у "
+#~ "версії vstab:"
+
+#~ msgid "https://youtu.be/SWCoqZLJNgY"
+#~ msgstr "https://youtu.be/SWCoqZLJNgY"
+
+#~ msgid ""
+#~ "The \"shutter angle\" setting that the narrator says he does not know "
+#~ "what it does (1:35) ... Shutter angle is an angle that images could be "
+#~ "maximum rotated for stabilization. `See here <http://www.mltframework.org/"
+#~ "bin/view/MLT/FilterVideostab>`_."
+#~ msgstr ""
+#~ "У відео автор каже, що він не знає, для чого призначено параметр «shutter "
+#~ "angle» (1:35) ... Кут затвора («Shutter angle») — це максимальний кут, на "
+#~ "який можна обертати зображення для стабілізації. Див. `тут <http://www."
+#~ "mltframework.org/bin/view/MLT/FilterVideostab>`_."

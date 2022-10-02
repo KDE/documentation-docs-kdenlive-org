@@ -1,0 +1,115 @@
+# Chinese translations for Kdenlive Manual package
+# Kdenlive Manual 套件的正體中文翻譯.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-29 00:22+0000\n"
+"PO-Revision-Date: 2021-11-29 00:22+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:14
+msgid "RGB adjustment"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:16
+msgid "Contents"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:18
+msgid ""
+"This filter is for simple manual color adjustment by RGB channel, either "
+"through adding constants, or changing the channel gammas or gains."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:20
+msgid ""
+":menuselection:`Simple` means that it works channel-wise, no crosstalk. The "
+"off-diagonal elements of the transform matrix are zero - no color crosstalk, "
+"no color space rotation. But this should be sufficient for many tasks. For "
+"example, when shooting under tungsten light, the blue signal will not "
+"migrate into red, it will simply be too small. Amplifying the blue (and a "
+"bit of green too) should be all that is needed. Similar, an underwater shot "
+"will simply be red deficient, needing some red boost, etc."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:22
+msgid "Parameters:"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:24
+msgid "**R,G,B:**"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:26
+msgid "These determine the change in each of the three color channels."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:28
+msgid "**Action:**"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:30
+msgid ""
+":menuselection:`Add constant` adds a fixed value between -150 and +150 (this "
+"is sometimes called \"black level\" or \"setup\")."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:31
+msgid ""
+":menuselection:`Change gamma` changes channel gamma between 0.3333 and 3.0."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:32
+msgid ""
+":menuselection:`Multiply` multiplies channel with a value between 0.3333 and "
+"3.0 (sometimes called \"gain\" or \"contrast\")."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:36
+msgid ""
+"To apply more than one action above, use cascaded instances of coloradj_RGB."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:40
+msgid ""
+":menuselection:`Add constant` simply shifts the RGB \"cube\" colorspace. "
+"This means, that on one end we are left with empty space, which is filled "
+"with zeros, and on the other end, values can \"fall outside\", and in this "
+"case they will be truncated to max (255). :menuselection:`Change gain` "
+"changes the size of the cube, keeping the \"black\" corner fixed, affecting "
+"predominately highlights, but the other end can still \"fall out\" and get "
+"255 truncated. :menuselection:`Change gamma` keeps the whole cube in the "
+"same place, just stretches and squeezes its interior, so no zero filling or "
+"truncation is necessary."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:42
+msgid ""
+"To visualize this plugin's actions, apply it to a gray gradient, and watch "
+"the result with \"pr0file\"."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:44
+msgid "**Keep luma:**"
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:46
+msgid "Fixes the luma value, so that the sliders only affect color."
+msgstr ""
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:48
+msgid ""
+"This is the `Frei0r coloradj_rgb <https://www.mltframework.org/plugins/"
+"FilterFrei0r-coloradj_rgb/>`_ MLT filter."
+msgstr ""

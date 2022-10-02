@@ -1,0 +1,190 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Paolo Zamponi <zapaolo@email.it>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-02 00:38+0000\n"
+"PO-Revision-Date: 2022-05-04 08:04+0200\n"
+"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.04.0\n"
+
+#: ../../exporting/render_profile_parameters.rst:1
+msgid "The Kdenlive User Manual"
+msgstr "Il manuale utente di Kdenlive"
+
+#: ../../exporting/render_profile_parameters.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, render, render profile, render parameter"
+msgstr ""
+"KDE, Kdenlive, documentazione, manuale utente, editor video, open source, "
+"libero, aiuto, imparare, esportare, profilo di esportazione, parametro di "
+"esportazione"
+
+#: ../../exporting/render_profile_parameters.rst:21
+msgid "Render Profile Parameters"
+msgstr "Parametri del profilo di esportazione"
+
+#: ../../exporting/render_profile_parameters.rst:24
+msgid "Contents"
+msgstr "Contenuto"
+
+#: ../../exporting/render_profile_parameters.rst:27
+#: ../../exporting/render_profile_parameters.rst:92
+msgid "Render Profile Parameters - How to read them"
+msgstr "Parametri del profilo di esportazione, come leggerli"
+
+#: ../../exporting/render_profile_parameters.rst:44
+msgid ""
+"Kdenlive now makes use of \"property presets\" delivered by the *melt* "
+"project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). "
+"These presets are referenced by the *properties=<preset>* syntax. In the "
+"example illustrated, the render profile is referencing *lossless/H.264*. "
+"This refers to a property preset found in file H.264 found on the system at :"
+"file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
+msgstr ""
+"Kdenlive ora fa uso delle \"preimpostazioni delle proprietà\", che derivano "
+"dal progetto *melt* (vedi `la documentazione di melt <https://www."
+"mltframework.org/docs/presets/>`_). Queste preimpostazioni fanno riferimento "
+"alla sintassi *proprietà=<preimpostazione>*. Nell'esempio illustrato, il "
+"profilo di esportazione si riferisce a lossless/H.264. Questo si riferisce "
+"alle preimpostazioni delle proprietà trovate nel file h.264 che si trova in :"
+"file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
+
+#: ../../exporting/render_profile_parameters.rst:46
+msgid ""
+"All the *<presets>* referenced in the render settings in Kdenlive will be "
+"referring to presets found at :file:`/usr/share/mlt/presets/consumer/"
+"avformat/` (on a default install). Note that you reference presets found in "
+"subdirectories of this folder using a :file:`<dirname>/<profile>` syntax as "
+"shown in the example above."
+msgstr ""
+"Tutte le *<preimpostazioni>* referenziate nelle impostazioni di esportazione "
+"di Kdenlive si riferiscono alle preimpostazioni trovate in :file:`/usr/share/"
+"mlt/presets/consumer/avformat/` (in un'installazione standard). Nota che si "
+"fa riferimento alle preimpostazioni trovate nelle sotto-cartelle di questa "
+"cartella usando una sintassi :file:`<nomecartella>/<profilo>`, come mostrato "
+"nell'esempio qui sopra."
+
+#: ../../exporting/render_profile_parameters.rst:55
+msgid ""
+"The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` "
+"are simple text files that contain the *melt* parameters that define the "
+"rendering. An example is shown below. These are the same parameters that "
+"were used in earlier versions of Kdenlive – see next section for how to read "
+"those."
+msgstr ""
+"I file delle preimpostazioni che si trovano in :file:`/usr/share/mlt/presets/"
+"consumer/avformat/` sono dei semplici file di testo che contengono i "
+"parametri di *melt* che definiscono l'esportazione; un esempio è mostrato "
+"qui sotto. Sono gli stessi parametri che venivano usati nelle vecchie "
+"versioni di Kdenlive, vedi la sezione seguente per scoprire come leggerli."
+
+#: ../../exporting/render_profile_parameters.rst:57
+msgid "Contents of lossless/H.264:"
+msgstr "Contenuto di lossless/H.264:"
+
+#: ../../exporting/render_profile_parameters.rst:79
+msgid "Scanning Dropdown"
+msgstr "Menu a discesa Scansione"
+
+#: ../../exporting/render_profile_parameters.rst:85
+msgid ""
+"This option controls the frame scanning setting the rendered file will have. "
+"Options are *Force Progressive*, *Force Interlaced* and *Auto*."
+msgstr ""
+"Questa opzione controlla le impostazioni di scansione dei fotogrammi che "
+"avrà il file esportato. Le opzioni sono *Forza progressivi*, *Forza "
+"interlacciati* e *Automatica*."
+
+#: ../../exporting/render_profile_parameters.rst:88
+msgid ""
+":menuselection:`Auto` causes the rendered file to take the scanning settings "
+"that are defined in the :ref:`project_settings`. Use the other options to "
+"override the setting defined in the project settings."
+msgstr ""
+":menuselection:`Automatica` farà sì che il file generato prenda le opzioni "
+"di scansione che sono definite nelle :ref:`project_settings`. Usa le altre "
+"opzioni per ignorare le impostazioni definite nelle impostazioni del "
+"progetto."
+
+#: ../../exporting/render_profile_parameters.rst:96
+msgid "|outdated|"
+msgstr "|outdated|"
+
+#: ../../exporting/render_profile_parameters.rst:98
+msgid ""
+"The parameters that go into a render profile derive from the **ffmpeg** "
+"program."
+msgstr ""
+"I parametri che vanno nel profilo di esportazione derivano dal programma "
+"**ffmpeg**."
+
+#: ../../exporting/render_profile_parameters.rst:100
+msgid ""
+"This is a worked example to show how you can understand what these "
+"parameters mean using the **ffmpeg** documentation."
+msgstr ""
+"Questo è un esempio funzionante che ti mostra come poter capire cosa "
+"significano questi parametri usando la documentazione di **ffmpeg**."
+
+#: ../../exporting/render_profile_parameters.rst:102
+msgid "In the example above the parameters are:"
+msgstr "Nell'esempio qui sopra, i parametri sono:"
+
+#: ../../exporting/render_profile_parameters.rst:124
+msgid ""
+"Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
+"translates these parameters as shown below."
+msgstr ""
+"Cercando nell'`aiuto di ffmpeg <https://linux.die.net/man/1/ffmpeg>`_, i "
+"parametri vengono tradotti come mostrato sotto."
+
+#: ../../exporting/render_profile_parameters.rst:126
+msgid "Main option is:"
+msgstr "L'opzione principale è:"
+
+#: ../../exporting/render_profile_parameters.rst:132
+msgid "Video options are:"
+msgstr "Le opzioni video sono:"
+
+#: ../../exporting/render_profile_parameters.rst:144
+msgid "Audio options are:"
+msgstr "Le opzioni audio sono:"
+
+#: ../../exporting/render_profile_parameters.rst:152
+msgid "The AVCodecContext AVOptions include:"
+msgstr "AVOptions di AVCodecContext include:"
+
+#: ../../exporting/render_profile_parameters.rst:161
+msgid ""
+"So all the render profile options are documented here in the **ffmpeg** "
+"documentation."
+msgstr ""
+"Quindi tutte le opzioni del profilo di esportazione sono documentate nella "
+"documentazione di **ffmpeg**."
+
+#: ../../exporting/render_profile_parameters.rst:163
+msgid ""
+"See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on "
+"ConsumerAvFormat."
+msgstr ""
+"Vedi anche la `documentazione di MLT <https://www.mltframework.org/docs/"
+"presets/>`_ su ConsumerAvFormat."
+
+#: ../../exporting/render_profile_parameters.rst:165
+msgid ""
+"See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum."
+"kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
+msgstr ""
+"Vedi anche `come produrre video a 4k o a 2K, compatibile con YouTube "
+"<https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."

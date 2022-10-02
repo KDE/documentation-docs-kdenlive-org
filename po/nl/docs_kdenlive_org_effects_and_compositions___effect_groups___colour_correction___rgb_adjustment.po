@@ -1,0 +1,148 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-29 00:22+0000\n"
+"PO-Revision-Date: 2022-02-02 15:59+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.1\n"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:14
+msgid "RGB adjustment"
+msgstr "RGB aanpassing"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:16
+msgid "Contents"
+msgstr "Inhoud"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:18
+msgid ""
+"This filter is for simple manual color adjustment by RGB channel, either "
+"through adding constants, or changing the channel gammas or gains."
+msgstr ""
+"Dit filter is voor eenvoudige handmatige kleuraanpassingen per RGB-kanaal, "
+"ofwel via toevoegen van constanten of wijzigen van de kanaalgamma's of "
+"versterkingen."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:20
+msgid ""
+":menuselection:`Simple` means that it works channel-wise, no crosstalk. The "
+"off-diagonal elements of the transform matrix are zero - no color crosstalk, "
+"no color space rotation. But this should be sufficient for many tasks. For "
+"example, when shooting under tungsten light, the blue signal will not "
+"migrate into red, it will simply be too small. Amplifying the blue (and a "
+"bit of green too) should be all that is needed. Similar, an underwater shot "
+"will simply be red deficient, needing some red boost, etc."
+msgstr ""
+":menuselection:`Eenvoudig` betekent dat het kanaalsgewijs werkt, geen "
+"overspraak. De elementen niet op de diagonaal van de transformatie matrix "
+"zijn nul - geen kleuroverspraak, geen kleurruimterotatie. Maar dit zou "
+"genoeg moeten zijn voor vele taken. Bijvoorbeeld, bij opnemen onder wolfraam "
+"licht, zal het blauwe signaal niet migreren in rood, het zal eenvoudig te "
+"klein zijn. Het blauw vermenigvuldigen (en een beetje groen ook) zou alles "
+"moeten zijn wat nodig is. Op dezelfde wijze zal een onder water opname "
+"eenvoudig wat rood missen, nodig voor enige oppepping van rood, etc."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:22
+msgid "Parameters:"
+msgstr "Parameters:"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:24
+msgid "**R,G,B:**"
+msgstr "**R,G,B:**"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:26
+msgid "These determine the change in each of the three color channels."
+msgstr "Deze bepalen de wijziging in elk van de drie kleurkanalen."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:28
+msgid "**Action:**"
+msgstr "**Actie:**"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:30
+msgid ""
+":menuselection:`Add constant` adds a fixed value between -150 and +150 (this "
+"is sometimes called \"black level\" or \"setup\")."
+msgstr ""
+":menuselection:`Constante bijtellen` telt een vaste waarde op tussen -150 en "
+"+150 (dit is soms \"zwart niveau\" of \"instellen\")."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:31
+msgid ""
+":menuselection:`Change gamma` changes channel gamma between 0.3333 and 3.0."
+msgstr ""
+":menuselection:`Gamma wijzigen` wijzigt het kanaal gamma tussen 0.3333 en "
+"3.0."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:32
+msgid ""
+":menuselection:`Multiply` multiplies channel with a value between 0.3333 and "
+"3.0 (sometimes called \"gain\" or \"contrast\")."
+msgstr ""
+":menuselection:`Vermenigvuldig` vermenigvuldigt kanaal met een waarde tussen "
+"0.3333 and 3.0 (sometimes called \"gain\" or \"contrast\")."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:36
+msgid ""
+"To apply more than one action above, use cascaded instances of coloradj_RGB."
+msgstr ""
+"Om meer dan één bovenstaande actie toe te passen, gebruik dan opgestapelde "
+"exemplaren van coloradj_RGB."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:40
+msgid ""
+":menuselection:`Add constant` simply shifts the RGB \"cube\" colorspace. "
+"This means, that on one end we are left with empty space, which is filled "
+"with zeros, and on the other end, values can \"fall outside\", and in this "
+"case they will be truncated to max (255). :menuselection:`Change gain` "
+"changes the size of the cube, keeping the \"black\" corner fixed, affecting "
+"predominately highlights, but the other end can still \"fall out\" and get "
+"255 truncated. :menuselection:`Change gamma` keeps the whole cube in the "
+"same place, just stretches and squeezes its interior, so no zero filling or "
+"truncation is necessary."
+msgstr ""
+":menuselection:`Constante optellen` verschuift eenvoudig de RGB \"kubus\" "
+"kleurenruimte. Dit betekent, dat aan de ene kant we blijven zitten met lege "
+"ruimte, die gevuld is met nullen en aan het andere eind, waarden er "
+"\"uitvallen\" en in dit geval ze afgekort worden tot max (255). :"
+"menuselection:`Versterking aanpassen` wijzig de grootte van de kubus, die de "
+"\"zwarte\" hoek vasthoudt, een vooral accentueringen beïnvloedt, maar het "
+"andere einde kan nog steeds \"uitvallen\" en afgekapt wordt op 255. :"
+"menuselection:`Gamma wijzigen` behoudt de gehele kubus in dezelfde fplek, "
+"rekt uit en knijpt zijn binnenste in, zodat geen vullen met nullen of "
+"afkorten noodzakelijk is."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:42
+msgid ""
+"To visualize this plugin's actions, apply it to a gray gradient, and watch "
+"the result with \"pr0file\"."
+msgstr ""
+"Om de acties van deze plug-te visualiseren, pas deze toe op een grijs "
+"kleurverloop en bekijk het resultaat met \"pr0file\"."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:44
+msgid "**Keep luma:**"
+msgstr "**Luma behouden:**"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:46
+msgid "Fixes the luma value, so that the sliders only affect color."
+msgstr ""
+"Repareert de luma waarde, zodat de schuifregelaars alleen op de kleur werken."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/rgb_adjustment.rst:48
+msgid ""
+"This is the `Frei0r coloradj_rgb <https://www.mltframework.org/plugins/"
+"FilterFrei0r-coloradj_rgb/>`_ MLT filter."
+msgstr ""
+"Dit is het MLT-filter `Frei0r coloradj_rgb <https://www.mltframework.org/"
+"plugins/FilterFrei0r-coloradj_rgb/>`_."

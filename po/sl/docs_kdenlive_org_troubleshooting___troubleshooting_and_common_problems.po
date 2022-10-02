@@ -1,0 +1,172 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) 2022 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdenlive package.
+#
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenlive ref manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-13 00:22+0000\n"
+"PO-Revision-Date: 2022-08-15 17:57+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:22
+msgid "Troubleshooting and Common Problems"
+msgstr "Odpravljanje težav in pogoste zadrege"
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:25
+msgid "Contents"
+msgstr "Vsebina"
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:28
+msgid "Kdenlive warns me about missing codecs, I cannot render in some formats"
+msgstr ""
+"Kdenlive me opozarja na manjkajoče kodeke, ne morem izrisovati/shranjevati v "
+"nekaterih vrstah zapisov"
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:35
+msgid "There are several possible reasons for this:"
+msgstr "Za to obstaja več možnih razlogov:"
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:37
+msgid ""
+"You have installed the codecs after **Kdenlive's** installation. To force "
+"Kdenlive to check available codecs on your system, run the configuration "
+"wizard: :menuselection:`Settings --> Run Config Wizard`. Complete the wizard "
+"and restart **Kdenlive** to be sure that codecs have been detected."
+msgstr ""
+"Kodeke ste namestili po namestitvi **Kdenlive**. Če želite Kdenlive "
+"prisiliti, da preveri kodeke, ki so na voljo v sistemu, zaženite čarovnika "
+"za prilagoditve: :menuselection:`Nastavitve --> Zaženi čarovnika za "
+"prilagoditev`. Dokončajte čarovnika in znova zaženite **Kdenlive** in se "
+"prepričajte, da so kodeki zaznani."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:39
+msgid ""
+"The codecs are not available on your system. **Kdenlive** uses the codecs "
+"from your **FFmpeg** or **Libav** library. Due to licensing issues, some "
+"distributions do not provide all codecs by default and you might need to "
+"install an extra package. On Ubuntu/Mint for example, you must install a "
+"package called libavcodec-extra-xx. After that, check the codecs again as "
+"explained in the first step."
+msgstr ""
+"Kodeki niso na voljo v vašem sistemu. **Kdenlive** uporablja kodeke iz vaše "
+"knjižnice **FFmpeg** ali **Libav**. Zaradi težav z licenco nekatere "
+"distribucije privzeto ne zagotavljajo vseh kodekov in morda boste morali "
+"namestiti dodaten paket. Na Ubuntu/Mint morate npr. namestiti paket, "
+"imenovan libavcodec-extra-xx. Po tem znova preverite kodeke, kot je "
+"pojasnjeno v prvem koraku."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:41
+#, fuzzy
+msgid ""
+"Last possibility is that your **FFmpeg** or **Libav** version is buggy and "
+"does not report all supported codecs. **Kdenlive** releases after 0.9.2 have "
+"an option to try using codecs even if they seem unsupported: :menuselection:"
+"`Settings --> Configure Kdenlive` and check the :menuselection:`Bypass codec "
+"verification` option."
+msgstr ""
+"IZadnja možnost je, da je vaša **FFmpeg** ali **Libav** različica hroščava "
+"in ne poroča o vseh podprtih kodekih. Izdaje **Kdenlive** po 0.9.2 imajo "
+"možnost poskusiti uporabiti kodeke, tudi če se zdijo nepodprte: :"
+"menuselection:`Nastavitve --> Prilagodi Kdenlive` in potrdite možnost :"
+"menuselection:`Bypass codec verifikacija`."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:45
+msgid "Kdenlive is too large on my screen. I cannot make it smaller."
+msgstr "Kdenlive je prevelik na mojem zaslonu. Ne znam ga narediti manjšega."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:47
+msgid ""
+"This usually happens when too many widgets are open. Each widget label takes "
+"a minimum amount of space in width. Close some (e.g. via the :menuselection:"
+"`View` button) and consider using layouts (:menuselection:`View --> Save "
+"Layout As`)."
+msgstr ""
+"To se običajno zgodi, ko je odprtih preveč pripomočkov. Vsaka značka "
+"gradnika zavzame minimalno količino prostora po širini. Zaprite nekatere "
+"izmed njih (npr. prek gumba :menuselection:`Pogled`) in razmislite o uporabi "
+"postavitev (:menuselection:`Pogled --> Shrani postavitev kot`)."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:53
+msgid "I want to trim videos without re-encoding them. How can I do this?"
+msgstr ""
+"Želim obrezati videoposnetke brez ponovnega prekodiranja. Kako naj to "
+"naredim?"
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:55
+msgid ""
+"You cannot do this with **Kdenlive**. (Please try `Avidemux <http://avidemux."
+"org/>`_ instead.) The reason is that, for splitting, files need to be "
+"treated in a very different manner (the file itself needs to be edited, "
+"whereas **Kdenlive** renders frames into a new file). See also: https://"
+"forum.kde.org/viewtopic.php?f=272&amp;t=116144&amp;p=286144&amp;hilit=clips"
+"+without+render+angain#p286144."
+msgstr ""
+"Tega ne morete storiti s **Kdenlive** (namesto tega poskusite `Avidemux "
+"<http://avidemux.org/>`_.) Razlog za to je, da je za delitev datotek le-te "
+"treba obravnavati na zelo drugačen način (samo datoteko je treba montirati, "
+"**Kdenlive** pa izriše sličice v novo datoteko). Glejte tudi: https://forum."
+"kde.org/viewtopic.php?f=272&amp;t=116144&amp;p=286144&amp;hilit=clips+without"
+"+render+angain#p286144."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:60
+msgid ""
+"I want to apply an effect, for example a watermark, to the whole project. "
+"What is the best way to do this?"
+msgstr ""
+"Na celotnem projektu želim uporabiti učinek, npr. vodni žig. Kaj je "
+"najboljši način za to?"
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:62
+msgid ""
+"Create a new project with the same project profile and import the project on "
+"which you want to apply the effect as a clip (:menuselection:`Project --> "
+"Add Clip`). See also: `How to: Add a Watermark in Kdenlive <http://vimeo."
+"com/13610402>`_ on Vimeo."
+msgstr ""
+"Ustvarite nov projekt z istim profilom projekta in uvozite projekt, na "
+"katerem želite uporabiti učinek kot posnetek (:menuselection:`Projekt --> "
+"Dodaj posnetek`). Glejte tudi: `Kako: dodajte vodni žig v Kdenlive <http://"
+"vimeo.com/13610402>`_ na Vimeu."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:67
+#, fuzzy
+msgid ""
+"My monitor plays distorted images, or generally something it really should "
+"not."
+msgstr ""
+"Moj pregled predvaja izkrivljene slike ali na splošno nekaj, kar res ne bi "
+"smelo."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:69
+msgid ""
+"Please check your :menuselection:`Settings --> Configure Kdenlive --> "
+"Playback` settings. Try to disable OpenGL if it is enabled, or use a "
+"different driver. **Kdenlive** may need to be restarted."
+msgstr ""
+"Preverite :menuselection:`Nastavitve --> Prilagodi Kdenlive --> "
+"Predvajanje`. Poskusite onemogočiti OpenGL, če je omogočen, ali uporabite "
+"drug gonilnik. **Kdenlive** bo morda treba znova zagnati."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:73
+msgid "I want to back out to a previous release."
+msgstr "Rad bi se vrnil na prejšnjo izdajo."
+
+#: ../../troubleshooting/troubleshooting_and_common_problems.rst:74
+msgid "See Notes at :ref:`installation`."
+msgstr "Glejte opombe na :ref:`installation`."

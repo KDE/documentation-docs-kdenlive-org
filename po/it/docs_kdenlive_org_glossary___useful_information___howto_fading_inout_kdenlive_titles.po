@@ -1,0 +1,121 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Paolo Zamponi <zapaolo@email.it>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-25 00:22+0000\n"
+"PO-Revision-Date: 2022-04-03 18:42+0200\n"
+"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:13
+msgid "How to fading in-out Kdenlive titles"
+msgstr "Come dissolvere i titoli in entrata o in uscita"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:15
+msgid ""
+"In this short *HOWTO* video, we show you how to (smoothly) fade in and out "
+"Kdenlive titles over a video clip, fading from and to transparency. The key "
+"to success is to use a **Composite & Transform** transition with keyframes "
+"(**Affine** and **Composite** will work too). **Don’t use** the Fade from/to "
+"Black effects though, as these effects remove the title transparency "
+"information."
+msgstr ""
+"In questo breve video ti mostreremo come dissolvere (dolcemente) in entrata "
+"o in uscita i titoli di Kdenlive su una clip, dissolvendo da e verso la "
+"trasparenza. La chiave del successo è usare una transizione **Composita e "
+"trasforma** con i fotogrammi chiave (funzionano anche **Affine** e "
+"**Composita**). **Non** usare la Dissolvenza dal/al nero, perché questi "
+"effetti rimuovono le informazioni sulla trasparenza del titolo."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:23
+msgid "Notes"
+msgstr "Note"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:25
+msgid "These are the individual steps shown in this HOWTO video:"
+msgstr "Questi sono i passaggi individuali mostrati in questo video:"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:27
+msgid "Add a Composite & Transform transition to the title clip."
+msgstr "Aggiungi una transizione Composita e trasforma alla clip titolatrice."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:28
+msgid ""
+"First keyframe: set the opacity to 0%. This marks the beginning of the fade "
+"in (ramp up)."
+msgstr ""
+"Primo fotogramma chiave: imposta l'opacità allo 0%. Questo segna l'inizio "
+"della dissolvenza in entrata (rampa in salita)"
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
+msgid ""
+"Second keyframe: add a new keyframe where you want the title to be fully "
+"faded in, set the opacity to 100%. Set the type of the keyframe to Linear."
+msgstr ""
+"Secondo fotogramma chiave: aggiungi un nuovo fotogramma chiave dove vorresti "
+"che il titolo sia completamente mostrato, quindi imposta la trasparenza al "
+"100%. Imposta il tipo di fotogramma chiave a Lineare."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
+msgid ""
+"The rationale to set this keyframe to Linear is that otherwise Kdenlive "
+"(MLT) calculates a smooth curve fitting to the previous and following "
+"keyframe, causing the opacity value to overshoot. With a maximum possible "
+"opacity of 100% you won’t notice. However, when you use a maximum opacity of "
+"less than 100%, then this overshooting may become visible."
+msgstr ""
+"La logica che c'è nell'impostare questo fotogramma chiave a Lineare è che "
+"altrimenti Kdenlive (MLT) calcola una curva smussata che si adatta al "
+"fotogramma chiave precedente e al successivo, facendo sì che il valore di "
+"opacità vada oltre il valore. Con una massima opacità possibile del 100% non "
+"lo noterai, tuttavia potrebbe essere visibile utilizzando un'opacità massima "
+"inferiore."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:31
+msgid ""
+"Ensure that the first keyframe is Smooth. You can only adjust the type of "
+"the first keyframes after you’ve added a second keyframe."
+msgstr ""
+"Assicurati che il primo fotogramma chiave sia impostato a Smussa. Dopo che "
+"hai aggiunto il secondo fotogramma chiave puoi solamente cambiare il tipo "
+"del primo."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:32
+msgid ""
+"Third keyframe: add another keyframe near the end where you want to start "
+"fading out the title. Leave the opacity at 100%. Set the keyframe type to "
+"Smooth."
+msgstr ""
+"Terzo fotogramma chiave: aggiungi un altro fotogramma chiave verso la fine, "
+"dove vorresti che iniziasse la dissolvenza in uscita del titolo. Lascia "
+"l'opacità al 100%, e imposta il tipo di fotogramma chiave a Smussa."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:33
+msgid "Fourth keyframe: add a final keyframe, where you set the opacity to 0%."
+msgstr ""
+"Quarto fotogramma chiave: aggiungi un ultimo fotogramma chiave, impostando "
+"l'opacità allo 0%."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:35
+msgid "Done."
+msgstr "Fatto."
+
+#: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:37
+msgid ""
+"In case you are scratching your head now, why this mixture of smooth and "
+"linear interpolated keyframes? Then head over to our new article on :ref:"
+"`the_smooth_keyframe_interpolation`."
+msgstr ""
+"In caso non fossi convinto, perché questo miscuglio di fotogrammi chiave "
+"smussati e interpolati linearmente? Allora vai al nuovo articolo sulle :ref:"
+"`the_smooth_keyframe_interpolation`."

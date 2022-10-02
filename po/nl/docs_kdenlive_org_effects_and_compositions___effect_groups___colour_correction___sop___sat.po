@@ -1,0 +1,141 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 00:38+0000\n"
+"PO-Revision-Date: 2022-04-04 23:42+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:14
+msgid "SOP/Sat Effect"
+msgstr "SOP/Sat-effect"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:16
+msgid "Contents"
+msgstr "Inhoud"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:18
+msgid ""
+"This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/"
+"FilterFrei0r-sopsat/>`_  MLT framework filter. It changes Slope, Offset, and "
+"Power of the color components, and the overall Saturation, according to the "
+"ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/wiki/"
+"ASC_CDL>`_."
+msgstr ""
+"Dit is het MLT-frameworkfilter `FilterFrei0r-sopsat <https://www."
+"mltframework.org/plugins/FilterFrei0r-sopsat/>`_. Het wijzigt de helling, "
+"offset en kleurkracht en de algemene verzadiging, overeenkomstig de ASC CDL "
+"(Color Decision List) `referentie <https://en.wikipedia.org/wiki/ASC_CDL>`_."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:21
+msgid ""
+"Changing the slope means multiplying the pixel value with a constant value. "
+"Black pixels will remain black, while as brighter ones will be changed. All "
+"effects can be observed well when applied on a greyscale gradient and "
+"looking at the RGB Parade monitor."
+msgstr ""
+"De helling wijzigen betekent de pixelwaarde met een constante waarde "
+"vermenigvuldigen. Zwarte pixels zullen zwart blijven, terwijl helderden "
+"gewijzigd zullen worden. Alle effecten kunnen goed bekeken worden bij "
+"toepassen op een grijs kleurverloop en te kijken op de RGB Parade monitor."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:23
+msgid "You can use this effect to achieve proper white balance."
+msgstr "U kunt dit effect gebruiken om een juiste witbalans te behalen."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:29
+msgid ""
+"This filter implements a standard way of color correction proposed by the "
+"American Society of Cinematographers: The Color Decision List, also known as "
+"the ASC CDL."
+msgstr ""
+"Dit filter implementeert een standaard manier van kleurcorrectie voorgesteld "
+"door de American Society of Cinematographers: De Kleurbeslissingslijst, ook "
+"bekend als de ASC CDL."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:31
+msgid ""
+"More information about the ASC CDL can be found on `wikipedia <https://en."
+"wikipedia.org/wiki/ASC_CDL>`_."
+msgstr ""
+"Meer informatie over de ASC CDL is te vinden op `wikipedia <https://en."
+"wikipedia.org/wiki/ASC_CDL>`_."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:33
+msgid ""
+"The ASC CDL is a standard format for basic primary color correction (primary "
+"meaning affecting the whole image and not only selected parts)."
+msgstr ""
+"De ASC CDL is een standaard formaat voor basis primaire kleurcorrectie "
+"(primair betekent de gehele afbeelding beïnvloedend en niet alleen "
+"geselecteerde delen)."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:35
+msgid ""
+"Basically there are two stages in the correction: 1. SOP correction for each "
+"channel separately 2. Overall saturation correction"
+msgstr ""
+"In de basis zijn er twee statussen in de correctie: 1. SOP-correctie voor "
+"elk kanaal apart 2. Verzadigingscorrectie overal"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:39
+msgid ""
+"All corrections work on [0,1], so the RGB(A) values need to be transposed "
+"from {0,...,255} to [0,1]."
+msgstr ""
+"Alle correcties werken op [0,1], dus de RGB(A) waarden moet overgezet worden "
+"van {0,...,255} naar [0,1]."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:41
+msgid "SOP correction"
+msgstr "SOP-correctie"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
+msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
+msgstr "Heling:   ``uit = in * helling;   0 <= helling < \\infty``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
+msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
+msgstr "Offset:  ``uit = in + offset;  -\\infty < offset < \\infty``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:45
+msgid "Power:   ``out = in^power;     0 < power < \\infty``"
+msgstr "Macht:   ``uit = in^macht;     0 < macht < \\infty``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:47
+msgid "Saturation"
+msgstr "Verzadiging"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:49
+msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
+msgstr "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (volgens Rec. 709)"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:50
+msgid "Forall channels: ``out = luma + sat * (in-luma)``"
+msgstr "Forall-kanalen: ``uit = luma + verz * (in-luma)``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:52
+msgid ""
+"As the values may exceed 1 (or 0), they need to be clamped where necessary."
+msgstr ""
+"Omdat de waarden groter kunnen zijn dan 1 (of 0), moeten ze afgekort worden "
+"waar nodig."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:54
+msgid ""
+"See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect "
+"to adjust white balance of a clip."
+msgstr ""
+"Zie :ref:`Granjow's blog <waveform_and_RGB_parade>` waar hij het effect "
+"gebruikt om de witbalans van een clip aanpast."

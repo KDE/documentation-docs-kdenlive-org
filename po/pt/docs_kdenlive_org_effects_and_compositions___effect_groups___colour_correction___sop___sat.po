@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 00:38+0000\n"
+"PO-Revision-Date: 2022-05-22 23:16+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: SOP Sat FilterFrei sopsat MLT ASC CDL clip\n"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:14
+msgid "SOP/Sat Effect"
+msgstr "Efeito SOP/Sat"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:16
+msgid "Contents"
+msgstr "Conteúdo"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:18
+msgid ""
+"This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/"
+"FilterFrei0r-sopsat/>`_  MLT framework filter. It changes Slope, Offset, and "
+"Power of the color components, and the overall Saturation, according to the "
+"ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/wiki/"
+"ASC_CDL>`_."
+msgstr ""
+"Este é o filtro `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/"
+"FilterFrei0r-sopsat/>`_ da plataforma MLT. Ele afecta a Inclinação, "
+"Deslocamento e Potência dos componentes de cores, assim como a Saturação de "
+"forma global, de acordo com a referência da Lista de Decisão de Cores `ASC "
+"CDL <https://en.wikipedia.org/wiki/ASC_CDL>`_."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:21
+msgid ""
+"Changing the slope means multiplying the pixel value with a constant value. "
+"Black pixels will remain black, while as brighter ones will be changed. All "
+"effects can be observed well when applied on a greyscale gradient and "
+"looking at the RGB Parade monitor."
+msgstr ""
+"A mudança da inclinação significa multiplicar o valor do pixel por um valor "
+"constante. Os pixels pretos continuarão como tal, enquanto os mais claros "
+"serão modificados. Todos os efeitos podem ser facilmente observados quando "
+"forem aplicados num gradiente de tons de cinzento e olhando para o monitor "
+"da Parada RGB."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:23
+msgid "You can use this effect to achieve proper white balance."
+msgstr ""
+"Poderá usar este efeito para obter um balanceamento de branco adequado."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:29
+msgid ""
+"This filter implements a standard way of color correction proposed by the "
+"American Society of Cinematographers: The Color Decision List, also known as "
+"the ASC CDL."
+msgstr ""
+"Este filtro implementa uma forma-padrão de correcção de cores, proposta pela "
+"Sociedade Americana de Cinematógrafos: A Lista de Decisão de Cores, também "
+"conhecida como ASC CDL."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:31
+msgid ""
+"More information about the ASC CDL can be found on `wikipedia <https://en."
+"wikipedia.org/wiki/ASC_CDL>`_."
+msgstr ""
+"Poderá encontrar mais informações sobre a ASC CDL na `Wikipédia <https://en."
+"wikipedia.org/wiki/ASC_CDL>`_."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:33
+msgid ""
+"The ASC CDL is a standard format for basic primary color correction (primary "
+"meaning affecting the whole image and not only selected parts)."
+msgstr ""
+"A ASC CDL é um formato-padrão para a correcção básica das cores primárias "
+"(onde primária significa que afecta a imagem por inteiro e não só as partes "
+"seleccionadas)."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:35
+msgid ""
+"Basically there are two stages in the correction: 1. SOP correction for each "
+"channel separately 2. Overall saturation correction"
+msgstr ""
+"Basicamente existem duas etapas na correcção: 1. Correcção SOP para cada "
+"canal em separado 2. Correcção global da saturação"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:39
+msgid ""
+"All corrections work on [0,1], so the RGB(A) values need to be transposed "
+"from {0,...,255} to [0,1]."
+msgstr ""
+"Todas as correcções funcionam de [0,1], pelo que os valores de RGB(A) têm de "
+"ser transpostos de {0,...,255} para [0,1]."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:41
+msgid "SOP correction"
+msgstr "Correcção do SOP"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
+msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
+msgstr ""
+"Inclinação:   ``saída = entrada * inclinação;   0 <= inclinação < \\infty``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
+msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
+msgstr ""
+"Deslocamento:  ``saída = entrada + deslocamento;  -\\infty < deslocamento < "
+"\\infty``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:45
+msgid "Power:   ``out = in^power;     0 < power < \\infty``"
+msgstr "Potência:   ``saída = entrad^potência;     0 < potência < \\infty``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:47
+msgid "Saturation"
+msgstr "Saturação"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:49
+msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
+msgstr ""
+"Luma:    ``Y = 0,2126 R + 0,7152 G + 0,0722 B`` (de acordo com a Rec. 709)"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:50
+msgid "Forall channels: ``out = luma + sat * (in-luma)``"
+msgstr "Para todos os canais: ``saída = luma + sat * (entrada-luma)``"
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:52
+msgid ""
+"As the values may exceed 1 (or 0), they need to be clamped where necessary."
+msgstr ""
+"Dado que os valores poderão ultrapassar o 1 (ou 0), têm de ser limitados "
+"onde for necessário."
+
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:54
+msgid ""
+"See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect "
+"to adjust white balance of a clip."
+msgstr ""
+"Veja o :ref:`blog do Granjow <waveform_and_RGB_parade>`, onde ele usa o "
+"efeito para ajustar o balanceamento de branco de um 'clip'."
