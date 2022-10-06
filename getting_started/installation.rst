@@ -116,11 +116,11 @@ Do also make sure no GPO is blocking the access to these folders.
 Kdenlive on macOS
 -----------------
 
-**Kdenlive** runs with Intel based Mac's on macOS 10.14 (Mojave) and newer (available on the `download <https://kdenlive.org/download/>`_ page). 
+**Kdenlive** runs with Intel based Mac's on macOS 10.15 (Catalina) and newer (available on the `download <https://kdenlive.org/download/>`_ page). 
 
 .. versionadded:: 22.04.0
 
-Kdenlive is running with Intel based Mac's not older than 10.13.6 (High Sierra) and on M1.
+Kdenlive is running with Intel based Mac's not older than macOS 10.15 (Catalina) [1]_ and on M1.
 
 Install procedure
 ~~~~~~~~~~~~~~~~~
@@ -226,3 +226,8 @@ Kdenlive's application-wide persistent settings are stored in the following loca
 **Windows**
 
 To reach above folders: :kbd:`windows + r` then copy above path into the window.
+
+Notes
+-----
+
+.. [1] Due to QT6 compatibility the build system was switched to C++17 in January 2022 so minimum macOS requirement is macOS 10.15.
