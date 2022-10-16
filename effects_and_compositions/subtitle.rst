@@ -34,7 +34,8 @@ Subtitle
 
 The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the new subtitle window. You can also import (**SRT**/**ASS**) and export (**SRT**) subtitles.
 
-There are 3 ways to add subtitle:
+3 ways to add subtitle
+~~~~~~~~~~~~~~~~~~~~~~
 
 * **Menu**
 
@@ -49,16 +50,19 @@ There are 3 ways to add subtitle:
   * Click :guilabel:`Add Subtitle` icon in the :ref:`timeline toolbar<guides>` to open the subtitle track in the timeline.
   * Double-click in the subtitle track to add a subtitle.
 
-**Adding and editing text**
+Adding and editing text
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Add or editing text either directly into the subtitle clip or in the subtitle window.
 
-**Adjust the length of subtitle**
+Adjust the length of subtitle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Grab the end of a subtitle with the mouse and lengthen or shorten it as needed.
 Set subtitle in/out can be achieved with the same shortcut as to set clip in/out (left/right parenthesis shortcut).
 
-**Subtitle window**
+Subtitle window
+~~~~~~~~~~~~~~~
 
 .. image:: /images/subtitle-widget.gif
    :alt: subtitle window
@@ -68,6 +72,9 @@ Set subtitle in/out can be achieved with the same shortcut as to set clip in/out
 * The scissors are mostly here for divide subtitles: let's say your subtitle text is too long and you want to make it 2 different subtitles. Put the cursor in the text widget where you want to cut and click the scissors, it will split the text between 2 different subtitle items. The scissors are only working when the playhead is over the subtitle itself.
 * The tick button adds the text to the subtitle.
 
+Style subtitle
+~~~~~~~~~~~~~~
+
 .. versionadded:: 22.08
 
 .. image:: /images/subtitle-style.png
@@ -75,7 +82,8 @@ Set subtitle in/out can be achieved with the same shortcut as to set clip in/out
 
 This is a global, simple subtitle styling possibility. It only allows one style for all subtitles of the project. Accessible through the "T drop" icon in the subtitle edit widget.
 
-**Import and export subtitle**
+Import and export subtitle
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. versionadded:: 22.08
   Allows importing .vtt (Web Video Text Tracks) and .sbv (YouTube) files.
@@ -99,7 +107,8 @@ Exporting **SRT** subtitles only: :menuselection:`Project --> Subtitles --> Expo
 
 .. versionadded:: 21.04.0
 
-**Spelling check**
+Spelling check
+~~~~~~~~~~~~~~
 
 Spelling check for subtitle is integrated and shows incorrect words by a red wiggly line. Right-click on the word and you get a list of possible words you can choose by click on it.
 
