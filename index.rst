@@ -16,6 +16,8 @@ Kdenlive Manual
 
 Welcome to the manual for `kdenlive <https://kdenlive.org>`_, the free and open source video editor.
 
+The current Kdenlive version you get `here <https://kdenlive.org/download/>`_ .
+
 You can download this manual as an `EPUB <https://docs.kdenlive.org/en/epub/KdenliveManual.epub>`_.
 
 ###############

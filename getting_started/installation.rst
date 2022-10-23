@@ -31,6 +31,8 @@ Installation
 
 Visit the `download <https://kdenlive.org/download/>`_ page of the Kdenlive Web site for up to date information on installing **Kdenlive**.
 
+You’ll find all previous Kdenlive versions in the `attic <https://download.kde.org/Attic/kdenlive/>`_.
+
 Minimum system requirements
 ---------------------------
 
