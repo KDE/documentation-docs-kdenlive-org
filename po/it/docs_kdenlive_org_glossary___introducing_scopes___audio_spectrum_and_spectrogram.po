@@ -1,0 +1,313 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 00:38+0000\n"
+"PO-Revision-Date: 2022-10-17 17:40+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.08.2\n"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:13
+msgid "The Audio Spectrum and the Spectrogram"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:15
+msgid "*Submitted by Granjow on Sat, 12/25/2010 - 12:51*"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:17
+msgid ""
+"In the next version of Kdenlive you will again find new scopes. This time "
+"not for video but for audio! I will also give some tips about audio in "
+"general (recording, perception, etc.), not only about kdenlive’s scopes."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:23
+msgid "First of all, the scopes"
+msgstr "Innanzitutto, gli ambiti"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:28
+msgid "Spectrogram screenshot"
+msgstr "Schermata dello spettrogramma"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:30
+msgid ""
+"The audio scopes are documented in-depth in `Audio Scopes for kdenlive (PDF) "
+"<http://granjow.net/uploads/kdenlive/kdenlive-audioscopes.pdf>`_. You may "
+"skip the technical/mathematical part — it is not necessary for understanding "
+"the scope, and the maths behind is not very trivial. The rest might be "
+"interesting though."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:32
+msgid "Nevertheless, a quick overview over the features currently available."
+msgstr "Una rapida panoramica sulle funzionalità attualmente disponibili."
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:35
+msgid "Audio Spectrum"
+msgstr "Spettro audio"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:37
+msgid ""
+"This scope displays the frequency spectrum for each frame. Low frequencies "
+"are on the left, high frequencies on the right. And the higher the bar, the "
+"louder this frequency."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:39
+msgid ""
+"Loudness is measured in `decibel <https://en.wikipedia.org/wiki/Decibel>`_ "
+"in the spectrum. (To be very precise, the unit used in the scope is `dbFS "
+"<https://en.wikipedia.org/wiki/DBFS>`_, so 0 dB refers to the maximum "
+"possible loudness that can be achieved with the digital input signal.) If "
+"all frequencies have equal loudness, you can adjust the range to display by "
+"dragging vertically. Simply dragging adjusts the lower threshold, :kbd:"
+"`Shift + drag` adjusts the maximum loudness to display. Horizontal dragging "
+"adjusts the maximum frequency to display samples for."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:41
+msgid ""
+"But what is this display useful for? One thing is that, as described in the "
+"PDF linked at the top, you can visually distinguish between good and bad "
+"sound quality: If there are no frequencies higher than, like, 3 kHz, then "
+"the audio quality most likely is not too good."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:43
+msgid ""
+"(If you have no clue how high 3 kHz are, which is nothing unusual since our "
+"ears do not deliver numerical values to our brain, you can use a program "
+"like `SignalGen <https://arachnoid.com/SignalGen/index.html>`_ or `Audacity "
+"<https://www.audacityteam.org/>`_ to generate a sine wave with 3 kHz (which "
+"is 3000 Hz).)"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:45
+msgid ""
+"Something else the frequency spectrum is useful for is to avoid `clipping "
+"<https://en.wikipedia.org/wiki/Clipping_(signal_processing)>`_. The same "
+"effect that can be seen with colors, e.g. in the :ref:`RGB parade "
+"<waveform_and_RGB_parade>`, and actually with every signal that is "
+"digitalized. More about this below."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:48
+msgid "Spectrogram"
+msgstr "Spettrogramma"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:50
+msgid ""
+"The `Spectrogram <https://en.wikipedia.org/wiki/Spectrogram>`_ does the same "
+"as the Audio Spectrum: It shows the frequency distribution. With the "
+"difference though that the frequencies are not shown for one frame only. "
+"Similar to the RGB Parade for colors are stronger (louder) frequencies "
+"represented by brighter pixels; this allows to put a whole frame’s spectrum "
+"in one line."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:53
+msgid "What the scopes might help in as well"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:55
+msgid ""
+"To maintain equal loudness over multiple shots. Consider `this review "
+"<https://www.youtube.com/watch?app=desktop&v=ZWXU3mScCzM>`_ about the Nikon "
+"D7000, and listen at 7:00 and 11:00. At 7:00 you can hear the reviewer loud "
+"and clear, at 11:00 you need to turn up the volume to even understand "
+"something. This should not happen."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:58
+msgid "Sound"
+msgstr "Suono"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:60
+msgid "Now a few interesting details about sound."
+msgstr "Ora alcuni dettagli interessanti sul suono."
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:63
+msgid "Clipping"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:70
+msgid "Audio levels on a Zoom H4n"
+msgstr "Livelli audio su Zoom H4n"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:72
+msgid ""
+"As mentioned above sound can clip as well. Everyone has heard this already. "
+"This is how it sounds (Extracts from James Edwards’ Greensleeves, cc-nc-by-"
+"sa, link at the end of this article):"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:74
+msgid ""
+"`Original <http://granjow.net/uploads/kdenlive/samples/James-Edwards-"
+"Greensleeves-original.ogg>`_ (Just noticed that Firefox plays .ogg "
+"natively :) )"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:76
+msgid ""
+"`Volume increased by 24 dB: <http://granjow.net/uploads/kdenlive/samples/"
+"James-Edwards-Greensleeves-overdriven-24dB.ogg>`_ Massive clipping!"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:78
+msgid ""
+"`Volume afterwards decreased by 24 dB <http://granjow.net/uploads/kdenlive/"
+"samples/James-Edwards-Greensleeves-overdriven-24dB-reverted.ogg>`_ — the "
+"clipping effect is irreversible"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:80
+msgid ""
+"Clipping is also very well visible in the audio wave itself, if you e.g. "
+"open the samples above with Audacity. (If you want to reproduce the above "
+"effect with Audacity, make sure to select «allow overdrive», otherwise it "
+"will `prevent clipping <https://en.wikipedia.org/wiki/"
+"Dynamic_range_compression>`_. When decreasing the volume afterwards do not "
+"use the same project since Audacity actually stores values that are bigger "
+"than the maximum amplitude value (.aup files only). This is great for "
+"editing, and perhaps one day we will have that for color as well in kdenlive "
+"…)"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:82
+msgid "So when may clipping occur?"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:84
+msgid ""
+"When recording audio. The input gain can be adjusted on the audio recorder. "
+"(Usually. For the Nikon D90 you cannot adjust anything for example. But its "
+"audio is not really usable anyway.) If the gain is too high, it might record "
+"for example low talking at a good volume, but clip as soon as someone rises "
+"his/her voice. Therefore input gain is usually adjusted such that the mean "
+"volume and peaks do not exceed a certain limit. This limit depends on the "
+"expected dynamic audio range. A common choice is −12 dB for the mean volume "
+"and maximally −6 dB for peaks."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:87
+msgid ""
+"When editing. There are multiple volume effects in kdenlive. If you raise "
+"the volume too much, you will experience clipping. (Try it.) To prevent "
+"clipping in kdenlive, you actually do quite the same as when recording "
+"audio. Try to keep peak values below −6 dB. If you need one cut to be really "
+"much louder than the rest and you cannot raise it any further, then you need "
+"to lower everything else."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:91
+msgid "Damping"
+msgstr "Smorzamento"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:93
+msgid ""
+"The further away you are from the sound source, the quieter you hear it. "
+"Until finally it will be as loud as the noise floor of your microphone and "
+"audio recorder. To maintain a good SNR you will therefore usually try to "
+"keep your microphone as close as possible to the sound source. Such that the "
+"signal is much stronger than the noise (and with the input gain adjusted "
+"such that no clipping occurs)."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:95
+msgid ""
+"But that is not everything yet. (Actually the above point was not about "
+"dampening at all but merely about wave propagation.) There is one "
+"interesting aspect, which is that higher frequencies are absorbed much "
+"stronger than low frequencies. Unlike the previous points this is not a "
+"problem but rather an interesting variable: If you record someone’s voice "
+"and want to put him far away in the video (next room for example), lower the "
+"higher frequencies (using Audacity’s Equalizer effect for example)."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:98
+msgid "Our ear"
+msgstr "Il nostro orecchio"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:100
+msgid "What is louder, a sine wave of 200 Hz or a sine wave of 4 kHz?"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:102
+msgid ""
+"`200 Hz Sine <http://granjow.net/uploads/kdenlive/samples/Sine-200Hz.ogg>`_"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:104
+msgid ""
+"`4000 Hz Sine <http://granjow.net/uploads/kdenlive/samples/Sine-4000Hz.ogg>`_"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:106
+msgid ""
+"They have both been generated with the same amplitude (volume). But our ear "
+"is most sensible on the frequencies we talk in. To read more about our ear, "
+"`Wikipedia <https://en.wikipedia.org/wiki/Hearing>`_ is a good starting "
+"point."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:109
+msgid "Links"
+msgstr "Collegamenti"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:111
+msgid ""
+"`James Edwards <https://www.jamendo.com/artist/355390/james-edwards>`_ at "
+"Jamendo"
+msgstr ""
+"`James Edwards <https://www.jamendo.com/artist/355390/james-edwards>`_ su "
+"Jamendo"
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:113
+msgid ""
+"`Damping of frequencies in air (PDF) <https://web.archive.org/"
+"web/20140715193728/http://www.isi.ee.ethz.ch/teaching/courses/ak1/akustik-"
+"schallausbreitung-im-freien.pdf>`_, German"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:115
+msgid ""
+"`Capturing good sound <https://vimeo.com/blog/post/capturing-good-sound>`_ "
+"at Vimeo, about microphones."
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:117
+msgid ""
+"`Thread about audio and clipping <https://web.archive.org/web/20140715164749/"
+"http://www.dvxuser.com/V6/showthread.php?207009-Db-level-peaks-matter-in-"
+"this-situation&highlight=audio+clipping>`_ at dvxuser.com (I think it is a "
+"good idea to search for interesting forum threads there for yourself if you "
+"are interested)"
+msgstr ""
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:120
+msgid "Thanks …"
+msgstr "Ringraziamenti..."
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:126
+msgid ""
+"… for reading! I hope you will have fun with the scopes in the next kdenlive "
+"version."
+msgstr ""
+"… per leggere! Spero che ti divertirai con gli ambiti nella prossima "
+"versione di kdenlive."
+
+#: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:129
+msgid "Simon A. Eugster (Granjow)"
+msgstr "Simon A. Eugster (Granjow)"
