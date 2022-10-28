@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2022-10-20 09:25+0200\n"
 "Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.08.2\n"
 
@@ -31,35 +31,83 @@ msgid "Insert Space"
 msgstr "Inserisci spazio"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:18
-msgid ":menuselection:`Space` brings up a submenu with :menuselection:`Insert Space` and :menuselection:`Remove Space` options.  Inserting a space is a useful feature when you want to push all the existing clips on the timeline aside to make room for new clips but also want to preserve the relationships among all the clips that were shifted, including their transitions."
+msgid ""
+":menuselection:`Space` brings up a submenu with :menuselection:`Insert "
+"Space` and :menuselection:`Remove Space` options.  Inserting a space is a "
+"useful feature when you want to push all the existing clips on the timeline "
+"aside to make room for new clips but also want to preserve the relationships "
+"among all the clips that were shifted, including their transitions."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:25
-msgid "In addition to invoking this menu from :menuselection:`Timeline --> Space`, you can also bring it up by right-clicking on an empty spot on a track in the timeline.  There are a couple of important differences with how :menuselection:`Insert Space` behaves, though, depending on which method you choose.  First, using :menuselection:`Timeline --> Space --> Insert Space` brings up the **Add Space** dialog shown in Figure 1 where the default choice for **Track:** is *All tracks*."
+msgid ""
+"In addition to invoking this menu from :menuselection:`Timeline --> Space`, "
+"you can also bring it up by right-clicking on an empty spot on a track in "
+"the timeline.  There are a couple of important differences with how :"
+"menuselection:`Insert Space` behaves, though, depending on which method you "
+"choose.  First, using :menuselection:`Timeline --> Space --> Insert Space` "
+"brings up the **Add Space** dialog shown in Figure 1 where the default "
+"choice for **Track:** is *All tracks*."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:32
-msgid "When you access the menu by right-clicking on a track, the same dialog appears but the default is the track you clicked on.  In either case, you can obviously override the default by picking another option (Figure 2).  The other difference is that the insertion happens at the playhead when the operation originates from the Timeline menu; it takes place at the mouse cursor position when right-clicking."
+msgid ""
+"When you access the menu by right-clicking on a track, the same dialog "
+"appears but the default is the track you clicked on.  In either case, you "
+"can obviously override the default by picking another option (Figure 2).  "
+"The other difference is that the insertion happens at the playhead when the "
+"operation originates from the Timeline menu; it takes place at the mouse "
+"cursor position when right-clicking."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:34
-msgid "And in case you're wondering, the default **Duration** for the inserted space is 65 frames, which is not configurable in the Kdenlive or Project settings.  65 frames will equate to different amounts of time depending on the frame rate set in your project profile.  In the example, our project's frame rate happens to be 30 fps and that's why the default **Duration** works out to be 00:00:02.05."
+msgid ""
+"And in case you're wondering, the default **Duration** for the inserted "
+"space is 65 frames, which is not configurable in the Kdenlive or Project "
+"settings.  65 frames will equate to different amounts of time depending on "
+"the frame rate set in your project profile.  In the example, our project's "
+"frame rate happens to be 30 fps and that's why the default **Duration** "
+"works out to be 00:00:02.05."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:41
-msgid "Let's look at an example, albeit an unrealistic one, of how inserting a space from the playhead position will affect clips and transitions on different tracks.  In general, inserting a space will shift any clips that the playhead is touching as well as all clips to the right of the playhead on the affected track(s).  Transitions are a little trickier because they span two tracks.  They are assumed to “belong” to the higher track (regardless of the direction of the transition) and so if the playhead is touching them, they will go if the higher track is included in the shift.  Figure 3 shows a scenario with clips on three video tracks before inserting a space.  All of the following examples assume we're starting from this position."
+msgid ""
+"Let's look at an example, albeit an unrealistic one, of how inserting a "
+"space from the playhead position will affect clips and transitions on "
+"different tracks.  In general, inserting a space will shift any clips that "
+"the playhead is touching as well as all clips to the right of the playhead "
+"on the affected track(s).  Transitions are a little trickier because they "
+"span two tracks.  They are assumed to “belong” to the higher track "
+"(regardless of the direction of the transition) and so if the playhead is "
+"touching them, they will go if the higher track is included in the shift.  "
+"Figure 3 shows a scenario with clips on three video tracks before inserting "
+"a space.  All of the following examples assume we're starting from this "
+"position."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:48
-msgid "In Figure 4, we have chosen to insert a space on *All Tracks*.  Since the playhead was touching both transitions and the color clips on tracks 2 and 3, it shifted them, along with all the clips to the right of the playhead.  It did not shift the black clip on track 1 because it was to the left of the playhead."
+msgid ""
+"In Figure 4, we have chosen to insert a space on *All Tracks*.  Since the "
+"playhead was touching both transitions and the color clips on tracks 2 and "
+"3, it shifted them, along with all the clips to the right of the playhead.  "
+"It did not shift the black clip on track 1 because it was to the left of the "
+"playhead."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:55
-msgid "In Figure 5, we chose Track 1.  The transition went because it “belongs” to the black clip on track 1, but the clip itself did not go because it was to the left of the playhead.  The red clip on track 1 also went because it was to the right of the playhead."
+msgid ""
+"In Figure 5, we chose Track 1.  The transition went because it “belongs” to "
+"the black clip on track 1, but the clip itself did not go because it was to "
+"the left of the playhead.  The red clip on track 1 also went because it was "
+"to the right of the playhead."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:62
-msgid "In Figure 6, we shifted the clips on Track 2.  Now the Dissolve transition between tracks 1 and 2 does not shift, even though the playhead was touching it, because it belongs to track 1.  The other transition does go, because it belongs to the higher track 2."
+msgid ""
+"In Figure 6, we shifted the clips on Track 2.  Now the Dissolve transition "
+"between tracks 1 and 2 does not shift, even though the playhead was touching "
+"it, because it belongs to track 1.  The other transition does go, because it "
+"belongs to the higher track 2."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:69
@@ -67,7 +115,10 @@ msgid "Finally, In Figure 7, we chose track 3 and just the clips move."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:72
-msgid "If we had started this process by right-clicking on a spot on track 1 or track 3 which corresponds to the playhead position in the example, the results would have been the same."
+msgid ""
+"If we had started this process by right-clicking on a spot on track 1 or "
+"track 3 which corresponds to the playhead position in the example, the "
+"results would have been the same."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:76
@@ -75,17 +126,22 @@ msgid "Remove Space"
 msgstr "Rimuovi spazio"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:78
-msgid ":menuselection:`Remove Space` is not the exact opposite of :menuselection:`Insert Space`."
+msgid ""
+":menuselection:`Remove Space` is not the exact opposite of :menuselection:"
+"`Insert Space`."
 msgstr ""
-":menuselection:`Rimuovi spazio` non è l'esatto opposto di "
-":menuselection:`Inserisci spazio`."
+":menuselection:`Rimuovi spazio` non è l'esatto opposto di :menuselection:"
+"`Inserisci spazio`."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:80
 msgid "The similarities are:"
 msgstr "Le somiglianze sono:"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:82
-msgid "If you access :menuselection:`Remove Space` from the :menuselection:`Timeline` menu, the playhead governs where the removal will happen.  When using right-click, it happens at the mouse cursor."
+msgid ""
+"If you access :menuselection:`Remove Space` from the :menuselection:"
+"`Timeline` menu, the playhead governs where the removal will happen.  When "
+"using right-click, it happens at the mouse cursor."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:83
@@ -101,9 +157,16 @@ msgid "It only works on one track at a time – there is no *All Tracks* option.
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:88
-msgid "If you accessed :menuselection:`Remove Space` from the :menuselection:`Timeline` menu, the playhead must be on an empty space in the track where the space is to be removed."
+msgid ""
+"If you accessed :menuselection:`Remove Space` from the :menuselection:"
+"`Timeline` menu, the playhead must be on an empty space in the track where "
+"the space is to be removed."
 msgstr ""
 
 #: ../../user_interface/menu/timeline_menu/space.rst:89
-msgid "You can not set the duration of the space to be removed – all the empty space between clips is removed.  All the clips and transitions to the right of the playhead or mouse cursor will be shifted left until the first clip encounters another clip or the beginning of the track."
+msgid ""
+"You can not set the duration of the space to be removed – all the empty "
+"space between clips is removed.  All the clips and transitions to the right "
+"of the playhead or mouse cursor will be shifted left until the first clip "
+"encounters another clip or the beginning of the track."
 msgstr ""
