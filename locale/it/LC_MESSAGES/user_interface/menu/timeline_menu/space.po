@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 00:37+0000\n"
-"PO-Revision-Date: 2022-10-20 09:25+0200\n"
-"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
+"PO-Revision-Date: 2022-11-06 16:13+0100\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.2\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:10
 msgid "Timeline>Space"
-msgstr "Linea temporale - spazio"
+msgstr "Linea temporale>Spazio"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:13
 msgid "Contents"
@@ -93,6 +93,11 @@ msgid ""
 "It did not shift the black clip on track 1 because it was to the left of the "
 "playhead."
 msgstr ""
+"Nella Figura 4, abbiamo scelto di inserire uno spazio su *Tutte le tracce*. "
+"Poiché la testina di riproduzione toccava entrambe le transizioni e le clip "
+"di colore sulle tracce 2 e 3, le ha spostate, insieme a tutte le clip a "
+"destra della testina di riproduzione. Non ha spostato la clip nera sulla "
+"traccia 1 perché era a sinistra della testina di riproduzione."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:55
 msgid ""
@@ -101,6 +106,11 @@ msgid ""
 "the left of the playhead.  The red clip on track 1 also went because it was "
 "to the right of the playhead."
 msgstr ""
+"Nella Figura 5, abbiamo scelto la traccia 1. La transizione è avvenuta "
+"perché \"appartiene\" alla clip nera sulla traccia 1, ma la clip stessa non "
+"è andata perché si trovava a sinistra della testina di riproduzione. Anche "
+"la clip rossa sulla traccia 1 è andata perché era a destra della testina di "
+"riproduzione."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:62
 msgid ""
@@ -109,10 +119,16 @@ msgid ""
 "it, because it belongs to track 1.  The other transition does go, because it "
 "belongs to the higher track 2."
 msgstr ""
+"Nella Figura 6, abbiamo spostato le clip sulla traccia 2. Ora la transizione "
+"Dissolvi tra le tracce 1 e 2 non si sposta, anche se la testina di "
+"riproduzione la stava toccando, perché appartiene alla traccia 1. L'altra "
+"transizione va, perché appartiene a la traccia più alta 2."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:69
 msgid "Finally, In Figure 7, we chose track 3 and just the clips move."
 msgstr ""
+"Infine, nella Figura 7, abbiamo scelto la traccia 3 e solo le clip si "
+"spostano."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:72
 msgid ""
@@ -120,6 +136,9 @@ msgid ""
 "track 3 which corresponds to the playhead position in the example, the "
 "results would have been the same."
 msgstr ""
+"Se avessimo avviato questo processo facendo clic con il pulsante destro del "
+"mouse su un punto della traccia 1 o della traccia 3 che corrisponde alla "
+"posizione della testina nell'esempio, i risultati sarebbero stati gli stessi."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:76
 msgid "Remove Space"
@@ -143,18 +162,24 @@ msgid ""
 "`Timeline` menu, the playhead governs where the removal will happen.  When "
 "using right-click, it happens at the mouse cursor."
 msgstr ""
+"Se accedi a :menuselection:`Rimuovi spazio` dal menu :menuselection:`Linea "
+"temporale`, la testina di riproduzione determina dove avverrà la rimozione. "
+"Quando si utilizza il clic con il pulsante destro del mouse, accade al "
+"cursore del mouse."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:83
 msgid "Transitions will move with clips on the higher track."
-msgstr ""
+msgstr "Le transizioni si sposteranno con le clip sulla traccia più alta."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:85
 msgid "There are the following differences:"
-msgstr ""
+msgstr "Ci sono le seguenti differenze:"
 
 #: ../../user_interface/menu/timeline_menu/space.rst:87
 msgid "It only works on one track at a time – there is no *All Tracks* option."
 msgstr ""
+"Funziona solo su una traccia alla volta: non esiste l'opzione *Tutte le "
+"tracce*."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:88
 msgid ""
@@ -162,6 +187,9 @@ msgid ""
 "`Timeline` menu, the playhead must be on an empty space in the track where "
 "the space is to be removed."
 msgstr ""
+"Se hai effettuato l'accesso a :menuselection:`Rimuovi spazio` dal menu "
+":menuselection:`Linea temporale`, la testina di riproduzione deve trovarsi "
+"in uno spazio vuoto nella traccia in cui lo spazio deve essere rimosso."
 
 #: ../../user_interface/menu/timeline_menu/space.rst:89
 msgid ""
@@ -170,3 +198,8 @@ msgid ""
 "of the playhead or mouse cursor will be shifted left until the first clip "
 "encounters another clip or the beginning of the track."
 msgstr ""
+"Non è possibile impostare la durata dello spazio da rimuovere: tutto lo "
+"spazio vuoto tra le clip viene rimosso. Tutte le clip e le transizioni a "
+"destra della testina di riproduzione o del cursore del mouse verranno "
+"spostate a sinistra finché la prima clip non incontra un'altra clip o "
+"l'inizio della traccia."
