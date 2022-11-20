@@ -14,13 +14,14 @@
 
    :license: Creative Commons License SA 4.0
 
+
+
 .. _settings_menu:
 
 Settings Menu
 =============
 
 .. contents::
-
 
 .. image:: /images/Settings_menu.png
    :align: left
@@ -68,8 +69,10 @@ Configure Language
 
 Setting Kdenlive to your preferred language.
 
-.. toctree::
-   :caption: Contents:
-   :glob:
 
+.. toctree::
+   :hidden:
+   :caption: Contents:
+   :glob: 
+   
    settings_menu/*

@@ -17,6 +17,7 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _configure_kdenlive:
 
 Configure Kdenlive
@@ -31,41 +32,66 @@ Following settings applies when you start a project with :ref:`new`.
 Misc
 ----
 
+.. versionchanged:: 22.12
 
-.. image:: /images/Kdenlive_Configure_misc.png
+.. image:: /images/Kdenlive_Configure_misc_22-12.png
    :width: 500px
    :alt: Kdenlive_Configure_misc
 
+**Project file**
 
+- :guilabel:`Open the last project on startup`
 
-Open the last project on startup
+- :guilabel:`Activate Crash recovery` (:ref:`auto_save`)
 
-Check if the first added clip matches the project profile
+**Clip import**
 
-Crash recovery (:ref:`auto_save`)
+- :guilabel:`Check if the first added clip matches the project profile`
 
-Use KDE job tracking for render jobs
+- :guilabel:`Automatically import all streams in multi stream clips` Here you set if all audio streams are loaded/imported.
 
-Use on-monitor effects
+- :guilabel:`Automatically import image sequences`
 
-Disable parameters when the effect is disabled
+- :guilabel:`Get clip metadata with exiftool`
 
-Default Durations
+- :guilabel:`Get clip metadata created by Magic Lantern`
 
-Automatically import image sequences
+- :guilabel:`Ignore subfolder structure on import (import all files into toplevel folder)`
 
-Transparent background for imported images
+**-------**
+
+- :guilabel:`Disable parameters when the effect is disabled`
+
+- :guilabel:`Tab position` Set the tab position when a window is open.
+
+**-------**
+
+- :guilabel:`Preferred track compositing compostion:` Select :menuselection:`auto`, :menuselection:`frei0r.cairoblend`, :menuselection:`qtblend`. 
+
+.. versionchanged:: 22.12
+  
+Qtblend brings back a much better playback performance when there is no compositing. When there is a compositing, performance is slightly worse than frei0r.cairoblend (Kdenlive lose 1-2 fps on playback).
+
+**Default Durations**
+
+Here you set the default duration of below items.
+
+.. deprecated:: 22.08
+
+- :guilabel:`Bypass codec verification`
+- :guilabel:`Use KDE job tracking for render jobs`
 
 .. _configure_project_defaults:
 
 Project Defaults
 ----------------
 
+.. versionchanged:: 22.12
 
 Configures what the project settings will look like by default when you choose File --> :ref:`New`.
 
 
-.. image:: /images/Kdenlive_Configure_project_defaults.png
+.. image:: /images/Kdenlive_Configure_project_defaults_22-12.png
    :width: 500px
    :alt: Kdenlive_Configure_project_defaults
 
@@ -74,9 +100,11 @@ Configures what the project settings will look like by default when you choose F
 Proxy Clips
 -----------
 
+.. versionchanged:: 22.12
+
 Configures what the proxy settings will be when you choose File --> :ref:`New`.
 
-.. image:: /images/Kdenlive_Configure_proxy.png
+.. image:: /images/Kdenlive_Configure_proxy_22-12.png
    :width: 500px
    :alt: Kdenlive_Configure_project_proxy
 
@@ -85,41 +113,60 @@ Configures what the proxy settings will be when you choose File --> :ref:`New`.
 Timeline
 --------
 
+.. versionchanged:: 22.12
+
 Configure how the timeline appears in **Kdenlive**
 
 
-.. image:: /images/Configure_Timeline.png
+.. image:: /images/Configure_Timeline_22-12.png
    :width: 500px
    :alt: Configure_Timeline
 
 
 **Thumbnails** 
 
-- Video: Turns on video thumbnail by default.
+- :guilabel:`Enable for Video` Turns on video thumbnail by default.
 
-- Audio: Turns on audio thumbnail by default.
+- :guilabel:`Enable for Audio` Turns on audio thumbnail by default.
 
-- Separate channels: If checked you will get a separate waveform in the audio thumbnail for each audio channel in the audio track. If unchecked you will get a single waveform as the audio thumbnail.
+- :guilabel:`Separate audio channels` If checked you will get a separate waveform in the audio thumbnail for each audio channel in the audio track. If unchecked you will get a single waveform as the audio thumbnail.
 
-**Settings**
+.. deprecated:: 22.12
 
-- Autoscroll while playing
+- :guilabel:`Use FFmpeg for audio thumbnails (faster)`
 
-- Pause playback when seeking: **Enabled:** It stops playback while you click on a new position in the timeline. **Disabled:** Playback is ongoing while you click on a new position in the timeline. It allows looping playback, see :ref:`loop_playback`.
 
-- Zoom using vertical drag in the ruler
+**Playback and Seeking**
 
-- Track Height: defines the default track height in pixels for the tracks on the timeline.
+- :guilabel:`Pause playback when seeking` **Enabled:** It stops playback while you click on a new position in the timeline. **Disabled:** Playback is ongoing while you click on a new position in the timeline. It allows looping playback, see :ref:`loop_playback`.
 
-**Multi stream audio clips**
+- :guilabel:`Jump to timeline start if playback is started on last frame in timeline`
 
-On import, enable: select if :menuselection:`all audio streams`, :menuselection:`first audio stream`, :menuselection:`first 2 audio streams` should be imported.
+- :guilabel:`Seek to clip when adding effect`
 
-- Check if project contains enough audio tracks. If enabled Kdenlive asks if it should generate the additional audio tracks needed automatically.
+**Scrolling**
+
+- :guilabel:`Autoscroll while playing`
+
+- :guilabel:`Scroll vertically with scroll wheel, horizontally with Shift + scroll wheel`
+
+**---------**
+
+- :guilabel:`Display clip markers comments` 
+
+- :guilabel:`Default track height:` Defines the default track height in pixels for the tracks on the timeline.
 
 **Raise properties pane when selecting in timeline**
 
-More details :ref:`here <automatically-raising-the-properties-pane>`
+- More details :ref:`here <automatically-raising-the-properties-pane>`
+
+
+**Multi stream audio clips**
+
+- :guilabel:`On import, enable:` Select if :menuselection:`all audio streams`, :menuselection:`first audio stream`, :menuselection:`first 2 audio streams` should be imported.
+
+- :guilabel:`Check if project contains enough audio tracks` If enabled Kdenlive asks if it should generate the additional audio tracks needed automatically.
+
 
 
 .. _configure_environment:
@@ -156,13 +203,20 @@ Path to the MediaInfo file. If filled in Kdenlive shows more details in clip pro
 
 **Proxy and Transcode Jobs**
 
-:guilabel:`Concurrent threads` This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
+- :guilabel:`Concurrent threads` This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
 
 .. versionadded:: 22.08
 
-:guilabel:`Use lower CPU priority for proxy and transcode tasks`
+- :guilabel:`Use lower CPU priority for proxy and transcode tasks`
 
 This adds a Kdenlive setting to lower the priority of the proxy rendering (QProcess). This helps keep the main UI responsive when proxies are rendering.
+
+.. versionadded:: 22.12
+
+- :guilabel:`Cached Data`
+
+Add a maximal cache size so that Kdenlive can check every 2 weeks if the total cached data size exceeds this limit and warn the user.
+
 
 .. deprecated:: 19.04
 
@@ -174,19 +228,21 @@ If you want to experiment with multi threading in versions higher than 0.9.10  y
 Default Folders
 ~~~~~~~~~~~~~~~
 
-.. figure:: /images/Kdenlive_Configure_environment_default_folders.png
+.. versionchanged:: 22.08
+
+.. figure:: /images/Kdenlive_Configure_environment_default_folders_22-12.png
    :width: 500px
    :alt: Kdenlive_Configure_environment_default_folders
 
    Default folders on Windows.
 
-.. figure:: /images/Kdenlive_Configure_environment_default_folders_Linux.png
+.. figure:: /images/Kdenlive_Configure_environment_default_folders_Linux_22-12.png
    :width: 500px
    :alt: Kdenlive_Configure_environment_default_folders_Linux
 
    Default folders on Linux.
 
-.. figure:: /images/Kdenlive_Configure_environment_default_folders_MacOS.png
+.. figure:: /images/Kdenlive_Configure_environment_default_folders_MacOS_22-12.png
    :width: 500px
    :alt: Kdenlive_Configure_environment_default_folders_MacOS
 
@@ -206,11 +262,11 @@ Default Apps
 
 This setting controls what external application opens when you choose :ref:`edit_clip` for a clip in the project bin. 
 
-:guilabel:`Image editing`: A free software would be `Krita <https://www.audacityteam.org/>`_.
+- :guilabel:`Image editing`: A free software would be `Krita <https://www.audacityteam.org/>`_.
 
-:guilabel:`Audio editing`: A free software would be `Audacity <https://krita.org/en/>`_.
+- :guilabel:`Audio editing`: A free software would be `Audacity <https://krita.org/en/>`_.
 
-:guilabel:`Animation editing`: Kdenlive updates automatically files which are saved in Glaxnimate. Glaxnimate can be downloaded from `here <https://glaxnimate.mattbas.org/>`_ (Linux, Windows, Mac).
+- :guilabel:`Animation editing`: Kdenlive updates automatically files which are saved in Glaxnimate. Glaxnimate can be downloaded from `here <https://glaxnimate.mattbas.org/>`_ (Linux, Windows, Mac).
 
 **Mac user:** :ref:`Instruction <kdenlive_macos>` how to install and run `dmg` files.
 
@@ -238,18 +294,28 @@ Added animation file type: `Json` (Lottie animations) and `rawr` (Glaxnimate ani
 
 .. _configure_colors:
 
-Colors
-------
+Colors and Guides
+-----------------
 
-.. image:: /images/Kdenlive_Configure_colors.png
+.. image:: /images/Kdenlive_Configure_colors_22-12.png
    :width: 500px
    :alt: Kdenlive_Configure_colors
 
-:guilabel:`Audio thumbnail colors` Click on the color bar and change the color of the audio wave thumbnail.
+- :guilabel:`Audio thumbnail colors` Click on the color bar and change the color of the audio wave thumbnail.
 
-.. versionadded:: 22.08.0
+.. versionadded:: 22.08
 
-:guilabel:`Monitor overlay color` Click on the color bar and change the color of the monitor overlay lines. See :ref:`monitor_toolbars`
+- :guilabel:`Monitor overlay color` Click on the color bar and change the color of the monitor overlay lines. See :ref:`monitor_toolbars`
+
+.. versionchanged:: 22.12
+   Moved from tab :ref:`configure_playback`
+
+- :guilabel:`Monitor background color` Click on the color bar and change the color of the monitor background.
+
+.. versionadded:: 22.12
+
+- :guilabel:`Guides and Markers Categories` This allows you to add categories. Selected categories can be edited and deleted.   
+
 
 .. _configure_speech_to_text:
 
@@ -262,15 +328,94 @@ Speech To Text
 
 More details about speech to text see :ref:`here <speech_to_text>`. 
 
+.. _configure_playback:
+
+Playback
+--------
+
+.. versionchanged:: 22.12
+
+Configure the Video and Audio drivers and devices. For advanced users only.
+
+
+.. figure:: /images/Kdenlive_Configure_playback_22-12.png
+   :width: 500px
+   :alt: Kdenlive_Configure_playback
+
+   Playback view on Windows.
+
+.. figure:: /images/Kdenlive_Configure_playback_Linux.png
+   :width: 500px
+   :alt: Kdenlive_Audio_Driver_Linux
+
+   :guilabel:`Audio driver` on Linux.
+
+.. figure:: /images/Kdenlive_Configure_playback_MacOS.png
+   :width: 500px
+   :alt: Kdenlive_Audio_Driver_MacOS
+
+   :guilabel:`Audio driver` on MAcOS.
+
+:guilabel:`Audio driver` on Windows
+
+- WinMM (Win7), Wasapi (Win10), DirectSound. If you have any audio issue or playback stuttering you may change to another audio driver.
+
+In version 0.9.4 of **Kdenlive**, checking the "use Open GL for video playback" checkbox turns on the ability to have audio scrubbing available for use in the clips.  Audio scrubbing lets you hear the audio at the playhead position as you drag the playhead so you can quickly find a particular sound or event in the audio. This feature can be useful for placing the play head at the correct spot in the clip relative to an important bit of audio.
+
+In ver 15.04 or higher, there is no "use Open GL for video playback" checkbox  - Open GL is used by default. On Windows you can set the OpenGL backend under :menuselection:`Settings --> OpenGL Backend`  
+
+.. versionchanged:: 22.12
+
+- :guilabel:`Monitor background color` moved to :ref:`configure_colors`    
+
+- :guilabel:`Enable Audio Scrubbing` and :guilabel:`Preview Volume` are removed as the UI element is a duplicate of the volume slider in the monitors hamburger menu. See :ref:`Clip Monitor<clip_monitor_hamburger>` and :ref:`Project Monitor<project_monitor_overview>`
+
+
+
 .. _configure_capture:
 
 Capture
 -------
 
+
+Configure Screen Grab Capture
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/Kdenlive_Configure_screen_grab_22-12.png
+   :width: 500px
+   :alt: Kdenlive_Configure_screen_grab
+
+These settings configure screen grab within **Kdenlive**. More details see :ref:`here <capturing>`.
+
+Blackmagic
+~~~~~~~~~~
+
+.. image:: /images/Kdenlive_Configure_screen_grab_Blackmagic_22-12.png
+   :width: 500px
+   :alt: Kdenlive_Configure_screen_grab_Blackmagic
+
+If you have a Blackmagic DecLink video capture card you can set here the import parameter.
+
+.. _configure_audio_capture:
+
+Audio
+~~~~~
+
+.. image:: /images/Kdenlive_Configure_screen_grab_audio_22-12.png
+   :width: 500px
+   :alt: Kdenlive_Configure_screen_grab_audio
+
+Microphone settings, either for screen :ref:`capturing` or for :ref:`capturingaudio` direct into the timeline.
+
+.. versionadded:: 22.12
+
+:guilabel:`Disable countdown before recording`
+
 .. note::
 
   At least Firewire capture was removed in porting to KDE 5 due to lack of manpower.
-
+  
+  Following paragraph is for history reason only.
 
 Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, Blackmagic, Audio) from this section.
 
@@ -311,32 +456,6 @@ HDV is a high-definition format used on tape-based HD camcorders.
 
 The **dvgrab additional parameters** edit box allows you to add extra dvgrab switches to the capture process that will run. See  `dvgrab manual <http://linux.die.net/man/1/dvgrab>`_ for more info.
 
-Configure Screen Grab Capture
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: /images/Kdenlive_Configure_screen_grab.png
-   :width: 500px
-   :alt: Kdenlive_Configure_screen_grab
-
-These settings configure screen grab within **Kdenlive**. More details see :ref:`here <capturing>`.
-
-Blackmagic
-~~~~~~~~~~
-
-.. image:: /images/Kdenlive_Configure_screen_grab_Blackmagic.png
-   :width: 500px
-   :alt: Kdenlive_Configure_screen_grab_Blackmagic
-
-If you have a Blackmagic DecLink video capture card you can set here the import parameter.
-
-Audio
-~~~~~
-
-.. image:: /images/Kdenlive_Configure_screen_grab_audio.png
-   :width: 500px
-   :alt: Kdenlive_Configure_screen_grab_audio
-
-Microphone settings, either for screen :ref:`capturing` or for :ref:`capturingaudio` direct into the timeline.
 
 .. _configure_jog_shuttle:
 
@@ -434,40 +553,6 @@ Now the basic functionality should work. Adjust the buttons of the shuttle with 
 
    You can make Kdenlive settings from scratch using :menuselection:`Options --> Create new settings --> Create Empty Settings` when creating new settings.
 
-.. _configure_playback:
-
-Playback
---------
-
-
-Configure the Video and Audio drivers and devices. For advanced users only.
-
-
-.. figure:: /images/Kdenlive_Configure_playback.png
-   :width: 500px
-   :alt: Kdenlive_Configure_playback
-
-   Playback view on Windows.
-
-.. figure:: /images/Kdenlive_Configure_playback_Linux.png
-   :width: 500px
-   :alt: Kdenlive_Audio_Driver_Linux
-
-   Audio driver on Linux.
-
-.. figure:: /images/Kdenlive_Configure_playback_MacOS.png
-   :width: 500px
-   :alt: Kdenlive_Audio_Driver_MacOS
-
-   Audio driver on MAcOS.
-
-**Audio driver**
-
-- **Windows:** WinMM (Win7), Wasapi (Win10), DirectSound. If you have any audio issue or playback stuttering you may change to another audio driver.
-
-In version 0.9.4 of **Kdenlive**, checking the "use Open GL for video playback" checkbox turns on the ability to have audio scrubbing available for use in the clips.  Audio scrubbing lets you hear the audio at the playhead position as you drag the playhead so you can quickly find a particular sound or event in the audio. This feature can be useful for placing the play head at the correct spot in the clip relative to an important bit of audio.
-
-In ver 15.04 or higher, there is no "use Open GL for video playback" checkbox  - Open GL is used by default. On Windows you can set the OpenGL backend under :menuselection:`Settings --> OpenGL Backend`  
 
 .. _configure_transcode:
 
