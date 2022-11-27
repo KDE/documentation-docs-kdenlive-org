@@ -22,6 +22,7 @@ Grouping
 
 Grouping clips allows you to lock clips together so that you can move them as a group and still retain their positions relative to each element in the group. 
 
+.. _group_clips:
 
 How to Group Clips
 ------------------
@@ -60,6 +61,9 @@ If you cut the video clip using the :ref:`editing` when there is an audio clip g
 
 
 .. rst-class:: clear-both
+
+
+.. _ungroup_clips:
 
 Removing Clip Grouping
 ----------------------

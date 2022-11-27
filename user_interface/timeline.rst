@@ -244,7 +244,7 @@ Continuously loop playback
 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: See also:
+   :maxdepth: 2
 
-   menu/timeline_menu
+
+  

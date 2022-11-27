@@ -60,6 +60,9 @@ This is the context menu that appears when you right-click on a clip in the time
 
 * :menuselection:`Disable clip` will disable the clip so it will not render in the project monitor or in a final video render. To disable the video or audio part of an A/V clip you have to un-group the A/V clip, disable the video or audio part and group the A/V clip again.
 
+.. _delete_items:
+
+* :menuselection:`Delete Selected Item` will delete the item you have selected. Add to the selection: Holding down :kbd:`Shift` and click on additional items. :menuselection:`Timeline --> Current track --> Remove All Clips After Cursor` handles AV clips as 1 element, doesn't matter on which track they are. This function is only in the Timeline menu available this to avoid clutter.  
 
 * :menuselection:`Extract clip` will remove the clip from the timeline and the space it occupied. 
 

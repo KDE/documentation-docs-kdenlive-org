@@ -143,6 +143,7 @@ Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the time
 
 Doing with right click on the clip see :ref:`change_speed`. 
 
+.. _remove_spaces:
 
 Removing Space Between Clips
 ----------------------------
@@ -152,6 +153,14 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
 
 .. image:: /images/Kdenlive-removespace.gif
    :alt: remove space
+
+.. versionadded:: 22.12
+
+:menuselection:`Timeline --> Current track --> Remove All Spaces After Cursor`
+
+It handles AV clips as 1 element, doesn't matter on which track they are. This function is only in the Timeline menu available this to avoid clutter. 
+
+More details see :ref:`remove_space`.
 
 .. _timeline_toolbar:
 
