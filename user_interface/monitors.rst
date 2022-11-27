@@ -102,6 +102,15 @@ Widgets on the Clip Monitor
 
 6) Timecode arrows - can be used to change the current position of the clip in the clip monitor.
 
+.. _clip_monitor_hamburger:
+
+Hamburger menu
+~~~~~~~~~~~~~~
+
+.. image:: /images/Clip_monitor_hamburger.png
+   :alt: Clip_monitor_hamburger
+
+
 Creating Zones in Clip Monitor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -149,6 +158,15 @@ Project Monitor Widgets
 2) The timecode widget. You can type a timecode here and press :kbd:`Enter` to bring the Project Monitor to an exact location.
 
 3) Timecode widget control arrows. You can move the Project Monitor one frame at a time with these.
+
+.. _project_monitor_hamburger:
+
+Hamburger menu
+~~~~~~~~~~~~~~
+
+.. image:: /images/Project_monitor_hamburger.png
+   :alt: Project_monitor_hamburger
+
 
 Creating Zones in Project Monitor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
