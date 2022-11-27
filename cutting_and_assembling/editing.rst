@@ -1,3 +1,8 @@
+.. meta::
+   :description: Editing in Kdenlive video editor
+   :keywords: KDE, Kdenlive, edit, animation, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -97,6 +102,32 @@ Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or
 
 .. image:: /images/av-metamove.gif
    :alt: av-metamove
+
+
+.. _edit_an-animation: 
+
+Edit an animation
+-----------------
+
+.. versionadded:: 22.12
+
+.. note::
+   This requires Glaxnimate version >= 0.5.1
+
+Double click on an animation clip in the timeline and this will open Glaxnimate. 
+
+.. image:: /images/animation_with__background.png
+   :alt: Animation with background
+
+
+The background of the animation in Kdenlive will also be shown in Glaxnimate.
+
+.. image:: /images/glaxnimate_with_background.png
+   :alt: Glaxnimate with background
+
+
+It is only possible to have one instance of Glaxnimate open. That means, once change is done in Glaxnimate save the animation and close Glaxnimate before you double click another animation clip.
+
 
 .. _change_speed_of_a_clip: 
 
