@@ -66,7 +66,7 @@ Enabling :guilabel:`mic` displays the track head record control and it get color
    :width: 40%
    :alt: audio-countdown
 
-**Start record:** press :kbd:`spacebar` or click the :guilabel:`record` button on the track head. A countdown start in project monitor.
+**Start record:** press :kbd:`spacebar` or click the :guilabel:`record` button on the track head. A countdown start in project monitor (disable countdown see :ref:`configure_audio_capture` settings).
 
 **Pause:** press :kbd:`spacebar`
 
