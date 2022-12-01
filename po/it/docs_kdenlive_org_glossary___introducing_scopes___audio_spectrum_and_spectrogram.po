@@ -1,29 +1,30 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # Vincenzo Reale <smart2128vr@gmail.com>, 2022.
+# Paolo Zamponi <zapaolo@email.it>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-27 00:38+0000\n"
-"PO-Revision-Date: 2022-10-17 17:40+0200\n"
-"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"PO-Revision-Date: 2022-11-27 18:59+0100\n"
+"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.2\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:13
 msgid "The Audio Spectrum and the Spectrogram"
-msgstr ""
+msgstr "Lo spettro audio e lo spettrogramma"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:15
 msgid "*Submitted by Granjow on Sat, 12/25/2010 - 12:51*"
-msgstr ""
+msgstr "*Inviato da by Granjow sabato 25/12/2010 alle 12:51*"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:17
 msgid ""
@@ -63,6 +64,9 @@ msgid ""
 "are on the left, high frequencies on the right. And the higher the bar, the "
 "louder this frequency."
 msgstr ""
+"Questo ambito visualizza lo spettro delle frequenze per ciascun fotogramma. "
+"Le frequenze basse sono sulla sinistra, quelle alte sulla destra. Inoltre, "
+"più alta è la barra, più è forte questa frequenza."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:39
 msgid ""
@@ -75,6 +79,16 @@ msgid ""
 "`Shift + drag` adjusts the maximum loudness to display. Horizontal dragging "
 "adjusts the maximum frequency to display samples for."
 msgstr ""
+"Il volume nello spettro viene misurato in `decibel <https://it.wikipedia.org/"
+"wiki/Decibel>`_. Per essere davvero precisi, l'unità utilizzata in questo "
+"ambito è il `dbFS <https://en.wikipedia.org/wiki/DBFS>`_; perciò 0 è "
+"riferito al massimo volume possibile che può essere ottenuto col segnale "
+"digitale in ingresso. Se tutte le frequenze hanno un volume uguale, puoi "
+"regolare l'intervallo di visualizzazione trascinando verticalmente. Un "
+"semplice trascinamento regola la soglia inferiore, mentre :kbd:`Maiusc + "
+"trascina` cambia il massimo volume da visualizzare. Il trascinamento "
+"orizzontale regola invece la frequenza massima per cui visualizzare i "
+"campioni."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:41
 msgid ""
@@ -83,6 +97,10 @@ msgid ""
 "sound quality: If there are no frequencies higher than, like, 3 kHz, then "
 "the audio quality most likely is not too good."
 msgstr ""
+"Ma per cosa è utile questo schermo? Ad esempio, come descritto nel PDF "
+"collegato qui sopra, puoi distinguere visivamente tra una qualità del suono "
+"buona e una cattiva: se non ci sono frequenze superiori a, diciamo, 3 kHz, "
+"molto probabilmente la qualità audio non è davvero buona."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:43
 msgid ""
@@ -92,6 +110,11 @@ msgid ""
 "<https://www.audacityteam.org/>`_ to generate a sine wave with 3 kHz (which "
 "is 3000 Hz).)"
 msgstr ""
+"Se non hai idea di quanto siano acuti 3 kHz, cosa non insolita dato che le "
+"nostre orecchie non forniscono dei valori numerici al cervello, puoi usare "
+"dei programmi come `SignalGen <https://arachnoid.com/SignalGen/index.html>`_ "
+"o `Audacity <https://www.audacityteam.org/>`_ per generare un'onda "
+"sinusoidale a 3 kHz, cioè a 3000 Hz."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:45
 msgid ""
@@ -101,6 +124,11 @@ msgid ""
 "<waveform_and_RGB_parade>`, and actually with every signal that is "
 "digitalized. More about this below."
 msgstr ""
+"Un'altra cosa che è utile è evitare con lo spettro di frequenza è il "
+"`clipping <https://en.wikipedia.org/wiki/Clipping_(signal_processing)>`_. Lo "
+"stesso effetto che può essere visto con i colori, ad esempio nella :ref:`RGB "
+"parade <waveform_and_RGB_parade>` e in realtà con ogni segnale "
+"digitalizzato. Maggiori informazioni di seguito."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:48
 msgid "Spectrogram"
@@ -115,6 +143,12 @@ msgid ""
 "represented by brighter pixels; this allows to put a whole frame’s spectrum "
 "in one line."
 msgstr ""
+"Lo `spettrogramma <https://it.wikipedia.org/wiki/Spettrogramma>`_ fa lo "
+"stesso dello spettro audio: mostra la distribuzione delle frequenze. La "
+"differenza è tuttavia che le frequenze non sono mostrate per un solo "
+"fotogramma. Per i colori è simile all'Esibizione RGB: le frequenze più "
+"potenti (più forti) sono rappresentate con dei pixel più luminosi. Ciò "
+"permette di mettere lo spettro di un intero fotogramma in una riga."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:53
 msgid "What the scopes might help in as well"
@@ -128,6 +162,11 @@ msgid ""
 "and clear, at 11:00 you need to turn up the volume to even understand "
 "something. This should not happen."
 msgstr ""
+"Per mantenere un volume uguale in caso di più riprese. Considera `questa "
+"recensione <https://www.youtube.com/watch?app=desktop&v=ZWXU3mScCzM>`_ sulla "
+"Nikon D7000, e ascolta a 7:00 e a 11:00: all'inizio puoi sentire il "
+"recensore forte e chiaro, mentre alla fine devi alzare il volume solo per "
+"udire qualcosa. Questo non dovrebbe accadere."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:58
 msgid "Sound"
@@ -139,7 +178,7 @@ msgstr "Ora alcuni dettagli interessanti sul suono."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:63
 msgid "Clipping"
-msgstr ""
+msgstr "Clipping"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:70
 msgid "Audio levels on a Zoom H4n"
@@ -151,6 +190,9 @@ msgid ""
 "This is how it sounds (Extracts from James Edwards’ Greensleeves, cc-nc-by-"
 "sa, link at the end of this article):"
 msgstr ""
+"Come accennato sopra, anche il suono si può tagliare (clipping). Ognuno di "
+"noi ne ha già sentito parlare. Funziona così (estratti da Greensleeves di "
+"James Edwards, CC-NC-BY-SA, collegamento alla fine di questo articolo):"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:74
 msgid ""
@@ -158,12 +200,17 @@ msgid ""
 "Greensleeves-original.ogg>`_ (Just noticed that Firefox plays .ogg "
 "natively :) )"
 msgstr ""
+"`Originale <http://granjow.net/uploads/kdenlive/samples/James-Edwards-"
+"Greensleeves-original.ogg>`_ (ho appena notato che Firefox riproduce "
+"nativamente gli .ogg :) )"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:76
 msgid ""
 "`Volume increased by 24 dB: <http://granjow.net/uploads/kdenlive/samples/"
 "James-Edwards-Greensleeves-overdriven-24dB.ogg>`_ Massive clipping!"
 msgstr ""
+"`Volume aumentato di 24 dB: <http://granjow.net/uploads/kdenlive/samples/"
+"James-Edwards-Greensleeves-overdriven-24dB.ogg>`_ clipping enorme!"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:78
 msgid ""
@@ -171,6 +218,9 @@ msgid ""
 "samples/James-Edwards-Greensleeves-overdriven-24dB-reverted.ogg>`_ — the "
 "clipping effect is irreversible"
 msgstr ""
+"`Volume diminuito subito dopo di 24 dB <http://granjow.net/uploads/kdenlive/"
+"samples/James-Edwards-Greensleeves-overdriven-24dB-reverted.ogg>`_ — "
+"l'effetto di clipping è irreversibile"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:80
 msgid ""
@@ -187,7 +237,7 @@ msgstr ""
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:82
 msgid "So when may clipping occur?"
-msgstr ""
+msgstr "Quindi, quando si può verificare il clipping?"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:84
 msgid ""
@@ -242,17 +292,21 @@ msgstr "Il nostro orecchio"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:100
 msgid "What is louder, a sine wave of 200 Hz or a sine wave of 4 kHz?"
-msgstr ""
+msgstr "Cos'è più forte, un'onda sinusoidale a 200 Hz, oppure una a 4 kHz?"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:102
 msgid ""
 "`200 Hz Sine <http://granjow.net/uploads/kdenlive/samples/Sine-200Hz.ogg>`_"
 msgstr ""
+"`200 Hz sinusoidale <http://granjow.net/uploads/kdenlive/samples/Sine-200Hz."
+"ogg>`_"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:104
 msgid ""
 "`4000 Hz Sine <http://granjow.net/uploads/kdenlive/samples/Sine-4000Hz.ogg>`_"
 msgstr ""
+"`4000 Hz sinusoidale <http://granjow.net/uploads/kdenlive/samples/"
+"Sine-4000Hz.ogg>`_"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:106
 msgid ""
@@ -261,6 +315,10 @@ msgid ""
 "`Wikipedia <https://en.wikipedia.org/wiki/Hearing>`_ is a good starting "
 "point."
 msgstr ""
+"Sono state entrambe generate con la stessa ampiezza (volume), ma il nostro "
+"orecchio è più sensibile alle frequenze a cui parliamo. Per saperne di più "
+"sul nostro orecchio, `Wikipedia <https://en.wikipedia.org/wiki/Hearing>`_  è "
+"un buon punto di partenza."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:109
 msgid "Links"
@@ -280,12 +338,17 @@ msgid ""
 "web/20140715193728/http://www.isi.ee.ethz.ch/teaching/courses/ak1/akustik-"
 "schallausbreitung-im-freien.pdf>`_, German"
 msgstr ""
+"`Smorzamento delle frequenze nell'aria (PDF) <https://web.archive.org/"
+"web/20140715193728/http://www.isi.ee.ethz.ch/teaching/courses/ak1/akustik-"
+"schallausbreitung-im-freien.pdf>`_, in tedesco"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:115
 msgid ""
 "`Capturing good sound <https://vimeo.com/blog/post/capturing-good-sound>`_ "
 "at Vimeo, about microphones."
 msgstr ""
+"`Catturare un buon suono <https://vimeo.com/blog/post/capturing-good-"
+"sound>`_ su Vimeo, sui micropfoni."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:117
 msgid ""
@@ -295,17 +358,22 @@ msgid ""
 "good idea to search for interesting forum threads there for yourself if you "
 "are interested)"
 msgstr ""
+"`Discussione sull'audio e sul clipping <https://web.archive.org/"
+"web/20140715164749/http://www.dvxuser.com/V6/showthread.php?207009-Db-level-"
+"peaks-matter-in-this-situation&highlight=audio+clipping>`_ su dvxuser.com "
+"(penso sia una buona idea cercare delle discussioni interessanti lì nel "
+"forum, se sei interessato)"
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:120
 msgid "Thanks …"
-msgstr "Ringraziamenti..."
+msgstr "Grazie..."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:126
 msgid ""
 "… for reading! I hope you will have fun with the scopes in the next kdenlive "
 "version."
 msgstr ""
-"… per leggere! Spero che ti divertirai con gli ambiti nella prossima "
+"… per la lettura! Spero che ti divertirai con gli ambiti nella prossima "
 "versione di kdenlive."
 
 #: ../../glossary/introducing_scopes/audio_spectrum_and_spectrogram.rst:129
