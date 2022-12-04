@@ -126,7 +126,7 @@ The background of the animation in Kdenlive will also be shown in Glaxnimate.
    :alt: Glaxnimate with background
 
 
-It is only possible to have one instance of Glaxnimate open. That means, once change is done in Glaxnimate save the animation and close Glaxnimate before you double click another animation clip.
+It is possible to have several Glaxnimate instances open, but the background will only be send to the one opened first in Glaxnimate. If you like to see the Kdenlive background of another animation clip, save the animation and close Glaxnimate before you double click another animation clip.
 
 
 .. _change_speed_of_a_clip: 
