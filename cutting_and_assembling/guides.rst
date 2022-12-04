@@ -25,35 +25,9 @@ Guides
 ======
 
 .. contents::
+ 
 
-
-
-
-.. image:: /images/Kdenlive_Add_guide.png
-   :align: left
-   :alt: Kdenlive_Add_guide
-
-Guides are labels on the timeline that can be added by right-clicking at a spot on the timeline ruler and choosing :menuselection:`Add/Remove Guide` or press :kbd:`G`. You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
-
-.. rst-class:: clear-both
-
-.. versionadded:: 21.08
-   
-:guilabel:`Guides Locked`: See :ref:`move_guides_with_spacer_tool`  
-
-.. versionadded:: 22.04
-
-:guilabel:`Set Zone In/Out`. See :ref:`timeline-preview-rendering`
-
-:guilabel:`Add Project Notes`: See :ref:`notes`
-
-
-
-.. versionadded:: 20.12
-
-:guilabel:`Add Subtitle`: See :ref:`subtitle`
-
-Guides in the picture below are the purple flags. Not to be confused with :ref:`clips` (gold in the picture below). Guides are static on the timeline and are stationary when clips are moved around. Markers are inside the clips and move with the clips.
+Guides in the picture below are the purple flags. Not to be confused with :ref:`clips` (gold in the picture below). Guides are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
 
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
@@ -66,19 +40,146 @@ Guides can be used to define regions for rendering. See :ref:`rendering`.
 
 Guides can also be used as chapters for DVD videos. See :ref:`rendering`.
 
+
+.. _add_guides:
+
+3 ways to add guides
+--------------------
+
+Following procedures add a guide at the timeline playhead position:
+
+* **Menu**
+
+  * :menuselection:`Timeline --> Guides --> Add/Remove Guide`
+  * Right click on :ref:`timeline ruler<timeline_ruler>` and choose in the menu :guilabel:`Add/Remove Guide`
+  * Right click in the timeline and choose :guilabel:`Add/Remove Guide`
+
+* **Keyboard**
+
+  * :kbd:`G` adds a guide.
+
+* **Mouse**
+
+  .. image:: /images/Kdenlive_add_guide_double-click.png
+
+  * Double-click on top of the :ref:`timeline ruler<timeline_ruler>` and the guide gets added were you have clicked
+
+
+.. _timeline_ruler_right-click_menu:
+
+Timeline ruler right click menu
+-------------------------------
+
+.. image:: /images/Kdenlive_Add_guide.png
+   :align: left
+   :alt: Kdenlive_Add_guide
+
+
+.. rst-class:: clear-both
+
+:guilabel:`Add/Remove Guide`
+
+:guilabel:`Edit Guide`: See :ref:`move_edit_guides`
+
+.. versionadded:: 21.08
+   
+:guilabel:`Guides Locked`: See :ref:`move_edit_guides`  
+
+
+:guilabel:`Go To Guide...`. Select a guide to which the playhead should jump.
+
+.. versionadded:: 22.04
+
+:guilabel:`Set Zone In/Out`: See :ref:`timeline-preview-rendering`
+
+:guilabel:`Add Project Notes`: See :ref:`notes`
+
+.. versionadded:: 20.12.
+
+:guilabel:`Add Subtitle`: See Subtitle
+
+
+.. _managing_guides:
+
+Managing categories and guides
+------------------------------
+
+.. versionadded:: 22.12
+
+.. _categories:
+
+Categories
+~~~~~~~~~~
+
+When starting a new project the categories for the project are pulled in from :guilabel:`Guides and Markers Categories` in setting :ref:`configure_colors`. 
+
+.. image:: /images/Kdenlive_project_specific_categories.png
+   :width: 350px
+   :alt: Kdenlive_Add_guide
+
+Project specific categories can be added, edited and deleted in :menuselection:`Project --> Project Settings --> Guides`
+
+.. image:: /images/Kdenlive_delete_category.png
+   :width: 250px
+   :alt: Kdenlive delete category
+
+Deleting a category were guides are assigned, Kdenlive ask if you really want to delete it or if you want to reassign the guide to another category. 
+
+
+.. _guide_view:
+
+Guides
+~~~~~~
+
+.. image:: /images/Kdenlive_guides_view.png
+   :alt: Kdenlive guides view
+
+:menuselection:`View --> Guides` opens the guides window were you can managing your guides.  
+
+
+1. Search guides. If you enter `2` in this example shows only `guide2` in the list and in in the timeline
+
+2. Show only the needed categories in teh list and in the timeline.
+
+3. Sort by categories, time, comment or descending.
+
+4. Click on a guide will select it and the playhead jumps to this guide in the timeline. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides. Double-click on a guide opens the :ref:`edit window <move_edit_guides>`.
+
+5. Add a guide. Only here you have the possibility to add multiple markers/guides with an interval.
+
+6. Edit a selected guide. The same like when you Double-click a guide under point 4 or in the :ref:`timeline ruler<timeline_ruler>`.
+
+7. Delete a selected guide.
+
+8. Set the category for new created guides.
+
+9. :ref:`Locks guide <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
+
+10. Import/:ref:`export guides <export_guides>` or configure the :ref:`project categories <categories>`.
+
+
+You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
+
+
+.. _export_guides:
+
+Export guides as chapters description
+-------------------------------------
+
 .. versionadded:: 22.08
 
-Export guides as chapter
-------------------------
+.. versionchanged:: 22.12
 
 Guides can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the guides can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
 
-Right click in the timeline ruler and choose :guilabel:`Export Guides` or :menuselection:`Timeline -> Guides -> Export Guides`. Then the window `Export guides as chapters description` appears.
+Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :guilabel:`Export Guides` or :menuselection:`Timeline -> Guides -> Export Guides` or :menuselection:`View --> Guides --> Export`. Then the window `Export guides as chapters description` appears.
 
-.. image:: /images/Kdenlive_export_guides.png
+.. image:: /images/Kdenlive_export_guides_22-12.png
    :alt: Kdenlive_export_guides
 
 :guilabel:`Marker Type`: Choose one of the guide types to mark chapters and use other types to do other things.
+
+:guilabel:`Save As`: Text (for Youtube) or as JSON data file which can be re-imported.
 
 :guilabel:`Offset`: This adds the ability to set a general offset (hh:mm:ss:ff) to each guide.
 
@@ -104,14 +205,32 @@ Right click in the timeline ruler and choose :guilabel:`Export Guides` or :menus
 
 :guilabel:`Copy to Clipboard`: Copy the data viewed in :guilabel:`Exported` into the clipboard to use it in other applications (Youtube).
 
-.. _move_guides_with_spacer_tool:
+The warning in the blue box only show up if one of the 3 points are not fulfilled.
+
+
+.. _move_edit_guides:
+
+Move and edit guides
+--------------------
+
+Guides can be moved by click on a guides text in the timeline and drag it to the desired position.
+
+.. image:: /images/Kdenlive_edit_guide.png
+   :alt: Kdenlive edit guide
+
+Guides can be moved by changing the :guilabel:`Position` in the edit window.
+
+Double-click on a guide text in the timeline ruler opens the edit window.
+
+:guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit window.
+
 
 Move Guides with Spacer Tool
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 .. versionadded:: 21.08.0
 
-Easily moves Guides along with clips using the Spacer Tool by using the new :menuselection:`Guides Locked` option.
+Easily moves guides along with clips using the spacer tool by using the new :menuselection:`Guides Locked` option. When locked the guides stay in place. When unlocked the guides move with the clip.
 
 
 .. image:: /images/guidemove.gif
