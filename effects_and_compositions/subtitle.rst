@@ -47,8 +47,9 @@ The subtitling tool allows you to add and edit subtitles directly in the timelin
 
 * **Icon and Mouse**
 
-  * Click :guilabel:`Add Subtitle` icon in the :ref:`timeline toolbar<guides>` to open the subtitle track in the timeline.
+  * Click :guilabel:`Add Subtitle` icon in the :ref:`timeline_toolbar` to open the subtitle track in the timeline.
   * Double-click in the subtitle track to add a subtitle.
+  * Click :guilabel:`Add Subtitle` in the :ref:`timeline ruler <timeline_ruler>` context menu.
 
 Adding and editing text
 ~~~~~~~~~~~~~~~~~~~~~~~

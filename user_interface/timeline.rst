@@ -32,12 +32,33 @@ Timeline
 
 The timeline is the central part of **Kdenlive**. It is made of 4 different areas (see screenshot).
 
+.. rst-class:: clear-both
+
 
 1 - **Track resizing icon**. This icon allows you to adjust the track height in the timeline from normal to small.  This does not affect the video or the render in any way.  The default height of tracks can be configured in **Kdenlive's** :ref:`configure_kdenlive` dialog.
 
 
-2 - **Timeline ruler**. This shows the time in frames or in hh:mm:ss notation. The area highlighted in green is called the selection zone, and is useful if you want to render only a part of your project. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. The Timeline ruler context menu allows you to manage :ref:`guides`.
+.. _timeline_ruler:
 
+2 - **Timeline ruler**. This shows the time in frames or in hh:mm:ss notation. The area highlighted in green is called the selection zone, and is useful if you want to render only a part of your project. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. 
+
+.. figure:: /images/Kdenlive_timeline_ruler_context-menu.png
+  :width: 450px
+  :alt: Timeline ruler context menu
+
+Right click into the timeline ruler opens the context menu and allows you to:
+
+:ref:`Manipulate guides <guides>`
+
+:ref:`Set Zone In/Out <timeline-preview-rendering>`
+
+:ref:`Add Project Notes <notes>`
+
+:ref:`Add Subtitle <subtitle>`
+
+
+
+.. _track_header:
 
 3 -  **Track header**. This box shows some options for a track. First is the track name (Main Video Track in the screenshot). That name can be changed by simply clicking in it. Below are icons to
 

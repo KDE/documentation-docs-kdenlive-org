@@ -269,9 +269,12 @@ Active buttons are grey.
 
 Items 14, 14a-14g are covered in detail by :ref:`timeline-preview-rendering` article.
 
-1.  Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
+15.  Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
 
-2.  Show/Hide the :ref:`subtitle` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
+16.  Show/Hide the :ref:`subtitle` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
+
+
+
 
 .. _timeline_edit_modes:
 
