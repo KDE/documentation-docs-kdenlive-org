@@ -86,30 +86,35 @@ Clicking :menuselection:`OK` adds the clip to the project bin. The clip can then
 Image Sequence clips
 --------------------
 
-:guilabel:`Add Image Sequence`: Image Sequence clips are clips created from a series of still images. The feature can be used to make an animation from a collection of still images or to create a slideshow of still images. To create the former, use a short frame duration; to create the latter, use a long frame duration.
-
-To create an image sequence clip, choose :menuselection:`Add Image Sequence` from the :menuselection:`Add Clip` drop down list.
+:guilabel:`Add Image Sequence`: Image sequence clips are clips created from a series of still images. The feature can be used to make an animation from a collection of still images or to create a slideshow of still images. To create the former, use a short frame duration; to create the latter, use a long frame duration.
 
 .. image:: /images/Create_slide_show_clip.png
    :align: center
    :width: 300px
    :alt: Create_slide_show_clip
 
-From the **Image Sequence** dialog choose :menuselection:`Filename pattern` as **Image selection method**.
+:guilabel:`MIME Type`: When enabled then the images get imported in ascending order. For example, if the first image is :file:`100_1697.jpg` then the next will be :file:`100_1698.jpg`, etc. 
 
-Browse to  the location of the images which will make up your image sequence and select the first image. The subsequent images that are to be used in the slide show will be selected based on some sort of filename algorithm that predicts what the next image file name should be.
+:guilabel:`Filename pattern`:  When enabled you can point to the first image you like to import. The remaining images get imported in ascending order.
 
-For example, if the first image is :file:`100_1697.jpg` then the next will be :file:`100_1698.jpg`, etc.
+:guilabel:`Folder`: Browse to the location of the images which will make up your image sequence and select the first image. The subsequent images that are to be used in the slide show will be selected based on some sort of filename algorithm that predicts what the next image file name should be.
 
-Select an appropriate frame duration – this defines how long each image be displayed.
+:guilabel:`Frame Duration`: Select an appropriate frame duration – this defines how long each image be displayed.
 
-Then hit :menuselection:`OK`.  A video file made up of all the images in the folder from which you selected the first frame file from will be added to the Project Bin.
+:guilabel:`Loop`: When enabled you can lengthen the image sequence clip in the timeline by dragging.
+
+:guilabel:`Center Crop`: When enabled it automatically fills the output video frame with the images while maintaining their aspect ratio by zooming the image and cropping equal amounts from each edge until can fill the full frame. Without this option, the image will not be zoomed, but black bars will appear when the photo orientation or aspect does not match the video's.
+
+:guilabel:`Dissolve`: When enabled you can adjust the length of the dissolve and choose the type of :guilabel:`Wipe` and adjust it with the :guilabel:`Softness` slider.
+
+:guilabel:`Animation`: When enabled it adds preset slow smooth pan and zoom effects also known as the Ken Burns Effect. You can choose no animation, pans only, zooms only, or a combination of pans and zooms. Each option also has a low pass filter to reduce the noise in the images that may occur during this operation. Low pass filtering is much slower, so you should preview without it, and then enable it to render.
+
+Then hit :guilabel:`OK`.  A video file made up of all the images in the folder from which you selected the first frame file from will be added to the project bin.
 
 You can then drag this video to the timeline.
 
-Center crop: automatically fills the output video frame with the images while maintaining their aspect ratio by zooming the image and cropping equal amounts from each edge until can fill the full frame. Without this option, the image will not be zoomed, but black bars will appear when the photo orientation or aspect does not match the video's.
+To edit the slideshow parameters: In the project bin either double-click the slideshow or right-click and choose :guilabel:`Clip Properties`.
 
-Animation: adds preset slow smooth pan and zoom effects also known as the Ken Burns Effect. You can choose no animation, pans only, zooms only, or a combination of pans and zooms. Each option also has a low pass filter to reduce the noise in the images that may occur during this operation. Low pass filtering is much slower, so you should preview without it, and then enable it to render.
 
 Title clips
 -----------
