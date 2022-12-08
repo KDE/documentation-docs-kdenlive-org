@@ -26,7 +26,7 @@ copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/b
 author = 'Kdenlive Community'
 
 # The full version, including alpha/beta/rc tags
-release = '22.08'
+release = '22.12'
 
 # Get the git description if possible, to put it in the footer.
 
