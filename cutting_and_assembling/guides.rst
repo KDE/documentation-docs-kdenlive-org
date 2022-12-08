@@ -27,7 +27,7 @@ Guides
 .. contents::
  
 
-Guides in the picture below are the purple flags. Not to be confused with :ref:`clips` (gold in the picture below). Guides are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
+Guides in the picture below are the purple flags. Not to be confused with :ref:`markers` (green in the picture below). Guides are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
 
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
@@ -106,6 +106,7 @@ Managing categories and guides
 
 .. versionadded:: 22.12
 
+
 .. _categories:
 
 Categories
@@ -128,8 +129,8 @@ Deleting a category were guides are assigned, Kdenlive ask if you really want to
 
 .. _guide_view:
 
-Guides
-~~~~~~
+Guides View
+~~~~~~~~~~~
 
 .. image:: /images/Kdenlive_guides_view.png
    :alt: Kdenlive guides view
@@ -137,28 +138,28 @@ Guides
 :menuselection:`View --> Guides` opens the guides window were you can managing your guides.  
 
 
-1. Search guides. If you enter `2` in this example shows only `guide2` in the list and in in the timeline
+1. Search guides/markers. If you enter `2` in this example shows only `guide2` / `marker2` in the list and in the timeline/on the clip monitor.
 
-2. Show only the needed categories in teh list and in the timeline.
+2. Show only the chosen categories in the list and in the timeline/clip monitor.
 
 3. Sort by categories, time, comment or descending.
 
-4. Click on a guide will select it and the playhead jumps to this guide in the timeline. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides. Double-click on a guide opens the :ref:`edit window <move_edit_guides>`.
+4. Click on a guide/marker will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click on a guide/maker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
 
-5. Add a guide. Only here you have the possibility to add multiple markers/guides with an interval.
+5. Add a guide/marker. Only here you have the possibility to add multiple guides/markers with an interval.
 
-6. Edit a selected guide. The same like when you Double-click a guide under point 4 or in the :ref:`timeline ruler<timeline_ruler>`.
+6. Edit a selected guide/marker. The same like when you Double-click a guide/marker under point 4 or guides in the :ref:`timeline ruler<timeline_ruler>`.
 
-7. Delete a selected guide.
+7. Delete a selected guide/marker.
 
-8. Set the category for new created guides.
+8. Set the category for new created guides/maker.
 
-9. :ref:`Locks guide <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
+9. Guides only: :ref:`Locks guide <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
 
-10. Import/:ref:`export guides <export_guides>` or configure the :ref:`project categories <categories>`.
+10. Import/:ref:`export guides/maker <export_guides>` or configure the :ref:`project categories <categories>`.
 
 
-You can put a comment in the guide and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
+You can put a comment in the guide/marker and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
 
 
 .. _export_guides:
@@ -220,7 +221,7 @@ Guides can be moved by click on a guides text in the timeline and drag it to the
 
 Guides can be moved by changing the :guilabel:`Position` in the edit window.
 
-Double-click on a guide text in the timeline ruler opens the edit window.
+Double-click on a guide text in the timeline ruler opens the edit window (beside the possibility in :ref:`guide_view`).
 
 :guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit window.
 

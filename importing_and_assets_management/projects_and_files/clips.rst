@@ -1,6 +1,6 @@
 .. meta::
    :description: Project bin in Kdenlive video editor
-   :keywords: KDE, Kdenlive, add clips, animation, color clip, image, title clip, online resources, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+   :keywords: KDE, Kdenlive, add clips, animation, color clip, image, title clip, online resources, marker, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
 
 
 .. metadata-placeholder
@@ -277,24 +277,18 @@ for all channels:
 Markers
 ~~~~~~~
 
+.. versionchanged:: 22.12
+
+Marker tab removed. Clip markers are shown in :menuselection:`View --> Guides`. More details see :ref:`markers` 
+
 .. image:: /images/Clip_properties_Markers.png
    :width: 300px
    :align: left
    :alt: Clip_properties_Markers
 
-You can use the :menuselection:`Markers` tab to add markers for certain points in the source file that are important. However, it is probably easier to add markers to your clips via the  :ref:`monitors` because that allows you to preview the file at the location where you are adding the marker.
-
-Once markers are put in your clip, you can access them in the :ref:`monitors` by right-clicking and selecting :menuselection:`Go To Marker` (see picture.)  Also note how the markers appear as red vertical lines in the **Clip Monitor** (see yellow highlighted regions in the picture.) You can turn on the display of the marker comments in the timeline too (see :ref:`editing`).
-
-.. image:: /images/Markers_in_clip_monitor.png
-   :width: 450px
-   :align: left
-   :alt: Markers_in_clip_monitor
-
-Markers can also be added to clips on the timeline. :ref:`right_click_menu` the clip and choose :menuselection:`Markers --> Add Marker`.  Markers added this way also appear in the clip in the Project Bin.
-
-
+   
 .. rst-class:: clear-both
+
 
 Metadata
 ~~~~~~~~
