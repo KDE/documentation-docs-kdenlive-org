@@ -6,7 +6,7 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _markers:
+.. _menu_markers:
 
 Clip Menu - Markers
 ===================
@@ -15,9 +15,11 @@ Clip Menu - Markers
 
 .. image:: /images/Kdenlive_Clip_menu.png
 
-These menu items are for modifying the clip that is currently selected in the timeline. The Markers menu is also available from  :ref:`right_click_menu`
+These menu items are for modifying the clip that is currently selected in project bin or in the timeline. The Markers menu is also available from  :ref:`right_click_menu`
 
-The items that appear as sub-menu items on the Clip>Markers menu item are ...
+More details about markers see :ref:`markers`
+
+The items that appear as sub-menu items on the :menuselection:`Clip --> Markers` menu item are ...
 
 
 Add Marker

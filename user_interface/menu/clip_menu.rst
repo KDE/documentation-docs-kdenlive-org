@@ -28,7 +28,7 @@ The functions controlled from this menu affect the clip that is selected in the 
 Markers Menu Item
 -----------------
 
-The menu allows you to :menuselection:`Add`, :menuselection:`Edit` and :menuselection:`Delete` in :ref:`markers`.
+The menu allows you to :menuselection:`Add`, :menuselection:`Edit` and :menuselection:`Delete` in :ref:`menu_markers`.
 
 Automatic Transition
 --------------------
@@ -73,7 +73,7 @@ The other menu items which appear when in the Clip menu are also available from 
 .. toctree::
    :caption: Contents:
 
-   clip_menu/markers
+   clip_menu/menu_markers
    clip_menu/clip_in_timeline
    clip_menu/delete_clip
    clip_menu/edit_clip

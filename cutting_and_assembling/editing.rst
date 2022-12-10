@@ -298,12 +298,16 @@ Track compositing is now a simple checkbox instead of the none/high resolution c
 High Quality
 ~~~~~~~~~~~~
 
+.. deprecated:: 22.08
+
 When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat slower than the algorithm used with :ref:`track_compositing_preview` but which retains higher fidelity color information.
 
 .. _track_compositing_none:
 
 None
 ~~~~
+
+.. deprecated:: 22.08
 
 When Track Compositing is set to None you will not get tracks with alpha channel information to composite with the other tracks unless an explicit composite or affine transition is added between the clips. This is basically kind of an expert mode when you need full control over any compositing in your timeline.
 
@@ -426,8 +430,9 @@ Use this tool (|distribute-horizontal|) to temporarily group separate clips and 
 
 
 .. image:: /images/Kdenlive_Spacer_tool_crop.png
-   :alt: spacer tool crop
    :width: 300px
+   :alt: spacer tool crop
+   
 
 
 In the above example, these clips are not grouped. However, the spacer tool groups them temporarily for you so you can move them all as a group.
@@ -493,28 +498,33 @@ The audio tracks is not involved in the process as you generally use only one au
 Status Bar
 ----------
 
-.. image:: /images/Kdenlive_Bottom_toolbar17_04b.png
+.. image:: /images/Kdenlive_statusbar_21-04.png
+   :width: 500px
    :alt: Bottom toolbar ver 17.04
 
-24. `Split Audio and Video Automatically`_
+1. Hints what you can do when you hover over items.
 
-25. `Automatic Transitions`_
+2. Names of the clip you hover over in the timeline
 
-26. `Show Video Thumbnails`_
+3. Mode you are in (default is :guilabel:`Select` = :guilabel:`Normal Mode`)
 
-27. `Show Audio Thumbnails`_
+4. Switch for :guilabel:`Color Tags`
 
-28. `Show marker comments`_
+5. Switch for :guilabel:`Video Thumbnails`
 
-29. `Snap`_
+6. Switch for :guilabel:`Audio Thumbnails`. See `Show Audio Thumbnails`_
 
-30. `Fit Zoom to Project`_
+7. Switch for :guilabel:`markers`. See `Show marker comments`_
 
-31. Zoom Out
+8. Switch for :guilabel:`Snap`. See `Snap`_
 
-32. `Zoom Project`_
+9. :guilabel:`Fit Zoom to Project`. See `Fit Zoom to Project`_
 
-33. Zoom In
+10. Zoom Out
+
+11. Zoom slider `Zoom Project`_
+
+12. Zoom In
 
 
 Split Audio and Video Automatically
@@ -547,7 +557,7 @@ When on, the audio clip will have a wave representation of the audio data as wel
 Show marker comments
 ~~~~~~~~~~~~~~~~~~~~
 
-This toggles on and off the display of the comments saved within :ref:`clips` (the text with the gold background in the example below) and within :ref:`guides` (the text with the purple background).
+This toggles on and off the display of :ref:`markers` saved within :ref:`clips` (the text with the gold background in the example below) and within :ref:`guides` (the text with the purple background).
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
    :alt: markers and guides
