@@ -31,7 +31,7 @@ After starting Kdenlive the Kdenlive window should look something similar to the
 
 Kdenlive’s interface is separated into four main parts:
 
-:ref:`Menu` and :ref:`workspace_layouts` at the very top.
+The :ref:`menubar` contains the :ref:`Menu` and :ref:`workspace_layouts` at the very top.
 
 :ref:`Toolbars` at the top and above the timeline
 
