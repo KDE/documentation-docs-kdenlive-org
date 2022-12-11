@@ -145,8 +145,18 @@ See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
 Effect panels get zoom bars. Adjusting keyframes just get easier.
 
 .. image:: /images/Zoombar-effects.gif
-  :align: left
-  :alt: Zoombar-effects
+   :alt: Zoombar-effects
+
+
+.. versionadded:: 20.12.0
+
+
+.. image:: /images/keyframe_toolbar_copy-paste.png
+   :alt: keyframe toolbar
+
+Keyframe have copy/paste icons in the effect keyframe toolbar. Standard shortcuts :kbd:`CTRL + C`, :kbd:`CTRL + V`
+
+
 
 Working with keyframes in the effect stack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
