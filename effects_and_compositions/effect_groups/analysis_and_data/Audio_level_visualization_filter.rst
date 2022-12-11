@@ -13,16 +13,16 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _audio_spectrum_filter:
+.. _Audio_level_visualization_filter:
 
-Audio Spectrum Filter
-=====================
+Audio Level Visualization Filter
+================================
 
 .. contents::
 
-This is the `audiospectrum <https://www.mltframework.org/plugins/FilterAudiospectrum/>`_ MLT filter.
+This is the `audiolevelgraph <https://www.mltframework.org/plugins/FilterAudiolevelgraph/>`_ MLT filter.
 
-It is a audio visualization filter that draws an audio spectrum on the image.
+An audio visualization filter that draws an audio level meter on the image. (audiolevelgraph)
 
 .. versionadded:: 22.12
    This filter is keyframe-able.

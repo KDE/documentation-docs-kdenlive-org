@@ -236,6 +236,10 @@ Alphabetical List of Effects and Compositions
     - Audio Effect
     - Audio
     - Compute the audio amplitude (audiolevel)
+  * - :ref:`Audio_level_visualization_filter`
+    - Video Effect
+    - On Master
+    - An audio visualization filter that draws an audio level meter on the image. (audiolevelgraph)
   * - audio_pan
     - Audio Effect
     - Audio
@@ -248,9 +252,9 @@ Alphabetical List of Effects and Compositions
     - Video Effect
     - On Master
     - Display the audio waveform instead of the video (audiowave)
-  * - audio_waveform_filter
+  * - :ref:`audio_waveform_filter`
     - Audio Effect
-    - Audio
+    - On Master
     - An audio visualization filter that draws an audio waveform on the image (audiowaveform)
   * - audiomap
     - Audio Effect
