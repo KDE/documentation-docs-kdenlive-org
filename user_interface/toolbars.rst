@@ -32,7 +32,7 @@ Menubar
 
 Not really a toolbar but it shows the :ref:`Menu` and :ref:`workspace_layouts`.
 
-It can be switched on/off in :menuselection:`Settings --> Show Manubar` or by :kbd:`CTRL +M`.
+It can be switched on/off in :menuselection:`Settings --> Show Menubar` or by :kbd:`CTRL +M`.
 
 .. versionadded:: 22.12
 

@@ -52,8 +52,8 @@ Following procedures add a marker at the playhead position (clip monitor, timeli
 
 * **Keyboard**
 
-  * Clip monitor: Numblock :kbd:`*` adds a marker
-  * Timeline: Move the playhead on the desired position on the clip. Click on the clip. Numblock :kbd:`*` adds a marker
+  * Clip monitor: numeric keypad :kbd:`*` adds a marker
+  * Timeline: Move the playhead on the desired position on the clip. Click on the clip. Numeric keypad :kbd:`*` adds a marker
 
 * **Mouse**
 

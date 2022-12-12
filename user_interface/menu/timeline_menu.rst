@@ -1,5 +1,5 @@
 .. meta::
-   :description: Timeline menue, Editing in Kdenlive video editor
+   :description: Timeline menu, Editing in Kdenlive video editor
    :keywords: KDE, Kdenlive, timeline, menu, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
 
 

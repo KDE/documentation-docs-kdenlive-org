@@ -162,7 +162,7 @@ It handles AV clips as 1 element, doesn't matter on which track they are. This f
 
 More details see :ref:`remove_space`.
 
-.. _timeline_toolbar:
+.. _timeline_toolbar2:
 
 Timeline Toolbar
 ----------------
