@@ -115,7 +115,7 @@ Export markers as chapters description
 
 .. versionadded:: 22.12
 
-You can export markers of a single clip as as chapters like guides. You have to select a clip before you export.
+You can export markers of a single clip as chapters like guides. You have to select a clip before you export.
 
 More details see :ref:`export_guides`
 

@@ -66,7 +66,7 @@ Misc
 
 **-------**
 
-- :guilabel:`Preferred track compositing compostion:` Select :menuselection:`auto`, :menuselection:`frei0r.cairoblend`, :menuselection:`qtblend`. 
+- :guilabel:`Preferred track compositing composition:` Select :menuselection:`auto`, :menuselection:`frei0r.cairoblend`, :menuselection:`qtblend`. 
 
 .. versionchanged:: 22.12
   
