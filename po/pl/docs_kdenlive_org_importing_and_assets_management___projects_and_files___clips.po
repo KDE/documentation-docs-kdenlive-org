@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 00:38+0000\n"
+"POT-Creation-Date: 2022-12-12 00:40+0000\n"
 "PO-Revision-Date: 2022-05-07 19:04+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:1
 msgid ""
 "KDE, Kdenlive, add clips, animation, color clip, image, title clip, online "
-"resources, editing, timeline, documentation, user manual, video editor, open "
-"source, free, learn, easy"
+"resources, marker, editing, timeline, documentation, user manual, video "
+"editor, open source, free, learn, easy"
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:26
@@ -174,7 +174,7 @@ msgstr "Wycinki szeregu obrazów"
 #| "use a short frame duration; to create the latter, use a long frame "
 #| "duration."
 msgid ""
-":guilabel:`Add Image Sequence`: Image Sequence clips are clips created from "
+":guilabel:`Add Image Sequence`: Image sequence clips are clips created from "
 "a series of still images. The feature can be used to make an animation from "
 "a collection of still images or to create a slideshow of still images. To "
 "create the former, use a short frame duration; to create the latter, use a "
@@ -185,28 +185,37 @@ msgstr ""
 "nieruchomych obrazów. Aby utworzyć to pierwsze, użyj krótkiego czasu trwania "
 "klatki; aby to drugie, użyj długiego czasu trwania klatki."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:91
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:96
+#, fuzzy
+#| msgid ""
+#| "For example, if the first image is :file:`100_1697.jpg` then the next "
+#| "will be :file:`100_1698.jpg`, etc."
 msgid ""
-"To create an image sequence clip, choose :menuselection:`Add Image Sequence` "
-"from the :menuselection:`Add Clip` drop down list."
+":guilabel:`MIME Type`: When enabled then the images get imported in "
+"ascending order. For example, if the first image is :file:`100_1697.jpg` "
+"then the next will be :file:`100_1698.jpg`, etc."
 msgstr ""
-"Aby utworzyć wycinek szeregu obrazów, wybierz :menuselection:`Dodaj szereg "
-"obrazów` z pola rozwijanego :menuselection:`Dodaj wycinek`."
+"Na przykład, jeśli pierwszy obraz to :file:`100_1697.jpg` to następny to :"
+"file:`100_1698.jpg`, itd."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:98
 msgid ""
-"From the **Image Sequence** dialog choose :menuselection:`Filename pattern` "
-"as **Image selection method**."
+":guilabel:`Filename pattern`:  When enabled you can point to the first image "
+"you like to import. The remaining images get imported in ascending order."
 msgstr ""
-"Z okna **Szereg obrazów** wybierz :menuselection:`Wzorzec nazwy pliku` jako "
-"**Sposób zaznaczania obrazów**."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:100
+#, fuzzy
+#| msgid ""
+#| "Browse to  the location of the images which will make up your image "
+#| "sequence and select the first image. The subsequent images that are to be "
+#| "used in the slide show will be selected based on some sort of filename "
+#| "algorithm that predicts what the next image file name should be."
 msgid ""
-"Browse to  the location of the images which will make up your image sequence "
-"and select the first image. The subsequent images that are to be used in the "
-"slide show will be selected based on some sort of filename algorithm that "
-"predicts what the next image file name should be."
+":guilabel:`Folder`: Browse to the location of the images which will make up "
+"your image sequence and select the first image. The subsequent images that "
+"are to be used in the slide show will be selected based on some sort of "
+"filename algorithm that predicts what the next image file name should be."
 msgstr ""
 "Przejdź do miejsca przechowywania obrazów, które mają stworzyć szereg "
 "obrazów i wybierz pierwszy obraz. Kolejne obrazy do pokazu obrazów zostaną "
@@ -214,42 +223,37 @@ msgstr ""
 "jest przewidywanie jaki obraz ma być kolejnym."
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:102
+#, fuzzy
+#| msgid ""
+#| "Select an appropriate frame duration – this defines how long each image "
+#| "be displayed."
 msgid ""
-"For example, if the first image is :file:`100_1697.jpg` then the next will "
-"be :file:`100_1698.jpg`, etc."
-msgstr ""
-"Na przykład, jeśli pierwszy obraz to :file:`100_1697.jpg` to następny to :"
-"file:`100_1698.jpg`, itd."
-
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:104
-msgid ""
-"Select an appropriate frame duration – this defines how long each image be "
-"displayed."
+":guilabel:`Frame Duration`: Select an appropriate frame duration – this "
+"defines how long each image be displayed."
 msgstr ""
 "Określ odpowiedni czas trwania klatki – określa to jak długo będzie "
 "wyświetlany obraz."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:106
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:104
 msgid ""
-"Then hit :menuselection:`OK`.  A video file made up of all the images in the "
-"folder from which you selected the first frame file from will be added to "
-"the Project Bin."
+":guilabel:`Loop`: When enabled you can lengthen the image sequence clip in "
+"the timeline by dragging."
 msgstr ""
-"Następnie naciśnij :menuselection:`OK`.  Do pojemnika projektu zostanie "
-"dodany plik nagrania stworzony ze wszystkich obrazów w katalogu, z którego "
-"wybrałeś plik pierwszej klatki."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:108
-msgid "You can then drag this video to the timeline."
-msgstr "Możesz przeciągnąć to nagranie na oś czasu."
-
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:110
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:106
+#, fuzzy
+#| msgid ""
+#| "Center crop: automatically fills the output video frame with the images "
+#| "while maintaining their aspect ratio by zooming the image and cropping "
+#| "equal amounts from each edge until can fill the full frame. Without this "
+#| "option, the image will not be zoomed, but black bars will appear when the "
+#| "photo orientation or aspect does not match the video's."
 msgid ""
-"Center crop: automatically fills the output video frame with the images "
-"while maintaining their aspect ratio by zooming the image and cropping equal "
-"amounts from each edge until can fill the full frame. Without this option, "
-"the image will not be zoomed, but black bars will appear when the photo "
-"orientation or aspect does not match the video's."
+":guilabel:`Center Crop`: When enabled it automatically fills the output "
+"video frame with the images while maintaining their aspect ratio by zooming "
+"the image and cropping equal amounts from each edge until can fill the full "
+"frame. Without this option, the image will not be zoomed, but black bars "
+"will appear when the photo orientation or aspect does not match the video's."
 msgstr ""
 "Przycięcie ze środka: sam wypełnia klatkę nagrania wyjściowego obrazami przy "
 "zachowaniu ich współczynnika kształtu poprzez powiększenie obrazu i "
@@ -258,14 +262,29 @@ msgstr ""
 "pojawią się czarne pasy, gdy kierunek zdjęcia lub jego współczynnik kształtu "
 "nie jest taki sam jak nagrania."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:112
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:108
 msgid ""
-"Animation: adds preset slow smooth pan and zoom effects also known as the "
-"Ken Burns Effect. You can choose no animation, pans only, zooms only, or a "
-"combination of pans and zooms. Each option also has a low pass filter to "
-"reduce the noise in the images that may occur during this operation. Low "
-"pass filtering is much slower, so you should preview without it, and then "
-"enable it to render."
+":guilabel:`Dissolve`: When enabled you can adjust the length of the dissolve "
+"and choose the type of :guilabel:`Wipe` and adjust it with the :guilabel:"
+"`Softness` slider."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:110
+#, fuzzy
+#| msgid ""
+#| "Animation: adds preset slow smooth pan and zoom effects also known as the "
+#| "Ken Burns Effect. You can choose no animation, pans only, zooms only, or "
+#| "a combination of pans and zooms. Each option also has a low pass filter "
+#| "to reduce the noise in the images that may occur during this operation. "
+#| "Low pass filtering is much slower, so you should preview without it, and "
+#| "then enable it to render."
+msgid ""
+":guilabel:`Animation`: When enabled it adds preset slow smooth pan and zoom "
+"effects also known as the Ken Burns Effect. You can choose no animation, "
+"pans only, zooms only, or a combination of pans and zooms. Each option also "
+"has a low pass filter to reduce the noise in the images that may occur "
+"during this operation. Low pass filtering is much slower, so you should "
+"preview without it, and then enable it to render."
 msgstr ""
 "Animacja: dodaje efekt powolnego i gładkiego przesuwania i przybliżania, "
 "znany także jako Efekt Kena Burna. Możesz wybrać bez animacji, tylko "
@@ -276,19 +295,44 @@ msgstr ""
 "powinieneś go wyłączyć, a później włączyć ponownie na potrzeby złożenia "
 "nagrania w całość."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:115
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:112
+#, fuzzy
+#| msgid ""
+#| "Then hit :menuselection:`OK`.  A video file made up of all the images in "
+#| "the folder from which you selected the first frame file from will be "
+#| "added to the Project Bin."
+msgid ""
+"Then hit :guilabel:`OK`.  A video file made up of all the images in the "
+"folder from which you selected the first frame file from will be added to "
+"the project bin."
+msgstr ""
+"Następnie naciśnij :menuselection:`OK`.  Do pojemnika projektu zostanie "
+"dodany plik nagrania stworzony ze wszystkich obrazów w katalogu, z którego "
+"wybrałeś plik pierwszej klatki."
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:114
+msgid "You can then drag this video to the timeline."
+msgstr "Możesz przeciągnąć to nagranie na oś czasu."
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:116
+msgid ""
+"To edit the slideshow parameters: In the project bin either double-click the "
+"slideshow or right-click and choose :guilabel:`Clip Properties`."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:120
 msgid "Title clips"
 msgstr "Wycinki tytułów"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:117
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:122
 msgid "See :ref:`titles`."
 msgstr "Patrz :ref:`titles`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:123
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:128
 msgid "Create Animation"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:127
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:132
 msgid ""
 ":guilabel:`Create Animation...`: Creates a new animation. Give a name for "
 "your new animation and it opens Glaxnimate and adds the newly created "
@@ -297,48 +341,54 @@ msgid ""
 "whenever you save it, it is automatically updated in Kdenlive."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:129
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:134
+msgid ""
+"For editing animation clip in the timeline see :ref:`here <edit_an-"
+"animation>`."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:136
 msgid ""
 "Kdenlive supports `Json` (Lottie animations) and `rawr` (Glaxnimate "
 "animation) animation."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:131
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:138
 msgid ""
 "`Json` and `rawr` files contains an alpha channel so the imported animations "
 "have a background which is not visible."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:133
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:140
 msgid ""
 "If Glaxnimate is not installed on your computer following message pops-up:"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:138
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:145
 msgid "For Glaxnimate installation see :ref:`here <default_apps>`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:141
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:148
 msgid "Online Resources"
 msgstr "Zasoby sieciowe"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:143
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:150
 msgid "See :ref:`online_resources`."
 msgstr "Patrz :ref:`online_resources`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:147
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:154
 msgid "Stop Motion"
 msgstr "Animacja poklatkowa"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:149
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:156
 msgid "See :ref:`stop_motion_capture`."
 msgstr "Patrz :ref:`stop_motion_capture`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:155
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:162
 msgid "Proxy clips"
 msgstr "Wycinki pośrednie"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:162
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:169
 msgid ""
 "*Proxy clips* create a lower-quality transcode of the original footage for "
 "use in real-time rendering in the project monitor.  This allows for a "
@@ -356,7 +406,7 @@ msgstr ""
 "znacznej mocy obliczeniowej do i może powodować *cięcie się* przy nakładaniu "
 "efektów w czasie rzeczywistym."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:164
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:171
 msgid ""
 "Proxy clips can be enabled/disabled for the current project in the Project "
 "Settings (:menuselection:`Project --> Project Settings... --> Proxy tab --> "
@@ -366,7 +416,7 @@ msgstr ""
 "ustawieniach projektu (:menuselection:`Projekt --> Ustawienia projektu... --"
 "> Karta pośrednich --> Włącz wycinki pośrednie`)."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:166
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:173
 msgid ""
 "To enable proxy clips by default for new projects, go to :menuselection:"
 "`Settings --> Configure Kdenlive... --> Proxy Clips page --> Enable Proxy "
@@ -377,7 +427,7 @@ msgstr ""
 "pośrednich --> Zaznacz pole wycinki pośrednie`. Zajrzyj także na stronę :ref:"
 "`project_settings`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:174
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:181
 msgid ""
 "As soon as proxy clips are enabled, they can be generated for specific "
 "project clips in the Project Bin widget via the context menu :menuselection:"
@@ -395,7 +445,7 @@ msgstr ""
 "na dole wycinka w pojemniku projektu – patrz zdjęcie. Ponowne naciśnięcie :"
 "menuselection:`Wycinek pośredni` wyłączy wycinek pośredni dla danego wycinka."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:176
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:183
 msgid ""
 "You can multi-select clips in the Project Bin and select :menuselection:"
 "`Proxy Clip` to start a batch proxy clip generation job which will queue up "
@@ -406,7 +456,7 @@ msgstr ""
 "trybie wsadowym, co umieści w kolejce zadania tworzenia wielu wycinków "
 "pośrednich."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:183
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:190
 msgid ""
 "Once the proxy clip creation has completed, the proxy clip will appear with "
 "a **P** icon in the Project Bin."
@@ -414,7 +464,7 @@ msgstr ""
 "Po ukończeniu tworzenia wycinków pośrednich, pojawią się one oznaczone ikoną "
 "**P** w pojemniku projektu."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:185
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:192
 msgid ""
 "When rendering to the final output file, you can choose whether to use the "
 "proxy clips as well. It is disabled by default , but for a quick rendering "
@@ -424,11 +474,11 @@ msgstr ""
 "pośrednich. Jest to domyślnie wyłączone, lecz do szybkiego podglądu przez "
 "złożeniem nagrania jest użyteczne."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:190
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:197
 msgid "Clip Properties"
 msgstr "Właściwości wycinka"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:192
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:199
 msgid ""
 "You can display and edit clip properties by selecting a clip in the :ref:"
 "`project_tree` and choosing :menuselection:`Clip Properties` from the :"
@@ -442,19 +492,19 @@ msgstr ""
 "wyświetlania właściwości wycinka z :menuselection:`Widok` i włącz :guilabel:"
 "`Właściwości wycinka`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:196
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:203
 msgid "File Info"
 msgstr "Szczegóły pliku"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:201
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:208
 msgid "The :guilabel:`File Info` tab displays information about the file."
 msgstr "Karta :guilabel:`Szczegóły pliku` wyświetla szczegóły o pliku."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:205
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:212
 msgid "Properties"
 msgstr "Właściwości"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:212
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:219
 msgid ""
 "The :menuselection:`Properties` tab displays advanced properties of the clip "
 "where you can select a check box and then force the clip to take the "
@@ -468,11 +518,11 @@ msgstr ""
 "menuselection:`Współczynnika kształtu`, aby przypomnieć wycinkowi, który ma "
 "kształt 16:9, że rzeczywiście ma taki kształt."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:216
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:223
 msgid "Advanced Clip property options are:"
 msgstr "Rozszerzone właściwości wycinka to:"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:218
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:225
 msgid ""
 "Duration: Change the clip duration. If the duration is shorter than the clip "
 "duration, then the clip is **cropped**. If the duration is bigger than the "
@@ -484,17 +534,17 @@ msgstr ""
 "trwania jest krótszy niż czas trwania wycinka, to ostatni obraz zostanie "
 "powtórzony tyle razy, aż czas trwania minie."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:220
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:227
 msgid "Aspect ratio: Change the clip aspect."
 msgstr "Współczynnik kształtu: Zmień współczynnik kształtu wycinka."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:222
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:229
 msgid "Proxy clips: Enable a proxy clip for this clip. See :ref:`clips`."
 msgstr ""
 "Wycinki pośrednie: Włącz wycinek pośredni dla tego wycinka. Patrz :ref:"
 "`clips`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:224
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:231
 msgid ""
 "Frame rate: Change the clip frame rate. See `Wikipedia Frame rate <https://"
 "en.wikipedia.org/wiki/Frame_rate>`_."
@@ -502,47 +552,47 @@ msgstr ""
 "Szybkość klatkowa: Zmień szybkość klatkową wycinka. Patrz `Szybkość klatkowa "
 "na Wikipedii <https://en.wikipedia.org/wiki/Frame_rate>`_."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:226
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:233
 msgid "Scanning"
 msgstr "Powstawanie obrazu"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:228
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:235
 msgid "Field order"
 msgstr "Kolejność pól"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:230
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:237
 msgid "Disable autorotate"
 msgstr "Wyłącz samoobracanie"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:232
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:239
 msgid "Threads"
 msgstr "Wątki"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:234
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:241
 msgid "Video stream"
 msgstr "Strumień obrazu"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:236
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:243
 msgid "Audio stream"
 msgstr "Strumień dźwięku"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:238
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:245
 msgid "Colorspace"
 msgstr "Przestrzeń barw"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:240
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:247
 msgid ":ref:`full_luma`"
 msgstr ":ref:`full_luma`"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:248
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:255
 msgid "Audio properties"
 msgstr "Właściwości dźwięku"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:255
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:262
 msgid "For each channel you can adjust:"
 msgstr "Dla każdego kanału możesz dostosować:"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:257
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:264
 msgid ""
 "Choose which audio channel should be enabled or disabled. Rename with double "
 "click."
@@ -550,78 +600,45 @@ msgstr ""
 "Wybierz, który kanał dźwiękowy ma być włączony lub wyłączony. Przemianuj "
 "naciskając dwukrotnie."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:258
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:265
 msgid "Normalize the channel"
 msgstr "Znormalizuj kanał"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:259
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:266
 msgid "Swap the channels"
 msgstr "Zamień kanały"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:260
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:267
 msgid "Copy a channel on the other one"
 msgstr "Skopiuj kanał do innego"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:261
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:268
 msgid "Adjust the volume"
 msgstr "Dostosuj głośność"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:263
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:270
 msgid "for all channels:"
 msgstr "dla wszystkich kanałów:"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:265
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:272
 msgid "Adjust the synchronization time related to the video of the clip."
 msgstr "Dostosuj czas synchronizacji związany z obrazem wycinka."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:271
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:278
 msgid "Markers"
 msgstr "Znaczniki"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:278
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:282
 msgid ""
-"You can use the :menuselection:`Markers` tab to add markers for certain "
-"points in the source file that are important. However, it is probably easier "
-"to add markers to your clips via the  :ref:`monitors` because that allows "
-"you to preview the file at the location where you are adding the marker."
+"Marker tab removed. Clip markers are shown in :menuselection:`View --> "
+"Guides`. More details see :ref:`markers`"
 msgstr ""
-"Możesz użyć karty :menuselection:`Znaczniki`, aby dodać znaczniki do pewnych "
-"punktów w pliku źródłowym, które są ważne. Jednak prawdopodobnie łatwiej "
-"jest dodawać znaczniki poprzez :ref:`monitory`, bo umożliwia to podejrzenie "
-"pliku w miejscu dodania znacznika."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:280
-msgid ""
-"Once markers are put in your clip, you can access them in the :ref:"
-"`monitors` by right-clicking and selecting :menuselection:`Go To Marker` "
-"(see picture.)  Also note how the markers appear as red vertical lines in "
-"the **Clip Monitor** (see yellow highlighted regions in the picture.) You "
-"can turn on the display of the marker comments in the timeline too (see :ref:"
-"`editing`)."
-msgstr ""
-"Po umieszczeniu znaczników w twoim wycinku, możesz uzyskać do nich dostęp w :"
-"ref:`monitorach`, po naciśnięciu prawym i wybraniu :menuselection:`Przejdź "
-"do znacznika` (patrz zrzut.)  Zwróć także uwagę na to, że znaczniki "
-"pojawiają się jako pionowe czerwone linie w **Monitorze wycinka** (spójrz na "
-"obszary podświetlone na żółto na zrzucie.) Możesz także włączyć wyświetlanie "
-"uwag do znacznika na osi czasu (patrz :ref:`edytowanie`)."
-
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:287
-msgid ""
-"Markers can also be added to clips on the timeline. :ref:`right_click_menu` "
-"the clip and choose :menuselection:`Markers --> Add Marker`.  Markers added "
-"this way also appear in the clip in the Project Bin."
-msgstr ""
-"Znaczniki można także dodawać do wycinków na osi czasu. :ref:"
-"`right_click_menu` na wycinku i wybierz :menuselection:`Znaczniki --> Dodaj "
-"znacznik`.  Znaczniki dodane w ten sposób pojawią się także na wycinku w "
-"pojemniku projektu."
-
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:293
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:294
 msgid "Metadata"
 msgstr "Metadane"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:295
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:296
 msgid ""
 "You expect this to show any meta data that is contained in the clip. Does "
 "not appear to work."
@@ -629,11 +646,11 @@ msgstr ""
 "Oczekujesz, że pokaże to wszystkie metadane zawarte w wycinku. Jednak nie "
 "wygląda jakby to działało."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:299
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:300
 msgid "Analysis"
 msgstr "Analiza"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:305
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:306
 msgid ""
 "You can view and delete motion vector data that is associated with the clip "
 "from here. This is data created by :ref:`auto_mask`"
@@ -641,7 +658,7 @@ msgstr ""
 "Tutaj możesz obejrzeć i usunąć dane wektora ruchu skojarzonego z wycinkiem. "
 "Są to dane tworzone przez :ref:`auto_mask`"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:307
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
 msgid ""
 "Button 1 Will delete the selected analysis data, Button 2 will allow you to "
 "export the data (semi colon delimited text file), Button 3 will allow you to "
@@ -651,15 +668,15 @@ msgstr ""
 "wyeksportowanie danych (plik tekstowy rozdzielany średnikami), Przycisk 3 "
 "umożliwi zaimportowanie danych do analizy."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:313
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:314
 msgid "Generators"
 msgstr "Generatory"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:316
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:317
 msgid "Counter"
 msgstr "Licznik"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:323
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:324
 msgid ""
 "This generates a counter timer clip in various formats which you can put "
 "onto the timeline."
@@ -667,7 +684,7 @@ msgstr ""
 "Tworzy to wycinek odliczania w różnych formatach, który możesz umieścić na "
 "osi czasu."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:325
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:326
 msgid ""
 "You can choose to have the clip count up by checking that option, otherwise "
 "it will count down by default. The :guilabel:`No Background` option will "
@@ -678,7 +695,7 @@ msgstr ""
 "domyślnie w dół. Ustawienie :guilabel:`Bez tła` usunie tło z licznika, "
 "pozostawiają tylko szare tło bez linii."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:327
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:328
 msgid ""
 "To change the size and position of the clip, you can add an effect to the "
 "clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`."
@@ -686,11 +703,11 @@ msgstr ""
 "Aby zmienić rozmiar i położenie wycinka, możesz na osi czasu dodać efekt do "
 "wycinka, taki ja :ref:`pan_and_zoom` lub :ref:`transform`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:333
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:334
 msgid "White Noise"
 msgstr "Biały szum"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:340
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:341
 msgid ""
 "This generates a video noise clip – like the \"snow\" on an out-of-tune "
 "analogue TV. In ver 17.04 it generates audio white noise as well as video "
@@ -700,11 +717,11 @@ msgstr ""
 "odbiorniku telewizyjnym, który nie został ustawiony na żaden kanał. W wersji "
 "17.04 tworzony jest także szumiący dźwięk poza szumiącym obrazem."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:347
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:348
 msgid "Color Bars"
 msgstr "Paski barw"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:354
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:355
 msgid ""
 "This generator came in to **Kdenlive** around ver 17.04. Generates a color "
 "test pattern of various types. Including PAL color bars, BBC color bars, EBU "
@@ -713,6 +730,59 @@ msgstr ""
 "Ten generator trafił do **Kdenlive** około wersji 17.04. Tworzy próbne "
 "wzorce barw różnych rodzajów. Włączając w to paski barw PAL, BBC, EBU, "
 "SMPTE, Philips PM5544, FuBK"
+
+#~ msgid ""
+#~ "To create an image sequence clip, choose :menuselection:`Add Image "
+#~ "Sequence` from the :menuselection:`Add Clip` drop down list."
+#~ msgstr ""
+#~ "Aby utworzyć wycinek szeregu obrazów, wybierz :menuselection:`Dodaj "
+#~ "szereg obrazów` z pola rozwijanego :menuselection:`Dodaj wycinek`."
+
+#~ msgid ""
+#~ "From the **Image Sequence** dialog choose :menuselection:`Filename "
+#~ "pattern` as **Image selection method**."
+#~ msgstr ""
+#~ "Z okna **Szereg obrazów** wybierz :menuselection:`Wzorzec nazwy pliku` "
+#~ "jako **Sposób zaznaczania obrazów**."
+
+#~ msgid ""
+#~ "You can use the :menuselection:`Markers` tab to add markers for certain "
+#~ "points in the source file that are important. However, it is probably "
+#~ "easier to add markers to your clips via the  :ref:`monitors` because that "
+#~ "allows you to preview the file at the location where you are adding the "
+#~ "marker."
+#~ msgstr ""
+#~ "Możesz użyć karty :menuselection:`Znaczniki`, aby dodać znaczniki do "
+#~ "pewnych punktów w pliku źródłowym, które są ważne. Jednak prawdopodobnie "
+#~ "łatwiej jest dodawać znaczniki poprzez :ref:`monitory`, bo umożliwia to "
+#~ "podejrzenie pliku w miejscu dodania znacznika."
+
+#~ msgid ""
+#~ "Once markers are put in your clip, you can access them in the :ref:"
+#~ "`monitors` by right-clicking and selecting :menuselection:`Go To Marker` "
+#~ "(see picture.)  Also note how the markers appear as red vertical lines in "
+#~ "the **Clip Monitor** (see yellow highlighted regions in the picture.) You "
+#~ "can turn on the display of the marker comments in the timeline too (see :"
+#~ "ref:`editing`)."
+#~ msgstr ""
+#~ "Po umieszczeniu znaczników w twoim wycinku, możesz uzyskać do nich dostęp "
+#~ "w :ref:`monitorach`, po naciśnięciu prawym i wybraniu :menuselection:"
+#~ "`Przejdź do znacznika` (patrz zrzut.)  Zwróć także uwagę na to, że "
+#~ "znaczniki pojawiają się jako pionowe czerwone linie w **Monitorze "
+#~ "wycinka** (spójrz na obszary podświetlone na żółto na zrzucie.) Możesz "
+#~ "także włączyć wyświetlanie uwag do znacznika na osi czasu (patrz :ref:"
+#~ "`edytowanie`)."
+
+#~ msgid ""
+#~ "Markers can also be added to clips on the timeline. :ref:"
+#~ "`right_click_menu` the clip and choose :menuselection:`Markers --> Add "
+#~ "Marker`.  Markers added this way also appear in the clip in the Project "
+#~ "Bin."
+#~ msgstr ""
+#~ "Znaczniki można także dodawać do wycinków na osi czasu. :ref:"
+#~ "`right_click_menu` na wycinku i wybierz :menuselection:`Znaczniki --> "
+#~ "Dodaj znacznik`.  Znaczniki dodane w ten sposób pojawią się także na "
+#~ "wycinku w pojemniku projektu."
 
 #~ msgid "Create Folder"
 #~ msgstr "Utwórz katalog"

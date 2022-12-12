@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 00:38+0000\n"
+"POT-Creation-Date: 2022-12-12 00:40+0000\n"
 "PO-Revision-Date: 2022-01-18 00:38+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -25,8 +25,8 @@ msgstr ""
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:1
 msgid ""
 "KDE, Kdenlive, add clips, animation, color clip, image, title clip, online "
-"resources, editing, timeline, documentation, user manual, video editor, open "
-"source, free, learn, easy"
+"resources, marker, editing, timeline, documentation, user manual, video "
+"editor, open source, free, learn, easy"
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:26
@@ -119,88 +119,102 @@ msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:89
 msgid ""
-":guilabel:`Add Image Sequence`: Image Sequence clips are clips created from "
+":guilabel:`Add Image Sequence`: Image sequence clips are clips created from "
 "a series of still images. The feature can be used to make an animation from "
 "a collection of still images or to create a slideshow of still images. To "
 "create the former, use a short frame duration; to create the latter, use a "
 "long frame duration."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:91
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:96
 msgid ""
-"To create an image sequence clip, choose :menuselection:`Add Image Sequence` "
-"from the :menuselection:`Add Clip` drop down list."
+":guilabel:`MIME Type`: When enabled then the images get imported in "
+"ascending order. For example, if the first image is :file:`100_1697.jpg` "
+"then the next will be :file:`100_1698.jpg`, etc."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:98
 msgid ""
-"From the **Image Sequence** dialog choose :menuselection:`Filename pattern` "
-"as **Image selection method**."
+":guilabel:`Filename pattern`:  When enabled you can point to the first image "
+"you like to import. The remaining images get imported in ascending order."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:100
 msgid ""
-"Browse to  the location of the images which will make up your image sequence "
-"and select the first image. The subsequent images that are to be used in the "
-"slide show will be selected based on some sort of filename algorithm that "
-"predicts what the next image file name should be."
+":guilabel:`Folder`: Browse to the location of the images which will make up "
+"your image sequence and select the first image. The subsequent images that "
+"are to be used in the slide show will be selected based on some sort of "
+"filename algorithm that predicts what the next image file name should be."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:102
 msgid ""
-"For example, if the first image is :file:`100_1697.jpg` then the next will "
-"be :file:`100_1698.jpg`, etc."
+":guilabel:`Frame Duration`: Select an appropriate frame duration – this "
+"defines how long each image be displayed."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:104
 msgid ""
-"Select an appropriate frame duration – this defines how long each image be "
-"displayed."
+":guilabel:`Loop`: When enabled you can lengthen the image sequence clip in "
+"the timeline by dragging."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:106
 msgid ""
-"Then hit :menuselection:`OK`.  A video file made up of all the images in the "
-"folder from which you selected the first frame file from will be added to "
-"the Project Bin."
+":guilabel:`Center Crop`: When enabled it automatically fills the output "
+"video frame with the images while maintaining their aspect ratio by zooming "
+"the image and cropping equal amounts from each edge until can fill the full "
+"frame. Without this option, the image will not be zoomed, but black bars "
+"will appear when the photo orientation or aspect does not match the video's."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:108
-msgid "You can then drag this video to the timeline."
+msgid ""
+":guilabel:`Dissolve`: When enabled you can adjust the length of the dissolve "
+"and choose the type of :guilabel:`Wipe` and adjust it with the :guilabel:"
+"`Softness` slider."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:110
 msgid ""
-"Center crop: automatically fills the output video frame with the images "
-"while maintaining their aspect ratio by zooming the image and cropping equal "
-"amounts from each edge until can fill the full frame. Without this option, "
-"the image will not be zoomed, but black bars will appear when the photo "
-"orientation or aspect does not match the video's."
+":guilabel:`Animation`: When enabled it adds preset slow smooth pan and zoom "
+"effects also known as the Ken Burns Effect. You can choose no animation, "
+"pans only, zooms only, or a combination of pans and zooms. Each option also "
+"has a low pass filter to reduce the noise in the images that may occur "
+"during this operation. Low pass filtering is much slower, so you should "
+"preview without it, and then enable it to render."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:112
 msgid ""
-"Animation: adds preset slow smooth pan and zoom effects also known as the "
-"Ken Burns Effect. You can choose no animation, pans only, zooms only, or a "
-"combination of pans and zooms. Each option also has a low pass filter to "
-"reduce the noise in the images that may occur during this operation. Low "
-"pass filtering is much slower, so you should preview without it, and then "
-"enable it to render."
+"Then hit :guilabel:`OK`.  A video file made up of all the images in the "
+"folder from which you selected the first frame file from will be added to "
+"the project bin."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:115
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:114
+msgid "You can then drag this video to the timeline."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:116
+msgid ""
+"To edit the slideshow parameters: In the project bin either double-click the "
+"slideshow or right-click and choose :guilabel:`Clip Properties`."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:120
 msgid "Title clips"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:117
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:122
 msgid "See :ref:`titles`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:123
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:128
 msgid "Create Animation"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:127
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:132
 msgid ""
 ":guilabel:`Create Animation...`: Creates a new animation. Give a name for "
 "your new animation and it opens Glaxnimate and adds the newly created "
@@ -209,48 +223,54 @@ msgid ""
 "whenever you save it, it is automatically updated in Kdenlive."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:129
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:134
+msgid ""
+"For editing animation clip in the timeline see :ref:`here <edit_an-"
+"animation>`."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:136
 msgid ""
 "Kdenlive supports `Json` (Lottie animations) and `rawr` (Glaxnimate "
 "animation) animation."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:131
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:138
 msgid ""
 "`Json` and `rawr` files contains an alpha channel so the imported animations "
 "have a background which is not visible."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:133
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:140
 msgid ""
 "If Glaxnimate is not installed on your computer following message pops-up:"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:138
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:145
 msgid "For Glaxnimate installation see :ref:`here <default_apps>`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:141
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:148
 msgid "Online Resources"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:143
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:150
 msgid "See :ref:`online_resources`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:147
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:154
 msgid "Stop Motion"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:149
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:156
 msgid "See :ref:`stop_motion_capture`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:155
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:162
 msgid "Proxy clips"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:162
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:169
 msgid ""
 "*Proxy clips* create a lower-quality transcode of the original footage for "
 "use in real-time rendering in the project monitor.  This allows for a "
@@ -261,21 +281,21 @@ msgid ""
 "*stutter* when rendering effects in real time."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:164
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:171
 msgid ""
 "Proxy clips can be enabled/disabled for the current project in the Project "
 "Settings (:menuselection:`Project --> Project Settings... --> Proxy tab --> "
 "Enable Proxy Clips option`)."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:166
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:173
 msgid ""
 "To enable proxy clips by default for new projects, go to :menuselection:"
 "`Settings --> Configure Kdenlive... --> Proxy Clips page --> Enable Proxy "
 "Clips option`. See also the :ref:`project_settings` page."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:174
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:181
 msgid ""
 "As soon as proxy clips are enabled, they can be generated for specific "
 "project clips in the Project Bin widget via the context menu :menuselection:"
@@ -286,31 +306,31 @@ msgid ""
 "again disables the proxy for this clip."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:176
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:183
 msgid ""
 "You can multi-select clips in the Project Bin and select :menuselection:"
 "`Proxy Clip` to start a batch proxy clip generation job which will queue up "
 "multiple proxy clip generation jobs."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:183
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:190
 msgid ""
 "Once the proxy clip creation has completed, the proxy clip will appear with "
 "a **P** icon in the Project Bin."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:185
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:192
 msgid ""
 "When rendering to the final output file, you can choose whether to use the "
 "proxy clips as well. It is disabled by default , but for a quick rendering "
 "preview it is useful."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:190
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:197
 msgid "Clip Properties"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:192
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:199
 msgid ""
 "You can display and edit clip properties by selecting a clip in the :ref:"
 "`project_tree` and choosing :menuselection:`Clip Properties` from the :"
@@ -319,19 +339,19 @@ msgid ""
 "guilabel:`Clip Properties`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:196
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:203
 msgid "File Info"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:201
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:208
 msgid "The :guilabel:`File Info` tab displays information about the file."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:205
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:212
 msgid "Properties"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:212
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:219
 msgid ""
 "The :menuselection:`Properties` tab displays advanced properties of the clip "
 "where you can select a check box and then force the clip to take the "
@@ -340,11 +360,11 @@ msgid ""
 "is 16:9 ratio."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:216
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:223
 msgid "Advanced Clip property options are:"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:218
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:225
 msgid ""
 "Duration: Change the clip duration. If the duration is shorter than the clip "
 "duration, then the clip is **cropped**. If the duration is bigger than the "
@@ -352,161 +372,142 @@ msgid ""
 "over."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:220
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:227
 msgid "Aspect ratio: Change the clip aspect."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:222
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:229
 msgid "Proxy clips: Enable a proxy clip for this clip. See :ref:`clips`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:224
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:231
 msgid ""
 "Frame rate: Change the clip frame rate. See `Wikipedia Frame rate <https://"
 "en.wikipedia.org/wiki/Frame_rate>`_."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:226
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:233
 msgid "Scanning"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:228
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:235
 msgid "Field order"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:230
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:237
 msgid "Disable autorotate"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:232
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:239
 msgid "Threads"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:234
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:241
 msgid "Video stream"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:236
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:243
 msgid "Audio stream"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:238
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:245
 msgid "Colorspace"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:240
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:247
 msgid ":ref:`full_luma`"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:248
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:255
 msgid "Audio properties"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:255
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:262
 msgid "For each channel you can adjust:"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:257
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:264
 msgid ""
 "Choose which audio channel should be enabled or disabled. Rename with double "
 "click."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:258
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:265
 msgid "Normalize the channel"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:259
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:266
 msgid "Swap the channels"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:260
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:267
 msgid "Copy a channel on the other one"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:261
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:268
 msgid "Adjust the volume"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:263
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:270
 msgid "for all channels:"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:265
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:272
 msgid "Adjust the synchronization time related to the video of the clip."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:271
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:278
 msgid "Markers"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:278
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:282
 msgid ""
-"You can use the :menuselection:`Markers` tab to add markers for certain "
-"points in the source file that are important. However, it is probably easier "
-"to add markers to your clips via the  :ref:`monitors` because that allows "
-"you to preview the file at the location where you are adding the marker."
+"Marker tab removed. Clip markers are shown in :menuselection:`View --> "
+"Guides`. More details see :ref:`markers`"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:280
-msgid ""
-"Once markers are put in your clip, you can access them in the :ref:"
-"`monitors` by right-clicking and selecting :menuselection:`Go To Marker` "
-"(see picture.)  Also note how the markers appear as red vertical lines in "
-"the **Clip Monitor** (see yellow highlighted regions in the picture.) You "
-"can turn on the display of the marker comments in the timeline too (see :ref:"
-"`editing`)."
-msgstr ""
-
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:287
-msgid ""
-"Markers can also be added to clips on the timeline. :ref:`right_click_menu` "
-"the clip and choose :menuselection:`Markers --> Add Marker`.  Markers added "
-"this way also appear in the clip in the Project Bin."
-msgstr ""
-
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:293
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:294
 msgid "Metadata"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:295
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:296
 msgid ""
 "You expect this to show any meta data that is contained in the clip. Does "
 "not appear to work."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:299
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:300
 msgid "Analysis"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:305
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:306
 msgid ""
 "You can view and delete motion vector data that is associated with the clip "
 "from here. This is data created by :ref:`auto_mask`"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:307
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
 msgid ""
 "Button 1 Will delete the selected analysis data, Button 2 will allow you to "
 "export the data (semi colon delimited text file), Button 3 will allow you to "
 "import analysis data."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:313
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:314
 msgid "Generators"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:316
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:317
 msgid "Counter"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:323
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:324
 msgid ""
 "This generates a counter timer clip in various formats which you can put "
 "onto the timeline."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:325
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:326
 msgid ""
 "You can choose to have the clip count up by checking that option, otherwise "
 "it will count down by default. The :guilabel:`No Background` option will "
@@ -514,28 +515,28 @@ msgid ""
 "without the lines."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:327
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:328
 msgid ""
 "To change the size and position of the clip, you can add an effect to the "
 "clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:333
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:334
 msgid "White Noise"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:340
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:341
 msgid ""
 "This generates a video noise clip – like the \"snow\" on an out-of-tune "
 "analogue TV. In ver 17.04 it generates audio white noise as well as video "
 "snow."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:347
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:348
 msgid "Color Bars"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:354
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:355
 msgid ""
 "This generator came in to **Kdenlive** around ver 17.04. Generates a color "
 "test pattern of various types. Including PAL color bars, BBC color bars, EBU "
