@@ -144,7 +144,7 @@ Guides View
 
 3. Sort by categories, time, comment or descending.
 
-4. Click on a guide/marker will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click on a guide/maker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
+4. Click on a guide/marker will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click on a guide/marker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
 
 5. Add a guide/marker. Only here you have the possibility to add multiple guides/markers with an interval.
 
@@ -152,11 +152,11 @@ Guides View
 
 7. Delete a selected guide/marker.
 
-8. Set the category for new created guides/maker.
+8. Set the category for new created guides/marker.
 
 9. Guides only: :ref:`Locks guide <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
 
-10. Import/:ref:`export guides/maker <export_guides>` or configure the :ref:`project categories <categories>`.
+10. Import/:ref:`export guides/marker <export_guides>` or configure the :ref:`project categories <categories>`.
 
 
 You can put a comment in the guide/marker and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
