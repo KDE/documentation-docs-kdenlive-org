@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-13 00:45+0000\n"
-"PO-Revision-Date: 2022-08-28 02:22+0100\n"
+"PO-Revision-Date: 2022-12-15 10:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -27,7 +27,9 @@ msgstr ""
 "X-POFile-SpellExtra: DirectSound Open transcode vn MKV vcodec copy acodec\n"
 "X-POFile-SpellExtra: sn VOB Kdenlive guilabel QProcess Audacity Glaxnimate\n"
 "X-POFile-SpellExtra: Mac dmg SuaLocalização glaxnimate AVIF HEIF XL Json\n"
-"X-POFile-SpellExtra: Lottie rawr monitortoolbars\n"
+"X-POFile-SpellExtra: Lottie rawr monitortoolbars exiftool Magic Lantern\n"
+"X-POFile-SpellExtra: cairoblend qtblend Qtblend ips configureplayback\n"
+"X-POFile-SpellExtra: configurecolors Clip\n"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:1
 msgid "Configure settings in Kdenlive video editor"
@@ -61,115 +63,90 @@ msgid "Misc"
 msgstr "Diversos"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:41
-#, fuzzy
-#| msgid "Project Defaults"
 msgid "**Project file**"
-msgstr "Predefinições do Projecto"
+msgstr "**Ficheiro do projecto**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:43
-#, fuzzy
-#| msgid "Open the last project on startup"
 msgid ":guilabel:`Open the last project on startup`"
-msgstr "Abrir o último projecto no arranque"
+msgstr ":guilabel:`Abrir o último projecto no arranque`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:45
-#, fuzzy
-#| msgid "Crash recovery (:ref:`auto_save`)"
 msgid ":guilabel:`Activate Crash recovery` (:ref:`auto_save`)"
-msgstr "Recuperação de estoiros (:ref:`auto_save`)"
+msgstr ":guilabel:`Activar a recuperação de estoiros` (:ref:`auto_save`)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:47
 msgid "**Clip import**"
-msgstr ""
+msgstr "**Importação de 'clips'**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:49
-#, fuzzy
-#| msgid "Check if the first added clip matches the project profile"
 msgid ":guilabel:`Check if the first added clip matches the project profile`"
-msgstr ""
-"Verificar se o primeiro 'clip' adicionado corresponde ao perfil do projecto"
+msgstr ":guilabel:`Verificar se o primeiro 'clip' adicionado corresponde ao perfil do projecto`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:51
 msgid ""
 ":guilabel:`Automatically import all streams in multi stream clips` Here you "
 "set if all audio streams are loaded/imported."
-msgstr ""
+msgstr ":guilabel:`Importar automaticamente todas as sequências em 'clips' com múltiplas sequências`. Aqui poderá definir se todas as sequências de áudio foram carregadas/importadas."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:53
-#, fuzzy
-#| msgid "Automatically import image sequences"
 msgid ":guilabel:`Automatically import image sequences`"
-msgstr "Importar automaticamente as sequências de imagens"
+msgstr ":guilabel:`Importar automaticamente as sequências de imagens`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:55
 msgid ":guilabel:`Get clip metadata with exiftool`"
-msgstr ""
+msgstr ":guilabel:`Obter os meta-dados do 'clip' com o exiftool`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:57
 msgid ":guilabel:`Get clip metadata created by Magic Lantern`"
-msgstr ""
+msgstr ":guilabel:`Obter os meta-dados do 'clip' criados pelo Magic Lantern`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:59
 msgid ""
 ":guilabel:`Ignore subfolder structure on import (import all files into "
 "toplevel folder)`"
-msgstr ""
+msgstr ":guilabel:`Ignorar a estrutura de sub-pastas na importação (importar todos os ficheiros para o nível de topo)`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:61
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:67
 msgid "**-------**"
-msgstr ""
+msgstr "**-------**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:63
-#, fuzzy
-#| msgid "Disable parameters when the effect is disabled"
 msgid ":guilabel:`Disable parameters when the effect is disabled`"
-msgstr "Desactivar os parâmetros se o filtro estiver desactivado"
+msgstr ":guilabel:`Desactivar os parâmetros se o efeito estiver desactivado`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:65
 msgid ":guilabel:`Tab position` Set the tab position when a window is open."
-msgstr ""
+msgstr ":guilabel:`Posição da página` Define a posição da página quando é aberta uma janela."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:69
-#, fuzzy
-#| msgid ""
-#| "On import, enable: select if :menuselection:`all audio streams`, :"
-#| "menuselection:`first audio stream`, :menuselection:`first 2 audio "
-#| "streams` should be imported."
 msgid ""
 ":guilabel:`Preferred track compositing composition:` Select :menuselection:"
 "`auto`, :menuselection:`frei0r.cairoblend`, :menuselection:`qtblend`."
-msgstr ""
-"Na importação, active: seleccione se deverão ser importadas :menuselection:"
-"`todas as sequências de áudio`, a :menuselection:`primeira sequência de "
-"áudio`, as :menuselection:`primeiras 2 sequências de áudio`."
+msgstr ":guilabel:`Composição preferida das faixas:` Seleccione :menuselection:`auto`, :menuselection:`frei0r.cairoblend`, :menuselection:`qtblend`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:73
 msgid ""
 "Qtblend brings back a much better playback performance when there is no "
 "compositing. When there is a compositing, performance is slightly worse than "
 "frei0r.cairoblend (Kdenlive lose 1-2 fps on playback)."
-msgstr ""
+msgstr "O Qtblend traz de volta uma melhor performance de reprodução quando não existe qualquer composição. Quando existe composição, a performance é ligeiramente pior que o frei0r.cairoblend (o Kdenlive perde 1-2 ips na reprodução)."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:75
-#, fuzzy
-#| msgid "Default Durations"
 msgid "**Default Durations**"
-msgstr "Durações Predefinidas"
+msgstr "**Durações Predefinidas**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:77
 msgid "Here you set the default duration of below items."
-msgstr ""
+msgstr "Aqui pode definir a duração predefinida dos itens abaixo."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:81
 msgid ":guilabel:`Bypass codec verification`"
-msgstr ""
+msgstr ":guilabel:`Ignorar a verificação do codificador`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:82
-#, fuzzy
-#| msgid "Use KDE job tracking for render jobs"
 msgid ":guilabel:`Use KDE job tracking for render jobs`"
-msgstr "Usar o seguimento de tarefas do KDE para as tarefas de desenho"
+msgstr ":guilabel:`Usar o seguimento de tarefas do KDE para as tarefas de desenho`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:87
 msgid "Project Defaults"
@@ -208,104 +185,73 @@ msgid "**Thumbnails**"
 msgstr "**Miniaturas**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:128
-#, fuzzy
-#| msgid "Video: Turns on video thumbnail by default."
 msgid ":guilabel:`Enable for Video` Turns on video thumbnail by default."
-msgstr "Vídeo: Activa as miniaturas dos vídeos por omissão."
+msgstr ":guilabel:`Activar para o Vídeo`: Activa as miniaturas dos vídeos por omissão."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:130
-#, fuzzy
-#| msgid "Audio: Turns on audio thumbnail by default."
 msgid ":guilabel:`Enable for Audio` Turns on audio thumbnail by default."
-msgstr "Áudio: Activa as miniaturas dos áudios por omissão."
+msgstr ":guilabel:`Activar para o Áudio`: Activa as miniaturas dos áudios por omissão."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:132
-#, fuzzy
-#| msgid ""
-#| "Separate channels: If checked you will get a separate waveform in the "
-#| "audio thumbnail for each audio channel in the audio track. If unchecked "
-#| "you will get a single waveform as the audio thumbnail."
 msgid ""
 ":guilabel:`Separate audio channels` If checked you will get a separate "
 "waveform in the audio thumbnail for each audio channel in the audio track. "
 "If unchecked you will get a single waveform as the audio thumbnail."
-msgstr ""
-"Canais separados: Se estiver assinalado, irá obter uma forma de onda "
-"separada na miniatura do áudio para cada canal de áudio na faixa respectiva. "
-"Se estiver desligado, irá obter uma única forma de onda como miniatura do "
-"áudio."
+msgstr ":guilabel:`Canais separados`: Se estiver assinalado, irá obter uma forma de onda separada na miniatura do áudio para cada canal de áudio na faixa respectiva. Se estiver desligado, irá obter uma única forma de onda como miniatura do áudio."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:136
 msgid ":guilabel:`Use FFmpeg for audio thumbnails (faster)`"
-msgstr ""
+msgstr ":guilabel:`Usar o FFmpeg nas miniaturas de áudio (mais rápido)`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:139
 msgid "**Playback and Seeking**"
-msgstr ""
+msgstr "**Reprodução e Posicionamento**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:141
-#, fuzzy
-#| msgid ""
-#| "Pause playback when seeking: **Enabled:** It stops playback while you "
-#| "click on a new position in the timeline. **Disabled:** Playback is "
-#| "ongoing while you click on a new position in the timeline. It allows "
-#| "looping playback, see :ref:`loop_playback`."
 msgid ""
 ":guilabel:`Pause playback when seeking` **Enabled:** It stops playback while "
 "you click on a new position in the timeline. **Disabled:** Playback is "
 "ongoing while you click on a new position in the timeline. It allows looping "
 "playback, see :ref:`loop_playback`."
-msgstr ""
-"Pausa a reprodução no posicionamento: **Activo:** Pára a reprodução quando "
-"carregar numa nova posição na linha temporal. **Desactivado:** A reprodução "
-"continua em frente enquanto carregar numa nova posição na linha temporal. "
-"Permite a reprodução em ciclo; veja a :ref:`loop_playback`."
+msgstr ":guilabel:`Pausa a reprodução no posicionamento`: **Activo:** Pára a reprodução quando carregar numa nova posição na linha temporal. **Desactivado:** A reprodução continua em frente enquanto carregar numa nova posição na linha temporal. Permite a reprodução em ciclo; veja a :ref:`loop_playback`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:143
 msgid ""
 ":guilabel:`Jump to timeline start if playback is started on last frame in "
 "timeline`"
-msgstr ""
+msgstr ":guilabel:`Ir para o início da linha temporal se a reprodução iniciar na última imagem da linha temporal`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:145
 msgid ":guilabel:`Seek to clip when adding effect`"
-msgstr ""
+msgstr ":guilabel:`Posicionar no 'clip' ao adicionar o efeito`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:147
 msgid "**Scrolling**"
-msgstr ""
+msgstr "**Deslocamento**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:149
-#, fuzzy
-#| msgid "Autoscroll while playing"
 msgid ":guilabel:`Autoscroll while playing`"
-msgstr "Deslocar automaticamente ao ler"
+msgstr ":guilabel:`Deslocar automaticamente ao reproduzir`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:151
 msgid ""
 ":guilabel:`Scroll vertically with scroll wheel, horizontally with Shift + "
 "scroll wheel`"
-msgstr ""
+msgstr ":guilabel:`Deslocar verticalmente com a roda do rato, horizontalmente com o Shift + roda do rato`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:153
 msgid "**---------**"
-msgstr ""
+msgstr "**---------**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:155
 msgid ":guilabel:`Display clip markers comments`"
-msgstr ""
+msgstr ":guilabel:`Mostrar os comentários dos marcadores do 'clip'`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:157
-#, fuzzy
-#| msgid ""
-#| "Track Height: defines the default track height in pixels for the tracks "
-#| "on the timeline."
 msgid ""
 ":guilabel:`Default track height:` Defines the default track height in pixels "
 "for the tracks on the timeline."
-msgstr ""
-"Altura da Faixa: define a altura predefinida da faixa em pixels para as "
-"faixas na linha temporal."
+msgstr ":guilabel:`Altura predefinida da faixa`: define a altura predefinida da faixa em pixels para as faixas na linha temporal."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:159
 msgid "**Raise properties pane when selecting in timeline**"
@@ -320,33 +266,18 @@ msgid "**Multi stream audio clips**"
 msgstr "**'Clips' de áudio com múltiplas sequências**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:166
-#, fuzzy
-#| msgid ""
-#| "On import, enable: select if :menuselection:`all audio streams`, :"
-#| "menuselection:`first audio stream`, :menuselection:`first 2 audio "
-#| "streams` should be imported."
 msgid ""
 ":guilabel:`On import, enable:` Select if :menuselection:`all audio "
 "streams`, :menuselection:`first audio stream`, :menuselection:`first 2 audio "
 "streams` should be imported."
-msgstr ""
-"Na importação, active: seleccione se deverão ser importadas :menuselection:"
-"`todas as sequências de áudio`, a :menuselection:`primeira sequência de "
-"áudio`, as :menuselection:`primeiras 2 sequências de áudio`."
+msgstr ":guilabel:`Na importação, active`: seleccione se deverão ser importadas :menuselection:`todas as sequências de áudio`, a :menuselection:`primeira sequência de áudio`, as :menuselection:`primeiras 2 sequências de áudio`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:168
-#, fuzzy
-#| msgid ""
-#| "Check if project contains enough audio tracks. If enabled Kdenlive asks "
-#| "if it should generate the additional audio tracks needed automatically."
 msgid ""
 ":guilabel:`Check if project contains enough audio tracks` If enabled "
 "Kdenlive asks if it should generate the additional audio tracks needed "
 "automatically."
-msgstr ""
-"Assinale se o projecto contém faixas de áudio suficientes. Se estiver "
-"activo, o Kdenlive irá perguntar se deverá gerar as faixas de áudio "
-"adicionais necessárias automaticamente."
+msgstr ":guilabel:`Verificar se o projecto contém faixas de áudio suficientes`. Se estiver activo, o Kdenlive irá perguntar se deverá gerar as faixas de áudio adicionais necessárias automaticamente."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:175
 msgid "Environment"
@@ -435,13 +366,13 @@ msgstr ""
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:216
 msgid ":guilabel:`Cached Data`"
-msgstr ""
+msgstr ":guilabel:`Dados em 'Cache'`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:218
 msgid ""
 "Add a maximal cache size so that Kdenlive can check every 2 weeks if the "
 "total cached data size exceeds this limit and warn the user."
-msgstr ""
+msgstr "Adiciona um tamanho máximo da 'cache' para que o  Kdenlive possa verificar a cada 2 semanas se os dados totais em 'cache' ultrapassam esse limite, avisando nesse caso o utilizador."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:223
 msgid ""
@@ -619,25 +550,19 @@ msgstr ""
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:310
 msgid "Moved from tab :ref:`configure_playback`"
-msgstr ""
+msgstr "Movido da página :ref:`configure_playback`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:313
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Audio thumbnail colors` Click on the color bar and change the "
-#| "color of the audio wave thumbnail."
 msgid ""
 ":guilabel:`Monitor background color` Click on the color bar and change the "
 "color of the monitor background."
-msgstr ""
-":guilabel:`Cores das miniaturas de áudio` Carregue na barra de cores e mude "
-"a cor da miniatura da forma de onda."
+msgstr ":guilabel:`Cor de fundo do monitor` Carregue na barra de cores e mude a cor do fundo do monitor."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:317
 msgid ""
 ":guilabel:`Guides and Markers Categories` This allows you to add categories. "
 "Selected categories can be edited and deleted."
-msgstr ""
+msgstr ":guilabel:`Categorias das Guias e Marcadores` Isto permite-lhe adicionar categorias. Poderá editar e apagar as categorias seleccionadas."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:323
 msgid "Speech To Text"
@@ -665,35 +590,22 @@ msgid "Playback view on Windows."
 msgstr "Área de reprodução no Windows."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:351
-#, fuzzy
-#| msgid "Audio driver on Linux."
 msgid ":guilabel:`Audio driver` on Linux."
-msgstr "Controlador de áudio no Linux."
+msgstr ":guilabel:`Controlador de áudio` no Linux."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:357
-#, fuzzy
-#| msgid "Audio driver on MAcOS."
 msgid ":guilabel:`Audio driver` on MAcOS."
-msgstr "Controlador de áudio no MacOS."
+msgstr ":guilabel:`Controlador de áudio` no MacOS."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:359
-#, fuzzy
-#| msgid "Audio driver on Linux."
 msgid ":guilabel:`Audio driver` on Windows"
-msgstr "Controlador de áudio no Linux."
+msgstr ":guilabel:`Controlador de áudio` no Windows"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:361
-#, fuzzy
-#| msgid ""
-#| "**Windows:** WinMM (Win7), Wasapi (Win10), DirectSound. If you have any "
-#| "audio issue or playback stuttering you may change to another audio driver."
 msgid ""
 "WinMM (Win7), Wasapi (Win10), DirectSound. If you have any audio issue or "
 "playback stuttering you may change to another audio driver."
-msgstr ""
-"**Windows:** WinMM (Win7), Wasapi (Win10), DirectSound. Se tiver algum "
-"problema de áudio ou interrupções na reprodução, poderá mudar para outro "
-"controlador de áudio."
+msgstr "WinMM (Win7), Wasapi (Win10), DirectSound. Se tiver algum problema de áudio ou interrupções na reprodução, poderá mudar para outro controlador de áudio."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:363
 msgid ""
@@ -727,7 +639,7 @@ msgstr ""
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:369
 msgid ":guilabel:`Monitor background color` moved to :ref:`configure_colors`"
-msgstr ""
+msgstr "A :guilabel:`Cor de fundo do monitor` foi movida para o :ref:`configure_colors`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:371
 msgid ""
@@ -735,7 +647,7 @@ msgid ""
 "removed as the UI element is a duplicate of the volume slider in the "
 "monitors hamburger menu. See :ref:`Clip Monitor<clip_monitor_hamburger>` "
 "and :ref:`Project Monitor<project_monitor_overview>`"
-msgstr ""
+msgstr ":guilabel:`Activar o Ajuste do Áudio` e o :guilabel:`Volume da Antevisão` foram removidos, já que o elemento é um duplicado da barra de volume no menu em hambúrguer dos monitores. Veja o :ref:`Monitor do Clip<clip_monitor_hamburger>` e o :ref:`Monitor do Projecto<project_monitor_overview>`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:378
 msgid "Capture"
@@ -779,7 +691,7 @@ msgstr ""
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:412
 msgid ":guilabel:`Disable countdown before recording`"
-msgstr ""
+msgstr ":guilabel:`Desactivar a contagem decrescente antes da gravação`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:416
 msgid ""
@@ -791,7 +703,7 @@ msgstr ""
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:418
 msgid "Following paragraph is for history reason only."
-msgstr ""
+msgstr "O seguinte parágrafo existe apenas por razões históricas."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:420
 msgid ""
