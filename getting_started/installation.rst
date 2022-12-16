@@ -48,10 +48,12 @@ Minimum system requirements
    
    If your computer is at the lower end of CPU and RAM requirements, you should use both the :ref:`Preview Resolution <preview_resolution>` and :ref:`Proxy <proxy_clips_tab>` features to help reduce preview lag.
 
-Non-KDE Desktops
-----------------
+Kdenlive on Linux
+-----------------
 
 **Kdenlive** can be installed on non-KDE Desktops without any issues.
+
+**Packages:** Minimum Ubuntu 22.04 for PPA. AppImage, Snap or Flatpak has no such minimal requirements. 
 
 Kdenlive on Windows
 -------------------
