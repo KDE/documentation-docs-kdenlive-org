@@ -127,11 +127,16 @@ Create Region
 
 .. versionadded:: 0.9.3
 
+.. deprecated:: 19.04
+   Use :ref:`masking-effects` instead
+
+
 The "Create Region" feature enables a user to apply an effect to a part of a clip only. It is a really powerful feature but currently the UI is not fully ready to get its full potential.
 
 Basically, you add an effect to a clip – for example "Sepia" – then you go in the effect's menu and select "Create Region". This will now open a file dialog.
 
 In that dialog, you need to point to an MLT clip with alpha transparency. This is where Kdenlive is not 100% ready because there are many ways we could create such clips, using for example a threshold filter or rotoscoping. But as a start, let's say you can open any image with alpha transparency, or a title clip created with Kdenlive. Then, the "sepia" effect will only be applied on the non-transparent areas of this "region" clip.
+
 
 Keyframes in effects
 --------------------
@@ -268,6 +273,8 @@ The new Time Remap feature allows to keyframe the speed of a clip.
 .. image:: /images/timeremap.gif
    :alt: timeremap
 
+
+.. _masking-effects:
 
 Masking Effects
 ---------------
