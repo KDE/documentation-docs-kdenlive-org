@@ -1,0 +1,147 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) 2022 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdenlive package.
+#
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenlive ref manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-29 00:22+0000\n"
+"PO-Revision-Date: 2022-08-20 19:15+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+
+#: ../../glossary/useful_information/full_luma.rst:14
+msgid "Full Luma"
+msgstr "Poln obseg svetilnosti"
+
+#: ../../glossary/useful_information/full_luma.rst:16
+msgid "Contents"
+msgstr "Vsebina"
+
+#: ../../glossary/useful_information/full_luma.rst:19
+#, fuzzy
+msgid "Advance Clip Property - Full Luma Range"
+msgstr "Vnaprejšnja lastnost izrezka - celoten obseg lume"
+
+#: ../../glossary/useful_information/full_luma.rst:21
+#, fuzzy
+msgid "A clip can have its full luma flag set from the :ref:`clips`"
+msgstr "Posnetek ima lahko nabor polne luma zastavice iz :ref:'clips'"
+
+#: ../../glossary/useful_information/full_luma.rst:24
+#, fuzzy
+msgid ""
+"From `this <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
+"do#comment-18298>`_ forum post by Yellow"
+msgstr ""
+"Od 'ta <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
+"do#comment-18298>'_ forum post by Yellow"
+
+#: ../../glossary/useful_information/full_luma.rst:27
+#, fuzzy
+msgid ""
+"The full luma option refers to video sources with luma recorded outside of "
+"the typical 'broadcast', 'restricted' 16 - 235 8bit range."
+msgstr ""
+"Možnost polne lume se nanaša na vire videa z lumo, posneto zunaj tipičnega "
+"\"oddajanja\", \"omejeno\" 16 - 235 8bitnega obsega."
+
+#: ../../glossary/useful_information/full_luma.rst:30
+#, fuzzy
+msgid ""
+"This option fixes problems round tripping video files with luma outside of "
+"the 16 - 235 8bit range. By default when we import a video it is handled and "
+"displayed based on the 16 - 235 range, levels below ie: 0 to 15 and those "
+"above 235 to 255 are compressed to 0 and 255, so shadows get overly dark and "
+"highlights saturated, in the preview within **Kdenlive** for camera sources "
+"that are full range."
+msgstr ""
+"Ta možnost odpravlja težave okrog spotikanje video datotek z lumo zunaj 16 - "
+"235 8bit obseg. Privzeto pri uvozu videoposnetka je obravnavan in prikazan "
+"na podlagi obsega 16 - 235, ravni pod ie: 0 do 15 in tiste nad 235 do 255 so "
+"stisnjene na 0 in 255, tako da sence preveč temno in poudarja nasičene, v "
+"predogledu znotraj **Kdenlive** za vire fotoaparata, ki so polni razpon."
+
+#: ../../glossary/useful_information/full_luma.rst:33
+#, fuzzy
+msgid ""
+"Then when we render out, those levels remain in the final video, compressed "
+"shadows and saturated highlights, so there is a mismatch between the levels "
+"in the video we import compared to that exported. **This only really matters "
+"for round tripping to an external application**."
+msgstr ""
+"Potem ko se izvlečemo, te ravni ostanejo v končnem videu, stisnjene sence in "
+"nasičene poudarke, zato obstaja neuskladje med stopnjami v videu, ki ga "
+"uvažamo v primerjavi z izvoženim. **To je pomembno samo za okroglo tripanje "
+"na zunanjo aplikacijo**."
+
+#: ../../glossary/useful_information/full_luma.rst:36
+#, fuzzy
+msgid ""
+"For any playback on DVD's, Blu-ray and including the web like Vimeo or "
+"Youtube our video levels in the final rendered output should be in the 16 - "
+"235 range, otherwise we see so called 'gamma shifts', 'washed out' or "
+"saturated playback depending on playback handling."
+msgstr ""
+"Za vsako predvajanje na DVD-ju, Blu-ray in vključno s spletom, kot je Vimeo "
+"ali Youtube, bi morale biti naše video ravni v končnem renderiranem izhodu v "
+"obsegu 16 - 235, sicer vidimo tako imenovane \"gama premike\", \"izplaknjen"
+"\" ali nasičen predvajanje, odvisno od predvajanja."
+
+#: ../../glossary/useful_information/full_luma.rst:39
+#, fuzzy
+msgid ""
+"However really we want to have control of the levels adjustment in "
+"**Kdenlive** i.e.: 0 - 255 into 16 - 235 so full luma option changes the "
+"handling of the files and preview / scopes are based on an alternative YCbCr "
+"to RGB calculation."
+msgstr ""
+"Vendar pa res želimo imeti nadzor nad prilagoditvijo ravni v **Kdenlive** to "
+"je: 0 - 255 v 16 - 235 tako popolna luma možnost spremeni ravnanje datotek "
+"in predogled / obsegi temeljijo na alternativni YCbCr za RGB izračun."
+
+#: ../../glossary/useful_information/full_luma.rst:42
+#, fuzzy
+msgid ""
+"By setting the full luma on, which should only be done for camera sources "
+"known to be full range 0 - 255 or even 16 - 255 such as FS100, Nex5, HV20, "
+"HV30 and probably many more consumer cameras. Canon and Nikon DSLR's too but "
+"a little more complicated, we can export video with the levels as imported, "
+"BUT and it's a big but, that is without doing any RGB operations in "
+"**Kdenlive**, so no effects, color correction etc. If any effects are added "
+"then the output will be restricted range again."
+msgstr ""
+"Z vklopom polne lume, ki jo je treba opraviti samo za vire kamer, za katere "
+"je znano, da so polni domet 0 - 255 ali celo 16 - 255, kot so FS100, Nex5, "
+"HV20, HV30 in verjetno še veliko potrošniških kamer. Canon in Nikon DSLR je "
+"preveč, vendar malo bolj zapleteno, lahko izvoz video z ravni, kot uvožene, "
+"AMPAK in je velik, vendar, da je brez dela nobenih RGB operacije v "
+"**Kdenlive**, tako da ni učinkov, barvne korekcije itd. Če so vsi učinki "
+"dodani, bo izhod spet omejen."
+
+#: ../../glossary/useful_information/full_luma.rst:45
+#, fuzzy
+msgid ""
+"For me I use full luma all the time, it allows roundtripping a video edit "
+"and maintaining levels for grading in an external application that offers "
+"32bit float precision. When it's necessary to otherwise happy with "
+"**Kdenlive's** SOP/SAT and scopes."
+msgstr ""
+"Zame uporabljam polno lumo ves čas, to omogoča okroglo urejanje video in "
+"vzdrževanje ravni za razvrščanje v zunanji aplikaciji, ki ponuja 32bit float "
+"natančnost. Ko je treba drugače zadovoljni z **Kdenlive's** SOP/SAT in "
+"obsegi."

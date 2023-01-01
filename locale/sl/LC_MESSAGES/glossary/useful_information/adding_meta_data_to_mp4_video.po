@@ -1,0 +1,938 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) 2022 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdenlive package.
+#
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenlive ref manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-18 00:38+0000\n"
+"PO-Revision-Date: 2022-08-20 20:40+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:13
+#, fuzzy
+msgid "Adding meta data to mp4 video"
+msgstr "Dodajanje meta podatkov v videoposnetek MP4"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:15
+#, fuzzy
+msgid ""
+"Adding a useful information to your video files – such as title, authors, "
+"the date of production, and some description – can be quite helpful to both "
+"yourself and your customers. This additional data – or *meta data* – can be "
+"used by media players to organize your many video files. Unfortunately, "
+"while adding such meta data to audio files is straightforward, adding useful "
+"meta data to video files is … a nightmare. But don’t despair, as we’ve "
+"compiled some useful information for you!"
+msgstr ""
+"Dodajanje uporabnih informacij v video datoteke – kot so naslov, avtorji, "
+"datum proizvodnje in nekaj opisa – je lahko precej koristno tako sebi kot "
+"strankam. Te dodatne podatke – ali *meta podatke* – lahko predvajalniki "
+"predstavnosti uporabijo za organizacijo številnih videodatotek. Na žalost, "
+"medtem ko dodajanje takšnih meta podatkov v zvočne datoteke je naravnost, "
+"dodajanje koristnih meta podatkov v video datoteke je ... Nočna mora. Ampak "
+"ne obupujte, saj smo za vas skopili nekaj koristnih informacij!"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:18
+#, fuzzy
+msgid "Project Meta Data"
+msgstr "Opusti vse metapodatke"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:29
+#, fuzzy
+msgid ""
+"Kdenlive allows you to specify the meta information that should be added to "
+"a rendered file. Just go to :menuselection:`Project --> Project Settings`, "
+"then select the second tab named :guilabel:`Metadata`."
+msgstr ""
+"Kdenlive vam omogoča, da določite meta informacije, ki jih je treba dodati v "
+"upodaljene datoteke. Samo pojdite na :menuselection:'Project --> Project "
+"Settings', nato izberite drugi zavihek z imenom :guilabel:'Metadata'."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:31
+#, fuzzy
+msgid ""
+"For your convenience, Kdenlive automatically adds the following four "
+"elements to each new project:"
+msgstr ""
+"Za vašo udobje Kdenlive vsakemu novemu projektu samodejno doda naslednje "
+"štiri elemente:"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:33
+#, fuzzy
+msgid "**title**."
+msgstr "Naslov dokumenta"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:34
+#, fuzzy
+msgid ""
+"**author** – doesn’t work for .mp4 containers, but for .mov containers; you "
+"may use **artist** instead with .mp4 containers."
+msgstr ""
+"**avtor** – ne deluje za .mp4, ampak za .mov posode; namesto tega lahko "
+"uporabljate **artist** z .mp4 posodami."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:35
+msgid "**copyright**."
+msgstr "**avtorske pravice**."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:36
+#, fuzzy
+msgid ""
+"**year** – please note that this element does not work for video rendered "
+"into MP4 containers (such as .mov and .mp4). See below for more details. Use "
+"a date element instead. Oh, this year element is actually quite pesky: you "
+"can delete it, but it will automatically reappear. So simply ignore it … as "
+"ffmpeg does too."
+msgstr ""
+"**leto** – upoštevajte, da ta element ne deluje za videoposnetke, ki so v "
+"mp4 posodah (na primer .mov in .mp4). Za več podrobnosti si oglejte spodaj. "
+"Namesto tega uporabite element datuma. Oh, letos element je pravzaprav "
+"precej pesky: lahko ga izbrišete, vendar se bo samodejno ponovno prikaže. "
+"Zato ga preprosto ignoriraj ... kot ffmpeg tudi."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:38
+#, fuzzy
+msgid ""
+"But there are more elements that you actually may use with your MP4 "
+"containers."
+msgstr ""
+"Obstaja pa več elementov, ki jih lahko dejansko uporabljate s posodami MP4."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:42
+#, fuzzy
+msgid "MP4 Containers"
+msgstr "Datoteke MP4 (*.mp4)|*.mp4"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:44
+#, fuzzy
+msgid ""
+"Unfortunately, there are competing sets of meta data when working with MP4 "
+"containers. The older, standard MP4 set is rather limited in what additional "
+"meta data can be used. Then, there is Apple iTunes, and that brings in a lot "
+"of meta data, and even changes the allowed set from time to time. We will "
+"come back to this difference in a second."
+msgstr ""
+"Na žalost obstajajo kompetenten nabori meta podatkov pri delu z MP4 "
+"posodami. Starejši standardni nabor MP4 je precej omejen v tem, kateri "
+"dodatni meta podatki se lahko uporabijo. Potem je tu Apple iTunes, ki "
+"prinaša veliko meta podatkov, in celo spremeni dovoljeni nabor od časa do "
+"časa. Čez sekundo se bomo vrnili k tej razliki."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:46
+#, fuzzy
+msgid ""
+"Unfortunately, information about what meta data can be used in which "
+"situation is rather scarce, sometimes outdated, and sometimes plainly wrong. "
+"Of course, this may also apply to this Toolbox article, but I’ve taken much "
+"effort to cross-check things in real life. As Kdenlive uses `ffmpeg <https://"
+"www.ffmpeg.org/>`_ for encoding, one would think that there’s plenty of "
+"information – unfortunately, it’s not, and the scarce information is "
+"sometimes plainly wrong. At some point, I’ve resorted to reading the source "
+"code in order to find out which so-called MP4 atoms actually are supported "
+"and through which element names (the magic happens inside "
+"`mov_write_ilst_tag()` in `moveenc.c <https://github.com/FFmpeg/FFmpeg/"
+"blob/5a8b41b4a76fc6586ff6afff78e5f0aa7b25068a/libavformat/movenc."
+"c#L2996>`__). Luckily, you don’t need to dive into the source anymore."
+msgstr ""
+"Na žalost se lahko uporabijo podatki o meta podatkih, v katerih situacijah "
+"je precej malo, včasih zastarija, včasih pa tudi preprosto napačna. Seveda, "
+"to lahko velja tudi za ta članek Toolbox, vendar sem se zelo potrudil, da "
+"navzkrižno preverim stvari v resničnem življenju. Kot Kdenlive uporablja "
+"'ffmpeg <https://www.ffmpeg.org/>'_ za kodiranje, bi pomislili, da je veliko "
+"informacij – žal ni, in malo podatkov je včasih očitno narobe. Na neki točki "
+"sem se zatekala k branju izvorne kode, da bi ugotovila, kateri tako "
+"imenovani AT4 atomi so dejansko podprti in skozi katera imena elementov "
+"(čarovnija se dogaja znotraj \"mov_write_ilst_tag()\" v \"moveenc.c <https://"
+"github.com/FFmpeg/FFmpeg/blob/5a8b41b4a76fc6586ff6afff78e5f0aa7b25068a/"
+"libavformat/movenc.c#L2996>\"__). Na srečo ti ni treba več potapljati v vir."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:48
+#, fuzzy
+msgid ""
+"Finally, please note that other container formats, such as `Matroska "
+"<https://en.wikipedia.org/wiki/Matroska>`_ (.mkv) or *cough* `Audio Video "
+"Interleave <https://en.wikipedia.org/wiki/Audio_Video_Interleave>`_ (.avi), "
+"support yet other sets of meta data elements. So, variance galore!"
+msgstr ""
+"Na koncu upoštevajte, da druge oblike vsebnika, kot so \"Matroska <https://"
+"en.wikipedia.org/wiki/Matroska>\"_ (.mkv) ali *kašelj* \"Audio Video "
+"Interleave <https://en.wikipedia.org/wiki/Audio_Video_Interleave>\"_ (.avi), "
+"podpirajo še druge nabore elementov meta podatkov. Torej, variance galore!"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:51
+#, fuzzy
+msgid "Ffmpeg Supported MP4 Container Meta Information"
+msgstr "Ffmpeg podprt MP4 Container Meta Informacije"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:53
+#, fuzzy
+msgid ""
+"But now for the real meat: here come the available meta data elements that "
+"ffmpeg supports."
+msgstr ""
+"Zdaj pa pravo meso: tukaj so razpoložljivi meta podatkovni elementi, ki jih "
+"podpira FFMPEG."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:55
+#, fuzzy
+msgid ""
+"Please note that you must use the ffmpeg meta data keys from the second "
+"column in the table below as the metadata keys in Kdenlive’s Project "
+"Metadata dialog!"
+msgstr ""
+"Prosimo, upoštevajte, da morate uporabiti ffmpeg meta podatkovne ključe iz "
+"drugega stolpca v spodnji tabeli kot metapodatke tipke v Kdenlive's Project "
+"Metadata dialog!"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:56
+#, fuzzy
+msgid ""
+"Ffmpeg supports different meta data elements, based on the type of "
+"container. And this container type normally gets derived from the container "
+"filename suffix (ending): in particular, .mp4 and .mov."
+msgstr ""
+"Ffmpeg podpira različne meta podatkovne elemente, ki temeljijo na vrsti "
+"posode. In ta tip posode običajno izhaja iz datotečni pritisek posode "
+"(konec): zlasti .mp4 in .mov."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:61
+msgid "Element"
+msgstr "Element"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:62
+#, fuzzy
+msgid "ffmpeg Meta Data Key"
+msgstr "Opusti vse metapodatke"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:63
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:115
+msgid "Description"
+msgstr "Opis"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:64
+#, fuzzy
+msgid "MOV"
+msgstr "Datoteke MOV (*.mov)|*.mov"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:65
+#, fuzzy
+msgid "MP4 (iTunes)"
+msgstr "Datoteke MP4 (*.mp4)|*.mp4"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:66
+msgid "Tag"
+msgstr "Značka"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:67
+msgid "Title"
+msgstr "Naslov"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:68
+msgid "title"
+msgstr "naslov"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:69
+#, fuzzy
+msgid "The title of this video. (String)"
+msgstr "Naziv:"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:70
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:71
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:76
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:77
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:82
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:83
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:88
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:89
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:95
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:100
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:112
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:119
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:124
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:130
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:131
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:137
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:142
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:143
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:148
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:154
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:160
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:167
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:173
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:179
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:185
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:191
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:197
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:203
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:209
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:215
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:221
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:227
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:232
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:239
+#, fuzzy
+msgid "✔"
+msgstr "✔"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:72
+#, fuzzy
+msgid "©nam"
+msgstr "Vietnam"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:73
+msgid "Year"
+msgstr "Leto"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:74
+msgid "date"
+msgstr "datum"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:75
+#, fuzzy
+msgid ""
+"The date of production. Please note that the ffmpeg documentation is totally "
+"wrong here, there is no key named year, but only date. (String)"
+msgstr ""
+"Datum proizvodnje. Prosimo, upoštevajte, da je ffmpeg dokumentacija "
+"popolnoma napačna tukaj, ni ključ imenovano leto, ampak samo datum. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:78
+#, fuzzy
+msgid "©day"
+msgstr "dan"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:79
+msgid "Copyright"
+msgstr "Avtorske pravice"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:80
+msgid "copyright"
+msgstr "avtorsko zaščiteno"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:81
+#, fuzzy
+msgid "The copyright of your video. (String)"
+msgstr "Izberite video datoteko"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:84
+#, fuzzy
+msgid "©cpy"
+msgstr "©cpy"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:85
+msgid "Artist"
+msgstr "Izvajalec"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:86
+msgid "artist"
+msgstr "Izvajalec"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:87
+#, fuzzy
+msgid ""
+"The name of the (video) artist. Please don’t use this element for the "
+"composer, as there is a dedicated element especially for the composer, see "
+"below. (String)"
+msgstr ""
+"Ime (video) izvajalca. Prosimo, ne uporabljajte tega elementa za "
+"skladatelja, saj obstaja namenski element, še posebej za skladatelja, glejte "
+"spodaj. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:90
+#, fuzzy
+msgid "©ART"
+msgstr "umetnost"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:91
+msgid "Album Artist"
+msgstr "Izvajalec albuma"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:92
+#, fuzzy
+msgid "album_artist"
+msgstr "Izvajalec"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:93
+#, fuzzy
+msgid ""
+"The name of the album artist: this may be a guest artist or a featured "
+"artist. This element can also be left out or be the same name as the artist. "
+"(String)"
+msgstr ""
+"Ime izvajalca albuma: to je lahko gost izvajalca ali gostovečji umetnik. Ta "
+"element je lahko tudi izošel ali pa je isto ime kot umetnik. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:96
+#, fuzzy
+msgid "aART"
+msgstr "aART"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:97
+msgid "Author"
+msgstr "Avtor"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:98
+msgid "author"
+msgstr "Avtor"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:99
+#, fuzzy
+msgid "The author of the video. (String)"
+msgstr "Avtor:"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:102
+#, fuzzy
+msgid "©aut"
+msgstr "S_amooblikovanje ..."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:103
+msgid "Composer"
+msgstr "Skladatelj"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:104
+#, fuzzy
+msgid "composer"
+msgstr ""
+"Skriptiranje prototipov filtra/skladatelja z lua na ravni slikovne točke. "
+"Glejte http://pippin.gimp.org/image-processing/ za več podrobnosti."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:105
+#, fuzzy
+msgid "The name of the composer. (String)"
+msgstr "Podajte niz za ime datoteke"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:108
+#, fuzzy
+msgid "©wrt"
+msgstr "©Wrt"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:109
+msgid "Album"
+msgstr "Album"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:110
+msgid "album"
+msgstr "album"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:111
+#, fuzzy
+msgid "The title or the name of this album. (String)"
+msgstr "Naslov albuma"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:114
+#, fuzzy
+msgid "©alb"
+msgstr "©alb"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:116
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:122
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:128
+msgid "comment"
+msgstr "komentar"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:117
+#, fuzzy
+msgid ""
+"A (content) description of this video. For a synopsis, please see the "
+"separate element instead. (String)"
+msgstr "(vsebina) opis tega videa. Za sinopsis si oglejte ločen element. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:120
+#, fuzzy
+msgid "desc"
+msgstr "_Padajoče"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:121
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:127
+msgid "Comment"
+msgstr "Komentar"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:123
+#, fuzzy
+msgid ""
+"A (short) comment on your video. This will probably a comment set by the "
+"audience, not at the time of production. (String)"
+msgstr ""
+"(kratek) komentar na vaš videoposnetek. To bo verjetno komentar, ki ga je "
+"določilo občinstvo, ne v času produkcije. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:126
+#, fuzzy
+msgid "©des"
+msgstr "Pad~ajoče"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:129
+#, fuzzy
+msgid "Same as before, but encoded in a separate element. (String)"
+msgstr "Enako kot prej, vendar kodiranje v ločenem elementu. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:132
+#, fuzzy
+msgid "©cmt"
+msgstr "Vtičniki CMT"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:133
+#, fuzzy
+msgid "Synopsis"
+msgstr "Tu vnesite sinopsis vsebine."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:134
+#, fuzzy
+msgid "synopsis"
+msgstr "Tu vnesite sinopsis vsebine."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:135
+#, fuzzy
+msgid "A synopsis, a longer description of this video. (String)"
+msgstr "Sinopsis, daljši opis tega videa. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:138
+#, fuzzy
+msgid "ldes"
+msgstr "Ides"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:139
+msgid "Genre"
+msgstr "Zvrst"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:140
+#, fuzzy
+msgid "genre"
+msgstr "Zvrst"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:141
+#, fuzzy
+msgid "The genre this video belongs to. (String)"
+msgstr "Žanr, ki mu pripada ta video. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:144
+#, fuzzy
+msgid "©gen"
+msgstr "DITH 0202 GEN "
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:145
+msgid "Make"
+msgstr "Izdelaj"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:146
+#, fuzzy
+msgid "make"
+msgstr "Znamka"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:147
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:153
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:159
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:207
+#, fuzzy
+msgid "(String)"
+msgstr "niz"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:150
+#, fuzzy
+msgid "©mak"
+msgstr "©Mak"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:151
+msgid "Model"
+msgstr "Model"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:152
+#, fuzzy
+msgid "model"
+msgstr "Model"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:156
+#, fuzzy
+msgid "©mod"
+msgstr "MOD"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:157
+msgid "Location"
+msgstr "Mesto"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:158
+msgid "location"
+msgstr "mesto"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:162
+#, fuzzy
+msgid "©xyz"
+msgstr "XYZ"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:163
+msgid "Grouping"
+msgstr "Združevanje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:164
+#, fuzzy
+msgid "grouping"
+msgstr "Združevanje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:165
+#, fuzzy
+msgid ""
+"The name of a group of videos somehow belonging together. In contrast to the "
+"album element, grouping happens inside (that is, below) the album level. "
+"(String)"
+msgstr ""
+"Ime skupine videoposnetkov, ki nekako pripadajo skupaj. V nasprotju z "
+"elementom albuma se združevanje dogaja znotraj (torej spodaj) ravni albuma. "
+"(Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:168
+#, fuzzy
+msgid "©grp"
+msgstr "©grp"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:169
+msgid "Show"
+msgstr "Pokaži"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:170
+msgid "show"
+msgstr "Pokaži"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:171
+#, fuzzy
+msgid "The name of the TV show, if applicable. (String)"
+msgstr "Ime tv-oddaje, če je ustrezno. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:174
+#, fuzzy
+msgid "tvsh"
+msgstr "tvsh"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:175
+msgid "Episode"
+msgstr "Epizoda"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:176
+#, fuzzy
+msgid "episode_id"
+msgstr "Epizoda"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:177
+#, fuzzy
+msgid ""
+"Either the episode name or episode number, for display. If necessary, use "
+"the separate, yet optional episode number element for correct sorting. "
+"(String)"
+msgstr ""
+"Ime epizode ali številka epizode, za prikaz. Če je potrebno, za pravilno "
+"razvrščanje uporabite ločeni, vendar izbirni element številke epizode. (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:180
+#, fuzzy
+msgid "tven"
+msgstr "tven"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:181
+#, fuzzy
+msgid "Episode (Sorting)"
+msgstr "Epizoda"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:182
+#, fuzzy
+msgid "episode_sort"
+msgstr "Epizoda"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:183
+#, fuzzy
+msgid ""
+"This element is for sorting only, but never displayed. It allows numerical "
+"sorting of episode names that are strings, but not (necessarily) numbers. "
+"The valid range is limited to 0 to 255 only, so this doesn’t support all "
+"those endless telenovas, it seems… (Int8)"
+msgstr ""
+"Ta element je samo za razvrščanje, vendar nikoli prikazan. Omogoča numerično "
+"razvrščanje imen epizod, ki so nizi, vendar ne (nujno) številk. Veljavni "
+"razpon je omejen samo na 0 na 255, tako da to ne podpira vseh teh neskončnih "
+"telenov, se zdi... (Int8)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:186
+#, fuzzy
+msgid "tves"
+msgstr "televizorji"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:187
+msgid "Season"
+msgstr "Sezona"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:188
+#, fuzzy
+msgid "season_number"
+msgstr "season_number"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:189
+#, fuzzy
+msgid "The season number, in the range of 0 to 255 only. (Int8)"
+msgstr "Število sezone, samo v razponu od 0 do 255. (Int8)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:192
+#, fuzzy
+msgid "tvsn"
+msgstr "tvsn"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:193
+msgid "Lyrics"
+msgstr "Besedilo"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:194
+#, fuzzy
+msgid "lyrics"
+msgstr "Pisec dodatnih besedil"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:195
+#, fuzzy
+msgid "Optional lyrics for badly sung sing-along… (String)"
+msgstr "Neobvezna besedila za slabo pojejo-along... (Niz)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:198
+#, fuzzy
+msgid "©lyr"
+msgstr "©lyr"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:199
+msgid "Compilation"
+msgstr "Kompilacija"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:200
+#, fuzzy
+msgid "compilation"
+msgstr "Zbirka programske opreme KDE 4.11"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:201
+#, fuzzy
+msgid ""
+"If 1, then this video file is part of a compilation. 0 otherwise. (Int8)"
+msgstr "Če je 1, potem je ta video datoteka del kompilacije. 0 drugače. (Int8)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:204
+#, fuzzy
+msgid "cpil"
+msgstr "cpil"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:205
+msgid "Network"
+msgstr "Omrežje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:206
+msgid "network"
+msgstr "omrežje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:210
+#, fuzzy
+msgid "tvnn"
+msgstr "tvnn"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:211
+msgid "Media Type"
+msgstr "Vrsta medija"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:212
+#, fuzzy
+msgid "media_type"
+msgstr "Ni mogoče ugotoviti vrste medija: "
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:213
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:219
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:225
+#, fuzzy
+msgid "(Int8)"
+msgstr "(Int8)"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:216
+#, fuzzy
+msgid "stik"
+msgstr "stik"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:217
+msgid "HD Video"
+msgstr "HD Video"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:218
+#, fuzzy
+msgid "hd_video"
+msgstr "Video HD 720p"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:222
+#, fuzzy
+msgid "hdvd"
+msgstr "hdvd"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:223
+#, fuzzy
+msgid "Gapless Playback"
+msgstr "Predvajanje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:224
+#, fuzzy
+msgid "gapless_playback"
+msgstr "Predvajanje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:228
+#, fuzzy
+msgid "pgap"
+msgstr "pgap"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:229
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:235
+msgid "Encoding Tool"
+msgstr "Orodje za kodiranje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:230
+msgid "encoder"
+msgstr "kodirnik"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:231
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:237
+#, fuzzy
+msgid ""
+"Not available to us users, as it gets automatically set by ffmpeg itself; "
+"this is set to the libavformat version string."
+msgstr ""
+"Nam uporabnikom ni na voljo, saj ga samodejno nastavi sam FFMPEG; to je "
+"nastavljeno na libavformat različice niz."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:234
+msgid "©swr"
+msgstr "©swr"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:236
+#, fuzzy
+msgid "encoding_tool"
+msgstr "Kodiranje"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:240
+msgid "©too"
+msgstr "©too"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:243
+msgid "Notes"
+msgstr "Opombe"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:245
+#, fuzzy
+msgid ""
+"There is no way to add cover art or DVD art to MP4 containers through "
+"ffmpeg, and in consequence, in Kdenlive. Instead, you need to resort to "
+"other video container tagging tools, such as `AtomicParsley <https://"
+"sourceforge.net/p/atomicparsley/wiki/Home/>`_."
+msgstr ""
+"Ni načina za dodajanje naslovnic ali DVD art v MP4 posode skozi FFMPEG, in "
+"posledično, v Kdenlive. Namesto tega se morate zatekati k drugim orodjem za "
+"označevanje video posod, kot je »AtomicParsley <https://sourceforge.net/p/"
+"atomicparsley/wiki/Home/>«_."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:247
+#, fuzzy
+msgid ""
+"Kdenlive leverages ffmpeg for encoding, so if ffmpeg doesn’t support certain "
+"atoms, there’s no way for Kdenlive to get it into the rendered output file."
+msgstr ""
+"Kdenlive vzvodi ffmpeg za kodiranje, tako da če ffmpeg ne podpira določenih "
+"atomov, ni mogoče, da ga Kdenlive spravi v renderirani izhodni datoteki."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:250
+msgid "Useful References"
+msgstr "Koristne reference"
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:252
+#, fuzzy
+msgid ""
+"The following references give some more background information on ffmpeg and "
+"meta data in .mov/.mp4 containers."
+msgstr ""
+"Naslednje reference dajejo nekaj več podatkov o ffmpeg in meta podatkih v ."
+"mov/.mp4 zabojnikih."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:255
+#, fuzzy
+msgid ""
+"First, and foremost, the ffmpeg source code for reference, and `moveenc.c "
+"<https://sourceforge.net/p/atomicparsley/wiki/Home/>`_ in particular."
+msgstr ""
+"Najprej in predvsem izvorna koda FFMPEG za sklic, zlasti \"moveenc.c "
+"<https://sourceforge.net/p/atomicparsley/wiki/Home/>\"_ ."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:255
+#, fuzzy
+msgid ""
+"`mov_write_ilst_tag()` is responsible to write the iTunes-compatible tags "
+"for .mp4 containers."
+msgstr ""
+"\"mov_write_ilst_tag()\" je odgovoren za pisanje oznak, združljivih z "
+"iTunesom, za .mp4 zabojnike."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:256
+#, fuzzy
+msgid ""
+"`mov_write_udta_tag()` write the MPEG-standard tags instead, when using a ."
+"mov container."
+msgstr ""
+"\"mov_write_udta_tag()\" namesto tega zapiši mpeg standardne oznake, ko "
+"uporabljaš .mov posodo."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:257
+#, fuzzy
+msgid ""
+"`How To: Create/Write ID3 tags using ffmpeg <https://jonhall.info/"
+"create_id3_tags_using_ffmpeg/>`_ by Jon Hall. This article finally got me on "
+"the right track. However, beware of a few incorrect ffmpeg keys in Jon’s "
+"table (such as the TIT3 key, which I think isn’t correct); these may be due "
+"to later changes in ffmpeg (or whatever). In the end, since some of Jon’s "
+"keys didn’t work, I went for the ffmpeg source code which is the "
+"authoritative source, of course. Nevertheless, I’m very thankful to Jon and "
+"he is some of the rare really good sources with good insight into the topic. "
+"Most other source just tell you how to press some buttons on some "
+"application, but don’t give you any clue as to what is actually going on "
+"behind the scenes."
+msgstr ""
+"'Kako: ustvariti/napisati ID3 oznake z uporabo ffmpeg <https://jonhall.info/"
+"create_id3_tags_using_ffmpeg/>'_ by Jon Hall. Ta članek me je končno dobil "
+"na pravi poti. Vendar se pazite nekaj napačnih tipk FFMPEG v Jon tabeli (kot "
+"je TIT3 ključ, ki mislim, da ni pravilno); posledica kasnejših sprememb "
+"ffmpega (ali karkoli). Na koncu, ker nekateri Jonini ključi niso delovali, "
+"sem šel po izvorno kodo FFMPEG, ki je seveda avtoritativni vir. Kljub temu "
+"sem zelo hvaležen Jonu in on je nekaj redkih res dobrih virov z dobro "
+"vpogledom v temo. Večina drugih virov vam samo pove, kako pritisniti nekaj "
+"gumbov na neki aplikaciji, vendar vam ne daje nobenih namigov o tem, kaj se "
+"dejansko dogaja v ozadju."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:258
+#, fuzzy
+msgid ""
+"`How To: Dump and Load metadata with ffmpeg <https://jonhall.info/how-to/"
+"dump_and_load_metadata_with_ffmpeg/>`_ by Jon Hall. Sheds more light on how "
+"to work with meta data when it comes to ffmpeg."
+msgstr ""
+"'How To: Dump and Load metadata with ffmpeg <https://jonhall.info/how-to/"
+"dump_and_load_metadata_with_ffmpeg/>'_ by Jon Hall. Bolj osvetli, kako "
+"delati z meta podatki, ko gre za ffmpeg."
+
+#: ../../glossary/useful_information/adding_meta_data_to_mp4_video.rst:259
+#, fuzzy
+msgid ""
+"`FFmpeg Metadata <https://wiki.multimedia.cx/index.php?"
+"title=FFmpeg_Metadata>`_ article from the `MultimediaWiki <https://wiki."
+"multimedia.cx/index.php?title=Main_Page>`_."
+msgstr ""
+"\"FFmpeg Metapodatki <https://wiki.multimedia.cx/index.php?"
+"title=FFmpeg_Metadata>\"_ članek iz \"MultimediaWiki <https://wiki."
+"multimedia.cx/index.php?title=Main_Page>\"_."

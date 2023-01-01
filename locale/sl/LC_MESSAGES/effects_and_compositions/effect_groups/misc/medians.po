@@ -1,0 +1,288 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) 2022 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdenlive package.
+#
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenlive ref manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-03 00:38+0000\n"
+"PO-Revision-Date: 2022-08-20 19:13+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:12
+msgid "Medians"
+msgstr "Mediane"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:14
+msgid "Contents"
+msgstr "Vsebina"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:16
+#, fuzzy
+msgid "This filter implements several median type filters."
+msgstr "Ta filter izvaja več filtrov mediane vrste."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:18
+msgid "INTRODUCTION:"
+msgstr "UVOD:"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:20
+#, fuzzy
+msgid ""
+"Median is a quite popular non-linear filter in image processing. Most often "
+"it is used to remove impulsive noise, like \"salt &  pepper\" noise, \"dead"
+"\" and \"hot\" pixels, dirt on film, etc. This is because it behaves kind of "
+"\"inversely\" compared to linear denoisers. The more a bad pixel stands out "
+"from the surrounding area, the bigger residual it will leave with a linear "
+"filter - but the more probably it will be eliminated by the median."
+msgstr ""
+"Median je precej priljubljen ne linearni filter pri obdelavi slik. "
+"Najpogosteje se uporablja za odstranjevanje impulzivnega hrupa, kot so \"sol "
+"& poper\" hrup, \"mrtvi\" in \"vroči\" piksli, umazanija na filmu itd. To je "
+"zato, ker se v primerjavi z linearnim denoizverjema nekako \"obratno\". Bolj "
+"ko slab piksel izstopa iz okolice, večji preostanek bo pustil z linearnim "
+"filtrom - bolj pa ga bo verjetno odpravila mediana."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:22
+#, fuzzy
+msgid ""
+"The down side is that the median operation is quite slow. As an order-"
+"statistic filter, it is similar to sorting, that must be done for each "
+"pixel, so using a fast algorithm is very important. For the small medians, "
+"the algorithms of the type described in `this page <http://ndevilla.free.fr/"
+"median/median/src/optmed.c>`_ are used here, with some small modifications "
+"for a further slight improvement in speed. For the \"Variable size\" median, "
+"code from  [1]_  is used. The compound filters (ArceBI, ML3D, ML3dEX) are "
+"made according to the formulas given in the corresponding work [2]_. For "
+"more info on median filtering see `Wikipedia article <https://en.wikipedia."
+"org/wiki/Median_filter>`_."
+msgstr ""
+"Spodaj je, da je mediana operacije precej počasna. Kot vrstno-statistični "
+"filter je podoben razvrščanju, ki ga je treba narediti za vsak piksel, zato "
+"je uporaba hitrega algoritma zelo pomembna. Za majhne mediane se tukaj "
+"uporabljajo algoritmi vrste, opisani v \"tej strani <http://ndevilla.free.fr/"
+"median/median/src/optmed.c>\"_ z nekaj majhnimi spremembami za nadaljnje "
+"rahlo izboljšanje hitrosti. Za mediano »Spremenljiva velikost« se uporablja "
+"koda iz [1]_ . Sestavljeni filtri (ArceBI, ML3D, ML3dEX) so izdelani v "
+"skladu s formulami, navedenimi v ustreznem delu [2]_. Če želite več "
+"informacij o mediani filtriranja, glejte \"Članek wikipedije <https://en."
+"wikipedia.org/wiki/Median_filter>'_."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:24
+msgid "IMPLEMENTED ALGORITHMS:"
+msgstr "IZVEDENI ALGORITMI:"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:27
+#, fuzzy
+msgid "**Cross5**"
+msgstr "**Cross5**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:27
+#, fuzzy
+msgid "Median of the pixel with its top, bottom, left and right neighbor."
+msgstr "Mediana piksela s svojim zgornjim, spodnjim, levim in desnim sosedom."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:30
+#, fuzzy
+msgid "**Square3x3**"
+msgstr "Kvadrat"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:30
+#, fuzzy
+msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
+msgstr "Mediana piksela z okoli 8 piksli. (3x3 škatla)"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:33
+#, fuzzy
+msgid "**Bilevel**"
+msgstr "Raven mikrofona"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:33
+#, fuzzy
+msgid ""
+"First, make cross5 median, then make median of the pixel with its four "
+"diagonal neighbors, and finally take the median of the pixel and the two "
+"previously calculated medians. Slightly better preserves detail than the "
+"simple medians above."
+msgstr ""
+"Najprej naredite cross5 mediano, nato naredite mediano iz piksla s svojimi "
+"štirimi diagonalni sosedi, in končno vzemite mediano piksla in dva prej "
+"izračunana medijana. Nekoliko bolje ohranja podrobnosti kot preproste "
+"mediane zgoraj."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:36
+#, fuzzy
+msgid "**Diamond3x3**"
+msgstr "**Diamond3x3**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:36
+#, fuzzy
+msgid ""
+"Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
+"pattern."
+msgstr ""
+"Vzame mediano piksla z 12 sosednjimi piksli, razporejenih v diamantni vzorec."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:39
+#, fuzzy
+msgid "**Square5x5**"
+msgstr "Kvadrat"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:39
+#, fuzzy
+msgid "Median of the pixel with the 5x5 surrounding box."
+msgstr "Mediana piksela z okoliško škatlo 5x5."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:42
+#, fuzzy
+msgid "**Temp3**"
+msgstr "**Temp3**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:42
+#, fuzzy
+msgid ""
+"Temporal only median of three frames. Can be used to reduce single frame "
+"time-impulsive noise like photoflash. Delays the video by 1 frame."
+msgstr ""
+"Časovni le mediana treh okvirjev. Lahko se uporablja za zmanjšanje časovno "
+"impulzivnega hrupa v enem kadru, kot je fotoflash. Zakasni video za 1 okvir."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:45
+#, fuzzy
+msgid "**Temp5**"
+msgstr "**Temp5**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:45
+#, fuzzy
+msgid ""
+"Temporal only median of five frames. Can be used to reduce double frame time-"
+"impulsive noise, but the artifacts on fast moving objects are stronger than "
+"with temp3. Delays the video by 2 frames."
+msgstr ""
+"Temporalna le mediana petih okvirjev. Lahko se uporablja za zmanjšanje "
+"časovno impulzivnega hrupa dvojnega okvirja, vendar so artefakti na hitro "
+"premikajoče se predmete močnejši kot s temp3. Zakasni video za 2 sličica."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:48
+#, fuzzy
+msgid "**ArceBI**"
+msgstr "**ArceBI**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:48
+#, fuzzy
+msgid ""
+"Spatio-temporal multilevel median, as described by Arce. See the "
+"corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Prostorsko-temporalna multilevel mediana, kot jo opisuje Arce. Oglejte si "
+"ustrezno delo [2]_. Zakasni video za 1 okvir."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:51
+#, fuzzy
+msgid "**ML3D**"
+msgstr "**ML3D**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:51
+#, fuzzy
+msgid ""
+"Spatio-temporal multilevel median, as described by Alp. See the "
+"corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Prostorsko-temporalna multilevel mediana, kot jo opisuje Alp. Oglejte si "
+"ustrezno delo [2]_. Zakasni video za 1 okvir."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:54
+#, fuzzy
+msgid "**ML3dEX**"
+msgstr "**ML3dEX**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:54
+#, fuzzy
+msgid ""
+"Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
+"see the corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Prostorsko-temporalna multilevel mediana. Nadaljnji razvoj ML3D, ki ga je "
+"posnel Kokaram, glej ustrezno delo [2]_. Zakasni video za 1 okvir."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:57
+#, fuzzy
+msgid "**VarSize**"
+msgstr "**VarSize**"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:57
+#, fuzzy
+msgid ""
+"Simple spatial only median in a user selected size square box around each "
+"pixel. The effect could be described as \"quasi edge preserving, corner "
+"rounding, small stuff eliminator\". Or maybe just an \"artsy blur\"."
+msgstr ""
+"Preprosto prostorsko samo mediano v uporabniku izbrano velikost kvadratno "
+"polje okoli vsakega piksla. Učinek bi lahko opisali kot \"ohranjanje kvazi "
+"roba, zaokroževanje vogala, odpravljanje majhnih stvari\". Ali pa samo "
+"\"umetni meglica\"."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:59
+msgid "PARAMETERS:"
+msgstr "PARAMETRI:"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:62
+#, fuzzy
+msgid "**Type**"
+msgstr "po vrsti"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:62
+#, fuzzy
+msgid "Selects one of the eleven algorithms."
+msgstr "Izbere enega od enajstih algoritmov."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:65
+#, fuzzy
+msgid ""
+"Only active when \"VarSize\" type is selected. Determines the size of the "
+"square area over which the median is taken."
+msgstr ""
+"Samo aktivno, ko je izbrana vrsta »VarSize«. Določa velikost kvadratne "
+"površine, nad katero je vzeta mediana."
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:66
+#, fuzzy
+msgid "**Size**"
+msgstr "Velikost (%):"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:68
+#, fuzzy
+msgid ""
+"Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF "
+"version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80.org/"
+"ctmf.html>`_"
+msgstr ""
+"Simon Perreault, Patrick Hebert: Mediana filtriranja v stalnem času, 'PDF "
+"različica <https://nomis80.org/ctmf.pdf>'_, 'HTML različica <https://nomis80."
+"org/ctmf.html>'_"
+
+#: ../../effects_and_compositions/effect_groups/misc/medians.rst:70
+#, fuzzy
+msgid ""
+"`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://"
+"citeseerx.ist.psu.edu/viewdoc/download?"
+"doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
+msgstr ""
+"\"Anil Christopher Kokaram: Restavriranje slike v gibanju, dr. <https://"
+"citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.36.9618&rep=rep1&type=pdf>"
+"\"_"
