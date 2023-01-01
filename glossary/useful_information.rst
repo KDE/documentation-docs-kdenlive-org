@@ -1,3 +1,8 @@
+.. meta::
+   :description: Editing in Kdenlive video editor
+   :keywords: KDE, Kdenlive, useful information, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -7,6 +12,7 @@
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Torsten R\u00c3\u00b6mer (https://userbase.kde.org/User:Torsten R\u00c3\u00b6mer)
              - Roger (https://userbase.kde.org/User:Roger)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -14,8 +20,6 @@
 
 Useful Information
 ==================
-
-*  `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum.kde.org/viewtopic.php?f=272&t=124869#p329129>`_
 
 .. toctree::
    :caption: Contents:

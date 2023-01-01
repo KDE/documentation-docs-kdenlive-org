@@ -162,5 +162,5 @@ So all the render profile options are documented here in the **ffmpeg** document
 
 See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on ConsumerAvFormat.
 
-See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_.
+See also :ref:`How to produce 4k and 2K videos, YouTube compatible <how_to_produce_4k_and_2K_videos_for_youtube>`.
 
