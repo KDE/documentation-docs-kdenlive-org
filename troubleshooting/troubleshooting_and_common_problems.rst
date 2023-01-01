@@ -53,7 +53,6 @@ I want to trim videos without re-encoding them. How can I do this?
 ------------------------------------------------------------------
 
 You cannot do this with **Kdenlive**. (Please try `Avidemux <http://avidemux.org/>`_ instead.) The reason is that, for splitting, files need to be treated in a very different manner (the file itself needs to be edited, whereas **Kdenlive** renders frames into a new file).
-See also: https://forum.kde.org/viewtopic.php?f=272&amp;t=116144&amp;p=286144&amp;hilit=clips+without+render+angain#p286144.
 
 
 I want to apply an effect, for example a watermark, to the whole project. What is the best way to do this?
