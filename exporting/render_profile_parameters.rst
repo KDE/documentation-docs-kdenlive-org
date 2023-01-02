@@ -1,6 +1,6 @@
 .. meta::
    :description: The Kdenlive User Manual
-   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, render, render profile, render parameter
+   :keywords: KDE, Kdenlive, render, parameter, documentation, user manual, video editor, open source, free, help, learn, render, render profile, render parameter
 
 .. metadata-placeholder
 
@@ -15,12 +15,16 @@
 
    :license: Creative Commons License SA 4.0
 
+
+.. contents::
+   :hidden:
+
 .. _render_profile_parameters:
 
 Render Profile Parameters
 =========================
 
-.. contents::
+
 
 
 Render Profile Parameters - How to read them
@@ -29,15 +33,12 @@ Render Profile Parameters - How to read them
 .. versionchanged:: 22.04
 
 .. image:: /images/exporting/edit_render_profile_22-04.png
-   :align: left
    :alt: Kdenlive_Edit_render_profile_video
 
 .. image:: /images/exporting/edit_render_profile__audio_22-04.png
-   :align: left
    :alt: Kdenlive_Edit_render_profile_audio
 
 .. image:: /images/exporting/edit_render_profile_other_22-04.png
-   :align: left
    :alt: Kdenlive_Edit_render_profile_other
    
 

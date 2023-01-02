@@ -19,6 +19,10 @@
 
    :license: Creative Commons License SA 4.0
 
+.. contents::
+   :hidden:
+
+
 .. _render:
 
 Rendering
@@ -28,7 +32,7 @@ Rendering
   TODO:
   * How to choose the correct output format and bit rate? * What to do for rendering lossless, for an iPhone, or whatever? (Dropdown containing targets like lossless/HQ/player)
 
-.. contents::
+
 
 Rendering is the process where the edited clips are saved into a single complete video clip. During the rendering process the video can be compressed and converted to a number of different video formats (aka codecs).
 
@@ -38,10 +42,10 @@ The rendering dialog is brought up from the render button |media-record| from se
 Rendering Dialog
 ----------------
 
-.. versionchanged:: 22.04
+.. versionchanged:: 22.12
    
-.. image:: /images/exporting/render_dialog_22-04.png
-   :alt: File rendering dialog 22.04
+.. image:: /images/exporting/render_dialog_22-12.png
+   :alt: File rendering dialog 22.12
 
 :ref:`download_new_render_profiles`
 

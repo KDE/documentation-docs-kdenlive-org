@@ -1,3 +1,8 @@
+.. meta::
+   :description: Render out your final Kdenlive video for distributing
+   :keywords: KDE, Kdenlive, render, guides, scripts, distribute, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -14,12 +19,14 @@
 
    :license: Creative Commons License SA 4.0
 
+.. contents::
+   :hidden:
+
+
 .. _rendering:
 
 Rendering Using Guides and Rendering Scripts
 ============================================
-
-.. contents::
 
 
 Purpose
