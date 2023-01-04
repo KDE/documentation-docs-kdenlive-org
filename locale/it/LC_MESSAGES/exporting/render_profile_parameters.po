@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-02 00:49+0000\n"
+"POT-Creation-Date: 2023-01-03 00:40+0000\n"
 "PO-Revision-Date: 2022-05-04 08:04+0200\n"
 "Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -22,28 +22,28 @@ msgid "The Kdenlive User Manual"
 msgstr "Il manuale utente di Kdenlive"
 
 #: ../../exporting/render_profile_parameters.rst:1
+#, fuzzy
+#| msgid ""
+#| "KDE, Kdenlive, documentation, user manual, video editor, open source, "
+#| "free, help, learn, render, render profile, render parameter"
 msgid ""
-"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
-"help, learn, render, render profile, render parameter"
+"KDE, Kdenlive, render, parameter, documentation, user manual, video editor, "
+"open source, free, help, learn, render, render profile, render parameter"
 msgstr ""
 "KDE, Kdenlive, documentazione, manuale utente, editor video, open source, "
 "libero, aiuto, imparare, esportare, profilo di esportazione, parametro di "
 "esportazione"
 
-#: ../../exporting/render_profile_parameters.rst:21
+#: ../../exporting/render_profile_parameters.rst:25
 msgid "Render Profile Parameters"
 msgstr "Parametri del profilo di esportazione"
 
-#: ../../exporting/render_profile_parameters.rst:24
-msgid "Contents"
-msgstr "Contenuto"
-
-#: ../../exporting/render_profile_parameters.rst:27
-#: ../../exporting/render_profile_parameters.rst:92
+#: ../../exporting/render_profile_parameters.rst:31
+#: ../../exporting/render_profile_parameters.rst:93
 msgid "Render Profile Parameters - How to read them"
 msgstr "Parametri del profilo di esportazione, come leggerli"
 
-#: ../../exporting/render_profile_parameters.rst:44
+#: ../../exporting/render_profile_parameters.rst:45
 msgid ""
 "Kdenlive now makes use of \"property presets\" delivered by the *melt* "
 "project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). "
@@ -60,7 +60,7 @@ msgstr ""
 "alle preimpostazioni delle proprietà trovate nel file h.264 che si trova in :"
 "file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
 
-#: ../../exporting/render_profile_parameters.rst:46
+#: ../../exporting/render_profile_parameters.rst:47
 msgid ""
 "All the *<presets>* referenced in the render settings in Kdenlive will be "
 "referring to presets found at :file:`/usr/share/mlt/presets/consumer/"
@@ -75,7 +75,7 @@ msgstr ""
 "cartella usando una sintassi :file:`<nomecartella>/<profilo>`, come mostrato "
 "nell'esempio qui sopra."
 
-#: ../../exporting/render_profile_parameters.rst:55
+#: ../../exporting/render_profile_parameters.rst:56
 msgid ""
 "The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` "
 "are simple text files that contain the *melt* parameters that define the "
@@ -89,15 +89,15 @@ msgstr ""
 "qui sotto. Sono gli stessi parametri che venivano usati nelle vecchie "
 "versioni di Kdenlive, vedi la sezione seguente per scoprire come leggerli."
 
-#: ../../exporting/render_profile_parameters.rst:57
+#: ../../exporting/render_profile_parameters.rst:58
 msgid "Contents of lossless/H.264:"
 msgstr "Contenuto di lossless/H.264:"
 
-#: ../../exporting/render_profile_parameters.rst:79
+#: ../../exporting/render_profile_parameters.rst:80
 msgid "Scanning Dropdown"
 msgstr "Menu a discesa Scansione"
 
-#: ../../exporting/render_profile_parameters.rst:85
+#: ../../exporting/render_profile_parameters.rst:86
 msgid ""
 "This option controls the frame scanning setting the rendered file will have. "
 "Options are *Force Progressive*, *Force Interlaced* and *Auto*."
@@ -106,7 +106,7 @@ msgstr ""
 "avrà il file esportato. Le opzioni sono *Forza progressivi*, *Forza "
 "interlacciati* e *Automatica*."
 
-#: ../../exporting/render_profile_parameters.rst:88
+#: ../../exporting/render_profile_parameters.rst:89
 msgid ""
 ":menuselection:`Auto` causes the rendered file to take the scanning settings "
 "that are defined in the :ref:`project_settings`. Use the other options to "
@@ -117,11 +117,11 @@ msgstr ""
 "opzioni per ignorare le impostazioni definite nelle impostazioni del "
 "progetto."
 
-#: ../../exporting/render_profile_parameters.rst:96
+#: ../../exporting/render_profile_parameters.rst:97
 msgid "|outdated|"
 msgstr "|outdated|"
 
-#: ../../exporting/render_profile_parameters.rst:98
+#: ../../exporting/render_profile_parameters.rst:99
 msgid ""
 "The parameters that go into a render profile derive from the **ffmpeg** "
 "program."
@@ -129,7 +129,7 @@ msgstr ""
 "I parametri che vanno nel profilo di esportazione derivano dal programma "
 "**ffmpeg**."
 
-#: ../../exporting/render_profile_parameters.rst:100
+#: ../../exporting/render_profile_parameters.rst:101
 msgid ""
 "This is a worked example to show how you can understand what these "
 "parameters mean using the **ffmpeg** documentation."
@@ -137,11 +137,11 @@ msgstr ""
 "Questo è un esempio funzionante che ti mostra come poter capire cosa "
 "significano questi parametri usando la documentazione di **ffmpeg**."
 
-#: ../../exporting/render_profile_parameters.rst:102
+#: ../../exporting/render_profile_parameters.rst:103
 msgid "In the example above the parameters are:"
 msgstr "Nell'esempio qui sopra, i parametri sono:"
 
-#: ../../exporting/render_profile_parameters.rst:124
+#: ../../exporting/render_profile_parameters.rst:125
 msgid ""
 "Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
 "translates these parameters as shown below."
@@ -149,23 +149,23 @@ msgstr ""
 "Cercando nell'`aiuto di ffmpeg <https://linux.die.net/man/1/ffmpeg>`_, i "
 "parametri vengono tradotti come mostrato sotto."
 
-#: ../../exporting/render_profile_parameters.rst:126
+#: ../../exporting/render_profile_parameters.rst:127
 msgid "Main option is:"
 msgstr "L'opzione principale è:"
 
-#: ../../exporting/render_profile_parameters.rst:132
+#: ../../exporting/render_profile_parameters.rst:133
 msgid "Video options are:"
 msgstr "Le opzioni video sono:"
 
-#: ../../exporting/render_profile_parameters.rst:144
+#: ../../exporting/render_profile_parameters.rst:145
 msgid "Audio options are:"
 msgstr "Le opzioni audio sono:"
 
-#: ../../exporting/render_profile_parameters.rst:152
+#: ../../exporting/render_profile_parameters.rst:153
 msgid "The AVCodecContext AVOptions include:"
 msgstr "AVOptions di AVCodecContext include:"
 
-#: ../../exporting/render_profile_parameters.rst:161
+#: ../../exporting/render_profile_parameters.rst:162
 msgid ""
 "So all the render profile options are documented here in the **ffmpeg** "
 "documentation."
@@ -173,7 +173,7 @@ msgstr ""
 "Quindi tutte le opzioni del profilo di esportazione sono documentate nella "
 "documentazione di **ffmpeg**."
 
-#: ../../exporting/render_profile_parameters.rst:163
+#: ../../exporting/render_profile_parameters.rst:164
 msgid ""
 "See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on "
 "ConsumerAvFormat."
@@ -181,7 +181,7 @@ msgstr ""
 "Vedi anche la `documentazione di MLT <https://www.mltframework.org/docs/"
 "presets/>`_ su ConsumerAvFormat."
 
-#: ../../exporting/render_profile_parameters.rst:165
+#: ../../exporting/render_profile_parameters.rst:166
 #, fuzzy
 #| msgid ""
 #| "See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://"
@@ -192,3 +192,6 @@ msgid ""
 msgstr ""
 "Vedi anche `come produrre video a 4k o a 2K, compatibile con YouTube "
 "<https://forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
+
+#~ msgid "Contents"
+#~ msgstr "Contenuto"
