@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 00:40+0000\n"
-"PO-Revision-Date: 2022-08-22 08:43+0200\n"
+"PO-Revision-Date: 2023-01-21 17:11+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../exporting/render_profile_parameters.rst:1
@@ -29,18 +29,14 @@ msgid "The Kdenlive User Manual"
 msgstr "Uporabniški priročnik Kdenlive"
 
 #: ../../exporting/render_profile_parameters.rst:1
-#, fuzzy
-#| msgid ""
-#| "KDE, Kdenlive, documentation, user manual, video editor, open source, "
-#| "free, help, learn, render, render profile, render parameter"
 msgid ""
 "KDE, Kdenlive, render, parameter, documentation, user manual, video editor, "
 "open source, free, help, learn, render, render profile, render parameter"
 msgstr ""
-"KDE, Kdenlive, dokumentacija, uporabniški priročnik, montažni program, "
-"program za montažo, video urejevalnik, odprta koda, brezplačno, prosto, "
-"pomoč, učenje, izris, upodabljanje, upodobi, izriši, profil izrisa, "
-"parameter izrisa"
+"KDE, Kdenlive, izris, izrisovanje, parameter, dokumentacija, uporabniški "
+"priročnik, montažni program, program za montažo, video urejevalnik, odprta "
+"koda, brezplačno, prosto, pomoč, učenje, upodabljanje, upodobi, izriši, "
+"profil izrisa, parameter izrisa"
 
 #: ../../exporting/render_profile_parameters.rst:25
 msgid "Render Profile Parameters"
@@ -52,7 +48,6 @@ msgid "Render Profile Parameters - How to read them"
 msgstr "Parametri profila izrisa - Kako jih prebrati"
 
 #: ../../exporting/render_profile_parameters.rst:45
-#, fuzzy
 msgid ""
 "Kdenlive now makes use of \"property presets\" delivered by the *melt* "
 "project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). "
@@ -61,13 +56,13 @@ msgid ""
 "This refers to a property preset found in file H.264 found on the system at :"
 "file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
 msgstr ""
-"Kdenlive zdaj uporablja \"prednastavitve nepremičnin\", ki jih je dostavil "
-"projekt *melt* (glejte \"melt doco <https: www.mltframework.org/docs/presets/"
-"=\"\">'_). Te prednastavitve se sklicuje na sintakso *properties=<preset>* . "
-"V prikazanem primeru se profil renderja sklicuje na *brez izgube/H.264*. To "
-"se nanaša na prednastavitev lastnosti, ki je bila najdena v datoteki H.264, "
-"ki je bila najdena v sistemu na :file:'/usr/share/mlt/presets/consumer/"
-"avformat/lossless\".</preset></https:>"
+"Kdenlive zdaj uporablja »prednastavitve lastnosti«, ki jih je dostavil "
+"projekt *melt* (glejte `dokumentacijo melt <https: www.mltframework.org/docs/"
+"presets/=\"\">`_). Te prednastavitve se sklicujejo na skladnjo "
+"*properties=<preset>* . V prikazanem primeru se profil izrisovanja sklicuje "
+"na *lossless/H.264*. To se nanaša na prednastavitev lastnosti, najdeno v "
+"datoteki H.264, ki se nahaja na sistemu v :file:`/usr/share/mlt/presets/"
+"consumer/avformat/lossless`."
 
 #: ../../exporting/render_profile_parameters.rst:47
 #, fuzzy
@@ -78,15 +73,14 @@ msgid ""
 "subdirectories of this folder using a :file:`<dirname>/<profile>` syntax as "
 "shown in the example above."
 msgstr ""
-"Vse ** navedene v nastavitvah renderja v Kdenliveu se bodo nanašale na "
-"prednastavitve, ki so najdene na <presets>:file:'/usr/share/mlt/presets/"
-"consumer/avformat/' (privzeti namestitvi). Upoštevajte,<dirname><profile></"
-"profile></dirname></presets> da v podimenikih te mape sklicujete "
-"prednastavitve, ki jih najdete s sintakso :file:'/', kot je prikazano v "
+"Vse prednastavitve  *<presets>*, navedene v nastavitvah izrisovanja v "
+"Kdenlive, se bodo nanašale na prednastavitve, ki se nahajajo v mapi :file:`/"
+"usr/share/mlt/presets/consumer/avformat/` (ob privzeti namestitvi). "
+"Upoštevajte, da se na prednastavitve, ki se nahajajo v podmapah te mape, "
+"sklicujete s skladnjo :file:`<dirname>/<profile>`, kot je prikazano v "
 "zgornjem primeru."
 
 #: ../../exporting/render_profile_parameters.rst:56
-#, fuzzy
 msgid ""
 "The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` "
 "are simple text files that contain the *melt* parameters that define the "
@@ -94,11 +88,11 @@ msgid ""
 "were used in earlier versions of Kdenlive – see next section for how to read "
 "those."
 msgstr ""
-"Prednastavitvene datoteke, ki so najdene na :file:'/usr/share/mlt/presets/"
-"consumer/avformat/' so preproste besedilne datoteke, ki vsebujejo parametre "
-"*melt* , ki določajo ukrivljenje. Spodaj je prikazan primer. To so isti "
-"parametri, ki so bili uporabljeni v starejših različicah Kdenlive – glejte "
-"naslednji razdelek, kako jih prebrati."
+"Prednastavitvene datoteke, ki se nahajajo v mapi :file:`/usr/share/mlt/"
+"presets/consumer/avformat/`, so preproste besedilne datoteke, ki vsebujejo "
+"parametre *melt* , ki določajo izrisovanje. Spodaj je prikazan primer. To so "
+"isti parametri, uporabljeni v starejših različicah Kdenlive – glejte "
+"naslednji razdelek, kako jih brati."
 
 #: ../../exporting/render_profile_parameters.rst:58
 msgid "Contents of lossless/H.264:"
@@ -114,8 +108,8 @@ msgid ""
 "This option controls the frame scanning setting the rendered file will have. "
 "Options are *Force Progressive*, *Force Interlaced* and *Auto*."
 msgstr ""
-"Ta možnost nadzoruje nastavitev branja okvirja, ki jo bo imela urisana "
-"datoteka. Možnosti so *Force Progressive*, *Force Interlaced* in *Auto*."
+"Ta možnost nadzoruje nastavitev branja sličic, ki jo bo imela izrisana "
+"datoteka. Možnosti so *Vsili progresivno*, *Vsili prepleteno* in *Samodejno*."
 
 #: ../../exporting/render_profile_parameters.rst:89
 #, fuzzy
@@ -124,9 +118,10 @@ msgid ""
 "that are defined in the :ref:`project_settings`. Use the other options to "
 "override the setting defined in the project settings."
 msgstr ""
-":menuselection:'Auto' povzroči, da urisana datoteka sprejme nastavitve "
-"skeniranja, ki so opredeljene v :ref:'project_settings'. Uporabite druge "
-"možnosti, da preglasite nastavitev, opredeljeno v nastavitvah projekta."
+":menuselection:`Samodejno` povzroči, da izrisana datoteka sprejme nastavitve "
+"skeniranja, opredeljene v :ref:`nastavitvah projekta <project_settings>`. "
+"Uporabite druge možnosti, da preglasite nastavitev, opredeljeno v "
+"nastavitvah projekta."
 
 #: ../../exporting/render_profile_parameters.rst:97
 msgid "|outdated|"
@@ -140,25 +135,23 @@ msgstr ""
 "Parametri, ki se hranijo v profilu izrisa, izhajajo iz programa **ffmpeg**."
 
 #: ../../exporting/render_profile_parameters.rst:101
-#, fuzzy
 msgid ""
 "This is a worked example to show how you can understand what these "
 "parameters mean using the **ffmpeg** documentation."
 msgstr ""
-"To je primer, ki prikazuje, kako lahko razumete, kaj ti parametri pomenijo z "
-"**ffmpeg** dokumentacijo."
+"To je primer, ki prikazuje, kako lahko sp omočjo dokumentacije **ffmpeg** "
+"razumete, kaj ti parametri pomenijo."
 
 #: ../../exporting/render_profile_parameters.rst:103
 msgid "In the example above the parameters are:"
 msgstr "V zgornjem primeru so parametri:"
 
 #: ../../exporting/render_profile_parameters.rst:125
-#, fuzzy
 msgid ""
 "Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
 "translates these parameters as shown below."
 msgstr ""
-"Iskanje \"ffmpeg help <https://linux.die.net/man/1/ffmpeg>'_ prevaja te "
+"Iskanje `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ prevaja te "
 "parametre, kot je prikazano spodaj."
 
 #: ../../exporting/render_profile_parameters.rst:127
@@ -194,16 +187,9 @@ msgstr ""
 ">`_ na ConsumerAvFormat."
 
 #: ../../exporting/render_profile_parameters.rst:166
-#, fuzzy
-#| msgid ""
-#| "See also `HOWTO Produce 4k and 2K videos, YouTube compatible <https://"
-#| "forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
 msgid ""
 "See also :ref:`How to produce 4k and 2K videos, YouTube compatible "
 "<how_to_produce_4k_and_2K_videos_for_youtube>`."
 msgstr ""
-"Glejte tudi `HOWTO Produce 4k and 2K videos, YouTube compatible <https://"
-"forum.kde.org/viewtopic.php?f=272&amp;t=124869#p329129>`_."
-
-#~ msgid "Contents"
-#~ msgstr "Vsebina"
+"Glejte tudi :ref:`How to produce 4k and 2K videos, YouTube compatible "
+"<how_to_produce_4k_and_2K_videos_for_youtube>`."
