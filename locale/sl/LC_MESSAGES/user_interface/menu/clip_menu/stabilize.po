@@ -11,17 +11,17 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-24 00:38+0000\n"
-"PO-Revision-Date: 2022-08-13 18:42+0200\n"
+"PO-Revision-Date: 2023-01-22 11:51+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
 "Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:17
@@ -39,9 +39,9 @@ msgid ""
 "Project Bin or under the :ref:`project_menu` menu when a clip is selected in "
 "the Project Bin."
 msgstr ""
-"Ta element menija je na voljo iz :ref:'project_tree' v izrezku v košu "
-"projekta ali v meniju :ref:'project_menu', ko je izrezek izbran v regalu "
-"projekta."
+"Ta element menija je na voljo iz :ref:'project_tree' v posnetku v projektni "
+"posodi ali v meniju :ref:'project_menu', ko je posnetek izbran v projektni "
+"posodi."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:23
 #, fuzzy
@@ -49,8 +49,8 @@ msgid ""
 "This feature applies image stabilization algorithms to the clip which can "
 "reduce the shakiness of a bit of footage."
 msgstr ""
-"Ta funkcija uporablja algoriteme za stabilizacijo slike na posnetek, ki "
-"lahko zmanjša ostudnost nekaj posnetkov."
+"Ta funkcija uporablja algoritme za stabilizacijo slike na posnetek, ki lahko "
+"zmanjša tresenja v delu posnetkov."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:25
 msgid "**Stabilize**"
@@ -63,8 +63,8 @@ msgid ""
 "hronopik.de/vid.stab/features.php?lang=en>`_, this is what all the options "
 "mean:"
 msgstr ""
-"Na podlagi napotkov za orodja s tega zaslona in \"docs here <http://public."
-"hronopik.de/vid.stab/features.php?lang=en>\"_, to pomeni vse možnosti:"
+"Na podlagi napotkov za orodja s tega zaslona in `te dokumentacije <http://"
+"public.hronopik.de/vid.stab/features.php?lang=en>`_ to pomeni vse možnosti:"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:34
 msgid "Accuracy"
@@ -76,7 +76,7 @@ msgid ""
 "Accuracy of shakiness detection. Should be >= shakiness factor. 1: low (fast "
 "processing). 15: high (slow processing). Default: 4. Recommended: 8."
 msgstr ""
-"Točnost zaznavanja ostudnosti. Treba je >= faktor zamašenosti. 1: nizka "
+"Natančnost zaznavanja tresenja. Mora biti >= faktor tresenja. 1: nizka "
 "(hitra obdelava). 15: visoka (počasna obdelava). Privzeto: 4. Priporočeno: 8."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:37
@@ -91,8 +91,8 @@ msgid ""
 "large values may also reduce the accuracy. This is due to the internals of "
 "the movement-detection. Typically you don't need a value greater than 7."
 msgstr ""
-"Kako ometen je posnetek? In kako hitro je kamera? 1: malo (hitra obdelava). "
-"10: zelo močna/hitra (počasna obdelava). Privzeto = 4. Opomba: velike "
+"Kako stresen je posnetek? In kako hitra je kamera? 1: malo (hitra obdelava). "
+"10: zelo močno/hitro (počasna obdelava). Privzeto = 4. Opomba: velike "
 "vrednosti lahko tudi zmanjšajo natančnost. To je posledica notranjega "
 "zaznavanja gibanja. Običajno ne potrebujete vrednosti, večje od 7."
 
@@ -106,8 +106,8 @@ msgid ""
 "Step size of search process. Region around minimum is scanned with 1 pixel "
 "resolution. Default = 6."
 msgstr ""
-"Velikost koraka postopka iskanja. Regija okoli minimuma se skenira z "
-"ločljivostjo 1 pik. Privzeto = 6."
+"Velikost koraka postopka iskanja. Območje okoli minimuma se skenira z "
+"ločljivostjo 1 slik. točke. Privzeto = 6."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:43
 msgid "Min. contrast"
@@ -119,8 +119,8 @@ msgid ""
 "Below this contrast, the field is discarded. Range 0-1. Default = 0.3. You "
 "may want to use a smaller value for a really low contrast clip."
 msgstr ""
-"Pod tem kontrastom je polje zavrženo. Območje 0-1. Privzeto = 0.3. Morda "
-"boste želeli uporabiti manjšo vrednost za zelo nizek kontrastni posnetek."
+"Pod tem kontrastom je polje zavrženo. Območje 0-1. Privzeto = 0,3. Morda "
+"boste želeli uporabiti manjšo vrednost za zelo nizko-kontrastni posnetek."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:46
 #, fuzzy
@@ -130,10 +130,10 @@ msgid ""
 "a lower change in camera speed. Technically it is the number of frames for "
 "lowpass filtering = (smoothing * 2) + 1."
 msgstr ""
-"Nadzoruje količino glajenje/stabilizacijo. Večja kot je vrednost za "
-"glajenje, več gibov fotoaparata je kompenziranih. Posledni posnetek ima "
-"manjšo spremembo hitrosti kamere. Tehnično gre za število okvirjev za "
-"filtriranje nizkega prehoda = (glajenje * 2) + 1."
+"Nadzoruje količino glajenja/stabilizacije. Večja kot je vrednost za "
+"glajenje, več gibov kamere je kompenziranih. Nastali posnetek ima manjšo "
+"spremembo hitrosti kamere. Tehnično gre za število sličic za filtriranje "
+"nizkega prehoda = (glajenje * 2) + 1."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:49
 #, fuzzy
@@ -142,22 +142,21 @@ msgid ""
 "means we would smooth over one second - 12 frames behind the current frame + "
 "the current frame (1) + 12 frames after the current frame. Default =   10."
 msgstr ""
-"Na primer, z 25 fps sponko, vrednost 12 za faktor glajenje pomeni, da bi "
-"gladko v eni sekundi - 12 okvirjev za trenutnim okvirjem + trenutni okvir "
-"(1) + 12 okvirjev po trenutnem okvirju. Privzeto = 10."
+"S posnetkom s 25 sl/s npr. vrednost 12 za faktor glajenja pomeni, da bi "
+"zgladili v eni sekundi - 12 sličic pred trenutno sličico + trenutno sličico "
+"(1) + 12 sličic po trenutni sličici. Privzeto = 10."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:51
 msgid "Smoothing"
 msgstr "Glajenje"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:51
-#, fuzzy
 msgid ""
 "Demo of the difference `here <http://public.hronopik.de/vid.stab/files/"
 "skiing_veryshaky_short_vs_longsmoothing_above.ogv>`_ (top:3, bottom: 30)."
 msgstr ""
-"Demo razlike \"tukaj <http://public.hronopik.de/vid.stab/files/"
-"skiing_veryshaky_short_vs_longsmoothing_above.ogv>\"_ (vrh:3, spodaj: 30)."
+"Demonstracija razlike je `tukaj <http://public.hronopik.de/vid.stab/files/"
+"skiing_veryshaky_short_vs_longsmoothing_above.ogv>`_ (vrh:3, dno: 30)."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:54
 msgid "Max shift"
@@ -174,7 +173,6 @@ msgid "Max angle"
 msgstr "Najv. kot"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:57
-#, fuzzy
 msgid "Maximum angle to rotate in radians. Default = -1, which means no limit."
 msgstr ""
 "Največji kot za vrtenje v radianih. Privzeto = -1, kar pomeni brez omejitve."
@@ -189,8 +187,8 @@ msgid ""
 "Unchecked means the border of the transformed frames contains the pixels "
 "from previous frames. Checked = black background. Default = unchecked."
 msgstr ""
-"Nepregleno pomeni, da obroba preoblikovanih okvirjev vsebuje pike iz "
-"prejšnjih okvirjev. Preveri = črno ozadje. Privzeto = nepreči čeno."
+"Nepotrjeno pomeni, da obroba preoblikovanih sličic vsebuje slik. točke iz "
+"prejšnjih sličic. Potrjeno = črno ozadje. Privzeto = nepotrjeno."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:63
 msgid "Zoom"
@@ -203,9 +201,9 @@ msgid ""
 "zoom out. The zoom specified here is in addition to the optimum zoom "
 "calculated by the program when optzoom is checked. Default = 0."
 msgstr ""
-"Dodatna povečava med preoblikovanjem. Odstotek povečati > 0 = povečati, < 0 "
-"= povečati. Tukaj določena povečava je poleg optimalne povečave, ki jo "
-"izračuna program ob preverjanju optzooma. Privzeto = 0."
+"Dodatna povečava med preoblikovanjem. Odstotek povečave > 0 = približano, < "
+"0 = oddaljeno. Tukaj določena povečava je poleg optimalne povečave, ki jo "
+"izračuna program ob preverjanju optzoom-a. Privzeto = 0."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:66
 #: ../../user_interface/menu/clip_menu/stabilize.rst:69
@@ -219,9 +217,9 @@ msgid ""
 "90% of transformations are hidden. Default is checked. Hint: You can further "
 "zoom in with the zoom option."
 msgstr ""
-"Uporabite optimalno zoom (izračunano iz transformacij). Povzroči, da video "
-"poveča do 90% of transformacije so skrite. Privzeto je omogočeno. Namig: z "
-"možnostjo povečave lahko dodatno povečate."
+"Uporabite optimalno povečavo (izračunano iz transformacij). Povzroči, da "
+"video povečan toliko, da je 90 % transformacij skritih. Privzeto je "
+"omogočeno. Namig: z možnostjo povečave lahko dodatno povečate."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:69
 #, fuzzy
@@ -238,8 +236,8 @@ msgid ""
 "Sharpen transformed image. Amount of sharpening: 0: no sharpening. Uses "
 "filter unsharp with 5x5 matrix. Default = 0.8."
 msgstr ""
-"Izostri preoblikovati sliko. Količina ostrina: 0: brez ostritve. Uporablja "
-"filter unsharp z matriko 5x5. Privzeto = 0.8."
+"Izostri preoblikovano sliko. Količina ostrenja: 0: brez ostrenja. Uporablja "
+"filter razostrenja (unsharp) z matriko 5x5. Privzeto = 0,8."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:75
 msgid "Show fields"
@@ -254,11 +252,11 @@ msgid ""
 "values of this parameter are not relevant in the **Kdenlive** implementation "
 "- use zero."
 msgstr ""
-"0 = nariši nič, 1 ali 2 = pokaži polja in se preoblikuje. Uporabite 1 ali 2 "
-"za predogled postopka. \"Primer <http://public.hronopik.de/vid.stab/files/"
-"skiing_veryshaky_visualized8_short.ogv>\"_. Privzeto = 0. Vrednosti tega "
-"parametra, ki niso nič, niso pomembne pri izvajanju **Kdenlive** - uporabite "
-"nič."
+"0 = ne nariši ničesar, 1 ali 2 = pokaži polja in preoblikovanje. Uporabite 1 "
+"ali 2 za predogled postopka. `Primer <http://public.hronopik.de/vid.stab/"
+"files/skiing_veryshaky_visualized8_short.ogv>`_. Privzeto = 0. Vrednosti "
+"tega parametra, ki niso nič, niso pomembne pri izvajanju **Kdenlive** - "
+"uporabite nič."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:78
 msgid "Reference frame"
@@ -274,20 +272,19 @@ msgid ""
 "Example of the effect of running stabilize - transcode from the original "
 "author - Georg Martius."
 msgstr ""
-"Primer učinka teka stabilizatorja - transkoda izvirnega avtorja - Georg "
-"Martius."
+"Primer učinka izvajanja stabilizatorja - transkodirano izvirnega avtorja - "
+"Georg Martius."
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:83
 #, fuzzy
 msgid "Side by side https://youtu.be/HYE3KAl8RAQ"
-msgstr "Eno ob drugo https://youtu.be/HYE3KAl8RAQ"
+msgstr "Vzporedna primerjava https://youtu.be/HYE3KAl8RAQ"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:86
 #, fuzzy
 msgid "Deshaked https://youtu.be/c3CEm8bgVQ0"
-msgstr "Deshaked https://youtu.be/c3CEm8bgVQ0"
+msgstr "Odstreseno https://youtu.be/c3CEm8bgVQ0"
 
 #: ../../user_interface/menu/clip_menu/stabilize.rst:89
-#, fuzzy
 msgid "Original https://youtu.be/cRA5H1LYzM4"
-msgstr "Izvirni https://youtu.be/cRA5H1LYzM4"
+msgstr "Izvirnik https://youtu.be/cRA5H1LYzM4"
