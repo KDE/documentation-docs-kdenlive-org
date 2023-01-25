@@ -11,41 +11,38 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 00:22+0000\n"
-"PO-Revision-Date: 2022-08-20 20:31+0200\n"
+"PO-Revision-Date: 2023-01-24 09:58+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
 "Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:13
-#, fuzzy
 msgid "Compositing with transparency"
-msgstr "Steza skladnje:"
+msgstr "Skladanje s prosojnostjo"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:15
-#, fuzzy
 msgid ""
 "When transparency is involved in both frames processed by one of Kdenlive’s "
 "dynamic compositing transitions, the outcome may be surprising to some of us "
 "users. Luckily, things aren’t as inexplicable as they appear, so let’s dive "
 "right into transparency and transitions…"
 msgstr ""
-"Ko je preglednost vključena v oba okvirja, ki jih obdeluje eden od "
-"Kdenlivejevih dinamičnih sestavnih prehodov, je lahko izid za nekatere od "
-"nas uporabnikov presenetljiv. Na srečo stvari niso tako razložljive, kot se "
-"zdijo, zato se potopimo v preglednost in prehode..."
+"Ko je prosojnost vsebovana v obeh sličicah, ki jih obdeluje eden od "
+"dinamičnih skladovnih prehodov Kdenlive, je lahko izid za uporabnika "
+"presenetljiv. Na srečo stvari niso tako nerazložljive, kot se zdijo, zato se "
+"potopimo v prosojnost in prehode ..."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:18
-#, fuzzy
 msgid "Transparency & Dynamic Transitions"
-msgstr "Preglednost & dinamični prehodi"
+msgstr "Prosojnost in dinamični prehodi"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:20
 #, fuzzy
@@ -53,13 +50,13 @@ msgid ""
 "When it comes to handling transparency, Kdenlive’s :ref:"
 "`kdenlive_transitions` fall into two categories:"
 msgstr ""
-"Ko gre za ravnanje s preglednostjo, Kdenlive's :ref:'kdenlive_transitions' "
-"spada v dve kategoriji:"
+"Ko gre za ravnanje s prosojnostjo, prehodi Kdenlive :ref:"
+"`kdenlive_transitions` sodijo v dve kategoriji:"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:22
 #, fuzzy
 msgid "**Affine:** uses the so-called **atop** compositing operator."
-msgstr "**Affine:** uporablja tako imenovani **atop** sestavni operator."
+msgstr "**Afini:** uporablja t.i. operator skladanja **atop**."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:23
 #, fuzzy
@@ -68,7 +65,7 @@ msgid ""
 "**over** compositing operator instead."
 msgstr ""
 "**Composite**, **Composite & Transform**, **Kairo (Affine) Blend**: namesto "
-"tega uporablja **over** sestavni operator."
+"tega uporablja operator skladanja **over**."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:25
 #, fuzzy
@@ -81,16 +78,16 @@ msgid ""
 "parameter fits into the full picture."
 msgstr ""
 "Kaj torej pomenita ta **atop** in **over** v resnici? Odkrijmo, kaj ti "
-"operaterji sestave počnejo s tipičnim naslovom in pol preglednim primerom "
-"ozadja. Za preprostost bomo najprej ignorirali **Opacity** parameter prej "
-"prejih prehodov, da bo stvari lažje dojeti. In potem, ko bomo obvladali ta "
-"korak, bomo končno pogledali, kako se parameter nepreglednosti ujema v "
-"celotno sliko."
+"operaterji skladnje počnejo s tipičnim primerom napisa in polprosojnega "
+"ozadja. Za preprostost bomo najprej ignorirali parameter **Prekrivnost** "
+"prej omenjenih prehodov, da bo stvari lažje dojeti. In potem, ko bomo "
+"obvladali ta korak, bomo končno pogledali, kako se parameter prekrivnosti "
+"ujema s celotno sliko."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:29
 #, fuzzy
 msgid "Affine: Atop Compositing"
-msgstr "Vstavi skladnjo"
+msgstr "Afino: skladanje na vrhu"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:38
 #, fuzzy
@@ -99,18 +96,17 @@ msgid ""
 "its outcome: Text from the topmost title clip (partly) vanishes in those "
 "regions where the underlying clip on the middle track is (semi) transparent."
 msgstr ""
-"Rezultat **atop** sestave je najbolje razložiti na začetku s prikazom "
-"njegovega izida: Besedilo iz najvišjega naslovnega posnetka (delno) izgine v "
-"tistih regijah, kjer je podstavek na srednji progi (pol) pregleden."
+"Rezultat sestave **atop** je najbolje razložiti na začetku s prikazom "
+"njenega izida: besedilo iz najvišjega posnetka napisa (delno) izgine v "
+"tistih področjih, kjer je podležni posnetek na srednji stezi (pol)prosojen."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:40
-#, fuzzy
 msgid ""
 "The checkerboard clip on the bottom track just serves for illustrational "
 "purposes, so we can better see the transparent regions."
 msgstr ""
-"Izrezka kontrolne plošče na spodnji stezi služi le za ilustracijske namene, "
-"zato lahko bolje vidimo pregledne regije."
+"Posnetek s šahovnico na spodnji stezi služi le za namene ilustracije, da "
+"lahko bolje vidimo prosojna območja."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:42
 #, fuzzy
@@ -119,9 +115,9 @@ msgid ""
 "upper Affine composes the title clip onto the gradient background. Then, the "
 "lower Affine composes the result onto the checkboard background."
 msgstr ""
-"Prosimo, upoštevajte, kako sta dva **Affine** prehoda priklenjena: najprej "
-"zgornji Affine sešteva naslovni posnetek na ozadje gradienta. Nato spodnji "
-"Affine sešteva rezultat na ozadje kontrolne plošče."
+"Prosimo, upoštevajte, kako sta dva **afina** prehoda vklenjena: najprej "
+"zgornji afini sešteva posnetek napisa na ozadje preliva. Nato spodnji afini "
+"sešteva rezultat na ozadje šahovnice."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:51
 #, fuzzy
@@ -167,13 +163,12 @@ msgstr ""
 "tirnih okvirih! Ali bolj matematično: α = αA"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:59
-#, fuzzy
 msgid ""
 "And that’s the explanation why in our example above the title text vanishes "
 "in those regions where the middle clip is transparent."
 msgstr ""
-"In to je razlaga, zakaj v našem primeru nad naslovom besedilo izgine v "
-"tistih regijah, kjer je srednji posnetek pregleden."
+"In to je razlaga, zakaj v našem primeru nad besedilo napisa izgine na tistih "
+"območjih, kjer je srednji posnetek prosojen."
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:65
 #, fuzzy
@@ -263,9 +258,8 @@ msgstr ""
 "prebarvava spodnji okvir. Za formular-afine: α = αA + αB (1-αA)"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:98
-#, fuzzy
 msgid "Transition Parameter Opacity"
-msgstr "Dodatni parametri:"
+msgstr "Parameter prekrivnosti prehoda"
 
 #: ../../glossary/useful_information/compositing_with_transparency.rst:100
 #, fuzzy
