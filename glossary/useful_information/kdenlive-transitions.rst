@@ -145,7 +145,7 @@ Please see also for further information:
 3. Layer Compositing Transitions
 --------------------------------
 
-This third kind of Kdenlive/MLT transitions mostly **work similar to layer modes in image editors** (such as `GIMP <https://www.gimp.org/>`_`). **These static layer compositing transitions do not have any parameters at all**. This category actually has the most Kdenlive transitions to offer:
+This third kind of Kdenlive/MLT transitions mostly **work similar to layer modes in image editors** (such as `GIMP <https://www.gimp.org/>`_). **These static layer compositing transitions do not have any parameters at all**. This category actually has the most Kdenlive transitions to offer:
 
 Layer Compositing
 ^^^^^^^^^^^^^^^^^
