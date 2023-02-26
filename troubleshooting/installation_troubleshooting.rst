@@ -48,7 +48,7 @@ Missing MLT module
 
 An MLT dependency is missing and it is required to install it.
 
-**SDL** is used to output audio. Install `libsdl 1.x`` from your package manager.
+**SDL** is used to output audio. Install `libsdl 1.x` from your package manager.
 
 **Avformat** is the FFmpeg module. Make sure you have ffmpeg installed on your system.
 
