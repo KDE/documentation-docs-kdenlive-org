@@ -185,8 +185,8 @@ The project monitor has a right-click (context menu) as described :ref:`here <pr
 
 .. _multicam_editing:
 
-Multicam Editing
-----------------
+Multitrack View
+---------------
 
 .. versionadded:: 20.04.0
 
@@ -195,7 +195,7 @@ Enable the multirack view via menu :menuselection:`Monitor --> Multitrack view`.
 .. image:: /images/Multicam0.gif
    :alt: Multicam
 
-New multicam editing interface allows you to select a track in the timeline by clicking on the project monitor.
+The new multitrack view interface allows you to select a track in the timeline by clicking on the project monitor. See here for :ref:`multicam editing <multicam_tool>`. 
 
 .. _separate_monitors:
 
