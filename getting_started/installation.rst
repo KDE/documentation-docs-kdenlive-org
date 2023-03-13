@@ -36,9 +36,9 @@ You’ll find all previous Kdenlive versions in the `attic <https://download.kde
 Minimum system requirements
 ---------------------------
 
-**Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.15 (Catalina) [1]_ or newer and on M1, 64-bit Linux. Details see below.
+**Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.15 (Catalina) [1]_ or newer and on M1, 64-bit Linux. Please see the details below.
 
-**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD-Video, 4 cores for HD-Video, and 8 cores for 4K-Video. Details see below.
+**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD-Video, 4 cores for HD-Video, and 8 cores for 4K-Video. Please see the details below.
 
 **GPU:** OpenGL 2.0 that works correctly and is compatible. On Windows, you can also use a card with good, compatible DirectX 9 or 11 drivers.
 
