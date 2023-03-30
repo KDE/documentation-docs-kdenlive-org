@@ -10,14 +10,12 @@
 
    :license: Creative Commons License SA 4.0
 
+
+
 .. _project:
 
 Project File Details
 ====================
-
-.. contents::
-
-
 
 
 **Kdenlive** projects consist in a singe :file:`.kdenlive` file (in XML format), gathering :
@@ -39,4 +37,10 @@ Project files are associated with a working directory, in which **Kdenlive** wil
 
    Projects created with 20.08 forward are not backwards compatible, that is, you won’t be able to open your :file:`.kdenlive` project files with older versions.
 
+.. versionadded:: 23.04.0
+   With introducing sequences the project file version is 1.1 (from 1.04 -> 1.1) and is not backward compatible. Once opened in 23.04 you cannot open the project file in older versions.
+
+.. warning::
+
+   Projects created with 23.04 forward are not backwards compatible, that is, you won’t be able to open your :file:`.kdenlive` project files with older versions.
 
