@@ -21,7 +21,6 @@
 Settings Menu
 =============
 
-.. contents::
 
 .. image:: /images/Settings_menu.png
    :align: left
@@ -45,8 +44,9 @@ Settings Menu
 
 .. rst-class:: clear-both
 
-Settings Menu - Mac OS X
-------------------------
+
+**Settings Menu - Mac OS X**
+
 
 .. image:: /images/Kdenlive_Settings_OSX.png
    :align: left
@@ -61,18 +61,10 @@ On the Mac OS X build of Kdenlive the :menuselection:`Settings` menu does not co
 
 .. _configure_language:
 
-Configure Language
-------------------
-
-.. image:: /images/configure_language.png
-   :alt: configure language
-
-Setting Kdenlive to your preferred language.
 
 
 .. toctree::
    :hidden:
-   :caption: Contents:
    :glob: 
    
    settings_menu/*
