@@ -19,13 +19,12 @@
 
    :license: Creative Commons License SA 4.0
 
-
+     
+   
 .. _clips:
 
 Clips
 =====
-
-.. contents::
 
 See also :ref:`clip_menu`.
 
@@ -54,7 +53,7 @@ Checkbox :guilabel:`Ignore subfolder structure` (labeled 4) enables import video
 
 You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the |kdenlive-add-clip| button.
 
-.. image:: /images/Kdenlive_Add_other_clip_types.png
+.. image:: /images/Kdenlive_Add_other_clip_types_23-04.png
    :align: center
    :alt: Kdenlive_Add_other_clip_types
 
@@ -143,6 +142,17 @@ If Glaxnimate is not installed on your computer following message pops-up:
    :alt: Kdenlive_install_Glaxnimate
 
 For Glaxnimate installation see :ref:`here <default_apps>`.
+
+
+.. _add_sequence:
+
+Add Sequence
+------------
+
+.. versionadded:: 23.04
+
+:guilabel:`Add Sequence...`: Adds a new sequence to the timeline. A sequence behaves like a clip. Working with sequences see :ref:`here <working_with_sequences>`.
+
 
 Online Resources
 ----------------

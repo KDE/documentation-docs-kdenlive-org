@@ -19,20 +19,23 @@
 
    :license: Creative Commons License SA 4.0
 
+.. toctree::
+   :maxdepth: 1
+      
+
 .. _project_tree:
 
 The Project Bin
 ===============
 
-.. contents::
 
-The Project Bin is a view in Kdenlive which lists all the clips that are associated with the project. In earlier versions of Kdenlive this view was known as the Project Bin.  In addition to the new name, versions 15.04 and higher introduced two new options to the view's toolbar. The list following the example describes the options represented by the icons on the toolbar (identified by the numbers in the screenshots).
+The Project Bin is a view in Kdenlive which lists all the clips that are associated with the project. In earlier versions of Kdenlive this view was known as the Project Tree. The list following the example describes the options represented by the icons on the toolbar (identified by the numbers in the screenshots).
 
 
-.. figure:: /images/Kdenlive_Project_bin_17_04.png
-   :alt: Kdenlive_Project_bin_17_04
+.. figure:: /images/Kdenlive_Project_bin_23_04.png
+   :alt: Kdenlive_Project_bin_23_04
   
-   20.04+
+   23.04+
 
 
 **1, 10**. Opens the Project Folder in a window for selecting video and audio clips to be added to the bin (1). Or double click on free space (10).  
@@ -41,7 +44,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 **2, 10**. Displays a drop down list for adding other clip types to the Project Bin (2). Or right-click on free space (10). 
 
 
-.. figure:: /images/Kdenlive_Add_other_clip_types.png
+.. figure:: /images/Kdenlive_Add_other_clip_types_23-04.png
    :align: left
    :alt: Kdenlive_Add_other_clip_types
   
@@ -64,6 +67,9 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 
 * :ref:`Create Animation... <add_animation>` (*new in version 22.08*)
+
+
+* :ref:`Add Sequence... <add_sequence>` (*new in version 23.04*)
    
 
 * :ref:`online_resources`
@@ -135,7 +141,13 @@ Filtering by clip type
 **8**. A search box to display all the clips in the bin whose filenames or titles contain the entered text.
 
 
-**9**.  Number of times this clip is used in the project timeline
+**9**.  Number of times this clip is used in the project timeline. It counts for video and audio, so an AV-Clip counts with 2 when it's one time in the timeline.
+
+**11**. The blue audio and video icon indicates that both, audio and video is in the timeline. You can drag&drop either the audio or the video part into the timeline by grab just the audio or the video icon.
+
+.. versionadded:: 23.04
+
+**12**. The folder Sequences is the standard folder where sequences get added. More about sequences see :ref:`here <sequence>`.   
 
 
 Clips can be dragged from the Project Bin to the :ref:`timeline`.
