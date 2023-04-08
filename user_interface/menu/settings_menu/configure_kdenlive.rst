@@ -23,7 +23,6 @@
 Configure Kdenlive
 ==================
 
-.. contents::
 
 Following settings applies when you start a project with :ref:`new`.
 
@@ -169,6 +168,22 @@ Configure how the timeline appears in **Kdenlive**
 
 - :guilabel:`Check if project contains enough audio tracks` If enabled Kdenlive asks if it should generate the additional audio tracks needed automatically.
 
+
+.. _configure_tools:
+
+Tools
+-----
+
+.. versionadded:: 23.04
+
+.. image:: /images/Configure_Tools_23-04.png
+   :width: 500px
+   :alt: Configure_Tools
+
+- :guilabel:`Duplicate text` If selected, a 2-line subtitle gets split into two subtitles by copying the content 
+- :guilabel:`Split after first line` If selected, a 2-line subtitle gets split into two subtitles by considering the line break 
+
+More details see :ref:`split_subtitle_after_first_line`
 
 
 .. _configure_environment:
@@ -324,11 +339,12 @@ Colors and Guides
 Speech To Text
 --------------
 
-.. image:: /images/Kdenlive_Configure_speech-to-text.png
+.. image:: /images/Kdenlive_Configure_speech-to-text_VOSK_23-04.png
    :width: 500px
    :alt: Kdenlive_Configure_speech-to-text
 
 More details about speech to text see :ref:`here <speech_to_text>`. 
+
 
 .. _configure_playback:
 
@@ -383,7 +399,7 @@ Capture
 Configure Screen Grab Capture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/Kdenlive_Configure_screen_grab_22-12.png
+.. image:: /images/Kdenlive_Configure_screen_grab_23-04.png
    :width: 500px
    :alt: Kdenlive_Configure_screen_grab
 
