@@ -340,7 +340,7 @@ Speech To Text
 --------------
 
 .. image:: /images/Kdenlive_Configure_speech-to-text_VOSK_23-04.png
-   :width: 500px
+   :scale: 75%
    :alt: Kdenlive_Configure_speech-to-text
 
 More details about speech to text see :ref:`here <speech_to_text>`. 

@@ -43,20 +43,34 @@ Linux
 
 On most Linux distributions python is installed by default. You can check if that is the case for you too by running ``python3 -V`` in a terminal. If python is missing just search the internet, there are lots of instructions around.
 
-To install vosk and srt open a terminal and run: ``pip3 install vosk srt``
 
 Windows
 ~~~~~~~
 
-1. Download python from https://www.python.org/downloads/ for installation on your computer.
-2. Download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download a double click starts the installations.
+Download python from https://www.python.org/downloads/ for installation on your computer.
+
 
 .. _install_language:
 
-Install a language
-------------------
 
-Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text page`
+Speech Engines
+--------------
+
+VOSK
+~~~~
+
+Linux
+
+To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``
+
+Windows
+
+Download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download a double click starts the installations.
+
+Install a language
+~~~~~~~~~~~~~~~~~~
+
+Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text page`, select the speech engine VOSK
 
 Click on the link to get a language model.
 
@@ -68,16 +82,65 @@ Drag & drop the language you want from the vosk-model download page to the model
 .. image:: /images/Speech-to-text_Download-model.png
    :alt: download model
 
-If you have problems press on the :guilabel:`Check configuration` button.
+If you have problems or check for updates click on the :guilabel:`Check configuration` button.
+
+
+Whisper
+-------
+
+.. versionadded:: 23.04
+
+OpenAI-Whisper is a speech recognition model for general use. It is trained on a large dataset of diverse audio and is capable of performing speech translation, and language identification.
+
+Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. Whisper creates sentences with punctuation marks, even in Base mode. 
+
+.. image:: /images/Speech-to-text_whisper_download.png
+   :scale: 75%
+   :alt: Whisper download dependencies
+
+When you switch first time to Whisper you have to install the missing dependencies first (about 2GB to download).
+
+.. image:: /images/Speech-to-text_whisper_installed.png
+   :scale: 75%
+   :alt: Whisper installed
+
+When all is correct configured, you get this screen.
+
+:guilabel:`Model` Select the model. More details on the `Whisper source code page <https://github.com/openai/whisper>`_ (default: Base) 
+
+:guilabel:`Language` Select the language if Autodetect is not accurate (default: Autodetect)
+
+:guilabel:`Device` To keep compatibility only CPU is available.
+
+:guilabel:`Translate text to english` This translates non English text to English while recognition.
+
+You can check for updates by clicking on :guilabel:`Check configuration`
+
 
 Speech recognition
 ------------------
 
+Select the speech engine
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 23.04
+
+Enable :menuselection:`View --> Speech Editor` menu item.
+
+.. image:: /images/Speech-to-text_select_speech-engine.png
+   :alt: change the speech engine
+
+Click on the :guilabel:`Hamburger Menu` and select :guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure Speech to Text <configure_speech_to_text>`, select the engine and click :guilabel:`OK.`  
+
+:guilabel:`Translate to english` is only available with the Whisper speech engine. It translates non English text to English while recognition.
+
 Creating subtitle by speech recognition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/Speech-to-text_Subtitle.png
+.. figure:: /images/Speech-to-text_Subtitle.png
    :alt: Speech to text subtitle
+
+   Shown with the VOSK engine
 
 1. Mark the timeline zone you want to recognize (adjust the blue line).
 
@@ -99,10 +162,12 @@ Creating clips by speech recognition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is useful for interviews and other speech-related footage.
-Enable the :menuselection:`View --> Text Edit` menu item.
+Enable the :menuselection:`View --> Speech Editor` menu item.
 
-.. image:: /images/Speech-to-text_Text-Edit.png
-   :alt: Text edit
+.. figure:: /images/Speech-to-text_Text-Edit.png
+   :alt: Speech editor
+
+   Shown with the VOSK engine
 
 Select a clip in the project bin.
 
@@ -130,6 +195,8 @@ Select a clip in the project bin.
 
 Silence detection
 -----------------
+
+This works with the VOSK engine only.
 
 Open the clip in the clip monitor and open the speech editor window (:menuselection:`View --> Speech Editor`) .
 
