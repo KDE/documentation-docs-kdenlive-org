@@ -33,10 +33,34 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 
 .. figure:: /images/Kdenlive_Project_bin_23_04.png
+   :align: left
    :alt: Kdenlive_Project_bin_23_04
   
    23.04+
 
+:ref:`1, 2, 3, 10 Load, Create <project_bin_load_create>`
+
+:ref:`4 Delete <project_bin_delete>`
+
+:ref:`5 Tagging <project_bin_tagging>`
+
+:ref:`6 Option <project_bin_option>`
+
+:ref:`7 Filter <project_bin_filter>`
+
+:ref:`8 Search <project_bin_search>`
+
+:ref:`9 Clip used <project_bin_clip_used>`
+
+:ref:`11 Clip in Timeline <project_bin_in_timeline>`
+
+:ref:`12 Sequence Folder <project_bin_sequence_folder>`
+
+
+.. rst-class:: clear-both
+
+
+.. _project_bin_load_create:
 
 **1, 10**. Opens the Project Folder in a window for selecting video and audio clips to be added to the bin (1). Or double click on free space (10).  
 
@@ -82,8 +106,12 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 **3, 10**. Allows you to add folders to the Project Bin (3). Or right-click on free space (10) and select :guilabel:`Create Folder` to add folder. These are not actual file system folders but virtual folders to help you organize large Project Bins. See :ref:`create_folder`
 
 
+.. _project_bin_delete:
+
 **4**. Deletes the selected clip from the Project Bin (but not from the file system).
 
+
+.. _project_bin_tagging:
 
 **5** Color tagging.
 
@@ -107,6 +135,9 @@ You can: add, delete and reordering tags.
 
 Reordering tags: grab a tag and drag it to the desired place in the list.
 
+
+.. _project_bin_option:
+
 **6**. Brings up additional options shown below for customizing the Project Bin view .
 
 
@@ -117,37 +148,63 @@ Reordering tags: grab a tag and drag it to the desired place in the list.
    Menu under Icon 6
  
 
-**7** Filter by tags and stars
+.. _project_bin_filter: 
+
+**7** Filter by categories
+
+.. versionchanged:: 23.1
 
 
 .. figure:: /images/filter.gif
    :width: 350px
    :alt: filter
    
-   Menu under Icon 7
 
-
- 
-Filtering by clip type
-
-
-.. figure:: /images/filter-by-type.png
-   :width: 350px
-   :alt: filter-by-type
+.. figure:: /images/project_bin_filter_23-04.png
+   :scale: 75%
+   :alt: project bin filter
   
    Menu under Icon 7
 
+The filter works in an OR way between objects of the same category, and in an AND way between different categories. 
+
+Example: 
+
+-	It shows clips which has red OR yellow tags.
+
+-	It shows clips which has a red tag AND has 1 star AND is an unused clip AND is an A/V clip
+
+**7a** Filter on/off
+
+.. figure:: /images/project_bin_filter_toggle.png
+   :scale: 100%
+   :alt: project bin filter
+
+   Menu under Icon 7a
+
+Clicking on the filter button turns on or off the filter.
+
+
+.. _project_bin_search:
 
 **8**. A search box to display all the clips in the bin whose filenames or titles contain the entered text.
 
 
+.. _project_bin_clip_used:
+
 **9**.  Number of times this clip is used in the project timeline. It counts for video and audio, so an AV-Clip counts with 2 when it's one time in the timeline.
+
+
+.. _project_bin_in_timeline:
 
 **11**. The blue audio and video icon indicates that both, audio and video is in the timeline. You can drag&drop either the audio or the video part into the timeline by grab just the audio or the video icon.
 
+
+.. _project_bin_sequence_folder:
+
 .. versionadded:: 23.04
 
-**12**. The folder Sequences is the standard folder where sequences get added. More about sequences see :ref:`here <sequence>`.   
+**12**. The folder Sequences is the default folder where sequences get added. More about sequences see :ref:`here <sequence>`.   
 
 
 Clips can be dragged from the Project Bin to the :ref:`timeline`.
