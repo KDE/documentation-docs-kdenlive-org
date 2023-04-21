@@ -82,8 +82,8 @@ Clip Monitor
 
 The Clip monitor displays the unedited clip that is currently selected in :ref:`project_tree`. 
 
-.. image:: /images/Clip_monitor2.png
-   :alt: Clip_monitor2
+.. image:: /images/Clip_monitor3.png
+   :alt: Clip_monitor3
 
 Widgets on the Clip Monitor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,6 +101,14 @@ Widgets on the Clip Monitor
 5) Timecode widget - type a timecode here and hit :kbd:`Enter` to go to an exact location in the clip. Timecode is in the format *hours:minutes:seconds:frames* (where frames will correspond to the number of frames per second in your project profile).
 
 6) Timecode arrows - can be used to change the current position of the clip in the clip monitor.
+
+7) Rewind button - click this to play the clip backwards; click again to increase play back speed (cycles through 1.5, 2, 3, 5.5 and 10x play back speed) 
+
+8) Play/pause button
+
+9) Playback options - click to select from different playback options (Play, Play Zone, Loop Zone, Loop Selected Clip)
+
+10) Fast Forward button - click to increase the playback speed (cycles through 1.5, 2, 3, 5.5 and 10x play back speed)
 
 .. _clip_monitor_hamburger:
 
@@ -147,8 +155,8 @@ Project Monitor
 
 The Project Monitor displays your project's timeline - i.e. the edited version of your video. 
 
-.. image:: /images/Project_monitor.png
-   :alt: Project_monitor
+.. image:: /images/Project_monitor2.png
+   :alt: Project_monitor2
 
 Project Monitor Widgets
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -171,10 +179,10 @@ Hamburger menu
 Creating Zones in Project Monitor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use the **[** and **]** buttons to create a zone in the Project Monitor the same way you make zones in the clip monitor. The zone will be indicated by a colored bar both on the timeline and underneath the Project Monitor. 
+You can use the :kbd:`I` and :kbd:`O` keys to create a zone in the Project Monitor the same way you make zones in the clip monitor. The zone will be indicated by a colored bar both on the timeline and underneath the Project Monitor. 
 
-.. image:: /images/Kdenlive_Zone_in_project_monitor.png
-   :alt: Kdenlive_Zone_in_project_monitor
+.. image:: /images/Kdenlive_Zone_in_project_monitor2.png
+   :alt: Kdenlive_Zone_in_project_monitor2
 
 You can get Kdenlive to only render the selected zone - see :ref:`remder_using_zone`.
 
