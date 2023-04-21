@@ -9,12 +9,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-   :glob:
 
-   monitors/*
 
 .. _monitors:
 
@@ -28,8 +23,9 @@ Resizing the Monitors
 
 You can resize the monitors by dragging the sizing widget. It is a bit tricky to find the bottom widget. You need to hover just between the bottom of the monitor tab and the timeline 
 
-.. image:: /images/Kdenlive_Scale_project_monitor3.png
-   :alt: Kdenlive_Scale_project_monitor3
+.. image:: /images/Kdenlive_Scale_project_monitor.png
+   :alt: Kdenlive_Scale_project_monitor
+
 
 .. _monitor_zoombar:
 
@@ -47,6 +43,7 @@ The Monitors get zoom bars. To activate: hover over the timeline ruler and :kbd:
 
 Support for external monitor display using Blackmagic Design decklink cards. 
 
+
 .. _monitor_toolbars:
 
 Monitor toolbar
@@ -63,6 +60,7 @@ Support multiple guide overlays. Move with the mouse to the upper-right corner o
 
 The color of the guide overlays can be changed. See :ref:`monitor_toolbars`    
 
+
 .. _preview_resolution:
 
 Preview resolution
@@ -74,6 +72,7 @@ Preview resolution
    :alt: Preview
 
 Preview resolution speeds up the editing experience by scaling the video resolution of the monitors. It can be used of proxies instead.
+
 
 .. _clip_monitor_overview:
 
@@ -110,8 +109,12 @@ Widgets on the Clip Monitor
 
 10) Fast Forward button - click to increase the playback speed (cycles through 1.5, 2, 3, 5.5 and 10x play back speed)
 
+<<<<<<< HEAD
 11) Edit Mode button - Click this button to toggle edit mode in the project monitor. If edit mode is enabled effects like transform show a red box for moving and sizing the clip.
 
+
+=======
+>>>>>>> 57aa49c55 (Updated screenshots for clip monitor widgets, creating zones in project monitor and project monitor widgets. Added text to explain clip monitor widgets 7-11, and updated instructions for zone creation in project monitor.)
 .. _clip_monitor_hamburger:
 
 Hamburger menu
@@ -140,7 +143,7 @@ Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/right.
 
 .. _drag_audio_or_video_into_timeline:
 
-Drag only audio or video of a clip to timeline
+Drag audio or video only of a clip in timeline
 ----------------------------------------------
 
 .. versionadded:: 19.04.0
@@ -200,7 +203,7 @@ Multitrack View
 
 .. versionadded:: 20.04.0
 
-Enable the multitrack view via menu :menuselection:`Monitor --> Multitrack view`. 
+Enable the multirack view via menu :menuselection:`Monitor --> Multitrack view`. 
 
 .. image:: /images/Multicam0.gif
    :alt: Multicam
@@ -220,3 +223,11 @@ You can click on the Tab names that label the Monitors and drag the monitor out 
 To put the monitors back into the Tabbed view - click on the monitor's title bar and drag the window on top of the other monitor window.
 
 If the monitor has no title bar (intermittent defect) then you can not do this and you will need to reset kdenlive settings by deleting ~/.config/kdenliverc 
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   :glob:
+
+   monitors/*
