@@ -26,7 +26,7 @@ copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/b
 author = 'Kdenlive Community'
 
 # The full version, including alpha/beta/rc tags
-release = '22.12'
+release = '23.04'
 
 # Get the git description if possible, to put it in the footer.
 
@@ -176,6 +176,7 @@ rst_epilog = """
 import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme' #'alabaster' #'sphinx_rtd_theme' 'insegel'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
