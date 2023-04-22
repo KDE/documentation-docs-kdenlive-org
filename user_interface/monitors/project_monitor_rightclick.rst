@@ -14,10 +14,13 @@
 
 .. _project_monitor_rightclick:
 
-Project Monitor - Right Click menu
+Project Monitor - Right-Click Menu
 ==================================
 
-These are the menu items that are available when you right click a clip in the :ref:`monitors`. These actions effect the clip that is currently selected in the timeline. Similar menu items are available from a Right click menu in the clip monitor. However clip monitor menu items effect the currently selected clip on the project bin.
+These are the menu items that are available when you right click a clip in the :ref:`monitors`. These actions effect the clip that is currently selected in the timeline. Similar menu items are available from a right-click menu in the clip monitor. However, clip monitor menu items affect the currently selected clip on the project bin.
+
+.. image:: /images/project_monitor_rightclick.gif
+   :alt: Project Monitor right-click menu options
 
 .. contents::
 
@@ -46,6 +49,7 @@ Plays the current zone in a continuous loop.
 Loop Selected Clip
 ~~~~~~~~~~~~~~~~~~
 
+Plays the selected clip in a continuous loop.
 
 Go To
 -----
@@ -53,7 +57,7 @@ Go To
 Go to Project Start
 ~~~~~~~~~~~~~~~~~~~
 
-When this item is selected from Project Monitor it goes the beginning of the project.
+Go to the beginning of the project.
 
 
 Go to Previous Snap Point
@@ -61,13 +65,13 @@ Go to Previous Snap Point
 
 Moves the clip position to the previous :ref:`editing` Point. Snap points are sections in clips that other clips snap to when "Snap" is turned on.
 
-Snap points include markers, zone in-points, zone out-points, guides, transition start points etc
+Snap points include markers, zone in-points, zone out-points, guides, transition start points etc.
 
 
 Go to Zone Start
 ~~~~~~~~~~~~~~~~
 
-Goes to the start of the Zone.  
+Goes to the start of the zone.  
 
 
 Go to Next Snap Point
@@ -75,57 +79,63 @@ Go to Next Snap Point
 
 Moves the clip position to the next :ref:`editing` Point. Snap points are sections in clips that other clips snap to when "Snap" is turned on.
 
-Snap points include markers, zone in-points, zone out-points, guides, transition start points etc
+Snap points include markers, zone in-points, zone out-points, guides, transition start points etc.
 
 
 Go to Project End
 ~~~~~~~~~~~~~~~~~
 
-When this item is selected from Project Monitor it goes the end of the project. 
+Go to the end of the project. 
 
 
-Extract frame
+Extract Frame
 -------------
 
 Extracts the frame currently in the project monitor as a .PNG image which you can save to the file system.
 
+Extract Frame to Project...
+---------------------------
+
+Extracts the frame currently in the project monitor as a .PNG image. In addition to saving it to the file system it is added to the project bin.
+
 Example how to extract frame
-----------------------------
-Kdenlive sends that frame to the stills gallery, which includes the image and the node structure. You can see if you display node graph by right-clicking, which is helpful to copy and paste adjustments for other clips.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. BMJ Kdenlive sends that frame to the stills gallery, which includes the image and the node structure. You can see if you display node graph by right-clicking, which is helpful to copy and paste adjustments for other clips.
 
 .. image:: /images/image27.png
    :width: 350px
    :alt: extract frame
 
-Click export, name it something logical, pick a safe location on your computer and change the format down below to png.
+Click Extract Frame, enter a name, pick a safe location on your computer and click on Save.
 
 .. image:: /images/image28.png
    :width: 350px
    :alt: save extracted frame
 
-Split View
-----------
+Multitrack View
+---------------
 
-Selecting this allows you to view all the video tracks at once in split screen in the project monitor. See picture.
+Selecting this allows you to view all the video tracks at once in split screen in the project monitor. Kdenlive starts with video track #1 in the top left corner and displays the other tracks sequentially. Hidden tracks are not displayed.
 
-
-.. image:: /images/Kdenlive_Split_view.png
+.. image:: /images/project_monitor_rightclick_multitrack_view.png
    :width: 350px
-   :alt: split view
+   :alt: Multitrack View
 
 
-Monitor overlay infos
----------------------
+Current Monitor Overlay
+-----------------------
 
 .. image:: /images/monitor_overlay.png
    :width: 350px
-   :alt: monitor overlay
+   :alt: Monitor Overlay
 
-4 different monitor overlays help you to show you more information about your videos. These overlays will not be rendered to the final video.
+Four different monitor overlays help you to show you more information about your videos. These overlays will not be rendered to the final video.
 
 
-Real time (drop frames)
+Real Time (Drop Frames)
 -----------------------
 
-Setting this to the Checked state means the clip monitor will drop frames during playback to ensure the clip plays in real time. This does not effect the final rendered file - it just effect how the clip appears when being previewed in the clip monitor
+This right-click menu item has been moved to the main menu :menuselection:`Monitor --> Monitor Config --> Real Time (drop frames)`
+
+Setting this to the Checked state means the clip monitor will drop frames during playback to ensure the clip plays in real time. This does not affect the final rendered file - it just affects how the clip appears when being previewed in the clip monitor.
 
