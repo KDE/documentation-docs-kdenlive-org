@@ -158,7 +158,6 @@ Troubleshooting, Glossary, Get Involved
 
 
 .. toctree::
-   :maxdepth: 2
    :hidden:
      
    getting_started
