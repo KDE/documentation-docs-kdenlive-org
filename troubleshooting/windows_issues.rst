@@ -18,7 +18,6 @@
 Windows issues
 ==============
 
-.. contents::
 
 The current **Kdenlive** on Windows® (April 2022, version 21.12.3) has a few issues that have workarounds. The purpose of this wiki page is to document these issues and their workarounds.
 

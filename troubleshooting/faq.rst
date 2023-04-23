@@ -16,8 +16,6 @@
 Frequently Asked Questions
 ==========================
 
-.. contents::
-
 
 What components does Kdenlive use?
 ----------------------------------

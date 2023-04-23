@@ -21,8 +21,6 @@
 Troubleshooting and Common Problems
 ===================================
 
-.. contents::
-
 
 Kdenlive warns me about missing codecs, I cannot render in some formats
 -----------------------------------------------------------------------
