@@ -10,7 +10,7 @@
 alphain transition
 ==================
 
-.. contents::
+
 
 This is the `Frei0r alphain <https://www.mltframework.org/plugins/TransitionFrei0r-alphain/>`_ MLT transition.
 

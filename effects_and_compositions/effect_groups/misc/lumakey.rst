@@ -10,7 +10,7 @@
 Lumakey Effect
 ==============
 
-.. contents::
+
 
 In version 15.n of Kdenlive this is in the Misc category of effects.
 

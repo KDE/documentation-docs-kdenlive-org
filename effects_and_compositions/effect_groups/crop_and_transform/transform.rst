@@ -13,7 +13,6 @@
 Transform
 =========
 
-.. contents::
 
 This is the `Qtblend <https://www.mltframework.org/plugins/FilterQtblend/>`_ MLT filter.
 

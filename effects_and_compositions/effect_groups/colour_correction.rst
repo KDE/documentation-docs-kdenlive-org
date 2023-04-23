@@ -17,7 +17,6 @@ Color Correction
 ================
 
 .. toctree::
-   :maxdepth: 1
    :caption: Effects in this category
    :glob:
 

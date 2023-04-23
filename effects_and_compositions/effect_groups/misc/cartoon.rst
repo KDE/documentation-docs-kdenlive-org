@@ -12,7 +12,7 @@
 Cartoon
 =======
 
-.. contents::
+
 
 This is the `Frei0r cartoon <https://www.mltframework.org/plugins/FilterFrei0r-cartoon/>`_ MLT filter.
 

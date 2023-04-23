@@ -9,7 +9,7 @@
 NDVI Filter
 ===========
 
-.. contents::
+
 
 This is the `Frei0r ndvi <https://www.mltframework.org/plugins/FilterFrei0r-ndvi/>`_ MLT filter by Brian Matherly.
 

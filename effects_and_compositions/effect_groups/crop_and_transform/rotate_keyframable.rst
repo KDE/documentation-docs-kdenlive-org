@@ -11,7 +11,6 @@
 Rotate
 ======
 
-.. contents::
 
 Rotates the image.
 

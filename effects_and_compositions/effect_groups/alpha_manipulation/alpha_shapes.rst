@@ -12,7 +12,6 @@
 Alpha Shapes
 ============
 
-.. contents::
 
 This is the `Frei0r alphaspot <https://www.mltframework.org/plugins/FilterFrei0r-alphaspot/>`_ MLT filter, see also `Frei0r-alphaspot readme <https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme>`_ file.
 

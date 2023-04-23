@@ -13,7 +13,6 @@
 Alpha operations
 ================
 
-.. contents::
 
 This is the `Frei0r alpha0ps <https://www.mltframework.org/plugins/FilterFrei0r-alpha0ps/>`_ MLT filter - Display and manipulation of the alpha channel.
 

@@ -23,7 +23,6 @@
 Effects
 =======
 
-.. contents::
 
 Effects in **Kdenlive** can be used to modify the audio and video properties of the source material.
 

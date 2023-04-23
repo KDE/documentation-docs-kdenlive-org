@@ -10,7 +10,7 @@
 alphaatop transition
 ====================
 
-.. contents::
+
 
 This is the `Frei0r alphaatop <https://www.mltframework.org/plugins/TransitionFrei0r-alphaatop>`_ MLT transition.
 

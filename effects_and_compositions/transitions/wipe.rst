@@ -15,7 +15,7 @@
 Composition - Wipe
 ==================
 
-.. contents::
+
 
 In this composition one shot replaces another by traveling from one side of the frame to another or with a special shape.
 

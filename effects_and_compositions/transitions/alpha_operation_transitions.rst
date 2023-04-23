@@ -11,7 +11,7 @@
 Alpha operation transitions
 ===========================
 
-.. contents::
+
 
 The following transitions all perform alpha operations between the two video tracks:
 

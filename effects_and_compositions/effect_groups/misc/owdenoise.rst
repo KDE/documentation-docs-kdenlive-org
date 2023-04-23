@@ -10,7 +10,7 @@
 Owdenoise
 =========
 
-.. contents::
+
 
 
 This is the `Avfilter owdenoise <https://www.mltframework.org/plugins/FilterAvfilter-owdenoise/>`_ MLT filter.

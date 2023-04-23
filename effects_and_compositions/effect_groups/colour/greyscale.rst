@@ -13,7 +13,6 @@
 Greyscale
 =========
 
-.. contents::
 
 This is the `Greyscale <https://www.mltframework.org/plugins/FilterGreyscale/>`_ MLT filter.
 

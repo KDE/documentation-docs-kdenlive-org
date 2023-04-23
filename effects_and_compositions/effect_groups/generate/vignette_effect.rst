@@ -8,12 +8,12 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _vignette_effect:
 
 Vignette Effect
 ===============
 
-.. contents::
 
 This is the `Vignette <https://www.mltframework.org/plugins/FilterVignette/>`_ MLT filter.
 

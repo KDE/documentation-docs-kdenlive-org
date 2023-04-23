@@ -9,7 +9,6 @@
 Video Values
 ============
 
-.. contents::
 
 This is the `Frei0r pr0be <https://www.mltframework.org/plugins/FilterFrei0r-pr0be/>`_ MLT filter.
 

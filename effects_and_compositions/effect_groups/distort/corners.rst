@@ -12,7 +12,6 @@
 Distort - Corners
 =================
 
-.. contents::
 
 .. image:: /images/corners-intro.png
    :align: left

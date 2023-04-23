@@ -14,8 +14,6 @@
 Hue Shift
 =========
 
-.. contents::
-
 
 This is the `Frei0r hueshift0r <https://www.mltframework.org/plugins/FilterFrei0r-hueshift0r/>`_ MLT filter.
 

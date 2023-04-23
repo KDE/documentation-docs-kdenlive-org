@@ -14,7 +14,6 @@
 Edge Crop
 =========
 
-.. contents::
 
 This effect by Dan Dennedy trim the edges of a clip.
 

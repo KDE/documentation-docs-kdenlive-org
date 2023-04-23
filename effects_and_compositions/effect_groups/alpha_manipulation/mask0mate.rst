@@ -16,7 +16,6 @@ Mask0mate
 Rectangular Alpha Mask
 ----------------------
 
-.. contents::
 
 Previously known as Mask0Mate.
 This is the `Frei0r mask0mate <https://www.mltframework.org/plugins/FilterFrei0r-mask0mate/>`_ MLT filter.

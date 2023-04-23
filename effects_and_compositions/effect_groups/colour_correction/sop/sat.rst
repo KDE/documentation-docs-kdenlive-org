@@ -13,7 +13,6 @@
 SOP/Sat Effect
 ==============
 
-.. contents::
 
 This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/FilterFrei0r-sopsat/>`_  MLT framework filter.
 It changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/wiki/ASC_CDL>`_.

@@ -13,7 +13,6 @@
 Saturation
 ==========
 
-.. contents::
 
 This is the `Frei0r saturat0r <https://www.mltframework.org/plugins/FilterFrei0r-saturat0r/>`_ MLT filter.
 

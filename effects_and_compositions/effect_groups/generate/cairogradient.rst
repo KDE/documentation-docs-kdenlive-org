@@ -4,12 +4,12 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _cairogradient:
 
 cairogradient
 =============
 
-.. contents::
 
 This effect adds a gradient of colour across the frame.
 

@@ -12,7 +12,7 @@
 Pixelize
 ========
 
-.. contents::
+
 
 This is the `Frei0r pixeliz0r <https://www.mltframework.org/plugins/FilterFrei0r-pixeliz0r/>`_ MLT filter.
 

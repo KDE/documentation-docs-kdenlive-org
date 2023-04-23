@@ -13,7 +13,6 @@
 Sepia
 =====
 
-.. contents::
 
 This is the `Sepia <https://www.mltframework.org/plugins/FilterSepia/>`_ MLT filter.
 

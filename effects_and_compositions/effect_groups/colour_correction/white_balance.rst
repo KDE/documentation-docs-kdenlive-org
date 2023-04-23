@@ -13,7 +13,6 @@
 White Balance
 =============
 
-.. contents::
 
 This is the `Frei0r balanc0r <https://www.mltframework.org/plugins/FilterFrei0r-balanc0r/>`_ MLT filter.
 

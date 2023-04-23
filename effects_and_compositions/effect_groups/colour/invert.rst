@@ -13,7 +13,6 @@
 Invert
 ======
 
-.. contents::
 
 This is the `Invert <https://www.mltframework.org/plugins/FilterInvert/>`_ MLT filter.
 

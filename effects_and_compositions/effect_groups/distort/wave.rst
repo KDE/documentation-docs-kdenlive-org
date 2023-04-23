@@ -12,7 +12,7 @@
 Wave
 ====
 
-.. contents::
+
 
 This is the `Wave <https://www.mltframework.org/plugins/FilterWave/>`_ MLT filter.
 

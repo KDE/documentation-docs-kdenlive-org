@@ -13,7 +13,7 @@
 Equaliz0r
 =========
 
-.. contents::
+
 
 This is the `Frei0r equaliz0r <https://www.mltframework.org/plugins/FilterFrei0r-equaliz0r/>`_ MLT filter.
 

@@ -13,7 +13,6 @@
 Chroma Key
 ==========
 
-.. contents::
 
 This effect allows you to do Chroma Keying (also known as Green Screen or Blue Screen) in **Kdenlive**. Chroma keying is where you remove backgrounds of a similar colour. This effect is a very basic. For a more complication alpha manipulation/background removal effect, use :ref:`color_selection`.
 

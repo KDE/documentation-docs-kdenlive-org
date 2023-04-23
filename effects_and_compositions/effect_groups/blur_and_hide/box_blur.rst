@@ -13,7 +13,6 @@
 Box Blur
 ========
 
-.. contents::
 
 This is the `Boxblur <https://www.mltframework.org/plugins/FilterBoxblur/>`_ MLT filter.
 

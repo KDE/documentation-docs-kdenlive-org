@@ -11,7 +11,7 @@
 Defish
 ======
 
-.. contents::
+
 
 This effect can transform footage shot with a fisheye lens, to look like it was shot with a rectilinear lens, and vice versa. It can also be used to straighten the video that was shot with one of these wide angle converters, which are only slightly curvy, or with a semi-fisheye camera, like the GoPro Hero.
 

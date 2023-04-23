@@ -16,7 +16,6 @@ Crop and Transform
 ==================
 
 .. toctree::
-   :maxdepth: 1
    :caption: Effects in this category
    :glob:
    

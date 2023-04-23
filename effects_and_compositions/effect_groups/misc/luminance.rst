@@ -13,7 +13,7 @@
 Luminance
 =========
 
-.. contents::
+
 
 This is the `Frei0r luminance <https://www.mltframework.org/plugins/FilterFrei0r-luminance/>`_ MLT filter.
 

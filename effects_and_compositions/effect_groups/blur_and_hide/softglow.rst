@@ -10,7 +10,6 @@
 Softglow
 ========
 
-.. contents::
 
 This is the `Frei0r softglow <https://www.mltframework.org/plugins/FilterFrei0r-softglow/>`_ MLT filter.
 

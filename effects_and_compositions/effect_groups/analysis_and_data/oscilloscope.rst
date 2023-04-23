@@ -9,7 +9,6 @@
 Oscilloscope
 ============
 
-.. contents::
 
 This is the `Frei0r pr0file <https://www.mltframework.org/plugins/FilterFrei0r-pr0file/>`_ MLT filter.
 

@@ -9,7 +9,7 @@
 Dither
 ======
 
-.. contents::
+
 
 .. image:: /images/Kdenlive_Dither.png
 

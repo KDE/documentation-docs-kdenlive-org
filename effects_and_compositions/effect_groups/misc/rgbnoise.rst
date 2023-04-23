@@ -10,7 +10,7 @@
 rgbnoise
 ========
 
-.. contents::
+
 
 This is an effect in the Misc category.
 

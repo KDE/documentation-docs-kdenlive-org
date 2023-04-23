@@ -11,7 +11,7 @@
 Affine Transition
 =================
 
-.. contents::
+
 
 Generates image rotation in 3D space, skew and distortion.
 

@@ -13,7 +13,6 @@
 Square Blur
 ===========
 
-.. contents::
 
 This is the `Frei0r squareblur <https://www.mltframework.org/plugins/FilterFrei0r-squareblur/>`_ MLT filter.
 

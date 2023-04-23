@@ -10,7 +10,7 @@
 alphaout transition
 ===================
 
-.. contents::
+
 
 This is the `Frei0r alphaout <https://www.mltframework.org/plugins/TransitionFrei0r-alphaout/>`_ MLT transition.
 

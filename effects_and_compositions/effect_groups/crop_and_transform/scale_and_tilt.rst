@@ -13,7 +13,6 @@
 Crop, Scale and Tilt
 ====================
 
-.. contents::
 
 This effect was previously named as **Scale and Tilt** and **Crop, Scale and Position**.
 

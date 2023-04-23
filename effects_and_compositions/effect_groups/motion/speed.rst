@@ -19,7 +19,7 @@ Motion Effects - Speed
       Use :ref:`change_speed` instead
 
 
-.. contents::
+
 
 Make clip play faster or slower. Use of this effect mutes the audio of the clip.
 

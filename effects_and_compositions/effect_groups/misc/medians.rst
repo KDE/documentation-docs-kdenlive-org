@@ -11,7 +11,7 @@
 Medians
 =======
 
-.. contents::
+
 
 This filter implements several median type filters.
 

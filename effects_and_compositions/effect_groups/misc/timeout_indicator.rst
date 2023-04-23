@@ -11,7 +11,7 @@
 Timeout Indicator
 =================
 
-.. contents::
+
 
 
 This is `Frei0r timeout <https://www.mltframework.org/plugins/FilterFrei0r-timeout/>`_ MLT filter by Simon A. Eugster.

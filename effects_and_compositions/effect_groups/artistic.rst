@@ -9,13 +9,15 @@
 
    :license: Creative Commons License SA 4.0
 
+
+
 .. _artistic:
 
 Artistic Effects
 ================
 
+
 .. toctree::
-   :maxdepth: 1
    :caption: Effects in this category
    :glob:
 

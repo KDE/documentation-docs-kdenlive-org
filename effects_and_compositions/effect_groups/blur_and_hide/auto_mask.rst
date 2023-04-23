@@ -18,7 +18,6 @@ Auto Mask
 .. deprecated:: 21.08
    Use :ref:`motion_tracker` instead
 
-.. contents::
 
 This effect can be used to mask peoples faces. It uses motion estimation to track subjects and mask faces. It is the `AutotrackRectangle <https://www.mltframework.org/docs/FilterAutotrackRectangleDiscussion/>`_ MLT filter.
 

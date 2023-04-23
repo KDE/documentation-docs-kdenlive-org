@@ -9,7 +9,7 @@
 Dance
 =====
 
-.. contents::
+
 
 This effect causes the video frame to dance around the screen.
 

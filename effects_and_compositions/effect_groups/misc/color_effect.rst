@@ -10,7 +10,7 @@
 Color Effect
 ============
 
-.. contents::
+
 
 This is the `Frei0r colortap <https://www.mltframework.org/plugins/FilterFrei0r-colortap/>`_ MLT filter.
 

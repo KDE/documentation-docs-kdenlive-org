@@ -7,12 +7,11 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _scanline0r:
 
 scanline0r
 ==========
-
-.. contents::
 
 
 This is the `Frei0r scanline0r <https://www.mltframework.org/plugins/FilterFrei0r-scanline0r/>`_ MLT filter.

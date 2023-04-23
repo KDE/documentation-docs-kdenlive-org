@@ -12,7 +12,7 @@
 Mirror
 ======
 
-.. contents::
+
 
 This is the `Mirror <https://www.mltframework.org/plugins/FilterMirror/>`_ MLT filter.
 

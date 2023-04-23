@@ -12,7 +12,7 @@
 twolay0r
 ========
 
-.. contents::
+
 
 This is the `Frei0r twolay0r <https://www.mltframework.org/plugins/FilterFrei0r-twolay0r/>`_ MLT filter.
 

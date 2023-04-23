@@ -13,7 +13,7 @@
 tehroxx0r
 =========
 
-.. contents::
+
 
 This is the `Frei0r tehroxx0r <https://www.mltframework.org/plugins/FilterFrei0r-tehroxx0r/>`_ MLT filter.
 

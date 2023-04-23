@@ -18,7 +18,6 @@
 Audio Spectrum Filter
 =====================
 
-.. contents::
 
 This is the `audiospectrum <https://www.mltframework.org/plugins/FilterAudiospectrum/>`_ MLT filter.
 

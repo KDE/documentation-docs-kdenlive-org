@@ -14,12 +14,10 @@ Fade
 ====
 
 .. toctree::
-   :maxdepth: 1
    :caption: Effects in this category
    :glob:
 
    fade/*
 
-* fade_in (audio effect)
-* fade_out (audio effect)
+
 

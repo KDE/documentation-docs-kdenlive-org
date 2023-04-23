@@ -12,7 +12,6 @@
 LetterB0xed
 ===========
 
-.. contents::
 
 This is the `Frei0r letterb0xed <https://www.mltframework.org/plugins/FilterFrei0r-letterb0xed/>`_ MLT filter.
 

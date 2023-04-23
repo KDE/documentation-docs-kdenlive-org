@@ -16,7 +16,7 @@ Effects and compositions
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
    :glob:
 

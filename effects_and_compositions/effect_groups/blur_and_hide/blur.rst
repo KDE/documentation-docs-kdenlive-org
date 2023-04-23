@@ -9,7 +9,6 @@
 Blur
 ====
 
-.. contents::
 
 Blurs the entire image.
 

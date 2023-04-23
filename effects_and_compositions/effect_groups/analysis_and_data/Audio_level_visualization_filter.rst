@@ -18,7 +18,6 @@
 Audio Level Visualization Filter
 ================================
 
-.. contents::
 
 This is the `audiolevelgraph <https://www.mltframework.org/plugins/FilterAudiolevelgraph/>`_ MLT filter.
 

@@ -14,7 +14,7 @@
 Key Spill Mop Up
 ================
 
-.. contents::
+
 
 .. warning::
 

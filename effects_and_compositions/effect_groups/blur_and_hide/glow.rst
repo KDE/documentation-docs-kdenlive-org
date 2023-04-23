@@ -13,7 +13,6 @@
 Glow
 ====
 
-.. contents::
 
 This is the `Frei0r glow <https://www.mltframework.org/plugins/FilterFrei0r-glow/>`_ MLT filter.
 

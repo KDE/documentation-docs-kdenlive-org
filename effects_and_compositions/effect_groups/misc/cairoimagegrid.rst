@@ -9,7 +9,7 @@
 cairoimagegrid
 ==============
 
-.. contents::
+
 
 This effect creates a grid of copies of the video footage as shown in the screen shot.
 

@@ -12,7 +12,7 @@
 Lens Correction
 ===============
 
-.. contents::
+
 
 This is the `Frei0r lenscorrection <https://www.mltframework.org/plugins/FilterFrei0r-lenscorrection/>`_ MLT filter.
 

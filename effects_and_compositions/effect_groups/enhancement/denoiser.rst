@@ -12,7 +12,7 @@
 Denoiser
 ========
 
-.. contents::
+
 
 This is the `Frei0r hqdn3d <https://www.mltframework.org/plugins/FilterFrei0r-hqdn3d/>`_ MLT filter - a High quality 3D denoiser from Mplayer.
 

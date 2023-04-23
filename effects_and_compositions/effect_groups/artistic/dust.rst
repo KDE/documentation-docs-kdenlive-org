@@ -13,7 +13,6 @@
 Dust
 ====
 
-.. contents::
 
 See `dust filter <https://www.mltframework.org/plugins/FilterDust/>`_ from MLT.
 

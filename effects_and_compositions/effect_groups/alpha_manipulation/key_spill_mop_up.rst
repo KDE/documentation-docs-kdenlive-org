@@ -14,7 +14,6 @@ This effect is used when using chroma keying (otherwise known as greenscreen or 
 Tutorial
 --------
 
-.. contents::
 
 This tutorial shows usage of the following effects: Key Spill Mop Up, blue screen, alpha operations - shrinkhard and denoiser.
 

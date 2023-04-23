@@ -12,7 +12,6 @@
 Chroma Hold
 ===========
 
-.. contents::
 
 This is the `Chroma_hold <https://www.mltframework.org/plugins/FilterChroma_hold/>`_ MLT filter.
 

@@ -9,7 +9,6 @@
 Bezier Curves
 =============
 
-.. contents::
 
 This is the `Frei0r curves <https://www.mltframework.org/plugins/FilterFrei0r-curves/>`_ MLT filter by Maksim Golovkin and Till Theato.
 

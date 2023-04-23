@@ -12,7 +12,7 @@
 Fade From Black
 ===============
 
-.. contents::
+
 
 https://youtu.be/xkulfHyJm18
 

@@ -10,7 +10,7 @@
 Regionalize
 ===========
 
-.. contents::
+
 
 Apply subeffects to a region defined by a clip's alpha channel.
 

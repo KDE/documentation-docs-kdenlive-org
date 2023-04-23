@@ -15,7 +15,6 @@
 Audio Effects
 =============
 
-.. contents::
 
 The following effects are available under the :menuselection:`Effects List --> Audio`. The links below are to the MLT framework documentation for these audio effects. Somewhat better documentation may be found at Steve Harris' LADSPA Plugin Docs `here <http://plugin.org.uk/ladspa-swh/docs/ladspa-swh.html>`_.
 
@@ -256,4 +255,6 @@ The following effects are available under the :menuselection:`Effects List --> A
 `Wave Terrain Oscillator <https://www.mltframework.org/plugins/FilterLadspa-1412/>`_
 
 `z-1 <https://www.mltframework.org/plugins/FilterLadspa-1428/>`_
+
+
 

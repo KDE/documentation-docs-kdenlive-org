@@ -12,7 +12,6 @@
 Tint
 ====
 
-.. contents::
 
 This is the `Frei0r tint0r <https://www.mltframework.org/plugins/FilterFrei0r-tint0r/>`_ MLT filter.
 

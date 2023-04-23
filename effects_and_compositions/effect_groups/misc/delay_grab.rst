@@ -11,7 +11,7 @@
 Delay grab effect
 =================
 
-.. contents::
+
 
 This effect is available from the misc group.
 

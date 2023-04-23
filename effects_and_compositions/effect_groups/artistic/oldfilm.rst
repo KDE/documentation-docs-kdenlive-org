@@ -13,7 +13,6 @@
 Old Film
 ========
 
-.. contents::
 
 This is the `OldFilm <https://www.mltframework.org/plugins/FilterOldfilm/>`_ MLT filter.
 

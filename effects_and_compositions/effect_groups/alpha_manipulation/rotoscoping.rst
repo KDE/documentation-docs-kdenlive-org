@@ -21,7 +21,6 @@
 Rotoscoping
 ===========
 
-.. contents::
 
 What is Rotoscoping?
 --------------------

@@ -10,7 +10,6 @@ Motion Tracker
 ==============
 .. versionadded:: 19.04.0
 
-.. contents::
 
 What is Motion Tracking?
 ------------------------

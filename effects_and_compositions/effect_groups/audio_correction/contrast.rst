@@ -13,7 +13,6 @@
 Contrast
 ========
 
-.. contents::
 
 This is the `Sox contrast <https://www.mltframework.org/plugins/FilterSox-contrast/>`_ MLT filter.
 

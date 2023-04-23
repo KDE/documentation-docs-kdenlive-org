@@ -9,7 +9,6 @@
 Stereo Amplifier
 ================
 
-.. contents::
 
 This is the LADSPA filter number `1049 <https://www.mltframework.org/plugins/FilterLadspa-1049/>`_ from MLT.
 

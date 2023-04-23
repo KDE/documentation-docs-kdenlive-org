@@ -12,7 +12,6 @@
 Audio Correction - Mute
 =======================
 
-.. contents::
 
 This effect mutes the sound track on the video. The audio on the track will not be audible.
 

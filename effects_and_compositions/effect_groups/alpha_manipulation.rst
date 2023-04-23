@@ -11,19 +11,13 @@
 
    :license: Creative Commons License SA 4.0
 
+
+
 .. _alpha_manipulation:
 
 Alpha manipulation
 ==================
 
-.. contents::
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Effects in this category
-   :glob:
-
-   alpha_manipulation/*
 
 General Information about Alpha Manipulation
 --------------------------------------------
@@ -41,3 +35,9 @@ Compositing Reference Material
 
 For some background, the Wikipedia article in `alpha compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_ is useful. See also Porter, Thomas; Tom Duff (1984). "Compositing Digital Images". Computer Graphics 18 (3): p253–259 1984 `pdf <https://keithp.com/~keithp/porterduff/p253-porter.pdf>`_
 
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   alpha_manipulation/*

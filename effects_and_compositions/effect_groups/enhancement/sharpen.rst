@@ -13,7 +13,7 @@
 Sharpen
 =======
 
-.. contents::
+
 
 The sharpen tool is a port of `unsharp mask <https://en.wikipedia.org/wiki/Unsharp_masking>`_ from Mplayer. The parameters are the usual ones for unsharp masking. The "size" means the size of the blur, and the amount is how much of the blurred version gets subtracted.
 

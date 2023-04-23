@@ -13,7 +13,7 @@
 Analysis and Data - Vectorscope
 ===============================
 
-.. contents::
+
 
 This is the `Frei0r vectorscope <https://www.mltframework.org/plugins/FilterFrei0r-vectorscope/>`_ MLT filter.
 

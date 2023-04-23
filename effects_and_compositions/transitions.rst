@@ -17,7 +17,7 @@
 Transitions
 ===========
 
-.. contents::
+
 
 In **Kdenlive** a transition is a wipe or dissolve composition between two overlapping clips.
 

@@ -13,7 +13,6 @@
 Levels
 ======
 
-.. contents::
 
 This is the `Frei0r levels <https://www.mltframework.org/plugins/FilterFrei0r-levels/>`_ MLT filter.
 

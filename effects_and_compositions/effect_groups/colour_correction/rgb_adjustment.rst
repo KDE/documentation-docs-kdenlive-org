@@ -13,7 +13,6 @@
 RGB adjustment
 ==============
 
-.. contents::
 
 This filter is for simple manual color adjustment by RGB channel, either through adding constants, or changing the channel gammas or gains.
 

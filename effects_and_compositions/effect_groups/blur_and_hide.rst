@@ -17,7 +17,6 @@ Blur and Hide
 =============
 
 .. toctree::
-   :maxdepth: 1
    :caption: Effects in this category
    :glob:
 

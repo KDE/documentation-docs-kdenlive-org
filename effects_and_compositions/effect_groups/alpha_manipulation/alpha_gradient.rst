@@ -12,7 +12,6 @@
 Alpha gradient
 ==============
 
-.. contents::
 
 This is the `Frei0r alphagrad <https://www.mltframework.org/plugins/FilterFrei0r-alphagrad/>`_ MLT filter, see also `Frei0r-alphagrad readme <https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme>`_ file.
 

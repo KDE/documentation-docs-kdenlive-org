@@ -9,7 +9,7 @@
 Rgbsplit0r
 ==========
 
-.. contents::
+
 
 This is the `Frei0r rgbsplit0r <https://www.mltframework.org/plugins/FilterFrei0r-rgbsplit0r/>`_ MLT filter.
 

@@ -12,7 +12,7 @@
 K-Means Clustering
 ==================
 
-.. contents::
+
 
 This is the `Frei0r cluster <https://www.mltframework.org/plugins/FilterFrei0r-cluster/>`_ MLT filter.
 

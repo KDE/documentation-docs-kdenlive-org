@@ -13,7 +13,6 @@
 Brightness
 ==========
 
-.. contents::
 
 This is the `Frei0r brightness filter <https://www.mltframework.org/plugins/FilterFrei0r-brightness/>`_ MLT filter.
 

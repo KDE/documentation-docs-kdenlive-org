@@ -10,7 +10,7 @@
 sigmoidaltransfer
 =================
 
-.. contents::
+
 
 This is the `Frei0r sigmoidaltransfer <https://www.mltframework.org/plugins/FilterFrei0r-sigmoidaltransfer/>`_ MLT filter by Janne Liljeblad.
 

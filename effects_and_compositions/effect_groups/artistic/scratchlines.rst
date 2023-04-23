@@ -13,7 +13,6 @@
 Scratchlines
 ============
 
-.. contents::
 
 This is the `Lines <https://www.mltframework.org/plugins/FilterLines/>`_ MLT filter.
 

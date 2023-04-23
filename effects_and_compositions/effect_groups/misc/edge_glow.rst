@@ -14,7 +14,7 @@
 Edge Glow
 =========
 
-.. contents::
+
 
 This is the `Frie0r edgeglow <https://www.mltframework.org/plugins/FilterFrei0r-edgeglow/>`_ MLT filter.
 

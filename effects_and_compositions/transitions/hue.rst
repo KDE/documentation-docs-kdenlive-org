@@ -11,7 +11,7 @@
 Hue
 ===
 
-.. contents::
+
 
 This is the `Frei0r hue <https://www.mltframework.org/plugins/TransitionFrei0r-hue/>`_ MLT transition.
 

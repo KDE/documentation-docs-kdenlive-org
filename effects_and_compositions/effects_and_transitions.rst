@@ -16,7 +16,6 @@
 Alphabetical List of Effects and Compositions
 =============================================
 
-.. contents::
 
 .. note::
    The effects and compositions included will differ depending on the available plug-ins on the specific packaging on each operating system. Kdenlive will auto-detect and make available any supported LADSPA plug-in packages from your distribution. For the greatest compatibility, please use the AppImage version of Kdenlive.

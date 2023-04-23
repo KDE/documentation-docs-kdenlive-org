@@ -10,7 +10,7 @@
 alphaxor transition
 ===================
 
-.. contents::
+
 
 This is the `Frei0r alphaxor <https://www.mltframework.org/plugins/TransitionFrei0r-alphaxor/>`_ MLT transition.
 

@@ -9,7 +9,7 @@
 alphaover transition
 ====================
 
-.. contents::
+
 
 This is the `Frei0r alphaover <https://www.mltframework.org/plugins/TransitionFrei0r-alphaover/>`_ MLT transition.
 

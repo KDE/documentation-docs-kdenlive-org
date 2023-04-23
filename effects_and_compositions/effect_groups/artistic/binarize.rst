@@ -9,7 +9,6 @@
 Binarize
 ========
 
-.. contents::
 
 Create a black and white image.
 

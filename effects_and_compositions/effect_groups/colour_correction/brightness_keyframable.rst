@@ -13,7 +13,6 @@
 Brightness (keyframable)
 ========================
 
-.. contents::
 
 This is the `Brightness <https://www.mltframework.org/plugins/FilterBrightness/>`_ MLT filter.
 

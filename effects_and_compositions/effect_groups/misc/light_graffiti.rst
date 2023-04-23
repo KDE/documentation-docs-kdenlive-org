@@ -12,7 +12,7 @@
 Misc - Light Graffiti
 =====================
 
-.. contents::
+
 
 https://vimeo.com/18497028
 

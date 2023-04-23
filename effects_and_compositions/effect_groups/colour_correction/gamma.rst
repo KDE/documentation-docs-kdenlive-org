@@ -13,7 +13,6 @@
 Gamma
 =====
 
-.. contents::
 
 This is the `Gamma <https://www.mltframework.org/plugins/FilterGamma/>`_ MLT filter.
 

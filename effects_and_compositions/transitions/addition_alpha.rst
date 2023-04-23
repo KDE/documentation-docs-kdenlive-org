@@ -10,7 +10,7 @@
 Addition_alpha transition
 =========================
 
-.. contents::
+
 
 This is the `Frei0r addition_alpha <https://www.mltframework.org/plugins/TransitionFrei0r-addition_alpha/>`_ MLT transition.
 

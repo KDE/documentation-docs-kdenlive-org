@@ -12,7 +12,7 @@
 Transitions - Screen
 ====================
 
-.. contents::
+
 
 This is very much like :ref:`blue_screen` but it works with footage filmed against a black background.
 

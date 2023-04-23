@@ -12,7 +12,6 @@
 Technicolor
 ===========
 
-.. contents::
 
 This is the `Tcolor <https://www.mltframework.org/plugins/FilterTcolor/>`_ MLT filter.
 

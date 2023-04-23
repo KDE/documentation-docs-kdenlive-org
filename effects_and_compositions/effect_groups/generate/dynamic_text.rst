@@ -5,12 +5,13 @@
 
    :license: Creative Commons License SA 4.0
 
+
+   
 .. _dynamic_text:
 
 Dynamic Text
 ============
 
-.. contents::
 
 The "Dynamic Text" effect allows you to overlay a timecode - which counts up relative to the start of the clip or timeline it is applied to.
 

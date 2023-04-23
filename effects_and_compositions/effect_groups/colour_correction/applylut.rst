@@ -10,7 +10,6 @@
 Apply LUT
 =========
 
-.. contents::
 
 This is the `Avfilter lut3d <https://www.mltframework.org/plugins/FilterAvfilter-lut3d/>`_ MLT filter.
 

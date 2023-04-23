@@ -15,7 +15,6 @@
 Position and Zoom
 =================
 
-.. contents::
 
 Adjust size and position of clip using smooth affine transformations. Formerly known as "Pan and Zoom".
 

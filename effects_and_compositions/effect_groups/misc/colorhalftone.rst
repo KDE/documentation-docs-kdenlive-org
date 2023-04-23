@@ -10,7 +10,7 @@
 Colorhalftone
 =============
 
-.. contents::
+
 
 Filters image to resemble a halftone print in which tones are represented as variable sized dots.
 

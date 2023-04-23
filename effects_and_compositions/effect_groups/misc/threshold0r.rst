@@ -12,7 +12,7 @@
 threshold0r
 ===========
 
-.. contents::
+
 
 This is the `Frei0r threshold0r <https://www.mltframework.org/plugins/FilterFrei0r-threshold0r/>`_ MLT filter.
 

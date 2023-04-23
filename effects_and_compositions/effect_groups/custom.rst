@@ -14,7 +14,6 @@
 Custom Effects
 ==============
 
-.. contents::
 
 The **Custom Group** in the **Effect List** is where effects appear when you choose :menuselection:`Save Effect` from an effect in the  :ref:`effects`.
 
@@ -30,3 +29,5 @@ The **Custom Group** in the **Effect List** is where effects appear when you cho
    :align: left
    :alt: Custom_effect
 
+
+.. toctree::

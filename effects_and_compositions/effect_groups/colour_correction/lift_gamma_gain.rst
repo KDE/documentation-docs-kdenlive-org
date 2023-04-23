@@ -9,7 +9,6 @@
 Lift/Gamma/Gain
 ===============
 
-.. contents::
 
 This is the `Lift_gamma_gain <https://www.mltframework.org/plugins/FilterLift_gamma_gain/>`_ MLT filter.
 

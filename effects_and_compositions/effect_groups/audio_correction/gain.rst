@@ -10,7 +10,6 @@
 Gain
 ====
 
-.. contents::
 
 An effect to increase or decrease the volume of a clip without the use of keyframes.
 

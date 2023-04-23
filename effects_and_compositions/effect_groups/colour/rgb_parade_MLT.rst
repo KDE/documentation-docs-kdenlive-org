@@ -14,7 +14,6 @@
 RGB Parade
 ==========
 
-.. contents::
 
 This is the `Frei0r rgbparade <https://www.mltframework.org/plugins/FilterFrei0r-rgbparade/>`_ MLT filter.
 

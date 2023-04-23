@@ -12,7 +12,7 @@
 Threshold
 =========
 
-.. contents::
+
 
 This is the `Threshold <https://www.mltframework.org/plugins/FilterThreshold/>`_ MLT filter.
 

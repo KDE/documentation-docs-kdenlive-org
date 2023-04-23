@@ -13,7 +13,6 @@
 Obscure
 =======
 
-.. contents::
 
 See the `Obscure <https://www.mltframework.org/plugins/FilterObscure/>`_ MLT filter.
 

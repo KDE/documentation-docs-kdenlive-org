@@ -13,7 +13,6 @@
 Charcoal
 ========
 
-.. contents::
 
 This is the `Charcoal <https://www.mltframework.org/plugins/FilterCharcoal/>`_ MLT filter.
 

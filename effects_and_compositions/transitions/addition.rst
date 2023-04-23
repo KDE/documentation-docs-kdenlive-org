@@ -10,7 +10,7 @@
 addition transition
 ===================
 
-.. contents::
+
 
 This is the `Frei0r addition <https://www.mltframework.org/plugins/TransitionFrei0r-addition/>`_ MLT transition.
 

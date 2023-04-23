@@ -12,7 +12,7 @@
 nosync0r
 ========
 
-.. contents::
+
 
 This is the `Frei0r nosync0r <https://www.mltframework.org/plugins/FilterFrei0r-nosync0r/>`_ MLT filter.
 

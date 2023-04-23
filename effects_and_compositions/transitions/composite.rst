@@ -16,7 +16,7 @@
 Composite Transition
 ====================
 
-.. contents::
+
 
 The Composite transition combines the video data from two video tracks into one. This transition is used in combination with Alpha Channel information supplied by one of the :ref:`alpha_manipulation` or by the use of a :ref:`composite`. This Alpha Channel data describes how the data from the two video tracks should be combined. Until you define some alpha channel data using an :ref:`alpha_manipulation` or a Wipe File, changes in the Composite transition settings will have no visible effect.
 

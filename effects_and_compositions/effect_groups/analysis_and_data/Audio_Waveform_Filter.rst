@@ -14,7 +14,6 @@
 Audio Waveform Filter
 =====================
 
-.. contents::
 
 This is the `audiowaveform <https://www.mltframework.org/plugins/FilterAudiowaveform/>`_ MLT filter.
 

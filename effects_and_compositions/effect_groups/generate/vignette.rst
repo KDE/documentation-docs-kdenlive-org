@@ -7,12 +7,12 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _vignette:
 
 Vignette
 ========
 
-.. contents::
 
 This is the `Frei0r vignette <https://www.mltframework.org/plugins/FilterFrei0r-vignette/>`_ MLT filter.
 

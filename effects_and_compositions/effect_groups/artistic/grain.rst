@@ -10,7 +10,6 @@
 Grain
 =====
 
-.. contents::
 
 https://youtu.be/1HXNz3Ykdq4
 

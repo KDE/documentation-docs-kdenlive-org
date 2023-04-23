@@ -13,7 +13,7 @@
 Fade to Black
 =============
 
-.. contents::
+
 
 https://youtu.be/HKWeFL0DKJs
 

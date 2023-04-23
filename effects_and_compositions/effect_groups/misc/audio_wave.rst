@@ -11,7 +11,7 @@
 Audio Wave
 ==========
 
-.. contents::
+
 
 This is the `Audiowave <https://www.mltframework.org/plugins/FilterAudiowave/>`_ MLT filter.
 
