@@ -16,8 +16,8 @@ Importing and assets management
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :maxdepth: 1
    :glob:
 
    importing_and_assets_management/*

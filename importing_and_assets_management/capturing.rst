@@ -13,12 +13,13 @@
 
    :license: Creative Commons License SA 4.0
 
+.. toctree::
+   :maxdepth: 1
+
 .. _capturing:
 
 Capturing Video
 ===============
-
-.. contents::
 
 
 .. note::

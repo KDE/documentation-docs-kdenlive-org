@@ -8,12 +8,13 @@
 
    :license: Creative Commons License SA 4.0
 
+
+
 .. _backup:
 
 Backup
 ======
 
-.. contents::
 
 .. image:: /images/Backup.png
   :width: 300px

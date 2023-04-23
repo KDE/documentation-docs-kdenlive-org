@@ -4,14 +4,14 @@
 
    :license: Creative Commons License SA 4.0
 
+.. toctree::
+   :maxdepth: 1
+
 
 .. _media_browser:
 
 Media Browser
 =============
-
-.. contents::
-
 
 .. versionadded:: 21.04.0
   

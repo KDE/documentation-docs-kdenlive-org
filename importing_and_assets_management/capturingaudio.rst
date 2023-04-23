@@ -9,14 +9,14 @@
 
    :license: Creative Commons License SA 4.0
 
+.. toctree::
+   :maxdepth: 1
+
+
 .. _capturingaudio:
 
 Capturing Audio (Dubbing)
 =========================
-
-.. contents::
-
-
 
 
 You can use Kdenlive to capture audio from a microphone while you play your project in the **Project Monitor**. In this way you can dub in a voiceover.

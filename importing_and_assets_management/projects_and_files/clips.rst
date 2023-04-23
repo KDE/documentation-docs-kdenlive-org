@@ -151,7 +151,7 @@ Add Sequence
 
 .. versionadded:: 23.04
 
-:guilabel:`Add Sequence...`: Adds a new sequence to the timeline. A sequence behaves like a clip. Working with sequences see :ref:`here <working_with_sequences>`.
+:guilabel:`Add Sequence...`: Adds a new sequence to the timeline. A sequence behaves like a clip. Working with sequences see :ref:`here <sequence>`.
 
 
 Online Resources

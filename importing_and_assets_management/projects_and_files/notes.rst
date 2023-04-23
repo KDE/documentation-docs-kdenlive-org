@@ -9,12 +9,13 @@
 
    :license: Creative Commons License SA 4.0
 
+
+   
 .. _notes:
 
 Annotating
 ==========
 
-.. contents::
 
 .. image:: /images/Noteswidget.png
    :align: left

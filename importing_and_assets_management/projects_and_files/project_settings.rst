@@ -15,12 +15,13 @@
 
    :license: Creative Commons License SA 4.0
 
+
+
+   
 .. _project_settings:
 
 Project Settings Dialog
 =======================
-
-.. contents::
 
 
 This is reached via  :menuselection:`Project Settings` in the :ref:`project_menu` menu. This dialog has 3 Tabs.
