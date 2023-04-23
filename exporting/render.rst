@@ -19,9 +19,6 @@
 
    :license: Creative Commons License SA 4.0
 
-.. contents::
-   :hidden:
-
 
 .. _render:
 
