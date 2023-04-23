@@ -24,8 +24,7 @@
 Guides
 ======
 
-.. contents::
- 
+
 
 Guides in the picture below are the purple flags. Not to be confused with :ref:`markers` (green in the picture below). Guides are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
 

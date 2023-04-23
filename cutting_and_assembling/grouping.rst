@@ -15,10 +15,6 @@
 Grouping
 ========
 
-.. contents::
-
-
-
 
 Grouping clips allows you to lock clips together so that you can move them as a group and still retain their positions relative to each element in the group. 
 

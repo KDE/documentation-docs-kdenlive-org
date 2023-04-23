@@ -18,7 +18,7 @@ Cutting and assembling
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
    :glob:
 
    cutting_and_assembling/*

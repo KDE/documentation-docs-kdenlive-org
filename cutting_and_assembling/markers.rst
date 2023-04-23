@@ -16,8 +16,6 @@
 Markers
 =======
 
-.. contents::
- 
 
 Markers in the picture below are the green flags inside the clip. Not to be confused with :ref:`guides` (purple flags in the picture below). Markers are inside the clips and move with the clips.
 

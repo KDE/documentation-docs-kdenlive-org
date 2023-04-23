@@ -24,12 +24,14 @@
    :license: Creative Commons License SA 4.0
 
 
+
+
+
 .. _editing:
 
 Editing
 =======
 
-.. contents::
 
 Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:`project_tree` or the :ref:`monitors`. Once a clip is dropped on a track, it can be moved (drag and drop it) to another place on the same track or onto another track.
 

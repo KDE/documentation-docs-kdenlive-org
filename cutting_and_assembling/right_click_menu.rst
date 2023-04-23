@@ -16,7 +16,6 @@
 Right-Click Menus
 =================
 
-.. contents::
 
 Clip in Timeline
 ----------------
