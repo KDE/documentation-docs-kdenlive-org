@@ -15,6 +15,7 @@ Shooting Hints
 ==============
 
 .. toctree::
+   :hidden:
    :glob:
 
    shootinghints/*

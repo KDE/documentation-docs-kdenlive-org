@@ -25,11 +25,6 @@
 Tips &  Tricks
 ==============
 
-.. contents::
-
-
-
-
 * You can advance and retard the clip in the project monitor by rotating the mouse wheel when the pointer is over the :ref:`timeline` or over the :ref:`monitors`
 
 

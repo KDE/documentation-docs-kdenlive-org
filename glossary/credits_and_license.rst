@@ -7,8 +7,6 @@
 Credits and License
 ===================
 
-.. contents::
-
 Documentation copyright
 -----------------------
 

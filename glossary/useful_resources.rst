@@ -16,8 +16,6 @@
 Useful Resources
 ================
 
-.. contents::
-
 
 * Another Kdenlive manual: `flossmanuals <http://www.flossmanuals.net/how-to-use-video-editing-software/>`_
 * `Cutting and Splicing Video in KDEnlive <http://www.linuceum.com/Desktop/KDEnliveVideo.php>`_  by Linuceum

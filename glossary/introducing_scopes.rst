@@ -11,6 +11,7 @@ Introducing Scopes
 ==================
 
 .. toctree::
+   :hidden:
    :glob:
 
    introducing_scopes/introducing_color_scopes

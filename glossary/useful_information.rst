@@ -22,8 +22,7 @@ Useful Information
 ==================
 
 .. toctree::
-   :caption: Contents:
-   :maxdepth: 1
+   :hidden:
    :glob:
 
    useful_information/*
