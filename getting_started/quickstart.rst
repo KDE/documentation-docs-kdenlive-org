@@ -30,8 +30,6 @@
 Quick Start
 ===========
 
-.. contents::
-
 
 Creating a new project
 ----------------------

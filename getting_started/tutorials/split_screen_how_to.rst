@@ -10,8 +10,6 @@
 How To Do Split Screen Effect
 =============================
 
-.. contents::
-
 
 This effect is also known as picture in picture effect or PIP.
 

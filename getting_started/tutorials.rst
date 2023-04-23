@@ -29,7 +29,6 @@
 Tutorials
 =========
 
-.. contents::
 
 Written Tutorials
 -----------------

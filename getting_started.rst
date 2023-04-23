@@ -17,8 +17,7 @@ Getting started
 A short overview to start with Kdenlive.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
    :glob:
 
    getting_started/*
