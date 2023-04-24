@@ -67,7 +67,7 @@ The timeline cursor shows your current position in the project. The positions of
 * Clicking the up or down arrows on the :ref:`monitors` timecode widget
 
 
-Cutting a clip
+Cutting a Clip
 --------------
 
 To cut a clip, the easiest way is to place the timeline cursor where you want to cut the clip, then select the clip (left click in it) and use the menu :menuselection:`Timeline --> Current Clip --> Cut Clip` (default shortcut: :kbd:`Shift + R`).
@@ -79,7 +79,7 @@ Or  :menuselection:`Right Click --> Cut Clip`
 Alternatively - use the `Spacer Tool`_.
 
 
-Resizing a clip
+Resizing a Clip
 ---------------
 
 A clip can be resized from its start or end by dragging its left or right edge. If you want a more precise resize, you can place the timeline cursor wherever you want the resize to end and use the menu :menuselection:`Timeline --> Resize Item Start` (default shortcut: :kbd:`(` or :menuselection:`Timeline --> Resize Item End` (default shortcut: :kbd:`)`)
@@ -106,7 +106,7 @@ Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or
 
 .. _edit_an-animation: 
 
-Edit an animation
+Edit an Animation
 -----------------
 
 .. versionadded:: 22.12
@@ -131,7 +131,7 @@ It is possible to have several Glaxnimate instances open, but the background wil
 
 .. _change_speed_of_a_clip: 
 
-Change speed of a clip
+Change Speed of a Clip
 ----------------------
 
 .. versionadded:: 19.08
@@ -596,6 +596,8 @@ This is available on the :menuselection:`Timeline` menu under :menuselection:`Al
 
 Mark In and Out points in the Project Monitor, then choose :menuselection:`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  Kdenlive deletes all footage between the In and Out points in unlocked tracks, slides everything else back to fill the gap, and puts the playhead on the In point.
 
+
+.. _three_point_editing:
 
 3 point editing
 ---------------
