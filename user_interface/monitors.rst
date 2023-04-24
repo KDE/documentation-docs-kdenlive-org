@@ -28,8 +28,8 @@ Resizing the Monitors
 
 You can resize the monitors by dragging the sizing widget. It is a bit tricky to find the bottom widget. You need to hover just between the bottom of the monitor tab and the timeline 
 
-.. image:: /images/Kdenlive_Scale_project_monitor.png
-   :alt: Kdenlive_Scale_project_monitor
+.. image:: /images/Kdenlive_Scale_project_monitor3.png
+   :alt: Kdenlive_Scale_project_monitor3
 
 .. _monitor_zoombar:
 
@@ -110,6 +110,8 @@ Widgets on the Clip Monitor
 
 10) Fast Forward button - click to increase the playback speed (cycles through 1.5, 2, 3, 5.5 and 10x play back speed)
 
+11) Edit Mode button - Click this button to toggle edit mode in the project monitor. If edit mode is enabled effects like transform show a red box for moving and sizing the clip.
+
 .. _clip_monitor_hamburger:
 
 Hamburger menu
@@ -138,7 +140,7 @@ Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/right.
 
 .. _drag_audio_or_video_into_timeline:
 
-Drag audio or video only of a clip in timeline
+Drag only audio or video of a clip to timeline
 ----------------------------------------------
 
 .. versionadded:: 19.04.0
@@ -198,7 +200,7 @@ Multitrack View
 
 .. versionadded:: 20.04.0
 
-Enable the multirack view via menu :menuselection:`Monitor --> Multitrack view`. 
+Enable the multitrack view via menu :menuselection:`Monitor --> Multitrack view`. 
 
 .. image:: /images/Multicam0.gif
    :alt: Multicam
