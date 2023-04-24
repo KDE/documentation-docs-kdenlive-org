@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 00:38+0000\n"
+"POT-Creation-Date: 2023-04-24 00:40+0000\n"
 "PO-Revision-Date: 2022-06-27 00:44+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -59,6 +59,7 @@ msgstr ""
 "módulos de Python 'vosk' e 'srt':"
 
 #: ../../effects_and_compositions/speech_to_text.rst:42
+#: ../../effects_and_compositions/speech_to_text.rst:62
 msgid "Linux"
 msgstr "Linux"
 
@@ -74,18 +75,12 @@ msgstr ""
 "faltar o Python, basta pesquisar na Internet, que existem várias instruções "
 "por aí."
 
-#: ../../effects_and_compositions/speech_to_text.rst:46
-msgid ""
-"To install vosk and srt open a terminal and run: ``pip3 install vosk srt``"
-msgstr ""
-"Para instalar o 'vosk' e o 'srt', abra um terminal e execute: ``pip3 install "
-"vosk srt``"
-
-#: ../../effects_and_compositions/speech_to_text.rst:49
+#: ../../effects_and_compositions/speech_to_text.rst:48
+#: ../../effects_and_compositions/speech_to_text.rst:66
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../effects_and_compositions/speech_to_text.rst:51
+#: ../../effects_and_compositions/speech_to_text.rst:50
 msgid ""
 "Download python from https://www.python.org/downloads/ for installation on "
 "your computer."
@@ -93,7 +88,27 @@ msgstr ""
 "Transfira o Python de https://www.python.org/downloads/ para saber como "
 "instalar no seu computador."
 
-#: ../../effects_and_compositions/speech_to_text.rst:52
+#: ../../effects_and_compositions/speech_to_text.rst:57
+#, fuzzy
+#| msgid "Speech recognition"
+msgid "Speech Engines"
+msgstr "Reconhecimento de fala"
+
+#: ../../effects_and_compositions/speech_to_text.rst:60
+msgid "VOSK"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:64
+#, fuzzy
+#| msgid ""
+#| "To install vosk and srt open a terminal and run: ``pip3 install vosk srt``"
+msgid ""
+"To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``"
+msgstr ""
+"Para instalar o 'vosk' e o 'srt', abra um terminal e execute: ``pip3 install "
+"vosk srt``"
+
+#: ../../effects_and_compositions/speech_to_text.rst:68
 msgid ""
 "Download this batch file (:download:`Install_vosk_srt.zip </files/"
 "Install_vosk_srt.zip>`). After download a double click starts the "
@@ -103,23 +118,27 @@ msgstr ""
 "Install_vosk_srt.zip>`). Depois de transferir, um duplo-click inicia a "
 "instalação."
 
-#: ../../effects_and_compositions/speech_to_text.rst:57
+#: ../../effects_and_compositions/speech_to_text.rst:71
 msgid "Install a language"
 msgstr "Instalar uma língua"
 
-#: ../../effects_and_compositions/speech_to_text.rst:59
+#: ../../effects_and_compositions/speech_to_text.rst:73
+#, fuzzy
+#| msgid ""
+#| "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to "
+#| "Text page`"
 msgid ""
 "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
-"page`"
+"page`, select the speech engine VOSK"
 msgstr ""
 "Vá a :menuselection:`Configuração --> Configurar o Kdenlive... --> Fala para "
 "Texto`"
 
-#: ../../effects_and_compositions/speech_to_text.rst:61
+#: ../../effects_and_compositions/speech_to_text.rst:75
 msgid "Click on the link to get a language model."
 msgstr "Carregue na ligação para obter o modelo de uma língua."
 
-#: ../../effects_and_compositions/speech_to_text.rst:66
+#: ../../effects_and_compositions/speech_to_text.rst:80
 msgid ""
 "Drag & drop the language you want from the vosk-model download page to the "
 "model window, and it will download and extract it for you."
@@ -127,54 +146,144 @@ msgstr ""
 "Arraste & largue a língua que deseja na página de transferências do 'vosk-"
 "model' na janela do modelo, para que transfira e extraia o mesmo para si."
 
-#: ../../effects_and_compositions/speech_to_text.rst:71
+#: ../../effects_and_compositions/speech_to_text.rst:85
+#, fuzzy
+#| msgid ""
+#| "If you have problems press on the :guilabel:`Check configuration` button."
 msgid ""
-"If you have problems press on the :guilabel:`Check configuration` button."
+"If you have problems or check for updates click on the :guilabel:`Check "
+"configuration` button."
 msgstr ""
 "Se tiver problemas, carregue no botão :guilabel:`Verificar a configuração`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:74
+#: ../../effects_and_compositions/speech_to_text.rst:89
+msgid "Whisper"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:93
+msgid ""
+"OpenAI-Whisper is a speech recognition model for general use. It is trained "
+"on a large dataset of diverse audio and is capable of performing speech "
+"translation, and language identification."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:95
+msgid ""
+"Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
+"Whisper creates sentences with punctuation marks, even in Base mode."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:101
+msgid ""
+"When you switch first time to Whisper you have to install the missing "
+"dependencies first (about 2GB to download)."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:107
+msgid "When all is correct configured, you get this screen."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:109
+msgid ""
+":guilabel:`Model` Select the model. More details on the `Whisper source code "
+"page <https://github.com/openai/whisper>`_ (default: Base)"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:111
+msgid ""
+":guilabel:`Language` Select the language if Autodetect is not accurate "
+"(default: Autodetect)"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:113
+msgid ":guilabel:`Device` To keep compatibility only CPU is available."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:115
+msgid ""
+":guilabel:`Translate text to english` This translates non English text to "
+"English while recognition."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:117
+#, fuzzy
+#| msgid ""
+#| "If you have problems press on the :guilabel:`Check configuration` button."
+msgid ""
+"You can check for updates by clicking on :guilabel:`Check configuration`"
+msgstr ""
+"Se tiver problemas, carregue no botão :guilabel:`Verificar a configuração`."
+
+#: ../../effects_and_compositions/speech_to_text.rst:121
 msgid "Speech recognition"
 msgstr "Reconhecimento de fala"
 
-#: ../../effects_and_compositions/speech_to_text.rst:77
+#: ../../effects_and_compositions/speech_to_text.rst:124
+#, fuzzy
+#| msgid "Delete the selection."
+msgid "Select the speech engine"
+msgstr "Apague a selecção."
+
+#: ../../effects_and_compositions/speech_to_text.rst:128
+msgid "Enable :menuselection:`View --> Speech Editor` menu item."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:133
+msgid ""
+"Click on the :guilabel:`Hamburger Menu` and select :guilabel:`Configure "
+"Speech Recognition`. This brings you to :ref:`Configure Speech to Text "
+"<configure_speech_to_text>`, select the engine and click :guilabel:`OK.`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:135
+msgid ""
+":guilabel:`Translate to english` is only available with the Whisper speech "
+"engine. It translates non English text to English while recognition."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:138
 msgid "Creating subtitle by speech recognition"
 msgstr "Criação de legendas por reconhecimento de fala"
 
-#: ../../effects_and_compositions/speech_to_text.rst:82
+#: ../../effects_and_compositions/speech_to_text.rst:143
+#: ../../effects_and_compositions/speech_to_text.rst:170
+msgid "Shown with the VOSK engine"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:145
 msgid "Mark the timeline zone you want to recognize (adjust the blue line)."
 msgstr ""
 "Marque a zona da linha temporal onde deseja fazer o reconhecimento (ajuste a "
 "linha azul)."
 
-#: ../../effects_and_compositions/speech_to_text.rst:84
+#: ../../effects_and_compositions/speech_to_text.rst:147
 msgid "Click on the :guilabel:`Speech recognition` icon."
 msgstr "Carregue no ícone do :guilabel:`Reconhecimento de fala`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:86
+#: ../../effects_and_compositions/speech_to_text.rst:149
 msgid "Choose the language."
 msgstr "Escolha a língua."
 
-#: ../../effects_and_compositions/speech_to_text.rst:88
+#: ../../effects_and_compositions/speech_to_text.rst:151
 msgid "Choose how the selected zone should be applied."
 msgstr "Escolha como deverá ser aplicada a zona seleccionada."
 
-#: ../../effects_and_compositions/speech_to_text.rst:90
+#: ../../effects_and_compositions/speech_to_text.rst:153
 msgid "Press on the :guilabel:`Process` button."
 msgstr "Carregue no botão :guilabel:`Processar`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:92
+#: ../../effects_and_compositions/speech_to_text.rst:155
 msgid "The subtitle gets created and inserted automatically."
 msgstr "A legenda é criada e inserida automaticamente."
 
-#: ../../effects_and_compositions/speech_to_text.rst:94
+#: ../../effects_and_compositions/speech_to_text.rst:157
 msgid ""
 "Remark: Only timeline zone is implemented for now in automatic subtitles."
 msgstr ""
 "Comentário: Só estão implementadas as zonas da linha temporal para as "
 "legendas automáticas."
 
-#: ../../effects_and_compositions/speech_to_text.rst:96
+#: ../../effects_and_compositions/speech_to_text.rst:159
 msgid ""
 "Remark to 4: The default is to analyze only the :guilabel:`timeline zone "
 "(all tracks)` (the blue bar in the timeline ruler). Set the zone in the "
@@ -188,23 +297,27 @@ msgstr ""
 "kbd:`O` para definir os pontos de entrada e saída). A opção dos :guilabel:"
 "`Clips seleccionados` analisa apenas o 'clip' seleccionado."
 
-#: ../../effects_and_compositions/speech_to_text.rst:99
+#: ../../effects_and_compositions/speech_to_text.rst:162
 msgid "Creating clips by speech recognition"
 msgstr "Criar 'clips' com o reconhecimento de fala"
 
-#: ../../effects_and_compositions/speech_to_text.rst:101
+#: ../../effects_and_compositions/speech_to_text.rst:164
+#, fuzzy
+#| msgid ""
+#| "This is useful for interviews and other speech-related footage. Enable "
+#| "the :menuselection:`View --> Text Edit` menu item."
 msgid ""
 "This is useful for interviews and other speech-related footage. Enable the :"
-"menuselection:`View --> Text Edit` menu item."
+"menuselection:`View --> Speech Editor` menu item."
 msgstr ""
 "Isto é útil para as entrevistas e outras filmagens relacionadas com falas. "
 "Active a opção do menu :menuselection:`Ver --> Edição do Texto`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:107
+#: ../../effects_and_compositions/speech_to_text.rst:172
 msgid "Select a clip in the project bin."
 msgstr "Seleccione um 'clip' no grupo do projecto."
 
-#: ../../effects_and_compositions/speech_to_text.rst:109
+#: ../../effects_and_compositions/speech_to_text.rst:174
 msgid ""
 "If needed set in/out point in the clip monitor and enable :guilabel:"
 "`Selected zone only` selection box. This will only recognize the text inside "
@@ -214,28 +327,28 @@ msgstr ""
 "a opção :guilabel:`Apenas a zona seleccionada`. Isto só irá reconhecer o "
 "texto dentro da zona."
 
-#: ../../effects_and_compositions/speech_to_text.rst:111
+#: ../../effects_and_compositions/speech_to_text.rst:176
 msgid "Choose the correct language."
 msgstr "Escolha a língua correcta."
 
-#: ../../effects_and_compositions/speech_to_text.rst:113
+#: ../../effects_and_compositions/speech_to_text.rst:178
 msgid "Press the :guilabel:`Start Recognition` button."
 msgstr "Carregue no botão para :guilabel:`Iniciar o Reconhecimento`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:115
+#: ../../effects_and_compositions/speech_to_text.rst:180
 msgid "Selecting the text you want to either."
 msgstr "Ou então seleccione o texto que deseja."
 
-#: ../../effects_and_compositions/speech_to_text.rst:117
+#: ../../effects_and_compositions/speech_to_text.rst:182
 msgid "Put into the timeline."
 msgstr "Coloque na linha temporal."
 
-#: ../../effects_and_compositions/speech_to_text.rst:119
+#: ../../effects_and_compositions/speech_to_text.rst:184
 msgid ":guilabel:`Save` edited text as a new playlist."
 msgstr ""
 "Pode :guilabel:`Gravar` o texto editado como uma nova lista de reprodução."
 
-#: ../../effects_and_compositions/speech_to_text.rst:121
+#: ../../effects_and_compositions/speech_to_text.rst:186
 msgid ""
 "Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
 "kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
@@ -243,23 +356,27 @@ msgstr ""
 "Adicione um favorito. Poderá ir para esses favoritos na linha temporal com o "
 "atalho :kbd:`Alt + cursores` ou editar o favorito com um duplo-click."
 
-#: ../../effects_and_compositions/speech_to_text.rst:123
+#: ../../effects_and_compositions/speech_to_text.rst:188
 msgid "Delete the selection."
 msgstr "Apague a selecção."
 
-#: ../../effects_and_compositions/speech_to_text.rst:125
+#: ../../effects_and_compositions/speech_to_text.rst:190
 msgid "Here you can search in the text."
 msgstr "Aqui poderá procurar no texto."
 
-#: ../../effects_and_compositions/speech_to_text.rst:127
+#: ../../effects_and_compositions/speech_to_text.rst:192
 msgid "And navigate up or down in the text."
 msgstr "E navegar para cima ou para baixo no texto."
 
-#: ../../effects_and_compositions/speech_to_text.rst:132
+#: ../../effects_and_compositions/speech_to_text.rst:197
 msgid "Silence detection"
 msgstr "Detecção do silêncio"
 
-#: ../../effects_and_compositions/speech_to_text.rst:134
+#: ../../effects_and_compositions/speech_to_text.rst:199
+msgid "This works with the VOSK engine only."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:201
 msgid ""
 "Open the clip in the clip monitor and open the speech editor window (:"
 "menuselection:`View --> Speech Editor`) ."
@@ -267,7 +384,7 @@ msgstr ""
 "Abra o 'clip' no monitor do 'clip' e abra a janela de edição da fala (:"
 "menuselection:`Ver --> Editor de Fala`) ."
 
-#: ../../effects_and_compositions/speech_to_text.rst:136
+#: ../../effects_and_compositions/speech_to_text.rst:203
 msgid ""
 "Select your language or :ref:`install_language` and download the model for "
 "it."
@@ -275,11 +392,11 @@ msgstr ""
 "Seleccione a sua língua ou :ref:`install_language` e transfira o modelo para "
 "ela."
 
-#: ../../effects_and_compositions/speech_to_text.rst:138
+#: ../../effects_and_compositions/speech_to_text.rst:205
 msgid "Then click :guilabel:`Start Recognition` button."
 msgstr "Depois carregue no botão :guilabel:`Iniciar o Reconhecimento`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:140
+#: ../../effects_and_compositions/speech_to_text.rst:207
 msgid ""
 "Once this is done, click on the time-code where no-speech is indicated and "
 "just hit the :kbd:`delete` key. Repeat the operation for all the parts you "
@@ -291,7 +408,7 @@ msgstr ""
 "Repita a operação para todas as partes que deseja remover, incluindo quando "
 "alguém diz algo que não quer ouvir na sua edição final."
 
-#: ../../effects_and_compositions/speech_to_text.rst:142
+#: ../../effects_and_compositions/speech_to_text.rst:209
 msgid ""
 "Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
 "on the :guilabel:`Save` button on the lower left part of the speech editor "
