@@ -32,7 +32,7 @@ Menubar
 
 Not really a toolbar but it shows the :ref:`Menu` and :ref:`workspace_layouts`.
 
-It can be switched on/off in :menuselection:`Settings --> Show Menubar` or by :kbd:`CTRL +M`.
+It can be switched on/off in :menuselection:`Settings --> Show Menubar` or by :kbd:`Ctrl+M`.
 
 .. versionadded:: 22.12
 
@@ -56,7 +56,7 @@ Main Toolbar
 .. image:: /images/Kdenlive_Main_tool_bar.png
    :alt: Kdenlive_Main_tool_bar
 
-The main toolbar can be configured in :menuselection:`Settings --> Configure Toolbars` or right-click on the toolbar and choose :guilabel:`Configure Toolbars`. It can be switched on/off in :menuselection:`Settings --> Toolbars Shown`.
+The main toolbar can be configured in :menuselection:`Settings --> Configure Toolbars` or right-click on the toolbar and choose :guilabel:`Configure Toolbars...`. It can be switched on/off in :menuselection:`Settings --> Toolbars Shown`.
 
 
 .. _extra_toolbar:
@@ -67,10 +67,10 @@ Extra Toolbar
 .. image:: /images/Kdenlive_extra_toolbar.png
    :alt: Kdenlive_extra_toolbar
 
-The extra toolbar contains by default the **Render** button. The extra toolbar can be configured in :menuselection:`Settings --> Configure Toolbars` or right-click on the toolbar and choose :guilabel:`Configure Toolbars`. It can be switched on/off in :menuselection:`Settings --> Toolbars Shown`.
+The extra toolbar contains by default the **Render** button. The extra toolbar can be configured in :menuselection:`Settings --> Configure Toolbars` or right-click on the toolbar and choose :guilabel:`Configure Toolbars...`. It can be switched on/off in :menuselection:`Settings --> Toolbars Shown`.
 
 
-.. _timeline_toolbar:
+.. _timeline_toolbar3:
 
 Timeline Toolbar
 ----------------
@@ -78,7 +78,7 @@ Timeline Toolbar
 .. image:: /images/Kdenlive_timeline_toolbar.png
    :alt: Kdenlive_timeline_toolbar
 
-The timeline toolbar can be configured in :menuselection:`Settings --> Configure Toolbars` or right-click on the toolbar and choose :guilabel:`Configure Toolbars`. It cannot be switched off.
+The timeline toolbar can be configured in :menuselection:`Settings --> Configure Toolbars` or right-click on the toolbar and choose :guilabel:`Configure Toolbars...`. It cannot be switched off.
 
 
 
@@ -91,21 +91,34 @@ Statusbar
    :align: left
    :alt: kdenlive_bottom_toolbar01
 
-Not really a toolbar but the statusbar shows on the left side hints what you can do and on the right side switches and the zoom slider. It can be switched on/off in :menuselection:`Settings --> Show Statusbar`.
-
+Not really a toolbar but the statusbar shows on the left hints what you can do, and on the right has switches and the zoom slider. It can be switched on and off in :menuselection:`Settings --> Show Statusbar`.
 
 For more info on the statusbar see :ref:`editing`, :ref:`status_bar` .
 
 
+.. _configuring_the_toolbars:
+
 Configuring the Toolbars
 ------------------------
 
-The toolbars that are available on these are defined in :menuselection:`Settings --> Configure Toolbars`.
+The tools and actions/commands that are available in the toolbars are defined in :menuselection:`Settings --> Configure Toolbars`. Alternatively, right-click anywhere in a toolbar and select :guilabel:`Configure Toolbars...`.
 
 
-.. image:: /images/kdenlive_configure_toolbars.png
-   :align: left
-   :alt: kdenlive_configure_toolbars01
+.. image:: /images/kdenlive_configure_toolbars.webp
+   :alt: Configure Toolbars Dialogue Window
+
+1 - Select which toolbar you want to configure
+
+2 - List of available actions/commands/tools. You can search for them in the 'filter' field. Select the item you want to add to the toolbar and click on the right-arrow in (4)
+
+3 - List of actions/commands/tools already available in the selected toolbar. You can search for items in the 'filter' field. Select the item you want to process and click on an arrow in (4). Arrows up and down move the selected item up or down in the list. Arrow left deletes it from the list.
+
+4 - Arrows to move items around in the list (up or down) and into or out of the lists (left or right).
+
+.. tip::
+
+   If you are running out of screen space because you have many tracks it is a good idea to move commands or actions from the menu to the Extra or Timeline Toolbar, and also from the Status Bar to the Timeline Toolbar. Then switch off the menu bar in :menuselection:`Settings --> Show Menubar` or with :kbd:`Ctrl+M` and the Status Bar in :menuselection:`Settings --> Show Statusbar`. Please note that with the Status Bar off you will not get any keybinding information.
+
 
 
 Hiding and Showing the Toolbars
