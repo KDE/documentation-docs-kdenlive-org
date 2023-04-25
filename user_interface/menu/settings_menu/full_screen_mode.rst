@@ -12,8 +12,6 @@
 Full Screen Mode
 ================
 
-.. contents::
-
 
 Selecting this causes **Kdenlive** to fill the entire screen. Select this menu item again to undo full screen mode.
 

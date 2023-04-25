@@ -14,7 +14,6 @@
 Show Title Bars
 ===============
 
-.. contents::
 
 This toggles the display of the title bar and control buttons on dockable windows in **Kdenlive**.
 

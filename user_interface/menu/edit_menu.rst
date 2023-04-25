@@ -16,7 +16,6 @@
 Edit Menu
 =========
 
-.. contents::
 
 Undo
 ----

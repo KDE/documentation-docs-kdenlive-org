@@ -10,7 +10,6 @@
 Generators
 ==========
 
-.. contents::
 
 Used to create a clip with either a countdown timer or noise.
 

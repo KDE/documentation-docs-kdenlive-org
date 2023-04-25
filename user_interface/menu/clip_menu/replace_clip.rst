@@ -11,7 +11,6 @@
 Clip Menu — Replace Clip
 ========================
 
-.. contents::
 
 .. versionadded:: 20.04.0
 

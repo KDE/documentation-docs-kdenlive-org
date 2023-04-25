@@ -12,8 +12,6 @@
 Toolbars Shown
 ==============
 
-.. contents::
-
 
 Toggles the display of the Main and Extra :ref:`toolbars`
 

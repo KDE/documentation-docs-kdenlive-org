@@ -11,7 +11,6 @@
 Rename Clip
 ===========
 
-.. contents::
 
 Change the name of a clip in the Project Bin to an arbitrary name. Does not rename the file on the file system.
 

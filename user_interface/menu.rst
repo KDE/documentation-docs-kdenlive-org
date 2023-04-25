@@ -13,7 +13,7 @@ Menu Reference
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
    :glob:
 
    menu/file_menu

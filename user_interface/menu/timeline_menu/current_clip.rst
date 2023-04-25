@@ -9,8 +9,6 @@
 Current Clip Menu
 =================
 
-.. contents::
-
 
 .. image:: /images/Kdenlive_timeline_current_clip.png
 

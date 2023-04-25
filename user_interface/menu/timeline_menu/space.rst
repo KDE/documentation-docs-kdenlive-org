@@ -14,7 +14,6 @@
 Timeline>Space
 =================
 
-.. contents::
 
 .. _insert_space:
 

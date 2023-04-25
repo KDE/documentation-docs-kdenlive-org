@@ -12,10 +12,6 @@
 Audio Spectrum
 ==============
 
-.. contents::
-
-
-
 
 This allows you to monitor the audio properties of your clip in detail. The graph only display data while the clip is playing in the clip or project monitor.
 

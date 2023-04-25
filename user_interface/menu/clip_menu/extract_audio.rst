@@ -15,7 +15,6 @@
 Extract Audio
 =============
 
-.. contents::
 
 This feature extracts the audio out of a video clip into a :file:`.WAV` file and adds it to the :ref:`project_tree`.
 

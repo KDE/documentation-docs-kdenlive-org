@@ -14,8 +14,6 @@
 Download New Render Profiles
 ============================
 
-.. contents::
-
 
 This feature allows you to download new render profiles that have been shared by the community. These will then appear as options in the :ref:`render` window.
 

@@ -12,8 +12,6 @@
 View Timeline
 =============
 
-.. contents::
-
 
 Toggles the display of the :ref:`timeline`
 

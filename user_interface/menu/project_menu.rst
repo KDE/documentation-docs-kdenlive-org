@@ -15,7 +15,6 @@
 Project Menu
 ============
 
-.. contents::
 
 .. image:: /images/Kdenlive_Project_Menu.png
   :align: center

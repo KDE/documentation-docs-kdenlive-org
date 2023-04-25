@@ -13,7 +13,6 @@
 Automatic Scene Split
 =====================
 
-.. contents::
 
 This job detects Scene changes in the clip and create markers or cut the clip into sub clips.
 

@@ -22,7 +22,6 @@
 Edit Clip
 =========
 
-.. contents::
 
 This option is available from :ref:`clip_menu` or by right-click on the clip in the :ref:`project bin <clip_right-click>` for following clip types:
 

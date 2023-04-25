@@ -13,7 +13,6 @@
 Clip Monitor
 ============
 
-.. contents::
 
 Toggles the display of the :ref:`monitors`.
 

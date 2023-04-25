@@ -9,8 +9,6 @@
 Color Theme
 ===========
 
-.. contents::
-
 
 .. image:: /images/kdenlive_settings-themes.png
   :align: left

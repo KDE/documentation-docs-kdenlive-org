@@ -16,7 +16,6 @@
 View Menu
 =========
 
-.. contents::
 
 From the View menu you can control which windows appear on the screen. You can also save the layout or load a saved layout.
 

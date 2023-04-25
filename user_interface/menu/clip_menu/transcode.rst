@@ -13,7 +13,6 @@
 Transcode Menu Item
 ===================
 
-.. contents::
 
 From right-click on a clip in :ref:`project_tree`, one of the items that appears in the menu is the :menuselection:`Transcode` submenu.
 

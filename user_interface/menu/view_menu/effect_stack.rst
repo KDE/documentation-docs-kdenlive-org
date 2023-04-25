@@ -12,9 +12,6 @@
 Effect Stack
 ============
 
-.. contents::
-
-
 
 Toggles the display of the :ref:`effects`
 

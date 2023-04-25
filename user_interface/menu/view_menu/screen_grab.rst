@@ -10,10 +10,6 @@
 Screen Grab
 ===========
 
-.. contents::
-
-
-
 
 .. image:: /images/Kdenlive_screen-grab.png
    :align: left

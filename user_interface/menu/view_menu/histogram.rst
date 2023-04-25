@@ -12,8 +12,6 @@
 Histogram
 =========
 
-.. contents::
-
 
 This scope displays a frequency histogram of the luminance of the color components of the video. This information is useful when used in combination with color correction effects to perform color correction on the video. Color correction includes increasing the brightness or adjusting the white balance to ensure that white remains white and not blue.
 

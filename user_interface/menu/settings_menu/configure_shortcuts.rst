@@ -17,8 +17,6 @@
 Configure Shortcuts
 ===================
 
-.. contents::
-
 
 Allows modification of the keyboard shortcuts for various **Kdenlive** tasks.
 

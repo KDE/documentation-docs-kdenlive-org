@@ -12,7 +12,6 @@
 Clip Menu — Locate Clip
 =======================
 
-.. contents::
 
 .. image:: /images/20210508-kdenlive-21.04-Locate_Clip.png
   :align: center

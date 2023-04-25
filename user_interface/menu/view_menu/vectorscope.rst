@@ -13,7 +13,6 @@
 Vectorscope Window
 ==================
 
-.. contents::
 
 This window allows you to monitor the colour properties of your clip in detail.
 

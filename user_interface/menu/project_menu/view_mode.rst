@@ -10,7 +10,6 @@
 View Mode
 =========
 
-.. contents::
 
 Available from the :ref:`project_menu` menu this function allows switching between :guilabel:`Tree view` and :guilabel:`Icon view` on the Project Bin.
 

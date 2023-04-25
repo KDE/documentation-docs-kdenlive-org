@@ -10,7 +10,6 @@
 Clip Menu — Reload Clip
 =======================
 
-.. contents::
 
 .. image:: /images/20210508-kdenlive-21.04-reload_clip.png
   :align: center

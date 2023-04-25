@@ -14,7 +14,6 @@
 Adjust Profile to Current Clip
 ==============================
 
-.. contents::
 
 This function is available from the :ref:`project_menu` menu.
 

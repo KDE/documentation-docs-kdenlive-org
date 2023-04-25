@@ -109,12 +109,9 @@ Widgets on the Clip Monitor
 
 10) Fast Forward button - click to increase the playback speed (cycles through 1.5, 2, 3, 5.5 and 10x play back speed)
 
-<<<<<<< HEAD
 11) Edit Mode button - Click this button to toggle edit mode in the project monitor. If edit mode is enabled effects like transform show a red box for moving and sizing the clip.
 
 
-=======
->>>>>>> 57aa49c55 (Updated screenshots for clip monitor widgets, creating zones in project monitor and project monitor widgets. Added text to explain clip monitor widgets 7-11, and updated instructions for zone creation in project monitor.)
 .. _clip_monitor_hamburger:
 
 Hamburger menu

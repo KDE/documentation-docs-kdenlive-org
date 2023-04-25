@@ -13,8 +13,6 @@
 Configure Notifications
 =======================
 
-.. contents::
-
 
 This feature allows you to customize the feedback the application provides when certain events happen. For example, you can change the sound effect that fires when rendering finishes.
 

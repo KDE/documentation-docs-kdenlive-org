@@ -15,7 +15,6 @@
 Clip Menu
 =========
 
-.. contents::
 
 The functions controlled from this menu affect the clip that is selected in the timeline. This is in contrast to :ref:`project_menu` functions which affect the clips selected in the Project Bin.
 
@@ -71,7 +70,8 @@ The other menu items which appear when in the Clip menu are also available from 
 * :ref:`delete_clip`
 
 .. toctree::
-   :caption: Contents:
+   :hidden:
+   :glob:
 
    clip_menu/menu_markers
    clip_menu/clip_in_timeline

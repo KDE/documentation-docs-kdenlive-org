@@ -22,8 +22,6 @@ These are the menu items that are available when you right click a clip in the :
 .. image:: /images/project_monitor_rightclick.gif
    :alt: Project Monitor right-click menu options
 
-.. contents::
-
 
 Play...
 -------

@@ -13,8 +13,6 @@
 Download New Wipes
 ==================
 
-.. contents::
-
 
 This feature allows you to download and install files that can be used as Wipe files in the :ref:`wipe` transition.  These files are greyscale images in the pgm format. 
 

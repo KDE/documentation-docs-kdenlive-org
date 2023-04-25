@@ -10,7 +10,6 @@
 Undo History
 ============
 
-.. contents::
 
 There may be times when you want to quickly restore your project to the state it was in several changes ago. Instead of repeatedly executing single undo operations, it might be more efficient to jump right to the operation in question – if you could easily locate it.
 

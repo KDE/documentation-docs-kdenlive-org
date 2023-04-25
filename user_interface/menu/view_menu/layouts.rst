@@ -10,7 +10,6 @@
 Layouts
 =======
 
-.. contents::
 
 Load Layout
 -----------

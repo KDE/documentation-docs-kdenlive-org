@@ -17,7 +17,6 @@
 Clip In Timeline
 ================
 
-.. contents::
 
 This menu item is available from :ref:`project_tree` on a clip in the Project Bin or under the :ref:`project_menu` menu when a clip is selected in the Project Bin.  It is useful for quickly locating all the places where a clip is used on the timeline.
 

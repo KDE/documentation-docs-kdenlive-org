@@ -11,7 +11,6 @@
 Clip Menu - Markers
 ===================
 
-.. contents::
 
 .. image:: /images/Kdenlive_Clip_menu.png
 

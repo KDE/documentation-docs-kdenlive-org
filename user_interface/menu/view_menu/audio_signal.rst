@@ -12,8 +12,6 @@
 Audio Signal
 ============
 
-.. contents::
-
 
 You can monitor the levels of the audio as the clip plays with this widget.
 

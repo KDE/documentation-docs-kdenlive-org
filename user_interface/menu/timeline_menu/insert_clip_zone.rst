@@ -12,7 +12,6 @@
 Insert Clip Zone in Timeline
 ============================
 
-.. contents::
 
 This menu item is available in the :menuselection:`Timeline` Menu on the :menuselection:`Insertion` sub menu. Shortcut is :kbd:`V`
 

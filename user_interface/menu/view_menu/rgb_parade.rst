@@ -13,8 +13,6 @@
 RGB Parade
 ==========
 
-.. contents::
-
 
 Displays a histogram of R, G and B components of the video data.  This data is a 3D histogram. 
 

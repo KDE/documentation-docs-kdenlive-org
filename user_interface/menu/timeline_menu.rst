@@ -23,7 +23,6 @@
 Timeline Menu
 =============
 
-.. contents::
 
 .. versionadded:: 22.12
 
@@ -68,7 +67,8 @@ Timeline Menu
 .. rst-class:: clear-both
 
 .. toctree::
-   :caption: Contents:
+   :hidden:
+   :glob:
 
    timeline_menu/current_clip
    timeline_menu/insert_clip_zone

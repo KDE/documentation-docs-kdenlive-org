@@ -12,8 +12,6 @@
 Transition
 ==========
 
-.. contents::
-
 
 Toggles the display of the :ref:`transitions`
 

@@ -10,7 +10,6 @@
 Clip Menu — Duplicate Clip
 ==========================
 
-.. contents::
 
 .. image:: /images/20210508-kdenlive-Duplicate_clip.png
   :align: center

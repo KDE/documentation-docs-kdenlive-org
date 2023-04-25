@@ -14,7 +14,6 @@
 Open Backup File
 ================
 
-.. contents::
 
 This allows you to open up the automatic backups of the projects that **Kdenlive** creates.
 

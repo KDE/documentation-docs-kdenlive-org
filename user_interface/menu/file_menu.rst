@@ -16,7 +16,6 @@
 File Menu
 =========
 
-.. contents::
 
 .. _new:
 
@@ -88,7 +87,7 @@ Quit
 Exits **Kdenlive**. Prompts you to save any unsaved changes. The default keyboard shortcut is :kbd:`Ctrl + Q`.
 
 .. toctree::
-   :caption: Contents:
+   :hidden:
    :glob:
 
    file_menu/*

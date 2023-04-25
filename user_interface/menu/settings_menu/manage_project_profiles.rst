@@ -12,8 +12,6 @@
 Manage Project Profiles
 =======================
 
-.. contents::
-
 
 This is available from the **Settings** menu.
 

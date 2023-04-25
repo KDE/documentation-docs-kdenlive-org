@@ -12,7 +12,6 @@
 Tool Menu
 =========
 
-.. contents::
 
 .. image:: /images/Kdenlive_tool_menu_selection_kde.png
   :align: center

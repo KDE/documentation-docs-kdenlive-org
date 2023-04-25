@@ -20,9 +20,6 @@
 Keyboard Shortcuts
 ==================
 
-.. contents::
-
-
 
 ..
   Copy/paste from EXCEL sheet direct into the online converter.

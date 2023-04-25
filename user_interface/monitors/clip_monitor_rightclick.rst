@@ -11,8 +11,6 @@
 Clip Monitor - Right Click Menu
 ===============================
 
-.. contents::
-
 
 These are the menu items that are available when you right click a clip in the :ref:`monitors`. These actions effect the clip that is currently selected in the :ref:`project_tree`. Similar menu items are available from a Right click menu in the Project monitor. However project monitor menu items effect the currently selected clip on the timeline.
 

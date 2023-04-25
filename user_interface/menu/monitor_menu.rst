@@ -15,10 +15,6 @@
 Monitor Menu
 ============
 
-.. contents::
-
-
-
 
 .. image:: /images/kdenlive_monitor_menu.png
   :align: left

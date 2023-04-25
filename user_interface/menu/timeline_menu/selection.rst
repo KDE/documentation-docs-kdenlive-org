@@ -9,8 +9,6 @@
 Selection Menu
 ==============
 
-.. contents::
-
 
 .. image:: /images/Kdenlive_timeline_menu_selection.png
 

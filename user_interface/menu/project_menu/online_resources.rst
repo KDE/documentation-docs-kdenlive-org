@@ -17,7 +17,6 @@
 Online Resources
 ================
 
-.. contents::
 
 Available from the :ref:`project_menu` menu and the :ref:`clips` dropdown,  this feature allows you to search online audio, video and graphics libraries for resources to download.
 

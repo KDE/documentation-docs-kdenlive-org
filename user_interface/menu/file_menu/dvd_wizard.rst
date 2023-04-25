@@ -15,10 +15,6 @@
 DVD Wizard
 ==========
 
-.. contents::
-
-
-
 
 .. note:: Removed since Version 21.08
 

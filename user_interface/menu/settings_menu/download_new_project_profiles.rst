@@ -10,8 +10,6 @@
 Download New Project Profiles
 =============================
 
-.. contents::
-
 
 **Note:** Since around August, 2013 when the kdenlive.org web site was refurbished, this feature has been unavailable and the "Get Hot New Stuff" window will wait forever to update. See Mantis `3133 <https://bugs.kdenlive.org/view.php?id=3133>`_. 
 

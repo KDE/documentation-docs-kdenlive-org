@@ -19,8 +19,6 @@
 Toolbars
 ========
 
-.. contents::
-   
 
 .. _menubar:
 
