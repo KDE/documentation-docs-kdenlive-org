@@ -48,7 +48,7 @@ Timeline Menu
 - :ref:`Group Clips <group_clips>`
 - :ref:`Ungroup Clips <ungroup_clips>`
 - :ref:`Add Timeline Selection to Library <the_library>`
-- :ref:`Tracks <tracks>`
+- :ref:`Tracks <menu_tracks>`
 - :ref:`Add Effect <effects>`
 - Disable Timeline Effects
 - Show video thumbnails

@@ -93,7 +93,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 * :ref:`Create Animation... <add_animation>` (*new in version 22.08*)
 
 
-* :ref:`Add Sequence... <add_sequence>` (*new in version 23.04*)
+* :ref:`Add Sequence... <menu_add_sequence>` (*new in version 23.04*)
    
 
 * :ref:`online_resources`

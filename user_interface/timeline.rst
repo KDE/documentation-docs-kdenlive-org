@@ -42,7 +42,7 @@ Timeline Areas
 
 1 -  **Timeline**. This is the area where you drop your clips to the various tracks. It shows the clips with or without thumbnails, with or without the audio frequency curve, transitions and compositions, as well as the markers, guides and keyframes (if any).
 
-2 - **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It also shows the current zone (if defined) and the preview render zones and their respective render status. A more detailed description can be found :ref:`further down here <timeline_ruler>`. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. For the right-click menu see the :ref:`detailed description <_timeline_ruler_rightclick>`.
+2 - **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It also shows the current zone (if defined) and the preview render zones and their respective render status. A more detailed description can be found :ref:`further down here <timeline_ruler>`. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. For the right-click menu see the :ref:`detailed description <timeline_ruler_right-click_menu>`.
 
 3 - **Timeline Toolbar** - This is an important area where the tools for working with the clips in the timeline are easily accessible. Feel free to adjust the timeline toolbar to accommodate your workflow. For details how to do that refer to the section about toolbar configuration.
 
@@ -191,7 +191,7 @@ The timeline ruler shows the timecode information in the notation of hh:mm:ss:ff
 .. image:: /images/kdenlive_timeline_ruler.webp
    :alt: Timeline Ruler
 
-The timeline zone can be moved by dragging the square in the middle, and sized by either dragging the left or right edge or by positioning the playhead in the timneline and prssing :kbd:`I` or :kbd:`O` to set in-point and out-point, respectively.
+The timeline zone can be moved by dragging the square in the middle, and sized by either dragging the left or right edge or by positioning the playhead in the timeline and pressing :kbd:`I` or :kbd:`O` to set in-point and out-point, respectively.
 For more detailed information on preview render please refer to this section of the documentation.
 
 .. image:: /images/Kdenlive_timeline_ruler_context-menu.png
@@ -250,7 +250,7 @@ This area shows some options for a track:
 
 .. container:: clear-both
 
-   .. image:: /images/kdenlive_timeline3.webp
+   .. image:: /images/kdenlive_timeline4.webp
       :align: left
       :alt: Track header information
    

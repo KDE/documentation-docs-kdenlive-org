@@ -144,7 +144,7 @@ If Glaxnimate is not installed on your computer following message pops-up:
 For Glaxnimate installation see :ref:`here <default_apps>`.
 
 
-.. _add_sequence:
+.. _menu_add_sequence:
 
 Add Sequence
 ------------
