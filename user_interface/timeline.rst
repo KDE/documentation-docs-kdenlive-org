@@ -46,7 +46,7 @@ Timeline Areas
 
 3 - **Timeline Toolbar** - This is an important area where the tools for working with the clips in the timeline are easily accessible. Feel free to adjust the timeline toolbar to accommodate your workflow. For details how to do that refer to the section about toolbar configuration.
 
-4 - **Track Header**. This area displays track header data like track type (V for video, A for audio), track number, with your without track effects, hidden or muted, locked or unlocked, and an optional track name. Each track can be adjusted in height individually as well as expanded or collapsed. A more deteiled description can be found :ref:`further down here <track_header>`. For the right-click menu see the detailed section.
+4 - **Track Header**. This area displays track header data like track type (V for video, A for audio), track number, with your without track effects, hidden or muted, locked or unlocked, and an optional track name. Each track can be adjusted in height individually as well as expanded or collapsed. A more detailed description can be found :ref:`further down here <track_header>`. For the right-click menu see the detailed section.
 
 
 Timeline
