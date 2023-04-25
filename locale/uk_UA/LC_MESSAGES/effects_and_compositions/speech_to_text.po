@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-17 00:38+0000\n"
-"PO-Revision-Date: 2022-06-17 06:56+0300\n"
+"POT-Creation-Date: 2023-04-24 00:40+0000\n"
+"PO-Revision-Date: 2023-04-24 17:26+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -58,6 +58,7 @@ msgstr ""
 "srt:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:42
+#: ../../effects_and_compositions/speech_to_text.rst:62
 msgid "Linux"
 msgstr "Linux"
 
@@ -73,18 +74,12 @@ msgstr ""
 "відданої у терміналі. Якщо Python не встановлено, ви можете знайти безліч "
 "інструкцій з його встановлення в інтернеті."
 
-#: ../../effects_and_compositions/speech_to_text.rst:46
-msgid ""
-"To install vosk and srt open a terminal and run: ``pip3 install vosk srt``"
-msgstr ""
-"Щоб встановити vosk і srt, відкрийте програму-термінал і віддайте команду: "
-"``pip3 install vosk srt``"
-
-#: ../../effects_and_compositions/speech_to_text.rst:49
+#: ../../effects_and_compositions/speech_to_text.rst:48
+#: ../../effects_and_compositions/speech_to_text.rst:66
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../effects_and_compositions/speech_to_text.rst:51
+#: ../../effects_and_compositions/speech_to_text.rst:50
 msgid ""
 "Download python from https://www.python.org/downloads/ for installation on "
 "your computer."
@@ -92,7 +87,25 @@ msgstr ""
 "Пакунки для встановлення Python можна отримати на `цій сторінці <https://www."
 "python.org/downloads/>`_."
 
-#: ../../effects_and_compositions/speech_to_text.rst:52
+#: ../../effects_and_compositions/speech_to_text.rst:57
+#| msgid "Speech recognition"
+msgid "Speech Engines"
+msgstr "Рушії озвучення"
+
+#: ../../effects_and_compositions/speech_to_text.rst:60
+msgid "VOSK"
+msgstr "VOSK"
+
+#: ../../effects_and_compositions/speech_to_text.rst:64
+#| msgid ""
+#| "To install vosk and srt open a terminal and run: ``pip3 install vosk srt``"
+msgid ""
+"To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``"
+msgstr ""
+"Щоб встановити VOSK і srt, відкрийте програму-термінал і віддайте команду: "
+"``pip3 install vosk srt``"
+
+#: ../../effects_and_compositions/speech_to_text.rst:68
 msgid ""
 "Download this batch file (:download:`Install_vosk_srt.zip </files/"
 "Install_vosk_srt.zip>`). After download a double click starts the "
@@ -102,23 +115,26 @@ msgstr ""
 "zip </files/Install_vosk_srt.zip>`. Після отримання файла двічі клацніть на "
 "його пункті, щоб розпочати встановлення."
 
-#: ../../effects_and_compositions/speech_to_text.rst:57
+#: ../../effects_and_compositions/speech_to_text.rst:71
 msgid "Install a language"
 msgstr "Встановлення даних мови"
 
-#: ../../effects_and_compositions/speech_to_text.rst:59
+#: ../../effects_and_compositions/speech_to_text.rst:73
+#| msgid ""
+#| "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to "
+#| "Text page`"
 msgid ""
 "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
-"page`"
+"page`, select the speech engine VOSK"
 msgstr ""
 "Перейдіть :menuselection:`Параметри --> Налаштувати Kdenlive... --> сторінка "
-"«Перетворення звуку на текст»`"
+"«Перетворення звуку на текст»`, виберіть рушій озвучення VOSK"
 
-#: ../../effects_and_compositions/speech_to_text.rst:61
+#: ../../effects_and_compositions/speech_to_text.rst:75
 msgid "Click on the link to get a language model."
 msgstr "Натисніть посилання для отримання моделі мови."
 
-#: ../../effects_and_compositions/speech_to_text.rst:66
+#: ../../effects_and_compositions/speech_to_text.rst:80
 msgid ""
 "Drag & drop the language you want from the vosk-model download page to the "
 "model window, and it will download and extract it for you."
@@ -127,55 +143,168 @@ msgstr ""
 "vosk-model у вікно моделей — програма виконає автоматичне отримання і "
 "розпакування даних."
 
-#: ../../effects_and_compositions/speech_to_text.rst:71
+#: ../../effects_and_compositions/speech_to_text.rst:85
+#| msgid ""
+#| "If you have problems press on the :guilabel:`Check configuration` button."
 msgid ""
-"If you have problems press on the :guilabel:`Check configuration` button."
+"If you have problems or check for updates click on the :guilabel:`Check "
+"configuration` button."
 msgstr ""
-"Якщо виникають проблеми, натисніть кнопку :guilabel:`Перевірити "
+"Якщо виникають проблеми або ви хочете пошукати оновлення, натисніть кнопку"
+" :guilabel:`Перевірити "
 "налаштування`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:74
+#: ../../effects_and_compositions/speech_to_text.rst:89
+msgid "Whisper"
+msgstr "Whisper"
+
+#: ../../effects_and_compositions/speech_to_text.rst:93
+msgid ""
+"OpenAI-Whisper is a speech recognition model for general use. It is trained "
+"on a large dataset of diverse audio and is capable of performing speech "
+"translation, and language identification."
+msgstr ""
+"OpenAI-Whisper є модель розпізнавання мовлення для загального використання."
+" Її натреновано на великому наборі даних різних звукових фрагментів, і вона"
+" може виконувати переклад та визначення мови."
+
+#: ../../effects_and_compositions/speech_to_text.rst:95
+msgid ""
+"Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
+"Whisper creates sentences with punctuation marks, even in Base mode."
+msgstr ""
+"Whisper є повільнішим за VOSK на процесорі, але є точнішими за VOSK. Whisper"
+" створює речення зі знаками пунктуації, навіть у базовому режимі."
+
+#: ../../effects_and_compositions/speech_to_text.rst:101
+msgid ""
+"When you switch first time to Whisper you have to install the missing "
+"dependencies first (about 2GB to download)."
+msgstr ""
+"Якщо ви перший раз перемикаєтеся на Whisper, вам доведеться спочатку"
+" встановити пропущені залежності (доведеться отримати близько 2 ГБ даних)."
+
+#: ../../effects_and_compositions/speech_to_text.rst:107
+msgid "When all is correct configured, you get this screen."
+msgstr "Якщо все налаштовано правильно, ви отримаєте показане нижче вікно."
+
+#: ../../effects_and_compositions/speech_to_text.rst:109
+msgid ""
+":guilabel:`Model` Select the model. More details on the `Whisper source code "
+"page <https://github.com/openai/whisper>`_ (default: Base)"
+msgstr ""
+":guilabel:`Модель`: виберіть модель. Докладніше про це на `сторінці"
+" початкового коду Whisper <https://github.com/openai/whisper>`_ (типове"
+" значення: Базова)"
+
+#: ../../effects_and_compositions/speech_to_text.rst:111
+msgid ""
+":guilabel:`Language` Select the language if Autodetect is not accurate "
+"(default: Autodetect)"
+msgstr ""
+":guilabel:`Мова`: виберіть мову, якщо «Автовизначення» є неправильним"
+" (типове значення: Автовизначення)"
+
+#: ../../effects_and_compositions/speech_to_text.rst:113
+msgid ":guilabel:`Device` To keep compatibility only CPU is available."
+msgstr ""
+":guilabel:`Пристрій`: для підтримання сумісності, можна використовувати лише"
+" процесор."
+
+#: ../../effects_and_compositions/speech_to_text.rst:115
+msgid ""
+":guilabel:`Translate text to english` This translates non English text to "
+"English while recognition."
+msgstr ""
+":guilabel:`Перекласти текст англійською`: наказує програмі перекласти текст,"
+" відмінний від англійського, англійською під час розпізнавання."
+
+#: ../../effects_and_compositions/speech_to_text.rst:117
+#| msgid ""
+#| "If you have problems press on the :guilabel:`Check configuration` button."
+msgid ""
+"You can check for updates by clicking on :guilabel:`Check configuration`"
+msgstr ""
+"Виконати пошук оновлень можна натисканням кнопки :guilabel:`Перевірити"
+" налаштування`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:121
 msgid "Speech recognition"
 msgstr "Розпізнавання мовлення"
 
-#: ../../effects_and_compositions/speech_to_text.rst:77
+#: ../../effects_and_compositions/speech_to_text.rst:124
+#| msgid "Delete the selection."
+msgid "Select the speech engine"
+msgstr "Вибір рушія озвучення"
+
+#: ../../effects_and_compositions/speech_to_text.rst:128
+msgid "Enable :menuselection:`View --> Speech Editor` menu item."
+msgstr "Виберіть пункт меню :menuselection:`Перегляд --> Редактор мовлення`."
+
+#: ../../effects_and_compositions/speech_to_text.rst:133
+msgid ""
+"Click on the :guilabel:`Hamburger Menu` and select :guilabel:`Configure "
+"Speech Recognition`. This brings you to :ref:`Configure Speech to Text "
+"<configure_speech_to_text>`, select the engine and click :guilabel:`OK.`"
+msgstr ""
+"Натисніть :guilabel:`меню-гамбургер` і виберіть пункт :guilabel:`Налаштувати"
+" розпізнавання мовлення`. У відповідь буде відкрито вікно :ref:`Налаштування"
+" Перетворення звуку на текст "
+"<configure_speech_to_text>`. Виберіть рушій і натисніть кнопку"
+" :guilabel:`Гаразд`."
+
+#: ../../effects_and_compositions/speech_to_text.rst:135
+msgid ""
+":guilabel:`Translate to english` is only available with the Whisper speech "
+"engine. It translates non English text to English while recognition."
+msgstr ""
+"Пункт :guilabel:`Перекласти текст англійською` доступний лише для рушія"
+" мовлення Whisper. Наказує програмі перекласти текст, відмінний від"
+" англійського, англійською під час розпізнавання."
+
+#: ../../effects_and_compositions/speech_to_text.rst:138
 msgid "Creating subtitle by speech recognition"
 msgstr "Створення субтитрів для розпізнавання мовлення"
 
-#: ../../effects_and_compositions/speech_to_text.rst:82
+#: ../../effects_and_compositions/speech_to_text.rst:143
+#: ../../effects_and_compositions/speech_to_text.rst:170
+msgid "Shown with the VOSK engine"
+msgstr "Показано з рушієм VOSK"
+
+#: ../../effects_and_compositions/speech_to_text.rst:145
 msgid "Mark the timeline zone you want to recognize (adjust the blue line)."
 msgstr ""
 "Позначте на монтажному столі ділянку, де має бути розпізнано мовлення "
 "(скоригуйте розташування синьої лінії)."
 
-#: ../../effects_and_compositions/speech_to_text.rst:84
+#: ../../effects_and_compositions/speech_to_text.rst:147
 msgid "Click on the :guilabel:`Speech recognition` icon."
 msgstr "Натисніть піктограму :guilabel:`Розпізнавання мовлення`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:86
+#: ../../effects_and_compositions/speech_to_text.rst:149
 msgid "Choose the language."
 msgstr "Виберіть мову."
 
-#: ../../effects_and_compositions/speech_to_text.rst:88
+#: ../../effects_and_compositions/speech_to_text.rst:151
 msgid "Choose how the selected zone should be applied."
 msgstr "Виберіть спосіб обробки позначеної ділянки."
 
-#: ../../effects_and_compositions/speech_to_text.rst:90
+#: ../../effects_and_compositions/speech_to_text.rst:153
 msgid "Press on the :guilabel:`Process` button."
 msgstr "Натисніть кнопку :guilabel:`Обробити`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:92
+#: ../../effects_and_compositions/speech_to_text.rst:155
 msgid "The subtitle gets created and inserted automatically."
 msgstr "Субтитри буде створено і вставлено автоматично."
 
-#: ../../effects_and_compositions/speech_to_text.rst:94
+#: ../../effects_and_compositions/speech_to_text.rst:157
 msgid ""
 "Remark: Only timeline zone is implemented for now in automatic subtitles."
 msgstr ""
 "Зауваження: у засобі створення автоматичних субтитрів поточної версії "
 "реалізовано лише ділянку на монтажному столі."
 
-#: ../../effects_and_compositions/speech_to_text.rst:96
+#: ../../effects_and_compositions/speech_to_text.rst:159
 msgid ""
 "Remark to 4: The default is to analyze only the :guilabel:`timeline zone "
 "(all tracks)` (the blue bar in the timeline ruler). Set the zone in the "
@@ -190,24 +319,27 @@ msgstr ""
 "вихідної позицій). Якщо буде позначено пункт :guilabel:`Позначені кліпи`, "
 "програма виконає аналіз лише позначених кліпів."
 
-#: ../../effects_and_compositions/speech_to_text.rst:99
+#: ../../effects_and_compositions/speech_to_text.rst:162
 msgid "Creating clips by speech recognition"
 msgstr "Створення кліпів за розпізнаванням мовлення"
 
-#: ../../effects_and_compositions/speech_to_text.rst:101
+#: ../../effects_and_compositions/speech_to_text.rst:164
+#| msgid ""
+#| "This is useful for interviews and other speech-related footage. Enable "
+#| "the :menuselection:`View --> Text Edit` menu item."
 msgid ""
 "This is useful for interviews and other speech-related footage. Enable the :"
-"menuselection:`View --> Text Edit` menu item."
+"menuselection:`View --> Speech Editor` menu item."
 msgstr ""
 "Ця можливість корисна для інтерв'ю та іншого пов'язаного із голосовими "
 "даними матеріалу. Увімкніть пункт меню :menuselection:`Перегляд --> "
-"Редагування тексту`."
+"Редактор озвучення`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:107
+#: ../../effects_and_compositions/speech_to_text.rst:172
 msgid "Select a clip in the project bin."
 msgstr "Виберіть кліп на панелі контейнера проєкту."
 
-#: ../../effects_and_compositions/speech_to_text.rst:109
+#: ../../effects_and_compositions/speech_to_text.rst:174
 msgid ""
 "If needed set in/out point in the clip monitor and enable :guilabel:"
 "`Selected zone only` selection box. This will only recognize the text inside "
@@ -217,27 +349,27 @@ msgstr ""
 "пункт :guilabel:`Лише позначена ділянка`. У результаті буде розпізнано текст "
 "лише з вказаної ділянки."
 
-#: ../../effects_and_compositions/speech_to_text.rst:111
+#: ../../effects_and_compositions/speech_to_text.rst:176
 msgid "Choose the correct language."
 msgstr "Виберіть відповідну мову."
 
-#: ../../effects_and_compositions/speech_to_text.rst:113
+#: ../../effects_and_compositions/speech_to_text.rst:178
 msgid "Press the :guilabel:`Start Recognition` button."
 msgstr "Натисніть кнопку :guilabel:`Почати розпізнавання`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:115
+#: ../../effects_and_compositions/speech_to_text.rst:180
 msgid "Selecting the text you want to either."
 msgstr "Позначення тексту, який ви хочете ввести."
 
-#: ../../effects_and_compositions/speech_to_text.rst:117
+#: ../../effects_and_compositions/speech_to_text.rst:182
 msgid "Put into the timeline."
 msgstr "Розташувати на монтажному столі."
 
-#: ../../effects_and_compositions/speech_to_text.rst:119
+#: ../../effects_and_compositions/speech_to_text.rst:184
 msgid ":guilabel:`Save` edited text as a new playlist."
 msgstr ":guilabel:`Зберегти` редагований текст як новий список відтворення."
 
-#: ../../effects_and_compositions/speech_to_text.rst:121
+#: ../../effects_and_compositions/speech_to_text.rst:186
 msgid ""
 "Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
 "kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
@@ -246,23 +378,27 @@ msgstr ""
 "допомогою комбінації :kbd:`Alt + стрілка`, а редагувати закладку можна після "
 "подвійного клацання на ній."
 
-#: ../../effects_and_compositions/speech_to_text.rst:123
+#: ../../effects_and_compositions/speech_to_text.rst:188
 msgid "Delete the selection."
 msgstr "Вилучити позначене."
 
-#: ../../effects_and_compositions/speech_to_text.rst:125
+#: ../../effects_and_compositions/speech_to_text.rst:190
 msgid "Here you can search in the text."
 msgstr "Тут ви можете шукати фрагмент у тексті."
 
-#: ../../effects_and_compositions/speech_to_text.rst:127
+#: ../../effects_and_compositions/speech_to_text.rst:192
 msgid "And navigate up or down in the text."
 msgstr "Навігація текстом вгору і вниз."
 
-#: ../../effects_and_compositions/speech_to_text.rst:132
+#: ../../effects_and_compositions/speech_to_text.rst:197
 msgid "Silence detection"
 msgstr "Виявлення мовчання"
 
-#: ../../effects_and_compositions/speech_to_text.rst:134
+#: ../../effects_and_compositions/speech_to_text.rst:199
+msgid "This works with the VOSK engine only."
+msgstr "Працює лише із рушієм VOSK."
+
+#: ../../effects_and_compositions/speech_to_text.rst:201
 msgid ""
 "Open the clip in the clip monitor and open the speech editor window (:"
 "menuselection:`View --> Speech Editor`) ."
@@ -270,7 +406,7 @@ msgstr ""
 "Відкрийте кліп на панелі монітора кліпу і відкрийте вікно редактора "
 "озвучення (:menuselection:`Перегляд --> Редактор озвучення`) ."
 
-#: ../../effects_and_compositions/speech_to_text.rst:136
+#: ../../effects_and_compositions/speech_to_text.rst:203
 msgid ""
 "Select your language or :ref:`install_language` and download the model for "
 "it."
@@ -278,11 +414,11 @@ msgstr ""
 "Виберіть мову або :ref:`встановіть мову <install_language>` і отримайте "
 "модель для неї."
 
-#: ../../effects_and_compositions/speech_to_text.rst:138
+#: ../../effects_and_compositions/speech_to_text.rst:205
 msgid "Then click :guilabel:`Start Recognition` button."
 msgstr "Потім натисніть кнопку :guilabel:`Почати розпізнавання`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:140
+#: ../../effects_and_compositions/speech_to_text.rst:207
 msgid ""
 "Once this is done, click on the time-code where no-speech is indicated and "
 "just hit the :kbd:`delete` key. Repeat the operation for all the parts you "
@@ -294,7 +430,7 @@ msgstr ""
 "хочете вилучити, включно із частинами, де хтось говорить щось, що не слід "
 "включати до остаточного варіанта."
 
-#: ../../effects_and_compositions/speech_to_text.rst:142
+#: ../../effects_and_compositions/speech_to_text.rst:209
 msgid ""
 "Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
 "on the :guilabel:`Save` button on the lower left part of the speech editor "
