@@ -1,14 +1,14 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022.
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022, 2023.
 # Ronald Stroethoff <stroe43@zonnet.nl>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 00:40+0000\n"
-"PO-Revision-Date: 2022-12-15 11:03+0100\n"
+"POT-Creation-Date: 2023-04-25 00:42+0000\n"
+"PO-Revision-Date: 2023-04-25 14:48+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../../user_interface/timeline.rst:1
 msgid "Timeline, central part of Kdenlive video editor"
@@ -31,7 +31,7 @@ msgstr ""
 "documentatie, gebruikershandleiding, videobewerker, open-source, vrij, "
 "leren, gemakkelijk"
 
-#: ../../user_interface/timeline.rst:24
+#: ../../user_interface/timeline.rst:24 ../../user_interface/timeline.rst:53
 msgid "Timeline"
 msgstr "Tijdlijn"
 
@@ -39,121 +39,112 @@ msgstr "Tijdlijn"
 msgid "Contents"
 msgstr "Inhoud"
 
-#: ../../user_interface/timeline.rst:33
+#: ../../user_interface/timeline.rst:28
+#| msgid ""
+#| "The timeline is the central part of **Kdenlive**. It is made of 4 "
+#| "different areas (see screenshot)."
 msgid ""
-"The timeline is the central part of **Kdenlive**. It is made of 4 different "
-"areas (see screenshot)."
+"The timeline is the central part of **Kdenlive**. It is made of four "
+"different areas:"
 msgstr ""
-"De tijdlijn is het centrale deel van **Kdenlive**. Het bevat 4 verschillende "
-"gebieden (zie schermafdruk)."
+"De tijdlijn is het centrale deel van **Kdenlive**. Het bevat vier "
+"verschillende gebieden:"
 
-#: ../../user_interface/timeline.rst:38
-msgid ""
-"1 - **Track resizing icon**. This icon allows you to adjust the track height "
-"in the timeline from normal to small.  This does not affect the video or the "
-"render in any way.  The default height of tracks can be configured in "
-"**Kdenlive's** :ref:`configure_kdenlive` dialog."
-msgstr ""
-"1 - **Pictogram Trackgrootte**. Dit pictogram biedt u het aanpassen van de "
-"trackhoogte in de tijdlijn van normaal naar klein. Dit heeft geheel geen "
-"effect op de video of het renderen. De standaard hoogte van tracks kan "
-"geconfigureerd worden in de dialoog van **Kdenlive** :ref:"
-"`configure_kdenlive`."
+#: ../../user_interface/timeline.rst:41
+#| msgid "Timeline visuals"
+msgid "Timeline Areas"
+msgstr "Tijdlijngebieden"
 
 #: ../../user_interface/timeline.rst:43
 msgid ""
-"2 - **Timeline ruler**. This shows the time in frames or in hh:mm:ss "
-"notation. The area highlighted in green is called the selection zone, and is "
-"useful if you want to render only a part of your project. Left-clicking in "
-"the timeline ruler will move the :ref:`timeline` and seek to that position."
+"1 -  **Timeline**. This is the area where you drop your clips to the"
+" various "
+"tracks. It shows the clips with or without thumbnails, with or without"
+" the "
+"audio frequency curve, transitions and compositions, as well as the"
+" markers, "
+"guides and keyframes (if any)."
 msgstr ""
-"2 - **Tijdlijnliniaal**. Dit toont de tijd in frames of in notatie uu:mm:ss. "
-"Het gebied dat groen geaccentueerd is, wordt de selectiezone genoemd en is "
-"nuttig als u slechts een gedeelte van uw project wilt renderen. Links "
-"klikken in de tijdlijnliniaal zal de :ref:`timeline` verplaatsen en naar die "
-"positie gaan."
+"1 -  **Tijdlijn**. Dit is het gebied waar u uw clips loslaat in de "
+"verschillende tracks. Het toont de clips met of zonder miniaturen, met of "
+"zonder de audiofrequentiecurve, transities en composities, evenals de "
+"markeringen, hulplijnen en keyframes (indien aanwezig)."
+
+#: ../../user_interface/timeline.rst:45
+#| msgid ""
+#| "2 - **Timeline ruler**. This shows the time in frames or in hh:mm:ss "
+#| "notation. The area highlighted in green is called the selection zone, and "
+#| "is useful if you want to render only a part of your project. Left-"
+#| "clicking in the timeline ruler will move the :ref:`timeline` and seek to "
+#| "that position."
+msgid ""
+"2 - **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation."
+" It "
+"also shows the current zone (if defined) and the preview render zones and "
+"their respective render status. A more detailed description can be found :"
+"ref:`further down here <timeline_ruler>`. Left-clicking in the timeline "
+"ruler will move the :ref:`timeline` and seek to that position. For the"
+" right-"
+"click menu see the :ref:`detailed description <_timeline_ruler_rightclick"
+">`."
+msgstr ""
+"2 - **Tijdlijnliniaal**. Dit gebied toont de tijd de notatie uu:mm:ss:ff. "
+"Het toont ook de huidige zone (indien gedefinieerd) en de "
+"voorbeeldrenderzones en hun respectievelijke renderstatus. Een meer "
+"gedetailleerde beschrijving is te vinden :ref:`verder naar beneden "
+"<timeline_ruler>`. Links klikken in de tijdlijnliniaal zal de "
+":ref:`timeline` verplaatsen en naar die positie gaan. Voor het menu na "
+"rechts klikken zie de :ref:`gedetailleerde beschrijving "
+"<_timeline_ruler_rightclick>`."
+
+#: ../../user_interface/timeline.rst:47
+msgid ""
+"3 - **Timeline Toolbar** - This is an important area where the tools for "
+"working with the clips in the timeline are easily accessible. Feel free"
+" to "
+"adjust the timeline toolbar to accommodate your workflow. For details how"
+" to "
+"do that refer to the section about toolbar configuration."
+msgstr ""
+"3 - **Tijdlijnwerkbalk** - Dit is een belangrijk gebied waar de "
+"hulpmiddelen voor werken met de clips in de tijdlijn gemakkelijk "
+"toegankelijk zijn. Voel u vrij om de tijdlijnwerkbalk aan te passen aan "
+"uw werkmethode. Voor details over hoe dat to doen wordt verwezen naar de "
+"sectie over configuratie van werkbalken."
 
 #: ../../user_interface/timeline.rst:49
 msgid ""
-"Right click into the timeline ruler opens the context menu and allows you to:"
-msgstr "Rechts klikken in de tijdlijnliniaal opent het contextmenu en biedt u:"
-
-#: ../../user_interface/timeline.rst:51
-msgid ":ref:`Manipulate guides <guides>`"
-msgstr ":ref:`Hulplijnen manipuleren <guides>`"
-
-#: ../../user_interface/timeline.rst:53
-msgid ":ref:`Set Zone In/Out <timeline-preview-rendering>`"
-msgstr ":ref:`Zone in/uit instellen <timeline-preview-rendering>`"
-
-#: ../../user_interface/timeline.rst:55
-msgid ":ref:`Add Project Notes <notes>`"
-msgstr ":ref:`Projectnotities toevoegen <notes>`"
-
-#: ../../user_interface/timeline.rst:57
-msgid ":ref:`Add Subtitle <subtitle>`"
-msgstr ":ref:`Ondertitel toevoegen <subtitle>`"
-
-#: ../../user_interface/timeline.rst:63
-msgid ""
-"3 -  **Track header**. This box shows some options for a track. First is the "
-"track name (Main Video Track in the screenshot). That name can be changed by "
-"simply clicking in it. Below are icons to"
+"4 - **Track Header**. This area displays track header data like track"
+" type "
+"(V for video, A for audio), track number, with your without track"
+" effects, "
+"hidden or muted, locked or unlocked, and an optional track name. Each"
+" track "
+"can be adjusted in height individually as well as expanded or collapsed."
+" A "
+"more deteiled description can be found :ref:`further down here "
+"<track_header>`. For the right-click menu see the detailed section."
 msgstr ""
-"3 -  **Trackhoofd**. Dit vak toont enkele mogelijkheden voor een track. De "
-"eerste is de tracknaam (Main Video Track in de schermafdruk). Die naam kan "
-"gewijzigd worden door eenvoudig er in te klikken. Er onder zijn pictogrammen "
-"voor"
+"4 - **Trackkop**. Dit gebied toont de trackkopgegevens zoals type track "
+"(V voor video, A voor audio), tracknummer, met of zonder trackeffecten, "
+"verborgen of gedempt, vergrendeld of ontgrendeld en een optionele "
+"tracknaam. Elke track kan individueel in hoogte worden aangepast evenals "
+"uitgevouwen of ingevouwen. Een meer gedetailleerde beschrijving is te "
+"vinden :ref:`hier verderop <track_header>`. Voor het menu na rechts "
+"klikken zie de gedetailleerde sectie."
 
-#: ../../user_interface/timeline.rst:65
-msgid ""
-":menuselection:`Lock the track` |kdenlive-lock| which will prevent adding "
-"clips, removing clips, or moving of clips on the timeline;"
-msgstr ""
-":menuselection:`Track vergrendelen` |kdenlive-lock| die het toevoegen van "
-"clips, verwijderen van clips of verplaatsen van clips op de tijdlijn "
-"voorkomt;"
-
-#: ../../user_interface/timeline.rst:66
-msgid ":menuselection:`Mute the track` |kdenlive-hide-audio|"
-msgstr ":menuselection:`De track dempen` |kdenlive-hide-audio|"
-
-#: ../../user_interface/timeline.rst:67
-msgid ":menuselection:`Hide video` |kdenlive-hide-video| from this track; and,"
-msgstr ""
-":menuselection:`Video verbergen` |kdenlive-hide-video| van deze track; en,"
-
-#: ../../user_interface/timeline.rst:68
-msgid ""
-":menuselection:`Enable/Disable track effects` |tools-wizard| allows you to "
-"enable or disable the effects applied to the track."
-msgstr ""
-":menuselection:`Trackeffecten in/uitschakelen` |tools-wizard| biedt u om de "
-"effecten toegepast op de track in of uit te schakelen."
-
-#: ../../user_interface/timeline.rst:69
-msgid ""
-"Right clicking in the track header will give you a context menu allowing to "
-"manage (add / delete) tracks. See :ref:`configure tracks <configure_tracks>`"
-msgstr ""
-"Rechts klikken in de trackkop zal u een contextmenu geven waarmee u tracks "
-"kunt beheren (toevoegen / verwijderen). Zie :ref:`tracks configureren "
-"<configure_tracks>`"
-
-#: ../../user_interface/timeline.rst:72
-msgid "4 - The track itself, this is where you can drop your clips."
-msgstr "4 - de track zelf, dit is waar u uw clips kunt loslaten."
-
-#: ../../user_interface/timeline.rst:77
+#: ../../user_interface/timeline.rst:58
 msgid "Zoombars"
 msgstr "Zoombalken"
 
-#: ../../user_interface/timeline.rst:87
+#: ../../user_interface/timeline.rst:68
 msgid ""
 "Besides the availability of zoombars in the monitor and keyframe scroll "
 "bars, zoombars are now available in the timeline as well. You can easily "
-"zoom in/out in the timeline by dragging the edges of the timeline scrollbar. "
-"(Vertical zoombars coming soon.) Recommend playing this video in full-screen "
+"zoom in/out in the timeline by dragging the edges of the timeline"
+" scrollbar. "
+"(Vertical zoombars coming soon.) Recommend playing this video in"
+" full-screen "
 "mode."
 msgstr ""
 "Naast de beschikbaarheid van zoombalken in de monitor en keyframe "
@@ -163,25 +154,29 @@ msgstr ""
 "komen binnenkort.) Wij adviseren om deze video op volledig scherm af te "
 "spelen mode."
 
-#: ../../user_interface/timeline.rst:90
+#: ../../user_interface/timeline.rst:73
 msgid "Key binding information"
 msgstr "Sneltoets informatie"
 
-#: ../../user_interface/timeline.rst:100
+#: ../../user_interface/timeline.rst:83
 msgid ""
-"Key binding info has been added on the left while context item information "
-"has been moved to the right of the :ref:`status_bar`. Recommend playing this "
+"Key binding info has been added on the left while context item"
+" information "
+"has been moved to the right of the :ref:`status_bar`. Recommend playing"
+" this "
 "video in full-screen mode."
 msgstr ""
-"Informatie over toetsenbindingen is links toegevoegd terwijl informatie over "
-"de context van het item is verplaatst naar rechts van de :ref:`status_bar`. "
+"Informatie over toetsenbindingen is links toegevoegd terwijl informatie"
+" over "
+"de context van het item is verplaatst naar rechts van de"
+" :ref:`status_bar`. "
 "Afspelen van deze video in modus volledig-scherm is aanbevolen."
 
-#: ../../user_interface/timeline.rst:104
+#: ../../user_interface/timeline.rst:88
 msgid "Timeline visuals"
 msgstr "Uiterlijk van tijdlijn"
 
-#: ../../user_interface/timeline.rst:108
+#: ../../user_interface/timeline.rst:92
 msgid ""
 "The timeline got a visual overhaul with more and better looking guides/"
 "marker colors, the guides have been moved above the timeline ruler while "
@@ -191,237 +186,589 @@ msgstr ""
 "linialen /markeer kleuren, de linialen zijn naar boven de tijdlijn "
 "verplaatst en de miniaturen en zonebalken naar eronder zijn verplaatst."
 
-#: ../../user_interface/timeline.rst:114
+#: ../../user_interface/timeline.rst:97
 msgid "Before (above) and after (below)"
 msgstr "Vroeger (boven) en nu (onder)"
 
-#: ../../user_interface/timeline.rst:119
+#: ../../user_interface/timeline.rst:104
 msgid "Split Audio/Video"
 msgstr "Audio/Video gesplitst"
 
-#: ../../user_interface/timeline.rst:127
+#: ../../user_interface/timeline.rst:111
+#| msgid ""
+#| "The way timeline tracks work has changed. Each track is now either audio "
+#| "or video, and will only accept audio and video clips respectively. When "
+#| "dragging an AV clip from the project bin in the timeline, the clip will "
+#| "be automatically split, the video part going on a video track, and the "
+#| "audio part on an audio track."
 msgid ""
-"The way timeline tracks work has changed. Each track is now either audio or "
+"The way timeline tracks work has changed. Each track is now either audio"
+" or "
 "video, and will only accept audio and video clips respectively. When "
-"dragging an AV clip from the project bin in the timeline, the clip will be "
-"automatically split, the video part going on a video track, and the audio "
-"part on an audio track."
+"dragging an AV clip from the project bin to the timeline the clip will be "
+"automatically split with the video part going on a video track, and the "
+"audio part on an audio track."
 msgstr ""
-"De manier waarop de tijdlijn werkt is gewijzigd. Elke track is nu of audio "
-"of video, en zal alleen respectievelijk audio of video clips accepteren. Bij "
-"het verslepen van een AV clip uit de project bin naar de tijdlijn zal de "
+"De manier waarop de tijdlijn werkt is gewijzigd. Elke track is nu of"
+" audio "
+"of video, en zal alleen respectievelijk audio of video clips accepteren."
+" Bij "
+"het verslepen van een AV clip uit de project-bin naar de tijdlijn zal de "
 "clip automatisch worden gesplitst, het video gedeelte gaat naar een video "
 "track, en het audio gedeelte gaat naar een audio track."
 
-#: ../../user_interface/timeline.rst:130
+#: ../../user_interface/timeline.rst:113
 msgid ""
-"The separation of audio/video is important for implementing :ref:`same-track-"
+"The separation of audio/video is important for implementing"
+" :ref:`same-track-"
 "transitions <same_track_transition>`."
 msgstr ""
 "De scheiding van audio/video is belangrijk bij het implementeren van :ref:"
 "`zelfde-track-overgangen <same_track_transition>`."
 
-#: ../../user_interface/timeline.rst:134
+#: ../../user_interface/timeline.rst:118
 msgid "Timeline Cursor/Position Caret/Playhead"
 msgstr "Tijdlijncursor/Vizier/Afspeellocatie"
 
-#: ../../user_interface/timeline.rst:143
+#: ../../user_interface/timeline.rst:127
 msgid ""
 "This indicates the position we are displaying in the :ref:`monitors`. You "
 "can scroll the position by dragging the Timeline cursor (a.k.a Position "
 "Caret or Playhead)."
 msgstr ""
-"Dit geeft de positie aan in de :ref:`monitors` van wat we tonen. U kunt de "
+"Dit geeft de positie aan in de :ref:`monitors` van wat we tonen. U kunt"
+" de "
 "positie wijzigen door de Tijdlijncursor (ook bekend als Vizier "
 "ofAfspeellocatie)."
 
-#: ../../user_interface/timeline.rst:145
+#: ../../user_interface/timeline.rst:129
 msgid ""
 "Beginning with version 0.9.4, dragging the timeline cursor will play the "
-"audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you "
+"audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if"
+" you "
 "have checked :menuselection:`Use Open GL for video display` in :ref:"
 "`configure_kdenlive`."
 msgstr ""
-"Vanaf versie 0.9.4, zal bij het verslepen van de tijdlijncursor de audio van "
+"Vanaf versie 0.9.4, zal bij het verslepen van de tijdlijncursor de audio"
+" van "
 "de clip worden afgespeeld (ook bekend als. Audio Scrubbing). Deze "
-"functionaliteit werkt alleen als u :menuselection:`GPU-verwerking gebruiken` "
+"functionaliteit werkt alleen als u :menuselection:`GPU-verwerking"
+" gebruiken` "
 "in :ref:`configure_kdenlive` heeft ingeschakeld."
 
-#: ../../user_interface/timeline.rst:150
+#: ../../user_interface/timeline.rst:136
+msgid "Keyboard Navigation"
+msgstr "Toetsenbordnavigatie"
+
+#: ../../user_interface/timeline.rst:140
+#| msgid ""
+#| "You now have the possibility to move clips and compositions with your "
+#| "keyboard. To do it, select a clip in timeline and use the :guilabel:`Grab "
+#| "Current Item` (:kbd:`Shift + G`) function from the :menuselection:"
+#| "`Timeline` menu."
+msgid ""
+"You now have the possibility to move clips and compositions with your "
+"keyboard. To do it, select a clip in the timeline and use the :guilabel:"
+"`Grab Current Item` function from the :menuselection:`Menu --> Timeline` "
+"menu or use the default shortcut of :kbd:`Shift + G`."
+msgstr ""
+"U heeft nu de mogelijkheid om met uw toetsenbord clips en overgangen te "
+"verplaatsen. Om dat te doen, selecteert u een clip in de tijdlijn en "
+"gebruikt u de functie :guilabel:`Huidig item oppakken` uit het menu "
+":menuselection:`Menu --> Tijdlijn` of u gebruikt de standaard sneltoets "
+":kbd:`Shift + G`."
+
+#: ../../user_interface/timeline.rst:145
+msgid "You can then move the item with the arrow keys."
+msgstr "U kunt daarna het item verplaatsen met de pijltjestoetsen."
+
+#: ../../user_interface/timeline.rst:147
+#| msgid ""
+#| "You can then move the item with your arrow keys. Keyframes can also be "
+#| "moved individually. Just click on a keyframe in timeline, then move it "
+#| "left/right with :kbd:`arrows`, change its value with :kbd:`+` and :kbd:`-"
+#| "`. :kbd:`Alt + arrow` to go to another keyframe."
+msgid ""
+"Keyframes can also be moved individually. Just click on a keyframe in the "
+"timeline, then move it :kbd:`Left` or :kbd:`Right`, change its value with"
+" :"
+"kbd:`+` and :kbd:`-`. Use :kbd:`Alt + arrow` to go to another keyframe."
+msgstr ""
+"Keyframes kunnen ook individueel verplaatst worden. Klik gewoon op een "
+"keyframe in de "
+"tijdlijn, en verplaats het naar :kbd:`Pijl rechts`, of :kbd:`Pijl links`, "
+"wijzig zijn waarden met :kbd:`+` en :kbd:`-`. Gebruik :kbd:`Alt + pijl` "
+"om naar een ander keyframe te gaan."
+
+#: ../../user_interface/timeline.rst:155
+msgid "Keyframe handling"
+msgstr "Keyframe bewerken"
+
+#: ../../user_interface/timeline.rst:162
+msgid "Add a new keyframe by double clicking in timeline."
+msgstr ""
+"Voeg een nieuwe keyframe toe door dubbel te klikken op de tijdlijn."
+
+#: ../../user_interface/timeline.rst:163
+msgid ""
+"You can move a keyframe without altering its value by using the vertical "
+"line that appears when you are above or below a keyframe."
+msgstr ""
+"U kunt een keyframe verplaatsen zonder dat de waarde daarvan verandert"
+" door "
+"de verticale lijn te gebruiken die verschijnt als boven of onder een "
+"keyframe bent."
+
+#: ../../user_interface/timeline.rst:164
+msgid ""
+"Remove a keyframe by dragging it far above or below the clip limits."
+msgstr ""
+"Verwijder een keyframe door het ver boven of onder de randen van de clip"
+" te "
+"verslepen."
+
+#: ../../user_interface/timeline.rst:169
+msgid "Disabling individual clips"
+msgstr "Clips individueel uitschakelen"
+
+#: ../../user_interface/timeline.rst:179
+msgid ""
+"Individual clips can be disabled while still in the timeline but with no "
+"audio and no video – (works for all clip types). Right-click on the clip"
+" and "
+"choose :guilabel:`Disable clip` or :guilabel:`Enable clip`."
+msgstr ""
+"Individuele clips kunnen uitgeschakeld worden terwijl ze toch in de"
+" tijdlijn "
+"blijven maar zonder audio en zonder video – (werkt voor alle clip types). "
+"Rechtsklik op de clip en selecteer :guilabel:`Clip uitschakelen` of :"
+"guilabel:`Clip inschakelen`."
+
+#: ../../user_interface/timeline.rst:187
+#| msgid "Timeline visuals"
+msgid "Timeline Ruler"
+msgstr "Tijdlijnliniaal"
+
+#: ../../user_interface/timeline.rst:189
+msgid ""
+"The timeline ruler shows the timecode information in the notation of"
+" hh:mm:"
+"ss:ff (default) or in frames. It displays the currently defined timeline "
+"zone (1) and the preview render zone (2) and its respective rendering"
+" status "
+"(red: not yet rendered; yellow: being rendered; green: finished)."
+msgstr ""
+"De tijdlijnliniaal toont de tijdcode-informatie in de notatie van uu:mm:"
+"ss:ff (standaard) of in frames. Het toont de nu gedefinieerde "
+"tijdlijnzone (1) en de voorbeeldrenderzone (2) en zijn respectievelijke "
+"renderstatus (rood: nog niet gerenderd; geel: wordt gerenderd; groen: "
+"gereed)."
+
+#: ../../user_interface/timeline.rst:194
+msgid ""
+"The timeline zone can be moved by dragging the square in the middle, and "
+"sized by either dragging the left or right edge or by positioning the "
+"playhead in the timneline and prssing :kbd:`I` or :kbd:`O` to set"
+" in-point "
+"and out-point, respectively. For more detailed information on preview"
+" render "
+"please refer to this section of the documentation."
+msgstr ""
+"De tijdlijnzone kan verplaatst worden door het vierkant in het midden te "
+"verslepen en van grootte wijzigen door ofwel de linker of de rechter rand "
+"te verslepen of door de afspeelkop in de tijdlijn te plaatsen en op "
+":kbd:`I` of :kbd:`O` te drukken om respectievelijke een in-punt en "
+"uit-punt in te stellen. Voor meer gedetailleerde informatie over renderen "
+"van voorbeeld wordt verwezen naar die sectie van de documentatie."
+
+#: ../../user_interface/timeline.rst:201
+msgid ""
+"Right click into the timeline ruler opens the context menu and allows you"
+" to:"
+msgstr ""
+"Rechts klikken in de tijdlijnliniaal opent het contextmenu en biedt u:"
+
+#: ../../user_interface/timeline.rst:203
+msgid ":ref:`Manipulate guides <guides>`"
+msgstr ":ref:`Hulplijnen manipuleren <guides>`"
+
+#: ../../user_interface/timeline.rst:204
+msgid ":ref:`Set Zone In/Out <timeline-preview-rendering>`"
+msgstr ":ref:`Zone in/uit instellen <timeline-preview-rendering>`"
+
+#: ../../user_interface/timeline.rst:205
+msgid ":ref:`Add Project Notes <notes>`"
+msgstr ":ref:`Projectnotities toevoegen <notes>`"
+
+#: ../../user_interface/timeline.rst:206
+msgid ":ref:`Add Subtitle <subtitle>`"
+msgstr ":ref:`Ondertitel toevoegen <subtitle>`"
+
+#: ../../user_interface/timeline.rst:212
+#| msgid "Timeline"
+msgid "Timeline Toolbar"
+msgstr "Tijdlijnwerkbalk"
+
+#: ../../user_interface/timeline.rst:214
+msgid ""
+"The timeline toolbar controls various aspects of the editor. It can be "
+"configured to accommodate your workflow (see :ref:`Configuring the"
+" Toolbars "
+"<configuring_the_toolbars>` for more details)."
+msgstr ""
+"De tijdlijnwerkbalk bestuurt verschillende aspecten van de bewerker. Deze "
+"kan geconfigureerd worden om uw werkmethode te bevatten (zie :ref:`De "
+"werkbalken configureren <configuring_the_toolbars>` voor meer details)."
+
+#: ../../user_interface/timeline.rst:219
+msgid ""
+"This is a quick overview of the main sections of the toolbar. A more "
+"detailed description can be found in the :ref:`timeline_toolbar3` section"
+" of "
+"this documentation."
+msgstr ""
+"Dit is een snel overzicht over de hoofdsecties van de werkbalk. Een meer "
+"gedetailleerde beschrijving is te vinden in de sectie "
+":ref:`timeline_toolbar3` van deze documentatie."
+
+#: ../../user_interface/timeline.rst:221
+msgid ""
+"1 - Enable track compositing and switching split view of audio and video "
+"(see :ref:`layout_modes`)"
+msgstr ""
+"1 - Samenstellen van track inschakelen en omschakelen naar gesplitste "
+"weergave van audio en video (zie :ref:`layout_modes`)"
+
+#: ../../user_interface/timeline.rst:223
+msgid ""
+"2 - Selects the editing mode: Normal, Overwrite, Insert (see :ref:"
+"`timeline_edit_modes`)"
+msgstr ""
+"2 - Selecteert de bewerkingsmodus: Normaal, Overschrijven, Invoegen (zie "
+":ref:`timeline_edit_modes`)"
+
+#: ../../user_interface/timeline.rst:225
+msgid ""
+"3 - Edit Tools: Selection Tool, Razor Tool, Spacer Tool, Slip Tool,"
+" Ripple "
+"Tool (see :ref:`timeline_edit_tools`)"
+msgstr ""
+"3 - Bewerkingshulpmiddelen: Selectiehulpmiddel, Snijgereedschap, "
+"Hulpmiddel ruimte, Hulpmiddel voor onderschuiven, Hulpmiddel rimpel (zie "
+":ref:`timeline_edit_tools`)"
+
+#: ../../user_interface/timeline.rst:227
+msgid ""
+"4 - Clip and Zone Tools: Mix Clips, Insert Clip Zone in Timeline,"
+" Overwrite "
+"Clip Zone in Timeline, Extract Timeline Zone, Lift Timeline Zone, Expand "
+"Clip (see also :ref:`3-point editing <three_point_editing>`)"
+msgstr ""
+"4 - Hulpmiddelen voor clip en zone: Clips mengen, Clipzone in Tijdlijn "
+"invoegen, Clipzone in Tijdlijn overschrijven, Tijdlijnzone, Tijdlijnzone "
+"liften, Clip uitvouwen (zie ook :ref:`3-puntsbewerking "
+"<three_point_editing>`)"
+
+#: ../../user_interface/timeline.rst:229
+msgid ""
+"5 - Preview Render Tools - Start/Stop Render, Open Preview Render Options "
+"Dialog, Add Preview Render Zone, Delete All Preview Render Zones"
+msgstr ""
+"5 - Voorbeeldrenderhulpmiddelen - Renderen starten/stoppen, "
+"Voorbeeldrenderoptiesdialoog openen, Voorbeeldrenderzone verwijderen, "
+"Alle voorbeeldrenderzones verwijderen"
+
+#: ../../user_interface/timeline.rst:231
+msgid "6 - Toggle Audio Mixer Widget"
+msgstr "6 - Audiomixer-widget omschakelen"
+
+#: ../../user_interface/timeline.rst:233
+msgid ""
+"7 - Status Bar icons (in lieu of the status bar which can be switched off"
+" in "
+"the View menu)*"
+msgstr ""
+"7 - Statusbalkpictogrammen (in plaats van de statusbalk die uitgeschakeld "
+"kan worden in het menu Beeld)*"
+
+#: ../../user_interface/timeline.rst:235
+msgid ""
+"\\* Please note this is a customized version of the timeline toolbar and"
+" the "
+"section #7 is not part of the default toolbar"
+msgstr ""
+"\\* Merk op dat dit een aangepaste versie van de tijdlijnwerkbalk is en "
+"sectie #7 is geen onderdeel van de standaard werkbalk"
+
+#: ../../user_interface/timeline.rst:240
 msgid "Tracks"
 msgstr "Tracks"
 
-#: ../../user_interface/timeline.rst:152
+#: ../../user_interface/timeline.rst:242
+#| msgid ""
+#| "The timeline is made of tracks. There are two kinds of tracks: audio and "
+#| "video. The number of tracks is defined when creating a new project in "
+#| "the :ref:`project_settings`. Adding a clip in timeline can be achieved by "
+#| "dragging it from the :ref:`project_tree` or the :ref:`monitors`. More "
+#| "about tracks see :ref:`tracks`"
 msgid ""
 "The timeline is made of tracks. There are two kinds of tracks: audio and "
-"video. The number of tracks is defined when creating a new project in the :"
-"ref:`project_settings`. Adding a clip in timeline can be achieved by "
-"dragging it from the :ref:`project_tree` or the :ref:`monitors`. More about "
-"tracks see :ref:`tracks`"
+"video. The number of tracks is defined when creating a new project in the"
+" :"
+"ref:`project_settings`. Adding a clip to the timeline can be achieved by "
+"dragging it from  :ref:`project_tree` or the :ref:`monitors`."
 msgstr ""
 "De tijdlijn bestaat uit tracks. Er zijn nu twee soorten tracks: audio en "
 "video. Het aantal tracks wordt gedefinieerd bij de creatie van een nieuw "
 "project in de :ref:`project_settings`. Een clip aan de tijdlijn toevoegen "
-"kan door het ernaar verslepen vanuit de :ref:`project_tree` of de :ref:"
-"`monitors`. Meer over tracks leest u hier :ref:`tracks`"
+"kan door deze er naar verslepen vanuit de :ref:`project_tree` of de :ref:"
+"`monitors`."
 
-#: ../../user_interface/timeline.rst:156
-msgid "Resizing tracks"
-msgstr "De grootte van tracks wijzigen"
+#: ../../user_interface/timeline.rst:247
+msgid "Track Header"
+msgstr "Trackkop"
 
-#: ../../user_interface/timeline.rst:166
+#: ../../user_interface/timeline.rst:249
+msgid "This area shows some options for a track:"
+msgstr "Dit gebied toont enige opties voor een track:"
+
+#: ../../user_interface/timeline.rst:258
 msgid ""
-"Tracks can be individually resized. (Holding down :kbd:`Shift` makes all "
-"video or audio tracks change in height simultaneously.)"
+"1 Track collapse and expand icon. Click on it to collapse or expand the "
+"track: hold Shift and click to expand or collapse all tracks of the same "
+"type."
 msgstr ""
-"Van tracks kan individueel de grootte worden gewijzigd. (Door de :kbd:"
-"`Shift` ingedrukt te houden, maakt dat alle video of audio tracks tegelijk "
-"in hoogte veranderen.)"
+"1 Pictogram Track invouwen en uitvouwen. Klik erop om de in of uit te "
+"vouwen: houd Shift ingedrukt en klik om alle tracks van hetzelfde type in "
+"of uit te vouwen."
 
-#: ../../user_interface/timeline.rst:174
+#: ../../user_interface/timeline.rst:260
+msgid "2 Track name. Click on it to enter or change the name of the track."
+msgstr ""
+"2 Tracknaam. Klik erop om de naam van de track in te voeren of te "
+"wijzigen."
+
+#: ../../user_interface/timeline.rst:262
+msgid "3 Track type and track number"
+msgstr "3 Type track en tracknummer"
+
+#: ../../user_interface/timeline.rst:264
+msgid "4 Track control icons. Use them to:"
+msgstr "4 Trackbesturingspictogrammen. Gebruik ze om:"
+
+#: ../../user_interface/timeline.rst:266
+#| msgid ""
+#| ":menuselection:`Lock the track` |kdenlive-lock| which will prevent adding "
+#| "clips, removing clips, or moving of clips on the timeline;"
+msgid ""
+"Lock the track |kdenlive-lock| which will prevent adding clips, removing "
+"clips, or moving of clips on the timeline;"
+msgstr ""
+"De track te vergrendelen |kdenlive-lock| die het toevoegen van clips, "
+"verwijderen van clips of verplaatsen van clips op de tijdlijn voorkomt;"
+
+#: ../../user_interface/timeline.rst:267
+#| msgid ":menuselection:`Mute the track` |kdenlive-hide-audio|"
+msgid "Mute the track |kdenlive-hide-audio| (audio tracks only)"
+msgstr "De track te dempen |kdenlive-hide-audio| (alleen audiotracks)"
+
+#: ../../user_interface/timeline.rst:268
+#| msgid ""
+#| ":menuselection:`Hide video` |kdenlive-hide-video| from this track; and,"
+msgid "Hide video |kdenlive-hide-video| from this track; and,"
+msgstr "Video van deze track te verbergen |kdenlive-hide-video|; en,"
+
+#: ../../user_interface/timeline.rst:269
+#| msgid ""
+#| ":menuselection:`Enable/Disable track effects` |tools-wizard| allows you "
+#| "to enable or disable the effects applied to the track."
+msgid ""
+"Enable/Disable track effects |tools-wizard| allows you to enable or"
+" disable "
+"the effects applied to the track."
+msgstr ""
+"Trackeffecten in/uit te schakelen |tools-wizard| biedt u het toepassen "
+"van effecten op de track in of uit te schakelen."
+
+#: ../../user_interface/timeline.rst:276
+#| msgid "Resizing tracks"
+msgid "Adding Tracks"
+msgstr "Tracks toevoegen"
+
+#: ../../user_interface/timeline.rst:278
+msgid ""
+"In order to add a track right-click anywhere in the track header area. In "
+"the Add Track dialog window specify what type of track, where and how"
+" many "
+"you want to insert."
+msgstr ""
+"Om een track toe te voegen klik rechts ergens in het trackkopgebied. In "
+"het dialoogvenster van Track toevoegen specificeer welk type track, waar "
+"en hoeveel u er wilt invoegen."
+
+#: ../../user_interface/timeline.rst:286
+#| msgid "Resizing tracks"
+msgid "Deleting Tracks"
+msgstr "Tracks verwijderen"
+
+#: ../../user_interface/timeline.rst:288
+msgid ""
+"In order to delete a track right-click anywhere in the track header area."
+" In "
+"the Delete Track dialog window select the tracks you want to delete."
+msgstr ""
+"Om een track toe te verwijderen klik rechts ergens in het trackkopgebied. "
+"In het dialoogvenster van Track verwijderen selecteer de tracks die u "
+"wilt verwijderen."
+
+#: ../../user_interface/timeline.rst:296
+#| msgid "Resizing tracks"
+msgid "Resizing Tracks"
+msgstr "Grootte van tracks wijzigen"
+
+#: ../../user_interface/timeline.rst:300
+#| msgid ""
+#| "Tracks can be individually resized. (Holding down :kbd:`Shift` makes all "
+#| "video or audio tracks change in height simultaneously.)"
+msgid ""
+"Tracks can be individually resized. Holding down :kbd:`Shift` makes all "
+"video or audio tracks change in height simultaneously."
+msgstr ""
+"Van tracks kan individueel de grootte worden gewijzigd. Door de "
+":kbd:`Shift` ingedrukt te houden, maakt dat alle video- of audiotracks "
+"tegelijk in hoogte veranderen."
+
+#: ../../user_interface/timeline.rst:308
+msgid "Switching between mixed or split audio"
+msgstr "Schakelen tussen gemengde of gesplitste audio"
+
+#: ../../user_interface/timeline.rst:310
 msgid "Switch live between two different layout modes (Mixed or Split)."
 msgstr ""
 "Schakelt tijdens het gebruik om tussen twee verschillende indelings-modes "
 "(Gemengd of Gesplitst)."
 
-#: ../../user_interface/timeline.rst:177
-msgid "Keyboard Navigation"
-msgstr "Toetsenbordnavigatie"
+#: ../../user_interface/timeline.rst:318
+#| msgid "Configurable tracks"
+msgid "Configurable Tracks"
+msgstr "Configureerbare tracks"
 
-#: ../../user_interface/timeline.rst:184
-msgid ""
-"You now have the possibility to move clips and compositions with your "
-"keyboard. To do it, select a clip in timeline and use the :guilabel:`Grab "
-"Current Item` (:kbd:`Shift + G`) function from the :menuselection:`Timeline` "
-"menu."
-msgstr ""
-"U heeft nu de mogelijkheid om met uw toetsenbord clips en overgangen te "
-"verplaatsen. Om dat te doen, selecteert u een clip in de tijdlijn en "
-"gebruikt u de functie :guilabel:`Huidig item oppakken` (:kbd:`Shift + G`) "
-"uit het :menuselection:`Tijdlijn` menu."
+#: ../../user_interface/timeline.rst:328
+#| msgid "**Video track:** You can choose to display between:"
+msgid "**Video track** - You can choose to display either"
+msgstr "**Videotrack:** U kunt kiezen om ofwel ze te tonen"
 
-#: ../../user_interface/timeline.rst:189
-msgid ""
-"You can then move the item with your arrow keys. Keyframes can also be moved "
-"individually. Just click on a keyframe in timeline, then move it left/right "
-"with :kbd:`arrows`, change its value with :kbd:`+` and :kbd:`-`. :kbd:`Alt + "
-"arrow` to go to another keyframe."
-msgstr ""
-"U kunt vervolgens het item met uw pijltjestoetsen verplaatsen. Keyframes "
-"kunnen ook individueel verplaatst worden. Klik gewoon op een keyframe in de "
-"tijdlijn, en verplaats het naar links of rechts met de :kbd:`Pijlen`, wijzig "
-"de waarden met :kbd:`+` en :kbd:`-`. :kbd:`Alt + arrow` om naar een ander "
-"keyframe te gaan."
-
-#: ../../user_interface/timeline.rst:192
-msgid "Keyframe handling"
-msgstr "Keyframe bewerken"
-
-#: ../../user_interface/timeline.rst:199
-msgid "Add a new keyframe by double clicking in timeline."
-msgstr "Voeg een nieuwe keyframe toe door dubbel te klikken op de tijdlijn."
-
-#: ../../user_interface/timeline.rst:200
-msgid ""
-"You can move a keyframe without altering its value by using the vertical "
-"line that appears when you are above or below a keyframe."
-msgstr ""
-"U kunt een keyframe verplaatsen zonder dat de waarde daarvan verandert door "
-"de verticale lijn te gebruiken die verschijnt als boven of onder een "
-"keyframe bent."
-
-#: ../../user_interface/timeline.rst:201
-msgid "Remove a keyframe by dragging it far above or below the clip limits."
-msgstr ""
-"Verwijder een keyframe door het ver boven of onder de randen van de clip te "
-"verslepen."
-
-#: ../../user_interface/timeline.rst:206
-msgid "Configurable tracks"
-msgstr "Te configureren tracks"
-
-#: ../../user_interface/timeline.rst:216
-msgid "**Video track:** You can choose to display between:"
-msgstr "**Videotrack:** U kunt kiezen om deze te tonen tussen:"
-
-#: ../../user_interface/timeline.rst:218
-msgid ":guilabel:`In frame`"
+#: ../../user_interface/timeline.rst:330
+#| msgid ":guilabel:`In frame`"
+msgid ":guilabel:`In Frame`"
 msgstr ":guilabel:`In frame`"
 
-#: ../../user_interface/timeline.rst:220
-msgid ":guilabel:`In/Out frames`"
+#: ../../user_interface/timeline.rst:332
+#| msgid ":guilabel:`In/Out frames`"
+msgid ":guilabel:`In/Out Frames`"
 msgstr ":guilabel:`In/uit frames`"
 
-#: ../../user_interface/timeline.rst:222
-msgid ":guilabel:`All frames` or"
+#: ../../user_interface/timeline.rst:334
+#| msgid ":guilabel:`All frames` or"
+msgid ":guilabel:`All Frames` or"
 msgstr ":guilabel:`Alle frames` of"
 
-#: ../../user_interface/timeline.rst:224
-msgid ":guilabel:`No thumbnails`."
-msgstr ":guilabel:`Geen miniaturen`."
+#: ../../user_interface/timeline.rst:336
+#| msgid ":guilabel:`No thumbnails`."
+msgid ":guilabel:`No Thumbnails`"
+msgstr ":guilabel:`Geen miniaturen`"
 
-#: ../../user_interface/timeline.rst:232
-msgid "**Audio track:** You can enable:"
+#: ../../user_interface/timeline.rst:344
+#| msgid "**Audio track:** You can enable:"
+msgid "**Audio track** - You can enable:"
 msgstr "**Audiotrack:** U kunt inschakelen:"
 
-#: ../../user_interface/timeline.rst:234
+#: ../../user_interface/timeline.rst:346
+#| msgid ""
+#| ":guilabel:`Show Record Control` to record audio direct into the track. "
+#| "More details see :ref:`audio-recording`."
 msgid ""
-":guilabel:`Show Record Control` to record audio direct into the track. More "
+":guilabel:`Show Record Controls` to record audio direct into the track."
+" More "
 "details see :ref:`audio-recording`."
 msgstr ""
-":guilabel:`Opnamecontrole tonen` om audio direct in de track op te nemen. "
+":guilabel:`Opnamebesturing tonen` om audio direct in de track op te"
+" nemen. "
 "Meer details zie :ref:`audio-recording`."
 
-#: ../../user_interface/timeline.rst:236
+#: ../../user_interface/timeline.rst:348
 msgid ""
 ":guilabel:`Separate Channels` to see each channel of an audio track (i.e "
 "stereo, 5.1)"
 msgstr ""
-":guilabel:`Gescheiden kanalen` om elk kanaal van een audiotrack te zien (d.w."
+":guilabel:`Gescheiden kanalen` om elk kanaal van een audiotrack te zien"
+" (d.w."
 "z. stereo, 5.1)"
 
-#: ../../user_interface/timeline.rst:238
+#: ../../user_interface/timeline.rst:350
 msgid ""
-":guilabel:`Normalize Audio Thumbnails` maximize the audio level peak to -3dB."
+":guilabel:`Normalize Audio Thumbnails` maximize the audio level peak to"
+" -3dB."
 msgstr ""
-":guilabel:`Audio-miniaturen normaliseren` maximaliseer het audio-piekniveau "
+":guilabel:`Audio-miniaturen normaliseren` maximaliseer het"
+" audio-piekniveau "
 "op -3dB."
 
-#: ../../user_interface/timeline.rst:243
-msgid "Disabling individual clips"
-msgstr "Clips individueel uitschakelen"
-
-#: ../../user_interface/timeline.rst:253
-msgid ""
-"Individual clips can be disabled while still in the timeline but with no "
-"audio and no video – (works for all clip types). Right-click on the clip and "
-"choose :guilabel:`Disable clip` or :guilabel:`Enable clip`."
-msgstr ""
-"Individuele clips kunnen uitgeschakeld worden terwijl ze toch in de tijdlijn "
-"blijven maar zonder audio en zonder video – (werkt voor alle clip types). "
-"Rechtsklik op de clip en selecteer :guilabel:`Clip uitschakelen` of :"
-"guilabel:`Clip inschakelen`."
-
-#: ../../user_interface/timeline.rst:260
+#: ../../user_interface/timeline.rst:359
 msgid "Continuously loop playback"
 msgstr "Continue afspeel-loop"
 
-#: ../../user_interface/timeline.rst:262
+#: ../../user_interface/timeline.rst:361
 msgid ""
-"Disable :guilabel:`Pause playback when seeking` in :ref:`configure_timeline` "
+"Disable :guilabel:`Pause playback when seeking` in"
+" :ref:`configure_timeline` "
 "settings (:menuselection:`Settings --> Configure Kdenlive --> Timeline`)."
 msgstr ""
 "Schakel :guilabel:`Afspelen pauzeren bij positioneren` in de :ref:"
 "`configure_timeline`-instellingen (:menuselection:`Instellingen -->  "
 "Kdenlive configureren --> Tijdlijn`)."
 
-#: ../../user_interface/timeline.rst:263
+#: ../../user_interface/timeline.rst:362
 msgid "Make a timeline zone the length you like to loop."
 msgstr "Maak een tijdlijnzone met de lengte die u wilt herhalen."
 
-#: ../../user_interface/timeline.rst:264
+#: ../../user_interface/timeline.rst:363
 msgid "Loop Zone (:kbd:`Ctrl + Shift + Space`)"
 msgstr "Loop Zone (:kbd:`Ctrl + Shift + Spatie`)"
+
+#~ msgid ""
+#~ "1 - **Track resizing icon**. This icon allows you to adjust the track "
+#~ "height in the timeline from normal to small.  This does not affect the "
+#~ "video or the render in any way.  The default height of tracks can be "
+#~ "configured in **Kdenlive's** :ref:`configure_kdenlive` dialog."
+#~ msgstr ""
+#~ "1 - **Pictogram Trackgrootte**. Dit pictogram biedt u het aanpassen van "
+#~ "de trackhoogte in de tijdlijn van normaal naar klein. Dit heeft geheel "
+#~ "geen effect op de video of het renderen. De standaard hoogte van tracks "
+#~ "kan geconfigureerd worden in de dialoog van **Kdenlive** :ref:"
+#~ "`configure_kdenlive`."
+
+#~ msgid ""
+#~ "3 -  **Track header**. This box shows some options for a track. First is "
+#~ "the track name (Main Video Track in the screenshot). That name can be "
+#~ "changed by simply clicking in it. Below are icons to"
+#~ msgstr ""
+#~ "3 -  **Trackhoofd**. Dit vak toont enkele mogelijkheden voor een track. "
+#~ "De eerste is de tracknaam (Main Video Track in de schermafdruk). Die naam "
+#~ "kan gewijzigd worden door eenvoudig er in te klikken. Er onder zijn "
+#~ "pictogrammen voor"
+
+#~ msgid ""
+#~ "Right clicking in the track header will give you a context menu allowing "
+#~ "to manage (add / delete) tracks. See :ref:`configure tracks "
+#~ "<configure_tracks>`"
+#~ msgstr ""
+#~ "Rechts klikken in de trackkop zal u een contextmenu geven waarmee u "
+#~ "tracks kunt beheren (toevoegen / verwijderen). Zie :ref:`tracks "
+#~ "configureren <configure_tracks>`"
+
+#~ msgid "4 - The track itself, this is where you can drop your clips."
+#~ msgstr "4 - de track zelf, dit is waar u uw clips kunt loslaten."
 
 #~ msgid "See also:"
 #~ msgstr "Zie ook:"
