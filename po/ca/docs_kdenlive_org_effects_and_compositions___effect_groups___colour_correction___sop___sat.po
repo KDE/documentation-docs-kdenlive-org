@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-27 00:38+0000\n"
+"POT-Creation-Date: 2023-04-26 00:42+0000\n"
 "PO-Revision-Date: 2022-02-27 11:09+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -24,12 +24,8 @@ msgstr ""
 msgid "SOP/Sat Effect"
 msgstr "Efecte SOP/Sat"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:16
-msgid "Contents"
-msgstr "Contingut"
-
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:18
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:17
 msgid ""
 "This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/"
 "FilterFrei0r-sopsat/>`_  MLT framework filter. It changes Slope, Offset, and "
@@ -43,7 +39,7 @@ msgstr ""
 "`referència <https://en.wikipedia.org/wiki/ASC_CDL>`_ de la CDL (Llista de "
 "Decisió del Color) de l'ASC."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:21
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:20
 msgid ""
 "Changing the slope means multiplying the pixel value with a constant value. "
 "Black pixels will remain black, while as brighter ones will be changed. All "
@@ -55,12 +51,12 @@ msgstr ""
 "es canviaran. Tot l'efecte es pot observar bé quan s'aplica sobre un "
 "degradat en escala de grisos i mirant el monitor Histograma RGB."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:23
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:22
 msgid "You can use this effect to achieve proper white balance."
 msgstr ""
 "Podeu utilitzar aquest efecte per a aconseguir un balanç de blancs adequat."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:29
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:28
 msgid ""
 "This filter implements a standard way of color correction proposed by the "
 "American Society of Cinematographers: The Color Decision List, also known as "
@@ -71,7 +67,7 @@ msgstr ""
 "List, també coneguda com la CDL de l'ASC."
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:31
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:30
 msgid ""
 "More information about the ASC CDL can be found on `wikipedia <https://en."
 "wikipedia.org/wiki/ASC_CDL>`_."
@@ -79,7 +75,7 @@ msgstr ""
 "Trobareu més informació sobre la CDL de l'ASC a la `Viquipèdia <https://en."
 "wikipedia.org/wiki/ASC_CDL>`_."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:33
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:32
 msgid ""
 "The ASC CDL is a standard format for basic primary color correction (primary "
 "meaning affecting the whole image and not only selected parts)."
@@ -88,7 +84,7 @@ msgstr ""
 "primari (el significat principal afecta tota la imatge i no només les parts "
 "seleccionades)."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:35
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:34
 msgid ""
 "Basically there are two stages in the correction: 1. SOP correction for each "
 "channel separately 2. Overall saturation correction"
@@ -96,7 +92,7 @@ msgstr ""
 "Bàsicament, hi ha dos passos en la correcció: 1. Correcció SOP per a cada "
 "canal per separat i 2. Correcció de la saturació general"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:39
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:38
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from {0,...,255} to [0,1]."
@@ -104,44 +100,44 @@ msgstr ""
 "Totes les correccions funcionen a [0,1], de manera que els valors RGB(A) "
 "s'han de transposar des de {0,...,255} cap a [0,1]."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:41
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:40
 msgid "SOP correction"
 msgstr "Correcció SOP"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:42
 msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
 msgstr ""
 "Desnivell:   ``sortida = entrada * desnivell;   0 <= desnivell < \\infty``"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
 msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
 msgstr ""
 "Desplaçament:  ``sortida = entrada + desplaçament;  -\\infty < desplaçament "
 "< \\infty``"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:45
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
 msgid "Power:   ``out = in^power;     0 < power < \\infty``"
 msgstr "Potència:   ``sortida = entrada^potència;     0 < potència < \\infty``"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:47
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:46
 msgid "Saturation"
 msgstr "Saturació"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:49
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:48
 msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
 msgstr ""
 "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (d'acord amb el Rec. 709)"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:50
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:49
 msgid "Forall channels: ``out = luma + sat * (in-luma)``"
 msgstr "Canals en general: ``sortida = luma + saturació * (luma d'entrada)``"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:52
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:51
 msgid ""
 "As the values may exceed 1 (or 0), they need to be clamped where necessary."
 msgstr ""
@@ -149,10 +145,13 @@ msgstr ""
 "necessari."
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:54
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:53
 msgid ""
 "See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect "
 "to adjust white balance of a clip."
 msgstr ""
 "Vegeu el :ref:`blog de Granjow <waveform_and_RGB_parade>` on empra l'efecte "
 "per a ajustar el balanç de blancs d'un clip."
+
+#~ msgid "Contents"
+#~ msgstr "Contingut"
