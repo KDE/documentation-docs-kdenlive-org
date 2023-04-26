@@ -16,7 +16,7 @@ Misc Effects
 ============
 
 .. toctree::
-   :caption: Effects in this category
+   :hidden:
    :glob:
 
    misc/*

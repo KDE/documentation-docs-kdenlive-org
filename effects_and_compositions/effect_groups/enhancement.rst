@@ -15,7 +15,7 @@ Enhancement
 ===========
 
 .. toctree::
-   :caption: Effects in this category
+   :hidden:
    :glob:
 
    enhancement/*

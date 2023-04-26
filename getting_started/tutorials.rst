@@ -37,7 +37,7 @@ Written Tutorials
 
 
 .. toctree::
-   :caption: Contents:
+   :hidden:
 
    tutorials/split_screen_how_to
 

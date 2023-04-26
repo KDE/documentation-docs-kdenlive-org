@@ -16,7 +16,7 @@ Crop and Transform
 ==================
 
 .. toctree::
-   :caption: Effects in this category
+   :hidden:
    :glob:
    
    crop_and_transform/*

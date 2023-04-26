@@ -54,7 +54,7 @@ Project Menu
 
 
 .. toctree::
-   :caption: Contents:
+   :hidden:
    :glob:
 
    project_menu/*

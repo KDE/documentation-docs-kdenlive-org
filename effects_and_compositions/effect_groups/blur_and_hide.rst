@@ -17,7 +17,7 @@ Blur and Hide
 =============
 
 .. toctree::
-   :caption: Effects in this category
+   :hidden:
    :glob:
 
    blur_and_hide/*

@@ -25,7 +25,7 @@ From the View menu you can control which windows appear on the screen. You can a
   :alt: Kdenlive_view_menu
 
 .. toctree::
-   :caption: Contents:
+   :hidden:
    :glob:
 
    view_menu/*

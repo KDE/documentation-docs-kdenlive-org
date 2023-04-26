@@ -17,7 +17,7 @@ Color Correction
 ================
 
 .. toctree::
-   :caption: Effects in this category
+   :hidden:
    :glob:
 
    colour_correction/*

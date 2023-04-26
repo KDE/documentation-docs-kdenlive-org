@@ -15,7 +15,7 @@ Distort
 =======
 
 .. toctree::
-   :caption: Effects in this category
+   :hidden:
    :glob:
 
    distort/*
