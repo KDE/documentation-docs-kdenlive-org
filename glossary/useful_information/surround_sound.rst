@@ -12,7 +12,6 @@
 Editing Surround Sound with Kdenlive
 ====================================
 
-.. contents::
 
 At the time of writing, **Kdenlive** only supports rendering a project to a video containing stereo audio. It is not possible to render to more audio channels or to explicitly map audio tracks to channels in the rendered audio. In order to edit and create surround sound, some manual steps, including external tools, are required.
 

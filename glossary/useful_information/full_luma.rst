@@ -13,7 +13,6 @@
 Full Luma
 =========
 
-.. contents::
 
 Advance Clip Property - Full Luma Range
 ---------------------------------------

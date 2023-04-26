@@ -10,10 +10,6 @@
 Tracks
 ======
 
-.. contents::
-
-
-
 
 .. image:: /images/Timeline_menu_tracks.png
   :align: center

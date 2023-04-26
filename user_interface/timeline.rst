@@ -23,7 +23,6 @@
 Timeline
 ========
 
-.. contents::
 
 The timeline is the central part of **Kdenlive**. It is made of four different areas:
 

@@ -24,7 +24,6 @@ This is better for backgrounds that have less contrast with the foreground, or m
 Basic Technique
 ---------------
 
-.. contents::
 
 Find a clip with a background (preferably multiple, or slightly complex, because the "chroma key effect" can do easy backgrounds such as green or blue). Add the Chroma-Key effect to the clip.
 

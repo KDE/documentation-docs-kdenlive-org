@@ -16,8 +16,7 @@ Effects and compositions
 
 
 .. toctree::
-   :maxdepth: 4
-   :caption: Contents:
+   :hidden:
    :glob:
 
    effects_and_compositions/*

@@ -22,8 +22,6 @@ Workspace Layouts
 =================
 
 
-.. contents::
-
 .. versionadded:: 20.08.0
 
 
