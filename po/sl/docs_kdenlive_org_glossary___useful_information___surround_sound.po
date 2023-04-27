@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-13 00:22+0000\n"
+"POT-Creation-Date: 2023-04-27 00:41+0000\n"
 "PO-Revision-Date: 2023-01-15 11:11+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -28,11 +28,7 @@ msgstr ""
 msgid "Editing Surround Sound with Kdenlive"
 msgstr "Montaža prostorskega zvoka s Kdenlive"
 
-#: ../../glossary/useful_information/surround_sound.rst:15
-msgid "Contents"
-msgstr "Vsebina"
-
-#: ../../glossary/useful_information/surround_sound.rst:17
+#: ../../glossary/useful_information/surround_sound.rst:16
 msgid ""
 "At the time of writing, **Kdenlive** only supports rendering a project to a "
 "video containing stereo audio. It is not possible to render to more audio "
@@ -46,15 +42,15 @@ msgstr ""
 "ustvarjanje prostorskega zvoka so potrebni nekateri ročni koraki, vključno z "
 "uporabo zunanjih orodij."
 
-#: ../../glossary/useful_information/surround_sound.rst:20
+#: ../../glossary/useful_information/surround_sound.rst:19
 msgid "This guide is using a 6 channel 5.1 surround sound as example."
 msgstr "Ta vodnik uporablja za primer 6-kanalni prostorski zvok 5.1."
 
-#: ../../glossary/useful_information/surround_sound.rst:24
+#: ../../glossary/useful_information/surround_sound.rst:23
 msgid "External Tools Used Here"
 msgstr "Zunanja orodja, uporabljena tukaj"
 
-#: ../../glossary/useful_information/surround_sound.rst:26
+#: ../../glossary/useful_information/surround_sound.rst:25
 msgid ""
 "`Audacity <http://audacity.sourceforge.net/>`_ - Free Audio Editor and "
 "Recorder"
@@ -62,11 +58,11 @@ msgstr ""
 "`Audacity <http://audacity.sourceforge.net/>`_ - Prosti program za montažo "
 "in snemanje zvoka"
 
-#: ../../glossary/useful_information/surround_sound.rst:27
+#: ../../glossary/useful_information/surround_sound.rst:26
 msgid "`avconv <http://libav.org/avconv.html>`_ - A Video and Audio Converter"
 msgstr "`avconv <http://libav.org/avconv.html>`_ - Pretvornik videa in zvoka"
 
-#: ../../glossary/useful_information/surround_sound.rst:32
+#: ../../glossary/useful_information/surround_sound.rst:31
 msgid ""
 "Kdenlive uses ffmpeg, while on (k)ubuntu, ffmpeg is deprecated and avconv is "
 "used instead. So these (and possibly other) distributions already have "
@@ -76,11 +72,11 @@ msgstr ""
 "namesto tega uporablja avconv. Torej je na teh (in morda tudi drugih) "
 "distribucijah že nameščen avconv."
 
-#: ../../glossary/useful_information/surround_sound.rst:36
+#: ../../glossary/useful_information/surround_sound.rst:35
 msgid "Creating New Surround Sound"
 msgstr "Ustvarjanje novega prostorskega zvoka"
 
-#: ../../glossary/useful_information/surround_sound.rst:38
+#: ../../glossary/useful_information/surround_sound.rst:37
 msgid ""
 "This guide describes one possible workaround using **Audacity** to create "
 "and render a 5.1 surround sound audio track that can be added to the video "
@@ -90,7 +86,7 @@ msgstr ""
 "ustvarjanje in izris zvočne steze prostorskega zvoka 5.1, ki jo lahko dodate "
 "videu, ki ga izrišete s **Kdenlive**."
 
-#: ../../glossary/useful_information/surround_sound.rst:42
+#: ../../glossary/useful_information/surround_sound.rst:41
 msgid ""
 "More advanced features such as surround panning (i.e. let a sound move from "
 "rear to front) are beyond the capabilities of Audacity - but it is possible "
@@ -100,30 +96,30 @@ msgstr ""
 "premika od zadaj proti spredaj, angl. surround panning), presegajo zmožnosti "
 "Audacity - vendar je mogoče ustvariti podobne učinke ročno."
 
-#: ../../glossary/useful_information/surround_sound.rst:46
+#: ../../glossary/useful_information/surround_sound.rst:45
 msgid "Create and Edit Surround Sound with Audacity"
 msgstr "Ustvarjanje in urejanje prostorskega zvoka z Audacity"
 
-#: ../../glossary/useful_information/surround_sound.rst:48
+#: ../../glossary/useful_information/surround_sound.rst:47
 msgid ""
 "The following example of a simple 5.1 surround sound is used in this guide:"
 msgstr ""
 "V tej vadnici uporabljamo naslednji primer preprostega prostorskega zvoka "
 "5.1:"
 
-#: ../../glossary/useful_information/surround_sound.rst:51
+#: ../../glossary/useful_information/surround_sound.rst:50
 msgid "Some original field recording from the front (stereo)"
 msgstr "Nekaj izvirnega terenskega posnetka spredaj (stereo)"
 
-#: ../../glossary/useful_information/surround_sound.rst:53
+#: ../../glossary/useful_information/surround_sound.rst:52
 msgid "Some voice from the (front) center (mono)"
 msgstr "Nekaj glasu iz sredine (spredaj) (mono)"
 
-#: ../../glossary/useful_information/surround_sound.rst:55
+#: ../../glossary/useful_information/surround_sound.rst:54
 msgid "Some music from the rear (stereo)"
 msgstr "Nekaj glasbe od zadaj (stereo)"
 
-#: ../../glossary/useful_information/surround_sound.rst:58
+#: ../../glossary/useful_information/surround_sound.rst:57
 #, fuzzy
 msgid ""
 "If, like in this example, some original field recording from a video clip is "
@@ -138,23 +134,23 @@ msgstr ""
 "Audio --> Wav 48000Hz' iz kontekstnega menija posnetka. S tem ustvarite "
 "zvočno datoteko WAV v isti mapi, v kateri se nahaja video posnetek."
 
-#: ../../glossary/useful_information/surround_sound.rst:60
+#: ../../glossary/useful_information/surround_sound.rst:59
 msgid "The audio clips to be used in this example are:"
 msgstr "Zvočni posnetki, ki bodo uporabljeni v tem primeru, so:"
 
-#: ../../glossary/useful_information/surround_sound.rst:63
+#: ../../glossary/useful_information/surround_sound.rst:62
 msgid ":file:`Field.wav` (stereo) for Front L+R"
 msgstr ":file:`Field.wav` (stereo) za sprednji L+R"
 
-#: ../../glossary/useful_information/surround_sound.rst:65
+#: ../../glossary/useful_information/surround_sound.rst:64
 msgid ":file:`Voice.wav` (mono) for Center"
 msgstr ":file:`Voice.wav` (mono) za center"
 
-#: ../../glossary/useful_information/surround_sound.rst:67
+#: ../../glossary/useful_information/surround_sound.rst:66
 msgid ":file:`Music.mp3` (stereo) for Surround L+R (rear)"
 msgstr ":file:`Music.mp3` (stereo) za okoliški zvok L+R (zadaj)"
 
-#: ../../glossary/useful_information/surround_sound.rst:70
+#: ../../glossary/useful_information/surround_sound.rst:69
 msgid ""
 "In a new Audacity project, they can be imported in the above order with :"
 "menuselection:`File --> Import --> Audio...`, the project should now look "
@@ -164,42 +160,42 @@ msgstr ""
 "menuselection:`Datoteka --> Uvozi --> Zvok …`, projekt bi moral zdaj "
 "izgledati nekako takole:"
 
-#: ../../glossary/useful_information/surround_sound.rst:76
+#: ../../glossary/useful_information/surround_sound.rst:75
 msgid "The channel mapping for 5.1 surround sound is:"
 msgstr "Preslikava kanalov za prostorski zvok 5.1 je:"
 
-#: ../../glossary/useful_information/surround_sound.rst:79
-#: ../../glossary/useful_information/surround_sound.rst:198
+#: ../../glossary/useful_information/surround_sound.rst:78
+#: ../../glossary/useful_information/surround_sound.rst:197
 msgid "1 - Front Left"
 msgstr "1 - Spredaj levo"
 
-#: ../../glossary/useful_information/surround_sound.rst:82
-#: ../../glossary/useful_information/surround_sound.rst:200
+#: ../../glossary/useful_information/surround_sound.rst:81
+#: ../../glossary/useful_information/surround_sound.rst:199
 msgid "2 - Front Right"
 msgstr "2 - Spredaj desno"
 
-#: ../../glossary/useful_information/surround_sound.rst:85
-#: ../../glossary/useful_information/surround_sound.rst:202
+#: ../../glossary/useful_information/surround_sound.rst:84
+#: ../../glossary/useful_information/surround_sound.rst:201
 msgid "3 - Center"
 msgstr "3 - Center"
 
-#: ../../glossary/useful_information/surround_sound.rst:88
-#: ../../glossary/useful_information/surround_sound.rst:204
+#: ../../glossary/useful_information/surround_sound.rst:87
+#: ../../glossary/useful_information/surround_sound.rst:203
 msgid "4 - LFE"
 msgstr "4 - LFE"
 
-#: ../../glossary/useful_information/surround_sound.rst:91
-#: ../../glossary/useful_information/surround_sound.rst:206
+#: ../../glossary/useful_information/surround_sound.rst:90
+#: ../../glossary/useful_information/surround_sound.rst:205
 msgid "5 - Surround Left"
 msgstr "5 - Okolica levo"
 
-#: ../../glossary/useful_information/surround_sound.rst:94
-#: ../../glossary/useful_information/surround_sound.rst:208
+#: ../../glossary/useful_information/surround_sound.rst:93
+#: ../../glossary/useful_information/surround_sound.rst:207
 msgid "6 - Surround Right"
 msgstr "6 - Okolica desno"
 
-#: ../../glossary/useful_information/surround_sound.rst:99
-#: ../../glossary/useful_information/surround_sound.rst:212
+#: ../../glossary/useful_information/surround_sound.rst:98
+#: ../../glossary/useful_information/surround_sound.rst:211
 #, fuzzy
 msgid ""
 "LFE (Low Frequency Effects) is often referred to as \"subwoofer channel\", "
@@ -212,7 +208,7 @@ msgstr ""
 "veljavna brez subwooferja. V tem primeru bo okoliški zvočni sistem "
 "preusmeril kanal LFE na \"velike\" zvočnike, običajno sprednje zvočnike."
 
-#: ../../glossary/useful_information/surround_sound.rst:102
+#: ../../glossary/useful_information/surround_sound.rst:101
 #, fuzzy
 msgid ""
 "The stereo track \"Field\" can now be mapped to Front L+R, \"Voice\" to "
@@ -229,7 +225,7 @@ msgstr ""
 "frekvenčni razpon skladbe \"Music\" na kanal LFE, sicer bi lahko glasba "
 "zvenela malce \"tanko\"."
 
-#: ../../glossary/useful_information/surround_sound.rst:105
+#: ../../glossary/useful_information/surround_sound.rst:104
 #, fuzzy
 msgid ""
 "To do this, the \"Music\" track can simply be duplicated with :menuselection:"
@@ -242,7 +238,7 @@ msgstr ""
 "Stereo to Mono' iz kontekstnega menija tretje skladbe. Nato je mogoče eno od "
 "dveh mono skladb izbrisati; drugega lahko preimenujete v \"LFE\"."
 
-#: ../../glossary/useful_information/surround_sound.rst:108
+#: ../../glossary/useful_information/surround_sound.rst:107
 #, fuzzy
 msgid ""
 "Now the \"Equalization...\" effect could be used to cut off frequencies "
@@ -253,7 +249,7 @@ msgstr ""
 "nad približno 100Hz od skladbe \"LFE\", in obratno, odrezati frekvence pod "
 "približno 100Hz od skladbe \"Glasba\"."
 
-#: ../../glossary/useful_information/surround_sound.rst:113
+#: ../../glossary/useful_information/surround_sound.rst:112
 #, fuzzy
 msgid ""
 "Creating technically perfect surround sound is a science all its own and "
@@ -264,7 +260,7 @@ msgstr ""
 "onkraj področja uporabe tega vodnika - za podrobnosti glejte ustrezne vire "
 "na spletu."
 
-#: ../../glossary/useful_information/surround_sound.rst:116
+#: ../../glossary/useful_information/surround_sound.rst:115
 #, fuzzy
 msgid ""
 "What remains for now is to make sure that the surround sound track has the "
@@ -277,11 +273,11 @@ msgstr ""
 "v tem primeru, ima dolžino 1:00 minute, zato se dolžine zvočnih skladb v "
 "Audacity ustrezno prilagodijo:"
 
-#: ../../glossary/useful_information/surround_sound.rst:119
+#: ../../glossary/useful_information/surround_sound.rst:118
 msgid "The Audacity project should now look something like this:"
 msgstr "Projekt Audacity bi moral zdaj izgledati takole:"
 
-#: ../../glossary/useful_information/surround_sound.rst:125
+#: ../../glossary/useful_information/surround_sound.rst:124
 #, fuzzy
 msgid ""
 "The next thing to do is to export the project to a multichannel 5.1 surround "
@@ -290,7 +286,7 @@ msgstr ""
 "Naslednja stvar je izvoz projekta v večkanalne 5.1 prostorske zvočne "
 "datoteke. Tukaj uporabljena oblika je AC-3 (Dolby Digital)."
 
-#: ../../glossary/useful_information/surround_sound.rst:128
+#: ../../glossary/useful_information/surround_sound.rst:127
 #, fuzzy
 msgid ""
 "Before exporting, Audacity needs to be configured to allow exporting to a "
@@ -303,28 +299,28 @@ msgstr ""
 "menuselection:'Import/Export', izberite \"Uporabi miks po meri (na primer za "
 "izvoz večkanalne datoteke 5.1)\"."
 
-#: ../../glossary/useful_information/surround_sound.rst:131
-#: ../../glossary/useful_information/surround_sound.rst:319
+#: ../../glossary/useful_information/surround_sound.rst:130
+#: ../../glossary/useful_information/surround_sound.rst:318
 msgid "The project can now be exported into a 5.1 surround sound audio file:"
 msgstr ""
 "Projekt je zdaj mogoče izvoziti v zvočno datoteko prostorskega zvoka 5.1:"
 
-#: ../../glossary/useful_information/surround_sound.rst:134
-#: ../../glossary/useful_information/surround_sound.rst:322
+#: ../../glossary/useful_information/surround_sound.rst:133
+#: ../../glossary/useful_information/surround_sound.rst:321
 msgid "Select :menuselection:`File --> Export...`"
 msgstr "Izberite :menuselection:`Datoteka --> Izvozi …`"
 
-#: ../../glossary/useful_information/surround_sound.rst:137
-#: ../../glossary/useful_information/surround_sound.rst:324
+#: ../../glossary/useful_information/surround_sound.rst:136
+#: ../../glossary/useful_information/surround_sound.rst:323
 msgid "Provide a name for \"Name\" and select \"AC3 Files (FFmpeg)\""
 msgstr "Navedite ime za »Ime« in izberite »Datoteke AC3 (FFmpeg)«"
 
-#: ../../glossary/useful_information/surround_sound.rst:140
+#: ../../glossary/useful_information/surround_sound.rst:139
 msgid "Click :guilabel:`Options...` and choose \"512 kbps\" as \"Bit Rate\""
 msgstr ""
 "Kliknite :guilabel:`Možnosti …` in izberite »512 kb/s« kot »bitno hitrost«"
 
-#: ../../glossary/useful_information/surround_sound.rst:143
+#: ../../glossary/useful_information/surround_sound.rst:142
 #, fuzzy
 msgid ""
 "The \"Advanced Mixing Options\" dialog should show up. The number of "
@@ -334,7 +330,7 @@ msgstr ""
 "Prikaže se pogovorno okno »Napredne možnosti mešanja«. Število \"izhodnih "
 "kanalov\" mora biti 6, kartiranje kanalov pa mora biti že pravilno:"
 
-#: ../../glossary/useful_information/surround_sound.rst:149
+#: ../../glossary/useful_information/surround_sound.rst:148
 #, fuzzy
 msgid ""
 "The result of the export should be an :file:`*.ac3` file which is playable "
@@ -343,13 +339,13 @@ msgstr ""
 "Rezultat izvoza mora biti :file:'*.ac3' datoteka, ki se predvaja z npr. "
 "**VLC** ali **Dragon Player***."
 
-#: ../../glossary/useful_information/surround_sound.rst:153
-#: ../../glossary/useful_information/surround_sound.rst:339
+#: ../../glossary/useful_information/surround_sound.rst:152
+#: ../../glossary/useful_information/surround_sound.rst:338
 #, fuzzy
 msgid "Muxing Video and Audio Together"
 msgstr "Mešanje videa in zvoka skupaj"
 
-#: ../../glossary/useful_information/surround_sound.rst:155
+#: ../../glossary/useful_information/surround_sound.rst:154
 #, fuzzy
 msgid ""
 "The final step is to add the surround sound audio track to the video track, "
@@ -358,8 +354,8 @@ msgstr ""
 "Zadnji korak je dodajanje zvočnega posnetka v video skladbo, če je bil "
 "videoposnetek uglasljen brez zvoka."
 
-#: ../../glossary/useful_information/surround_sound.rst:160
-#: ../../glossary/useful_information/surround_sound.rst:347
+#: ../../glossary/useful_information/surround_sound.rst:159
+#: ../../glossary/useful_information/surround_sound.rst:346
 #, fuzzy
 msgid ""
 "When muxing audio and video files into one file, the actual streams are just "
@@ -371,7 +367,7 @@ msgstr ""
 "kopirajo in ne prekopirajo. Zato ni izgube kakovosti za zvok ali video "
 "tokove. Tudi zato, ker so potoki samo kopirani, mešanje je zelo hitro."
 
-#: ../../glossary/useful_information/surround_sound.rst:163
+#: ../../glossary/useful_information/surround_sound.rst:162
 #, fuzzy
 msgid ""
 "Assuming the video track was rendered to :file:`Video.mkv` and the surround "
@@ -382,8 +378,8 @@ msgstr ""
 "prostorski zvok je bil izvožen v :file:'5.1.ac3' ukaz za mux obe na :"
 "file:'Video-5.1.mkv' z **avconv** bi bilo:"
 
-#: ../../glossary/useful_information/surround_sound.rst:171
-#: ../../glossary/useful_information/surround_sound.rst:357
+#: ../../glossary/useful_information/surround_sound.rst:170
+#: ../../glossary/useful_information/surround_sound.rst:356
 #, fuzzy
 msgid ""
 "The result should be an MKV video containing a Dolby Digital 5.1 surround "
@@ -392,11 +388,11 @@ msgstr ""
 "Rezultat bi moral biti MKV videoposnetek, ki vsebuje dolby Digital 5.1 "
 "prostorski zvočni zvočni posnetek."
 
-#: ../../glossary/useful_information/surround_sound.rst:175
+#: ../../glossary/useful_information/surround_sound.rst:174
 msgid "Editing Existing Surround Sound"
 msgstr "Urejanje obstoječega prostorskega zvoka"
 
-#: ../../glossary/useful_information/surround_sound.rst:177
+#: ../../glossary/useful_information/surround_sound.rst:176
 msgid ""
 "When adding a clip with more than two channels to a project, **Kdenlive** "
 "creates an audio thumbnail that correctly shows all audio channels:"
@@ -404,7 +400,7 @@ msgstr ""
 "Ko projektu dodate posnetek z več kot dvema kanaloma, **Kdenlive** ustvari "
 "sličico zvoka, ki pravilno prikazuje vse zvočne kanale:"
 
-#: ../../glossary/useful_information/surround_sound.rst:183
+#: ../../glossary/useful_information/surround_sound.rst:182
 #, fuzzy
 msgid ""
 "The clip can be edited and (audio) effects applied to it, and all appears to "
@@ -415,16 +411,16 @@ msgstr ""
 "zdi se, da vse deluje prav v redu - ampak ko uglasi projekt, se izkaže, da "
 "je zvočna skladba v rezultatskem video datoteko je 2 kanali (stereo) samo."
 
-#: ../../glossary/useful_information/surround_sound.rst:186
+#: ../../glossary/useful_information/surround_sound.rst:185
 #, fuzzy
 msgid "The following steps provide a manual workaround for this issue."
 msgstr "Naslednji koraki zagotavljajo ročno zaodložje za to težavo."
 
-#: ../../glossary/useful_information/surround_sound.rst:190
+#: ../../glossary/useful_information/surround_sound.rst:189
 msgid "Extract and Split the Audio Track"
 msgstr "Izvleci in razdeli zvočne steze"
 
-#: ../../glossary/useful_information/surround_sound.rst:192
+#: ../../glossary/useful_information/surround_sound.rst:191
 #, fuzzy
 msgid ""
 "The first step is to extract the audio track from the video clip. This can "
@@ -437,7 +433,7 @@ msgstr ""
 "kontekstnega menija posnetka. Tako ustvarite zvočno datoteko WAV v isti "
 "mapi, kjer se nahaja video posnetek."
 
-#: ../../glossary/useful_information/surround_sound.rst:195
+#: ../../glossary/useful_information/surround_sound.rst:194
 #, fuzzy
 msgid ""
 "The extracted WAV audio file can then be opened in **Audacity**, it should "
@@ -446,7 +442,7 @@ msgstr ""
 "Izvleček WAV zvočne datoteke lahko nato odprete v **Audacity**, mora "
 "pokazati vse 6 kanalov, to so:"
 
-#: ../../glossary/useful_information/surround_sound.rst:215
+#: ../../glossary/useful_information/surround_sound.rst:214
 #, fuzzy
 msgid ""
 "The idea now is to split the surround sound into four separate (stereo/mono) "
@@ -455,27 +451,27 @@ msgstr ""
 "Zdaj je ideja razdeliti prostorski zvok na štiri ločene (stereo/mono) zvočne "
 "datoteke, ki jih **Kdenlive** lahko obravnava:"
 
-#: ../../glossary/useful_information/surround_sound.rst:217
-#: ../../glossary/useful_information/surround_sound.rst:310
+#: ../../glossary/useful_information/surround_sound.rst:216
+#: ../../glossary/useful_information/surround_sound.rst:309
 msgid "Front (stereo)"
 msgstr "Spredaj (stereo)"
 
-#: ../../glossary/useful_information/surround_sound.rst:219
-#: ../../glossary/useful_information/surround_sound.rst:312
+#: ../../glossary/useful_information/surround_sound.rst:218
+#: ../../glossary/useful_information/surround_sound.rst:311
 msgid "Center (mono)"
 msgstr "Center (mono)"
 
-#: ../../glossary/useful_information/surround_sound.rst:221
-#: ../../glossary/useful_information/surround_sound.rst:314
+#: ../../glossary/useful_information/surround_sound.rst:220
+#: ../../glossary/useful_information/surround_sound.rst:313
 msgid "LFE (mono)"
 msgstr "LFE (mono)"
 
-#: ../../glossary/useful_information/surround_sound.rst:223
-#: ../../glossary/useful_information/surround_sound.rst:316
+#: ../../glossary/useful_information/surround_sound.rst:222
+#: ../../glossary/useful_information/surround_sound.rst:315
 msgid "Surround (stereo)"
 msgstr "Prostorski (stereo)"
 
-#: ../../glossary/useful_information/surround_sound.rst:225
+#: ../../glossary/useful_information/surround_sound.rst:224
 #, fuzzy
 msgid ""
 "First, Audacity needs to be configured to not always export to stereo audio "
@@ -488,7 +484,7 @@ msgstr ""
 "menuselection:'Import/Export', izberite \"Uporabi miks po meri (na primer za "
 "izvoz večkanalne datoteke 5.1)\"."
 
-#: ../../glossary/useful_information/surround_sound.rst:228
+#: ../../glossary/useful_information/surround_sound.rst:227
 #, fuzzy
 msgid ""
 "Now, tracks 1+2 and 5+6 should be turned into stereo tracks by choosing :"
@@ -501,7 +497,7 @@ msgstr ""
 "oziroma 5. skladbe. To bi moralo imeti za posledico 4 proge, dva stereo in "
 "dve mono."
 
-#: ../../glossary/useful_information/surround_sound.rst:231
+#: ../../glossary/useful_information/surround_sound.rst:230
 #, fuzzy
 msgid ""
 "Next, the 4 tracks should be renamed to \"Front\", \"Center\", \"LFE\" and "
@@ -512,11 +508,11 @@ msgstr ""
 "\"Surround\" začenša z vrha, z uporabo :menuselection:'Ime...' iz "
 "kontekstnega menija vsake skladbe."
 
-#: ../../glossary/useful_information/surround_sound.rst:234
+#: ../../glossary/useful_information/surround_sound.rst:233
 msgid "The tracks now look like this:"
 msgstr "Steze so zdaj videti takole:"
 
-#: ../../glossary/useful_information/surround_sound.rst:240
+#: ../../glossary/useful_information/surround_sound.rst:239
 #, fuzzy
 msgid ""
 "After all this hard work, exporting the four tracks to four separate audio "
@@ -531,7 +527,7 @@ msgstr ""
 "že v redu: \"Razdeli datoteke na podlagi: Skladbe\" in \"Ime datoteke: "
 "Uporaba oznake / ime skladbe\"."
 
-#: ../../glossary/useful_information/surround_sound.rst:243
+#: ../../glossary/useful_information/surround_sound.rst:242
 #, fuzzy
 msgid ""
 "The \"Edit metadata\" dialog might pop up for each track. It is fine to just "
@@ -545,11 +541,11 @@ msgstr ""
 "file:'Front.wav', :file:'Center.wav', :file:'LFE.wav' in :file:'Surround."
 "wav'."
 
-#: ../../glossary/useful_information/surround_sound.rst:247
+#: ../../glossary/useful_information/surround_sound.rst:246
 msgid "Import Audio Tracks into Kdenlive"
 msgstr "Uvoz zvočnih stez v Kdenlive"
 
-#: ../../glossary/useful_information/surround_sound.rst:249
+#: ../../glossary/useful_information/surround_sound.rst:248
 #, fuzzy
 msgid ""
 "The previously created audio files can now be added to the Kdenlive project "
@@ -558,7 +554,7 @@ msgstr ""
 "Prej ustvarjene zvočne datoteke je zdaj mogoče dodati k projektu Kdenlive z "
 "uporabo :menuselection:'Project --> Add Clip'."
 
-#: ../../glossary/useful_information/surround_sound.rst:251
+#: ../../glossary/useful_information/surround_sound.rst:250
 #, fuzzy
 msgid ""
 "Since there are only two audio tracks in a project by default, it is "
@@ -569,7 +565,7 @@ msgstr ""
 "uporabi :menuselection:'Project --> Tracks --> Insert Track' pred dodajanjem "
 "štirih zvočnih skladb v časovnico."
 
-#: ../../glossary/useful_information/surround_sound.rst:253
+#: ../../glossary/useful_information/surround_sound.rst:252
 msgid ""
 "The next thing to do is to group the four audio tracks with the video clip "
 "by selecting all of them and then choosing :menuselection:`Timeline --> "
@@ -579,12 +575,12 @@ msgstr ""
 "videoposnetkom, tako da izberete vse in nato izberete :menuselection:"
 "`Časovnica --> Združi posnetke`."
 
-#: ../../glossary/useful_information/surround_sound.rst:258
+#: ../../glossary/useful_information/surround_sound.rst:257
 msgid ""
 "Don't forget to mute the original audio track in the video clip if necessary!"
 msgstr "Po potrebi ne pozabite izklopiti izvirne zvočne steze v videoposnetku!"
 
-#: ../../glossary/useful_information/surround_sound.rst:261
+#: ../../glossary/useful_information/surround_sound.rst:260
 #, fuzzy
 msgid ""
 "The **Kdenlive** project should now be ready for the usual editing, like "
@@ -594,11 +590,11 @@ msgstr ""
 "primer rezanje posnetkov in dodajanje učinkov, in bi moral izgledati nekaj "
 "takega:"
 
-#: ../../glossary/useful_information/surround_sound.rst:268
+#: ../../glossary/useful_information/surround_sound.rst:267
 msgid "Rendering the Project"
 msgstr "Izris projekta"
 
-#: ../../glossary/useful_information/surround_sound.rst:270
+#: ../../glossary/useful_information/surround_sound.rst:269
 msgid ""
 "Since it is not possible to render the project with a surround sound audio "
 "track, some manual steps are necessary to work around this."
@@ -606,7 +602,7 @@ msgstr ""
 "Ker projekta ni mogoče izrisati s zvočno stezo za prostorski zvok, so "
 "potrebni nekateri ročni koraki, da bi dobili tak rezultat."
 
-#: ../../glossary/useful_information/surround_sound.rst:272
+#: ../../glossary/useful_information/surround_sound.rst:271
 #, fuzzy
 msgid ""
 "First, the video track needs to be rendered without audio. This is simply "
@@ -617,7 +613,7 @@ msgstr ""
 "tako, da se projekt uteleša, kot bi bilo običajno narejeno, vendar brez "
 "zvoka, z izvleček potrditvenega polja \"Izvozi zvok\"."
 
-#: ../../glossary/useful_information/surround_sound.rst:274
+#: ../../glossary/useful_information/surround_sound.rst:273
 #, fuzzy
 msgid ""
 "Then, each of the four surround sound audio tracks :file:`Front.wav`, :file:"
@@ -628,27 +624,27 @@ msgstr ""
 "file:'Center.wav', :file:'LFE.wav' in :file:'Surround.wav' uvesti v ločeno "
 "zvočno datoteko. Za vsako od njih naredite naslednje:"
 
-#: ../../glossary/useful_information/surround_sound.rst:277
+#: ../../glossary/useful_information/surround_sound.rst:276
 msgid "Mute all other audio tracks"
 msgstr "Utišanje vseh drugih zvočnih stez"
 
-#: ../../glossary/useful_information/surround_sound.rst:279
+#: ../../glossary/useful_information/surround_sound.rst:278
 msgid "Enter a respective file name for \"Output file\""
 msgstr "Vnesite ustrezno ime datoteke za »Izhodno datoteko«"
 
-#: ../../glossary/useful_information/surround_sound.rst:281
+#: ../../glossary/useful_information/surround_sound.rst:280
 msgid "Select :guilabel:`Audio only` as \"Destination\""
 msgstr "Izberite :guilabel:`Samo zvok` kot »Cilj«"
 
-#: ../../glossary/useful_information/surround_sound.rst:283
+#: ../../glossary/useful_information/surround_sound.rst:282
 msgid "Select profile \"WAV 48000 KHz\""
 msgstr "Izberite profil »WAV 48000 KHz«"
 
-#: ../../glossary/useful_information/surround_sound.rst:285
+#: ../../glossary/useful_information/surround_sound.rst:284
 msgid "Make sure :guilabel:`Export audio` is checked"
 msgstr "Preverite, da je potrjeno :guilabel:`Izvozi zvok`"
 
-#: ../../glossary/useful_information/surround_sound.rst:292
+#: ../../glossary/useful_information/surround_sound.rst:291
 #, fuzzy
 msgid ""
 "Unfortunately, the mono tracks :file:`Center.wav` and :file:`LFE.wav` are "
@@ -659,12 +655,12 @@ msgstr ""
 "stereo skladbe, in zdi se, da se temu ne da izogniti. Toda to lahko rešimo "
 "kasneje v Audacityju."
 
-#: ../../glossary/useful_information/surround_sound.rst:296
+#: ../../glossary/useful_information/surround_sound.rst:295
 #, fuzzy
 msgid "Compose a Surround Sound Audio File"
 msgstr "Sesuj prostorsko zvočno zvočno datoteko"
 
-#: ../../glossary/useful_information/surround_sound.rst:298
+#: ../../glossary/useful_information/surround_sound.rst:297
 #, fuzzy
 msgid ""
 "Now the separate audio tracks rendered by **Kdenlive** need to be \"merged\" "
@@ -675,7 +671,7 @@ msgstr ""
 "\"združil\" v eno večkanalne 5.1 prostorske zvočne datoteke. To je spet "
 "narejeno v Audacity:"
 
-#: ../../glossary/useful_information/surround_sound.rst:301
+#: ../../glossary/useful_information/surround_sound.rst:300
 #, fuzzy
 msgid ""
 "Import :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` and :file:"
@@ -686,7 +682,7 @@ msgstr ""
 "file:'Surround.wav' (v tem vrstnem redu!) z uporabo :menuselection:'File --> "
 "Import --> Audio...'"
 
-#: ../../glossary/useful_information/surround_sound.rst:304
+#: ../../glossary/useful_information/surround_sound.rst:303
 #, fuzzy
 msgid ""
 "\"Center\" and \"LFE\" are now stereo, which is not what is needed. This can "
@@ -698,18 +694,18 @@ msgstr ""
 "kontekstnega menija vsake skladbe in izbrišete eno od dveh rezultatov mono "
 "skladb."
 
-#: ../../glossary/useful_information/surround_sound.rst:307
+#: ../../glossary/useful_information/surround_sound.rst:306
 msgid "Eventually, there should be four tracks in the Audacity project:"
 msgstr "Postopoma bi morale v projektu Audacity obstajati štiri steze:"
 
-#: ../../glossary/useful_information/surround_sound.rst:326
+#: ../../glossary/useful_information/surround_sound.rst:325
 msgid ""
 "Click :guilabel:`Options...` and choose :guilabel:`512 kbps` as \"Bit Rate\""
 msgstr ""
 "Kliknite :guilabel:`Možnosti …` in izberite :guilabel:`512 kb/s` kot »bitno "
 "hitrost«"
 
-#: ../../glossary/useful_information/surround_sound.rst:329
+#: ../../glossary/useful_information/surround_sound.rst:328
 #, fuzzy
 msgid ""
 "The **Advanced Mixing Options** dialog should show up. The number of "
@@ -719,7 +715,7 @@ msgstr ""
 "Prikaže se pogovorno okno **Napredne možnosti mešanja**. Število **Izhodnih "
 "kanalov** bi moralo biti 6, kartiranje kanalov pa mora biti že pravilno:"
 
-#: ../../glossary/useful_information/surround_sound.rst:335
+#: ../../glossary/useful_information/surround_sound.rst:334
 #, fuzzy
 msgid ""
 "The result of the export should be an :file:`*.ac3` file which is playable "
@@ -728,7 +724,7 @@ msgstr ""
 "Rezultat izvoza mora biti :file:'*.ac3' datoteka, ki je predvajana s to je "
 "**VLC** ali **Dragon Player**."
 
-#: ../../glossary/useful_information/surround_sound.rst:342
+#: ../../glossary/useful_information/surround_sound.rst:341
 #, fuzzy
 msgid ""
 "Since video and audio was rendered separately, both need to be multiplexed "
@@ -737,7 +733,7 @@ msgstr ""
 "Ker sta bila videa in zvok rendered ločeno, je treba oba multipleksovati v "
 "eno datoteko, ki vsebuje video in avdio tok."
 
-#: ../../glossary/useful_information/surround_sound.rst:350
+#: ../../glossary/useful_information/surround_sound.rst:349
 #, fuzzy
 msgid ""
 "Assuming the video track was rendered to :file:`Video.mkv` and the surround "
@@ -747,3 +743,6 @@ msgstr ""
 "Ob predpostavki, da je bila video skladba rendered to :file:'Video.mkv' in "
 "prostorski zvok je bil izvožen v :file:'5.1.ac3', ukaz za mux obe na :"
 "file:'Video-5.1.mkv' z **avconv** bi bil:"
+
+#~ msgid "Contents"
+#~ msgstr "Vsebina"
