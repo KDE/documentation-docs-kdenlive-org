@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-27 00:38+0000\n"
+"POT-Creation-Date: 2023-04-26 00:42+0000\n"
 "PO-Revision-Date: 2022-02-27 08:53+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -22,11 +22,7 @@ msgstr ""
 msgid "SOP/Sat Effect"
 msgstr "Ефект SOP/Насиченість"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:16
-msgid "Contents"
-msgstr "Зміст"
-
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:18
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:17
 msgid ""
 "This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/"
 "FilterFrei0r-sopsat/>`_  MLT framework filter. It changes Slope, Offset, and "
@@ -40,7 +36,7 @@ msgstr ""
 "насиченість, відповідно до ASC CDL (списку визначення кольорів). `Довідкові "
 "відомості <https://en.wikipedia.org/wiki/ASC_CDL>`_."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:21
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:20
 msgid ""
 "Changing the slope means multiplying the pixel value with a constant value. "
 "Black pixels will remain black, while as brighter ones will be changed. All "
@@ -52,12 +48,12 @@ msgstr ""
 "якщо застосувати ефект до градієнта у відтінках сірого і подивитися на "
 "монітор «Розкладка RGB»."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:23
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:22
 msgid "You can use this effect to achieve proper white balance."
 msgstr ""
 "Ви можете скористатися цим ефектом для досягнення належного балансу білого."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:29
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:28
 msgid ""
 "This filter implements a standard way of color correction proposed by the "
 "American Society of Cinematographers: The Color Decision List, also known as "
@@ -67,7 +63,7 @@ msgstr ""
 "запропоновано «Американським товариством кінооператорів»: список визначення "
 "кольорів, також відомий як ASC CDL."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:31
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:30
 msgid ""
 "More information about the ASC CDL can be found on `wikipedia <https://en."
 "wikipedia.org/wiki/ASC_CDL>`_."
@@ -75,7 +71,7 @@ msgstr ""
 "Докладніші відомості щодо CDL ASC можна знайти у `Вікіпедії <https://en."
 "wikipedia.org/wiki/ASC_CDL>`_."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:33
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:32
 msgid ""
 "The ASC CDL is a standard format for basic primary color correction (primary "
 "meaning affecting the whole image and not only selected parts)."
@@ -84,7 +80,7 @@ msgstr ""
 "(«основні» означає, що ці кольори впливають на усе зображення, а не лише "
 "його вибрані частини)."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:35
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:34
 msgid ""
 "Basically there are two stages in the correction: 1. SOP correction for each "
 "channel separately 2. Overall saturation correction"
@@ -92,7 +88,7 @@ msgstr ""
 "На базовому рівні, виправлення відбувається у два етапи: 1) виправлення SOP "
 "для кожного каналу окремо; 2) загальне виправлення насиченості."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:39
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:38
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from {0,...,255} to [0,1]."
@@ -100,49 +96,52 @@ msgstr ""
 "Усі виправлення працюють на [0, 1], тому значення RGB(A) має бути "
 "відображено з {0,...,255} на [0,1]."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:41
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:40
 msgid "SOP correction"
 msgstr "Виправлення SOP"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:42
 msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
 msgstr "Нахил:   ``результат = вхід * нахил;   0 <= нахил < ∞``"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:43
 msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
 msgstr "Зсув:  ``результат = вхід + зсув;  -∞ < зсув < ∞``"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:45
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:44
 msgid "Power:   ``out = in^power;     0 < power < \\infty``"
 msgstr "Степінь:   ``результат = вхід^степінь;     0 < степінь < ∞``"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:47
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:46
 msgid "Saturation"
 msgstr "Насиченість"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:49
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:48
 msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
 msgstr ""
 "Яскравість:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (відповідно до Rec. "
 "709)"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:50
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:49
 msgid "Forall channels: ``out = luma + sat * (in-luma)``"
 msgstr ""
 "Для усіх каналів: ``результат = яскравість + насиченість * (внутрішня-"
 "яскравість)``"
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:52
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:51
 msgid ""
 "As the values may exceed 1 (or 0), they need to be clamped where necessary."
 msgstr ""
 "Оскільки значення можуть виходити за межі 1 (або 0), їх доведеться обрізати "
 "там, де потрібно."
 
-#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:54
+#: ../../effects_and_compositions/effect_groups/colour_correction/sop/sat.rst:53
 msgid ""
 "See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect "
 "to adjust white balance of a clip."
 msgstr ""
 "Див. :ref:`допис у блозі Granjow <waveform_and_RGB_parade>`, де він "
 "використовує цей ефект для коригування балансу білого у кліпі."
+
+#~ msgid "Contents"
+#~ msgstr "Зміст"
