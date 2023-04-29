@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-27 00:41+0000\n"
-"PO-Revision-Date: 2022-12-12 14:13+0000\n"
+"PO-Revision-Date: 2023-04-28 16:25+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -21,7 +21,8 @@ msgstr ""
 "X-POFile-SpellExtra: tools wizard statusbar clip AV same track transitions\n"
 "X-POFile-SpellExtra: monitors scrubbing Open projectsettings projecttree\n"
 "X-POFile-SpellExtra: tracks kbd guilabel configuretimeline Kdenlive dB\n"
-"X-POFile-SpellExtra: recording\n"
+"X-POFile-SpellExtra: recording ff ii timelinetoolbar layoutmodes\n"
+"X-POFile-SpellExtra: timelineeditmodes timelineedittools Clip Clips\n"
 
 #: ../../user_interface/timeline.rst:1
 msgid "Timeline, central part of Kdenlive video editor"
@@ -41,22 +42,14 @@ msgid "Timeline"
 msgstr "Linha Temporal"
 
 #: ../../user_interface/timeline.rst:27
-#, fuzzy
-#| msgid ""
-#| "The timeline is the central part of **Kdenlive**. It is made of 4 "
-#| "different areas (see screenshot)."
 msgid ""
 "The timeline is the central part of **Kdenlive**. It is made of four "
 "different areas:"
-msgstr ""
-"A linha temporal é a parte central do **Kdenlive**. É composto por 4 áreas "
-"diferentes (ver a imagem)."
+msgstr "A linha temporal é a parte central do **Kdenlive**. É composto por 4 áreas diferentes:"
 
 #: ../../user_interface/timeline.rst:40
-#, fuzzy
-#| msgid "Timeline visuals"
 msgid "Timeline Areas"
-msgstr "Visuais da linha temporal"
+msgstr "Áreas da Linha Temporal"
 
 #: ../../user_interface/timeline.rst:42
 msgid ""
@@ -64,16 +57,9 @@ msgid ""
 "tracks. It shows the clips with or without thumbnails, with or without the "
 "audio frequency curve, transitions and compositions, as well as the markers, "
 "guides and keyframes (if any)."
-msgstr ""
+msgstr "1 -  **Linha Temporal**. Esta é a área onde larga os seus 'clips' para as várias faixas. Ela mostra os 'clips' com ou sem miniaturas, com ou sem a curva na frequência do áudio, as transições e composições, assim como os marcadores, guias e imagens-chave (se existirem)."
 
 #: ../../user_interface/timeline.rst:44
-#, fuzzy
-#| msgid ""
-#| "2 - **Timeline ruler**. This shows the time in frames or in hh:mm:ss "
-#| "notation. The area highlighted in green is called the selection zone, and "
-#| "is useful if you want to render only a part of your project. Left-"
-#| "clicking in the timeline ruler will move the :ref:`timeline` and seek to "
-#| "that position."
 msgid ""
 "2 - **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It "
 "also shows the current zone (if defined) and the preview render zones and "
@@ -82,12 +68,7 @@ msgid ""
 "ruler will move the :ref:`timeline` and seek to that position. For the right-"
 "click menu see the :ref:`detailed description <timeline_ruler_right-"
 "click_menu>`."
-msgstr ""
-"2 - **Régua da linha temporal**. Isto mostra o tempo em imagens ou na "
-"notação hh:mm:ss. A área realçada a verde é chamada de  zona de selecção e é "
-"útil se quiser gerar apenas uma parte do seu projecto. Se carregar com o "
-"botão esquerdo na régua da linha temporal, irá mover a :ref:`timeline` e "
-"colocar-se-á nessa posição."
+msgstr "2 - **Régua da linha temporal**. Isto mostra o tempo em imagens ou na notação hh:mm:ss:ff. Também mostra a zona actual (se definida) e as zonas de geração da antevisão e os seus estados de geração respectivos. Poderá encontrar uma descrição mais detalhada :ref:`mais abaixo <timeline_ruler>`. Se carregar com o botão esquerdo na régua da linha temporal, irá mover a :ref:`timeline` e colocar-se-á nessa posição. No caso do menu do botão direito, veja a :ref:`descrição detalhada <timeline_ruler_right-click_menu>`."
 
 #: ../../user_interface/timeline.rst:46
 msgid ""
@@ -95,7 +76,7 @@ msgid ""
 "working with the clips in the timeline are easily accessible. Feel free to "
 "adjust the timeline toolbar to accommodate your workflow. For details how to "
 "do that refer to the section about toolbar configuration."
-msgstr ""
+msgstr "3 - **Barra da Linha Temporal** - Esta é uma área importante, onde as ferramentas para lidar com os 'clips' na linha temporal ficam facilmente acessíveis. Sinta-se à vontade em ajustar a barra da linha temporal para acomodar os seus procedimentos. Para mais detalhes como fazê-lo, veja a secção sobre a configuração das barras de ferramentas."
 
 #: ../../user_interface/timeline.rst:48
 msgid ""
@@ -105,7 +86,7 @@ msgid ""
 "can be adjusted in height individually as well as expanded or collapsed. A "
 "more detailed description can be found :ref:`further down here "
 "<track_header>`. For the right-click menu see the detailed section."
-msgstr ""
+msgstr "4 - **Cabeçalho da Faixa**. Esta área mostra os dados do cabeçalho da faixa, como o tipo (V para vídeo, A para áudio), o número da faixa, com ou sem os efeitos da faixa, escondida ou silenciada, bloqueada ou desbloqueada e um nome de faixa opcional. Cada faixa pode ser ajustada em altura individualmente, assim como expandida ou recolhida. Poderá encontrar uma descrição mais detalhada :ref:`mais abaixo <track_header>`. Para o menu do botão direiito, veja a secção respectiva em detalhe."
 
 #: ../../user_interface/timeline.rst:57
 msgid "Zoombars"
@@ -163,13 +144,6 @@ msgid "Split Audio/Video"
 msgstr "Dividir o Áudio/Vídeo"
 
 #: ../../user_interface/timeline.rst:110
-#, fuzzy
-#| msgid ""
-#| "The way timeline tracks work has changed. Each track is now either audio "
-#| "or video, and will only accept audio and video clips respectively. When "
-#| "dragging an AV clip from the project bin in the timeline, the clip will "
-#| "be automatically split, the video part going on a video track, and the "
-#| "audio part on an audio track."
 msgid ""
 "The way timeline tracks work has changed. Each track is now either audio or "
 "video, and will only accept audio and video clips respectively. When "
@@ -222,44 +196,23 @@ msgid "Keyboard Navigation"
 msgstr "Navegação com o Teclado"
 
 #: ../../user_interface/timeline.rst:139
-#, fuzzy
-#| msgid ""
-#| "You now have the possibility to move clips and compositions with your "
-#| "keyboard. To do it, select a clip in timeline and use the :guilabel:`Grab "
-#| "Current Item` (:kbd:`Shift + G`) function from the :menuselection:"
-#| "`Timeline` menu."
 msgid ""
 "You now have the possibility to move clips and compositions with your "
 "keyboard. To do it, select a clip in the timeline and use the :guilabel:"
 "`Grab Current Item` function from the :menuselection:`Menu --> Timeline` "
 "menu or use the default shortcut of :kbd:`Shift + G`."
-msgstr ""
-"Terá agora a possibilidade de mover os 'clips' e composições com o seu "
-"teclado. Para o fazer, seleccione um 'clip' na linha temporal e usar a "
-"opção :guilabel:`Escolher o Item Actual` (:kbd:`Shift + G`) do menu :"
-"menuselection:`Linha Temporal`."
+msgstr "Terá agora a possibilidade de mover os 'clips' e composições com o seu teclado. Para o fazer, seleccione um 'clip' na linha temporal e usar a opção :guilabel:`Escolher o Item Actual` (:kbd:`Shift + G`) do :menuselection:`Menu --> Linha Temporal`."
 
 #: ../../user_interface/timeline.rst:144
 msgid "You can then move the item with the arrow keys."
-msgstr ""
+msgstr "Poderá então mover o item com as teclas dos cursores."
 
 #: ../../user_interface/timeline.rst:146
-#, fuzzy
-#| msgid ""
-#| "You can then move the item with your arrow keys. Keyframes can also be "
-#| "moved individually. Just click on a keyframe in timeline, then move it "
-#| "left/right with :kbd:`arrows`, change its value with :kbd:`+` and :kbd:`-"
-#| "`. :kbd:`Alt + arrow` to go to another keyframe."
 msgid ""
 "Keyframes can also be moved individually. Just click on a keyframe in the "
 "timeline, then move it :kbd:`Left` or :kbd:`Right`, change its value with :"
 "kbd:`+` and :kbd:`-`. Use :kbd:`Alt + arrow` to go to another keyframe."
-msgstr ""
-"Poderá então mover o item com as suas teclas de cursores. As imagens-chave "
-"poderão então ser movidas de forma individual. Basta carregar numa imagem-"
-"chave na linha temporal e depois movê-la para a esquerda/direita com os :kbd:"
-"`cursores`, mudar o seu valor com as teclas :kbd:`+` e :kbd:`-`. A "
-"combinação :kbd:`Alt + cursores` permite ir para outra imagem-chave."
+msgstr "As imagens-chave poderão então ser movidas de forma individual. Basta carregar numa imagem-chave na linha temporal e depois movê-la para a esquerda/direita com os :kbd:`cursores`, mudar o seu valor com as teclas :kbd:`+` e :kbd:`-`. A combinação :kbd:`Alt + cursores` permite ir para outra imagem-chave."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyframe handling"
@@ -300,10 +253,8 @@ msgstr ""
 "`Activar o clip`."
 
 #: ../../user_interface/timeline.rst:186
-#, fuzzy
-#| msgid "Timeline visuals"
 msgid "Timeline Ruler"
-msgstr "Visuais da linha temporal"
+msgstr "Régua da Linha Temporal"
 
 #: ../../user_interface/timeline.rst:188
 msgid ""
@@ -311,7 +262,7 @@ msgid ""
 "ss:ff (default) or in frames. It displays the currently defined timeline "
 "zone (1) and the preview render zone (2) and its respective rendering status "
 "(red: not yet rendered; yellow: being rendered; green: finished)."
-msgstr ""
+msgstr "A régua da linha temporal mostra informação do código temporal na notação 'hh:mm:ss:ii' (por omissão) ou em número de imagens. Ela mostra a zona da linha temporal definida de momento (1) e a zona de geração da antevisão (2) e o seu estado de geração respectivo (vermelho: ainda não gerado; amarelo: a ser gerado; verde: terminado)."
 
 #: ../../user_interface/timeline.rst:193
 msgid ""
@@ -320,7 +271,7 @@ msgid ""
 "playhead in the timeline and pressing :kbd:`I` or :kbd:`O` to set in-point "
 "and out-point, respectively. For more detailed information on preview render "
 "please refer to this section of the documentation."
-msgstr ""
+msgstr "A zona da linha temporal pode ser movida se arrastar o quadrado no meio e o dimensionar, quer arrastando o extremo esquerdo ou o direito, ou posicionando o cursor de reprodução na linha temporal e carregando em :kbd:`I` ou :kbd:`O`, para definir respectivamente o ponto de entrada e de saída. Para mais informações detalhada sobre a geração da antevisão, consulte por favor esta secção da documentação."
 
 #: ../../user_interface/timeline.rst:200
 msgid ""
@@ -354,198 +305,155 @@ msgid ""
 "The timeline toolbar controls various aspects of the editor. It can be "
 "configured to accommodate your workflow (see :ref:`Configuring the Toolbars "
 "<configuring_the_toolbars>` for more details)."
-msgstr ""
+msgstr "A barra da linha temporal controla vários aspectos do editor. Pode ser configurada para acomodar os seus procedimentos (veja mais detalhes em :ref:`Configurar as Barras de Ferramentas <configuring_the_toolbars>`)."
 
 #: ../../user_interface/timeline.rst:218
 msgid ""
 "This is a quick overview of the main sections of the toolbar. A more "
 "detailed description can be found in the :ref:`timeline_toolbar3` section of "
 "this documentation."
-msgstr ""
+msgstr "Esta é uma visão geral das secções principais da barra de ferramentas. Poderá será encontrada uma descrição mais detalhada na secção de :ref:`timeline_toolbar3` desta documentação."
 
 #: ../../user_interface/timeline.rst:220
 msgid ""
 "1 - Enable track compositing and switching split view of audio and video "
 "(see :ref:`layout_modes`)"
-msgstr ""
+msgstr "1 - Activar a composição da faixa e comutar a área dividida entre o áudio e o vídeo (ver os :ref:`layout_modes`)"
 
 #: ../../user_interface/timeline.rst:222
 msgid ""
 "2 - Selects the editing mode: Normal, Overwrite, Insert (see :ref:"
 "`timeline_edit_modes`)"
-msgstr ""
+msgstr "2 - Selecciona o modo de edição: Normal, Sobreposição, Inserção (ver os :ref:`timeline_edit_modes`)"
 
 #: ../../user_interface/timeline.rst:224
 msgid ""
 "3 - Edit Tools: Selection Tool, Razor Tool, Spacer Tool, Slip Tool, Ripple "
 "Tool (see :ref:`timeline_edit_tools`)"
-msgstr ""
+msgstr "3 - Ferramentas de Edição: Ferramenta da Selecção, Ferramenta da Lâmina, Ferramenta do Espaçamento, Ferramenta de Deslize, Ferramenta de Ajuste (ver a secção :ref:`timeline_edit_tools`)"
 
 #: ../../user_interface/timeline.rst:226
 msgid ""
 "4 - Clip and Zone Tools: Mix Clips, Insert Clip Zone in Timeline, Overwrite "
 "Clip Zone in Timeline, Extract Timeline Zone, Lift Timeline Zone, Expand "
 "Clip (see also :ref:`3-point editing <three_point_editing>`)"
-msgstr ""
+msgstr "4 - Ferramentas do 'Clip' e da Zona: Misturar os 'Clips', Inserir uma Zona do 'Clip' na Linha Temporal', Sobrepor uma Zona do 'Clip' na Linha Temporal, Extrair a Zona da Linha Temporal, Elevar a Zona da Linha Temporal, Expandir o 'Clip' (ver também a :ref:`edição em 3-pontos <three_point_editing>`)"
 
 #: ../../user_interface/timeline.rst:228
 msgid ""
 "5 - Preview Render Tools - Start/Stop Render, Open Preview Render Options "
 "Dialog, Add Preview Render Zone, Delete All Preview Render Zones"
-msgstr ""
+msgstr "5 - Ferramentas de Geração da Antevisão - Iniciar/Parar o Desenho, Abrir a Janela de Opções de Geração da Antevisão, Adicionar uma Zona de Geração da Antevisão, Apagar Todas as Zonas de Geração da Antevisão"
 
 #: ../../user_interface/timeline.rst:230
 msgid "6 - Toggle Audio Mixer Widget"
-msgstr ""
+msgstr "6 - Comutar a Mesa de Mistura de Áudio"
 
 #: ../../user_interface/timeline.rst:232
 msgid ""
 "7 - Status Bar icons (in lieu of the status bar which can be switched off in "
 "the View menu)*"
-msgstr ""
+msgstr "7 - Ícones da Barra de Estado (em vez da barra de estado, que pode ser desactivada no menu Ver)*"
 
 #: ../../user_interface/timeline.rst:234
 msgid ""
 "\\* Please note this is a customized version of the timeline toolbar and the "
 "section #7 is not part of the default toolbar"
-msgstr ""
+msgstr "\\* Lembre-se por favor que esta é uma versão personalizada da barra da linha temporal e a secção #7 não faz parte da barra de ferramentas predefinida"
 
 #: ../../user_interface/timeline.rst:239
 msgid "Tracks"
 msgstr "Faixas"
 
 #: ../../user_interface/timeline.rst:241
-#, fuzzy
-#| msgid ""
-#| "The timeline is made of tracks. There are two kinds of tracks: audio and "
-#| "video. The number of tracks is defined when creating a new project in "
-#| "the :ref:`project_settings`. Adding a clip in timeline can be achieved by "
-#| "dragging it from the :ref:`project_tree` or the :ref:`monitors`. More "
-#| "about tracks see :ref:`tracks`"
 msgid ""
 "The timeline is made of tracks. There are two kinds of tracks: audio and "
 "video. The number of tracks is defined when creating a new project in the :"
 "ref:`project_settings`. Adding a clip to the timeline can be achieved by "
 "dragging it from  :ref:`project_tree` or the :ref:`monitors`."
-msgstr ""
-"A linha temporal é composta por faixas. Existem dois tipos de faixas: áudio "
-"e vídeo. O número de faixas é definido ao criar um novo projecto na :ref:"
-"`project_settings`. Poderá adicionar um 'clip' na linha temporal se o "
-"arrastar da :ref:`project_tree` ou dos :ref:`monitors`. Poderá ver mais "
-"sobre as faixas em :ref:`tracks`"
+msgstr "A linha temporal é composta por faixas. Existem dois tipos de faixas: áudio e vídeo. O número de faixas é definido ao criar um novo projecto na :ref:`project_settings`. Poderá adicionar um 'clip' na linha temporal se o arrastar da :ref:`project_tree` ou dos :ref:`monitors`."
 
 #: ../../user_interface/timeline.rst:246
 msgid "Track Header"
-msgstr ""
+msgstr "Cabeçalho da Faixa"
 
 #: ../../user_interface/timeline.rst:248
 msgid "This area shows some options for a track:"
-msgstr ""
+msgstr "Esta área mostra algumas opções para uma determinada faixa:"
 
 #: ../../user_interface/timeline.rst:257
 msgid ""
 "1 Track collapse and expand icon. Click on it to collapse or expand the "
 "track: hold Shift and click to expand or collapse all tracks of the same "
 "type."
-msgstr ""
+msgstr "1 Ícone de expansão e recolha da faixa. Se carregar nele, irá recolher ou expandir a faixa: mantenha carregada a tecla Shift e carregue para expandir ou recolher todas as faixas do mesmo tipo."
 
 #: ../../user_interface/timeline.rst:259
 msgid "2 Track name. Click on it to enter or change the name of the track."
-msgstr ""
+msgstr "2 Nome da faixa. Carregue nele para entrar ou mudar o nome da faixa."
 
 #: ../../user_interface/timeline.rst:261
 msgid "3 Track type and track number"
-msgstr ""
+msgstr "3 Tipo e número da faixa"
 
 #: ../../user_interface/timeline.rst:263
 msgid "4 Track control icons. Use them to:"
-msgstr ""
+msgstr "4 Ícones de controlo da faixa. Use-os para:"
 
 #: ../../user_interface/timeline.rst:265
-#, fuzzy
-#| msgid ""
-#| ":menuselection:`Lock the track` |kdenlive-lock| which will prevent adding "
-#| "clips, removing clips, or moving of clips on the timeline;"
 msgid ""
 "Lock the track |kdenlive-lock| which will prevent adding clips, removing "
 "clips, or moving of clips on the timeline;"
-msgstr ""
-":menuselection:`Bloquear a faixa` |kdenlive-lock|, que impedirá a adição de "
-"'clips', a sua remoção ou a sua mudança de posição na linha temporal;"
+msgstr "Bloquear a faixa |kdenlive-lock|, que impedirá a adição de 'clips', a sua remoção ou a sua mudança de posição na linha temporal;"
 
 #: ../../user_interface/timeline.rst:266
-#, fuzzy
-#| msgid ":menuselection:`Mute the track` |kdenlive-hide-audio|"
 msgid "Mute the track |kdenlive-hide-audio| (audio tracks only)"
-msgstr ":menuselection:`Silenciar a faixa` |kdenlive-hide-audio|"
+msgstr "Silenciar a faixa |kdenlive-hide-audio| (apenas em faixas de áudio)"
 
 #: ../../user_interface/timeline.rst:267
-#, fuzzy
-#| msgid ""
-#| ":menuselection:`Hide video` |kdenlive-hide-video| from this track; and,"
 msgid "Hide video |kdenlive-hide-video| from this track; and,"
-msgstr ""
-":menuselection:`Esconder o vídeo` |kdenlive-hide-video| desta faixa; e,"
+msgstr "Esconder o vídeo |kdenlive-hide-video| desta faixa; e,"
 
 #: ../../user_interface/timeline.rst:268
-#, fuzzy
-#| msgid ""
-#| ":menuselection:`Enable/Disable track effects` |tools-wizard| allows you "
-#| "to enable or disable the effects applied to the track."
 msgid ""
 "Enable/Disable track effects |tools-wizard| allows you to enable or disable "
 "the effects applied to the track."
-msgstr ""
-"A opção :menuselection:`Activar/desactivar os efeitos da faixa` |tools-"
-"wizard| permite-lhe activar ou desactivar os efeitos aplicados à faixa."
+msgstr "Activar/desactivar os efeitos da faixa |tools-wizard| permite-lhe activar ou desactivar os efeitos aplicados à faixa."
 
 #: ../../user_interface/timeline.rst:275
-#, fuzzy
-#| msgid "Resizing tracks"
 msgid "Adding Tracks"
-msgstr "Dimensionar as faixas"
+msgstr "Adicionar Faixas"
 
 #: ../../user_interface/timeline.rst:277
 msgid ""
 "In order to add a track right-click anywhere in the track header area. In "
 "the Add Track dialog window specify what type of track, where and how many "
 "you want to insert."
-msgstr ""
+msgstr "Para adicionar uma faixa, carregue com o botão direito em qualquer lado da área do cabeçalho da faixa. Na janela para Adicionar uma Faixa, indique o tipo da mesma, onde e quantas deseja inserir."
 
 #: ../../user_interface/timeline.rst:285
-#, fuzzy
-#| msgid "Resizing tracks"
 msgid "Deleting Tracks"
-msgstr "Dimensionar as faixas"
+msgstr "Apagar Faixas"
 
 #: ../../user_interface/timeline.rst:287
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the Delete Track dialog window select the tracks you want to delete."
-msgstr ""
+msgstr "Para apagar uma faixa, carregue com o botão direito em qualquer lado da área do cabeçalho da faixa. Na janela para Apagar a Faixa, seleccione as faixas que deseja remover."
 
 #: ../../user_interface/timeline.rst:295
-#, fuzzy
-#| msgid "Resizing tracks"
 msgid "Resizing Tracks"
-msgstr "Dimensionar as faixas"
+msgstr "Dimensionar as Faixas"
 
 #: ../../user_interface/timeline.rst:299
-#, fuzzy
-#| msgid ""
-#| "Tracks can be individually resized. (Holding down :kbd:`Shift` makes all "
-#| "video or audio tracks change in height simultaneously.)"
 msgid ""
 "Tracks can be individually resized. Holding down :kbd:`Shift` makes all "
 "video or audio tracks change in height simultaneously."
-msgstr ""
-"As faixas podem ser dimensionadas de forma individual. (Se carregar na "
-"tecla :kbd:`Shift`, fará com que todas as faixas de vídeo ou de áudio mudem "
-"de altura em simultâneo.)"
+msgstr "As faixas podem ser dimensionadas de forma individual. Se carregar na tecla :kbd:`Shift`, fará com que todas as faixas de vídeo ou de áudio mudem de altura em simultâneo."
 
 #: ../../user_interface/timeline.rst:307
 msgid "Switching between mixed or split audio"
-msgstr ""
+msgstr "Alterar entre áudio misturado ou dividido"
 
 #: ../../user_interface/timeline.rst:309
 msgid "Switch live between two different layout modes (Mixed or Split)."
@@ -554,58 +462,38 @@ msgstr ""
 "Dividido)."
 
 #: ../../user_interface/timeline.rst:317
-#, fuzzy
-#| msgid "Configurable tracks"
 msgid "Configurable Tracks"
-msgstr "Faixas configuráveis"
+msgstr "Faixas Configuráveis"
 
 #: ../../user_interface/timeline.rst:327
-#, fuzzy
-#| msgid "**Video track:** You can choose to display between:"
 msgid "**Video track** - You can choose to display either"
-msgstr "**Faixa de vídeo:** Poderá optar por mostrar uma das seguintes:"
+msgstr "**Faixa de vídeo:** Poderá optar por mostrar uma das seguintes"
 
 #: ../../user_interface/timeline.rst:329
-#, fuzzy
-#| msgid ":guilabel:`In frame`"
 msgid ":guilabel:`In Frame`"
-msgstr ":guilabel:`Imagem de entrada`"
+msgstr ":guilabel:`Imagem de Entrada`"
 
 #: ../../user_interface/timeline.rst:331
-#, fuzzy
-#| msgid ":guilabel:`In/Out frames`"
 msgid ":guilabel:`In/Out Frames`"
-msgstr ":guilabel:`Imagens de entrada/saída`"
+msgstr ":guilabel:`Imagens de Entrada/Saída`"
 
 #: ../../user_interface/timeline.rst:333
-#, fuzzy
-#| msgid ":guilabel:`All frames` or"
 msgid ":guilabel:`All Frames` or"
-msgstr ":guilabel:`Todas as imagens` ou"
+msgstr ":guilabel:`Todas as Imagens` ou"
 
 #: ../../user_interface/timeline.rst:335
-#, fuzzy
-#| msgid ":guilabel:`No thumbnails`."
 msgid ":guilabel:`No Thumbnails`"
-msgstr ":guilabel:`Sem miniaturas`."
+msgstr ":guilabel:`Sem Miniaturas`"
 
 #: ../../user_interface/timeline.rst:343
-#, fuzzy
-#| msgid "**Audio track:** You can enable:"
 msgid "**Audio track** - You can enable:"
-msgstr "**Faixa de áudio:** Poderá activar:"
+msgstr "**Faixa de áudio** - Poderá activar:"
 
 #: ../../user_interface/timeline.rst:345
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Show Record Control` to record audio direct into the track. "
-#| "More details see :ref:`audio-recording`."
 msgid ""
 ":guilabel:`Show Record Controls` to record audio direct into the track. More "
 "details see :ref:`audio-recording`."
-msgstr ""
-":guilabel:`Mostrar o Controlo de Gravação` para gravar a o áudio "
-"directamente na faixa. Para mais detalhes, veja em :ref:`audio-recording`."
+msgstr ":guilabel:`Mostrar os Controlos de Gravação` para gravar o áudio directamente na faixa. Para mais detalhes, veja em :ref:`audio-recording`."
 
 #: ../../user_interface/timeline.rst:347
 msgid ""
@@ -644,5 +532,3 @@ msgstr ""
 msgid "Loop Zone (:kbd:`Ctrl + Shift + Space`)"
 msgstr "Zona do Ciclo (:kbd:`Ctrl + Shift + Espaço`)"
 
-#~ msgid "Contents"
-#~ msgstr "Conteúdo"
