@@ -21,17 +21,30 @@
              - Geolgar (https://userbase.kde.org/User:Geolgar)
              - Tenzen (https://userbase.kde.org/User:Tenzen)
              - Eugen Mohr
+             - Bernd Jordan
 
    :license: Creative Commons License SA 4.0
+
+.. |download_page| raw:: html
+
+   <a href="https://kdenlive.org/download/" target="_blank">download page</a>
+
+.. |attic| raw:: html
+
+   <a href="https://download.kde.org/Attic/kdenlive/" target="_blank">attic</a>
+   
+
 
 .. _installation:
 
 Installation
 ============
 
-Visit the `download <https://kdenlive.org/download/>`_ page of the Kdenlive Web site for up to date information on installing **Kdenlive**.
+You can install Kdenlive in two different ways: Using an installer or as fully self-contained executable (Windows: standalone; Linux: appimage). On MacOS you can only use the installer version.
 
-You’ll find all previous Kdenlive versions in the `attic <https://download.kde.org/Attic/kdenlive/>`_.
+Visit the |download_page| of the Kdenlive web site for up to date information on installing **Kdenlive**.
+
+You’ll find all previous Kdenlive versions in the |attic|.
 
 Minimum system requirements
 ---------------------------
@@ -44,9 +57,14 @@ Minimum system requirements
 
 **RAM:** At least 4 GB for SD-Video, 8 GB for HD-Video, and 16 GB for 4K-Video.
 
-.. note::
+.. tip::
    
    If your computer is at the lower end of CPU and RAM requirements, you should use both the :ref:`Preview Resolution <preview_resolution>` and :ref:`Proxy <proxy_clips_tab>` features to help reduce preview lag.
+   
+.. note::
+
+   Video editing is in general relying heavily on CPU power. While Kdenlive has render profiles with GPU support timeline playback uses the CPU. Therefore, the more powerful your CPU the better the playback performance of Kdenlive. More and better GPU support is on the near-term roadmap.
+   
 
 Kdenlive on Linux
 -----------------
@@ -78,17 +96,23 @@ Kdenlive is available as an install and as a standalone version.
 
    Double click the downloaded file.
 
-   .. image:: /images/Kdenlive_Zip-self-extracting_archive.png
-      :alt: Kdenlive_Zip-self-extracting_archive
+   .. figure:: /images/getting_started/kdenlive_zip_self_extracting_archive.webp
+      :alt: kdenlive_zip_self_extracting_archive
       :width: 40%
+	  
+      Kdenlive self-extracting archive
+
 
    Point to the folder you like to store the Kdenlive folder  
 
-   .. image:: /images/Kdenive_bin-folder.png
-      :alt: Kdenive_bin-folder
+   .. figure:: /images/getting_started/kdenlive_bin_folder.webp
+      :alt: Kdenlive_bin_folder
       :width: 30%
+	  
+      Kdenlive bin folder
 
-   To start Kdenlive navigate to the `bin folder` and double click Kdenlive
+
+   To start Kdenlive navigate to the `bin folder` and double-click Kdenlive. You can also create a shortcut to your Desktop for easy access. Right-click on kdenlive.exe and select :guilabel:`Send to ...` and then :guilabel:`Desktop (create shortcut)`.
 
 .. rst-class:: clear-both
 
@@ -120,54 +144,68 @@ Do also make sure no GPO is blocking the access to these folders.
 Kdenlive on macOS
 -----------------
 
-**Kdenlive** runs with Intel based Mac's on macOS 10.15 (Catalina) and newer (available on the `download <https://kdenlive.org/download/>`_ page). 
+**Kdenlive** runs with Intel based Macs on macOS 10.15 (Catalina) and newer (available on the |download_page|).
 
 .. versionadded:: 22.04.0
 
-Kdenlive is running with Intel based Mac's not older than macOS 10.15 (Catalina) [1]_ and on M1.
+Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina) [1]_ and on M1.
 
 Install procedure
 ~~~~~~~~~~~~~~~~~
 
-.. image:: /images/macos_download_option.png
+.. figure:: /images/getting_started/macos_download_option.webp
    :alt: macos_download_option
    :width: 30%
+   
+   MacOS download option
 
 Choose the option *Open with DiskImageMounter (Default)*.
 
-.. image:: /images/macos_diskimagemounter.png
+.. figure:: /images/getting_started/macos_diskimagemounter.webp
    :alt: macos_diskimagemounter
    :width: 30%
+   
+   MacOS DiskImageMounter
 
 When the dmg file is downloaded, the *DiskImageMounter* will open. Drag the *Kdenlive* Logo into the *Applications* Folder.
 
-.. image:: /images/macos_copy.png
+.. figure:: /images/getting_started/macos_copy.webp
    :alt: macos_copy
    :width: 30%
+   
+   MacOS copy
 
 The files get copied.
 
-.. image:: /images/macos_check.png
+.. figure:: /images/getting_started/macos_check.webp
    :alt: macos_check
    :width: 30%
+   
+   MacOS check
 
 MacOS will try to check the files for malware.
 
-.. image:: /images/macos_warnig.png
+.. figure:: /images/getting_started/macos_warning.webp
    :alt: macos_warnig
    :width: 30%
+   
+   MacOS warning
 
 The message *“kdenlive" cannot be opened, because Apple cannot search for malware in it* will appear. Here you have to click :guilabel:`Show in Finder`.
 
-.. image:: /images/macos_right_click.png
+.. figure:: /images/getting_started/macos_right_click.webp
    :alt: macos_right_click
    :width: 30%
+   
+   MacOS right-click
 
 The Finder opens. Now right click on *Kdenlive* and choose :guilabel:`Open`.
 
-.. image:: /images/macos_open.png
+.. figure:: /images/getting_started/macos_open.webp
    :alt: macos_open
    :width: 30%
+   
+   MacOS open
 
 The message that Apple can't search for malware will appear again. Just click on :guilabel:`Open` and Kdenlive will open up.
 
@@ -229,7 +267,7 @@ Kdenlive's application-wide persistent settings are stored in the following loca
    
 **Windows**
 
-To reach above folders: :kbd:`windows + r` then copy above path into the window.
+To reach the above folders: :kbd:`Windows + R` then copy above path into the window.
 
 Notes
 -----

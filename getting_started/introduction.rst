@@ -14,6 +14,7 @@
              - Qubodup (https://userbase.kde.org/User:Qubodup)
              - Thompsony (https://userbase.kde.org/User:Thompsony)
              - Camille Moulin
+			 - Bernd Jordan
 
    :license: Creative Commons License SA 4.0
 
@@ -29,45 +30,124 @@ Introduction
 ============
 
 
-**Kdenlive** is an acronym for `KDE <http://www.kde.org>`_ **N**\ on-\ **Li**\ near **V**\ ideo **E**\ ditor.
-It is a free software (`GPL licensed <http://www.fsf.org/licensing/licenses/gpl.html>`_) primarily aimed at the Linux platform, but it also works on BSD [1]_  as it relies only on portable components (`Qt <https://www.qt.io/>`_ and `MLT <http://www.mltframework.org/>`_ framework). Windows versions are also available, with some drawbacks. See :ref:`windows_issues` for more information. A port on MacOS is `currently in progress <https://invent.kde.org/multimedia/kdenlive/-/issues/993>`_. 
+**Kdenlive** is an acronym for |kde_org| **N**\ on-\ **Li**\ near **V**\ ideo **E**\ ditor.
 
 
-*Non-linear video editing* is much more powerful than beginners' (linear) editors, hence it requires a bit more organization before starting. However, it is not reserved to specialists and can be used for small personal projects.
+It is a free software (|gpl_licensed|) primarily aimed at the Linux platform, but it also works on BSD [1]_  as it relies only on portable components (|qt| and |mlt|). Windows versions are also available, with some drawbacks. See :ref:`windows_issues` for more information. A port on MacOS is also available.
+
+.. |kde_org| raw:: html
+
+   <a href="https://www.kde.org/" target="_blank">KDE</a>
 
 
-Through the MLT framework, **Kdenlive** integrates many plugin effects for video and sound processing or creation. Furthermore **Kdenlive** brings a powerful titling tool, a subtitling feature with automatic speech to text conversion, and can then be used as a complete studio for video creation.
+.. |gpl_licensed| raw:: html
 
-..  Content imported from wikibook version 
+   <a href="https://www.fsf.org/licensing/licenses/gpl.html" target="_blank">GPL licensed</a>
+
+
+.. |qt| raw:: html
+
+   <a href="https://www.qt.io/" target="_blank">Qt</a>
+
+
+.. |mlt| raw:: html
+
+   <a href="http://www.mltframework.org/" target="_blank">MLT framework</a>
+
+
+Through the MLT framework **Kdenlive** integrates many plugin effects for video and sound processing or creation. Furthermore, **Kdenlive** brings a powerful titling tool, a subtitling feature with AI-supported speech to text conversion, nested timelines (new in version 23.04), animation support through Glaxnimate integration (new in version 22.08) and thus can be used as a complete studio for video creation.
+
 
 
 Video editing features
 ----------------------
 
 
+..  COMMENT: You will probably notice that I have shortened the list a LOT. With all the respect to the previous contributors, I think that it´s better to put only some (the most important) features here, as many of them will certainly become "old and cold" with the release of newer versions of Kdenlive, and will anyway be treated in the rest of the manual. Maybe a good idea, however, is to create a "What´s New" section, if the Kdenlive new site does not contain one.
+   BMJ: I added a few important video editing features like 3-point editing, proxy editing and keyframes
 
-..  COMMENT: You will probably notice that I have shortened the list a LOT. With all the respect to the previous contributors, I think that it´s better to put only some (the most important) features here, as many of them will certainly become "old and cold" with the release of newer versions of Kdenlive, and will anyway be treated in the rest of the manual. Maybe a good idea, however, is to create a "What´s New" section, if the Kdenlive new site does not contain one. 
 
+* Multitrack editing with a timeline and virtually unlimited number of video and audio tracks, plus the ability to split audio and video from a clip in multiple tracks
 
-* Multitrack edition with a timeline and virtually unlimited number of video and audio tracks, plus facilities for splitting audio and video from a clip in multiple tracks
-
+* 3-point editing
 
 * Non-blocking rendering. You can keep working on a project at the same time a project is being transformed into a video file
 
+* Dozens of effects and transitions that can be used with ease and even saved as custom effects with their settings for use in other projects
 
-* Effects and transitions can be used with ease, and you can even create some wipe transitions of your own!
-
+* Keyframeable effects with linear or smooth curves (more to come in future versions)
 
 * Simple tools for easy creation of color clips, text clips and image clips
 
-
 * Automatic :ref:`clips` creation from pictures directories, with crossfade transitions among the images
 
+* Configurable keyboard shortcuts, toolbars and interface layouts to accommodate your workflow
 
-* Configurable keyboard shortcuts and interface layouts
+* Audio and video scopes
+
+* Proxy editing for your 4K+ footage
+
+* Themable interface supporting dark themes
+
+... and much more!
+
+See the |kdenlive_roadmap| for what the future may bring.
+
+.. |kdenlive_roadmap| raw:: html
+   
+   <a href="https://kdenlive.org/en/kdenlive-roadmap/" target="_blank">Kdenlive Roadmap</a>
 
 
-* and much more!
+Supported formats and codecs
+----------------------------
+
+.. lifted from https://en.wikibooks.org/wiki/Kdenlive/What_Kdenlive_is
+
+There is no need to import or convert footage prior to editing. Kdenlive knows how to handle any format smoothly and supports the following formats, file types and codecs:
+
+* Support for low resolution (DV) camera and camcorder files, including:
+
+  +  DV editing (Raw and AVI)
+  +  MPEG4-ASP/MP3 (DivX compatible)
+  +  VOB (DVD)
+  +  4:3 and 16:9 screen sizes, PAL and NTSC systems
+
+* Support for high (HD) and ultra-high (UHD/4K) resolution camcorder files, including:
+
+  +  MPEG-2, MP4, Matroska, WebM, Apple ProRes 422 HDV
+  +  H264 AAC HDV
+  +  H265
+  +  Native HDV editing, 720 and 1080, interlaced or full frames
+
+* Support for brand new codecs and formats:
+
+  +  SNOW lossless codec
+  +  Ogg vorbis, etc ...
+  +  Since version 22.08: LOTTIE and RAWR animations
+
+* Ability to mix different video sources in a single project. For example, you can edit a film using two sources: a small mpeg4 camera and an HDV mpeg2 camcorder.
+
+  +  Any resolution. Kdenlive will adapt resolution of source files to the resolution of the project.
+  +  Any frame rate (from 15fps to 60 fps or higher). Kdenlive can duplicate/remove frames when needed.
+  
+* A wide range of image import formats:
+
+  + PNG, GIF, JPEG (jp2, jpe, jpeg, jpg, jpg2), TGA, TIFF, SVG, WEBP
+  + Since version 22.08: AVIF, HEIF, HEIC, JPEG XL
+
+* Export to most formats
+
+  +  Export to any format supported by |ffmpeg|, including DVD (PAL and NTSC), MPEG-2 and MP4 (PAL, NTSC and HD, UHD/4K), Matroska-H264/H265, AAC, AC3, MP3, Apple ProRes 422
+  +  Export to animated GIF or as image sequence in other formats, including BMP, DPX, JPEG, PNG, PPM, TGA, TIFF, WEBP
+  +  Lossless/HQ like FFV1, H.264, HuffYUV and Ut Video
+  +  Video with Alpha (Alpha MOV, Alpha VP8, Alpha VP9, Ut Video)
+
+..   +  Export to any DV devices
+  
+.. |ffmpeg| raw:: html
+
+   <a href="https://ffmpeg.org/about.html" target="_blank">ffmpeg</a>
+
 
 
 .. [1] Berkeley Software Distribution
