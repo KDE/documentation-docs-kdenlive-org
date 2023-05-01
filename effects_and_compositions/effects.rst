@@ -262,6 +262,8 @@ The new Effect Zones allow you to apply effects to specific regions of tracks or
 .. image:: /images/Timeline-effect-zone.gif
    :alt: timeline-effect-zone
 
+.. _time_remapping:
+
 Time Remapping (Speed Ramps)
 ----------------------------
 

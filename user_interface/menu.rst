@@ -3,6 +3,7 @@
    :authors: - Yuri Chornoivan
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Jack (https://userbase.kde.org/User:Jack)
+			 - Bernd Jordan
 
    :license: Creative Commons License SA 4.0
 
@@ -25,3 +26,27 @@ Menu Reference
    menu/timeline_menu
    menu/monitor_menu
    menu/settings_menu
+   
+
+This section explains the nine menus in the main menu bar. These are:
+
+* :ref:`file_menu`
+
+* :ref:`edit_menu`
+
+* :ref:`view_menu`
+
+* :ref:`project_menu`
+
+* :ref:`tool_menu`
+
+* :ref:`clip_menu`
+
+* :ref:`timeline_menu`
+
+* :ref:`monitor_menu`
+
+* :ref:`settings_menu`
+
+
+.. note:: In order to optimize screen space you can turn off the menu bar in Settings > Show Menubar or by hitting :kbd:`Ctrl + M`. This will add a hamburger menu (|application-menu|) to the main toolbar containing the menus.
