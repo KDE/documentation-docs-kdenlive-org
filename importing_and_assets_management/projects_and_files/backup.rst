@@ -31,4 +31,4 @@ The backup files are automatically created each time you save your project. This
 
 **Kdenlive** keeps up to 20 versions of your project file in the last hour, 20 versions from the current day, 20 versions in the last 7 days and 20 older versions, which should be sufficient to recover from any problem.
 
-
+More details how to get backups when the project file version is upgraded see :ref:`project`.
