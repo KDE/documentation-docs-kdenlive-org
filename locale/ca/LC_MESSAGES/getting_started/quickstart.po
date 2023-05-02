@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-26 00:42+0000\n"
-"PO-Revision-Date: 2023-02-26 19:45+0100\n"
+"POT-Creation-Date: 2023-05-01 00:43+0000\n"
+"PO-Revision-Date: 2023-05-01 12:41+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -31,59 +31,75 @@ msgstr ""
 "KDE, Kdenlive, inici ràpid, primeres passes, editor de vídeo, ajuda, "
 "aprendre, fàcil"
 
-#: ../../getting_started/quickstart.rst:31
+#: ../../getting_started/quickstart.rst:32
 msgid "Quick Start"
 msgstr "Inici ràpid"
 
-#: ../../getting_started/quickstart.rst:35
+#: ../../getting_started/quickstart.rst:36
 msgid "Creating a new project"
 msgstr "Crear un projecte nou"
 
-#: ../../getting_started/quickstart.rst:42
+#: ../../getting_started/quickstart.rst:43
 msgid "Kdenlive directory structure"
 msgstr "Estructura de directoris del Kdenlive"
 
-#: ../../getting_started/quickstart.rst:44
+#: ../../getting_started/quickstart.rst:45
+#| msgid ""
+#| "The first step is creating a new (empty) folder for our new project. I "
+#| "will call it :file:`quickstart-tutorial/` in this tutorial. Then get some "
+#| "sample video clips, or download them from here :download:`kdenlive-"
+#| "tutorial-videos-2011-avi.zip </files/Kdenlive-tutorial-videos-2011-avi."
+#| "zip>` (7 MB) [1]_ , and extract them to e.g. a :file:`quickstart-tutorial/"
+#| "Videos/` subfolder inside the project folder."
 msgid ""
-"The first step is creating a new (empty) folder for our new project. I will "
+"The first step is creating a new (empty) folder for our new project. We will "
 "call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample "
-"video clips, or download them from here :download:`kdenlive-tutorial-"
+"video clips, or download them from here :download:`Kdenlive-tutorial-"
 "videos-2011-avi.zip </files/Kdenlive-tutorial-videos-2011-avi.zip>` (7 MB) "
-"[1]_ , and extract them to e.g. a :file:`quickstart-tutorial/Videos/` "
+"[1]_  and extract them to e.g. a :file:`quickstart-tutorial/Videos/` "
 "subfolder inside the project folder."
 msgstr ""
 "El primer pas és crear una carpeta nova (buida) per al nostre projecte nou. "
-"En aquesta guia d'aprenentatge l'anomenaré :file:`quickstart-tutorial/`. "
+"En aquesta guia d'aprenentatge l'anomenarem :file:`quickstart-tutorial/`. "
 "Després, obteniu alguns clips de vídeo de mostra o descarregueu-los des "
-"d'aquí  :download:`kdenlive-tutorial-videos-2011-avi.zip </files/Kdenlive-"
-"tutorial-videos-2011-avi.zip>` (7 MB) [1]_, i extraieu-los a, p. ex., una "
+"d'aquí  :download:`Kdenlive-tutorial-videos-2011-avi.zip </files/Kdenlive-"
+"tutorial-videos-2011-avi.zip>` (7 MB) [1]_ i extraieu-los a, p. ex., una "
 "subcarpeta :file:`quickstart-tutorial/Videos/` dins de la carpeta del "
 "projecte."
 
-#: ../../getting_started/quickstart.rst:47
+#: ../../getting_started/quickstart.rst:48
+#| msgid ""
+#| "The image on the left shows the suggested directory structure: Each "
+#| "project has its own directory, with video files in the :file:`Videos` "
+#| "subdirectory, audio files in the :file:`Audio` directory, etc. (:ref:"
+#| "`projects_and_files`)"
 msgid ""
 "The image on the left shows the suggested directory structure: Each project "
 "has its own directory, with video files in the :file:`Videos` subdirectory, "
-"audio files in the :file:`Audio` directory, etc. (:ref:`projects_and_files`)"
+"audio files in the :file:`Audio` directory, etc. (see also :ref:"
+"`projects_and_files`)"
 msgstr ""
 "La imatge de l'esquerra mostra l'estructura de directoris suggerida: Cada "
 "projecte té el seu propi directori, amb fitxers de vídeo en el subdirectori :"
-"file:`Videos`, fitxers d'àudio en el directori :file:`Audio`, etc. (:ref:"
-"`projects_and_files`)"
+"file:`Videos`, fitxers d'àudio en el directori :file:`Audio`, etc. (també "
+"vegeu :ref:`projects_and_files`)"
 
-#: ../../getting_started/quickstart.rst:49
+#: ../../getting_started/quickstart.rst:50
+#| msgid ""
+#| "(The tutorial from now on assumes that you use the sample videos "
+#| "provided, but it works with any.)"
 msgid ""
-"(The tutorial from now on assumes that you use the sample videos provided, "
-"but it works with any.)"
+"The tutorial from now on assumes that you use the sample videos provided, "
+"but it works with any."
 msgstr ""
-"(A partir d'ara, la guia d'aprenentatge assumeix que utilitzeu els vídeos de "
-"mostra proporcionats, però funciona amb qualsevol)."
+"A partir d'ara, la guia d'aprenentatge assumeix que utilitzeu els vídeos de "
+"mostra proporcionats, però funciona amb qualsevol."
 
-#: ../../getting_started/quickstart.rst:56
+#: ../../getting_started/quickstart.rst:58
 msgid "New Project dialog"
 msgstr "El diàleg Projecte nou"
 
-#: ../../getting_started/quickstart.rst:59
+#: ../../getting_started/quickstart.rst:61
 msgid ""
 "Open **Kdenlive** and create a new project :menuselection:`File --> New`."
 msgstr ""
@@ -91,41 +107,59 @@ msgstr ""
 "menuselection:`Fitxer --> Nou`."
 
 # skip-rule: common-tutorial
-#: ../../getting_started/quickstart.rst:62
+#: ../../getting_started/quickstart.rst:63
+#| msgid ""
+#| "Choose the previously created project folder (:file:`quickstart-tutorial/"
+#| "`) and select an appropriate project profile. The video files provided "
+#| "above are 720p, 23.98 fps. [2]_  If you are using your own files and "
+#| "don’t know which one to use, **Kdenlive** will suggest an appropriate one "
+#| "when the first clip is added  [3]_  , so you can leave the field on "
+#| "whatever it is."
 msgid ""
 "Choose the previously created project folder (:file:`quickstart-tutorial/`) "
 "and select an appropriate project profile. The video files provided above "
-"are 720p, 23.98 fps. [2]_  If you are using your own files and don’t know "
+"are 720p, 23.97 fps. [#]_  If you are using your own files and don’t know "
 "which one to use, **Kdenlive** will suggest an appropriate one when the "
-"first clip is added  [3]_  , so you can leave the field on whatever it is."
+"first clip is added [#]_  , so you can leave the field on whatever it is."
 msgstr ""
 "Trieu la carpeta del projecte creada anteriorment (:file:`quickstart-"
 "tutorial/`) i seleccioneu un perfil adequat per al projecte. Els fitxers de "
-"vídeo proporcionats anteriorment estan a 720p i 23,98 fps. [2]_ Si utilitzeu "
+"vídeo proporcionats anteriorment estan a 720p i 23,97 fps. [#]_ Si utilitzeu "
 "els vostres propis fitxers i no sabeu quin utilitzar, el **Kdenlive** us "
-"suggerirà un d'adequat quan s'afegeixi el primer clip [3]_, de manera que "
+"suggerirà un d'adequat quan s'afegeixi el primer clip [#]_, de manera que "
 "podeu deixar el camp com estigui."
 
 #: ../../getting_started/quickstart.rst:65
+#| msgid ""
+#| "If you like you can change to the dark theme: :menuselection:`Settings --"
+#| "> Colour Theme` i.e Breeze-Dark"
 msgid ""
 "If you like you can change to the dark theme: :menuselection:`Settings --> "
-"Colour Theme` i.e Breeze-Dark"
+"Colour Theme --> Breeze-Dark`."
 msgstr ""
 "Si voleu, podeu canviar al tema fosc: :menuselection:`Arranjament --> Tema "
-"de color`, és a dir, Brisa fosca"
+"de color --> Brisa fosca`."
 
 #: ../../getting_started/quickstart.rst:69
 msgid "Adding clips"
 msgstr "Afegir clips"
 
-#: ../../getting_started/quickstart.rst:75
+#: ../../getting_started/quickstart.rst:76
 msgid "Project Bin: Adding video clips"
 msgstr "Safata del projecte: Afegint clips de vídeo"
 
-#: ../../getting_started/quickstart.rst:77
+#: ../../getting_started/quickstart.rst:78
+#| msgid ""
+#| "Now that the project is ready, let’s start adding some clips (i.e. the "
+#| "ones you downloaded). This works via the *Project Bin widget*; a click on "
+#| "the :menuselection:`Add Clip or Folder` icon |kdenlive-add-clip| directly "
+#| "opens the file dialog, a click on the small arrow shows a list of "
+#| "additional clip types that can be added as well. Video clips, audio "
+#| "clips, images, and other **Kdenlive** projects can be added via the "
+#| "default :menuselection:`Add Clip or Folder` dialog."
 msgid ""
 "Now that the project is ready, let’s start adding some clips (i.e. the ones "
-"you downloaded). This works via the *Project Bin widget*; a click on the :"
+"you downloaded). This is done via the *Project Bin widget*; a click on the :"
 "menuselection:`Add Clip or Folder` icon |kdenlive-add-clip| directly opens "
 "the file dialog, a click on the small arrow shows a list of additional clip "
 "types that can be added as well. Video clips, audio clips, images, and other "
@@ -133,7 +167,7 @@ msgid ""
 "or Folder` dialog."
 msgstr ""
 "Ara que el projecte està llest, començarem a afegir alguns clips (és a dir, "
-"els que heu descarregat). Això funciona a través del *giny Safata del "
+"els que heu descarregat). Això es fa a través del *giny Safata del "
 "projecte*, fent clic sobre la icona |kdenlive-add-clip| :menuselection:"
 "`Afegeix un clip o carpeta` obrirà directament el diàleg de selecció de "
 "fitxers, fent clic sobre la fletxa mostrarà una llista dels tipus de clips "
@@ -141,81 +175,110 @@ msgstr ""
 "imatges i es poden afegir altres projectes del **Kdenlive** a través del "
 "diàleg predeterminat :menuselection:`Afegeix un clip o carpeta`."
 
-#: ../../getting_started/quickstart.rst:86
+#: ../../getting_started/quickstart.rst:87
 msgid "Kdenlive window with the tutorial files"
 msgstr "Finestra del Kdenlive amb els fitxers de la guia d'aprenentatge"
 
-#: ../../getting_started/quickstart.rst:88
+#: ../../getting_started/quickstart.rst:89
+#| msgid ""
+#| "After loading the clips, **Kdenlive** will look similar to this. On the "
+#| "top left there is the already known Project Bin. Right of it are the "
+#| "monitors that show video; The clip monitor displays video from the "
+#| "original clips, the project monitor shows how the output video will look, "
+#| "with all effects, transitions, etc. applied. The third, also very "
+#| "important, item is the timeline (below the monitors): This is the place "
+#| "where the video clips will be edited. There are two different types of "
+#| "tracks, Video and Audio. Video tracks can contain any kind of clip, audio "
+#| "tracks as well – but when dropping a video file to the audio track, only "
+#| "the audio will be used."
 msgid ""
 "After loading the clips, **Kdenlive** will look similar to this. On the top "
-"left there is the already known Project Bin. Right of it are the monitors "
-"that show video; The clip monitor displays video from the original clips, "
-"the project monitor shows how the output video will look, with all effects, "
-"transitions, etc. applied. The third, also very important, item is the "
-"timeline (below the monitors): This is the place where the video clips will "
-"be edited. There are two different types of tracks, Video and Audio. Video "
-"tracks can contain any kind of clip, audio tracks as well – but when "
+"left there is the already known Project Bin. To the right of it are the "
+"monitors that show video: The clip monitor displays video from the original "
+"clips, the project monitor shows how the output video will look with all "
+"effects, transitions, etc. applied. The third, also very important, item is "
+"the timeline (below the monitors): This is the place where the video clips "
+"will be edited. There are two different types of tracks: Video and audio. "
+"Video tracks can contain any kind of clip, audio tracks as well but when "
 "dropping a video file to the audio track, only the audio will be used."
 msgstr ""
 "Després de carregar els clips, el **Kdenlive** tindrà un aspecte similar a "
 "aquest. A la part superior esquerra es troba la ja coneguda Safata del "
-"projecte. A la dreta hi ha els monitors que mostren el vídeo. El monitor del "
-"clip mostra el vídeo a partir dels clips originals, el monitor del projecte "
-"mostra com es veurà el vídeo de sortida, amb tots els efectes, transicions, "
+"projecte. A la dreta hi ha els monitors que mostren el vídeo: el monitor de "
+"clips mostra el vídeo a partir dels clips originals, el monitor del projecte "
+"mostra com es veurà el vídeo de sortida amb tots els efectes, transicions, "
 "etc. aplicats. El tercer element, també molt important, és la línia de temps "
-"(per sota dels monitors): Aquest és el lloc on es poden editar els clips de "
-"vídeo. Hi ha dos tipus diferents de pistes, de vídeo i d'àudio. Les pistes "
-"de vídeo poden contenir qualsevol classe de vídeo, les pistes d'àudio també -"
+"(per sota dels monitors): aquest és el lloc on es poden editar els clips de "
+"vídeo. Hi ha dos tipus diferents de pistes: vídeo i àudio. Les pistes de "
+"vídeo poden contenir qualsevol classe de vídeo, les pistes d'àudio també "
 "però quan es deixa anar un fitxer de vídeo a la pista d'àudio, només "
-"s'utilitzarà l'àudio-."
+"s'utilitzarà l'àudio."
 
-#: ../../getting_started/quickstart.rst:96
+#: ../../getting_started/quickstart.rst:97
 msgid "Saving a Kdenlive project"
 msgstr "Desant un projecte del Kdenlive"
 
-#: ../../getting_started/quickstart.rst:99
+#: ../../getting_started/quickstart.rst:100
+#| msgid ""
+#| "Let’s save the work via :menuselection:`File --> Save`. This saves our "
+#| "project, i.e. where we placed the clips on the timeline, which effects we "
+#| "applied, and so on. It can *not* be played. [4]_  The process of creating "
+#| "the final video is called *Rendering*."
 msgid ""
 "Let’s save the work via :menuselection:`File --> Save`. This saves our "
 "project, i.e. where we placed the clips on the timeline, which effects we "
-"applied, and so on. It can *not* be played. [4]_  The process of creating "
+"applied, and so on. It can *not* be played. [#]_  The process of creating "
 "the final video is called *Rendering*."
 msgstr ""
 "Desarem el treball mitjançant l'element de menú :menuselection:`Fitxer --> "
 "Desa`. Això desarà el nostre projecte, és a dir, on hem col·locat els clips "
 "sobre la línia de temps, quins efectes hem aplicat, etc. *No* es pot "
-"reproduir. [4]_ El procés de creació del vídeo final s'anomena *renderitzat*."
+"reproduir. [#]_ El procés de creació del vídeo final s'anomena *renderitzat*."
 
-#: ../../getting_started/quickstart.rst:104
+#: ../../getting_started/quickstart.rst:105
 msgid "Timeline"
 msgstr "Línia de temps"
 
-#: ../../getting_started/quickstart.rst:106
-msgid "See also :ref:`timeline`"
-msgstr "Vegeu també :ref:`timeline`"
+#: ../../getting_started/quickstart.rst:107
+msgid ""
+"In this Quick Start section we will not go into the details of the timeline "
+"and its components. More detailed information is available in the :ref:"
+"`timeline` section of this documentation."
+msgstr ""
+"En aquesta secció d'inici ràpid no entrarem en els detalls de la línia de "
+"temps i els seus components. Hi ha disponible informació més detallada a la "
+"secció :ref:`timeline` d'aquesta documentació."
 
-#: ../../getting_started/quickstart.rst:108
+#: ../../getting_started/quickstart.rst:109
+#| msgid ""
+#| "Now comes the actual editing. Project clips are combined to the final "
+#| "result on the timeline.  They get there by drag and drop: Drag some "
+#| "Napoli (assuming you are using the files provided above, as in the rest "
+#| "of this quick start tutorial; If not, please make sure your screen is "
+#| "waterproof, and perhaps tomatoproof) from the project bin, and drop it "
+#| "onto the first track in the timeline. In this case track V2."
 msgid ""
 "Now comes the actual editing. Project clips are combined to the final result "
-"on the timeline.  They get there by drag and drop: Drag some Napoli "
+"on the timeline. They get there by drag and drop [#]_  : Drag some Napoli "
 "(assuming you are using the files provided above, as in the rest of this "
-"quick start tutorial; If not, please make sure your screen is waterproof, "
-"and perhaps tomatoproof) from the project bin, and drop it onto the first "
+"quick start tutorial; if not, please make sure your screen is waterproof, "
+"and perhaps tomatoproof) from the project bin and drop it onto the first "
 "track in the timeline. In this case track V2."
 msgstr ""
 "Ara ve l'edició real. Els clips del projecte es combinen per al resultat "
 "final sobre la línia de temps. Arriben allà mitjançant l'acció d'arrossegar "
-"i deixar anar: Arrossegueu algun Napoli (assumint que esteu utilitzant els "
+"i deixar anar [#]_: Arrossegueu algun Napoli (assumint que esteu utilitzant"
+" els "
 "fitxers proporcionats, com en la resta d'aquesta guia d'aprenentatge d'inici "
-"ràpid. Si no, si us plau, assegureu-vos que la vostra pantalla és "
-"impermeable, i potser a prova de tomàquets) des de la Safata del projecte i "
-"poseu-lo a la primera pista en la línia de temps. En aquest cas a la pista "
-"V2."
+"ràpid. Si no, assegureu-vos que la vostra pantalla és impermeable, i potser "
+"a prova de tomàquets) des de la Safata del projecte i poseu-lo a la primera "
+"pista en la línia de temps. En aquest cas a la pista V2."
 
-#: ../../getting_started/quickstart.rst:115
+#: ../../getting_started/quickstart.rst:116
 msgid "First clips in the timeline"
 msgstr "Primers clips en la línia de temps"
 
-#: ../../getting_started/quickstart.rst:118
+#: ../../getting_started/quickstart.rst:119
 msgid ""
 "Since some cutlery is needed as well, grab the spoon clip and drop it on the "
 "first track as well (track V2). Then drag the Napoli to the beginning of the "
@@ -230,11 +293,11 @@ msgstr ""
 "just després del Napoli, de manera que es vegi la imatge a l'esquerra. "
 "(Podeu apropar-la amb la drecera :kbd:`Ctrl + Roda`)."
 
-#: ../../getting_started/quickstart.rst:124
+#: ../../getting_started/quickstart.rst:125
 msgid "Timeline cursor"
 msgstr "Cursor de la línia de temps"
 
-#: ../../getting_started/quickstart.rst:127
+#: ../../getting_started/quickstart.rst:128
 msgid ""
 "The result can already be previewed by pressing :kbd:`Space` (or the :"
 "guilabel:`Play` button in the project monitor). You will see the Napoli "
@@ -255,16 +318,25 @@ msgstr ""
 "menuselection:`Monitor del projecte` si encara no està seleccionat abans "
 "d'utilitzar la drecera)."
 
-#: ../../getting_started/quickstart.rst:134
+#: ../../getting_started/quickstart.rst:135
 msgid "Resize marker"
 msgstr "Canviar la mida del marcador"
 
-#: ../../getting_started/quickstart.rst:137
+#: ../../getting_started/quickstart.rst:138
+#| msgid ""
+#| "Since after eating comes playing, there is a Billiards clip. Add it to "
+#| "the timeline as well (track V1). For the first 1.5 seconds nothing "
+#| "happens in the clip, so it should perhaps be **cut** to avoid the video "
+#| "becoming boring. An easy way [5]_  for this is to move the timeline "
+#| "cursor to the desired position (i.e. the position where you want to cut "
+#| "the video), then drag the left border of the clip when the resize marker "
+#| "appears. It will snap in at the timeline cursor when you move close "
+#| "enough."
 msgid ""
 "Since after eating comes playing, there is a Billiards clip. Add it to the "
 "timeline as well (track V1). For the first 1.5 seconds nothing happens in "
 "the clip, so it should perhaps be **cut** to avoid the video becoming "
-"boring. An easy way [5]_  for this is to move the timeline cursor to the "
+"boring. An easy way [#]_  for this is to move the timeline cursor to the "
 "desired position (i.e. the position where you want to cut the video), then "
 "drag the left border of the clip when the resize marker appears. It will "
 "snap in at the timeline cursor when you move close enough."
@@ -272,17 +344,17 @@ msgstr ""
 "Ja que després de dinar es pot jugar, hi ha un clip de Billiards. Afegiu-lo "
 "també a la línia de temps (pista V1). Els primers 1,5 segons no succeeix res "
 "al clip, de manera que potser s'haurà de **retallar** per a evitar que es "
-"converteixi en un vídeo avorrit. Una manera fàcil de fer-ho [5]_ és moure el "
+"converteixi en un vídeo avorrit. Una manera fàcil de fer-ho [#]_ és moure el "
 "cursor de la línia de temps fins a la posició desitjada (és a dir, la "
 "posició on voleu retallar el vídeo), a continuació, arrossegueu la vora "
 "esquerra del clip fins que aparegui el marcador de canvi de mida. El cursor "
 "de la línia de temps serà atret quan esteu prou a prop."
 
-#: ../../getting_started/quickstart.rst:144
+#: ../../getting_started/quickstart.rst:145
 msgid "Overlapping clips"
 msgstr "Superposar clips"
 
-#: ../../getting_started/quickstart.rst:147
+#: ../../getting_started/quickstart.rst:148
 msgid ""
 "To add a *transition* between eating (the Spoon) and playing billiards, the "
 "two clips need to overlap. To be precise: place the second clip above or "
@@ -299,7 +371,7 @@ msgstr ""
 "individuals. Fer-ho també simplificarà tenir sempre la durada de la "
 "transició, cinc imatges en aquest cas."
 
-#: ../../getting_started/quickstart.rst:150
+#: ../../getting_started/quickstart.rst:151
 msgid ""
 "You can zoom in by either using the :menuselection:`zoom slider` at the "
 "bottom right corner of the **Kdenlive** window, or with :kbd:`Ctrl + "
@@ -312,12 +384,12 @@ msgstr ""
 "de la línia de temps, de manera que primer hem de dur-lo fins a la posició "
 "que voleu ampliar."
 
-#: ../../getting_started/quickstart.rst:158
+#: ../../getting_started/quickstart.rst:159
 msgid "Transition marker"
 msgstr "Marcador de transició"
 
 # skip-rule: kct-wip
-#: ../../getting_started/quickstart.rst:161
+#: ../../getting_started/quickstart.rst:162
 msgid ""
 "Now that the clips overlap, the transition can be added. This is done either "
 "by right-clicking on the upper clip and choosing :menuselection:`Insert a "
@@ -337,7 +409,7 @@ msgstr ""
 "totes maneres, ja que la cullera no és necessària per a reproduir."
 
 # skip-rule: t-acc_obe,kct-wip
-#: ../../getting_started/quickstart.rst:163
+#: ../../getting_started/quickstart.rst:164
 msgid ""
 "The wipe transitions fades the first clip into the second one. See also :ref:"
 "`transitions`."
@@ -346,7 +418,7 @@ msgstr ""
 "ref:`transitions`."
 
 # skip-rule: kct-wip
-#: ../../getting_started/quickstart.rst:170
+#: ../../getting_started/quickstart.rst:171
 msgid ""
 "Let’s now add the last clip, the Piano, and again apply a wipe transition. "
 "When adding it on the first track of the timeline (track V2), you need to "
@@ -358,15 +430,15 @@ msgstr ""
 "temps (pista V2), heu de fer clic a la zona inferior esquerra del clip nou "
 "per a afegir la transició al clip anterior."
 
-#: ../../getting_started/quickstart.rst:174
+#: ../../getting_started/quickstart.rst:175
 msgid "Effects"
 msgstr "Efectes"
 
-#: ../../getting_started/quickstart.rst:181
+#: ../../getting_started/quickstart.rst:182
 msgid "Effect List"
 msgstr "Llista d'efectes"
 
-#: ../../getting_started/quickstart.rst:184
+#: ../../getting_started/quickstart.rst:185
 msgid ""
 "The Piano can be colourized by adding an *effect* to it.  Click on the "
 "effect view (if effect view is not visible enable the view: :menuselection:"
@@ -378,7 +450,7 @@ msgstr ""
 "Efectes`). Escriviu *rgb* en el camp de cerca i feu doble clic sobre "
 "l'efecte :menuselection:`Ajust RGB`."
 
-#: ../../getting_started/quickstart.rst:193
+#: ../../getting_started/quickstart.rst:194
 msgid ""
 "Once the effect has been added, click on an empty part in the timeline and "
 "you see its name on the timeline clip. It will also be shown in the :"
@@ -388,11 +460,11 @@ msgstr ""
 "i veureu el seu nom. També es mostrarà en el giny :menuselection:`Pila "
 "d'efectes/composició`."
 
-#: ../../getting_started/quickstart.rst:202
+#: ../../getting_started/quickstart.rst:203
 msgid "Effect Stack with RGB adjustment"
 msgstr "Pila d'efectes amb ajust RGB"
 
-#: ../../getting_started/quickstart.rst:205
+#: ../../getting_started/quickstart.rst:206
 msgid ""
 "To get a warm yellow-orange tone on the image, fitting the comfortable "
 "evening, blue needs to be reduced and red and green improved."
@@ -401,7 +473,7 @@ msgstr ""
 "per a una nit còmoda, el blau necessita ser reduït, mentre que el vermell i "
 "el verd s'han d'enfortir."
 
-#: ../../getting_started/quickstart.rst:207
+#: ../../getting_started/quickstart.rst:208
 msgid ""
 "The values in the Effect/Composition Stack widget can be changed by using "
 "the slider (middle mouse button resets it to the default value), or by "
@@ -413,13 +485,21 @@ msgstr ""
 "predeterminat) o introduint un valor directament fent doble clic al número a "
 "la dreta del control lliscant."
 
-#: ../../getting_started/quickstart.rst:209
+#: ../../getting_started/quickstart.rst:210
+#| msgid ""
+#| "The Effect/Composition Stack widget always refers to the timeline clip "
+#| "that is currently selected. Each effect can be temporarily disabled by "
+#| "clicking the eye icon, or all effects for that clip can be disabled using "
+#| "the check box at the top of the Effect/Composition Stack widget (the "
+#| "settings are saved though), this is e.g. useful for effects that require "
+#| "a lot of computing power, so they can be disabled when editing and "
+#| "enabled again for rendering."
 msgid ""
 "The Effect/Composition Stack widget always refers to the timeline clip that "
 "is currently selected. Each effect can be temporarily disabled by clicking "
 "the eye icon, or all effects for that clip can be disabled using the check "
 "box at the top of the Effect/Composition Stack widget (the settings are "
-"saved though), this is e.g. useful for effects that require a lot of "
+"saved though). This is e.g. useful for effects that require a lot of "
 "computing power, so they can be disabled when editing and enabled again for "
 "rendering."
 msgstr ""
@@ -427,28 +507,33 @@ msgstr ""
 "seleccionat a la línia de temps. Cada efecte es pot desactivar temporalment "
 "fent clic a la icona de l'ull, o tots els efectes per a aquest clip "
 "mitjançant la casella de selecció situada a la part superior del giny Pila "
-"d'efectes/composició (tot i que es desaran les opcions), això és útil, p. "
+"d'efectes/composició (tot i que es desaran les opcions). Això és útil, p. "
 "ex. per als efectes que requereixen molta potència de càlcul, de manera que "
 "es pot desactivar mentre s'edita i tornar a activar per al renderitzat."
 
-#: ../../getting_started/quickstart.rst:211
+#: ../../getting_started/quickstart.rst:212
+#| msgid ""
+#| "For some effects, like the one used there, it is possible to add "
+#| "keyframes. The framed watch icon indicates this. Keyframes are used for "
+#| "changing effect parameters over time. In our clip this allows us to fade "
+#| "the piano’s colour from a warm evening colour to a cold night colour."
 msgid ""
-"For some effects, like the one used there, it is possible to add keyframes. "
+"For some effects like the one used there it is possible to add keyframes. "
 "The framed watch icon indicates this. Keyframes are used for changing effect "
 "parameters over time. In our clip this allows us to fade the piano’s colour "
 "from a warm evening colour to a cold night colour."
 msgstr ""
-"Per a alguns efectes, com el que s'utilitza aquí, és possible afegir "
+"Per a alguns efectes com el que s'utilitza aquí és possible afegir "
 "fotogrames clau. La icona del cronòmetre indica que emmarca aquesta "
 "possibilitat. Els fotogrames clau s'utilitzen per a canviar els paràmetres "
 "de l'efecte en el temps. En el nostre clip ens permet fer una decoloració "
 "del piano des d'una nit càlida cap a una nit freda."
 
-#: ../../getting_started/quickstart.rst:218
+#: ../../getting_started/quickstart.rst:219
 msgid "Keyframes for effects"
 msgstr "Els fotogrames clau per als efectes"
 
-#: ../../getting_started/quickstart.rst:221
+#: ../../getting_started/quickstart.rst:222
 msgid ""
 "After clicking the :menuselection:`keyframe` icon (the clock icon framed in "
 "the previous image), the Properties widget will re-arrange. By default there "
@@ -465,7 +550,7 @@ msgstr ""
 "del projecte en realitat mostrarà els colors nous en canviar els paràmetres "
 "del fotograma clau al final."
 
-#: ../../getting_started/quickstart.rst:223
+#: ../../getting_started/quickstart.rst:224
 msgid ""
 "Make sure the last keyframe is selected in the Properties list. Then you are "
 "ready to flood the piano with a deep blue."
@@ -473,7 +558,7 @@ msgstr ""
 "Assegureu-vos que se selecciona l'últim fotograma clau en la llista "
 "Propietats. Llavors estareu llest per a inundar el piano amb un blau profund."
 
-#: ../../getting_started/quickstart.rst:225
+#: ../../getting_started/quickstart.rst:226
 msgid ""
 "Moving the timeline cursor to the beginning of the project and playing it "
 "(with :kbd:`Space`, or the :guilabel:`Play` button in the :menuselection:"
@@ -484,7 +569,7 @@ msgstr ""
 "el :menuselection:`Monitor del projecte`), el piano hauria de canviar cap al "
 "color desitjat."
 
-#: ../../getting_started/quickstart.rst:227
+#: ../../getting_started/quickstart.rst:228
 msgid ""
 "Keyframing was the hardest part of this tutorial. If you managed to do it, "
 "you will master **Kdenlive** easily!"
@@ -492,57 +577,74 @@ msgstr ""
 "Els fotogrames clau són la part més difícil d'aquesta guia d'aprenentatge. "
 "Si els gestioneu per a fer-ho, dominareu el **Kdenlive** amb facilitat!"
 
-#: ../../getting_started/quickstart.rst:229
-msgid "See also :ref:`effects`."
-msgstr "Vegeu també :ref:`effects`."
+#: ../../getting_started/quickstart.rst:230
+msgid ""
+"In this Quick Start section we brushed over the effects very quickly. More "
+"details about effects and an explanation of each effect is available in the :"
+"ref:`Effects and Compositions <effects>` section of this documentation."
+msgstr ""
+"En aquesta secció d'inici ràpid hem analitzat els efectes molt ràpidament. "
+"Hi ha més detalls sobre els efectes i una explicació de cada efecte a la "
+"secció :ref:`Efectes i composicions <effects>` d'aquesta documentació."
 
-#: ../../getting_started/quickstart.rst:233
+#: ../../getting_started/quickstart.rst:234
 msgid "Music"
 msgstr "Música"
 
-#: ../../getting_started/quickstart.rst:240
+#: ../../getting_started/quickstart.rst:241
 msgid "Audio fadeout"
 msgstr "Esvaïment de l'àudio"
 
-# skip-rule: t-acc_obe
-#: ../../getting_started/quickstart.rst:243
+#: ../../getting_started/quickstart.rst:244
+#| msgid ""
+#| "Since the clips do not provide any audio, let’s search for some nice "
+#| "piece of music, from your local collection or on web pages like `Jamendo "
+#| "<http://www.jamendo.com>`_. The audio clip should, after adding it, be "
+#| "dragged to an audio track on the timeline."
 msgid ""
-"Since the clips do not provide any audio, let’s search for some nice piece "
-"of music, from your local collection or on web pages like `Jamendo <http://"
-"www.jamendo.com>`_. The audio clip should, after adding it, be dragged to an "
-"audio track on the timeline."
+"Since the clips do not provide any audio let’s search for some nice piece of "
+"music from your local collection or on web pages like |jamendo|. After "
+"adding the audio clip to the Project Bin it should be dragged to an audio "
+"track on the timeline."
 msgstr ""
-"Atès que els clips no proporcionen cap àudio, cercarem alguna bona peça de "
-"música, des de la vostra col·lecció local o a pàgines web com `Jamendo "
-"<http://www.jamendo.com>`_. Quan afegiu un clip d'àudio al projecte, deixeu "
-"anar una pista d'àudio sobre la línia de temps."
+"Atès que els clips no proporcionen cap àudio cercarem alguna bona peça de "
+"música des de la vostra col·lecció local o a pàgines web com |jamendo|. "
+"Després d'afegir el clip d'àudio a la safata del projecte s'hauria de deixar "
+"anar una pista d'àudio en la línia de temps."
 
 #: ../../getting_started/quickstart.rst:246
+#| msgid ""
+#| "The audio clip can be resized on the timeline the same way as video clips "
+#| "are. The cursor will snap in at the end of the project automatically. To "
+#| "add a fade out effect at the end of the audio clip (except if you found a "
+#| "file with exactly the right length) you can hover the top right (or left) "
+#| "edge of the timeline clip and drag the red shaded triangle to the "
+#| "position where fading out should start. [6]_"
 msgid ""
 "The audio clip can be resized on the timeline the same way as video clips "
-"are. The cursor will snap in at the end of the project automatically. To add "
+"can. The cursor will snap in at the end of the project automatically. To add "
 "a fade out effect at the end of the audio clip (except if you found a file "
-"with exactly the right length) you can hover the top right (or left) edge of "
-"the timeline clip and drag the red shaded triangle to the position where "
-"fading out should start. [6]_"
+"with exactly the right length) you can hover over the top right (or left) "
+"edge of the timeline clip and drag the red shaded triangle to the position "
+"where fading out should start. [#]_"
 msgstr ""
 "El clip d'àudio es pot canviar de mida a la línia de temps de la mateixa "
 "manera que els clips de vídeo. El cursor s'ajustarà al final del projecte de "
 "forma automàtica. Per a afegir un efecte d'esvaïment al final del clip "
 "d'àudio (excepte si trobeu un fitxer amb exactament la longitud correcta) "
-"podeu anar a la vora superior dreta (o esquerra) del clip a la línia de "
-"temps i arrossegar el triangle amb ombra vermella fins a la posició on ha de "
-"començar aquest esvaïment. [6]_"
+"podeu passar el ratolí sobre la vora superior dreta (o esquerra) del clip a "
+"la línia de temps i arrossegar el triangle amb ombra vermella fins a la "
+"posició on ha de començar aquest esvaïment. [#]_"
 
-#: ../../getting_started/quickstart.rst:250
+#: ../../getting_started/quickstart.rst:254
 msgid "Rendering"
 msgstr "Renderitzar"
 
-#: ../../getting_started/quickstart.rst:257
+#: ../../getting_started/quickstart.rst:261
 msgid "Rendering dialog"
 msgstr "El diàleg de renderització"
 
-#: ../../getting_started/quickstart.rst:260
+#: ../../getting_started/quickstart.rst:264
 msgid ""
 "A few minutes left, and the project is finished! Click the Render button (or "
 "go to :menuselection:`Project --> Render`, or press :kbd:`Ctrl + Enter`) to "
@@ -559,23 +661,26 @@ msgstr ""
 "seleccioneu la ubicació del fitxer de sortida i premeu el botó :"
 "menuselection:`Renderitza a un fitxer`."
 
-#: ../../getting_started/quickstart.rst:269
+#: ../../getting_started/quickstart.rst:273
 msgid "Rendering progress"
 msgstr "Progrés del renderitzat"
 
-#: ../../getting_started/quickstart.rst:271
+#: ../../getting_started/quickstart.rst:275
+#| msgid ""
+#| "After some seconds rendering will be finished, and your first "
+#| "**Kdenlive** project completed. Congratulations!"
 msgid ""
-"After some seconds rendering will be finished, and your first **Kdenlive** "
-"project completed. Congratulations!"
+"After some seconds rendering will be finished and your first **Kdenlive** "
+"project is completed. Congratulations!"
 msgstr ""
 "Després d'alguns segons el renderitzat s'haurà acabat i haureu completat el "
 "vostre primer projecte del **Kdenlive**. Felicitats!"
 
-#: ../../getting_started/quickstart.rst:276
+#: ../../getting_started/quickstart.rst:280
 msgid "References and notes"
 msgstr "Referències i notes"
 
-#: ../../getting_started/quickstart.rst:278
+#: ../../getting_started/quickstart.rst:282
 msgid ""
 "If you prefer Theora (which you probably don’t since Ogg Video usually "
 "causes problems), you can alternatively download :download:`kdenlive-"
@@ -586,22 +691,24 @@ msgstr ""
 "problemes), també podeu descarregar :download:`kdenlive-tutorial-videos-2011-"
 "ogv.tar.bz2 </files/kdenlive-tutorial-videos-2011-ogv.tar.bz2>`."
 
-# skip-rule: t-acc_obe
-#: ../../getting_started/quickstart.rst:279
+#: ../../getting_started/quickstart.rst:283
+#| msgid ""
+#| "`720 <http://en.wikipedia.org/wiki/720p>`_ is the video height, p stands "
+#| "for `progressive scan <http://en.wikipedia.org/wiki/Progressive_scan>`_ "
+#| "in contrast to `interlaced video <http://en.wikipedia.org/wiki/"
+#| "Interlaced_video>`_, and the fps number denotes the number of full frames "
+#| "per second."
 msgid ""
-"`720 <http://en.wikipedia.org/wiki/720p>`_ is the video height, p stands for "
-"`progressive scan <http://en.wikipedia.org/wiki/Progressive_scan>`_ in "
-"contrast to `interlaced video <http://en.wikipedia.org/wiki/"
-"Interlaced_video>`_, and the fps number denotes the number of full frames "
-"per second."
+"|wiki_720p| is the video height, p stands for |wiki_prog| (in contrast to |"
+"wiki_inter|), and the fps number denotes the number of full frames per "
+"second."
 msgstr ""
-"`720 <https://ca.wikipedia.org/wiki/720p>`_ és l'alçada del vídeo, «p» "
-"significa `exploració progressiva <https://ca.wikipedia.org/wiki/Exploraci"
-"%C3%B3_progressiva>`_ en contrast amb el `vídeo entrellaçat <https://ca."
-"wikipedia.org/wiki/Exploraci%C3%B3_entrella%C3%A7ada>`_ i el nombre de fps "
-"indica el nombre de fotogrames complets per segon."
+"|wiki_720p| és l'alçada del vídeo, «p» significa |wiki_prog| (en contrast amb"
+" el |"
+"wiki_inter|), i el nombre de fps indica el nombre de fotogrames complets per"
+" segon."
 
-#: ../../getting_started/quickstart.rst:280
+#: ../../getting_started/quickstart.rst:284
 msgid ""
 "Provided Configure Kdenlive Settings under :ref:`configure_kdenlive` is set "
 "to *Check if first added clip matches project profile*"
@@ -611,7 +718,7 @@ msgstr ""
 "projecte*"
 
 # skip-rule: t-acc_obe
-#: ../../getting_started/quickstart.rst:281
+#: ../../getting_started/quickstart.rst:285
 msgid ""
 "To be correct, it *can* be played using ``melt yourproject.kdenlive``, but "
 "this is not the way you would want to present your final video since it is "
@@ -622,7 +729,21 @@ msgstr ""
 "vostre últim vídeo, ja que (probablement) sigui massa lent. A més, això "
 "només funciona si «melt» està instal·lat."
 
-#: ../../getting_started/quickstart.rst:282
+# skip-rule: kct-shortcut
+#: ../../getting_started/quickstart.rst:286
+msgid ""
+"Besides drag and drop you can use :doc:`../user_interface/shortcuts` and "
+"clip zones to insert clips into the timeline. See :ref:`3-point editing "
+"<three_point_editing>` and :ref:`using clip zones "
+"<drag_audio_or_video_into_timeline>` for more details."
+msgstr ""
+"A part d'arrossegar i deixar anar, podeu usar"
+" :doc:`../user_interface/shortcuts` i zones de clip per a inserir clips en la"
+" línia de temps. Vegeu :ref:`3-point editing <three_point_editing>` i"
+" :ref:`using clip zones <drag_audio_or_video_into_timeline>` per a més"
+" detalls."
+
+#: ../../getting_started/quickstart.rst:287
 msgid ""
 "Writing it this way suggests that there are several ways of cutting a clip. "
 "This is in fact true."
@@ -630,7 +751,7 @@ msgstr ""
 "Escriure-ho d'aquesta manera suggereix que hi ha diverses maneres de "
 "retallar un clip. El qual, de fet és cert."
 
-#: ../../getting_started/quickstart.rst:283
+#: ../../getting_started/quickstart.rst:288
 msgid ""
 "This shaded triangle is a shorthand for adding the effect :menuselection:"
 "`Fade --> Fade out`. Both ways lead to the same result."

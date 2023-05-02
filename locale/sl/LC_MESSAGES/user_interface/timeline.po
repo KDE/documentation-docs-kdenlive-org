@@ -11,17 +11,17 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-27 00:41+0000\n"
-"PO-Revision-Date: 2023-01-02 20:24+0100\n"
+"PO-Revision-Date: 2023-05-01 19:23+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
 "Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../user_interface/timeline.rst:1
@@ -42,22 +42,15 @@ msgid "Timeline"
 msgstr "Časovnica"
 
 #: ../../user_interface/timeline.rst:27
-#, fuzzy
-#| msgid ""
-#| "The timeline is the central part of **Kdenlive**. It is made of 4 "
-#| "different areas (see screenshot)."
 msgid ""
 "The timeline is the central part of **Kdenlive**. It is made of four "
 "different areas:"
 msgstr ""
-"Časovnica je osrednji del **Kdenlive**. Tvorijo ga štiri različna področja "
-"(glejte posnetek zaslona)."
+"Časovnica je osrednji del **Kdenlive**. Tvorijo jo štiri različna področja:"
 
 #: ../../user_interface/timeline.rst:40
-#, fuzzy
-#| msgid "Timeline visuals"
 msgid "Timeline Areas"
-msgstr "Vizualni prikazi časovnice"
+msgstr "Območja časovnice"
 
 #: ../../user_interface/timeline.rst:42
 msgid ""
@@ -66,6 +59,10 @@ msgid ""
 "audio frequency curve, transitions and compositions, as well as the markers, "
 "guides and keyframes (if any)."
 msgstr ""
+"1 - **Časovnica**. To je področje, kjer spustite posnetke na različne steze. "
+"Prikazuje posnetke s sličicami ali brez njih, z krivuljo zvočne frekvence "
+"ali brez nje, prehode in sestave, pa tudi označevalnike, vodila in ključne "
+"sličice (če obstajajo)."
 
 #: ../../user_interface/timeline.rst:44
 #, fuzzy
@@ -78,11 +75,13 @@ msgid ""
 "click menu see the :ref:`detailed description <timeline_ruler_right-"
 "click_menu>`."
 msgstr ""
-"2 - **Časovni ravnilo**. To prikazuje čas v okvirih ali v notati hh:mm:ss. "
-"Območje, označeno v zeleni, se imenuje izbirno območje in je uporabno, če "
-"želite uvesti le del projekta. Levi klik v ravnili časovnice bo premaknil :"
-"ref:'timeline' in iskal do tega položaja. Kontekstni meni časovnice omogoča "
-"upravljanje :ref:'guides'."
+"2 - **Ravnilo časovnice**. To področje prikazuje čas v zapisu hh:mm:ss:ff. "
+"Prikazuje tudi trenutno območje (če je določeno) ter območja predogleda "
+"izrisa in njihovo ustrezno stanje izrisovanja. Podrobnejši opis je na voljo :"
+"ref:`v nadaljevanju <timeline_ruler>`. Levi klik v ravnilo časovnice bo "
+"premaknil :ref:`časovnico <timeline>` in iskal do tega položaja. Za "
+"kontekstni meni z desno tipko miške kliknite :ref:`podroben opis "
+"<timeline_ruler_right-click_menu>`."
 
 #: ../../user_interface/timeline.rst:46
 msgid ""
@@ -91,8 +90,13 @@ msgid ""
 "adjust the timeline toolbar to accommodate your workflow. For details how to "
 "do that refer to the section about toolbar configuration."
 msgstr ""
+"3 - **Orodna vrstica časovnice** - To je pomembno področje, kjer so orodja "
+"za delo s posnetki v časovnici enostavno dostopna. Nastavite orodno vrstico "
+"časovnice tako, da bo prilagojena vašemu poteku dela. Podrobnosti o tem, "
+"kako to storite, najdete v razdelku o prilagajanju orodne vrstice."
 
 #: ../../user_interface/timeline.rst:48
+#, fuzzy
 msgid ""
 "4 - **Track Header**. This area displays track header data like track type "
 "(V for video, A for audio), track number, with your without track effects, "
@@ -101,6 +105,12 @@ msgid ""
 "more detailed description can be found :ref:`further down here "
 "<track_header>`. For the right-click menu see the detailed section."
 msgstr ""
+"4 - **Glava steze**. V tem območju so prikazani podatki glave steze, kot so "
+"vrsta steze (V za video, A za zvočno), številka steze, s skritimi ali "
+"iztisnjenimi, zaklenjenimi ali odklenjenimi predmeti ter neobveznim imenom "
+"steze. Vsako stezo je mogoče individualno prilagoditi po višini, pa tudi "
+"razširiti ali strniti. Podrobnejši opis je na voljo :ref:`v nadaljevanju "
+"<track_header>`. Za kontekstni meni glejte podrobni razdelek."
 
 #: ../../user_interface/timeline.rst:57
 msgid "Zoombars"
@@ -115,11 +125,11 @@ msgid ""
 "(Vertical zoombars coming soon.) Recommend playing this video in full-screen "
 "mode."
 msgstr ""
-"Poleg razpoložljivosti zoombars v monitorju in keyframe drsnih palic, "
-"zoombars so zdaj na voljo tudi v časovnici. V časovnici lahko preprosto "
-"povečate/pomanjšate tako, da povlečete robove drsne vrstice časovnice. "
-"(Navpični zoombarji prihajajo kmalu.) Priporočamo predvajanje tega videa v "
-"celozaslonski način."
+"Poleg razpoložljivosti vrstice povečave v ogledu in drsnikov ključnih sličic "
+"so drsniki povečave so zdaj na voljo tudi v časovnici. Pogled v časovnici "
+"lahko preprosto povečate/pomanjšate tako, da povlečete robove drsnika "
+"časovnice (navpične vrstice povečave prihajajo kmalu). Priporočamo "
+"predvajanje tega videa v celozaslonskem načinu."
 
 #: ../../user_interface/timeline.rst:72
 msgid "Key binding information"
@@ -147,14 +157,13 @@ msgid ""
 "marker colors, the guides have been moved above the timeline ruler while "
 "preview and zone bars have been moved below."
 msgstr ""
-"Časovnica je dobila vizualni pregled z več in boljšimi barvami vodnikov/"
-"markerjev, vodniki so bili premaknjeni nad ravnilo časovnice, medtem ko so "
-"bile vrstice za predogled in cone premaknjene spodaj."
+"Časovnica je vizualno osvežena z več in boljšimi barvami vodil/"
+"označevalnikov, vodila so premaknjena nad ravnilo časovnice, medtem ko so "
+"vrstice za predogled in območja premaknjene spodaj."
 
 #: ../../user_interface/timeline.rst:96
-#, fuzzy
 msgid "Before (above) and after (below)"
-msgstr "Pred (zgoraj) in po (spodaj)"
+msgstr "Pred (nad) in po (pod)"
 
 #: ../../user_interface/timeline.rst:103
 msgid "Split Audio/Video"
@@ -169,11 +178,11 @@ msgid ""
 "automatically split with the video part going on a video track, and the "
 "audio part on an audio track."
 msgstr ""
-"Način dela sledi časovnice se je spremenil. Vsaka skladba je zdaj zvočna ali "
-"videoposnetka in bo sprejemala samo zvočne in video posnetke. Ko povlečete "
-"AV posnetek iz projektnega regala v časovnici, bo posnetek samodejno "
-"razdeljen, video del, ki se predvaja v video skladbi, in zvočni del na "
-"zvočni skladbi."
+"Način delovanja stez časovnice se je spremenil. Vsaka steza je zdaj zvočna "
+"ali slikovna in bo sprejemala samo zvočne oz. video posnetke. Ko povlečete "
+"AV-posnetek iz projektne posode v časovnico, bo posnetek samodejno razdeljen "
+"na video del, ki se predvaja v video stezi, in zvočni del, ki pristane na "
+"zvočni stezi."
 
 #: ../../user_interface/timeline.rst:112
 msgid ""
@@ -184,9 +193,8 @@ msgstr ""
 "<same_track_transition>`."
 
 #: ../../user_interface/timeline.rst:117
-#, fuzzy
 msgid "Timeline Cursor/Position Caret/Playhead"
-msgstr "Kazalec časovnice/kareta položaja/predvajalna glava"
+msgstr "Kazalec časovnice/položajna kareta/predvajalna glava"
 
 #: ../../user_interface/timeline.rst:126
 #, fuzzy
@@ -195,7 +203,7 @@ msgid ""
 "can scroll the position by dragging the Timeline cursor (a.k.a Position "
 "Caret or Playhead)."
 msgstr ""
-"To označuje položaj, ki ga prikazujemo v :ref:`monitors`. Položaj lahko "
+"To označuje položaj, ki ga prikazujemo v :ref:`ogledih`. Položaj lahko "
 "pomaknete tako, da povlečete kazalec časovnice (t.j. predvajalno glavo oz. "
 "kareto položaja)."
 
@@ -207,9 +215,10 @@ msgid ""
 "have checked :menuselection:`Use Open GL for video display` in :ref:"
 "`configure_kdenlive`."
 msgstr ""
-"Začenša z različico 0.9.4, vlečenje kazalca časovnice bo predvajalo zvok "
-"posnetka (alias Audio Scrubbing).  Ta funkcija deluje le, če ste preverili :"
-"menuselection:'Use Open GL for video display' in :ref:'configure_kdenlive'."
+"Začenši z različico 0.9.4 bo vlečenje kazalca časovnice bpredvajalo zvok "
+"posnetka (t.i. Audio Scrubbing).  Ta funkcija deluje le, če ste potrdili :"
+"menuselection:`Uporabi Open GL za prikaz videa` pod :ref:"
+"`configure_kdenlive`."
 
 #: ../../user_interface/timeline.rst:135
 msgid "Keyboard Navigation"
@@ -223,14 +232,14 @@ msgid ""
 "`Grab Current Item` function from the :menuselection:`Menu --> Timeline` "
 "menu or use the default shortcut of :kbd:`Shift + G`."
 msgstr ""
-"Zdaj imate možnost premikanja izrezkov in sestav s tipkovnico. Če želite to "
-"storiti, izberite izrezek v časovnici in uporabite funkcijo :"
-"guilabel:'Zgrabi trenutni element' (:kbd:'Shift + G') v meniju :"
-"menuselection:'Timeline'."
+"Zdaj imate možnost premikanja posnetkov in sestav s tipkovnico. Če želite to "
+"storiti, izberite posnetek v časovnici in uporabite funkcijo :guilabel:"
+"`Zgrabi trenutni element` (:kbd:`dvigalka + G`) v meniju :menuselection:"
+"`Časovnica`."
 
 #: ../../user_interface/timeline.rst:144
 msgid "You can then move the item with the arrow keys."
-msgstr ""
+msgstr "Nato lahko premaknete element s smernimi tipkami."
 
 #: ../../user_interface/timeline.rst:146
 #, fuzzy
@@ -239,11 +248,11 @@ msgid ""
 "timeline, then move it :kbd:`Left` or :kbd:`Right`, change its value with :"
 "kbd:`+` and :kbd:`-`. Use :kbd:`Alt + arrow` to go to another keyframe."
 msgstr ""
-"Nato lahko premaknete element s puščičnimi tipkami. Ključne okvirje je "
-"mogoče premikati tudi posamično. Samo kliknite na keyframe v časovnici, nato "
-"ga premaknite levo/desno z :kbd:'arrows', spremenite njegovo vrednost z :"
-"kbd:'+' in :kbd:'-'. :kbd:'Alt + puščica', če želite iti na drug ključni "
-"okvir."
+"Nato lahko premaknete element s smernimi tipkami. Ključne sličice je mogoče "
+"premikati tudi posamično. Samo kliknite ključno sličico v časovnici, nato jo "
+"premaknite levo/desno s :kbd:`puščicami`, spremenite njeno vrednost z :kbd:"
+"`+` in :kbd:`-`. Uporabite :kbd:`izmenjalka + smerna tipka`, če želite iti "
+"na drugo ključno sličico."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyframe handling"
@@ -254,53 +263,54 @@ msgid "Add a new keyframe by double clicking in timeline."
 msgstr "Dodajte novo ključno sličico tako, da dvokliknete časovnico."
 
 #: ../../user_interface/timeline.rst:162
-#, fuzzy
 msgid ""
 "You can move a keyframe without altering its value by using the vertical "
 "line that appears when you are above or below a keyframe."
 msgstr ""
-"Ključni okvir lahko premaknete, ne da bi spremenili njegovo vrednost, tako "
-"da uporabite navpično črto, ki se prikaže, ko ste nad ali pod ključnim "
-"okvirom."
+"Ključno sličico lahko premaknete, ne da bi spremenili njeno vrednost, tako "
+"da uporabite navpično črto, ki se prikaže, ko ste nad ali pod ključno "
+"sličico."
 
 #: ../../user_interface/timeline.rst:163
-#, fuzzy
 msgid "Remove a keyframe by dragging it far above or below the clip limits."
 msgstr ""
-"Odstranite ključni okvir tako, da ga povlečete daleč nad ali pod omejitve "
-"izrezka."
+"Odstranite ključno sličico tako, da jo povlečete daleč nad ali pod meje "
+"posnetka."
 
 #: ../../user_interface/timeline.rst:168
 msgid "Disabling individual clips"
 msgstr "Izklop posameznih posnetkov"
 
 #: ../../user_interface/timeline.rst:178
-#, fuzzy
 msgid ""
 "Individual clips can be disabled while still in the timeline but with no "
 "audio and no video – (works for all clip types). Right-click on the clip and "
 "choose :guilabel:`Disable clip` or :guilabel:`Enable clip`."
 msgstr ""
-"Posamezne posnetke je mogoče onemogočiti, medtem ko so še v časovnici, "
-"vendar brez zvoka in brez videa – (deluje za vse vrste posnetkov). Z desno "
-"tipko miške kliknite posnetek in izberite :menuselection:`Onemogoči "
-"posnetek` ali :menuselection:`Omogoči posnetek`."
+"Posamezne posnetke je mogoče onemogočiti, ko ostanejo na časovnici, vendar "
+"brez zvoka in brez videa (deluje za vse vrste posnetkov). Z desno tipko "
+"miške kliknite posnetek in izberite :menuselection:`Onemogoči posnetek` ali :"
+"menuselection:`Omogoči posnetek`."
 
 #: ../../user_interface/timeline.rst:186
-#, fuzzy
-#| msgid "Timeline visuals"
 msgid "Timeline Ruler"
-msgstr "Vizualni prikazi časovnice"
+msgstr "Ravnilo časovnice"
 
 #: ../../user_interface/timeline.rst:188
+#, fuzzy
 msgid ""
 "The timeline ruler shows the timecode information in the notation of hh:mm:"
 "ss:ff (default) or in frames. It displays the currently defined timeline "
 "zone (1) and the preview render zone (2) and its respective rendering status "
 "(red: not yet rendered; yellow: being rendered; green: finished)."
 msgstr ""
+"Ravnilo časovnice prikazuje podatke o časovni kodi v zapisu uu:mm:ss:sl "
+"(privzeto) ali v sličicah. Prikazuje trenutno določen časovni pas (1) in "
+"območje predogleda izrisa (2) in njegovo ustrezno stanje izrisovanja (rdeče: "
+"še ni izrisano; rumeno: se izrisuje; zeleno: končano)."
 
 #: ../../user_interface/timeline.rst:193
+#, fuzzy
 msgid ""
 "The timeline zone can be moved by dragging the square in the middle, and "
 "sized by either dragging the left or right edge or by positioning the "
@@ -308,6 +318,11 @@ msgid ""
 "and out-point, respectively. For more detailed information on preview render "
 "please refer to this section of the documentation."
 msgstr ""
+"Območje časovnice lahko premaknete tako, da povlečete kvadrat v sredino in "
+"ga umerite tako, da povlečete levi ali desni rob, ali tako, da postavite "
+"predvajalno glavo v časovnico in pritisnete :kbd:`I` ali :kbd:`O` za "
+"nastavitev vhodne oziroma izhodne točke. Za podrobnejše informacije o "
+"predogledu si oglejte ta razdelek dokumentacije."
 
 #: ../../user_interface/timeline.rst:200
 msgid ""
@@ -317,12 +332,10 @@ msgstr ""
 "ponudi več možnosti:"
 
 #: ../../user_interface/timeline.rst:202
-#, fuzzy
 msgid ":ref:`Manipulate guides <guides>`"
 msgstr ":ref:`Ravnajte z vodili <guides>`"
 
 #: ../../user_interface/timeline.rst:203
-#, fuzzy
 msgid ":ref:`Set Zone In/Out <timeline-preview-rendering>`"
 msgstr ":ref:`Nastavite začetek/konec območja <timeline-preview-rendering>`"
 
@@ -335,10 +348,8 @@ msgid ":ref:`Add Subtitle <subtitle>`"
 msgstr ":ref:`Dodaj podnaslov <subtitle>`"
 
 #: ../../user_interface/timeline.rst:211
-#, fuzzy
-#| msgid "Timeline"
 msgid "Timeline Toolbar"
-msgstr "Časovnica"
+msgstr "Orodna vrstica Časovnica"
 
 #: ../../user_interface/timeline.rst:213
 msgid ""
@@ -346,86 +357,112 @@ msgid ""
 "configured to accommodate your workflow (see :ref:`Configuring the Toolbars "
 "<configuring_the_toolbars>` for more details)."
 msgstr ""
+"Orodna vrstica časovnice nadzira različne vidike montažnega programa. "
+"Prilagodite jo lahko, da ustreza vašemu poteku dela (za več podrobnosti "
+"glejte :ref:`Prilagajanje orodne vrstice <configuring_the_toolbars>`)."
 
 #: ../../user_interface/timeline.rst:218
+#, fuzzy
 msgid ""
 "This is a quick overview of the main sections of the toolbar. A more "
 "detailed description can be found in the :ref:`timeline_toolbar3` section of "
 "this documentation."
 msgstr ""
+"To je hiter pregled glavnih odsekov orodne vrstice. Podrobnejši opis najdete "
+"v razdelku :ref:`timeline_toolbar3` v tej dokumentaciji."
 
 #: ../../user_interface/timeline.rst:220
+#, fuzzy
 msgid ""
 "1 - Enable track compositing and switching split view of audio and video "
 "(see :ref:`layout_modes`)"
 msgstr ""
+"1 - Omogočite sestavo stez in preklapljanje razdeljenega pogleda zvoka in "
+"videa (glejte :ref:`layout_modes`)"
 
 #: ../../user_interface/timeline.rst:222
 msgid ""
 "2 - Selects the editing mode: Normal, Overwrite, Insert (see :ref:"
 "`timeline_edit_modes`)"
 msgstr ""
+"2 - Izbere način montaže: navaden, prepisni, vstavni (glejte :ref:"
+"`timeline_edit_modes`)"
 
 #: ../../user_interface/timeline.rst:224
+#, fuzzy
 msgid ""
 "3 - Edit Tools: Selection Tool, Razor Tool, Spacer Tool, Slip Tool, Ripple "
 "Tool (see :ref:`timeline_edit_tools`)"
 msgstr ""
+"3 - Orodja za montažo: orodja Izbor, Rezilo, Razmik, Orodje za zdrs, Orodje "
+"za ripple (glejte :ref:`timeline_edit_tools`)"
 
 #: ../../user_interface/timeline.rst:226
+#, fuzzy
 msgid ""
 "4 - Clip and Zone Tools: Mix Clips, Insert Clip Zone in Timeline, Overwrite "
 "Clip Zone in Timeline, Extract Timeline Zone, Lift Timeline Zone, Expand "
 "Clip (see also :ref:`3-point editing <three_point_editing>`)"
 msgstr ""
+"4 - Orodja posnetka in območja: Mix Clips, Insert Clip Zone in Timeline, "
+"Overwrite Clip Zone in Timeline, Extract Timeline Zone, Lift Timeline Zone, "
+"Expand Clip (glej tudi :ref:`3-točkovno montiranje <three_point_editing>`)"
 
 #: ../../user_interface/timeline.rst:228
+#, fuzzy
 msgid ""
 "5 - Preview Render Tools - Start/Stop Render, Open Preview Render Options "
 "Dialog, Add Preview Render Zone, Delete All Preview Render Zones"
 msgstr ""
+"5 - Orodja za predogled izrisa - Začni/ustavi izrisovanje, pogovorno okno "
+"Odpri možnosti predogleda izrisa, Dodaj območje predogleda izrisa, Izbriši "
+"vsa območja predogleda izrisa"
 
 #: ../../user_interface/timeline.rst:230
+#, fuzzy
 msgid "6 - Toggle Audio Mixer Widget"
-msgstr ""
+msgstr "6 - Gradnik za preklop mešalnika zvoka"
 
 #: ../../user_interface/timeline.rst:232
 msgid ""
 "7 - Status Bar icons (in lieu of the status bar which can be switched off in "
 "the View menu)*"
 msgstr ""
+"7 - Ikone vrstice stanja (v vrstici stanja, ki jo je mogoče izklopiti v "
+"meniju Pogled)*"
 
 #: ../../user_interface/timeline.rst:234
 msgid ""
 "\\* Please note this is a customized version of the timeline toolbar and the "
 "section #7 is not part of the default toolbar"
 msgstr ""
+"\\* Upoštevajte, da je to prilagojena različica orodne vrstice časovnice in "
+"razdelek #7 ni del privzete orodne vrstice"
 
 #: ../../user_interface/timeline.rst:239
 msgid "Tracks"
 msgstr "Steze"
 
 #: ../../user_interface/timeline.rst:241
-#, fuzzy
 msgid ""
 "The timeline is made of tracks. There are two kinds of tracks: audio and "
 "video. The number of tracks is defined when creating a new project in the :"
 "ref:`project_settings`. Adding a clip to the timeline can be achieved by "
 "dragging it from  :ref:`project_tree` or the :ref:`monitors`."
 msgstr ""
-"Časovnica je narejena iz sledi. Obstajata dve vrsti skladb: avdio in video. "
-"Število skladb je opredeljeno pri ustvarjanju novega projekta v :"
-"ref:'project_settings'. Dodajanje posnetka v časovnici lahko dosežete tako, "
-"da ga povlečete iz :ref:'project_tree' ali :ref:'monitors'. Več o skladbah "
-"si oglejte :ref:'tracks'"
+"Časovnica je sestavljena iz stez. Obstajata dve vrsti stez: zvočne in video. "
+"Število stez je določeno ob ustvarjanju novega projekta v :ref:"
+"`project_settings`. Dodajanje posnetka v časovnico lahko dosežete tako, da "
+"ga povlečete iz :ref:`drevesa projekta <project_tree>` ali :ref:`oken za "
+"ogled <monitors>`. Več o stezah si oglejte pod :ref:`Steze <tracks>`."
 
 #: ../../user_interface/timeline.rst:246
 msgid "Track Header"
-msgstr ""
+msgstr "Glava steze"
 
 #: ../../user_interface/timeline.rst:248
 msgid "This area shows some options for a track:"
-msgstr ""
+msgstr "To področje prikazuje nekatere možnosti steze:"
 
 #: ../../user_interface/timeline.rst:257
 msgid ""
@@ -433,18 +470,21 @@ msgid ""
 "track: hold Shift and click to expand or collapse all tracks of the same "
 "type."
 msgstr ""
+"1 Ikona za strnjenje in razširitev steze. Kliknite sem, da strnete ali "
+"razširite stezo: držite pritisnjeno dvigalko in kliknite, da razširite ali "
+"strnete vse steze iste vrste."
 
 #: ../../user_interface/timeline.rst:259
 msgid "2 Track name. Click on it to enter or change the name of the track."
-msgstr ""
+msgstr "2 Ime steze. Kliknite sem, da vnesete ali spremenite ime steze."
 
 #: ../../user_interface/timeline.rst:261
 msgid "3 Track type and track number"
-msgstr ""
+msgstr "3 Vrsta steze in številka steze"
 
 #: ../../user_interface/timeline.rst:263
 msgid "4 Track control icons. Use them to:"
-msgstr ""
+msgstr "4 Ikone za nadzor steze. Uporabite jih za:"
 
 #: ../../user_interface/timeline.rst:265
 #, fuzzy
@@ -479,33 +519,34 @@ msgstr ""
 "omogočite ali onemogočite učinke, ki se uporabljajo za progo."
 
 #: ../../user_interface/timeline.rst:275
-#, fuzzy
-#| msgid "Resizing tracks"
 msgid "Adding Tracks"
-msgstr "Spreminjanje velikosti stez"
+msgstr "Dodajanje stez"
 
 #: ../../user_interface/timeline.rst:277
+#, fuzzy
 msgid ""
 "In order to add a track right-click anywhere in the track header area. In "
 "the Add Track dialog window specify what type of track, where and how many "
 "you want to insert."
 msgstr ""
+"Če želite dodati stezo z desno tipko miške, kliknite kamorkoli v območju "
+"glave steze. V pogovornem oknu Dodaj stezo določite vrsto steze, količino in "
+"kam jih želite vstaviti."
 
 #: ../../user_interface/timeline.rst:285
-#, fuzzy
-#| msgid "Resizing tracks"
 msgid "Deleting Tracks"
-msgstr "Spreminjanje velikosti stez"
+msgstr "Brisanje stez"
 
 #: ../../user_interface/timeline.rst:287
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the Delete Track dialog window select the tracks you want to delete."
 msgstr ""
+"Če želite izbrisati stezo, z desno tipko miške kliknite kamorkoli v območje "
+"glave steze. V pogovornem oknu Izbriši stezo izberite steze, ki jih želite "
+"izbrisati."
 
 #: ../../user_interface/timeline.rst:295
-#, fuzzy
-#| msgid "Resizing tracks"
 msgid "Resizing Tracks"
 msgstr "Spreminjanje velikosti stez"
 
@@ -519,57 +560,43 @@ msgstr ""
 "naredi, da se vsi video ali zvočni posnetki hkrati spremenijo v višino.)"
 
 #: ../../user_interface/timeline.rst:307
+#, fuzzy
 msgid "Switching between mixed or split audio"
-msgstr ""
+msgstr "Preklapljanje med mešanim ali deljenim zvokom"
 
 #: ../../user_interface/timeline.rst:309
-#, fuzzy
 msgid "Switch live between two different layout modes (Mixed or Split)."
 msgstr ""
-"Preklopite v živo med dvema različnima načinoma postavitve (Mešano ali "
-"Deljeno)."
+"Preklopite v živo med dvema različnima načinoma postavitve (mešano ali "
+"deljeno)."
 
 #: ../../user_interface/timeline.rst:317
-#, fuzzy
-#| msgid "Configurable tracks"
 msgid "Configurable Tracks"
 msgstr "Nastavljive steze"
 
 #: ../../user_interface/timeline.rst:327
-#, fuzzy
-#| msgid "**Video track:** You can choose to display between:"
 msgid "**Video track** - You can choose to display either"
-msgstr "**Video steza:** Izberete lahko prikaz med:"
+msgstr "**Video steza** - Izberete lahko prikaz med"
 
 #: ../../user_interface/timeline.rst:329
-#, fuzzy
-#| msgid ":guilabel:`In frame`"
 msgid ":guilabel:`In Frame`"
-msgstr ":guilabel:`Vstopna sličica`"
+msgstr ":guilabel:`Vhodna sličica`"
 
 #: ../../user_interface/timeline.rst:331
-#, fuzzy
-#| msgid ":guilabel:`In/Out frames`"
 msgid ":guilabel:`In/Out Frames`"
-msgstr ":guilabel:`Vstopne/izhodne sličice`"
+msgstr ":guilabel:`Vhodne/izhodne sličice`"
 
 #: ../../user_interface/timeline.rst:333
-#, fuzzy
-#| msgid ":guilabel:`All frames` or"
 msgid ":guilabel:`All Frames` or"
 msgstr ":guilabel:`Vse sličice` ali"
 
 #: ../../user_interface/timeline.rst:335
-#, fuzzy
-#| msgid ":guilabel:`No thumbnails`."
 msgid ":guilabel:`No Thumbnails`"
 msgstr ":guilabel:`Brez sličic`."
 
 #: ../../user_interface/timeline.rst:343
-#, fuzzy
-#| msgid "**Audio track:** You can enable:"
 msgid "**Audio track** - You can enable:"
-msgstr "**Zvočna steza:** Omogočite lahko:"
+msgstr "**Zvočna steza**- omogočite lahko:"
 
 #: ../../user_interface/timeline.rst:345
 #, fuzzy
@@ -577,11 +604,10 @@ msgid ""
 ":guilabel:`Show Record Controls` to record audio direct into the track. More "
 "details see :ref:`audio-recording`."
 msgstr ""
-":guilabel:'Show Record Control' za snemanje zvoka neposredno v skladbo. Več "
-"podrobnosti si oglejte :ref:'audio-recording'."
+":guilabel:`Pokaži kontrolnik snemanja` za snemanje zvoka neposredno v stezo. "
+"Več podrobnosti si oglejte :ref:`tukaj <audio-recording>`."
 
 #: ../../user_interface/timeline.rst:347
-#, fuzzy
 msgid ""
 ":guilabel:`Separate Channels` to see each channel of an audio track (i.e "
 "stereo, 5.1)"
@@ -602,7 +628,6 @@ msgid "Continuously loop playback"
 msgstr "Neprekinjeno predvajanje v zanki"
 
 #: ../../user_interface/timeline.rst:360
-#, fuzzy
 msgid ""
 "Disable :guilabel:`Pause playback when seeking` in :ref:`configure_timeline` "
 "settings (:menuselection:`Settings --> Configure Kdenlive --> Timeline`)."
@@ -618,42 +643,3 @@ msgstr "Pas časovnice naredite tako dolg, kot ga želite zankati."
 #: ../../user_interface/timeline.rst:362
 msgid "Loop Zone (:kbd:`Ctrl + Shift + Space`)"
 msgstr "Območje zanke (:kbd:`krmilka + dvigalka + preslednica`)"
-
-#~ msgid "Contents"
-#~ msgstr "Vsebina"
-
-#, fuzzy
-#~ msgid ""
-#~ "1 - **Track resizing icon**. This icon allows you to adjust the track "
-#~ "height in the timeline from normal to small.  This does not affect the "
-#~ "video or the render in any way.  The default height of tracks can be "
-#~ "configured in **Kdenlive's** :ref:`configure_kdenlive` dialog."
-#~ msgstr ""
-#~ "1 - **Ikona za spreminjanje velikosti sledi**. Ta ikona vam omogoča, da "
-#~ "prilagodite višino proge v časovnici iz normalne na majhno.  To ne vpliva "
-#~ "na videoposnetek ali render na noben način.  Privzeto višino skladb je "
-#~ "mogoče konfigurirati v pogovornem oknu **Kdenlive's** :"
-#~ "ref:'configure_kdenlive'."
-
-#, fuzzy
-#~ msgid ""
-#~ "3 -  **Track header**. This box shows some options for a track. First is "
-#~ "the track name (Main Video Track in the screenshot). That name can be "
-#~ "changed by simply clicking in it. Below are icons to"
-#~ msgstr ""
-#~ "3 - **Track header**. V tem polju so prikazane nekatere možnosti za "
-#~ "skladbo. Najprej je ime skladbe (Glavna video skladba na posnetku "
-#~ "zaslona). To ime lahko spremenite tako, da v tem preprosto kliknete. "
-#~ "Spodaj so ikone za"
-
-#, fuzzy
-#~ msgid ""
-#~ "Right clicking in the track header will give you a context menu allowing "
-#~ "to manage (add / delete) tracks. See :ref:`configure tracks "
-#~ "<configure_tracks>`"
-#~ msgstr ""
-#~ "Z desnim klikom na glavo skladbe boste našli kontekstni meni, ki omogoča "
-#~ "upravljanje (dodajanje / brisanje) sledi."
-
-#~ msgid "4 - The track itself, this is where you can drop your clips."
-#~ msgstr "4 - Sama steza, tukaj lahko spustite posnetke."
