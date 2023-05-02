@@ -204,7 +204,7 @@ Switches the Clip Properties widget on or off.
    :height: 250px
    :alt: kdenlive2304_clip_properties
    
-   Kdenlive Clip Pproperties widget
+   Kdenlive Clip Properties widget
    
 The Clip Properties widget displays the properties of the selected clip. You can change some of the properties. 
 
@@ -355,7 +355,7 @@ Switches the Project Bin widget on or off.
    
    Kdenlive Project Bin widget
 
-The Project Bin is the the place where Kdenlive lists all the clips (video, audio, titles, images) or assets associated with the project. For more details refer to the :ref:`Project Bin <project_tree>` section of this documentation.
+The Project Bin is the place where Kdenlive lists all the clips (video, audio, titles, images) or assets associated with the project. For more details refer to the :ref:`Project Bin <project_tree>` section of this documentation.
 
 New in 23.04: Sequences (needed for nested timelines). For more details please see the :ref:`Sequences <sequence>` section of the documentation.
 

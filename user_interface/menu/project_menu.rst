@@ -77,7 +77,7 @@ For more details refer to the :ref:`Color Clips <add_color_clip>` section of thi
 Add Image Sequence
 ------------------
 
-This function adds a series of still images as one clip to the project bin. 
+This function adds a series of still images as one clip to the Project Bin. 
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_add_image_sequence_window.webp
    :align:  left
@@ -96,7 +96,7 @@ For more details refer to the :ref:`Image Sequence <add_slideshow_clip>` section
 Add Title Clip
 --------------
 
-This function adds a Title Clip to the project bin. First, it opens the Titler app where you create the Title Clip. Once saved it shows up in the Project Bin.
+This function adds a Title Clip to the Project Bin. First, it opens the Titler app where you create the Title Clip. Once saved it shows up in the Project Bin.
 
 A more detailed documentation of the Titler app is available in the :ref:`titles` section of the documentation.
 
@@ -124,10 +124,10 @@ Please refer to the :ref:`titles` section of this documentation for more details
 .. rst-class:: clear-both
 
 
-Add Animation
+Create Animation
 -------------
 
-This function creates an animation clip in the project bin and calls |glaxnimate|, the application to actually create the animation.
+This function creates an animation clip in the Project Bin and calls |glaxnimate|, the application to actually create the animation.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_create_animation_window.webp
    :align:  left
@@ -146,7 +146,7 @@ This function is also available from the menu bar of the Project Bin and by righ
 Add Sequence
 ------------
 
-This function creates a new Sequence in the project bin.
+This function creates a new Sequence in the Project Bin.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_add_sequence_window.webp
    :align:  left
@@ -181,7 +181,7 @@ More details are available in the :ref:`Create Folder <project_tree>` section of
 Generators
 ----------
 
-This function allows to create generated clips in your project bin for
+This function allows to create generated clips in your Project Bin for
 
 * Counter
 
@@ -214,7 +214,7 @@ View Mode
 
 This function allows to switch between the various views available for the Project Bin:
 
-* Tree View - When enabled shows the Project Bin items as a hierachy. Each item in the list can have several subitems (shown individually indented).
+* Tree View - When enabled shows the Project Bin items as a hierarchy. Each item in the list can have several subitems (shown individually indented).
 
 * Icon View - When enabled shows the Project Bin items in a flat grid of items shown by their thumbnails with captions
 
@@ -222,7 +222,7 @@ This function allows to switch between the various views available for the Proje
 Clean Project
 -------------
 
-This function can be used to remove any unused clips from the project bin.
+This function can be used to remove any unused clips from the Project Bin.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clean_project.webp
    :align:  left
