@@ -28,7 +28,7 @@ Creates a new Kdenlive project. The default keyboard shortcut is :kbd:`Ctrl + N`
 
 See :ref:`quickstart`.
 
-The default settings that appear on this feature are defined under :menuselection:`Settings --> Configure Kdenlive`. See the :ref:`configure_kdenlive` section of thsi documentation for more details.
+The default settings that appear on this feature are defined under :menuselection:`Settings --> Configure Kdenlive`. See the :ref:`configure_kdenlive` section of this documentation for more details.
 
 Open...
 -------
