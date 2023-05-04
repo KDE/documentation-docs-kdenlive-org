@@ -25,20 +25,24 @@
 ..  TODO:
   * Short tutorials explaining frequently mis- or not-understood features or workflows
 
+
 .. _tutorials:
 
 Tutorials
 =========
 
+.. It's not the best place for toctree. Maybe we can move the folder tutorials and content to another place
+.. toctree::
+   :hidden:
+   :glob:
+
+   tutorials/*
 
 Written Tutorials
 -----------------
 
 See :ref:`quickstart` for a step-by-step introductory tutorial
 
-.. 
-   toctree::
-   :hidden:
 
    tutorials/split_screen_how_to
 
@@ -118,4 +122,5 @@ More videos can be found using a |yt_search| and on the |vimeo_kdenlive_tutorial
 .. |vimeo_kdenlive_tutorial_channel| raw:: html
 
    <a href="https://vimeo.com/groups/kdenlivetutorials/videos" target="_blank">Vimeo Kdenlive Tutorial Channel</a>
+
 

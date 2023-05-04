@@ -160,11 +160,6 @@ Online Resources
 See :ref:`online_resources`.
 
 
-Stop Motion
------------
-
-See :ref:`stop_motion_capture`.
-
 
 .. _proxy_clip:
 

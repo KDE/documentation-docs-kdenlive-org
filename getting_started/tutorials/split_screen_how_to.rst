@@ -5,6 +5,7 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _split_screen_how_to:
 
 How To Do Split Screen Effect

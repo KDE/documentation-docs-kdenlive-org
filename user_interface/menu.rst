@@ -1,9 +1,25 @@
+.. meta::
+   :description: Menu reference in Kdenlive video editor
+   :keywords: KDE, Kdenlive, menu, reference, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
-   :authors: - Yuri Chornoivan
+   :authors: - Claus Christensen
+             - Yuri Chornoivan
+             - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Jack (https://userbase.kde.org/User:Jack)
-			 - Bernd Jordan
+             - Carl Schwan <carl@carlschwan.eu>
+             - Jack (https://userbase.kde.org/User:Jack)
+             - Roger (https://userbase.kde.org/User:Roger)
+             - Jack (https://userbase.kde.org/User:Jack
+             - Yuri Chornoivan
+             - Annew (https://userbase.kde.org/User:Annew)
+             - Ttguy (https://userbase.kde.org/User:Ttguy)
+             - Bushuev (https://userbase.kde.org/User:Bushuev)
+             - Eugen Mohr
+             - Bernd Jordan
 
    :license: Creative Commons License SA 4.0
 

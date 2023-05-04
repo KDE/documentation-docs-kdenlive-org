@@ -35,12 +35,12 @@ If you don’t want certain sections on the screen then you can simply delete th
 ````````````````````````````````````
 The top left section of the screen is known as the bin, library or browser, where clips, still images, audio files etc. are displayed, ready for use. Replicating the folder naming system within the editing software library will help keep everything organized. It may be helpful to label each clip with one or more descriptive keywords. These can be searched and are a useful way to rapidly locate the desired footage, especially with the use of many clips. It is preferable to edit using the same frame rate and frame size that the footage was shot with. 
 
-2. :ref:`Clip Monitor <clip_monitor>`
-`````````````````````````````````````
+2. :ref:`Clip Monitor <clip_monitor_overview>`
+``````````````````````````````````````````````
 The preview or canvas window (top centre) plays what is currently selected in the project bin.
 
-3. :ref:`Project Monitor <project_monitor>`
-```````````````````````````````````````````
+3. :ref:`Project Monitor <project_monitor_overview>`
+````````````````````````````````````````````````````
 This screen shows all clips, still images, audio files and effects such as titles or transitions were be applied to the footage in the timeline. To apply effects, select it from the effects menu and then drag and drop it between the two clips where it is.
 
 4. :ref:`Timeline Toolbar <timeline_toolbar>`

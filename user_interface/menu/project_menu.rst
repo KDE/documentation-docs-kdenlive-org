@@ -1,13 +1,26 @@
+.. meta::
+   :description: Project menu in Kdenlive video editor
+   :keywords: KDE, Kdenlive, project, clip, folder, color, image, sequence, title, template, animation, subtitle, render, clean, generators, documentation, user manual, video editor, open source, free, learn, easy
+
+
 .. metadata-placeholder
 
-   :authors: - Annew (https://userbase.kde.org/User:Annew)
-             - Claus Christensen
+   :authors: - Claus Christensen
              - Yuri Chornoivan
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Jack (https://userbase.kde.org/User:Jack)
              - Carl Schwan <carl@carlschwan.eu>
-			 - Bernd Jordan
+             - Jack (https://userbase.kde.org/User:Jack)
+             - Roger (https://userbase.kde.org/User:Roger)
+             - Jack (https://userbase.kde.org/User:Jack
+             - Yuri Chornoivan
+             - Annew (https://userbase.kde.org/User:Annew)
+             - Ttguy (https://userbase.kde.org/User:Ttguy)
+             - Bushuev (https://userbase.kde.org/User:Bushuev)
+             - Eugen Mohr
+             - Bernd Jordan
+
 
    :license: Creative Commons License SA 4.0
 
@@ -125,7 +138,7 @@ Please refer to the :ref:`titles` section of this documentation for more details
 
 
 Create Animation
--------------
+----------------
 
 This function creates an animation clip in the Project Bin and calls |glaxnimate|, the application to actually create the animation.
 
@@ -164,6 +177,8 @@ Please refer to the :ref:`sequence` section of this documentation for more detai
 .. rst-class:: clear-both
 
 
+.. _create_folder:
+
 Create Folder
 -------------
 
@@ -177,6 +192,8 @@ More details are available in the :ref:`Create Folder <project_tree>` section of
 
 .. tip:: A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
 
+
+.. _generators:
 
 Generators
 ----------
@@ -218,6 +235,8 @@ This function allows to switch between the various views available for the Proje
 
 * Icon View - When enabled shows the Project Bin items in a flat grid of items shown by their thumbnails with captions
 
+
+.. _clean_project:
 
 Clean Project
 -------------
