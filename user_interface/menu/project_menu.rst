@@ -330,9 +330,3 @@ More details about the various parameters and tabs are available in the :ref:`pr
 
 .. note:: Changing the project folder location does not work properly. In most cases the files are not moved.
 
-
-.. .. toctree::
-   :hidden:
-   :glob:
-
-   project_menu/*
