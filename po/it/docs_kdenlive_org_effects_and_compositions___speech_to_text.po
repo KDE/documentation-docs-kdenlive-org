@@ -1,21 +1,21 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-# Paolo Zamponi <feus73@gmail.com>, 2021, 2022.
+# Paolo Zamponi <feus73@gmail.com>, 2021, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 00:40+0000\n"
-"PO-Revision-Date: 2022-06-21 22:58+0200\n"
-"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
+"PO-Revision-Date: 2023-05-02 09:31+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 23.04.0\n"
 
 #: ../../effects_and_compositions/speech_to_text.rst:1
 msgid "The Kdenlive User Manual"
@@ -40,7 +40,7 @@ msgid ""
 "later versions."
 msgstr ""
 "Il riconoscimento vocale non funziona nella versione 21.04.2 a causa di "
-"alcuni  problemi con l'`API Vosk <https://github.com/alphacep/vosk-api>`_. "
+"alcuni problemi con l'`API Vosk <https://github.com/alphacep/vosk-api>`_. "
 "Usa la versione 21.04.1, oppure la 21.04.3 o le successive."
 
 #: ../../effects_and_compositions/speech_to_text.rst:37
@@ -85,23 +85,18 @@ msgstr ""
 "computer."
 
 #: ../../effects_and_compositions/speech_to_text.rst:57
-#, fuzzy
-#| msgid "Speech recognition"
 msgid "Speech Engines"
-msgstr "Riconoscimento vocale"
+msgstr "Motori vocali"
 
 #: ../../effects_and_compositions/speech_to_text.rst:60
 msgid "VOSK"
-msgstr ""
+msgstr "VOSK"
 
 #: ../../effects_and_compositions/speech_to_text.rst:64
-#, fuzzy
-#| msgid ""
-#| "To install vosk and srt open a terminal and run: ``pip3 install vosk srt``"
 msgid ""
 "To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``"
 msgstr ""
-"Per installare vosk e srt, apri un terminale ed esegui: ``pip3 install vosk "
+"Per installare VOSK e srt, apri un terminale ed esegui: ``pip3 install vosk "
 "srt``"
 
 #: ../../effects_and_compositions/speech_to_text.rst:68
@@ -119,16 +114,12 @@ msgid "Install a language"
 msgstr "Installare una lingua"
 
 #: ../../effects_and_compositions/speech_to_text.rst:73
-#, fuzzy
-#| msgid ""
-#| "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to "
-#| "Text page`"
 msgid ""
 "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
 "page`, select the speech engine VOSK"
 msgstr ""
-"Vai nella pagina :menuselection:`Impostazioni --> Configura Kdenlive... --> "
-"Riconoscimento vocale`"
+"Vai in :menuselection:`Impostazioni --> Configura Kdenlive... --> pagina "
+"Riconoscimento vocale`, e seleziona il motore vocale VOSK"
 
 #: ../../effects_and_compositions/speech_to_text.rst:75
 msgid "Click on the link to get a language model."
@@ -143,18 +134,16 @@ msgstr ""
 "nella finestra dei modelli: verrà scaricato ed estratto per te."
 
 #: ../../effects_and_compositions/speech_to_text.rst:85
-#, fuzzy
-#| msgid ""
-#| "If you have problems press on the :guilabel:`Check configuration` button."
 msgid ""
 "If you have problems or check for updates click on the :guilabel:`Check "
 "configuration` button."
 msgstr ""
-"Se hai problemi, premi il pulsante :guilabel:`Controlla la configurazione`."
+"Se hai problemi, o se vuoi controllare la disponibilità di aggiornamenti, "
+"premi il pulsante :guilabel:`Controlla la configurazione`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:89
 msgid "Whisper"
-msgstr ""
+msgstr "Whisper"
 
 #: ../../effects_and_compositions/speech_to_text.rst:93
 msgid ""
@@ -162,67 +151,80 @@ msgid ""
 "on a large dataset of diverse audio and is capable of performing speech "
 "translation, and language identification."
 msgstr ""
+"OpenAI-Whisper è un modello di riconoscimento vocale per uso generale. È "
+"stato addestrato mediante un vasto insieme di dati di vari audio, ed è in "
+"grado di eseguire la traduzione vocale e l'identificazione della lingua."
 
 #: ../../effects_and_compositions/speech_to_text.rst:95
 msgid ""
 "Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
 "Whisper creates sentences with punctuation marks, even in Base mode."
 msgstr ""
+"Whisper è più lento di VOSK nella CPU, ma è più accurato: crea delle frasi "
+"coi segni di punteggiatura anche in modalità Base."
 
 #: ../../effects_and_compositions/speech_to_text.rst:101
 msgid ""
 "When you switch first time to Whisper you have to install the missing "
 "dependencies first (about 2GB to download)."
 msgstr ""
+"Quando passi per la prima volta a Whisper devi prima installare le "
+"dipendenze mancanti (circa 2 GB da scaricare)."
 
 #: ../../effects_and_compositions/speech_to_text.rst:107
 msgid "When all is correct configured, you get this screen."
-msgstr ""
+msgstr "Quando tutto sarà correttamente configurato avrai questa schermata."
 
 #: ../../effects_and_compositions/speech_to_text.rst:109
 msgid ""
 ":guilabel:`Model` Select the model. More details on the `Whisper source code "
 "page <https://github.com/openai/whisper>`_ (default: Base)"
 msgstr ""
+":guilabel:`Modello` seleziona il modello. Maggiori dettagli nella `pagina "
+"del codice sorgente di Whisper <https://github.com/openai/whisper>`_ "
+"(predefinito: Base)"
 
 #: ../../effects_and_compositions/speech_to_text.rst:111
 msgid ""
 ":guilabel:`Language` Select the language if Autodetect is not accurate "
 "(default: Autodetect)"
 msgstr ""
+":guilabel:`Lingua` seleziona la lingua se Rileva automaticamente non è "
+"accurato (predefinito: Rileva automaticamente)"
 
 #: ../../effects_and_compositions/speech_to_text.rst:113
 msgid ":guilabel:`Device` To keep compatibility only CPU is available."
 msgstr ""
+":guilabel:`Dispositivo` per mantenere la compatibilità è disponibile solo "
+"CPU."
 
 #: ../../effects_and_compositions/speech_to_text.rst:115
 msgid ""
 ":guilabel:`Translate text to english` This translates non English text to "
 "English while recognition."
 msgstr ""
+":guilabel:`Traduci il testo in inglese` durante il riconoscimento traduce in "
+"inglese il testo che non è in inglese."
 
 #: ../../effects_and_compositions/speech_to_text.rst:117
-#, fuzzy
-#| msgid ""
-#| "If you have problems press on the :guilabel:`Check configuration` button."
 msgid ""
 "You can check for updates by clicking on :guilabel:`Check configuration`"
 msgstr ""
-"Se hai problemi, premi il pulsante :guilabel:`Controlla la configurazione`."
+"Puoi controllare la disponibilità di aggiornamenti premendo il pulsante :"
+"guilabel:`Controlla la configurazione`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:121
 msgid "Speech recognition"
 msgstr "Riconoscimento vocale"
 
 #: ../../effects_and_compositions/speech_to_text.rst:124
-#, fuzzy
-#| msgid "Delete the selection."
 msgid "Select the speech engine"
-msgstr "Eliminare la selezione."
+msgstr "Selezionare il motore vocale"
 
 #: ../../effects_and_compositions/speech_to_text.rst:128
 msgid "Enable :menuselection:`View --> Speech Editor` menu item."
 msgstr ""
+"Abilita la voce di menu :menuselection:`Visualizza --> Editore vocale`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:133
 msgid ""
@@ -230,12 +232,19 @@ msgid ""
 "Speech Recognition`. This brings you to :ref:`Configure Speech to Text "
 "<configure_speech_to_text>`, select the engine and click :guilabel:`OK.`"
 msgstr ""
+"Fai clic sul :guilabel:`menu Hamburger` e seleziona :guilabel:`Configura il "
+"riconoscimento vocale`. Questo ti porta a :ref:`Configura il riconoscimento "
+"vocale <configure_speech_to_text>`, seleziona il motore e fai clic su :"
+"guilabel:`OK.`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:135
 msgid ""
 ":guilabel:`Translate to english` is only available with the Whisper speech "
 "engine. It translates non English text to English while recognition."
 msgstr ""
+":guilabel:`Traduci in inglese` è disponibile solamente col motore vocale "
+"Whisper. Durante il riconoscimento traduce in inglese il testo che non lo è "
+"già."
 
 #: ../../effects_and_compositions/speech_to_text.rst:138
 msgid "Creating subtitle by speech recognition"
@@ -244,7 +253,7 @@ msgstr "Creazione di sottotitoli mediante riconoscimento vocale"
 #: ../../effects_and_compositions/speech_to_text.rst:143
 #: ../../effects_and_compositions/speech_to_text.rst:170
 msgid "Shown with the VOSK engine"
-msgstr ""
+msgstr "Mostrato con il motore VOSK"
 
 #: ../../effects_and_compositions/speech_to_text.rst:145
 msgid "Mark the timeline zone you want to recognize (adjust the blue line)."
@@ -299,17 +308,12 @@ msgid "Creating clips by speech recognition"
 msgstr "Creare clip mediante il riconoscimento vocale"
 
 #: ../../effects_and_compositions/speech_to_text.rst:164
-#, fuzzy
-#| msgid ""
-#| "This is useful for interviews and other speech-related footage. Enable "
-#| "the :menuselection:`View --> Text Edit` menu item."
 msgid ""
 "This is useful for interviews and other speech-related footage. Enable the :"
 "menuselection:`View --> Speech Editor` menu item."
 msgstr ""
-"È utile per le interviste e per altri filmati relativi ai discorsi. "
-"Abilitalo dalla voce di menu :menuselection:`Visualizza --> Modifica del "
-"testo`."
+"È utile per interviste e per altri filmati relativi al parlato. Abilita la "
+"voce di menu :menuselection:`Visualizza --> Editore vocale`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:172
 msgid "Select a clip in the project bin."
@@ -372,15 +376,15 @@ msgstr "Rilevamento del silenzio"
 
 #: ../../effects_and_compositions/speech_to_text.rst:199
 msgid "This works with the VOSK engine only."
-msgstr ""
+msgstr "Funziona solo col motore VOSK."
 
 #: ../../effects_and_compositions/speech_to_text.rst:201
 msgid ""
 "Open the clip in the clip monitor and open the speech editor window (:"
 "menuselection:`View --> Speech Editor`) ."
 msgstr ""
-"Apri una clip nel monitor della clip, e la finestra dell'editor (:"
-"menuselection:`Visualizza --> Editor del discorso`) ."
+"Apri una clip nel monitor della clip, e anche la finestra dell'editor (:"
+"menuselection:`Visualizza --> Editore vocale`) ."
 
 #: ../../effects_and_compositions/speech_to_text.rst:203
 msgid ""
@@ -415,9 +419,9 @@ msgid ""
 msgstr ""
 "Quando hai terminato, assicurati che :guilabel:`Seleziona solo la zona` sia "
 "disabilitato, poi fai clic sul pulsante :guilabel:`Salva` che si trova nella "
-"parte in basso a sinistra della finestra dell'Editor del discorso: dopo "
-"pochi secondi una nuova scaletta, senza silenzi e senza il testo  nei punti "
-"in cui non lo vuoi, verrà aggiunta nel contenitore del progetto."
+"parte in basso a sinistra della finestra dell'Editore vocale: dopo pochi "
+"secondi una nuova scaletta, senza silenzi e senza il testo nei punti in cui "
+"non lo vuoi, verrà aggiunta nel contenitore del progetto."
 
 #~ msgid "Save as a new clip."
 #~ msgstr "Salvare come una nuova clip."
