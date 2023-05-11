@@ -267,9 +267,9 @@ Audio properties
    :width: 340px
    :alt: Audio-properties
 
-For each channel you can adjust:
+For each channel [1]_ you can adjust:
 
-1. Choose which audio channel should be enabled or disabled. Rename with double click.
+1. Choose which audio channel [1]_ should be enabled or disabled. Rename with double click.
 2. Normalize the channel
 3. Swap the channels
 4. Copy a channel on the other one
@@ -279,8 +279,12 @@ for all channels:
 
 6. Adjust the synchronization time related to the video of the clip.
 
-
 .. rst-class:: clear-both
+
+
+.. [1] There is a difference between audio streams and audio channels. Kdenlive does display the different audio streams with a list. Consumer video camera mostly have only 1 audio stream with i.e. 6 channels, like 5.1 audio. Kdenlive does not allow manipulation of the audio channels.
+
+
 
 Markers
 ~~~~~~~
