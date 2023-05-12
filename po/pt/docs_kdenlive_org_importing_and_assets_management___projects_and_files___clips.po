@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-05 00:40+0000\n"
+"POT-Creation-Date: 2023-05-12 00:41+0000\n"
 "PO-Revision-Date: 2023-04-28 12:41+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -583,13 +583,19 @@ msgid "Audio properties"
 msgstr "Propriedades do áudio"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:270
-msgid "For each channel you can adjust:"
+#, fuzzy
+#| msgid "For each channel you can adjust:"
+msgid "For each channel [1]_ you can adjust:"
 msgstr "Para cada canal poderá ajustar:"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:272
+#, fuzzy
+#| msgid ""
+#| "Choose which audio channel should be enabled or disabled. Rename with "
+#| "double click."
 msgid ""
-"Choose which audio channel should be enabled or disabled. Rename with double "
-"click."
+"Choose which audio channel [1]_ should be enabled or disabled. Rename with "
+"double click."
 msgstr ""
 "Escolher qual o canal de áudio que deverá ser activado ou desactivado. Mude "
 "o nome com um duplo-click."
@@ -618,11 +624,19 @@ msgstr "para todos os canais:"
 msgid "Adjust the synchronization time related to the video of the clip."
 msgstr "Ajustar o tempo de sincronização face ao vídeo do 'clip'."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:286
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:285
+msgid ""
+"There is a difference between audio streams and audio channels. Kdenlive "
+"does display the different audio streams with a list. Consumer video camera "
+"mostly have only 1 audio stream with i.e. 6 channels, like 5.1 audio. "
+"Kdenlive does not allow manipulation of the audio channels."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:290
 msgid "Markers"
 msgstr "Marcadores"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:290
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:294
 msgid ""
 "Marker tab removed. Clip markers are shown in :menuselection:`View --> "
 "Guides`. More details see :ref:`markers`"
@@ -631,11 +645,11 @@ msgstr ""
 "apresentados em :menuselection:`Ver --> Guias`. Para mais detalhes, veja os :"
 "ref:`markers`"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:302
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:306
 msgid "Metadata"
 msgstr "Meta-dados"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:304
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
 msgid ""
 "You expect this to show any meta data that is contained in the clip. Does "
 "not appear to work."
@@ -643,11 +657,11 @@ msgstr ""
 "Estaria à espera que este mostrasse alguns meta-dados contidos no 'clip'. "
 "Contudo, não parece estar a funcionar."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:312
 msgid "Analysis"
 msgstr "Análise"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:314
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:318
 msgid ""
 "You can view and delete motion vector data that is associated with the clip "
 "from here. This is data created by :ref:`auto_mask`"
@@ -655,7 +669,7 @@ msgstr ""
 "Poderá ver e apagar os dados do vector de movimento associado ao 'clip' "
 "aqui. Estes são dados criados pela :ref:`auto_mask`"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:316
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:320
 msgid ""
 "Button 1 Will delete the selected analysis data, Button 2 will allow you to "
 "export the data (semi colon delimited text file), Button 3 will allow you to "
@@ -666,15 +680,15 @@ msgstr ""
 "por ponto-e-vírgula), o Botão 3 permitirá por outro lado a importação de "
 "dados de análise."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:322
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:326
 msgid "Generators"
 msgstr "Geradores"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:325
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:329
 msgid "Counter"
 msgstr "Contador"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:332
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:336
 msgid ""
 "This generates a counter timer clip in various formats which you can put "
 "onto the timeline."
@@ -682,7 +696,7 @@ msgstr ""
 "Isto gera um 'clip' de cronómetro em vários formatos, o qual poderá colocar "
 "sobre a linha temporal."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:334
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:338
 msgid ""
 "You can choose to have the clip count up by checking that option, otherwise "
 "it will count down by default. The :guilabel:`No Background` option will "
@@ -694,7 +708,7 @@ msgstr ""
 "`Sem Fundo` irá remover o fundo do contador, deixando apenas o fundo "
 "cinzento sem as linhas."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:336
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:340
 msgid ""
 "To change the size and position of the clip, you can add an effect to the "
 "clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`."
@@ -702,11 +716,11 @@ msgstr ""
 "Para mudar o tamanho e posição do 'clip', poderá adicionar um efeito ao "
 "'clip' na linha temporal, como o :ref:`pan_and_zoom` ou o :ref:`transform`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:342
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:346
 msgid "White Noise"
 msgstr "Ruído Branco"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:349
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:353
 msgid ""
 "This generates a video noise clip – like the \"snow\" on an out-of-tune "
 "analogue TV. In ver 17.04 it generates audio white noise as well as video "
@@ -716,11 +730,11 @@ msgstr ""
 "analógica não sintonizada. Na versão 17.04, também gera ruído branco de "
 "áudio, para além do vídeo."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:356
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:360
 msgid "Color Bars"
 msgstr "Barras de Cores"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:363
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:367
 msgid ""
 "This generator came in to **Kdenlive** around ver 17.04. Generates a color "
 "test pattern of various types. Including PAL color bars, BBC color bars, EBU "

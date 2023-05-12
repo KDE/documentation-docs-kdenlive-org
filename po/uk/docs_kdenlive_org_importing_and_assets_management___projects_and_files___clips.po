@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-05 00:40+0000\n"
+"POT-Creation-Date: 2023-05-12 00:41+0000\n"
 "PO-Revision-Date: 2023-04-26 15:20+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -576,13 +576,19 @@ msgid "Audio properties"
 msgstr "Властивості звуку"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:270
-msgid "For each channel you can adjust:"
+#, fuzzy
+#| msgid "For each channel you can adjust:"
+msgid "For each channel [1]_ you can adjust:"
 msgstr "Для кожного каналу ви можете скоригувати таке:"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:272
+#, fuzzy
+#| msgid ""
+#| "Choose which audio channel should be enabled or disabled. Rename with "
+#| "double click."
 msgid ""
-"Choose which audio channel should be enabled or disabled. Rename with double "
-"click."
+"Choose which audio channel [1]_ should be enabled or disabled. Rename with "
+"double click."
 msgstr ""
 "Виберіть, які звукові канали має бути увімкнено або вимкнено. Канали можна "
 "перейменувати після подвійного клацання."
@@ -611,11 +617,19 @@ msgstr "для усіх каналів:"
 msgid "Adjust the synchronization time related to the video of the clip."
 msgstr "Скоригувати синхронізацію часу відносно відео у кліпі."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:286
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:285
+msgid ""
+"There is a difference between audio streams and audio channels. Kdenlive "
+"does display the different audio streams with a list. Consumer video camera "
+"mostly have only 1 audio stream with i.e. 6 channels, like 5.1 audio. "
+"Kdenlive does not allow manipulation of the audio channels."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:290
 msgid "Markers"
 msgstr "Позначки"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:290
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:294
 msgid ""
 "Marker tab removed. Clip markers are shown in :menuselection:`View --> "
 "Guides`. More details see :ref:`markers`"
@@ -624,11 +638,11 @@ msgstr ""
 "вибір пункту меню :menuselection:`Перегляд --> Напрямні`. Докладніше у "
 "розділі щодо :ref:`позначок <markers>`"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:302
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:306
 msgid "Metadata"
 msgstr "Метадані"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:304
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
 msgid ""
 "You expect this to show any meta data that is contained in the clip. Does "
 "not appear to work."
@@ -636,11 +650,11 @@ msgstr ""
 "Мало б бути показано усі метадані, які містяться у кліпі. Здається, не "
 "працює."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:312
 msgid "Analysis"
 msgstr "Аналіз"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:314
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:318
 msgid ""
 "You can view and delete motion vector data that is associated with the clip "
 "from here. This is data created by :ref:`auto_mask`"
@@ -648,7 +662,7 @@ msgstr ""
 "Тут ви можете переглянути і вилучити рухомі векторні дані, які пов'язано із "
 "кліпом. Це дані, які створено ефектом :ref:`auto_mask`"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:316
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:320
 msgid ""
 "Button 1 Will delete the selected analysis data, Button 2 will allow you to "
 "export the data (semi colon delimited text file), Button 3 will allow you to "
@@ -659,15 +673,15 @@ msgstr ""
 "відокремлено крапкою з комою), за допомогою кнопки 3 можна імпортувати дані "
 "аналізу."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:322
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:326
 msgid "Generators"
 msgstr "Засоби створення"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:325
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:329
 msgid "Counter"
 msgstr "Лічильник"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:332
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:336
 msgid ""
 "This generates a counter timer clip in various formats which you can put "
 "onto the timeline."
@@ -675,7 +689,7 @@ msgstr ""
 "Створює кліп зі зворотним відліком у різних форматах. Цей кліп ви можете "
 "розташувати на монтажному столі."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:334
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:338
 msgid ""
 "You can choose to have the clip count up by checking that option, otherwise "
 "it will count down by default. The :guilabel:`No Background` option will "
@@ -687,7 +701,7 @@ msgstr ""
 "За допомогою пункту :guilabel:`Без тла` можна вилучити тло з лічильника, "
 "лишивши лише сірий фон без ліній."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:336
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:340
 msgid ""
 "To change the size and position of the clip, you can add an effect to the "
 "clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`."
@@ -696,11 +710,11 @@ msgstr ""
 "монтажному столі ефект, зокрема ефект :ref:`pan_and_zoom` або :ref:"
 "`transform`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:342
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:346
 msgid "White Noise"
 msgstr "Білий шум"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:349
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:353
 msgid ""
 "This generates a video noise clip – like the \"snow\" on an out-of-tune "
 "analogue TV. In ver 17.04 it generates audio white noise as well as video "
@@ -710,11 +724,11 @@ msgstr ""
 "аналоговому телевізорі. Починаючи з версії 17.04, створює звуковий білий шум "
 "разом із відеоснігом."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:356
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:360
 msgid "Color Bars"
 msgstr "Кольорові смуги"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:363
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:367
 msgid ""
 "This generator came in to **Kdenlive** around ver 17.04. Generates a color "
 "test pattern of various types. Including PAL color bars, BBC color bars, EBU "
