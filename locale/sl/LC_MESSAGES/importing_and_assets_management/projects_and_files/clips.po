@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-05 00:40+0000\n"
+"POT-Creation-Date: 2023-05-12 00:41+0000\n"
 "PO-Revision-Date: 2023-05-01 20:36+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -584,13 +584,19 @@ msgid "Audio properties"
 msgstr "Lastnosti zvoka"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:270
-msgid "For each channel you can adjust:"
+#, fuzzy
+#| msgid "For each channel you can adjust:"
+msgid "For each channel [1]_ you can adjust:"
 msgstr "Za vsak kanal lahko prilagodite:"
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:272
+#, fuzzy
+#| msgid ""
+#| "Choose which audio channel should be enabled or disabled. Rename with "
+#| "double click."
 msgid ""
-"Choose which audio channel should be enabled or disabled. Rename with double "
-"click."
+"Choose which audio channel [1]_ should be enabled or disabled. Rename with "
+"double click."
 msgstr ""
 "Izberite, kateri zvočni kanal naj bo omogočen ali onemogočen. Preimenujte z "
 "dvoklikom."
@@ -619,11 +625,19 @@ msgstr "za vse kanale:"
 msgid "Adjust the synchronization time related to the video of the clip."
 msgstr "Prilagodite čas sinhronizacije, povezan z videom v posnetku."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:286
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:285
+msgid ""
+"There is a difference between audio streams and audio channels. Kdenlive "
+"does display the different audio streams with a list. Consumer video camera "
+"mostly have only 1 audio stream with i.e. 6 channels, like 5.1 audio. "
+"Kdenlive does not allow manipulation of the audio channels."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:290
 msgid "Markers"
 msgstr "Označevalniki"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:290
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:294
 #, fuzzy
 msgid ""
 "Marker tab removed. Clip markers are shown in :menuselection:`View --> "
@@ -633,11 +647,11 @@ msgstr ""
 "v :menuselection:`Pogled --> Vodila`. Podrobnosti si oglejte v :ref:"
 "`markers`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:302
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:306
 msgid "Metadata"
 msgstr "Metapodatki"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:304
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
 #, fuzzy
 msgid ""
 "You expect this to show any meta data that is contained in the clip. Does "
@@ -646,11 +660,11 @@ msgstr ""
 "Pričakujete, da bo to prikazalo vse metapodatke, ki so v posnetku. Zdi se, "
 "da ne deluje."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:312
 msgid "Analysis"
 msgstr "Preučevanje"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:314
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:318
 #, fuzzy
 msgid ""
 "You can view and delete motion vector data that is associated with the clip "
@@ -659,7 +673,7 @@ msgstr ""
 "Od tod si lahko ogledate in izbrišete podatke vektorja gibanja, ki so "
 "povezani s posnetkom. To so podatki, ki jih ustvari :ref:`auto_mask`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:316
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:320
 #, fuzzy
 msgid ""
 "Button 1 Will delete the selected analysis data, Button 2 will allow you to "
@@ -670,15 +684,15 @@ msgstr ""
 "podatkov (besedilna datoteka s podpičjem kot ločilom), gumb 3 vam bo "
 "omogočil uvoz analitičnih podatkov."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:322
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:326
 msgid "Generators"
 msgstr "Ustvarjalniki"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:325
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:329
 msgid "Counter"
 msgstr "Števec"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:332
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:336
 msgid ""
 "This generates a counter timer clip in various formats which you can put "
 "onto the timeline."
@@ -686,7 +700,7 @@ msgstr ""
 "S tem ustvarite posnetek števca časovnika v različnih oblikah, ki jih lahko "
 "postavite na časovnico."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:334
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:338
 msgid ""
 "You can choose to have the clip count up by checking that option, otherwise "
 "it will count down by default. The :guilabel:`No Background` option will "
@@ -697,7 +711,7 @@ msgstr ""
 "odšteval. Možnost :guilabel:`Brez ozadja` bo odstranila ozadje iz števca, ki "
 "pušča le sivo ozadje brez črt."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:336
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:340
 msgid ""
 "To change the size and position of the clip, you can add an effect to the "
 "clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`."
@@ -705,11 +719,11 @@ msgstr ""
 "Če želite spremeniti velikost in položaj posnetka, lahko v posnetek na "
 "časovnici dodate učinek, kot sta :ref:`pan_and_zoom` in :ref:`transform`."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:342
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:346
 msgid "White Noise"
 msgstr "Beli šum"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:349
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:353
 msgid ""
 "This generates a video noise clip – like the \"snow\" on an out-of-tune "
 "analogue TV. In ver 17.04 it generates audio white noise as well as video "
@@ -718,11 +732,11 @@ msgstr ""
 "S tem ustvarite video posnetek šuma – kot je »sneg« na razglašenem analognem "
 "televizorju. V razl. 17.04 ustvari zvok belega šuma, kot tudi video sneg."
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:356
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:360
 msgid "Color Bars"
 msgstr "Barvni stolpci"
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:363
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:367
 msgid ""
 "This generator came in to **Kdenlive** around ver 17.04. Generates a color "
 "test pattern of various types. Including PAL color bars, BBC color bars, EBU "
