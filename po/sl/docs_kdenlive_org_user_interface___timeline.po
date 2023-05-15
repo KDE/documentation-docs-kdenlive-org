@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-27 00:41+0000\n"
-"PO-Revision-Date: 2023-05-01 19:23+0200\n"
+"PO-Revision-Date: 2023-05-14 11:27+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -65,7 +65,6 @@ msgstr ""
 "sličice (če obstajajo)."
 
 #: ../../user_interface/timeline.rst:44
-#, fuzzy
 msgid ""
 "2 - **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It "
 "also shows the current zone (if defined) and the preview render zones and "
@@ -75,11 +74,11 @@ msgid ""
 "click menu see the :ref:`detailed description <timeline_ruler_right-"
 "click_menu>`."
 msgstr ""
-"2 - **Ravnilo časovnice**. To področje prikazuje čas v zapisu hh:mm:ss:ff. "
+"2 - **Ravnilo časovnice**. To področje prikazuje čas v zapisu uu:mm:ss:sl. "
 "Prikazuje tudi trenutno območje (če je določeno) ter območja predogleda "
 "izrisa in njihovo ustrezno stanje izrisovanja. Podrobnejši opis je na voljo :"
-"ref:`v nadaljevanju <timeline_ruler>`. Levi klik v ravnilo časovnice bo "
-"premaknil :ref:`časovnico <timeline>` in iskal do tega položaja. Za "
+"ref:`v nadaljevanju <timeline_ruler>`. Z levim klikom v ravnilo časovnice "
+"premaknete :ref:`časovnico <timeline>` in iščete do tega položaja. Za "
 "kontekstni meni z desno tipko miške kliknite :ref:`podroben opis "
 "<timeline_ruler_right-click_menu>`."
 
@@ -96,7 +95,6 @@ msgstr ""
 "kako to storite, najdete v razdelku o prilagajanju orodne vrstice."
 
 #: ../../user_interface/timeline.rst:48
-#, fuzzy
 msgid ""
 "4 - **Track Header**. This area displays track header data like track type "
 "(V for video, A for audio), track number, with your without track effects, "
@@ -151,7 +149,6 @@ msgid "Timeline visuals"
 msgstr "Vizualni prikazi časovnice"
 
 #: ../../user_interface/timeline.rst:91
-#, fuzzy
 msgid ""
 "The timeline got a visual overhaul with more and better looking guides/"
 "marker colors, the guides have been moved above the timeline ruler while "
@@ -159,7 +156,7 @@ msgid ""
 msgstr ""
 "Časovnica je vizualno osvežena z več in boljšimi barvami vodil/"
 "označevalnikov, vodila so premaknjena nad ravnilo časovnice, medtem ko so "
-"vrstice za predogled in območja premaknjene spodaj."
+"vrstice za predogled in območja premaknjene pod časovnico."
 
 #: ../../user_interface/timeline.rst:96
 msgid "Before (above) and after (below)"
@@ -170,7 +167,6 @@ msgid "Split Audio/Video"
 msgstr "Razdeli zvok/video"
 
 #: ../../user_interface/timeline.rst:110
-#, fuzzy
 msgid ""
 "The way timeline tracks work has changed. Each track is now either audio or "
 "video, and will only accept audio and video clips respectively. When "
@@ -180,9 +176,9 @@ msgid ""
 msgstr ""
 "Način delovanja stez časovnice se je spremenil. Vsaka steza je zdaj zvočna "
 "ali slikovna in bo sprejemala samo zvočne oz. video posnetke. Ko povlečete "
-"AV-posnetek iz projektne posode v časovnico, bo posnetek samodejno razdeljen "
-"na video del, ki se predvaja v video stezi, in zvočni del, ki pristane na "
-"zvočni stezi."
+"AV-posnetek iz projektne posode na časovnico, bo posnetek samodejno "
+"razdeljen na video del, ki se predvaja v video stezi, in zvočni del, ki "
+"pristane na zvočni stezi."
 
 #: ../../user_interface/timeline.rst:112
 msgid ""
@@ -197,26 +193,24 @@ msgid "Timeline Cursor/Position Caret/Playhead"
 msgstr "Kazalec časovnice/položajna kareta/predvajalna glava"
 
 #: ../../user_interface/timeline.rst:126
-#, fuzzy
 msgid ""
 "This indicates the position we are displaying in the :ref:`monitors`. You "
 "can scroll the position by dragging the Timeline cursor (a.k.a Position "
 "Caret or Playhead)."
 msgstr ""
-"To označuje položaj, ki ga prikazujemo v :ref:`ogledih`. Položaj lahko "
-"pomaknete tako, da povlečete kazalec časovnice (t.j. predvajalno glavo oz. "
-"kareto položaja)."
+"To označuje položaj, ki ga prikazujemo v :ref:`ogledih <monitors>`. Položaj "
+"lahko pomaknete tako, da povlečete kazalec časovnice (t.j. predvajalno glavo "
+"oz. kareto položaja)."
 
 #: ../../user_interface/timeline.rst:128
-#, fuzzy
 msgid ""
 "Beginning with version 0.9.4, dragging the timeline cursor will play the "
 "audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you "
 "have checked :menuselection:`Use Open GL for video display` in :ref:"
 "`configure_kdenlive`."
 msgstr ""
-"Začenši z različico 0.9.4 bo vlečenje kazalca časovnice bpredvajalo zvok "
-"posnetka (t.i. Audio Scrubbing).  Ta funkcija deluje le, če ste potrdili :"
+"Začenši z različico 0.9.4 vlečenje kazalca časovnice predvaja zvok posnetka "
+"(t.i. Audio Scrubbing).  Ta funkcija deluje le, če ste potrdili :"
 "menuselection:`Uporabi Open GL za prikaz videa` pod :ref:"
 "`configure_kdenlive`."
 
@@ -242,17 +236,16 @@ msgid "You can then move the item with the arrow keys."
 msgstr "Nato lahko premaknete element s smernimi tipkami."
 
 #: ../../user_interface/timeline.rst:146
-#, fuzzy
 msgid ""
 "Keyframes can also be moved individually. Just click on a keyframe in the "
 "timeline, then move it :kbd:`Left` or :kbd:`Right`, change its value with :"
 "kbd:`+` and :kbd:`-`. Use :kbd:`Alt + arrow` to go to another keyframe."
 msgstr ""
-"Nato lahko premaknete element s smernimi tipkami. Ključne sličice je mogoče "
-"premikati tudi posamično. Samo kliknite ključno sličico v časovnici, nato jo "
-"premaknite levo/desno s :kbd:`puščicami`, spremenite njeno vrednost z :kbd:`"
-"+` in :kbd:`-`. Uporabite :kbd:`izmenjalka + smerna tipka`, če želite iti na "
-"drugo ključno sličico."
+"Ključne sličice je mogoče premikati tudi posamično. Samo kliknite ključno "
+"sličico v časovnici, nato jo premaknite levo/desno z smernima tipkama kbd:"
+"`levo` oz. :kbd:`desno`, spremenite njeno vrednost s tipkama :kbd:`+` in :"
+"kbd:`-`. Uporabite kombinacijo tipk :kbd:`izmenjalka + smerna tipka`, če "
+"želite preiti na drugo ključno sličico."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyframe handling"
@@ -297,7 +290,6 @@ msgid "Timeline Ruler"
 msgstr "Ravnilo časovnice"
 
 #: ../../user_interface/timeline.rst:188
-#, fuzzy
 msgid ""
 "The timeline ruler shows the timecode information in the notation of hh:mm:"
 "ss:ff (default) or in frames. It displays the currently defined timeline "
@@ -310,7 +302,6 @@ msgstr ""
 "še ni izrisano; rumeno: se izrisuje; zeleno: končano)."
 
 #: ../../user_interface/timeline.rst:193
-#, fuzzy
 msgid ""
 "The timeline zone can be moved by dragging the square in the middle, and "
 "sized by either dragging the left or right edge or by positioning the "
@@ -560,7 +551,6 @@ msgstr ""
 "naredi, da se vsi video ali zvočni posnetki hkrati spremenijo v višino.)"
 
 #: ../../user_interface/timeline.rst:307
-#, fuzzy
 msgid "Switching between mixed or split audio"
 msgstr "Preklapljanje med mešanim ali deljenim zvokom"
 
