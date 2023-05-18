@@ -35,7 +35,7 @@ File name:
 
 * Not longer than 40 character incl. ".rst"
 * No space in any file name (including pictures)!
-* All in low letter
+* All in lowercase letters
 
 Code quality
 
@@ -153,7 +153,7 @@ web pages link |jamendo|
 .. [1] Text of footnote 1
 .. [#] Text of footnote 2
 
-Toctree (Toc = Table of Content) adds the content on the left side sidebar. Only needed if there are subfolder.
+Toctree (Toc = Table of Content) adds the content on the left side sidebar. Only needed if there are subfolders.
 
 .. toctree::
    :hidden:
