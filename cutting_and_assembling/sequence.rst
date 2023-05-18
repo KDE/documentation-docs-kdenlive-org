@@ -110,6 +110,7 @@ Project Bin: right click on a folder and enable/disable :guilabel:`Default Targe
   
 On new created project the default folder is `Sequences`. 
 
+
 .. _working_with_sequences:
 
 Working with sequences
@@ -161,6 +162,9 @@ Change the settings for an individual sequence
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is not possible. All sequences in a project always use the same project profile.
+
+
+.. _sequence_advantage:
 
 Advantage of sequence
 ---------------------
