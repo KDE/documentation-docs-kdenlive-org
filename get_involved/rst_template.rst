@@ -42,7 +42,7 @@ Code quality
 * 1 empty line between title or text paragraph
 * 2 empty lines after a :ref: or before a reference
 
-After a command with .. next line must have 3 spaces that the below line is part of the command. The number of spaces must be always the same. 
+After a command with .. next line must be indented by 3 blank spaces to make the below line is part of the command. The number of indent spaces must be always the same. 
 
 .. figure:: /images/getting_started/kdenlive_add_last_clip.webp
    :align: left
@@ -113,7 +113,7 @@ Use for menu selection :menuselection:`File --> New` (This is used to mark a com
 
 This shows an icon |kdenlive-add-clip| (all linked icons check substitutions in `conf.py`)
 
-This is a keyboard shortcut :kbd:`Ctrl+Wheel` (keep the 2 keys inside 1 ` ` due to translation reasons)
+This is a keyboard shortcut :kbd:`Ctrl+Wheel` (keep the 2 keys inside 1 \` \` due to translation reasons)
 
 This is a text in the GUI :guilabel:`Play` (Including button labels, window titles, field names, menu and menu selection names, and even values in selection lists)
 
@@ -132,11 +132,16 @@ This is a text in the GUI :guilabel:`Play` (Including button labels, window titl
 .. deprecated:: 23.04
    This feature was **exchanged** or **removed** in version 23.04
 
-web pages link |jamendo| 
 
-.. |jamendo| raw:: html
+.. Open a link in a new window in reStructuredText, https://stackoverflow.com/questions/11716781/open-a-link-in-a-new-window-in-restructuredtext
 
-   <a href="https://www.jamendo.com" target="_blank">Jamendo</a>
+Web page link open in a new window |kde| 
+
+.. |kde| raw:: html
+
+   <a href="https://www.kde.org" target="_blank">KDE</a>
+
+Web page link open in the same window `KDE store <https://store.kde.org/browse?cat=333&ord=latest>`_
 
 
 * This is a bulleted list.
