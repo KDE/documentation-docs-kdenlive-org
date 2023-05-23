@@ -36,15 +36,16 @@ Tutorials
    :hidden:
    :glob:
 
-   tutorials/*
+
+Split Screen Tutorial
+---------------------
+
+:doc:`This tutorial <tutorials/split_screen_how_to>` walks you through the steps to create a picture-in-picture (PIP) effect.
 
 Written Tutorials
 -----------------
 
 See :ref:`quickstart` for a step-by-step introductory tutorial
-
-
-   tutorials/split_screen_how_to
 
 |intro_to_kdenlive| by Seth Kenlon
 

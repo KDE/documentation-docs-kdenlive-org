@@ -37,7 +37,7 @@ The File Menu contains the normal file operations as well as the option to impor
 New
 ---
 
-Creates a new Kdenlive project. The default keyboard shortcut is :kbd:`Ctrl + N`.
+Creates a new Kdenlive project. The default keyboard shortcut is :kbd:`Ctrl+N`.
 
 See :ref:`quickstart`.
 
@@ -46,7 +46,7 @@ The default settings that appear on this feature are defined under :menuselectio
 Open...
 -------
 
-Opens a project that has been saved in the :ref:`project <project>` format file. The default keyboard shortcut is :kbd:`Ctrl + O`.
+Opens a project that has been saved in the :ref:`project <project>` format file. The default keyboard shortcut is :kbd:`Ctrl+O`.
 
 Open Recent
 -----------
@@ -56,12 +56,12 @@ Displays a picklist of recently saved files (up to 10) to choose from. Click the
 Save
 ----
 
-Saves the current state of the project in the :ref:`project <project>` format file. Prompts for a file name if this is the first time the file is being saved. The default keyboard shortcut is :kbd:`Ctrl + S`.
+Saves the current state of the project in the :ref:`project <project>` format file. Prompts for a file name if this is the first time the file is being saved. The default keyboard shortcut is :kbd:`Ctrl+S`.
 
 Save As...
 ----------
 
-Saves the current state of the project in the :ref:`project <project>` format file. Prompts for a file name. Kdenlive then continues with the new project. The default keyboard shortcut is :kbd:`Ctrl + Shift + S`.
+Saves the current state of the project in the :ref:`project <project>` format file. Prompts for a file name. Kdenlive then continues with the new project. The default keyboard shortcut is :kbd:`Ctrl+Shift+S`.
 
 Save Copy...
 ------------
@@ -112,7 +112,7 @@ Quit
 
 Exits **Kdenlive**.
 
-Prompts you to save any unsaved changes. The default keyboard shortcut is :kbd:`Ctrl + Q`.
+Prompts you to save any unsaved changes. The default keyboard shortcut is :kbd:`Ctrl+Q`.
 
 .. toctree::
    :hidden:
