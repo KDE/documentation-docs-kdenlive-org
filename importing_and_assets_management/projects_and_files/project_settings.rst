@@ -79,9 +79,9 @@ The Audio and Video thumbnails are shown in the :ref:`timeline`. They can also b
 Proxy Clips Tab
 ~~~~~~~~~~~~~~~
 
-.. image:: /images/20210508-kdenlive-proxy_clip.png
+.. image:: /images/kdenlive2304_settings-proxy_clips.webp
   :align: center
-  :alt: Proxy Clips dialog
+  :alt: Proxy Clips settings dialog
 
 
 When the :menuselection:`Proxy Clip` feature is enabled, **Kdenlive** will automatically create reduced versions of your source clips, and use these versions for your editing. **Kdenlive** will replace the proxy clips with the originals for a full resolution when rendering.

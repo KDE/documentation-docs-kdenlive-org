@@ -242,13 +242,13 @@ The menu items which appear when you right-click on an item in the Project Bin a
 
 * :ref:`extract_audio`
 
-* :ref:`transcode`
+* :ref:`transcode_to_edit_friendly_format`
 
 * :menuselection:`Clip Jobs`
 
    * :ref:`stabilize`
 
-   * :ref:`automaticscenesplit`
+   * :ref:`automatic_scene_split`
 
    * :ref:`duplicate_clip_with_speed_change`
 
@@ -262,13 +262,13 @@ The menu items which appear when you right-click on an item in the Project Bin a
 
 * :ref:`duplicate_clip`
 
-* :ref:`clips`
+* :ref:`make_proxy_clip`
 
-* :ref:`clips`
+* :ref:`clip_menu-clip_properties`
 
 * :ref:`edit_clip`
 
-* :ref:`rename_clip`
+* :ref:`clip_menu-rename_clip`
 
 * :ref:`delete_clip`
 

@@ -87,6 +87,8 @@ Delete Effects
 Deletes all effects from the selected clip.
 
 
+.. _extract_audio:
+
 Extract Audio
 -------------
 
@@ -115,6 +117,8 @@ Opens a flyout to select different options:
 This function is also available via the right-click menu of the clip in the Project Bin.
 
 
+.. _automatic_scene_split:
+
 Automatic Scene Split
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -142,6 +146,8 @@ If you want Kdenlive to create sub-clips for each scene check the :guilabel:`Cut
 
 .. rst-class:: clear-both
 
+
+.. _stabilize:
 
 Stabilize
 ~~~~~~~~~
@@ -236,6 +242,8 @@ Here are examples of the effect of running stabilize - transcoded by the origina
    |Side by side|,|Deshaked|,|Original|
 
 
+.. _duplicate_clip_with_speed_change:
+
 Duplicate Clip with Speed Change
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -271,6 +279,8 @@ You can add this clip to the Timeline just like any other, and when you play it 
 .. rst-class:: clear-both
 
 
+.. _configure_slip_jobs:
+
 Configure Clip Jobs
 ~~~~~~~~~~~~~~~~~~~
 
@@ -292,6 +302,8 @@ Click on the :guilabel:`+` to create a new custom clip job. In order to delete o
 .. rst-class:: clear-both
 
 
+.. _transcode_to_edit_friendly_format:
+
 Transcode to Edit Friendly Format
 ---------------------------------
 
@@ -310,6 +322,8 @@ There are several formats available, some are lossless (producing huge files), s
 
 .. rst-class:: clear-both
 
+
+.. _transcode:
 
 Transcode
 ---------
@@ -333,6 +347,8 @@ While the transcode job is running, the Project Bin will display a progress bar 
 .. rst-class:: clear-both
 
 
+.. _locate_clip:
+
 Locate Clip
 -----------
 
@@ -343,6 +359,8 @@ This function is also available via the right-click menu of a clip selected in t
 Please note that depending on the type of clip certain menu items are not shown.
 
 
+.. _reload_clip:
+
 Reload Clip
 -----------
 
@@ -350,6 +368,8 @@ Reload Clip will re-import the clip from the file system into Kdenlive. This is 
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
+
+.. _replace_clip:
 
 Replace Clip
 ------------
@@ -361,6 +381,8 @@ This function is also available via the right-click menu of a clip selected in t
 .. note:: Make sure the clip replacement is at least of the same length/duration. Otherwise it may lead to unwanted gaps in the Timeline. If effects are used on these clips the replacement clips should have the same dimensions to avoid unwanted behaviour of effects.
 
 
+.. _duplicate_clip:
+
 Duplicate Clip
 --------------
 
@@ -368,6 +390,8 @@ This function will create a copy of the clip in the Project Bin. This can be use
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
+
+.. _make_proxy_clip:
 
 Proxy Clip
 ----------
@@ -387,6 +411,8 @@ This menu item is a toggle, meaning that if the selected clip is already a proxy
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
+
+.. _clip_in_timeline:
 
 Clip in Timeline
 ----------------
@@ -411,6 +437,8 @@ This option will be greyed out if the clip is not being used in the Timeline.
 See also :guilabel:`Clip in Project Bin` available in the :ref:`right_click_menu` on a clip in the Timeline.
 
 
+.. _clip_menu-clip_properties:
+
 Clip Properties
 ---------------
 
@@ -426,6 +454,8 @@ This function is also available via the right-click menu of a clip selected in t
 
 .. rst-class:: clear-both
 
+
+.. _edit_clip:
 
 Edit Clip
 ---------
@@ -455,6 +485,9 @@ More details for installing the needed external software and how to set the path
 
 .. hint:: The option is greyed out for video clips because **Kdenlive** is the video editor - only audio, image and animation clips are edited by external software.
 
+
+.. _clip_menu-rename_clip:
+
 Rename
 ------
 
@@ -462,6 +495,8 @@ This function allows you to change the name of the clip in the Project Bin to an
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
+
+.. _delete_clip:
 
 Delete Clip
 -----------
