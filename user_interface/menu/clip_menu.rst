@@ -32,6 +32,8 @@ The functions in this menu affect the clip that is selected in the Timeline **or
 
 .. rst-class:: clear-both
 
+.. _clip_menu-markers:
+
 Markers
 -------
 

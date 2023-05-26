@@ -40,7 +40,7 @@ Tutorials
 Split Screen Tutorial
 ---------------------
 
-:doc:`This tutorial </tutorials/split_screen_how_to>` walks you through the steps to create a picture-in-picture (PIP) effect.
+:doc:`This tutorial <tutorials/split_screen_how_to>` walks you through the steps to create a picture-in-picture (PIP) effect.
 
 Written Tutorials
 -----------------
