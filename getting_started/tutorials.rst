@@ -125,3 +125,8 @@ More videos can be found using a |yt_search| and on the |vimeo_kdenlive_tutorial
    <a href="https://vimeo.com/groups/kdenlivetutorials/videos" target="_blank">Vimeo Kdenlive Tutorial Channel</a>
 
 
+.. toctree::
+   :hidden:
+   :glob: 
+   
+   tutorials/*

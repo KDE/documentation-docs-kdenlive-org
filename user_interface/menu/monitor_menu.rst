@@ -25,6 +25,8 @@ The monitor menu contains controls for viewing and navigating through the clips 
 
 With the exception of the :menuselection:`Deinterlacer` and :menuselection:`Interpolation` items, it is much more practical to perform the actions on this menu using the associated keyboard shortcuts or the buttons at the bottom of the monitor windows.
 
+.. rst-class:: clear-both
+
 
 Play
 ----

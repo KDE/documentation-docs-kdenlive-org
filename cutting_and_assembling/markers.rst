@@ -43,8 +43,8 @@ Following procedures add a marker at the playhead position (clip monitor, timeli
 
 * **Menu**
 
-  * Clip monitor: From the main menu choose :menuselection:`Clip --> Marker --> Add Marker`, :ref:`menu_markers`
-  * Timeline: Click on the clip. From the main menu choose :menuselection:`Clip --> Marker --> Add Marker`, :ref:`menu_markers`
+  * Clip monitor: From the main menu choose :menuselection:`Clip --> Marker --> Add Marker`, :ref:`clip_menu-markers`
+  * Timeline: Click on the clip. From the main menu choose :menuselection:`Clip --> Marker --> Add Marker`, :ref:`clip_menu-markers`
   * Clip monitor: Right click on the clip monitor and choose :menuselection:`Marker --> Add Marker`
   * Timeline: Right click the clip in the timeline and choose :menuselection:`Marker --> Add Marker`. The marker is added at the play-head position.
 
