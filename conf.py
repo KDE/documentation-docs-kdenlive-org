@@ -157,6 +157,106 @@ rst_epilog = """
 .. |view-media-equalizer| image:: /images/icons/view-media-equalizer.svg
    :width: 22px
 
+.. |document-save-all.svg| image:: /images/icons/document-save-all.svg
+   :width: 22px
+
+.. |view-right-close.svg| image:: /images/icons/view-right-close.svg
+   :width: 22px
+
+.. |view-split-left-right.svg| image:: /images/icons/view-split-left-right.svg
+   :width: 22px
+
+.. |hint.svg| image:: /images/icons/hint.svg
+   :width: 22px
+
+.. |visibility.svg| image:: /images/icons/visibility.svg
+   :width: 22px
+
+.. |keyframe-disable.svg| image:: /images/icons/keyframe-disable.svg
+   :width: 22px
+
+.. |keyframe.svg| image:: /images/icons/keyframe.svg
+   :width: 22px
+
+.. |adjustlevels.svg| image:: /images/icons/adjustlevels.svg
+   :width: 22px
+
+.. |view-refresh.svg| image:: /images/icons/view-refresh.svg
+   :width: 22px
+
+.. |document-save-as-template.svg| image:: /images/icons/document-save-as-template.svg
+   :width: 22px
+
+.. |edit-delete.svg| image:: /images/icons/edit-delete.svg
+   :width: 22px
+
+.. |document-save.svg| image:: /images/icons/document-save.svg
+   :width: 22px
+
+.. |keyframe-previous.svg| image:: /images/icons/keyframe-previous.svg
+   :width: 22px
+
+.. |keyframe-add.svg| image:: /images/icons/keyframe-add.svg
+   :width: 22px
+
+.. |keyframe-next.svg| image:: /images/icons/keyframe-next.svg
+   :width: 22px
+
+.. |align-horizontal-center.svg| image:: /images/icons/align-horizontal-center.svg
+   :width: 22px
+
+.. |edit-copy.svg| image:: /images/icons/edit-copy.svg
+   :width: 22px
+
+.. |edit-paste.svg| image:: /images/icons/edit-paste.svg
+   :width: 22px
+
+.. |linear.svg| image:: /images/icons/linear.svg
+   :width: 22px
+
+.. |align-horizontal-left.svg| image:: /images/icons/align-horizontal-left.svg
+   :width: 22px
+
+.. |align-horizontal-right.svg| image:: /images/icons/align-horizontal-right.svg
+   :width: 22px
+
+.. |align-vertical-top.svg| image:: /images/icons/align-vertical-top.svg
+   :width: 22px
+
+.. |align-vertical-center.svg| image:: /images/icons/align-vertical-center.svg
+   :width: 22px
+
+.. |align-vertical-bottom.svg| image:: /images/icons/align-vertical-bottom.svg
+   :width: 22px
+
+.. |zoom-original.svg| image:: /images/icons/zoom-original.svg
+   :width: 22px
+
+.. |zoom-fit-best.svg| image:: /images/icons/zoom-fit-best.svg
+   :width: 22px
+
+.. |zoom-fit-width.svg| image:: /images/icons/zoom-fit-width.svg
+   :width: 22px
+
+.. |zoom-fit-height.svg| image:: /images/icons/zoom-fit-height.svg
+   :width: 22px
+
+.. |folder-new.svg| image:: /images/icons/folder-new.svg
+   :width: 22px
+
+.. |tag.svg| image:: /images/icons/tag.svg
+   :width: 22px
+
+.. |preview-add-zone.svg| image:: /images/icons/preview-add-zone.svg
+   :width: 22px
+
+.. |preview-remove-zone.svg| image:: /images/icons/preview-remove-zone.svg
+   :width: 22px
+
+.. |preview-remove-all.svg| image:: /images/icons/preview-remove-all.svg
+   :width: 22px
+
+
 .. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
    :width: 480px
 
