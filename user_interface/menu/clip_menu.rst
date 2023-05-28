@@ -295,7 +295,7 @@ Configure Clip Jobs
    
    Manage Bin Clip Jobs dialog
    
-This opens the Manage Bin Clip Jobs dialog. Here you can create and manage your own jobs that can then be applied to clips in the Project Bin. Select the executable you want called and enter the arguments to be passed to the executable. ''%1'' will be replaced by the path of the source clip. If you do not specify an output file extension the extension of the source file will be used.
+This opens the Manage Bin Clip Jobs dialog. Here you can create and manage your own jobs that can then be applied to clips in the Project Bin. Select the executable you want to be called and enter the arguments to be passed to the executable. ''%1'' will be replaced by the path of the source clip. If you do not specify an output file extension the extension of the source file will be used.
 
 Unless you want the original clip to be replaced with the result, select whether the resulting clip is :guilabel:`Placed in the original clip folder`, :guilabel:`Placed at the top level`, or Kdenlive shall :guilabel:`Use a subfolder` to save it. In the latter case you need to enter a folder name.
 
@@ -426,7 +426,7 @@ This function is useful for quickly locating all the places where a clip is used
    :width: 400px
    :alt: kdenlive_clip-in-timeline
    
-   Locating all occurances of a clip
+   Locating all occurencies of a clip
 
 Selecting the :guilabel:`Clip In Timeline` menu item brings up a flyout that lists all instances of the selected clip, identified by their track (A for audio, V for video) and position in the Timeline. Clicking on an entry in the list will reposition the playhead to the beginning of the indicated clip.
 
@@ -503,7 +503,7 @@ This function is also available via the right-click menu of a clip selected in t
 Delete Clip
 -----------
 
-This function removes the clip from the Project Bin. It does not delete it from the file system. If the clip is being used in the Timeline a warning message will appear, and if you click on :guilabel:`Continue` any occurance of that clip in the Timeline will be deleted.
+This function removes the clip from the Project Bin. It does not delete it from the file system. If the clip is being used in the Timeline a warning message will appear, and if you click on :guilabel:`Continue` any occurence of that clip in the Timeline will be deleted.
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 

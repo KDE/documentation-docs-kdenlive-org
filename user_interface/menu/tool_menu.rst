@@ -66,7 +66,7 @@ Use this to cut clips in the timeline. Default keyboard shortcut is :kbd:`X`.
 Spacer Tool
 ~~~~~~~~~~~
 
-Use this to to create or remove space in the timeline between clips. Temporarily groups clips for dragging them for this purpose. Default keyboard shortcut is :kbd:`M`.
+Use this to create or remove space in the timeline between clips. Temporarily groups clips for dragging them for this purpose. Default keyboard shortcut is :kbd:`M`.
 
 
 Slip Tool
