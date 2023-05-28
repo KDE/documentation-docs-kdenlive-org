@@ -264,6 +264,16 @@ Kdenlive's application-wide persistent settings are stored in the following loca
      - :file:`%LocalAppData%\\knewstuff3` 
      - 
      - contains LUT definition
+   * - :file:`~/.local/share/kdenlive/speechmodels`
+     - :file:`%AppData%\\kdenlive\\speechmodels`
+     - 
+     - contains the VOSK models downloaded
+   * - :file:`~/.local/share/kdenlive/opencvmodels`
+     - :file:`%AppData%\\kdenlive\\opencvmodels`
+     - 
+     - contains the OpenCV models downloaded 
+
+
    
 **Windows**
 
