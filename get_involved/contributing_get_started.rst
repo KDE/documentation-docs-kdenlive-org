@@ -52,7 +52,7 @@ Before you start doing new changes again you have to pull the latest status from
 Now the process starts again with making changes.
 
 
-Prequisition
+Prerequisites
 ============
 
 With the example using Visual Studio Code.
