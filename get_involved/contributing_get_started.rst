@@ -47,7 +47,7 @@ Once done you stage (select the files you want to upload) and commit it. The you
 
 Then it gets checked by a “Developer” and if OK it gets merged into the Kdenlive manual.
 
-Before you start doing new changes again you have to pull the latest status from the Gitlab Kdenlive manual repository to your GitLab fork and then to your local repository. This, to make sure you work on the latest manual status as other contributors could have merged changes to other parts of the manual in the meantime.
+Before you start making new changes again you have to pull the latest status from the Gitlab Kdenlive manual repository to your GitLab fork and then to your local repository. This is to make sure you work on the latest manual status as other contributors could have merged changes to other parts of the manual in the meantime.
 
 Now the process starts again with making changes.
 
