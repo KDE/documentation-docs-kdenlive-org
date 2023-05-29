@@ -8,7 +8,7 @@
 
    :license: Creative Commons License SA 4.0
 
-..  This is a remark and only show up in the file itself
+..  See also KDE Typographical Guidelines: https://userbase.kde.org/Typographical_Guidelines
 
 
 .. _writing_style_guide:
@@ -78,6 +78,12 @@ Style
 * Be specific: Do not write *input device* when you mean the *mouse*.
 
 * Be entertaining: Each sentence describes something new.
+
+* Use bold text to highlight: **Window titles**, **Common labels that are not user-configurable**, **Icon captions**, **Program names**
+
+* Use italic text to emphasize: *Words or phrases as in general writing*, *Titles when referencing other works*, *The first use of an unfamiliar word*
+
+* Combined Bold and Italic Text: In restructured text this is only possible with additional code. 
 
 
 Putting a definition first
