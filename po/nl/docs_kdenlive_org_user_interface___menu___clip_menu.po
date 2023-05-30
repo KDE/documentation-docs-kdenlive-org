@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-29 00:40+0000\n"
-"PO-Revision-Date: 2023-05-28 16:43+0200\n"
+"PO-Revision-Date: 2023-05-29 15:46+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -89,6 +89,9 @@ msgid ""
 "You can create multiple Markers in the Guides widget for the clip selected "
 "in the Project Bin independent of the Timeline."
 msgstr ""
+"Om Markering toevoegen te laten werken moet een clip geselecteerd zijn in de "
+"tijdlijn. U kunt meerdere Markeringen in het widget Hulplijnen aanmaken voor "
+"de geselecteerde clip in de project-bin onafhankelijk van de tijdlijn."
 
 #: ../../user_interface/menu/clip_menu.rst:53
 msgid "Edit Marker..."
@@ -103,6 +106,12 @@ msgid ""
 "a time, or use them with :kbd:`ALT` to jump to the next or previous edit "
 "point (for example cuts, clip edges, Markers and Guides)."
 msgstr ""
+"Om dit te laten werken moet de afspeelkop bovenop een markering staan. Zo "
+"niet, dan krijgt u een fout linksonder \"Geen markering gevonden bij de "
+"Cursortijd\". Gebruik de toetsen :kbd:`Links` en :kbd:`Rechts` om de "
+"afspeelkop één frame tegelijk te verplaatsen of gebruik ze met :kbd:`ALT` om "
+"naar het volgende of vorige bewerkingspunt te springen (bijvoorbeeld "
+"knippen, clipranden, markeringen en hulplijnen)."
 
 #: ../../user_interface/menu/clip_menu.rst:57
 msgid ""
@@ -169,6 +178,11 @@ msgid ""
 "Bin and may take some time. A small progress bar underneath the clip "
 "indicates the progress."
 msgstr ""
+"Allen beschikbaar als de geselecteerde clip een videoclip is met een "
+"audiotrack. Deze functie extraheert de audio uit de clip en voegt het als "
+"een 48kHz :file:`wav` bestand toe aan de Project-bin. Het proces is actief "
+"als een Cliptaak in de Project-bin en kan enige tijd duren. Een kleine "
+"voortgangsbalk onderaan de clip geeft de voortgang aan."
 
 #: ../../user_interface/menu/clip_menu.rst:99
 #: ../../user_interface/menu/clip_menu.rst:119
@@ -223,6 +237,12 @@ msgid ""
 "to experiment with this parameter to get satisfactory results for your "
 "specific situation and source material."
 msgstr ""
+"Deze taak detecteert wijzigingen in de scene in de clip en maakt markeringen "
+"en/of knippen aan in de clip in sub-clips. De :guilabel:`Drempel wijzigen` "
+"bepaalt het verschil in de videostream om beschouwd te worden als een "
+"wijziging in de scene. U moet misschien experimenteren met deze parameter om "
+"bevredigende resultaten voor uw specifieke situatie en bronmateriaal te "
+"krijgen."
 
 #: ../../user_interface/menu/clip_menu.rst:135
 msgid ""
@@ -250,6 +270,9 @@ msgid ""
 "reduce the shakiness of a bit of footage. It is also available via the right-"
 "click menu of the clip in the Project Bin."
 msgstr ""
+"Dit onderdeel past afbeeldingsstabilisatie algoritmes toe op de clip wat het "
+"schudden en trillen van opnames kan reduceren. Deze is ook beschikbaar via "
+"het rechts-klikmenu van de clip in de Project-bin."
 
 #: ../../user_interface/menu/clip_menu.rst:188
 msgid "Stabilize Clip dialog in version 21.12"
@@ -260,6 +283,8 @@ msgid ""
 "Based on the tooltips from this screen and |vid.stab| this is what all the "
 "options mean:"
 msgstr ""
+"Gebaseerd op de hulpballonnen op dit scherm en |vid.stab| is dit wat alle "
+"opties inhouden:"
 
 #: ../../user_interface/menu/clip_menu.rst:193
 msgid "Accuracy"
@@ -364,6 +389,7 @@ msgstr "Maximale hoek"
 #: ../../user_interface/menu/clip_menu.rst:216
 msgid "Maximum angle to rotate in radians. Default = -1 (no limit)."
 msgstr ""
+"Maximale hoek in radialen voor roteren). Standaard = -1, (geen beperking)."
 
 #: ../../user_interface/menu/clip_menu.rst:219
 msgid "Crop"
@@ -374,6 +400,9 @@ msgid ""
 "Unchecked means the border of the transformed frames contains the pixels "
 "from previous frames. Checked = black background. Default is unchecked."
 msgstr ""
+"Uitgeschakeld houdt in dat de rand van de gewijzigde afbeeldingen de pixels "
+"van vorige afbeeldingen hebben. Ingeschakeld = zwarte achtergrond. Standaard "
+"is uitgeschakeld."
 
 #: ../../user_interface/menu/clip_menu.rst:222
 msgid "Zoom"
@@ -420,6 +449,8 @@ msgid ""
 "Sharpens transformed image. Amount of sharpening: 0 = no sharpening. Uses "
 "filter unsharp with 5x5 matrix. Default = 0.8."
 msgstr ""
+"Verscherpt de getransformeerde afbeelding. Getal voor verscherping: 0: geen  "
+"verscherping. Gebruikt filter unsharp met 5x5 matrix. Standaard = 0.8."
 
 #: ../../user_interface/menu/clip_menu.rst:234
 msgid "Show fields"
@@ -432,6 +463,10 @@ msgid ""
 "values of this parameter are not relevant in the **Kdenlive** implementation "
 "- use zero."
 msgstr ""
+"0 = toon niets, 1 of 2 = toon velden en transformaties. Gebruik 1 of 2 om te "
+"bekijken wat het proces gaat doen. Bekijk dit |example|. Standaard = 0. Voor "
+"deze parameter zijn waarden die niet nul zijn, niet relevant voor het "
+"**Kdenlive** programma - gebruik nul."
 
 #: ../../user_interface/menu/clip_menu.rst:237
 msgid "Tripod"
@@ -439,13 +474,15 @@ msgstr "Driepoot"
 
 #: ../../user_interface/menu/clip_menu.rst:237
 msgid "Virtual tripod mode (=relative=0, smoothing=0)"
-msgstr ""
+msgstr "Virtuele statiefmodus (=relatief=0, gladstrijken=0)"
 
 #: ../../user_interface/menu/clip_menu.rst:239
 msgid ""
 "Here are examples of the effect of running stabilize - transcoded by the "
 "original author - Georg Martius."
 msgstr ""
+"Hier zijn voorbeelden van het effect van een uitgevoerde stabilisatie - "
+"conversie van de originele auteur - Georg Martius."
 
 #: ../../user_interface/menu/clip_menu.rst:250
 #: ../../user_interface/menu/clip_menu.rst:258
@@ -457,6 +494,8 @@ msgid ""
 "This function is only available for clips selected in the Project Bin, and "
 "can be selected from the right-click menu of a clip."
 msgstr ""
+"Deze functie is alleen beschikbaar voor cips geselecteerd in de project-bin "
+"en kan geselecteerd worden uit het rechts-klikmenu van een clip."
 
 #: ../../user_interface/menu/clip_menu.rst:260
 msgid ""
@@ -481,7 +520,7 @@ msgstr "Clip dupliceren met een verandering van snelheid in project-bin"
 
 #: ../../user_interface/menu/clip_menu.rst:275
 msgid "Same as above but with Speed Change folder"
-msgstr ""
+msgstr "Hetzelfde als hier boven maar met map voor wijziging van snelheid"
 
 #: ../../user_interface/menu/clip_menu.rst:277
 msgid ""
@@ -489,6 +528,9 @@ msgid ""
 "It has the filename you supplied in the dialog with the :file:`.mlt` "
 "extension."
 msgstr ""
+"Wanneer u op :guilabel:`Opslaan` klikt wordt een nieuwe clip aangemaakt in "
+"de project-bin. Het heeft de bestandsnaam die u opgaf in de dialoog met de "
+"extensie :file:`.mlt`."
 
 #: ../../user_interface/menu/clip_menu.rst:279
 msgid ""
@@ -503,7 +545,7 @@ msgstr "Cliptaken configureren"
 
 #: ../../user_interface/menu/clip_menu.rst:296
 msgid "Manage Bin Clip Jobs dialog"
-msgstr ""
+msgstr "Dialoog van Bin-cliptaken beheren"
 
 #: ../../user_interface/menu/clip_menu.rst:298
 msgid ""
@@ -529,6 +571,9 @@ msgid ""
 "Click on the :guilabel:`+` to create a new custom clip job. In order to "
 "delete one select it first then click on the trashcan icon."
 msgstr ""
+"Klik op de :guilabel:`+` om een nieuwe aangepaste cliptaak aan te maken. Om "
+"er een te verwijderen selecteer er eerst een en klik daarna op het pictogram "
+"Prullenbak."
 
 #: ../../user_interface/menu/clip_menu.rst:310
 msgid "Transcode to Edit Friendly Format"
@@ -536,7 +581,7 @@ msgstr "Opnieuw coderen (transcoderen) naar bewerkingsvriendelijkformaat"
 
 #: ../../user_interface/menu/clip_menu.rst:317
 msgid "Transcode clip to edit-friendly format"
-msgstr ""
+msgstr "Clip opnieuw coderen (transcoderen) naar bewerkingsvriendelijk formaat"
 
 #: ../../user_interface/menu/clip_menu.rst:319
 msgid ""
@@ -549,12 +594,16 @@ msgstr ""
 #: ../../user_interface/menu/clip_menu.rst:321
 msgid "You can select more than one clip in the Project Bin for this function."
 msgstr ""
+"U kunt meer dan een clip in de project-bin voor deze functie selecteren."
 
 #: ../../user_interface/menu/clip_menu.rst:323
 msgid ""
 "There are several formats available, some are lossless (producing huge "
 "files), some produce a slight degradation in quality."
 msgstr ""
+"Er zijn verschillende formaten beschikbaar, sommige zijn zonder verlies (die "
+"enorme bestanden produceren), sommigen produceren en lichte degradatie in "
+"kwaliteit."
 
 #: ../../user_interface/menu/clip_menu.rst:331
 msgid "Transcode"
