@@ -162,7 +162,7 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
 
 It handles AV clips as 1 element, doesn't matter on which track they are. This function is only in the Timeline menu available this to avoid clutter. 
 
-More details see :ref:`remove_space`.
+More details see :ref:`timeline_space-remove`.
 
 .. _timeline_toolbar2:
 
@@ -561,7 +561,7 @@ When on, the audio clip will have a wave representation of the audio data as wel
 Show marker comments
 ~~~~~~~~~~~~~~~~~~~~
 
-This toggles on and off the display of :ref:`markers` saved within :ref:`clips` (the text with the gold background in the example below) and within :ref:`guides` (the text with the purple background).
+This toggles on and off the display of :ref:`markers` saved within :ref:`clips` (the text with the gold background in the example below) and within :doc:`guides` (the text with the purple background).
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
    :alt: markers and guides
@@ -573,7 +573,7 @@ Snap
 When this feature is on, dragging the beginning of one clip near to the end of another will result at the end of the first clip snapping into place to be perfectly aligned with the beginning of the second clip. As you move the two ends near to each other, as soon as they get within a certain small distance, they snap together so there is no space and no overlap. Note that this occurs even if the clips are on different tracks in the timeline.
 
 
-Clips will also snap to the cursor position, markers and :ref:`guides`.
+Clips will also snap to the cursor position, markers and :doc:`guides`.
 
 
 Fit Zoom to Project

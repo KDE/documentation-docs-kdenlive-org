@@ -238,12 +238,22 @@ To import keyframes from the clipboard click on |application-menu| inside the ke
 
 .. rst-class:: clear-both
 
-Master effect
+
+.. _effects-master_effect:
+
+Master Effect
 -------------
 
 .. versionadded:: 19.12..0
 
-The ability to apply audio or video effects to all tracks. See :ref:`master_effect` 
+If you want to apply audio or video effects throughout the whole video. Click on the :guilabel:`Master` button above track headers to see the Master Effect Stack where you can add effects just like with clips or tracks.
+
+.. figure:: /images/effects_and_compositions/master.gif
+   :alt: master
+   :width: 100%
+
+   Adding a Sepia effect to the entire video
+
 
 Effect Zones
 ------------
