@@ -256,6 +256,12 @@ rst_epilog = """
 .. |preview-remove-all.svg| image:: /images/icons/preview-remove-all.svg
    :width: 22px
 
+.. |zone-in.svg| image:: /images/icons/zone-in.svg
+   :width: 22px
+
+.. |zone-out.svg| image:: /images/icons/zone-out.svg
+   :width: 22px
+
 
 .. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
    :width: 480px
