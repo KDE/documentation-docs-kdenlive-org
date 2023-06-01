@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-29 00:40+0000\n"
-"PO-Revision-Date: 2022-12-12 16:11+0000\n"
+"PO-Revision-Date: 2023-05-31 18:37+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -20,19 +20,20 @@ msgstr ""
 "X-POFile-SpellExtra: transitions projecttree extractaudio stabilize\n"
 "X-POFile-SpellExtra: automaticscenesplit duplicateclipwithspeedchange\n"
 "X-POFile-SpellExtra: transcode clipintimeline editclip deleteclip\n"
-"X-POFile-SpellExtra: menumarkers\n"
+"X-POFile-SpellExtra: menumarkers Tremuras Mín ips clips kbd ALT guilabel\n"
+"X-POFile-SpellExtra: vid stab Glaxnimate defaultapps\n"
 
 #: ../../user_interface/menu/clip_menu.rst:1
 msgid "|Side by side|"
-msgstr ""
+msgstr "|Lado-a-lado|"
 
 #: ../../user_interface/menu/clip_menu.rst:1
 msgid "|Deshaked|"
-msgstr ""
+msgstr "|Sem tremuras|"
 
 #: ../../user_interface/menu/clip_menu.rst:1
 msgid "|Original|"
-msgstr ""
+msgstr "|Original|"
 
 #: ../../user_interface/menu/clip_menu.rst:23
 #: ../../user_interface/menu/clip_menu.rst:31
@@ -40,59 +41,50 @@ msgid "Clip Menu"
 msgstr "Menu do 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:25
-#, fuzzy
-#| msgid ""
-#| "The functions controlled from this menu affect the clip that is selected "
-#| "in the timeline. This is in contrast to :ref:`project_menu` functions "
-#| "which affect the clips selected in the Project Bin."
 msgid ""
 "The functions in this menu affect the clip that is selected in the Timeline "
 "**or** in the Project Bin. Menu functions are available depending on whether "
 "a clip is selected in the Project Bin or in the Timeline."
-msgstr ""
-"As funções controladas a partir deste menu afectam o 'clip' que está "
-"seleccionado na linha temporal. Isto acontece em contraste com as funções "
-"do :ref:`project_menu` que afectam os 'clip' seleccionados no Grupo do "
-"Projecto."
+msgstr "As funções controladas a partir deste menu afectam o 'clip' que está seleccionado na linha temporal **ou** no Grupo do Projecto. Isto acontece em contraste com as funções do :ref:`project_menu` que afectam os 'clip' seleccionados no Grupo do Projecto ou na Linha Temporal."
 
 #: ../../user_interface/menu/clip_menu.rst:38
 msgid "Markers"
-msgstr ""
+msgstr "Marcadores"
 
 #: ../../user_interface/menu/clip_menu.rst:40
 msgid ""
 "The menu allows you to Add, Edit or Delete Markers or Guides. For more "
 "details see the section about :ref:`Markers` in this documentation."
-msgstr ""
+msgstr "O menu permite-lhe adicionar, editar ou remover marcadores ou guias. Para mais detalhes, veja a secção sobre os :ref:`Marcadores` nesta documentação."
 
 #: ../../user_interface/menu/clip_menu.rst:42
 msgid ""
 "The Add Marker function behaves differently depending on whether a clip is "
 "selected in the Project Bin or in the Timeline **and** where the playhead is "
 "currently **and** whether the focus is on the Timeline or the Clip Monitor."
-msgstr ""
+msgstr "A função para Adicionar um Marcador comporta-se de forma diferente, dependendo se um 'clip' é seleccionado no Grupo do Projecto ou na Linha Temporal **e** onde a posição de reprodução se encontra de momento **e** se é a Linha Temporal ou o Monitor do 'Clip' que está em primeiro plano."
 
 #: ../../user_interface/menu/clip_menu.rst:45
 msgid "Add Marker"
-msgstr ""
+msgstr "Adicionar um Marcador"
 
 #: ../../user_interface/menu/clip_menu.rst:47
 msgid ""
 "Adds a Marker to the clip at the current timepoint. Markers are properties "
 "of the clips in the Project Bin. So this action puts a marker in the clip in "
 "the Project Bin."
-msgstr ""
+msgstr "Adiciona um Marcador ao 'clip' no ponto temporal actual. Os marcadores são propriedades dos 'clips' no Grupo do Projecto. Como tal, esta acção coloca um marcador no 'clip' no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:49
 msgid ""
 "In order for the Add Marker to work a clip must be selected in the Timeline. "
 "You can create multiple Markers in the Guides widget for the clip selected "
 "in the Project Bin independent of the Timeline."
-msgstr ""
+msgstr "Para que a opção Adicionar um Marcador funcione, deverá seleccionar um 'clip' na Linha Temporal. Poderá criar vários marcadores no elemento das Guias para o 'clip' seleccionado no Grupo do Projecto, independentemente da Linha Temporal."
 
 #: ../../user_interface/menu/clip_menu.rst:53
 msgid "Edit Marker..."
-msgstr ""
+msgstr "Editar o Marcador..."
 
 #: ../../user_interface/menu/clip_menu.rst:55
 #: ../../user_interface/menu/clip_menu.rst:63
@@ -102,18 +94,18 @@ msgid ""
 "Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at "
 "a time, or use them with :kbd:`ALT` to jump to the next or previous edit "
 "point (for example cuts, clip edges, Markers and Guides)."
-msgstr ""
+msgstr "Para isto funcionar, o cursor de reprodução precisa de estar mesmo em cima de um Marcador. Se não estiver, irá obter um erro do tipo \"Não foi encontrado nenhum marcador na hora do cursor\". Use as teclas :kbd:`Esquerda` e :kbd:`Direita` para mover o cursor de reprodução uma imagem de cada vez, ou usá-las com o :kbd:`ALT` para ir para o ponto de edição anterior ou seguinte (por exemplo, cortes, extremos do 'clip', marcadores e guias)."
 
 #: ../../user_interface/menu/clip_menu.rst:57
 msgid ""
 "As Markers are properties of the clips in the Project Bin, this action "
 "changes the Marker from the clip in the Project Bin and thus in any other "
 "instance of this clip in the Timeline."
-msgstr ""
+msgstr "Dado que os Marcadores são propriedades dos 'clips' no Grupo do Projecto, esta acção muda o Marcador do 'clip' no Grupo do Projecto e, deste modo, para qualquer outra instância deste 'clip' na Linha Temporal."
 
 #: ../../user_interface/menu/clip_menu.rst:61
 msgid "Delete Marker"
-msgstr ""
+msgstr "Apagar o Marcador"
 
 #: ../../user_interface/menu/clip_menu.rst:65
 #: ../../user_interface/menu/clip_menu.rst:73
@@ -121,15 +113,15 @@ msgid ""
 "As Markers are properties of the clips in the Project Bin, this action "
 "removes the Marker from the clip in the Project Bin and thus from any other "
 "instance of this clip in the Timeline."
-msgstr ""
+msgstr "Dado que os Marcadores são propriedades dos 'clips' no Grupo do Projecto, esta acção remove o Marcador do 'clip' no Grupo do Projecto e, deste modo, de qualquer outra instância deste 'clip' na Linha Temporal."
 
 #: ../../user_interface/menu/clip_menu.rst:69
 msgid "Delete All Markers"
-msgstr ""
+msgstr "Apagar Todos os Marcadores"
 
 #: ../../user_interface/menu/clip_menu.rst:71
 msgid "Deletes all Markers from the current clip."
-msgstr ""
+msgstr "Apaga todos os Marcadores do 'clip' actual."
 
 #: ../../user_interface/menu/clip_menu.rst:77
 msgid "Automatic Transition"
@@ -145,17 +137,16 @@ msgstr ""
 
 #: ../../user_interface/menu/clip_menu.rst:87
 msgid "Delete Effects"
-msgstr ""
+msgstr "Apagar os Efeitos"
 
 #: ../../user_interface/menu/clip_menu.rst:89
 msgid "Deletes all effects from the selected clip."
-msgstr ""
+msgstr "Apaga todos os efeitos do 'clip' seleccionado."
 
 #: ../../user_interface/menu/clip_menu.rst:95
-#, fuzzy
 #| msgid ":ref:`extract_audio`"
 msgid "Extract Audio"
-msgstr ":ref:`extract_audio`"
+msgstr "Extrair o Áudio"
 
 #: ../../user_interface/menu/clip_menu.rst:97
 msgid ""
@@ -164,58 +155,51 @@ msgid ""
 "`wav` file to the Project Bin. The process runs as a Clip Job in the Project "
 "Bin and may take some time. A small progress bar underneath the clip "
 "indicates the progress."
-msgstr ""
+msgstr "Só está disponível se o 'clip' seleccionado for um 'clip' de vídeo com uma faixa de áudio. Esta função extrai o áudio do 'clip' e adiciona-o como um ficheiro :file:`wav` a 48kHz no Grupo do Projecto. O processo corre como uma Tarefa do 'Clip' no Grupo do Projecto e poderá demorar algum tempo. Irá aparecer uma pequena barra de progresso por baixo do 'clip' a indicar a evolução."
 
 #: ../../user_interface/menu/clip_menu.rst:99
 #: ../../user_interface/menu/clip_menu.rst:119
 msgid ""
 "This function is also available via the right-click menu of the clip in the "
 "Project Bin."
-msgstr ""
+msgstr "Esta função também está disponível no menu do botão direito do 'clip' no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:103
 msgid "Clip Jobs"
-msgstr ""
+msgstr "Tarefas do 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:107
 msgid "Opens a flyout to select different options:"
-msgstr ""
+msgstr "Abre uma área deslizante para seleccionar diferentes opções:"
 
 #: ../../user_interface/menu/clip_menu.rst:109
-#, fuzzy
-#| msgid ":ref:`automaticscenesplit`"
 msgid "`Automatic Scene Split`_"
-msgstr ":ref:`automaticscenesplit`"
+msgstr "`Divisão Automática da Cena`_"
 
 #: ../../user_interface/menu/clip_menu.rst:111
-#, fuzzy
-#| msgid ":ref:`stabilize`"
 msgid "`Stabilize`_"
-msgstr ":ref:`stabilize`"
+msgstr "`Estabilizar`_"
 
 #: ../../user_interface/menu/clip_menu.rst:113
-#, fuzzy
-#| msgid ":ref:`duplicate_clip_with_speed_change`"
 msgid "`Duplicate Clip with Speed Change`_"
-msgstr ":ref:`duplicate_clip_with_speed_change`"
+msgstr "`Duplicar o 'Clip' com Mudança da Velocidade`_"
 
 #: ../../user_interface/menu/clip_menu.rst:115
 msgid "My Clip Job (this may look different in your environment)"
-msgstr ""
+msgstr "Tarefa do Menu 'Clip' (isto poderá aparecer diferente no seu ambiente)"
 
 #: ../../user_interface/menu/clip_menu.rst:117
 msgid "`Configure Clip Jobs`_"
-msgstr ""
+msgstr "`Configurar as Tarefas do 'Clip'`_"
 
 #: ../../user_interface/menu/clip_menu.rst:125
-#, fuzzy
 #| msgid ":ref:`automaticscenesplit`"
 msgid "Automatic Scene Split"
-msgstr ":ref:`automaticscenesplit`"
+msgstr "Divisão Automática de Cenas"
 
 #: ../../user_interface/menu/clip_menu.rst:131
 msgid "Scene Detection"
-msgstr ""
+msgstr "Detecção das Cenas"
 
 #: ../../user_interface/menu/clip_menu.rst:133
 msgid ""
@@ -224,58 +208,57 @@ msgid ""
 "difference in the video stream to be considered a scene change. You may need "
 "to experiment with this parameter to get satisfactory results for your "
 "specific situation and source material."
-msgstr ""
+msgstr "Esta tarefa detecta as mudanças de cenas no 'clip' e cria marcadores e/ou cortes do 'clip' em sub-clips. A opção :guilabel:`Mudar o limiar` determina a diferença na transmissão de vídeo para ser considerada uma mudança de cena. Poderá ter de experimentar este parâmetro para obter resultados satisfatórios na sua situação específica e material de origem."
 
 #: ../../user_interface/menu/clip_menu.rst:135
 msgid ""
 "If you want Kdenlive to create sub-clips for each scene check the :guilabel:"
 "`Cut scenes`."
-msgstr ""
+msgstr "Se quiser que o Kdenlive crie sub-clips para cada cena, assinale a opção :guilabel:`Cortar as cenas`."
 
 #: ../../user_interface/menu/clip_menu.rst:141
 msgid "Automatic Scene Detection with markers"
-msgstr ""
+msgstr "Detecção Automática das Cenas com marcadores"
 
 #: ../../user_interface/menu/clip_menu.rst:147
 msgid "Automatic Scene Detection with cuts"
-msgstr ""
+msgstr "Detecção Automática das Cenas com cortes"
 
 #: ../../user_interface/menu/clip_menu.rst:155
-#, fuzzy
 #| msgid ":ref:`stabilize`"
 msgid "Stabilize"
-msgstr ":ref:`stabilize`"
+msgstr "Estabilizar"
 
 #: ../../user_interface/menu/clip_menu.rst:182
 msgid ""
 "This feature applies image stabilization algorithms to the clip which can "
 "reduce the shakiness of a bit of footage. It is also available via the right-"
 "click menu of the clip in the Project Bin."
-msgstr ""
+msgstr "Esta funcionalidade aplica os algoritmos de estabilização da imagem ao 'clip', o que poderá reduzir as tremuras de uma parte da filmagem. Também está disponível através do menu do botão direito do 'clip' no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:188
 msgid "Stabilize Clip dialog in version 21.12"
-msgstr ""
+msgstr "Janela para Estabilizar o 'Clip' na versão 21.12"
 
 #: ../../user_interface/menu/clip_menu.rst:190
 msgid ""
 "Based on the tooltips from this screen and |vid.stab| this is what all the "
 "options mean:"
-msgstr ""
+msgstr "Com base nas dicas deste ecrã e do |vid.stab|, isto é tudo o que significam as opções:"
 
 #: ../../user_interface/menu/clip_menu.rst:193
 msgid "Accuracy"
-msgstr ""
+msgstr "Precisão"
 
 #: ../../user_interface/menu/clip_menu.rst:193
 msgid ""
 "Accuracy of shakiness detection. Should be >= shakiness factor. 1: low (fast "
 "processing). 15: high (slow processing). Default: 4. Recommended: 8."
-msgstr ""
+msgstr "A precisão da detecção da instabilidade. Deverá ser >= factor de instabilidade. 1: baixo (processamento rápido). 15: alto (processamento lento). Por omissão: 4. Recomendado: 8."
 
 #: ../../user_interface/menu/clip_menu.rst:196
 msgid "Shakiness"
-msgstr ""
+msgstr "Tremuras"
 
 #: ../../user_interface/menu/clip_menu.rst:196
 msgid ""
@@ -283,27 +266,27 @@ msgid ""
 "processing). 10: very strong/quick (slow processing). Default = 4. Note: "
 "large values may also reduce the accuracy. This is due to the internals of "
 "the movement detection. Typically you do not need a value greater than 7."
-msgstr ""
+msgstr "Quão tremido está o vídeo? E quão rápida é a câmara? 1: pouco (processamento rápido). 10: muito forte/rápido (processamento lento). Por omissão = 4. Nota: os valores elevados também podem reduzir a precisão. Isto deve-se ao funcionamento interno da detecção dos movimentos. Tipicamente não precisa de um valor superior a 7."
 
 #: ../../user_interface/menu/clip_menu.rst:199
 msgid "Stepsize"
-msgstr ""
+msgstr "Tamanho do passo"
 
 #: ../../user_interface/menu/clip_menu.rst:199
 msgid ""
 "Step size of search process. Region around minimum is scanned with 1 pixel "
 "resolution. Default = 6."
-msgstr ""
+msgstr "Tamanho do passo do processo de pesquisa. A região em torno do mínimo é analisada com a resolução de 1 pixel. Por omissão = 6."
 
 #: ../../user_interface/menu/clip_menu.rst:202
 msgid "Min. contrast"
-msgstr ""
+msgstr "Mín. de contraste"
 
 #: ../../user_interface/menu/clip_menu.rst:202
 msgid ""
 "Below this contrast the field is discarded. Range 0-1. Default = 0.3. You "
 "may want to use a smaller value for a really low contrast clip."
-msgstr ""
+msgstr "Abaixo deste contraste, o campo é descartado. Intervalo 0-1. Por omissão = 0,3. Poderá querer usar um valor menor para uma 'clip' de contraste realmente baixo."
 
 #: ../../user_interface/menu/clip_menu.rst:205
 msgid ""
@@ -311,92 +294,92 @@ msgid ""
 "smoothing the more camera movements are compensated. The resulting clip has "
 "a lower change in camera speed. Technically it is the number of frames for "
 "lowpass filtering = (smoothing * 2) + 1."
-msgstr ""
+msgstr "Controla a quantidade de suavização/estabilização. Quanto maior o valor da suavização, mais movimentos da câmara serão compensados. O 'clip' resultante tem uma menor alteração na velocidade da câmara. Tecnicamente é o número de imagens para a filtragem passa-baixo = (suavização * 2) + 1."
 
 #: ../../user_interface/menu/clip_menu.rst:208
 msgid ""
 "For example, with a with 25 fps clip, a value of 12 for the smoothing factor "
 "means we would smooth over one second - 12 frames behind the current frame + "
 "the current frame (1) + 12 frames after the current frame. Default =   10."
-msgstr ""
+msgstr "Por exemplo, com um 'clip' de 25 ips, um valor de 12 para o factor de suavização significa que teríamos de suavizar ao longo de um segundo - 12 imagens abaixo da imagem actual + a imagem actual (1) + 12 imagens depois da imagem actual. Por omissão = 10."
 
 #: ../../user_interface/menu/clip_menu.rst:210
 msgid "Smoothing"
-msgstr ""
+msgstr "Suavização"
 
 #: ../../user_interface/menu/clip_menu.rst:210
 msgid "|demo| (top:3, bottom: 30)."
-msgstr ""
+msgstr "|demo| (topo:3, fundo: 30)."
 
 #: ../../user_interface/menu/clip_menu.rst:213
 msgid "Max shift"
-msgstr ""
+msgstr "Desvio máximo"
 
 #: ../../user_interface/menu/clip_menu.rst:213
 msgid "Maximum number of pixels to translate image. Default = -1 (no limit)"
-msgstr ""
+msgstr "O número máximo de pixels para transladar a imagem. Por omissão = -1 (sem limite)"
 
 #: ../../user_interface/menu/clip_menu.rst:216
 msgid "Max angle"
-msgstr ""
+msgstr "Ângulo máximo"
 
 #: ../../user_interface/menu/clip_menu.rst:216
 msgid "Maximum angle to rotate in radians. Default = -1 (no limit)."
-msgstr ""
+msgstr "Ângulo máximo de rotação em radianos. Por omissão = -1 (sem limite)."
 
 #: ../../user_interface/menu/clip_menu.rst:219
 msgid "Crop"
-msgstr ""
+msgstr "Recortar"
 
 #: ../../user_interface/menu/clip_menu.rst:219
 msgid ""
 "Unchecked means the border of the transformed frames contains the pixels "
 "from previous frames. Checked = black background. Default is unchecked."
-msgstr ""
+msgstr "Se não estiver assinalado, significa que o contorno das imagens transformadas contém os pixels das imagens anteriores. Assinalado = fundo preto. Por omissão, não está assinalado."
 
 #: ../../user_interface/menu/clip_menu.rst:222
 msgid "Zoom"
-msgstr ""
+msgstr "Ampliação"
 
 #: ../../user_interface/menu/clip_menu.rst:222
 msgid ""
 "Additional zoom during transform. Percentage to zoom > 0 = zoom in, < 0 = "
 "zoom out. The zoom specified here is in addition to the optimum zoom "
 "calculated by the program when optzoom is checked. Default = 0."
-msgstr ""
+msgstr "Uma ampliação adicional durante a transformação. A percentagem a ampliar > 0 = ampliação, < 0 = redução. A ampliação aqui definida é uma adição ao factor de ampliação calculado pelo programa quando a ampliação óptima está activada. Por omissão = 0."
 
 #: ../../user_interface/menu/clip_menu.rst:225
 msgid "Optimal Zoom"
-msgstr ""
+msgstr "Ampliação Óptima"
 
 #: ../../user_interface/menu/clip_menu.rst:225
 msgid ""
 "Use optimal zoom (calculated from transforms). Causes video to zoom until "
 "90% of transformations are hidden. Default is checked. Hint: You can further "
 "zoom in with the zoom option."
-msgstr ""
+msgstr "Usar a ampliação óptima (calculada a partir das transformações). Faz com que o vídeo amplie até que 90% das transformações fiquem escondidas. Por omissão, está assinalada. Sugestão: poderá ampliar ainda mais com a opção de ampliação."
 
 #: ../../user_interface/menu/clip_menu.rst:228
 msgid "Optimal Zoom Speed"
-msgstr ""
+msgstr "Velocidade de Ampliação Óptima"
 
 #: ../../user_interface/menu/clip_menu.rst:228
 msgid "Zoom per frame (used when \"Optimal Zoom\" = 2)"
-msgstr ""
+msgstr "Ampliação por imagem (usada quando a opção \"Ampliação Óptima\" = 2)"
 
 #: ../../user_interface/menu/clip_menu.rst:231
 msgid "Sharpen"
-msgstr ""
+msgstr "Afiamento"
 
 #: ../../user_interface/menu/clip_menu.rst:231
 msgid ""
 "Sharpens transformed image. Amount of sharpening: 0 = no sharpening. Uses "
 "filter unsharp with 5x5 matrix. Default = 0.8."
-msgstr ""
+msgstr "Aumenta a nitidez da imagem transformada. Quantidade de afiamento: 0 = sem afiamento. Usa a máscara não-afiada ocm uma matriz de 5x5. Por omissão = 0,8."
 
 #: ../../user_interface/menu/clip_menu.rst:234
 msgid "Show fields"
-msgstr ""
+msgstr "Mostrar os campos"
 
 #: ../../user_interface/menu/clip_menu.rst:234
 msgid ""
@@ -404,34 +387,32 @@ msgid ""
 "what the process is going to do. Check this |example|. Default = 0. Non-zero "
 "values of this parameter are not relevant in the **Kdenlive** implementation "
 "- use zero."
-msgstr ""
+msgstr "0 = não desenhar nada, 1 ou 2 = mostrar os campos e transformações. Use 1 ou 2 para antever o que o processo irá fazer. Veja este |exemplo|. Por omissão = 0. Os valores diferentes de zero deste parâmetro não são relevantes na implementação do **Kdenlive** - use o zero."
 
 #: ../../user_interface/menu/clip_menu.rst:237
 msgid "Tripod"
-msgstr ""
+msgstr "Tripé"
 
 #: ../../user_interface/menu/clip_menu.rst:237
 msgid "Virtual tripod mode (=relative=0, smoothing=0)"
-msgstr ""
+msgstr "Modo de tripé virtual (=relativo=0, suavização=0)"
 
 #: ../../user_interface/menu/clip_menu.rst:239
 msgid ""
 "Here are examples of the effect of running stabilize - transcoded by the "
 "original author - Georg Martius."
-msgstr ""
+msgstr "Aqui estão alguns exemplos do efeito de execução da estabilização - convertido pelo autor original - Georg Martius."
 
 #: ../../user_interface/menu/clip_menu.rst:250
 #: ../../user_interface/menu/clip_menu.rst:258
-#, fuzzy
-#| msgid ":ref:`duplicate_clip_with_speed_change`"
 msgid "Duplicate Clip with Speed Change"
-msgstr ":ref:`duplicate_clip_with_speed_change`"
+msgstr "Duplicar o 'Clip' com Mudança da Velocidade"
 
 #: ../../user_interface/menu/clip_menu.rst:252
 msgid ""
 "This function is only available for clips selected in the Project Bin, and "
 "can be selected from the right-click menu of a clip."
-msgstr ""
+msgstr "Esta função só está disponível para os 'clips' seleccionados no Grupo do Projecto, e poderá ser seleccioado com o menu do botão direito de um 'clip'."
 
 #: ../../user_interface/menu/clip_menu.rst:260
 msgid ""
@@ -440,7 +421,7 @@ msgid ""
 "clip by entering a speed of minus 100%. Values above 100% speed the clip up, "
 "values below 100% slow it down. With the new version of the clip job the "
 "sound in the clip is also reversed."
-msgstr ""
+msgstr "Esta funcionalidade costumava ser *Inverter o Clip* e ficou disponível pela primeira vez na versão 0.9.6 do Kdenlive. Desde a versão 17.04, pode ser usado à mesma para inverter o 'clip', indicando uma velocidade negativa de 100%. Os valores acima de 100% aceleram o 'clip', enquanto os valores abaixo de 100% ficam mais lentos. Com a nova versão da tarefa do 'clip', o som no 'clip' também fica invertido."
 
 #: ../../user_interface/menu/clip_menu.rst:262
 msgid ""
@@ -448,39 +429,37 @@ msgid ""
 "speech when speeding up the clip. If you check :guilabel:`Add clip to "
 "\"Speed Change\" folder` a folder named \"Speed Change\" is created in the "
 "Project Bin and the clip added to it."
-msgstr ""
+msgstr "Seleccione a :guilabel:`Compensação da frequência` para evitar o efeito de Rato Mickey na fala, quando acelerar o 'clip'. Se assinalar a opção :guilabel:`Adicionar o 'clip' à pasta \"Speed Change\"`, será criada uma pasta \"Speed Change\" (Mudança de Velocidade) no Grupo do Projecto e o 'clip' será adicionado à mesma."
 
 #: ../../user_interface/menu/clip_menu.rst:269
-#, fuzzy
-#| msgid ":ref:`duplicate_clip_with_speed_change`"
 msgid "Duplicate Clip with speed change in Project Bin"
-msgstr ":ref:`duplicate_clip_with_speed_change`"
+msgstr "Duplicar o 'clip' com mudança da velocidade no Grupo do Projecto"
 
 #: ../../user_interface/menu/clip_menu.rst:275
 msgid "Same as above but with Speed Change folder"
-msgstr ""
+msgstr "Igual ao anterior, mas com a pasta 'Speed Change'"
 
 #: ../../user_interface/menu/clip_menu.rst:277
 msgid ""
 "When you click on :guilabel:`Save` a new clip is created in the Project Bin. "
 "It has the filename you supplied in the dialog with the :file:`.mlt` "
 "extension."
-msgstr ""
+msgstr "Quando carregar em :guilabel:`Gravar`, será criado um 'clip' no Grupo do Projecto. Tem o nome do ficheiro que indicou na janela com a extensão :file:`.mlt`."
 
 #: ../../user_interface/menu/clip_menu.rst:279
 msgid ""
 "You can add this clip to the Timeline just like any other, and when you play "
 "it the video of the original source clip will be played but at the new speed "
 "(or in reverse if a negative % value was entered)."
-msgstr ""
+msgstr "Poderá adicionar este 'clip' na Linha Temporal, como acontecia com outro qualquer, e quando o reproduzir, o vídeo do 'clip' original sera reproduzido mas com a nova velocidade (ou ao contrário se for indicado um valor de % negativo)."
 
 #: ../../user_interface/menu/clip_menu.rst:287
 msgid "Configure Clip Jobs"
-msgstr ""
+msgstr "Configurar as Tarefas do 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:296
 msgid "Manage Bin Clip Jobs dialog"
-msgstr ""
+msgstr "Janela para gerir as Tarefas do 'Clip' do Grupo"
 
 #: ../../user_interface/menu/clip_menu.rst:298
 msgid ""
@@ -490,7 +469,7 @@ msgid ""
 "the executable. ''%1'' will be replaced by the path of the source clip. If "
 "you do not specify an output file extension the extension of the source file "
 "will be used."
-msgstr ""
+msgstr "Isto abre a janela para Gerir as Tarefas do 'Clip' do Grupo. Aqui poderá criar e gerir as suas próprias tarefas que poderão então ser aplicadas aos 'clips' no Grupo do Projecto. Seleccione o executável que deseja invocar e indique os argumentos a passar ao executável. O ''%1'' será substituído pela localização do 'clip' de origem. Se não indicar uma extensão para o ficheiro de saída, será usada a extensão do ficheiro de origem."
 
 #: ../../user_interface/menu/clip_menu.rst:300
 msgid ""
@@ -499,21 +478,21 @@ msgid ""
 "folder`, :guilabel:`Placed at the top level`, or Kdenlive shall :guilabel:"
 "`Use a subfolder` to save it. In the latter case you need to enter a folder "
 "name."
-msgstr ""
+msgstr "A menos que queira que o 'clip' original seja substituído pelo resultado, seleccione se o 'clip' resultante será :guilabel:`Colocado na pasta do 'clip' original`, :guilabel:`Colocado no nível de topo`, ou se o Kdenlive deverá :guilabel:`Usar uma sub-pasta` para o gravar. No último caso, precisa de indicar o nome de uma pasta."
 
 #: ../../user_interface/menu/clip_menu.rst:302
 msgid ""
 "Click on the :guilabel:`+` to create a new custom clip job. In order to "
 "delete one select it first then click on the trashcan icon."
-msgstr ""
+msgstr "Carregue no :guilabel:`+` para criar uma nova tarefa de 'clip' personalizada. Para poder remover uma, seleccione-a primeiro e depois carregue no ícone do caixote do lixo."
 
 #: ../../user_interface/menu/clip_menu.rst:310
 msgid "Transcode to Edit Friendly Format"
-msgstr ""
+msgstr "Converter para um Formato Amigável de Edição"
 
 #: ../../user_interface/menu/clip_menu.rst:317
 msgid "Transcode clip to edit-friendly format"
-msgstr ""
+msgstr "Converter o 'clip' para um formato amigável de edição"
 
 #: ../../user_interface/menu/clip_menu.rst:319
 msgid ""
@@ -521,59 +500,58 @@ msgid ""
 "case your source material is not suitable for non-linear video editing. This "
 "function is also available via the right-click menu for the clip(s) selected "
 "in the Project Bin."
-msgstr ""
+msgstr "Isto abre uma janela onde poderá seleccionar um formato amigável para edição, no caso de o seu material original não ser adequado para a edição de vídeo não-linear. Esta função também está disponível através do menu do botão direito para os 'clips' seleccionados no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:321
 msgid "You can select more than one clip in the Project Bin for this function."
-msgstr ""
+msgstr "Poderá seleccionar mais que um 'clip' no Grupo do Projecto para esta função."
 
 #: ../../user_interface/menu/clip_menu.rst:323
 msgid ""
 "There are several formats available, some are lossless (producing huge "
 "files), some produce a slight degradation in quality."
-msgstr ""
+msgstr "Existem diversos formatos disponíveis, sendo que alguns são sem perdas (produzindo ficheiros enormes) e outros produzindo uma ligeira degradação na qualidade."
 
 #: ../../user_interface/menu/clip_menu.rst:331
-#, fuzzy
 #| msgid ":ref:`transcode`"
 msgid "Transcode"
-msgstr ":ref:`transcode`"
+msgstr "Codificação"
 
 #: ../../user_interface/menu/clip_menu.rst:336
 msgid ""
 "Use this function to transcode your source material into a wide variety of "
 "other formats. This function is also available via the right-click menu for "
 "the clip(s) selected in the Project Bin."
-msgstr ""
+msgstr "Use esta função para converter o seu material de origem para uma grande variedade de outros formatos. Esta função também está disponível através do menu do botão direito para os 'clips' seleccionados no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:338
 msgid ""
 "Choose a transcode profile from the available list to transcode the selected "
 "clip into a different video format. The options are controlled by :ref:"
 "`configure_kdenlive`. The transcoding is done by the |ffmpeg| program."
-msgstr ""
+msgstr "Escolha um perfil de conversão na lista disponível, para converter o 'clip' seleccionado para um formato de vídeo diferente. As opções são controladas através da janela :ref:`configure_kdenlive`. A conversão é feita pelo programa |ffmpeg|."
 
 #: ../../user_interface/menu/clip_menu.rst:345
 msgid "Transcoding job running"
-msgstr ""
+msgstr "Tarefa de conversão em curso"
 
 #: ../../user_interface/menu/clip_menu.rst:347
 msgid ""
 "While the transcode job is running, the Project Bin will display a progress "
 "bar on the thumbnail of the clip(s), and a job list menu item will appear at "
 "the top of the Project Bin."
-msgstr ""
+msgstr "Enquanto a tarefa de conversão estiver a correr, o Grupo do Projecto irá mostrar uma barra de progresso na miniatura dos 'clips', assim como aparecerá um item de menu da lista de tarefas no topo do Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:355
 msgid "Locate Clip"
-msgstr ""
+msgstr "Localizar um 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:357
 msgid ""
 "Locate Clip opens up the system's file browser at the location of the file "
 "system where the selected clip is stored. Useful for tracking down the "
 "sources of clips in the Project Bin."
-msgstr ""
+msgstr "A opção para Localizar o Clip abre o navegador do sistema de ficheiros no local em que está guardado o 'clip' seleccionado. É útil para acompanhar as origens dos 'clips' no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:359
 #: ../../user_interface/menu/clip_menu.rst:371
@@ -587,28 +565,28 @@ msgstr ""
 msgid ""
 "This function is also available via the right-click menu of a clip selected "
 "in the Project Bin."
-msgstr ""
+msgstr "Esta função também está disponível através do menu do botão direito de um 'clip' seleccionado no Grupo do Projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:361
 msgid ""
 "Please note that depending on the type of clip certain menu items are not "
 "shown."
-msgstr ""
+msgstr "Lembre-se por favor que, dependendo do tipo de 'clip', certos itens do menu não aparecem."
 
 #: ../../user_interface/menu/clip_menu.rst:367
 msgid "Reload Clip"
-msgstr ""
+msgstr "Recarregar o 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:369
 msgid ""
 "Reload Clip will re-import the clip from the file system into Kdenlive. This "
 "is useful when you edit a clip outside of Kdenlive and want Kdenlive to "
 "update it in the project."
-msgstr ""
+msgstr "A opção para Recarregar o 'Clip' irá importar de novo o 'clip' do sistema de ficheiros para o Kdenlive. Isto é útil quando editar um 'clip' fora do Kdenlive e quiser que o mesmo o actualize no projecto."
 
 #: ../../user_interface/menu/clip_menu.rst:377
 msgid "Replace Clip"
-msgstr ""
+msgstr "Substituir o 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:379
 msgid ""
@@ -616,7 +594,7 @@ msgid ""
 "uses on the Timeline. This can be useful if you work  with placeholder clips "
 "(e.g. low resolution or in project templates) and at the end, before "
 "rendering, you replace the clip with the final clip."
-msgstr ""
+msgstr "A opção para Substituir o 'Clip' permitir-lhe-á seleccionar um ficheiro diferente mas mantém todas as utilizações na Linha Temporal. Isto pode ser util se lidar com os 'clips' de substituição (p.ex., de baixa resolução ou nos modelos de projectos) e no fim, antes da geração, irá substituir o 'clip' pelo 'clip' final."
 
 #: ../../user_interface/menu/clip_menu.rst:383
 msgid ""
@@ -624,11 +602,11 @@ msgid ""
 "Otherwise it may lead to unwanted gaps in the Timeline. If effects are used "
 "on these clips the replacement clips should have the same dimensions to "
 "avoid unwanted behaviour of effects."
-msgstr ""
+msgstr "Certifique-se que a substituição do 'clip' é pelo menos da mesma duração. Caso contrário, poderá conduzir a lacunas indesejadas na Linha Temporal. Se os efeitos forem usados, os 'clips' substitutos deverão ter as mesmas dimensões para evitar um comportamento inesperado dos efeitos."
 
 #: ../../user_interface/menu/clip_menu.rst:389
 msgid "Duplicate Clip"
-msgstr ""
+msgstr "Duplicar o 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:391
 msgid ""
@@ -636,12 +614,12 @@ msgid ""
 "useful when applying effects to clips and allowing you to have the same "
 "source file with two different sets of applied effects, or one with the "
 "other without effects."
-msgstr ""
+msgstr "Esta função irá criar uma cópia do 'clip' no Grupo do Projecto. Isto pode ser útil ao aplicar os efeitos nos 'clips' e permitindo-lhe ter o mesmo ficheiro original com dois conjuntos de efeitos aplicados, ou um com o outro sem efeitos."
 
 #: ../../user_interface/menu/clip_menu.rst:399
 #: ../../user_interface/menu/clip_menu.rst:406
 msgid "Proxy Clip"
-msgstr ""
+msgstr "'Clip' Indirecto"
 
 #: ../../user_interface/menu/clip_menu.rst:408
 msgid ""
@@ -650,26 +628,20 @@ msgid ""
 "will indicate that the clip in the Project Bin is in fact a proxy clip "
 "(expect lower quality for playback in the Clip or Project Monitor). During "
 "the final render proxy clips will be replaced by the original source files."
-msgstr ""
+msgstr "Se os 'Clips' Indirectos estiverem activos na configuração do projecto, esta função irá criar um 'clip' indirecto para os 'clips' seleccionados. Um quadrado amarelo com a letra P irá indicar que o 'clip' no Grupo do Projecto é de facto um 'clip' indirecto (espere uma qualidade menor para a reprodução no Monitor do 'Clip' ou do Projecto). Durante a geração final, os 'clips' indirectos serão substituídos pelos ficheiros originais."
 
 #: ../../user_interface/menu/clip_menu.rst:410
 msgid ""
 "This menu item is a toggle, meaning that if the selected clip is already a "
 "proxy clip Kdenlive will revert back to the original source clip."
-msgstr ""
+msgstr "Este item do menu é um comutador, o que significa que, se o 'clip' seleccionado for já um 'clip' indirecto, o Kdenlive irá reverter ao 'clip' original."
 
 #: ../../user_interface/menu/clip_menu.rst:420
-#, fuzzy
 #| msgid ":ref:`clip_in_timeline`"
 msgid "Clip in Timeline"
-msgstr ":ref:`clip_in_timeline`"
+msgstr "'Clip' na Linha Temporal"
 
 #: ../../user_interface/menu/clip_menu.rst:422
-#, fuzzy
-#| msgid ""
-#| "The functions controlled from this menu affect the clip that is selected "
-#| "in the timeline. This is in contrast to :ref:`project_menu` functions "
-#| "which affect the clips selected in the Project Bin."
 msgid ""
 "This function is useful for quickly locating all the places where a clip is "
 "used in the Timeline. It is also available via the right-click menu for the "
@@ -682,7 +654,7 @@ msgstr ""
 
 #: ../../user_interface/menu/clip_menu.rst:429
 msgid "Locating all occurencies of a clip"
-msgstr ""
+msgstr "Localizar todas as ocorrências de um 'clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:431
 msgid ""
@@ -690,33 +662,33 @@ msgid ""
 "lists all instances of the selected clip, identified by their track (A for "
 "audio, V for video) and position in the Timeline. Clicking on an entry in "
 "the list will reposition the playhead to the beginning of the indicated clip."
-msgstr ""
+msgstr "Se seleccionar o item do menu :guilabel:`Clip na Linha Temporal`, irá invocar uma área que apresenta todas as instâncias do 'clip' seleccionado, identificadas pela sua faixa (A para áudio, e V para vídeo) e a posição na Linha Temporal. Se carregar num item da lista, irá posicionar de novo o cursor de reprodução no início do 'clip' indicado."
 
 #: ../../user_interface/menu/clip_menu.rst:433
 msgid ""
 "In the example we have clicked on the third video entry which is located on "
 "video track 1 at the 00:35;09 mark and the playhead is now located at the "
 "start of that clip."
-msgstr ""
+msgstr "No exemplo que carrégamos no terceiro item de vídeo, que se localiza na faixa de vídeo 1 na marca 00:35;09 e o cursor de reprodução se localiza no início desse 'clip'."
 
 #: ../../user_interface/menu/clip_menu.rst:437
 msgid ""
 "This option will be greyed out if the clip is not being used in the Timeline."
-msgstr ""
+msgstr "Esta opção ficará desactivada se o 'clip' não estiver a ser usado na Linha Temporal."
 
 #: ../../user_interface/menu/clip_menu.rst:439
 msgid ""
 "See also :guilabel:`Clip in Project Bin` available in the :ref:"
 "`right_click_menu` on a clip in the Timeline."
-msgstr ""
+msgstr "Veja também se o :guilabel:`'Clip' no Grupo do Projecto` está disponível no :ref:`right_click_menu` num 'clip' da Linha Temporal."
 
 #: ../../user_interface/menu/clip_menu.rst:445
 msgid "Clip Properties"
-msgstr ""
+msgstr "Propriedade do 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:451
 msgid "Properties of the clip"
-msgstr ""
+msgstr "Propriedades do 'clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:453
 msgid ""
@@ -724,78 +696,78 @@ msgid ""
 "of the selected clip in the Project Bin. Depending on the type of clip it "
 "includes information about the audio stream, video stream, aspect ratio, "
 "dimensions or frame size, frame rate, etc."
-msgstr ""
+msgstr "Este item do menu abre o elemento de Propriedades do 'Clip' e mostra as propriedades do 'clip' seleccionado no Grupo do Projeto. Dependendo do tipo de 'clip', ele inclui as informações sobre a sequência de áudio, de vídeo, das proporções de tamanho, das dimensões ou tamanho das imagens, a taxa de imagens, etc."
 
 #: ../../user_interface/menu/clip_menu.rst:463
 msgid "Edit Clip"
-msgstr ""
+msgstr "Editar o 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:465
 msgid "This function is available for the following clip types:"
-msgstr ""
+msgstr "Esta função está disponível para os seguintes tipos de 'clips':"
 
 #: ../../user_interface/menu/clip_menu.rst:467
 msgid "audio"
-msgstr ""
+msgstr "áudio"
 
 #: ../../user_interface/menu/clip_menu.rst:469
 msgid "image"
-msgstr ""
+msgstr "imagem"
 
 #: ../../user_interface/menu/clip_menu.rst:471
 msgid "animation (*new in version 22.08*)"
-msgstr ""
+msgstr "animação (*novo na versão 22.08*)"
 
 #: ../../user_interface/menu/clip_menu.rst:473
 msgid ""
 "It opens the clip in an external software specified in :ref:`default_apps` (:"
 "menuselection:`Settings --> Configure Kdenlive... --> Environment page --> "
 "Default Apps tab`) ready for editing."
-msgstr ""
+msgstr "Abre o 'clip' numa aplicação externa, definida nas  :ref:`default_apps` (:menuselection:`Configuração --> Configurar o Kdenlive... --> página de Ambiente --> página de Aplicações Predefinidas`), pronto para ser editado."
 
 #: ../../user_interface/menu/clip_menu.rst:477
 msgid ""
 "If the path is not set a pop-up window appears to define the path to the "
 "external software on your computer:"
-msgstr ""
+msgstr "Se a localização não estiver configurada, irá aparecer uma janela que lhe pede para definir a localização da aplicação externa no seu computador:"
 
 #: ../../user_interface/menu/clip_menu.rst:482
 msgid "Missing path for Glaxnimate"
-msgstr ""
+msgstr "Localização em falta do Glaxnimate"
 
 #: ../../user_interface/menu/clip_menu.rst:484
 msgid ""
 "Once the path is set the application starts and opens the clip you had "
 "selected. The entered path gets added automatically to the default apps in :"
 "menuselection:`Settings --> Configure Kdenlive`."
-msgstr ""
+msgstr "Assim que tiver configurado a localização, a aplicação é iniciada e abre o 'clip' que tiver seleccionado. A localização indicada é adicionada automaticamente às aplicações predefinidas em :menuselection:`Configuração --> Configurar o Kdenlive`."
 
 #: ../../user_interface/menu/clip_menu.rst:486
 msgid ""
 "More details for installing the needed external software and how to set the "
 "path: see :ref:`default_apps`."
-msgstr ""
+msgstr "Para mais detalhes sobre a instalação das aplicações externas necessárias e como configurar a localização, veja em :ref:`default_apps`."
 
 #: ../../user_interface/menu/clip_menu.rst:488
 msgid ""
 "The option is greyed out for video clips because **Kdenlive** is the video "
 "editor - only audio, image and animation clips are edited by external "
 "software."
-msgstr ""
+msgstr "A opção não está disponível para os 'clips' de vídeo, porque o **Kdenlive** é o editor de vídeo - só os 'clips' de áudio, de imagens e animações são editados por aplicações externas."
 
 #: ../../user_interface/menu/clip_menu.rst:494
 msgid "Rename"
-msgstr ""
+msgstr "Mudar o Nome"
 
 #: ../../user_interface/menu/clip_menu.rst:496
 msgid ""
 "This function allows you to change the name of the clip in the Project Bin "
 "to an arbitrary name. It does not rename the file in the file system."
-msgstr ""
+msgstr "Esta função permite-lhe mudar o nome do 'clip' no Grupo do Projecto para um nome arbitrário. Não muda o nome do ficheiro no sistema de ficheiros."
 
 #: ../../user_interface/menu/clip_menu.rst:504
 msgid "Delete Clip"
-msgstr ""
+msgstr "Apagar 'Clip'"
 
 #: ../../user_interface/menu/clip_menu.rst:506
 msgid ""
@@ -803,57 +775,5 @@ msgid ""
 "from the file system. If the clip is being used in the Timeline a warning "
 "message will appear, and if you click on :guilabel:`Continue` any occurence "
 "of that clip in the Timeline will be deleted."
-msgstr ""
+msgstr "Esta função remove o 'clip' do Grupo do Projecto. Não o apaga do sistema de ficheiros. Se o 'clip' for usado na Linha Temporal, irá aparecer uma mensagem de aviso, e se carregar em :guilabel:`Continuar`, todas as ocorrências desse 'clip' na Linha Temporal serão removidas."
 
-#~ msgid "Markers Menu Item"
-#~ msgstr "Item de Menu dos Marcadores"
-
-#~ msgid ""
-#~ "The menu allows you to :menuselection:`Add`, :menuselection:`Edit` and :"
-#~ "menuselection:`Delete` in :ref:`menu_markers`."
-#~ msgstr ""
-#~ "O menu permite-lhe :menuselection:`Adicionar`, :menuselection:`Editar` e :"
-#~ "menuselection:`Remover` os :ref:`menu_markers`."
-
-#~ msgid "Other Items"
-#~ msgstr "Outros Itens"
-
-#~ msgid ""
-#~ "The other menu items which appear when in the Clip menu are also "
-#~ "available from the :ref:`project_tree`."
-#~ msgstr ""
-#~ "Os outros itens do menu que aparecem quando está no menu do 'Clip' também "
-#~ "estão disponíveis na :ref:`project_tree`."
-
-#~ msgid ":menuselection:`Clip Jobs`"
-#~ msgstr ":menuselection:`Tarefas do Clip`"
-
-#~ msgid ":ref:`Locate Clip... <locate_clip>`"
-#~ msgstr ":ref:`Localizar o 'Clip'... <locate_clip>`"
-
-#~ msgid ":ref:`Reload Clip <reload_clip>`"
-#~ msgstr ":ref:`Recarregar o 'Clip' <reload_clip>`"
-
-#~ msgid ":ref:`Duplicate Clip <duplicate_clip>`"
-#~ msgstr ":ref:`Duplicar o 'Clip' <duplicate_clip>`"
-
-#~ msgid ":ref:`Proxy Clip <proxy_clip>`"
-#~ msgstr ":ref:`'Clip' Indirecto <proxy_clip>`"
-
-#~ msgid ":ref:`Clip Properties <clip_properties>`"
-#~ msgstr ":ref:`Propriedades do 'Clip' <clip_properties>`"
-
-#~ msgid ":ref:`edit_clip`"
-#~ msgstr ":ref:`edit_clip`"
-
-#~ msgid ":ref:`Rename... <rename_clip>`"
-#~ msgstr ":ref:`Mudar o Nome... <rename_clip>`"
-
-#~ msgid ":ref:`delete_clip`"
-#~ msgstr ":ref:`delete_clip`"
-
-#~ msgid "Contents"
-#~ msgstr "Conteúdo"
-
-#~ msgid "Contents:"
-#~ msgstr "Conteúdo:"
