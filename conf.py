@@ -157,109 +157,121 @@ rst_epilog = """
 .. |view-media-equalizer| image:: /images/icons/view-media-equalizer.svg
    :width: 22px
 
-.. |document-save-all.svg| image:: /images/icons/document-save-all.svg
+.. |document-save-all| image:: /images/icons/document-save-all.svg
    :width: 22px
 
-.. |view-right-close.svg| image:: /images/icons/view-right-close.svg
+.. |view-right-close| image:: /images/icons/view-right-close.svg
    :width: 22px
 
-.. |view-split-left-right.svg| image:: /images/icons/view-split-left-right.svg
+.. |view-split-left-right| image:: /images/icons/view-split-left-right.svg
    :width: 22px
 
-.. |hint.svg| image:: /images/icons/hint.svg
+.. |hint| image:: /images/icons/hint.svg
    :width: 22px
 
-.. |visibility.svg| image:: /images/icons/visibility.svg
+.. |visibility| image:: /images/icons/visibility.svg
    :width: 22px
 
-.. |keyframe-disable.svg| image:: /images/icons/keyframe-disable.svg
+.. |keyframe-disable| image:: /images/icons/keyframe-disable.svg
    :width: 22px
 
-.. |keyframe.svg| image:: /images/icons/keyframe.svg
+.. |keyframe| image:: /images/icons/keyframe.svg
    :width: 22px
 
-.. |adjustlevels.svg| image:: /images/icons/adjustlevels.svg
+.. |adjustlevels| image:: /images/icons/adjustlevels.svg
    :width: 22px
 
-.. |view-refresh.svg| image:: /images/icons/view-refresh.svg
+.. |view-refresh| image:: /images/icons/view-refresh.svg
    :width: 22px
 
-.. |document-save-as-template.svg| image:: /images/icons/document-save-as-template.svg
+.. |document-save-as-template| image:: /images/icons/document-save-as-template.svg
    :width: 22px
 
-.. |edit-delete.svg| image:: /images/icons/edit-delete.svg
+.. |edit-delete| image:: /images/icons/edit-delete.svg
    :width: 22px
 
-.. |document-save.svg| image:: /images/icons/document-save.svg
+.. |document-save| image:: /images/icons/document-save.svg
    :width: 22px
 
-.. |keyframe-previous.svg| image:: /images/icons/keyframe-previous.svg
+.. |keyframe-previous| image:: /images/icons/keyframe-previous.svg
    :width: 22px
 
-.. |keyframe-add.svg| image:: /images/icons/keyframe-add.svg
+.. |keyframe-add| image:: /images/icons/keyframe-add.svg
    :width: 22px
 
-.. |keyframe-next.svg| image:: /images/icons/keyframe-next.svg
+.. |keyframe-next| image:: /images/icons/keyframe-next.svg
    :width: 22px
 
-.. |align-horizontal-center.svg| image:: /images/icons/align-horizontal-center.svg
+.. |align-horizontal-center| image:: /images/icons/align-horizontal-center.svg
    :width: 22px
 
-.. |edit-copy.svg| image:: /images/icons/edit-copy.svg
+.. |edit-copy| image:: /images/icons/edit-copy.svg
    :width: 22px
 
-.. |edit-paste.svg| image:: /images/icons/edit-paste.svg
+.. |edit-paste| image:: /images/icons/edit-paste.svg
    :width: 22px
 
-.. |linear.svg| image:: /images/icons/linear.svg
+.. |linear| image:: /images/icons/linear.svg
    :width: 22px
 
-.. |align-horizontal-left.svg| image:: /images/icons/align-horizontal-left.svg
+.. |align-horizontal-left| image:: /images/icons/align-horizontal-left.svg
    :width: 22px
 
-.. |align-horizontal-right.svg| image:: /images/icons/align-horizontal-right.svg
+.. |align-horizontal-right| image:: /images/icons/align-horizontal-right.svg
    :width: 22px
 
-.. |align-vertical-top.svg| image:: /images/icons/align-vertical-top.svg
+.. |align-vertical-top| image:: /images/icons/align-vertical-top.svg
    :width: 22px
 
-.. |align-vertical-center.svg| image:: /images/icons/align-vertical-center.svg
+.. |align-vertical-center| image:: /images/icons/align-vertical-center.svg
    :width: 22px
 
-.. |align-vertical-bottom.svg| image:: /images/icons/align-vertical-bottom.svg
+.. |align-vertical-bottom| image:: /images/icons/align-vertical-bottom.svg
    :width: 22px
 
-.. |zoom-original.svg| image:: /images/icons/zoom-original.svg
+.. |zoom-original| image:: /images/icons/zoom-original.svg
    :width: 22px
 
-.. |zoom-fit-best.svg| image:: /images/icons/zoom-fit-best.svg
+.. |zoom-fit-best| image:: /images/icons/zoom-fit-best.svg
    :width: 22px
 
-.. |zoom-fit-width.svg| image:: /images/icons/zoom-fit-width.svg
+.. |zoom-fit-width| image:: /images/icons/zoom-fit-width.svg
    :width: 22px
 
-.. |zoom-fit-height.svg| image:: /images/icons/zoom-fit-height.svg
+.. |zoom-fit-height| image:: /images/icons/zoom-fit-height.svg
    :width: 22px
 
-.. |folder-new.svg| image:: /images/icons/folder-new.svg
+.. |folder-new| image:: /images/icons/folder-new.svg
    :width: 22px
 
-.. |tag.svg| image:: /images/icons/tag.svg
+.. |tag| image:: /images/icons/tag.svg
    :width: 22px
 
-.. |preview-add-zone.svg| image:: /images/icons/preview-add-zone.svg
+.. |preview-add-zone| image:: /images/icons/preview-add-zone.svg
    :width: 22px
 
-.. |preview-remove-zone.svg| image:: /images/icons/preview-remove-zone.svg
+.. |preview-remove-zone| image:: /images/icons/preview-remove-zone.svg
    :width: 22px
 
-.. |preview-remove-all.svg| image:: /images/icons/preview-remove-all.svg
+.. |preview-remove-all| image:: /images/icons/preview-remove-all.svg
    :width: 22px
 
-.. |zone-in.svg| image:: /images/icons/zone-in.svg
+.. |zone-in| image:: /images/icons/zone-in.svg
    :width: 22px
 
-.. |zone-out.svg| image:: /images/icons/zone-out.svg
+.. |zone-out| image:: /images/icons/zone-out.svg
+   :width: 22px
+
+.. |object-order-raise| image:: /images/icons/object-order-raise.svg
+   :width: 22px
+
+.. |object-order-lower| image:: /images/icons/object-order-lower.svg
+   :width: 22px
+
+.. |preview-render-off| image:: /images/icons/preview-render-off.svg
+   :width: 22px
+
+.. |network-server-database| image:: /images/icons/network-server-database.svg
    :width: 22px
 
 
