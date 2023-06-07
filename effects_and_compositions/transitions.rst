@@ -12,18 +12,17 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _transitions:
+.. _transitions_compositions:
 
-Transitions
-===========
-
-
+========================
+Transitions/Compositions
+========================
 
 In **Kdenlive** a transition is a wipe or dissolve composition between two overlapping clips.
 
 There are two ways of adding transitions in **Kdenlive**: **Mix clips**, aka same tracks transitions, and the legacy way, which is transitions between clips on different tracks.
 
-Wipes are greyscale images in :file:`.pgm` (Portable GreyMap) format, and during the transition the composition track will be displayed in the darkest areas of the wipe image first. If the wipe is inversed, the composition track will become visible in the brightest areas of the wipe image first instead. You can download more wipes (by clicking the download button in the wipe composition properties) or create your own and load them by clicking the folder button.
+Wipes are greyscale images in :file:`.pgm` (Portable GreyMap) format, and during the transition the composition track will be displayed in the darkest areas of the wipe image first. If the wipe is inverted, the composition track will become visible in the brightest areas of the wipe image first instead. You can download more wipes (by clicking the download button in the wipe composition properties) or create your own and load them by clicking the folder button.
 
 .. _same_track_transition:
 

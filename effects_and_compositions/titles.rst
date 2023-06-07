@@ -13,12 +13,11 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _titles:
+.. _effects-titles:
 
+======
 Titles
 ======
-
-
 
 Titles are text elements that can be added to the timeline and appear over the top of other clips. Titles are created in the :ref:`project_tree` and then dragged to the timeline like other video clips.
 

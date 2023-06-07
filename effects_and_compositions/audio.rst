@@ -10,10 +10,11 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _audio:
+.. _effects-audio_tools:
 
-Audio
-=====
+===========
+Audio Tools
+===========
 
 Kdenlive has some tools for handling audio. Beside the audio spectrum viewer and some audio effects, you have following possibilities:
 

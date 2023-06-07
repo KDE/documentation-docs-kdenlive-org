@@ -111,7 +111,7 @@ Workflow
        .. figure:: /images/intro_page/Index_Effects.png
           :target: /effects_and_compositions/effects.html
 
-       :ref:`effects`
+       :ref:`effects_and_compositions`
           Add video and audio effects and compositions.
 
           Create Titles and Subtitles and use Speech to Text.
