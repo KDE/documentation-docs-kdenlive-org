@@ -32,8 +32,8 @@ The manual shall be kept understandable by beginners to video editing.
 Complete
 --------
 
-All features, options and tools of Kdenlive should be described.
-The manual should provide information on what a feature is, how to use it, and its purpose. 
+All features, options and tools of **Kdenlive** should be described.
+The manual should provide information on what a feature is, its purpose, and how to use it. 
 
 
 Concise
@@ -45,7 +45,7 @@ Keep the text short and concise and relevant to the topic you describe.
 Maintainable
 ------------
 
-Write content that will not have to be redone the moment some small change is made in Kdenlive.
+Write content that will not have to be redone the moment some small change is made in **Kdenlive**.
 
 
 Content Guidelines
@@ -59,11 +59,11 @@ Content Guidelines
 
 * Think of what could be interesting for a video editor.
 
-* Describe in general and not in full depth, so you don't have to adapt the documentation with each new Kdenlive version.
+* Describe in general and not in full depth, so you don't have to adapt the documentation with each new **Kdenlive** version.
 
 * Do not describe bugs, no actual state.
 
-* Including why or how an option might be useful. Example :ref:`sequence_advantage`
+* Including why or how an option might be useful. Example :ref:`sequence_advantage`.
 
 * If you are unsure about how a feature works, ask someone else or find out who developed it and ask them.
 
@@ -79,7 +79,7 @@ Style
 
 * Be entertaining: Each sentence describes something new.
 
-* Use bold text to highlight: **Window titles**, **Common labels that are not user-configurable**, **Icon captions**, **Program names**
+* Use bold text to highlight: **Program names**
 
 * Use italic text to emphasize: *Words or phrases as in general writing*, *Titles when referencing other works*, *The first use of an unfamiliar word*
 
@@ -100,6 +100,8 @@ better
 
    Sequence
    A sequence is basically a timeline.
+
+Then explain what it does and then explain how you can use it. Example: :ref:`sequence` 
 
 
 Avoiding the immediate repetition of the term
@@ -132,3 +134,23 @@ better
 
    Binarize
    Creates a black and white image.
+
+
+Images
+------
+
+Only ``.. figure::`` should be used to place images.
+
+Use the **Kdenlive** dark theme when making screenshots.
+
+Use .webp for images.
+
+Use animated .gif or .mp4 files if that explains the feature/task better.
+
+Try to avoid having a lot of images. Use a single image that shows all of the relevant areas placed at the top of the section. Numbering the features and then explain the features in that order. Like this :ref:`example <project_tree>`.
+
+
+Further information
+-------------------
+
+Check the :ref:`template <template>` for how to use the rst commands.
