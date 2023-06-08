@@ -202,6 +202,9 @@ rst_epilog = """
 .. |keyframe-next| image:: /images/icons/keyframe-next.svg
    :width: 22px
 
+.. |keyframe-remove| image:: /images/icons/keyframe-remove.svg
+   :width: 22px   
+
 .. |align-horizontal-center| image:: /images/icons/align-horizontal-center.svg
    :width: 22px
 
@@ -272,6 +275,9 @@ rst_epilog = """
    :width: 22px
 
 .. |network-server-database| image:: /images/icons/network-server-database.svg
+   :width: 22px
+
+.. |edit-mode| image:: /images/icons/transform-crop.svg
    :width: 22px
 
 
