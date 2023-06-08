@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 00:41+0000\n"
+"POT-Creation-Date: 2023-06-08 00:39+0000\n"
 "PO-Revision-Date: 2022-05-17 12:05+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -31,9 +31,645 @@ msgstr ""
 "correcção de cores, documentação, manual do utilizador, editor de vídeo, "
 "código aberto, livre, aprender, simples"
 
-#: ../../effects_and_compositions.rst:15
-msgid "Effects and compositions"
+#: ../../effects_and_compositions.rst:26
+#, fuzzy
+#| msgid "Effects and compositions"
+msgid "Effects and Compositions"
 msgstr "Efeitos e composições"
+
+#: ../../effects_and_compositions.rst:28
+msgid ""
+"Effects and Compositions are very important components in video editing. In "
+"Kdenlive, effects and compositions are essentially filters provided by |"
+"frei0r| or |avfilter| (Kdenlive does not have built-in effects or "
+"compositions of its own)."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:30
+msgid ""
+"Effects are used to change the appearance of or manipulate a clip. For "
+"example, the **Transform** effect allows to scale and move the clip; the "
+"**Brightness** effect changes the brightness of the clip; effects in the "
+"*Alpha, Mask and Keying* category provide very specific filters for masking "
+"or rotoscoping."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:32
+msgid ""
+"Compositions are used to combine several visual elements from different "
+"sources into a single video. In Kdenlive, you put the different sources into "
+"tracks in the Timeline and use compositions to tell Kdenlive how to combine "
+"them. For example, the **Dissolve** composition fades out one clip while "
+"fading in another over a certain number of frames. That is why Compositions "
+"are often referred to as Transitions. Keep in mind that while Compositions "
+"are very often used to transition from one video to another they can be used "
+"to create artistic and aesthetic effects when combining several clips (e.g. "
+"Darken, Dodge, Burn)."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:34
+msgid ""
+"Kdenlive has two groups of effects: :ref:`Video Effects <effects-"
+"video_effects>` and :ref:`Audio Effects <effects-audio_effects>`."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:36
+msgid "There are several ways to apply effects:"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:38
+msgid ""
+"On the clip in the Project Bin, which makes the effect available in all "
+"instances of that clip in the Timeline"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:40
+msgid ""
+"On the clip in the Timeline, which makes the effect only applicable for that "
+"clip in the Timeline at that point"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:42
+msgid ""
+"On the track, which applies the effect to all clips in that particular track"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:44
+msgid "On Master, which applies that effect to all clips in all tracks"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:46
+msgid ""
+"Not all effects can be used at the track or Master level nor does it make "
+"sense."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:52
+msgid "Effects Tab"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:54
+msgid ""
+"Make the Effects widget visible in :menuselection:`Menu --> View --> "
+"Effects`."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:62
+msgid "Kdenlive Effects widget as a tab in the Project Bin area"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:64
+msgid ""
+"The Effects widget has seven control icons that show or hide the different "
+"effect categories:"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:66
+msgid "1 - **Main Effects** shows all video and audio effects (default view)"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:68
+msgid ""
+"2 - **Video Effects** shows all video effect categories. This option hides "
+"the *Audio Correction* category that is in the **Main Effects**, and adds "
+"the *Misc* and *Motion* categories."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:70
+msgid "3 - **Audio Effects** shows all audio effects categories"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:72
+msgid ""
+"4 - **Custom Effects** shows all effects you have created by saving an "
+"effect stack."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:76
+msgid ""
+"5 - **Favorite Effects** shows all effects that were flagged as a favorite "
+"effect. This is the same list that appears when selecting :guilabel:`Insert "
+"an effect` from the right-click menu of a clip in the Timeline, or by "
+"clicking the :guilabel:`Favorite Effects` in the Timeline toolbar."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:78
+msgid ""
+"6 - **Show Effect Info** toggles the information display below the effect "
+"list where a short description of what the effect does is displayed when on"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:80
+msgid ""
+"7 - **Download Effects** opens a dialog window where effect templates are "
+"listed from the KDE Store"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:86
+#, fuzzy
+#| msgid "Effects and compositions"
+msgid "Effect/Composition Stack"
+msgstr "Efeitos e composições"
+
+#: ../../effects_and_compositions.rst:88
+msgid ""
+"This widget is also known as the Properties Tab as it lists all effects "
+"applied to the currently selected clip as well as each effect's settings or "
+"properties. If a Composition is selected the widget displays the "
+"composition's settings or properties."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:90
+msgid "|effect| < effect | composition > |composition|"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:100
+#, fuzzy
+#| msgid "Effects and compositions"
+msgid "Only Effects can be stacked, Compositions cannot."
+msgstr "Efeitos e composições"
+
+#: ../../effects_and_compositions.rst:103
+msgid "Effect/Composition Stack Functions"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:110
+#: ../../effects_and_compositions.rst:139
+msgid "Kdenlive Effect Stack"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:112
+msgid ""
+"|document-save-all| Save Effect - Opens a dialog window for entering a name "
+"for the effect stack under which it will be listed in the *Custom* effect "
+"category and a comment which will be displayed in the information display"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:114
+msgid ""
+"|view-split-left-right| Compare Effect - Splits the Preview Monitor "
+"vertically to do a side-by-side comparison of the clip with and without "
+"effects"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:116
+msgid ""
+"|visibility| Effects enabled - Switches the effect stack on or off. This is "
+"equivalent to disabling all effects in the effect stack."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:118
+msgid ""
+"|keyframe-disable| Hide/Show keyframes in Timeline - Switches the display of "
+"keyframes in the clip in the Timeline on or off"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:126
+#, fuzzy
+#| msgid "Effects and compositions"
+msgid "Effect Functions"
+msgstr "Efeitos e composições"
+
+#: ../../effects_and_compositions.rst:141
+msgid ""
+"|keyframe-disable| Hide/show keyframes - Turns the display of the keyframe "
+"ruler off or on"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:143
+msgid ""
+"|visibility| Disable effect - Turns the effect off or on. The effect stays "
+"in the stack but is not applied during playback or rendering."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:145
+msgid ""
+"|adjustlevels2| Presets - Opens a list of advanced options to manage presets "
+"for the effect (e.g. reset the effect to its default parameters)"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:147
+msgid ""
+"|document-save| Save effect - Opens a dialog window for entering a name for "
+"the effect under which it will be listed in the *Custom* effect category and "
+"a comment which will be displayed in the information display"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:149
+msgid ""
+"|selection-raise| Move effect up - Moves the effect up one notch in the list "
+"(effect sequence from top to bottom is important)"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:151
+msgid ""
+"|selection-lower| Move effect down - Moves the effect down one notch in the "
+"list (effect sequence from top to bottom is important)"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:153
+msgid "|edit-delete| Delete effect - Removes the effect from the effect stack"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:161
+msgid "Apply an Effect"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:163
+msgid ""
+"You apply an effect to a clip by either choosing it from the Effects Tab and "
+"dragging them onto a clip in the Project Bin or in the Timeline."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:165
+msgid ""
+"You can also double-click on an effect in the Effects Tab which adds the "
+"effect to either the clip in the Project Bin or in the Timeline depending on "
+"where the clip is selected."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:167
+msgid ""
+"Another method is to use the |favorite|:guilabel:`Favorite Effect` icon in "
+"the Timeline toolbar and select the effect from there (you add an effect to "
+"the favorite effects by right-click on the effect in the Effects Tab and "
+"select :guilabel:`Add to favorites`)."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:169
+msgid ""
+"Alternatively, you can use :menuselection:`Menu --> Timeline --> Add Effect` "
+"to select an effect from the various categories and add it to the selected "
+"clip(s) in the Timeline."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:171
+msgid ""
+"And last but not least you can copy effects with all their settings from any "
+"clip (Timeline or Project Bin) and paste them to other clips."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:173
+msgid ""
+"Effects are always added at the bottom of the effect stack, and since the "
+"effect order is important can be re-arranged."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:179
+msgid "Keyframes in Effects"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:181
+msgid ""
+"Many effects use the concept of \"Keyframes\". Keyframes are user-defined "
+"points in your clip where you want an effect to start, stop or change. You "
+"can set the parameters for your effects to different values at different "
+"keyframes and **Kdenlive** will then gradually change the parameters between "
+"the two keyframes so that by the time the video has arrived at the next "
+"keyframe it will have adjusted the parameter to match that keyframe. It "
+"interpolates between keyframes."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:183
+msgid ""
+"See :ref:`quickstart` for an example on keyframing the RGB adjustment effect."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:187
+msgid ""
+"The keyframe ruler has zoom bars which makes adjusting keyframes a lot "
+"easier if the clip's duration is relatively long and the effect stack widget "
+"is too narrow to display all keyframes nicely spaced."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:198
+msgid ""
+"Keyframes can be copied and pasted between effects and even across clips. "
+"Standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:204
+msgid "Working with Keyframes in the Effect Stack"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:208
+msgid ""
+"The effect keyframe panel has new icons, improved keyframe grabbing and new "
+"functions."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:215
+msgid "Select the keyframe you want to move"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:216
+msgid "Move the cursor to the position where you want to move the keyframe to"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:217
+msgid ""
+"Click on |align-horizontal-center|:guilabel:`Move selected keyframe to "
+"cursor`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:226
+msgid "Select the keyframe you want to duplicate"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:227
+msgid "Click on |edit-copy|:guilabel:`Copy keyframe`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:228
+msgid ""
+"Move the cursor to the position where you want to insert the new keyframe"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:229
+msgid "Click on |edit-paste|:guilabel:`Paste keyframe`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:238
+msgid "Select all keyframes you want to apply the value on"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:239
+msgid "Go to one of the selected keyframes and change the value(s) as you want"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:240
+msgid ""
+"Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply "
+"current position value to selected keyframes`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:241
+msgid "Select the parameters you want to apply and click on :guilabel:`OK`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:250
+msgid "Select multiple individual keyframes with :kbd:`Ctrl+Left-click`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:259
+msgid "Select contiguous keyframes with :kbd:`Shift+Left-click`"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:268
+msgid "Moving multiple keyframes at once"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:276
+msgid "Exchanging Keyframes Across Effects"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:280
+msgid ""
+"You can import and export keyframes from/to the clipboard. This feature is "
+"not only useful to copy keyframes from one clip to another, it can also be "
+"used for example to copy the results of the motion tracker to the Transform "
+"effect."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:282
+msgid ""
+"To export the keyframes to the clipboard click on |application-menu|:"
+"guilabel:`Options` in the keyframe panel [1]_ and choose :guilabel:`Copy "
+"keyframes to clipboard`."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:288
+msgid "Importing keyframes"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:290
+msgid ""
+"To import keyframes from the clipboard click on |application-menu|:guilabel:"
+"`Options` inside the keyframe panel [1]_ and choose :guilabel:`Import "
+"keyframes from clipboard`. If you have valid data on your clipboard you "
+"should see this dialog window where you can adjust the mapping of the data."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:292
+msgid ""
+"For most use cases the default settings suffice. But you may want to copy "
+"only a subset of the data and perhaps enter an offset value, for example."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:300
+msgid "Track Effect"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:308
+msgid "Track effect indicators"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:310
+msgid ""
+"Effects can be added to an entire track affecting all clips in that track. "
+"Simply drag an effect from the Effects Tab to the header of the desired "
+"track, or click on the |tools-wizard|:guilabel:`Track Effect` icon and drag "
+"the effect to the track's effect stack."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:318
+msgid "Master Effect"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:322
+msgid ""
+"If you want to apply audio or video effects throughout the whole video. "
+"Click on the :guilabel:`Master` button above the track headers to see the "
+"Master Effect Stack where you can add effects just like with clips or tracks."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:328
+msgid "Adding a Sepia effect to the entire video"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:330
+msgid "The following effects are available On Master only:"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:342
+msgid "Effect Zones"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:346
+msgid ""
+"Effect Zones allow you to apply effects to specific regions of tracks or the "
+"timeline. Zones can be set from the effect zone bar in the Timeline or from "
+"the interface in the effect panel."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:352
+msgid "Track Effect Zone"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:359
+msgid "Master Effect Zone"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:365
+msgid "Masking Effects"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:369
+msgid ""
+"This feature allows to apply effects only to specific regions of a clip by "
+"using masks. In its current implementation the process requires three steps:"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:371
+msgid ""
+"Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
+"guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:372
+msgid "Add an effect (or effects) to be applied to the masked region"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:373
+msgid ""
+"Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
+"step 2"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:379
+msgid ""
+"Using Rotoscoping (mask) to apply the Saturation effect in one specific "
+"region only"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:381
+msgid ""
+"You can apply more than one mask per clip by following the same three-step "
+"process."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:403
+msgid "Video Effects"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:405
+#: ../../effects_and_compositions.rst:425
+msgid ""
+"See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` "
+"for an alphabetical list of effects and transitions."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:407
+msgid "The video effects are divided into the following categories:"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:415
+msgid ""
+"The available effects are defined by :file:`.xml` files found in :file:`."
+"local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`)."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:417
+msgid ""
+"These :file:`.xml` files contain the default values for the effects "
+"parameters. So if you don't like the default values for the effects in "
+"Kdenlive, you can modify the defaults by editing these :file:`.xml` files."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:423
+msgid "Audio Effects"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:427
+msgid "The audio effects are divided into the following categories:"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:439
+#, fuzzy
+#| msgid "Effects and compositions"
+msgid "Compositions"
+msgstr "Efeitos e composições"
+
+#: ../../effects_and_compositions.rst:451
+#, fuzzy
+#| msgid "Effects and compositions"
+msgid "Alphabetical List of all Effects and Compositions"
+msgstr "Efeitos e composições"
+
+#: ../../effects_and_compositions.rst:463
+msgid "Audio Tools"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:475
+msgid "Time Remapping"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:479
+msgid ""
+"The Time Remap feature allows to keyframe the speed of a clip to achieve "
+"effects like speed ramping."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:485
+msgid "Example of using Time remapping for speed ramping"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:491
+msgid "Speech-to-Text"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:503
+msgid "Subtitles"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:515
+msgid "Titles"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:527
+msgid "Effects Demos"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:550
+msgid ""
+"The following three YouTube videos display the results of a number of the "
+"video effects available in **Kdenlive** (Spanish captioning)."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:552
+msgid "|video_1|"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:554
+msgid "|video_2|"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:556
+msgid "|video_3|"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:559
+msgid "Another YouTube video (English Captions)."
+msgstr ""
+
+#: ../../effects_and_compositions.rst:561
+msgid "|video_4|"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:564
+msgid "See also this YouTube play list from |video_5|"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:569
+msgid "**Notes**"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:571
+msgid ""
+"If you do not see a keyframe panel check whether the keyframe panel has been "
+"switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
+"or perhaps the effect is simply not keyframable."
+msgstr ""
 
 #~ msgid "Contents:"
 #~ msgstr "Conteúdo:"
