@@ -15,7 +15,7 @@
 Custom Effects
 ==============
 
-The **Custom Group** in the **Effect List** is where effects appear when you choose :menuselection:`Save Effect` from an effect in the  :ref:`effects`.
+The **Custom Group** in the **Effect List** is where effects appear when you choose :menuselection:`Save Effect` from an effect in the  :ref:`effects_and_compositions`.
 
 .. image:: /images/Save_Effect.png
    :align: left

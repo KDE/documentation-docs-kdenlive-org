@@ -246,7 +246,7 @@ Effects/Composition Stack
 
 Switches the Effects/Composition Stack on or off.
 
-The Effects/Composition Stack shows all effects applied to a clip or a track. This is where you make changes to the effect settings. See the :ref:`Effects/Composition Stack <effects>` section of this documentation for more details.
+The Effects/Composition Stack shows all effects applied to a clip or a track. This is where you make changes to the effect settings. See the :ref:`Effects/Composition Stack <effects_and_compositions>` section of this documentation for more details.
 
 
 Effects
@@ -444,7 +444,7 @@ Switches the Speech Editor widget on or off.
    
    Kdenlive Speech Editor widget
 
-The Speech Editor widget allows you to use AI-based speech recognition to create subtitles for your video. You need to configure speech-to-text in Kdenlive in order to use this. More details about the configuration and potentially necessary installations as well as how to use speech recognition is available in the :ref:`Speech-to-Text <speech_to_text>` section of this documentation.
+The Speech Editor widget allows you to use AI-based speech recognition to create subtitles for your video. You need to configure speech-to-text in Kdenlive in order to use this. More details about the configuration and potentially necessary installations as well as how to use speech recognition is available in the :ref:`Speech-to-Text <effects-speech_to_text>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -461,7 +461,7 @@ Switches the Subtitle widget on or off.
    
    Kdenlive Subtitles widget
 
-The Subtitle widget is used to manage the subtitles for your project. For more details please refer to the :ref:`Subtitles <subtitle>` section of this documentation.
+The Subtitle widget is used to manage the subtitles for your project. For more details please refer to the :ref:`Subtitles <effects-subtitles>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -478,7 +478,7 @@ The Time Remapping widget allows you to create speed ramping.
    
    Kdenlive Time Remapping widget
 
-More details are available in the :ref:`Time Remapping <time_remapping>` section of this documentation.
+More details are available in the :ref:`Time Remapping <effects-time_remapping>` section of this documentation.
 
 .. rst-class:: clear-both
 

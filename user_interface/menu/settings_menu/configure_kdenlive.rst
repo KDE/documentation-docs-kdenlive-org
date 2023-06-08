@@ -343,7 +343,7 @@ Speech To Text
    :scale: 75%
    :alt: Kdenlive_Configure_speech-to-text
 
-More details about speech to text see :ref:`here <speech_to_text>`. 
+More details about speech to text see :ref:`here <effects-speech_to_text>`. 
 
 
 .. _configure_playback:

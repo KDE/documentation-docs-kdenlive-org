@@ -16,7 +16,7 @@ Timeout Indicator
 
 This is `Frei0r timeout <https://www.mltframework.org/plugins/FilterFrei0r-timeout/>`_ MLT filter by Simon A. Eugster.
 
-In ver 17.04 this is found in the :ref:`analysis_and_data` category of Effects.
+In ver 17.04 this is found in the :ref:`effects-utility` category of Effects.
 
 This adds a little countdown bar to the bottom right of the video and is available in ver. 0.9.5 of **Kdenlive**.
 

@@ -26,9 +26,9 @@ Alphabetical List of Effects and Compositions
 .. note::
    The effects and compositions included will differ depending on the available plug-ins on the specific packaging on each operating system. Kdenlive will auto-detect and make available any supported LADSPA plug-in packages from your distribution. For the greatest compatibility, please use the AppImage version of Kdenlive.
 
-.. list-table::
+.. list-table::  
    :width: 100%
-   :widths: 20 15 15 50
+   :widths: 15 15 15 15
    :header-rows: 1
 
    * - Effect or Composition
@@ -651,7 +651,7 @@ Alphabetical List of Effects and Compositions
      - Compositions
      -
      - Fade out one video while fading in the other video (luma)
-   * - :ref:`distort`
+   * - :ref:`effects-stylize`
      - Video Effect
      - Transform, Distort and Perspective
      - Plasma (frei0r.distort0r)

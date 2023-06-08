@@ -18,7 +18,7 @@ Composite Transition
 
 
 
-The Composite transition combines the video data from two video tracks into one. This transition is used in combination with Alpha Channel information supplied by one of the :ref:`alpha_manipulation` or by the use of a :ref:`composite`. This Alpha Channel data describes how the data from the two video tracks should be combined. Until you define some alpha channel data using an :ref:`alpha_manipulation` or a Wipe File, changes in the Composite transition settings will have no visible effect.
+The Composite transition combines the video data from two video tracks into one. This transition is used in combination with Alpha Channel information supplied by one of the :ref:`effects-alpha_mask_keying` or by the use of a :ref:`composite`. This Alpha Channel data describes how the data from the two video tracks should be combined. Until you define some alpha channel data using an :ref:`effects-alpha_mask_keying` or a Wipe File, changes in the Composite transition settings will have no visible effect.
 
 Note: The disadvantages of the **Composite** transition are: luma bleed, and less precise position control. When compared to **Affine**, the **Composite** transition, it does not support rotation or skewing but it is much faster, albeit at the cost of luma bleed.
 
@@ -69,20 +69,20 @@ Operation **Xor**
 Tutorial 1
 ----------
 
-See this :ref:`blue_screen` that describes how to use:
+See this :ref:`effects-chroma_key_basic` that describes how to use:
 
-* Alpha Manipulation -> :ref:`blue_screen`
-* :ref:`rotoscoping`
+* Alpha Manipulation -> :ref:`effects-chroma_key_basic`
+* :ref:`effects-rotoscoping`
 * Composite Transition.
 * Crop and Transform -> :ref:`pan_and_zoom`
 * Enhancement -> :ref:`sharpen`
-* Alpha Manipulation -> :ref:`alpha_operations`
+* Alpha Manipulation -> :ref:`effects-alpha_operations`
 
 
 Tutorial 2 - composite transition and Blue Screen
 -------------------------------------------------
 
-Tutorial showing how to use the "Blue screen" function, composite transition and :ref:`effects` to animate one image moving over another in the **Kdenlive** video editor.
+Tutorial showing how to use the "Blue screen" function, composite transition and :ref:`effects_and_compositions` to animate one image moving over another in the **Kdenlive** video editor.
 
 https://youtu.be/M8hC5FbIzdE
 

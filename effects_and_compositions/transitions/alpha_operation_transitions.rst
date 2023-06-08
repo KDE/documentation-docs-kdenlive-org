@@ -25,7 +25,7 @@ The following transitions all perform alpha operations between the two video tra
 
 These transitions only have an effect if the videos on the tracks have alpha channel information in them.
 
-The Alpha Channel information is supplied by one of the :ref:`alpha_manipulation`. This Alpha Channel data describes which regions of the video track is transparent and how transparent it should be. Until you define some alpha channel data using an :ref:`alpha_manipulation` changes in the alpha operation transition settings will have no visible effect.
+The Alpha Channel information is supplied by one of the :ref:`effects-alpha_mask_keying`. This Alpha Channel data describes which regions of the video track is transparent and how transparent it should be. Until you define some alpha channel data using an :ref:`effects-alpha_mask_keying` changes in the alpha operation transition settings will have no visible effect.
 
 The alpha operation transitions define how the two different alpha channel information should be combined to produce the final image. These operations are implementing the operations described at Wikipedia page on `Alpha Compositing <https://en.wikipedia.org/wiki/Alpha_compositing>`_.
 

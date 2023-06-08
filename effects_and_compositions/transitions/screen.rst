@@ -14,7 +14,7 @@ Transitions - Screen
 
 
 
-This is very much like :ref:`blue_screen` but it works with footage filmed against a black background.
+This is very much like :ref:`effects-chroma_key_basic` but it works with footage filmed against a black background.
 
 Timeline showing how to apply the "Screen" transition.
 

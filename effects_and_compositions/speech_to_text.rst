@@ -205,7 +205,7 @@ This works with the VOSK engine only.
 
 Open the clip in the clip monitor and open the speech editor window (:menuselection:`Menu --> View --> Speech Editor`) .
 
-Select your language or :ref:`install_language` and download the model for it.
+Select your language or :ref:`effects-s2t_install_language` and download the model for it.
 
 Then click :guilabel:`Start Recognition` button.
 

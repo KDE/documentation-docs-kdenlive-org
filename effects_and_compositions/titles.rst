@@ -328,5 +328,5 @@ FAQ
 
 Q: How to duplicate a title clip to modify it slightly.
 
-A: You can save a copy of the title (see :ref:`titles`) and then create a new title based on that saved version as described :ref:`titles`. Or you could use the :ref:`titles` functionality to base the two slightly different titles on the one template.
+A: You can save a copy of the title (see :ref:`effects-titles`) and then create a new title based on that saved version as described :ref:`effects-titles`. Or you could use the :ref:`effects-titles` functionality to base the two slightly different titles on the one template.
 

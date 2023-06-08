@@ -111,7 +111,7 @@ Add Title Clip
 
 This function adds a Title Clip to the Project Bin. First, it opens the Titler app where you create the Title Clip. Once saved it shows up in the Project Bin.
 
-A more detailed documentation of the Titler app is available in the :ref:`titles` section of the documentation.
+A more detailed documentation of the Titler app is available in the :ref:`effects-titles` section of the documentation.
 
 This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
@@ -132,7 +132,7 @@ You build the template in the Titler application like a normal Title Clip. The k
 
 This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
-Please refer to the :ref:`titles` section of this documentation for more details about Titles and Templates.
+Please refer to the :ref:`effects-titles` section of this documentation for more details about Titles and Templates.
 
 .. rst-class:: clear-both
 
@@ -221,7 +221,7 @@ This function opens a flyout to switch the Subtitle Editor on or off and to offe
    
    Adding subtitles
 
-Please refer to the :ref:`subtitle` section of this documentation.
+Please refer to the :ref:`effects-subtitles` section of this documentation.
 
 .. rst-class:: clear-both
 

@@ -76,7 +76,7 @@ As Markers are properties of the clips in the Project Bin, this action removes t
 Automatic Transition
 --------------------
 
-When a transition is selected, this menu item allows you toggle the transition to and from :ref:`transitions` mode.
+When a transition is selected, this menu item allows you toggle the transition to and from :ref:`transitions_compositions` mode.
 
 .. I am not sure this is true anymore. I could not get that menu item to be available regardless of what I did or had selected. Is this still a valid menu item?
 

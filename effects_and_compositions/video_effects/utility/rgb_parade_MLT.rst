@@ -17,7 +17,7 @@ RGB Parade
 
 This is the `Frei0r rgbparade <https://www.mltframework.org/plugins/FilterFrei0r-rgbparade/>`_ MLT filter.
 
-In ver 17.04 this is found in the :ref:`analysis_and_data` category of Effects.
+In ver 17.04 this is found in the :ref:`effects-utility` category of Effects.
 
 Displays a histogram of R, G and B components of the video data.
 

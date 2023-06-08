@@ -273,7 +273,7 @@ Items 14, 14a-14g are covered in detail by :ref:`timeline-preview-rendering` art
 
 15.  Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
 
-16.  Show/Hide the :ref:`subtitle` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
+16.  Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
 
 
@@ -541,7 +541,7 @@ Automatic Transitions
 ~~~~~~~~~~~~~~~~~~~~~
 
 When active any transitions added to the timeline will have the automatic transition option checked by default.
-See :ref:`transitions`
+See :ref:`transitions_compositions`
 
 
 Show Video Thumbnails

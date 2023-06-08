@@ -256,7 +256,7 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
    In this example we have reduced the Min value of effect (2) to 0 making the area outside the triangle 0% opaque (= 100% transparent). This results in the rectangular shape from effect (1) being cut by the triangle shape from effect (2) because the Max values in both effects are at 1000 (100$ opaque), and with the :guilabel:`Subtract` operation the Max value of the pixels in the overlapping area is 0.
 
 
-_`Feathering`
+Feathering
 ~~~~~~~~~~
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-alpha_shapes_example_14.webp

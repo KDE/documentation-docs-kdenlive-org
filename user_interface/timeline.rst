@@ -202,7 +202,7 @@ Right click into the timeline ruler opens the context menu and allows you to:
   * :ref:`Manipulate guides <guides>`
   * :ref:`Set Zone In/Out <timeline-preview-rendering>`
   * :ref:`Add Project Notes <notes>`
-  * :ref:`Add Subtitle <subtitle>`
+  * :ref:`Add Subtitle <effects-subtitles>`
 
 
 .. _timeline_toolbar:

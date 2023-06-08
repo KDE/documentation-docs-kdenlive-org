@@ -22,7 +22,7 @@ In version 17.04 of Kdenlive you can add Fade to Black and Fade from Black effec
 https://youtu.be/08bTC3VPtqM
 
 Adjusting the duration of the fade - older Kdenlive versions:
-Adjust the duration of the fade by dragging the green blob that appears when you hover over the triangle vertex (see pic below) or by using the :ref:`effects` duration slider.
+Adjust the duration of the fade by dragging the green blob that appears when you hover over the triangle vertex (see pic below) or by using the :ref:`effects_and_compositions` duration slider.
 
 .. image:: /images/Kdenlive_Fade_to_black.png
    :align: left

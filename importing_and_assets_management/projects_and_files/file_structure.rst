@@ -29,7 +29,7 @@ As already pointed out in the :ref:`quickstart`, we suggest using a different pr
 
 * :file:`/thumbs/` for thumbnails to all used clips
 
-* :file:`/titles/` default location for the :ref:`titles` saved outside the project file
+* :file:`/titles/` default location for the :ref:`effects-titles` saved outside the project file
 
 * :file:`/.backup/` for your project's automatic :ref:`backup` These directories can be deleted if not required anymore (for example for saving space on the harddrive). **Kdenlive** will create them again when you load the project the next time.
 
