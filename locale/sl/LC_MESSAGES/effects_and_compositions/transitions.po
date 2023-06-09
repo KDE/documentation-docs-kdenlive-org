@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-26 00:42+0000\n"
+"POT-Creation-Date: 2023-06-08 00:39+0000\n"
 "PO-Revision-Date: 2023-01-23 14:19+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -24,11 +24,13 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
-#: ../../effects_and_compositions/transitions.rst:18
-msgid "Transitions"
-msgstr "Prehodi"
+#: ../../effects_and_compositions/transitions.rst:19
+#, fuzzy
+#| msgid "Compositions"
+msgid "Transitions/Compositions"
+msgstr "Skladnje"
 
-#: ../../effects_and_compositions/transitions.rst:22
+#: ../../effects_and_compositions/transitions.rst:21
 #, fuzzy
 msgid ""
 "In **Kdenlive** a transition is a wipe or dissolve composition between two "
@@ -37,7 +39,7 @@ msgstr ""
 "V **Kdenlive** je prehod je skladnja zabrisa ali preliva med dvema "
 "prekrivajočima se posnetkoma."
 
-#: ../../effects_and_compositions/transitions.rst:24
+#: ../../effects_and_compositions/transitions.rst:23
 msgid ""
 "There are two ways of adding transitions in **Kdenlive**: **Mix clips**, aka "
 "same tracks transitions, and the legacy way, which is transitions between "
@@ -47,12 +49,12 @@ msgstr ""
 "posnetkov**, t.j. prehodi znotraj iste steze, in zastareli način, pri "
 "katerem potekajo prehodi med posnetki na različnih stezah."
 
-#: ../../effects_and_compositions/transitions.rst:26
+#: ../../effects_and_compositions/transitions.rst:25
 #, fuzzy
 msgid ""
 "Wipes are greyscale images in :file:`.pgm` (Portable GreyMap) format, and "
 "during the transition the composition track will be displayed in the darkest "
-"areas of the wipe image first. If the wipe is inversed, the composition "
+"areas of the wipe image first. If the wipe is inverted, the composition "
 "track will become visible in the brightest areas of the wipe image first "
 "instead. You can download more wipes (by clicking the download button in the "
 "wipe composition properties) or create your own and load them by clicking "
@@ -65,16 +67,16 @@ msgstr ""
 "za prenos v lastnostih sestave obrišite) ali ustvarite svoje in jih naložite "
 "s klikom na gumb mape."
 
-#: ../../effects_and_compositions/transitions.rst:31
+#: ../../effects_and_compositions/transitions.rst:30
 msgid "Mixes"
 msgstr "Mešanice"
 
-#: ../../effects_and_compositions/transitions.rst:35
+#: ../../effects_and_compositions/transitions.rst:34
 #, fuzzy
 msgid "Mixes are transitions between clips on the same track."
 msgstr "Mešanice so prehodi med izrezki na isti progi."
 
-#: ../../effects_and_compositions/transitions.rst:41
+#: ../../effects_and_compositions/transitions.rst:40
 #, fuzzy
 msgid ""
 "Kdenlive with mixed clips in the timeline. The toolbar button is circled "
@@ -83,12 +85,12 @@ msgstr ""
 "Kdenlive z mešanim posnetkom v časovnici. Gumb orodne vrstice je obkrožil z "
 "rdečo, prehodne lastnosti pa so na desni."
 
-#: ../../effects_and_compositions/transitions.rst:43
+#: ../../effects_and_compositions/transitions.rst:42
 #, fuzzy
 msgid "To use it:"
 msgstr "Uporabi"
 
-#: ../../effects_and_compositions/transitions.rst:45
+#: ../../effects_and_compositions/transitions.rst:44
 msgid ""
 "Ensure that there is at least half a second worth of frames at the end of "
 "both clips (outside the timeline clip). Without that, Kdenlive will not "
@@ -98,7 +100,7 @@ msgstr ""
 "časovnici) še za vsaj pol sekunde sličic materiala. Brez tega Kdenlive ne bo "
 "uporabil prehoda, temveč prikaže sporočilo o napaki."
 
-#: ../../effects_and_compositions/transitions.rst:46
+#: ../../effects_and_compositions/transitions.rst:45
 #, fuzzy
 msgid ""
 "Select either clip. If there are clips in both ends of the one selected, the "
@@ -107,15 +109,15 @@ msgstr ""
 "Izberite bodisi posnetek. Če so posnetki na obeh koncih izbranega, bo prehod "
 "dodan najbližje predvajalni glavi."
 
-#: ../../effects_and_compositions/transitions.rst:48
+#: ../../effects_and_compositions/transitions.rst:47
 msgid "Ready to add the transition:"
 msgstr "Pripravljeni za dodajanje prehoda:"
 
-#: ../../effects_and_compositions/transitions.rst:50
+#: ../../effects_and_compositions/transitions.rst:49
 msgid "**Keyboard:** Press the :kbd:`U` key."
 msgstr "**Tipkovnica:** pritisnite tipko :kbd:`U`."
 
-#: ../../effects_and_compositions/transitions.rst:51
+#: ../../effects_and_compositions/transitions.rst:50
 msgid ""
 "**Mouse:** double-click at the point where the clips meet. This does not "
 "require a clip to be selected."
@@ -123,7 +125,7 @@ msgstr ""
 "**Miška:** dvokliknite točko, kjer se posnetki srečajo. Za to ni treba "
 "izbrati posnetka."
 
-#: ../../effects_and_compositions/transitions.rst:52
+#: ../../effects_and_compositions/transitions.rst:51
 #, fuzzy
 msgid ""
 "**Toolbar:** Press the :guilabel:`Mix Clips` button on the timeline toolbar."
@@ -131,7 +133,7 @@ msgstr ""
 "**Orodna vrstica:** pritisnite gumb :guilabel:`Zmešaj posnetke` v orodni "
 "vrstici časovnice."
 
-#: ../../effects_and_compositions/transitions.rst:54
+#: ../../effects_and_compositions/transitions.rst:53
 msgid ""
 "The transition length defaults to one second equally distributed between the "
 "two clips. You can drag either end of the transition to adjust."
@@ -139,7 +141,7 @@ msgstr ""
 "Dolžina prehoda je privzeto ena sekunda, enako porazdeljena med obema "
 "posnetkoma. Za prilagoditev dolžine lahko povlečete poljubni konec prehoda."
 
-#: ../../effects_and_compositions/transitions.rst:56
+#: ../../effects_and_compositions/transitions.rst:55
 #, fuzzy
 msgid ""
 "The default transition is dissolve, but you can select (click) the "
@@ -149,7 +151,7 @@ msgstr ""
 "Privzeti prehod se razpusti, vendar lahko izberete (klik) prehod in uredite "
 "način in lastnosti izbrisa po želji v oknu z učinkom/prehodom."
 
-#: ../../effects_and_compositions/transitions.rst:58
+#: ../../effects_and_compositions/transitions.rst:57
 msgid ""
 "The composition method is set to Luma, and it does not make sense to change "
 "that, since there will not really be a transition. Other methods are meant "
@@ -159,27 +161,27 @@ msgstr ""
 "v resnici ne bo prehoda. Druge metode so namenjene skladanju dveh "
 "videoposnetkov, ne pa za prehod med njima."
 
-#: ../../effects_and_compositions/transitions.rst:60
+#: ../../effects_and_compositions/transitions.rst:59
 #, fuzzy
 msgid "Select the desired wipe from Wipe Method."
 msgstr "Izberite želeni izbris iz Načina izbrisa."
 
-#: ../../effects_and_compositions/transitions.rst:61
+#: ../../effects_and_compositions/transitions.rst:60
 #, fuzzy
 msgid "The :guilabel:`Reverse` option reverses the transition."
 msgstr "Možnost :guilabel:'Reverse' obrne prehod."
 
-#: ../../effects_and_compositions/transitions.rst:62
+#: ../../effects_and_compositions/transitions.rst:61
 #, fuzzy
 msgid ""
 "The :guilabel:`Softness:` slider will affect the edges of wipe transitions."
 msgstr "Drsnik :guilabel:'Mehkost:' bo vplival na robove prehodov za izbris."
 
-#: ../../effects_and_compositions/transitions.rst:63
+#: ../../effects_and_compositions/transitions.rst:62
 msgid "Set the desired duration."
 msgstr "Nastavite želeno trajanje."
 
-#: ../../effects_and_compositions/transitions.rst:64
+#: ../../effects_and_compositions/transitions.rst:63
 #, fuzzy
 msgid ""
 "Since 21.08: select the alignment of the transition, either left, centered "
@@ -188,13 +190,13 @@ msgstr ""
 "Od 21.08 naprej: izberite poravnavo prehoda, in sicer levo, sredino "
 "(privzeto) ali desno."
 
-#: ../../effects_and_compositions/transitions.rst:66
+#: ../../effects_and_compositions/transitions.rst:65
 msgid "To delete the transition, select it and press the :kbd:`Delete` key."
 msgstr ""
 "Če želite izbrisati prehod, ga izberite in pritisnite :kbd:`brisalko / tipko "
 "Del’."
 
-#: ../../effects_and_compositions/transitions.rst:70
+#: ../../effects_and_compositions/transitions.rst:69
 msgid ""
 "To apply only transitions on either the video or audio track just lock the "
 "track on which you don’t want a transition to be applied and add transitions "
@@ -204,11 +206,11 @@ msgstr ""
 "zaklenite stezo, na kateri ne želite, da se prehod uporabi, in dodajte "
 "prehode na enega od zgornjih načinov na drugo stezo."
 
-#: ../../effects_and_compositions/transitions.rst:73
+#: ../../effects_and_compositions/transitions.rst:72
 msgid "Compositions"
 msgstr "Skladnje"
 
-#: ../../effects_and_compositions/transitions.rst:75
+#: ../../effects_and_compositions/transitions.rst:74
 msgid ""
 "Compositions are transitions between clips on different tracks. This is the "
 "legacy way of doing transitions in **Kdenlive**."
@@ -216,7 +218,7 @@ msgstr ""
 "Skladnje so prehodi med posnetki na različnih stezah. To je zastarel način "
 "za prehode v **Kdenlive**."
 
-#: ../../effects_and_compositions/transitions.rst:81
+#: ../../effects_and_compositions/transitions.rst:80
 #, fuzzy
 msgid ""
 "To the left the purple one-click circle to add a wipe composition. In the "
@@ -225,15 +227,15 @@ msgstr ""
 "Na levi strani je vijolični krog z enim klikom, da dodate sestavo obrišite. "
 "Na sredini sestavno vrstico, na desni pa lastnosti."
 
-#: ../../effects_and_compositions/transitions.rst:83
+#: ../../effects_and_compositions/transitions.rst:82
 msgid "To add a transition:"
 msgstr "Če želite dodati prehod:"
 
-#: ../../effects_and_compositions/transitions.rst:85
+#: ../../effects_and_compositions/transitions.rst:84
 msgid "Adjust your clips so that they overlap."
 msgstr "Prilagodite posnetke tako, da se prekrivajo."
 
-#: ../../effects_and_compositions/transitions.rst:86
+#: ../../effects_and_compositions/transitions.rst:85
 #, fuzzy
 msgid ""
 "Hold the mouse wheel over the top clip bottom corner, and click the purple "
@@ -246,7 +248,7 @@ msgstr ""
 "sestave\"), ali pa z desno tipko miške kliknite bodisi izrezek in izberite :"
 "menuselection:'Vstavite sestavo... --> Obriši'."
 
-#: ../../effects_and_compositions/transitions.rst:88
+#: ../../effects_and_compositions/transitions.rst:87
 #, fuzzy
 msgid ""
 "The default transition is a dissolve, to change that select (click) the "
@@ -255,7 +257,7 @@ msgstr ""
 "Privzeti prehod je raztopno, da spremenite, da izberete (kliknite) vrstico "
 "sestave, da prikažete okno z učinkom/sestavo."
 
-#: ../../effects_and_compositions/transitions.rst:90
+#: ../../effects_and_compositions/transitions.rst:89
 #, fuzzy
 msgid ""
 "The transition, when added this way, will cover the overlapping area between "
@@ -263,11 +265,11 @@ msgid ""
 msgstr ""
 "Prehod, ko je dodan na ta način, bo zajel območje prekrivanja med izrezki."
 
-#: ../../effects_and_compositions/transitions.rst:92
+#: ../../effects_and_compositions/transitions.rst:91
 msgid "You can:"
 msgstr "Lahko:"
 
-#: ../../effects_and_compositions/transitions.rst:94
+#: ../../effects_and_compositions/transitions.rst:93
 #, fuzzy
 msgid ""
 "Select a composition track. The default is \"Automatic\" which is likely the "
@@ -276,16 +278,16 @@ msgstr ""
 "Izberite skladbo sestave. Privzeto je »Samodejno« kar je v tem primeru po "
 "možnosti pravilna izbira."
 
-#: ../../effects_and_compositions/transitions.rst:95
+#: ../../effects_and_compositions/transitions.rst:94
 msgid "Select a wipe."
 msgstr "Izberite zaveso."
 
-#: ../../effects_and_compositions/transitions.rst:96
+#: ../../effects_and_compositions/transitions.rst:95
 #, fuzzy
 msgid "Enable :guilabel:`Inverse` to inverse the wipe."
 msgstr "Omogočite :guilabel:'Inverse' za inverse obrišite."
 
-#: ../../effects_and_compositions/transitions.rst:97
+#: ../../effects_and_compositions/transitions.rst:96
 #, fuzzy
 msgid ""
 "Enable :guilabel:`Revert` to revert the order of the videos in the "
@@ -294,7 +296,7 @@ msgstr ""
 "Omogočite :guilabel:'Revert' za vrnitev vrstnega reda videoposnetkov v "
 "prehodu (ki ga verjetno ne želite)."
 
-#: ../../effects_and_compositions/transitions.rst:99
+#: ../../effects_and_compositions/transitions.rst:98
 #, fuzzy
 msgid ""
 "If you move or adjust your clips after adding the transition, you need to "
@@ -305,9 +307,12 @@ msgstr ""
 "želji ročno prilagoditi. Celoten prehod lahko povlečete z izbranim orodjem "
 "in prilagodite njegovo trajanje tako, da povlečete bodisi konec."
 
-#: ../../effects_and_compositions/transitions.rst:102
+#: ../../effects_and_compositions/transitions.rst:101
 msgid "Available Transitions"
 msgstr "Razpoložljivi prehodi"
+
+#~ msgid "Transitions"
+#~ msgstr "Prehodi"
 
 #~ msgid "Contents"
 #~ msgstr "Vsebina"
