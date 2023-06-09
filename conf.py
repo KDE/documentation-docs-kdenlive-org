@@ -203,7 +203,7 @@ rst_epilog = """
    :width: 22px
 
 .. |keyframe-remove| image:: /images/icons/keyframe-remove.svg
-   :width: 22px   
+   :width: 22px
 
 .. |align-horizontal-center| image:: /images/icons/align-horizontal-center.svg
    :width: 22px
