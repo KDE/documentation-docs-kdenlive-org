@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-26 00:42+0000\n"
+"POT-Creation-Date: 2023-06-09 00:40+0000\n"
 "PO-Revision-Date: 2021-11-13 18:23+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -17,245 +17,340 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.08.1\n"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:13
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:23
 msgid "Alpha Shapes"
 msgstr "Alfaformer"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:16
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:25
 msgid ""
-"This is the `Frei0r alphaspot <https://www.mltframework.org/plugins/"
-"FilterFrei0r-alphaspot/>`_ MLT filter, see also `Frei0r-alphaspot readme "
-"<https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme>`_ "
-"file."
+"This is the |alphaspot| MLT filter, see also the |alphaops| readme file."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:23
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:33
+#, fuzzy
+#| msgid "Alpha Shapes"
+msgid "Alpha Shapes effect"
+msgstr "Alfaformer"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:35
 msgid ""
-"Use this in combination with a :ref:`composite` to place areas of "
-"transparency onto an overlaying clip such that the underlying clip shows "
-"through in places defined by geometric shapes. By default, the area of "
-"transparency is outside the shape that is drawn. Inside the shape is an area "
-"of opacity where the overlaying clip is visible."
+"This effect creates an area of transparency in the clip such that the "
+"underlying clip shows through in places defined by geometric shapes. By "
+"default, the area of transparency is outside the shape that is drawn. Inside "
+"the shape is an area of opacity where the overlaying clip is visible. The "
+"effect can be stacked to create odd shaped or many areas fo transparency."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:26
-msgid "Shape Options"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:41
+msgid "Shape"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:28
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:43
 msgid ""
 "This controls the shape of the area of opacity that the effect will create."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:30
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:45
 msgid ""
-"Shape options are :menuselection:`Rectangle`, :menuselection:`Ellipse`, :"
-"menuselection:`Triangle`, and :menuselection:`Diamond`."
+"Shape options are :guilabel:`Rectangle`, :guilabel:`Ellipse`, :guilabel:"
+"`Triangle`, and :guilabel:`Diamond`."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:33
-msgid "Tilt"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:49
+msgid "Operation"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:35
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:51
 msgid ""
-"This controls the angle the shape appears on the screen. The units are in "
-"1000ths of a full rotation. Eg, a factor of 250 is one-quarter of a circle "
-"turn and 500 is a 180 turn. I.e., 1000 tilt units = 360 degrees."
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:38
-msgid "Position X and Y"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:40
-msgid "This defines the position of the shape on the screen."
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:43
-msgid "Size X and Y"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:45
-msgid "Defines the size of the shape."
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:48
-msgid "Transition Width"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:50
-msgid ""
-"Defines the width of a border on the shape where the transparency grades "
-"from inside to outside the shape."
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:53
-msgid "Operations"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:55
-msgid ""
-"Operations define what is to happen when you have more than one Alpha effect "
+"Operation defines what is to happen when you have more than one alpha effect "
 "on the clip."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:57
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:53
 msgid ""
-"Operations are :menuselection:`Write On Clear`, :menuselection:`Max`, :"
-"menuselection:`Min`, :menuselection:`Add`, and :menuselection:`Subtract`:"
+"Operations are :guilabel:`Write On Clear`, :guilabel:`Max`, :guilabel:"
+"`Min`, :guilabel:`Add`, and :guilabel:`Subtract`:"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:59
-msgid "Write On Clear = existing alpha mask is overwritten"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:55
+msgid "Write On Clear: existing alpha mask is overwritten"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:60
-msgid "Max = maximum( existing alpha mask, mask generated by this filter)"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:61
-msgid "Min = minimum(existing alpha mask, mask generated by this filter)"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:62
-msgid "Add = existing alpha mask + mask generated by this filter"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:63
-msgid "Subtract = existing alpha mask - mask generated by this filter"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:65
-msgid "See the worked examples below to understand what these operations do."
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:68
-msgid "Min and Max Operations - Worked examples"
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:74
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:56
 msgid ""
-"These examples are performed on a simple composite transition with a video "
-"file on Video track 1 and a color clip (yellow) on Video track 2."
+"Max: take the maximum between the existing alpha mask and the mask generated "
+"by this filter"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:76
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:57
 msgid ""
-"Alpha shapes effect draws areas of opacity onto the image. The addition of "
-"this filter (with the default settings of Min = 0 and Max =1000) makes the "
-"whole frame transparent except for an area of opaqueness where the top image "
-"can be seen."
+"Min: take the minimum between existing alpha mask and mask generated by this "
+"filter"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:78
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:58
+msgid "Add: add the existing alpha mask and the mask generated by this filter"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:59
 msgid ""
-"The Max and Min controls adjust the opacity of the image inside and outside "
-"of the shape respectively. A setting of 1000 is 100% opaque. A setting of "
-"zero is 0% opaque (i.e., 100% transparent)."
+"Subtract: subtract from the existing alpha mask the mask generated by this "
+"filter"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:80
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:61
+msgid "See the working examples_ below to understand what these operations do."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:65
+msgid "Position X and Y"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:67
+msgid ""
+"This defines the position of the shape on the screen. The range of values is "
+"from 0 to 1000 where 500 defines the middle of the screen."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:71
+msgid "Size X and Y"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:73
+msgid ""
+"Defines the size of the shape. The range of values is from 0 to 1000 where "
+"500 defines 100%"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:77
+msgid "Tilt"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:79
+msgid ""
+"This controls the angle the shape appears on the screen. The units are in "
+"1000ths of a full rotation. For example, a value of 250 is one quarter of a "
+"circle turn and 500 is a 180-degree turn. That means, 1000 tilt units = 360 "
+"degrees."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:83
+msgid "Transition Width"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:85
+msgid ""
+"Defines the width of a border on the shape where the transparency grades "
+"from the inside to the outside of the shape. Can be used for feathering_ or "
+"creating a frame."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:91
+msgid "Working _`Examples`"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:94
+msgid "Min and Max values and operations"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:100
+msgid "Alpha Shapes example timeline"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:102
+msgid ""
+"For the examples we are using a video clip on video track V1 and a title "
+"clip (blue background and \"Video 1\" as text) on video track V2. The Alpha "
+"Shape effect is applied to the overlaying clip on V2. This is important to "
+"understand the explanations of the various parameters and operations in the "
+"examples below."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:104
+msgid ""
+"The Alpha Shapes effect draws areas of opacity onto the clip. The addition "
+"of this filter (with the default settings of Min = 0 and Max = 1000) makes "
+"the whole clip transparent except for an area of opaqueness defined by the "
+"shape and its position and size where the clip can be seen. If you reversed "
+"the Min and Max values the result would be that the whole clip is opaque "
+"(can be seen) except for an area of transparency defined by the shape and "
+"its position and size."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:106
+msgid ""
+"The Max and Min values adjust the opacity of the clip inside and outside of "
+"the shape, respectively. A setting of 1000 is 100% opaque. A setting of zero "
+"is 0% opaque (i.e. 100% transparent)."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:108
 msgid "**Max control**"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:86
-msgid ""
-"The Max control regulates how opaque it is inside the shape. At Max = 1000 "
-"it is completely opaque inside the shape and nothing of the background image "
-"shows through."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:116
+msgid "Max parameter at 1000"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:92
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:118
+msgid ""
+"The :guilabel:`Max` parameter controls how opaque it is *inside* the shape. "
+"At Max = 1000 it is completely opaque inside the shape and nothing of the "
+"clip on V1 (background) shows through."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:128
+msgid "Max parameter at 500"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:130
 msgid ""
 "At Max = 500 it is semi-transparent inside the shape and you can see the "
-"background bleeding through."
+"clip on V1 bleeding through."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:98
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:140
+msgid "Max parameter at 0; Min parameter at 0"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:142
 msgid ""
-"At Max = 0 inside the shape is completely transparent - the same as the rest "
-"of the foreground image - and you can see all background."
+"At Max = 0 the inside of the shape is completely transparent - the same as "
+"the rest of the clip on V2 (foreground) - and you can see all of the "
+"background."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:100
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:147
 msgid "**Min Control**"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:106
-msgid ""
-"The Min control adjusts how opaque it is outside the shape. When Min = 0 "
-"outside the shape is completely transparent (opacity of zero) and at Min = "
-"500 we see something of the foreground appears outside the shape."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:155
+msgid "Min parameter at 100"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:112
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:157
+msgid ""
+"The :guilabel:`Min` parameter adjusts how opaque it is *outside* the shape. "
+"When Min = 1000 the outside of the shape is completely opaque (opacity of "
+"100%), and at Min = 500 we see something of the foreground appear outside "
+"the shape."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:167
+msgid "Min parameter at 1000"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:169
 msgid ""
 "At Min = 1000 the opacity outside the shape is 100% and nothing of the "
 "background appears."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:114
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:174
 msgid "**Combining Alpha Shapes - Operations**"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:120
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:182
+msgid "Alpha Shape effects stacked: (1) & (2)"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:184
 msgid ""
-"In this example, I have a Triangle alpha shape defined as shown and this is "
-"at the top of the effect stack with operation :menuselection:`Write on "
-"clear`."
+"In this example, we added a second alpha shape effect (2) using a triangle "
+"as the shape. As effects are processed from the top down the two effects "
+"interact with each other. At the onset we are using the operation :guilabel:"
+"`Write on clear` so the second alpha shape effect appears on its own."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:126
-msgid "Which appears like this on its own."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:194
+msgid "Max at 1000; Min at 500"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:132
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:196
 msgid ""
-"And I have Rectangle alpha shape as shown which is at the bottom of the "
-"effect stack. Note the Max = 500 - i.e., 50% opacity inside the rectangle."
+"With Max = 1000 the opacity inside the triangle is 100% while Min = 500 "
+"determines an opacity of 50% outside the triangle which makes the background "
+"and foreground blend together. Still, the operation :guilabel:`Write on "
+"clear` makes Kdenlive ignore the previous alpha shape effect (1) - it is "
+"simply overwritten."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:138
-msgid "Which appears like this when on its own."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:206
+msgid "Operation set to Max"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:140
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:208
 msgid ""
-"In the images below I demonstrate the effect of different alpha operations "
-"on the Rectangle alpha shape."
+"Now that we changes the operation to :guilabel:`Max` the previous alpha "
+"shape effect is taken into consideration and both areas defined by the "
+"respective shapes - the rectangle from effect (1) and the triangle from "
+"effect (2) - show up because both have the :guilabel:`Max` parameter value "
+"set to 1000 (= 100% opaque)."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:146
-msgid "Write on Clear - the existing alpha mask is overwritten"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:218
+msgid "Operation set to Min"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:152
-msgid "add = existing alpha mask + mask generated by this filter."
-msgstr ""
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:154
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:220
 msgid ""
-"Note that areas with 1000 + 500 opacity would be 150% opaque. But you cant "
-"get 150% opaque so they look the same as the 100% opaque areas."
+"With the operation set to :guilabel:`Min` the blending is different. "
+"Kdenlive takes the minimum values of the Min and Max parameter values: Min "
+"value for effect (2) is 500 in areas where the Max value of effect (1) is "
+"1000. There is no distinction between Min or Max, only the value of that "
+"pixel is taken into account."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:160
-msgid "subtract = existing alpha mask - mask generated by this filter."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:230
+msgid "Operation set to Add"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:162
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:232
 msgid ""
-"Note that areas with 0 - 500 opacity would be minus 50% opaque. But you cant "
-"get -50% opaque so they look the same as the 0% opaque areas."
+"The operation :guilabel:`Add` performs a simple mathematical addition of the "
+"respective Min and Max values (and caps it at 1000 or 100%). Now the areas "
+"defined by both effect shapes are visible."
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:168
-msgid "max = maximum( <existing alpha mask> , <mask generated by this filter>)"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:242
+msgid "Operation set to Substract"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_shapes.rst:174
-msgid "min = minimum( <existing alpha mask> , <mask generated by this filter>)"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:244
+msgid ""
+"The operation :guilabel:`Subtract` performs a simple mathematical "
+"subtraction of the respective Min and Max values (and floors it at 0 or 0%). "
+"In this example because the Max value of effect (2) is 1000, it practically "
+"brings the opacity down to 0 hence the background is visible (the area of "
+"the shape is 100% transparent)."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:254
+msgid "Operation set to Substract; Min = 0"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:256
+msgid ""
+"In this example we have reduced the Min value of effect (2) to 0 making the "
+"area outside the triangle 0% opaque (= 100% transparent). This results in "
+"the rectangular shape from effect (1) being cut by the triangle shape from "
+"effect (2) because the Max values in both effects are at 1000 (100$ opaque), "
+"and with the :guilabel:`Subtract` operation the Max value of the pixels in "
+"the overlapping area is 0."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:260
+msgid "Feathering"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:268
+msgid "Transition width set to 100 (default = 200) for feathering"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes.rst:270
+msgid ""
+"Use the :guilabel:`Transition width` parameter to create a bleeding edge "
+"(aka feathering) for the alpha shape."
 msgstr ""
 
 #~ msgid "Contents"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-26 00:42+0000\n"
+"POT-Creation-Date: 2023-06-08 00:39+0000\n"
 "PO-Revision-Date: 2022-07-06 12:19+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -19,110 +19,158 @@ msgstr ""
 "X-POFile-SpellExtra: alpha ps menuselection ref bluescreen denoiser\n"
 "X-POFile-SpellExtra: keysplillm pup MLT\n"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:14
-msgid "Alpha operations"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:15
+#, fuzzy
+#| msgid "Alpha operations"
+msgid "Alpha Operations"
 msgstr "Operações com o alfa"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:17
-msgid ""
-"This is the `Frei0r alpha0ps <https://www.mltframework.org/plugins/"
-"FilterFrei0r-alpha0ps/>`_ MLT filter - Display and manipulation of the alpha "
-"channel."
-msgstr ""
-"Este é o filtro do MLT `Frei0r alpha0ps <https://www.mltframework.org/"
-"plugins/FilterFrei0r-alpha0ps/>`_ - Apresentação e manipulação do canal alfa."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:23
+#, fuzzy
+#| msgid "Alpha operations"
+msgid "Alpha Operations effect panel"
+msgstr "Operações com o alfa"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:19
-msgid "Use this to shrink, grow, threshold and visualize the alpha channel."
-msgstr "Use isto para reduzir, aumentar, limitar e visualizar o canal alfa."
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:21
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:25
+#, fuzzy
+#| msgid ""
+#| "This plugin can shrink, grow, threshold and invert the alpha channel. It "
+#| "is mainly intended to improve keying edges. It can also display the alpha "
+#| "channel in various ways, to enable quick assessment of the effect."
 msgid ""
-"This plugin can shrink, grow, threshold and invert the alpha channel. It is "
+"This effect can shrink, grow, threshold and invert the alpha channel. It is "
 "mainly intended to improve keying edges. It can also display the alpha "
-"channel in various ways, to enable quick assessment of the effect."
+"channel in various ways to enable quick assessment of the effect. It is "
+"cascadable and thus allows a soft shrink first followed by threshold which "
+"gives a slightly different result than a hard shrink.  (frei0r.alpha0ps) [1]_"
 msgstr ""
 "Este 'plugin' consegue reduzir, aumentar, limitar e inverter o canal alfa. É "
 "principalmente usado para melhorar as arestas-chave. Também consegue mostrar "
 "o canal alfa de diferentes formas, para permitir uma consulta rápida do "
 "efeito."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:24
-msgid ""
-"It is cascadable, so for example one can do a soft shrink first and then "
-"threshold, which gives a slightly different result than a hard shrink."
-msgstr ""
-"Pode ser aplicado em cascata, pelo que poderá, por exemplo, fazer primeiro "
-"uma redução suave e depois limitar, o que lhe dará um resultado ligeiramente "
-"diferente de uma redução forte."
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:27
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:31
 msgid "Parameters"
 msgstr "Parâmetros"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:30
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:34
 msgid "Display"
 msgstr "Visualização"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:32
-msgid ""
-"What to display. There are seven options: :menuselection:`Image`, :"
-"menuselection:`Alpha as gray`, :menuselection:`Gray + red`, :menuselection:"
-"`Selection on black`, :menuselection:`Selection on gray`, :menuselection:"
-"`Selection on white`, and :menuselection:`Selection on checkers`."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:36
+msgid "What to display. There are seven options:"
 msgstr ""
-"O que mostrar. Existem sete opções: :menuselection:`Imagem`, :menuselection:"
-"`Alfa como cinzento`, :menuselection:`Cinzento + vermelho`, :menuselection:"
-"`Selecção em preto`, :menuselection:`Selecção em cinzento`, :menuselection:"
-"`Selecção em branco` e :menuselection:`Selecção em xadrez`."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:34
-msgid ""
-"This effect lets the unchanged input image though - this plugin is intended "
-"to change only the alpha channel..."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:38
+msgid "Image (default)"
 msgstr ""
-"Este efeito, contudo, deixa a imagem de entrada inalterada - o mesmo aplica-"
-"se apenas à alteração do canal alfa..."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:37
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:39
+msgid "Alpha as gray"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:40
+msgid "Gray + red"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:41
+msgid "Selection on black"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:42
+msgid "Selection on gray"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:43
+msgid "Selection on white"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:44
+msgid "Selection on checkers"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:46
+msgid ""
+"This is intended for monitoring during adjustment mostly. After adjusting "
+"the parameters, it should be left on :guilabel:`Image`, which lets the "
+"unchanged input image through - this effect is intended to change only the "
+"alpha channel."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:49
 msgid "Display input alpha"
 msgstr "Mostrar o alfa de entrada"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:39
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:51
+#, fuzzy
+#| msgid ""
+#| "Use input alpha for the display function above. (Check what alpha we are "
+#| "getting on the input)."
 msgid ""
-"Use input alpha for the display function above. (Check what alpha we are "
+"Use input alpha for the display function above (check what alpha we are "
 "getting on the input)."
 msgstr ""
 "Usa o alfa de entrada para a função de apresentação acima. (Define qual o "
 "alfa que está a ser usado à entrada)."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:42
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:54
 msgid "Operation"
 msgstr "Operação"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:44
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:56
 msgid ""
 "Select the operation to be done on the alpha channel. Currently there are "
-"eight choices: :menuselection:`NO OP`, :menuselection:`Shave`, :"
-"menuselection:`Shrink hard`, :menuselection:`Shrink soft`, :menuselection:"
-"`Grow hard`, :menuselection:`Grow soft`, :menuselection:`Threshold`, and :"
-"menuselection:`Blur`."
+"eight choices:"
 msgstr ""
-"Seleccione as operação a efectuar no canal alfa. De momento existem oito "
-"opções: :menuselection:`Nada`, :menuselection:`Recortar`, :menuselection:"
-"`Redução Forte`, :menuselection:`Redução suave`, :menuselection:`Aumento "
-"forte`, :menuselection:`Aumento suave`, :menuselection:`Limiar` e :"
-"menuselection:`Borrão`."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:46
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:58
+msgid "NO OP"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:59
+msgid "Shave"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:60
+msgid "Shrink hard"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:61
+#, fuzzy
+#| msgid "Shrink/grow amount"
+msgid "Shrink soft"
+msgstr "Quantidade do aumento/redução"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:62
+msgid "Grow hard"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:63
+msgid "Grow soft"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:64
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:77
+msgid "Threshold"
+msgstr "Limiar"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:65
+msgid "Blur"
+msgstr "Borrar"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:67
+#, fuzzy
+#| msgid ""
+#| ":menuselection:`Shave` try to remove the \"hairy\" stuff, and also "
+#| "shrinks the selection a bit."
 msgid ""
-":menuselection:`Shave` try to remove the \"hairy\" stuff, and also shrinks "
-"the selection a bit."
+":guilabel:`Shave` tries to remove the \"hairy\" stuff, and also shrinks the "
+"selection a bit."
 msgstr ""
 "O :menuselection:`Barbear` tenta remover as \"pontas\", reduzindo também a "
 "selecção um pouco."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:48
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:69
 msgid ""
 "The *hard* operations introduce no new values to the alpha channel, so if "
 "you have a \"hard\" key (only 0 and 255) it will stay that way."
@@ -130,7 +178,7 @@ msgstr ""
 "As operações *fortes* não introduzem valores novos no canal alfa; por isso, "
 "se tiver uma chave \"forte\" (só a 0 ou 255), a mesma ficará como tal."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:50
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:71
 msgid ""
 "The *soft* operations will introduce interpolated values, making the edge "
 "softer."
@@ -138,7 +186,7 @@ msgstr ""
 "As operações mais *suaves* irão introduzir valores interpolados, tornando os "
 "gráficos mais suavizados."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:54
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:73
 msgid ""
 "The shave, shrink and grow operations are quite slow, because they do many "
 "conditional operations on each pixel."
@@ -146,27 +194,29 @@ msgstr ""
 "As operações de recorte, redução e ampliação são bastante lentas, porque têm "
 "de efectuar várias operações condicionais para cada pixel."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:57
-msgid "Threshold"
-msgstr "Limiar"
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:59
-msgid "This is only used for the :menuselection:`Threshold` operation."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:79
+#, fuzzy
+#| msgid "This is only used for the :menuselection:`Threshold` operation."
+msgid "This is only used for the Threshold operation."
 msgstr "Isto só é usado para a operação :menuselection:`Limiar`."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:62
-msgid "Shrink/grow amount"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:83
+#, fuzzy
+#| msgid "Shrink/grow amount"
+msgid "Shrink/Grow/Blur amount"
 msgstr "Quantidade do aumento/redução"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:64
-msgid "How far the shrinking/growing will extend."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:85
+#, fuzzy
+#| msgid "How far the shrinking/growing will extend."
+msgid "How far the shrinking/growing will extend, or the amount of blur."
 msgstr "Até que ponto o aumento/redução se irá estender."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:67
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:88
 msgid "Invert"
 msgstr "Inverter"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:69
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:90
 msgid ""
 "Inverts the input alpha channel, transparent will become opaque and vice "
 "versa."
@@ -174,23 +224,46 @@ msgstr ""
 "Inverte o canal alfa da entrada, sendo que o transparente ficará opaco e "
 "vice-versa."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:84
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:96
 msgid "Tutorial 1"
 msgstr "Tutorial 1"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:86
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:102
+#, fuzzy
+#| msgid ""
+#| "Shows usage of alpha operations - :menuselection:`Shrink hard` as well as "
+#| "the following effects: :ref:`blue_screen`, :ref:`denoiser`, and :ref:"
+#| "`keysplillm0pup`."
 msgid ""
-"Shows usage of alpha operations - :menuselection:`Shrink hard` as well as "
-"the following effects: :ref:`blue_screen`, :ref:`denoiser`, and :ref:"
-"`keysplillm0pup`."
+"Shows usage of Alpha Operations with Shrink Hard as well as the following "
+"effects: :ref:`effects-chroma_key_basic`, :ref:`denoiser`, and :ref:`effects-"
+"key_spill_mop_up`."
 msgstr ""
 "Mostra a utilização das operações com o alfa - :menuselection:`Redução rote` "
 "assim como os seguintes efeitos: :ref:`blue_screen`, :ref:`denoiser` e :ref:"
 "`keysplillm0pup`."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/alpha_operations.rst:88
-msgid "https://youtu.be/l43Hz7YEcYU"
-msgstr "https://youtu.be/l43Hz7YEcYU"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:104
+msgid ""
+"**This video is somewhat outdated.** In newer versions of Kdenlive the Key "
+"Spill Mop Up effect is installed by default, and it is no longer required to "
+"use a composite transition. Nevertheless, the basic steps of chroma keying "
+"and keyspill mop up are explained and are still valid."
+msgstr ""
 
-#~ msgid "Contents"
-#~ msgstr "Conteúdo"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:106
+#, fuzzy
+#| msgid "Tutorial 1"
+msgid "|tutorial_1|"
+msgstr "Tutorial 1"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:108
+msgid "**Notes**"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations.rst:114
+msgid ""
+"The description of this effect has been taken in parts from the readme file "
+"for the |alphaops|. You find much more detailed information there."
+msgstr ""
+

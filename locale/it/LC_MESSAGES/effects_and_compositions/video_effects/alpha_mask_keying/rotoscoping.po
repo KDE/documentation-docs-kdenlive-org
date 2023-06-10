@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-26 00:42+0000\n"
+"POT-Creation-Date: 2023-06-08 00:39+0000\n"
 "PO-Revision-Date: 2023-01-01 09:22+0100\n"
 "Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.12.0\n"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:1
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:1
 msgid "Do your first steps with Kdenlive video editor"
 msgstr "Compi i primi passi con l'editor video Kdenlive"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:1
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:1
 msgid ""
 "KDE, Kdenlive, quick start, first steps, documentation, user manual, video "
 "editor, open source, free, learn, easy, effects, rotoscoping,"
@@ -30,128 +30,188 @@ msgstr ""
 "KDE, Kdenlive, guida rapida, primi passi, documentazione, manuale utente, "
 "editor video, open source, libero, impara, facile, effetti, rotoscopio,"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:22
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:52
 msgid "Rotoscoping"
 msgstr "Rotoscopio"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:26
-msgid "What is Rotoscoping?"
-msgstr "Che cos'è il Rotoscopio?"
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:28
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:54
 msgid ""
 "\"In the visual effects industry, the term rotoscoping refers to the "
 "technique of manually creating a matte for an element on a live-action plate "
-"so it may be composited over another background.\""
+"so it may be composited over another background.\" [1]_"
 msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:30
-msgid "-- `Wikipedia <https://en.wikipedia.org/wiki/Rotoscoping>`_"
-msgstr "-- `Wikipedia <https://it.wikipedia.org/wiki/Rotoscopio>`_"
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:32
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:56
+#, fuzzy
+#| msgid ""
+#| "Draw a region on one video track, and everything outside/inside that "
+#| "region will disappear, showing the video track underneath."
 msgid ""
-"Draw a region on one video track, and everything outside/inside that region "
-"will disappear, showing the video track underneath."
+"This effect [2]_ is used to draw a region on one clip, and everything "
+"outside/inside that region will disappear showing the video track "
+"underneath. Effectively, the region defines the matte or mask for the clip."
 msgstr ""
 "Disegna una regione in una traccia video, e tutto ciò che si trova "
 "all'interno o all'esterno di quella regione sparirà: verrà così mostrata la "
 "traccia video sottostante."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:39
-msgid "How to draw the region in Kdenlive?"
-msgstr "Come disegno la regione in Kdenlive?"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:62
+msgid ""
+"Before, during and after Rotoscoping. Note the disabled Edit Mode (bottom "
+"right)"
+msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:41
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:66
+msgid "Drawing the Region"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:74
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:86
+msgid "Nodes and Handles"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:76
+#, fuzzy
+#| msgid ""
+#| "The region is drawn by adding nodes along your region. These act as edges "
+#| "for your rotoscope, and there is a line between each node. The line "
+#| "between each node can be made into a `Bézier curve <https://en.wikipedia."
+#| "org/wiki/Bézier_curve>`_ using \"handles\"."
 msgid ""
 "The region is drawn by adding nodes along your region. These act as edges "
-"for your rotoscope, and there is a line between each node. The line between "
-"each node can be made into a `Bézier curve <https://en.wikipedia.org/wiki/"
-"Bézier_curve>`_ using \"handles\"."
+"for your rotoscope, and there is a line between each node. The line can be "
+"made into a curve [3]_ using \"handles\"."
 msgstr ""
 "La regione si disegna aggiungendo dei nodi lungo ad essa. Questi agiscono da "
 "contorno per il rotoscopio, e c'è una linea tra ognuno di essi. Per mezzo di "
 "\"maniglie\", queste linee possono essere disegnate su di una `curva di "
 "Bézier <https://it.wikipedia.org/wiki/Curva_di_Bézier>`_."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:44
-msgid "Add nodes to the node by left clicking the mouse."
-msgstr "Aggiungi dei nodi facendo clic col tasto sinistro del mouse."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:88
+msgid ""
+"Add nodes to the region by left clicking the mouse. You can draw nodes "
+"outside of the active frame: Zoom out in the Project Monitor (:kbd:`Ctrl"
+"+Wheel` or by hovering over the edge of the Project Monitor until the "
+"monitor tools show up and then selecting the Zoom-out icon) and then draw "
+"nodes. This is useful if the mask is to include/exclude regions all the way "
+"to the edge(s) of the clip (like the example screenshots at the beginning of "
+"this chapter)."
+msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:46
-msgid "Close the region by right clicking the mouse on one of the nodes."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:92
+#, fuzzy
+#| msgid "Close the region by right clicking the mouse on one of the nodes."
+msgid ""
+"Close the region by right clicking the mouse on one of the nodes. Kdenlive "
+"will draw a straight line between the first node created and the last."
 msgstr ""
 "Chiudi la regione facendo clic col tasto destro del mouse su di uno dei nodi."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:48
-msgid "Change the position of the region by moving a node."
-msgstr "Modifica la posizione della regione spostando un nodo."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:100
+msgid "Inserting a node for better edge control"
+msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:50
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:102
+msgid ""
+"Change the edge of the region by moving a node. You can insert a node "
+"between two existing nodes by hovering over the line connecting the two "
+"nodes until a circle appears and then double-click the mouse. The more nodes "
+"the finer the region/mask can be controlled to follow (\"hug\") a shape, "
+"object or scenery."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:112
+msgid "Using handles to create curves"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:114
+#, fuzzy
+#| msgid ""
+#| "Make a line curved by dragging the control \"handles\". These are the two "
+#| "dots on the ends of the straight lines that appear on the curve (see "
+#| "screen shot above)."
 msgid ""
 "Make a line curved by dragging the control \"handles\". These are the two "
-"dots on the ends of the straight lines that appear on the curve (see screen "
-"shot above)."
+"dots on the ends of the straight lines that appear on the curve."
 msgstr ""
 "Rendi curva una linea trascinando le \"maniglie\" di controllo: sono i due "
 "punti alle estremità delle linee dritte che appaiono sulla curva (vedi la "
 "schermata qui sopra)."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:56
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:118
 msgid ""
-"To define if it is the inside or the outside of the curve that is "
-"transparent toggle the :guilabel:`Invert` checkbox."
+"Once the region is created (closed) you can move individual nodes, insert "
+"and delete nodes, create curves to better follow the shape you want to "
+"rotoscope out or in, and move the entire region. For the latter action grab "
+"the :guilabel:`x` in the middle of the region and drag it around."
 msgstr ""
-"Per definire se la parte trasparente sia all'interno o all'esterno della "
-"curva, attiva o disattiva la casella :guilabel:`Inverti`."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:58
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:120
 msgid ""
-"In a previous version of Kdenlive you could add a new nodes by clicking on "
-"the line between existing nodes. You could subtract nodes by right clicking "
-"on them. But it looks like you can not do this with the 17.04 & 18.04 "
-"version."
+"By default, the inside of the region you created is transparent (the video "
+"track underneath is visible). Use the :guilabel:`Invert` checkbox to make "
+"the outside of the region transparent."
 msgstr ""
-"Nelle versioni precedenti di Kdenlive potevi aggiungere un nuovo nodo "
-"facendo clic sulla linea tra i nodi esistenti, e potevi sottrarli facendoci "
-"clic sopra col tasto destro. Però sembra che questo non sia più possibile "
-"nelle versioni 17.04 e 18.04."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:61
-msgid "How to move the mask to follow the action - keyframes"
-msgstr "Come spostare la maschera per seguire l'azione - i fotogrammi chiave"
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:63
-msgid "To make the drawn mask follow the action in a clip..."
-msgstr ""
-"Per fare in modo che la maschera disegnata segua l'azione all'interno di una "
-"clip..."
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:65
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:122
 msgid ""
-"Move the position in the clip by dragging the carat on the time line (1 or 3 "
-"in screenshot below) or by using the time code control in the rotoscope "
-"effect (2 in the screenshot)."
+"The Rotoscope effect can be keyframed. In contrast to other effects, "
+"keyframes not only can be created individually on the keyframe ruler [4]_ "
+"but are created automatically whenever the region is changed (nodes added, "
+"deleted or moved; curves created or changed; region moved). It is therefore "
+"important to create the rotoscope region on the very first frame of the clip."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:128
+msgid "Using keyframes to make the region follow the action"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:130
+msgid ""
+"The keyframe ruler and icons [4]_ may be greyed out initially. They become "
+"available once the first node is created."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:138
+msgid "Using keyframes for Rotoscoping"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:140
+#, fuzzy
+#| msgid ""
+#| "Move the position in the clip by dragging the carat on the time line (1 "
+#| "or 3 in screenshot below) or by using the time code control in the "
+#| "rotoscope effect (2 in the screenshot)."
+msgid ""
+"Move the position in the clip by dragging the playhead on the timeline (3) "
+"or by using the keyframe ruler [4]_ in the Rotoscope effect (2)."
 msgstr ""
 "Spostati alla posizione desiderata nella clip trascinando l'indicatore di "
 "riproduzione sulla linea del tempo (1 o 3 nella schermata sotto), oppure "
 "usando il controllo dei codici temporali nell'effetto del rotoscopio (2 "
 "nella schermata sotto)."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:67
-msgid "Click :guilabel:`Add keyframe` (5 in the screen shot)."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:142
+#, fuzzy
+#| msgid "Click :guilabel:`Add keyframe` (5 in the screen shot)."
+msgid "Click |keyframe-add|:guilabel:`Add keyframe` (5)."
 msgstr ""
 "Fai clic su :guilabel:`Aggiungi fotogramma chiave` (5 nella schermata)."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:69
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:144
 msgid "Now adjust the position of the nodes in the curve to match the action."
 msgstr ""
 "Adesso regola la posizione dei nodi nella curva in modo che segua l'azione."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:71
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:146
+#, fuzzy
+#| msgid ""
+#| "Kdenlive will calculate a path to move the nodes from the position they "
+#| "were in the previous key frame to the position you put them in at this "
+#| "keyframe. So you do not have to draw a curve for every frame in the clip."
 msgid ""
 "Kdenlive will calculate a path to move the nodes from the position they were "
-"in the previous key frame to the position you put them in at this keyframe. "
+"in the previous keyframe to the position you put them in at this keyframe. "
 "So you do not have to draw a curve for every frame in the clip."
 msgstr ""
 "Kdenlive calcolerà un percorso che consente di spostare i nodi dalla "
@@ -159,12 +219,20 @@ msgstr ""
 "cui sono in questo fotogramma chiave. Quindi non devi disegnare una curva "
 "per ogni fotogramma della clip."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:73
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:148
+#, fuzzy
+#| msgid ""
+#| "To remove a key frame move to the frame with the key frame using the :"
+#| "guilabel:`Go to previous keyframe` (4) or :guilabel:`Go to next keyframe` "
+#| "(6) and then click the red X that which becomes :guilabel:`Add keyframe` "
+#| "(5) when you are on an existing keyframe."
 msgid ""
-"To remove a key frame move to the frame with the key frame using the :"
-"guilabel:`Go to previous keyframe` (4) or :guilabel:`Go to next keyframe` "
-"(6) and then click the red X that which becomes :guilabel:`Add keyframe` (5) "
-"when you are on an existing keyframe."
+"To remove a keyframe select it by clicking on the keyframe symbol (diamond, "
+"circle or square), or move to the frame with the keyframe using the |"
+"keyframe-previous|:guilabel:`Go to previous keyframe` (4) or |keyframe-next|:"
+"guilabel:`Go to next keyframe` (5) and then click on |keyframe-remove| that "
+"which becomes :guilabel:`Delete keyframe` (6) when you are on an existing "
+"keyframe."
 msgstr ""
 "Per rimuovere un fotogramma chiave, spostati su di esso usando :guilabel:"
 "`Vai al fotogramma chiave precedente` (4) oppure :guilabel:`Vai al "
@@ -172,112 +240,244 @@ msgstr ""
 "diventa :guilabel:`Aggiungi fotogramma chiave` (5) quando ti trovi su un "
 "fotogramma chiave esistente."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:79
-msgid ""
-"This effect is based on the MLT `FilterRotoscoping <https://www.mltframework."
-"org/plugins/FilterRotoscoping/>`_."
-msgstr ""
-"Questo effetto è basato su `FilterRotoscoping <https://www.mltframework.org/"
-"plugins/FilterRotoscoping/>`_ di MLT."
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:82
-msgid "Rotoscoping options greyed out"
-msgstr "Opzioni del rotoscopio disabilitate"
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:88
-msgid ""
-"When you first add the rotoscope effect the keyframe options in it are "
-"greyed out. You can not even add a new keyframe."
-msgstr ""
-"Quando aggiungi per la prima volta l'effetto del rotoscopio, le opzioni sui "
-"fotogrammi chiave in esso sono disabilitate. Non puoi nemmeno aggiungere un "
-"nuovo fotogramma chiave."
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:90
-msgid ""
-"Solution. Click in the project monitor and start drawing your rotoscope "
-"matte. Then the rotoscope keyframe options become enabled."
-msgstr ""
-"Soluzione: fai clic nel controllo del progetto, ed inizia a disegnare il "
-"contorno del rotoscopio. In questo modo le opzioni sui fotogrammi chiave del "
-"rotoscopio vengono così abilitate."
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:93
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:152
 msgid "Examples"
 msgstr "Esempi"
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:95
-msgid "Examples of what you can do with the Rotoscoping effect."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:154
+#, fuzzy
+#| msgid "Examples of what you can do with the Rotoscoping effect."
+msgid "Examples on YouTube of what you can do with the Rotoscoping effect:"
 msgstr "Alcuni esempi di cosa puoi fare con l'effetto Rotoscopio."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:97
-msgid "https://youtu.be/h36S-awjLBk"
-msgstr "https://youtu.be/h36S-awjLBk"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:156
+msgid "|no_mirror| (by Everything and Even Gaming)"
+msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:100
-msgid "https://youtu.be/nFv46XQUO34"
-msgstr "https://youtu.be/nFv46XQUO34"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:158
+msgid "|arkengheist| (by Arkengheist)"
+msgstr ""
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:104
-msgid "Example 1.How to make rotoscoping selection."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:160
+msgid "|text_reveal| (by TJ FREE)"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:162
+msgid "|rotoscoping_nbtech| (by NBtech)"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:166
+#, fuzzy
+#| msgid "Example 1.How to make rotoscoping selection."
+msgid "Example \"How to use Rotoscoping for changing color tone\""
 msgstr "Esempio 1: come fare una selezione per il rotoscopio."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:107
-msgid "Choose Color, from the main menu to allow work with color scope."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:174
+msgid "Layout changed to Color"
 msgstr ""
-"Scegli Colore dal menu principale per poter lavorare nell'ambito del colore."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:113
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:176
 msgid ""
-"For this example, the Sun object will be chosen for changing tone. Come back "
-"to edit mode."
+"We will be using the :guilabel:`Color` layout. This will allow us to work "
+"with the color vectorscope. Make sure it is enabled: :menuselection:`Menu --"
+"> View --> Vectorscope`. But for now we will stay in the :guilabel:`Edit` "
+"layout."
 msgstr ""
-"Per questo esempio verrà scelto l'oggetto Sole e gli verrà modificato il "
-"tono. Ritorna nella modalità di modifica."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:119
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:186
+msgid "Selecting Rotoscoping from the list of effects"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:188
+#, fuzzy
+#| msgid ""
+#| "Head over to effects menu, type in Rotoscoping then drag it over video to "
+#| "see further instructions."
 msgid ""
-"Head over to effects menu, type in Rotoscoping then drag it over video to "
-"see further instructions."
+"In the Timeline, select the clip with the sunset. Open the effects tab, type "
+"in \"Rotoscoping\", then drag it over the video to see further instructions."
 msgstr ""
 "Vai nel menu degli effetti, digita Rotoscopio quindi trascinalo sul video, "
 "in modo da vedere ulteriori istruzioni."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:126
-msgid ""
-"By clicking the left mouse button for selection object and right mouse click "
-"to complete selection."
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:198
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:210
+msgid "Object selection"
 msgstr ""
-"Per selezionare l'oggetto fai clic sul pulsante sinistro del mouse, per "
-"completare la selezione fai invece clic sul destro."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:136
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:200
 msgid ""
-"Come back to color menu then vectorscope via drop-down at the bottom right-"
-"hand corner choose YUV paint mode."
+"Start creating the region/mask around the sun by putting nodes around it. "
+"Use :guilabel:`Mouse left-click` to create nodes. If needed, zoom into the "
+"Project Monitor by using :guilabel:`Ctrl+Wheel` or the Project Monitor "
+"controls."
 msgstr ""
-"Ritorna nel menu dei colori, quindi Evidenzia le punte massime dal menu a "
-"discesa nell'angolo in basso a destra, poi scegli la modalità di disegno YUV."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:142
-msgid "Choose color balance for color grading."
-msgstr "Scegli il bilanciamento del colore per la sfumatura."
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:149
-msgid "Tutorial with Rotoscoping"
-msgstr "Esercitazione col rotoscopio"
-
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:151
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:212
 msgid ""
-"This video is about green screen on **Kdenlive** but he does use rotoscoping "
-"in it too."
+"Close the region/mask by :guilabel:`Mouse right-click`. If needed make "
+"adjustments by moving, adding or deleting nodes. For round object like the "
+"sun in this example curves come in handy."
 msgstr ""
-"Questo video è sullo Schermo verde in **Kdenlive**, ma usa anche il "
-"rotoscopio."
 
-#: ../../effects_and_compositions/effect_groups/alpha_manipulation/rotoscoping.rst:153
-msgid "https://youtu.be/_6gxHLCFhLQ"
-msgstr "https://youtu.be/_6gxHLCFhLQ"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:222
+msgid "YUV selection"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:224
+msgid ""
+"Switch back to the :guilabel:`Color` layout. In the vectorscope tab use the :"
+"guilabel:`Paint mode` and select YUV."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:234
+msgid "Color balance selection"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:236
+msgid ""
+"In the effects tab choose Color Balance and adjust the various red, green "
+"and blue values to the color of the sun you like."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:251
+msgid "**Notes**"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:253
+msgid "See this Wikipedia article about |wiki_rotoscoping|"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:255
+msgid "This is the |mlt_rotoscoping| filter"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:257
+msgid "See this Wikipedia article about |wiki_bezier|"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:259
+msgid ""
+"If there is no keyframe ruler in the Rotoscope effect panel click on the |"
+"keyframe| icon in the effect header"
+msgstr ""
+
+#~ msgid "What is Rotoscoping?"
+#~ msgstr "Che cos'è il Rotoscopio?"
+
+#~ msgid "-- `Wikipedia <https://en.wikipedia.org/wiki/Rotoscoping>`_"
+#~ msgstr "-- `Wikipedia <https://it.wikipedia.org/wiki/Rotoscopio>`_"
+
+#~ msgid "How to draw the region in Kdenlive?"
+#~ msgstr "Come disegno la regione in Kdenlive?"
+
+#~ msgid "Add nodes to the node by left clicking the mouse."
+#~ msgstr "Aggiungi dei nodi facendo clic col tasto sinistro del mouse."
+
+#~ msgid "Change the position of the region by moving a node."
+#~ msgstr "Modifica la posizione della regione spostando un nodo."
+
+#~ msgid ""
+#~ "To define if it is the inside or the outside of the curve that is "
+#~ "transparent toggle the :guilabel:`Invert` checkbox."
+#~ msgstr ""
+#~ "Per definire se la parte trasparente sia all'interno o all'esterno della "
+#~ "curva, attiva o disattiva la casella :guilabel:`Inverti`."
+
+#~ msgid ""
+#~ "In a previous version of Kdenlive you could add a new nodes by clicking "
+#~ "on the line between existing nodes. You could subtract nodes by right "
+#~ "clicking on them. But it looks like you can not do this with the 17.04 & "
+#~ "18.04 version."
+#~ msgstr ""
+#~ "Nelle versioni precedenti di Kdenlive potevi aggiungere un nuovo nodo "
+#~ "facendo clic sulla linea tra i nodi esistenti, e potevi sottrarli "
+#~ "facendoci clic sopra col tasto destro. Però sembra che questo non sia più "
+#~ "possibile nelle versioni 17.04 e 18.04."
+
+#~ msgid "How to move the mask to follow the action - keyframes"
+#~ msgstr ""
+#~ "Come spostare la maschera per seguire l'azione - i fotogrammi chiave"
+
+#~ msgid "To make the drawn mask follow the action in a clip..."
+#~ msgstr ""
+#~ "Per fare in modo che la maschera disegnata segua l'azione all'interno di "
+#~ "una clip..."
+
+#~ msgid ""
+#~ "This effect is based on the MLT `FilterRotoscoping <https://www."
+#~ "mltframework.org/plugins/FilterRotoscoping/>`_."
+#~ msgstr ""
+#~ "Questo effetto è basato su `FilterRotoscoping <https://www.mltframework."
+#~ "org/plugins/FilterRotoscoping/>`_ di MLT."
+
+#~ msgid "Rotoscoping options greyed out"
+#~ msgstr "Opzioni del rotoscopio disabilitate"
+
+#~ msgid ""
+#~ "When you first add the rotoscope effect the keyframe options in it are "
+#~ "greyed out. You can not even add a new keyframe."
+#~ msgstr ""
+#~ "Quando aggiungi per la prima volta l'effetto del rotoscopio, le opzioni "
+#~ "sui fotogrammi chiave in esso sono disabilitate. Non puoi nemmeno "
+#~ "aggiungere un nuovo fotogramma chiave."
+
+#~ msgid ""
+#~ "Solution. Click in the project monitor and start drawing your rotoscope "
+#~ "matte. Then the rotoscope keyframe options become enabled."
+#~ msgstr ""
+#~ "Soluzione: fai clic nel controllo del progetto, ed inizia a disegnare il "
+#~ "contorno del rotoscopio. In questo modo le opzioni sui fotogrammi chiave "
+#~ "del rotoscopio vengono così abilitate."
+
+#~ msgid "https://youtu.be/h36S-awjLBk"
+#~ msgstr "https://youtu.be/h36S-awjLBk"
+
+#~ msgid "https://youtu.be/nFv46XQUO34"
+#~ msgstr "https://youtu.be/nFv46XQUO34"
+
+#~ msgid "Choose Color, from the main menu to allow work with color scope."
+#~ msgstr ""
+#~ "Scegli Colore dal menu principale per poter lavorare nell'ambito del "
+#~ "colore."
+
+#~ msgid ""
+#~ "For this example, the Sun object will be chosen for changing tone. Come "
+#~ "back to edit mode."
+#~ msgstr ""
+#~ "Per questo esempio verrà scelto l'oggetto Sole e gli verrà modificato il "
+#~ "tono. Ritorna nella modalità di modifica."
+
+#~ msgid ""
+#~ "By clicking the left mouse button for selection object and right mouse "
+#~ "click to complete selection."
+#~ msgstr ""
+#~ "Per selezionare l'oggetto fai clic sul pulsante sinistro del mouse, per "
+#~ "completare la selezione fai invece clic sul destro."
+
+#~ msgid ""
+#~ "Come back to color menu then vectorscope via drop-down at the bottom "
+#~ "right-hand corner choose YUV paint mode."
+#~ msgstr ""
+#~ "Ritorna nel menu dei colori, quindi Evidenzia le punte massime dal menu a "
+#~ "discesa nell'angolo in basso a destra, poi scegli la modalità di disegno "
+#~ "YUV."
+
+#~ msgid "Choose color balance for color grading."
+#~ msgstr "Scegli il bilanciamento del colore per la sfumatura."
+
+#~ msgid "Tutorial with Rotoscoping"
+#~ msgstr "Esercitazione col rotoscopio"
+
+#~ msgid ""
+#~ "This video is about green screen on **Kdenlive** but he does use "
+#~ "rotoscoping in it too."
+#~ msgstr ""
+#~ "Questo video è sullo Schermo verde in **Kdenlive**, ma usa anche il "
+#~ "rotoscopio."
+
+#~ msgid "https://youtu.be/_6gxHLCFhLQ"
+#~ msgstr "https://youtu.be/_6gxHLCFhLQ"
 
 #~ msgid "Contents"
 #~ msgstr "Contenuto"
