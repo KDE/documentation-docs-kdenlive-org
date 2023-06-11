@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-08 00:39+0000\n"
-"PO-Revision-Date: 2022-05-11 08:51+0300\n"
+"PO-Revision-Date: 2023-06-10 23:10+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -36,7 +36,6 @@ msgid "Rotoscoping"
 msgstr "Ротоскоп"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:54
-#, fuzzy
 #| msgid ""
 #| "\"In the visual effects industry, the term rotoscoping refers to the "
 #| "technique of manually creating a matte for an element on a live-action "
@@ -48,10 +47,9 @@ msgid ""
 msgstr ""
 "«У індустрії візуальних ефектів термін «ротоскопія» застосовується до "
 "методики створення матування для елемента вручну на живій сцені так, щоб "
-"його можна було скомпонувати із іншим тлом.»"
+"його можна було скомпонувати із іншим тлом.» [1]_"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:56
-#, fuzzy
 #| msgid ""
 #| "Draw a region on one video track, and everything outside/inside that "
 #| "region will disappear, showing the video track underneath."
@@ -60,8 +58,10 @@ msgid ""
 "outside/inside that region will disappear showing the video track "
 "underneath. Effectively, the region defines the matte or mask for the clip."
 msgstr ""
-"Намалюйте ділянку на відеодоріжці, і все, що розташовано ззовні або "
+"Цей ефект [2]_ використовують для малювання ділянки на відеодоріжці. Усе, що"
+" розташовано ззовні або "
 "всередині ділянки, зникне, заміщене зображенням з нижчої відеодоріжки."
+" Ділянка визначає матову поверхню або маску для кліпу."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:62
 msgid ""
@@ -71,15 +71,14 @@ msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:66
 msgid "Drawing the Region"
-msgstr ""
+msgstr "Малювання ділянки"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:74
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:86
 msgid "Nodes and Handles"
-msgstr ""
+msgstr "Вузли і елементи керування"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:76
-#, fuzzy
 #| msgid ""
 #| "The region is drawn by adding nodes along your region. These act as edges "
 #| "for your rotoscope, and there is a line between each node. The line "
@@ -107,12 +106,13 @@ msgid ""
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:92
-#, fuzzy
 #| msgid "Close the region by right clicking the mouse on one of the nodes."
 msgid ""
 "Close the region by right clicking the mouse on one of the nodes. Kdenlive "
 "will draw a straight line between the first node created and the last."
-msgstr "Замкніть ділянку клацанням правою кнопкою миші на одному з вузлів."
+msgstr ""
+"Замкніть ділянку клацанням правою кнопкою миші на одному з вузлів. Kdenlive"
+" намалює пряму між першим створеним вузлом і останнім."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:100
 msgid "Inserting a node for better edge control"
@@ -132,7 +132,6 @@ msgid "Using handles to create curves"
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:114
-#, fuzzy
 #| msgid ""
 #| "Make a line curved by dragging the control \"handles\". These are the two "
 #| "dots on the ends of the straight lines that appear on the curve (see "
@@ -142,8 +141,7 @@ msgid ""
 "dots on the ends of the straight lines that appear on the curve."
 msgstr ""
 "Додайте лінії кривини перетягуванням контрольних елементів керування. Цими "
-"елементами є дві точки на кінцях прямої лінії, яка з'являється на кривій "
-"(див. знімок вікна вище)."
+"елементами є дві точки на кінцях прямої лінії, яка з'являється на кривій."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:118
 msgid ""
@@ -184,7 +182,6 @@ msgid "Using keyframes for Rotoscoping"
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:140
-#, fuzzy
 #| msgid ""
 #| "Move the position in the clip by dragging the carat on the time line (1 "
 #| "or 3 in screenshot below) or by using the time code control in the "
@@ -194,14 +191,13 @@ msgid ""
 "or by using the keyframe ruler [4]_ in the Rotoscope effect (2)."
 msgstr ""
 "Пересунути позицію у кліпі можна перетягуванням курсора на монтажному столі "
-"(1 або 3 на знімку нижче) або за допомогою віджета часової позиції на панелі "
-"ефекту ротоскопа (2 на знімку вікна)."
+"(3) або за допомогою лінійки ключових кадрів [4]_ на панелі ефекту ротоскопа"
+" (2)."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:142
-#, fuzzy
 #| msgid "Click :guilabel:`Add keyframe` (5 in the screen shot)."
 msgid "Click |keyframe-add|:guilabel:`Add keyframe` (5)."
-msgstr "Натисніть :guilabel:`Додати ключовий кадр` (кнопка 5 на знімку вікна)."
+msgstr "Натисніть |keyframe-add|:guilabel:`Додати ключовий кадр` (5)."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:144
 msgid "Now adjust the position of the nodes in the curve to match the action."
@@ -210,7 +206,6 @@ msgstr ""
 "змінам у кадрі."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:146
-#, fuzzy
 #| msgid ""
 #| "Kdenlive will calculate a path to move the nodes from the position they "
 #| "were in the previous key frame to the position you put them in at this "
@@ -226,7 +221,6 @@ msgstr ""
 "для кожного проміжного кадру у кліпі."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:148
-#, fuzzy
 #| msgid ""
 #| "To remove a key frame move to the frame with the key frame using the :"
 #| "guilabel:`Go to previous keyframe` (4) or :guilabel:`Go to next keyframe` "
@@ -240,43 +234,46 @@ msgid ""
 "which becomes :guilabel:`Delete keyframe` (6) when you are on an existing "
 "keyframe."
 msgstr ""
-"Щоб вилучити ключовий кадр, перейдіть до відповідного кадру за допомогою "
-"кнопок :guilabel:`Перейти до попереднього ключового кадру` (4) або :guilabel:"
-"`Перейти до наступного ключового кадру` (6), а потім натисніть кнопку з "
-"червоним «X», на яку перетвориться кнопка :guilabel:`Додати ключовий кадр` "
-"(5), коли курсор перебуватиме на наявному ключовому кадрі."
+"Щоб вилучити ключовий кадр, позначте його натисканням символу ключового"
+" кадру (ромб, коло або квадрат) або перейдіть до відповідного кадру за"
+" допомогою "
+"кнопок |keyframe-previous|:guilabel:`Перейти до попереднього ключового"
+" кадру` (4) або |keyframe-next|:guilabel:"
+"`Перейти до наступного ключового кадру` (5), а потім натисніть кнопку"
+" |keyframe-remove|, на якій буде показано :guilabel:`Вилучити ключовий кадр` "
+"(6), коли курсор перебуватиме на наявному ключовому кадрі."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:152
 msgid "Examples"
 msgstr "Приклади"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:154
-#, fuzzy
 #| msgid "Examples of what you can do with the Rotoscoping effect."
 msgid "Examples on YouTube of what you can do with the Rotoscoping effect:"
-msgstr "Приклади того, що ви можете зробити за допомогою ефекту ротоскопії."
+msgstr ""
+"Приклади на YouTube того, що ви можете зробити за допомогою ефекту"
+" ротоскопії."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:156
 msgid "|no_mirror| (by Everything and Even Gaming)"
-msgstr ""
+msgstr "|no_mirror| (від Everything and Even Gaming)"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:158
 msgid "|arkengheist| (by Arkengheist)"
-msgstr ""
+msgstr "|arkengheist| (від Arkengheist)"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:160
 msgid "|text_reveal| (by TJ FREE)"
-msgstr ""
+msgstr "|text_reveal| (від TJ FREE)"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:162
 msgid "|rotoscoping_nbtech| (by NBtech)"
-msgstr ""
+msgstr "|rotoscoping_nbtech| (від NBtech)"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:166
-#, fuzzy
 #| msgid "Example 1.How to make rotoscoping selection."
 msgid "Example \"How to use Rotoscoping for changing color tone\""
-msgstr "Приклад 1. Як створити ротоскопічне позначення."
+msgstr "Приклад «Як скористатися ротоскопією для зміни тону кольорів»"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:174
 msgid "Layout changed to Color"
@@ -295,7 +292,6 @@ msgid "Selecting Rotoscoping from the list of effects"
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:188
-#, fuzzy
 #| msgid ""
 #| "Head over to effects menu, type in Rotoscoping then drag it over video to "
 #| "see further instructions."
@@ -303,13 +299,14 @@ msgid ""
 "In the Timeline, select the clip with the sunset. Open the effects tab, type "
 "in \"Rotoscoping\", then drag it over the video to see further instructions."
 msgstr ""
-"Відкрийте меню ефектів, введіть «ротоскоп», потім перетягніть ефект на відео "
-"і ознайомтеся із подальшими настановами."
+"На монтажному столі позначте кліп із записом заходу сонця. Відкрийте вкладку"
+" ефектів, введіть «Ротоскопія», потім перетягніть пункт ефекту на відео, щоб"
+" переглянути подальші настанови."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:198
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:210
 msgid "Object selection"
-msgstr ""
+msgstr "Вибір об'єкта"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping.rst:200
 msgid ""
