@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-08 00:39+0000\n"
-"PO-Revision-Date: 2023-06-10 19:17+0300\n"
+"PO-Revision-Date: 2023-06-11 21:45+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:16
 msgid "Chroma Key: Advanced"
-msgstr ""
+msgstr "Хромакей: додаткові можливості"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:18
 msgid ""
@@ -30,6 +30,10 @@ msgid ""
 "fine-grained control over how much and in which way you remove the "
 "background."
 msgstr ""
+"Цей ефект є розширеною версією ефекту :ref:`Хромакей: базовий <"
+"effects-chroma_key_basic>`. У ефекті *Хромакей: додаткові можливості* [1]_"
+" передбачено базове розмазування (зміною **Режиму краю**) і набагато точніше "
+"керування тим, наскільки і у який спосіб буде вилучено тло."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:20
 msgid ""
@@ -38,6 +42,11 @@ msgid ""
 "green, blue, red or possibly black), use the :ref:`Chroma Key: Basic "
 "<effects-chroma_key_basic>` effect."
 msgstr ""
+"Цей ефект краще працює для тла, яке є менш контрастним із переднім планом "
+"або має складнішу природу. Для простих варіантів (зокрема зеленого, синього, "
+"червоного або, можливо, чорного) скористайтеся ефектом :ref:`Хромакей:"
+" базовий "
+"<effects-chroma_key_basic>`."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:24
 msgid "Basic Technique"
@@ -50,6 +59,10 @@ msgid ""
 "do easy backgrounds such as green or blue). Add the *Chroma Key: Advanced* "
 "effect to the clip."
 msgstr ""
+"Знайдіть кліп із тлом (бажано різнобарвним або дещо складним, оскільки "
+":ref:`Ефект хромакею: базовий <effects-chroma_key_basic>` може працювати із"
+" простими кольорами тла, зокрема зеленим "
+"або синім). Додайте ефект *Хромакей: додаткові можливості* до кліпу."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:28
 msgid ""
@@ -64,6 +77,18 @@ msgid ""
 "for **Kdenlive** to remove. At this point, you will most likely need to use :"
 "ref:`Rotoscoping <effects-rotoscoping>`."
 msgstr ""
+"Тепер або виберіть колір за допомогою палітри, яку можна відкрити за"
+" допомогою натискання розфарбованого прямокутника, або скористайтеся малою"
+" кнопкою з піпеткою, а потім клацніть на тій частині тла кліпу монітора"
+" проєкту, яку ви хочете вилучити. Скоригуйте розташування повзунків"
+" :guilabel:`Різниця` так, щоб тло було вилучено належним чином. Це може"
+" потребувати певного експериментування. Якщо тло не вдається вилучити,"
+" спробуйте змінити :guilabel:`Модель кольорів` і повторити спробу вилучення."
+" Якщо усі спроби і циклічний перехід варіантами значень :guilabel:`Модель"
+" кольорів` не призводить до повного вилучення тла, ймовірно, тло є надто"
+" складним для вилучення за допомогою **Kdenlive**. У цьому випадку,"
+" найімовірніше, вам варто вдатися до використання ефекту :ref:`Ротоскопія <"
+"effects-rotoscoping>`."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:30
 msgid ""
@@ -73,6 +98,12 @@ msgid ""
 "custom *Chroma Key: Advanced* effect will be saved in the *Custom* effect "
 "category from where you can use it just like any other effect."
 msgstr ""
+"Якщо для застосування ефекту потрібен значний час на експериментування, і ви"
+" маєте плани повторного застосування цього ефекту, натисніть кнопку"
+" |document-save|:guilabel:`Зберегти ефект`. Надайте назву і коментар ефекту"
+" і натисніть кнопку :guilabel:`Гаразд`. Ваш нетиповий ефект *Хромакей:"
+" додаткові можливості* буде збережено у категорії ефектів *Нетипові*, звідки"
+" ви зможете скористатися ним, як будь-яким іншим ефектом."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:34
 msgid "All Options"
@@ -80,7 +111,7 @@ msgstr "Усі параметри"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:40
 msgid "Chroma Key: Advanced effect panel"
-msgstr ""
+msgstr "Панель ефекту «Хромакей: додаткові можливості»"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:43
 msgid ":guilabel:`Invert selection`"
@@ -105,6 +136,12 @@ msgid ""
 "sometimes the other options HCI and ABI can yield much better results than "
 "RGB. So if RGB isnt producing good results then try one of the other options."
 msgstr ""
+"Передбачено такі варіанти: :guilabel:`RGB` (Red Green Blue), :guilabel:`ABI`"
+" і :guilabel:`HCI` (Hue Chromacity Intensity). Різні варіанти дають різні"
+" результати. Хоча «RGB» має давати найкращі результати з найбільшою"
+" різкістю, іноді інші варіанти «HCI» та «ABI», дають кращі результати за"
+" «GB». Тому, якщо RGB не дає якісних результатів, спробуйте якийсь з інших"
+" варіантів."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:47
 msgid ":guilabel:`Color Model` [2]_"
@@ -116,6 +153,11 @@ msgid ""
 "since values for every single pixel have to be calculated. Either lower the "
 "Project Monitor playback resolution or use the Preview Render function."
 msgstr ""
+"Попередній перегляд відеокліпів, до яких було застосовано ефект хромакею із"
+" використання моделі HCI, буде оброблятися **повільно**, оскільки програмі"
+" доведеться обчислювати значення для кожного пікселя. Ви можете або знизити"
+" роздільну здатність відтворення на моніторі проєкту або скористатися"
+" функціональною можливістю попередньої обробки перегляду."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:52
 msgid "Options are: Hard, Fat, Normal, Skinny, Slope"
@@ -125,6 +167,8 @@ msgstr "Варіанти: жорсткі, широкі, звичайні, вуз
 msgid ""
 "If the Edge Mode is set to Slope, you can use the :guilabel:`Soften` slider."
 msgstr ""
+"Якщо для параметра «Режим редагування» встановлено значення «Нахил», ви"
+" можете скористатися повзунком :guilabel:`Притлумити`."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:56
 msgid ""
@@ -136,10 +180,9 @@ msgid ""
 msgstr ""
 "«Жорсткі» означає, що не виконуватиметься розмазування (краї взагалі не буде "
 "згладжено). Будь-яка частина зображення або відео буде або повністю "
-"непрозорою або повністю прозорою. Це означає, що не буде, наприклад,"
-" вибраного кольору "
-"між вилученими частинами і частинами, які залишилися. Такий варіант стане у "
-"пригоді, якщо ваш хромакей майже ідеальний."
+"непрозорою або повністю прозорою. Це означає, що не буде, наприклад, "
+"вибраного кольору між вилученими частинами і частинами, які залишилися. "
+"Такий варіант стане у пригоді, якщо ваш хромакей майже ідеальний."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:58
 msgid ":guilabel:`Edge Mode`"
@@ -160,7 +203,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:61
 msgid ":guilabel:`Color to select`"
-msgstr ""
+msgstr ":guilabel:`Колір, який слід позначити`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:61
 msgid ""
@@ -168,10 +211,12 @@ msgid ""
 "color that is opaque depending on the setting for :guilabel:`Invert "
 "selection`."
 msgstr ""
+"Колір для позначення. Це колір, який буде прозорим або єдиним кольором, який "
+"є непрозорим, залежно від значення параметра :guilabel:`Інвертувати вибір`."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:64
 msgid ":guilabel:`Delta`"
-msgstr ""
+msgstr ":guilabel:`Різниця`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:64
 msgid ""
@@ -191,10 +236,14 @@ msgid ""
 "the smoother the edges of your color selection will be. Only works if :"
 "guilabel:`Edge mode` is set to Slope."
 msgstr ""
+"Цей повзунок визначає плавність країв. Чим "
+"більшим буде значення, тим плавнішими будуть краї вибраної ділянки кольору."
+" Працює, лише якщо для параметра :"
+"guilabel:`Режим країв` встановлено значення «Нахил»."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:68
 msgid ":guilabel:`Soften`"
-msgstr ""
+msgstr ":guilabel:`Притлумити`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:70
 msgid "**Notes**"
@@ -205,16 +254,17 @@ msgid ""
 "See :ref:`Chroma Key: Basic <effects-chroma_key_basic>` which also does "
 "color-based alpha selection but is a bit simpler."
 msgstr ""
+"Див. :ref:`Хромакей: базовий <effects-chroma_key_basic>`, де також"
+" виконується вибір альфи на основі кольорів, але дещо простіший."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:79
 msgid "This effect used to be called *Color Selection*"
-msgstr ""
+msgstr "Раніше цей ефект мав назву *Вибір кольору*"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced.rst:81
 msgid ""
 "This |page| covers some color theory to help understand hue, chroma, "
 "luminance, etc."
 msgstr ""
-"На |page| викладено частину теорії кольорів, яка допоможе вам розібратися із"
-" відтінком, яскравістю, "
-"освітленістю тощо."
+"На |page| викладено частину теорії кольорів, яка допоможе вам розібратися із "
+"відтінком, яскравістю, освітленістю тощо."
