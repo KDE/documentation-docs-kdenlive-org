@@ -29,4 +29,4 @@ Replace an area with interpolated pixels. The new pixel values are interpolated 
 
 This example shows how to use the Spot Remover effect. A bird is crossing the viewport and is removed from the final video. For demonstration purposes the original video is on the left, the one with the bird removed is on the right. The bird's position is indicated by the yellow circle.
 
-Note the keyframe panel and the keyframe positions in the Project Monitor. Edit Mode must be enabled to see the red edit points and handles,
+Note the keyframe panel and the keyframe positions in the Project Monitor. Edit Mode must be enabled to see the red edit points and handles.
