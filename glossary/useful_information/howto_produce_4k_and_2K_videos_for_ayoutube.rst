@@ -10,7 +10,7 @@
              
    :license: Creative Commons License SA 4.0
 
-.. moved from https://forum.kde.org/viewtopic.php?f=272&t=124869#p329129
+.. moved from https://forum.kde.org/viewtopic.php%3Ff=272&t=124869.html#p329129
 
 ..
   Copy/paste from EXCEL sheet direct into the online converter.

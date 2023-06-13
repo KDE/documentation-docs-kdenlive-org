@@ -20,9 +20,9 @@ Useful Resources
 * Another Kdenlive manual: `flossmanuals <http://www.flossmanuals.net/how-to-use-video-editing-software/>`_
 * `Cutting and Splicing Video in KDEnlive <http://www.linuceum.com/Desktop/KDEnliveVideo.php>`_  by Linuceum
 * `opensource.com tutorial <http://opensource.com/life/11/11/introduction-kdenlive>`_
-* `Kdenlive Forum <https://forum.kde.org/viewforum.php?f=262>`_
+* `Kdenlive Forum <https://discuss.kde.org/tag/kdenlive>`_
 * Kdenlive `Developer Wiki <https://community.kde.org/Kdenlive/Development>`_
-
+* `Kdenlive old forum (frozen) <https://forum.kde.org/viewforum.php%3Ff=262.html>`_
 
 Keyboard Stickers - courtesy of Weevil 
 

@@ -237,7 +237,7 @@ Add a maximal cache size so that Kdenlive can check every 2 weeks if the total c
 
 .. deprecated:: 19.04
 
-**Processing and transcode jobs**: This is experimental and was removed in ver 0.9.10. This number was passed to melts *real_time* consumer property. This parameter increases the number of threads the program uses for video decoding and processing (but not encoding which is controlled via :ref:`render`).  See `mlt doco <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_. Using this has potential side effects - see `this <https://forum.kde.org/viewtopic.php?f=265&t=122140#p317318>`_ forum post from the author of the Melt program.
+**Processing and transcode jobs**: This is experimental and was removed in ver 0.9.10. This number was passed to melts *real_time* consumer property. This parameter increases the number of threads the program uses for video decoding and processing (but not encoding which is controlled via :ref:`render`).  See `mlt doco <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_. Using this has potential side effects - see `this <https://forum.kde.org/viewtopic.php%3Ff=265&t=122140.html#p317318>`_ forum post from the author of the Melt program.
 
 If you want to experiment with multi threading in versions higher than 0.9.10  you could add something like "real_time=-4" to a custom render profile.  And yes that is a minus 4 in the example - as per the    `mlt doco <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_ - numbers <0 implement threading without dropping frames.
 
