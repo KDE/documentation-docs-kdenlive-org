@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-08 00:39+0000\n"
-"PO-Revision-Date: 2023-06-12 23:14+0300\n"
+"PO-Revision-Date: 2023-06-13 22:29+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -48,6 +48,9 @@ msgid ""
 "frei0r| or |avfilter| (Kdenlive does not have built-in effects or "
 "compositions of its own)."
 msgstr ""
+"Ефекти і композиції є дуже важливими компонентами у редагуванні відео. У "
+"Kdenlive ефекти і композиції засновано на фільтрах, які є частиною |frei0r| "
+"або |avfilter| (у Kdenlive немає власних вбудованих ефектів або композицій)."
 
 #: ../../effects_and_compositions.rst:30
 msgid ""
@@ -57,6 +60,11 @@ msgid ""
 "*Alpha, Mask and Keying* category provide very specific filters for masking "
 "or rotoscoping."
 msgstr ""
+"Ефектами користуються для зміни вигляду або обробки кліпу. Наприклад, за "
+"допомогою ефекту **Перетворення** можна масштабувати і пересувати зображення "
+"у кліпі; ефект **Яскравість** змінює яскравість зображення; ефекти у "
+"категорії *Прозорість, маска і ключові кольори* надають доступ до дуже "
+"специфічних фільтрів для маскування і ротоскопії."
 
 #: ../../effects_and_compositions.rst:32
 msgid ""
@@ -70,6 +78,16 @@ msgid ""
 "to create artistic and aesthetic effects when combining several clips (e.g. "
 "Darken, Dodge, Burn)."
 msgstr ""
+"Композиції використовують для поєднання декількох візуальних елементів з "
+"різних джерел в одному відео. У Kdenlive ви розташовуєте різні джерела на "
+"доріжках монтажного столу і використовуєте композиції, щоб повідомити "
+"Kdenlive, як їх поєднувати. Наприклад, композиція **Розчинити** усуває із "
+"зображення один кліп, одночасно заміщуючи його іншим протягом певної "
+"кількості кадрів. Тому іноді композиції називають переходами. Зауважте, що "
+"хоча композиції дуже часто використовують для переходу з одного відео до "
+"іншого, ними можна скористатися для створення художніх та естетичних ефектів "
+"при поєднанні декількох кліпів (наприклад, затемнення, висвітлення, "
+"вигорання)."
 
 #: ../../effects_and_compositions.rst:34
 msgid ""
@@ -88,27 +106,35 @@ msgid ""
 "On the clip in the Project Bin, which makes the effect available in all "
 "instances of that clip in the Timeline"
 msgstr ""
+"До кліпу на панелі контейнера проєкту, що робить ефект доступним в усіх "
+"екземплярах кліпу на монтажному столі"
 
 #: ../../effects_and_compositions.rst:40
 msgid ""
 "On the clip in the Timeline, which makes the effect only applicable for that "
 "clip in the Timeline at that point"
 msgstr ""
+"До кліпу на монтажному столі, що робить ефект застосованим лише до кліпу на "
+"монтажному столі у відповідній точці"
 
 #: ../../effects_and_compositions.rst:42
 msgid ""
 "On the track, which applies the effect to all clips in that particular track"
 msgstr ""
+"До доріжки, що робить ефект застосованим до усіх кліпів на окремій доріжці"
 
 #: ../../effects_and_compositions.rst:44
 msgid "On Master, which applies that effect to all clips in all tracks"
 msgstr ""
+"До основи, що робить ефект застосованим до усіх кліпів на усіх доріжках"
 
 #: ../../effects_and_compositions.rst:46
 msgid ""
 "Not all effects can be used at the track or Master level nor does it make "
 "sense."
 msgstr ""
+"На рівні доріжки або основи можна використовувати не усі ефекти, і не усі "
+"ефекти мають на цих рівнях сенс."
 
 #: ../../effects_and_compositions.rst:52
 msgid "Effects Tab"
@@ -119,20 +145,26 @@ msgid ""
 "Make the Effects widget visible in :menuselection:`Menu --> View --> "
 "Effects`."
 msgstr ""
+"Зробіть віджет ефектів видимим за допомогою пункту :menuselection:`Меню --> "
+"Перегляд --> Ефекти`."
 
 #: ../../effects_and_compositions.rst:62
 msgid "Kdenlive Effects widget as a tab in the Project Bin area"
-msgstr ""
+msgstr "Віджет ефектів Kdenlive як вкладка на панелі контейнера проєкту"
 
 #: ../../effects_and_compositions.rst:64
 msgid ""
 "The Effects widget has seven control icons that show or hide the different "
 "effect categories:"
 msgstr ""
+"На віджеті ефектів передбачено сім кнопок керування, натискання яких "
+"призводить до показу або приховування різних категорій ефектів:"
 
 #: ../../effects_and_compositions.rst:66
 msgid "1 - **Main Effects** shows all video and audio effects (default view)"
 msgstr ""
+"1 — **Основні ефекти** показує усіх відеоефекти та звукові ефекти (типовий "
+"перегляд)"
 
 #: ../../effects_and_compositions.rst:68
 msgid ""
@@ -140,16 +172,21 @@ msgid ""
 "the *Audio Correction* category that is in the **Main Effects**, and adds "
 "the *Misc* and *Motion* categories."
 msgstr ""
+"2 — **Відеоефекти** показує усі категорії відеоефектів. Вибір цього варіанта "
+"призводить до приховування категорії *Виправлення звуку* з категорії "
+"**Основні ефекти** і додає категорії *Інше* і *Рух*."
 
 #: ../../effects_and_compositions.rst:70
 msgid "3 - **Audio Effects** shows all audio effects categories"
-msgstr ""
+msgstr "3 — **Звукові ефекти** показує усі категорії звукових ефектів"
 
 #: ../../effects_and_compositions.rst:72
 msgid ""
 "4 - **Custom Effects** shows all effects you have created by saving an "
 "effect stack."
 msgstr ""
+"4 — **Нетипові ефекти** показує усі ефекти, які ви створили збереженням "
+"стосу ефектів."
 
 #: ../../effects_and_compositions.rst:76
 msgid ""
@@ -158,18 +195,28 @@ msgid ""
 "an effect` from the right-click menu of a clip in the Timeline, or by "
 "clicking the :guilabel:`Favorite Effects` in the Timeline toolbar."
 msgstr ""
+"5 — **Улюблені ефекти** показує усі ефекти, які було позначено як улюблені. "
+"Це той самий список, який буде показано при виборі пункту :guilabel:"
+"`Вставити ефект` у контекстному меню кліпу на монтажному столі або "
+"натисканням пункту :guilabel:`Улюблені ефекти` на панелі інструментів "
+"монтажного столу."
 
 #: ../../effects_and_compositions.rst:78
 msgid ""
 "6 - **Show Effect Info** toggles the information display below the effect "
 "list where a short description of what the effect does is displayed when on"
 msgstr ""
+"6 — **Показати відомості щодо ефекту** перемикає показ відомостей під "
+"списком ефектів, де програма показує короткий опис того, які завдання "
+"виконує ефект, якщо показ увімкнено"
 
 #: ../../effects_and_compositions.rst:80
 msgid ""
 "7 - **Download Effects** opens a dialog window where effect templates are "
 "listed from the KDE Store"
 msgstr ""
+"7 — **Отримати ефекти** відкриває вікно, у якому буде показано шаблони "
+"ефектів з крамниці KDE Store"
 
 #: ../../effects_and_compositions.rst:86
 msgid "Effect/Composition Stack"
@@ -182,6 +229,10 @@ msgid ""
 "properties. If a Composition is selected the widget displays the "
 "composition's settings or properties."
 msgstr ""
+"Цей віджет також називають вкладкою властивостей, оскільки на ньому показано "
+"список усіх ефектів, які застосовано до поточного позначеного кліпу, а також "
+"параметри або властивості кожного з ефектів. Якщо позначено композицію, на "
+"віджеті буде показано параметри або властивості композиції."
 
 #: ../../effects_and_compositions.rst:90
 msgid "|effect| < effect | composition > |composition|"
@@ -206,6 +257,9 @@ msgid ""
 "for the effect stack under which it will be listed in the *Custom* effect "
 "category and a comment which will be displayed in the information display"
 msgstr ""
+"|document-save-all| Зберегти ефект — відкриває діалогове вікно для введення "
+"назви стосу ефектів, яку буде використано у списку категорії ефектів "
+"*Нетипові* та коментар, який буде показано на панелі відомостей"
 
 #: ../../effects_and_compositions.rst:114
 msgid ""
@@ -213,18 +267,25 @@ msgid ""
 "vertically to do a side-by-side comparison of the clip with and without "
 "effects"
 msgstr ""
+"|view-split-left-right| Порівняти ефект — ділить панель монітора "
+"попереднього перегляду для виконання паралельного порівняння кліпу з ефектом "
+"і без нього"
 
 #: ../../effects_and_compositions.rst:116
 msgid ""
 "|visibility| Effects enabled - Switches the effect stack on or off. This is "
 "equivalent to disabling all effects in the effect stack."
 msgstr ""
+"|visibility| Увімкнені ефекти — вмикає або вимикає стос ефектів. Це "
+"еквівалент вимикання усіх ефектів у стосі ефектів."
 
 #: ../../effects_and_compositions.rst:118
 msgid ""
 "|keyframe-disable| Hide/Show keyframes in Timeline - Switches the display of "
 "keyframes in the clip in the Timeline on or off"
 msgstr ""
+"|keyframe-disable| Приховати/Показати ключові кадри на монтажному столі — "
+"вмикає або вимикає показ ключових кадрів у кліпі на монтажному столі"
 
 #: ../../effects_and_compositions.rst:126
 msgid "Effect Functions"
@@ -235,18 +296,25 @@ msgid ""
 "|keyframe-disable| Hide/show keyframes - Turns the display of the keyframe "
 "ruler off or on"
 msgstr ""
+"|keyframe-disable| Приховати/Показати ключові кадри — вимикає або вмикає "
+"показ лінійки ключових кадрів"
 
 #: ../../effects_and_compositions.rst:143
 msgid ""
 "|visibility| Disable effect - Turns the effect off or on. The effect stays "
 "in the stack but is not applied during playback or rendering."
 msgstr ""
+"|visibility| Вимкнути ефект — вимикає або вмикає ефект. Ефект лишається у "
+"стосі, але його не буде застосовано під час відтворення або обробки."
 
 #: ../../effects_and_compositions.rst:145
 msgid ""
 "|adjustlevels2| Presets - Opens a list of advanced options to manage presets "
 "for the effect (e.g. reset the effect to its default parameters)"
 msgstr ""
+"|adjustlevels2| Шаблони — відкриває список додаткових параметрів для "
+"керування наборами налаштувань для ефекту (наприклад, скидання ефекту до "
+"типових параметрів)"
 
 #: ../../effects_and_compositions.rst:147
 msgid ""
@@ -254,22 +322,29 @@ msgid ""
 "the effect under which it will be listed in the *Custom* effect category and "
 "a comment which will be displayed in the information display"
 msgstr ""
+"|document-save| Зберегти ефект — відкриває діалогове вікно для введення "
+"назви ефекту, яку буде використано у списку категорії ефектів *Нетипові* та "
+"коментар, який буде показано на панелі відомостей"
 
 #: ../../effects_and_compositions.rst:149
 msgid ""
 "|selection-raise| Move effect up - Moves the effect up one notch in the list "
 "(effect sequence from top to bottom is important)"
 msgstr ""
+"|selection-raise| Пересунути ефект вище — пересуває ефект на одну позицію "
+"вище у списку (послідовність ефекти згори вниз є суттєвою)"
 
 #: ../../effects_and_compositions.rst:151
 msgid ""
 "|selection-lower| Move effect down - Moves the effect down one notch in the "
 "list (effect sequence from top to bottom is important)"
 msgstr ""
+"|selection-lower| Пересунути ефект нижче — пересуває ефект на одну позицію "
+"нижче у списку (послідовність ефектів згори вниз є суттєвою)"
 
 #: ../../effects_and_compositions.rst:153
 msgid "|edit-delete| Delete effect - Removes the effect from the effect stack"
-msgstr ""
+msgstr "|edit-delete| Вилучити ефект — вилучає ефект зі стосу ефектів"
 
 #: ../../effects_and_compositions.rst:161
 msgid "Apply an Effect"
@@ -301,6 +376,10 @@ msgid ""
 "the favorite effects by right-click on the effect in the Effects Tab and "
 "select :guilabel:`Add to favorites`)."
 msgstr ""
+"Іншим способом є використання кнопки |favorite|:guilabel:`Улюблений ефект` "
+"на панелі інструментів монтажного столу і вибір ефекту звідти (додати ефект "
+"до улюблених можна клацанням правою кнопкою миші на пункті ефекту на вкладці "
+"ефектів з наступним вибором пункту меню :guilabel:`Додати до улюблених`)."
 
 #: ../../effects_and_compositions.rst:169
 msgid ""
@@ -308,18 +387,27 @@ msgid ""
 "to select an effect from the various categories and add it to the selected "
 "clip(s) in the Timeline."
 msgstr ""
+"Крім того ви можете скористатися пунктом :menuselection:`Меню --> Монтажний "
+"стіл --> Додати ефект` для вибору ефекту з різноманітних категорій і "
+"додавання його до позначеного кліпу або позначених кліпів на монтажному "
+"столі."
 
 #: ../../effects_and_compositions.rst:171
 msgid ""
 "And last but not least you can copy effects with all their settings from any "
 "clip (Timeline or Project Bin) and paste them to other clips."
 msgstr ""
+"І нарешті, ви можете скопіювати ефекти з усіма їхніми параметрами з будь-"
+"якого з кліпів (на монтажному столі або на панелі контейнера проєкту) і "
+"вставити їх до інших кліпів."
 
 #: ../../effects_and_compositions.rst:173
 msgid ""
 "Effects are always added at the bottom of the effect stack, and since the "
 "effect order is important can be re-arranged."
 msgstr ""
+"Ефекти завжди додаються до нижньої частини стосу ефектів, і оскільки порядок "
+"ефектів є суттєвим, список можна переупорядкувати."
 
 #: ../../effects_and_compositions.rst:179
 msgid "Keyframes in Effects"
@@ -355,12 +443,19 @@ msgid ""
 "easier if the clip's duration is relatively long and the effect stack widget "
 "is too narrow to display all keyframes nicely spaced."
 msgstr ""
+"На лінійці ключових кадрів передбачено панелі масштабування, які спрощують "
+"коригування ключових кадрів, якщо тривалість кліпу є відносно довгою, а "
+"віджет стосу ефектів є надто вузьким для показу усіх ключових кадрів із "
+"належними інтервалами."
 
 #: ../../effects_and_compositions.rst:198
 msgid ""
 "Keyframes can be copied and pasted between effects and even across clips. "
 "Standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`"
 msgstr ""
+"Ключові кадри може бути скопійовано і вставлено між ефектами і навіть між "
+"кліпами. Стандартними клавіатурними скороченнями для цього є :kbd:`Ctrl+C`, :"
+"kbd:`Ctrl+V`"
 
 #: ../../effects_and_compositions.rst:204
 msgid "Working with Keyframes in the Effect Stack"
@@ -387,6 +482,8 @@ msgid ""
 "Click on |align-horizontal-center|:guilabel:`Move selected keyframe to "
 "cursor`"
 msgstr ""
+"Натисніть |align-horizontal-center|:guilabel:`Пересунути позначений ключовий "
+"кадр до курсораMove selected keyframe to cursor`"
 
 #: ../../effects_and_compositions.rst:226
 msgid "Select the keyframe you want to duplicate"
@@ -404,7 +501,7 @@ msgstr ""
 
 #: ../../effects_and_compositions.rst:229
 msgid "Click on |edit-paste|:guilabel:`Paste keyframe`"
-msgstr ""
+msgstr "Натисніть |edit-paste|:guilabel:`Вставити ключовий кадр`"
 
 #: ../../effects_and_compositions.rst:238
 msgid "Select all keyframes you want to apply the value on"
@@ -421,6 +518,9 @@ msgid ""
 "Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply "
 "current position value to selected keyframes`"
 msgstr ""
+"Натисніть кнопку |application-menu|:guilabel:`Параметри` і виберіть :"
+"guilabel:`Застосувати значення у поточній позиції до позначених ключових "
+"кадрів`"
 
 #: ../../effects_and_compositions.rst:241
 msgid "Select the parameters you want to apply and click on :guilabel:`OK`"
@@ -430,10 +530,14 @@ msgstr ""
 #: ../../effects_and_compositions.rst:250
 msgid "Select multiple individual keyframes with :kbd:`Ctrl+Left-click`"
 msgstr ""
+"Виберіть декілька окремих ключових кадрів за допомогою комбінації :kbd:`Ctrl"
+"+клацання-лівою`"
 
 #: ../../effects_and_compositions.rst:259
 msgid "Select contiguous keyframes with :kbd:`Shift+Left-click`"
 msgstr ""
+"Виберіть неперервну послідовність ключових кадрів за допомогою комбінації :"
+"kbd:`Shift+клацання-лівою`"
 
 #: ../../effects_and_compositions.rst:268
 msgid "Moving multiple keyframes at once"
@@ -441,7 +545,7 @@ msgstr "Одночасне пересування декількох ключо�
 
 #: ../../effects_and_compositions.rst:276
 msgid "Exchanging Keyframes Across Effects"
-msgstr ""
+msgstr "Обмін ключовими кадрами між ефектами"
 
 #: ../../effects_and_compositions.rst:280
 msgid ""
@@ -461,10 +565,13 @@ msgid ""
 "guilabel:`Options` in the keyframe panel [1]_ and choose :guilabel:`Copy "
 "keyframes to clipboard`."
 msgstr ""
+"Щоб експортувати ключові кадри до буфера обміну даними, клацніть на |"
+"application-menu|:guilabel:`Параметри` на панелі ключових кадрів [1]_ і "
+"виберіть пункт :guilabel:`Копіювати ключові кадри до буфера обміну`."
 
 #: ../../effects_and_compositions.rst:288
 msgid "Importing keyframes"
-msgstr ""
+msgstr "Імпортування ключових кадрів"
 
 #: ../../effects_and_compositions.rst:290
 msgid ""
@@ -473,20 +580,29 @@ msgid ""
 "keyframes from clipboard`. If you have valid data on your clipboard you "
 "should see this dialog window where you can adjust the mapping of the data."
 msgstr ""
+"Щоб імпортувати ключові кадри з буфера обміну даними клацніть на |"
+"application-menu|:guilabel:`Параметри` на панелі ключових кадрів [1]_ і "
+"виберіть пункт :guilabel:`Імпортувати ключові кадри з буфера обміну`. Якщо у "
+"буфері обміну даними містяться коректні дані, ви маєте побачити діалогове "
+"вікно, подібне до наведеного на знімку. За допомогою цього вікна ви зможете "
+"скоригувати прив'язку даних."
 
 #: ../../effects_and_compositions.rst:292
 msgid ""
 "For most use cases the default settings suffice. But you may want to copy "
 "only a subset of the data and perhaps enter an offset value, for example."
 msgstr ""
+"Для більшості випадків достатньо типових значень параметрів. Але у вас може "
+"виникнути потреба у копіюванні лише підмножини даних і, наприклад, введенні "
+"значення зсуву."
 
 #: ../../effects_and_compositions.rst:300
 msgid "Track Effect"
-msgstr ""
+msgstr "Ефект доріжки"
 
 #: ../../effects_and_compositions.rst:308
 msgid "Track effect indicators"
-msgstr ""
+msgstr "Індикатори ефекту доріжки"
 
 #: ../../effects_and_compositions.rst:310
 msgid ""
@@ -495,6 +611,10 @@ msgid ""
 "track, or click on the |tools-wizard|:guilabel:`Track Effect` icon and drag "
 "the effect to the track's effect stack."
 msgstr ""
+"Ефекти можна додавати до усієї доріжки, щоб вони діяли для усіх кліпів, які "
+"розташовано на цій доріжці. Просто перетягніть пункт ефекту з вкладки "
+"ефектів на заголовок бажаної доріжки або натисніть кнопку |tools-wizard|:"
+"guilabel:`Ефект доріжки` і перетягніть пункт ефекти до стосу ефектів доріжки."
 
 #: ../../effects_and_compositions.rst:318
 msgid "Master Effect"
@@ -517,7 +637,7 @@ msgstr "Додавання ефекту сепії до усього відео"
 
 #: ../../effects_and_compositions.rst:330
 msgid "The following effects are available On Master only:"
-msgstr ""
+msgstr "Ці ефекти доступні лише для основи:"
 
 #: ../../effects_and_compositions.rst:342
 msgid "Effect Zones"
@@ -551,12 +671,17 @@ msgid ""
 "This feature allows to apply effects only to specific regions of a clip by "
 "using masks. In its current implementation the process requires three steps:"
 msgstr ""
+"Ця можливість надає змогу застосовувати ефекти лише до певних ділянок "
+"зображення кліпу шляхом використання масок. У поточній реалізації процедура "
+"складається з трьох кроків:"
 
 #: ../../effects_and_compositions.rst:371
 msgid ""
 "Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
 "guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
 msgstr ""
+"Додайте одну з трьох доступних масок: :guilabel:`Форма прозорості (маска)`, :"
+"guilabel:`Ротоскопія (маска)` або :guilabel:`α-форми (маска)`."
 
 #: ../../effects_and_compositions.rst:372
 msgid "Add an effect (or effects) to be applied to the masked region"
@@ -567,12 +692,16 @@ msgid ""
 "Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
 "step 2"
 msgstr ""
+"Додайте ефект :guilabel:`Застосування маски`, щоб активувати маску до "
+"ефектів на кроці 2"
 
 #: ../../effects_and_compositions.rst:379
 msgid ""
 "Using Rotoscoping (mask) to apply the Saturation effect in one specific "
 "region only"
 msgstr ""
+"Використання ротоскопії (маски) для застосування ефекту насичення лише на "
+"окремій ділянці зображення"
 
 #: ../../effects_and_compositions.rst:381
 msgid ""
@@ -592,6 +721,9 @@ msgid ""
 "See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` "
 "for an alphabetical list of effects and transitions."
 msgstr ""
+"Див. також :doc:`це <effects_and_compositions/"
+"effects_and_transitions_list>`, щоб ознайомитися із списком ефектів і "
+"переходів за абеткою."
 
 #: ../../effects_and_compositions.rst:407
 msgid "The video effects are divided into the following categories:"
@@ -645,10 +777,15 @@ msgid ""
 "The Time Remap feature allows to keyframe the speed of a clip to achieve "
 "effects like speed ramping."
 msgstr ""
+"За допомогою можливості переприв'язки за часом можна визначити ключові кадри "
+"для швидкості відтворення кліпу з метою досягнення ефектів, подібних до "
+"швидкого прокручування."
 
 #: ../../effects_and_compositions.rst:485
 msgid "Example of using Time remapping for speed ramping"
 msgstr ""
+"Приклад використання переприв'язки за часом для створення швидкого "
+"прокручування"
 
 #: ../../effects_and_compositions.rst:491
 msgid "Speech-to-Text"
@@ -696,7 +833,7 @@ msgstr "|video_4|"
 
 #: ../../effects_and_compositions.rst:564
 msgid "See also this YouTube play list from |video_5|"
-msgstr ""
+msgstr "Див. також список відтворення YouTube з |video_5|"
 
 #: ../../effects_and_compositions.rst:569
 msgid "**Notes**"
@@ -708,6 +845,10 @@ msgid ""
 "switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
 "or perhaps the effect is simply not keyframable."
 msgstr ""
+"Якщо ви не бачити панелі ключових кадрів, переконайтеся, що панель ключових "
+"кадрів не було вимкнено для цього ефекту (піктограма |keyframe-disable| на "
+"панелі інструментів ефектів) або у тому, що ефект не належить до ефектів, "
+"які не пов'язано із ключовими кадрами."
 
 #~ msgid "Contents:"
 #~ msgstr "Зміст:"
