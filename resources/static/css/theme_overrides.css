@@ -85,3 +85,9 @@
 .clear-right {
     clear: right;
 }
+
+.table-wrap td, .table-wrap th {
+    /* !important prevents the common CSS stylesheets from
+       overriding this as on RTD they are loaded after this stylesheet */
+    white-space: normal !important;
+}
