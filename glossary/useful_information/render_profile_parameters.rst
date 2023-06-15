@@ -21,21 +21,18 @@
 Render Profile Parameters
 =========================
 
-
-
-
 Render Profile Parameters - How to read them
 --------------------------------------------
 
 .. versionchanged:: 22.04
 
-.. image:: /images/exporting/edit_render_profile_22-04.png
+.. image:: /images/glossary/edit_render_profile_22-04.png
    :alt: Kdenlive_Edit_render_profile_video
 
-.. image:: /images/exporting/edit_render_profile__audio_22-04.png
+.. image:: /images/glossary/edit_render_profile__audio_22-04.png
    :alt: Kdenlive_Edit_render_profile_audio
 
-.. image:: /images/exporting/edit_render_profile_other_22-04.png
+.. image:: /images/glossary/edit_render_profile_other_22-04.png
    :alt: Kdenlive_Edit_render_profile_other
    
 
@@ -76,7 +73,7 @@ Contents of lossless/H.264:
 Scanning Dropdown
 -----------------
 
-.. image:: /images/exporting/render_dialog_21-08_scanning.png
+.. image:: /images/glossary/render_dialog_21-08_scanning.png
    :alt: Scanning dropdown of the render dialog
    :align: left
 

@@ -34,10 +34,10 @@ Guides in the picture below are the purple flags. Not to be confused with :ref:`
    :alt: Kdenlive_Markers_and_guides_crop
 
 
-Guides can be used to define regions for rendering. See :ref:`rendering`.
+Guides can be used to define regions for rendering. See :ref:`rendering-guides`.
 
 
-Guides can also be used as chapters for DVD videos. See :ref:`rendering`.
+Guides can also be used as chapters for DVD videos. See :ref:`rendering-guides`.
 
 
 .. _add_guides:

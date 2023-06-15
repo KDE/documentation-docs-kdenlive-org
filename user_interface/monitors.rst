@@ -34,7 +34,7 @@ Monitor zoombar
 
 .. versionadded:: 20.08.0
 
-The Monitors get zoom bars. To activate: hover over the timeline ruler and :kbd:`CTRL + Mouse wheel`. 
+The Monitors get zoom bars. To activate: hover over the timeline ruler and :kbd:`CTRL+Mouse wheel`.
 
 .. image:: /images/clip-monitor-zoombar.gif
    :alt: clip-monitor-zoombar
@@ -186,7 +186,7 @@ You can use the :kbd:`I` and :kbd:`O` keys to create a zone in the Project Monit
 .. image:: /images/Kdenlive_Zone_in_project_monitor2.png
    :alt: Kdenlive_Zone_in_project_monitor2
 
-You can get Kdenlive to only render the selected zone - see :ref:`remder_using_zone`.
+You can get Kdenlive to only render the selected zone - see :ref:`rendering-selected_zone`.
 
 Project Monitor Right-click menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

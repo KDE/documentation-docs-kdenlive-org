@@ -7,6 +7,10 @@
    :authors: - Annew (https://userbase.kde.org/User:Annew)
              - Claus Christensen
              - Yuri Chornoivan
+             - Nikerabbit (https://userbase.kde.org/User:Nikerabbit)
+             - Simon Eugster <simon.eu@gmail.com>
+             - Jean-Baptiste Mardelle <jb@kdenlive.org>
+             - Earl fx (https://userbase.kde.org/User:Earl fx)
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Vincent Pinon <vpinon@kde.org>
              - Bushuev (https://userbase.kde.org/User:Bushuev)
@@ -16,8 +20,10 @@
              - Roger (https://userbase.kde.org/User:Roger)
              - KGHN (https://userbase.kde.org/User:KGHN)
              - Eugen Mohr
+             - Bernd Jordan
 
    :license: Creative Commons License SA 4.0
+
 
 
 .. _render:
@@ -25,15 +31,11 @@
 Rendering
 =========
 
-..
-  TODO:
-  * How to choose the correct output format and bit rate? * What to do for rendering lossless, for an iPhone, or whatever? (Dropdown containing targets like lossless/HQ/player)
+.. TODO:
+   * How to choose the correct output format and bit rate? * What to do for rendering lossless, for an iPhone, or whatever? (Dropdown containing targets like lossless/HQ/player)
 
 
-
-Rendering is the process where the edited clips are saved into a single complete video clip. During the rendering process the video can be compressed and converted to a number of different video formats (aka codecs).
-
-The rendering dialog is brought up from the render button |media-record| from selecting :menuselection:`Project --> Render` menu item or by the :kbd:`Ctrl + Enter` shortcut.
+The rendering dialog is brought up by selecting |media-record| Render... from the :menuselection:`Menu --> Project`, or by the :kbd:`Ctrl+Enter` default keyboard shortcut.
 
 
 Rendering Dialog
@@ -41,300 +43,450 @@ Rendering Dialog
 
 .. versionchanged:: 22.12
    
-.. image:: /images/exporting/render_dialog_22-12.png
-   :alt: File rendering dialog 22.12
+.. figure:: /images/exporting/kdenlive2212_rendering-render_dialog.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2212_rendering-render_dialog
 
-:ref:`download_new_render_profiles`
+   Rendering dialog window
+
+* Output file - Enter the location in your file system where the video file will be stored
+
+* |document-new| :ref:`Create new preset <manage_project_profiles>` - Opens the dialog to create a new preset based on the selected preset.
+
+* |edit-download| :ref:`Download New Render Presets <download_new_render_profiles>` - Opens a window displaying user-created presets available from the KDE Store for download
+
+* |document-save-as| Save Current Preset as :ref:`New Custom Preset <manage_project_profiles>` - Copies the selected preset and opens the dialog to modify this preset (will be saved under a new name)
+
+* |document-edit| :ref:`Edit Preset <manage_project_profiles>`- Opens the dialog to modify the preset (only available for custom or downloaded presets)
+
+* |edit-delete| - Delete preset (only for custom or downloaded presets)
+
+.. figure:: /images/exporting/kdenlive2212_rendering-render_dialog_2.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2212_rendering-render_dialog_2
+
+   Rendering dialog window
+
+* :guilabel:`Full project` - Render the entire project (default)
+
+* :guilabel:`Selected zone` - Render only the defined timeline zone
+
+* :guilabel:`Guide Zone` - Render only the zone defined by two selected guides
+
+* :guilabel:`Guide Multi-Export` - Render individual files for the zones defined by the guides
+
+* :guilabel:`More Options` - Folds out the dialog window to display more (advanced) options
+
+* :guilabel:`Render to File` - Click to start the rendering and file creation
+
+* :guilabel:`Generate Script` - Click to just generate a script for later (batch) processing
+
+.. rst-class:: clear-both
+
 
 Rendering Preset Categories
 ----------------------------
 
-.. image:: /images/exporting/render_dialog_22-04_categories_expanded.png
-   :alt: File rendering categories - ver 22.04
+**Kdenlive** offers many different rendering presets to choose from. They are grouped into categories.
 
-**Kdenlive** offers many different rendering presets to choose from. The rendering presets are grouped into categories. See picture Above.
+.. figure:: /images/exporting/kdenlive2304_rendering-presets.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_rendering-presets
+
+   Kdenlive Rendering Presets/Profiles
+
+* **Audio only** - AC3, ALAC, FLAC, MP3, OGG, WAV
+
+* **Video with Alpha** - Alpha MOV, Alpha VP8, Alpha VP9, Ut Video
+
+* **Images sequence** - BMP, DPX, GIF, JPEG, PNG, PPM, TGA, TIFF, webp
+
+* **Lossless/HQ** - FFV1 (ffva+flac), H.264 (libx264+aac), HuffYUV (huffyuv+flac), Ut Video (utvideo+pcm_s24le)
+
+* **Generic (HD for web, mobile devices ...)** - GIF High Quality, MP4-H264/AAC, MPEG-2, WebM-VP8/Vorbis (libre)
+
+* **Ultra-High Definition (4K)** - MP4-H265 (HEVC), WebM-AV1/Opus (libre), WebM-VP9/Opus (libre)
+
+* **Old-TV definition (DVD...)** - MPEG4-ASP/MP3 (DivX compatible), WOB (DVD), Windows Media PLayer
+
+* **Hardware Accelerated (experimental)** - NVENC H264 ABR, NVENC H264 VBR, NVENC H265 ABR, VAAPI AMD H264, VAAPI Intel H264
+
+Click on |edit-download| to download more presets created by Kdenlive users. For more details about creating your own presets refer to the :ref:`Project Profiles <manage_project_profiles>` section of the documentation.
+
+See also the :doc:`Render Profile Parameter </glossary/useful_information/render_profile_parameters>` section for more details about the various settings in the presets.
+
+.. rst-class:: clear-both
+
 
 Full Project
 ------------
 
-:guilabel:`Full Project` radio button is the default setting. **Kdenlive** render from the first clip until the last clip in the timeline. 
+:guilabel:`Full Project` radio button is the default setting. **Kdenlive** renders from the start of the first clip until the end of the last clip in the timeline.
+
+
+.. _rendering-selected_zone:
 
 Selected Zone
 -------------
 
-:guilabel:`Selected Zone` radio button, **Kdenlive** will only render that portion of the project which has a selected zone created for it. See :ref:`monitors`.
+:guilabel:`Selected Zone` radio button selected, **Kdenlive** will only render that portion of the project which has a selected zone created for it. See :ref:`monitors`.
 
-.. _remder_using_zone:
 
 Guide Zone
 ----------
 
-.. image:: /images/exporting/render_guide_zone_22-04.png
-   :alt: render guide zone 22-04
-
-:guilabel:`Guide zone` radio button makes use of :ref:`guides` to define a region of the project that is to be rendered. See :ref:`rendering`.
+:guilabel:`Guide zone` radio button makes use of :ref:`guides` to define a region of the project that is to be rendered. For more details refer to the :ref:`rendering-guides` section of the documentation.
 
 
 Guide Multi-Export
 ------------------
 
-.. versionadded:: 22.04
-
-.. image:: /images/exporting/render_guide_multi-export_22-04.png
-   :alt: render guide multi export 22-04
-
-:guilabel:`Guide Multi-Export` radio button makes use of :ref:`guides` categories to be rendered. 
-
-.. image:: /images/exporting/render_guide_multi-export_example_22-04.png
-   :alt: render guide multi-export example 22-04
-
-The selection of guide categories indicates which guides categories will be considered for rendering. In the example above, there are the following options:
-
-*	"All Categories": This leads to four files: 
-
-   * `projectname-begin.mp4` (from 00:00:00 to "guide1")
-  
-   * `projectname-guide1.mp4` (from "guide1" to "guide2")
-   
-   * `projectname-guide2.mp4` (from "guide2" to "guide3")
-  
-   * `projectname-guide3.mp4` (from "guide3" to the end)
-
-*	"Category 0 (purple)": This leads to three files:
-   
-   * `projectname-begin.mp4` (from 00:00:00 to "guide1")
-    
-   * `projectname-guide1.mp4` (from "guide1" to "guide2")
-   
-   * `projectname-guide2.mp4` (from "guide2" to the end)
-
-*	"Category 1 (blue)": This leads to two files: 
-
-   * `projectname-begin.mp4` (from 00:00:00 to "guide3")
-   * `projectname-guide3.mp4` (from "guide3" to the end)
-
-* If guides are behind the last timeline clip, they are ignored. 
-
-* If a guide sits right at the beginning of the timeline, the name of that guide is used instead of "begin". 
-
-* If two guides have the same name, an underscore and a number will be added to the file name.
+:guilabel:`Guide Multi-Export` radio button makes use of :ref:`guides` categories to be rendered. For more details refer to the :ref:`rendering-multi_export` section of the documentation.
 
 
-More Option
------------
+More Options
+------------
 
-:guilabel:`More Option` show you more options for rendering.
+Video
+~~~~~
 
+Check this box to get a video track in the rendered file.
 
-Render Overlay
---------------
-
-.. image:: /images/Kdenlive_Render_overlay.png
+.. figure:: /images/exporting/kdenlive2304_rendering-video.webp
    :align: left
-   :alt: Kdenlive_Render_overlay
+   :alt: kdenlive2304_rendering-video
 
-This option overlays a time code or frame count over the rendered video. This will put the overlay over the entire rendered project. Alternatively you can use the :ref:`dynamic_text` effect to overlay selected regions of the video.
+   Rendering options for video
 
-.. image:: /images/Kdenlive_Render_overlay_result_eg.png
-   :width: 150px
-   :alt: render overlay result
+:guilabel:`Render full color range` - Check this box if you need 10-bit color instead of 8-bit color. Please note that this does not work with effects (yet).
 
+:guilabel:`Render at Preview Resolution` - Check this box if you want to use the same resolution as set in the Project Monitor. Useful for quick renderings to check or verify things.
 
-Export Metadata
----------------
+:guilabel:`Rescale` - Select this if you want the rendered video to have a different resolution than what is set in the Project Settings. Useful for quick renderings to check or verify things.
 
-Check this to have the metadata which has been entered under :ref:`project_settings` placed into the metadata of the rendered file.
+.. figure:: /images/exporting/kdenlive2304_rendering-video_overlay.webp
+   :align: right
+   :alt: kdenlive2304_rendering-video_overlay
 
-.. image:: /images/exporting/project_settings_21-08_metadata.png
-   :alt: Metadata tab of Project Settings
+   Render overlay
 
-And this is the metadata on the resulting clip (rendered with :guilabel:`Export Metadata` checked).
+:guilabel:`Render Overlay` - This option overlays a time code or frame count over the rendered video. The overlay will be over the *entire* rendered project. Alternatively you can use the :ref:`dynamic_text` effect to overlay selected regions of the video.
 
-.. image:: /images/Kdenlive_Clip_properties_metadata_res.png
-   :alt: Kdenlive_Clip_properties_metadata_res
+.. rst-class:: clear-both
 
-.. code-block:: bash
+Audio
+~~~~~
 
-  $ ffprobe dog_rotated_meta_data.mp4
+.. versionchanged:: 22.04
+   The audio checkbox is simply a checkbox - no automatic audio export anymore
 
-.. code-block:: bash
+Check this box to have audio tracks in the rendered file.
 
-      Metadata:
-      major_brand     : isom
-      minor_version   : 512
-      compatible_brands: isomiso2avc1mp41
-      title           : Bailey
-      encoder         : Lavf53.21.1
-      copyright       : VSF
-
-
-Export Audio Checkbox
----------------------
-
-This is an unusual one. Instead of a normal on/off checkbox toggle, the :guilabel:`Export Audio` checkbox cycles among three choices.
-
-As if that weren't confusing enough, the :guilabel:`Export audio (automatic)` option may appear different depending on your combination of distribution, desktop environment and theme. See three examples below:
-
-Regardless of how the checkbox on the :guilabel:`Export audio (automatic)` option may appear on your installation, rest assured that when that option is showing, it is enabled.
-
-So what do the three options mean?
-
-.. image:: /images/exporting/render_dialog_21-08_audio_automatic.png
-   :alt: Export audio option of the render dialog (automatic)
+.. figure:: /images/exporting/kdenlive2304_rendering-audio.webp
    :align: left
+   :alt: kdenlive2304_rendering-audio
 
-*Export audio (automatic)* means detect if an audio track is present and write the audio track if found
+   Rendering options for audio
+
+:guilabel:`Separate file for each audio track` - By default, Kdenlive creates a stereo audio track. Use this option if you want multiple audio tracks (for example for different languages or commentary) that can be selected in the player software. Use a third-party software to put the video and audio files together.
+
+.. rst-class:: clear-both
+
+Custom Quality
+~~~~~~~~~~~~~~
+
+.. figure:: /images/exporting/kdenlive2304_rendering-custom_quality.webp
+   :align: left
+   :alt: kdenlive2304_rendering-custom_quality
+
+   Rendering options for custom quality
+
+Check this box if you want to manually adjust the quality settings for the rendering process. Use the slider to dial in the quality settings. This has an influence on file size and rendering time.
+
+.. rst-class:: clear-both
+
+Encoder
+~~~~~~~
+
+.. figure:: /images/exporting/kdenlive2304_rendering-encoder.webp
+   :align: left
+   :alt: kdenlive2304_rendering-encoder
+
+   Rendering options for encoder usage
+
+Use the slider to change the speed setting from 'very slow' to 'ultra fast'.
+
+If you have a CPU capable of multi-threading you can select the number of *Encoding threads* to be passed to melt [1]_. For encoding with certain codecs (MPEG-2, MPEG-4, H.264, and VP8) Kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines.
+
+Parallel Processing
+~~~~~~~~~~~~~~~~~~~
+
+.. figure:: /images/exporting/kdenlive2304_rendering-parallel_proc.webp
+   :align: left
+   :alt: kdenlive2304_rendering-parallel_proc
+
+   Rendering options for parallel processing
+
+Switch this on to further reduce rendering time. Once enabled you can select the number of threads to use. A good number is 50% of what your CPU's number of possible threads is (e.g. 8 threads for a 16-thread CPU).
+
+.. warning:: Parallel Processing is still (version 23.04.1) somewhat experimental and may result in rendering artifacts, crashes during render or other unwanted effects.
+
+Other Options
+~~~~~~~~~~~~~
+
+.. figure:: /images/exporting/kdenlive2304_rendering-other.webp
+   :align: left
+   :alt: kdenlive2304_rendering-other
+
+   Other rendering options
+
+:guilabel:`2 pass`
+
+:guilabel:`Export metadata` - Check this box to have the metadata entered in the :ref:`project_settings` placed into the metadata of the rendered file.
 
 .. container:: clear-both
 
-   .. image:: /images/exporting/render_dialog_21-08_audio_checked.png
-      :alt: Export audio option of the render dialog (active)
+   .. figure:: /images/exporting/kdenlive2304_project_settings_metadata.webp
       :align: left
+      :width: 400px
+      :figwidth: 400px
+      :alt: kdenlive2304_project_settings_metadata
 
-   *Export audio*, when checked, means write an audio track in the rendered file even if there is no audio track to write.
+      Metadata for the project
 
-.. container:: clear-both
+   In this example, metadata was entered in the Project Settings dialog.
 
-   .. image:: /images/exporting/render_dialog_21-08_audio_unchecked.png
-      :alt: Export audio option of the render dialog (not active)
-      :align: left
+   You can edit this by clicking on the :guilabel:`Edit metadata` link in the rendering dialog (:guilabel:`More options` must be checked). For this example a new field **Kdenlive Version** was added (using :kbd:`+`) and a value of *23.04.1* entered.
 
-   *Export audio*, when unchecked, means do not write an audio track in the rendered file.
+.. rst-class:: clear-both
 
-The difference in behavior between enabling *Export audio* versus *Export audio (automatic)* can be seen in the situation where you have a video on the timeline but there is no audio track on the timeline and the video in the video track also does not have an audio track. An example of such a situation is shown in the screenshot below.
-
-.. image:: /images/Kdenlive_Video_with_no_audio.png
-   :alt: Kdenlive_Video_with_no_audio
-
-In this situation, if you render with *Export audio (automatic)*, the rendered file will not have an audio track (Result 1 on screenshot below). But if you render with *Export Audio* checked, then the rendered file will contain an audio track – the track will however be empty (Result 2 on screenshot below).
-
-.. image:: /images/Kdenlive_Render_export_audio_auto_vs_just_checked2.png
-   :alt: Kdenlive_Render_export_audio_auto_vs_just_checked2
-
-FFprobe on file generated from an audio-less track using *Export audio (automatic)*. Note only one stream – Stream #0.0 – a video stream. **Kdenlive** automatically detected there was not an audio track and so it did not write one.
+You can check the metadata in the rendered video by entering this in a terminal window:
 
 .. code-block:: bash
 
-  $ ffprobe dog_rotated_exp_audio_auto.mp4
+  $ ffprobe <your_video>
 
-.. code-block:: bash
 
-    Metadata:
-      major_brand     : isom
-      minor_version   : 512
-      compatible_brands: isomiso2avc1mp41
-      encoder         : Lavf53.21.1
-  Duration: 00:00:03.62, start: 0.000000, bitrate: 12592 kb/s
-  Stream #0.0(und): Video: h264 (High), yuv420p, 1280x720 [PAR 1:1 DAR 16:9], 12587 kb/s, 27.83 fps, 27.83 tbr, 30k tbn, 55.66 tbc
-
-FFprobe on file generated from an audio-less track using *Export audio* checked. Note two streams – Stream #0.0 and Stream #0.1 – the latter being an aac audio track. We forced **Kdenlive** to write an audio track even though there was not any source audio to write.
-
-.. code-block:: bash
-
-  $ ffprobe dog_rotated_exp_audio.mp4
-
-.. code-block:: bash
-
-    Metadata:
-      major_brand     : isom
-      minor_version   : 512
-      compatible_brands: isomiso2avc1mp41
-      encoder         : Lavf53.21.1
-    Duration: 00:00:03.62, start: 0.000000, bitrate: 12598 kb/s
-
-  Stream #0.0(und): Video: h264 (High), yuv420p, 1280x720 [PAR 1:1 DAR 16:9], 12587 kb/s, 27.83 fps, 27.83 tbr, 30k tbn, 55.66 tbc
-  Stream #0.1(und): Audio: aac, 48000 Hz, stereo, s16, 2 kb/s
-
-In cases where there is an audio track ...
-
-.. image:: /images/Kdenlive_Video_plus_Audio_in_seperate_tracks.png
+.. figure:: /images/exporting/kdenlive2304_rendering-other.webp
    :align: left
-   :alt: Kdenlive_Video_plus_Audio_in_seperate_tracks
+   :alt: kdenlive2304_rendering-other
 
-Rendering with :menuselection:`Export audio` unchecked will produce a file with no audio track – result 4 in the screenshot above.
-Rendering with :menuselection:`Export audio (automatic)` (result 3 in the screenshot above) or with *Export audio* checked will produce files with Audio tracks.
+   Other rendering options
+
+:guilabel:`Embed subtitles instead of burning them in` - Creates a stream for subtitles in the container (e.g. MKV)
+
+:guilabel:`Open folder after export` - Opens the folder where the file was saved in the default file manager application
+
+:guilabel:`Play after render` - Opens the default media player application and plays the rendered file
 
 .. rst-class:: clear-both
 
 
-Encoder Threads
----------------
+.. _rendering-batch_mode:
 
-.. image:: /images/exporting/render_dialog_21-08_encoder.png
-   :align: left
-   :alt: Encoder options of the render dialog
+Rendering in Batch Mode
+=======================
 
-Determines the value of *Encoding threads* passed to melt. For encoding to certain codecs, namely MPEG-2, MPEG-4, H.264, and VP8, kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines. See `melt doco - threads <https://www.mltframework.org/plugins/ConsumerAvformat/#threads>`_ and `melt FAQ <https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_ on multi-threading.
+If you have a lot of rendering jobs to do, you can use **Kdenlive** to create rendering scripts which you can accumulate and then execute in batch mode overnight. **Kdenlive** stores the scripts in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --> Default folders`.
 
-.. _custom_render_presets:
+Alternatively, once you have submitted a rendering job on a project and it is up and running in the **Job Queue**, you can drag the render window out of the way or even close it, and continue editing the project, or load a new project and render that one, too. Any subsequent render jobs will go into the **Job Queue**. Editing the project after a render job has been submitted will not change the settings on that job.
 
-Create Custom Render Presets
-----------------------------
-
-.. image:: /images/exporting/kdenlive_custom_render_presets.png
-   :alt: kdenlive_custom_render_presets
-
-
-|document-new| Creates a new preset based on the project profile.
-
-|edit-download| Downloading additional user created presets.
-
-|document-save-as| Save the selected preset under a new name.
-
-|document-edit| Save the preset under the current name i.e. replace it.
-
-|document-new| |document-save-as| |document-edit| Will open the **Save Render Preset** dialog (also shown in the screenshot below) and the :guilabel:`Parameters` section will be filled in with the render parameters of the preset that you had selected when you clicked either of the |document-new| or |document-save-as| or |document-edit| button. You can edit values in the parameters and save your own custom render preset.
-
-**Creating new groups:** When you save a preset and enter a group name that does not yet exist, the group will be created.
-
-.. image:: /images/exporting/edit_render_profile_22-04.png
-   :alt: Dialog to edit render presets
-
-The parameters are not limited by the UI, you can add custom parameters in the box `Additional Parameters` under the tab :guilabel:`Other`.
-
-The parameters in the rendering presets are *melt* parameters. For an explanation of their meaning, check the *melt* `documentation <https://www.mltframework.org/docs/>`_ or type ``melt -help`` in a command prompt.
-
-See also :ref:`render_profile_parameters`.
-
-
-Rendering In Batch mode
------------------------
-
-If you have a lot of rendering jobs to do, you can use **Kdenlive** to create rendering scripts which you can accumulate and then execute in batch mode overnight. See :ref:`rendering`.
-
-Alternatively, once you have submitted a rendering job on a project and it is up and running in the **Job Queue**, you can drag the render window out of the way and edit the project some more or load a new project and render that one too. The second render job submitted will go into the **Job Queue**. Editing the project after a render job is submitted will not change the settings on that job.
-
-.. image:: /images/Kdenlive_Rendering_job_queue.png
+.. image:: /images/exporting/kdenlive2304_rendering-job_queue.webp
    :width: 400px
    :alt: Kdenlive_Rendering_job_queue
 
-Variable Bit Rate - earlier Versions
-------------------------------------
-
-.. warning::
-
-   |outdated|
-
-.. image:: /images/Kdenlive_Render_dialog_vbr_0.9.10.png
-   :alt: File rendering dialog Variable Bit Rate - ver 0.9.10
-
-When a variable bitrate (VBR) profile is selected, the :menuselection:`File Size` section displays a drop down for choosing the **Video quality** you want. This quality figure is a codec-dependent number representing the quality of the video that will be rendered. Generally, lower numbers mean higher quality video and larger file sizes (e.g. x264, MPEG2, VPx), but some codecs use opposite order (e.g. Theora). Profiles provided with **Kdenlive** offer these numbers ordered from best quality (almost lossless) to lower quality (still not degrading too much). The exact file size that is produced can not be predicted when using the VBR method. The idea behind this is that you specify a certain quality of video that you want through the entire video and the encoding optimizes bitrate to give you that constant quality, lowering data size for low action scenes and using more bits for high action scenes.
-
-Example: 1min 55 seconds of 720 x 576 H.264 iPhone footage rendered at quality 15 with the H.264/AAC High Profile would produce a file size of 186 Mb. Whereas rendering the same footage at quality quality 20 produced an 83Mb file.
+.. rst-class:: clear-both
 
 
-Constant Bit Rate - earlier Versions
-------------------------------------
+.. _rendering-guides:
 
-.. warning::
+Rendering Using Guides
+======================
 
-   |outdated|
+:ref:`Guides <guides>` can help organize your project while you work on it and when you share it with the world. You can use guides to keep track of areas or to generate rendering scripts that will do the mundane task for you. This feature makes exporting sections of your project quite easy.
 
-.. image:: /images/Kdenlive_Render_dialog_cbr_0.9.10.png
-   :alt: File rendering dialog Constant Bit Rate - ver 0.9.10
+For more details about guides, how to add and manage them, refer to the :ref:`Guides <guides>` section of the documentation.
 
-When a constant bitrate (CBR) profile is selected, the :menuselection:`File Size` section displays a drop down for choosing the **Video bitrate** you want. This is similar to the version <=0.9.8 behaviour of **Kdenlive**. You select the video bitrate you want and the video is encoded at that video bitrate across its entire length.
+Using Guide Zones
+-----------------
 
-.. image:: /images/Kdenlive_Render_dialog_0.9.8.png
-   :alt: File rendering dialog - ver 0.9.8
+.. figure:: /images/exporting/kdenlive2304_rendering-guide_zones.webp
+   :align: left
+   :width: 400px
+   :figwidth: 400px
+   :alt: kdenlive2304_rendering-guide_zones
 
+   Using guide zones to render a section
+
+With this option you define the start and end point for the render by selecting specific guides.
+
+.. rst-class:: clear-both
+
+Generating Rendering Scripts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/exporting/kdenlive2304_rendering-guide_zones_5a.webp
+   :align: left
+   :width: 160px
+   :alt: kdenlive2304_rendering-guide_zones_5a
+
+.. image:: /images/exporting/kdenlive2304_rendering-guide_zones_5b.webp
+   :align: left
+   :width: 160px
+   :alt: kdenlive2304_rendering-guide_zones_5b
+
+Choose which guides will establish the regions of video you want to export using the pull down menus next to :guilabel:`From` and :guilabel:`to`. In this example *Section 1* to *Section 1 End* will be used to define the section to be rendered.
+
+.. container:: clear-both
+
+   .. image:: /images/exporting/kdenlive2304_rendering-guide_zones_6.webp
+      :align: left
+      :width: 345px
+      :alt: kdenlive2304_rendering-guide_zones_6
+
+   Now you can render this to a file or generate a script that will render this guide zone to a file. Click :guilabel:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --> Default Folders`.
+
+.. rst-class:: clear-both
+
+.. image:: /images/exporting/kdenlive2304_rendering-stored_playlist.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2304_rendering-stored_playlist
+
+After saving the script, the top tab in the window switches to :guilabel:`Scripts`. This lists all the scripts you have generated, including scripts from other projects.
+
+In this example three scripts were created based on the guides in the timeline. Be sure and keep the :file:`.mlt` extension otherwise the rendering script will not be generated.
+
+.. rst-class:: clear-both
+
+Starting Your Rendering Scripts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each script needs to be started individually by selecting the script and clicking the :guilabel:`Start Script` button.
+
+.. image:: /images/exporting/kdenlive2304_rendering-job_queue.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2304_rendering-rendering_job_queue
+
+After clicking each script, Kdenlive switches to the *Job Queue* tab. Here you will see what script is being run and how many more are waiting to be run. If you have a large queue and you want to run the rendering after hours, you can take advantage of the nifty checkbox in the bottom left: :guilabel:`Shutdown computer after renderings`
+
+.. rst-class:: clear-both
+
+Starting Your Rendering Scripts in a Command Line Terminal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For troubleshooting purposes there could be times that you want to run the render script from the terminal prompt. Rendering in the terminal can produce error logging information that can assist in debugging rendering issues.
+
+To render the video in the terminal ...
+
+* Note the location where **Kdenlive** has saved the script
+* Open a terminal and change directories to the location of the :file:`.mlt` script
+* Run melt with the :file:`.mlt` script
+
+.. code-block:: bash
+
+  $ cd /path/to/kdenlive/scripts
+
+  $ melt your_script.mlt
+
+
+.. _rendering-multi_export:
+
+Using Guides for Multi-Export
+-----------------------------
+
+.. versionadded:: 22.04
+
+With this option you use guides to divide the timeline in pieces that will be rendered as individual files on one go. You do not need to define each section or piece individually.
+
+.. figure:: /images/exporting/render_guide_multi-export_example_22-04.png
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: render guide multi-export example 22-04
+
+   Defined Guides to be used for multi-export
+
+The selection of guide categories indicates which guides will be considered for rendering.
+
+.. rst-class:: clear-both
+
+In this example, there are the following options:
+
+*	"All Categories": This leads to four files:
+
+   * `projectname-begin.mp4` (from 00:00:00 to "guide1")
+   * `projectname-guide1.mp4` (from "guide1" to "guide2")
+   * `projectname-guide2.mp4` (from "guide2" to "guide3")
+   * `projectname-guide3.mp4` (from "guide3" to the end)
+
+*	"Category 0 (purple)": This leads to three files:
+
+   * `projectname-begin.mp4` (from 00:00:00 to "guide1")
+   * `projectname-guide1.mp4` (from "guide1" to "guide2")
+   * `projectname-guide2.mp4` (from "guide2" to the end)
+
+*	"Category 1 (blue)": This leads to two files:
+
+   * `projectname-begin.mp4` (from 00:00:00 to "guide3")
+   * `projectname-guide3.mp4` (from "guide3" to the end)
+
+.. note::
+   * If guides are behind the last timeline clip, they are ignored.
+   * If a guide sits right at the beginning of the timeline, the name of that guide is used instead of "begin".
+   * If two guides have the same name, an underscore and a number will be added to the file name.
+
+.. note:: As of this writing, the appimage of version 23.04.1 is having issues with the scripts generated with this function. Only one of the scripts is executed successfully but the other scripts remain in status 'Waiting...'. Unfortunately, a manual start of the scripts is not possible either.
+
+
+.. _rendering-sharing_video:
+
+Sharing your Videos
+===================
+
+.. versionadded:: 22.04.1
+   Option to share videos immediately after rendering
+
+.. versionchanged:: 23.04.1
+   Added upload to YouTube and NextCloud
+
+If you want to share your work right after you finished rendering you can click on :guilabel:`Share` and select one of the options.
+
+.. image:: /images/exporting/kdenlive2304_rendering-share_video.webp
+   :align: left
+   :alt: kdenlive2304_rendering-share_video
+
+* **Send via Email** - Opens your default email application with the video file as an attachment in a new email window
+* **Send to Device**
+* **Send via Bluetooth**
+* **YouTube** [2]_ - Opens a dialog window to enter your account, tags and a comment. You can upload directly from there.
+* **Nextcloud** [2]_ - Opens a dialog window to select your account and enter the folder to upload to. You can upload directly from there.
+* **Send via Telegram** - Opens the Telegram desktop app
+
+.. rst-class:: clear-both
+
+
+**Notes**
+
+.. |melt| raw:: html
+
+   <a href="https://www.mltframework.org/docs/melt/" target="_blank">Melt</a>
+
+.. |melt_doc| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/ConsumerAvformat/#threads" target="_blank">Melt documentation</a>
+
+.. |melt_faq| raw:: html
+
+   <a href="https://www.mltframework.org/faq/#does-mlt-take-advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing" target="_blank">Melt FAQ</a>
+
+.. [1] Melt is the engine Kdenlive uses for compositing and effects rendering. It is part of the MLT framework. For more details refer to the |melt| documentation. See the |melt_doc| on threads and the |melt_faq| on multi-threading.
+
+.. [2] May not be available in all distros and/or appimages
