@@ -8,19 +8,19 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _square_blur:
+.. _effects-square_blur:
 
 Square Blur
 ===========
 
+This effect blurs the entire clip. **Kernel size** determines the blurriness.
 
-This is the `Frei0r squareblur <https://www.mltframework.org/plugins/FilterFrei0r-squareblur/>`_ MLT filter.
+This effect has keyframes.
 
-Variable-size square blur.
+.. figure:: /images/effects_and_compositions/kdenlive2304_effect_square_blur.webp
+   :align: left
+   :width: 400px
+   :figwidth: 400px
+   :alt: kdenlive2304_effect_square_blur
 
-https://youtu.be/mNP3LTy7nao
-
-* Not 100% sure if this sample is Square Blur or Box Blur. The caption on this sample was translated from Spanish. Original Spanish was "Difuminar de cuadro"*
-
-https://youtu.be/dMJqPhO0DEQ
-
+   Squareblur effect
