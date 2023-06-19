@@ -113,7 +113,7 @@ Rendering Preset Categories
 
 * **Ultra-High Definition (4K)** - MP4-H265 (HEVC), WebM-AV1/Opus (libre), WebM-VP9/Opus (libre)
 
-* **Old-TV definition (DVD...)** - MPEG4-ASP/MP3 (DivX compatible), WOB (DVD), Windows Media PLayer
+* **Old-TV definition (DVD...)** - MPEG4-ASP/MP3 (DivX compatible), WOB (DVD), Windows Media Player
 
 * **Hardware Accelerated (experimental)** - NVENC H264 ABR, NVENC H264 VBR, NVENC H265 ABR, VAAPI AMD H264, VAAPI Intel H264
 
