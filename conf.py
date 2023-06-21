@@ -280,6 +280,12 @@ rst_epilog = """
 .. |edit-mode| image:: /images/icons/transform-crop.svg
    :width: 22px
 
+.. |color-picker| image:: /images/icons/color-picker.svg
+   :width: 22px
+
+.. |track-effect| image:: /images/icons/tools-wizard.svg
+   :width: 22px
+
 
 .. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
    :width: 480px
