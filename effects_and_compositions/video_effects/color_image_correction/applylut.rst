@@ -1,100 +1,158 @@
-.. metadata-placeholder
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, using the apply LUT effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, apply LUT
 
    :authors: - Mmaguire (https://userbase.kde.org/User:Mmaguire)
              - Maris (https://userbase.kde.org/User:limerick)
+             - Bernd Jordan
 
    :license: Creative Commons License SA 4.0
 
-.. _applylut:
+.. |freshLUTs| raw:: html
+
+   <a href="https://freshluts.com/" target="_blank">freshluts.com</a>
+
+.. |smallhd| raw:: html
+
+   <a href="https://smallhd.com/blogs/community/movie-looks-download" target="_blank">smallhd.com</a>
+
+.. |what_is_a_lut| raw:: html
+
+   <a href="https://filmlifestyle.com/what-is-a-lut/" target="_blank">What is a LUT?</a>
+
+
+.. _effects-apply_lut:
 
 Apply LUT
 =========
 
-
-This is the `Avfilter lut3d <https://www.mltframework.org/plugins/FilterAvfilter-lut3d/>`_ MLT filter.
-
-Apply a 3D Look Up Table (LUT) to the video. A LUT is an easy way to correct the color of a video.
+This effect applies a 3D Look Up Table (LUT) [1]_ to the clip. A LUT is an easy way to adjust the color tone of a video, and therefore is mostly used for color grading. It is important to note that if your clips do not match from clip to clip or shot to shot, is not properly exposed or not (yet) color corrected, that applying a LUT will not work the way one hoped it would.
 
 **Supported formats:**
 
-.3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora)
+* .3dl (AfterEffects)
+* .cube (Iridas)
+* .dat (DaVinci)
+* .m3d (Pandora)
 
-**Parameters:**
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_effects-apply_lut
 
-Filename: File containing the LUT to be applied.
+   Apply LUT effect
 
-Interpolation Method: Can be Nearest, Trilinear or Tetrahedral. Defaults to Tetrahedral.
+* **LUT file to apply** - File containing the LUT to be applied. Select *Custom...* to open a file dialog window to browse for LUT files.
 
+* **Interpolation Mode** - Select from Nearest, Trilinear or Tetrahedral (default)
 
-.. _examplelut:
+.. rst-class:: clear-both
 
-Example of LUT Filter
-=====================
+.. _effects-example_lut:
 
-Example of Manual workflow Before and after applying LUT
+**LUT Filter Example**
 
-.. figure:: /images/image1b.png
-   :width: 800px
-   :alt: workflow-lut
+For the example we are using the :download:`Tahoe.cube </files/Tahoe.cube>` LUT file. You can download LUTs from many places on the internet, like |freshLUTs| or |smallhd|. Put the downloaded files in a directory or folder that can be reached easily from with Kdenlive. For example, you may have a media stock folder and want to create a similar one for your LUT files.
 
-   Figure 1 - View of the interface
+This is the *after* and *before* view:
 
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut_example_3.webp
+   :width: 700px
+   :figwidth: 700px
+   :align: left
+   :alt: kdenlive2304_effects-apply_lut_example_3
 
-Simple steps:
+   Project Monitor showing the clip with LUT applied, Clip Monitor the unaltered clip
 
-1. FREE LUTS – For our example, we rely on the files that can be downloaded from the address https://goo.gl/OeIFkr
+To apply the LUT follow these simple steps:
 
-2. SEVEN CUBE FILES – Download the zip file, just extract it into a folder: each of the files, which is then a simple text file, represents a Look Up Table. Those examples were developed inspired by famous films (whose titles are parodied in the file name).
+1. In the :guilabel:`Effects` tab open the *Color and Image Correction* category and select the *Apply LUT* effect. Assign it to the clip in the timeline
+2. Open the :guilabel:`LUT file to apply` drop-down and select :guilabel:`Custom`
+3. Navigate to the folder with the LUT file(s) you downloaded
+4. Select the LUT file you want and click :guilabel:`Open`
 
-3. Once package is downloaded and unpacked, open effects menu in the right corner of the program window.
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut_example_1.webp
+   :width: 700px
+   :figwidth: 700px
+   :align: left
+   :alt: kdenlive2304_effects-apply_lut_example_1
 
+   Apply LUT effect with default settings
 
-.. figure:: /images/image4.png
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut_example_2.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_effects-apply_lut_example_2
+
+   Apply LUT file selection dialog
+
+Note that this example shows an individual video editing directory structure with a folder for stock media containing a folder for LUTs. Your mileage may vary ...
+
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut_example_4.webp
+   :width: 700px
+   :figwidth: 700px
+   :align: left
+   :alt: kdenlive2304_effects-apply_lut_example_4
+
+   Apply LUT effect with Tahoe.cube LUT file applied
+
+.. rst-class:: clear-both
+
+.. .. figure:: /images/image4.png
    :width: 1200px
    :alt: workflow-lut
 
    Figure 2 - View of main menu.
 
-4. Then you need to find the LUT effect to apply. There are several, the majority of which are maintained only for backwards compatibility but not for any result. The right one is Apply LUT, in the section Color correction.
-
-.. figure:: /images/image5.png
+.. .. figure:: /images/image5.png
    :width: 800px
    :alt: workflow-lut
 
    Figure 3 - Apply LUT
 
-5. BALANCING – Adjusting color, for example col 3-point balance, you need to insert the effect above that of the LUT. This allows you to correct the image before it reaches the LUT, then obtaining homogeneous results with other clips.
+.. 5. BALANCING – Adjusting color, for example col 3-point balance, you need to insert the effect above that of the LUT. This allows you to correct the image before it reaches the LUT, then obtaining homogeneous results with other clips.
 
-.. figure:: /images/image6.png
+.. .. figure:: /images/image6.png
    :width: 800px
    :alt: workflow-lut
 
    Figure 4 - Colour balance
 
-Manually adjust the clip
-========================
+.. Manually adjust the clip
+   ========================
 
-In addition to the LUT, other effects can be used to manually correct the colors   
+   In addition to the LUT, other effects can be used to manually correct the colors
 
-.. figure:: /images/image7.png
+   .. figure:: /images/image7.png
    :width: 800px
    :alt: workflow-lut
 
-1. CHANGE OF SHADES – This allows, for example, to color the background in blue and the actor in orange, widely used in classic Hollywood postproduction setup. A faster but less detailed alternative is Hue shift, which shifts all shades towards red or blue.
+   1. CHANGE OF SHADES – This allows, for example, to color the background in blue and the actor in orange, widely used in classic Hollywood postproduction setup. A faster but less detailed alternative is Hue shift, which shifts all shades towards red or blue.
 
 
-.. figure:: /images/image20.png
+   .. figure:: /images/image20.png
    :width: 800px
    :alt: workflow-lut
 
-2. SATURATION – After changing the coloration of the image, with one of the two effects that is presented, this allows saturate the color differently depending on the brightness by drawing a curve on the canal saturation.
+   2. SATURATION – After changing the coloration of the image, with one of the two effects that is presented, this allows saturate the color differently depending on the brightness by drawing a curve on the canal saturation.
 
-.. figure:: /images/imagea.png
+   .. figure:: /images/imagea.png
    :width: 800px
    :alt: workflow-lut
 
-Before and After
+   Before and After
 
-.. figure:: /images/image1d.png
+   .. figure:: /images/image1d.png
    :width: 800px
    :alt: workflow-lut
+
+Of course, you can add other effects from the *Color and Image Correction* category to further adjust or correct the colors. A good rule of thumb is "*less is more*".
+
+You can find more about color correction and color grading in the Tutorial section of the documentation.
+
+**Notes**
+
+.. [1] A good explanation of and examples for how to use LUTs for color grading are available on the filmlifestyle.com |what_is_a_lut| page.
