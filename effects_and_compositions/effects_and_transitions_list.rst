@@ -34,7 +34,7 @@ Alphabetical List of Effects and Compositions
      - Type
      - Category
      - Description
-   * - :ref:`3_point_balance`
+   * - :ref:`effects-3_point_balance`
      - Video Effect
      - Color and Image correction
      - Balances colors along with 3 points (frei0r.three_point_balance)
@@ -298,7 +298,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Boost or cut lower frequencies (avfilter.bass)
-   * - :ref:`bezier_curves`
+   * - :ref:`effects-bezier_curves`
      - Video Effect
      - Color and Image Correction
      - Color curves adjustment (frei0r.curves)
@@ -342,11 +342,11 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Blur and Sharpen
      - Apply a boxblur algorithm to the input video (avfilter.boxblur)
-   * - :ref:`brightness`
+   * - :ref:`effects-brightness`
      - Video Effect
      - Color and Image correction
      - Adjusts the brightness of a source image (frei0r.brightness)
-   * - :ref:`brightness_(keyframable)`
+   * - :ref:`effects-brightness_2`
      - Video Effect
      - Color and Image correction
      - Change the image brightness with keyframes (brightness)
@@ -394,7 +394,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1430)
-   * - :ref:`chroma_hold_effect`
+   * - :ref:`effects-chroma_hold`
      - Video Effect
      - Color and Image correction
      - Make image greyscale except for chosen color (chroma_hold)
@@ -1234,7 +1234,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Transform, Distort and Perspective
      - Broken TV (frei0r.nosync0r)
-   * - :ref:`obscure_effect`
+   * - :ref:`effects-obscure`
      - Video Effect
      - Blur and Hide
      -

@@ -18,7 +18,7 @@ This is the `Frei0r curves <https://www.mltframework.org/plugins/FilterFrei0r-cu
 
 Adjusts luminance or color channel intensity with curve level mapping.
 
-The :ref:`bezier_curves` filter is also an interface to this same Frei0r filter.
+The :ref:`effects-bezier_curves` filter is also an interface to this same Frei0r filter.
 
 .. image:: /images/Kdenlive_curves.png
    :align: left
