@@ -14,7 +14,7 @@
 Channel Extractor BLUE / GREEN / RED
 ====================================
 
-These effects extracts the respective color channels from the clip. There are no further parameters or keyframes.
+These effects extract the respective color channels from the clip. There are no further parameters or keyframes.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-channel_extractor.webp
    :width: 400px

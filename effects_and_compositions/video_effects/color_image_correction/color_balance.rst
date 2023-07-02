@@ -13,7 +13,7 @@
 Color Balance
 =============
 
-This effects modifies the intensity of primary colors (red, green and blue). It allows adjustment in the shadow, mid-tones or highlights regions for the red-cyan, green-magenta or blue-yellow balance.
+This effect modifies the intensity of primary colors (red, green and blue). It allows adjustment in the shadow, mid-tones or highlights regions for the red-cyan, green-magenta or blue-yellow balance.
 
 A positive value shifts the balance towards the primary color, a negative value towards the complementary color.
 
