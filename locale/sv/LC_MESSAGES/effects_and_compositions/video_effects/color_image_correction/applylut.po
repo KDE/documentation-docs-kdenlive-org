@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-08 00:39+0000\n"
+"POT-Creation-Date: 2023-07-02 00:40+0000\n"
 "PO-Revision-Date: 2022-05-11 16:59+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -17,141 +17,200 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.08.1\n"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:11
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:1
+msgid ""
+"Do your first steps with Kdenlive video editor, using the apply LUT effect"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:1
+msgid ""
+"KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
+"effects, color and image correction, apply LUT "
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:1
+msgid ""
+"- Mmaguire (https://userbase.kde.org/User:Mmaguire) - Maris (https://"
+"userbase.kde.org/User:limerick) - Bernd Jordan "
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:1
+msgid "Creative Commons License SA 4.0"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:28
 msgid "Apply LUT"
 msgstr "Tillämpa uppslagningstabell"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:14
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:30
 msgid ""
-"This is the `Avfilter lut3d <https://www.mltframework.org/plugins/"
-"FilterAvfilter-lut3d/>`_ MLT filter."
+"This effect applies a 3D Look Up Table (LUT) [1]_ to the clip. A LUT is an "
+"easy way to adjust the color tone of a video, and therefore is mostly used "
+"for color grading. It is important to note that if your clips do not match "
+"from clip to clip or shot to shot, is not properly exposed or not (yet) "
+"color corrected, that applying a LUT will not work the way one hoped it "
+"would."
 msgstr ""
-"Det här är MLT-filtret `Avfilter lut3d <https://www.mltframework.org/plugins/"
-"FilterAvfilter-lut3d/>`_ ."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:16
-msgid ""
-"Apply a 3D Look Up Table (LUT) to the video. A LUT is an easy way to correct "
-"the color of a video."
-msgstr ""
-"Tillämpa en tredimensionell uppslagningstabell (LUT) på videon. En LUT är "
-"ett enkelt sätt att korrigera videons färg."
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:18
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:32
 msgid "**Supported formats:**"
 msgstr "**Format som stöds:**"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:20
-msgid ".3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora)"
-msgstr ".3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora)"
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:34
+msgid ".3dl (AfterEffects)"
+msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:22
-msgid "**Parameters:**"
-msgstr "**Parametrar:**"
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:35
+msgid ".cube (Iridas)"
+msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:24
-msgid "Filename: File containing the LUT to be applied."
-msgstr "Filnamn: Filen innehåller uppslagningstabellen som ska tillämpas."
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:36
+msgid ".dat (DaVinci)"
+msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:26
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:37
+msgid ".m3d (Pandora)"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:45
+#, fuzzy
+#| msgid "Apply LUT"
+msgid "Apply LUT effect"
+msgstr "Tillämpa uppslagningstabell"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:47
 msgid ""
-"Interpolation Method: Can be Nearest, Trilinear or Tetrahedral. Defaults to "
-"Tetrahedral."
+"**LUT file to apply** - File containing the LUT to be applied. Select "
+"*Custom...* to open a file dialog window to browse for LUT files."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:49
+#, fuzzy
+#| msgid ""
+#| "Interpolation Method: Can be Nearest, Trilinear or Tetrahedral. Defaults "
+#| "to Tetrahedral."
+msgid ""
+"**Interpolation Mode** - Select from Nearest, Trilinear or Tetrahedral "
+"(default)"
 msgstr ""
 "Interpolationsmetod: Kan vara Närmaste, Trilinjär eller Tetrahedrisk. Förval "
 "är Tetrahedrisk."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:32
-msgid "Example of LUT Filter"
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:55
+msgid "**LUT Filter Example**"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:34
-msgid "Example of Manual workflow Before and after applying LUT"
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:40
-msgid "Figure 1 - View of the interface"
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:43
-msgid "Simple steps:"
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:45
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:57
 msgid ""
-"FREE LUTS – For our example, we rely on the files that can be downloaded "
-"from the address https://goo.gl/OeIFkr"
+"For the example we are using the :download:`Tahoe.cube </files/Tahoe.cube>` "
+"LUT file. You can download LUTs from many places on the internet, like |"
+"freshLUTs| or |smallhd|. Put the downloaded files in a directory or folder "
+"that can be reached easily from with Kdenlive. For example, you may have a "
+"media stock folder and want to create a similar one for your LUT files."
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:47
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:59
+msgid "This is the *after* and *before* view:"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:67
 msgid ""
-"SEVEN CUBE FILES – Download the zip file, just extract it into a folder: "
-"each of the files, which is then a simple text file, represents a Look Up "
-"Table. Those examples were developed inspired by famous films (whose titles "
-"are parodied in the file name)."
+"Project Monitor showing the clip with LUT applied, Clip Monitor the "
+"unaltered clip"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:49
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:69
+msgid "To apply the LUT follow these simple steps:"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:71
 msgid ""
-"Once package is downloaded and unpacked, open effects menu in the right "
-"corner of the program window."
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:56
-msgid "Figure 2 - View of main menu."
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:58
-msgid ""
-"Then you need to find the LUT effect to apply. There are several, the "
-"majority of which are maintained only for backwards compatibility but not "
-"for any result. The right one is Apply LUT, in the section Color correction."
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:64
-msgid "Figure 3 - Apply LUT"
-msgstr "Figur 3 - Tillämpa uppslagningstabell"
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:66
-msgid ""
-"BALANCING – Adjusting color, for example col 3-point balance, you need to "
-"insert the effect above that of the LUT. This allows you to correct the "
-"image before it reaches the LUT, then obtaining homogeneous results with "
-"other clips."
+"In the :guilabel:`Effects` tab open the *Color and Image Correction* "
+"category and select the *Apply LUT* effect. Assign it to the clip in the "
+"timeline"
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:72
-msgid "Figure 4 - Colour balance"
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:75
-msgid "Manually adjust the clip"
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:77
 msgid ""
-"In addition to the LUT, other effects can be used to manually correct the "
-"colors"
+"Open the :guilabel:`LUT file to apply` drop-down and select :guilabel:"
+"`Custom`"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:83
-msgid ""
-"CHANGE OF SHADES – This allows, for example, to color the background in blue "
-"and the actor in orange, widely used in classic Hollywood postproduction "
-"setup. A faster but less detailed alternative is Hue shift, which shifts all "
-"shades towards red or blue."
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:73
+msgid "Navigate to the folder with the LUT file(s) you downloaded"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:74
+msgid "Select the LUT file you want and click :guilabel:`Open`"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:82
+msgid "Apply LUT effect with default settings"
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:90
-msgid ""
-"SATURATION – After changing the coloration of the image, with one of the two "
-"effects that is presented, this allows saturate the color differently "
-"depending on the brightness by drawing a curve on the canal saturation."
+msgid "Apply LUT file selection dialog"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:96
-msgid "Before and After"
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:92
+msgid ""
+"Note that this example shows an individual video editing directory structure "
+"with a folder for stock media containing a folder for LUTs. Your mileage may "
+"vary ..."
 msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:100
+msgid "Apply LUT effect with Tahoe.cube LUT file applied"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:152
+msgid ""
+"Of course, you can add other effects from the *Color and Image Correction* "
+"category to further adjust or correct the colors. A good rule of thumb is "
+"\"*less is more*\"."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:154
+msgid ""
+"You can find more about color correction and color grading in the Tutorial "
+"section of the documentation."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:156
+msgid "**Notes**"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/applylut.rst:158
+msgid ""
+"A good explanation of and examples for how to use LUTs for color grading are "
+"available on the filmlifestyle.com |what_is_a_lut| page."
+msgstr ""
+
+#~ msgid ""
+#~ "This is the `Avfilter lut3d <https://www.mltframework.org/plugins/"
+#~ "FilterAvfilter-lut3d/>`_ MLT filter."
+#~ msgstr ""
+#~ "Det här är MLT-filtret `Avfilter lut3d <https://www.mltframework.org/"
+#~ "plugins/FilterAvfilter-lut3d/>`_ ."
+
+#~ msgid ""
+#~ "Apply a 3D Look Up Table (LUT) to the video. A LUT is an easy way to "
+#~ "correct the color of a video."
+#~ msgstr ""
+#~ "Tillämpa en tredimensionell uppslagningstabell (LUT) på videon. En LUT är "
+#~ "ett enkelt sätt att korrigera videons färg."
+
+#~ msgid ".3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora)"
+#~ msgstr ".3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora)"
+
+#~ msgid "**Parameters:**"
+#~ msgstr "**Parametrar:**"
+
+#~ msgid "Filename: File containing the LUT to be applied."
+#~ msgstr "Filnamn: Filen innehåller uppslagningstabellen som ska tillämpas."
+
+#~ msgid "Figure 3 - Apply LUT"
+#~ msgstr "Figur 3 - Tillämpa uppslagningstabell"
 
 #~ msgid "Contents"
 #~ msgstr "Innehåll"
