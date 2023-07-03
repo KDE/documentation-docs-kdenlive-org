@@ -13,7 +13,9 @@
 Obscure
 -------
 
-Hide a region of the clip by pixelizing it (obscure). The effect's pixelization cannot be adjusted and may therefore not work satisfactorily with all source material. In that case try the :ref:`Pixelate <effects-pixelate>` effect.
+Hide a region of the clip by pixelizing it (obscure). The effect's pixelization cannot be adjusted and may therefore not work satisfactorily with all source material.
+
+.. In that case try the :ref:`Pixelate <effects-pixelize>` effect.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-obscure.webp
    :align:  left

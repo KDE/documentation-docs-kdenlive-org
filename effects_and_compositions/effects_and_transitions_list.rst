@@ -182,7 +182,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Apply phase shifting to input audio (avfilter.aphaseshift)
-   * - :ref:`applylut`
+   * - :ref:`effects-apply_lut`
      - Video Effect
      - Color and Image correction
      - Apply a Look Up Table (LUT) to the video. A LUT is an easy way to correct the color of a video. Supported formats: 3dl (AfterEffects), .cube (Iridas), .dat (DaVinci), .m3d (Pandora) (avfilter.lut3d)
@@ -1630,7 +1630,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Alpha, Mask and Keying
      - Replace an area with interpolated pixels. The new pixel values are interpolated from the nearest pixel.
-   * - :ref:`square_blur`
+   * - :ref:`effects-square_blur`
      - Video Effect
      - Blur and Hide
      - Square Blur (frei0r.squareblur)
