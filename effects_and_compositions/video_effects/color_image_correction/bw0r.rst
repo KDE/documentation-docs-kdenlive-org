@@ -1,4 +1,7 @@
-.. metadata-placeholder
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, using the bw0r effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, bw0r, black and white
 
    :authors: - Bernd Jordan
 

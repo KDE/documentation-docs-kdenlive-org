@@ -2,10 +2,8 @@
    :description: Add in Kdenlive video editor, video effects, audio effects, compositions, title, subtitle, speech to text, color correction.
    :keywords: KDE, Kdenlive, effects, audio, video, title, subtitle, speech to text, color correction, documentation, user manual, video editor, open source, free, learn, easy
 
-.. metadata-placeholder
-
    :authors: - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
              
    :license: Creative Commons License SA 4.0
 
@@ -134,9 +132,9 @@ Effect Functions
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-effect_panel.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_effects-effect_stack
+   :alt: kdenlive2304_effects-effect_panel
 
-   Kdenlive Effect Stack
+   Kdenlive Effect Panel
 
 |keyframe-disable| Hide/show keyframes - Turns the display of the keyframe ruler off or on
 

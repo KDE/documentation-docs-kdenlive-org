@@ -12,7 +12,7 @@
 Color Correct
 =============
 
-This effect/filter adjusts the color white balance selectively for blacks and whites. This filter operates in YUV color space.
+This effect/filter adjusts the color white balance selectively for blacks and whites. This filter operates in :term:`YUV` color space.
 
 This effect has keyframes.
 
@@ -34,4 +34,4 @@ This effect has keyframes.
 
 * **Blue highlight spot** - Set the blue highlight spot. Default is 0.0. Allowed range is from -1.0 to 1.0.
 
-* **Saturation** - Set the amount of saturation. Default value is 1.0. Allowed range is from -3.0. to 3.0.
+* **Saturation** - Set the amount of :term:`saturation`. Default value is 1.0. Allowed range is from -3.0. to 3.0.
