@@ -112,7 +112,7 @@ Glossary
       Displays a frequency histogram of the luminance of the color components of the video. See :ref:`view_menu`, and in particular :ref:`histogram_working` for a more detailed under-the-hood view.
 
    Hue
-      Means a degree if lightness, darkness or strength of a color. Compare :term:`saturation`, :term:`tint` and :term:`shade`.
+      Means a degree of lightness, darkness or strength of a color. Compare :term:`saturation`, :term:`tint` and :term:`shade`.
 
    Icon
       A graphical representation of an action, function, option or status.
@@ -244,7 +244,7 @@ Glossary
       Introduced with version 23.04.0, a sequence is basically a timeline. Sequences are part of a project but can be rendered independently. A project can have multiple sequences (hence the alias 'nested timelines'). See :ref:`sequence`.
 
    Shade
-      IN color theory, a shade is a mixture of a color with black, increasing its darkness. Compare :term:`tint`, :term:`hue` and :term:`saturation`.
+      In color theory, a shade is a mixture of a color with black, increasing its darkness. Compare :term:`tint`, :term:`hue` and :term:`saturation`.
 
    Slip Tool
       Used in editing. Keeps the original duration of the clip. Compare with working with old film material: the film strip is slipped back and forth beneath the given "window" of the clip length. See :ref:`timeline_edit_tools`
@@ -313,7 +313,7 @@ Glossary
       A special type of :term:`composition` mostly used as a transition from one clip to another. See :ref:`wipe`.
 
    YUV
-      A color model used to encode a color image or video taking human perception into account. Y stands for the :term:`luminance`, U foor blue projection and Y for red projection.
+      A color model used to encode a color image or video taking human perception into account. Y stands for the :term:`luminance`, U for blue projection and V for red projection.
 
    Zone
       A defined region of a clip or the timeline. Use a clip zone to bring only a portion of the clip into the timeline. Use a timeline zone to render only that portion (see :ref:`rendering-selected_zone`). Define a zone for preview rendering (see :ref:`timeline-preview-rendering`). A zone is defined by setting an :term:`in-point` and an :term:`out-point`.
