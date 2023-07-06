@@ -24,6 +24,9 @@
 
    <a href="https://www.pling.com/browse?cat=333&ord=latest" target="_blank">store</a>
 
+.. |color_temp| raw:: html
+
+   <a href="https://www.cambridgeincolour.com/tutorials/white-balance.htm" target="_blank">color temperature</a>
 
 
 .. _true_glossary:
@@ -125,6 +128,9 @@ Glossary
 
    KDE Store
       An online app |store| where users can upload files like lumas for :doc:`wipes </effects_and_compositions/transitions/wipe>`, :ref:`presets <exporting>` for rendering, title templates, library clips and even project files. See :ref:`effects-effects_tab` icon #7.
+
+   Kelvin
+      Kelvin is the base unit of temperature in the International System of Units (SI). It is also used as a measure of the color temperature of light sources. True story: A physicist cooled himself to -273.15C. He was 0K.
 
    Keyframe
       Defines the frame in a clip where something starts or changes. Most :term:`effects<effect>` have keyframes to allow changes over time. For example, the X and Y coordinates of the Transform effect can be keyframed to move a clip across the screen. See :ref:`effects-working_with_keyframes`.
@@ -257,6 +263,10 @@ Glossary
 
    Stream
       A part of an (encoded) media file containing either video or audio data. Use a tool like |ffprobe| to examine media files.
+
+   Temperature
+   Color Temperature
+      A parameter describing the color of the visible light source. It is measured in :term:`Kelvins<kelvin>` (K). The range is from 1,000K to 10,000K where lower temperatures are considered "warm", and higher temperatures "cool". See this article about |color_temp|.
 
    Theme
       A set of colors, icons, fonts and other settings to change the appearance of an application or desktop. Can be set from :menuselection:`Menu --> Settings --> Color Scheme`.

@@ -1,9 +1,6 @@
 .. meta::
-   :description: View menu in Kdenlive video editor
-   :keywords: KDE, Kdenlive, view, layout, dock, audio, mixer, sequence, title, timeline, animation, subtitle, render, documentation, user manual, video editor, open source, free, learn, easy
-
-
-.. metadata-placeholder
+   :description: View menu in Kdenlive video editor, view menu
+   :keywords: KDE, Kdenlive, view, layout, dock, audio, mixer, sequence, title, timeline, animation, subtitle, render, documentation, user manual, video editor, open source, free, learn, easy, view menu
 
    :authors: - Claus Christensen
              - Yuri Chornoivan
@@ -19,7 +16,7 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -51,7 +48,7 @@ Use the navigation on the left to go to the various menu items
    
    Please note: This is not to be confused with :kbd:`F11` which toggles the Project or Clip Monitor in and out of full screen mode.
    
-   :guilabel:`Show Title Bars` toggles the display of the title bars of the various widgets on and off. Turn it off if you need more real estate on your screen. For some widgets you need titlebars to move them around.
+   :guilabel:`Show Title Bars` toggles the display of the title bars of the various :term:`widgets<widget>` on and off. Turn it off if you need more real estate on your screen. For some widgets you need titlebars to move them around.
    
    .. figure:: /images/user_interface/menu_reference/kdenlive_show_titles01.webp
       :align: left
@@ -65,6 +62,9 @@ Use the navigation on the left to go to the various menu items
       No Title Bar
    
 .. rst-class:: clear-both	 
+
+
+.. _view-find_action:
 
 Find Action
 -----------
@@ -80,6 +80,9 @@ This is a new feature since version 22.04. It allows you to search for any comma
 
 .. rst-class:: clear-both	 
 
+
+.. _view-load_layout:
+
 Load Layout
 -----------
 
@@ -94,6 +97,9 @@ This function lets you switch to a previously saved custom workspace layout. Mor
 Once you load a saved layout that layout will remain the current one when starting Kdenlive until you switch to another saved layout or modify the current one.  If you do make changes to a custom layout after loading it and then quit Kdenlive, you will not be prompted to save your changes to the named layout.  The changes will be remembered and applied the next time you launch Kdenlive, but be aware that you are now working with an unnamed layout.  If you like the layout and want to preserve it, save it back to the original name or save it as a new name.
 
 .. rst-class:: clear-both	 
+
+
+.. _view-save_layout:
 
 Save Layout
 -----------
@@ -128,6 +134,9 @@ In the example shown, no custom layouts have been saved yet so they are just lab
 
 .. rst-class:: clear-both	 
 
+
+.. _view-manege_layout:
+
 Manage Layouts
 --------------
 
@@ -145,6 +154,8 @@ You can delete, re-arrange, reset, import and export the saved layouts.
 .. rst-class:: clear-both	 
 
 
+.. _view-dock_area_orientation:
+
 Dock Area Orientation
 ---------------------
 
@@ -156,11 +167,13 @@ This function controls how Kdenlive arranges the workspace layout:
 
 * Arrange Dock Areas in Rows - Widgets can be put next to each other and scaling them horizontally does not affect the widgets in the row above them.
 
-	 
+
+.. _view-audio_mixer:
+
 Audio Mixer
 -----------
 
-Switches the Audio Mixer widget on or off.
+Switches the Audio Mixer :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_audio_mixer.webp
    :align: left
@@ -176,10 +189,12 @@ For more details please refer to the :ref:`audio_mixer` section of the documenta
 .. rst-class:: clear-both
 
 
+.. _view-audio_spectrum:
+
 Audio Spectrum
 --------------
 
-Switches the Audio Spectrum widget on or off.
+Switches the Audio Spectrum :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_audio_spectrum.webp
    :align:  left
@@ -199,16 +214,20 @@ See also the :ref:`Spectrogram <audio_spectrum_and_spectrogram>` scope which dis
 .. rst-class:: clear-both
 
 
+.. _view-clip_monitor:
+
 Clip Monitor
 ------------
 
-Switches the Clip Monitor widget on or off.
+Switches the Clip Monitor :term:`widget` on or off.
 
+
+.. _view-clip_properties:
 
 Clip Properties
 ---------------
 
-Switches the Clip Properties widget on or off.
+Switches the Clip Properties :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_properties.webp
    :align:  left
@@ -217,15 +236,17 @@ Switches the Clip Properties widget on or off.
    
    Kdenlive Clip Properties widget
    
-The Clip Properties widget displays the properties of the selected clip. You can change some of the properties. 
+The Clip Properties :term:`widget` displays the properties of the selected clip. You can change some of the properties.
 
 .. rst-class:: clear-both
 
 
+.. _view-compositions:
+
 Compositions
 ------------
 
-Switches the Compositions widget on or off.
+Switches the Compositions :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_compositions.webp
    :align:  left
@@ -234,12 +255,14 @@ Switches the Compositions widget on or off.
    
    Kdenlive Compositions widget
    
-The Compositions widget lists all compositions available in Kdenlive.
+The Compositions :term:`widget` lists all compositions available in Kdenlive.
 
 You can drag a composition from the list and drop it on a clip in the Timeline.
 
 .. rst-class:: clear-both
 
+
+.. _view-effects_stack:
 
 Effects/Composition Stack
 -------------------------
@@ -249,10 +272,12 @@ Switches the Effects/Composition Stack on or off.
 The Effects/Composition Stack shows all effects applied to a clip or a track. This is where you make changes to the effect settings. See the :ref:`Effects/Composition Stack <effects_and_compositions>` section of this documentation for more details.
 
 
+.. _view-effects:
+
 Effects
 -------
 
-Switches the Effects widget on or off.
+Switches the Effects :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_effects.webp
    :align:  left
@@ -261,7 +286,7 @@ Switches the Effects widget on or off.
    
    Kdenlive Effects widget
 
-The Effects widget lists all the effects available in Kdenlive. It has groups for effect types (audio, video), custom effects, favorite effects and an option to download effects from |KDE_store|.
+The Effects :term:`widget` lists all the effects available in Kdenlive. It has groups for effect types (audio, video), custom effects, favorite effects and an option to download effects from |KDE_store|.
 
 You can drag an effect from this list and drop it on a clip in the Timeline, the Project Bin or on the Effect Stack.
 
@@ -270,20 +295,22 @@ More details about effects are available in the :ref:`Effects and Compositions <
 .. rst-class:: clear-both
 
 
+.. _view-guides:
+
 Guides
 ------
 
-Switches the Guides widget on or off.
+Switches the Guides :term:`widget` on or off.
 
 Guides and Markers are a powerful tool to speed up your workflow. More details about them in the :ref:`guides` section of the documentation.
 
 
-
+.. _view-histogram:
 
 Histogram
 ---------
 
-Switches the Histogram widget on or off.
+Switches the Histogram :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_histogram.webp
    :align: left
@@ -303,10 +330,12 @@ For more information read the :ref:`How the Histogram Works <histogram_working>`
    :ref:`scopes_directx` 
 
 
+.. _view-library:
+
 Library
 -------
 
-Switches the Library widget on or off.
+Switches the Library :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_library.webp
    :align:  left
@@ -320,10 +349,12 @@ The Library holds items for generic use in projects. For example watermarks, log
 .. rst-class:: clear-both
 
 
+.. _view-media_browser:
+
 Media Browser
 -------------
 
-Switches the Media Browser widget on or off.
+Switches the Media Browser :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_media_browser.webp
    :align:  left
@@ -342,7 +373,7 @@ The Media Browser allows you to easily navigate your file system and add clips t
 Online Resources
 ----------------
 
-Switches the Online Resources widget on or off.
+Switches the Online Resources :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_online_resources.webp
    :align:  left
@@ -351,17 +382,19 @@ Switches the Online Resources widget on or off.
    
    Kdenlive Online Resources widget
 
-The Online Resources widget allow you to include assets from various online media providers like Pixabay or Pexels in your project.
+The Online Resources :term:`widget` allow you to include assets from various online media providers like Pixabay or Pexels in your project.
 
 .. BMJ: needs to be included one the section in "Project and File management" is done: Please refer to the :ref:`Online Resources <online_resources>` section of this documentation.
 
 .. rst-class:: clear-both
 
 
+.. _view-project_bin:
+
 Project Bin
 -----------
 
-Switches the Project Bin widget on or off.
+Switches the Project Bin :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_project_bin.webp
    :align:  left
@@ -377,6 +410,8 @@ New in 23.04: Sequences (needed for nested timelines). For more details please s
 .. rst-class:: clear-both
 
 
+.. _view-project_monitor:
+
 Project Monitor
 ---------------
 
@@ -385,10 +420,12 @@ Switches the Project Monitor on or off.
 The Project Monitor is used to display your project's timeline, i.e. the edited version of your video. In Edit Mode you can directly manipulate certain effects from within the Project Monitor. Please refer to the :ref:`Project Monitor <project_monitor_overview>` section of this documentation for more details.
 
 
+.. _view-project_notes:
+
 Project Notes
 -------------
 
-Switches the Project Notes widget on or off.
+Switches the Project Notes :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_project_notes.webp
    :align:  left
@@ -401,12 +438,13 @@ Project Notes can be used to keep notes about your project, like ideas or things
 
 .. rst-class:: clear-both
 
-.. _rgb_parade:
+
+.. _view-rgb_parade:
 
 RGB Parade
 ----------
 
-Switches the RGB Parade widget on or off.
+Switches the RGB Parade :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_rgb_parade.webp
    :align:  left
@@ -415,7 +453,7 @@ Switches the RGB Parade widget on or off.
    
    Kdenlive RGB Parade widget
 
-The RGB Parade widget displays a histogram of the RGB components of the video data.
+The RGB Parade :term:`widget` displays a histogram of the RGB components of the video data.
 
 The horizontal axis represents the timeline in the video frame. The vertical axis is the pixel luminance from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this luminance in this column of pixels in the video frame.
 
@@ -424,18 +462,22 @@ More details including a more thorough explanation is available in the :ref:`RGB
 .. rst-class:: clear-both
 
 
+.. _view-screen_grab:
+
 Screen Grab
 -----------
 
-Switches the Screen Grab widget on or off.
+Switches the Screen Grab :term:`widget` on or off.
 
 .. note:: This function has issues and should not be used. It has not been maintained for a while. There are other tools and applications for screen recording or grabbing available, hence this function will most likely be deprecated.
 
 
+.. _view-speech_editor:
+
 Speech Editor
 -------------
 
-Switches the Speech Editor widget on or off.
+Switches the Speech Editor :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_speech_editor.webp
    :align:  left
@@ -444,15 +486,17 @@ Switches the Speech Editor widget on or off.
    
    Kdenlive Speech Editor widget
 
-The Speech Editor widget allows you to use AI-based speech recognition to create subtitles for your video. You need to configure speech-to-text in Kdenlive in order to use this. More details about the configuration and potentially necessary installations as well as how to use speech recognition is available in the :ref:`Speech-to-Text <effects-speech_to_text>` section of this documentation.
+The Speech Editor :term:`widget` allows you to use AI-based speech recognition to create subtitles for your video. You need to configure speech-to-text in Kdenlive in order to use this. More details about the configuration and potentially necessary installations as well as how to use speech recognition is available in the :ref:`Speech-to-Text <effects-speech_to_text>` section of this documentation.
 
 .. rst-class:: clear-both
 
 
+.. _view-subtitles:
+
 Subtitles
 ---------
 
-Switches the Subtitle widget on or off.
+Switches the Subtitle :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_subtitles.webp
    :align:  left
@@ -461,15 +505,17 @@ Switches the Subtitle widget on or off.
    
    Kdenlive Subtitles widget
 
-The Subtitle widget is used to manage the subtitles for your project. For more details please refer to the :ref:`Subtitles <effects-subtitles>` section of this documentation.
+The Subtitle :term:`widget` is used to manage the subtitles for your project. For more details please refer to the :ref:`Subtitles <effects-subtitles>` section of this documentation.
 
 .. rst-class:: clear-both
 
 
+.. _view-time_remapping:
+
 Time Remapping
 --------------
 
-The Time Remapping widget allows you to create speed ramping.
+The Time Remapping :term:`widget` allows you to create speed ramping.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_time_remapping.webp
    :align:  left
@@ -482,6 +528,8 @@ More details are available in the :ref:`Time Remapping <effects-time_remapping>`
 
 .. rst-class:: clear-both
 
+
+.. _view-timeline:
 
 Timeline
 --------
@@ -496,7 +544,7 @@ The Timeline is the central part of Kdenlive where you put together your video. 
 Undo History
 ------------
 
-Switches the Undo History widget on or off.
+Switches the Undo History :term:`widget` on or off.
 
 The Undo History shows all the operations performed so far and allows to quickly restore your project to the state it was in several changes ago.
 
@@ -578,7 +626,7 @@ There may be times when you want to quickly restore your project to the state it
 Vectorscope
 -----------
 
-Switches the Vectorscope widget on or off.
+Switches the Vectorscope :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_vectorscope.webp
    :align:  left
@@ -587,17 +635,19 @@ Switches the Vectorscope widget on or off.
    
    Kdenlive Vectorscope widget
 
-The Vectorscope widget allows you to monitor the colour properties of your clip in detail.
+The Vectorscope :term:`widget` allows you to monitor the colour properties of your clip in detail.
 
 More details are available in the :ref:`Vectorscope <vectorscope_working>` and :ref:`What the I and O Lines are Good for <vectorscope_i-q_lines>` sections of this documentation.
 
 .. rst-class:: clear-both
 
 
+.. _view-waveform:
+
 Waveform
 --------
 
-Switches the Waveform widget on or off.
+Switches the Waveform :term:`widget` on or off.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_waveform.webp
    :align:  left
@@ -606,6 +656,6 @@ Switches the Waveform widget on or off.
    
    Kdenlive Waveform widget
 
-Contrary to what its name might suggest the Waveform widget is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the `RGB Parade`_. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel luma from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this luma in this column of pixels in the video frame.
+Contrary to what its name might suggest the Waveform :term:`widget` is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the `RGB Parade`_. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel :term:`luma` from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this :term:`luma` in this column of pixels in the video frame.
 
 More details are available in the :ref:`Waveform <waveform_and_RGB_parade>` section in the :ref:`Glossary`.

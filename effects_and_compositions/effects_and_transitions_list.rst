@@ -266,10 +266,6 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - audiomap (audiomap)
-   * - :ref:`auto_mask`
-     - Video Effect
-     - Alpha, Mask and Keying
-     - Hide a selected zone and follow its movements (autotrack_rectangle)
    * - `Auto phaser <https://www.mltframework.org/plugins/FilterLadspa-1219/>`_
      - Audio Effect
      - Steve Harris’ SWH plugins
@@ -562,7 +558,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Simple audio noise sharpening filter (avfilter.crystalizer)
-   * - :ref:`curves`
+   * - :ref:`effects-curves`
      - Video Effect
      - Color and Image correction
      - Color curves adjustment (frei0r.curves)
@@ -734,7 +730,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Stylize
      - Creates embossed relief image of source image (frei0r.emboss)
-   * - :ref:`equaliz0r`
+   * - :ref:`effects-equaliz0r`
      - Video Effect
      - Color and Image correction
      - Equalizes the intensity historgrams (frei0r.equaliz0r)
@@ -842,7 +838,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - Adjusts the gamma value of a source image (frei0r.gamma)
-   * - :ref:`gamma_effect`
+   * - :ref:`effects-gamma`
      - Video Effect
      - Color and Image correction
      - Change gamma color value (gamma)
@@ -918,7 +914,7 @@ Alphabetical List of Effects and Compositions
      - Compositions
      -
      - Perform an RGB[A] grain-merge operation between the pixel sources (frei0r.grain_merge)
-   * - :ref:`greyscale_effect`
+   * - :ref:`effects-greyscale`
      - Video Effect
      - Color and Image correction
      - Discard color information (greyscale)
@@ -986,7 +982,7 @@ Alphabetical List of Effects and Compositions
      - Compositions
      -
      - Perform a conversion to hue only of the source input1 using the hue of input2 (frei0r.hue)
-   * - :ref:`hue_shift`
+   * - :ref:`effects-hue_shift`
      - Video Effect
      - Color and Image correction
      - Shifts the hue of a source image (frei0r.hueshift0r)
@@ -1006,7 +1002,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - AllNegate (invert) the input video (avfilter.negate)
-   * - :ref:`invert_effect`
+   * - :ref:`Invert <effects-invert>`
      - Video Effect
      - Color and Image correction
      - Invert colors (invert)
@@ -1062,7 +1058,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Transform, Distort and Perspective
      - Adds black borders at the top and bottom for cinema look (frei0r.letterb0xed)
-   * - :ref:`levels`
+   * - :ref:`effects-levels`
      - Video Effect
      - Color and Image correction
      - Adjust levels (frei0r.levels)
@@ -1070,7 +1066,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1217)
-   * - :ref:`lift_gamma_gain_effect`
+   * - :ref:`effects-lift_gamma_gain`
      - Video Effect
      - Color Correction
      -
@@ -1338,7 +1334,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1605)
-   * - :ref:`rgb_adjustment`
+   * - :ref:`effects-rgb_adjustment`
      - Video Effect
      - Color and Image correction
      - Simple color adjustment (frei0r.coloradj_RGB)
