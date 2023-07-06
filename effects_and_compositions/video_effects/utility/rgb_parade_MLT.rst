@@ -23,5 +23,5 @@ Displays a histogram of R, G and B components of the video data.
 
 https://youtu.be/KaxBEhzS8fk
 
-This is different from the :ref:`rgb_parade` from the View Menu because the Effect version writes the histogram into the output video whereas the View Menu version just displays the histogram widget in the application while you preview your project.
+This is different from the :ref:`view-rgb_parade` from the View Menu because the Effect version writes the histogram into the output video whereas the View Menu version just displays the histogram widget in the application while you preview your project.
 
