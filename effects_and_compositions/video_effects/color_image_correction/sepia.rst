@@ -1,24 +1,44 @@
-.. metadata-placeholder
+.. meta::
 
-   :authors: - Claus Christensen
-             - Yuri Chornoivan
-             - Ttguy (https://userbase.kde.org/User:Ttguy)
-             - Bushuev (https://userbase.kde.org/User:Bushuev)
-             - Jack (https://userbase.kde.org/User:Jack)
+   :description: Do your first steps with Kdenlive video editor, using sepia effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, sepia
+
+   :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
-.. _sepia_effect:
+
+.. |wikipedia_sepia| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/Sepia_(color)" target="_blank">Sepia</a>
+
+
+.. _effects_sepia:
 
 Sepia
 =====
 
+This effect/filter turns clip colors to sepia [1]_.
 
-This is the `Sepia <https://www.mltframework.org/plugins/FilterSepia/>`_ MLT filter.
+The effect does not have keyframes.
 
-Turns clip colors to sepia.
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-sepia.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_effects-sepia
 
-https://youtu.be/gD5bJBJp79M
+   Sepia effect
 
-https://youtu.be/wVFfb4E9ztQ
+* **Chrominance U** - Changes the U :term:`plane` (blue projection). Allowed values are from 0 to 255, default is 75.
 
+* **Chrominance V** - Changes the V :term:`plane` (red projection). Allowed values are from 0 to 255, default is 75.
+
+.. rst-class:: clear-both
+
+By using the :guilabel:`Chrominance` sliders you can adjust the level of brownishness to the look you want.
+
+
+**Notes**
+
+.. [1] See this article about |wikipedia_sepia| in Wikipedia.

@@ -1,24 +1,38 @@
-.. metadata-placeholder
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, using white balance (LMS) effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, white balance (LMS)
 
    :authors: - Yuri Chornoivan
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Mmaguire (https://userbase.kde.org/User:Mmaguire)
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
-.. _white_balance(lms):
+
+.. _effects-white_balance_lms:
 
 White Balance (LMS)
 ===================
 
+This effect/filter does simple color correction, in a physically meaningful way. For more detailed about white balance see :ref:`tutorial-white_balance_lms` in the :ref:`useful_information` section of the documentation.
 
-This is the `Frei0r colgate <https://www.mltframework.org/plugins/FilterFrei0r-colgate/>`_ MLT filter by Steiner H. Gunderson.
+The effect has keyframes.
 
-Do simple color correction, in a physically meaningful way.
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-white_balance_lms.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_effects-white_balance_lms
 
-**Parameters:**
+   White Balance (LMS space) effect
 
-Neutral Color: Choose a color from the source image that should be white.
+* **Neutral Color** - Choose the color from the source image that should be white
 
-Color Temperature: Choose an output color temperature, if different from 6500 K.
+* **Color Temperature** - Choose an output color temperature, if different from 6,500K
 
+.. rst-class:: clear-both
+
+
+Color temperature is measured in degrees Kelvin. Lower values correct for "warmer" lighting, higher values correct for "cool" lighting. the default value of +6,500K is unity.

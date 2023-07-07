@@ -1390,11 +1390,11 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Alpha, Mask and Keying
      - Keyframable vector based rotoscoping (rotoscoping)
-   * - :ref:`saturation`
+   * - :ref:`effects-saturation`
      - Composition
      -
      - Perform a conversion to saturation only of the source input1 using the saturation level of input2 (frei0r.saturation)
-   * - :ref:`saturation`
+   * - :ref:`effects-saturation`
      - Video Effect
      - Color and Image correction
      - Adjusts the saturation of a source image (frei0r.saturat0r)
@@ -1450,7 +1450,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1883)
-   * - :ref:`sepia_effect`
+   * - :ref:`effects-sepia`
      - Video Effect
      - Color and Image correction
      - Turn clip colors to sepia (sepia)
@@ -1574,7 +1574,7 @@ Alphabetical List of Effects and Compositions
      - Compositions
      -
      - Perform an RGB[A] softlight operation between the pixel sources (frei0r.softlight)
-   * - :ref:`sat`
+   * - :ref:`effects-sop_sat`
      - Video Effect
      - Color and Image correction
      - Changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List) (frei0r.sopsat)
@@ -1766,7 +1766,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1211)
-   * - :ref:`techicolor`
+   * - :ref:`effects-technicolor`
      - Video Effect
      - Color and Image correction
      - Oversaturate the color in video, like in old Technicolor movies (tcolor)
@@ -1786,7 +1786,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Utility
      - Timeout indicators e.g. for slides (frei0r.timeout)
-   * - :ref:`tint`
+   * - :ref:`effects-tint`
      - Video Effect
      - Color and Image correction
      - Maps source image luminance between two colors specified (frei0r.tint0r)
@@ -1946,15 +1946,15 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1412)
-   * - :ref:`white_balance`
+   * - :ref:`effects-white_balance`
      - Video Effect
      - Color Correction
      -
-   * - :ref:`white_balance`
+   * - :ref:`effects-white_balance`
      - Video Effect
      - Color and Image correcting
      - Adjust the white balance / color temperature (frei0r.balanc0r)
-   * - :ref:`white_balance(lms)`
+   * - :ref:`effects-white_balance_lms`
      - Video Effect
      - Color and Image correcting
      - Do simple color correction, in a physically meaningful way (frei0r.colgate)

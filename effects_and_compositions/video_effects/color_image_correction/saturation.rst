@@ -1,26 +1,38 @@
-.. metadata-placeholder
+.. meta::
 
-   :authors: - Claus Christensen
-             - Yuri Chornoivan
-             - Ttguy (https://userbase.kde.org/User:Ttguy)
-             - Bushuev (https://userbase.kde.org/User:Bushuev)
-             - Jack (https://userbase.kde.org/User:Jack)
+   :description: Do your first steps with Kdenlive video editor, using saturation effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, saturation
+
+   :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
-.. _saturation:
+
+.. _effects-saturation:
 
 Saturation
 ==========
 
+This effect/filter adjusts the :term:`saturation` of a source image.
 
-This is the `Frei0r saturat0r <https://www.mltframework.org/plugins/FilterFrei0r-saturat0r/>`_ MLT filter.
+The effect has keyframes.
 
-Adjusts the saturation of a source image.
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-saturation.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_effects-saturation
 
-See `TheDiveo's blog <https://thediveo-e.blogspot.com/2013/10/grading-of-hero-3-above-waterline.html>`_ for an example of the usage of the Saturation effect.
+   Saturation effect
 
-https://youtu.be/rWqlQaWtCFs
+* **Saturation** - Define the level of saturation. Allowed values are between 1 and 1000 (default is 125) where 1 turns the image into greyscale.
 
-https://youtu.be/reOG42ZzrZA
+.. .. rst-class:: clear-both
 
+
+.. **Notes**
+
+.. See :ref:`grading of GoPro Hero 3 footage <tutorial-grading_gopro>` in the :ref:`useful_information` section of this documentation.
+
+
+.. See `TheDiveo's blog <https://thediveo-e.blogspot.com/2013/10/grading-of-hero-3-above-waterline.html>`_ for an example of the usage of the Saturation effect.
