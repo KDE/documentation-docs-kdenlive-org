@@ -31,6 +31,6 @@ This effect has keyframes.
 
 * **Blue-Yellow Contrast** - Set the blue-yellow contrast. Default is 0.0. Allowed range is from -1.0 to 1.0.
 
-* **R-C / G-M / B-Y Weight** - Set the weight for each red-cyan, green-magenta and blue-yellow option value. Default value is 0.0. Allowed range is from 0.0. to 1.0. If all weights are 0.0. filtering is disabled.
+* **R-C / G-M / B-Y Weight** - Set the weight for each red-cyan, green-magenta and blue-yellow option value. Default value is 0.0. Allowed range is from 0.0 to 1.0. If all weights are 0.0 filtering is disabled.
 
-* **Preserving lightness** - Set the amount of preserving lightness. Default value is 0.0. Allowed range is from 0.0. to 1.0.
+* **Preserving lightness** - Set the amount of preserving lightness. Default value is 0.0. Allowed range is from 0.0 to 1.0.

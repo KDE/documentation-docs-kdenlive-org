@@ -71,7 +71,7 @@ As you can see, the output levels are rarely changed. However, there are situati
 
 * There was a significant gamma correction in the original video which lead to shadows being drowned in black. Adjusting the black output level can help to differentiate the dark areas more subtly without completely losing black. As mentioned before, black and white output levels counteract contrast changes through the respective input levels.
 
-.. note:: If you switch on the built-in histogram any other scope widget (e.g. :ref:`view-histogram` or :ref:`view-rgb_parade` does not work accurately anymore as it takes the histogram overlay into account, unfortunately. If you want to use the scope :term:`widgets<widget>` due to their being bigger and more versatile, simply switch off the built-in histogram.
+.. note:: If you switch on the built-in histogram any other scope widget (e.g. :ref:`view-histogram` or :ref:`view-rgb_parade`) does not work accurately anymore as it takes the histogram overlay into account, unfortunately. If you want to use the scope :term:`widgets<widget>` due to their being bigger and more versatile, simply switch off the built-in histogram.
 
 
 **Notes**

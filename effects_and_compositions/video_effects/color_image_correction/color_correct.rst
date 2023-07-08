@@ -34,4 +34,4 @@ This effect has keyframes.
 
 * **Blue highlight spot** - Set the blue highlight spot. Default is 0.0. Allowed range is from -1.0 to 1.0.
 
-* **Saturation** - Set the amount of :term:`saturation`. Default value is 1.0. Allowed range is from -3.0. to 3.0.
+* **Saturation** - Set the amount of :term:`saturation`. Default value is 1.0. Allowed range is from -3.0 to 3.0.
