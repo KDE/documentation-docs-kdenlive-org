@@ -1,16 +1,16 @@
 # Translation of docs_kdenlive_org_effects_and_compositions___video_effects___color_image_correction___levels.po to Catalan
-# Copyright (C) 2021 This_file_is_part_of_KDE
+# Copyright (C) 2021-2023 This_file_is_part_of_KDE
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2021.
-# Josep M. Ferrer <txemaq@gmail.com>, 2021.
+# Josep M. Ferrer <txemaq@gmail.com>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-08 00:39+0000\n"
-"PO-Revision-Date: 2021-11-22 13:57+0100\n"
+"POT-Creation-Date: 2023-07-07 00:43+0000\n"
+"PO-Revision-Date: 2023-07-07 11:43+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,21 +18,266 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:14
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:1
+msgid "Do your first steps with Kdenlive video editor, using levels effect"
+msgstr ""
+"Feu les primeres passes amb l'editor de vídeo Kdenlive, fent servir l'efecte"
+" de nivells"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:1
+msgid ""
+"KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
+"effects, color and image correction, levels "
+msgstr ""
+"KDE, Kdenlive, editor de vídeo, ajuda, aprendre, fàcil, efectes, filtre, "
+"efectes de vídeo, correcció del color i la imatge, nivells "
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:1
+msgid ""
+"- Bernd Jordan (https://discuss.kde.org/u/berndmj) - micha "
+"(https://discuss.kde.org/u/micha) "
+msgstr ""
+"- Bernd Jordan (https://discuss.kde.org/u/berndmj) - micha "
+"(https://discuss.kde.org/u/micha) "
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:1
+msgid "Creative Commons License SA 4.0"
+msgstr "Llicència Creative Commons SA 4.0"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:15
 msgid "Levels"
 msgstr "Nivells"
 
-# skip-rule: t-acc_obe
 #: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:17
 msgid ""
-"This is the `Frei0r levels <https://www.mltframework.org/plugins/"
-"FilterFrei0r-levels/>`_ MLT filter."
+"This effect/filter is very useful and important for correcting color levels."
+" This is achieved by setting the darkest areas (black level) and the "
+"brightest (white level), thus adjusting contrast. With Gamma you set the "
+"overall brightness. To assist in making the adjustments, the effect has a "
+"built-in small histogram."
 msgstr ""
-"Aquest és el `filtre «levels» de Frei0r <https://www.mltframework.org/"
-"plugins/FilterFrei0r-levels/>`_ del MLT."
+"Aquest efecte/filtre és molt útil i important per a corregir els nivells de "
+"color. Això s'aconsegueix establint les àrees més fosques (nivell del negre) "
+"i les més lluminoses (nivell del blanc), ajustant així el contrast. Amb la "
+"gamma s'estableix la lluminositat general. Per ajudar a fer els ajustos, "
+"l'efecte té un petit histograma integrat."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:19
-msgid "https://youtu.be/iMbohQnyFV4"
-msgstr "https://youtu.be/iMbohQnyFV4"
+msgid "This effect has keyframes."
+msgstr "Aquest efecte té fotogrames clau."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:27
+msgid "Color Levels effect"
+msgstr "Efecte de nivells de color"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:29
+msgid ""
+"**Channel** - Set the color channel you want to adjust. Options are **Red**,"
+" **Green**, **Blue** and **Luma** (default). :term:`Luma` adjust the pure "
+"color channels all at the same time."
+msgstr ""
+"**Canal**: Estableix el canal de color que voleu ajustar. Les opcions són "
+"**Vermell**, **Verd**, **Blau** i **Luma** (predeterminada). La :term:`Luma` "
+"ajusta tots els canals de color purs al mateix temps."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:31
+msgid "**Show histogram** - Switches the built-in small histogram on and off."
+msgstr ""
+"**Mostra l'histograma**: Activa i desactiva el petit histograma integrat."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:33
+msgid ""
+"**Histogram position** - Defines where the histogram is shown in the "
+"monitor. Options are **Top Left**, **Top Right**, **Bottom Left** and "
+"**Bottom Right** (default)."
+msgstr ""
+"** Posició de l'histograma**: Estableix on es mostra l'histograma al "
+"monitor. Les opcions són **Superior esquerra**, **Superior dreta**, "
+"**Inferior esquerra** i **Inferior dreta** (predeterminada)."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:35
+msgid ""
+"**Input black level** - Moves the black point to the right: all pixels with "
+"that value or less will be black. This makes the dark areas even darker, "
+"influences the mid-tones a little and the highlights not at all. Increases "
+"contrast. Range is 0 to 1000 (equivalent to 0% to 100%)."
+msgstr ""
+"**Nivell de negre d'entrada**: Mou el punt negre cap a la dreta: tots els "
+"píxels amb aquest valor o menys seran negres. Això fa que les zones fosques "
+"siguin encara més fosques, influeix una mica en els tons mitjans i res en "
+"absolut en les llums intenses. Augmenta el contrast. L'interval és de 0 a"
+" 1000 "
+"(equivalent del 0% al 100%)."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:37
+msgid ""
+"**Input white level** - Moves the white point to the left: all pixels with "
+"that value or higher will be white. This makes bright areas even brighter, "
+"influences the mid-tones a little and the dark areas not at all. Increases "
+"contrast. Range is 0 to 1000 (equivalent to 0% to 100%)."
+msgstr ""
+"**Nivell de blanc d'entrada**: Mou el punt blanc cap a l'esquerra: tots els "
+"píxels amb aquest valor o superior seran blancs. Això fa que les zones "
+"lluminoses siguin encara més lluminoses, influeix una mica en els tons mitjans"
+" i res en absolut en les zones fosques. Augmenta el contrast. L'interval és"
+" de 0"
+" a 1000 (equivalent del 0% al 100%)."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:39
+msgid ""
+"**Gamma** - Changes the overall brightness of the image. Affects only the "
+"mid-tones, black and white are not influenced. Range is 10 to 4000 (default "
+"is 1000, equivalent to Gamma 1.0). Lower values (moving the bar to the left)"
+" make the image darker, higher values (moving the bar to the right) make it "
+"brighter."
+msgstr ""
+"**Gamma**: Canvia la lluminositat general de la imatge. Només els tons "
+"mitjans, el blanc i el negre no estan influenciats. L'interval és de 10 a "
+"4000 (el valor predeterminat és 1000, equivalent a Gamma 1,0). Els valors "
+"més baixos (moure la barra cap a l'esquerra) fan la imatge més fosca, els "
+"valors més alts (moure la barra cap a la dreta) la fan més lluminosa."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:41
+msgid "**Black output** - Opposite of Input level black [1]_"
+msgstr "**Sortida de negre**: Al contrari del nivell d'entrada negre [1]_"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:43
+msgid "**White output** - Opposite of Input level white [1]_"
+msgstr "**Sortida de blanc**: Al contrari del nivell d'entrada blanc [1]_"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:48
+msgid "**Built-in Histogram**"
+msgstr "**Histograma integrat**"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:56
+msgid "Color Levels effect built-in histogram"
+msgstr "Histograma integrat de l'efecte de nivells de color"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:58
+msgid ""
+"The histogram shows the color distribution and the position of the black and"
+" white points (black and white triangles) and gamma (grey triangle). Input "
+"levels are shown above the greyscale bar; output points are shown below. "
+"Initially, the black and white triangles are all at the same position."
+msgstr ""
+"L'histograma mostra la distribució del color i la posició dels punts blanc i "
+"negre (triangles blanc i negre) i gamma (triangle gris). Els nivells "
+"d'entrada es mostren a sobre de la barra de l'escala de grisos; els punts de "
+"sortida es mostren a sota. Inicialment, els triangles blanc i negre estan "
+"tots en la mateixa posició."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:60
+msgid ""
+"Recall that the black triangle shows where the black point is and how many "
+"pixels of the same brightness there are; likewise for the grey and white "
+"triangle. This example shows a typical soft exposure profile, and that you "
+"have to adjust the **Black input level** and **White input level** to "
+"improve the contrast. The rule of thumb is to move the **Black input level**"
+" to where the histogram starts; similarly, you move the **White input "
+"level** to where the histogram ends."
+msgstr ""
+"Recordeu que el triangle negre mostra on és el punt negre i quants píxels de "
+"la mateixa lluminositat hi ha; de la mateixa manera per al triangle blanc i "
+"gris. Aquest exemple mostra un perfil d'exposició suau típic, i que heu "
+"d'ajustar el **nivell d'entrada del negre** i **nivell d'entrada del blanc** "
+"per a millorar el contrast. La regla general és moure el **nivell d'entrada "
+"del negre** a on comença l'histograma; de manera similar, moureu el **nivell "
+"d'entrada del blanc** a on acaba l'histograma."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:62
+msgid ""
+"If needed, you adjust the overall brightness of the image by adjusting the "
+"**Gamma** value."
+msgstr ""
+"Si cal, ajusteu la lluminositat general de la imatge ajustant el valor "
+"**Gamma**."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:64
+msgid ""
+"The triangles at the bottom, as mentioned before, determine the output "
+"values. If you move the black output level up (or to the right) it brightens"
+" the dark areas reducing the contrast and taking true black out of the image"
+" making it more bland. On the other end of the scale is the white output "
+"level. If you move it down (or left) the bright areas become darker making "
+"the image more bland, too."
+msgstr ""
+"Els triangles de la part inferior, com s'ha esmentat abans, determinen els "
+"valors de sortida. Si moveu el nivell de sortida de negre cap amunt (o cap a "
+"la dreta), les àrees fosques s'il·luminen reduint el contrast i traient el "
+"negre real de la imatge fent-la més tova. A l'altre extrem de l'escala hi ha "
+"el nivell de sortida del blanc. Si la moveu cap avall (o cap a l'esquerra), "
+"les zones lluminoses es tornaran més fosques, fent que la imatge sigui més "
+"tova, també."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:66
+msgid ""
+"As you can see, the output levels are rarely changed. However, there are "
+"situations where they come in handy:"
+msgstr ""
+"Com podeu veure, els nivells de sortida rarament canvien. No obstant això, "
+"hi ha situacions en les quals resulten útils:"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:68
+msgid ""
+"The final product requires a color range from 16 to 235. This can be "
+"achieved by setting the output levels accordingly."
+msgstr ""
+"El producte final requereix un interval de color de 16 a 235. Això es pot "
+"aconseguir establint adequadament els nivells de sortida."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:70
+msgid ""
+"You want the video to have a foggy or hazy atmosphere. Fog does not have "
+"black or white, as you know, so you can use the output levels here too."
+msgstr ""
+"Voleu que el vídeo tingui una atmosfera boirosa o bromosa. Com ja sabeu, la "
+"boira no té blanc ni negre, de manera que també podeu utilitzar els nivells "
+"de sortida aquí."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:72
+msgid ""
+"There was a significant gamma correction in the original video which lead to"
+" shadows being drowned in black. Adjusting the black output level can help "
+"to differentiate the dark areas more subtly without completely losing black."
+" As mentioned before, black and white output levels counteract contrast "
+"changes through the respective input levels."
+msgstr ""
+"Hi ha hagut una correcció de gamma significativa en el vídeo original que ha"
+"fet que les ombres estiguin inundades amb negre. Ajustar el nivell de "
+"sortida del negre pot ajudar a diferenciar les àrees fosques més subtilment "
+"sense perdre completament el negre. Com s'ha esmentat anteriorment, els "
+"nivells de sortida del blanc i negre contraresten els canvis de contrast a "
+"través dels nivells d'entrada respectius."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:74
+msgid ""
+"If you switch on the built-in histogram any other scope widget (e.g. "
+":ref:`view-histogram` or :ref:`view-rgb_parade` does not work accurately "
+"anymore as it takes the histogram overlay into account, unfortunately. If "
+"you want to use the scope :term:`widgets<widget>` due to their being bigger "
+"and more versatile, simply switch off the built-in histogram."
+msgstr ""
+"Si activeu l'histograma integrat qualsevol altre giny d'àmbit (p. ex. "
+":ref:`view-histogram` o :ref:`view-rgb_parade` ja no funcionaran amb "
+"precisió, ja que lamentablement tindrà en compte la superposició de "
+"l'histograma. Si voleu utilitzar els :term:`ginys<widget>` d'electroscopi "
+"a causa que són més grans i més versàtils, senzillament desactiveu "
+"l'histograma integrat."
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:77
+msgid "**Notes**"
+msgstr "**Notes**"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/levels.rst:79
+msgid ""
+"There is no point in using :guilabel:`Input white level` and "
+":guilabel:`White output` as they eliminate each other. The same applies to "
+":guilabel:`Black input level` and :guilabel:`Black output` even though they "
+"do not completely eliminate each other."
+msgstr ""
+"No té sentit utilitzar :guilabel:`Nivell de blanc d'entrada` i "
+":guilabel:`Sortida de blanc`, ja que s'eliminen entre si. El mateix "
+"s'aplica al :guilabel:`Nivell de negre d'entrada` i a la :guilabel:`Sortida "
+"de negre` encara que no s'eliminin completament els uns als altres."

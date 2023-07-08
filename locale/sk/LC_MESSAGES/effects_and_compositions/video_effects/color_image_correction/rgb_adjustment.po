@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-08 00:39+0000\n"
+"POT-Creation-Date: 2023-07-07 00:43+0000\n"
 "PO-Revision-Date: 2021-11-17 11:23+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -16,101 +16,129 @@ msgstr ""
 "X-Generator: Lokalize 21.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:14
-msgid "RGB adjustment"
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:1
+msgid ""
+"Do your first steps with Kdenlive video editor, using rgb adjustment effect"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:17
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:1
 msgid ""
-"This filter is for simple manual color adjustment by RGB channel, either "
-"through adding constants, or changing the channel gammas or gains."
+"KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
+"effects, color and image correction, rgb adjustment "
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:1
+msgid ""
+"- Claus Christensen - Yuri Chornoivan - Ttguy (https://userbase.kde.org/User:"
+"Ttguy) - Bushuev (https://userbase.kde.org/User:Bushuev) - Marko (https://"
+"userbase.kde.org/User:Marko) - Bernd Jordan (https://discuss.kde.org/u/"
+"berndmj) "
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:1
+msgid "Creative Commons License SA 4.0"
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:19
-msgid ""
-":menuselection:`Simple` means that it works channel-wise, no crosstalk. The "
-"off-diagonal elements of the transform matrix are zero - no color crosstalk, "
-"no color space rotation. But this should be sufficient for many tasks. For "
-"example, when shooting under tungsten light, the blue signal will not "
-"migrate into red, it will simply be too small. Amplifying the blue (and a "
-"bit of green too) should be all that is needed. Similar, an underwater shot "
-"will simply be red deficient, needing some red boost, etc."
+msgid "RGB Adjustment"
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:21
-msgid "Parameters:"
-msgstr "Parametre:"
+msgid ""
+"This filter is for simple manual color adjustment by RGB channel, either "
+"through adding constants, or changing the channel :term:`gammas<gamma>` or "
+"gains."
+msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:23
-#, fuzzy
-#| msgid "*R,G,B:**"
-msgid "**R,G,B:**"
-msgstr "*R,G,B:**"
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:25
-msgid "These determine the change in each of the three color channels."
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:27
-#, fuzzy
-#| msgid "*Action:**"
-msgid "**Action:**"
-msgstr "Akcia:"
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:29
-msgid ""
-":menuselection:`Add constant` adds a fixed value between -150 and +150 (this "
-"is sometimes called \"black level\" or \"setup\")."
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:30
-msgid ""
-":menuselection:`Change gamma` changes channel gamma between 0.3333 and 3.0."
+msgid "The effect has keyframes."
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:31
+msgid "RGB Adjustment effect"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:33
 msgid ""
-":menuselection:`Multiply` multiplies channel with a value between 0.3333 and "
-"3.0 (sometimes called \"gain\" or \"contrast\")."
+"**Action:** - Set the action to be performed [1]_ - *Add constant* adds a "
+"fixed value between -150 and +150 (this is sometimes called \"black level\" "
+"or \"setup\"). - *Change gamma* changes channel gamma between 0.3333 and "
+"3.0. - *Multiply* multiplies channel with a value between 0.3333 and 3.0 "
+"(sometimes called \"gain\" or \"contrast\")."
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:35
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:38
 msgid ""
-"To apply more than one action above, use cascaded instances of coloradj_RGB."
+"**Keep luma** - Set to keep the luma value and the R/G/B sliders only affect "
+"the respective color channel"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:39
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:40
 msgid ""
-":menuselection:`Add constant` simply shifts the RGB \"cube\" colorspace. "
-"This means, that on one end we are left with empty space, which is filled "
-"with zeros, and on the other end, values can \"fall outside\", and in this "
-"case they will be truncated to max (255). :menuselection:`Change gain` "
-"changes the size of the cube, keeping the \"black\" corner fixed, affecting "
-"predominately highlights, but the other end can still \"fall out\" and get "
-"255 truncated. :menuselection:`Change gamma` keeps the whole cube in the "
-"same place, just stretches and squeezes its interior, so no zero filling or "
-"truncation is necessary."
+"**Alpha controlled** - Check this if only areas with non-zero alpha are to "
+"be affected"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:41
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:42
 msgid ""
-"To visualize this plugin's actions, apply it to a gray gradient, and watch "
-"the result with \"pr0file\"."
+"**Luma formula** - Set the color space to operate in. Options are **Rec. "
+"709** (default) and **Rec. 601**."
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:43
-msgid "**Keep luma:**"
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:45
-msgid "Fixes the luma value, so that the sliders only affect color."
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:47
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:44
 msgid ""
-"This is the `Frei0r coloradj_rgb <https://www.mltframework.org/plugins/"
-"FilterFrei0r-coloradj_rgb/>`_ MLT filter."
+"**R / G / B** - Determines the change in each of the three color channels"
 msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:49
+msgid ""
+"**Add constant** simply shifts the RGB \"cube\" colorspace. This means, that "
+"on one end we are left with empty space, which is filled with zeros, and on "
+"the other end, values can \"fall outside\", and in this case they will be "
+"truncated to max (255)."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:51
+msgid ""
+"**Change gain** changes the size of the cube, keeping the \"black\" corner "
+"fixed, affecting predominately highlights, but the other end can still "
+"\"fall out\" and get 255 truncated."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:53
+msgid ""
+"**Change gamma** keeps the whole cube in the same place, just stretches and "
+"squeezes its interior, so no zero filling or truncation is necessary."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:55
+msgid ""
+"To visualize this effect's actions, apply it to a gray gradient and watch "
+"the result with :ref:`view-histogram`."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:58
+msgid "**Notes**"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/rgb_adjustment.rst:60
+msgid ""
+"To apply more than one action, use stacked instances of the effect. Note "
+"that Kdenlive executes the stack from top down so sequence is important."
+msgstr ""
+
+#~ msgid "Parameters:"
+#~ msgstr "Parametre:"
+
+#, fuzzy
+#~| msgid "*R,G,B:**"
+#~ msgid "**R,G,B:**"
+#~ msgstr "*R,G,B:**"
+
+#, fuzzy
+#~| msgid "*Action:**"
+#~ msgid "**Action:**"
+#~ msgstr "Akcia:"
 
 #~ msgid "Contents"
 #~ msgstr "Obsah"
