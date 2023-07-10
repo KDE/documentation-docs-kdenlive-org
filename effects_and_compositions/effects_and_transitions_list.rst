@@ -366,11 +366,11 @@ Alphabetical List of Effects and Compositions
      - Compositions
      - -
      - Composites second input on the first input with user-defined blend mode and opacity (frei0r.cairoblend)
-   * - :ref:`cairogradient`
+   * - :ref:`effects-cairogradient`
      - Video Effect
      - Generate
      - Draws a gradient on top of image. Filter is given gradient start and end points, colors and opacities.
-   * - :ref:`cairoimagegrid`
+   * - :ref:`effects-video_grid`
      - Video Effect
      - Generate
      - Create a video grid (frei0r.cairoimagegrid)
@@ -694,7 +694,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Stylize
      - Add dust and specks to the video, as in old movies (dust)
-   * - :ref:`dynamic_text`
+   * - :ref:`effects-dynamic_text`
      - Video Effect
      - Stylize
      - Overlay text with keywords replaced (dynamictext)
@@ -1886,11 +1886,11 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Utility
      - Measure video values (frei0r.pr0be)
-   * - :ref:`vignette`
+   * - :ref:`effects-vignette`
      - Video Effect
      - Generate
      - Natural Lens vignetting effect (frei0r.vignette)
-   * - :ref:`vignette_effect`
+   * - :ref:`effects-vignette_effect`
      - Video Effect
      - Generate
      - Adjustable Vignette (vignette)

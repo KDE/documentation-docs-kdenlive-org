@@ -2,6 +2,8 @@
    :description: Add in Kdenlive video editor, glossary.
    :keywords: KDE, Kdenlive, effects, audio, video, title, subtitle, speech to text, color correction, documentation, user manual, video editor, open source, free, learn, easy, glossary
 
+.. metadata-placeholders
+
    :authors: - Eugen Mohr
              - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
@@ -185,6 +187,9 @@ Glossary
 
    Project Monitor
       The Project Monitor plays clips selected in the :term:`timeline` or simply the project.
+
+   Opacity
+      A measure of impenetrability to electromagnetic or other kinds of radiation, especially visible light. An object that does not allow any visible light to go through is fully opaque or has 100% opacity.
 
    Overlay
       Clip and Project Monitor can have an overlay that helps with editing. Hover the mouse over the hot zone of the respective monitor (default is the top right-hand corner) and click on the grid icon to cycle through the available patterns. Different from :term:`Dynamic Text` and :term:`video overlay`.
