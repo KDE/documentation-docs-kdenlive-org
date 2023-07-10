@@ -13,7 +13,7 @@
 Shape Adaptive Blur
 ===================
 
-This effect blurs the clip while trying to keeping shape (edge) [1]_.
+This effect blurs the clip while trying to keeping shape (edge).
 
 This effect does not have keyframes.
 

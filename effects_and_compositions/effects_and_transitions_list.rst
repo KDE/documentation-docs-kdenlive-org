@@ -1450,7 +1450,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1883)
-   * - :ref:`effects-sepia`
+   * - :ref:`effects_sepia`
      - Video Effect
      - Color and Image correction
      - Turn clip colors to sepia (sepia)
