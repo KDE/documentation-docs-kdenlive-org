@@ -27,7 +27,7 @@ The effect has keyframes.
 
 * **Chroma blue spot** - Set the :term:`chroma` blue spot. Allowed range is from -1 to 1. Default value is 0.
 
-* **Chroma red spot** - Set the :term:`chroma` blue spot. Allowed range is from -1 to 1. Default value is 0.
+* **Chroma red spot** - Set the :term:`chroma` red spot. Allowed range is from -1 to 1. Default value is 0.
 
 * **Color filter size** - Set the color filter size. Allowed range is from .1 to 10. Default value is 1.
 
