@@ -39,4 +39,4 @@ The effect has keyframes.
 
 **Notes**
 
-.. [1] See this still from |gentlemen_prefer_blondes| in Wkipedia as an example of Technicolor filming.
+.. [1] See this still from |gentlemen_prefer_blondes| in Wikipedia as an example of Technicolor filming.
