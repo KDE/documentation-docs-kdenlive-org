@@ -99,9 +99,9 @@ Tutorial 1
 
    <a href="https://youtu.be/l43Hz7YEcYU" target="_blank">https://youtu.be/l43Hz7YEcYU</a>
 
-Shows usage of Alpha Operations with Shrink Hard as well as the following effects: :ref:`effects-chroma_key_basic`, :ref:`denoiser`, and :ref:`effects-key_spill_mop_up`.
+Shows usage of Alpha Operations with Shrink Hard as well as the following effects: :ref:`effects-chroma_key_basic`, :ref:`effects-denoiser`, and :ref:`effects-key_spill_mop_up`.
 
-.. note:: **This video is somewhat outdated.** In newer versions of Kdenlive the Key Spill Mop Up effect is installed by default, and it is no longer required to use a composite transition. Nevertheless, the basic steps of chroma keying and keyspill mop up are explained and are still valid.
+.. note:: **This video is somewhat outdated.** In newer versions of Kdenlive the Key Spill Mop Up effect is installed by default, and it is no longer required to use a composite transition. Nevertheless, the basic steps of chroma keying and key spill mop up are explained and are still valid.
 
 |tutorial_1|
 

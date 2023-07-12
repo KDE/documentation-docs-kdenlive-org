@@ -10,14 +10,14 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _scanline0r:
+.. _effects-scanline0r:
 
 Scanline0r
 ==========
 
 This effect/filter creates interlaced black lines imitating an old monitor.
 
-The effect works like a switch and does not have keyframes
+The effect works like a switch and does not have keyframes.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-scanline0r.webp
    :width: 400px

@@ -38,7 +38,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - Balances colors along with 3 points (frei0r.three_point_balance)
-   * - 3d_fft_denoiser
+   * - :ref:`effects-3d_fft_denoiser`
      - Video Effect
      - Grain and Noise
      - Denoise frames using 3D FFT (Frequency Domain Filtering) (avfilter.fftdnoiz)
@@ -618,7 +618,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Deprecated
      - Perform an RGB[A] difference operation between the pixel sources (frei0r.difference)
-   * - :ref:`denoiser`
+   * - :ref:`effects-denoiser`
      - Video Effect
      - Grain and Noise
      - High Quality 3d denoiser (frei0r.hqdn3d)
@@ -678,11 +678,11 @@ Alphabetical List of Effects and Compositions
      - Compositions
      -
      - Perform an RGB[A] dodge operation between the pixel sources, using the generalized algorithm: D = saturation of 255 or (A*256)/(256-B) (frei0r.dodge)
-   * - drawbox
+   * - :ref:`effects-draw_box`
      - Video Effect
      - Generate
      - Draw a colored box on the input video (avfilter.drawbox)
-   * - drawgrid
+   * - :ref:`effects-draw_grid`
      - Video Effect
      - Generate
      - Draw a colored grid on the input video (avfilter.drawgrid)
@@ -690,7 +690,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Measure audio dynamic range (avfilter.drmeter)
-   * - :ref:`dust`
+   * - :ref:`effects-dust`
      - Video Effect
      - Stylize
      - Add dust and specks to the video, as in old movies (dust)
@@ -1234,7 +1234,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Blur and Hide
      -
-   * - :ref:`oldfilm_effect`
+   * - :ref:`effects-oldfilm`
      - Video Effect
      - Stylize
      - Moves the Picture up and down and random brightness change (oldfilm)
@@ -1426,7 +1426,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - misc
      - QuickSync video scaling and format conversion (avfilter.scale_qsv)
-   * - :ref:`scanline0r`
+   * - :ref:`effects-scanline0r`
      - Video Effect
      - Generate
      - Interlaced black lines (frei0r.scanline0r)
@@ -1434,7 +1434,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Misc
      - Detect video scene change (avfilter.scdet)
-   * - :ref:`scratchlines`
+   * - :ref:`effects-scratchlines`
      - Video Effect
      - Grain and Noise
      - Scratchlines over the picture (lines)
