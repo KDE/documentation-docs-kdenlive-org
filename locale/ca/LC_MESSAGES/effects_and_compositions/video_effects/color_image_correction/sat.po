@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-11 00:39+0000\n"
-"PO-Revision-Date: 2023-07-11 12:40+0200\n"
+"PO-Revision-Date: 2023-07-12 20:18+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -56,31 +56,20 @@ msgid "SOP/Sat Effect"
 msgstr "Efecte SOP/Sat"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:28
-#| msgid ""
-#| "This is the `FilterFrei0r-sopsat <https://www.mltframework.org/plugins/"
-#| "FilterFrei0r-sopsat/>`_  MLT framework filter. It changes Slope, Offset, "
-#| "and Power of the color components, and the overall Saturation, according "
-#| "to the ASC CDL (Color Decision List) `reference <https://en.wikipedia.org/"
-#| "wiki/ASC_CDL>`_."
 msgid ""
 "This effect/filter changes Slope, Offset, and Power of the color components, "
 "and the overall Saturation, according to the ASC CDL (Color Decision List) "
 "[1]_"
 msgstr ""
 "Aquest efecte/filtre canvia el Desnivell, Desplaçament i Potència dels "
-"components del color, i la Saturació global, d'acord amb la CDL (Llista de"
-" Decisió del Color) de l'ASC."
+"components del color, i la Saturació global, d'acord amb la CDL (Llista de "
+"Decisió del Color) [1]_ de l'ASC."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:30
 msgid "The effect has keyframes."
 msgstr "L'efecte té fotogrames clau."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:32
-#| msgid ""
-#| "Changing the slope means multiplying the pixel value with a constant "
-#| "value. Black pixels will remain black, while as brighter ones will be "
-#| "changed. All effects can be observed well when applied on a greyscale "
-#| "gradient and looking at the RGB Parade monitor."
 msgid ""
 "Changing the slope means multiplying the pixel value with a constant value. "
 "Black pixels will remain black, while brighter ones will be changed. All "
@@ -98,7 +87,6 @@ msgstr ""
 "Podeu utilitzar aquest efecte per a aconseguir un balanç de blancs adequat."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:42
-#| msgid "SOP/Sat Effect"
 msgid "SAP/Sat effect"
 msgstr "Efecte SAP/Sat"
 
@@ -132,19 +120,16 @@ msgstr ""
 "exposició 2^2) sobre les dades d'entrada en els canals de color respectius. "
 "Els valors permesos estan entre 0 i 1000. El valor predeterminat és 50."
 
+# skip-rule: rst-italic2
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:50
 msgid ""
 "**Overall Saturation** - Changes the overall :term:`saturation`. Allowed "
 "values are from 0 to 1000, default is 100."
 msgstr ""
-"**Saturació global**: Estableix la :term:`saturation` global. Els valors "
-"permesos estan entre 0 i 1000. El valor predeterminat és 100."
+"**Saturació global**: Estableix la :term:`saturació <saturation>` global. "
+"Els valors permesos estan entre 0 i 1000. El valor predeterminat és 100."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:55
-#| msgid ""
-#| "This filter implements a standard way of color correction proposed by the "
-#| "American Society of Cinematographers: The Color Decision List, also known "
-#| "as the ASC CDL."
 msgid ""
 "This filter implements a standard way of color correction proposed by the "
 "American Society of Cinematographers: The Color Decision List, also known as "
@@ -174,9 +159,6 @@ msgstr ""
 "canal per separat i 2. Correcció de la saturació general"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:63
-#| msgid ""
-#| "All corrections work on [0,1], so the RGB(A) values need to be transposed "
-#| "from {0,...,255} to [0,1]."
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from [0,...,255] to [0,1]."
@@ -190,20 +172,17 @@ msgstr "Correcció SOP"
 
 # skip-rule: t-acc_obe
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:67
-#| msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
 msgid "Slope:   ``out = in * slope;   0 <= slope < ∞``"
 msgstr "Desnivell:   ``sortida = entrada * desnivell;   0 <= desnivell < ∞``"
 
 # skip-rule: t-acc_obe
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:68
-#| msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
 msgid "Offset:  ``out = in + offset;  -∞ < offset < ∞``"
 msgstr ""
 "Desplaçament:  ``sortida = entrada + desplaçament;  -∞ < desplaçament < ∞``"
 
 # skip-rule: t-acc_obe
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:69
-#| msgid "Power:   ``out = in^power;     0 < power < \\infty``"
 msgid "Power:   ``out = in^power;     0 < power < ∞``"
 msgstr "Potència:   ``sortida = entrada^potència;     0 < potència < ∞``"
 
@@ -219,15 +198,11 @@ msgstr ""
 
 # skip-rule: t-acc_obe
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:74
-#| msgid "Forall channels: ``out = luma + sat * (in-luma)``"
 msgid "For all channels: ``out = luma + sat * (in-luma)``"
 msgstr ""
 "Per a tots els canals: ``sortida = luma + saturació * (luma d'entrada)``"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:76
-#| msgid ""
-#| "As the values may exceed 1 (or 0), they need to be clamped where "
-#| "necessary."
 msgid ""
 "As the values may exceed 1 (or 0), they need to be clipped where necessary."
 msgstr ""
