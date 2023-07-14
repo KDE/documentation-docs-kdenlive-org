@@ -30,6 +30,10 @@
 
    <a href="https://www.cambridgeincolour.com/tutorials/white-balance.htm" target="_blank">color temperature</a>
 
+.. |color_space| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/Color_space" target="_blank">color space</a>
+
 
 .. _true_glossary:
 
@@ -73,6 +77,12 @@ Glossary
 
    Color and Image Correction
       A category of effects and filters to adjust or change the color components of the clip.
+
+   Color Matrix
+      Describes the balancing of different parts of the color spectrum in order to create an accurate representation for capture. By adjusting the properties of color matrix you can do things like shifting the white balance, alter the color palette, adjusting for color anomalies in the source.
+
+   Color Space
+      A color space is a specific organization of colors. It is a useful conceptual tool for understanding the color capabilities of a particular device or digital file. When trying to reproduce color on another device, color spaces can show whether shadow/highlight detail and color :term:`saturation` can be retained, and by how much either will be compromised. See this article about |color_space| in Wikipedia.
 
    Composition
       Also referred to as a transition, it combines at least two input :term:`clips<clip>` to one output clip. Compositions cannot be stacked.
