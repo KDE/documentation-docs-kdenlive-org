@@ -1,3 +1,8 @@
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, using speed effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, motion, speed
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
@@ -10,20 +15,20 @@
 
 .. _speed:
 
-Motion Effects - Speed
-======================
+Speed
+=====
 
 .. attention::
 
    .. deprecated:: 21.04
-      Use :ref:`change_speed` instead
+      Is not available anymore. Use :ref:`change_speed` instead
 
 
 
 
 Make clip play faster or slower. Use of this effect mutes the audio of the clip.
 
-.. image:: /images/Kdenlive_Motion_speed_effect.png
+.. image:: /images/effects_and_compositions/Kdenlive_Motion_speed_effect.png
    :align: left
    :alt: Kdenlive_Motion_speed_effect
 

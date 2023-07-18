@@ -754,7 +754,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Increase difference between stereo audio channels (avfilter.extrastereo)
-   * - :ref:`fade_from_black` (video effect)
+   * - :ref:`effects-fade_in` (video effect)
      - Video Effect
      - Motion
      - Fade video from black (brightness)
@@ -766,7 +766,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - fade
      - Fade out audio track (volume)
-   * - :ref:`fade_to_black`  (video effect)
+   * - :ref:`effects-fade_out`  (video effect)
      - Video Effect
      - Motion
      - Fade video to black (brightness)
@@ -822,7 +822,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1192)
-   * - :ref:`freeze`
+   * - :ref:`effects-freeze`
      - Video Effect
      - Motion
      - Freeze video on a chosen frame (freeze)
@@ -1202,7 +1202,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Utility
      - This filter creates a false image from a visible + infrared source (frei0r.ndvi)
-   * - :ref:`nervous`
+   * - :ref:`effects-nervous`
      - Video Effect
      - Motion
      - Flushes frames in time in a nervous way (frei0r.nervous)

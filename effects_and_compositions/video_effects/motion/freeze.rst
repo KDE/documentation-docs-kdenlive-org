@@ -1,3 +1,8 @@
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, using freeze effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, motion, freeze
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
@@ -5,19 +10,35 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Jack (https://userbase.kde.org/User:Jack)
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
-.. _freeze:
 
-Motion - Freeze
-===============
+.. _effects-freeze:
 
+Freeze
+======
 
+This effect causes the video to freeze.
 
-This effect causes the video to freeze. If you add the effect and leave both check boxes unchecked, the clip will be frozen for its entire length. To change this, check either the *Freeze Before* or *Freeze After* option and move the *Freeze At* slider to the time where you what the freeze to start or end. If *Freeze Before* is selected, the video will be frozen at the start and then start moving when it hits the *Freeze At* time. If *Freeze After* is selected, the video will be moving at the start and then freeze when it hits the *Freeze At* time. The audio in the video plays for the entire length, i.e. the **Freeze** effect does not alter the audio.
+The effect does not have keyframes.
 
-.. image:: /images/Kdenlive_Motion_freeze.png
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-freeze.webp
+   :width: 400px
+   :figwidth: 400px
    :align: left
-   :alt: Kdenlive_Motion_freeze
+   :alt: kdenlive2304_effects-freeze
 
+   Freeze effect
+
+* **Freeze at** - Set the position via the slider or the time code (using the format hh:mm:ss:ff)
+
+* **Freeze Before** - If checked, freezes the video from the start of the clip to the set :guilabel:`Freeze at` position. Default is **off**
+
+* **Freeze After** - If checked, freezes the video from set :guilabel:`Freeze at` position to the end of the clip. Default is **off**
+
+.. rst-class:: clear_both
+
+
+By default, the clip will be frozen for its entire length when the effect is added to the clip. To change this, check either the :guilabel:`Freeze Before` or :guilabel:`Freeze After` option and move the :guilabel:`Freeze at` slider to the time where you want the freeze to start or end. The audio in the video plays for the entire length, i.e. the **Freeze** effect does not affect the audio.

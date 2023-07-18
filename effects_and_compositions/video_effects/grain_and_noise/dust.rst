@@ -15,7 +15,7 @@
 Dust
 ====
 
-This effect/filter makes random dust particles appear across the image source. This gives the video an old film look. See also the :ref:`effects-oldfilm` and :ref:`scratchlines` effects.
+This effect/filter makes random dust particles appear across the image source. This gives the video an old film look. See also the :ref:`effects-oldfilm` and :ref:`effects-scratchlines` effects.
 
 The effect has keyframes.
 

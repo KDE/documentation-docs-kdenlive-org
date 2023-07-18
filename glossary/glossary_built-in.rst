@@ -34,6 +34,14 @@
 
    <a href="https://en.wikipedia.org/wiki/Color_space" target="_blank">color space</a>
 
+.. |field_order| raw:: html
+
+   <a href="https://www.kernel.org/doc/html/v4.9/media/uapi/v4l/field-order.html" target="_blank">Field Order</a>
+
+.. |interlaced_video| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/Interlaced_video" target="_blank">Interlaced Video</a>
+
 
 .. _true_glossary:
 
@@ -101,13 +109,16 @@ Glossary
       An effect that can be applied to a :term:`clip`, :term:`track` or on :term:`master` to overlay the video with specific information. Available keyword are: timecode, frame, filedate, localfiledate, source frame rate, source codec, source bit rate, source width, source height, source comment
 
    Effect
-      Also referred to a :term:`filter`, an effect is used to change the appearance, size or position of a :term:`clip`. Most effects have :term:`keyframe` capabilities. More than one effect can be used on the same clip (stacking). In that case effects are processed top down, so sequence is important. See :ref:`effects-effect_stack`.
+      Also referred to as a :term:`filter`, an effect is used to change the appearance, size or position of a :term:`clip`. Most effects have :term:`keyframe` capabilities. More than one effect can be used on the same clip (stacking). In that case effects are processed top down, so sequence is important. See :ref:`effects-effect_stack`.
 
    Edit Mode
       A special function of the :term:`project monitor`. Needed in order to be able to use the mouse to manipulate certain aspects (e.g. size, position) of some effects (e.g. Transform, Rotoscope). Can be switched on and off using the |edit-mode| icon in the project monitor's toolbar.
 
    Exporting
       See :term:`Rendering`
+
+   Field Order
+      Also called *Field Dominance*. Determines in a video stream which field of an interlaced video stream comes first. See this article about |field_order|.
 
    Filter
       Kdenlive uses filters from |avfilter| and |frei0r| to modify frames. See :term:`effect`.
@@ -131,6 +142,10 @@ Glossary
 
    Icon
       A graphical representation of an action, function, option or status.
+
+   Interlaced
+   Interleave
+      A technique for doubling the perceived frame rate of a video without using extra bandwidth. Compare :term:`progressive`. See this Wikipedia article about |interlaced_video|.
 
    In-point
       An In-point defines the beginning of a :term:`zone`. A zone can be defined in the :term:`timeline` and the :term:`project monitor` (it has the same result), or in the :term:`clip monitor` (useful to move only a certain section of a clip to the timeline). See :term:`zone` for possible usages.
@@ -222,6 +237,9 @@ Glossary
    Preset
       Used for :term:`rendering` to determine output format (container), codec, dimensions, aspect ratio, bit rate and various other parameters. See :ref:`render_profile_parameters`.
 
+   Progressive
+      A format of displaying, storing or transmitting video in which all the lines of each frame are drawn in sequence. The 'p' in 1080p indicates that the format is using progressive scan, i.e. the frame's lines are **not** :term:`interlaced`.
+
    Project
       The sum of all assets, clips, tracks, effects, transitions, compositions and settings, their arrangements in the timeline, and references to all the source materials including their :term:`proxy` work copies. The project file is associated with a working directory where Kdenlive generates proxies and thumbs.
 
@@ -238,7 +256,7 @@ Glossary
       A light-weight version of the original clip. Used to make editing and in particular playback easier and smoother. See :ref:`make_proxy_clip`.
 
    Plane
-      Used on color correction and blur application to separate color components for the purpose of applying an effect only to that component. Color components are RGB (Red, Green, Blue) and YUV (luminance (Y), blue projection (U), red projection (V)) , as well as alpha (channel).
+      Used on :term:`color correction` and blur application to separate color components for the purpose of applying an effect only to that component. Color components are RGB (Red, Green, Blue) and YUV (luminance (Y), blue projection (U), red projection (V)) , as well as alpha (channel).
 
    Quality, custom
       A setting in the :term:`rendering` dialog More Options section to control the quality of the rendered video.
