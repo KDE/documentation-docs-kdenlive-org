@@ -277,7 +277,7 @@ Exchanging Keyframes Across Effects
 
 You can import and export keyframes from/to the clipboard. This feature is not only useful to copy keyframes from one clip to another, it can also be used for example to copy the results of the motion tracker to the Transform effect.
 
-To export the keyframes to the clipboard click on |application-menu|:guilabel:`Options` in the keyframe panel [1]_ and choose :guilabel:`Copy keyframes to clipboard`.
+To export the keyframes to the clipboard click on |application-menu|:guilabel:`Options` in the keyframe panel\ [1]_ and choose :guilabel:`Copy keyframes to clipboard`.
 
 .. figure:: /images/Kdenlive_import_keyframes_dialog.png
    :align: left
@@ -285,7 +285,7 @@ To export the keyframes to the clipboard click on |application-menu|:guilabel:`O
 
    Importing keyframes
 
-To import keyframes from the clipboard click on |application-menu|:guilabel:`Options` inside the keyframe panel [1]_ and choose :guilabel:`Import keyframes from clipboard`. If you have valid data on your clipboard you should see this dialog window where you can adjust the mapping of the data.
+To import keyframes from the clipboard click on |application-menu|:guilabel:`Options` inside the keyframe panel\ [1]_ and choose :guilabel:`Import keyframes from clipboard`. If you have valid data on your clipboard you should see this dialog window where you can adjust the mapping of the data.
 
 For most use cases the default settings suffice. But you may want to copy only a subset of the data and perhaps enter an offset value, for example.
 
@@ -325,9 +325,9 @@ If you want to apply audio or video effects throughout the whole video. Click on
 
    Adding a Sepia effect to the entire video
 
-The following effects are available On Master only:
+There are specific effects and filters that work :ref:`effects-on_master` only.
 
-.. toctree::
+.. .. toctree::
    :maxdepth: 1
    :glob:
 

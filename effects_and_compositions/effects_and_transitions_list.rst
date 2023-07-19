@@ -242,7 +242,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Compute the audio amplitude (audiolevel)
-   * - :ref:`Audio_level_visualization_filter`
+   * - :ref:`effects-audio_level_visualization_filter`
      - Video Effect
      - On Master
      - An audio visualization filter that draws an audio level meter on the image. (audiolevelgraph)
@@ -250,15 +250,15 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Pan an audio channel, adjust balance, or adjust fade (panner)
-   * - :ref:`audio_spectrum_filter`
+   * - :ref:`effects-audio_spectrum_filter`
      - Video Effect
      - On Master
      - An audio visualization filter that draws an audio spectrum on the image (audiospectrum)
-   * - :ref:`audio_wave`
+   * - :ref:`effects-audio_wave`
      - Video Effect
      - On Master
      - Display the audio waveform instead of the video (audiowave)
-   * - :ref:`audio_waveform_filter`
+   * - :ref:`effects-audio_waveform_filter`
      - Audio Effect
      - On Master
      - An audio visualization filter that draws an audio waveform on the image (audiowaveform)
@@ -562,7 +562,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - Color curves adjustment (frei0r.curves)
-   * - :ref:`dance`
+   * - :ref:`effects-dance`
      - Video Effect
      - On Master
      - An audio visualization filter that moves the image around proportional to the magnitude of the audio spectrum (dance)
@@ -1070,7 +1070,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color Correction
      -
-   * - lightshow
+   * - :ref:`effects-light_show`
      - Video Effect
      - On Master
      - An audio visualization filter that colors the image proportional to the magnitude of the audio spectrum (lightshow)
