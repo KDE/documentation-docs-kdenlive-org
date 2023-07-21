@@ -81,217 +81,287 @@ smartquotes_excludes = {'languages':[
 rst_epilog = """
 .. |kdenlive-add-clip| image:: /images/icons/kdenlive-add-clip.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |application-menu| image:: /images/icons/application-menu.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |view-preview| image:: /images/icons/view-preview.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |distribute-horizontal| image:: /images/icons/distribute-horizontal.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |media-record| image:: /images/icons/media-record.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |document-new| image:: /images/icons/document-new.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |document-save-as| image:: /images/icons/document-save-as.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |document-edit| image:: /images/icons/document-edit.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |edit-download| image:: /images/icons/edit-download.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |kdenlive-lock| image:: /images/icons/kdenlive-lock.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |kdenlive-hide-audio| image:: /images/icons/kdenlive-hide-audio.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |kdenlive-hide-video| image:: /images/icons/kdenlive-hide-video.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |tools-wizard| image:: /images/icons/tools-wizard.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |timeline-use-zone-off| image:: /images/icons/timeline-use-zone-off.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |timeline-use-zone-on| image:: /images/icons/timeline-use-zone-on.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |timeline-extract| image:: /images/icons/timeline-extract.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |timeline-insert| image:: /images/icons/timeline-insert.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |timeline-lift| image:: /images/icons/timeline-lift.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |timeline-overwrite| image:: /images/icons/timeline-overwrite.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |add-subtitle| image:: /images/icons/add-subtitle.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |composite-track-preview| image:: /images/icons/composite-track-preview.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |favorite| image:: /images/icons/favorite.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |kdenlive-ripple| image:: /images/icons/kdenlive-ripple.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |kdenlive-slip| image:: /images/icons/kdenlive-slip.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |preview-render-on| image:: /images/icons/preview-render-on.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |view-media-equalizer| image:: /images/icons/view-media-equalizer.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |document-save-all| image:: /images/icons/document-save-all.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |view-right-close| image:: /images/icons/view-right-close.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |view-split-left-right| image:: /images/icons/view-split-left-right.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |hint| image:: /images/icons/hint.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |visibility| image:: /images/icons/visibility.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |keyframe-disable| image:: /images/icons/keyframe-disable.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |keyframe| image:: /images/icons/keyframe.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |adjustlevels| image:: /images/icons/adjustlevels.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |view-refresh| image:: /images/icons/view-refresh.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |document-save-as-template| image:: /images/icons/document-save-as-template.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |edit-delete| image:: /images/icons/edit-delete.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |document-save| image:: /images/icons/document-save.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |keyframe-previous| image:: /images/icons/keyframe-previous.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |keyframe-add| image:: /images/icons/keyframe-add.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |keyframe-next| image:: /images/icons/keyframe-next.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |keyframe-remove| image:: /images/icons/keyframe-remove.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |align-horizontal-center| image:: /images/icons/align-horizontal-center.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |edit-copy| image:: /images/icons/edit-copy.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |edit-paste| image:: /images/icons/edit-paste.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |linear| image:: /images/icons/linear.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |align-horizontal-left| image:: /images/icons/align-horizontal-left.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |align-horizontal-right| image:: /images/icons/align-horizontal-right.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |align-vertical-top| image:: /images/icons/align-vertical-top.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |align-vertical-center| image:: /images/icons/align-vertical-center.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |align-vertical-bottom| image:: /images/icons/align-vertical-bottom.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |zoom-original| image:: /images/icons/zoom-original.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |zoom-fit-best| image:: /images/icons/zoom-fit-best.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |zoom-fit-width| image:: /images/icons/zoom-fit-width.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |zoom-fit-height| image:: /images/icons/zoom-fit-height.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |folder-new| image:: /images/icons/folder-new.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |tag| image:: /images/icons/tag.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |preview-add-zone| image:: /images/icons/preview-add-zone.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |preview-remove-zone| image:: /images/icons/preview-remove-zone.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |preview-remove-all| image:: /images/icons/preview-remove-all.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |zone-in| image:: /images/icons/zone-in.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |zone-out| image:: /images/icons/zone-out.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |object-order-raise| image:: /images/icons/object-order-raise.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |object-order-lower| image:: /images/icons/object-order-lower.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |preview-render-off| image:: /images/icons/preview-render-off.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |network-server-database| image:: /images/icons/network-server-database.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |edit-mode| image:: /images/icons/transform-crop.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |color-picker| image:: /images/icons/color-picker.svg
    :width: 22px
+   :class: no-scaled-link
 
 .. |track-effect| image:: /images/icons/tools-wizard.svg
    :width: 22px
-
+   :class: no-scaled-link
 
 .. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
    :width: 480px
+   :class: no-scaled-link
 
 .. |Kdenlive_Keyboard_074_A4| image:: /images/Kdenlive_Keyboard_074_A4.svg
    :width: 480px
+   :class: no-scaled-link
 
 .. |outdated| replace:: The instructions of this section are probably out-dated please help us to improve the documentation! See :ref:`get_involved`
 

@@ -22,7 +22,7 @@
 FFT-based FIR
 =============
 
-This effect/filter applies arbitrary expressions to samples in frequency domain. It is a Finite Impulse Response (FIR) [1]_ filter using Fast Fourier Transform (FFT) [2]_.
+This effect/filter applies arbitrary expressions to samples in frequency domain. It is a Finite Impulse Response (FIR)\ [1]_ filter using Fast Fourier Transform (FFT)\ [2]_.
 
 The effect does not have keyframes.
 

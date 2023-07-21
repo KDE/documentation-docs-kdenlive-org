@@ -20,7 +20,7 @@
 Super2xSaI
 ==========
 
-This effect/filter scales the input by 2x and smooths it using the Super2xSaI (Scale and Interpolate) pixel art scaling algorithm [1]_.
+This effect/filter scales the input by 2x and smooths it using the Super2xSaI (Scale and Interpolate) pixel art scaling algorithm\ [1]_.
 
 Useful for enlarging pixel art images without reducing sharpness.
 

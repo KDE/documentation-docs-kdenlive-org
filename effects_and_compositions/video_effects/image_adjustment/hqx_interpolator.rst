@@ -20,7 +20,7 @@
 HQ*X Interpolator
 =================
 
-This effect/filter scales the input stream by 2, 3 or 4 using the Hq*X [1]_ magnification algorithm designed for pixel art.
+This effect/filter scales the input stream by 2, 3 or 4 using the Hq*X\ [1]_ magnification algorithm designed for pixel art.
 
 The effect does not have keyframes.
 

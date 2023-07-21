@@ -25,7 +25,7 @@
 SOP/Sat Effect
 ==============
 
-This effect/filter changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List) [1]_
+This effect/filter changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List)\ [1]_
 
 The effect has keyframes.
 
@@ -52,7 +52,7 @@ You can use this effect to achieve proper white balance.
 .. rst-class:: clear-both
 
 
-This filter implements a standard way of color correction proposed by the American Society of Cinematographers: The Color Decision List, also known as the ASC CDL [1]_ with the goal to exchange rudimentary color correction information between post-production tools.
+This filter implements a standard way of color correction proposed by the American Society of Cinematographers: The Color Decision List, also known as the ASC CDL\ [1]_ with the goal to exchange rudimentary color correction information between post-production tools.
 
 The ASC CDL is a standard format for basic primary color correction (primary meaning affecting the whole image and not only selected parts).
 

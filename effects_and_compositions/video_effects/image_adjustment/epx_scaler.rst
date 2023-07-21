@@ -20,7 +20,7 @@
 EPX Scaler
 ==========
 
-This effect/filter applies the EPX [1]_ magnification filter which is designed for pixel art.
+This effect/filter applies the EPX\ [1]_ magnification filter which is designed for pixel art.
 
 The effect does not have keyframes.
 

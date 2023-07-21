@@ -51,9 +51,9 @@
 Rotoscoping
 ===========
 
-"In the visual effects industry, the term rotoscoping refers to the technique of manually creating a matte for an element on a live-action plate so it may be composited over another background." [1]_
+"In the visual effects industry, the term rotoscoping refers to the technique of manually creating a matte for an element on a live-action plate so it may be composited over another background."\ [1]_
 
-This effect [2]_ is used to draw a region on one clip, and everything outside/inside that region will disappear showing the video track underneath. Effectively, the region defines the matte or mask for the clip.
+This effect\ [2]_ is used to draw a region on one clip, and everything outside/inside that region will disappear showing the video track underneath. Effectively, the region defines the matte or mask for the clip.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotoscoping.webp
    :width: 90%
@@ -73,7 +73,7 @@ Drawing the Region
 
    Nodes and Handles
 
-The region is drawn by adding nodes along your region. These act as edges for your rotoscope, and there is a line between each node. The line can be made into a curve [3]_ using "handles".
+The region is drawn by adding nodes along your region. These act as edges for your rotoscope, and there is a line between each node. The line can be made into a curve\ [3]_ using "handles".
 
 .. container:: clear-both
 
@@ -119,7 +119,7 @@ Once the region is created (closed) you can move individual nodes, insert and de
 
 By default, the inside of the region you created is transparent (the video track underneath is visible). Use the :guilabel:`Invert` checkbox to make the outside of the region transparent.
 
-.. note:: The Rotoscope effect can be keyframed. In contrast to other effects, keyframes not only can be created individually on the keyframe ruler [4]_ but are created automatically whenever the region is changed (nodes added, deleted or moved; curves created or changed; region moved). It is therefore important to create the rotoscope region on the very first frame of the clip.
+.. note:: The Rotoscope effect can be keyframed. In contrast to other effects, keyframes not only can be created individually on the keyframe ruler\ [4]_ but are created automatically whenever the region is changed (nodes added, deleted or moved; curves created or changed; region moved). It is therefore important to create the rotoscope region on the very first frame of the clip.
 
 .. I think this statement is no longer true: In a previous version of Kdenlive you could add a new nodes by clicking on the line between existing nodes. You could subtract nodes by right clicking on them. But it looks like you can not do this with the 17.04 & 18.04 version.
 
@@ -127,7 +127,7 @@ By default, the inside of the region you created is transparent (the video track
 Using keyframes to make the region follow the action
 ----------------------------------------------------
 
-.. note:: The keyframe ruler and icons [4]_ may be greyed out initially. They become available once the first node is created.
+.. note:: The keyframe ruler and icons\ [4]_ may be greyed out initially. They become available once the first node is created.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotoscoping_keyframes.webp
    :align: left
@@ -137,7 +137,7 @@ Using keyframes to make the region follow the action
 
    Using keyframes for Rotoscoping
 
-Move the position in the clip by dragging the playhead on the timeline (3) or by using the keyframe ruler [4]_ in the Rotoscope effect (2).
+Move the position in the clip by dragging the playhead on the timeline (3) or by using the keyframe ruler\ [4]_ in the Rotoscope effect (2).
 
 Click |keyframe-add|:guilabel:`Add keyframe` (5).
 

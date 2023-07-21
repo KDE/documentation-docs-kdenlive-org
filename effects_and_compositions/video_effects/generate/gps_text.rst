@@ -38,7 +38,7 @@ The effect does not have keyframes.
 
 * **GPS File** - The full path of file containing location (GPS) data. Supported extensions are ``.gpx`` and ``.tcx``.
 
-* **Time offset in seconds** - An offset to be added to the video file to match it to the GPS track. Most of the time this will at least need to be set to the timezone difference between the two files plus some seconds if the video recording device is not precisely set to the correct time. GPS time is always exact and in UTC [1]_. Use positive values if GPS is ahead of video, and negative otherwise.
+* **Time offset in seconds** - An offset to be added to the video file to match it to the GPS track. Most of the time this will at least need to be set to the timezone difference between the two files plus some seconds if the video recording device is not precisely set to the correct time. GPS time is always exact and in UTC\ [1]_. Use positive values if GPS is ahead of video, and negative otherwise.
 
 * **Smoothing level** - Determines how many GPS points to smooth in order to eliminate GPS errors. A value of 0 only exposes the raw values from the file. A value of 1 does not smooth locations, it only calculates the extra fields (speed, distance, etc) it also interpolates missing values for **heart rate** and **altitude**.
 

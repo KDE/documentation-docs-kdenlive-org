@@ -38,9 +38,9 @@ This effect has keyframes.
 
 * **Gamma** - Changes the overall brightness of the image. Affects only the mid-tones, black and white are not influenced. Range is 10 to 4000 (default is 1000, equivalent to Gamma 1.0). Lower values (moving the bar to the left) make the image darker, higher values (moving the bar to the right) make it brighter.
 
-* **Black output** - Opposite of Input level black [1]_
+* **Black output** - Opposite of Input level black\ [1]_
 
-* **White output** - Opposite of Input level white [1]_
+* **White output** - Opposite of Input level white\ [1]_
 
 .. rst-class:: clear_both
 

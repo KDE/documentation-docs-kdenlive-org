@@ -25,7 +25,7 @@ Hide a region of the clip by pixelizing it (obscure). The effect's pixelization 
 
    Obscure effect panel and results (default settings)
 
-Use the handles on the red rectangle [1]_ in the Project Monitor to change the size: use the center handle to move the rectangle around.
+Use the handles on the red rectangle\ [1]_ in the Project Monitor to change the size: use the center handle to move the rectangle around.
 
 .. rst-class:: clear-both
 

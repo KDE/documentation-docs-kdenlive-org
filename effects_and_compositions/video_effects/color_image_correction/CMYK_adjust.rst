@@ -12,7 +12,7 @@
 CMYK Adjust
 ===========
 
-This effect applies CMYK [1]_ adjustments to specific color ranges [2]_. The adjustment range is defined by the "purity" of the color (i.e. how saturated it already is).
+This effect applies CMYK\ [1]_ adjustments to specific color ranges\ [2]_. The adjustment range is defined by the "purity" of the color (i.e. how saturated it already is).
 
 This effect does not have keyframes.
 

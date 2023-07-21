@@ -24,7 +24,7 @@
 XBR Interpolator
 ================
 
-This effect/filter applies the xBR [1]_ high-quality magnification filter which is designed for pixel art. It follows a set of edge-detection rules. [2]_
+This effect/filter applies the xBR\ [1]_ high-quality magnification filter which is designed for pixel art. It follows a set of edge-detection rules.\ [2]_
 
 The effect does not have keyframes.
 

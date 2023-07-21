@@ -18,7 +18,7 @@
 Vibrance
 ========
 
-This effect/filter boosts or alters :term:`saturation`. The results from using the vibrance effect are different compared to the :ref:`effects-saturation` effect [1]_.
+This effect/filter boosts or alters :term:`saturation`. The results from using the vibrance effect are different compared to the :ref:`effects-saturation` effect\ [1]_.
 
 The effect does not have keyframes.
 

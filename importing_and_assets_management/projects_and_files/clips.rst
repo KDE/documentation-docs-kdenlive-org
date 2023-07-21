@@ -315,7 +315,7 @@ Analysis
    :align: left
    :alt: Kdenlive_Clip_properties_analysis
 
-You can view and delete motion vector data that is associated with the clip from here. This is data created by :ref:`motion_tracker`
+You can view and delete motion vector data that is associated with the clip from here. This is data created by :ref:`effects-motion_tracker`
 
 Button 1 Will delete the selected analysis data, Button 2 will allow you to export the data (semi colon delimited text file), Button 3 will allow you to import analysis data.
 

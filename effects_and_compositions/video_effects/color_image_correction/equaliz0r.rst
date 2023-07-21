@@ -18,7 +18,7 @@
 Equaliz0r
 =========
 
-This effect/filter equalizes the intensity histograms. Essentially, it tries to give each color the same intensity thus increasing the global contrast. [1]_
+This effect/filter equalizes the intensity histograms. Essentially, it tries to give each color the same intensity thus increasing the global contrast.\ [1]_
 
 The effect is a simple switch, and does not have keyframes.
 

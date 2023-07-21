@@ -55,7 +55,7 @@ The effect has keyframes.
 The following formats are available:
 
 * HH:MM:SS
-* HH;MM:SS.S
+* HH:MM:SS.S
 * MM:SS
 * MM:SS.SS
 * MM:SS.SSS

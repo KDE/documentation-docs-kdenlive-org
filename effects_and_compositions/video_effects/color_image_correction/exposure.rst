@@ -30,7 +30,7 @@ The effect does not have keyframes.
 
    Exposure effect
 
-* **Exposure** - Set the exposure correction in EV [1]_. Allowed values are from -3.0 to 3.0 EV, default is 0 EV.
+* **Exposure** - Set the exposure correction in EV\ [1]_. Allowed values are from -3.0 to 3.0 EV, default is 0 EV.
 
 * **Radius** - Set the black level correction. Allowed values are from -1.0 to 1.0, default is 0.
 

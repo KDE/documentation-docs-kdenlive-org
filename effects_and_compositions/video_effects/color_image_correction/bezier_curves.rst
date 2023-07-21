@@ -23,7 +23,7 @@
 Bezier Curves
 =============
 
-This effect [1]_ is used to adjust the color levels similar to the :ref:`effects-3_point_balance` but with finer control. Although the effect defaults to the RGB channel, it is mostly used with the Luma channel. See also the :ref:`effects-curves` effect that does the same thing but doesn't have the curve handles.
+This effect\ [1]_ is used to adjust the color levels similar to the :ref:`effects-3_point_balance` but with finer control. Although the effect defaults to the RGB channel, it is mostly used with the Luma channel. See also the :ref:`effects-curves` effect that does the same thing but doesn't have the curve handles.
 
 Adjusts luminance or color channel intensity with curve level mapping.
 

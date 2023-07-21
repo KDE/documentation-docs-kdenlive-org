@@ -13,7 +13,7 @@
 Alpha Gradient
 ==============
 
-Fill the alpha channel with a specified gradient (frei0r.alphagrad) [1]_. Its purpose is to enable, together with alpha controlled color manipulation, the use of graduated neutral-density filters similar to what one uses in photography [2]_.
+Fill the alpha channel with a specified gradient (frei0r.alphagrad)\ [1]_. Its purpose is to enable, together with alpha controlled color manipulation, the use of graduated neutral-density filters similar to what one uses in photography\ [2]_.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-alpha_gradient_before.webp
    :align: left

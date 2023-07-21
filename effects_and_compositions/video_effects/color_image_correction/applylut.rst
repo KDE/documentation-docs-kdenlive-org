@@ -27,7 +27,7 @@
 Apply LUT
 =========
 
-This effect applies a 3D Look Up Table (LUT) [1]_ to the clip. A LUT is an easy way to adjust the color tone of a video, and therefore is mostly used for color grading. It is important to note that if your clips do not match from clip to clip or shot to shot, is not properly exposed or not (yet) color corrected, that applying a LUT will not work the way one hoped it would.
+This effect applies a 3D Look Up Table (LUT)\ [1]_ to the clip. A LUT is an easy way to adjust the color tone of a video, and therefore is mostly used for color grading. It is important to note that if your clips do not match from clip to clip or shot to shot, is not properly exposed or not (yet) color corrected, that applying a LUT will not work the way one hoped it would.
 
 **Supported formats:**
 
@@ -101,53 +101,6 @@ Note that this example shows an individual video editing directory structure wit
 
 .. rst-class:: clear-both
 
-.. .. figure:: /images/image4.png
-   :width: 1200px
-   :alt: workflow-lut
-
-   Figure 2 - View of main menu.
-
-.. .. figure:: /images/image5.png
-   :width: 800px
-   :alt: workflow-lut
-
-   Figure 3 - Apply LUT
-
-.. 5. BALANCING – Adjusting color, for example col 3-point balance, you need to insert the effect above that of the LUT. This allows you to correct the image before it reaches the LUT, then obtaining homogeneous results with other clips.
-
-.. .. figure:: /images/image6.png
-   :width: 800px
-   :alt: workflow-lut
-
-   Figure 4 - Colour balance
-
-.. Manually adjust the clip
-   ========================
-
-   In addition to the LUT, other effects can be used to manually correct the colors
-
-   .. figure:: /images/image7.png
-   :width: 800px
-   :alt: workflow-lut
-
-   1. CHANGE OF SHADES – This allows, for example, to color the background in blue and the actor in orange, widely used in classic Hollywood postproduction setup. A faster but less detailed alternative is Hue shift, which shifts all shades towards red or blue.
-
-
-   .. figure:: /images/image20.png
-   :width: 800px
-   :alt: workflow-lut
-
-   2. SATURATION – After changing the coloration of the image, with one of the two effects that is presented, this allows saturate the color differently depending on the brightness by drawing a curve on the canal saturation.
-
-   .. figure:: /images/imagea.png
-   :width: 800px
-   :alt: workflow-lut
-
-   Before and After
-
-   .. figure:: /images/image1d.png
-   :width: 800px
-   :alt: workflow-lut
 
 Of course, you can add other effects from the *Color and Image Correction* category to further adjust or correct the colors. A good rule of thumb is "*less is more*".
 

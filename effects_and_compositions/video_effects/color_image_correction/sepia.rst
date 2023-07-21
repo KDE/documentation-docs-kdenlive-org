@@ -18,7 +18,7 @@
 Sepia
 =====
 
-This effect/filter turns clip colors to sepia [1]_.
+This effect/filter turns clip colors to sepia\ [1]_.
 
 The effect does not have keyframes.
 

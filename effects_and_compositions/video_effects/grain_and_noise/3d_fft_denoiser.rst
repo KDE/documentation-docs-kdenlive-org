@@ -20,7 +20,7 @@
 3D FFT Denoiser
 ===============
 
-This effect/filter denoises frames using 3D FFT (Fast Fourier Transform) frequency domain filtering [1]_.
+This effect/filter denoises frames using 3D FFT (Fast Fourier Transform) frequency domain filtering\ [1]_.
 
 The effect does not have keyframes.
 

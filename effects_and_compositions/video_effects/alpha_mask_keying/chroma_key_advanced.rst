@@ -15,7 +15,7 @@
 Chroma Key: Advanced
 ====================
 
-This effect is a more advanced version of the :ref:`Chroma Key: Basic <effects-chroma_key_basic>` effect. *Chroma Key: Advanced* [1]_ allows for some basic feathering (by changing the :guilabel:`Edge Mode`) and much more fine-grained control over how much and in which way you remove the background.
+This effect is a more advanced version of the :ref:`Chroma Key: Basic <effects-chroma_key_basic>` effect. *Chroma Key: Advanced*\ [1]_ allows for some basic feathering (by changing the :guilabel:`Edge Mode`) and much more fine-grained control over how much and in which way you remove the background.
 
 This is better for backgrounds that have less contrast with the foreground or for more complex backgrounds. For simple (uniform) backgrounds (such as green, blue, red or possibly black), use the :ref:`Chroma Key: Basic <effects-chroma_key_basic>` effect.
 
@@ -42,7 +42,7 @@ All Options
 :guilabel:`Invert selection`
    When ON (default), the selected color will be transparent. When OFF the selected color will be opaque. Keeping the selected color opaque may be more effective if the foreground is simple and the background is complicated.
 
-:guilabel:`Color Model` [2]_
+:guilabel:`Color Model`\ [2]_
    The options are: :guilabel:`RGB` (Red Green Blue), :guilabel:`ABI` and :guilabel:`HCI` (Hue Chromacity Intensity).
    These different options yield different results. While RGB should yield the sharpest and best results, sometimes the other options HCI and ABI can yield much better results than RGB. So if RGB isnt producing good results then try one of the other options.
 

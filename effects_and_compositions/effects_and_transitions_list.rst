@@ -12,7 +12,7 @@
              - Roger (https://userbase.kde.org/User:Roger)
              - ChristianW (https://userbase.kde.org/User:ChristianW)
              - Tenzen (https://userbase.kde.org/User:Tenzen)
-             _ Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -25,6 +25,7 @@ Alphabetical List of Effects and Compositions
 
 .. note::
    The effects and compositions included will differ depending on the available plug-ins on the specific packaging on each operating system. Kdenlive will auto-detect and make available any supported LADSPA plug-in packages from your distribution. For the greatest compatibility, please use the AppImage version of Kdenlive.
+
 
 .. list-table::  
    :class: table-wrap
@@ -1178,7 +1179,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Image Adjustment
      - Apply motion-compensation deinterlacing (avfilter.mcdeint)
-   * - :ref:`motion_tracker`
+   * - :ref:`effects-motion_tracker`
      - Video Effect
      - Alpha, Mask and Keying
      - Select a zone to follow its movements (opencv.tracker)

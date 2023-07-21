@@ -30,7 +30,7 @@ The effect has keyframes.
 
    RGB Adjustment effect
 
-* **Action:** - Set the action to be performed [1]_
+* **Action:** - Set the action to be performed\ [1]_
   - *Add constant* adds a fixed value between -150 and +150 (this is sometimes called "black level" or "setup").
   - *Change gamma* changes channel gamma between 0.3333 and 3.0.
   - *Multiply* multiplies channel with a value between 0.3333 and 3.0 (sometimes called "gain" or "contrast").

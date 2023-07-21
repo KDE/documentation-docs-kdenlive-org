@@ -18,7 +18,7 @@
 Technicolor
 ===========
 
-This effect/filter over-saturates the color in the video source and gives it the old Technicolor film appearance [1]_.
+This effect/filter over-saturates the color in the video source and gives it the old Technicolor film appearance\ [1]_.
 
 The effect has keyframes.
 

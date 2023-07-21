@@ -22,7 +22,7 @@ Alpha Operations
 
    Alpha Operations effect panel
 
-This effect can shrink, grow, threshold and invert the alpha channel. It is mainly intended to improve keying edges. It can also display the alpha channel in various ways to enable quick assessment of the effect. It is cascadable and thus allows a soft shrink first followed by threshold which gives a slightly different result than a hard shrink.  (frei0r.alpha0ps) [1]_
+This effect can shrink, grow, threshold and invert the alpha channel. It is mainly intended to improve keying edges. It can also display the alpha channel in various ways to enable quick assessment of the effect. It is cascadable and thus allows a soft shrink first followed by threshold which gives a slightly different result than a hard shrink.  (frei0r.alpha0ps)\ [1]_
 
 .. rst-class:: clear-both
 

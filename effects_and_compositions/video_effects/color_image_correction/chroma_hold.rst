@@ -25,7 +25,7 @@
 Chroma Hold
 ===========
 
-This effect [1]_ removes all color information for all colors except the selected one.
+This effect\ [1]_ removes all color information for all colors except the selected one.
 
 This effect has keyframes.
 
