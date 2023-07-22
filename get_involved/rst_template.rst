@@ -8,7 +8,9 @@
 
    :license: Creative Commons License SA 4.0
 
-..  This is a remark and only show up in the file itself
+.. This is a remark and only show up in the file itself
+
+.. metadata-placeholder: must be placed before :authors: and :license: to avoid i18n translation.
 
 
 .. _template:
@@ -44,9 +46,16 @@ Code quality
 
 After a command with .. next line must be indented by 3 blank spaces to make the below line is part of the command. The number of indent spaces must be always the same. 
 
+.. figures: Only use figures
+   :align: make it possible that you have text on the right site of the figure  
+   :with: restrict the figure size
+   :figwith: the caption get a line break after 250px
+   :alt: text which appears when the figure cannot be loaded
+
 .. figure:: /images/getting_started/kdenlive_add_last_clip.webp
    :align: left
-   :width: 450px 
+   :width: 250px 
+   :figwidth: 250px
    :alt: Optional text which appears when the picture is not found
       
    Description of the picture (caption or legend)
@@ -75,7 +84,7 @@ Images side by side
 Exponent
 2 :sup:`8` = 256
 
-This is a footnote [1]_ 
+This is a footnote\ [1]_ 
 
 This is a next footnote [#]_ 
 
@@ -155,10 +164,10 @@ Web page link open in the same window `KDE store <https://store.kde.org/browse?c
 #. It has two items too.
 
 
-.. [1] Text of footnote 1
+.. [1] Text of footnote 1. The backslash at the end of the word moves the footnote number closer to the text
 .. [#] Text of footnote 2
 
-Toctree (Toc = Table of Content) adds the content on the left side sidebar. Only needed if there are subfolders.
+Toctree (Toc = Table of Content) adds the content on the left-side sidebar. Only needed if there are subfolders.
 
 .. toctree::
    :hidden:
