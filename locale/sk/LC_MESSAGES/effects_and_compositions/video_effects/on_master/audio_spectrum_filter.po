@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-08 00:39+0000\n"
+"POT-Creation-Date: 2023-07-22 00:41+0000\n"
 "PO-Revision-Date: 2021-11-17 11:19+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -16,33 +16,139 @@ msgstr ""
 "X-Generator: Lokalize 21.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: ../../effects_and_compositions/video_effects/on_master/Audio_Spectrum_Filter.rst:1
-msgid "Effects in Kdenlive video editor"
-msgstr ""
-
-#: ../../effects_and_compositions/video_effects/on_master/Audio_Spectrum_Filter.rst:1
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:1
 msgid ""
-"KDE, Kdenlive, effects, audio filter, timeline, documentation, user manual, "
-"video editor, open source, free, learn, easy"
+"Do your first steps with Kdenlive video editor, using the audio spectrum "
+"filter effect"
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/on_master/Audio_Spectrum_Filter.rst:19
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:1
+msgid ""
+"KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
+"effects, on master, audio spectrum filter"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:21
 msgid "Audio Spectrum Filter"
 msgstr "Filter zvukového spektra"
 
-#: ../../effects_and_compositions/video_effects/on_master/Audio_Spectrum_Filter.rst:22
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:23
 msgid ""
-"This is the `audiospectrum <https://www.mltframework.org/plugins/"
-"FilterAudiospectrum/>`_ MLT filter."
+"This effect/filter is an audio visualization effect that draws an audio "
+"spectrum on the image."
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/on_master/Audio_Spectrum_Filter.rst:24
-msgid ""
-"It is a audio visualization filter that draws an audio spectrum on the image."
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:25
+msgid "The effect has keyframes."
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/on_master/Audio_Spectrum_Filter.rst:26
-msgid "This filter is keyframe-able."
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:34
+#, fuzzy
+#| msgid "Audio Spectrum Filter"
+msgid "Audio Spectrum Filter effect"
+msgstr "Filter zvukového spektra"
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:36
+msgid ""
+"**Graph type** - Select the type of graph to display the levels. Option are "
+"**Line** (default) and **Bar**."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:38
+msgid ""
+"**Fill** - If checked, fills the area under the graph. Only applies to :"
+"guilabel:`Graph type` **Line**."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:40
+msgid ""
+"**Mirror** - If checked, mirrors the spectrum on the center line of the "
+"rectangle"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:42
+msgid ""
+"**Reverse** - If checked, draws the points starting with the highest "
+"frequency"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:44
+msgid ""
+"**Window size** - The number of samples that the FFT\\ [1]_ will be "
+"performed on. If :guilabel:`Window size` is less than the number of samples "
+"in a frame, extra samples will be ignored. If :guilabel:`Window size` is "
+"more than the number of samples in a frame, samples will be buffered from "
+"previous frames to fill the window. The buffering is performed as a sliding "
+"window so that the most recent samples are always transformed."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:46
+msgid ""
+"**Background Color** - Defines the background color to be applied to the "
+"entire frame"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:48
+msgid "**Foreground color** - Defines the color of the waveform"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:50
+msgid ""
+"**Line Thickness** - Defines the thickness of the bar or line in number of "
+"pixels"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:52
+msgid "**Angle** - Defines the rotation angle to be applied to the waveform"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:54
+msgid ""
+"**X / Y / W / H / Size / Opacity** - Defines the X and Y coordinates, Width "
+"and Height, Size and Opacity of the rectangle in which the waveform is "
+"drawn. The icons help in lining up the rectangle."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:56
+msgid ""
+"**Line Tension** - Affects the amount of curve in the line interpolating "
+"between points. **0** draws a straight line between points; **100** draws "
+"very curved lines between points. Values below **0** and above **100** will "
+"cause loops in the lines. Only applies to :guilabel:`Graph type` **Line**."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:58
+msgid ""
+"**Points** - Defines the number of bands to draw in the spectrum. Each band "
+"shows up as a data point in the graph."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:63
+msgid ""
+"The effect is not updated in the Project Monitor during scrubbing. You need "
+"to play back the project to see this effect."
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:68
+msgid "**Example**"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:76
+#, fuzzy
+#| msgid "Audio Spectrum Filter"
+msgid "Example of the Audio Spectrum Filter effect"
+msgstr "Filter zvukového spektra"
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:78
+msgid ":guilabel:`Line Thickness` set to **4**"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:83
+msgid "**Notes**"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/on_master/audio_spectrum_filter.rst:85
+msgid "FFT := Fast Fourier Transform"
 msgstr ""
 
 #~ msgid "Contents"
