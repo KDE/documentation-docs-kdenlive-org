@@ -303,7 +303,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Misc
      - Apply Bilateral filter (avfilter.bilateral)
-   * - :ref:`binarize`
+   * - :ref:`effects-binarize`
      - Video Effect
      - Stylize
      - Make monochrome clip (threshold)
@@ -375,15 +375,15 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Generate
      - Create a video grid (frei0r.cairoimagegrid)
-   * - :ref:`cartoon`
+   * - :ref:`effects-cartoon`
      - Video Effect
      - Stylize
      - Cartoonify video, do a form of edge detect (frei0r.cartoon)
-   * - :ref:`cartoon`
+   * - :ref:`effects-contrast_adaptive_sharpen`
      - Video Effect
      - Misc
      - Contrast Adaptive Sharpen (avfilter.cas)
-   * - :ref:`charcoal_effect`
+   * - :ref:`effects-charcoal`
      - Video Effect
      - Stylize
      - Charcoal drawing effect (charcoal)
@@ -427,11 +427,11 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - Modifies a color channel by adding the values associated to the other channels of the same pixels (avfilter.colorchannelmixer)
-   * - :ref:`color_distance`
+   * - :ref:`effects-color_distance`
      - Video Effect
      - Stylize
      - Calculates the distance between the selected color and the current pixel and uses that value as a new pixel value (frei0r.colordistance)
-   * - :ref:`color_effect`
+   * - :ref:`effects-color_effect`
      - Video Effect
      - Stylize
      - Applies a pre-made color effect to image (frei0r.colortap)
@@ -711,7 +711,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Transform, Distort and Perspective
      - Trim the edges of a clip (crop)
-   * - :ref:`edge_glow`
+   * - :ref:`effects-edge_glow`
      - Video Effect
      - Stylize
      - Edge glow filter (frei0r.edgeglow)
@@ -887,9 +887,9 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Motion
      - Adds glitches and block shifting (frei0r.glitch0r)
-   * - :ref:`glow`
+   * - :ref:`effects-glow`
      - Video Effect
-     - Blur and Hide
+     - Stylize
      - Creates a Glamorous Glow (frei0r.glow)
    * - `Gong beater <https://www.mltframework.org/plugins/FilterLadspa-1439/>`_
      - Audio Effect
@@ -1199,7 +1199,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio Correction
      -
-   * - :ref:`ndvi_filter`
+   * - :ref:`effects-ndvi_filter`
      - Video Effect
      - Utility
      - This filter creates a false image from a visible + infrared source (frei0r.ndvi)
@@ -1303,7 +1303,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Stylize
      - Apply prewitt operator to input video stream (avfilter.prewitt)
-   * - :ref:`primaries`
+   * - :ref:`effects-primaries`
      - Video Effect
      - Stylize
      - Reduce image to primary colors (frei0r.primaries)
@@ -1351,7 +1351,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Deprecated
      - Adds RGB noise to image (frei0r.rgbnoise)
-   * - :ref:`rgbsplit0r`
+   * - :ref:`effects-rgbsplit0r`
      - Video Effect
      - Stylize
      - RGB splitter and shifting (frei0r.rgbsplit0r)
@@ -1487,7 +1487,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - misc
      -
-   * - :ref:`sigmoidaltransfer`
+   * - :ref:`effects-sigmoidal_transfer`
      - Video Effect
      - Stylize
      - Desaturates image and creates a particular look that could be called Stamp, Newspaper, or Photocopy (frei0r.sigmoidaltransfer)
@@ -1559,15 +1559,15 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1414)
-   * - :ref:`sobel`
+   * - :ref:`effects-sobel`
      - Video Effect
      - Stylize
      - Sobel filter (frei0r.sobel)
-   * - :ref:`sobel`
+   * - :ref:`effects-sobel_planes`
      - Video Effect
      - Stylize
      - Apply sobel operators to input video stream (avfilter.sobel)
-   * - :ref:`softglow`
+   * - :ref:`effects-soft_glow`
      - Video Effect
      - Stylize
      - Does softglow effect on highlights (frei0r.softglow)
@@ -1779,7 +1779,7 @@ Alphabetical List of Effects and Compositions
      - Compositions
      -
      - Uses Input 1 as a UV Map to distort Input 2 (frei0r.uvmap)
-   * - :ref:`threshold_effect`
+   * - :ref:`effects-threshold`
      - Video Effect
      - Stylize
      - Thresholds a source image (frei0r.threshold0r)

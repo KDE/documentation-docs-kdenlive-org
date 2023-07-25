@@ -1,24 +1,35 @@
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, using glow effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, glow
+
 .. metadata-placeholder
 
-   :authors: - Claus Christensen
-             - Yuri Chornoivan
-             - Ttguy (https://userbase.kde.org/User:Ttguy)
-             - Bushuev (https://userbase.kde.org/User:Bushuev)
-             - Roger (https://userbase.kde.org/User:Roger)
+   :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
-.. _glow:
+
+.. _effects-glow:
 
 Glow
 ====
 
+This effect/filter creates a glamorous glow by lightening the image and adding some blur around the edges.
 
-This is the `Frei0r glow <https://www.mltframework.org/plugins/FilterFrei0r-glow/>`_ MLT filter.
+The effect has keyframes.
 
-Creates a Glamorous Glow.
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-glow.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_effects-glow
 
-https://youtu.be/vh4lrkFaVWc
+   Glow effect
 
-https://youtu.be/UtBWFrYN9kA
+* **Blur** - Set the amount of blurriness on the edges. The higher the number the more blur is applied increasing the glow effect.
 
+
+.. https://youtu.be/vh4lrkFaVWc
+
+   https://youtu.be/UtBWFrYN9kA

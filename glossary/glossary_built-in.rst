@@ -234,6 +234,10 @@ Glossary
    Playhead
       The upside-down triangle in the timeline ruler. Indicates the (play) position in the timeline. During :ref:`3-point Editing<three_point_editing>` determines where a clip or clip zone will be added to the timeline. Drag it across to scrub the timeline.
 
+   Posterize
+   Posterization
+      Is the conversion of a continuous gradation of tone or color to several regions of fewer tones or color, causing abrupt changes from one tone or color to the other. The term comes from the process of creating posters. The effect is most visible when a JPEG image with millions of colors is converted to the GIF format with only 256 colors.
+
    Preset
       Used for :term:`rendering` to determine output format (container), codec, dimensions, aspect ratio, bit rate and various other parameters. See :ref:`render_profile_parameters`.
 
