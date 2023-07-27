@@ -1,23 +1,38 @@
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, using letterb0xed effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, letterb0xed
+
 .. metadata-placeholder
 
-   :authors: - Claus Christensen
-             - Yuri Chornoivan
-             - Ttguy (https://userbase.kde.org/User:Ttguy)
-             - Bushuev (https://userbase.kde.org/User:Bushuev)
+   :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
-.. _letterb0xed:
+
+.. _effects-letterb0xed:
 
 LetterB0xed
 ===========
 
+This filter/effect adds black borders at the top and bottom for this Cinema look.
 
-This is the `Frei0r letterb0xed <https://www.mltframework.org/plugins/FilterFrei0r-letterb0xed/>`_ MLT filter.
+The effect has keyframes.
 
-Adds Black Borders at top and bottom for Cinema Look.
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-letterb0xed.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_effects-letterb0xed
 
-https://youtu.be/9Ldjt0QZPzs
+   LetterB0xed effect
 
-https://youtu.be/JBp8wQW-_Qw
+* **Transparency** - Makes the black borders transparent
 
+* **Border Width** - Set the border width in pixel
+
+
+
+.. https://youtu.be/9Ldjt0QZPzs
+
+.. https://youtu.be/JBp8wQW-_Qw

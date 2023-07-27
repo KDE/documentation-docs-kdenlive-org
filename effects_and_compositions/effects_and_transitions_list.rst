@@ -527,7 +527,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Copy one audio channel to another (channelcopy)
-   * - :ref:`corners`
+   * - :ref:`effects-corners`
      - Video Effect
      - Transform, Distort and Perspective
      - Four corners geometry engine (frei0r.c0rners)
@@ -535,7 +535,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Transform, Distort and Perspective
      - This filter crops the image to a rounded rectangle or circle by padding it with a color (qtcrop)
-   * - :ref:`scale_and_tilt`
+   * - :ref:`effects-crop_scale_and_tilt`
      - Video Effect
      - Transform, Distort and Perspective
      - Scales, Tilts and Crops an Image (frei0r.scale0tilt)
@@ -603,7 +603,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Apply a de-essing to the audio (avfilter.deesser)
-   * - :ref:`defish`
+   * - :ref:`effects-defish`
      - Video Effect
      - Transform, Distort and Perspective
      - Non rectilinear lens mappings (frei0r.defish0r)
@@ -707,7 +707,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      -
-   * - :ref:`crop`
+   * - :ref:`effects-edge_crop`
      - Video Effect
      - Transform, Distort and Perspective
      - Trim the edges of a clip (crop)
@@ -1043,11 +1043,11 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - Process audio using LADSPA plugins (ladspa)
-   * - :ref:`lens_correction`
+   * - :ref:`effects-lens_correction_keyframable`
      - Video Effect
      - Transform, Distort and Perspective
      - Allow compensation of lens distortion (frei0r.lenscorrection)
-   * - :ref:`lens_correction`
+   * - :ref:`effects-lens_correction`
      - Video Effect
      - Transform, Distort and Perspective
      - Correct radial lens distortion (avfilter.lenscorrection)
@@ -1055,7 +1055,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - misc
      -
-   * - :ref:`letterb0xed`
+   * - :ref:`effects-letterb0xed`
      - Video Effect
      - Transform, Distort and Perspective
      - Adds black borders at the top and bottom for cinema look (frei0r.letterb0xed)
@@ -1151,7 +1151,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Deprecated
      - Implements several median-type filters (frei0r.medians)
-   * - :ref:`mirror_effect`
+   * - :ref:`effects-mirror`
      - Video Effect
      - Transform, Distort and Perspective
      - Flip your image in any direction (mirror)
@@ -1275,7 +1275,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1193)
-   * - :ref:`pixelize`
+   * - :ref:`effects-pixelize`
      - Video Effect
      - Stylize
      - Pixelize input image (frei0r.pixeliz0r)
@@ -1287,7 +1287,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1910)
-   * - :ref:`pan_and_zoom`
+   * - :ref:`effects-position_and_zoom`
      - Video Effect
      - Transform, Distort and Perspective
      - Adjust size and position of clip (affine)
@@ -1367,11 +1367,11 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Stylize
      - Apply roberts cross operator to input video stream (avfilter.roberts)
-   * - :ref:`rotate_(keyframable)`
+   * - :ref:`effects-rotate_keyframable`
      - Video Effect
      - Transform, Distort and Perspective
      - Rotate clip in any 3 directions (affine)
-   * - :ref:`rotate_and_shear`
+   * - :ref:`effects-rotate_and_shear`
      - Video Effect
      - Transform, Distort and Perspective
      - Rotate clip in any 3 directions (affine)
@@ -1803,11 +1803,11 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Misc
      - VAAPI VPP for tone-mapping (avfilter.tonemap_vaapi)
-   * - :ref:`transform`
+   * - :ref:`effects-transform`
      - Video Effect
      - Transform, Distort and Perspective
      - Position, Scale and opacity, (qtblend)
-   * - :ref:`transform`
+   * - Transform
      - Compositions
      -
      - Perform an affine transform on for compositing (affine)

@@ -16,7 +16,7 @@
 Binarize Dynamically
 ====================
 
-This effect/filter create a black and white image through dynamic thresholding.
+This effect/filter creates a black and white image through dynamic thresholding.
 
 This effect works like a switch and does not have keyframes.
 
