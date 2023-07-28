@@ -29,18 +29,18 @@ The effect does not have keyframes.
 
 * **Red Horizontal shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
 
-* **Red Vertical shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
+* **Red Vertical shift** - Set amount to shift red vertically. Positive values shift up, negative values shift down.
 
 * **Green Horizontal shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
 
-* **Green Vertical shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
+* **Green Vertical shift** - Set amount to shift red vertically. Positive values shift up, negative values shift down.
 
 * **Blue Horizontal shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
 
-* **Blue Vertical shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
+* **Blue Vertical shift** - Set amount to shift red vertically. Positive values shift up, negative values shift down.
 
 * **Alpha Horizontal shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
 
-* **Alpha Vertical shift** - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
+* **Alpha Vertical shift** - Set amount to shift red vertically. Positive values shift up, negative values shift down.
 
 * **Edge operation** - Set edge mode. Options are **Smear** (default; shifted pixel leave a trail), and **Wrap** (shifted pixels wrap around the image and appear on the opposite side)
