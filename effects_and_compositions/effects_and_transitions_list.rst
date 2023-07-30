@@ -1227,7 +1227,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - Normalize RGB video (aka histogram stretching, contrast stretching). See: https://en.wikipedia.org/wiki/Normalization_(image_processing) (avfilter.normalize)
-   * - :ref:`nosync0r`
+   * - :ref:`effects-nosync0r`
      - Video Effect
      - Transform, Distort and Perspective
      - Broken TV (frei0r.nosync0r)
@@ -1239,11 +1239,11 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Stylize
      - Moves the Picture up and down and random brightness change (oldfilm)
-   * - :ref:`oscilloscope`
+   * - :ref:`effects-oscilloscope_advanced`
      - Video Effect
      - Utility
      - 2D video oscilloscope (frei0r.pr0file)
-   * - :ref:`oscilloscope`
+   * - :ref:`effects-oscilloscope`
      - Video Effect
      - Utility
      - 2D Video Oscilloscope (avfilter.oscilloscope)
@@ -1859,11 +1859,11 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1209)
-   * - :ref:`vectorscope_MLT`
+   * - :ref:`effects-vectorscope`
      - Video Effect
      - Utility
      - Display a vectorscope of the video data (frei0r.vectorscope)
-   * - :ref:`vectorscope`
+   * - :ref:`effects-vectorscope_advanced`
      - Video Effect
      - Utility
      - Display 2 color component values in the two dimensional graph (which is called a vectorscope) (avfilter.vectorscope)
@@ -1883,7 +1883,7 @@ Alphabetical List of Effects and Compositions
      - Transition
      -
      - This performs the PSNR and SSIm video quality measurements by comparing the B frames to the reference frame A. It outputs the numbers to stdout in space-delimited format for easy use by another tool. The bottom half of the B frame is placed below the top half of the A frame for visual comparison (vqm)
-   * - :ref:`video_values`
+   * - :ref:`effects-video_values`
      - Video Effect
      - Utility
      - Measure video values (frei0r.pr0be)

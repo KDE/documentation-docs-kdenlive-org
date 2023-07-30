@@ -325,6 +325,8 @@ The histograms have the luminance on the horizontal axis going from 0 on the lef
 
 For more information read the :ref:`How the Histogram Works <histogram_working>` section in the :ref:`Glossary`.
 
+See also the :ref:`effects-histogram` video effect.
+
 .. attention::
 
    :ref:`scopes_directx` 
@@ -458,6 +460,8 @@ The RGB Parade :term:`widget` displays a histogram of the RGB components of the 
 The horizontal axis represents the timeline in the video frame. The vertical axis is the pixel luminance from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this luminance in this column of pixels in the video frame.
 
 More details including a more thorough explanation is available in the :ref:`RGB Parade <waveform_and_RGB_parade>` section in the :ref:`Glossary`.
+
+See also the :ref:`effects-rgb_parade` video effect.
 
 .. rst-class:: clear-both
 
@@ -621,7 +625,7 @@ There may be times when you want to quickly restore your project to the state it
 .. rst-class:: clear-both
 
 
-.. _vectorscope:
+.. _view-vectorscope:
 
 Vectorscope
 -----------
@@ -638,6 +642,8 @@ Switches the Vectorscope :term:`widget` on or off.
 The Vectorscope :term:`widget` allows you to monitor the colour properties of your clip in detail.
 
 More details are available in the :ref:`Vectorscope <vectorscope_working>` and :ref:`What the I and O Lines are Good for <vectorscope_i-q_lines>` sections of this documentation.
+
+See also the :ref:`effects-vectorscope` and :ref:`effects-vectorscope_advanced` video effects.
 
 .. rst-class:: clear-both
 
@@ -659,3 +665,5 @@ Switches the Waveform :term:`widget` on or off.
 Contrary to what its name might suggest the Waveform :term:`widget` is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the `RGB Parade`_. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel :term:`luma` from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this :term:`luma` in this column of pixels in the video frame.
 
 More details are available in the :ref:`Waveform <waveform_and_RGB_parade>` section in the :ref:`Glossary`.
+
+See also the :ref:`effects-video_waveform_monitor` video effect.
