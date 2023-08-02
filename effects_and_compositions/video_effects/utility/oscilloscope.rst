@@ -16,7 +16,7 @@
 Oscilloscope
 ============
 
-This effect/filter creates a 2D video oscilloscope overlay. Useful to measure spatial impulse, step responses, chroma delays, etc.
+This effect/filter creates a 2D video oscilloscope overlay. Useful to measure spatial impulse, step responses, chroma delays, etc. If you need more parameters to control, use the :ref:`effects-oscilloscope_advanced` effect.
 
 The effect does not have keyframes.
 
