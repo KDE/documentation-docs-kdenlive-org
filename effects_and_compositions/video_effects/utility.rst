@@ -20,6 +20,8 @@ Utility
 
 The *Utility* effects category contains useful effects/tools for getting information about your video material rather than manipulating the imagery. The exception is :ref:`effects-timeout_indicator` - it can be used to add countdown or count-up indicator to your video.
 
+The following effects and filters are available:
+
 .. toctree::
    :maxdepth: 1
    :glob:

@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, color and image correction effect category
+   :description: Do your first steps with Kdenlive video editor, color and image correction video effects category
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color correction, image correction
 
 .. metadata-placeholder
@@ -33,4 +33,3 @@ The following effects and filters are available:
    :glob:
 
    color_image_correction/*
-
