@@ -37,4 +37,4 @@ The effect has keyframes.
 
 * **FOV** - Field of View (the wider the angle the wider/zoomed out the view)
 
-* **Amount**
+* **Amount** - Determines the amount of stereographic projection to mix in. Range is from 0% (standard rectilinear projection ) to 100% (full stereographic projection)
