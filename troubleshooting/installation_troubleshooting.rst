@@ -48,9 +48,11 @@ Missing MLT module
 
 An MLT dependency is missing and it is required to install it.
 
-**SDL** is used to output audio. Install `libsdl 1.x` from your package manager.
+- **SDL** is used to output audio. Install `libsdl 1.x` from your package manager.
 
-**Avformat** is the FFmpeg module. Make sure you have ffmpeg installed on your system.
+- **Avformat** is the FFmpeg module. Make sure you have ffmpeg installed on your system.
+
+- **XML**: Make sure libxml2 is installed. On Windows, ensure that no conflicting libxml2.dll is placed in `C:\Windows\System32` or comparable folders. If you find a `libxml2.dll` there, try to rename it to `libxml2.old.dll` and then to restart kdenlive. Note that renaming libxml2.dll in System32 may break whichever other app has put libxml2.dll there.
 
 The following codecs were not found on your system…
 ----------------------------------------------------
