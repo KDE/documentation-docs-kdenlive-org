@@ -17,7 +17,7 @@ Vectorscope
 
 This effect/filter draws and overlays a vectorscope of the video data.
 
-This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` because the Effect version writes the vectorscope into the ouput video, whereas the View Menu version displays the vectorscope in a separate widget while you still can preview your project.
+This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` because the Effect version writes the vectorscope into the output video, whereas the View Menu version displays the vectorscope in a separate widget while you still can preview your project.
 
 The effect works like a switch and does not have any parameters nor keyframes. Compare with the :ref:`effects-vectorscope_advanced` effect.
 
