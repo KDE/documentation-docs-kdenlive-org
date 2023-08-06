@@ -9,7 +9,7 @@ Kdenlive documentation based on [Sphinx](https://www.sphinx-doc.org)
 
 1. First you need to install [python3](https://www.python.org) and PIP as it is required to install sphinx.
 2. You can check whether python was installed successfully (and your version is 3 and not 2) by running `python --version`
-3. Now you can sphinx and the sphinx theme we are using with `python3 -m pip install --upgrade sphinx sphinx_rtd_theme`
+3. Now you can install sphinx, the sphinx theme and extensions we are using with `python3 -m pip install --upgrade sphinx sphinx_rtd_theme sphinxcontrib-video`
 4. You can check whether sphinx was installed successfully by running `sphinx-build --version`
 
 ## Running sphinx
