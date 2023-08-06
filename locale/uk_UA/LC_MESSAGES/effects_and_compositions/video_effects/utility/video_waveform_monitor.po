@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-03 00:39+0000\n"
-"PO-Revision-Date: 2023-08-03 14:59+0300\n"
+"PO-Revision-Date: 2023-08-04 22:20+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -44,6 +44,9 @@ msgid ""
 "only. Each column of the waveform corresponds to a column of pixels in the "
 "source video."
 msgstr ""
+"Цей ефект або фільтр малює інтенсивність компонента кольору. Типово, буде"
+" намальовано лише освітленість. Кожен стовпчик форми хвилі відповідає"
+" стовпчику пікселів у початковому відео."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:25
 msgid "The effect does not have keyframes."
@@ -60,6 +63,11 @@ msgid ""
 "represents value = 255. In column mode, the top side represents color "
 "component value = 0 and bottom side represents value = 255."
 msgstr ""
+"**Режим** — виберіть між **Рядок** і **Стовпчик** (типовий). У режимі рядків"
+" значення на графіку у лівій частині відповідає значенню компоненти кольору"
+" 0, а значення на правому краю значенню = 255. У режимі стовпчика верхній"
+" край відповідає значенню компонента кольору = 0, а на нижньому краю —"
+" значенню = 255."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:37
 msgid ""
@@ -67,6 +75,10 @@ msgid ""
 "many values of the same luminance are distributed across input rows/columns. "
 "Default value is 0.04. Allowed range is [0, 1]."
 msgstr ""
+"**Інтенсивність** — встановлює інтенсивність. Менші значення корисні для"
+" визначення того, скільки значень із однаковою освітленістю розподілено між"
+" вхідними рядками або стовпчиками. Типовим є значення 0.04. Дозволений"
+" діапазон значень — [0; 1]."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:39
 msgid ""
@@ -74,47 +86,61 @@ msgid ""
 "represented on the left side for row mode and at the top for column mode. "
 "Default is **Off**."
 msgstr ""
+"**Віддзеркалити** — встановлює режим віддзеркалення. У віддзеркаленому"
+" режимі вищі значення буде представлено на лівому краю для режиму рядків і"
+" нагорі у режимі стовпчиків. Типовим значенням є **вимкнено**."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:43
 msgid "**Display** - Set display mode. See options below."
-msgstr ""
+msgstr "**Показ** — встановлює режим показу. Варіанти наведено нижче."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:45
 msgid ""
 "**Components** - Set which color components to display. See options below"
 msgstr ""
+"**Компоненти** — встановлює, які компоненти кольору слід показати. Варіанти"
+" наведено нижче"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:47
 msgid "**Envelope** - Set envelope. See options below."
-msgstr ""
+msgstr "**Обгортка** — встановлює обгортку. Варіанти наведено нижче."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:49
 msgid "**Filter** - Set the filter to apply. See options below."
 msgstr ""
+"**Фільтр** — встановлює фільтр, який слід застосувати. Варіанти наведено"
+" нижче."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:51
 msgid "**Graticule** - Select which graticule to display. See options below."
 msgstr ""
+"**Координатна сітка** — визначає, яку координатну сітку слід показати."
+" Варіанти наведено нижче."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:53
 msgid "**Graticule Opacity** - Set graticule opacity"
-msgstr ""
+msgstr "**Непрозорість сітки** — встановлює непрозорість координатної сітки"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:55
 msgid ""
 "**Flags** - Set graticule flags. Options are **numbers** (default; draw "
 "numbers above lines) and **dots** (draw dots instead of lines)"
 msgstr ""
+"**Прапорці** — встановлює прапорці координатної сітки. Можливі варіанти:"
+" **числа** (типовий; малювати числа над лініями) і **крапки** (малювати"
+" крапки замість ліній )"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:57
 msgid ""
 "**Scale** - Set scale used for displaying graticule. Options are **digital** "
 "(default), **millivolts** and **ire**"
 msgstr ""
+"**Шкала** — встановлю шкалу для показу координатної сітки. Можливі варіанти"
+" **цифрова** (типовий), **мілівольти** і **ire**"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:59
 msgid "**Background Opacity** - Set background opacity"
-msgstr ""
+msgstr "**Непрозорість тла** — встановлює непрозорість тла"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:63
 msgid "Parameter Options"
@@ -152,6 +178,11 @@ msgid ""
 "similarities in overlapping areas of the color components that are supposed "
 "to be identical, such as neutral whites, grays, or blacks."
 msgstr ""
+"Передставляє ті самі дані, що і **parade**, але графіки, що відповідають"
+" компонентам кольору буде накладено один на одний. У цьому режимі показу"
+" простіше слідкувати за відносними різницями або подібностями у перекритих"
+" ділянках компонентів кольору, які здаються однаковими, зокрема нейтральними"
+" білими, сірими або чорними кольорами."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:73
 msgid "**stack** (default)"
@@ -162,6 +193,8 @@ msgid ""
 "Display separate graph for the color components side by side in row mode or "
 "one below the other in column mode."
 msgstr ""
+"Показати окремі графіки для компонентів кольору поряд один з одним у режимі"
+" рядків і один під одним у режимі стовпчиків."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:75
 msgid "**parade**"
@@ -178,6 +211,15 @@ msgid ""
 "roughly equal width/height. If not, the correction is easy to perform by "
 "making level adjustments to the three waveforms."
 msgstr ""
+"Показати окремі графіки для компонентів кольору поряд один із одним у режимі"
+" стовпчиків або один під одним у режимі рядків. За допомогою цього режиму"
+" показу простіше виявляти викиди кольорів у виблисках та тінях на"
+" зображенні, порівнюючи контури верхнього і нижнього графіків для кожної"
+" форми хвилі. Оскільки білі, сірі і чорні кольори характеризуються"
+" однаковими значенням для червоного, зеленого і синього компонентів,"
+" нейтральні ділянки зображення повинні мати приблизно рівні ширини або"
+" висоти. Якщо це не так, можна легко усе виправити коригуванням рівні для"
+" цих трьох форм хвилі."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:78
 msgid "Components"
@@ -261,6 +303,8 @@ msgid ""
 "Instant envelope, minimum and maximum values presented in graph will be "
 "easily visible even with small step value."
 msgstr ""
+"Миттєва обгортка, мінімальне і максимальне значення, які представлено на"
+" графіку, будуть видимими навіть за малого значення кроку."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:111
 msgid "**peak**"
@@ -271,14 +315,17 @@ msgid ""
 "Hold minimum and maximum values presented in graph across time. This way you "
 "can still spot out of range values without constantly looking at waveforms."
 msgstr ""
+"Утримувати мінімальне і максимальне значення на графіку з плином часу. У"
+" такий спосіб ви зможете стежити за діапазоном значень без постійного"
+" спостереження за формами хвилі."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:113
 msgid "**peak+instant**"
-msgstr ""
+msgstr "**peak+instant**"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:114
 msgid "Peak and instant envelope combined together"
-msgstr ""
+msgstr "Поєднання пікової і миттєвої обгортки"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:116
 msgid "Filter"
@@ -298,7 +345,7 @@ msgstr "**flat**"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:126
 msgid ":term:`Luma` and :term:`chroma` combined together"
-msgstr ""
+msgstr "Поєднання :term:`Luma` і :term:`chroma`"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:127
 msgid "**aflat**"
@@ -307,6 +354,8 @@ msgstr "**aflat**"
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:128
 msgid "Similar as above, but shows difference between blue and red chroma."
 msgstr ""
+"Подібне до попереднього пункту, але показує різницю між синьою і червоною"
+" колірністю."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:129
 msgid "**xflat**"
@@ -314,7 +363,7 @@ msgstr "**xflat**"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:130
 msgid "Similar as above, but use different colors."
-msgstr ""
+msgstr "Подібне до попереднього пункту, але з використанням інших кольорів."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:131
 msgid "**yflat**"
@@ -323,6 +372,7 @@ msgstr "**yflat**"
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:132
 msgid "Similar as above, but again with different colors."
 msgstr ""
+"Подібне до попереднього пункту, але знову з використанням інших кольорів."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:133
 msgid "**chroma**"
@@ -330,7 +380,7 @@ msgstr "**chroma**"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:134
 msgid "Displays only chroma"
-msgstr ""
+msgstr "Показує лише колірність"
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:135
 msgid "**color**"
@@ -347,6 +397,8 @@ msgstr "**acolor**"
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:138
 msgid "Similar as above, but with luma showing frequency of chroma values."
 msgstr ""
+"Те саме, що і попереднє, але із освітленістю показує частоту значень"
+" колірності."
 
 #: ../../effects_and_compositions/video_effects/utility/video_waveform_monitor.rst:140
 msgid "Graticule"
