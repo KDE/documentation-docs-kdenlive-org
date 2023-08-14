@@ -1,0 +1,374 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Paolo Zamponi <feus73@gmail.com>, 2022, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-24 07:24+0000\n"
+"PO-Revision-Date: 2023-07-25 21:40+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:24
+msgid "Motion Tracker"
+msgstr "Tracciatore di movimento"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:27
+msgid ""
+"Motion tracking is the process of locating a moving object across time. "
+"Kdenlive uses |OpenCV|\\ [1]_ for motion detection. The results of this "
+"effect can be used in other effects by copying the keyframe data generated "
+"by the Motion Tracker as position keyframes in the Transform effect, for "
+"example."
+msgstr ""
+"Il tracciamento è il processo per localizzare nel tempo un oggetto in "
+"movimento. Per rilevare il movimento Kdenlive utilizza |OpenCV|\\ [1]_. Il "
+"risultato di questo effetto può essere usato in un altro copiando i dati dei "
+"fotogrammi chiave generati dal tracciatore di movimento, ad esempio la "
+"posizione dei fotogrammi chiave nell'effetto Trasforma."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:33
+msgid "Motion Tracker effect panel"
+msgstr "Il pannello degli effetti del tracciatore di movimento"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:38
+msgid "How to track a region of a video?"
+msgstr "Come tracciare una regione di un video?"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:40
+msgid "The basic workflow for tracking a region is:"
+msgstr "Il flusso di lavoro di base per tracciare una regione consiste in:"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:47
+msgid "Tracking the face of the model"
+msgstr "Il tracciamento del volto del modello"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:49
+msgid "Apply the effect to a clip"
+msgstr "Applicare l'effetto a una clip"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:50
+msgid "Select the desired region\\ [2]_ to track on the Project Monitor"
+msgstr ""
+"Seleziona la regione desiderata da tracciare\\ [2]_ nel Controllo del "
+"progetto"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:51
+msgid "Choose a tracking algorithm"
+msgstr "Scegli un algoritmo di tracciamento"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:52
+msgid "Click on the :guilabel:`Analyse` button"
+msgstr "Fai cli sul pulsante :guilabel:`Analizza`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:61
+msgid "Options menu"
+msgstr "Il menu Opzioni"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:63
+msgid ""
+"When the analysis is done you can export the keyframes to the clipboard by "
+"clicking on |application-menu| and choose :guilabel:`Copy all keyframes to "
+"clipboard`. See also :ref:`Exchanging keyframes <effects-"
+"exchange_keyframes>`."
+msgstr ""
+"Quando l'analisi è finita puoi esportare i fotogrammi chiave negli appunti, "
+"facendo clic su |application-menu| e scegliendo :menuselection:`Copia tutti "
+"i fotogrammi chiave negli appunti`. Vedi anche :ref:`Scambiare i fotogrammi "
+"chiave <effects-exchange_keyframes>`."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:69
+msgid "Tracking algorithms"
+msgstr "Algoritmi di tracciamento"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:72
+msgid "KCF"
+msgstr "KCF"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:74
+msgid "**Kernelized Correlation Filters**"
+msgstr "**Kernelized Correlation Filters**"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:76
+msgid ""
+"**Pros:** Accuracy and speed are both better than MIL and it reports "
+"tracking failure better than MIL."
+msgstr ""
+"**Pro:** l'accuratezza e la velocità sono entrambe migliori rispetto a MIL, "
+"così come la segnalazione degli insuccessi di tracciamento."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:78
+msgid "**Cons:** Does not recover from full occlusion."
+msgstr "**Contro:** non riprende da un'occlusione completa."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:82
+msgid "CSRT"
+msgstr "CSRT"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:84
+msgid ""
+"In the Discriminative Correlation Filter with Channel and Spatial "
+"Reliability (DCF-CSR), we use the spatial reliability map for adjusting the "
+"filter support to the part of the selected region from the frame for "
+"tracking. This ensures enlarging and localization of the selected region and "
+"improved tracking of the non-rectangular regions or objects. It uses only 2 "
+"standard features (HoGs and Colornames). It also operates at a comparatively "
+"lower fps (25 fps) but gives higher accuracy for object tracking."
+msgstr ""
+"Nella Discriminative Correlation Filter with Channel and Spatial Reliability "
+"(DCF-CSR) utilizziamo la mappa di affidabilità spaziale per la regolazione "
+"al supporto del filtro alla parte della regione selezionata del fotogramma "
+"per il monitoraggio. Ciò garantisce l'ingrandimento e la localizzazione "
+"della regione selezionata e il monitoraggio migliorato delle regioni o degli "
+"oggetti non rettangolari. Utilizza solo 2 funzioni standard (HoGs e "
+"Colornames). Funziona anche a fps relativamente inferiori (25 fps), ma offre "
+"una maggiore precisione al monitoraggio dell'oggetto."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:88
+msgid "MOSSE"
+msgstr "MOSSE"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:90
+msgid "**Minimum Output Sum of Squared Error**"
+msgstr "**Minimum Output Sum of Squared Error**"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:92
+msgid ""
+"MOSSE uses an adaptive correlation for object tracking which produces stable "
+"correlation filters when initialized using a single frame. MOSSE tracker is "
+"robust to variations in lighting, scale, pose, and non-rigid deformations. "
+"It also detects occlusion based upon the peak-to-sidelobe ratio, which "
+"enables the tracker to pause and resume where it left off when the object "
+"reappears. MOSSE tracker also operates at a higher fps (450 fps and even "
+"more)."
+msgstr ""
+"MOSSE utilizza una correlazione adattiva per il monitoraggio dell'oggetto, "
+"che produce dei filtri di correlazione stabili quando vengono inizializzati "
+"utilizzando un singolo fotogramma. Il tracciatore MOSSE è robusto alle "
+"variazioni di illuminazione, di scala, di posa e alle deformazioni non "
+"rigide. Rileva anche l'occlusione in base al rapporto di picco-lobi "
+"laterali, che gli consente di mettere in pausa e riprendere da dove si è "
+"interrotta quando l'oggetto riappare. Il tracciatore MOSSE funziona anche a "
+"fps più alto (450 fps e più)."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:94
+msgid "**Pros:** It is as accurate as other complex trackers and much faster."
+msgstr ""
+"**Pro:** è preciso come gli altri tracciatori complessi, ma molto più veloce."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:96
+msgid ""
+"**Cons:** On a performance scale, it lags behind the deep learning based "
+"trackers."
+msgstr ""
+"**Contro:** per quanto riguarda le prestazioni, è in ritardo rispetto ai "
+"tracciatori basati sul deep learning."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:100
+msgid "MIL"
+msgstr "MIL"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:102
+msgid ""
+"**Pros:** The performance is pretty good. It does a reasonable job under "
+"partial occlusion."
+msgstr ""
+"**Pro:** le prestazioni sono abbastanza buone. Compie un lavoro ragionevole "
+"in caso di occlusione parziale."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:104
+msgid ""
+"**Cons:** Tracking failure is not reported reliably. Does not recover from "
+"full occlusion."
+msgstr ""
+"**Contro:** gli insuccessi di tracciamento non sono segnalati in modo "
+"affidabile. Non riprende dalla piena occlusione."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:108
+msgid "MedianFlow"
+msgstr "MedianFlow"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:110
+msgid ""
+"**Pros:** Excellent tracking failure reporting. Works very well when the "
+"motion is predictable and there is no occlusion."
+msgstr ""
+"**Pro:** segnalazione degli insuccessi di tracciamento eccellente. Funziona "
+"molto bene quando il movimento è prevedibile e non c'è occlusione."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:112
+msgid "**Cons:** Fails under large motion."
+msgstr "**Contro:** insuccesso in caso di movimento ampio."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:116
+msgid "DaSiam"
+msgstr "DaSiam"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:118
+msgid ""
+"The |DaSiamRPN| visual tracking algorithm relies on deep-learning models to "
+"provide extremely accurate results."
+msgstr ""
+"L'algoritmo di tracciamento visivo |DaSiamRPN| si basa su modelli di deep "
+"learning per fornire dei risultati estremamente accurati."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:120
+msgid "In order to use the DaSiam algorithm you need to download the AI models"
+msgstr ""
+"Per poter utilizzare l'algoritmo DaSiam devi scaricare i modelli di "
+"intelligenza artificiale"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:122
+msgid ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_kernel_cls1.onnx`"
+msgstr ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_kernel_cls1.onnx`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:123
+msgid ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_kernel_r1.onnx`"
+msgstr ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_kernel_r1.onnx`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:124
+msgid ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_model.onnx`"
+msgstr ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+"dasiamrpn_model.onnx`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:126
+msgid "and place them in:"
+msgstr "e metterli in:"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:128
+msgid "**Linux**"
+msgstr "**Linux**"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:130
+msgid ":file:`$HOME/.local/share/kdenlive/opencvmodels`"
+msgstr ":file:`$HOME/.local/share/kdenlive/opencvmodels`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:132
+msgid "Flatpak"
+msgstr "Flatpak"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:134
+msgid ":file:`$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels`"
+msgstr ":file:`$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:136
+msgid "**Windows**"
+msgstr "**Windows**"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:138
+msgid ":file:`%AppData%/kdenlive/opencvmodels`"
+msgstr ":file:`%AppData%/kdenlive/opencvmodels`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:140
+msgid ""
+"Press :kbd:`Win+R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and "
+"copy **%AppData%/kdenlive/**. Then create the folder `opencvmodels`"
+msgstr ""
+"Premi :kbd:`Win+R` (il tasto :kbd:`Windows` e :kbd:`R` contemporaneamente) e "
+"copia **%AppData%/kdenlive/**. Crea quindi la cartella `opencvmodels`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:144
+msgid "Frame shape"
+msgstr "Forma dei fotogrammi"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:146
+msgid ""
+"Select from Rectangle (default), Ellipse or Arrow. Choosing the right shape "
+"can make the tracking better."
+msgstr ""
+"Seleziona tra Rettangolo (la predefinita), Ellisse o Freccia: la scelta "
+"della forma giusta rende migliore il tracciamento."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:150
+msgid "Shape color"
+msgstr "Colore della forma"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:152
+msgid ""
+"Select a color that makes the shape easier to see in the Project Monitor. "
+"Has no effect on the tracking."
+msgstr ""
+"Seleziona il colore che rende meglio visibile la forma nel Controllo del "
+"progetto. Non ha effetto sul tracciamento."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:156
+msgid "Blur type"
+msgstr "Tipo di sfocatura"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:162
+msgid "Different blur types in action"
+msgstr "Diversi tipi di sfocatura in azione"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:164
+msgid ""
+"Four blur types are available: Median blur, Gaussian blur, Pixelate, Opaque "
+"fill"
+msgstr ""
+"Sono disponibili quattro tipi di sfocatura: Sfocatura mediana,Sfocatura "
+"gaussiana,Pixelato,Riempimento opaco"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:167
+msgid "**Notes**"
+msgstr "**Note**"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:169
+msgid ""
+"If you want to build Kdenlive yourself you need to build MLT with OpenCV "
+"support. See here for |more_info|."
+msgstr ""
+"Se vuoi compilarti Kdenlive devi compilare MLT col supporto a OpenCV. Per |"
+"more_info| vedi qui."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:171
+msgid ""
+"If you see just a red rectangle in the Project Monitor but cannot move or "
+"size it enable Edit Mode by clicking on the |edit-mode| icon in the Project "
+"Monitor toolbar"
+msgstr ""
+"Se nel Controllo del progetto vedi solo un rettangolo rosso ma non riesci a "
+"spostarlo o a ridimensionarlo, attiva la modalità di modifica facendo clic "
+"sull'icona |edit-mode| nella barra degli strumenti del Controllo del "
+"progetto."
+
+#~ msgid "What is Motion Tracking?"
+#~ msgstr "Che cos'è il tracciamento di movimento?"
+
+#~ msgid ""
+#~ "Motion tracking is the process of locating a moving object across time. "
+#~ "Kdenlive uses `OpenCV (Open Source Computer Vision Library) <https://"
+#~ "opencv.org/about/>`_ for motion detection."
+#~ msgstr ""
+#~ "Il tracciamento di movimento è il processo di localizzare un movimento "
+#~ "nel tempo. Kdenlive utilizza `OpenCV (Open Source Computer Vision "
+#~ "Library) <https://opencv.org/about/>`_ per rilevare il movimento."
+
+#~ msgid "-- `Wikipedia <https://en.wikipedia.org/wiki/Video_tracking>`_"
+#~ msgstr "-- `Wikipedia <https://it.wikipedia.org/wiki/Video_tracking>`_"
+
+#~ msgid "`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_"
+#~ msgstr "`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_"
+
+#~ msgid "soon"
+#~ msgstr "prossimamente"
+
+#~ msgid "Contents"
+#~ msgstr "Contenuto"

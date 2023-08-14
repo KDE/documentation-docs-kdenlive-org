@@ -1,0 +1,152 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Shinjo Park <kde@peremen.name>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-07 00:39+0000\n"
+"PO-Revision-Date: 2022-05-08 16:54+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: ../../troubleshooting/installation_troubleshooting.rst:10
+msgid "Installation Troubleshooting"
+msgstr "설치 문제 해결"
+
+#: ../../troubleshooting/installation_troubleshooting.rst:12
+msgid ""
+"Many problems encountered in Kdenlive are caused by installation problems "
+"(missing or mismatching packages). Kdenlive uses the MLT framework to "
+"process all video operations, and MLT uses many other libraries like FFmpeg, "
+"Frei0r, …"
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:14
+msgid ""
+"Here are some tips to understand what might be wrong for you, depending on "
+"the error message you get on startup. If this does not help you, check the "
+"forums."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:17
+msgid "Your MLT installation cannot be found or Cannot start MLT backend"
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:19
+msgid ""
+"There is obviously something wrong with your MLT installation. Either it is "
+"not installed or not in a standard location. You can test your MLT "
+"installation from a terminal, type: `melt color:red` This should bring up a "
+"red window (press :kbd:`q` to close it)."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:22
+msgid ""
+"If you see an error message, try reinstalling MLT or check that you don't "
+"have several versions installed on the system."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:24
+msgid ""
+"If you see the red window, check where your MLT is installed: `which melt`. "
+"Then delete Kdenlive's config file (`$HOME/.config/kdenliverc`) and restart "
+"Kdenlive."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:27
+msgid "Missing package"
+msgstr "빠진 패키지"
+
+#: ../../troubleshooting/installation_troubleshooting.rst:29
+msgid "A dependency is missing and it is recommended to install it."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:32
+msgid "Frei0r"
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:34
+msgid ""
+"This package provides many effects and transitions. Without it, Kdenlive's "
+"features will be reduced. You can simply install frei0r-plugins from your "
+"package manager."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:37
+msgid "Breeze icons"
+msgstr "Breeze 아이콘"
+
+#: ../../troubleshooting/installation_troubleshooting.rst:39
+msgid ""
+"Many icons used by Kdenlive come from the Breeze Icons package. Without it, "
+"many parts of the UI will not appear correctly. You can simply install "
+"breeze-icon-theme or breeze-icons from your package manager."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:42
+msgid "MediaInfo"
+msgstr "MediaInfo"
+
+#: ../../troubleshooting/installation_troubleshooting.rst:44
+msgid ""
+"Download and install MediaInfo from `here <https://mediaarea.net/MediaInfo/"
+"Download>`_"
+msgstr ""
+"`여기 <https://mediaarea.net/MediaInfo/Download>`_\\ 에서 MediaInfo를 다운로"
+"드하여 설치하십시오."
+
+#: ../../troubleshooting/installation_troubleshooting.rst:47
+msgid "Missing MLT module"
+msgstr "MLT 모듈 누락됨"
+
+#: ../../troubleshooting/installation_troubleshooting.rst:49
+msgid "An MLT dependency is missing and it is required to install it."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:51
+msgid ""
+"**SDL** is used to output audio. Install `libsdl 1.x` from your package "
+"manager."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:53
+msgid ""
+"**Avformat** is the FFmpeg module. Make sure you have ffmpeg installed on "
+"your system."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:55
+msgid ""
+"**XML**: Make sure libxml2 is installed. On Windows, ensure that no "
+"conflicting libxml2.dll is placed in `C:\\\\Windows\\\\System32` or "
+"comparable folders. If you find a `libxml2.dll` there, try to rename it to "
+"`libxml2.old.dll` and then to restart kdenlive. Note that renaming `libxml2."
+"dll` in folder `System32` may break whichever other app has put libxml2.dll "
+"there."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:58
+msgid "The following codecs were not found on your system…"
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:60
+msgid ""
+"Some audio / video codecs are not installed by default. Installing a package "
+"called `libavcodec-extra` might solve the problem."
+msgstr ""
+
+#: ../../troubleshooting/installation_troubleshooting.rst:62
+msgid ""
+"On openSuse, you need to add the `packman repository <https://www.opensuse-"
+"community.org/>`_, then enable `replace vendor package <https://en.opensuse."
+"org/SDB:Vendor_change_update#Full_repository_Vendor_change>`_ on the packman "
+"repository."
+msgstr ""

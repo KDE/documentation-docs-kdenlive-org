@@ -1,0 +1,346 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-01 00:38+0000\n"
+"PO-Revision-Date: 2022-01-31 21:06+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.1\n"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:13
+msgid "Timeline preview rendering"
+msgstr "Rendu de l'aperçu pour la frise chronologique"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:17
+msgid ""
+"**Timeline preview rendering is an outstanding feature of Kdenlive**. It "
+"officially debuted in version 16.08. Preview rendering allows you to render "
+"parts or your complete timeline in the background, so you can smoothly play "
+"it back. This is especially useful when you work with complex track "
+"compositions or use effects that are computationally intensive. Instead of "
+"stuttering playback, you now get smooth playback. This way, you can check "
+"that your timing of keyframes and effect is working out nicely. And you "
+"don’t need to leave Kdenlive, as you would need when rendering your timeline "
+"to an traditional video file."
+msgstr ""
+"**L'aperçu de la frise chronologique est une fonctionnalité exceptionnelle "
+"de Kdenlive**. Elle a fait ses débuts officiels dans la version 16.08. Le "
+"rendu d'aperçu vous permet d'effectuer un rendu de parties ou de la totalité "
+"de votre frise chronologique en arrière-plan, afin de pouvoir la lire en "
+"douceur. Ceci est particulièrement utile lorsque vous travaillez avec des "
+"compositions de pistes complexes ou que vous utilisez des effets qui "
+"demandent beaucoup de calculs. Au lieu d'une lecture saccadée, vous obtenez "
+"maintenant une lecture fluide. De cette façon, vous pouvez vérifier que la "
+"synchronisation des trames clé et des effets fonctionne bien. Et vous n'avez "
+"pas besoin de quitter Kdenlive, comme ce serait le cas lorsque vous avez à "
+"réaliser un rendu de votre frise chronologique vers un fichier vidéo "
+"traditionnel."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:20
+msgid "Full-FPS Preview of Effect-Heavy Timeline Stuff"
+msgstr ""
+"Aperçu au taux maximal de trames par seconde d'une vidéo embarquant beaucoup "
+"d'effets"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:29
+msgid ""
+"**Raw source footage**: a good example for Kdenlive’s new timeline preview "
+"rendering is this: say, you have some FullHD source footage. Raw, your "
+"system easily plays this clip back at its original frame rate of 25fps. This "
+"isn’t even a job for proxy clips on a decent system."
+msgstr ""
+"**Vidéo source brute** : voici un bon exemple du nouveau rendu d'aperçu de "
+"la frise chronologique de Kdenlive : disons que vous avez un film source "
+"« FullHD ». Au format brut, votre système peut facilement lire cette vidéo à "
+"sa taux de trame original de 25 trames par seconde. Ce n'est même pas un "
+"tâche pour les vidéos en cache sur un système correct."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:31
+msgid ""
+"But you may have already suspected: this raw footage is in dire need of some "
+"serious processing before it can be shown to any audience…"
+msgstr ""
+"Mais vous vous en doutez peut-être déjà : ces images brutes ont besoin d'un "
+"traitement sérieux avant de pouvoir être montrées à un public quelconque..."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:40
+msgid ""
+"**Now let’s get effects-heavy**. For production, we need to de-fish this "
+"footage (action cams, you know). After defishing, we need some sharpening. "
+"And then, we also have to decompress the tonal curve (Protune, y’know). "
+"Wait, there’s more: saturation needs to be corrected too (again, Protune)."
+msgstr ""
+"**Maintenant, passons aux effets lourds**. Pour la production, nous devons "
+"supprimer l'effet grand-angle de cette vidéo (caméras d'action, vous savez). "
+"Après cela, nous avons besoin d'un peu de netteté. Et puis, nous devons "
+"aussi décompresser la courbe tonale (Protune, vous savez). Attendez, ce "
+"n'est pas tout : il faut aussi corriger la saturation (encore une fois, "
+"Protune)."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:42
+msgid ""
+"With these innocent four effects applied, look at the playback rate that’s "
+"shown in the bottom right corner of the monitor: dismal six frames per "
+"second! It crawls."
+msgstr ""
+"Avec ces quatre effets innocents appliqués, regardez le taux de lecture "
+"s'affichant dans le coin inférieur droit de l'écran : six trames "
+"lamentablement par seconde ! Il rame."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:44
+msgid ""
+"Unfortunately, proxy clips don’t help in this situation: proxy clips are low-"
+"res and low-quality variants of the source clips, without any effects "
+"applied. So our effects will slow down also proxy clips considerably."
+msgstr ""
+"Malheureusement, les vidéos en cache ne sont d'aucune utilité dans cette "
+"situation : celles-ci sont des variantes en basse résolution et en basse "
+"qualité des vidéos source, sans aucun effet appliqué. Ainsi, nos effets "
+"ralentiront donc aussi considérablement les vidéos en cache."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:46
+msgid "You need timeline preview rendering."
+msgstr "Vous avez besoin d'un rendu de l'aperçu de la frise chronologique."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:51
+msgid "HowTo: Timeline Preview Rendering"
+msgstr "Tutoriel : rendu de l'aperçu pour la frise chronologique"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:53
+msgid ""
+"**Please note**: timeline preview rendering does **not** speed up timeline "
+"editing. It speeds up the timeline playback. Why should you need that? For "
+"instance, to check the correct timing of keyframed effects and transitions."
+msgstr ""
+"**Veuillez noter** : le rendu de l'aperçu de la frise chronologique "
+"n'accélère **pas** la modification de la frise chronologique. Il accélère sa "
+"lecture. Pourquoi en auriez-vous besoin ? Par exemple, pour vérifier le "
+"cadencement correct des effets et transitions reposant sur des trames clé."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:55
+msgid ""
+"Preview rendering solely covers rendering the video part of the timeline. In "
+"contrast, Kdenlive renders audio always independent of the preview "
+"rendering. In particular, you can make audio changes at any time without "
+"affecting preview rendering."
+msgstr ""
+"Le rendu de l'aperçu ne couvre que le rendu de la partie vidéo de la frise "
+"chronologique. En revanche, Kdenlive effectue un rendu audio toujours "
+"indépendant du rendu de l'aperçu. En particulier, vous pouvez effectuer des "
+"modifications audio à tout moment sans affecter le rendu de l'aperçu."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:64
+msgid ""
+"Timeline preview rendering is best controlled using the dedicated :guilabel:"
+"`Timeline Preview` menu in the timeline toolbar. In addition, you can find "
+"most of the menu items also in the main menu :menuselection:`Timeline --> "
+"Timeline Preview --> …`"
+msgstr ""
+"Le rendu de l'aperçu de la frise chronologique est mieux contrôlé en "
+"utilisant le menu dédié :guilabel:`Aperçu de la frise chronologique` dans la "
+"barre d'outils de celle-ci. En outre, vous pouvez trouver la plupart des "
+"éléments de menu également dans le menu principal :menuselection:`Frise "
+"chronologique / Aperçu de la frise chronologique / ...`"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:69
+msgid "Step 1: Set Preview Zone"
+msgstr "Étape 1 : définition de la zone d'aperçu"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:78
+msgid ""
+"Set the timeline zone in (:kbd:`I`) and out (:kbd:`O`) points for the zone "
+"you want to render for preview."
+msgstr ""
+"Définissez les points d'entrée (:kbd:`I`) et de sortie (:kbd:`O`) de la zone "
+"de la frise chronologique pour laquelle vous souhaitez faire un aperçu de "
+"rendu."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:80
+msgid ""
+"Next, select :guilabel:`Add Preview Zone` (alternatively, :menuselection:"
+"`Timeline --> Timeline Preview --> Add Preview Zone`)."
+msgstr ""
+"Ensuite, sélectionnez :guilabel:`Ajouter une zone d'aperçu` "
+"(alternativement, :menuselection:`Frise chronologique / Aperçu de frise "
+"chronologique / Ajouter une zone d'aperçu`)."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:83
+msgid "For the first time, you won’t see any change yet."
+msgstr "Pour la première fois, vous ne verrez pas encore de changement."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:88
+msgid "Step 2: Render Preview Zone in Background"
+msgstr "Étape 2 : réalisation d'un rendu de la zone d'aperçu en arrière-plan"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:97
+msgid ""
+"Select Start Preview Render (:menuselection:`Timeline --> Timeline Preview --"
+"> Start Preview Render`). Or press :kbd:`Shift + Return`. Or click on |"
+"preview-render-on|."
+msgstr ""
+"Sélectionnez « Démarrer le rendu d'aperçu » (:menuselection:`Frise "
+"chronologique / Aperçu de frise chronologique / Lancer le rendu d'aperçu). "
+"Ou appuyez sur :kbd:` « Maj » + « Entrée » ` ou cliquez sur |preview-render-"
+"on|."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:101
+msgid "You can even add multiple, non-continuous preview rendering zones."
+msgstr ""
+"Vous pouvez même ajouter plusieurs zones non continues de rendu d'aperçu ."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:103
+msgid ""
+"A red bar appears (if it has not already been show): it’s located right "
+"between the timeline ruler and the topmost track. As background rendering "
+"progresses, this bar will slowly turn green, chunk by chunk."
+msgstr ""
+"Une barre rouge apparaît (si elle n'a pas déjà été affichée) : elle est "
+"située juste entre la règle de la frise chronologique et la piste la plus "
+"haute. Au fur et à mesure que le rendu de l'arrière-plan progresse, cette "
+"barre devient lentement verte, morceau par morceau."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:105
+msgid ""
+"You can continue to work at any part of your timeline while preview "
+"rendering is active. However, as soon as you edit clips or transitions that "
+"touch your preview zones, rendering will stop, and the affected preview "
+"zones turn back to red. Simply restart rendering, if you need."
+msgstr ""
+"Vous pouvez continuer à travailler à n'importe quel endroit de votre frise "
+"chronologique pendant que le rendu de l'aperçu est actif. Cependant, dès que "
+"vous modifiez des vidéos ou des transitions, affectant vos zones d'aperçu, "
+"le rendu s'arrêtera et les zones d'aperçu concernées deviennent rouges. "
+"Redémarrez simplement le rendu, si nécessaire."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:107
+msgid ""
+"The preview is divided into chunks, where each is 25 frames in size; this "
+"corresponds with 1s of playback length for 25fps projects."
+msgstr ""
+"L'aperçu est divisé en blocs de 25 images chacun, ce qui correspond à une "
+"durée de lecture de 1 seconde pour les projets à 25 images par seconde."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:112
+msgid "Step 3: Enjoy Smooth Timeline Preview!"
+msgstr "Étape 3 : profitez d'un aperçu fluide de la frise chronologique !"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:121
+msgid ""
+"All green chunks of your timeline will now play back at full speed. You "
+"should immediately notice that scrubbing such timeline zones will be much "
+"faster too."
+msgstr ""
+"Tous les morceaux en vert de votre frise chronologique seront maintenant lus "
+"à pleine vitesse. Vous remarquerez immédiatement que l'effacement de ces "
+"zones de la frise chronologique sera également beaucoup plus rapide."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:130
+msgid ""
+"Timeline playback is now full 25fps, even as the corresponding timeline clip "
+"makes heave use of effects (especially de-fish is computational intensive)."
+msgstr ""
+"La lecture de la frise chronologique se fait désormais à 25 images par "
+"seconde, même si la vidéo correspondante de la frise chronologique fait un "
+"usage intensif d'effets (En particulier, l'effet « de-fish » est très "
+"gourmand en ressources de calcul)."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:135
+msgid "Notes"
+msgstr "Remarques"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:138
+msgid "Smart Preview Undo/Redo"
+msgstr "Annulation / Ré-exécution intelligente d'aperçu"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:140
+msgid ""
+"Kdenlive is smart enough to support some levels of undo and redo. So you can "
+"check out the results of a two different effect settings by quickly undoing "
+"and redoing the effect change without having to render anew the preview."
+msgstr ""
+"Kdenlive est suffisamment intelligent pour prendre en charge certains "
+"niveaux d'annulation et de rétablissement. Ainsi, vous pouvez vérifier les "
+"résultats de deux réglages d'effet différents en annulant et en refaisant "
+"rapidement le changement d'effet sans avoir à rendre à nouveau l'aperçu."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:144
+msgid "Preview Cache Storage"
+msgstr "Enregistrement du cache d'aperçu"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:153
+msgid ""
+"You can easily find out how much storage you are currently using for the "
+"timeline preview. Use :menuselection:`Project --> Project Settings`, then "
+"select the tab :guilabel:`Cache Data`."
+msgstr ""
+"Vous pouvez facilement découvrir la quantité d'espace vous utilisez "
+"actuellement pour l'aperçu de la frise chronologique. Utilisez :"
+"menuselection:`Projet / Configuration du projet`, puis sélectionnez "
+"l'onglet :guilabel:`Mettre les données en cache`."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:155
+msgid ""
+"You’ll now see a neat figure illustration cache data disc space consumption. "
+"At any time, you can quickly remove the cache data used for the timeline "
+"preview: simply click on the :guilabel:`trash` button next to row **Timeline "
+"Preview**."
+msgstr ""
+"Vous verrez maintenant une illustration claire de la consommation d'espace "
+"disque des données de cache. À tout moment, vous pouvez rapidement supprimer "
+"les données de cache utilisées pour l'aperçu de la frise chronologique : "
+"cliquez simplement sur le bouton :guilabel:`poubelle` à côté de la ligne "
+"**Aperçu de la frise chronologique**."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:160
+msgid "Preview Profiles"
+msgstr "Profils d'aperçu"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:169
+msgid ""
+"Most of the time, it should suffice to leave the preview profile set to :"
+"guilabel:`Auto`. Kdenlive then will select a suitable preview profile based "
+"on your project profile."
+msgstr ""
+"La plupart du temps, il devrait suffire de laisser le profil d'aperçu réglé "
+"sur :guilabel:`Auto`. Kdenlive sélectionnera alors un profil d'aperçu "
+"approprié en fonction du profil de votre projet."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:171
+msgid ""
+"In some rare cases, as with unusual frame rates, or when you want to control "
+"the preview rendering encoding quality, then you can change the preview "
+"profile, or create your own preview profile. Use the :guilabel:`Manage "
+"timeline preview profiles` button next to the preview profile selection."
+msgstr ""
+"Dans certains cas rares, comme avec des taux inhabituels de trames ou "
+"lorsque vous voulez contrôler la qualité d'encodage du rendu de l'aperçu, "
+"vous pouvez modifier le profil d'aperçu ou créer votre propre profil "
+"d'aperçu. Utilisez le bouton :guilabel:`Gérer les profils d'aperçu de la "
+"frise chronologique` à côté de la sélection du profil d'aperçu."
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:176
+msgid "De-synchronized Preview"
+msgstr "Aperçu dé-synchronisée"
+
+#: ../../glossary/useful_information/timeline-preview-rendering.rst:178
+msgid ""
+"If for some reason the rendered preview should get out of sync with your "
+"timeline editing, simply remove the corresponding preview zone (:guilabel:"
+"`Remove Preview Zone`) or all preview zones (:guilabel:`Remove All Preview "
+"Zones`). This gets you back to a sane preview state. Then add the zone back "
+"again (using :guilabel:`Add Preview Zone`), and rerender."
+msgstr ""
+"Si, pour une raison quelconque, l'aperçu rendu devient non synchronisé avec "
+"votre montage sur la frise chronologique, il suffit de supprimer la zone "
+"d'aperçu correspondante (:guilabel:`Supprimer la zone d'aperçu`) ou toutes "
+"les zones d'aperçu (:guilabel:`Supprimer toutes les zones d'aperçu`). Cela "
+"vous ramène à un état d'aperçu sain. Ensuite, ajoutez de nouveau la zone (à "
+"l'aide de :guilabel:`Ajouter une zone d'aperçu`) et effectuez un nouveau "
+"rendu."

@@ -1,0 +1,870 @@
+# Translation of docs_kdenlive_org_effects_and_compositions.po to Catalan
+# Copyright (C) 2021-2023 This_file_is_part_of_KDE
+# Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2021.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: documentation-docs-kdenlive-org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-22 00:41+0000\n"
+"PO-Revision-Date: 2023-07-30 00:57+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#: ../../effects_and_compositions.rst:1
+msgid ""
+"Add in Kdenlive video editor, video effects, audio effects, compositions, "
+"title, subtitle, speech to text, color correction."
+msgstr ""
+"Afegir efectes de vídeo, efectes d'àudio, composicions, títols, subtítols, "
+"text a veu, correcció de color a l'editor de vídeo Kdenlive."
+
+#: ../../effects_and_compositions.rst:1
+msgid ""
+"KDE, Kdenlive, effects, audio, video, title, subtitle, speech to text, color "
+"correction, documentation, user manual, video editor, open source, free, "
+"learn, easy "
+msgstr ""
+"KDE, Kdenlive, efectes, àudio, vídeo, títol, subtítol, text a veu, correcció "
+"de color, documentació, manual d'usuari, editor de vídeo, codi lliure, "
+"lliure, aprendre, fàcil "
+
+#: ../../effects_and_compositions.rst:1
+msgid "- Eugen Mohr - Bernd Jordan (https://discuss.kde.org/u/berndmj) "
+msgstr "- Eugen Mohr - Bernd Jordan (https://discuss.kde.org/u/berndmj) "
+
+#: ../../effects_and_compositions.rst:1
+msgid "Creative Commons License SA 4.0"
+msgstr "Llicència Creative Commons SA 4.0"
+
+#: ../../effects_and_compositions.rst:24
+msgid "Effects and Compositions"
+msgstr "Efectes i composicions"
+
+#: ../../effects_and_compositions.rst:26
+msgid ""
+"Effects and Compositions are very important components in video editing. In "
+"Kdenlive, effects and compositions are essentially filters provided by |"
+"frei0r| or |avfilter| (Kdenlive does not have built-in effects or "
+"compositions of its own)."
+msgstr ""
+"Els efectes i composicions són components molt importants en l'edició de "
+"vídeo. En el Kdenlive, els efectes i les composicions són essencialment "
+"filtres proporcionats per |frei0r| o |avfilter| (el Kdenlive no té efectes "
+"integrats ni composicions pròpies)."
+
+#: ../../effects_and_compositions.rst:28
+msgid ""
+"Effects are used to change the appearance of or manipulate a clip. For "
+"example, the **Transform** effect allows to scale and move the clip; the "
+"**Brightness** effect changes the brightness of the clip; effects in the "
+"*Alpha, Mask and Keying* category provide very specific filters for masking "
+"or rotoscoping."
+msgstr ""
+"Els efectes s'utilitzen per canviar l'aparença o manipular un clip. Per "
+"exemple, l'efecte **Transforma** permet escalar i moure el clip; l'efecte "
+"**Lluminositat** canvia la lluminositat del clip; els efectes a la categoria "
+"*Alfa, màscara i clau* proporcionen filtres molt específics per a "
+"l'emmascarament o la rotoscòpia."
+
+#: ../../effects_and_compositions.rst:30
+msgid ""
+"Compositions are used to combine several visual elements from different "
+"sources into a single video. In Kdenlive, you put the different sources into "
+"tracks in the Timeline and use compositions to tell Kdenlive how to combine "
+"them. For example, the **Dissolve** composition fades out one clip while "
+"fading in another over a certain number of frames. That is why Compositions "
+"are often referred to as Transitions. Keep in mind that while Compositions "
+"are very often used to transition from one video to another they can be used "
+"to create artistic and aesthetic effects when combining several clips (e.g. "
+"Darken, Dodge, Burn)."
+msgstr ""
+"Les composicions s'utilitzen per combinar diversos elements visuals de "
+"diferents fonts en un vídeo únic. En el Kdenlive, poseu les diferents fonts "
+"en pistes a la línia de temps i utilitzeu composicions per a dir-li al "
+"Kdenlive com combinar-les. Per exemple, la composició **Dissoldre** esvaeix "
+"un clip mentre apareix gradualment un altre durant un nombre determinat de "
+"fotogrames. Per això, les composicions són sovint anomenades Transicions. "
+"Tingueu en compte que mentre que les composicions s'utilitzen molt sovint "
+"per a la transició d'un vídeo a un altre, es poden utilitzar per a crear "
+"efectes artístics i estètics quan es combinen diversos clips (per exemple, "
+"Enfosquit, Subexposició, Sobreexposició)."
+
+#: ../../effects_and_compositions.rst:32
+msgid ""
+"Kdenlive has two groups of effects: :ref:`Video Effects <effects-"
+"video_effects>` and :ref:`Audio Effects <effects-audio_effects>`."
+msgstr ""
+"El Kdenlive té dos grups d'efectes: :ref:`Efectes de vídeo <effects-"
+"video_effects>` i :ref:`Efectes d'àudio <effects-audio_effects>`."
+
+#: ../../effects_and_compositions.rst:34
+msgid "There are several ways to apply effects:"
+msgstr "Hi ha diverses maneres d'aplicar els efectes:"
+
+#: ../../effects_and_compositions.rst:36
+msgid ""
+"On the clip in the Project Bin, which makes the effect available in all "
+"instances of that clip in the Timeline"
+msgstr ""
+"Al clip de la safata del projecte, el qual fa que l'efecte estigui "
+"disponible en totes les instàncies d'aquest clip a la línia de temps"
+
+#: ../../effects_and_compositions.rst:38
+msgid ""
+"On the clip in the Timeline, which makes the effect only applicable for that "
+"clip in the Timeline at that point"
+msgstr ""
+"En el clip a la línia de temps, el qual fa que l'efecte només sigui "
+"aplicable per a aquest clip a la línia de temps en aquest punt"
+
+#: ../../effects_and_compositions.rst:40
+msgid ""
+"On the track, which applies the effect to all clips in that particular track"
+msgstr ""
+"A la pista, la qual aplica l'efecte a tots els clips d'aquesta pista en "
+"particular"
+
+#: ../../effects_and_compositions.rst:42
+msgid "On Master, which applies that effect to all clips in all tracks"
+msgstr ""
+"Al mestre, el qual aplica aquest efecte a tots els clips de totes les pistes"
+
+#: ../../effects_and_compositions.rst:44
+msgid ""
+"Not all effects can be used at the track or Master level nor does it make "
+"sense."
+msgstr ""
+"No tots els efectes es poden utilitzar a la pista o a nivell mestre ni té "
+"sentit."
+
+#: ../../effects_and_compositions.rst:50
+msgid "Effects Tab"
+msgstr "La pestanya d'efectes"
+
+#: ../../effects_and_compositions.rst:52
+msgid ""
+"Make the Effects widget visible in :menuselection:`Menu --> View --> "
+"Effects`."
+msgstr ""
+"Fa visible el giny Efectes a :menuselection:`Menú --> Vista --> Efectes`."
+
+#: ../../effects_and_compositions.rst:60
+msgid "Kdenlive Effects widget as a tab in the Project Bin area"
+msgstr ""
+"El giny d'efectes del Kdenlive com a pestanya a l'àrea de la safata del "
+"projecte"
+
+#: ../../effects_and_compositions.rst:62
+msgid ""
+"The Effects widget has seven control icons that show or hide the different "
+"effect categories:"
+msgstr ""
+"El giny Efectes té set icones de control que mostren o oculten les "
+"categories diferents d'efectes:"
+
+#: ../../effects_and_compositions.rst:64
+msgid "1 - **Main Effects** shows all video and audio effects (default view)"
+msgstr ""
+"1 - **Efectes principals** mostra tots els efectes de vídeo i àudio "
+"(visualització predeterminada)"
+
+#: ../../effects_and_compositions.rst:66
+msgid ""
+"2 - **Video Effects** shows all video effect categories. This option hides "
+"the *Audio Correction* category that is in the **Main Effects**, and adds "
+"the *Misc* and *Motion* categories."
+msgstr ""
+"2 - **Efectes de vídeo** mostra totes les categories d'efectes de vídeo. "
+"Aquesta opció oculta la categoria *Correcció d'àudio* que es troba en els "
+"**Efectes principals**, i afegeix les categories *Miscel·lània* i *Moviment*."
+
+#: ../../effects_and_compositions.rst:68
+msgid "3 - **Audio Effects** shows all audio effects categories"
+msgstr "3 - **Efectes d'àudio** mostra totes les categories d'efectes d'àudio"
+
+#: ../../effects_and_compositions.rst:70
+msgid ""
+"4 - **Custom Effects** shows all effects you have created by saving an "
+"effect stack."
+msgstr ""
+"4 - **Efectes personalitzats** mostra tots els efectes que heu creat desant "
+"una pila d'efectes."
+
+#: ../../effects_and_compositions.rst:74
+msgid ""
+"5 - **Favorite Effects** shows all effects that were flagged as a favorite "
+"effect. This is the same list that appears when selecting :guilabel:`Insert "
+"an effect` from the right-click menu of a clip in the Timeline, or by "
+"clicking the :guilabel:`Favorite Effects` in the Timeline toolbar."
+msgstr ""
+"5 - **Efectes preferits** mostra tots els efectes que s'han marcat com a "
+"efecte preferit. Aquesta és la mateixa llista que apareix en seleccionar :"
+"guilabel:`Insereix un efecte` des del menú del clic dret d'un clip a la "
+"línia de temps, o fent clic a :guilabel:`Efectes preferits` a la barra "
+"d'eines de la línia de temps."
+
+#: ../../effects_and_compositions.rst:76
+msgid ""
+"6 - **Show Effect Info** toggles the information display below the effect "
+"list where a short description of what the effect does is displayed when on"
+msgstr ""
+"6 - **Mostra la informació de l'efecte** commuta la visualització "
+"d'informació a sota de la llista d'efectes on es mostra una breu descripció "
+"del que fa l'efecte quan està activat"
+
+#: ../../effects_and_compositions.rst:78
+msgid ""
+"7 - **Download Effects** opens a dialog window where effect templates are "
+"listed from the KDE Store"
+msgstr ""
+"7 - **Baixa efectes** obre una finestra de diàleg on es llisten les "
+"plantilles d'efectes des de la KDE Store"
+
+#: ../../effects_and_compositions.rst:84
+msgid "Effect/Composition Stack"
+msgstr "Pila d'efectes/composició"
+
+#: ../../effects_and_compositions.rst:86
+msgid ""
+"This widget is also known as the Properties Tab as it lists all effects "
+"applied to the currently selected clip as well as each effect's settings or "
+"properties. If a Composition is selected the widget displays the "
+"composition's settings or properties."
+msgstr ""
+"Aquest giny també es coneix com la pestanya Propietats, ja que llista tots "
+"els efectes aplicats al clip actualment seleccionat, així com la "
+"configuració o les propietats de cada efecte. Si se selecciona una "
+"composició, el giny mostrarà els paràmetres o propietats de la composició."
+
+#: ../../effects_and_compositions.rst:88
+msgid "|effect| < effect | composition > |composition|"
+msgstr "|effect| < efecte | composició > |composition|"
+
+#: ../../effects_and_compositions.rst:98
+msgid "Only Effects can be stacked, Compositions cannot."
+msgstr "Només es poden apilar els efectes, les composicions no."
+
+#: ../../effects_and_compositions.rst:101
+msgid "Effect/Composition Stack Functions"
+msgstr "Funcions de la pila d'efectes/composició"
+
+#: ../../effects_and_compositions.rst:108
+msgid "Kdenlive Effect Stack"
+msgstr "Pila d'efectes del Kdenlive"
+
+#: ../../effects_and_compositions.rst:110
+msgid ""
+"|document-save-all| Save Effect - Opens a dialog window for entering a name "
+"for the effect stack under which it will be listed in the *Custom* effect "
+"category and a comment which will be displayed in the information display"
+msgstr ""
+"|document-save-all| Desa l'efecte: obre una finestra de diàleg per introduir "
+"un nom per a la pila d'efectes sota la qual es llistarà a la categoria "
+"d'efectes *Personalitzats* i un comentari que es mostrarà a la pantalla "
+"d'informació"
+
+#: ../../effects_and_compositions.rst:112
+msgid ""
+"|view-split-left-right| Compare Effect - Splits the Preview Monitor "
+"vertically to do a side-by-side comparison of the clip with and without "
+"effects"
+msgstr ""
+"|view-split-left-right| Compara l'efecte: divideix verticalment el monitor "
+"de vista prèvia per a fer una comparació costat per costat del clip amb i "
+"sense els efectes"
+
+#: ../../effects_and_compositions.rst:114
+msgid ""
+"|visibility| Effects enabled - Switches the effect stack on or off. This is "
+"equivalent to disabling all effects in the effect stack."
+msgstr ""
+"|visibility| Efectes activats: activa o desactiva la pila d'efectes. Això "
+"equival a desactivar tots els efectes a la pila d'efectes."
+
+#: ../../effects_and_compositions.rst:116
+msgid ""
+"|keyframe-disable| Hide/Show keyframes in Timeline - Switches the display of "
+"keyframes in the clip in the Timeline on or off"
+msgstr ""
+"|keyframe-disable| Amaga/Mostra els fotogrames clau a la línia de temps: "
+"activa o desactiva la visualització dels fotogrames clau en el clip a la "
+"línia de temps"
+
+#: ../../effects_and_compositions.rst:124
+msgid "Effect Functions"
+msgstr "Funcions d'efectes"
+
+#: ../../effects_and_compositions.rst:137
+msgid "Kdenlive Effect Panel"
+msgstr "Plafó d'efectes del Kdenlive"
+
+#: ../../effects_and_compositions.rst:139
+msgid ""
+"|keyframe-disable| Hide/show keyframes - Turns the display of the keyframe "
+"ruler off or on"
+msgstr ""
+"|keyframe-disable| Amaga/mostra fotogrames clau: desactiva o activa la "
+"visualització del regle dels fotogrames clau"
+
+#: ../../effects_and_compositions.rst:141
+msgid ""
+"|visibility| Disable effect - Turns the effect off or on. The effect stays "
+"in the stack but is not applied during playback or rendering."
+msgstr ""
+"|visibility| Desactiva l'efecte: desactiva o activa l'efecte. L'efecte es "
+"manté a la pila, però no s'aplica durant la reproducció o la renderització."
+
+#: ../../effects_and_compositions.rst:143
+msgid ""
+"|adjustlevels2| Presets - Opens a list of advanced options to manage presets "
+"for the effect (e.g. reset the effect to its default parameters)"
+msgstr ""
+"|adjustlevels2| Valors predefinits: obre una llista d'opcions avançades per "
+"a gestionar els valors predefinits de l'efecte (p. ex. reinicia l'efecte amb "
+"els paràmetres predeterminats)"
+
+#: ../../effects_and_compositions.rst:145
+msgid ""
+"|document-save| Save effect - Opens a dialog window for entering a name for "
+"the effect under which it will be listed in the *Custom* effect category and "
+"a comment which will be displayed in the information display"
+msgstr ""
+"|document-save| Desa l'efecte: obre una finestra de diàleg per a introduir "
+"un nom per a l'efecte sota el qual es llistarà a la categoria d'efectes "
+"*Personalitzats* i un comentari que es mostrarà a la pantalla d'informació"
+
+#: ../../effects_and_compositions.rst:147
+msgid ""
+"|selection-raise| Move effect up - Moves the effect up one notch in the list "
+"(effect sequence from top to bottom is important)"
+msgstr ""
+"|selection-raise| Mou l'efecte amunt: mou l'efecte amunt un nivell a la "
+"llista (la seqüència d'efectes de dalt a baix és important)"
+
+#: ../../effects_and_compositions.rst:149
+msgid ""
+"|selection-lower| Move effect down - Moves the effect down one notch in the "
+"list (effect sequence from top to bottom is important)"
+msgstr ""
+"|selection-lower| Mou l'efecte avall: mou l'efecte avall un nivell a la "
+"llista (la seqüència d'efectes de dalt a baix és important)"
+
+#: ../../effects_and_compositions.rst:151
+msgid "|edit-delete| Delete effect - Removes the effect from the effect stack"
+msgstr ""
+"|edit-delete| Suprimeix l'efecte: elimina l'efecte de la pila d'efectes"
+
+#: ../../effects_and_compositions.rst:159
+msgid "Apply an Effect"
+msgstr "Aplica un efecte"
+
+#: ../../effects_and_compositions.rst:161
+msgid ""
+"You apply an effect to a clip by either choosing it from the Effects Tab and "
+"dragging them onto a clip in the Project Bin or in the Timeline."
+msgstr ""
+"Apliqueu un efecte a un clip escollint-lo des de la pestanya d'efectes i "
+"arrossegant-lo a un clip a la safata del projecte o a la línia de temps."
+
+#: ../../effects_and_compositions.rst:163
+msgid ""
+"You can also double-click on an effect in the Effects Tab which adds the "
+"effect to either the clip in the Project Bin or in the Timeline depending on "
+"where the clip is selected."
+msgstr ""
+"També podeu fer doble clic sobre un efecte a la pestanya d'efectes que "
+"afegeix l'efecte al clip a la safata del projecte o a la línia de temps "
+"depenent d'on estigui seleccionat el clip."
+
+#: ../../effects_and_compositions.rst:165
+msgid ""
+"Another method is to use the |favorite|:guilabel:`Favorite Effect` icon in "
+"the Timeline toolbar and select the effect from there (you add an effect to "
+"the favorite effects by right-click on the effect in the Effects Tab and "
+"select :guilabel:`Add to favorites`)."
+msgstr ""
+"Un altre mètode és utilitzar la icona |favorite|:guilabel:`Efectes "
+"preferits` a la barra d'eines Línia de temps i seleccionar l'efecte des "
+"d'allà (afegireu un efecte als efectes preferits fent clic dret sobre "
+"l'efecte a la pestanya d'efectes i seleccioneu :guilabel:`Afegeix als "
+"preferits`)."
+
+#: ../../effects_and_compositions.rst:167
+msgid ""
+"Alternatively, you can use :menuselection:`Menu --> Timeline --> Add Effect` "
+"to select an effect from the various categories and add it to the selected "
+"clip(s) in the Timeline."
+msgstr ""
+"De manera alternativa, podeu utilitzar :menuselection:`Menú --> Línia de "
+"temps --> Afegeix un efecte` per a seleccionar un efecte des de les diverses "
+"categories i afegir-lo al/s clip/s seleccionat/s a la línia de temps."
+
+#: ../../effects_and_compositions.rst:169
+msgid ""
+"And last but not least you can copy effects with all their settings from any "
+"clip (Timeline or Project Bin) and paste them to other clips."
+msgstr ""
+"I finalment, però no menys important, podeu copiar els efectes amb totes les "
+"seves opcions de configuració des de qualsevol clip (línia de temps o safata "
+"del projecte) i enganxar-los a altres clips."
+
+#: ../../effects_and_compositions.rst:171
+msgid ""
+"Effects are always added at the bottom of the effect stack, and since the "
+"effect order is important can be re-arranged."
+msgstr ""
+"Els efectes sempre s'afegeixen a la part inferior de la pila d'efectes, i "
+"com que l'ordre dels efectes és important, es poden reorganitzar."
+
+#: ../../effects_and_compositions.rst:177
+msgid "Keyframes in Effects"
+msgstr "Els fotogrames clau en els efectes"
+
+#: ../../effects_and_compositions.rst:179
+msgid ""
+"Many effects use the concept of \"Keyframes\". Keyframes are user-defined "
+"points in your clip where you want an effect to start, stop or change. You "
+"can set the parameters for your effects to different values at different "
+"keyframes and **Kdenlive** will then gradually change the parameters between "
+"the two keyframes so that by the time the video has arrived at the next "
+"keyframe it will have adjusted the parameter to match that keyframe. It "
+"interpolates between keyframes."
+msgstr ""
+"Molts efectes utilitzen el concepte de «fotogrames clau». Els quals són "
+"punts definits per l'usuari en el clip, on voleu que s'iniciï, s'aturi o "
+"canviï un efecte. Podeu establir els paràmetres dels vostres efectes a "
+"valors diferents en fotogrames clau diferents i el **Kdenlive** canviarà "
+"gradualment els paràmetres entre els dos fotogrames clau de manera que quan "
+"el vídeo arribi fins al fotograma clau següent ajustarà el paràmetre perquè "
+"coincideixi amb aquest fotograma clau. Interpola entre els fotogrames clau."
+
+#: ../../effects_and_compositions.rst:181
+msgid ""
+"See :ref:`quickstart` for an example on keyframing the RGB adjustment effect."
+msgstr ""
+"Vegeu :ref:`quickstart` per a obtenir un exemple sobre crear fotogrames clau "
+"amb l'efecte d'ajust RGB."
+
+#: ../../effects_and_compositions.rst:185
+msgid ""
+"The keyframe ruler has zoom bars which makes adjusting keyframes a lot "
+"easier if the clip's duration is relatively long and the effect stack widget "
+"is too narrow to display all keyframes nicely spaced."
+msgstr ""
+"El regle de fotogrames clau té barres de zoom, les quals fan molt més fàcil "
+"ajustar els fotogrames clau si la durada del clip és relativament llarga i "
+"el giny de pila d'efectes és massa estret per a mostrar tots els fotogrames "
+"clau ben espaiats."
+
+#: ../../effects_and_compositions.rst:196
+msgid ""
+"Keyframes can be copied and pasted between effects and even across clips. "
+"Standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`"
+msgstr ""
+"Els fotogrames clau es poden copiar i enganxar entre els efectes i fins i "
+"tot entre els clips. Dreceres estàndard :kbd:`Ctrl+C`, :kbd:`Ctrl+V`"
+
+#: ../../effects_and_compositions.rst:202
+msgid "Working with Keyframes in the Effect Stack"
+msgstr "Treballar amb fotogrames clau a la pila d'efectes"
+
+#: ../../effects_and_compositions.rst:206
+msgid ""
+"The effect keyframe panel has new icons, improved keyframe grabbing and new "
+"functions."
+msgstr ""
+"El plafó de fotogrames clau de l'efecte té icones noves, captura de "
+"fotogrames clau millorada i funcions noves."
+
+#: ../../effects_and_compositions.rst:213
+msgid "Select the keyframe you want to move"
+msgstr "Seleccioneu el fotograma clau que voleu moure"
+
+#: ../../effects_and_compositions.rst:214
+msgid "Move the cursor to the position where you want to move the keyframe to"
+msgstr "Moveu el cursor fins a la posició on voleu moure el fotograma clau"
+
+#: ../../effects_and_compositions.rst:215
+msgid ""
+"Click on |align-horizontal-center|:guilabel:`Move selected keyframe to "
+"cursor`"
+msgstr ""
+"Fer clic a |align-horizontal-center|:guilabel:`Mou els fotogrames clau "
+"seleccionats fins al cursor`"
+
+#: ../../effects_and_compositions.rst:224
+msgid "Select the keyframe you want to duplicate"
+msgstr "Seleccioneu el fotograma clau que voleu duplicar"
+
+#: ../../effects_and_compositions.rst:225
+msgid "Click on |edit-copy|:guilabel:`Copy keyframe`"
+msgstr "Fer clic a |edit-copy|:guilabel:`Copia el fotograma clau`"
+
+#: ../../effects_and_compositions.rst:226
+msgid ""
+"Move the cursor to the position where you want to insert the new keyframe"
+msgstr ""
+"Moveu el cursor fins a la posició on voleu inserir el fotograma clau nou"
+
+#: ../../effects_and_compositions.rst:227
+msgid "Click on |edit-paste|:guilabel:`Paste keyframe`"
+msgstr "Fer clic a |edit-paste|:guilabel:`Enganxa el fotograma clau`"
+
+#: ../../effects_and_compositions.rst:236
+msgid "Select all keyframes you want to apply the value on"
+msgstr "Seleccioneu tots els fotogrames clau als quals voleu aplicar el valor"
+
+#: ../../effects_and_compositions.rst:237
+msgid "Go to one of the selected keyframes and change the value(s) as you want"
+msgstr ""
+"Aneu a un dels fotogrames clau seleccionats i canvieu el/s valor/s com "
+"vulgueu"
+
+#: ../../effects_and_compositions.rst:238
+msgid ""
+"Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply "
+"current position value to selected keyframes`"
+msgstr ""
+"Feu clic a |application-menu|:guilabel:`Opcions` i seleccioneu :guilabel:"
+"`Aplica el valor de la posició actual als fotogrames clau seleccionats`"
+
+#: ../../effects_and_compositions.rst:239
+msgid "Select the parameters you want to apply and click on :guilabel:`OK`"
+msgstr ""
+"Seleccioneu els paràmetres que voleu aplicar i feu clic a :guilabel:`D'acord`"
+
+#: ../../effects_and_compositions.rst:248
+msgid "Select multiple individual keyframes with :kbd:`Ctrl+Left-click`"
+msgstr ""
+"Seleccioneu múltiples fotogrames clau individuals amb :kbd:`Ctrl+clic "
+"esquerre`"
+
+#: ../../effects_and_compositions.rst:257
+msgid "Select contiguous keyframes with :kbd:`Shift+Left-click`"
+msgstr "Seleccioneu fotogrames clau contigus amb :kbd:`Maj+clic esquerre`"
+
+#: ../../effects_and_compositions.rst:266
+msgid "Moving multiple keyframes at once"
+msgstr "Moure diversos fotogrames clau alhora"
+
+#: ../../effects_and_compositions.rst:274
+msgid "Exchanging Keyframes Across Effects"
+msgstr "Intercanvi de fotogrames clau a través dels efectes"
+
+#: ../../effects_and_compositions.rst:278
+msgid ""
+"You can import and export keyframes from/to the clipboard. This feature is "
+"not only useful to copy keyframes from one clip to another, it can also be "
+"used for example to copy the results of the motion tracker to the Transform "
+"effect."
+msgstr ""
+"Podeu importar i exportar fotogrames clau des del/al porta-retalls. Aquesta "
+"característica no només és útil per a copiar fotogrames clau d'un clip a un "
+"altre, també es pot utilitzar, per exemple, per a copiar els resultats del "
+"seguidor de moviment a l'efecte Transforma."
+
+#: ../../effects_and_compositions.rst:280
+msgid ""
+"To export the keyframes to the clipboard click on |application-menu|:"
+"guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:`Copy "
+"keyframes to clipboard`."
+msgstr ""
+"Per a exportar els fotogrames clau al porta-retalls, feu clic a |application-"
+"menu|:guilabel:`Opcions` al plafó del fotograma clau\\ [1]_ i trieu :"
+"guilabel:`Copia els fotogrames clau al porta-retalls`."
+
+#: ../../effects_and_compositions.rst:286
+msgid "Importing keyframes"
+msgstr "Importar fotogrames clau"
+
+#: ../../effects_and_compositions.rst:288
+msgid ""
+"To import keyframes from the clipboard click on |application-menu|:guilabel:"
+"`Options` inside the keyframe panel\\ [1]_ and choose :guilabel:`Import "
+"keyframes from clipboard`. If you have valid data on your clipboard you "
+"should see this dialog window where you can adjust the mapping of the data."
+msgstr ""
+"Per a importar fotogrames clau des del porta-retalls, feu clic a |"
+"application-menu|:guilabel:`Opcions` dins del plafó de fotogrames clau\\ "
+"[1]_ i trieu :guilabel:`Importa fotogrames clau des del porta-retalls`. Si "
+"teniu dades vàlides al porta-retalls, hauríeu de veure aquesta finestra de "
+"diàleg on podreu ajustar l'assignació de les dades."
+
+#: ../../effects_and_compositions.rst:290
+msgid ""
+"For most use cases the default settings suffice. But you may want to copy "
+"only a subset of the data and perhaps enter an offset value, for example."
+msgstr ""
+"Per a la majoria dels casos d'ús, la configuració predeterminada és "
+"suficient. Però és possible que vulgueu copiar només un subconjunt de les "
+"dades i potser introduir un valor de desplaçament, per exemple."
+
+#: ../../effects_and_compositions.rst:298
+msgid "Track Effect"
+msgstr "Efectes de pista"
+
+#: ../../effects_and_compositions.rst:306
+msgid "Track effect indicators"
+msgstr "Indicadors dels efectes de pista"
+
+#: ../../effects_and_compositions.rst:308
+msgid ""
+"Effects can be added to an entire track affecting all clips in that track. "
+"Simply drag an effect from the Effects Tab to the header of the desired "
+"track, or click on the |tools-wizard|:guilabel:`Track Effect` icon and drag "
+"the effect to the track's effect stack."
+msgstr ""
+"Es poden afegir efectes a tota una pista que afecti a tots els clips "
+"d'aquesta pista. Senzillament arrossegueu un efecte des de la pestanya "
+"d'efectes fins a la capçalera de la pista desitjada, o feu clic a la icona |"
+"tools-wizard|:guilabel:`Efectes de la pista` i arrossegueu l'efecte a la "
+"pila d'efectes de la pista."
+
+#: ../../effects_and_compositions.rst:316
+msgid "Master Effect"
+msgstr "Efecte mestre"
+
+#: ../../effects_and_compositions.rst:320
+msgid ""
+"If you want to apply audio or video effects throughout the whole video. "
+"Click on the :guilabel:`Master` button above the track headers to see the "
+"Master Effect Stack where you can add effects just like with clips or tracks."
+msgstr ""
+"Si voleu aplicar efectes d'àudio o vídeo a tot el vídeo. Feu clic sobre el "
+"botó :guilabel:`Mestre` a sobre de les capçaleres de la pista per a veure la "
+"pila d'efectes mestres, on podreu afegir efectes com amb els clips o les "
+"pistes."
+
+#: ../../effects_and_compositions.rst:326
+msgid "Adding a Sepia effect to the entire video"
+msgstr "Afegir un efecte sèpia al vídeo sencer"
+
+#: ../../effects_and_compositions.rst:328
+msgid ""
+"There are specific effects and filters that work :ref:`effects-on_master` "
+"only."
+msgstr ""
+"Hi ha efectes i filtres específics que només funcionen :ref:`effects-"
+"on_master`."
+
+#: ../../effects_and_compositions.rst:340
+msgid "Effect Zones"
+msgstr "Zones d'efectes"
+
+#: ../../effects_and_compositions.rst:344
+msgid ""
+"Effect Zones allow you to apply effects to specific regions of tracks or the "
+"timeline. Zones can be set from the effect zone bar in the Timeline or from "
+"the interface in the effect panel."
+msgstr ""
+"Les zones d'efectes permeten aplicar-los a regions específiques a les pistes "
+"o la línia de temps. Les zones es poden establir des de la barra zones "
+"d'efectes a la línia de temps o des de la interfície del plafó d'efectes."
+
+#: ../../effects_and_compositions.rst:350
+msgid "Track Effect Zone"
+msgstr "Zona d'efectes de la pista"
+
+#: ../../effects_and_compositions.rst:357
+msgid "Master Effect Zone"
+msgstr "Zona d'efectes mestra"
+
+#: ../../effects_and_compositions.rst:363
+msgid "Masking Effects"
+msgstr "Efectes d'emmascarament"
+
+#: ../../effects_and_compositions.rst:367
+msgid ""
+"This feature allows to apply effects only to specific regions of a clip by "
+"using masks. In its current implementation the process requires three steps:"
+msgstr ""
+"Aquesta característica permet aplicar efectes només a regions específiques "
+"d'un clip mitjançant l'ús de màscares. En la seva implementació actual, el "
+"procés requereix tres passos:"
+
+#: ../../effects_and_compositions.rst:369
+msgid ""
+"Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
+"guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
+msgstr ""
+"Afegiu una de les tres màscares disponibles: :guilabel:`Alfa d'una forma "
+"(màscara)`, :guilabel:`Rotoscòpia (màscara)` o :guilabel:`Formes d'alfa "
+"(màscara)`."
+
+#: ../../effects_and_compositions.rst:370
+msgid "Add an effect (or effects) to be applied to the masked region"
+msgstr "Afegiu un efecte (o efectes) per a aplicar a la regió emmascarada"
+
+#: ../../effects_and_compositions.rst:371
+msgid ""
+"Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
+"step 2"
+msgstr ""
+"Afegiu l'efecte :guilabel:`Aplica la màscara` per a activar la màscara als "
+"efectes en el pas 2"
+
+#: ../../effects_and_compositions.rst:377
+msgid ""
+"Using Rotoscoping (mask) to apply the Saturation effect in one specific "
+"region only"
+msgstr ""
+"Utilitzeu la Rotoscòpia (màscara) per aplicar l'efecte de saturació només en "
+"una regió específica"
+
+#: ../../effects_and_compositions.rst:379
+msgid ""
+"You can apply more than one mask per clip by following the same three-step "
+"process."
+msgstr ""
+"Podeu aplicar més d'una màscara per clip seguint el mateix procés de tres "
+"passos."
+
+#: ../../effects_and_compositions.rst:401
+msgid "Video Effects"
+msgstr "Efectes de vídeo"
+
+#: ../../effects_and_compositions.rst:403
+#: ../../effects_and_compositions.rst:423
+msgid ""
+"See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` "
+"for an alphabetical list of effects and transitions."
+msgstr ""
+"Vegeu també :doc:`aquí <effects_and_compositions/"
+"effects_and_transitions_list>` una llista alfabètica dels efectes i "
+"transicions."
+
+#: ../../effects_and_compositions.rst:405
+msgid "The video effects are divided into the following categories:"
+msgstr "Els efectes de vídeo es divideixen en les categories següents:"
+
+#: ../../effects_and_compositions.rst:413
+msgid ""
+"The available effects are defined by :file:`.xml` files found in :file:`."
+"local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`)."
+msgstr ""
+"Els efectes disponibles es defineixen mitjançant fitxers :file:`.xml` que es "
+"troben a :file:`.local/share/kdenlive/effects` (p. ex., :file:`/usr/share/"
+"kdenlive/effects`)."
+
+#: ../../effects_and_compositions.rst:415
+msgid ""
+"These :file:`.xml` files contain the default values for the effects "
+"parameters. So if you don't like the default values for the effects in "
+"Kdenlive, you can modify the defaults by editing these :file:`.xml` files."
+msgstr ""
+"Aquests fitxers :file:`.xml` contenen els valors predeterminats dels "
+"paràmetres dels efectes. Per tant, si no us agraden els valors "
+"predeterminats per als efectes en el Kdenlive, podeu modificar els valors "
+"predeterminats editant aquests fitxers :file:`.xml`."
+
+#: ../../effects_and_compositions.rst:421
+msgid "Audio Effects"
+msgstr "Efectes d'àudio"
+
+#: ../../effects_and_compositions.rst:425
+msgid "The audio effects are divided into the following categories:"
+msgstr "Els efectes d'àudio es divideixen en les categories següents:"
+
+#: ../../effects_and_compositions.rst:437
+msgid "Compositions"
+msgstr "Composicions"
+
+#: ../../effects_and_compositions.rst:449
+msgid "Alphabetical List of all Effects and Compositions"
+msgstr "Llista alfabètica de tots els efectes i composicions"
+
+#: ../../effects_and_compositions.rst:461
+msgid "Audio Tools"
+msgstr "Eines d'àudio"
+
+#: ../../effects_and_compositions.rst:473
+msgid "Time Remapping"
+msgstr "Reassignació del temps"
+
+#: ../../effects_and_compositions.rst:477
+msgid ""
+"The Time Remap feature allows to keyframe the speed of a clip to achieve "
+"effects like speed ramping."
+msgstr ""
+"La característica Reassigna el temps permet crear fotogrames clau a la "
+"velocitat d'un clip per aconseguir efectes com els canvis progressius de "
+"velocitat."
+
+#: ../../effects_and_compositions.rst:483
+msgid "Example of using Time remapping for speed ramping"
+msgstr ""
+"Exemple d'ús de la reassignació de temps per a canvis progressius de "
+"velocitat"
+
+#: ../../effects_and_compositions.rst:489
+msgid "Speech-to-Text"
+msgstr "Text a veu"
+
+#: ../../effects_and_compositions.rst:501
+msgid "Subtitles"
+msgstr "Subtítols"
+
+#: ../../effects_and_compositions.rst:513
+msgid "Titles"
+msgstr "Títols"
+
+#: ../../effects_and_compositions.rst:525
+msgid "Effects Demos"
+msgstr "Demostracions d'efectes"
+
+#: ../../effects_and_compositions.rst:548
+msgid ""
+"The following three YouTube videos display the results of a number of the "
+"video effects available in **Kdenlive** (Spanish captioning)."
+msgstr ""
+"Els tres vídeos de YouTube següents mostren el resultat d'una sèrie "
+"d'efectes de vídeo disponibles en el **Kdenlive** (capítols en castellà)."
+
+#: ../../effects_and_compositions.rst:550
+msgid "|video_1|"
+msgstr "|video_1|"
+
+#: ../../effects_and_compositions.rst:552
+msgid "|video_2|"
+msgstr "|video_2|"
+
+#: ../../effects_and_compositions.rst:554
+msgid "|video_3|"
+msgstr "|video_3|"
+
+#: ../../effects_and_compositions.rst:557
+msgid "Another YouTube video (English Captions)."
+msgstr "Un altre vídeo de YouTube (capítols en anglès)."
+
+#: ../../effects_and_compositions.rst:559
+msgid "|video_4|"
+msgstr "|video_4|"
+
+#: ../../effects_and_compositions.rst:562
+msgid "See also this YouTube play list from |video_5|"
+msgstr "Vegeu també aquesta llista de reproducció de YouTube de |video_5|"
+
+#: ../../effects_and_compositions.rst:567
+msgid "**Notes**"
+msgstr "**Notes**"
+
+#: ../../effects_and_compositions.rst:569
+msgid ""
+"If you do not see a keyframe panel check whether the keyframe panel has been "
+"switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
+"or perhaps the effect is simply not keyframable."
+msgstr ""
+"Si no veieu un plafó de fotogrames clau comproveu si el plafó de fotogrames "
+"clau s'ha desactivat per a aquest efecte (icona |keyframe-disable| a la "
+"barra d'eines d'efectes) o potser l'efecte simplement no és de fotogrames "
+"clau."

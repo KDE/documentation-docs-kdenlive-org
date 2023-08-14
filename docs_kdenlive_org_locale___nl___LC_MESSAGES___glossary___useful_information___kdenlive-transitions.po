@@ -1,0 +1,591 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022, 2023.
+# Ronald Stroethoff <stroe43@zonnet.nl>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 00:53+0000\n"
+"PO-Revision-Date: 2023-02-27 10:57+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.2\n"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:13
+msgid "Kdenlive transitions"
+msgstr "Overgangen in Kdenlive"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:15
+msgid ""
+"Depending on their background in video editing, users may find **Kdenlive "
+"transitions** somewhat confusing. Hopefully, this article clears up this "
+"confusion surrounding Kdenlive transitions, at least to some degree."
+msgstr ""
+"Afhankelijk van hun achtergrond in videobewerking, zullen gebruikers "
+"**Kdenlive overgangen** ietwat verwarrend vinden. Hopelijk verheldert dit "
+"artikel deze verwarring rond Kdenlive overgangen, ten minste tot op zekere "
+"hoogte."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:19
+msgid "Kdenlive Transitions: 3-in-1"
+msgstr "Kdenlive overgangen: 3-in-1"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:21
+msgid ""
+"In Kdenlive, **transitions** can roughly be classified into three different "
+"types as follows:"
+msgstr ""
+"In Kdenlive kunnen **overgangen** ruwweg geclassificeerd worden in de "
+"volgende drie verschillende typen:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:24
+msgid "Type of Transition"
+msgstr "Typen overgangen"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:24
+msgid "Description"
+msgstr "Beschrijving"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:26
+msgid "Clip-to-Clip Transition"
+msgstr "Clip-naar-Clip overgangen"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:26
+msgid ""
+"Gradually replaces one clip by another clip. Has exactly two implicit "
+"keyframes, for start and end. This is what many users usually understand "
+"transitions to be."
+msgstr ""
+"Langzaam vervangt de ene clip de andere clip. Heeft exact twee impliciete "
+"keyframes, voor begin en einde. Dit is wat vele gebruikers gewoonlijk "
+"verstaan wat overgangen zijn."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:30
+msgid "Dynamic Compositing"
+msgstr "Dynamische composities"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:30
+msgid ""
+"For combining two clips, and the way of combination may vary with time. "
+"Supports user-defined keyframes that allow to control at least certain "
+"parameters."
+msgstr ""
+"Voor het combineren van twee clips, en de manier van combineren kan in de "
+"tijd variëren. Kan gebruik maken van door de gebruiker gedefinieerde "
+"keyframes waarmee tenminste bepaalde parameters gecontroleerd kan worden."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:34
+#: ../../glossary/useful_information/kdenlive-transitions.rst:151
+msgid "Layer Compositing"
+msgstr "Lagen compositie"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:34
+msgid ""
+"For combining two clips in a constant, static way: much like you see layer "
+"compositing in image tools. As no keyframes are supported, this type of "
+"compositing is static, thus invariant of time."
+msgstr ""
+"Voor het combineren van twee clips op een constante, statische manier: wat "
+"veel lijkt op hoe in afbeelding-bewerkingsprogramma's ziet gebeuren. Al geen "
+"keyframes worden gebruikt, dan is dit type compositie statisch, en dus "
+"onafhankelijk van de tijd."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:39
+msgid ""
+"Historically, Kdenlive borrows the term **transition**, with its 3-fold "
+"meaning, directly from the `multimedia engine MLT <https://mltframework.org/"
+">`_. MLT does all the video and audio processing according in your timeline. "
+"In the MLT universe, transitions basically «merge» video frames from upper "
+"tracks with video frames from lower tracks, producing result frames."
+msgstr ""
+"Historisch leent Kdenlive de term **overgangen**, met zijn drievoudige "
+"betekenis, direct uit de `multimedia-engine MLT <https://mltframework.org/"
+">`_. MLT doet alle video- en audioverwerking zoals in uw tijdlijn. In de MLT-"
+"universe, zijn overgangen het «mengen» van videoframes van bovenliggende "
+"tracks zich met videoframes van onderliggende tracks, en produceren "
+"resultaatframes."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:41
+msgid ""
+"In contrast, many users experienced in video editing have come to know "
+"transitions as a mechanism to transition between to adjacent clips. However, "
+"Kdenlive doesn’t even support such in-track transitions. Instead you need to "
+"place these clips on separate tracks, and then you add a Kdenlive transition "
+"for combining these clips in some clever way."
+msgstr ""
+"In tegenstelling, kennen vele ervaren gebruikers in videobewerking "
+"overgangen als een mechanisme van overgangen tussen naastgelegen clips. "
+"Kdenlive, echter, ondersteunt zelfs niet zulke in-track overgangen. In "
+"plaats daarvan moet u deze clips op gescheiden tracks plaatsen en daarna "
+"voegt u een Kdenlive overgang toe voor het combineren van deze clips op een "
+"slimme manier."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:45
+msgid "1. Clip-to-Clip Transitions"
+msgstr "1. Clip-naar-clip overgangen"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:47
+msgid ""
+"Let’s start with those **archetypical transitions** most users would "
+"probably expect when they hear the word *transition*: the dissolve, slide, "
+"and wipe transitions. See for yourself…"
+msgstr ""
+"Laten we starten met deze **oeroude overgangen** die de meeste gebruikers "
+"waarschijnlijk verwachten als het woord *overgang* (engels:transistion) "
+"horen: het oplossen, verschuiven, en veeg overgangen. Bekijk ze zelf…"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:56
+msgid ""
+"**Dissolve**: gradually transitions from one clip to another. So it’s kind "
+"of fading between the two clips. (See also the Wikipedia article on "
+"`Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
+msgstr ""
+"**Oplossen**: geleidelijke overgangen van een clip naar de andere. Het is "
+"dus een soort oplossen tussen de twee clips. (Zie ook het Wikipedia artikel "
+"over `Oplossen. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:65
+msgid ""
+"**Slide**: gradually replaces one clip by another clip, by traveling from "
+"one side of the frame to another (See also the Wikipedia article on `Wipe "
+"<https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
+msgstr ""
+"**Verschuiven**: geleidelijk wordt een clip vervangen door een andere clip, "
+"door van een zijde van de clip te bewegen naar de andere zijde van de clip "
+"(Zie ook hier het Wikipedia artikel over `Wipe <https://en.wikipedia.org/"
+"wiki/Wipe_%28transition%29>`_.)"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:74
+msgid ""
+"**Wipe**: one clip gradually replaces another clip, often in form of some "
+"shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/"
+"wiki/Wipe_%28transition%29>`_.)"
+msgstr ""
+"**Vegen**: een clip vervangt geleidelijk een andere clip, vaak in de vorm "
+"van een figuur. (Zie ook het Wikipedia artikel over `Wipe <https://en."
+"wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:78
+msgid ""
+"These three transitions don’t offer any (user-) keyframes. Instead, their "
+"*start* and *end* keyframes are *implicit* and fixed to the *start* and "
+"*end* of the transition respectively."
+msgstr ""
+"Deze drie overgangen hebben geen (gebruikers-) keyframes nodig. In plaats "
+"daarvan zijn hun *start* en *eind* keyframes *impliciet* en vastgekoppeld "
+"aan respectievelijk de *start* en het *eind* van de overgang."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:80
+msgid ""
+"**Because Kdenlive always uses two separate tracks for transitions**, "
+"there’s a peculiarity to note: normally, as time moves forward in the "
+"timeline, these transitions change (or kind of fade) from the clip on the "
+"upper track to the clip on the lower track. The somewhat strangely named "
+"transition parameter **Reverse** allows you to switch the track roles: if "
+"**Reverse** is checked, then these transitions change from the lower track "
+"to the upper track, as time progresses."
+msgstr ""
+"**Omdat Kdenlive altijd twee aparte tracks tracks gebruikt voor de "
+"overgangen**, is er een iets opmerkelijks op te merken: normaal gesproken, "
+"als tijd verder loopt in de tijdlijn, veranderen deze overgangen (of een "
+"soort oplossen) van de clip op de bovenliggende track naar de clip op de "
+"onderliggende track. De ietwat vreemdgenoemde parameter **Omkeren** laat u "
+"de twee tracks van functie verwisselen: als **Omkeren** is ingeschakeld, dan "
+"gaan deze overgangen van de onderliggende track naar de bovenliggende track, "
+"als de tijd verder gaat."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:82
+msgid "Simply put:"
+msgstr "Eenvoudig gezegd:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:84
+msgid "▼ **Reverse off**: transition from upper track to ▼ lower track."
+msgstr ""
+"▼ **Omkeren UIT**: overgang gaat van de bovenliggende track naar de ▼ "
+"onderliggende track."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:86
+msgid "▲ **Reverse on**: transition from lower track to ▲ upper track instead."
+msgstr ""
+"▲ **Omkeren AAN**: overgang gaat in plaats daarvan van de onderliggende "
+"track naar ▲ de bovenliggende track."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:89
+msgid "2. Dynamic Compositing Transitions"
+msgstr "2. Dynamische compositie overgangen"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:94
+msgid ""
+"To some degree, Kdenlive supports (simple) compositing in its timeline. "
+"Actually, even this simple compositing can get you a long way in many "
+"projects (as the above screenshot may hint at). Kdenlive currently offers "
+"the following (keyframable) compositing transitions:"
+msgstr ""
+"In een zekere mate, is bij Kdenlive (eenvoudige) composities mogelijk op de "
+"tijdlijn. En eigenlijk kan u met deze eenvoudige composities een heel eind "
+"komen in veel projecten (zoals de schermafdruk hierboven al een indruk "
+"daarvan kan geven). Kdenlive heeft op dit moment de volgende (keyframable) "
+"compositie overgangen:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:96
+msgid ""
+"**Affine** – allows to size, rotate, skew, and position. Together with "
+"keyframes, this transition is really versatile. Its only drawbacks are: it "
+"is slower than other complex transitions (due to the affine transformation), "
+"and it doesn’t support wipes (which only **Composite** and **Region** "
+"support in this class of transitions)."
+msgstr ""
+"**Affine** – hiermee is verschalen, roteren, scheeftrekken en positioneren "
+"mogelijk. In combinatie met keyframes, geeft deze overgang veel "
+"mogelijkheden. De enige nadelen daarvan zijn: het is langzamer dan andere "
+"complexe overgangen (vanwege de affine transformaties), en vegen zijn er "
+"niet mee mogelijk (wat alleen bij **Compositie** en **Vlakken** in deze "
+"klasse van overgangen mogelijk is)."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:97
+msgid ""
+"**Cairo Blend** – a simple compositing transition, supporting several "
+"compositing modes. In addition, the opacity of the upper frames can be "
+"controlled. This transition also supports keyframes."
+msgstr ""
+"**Cairo Vermengen** – een eenvoudige compositie overgang, waarmee "
+"verschillende compositie modes mogelijk zijn. Daarbij is ook de dekking van "
+"de bovenliggende frames regelbaar. Deze overgang kan ook met keyframes "
+"overweg."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:98
+msgid ""
+"**Cairo Affine Blend** – this has the functionality of both **Affine** and "
+"**Composite**: position, rotate (you can even control the center of "
+"rotation!), and finally skew. And all this is keyframable."
+msgstr ""
+"**Cairo Affine vermengen** – dit heeft de functionaliteit van zowel "
+"**Affine** en **Compositie**: positie, roteren (u kan zelfs het middelpunt "
+"van de rotatie instellen!), en tenslotte scheeftrekken. En dit alles is "
+"keyframable."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:99
+msgid ""
+"**Composite** – allows keyframed dissolves, wipes, and swipes; and all this "
+"in the same transition. In contrast to Affine, it does not support rotation "
+"or skewing. The downsides of Composite are: luma bleed, and less precise "
+"position control. When compared to Affine, the Composite transition is much "
+"faster, albeit at the cost of luma bleed."
+msgstr ""
+"**Compositie** – hiermee is keyframed oplossen, vegen, en swipes mogelijk; "
+"en dit alles in dezelfde overgang. In tegenstelling tot Affine, zijn er geen "
+"rotaties en scheeftrekken mee mogelijk. De nadelen van Compositie zijn: luma "
+"bleed, en minder nauwkeurige positie controle mee mogelijk. Bij vergelijking "
+"met Affine, is de Compositie overgang veel sneller, maar wel ten koste van "
+"luma bleed."
+
+# controleer menu "Samengesteld en transformatie", misschien beter "compositie & transformatie"
+#: ../../glossary/useful_information/kdenlive-transitions.rst:100
+msgid ""
+"**Composite & Transform** – this is a rather new transition that made its "
+"debut with Kdenlive 16.04. It allows to easily composite clips onto each "
+"other (supported several compositing modes), as well as to move the upper "
+"track clips. However, there is neither support for scaling, nor for "
+"rotation, but for dynamic opacity. But keyframes are supported. In those "
+"situations, use **Affine** or **Cairo Affine Blend** instead."
+msgstr ""
+"**Compositie en transformatie** – dit is een nogal nieuwe overgang die "
+"geïntroduceerd werd in Kdenlive 16.04. Hiermee zijn makkelijk samengestelde "
+"clips mee mogelijk (verschillende compositie modes zijn mogelijk), en ook "
+"verplaatsen van de bovenliggende track clips. Echter, verschalen en rotatie "
+"zijn niet mogelijk, maar dynamische dekking en keyframes zijn wel mogelijk. "
+"Gebruik in die situates **Affine** of **Cairo Affine Vermengen**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:101
+msgid ""
+"**Region** – like **Composite**, but restricted to a region in form of a "
+"matte. In the **Region** transition properties, this matte is called the "
+"**Transparency clip**."
+msgstr ""
+"**Vlak** – net zoals **Compositie**, maar beperkt tot een vlak in de vorm "
+"van een matte. In de eigenschappen van een **Vlak** overgang, wordt de matte "
+"de **Transparentie clip** genoemd."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:103
+msgid ""
+"**Fun Fact**: Admittedly, MLT and Kdenlive offer a lot of choice here; "
+"probably too much choice. A non-representative poll in our official Kdenlive "
+"G+ community showed that **Composite is used the most often**, followed by "
+"**Composite & Transform** and **Affine**."
+msgstr ""
+"**Leuk feitje**: Toegevend, MLT en Kdenlive geven erg veel keus hier; "
+"misschien teveel keus. Een niet-representatieve poll in onze officiële "
+"Kdenlive G+ community toonde aan dat **Compositie het meest wordt "
+"gebruikt**, gevolgd door **Compositie & transformatie** en **Affine**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:108
+msgid "Compositing with Transparency"
+msgstr "Compositie met transparantie"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:110
+msgid ""
+"**Composite & Transform** is Kdenlive’s new darling, as it will make life "
+"much easier for many, if not most Kdenlive users. When compared to "
+"**Affine**, this new transition is also faster in the standard compositing "
+"cases. Moreover, **Composite & Transform** defaults to the alpha compositing "
+"mode (paint) *over* – which is what probably most users need when "
+"compositing. In contrast, **Affine** uses the atop alpha compositing "
+"strategy that can drive unexpected users mad. But see for yourself…"
+msgstr ""
+"l**Compositie en overgang** is Kdenlive’s nieuwe lieveling, omdat het leven "
+"van veel, en misschien wel de meeste Kdenlive gebruikers veel makkelijker "
+"maakt. Vergeleken met **Affine**, is deze nieuwe overgang ook sneller bij de "
+"standaard compositie  gevallen. Daarbij, **Compositie en overgang** gebruikt "
+"standaard de alfa compositie mode (paint) *over* – wat waarschijnlijk de "
+"meeste gebruikers nodig hebben bij compositie. Daarentegen gebruikt "
+"**Affine** de atop alfa compositie strategie waarvan de resultaten "
+"onverwachte gebruikers wanhopig kan maken. Maar oordeel zelf…"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:119
+msgid ""
+"**Composite & Transform**: whatever semi or non-transparent is in the frame "
+"from the upper track, it will be painted over the frame from the lower "
+"track. Hence the name of this compositing mode: over. Please note: in the "
+"transition properties, this mode is to be found as **Compositing**: **Alpha "
+"Blend** instead."
+msgstr ""
+"**Compositie en transformatie**: alle semi en niet-transparante stukken in "
+"het frame van de bovenliggende track zal worden overgeschilderd door door "
+"het frame van de onderliggende track. Vandaar de naam van de compositie-"
+"mode: over. Merk op dat in de eigenschappen van de overgang, deze mode kan "
+"worden gevonden als **Compositing**: **Alpha Blend** in plaats daarvan."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:121
+msgid ""
+"In addition, **Composite**, **Cairo Blend**, and **Cairo Affine Blend** also "
+"use the same over compositing strategy, as Composite & Transform does. For "
+"**Cairo Blend** and **Cairo Affine Blend** this **Blend mode** is called "
+"**Normal** instead."
+msgstr ""
+"Daarnaast hebben, **Compositie**, **Cairo Vermengen**, en **Cairo Affine "
+"Vermengen** ook dezelfde over compositie strategie als Compositie & "
+"Transform heeft. Bij **Cairo Vermengen** en **Cairo Affine Vermengen** wordt "
+"deze **Meng mode** in plaats daarvan genoemd **Normaal**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:130
+msgid ""
+"**Affine**: as the simple rule of thumb, transparency is solely controlled "
+"by the *lower* track. Any transparency information from the upper track "
+"simply gets completely ignored. In consequence, if your lower frame has "
+"regions of full transparency, whatever falls within them on the upper frame "
+"will be invisible! You can see this result also in the screenshot."
+msgstr ""
+"**Affine**: als vuistregel, wordt de transparantie alleen gecontroleerd door "
+"de *onderliggende* track. Alle informatie over transparantie afkomstig van "
+"de bovenliggende track wordt eenvoudig compleet genegeerd. Als consequentie, "
+"als uw onderliggende frame vlakken met volledige transparantie heeft, dan "
+"zal alles wat daarin valt op de bovenliggende frame onzichtbaar zijn! U kan "
+"dit resultaat ook zien op het schermafdruk."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:132
+msgid ""
+"At least at this time, **Composite & Transform** does not support this alpha "
+"handling as **Affine** does."
+msgstr ""
+"Op dit moment, hanteert **Composite & Transform** deze alfa niet zoals "
+"**Affine** dat wel doet."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:138
+msgid "Please see also for further information:"
+msgstr "Voor meer informatie, zie ook:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:140
+msgid "our separate Kdenlive article on :ref:`compositing_with_transparency`."
+msgstr ""
+"Ons seperaat Kdenlive artikel over :ref:`compositing_with_transparency`."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:141
+msgid ""
+"the Wikipedia article on `alpha compositing <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_."
+msgstr ""
+"het Wikipedia artikel over `alpha compositing <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:142
+msgid ""
+"the SVG Open 2015 paper by Craig Northway on `understanding compositing and "
+"color extensions in SVG 1.2 in 30 minutes! <http://www.graphicalweb.org/2005/"
+"papers/abstractsvgopen/index.html>`_ – especially the Porter Duff operator "
+"table in chapter 6 with resulting alpha calculation column."
+msgstr ""
+"Het SVG Open 2015 paper door Craig Northway over `understanding compositing "
+"and color extensions in SVG 1.2 in 30 minutes! <http://www.graphicalweb."
+"org/2005/papers/abstractsvgopen/index.html>`_ – met name de Porter Duff "
+"operator tabel in hoofdstuk 6 met de resulterende alpha berekening kolom."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:146
+msgid "3. Layer Compositing Transitions"
+msgstr "3. Laag Compositie overgangen"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:148
+msgid ""
+"This third kind of Kdenlive/MLT transitions mostly **work similar to layer "
+"modes in image editors** (such as `GIMP <https://www.gimp.org/>`_). **These "
+"static layer compositing transitions do not have any parameters at all**. "
+"This category actually has the most Kdenlive transitions to offer:"
+msgstr ""
+"Deze derde soort van Kdenlive/MLT overgangen werkt grotendeels "
+"**vergelijkbaar met de laag modes in afbeelding-editors** (zoals `GIMP "
+"<https://www.gimp.org/>`_). **Deze statische laag compositie overgangen "
+"hebben helemaal geen parameters**. Deze categorie heeft eigenlijk de meeste "
+"Kdenlive overgangen in de aanbieding:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:154
+msgid "Addition"
+msgstr "Addition"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:155
+msgid "Addition Alpha"
+msgstr "Addition Alpha"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:156
+msgid "Burn"
+msgstr "Burn"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:157
+msgid "Color Only"
+msgstr "Color Only"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:158
+msgid "Darken"
+msgstr "Darken"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:159
+msgid "Difference"
+msgstr "Difference"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:160
+msgid "Divide"
+msgstr "Divide"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:161
+msgid "Dodge"
+msgstr "Dodge"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:162
+msgid "Grain Handling: Extract / Merge"
+msgstr "Grain Handling: Extract / Merge"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:163
+msgid "Hardlight / Overlay"
+msgstr "Hardlight / Overlay"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:164
+msgid "Hue"
+msgstr "Hue"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:165
+msgid "Lighten"
+msgstr "Lighten"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:166
+msgid "Multiply"
+msgstr "Multiply"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:167
+msgid "Overlay / Hardlight"
+msgstr "Overlay / Hardlight"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:168
+msgid "Saturation"
+msgstr "Saturation"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:169
+msgid "Screen"
+msgstr "Screen"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:170
+msgid "Softlight"
+msgstr "Softlight"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:171
+msgid "Substract"
+msgstr "Substract"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:172
+msgid "UV Map"
+msgstr "UV Map"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:173
+msgid "Value"
+msgstr "Value"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:174
+msgid "Video Quality Management"
+msgstr "Video Quality Management"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:177
+msgid "Alpha Compositing"
+msgstr "Alpha Compositing"
+
+# controleer in menu(een woord of twee woorden?
+#: ../../glossary/useful_information/kdenlive-transitions.rst:180
+msgid "Alpha atop"
+msgstr "Alpha atop"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:181
+msgid "Alpha in"
+msgstr "Alpha in"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:182
+msgid "Alpha out"
+msgstr "Alpha out"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:183
+msgid "Alpha over"
+msgstr "Alpha over"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:184
+msgid "Alpha XOR"
+msgstr "Alpha XOR"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:185
+msgid "Matte"
+msgstr "Matte"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:189
+msgid ""
+"Kdenlive’s (or, MLT’s) fixed compositing transitions don’t have a "
+"transparency parameter. To some extent, you may substitute the **Cairo "
+"Blend** transition, which has an opacity parameter."
+msgstr ""
+"Kdenlive’s (of, MLT’s) vaste compositie overgangen hebben geen transparantie-"
+"parameter. Tot op zekere hoogte kunt u ze vervangen door de **Cairo "
+"Vermengen** overgang, die wel een dekking parameter heeft."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:193
+msgid ""
+"Users are often asking for **Kdenlive support of in-track transitions** "
+"(Dissolve, Slide, Wipe). Unfortunately, due to the way Kdenlive’s multimedia "
+"engine MLT works, this requires a large amount of code rewrite, not to "
+"mention extensive testing afterwards to ensure the expected stability. Due "
+"to our limited developer resources, **in-track transitions are thus not on "
+"our near-term roadmap**. We will gladly accept coding help, so if you are "
+"willing to accept this challenge, please let us know!"
+msgstr ""
+"Gebruikers vragen vaak voor de ** mogelijkheid in Kdenlive van in-track "
+"overgangen** (Oplossen, Verschuiven, Vegen). Helaas, vanwege de manier "
+"waarop Kdenlive’s multimedia engine MLT werkt, vereist dit dat een groot "
+"stuk van de code moet worden herschreven, om maar niet spreken over dat "
+"daarna uitgebreid getest moet worden om er zeker van de verwachtte "
+"stabiliteit te zijn. Vanwege onze beperkte ontwikkel-capaciteit , **zijn in-"
+"track overgangen daarom niet op onze korte termijn roadmap**. We accepteren "
+"graag hulp bij het programmeren, als u bereidt bent om deze uitdaging aan te "
+"gaan, laat het ons dan weten."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:197
+msgid "In-track or same-track transition is implemented with Kdenlive 21.08."
+msgstr "In-track of same-track overgangen is aan Kdenlive 21.08 toegevoegd."

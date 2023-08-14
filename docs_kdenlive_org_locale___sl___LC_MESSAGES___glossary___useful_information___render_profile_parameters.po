@@ -1,0 +1,191 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) 2022 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdenlive package.
+#
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenlive ref manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-19 00:39+0000\n"
+"PO-Revision-Date: 2023-07-18 08:10+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:1
+msgid "The Kdenlive User Manual"
+msgstr "Uporabniški priročnik Kdenlive"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:1
+msgid ""
+"KDE, Kdenlive, render, parameter, documentation, user manual, video editor, "
+"open source, free, help, learn, render, render profile, render parameter"
+msgstr ""
+"KDE, Kdenlive, izris, izrisovanje, parameter, dokumentacija, uporabniški "
+"priročnik, montažni program, program za montažo, video urejevalnik, odprta "
+"koda, brezplačno, prosto, pomoč, učenje, upodabljanje, upodobi, izriši, "
+"profil izrisa, parameter izrisa"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:22
+msgid "Render Profile Parameters"
+msgstr "Parametri profila izrisa"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:25
+#: ../../glossary/useful_information/render_profile_parameters.rst:87
+msgid "Render Profile Parameters - How to read them"
+msgstr "Parametri profila izrisa - Kako jih prebrati"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:39
+msgid ""
+"Kdenlive now makes use of \"property presets\" delivered by the *melt* "
+"project (see `melt doco <https://www.mltframework.org/docs/presets/>`_). "
+"These presets are referenced by the *properties=<preset>* syntax. In the "
+"example illustrated, the render profile is referencing *lossless/H.264*. "
+"This refers to a property preset found in file H.264 found on the system at :"
+"file:`/usr/share/mlt/presets/consumer/avformat/lossless`."
+msgstr ""
+"Kdenlive zdaj uporablja »prednastavitve lastnosti«, ki jih je dostavil "
+"projekt *melt* (glejte `dokumentacijo melt <https: www.mltframework.org/docs/"
+"presets/=\"\">`_). Te prednastavitve se sklicujejo na skladnjo "
+"*properties=<preset>* . V prikazanem primeru se profil izrisovanja sklicuje "
+"na *lossless/H.264*. To se nanaša na prednastavitev lastnosti, najdeno v "
+"datoteki H.264, ki se nahaja na sistemu v :file:`/usr/share/mlt/presets/"
+"consumer/avformat/lossless`."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:41
+msgid ""
+"All the *<presets>* referenced in the render settings in Kdenlive will be "
+"referring to presets found at :file:`/usr/share/mlt/presets/consumer/"
+"avformat/` (on a default install). Note that you reference presets found in "
+"subdirectories of this folder using a :file:`<dirname>/<profile>` syntax as "
+"shown in the example above."
+msgstr ""
+"Vse prednastavitve  *<presets>*, navedene v nastavitvah izrisa v Kdenlive, "
+"se bodo nanašale na prednastavitve, ki se nahajajo v mapi :file:`/usr/share/"
+"mlt/presets/consumer/avformat/` (ob privzeti namestitvi). Upoštevajte, da se "
+"na prednastavitve, ki se nahajajo v podmapah te mape, sklicujete s skladnjo :"
+"file:`<imemape>/<profil>`, kot je prikazano v zgornjem primeru."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:50
+msgid ""
+"The preset files found at :file:`/usr/share/mlt/presets/consumer/avformat/` "
+"are simple text files that contain the *melt* parameters that define the "
+"rendering. An example is shown below. These are the same parameters that "
+"were used in earlier versions of Kdenlive – see next section for how to read "
+"those."
+msgstr ""
+"Prednastavitvene datoteke, ki se nahajajo v mapi :file:`/usr/share/mlt/"
+"presets/consumer/avformat/`, so preproste besedilne datoteke, ki vsebujejo "
+"parametre *melt* , ki določajo izrisovanje. Spodaj je prikazan primer. To so "
+"isti parametri, uporabljeni v starejših različicah Kdenlive – glejte "
+"naslednji razdelek, kako jih brati."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:52
+msgid "Contents of lossless/H.264:"
+msgstr "Vsebina brez izgube/H.264:"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:74
+msgid "Scanning Dropdown"
+msgstr "Spustno polje Preiskovanje"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:80
+msgid ""
+"This option controls the frame scanning setting the rendered file will have. "
+"Options are *Force Progressive*, *Force Interlaced* and *Auto*."
+msgstr ""
+"Ta možnost nadzoruje nastavitev branja sličic, ki jo bo imela izrisana "
+"datoteka. Možnosti so *Vsili progresivno*, *Vsili prepleteno* in *Samodejno*."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:83
+msgid ""
+":menuselection:`Auto` causes the rendered file to take the scanning settings "
+"that are defined in the :ref:`project_settings`. Use the other options to "
+"override the setting defined in the project settings."
+msgstr ""
+":menuselection:`Samodejno` povzroči, da izrisana datoteka sprejme nastavitve "
+"skeniranja, opredeljene v :ref:`nastavitvah projekta <project_settings>`. "
+"Uporabite druge možnosti, da preglasite nastavitev, opredeljeno v "
+"nastavitvah projekta."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:91
+msgid "|outdated|"
+msgstr "|zastarelo|"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:93
+msgid ""
+"The parameters that go into a render profile derive from the **ffmpeg** "
+"program."
+msgstr ""
+"Parametri, ki se hranijo v profilu izrisa, izhajajo iz programa **ffmpeg**."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:95
+msgid ""
+"This is a worked example to show how you can understand what these "
+"parameters mean using the **ffmpeg** documentation."
+msgstr ""
+"To je primer, ki prikazuje, kako lahko sp omočjo dokumentacije **ffmpeg** "
+"razumete, kaj ti parametri pomenijo."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:97
+msgid "In the example above the parameters are:"
+msgstr "V zgornjem primeru so parametri:"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:119
+msgid ""
+"Looking up the `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ "
+"translates these parameters as shown below."
+msgstr ""
+"Iskanje `ffmpeg help <https://linux.die.net/man/1/ffmpeg>`_ prevaja te "
+"parametre, kot je prikazano spodaj."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:121
+msgid "Main option is:"
+msgstr "Glavna možnost je:"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:127
+msgid "Video options are:"
+msgstr "Možnosti videa so:"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:139
+msgid "Audio options are:"
+msgstr "Zvočne možnosti so:"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:147
+msgid "The AVCodecContext AVOptions include:"
+msgstr "AVOptions za AVCodecContext vključujejo:"
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:156
+msgid ""
+"So all the render profile options are documented here in the **ffmpeg** "
+"documentation."
+msgstr ""
+"Tako so vse možnosti profila izrisa dokumentirani tukaj v dokumentaciji "
+"**ffmpeg**."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:158
+msgid ""
+"See also `MLT doco <https://www.mltframework.org/docs/presets/>`_ on "
+"ConsumerAvFormat."
+msgstr ""
+"Glejte tudi `dokumentacijo MLT <https://www.mltframework.org/docs/presets/"
+">`_ na ConsumerAvFormat."
+
+#: ../../glossary/useful_information/render_profile_parameters.rst:160
+msgid ""
+"See also :ref:`How to produce 4k and 2K videos, YouTube compatible "
+"<how_to_produce_4k_and_2K_videos_for_youtube>`."
+msgstr ""
+"Glejte tudi :ref:`How to produce 4k and 2K videos, YouTube compatible "
+"<how_to_produce_4k_and_2K_videos_for_youtube>`."

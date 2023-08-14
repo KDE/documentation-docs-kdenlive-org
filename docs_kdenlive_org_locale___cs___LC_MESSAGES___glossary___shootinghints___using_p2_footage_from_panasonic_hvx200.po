@@ -1,0 +1,79 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Vit Pelcak <vit@pelcak.org>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-27 00:38+0000\n"
+"PO-Revision-Date: 2022-05-19 12:40+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 22.04.1\n"
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:16
+msgid ""
+"Using P2 footage from the Panasonic HVX200 on GNU/Linux (tested on Ubuntu)"
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:20
+msgid ""
+"Using footage from P2 cards is easy when you know how! The MXF files on P2 "
+"cards cannot be read until you convert them with **mxfsplit**, a part of "
+"**FreeMXF**. The conversion is lossless and the resulting files contain both "
+"video and audio and can be edited in real time with **Kdenlive** (or "
+"**Blender 2.5+**) on most computers made within the last five years or so. "
+"Also, **FFMPEG** can read these files. This process is very fast because "
+"there is no transcoding and so can be done in the field while shooting just "
+"as fast as simply transferring the original P2 files."
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:24
+msgid "Step One: FreeMXF"
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:28
+msgid ""
+"Get the source code for **MFXlib** from `here <http://sourceforge.net/"
+"projects/mxflib/>`_."
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:31
+msgid ""
+"Then configure, compile, and install it by running the following code in the "
+"directory where you saved the source files:"
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:42
+msgid "This will get **mxfsplit** (part of **mxflib**) working."
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:46
+msgid "Step Two: Using mxfsplit"
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:50
+msgid ""
+"Here is a simple script that can be run in the terminal. It will convert all "
+"MXF files in a chosen directory into usable files. Do a search and replace "
+"for /source/directory and /destination/directory"
+msgstr ""
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:74
+msgid "Conclusion"
+msgstr "Závěrečné shrnutí"
+
+#: ../../glossary/shootinghints/using_p2_footage_from_panasonic_hvx200.rst:78
+msgid ""
+"Now you have a script that can easily prepare footage for editing (e.g. with "
+"**Kdenlive** or **Blender**) and for transcoding. **FFMPEG** can be used to "
+"transcode the resulting .MXF files to whatever format is preferred. For "
+"example, the following code would get the files ready for **Youtube**, "
+"**Vimeo**, etc.:"
+msgstr ""

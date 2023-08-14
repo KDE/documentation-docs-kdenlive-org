@@ -1,0 +1,78 @@
+# Spanish translations for docs_kdenlive_org_troubleshooting___faq.po package.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Automatically generated, 2021.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: docs_kdenlive_org_troubleshooting___faq\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 00:42+0000\n"
+"PO-Revision-Date: 2023-07-27 21:37-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../troubleshooting/faq.rst:17
+msgid "Frequently Asked Questions"
+msgstr "Preguntas frecuentes"
+
+#: ../../troubleshooting/faq.rst:21
+msgid "What components does Kdenlive use?"
+msgstr "¿Qué componentes usa Kdenlive?"
+
+#: ../../troubleshooting/faq.rst:23
+msgid ""
+"In effect, **Kdenlive** is a front end to `melt <http://www.mltframework.org/"
+"bin/view/MLT/MltMelt>`_ - which uses the MLT video framework. The MLT video "
+"framework relies on the FFMPEG project. **Kdenlive** writes :file:`sh.mlt` "
+"XML files that code the edit points and transitions and it then calls :file:"
+"`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to render the video."
+msgstr ""
+"En efecto, **Kdenlive** es una interfaz para usar `Melt <http://www."
+"mltframework.org/bin/view/MLT/MltMelt>`_ - que utiliza la infraestructura de "
+"video MLT. Ésta, a su vez, se vale del proyecto FFMPEG. **Kdenlive** escribe "
+"archivos XML :file:`sh.mlt` que codifican los puntos de edición y "
+"transiciones, para luego invocar a :file:`/usr/bin/kdenlive_render` y a :"
+"file:`/usr/bin/melt` para procesar el video."
+
+#: ../../troubleshooting/faq.rst:27
+msgid "How do I fix Audio Sync Issues?"
+msgstr "¿Cómo soluciono los problemas de sincronización del audio?"
+
+#: ../../troubleshooting/faq.rst:29
+msgid ""
+"Often this is caused by having mixtures of different audio sources in the "
+"project. Audio encoded with VBR (be it pure audio like MP3 or video with "
+"audio) can be problematic."
+msgstr ""
+"Frecuentemente esto es causado por tener una mezcla de distintas fuentes de "
+"audio en un proyecto. El audio comprimido con VBR (frecuencia de bits "
+"variable), esté este en un archivo exclusivamente de audio (como un MP3) o "
+"en un video que contenga también audio, puede ser problemático."
+
+#: ../../troubleshooting/faq.rst:31
+msgid ""
+"If your audio source is from a video file try extracting the audio from your "
+"video sources and transcoding the audio to WAV format. If you use the :ref:"
+"`extract_audio` feature of Kdenlive to do this it will write a .wav file for "
+"you."
+msgstr ""
+"Si la fuente de audio proviene de un archivo de video, se sugiere extraerlo "
+"a un archivo de audio en formato WAV. La función :ref:`extract_audio` de "
+"Kdenlive hará esto de forma sencilla."
+
+#: ../../troubleshooting/faq.rst:34
+msgid "If you have a pure audio source try transcoding that to WAV."
+msgstr ""
+"Si se tiene una fuente exclusivamente de audio, se recomienda intentar "
+"transcodificarla a formato WAV."
+
+#~ msgid "Contents"
+#~ msgstr "Contenido"

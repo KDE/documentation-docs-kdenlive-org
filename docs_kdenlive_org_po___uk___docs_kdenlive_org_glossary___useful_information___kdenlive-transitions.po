@@ -1,0 +1,585 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 00:53+0000\n"
+"PO-Revision-Date: 2023-02-27 08:56+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:13
+msgid "Kdenlive transitions"
+msgstr "Переходи Kdenlive"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:15
+msgid ""
+"Depending on their background in video editing, users may find **Kdenlive "
+"transitions** somewhat confusing. Hopefully, this article clears up this "
+"confusion surrounding Kdenlive transitions, at least to some degree."
+msgstr ""
+"Залежно від власного досвіду у редагуванні відео, деякі речі у **переходах "
+"Kdenlive** можуть видатися дещо незручною. Сподіваємося, ця стаття допоможе "
+"вам зрозуміти переходи у Kdenlive, принаймні, хоче трохи."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:19
+msgid "Kdenlive Transitions: 3-in-1"
+msgstr "Переходи Kdenlive: три в одному"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:21
+msgid ""
+"In Kdenlive, **transitions** can roughly be classified into three different "
+"types as follows:"
+msgstr "У Kdenlive **переходи** можна грубо поділити на три різних типи:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:24
+msgid "Type of Transition"
+msgstr "Тип переходу"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:24
+msgid "Description"
+msgstr "Опис"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:26
+msgid "Clip-to-Clip Transition"
+msgstr "Перехід від кліпу до кліпу"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:26
+msgid ""
+"Gradually replaces one clip by another clip. Has exactly two implicit "
+"keyframes, for start and end. This is what many users usually understand "
+"transitions to be."
+msgstr ""
+"Поступова заміна одного кліпу іншим кліпом. Має точно два неявних ключових "
+"кадри: початок і кінець. Це те, що багато користувачів вважають «переходом»."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:30
+msgid "Dynamic Compositing"
+msgstr "Динамічна композиція"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:30
+msgid ""
+"For combining two clips, and the way of combination may vary with time. "
+"Supports user-defined keyframes that allow to control at least certain "
+"parameters."
+msgstr ""
+"Для поєднання двох кліпів. Спосіб поєднання може змінюватися з часом. "
+"Передбачено підтримку визначених користувачем ключових кадрів, за допомогою "
+"яких можна керувати принаймні деякими параметрами."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:34
+#: ../../glossary/useful_information/kdenlive-transitions.rst:151
+msgid "Layer Compositing"
+msgstr "Композиція шарів"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:34
+msgid ""
+"For combining two clips in a constant, static way: much like you see layer "
+"compositing in image tools. As no keyframes are supported, this type of "
+"compositing is static, thus invariant of time."
+msgstr ""
+"Для поєднання двох кліпів у сталий, статичний спосіб — дуже подібне до того, "
+"як поєднуються шари у програмах для редагування зображень. Оскільки "
+"підтримки ключових кадрів не передбачено, цей тип композиції є статичним, "
+"тому незмінним з часом."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:39
+msgid ""
+"Historically, Kdenlive borrows the term **transition**, with its 3-fold "
+"meaning, directly from the `multimedia engine MLT <https://mltframework.org/"
+">`_. MLT does all the video and audio processing according in your timeline. "
+"In the MLT universe, transitions basically «merge» video frames from upper "
+"tracks with video frames from lower tracks, producing result frames."
+msgstr ""
+"Так історично склалося, що Kdenlive запозичив термін **перехід**, з його 3-"
+"складовим значенням, безпосередньо з `мультимедійного рушія MLT <https://"
+"mltframework.org/>`_. У MLT усі обробка даних відео та звукових даних "
+"відбувається відповідно до даних монтажного столу. У всесвіті MLT переходи "
+"на базовому рівні є «об'єднанням» кадрів відео з верхніх доріжок із кадрами "
+"відео із нижніх доріжок, у результаті якого формується остаточне відео."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:41
+msgid ""
+"In contrast, many users experienced in video editing have come to know "
+"transitions as a mechanism to transition between to adjacent clips. However, "
+"Kdenlive doesn’t even support such in-track transitions. Instead you need to "
+"place these clips on separate tracks, and then you add a Kdenlive transition "
+"for combining these clips in some clever way."
+msgstr ""
+"Втім, багато користувачів із досвідом редагування відео знають переходи як "
+"механізм переходу між сусідніми кліпами. Але у Kdenlive просто не "
+"передбачено підтримки таких переходів у межах доріжки. Замість цього, вам "
+"слід розташувати кліпи на окремих доріжках, а потім додати перехід Kdenlive "
+"для поєднання цих кліпів у певний вигадливий спосіб."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:45
+msgid "1. Clip-to-Clip Transitions"
+msgstr "1. Переходи від кліпу до кліпу"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:47
+msgid ""
+"Let’s start with those **archetypical transitions** most users would "
+"probably expect when they hear the word *transition*: the dissolve, slide, "
+"and wipe transitions. See for yourself…"
+msgstr ""
+"Розпочнімо з цих **архетипових переходів**, на які, ймовірно, сподівається "
+"більшість користувачів, коли чують про слово *перехід*: переходи розчинення, "
+"ковзання та витирання. Погляньте самі…"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:56
+msgid ""
+"**Dissolve**: gradually transitions from one clip to another. So it’s kind "
+"of fading between the two clips. (See also the Wikipedia article on "
+"`Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
+msgstr ""
+"**Розчинення**: поступові переходи від одного кліпу до іншого. Тип "
+"поступового переходу між двома кліпами. (Див. також статтю у Вікіпедії щодо "
+"`розчинення. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:65
+msgid ""
+"**Slide**: gradually replaces one clip by another clip, by traveling from "
+"one side of the frame to another (See also the Wikipedia article on `Wipe "
+"<https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
+msgstr ""
+"**Ковзання**: поступова заміна зображення з одного кліпу на зображення з "
+"іншого, шляхом пересування межі між ними з одного краю кадру до іншого (див. "
+"також статтю у Вікіпедії щодо `витирання <https://en.wikipedia.org/wiki/Wipe_"
+"%28transition%29>`_.)"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:74
+msgid ""
+"**Wipe**: one clip gradually replaces another clip, often in form of some "
+"shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/"
+"wiki/Wipe_%28transition%29>`_.)"
+msgstr ""
+"**Витирання**: зображення з одного кліпу замінює зображення з іншого, часто "
+"з використанням певної форми (див. також статтю у Вікіпедії щодо `витирання "
+"<https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:78
+msgid ""
+"These three transitions don’t offer any (user-) keyframes. Instead, their "
+"*start* and *end* keyframes are *implicit* and fixed to the *start* and "
+"*end* of the transition respectively."
+msgstr ""
+"У цих трьох переходах не пропонується жодних ключових кадрів (користувача). "
+"Замість цього, *початковий* і *кінцевий* ключові кадри переходу є *неявними* "
+"— їх пов'язано з *початком* і *кінцем* переходу, відповідно."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:80
+msgid ""
+"**Because Kdenlive always uses two separate tracks for transitions**, "
+"there’s a peculiarity to note: normally, as time moves forward in the "
+"timeline, these transitions change (or kind of fade) from the clip on the "
+"upper track to the clip on the lower track. The somewhat strangely named "
+"transition parameter **Reverse** allows you to switch the track roles: if "
+"**Reverse** is checked, then these transitions change from the lower track "
+"to the upper track, as time progresses."
+msgstr ""
+"**Оскільки Kdenlive завжди використовує дві окремих доріжки для переходів**, "
+"є певна особливість, яку слід зауважити: зазвичай, при пересуванні вперед "
+"лінійкою монтажного столу, ці переходи змінюються (або певним чином "
+"згасають) від кліпу на верхній доріжці до кліпу на нижній доріжці. Дещо "
+"дивним чином названий параметр переходу **Зворотний** надає вам змогу "
+"перемкнути ролі доріжок: якщо позначено пункт **Зворотний**, ці переходи "
+"змінюватимуться з нижньої доріжки до верхньої доріжки із поступом часу."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:82
+msgid "Simply put:"
+msgstr "Якщо простіше:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:84
+msgid "▼ **Reverse off**: transition from upper track to ▼ lower track."
+msgstr ""
+"▼ **Зворотний перехід вимкнено**: перехід від верхньої доріжки до ▼ нижньої "
+"доріжки."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:86
+msgid "▲ **Reverse on**: transition from lower track to ▲ upper track instead."
+msgstr ""
+"▲ **Зворотний перехід увімкнено**: перехід від нижньої доріжки до ▲ верхньої "
+"доріжки."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:89
+msgid "2. Dynamic Compositing Transitions"
+msgstr "2. Переходи із динамічною композицією"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:94
+msgid ""
+"To some degree, Kdenlive supports (simple) compositing in its timeline. "
+"Actually, even this simple compositing can get you a long way in many "
+"projects (as the above screenshot may hint at). Kdenlive currently offers "
+"the following (keyframable) compositing transitions:"
+msgstr ""
+"До певної міри, у Kdenlive передбачено підтримку (простої) композиції на "
+"монтажному столі програми. Насправді, навіть ця проста композиція може бути "
+"успішною у багатьох проєктах (як може натякнути вам наведений вище знімок "
+"вікна). Поточна версія Kdenlive пропонує такі композиційні переходи (за "
+"ключовими кадрами):"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:96
+msgid ""
+"**Affine** – allows to size, rotate, skew, and position. Together with "
+"keyframes, this transition is really versatile. Its only drawbacks are: it "
+"is slower than other complex transitions (due to the affine transformation), "
+"and it doesn’t support wipes (which only **Composite** and **Region** "
+"support in this class of transitions)."
+msgstr ""
+"**Афінний** – уможливлює зміну розмірів, обертання, перекошування і "
+"позиціювання. Разом із ключовими кадрами, цей перехід є насправді "
+"різнобічним. Єдиними його недоліками є повільність, якщо порівнювати із "
+"іншими складними переходами (через афінне перетворення), та те, що немає "
+"підтримки витирань (їхню підтримку передбачено лише у варіантах "
+"**Композиція** і **Ділянка** у цьому класі переходів)."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:97
+msgid ""
+"**Cairo Blend** – a simple compositing transition, supporting several "
+"compositing modes. In addition, the opacity of the upper frames can be "
+"controlled. This transition also supports keyframes."
+msgstr ""
+"**Злиття Cairo** – простий композиційний перехід із підтримкою декількох "
+"режимів композиції. Крім того, можна керувати рівнем непрозорості верхніх "
+"кадрів. У цьому переході також передбачено підтримку ключових кадрів."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:98
+msgid ""
+"**Cairo Affine Blend** – this has the functionality of both **Affine** and "
+"**Composite**: position, rotate (you can even control the center of "
+"rotation!), and finally skew. And all this is keyframable."
+msgstr ""
+"**Афінне злиття Cairo** – поєднує функціональні можливості переходів "
+"**Афінний** і **Композиція**: позиція, обертання (ви навіть можете керувати "
+"центром обертання) і, нарешті, перекошування. І всюди тут можна "
+"використовувати ключові кадри."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:99
+msgid ""
+"**Composite** – allows keyframed dissolves, wipes, and swipes; and all this "
+"in the same transition. In contrast to Affine, it does not support rotation "
+"or skewing. The downsides of Composite are: luma bleed, and less precise "
+"position control. When compared to Affine, the Composite transition is much "
+"faster, albeit at the cost of luma bleed."
+msgstr ""
+"**Композиція** – уможливлює розчинення, витирання та ковзання із врахуванням "
+"ключових кадрів; і усе це в одному переході. На відміну від афінного "
+"переходу, обертання і перекошування не передбачено. Недоліками композиції є "
+"вицвітання яскравості та менш точне керування позицією. Якщо порівнювати з "
+"афінним переходом, композиційний перехід є швидшим, але ціною цього є "
+"вицвітання яскравості."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:100
+msgid ""
+"**Composite & Transform** – this is a rather new transition that made its "
+"debut with Kdenlive 16.04. It allows to easily composite clips onto each "
+"other (supported several compositing modes), as well as to move the upper "
+"track clips. However, there is neither support for scaling, nor for "
+"rotation, but for dynamic opacity. But keyframes are supported. In those "
+"situations, use **Affine** or **Cairo Affine Blend** instead."
+msgstr ""
+"**Композиція і перетворення** – доволі новий перехід, який дебютував у "
+"Kdenlive 16.04. Надає змогу без проблем створювати композиції кліпу на "
+"іншому кліпі (передбачено підтримку декількох режимів композиції), а також "
+"пересування кліпів на верхніх доріжках. Втім, не передбачено підтримки ні "
+"масштабування, ні обертання, окрім режиму динамічної непрозорості, але "
+"передбачено підтримку ключових кадрів. Якщо потрібне обертання або "
+"масштабування, скористайтеся переходом **Афінний** або **Афінне злиття "
+"Cairo**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:101
+msgid ""
+"**Region** – like **Composite**, but restricted to a region in form of a "
+"matte. In the **Region** transition properties, this matte is called the "
+"**Transparency clip**."
+msgstr ""
+"**Ділянка** – подібний до **Композиції**, але обмежений ділянкою у формі "
+"матування. У властивостях переходу **Ділянка** це матування має назву **Кліп "
+"прозорості**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:103
+msgid ""
+"**Fun Fact**: Admittedly, MLT and Kdenlive offer a lot of choice here; "
+"probably too much choice. A non-representative poll in our official Kdenlive "
+"G+ community showed that **Composite is used the most often**, followed by "
+"**Composite & Transform** and **Affine**."
+msgstr ""
+"**Цікавий факт**: звичайно ж, MLT і Kdenlive пропонують широкий спектр "
+"вибору; мабуть, навіть занадто широкий. Нерепрезентативне опитування у нашій "
+"офіційній спільноті Kdenlive на G+ показало, що **найчастіше користуються "
+"композицією**, далі, переходами **Композиція і перетворення** та **Афінний**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:108
+msgid "Compositing with Transparency"
+msgstr "Композиція із прозорістю"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:110
+msgid ""
+"**Composite & Transform** is Kdenlive’s new darling, as it will make life "
+"much easier for many, if not most Kdenlive users. When compared to "
+"**Affine**, this new transition is also faster in the standard compositing "
+"cases. Moreover, **Composite & Transform** defaults to the alpha compositing "
+"mode (paint) *over* – which is what probably most users need when "
+"compositing. In contrast, **Affine** uses the atop alpha compositing "
+"strategy that can drive unexpected users mad. But see for yourself…"
+msgstr ""
+"**Композиція і перетворення** є новим улюбленцем Kdenlive, оскільки робить "
+"життя простішим для багатьох, якщо не більшості, користувачів Kdenlive. Якщо "
+"порівнювати з **Афінним** переходом, цей новий перехід також швидший за "
+"стандартні випадки композиції. Крім того, **Композиція і перетворення** "
+"типово працює у режимі альфа-композиції (малювання) *над зображенням* – саме "
+"того, що, ймовірно, більшість користувачів потребують при компонуванні. Як "
+"протилежність, **Афінний** перехід використовує композицію прозорості "
+"«atop», що може викликати лють у тих, хто цього не очікує. Втім, вибирайте "
+"самі…"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:119
+msgid ""
+"**Composite & Transform**: whatever semi or non-transparent is in the frame "
+"from the upper track, it will be painted over the frame from the lower "
+"track. Hence the name of this compositing mode: over. Please note: in the "
+"transition properties, this mode is to be found as **Compositing**: **Alpha "
+"Blend** instead."
+msgstr ""
+"**Композиція і перетворення**: що б не було напівпрозорим або непрозорим у "
+"кадрі з вищої доріжки, його буде замальовано кадром з нижчої доріжки. Звідси "
+"і назва цього режиму композиції: над (over). Будь ласка, зауважте: у "
+"властивостях переходу цей режим можна знайти у пункті **Композиція**: "
+"**Злиття з прозорістю**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:121
+msgid ""
+"In addition, **Composite**, **Cairo Blend**, and **Cairo Affine Blend** also "
+"use the same over compositing strategy, as Composite & Transform does. For "
+"**Cairo Blend** and **Cairo Affine Blend** this **Blend mode** is called "
+"**Normal** instead."
+msgstr ""
+"Крім того, **Композиція**, **Злиття Cairo** і **Афінне злиття Cairo** також "
+"використовують ту саму стратегію «over», що і «Композиція і перетворення». У "
+"**Злитті Cairo** і **Афінному злитті Cairo** цей **Режим злиття** "
+"називається **Звичайний**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:130
+msgid ""
+"**Affine**: as the simple rule of thumb, transparency is solely controlled "
+"by the *lower* track. Any transparency information from the upper track "
+"simply gets completely ignored. In consequence, if your lower frame has "
+"regions of full transparency, whatever falls within them on the upper frame "
+"will be invisible! You can see this result also in the screenshot."
+msgstr ""
+"**Афінний**: просте правило — прозорість визначається лише *нижньою* "
+"доріжкою. Будь-які дані щодо прозорості з верхньої доріжки буде просто "
+"проігноровано. Як наслідок, якщо на вашій нижній доріжці є ділянки із повною "
+"прозорістю, усе, що потрапить до них на верхньому кадрі, буде невидимим! Ви "
+"можете бачити результат на знімку вікна."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:132
+msgid ""
+"At least at this time, **Composite & Transform** does not support this alpha "
+"handling as **Affine** does."
+msgstr ""
+"Принаймні на цей момент, у **Композиції і перетворенні** не передбачено "
+"підтримки такої обробки прозорості, як у **Афінному**."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:138
+msgid "Please see also for further information:"
+msgstr "Будь ласка, ознайомтеся також із наступними відмостями:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:140
+msgid "our separate Kdenlive article on :ref:`compositing_with_transparency`."
+msgstr ""
+"наша окрема стаття Kdenlive щодо :ref:`композиції з прозорістю "
+"<compositing_with_transparency>`."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:141
+msgid ""
+"the Wikipedia article on `alpha compositing <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_."
+msgstr ""
+"Стаття у Вікіпедії щодо `альфа-композитингу <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:142
+msgid ""
+"the SVG Open 2015 paper by Craig Northway on `understanding compositing and "
+"color extensions in SVG 1.2 in 30 minutes! <http://www.graphicalweb.org/2005/"
+"papers/abstractsvgopen/index.html>`_ – especially the Porter Duff operator "
+"table in chapter 6 with resulting alpha calculation column."
+msgstr ""
+"Доповідь на SVG Open 2015 Крейга Нортвея щодо `розуміння композитингу і "
+"розширень кольорів у SVG 1.2 за 30 хвилин! <http://www.graphicalweb.org/2005/"
+"papers/abstractsvgopen/index.html>`_ — особливо таблиця операторів Портера "
+"Даффа у главі 6 із стовпчиком результатів обчислення прозорості."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:146
+msgid "3. Layer Compositing Transitions"
+msgstr "3. Переходи із композицією шарів"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:148
+msgid ""
+"This third kind of Kdenlive/MLT transitions mostly **work similar to layer "
+"modes in image editors** (such as `GIMP <https://www.gimp.org/>`_). **These "
+"static layer compositing transitions do not have any parameters at all**. "
+"This category actually has the most Kdenlive transitions to offer:"
+msgstr ""
+"Цей третій тип переходів Kdenlive/MLT здебільшого **працює подібно до "
+"режимів шарів у редакторах зображень** (зокрема `GIMP <https://www.gimp.org/"
+">`_). **Ці композиційні переходи зі статичними шарами не мають параметрів "
+"взагалі**. Ця категорія, насправді, містить більшість переходів Kdenlive:"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:154
+msgid "Addition"
+msgstr "Додавання"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:155
+msgid "Addition Alpha"
+msgstr "Додавальна прозорість"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:156
+msgid "Burn"
+msgstr "Вигорання"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:157
+msgid "Color Only"
+msgstr "Лише колір"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:158
+msgid "Darken"
+msgstr "Затемнення"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:159
+msgid "Difference"
+msgstr "Різниця"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:160
+msgid "Divide"
+msgstr "Ділення"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:161
+msgid "Dodge"
+msgstr "Висвітлювання"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:162
+msgid "Grain Handling: Extract / Merge"
+msgstr "Видобування зерен/Об'єднання зерен"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:163
+msgid "Hardlight / Overlay"
+msgstr "Жорстке світло / Накладання"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:164
+msgid "Hue"
+msgstr "Відтінок"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:165
+msgid "Lighten"
+msgstr "Освітлення"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:166
+msgid "Multiply"
+msgstr "Множення"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:167
+msgid "Overlay / Hardlight"
+msgstr "Накладання / Жорстке світло"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:168
+msgid "Saturation"
+msgstr "Насиченість"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:169
+msgid "Screen"
+msgstr "Екран"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:170
+msgid "Softlight"
+msgstr "Softlight"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:171
+msgid "Substract"
+msgstr "Віднімання"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:172
+msgid "UV Map"
+msgstr "UV-карта"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:173
+msgid "Value"
+msgstr "Значення"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:174
+msgid "Video Quality Management"
+msgstr "Керування якістю відео"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:177
+msgid "Alpha Compositing"
+msgstr "Композиція прозорості"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:180
+msgid "Alpha atop"
+msgstr "Alpha atop"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:181
+msgid "Alpha in"
+msgstr "Alpha in"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:182
+msgid "Alpha out"
+msgstr "Alpha out"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:183
+msgid "Alpha over"
+msgstr "Alpha over"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:184
+msgid "Alpha XOR"
+msgstr "Alpha XOR"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:185
+msgid "Matte"
+msgstr "Matte"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:189
+msgid ""
+"Kdenlive’s (or, MLT’s) fixed compositing transitions don’t have a "
+"transparency parameter. To some extent, you may substitute the **Cairo "
+"Blend** transition, which has an opacity parameter."
+msgstr ""
+"У фіксованих композиційних переходах Kdenlive (або MLT) немає параметра "
+"прозорості. Певним чином, ви можете замінити його переходом **Злиття "
+"Cairo**, у якому є параметр непрозорості."
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:193
+msgid ""
+"Users are often asking for **Kdenlive support of in-track transitions** "
+"(Dissolve, Slide, Wipe). Unfortunately, due to the way Kdenlive’s multimedia "
+"engine MLT works, this requires a large amount of code rewrite, not to "
+"mention extensive testing afterwards to ensure the expected stability. Due "
+"to our limited developer resources, **in-track transitions are thus not on "
+"our near-term roadmap**. We will gladly accept coding help, so if you are "
+"willing to accept this challenge, please let us know!"
+msgstr ""
+"Користувачі часто просять про **підтримку у Kdenlive переходів у межах "
+"доріжки** (розчинення, ковзання, витирання). На жаль, через спосіб, у який "
+"працює мультимедійний рушій Kdenlive, MLT, це потребує переписування значної "
+"частини коду, вже не кажучи про розширене тестування результатів для "
+"забезпечення очікуваної стабільності. Через обмеженість ресурсів "
+"розробників, **переходи у межах однієї доріжки не є частиною плану на "
+"найближче майбутнє**. Ми із задоволенням приймемо допомогу від програмістів. "
+"Тому, якщо ви хочете відгукнутися на цей виклик, будь ласка, повідомте нам "
+"про це!"
+
+#: ../../glossary/useful_information/kdenlive-transitions.rst:197
+msgid "In-track or same-track transition is implemented with Kdenlive 21.08."
+msgstr ""
+"Переходи у доріжці або на тій самій доріжці реалізовано у Kdenlive 21.08."

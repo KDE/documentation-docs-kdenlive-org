@@ -1,0 +1,367 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 00:22+0000\n"
+"PO-Revision-Date: 2021-12-22 23:02+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:13
+msgid "Compositing with transparency"
+msgstr "Композиція із прозорістю"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:15
+msgid ""
+"When transparency is involved in both frames processed by one of Kdenlive’s "
+"dynamic compositing transitions, the outcome may be surprising to some of us "
+"users. Luckily, things aren’t as inexplicable as they appear, so let’s dive "
+"right into transparency and transitions…"
+msgstr ""
+"Якщо прозорість використано у обох кадрах, які обробляє один з динамічних "
+"композиційних переходів Kdenlive, результат може бути дещо несподіваним для "
+"декого з користувачів. На щастя, речі не є аж такими загадковими, як "
+"здається. Отже, давайте зануримося у світ прозорості і переходів…"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:18
+msgid "Transparency & Dynamic Transitions"
+msgstr "Переходи із прозорістю та динамічні переходи"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:20
+msgid ""
+"When it comes to handling transparency, Kdenlive’s :ref:"
+"`kdenlive_transitions` fall into two categories:"
+msgstr ""
+"Якщо йдеться про роботу із прозорістю, :ref:`переходи "
+"<kdenlive_transitions>` у Kdenlive можна поділити на дві категорії:"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:22
+msgid "**Affine:** uses the so-called **atop** compositing operator."
+msgstr "**Афінні:** використовують так званий оператор композиції **згори**."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:23
+msgid ""
+"**Composite**, **Composite & Transform**, **Cairo (Affine) Blend**: uses the "
+"**over** compositing operator instead."
+msgstr ""
+"**Композиція**, **Композиція і перетворення**, **Змішування (афінне) "
+"Cairo**: натомість використовують оператор композиції **над**."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:25
+msgid ""
+"So what does these **atop** and **over** really mean? Let’s discover what "
+"these compositing operators do using a typical title and semi-transparent "
+"background example. For simplicity, we first will ignore the **Opacity** "
+"parameter of the aforementioned transitions to keep things easier to grasp. "
+"And after we’ve mastered this step, we will finally look at how the opacity "
+"parameter fits into the full picture."
+msgstr ""
+"Отже, що насправді означають усі ці **atop** і **over**? Розгляньмо "
+"результати застосування цих композиційних операторів до прикладу з типовими "
+"титрами та напівпрозорим тлом. Для простоти ми спочатку ігноруватимемо "
+"параметр **Непрозорість** вищезгаданих переходів, щоб спростити розуміння "
+"речей. Після того, як розберемося із цим кроком, ми, нарешті, поглянемо на "
+"те, як вкладається у загальну картину параметр непрозорості."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:29
+msgid "Affine: Atop Compositing"
+msgstr "Афінне перетворення: композиція «згори»"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:38
+msgid ""
+"The result of the **atop** compositing is best explained at first by showing "
+"its outcome: Text from the topmost title clip (partly) vanishes in those "
+"regions where the underlying clip on the middle track is (semi) transparent."
+msgstr ""
+"Результат композиції **atop** найпростіше пояснити, поглянувши на отримане: "
+"текст із найвищого кліпу титрів (частково) зникає на тих ділянках, де кліп-"
+"підкладка на середній доріжці є (напів) прозорим."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:40
+msgid ""
+"The checkerboard clip on the bottom track just serves for illustrational "
+"purposes, so we can better see the transparent regions."
+msgstr ""
+"Кліп-шахівниця на нижній доріжці є лише ілюстративним, щоб краще бачити "
+"прозорі ділянки."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:42
+msgid ""
+"Please notice how the two **Affine** transitions are chained: first, the "
+"upper Affine composes the title clip onto the gradient background. Then, the "
+"lower Affine composes the result onto the checkboard background."
+msgstr ""
+"Будь ласка, зауважте, як поєднано два **Афінних** переходи. Спочатку, "
+"верхній афінний перехід поєднує кліп титрів із градієнтним тлом. Далі, "
+"нижній афінний перехід накладає результат на тло-шахівницю."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:51
+msgid ""
+"But how does the **Affine** transition exactly handle transparency? Let’s "
+"look at this hand-made illustration, where we have two pixels with some "
+"transparency each (the alpha values, αA and αB). It’s important to **not** "
+"confuse pixel transparency with the opaque parameter of transitions."
+msgstr ""
+"Як саме **Афінне** перетворення працює із прозорістю? Погляньмо на на цю "
+"створену вручну ілюстрацію, де ми маємо дві пікселі із певним рівнем "
+"непрозорості для кожного (значення α αA і αB). Важливо **не** плутати "
+"непрозорість пікселів із параметром непрозорості самих переходів."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:53
+msgid ""
+"Our red pixel comes from the upper track frame (B), whereas the green pixel "
+"stems from the lower track frame (A). An alpha of 0 means a completely "
+"transparent pixel, whereas an alpha of 1.0 (or 255) means totally opaque "
+"pixel."
+msgstr ""
+"Наш червоний піксель походить з кадру верхньої доріжки (B), а зелений "
+"піксель проринає з кадру нижньої доріжки (A). Значення α = 0 означає "
+"повністю прозорий пікселль, а значення α = 1.0 (або 255) — повністю "
+"непрозорий піксель."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:55
+msgid ""
+"The **Affine** transition now simply ignores the transparency information "
+"from the upper frame pixel (the red one)."
+msgstr ""
+"Тепер, **Афінний** перехід просто ігнорує дані прозорості з пікселя "
+"верхнього кадру (червоного)."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:57
+msgid ""
+"It solely uses the transparency information (green) contained in the lower "
+"track frames! Or more mathematical: α = αA"
+msgstr ""
+"Використано лише дані прозорості (зеленого кольору), які містяться у кадрах "
+"нижчої доріжки! Якщо визначати усе мовою математичних формул, α = αA"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:59
+msgid ""
+"And that’s the explanation why in our example above the title text vanishes "
+"in those regions where the middle clip is transparent."
+msgstr ""
+"І це є поясненням того, чому у нашому прикладі вище текст титрів зникав на "
+"тих ділянках, де середній кліп був прозорим."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:65
+msgid "Composite & Co: Over Compositing"
+msgstr "Композиція і Co: накладальна композиція"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:74
+msgid ""
+"Again, we basically use the same setup as before, but this time we use "
+"**Composite & Transform** in place of **Affine** transitions. We chain the "
+"transitions as before, so that the lower transition works on the outcome of "
+"the upper transition."
+msgstr ""
+"Знову ж таки, на базовому рівні ми використовуємо ту саму конфігурацію, що і "
+"раніше, але цього разу ми скористаємося переходом **Композиція і "
+"перетворення** замість **Афінного** переходу. Ми створимо ланцюжок "
+"переходів, як і раніше, тому нижній перехід працюватиме з результатом "
+"верхнього переходу."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:76
+msgid ""
+"But look! The outcome is different! The result of the **over** operator is "
+"probably more to the expectations of most users. Now, the top title clip "
+"doesn’t get (*sorry*) clipped anymore."
+msgstr ""
+"Дивіться! Маємо інший результат! Результат застосування оператора **over**, "
+"ймовірно, більше відповідає очікуванням більшості користувачів. Тепер, "
+"верхній кліп титрів (*вибачте*) більше не обрізається."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:85
+msgid ""
+"As the **over** operation produces results more to the expectations of many "
+"users, how does it handle transparency exactly?"
+msgstr ""
+"Оскільки дія **over** дає результат, який більше відповідає очікуванням "
+"багатьох користувачів, як саме виконується у ньому обробка прозорості?"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:87
+msgid ""
+"**Simply spoken:** if you paint some semi-transparent pixel over another "
+"semi-transparent pixel, then **the result will be less transparent**. It "
+"will be even less transparent than the lower frame pixel transparency. This "
+"is what we would probably expect from painting with semi-opaque paint."
+msgstr ""
+"**Простими словами:** якщо ви намалюєте якийсь напівпрозорий піксель над "
+"іншим напівпрозорим пікселем, **результат буде менш прозорим за обидва**. "
+"Він буде навіть менш прозорим за піксель нижнього кадру. Це те, чого ви, "
+"ймовірно, очікуєте від малювання напівнепрозорою фарбою."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:89
+msgid ""
+"Calculating the resulting transparency for two given pixels from an upper "
+"frame (B) and a lower frame (A) is thus more involved this time."
+msgstr ""
+"Цього разу результат обчислення прозорості для двох заданих пікселів з "
+"верхнього кадру (B) і нижнього кадру (A) більше враховує значення прозорості "
+"цих пікселів."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:91
+msgid ""
+"Again, we start with the transparency of the lower frame pixel (green) as a "
+"base. But this time, we can’t ignore the transparency of the (red) upper "
+"frame pixel. But simply adding both transparencies wouldn’t yield sensible "
+"results; what does a transparency of 2.0 or 511 mean?"
+msgstr ""
+"Знову ж таки, ми почали з прозорості пікселя нижнього кадру (зеленого) як "
+"основи. Але цього разу ми не можемо ігнорувати прозорість (червоного) "
+"пікселя верхнього кадру. Але просте додавання прозоростей обох пікселів не "
+"дасть притомних результатів — що означала б прозорість у 2.0 або 511?"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:93
+msgid ""
+"So the red pixel transparency is **scaled**: you may think of shrinking the "
+"original 0-1.0 scale into the available space above the green transparency "
+"value. The resulting transparency then is the sum of the green base alpha "
+"value, plus the rescaled red alpha value. Remember, we kind of paint over "
+"the lower frame. For the formular-affines: α = αA + αB (1-αA)"
+msgstr ""
+"Тому рівень прозорості червоного пікселя **масштабовано**: результат "
+"стискається до початкового діапазону 0-1.0 у доступний діапазон над рівнем "
+"прозорості зеленого пікселя. Рівень прозорості результату є сумою значення α "
+"зеленої основи плюс масштабоване значення α червоного пікселя. Пам'ятайте, "
+"ми начебто малюємо над нижнім кадром. Формальна формула: α = αA + αB (1-αA)"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:98
+msgid "Transition Parameter Opacity"
+msgstr "Параметр непрозорості переходу"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:100
+msgid ""
+"The dynamic compositing transitions also feature a parameter called "
+"**Opacity**. It’s easy to confuse it with pixel transparency, but it’s "
+"something different. The opacity parameter applies to the upper frames (B) "
+"only. It is kind of a master control … but how does it work?"
+msgstr ""
+"У переходах динамічної композиції також передбачено параметр із назвою "
+"**Непрозорість**. Його досить просто переплутати із прозорістю пікселів, але "
+"це дещо інше. Параметр непрозорості застосовується лише до верхніх кадрів "
+"(B). Це тип головного керування… але як він працює?"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:109
+msgid ""
+"Let’s start with the **Affine** transition, again. Above, we’ve seen that "
+"Affine ignores the transparency of the (red) upper frame pixels. And Affine "
+"also **ignores** the **Opacity** parameter when calculating the result "
+"**pixel transparency**."
+msgstr ""
+"Почнімо знову з **Афінного** переходу. Вище ми бачили, що афінне "
+"перетворення ігнорує рівень прозорості (червоних) пікселів верхнього кадру. "
+"І афінний перехід також **ігнорує** параметр **Непрозорість** при обчислення "
+"**прозорості пікселів** результату."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:111
+msgid ""
+"Instead, the Opacity parameter influences how the result **pixel color** "
+"gets calculated: this is a linear interpolation between the color of the "
+"upper frame (B) pixel and the lower frame (A) pixel. The Opacity now "
+"controls the exact blending point. An opacity of 0.0 results in only the "
+"lower frame (B) pixel color, while 1.0 solely yields the upper frame pixel "
+"(A) color. 0.5 would be halfway between the two pixel colors."
+msgstr ""
+"Замість цього, параметр «Непрозорість» впливає на обчислення **кольору "
+"пікселя** результату: це лінійна інтерполяція між кольором пікселя верхнього "
+"кадру (B) і кольором пікселя нижнього кадру (A). Параметр «Непрозорість» "
+"керує точкою злиття. Рівень непрозорості 0.0 дає колір пікселя нижнього "
+"кадру (B), рівень 1.0 — колір пікселя верхнього кадру (A). 0.5 — значення "
+"посередині між кольорами двох пікселів."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:113
+msgid ""
+"To sum up: in case of the **Affine** transition, **the Opacity parameter "
+"solely affects color blending** between upper frame (B) and lower frame (A) "
+"pixels."
+msgstr ""
+"Резюме: у випадку **Афінного** перетворення, **параметр «Непрозорість» "
+"впливає лише на змішування кольорів** між пікселями верхнього кадру (B) і "
+"нижнього кадру (A)."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:122
+msgid "Next, let’s look at the other transitions: **Composite** & Co."
+msgstr "Далі, погляньмо на інші переходи: **Композиція** і Co."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:124
+msgid ""
+"As for the color blending, the same procedure applies that we’ve just seen "
+"with the Affine transition: the Opacity parameter controls how much upper "
+"frame (B) pixel color gets into the blend."
+msgstr ""
+"Якщо йдеться про змішування кольорів, застосовується та сама процедура, що і "
+"раніше для афінного переходу: параметр «Непрозорість» керує тим, яку частку "
+"кольору пікселя верхнього кадру (B) буде використано при змішуванні."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:126
+msgid ""
+"But when we look at how the transparency of the resulting pixel gets "
+"calculated, things are starting to look different. We’ve seen that the "
+"transparency of the upper frame (B) pixel gets scaled down in reverse "
+"proportion of the lower frame (A) pixel transparency. The **Opacity** "
+"parameter takes this even further: it additionally scales down the upper "
+"frame (B) pixel transparency. Please see also the illustration."
+msgstr ""
+"Але коли ми поглянемо на те, як обчислюється прозорість пікселя результату, "
+"буде помітною різниця. Раніше, рівень прозорості пікселя верхнього кадру (B) "
+"масштабувався у зворотній пропорції до рівня прозорості пікселя нижнього "
+"кадру (A). Тут параметр **Непрозорість** дає результати із використанням ще "
+"ширшого спектра значень: при обчисленнях масштабується і рівень непрозорості "
+"пікселя верхнього кадру (B). Будь ласка, ознайомтеся із ілюстрацією."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:128
+msgid ""
+"In consequence, the Opacity parameter thus controls how much opacity of an "
+"upper frame (B) pixel is applied at all. This way, you can fade in or out "
+"the upper frame."
+msgstr ""
+"Як наслідок, параметр «Непрозорість» керує тим, скільки непрозорості пікселя "
+"верхнього кадру (B) буде взагалі застосовано. За його допомогою ви можете "
+"підсилити або притлумити верхній кадр."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:130
+msgid ""
+"To sum up: in case of the **Composite** (&Co) transitions, **the Opacity "
+"parameter affects both color blending** of upper frame (B) and lower frame "
+"(A) pixels, **as well as transparency of the upper frame (B)**."
+msgstr ""
+"Резюме: у випадку переходів **Композиція** (і Co), **параметр «Непрозорість» "
+"впливає як на змішування кольорів** пікселів верхнього кадру (B) і нижнього "
+"кадру (A), **так і на рівень прозорості верхнього кадру (B)**."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:136
+msgid "Useful References"
+msgstr "Корисні посилання"
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:138
+msgid ""
+"Wikipedia article on `alpha compositing <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_, with a reference to the original Porter Duff "
+"SIGGRAPH’84 paper on «Compositing Digital Images»."
+msgstr ""
+"Стаття у Вікіпедії щодо `альфа-композитингу <https://en.wikipedia.org/wiki/"
+"Alpha_compositing>`_» із посиланням на початкову статтю Портера Даффа у "
+"SIGGRAPH’84 — «Compositing Digital Images»."
+
+#: ../../glossary/useful_information/compositing_with_transparency.rst:139
+msgid ""
+"the SVG Open 2015 paper by Craig Northway on `understanding compositing and "
+"color extensions in SVG 1.2 in 30 minutes! <http://www.graphicalweb.org/2005/"
+"papers/abstractsvgopen/index.html>`_ – especially the Porter Duff operator "
+"table in chapter 6 with resulting alpha calculation column."
+msgstr ""
+"Доповідь на SVG Open 2015 Крейга Нортвея щодо `розуміння композитингу і "
+"розширень кольорів у SVG 1.2 за 30 хвилин! <http://www.graphicalweb.org/2005/"
+"papers/abstractsvgopen/index.html>`_ — особливо таблиця операторів Портера "
+"Даффа у главі 6 із стовпчиком результатів обчислення прозорості."
