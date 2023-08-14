@@ -6,8 +6,11 @@ FILE_PREFIX=docs_kdenlive_org_
 function export_pot_dir # First parameter will be the path of the directory where we have to store the pot files
 {
     echo "Creating POT files in $1"
+    if ! make gettext; then
+        echo "Pot dir export aborted because of failing make gettext"
+        return;
+    fi
     potdir=$1
-    make gettext
     cd build/gettext
     #rm -rf untranslatable_pages.pot untranslatable_pages
     # Flatten the dir structure
