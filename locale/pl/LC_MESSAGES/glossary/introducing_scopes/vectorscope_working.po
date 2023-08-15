@@ -1,0 +1,668 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 00:39+0000\n"
+"PO-Revision-Date: 2022-04-10 08:12+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 22.03.70\n"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:13
+msgid "The Vectorscope"
+msgstr "Wektoroskop"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:15
+msgid "*Submitted by Granjow on Sun, 10/10/2010 - 18:30*"
+msgstr "*Nadesłane przez Granjow w niedzielę 2010-10-10- 18:30*"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:17
+msgid ""
+"The last scope (after the :ref:`Histogram <histogram_working>` and the :ref:"
+"`Waveform and RGB Parade <waveform_and_RGB_parade>`) that is new to kdenlive "
+"0.7.8 is the **Vectorscope**. This is actually the most interesting scope "
+"because it is quite different from the other ones and, secondly, is really "
+"useful for Color Grading."
+msgstr ""
+"Ostatni miernik (po :ref:`Histogramie <histogram_working>` oraz :ref:"
+"`Kształcie Fali i Przedstawieniu RGB <waveform_and_RGB_parade>`), który jest "
+"nowy w kdenlive 0.7.8 to **Wektoroskop**. Właściwie jest to najbardziej "
+"ciekawy miernik, bo jest całkiem różny od pozostałych, a poza tym, jest "
+"całkiem użyteczny do Stopniowania Barw."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:23
+msgid "How the Vectorscope works"
+msgstr "Jak działa Wektoroskop"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:25
+msgid ""
+"There is one simple thing that makes the Vectorscope so special: It uses a "
+"color space different than RGB. That sounds unspectacular, but it is not. "
+"The previous scopes allow you to determine which brightness values exist in "
+"your image, the Vectorscope shows which colors there are."
+msgstr ""
+"Istnieje jedna szczególna rzecz, która czyni Wektoroskop takim szczególnym: "
+"Używa przestrzeni barw różnej od RGB. Nie brzmi to niezwyczajnie, jednak tak "
+"nie jest. Poprzednie mierniki umożliwiały ci ustalenia jakie wartości "
+"jasności istnieją na twoim obrazie, za to Wektoroskop umożliwia ustalenie "
+"barw."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:27
+msgid ""
+"The Vectorscope supports two different color spaces: *YUV* and *YPbPr*. Both "
+"of them have the *Y* in common, something you know from before: It is the "
+"*Luma component* (Rec.601 in both cases). This, amongst others, comes from "
+"black/white TV. When Color TV was introduced, some people actually "
+"recognized that not everybody would immediately trash his old b/w TV and buy "
+"a new one, so they still sent the b/w signal, but with two additional "
+"channels: The blue difference and the red difference (to Luma), called U and "
+"V. So that is how `YUV <https://en.wikipedia.org/wiki/YUV>`_ works (please "
+"take a look at the image in its YUV components on the linked Wikipedia page)."
+msgstr ""
+"Wektoroskop obsługuje dwie różne przestrzenie barw: *YUV* oraz *YPbPr*. Obie "
+"mają wspólny składnik *Y*, coś co już znasz: jest to *składnik Lumy* "
+"(Rec.601 w obu przypadkach). To, między innymi, pochodzi z czarno-białej "
+"telewizji. Gdy pojawiły się kolorowe telewizory, to ktoś przewidział, że nie "
+"wszyscy zaraz wyrzucą swoje czarno-białe telewizory i popędzą kupić nowe, "
+"więc nadal wysyłano sygnał czarno-biały, lecz o dwóch dodatkowych kanałach: "
+"różnicę niebieskiego i czerwonego (względem Lumy), nazwaną U oraz V. W ten "
+"właśnie sposób działa `YUV <https://en.wikipedia.org/wiki/YUV>`_ (spórz na "
+"na obraz złożony ze składników YUV na dowiązanej stronie Wikipedi)."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:29
+msgid ""
+"The other color space, `YPbPr <https://en.wikipedia.org/wiki/YPbPr>`_ or its "
+"digital counterpart `YCbCr <https://en.wikipedia.org/wiki/YCbCr>`_ "
+"respectively, are similar. If you switch between the two color models in the "
+"Vectorscope (via the context menu) you will notice that the colors are "
+"slightly shifted. YCbCr is used basically everywhere in digital video."
+msgstr ""
+"Ta druga przestrzeń barw, `YPbPr <https://en.wikipedia.org/wiki/YPbPr>`_ lub "
+"jej cyfrowy odpowiednik `YCbCr <https://en.wikipedia.org/wiki/YCbCr>`_ są "
+"podobne. Przy przełączaniu się pomiędzy dwoma modelami barw w wektoroskopie "
+"(poprzez menu podręczne) zauważysz, że barwy są lekko przesunięte. YCbCr "
+"jest używany właściwie w niemal każdym cyfrowym nagraniu."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:31
+msgid ""
+"So, what the Vectorscope does: It calculates the Luma value of a pixel, then "
+"calculates the blue difference/red difference values. Then it throws the "
+"Luma value away. Why that? It is because the Vectorscope is 2-dimensional. "
+"The blue difference is on the horizontal axis, the red difference is on the "
+"vertical axis. (There actually are three-dimensional vectorscopes which put "
+"the Luma component on the third axis!)"
+msgstr ""
+"Tak więc co robi wektoroskop: Oblicza wartość Lumy piksela, następnie "
+"oblicza wartości różnicy niebieskiego/czerwonego. Następnie odrzuca wartość "
+"Lumy. Dlaczego tak? Ponieważ wektoroskop jest dwuwymiarowy. Różnica "
+"niebieskiego znajduje się na osi poziomej, a czerwonego na pionowej. "
+"(Istnieją także trójwymiarowe wektoroskopy, które umieszczają składnik Lumy "
+"na trzeciej osi!)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:34
+msgid "Vectorscope example: Grayscale video"
+msgstr "Przykład wektoroskopu: nagranie w odcieniach szarości"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:36
+msgid "Now let's take a look at how this actually looks like in a video."
+msgstr "Teraz zobaczmy jak to w rzeczywistości wygląda na nagraniu."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:41
+msgid ""
+"Well … nothing? Close. There is a little pixel in the middle of the scope. "
+"And that is the whole image. That looks a little disappointing now, but "
+"actually it is great. All greys (plus black and white) are exactly in the "
+"middle. Everything that is not in the middle has some color information (and "
+"the further away it is from the middle, the higher its saturation aka. "
+"chrominance). This will come in very handy when it comes to white balance."
+msgstr ""
+"Tak więc … nic? Zamknij. Na środku miernika znajduje się mały piksel. I oto "
+"cały obraz. Teraz wygląda to trochę rozczarowująco, lecz w rzeczywistości to "
+"jest wspaniałe. Wszystkie szarości (plus czarny i biały) znajdują się "
+"dokładnie w środku. Wszystko, co nie jest w środku, posiada pewne dane o "
+"barwie (a im dalej od środka, tym większe nasycenie, znane także pod nazwą "
+"chrominancja). Przyda się to do ustalania równowagi bieli."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:44
+msgid "Vectorscope example: Juggling balls"
+msgstr "Przykład wektoroskopu: Podrzucanie kul"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:49
+msgid ""
+"Juggling balls are more interesting, especially when they are colored. The "
+"ones above are. I’ve switched on a YUV background (with fixed Luma) which "
+"helps identifying the colors of pixel heaps on the scope. Two things can be "
+"noticed:"
+msgstr ""
+"Żonglowanie kulami jest ciekawsze, szczególnie wtedy, gdy są barwne. A te "
+"powyżej są. Włączyłem tło YUV (ze stałą Lumą), co pomaga w rozpoznawaniu "
+"barw skupisk pikseli na mierniku. Można tutaj zauważyć dwie rzeczy:"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:51
+msgid ""
+"here are six areas with high black density on the scope (which means that "
+"many pixels share this hue):"
+msgstr ""
+"oto sześć obszarów z dużą gęstością czarnego na mierniku (co oznacza, że "
+"wiele pikseli ma ten sam odcień):"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:53
+msgid "One that points towards blue (bottom right),"
+msgstr "Ten który wskazuje w kierunku niebieskiego (dolny prawy narożnik),"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:55
+msgid "A big one around yellow,"
+msgstr "Duży wokół żółtego,"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:57
+msgid "Two big ones around red,"
+msgstr "Dwa duże wokół czerwonego,"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:59
+msgid "A smaller one between red and yellow,"
+msgstr "Mniejszy pomiędzy czerwonym i żółtym,"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:61
+msgid ""
+"And the last one which you might have missed (I nearly did so as well), "
+"between red and blue."
+msgstr ""
+"I ostatni, który mogłeś pominąć (sam niemal go pominąłem),  pomiędzy "
+"czerwonym, a niebieskim."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:63
+msgid ""
+"These are exactly the ball's colors! Blue comes from the two balls on the "
+"left, yellow from the yellow ball, the left red area is the pink part of the "
+"left ball, the right part in red is the red ball on the right. The part "
+"between red and yellow, which is actually orange, is the background of the "
+"whole scene, and the last one between red and blue is the violet part of the "
+"right red ball."
+msgstr ""
+"Są to dokładne barwy kuli! Niebieski pochodzi od dwóch kul po lewej, żółty "
+"od żółtej kuli, czerwony obszar po lewej jest różową częścią lewej kuli, "
+"prawa czerwona część jest czerwoną kulą po prawej. Część pomiędzy  czerwonym "
+"i żółtym, która tak właściwie jest pomarańczowa, jest tłem całej sceny, a "
+"ostatnia pomiędzy czerwonym i niebieskim jest fioletową częścią prawej "
+"czerwonej kuli."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:65
+msgid ""
+"The orange background seems to connect all other areas. This is something "
+"really amazing. Like magic. It will help doing white balance. The neutral "
+"area will almost always seem to connect the other ones."
+msgstr ""
+"Pomarańczowe tło wydaje się łączyć wszystkie pozostałe obszary. Jest to coś "
+"na prawdę niezwykłego. Niczym magia. Pomoże to w równoważeniu bieli. Obszar "
+"obojętny niemal zawsze będzie się łączył z innymi."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:67
+msgid ""
+"As the shot above is actually correctly white balanced, I will not maltreat "
+"it here. But you should actually try! Download the sample below, add a SOP/"
+"Sat effect and change the Offset parameters for the RGB values. (Don’t "
+"forget to enable auto-refresh.)"
+msgstr ""
+"Ponieważ ujęcie powyżej ma poprawnie zrównoważoną biel, to nie będę się nad "
+"nim tutaj pastwił. Powinieneś jednak sam spróbować! Pobierz poniższą próbkę, "
+"dodaj efekt SOP/Sat i zmień wartości Przesunięcia dla wartości RGB. (Nie "
+"zapomnij włączyć samoodświeżania.)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:69
+msgid ""
+"Now perhaps you wonder how I could assign those spots to colors with surety. "
+"Is it really the upper spot caused by the red ball? To find out (I didn’t "
+"want to write wrong things here) I have masked the red ball out (with a "
+"Title Clip I’ve drawn a white rectangle on). The spot then indeed "
+"disappeared."
+msgstr ""
+"Teraz pewnie zastanawiasz się jak mogę z pewnością przypisać te miejsca "
+"barwom. Czy miejsce na górze na pewno jest wynikiem czerwonej kuli? Aby się "
+"tego dowiedzieć (nie chciałem pisać tutaj błędnych rzeczy) zamaskowałem "
+"czerwoną kulę (przy użyciu Wycinka Tytułu narysowałem biały prostokąt). "
+"Miejsce na górze w rzeczy samej znikło."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:74
+msgid ""
+"The violet spot has disappeared as well, and also big parts of the yellow "
+"spot because the white rectangle covers the yellow ball as well."
+msgstr ""
+"Fioletowe miejsce również tutaj zniknęło, a także duże obszary żółtego,  bo "
+"biały prostokąt przykrywa także żółtą kulę."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:77
+msgid "Vectorscope example: Musical box"
+msgstr "Przykład wektoroskopu: Szafa grająca"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:82
+msgid "Again, two things worth pointing out for this clip."
+msgstr "Znów, dwie rzeczy warte zauważenia na tym wycinku."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:84
+msgid ""
+"This shot of a Swiss Musical Box mainly consists of orange tones, all points "
+"on the vectorscope lie between neutral (center) and orange. Not too "
+"saturated orange tones as they come from the bronze/messing parts. (I guess "
+"that is what they are.)"
+msgstr ""
+"Ujęcie tej Szwajcarskiej Szafy Grającej składa się głównie z odcieni "
+"pomarańczowego, wszystkie punkty na wektoroskopie leżą pomiędzy obojętnym "
+"(środkiem), a pomarańczowym. Niezbyt nasycone odcienie pomarańczowego, gdyż "
+"pochodzą one od części z brązu/mosiądzu. (Wydaje mi się, że z tego właśnie "
+"są.)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:86
+msgid ""
+"The white balance seems to be correct. The Vectorscope indicates that there "
+"are neutral pixels (i.e. greys), and they seem to be the origin for the "
+"other colors."
+msgstr ""
+"Równowaga bieli wygląda na poprawną. Wektoroskop wskazuje, że istnieją "
+"piksele obojętne (tj. szare) i zdają się one być źródłem dla innych barw."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:88
+msgid ""
+"But when increasing the gain of the Vectorscope to 5× we see that the scope "
+"image actually stops right before neutral."
+msgstr ""
+"Lecz zwiększają wzmocnienie Wektoroskopu do 5 razy, widzimy że obraz  "
+"zatrzymuje się zaraz przed obojętnym."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:93
+msgid ""
+"If you open this clip and take a look at the Waveform you will notice that "
+"it shows the same: Blue is too low, red is too high. To correct this minor "
+"color cast we can use the SOP/Sat effect again, adjusting the Offset values. "
+"By doing that the points on the Vectorscoped will be shifted around. A "
+"positive red offset will make the points shift towards red at the top, a "
+"negative offset shifts them towards the opposite direction (that is, towards "
+"the `complementary color <https://web.archive.org/web/20160318213205/http://"
+"www.tigercolor.com/color-lab/color-theory/color-theory-intro."
+"htm#complementary>`_ of red, cyan)."
+msgstr ""
+"Jeśli otworzysz ten wycinek i spojrzysz na Kształt Fali, to zauważysz, że "
+"pokazuje on nazwę: Niebieski jest za niski, czerwony za wysoki. Aby zaradzić "
+"temu nieznacznemu  cieniowi barwy możemy ponownie użyć efektu SOP/Sat, "
+"dostosowując wartość Przesunięcia. Po tym punkty na Mierniku Wektora zostaną "
+"przesunięte. Dodatnie przesunięcie czerwonego spowoduje przesunięcie punktów "
+"w kierunku czerwonego na górze ujemne przesunięcie przesunie je w przeciwnym "
+"kierunku (to jest, w kierunku `barwy uzupełniającej <https://web.archive.org/"
+"web/20160318213205/http://www.tigercolor.com/color-lab/color-theory/color-"
+"theory-intro.htm#complementary>`_ czerwonego, lub cyjanu)."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:98
+msgid ""
+"I adjusted the blue and red values such that there is some padding around "
+"the neutral center. It is usually not enough to just let the first pixel hit "
+"the neutral point because several factors like the material of the neutral "
+"object itself, chromatic abberation (there is also a more accurate `article "
+"about chromatic aberration <https://web.archive.org/web/20160318204109/"
+"http://toothwalker.org/optics/chromatic.html>`_) in lenses, artifacts in the "
+"recorded video file. So usually neutral areas will not share one single "
+"pixel in the vectorscope but have a certain diameter. Therefore the padding."
+msgstr ""
+"Dostosowałem wartości niebieskiego i czerwonego tak, aby występowało pewne "
+"wypełnienie wokół obojętnego środka. Zazwyczaj nie wystarczy, aby tylko "
+"pierwszy piksel osiągnął punkt obojętny ze względu na kilka czynników takich "
+"jak materiał obiektu obojętnego, aberracja chromatyczna (istnieje "
+"szczegółowy `artykuł o aberracji chromatycznej <https://web.archive.org/"
+"web/20160318204109/http://toothwalker.org/optics/chromatic.html>`_) w "
+"soczewkach, artefakty w nagraniach. Tak więc obszary obojętne zazwyczaj nie "
+"będą współdzielić jednego piksela na wektoroskopie, lecz będą miały pewną "
+"średnicę. Stąd to wspomniane wypełnienie."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:100
+msgid "Because this is a suitable clip for hue:"
+msgstr "Bo jest to odpowiedni wycinek dla ocienia:"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:105
+msgid ""
+"Now what happened here? The hue has changed, and the points on the scope "
+"look like rotated by 30 degrees. And indeed they did rotate. The Hueshift "
+"effect changes the hue of all colors by a certain (configurable ;)) amount. "
+"In the Vectorscope this becomes visible as a rotation around the center of "
+"the scope."
+msgstr ""
+"Co tu się teraz zadziało? Odcień uległ zmianie, a punkty na mierniku "
+"wyglądają jak obrócone o 30 stopni. W rzeczy samej tak się stało. Efekt "
+"Przesunięcia Odcienia zmienia odcień wszystkich barw o pewną (ustawialną ;)) "
+"ilość. Na Wektoroskopie uwidacznia się to jako obrót wokół środka miernika."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:107
+msgid ""
+"Similarly, when changing the saturation/chroma, the dots on the vectorscope "
+"will move closer to the center or further away from it."
+msgstr ""
+"Podobnie, podczas zmiany nasycenia/chromy, kropki na wektoroskopie zbliżą "
+"lub oddalą się od środka."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:110
+msgid "Creating a look for your video"
+msgstr "Nadawanie wyglądu nagraniu"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:112
+msgid ""
+"In the Histogram article's introduction I mentioned creating looks with "
+"color correction. This example covers part of the tip of the iceberg of this "
+"topic. (The tip is the most important part of an iceberg because it tells "
+"you where you can drive safely ;))"
+msgstr ""
+"We wprowadzeniu do Histogramu wspomniałem o nadawaniu wyglądu poprzez "
+"poprawianie barw. Ten przykład omawia wierzchołek góry lodowej tego tematu. "
+"(Wierzchołek ten jet najważniejszą częścią góry lodowej, bo mówi ci o tym, w "
+"którym miejscu możesz jechać bezpiecznie ;))"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:114
+msgid ""
+"What is special about creating a look for a video? Let's take a look at some "
+"random clips:"
+msgstr ""
+"Co takiego szczególnego w tworzeniu wyglądu dla nagrania? Spójrzmy na  pewne "
+"przypadkowe wycinki:"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:119
+msgid ""
+"Mostly different content and therefore different colors – as said: random. "
+"One point of Color Grading is to give single clips a connection. This is not "
+"limited to white balance only. White balancing a clip is about removing "
+"color casts (which is a good thing because it gives you a neutral starting "
+"point). But we can also add new colors."
+msgstr ""
+"W większości różna zawartość, a stąd różne barwy - tak jak wcześniej: "
+"losowe. Jedną uwagą do Stopniowania Barw jest nadanie pojedynczym wycinkom "
+"powiązania. Nie ogranicza się to tylko do równowagi bieli. Równoważenie "
+"bieli wycinka polega na usuwaniu cienia barwy (co jest dobrą rzeczą, bo daje "
+"obojętny punkt początkowy). Możemy jednak także dodać nowe barwy."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:124
+msgid ""
+"These clips look much more like if they belonged together. This is the "
+"result of Primary Color Correction (Primary means that it affects the whole "
+"image; Secondary Color Correction would only affect parts of it, e.g. by "
+"using masks, choosing color ranges, etc.): White balance (plus in some cases "
+"reduction of saturation) followed by a SOP/Sat effect. The latter SOP/Sat "
+"effect does something similar as the Blockbuster Effect; here the blacks "
+"become blueish, the mids and the whites tend towards yellow."
+msgstr ""
+"Wycinki te wyglądają bardziej jakby miały to samo źródło. Jest to skutkiem "
+"Poprawki Barwy Głównej (Główna oznacza tutaj, że wpływa na cały obraz; "
+"Poprawka Drugiej Barwy wpływałaby tylko na jego część, np. używając masek, "
+"wybierając zakresy barw, itp.): Równowaga bieli (w dodatku do obniżenia "
+"nasycenia w niektórych przypadkach), po której nałożono efekt SOP/Sat. Efekt "
+"ten roi coś podobnego do efektu Blockbuster; tutaj czarne stają się "
+"niebieskawe, środkowe odcienie oraz białe skłaniają się ku żółtemu."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:126
+msgid ""
+"See also `this page <http://www.kenstone.net/fcp_homepage/"
+"fcp_7_scopes_vectorscope_stone.html>`_ for some hints about Looks and the "
+"Vectorscope."
+msgstr ""
+"Zajrzyj także na `tę stronę <http://www.kenstone.net/fcp_homepage/"
+"fcp_7_scopes_vectorscope_stone.html>`_ po kilka wskazówek o Wyglądach i "
+"Wektoroskopie."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:129
+msgid "Vectorscope options"
+msgstr "Ustawienia Wektoroskopu"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:131
+msgid ""
+"In kdenlive 0.7.8 you can adjust the Vectorscope as follows by right-"
+"clicking it:"
+msgstr ""
+"W kdenlive 0.7.8 możesz dostosować Wektorskope następująco, naciskając na "
+"nim prawym:"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:133
+msgid ""
+"*Export Background* – Exports a color plane of the desired color space. This "
+"is a goodie for interested people like me ;) It allows to export RGB, YUV "
+"and YCbCr planes (like the ones you see when visiting the Wikipedia articles "
+"about this color spaces)."
+msgstr ""
+"*Eksportowanie tła* – Eksportuje płaszczyznę barwy do żądanej przestrzeni "
+"barw. Jest to smaczek dla ludzi takich jak ja, którzy tego potrzebują ;) "
+"Umożliwia eksportowanie płaszczyzn RGB, YUV oraz YCbCr (jak tych, które "
+"widziałeś na Wikipedi, gdy przeglądałeś artykuły o tych przestrzeniach barw)."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:135
+msgid ""
+"*75 % Box* – Marks the position where color saturation reaches 75 % of its "
+"maximum value. This may be interesting if you work for broadcast. Colors "
+"exceeding this box were not regarded as `broadcast safe <https://en."
+"wikipedia.org/wiki/Vectorscope#Video>`_ – but before changing the saturation "
+"to a max of 75 % better consult your broadcast company ;)"
+msgstr ""
+"*75 % pola* – Znaczy miejsce, w którym nasycenie osiąga 75 % swojej "
+"granicznej wartości. Może to być ciekawe jeśli pracujesz dla stacji "
+"telewizyjnej. Barwy przekraczające te pole nie były uznawane za `bezpieczne "
+"do nadawania <https://en.wikipedia.org/wiki/Vectorscope#Video>`_ – lecz "
+"zanim zmienisz nasycenie do granicznego 75 % lepiej upewnij się w swojej "
+"stacji telewizyjnej ;)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:137
+msgid "*Draw axis* – Draws the U/Pb (horizontal) and V/Cr (vertical) axis."
+msgstr "*Rysowanie osi* – Rysuje oś U/Pb (w poziomie) oraz V/Cr (w pionie)."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:139
+msgid ""
+"*YUV* and *YPbPr* – Switches between the two color spaces YUV and YPbPr."
+msgstr ""
+"*YUV* oraz *YPbPr* – Przełącza pomiędzy dwoma przestrzeniami barw YUV i "
+"YPbPr."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:142
+msgid "Clip Sources"
+msgstr "Źródła wycinków"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:144
+msgid ""
+"`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/samples/"
+"raclette-greyscale.avi>`_ (720/24p, 12 MB)"
+msgstr ""
+"`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/samples/"
+"raclette-greyscale.avi>`_ (720/24p, 12 MB)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:146
+msgid ""
+"`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/juggling-"
+"balls.avi>`_ (720/24p, 11 MB)"
+msgstr ""
+"`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/juggling-"
+"balls.avi>`_ (720/24p, 11 MB)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:148
+msgid ""
+"`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/Musical-box."
+"avi>`_ (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom H4n.)"
+msgstr ""
+"`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/Musical-box."
+"avi>`_ (720/24p, 23 MB. Obraz z Nikona D90, Dźwięk z Zooma H4n.)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:151
+msgid "Summary"
+msgstr "Podsumowanie"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:153
+msgid ""
+"The Vectorscope shows the hue and saturation distribution in a way we can "
+"understand without problems. This is useful for quickly recognizing color "
+"casts, but also helps judging the color distribution of a clip and match it "
+"to others."
+msgstr ""
+"Wektoroskop pokazuje rozkład odcieni i nasycenia w sposób, który możemy "
+"zrozumieć bez kłopotów. Jest to użyteczne do szybkiego namierzania cieni "
+"barw, lecz pomaga także w ocenianiu rozkładu barw wycinka i nakładaniu go z "
+"innymi."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:155
+msgid ""
+"All scopes together fulfill another important task: They help matching video "
+"from different light situations and different input sources (like a second "
+"camera) regarding brightness and color. This is what you need Test Charts as "
+"e.g. seen `here <https://web.archive.org/web/20141006190923/http://www.image-"
+"engineering.de/index.php?option=com_content&view=article&id=370:the-"
+"universal-test-target-utt-a-new-approach&catid=1:latest-news&Itemid=97>`_ "
+"for. Different cameras might have a different dynamic range and different "
+"colors. So when combining these shots you first shoot a test chart and then "
+"`match exposure and color <https://web.archive.org/web/20141010162133/http://"
+"www.hdcinematics.com/chapters/chapter2.html>`_. This is also widely covered "
+"in the book `Color Correction for Video <https://www.amazon.de/s?"
+"k=0240810783%2C+9780240810782&link_code=qs&sourceid=Mozilla-"
+"search&tag=firefox-de-21>`_ by Steve Hullfish and Jamie Fowler."
+msgstr ""
+"Wszystkie mierniki razem spełniają inne ważne zadanie: Pomagają skleić ze "
+"sobą nagrania z różnych naświetleń i źródeł (takich jak np. druga kamera) w "
+"przypadku jasności oraz barw. Do tego potrzebujesz Tablic Testów jakie można "
+"zobaczyć np. `tutaj <https://web.archive.org/web/20141006190923/http://www."
+"image-engineering.de/index.php?option=com_content&view=article&id=370:the-"
+"universal-test-target-utt-a-new-approach&catid=1:latest-news&Itemid=97>`_. "
+"Różne kamery mogą mieć różny zakres dynamiczny oraz różne barwy. Tak więc "
+"przed sklejeniem tych nagrań, najpierw nagrywasz tablicę testową, a "
+"następnie `dostosowujesz naświetlenie i barwy <https://web.archive.org/"
+"web/20141010162133/http://www.hdcinematics.com/chapters/chapter2.html>`_. "
+"Jest to także opisane szczegółów w książce `Poprawianie barw na nagraniach "
+"<https://www.amazon.de/s?k=0240810783%2C"
+"+9780240810782&link_code=qs&sourceid=Mozilla-search&tag=firefox-de-21>`_ "
+"autorstwa Steve'a Hullfish'a oraz Jamie'go Fowler'a."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:161
+msgid ""
+"So — have fun with the scopes! May they guide you through your color grading."
+msgstr ""
+"Więc — dobrej zabawy z miernikami! Niech prowadzą cię przez stopniowanie "
+"barw."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:163
+msgid "Thanks for reading!"
+msgstr "Dzięki za przeczytanie!"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:165
+msgid "Please drop your comments below."
+msgstr "Zachęcamy do podzielenia się swoimi uwagami poniżej."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:167
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:211
+msgid "Simon A. Eugster (Granjow)"
+msgstr "Simon A. Eugster (Granjow)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:174
+msgid "What the I and the Q lines are good for"
+msgstr "Do czego przydają się linie I oraz Q"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:176
+msgid "*Submitted by Granjow on Fri, 11/26/2010 - 18:05*"
+msgstr "*Nadesłane przez Granjow w piątek 2010-11-26- 18:05*"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:178
+msgid ""
+"In the next kdenlive version (or in the current SVN version, if you dare "
+"compile it yourself :)) you will find a new option for the vectorscope: To "
+"draw I/Q lines. What are they good for?"
+msgstr ""
+"W następnym wydaniu kdenlive (lub tym obecnym w repozytorium SVN, jeśli "
+"odważysz się je zbudować samemu :)) dostaniesz nową możliwość w postaci "
+"wektoroskopu: Do rysowania linii I/Q. Do czego są przydatne?"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:184
+msgid "Where I/Q lines come from"
+msgstr "Skąd wzięły się linie I/Q"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:186
+msgid ""
+"You may remember from my blog post about the Vectorscope (see above) that "
+"the Vectorscope uses a color space different than RGB. In the image above it "
+"is `YUV <https://en.wikipedia.org/wiki/YUV>`_, in the image below it is "
+"`YPbPr <https://en.wikipedia.org/wiki/YPbPr>`_. They both share the property "
+"that the Y component represents Luma only (i.e. how bright a pixel is), and "
+"the other two components represent Chroma (colour) by expressing deviations "
+"from neutral color on the red-green and yellow-blue axis. (These are "
+"complementary colours each, so mixing them in equal parts results in neutral "
+"again – which is why they can be used for the deviation.)"
+msgstr ""
+"Możesz pamiętać z mojego wpisu na blogu o Wektoroskopie (patrz powyżej), że "
+"używa on przestrzeni barw innej od RGB. Na powyższym obrazie jest on "
+"określony w `YUV <https://en.wikipedia.org/wiki/YUV>`_, a na określony w "
+"`YPbPr <https://en.wikipedia.org/wiki/YPbPr>`_. Oba posiadają własność taką, "
+"że składnik Y stanowi tylko Lumę (tj. jak jasne są piksele), a pozostałe dwa "
+"składniki stanowią Chromę (barwę) poprzez wyrażenie odchylenia od barwy "
+"obojętnej na osi czerwony-zielony oraz żółty-niebieski. (Obie pary są "
+"uzupełniającymi się barwami, więc ich mieszanie powoduje, że barwa staje się "
+"z powrotem obojętna – co umożliwia ich używanie do odchyleń.)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:188
+msgid ""
+"YUV is the standard color space for analog PAL television. NTSC, the "
+"american analog TV standard, uses a color space I did not mention yet: `YIQ "
+"<https://en.wikipedia.org/wiki/YIQ>`_. The special thing about this color "
+"space is that the I component was chosen such that skin tones (also known as "
+"flesh tones) lie on the I line (orange-blue), and it was given more than "
+"four times as much bandwidth as the Q component (which represents the green-"
+"purple line; the human eye is also less sensitive for changes on this line)."
+msgstr ""
+"YUV jest standardową przestrzenią barw dla analogowej telewizji PAL. NTSC, "
+"amerykański standard telewizji analogowej, używa przestrzeni barw, o której "
+"jeszcze nie wspomniałem: `YIQ <https://en.wikipedia.org/wiki/YIQ>`_. "
+"Szczególną cechą tej przestrzeni barw jest to, że składnik I został wybrany "
+"tak, że odcienie skóry (znane także jako odcienie mięsa) leża na linii I "
+"(pomarańczowy-niebieski) i dano mu cztery razy szersze pasmo niż "
+"składnikowi  Q (który stanowi linię zielony-purpurowy; ludzkie oko jest "
+"także mniej czułe na zmiany na tej linii)."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:194
+msgid "The Purpose of the I and the Q line"
+msgstr "Przeznaczenie linii I oraz Q"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:196
+msgid ""
+"You might have guessed it already: The reason for displaying the Q and, "
+"especially, the I line is to help with skin tones. There is a rule of thumb "
+"in post production saying that all skin tones should approximately lie on "
+"the I line. If it is not, you might want to `color-correct your clip "
+"<https://prolost.com/blog/2008/3/23/save-our-skins.html>`_."
+msgstr ""
+"Może już to zgadłeś: Powodem do wyświetlania Q oraz, w szczególności, linii "
+"I jest pomoc w odcieniach skóry. Jest to reguła kciuka w postprodukcji, "
+"mówiąca o tym, że wszystkie odcienie skóry powinny w przybliżeniu leżeć na "
+"linii I. Jeśli tak nie jest, to możesz chcieć `poprawić barwy na swoim "
+"wycinku <https://prolost.com/blog/2008/3/23/save-our-skins.html>`_."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:198
+msgid ""
+"Why? If skin tones do not lie on the I line, they are likely to look "
+"unnatural. Our eye is trained on skin tones ;) End of the story."
+msgstr ""
+"Dlaczego? Gdyby odcienie skóry nie leżały na linii I, to z pewnością "
+"wyglądałyby one nienaturalnie. Nasze oczy są wyćwiczone do widzenia odcieni "
+"skróty ;) Koniec historii."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:201
+msgid "Clip sources"
+msgstr "Źródła wycinków"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:203
+msgid "Only one this time."
+msgstr "Tym razem tylko jeden."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:205
+msgid "skin1.avi (720p, 5.1 MB)"
+msgstr "skin1.avi (720p, 5.1 MB)"
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:207
+msgid "That's it! Thanks for reading."
+msgstr "To wszystko! Dzięki za przeczytanie."
+
+#: ../../glossary/introducing_scopes/vectorscope_working.rst:209
+msgid "Feel free to post your comments below."
+msgstr "Zachęcamy do wpisywania swoich uwag poniżej."

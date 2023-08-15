@@ -1,0 +1,142 @@
+# Spanish translations for docs_kdenlive_org_importing_and_assets_management___projects_and_files___project.po package.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Automatically generated, 2021.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_importing_and_assets_management___projects_and_files___project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-02 00:40+0000\n"
+"PO-Revision-Date: 2023-07-26 02:41-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:18
+msgid "Project File Details"
+msgstr "Detalles acerca de los archivos de proyecto"
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:21
+msgid ""
+"**Kdenlive** projects consist in a singe :file:`.kdenlive` file (in XML "
+"format), gathering :"
+msgstr ""
+"Los proyectos de **Kdenlive** consisten en un único archivo :file:`."
+"kdenlive` (en formato XML), que recopila:"
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:24
+msgid "target video and audio properties"
+msgstr "propiedades de video y audio del proyecto"
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:26
+msgid ""
+"references to all the source materials (and to their lighter *proxies* work "
+"copies)"
+msgstr ""
+"referencias a todas las fuentes de material usadas (así como a sus copias de "
+"*reemplazo* más livianas)"
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:28
+msgid ""
+"clips arrangement on the timeline, with effects applied, and everything to "
+"get the final result"
+msgstr ""
+"distribución de los clips en las secuencias, con sus efectos aplicados y "
+"todo lo necesario para obtener el resultado final"
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:31
+msgid ""
+"Project files are associated with a working directory, in which **Kdenlive** "
+"will generate *proxies* and *thumbs*, so that an overview of your media "
+"always shows up quickly (if you move your project file, you should declare "
+"the directory change in the project properties)."
+msgstr ""
+"Los archivos de proyecto se encuentran asociados a una determinada carpeta "
+"de trabajo, en la que **Kdenlive** generará subcarpetas para *clips de "
+"reemplazo* y *miniaturas*, para que sea posible mostrar rápidamente una "
+"previsualización de los medios (si se moviera el archivo del proyecto, "
+"deberá declararse el cambio de carpeta en las Opciones del proyecto)."
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:33
+msgid ""
+"When Kdenlive opens a project file that upgrades the document version, like "
+"with 20.08.0 or 23.04.0, it automatically creates a backup copy of the "
+"original project file. When a project was created with an older document "
+"version, like Kdenlive < 20.08.0 or < 23.04.0 and you opened it, look into "
+"the project folder. You should have a file called `myproject_backup."
+"kdenlive`. This is a copy of the original project file before the upgrade "
+"and you should be able to open it correctly either with Kdenlive 20.04.x or "
+"22.12.x or the newly release 23.04.0 version."
+msgstr ""
+"Cuando Kdenlive abre un archivo de proyecto que actualiza la versión del "
+"documento, como es el caso en las versiones 20.08.0 y 23.04.0, creará "
+"automáticamente una copia de respaldo del archivo original del proyecto. "
+"Cuando un proyecto haya sido creado usando una versión anterior de "
+"documento, como en Kdenlive anterior a v20.08.0 o anterior a v23.04.0 y éste "
+"fuera abierto, revisar la carpeta del proyecto. Debería haber un archivo "
+"llamado `miproyecto_backup.kdenlive`. Esta será una copia del archivo "
+"original del proyecto, anterior a la actualización, que debería poder ser "
+"abierto tanto con Kdenlive 20.04.x o 22.12.x o con la más reciente versión "
+"23.04.0."
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:35
+msgid ""
+"Otherwise, Kdenlive also keeps a copy of all saved versions of your project "
+"files. Go to :menuselection:`Project --> Open Backup File` and you should "
+"see a list of the archived versions. More details see :ref:`backup`."
+msgstr ""
+"Más allá de esto, Kdenlive también mantendrá una copia de todas las "
+"versiones guardadas de los archivos del proyecto. Ir a :menuselection:"
+"`Proyecto --> Abrir archivo de respaldo…` para ver una lista de las "
+"versiones archivadas. Para más detalles, ver :ref:`backup`."
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:41
+msgid ""
+"A major refactoring of the project file fixes a long standing issue with the "
+"decimal separator (comma/point) conflict causing many crashes."
+msgstr ""
+"Refactorización mayor del archivo de proyecto que corrige un conflicto de "
+"larga data con el separador decimal (coma/punto), que podía causar que el "
+"programa dejara de funcionar."
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:45
+msgid ""
+"Projects created with 20.08 forward are not backwards compatible, that is, "
+"you won’t be able to open your :file:`.kdenlive` project files with older "
+"versions."
+msgstr ""
+"Los proyectos creados con las versiones 20.08 y superiores no tienen "
+"compatibilidad hacia atrás, esto es, no será posible abrir el archivo del "
+"proyecto :file:`.kdenlive` usando versiones anteriores del programa."
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:49
+msgid ""
+"With introducing sequences the project file version is 1.1 (from 1.04 -> "
+"1.1) and is not backward compatible. Once opened in 23.04 you cannot open "
+"the project file in older versions."
+msgstr ""
+"Al introducir las secuencias, la versión del archivo de proyecto se elevó a "
+"1.1 (desde 1.04 -> 1.1) y no es compatible hacia atrás. Por lo tanto, una "
+"vez abiertos con la versión 23.04 esos proyectos no podrán abrirse con "
+"versiones anteriores del programa."
+
+#: ../../importing_and_assets_management/projects_and_files/project.rst:53
+msgid ""
+"Projects created with 23.04 forward are not backwards compatible, that is, "
+"you won’t be able to open your :file:`.kdenlive` project files with older "
+"versions."
+msgstr ""
+"Los proyectos creados con la versión 23.04 en adelante no son compatibles "
+"hacia atrás., esto es, no será posible abrir el archivo del proyecto :file:`."
+"kdenlive` usando versiones anteriores del programa."
+
+#~ msgid "Contents"
+#~ msgstr "Contenido"
