@@ -1,3 +1,8 @@
+.. meta::
+
+   :description: Do your first steps with Kdenlive video editor, misc effect category
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, misc, miscellaneous
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -7,8 +12,10 @@
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Marko (https://userbase.kde.org/User:Marko)
              - Roger (https://userbase.kde.org/User:Roger)
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
+
 
 .. _effects-misc:
 
@@ -16,73 +23,13 @@
 Misc Effects
 ============
 
+The *Miscellaneous* video effects category provides effects and filters for various purposes that didn't fit into any other category or have not yet been assigned properly.
+
+.. note:: Some of the effects/filters are only available in the Linux appimage version of **Kdenlive**.
+
+The following effects and filters are available:
+
 .. toctree::
    :glob:
 
    misc/*
-
-* atadenoise
-* bgsubtract
-* colorchannelmixer
-* colorlevels
-* colormatrix
-* cropdetect
-* dctdnoiz
-* deband
-* deflate
-* delay0r
-* delogo
-* deshake
-* dilation
-* drawbox
-* drawgraph
-* drawgrid
-* edgedetect
-* elbg
-* eq
-* erosion
-* face_blur
-* face_detect
-* fftfilt
-* flippo
-* framerate
-* fspp
-* gradfun
-* histeq
-* histogram
-* hqdn3d
-* hqx
-* hue
-* idet
-* inflate
-* lenscorrection
-* lightshow
-* lut
-* lutrgb
-* lutyuv
-* noise
-* pad
-* perspective
-* pp
-* pp7
-* random
-* removegrain
-* rotate
-* sab
-* shuffleplanes
-* signalstats
-* smartblur
-* spp
-* tblend
-* transpose
-* unsharp
-* uspp
-* vertigo
-* vid.stab_deshake
-* vid.stab_detect_and_transform
-* w3fdif
-* waveform
-* xbr
-* zmq
-* zoompan
-
