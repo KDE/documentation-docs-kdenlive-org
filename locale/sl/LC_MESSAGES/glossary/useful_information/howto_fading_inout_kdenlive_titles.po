@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-25 00:22+0000\n"
-"PO-Revision-Date: 2022-08-20 19:23+0200\n"
+"PO-Revision-Date: 2023-08-16 17:17+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -21,16 +21,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:13
-#, fuzzy
 msgid "How to fading in-out Kdenlive titles"
-msgstr "Kako omedleti V-out Kdenlive naslovi"
+msgstr "Kako odtemniti in zatemniti naslove Kdenlive"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:15
-#, fuzzy
 msgid ""
 "In this short *HOWTO* video, we show you how to (smoothly) fade in and out "
 "Kdenlive titles over a video clip, fading from and to transparency. The key "
@@ -39,47 +37,43 @@ msgid ""
 "Black effects though, as these effects remove the title transparency "
 "information."
 msgstr ""
-"V tem kratkem *HOWTO* videu vam pokažemo, kako (gladko) zbledi v in ven "
-"Kdenlive naslove preko video posnetka, ki zbledi od in do preglednosti. "
-"Ključ do uspeha je uporaba **Composite & Transform** prehoda s "
-"ključnimiframi (**Affine** in **Composite** bo delovalo tudi). **Ne "
-"uporabljajte** učinki Fade od/do Črna, saj ti učinki odstranijo informacije "
-"o preglednosti naslova."
+"V tem kratkem *pojasnilnem* videoposnetku vam pokažemo, kako (gladko) "
+"odtemniti in zatemniti naslove Kdenlive preko video posnetka, ki se odstemni "
+"in zatemni v prosojnost. Ključ do uspeha je uporaba prehoda **Sestava in "
+"preoblikovanje** s ključnimi sličicami (delovala bosta tudi **Afino** in "
+"**Sestavljeno**). **Ne uporabljajte** učinkov Zatemni/Odtemni, saj ti učinki "
+"odstranijo informacije o prosojnosti naslova."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:23
 msgid "Notes"
 msgstr "Opombe"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:25
-#, fuzzy
 msgid "These are the individual steps shown in this HOWTO video:"
-msgstr "To so posamezni koraki, prikazani v tem videu HOWTO:"
+msgstr "To so posamezni koraki, prikazani v tem videu:"
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:27
-#, fuzzy
 msgid "Add a Composite & Transform transition to the title clip."
-msgstr "V naslovni izrezek dodajte prehod composite & Transform."
+msgstr "V naslovni posnetek dodajte prehod Sestavi in preoblikuj."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:28
-#, fuzzy
 msgid ""
 "First keyframe: set the opacity to 0%. This marks the beginning of the fade "
 "in (ramp up)."
 msgstr ""
-"Prvi ključni okvir: nastavite motnost na 0%. To označuje začetek zbledenja v "
-"(rampa navzgor)."
+"Prva ključna sličica: nastavite prekrivnost na 0 %. To označuje začetek "
+"odtemnitve v (navzgor)."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
-#, fuzzy
 msgid ""
 "Second keyframe: add a new keyframe where you want the title to be fully "
 "faded in, set the opacity to 100%. Set the type of the keyframe to Linear."
 msgstr ""
-"Drugi ključni okvir: dodajte nov keyframe, kjer želite, da naslov v celoti "
-"zmede, nastavite nepreglednost na 100%. Nastavite vrsto keyframe na Linear."
+"Druga ključna sličica: dodajte novo ključno sličico, kjer želite, da je "
+"naslov v celoti prikazan, nastavite prekrivnost na 100 %. Nastavite vrsto "
+"ključne sličice na linearno."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:30
-#, fuzzy
 msgid ""
 "The rationale to set this keyframe to Linear is that otherwise Kdenlive "
 "(MLT) calculates a smooth curve fitting to the previous and following "
@@ -87,49 +81,47 @@ msgid ""
 "opacity of 100% you won’t notice. However, when you use a maximum opacity of "
 "less than 100%, then this overshooting may become visible."
 msgstr ""
-"Razlog za nastavitev tega ključnega okvira na Linear je, da sicer Kdenlive "
-"(MLT) izračuna gladko priklop krivulja na prejšnji in naslednji ključni "
-"okvir, kar povzroča, da vrednost nepreglednosti premaga. Z največjo možno "
-"nepreglednost 100% ne boste opazili. Če pa uporabljate največjo "
-"nepreglednost, ki je manjša od 100%, se lahko ta pregled vidi."
+"Razlog za nastavitev te ključne sličice na linearno je, da Kdenlive (MLT) "
+"sicer izračuna gladko krivuljo, ki se prilega prejšnji in naslednji ključni "
+"sličici, kar povzroča, da vrednost prekrivnosti preseže najvišjo možno "
+"vrednost. Z največjo možno prekrivnostjo 100 % tega res ne boste opazili. Če "
+"pa uporabljate največjo prekrivnost, ki je manjša od 100 %, se lahko to "
+"opazi."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:31
-#, fuzzy
 msgid ""
 "Ensure that the first keyframe is Smooth. You can only adjust the type of "
 "the first keyframes after you’ve added a second keyframe."
 msgstr ""
-"Zagotovite, da je prvi ključni okvir Gladek. Vrsto prvih ključnih okvirjev "
-"lahko prilagodite šele, ko dodate drugi ključni okvir."
+"Zagotovite, da je prva ključna sličica Gladka. Vrsto prvih ključnih sličic "
+"lahko prilagodite šele, ko dodate drugo ključno sličico."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:32
-#, fuzzy
 msgid ""
 "Third keyframe: add another keyframe near the end where you want to start "
 "fading out the title. Leave the opacity at 100%. Set the keyframe type to "
 "Smooth."
 msgstr ""
-"Tretji ključni okvir: dodajte še en ključni okvir blizu konca, kjer želite "
-"začeti izmikati naslov. Zapustite motnost pri 100%. Nastavite vrsto keyframe "
-"na Smooth."
+"Tretja ključna sličica: dodajte še eno ključno sličico blizu konca, kjer "
+"želite začeti zatemnjevati naslov. Pustite prekrivnost pri 100 %. Nastavite "
+"vrsto ključne sličice na Gladko."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:33
-#, fuzzy
 msgid "Fourth keyframe: add a final keyframe, where you set the opacity to 0%."
 msgstr ""
-"Četrti ključni okvir: dodajte končni keyframe, kjer nastavite motnost na 0%."
+"Četrta ključna sličica: dodajte končno ključno sličico, kjer nastavite "
+"prekrivnost na 0 %."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:35
 msgid "Done."
 msgstr "Končano."
 
 #: ../../glossary/useful_information/howto_fading_inout_kdenlive_titles.rst:37
-#, fuzzy
 msgid ""
 "In case you are scratching your head now, why this mixture of smooth and "
 "linear interpolated keyframes? Then head over to our new article on :ref:"
 "`the_smooth_keyframe_interpolation`."
 msgstr ""
-"Če se zdaj praskate po glavi, zakaj ta mešanica gladkih in linearnih "
-"interpoliranih ključnihframov? Potem pa pojdi k našemu novemu članku o :"
-"ref:'the_smooth_keyframe_interpolation'."
+"Ali se zdaj praskate po glavi, zakaj ta mešanica gladkih in linearnih "
+"interpoliranih ključnih sličic? Potem si oglejte naš novi članek, tema je :"
+"ref:`the_smooth_keyframe_interpolation`."
