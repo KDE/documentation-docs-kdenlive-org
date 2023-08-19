@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-30 00:38+0000\n"
-"PO-Revision-Date: 2023-01-30 09:51+0100\n"
+"PO-Revision-Date: 2023-08-18 18:58+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:13
@@ -29,18 +29,16 @@ msgid "The “Smooth” Keyframe Interpolation"
 msgstr "»Gladka« interpolacija ključnih sličic"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:15
-#, fuzzy
 msgid ""
 "Did you ever wonder why Kdenlive’s **smooth interpolation mode may "
 "overshoot** between keyframes? And how to tell Kdenlive to avoid such "
 "situations?"
 msgstr ""
 "Ste se kdaj vprašali, zakaj lahko v Kdenlive **način gladke interpolacije "
-"prevlada** med ključnimi sličicami? In kako povedati programu Kdenlive, naj "
-"se izogne takšnim situacijam?"
+"preseže vrednosti** med ključnimi sličicami? In kako povedati programu "
+"Kdenlive, naj se izogne takšnim situacijam?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:17
-#, fuzzy
 msgid ""
 "I did wonder, and so I was starting to look behind the scenes and were "
 "introduced to the strange world of smoothness. Don’t worry, there won’t be "
@@ -49,33 +47,30 @@ msgid ""
 "don’t want it. And for the really curious what the mathematics behind "
 "“smooth” interpolation are: just see the end of this toolbox post."
 msgstr ""
-"Spraševala sem se, zato sem začela gledati v zaodrje in se spoznala s čudnim "
-"svetom gladkosti. Ne skrbite, ne bo matematike, da bi se naučili in "
-"razumeli. Samo poglejte številke. Pokazali vam bomo tudi, kako se izogniti "
-"takšnim strelom v tistih situacijah, ki jih nočete. In za res radovedne, kaj "
-"matematika za »gladko« interpolacijo je: samo poglejte konec objave o tem "
-"orodju."
+"Spraševala sem se, zato sem začela gledati v zakulisje in se spoznala s "
+"čudnim svetom gladkosti. Ne skrbite, ne bo matematike, ki bi se je morali "
+"naučiti in razumeti. Samo poglejte številke. Pokazali vam bomo tudi, kako se "
+"izogniti takšnim strelom v tistih situacijah, ki jih nočete. In za res "
+"radovedne, kaj matematika za »gladko« interpolacijo je: samo poglejte konec "
+"objave o tem orodju."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:20
-#, fuzzy
 msgid "The Fade-In Ramp"
 msgstr "Klančina odtemnitve"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:34
-#, fuzzy
 msgid ""
 "Let’s start with a simple ramp, as shown here. We use two keyframes, one "
 "with a low value setting, and the other with a high value setting. The "
 "particular values don’t matter. We set both keyframe to the interpolation "
 "mode smooth."
 msgstr ""
-"Začnimo s preprosto klančino, kot je prikazano tukaj. Uporabljamo dve "
+"Začnimo s preprosto klančino, kot je prikazana tukaj. Uporabljamo dve "
 "ključni sličici, eno z nastavitvijo nizke vrednosti, drugo pa z nastavitvijo "
 "visoke vrednosti. Posamični vrednosti nista pomembni. Obe ključni sličici "
 "imata nastavljeni način interpolacije kot gladko."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:36
-#, fuzzy
 msgid ""
 "The effect display inside the timeline clip looks like a straight ramp. But "
 "if you watch the interpolated values closely while scrubbing the timeline, "
@@ -92,7 +87,6 @@ msgid "But what exactly is going on here?"
 msgstr "Kaj točno se tukaj dogaja?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:47
-#, fuzzy
 msgid ""
 "So I discovered this sweet tool `GeoGebra <https://www.geogebra.org/>`_ "
 "(Open Source) for trying out the Mathematics inside Kdenlive’s MLT engine."
@@ -105,7 +99,6 @@ msgid "**Eh, no panic!**"
 msgstr "**No, brez panike!**"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:51
-#, fuzzy
 msgid ""
 "This figure shows two keyframes P1=0 and P2=1, which is a fairly typical "
 "ramp up setting. In case you already wonder: it doesn’t matter at which "
@@ -116,11 +109,10 @@ msgstr ""
 "Na tej sliki sta prikazani dve ključni sličici P1=0 in P2=1, kar je dokaj "
 "tipična nastavitev klančine. V primeru, da se že sprašujete: ni pomembno, na "
 "katerih točno sličicah so posamezne ključne sličice. Če se to sliši čudno, "
-"verjetno je. Ampak tako deluje podležna matematika (saj veste: za "
+"verjetno je. Ampak tako deluje matematika v ozadju (saj veste: za "
 "podrobnosti glejte konec)."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:53
-#, fuzzy
 msgid ""
 "The smooth interpolation that MLT will calculate is drawn as a thick green "
 "line. It’s bend a little bit like the capital letter S, but then, not really "
@@ -130,7 +122,6 @@ msgstr ""
 "črta. Malo se upogne kot velika črka S, ampak spet ne preveč."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:55
-#, fuzzy
 msgid ""
 "And if you look closely, then beginning and ending slope of the green line "
 "aren’t horizontal ‒ at least what I expected at first."
@@ -139,7 +130,6 @@ msgstr ""
 "vodoravna ‒ kar sem pričakoval na začetku."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:57
-#, fuzzy
 msgid ""
 "You may wonder what the two other keyframes P0 and P3 are good for? Well, "
 "the math underneath always require four keyframes in order to interpolate "
@@ -148,18 +138,16 @@ msgid ""
 "(P1) or right (P2) keyframe."
 msgstr ""
 "Morda se sprašujete, za kaj sta dobri drugi dve ključni sličici P0 in P3? "
-"No, podležna matematika vedno zahteva štiri ključne sličice, da bi "
+"No, matematika v ozadju vedno zahteva štiri ključne sličice, da bi "
 "interpolirali po segmentih med poljubnima dvema sosednjima ključnima "
-"sličicama. In če ni predhodne (P0) ali sledilne (P1) ključne sličice, potem "
+"sličicama. In če ni predhodne (P0) ali sledeče (P1) ključne sličice, potem "
 "bomo preprosto ponovili levo (P1) ali desno (P2) ključno sličico."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:62
-#, fuzzy
 msgid "Ramp-Up, and … Overshoot"
 msgstr "Klančina navzgor in ... prekoračitev"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:76
-#, fuzzy
 msgid ""
 "Now let’s add a third keyframe, so this looks like a ramp with a plateau. "
 "This is shown in the screen shots."
@@ -168,7 +156,6 @@ msgstr ""
 "s platojem. To je prikazano na posnetkih zaslona."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:78
-#, fuzzy
 msgid ""
 "And now, the ramp gets a clearly visible bump instead of a sharp bend. Well, "
 "this looks smooth, but not exactly what we may have intended? So why is this "
@@ -179,7 +166,6 @@ msgstr ""
 "želeli? Zakaj je torej tako?"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:87
-#, fuzzy
 msgid ""
 "This is now our ramp with a plateau: P0=0, P1=1, P2=2. Don’t worry about the "
 "keyframe numbering, though."
@@ -188,7 +174,6 @@ msgstr ""
 "oštevilčenje ključnih sličic."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:89
-#, fuzzy
 msgid ""
 "Did you expect the plateau to be, well a *straight* plateau? Me too. But you "
 "may have already notice that Kdenlive doesn’t exactly behave like this. "
@@ -201,18 +186,16 @@ msgstr ""
 "preprosto vidite na sliki."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:91
-#, fuzzy
 msgid ""
 "What the underlying math does is this: the interpolation is smooth, so that "
 "the slope to the *left* of P1 is the same as to the *right* of P1. Yeah, "
 "that’s a slightly different “smooth” from what you might have been expecting."
 msgstr ""
-"Kar je v skladu z matematiko, je to: interpolacija je gladka, tako da je "
-"naklon na *levo* od P1 enak *desni* od P1. Ja, to je nekoliko drugačno "
+"V zaodrju počne matematika počne naslednje: interpolacija je gladka, tako da "
+"je naklon na *levo* od P1 enak *desnemu* od P1. Ja, to je nekoliko drugačno "
 "»gladko« od tega, kar ste morda pričakovali."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:93
-#, fuzzy
 msgid ""
 "If you want the plateau to be straight instead, then you must set the "
 "interpolation mode of the keyframe P1 to *linear* instead. By the way, this "
@@ -223,15 +206,14 @@ msgstr ""
 "Če želite, da je namesto tega plato raven, morate nastaviti način "
 "interpolacije ključne sličice P1 na *linearno*. Mimogrede, to ne spremeni "
 "*prejšnjega* gladkega segmenta na noben način. In to ima za rezultat »grobo "
-"ukrivljeno« na P1, na srečo pa v večini primerov verjetno ne boste opazili."
+"ukrivljeno« pri P1, na srečo pa v večini primerov verjetno tega ne boste "
+"opazili."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:98
-#, fuzzy
 msgid "Ramp Up-Flat-Down"
 msgstr "Klančina navzgor-ravno-navzdol"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:112
-#, fuzzy
 msgid ""
 "Let’s add another, fourth keyframe, so we have: ramp-up first, then flat, "
 "then ramp-down. A fairly typical fade-in and fade-out keyframe template."
@@ -241,33 +223,30 @@ msgstr ""
 "sličic za odtemnitev in zatemnitev."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:114
-#, fuzzy
 msgid ""
 "And look, what’s happening: we’ve good a hunch-back, but not a nice and flat "
 "middle section. Gosh!"
 msgstr ""
 "In glejte, kaj se zgodi: imamo dobro grbo, vendar ne lep in ravno srednji "
-"del. Ojoj!"
+"del. Jejhata!"
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:123
-#, fuzzy
 msgid ""
 "This time, we look at the middle section P1-P2. To the left, we see the up "
 "ramp, to the right, the down ramp."
 msgstr ""
-"Tokrat si ogledamo srednji del P1-P2. Na levi strani vidimo klančino "
-"navzgor, desno, klančino navzdol."
+"Tokrat si ogledamo osrednji del P1-P2. Na levi strani vidimo klančino "
+"navzgor, desno klančino navzdol."
 
 #: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:125
-#, fuzzy
 msgid ""
 "Again, smooth now means that there is no sharp bend in the segments. "
 "Instead, the left+right slopes are continuous at P1 and P2; that is, in the "
 "middle section. And this causes our interpolated value to overshoot. So "
 "awful. So sad. Shhh."
 msgstr ""
-"Gladko zdaj pomeni, da v segmentih ni ostrega zavoja oz. kolena . Namesto "
-"tega sta leva+desna naklona zvezna pri P1 in P2; to je v srednjem delu. In "
+"Gladko zdaj pomeni, da v segmentih ni ostrega zavoja oz. kolena. Namesto "
+"tega sta levi in desni naklon zvezna pri P1 in P2; to je v srednjem delu. In "
 "to povzroča, da je naša interpolirana vrednost presežna. Tako grozno. Res "
 "žalostno."
 
