@@ -32,25 +32,27 @@ Controls
 
    * - UI Element
      - Description
-   * - :guilabel:`collapse/expand`
+   * - 1 :guilabel:`collapse/expand`
      - Collapses or expands a section of the user interface
-   * - :guilabel:`check box`
+   * - 2 :guilabel:`check box`
      - Used to select an optional element or feature
-   * - :guilabel:`drop-down list box`
+   * - 3 :guilabel:`drop-down list box`
      - Allows to select from a list of possible values
-   * - :guilabel:`hamburger menu`
+   * - 4 :guilabel:`toolbar icons`
+     - Various action icons specific to the panel. See :ref:`below <ui_elements-toolbar_icons>` for the icons.
+   * - 5 :guilabel:`hamburger menu`
      - Opens a fly-out menu with more options
-   * - :guilabel:`spinner`
+   * - 6 :guilabel:`spinner`
      - Used to increase or decrease a value one step at a time
-   * - :guilabel:`direct entry`
+   * - 7 :guilabel:`direct entry`
      - Used to enter a specific value. In most cases it is possible to use the :kbd:`Mouse wheel` to increase or decrease the value.
-   * - :guilabel:`button`
+   * - 8 :guilabel:`button`
      - Used to enable a certain state while it is pushed in. Click again to make it come out.
-   * - :guilabel:`slider`
+   * - 9 :guilabel:`slider`
      - Allows for rapid changes of values. Drag the mouse left or right to move the slider. The value in an adjacent :guilabel:`direct entry` field is changed accordingly.
-   * - :guilabel:`action button`
+   * - 10 :guilabel:`action button`
      - Used to change a value in defined steps. Every click changes the value, wrapping at the end of the scale may occur.
-   * - :guilabel:`action icon`
+   * - 11 :guilabel:`action icon`
      - Used to execute an action that is not repeatable (with exceptions)
 
 
@@ -71,27 +73,27 @@ Controls
 
    * - UI Element
      - Description
-   * - :guilabel:`edit frame`
+   * - 1 :guilabel:`edit frame`
      - [Project Monitor only] Identifies the object or area of the effect. :term:`Edit Mode<edit mode>` needs to be enabled for the frame to show.
-   * - :guilabel:`edit frame handles`
+   * - 2 :guilabel:`edit frame handles`
      - Used to change the size (square handles) and move the frame (circle in the middle)
-   * - :guilabel:`monitor overlay`
+   * - 3 :guilabel:`monitor overlay`
      - Hover over the defined hot spot (default: top right-hand side) to reveal the list of icons
-   * - :guilabel:`playhead`
+   * - 4 :guilabel:`playhead`
      - Indicates the position in the :term:`timeline` or :term:`clip`
-   * - :guilabel:`timeline zone`
+   * - 5 :guilabel:`timeline zone`
      - Indicates the timeline zone set with :kbd:`I` and :kbd:`O` or by clicking |zone-in| and |zone-out|, respectively
-   * - :guilabel:`zoom bar`
+   * - 6 :guilabel:`zoom bar`
      - Used to zoom the timeline. Grab the white handles on either end and drag them left or right, or use :kbd:`Ctrl+Mouse wheel` while hovering over the monitor timeline.
-   * - :guilabel:`audio level meter`
+   * - 7 :guilabel:`audio level meter`
      - Displays the audio level of the project or clip when playback is running
-   * - :guilabel:`options drop-down`
+   * - 8 :guilabel:`options drop-down`
      - Opens a list of options to select from
-   * - :guilabel:`timecode`
+   * - 9 :guilabel:`timecode`
      - Shows the current position of the :term:`playhead` in the notation *hh:mm:ss:ff*, where *hh* is hours, *mm* is minutes, *ss* is seconds and *ff* is frame.
-   * - :guilabel:`tab (active)`
+   * - 10 :guilabel:`tab (active)`
      - Currently active :term:`widget`
-   * - :guilabel:`tab (inactive)`
+   * - 11 :guilabel:`tab (inactive)`
      - Available :term:`widgets<widget>` in that section of the work layout
 
 
