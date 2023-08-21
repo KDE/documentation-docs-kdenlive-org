@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-09 00:40+0000\n"
-"PO-Revision-Date: 2023-06-06 09:23+0200\n"
+"PO-Revision-Date: 2023-08-20 12:54+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -25,17 +25,14 @@ msgstr ""
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../user_interface/menu/clip_menu.rst:1
-#, fuzzy
 msgid "|Side by side|"
-msgstr "|Slika ob sliki ob sliki|"
+msgstr "|Slika ob sliki|"
 
 #: ../../user_interface/menu/clip_menu.rst:1
-#, fuzzy
 msgid "|Deshaked|"
-msgstr "|Odtresen|"
+msgstr "|Odtreseno|"
 
 #: ../../user_interface/menu/clip_menu.rst:1
-#, fuzzy
 msgid "|Original|"
 msgstr "|Izvirnik|"
 
@@ -45,69 +42,62 @@ msgid "Clip Menu"
 msgstr "Meni Posnetek"
 
 #: ../../user_interface/menu/clip_menu.rst:25
-#, fuzzy
-#| msgid ""
-#| "The functions controlled from this menu affect the clip that is selected "
-#| "in the timeline. This is in contrast to :ref:`project_menu` functions "
-#| "which affect the clips selected in the Project Bin."
 msgid ""
 "The functions in this menu affect the clip that is selected in the Timeline "
 "**or** in the Project Bin. Menu functions are available depending on whether "
 "a clip is selected in the Project Bin or in the Timeline."
 msgstr ""
 "Funkcije, nadzorovane iz tega menija, vplivajo na posnetek, izbran na "
-"časovnici. To je v nasprotju s funkcijami :ref:`menija Projekt "
-"<project_menu>`, ki vplivajo na posnetke, izbrane v projektni posodi."
+"časovnici **ali** projektni posodi. Menijske funkcije so na voljo glede na "
+"to, ali je posnetek izbran v projektni posodi ali na časovnici."
 
 #: ../../user_interface/menu/clip_menu.rst:38
 msgid "Markers"
 msgstr "Označevalniki"
 
 #: ../../user_interface/menu/clip_menu.rst:40
-#, fuzzy
 msgid ""
 "The menu allows you to Add, Edit or Delete Markers or Guides. For more "
 "details see the section about :ref:`Markers` in this documentation."
 msgstr ""
-"V meniju lahko dodajate, urejate ali brišete oznake ali vodila. Za več "
-"podrobnosti glejte razdelek o :ref:`Markers` v tej dokumentaciji."
+"V meniju lahko dodajate, urejate ali brišete označevalnike ali vodila. Za "
+"več podrobnosti glejte razdelek o :ref:`Označevalniki <Markers>` v tej "
+"dokumentaciji."
 
 #: ../../user_interface/menu/clip_menu.rst:42
-#, fuzzy
 msgid ""
 "The Add Marker function behaves differently depending on whether a clip is "
 "selected in the Project Bin or in the Timeline **and** where the playhead is "
 "currently **and** whether the focus is on the Timeline or the Clip Monitor."
 msgstr ""
-"Funkcija Dodaj oznako se obnaša različno glede na to, ali je posnetek izbran "
-"v košarici projekta ali na časovnici **in**, kje je trenutno predvajalna "
-"glava **in**, ali je fokus na časovnici ali na monitorju posnetkov."
+"Funkcija Dodaj označevalnik se obnaša različno glede na to, ali je posnetek "
+"izbran v projektni posodi ali na časovnici, **in** kje je trenutno "
+"predvajalna glava **in**, ali je pozornost na časovnici ali na ogledu "
+"posnetkov."
 
 #: ../../user_interface/menu/clip_menu.rst:45
 msgid "Add Marker"
 msgstr "Dodaj označevalnik"
 
 #: ../../user_interface/menu/clip_menu.rst:47
-#, fuzzy
 msgid ""
 "Adds a Marker to the clip at the current timepoint. Markers are properties "
 "of the clips in the Project Bin. So this action puts a marker in the clip in "
 "the Project Bin."
 msgstr ""
-"V posnetek doda označevalnik v trenutni časovni točki. Markerji so lastnosti "
-"posnetkov v košarici projekta. To dejanje torej postavi označevalnik v "
-"posnetek v košarici za projekte."
+"V posnetek doda označevalnik na trenutni časovni točki. Označevalniki so "
+"lastnosti posnetkov v projektni posodi. To dejanje torej postavi "
+"označevalnik v posnetek v projektni posodi."
 
 #: ../../user_interface/menu/clip_menu.rst:49
-#, fuzzy
 msgid ""
 "In order for the Add Marker to work a clip must be selected in the Timeline. "
 "You can create multiple Markers in the Guides widget for the clip selected "
 "in the Project Bin independent of the Timeline."
 msgstr ""
-"Za delovanje funkcije Dodaj oznako mora biti na časovnici izbran posnetek. V "
-"gradniku Vodila lahko ustvarite več označevalnikov za posnetek, izbran v "
-"košarici projekta, neodvisno od časovnice."
+"Za delovanje funkcije Dodaj označevalnik mora biti na časovnici izbran "
+"posnetek. V gradniku Vodila lahko ustvarite več označevalnikov za posnetek, "
+"izbran v projektni posodi, neodvisno od časovnice."
 
 #: ../../user_interface/menu/clip_menu.rst:53
 msgid "Edit Marker..."
@@ -115,7 +105,6 @@ msgstr "Uredi označevalnik …"
 
 #: ../../user_interface/menu/clip_menu.rst:55
 #: ../../user_interface/menu/clip_menu.rst:63
-#, fuzzy
 msgid ""
 "For this to work the playhead needs to be right on top of a Marker. If it is "
 "not you get an error on the bottom left \"No Marker found at Cursor time\". "
@@ -123,23 +112,22 @@ msgid ""
 "a time, or use them with :kbd:`ALT` to jump to the next or previous edit "
 "point (for example cuts, clip edges, Markers and Guides)."
 msgstr ""
-"Da bi to delovalo, mora biti glava predvajalnika na vrhu označevalnika. Če "
-"ni, se na spodnjem levem robu prikaže napaka \"No Marker found at Cursor time"
-"\". S tipkama :kbd:`Levo` in :kbd:`Desno` premikate predvajalno glavo po "
-"posameznih sličicah ali ju uporabite skupaj s tipko :kbd:`ALT` za preskok na "
-"naslednjo ali prejšnjo točko urejanja (na primer reze, robove posnetkov, "
-"označevalnike in vodila)."
+"Da bi to delovalo, mora biti predvajalna glava nad označevalnikom. Če ni, se "
+"na spodnjem levem robu prikaže napaka »Na položaju kazalca ni "
+"označevalnika«. S tipkama :kbd:`Levo` in :kbd:`Desno` premikate predvajalno "
+"glavo po posameznih sličicah ali ju uporabite skupaj s tipko :kbd:`Alt/"
+"izmenjalko` za preskok na naslednjo ali prejšnjo točko montaže (npr. rez, "
+"rob posnetka, označevalnik ali vodilo)."
 
 #: ../../user_interface/menu/clip_menu.rst:57
-#, fuzzy
 msgid ""
 "As Markers are properties of the clips in the Project Bin, this action "
 "changes the Marker from the clip in the Project Bin and thus in any other "
 "instance of this clip in the Timeline."
 msgstr ""
-"Ker so označevalci lastnosti posnetkov v košu projekta, to dejanje spremeni "
-"označevalec posnetka v košu projekta in s tem tudi vse druge primere tega "
-"posnetka na časovnici."
+"Ker so označevalniki lastnosti posnetkov v projektni posodi, to dejanje "
+"spremeni označevalnik posnetka v projektni posodi in s tem tudi vse druge "
+"primere tega posnetka na časovnici."
 
 #: ../../user_interface/menu/clip_menu.rst:61
 msgid "Delete Marker"
@@ -147,15 +135,14 @@ msgstr "Izbriši označevalnik"
 
 #: ../../user_interface/menu/clip_menu.rst:65
 #: ../../user_interface/menu/clip_menu.rst:73
-#, fuzzy
 msgid ""
 "As Markers are properties of the clips in the Project Bin, this action "
 "removes the Marker from the clip in the Project Bin and thus from any other "
 "instance of this clip in the Timeline."
 msgstr ""
-"Ker so označevalci lastnosti posnetkov v košu projektov, to dejanje odstrani "
-"označevalec iz posnetka v košu projektov in s tem iz vseh drugih primerov "
-"tega posnetka na časovnici."
+"Ker so označevalniki lastnosti posnetkov v projektni posodi, to dejanje "
+"odstrani označevalnik iz posnetka v projektni posodi in s tem iz vseh drugih "
+"primerov tega posnetka na časovnici."
 
 #: ../../user_interface/menu/clip_menu.rst:69
 msgid "Delete All Markers"
@@ -170,16 +157,12 @@ msgid "Automatic Transition"
 msgstr "Samodejni prehod"
 
 #: ../../user_interface/menu/clip_menu.rst:79
-#, fuzzy
-#| msgid ""
-#| "When a transition is selected, this menu item allows you toggle the "
-#| "transition to and from :ref:`transitions` mode."
 msgid ""
 "When a transition is selected, this menu item allows you toggle the "
 "transition to and from :ref:`transitions_compositions` mode."
 msgstr ""
 "Ko izberete prehod, vam ta element menija omogoča, da prehod preklopite v in "
-"iz načina :ref:`transitions`."
+"iz načina :ref:`transitions_compositions`."
 
 #: ../../user_interface/menu/clip_menu.rst:87
 msgid "Delete Effects"
@@ -194,7 +177,6 @@ msgid "Extract Audio"
 msgstr "Izvleci zvok"
 
 #: ../../user_interface/menu/clip_menu.rst:97
-#, fuzzy
 msgid ""
 "Only available if the selected clip is a video clip with an audio track. "
 "This function extracts the audio from the clip and adds it as a 48kHz :file:"
@@ -202,11 +184,11 @@ msgid ""
 "Bin and may take some time. A small progress bar underneath the clip "
 "indicates the progress."
 msgstr ""
-"Na voljo samo, če je izbrani posnetek videoposnetek z zvočno sledjo. Ta "
-"funkcija izvleče zvok iz posnetka in ga doda kot 48kHz :file:`wav` datoteko "
-"v koš projekta. Postopek se izvede kot opravilo klipa v košu projekta in "
-"lahko traja nekaj časa. Majhna vrstica napredka pod posnetkom prikazuje "
-"napredek."
+"Na voljo samo, če je izbrani posnetek videoposnetek z zvočno stezo. Ta "
+"funkcija izvleče zvok iz posnetka in ga doda kot 48kHz-datoteko :file:`wav` "
+"v projektno posodo. Postopek se izvede kot opravilo posnetka v projektni "
+"posodi in lahko traja nekaj časa. Majhna vrstica napredka pod posnetkom "
+"prikazuje napredek."
 
 #: ../../user_interface/menu/clip_menu.rst:99
 #: ../../user_interface/menu/clip_menu.rst:119
@@ -238,9 +220,8 @@ msgid "`Duplicate Clip with Speed Change`_"
 msgstr "`Podvoji posnetek s spremembo hitrosti`_"
 
 #: ../../user_interface/menu/clip_menu.rst:115
-#, fuzzy
 msgid "My Clip Job (this may look different in your environment)"
-msgstr "Moje opravilo s posnetki (v vašem okolju je to morda videti drugače)"
+msgstr "Moje opravilo posnetka (v vašem okolju je to morda videti drugače)"
 
 #: ../../user_interface/menu/clip_menu.rst:117
 msgid "`Configure Clip Jobs`_"
@@ -255,7 +236,6 @@ msgid "Scene Detection"
 msgstr "Zaznavanje prizorov"
 
 #: ../../user_interface/menu/clip_menu.rst:133
-#, fuzzy
 msgid ""
 "This job detects scene changes in the clip and creates markers and/or cuts "
 "the clip into sub-clips. The :guilabel:`Change threshold` determines the "
@@ -264,19 +244,18 @@ msgid ""
 "specific situation and source material."
 msgstr ""
 "To opravilo zazna spremembe prizora v posnetku in ustvari označevalnike in/"
-"ali razreže posnetek na podposnetke. Z nastavitvijo :guilabel:`Change "
-"threshold` se določi razlika v video toku, ki se šteje za spremembo prizora. "
-"Morda boste morali eksperimentirati s tem parametrom, da boste dobili "
-"zadovoljive rezultate za specifične razmere in izvorni material."
+"ali razreže posnetek na podposnetke oz. kadre. Z nastavitvijo :guilabel:"
+"`Spremeni prag` se določi razlika v video toku, ki naj šteje za spremembo "
+"prizora. Morda boste morali eksperimentirati s tem parametrom, da boste "
+"dobili zadovoljive rezultate za specifične razmere in izvorni material."
 
 #: ../../user_interface/menu/clip_menu.rst:135
-#, fuzzy
 msgid ""
 "If you want Kdenlive to create sub-clips for each scene check the :guilabel:"
 "`Cut scenes`."
 msgstr ""
-"Če želite, da Kdenlive ustvari podsklope za vsak prizor, preverite :guilabel:"
-"`Cut scenes`."
+"Če želite, da Kdenlive ustvari podposnetke oz. kadre za vsak prizor, "
+"potrdite :guilabel:`Razreži prizore`."
 
 #: ../../user_interface/menu/clip_menu.rst:141
 msgid "Automatic Scene Detection with markers"
@@ -291,27 +270,25 @@ msgid "Stabilize"
 msgstr "Stabiliziraj"
 
 #: ../../user_interface/menu/clip_menu.rst:182
-#, fuzzy
 msgid ""
 "This feature applies image stabilization algorithms to the clip which can "
 "reduce the shakiness of a bit of footage. It is also available via the right-"
 "click menu of the clip in the Project Bin."
 msgstr ""
-"Ta funkcija uporabi algoritme za stabilizacijo slike na posnetku, kar lahko "
-"zmanjša tresenje posnetka. Na voljo je tudi prek menija z desnim klikom "
-"klipa v košarici projekta."
+"Ta funkcija uporabi algoritme za stabilizacijo slike v posnetku, kar lahko "
+"zmanjša tresenje posnetka. Na voljo je tudi prek kontekstnega menija "
+"posnetka v projektni posodi."
 
 #: ../../user_interface/menu/clip_menu.rst:188
 msgid "Stabilize Clip dialog in version 21.12"
 msgstr "Pogovorno okno Stabiliziraj posnetek v različici 21.12"
 
 #: ../../user_interface/menu/clip_menu.rst:190
-#, fuzzy
 msgid ""
 "Based on the tooltips from this screen and |vid.stab| this is what all the "
 "options mean:"
 msgstr ""
-"Na podlagi napisov na tem zaslonu in |vid.stab| je razvidno, kaj pomenijo "
+"Na podlagi namigov na tem zaslonu in |vid.stab| je razvidno, kaj pomenijo "
 "vse možnosti:"
 
 #: ../../user_interface/menu/clip_menu.rst:193
@@ -319,7 +296,6 @@ msgid "Accuracy"
 msgstr "Natančnost"
 
 #: ../../user_interface/menu/clip_menu.rst:193
-#, fuzzy
 msgid ""
 "Accuracy of shakiness detection. Should be >= shakiness factor. 1: low (fast "
 "processing). 15: high (slow processing). Default: 4. Recommended: 8."
@@ -332,7 +308,6 @@ msgid "Shakiness"
 msgstr "Tresavost"
 
 #: ../../user_interface/menu/clip_menu.rst:196
-#, fuzzy
 msgid ""
 "How shaky is the video? And how quick is the camera? 1: little (fast "
 "processing). 10: very strong/quick (slow processing). Default = 4. Note: "
@@ -349,29 +324,26 @@ msgid "Stepsize"
 msgstr "Velikost koraka"
 
 #: ../../user_interface/menu/clip_menu.rst:199
-#, fuzzy
 msgid ""
 "Step size of search process. Region around minimum is scanned with 1 pixel "
 "resolution. Default = 6."
 msgstr ""
-"Velikost koraka postopka iskanja. Območje okoli minimuma se skenira z "
-"ločljivostjo 1 piksla. Privzeto = 6."
+"Velikost koraka postopka iskanja. Območje okoli minimuma se pregleduje z "
+"ločljivostjo 1 slikovne točke. Privzeto = 6."
 
 #: ../../user_interface/menu/clip_menu.rst:202
 msgid "Min. contrast"
 msgstr "Najm. kontrast"
 
 #: ../../user_interface/menu/clip_menu.rst:202
-#, fuzzy
 msgid ""
 "Below this contrast the field is discarded. Range 0-1. Default = 0.3. You "
 "may want to use a smaller value for a really low contrast clip."
 msgstr ""
-"Pod tem kontrastom se polje zavrže. Razpon 0-1. Privzeto = 0,3. Morda boste "
-"želeli uporabiti manjšo vrednost za posnetek z zelo nizkim kontrastom."
+"Pod tem kontrastom se polslika zavrže. Obseg 0-1. Privzeto = 0,3. Morda "
+"boste želeli uporabiti manjšo vrednost za posnetek z zelo nizkim kontrastom."
 
 #: ../../user_interface/menu/clip_menu.rst:205
-#, fuzzy
 msgid ""
 "Controls the amount of smoothing/stabilization. The larger the value for "
 "smoothing the more camera movements are compensated. The resulting clip has "
@@ -384,16 +356,14 @@ msgstr ""
 "filtriranje = (glajenje * 2) + 1."
 
 #: ../../user_interface/menu/clip_menu.rst:208
-#, fuzzy
 msgid ""
 "For example, with a with 25 fps clip, a value of 12 for the smoothing factor "
 "means we would smooth over one second - 12 frames behind the current frame + "
 "the current frame (1) + 12 frames after the current frame. Default =   10."
 msgstr ""
 "Na primer pri posnetku s 25 sličicami na sekundo vrednost 12 za faktor "
-"glajenja pomeni, da bomo gladili eno sekundo - 12 sličic za trenutnim "
-"posnetkom + trenutni posnetek (1) + 12 sličic za trenutnim posnetkom. "
-"Privzeto = 10."
+"glajenja pomeni, da bomo gladili eno sekundo - 12 sličic za trenutno sličico "
+"+ trenutno sličico (1) + 12 sličic za trenutno sličico. Privzeto = 10."
 
 #: ../../user_interface/menu/clip_menu.rst:210
 msgid "Smoothing"
@@ -408,10 +378,9 @@ msgid "Max shift"
 msgstr "Najv. zamik"
 
 #: ../../user_interface/menu/clip_menu.rst:213
-#, fuzzy
 msgid "Maximum number of pixels to translate image. Default = -1 (no limit)"
 msgstr ""
-"Največje število slikovnih pik za prevajanje slike. Privzeto = -1 (brez "
+"Največje število slikovnih točk za prevajanje slike. Privzeto = -1 (brez "
 "omejitve)"
 
 #: ../../user_interface/menu/clip_menu.rst:216
@@ -419,7 +388,6 @@ msgid "Max angle"
 msgstr "Najv. kot"
 
 #: ../../user_interface/menu/clip_menu.rst:216
-#, fuzzy
 msgid "Maximum angle to rotate in radians. Default = -1 (no limit)."
 msgstr "Največji kot vrtenja v radianih. Privzeto = -1 (brez omejitve)."
 
@@ -428,20 +396,19 @@ msgid "Crop"
 msgstr "Obreži"
 
 #: ../../user_interface/menu/clip_menu.rst:219
-#, fuzzy
 msgid ""
 "Unchecked means the border of the transformed frames contains the pixels "
 "from previous frames. Checked = black background. Default is unchecked."
 msgstr ""
-"Če ta možnost ni označena, pomeni, da rob preoblikovanih okvirjev vsebuje "
-"piksle iz prejšnjih okvirjev. Označeno = črno ozadje. Privzeto je odkljukano."
+"Če ta možnost ni potrjena, pomeni, da rob preoblikovanih sličic vsebuje "
+"slikovne točke iz prejšnjih sličic. Potrjeno = črno ozadje. Privzeto je "
+"nepotrjeno."
 
 #: ../../user_interface/menu/clip_menu.rst:222
 msgid "Zoom"
 msgstr "Približanje"
 
 #: ../../user_interface/menu/clip_menu.rst:222
-#, fuzzy
 msgid ""
 "Additional zoom during transform. Percentage to zoom > 0 = zoom in, < 0 = "
 "zoom out. The zoom specified here is in addition to the optimum zoom "
@@ -456,7 +423,6 @@ msgid "Optimal Zoom"
 msgstr "Optimalni zum"
 
 #: ../../user_interface/menu/clip_menu.rst:225
-#, fuzzy
 msgid ""
 "Use optimal zoom (calculated from transforms). Causes video to zoom until "
 "90% of transformations are hidden. Default is checked. Hint: You can further "
@@ -464,14 +430,13 @@ msgid ""
 msgstr ""
 "Uporabite optimalno povečavo (izračunano iz transformacij). Povzroči "
 "povečavo videoposnetka, dokler ni skritih 90 % preoblikovanj. Privzeto je "
-"potrjena. Namig: Z možnostjo povečave lahko še dodatno povečate."
+"potrjena. Namig: Z možnostjo povečave lahko pogled še dodatno približate."
 
 #: ../../user_interface/menu/clip_menu.rst:228
 msgid "Optimal Zoom Speed"
 msgstr "Optimalna hitrost zuma"
 
 #: ../../user_interface/menu/clip_menu.rst:228
-#, fuzzy
 msgid "Zoom per frame (used when \"Optimal Zoom\" = 2)"
 msgstr "Povečanje na sličico (uporablja se, ko je »Optimalna povečava« = 2)"
 
@@ -480,7 +445,6 @@ msgid "Sharpen"
 msgstr "Izostri"
 
 #: ../../user_interface/menu/clip_menu.rst:231
-#, fuzzy
 msgid ""
 "Sharpens transformed image. Amount of sharpening: 0 = no sharpening. Uses "
 "filter unsharp with 5x5 matrix. Default = 0.8."
@@ -493,15 +457,14 @@ msgid "Show fields"
 msgstr "Pokaži polja"
 
 #: ../../user_interface/menu/clip_menu.rst:234
-#, fuzzy
 msgid ""
 "0 = draw nothing, 1 or 2 = show fields and transforms. Use 1 or 2 to preview "
 "what the process is going to do. Check this |example|. Default = 0. Non-zero "
 "values of this parameter are not relevant in the **Kdenlive** implementation "
 "- use zero."
 msgstr ""
-"0 = ne riše ničesar, 1 ali 2 = prikaže polja in transformacije. Uporabite 1 "
-"ali 2 za predogled, kaj bo postopek naredil. Oglejte si ta |primer|. "
+"0 = ne riše ničesar, 1 ali 2 = prikaže polslike in preoblikovanja. Uporabite "
+"1 ali 2 za predogled, kaj bo postopek naredil. Oglejte si ta |primer|. "
 "Privzeto = 0. Vrednosti tega parametra, ki niso enake nič, pri izvajanju "
 "**Kdenlive** niso pomembne - uporabite nič."
 
@@ -510,18 +473,16 @@ msgid "Tripod"
 msgstr "Stativ"
 
 #: ../../user_interface/menu/clip_menu.rst:237
-#, fuzzy
 msgid "Virtual tripod mode (=relative=0, smoothing=0)"
 msgstr "Način navideznega stativa (=relativno=0, glajenje=0)"
 
 #: ../../user_interface/menu/clip_menu.rst:239
-#, fuzzy
 msgid ""
 "Here are examples of the effect of running stabilize - transcoded by the "
 "original author - Georg Martius."
 msgstr ""
-"Tukaj so primeri učinka stabilizacije teka - transkodirano s strani "
-"originalnega avtorja - Georg Martius."
+"Tukaj so primeri izvajanja učinka stabilizacije - prekodiral jih je izvorni "
+"avtor - Georg Martius."
 
 #: ../../user_interface/menu/clip_menu.rst:250
 #: ../../user_interface/menu/clip_menu.rst:258
@@ -529,16 +490,14 @@ msgid "Duplicate Clip with Speed Change"
 msgstr "Podvoji posnetek s spremembo hitrosti"
 
 #: ../../user_interface/menu/clip_menu.rst:252
-#, fuzzy
 msgid ""
 "This function is only available for clips selected in the Project Bin, and "
 "can be selected from the right-click menu of a clip."
 msgstr ""
-"Ta funkcija je na voljo samo za posnetke, izbrane v košu projekta, in jo "
-"lahko izberete v meniju z desnim klikom na posnetek."
+"Ta funkcija je na voljo samo za posnetke, izbrane v projektni posodi, in jo "
+"lahko izberete v kontekstnem meniju posnetka."
 
 #: ../../user_interface/menu/clip_menu.rst:260
-#, fuzzy
 msgid ""
 "This feature used to be *Reverse Clip* and was first available in version "
 "0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse the "
@@ -546,7 +505,7 @@ msgid ""
 "values below 100% slow it down. With the new version of the clip job the "
 "sound in the clip is also reversed."
 msgstr ""
-"Ta funkcija se je včasih imenovala *Obratni posnetek* in je bila prvič na "
+"Ta funkcija se je včasih imenovala *Obrni posnetek* in je bila prvič na "
 "voljo v različici 0.9.6 programa Kdenlive. Od različice 17.04 jo je še vedno "
 "mogoče uporabiti za obrnitev posnetka z vnosom hitrosti minus 100 %. "
 "Vrednosti nad 100 % pospešijo posnetek, vrednosti pod 100 % pa ga "
@@ -554,24 +513,22 @@ msgstr ""
 "posnetku."
 
 #: ../../user_interface/menu/clip_menu.rst:262
-#, fuzzy
 msgid ""
 "Select :guilabel:`Pitch compensation` to avoid the Mickey Mouse effect in "
 "speech when speeding up the clip. If you check :guilabel:`Add clip to "
 "\"Speed Change\" folder` a folder named \"Speed Change\" is created in the "
 "Project Bin and the clip added to it."
 msgstr ""
-"Select :guilabel:`Pitch compensation` to avoid the Mickey Mouse effect in "
-"speech when speeding up the clip. If you check :guilabel:`Add clip to »Speed "
-"Change« folder` a folder named »Speed Change« is created in the Project Bin "
-"and the clip added to it."
+"Izberite :guilabel:`Kompenzacija višine tona`, da se izognete učinku Mikija "
+"Miške v govorjeni besedi, ko pohitrite posnetek. Če potrdite možnost :"
+"guilabel:`Dodaj posnetek v mapo »Sprememba hitrosti«`, v projektni mapi "
+"ustvari mapo »Sprememba hitrosti« in posnetek doda vanjo."
 
 #: ../../user_interface/menu/clip_menu.rst:269
 msgid "Duplicate Clip with speed change in Project Bin"
 msgstr "Podvoji posnetek s spremembo hitrosti v projektni posodi"
 
 #: ../../user_interface/menu/clip_menu.rst:275
-#, fuzzy
 msgid "Same as above but with Speed Change folder"
 msgstr "Enako kot zgoraj, vendar z mapo Spremenjena hitrost"
 
@@ -586,13 +543,12 @@ msgstr ""
 "file:`.mlt`."
 
 #: ../../user_interface/menu/clip_menu.rst:279
-#, fuzzy
 msgid ""
 "You can add this clip to the Timeline just like any other, and when you play "
 "it the video of the original source clip will be played but at the new speed "
 "(or in reverse if a negative % value was entered)."
 msgstr ""
-"Ta posnetek lahko dodate na časovno os kot katerikoli drug posnetek in ko ga "
+"Ta posnetek lahko dodate na časovnico kot katerikoli drug posnetek in ko ga "
 "predvajate, se predvaja videoposnetek izvornega posnetka z novo hitrostjo "
 "(ali v obratni smeri, če je bila vnesena negativna vrednost %)."
 
@@ -605,7 +561,6 @@ msgid "Manage Bin Clip Jobs dialog"
 msgstr "Pogovorno okno Upravljaj posle posnetkov posode"
 
 #: ../../user_interface/menu/clip_menu.rst:298
-#, fuzzy
 msgid ""
 "This opens the Manage Bin Clip Jobs dialog. Here you can create and manage "
 "your own jobs that can then be applied to clips in the Project Bin. Select "
@@ -614,15 +569,14 @@ msgid ""
 "you do not specify an output file extension the extension of the source file "
 "will be used."
 msgstr ""
-"Odpre se pogovorno okno Upravljanje opravil za košarico. Tu lahko ustvarite "
-"in upravljate svoja opravila, ki jih lahko nato uporabite za posnetke v košu "
-"projektov. Izberite izvršilno datoteko, ki jo želite priklicati, in vnesite "
-"argumente, ki jih je treba posredovati izvršilni datoteki. ‘’%1’’ se "
-"nadomesti s potjo do izvornega posnetka. Če ne določite končnice izhodne "
-"datoteke, bo uporabljena končnica izvorne datoteke."
+"Odpre se pogovorno okno Upravljaj opravila posnetkov posode. Tu lahko "
+"ustvarite in upravljate svoja opravila, ki jih lahko nato uporabite za "
+"posnetke v projektni posodi. Izberite izvršilno datoteko, ki jo želite "
+"priklicati, in vnesite argumente, ki jih je treba posredovati izvršilni "
+"datoteki. ‘’%1’’ se nadomesti s potjo do izvornega posnetka. Če ne določite "
+"končnice izhodne datoteke, bo uporabljena končnica izvorne datoteke."
 
 #: ../../user_interface/menu/clip_menu.rst:300
-#, fuzzy
 msgid ""
 "Unless you want the original clip to be replaced with the result, select "
 "whether the resulting clip is :guilabel:`Placed in the original clip "
@@ -631,18 +585,17 @@ msgid ""
 "name."
 msgstr ""
 "Če ne želite, da se izvirni posnetek zamenja z rezultatom, izberite, ali naj "
-"bo rezultatni posnetek :guilabel:`Placed in the original clip folder`, :"
-"guilabel:`Placed at the top level` ali Kdenlive shall :guilabel:`Use a "
-"subfolder` za shranjevanje. V slednjem primeru morate vnesti ime mape."
+"bo rezultatni posnetek :guilabel:`Postavi v mapo izvornega posnetka`, :"
+"guilabel:`Postavi na vrhnjo raven` ali naj Kdenlive :guilabel:`Uporabi "
+"podmapo` za njegovo shranjevanje. V slednjem primeru morate vnesti ime mape."
 
 #: ../../user_interface/menu/clip_menu.rst:302
-#, fuzzy
 msgid ""
 "Click on the :guilabel:`+` to create a new custom clip job. In order to "
 "delete one select it first then click on the trashcan icon."
 msgstr ""
-"Kliknite :guilabel:`+`, da ustvarite novo delo s klipi po meri. Če jo želite "
-"izbrisati, jo najprej izberite in nato kliknite ikono koša za smeti."
+"Kliknite :guilabel:`+`, da ustvarite novo opravilo s posnetki po meri. Če ga "
+"želite izbrisati, ga najprej izberite in nato kliknite ikono koša za smeti."
 
 #: ../../user_interface/menu/clip_menu.rst:310
 msgid "Transcode to Edit Friendly Format"
@@ -653,7 +606,6 @@ msgid "Transcode clip to edit-friendly format"
 msgstr "Prekodiraj v montaži prijazen zapis"
 
 #: ../../user_interface/menu/clip_menu.rst:319
-#, fuzzy
 msgid ""
 "This opens a dialog window where you can select an edit-friendly format in "
 "case your source material is not suitable for non-linear video editing. This "
@@ -661,17 +613,15 @@ msgid ""
 "in the Project Bin."
 msgstr ""
 "To odpre pogovorno okno, v katerem lahko izberete obliko, primerno za "
-"urejanje, če izvorno gradivo ni primerno za nelinearno urejanje "
-"videoposnetkov. Ta funkcija je na voljo tudi v meniju desnega klika za "
-"posnetek(-e), izbrane v košarici projekta."
+"montažo, če izvorno gradivo ni primerno za nelinearno montažo "
+"videoposnetkov. Ta funkcija je na voljo tudi v kontekstem meniju posnetka(-"
+"ov), izbranega v projektni posodi."
 
 #: ../../user_interface/menu/clip_menu.rst:321
-#, fuzzy
 msgid "You can select more than one clip in the Project Bin for this function."
-msgstr "Za to funkcijo lahko izberete več kot en posnetek v košu za projekte."
+msgstr "Za to funkcijo lahko izberete več kot en posnetek v projektni posodi."
 
 #: ../../user_interface/menu/clip_menu.rst:323
-#, fuzzy
 msgid ""
 "There are several formats available, some are lossless (producing huge "
 "files), some produce a slight degradation in quality."
@@ -684,29 +634,26 @@ msgid "Transcode"
 msgstr "Prekodiraj"
 
 #: ../../user_interface/menu/clip_menu.rst:336
-#, fuzzy
 msgid ""
 "Use this function to transcode your source material into a wide variety of "
 "other formats. This function is also available via the right-click menu for "
 "the clip(s) selected in the Project Bin."
 msgstr ""
 "S to funkcijo lahko izvirno gradivo prekodirate v različne druge formate. Ta "
-"funkcija je na voljo tudi v meniju desnega klika za posnetek(-e), izbrane v "
-"košarici projekta."
+"funkcija je na voljo tudi v kontekstnem meniju posnetka, izbranega v "
+"projektni posodi."
 
 #: ../../user_interface/menu/clip_menu.rst:338
-#, fuzzy
 msgid ""
 "Choose a transcode profile from the available list to transcode the selected "
 "clip into a different video format. The options are controlled by :ref:"
 "`configure_kdenlive`. The transcoding is done by the |ffmpeg| program."
 msgstr ""
 "S seznama, ki je na voljo, izberite profil prekodiranja, da izbrani posnetek "
-"prekodirate v drug video format. Možnosti so pod nadzorom :ref:"
+"prekodirate v drug video zapis. Možnosti so pod nadzorom :ref:"
 "`configure_kdenlive`. Prekodiranje opravi program |ffmpeg|."
 
 #: ../../user_interface/menu/clip_menu.rst:345
-#, fuzzy
 msgid "Transcoding job running"
 msgstr "Opravilo prekodiranja v teku"
 
@@ -725,15 +672,14 @@ msgid "Locate Clip"
 msgstr "Najdi posnetek"
 
 #: ../../user_interface/menu/clip_menu.rst:357
-#, fuzzy
 msgid ""
 "Locate Clip opens up the system's file browser at the location of the file "
 "system where the selected clip is stored. Useful for tracking down the "
 "sources of clips in the Project Bin."
 msgstr ""
-"Locate Clip (Poišči posnetek) odpre sistemski brskalnik po datotekah na "
-"lokaciji datotečnega sistema, kjer je shranjen izbrani posnetek. Uporabno za "
-"iskanje virov posnetkov v košu projektov."
+"Poišči posnetek odpre sistemski brskalnik po datotekah na mestu datotečnega "
+"sistema, kjer je shranjen izbrani posnetek. Uporabno za iskanje virov "
+"posnetkov iz projektne posode."
 
 #: ../../user_interface/menu/clip_menu.rst:359
 #: ../../user_interface/menu/clip_menu.rst:371
@@ -764,22 +710,20 @@ msgid "Reload Clip"
 msgstr "Znova naloži posnetek"
 
 #: ../../user_interface/menu/clip_menu.rst:369
-#, fuzzy
 msgid ""
 "Reload Clip will re-import the clip from the file system into Kdenlive. This "
 "is useful when you edit a clip outside of Kdenlive and want Kdenlive to "
 "update it in the project."
 msgstr ""
-"Z možnostjo Reload Clip se posnetek ponovno uvozi iz datotečnega sistema v "
-"Kdenlive. To je uporabno, kadar urejate posnetek zunaj Kdenlive in želite, "
-"da ga Kdenlive posodobi v projektu."
+"Z možnostjo Ponovno naloži posnetek se posnetek ponovno uvozi iz datotečnega "
+"sistema v Kdenlive. To je uporabno, kadar montirate ali spreminjate posnetek "
+"zunaj Kdenlive in želite, da ga Kdenlive posodobi v projektu."
 
 #: ../../user_interface/menu/clip_menu.rst:377
 msgid "Replace Clip"
 msgstr "Zamenjaj posnetek"
 
 #: ../../user_interface/menu/clip_menu.rst:379
-#, fuzzy
 msgid ""
 "Replace Clip will allow you to select a different file but keep all of the "
 "uses on the Timeline. This can be useful if you work  with placeholder clips "
@@ -787,39 +731,37 @@ msgid ""
 "rendering, you replace the clip with the final clip."
 msgstr ""
 "S funkcijo Zamenjaj posnetek lahko izberete drugo datoteko, vendar ohranite "
-"vse načine uporabe na časovnici. To je lahko koristno, če delate s posnetki "
-"za nadomestek (npr. nizke ločljivosti ali v predlogah projekta) in na koncu, "
-"pred izrisom, posnetek nadomestite s končnim posnetkom."
+"vse njegove pojavitve na časovnici. To je lahko koristno, če delate s "
+"posnetki ograd (npr. nizke ločljivosti ali v predlogah projekta) in na "
+"koncu, pred izrisovanjem, posnetek nadomestite s končnim posnetkom."
 
 #: ../../user_interface/menu/clip_menu.rst:383
-#, fuzzy
 msgid ""
 "Make sure the clip replacement is at least of the same length/duration. "
 "Otherwise it may lead to unwanted gaps in the Timeline. If effects are used "
 "on these clips the replacement clips should have the same dimensions to "
 "avoid unwanted behaviour of effects."
 msgstr ""
-"Prepričajte se, da je nadomestna sponka vsaj enako dolga/dolgotrajna. V "
+"Prepričajte se, da je nadomestni posnetek vsaj enako dolg/trajanje. V "
 "nasprotnem primeru lahko pride do neželenih vrzeli na časovnici. Če so na "
 "teh posnetkih uporabljeni učinki, morajo imeti nadomestni posnetki enake "
-"dimenzije, da se prepreči neželeno obnašanje učinkov."
+"mere, da preprečite neželeno vedenje učinkov."
 
 #: ../../user_interface/menu/clip_menu.rst:389
 msgid "Duplicate Clip"
 msgstr "Podvoji posnetek"
 
 #: ../../user_interface/menu/clip_menu.rst:391
-#, fuzzy
 msgid ""
 "This function will create a copy of the clip in the Project Bin. This can be "
 "useful when applying effects to clips and allowing you to have the same "
 "source file with two different sets of applied effects, or one with the "
 "other without effects."
 msgstr ""
-"Ta funkcija ustvari kopijo posnetka v košu za projekte. To je lahko koristno "
+"Ta funkcija ustvari kopijo posnetka v projektni posodi. To je lahko koristno "
 "pri uporabi učinkov na posnetkih, saj vam omogoča, da imate isto izvorno "
-"datoteko z dvema različnima nizoma uporabljenih učinkov ali eno z drugo brez "
-"učinkov."
+"datoteko z dvema različnima nizoma uporabljenih učinkov ali enega z drugim "
+"brez učinkov."
 
 #: ../../user_interface/menu/clip_menu.rst:399
 #: ../../user_interface/menu/clip_menu.rst:406
@@ -827,7 +769,6 @@ msgid "Proxy Clip"
 msgstr "Posredni posnetek"
 
 #: ../../user_interface/menu/clip_menu.rst:408
-#, fuzzy
 msgid ""
 "If Proxy Clips are enabled in the project settings this function will create "
 "a proxy clip for the selected clip(s). A yellow square with the letter P "
@@ -843,39 +784,32 @@ msgstr ""
 "izvornimi datotekami."
 
 #: ../../user_interface/menu/clip_menu.rst:410
-#, fuzzy
 msgid ""
 "This menu item is a toggle, meaning that if the selected clip is already a "
 "proxy clip Kdenlive will revert back to the original source clip."
 msgstr ""
 "Ta postavka menija je preklopna, kar pomeni, da se bo Kdenlive vrnil k "
-"izvirnemu izvornemu posnetku, če je izbrani posnetek že proxy posnetek."
+"izvornemu posnetku, če je izbrani posnetek že posredni posnetek."
 
 #: ../../user_interface/menu/clip_menu.rst:420
 msgid "Clip in Timeline"
 msgstr "Posnetek na časovnici"
 
 #: ../../user_interface/menu/clip_menu.rst:422
-#, fuzzy
-#| msgid ""
-#| "The functions controlled from this menu affect the clip that is selected "
-#| "in the timeline. This is in contrast to :ref:`project_menu` functions "
-#| "which affect the clips selected in the Project Bin."
 msgid ""
 "This function is useful for quickly locating all the places where a clip is "
 "used in the Timeline. It is also available via the right-click menu for the "
 "clip selected in the Project Bin."
 msgstr ""
 "Funkcije, nadzorovane iz tega menija, vplivajo na posnetek, izbran na "
-"časovnici. To je v nasprotju s funkcijami :ref:`menija Projekt "
-"<project_menu>`, ki vplivajo na posnetke, izbrane v projektni posodi."
+"časovnici. To je v nasprotju s funkcijami kontekstnega menija, ki vplivajo "
+"na posnetke, izbrane v projektni posodi."
 
 #: ../../user_interface/menu/clip_menu.rst:429
 msgid "Locating all occurencies of a clip"
 msgstr "Iskanje vseh pojavitev posnetka"
 
 #: ../../user_interface/menu/clip_menu.rst:431
-#, fuzzy
 msgid ""
 "Selecting the :guilabel:`Clip In Timeline` menu item brings up a flyout that "
 "lists all instances of the selected clip, identified by their track (A for "
@@ -888,7 +822,6 @@ msgstr ""
 "glava prestavi na začetek navedenega posnetka."
 
 #: ../../user_interface/menu/clip_menu.rst:433
-#, fuzzy
 msgid ""
 "In the example we have clicked on the third video entry which is located on "
 "video track 1 at the 00:35;09 mark and the playhead is now located at the "
@@ -903,13 +836,12 @@ msgid ""
 msgstr "Ta možnost bo siva, če se posnetek ne nahaja na časovnici."
 
 #: ../../user_interface/menu/clip_menu.rst:439
-#, fuzzy
 msgid ""
 "See also :guilabel:`Clip in Project Bin` available in the :ref:"
 "`right_click_menu` on a clip in the Timeline."
 msgstr ""
 "Oglejte si tudi :guilabel:`Posnetek v projektni posodi`, ki je na voljo v :"
-"ref:`right_click_menu` posnetka na časovnici."
+"ref:`kontekstnem meniju <right_click_menu>` posnetka na časovnici."
 
 #: ../../user_interface/menu/clip_menu.rst:445
 msgid "Clip Properties"
@@ -920,7 +852,6 @@ msgid "Properties of the clip"
 msgstr "Lastnosti posnetka"
 
 #: ../../user_interface/menu/clip_menu.rst:453
-#, fuzzy
 msgid ""
 "This menu item opens the Clip Properties widget and displays the properties "
 "of the selected clip in the Project Bin. Depending on the type of clip it "
@@ -928,9 +859,9 @@ msgid ""
 "dimensions or frame size, frame rate, etc."
 msgstr ""
 "Ta element menija odpre gradnik Lastnosti posnetka in prikaže lastnosti "
-"izbranega posnetka v košarici projekta. Glede na vrsto posnetka vključuje "
-"informacije o zvočnem toku, video toku, razmerju stranic, dimenzijah ali "
-"velikosti okvirja, hitrosti snemanja itd."
+"izbranega posnetka v projektni posodi. Glede na vrsto posnetka vključuje "
+"informacije o zvočnem toku, video toku, razmerju stranic, merah ali "
+"velikosti sličice, hitrosti posnetka itn."
 
 #: ../../user_interface/menu/clip_menu.rst:463
 msgid "Edit Clip"
@@ -953,15 +884,14 @@ msgid "animation (*new in version 22.08*)"
 msgstr "animacija (*novo v različici 22.08*)"
 
 #: ../../user_interface/menu/clip_menu.rst:473
-#, fuzzy
 msgid ""
 "It opens the clip in an external software specified in :ref:`default_apps` (:"
 "menuselection:`Settings --> Configure Kdenlive... --> Environment page --> "
 "Default Apps tab`) ready for editing."
 msgstr ""
-"Odpre posnetek v zunanji programski opremi, določeni pod :ref:`default_apps` "
-"(:menuselection:`Nastavitve —> Prilagodi Kdenlive … —> stran Okolje —> "
-"zavihek Privzeti programi`), pripravljenega za urejanje."
+"Odpre posnetek v zunanjem programu, določenem pod :ref:`default_apps` (:"
+"menuselection:`Nastavitve —> Prilagodi Kdenlive … —> stran Okolje —> zavihek "
+"Privzeti programi`), primeren za urejanje."
 
 #: ../../user_interface/menu/clip_menu.rst:477
 msgid ""
@@ -994,42 +924,39 @@ msgstr ""
 "poti: glejte :ref:`default_apps`."
 
 #: ../../user_interface/menu/clip_menu.rst:488
-#, fuzzy
 msgid ""
 "The option is greyed out for video clips because **Kdenlive** is the video "
 "editor - only audio, image and animation clips are edited by external "
 "software."
 msgstr ""
-"Ta možnost je za video posnetke siva, ker je **Kdenlive** urejevalnik "
-"videoposnetkov - zunanja programska oprema ureja samo zvočne posnetke, slike "
-"in animacije."
+"Ta možnost je za video posnetke osivela, ker je **Kdenlive** program za "
+"montažo videoposnetkov - zunanja programska oprema ureja samo zvočne "
+"posnetke, slike in animacije."
 
 #: ../../user_interface/menu/clip_menu.rst:494
 msgid "Rename"
 msgstr "Preimenuj"
 
 #: ../../user_interface/menu/clip_menu.rst:496
-#, fuzzy
 msgid ""
 "This function allows you to change the name of the clip in the Project Bin "
 "to an arbitrary name. It does not rename the file in the file system."
 msgstr ""
-"S to funkcijo lahko spremenite ime posnetka v košu projektov v poljubno ime. "
-"Ne preimenuje datoteke v datotečnem sistemu."
+"S to funkcijo lahko spremenite ime posnetka v projektni posodi v poljubno "
+"ime. Ne preimenuje datoteke v datotečnem sistemu."
 
 #: ../../user_interface/menu/clip_menu.rst:504
 msgid "Delete Clip"
 msgstr "Izbriši posnetek"
 
 #: ../../user_interface/menu/clip_menu.rst:506
-#, fuzzy
 msgid ""
 "This function removes the clip from the Project Bin. It does not delete it "
 "from the file system. If the clip is being used in the Timeline a warning "
 "message will appear, and if you click on :guilabel:`Continue` any occurence "
 "of that clip in the Timeline will be deleted."
 msgstr ""
-"Ta funkcija odstrani posnetek iz koša za projekte. Ne izbriše ga iz "
+"Ta funkcija odstrani posnetek iz projektne posode. Ne izbriše ga iz "
 "datotečnega sistema. Če se posnetek uporablja na časovnici, se prikaže "
-"opozorilno sporočilo, in če kliknete :guilabel:`Nadaljuj`, se izbriše vsaka "
-"pojavitev tega posnetka na časovnici."
+"opozorilno sporočilo, in če kliknete :guilabel:`Nadaljuj`, se izbrišejo vse "
+"pojavitve tega posnetka na časovnici."
