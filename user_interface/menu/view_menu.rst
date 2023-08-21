@@ -1,5 +1,5 @@
 .. meta::
-   :description: View menu in Kdenlive video editor, view menu
+   :description: Kdenlive's User Interface - View Menu
    :keywords: KDE, Kdenlive, view, layout, dock, audio, mixer, sequence, title, timeline, animation, subtitle, render, documentation, user manual, video editor, open source, free, learn, easy, view menu
 
    :authors: - Claus Christensen
@@ -86,7 +86,7 @@ This is a new feature since version 22.04. It allows you to search for any comma
 Load Layout
 -----------
 
-This function lets you switch to a previously saved custom workspace layout. More details are available in the :ref:`workspace_layouts` section of this documentation.
+This function lets you switch to a previously saved custom workspace layout. More details are available in the :ref:`ui-workspace_layouts` section of this documentation.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive_load_layout01.webp
   :align: left
@@ -159,13 +159,13 @@ You can delete, re-arrange, reset, import and export the saved layouts.
 Dock Area Orientation
 ---------------------
 
-.. this section would benefit from a GIF showing the stacking and scaling concept
-
 This function controls how Kdenlive arranges the workspace layout:
 
 * Arrange Dock Areas in Columns - Widgets can be stacked like washing machine and dryer at both ends of the screen and scaled vertically independent from the screen split between the Timeline and the area above
 
 * Arrange Dock Areas in Rows - Widgets can be put next to each other and scaling them horizontally does not affect the widgets in the row above them.
+
+See the :ref:`ui-customizing_interface` for more details and an illustration.
 
 
 .. _view-audio_mixer:

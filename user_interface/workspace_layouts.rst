@@ -1,3 +1,7 @@
+.. meta::
+   :description: Kdenlive's User Interface - Workspace Layout
+   :keywords: KDE, Kdenlive, user interface, documentation, user manual, video editor, open source, free, learn, easy, user interface, layout, workspace
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -12,11 +16,12 @@
              - Roger (https://userbase.kde.org/User:Roger)
              - Carl Schwan <carl@carlschwan.eu>
              - Eugen Mohr
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
 
-.. _workspace_layouts:
+.. _ui-workspace_layouts:
 
 Workspace Layouts
 =================

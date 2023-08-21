@@ -42,6 +42,7 @@ The effect does not have keyframes.
 
 
 .. list-table::
+   :align: left
    :header-rows: 1
 
    * - Value
@@ -64,6 +65,8 @@ The effect does not have keyframes.
      - YUV
    * - 8..15
      - repeat
+
+.. rst-class:: clear-both
 
 
 **Notes**

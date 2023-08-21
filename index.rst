@@ -76,7 +76,7 @@ User Interface
 
     .. container:: tile
 
-       :ref:`shortcuts`
+       :ref:`ui-keyboard_shortcuts`
           Improve your workflow by using the keyboard
 
 

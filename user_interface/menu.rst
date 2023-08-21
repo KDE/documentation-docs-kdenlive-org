@@ -65,4 +65,4 @@ This section explains the nine menus in the main menu bar. These are:
 * :ref:`settings_menu`
 
 
-.. note:: In order to optimize screen space you can turn off the menu bar in :menuselection:`Settings --> Show Menubar` or by hitting :kbd:`Ctrl+M`. This will add a hamburger menu (|application-menu|) to the main toolbar containing the menus.
+.. tip:: In order to optimize screen space you can turn off the menu bar in :menuselection:`Settings --> Show Menubar` or by hitting :kbd:`Ctrl+M`. This will add a hamburger menu (|application-menu|) to the main toolbar containing the menus.

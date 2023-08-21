@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add in Kdenlive video editor, glossary.
+   :description: Kdenlive Video Editor - Glossary
    :keywords: KDE, Kdenlive, effects, audio, video, title, subtitle, speech to text, color correction, documentation, user manual, video editor, open source, free, learn, easy, glossary
 
 .. metadata-placeholders
@@ -163,7 +163,7 @@ Glossary
       Defines the frame in a clip where something starts or changes. Most :term:`effects<effect>` have keyframes to allow changes over time. For example, the X and Y coordinates of the Transform effect can be keyframed to move a clip across the screen. See :ref:`effects-working_with_keyframes`.
 
    Layout
-      A particular way widgets are arranged on the screen to support different workflows or tasks. Kdenlive can save different layouts for logging, editing, audio and color. See :ref:`workspace_layouts`.
+      A particular way widgets are arranged on the screen to support different workflows or tasks. Kdenlive can save different layouts for logging, editing, audio and color. See :ref:`ui-workspace_layouts`.
 
    Lightness
       Also called brightness, lightness is the amount of white or black mixed in with the color. Lightness is more a subjective measure of perceived light, while brightness is an absolute measure of emitted or reflected light from an object. Compare :term:`tint` and :term:`shade`.
@@ -325,6 +325,9 @@ Glossary
 
    Tint
       In color theory a tint is a mixture of a color with white, increasing the lightness. Compare :term:`shade`, :term:`hue` and :term:`saturation`.
+
+   Title Bar
+      Part of a :term:`widget's<widget>` window displaying additional information (e.g. name, title, action icons). You can grab a widget by the title bar and move it around. See :ref:`ui-moving_widgets`.
 
    Tooltip
       A small window with more information about a function that pops up when hovering the mouse over an icon or button. Press Shift to get even more details (not available for all functions).

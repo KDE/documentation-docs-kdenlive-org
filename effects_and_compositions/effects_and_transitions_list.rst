@@ -1107,7 +1107,7 @@ Alphabetical List of Effects and Compositions
      - Composition
      - -
      - Applies a stationary transition between the current and the next frames (luma)
-   * - :ref:`lumakey`
+   * - :ref:`effects-lumakey`
      - Video Effect
      - Alpha, Mask and Keying
      - This filter modifies image’s alpha channel as a function of its luma value. This is used together with a compositor to combine two images so that bright or dark areas of source image are overwritten on top of the destination image (lumakey)
@@ -1115,7 +1115,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - Filter can be used to apply lift gain and gamma corrections to luma values of an image (lumaliftgammagain)
-   * - :ref:`luminance`
+   * - :ref:`effects-luminance`
      - Video Effect
      - Color and Image correction
      - Creates a luminance map of the image (frei0r.luminance)
@@ -1319,10 +1319,6 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Transform, Distort and Perspective
      - Creates a square alpha-channel mask (frei0r.mask0mate)
-   * - :ref:`regionalize`
-     - Compositions
-     -
-     - Use alpha channel of another clip to create a transition (region)
    * - rescale
      - Video Effect
      - Image Adjustment
@@ -1771,10 +1767,6 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - Oversaturate the color in video, like in old Technicolor movies (tcolor)
-   * - :ref:`tehroxx0r`
-     - Video Effect
-     - Misc
-     - Something videowall-ish (frei0r.tehRoxx0r)
    * - thistogram
      - Compositions
      -
@@ -1783,7 +1775,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Stylize
      - Thresholds a source image (frei0r.threshold0r)
-   * - :ref:`timeout_indicator`
+   * - :ref:`effects-timeout_indicator`
      - Video Effect
      - Utility
      - Timeout indicators e.g. for slides (frei0r.timeout)

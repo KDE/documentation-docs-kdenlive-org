@@ -1,5 +1,5 @@
 .. meta::
-   :description: How to use the toolbars in Kdenlive video editor
+   :description: Kdenlive's User Interface - Toolbars
    :keywords: KDE, Kdenlive, use, using, toolbars, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -28,7 +28,7 @@ Menubar
 .. image:: /images/Kdenlive_menubar.png
    :alt: Kdenlive_Menubar_bar
 
-Not really a toolbar but it shows the :ref:`Menu` and :ref:`workspace_layouts`.
+Not really a toolbar but it shows the :ref:`Menu` and :ref:`ui-workspace_layouts`.
 
 It can be switched on/off in :menuselection:`Settings --> Show Menubar` or by :kbd:`Ctrl+M`.
 

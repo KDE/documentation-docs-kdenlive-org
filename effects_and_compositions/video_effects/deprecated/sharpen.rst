@@ -26,7 +26,7 @@ See this :ref:`effects-chroma_key_basic` that describes how to use.
 * Alpha Manipulation -> :ref:`effects-chroma_key_basic`
 * :ref:`effects-rotoscoping`
 * :ref:`composite`
-* Crop and Transform -> :ref:`pan_and_zoom`
+* Crop and Transform -> pan_and_zoom
 * Sharpen Effect
 * Alpha Manipulation -> :ref:`effects-alpha_operations`
 

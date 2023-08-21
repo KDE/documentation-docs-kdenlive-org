@@ -1,61 +1,137 @@
 .. meta::
-   :description: Introduction to Kdenlive's window system and widgets
-   :keywords: KDE, Kdenlive, user interface, documentation, user manual, video editor, open source, free, learn, easy, timeline, toolbar
+   :description: Kdenlive's User Interface - Customizing the Interface
+   :keywords: KDE, Kdenlive, user interface, documentation, user manual, video editor, open source, free, learn, easy, customize
 
 .. metadata-placeholder
 
    :authors: - Eugen Mohr
              - Maris Stalte (https://userbase.kde.org/User:limerick)
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
              
    :license: Creative Commons License SA 4.0
 
 
-.. _customizing_interface:
+.. _ui-customizing_interface:
 
-Customizing interface
----------------------
-The user interface model has a clear division between the different panes, that they work on allows you to reorder them, drag them out into separate windows or size them up as you will.
+Customizing the Interface
+=========================
 
-The interface is divided into many sections. The menu is on top and then on the left you can make a note about the project. All loaded clips and videos are in the project bin, the second section. Third section is the Effect list. You can apply many transaction effects on your video. You can always watch the project preview in the last section. You can create as many audio/video track as you need. This is impressive about Kdenlive. If you’re new to video editing then this is very useful. You can import multiple title clips inside video track.
+The user interface model allows you to freely adjust the different panels to support your workflow. You can add :term:`widgets<widget>` to and delete them from the different panels, rearrange them, change the size of the panels, and save the workspace layout so you can have different layouts with different widgets depending on the stage of your post-production work. For example, you can have different workspace layouts for video editing, color correction and sound editing. Kdenlive comes with four different workspace layouts already defined. See the :ref:`ui-workspace_layouts` chapter.
 
-Remove/Adjust Sections
-``````````````````````
+.. figure::  /images/user_interface/kdenlive2304_ui-workspaces.webp
+   :align: left
+   :width: 350px
+   :figwidth: 350px
+   :alt: kdenlive2304_ui-workspaces
 
-You won't notice on the spot, but the tabs that appear on the bottom of the panes aren't built in them, but change according to what panes you have aggregated into that particular frame. This way you can group functions that you don't expect to use simultaneously into a single place on the user interface, thus reducing clutter.
+   Kdenlive’s default workspaces (example uses the Editing view; click to enlarge)
 
-If you don’t want certain sections on the screen then you can simply delete them to make other sections wider. Just click the close button on that section and that section will be closed, by removing unnecessary video/audio tracks and now you can organize enough space to preview your project and all other necessary sections are wider.
+Here is a quick reminder of the different workspace panels (see :ref:`user_interface`). In this section we want to focus on the panels 1 thru 4 and panel #6. Panel #5 (timeline toolbar) is not really a panel by itself but is part of the timeline. Panels 7 and 8 are described in more detail in the :ref:`status_bar` (#8) and :ref:`toolbars` (#7) chapters.
 
-.. figure:: /images/KDENLIVE_User_Interface.png
-   :width: 650px
-   :alt: interface_window-system_editing-screen
+.. rst-class:: clear-both
 
-   Kdenlive’s default Screen Layout, editing view
+Kdenlive allows you to arrange these five panels in columns or in rows. You define this in :menuselection:`Menu --> View --> Dock Area Orientation`. In both cases the timeline panel (#4) determines what is a row and what is a column.
+The difference is that if you select :guilabel:`Arrange dock areas in columns` you can add columns to the right of the timeline that extend from top to bottom. You can still add widgets above or below other widgets but the right edge of the timeline will be. If you select :guilabel:`Arrange dock areas in rows` you have two rows to start with. You can drag widgets below the timeline to create a new row but not above the first and between the first and second row. You can move widgets with a row to create new columns.
 
-1. :ref:`Project Bin <project_tree>`
-````````````````````````````````````
-The top left section of the screen is known as the bin, library or browser, where clips, still images, audio files etc. are displayed, ready for use. Replicating the folder naming system within the editing software library will help keep everything organized. It may be helpful to label each clip with one or more descriptive keywords. These can be searched and are a useful way to rapidly locate the desired footage, especially with the use of many clips. It is preferable to edit using the same frame rate and frame size that the footage was shot with. 
+.. |columns| image:: /images/user_interface/kdenlive2304_ui-screen_layout_columns.webp
+   :width: 340px
+   :alt: kdenlive2304_ui-screen_layout_columns
 
-2. :ref:`Clip Monitor <clip_monitor_overview>`
-``````````````````````````````````````````````
-The preview or canvas window (top centre) plays what is currently selected in the project bin.
+.. |rows| image:: /images/user_interface/kdenlive2304_ui-screen_layout_rows.webp
+   :width: 340px
+   :alt: kdenlive2304_ui-screen_layout_rows
 
-3. :ref:`Project Monitor <project_monitor_overview>`
-````````````````````````````````````````````````````
-This screen shows all clips, still images, audio files and effects such as titles or transitions were be applied to the footage in the timeline. To apply effects, select it from the effects menu and then drag and drop it between the two clips where it is.
+.. list-table::
 
-4. :ref:`Timeline Toolbar <timeline_toolbar>`
-`````````````````````````````````````````````
-Trimming and other editing tools do not alter or delete the original footage, they only adjust the copy that has been added to the timeline.
+   * - |columns|
+     - |rows|
+   * - *Columns* (click to enlarge)
+     - *Rows* (click to enlarge)
 
-5. :ref:`The Timeline <editing>`
-````````````````````````````````
-This is the area where clips are placed in the order in which they will appear in the final video and trimmed to the desired length and content. When assembling the initial “rough cut” of the video, users can place clips from the project bin into the timeline in the desired sequence. To reorder clips simply click and drag them to a new position. Trimming tools allow only the relevant footage to be used by marking the desired start and end (“in” and “out”) points on each clip, to shorten or lengthen it.
+Note that you can still have widgets in rows within one column, and in columns within one row. See the dashed lines in the images above. Similarly, you can have widgets as tabs (see the yellow box in the screenshots above) regardless of the dock orientation setting.
 
-6. :ref:`Audio Mixer <audio_mixer>`
-```````````````````````````````````
-The sound quality and volume can be adjusted, either for the entire sequence or selected sections. The editing software will display audio meters and generally any dialogue or narration in a video should be at about -10dB most of the time.
 
-7. :ref:`Status Bar <status_bar>`
-`````````````````````````````````
-On the left side you see hints what you can do when you hover over items. In the middle you see the names of the clips you hover over in the timeline. Followed by mode you are in (default is :guilabel:`Select`). On the right end are switches for :guilabel:`Labels`, :guilabel:`Thumbnails`, :guilabel:`Snap` and for zooming the timeline.    
+.. _ui-adding_widgets:
 
+Adding Widgets
+--------------
+
+You can add widgets (e.g. :ref:`view-library`, :ref:`view-project_notes`) by enabling them in the :menuselection:`Menu --> View Menu`. Likewise, disable them by taking off the check mark right next to their entry in the menu.
+
+
+.. _ui-moving_widgets:
+
+Moving Widgets
+--------------
+
+You move a widget by grabbing the tab or the :term:`title bar` and moving it to a new position. It is possible to move the widget to a different position within the same panel thereby simply changing the sequence of the tabs.
+
+A widget can also be moved to a new panel, to its own (new) column or row, or undocked as a floating window.
+
+The Kdenlive layout reacts to your dragging of the widget and you need to pay close attention which layout elements change color when you move over them.
+
+.. list-table::
+   :header-rows: 1
+
+   * - Reaction
+     - Result when let go
+   * - Widget underneath changes color
+     - Widget is added as a tab to the panel
+   * - Empty highlighted area appears
+     - Widget is dropped in to a new column or row
+   * - No color change
+     - [Only when hovering over the timeline panel or the menu bar] Widget becomes a floating window
+
+.. tip:: When trying to move a floating window to a new position Kdenlive may think you want to move it to a panel or create a new row or column. It is recommended to use the standard size handles of the window manager to adjust the top left and bottom right corners accordingly.
+
+.. note:: In order to move widgets without a tab they must have :term:`title bars<title bar>`. You can switch them on and off in :menuselection:`Menu --> View --> Show Title Bars`.
+
+
+.. _ui-resizing_widgets:
+
+Resizing Widgets
+----------------
+
+You can only resize the column or row the widget is docked in. Hover over the widget's edge on either side and the mouse pointer will change into the re-size pointer. Now drag the edge until the desired size is reached. You can only drag horizontally or vertically individually.
+
+
+.. _ui-saving_layout:
+
+Saving the Layout
+-----------------
+
+Once you have arranged the widgets to your liking you can save the layout via :menuselection:`Menu --> View --> Save Layout`. A dialog windows opens where you can name the new layout. If you enter the name of an existing layout a warning will appear but you can overwrite the layout.
+
+It is good practice and very helpful to have different layouts for the different tasks of post-production. See the :ref:`ui-workspace_layouts` chapter for more details.
+
+
+.. _ui-loading_layout:
+
+Loading a Layout
+----------------
+
+You can load a layout either by selecting it from :menuselection:`Menu --> View --> Load Layout`, or by clicking on the desired one listed in the :ref:`menu bar <menubar>` (top-right hand corner of the screen).
+
+
+.. _ui-manage_layouts:
+
+Managing Layouts
+----------------
+
+Kdenlive displays only eight saved layouts when selecting :menuselection:`Menu --> View --> Load Layout`, and in the :ref:`menu bar <menubar>` only four are displayed. But you can have many more.
+
+.. figure::  /images/user_interface/kdenlive2304_ui-manage_layouts.webp
+   :align: left
+   :width: 250px
+   :figwidth: 250px
+   :alt: kdenlive2304_ui-manage_layouts
+
+   List of available layouts
+
+Selecting :menuselection:`Menu --> View --> Manage Layouts` opens this window where you can manage the workspace layouts available.
+
+Use |go-up| and |go-down| to move the highlighted layout up and down in the list. The first eight from this list will be available through the menu.
+
+Click on |view-refresh| to refresh the list. Use |edit-delete| to delete the highlighted entry.
+
+You can export |document-export| and import |document-import| saved layouts.
