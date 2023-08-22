@@ -1,0 +1,270 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-20 00:38+0000\n"
+"PO-Revision-Date: 2023-08-21 10:53+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:12
+msgid "Medians"
+msgstr "Medianen"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:16
+msgid "This filter implements several median type filters."
+msgstr ""
+"Dit filter implementeert verschillende filters van het type mediaan."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:18
+msgid "INTRODUCTION:"
+msgstr "INLEIDING:"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:20
+msgid ""
+"Median is a quite popular non-linear filter in image processing. Most"
+" often it is used to remove impulsive noise, like \"salt &  pepper\""
+" noise, \"dead\" and \"hot\" pixels, dirt on film, etc. This is because"
+" it behaves kind of \"inversely\" compared to linear denoisers. The more"
+" a bad pixel stands out from the surrounding area, the bigger residual it"
+" will leave with a linear filter - but the more probably it will be"
+" eliminated by the median."
+msgstr ""
+"Mediaan is een tamelijk populair niet-lineair filter bij bewerken van "
+"afbeeldingen. Het meest vaak wordt het gebruikt om impulsieve ruis te "
+"verwijderen, zoals \"zout & peper\" ruis, \"dode\" en \"hete\" pixels,"
+" stof "
+"op de film, etc. Dit is omdat het zich gedraagt als een soort van"
+" \"inverse"
+"\" vergeleken met lineaire ruisverwijdering. Hoe meer een fout pixel "
+"verschilt van het omgevende gebied, hoe grotere rest het zal achterlaten"
+" met "
+"een lineair filter - maar het is waarschijnlijker dat het geëlimineerd"
+" wordt "
+"door de mediaan."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:22
+msgid ""
+"The down side is that the median operation is quite slow. As an"
+" order-statistic filter, it is similar to sorting, that must be done for"
+" each pixel, so using a fast algorithm is very important. For the small"
+" medians, the algorithms of the type described in `this page <"
+"http://ndevilla.free.fr/median/median/src/optmed.c>`_ are used here, with"
+" some small modifications for a further slight improvement in speed. For"
+" the \"Variable size\" median, code from  [1]_  is used. The compound"
+" filters (ArceBI, ML3D, ML3dEX) are made according to the formulas given"
+" in the corresponding work [2]_. For more info on median filtering see"
+" `Wikipedia article <https://en.wikipedia.org/wiki/Median_filter>`_."
+msgstr ""
+"Het nadeel is dat de mediaan bewerking tamelijk langzaam is. Als een "
+"volgorde-statistisch filter, komt het overeen met sorteren, dat moet"
+" gedaan "
+"worden voor elk pixel, een snel algoritme gebruiken is erg belangrijk."
+" Voor "
+"de kleine medianen, worden de algoritmen van het type beschreven in `deze "
+"pagina <http://ndevilla.free.fr/median/median/src/optmed.c>`_ hier"
+" gebruikt, "
+"met enige kleine wijzigingen voor een verdere lichte verbetering in "
+"snelheid. Voor de \"Variabele grootte\" mediaan, wordt code uit [1]_  "
+"gebruikt. De samengestelde filters (ArceBI, ML3D, ML3dEX) zijn gemaakt "
+"volgens de formules gegeven in het overeenkomstige werk [2]_. Voor meer "
+"informatie over mediaan filteren zie `Wikipedia artikel <https://en."
+"wikipedia.org/wiki/Median_filter>`_."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:24
+msgid "IMPLEMENTED ALGORITHMS:"
+msgstr "GEÏMPLEMENTEERDE ALGORITMEN:"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
+msgid "**Cross5**"
+msgstr "**Cross5**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
+msgid "Median of the pixel with its top, bottom, left and right neighbor."
+msgstr ""
+"Mediaan van het pixel met zijn boven, onder, linker en rechter buur."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
+msgid "**Square3x3**"
+msgstr "**Square3x3**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
+msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
+msgstr "Mediaan van het pixel met de 8 pixels er omheen. (3x3 vakjes)"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
+msgid "**Bilevel**"
+msgstr "**Bilevel**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
+msgid ""
+"First, make cross5 median, then make median of the pixel with its four"
+" diagonal neighbors, and finally take the median of the pixel and the two"
+" previously calculated medians. Slightly better preserves detail than the"
+" simple medians above."
+msgstr ""
+"Maak eerst cross5 mediaan, maak daarna mediaan van het pixel met zijn"
+" vier "
+"diagonale buren en tenslotte neem de mediaan van het pixel en de twee"
+" eerder "
+"berekende medianen. Behoud iets beter details dan de eenvoudige"
+" bovenstaande "
+"medianen."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
+msgid "**Diamond3x3**"
+msgstr "**Diamond3x3**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
+msgid ""
+"Takes median of the pixel with 12 neighboring pixels arranged in a"
+" diamond pattern."
+msgstr ""
+"Neemt de mediaan van het pixel met 12 buurpixels gearrangeerd in een "
+"ruitvormig patroon."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
+msgid "**Square5x5**"
+msgstr "**Square5x5**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
+msgid "Median of the pixel with the 5x5 surrounding box."
+msgstr "Mediaan van het pixel met de 5x5 omgevende vakjes."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
+msgid "**Temp3**"
+msgstr "**Temp3**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
+msgid ""
+"Temporal only median of three frames. Can be used to reduce single frame"
+" time-impulsive noise like photoflash. Delays the video by 1 frame."
+msgstr ""
+"Tijdelijk alleen mediaan van drie frames. Kan gebruikt worden om tijd-"
+"impulsieve ruis van een enkel frame zoals een fotoflits te verminderen. "
+"Vertraagt de video met 1 frame."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
+msgid "**Temp5**"
+msgstr "**Temp5**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
+msgid ""
+"Temporal only median of five frames. Can be used to reduce double frame"
+" time-impulsive noise, but the artifacts on fast moving objects are"
+" stronger than with temp3. Delays the video by 2 frames."
+msgstr ""
+"Tijdelijk alleen mediaan van vijf frames. Kan gebruikt worden om tijd-"
+"impulsieve ruis van twee frames te verminderen, maar de artifacts op snel "
+"bewegende objecten zijn sterker dan met temp3. Vertraagt de video met 2 "
+"frames."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
+msgid "**ArceBI**"
+msgstr "**ArceBI**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
+msgid ""
+"Spatio-temporal multilevel median, as described by Arce. See the"
+" corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Spatio-temporal multilevel mediaan, zoals beschreven door Arce. Zie het "
+"corresponderende werk [2]_. Vertraagt de video met 1 frame."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
+msgid "**ML3D**"
+msgstr "**ML3D**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
+msgid ""
+"Spatio-temporal multilevel median, as described by Alp. See the"
+" corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Spatio-temporal multilevel mediaan, zoals beschreven door Alp. Zie het "
+"corresponderende werk [2]_. Vertraagt de video met 1 frame."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
+msgid "**ML3dEX**"
+msgstr "**ML3dEX**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
+msgid ""
+"Spatio-temporal multilevel median. Further development of ML3D by"
+" Kokaram, see the corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Spatio-temporal multilevel mediaan. Verdere ontwikkeling van ML3D door "
+"Kokaram, zie het corresponderende werk [2]_. Vertraagt de video met 1"
+" frame."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
+msgid "**VarSize**"
+msgstr "**VarSize**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
+msgid ""
+"Simple spatial only median in a user selected size square box around each"
+" pixel. The effect could be described as \"quasi edge preserving, corner"
+" rounding, small stuff eliminator\". Or maybe just an \"artsy blur\"."
+msgstr ""
+"Eenvoudige alleen-ruimtelijke mediaan in een door de gebruiker"
+" geselecteerde "
+"grootte van een vierkant vak rond elk pixel. Het effect zou beschreven "
+"kunnen worden als \"quasi rand sparende, hoek afrondende, kleine zaken "
+"verwijderaar\". Of misschien gewoon een \"kunstzinnig vervaging\"."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:59
+msgid "PARAMETERS:"
+msgstr "PARAMETERS:"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
+msgid "**Type**"
+msgstr "**Type**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
+msgid "Selects one of the eleven algorithms."
+msgstr "Selecteert één van de elf algoritmen."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:65
+msgid ""
+"Only active when \"VarSize\" type is selected. Determines the size of the"
+" square area over which the median is taken."
+msgstr ""
+"Alleen actief wanneer type \"Variabele grootte\" is geselecteerd. Bepaalt"
+" de "
+"grootte van het vierkante gebied waarover de mediaan wordt genomen."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:66
+msgid "**Size**"
+msgstr "**Grootte**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:68
+msgid ""
+"Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF"
+" version <https://nomis80.org/ctmf.pdf>`_, `HTML version <"
+"https://nomis80.org/ctmf.html>`_"
+msgstr ""
+"Simon Perreault, Patrick Hebert: Mediaan filtering in constante tijd,"
+" `PDF "
+"versie <https://nomis80.org/ctmf.pdf>`_, `HTML versie <"
+"https://nomis80.org/"
+"ctmf.html>`_"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:70
+msgid ""
+"`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <"
+"https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.36.9618&rep=rep1"
+"&type=pdf>`_"
+msgstr ""
+"`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis "
+"<https://citeseerx.ist.psu.edu/viewdoc/download?"
+"doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
