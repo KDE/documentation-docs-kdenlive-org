@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-08 00:39+0000\n"
+"POT-Creation-Date: 2023-08-20 00:38+0000\n"
 "PO-Revision-Date: 2022-10-28 14:25+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -20,19 +20,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:12
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:12
 msgid "Medians"
 msgstr "Medianes"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:16
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:16
 msgid "This filter implements several median type filters."
 msgstr "Aquest filtre implementa diversos filtres de tipus mediana."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:18
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:18
 msgid "INTRODUCTION:"
 msgstr "Introducció:"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:20
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:20
 msgid ""
 "Median is a quite popular non-linear filter in image processing. Most often "
 "it is used to remove impulsive noise, like \"salt &  pepper\" noise, \"dead"
@@ -50,7 +50,7 @@ msgstr ""
 "però més probable serà que l'elimini la mediana."
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:22
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:22
 msgid ""
 "The down side is that the median operation is quite slow. As an order-"
 "statistic filter, it is similar to sorting, that must be done for each "
@@ -75,31 +75,31 @@ msgstr ""
 "filtratge de mediana, vegeu l'`article de la Viquipèdia <https://en."
 "wikipedia.org/wiki/Median_filter>`_."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:24
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:24
 msgid "IMPLEMENTED ALGORITHMS:"
 msgstr "Algorismes implementats:"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:27
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
 msgid "**Cross5**"
 msgstr "**Creu 5**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:27
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
 msgid "Median of the pixel with its top, bottom, left and right neighbor."
 msgstr "Mediana del píxel amb el seu veí de dalt, baix, esquerra i dreta."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:30
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
 msgid "**Square3x3**"
 msgstr "**Quadrat 3x3**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:30
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
 msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
 msgstr "Mediana del píxel amb els 8 píxels que l'envolten. (quadre 3x3)"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:33
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
 msgid "**Bilevel**"
 msgstr "**Binivell**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:33
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
 msgid ""
 "First, make cross5 median, then make median of the pixel with its four "
 "diagonal neighbors, and finally take the median of the pixel and the two "
@@ -111,11 +111,11 @@ msgstr ""
 "les dues medianes calculades anteriorment. Conserva una mica millor els "
 "detalls que les medianes senzilles anteriors."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:36
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
 msgid "**Diamond3x3**"
 msgstr "**Diamant 3x3**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:36
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
 msgid ""
 "Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
 "pattern."
@@ -123,19 +123,19 @@ msgstr ""
 "Pren la mediana del píxel amb 12 píxels veïns disposats en un patró de "
 "diamant."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:39
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
 msgid "**Square5x5**"
 msgstr "**Quadrat 5x5**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:39
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
 msgid "Median of the pixel with the 5x5 surrounding box."
 msgstr "Mediana del píxel amb el quadre de 5x5 que l'envolta."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:42
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
 msgid "**Temp3**"
 msgstr "**Temp. 3**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:42
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
 msgid ""
 "Temporal only median of three frames. Can be used to reduce single frame "
 "time-impulsive noise like photoflash. Delays the video by 1 frame."
@@ -144,11 +144,11 @@ msgstr ""
 "soroll impulsiu del temps d'un sol fotograma com ara el flaix fotogràfic. "
 "Retarda el vídeo 1 fotograma."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:45
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
 msgid "**Temp5**"
 msgstr "**Temp. 5**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:45
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
 msgid ""
 "Temporal only median of five frames. Can be used to reduce double frame time-"
 "impulsive noise, but the artifacts on fast moving objects are stronger than "
@@ -159,12 +159,12 @@ msgstr ""
 "objectes en moviment ràpid són més forts que amb Temp. 3. Retarda el vídeo 2 "
 "fotogrames."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:48
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
 msgid "**ArceBI**"
 msgstr "**ArceBI**"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:48
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
 msgid ""
 "Spatio-temporal multilevel median, as described by Arce. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
@@ -172,12 +172,12 @@ msgstr ""
 "Mediana multinivell d'espai temporal, tal com la descriu Arce. Vegeu el "
 "treball corresponent [2]_. Retarda el vídeo 1 fotograma."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:51
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
 msgid "**ML3D**"
 msgstr "**ML3D**"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:51
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
 msgid ""
 "Spatio-temporal multilevel median, as described by Alp. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
@@ -185,12 +185,12 @@ msgstr ""
 "Mediana multinivell d'espai temporal, tal com la descriu Alp. Vegeu el "
 "treball corresponent [2]_. Retarda el vídeo 1 fotograma."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:54
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
 msgid "**ML3dEX**"
 msgstr "**ML3dEX**"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:54
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
 msgid ""
 "Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
 "see the corresponding work [2]_. Delays the video by 1 frame."
@@ -198,11 +198,11 @@ msgstr ""
 "Mediana multinivell d'espai temporal. Més desenvolupament de ML3D per en "
 "Kokaram, vegeu el treball corresponent [2]_. Retarda el vídeo 1 fotograma."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:57
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
 msgid "**VarSize**"
 msgstr "**VarSize**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:57
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
 msgid ""
 "Simple spatial only median in a user selected size square box around each "
 "pixel. The effect could be described as \"quasi edge preserving, corner "
@@ -214,19 +214,19 @@ msgstr ""
 "eliminador de les coses petites». O potser, senzillament un «difuminat "
 "artístic»."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:59
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:59
 msgid "PARAMETERS:"
 msgstr "Paràmetres:"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:62
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
 msgid "**Type**"
 msgstr "**Tipus**"
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:62
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
 msgid "Selects one of the eleven algorithms."
 msgstr "Seleccioneu un dels onze algorismes."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:65
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:65
 msgid ""
 "Only active when \"VarSize\" type is selected. Determines the size of the "
 "square area over which the median is taken."
@@ -234,12 +234,12 @@ msgstr ""
 "Només està actiu quan se selecciona el tipus «VarSize». Determina la mida de "
 "l'àrea quadrada sobre la qual es pren la mediana."
 
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:66
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:66
 msgid "**Size**"
 msgstr "**Mida**"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:68
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:68
 msgid ""
 "Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF "
 "version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80.org/"
@@ -250,7 +250,7 @@ msgstr ""
 "org/ctmf.html>`_"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/misc/medians.rst:70
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:70
 msgid ""
 "`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://"
 "citeseerx.ist.psu.edu/viewdoc/download?"
