@@ -29,6 +29,7 @@ Controls
    :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - UI Element
      - Description
@@ -70,6 +71,7 @@ Controls
    :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - UI Element
      - Description
@@ -111,6 +113,7 @@ Elements
    :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - Element
      - Description
@@ -150,6 +153,7 @@ Elements
    :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - Element
      - Description
@@ -178,6 +182,7 @@ Effect Panel Toolbar Icons
    :width: 80%
    :widths: 16 84
    :header-rows: 1
+   :class: table-wrap
 
    * - Icon
      - Description
@@ -205,6 +210,7 @@ Keyframe Icons
    :width: 80%
    :widths: 16 84
    :header-rows: 1
+   :class: table-wrap
 
    * - Icon
      - Description
@@ -240,6 +246,7 @@ Position and Size Icons
    :width: 80%
    :widths: 16 84
    :header-rows: 1
+   :class: table-wrap
 
    * - Icon
      - Description
@@ -273,6 +280,7 @@ Project / Clip Monitor Icons
    :width: 80%
    :widths: 16 84
    :header-rows: 1
+   :class: table-wrap
 
    * - Icon
      - Description
@@ -318,6 +326,7 @@ Timeline Icons
    :width: 80%
    :widths: 16 84
    :header-rows: 1
+   :class: table-wrap
 
    * - Icon
      - Description
@@ -365,6 +374,7 @@ Project Bin Icons
    :width: 80%
    :widths: 16 84
    :header-rows: 1
+   :class: table-wrap
 
    * - Icon
      - Description
@@ -388,6 +398,7 @@ Status Bar Icons
    :width: 80%
    :widths: 16 84
    :header-rows: 1
+   :class: table-wrap
 
    * - Icon
      - Description
