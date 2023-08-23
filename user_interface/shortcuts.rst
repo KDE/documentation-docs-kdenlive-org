@@ -396,19 +396,19 @@ Timeline
      - Description
    * - Add Clip to Selection
      - :kbd:`Alt++`
-     - Adds the clip of the active track to the selection at playhead position..
+     - Adds the clip of the active track to the selection at playhead position.
    * - Add Marker/Guide quickly
      - :kbd:`Num+*`
      - On Numlock pad: :kbd:`*` adds a marker/guide
    * - Add Subtitle
      - :kbd:`Shift+S`
-     - Adds a subtitle at playhead positon..
+     - Adds a subtitle at playhead positon.
    * - Add Transition to Selection
      - :kbd:`Alt+Shift+ +`
      -
    * - Add/Remove Guide
      - :kbd:`G`
-     - Adds a guide at playhead position..
+     - Adds a guide at playhead position.
    * - Group Clips
      - :kbd:`Ctrl+G`
      - Current selection
@@ -568,7 +568,7 @@ Timeline
      - Either for video or audio tracks.
    * - Tracks resized simultaneously to normal
      - :kbd:`Shift+double click`
-     - Normalize track hight either for video or audio tracks.
+     - Normalize track height either for video or audio tracks.
    * - Track selection
      - :kbd:`up/down`
      -
