@@ -160,7 +160,7 @@ Elements
    * - [A] Monitor area
      - This is where the :term:`clip` playback is shown and where effects can be changed (only in the project monitor, if possible with the effect, and :term:`Edit Mode<edit mode>` is switched on)
    * - [B] Monitor time ruler
-     - Shows the timeline for the project or clip where the current frame is indicated by the playhead or caret. A zoom bar and/or a timeline zone is displayed her if set.
+     - Shows the timeline for the project or clip where the current frame is indicated by the playhead or caret. A zoom bar and/or a timeline zone is displayed here if set.
    * - [C] Monitor toolbar
      - Contains controls/actions for the clip or project monitor widget
    * - [A1] Monitor overlay
