@@ -402,7 +402,7 @@ Timeline
      - On Numlock pad: :kbd:`*` adds a marker/guide
    * - Add Subtitle
      - :kbd:`Shift+S`
-     - Adds a subtitle at playhead positon.
+     - Adds a subtitle at playhead position.
    * - Add Transition to Selection
      - :kbd:`Alt+Shift+ +`
      -
