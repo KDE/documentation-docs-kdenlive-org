@@ -305,12 +305,25 @@ Tracks can be individually resized. Holding down :kbd:`Shift` makes all video or
 Fit Tracks to view height
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 23..08.0
+.. versionadded:: 23.08.0
 
 All tracks height can be adjusted following the height of the timeline view.
 
 .. image:: /images/user_interface/Fit_all_tracks_to_view.gif
    :alt: fit all tracks to view height
+
+
+Reset track to default height
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 23.08.0
+
+:kbd:`Shift+double-click` on the track divider resets the track back to its default height.
+
+.. image:: /images/user_interface/track_to_default_height.webp
+   :alt: track to default height
+
+
 
 
 .. _layout_modes:
