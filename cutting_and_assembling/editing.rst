@@ -164,6 +164,18 @@ It handles AV clips as 1 element, doesn't matter on which track they are. This f
 
 More details see :ref:`timeline_space-remove`.
 
+
+Adjust timeline zone
+--------------------
+
+.. versionadded:: 23.08
+
+:kbd:`Shift+z` adjusts timeline zone to selected clips
+
+.. image:: /images/adjust_timeline_zone_to_selection.gif
+   :alt: adjust timeline zone to selection
+
+
 .. _timeline_toolbar2:
 
 Timeline Toolbar

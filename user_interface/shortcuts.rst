@@ -330,6 +330,9 @@ Editing
    * - Set Zone Out
      - :kbd:`O`
      -
+   * - Adjust timeline zone
+     - :kbd:`Shift+z`
+     - Adjusts timeline zone to selected clips
    * - Switch Monitor
      - :kbd:`T`
      - Switch between clip monitor and project monitor (timeline)
