@@ -105,6 +105,13 @@ Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or
 .. image:: /images/av-metamove.gif
    :alt: av-metamove
 
+.. versionadded:: 23.08
+
+.. figure:: /images/resize_clip_yellow_indicator.gif
+   :alt: resize clip yellow indicator
+
+Select a clip in the project bin. When resizing this clip in the timeline the clip monitor shows a yellow indicator relative to the original clip length. 
+
 
 .. _edit_an-animation: 
 
