@@ -123,7 +123,28 @@ In order to use the DaSiam algorithm you need to download the AI models
    2. :download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_kernel_r1.onnx`
    3. :download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/dasiamrpn_model.onnx`
 
-and place them in:
+and place them in: :ref:`folders_for_models`
+
+
+.. versionadded:: 23.08
+
+Nano
+^^^^
+
+Nano tracker is a lightweight model and gives good results and is fast.
+
+In order to use the Nano algorithm you need to download the AI models (model size about 1.9 MB)
+
+  1. :download:`https://files.kde.org/kdenlive/motion-tracker/Nano/nanotrack_backbone_sim.onnx`
+  2. :download:`https://files.kde.org/kdenlive/motion-tracker/Nano/nanotrack_head_sim.onnx`
+
+and place them in: :ref:`folders_for_models`
+
+
+.. _folders_for_models:
+
+Folder for models
+^^^^^^^^^^^^^^^^^
 
    **Linux**
 
