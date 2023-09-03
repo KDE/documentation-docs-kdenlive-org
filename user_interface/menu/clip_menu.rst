@@ -104,6 +104,8 @@ Clip Jobs
 
 .. versionchanged:: 23.04
 
+.. versionchanged:: 23.08
+
 Opens a flyout to select different options:
 
 * `Automatic Scene Split`_
@@ -281,14 +283,16 @@ You can add this clip to the Timeline just like any other, and when you play it 
 .. rst-class:: clear-both
 
 
-.. _configure_slip_jobs:
+.. _configure_clip_jobs:
 
 Configure Clip Jobs
 ~~~~~~~~~~~~~~~~~~~
 
 .. versionadded:: 23.04
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_jobs.webp
+.. versionchanged:: 23.08
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2308_clip_jobs.webp
    :align: left
    :width: 400px
    :alt: kdenlive2304_clip_jobs
@@ -298,6 +302,8 @@ Configure Clip Jobs
 This opens the Manage Bin Clip Jobs dialog. Here you can create and manage your own jobs that can then be applied to clips in the Project Bin. Select the executable you want to be called and enter the arguments to be passed to the executable. ''%1'' will be replaced by the path of the source clip. If you do not specify an output file extension the extension of the source file will be used.
 
 Unless you want the original clip to be replaced with the result, select whether the resulting clip is :guilabel:`Placed in the original clip folder`, :guilabel:`Placed at the top level`, or Kdenlive shall :guilabel:`Use a subfolder` to save it. In the latter case you need to enter a folder name.
+
+You can have the source clip path {source} as well as 2 configurable parameters {param1} and {param2}. The output file will replace the {output}. The arguments should be: {source} {param1} {output}
 
 Click on the :guilabel:`+` to create a new custom clip job. In order to delete one select it first then click on the trashcan icon.
 

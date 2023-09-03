@@ -252,6 +252,8 @@ The menu items which appear when you right-click on an item in the Project Bin a
 
    * :ref:`duplicate_clip_with_speed_change`
 
+   * :ref:`configure_clip_jobs` (new in version 23.04)
+
 * :ref:`clip_in_timeline`
 
 * :ref:`locate_clip`
