@@ -113,6 +113,23 @@ Subtitle window
 
 * The check-mark button adds the text to the subtitle
 
+Character count and zoom
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 23.08
+
+.. figure:: /images/effects_and_compositions/subtitle_character_count_and_zoom.gif
+   :alt: subtitle_character_count_and_zoom
+
+:guilabel:`Character:`: Character number at cursor position
+
+:guilabel:`total:`: Total number of Character
+
+:guilabel:`Zoom in`: Zoom into the edit window
+
+:guilabel:`Zoom out`:Zoom out of the edit window
+
+
 Style subtitle
 --------------
 
