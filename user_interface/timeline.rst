@@ -180,6 +180,21 @@ Disabling individual clips
 .. rst-class:: clear-both
 
 
+Toggle between sequence tabs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 19.08
+
+ .. figure:: /images/user_interface/toggle_between_sequence_tabs.gif
+    :alt: toggle between timeline tabs
+
+With following keyboard shortcuts you can toggle between sequence tabs:
+
+Go to next sequence :kbd:`Ctrl+tab`
+
+Go to previous sequence :kbd:`Ctrl+shift+tab`
+
+
 .. _timeline_ruler:
 
 Timeline Ruler

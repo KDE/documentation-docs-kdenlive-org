@@ -575,6 +575,11 @@ Timeline
    * - Track selection
      - :kbd:`up/down`
      -
+   * - Toggle between sequence tabs
+     - | :kbd:`Ctrl+tab`
+       | :kbd:`Ctrl+Shift+tab`
+     - | Go to next sequence
+       | Go to previous sequence
 
 
 .. _ui-shortcuts_titler:
