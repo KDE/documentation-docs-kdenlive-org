@@ -301,6 +301,18 @@ Tracks can be individually resized. Holding down :kbd:`Shift` makes all video or
 .. image:: /images/resize-tracks.gif
    :alt: resize-tracks
 
+
+Fit Tracks to view height
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 23..08.0
+
+All tracks height can be adjusted following the height of the timeline view.
+
+.. image:: /images/user_interface/Fit_all_tracks_to_view.gif
+   :alt: fit all tracks to view height
+
+
 .. _layout_modes:
 
 Switching between mixed or split audio
