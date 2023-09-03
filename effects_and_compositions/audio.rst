@@ -27,7 +27,7 @@ Audio Mixer
 
 .. versionchanged:: 22.08
 
-.. image:: /images/Audio-Mixer.png
+.. figure:: /images/audio-mixer_23-08.webp
    :alt: Audio-Mixer
 
 The audio mixer has following functions for each channel:
