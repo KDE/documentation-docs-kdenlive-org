@@ -42,6 +42,10 @@
 
    <a href="https://en.wikipedia.org/wiki/Interlaced_video" target="_blank">Interlaced Video</a>
 
+.. |techsmith| raw:: html
+
+   <a href="https://www.techsmith.com/blog/frame-rate-beginners-guide/" target="_blank">techsmith.com</a>
+
 
 .. _true_glossary:
 
@@ -123,6 +127,11 @@ Glossary
    Filter
       Kdenlive uses filters from |avfilter| and |frei0r| to modify frames. See :term:`effect`.
 
+   FPS
+   Frames per Second
+   Frame Rate
+      The frame rate expressed in frames per second or FPS is typically the frequency (rate) at which consecutive images (frames) are captured or displayed. A good frame-rate primer including a list of typical frame rates for different types of video can be found on |techsmith|.
+
    Gamma
    Gamma Correction
       A description of the relationship between a color value and its brightness on a particular device. Hence Gamma Correction is the nonlinear operation for encoding and decoding :term:`luminance` in video or digital images to adjust color tones to how humans see them.
@@ -202,13 +211,13 @@ Glossary
       See :term:`Same-track Transition`
 
    Monitor
-      A device to display a video signal. Kdenlive uses a Clip Monitor to play clips selected in the :term:`project bin` and :term:`Project Monitor` to play clips in the :term:`timeline`. Monitor is widget that can be switched on and off via :menuselection:`Menu --> View`. See :ref:`monitors`.
+      A device to display a video signal. Kdenlive uses a Clip Monitor to play clips selected in the :term:`project bin` and :term:`Project Monitor` to play clips in the :term:`timeline`. Monitor is widget that can be switched on and off via :menuselection:`Menu --> View`. See :ref:`ui-monitors`.
 
    MOVIT
       A library for high-quality, high-performance video filters. Is needed to enable GPU-supported preview and playback. See :ref:`configure_playback` in :menuselection:`Menu --> Settings --> Configure Kdenlive`.
 
    Clip Monitor
-      The Clip Monitor plays the clip currently selected in the :term:`Project Bin`. See :ref:`monitors` and :term:`overlay`.
+      The Clip Monitor plays the clip currently selected in the :term:`Project Bin`. See :ref:`ui-monitors` and :term:`overlay`.
 
    Project Monitor
       The Project Monitor plays clips selected in the :term:`timeline` or simply the project.
@@ -291,6 +300,9 @@ Glossary
 
    Slip Tool
       Used in editing. Keeps the original duration of the clip. Compare with working with old film material: the film strip is slipped back and forth beneath the given "window" of the clip length. See :ref:`timeline_edit_tools`
+
+   Snap Point
+      Sections in :term:`clips<clip>` that other clips snap to when "snapping" is turned on. Snap points include markers, guides, zone in-points, zone out-points, transition start points, clip edges, and cuts.
 
    Speed Ramping
       See :term:`Time Remapping`
