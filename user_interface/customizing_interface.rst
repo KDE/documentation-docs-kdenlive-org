@@ -56,7 +56,7 @@ Note that you can still have widgets in rows within one column, and in columns w
 Adding Widgets
 --------------
 
-You can add widgets (e.g. :ref:`view-library`, :ref:`view-project_notes`) by enabling them in the :menuselection:`Menu --> View Menu`. Likewise, disable them by taking off the check mark right next to their entry in the menu.
+You can add :term:`widgets<widget>` (e.g. :ref:`view-library`, :ref:`view-project_notes`) by enabling them in the :menuselection:`Menu --> View Menu`. Likewise, disable them by taking off the check mark right next to their entry in the menu.
 
 
 .. _ui-moving_widgets:
@@ -64,9 +64,16 @@ You can add widgets (e.g. :ref:`view-library`, :ref:`view-project_notes`) by ena
 Moving Widgets
 --------------
 
-You move a widget by grabbing the tab or the :term:`title bar` and moving it to a new position. It is possible to move the widget to a different position within the same panel thereby simply changing the sequence of the tabs.
+You move a :term:`widget` by grabbing the tab or the :term:`title bar` and moving it to a new position. It is possible to move the widget to a different position within the same panel thereby simply changing the sequence of the tabs.
 
-A widget can also be moved to a new panel, to its own (new) column or row, or undocked as a floating window.
+A widget can also be moved to a new panel, to its own (new) column or row, or undocked as a floating window. In the example below the :ref:`Clip <ui-monitors_clip_monitor>` and :ref:`Project Monitor <ui-monitors_project_monitor>` widgets are being undocked and turned into floating windows:
+
+.. figure:: /images/user_interface/kdenlive2308_ui-monitors_separate_windows.gif
+   :width: 100%
+   :figwidth: 100%
+   :alt: kdenlive2308_ui-monitors_separater_windows
+
+   Moving Clip and Project Monitor to their own independent windows (undocking)
 
 The Kdenlive layout reacts to your dragging of the widget and you need to pay close attention which layout elements change color when you move over them.
 
@@ -92,7 +99,7 @@ The Kdenlive layout reacts to your dragging of the widget and you need to pay cl
 Resizing Widgets
 ----------------
 
-You can only resize the column or row the widget is docked in. Hover over the widget's edge on either side and the mouse pointer will change into the re-size pointer. Now drag the edge until the desired size is reached. You can only drag horizontally or vertically individually.
+You can only resize the column or row the :term:`widget` is docked in. Hover over the widget's edge on either side and the mouse pointer will change into the re-size pointer. Now drag the edge until the desired size is reached. You can only drag horizontally or vertically individually.
 
 
 .. _ui-saving_layout:
@@ -100,7 +107,7 @@ You can only resize the column or row the widget is docked in. Hover over the wi
 Saving the Layout
 -----------------
 
-Once you have arranged the widgets to your liking you can save the layout via :menuselection:`Menu --> View --> Save Layout`. A dialog windows opens where you can name the new layout. If you enter the name of an existing layout a warning will appear but you can overwrite the layout.
+Once you have arranged the :term:`widgets<widget>` to your liking you can save the layout via :menuselection:`Menu --> View --> Save Layout`. A dialog windows opens where you can name the new layout. If you enter the name of an existing layout a warning will appear but you can overwrite the layout.
 
 It is good practice and very helpful to have different layouts for the different tasks of post-production. See the :ref:`ui-workspace_layouts` chapter for more details.
 
