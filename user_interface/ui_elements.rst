@@ -299,7 +299,7 @@ Project / Clip Monitor Icons
    * - |ffwd|
      - Fast forward
    * - |toggle-edit-mode|
-     - Toggle :term:`Edit Mode`
+     - [Project Monitor only] Toggle :term:`Edit Mode`
    * - |application-menu|
      - Monitor options menu
    * - |view-fullscreen|
