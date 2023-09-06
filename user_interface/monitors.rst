@@ -1,230 +1,210 @@
 .. meta::
-   :description: Clip monitor and project monitor in Kdenlive video editor
+   :description: Kdenlive's User Interface - Clip and Project Monitor
    :keywords: KDE, Kdenlive, clip, project, monitor, overlay, resizing, zoombar, preview, toolbar, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
 
    :authors: - Julius Künzel <jk.kdedev@smartlab.uber.space
              - Eugen Mohr
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
 
+.. |bmd_decklink| raw:: html
 
-.. _monitors:
+   <a href="https://www.blackmagicdesign.com/ca/products/decklink" target="_blank">Blackmagicdesign DeckLink</a>
+
+
+.. _ui-monitors:
 
 Monitors
 ========
 
-Kdenlive uses 2 monitor widgets to display your videos: Clip Monitor and Project Monitor. A third monitor - the Record Monitor - previews video capture. These monitors can be selected by clicking the corresponding tabs which appear at the bottom of the monitor window.
+Kdenlive uses two monitor :term:`widgets<widget>` to display and play back your videos, images, titles, animations or audio files:
 
-Resizing the Monitors
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   monitors/*
+
+The monitor widgets can be switched on or off by checking :menuselection:`Menu --> View --> Clip Monitor` and :menuselection:`Project Monitor`, repectively. Once activated, they can be selected by clicking the corresponding tab which appears at the bottom of the monitor window.
+
+.. versionadded:: 19.04.0 Support for external monitor display using |bmd_decklink| cards.
+
+The :ref:`ui-monitors_clip_monitor` plays the :term:`clip` selected in the :ref:`Project Bin <project_tree>`. The :ref:`ui-monitors_project_monitor` plays the timeline of the project starting at the position of the :term:`playhead`.
+
+
+.. _ui-monitors_controls_and_elements:
+
+Controls and Elements
 ---------------------
 
-You can resize the monitors by dragging the sizing widget. It is a bit tricky to find the bottom widget. You need to hover just between the bottom of the monitor tab and the timeline 
+.. figure:: /images/user_interface/kdenlive2304_ui-monitor_controls.webp
+   :width: 700px
+   :figwidth: 700px
+   :align: left
 
-.. image:: /images/Kdenlive_Scale_project_monitor.png
-   :alt: Kdenlive_Scale_project_monitor
+   Monitor controls (see :ref:`this table <ui_elements-monitor_controls>` for more details)
+..
+
+.. figure:: /images/user_interface/kdenlive2304_ui-monitor_elements.webp
+   :width: 700px
+   :figwidth: 700px
+   :align: right
+
+   Monitor areas and elements (see :ref:`this table <ui_elements-monitor_elements>` for more details)
+..
 
 
-.. _monitor_zoombar:
+.. _ui-monitors_display_toolbar:
 
-Monitor zoombar
----------------
-
-.. versionadded:: 20.08.0
-
-The Monitors get zoom bars. To activate: hover over the timeline ruler and :kbd:`CTRL+Mouse wheel`.
-
-.. image:: /images/clip-monitor-zoombar.gif
-   :alt: clip-monitor-zoombar
+Monitor Display Toolbar
+-----------------------
 
 .. versionadded:: 19.04.0
 
-Support for external monitor display using Blackmagic Design decklink cards. 
+.. figure:: /images/user_interface/kdenlive2308_ui-monitor_overlay.gif
+   :width: 350px
+   :figwidth: 350px
+   :align: left
+   :alt: kdenlive2308_ui-monitor_overlay
+
+   Monitor Display Toolbar and overlay options
+
+The monitor display toolbar appears when you hover over the defined hotspot. By default this is the top right-hand side of the monitor area. Click on |transform-move-horizontal| to move the monitor display toolbar to the left-hand side or back. You can switch it off altogether by right-click in the monitor area, and selecting :menuselection:`Current Monitor Overlay --> Monitor Info Overlay`.
+
+.. rst-class:: clear-both
+
+The toolbar has the following options:
+
+.. list-table::
+   :width: 80%
+   :widths: 10 90
+   :class: table-wrap
+   :header-rows: 1
+
+   * - Icon
+     - Description
+   * - |view-fullscreen|
+     - Switch full screen
+   * - |view-grid|
+     - Change overlay. Click through the different available patterns.
+   * - |zoom-in|
+     - Zoom in It’s always for the entire clip. Cut it if needed and apply motion tracking only to the resulting pieces where needed.
+   * - |zoom-out|
+     - Zoom Out
+   * - |list-add|
+     - Add guide
+   * - |list-remove|
+     - Remove guide
+   * - |transform-move-horizontal|
+     - Move Toolbar. Click through to move the toolbar from the right (default) to the left and back.
+
+.. figure:: /images/user_interface/kdenlive2304_ui-monitor_overlay_color.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2304_ui-monitor_overlay_color
+
+   Changing the color of the monitor overlay
+
+The color of the guide overlay can be changed in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Colors and Guides`.
+
+.. rst-class:: clear-both
 
 
-.. _monitor_toolbars:
+.. _ui-monitors_resizing:
 
-Monitor toolbar
----------------
+Resizing the Monitor
+--------------------
 
-.. versionadded:: 19.04.0 
+.. figure:: /images/user_interface/kdenlive2304_ui-monitor_resize.gif
+   :width: 350px
+   :figwidth: 350px
+   :align: left
+   :alt: kdenlive2304_ui-monitor_resize
 
-.. image:: /images/Monitors.gif
-   :alt: Monitors
+   Resizing the monitor widget
 
-Support multiple guide overlays. Move with the mouse to the upper-right corner of the monitor to access the toolbar. 
+You can resize the monitors by dragging the widget's edges. Make sure the mouse pointer changes to the sizing shape.
 
-.. versionadded:: 22.08.0
-
-The color of the guide overlays can be changed. See :ref:`monitor_toolbars`    
+.. rst-class:: clear-both
 
 
-.. _preview_resolution:
+.. _ui-monitors_zoombar:
 
-Preview resolution
+Monitor Zoom Bar
+----------------
+
+.. versionadded:: 20.08.0
+
+.. figure:: /images/user_interface/kdenlive_ui-monitor_zoombar.gif
+   :width: 350px
+   :figwidth: 350px
+   :align: left
+   :alt: kdenlive-ui-monitor_zoombar
+
+   Monitor zoom bar (audio file example)
+
+The timeline rulers of the monitors have zoom bars. To activate, hover over the timeline ruler and use :kbd:`Ctrl+Mouse wheel`. A zoom bar will appear with a scrollbar that has handles on the left and the right. At the same time, the timeline ruler scaling marks will change according to the zoom factor. This is helpful when trying to make frame-accurate cuts or setting :term:`zones<zone>`.
+
+.. rst-class:: clear-both
+
+
+.. _ui-monitors_preview_resolution:
+
+Preview Resolution
 ------------------
 
-.. versionadded:: 20.04.0 
+.. versionadded:: 20.04.0
 
-.. image:: /images/Preview.gif
-   :alt: Preview
+.. figure:: /images/user_interface/kdenlive2304_ui-monitor_preview_res.webp
+   :width: 73px
+   :figwidth: 73px
+   :align: left
+   :class: no-scaled-link
+   :alt: kdenlive2304_ui-monitor_preview_res
 
-Preview resolution speeds up the editing experience by scaling the video resolution of the monitors. It can be used of proxies instead.
+   Preview resolutions
 
+Changing the Preview Resolution speeds up the editing experience by scaling the video resolution of the monitors. It can be used instead of :term:`proxies<proxy>` or with proxies. Speed improvement depends on your source files.
 
-.. _clip_monitor_overview:
+Playback speed depends on several factors: source material, use of proxies, type and number of effects, and the CPU capabilities. There is limited to no GPU support for video playback. :ref:`Preview Rendering <timeline-preview-rendering>` is highly recommended if playback speed is lacking.
 
-Clip Monitor
-------------
-
-The Clip monitor displays the unedited clip that is currently selected in :ref:`project_tree`. 
-
-.. image:: /images/Clip_monitor3.png
-   :alt: Clip_monitor3
-
-Widgets on the Clip Monitor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-0) **Insert Zone In Project Bin** button - click this to add the current zone to the project bin. The selected zone will appear as child clip in the project bin - like the clip shown as Zone1 in the screen shot.
-
-1) **Set zone start** button - click this to set an 'in' point.
-
-2) **Set zone end** button - click this to set an 'out' point.
-
-3) Zone duration indicator - selected by setting in and out points. Dragging the clip from the clip monitor to the timeline when there is a selected zone causes the selected zone, not the entire clip, to be copied to the timeline.
-
-4) Position Caret - can be dragged in the clip. (In ver >=0.9.4 and with OpenGL turned on in :menuselection:`Settings --> Configure Kdenlive --> Playback`, audio will play as you drag this.)
-
-5) Timecode widget - type a timecode here and hit :kbd:`Enter` to go to an exact location in the clip. Timecode is in the format *hours:minutes:seconds:frames* (where frames will correspond to the number of frames per second in your project profile).
-
-6) Timecode arrows - can be used to change the current position of the clip in the clip monitor.
-
-7) Rewind button - click this to play the clip backwards; click again to increase play back speed (cycles through 1.5, 2, 3, 5.5 and 10x play back speed) 
-
-8) Play/pause button
-
-9) Playback options - click to select from different playback options (Play, Play Zone, Loop Zone, Loop Selected Clip)
-
-10) Fast Forward button - click to increase the playback speed (cycles through 1.5, 2, 3, 5.5 and 10x play back speed)
-
-11) Edit Mode button - Click this button to toggle edit mode in the project monitor. If edit mode is enabled effects like transform show a red box for moving and sizing the clip.
+.. rst-class:: clear-both
 
 
-.. _clip_monitor_hamburger:
-
-Hamburger menu
-~~~~~~~~~~~~~~
-
-.. image:: /images/Clip_monitor_hamburger.png
-   :alt: Clip_monitor_hamburger
-
-
-Creating Zones in Clip Monitor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Zones are defined regions of clips that are indicated by a colored section in the clip monitor's timeline - see item 3 above. The beginning of a zone is set by clicking **[** (item 1 in the pic above). The end of a zone is set by clicking **]** (item 2 in the pic above)
-
-Clip Monitor Right-click menu
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The Clip Monitor has a right-click (context) menu as described :ref:`here <clip_monitor_rightclick>`.
-
-Seeking
-~~~~~~~
-
-.. versionadded:: 20.08.0
-
-Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/right. 
-
-.. _drag_audio_or_video_into_timeline:
-
-Drag audio or video only of a clip in timeline
-----------------------------------------------
-
-.. versionadded:: 19.04.0
-
-.. image:: /images/Clip_monitors_AV-selection.gif
-   :alt: Clip_monitors_AV-selection
-
-Move with the mouse to the lower-left corner of the clip monitor to access the Video/Audio icons. Hover with the mouse either over the audio or video icon left click to drag either video or audio part into the timeline. 
-
-.. _project_monitor_overview:
-
-Project Monitor
----------------
-
-The Project Monitor displays your project's timeline - i.e. the edited version of your video. 
-
-.. image:: /images/Project_monitor2.png
-   :alt: Project_monitor2
-
-Project Monitor Widgets
-~~~~~~~~~~~~~~~~~~~~~~~
-
-1) The position caret. Shows the current location in the project relative to the whole project. You can click and drag this to move the position in the project.
-
-2) The timecode widget. You can type a timecode here and press :kbd:`Enter` to bring the Project Monitor to an exact location.
-
-3) Timecode widget control arrows. You can move the Project Monitor one frame at a time with these.
-
-.. _project_monitor_hamburger:
-
-Hamburger menu
-~~~~~~~~~~~~~~
-
-.. image:: /images/Project_monitor_hamburger.png
-   :alt: Project_monitor_hamburger
-
-
-Creating Zones in Project Monitor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You can use the :kbd:`I` and :kbd:`O` keys to create a zone in the Project Monitor the same way you make zones in the clip monitor. The zone will be indicated by a colored bar both on the timeline and underneath the Project Monitor. 
-
-.. image:: /images/Kdenlive_Zone_in_project_monitor2.png
-   :alt: Kdenlive_Zone_in_project_monitor2
-
-You can get Kdenlive to only render the selected zone - see :ref:`rendering-selected_zone`.
-
-Project Monitor Right-click menu
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The project monitor has a right-click (context menu) as described :ref:`here <project_monitor_rightclick>`.
-
-.. _multicam_editing:
+.. _ui-multitrack_view:
 
 Multitrack View
 ---------------
 
 .. versionadded:: 20.04.0
 
-Enable the multirack view via menu :menuselection:`Monitor --> Multitrack view`. 
+You enable the multitrack view via :menuselection:`Menu --> Monitor --> Multitrack view` or via right-click in the Project Monitor area and selecting :guilabel:`Multitrack View` or by pressing :kbd:`F12`.
 
 .. image:: /images/Multicam0.gif
    :alt: Multicam
 
-The new multitrack view interface allows you to select a track in the timeline by clicking on the project monitor. See here for :ref:`multicam editing <multicam_tool>`. 
-
-.. _separate_monitors:
-
-Separate Clip and Project Monitors
-----------------------------------
-
-You can click on the Tab names that label the Monitors and drag the monitor out into its own window. 
-
-.. image:: /images/Kdenlive_monitors_seperate_with_dec.png
-   :alt: Kdenlive_monitors_seperate_with_dec
-
-To put the monitors back into the Tabbed view - click on the monitor's title bar and drag the window on top of the other monitor window.
-
-If the monitor has no title bar (intermittent defect) then you can not do this and you will need to reset kdenlive settings by deleting ~/.config/kdenliverc 
+The multitrack view interface allows you to select a track in the timeline by clicking on the project monitor. See the section about :ref:`multicam editing <multicam_tool>` for using it during Editing.
 
 
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-   :glob:
+.. _ui-separate_monitors:
 
-   monitors/*
+Clip and Project Monitor in Separate Windows
+--------------------------------------------
+
+If you want to have the :ref:`Clip <ui-monitors_clip_monitor>` and/or the :ref:`Project Monitor <ui-monitors_project_monitor>` in their own individual windows click on the respective tab and drag the monitor :term:`widget` out into its own window. This undocks the widgets from their space. From there you can move them even to other monitors you may have connected.
+
+.. figure:: /images/user_interface/kdenlive2308_ui-monitors_separate_windows.gif
+   :width: 100%
+   :figwidth: 100%
+   :alt: kdenlive2308_ui-monitors_separater_windows
+
+   Moving Clip and Project Monitor to their own independent windows (undocking)
+
+To put the monitors back into the tabbed view click on the monitor's title bar (enable it via :menuselection:`Menu --> View --> Show Titlebars`) and drag the window on top of another widget. See the :ref:`ui-customizing_interface` chapter for more details.
+
+.. note:: There is low risk that the monitor widget has no title bar (intermittent defect). In this case you will need to reset the Kdenlive settings by deleting :file:`~/.config/kdenliverc` (Linux) or :file:`C:\\Users\\<user_name>\\AppData\\Roaming\\kdenlive\\kdenlivestaterc` (Windows).
