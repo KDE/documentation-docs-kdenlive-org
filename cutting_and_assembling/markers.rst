@@ -36,7 +36,7 @@ Markers are clip related and "fix" to this clip. When you put the same clip agai
 2 ways to add markers
 ---------------------
 
-Add markers to your clips via the :ref:`clip_monitor_overview`. That allows you to preview the clip at the location where you adding a marker.
+Add markers to your clips via the :ref:`ui-monitors_clip_monitor`. That allows you to preview the clip at the location where you adding a marker.
 
 Following procedures add a marker at the playhead position (clip monitor, timeline):
 
@@ -74,7 +74,7 @@ Markers using the same categories as :ref:`guides`. More details about :ref:`cat
 Markers in the clip monitor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once markers are put in your clip, you can access them in the :ref:`clip monitor <monitors>` by right-clicking and selecting :menuselection:`Go To Marker` or by the hamburger menu :menuselection:`Go To Marker` (see picture).  Also note how the markers appear as vertical lines according the category color you have chosen (see yellow highlighted regions in the picture). You can turn on the display of the marker comments in the timeline too (see :ref:`editing`).
+Once markers are put in your clip, you can access them in the :ref:`ui-monitors_clip_monitor` by right-clicking and selecting :menuselection:`Go To Marker` or by the hamburger menu :menuselection:`Go To Marker` (see picture).  Also note how the markers appear as vertical lines according the category color you have chosen (see yellow highlighted regions in the picture). You can turn on the display of the marker comments in the timeline too (see :ref:`editing`).
 
 .. image:: /images/Markers_in_clip_monitor_22-12.png
    :alt: Markers_in_clip_monitor

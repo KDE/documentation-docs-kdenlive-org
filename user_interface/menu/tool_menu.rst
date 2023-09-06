@@ -84,4 +84,4 @@ Use this to trim one clip and shift the adjacent clip accordingly.
 Multicam Tool
 ~~~~~~~~~~~~~
 
-Use this to cut between several cameras/tracks while playback is running. Will switch on the :ref:`multitrack view <multicam_editing>` in the project monitor.
+Use this to cut between several cameras/tracks while playback is running. Will switch on the :ref:`multitrack view <ui-multitrack_view>` in the project monitor.

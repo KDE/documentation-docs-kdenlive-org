@@ -283,7 +283,7 @@ References and notes
 .. [#] |wiki_720p| is the video height, p stands for |wiki_prog| (in contrast to |wiki_inter|), and the fps number denotes the number of full frames per second.
 .. [#] Provided Configure Kdenlive Settings under :ref:`configure_kdenlive` is set to *Check if first added clip matches project profile*
 .. [#] To be correct, it *can* be played using ``melt yourproject.kdenlive``, but this is not the way you would want to present your final video since it is (most likely) too slow. Additionally, it only works if melt is installed.
-.. [#] Besides drag and drop you can use :doc:`../user_interface/shortcuts` and clip zones to insert clips into the timeline. See :ref:`3-point editing <three_point_editing>` and :ref:`using clip zones <drag_audio_or_video_into_timeline>` for more details.
+.. [#] Besides drag and drop you can use :doc:`../user_interface/shortcuts` and clip zones to insert clips into the timeline. See :ref:`3-point editing <three_point_editing>` and :ref:`using clip zones <ui-monitors_cm_clip_zone>` for more details.
 .. [#] Writing it this way suggests that there are several ways of cutting a clip. This is in fact true.
 .. [#] This shaded triangle is a shorthand for adding the effect :menuselection:`Fade --> Fade out`. Both ways lead to the same result.
 

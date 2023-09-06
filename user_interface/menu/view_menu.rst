@@ -419,7 +419,7 @@ Project Monitor
 
 Switches the Project Monitor on or off.
 
-The Project Monitor is used to display your project's timeline, i.e. the edited version of your video. In Edit Mode you can directly manipulate certain effects from within the Project Monitor. Please refer to the :ref:`Project Monitor <project_monitor_overview>` section of this documentation for more details.
+The Project Monitor is used to display your project's timeline, i.e. the edited version of your video. In Edit Mode you can directly manipulate certain effects from within the Project Monitor. Please refer to the :ref:`Project Monitor <ui-monitors_project_monitor>` section of this documentation for more details.
 
 
 .. _view-project_notes:

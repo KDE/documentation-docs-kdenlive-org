@@ -20,7 +20,7 @@
              - Roger (https://userbase.kde.org/User:Roger)
              - KGHN (https://userbase.kde.org/User:KGHN)
              - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -135,7 +135,7 @@ Full Project
 Selected Zone
 -------------
 
-:guilabel:`Selected Zone` radio button selected, **Kdenlive** will only render that portion of the project which has a selected zone created for it. See :ref:`monitors`.
+:guilabel:`Selected Zone` radio button selected, **Kdenlive** will only render that portion of the project which has a selected zone created for it. See :ref:`ui-monitors`.
 
 
 Guide Zone

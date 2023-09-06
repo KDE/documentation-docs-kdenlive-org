@@ -33,7 +33,7 @@ Editing
 =======
 
 
-Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:`project_tree` or the :ref:`monitors`. Once a clip is dropped on a track, it can be moved (drag and drop it) to another place on the same track or onto another track.
+Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:`project_tree` or the :ref:`ui-monitors`. Once a clip is dropped on a track, it can be moved (drag and drop it) to another place on the same track or onto another track.
 
 
 .. image:: /images/Kdenlive-addcliptotimeline.gif
@@ -57,16 +57,16 @@ The timeline cursor shows your current position in the project. The positions of
 * Clicking/dragging in the :ref:`timeline` or in an empty area of the timeline. 
 
 
-* Clicking/dragging in the :ref:`monitors` ruler. 
+* Clicking/dragging in the :ref:`ui-monitors` ruler.
 
 
-* Rotating the mouse wheel while the pointer is over the :ref:`timeline` or over the :ref:`monitors` 
+* Rotating the mouse wheel while the pointer is over the :ref:`timeline` or over the :ref:`ui-monitors`
 
 
-* Editing the timecode in the :ref:`monitors`  timecode widget
+* Editing the timecode in the :ref:`ui-monitors`  timecode widget
 
 
-* Clicking the up or down arrows on the :ref:`monitors` timecode widget
+* Clicking the up or down arrows on the :ref:`ui-monitors` timecode widget
 
 
 Cutting a Clip
@@ -507,7 +507,7 @@ Multicam Tool
    
 The multicam tool allows to cut between several cameras while playback is running. Add your clips in different tracks, but at the same position in the timeline and activate the multicam tool by going to menu :menuselection:`Tool -> Multicam tool`. You may trim the clips in the desired track while the timeline is playing by pressing their corresponding numbers (for track V1, press key :kbd:`1`; for track V2 press key :kbd:`2`, etc…) or simply select the desired track in the project monitor by clicking on it with the mouse.
 
-Select multicam tool will switch on the :ref:`multitrack view <multicam_editing>` in the project monitor and set a marker at the current timeline position. You can then seek/play to the wanted position, click on a track view in the project monitor and it will lift all tracks except for the previously active track. You can then repeat seek and click in another track to continue lifting tracks.
+Select multicam tool will switch on the :ref:`ui-multitrack_view` in the project monitor and set a marker at the current timeline position. You can then seek/play to the wanted position, click on a track view in the project monitor and it will lift all tracks except for the previously active track. You can then repeat seek and click in another track to continue lifting tracks.
 
 It doesn't stop playing when you perform the operation to avoid to lose the rhythm and to work as you are working during a live broadcasting. If you need to correct the editing you can manually stop and trim the cut as you do when you video editing as normal.
 

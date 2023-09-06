@@ -322,7 +322,7 @@ Colors and Guides
 
 .. versionadded:: 22.08
 
-- :guilabel:`Monitor overlay color` Click on the color bar and change the color of the monitor overlay lines. See :ref:`monitor_toolbars`
+- :guilabel:`Monitor overlay color` Click on the color bar and change the color of the monitor overlay lines. See :ref:`ui-monitors_display_toolbar`
 
 .. versionchanged:: 22.12
    Moved from tab :ref:`configure_playback`
@@ -386,7 +386,7 @@ In ver 15.04 or higher, there is no "use Open GL for video playback" checkbox  -
 
 - :guilabel:`Monitor background color` moved to :ref:`configure_colors`    
 
-- :guilabel:`Enable Audio Scrubbing` and :guilabel:`Preview Volume` are removed as the UI element is a duplicate of the volume slider in the monitors hamburger menu. See :ref:`Clip Monitor<clip_monitor_hamburger>` and :ref:`Project Monitor<project_monitor_overview>`
+- :guilabel:`Enable Audio Scrubbing` and :guilabel:`Preview Volume` are removed as the UI element is a duplicate of the volume slider in the monitors hamburger menu. See :ref:`Clip Monitor<ui-monitors_clip_monitor_hamburger>` and :ref:`Project Monitor<project_monitor_hamburger>`
 
 
 

@@ -123,7 +123,7 @@ Timeline Cursor/Position Caret/Playhead
       :align: left
       :alt: timeline playhead
 
-   This indicates the position we are displaying in the :ref:`monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead). 
+   This indicates the position we are displaying in the :ref:`ui-monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead).
 
    Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :ref:`configure_kdenlive`.
 
@@ -253,7 +253,7 @@ This is a quick overview of the main sections of the toolbar. A more detailed de
 Tracks
 ------
 
-The timeline is made of tracks. There are two kinds of tracks: audio and video. The number of tracks is defined when creating a new project in the :ref:`project_settings`. Adding a clip to the timeline can be achieved by dragging it from  :ref:`project_tree` or the :ref:`monitors`.
+The timeline is made of tracks. There are two kinds of tracks: audio and video. The number of tracks is defined when creating a new project in the :ref:`project_settings`. Adding a clip to the timeline can be achieved by dragging it from  :ref:`project_tree` or the :ref:`ui-monitors`.
 
 .. _track_header:
 

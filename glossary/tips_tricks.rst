@@ -25,10 +25,10 @@
 Tips &  Tricks
 ==============
 
-* You can advance and retard the clip in the project monitor by rotating the mouse wheel when the pointer is over the :ref:`timeline` or over the :ref:`monitors`
+* You can advance and retard the clip in the project monitor by rotating the mouse wheel when the pointer is over the :ref:`timeline` or over the :ref:`ui-monitors`
 
 
-* You can advance and retard the clip in the :ref:`monitors` by rotating the mouse wheel when the pointer is over the :ref:`monitors`
+* You can advance and retard the clip in the :ref:`ui-monitors` by rotating the mouse wheel when the pointer is over the :ref:`ui-monitors`
 
 
 * You can zoom the timeline by vertical drag on the ruler (if enabled in :ref:`configure_kdenlive`)

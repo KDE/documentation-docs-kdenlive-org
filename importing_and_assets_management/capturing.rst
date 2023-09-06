@@ -36,7 +36,7 @@ You configure video capturing from :menuselection:`Settings --> Configure Kdenli
 You define the destination location for your captures by using :menuselection:`Settings --> Configure Kdenlive --> Environment --> Default Folders` (more on this :ref:`configure_kdenlive`).
 
 
-To execute a video capture, select the :ref:`monitors` and choose the capture device from the dropdown in the bottom right.
+To execute a video capture, select the :ref:`ui-monitors` and choose the capture device from the dropdown in the bottom right.
 
 
 .. image:: /images/Kdenlive_Capture_video1.png
