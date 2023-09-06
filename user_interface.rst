@@ -56,11 +56,11 @@ The Workspace model follows the video editing workflow and can be adapted to you
 
 2. **Clip Monitor**
 
-   This is where the clip selected in the project bin is displayed. In this screenshot the widget for :term:`Library` has been added to this section. See the chapter :ref:`clip_monitor_overview` for more details.
+   This is where the clip selected in the project bin is displayed. In this screenshot the widget for :term:`Library` has been added to this section. See the chapter :ref:`ui-monitors_clip_monitor` for more details.
 
 3. **Project Monitor**
 
-   This is where the content of the :term:`timeline` is being displayed with all effects and compositions applied. In this screenshot the widgets for :ref:`Speech Editor <effects-speech_to_text>` and :ref:`Project Notes <notes>` have been added to this section. See the chapter :ref:`project_monitor_overview` for more details.
+   This is where the content of the :term:`timeline` is being displayed with all effects and compositions applied. In this screenshot the widgets for :ref:`Speech Editor <effects-speech_to_text>` and :ref:`Project Notes <notes>` have been added to this section. See the chapter :ref:`ui-monitors_project_monitor` for more details.
 
 4. **Timeline**
 
