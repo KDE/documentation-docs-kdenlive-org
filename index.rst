@@ -70,7 +70,7 @@ User Interface
 
           :ref:`Timeline`
 
-          :ref:`Monitors`
+          :ref:`Monitors <ui-monitors>`
 
           :ref:`toolbars`
 
