@@ -38,6 +38,10 @@ Clip Monitor
 
 The Clip Monitor displays the unedited\ [#f1]_ clip that is currently selected in the :ref:`Project Bin <project_tree>`. It has the same functions and options as the :ref:`ui-monitors_project_monitor` except for the |kdenlive-add-clip| icon which adds the clip zone to the Project Bin where it will appear as child clip underneath the clip. See :ref:`ui-monitors_cm_clip_zone` for more details.
 
+|  1 Video Stream indicator
+|  2 Audio Stream indicator
+|  3 Clip Zone indicator
+
 For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual.
 
 .. rst-class:: clear-both
@@ -326,7 +330,7 @@ Drag Audio or Video Only to Timeline
 
 ..
 
-Move with the mouse to the lower left-hand corner of the clip monitor to access the video and audio icons. Left click on the respective icon to drag either the video or audio stream into the timeline.
+Move with the mouse to the lower left-hand corner of the clip monitor to access the video (1) and audio (2) icons. Left click on the respective icon to drag either the video or audio stream into the timeline.
 
 .. rst-class:: clear-both
 
