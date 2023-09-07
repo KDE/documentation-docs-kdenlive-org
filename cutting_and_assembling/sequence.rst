@@ -94,6 +94,15 @@ Adds the clips which are currently selected in the timeline to a new sequence cl
 Select clips in the timeline. Choose :menuselection:`Timeline --> Create Sequence from selection`
 
 
+Delete all sequence tabs
+------------------------
+
+.. versionadded:: 23.08
+
+When deleting all sequence tabs, then the current sequence name gets shown in the Master Effect space.
+
+.. figure:: /images/23-08_delete-sequence-tab.gif
+   :alt: 23-08_delete-sequence-tab
 
 
 .. _default_sequence_folder:
