@@ -170,7 +170,6 @@ These are the menu items that are available when you right-click in the Project 
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_save_image.webp
    :width: 350px
    :figwidth: 350px
-   :align: left
    :alt: kdenlive2308_ui-monitors_save_image
 
    Save Image dialog for extracting frames

@@ -165,7 +165,6 @@ These are the menu items that are available when you right-click in the Clip Mon
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_edit_marker.webp
    :width: 350px
    :figwidth: 350px
-   :align: left
    :alt: kdenlive2308_ui-monitors_edit_marker
 
    Edit Marker dialog window to add or edit a marker
@@ -197,7 +196,6 @@ These are the menu items that are available when you right-click in the Clip Mon
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_cut_clip.webp
    :width: 350px
    :figwidth: 350px
-   :align: left
    :alt: kdenlive2308_ui-monitors_cut_clip
 
    Cut Clip dialog to extract zone
@@ -222,7 +220,6 @@ The current :term:`zone` can be saved as a :file:`.mov` file in your file system
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_save_image.webp
    :width: 350px
    :figwidth: 350px
-   :align: left
    :alt: kdenlive2308_ui-monitors_save_image
 
    Save Image dialog for extracting frames
