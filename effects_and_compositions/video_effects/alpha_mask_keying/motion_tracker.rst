@@ -126,10 +126,10 @@ In order to use the DaSiam algorithm you need to download the AI models
 and place them in: :ref:`folders_for_models`
 
 
-.. versionadded:: 23.08
-
 Nano
 ^^^^
+
+.. versionadded:: 23.08
 
 Nano tracker is a lightweight model and gives good results and is fast.
 
