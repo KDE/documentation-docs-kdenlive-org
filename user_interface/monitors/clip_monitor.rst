@@ -109,6 +109,7 @@ These are the menu items that are available when you right-click in the Clip Mon
 
 .. rst-class:: clear-both
 
+|
 
 .. list-table::
    :width: 100%
