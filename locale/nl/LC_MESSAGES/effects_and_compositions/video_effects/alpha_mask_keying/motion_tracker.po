@@ -1,14 +1,14 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Freek de Kruijf <freekdekruijf@kde.nl>, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2021, 2022, 2023 Freek de Kruijf <freekdekruijf@kde.nl>
 # Ronald Stroethoff <stroet43@zonnet.nl>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 07:24+0000\n"
-"PO-Revision-Date: 2023-07-26 18:15+0200\n"
+"POT-Creation-Date: 2023-09-08 00:38+0000\n"
+"PO-Revision-Date: 2023-09-08 10:59+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 23.08.0\n"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:24
 msgid "Motion Tracker"
@@ -26,15 +26,19 @@ msgstr "Volger van beweging"
 msgid ""
 "Motion tracking is the process of locating a moving object across time. "
 "Kdenlive uses |OpenCV|\\ [1]_ for motion detection. The results of this "
-"effect can be used in other effects by copying the keyframe data generated "
+"effect can be used in other effects by copying the keyframe data"
+" generated "
 "by the Motion Tracker as position keyframes in the Transform effect, for "
 "example."
 msgstr ""
-"Het volgen van beweging (Motion tracking) is het proces van het lokaliseren "
-"van een bewegend object door de tijd. Kdenlive gebruikt |OpenCV|\\ [1]_ voor "
+"Het volgen van beweging (Motion tracking) is het proces van het"
+" lokaliseren "
+"van een bewegend object door de tijd. Kdenlive gebruikt |OpenCV|\\ [1]_"
+" voor "
 "de detectie van beweging. De resultaten van dit effect kan door andere "
 "effecten (bijvoorbeeld het Transform effect) worden gebruikt door de "
-"keyframe data te kopiëren die door de Motion Tracker als positie keyframes "
+"keyframe data te kopiëren die door de Motion Tracker als positie"
+" keyframes "
 "worden gegenereerd."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:33
@@ -59,7 +63,8 @@ msgstr "Pas het effect toe op een clip"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:50
 msgid "Select the desired region\\ [2]_ to track on the Project Monitor"
-msgstr "Selecteer het gewenste te volgen gebied\\ [2]_ op de Projectmonitor."
+msgstr ""
+"Selecteer het gewenste te volgen gebied\\ [2]_ op de Projectmonitor."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:51
 msgid "Choose a tracking algorithm"
@@ -75,8 +80,10 @@ msgstr "Menu Opties"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:63
 msgid ""
-"When the analysis is done you can export the keyframes to the clipboard by "
-"clicking on |application-menu| and choose :guilabel:`Copy all keyframes to "
+"When the analysis is done you can export the keyframes to the clipboard"
+" by "
+"clicking on |application-menu| and choose :guilabel:`Copy all keyframes"
+" to "
 "clipboard`. See also :ref:`Exchanging keyframes <effects-"
 "exchange_keyframes>`."
 msgstr ""
@@ -102,13 +109,15 @@ msgid ""
 "**Pros:** Accuracy and speed are both better than MIL and it reports "
 "tracking failure better than MIL."
 msgstr ""
-"**Voordelen:** Nauwkeurigheid en snelheid zijn beiden beter dan MIL en het "
+"**Voordelen:** Nauwkeurigheid en snelheid zijn beiden beter dan MIL en"
+" het "
 "rapporteert mislukken van volgen beter dan MIL."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:78
 msgid "**Cons:** Does not recover from full occlusion."
 msgstr ""
-"**Nadeel:** Herstelt niet als het onderwerp volledige bedekt (occlusie) is."
+"**Nadeel:** Herstelt niet als het onderwerp volledige bedekt (occlusie)"
+" is."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:82
 msgid "CSRT"
@@ -117,17 +126,23 @@ msgstr "CSRT"
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:84
 msgid ""
 "In the Discriminative Correlation Filter with Channel and Spatial "
-"Reliability (DCF-CSR), we use the spatial reliability map for adjusting the "
+"Reliability (DCF-CSR), we use the spatial reliability map for adjusting"
+" the "
 "filter support to the part of the selected region from the frame for "
-"tracking. This ensures enlarging and localization of the selected region and "
-"improved tracking of the non-rectangular regions or objects. It uses only 2 "
-"standard features (HoGs and Colornames). It also operates at a comparatively "
+"tracking. This ensures enlarging and localization of the selected region"
+" and "
+"improved tracking of the non-rectangular regions or objects. It uses only"
+" 2 "
+"standard features (HoGs and Colornames). It also operates at a"
+" comparatively "
 "lower fps (25 fps) but gives higher accuracy for object tracking."
 msgstr ""
 "In het \"Discriminative Correlation Filter with Channel and Spatial "
-"Reliability (DCF-CSR)\", gebruiken we de ruimtelijke betrouwbaarheidskaart "
+"Reliability (DCF-CSR)\", gebruiken we de ruimtelijke"
+" betrouwbaarheidskaart "
 "voor aanpassen van de filterondersteuning voor het deel van het "
-"geselecteerde gebied uit het frame dat we willen volgen. Dit verzekert het "
+"geselecteerde gebied uit het frame dat we willen volgen. Dit verzekert"
+" het "
 "vergroten en lokaliseren van het geselecteerde gebied en verbeterd het "
 "volgen van de niet-rechthoekige gebieden of objecten. Het heeft slechts 2 "
 "standaard mogelijkheden (HoGs en Kleurnamen). Het werkt ook op een "
@@ -146,26 +161,35 @@ msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:92
 msgid ""
-"MOSSE uses an adaptive correlation for object tracking which produces stable "
-"correlation filters when initialized using a single frame. MOSSE tracker is "
-"robust to variations in lighting, scale, pose, and non-rigid deformations. "
+"MOSSE uses an adaptive correlation for object tracking which produces"
+" stable "
+"correlation filters when initialized using a single frame. MOSSE tracker"
+" is "
+"robust to variations in lighting, scale, pose, and non-rigid"
+" deformations. "
 "It also detects occlusion based upon the peak-to-sidelobe ratio, which "
 "enables the tracker to pause and resume where it left off when the object "
 "reappears. MOSSE tracker also operates at a higher fps (450 fps and even "
 "more)."
 msgstr ""
 "MOSSE gebruikt een adaptieve correlatie voor volgen van een object die "
-"stabiele correlatiefilters produceert bij initialisatie met een enkel frame. "
-"MOSSE volger is robuust bij variaties in verlichting, schaal, pose en niet-"
+"stabiele correlatiefilters produceert bij initialisatie met een enkel"
+" frame. "
+"MOSSE volger is robuust bij variaties in verlichting, schaal, pose en"
+" niet-"
 "rigide vervormingen. Het detecteert ook als het onderwerp volledig bedekt "
-"(occlusie) is gebaseerd op de verhouding piek-tot-zijlob, die de volger laat "
-"pauzeren en hervatten waar het stopte toen het object weer verscheen. MOSSE "
+"(occlusie) is gebaseerd op de verhouding piek-tot-zijlob, die de volger"
+" laat "
+"pauzeren en hervatten waar het stopte toen het object weer verscheen."
+" MOSSE "
 "volger werkt ook op een hogere fps (450 fps en zelfs meer)."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:94
-msgid "**Pros:** It is as accurate as other complex trackers and much faster."
+msgid ""
+"**Pros:** It is as accurate as other complex trackers and much faster."
 msgstr ""
-"**Voordeel:** Het is net zo nauwkeurig als andere complexe volgers en veel "
+"**Voordeel:** Het is net zo nauwkeurig als andere complexe volgers en"
+" veel "
 "sneller."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:96
@@ -173,7 +197,8 @@ msgid ""
 "**Cons:** On a performance scale, it lags behind the deep learning based "
 "trackers."
 msgstr ""
-"**Nadeel:** Op een prestatieschaal, blijft het achter op de \"deep learning"
+"**Nadeel:** Op een prestatieschaal, blijft het achter op de \"deep"
+" learning"
 "\" gebaseerde volgers."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:100
@@ -190,7 +215,8 @@ msgstr ""
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:104
 msgid ""
-"**Cons:** Tracking failure is not reported reliably. Does not recover from "
+"**Cons:** Tracking failure is not reported reliably. Does not recover"
+" from "
 "full occlusion."
 msgstr ""
 "**Nadelen:** Mislukken van volgen wordt niet betrouwbaar gerapporteerd. "
@@ -205,8 +231,10 @@ msgid ""
 "**Pros:** Excellent tracking failure reporting. Works very well when the "
 "motion is predictable and there is no occlusion."
 msgstr ""
-"**Voordelen:** Uitstekend rapporteren van mislukking van volgen. Werkt zeer "
-"goed wanneer de beweging voorspelbaar is en er geen volledige bedekking van "
+"**Voordelen:** Uitstekend rapporteren van mislukking van volgen. Werkt"
+" zeer "
+"goed wanneer de beweging voorspelbaar is en er geen volledige bedekking"
+" van "
 "het onderwerp (occlusie) is."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:112
@@ -219,15 +247,18 @@ msgstr "DaSiam"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:118
 msgid ""
-"The |DaSiamRPN| visual tracking algorithm relies on deep-learning models to "
+"The |DaSiamRPN| visual tracking algorithm relies on deep-learning models"
+" to "
 "provide extremely accurate results."
 msgstr ""
 "Het visuele volgalgoritme van |DaSiamRPN| vertrouwt op modellen uit deep-"
 "learning modellen om extreem accurate resultaten te leveren."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:120
-msgid "In order to use the DaSiam algorithm you need to download the AI models"
-msgstr "Om het DaSiam-algoritme te gebruiken moet u de AI-modellen downloaden"
+msgid ""
+"In order to use the DaSiam algorithm you need to download the AI models"
+msgstr ""
+"Om het DaSiam-algoritme te gebruiken moet u de AI-modellen downloaden"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:122
 msgid ""
@@ -254,58 +285,110 @@ msgstr ""
 "dasiamrpn_model.onnx`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:126
-msgid "and place them in:"
-msgstr "om ze vervolgens te plaatsen in:"
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:141
+msgid "and place them in: :ref:`folders_for_models`"
+msgstr "en plaatst ze in: :ref:`folders_for_models`"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:128
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:132
+msgid "Nano"
+msgstr "Nano"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:134
+msgid ""
+"Nano tracker is a lightweight model and gives good results and is fast."
+msgstr ""
+"Nano-tracker is een lichtgewicht model en geeft goede resultaten en is"
+" snel."
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:136
+#| msgid ""
+#| "In order to use the DaSiam algorithm you need to download the AI models"
+msgid ""
+"In order to use the Nano algorithm you need to download the AI models"
+" (model "
+"size about 1.9 MB)"
+msgstr ""
+"Om het Nano-algoritme te gebruiken moet u de AI-modellen downloaden "
+"(modelgrootte ongeveer 1,9 MB)"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:138
+#| msgid ""
+#| ":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+#| "dasiamrpn_kernel_cls1.onnx`"
+msgid ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/Nano/"
+"nanotrack_backbone_sim.onnx`"
+msgstr ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/Nano/"
+"nanotrack_backbone_sim.onnx`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:139
+#| msgid ""
+#| ":download:`https://files.kde.org/kdenlive/motion-tracker/DaSiamRPN/"
+#| "dasiamrpn_model.onnx`"
+msgid ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/Nano/"
+"nanotrack_head_sim.onnx`"
+msgstr ""
+":download:`https://files.kde.org/kdenlive/motion-tracker/Nano/"
+"nanotrack_head_sim.onnx`"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:147
+msgid "Folder for models"
+msgstr "Map voor modellen"
+
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:149
 msgid "**Linux**"
 msgstr "**Linux**"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:130
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:151
 msgid ":file:`$HOME/.local/share/kdenlive/opencvmodels`"
 msgstr ":file:`$HOME/.local/share/kdenlive/opencvmodels`"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:132
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:153
 msgid "Flatpak"
 msgstr "Flatpak"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:134
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:155
 msgid ":file:`$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels`"
 msgstr ":file:`$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels`"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:136
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:157
 msgid "**Windows**"
 msgstr "**Windows**"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:138
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:159
 msgid ":file:`%AppData%/kdenlive/opencvmodels`"
 msgstr ":file:`%AppData%/kdenlive/opencvmodels`"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:140
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:161
 msgid ""
-"Press :kbd:`Win+R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and "
+"Press :kbd:`Win+R` (:kbd:`Windows` key and :kbd:`R` key simultaneously)"
+" and "
 "copy **%AppData%/kdenlive/**. Then create the folder `opencvmodels`"
 msgstr ""
 "Druk op :kbd:`Win+R` (tegelijk op toets :kbd:`Windows` en :kbd:`R`) en "
 "kopieer **%AppData%/kdenlive/**. Maak daarna de map `opencvmodels` aan"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:144
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:165
 msgid "Frame shape"
 msgstr "Framevorm"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:146
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:167
 msgid ""
-"Select from Rectangle (default), Ellipse or Arrow. Choosing the right shape "
+"Select from Rectangle (default), Ellipse or Arrow. Choosing the right"
+" shape "
 "can make the tracking better."
 msgstr ""
-"Maak een keuze uit Rechthoek (standaard), Ellips en Pijl. De meest geschikte "
+"Maak een keuze uit Rechthoek (standaard), Ellips en Pijl. De meest"
+" geschikte "
 "vorm kiezen helpt erbij dat het volgen beter gaat."
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:150
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:171
 msgid "Shape color"
 msgstr "Kleur van vorm"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:152
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:173
 msgid ""
 "Select a color that makes the shape easier to see in the Project Monitor. "
 "Has no effect on the tracking."
@@ -313,27 +396,28 @@ msgstr ""
 "Hier kunt u voor de vorm een kleur selecteren zodat het in de Project "
 "monitor makkelijker te zien is. Dit heeft geen effect op het volgen. "
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:156
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:177
 msgid "Blur type"
 msgstr "Verschillende manieren van vervagen"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:162
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:183
 msgid "Different blur types in action"
 msgstr "Verschillende manieren van vervagen in actie."
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:164
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:185
 msgid ""
-"Four blur types are available: Median blur, Gaussian blur, Pixelate, Opaque "
+"Four blur types are available: Median blur, Gaussian blur, Pixelate,"
+" Opaque "
 "fill"
 msgstr ""
 "Er zijn vier verdoezeltypen beschikbaar: Middel vervaging, Gaussische "
 "vervaging, Pixels aanbrengen, Dekkend vullen"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:167
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:188
 msgid "**Notes**"
 msgstr "**Notities**"
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:169
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:190
 msgid ""
 "If you want to build Kdenlive yourself you need to build MLT with OpenCV "
 "support. See here for |more_info|."
@@ -341,15 +425,21 @@ msgstr ""
 "Als u Kdenlive zelf wilt bouwen moet u MLT met ondersteuning van OpenCV "
 "bouwen. Zie hier voor |more_info|."
 
-#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:171
+#: ../../effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker.rst:192
 msgid ""
 "If you see just a red rectangle in the Project Monitor but cannot move or "
-"size it enable Edit Mode by clicking on the |edit-mode| icon in the Project "
+"size it enable Edit Mode by clicking on the |edit-mode| icon in the"
+" Project "
 "Monitor toolbar"
 msgstr ""
-"Als u in de Project Monitor alleen een rood rechthoek ziet en deze niet kan "
-"verplaatsen of in grootte veranderen, schakel dan de bewerkingsmodus in door "
+"Als u in de Project Monitor alleen een rood rechthoek ziet en deze niet"
+" kan "
+"verplaatsen of in grootte veranderen, schakel dan de bewerkingsmodus in"
+" door "
 "op het |bewerkingsmodus|-icon in de Project Monitor werkbalk te klikken."
+
+#~ msgid "and place them in:"
+#~ msgstr "om ze vervolgens te plaatsen in:"
 
 #~ msgid "What is Motion Tracking?"
 #~ msgstr "Wat is volgen van beweging?"
@@ -374,3 +464,4 @@ msgstr ""
 
 #~ msgid "Contents"
 #~ msgstr "Inhoud"
+

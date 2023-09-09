@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_kdenlive_org_user_interface___monitors\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-19 00:39+0000\n"
+"POT-Creation-Date: 2023-09-08 00:38+0000\n"
 "PO-Revision-Date: 2023-07-07 21:07-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -20,8 +20,10 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 
 #: ../../user_interface/monitors.rst:1
-msgid "Clip monitor and project monitor in Kdenlive video editor"
-msgstr "Monitor de clips y monitor del proyecto en el editor de video Kdenlive"
+#, fuzzy
+#| msgid "Separate Clip and Project Monitors"
+msgid "Kdenlive's User Interface - Clip and Project Monitor"
+msgstr "Separación de Monitores de clips y proyecto"
 
 #: ../../user_interface/monitors.rst:1
 msgid ""
@@ -33,16 +35,28 @@ msgstr ""
 "de ampliación, previsualización, documentación, manual de usuario, editor de "
 "video, código abierto, libre, aprender, fácil"
 
-#: ../../user_interface/monitors.rst:17
+#: ../../user_interface/monitors.rst:22
 msgid "Monitors"
 msgstr "Monitores"
 
-#: ../../user_interface/monitors.rst:19
+#: ../../user_interface/monitors.rst:24
 msgid ""
-"Kdenlive uses 2 monitor widgets to display your videos: Clip Monitor and "
-"Project Monitor. A third monitor - the Record Monitor - previews video "
-"capture. These monitors can be selected by clicking the corresponding tabs "
-"which appear at the bottom of the monitor window."
+"Kdenlive uses two monitor :term:`widgets<widget>` to display and play back "
+"your videos, images, titles, animations or audio files:"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:32
+#, fuzzy
+#| msgid ""
+#| "Kdenlive uses 2 monitor widgets to display your videos: Clip Monitor and "
+#| "Project Monitor. A third monitor - the Record Monitor - previews video "
+#| "capture. These monitors can be selected by clicking the corresponding "
+#| "tabs which appear at the bottom of the monitor window."
+msgid ""
+"The monitor widgets can be switched on or off by checking :menuselection:"
+"`Menu --> View --> Clip Monitor` and :menuselection:`Project Monitor`, "
+"repectively. Once activated, they can be selected by clicking the "
+"corresponding tab which appears at the bottom of the monitor window."
 msgstr ""
 "Kdenlive utiliza 2 paneles de monitorización para mostrar los videos: El "
 "Monitor de clips y el Monitor del proyecto. Un tercer monitor - el Monitor "
@@ -50,391 +64,575 @@ msgstr ""
 "seleccionados haciendo clic sobre las solapas correspondientes, que aparecen "
 "(de forma predeterminada) en la parte inferior de cada panel de monitor."
 
-#: ../../user_interface/monitors.rst:22
-msgid "Resizing the Monitors"
-msgstr "Redimensión de los monitores"
-
-#: ../../user_interface/monitors.rst:24
-msgid ""
-"You can resize the monitors by dragging the sizing widget. It is a bit "
-"tricky to find the bottom widget. You need to hover just between the bottom "
-"of the monitor tab and the timeline"
-msgstr ""
-"Es posible redimensionar los monitores arrastrando la línea de separación "
-"entre el panel del monitor y el de al lado"
-
-#: ../../user_interface/monitors.rst:33
-msgid "Monitor zoombar"
-msgstr "Barra de ampliación del monitor"
-
-#: ../../user_interface/monitors.rst:37
-msgid ""
-"The Monitors get zoom bars. To activate: hover over the timeline ruler and :"
-"kbd:`CTRL+Mouse wheel`."
-msgstr ""
-"Los monitores cuentan con barras de ampliación. Para activarla se debe: "
-"posar el puntero del ratón sobre la regla de tiempo y usar :kbd:`Ctrl+Rueda "
-"del ratón`."
-
-#: ../../user_interface/monitors.rst:44
-msgid ""
-"Support for external monitor display using Blackmagic Design decklink cards."
+#: ../../user_interface/monitors.rst:34
+#, fuzzy
+#| msgid ""
+#| "Support for external monitor display using Blackmagic Design decklink "
+#| "cards."
+msgid "Support for external monitor display using |bmd_decklink| cards."
 msgstr ""
 "Soporte para un monitor externo usando las placas DeckLink de Blackmagic "
 "Design."
 
-#: ../../user_interface/monitors.rst:50
-msgid "Monitor toolbar"
-msgstr "Barra de herramientas del Monitor"
+#: ../../user_interface/monitors.rst:36
+msgid ""
+"The :ref:`ui-monitors_clip_monitor` plays the :term:`clip` selected in the :"
+"ref:`Project Bin <project_tree>`. The :ref:`ui-monitors_project_monitor` "
+"plays the timeline of the project starting at the position of the :term:"
+"`playhead`."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:42
+msgid "Controls and Elements"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:49
+msgid ""
+"Monitor controls (see :ref:`this table <ui_elements-monitor_controls>` for "
+"more details)"
+msgstr ""
 
 #: ../../user_interface/monitors.rst:57
 msgid ""
-"Support multiple guide overlays. Move with the mouse to the upper-right "
-"corner of the monitor to access the toolbar."
+"Monitor areas and elements (see :ref:`this table <ui_elements-"
+"monitor_elements>` for more details)"
 msgstr ""
-"Soporta la sobreimpresión de múltiples guías. Para acceder a la barra de "
-"herramientas, mover el puntero del ratón hasta la esquina superior derecha "
-"del Monitor."
 
-#: ../../user_interface/monitors.rst:61
-msgid ""
-"The color of the guide overlays can be changed. See :ref:`monitor_toolbars`"
-msgstr ""
-"El color de las guías sobreimpresas podrá ser modificado. Ver :ref:"
-"`monitor_toolbars`"
-
-#: ../../user_interface/monitors.rst:67
-msgid "Preview resolution"
-msgstr "Resolución de previsualización"
+#: ../../user_interface/monitors.rst:64
+#, fuzzy
+#| msgid "Monitor toolbar"
+msgid "Monitor Display Toolbar"
+msgstr "Barra de herramientas del Monitor"
 
 #: ../../user_interface/monitors.rst:74
+msgid "Monitor Display Toolbar and overlay options"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:76
 msgid ""
-"Preview resolution speeds up the editing experience by scaling the video "
-"resolution of the monitors. It can be used of proxies instead."
+"The monitor display toolbar appears when you hover over the defined hotspot. "
+"By default this is the top right-hand side of the monitor area. Click on |"
+"transform-move-horizontal| to move the monitor display toolbar to the left-"
+"hand side or back. You can switch it off altogether by right-click in the "
+"monitor area, and selecting :menuselection:`Current Monitor Overlay --> "
+"Monitor Info Overlay`."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:80
+msgid "The toolbar has the following options:"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:88
+msgid "Icon"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:89
+msgid "Description"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:90
+msgid "|view-fullscreen|"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:91
+msgid "Switch full screen"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:92
+msgid "|view-grid|"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:93
+msgid "Change overlay. Click through the different available patterns."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:94
+msgid "|zoom-in|"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:95
+msgid ""
+"Zoom in It’s always for the entire clip. Cut it if needed and apply motion "
+"tracking only to the resulting pieces where needed."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:96
+msgid "|zoom-out|"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:97
+msgid "Zoom Out"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:98
+msgid "|list-add|"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:99
+msgid "Add guide"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:100
+msgid "|list-remove|"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:101
+msgid "Remove guide"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:102
+msgid "|transform-move-horizontal|"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:103
+msgid ""
+"Move Toolbar. Click through to move the toolbar from the right (default) to "
+"the left and back."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:111
+msgid "Changing the color of the monitor overlay"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:113
+msgid ""
+"The color of the guide overlay can be changed in :menuselection:`Menu --> "
+"Settings --> Configure Kdenlive --> Colors and Guides`."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:121
+#, fuzzy
+#| msgid "Resizing the Monitors"
+msgid "Resizing the Monitor"
+msgstr "Redimensión de los monitores"
+
+#: ../../user_interface/monitors.rst:129
+#, fuzzy
+#| msgid "Resizing the Monitors"
+msgid "Resizing the monitor widget"
+msgstr "Redimensión de los monitores"
+
+#: ../../user_interface/monitors.rst:131
+msgid ""
+"You can resize the monitors by dragging the widget's edges. Make sure the "
+"mouse pointer changes to the sizing shape."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:139
+#, fuzzy
+#| msgid "Monitor zoombar"
+msgid "Monitor Zoom Bar"
+msgstr "Barra de ampliación del monitor"
+
+#: ../../user_interface/monitors.rst:149
+msgid "Monitor zoom bar (audio file example)"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:151
+msgid ""
+"The timeline rulers of the monitors have zoom bars. To activate, hover over "
+"the timeline ruler and use :kbd:`Ctrl+Mouse wheel`. A zoom bar will appear "
+"with a scrollbar that has handles on the left and the right. At the same "
+"time, the timeline ruler scaling marks will change according to the zoom "
+"factor. This is helpful when trying to make frame-accurate cuts or setting :"
+"term:`zones<zone>`."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:159
+#, fuzzy
+#| msgid "Preview resolution"
+msgid "Preview Resolution"
+msgstr "Resolución de previsualización"
+
+#: ../../user_interface/monitors.rst:170
+#, fuzzy
+#| msgid "Preview resolution"
+msgid "Preview resolutions"
+msgstr "Resolución de previsualización"
+
+#: ../../user_interface/monitors.rst:172
+#, fuzzy
+#| msgid ""
+#| "Preview resolution speeds up the editing experience by scaling the video "
+#| "resolution of the monitors. It can be used of proxies instead."
+msgid ""
+"Changing the Preview Resolution speeds up the editing experience by scaling "
+"the video resolution of the monitors. It can be used instead of :term:"
+"`proxies<proxy>` or with proxies. Speed improvement depends on your source "
+"files."
 msgstr ""
 "La resolución de previsualización permite agilizar la experiencia de "
 "edición, escalando la resolución del video en los monitores. Puede ser "
 "utilizado como alternativa a los clips de reemplazo."
 
-#: ../../user_interface/monitors.rst:80
-msgid "Clip Monitor"
-msgstr "Monitor de clips"
-
-#: ../../user_interface/monitors.rst:82
+#: ../../user_interface/monitors.rst:174
 msgid ""
-"The Clip monitor displays the unedited clip that is currently selected in :"
-"ref:`project_tree`."
+"Playback speed depends on several factors: source material, use of proxies, "
+"type and number of effects, and the CPU capabilities. There is limited to no "
+"GPU support for video playback. :ref:`Preview Rendering <timeline-preview-"
+"rendering>` is highly recommended if playback speed is lacking."
 msgstr ""
-"El Monitor de clips muestra el clip seleccionado en la :ref:`project_tree` "
-"en su estado original."
-
-#: ../../user_interface/monitors.rst:88
-msgid "Widgets on the Clip Monitor"
-msgstr "Controles del Monitor de clips"
-
-#: ../../user_interface/monitors.rst:90
-msgid ""
-"**Insert Zone In Project Bin** button - click this to add the current zone "
-"to the project bin. The selected zone will appear as child clip in the "
-"project bin - like the clip shown as Zone1 in the screen shot."
-msgstr ""
-"**Zona a bandeja del proyecto** - hacer clic sobre este botón para agregar "
-"la zona actual del clip como un subclip en la Bandeja del proyecto. Los "
-"subclips aparecerán subordinados al clip original, como si se tratara de una "
-"carpeta."
-
-#: ../../user_interface/monitors.rst:92
-msgid "**Set zone start** button - click this to set an 'in' point."
-msgstr ""
-"**Marcar inicio de zona** - hacer clic sobre este botón para marcar el punto "
-"de 'entrada' de la zona del clip."
-
-#: ../../user_interface/monitors.rst:94
-msgid "**Set zone end** button - click this to set an 'out' point."
-msgstr ""
-"**Marcar fin de zona** - hacer clic sobre este botón para marcar el punto de "
-"'salida' de la zona del clip."
-
-#: ../../user_interface/monitors.rst:96
-msgid ""
-"Zone duration indicator - selected by setting in and out points. Dragging "
-"the clip from the clip monitor to the timeline when there is a selected zone "
-"causes the selected zone, not the entire clip, to be copied to the timeline."
-msgstr ""
-"Zona - se define marcando los puntos de entrada y salida. Cuando se arrastra "
-"un clip desde el Monitor de clips hasta la Línea de tiempo, en caso de haber "
-"una zona definida se arrastrará únicamente el contenido de la zona, y no el "
-"clip completo."
-
-#: ../../user_interface/monitors.rst:98
-msgid ""
-"Position Caret - can be dragged in the clip. (In ver >=0.9.4 and with OpenGL "
-"turned on in :menuselection:`Settings --> Configure Kdenlive --> Playback`, "
-"audio will play as you drag this.)"
-msgstr ""
-"Cursor de tiempo - puede ser arrastrado de un lado al otro del clip. "
-"(Mientras se arrastra el cursor de tiempo será posible escuchar el audio.)"
-
-#: ../../user_interface/monitors.rst:100
-msgid ""
-"Timecode widget - type a timecode here and hit :kbd:`Enter` to go to an "
-"exact location in the clip. Timecode is in the format *hours:minutes:seconds:"
-"frames* (where frames will correspond to the number of frames per second in "
-"your project profile)."
-msgstr ""
-"Código de tiempo - será posible ingresar un código de tiempo aquí y "
-"presionar :kbd:`Intro` para ir a una ubicación exacta en el clip. El código "
-"de tiempo se encuentra en formato *horas:minutos:segundos:fotogramas* (en "
-"donde los fotogramas se mostrarán de acuerdo a la cantidad de fotogramas por "
-"segundo definida en el perfil del proyecto)."
-
-#: ../../user_interface/monitors.rst:102
-msgid ""
-"Timecode arrows - can be used to change the current position of the clip in "
-"the clip monitor."
-msgstr ""
-"Flechas del código de tiempo - pueden ser usadas para cambiar la posición "
-"actual del cursor de tiempo en el clip."
-
-#: ../../user_interface/monitors.rst:104
-msgid ""
-"Rewind button - click this to play the clip backwards; click again to "
-"increase play back speed (cycles through 1.5, 2, 3, 5.5 and 10x play back "
-"speed)"
-msgstr ""
-"Retroceder - hacer clic sobre este botón para reproducir el video en "
-"reversa, seguís haciendo clic para aumentar la velocidad de reproducción "
-"(velocidades disponibles ×1,5 / ×2 / ×3 / ×5,5 / ×10)"
-
-#: ../../user_interface/monitors.rst:106
-msgid "Play/pause button"
-msgstr ""
-"Reproducir/Pausar - hacer clic sobre este botón para reproducir o pausar el "
-"clip"
-
-#: ../../user_interface/monitors.rst:108
-msgid ""
-"Playback options - click to select from different playback options (Play, "
-"Play Zone, Loop Zone, Loop Selected Clip)"
-msgstr ""
-"Opciones de reproducción - hacer clic para seleccionar una de las opciones "
-"adicionales de reproducción disponibles (Reproducir, Reproducir zona, "
-"Repetir zona)"
-
-#: ../../user_interface/monitors.rst:110
-msgid ""
-"Fast Forward button - click to increase the playback speed (cycles through "
-"1.5, 2, 3, 5.5 and 10x play back speed)"
-msgstr ""
-"Avanzar - hacer clic sobre este botón para reproducir el video a una mayor "
-"velocidad (velocidades disponibles ×1,5 / ×2 / ×3 / ×5,5 / ×10)"
-
-#: ../../user_interface/monitors.rst:112
-msgid ""
-"Edit Mode button - Click this button to toggle edit mode in the project "
-"monitor. If edit mode is enabled effects like transform show a red box for "
-"moving and sizing the clip."
-msgstr ""
-"Modo de edición - hacer clic sobre este botón para activar o desactivar el "
-"modo de edición en el Monitor del proyecto. Si el modo de edición se "
-"encontrara activo, efectos como Transformación mostrarán un cuadro de color "
-"rojo para mover y redimensionar el clip directamente desde el Monitor de "
-"proyecto."
-
-#: ../../user_interface/monitors.rst:118 ../../user_interface/monitors.rst:175
-msgid "Hamburger menu"
-msgstr "Menú hamburguesa"
-
-#: ../../user_interface/monitors.rst:125
-msgid "Creating Zones in Clip Monitor"
-msgstr "Creación de zonas en el Monitor de clips"
-
-#: ../../user_interface/monitors.rst:127
-msgid ""
-"Zones are defined regions of clips that are indicated by a colored section "
-"in the clip monitor's timeline - see item 3 above. The beginning of a zone "
-"is set by clicking **[** (item 1 in the pic above). The end of a zone is set "
-"by clicking **]** (item 2 in the pic above)"
-msgstr ""
-"Las zonas son regiones definidas de los clips demarcadas por una banda de "
-"color en la regla de tiempo del Monitor de clips - ver el punto 3 más "
-"arriba. El inicio de una zona se define haciendo clic sobre el botón **[** "
-"(elemento 1 en la imagen de arriba). El fin de la misma se define haciendo "
-"clic sobre el botón **]** (elemento 2 en la imagen de arriba)"
-
-#: ../../user_interface/monitors.rst:130
-msgid "Clip Monitor Right-click menu"
-msgstr "Menú contextual del Monitor de clips"
-
-#: ../../user_interface/monitors.rst:132
-msgid ""
-"The Clip Monitor has a right-click (context) menu as described :ref:`here "
-"<clip_monitor_rightclick>`."
-msgstr ""
-"El Monitor de clips tiene un menú contextual, tal como se describe :ref:"
-"`aquí <clip_monitor_rightclick>`."
-
-#: ../../user_interface/monitors.rst:135
-msgid "Seeking"
-msgstr "Búsqueda visual"
-
-#: ../../user_interface/monitors.rst:139
-msgid ""
-"Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/"
-"right."
-msgstr ""
-"Dentro del monitor de clips: Presionar la tecla :kbd:`Mayúsculas` y mover el "
-"puntero del ratón a derecha/izquierda."
-
-#: ../../user_interface/monitors.rst:144
-msgid "Drag audio or video only of a clip in timeline"
-msgstr ""
-"Arrastrar únicamente el video o el audio de un clip a la línea de tiempo"
-
-#: ../../user_interface/monitors.rst:151
-msgid ""
-"Move with the mouse to the lower-left corner of the clip monitor to access "
-"the Video/Audio icons. Hover with the mouse either over the audio or video "
-"icon left click to drag either video or audio part into the timeline."
-msgstr ""
-"Posar el puntero del ratón sobre uno de los íconos (Video/Audio) presentes "
-"en la esquina inferior izquierda del Monitor de clips. Arrastrar desde allí "
-"hacia la Línea de tiempo. Sólo el componente arrastrado será agregado a la "
-"Línea de tiempo."
-
-#: ../../user_interface/monitors.rst:156
-msgid "Project Monitor"
-msgstr "Monitor del proyecto"
-
-#: ../../user_interface/monitors.rst:158
-msgid ""
-"The Project Monitor displays your project's timeline - i.e. the edited "
-"version of your video."
-msgstr ""
-"El Monitor del proyecto muestra el contenido de la Línea de tiempo - esto "
-"es, la versión editada del video que se está produciendo."
-
-#: ../../user_interface/monitors.rst:164
-msgid "Project Monitor Widgets"
-msgstr "Controles del Monitor del proyecto"
-
-#: ../../user_interface/monitors.rst:166
-msgid ""
-"The position caret. Shows the current location in the project relative to "
-"the whole project. You can click and drag this to move the position in the "
-"project."
-msgstr ""
-"Cursor de tiempo - Muestra la posición actual en el tiempo del proyecto, "
-"relativa al proyecto en su totalidad. Es posible arrastrarlo para mover su "
-"posición a otro punto."
-
-#: ../../user_interface/monitors.rst:168
-msgid ""
-"The timecode widget. You can type a timecode here and press :kbd:`Enter` to "
-"bring the Project Monitor to an exact location."
-msgstr ""
-"Código de tiempo - será posible ingresar un código de tiempo aquí y "
-"presionar :kbd:`Intro` para ir a una ubicación exacta dentro del proyecto."
-
-#: ../../user_interface/monitors.rst:170
-msgid ""
-"Timecode widget control arrows. You can move the Project Monitor one frame "
-"at a time with these."
-msgstr ""
-"Flechas del código de tiempo - pueden ser usadas para cambiar la posición "
-"actual del cursor de tiempo del proyecto, un fotograma a la vez."
 
 #: ../../user_interface/monitors.rst:182
-msgid "Creating Zones in Project Monitor"
-msgstr "Creación de zonas en el Monitor del proyecto"
-
-#: ../../user_interface/monitors.rst:184
-msgid ""
-"You can use the :kbd:`I` and :kbd:`O` keys to create a zone in the Project "
-"Monitor the same way you make zones in the clip monitor. The zone will be "
-"indicated by a colored bar both on the timeline and underneath the Project "
-"Monitor."
-msgstr ""
-"Es posible usar las teclas :kbd:`I` y :kbd:`O` para crear una zona en el "
-"Monitor del proyecto, de la misma manera en que se definen las zonas en el "
-"Monitor de clips. Las zonas estarán demarcadas por una banda de color tanto "
-"en la regla de tiempo del Monitor del proyecto, como en la propia Línea de "
-"tiempo."
-
-#: ../../user_interface/monitors.rst:189
-msgid ""
-"You can get Kdenlive to only render the selected zone - see :ref:`rendering-"
-"selected_zone`."
-msgstr ""
-"Será posible hacer que Kdenlive procese únicamente la zona seleccionada - "
-"ver :ref:`rendering-selected_zone`."
-
-#: ../../user_interface/monitors.rst:192
-msgid "Project Monitor Right-click menu"
-msgstr "Menú contextual del Monitor del proyecto"
-
-#: ../../user_interface/monitors.rst:194
-msgid ""
-"The project monitor has a right-click (context menu) as described :ref:`here "
-"<project_monitor_rightclick>`."
-msgstr ""
-"El Monitor del proyecto tiene un menú contextual, tal como se describe :ref:"
-"`aquí <project_monitor_rightclick>`."
-
-#: ../../user_interface/monitors.rst:199
 msgid "Multitrack View"
 msgstr "Vista multipista"
 
-#: ../../user_interface/monitors.rst:203
+#: ../../user_interface/monitors.rst:186
 msgid ""
-"Enable the multirack view via menu :menuselection:`Monitor --> Multitrack "
-"view`."
+"You enable the multitrack view via :menuselection:`Menu --> Monitor --> "
+"Multitrack view` or via right-click in the Project Monitor area and "
+"selecting :guilabel:`Multitrack View` or by pressing :kbd:`F12`."
 msgstr ""
-"Es posible habilitar la vista multipista mediante el menú :menuselection:"
-"`Monitor --> Vista multipista`."
 
-#: ../../user_interface/monitors.rst:208
+#: ../../user_interface/monitors.rst:191
+#, fuzzy
+#| msgid ""
+#| "The new multitrack view interface allows you to select a track in the "
+#| "timeline by clicking on the project monitor. See here for :ref:`multicam "
+#| "editing <multicam_tool>`."
 msgid ""
-"The new multitrack view interface allows you to select a track in the "
-"timeline by clicking on the project monitor. See here for :ref:`multicam "
-"editing <multicam_tool>`."
+"The multitrack view interface allows you to select a track in the timeline "
+"by clicking on the project monitor. See the section about :ref:`multicam "
+"editing <multicam_tool>` for using it during Editing."
 msgstr ""
 "La interfaz de la vista multipista permite seleccionar una pista de la Línea "
 "de tiempo haciendo clic sobre un área del Monitor del proyecto. Ver aquí "
 "para :ref:`multicam editing <multicam_tool>`."
 
-#: ../../user_interface/monitors.rst:213
-msgid "Separate Clip and Project Monitors"
+#: ../../user_interface/monitors.rst:197
+#, fuzzy
+#| msgid "Separate Clip and Project Monitors"
+msgid "Clip and Project Monitor in Separate Windows"
 msgstr "Separación de Monitores de clips y proyecto"
 
-#: ../../user_interface/monitors.rst:215
+#: ../../user_interface/monitors.rst:199
 msgid ""
-"You can click on the Tab names that label the Monitors and drag the monitor "
-"out into its own window."
+"If you want to have the :ref:`Clip <ui-monitors_clip_monitor>` and/or the :"
+"ref:`Project Monitor <ui-monitors_project_monitor>` in their own individual "
+"windows click on the respective tab and drag the monitor :term:`widget` out "
+"into its own window. This undocks the widgets from their space. From there "
+"you can move them even to other monitors you may have connected."
 msgstr ""
-"Es posible hacer clic sobre los nombres de las solapas que etiquetan a los "
-"monitores y arrastrarlos a otra parte de la interfaz o a una ventana "
-"flotante."
 
-#: ../../user_interface/monitors.rst:220
+#: ../../user_interface/monitors.rst:206
 msgid ""
-"To put the monitors back into the Tabbed view - click on the monitor's title "
-"bar and drag the window on top of the other monitor window."
+"Moving Clip and Project Monitor to their own independent windows (undocking)"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:208
+#, fuzzy
+#| msgid ""
+#| "To put the monitors back into the Tabbed view - click on the monitor's "
+#| "title bar and drag the window on top of the other monitor window."
+msgid ""
+"To put the monitors back into the tabbed view click on the monitor's title "
+"bar (enable it via :menuselection:`Menu --> View --> Show Titlebars`) and "
+"drag the window on top of another widget. See the :ref:`ui-"
+"customizing_interface` chapter for more details."
 msgstr ""
 "Para volver a empotrar los monitores en la interfaz - hacer clic sobre la "
 "barra de título y arrastrar la ventana sobre o al lado de uno de los paneles "
 "de la interfaz."
 
-#: ../../user_interface/monitors.rst:222
+#: ../../user_interface/monitors.rst:210
+#, fuzzy
+#| msgid ""
+#| "If the monitor has no title bar (intermittent defect) then you can not do "
+#| "this and you will need to reset kdenlive settings by deleting ~/.config/"
+#| "kdenliverc"
 msgid ""
-"If the monitor has no title bar (intermittent defect) then you can not do "
-"this and you will need to reset kdenlive settings by deleting ~/.config/"
-"kdenliverc"
+"There is low risk that the monitor widget has no title bar (intermittent "
+"defect). In this case you will need to reset the Kdenlive settings by "
+"deleting :file:`~/.config/kdenliverc` (Linux) or :file:`C:\\\\Users\\"
+"\\<user_name>\\\\AppData\\\\Roaming\\\\kdenlive\\\\kdenlivestaterc` "
+"(Windows)."
 msgstr ""
 "Si la ventana del monitor no tuviera una barra de título (puede suceder "
 "intermitentemente) las indicaciones de arriba no podrán ser llevadas a cabo "
 "y será necesario restablecer la organización de la interfaz de Kdenlive, "
 "usando las opciones de Organización del menú Ver"
+
+#~ msgid "Clip monitor and project monitor in Kdenlive video editor"
+#~ msgstr ""
+#~ "Monitor de clips y monitor del proyecto en el editor de video Kdenlive"
+
+#~ msgid ""
+#~ "You can resize the monitors by dragging the sizing widget. It is a bit "
+#~ "tricky to find the bottom widget. You need to hover just between the "
+#~ "bottom of the monitor tab and the timeline"
+#~ msgstr ""
+#~ "Es posible redimensionar los monitores arrastrando la línea de separación "
+#~ "entre el panel del monitor y el de al lado"
+
+#~ msgid ""
+#~ "The Monitors get zoom bars. To activate: hover over the timeline ruler "
+#~ "and :kbd:`CTRL+Mouse wheel`."
+#~ msgstr ""
+#~ "Los monitores cuentan con barras de ampliación. Para activarla se debe: "
+#~ "posar el puntero del ratón sobre la regla de tiempo y usar :kbd:`Ctrl"
+#~ "+Rueda del ratón`."
+
+#~ msgid ""
+#~ "Support multiple guide overlays. Move with the mouse to the upper-right "
+#~ "corner of the monitor to access the toolbar."
+#~ msgstr ""
+#~ "Soporta la sobreimpresión de múltiples guías. Para acceder a la barra de "
+#~ "herramientas, mover el puntero del ratón hasta la esquina superior "
+#~ "derecha del Monitor."
+
+#~ msgid ""
+#~ "The color of the guide overlays can be changed. See :ref:"
+#~ "`monitor_toolbars`"
+#~ msgstr ""
+#~ "El color de las guías sobreimpresas podrá ser modificado. Ver :ref:"
+#~ "`monitor_toolbars`"
+
+#~ msgid "Clip Monitor"
+#~ msgstr "Monitor de clips"
+
+#~ msgid ""
+#~ "The Clip monitor displays the unedited clip that is currently selected "
+#~ "in :ref:`project_tree`."
+#~ msgstr ""
+#~ "El Monitor de clips muestra el clip seleccionado en la :ref:"
+#~ "`project_tree` en su estado original."
+
+#~ msgid "Widgets on the Clip Monitor"
+#~ msgstr "Controles del Monitor de clips"
+
+#~ msgid ""
+#~ "**Insert Zone In Project Bin** button - click this to add the current "
+#~ "zone to the project bin. The selected zone will appear as child clip in "
+#~ "the project bin - like the clip shown as Zone1 in the screen shot."
+#~ msgstr ""
+#~ "**Zona a bandeja del proyecto** - hacer clic sobre este botón para "
+#~ "agregar la zona actual del clip como un subclip en la Bandeja del "
+#~ "proyecto. Los subclips aparecerán subordinados al clip original, como si "
+#~ "se tratara de una carpeta."
+
+#~ msgid "**Set zone start** button - click this to set an 'in' point."
+#~ msgstr ""
+#~ "**Marcar inicio de zona** - hacer clic sobre este botón para marcar el "
+#~ "punto de 'entrada' de la zona del clip."
+
+#~ msgid "**Set zone end** button - click this to set an 'out' point."
+#~ msgstr ""
+#~ "**Marcar fin de zona** - hacer clic sobre este botón para marcar el punto "
+#~ "de 'salida' de la zona del clip."
+
+#~ msgid ""
+#~ "Zone duration indicator - selected by setting in and out points. Dragging "
+#~ "the clip from the clip monitor to the timeline when there is a selected "
+#~ "zone causes the selected zone, not the entire clip, to be copied to the "
+#~ "timeline."
+#~ msgstr ""
+#~ "Zona - se define marcando los puntos de entrada y salida. Cuando se "
+#~ "arrastra un clip desde el Monitor de clips hasta la Línea de tiempo, en "
+#~ "caso de haber una zona definida se arrastrará únicamente el contenido de "
+#~ "la zona, y no el clip completo."
+
+#~ msgid ""
+#~ "Position Caret - can be dragged in the clip. (In ver >=0.9.4 and with "
+#~ "OpenGL turned on in :menuselection:`Settings --> Configure Kdenlive --> "
+#~ "Playback`, audio will play as you drag this.)"
+#~ msgstr ""
+#~ "Cursor de tiempo - puede ser arrastrado de un lado al otro del clip. "
+#~ "(Mientras se arrastra el cursor de tiempo será posible escuchar el audio.)"
+
+#~ msgid ""
+#~ "Timecode widget - type a timecode here and hit :kbd:`Enter` to go to an "
+#~ "exact location in the clip. Timecode is in the format *hours:minutes:"
+#~ "seconds:frames* (where frames will correspond to the number of frames per "
+#~ "second in your project profile)."
+#~ msgstr ""
+#~ "Código de tiempo - será posible ingresar un código de tiempo aquí y "
+#~ "presionar :kbd:`Intro` para ir a una ubicación exacta en el clip. El "
+#~ "código de tiempo se encuentra en formato *horas:minutos:segundos:"
+#~ "fotogramas* (en donde los fotogramas se mostrarán de acuerdo a la "
+#~ "cantidad de fotogramas por segundo definida en el perfil del proyecto)."
+
+#~ msgid ""
+#~ "Timecode arrows - can be used to change the current position of the clip "
+#~ "in the clip monitor."
+#~ msgstr ""
+#~ "Flechas del código de tiempo - pueden ser usadas para cambiar la posición "
+#~ "actual del cursor de tiempo en el clip."
+
+#~ msgid ""
+#~ "Rewind button - click this to play the clip backwards; click again to "
+#~ "increase play back speed (cycles through 1.5, 2, 3, 5.5 and 10x play back "
+#~ "speed)"
+#~ msgstr ""
+#~ "Retroceder - hacer clic sobre este botón para reproducir el video en "
+#~ "reversa, seguís haciendo clic para aumentar la velocidad de reproducción "
+#~ "(velocidades disponibles ×1,5 / ×2 / ×3 / ×5,5 / ×10)"
+
+#~ msgid "Play/pause button"
+#~ msgstr ""
+#~ "Reproducir/Pausar - hacer clic sobre este botón para reproducir o pausar "
+#~ "el clip"
+
+#~ msgid ""
+#~ "Playback options - click to select from different playback options (Play, "
+#~ "Play Zone, Loop Zone, Loop Selected Clip)"
+#~ msgstr ""
+#~ "Opciones de reproducción - hacer clic para seleccionar una de las "
+#~ "opciones adicionales de reproducción disponibles (Reproducir, Reproducir "
+#~ "zona, Repetir zona)"
+
+#~ msgid ""
+#~ "Fast Forward button - click to increase the playback speed (cycles "
+#~ "through 1.5, 2, 3, 5.5 and 10x play back speed)"
+#~ msgstr ""
+#~ "Avanzar - hacer clic sobre este botón para reproducir el video a una "
+#~ "mayor velocidad (velocidades disponibles ×1,5 / ×2 / ×3 / ×5,5 / ×10)"
+
+#~ msgid ""
+#~ "Edit Mode button - Click this button to toggle edit mode in the project "
+#~ "monitor. If edit mode is enabled effects like transform show a red box "
+#~ "for moving and sizing the clip."
+#~ msgstr ""
+#~ "Modo de edición - hacer clic sobre este botón para activar o desactivar "
+#~ "el modo de edición en el Monitor del proyecto. Si el modo de edición se "
+#~ "encontrara activo, efectos como Transformación mostrarán un cuadro de "
+#~ "color rojo para mover y redimensionar el clip directamente desde el "
+#~ "Monitor de proyecto."
+
+#~ msgid "Hamburger menu"
+#~ msgstr "Menú hamburguesa"
+
+#~ msgid "Creating Zones in Clip Monitor"
+#~ msgstr "Creación de zonas en el Monitor de clips"
+
+#~ msgid ""
+#~ "Zones are defined regions of clips that are indicated by a colored "
+#~ "section in the clip monitor's timeline - see item 3 above. The beginning "
+#~ "of a zone is set by clicking **[** (item 1 in the pic above). The end of "
+#~ "a zone is set by clicking **]** (item 2 in the pic above)"
+#~ msgstr ""
+#~ "Las zonas son regiones definidas de los clips demarcadas por una banda de "
+#~ "color en la regla de tiempo del Monitor de clips - ver el punto 3 más "
+#~ "arriba. El inicio de una zona se define haciendo clic sobre el botón "
+#~ "**[** (elemento 1 en la imagen de arriba). El fin de la misma se define "
+#~ "haciendo clic sobre el botón **]** (elemento 2 en la imagen de arriba)"
+
+#~ msgid "Clip Monitor Right-click menu"
+#~ msgstr "Menú contextual del Monitor de clips"
+
+#~ msgid ""
+#~ "The Clip Monitor has a right-click (context) menu as described :ref:`here "
+#~ "<clip_monitor_rightclick>`."
+#~ msgstr ""
+#~ "El Monitor de clips tiene un menú contextual, tal como se describe :ref:"
+#~ "`aquí <clip_monitor_rightclick>`."
+
+#~ msgid "Seeking"
+#~ msgstr "Búsqueda visual"
+
+#~ msgid ""
+#~ "Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/"
+#~ "right."
+#~ msgstr ""
+#~ "Dentro del monitor de clips: Presionar la tecla :kbd:`Mayúsculas` y mover "
+#~ "el puntero del ratón a derecha/izquierda."
+
+#~ msgid "Drag audio or video only of a clip in timeline"
+#~ msgstr ""
+#~ "Arrastrar únicamente el video o el audio de un clip a la línea de tiempo"
+
+#~ msgid ""
+#~ "Move with the mouse to the lower-left corner of the clip monitor to "
+#~ "access the Video/Audio icons. Hover with the mouse either over the audio "
+#~ "or video icon left click to drag either video or audio part into the "
+#~ "timeline."
+#~ msgstr ""
+#~ "Posar el puntero del ratón sobre uno de los íconos (Video/Audio) "
+#~ "presentes en la esquina inferior izquierda del Monitor de clips. "
+#~ "Arrastrar desde allí hacia la Línea de tiempo. Sólo el componente "
+#~ "arrastrado será agregado a la Línea de tiempo."
+
+#~ msgid "Project Monitor"
+#~ msgstr "Monitor del proyecto"
+
+#~ msgid ""
+#~ "The Project Monitor displays your project's timeline - i.e. the edited "
+#~ "version of your video."
+#~ msgstr ""
+#~ "El Monitor del proyecto muestra el contenido de la Línea de tiempo - esto "
+#~ "es, la versión editada del video que se está produciendo."
+
+#~ msgid "Project Monitor Widgets"
+#~ msgstr "Controles del Monitor del proyecto"
+
+#~ msgid ""
+#~ "The position caret. Shows the current location in the project relative to "
+#~ "the whole project. You can click and drag this to move the position in "
+#~ "the project."
+#~ msgstr ""
+#~ "Cursor de tiempo - Muestra la posición actual en el tiempo del proyecto, "
+#~ "relativa al proyecto en su totalidad. Es posible arrastrarlo para mover "
+#~ "su posición a otro punto."
+
+#~ msgid ""
+#~ "The timecode widget. You can type a timecode here and press :kbd:`Enter` "
+#~ "to bring the Project Monitor to an exact location."
+#~ msgstr ""
+#~ "Código de tiempo - será posible ingresar un código de tiempo aquí y "
+#~ "presionar :kbd:`Intro` para ir a una ubicación exacta dentro del proyecto."
+
+#~ msgid ""
+#~ "Timecode widget control arrows. You can move the Project Monitor one "
+#~ "frame at a time with these."
+#~ msgstr ""
+#~ "Flechas del código de tiempo - pueden ser usadas para cambiar la posición "
+#~ "actual del cursor de tiempo del proyecto, un fotograma a la vez."
+
+#~ msgid "Creating Zones in Project Monitor"
+#~ msgstr "Creación de zonas en el Monitor del proyecto"
+
+#~ msgid ""
+#~ "You can use the :kbd:`I` and :kbd:`O` keys to create a zone in the "
+#~ "Project Monitor the same way you make zones in the clip monitor. The zone "
+#~ "will be indicated by a colored bar both on the timeline and underneath "
+#~ "the Project Monitor."
+#~ msgstr ""
+#~ "Es posible usar las teclas :kbd:`I` y :kbd:`O` para crear una zona en el "
+#~ "Monitor del proyecto, de la misma manera en que se definen las zonas en "
+#~ "el Monitor de clips. Las zonas estarán demarcadas por una banda de color "
+#~ "tanto en la regla de tiempo del Monitor del proyecto, como en la propia "
+#~ "Línea de tiempo."
+
+#~ msgid ""
+#~ "You can get Kdenlive to only render the selected zone - see :ref:"
+#~ "`rendering-selected_zone`."
+#~ msgstr ""
+#~ "Será posible hacer que Kdenlive procese únicamente la zona seleccionada - "
+#~ "ver :ref:`rendering-selected_zone`."
+
+#~ msgid "Project Monitor Right-click menu"
+#~ msgstr "Menú contextual del Monitor del proyecto"
+
+#~ msgid ""
+#~ "The project monitor has a right-click (context menu) as described :ref:"
+#~ "`here <project_monitor_rightclick>`."
+#~ msgstr ""
+#~ "El Monitor del proyecto tiene un menú contextual, tal como se describe :"
+#~ "ref:`aquí <project_monitor_rightclick>`."
+
+#~ msgid ""
+#~ "Enable the multirack view via menu :menuselection:`Monitor --> Multitrack "
+#~ "view`."
+#~ msgstr ""
+#~ "Es posible habilitar la vista multipista mediante el menú :menuselection:"
+#~ "`Monitor --> Vista multipista`."
+
+#~ msgid ""
+#~ "You can click on the Tab names that label the Monitors and drag the "
+#~ "monitor out into its own window."
+#~ msgstr ""
+#~ "Es posible hacer clic sobre los nombres de las solapas que etiquetan a "
+#~ "los monitores y arrastrarlos a otra parte de la interfaz o a una ventana "
+#~ "flotante."
 
 #~ msgid "Contents:"
 #~ msgstr "Contenido:"

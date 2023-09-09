@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-19 00:39+0000\n"
-"PO-Revision-Date: 2023-06-19 07:14+0300\n"
+"POT-Creation-Date: 2023-09-08 00:38+0000\n"
+"PO-Revision-Date: 2023-09-08 22:47+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,8 +19,9 @@ msgstr ""
 "X-Generator: Lokalize 20.12.0\n"
 
 #: ../../user_interface/monitors.rst:1
-msgid "Clip monitor and project monitor in Kdenlive video editor"
-msgstr "Монітор кліпу та монітор проєкту у відеоредакторі Kdenlive"
+#| msgid "Separate Clip and Project Monitors"
+msgid "Kdenlive's User Interface - Clip and Project Monitor"
+msgstr "Відокремлення кліпу від моніторів проєкту"
 
 #: ../../user_interface/monitors.rst:1
 msgid ""
@@ -33,16 +34,28 @@ msgstr ""
 "підручник, відеоредактор, відео, відкритий код, вільний, вивчення, вивчити, "
 "просто"
 
-#: ../../user_interface/monitors.rst:17
+#: ../../user_interface/monitors.rst:22
 msgid "Monitors"
 msgstr "Монітори"
 
-#: ../../user_interface/monitors.rst:19
+#: ../../user_interface/monitors.rst:24
 msgid ""
-"Kdenlive uses 2 monitor widgets to display your videos: Clip Monitor and "
-"Project Monitor. A third monitor - the Record Monitor - previews video "
-"capture. These monitors can be selected by clicking the corresponding tabs "
-"which appear at the bottom of the monitor window."
+"Kdenlive uses two monitor :term:`widgets<widget>` to display and play back "
+"your videos, images, titles, animations or audio files:"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:32
+#, fuzzy
+#| msgid ""
+#| "Kdenlive uses 2 monitor widgets to display your videos: Clip Monitor and "
+#| "Project Monitor. A third monitor - the Record Monitor - previews video "
+#| "capture. These monitors can be selected by clicking the corresponding "
+#| "tabs which appear at the bottom of the monitor window."
+msgid ""
+"The monitor widgets can be switched on or off by checking :menuselection:"
+"`Menu --> View --> Clip Monitor` and :menuselection:`Project Monitor`, "
+"repectively. Once activated, they can be selected by clicking the "
+"corresponding tab which appears at the bottom of the monitor window."
 msgstr ""
 "У Kdenlive використано два віджети монітора для показу ваших відео: монітор "
 "кліпу і монітор проєкту. На третьому моніторі, — моніторі запису, — буде "
@@ -50,381 +63,563 @@ msgstr ""
 "натисканням відповідних вкладок, які буде показано у нижній частині панелі "
 "моніторів."
 
-#: ../../user_interface/monitors.rst:22
-msgid "Resizing the Monitors"
-msgstr "Зміна розмірів моніторів"
-
-#: ../../user_interface/monitors.rst:24
-msgid ""
-"You can resize the monitors by dragging the sizing widget. It is a bit "
-"tricky to find the bottom widget. You need to hover just between the bottom "
-"of the monitor tab and the timeline"
+#: ../../user_interface/monitors.rst:34
+#| msgid ""
+#| "Support for external monitor display using Blackmagic Design decklink "
+#| "cards."
+msgid "Support for external monitor display using |bmd_decklink| cards."
 msgstr ""
-"Змінити розміри монітора можна перетягуванням віджета зміни розмірів. "
-"Користування цим віджетом є дещо ускладненим. Вам слід навести вказівник "
-"миші на позицію між нижнім краєм вкладки моніторів та монтажним столом."
+"Підтримка показу на зовнішньому моніторі за допомогою карток |bmd_decklink|."
 
-#: ../../user_interface/monitors.rst:33
-msgid "Monitor zoombar"
-msgstr "Панель масштабування монітора"
-
-#: ../../user_interface/monitors.rst:37
+#: ../../user_interface/monitors.rst:36
 msgid ""
-"The Monitors get zoom bars. To activate: hover over the timeline ruler and :"
-"kbd:`CTRL+Mouse wheel`."
+"The :ref:`ui-monitors_clip_monitor` plays the :term:`clip` selected in the :"
+"ref:`Project Bin <project_tree>`. The :ref:`ui-monitors_project_monitor` "
+"plays the timeline of the project starting at the position of the :term:"
+"`playhead`."
 msgstr ""
-"На моніторах передбачено панелі масштабування. Щоб активувати, наведіть "
-"вказівник миші на лінійку монтажного столу і скористайтеся комбінацією :kbd:"
-"`Ctrl+коліщатко миші`."
 
-#: ../../user_interface/monitors.rst:44
+#: ../../user_interface/monitors.rst:42
+msgid "Controls and Elements"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:49
 msgid ""
-"Support for external monitor display using Blackmagic Design decklink cards."
+"Monitor controls (see :ref:`this table <ui_elements-monitor_controls>` for "
+"more details)"
 msgstr ""
-"Підтримка показу на зовнішньому моніторі за допомогою карток DeckLink "
-"Blackmagic Design."
-
-#: ../../user_interface/monitors.rst:50
-msgid "Monitor toolbar"
-msgstr "Панель інструментів монітора"
 
 #: ../../user_interface/monitors.rst:57
 msgid ""
-"Support multiple guide overlays. Move with the mouse to the upper-right "
-"corner of the monitor to access the toolbar."
+"Monitor areas and elements (see :ref:`this table <ui_elements-"
+"monitor_elements>` for more details)"
 msgstr ""
-"Підтримка декількох напрямних накладок. Пересуньте вказівник у верхній "
-"правий кут монітора, щоб отримати доступ до панелі інструментів."
 
-#: ../../user_interface/monitors.rst:61
-msgid ""
-"The color of the guide overlays can be changed. See :ref:`monitor_toolbars`"
-msgstr "Колір накладок напрямних можна змінювати. Див. :ref:`monitor_toolbars`"
-
-#: ../../user_interface/monitors.rst:67
-msgid "Preview resolution"
-msgstr "Роздільна здатність перегляду"
+#: ../../user_interface/monitors.rst:64
+#| msgid "Monitor toolbar"
+msgid "Monitor Display Toolbar"
+msgstr "Панель інструментів показу монітора"
 
 #: ../../user_interface/monitors.rst:74
+msgid "Monitor Display Toolbar and overlay options"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:76
 msgid ""
-"Preview resolution speeds up the editing experience by scaling the video "
-"resolution of the monitors. It can be used of proxies instead."
+"The monitor display toolbar appears when you hover over the defined hotspot. "
+"By default this is the top right-hand side of the monitor area. Click on |"
+"transform-move-horizontal| to move the monitor display toolbar to the left-"
+"hand side or back. You can switch it off altogether by right-click in the "
+"monitor area, and selecting :menuselection:`Current Monitor Overlay --> "
+"Monitor Info Overlay`."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:80
+msgid "The toolbar has the following options:"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:88
+msgid "Icon"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:89
+msgid "Description"
+msgstr "Опис"
+
+#: ../../user_interface/monitors.rst:90
+msgid "|view-fullscreen|"
+msgstr "|view-fullscreen|"
+
+#: ../../user_interface/monitors.rst:91
+msgid "Switch full screen"
+msgstr "Перемкнути повноекранний режим"
+
+#: ../../user_interface/monitors.rst:92
+msgid "|view-grid|"
+msgstr "|view-grid|"
+
+#: ../../user_interface/monitors.rst:93
+msgid "Change overlay. Click through the different available patterns."
+msgstr ""
+"Змінити накладку. Клацайте для циклічного переходу різними доступними "
+"взірцями."
+
+#: ../../user_interface/monitors.rst:94
+msgid "|zoom-in|"
+msgstr "|zoom-in|"
+
+#: ../../user_interface/monitors.rst:95
+msgid ""
+"Zoom in It’s always for the entire clip. Cut it if needed and apply motion "
+"tracking only to the resulting pieces where needed."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:96
+msgid "|zoom-out|"
+msgstr "Зменшити"
+
+#: ../../user_interface/monitors.rst:97
+msgid "Zoom Out"
+msgstr "Зменшити"
+
+#: ../../user_interface/monitors.rst:98
+msgid "|list-add|"
+msgstr "|list-add|"
+
+#: ../../user_interface/monitors.rst:99
+msgid "Add guide"
+msgstr "Додати напрямну"
+
+#: ../../user_interface/monitors.rst:100
+msgid "|list-remove|"
+msgstr "|list-remove|"
+
+#: ../../user_interface/monitors.rst:101
+msgid "Remove guide"
+msgstr "Вилучити напрямну"
+
+#: ../../user_interface/monitors.rst:102
+msgid "|transform-move-horizontal|"
+msgstr "|transform-move-horizontal|"
+
+#: ../../user_interface/monitors.rst:103
+msgid ""
+"Move Toolbar. Click through to move the toolbar from the right (default) to "
+"the left and back."
+msgstr ""
+"Пересунути панель інструментів. Клацніть для пересування панелі інструментів"
+" з розташування праворуч (типового) на розташування ліворуч, і навпаки."
+
+#: ../../user_interface/monitors.rst:111
+msgid "Changing the color of the monitor overlay"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:113
+msgid ""
+"The color of the guide overlay can be changed in :menuselection:`Menu --> "
+"Settings --> Configure Kdenlive --> Colors and Guides`."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:121
+#| msgid "Resizing the Monitors"
+msgid "Resizing the Monitor"
+msgstr "Зміна розмірів монітора"
+
+#: ../../user_interface/monitors.rst:129
+#| msgid "Resizing the Monitors"
+msgid "Resizing the monitor widget"
+msgstr "Зміна розмірів віджета монітора"
+
+#: ../../user_interface/monitors.rst:131
+msgid ""
+"You can resize the monitors by dragging the widget's edges. Make sure the "
+"mouse pointer changes to the sizing shape."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:139
+#| msgid "Monitor zoombar"
+msgid "Monitor Zoom Bar"
+msgstr "Панель масштабування монітора"
+
+#: ../../user_interface/monitors.rst:149
+msgid "Monitor zoom bar (audio file example)"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:151
+msgid ""
+"The timeline rulers of the monitors have zoom bars. To activate, hover over "
+"the timeline ruler and use :kbd:`Ctrl+Mouse wheel`. A zoom bar will appear "
+"with a scrollbar that has handles on the left and the right. At the same "
+"time, the timeline ruler scaling marks will change according to the zoom "
+"factor. This is helpful when trying to make frame-accurate cuts or setting :"
+"term:`zones<zone>`."
+msgstr ""
+
+#: ../../user_interface/monitors.rst:159
+#| msgid "Preview resolution"
+msgid "Preview Resolution"
+msgstr "Роздільна здатність перегляду"
+
+#: ../../user_interface/monitors.rst:170
+#| msgid "Preview resolution"
+msgid "Preview resolutions"
+msgstr "Роздільна здатність перегляду"
+
+#: ../../user_interface/monitors.rst:172
+#, fuzzy
+#| msgid ""
+#| "Preview resolution speeds up the editing experience by scaling the video "
+#| "resolution of the monitors. It can be used of proxies instead."
+msgid ""
+"Changing the Preview Resolution speeds up the editing experience by scaling "
+"the video resolution of the monitors. It can be used instead of :term:"
+"`proxies<proxy>` or with proxies. Speed improvement depends on your source "
+"files."
 msgstr ""
 "Роботу при редагуванні можна пришвидшити масштабуванням панелі попереднього "
 "перегляду до роздільної здатності моніторів. Нею можна скористатися замість "
 "проміжних кліпів."
 
-#: ../../user_interface/monitors.rst:80
-msgid "Clip Monitor"
-msgstr "Монітор кліпу"
-
-#: ../../user_interface/monitors.rst:82
+#: ../../user_interface/monitors.rst:174
 msgid ""
-"The Clip monitor displays the unedited clip that is currently selected in :"
-"ref:`project_tree`."
+"Playback speed depends on several factors: source material, use of proxies, "
+"type and number of effects, and the CPU capabilities. There is limited to no "
+"GPU support for video playback. :ref:`Preview Rendering <timeline-preview-"
+"rendering>` is highly recommended if playback speed is lacking."
 msgstr ""
-"На моніторі кліпу буде показано нередагований кліп, який позначено на "
-"панелі :ref:`project_tree`."
-
-#: ../../user_interface/monitors.rst:88
-msgid "Widgets on the Clip Monitor"
-msgstr "Віджети на моніторі кліпу"
-
-#: ../../user_interface/monitors.rst:90
-msgid ""
-"**Insert Zone In Project Bin** button - click this to add the current zone "
-"to the project bin. The selected zone will appear as child clip in the "
-"project bin - like the clip shown as Zone1 in the screen shot."
-msgstr ""
-"Кнопка **Вставити зону на панель контейнера проєкту** — натисніть цю кнопку, "
-"щоб додати поточну зону на панель ієрархії проєкту. Позначена зона з'явиться "
-"як дочірній кліп на панелі — подібно до кліпу, який показано як Zone1 на "
-"знімку вікна."
-
-#: ../../user_interface/monitors.rst:92
-msgid "**Set zone start** button - click this to set an 'in' point."
-msgstr ""
-"Кнопка **Встановити початок зони** — натисніть цю кнопку, щоб встановити "
-"вхідну точку."
-
-#: ../../user_interface/monitors.rst:94
-msgid "**Set zone end** button - click this to set an 'out' point."
-msgstr ""
-"Кнопка **Встановити кінець зони** — натисніть цю кнопку, щоб встановити "
-"вихідну точку."
-
-#: ../../user_interface/monitors.rst:96
-msgid ""
-"Zone duration indicator - selected by setting in and out points. Dragging "
-"the clip from the clip monitor to the timeline when there is a selected zone "
-"causes the selected zone, not the entire clip, to be copied to the timeline."
-msgstr ""
-"Індикатор тривалості відтворення зони — дані визначаються вхідною і вихідною "
-"точками. Перетягування кліпу з монітора кліпу на монтажний стіл, якщо "
-"позначено зону, призведе до копіювання на монтажний стіл позначеної зони, а "
-"не усього кліпу."
-
-#: ../../user_interface/monitors.rst:98
-msgid ""
-"Position Caret - can be dragged in the clip. (In ver >=0.9.4 and with OpenGL "
-"turned on in :menuselection:`Settings --> Configure Kdenlive --> Playback`, "
-"audio will play as you drag this.)"
-msgstr ""
-"Курсор позиції — можна перетягувати у кліпі. (У версіях >=0.9.4 з увімкненим "
-"OpenGL на сторінці :menuselection:`Параметри --> Налаштувати Kdenlive --> "
-"Відтворення` можна вказати, що слід відтворювати звук при перетягуванні.)"
-
-#: ../../user_interface/monitors.rst:100
-msgid ""
-"Timecode widget - type a timecode here and hit :kbd:`Enter` to go to an "
-"exact location in the clip. Timecode is in the format *hours:minutes:seconds:"
-"frames* (where frames will correspond to the number of frames per second in "
-"your project profile)."
-msgstr ""
-"Віджет позначки часу — введіть тут часову позицію і натисніть клавішу :kbd:"
-"`Enter`, щоб перейти до точного місця у кліпі. Часову позначку слід "
-"вказувати у форматі *години:хвилини:секунди:кадри* (де кадри відповідають "
-"кількості кадрів за секунду у вашому профілі проєкту)."
-
-#: ../../user_interface/monitors.rst:102
-msgid ""
-"Timecode arrows - can be used to change the current position of the clip in "
-"the clip monitor."
-msgstr ""
-"Стрілки часової позначки — можна скористатися для зміни поточної позиції у "
-"кліпі на панелі монітора кліпу."
-
-#: ../../user_interface/monitors.rst:104
-msgid ""
-"Rewind button - click this to play the clip backwards; click again to "
-"increase play back speed (cycles through 1.5, 2, 3, 5.5 and 10x play back "
-"speed)"
-msgstr ""
-"Кнопка швидкого перемотування назад — натисніть, щоб перемотати кліп назад; "
-"натисніть знову для збільшення швидкості відтворення (циклічний перехід між "
-"швидкостями 1.5, 2, 3, 5.5 і 10x)"
-
-#: ../../user_interface/monitors.rst:106
-msgid "Play/pause button"
-msgstr "Кнопка «Пуск/Пауза»"
-
-#: ../../user_interface/monitors.rst:108
-msgid ""
-"Playback options - click to select from different playback options (Play, "
-"Play Zone, Loop Zone, Loop Selected Clip)"
-msgstr ""
-"Варіанти відтворення — натисніть, щоб вибрати різні варіанти відтворення "
-"(відтворити, відтворити ділянку, циклічно відтворити ділянку, циклічно "
-"відтворити позначений кліп)"
-
-#: ../../user_interface/monitors.rst:110
-msgid ""
-"Fast Forward button - click to increase the playback speed (cycles through "
-"1.5, 2, 3, 5.5 and 10x play back speed)"
-msgstr ""
-"Кнопка швидкого перемотування — натисніть, щоб збільшити швидкість "
-"відтворення (циклічний перехід між швидкостями 1.5, 2, 3, 5.5 і 10x)"
-
-#: ../../user_interface/monitors.rst:112
-msgid ""
-"Edit Mode button - Click this button to toggle edit mode in the project "
-"monitor. If edit mode is enabled effects like transform show a red box for "
-"moving and sizing the clip."
-msgstr ""
-"Кнопка режиму редагування — натисніть цю кнопку для перемикання режиму "
-"редагування на моніторі проєкту. Якщо увімкнено режим редагування, для "
-"ефектів, подібних до перетворення, буде показано червону панель для "
-"пересування і зміни розмірів кліпу."
-
-#: ../../user_interface/monitors.rst:118 ../../user_interface/monitors.rst:175
-msgid "Hamburger menu"
-msgstr "Меню-гамбургер"
-
-#: ../../user_interface/monitors.rst:125
-msgid "Creating Zones in Clip Monitor"
-msgstr "Створення зон у моніторі кліпу"
-
-#: ../../user_interface/monitors.rst:127
-msgid ""
-"Zones are defined regions of clips that are indicated by a colored section "
-"in the clip monitor's timeline - see item 3 above. The beginning of a zone "
-"is set by clicking **[** (item 1 in the pic above). The end of a zone is set "
-"by clicking **]** (item 2 in the pic above)"
-msgstr ""
-"Зони визначають області кліпів, які позначаються кольоровою частиною на "
-"лінійці часу монітора кліпу — див. пункт 3 вище. Початок зони встановлюють "
-"натисканням **[** (пункт 1 на зображенні вище). Кінець зони встановлюють "
-"натисканням **]** (пункт 2 на зображенні вище)"
-
-#: ../../user_interface/monitors.rst:130
-msgid "Clip Monitor Right-click menu"
-msgstr "Контекстне меню монітора кліпу"
-
-#: ../../user_interface/monitors.rst:132
-msgid ""
-"The Clip Monitor has a right-click (context) menu as described :ref:`here "
-"<clip_monitor_rightclick>`."
-msgstr ""
-"У монітора кліпу є контекстне меню, яке описано :ref:`тут "
-"<clip_monitor_rightclick>`."
-
-#: ../../user_interface/monitors.rst:135
-msgid "Seeking"
-msgstr "Позиціювання"
-
-#: ../../user_interface/monitors.rst:139
-msgid ""
-"Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/"
-"right."
-msgstr ""
-"На моніторі кліпу: натисніть і утримуйте :kbd:`Shift` і пересувайте "
-"вказівник миші ліворуч або праворуч."
-
-#: ../../user_interface/monitors.rst:144
-msgid "Drag audio or video only of a clip in timeline"
-msgstr "Перетягування звукових або відеоданих кліпу на монтажний стіл"
-
-#: ../../user_interface/monitors.rst:151
-msgid ""
-"Move with the mouse to the lower-left corner of the clip monitor to access "
-"the Video/Audio icons. Hover with the mouse either over the audio or video "
-"icon left click to drag either video or audio part into the timeline."
-msgstr ""
-"Наведіть вказівник миші у нижній лівий кут монітора кліпу, щоб отримати "
-"доступ до піктограм відео/звуку. Наведіть вказівник миші на піктограму "
-"звукових даних або відеоданих, затисніть ліву клавішу миші і перетягніть "
-"відео або звукові дані на монтажний стіл."
-
-#: ../../user_interface/monitors.rst:156
-msgid "Project Monitor"
-msgstr "Монітор проєкту"
-
-#: ../../user_interface/monitors.rst:158
-msgid ""
-"The Project Monitor displays your project's timeline - i.e. the edited "
-"version of your video."
-msgstr ""
-"На моніторі проєкту буде показано монтажний стіл вашого проєкту — тобто "
-"редаговану версію вашого відео."
-
-#: ../../user_interface/monitors.rst:164
-msgid "Project Monitor Widgets"
-msgstr "Віджети монітора проєкту"
-
-#: ../../user_interface/monitors.rst:166
-msgid ""
-"The position caret. Shows the current location in the project relative to "
-"the whole project. You can click and drag this to move the position in the "
-"project."
-msgstr ""
-"Позиція курсора. Показує поточне місце у проєкті відносно усього проєкту. Ви "
-"можете затиснути її і перетягнути, щоб пересунути поточну позицію у проєкті."
-
-#: ../../user_interface/monitors.rst:168
-msgid ""
-"The timecode widget. You can type a timecode here and press :kbd:`Enter` to "
-"bring the Project Monitor to an exact location."
-msgstr ""
-"Віджет часової позначки. У ньому ви можете ввести часову позначку і "
-"натиснути клавішу :kbd:`Enter`, щоб перейти до точної позиції на моніторі "
-"проєкту."
-
-#: ../../user_interface/monitors.rst:170
-msgid ""
-"Timecode widget control arrows. You can move the Project Monitor one frame "
-"at a time with these."
-msgstr ""
-"Стрілки керування віджетом часової позначки. За їхньою допомогою ви можете "
-"пересувати позицію на моніторі проєкту на один кадр."
 
 #: ../../user_interface/monitors.rst:182
-msgid "Creating Zones in Project Monitor"
-msgstr "Створення зон на моніторі проєкту"
-
-#: ../../user_interface/monitors.rst:184
-msgid ""
-"You can use the :kbd:`I` and :kbd:`O` keys to create a zone in the Project "
-"Monitor the same way you make zones in the clip monitor. The zone will be "
-"indicated by a colored bar both on the timeline and underneath the Project "
-"Monitor."
-msgstr ""
-"Ви можете скористатися кнопками :kbd:`I` і :kbd:`O` для створення зони на "
-"моніторі проєкту у той самий спосіб, у який ви створюєте зони на моніторі "
-"кліпу. Зону буде позначено кольоровою смужкою на лінійці часу під монітором "
-"проєкту."
-
-#: ../../user_interface/monitors.rst:189
-msgid ""
-"You can get Kdenlive to only render the selected zone - see :ref:`rendering-"
-"selected_zone`."
-msgstr ""
-"Ви можете наказати Kdenlive обробити лише позначену зону — див. :ref:"
-"`rendering-selected_zone`."
-
-#: ../../user_interface/monitors.rst:192
-msgid "Project Monitor Right-click menu"
-msgstr "Контекстне меню монітора проєкту"
-
-#: ../../user_interface/monitors.rst:194
-msgid ""
-"The project monitor has a right-click (context menu) as described :ref:`here "
-"<project_monitor_rightclick>`."
-msgstr ""
-"У монітора проєкту є контекстне меню, яке описано :ref:`тут "
-"<project_monitor_rightclick>`."
-
-#: ../../user_interface/monitors.rst:199
 msgid "Multitrack View"
 msgstr "Багатодоріжковий перегляд"
 
-#: ../../user_interface/monitors.rst:203
+#: ../../user_interface/monitors.rst:186
 msgid ""
-"Enable the multirack view via menu :menuselection:`Monitor --> Multitrack "
-"view`."
+"You enable the multitrack view via :menuselection:`Menu --> Monitor --> "
+"Multitrack view` or via right-click in the Project Monitor area and "
+"selecting :guilabel:`Multitrack View` or by pressing :kbd:`F12`."
 msgstr ""
-"Увімкнути багатодоріжковий перегляд можна за допомогою пункту меню :"
-"menuselection:`Монітор --> Багатодоріжковий перегляд`."
 
-#: ../../user_interface/monitors.rst:208
+#: ../../user_interface/monitors.rst:191
+#, fuzzy
+#| msgid ""
+#| "The new multitrack view interface allows you to select a track in the "
+#| "timeline by clicking on the project monitor. See here for :ref:`multicam "
+#| "editing <multicam_tool>`."
 msgid ""
-"The new multitrack view interface allows you to select a track in the "
-"timeline by clicking on the project monitor. See here for :ref:`multicam "
-"editing <multicam_tool>`."
+"The multitrack view interface allows you to select a track in the timeline "
+"by clicking on the project monitor. See the section about :ref:`multicam "
+"editing <multicam_tool>` for using it during Editing."
 msgstr ""
 "За допомогою багатодоріжкового інтерфейсу ви можете вибрати доріжку на "
 "монтажному столі за допомогою клацання на моніторі проєкту. Дані щодо "
 "редагування у режимі багатьох камер наведено :ref:`тут <multicam_tool>`."
 
-#: ../../user_interface/monitors.rst:213
-msgid "Separate Clip and Project Monitors"
+#: ../../user_interface/monitors.rst:197
+#, fuzzy
+#| msgid "Separate Clip and Project Monitors"
+msgid "Clip and Project Monitor in Separate Windows"
 msgstr "Відокремлення кліпу від моніторів проєкту"
 
-#: ../../user_interface/monitors.rst:215
+#: ../../user_interface/monitors.rst:199
 msgid ""
-"You can click on the Tab names that label the Monitors and drag the monitor "
-"out into its own window."
+"If you want to have the :ref:`Clip <ui-monitors_clip_monitor>` and/or the :"
+"ref:`Project Monitor <ui-monitors_project_monitor>` in their own individual "
+"windows click on the respective tab and drag the monitor :term:`widget` out "
+"into its own window. This undocks the widgets from their space. From there "
+"you can move them even to other monitors you may have connected."
 msgstr ""
-"Ви можете натиснути вкладку із міткою монітора і перетягти монітор за межі "
-"вікна."
 
-#: ../../user_interface/monitors.rst:220
+#: ../../user_interface/monitors.rst:206
 msgid ""
-"To put the monitors back into the Tabbed view - click on the monitor's title "
-"bar and drag the window on top of the other monitor window."
+"Moving Clip and Project Monitor to their own independent windows (undocking)"
+msgstr ""
+
+#: ../../user_interface/monitors.rst:208
+#, fuzzy
+#| msgid ""
+#| "To put the monitors back into the Tabbed view - click on the monitor's "
+#| "title bar and drag the window on top of the other monitor window."
+msgid ""
+"To put the monitors back into the tabbed view click on the monitor's title "
+"bar (enable it via :menuselection:`Menu --> View --> Show Titlebars`) and "
+"drag the window on top of another widget. See the :ref:`ui-"
+"customizing_interface` chapter for more details."
 msgstr ""
 "Щоб повернути монітор на панель із вкладками всередині вікна, затисніть "
 "смужку заголовка вікна монітора і перетягніть вікно у верхню частину панелі "
 "моніторів."
 
-#: ../../user_interface/monitors.rst:222
+#: ../../user_interface/monitors.rst:210
+#, fuzzy
+#| msgid ""
+#| "If the monitor has no title bar (intermittent defect) then you can not do "
+#| "this and you will need to reset kdenlive settings by deleting ~/.config/"
+#| "kdenliverc"
 msgid ""
-"If the monitor has no title bar (intermittent defect) then you can not do "
-"this and you will need to reset kdenlive settings by deleting ~/.config/"
-"kdenliverc"
+"There is low risk that the monitor widget has no title bar (intermittent "
+"defect). In this case you will need to reset the Kdenlive settings by "
+"deleting :file:`~/.config/kdenliverc` (Linux) or :file:`C:\\\\Users\\"
+"\\<user_name>\\\\AppData\\\\Roaming\\\\kdenlive\\\\kdenlivestaterc` "
+"(Windows)."
 msgstr ""
 "Якщо у монітора немає смужки заголовка (тимчасовий дефект), ви не зможете "
 "цього зробити, — вам доведеться скинути параметри kdenlive до типових "
 "вилученням файла ~/.config/kdenliverc"
+
+#~ msgid "Clip monitor and project monitor in Kdenlive video editor"
+#~ msgstr "Монітор кліпу та монітор проєкту у відеоредакторі Kdenlive"
+
+#~ msgid ""
+#~ "You can resize the monitors by dragging the sizing widget. It is a bit "
+#~ "tricky to find the bottom widget. You need to hover just between the "
+#~ "bottom of the monitor tab and the timeline"
+#~ msgstr ""
+#~ "Змінити розміри монітора можна перетягуванням віджета зміни розмірів. "
+#~ "Користування цим віджетом є дещо ускладненим. Вам слід навести вказівник "
+#~ "миші на позицію між нижнім краєм вкладки моніторів та монтажним столом."
+
+#~ msgid ""
+#~ "The Monitors get zoom bars. To activate: hover over the timeline ruler "
+#~ "and :kbd:`CTRL+Mouse wheel`."
+#~ msgstr ""
+#~ "На моніторах передбачено панелі масштабування. Щоб активувати, наведіть "
+#~ "вказівник миші на лінійку монтажного столу і скористайтеся комбінацією :"
+#~ "kbd:`Ctrl+коліщатко миші`."
+
+#~ msgid ""
+#~ "Support multiple guide overlays. Move with the mouse to the upper-right "
+#~ "corner of the monitor to access the toolbar."
+#~ msgstr ""
+#~ "Підтримка декількох напрямних накладок. Пересуньте вказівник у верхній "
+#~ "правий кут монітора, щоб отримати доступ до панелі інструментів."
+
+#~ msgid ""
+#~ "The color of the guide overlays can be changed. See :ref:"
+#~ "`monitor_toolbars`"
+#~ msgstr ""
+#~ "Колір накладок напрямних можна змінювати. Див. :ref:`monitor_toolbars`"
+
+#~ msgid "Clip Monitor"
+#~ msgstr "Монітор кліпу"
+
+#~ msgid ""
+#~ "The Clip monitor displays the unedited clip that is currently selected "
+#~ "in :ref:`project_tree`."
+#~ msgstr ""
+#~ "На моніторі кліпу буде показано нередагований кліп, який позначено на "
+#~ "панелі :ref:`project_tree`."
+
+#~ msgid "Widgets on the Clip Monitor"
+#~ msgstr "Віджети на моніторі кліпу"
+
+#~ msgid ""
+#~ "**Insert Zone In Project Bin** button - click this to add the current "
+#~ "zone to the project bin. The selected zone will appear as child clip in "
+#~ "the project bin - like the clip shown as Zone1 in the screen shot."
+#~ msgstr ""
+#~ "Кнопка **Вставити зону на панель контейнера проєкту** — натисніть цю "
+#~ "кнопку, щоб додати поточну зону на панель ієрархії проєкту. Позначена "
+#~ "зона з'явиться як дочірній кліп на панелі — подібно до кліпу, який "
+#~ "показано як Zone1 на знімку вікна."
+
+#~ msgid "**Set zone start** button - click this to set an 'in' point."
+#~ msgstr ""
+#~ "Кнопка **Встановити початок зони** — натисніть цю кнопку, щоб встановити "
+#~ "вхідну точку."
+
+#~ msgid "**Set zone end** button - click this to set an 'out' point."
+#~ msgstr ""
+#~ "Кнопка **Встановити кінець зони** — натисніть цю кнопку, щоб встановити "
+#~ "вихідну точку."
+
+#~ msgid ""
+#~ "Zone duration indicator - selected by setting in and out points. Dragging "
+#~ "the clip from the clip monitor to the timeline when there is a selected "
+#~ "zone causes the selected zone, not the entire clip, to be copied to the "
+#~ "timeline."
+#~ msgstr ""
+#~ "Індикатор тривалості відтворення зони — дані визначаються вхідною і "
+#~ "вихідною точками. Перетягування кліпу з монітора кліпу на монтажний стіл, "
+#~ "якщо позначено зону, призведе до копіювання на монтажний стіл позначеної "
+#~ "зони, а не усього кліпу."
+
+#~ msgid ""
+#~ "Position Caret - can be dragged in the clip. (In ver >=0.9.4 and with "
+#~ "OpenGL turned on in :menuselection:`Settings --> Configure Kdenlive --> "
+#~ "Playback`, audio will play as you drag this.)"
+#~ msgstr ""
+#~ "Курсор позиції — можна перетягувати у кліпі. (У версіях >=0.9.4 з "
+#~ "увімкненим OpenGL на сторінці :menuselection:`Параметри --> Налаштувати "
+#~ "Kdenlive --> Відтворення` можна вказати, що слід відтворювати звук при "
+#~ "перетягуванні.)"
+
+#~ msgid ""
+#~ "Timecode widget - type a timecode here and hit :kbd:`Enter` to go to an "
+#~ "exact location in the clip. Timecode is in the format *hours:minutes:"
+#~ "seconds:frames* (where frames will correspond to the number of frames per "
+#~ "second in your project profile)."
+#~ msgstr ""
+#~ "Віджет позначки часу — введіть тут часову позицію і натисніть клавішу :"
+#~ "kbd:`Enter`, щоб перейти до точного місця у кліпі. Часову позначку слід "
+#~ "вказувати у форматі *години:хвилини:секунди:кадри* (де кадри відповідають "
+#~ "кількості кадрів за секунду у вашому профілі проєкту)."
+
+#~ msgid ""
+#~ "Timecode arrows - can be used to change the current position of the clip "
+#~ "in the clip monitor."
+#~ msgstr ""
+#~ "Стрілки часової позначки — можна скористатися для зміни поточної позиції "
+#~ "у кліпі на панелі монітора кліпу."
+
+#~ msgid ""
+#~ "Rewind button - click this to play the clip backwards; click again to "
+#~ "increase play back speed (cycles through 1.5, 2, 3, 5.5 and 10x play back "
+#~ "speed)"
+#~ msgstr ""
+#~ "Кнопка швидкого перемотування назад — натисніть, щоб перемотати кліп "
+#~ "назад; натисніть знову для збільшення швидкості відтворення (циклічний "
+#~ "перехід між швидкостями 1.5, 2, 3, 5.5 і 10x)"
+
+#~ msgid "Play/pause button"
+#~ msgstr "Кнопка «Пуск/Пауза»"
+
+#~ msgid ""
+#~ "Playback options - click to select from different playback options (Play, "
+#~ "Play Zone, Loop Zone, Loop Selected Clip)"
+#~ msgstr ""
+#~ "Варіанти відтворення — натисніть, щоб вибрати різні варіанти відтворення "
+#~ "(відтворити, відтворити ділянку, циклічно відтворити ділянку, циклічно "
+#~ "відтворити позначений кліп)"
+
+#~ msgid ""
+#~ "Fast Forward button - click to increase the playback speed (cycles "
+#~ "through 1.5, 2, 3, 5.5 and 10x play back speed)"
+#~ msgstr ""
+#~ "Кнопка швидкого перемотування — натисніть, щоб збільшити швидкість "
+#~ "відтворення (циклічний перехід між швидкостями 1.5, 2, 3, 5.5 і 10x)"
+
+#~ msgid ""
+#~ "Edit Mode button - Click this button to toggle edit mode in the project "
+#~ "monitor. If edit mode is enabled effects like transform show a red box "
+#~ "for moving and sizing the clip."
+#~ msgstr ""
+#~ "Кнопка режиму редагування — натисніть цю кнопку для перемикання режиму "
+#~ "редагування на моніторі проєкту. Якщо увімкнено режим редагування, для "
+#~ "ефектів, подібних до перетворення, буде показано червону панель для "
+#~ "пересування і зміни розмірів кліпу."
+
+#~ msgid "Hamburger menu"
+#~ msgstr "Меню-гамбургер"
+
+#~ msgid "Creating Zones in Clip Monitor"
+#~ msgstr "Створення зон у моніторі кліпу"
+
+#~ msgid ""
+#~ "Zones are defined regions of clips that are indicated by a colored "
+#~ "section in the clip monitor's timeline - see item 3 above. The beginning "
+#~ "of a zone is set by clicking **[** (item 1 in the pic above). The end of "
+#~ "a zone is set by clicking **]** (item 2 in the pic above)"
+#~ msgstr ""
+#~ "Зони визначають області кліпів, які позначаються кольоровою частиною на "
+#~ "лінійці часу монітора кліпу — див. пункт 3 вище. Початок зони "
+#~ "встановлюють натисканням **[** (пункт 1 на зображенні вище). Кінець зони "
+#~ "встановлюють натисканням **]** (пункт 2 на зображенні вище)"
+
+#~ msgid "Clip Monitor Right-click menu"
+#~ msgstr "Контекстне меню монітора кліпу"
+
+#~ msgid ""
+#~ "The Clip Monitor has a right-click (context) menu as described :ref:`here "
+#~ "<clip_monitor_rightclick>`."
+#~ msgstr ""
+#~ "У монітора кліпу є контекстне меню, яке описано :ref:`тут "
+#~ "<clip_monitor_rightclick>`."
+
+#~ msgid "Seeking"
+#~ msgstr "Позиціювання"
+
+#~ msgid ""
+#~ "Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/"
+#~ "right."
+#~ msgstr ""
+#~ "На моніторі кліпу: натисніть і утримуйте :kbd:`Shift` і пересувайте "
+#~ "вказівник миші ліворуч або праворуч."
+
+#~ msgid "Drag audio or video only of a clip in timeline"
+#~ msgstr "Перетягування звукових або відеоданих кліпу на монтажний стіл"
+
+#~ msgid ""
+#~ "Move with the mouse to the lower-left corner of the clip monitor to "
+#~ "access the Video/Audio icons. Hover with the mouse either over the audio "
+#~ "or video icon left click to drag either video or audio part into the "
+#~ "timeline."
+#~ msgstr ""
+#~ "Наведіть вказівник миші у нижній лівий кут монітора кліпу, щоб отримати "
+#~ "доступ до піктограм відео/звуку. Наведіть вказівник миші на піктограму "
+#~ "звукових даних або відеоданих, затисніть ліву клавішу миші і перетягніть "
+#~ "відео або звукові дані на монтажний стіл."
+
+#~ msgid "Project Monitor"
+#~ msgstr "Монітор проєкту"
+
+#~ msgid ""
+#~ "The Project Monitor displays your project's timeline - i.e. the edited "
+#~ "version of your video."
+#~ msgstr ""
+#~ "На моніторі проєкту буде показано монтажний стіл вашого проєкту — тобто "
+#~ "редаговану версію вашого відео."
+
+#~ msgid "Project Monitor Widgets"
+#~ msgstr "Віджети монітора проєкту"
+
+#~ msgid ""
+#~ "The position caret. Shows the current location in the project relative to "
+#~ "the whole project. You can click and drag this to move the position in "
+#~ "the project."
+#~ msgstr ""
+#~ "Позиція курсора. Показує поточне місце у проєкті відносно усього проєкту. "
+#~ "Ви можете затиснути її і перетягнути, щоб пересунути поточну позицію у "
+#~ "проєкті."
+
+#~ msgid ""
+#~ "The timecode widget. You can type a timecode here and press :kbd:`Enter` "
+#~ "to bring the Project Monitor to an exact location."
+#~ msgstr ""
+#~ "Віджет часової позначки. У ньому ви можете ввести часову позначку і "
+#~ "натиснути клавішу :kbd:`Enter`, щоб перейти до точної позиції на моніторі "
+#~ "проєкту."
+
+#~ msgid ""
+#~ "Timecode widget control arrows. You can move the Project Monitor one "
+#~ "frame at a time with these."
+#~ msgstr ""
+#~ "Стрілки керування віджетом часової позначки. За їхньою допомогою ви "
+#~ "можете пересувати позицію на моніторі проєкту на один кадр."
+
+#~ msgid "Creating Zones in Project Monitor"
+#~ msgstr "Створення зон на моніторі проєкту"
+
+#~ msgid ""
+#~ "You can use the :kbd:`I` and :kbd:`O` keys to create a zone in the "
+#~ "Project Monitor the same way you make zones in the clip monitor. The zone "
+#~ "will be indicated by a colored bar both on the timeline and underneath "
+#~ "the Project Monitor."
+#~ msgstr ""
+#~ "Ви можете скористатися кнопками :kbd:`I` і :kbd:`O` для створення зони на "
+#~ "моніторі проєкту у той самий спосіб, у який ви створюєте зони на моніторі "
+#~ "кліпу. Зону буде позначено кольоровою смужкою на лінійці часу під "
+#~ "монітором проєкту."
+
+#~ msgid ""
+#~ "You can get Kdenlive to only render the selected zone - see :ref:"
+#~ "`rendering-selected_zone`."
+#~ msgstr ""
+#~ "Ви можете наказати Kdenlive обробити лише позначену зону — див. :ref:"
+#~ "`rendering-selected_zone`."
+
+#~ msgid "Project Monitor Right-click menu"
+#~ msgstr "Контекстне меню монітора проєкту"
+
+#~ msgid ""
+#~ "The project monitor has a right-click (context menu) as described :ref:"
+#~ "`here <project_monitor_rightclick>`."
+#~ msgstr ""
+#~ "У монітора проєкту є контекстне меню, яке описано :ref:`тут "
+#~ "<project_monitor_rightclick>`."
+
+#~ msgid ""
+#~ "Enable the multirack view via menu :menuselection:`Monitor --> Multitrack "
+#~ "view`."
+#~ msgstr ""
+#~ "Увімкнути багатодоріжковий перегляд можна за допомогою пункту меню :"
+#~ "menuselection:`Монітор --> Багатодоріжковий перегляд`."
+
+#~ msgid ""
+#~ "You can click on the Tab names that label the Monitors and drag the "
+#~ "monitor out into its own window."
+#~ msgstr ""
+#~ "Ви можете натиснути вкладку із міткою монітора і перетягти монітор за "
+#~ "межі вікна."
 
 #~ msgid "Multicam Editing"
 #~ msgstr "Мультикам-редагування"
