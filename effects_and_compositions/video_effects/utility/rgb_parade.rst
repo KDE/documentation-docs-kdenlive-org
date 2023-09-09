@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using oscilloscope (advanced) effect
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, utility, oscilloscope (advanced)
+   :description: Do your first steps with Kdenlive video editor, using RGB parade effect
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, utility, RGB parade
 
 .. metadata-placeholder
 
