@@ -106,6 +106,8 @@ These are the menu items that are available when you right-click in the Project 
 
 .. rst-class:: clear-both
 
+|
+
 .. list-table::
    :width: 100%
    :widths: 20 25 60
