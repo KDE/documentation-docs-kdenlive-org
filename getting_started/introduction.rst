@@ -14,7 +14,7 @@
              - Qubodup (https://userbase.kde.org/User:Qubodup)
              - Thompsony (https://userbase.kde.org/User:Thompsony)
              - Camille Moulin
-			 - Bernd Jordan
+             - Bernd Jordan
 
    :license: Creative Commons License SA 4.0
 
@@ -22,7 +22,7 @@
   * What is kdenlive good for? (Editing videos …)   * Where is it located? (Semi-Pro?) Alternatives? (Cinelerra, OpenShot, Lightworks, ...)   * What components does kdenlive use? See `this image <http://kdenlive.org/sites/default/files/images/kdenlive-mlt-diagram.png>`_.
   * What components does kdenlive use?
 
-  In effect Kdenlive is front end to melt - also known as MLT. The MLT video framework  relies on the FFMPEG project. Kdenlive writes sh.mlt XML files that code the edit points and transitions and it then calls /usr/bin/kdenlive_render and /usr/bin/melt to render the video.
+  In effect Kdenlive is a front end to melt - also known as MLT. The MLT video framework  relies on the FFMPEG project. Kdenlive writes sh.mlt XML files that code the edit points and transitions and it then calls /usr/bin/kdenlive_render and /usr/bin/melt to render the video.
 
 .. _introduction:
 
@@ -33,7 +33,7 @@ Introduction
 **Kdenlive** is an acronym for |kde_org| **N**\ on-\ **Li**\ near **V**\ ideo **E**\ ditor.
 
 
-It is a free software (|gpl_licensed|) primarily aimed at the Linux platform, but it also works on BSD [1]_  as it relies only on portable components (|qt| and |mlt|). Windows versions are also available, with some drawbacks. See :ref:`windows_issues` for more information. A port on MacOS is also available.
+It is a free software (|gpl_licensed|) primarily aimed at the Linux platform, but it also works on BSD\ [1]_  as it relies only on portable components (|qt| and |mlt|). Windows versions are also available, with some drawbacks. See :ref:`troubleshooting-windows_issues` for more information. A port on MacOS is also available.
 
 .. |kde_org| raw:: html
 

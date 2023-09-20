@@ -329,7 +329,7 @@ See also the :ref:`effects-histogram` video effect.
 
 .. attention::
 
-   :ref:`scopes_directx` 
+   :ref:`issue-scopes`
 
 
 .. _view-library:

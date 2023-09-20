@@ -136,7 +136,7 @@ Troubleshooting, Glossary, Get Involved
    .. container:: tile
 
       :ref:`troubleshooting`
-         Solving specific :ref:`windows_issues`
+         Solving specific :ref:`troubleshooting-windows_issues`
 
          General problem solving
 

@@ -29,10 +29,10 @@ Settings Menu
 
 *  :ref:`manage_cached_data`
 *  :ref:`run_config_wizard`
-*  :ref:`OpenGL Backend <scopes_directx>` Windows only: You can switch the OpenGL backend if you have playback issues.
-*  :ref:`Force Breeze Icon Theme <force_breeze_icon_theme>`
+*  :ref:`OpenGL Backend <issue-scopes>` Windows only: You can switch the OpenGL backend if you have playback issues.
+*  :ref:`Force Breeze Icon Theme <issue-force_breeze_icon_theme>`
 *  :ref:`Color Theme <themes>`
-*  :ref:`Style <style>`
+*  :ref:`Style <issue-style>`
 *  :ref:`Show Menubar <toolbars_shown>`
 *  :ref:`Toolbars Shown <toolbars_shown>`
 *  :ref:`Show Status bar <toolbars>`

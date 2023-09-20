@@ -205,7 +205,7 @@ Glossary
 
    MELT
    melt
-      Melt was developed as a test tool for the MLT framework. If you will, Kdenlive is a front-end for melt writing :file:`.mlt` XML files that code the edit points and transitions. It then calls melt to render the video. See :ref:`faq`.
+      Melt was developed as a test tool for the MLT framework. If you will, Kdenlive is a front-end for melt writing :file:`.mlt` XML files that code the edit points and transitions. It then calls melt to render the video. See :ref:`troubleshooting-faq`.
 
    Mixes
       See :term:`Same-track Transition`

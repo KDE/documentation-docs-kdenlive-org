@@ -203,6 +203,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |go-next| image:: /images/icons/go-next.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |go-up| image:: /images/icons/go-up.svg
    :width: 22px
    :class: no-scaled-link
