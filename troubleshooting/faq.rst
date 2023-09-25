@@ -51,6 +51,11 @@
 
    <a href="https://www.pling.com/browse?cat=686&ord=latest" target="_blank">KDE Store</a>
 
+.. |lame| raw:: html
+
+   <a href="https://lame.sourceforge.io/links.php" target="_blank">LAME</a>
+
+
 
 .. _troubleshooting-faq:
 
