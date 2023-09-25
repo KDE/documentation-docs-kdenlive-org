@@ -44,6 +44,7 @@ Render problems
 
 After rendering you get de-synced audio or wrong effects or black frames at end of the last clip: Download version 20.08.1 or higher from the |download_page|.
 
+Disable :ref:`render-more_options_parallel_processing` in the render dialog window (check :guilabel:`More Options`).
 
 
 .. _issue-scopes:
