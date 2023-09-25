@@ -121,6 +121,8 @@ I have many tracks. Can I collapse them?
 
 You can collapse and expand each track individually by clicking on the |go-down| or |go-next| icon in the :ref:`track's header <track_header>`. If you hold :kbd:`Shift` while doing this you collapse or expand all tracks of the same type at the same time.
 
+Alternatively, you can use the :ref:`fit_tracks_to_view_height` option to adjust the tracks' height to fit into the timeline view port. To do that right-click on the track header and select :guilabel:`Fit all Tracks to View`.
+
 
 I want to trim videos without re-encoding them. How can I do this?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
