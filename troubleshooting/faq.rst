@@ -173,6 +173,9 @@ If you have a pure audio source try transcoding that to WAV with
    lame --decode file.mp3 file.wav
 
 
+Please note that on Windows and MacOS you may need to download and install lame first. You can find the binaries on the official |lame| site.
+
+
 I have a crackling noise at cuts. How can I fix that?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
