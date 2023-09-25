@@ -133,7 +133,7 @@ Unfortunately, you cannot do this with Kdenlive. Please try |avidemux| or |ffmpe
 Where can I get more effects?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Effects are provided by the MLT Framework in form of filters. Not all of them work with Kdenlive or are even useful for a non-linear video editor. There is no plugin capability for other third-party effects.
+Effects are provided by the MLT Framework in form of filters. Not all of them work with Kdenlive or are even useful for a video editor. There is no plugin capability for other third-party effects.
 
 The Kdenlive community is a great place to learn from each other and exchange ideas and share. You can find Kdenlive Effect Templates in the |kde_store|. They are essentially effects/filters or a combination of effects and filters to achieve a certain look or, uhm, effect. KDE Store is integrated in Kdenlive so you can install effects directly from the :ref:`Effects tab <effects-effects_tab>`.
 
