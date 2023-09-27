@@ -176,7 +176,7 @@ This issue is solved with version 18.08.2 (30. Oct 2018). Get the current versio
 Qt rendering crash
 ------------------
 
-Hit :kbd:`Ctrl+Shift+,` (comma) > :menuselection:`environment` > make sure the paths point to the same path as "MLT profiles folder".
+Hit :kbd:`Ctrl+Shift+,` or go to :menuselection:`Menu --> Settings --> Configure Kdenlive`, and then to :menuselection:`Environment` and make sure the paths point to the same path as "MLT profiles folder".
 
 When switching from version 17.12 to 18.04/18.08, a Qt rendering crash appears. To make sure this doesn't happen, you need to edit the :file:`kdenliverc` file in the :file:`AppData\\local` folder. To access your appdata, press :kbd:`Win+R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and type **appdata**. Go to :file:`local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`.
 
@@ -214,7 +214,7 @@ If this is not solving the problem switch your standard printer to “Microsoft 
 
 Delete the :file:`kdenliverc` file.
 
-Make sure you set concurrent threads to ``1`` :menuselection:`Menu --> Settings --> Configure Kdenlive` (or :kbd:`Ctrl+Shift+,`) and then in :menuselection:`Environment --> Proxy and Transcode Jobs` set :guilabel:`Concurrent threads` to ``1``.
+Make sure you set concurrent threads to ``1``: Go to :menuselection:`Menu --> Settings --> Configure Kdenlive` (or :kbd:`Ctrl+Shift+,`) and then in :menuselection:`Environment --> Proxy and Transcode Jobs` set :guilabel:`Concurrent threads` to ``1``.
 
 
 Audio pops and ticks in render
