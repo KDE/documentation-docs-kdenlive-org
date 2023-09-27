@@ -55,17 +55,12 @@ It is a free software (|gpl_licensed|) primarily aimed at the Linux platform, bu
    <a href="http://www.mltframework.org/" target="_blank">MLT framework</a>
 
 
-Through the MLT framework **Kdenlive** integrates many plugin effects for video and sound processing or creation. Furthermore, **Kdenlive** brings a powerful titling tool, a subtitling feature with AI-supported speech to text conversion, nested timelines (new in version 23.04), animation support through Glaxnimate integration (new in version 22.08) and thus can be used as a complete studio for video creation.
+Through the MLT framework **Kdenlive** integrates many effects for video and audio processing or creation. Furthermore, **Kdenlive** brings a powerful :doc:`titling tool </effects_and_compositions/titles>`, a :doc:`subtitling </effects_and_compositions/subtitles>` feature with AI-supported :doc:`speech to text </effects_and_compositions/speech_to_text>` conversion, :ref:`nested timelines <sequence>` (new in version 23.04), :ref:`animation <add_animation>` support through Glaxnimate integration (new in version 22.08) and thus can be used as a complete studio for video creation. Check out :doc:`/more_information/whats_new` for the most recent feature additions.
 
 
 
 Video editing features
 ----------------------
-
-
-..  COMMENT: You will probably notice that I have shortened the list a LOT. With all the respect to the previous contributors, I think that it´s better to put only some (the most important) features here, as many of them will certainly become "old and cold" with the release of newer versions of Kdenlive, and will anyway be treated in the rest of the manual. Maybe a good idea, however, is to create a "What´s New" section, if the Kdenlive new site does not contain one.
-   BMJ: I added a few important video editing features like 3-point editing, proxy editing and keyframes
-
 
 * Multitrack editing with a timeline and virtually unlimited number of video and audio tracks, plus the ability to split audio and video from a clip in multiple tracks
 
@@ -149,5 +144,6 @@ There is no need to import or convert footage prior to editing. Kdenlive knows h
    <a href="https://ffmpeg.org/about.html" target="_blank">ffmpeg</a>
 
 
+**Notes**
 
 .. [1] Berkeley Software Distribution

@@ -25,6 +25,10 @@
 
    :license: Creative Commons License SA 4.0
 
+.. |news_page| raw:: html
+
+   <a href="https://kdenlive.org/en/blog/" target="_blank">news page</a>
+
 .. |download_page| raw:: html
 
    <a href="https://kdenlive.org/download/" target="_blank">download page</a>
@@ -40,9 +44,11 @@
 Installation
 ============
 
+Kdenlive is released about every three month. See the Kdenlive |news_page| to get the latest information and release notes. And check out :doc:`/more_information/whats_new` for the most recent feature additions.
+
 You can install Kdenlive in two different ways: Using an installer or as fully self-contained executable (Windows: standalone; Linux: appimage). On MacOS you can only use the installer version.
 
-Visit the |download_page| of the Kdenlive web site for up to date information on installing **Kdenlive**.
+Visit the |download_page| of the Kdenlive web site for up to date information on installing Kdenlive.
 
 You’ll find all previous Kdenlive versions in the |attic|.
 
@@ -69,14 +75,14 @@ Minimum system requirements
 Kdenlive on Linux
 -----------------
 
-**Kdenlive** can be installed on non-KDE Desktops without any issues.
+Kdenlive can be installed on non-KDE Desktops without any issues.
 
-**Packages:** Minimum Ubuntu 22.04 for PPA. AppImage, Snap or Flatpak has no such minimal requirements. 
+**Packages:** Minimum Ubuntu 22.04 for PPA. AppImage, Snap or Flatpak have no such minimal requirements.
 
 Kdenlive on Windows
 -------------------
 
-**Kdenlive** runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and newer. We cannot guarantee that Kdenlive runs on server or embedded Windows version.
+Kdenlive runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and newer. We cannot guarantee that Kdenlive runs on server or embedded Windows version.
 
 Kdenlive is available as an install and as a standalone version.
 
@@ -144,11 +150,11 @@ Do also make sure no GPO is blocking the access to these folders.
 Kdenlive on macOS
 -----------------
 
-**Kdenlive** runs with Intel based Macs on macOS 10.15 (Catalina) and newer (available on the |download_page|).
+Kdenlive runs with Intel based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
 
-.. versionadded:: 22.04.0
+.. .. versionadded:: 22.04.0
 
-Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina) [1]_ and on M1.
+.. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
 
 Install procedure
 ~~~~~~~~~~~~~~~~~
@@ -219,67 +225,55 @@ Kdenlive's application-wide persistent settings are stored in the following loca
 
 .. list-table::
    :header-rows: 1
+   :width: 100%
+   :widths: 20 20 60
+   :class: table-wrap
 
    * - Linux  
      - Windows
-     - macOS  
      - Description
    * - :file:`~/.config/kdenliverc`
      - :file:`%LocalAppData%\\kdenliverc`
-     -
      - General settings of the application. Delete this and restart Kdenlive to reset the application to "factory" settings
    * - :file:`~/.config/kdenlive-appimagerc`
-     - 
      - 
      - Linux AppImage only: contains the general settings of the application
    * - :file:`~/.config/session/kdenlive_*`
      -
-     -
      - temporary session info
    * - :file:`~/.cache/kdenlive`
      - :file:`%LocalAppData%\\kdenlive`
-     -
      - cache location storing audio and video thumbnails, and proxy clips, user defined titles, LUTS, lumas, shortcuts
    * - :file:`~/.local/share/kdenlive`
      - :file:`%AppData%\\kdenlive`
-     -
-     - contains downloaded: effects, export, library, opencvmodels, profiles, speech models, and titles
+     - contains downloaded: effects, export, library, opencv models, profiles, speech models, and titles
    * - :file:`~/.local/share/kdenlive/lumas`
      - :file:`%LocalAppData%\\kdenlive\\lumas`
-     -
-     - lumas folder inside here contains the files used for :ref:`wipe`
+     - lumas folder contains the files used for :ref:`wipe`
    * - :file:`~/.local/share/kdenlive/.backup`
      - :file:`%AppData%\\kdenlive\\.backup`
-     -
      - Auto Save Recovery files
    * - :file:`~/.config/kdenlive-layoutsrc`
      - :file:`%LocalAppData%\\kdenlive-layoutsrc` 
-     -
      - contains the layout settings
-   * - :file:`~/.local/share/kxmlgui5/kdenlive/kdenliveui.rc`
-     - :file:`%LocalAppData%\\kxmlgui5\kdenlive\\kdenliveui.rc` 
-     -
+   * - :file:`~/.local/share/kxmlgui5/kdenlive/ kdenliveui.rc`
+     - :file:`%LocalAppData%\\kxmlgui5\kdenlive\\ kdenliveui.rc`
      - contains UI configuration, if your UI is broken, delete this file
    * - :file:`~/.local/share/knewstuff3`
      - :file:`%LocalAppData%\\knewstuff3` 
-     - 
      - contains LUT definition
    * - :file:`~/.local/share/kdenlive/speechmodels`
      - :file:`%AppData%\\kdenlive\\speechmodels`
-     - 
      - contains the VOSK models downloaded
    * - :file:`~/.local/share/kdenlive/opencvmodels`
      - :file:`%AppData%\\kdenlive\\opencvmodels`
-     - 
      - contains the OpenCV models downloaded 
 
 
    
-**Windows**
+Windows
+   To reach the above folders: :kbd:`Windows+R` then copy above path into the window.
 
-To reach the above folders: :kbd:`Windows + R` then copy above path into the window.
-
-Notes
------
+**Notes**
 
 .. [1] Due to QT6 compatibility the build system was switched to C++17 in January 2022 so minimum macOS requirement is macOS 10.15.
