@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-26 00:42+0000\n"
-"PO-Revision-Date: 2021-12-06 20:25+0200\n"
+"POT-Creation-Date: 2023-09-26 00:36+0000\n"
+"PO-Revision-Date: 2023-09-26 21:27+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,61 +18,563 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#: ../../troubleshooting/faq.rst:17
+#: ../../troubleshooting/faq.rst:1
+#| msgid "Frequently Asked Questions"
+msgid "Troubleshooting Kdenlive - Frequently Asked Questions"
+msgstr "Усування проблем з Kdenlive — поширені питання та відповіді на них"
+
+#: ../../troubleshooting/faq.rst:1
+msgid ""
+"KDE, Kdenlive, troubleshooting, documentation, user manual, video editor, "
+"open source, free, learn, easy, FAQ, help, question, answer"
+msgstr ""
+"KDE, Kdenlive, усування проблем, документація, підручник, відеоредактор,"
+" відео, "
+"відкритий код, вільний, вивчення, вивчити, просто, поширені питання,"
+" довідка, питання, відповідь"
+
+#: ../../troubleshooting/faq.rst:63
 msgid "Frequently Asked Questions"
 msgstr "Поширені питання та відповіді на них"
 
-#: ../../troubleshooting/faq.rst:21
-msgid "What components does Kdenlive use?"
-msgstr "Які компоненти використано у Kdenlive?"
+#: ../../troubleshooting/faq.rst:68
+msgid "User Interface"
+msgstr "Інтерфейс користувача"
 
-#: ../../troubleshooting/faq.rst:23
+#: ../../troubleshooting/faq.rst:71
+msgid "Kdenlive is too large on my screen. I cannot make it smaller."
+msgstr "Вікно Kdenlive є занадто великим. Не можу зробити його меншим."
+
+#: ../../troubleshooting/faq.rst:73
 msgid ""
-"In effect, **Kdenlive** is a front end to `melt <http://www.mltframework.org/"
-"bin/view/MLT/MltMelt>`_ - which uses the MLT video framework. The MLT video "
-"framework relies on the FFMPEG project. **Kdenlive** writes :file:`sh.mlt` "
-"XML files that code the edit points and transitions and it then calls :file:"
-"`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to render the video."
+"This usually happens when too many :term:`widgets<widget>` are open. Each "
+"widget label takes a minimum amount of space in width. Close some via :"
+"menuselection:`Menu --> View` or the close button in the widget's title bar "
+"(needs to be enabled via :menuselection:`Menu --> View --> Show Title Bars`) "
+"and consider using layouts. See the :ref:`ui-workspace_layouts` chapter for "
+"more details."
 msgstr ""
-"Насправді, **Kdenlive** є оболонкою до `melt <http://www.mltframework.org/"
-"bin/view/MLT/MltMelt>`_, у якій використано бібліотеку для роботи з відео "
-"MLT. Робота бібліотеки MLT залежить від програм проєкту FFMPEG. **Kdenlive** "
-"записує файли XML :file:`sh.mlt`, у яких закодовано позиції редагування та "
-"переходи, і потім викликає :file:`/usr/bin/kdenlive_render` і :file:`/usr/"
-"bin/melt` для обробки відео."
+"Таке, зазвичай, трапляється, якщо відкрито надто багато :term:`віджетів <"
+"widget>`. Кожна мітка віджета займає якусь мінімальну частку ширини."
+" Закрийте якісь з віджетів за допомогою :"
+"menuselection:`Меню --> Перегляд` або кнопки закриття на смужці заголовка"
+" віджета (слід спочатку увімкнути за допомогою пункту :menuselection:`Меню"
+" --> Перегляд --> Показувати смужки заголовків`), варто користуватися"
+" певними компонуваннями. Див. розділ :ref:`ui-workspace_layouts`, щоб"
+" дізнатися більше."
 
-#: ../../troubleshooting/faq.rst:27
+#: ../../troubleshooting/faq.rst:77
+msgid ""
+"My monitor plays distorted images, or generally something it really should "
+"not."
+msgstr "На моніторі проекту зображення викривляється або містить артефакти."
+
+#: ../../troubleshooting/faq.rst:79
+msgid ""
+"Please check your :menuselection:`Menu --> Settings --> Configure Kdenlive --"
+"> Playback` settings. Try to disable OpenGL if it is enabled, or use a "
+"different driver. Kdenlive may need to be restarted."
+msgstr ""
+"Скористайтеся сторінкою налаштування :menuselection:`Меню --> Параметри --> "
+"Налаштувати Kdenlive --> Відтворення`. Спробуйте вимкнути OpenGL, якщо його "
+"увімкнено, або скористайтеся іншим драйвером. Можливо, **Kdenlive** "
+"доведеться перезапустити, щоб зміни набули чинності."
+
+#: ../../troubleshooting/faq.rst:86
+msgid "Asset Management"
+msgstr "Керування даними"
+
+#: ../../troubleshooting/faq.rst:89
+msgid ""
+"When I import a video clip into my 1920x1080 project a warning pops up "
+"asking me to create and switch to new profile. Why?"
+msgstr ""
+"При імпортуванні відео до проєкту 1920x1080 програма показує попередження,"
+" де просить створити профіль і перемкнутися на нього. Чому?"
+
+#: ../../troubleshooting/faq.rst:91
+msgid ""
+"This is the standard behavior for Kdenlive for the **first clip** to be "
+"added to a new project if the clip's properties are different from the "
+"project's settings. For example, the project settings are 1920x1080 @ 30\\ :"
+"abbr:`fps (frames per second)`, and the clip is 450x360 @ 24.86\\ :abbr:`fps "
+"(frames per second)`. You can switch off the check in :menuselection:`Menu --"
+"> Settings --> Configure Kdenlive --> Misc` by unchecking :guilabel:`Check "
+"if first added clip matches project profile`."
+msgstr ""
+"Це стандартна поведінка Kdenlive для **першого кліпу**, який додають до"
+" нового проєкту, якщо властивості кліпу відрізняються від параметрів"
+" проєкту. Наприклад, параметрами проєкту є 1920x1080 @ 30\\ кадрів за"
+" секунду, а кліп має параметри 450x360 @ 24.86\\ кадрів за секунду. Ви"
+" можете вимкнути перевірку на сторінці :menuselection:`Меню --> Параметри --"
+"> Налаштувати Kdenlive --> Інше`, знявши позначку з пункту"
+" :guilabel:`Перевіряти, чи відповідає перший доданий кліп профілю проєкту`."
+
+#: ../../troubleshooting/faq.rst:95
+msgid ""
+"I have a .mov file that is made with .png images and was able to import it "
+"into Kdenlive but now I only get an unusable audio track from it. How do I "
+"fix this?"
+msgstr ""
+"У вас є файл .mov, який створено із зображень .png, і його можна було"
+" імпортувати до Kdenlive, але тепер з нього можна отримати лише непридатну"
+" до використання звукову доріжку. Як це виправити?"
+
+#: ../../troubleshooting/faq.rst:97
+msgid ""
+"This bug has been reported for version 23.04.3 and higher. Until a fix is "
+"available there is this as a temporary solution:"
+msgstr ""
+"Про цю ваду повідомлено щодо версії 23.04.3 та новіших версій. Доки ваду"
+" буде не буде виправлено, ось тимчасове вирішення:"
+
+#: ../../troubleshooting/faq.rst:99
+msgid "Open the :file:`.kdenlive` project file in a text editor"
+msgstr "Відкрийте файл проєкту :file:`.kdenlive` у текстовому редакторі"
+
+#: ../../troubleshooting/faq.rst:100
+msgid "Look for this line: ``<property name=“set.test_image”>1</property>``"
+msgstr "Шукайте цей рядок: ``<property name=“set.test_image”>1</property>``"
+
+#: ../../troubleshooting/faq.rst:101
+msgid "Remove the line or change the ``1`` to ``0``"
+msgstr "Вилучіть рядок або змініть ``1`` на ``0``"
+
+#: ../../troubleshooting/faq.rst:102
+msgid "Look for this line: ``<property name=“video_index”>-1</property>``"
+msgstr "Шукайте цей рядок: ``<property name=“video_index”>-1</property>``"
+
+#: ../../troubleshooting/faq.rst:103
+msgid "Change the ``-1`` to ``0``"
+msgstr "Замініть ``-1`` на ``0``"
+
+#: ../../troubleshooting/faq.rst:104
+msgid "Repeat steps 2 thru 5 for each file that is imported"
+msgstr "Повторіть кроки з 2 до 5 для кожного імпортованого файла"
+
+#: ../../troubleshooting/faq.rst:105
+msgid "Save the file"
+msgstr "Збережіть файл"
+
+#: ../../troubleshooting/faq.rst:111
+msgid "Editing"
+msgstr "Редагування"
+
+#: ../../troubleshooting/faq.rst:114
+msgid "Everyone is talking about Edit Mode. How can I switch it on?"
+msgstr "Усі говорять про режим редагування. Як його увімкнути?"
+
+#: ../../troubleshooting/faq.rst:116
+msgid ""
+":term:`Edit Mode` is a feature of the :ref:`Project Monitor <ui-"
+"monitors_project_monitor>` and allows you to control size and position "
+"parameters of certain effects directly in the project monitor with the "
+"mouse. For example: When you select the :ref:`effects-transform` effect a "
+"red rectangle is displayed in the monitor. If you don't see the red "
+"rectangle, Edit Mode is switched off. Click on the |edit-mode| icon in the "
+"project monitor :ref:`toolbar <ui-monitors_controls_and_elements>` to switch "
+"it back on."
+msgstr ""
+":term:`Режим редагування <Edit Mode>` є можливістю :ref:`монітора проєкту <"
+"ui-monitors_project_monitor>`. Вона надає змогу керувати параметрами розміру"
+" та розташування певних ефектів безпосередньо на моніторі проєкту за"
+" допомогою миші. Приклад: коли ви виберете ефект :ref:`effects-transform`,"
+" на моніторі буде показано червоний прямокутник. Якщо ви не бачите червоного"
+" прямокутника, режим редагування вимкнено. Натисніть піктограму |edit-mode|"
+" на :ref:`панелі інструментів <ui-monitors_controls_and_elements>` монітора"
+" проєкту, щоб знову його увімкнути."
+
+#: ../../troubleshooting/faq.rst:120
+msgid "I have many tracks. Can I collapse them?"
+msgstr "У проєкті багато доріжок. Як їх згорнути?"
+
+#: ../../troubleshooting/faq.rst:122
+msgid ""
+"You can collapse and expand each track individually by clicking on the |go-"
+"down| or |go-next| icon in the :ref:`track's header <track_header>`. If you "
+"hold :kbd:`Shift` while doing this you collapse or expand all tracks of the "
+"same type at the same time."
+msgstr ""
+"Ви можете згорнути або розгорнути окрему доріжку натисканням піктограми"
+" |go-down| або |go-next| на :ref:`заголовку доріжки <track_header>`. Якщо ви"
+" утримуватимете натиснутою клавішу :kbd:`Shift` під час виконання цієї дії,"
+" ви зможете згортати або розгортати усі доріжки певного типу одночасно."
+
+#: ../../troubleshooting/faq.rst:124
+msgid ""
+"Alternatively, you can use the :ref:`fit_tracks_to_view_height` option to "
+"adjust the tracks' height to fit into the timeline view port. To do that "
+"right-click on the track header and select :guilabel:`Fit all Tracks to "
+"View`."
+msgstr ""
+"Крім того, ви можете скористатися пунктом :ref:`fit_tracks_to_view_height`"
+" для коригування висоти доріжок так, щоб вони вміщалися до панелі перегляду"
+" на монтажному столі. Для цього клацніть правою кнопкою миші на заголовку"
+" доріжки і виберіть пункт :guilabel:`Підібрати розміри для усіх доріжок"
+" перегляду`."
+
+#: ../../troubleshooting/faq.rst:128
+msgid "I want to trim videos without re-encoding them. How can I do this?"
+msgstr "Хочу обрізати відео без перекодування. Як це зробити?"
+
+#: ../../troubleshooting/faq.rst:130
+msgid ""
+"Unfortunately, you cannot do this with Kdenlive. Please try |avidemux| or |"
+"ffmpeg| instead. The reason is that for splitting, files need to be treated "
+"in a very different manner: the file itself needs to be edited, whereas "
+"Kdenlive renders frames into a new file. Check the ffmpeg wiki for using |"
+"ffmpeg_split|."
+msgstr ""
+"На жаль, не варто користуватися для цього Kdenlive. Будь ласка,"
+" скористайтеся для "
+"виконання цього завдання |avidemux| або |ffmpeg|. Причиною "
+"неможливості використання програми з цією метою є те, що для розрізання "
+"файли обробляються зовсім у інший спосіб (потрібне редагування самого файла, "
+"а Kdenlive працює з кадрами, які зберігає у новому файлі). Ознайомтеся із"
+" вікі ffmpeg, щоб дізнатися більше про використання |ffmpeg_split|."
+
+#: ../../troubleshooting/faq.rst:134
+msgid "Where can I get more effects?"
+msgstr "Де отримати додаткові ефекти?"
+
+#: ../../troubleshooting/faq.rst:136
+msgid ""
+"Effects are provided by the MLT Framework in form of filters. Not all of "
+"them work with Kdenlive or are even useful for a video editor. There is no "
+"plugin capability for other third-party effects."
+msgstr ""
+"Доступ до ефектів у бібліотеках MLT надається у формі фільтрів. Не усі з них"
+" працюють у Kdenlive або навіть є корисними для відеоредактора. Можливості"
+" використання додатків для інших сторонніх ефектів не передбачено."
+
+#: ../../troubleshooting/faq.rst:138
+msgid ""
+"The Kdenlive community is a great place to learn from each other and "
+"exchange ideas and share. You can find Kdenlive Effect Templates in the |"
+"kde_store|. They are essentially effects/filters or a combination of effects "
+"and filters to achieve a certain look or, uhm, effect. KDE Store is "
+"integrated in Kdenlive so you can install effects directly from the :ref:"
+"`Effects tab <effects-effects_tab>`."
+msgstr ""
+"Спільнота Kdenlive є чудовим місцем для взаємного навчання та обміну та"
+" поширення ідей. Знайти шаблони ефектів Kdenlive можна у |kde_store|. По"
+" суті, вони є ефектами або фільтрами або комбінацією ефектів і фільтрів для"
+" досягнення певного вигляду або, г-м-м, ефекту. KDE Store інтегровано до"
+" Kdenlive, тому ви можете встановлювати ефекти безпосередньо за допомогою"
+" :ref:"
+"`вкладки «Ефекти» <effects-effects_tab>`."
+
+#: ../../troubleshooting/faq.rst:142
+msgid ""
+"I want to apply an effect, for example a watermark, to the whole project. "
+"What is the best way to do this?"
+msgstr ""
+"Хочу застосувати ефект, наприклад накладання зображення, до цілого проєкту. "
+"Як зробити це найкращим чином?"
+
+#: ../../troubleshooting/faq.rst:144
+msgid ""
+"Create a new project with the same project profile and import the project to "
+"which you want to apply the effect as a clip with  :menuselection:`Menu --> "
+"Project --> Add Clip` or by clicking on |kdenlive-add-clip| in the project "
+"bin. See also this |vimeo_how-to_watermark| on Vimeo."
+msgstr ""
+"Створіть проєкт із тим самим профілем і імпортуйте проєкт, до якого ви"
+" хочете застосувати ефект, як кліп за допомогою пункту :menuselection:`Меню"
+" --> Проєкт --> Додати кліп` або натисканням кнопки |kdenlive-add-clip| на"
+" панелі контейнера проєкту. Див. також відео, |vimeo_how-to_watermark|, на"
+" Vimeo."
+
+#: ../../troubleshooting/faq.rst:148
+msgid ""
+"There is a black, semi-transparent background on some images. How can I get "
+"rid of that?"
+msgstr ""
+"На деяких зображеннях маємо чорне, напівпрозоре тло. Як від нього позбутися?"
+
+#: ../../troubleshooting/faq.rst:150
+msgid ""
+"If you used the :ref:`effects-position_and_zoom` effect to move them around "
+"or make them smaller or bigger simply replace the effect with the :ref:"
+"`effects-transform` effect. It does the same thing but does not have the "
+"compositing issues."
+msgstr ""
+"Якщо ви використовували ефект :ref:`effects-position_and_zoom` для їхнього"
+" пересування або зменшення-збільшення, просто замініть ефект ефектом"
+" :ref:`effects-transform`. Його призначено для отримання того самого"
+" результату, але з ним не пов'язано ніяких проблем із композицією."
+
+#: ../../troubleshooting/faq.rst:154
+msgid "How to return normal sound after I changed the speed of a clip?"
+msgstr "Як повернути звичайний звук після зміни швидкості кліпу?"
+
+#: ../../troubleshooting/faq.rst:156
+msgid ""
+"It looks like you forgot to check the :guilabel:`Pitch compensation` option "
+"in the :ref:`change_speed` dialog window. You may be able to undo the speed "
+"change or reverse the speed change by doing another speed change but in the "
+"opposite direction."
+msgstr ""
+"Здається, ви забули позначити пункт :guilabel:`Компенсація тону` у вікні"
+" :ref:`change_speed`. Зміну швидкості можна скасувати або обернути ще однією"
+" зміною швидкості, але у протилежному напрямку."
+
+#: ../../troubleshooting/faq.rst:160
+msgid ""
+"Another option is to use the **rubberband** audio effect to bring it back to "
+"normal."
+msgstr ""
+"Іншим варіантом є використання звукового ефекту **гумової стрічки** для"
+" повернення до звичайної швидкості."
+
+#: ../../troubleshooting/faq.rst:167
+msgid "Audio"
+msgstr "Звук"
+
+#: ../../troubleshooting/faq.rst:170
 msgid "How do I fix Audio Sync Issues?"
 msgstr "Як виправити проблеми із синхронізацією звуку?"
 
-#: ../../troubleshooting/faq.rst:29
+#: ../../troubleshooting/faq.rst:172
+#| msgid ""
+#| "Often this is caused by having mixtures of different audio sources in the "
+#| "project. Audio encoded with VBR (be it pure audio like MP3 or video with "
+#| "audio) can be problematic."
 msgid ""
-"Often this is caused by having mixtures of different audio sources in the "
-"project. Audio encoded with VBR (be it pure audio like MP3 or video with "
-"audio) can be problematic."
+"Often this is caused by having a mix of different audio sources in the "
+"project. Audio encoded with :abbr:`VBR (Variable Bit Rate)` (be it pure "
+"audio like MP3 or video with audio) can be problematic."
 msgstr ""
 "Часто це пов'язано із утворенням суміш різних джерел звукових даних у "
 "проєкті. Кодування звукових даних зі змінною бітовою швидкістю (суто "
 "звукових даних, подібно до MP3, чи відеоданих зі звуком) може бути "
 "проблематичним."
 
-#: ../../troubleshooting/faq.rst:31
+#: ../../troubleshooting/faq.rst:174
+#| msgid ""
+#| "If your audio source is from a video file try extracting the audio from "
+#| "your video sources and transcoding the audio to WAV format. If you use "
+#| "the :ref:`extract_audio` feature of Kdenlive to do this it will write a ."
+#| "wav file for you."
 msgid ""
 "If your audio source is from a video file try extracting the audio from your "
-"video sources and transcoding the audio to WAV format. If you use the :ref:"
-"`extract_audio` feature of Kdenlive to do this it will write a .wav file for "
-"you."
+"video sources and transcoding the audio to WAV format. You can use the :ref:"
+"`extract_audio` feature of Kdenlive to do and it will create a :file:`.wav` "
+"file for you."
 msgstr ""
 "Якщо джерелом звукових даних є відеофайл, спробуйте видобути звукові дані з "
 "ваших відеоджерел і перекодувати звукові дані у формат WAV. Якщо для цього "
 "ви скористаєтеся можливістю :ref:`extract_audio` Kdenlive, буде записано "
-"файл .wav."
+"файл :file:`.wav`."
 
-#: ../../troubleshooting/faq.rst:34
-msgid "If you have a pure audio source try transcoding that to WAV."
+#: ../../troubleshooting/faq.rst:176
+#| msgid "If you have a pure audio source try transcoding that to WAV."
+msgid "If you have a pure audio source try transcoding that to WAV with"
 msgstr ""
 "Якщо у вас є початковий звук, який не потребує обробки, спробуйте "
-"перекодувати дані у WAV."
+"перекодувати дані у WAV за допомогою команди"
+
+#: ../../troubleshooting/faq.rst:183
+msgid ""
+"Please note that on Windows and MacOS you may need to download and install "
+"lame first. You can find the binaries on the official |lame| site."
+msgstr ""
+"Будь ласка, зауважте, що у Windows і MacOS вам, можливо, спочатку доведеться"
+" отримати та встановити lame. Знайти виконувані файли можна на офіційному"
+" сайті |lame|."
+
+#: ../../troubleshooting/faq.rst:187
+msgid "I have a crackling noise at cuts. How can I fix that?"
+msgstr "На розрізах маємо тріск у звуці. Як це виправити?"
+
+#: ../../troubleshooting/faq.rst:189
+msgid ""
+"Use the **Audio Seam** filter. It works best as a track effect. It can "
+"eliminate cracks that can occur on clip cuts. Play with the :guilabel:"
+"`Discontinuity Threshold` value until the crackling is gone. The value "
+"determines the delta between the last sample of one clip and the first "
+"sample of the following clip that are spliced. If the delta is above the "
+"discontinuity threshold, then smoothing will be applied."
+msgstr ""
+"Скористайтеся ефектом **Audio Seam**. Найкраще він працює як ефект для"
+" доріжки. Він може усунути тріск, який трапляється на розрізах кліпів."
+" Пограйтеся зі значенням :guilabel:"
+"`Поріг розривності`, аж доки тріск не буде усунено. Значення цього параметра"
+" визначає різницю між останнім семплом на одному кліпі і першим семплом на"
+" наступному на розрізі. Якщо різниця перевищує поріг розривності, буде"
+" застосовано згладжування."
+
+#: ../../troubleshooting/faq.rst:195
+msgid "Rendering / Exporting"
+msgstr "Обробка/Експортування"
+
+#: ../../troubleshooting/faq.rst:198
+msgid ""
+"Kdenlive warns me about missing codecs, I cannot render in some formats ..."
+msgstr ""
+"Kdenlive попереджає про те, що не вистачає кодека, — неможливим є створення "
+"відео у певних форматах…"
+
+#: ../../troubleshooting/faq.rst:204
+msgid ""
+"You may get an error message like this: ``Unsupported audio codec: "
+"libmp3lame``. There are several possible reasons for this:"
+msgstr ""
+"Можлива поява повідомлення про помилку, подібного до такого:"
+" ``Непідтримуваний звуковий кодек: "
+"libmp3lame``. Причин може бути декілька:"
+
+#: ../../troubleshooting/faq.rst:206
+msgid ""
+"You have installed the :term:`codecs<codec>` after **Kdenlive's** "
+"installation. To force Kdenlive to check available codecs on your system, "
+"run the configuration wizard: :menuselection:`Menu --> Settings --> Run "
+"Config Wizard`. Complete the wizard and restart Kdenlive to be sure the "
+"codecs have been detected."
+msgstr ""
+":term:`Кодеки <codec>` встановлено після встановлення Kdenlive. Щоб наказати"
+" Kdenlive "
+"знайти доступні кодеки у вашій системі, скористайтеся пунктом меню :"
+"menuselection:`Меню --> Параметри --> Запустити майстер налаштування`."
+" Виконайте "
+"настанови майстра і перезапустіть Kdenlive, щоб переконатися, що кодеки "
+"було виявлено."
+
+#: ../../troubleshooting/faq.rst:208
+msgid ""
+"The codecs are not available on your system. Kdenlive uses the codecs from "
+"your **FFmpeg** or **Libav** library. Due to licensing issues some "
+"distributions do not provide all codecs by default, and you might need to "
+"install an extra package. On Ubuntu/Mint for example, you must install a "
+"package called ``libavcodec-extra-xx``. After that, check the codecs again "
+"as explained in the first step."
+msgstr ""
+"Кодеків у вашій системі немає. Kdenlive використовує кодеки з бібліотек "
+"**FFmpeg** або **Libav**. Через проблеми із ліцензуванням у деяких "
+"дистрибутивах типово встановлюються не усі кодеки — ймовірно, вам слід "
+"встановити додатковий пакунок. Наприклад, в Ubuntu/Mint вам слід встановити "
+"пакунок із назвою ``libavcodec-extra-xx``. Після цього виконайте пошук"
+" кодеків, "
+"як це описано для першого кроку."
+
+#: ../../troubleshooting/faq.rst:210
+msgid ""
+"Last possibility is that your **FFmpeg** or **Libav** version is buggy and "
+"does not report all supported codecs. Kdenlive releases after 0.9.2 have an "
+"option to try using codecs even if they seem unsupported: :menuselection:"
+"`Menu --> Settings --> Configure Kdenlive` and check the :guilabel:`Bypass "
+"codec verification` option."
+msgstr ""
+"Останнім варіантом є можливі вади у вашій версії **FFmpeg** або **Libav**, "
+"які призводять до того, що програма не може отримати список усіх "
+"підтримуваних кодеків. У випусках Kdenlive після 0.9.2 передбачено "
+"можливість використання кодеків, навіть якщо вони є непідтримуваними: :"
+"menuselection:`Меню --> Параметри --> Налаштувати Kdenlive` і позначте пункт"
+" :guilabel:`Пропустити перевірку кодеків`."
+
+#: ../../troubleshooting/faq.rst:214
+msgid ""
+"I want my 4K sources to be processed in 4K but exported in full HD, which "
+"resolution should I pick for the project?"
+msgstr ""
+"Потрібно, щоб початковий матеріал 4K оброблявся у 4K, але експортувався у"
+" full HD. Яку роздільну здатність слід вибрати для проєкту?"
+
+#: ../../troubleshooting/faq.rst:216
+msgid ""
+"If you want your export to be :abbr:`HD (High Definition)`, make your "
+"project in 4K and use the re-scale option in the render dialog window "
+"(enable :guilabel:`More options`). See the chapter about the :ref:`video "
+"options <render-more_options_video>` for more details. That way you can "
+"render your project in 4K later should you change your mind without having "
+"to change the project settings."
+msgstr ""
+"Якщо результатом експортування має стати :abbr:`HD (High Definition)`,"
+" створіть проєкт у 4K і скористайтеся пунктом зміни масштабу у вікні обробки"
+" (увімкніть :guilabel:`Додаткові параметри`). Ознайомтеся із розділом щодо"
+" :ref:`параметрів відео <render-more_options_video>`, щоб дізнатися більше."
+" Таким чином ви зможете обробити ваш проєкт у 4K пізніше, якщо передумаєте і"
+" не захочете міняти параметри проєкту."
+
+#: ../../troubleshooting/faq.rst:218
+msgid ""
+"Regardless of the project settings you have access to the full resolution of "
+"your source clips, and any transformation (scale, rotation, shear or "
+"corners) is done on the original file."
+msgstr ""
+"Незалежно від параметрів проєкту ви маєте доступ до повної роздільної"
+" здатності ваших початкових матеріалів, а усі перетворення (масштабування,"
+" обертання, перекошування або обрізання кутів) виконуються над початковим"
+" файлом."
+
+#: ../../troubleshooting/faq.rst:225
+msgid "Other"
+msgstr "Інше"
+
+#: ../../troubleshooting/faq.rst:228
+msgid "What components does Kdenlive use?"
+msgstr "Які компоненти використано у Kdenlive?"
+
+#: ../../troubleshooting/faq.rst:230
+#| msgid ""
+#| "In effect, **Kdenlive** is a front end to `melt <http://www.mltframework."
+#| "org/bin/view/MLT/MltMelt>`_ - which uses the MLT video framework. The MLT "
+#| "video framework relies on the FFMPEG project. **Kdenlive** writes :file:"
+#| "`sh.mlt` XML files that code the edit points and transitions and it then "
+#| "calls :file:`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to "
+#| "render the video."
+msgid ""
+"In effect, Kdenlive is a front end to |melt| which uses the |mlt_framework|. "
+"The MLT Multimedia Framework relies on the |ffmpeg| project. Kdenlive "
+"writes :file:`sh.mlt` :abbr:`XML (Extensible Markup Language)` files that "
+"code the edit points and transitions, and it then calls :file:`/usr/bin/"
+"kdenlive_render` and :file:`/usr/bin/melt` to render the video."
+msgstr ""
+"Насправді, **Kdenlive** є оболонкою до |melt|, у якій використано бібліотеку"
+" для роботи з відео |mlt_framework|. Робота бібліотеки MLT залежить від"
+" програм проєкту |ffmpeg|. Kdenlive "
+"записує файли :abbr:`XML (Extensible Markup Language)` :file:`sh.mlt`, у"
+" яких закодовано позиції редагування та "
+"переходи, і потім викликає :file:`/usr/bin/kdenlive_render` і :file:`/usr/"
+"bin/melt` для обробки відео."
+
+#: ../../troubleshooting/faq.rst:234
+msgid ""
+"I have a lot of clips in the bin but don't use all of them. Can I clean up "
+"the bin?"
+msgstr ""
+"У контейнері проєкту багато кліпів, але не усі їх використано. Можна"
+" очистити контейнер?"
+
+#: ../../troubleshooting/faq.rst:236
+msgid "Yes you can, and in two different ways:"
+msgstr "Так, можна, існує два різних способи:"
+
+#: ../../troubleshooting/faq.rst:238
+msgid ""
+":menuselection:`Menu --> Project --> Clean Project` deletes unused clips "
+"from the :term:`Project Bin`"
+msgstr ""
+":menuselection:`Меню --> Проєкт --> Очистити проєкт` вилучає невикористані"
+" кліпи з :term:`контейнера проєкту<Project Bin>`"
+
+#: ../../troubleshooting/faq.rst:239
+msgid ""
+":menuselection:`Menu --> Project --> Project Settings --> Project Files --> "
+"Delete Files` deletes unused files from the Project Bin **and** the storage "
+"medium (usually one of your disk drives)"
+msgstr ""
+":menuselection:`Меню --> Проєкт --> Параметри проєкту --> Файли проєкту -->"
+" Вилучити файли` вилучає невикористані файли з контейнера проєкту **і**"
+" носія сховища (зазвичай, одного з ваших дисків)"
+
+#: ../../troubleshooting/faq.rst:243
+msgid "I want to back out to a previous release."
+msgstr "Потрібно повернутися до попереднього випуску."
+
+#: ../../troubleshooting/faq.rst:245
+msgid "Please see the chapter about :ref:`installation`."
+msgstr "Будь ласка, зверніться до розділу щодо :ref:`installation`."
 
 #~ msgid "Contents"
 #~ msgstr "Зміст"
