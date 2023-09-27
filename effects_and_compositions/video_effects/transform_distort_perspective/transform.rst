@@ -52,7 +52,7 @@ The effect has keyframes.
 .. hlist::
    :columns: 3
 
-   * **Alpha Blend***
+   * **Alpha Blend**
    * **Xor**
    * **Plus**
    * **Multiply**
