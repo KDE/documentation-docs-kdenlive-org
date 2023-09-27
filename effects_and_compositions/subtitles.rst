@@ -30,7 +30,7 @@
 Subtitles
 =========
 
-.. versionadded:: 20.12.0
+.. .. versionadded:: 20.12.0
 
 The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the new subtitle window. You can also import (**SRT**/**ASS**) and export (**SRT**) subtitles.
 
@@ -71,7 +71,7 @@ Set subtitle in/out can be achieved with the same shortcut as to set clip in/out
 Split subtitle after first line
 -------------------------------
 
-.. versionadded:: 23.04
+.. .. versionadded:: 23.04
 
 With this feature, you can cut the selected subtitle with the Razor Tool after the first line of the current track position. The first line becomes the left subtitle before the track position, and the rest becomes the right subtitle after the track position. It then selects the right-hand subtitle.
 
@@ -118,7 +118,7 @@ Subtitle window
 Character count and zoom
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 23.08
+.. .. versionadded:: 23.08
 
 .. figure:: /images/effects_and_compositions/subtitle_character_count_and_zoom.gif
    :alt: subtitle_character_count_and_zoom
@@ -137,7 +137,7 @@ Character count and zoom
 Style subtitle
 --------------
 
-.. versionadded:: 22.08
+.. .. versionadded:: 22.08
 
 .. image:: /images/subtitle-style.png
    :alt: subtitle style
@@ -163,7 +163,7 @@ This is a global, simple subtitle styling possibility. It only allows one style 
 Import and export subtitle
 --------------------------
 
-.. versionadded:: 22.08
+.. .. versionadded:: 22.08
 
   Allows importing .vtt (Web Video Text Tracks) and .sbv (YouTube) files.
 
@@ -171,7 +171,7 @@ Importing **SRT**, **ASS**, **VTT** and **SBV** subtitle file: :menuselection:`M
 
 Exporting **SRT** subtitles only: :menuselection:`Menu --> Project --> Subtitles --> Export Subtitle File`
 
-.. versionadded:: 23.04
+.. .. versionadded:: 23.04
 
 .. image:: /images/import_subtitle_23-04.png
    :scale: 75%
@@ -185,7 +185,7 @@ Allow overriding of detected codecs through a list of available codecs, and show
 Spell check
 -----------
 
-.. versionadded:: 21.04.0
+.. .. versionadded:: 21.04.0
 
 A spell check for subtitle is integrated and shows incorrect words by a red wiggly line. Right-click on the word and you get a list of possible words you can then choose by clicking on it.
 

@@ -47,7 +47,7 @@ The slider labeled 2 adjusts the size of the preview icons.
 
 Checkbox :guilabel:`Import image sequence` (labeled 3) enables the import of a series of images that can be used to make a stop motion animation.
 
-.. versionadded:: 21.12
+.. .. versionadded:: 21.12
 
 Checkbox :guilabel:`Ignore subfolder structure` (labeled 4) enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
 
@@ -126,7 +126,7 @@ See :ref:`effects-titles`.
 Create Animation
 ----------------
 
-.. versionadded:: 22.08
+.. .. versionadded:: 22.08
 
 :guilabel:`Create Animation...`: Creates a new animation. Give a name for your new animation and it opens Glaxnimate and adds the newly created animation to the project bin. You can then edit the animation in Glaxnimate by right-click on the animation and choose :guilabel:`Edit Clip` and whenever you save it, it is automatically updated in Kdenlive.
 
@@ -149,7 +149,7 @@ For Glaxnimate installation see :ref:`here <default_apps>`.
 Add Sequence
 ------------
 
-.. versionadded:: 23.04
+.. .. versionadded:: 23.04
 
 :guilabel:`Add Sequence...`: Adds a new sequence to the timeline. A sequence behaves like a clip. Working with sequences see :ref:`here <sequence>`.
 
@@ -289,7 +289,7 @@ for all channels:
 Markers
 ~~~~~~~
 
-.. versionchanged:: 22.12
+.. .. versionchanged:: 22.12
 
 Marker tab removed. Clip markers are shown in :menuselection:`View --> Guides`. More details see :ref:`markers` 
 

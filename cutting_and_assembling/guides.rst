@@ -80,20 +80,20 @@ Timeline ruler right click menu
 
 :guilabel:`Edit Guide`: See :ref:`move_edit_guides`
 
-.. versionadded:: 21.08
+.. .. versionadded:: 21.08
    
 :guilabel:`Guides Locked`: See :ref:`move_edit_guides`  
 
 
 :guilabel:`Go To Guide...`. Select a guide to which the playhead should jump.
 
-.. versionadded:: 22.04
+.. .. versionadded:: 22.04
 
 :guilabel:`Set Zone In/Out`: See :ref:`timeline-preview-rendering`
 
 :guilabel:`Add Project Notes`: See :ref:`notes`
 
-.. versionadded:: 20.12.
+.. .. versionadded:: 20.12.
 
 :guilabel:`Add Subtitle`: See Subtitle
 
@@ -103,7 +103,7 @@ Timeline ruler right click menu
 Managing categories and guides
 ------------------------------
 
-.. versionadded:: 22.12
+.. .. versionadded:: 22.12
 
 
 .. _categories:
@@ -166,9 +166,9 @@ You can put a comment in the guide/marker and make the comment display by choosi
 Export guides as chapters description
 -------------------------------------
 
-.. versionadded:: 22.08
+.. .. versionadded:: 22.08
 
-.. versionchanged:: 22.12
+.. .. versionchanged:: 22.12
 
 Guides can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the guides can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
 
@@ -228,7 +228,7 @@ Double-click on a guide text in the timeline ruler opens the edit window (beside
 Move Guides with Spacer Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-.. versionadded:: 21.08.0
+.. .. versionadded:: 21.08.0
 
 Easily moves guides along with clips using the spacer tool by using the new :menuselection:`Guides Locked` option. When locked the guides stay in place. When unlocked the guides move with the clip.
 

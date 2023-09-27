@@ -64,7 +64,7 @@ Following procedures add a marker at the playhead position (clip monitor, timeli
 Managing categories and markers
 -------------------------------
 
-.. versionadded:: 22.12
+.. .. versionadded:: 22.12
 
 Categories
 ~~~~~~~~~~
@@ -111,7 +111,7 @@ You can put a comment in the marker and make the comment display by choosing :re
 Export markers as chapters description
 --------------------------------------
 
-.. versionadded:: 22.12
+.. .. versionadded:: 22.12
 
 You can export markers of a single clip as chapters like guides. You have to select a clip before you export.
 

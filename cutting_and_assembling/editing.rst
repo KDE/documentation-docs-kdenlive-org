@@ -39,7 +39,7 @@ Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:
 .. image:: /images/Kdenlive-addcliptotimeline.gif
    :alt: add clip to timeline
 
-.. versionadded:: 19.08.0
+.. .. versionadded:: 19.08.0
    Editing with keyboard shortcuts was introduced
 
 This will speed up the editing work and you can do editing steps that are not possible or not as quick and easy with the mouse. Working with keyboard shortcuts in 19.08 is different as in the former Kdenlive versions. Mouse operations have not changed and working as before. See `3 Point Editing`_
@@ -96,7 +96,7 @@ To even more precisely control the length of a clip, double click it in the time
 
 You can also resize a clip by cutting it with the  `Razor Tool`_ and then deleting the bit you do not want.
 
-.. versionadded:: 19.08
+.. .. versionadded:: 19.08
 
 Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or video part of a clip. 
 
@@ -105,7 +105,7 @@ Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or
 .. image:: /images/av-metamove.gif
    :alt: av-metamove
 
-.. versionadded:: 23.08
+.. .. versionadded:: 23.08
 
 .. figure:: /images/resize_clip_yellow_indicator.gif
    :alt: resize clip yellow indicator
@@ -118,7 +118,7 @@ Select a clip in the project bin. When resizing this clip in the timeline the cl
 Edit an Animation
 -----------------
 
-.. versionadded:: 22.12
+.. .. versionadded:: 22.12
 
 .. note::
    This requires Glaxnimate version >= 0.5.1
@@ -143,7 +143,7 @@ It is possible to have several Glaxnimate instances open, but the background wil
 Change Speed of a Clip
 ----------------------
 
-.. versionadded:: 19.08
+.. .. versionadded:: 19.08
 
 .. image:: /images/adjustspeed.gif
    :alt: adjustspeed
@@ -163,7 +163,7 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
 .. image:: /images/Kdenlive-removespace.gif
    :alt: remove space
 
-.. versionadded:: 22.12
+.. .. versionadded:: 22.12
 
 :menuselection:`Timeline --> Current track --> Remove All Spaces After Cursor`
 
@@ -177,7 +177,7 @@ More details see :ref:`timeline_space-remove`.
 Adjust timeline zone
 --------------------
 
-.. versionadded:: 23.08
+.. .. versionadded:: 23.08
 
 :kbd:`Shift+z` adjusts timeline zone to selected clips
 
@@ -199,7 +199,7 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 1.  `Track Compositing`_ drop down.
 
-.. versionchanged:: 22.08
+.. .. versionchanged:: 22.08
 
 .. image:: /images/Kdenlive-enable-track-composition.png
    :alt: Kdenlive-enable-track-composition
@@ -282,7 +282,7 @@ Active buttons are grey.
 
 14g. Manage Cached Data
 
-.. versionadded:: 22.04
+.. .. versionadded:: 22.04
 
    .. image:: /images/preview_using_proxy_clips.png
       :alt: Preview Using Proxy Clips
@@ -312,7 +312,7 @@ The track compositing applies uniformly to all tracks in your timeline.
 
   Under certain compositing conditions, if you see the outcome of a transition not to be what you would expect, try to switch track compositing off for a quick check. If the oddity is gone, then this is an interference between the automatic timeline track compositing and your user transitions.
 
-.. versionchanged:: 22.08
+.. .. versionchanged:: 22.08
 
 Track compositing is now a simple checkbox instead of the none/high resolution choice.
 
@@ -462,7 +462,7 @@ In the above example, these clips are not grouped. However, the spacer tool grou
 
 :kbd:`ESC`: Return from any tools back to Selection tool.
 
-.. versionadded:: 21.12
+.. .. versionadded:: 21.12
 
 .. _slip_tool:
 
@@ -627,7 +627,7 @@ Mark In and Out points in the Project Monitor, then choose :menuselection:`Timel
 3 point editing
 ---------------
 
-.. versionadded:: 19.08.0
+.. .. versionadded:: 19.08.0
 
 3 important points to understand the 3 point editing concept (with keyboard shortcuts): 
 

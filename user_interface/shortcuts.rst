@@ -665,7 +665,7 @@ Settings
 Raise Widgets with Shortcuts
 ----------------------------
 
-.. versionadded:: 21.08.0
+.. .. versionadded:: 21.08.0
   
 You can assign shortcuts to raise docked :term:`widgets<widget>`. In the :menuselection:`Menu --> Settings --> Configure Keyboard Shortcuts` (or :kbd:`Ctrl+Alt+,` window search for "raise" and it will list all widgets that can be raised. Assign a keyboard shortcut to a widget, and if you press that key combination Kdenlive will bring the focus to the respective widget and select it.
 
@@ -683,7 +683,7 @@ You can assign shortcuts to raise docked :term:`widgets<widget>`. In the :menuse
 Shortcuts for Keyframe Functions
 --------------------------------
 
-.. versionadded:: 21.08.0
+.. .. versionadded:: 21.08.0
 
 You can assign shortcuts to the following three :term:`keyframe` functions: *Add/Remove Keyframe*, *Go to next keyframe* and *Go to previous keyframe*.
 
@@ -704,7 +704,7 @@ Click on a :term:`clip` in the :term:`timeline` and you can use the shortcuts to
 Command Search Bar
 ------------------
 
-.. versionadded:: 21.08.0
+.. .. versionadded:: 21.08.0
 
 The command bar allows to easily search for any action in Kdenlive like changing themes, adding effects, opening files and more. It can be accessed with the shortcut :kbd:`Ctrl+Alt+I`. The shortcut is defined by KDE-Framework, so do not change it.
 

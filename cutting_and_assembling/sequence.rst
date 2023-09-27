@@ -9,7 +9,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. versionadded:: 23.04
+.. .. versionadded:: 23.04
 
 .. _sequence:
 
@@ -99,7 +99,7 @@ Select clips in the timeline. Choose :menuselection:`Timeline --> Create Sequenc
 Delete all sequence tabs
 ------------------------
 
-.. versionadded:: 23.08
+.. .. versionadded:: 23.08
 
 When deleting all sequence tabs, then the current sequence name gets shown in the Master Effect space.
 

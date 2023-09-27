@@ -102,9 +102,9 @@ This function is also available via the right-click menu of the clip in the Proj
 Clip Jobs
 ---------
 
-.. versionchanged:: 23.04
+.. .. versionchanged:: 23.04
 
-.. versionchanged:: 23.08
+.. .. versionchanged:: 23.08
 
 Opens a flyout to select different options:
 
@@ -288,9 +288,9 @@ You can add this clip to the Timeline just like any other, and when you play it 
 Configure Clip Jobs
 ~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 23.04
+.. .. versionadded:: 23.04
 
-.. versionchanged:: 23.08
+.. .. versionchanged:: 23.08
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2308_clip_jobs.webp
    :align: left

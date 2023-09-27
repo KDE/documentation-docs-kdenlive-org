@@ -152,7 +152,7 @@ Kdenlive on macOS
 
 Kdenlive runs with Intel based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
 
-.. .. versionadded:: 22.04.0
+.. .. .. versionadded:: 22.04.0
 
 .. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
 

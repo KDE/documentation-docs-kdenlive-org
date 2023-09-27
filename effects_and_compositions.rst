@@ -180,7 +180,7 @@ Many effects use the concept of "Keyframes". Keyframes are user-defined points i
 
 See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
 
-.. versionadded:: 20.08.0
+.. .. versionadded:: 20.08.0
 
 The keyframe ruler has zoom bars which makes adjusting keyframes a lot easier if the clip's duration is relatively long and the effect stack widget is too narrow to display all keyframes nicely spaced.
 
@@ -188,7 +188,7 @@ The keyframe ruler has zoom bars which makes adjusting keyframes a lot easier if
    :alt: Zoombar-effects
 
 
-.. versionadded:: 20.12.0
+.. .. versionadded:: 20.12.0
 
 .. image:: /images/keyframe_toolbar_copy-paste.png
    :alt: keyframe toolbar
@@ -201,7 +201,7 @@ Keyframes can be copied and pasted between effects and even across clips. Standa
 Working with Keyframes in the Effect Stack
 ------------------------------------------
 
-.. versionadded:: 21.04.0
+.. .. versionadded:: 21.04.0
 
 The effect keyframe panel has new icons, improved keyframe grabbing and new functions.
 
@@ -273,7 +273,7 @@ The effect keyframe panel has new icons, improved keyframe grabbing and new func
 Exchanging Keyframes Across Effects
 -----------------------------------
 
-.. versionadded:: 21.04.0
+.. .. versionadded:: 21.04.0
 
 You can import and export keyframes from/to the clipboard. This feature is not only useful to copy keyframes from one clip to another, it can also be used for example to copy the results of the motion tracker to the Transform effect.
 
@@ -315,7 +315,7 @@ Effects can be added to an entire track affecting all clips in that track. Simpl
 Master Effect
 =============
 
-.. versionadded:: 19.12..0
+.. .. versionadded:: 19.12..0
 
 If you want to apply audio or video effects throughout the whole video. Click on the :guilabel:`Master` button above the track headers to see the Master Effect Stack where you can add effects just like with clips or tracks.
 
@@ -339,7 +339,7 @@ There are specific effects and filters that work :ref:`effects-on_master` only.
 Effect Zones
 ============
 
-.. versionadded:: 21.04.0
+.. .. versionadded:: 21.04.0
 
 Effect Zones allow you to apply effects to specific regions of tracks or the timeline. Zones can be set from the effect zone bar in the Timeline or from the interface in the effect panel.
 
@@ -362,7 +362,7 @@ Effect Zones allow you to apply effects to specific regions of tracks or the tim
 Masking Effects
 ===============
 
-.. versionadded:: 21.08.0
+.. .. versionadded:: 21.08.0
 
 This feature allows to apply effects only to specific regions of a clip by using masks. In its current implementation the process requires three steps:
 
@@ -472,7 +472,7 @@ Audio Tools
 Time Remapping
 ==============
 
-.. versionadded:: 21.08.0
+.. .. versionadded:: 21.08.0
 
 The Time Remap feature allows to keyframe the speed of a clip to achieve effects like speed ramping.
 

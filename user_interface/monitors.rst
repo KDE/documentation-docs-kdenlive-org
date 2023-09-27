@@ -31,7 +31,9 @@ Kdenlive uses two monitor :term:`widgets<widget>` to display and play back your 
 
 The monitor widgets can be switched on or off by checking :menuselection:`Menu --> View --> Clip Monitor` and :menuselection:`Project Monitor`, repectively. Once activated, they can be selected by clicking the corresponding tab which appears at the bottom of the monitor window.
 
-.. versionadded:: 19.04.0 Support for external monitor display using |bmd_decklink| cards.
+.. .. versionadded:: 19.04.0
+
+Kdenlive supports an external monitor display using |bmd_decklink| cards.
 
 The :ref:`ui-monitors_clip_monitor` plays the :term:`clip` selected in the :ref:`Project Bin <project_tree>`. The :ref:`ui-monitors_project_monitor` plays the timeline of the project starting at the position of the :term:`playhead`.
 
@@ -63,7 +65,7 @@ Controls and Elements
 Monitor Display Toolbar
 -----------------------
 
-.. versionadded:: 19.04.0
+.. .. versionadded:: 19.04.0
 
 .. figure:: /images/user_interface/kdenlive2308_ui-monitor_overlay.gif
    :width: 350px
@@ -138,7 +140,7 @@ You can resize the monitors by dragging the widget's edges. Make sure the mouse 
 Monitor Zoom Bar
 ----------------
 
-.. versionadded:: 20.08.0
+.. .. versionadded:: 20.08.0
 
 .. figure:: /images/user_interface/kdenlive_ui-monitor_zoombar.gif
    :width: 350px
@@ -158,7 +160,7 @@ The timeline rulers of the monitors have zoom bars. To activate, hover over the 
 Preview Resolution
 ------------------
 
-.. versionadded:: 20.04.0
+.. .. versionadded:: 20.04.0
 
 .. figure:: /images/user_interface/kdenlive2304_ui-monitor_preview_res.webp
    :width: 73px
@@ -181,7 +183,7 @@ Playback speed depends on several factors: source material, use of proxies, type
 Multitrack View
 ---------------
 
-.. versionadded:: 20.04.0
+.. .. versionadded:: 20.04.0
 
 You enable the multitrack view via :menuselection:`Menu --> Monitor --> Multitrack view` or via right-click in the Project Monitor area and selecting :guilabel:`Multitrack View` or by pressing :kbd:`F12`.
 

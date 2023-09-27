@@ -41,7 +41,7 @@ The rendering dialog is brought up by selecting |media-record| Render... from th
 Rendering Dialog
 ----------------
 
-.. versionchanged:: 22.12
+.. .. versionchanged:: 22.12
    
 .. figure:: /images/exporting/kdenlive2212_rendering-render_dialog.webp
    :width: 400px
@@ -185,7 +185,7 @@ Check this box to get a video track in the rendered file.
 Audio
 ~~~~~
 
-.. versionchanged:: 22.04
+.. .. versionchanged:: 22.04
    The audio checkbox is simply a checkbox - no automatic audio export anymore
 
 Check this box to have audio tracks in the rendered file.
@@ -406,7 +406,7 @@ To render the video in the terminal ...
 Using Guides for Multi-Export
 -----------------------------
 
-.. versionadded:: 22.04
+.. .. versionadded:: 22.04
 
 With this option you use guides to divide the timeline in pieces that will be rendered as individual files on one go. You do not need to define each section or piece individually.
 
@@ -455,10 +455,10 @@ In this example, there are the following options:
 Sharing your Videos
 ===================
 
-.. versionadded:: 22.04.1
+.. .. versionadded:: 22.04.1
    Option to share videos immediately after rendering
 
-.. versionchanged:: 23.04.1
+.. .. versionchanged:: 23.04.1
    Added upload to YouTube and NextCloud
 
 If you want to share your work right after you finished rendering you can click on :guilabel:`Share` and select one of the options.

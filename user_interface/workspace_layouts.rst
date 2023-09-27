@@ -26,9 +26,7 @@
 Workspace Layouts
 =================
 
-
-.. versionadded:: 20.08.0
-
+.. .. versionadded:: 20.08.0
 
 .. image:: /images/interface_layouts.gif
 

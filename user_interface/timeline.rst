@@ -56,7 +56,7 @@ Timeline
 Zoombars
 ~~~~~~~~
 
-.. versionadded:: 21.04.0
+.. .. versionadded:: 21.04.0
 
 .. container:: clear-both
 
@@ -71,7 +71,7 @@ Zoombars
 Key binding information
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 21.04.0
+.. .. versionadded:: 21.04.0
 
 .. container:: clear-both
 
@@ -86,7 +86,7 @@ Key binding information
 Timeline visuals
 ~~~~~~~~~~~~~~~~
 
-.. versionadded:: 21.04.0
+.. .. versionadded:: 21.04.0
 
 The timeline got a visual overhaul with more and better looking guides/marker colors, the guides have been moved above the timeline ruler while preview and zone bars have been moved below.
 
@@ -102,7 +102,7 @@ Before (above) and after (below)
 Split Audio/Video
 ~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.04.0
+.. .. versionadded:: 19.04.0
 
 .. image:: /images/splitAV.gif
    :alt: splitAV
@@ -134,7 +134,7 @@ Timeline Cursor/Position Caret/Playhead
 Keyboard Navigation
 ~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.04.0
+.. .. versionadded:: 19.04.0
 
 You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in the timeline and use the :guilabel:`Grab Current Item` function from the :menuselection:`Menu --> Timeline` menu or use the default shortcut of :kbd:`Shift + G`.
 
@@ -153,7 +153,7 @@ Keyframes can also be moved individually. Just click on a keyframe in the timeli
 Keyframe handling
 ~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.04.0
+.. .. versionadded:: 19.04.0
 
 .. image:: /images/keyframe-improvements.gif
    :alt: Improved keyframe handling
@@ -167,7 +167,7 @@ Keyframe handling
 Disabling individual clips
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.04.0
+.. .. versionadded:: 19.04.0
 
 .. container:: clear-both
 
@@ -185,7 +185,7 @@ Disabling individual clips
 Toggle between sequence tabs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.08
+.. .. versionadded:: 19.08
 
  .. figure:: /images/user_interface/toggle_between_sequence_tabs.gif
     :alt: toggle between timeline tabs
@@ -311,7 +311,7 @@ In order to delete a track right-click anywhere in the track header area. In the
 Resizing Tracks
 ~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.04.0
+.. .. versionadded:: 19.04.0
 
 Tracks can be individually resized. Holding down :kbd:`Shift` makes all video or audio tracks change in height simultaneously.
 
@@ -324,7 +324,7 @@ Tracks can be individually resized. Holding down :kbd:`Shift` makes all video or
 Fit Tracks to view height
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 23.08.0
+.. .. versionadded:: 23.08.0
 
 All tracks height can be adjusted following the height of the timeline view.
 
@@ -337,7 +337,7 @@ All tracks height can be adjusted following the height of the timeline view.
 Reset track to default height
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 23.08.0
+.. .. versionadded:: 23.08.0
 
 :kbd:`Shift+double-click` on the track divider resets the track back to its default height.
 
@@ -362,7 +362,7 @@ Switch live between two different layout modes (Mixed or Split).
 Configurable Tracks
 ~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.04.0
+.. .. versionadded:: 19.04.0
 
 .. container:: clear-both
 

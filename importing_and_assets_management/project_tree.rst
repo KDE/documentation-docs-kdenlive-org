@@ -115,7 +115,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 **5** Color tagging.
 
-.. versionadded:: 20.04.0
+.. .. versionadded:: 20.04.0
 
 .. figure:: /images/tags.gif
    :width: 350px
@@ -125,7 +125,7 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 
 Edit tags: double click a tag for changing the description.
 
-.. versionadded:: 22.08
+.. .. versionadded:: 22.08
 
 .. figure:: /images/tags_change.png
    :width: 350px
@@ -152,7 +152,7 @@ Reordering tags: grab a tag and drag it to the desired place in the list.
 
 **7** Filter by categories
 
-.. versionchanged:: 23.1
+.. .. versionchanged:: 23.1
 
 
 .. figure:: /images/filter.gif
@@ -202,7 +202,7 @@ Clicking on the filter button turns on or off the filter.
 
 .. _project_bin_sequence_folder:
 
-.. versionadded:: 23.04
+.. .. versionadded:: 23.04
 
 **12**. The folder Sequences is the default folder where sequences get added. More about sequences see :ref:`here <sequence>`.   
 
@@ -216,7 +216,7 @@ Clips can be dragged from the Project Bin to the :ref:`timeline`.
 Create additional project bins
 ------------------------------
 
-.. versionadded:: 21.12
+.. .. versionadded:: 21.12
 
 .. image:: /images/multibin.gif
    :alt: multibin 

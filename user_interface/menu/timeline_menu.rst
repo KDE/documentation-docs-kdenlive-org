@@ -24,12 +24,9 @@
 Timeline Menu
 =============
 
-.. versionadded:: 22.12
+.. .. versionadded:: 22.12
 
-   Menu *Current track*
-
-
-   The Timeline Menu functions affect the clip or clips selected in the timeline, and perform actions with relation to the timeline.
+The Timeline Menu functions affect the clip or clips selected in the timeline, and perform actions with relation to the timeline.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_menu.webp
    :align: left

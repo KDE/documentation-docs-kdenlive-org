@@ -310,7 +310,9 @@ The current :term:`zone` can be saved as a :file:`.mov` file in your file system
 Seeking
 ~~~~~~~
 
-.. versionadded:: 20.08.0 Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/right.
+.. .. versionadded:: 20.08.0
+
+Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/right.
 
 
 .. _ui-monitors_cm_drag_av_into_timeline:
@@ -318,7 +320,9 @@ Seeking
 Drag Audio or Video Only to Timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 19.04.0 Possibility to drag only the video or audio stream of a clip from the project bin or clip monitor to the timeline
+.. .. versionadded:: 19.04.0
+
+It is possible to drag only the video or audio stream of a clip from the project bin or clip monitor to the timeline
 
 .. figure:: /images/user_interface/kdenlive2304_ui-monitors_cm_av_only.webp
    :width: 250px

@@ -32,7 +32,7 @@ Not really a toolbar but it shows the :ref:`Menu` and :ref:`ui-workspace_layouts
 
 It can be switched on/off in :menuselection:`Settings --> Show Menubar` or by :kbd:`Ctrl+M`.
 
-.. versionadded:: 22.12
+.. .. versionadded:: 22.12
 
 This switches between having a menubar or having a hamburger menu button in the main toolbar showing the menu items.
 
