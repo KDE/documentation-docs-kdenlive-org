@@ -213,7 +213,7 @@ You may get an error message like this: ``Unsupported audio codec: libmp3lame``.
 I want my 4K sources to be processed in 4K but exported in full HD, which resolution should I pick for the project?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want your export to be :abbr:`HD (High Definition)`, make your project in 4K and use the re-scale option in the render dialog window (enable :guilabel:`More options`). See the chapter about the :ref:`video options <render-more_options_video>` for more details. That way you can render your project in 4K later should you change your mind without having to change the project settings.
+If you want your export to be :abbr:`HD (High Definition)`, make your project in 4K and use the re-scale option in the render dialog window (enable :guilabel:`More options`). See the chapter about the :ref:`video options <rendering-more_options>` for more details. That way you can render your project in 4K later should you change your mind without having to change the project settings.
 
 Regardless of the project settings you have access to the full resolution of your source clips, and any transformation (scale, rotation, shear or corners) is done on the original file.
 

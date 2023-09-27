@@ -70,7 +70,7 @@ What's New
 .. versionadded:: 23.04 (see 23.04_ release notes)
 
    * Introduced :ref:`Nested timelines / Sequences <sequence>`
-   * Changed the :ref:`clip jobs <clip_jobs>` menu
+   * Changed the :ref:`Clip jobs <clip_jobs>` menu
    * Added a feature to :ref:`configure clip jobs <configure_clip_jobs>`
    * Ability to :ref:`split subtitle after first line <split_subtitle_after_first_line>`
    * Added :ref:`character count and zoom <subtitle-char_count_and_zoom>` to subtitles

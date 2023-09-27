@@ -99,6 +99,8 @@ Only available if the selected clip is a video clip with an audio track. This fu
 This function is also available via the right-click menu of the clip in the Project Bin.
 
 
+.. _clip_jobs:
+
 Clip Jobs
 ---------
 
