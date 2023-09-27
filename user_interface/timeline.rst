@@ -180,6 +180,8 @@ Disabling individual clips
 .. rst-class:: clear-both
 
 
+.. _toggle_sequence_tabs:
+
 Toggle between sequence tabs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -317,6 +319,8 @@ Tracks can be individually resized. Holding down :kbd:`Shift` makes all video or
    :alt: resize-tracks
 
 
+.. _fit_tracks_to_view_height:
+
 Fit Tracks to view height
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -327,6 +331,8 @@ All tracks height can be adjusted following the height of the timeline view.
 .. image:: /images/user_interface/Fit_all_tracks_to_view.gif
    :alt: fit all tracks to view height
 
+
+.. _reset_track_to_default_height:
 
 Reset track to default height
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

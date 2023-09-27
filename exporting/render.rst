@@ -150,6 +150,8 @@ Guide Multi-Export
 :guilabel:`Guide Multi-Export` radio button makes use of :ref:`guides` categories to be rendered. For more details refer to the :ref:`rendering-multi_export` section of the documentation.
 
 
+.. _rendering-more_options:
+
 More Options
 ------------
 
@@ -223,6 +225,8 @@ Encoder
 Use the slider to change the speed setting from 'very slow' to 'ultra fast'.
 
 If you have a CPU capable of multi-threading you can select the number of *Encoding threads* to be passed to melt [1]_. For encoding with certain codecs (MPEG-2, MPEG-4, H.264, and VP8) Kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines.
+
+.. _render-more_options_parallel_processing:
 
 Parallel Processing
 ~~~~~~~~~~~~~~~~~~~

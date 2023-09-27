@@ -113,6 +113,8 @@ Subtitle window
 
 * The check-mark button adds the text to the subtitle
 
+.. _subtitle-char_count_and_zoom:
+
 Character count and zoom
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -129,6 +131,8 @@ Character count and zoom
 
 :guilabel:`Zoom out`:Zoom out of the edit window
 
+
+.. _subtitle-style:
 
 Style subtitle
 --------------
@@ -154,6 +158,8 @@ This is a global, simple subtitle styling possibility. It only allows one style 
   :kbd:`Alt+Arrow` jumps from subtitle to subtitle.
 
 
+.. _subtitle-import_export:
+
 Import and export subtitle
 --------------------------
 
@@ -174,12 +180,14 @@ Exporting **SRT** subtitles only: :menuselection:`Menu --> Project --> Subtitles
 Allow overriding of detected codecs through a list of available codecs, and show a preview to make choice easier.
 
 
-Spelling check
---------------
+.. _subtitle-spell_check:
+
+Spell check
+-----------
 
 .. versionadded:: 21.04.0
 
-Spelling check for subtitle is integrated and shows incorrect words by a red wiggly line. Right-click on the word and you get a list of possible words you can then choose by clicking on it.
+A spell check for subtitle is integrated and shows incorrect words by a red wiggly line. Right-click on the word and you get a list of possible words you can then choose by clicking on it.
 
 .. image:: /images/Speech-to-text_Spell-Check.png
    :align: left

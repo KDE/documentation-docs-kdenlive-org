@@ -94,6 +94,8 @@ Adds the clips which are currently selected in the timeline to a new sequence cl
 Select clips in the timeline. Choose :menuselection:`Timeline --> Create Sequence from selection`
 
 
+.. _delete_all_sequence_tabs:
+
 Delete all sequence tabs
 ------------------------
 

@@ -172,6 +172,8 @@ It handles AV clips as 1 element, doesn't matter on which track they are. This f
 More details see :ref:`timeline_space-remove`.
 
 
+.. _adjust_timeline_zone:
+
 Adjust timeline zone
 --------------------
 
@@ -461,6 +463,8 @@ In the above example, these clips are not grouped. However, the spacer tool grou
 :kbd:`ESC`: Return from any tools back to Selection tool.
 
 .. versionadded:: 21.12
+
+.. _slip_tool:
 
 Slip Tool
 ~~~~~~~~~
