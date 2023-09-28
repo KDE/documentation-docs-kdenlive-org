@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-26 00:36+0000\n"
-"PO-Revision-Date: 2022-08-16 08:19+0200\n"
+"PO-Revision-Date: 2023-09-27 18:02+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -21,20 +21,21 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-SourceCharset: ISO-8859-1\n"
 
 #: ../../troubleshooting/faq.rst:1
-#, fuzzy
-#| msgid "Frequently Asked Questions"
 msgid "Troubleshooting Kdenlive - Frequently Asked Questions"
-msgstr "Pogosto zastavljena vprašanja"
+msgstr "Reševanje težav s Kdenlive - pogosto zastavljena vprašanja"
 
 #: ../../troubleshooting/faq.rst:1
 msgid ""
 "KDE, Kdenlive, troubleshooting, documentation, user manual, video editor, "
 "open source, free, learn, easy, FAQ, help, question, answer"
 msgstr ""
+"KDE, Kdenlive, odpravljanje težav, dokumentacija, uporabniški priročnik, "
+"program za videomontažo, montaža videoposnetkov, odprta koda, brezplačno, "
+"učenje, enostavno, pogosta vprašanja, pomoč, vprašanje, odgovor"
 
 #: ../../troubleshooting/faq.rst:63
 msgid "Frequently Asked Questions"
@@ -42,11 +43,11 @@ msgstr "Pogosto zastavljena vprašanja"
 
 #: ../../troubleshooting/faq.rst:68
 msgid "User Interface"
-msgstr ""
+msgstr "Uporabniški vmesnik"
 
 #: ../../troubleshooting/faq.rst:71
 msgid "Kdenlive is too large on my screen. I cannot make it smaller."
-msgstr ""
+msgstr "Kdenlive je prevelik na mojem zaslonu. Ne morem ga zmanjšati."
 
 #: ../../troubleshooting/faq.rst:73
 msgid ""
@@ -57,12 +58,21 @@ msgid ""
 "and consider using layouts. See the :ref:`ui-workspace_layouts` chapter for "
 "more details."
 msgstr ""
+"To se običajno zgodi, če je odprtih preveč :term:`gradnikov<widget>`. Vsaka "
+"nalepka oz. oznaka gradnika zavzema minimalno količino prostora po širini. "
+"Nekatere zaprite prek :menuselection:`Meni --&gt; Pogled` ali gumba za "
+"zapiranje v naslovni vrstici gradnika (omogočiti ga je treba prek :"
+"menuselection:`Meni --&gt; Pogled --&gt; Pokaži naslovne vrstice`) in "
+"razmislite o uporabi postavitev. Za več podrobnosti glejte poglavje :ref:`ui-"
+"workspace_layouts`."
 
 #: ../../troubleshooting/faq.rst:77
 msgid ""
 "My monitor plays distorted images, or generally something it really should "
 "not."
 msgstr ""
+"Moj ogled predvaja izkrivljene slike ali na splošno nekaj, česar v resnici "
+"ne bi smel."
 
 #: ../../troubleshooting/faq.rst:79
 msgid ""
@@ -70,16 +80,21 @@ msgid ""
 "> Playback` settings. Try to disable OpenGL if it is enabled, or use a "
 "different driver. Kdenlive may need to be restarted."
 msgstr ""
+"Preverite nastavitve :menuselection:`Meni --> Nastavitve --> Prilagodi "
+"Kdenlive --> Predvajanje`. Poskusite onemogočiti OpenGL, če je omogočen, ali "
+"uporabite drug gonilnik. Morda bo treba znova zagnati program Kdenlive."
 
 #: ../../troubleshooting/faq.rst:86
 msgid "Asset Management"
-msgstr ""
+msgstr "Upravljanje sredstev"
 
 #: ../../troubleshooting/faq.rst:89
 msgid ""
 "When I import a video clip into my 1920x1080 project a warning pops up "
 "asking me to create and switch to new profile. Why?"
 msgstr ""
+"Ko uvozim videoposnetek v svoj projekt 1920x1080, se prikaže opozorilo, da "
+"moram ustvariti in preklopiti na nov profil. Zakaj?"
 
 #: ../../troubleshooting/faq.rst:91
 msgid ""
@@ -91,6 +106,13 @@ msgid ""
 "> Settings --> Configure Kdenlive --> Misc` by unchecking :guilabel:`Check "
 "if first added clip matches project profile`."
 msgstr ""
+"To je standardno obnašanje za Kdenlive za **prvi posnetek**, ki se doda "
+"novemu projektu, če se lastnosti posnetka razlikujejo od nastavitev "
+"projekta. Primer: nastavitve projekta so 1920x1080 @ 30\\ :abbr:`sl/s "
+"(sličic na sekundo)`, posnetek pa ima 450x360 @ 24,86\\ :abbr:`sl/s (sličic "
+"na sekundo)`. Preverjanje lahko izklopite pod :menuselection:`Meni --> "
+"Nastavitve --> Prilagodi Kdenlive --> Razno` tako, da odkljukate :guilabel:"
+"`Preveri, če se prvi dodani posnetek ujema s profilom projekta`."
 
 #: ../../troubleshooting/faq.rst:95
 msgid ""
@@ -98,48 +120,53 @@ msgid ""
 "into Kdenlive but now I only get an unusable audio track from it. How do I "
 "fix this?"
 msgstr ""
+"Imam datoteko .mov, ki je narejena iz slik .png, in sem jo lahko uvozil v "
+"Kdenlive, zdaj pa iz nje dobim le neuporabno zvočno stezo. Kako naj to "
+"popravim?"
 
 #: ../../troubleshooting/faq.rst:97
 msgid ""
 "This bug has been reported for version 23.04.3 and higher. Until a fix is "
 "available there is this as a temporary solution:"
 msgstr ""
+"Ta napaka je bila javljena za različico 23.04.3 in novejše. Dokler ni na "
+"voljo popravek, je začasna rešitev naslednja:"
 
 #: ../../troubleshooting/faq.rst:99
 msgid "Open the :file:`.kdenlive` project file in a text editor"
-msgstr ""
+msgstr "Odprite projektno datoteko :file:`.kdenlive` v urejevalniku besedila"
 
 #: ../../troubleshooting/faq.rst:100
 msgid "Look for this line: ``<property name=“set.test_image”>1</property>``"
-msgstr ""
+msgstr "Poiščite to vrstico: ``<property name=“set.test_image”>1</property>``"
 
 #: ../../troubleshooting/faq.rst:101
 msgid "Remove the line or change the ``1`` to ``0``"
-msgstr ""
+msgstr "Odstranite vrstico ali spremenite ``1`` v ``0```"
 
 #: ../../troubleshooting/faq.rst:102
 msgid "Look for this line: ``<property name=“video_index”>-1</property>``"
-msgstr ""
+msgstr "Poiščite to vrstico: ``<property name=“video_index”>1</property>``"
 
 #: ../../troubleshooting/faq.rst:103
 msgid "Change the ``-1`` to ``0``"
-msgstr ""
+msgstr "Spremenite ``-1`` v ``0``"
 
 #: ../../troubleshooting/faq.rst:104
 msgid "Repeat steps 2 thru 5 for each file that is imported"
-msgstr ""
+msgstr "Ponovite korake 2 do 5 za vsako uvoženo datoteko"
 
 #: ../../troubleshooting/faq.rst:105
 msgid "Save the file"
-msgstr ""
+msgstr "Shranite datoteko"
 
 #: ../../troubleshooting/faq.rst:111
 msgid "Editing"
-msgstr ""
+msgstr "Montaža"
 
 #: ../../troubleshooting/faq.rst:114
 msgid "Everyone is talking about Edit Mode. How can I switch it on?"
-msgstr ""
+msgstr "Vsi govorijo o načinu urejanja. Kako ga lahko vklopim?"
 
 #: ../../troubleshooting/faq.rst:116
 msgid ""
@@ -152,10 +179,17 @@ msgid ""
 "project monitor :ref:`toolbar <ui-monitors_controls_and_elements>` to switch "
 "it back on."
 msgstr ""
+":term:`Način urejanja` je funkcija :ref:`Ogleda projekta <ui-"
+"monitors_project_monitor>` in vam omogoča, da z miško nadzorujete parametre "
+"velikosti in položaja nekaterih učinkov neposredno v ogledu projekta. "
+"Primer: Ko izberete učinek :ref:`effects-transform`, se v ogledu prikaže "
+"rdeč pravokotnik. Če rdečega pravokotnika ne vidite, je način urejanja "
+"izklopljen. Kliknite ikono |edit-mode| v :ref:`orodni vrstici <ui-"
+"monitors_controls_and_elements>` ogledu projekta, da ga ponovno vklopite."
 
 #: ../../troubleshooting/faq.rst:120
 msgid "I have many tracks. Can I collapse them?"
-msgstr ""
+msgstr "Imam veliko stez. Ali jih lahko združim?"
 
 #: ../../troubleshooting/faq.rst:122
 msgid ""
@@ -164,6 +198,10 @@ msgid ""
 "hold :kbd:`Shift` while doing this you collapse or expand all tracks of the "
 "same type at the same time."
 msgstr ""
+"Vsako stezo lahko posamezno strnete ali razširite s klikom ikone |premakni "
+"navzdol| ali |premakni naprej| v :ref:`glavi steze <track_header>`. Če pri "
+"tem držite pritisnjeno :kbd:`dvigalko`, boste hkrati strnili ali razširili "
+"vse steze iste vrste."
 
 #: ../../troubleshooting/faq.rst:124
 msgid ""
@@ -172,10 +210,14 @@ msgid ""
 "right-click on the track header and select :guilabel:`Fit all Tracks to "
 "View`."
 msgstr ""
+"Uporabite lahko tudi možnost :ref:`fit_tracks_to_view_height`, da "
+"prilagodite višino stez, da se prilegajo prikazu časovnice. To storite tako, "
+"da z desno tipko miške kliknete glavo steze in izberete :guilabel:`Umeri vse "
+"steze na pogled`."
 
 #: ../../troubleshooting/faq.rst:128
 msgid "I want to trim videos without re-encoding them. How can I do this?"
-msgstr ""
+msgstr "Želim obrezati videoposnetke brez ponovnega kodiranja. Kako to storim?"
 
 #: ../../troubleshooting/faq.rst:130
 msgid ""
@@ -185,10 +227,15 @@ msgid ""
 "Kdenlive renders frames into a new file. Check the ffmpeg wiki for using |"
 "ffmpeg_split|."
 msgstr ""
+"Na žalost tega ne morete storiti s programom Kdenlive. Namesto tega "
+"poskusite |avidemux| ali |ffmpeg|. Razlog je v tem, da je treba datoteke za "
+"deljenje obravnavati na povsem drugačen način: datoteko je treba montirati, "
+"medtem ko Kdenlive izrisuje sličice v novo datoteko. Za uporabo |"
+"ffmpeg_split| preverite wiki ffmpeg."
 
 #: ../../troubleshooting/faq.rst:134
 msgid "Where can I get more effects?"
-msgstr ""
+msgstr "Kje lahko dobim dodatne učinke?"
 
 #: ../../troubleshooting/faq.rst:136
 msgid ""
@@ -196,6 +243,9 @@ msgid ""
 "them work with Kdenlive or are even useful for a video editor. There is no "
 "plugin capability for other third-party effects."
 msgstr ""
+"Učinke zagotavlja ogrodje MLT v obliki filtrov. Vsi ne delujejo s programom "
+"Kdenlive ali so celo neuporabni za program za montažo videoposnetkov. Za "
+"druge učinke tretjih oseb ni možnosti vstavkov."
 
 #: ../../troubleshooting/faq.rst:138
 msgid ""
@@ -206,12 +256,20 @@ msgid ""
 "integrated in Kdenlive so you can install effects directly from the :ref:"
 "`Effects tab <effects-effects_tab>`."
 msgstr ""
+"Skupnost Kdenlive je odličen kraj za učenje drug od drugega, izmenjavo idej "
+"in deljenje. Predloge za učinke Kdenlive najdete v |kde_store|. V bistvu gre "
+"za učinke/filtre ali kombinacijo učinkov in filtrov za doseganje določenega "
+"videza ali, hm, učinka. Trgovina KDE Store je integrirana v Kdenlive, zato "
+"lahko učinke namestite neposredno iz :ref:`zavihka Učinki <effects-"
+"effects_tab>`."
 
 #: ../../troubleshooting/faq.rst:142
 msgid ""
 "I want to apply an effect, for example a watermark, to the whole project. "
 "What is the best way to do this?"
 msgstr ""
+"Za celoten projekt želim uporabiti učinek, na primer vodni žig. Kakšen je "
+"najboljši način za to?"
 
 #: ../../troubleshooting/faq.rst:144
 msgid ""
@@ -220,12 +278,17 @@ msgid ""
 "Project --> Add Clip` or by clicking on |kdenlive-add-clip| in the project "
 "bin. See also this |vimeo_how-to_watermark| on Vimeo."
 msgstr ""
+"Ustvarite nov projekt z istim profilom projekta in uvozite projekt, v "
+"katerem želite uporabiti učinek, kot posnetek z :menuselection:`Meni --> "
+"Projekt --> Dodaj posnetek` ali s klikom |kdenlive-add-clip| v košu "
+"projekta. Oglejte si tudi posnetek |vimeo_how-to_watermark| na Vimeu."
 
 #: ../../troubleshooting/faq.rst:148
 msgid ""
 "There is a black, semi-transparent background on some images. How can I get "
 "rid of that?"
 msgstr ""
+"Na nekaterih slikah je črno, polprosojno ozadje. Kako se ga lahko znebim?"
 
 #: ../../troubleshooting/faq.rst:150
 msgid ""
@@ -234,10 +297,14 @@ msgid ""
 "`effects-transform` effect. It does the same thing but does not have the "
 "compositing issues."
 msgstr ""
+"Če ste uporabili učinek :ref:`effects-position_and_zoom`, da bi jih "
+"premaknili ali zmanjšali ali povečali, preprosto zamenjajte učinek z "
+"učinkom :ref:`effects-transform`. Ta učinek naredi isto, vendar nima težav "
+"pri sestavljanju."
 
 #: ../../troubleshooting/faq.rst:154
 msgid "How to return normal sound after I changed the speed of a clip?"
-msgstr ""
+msgstr "Kako dobim normalen zvok, ko sem spremenil_a hitrost posnetka?"
 
 #: ../../troubleshooting/faq.rst:156
 msgid ""
@@ -246,43 +313,38 @@ msgid ""
 "change or reverse the speed change by doing another speed change but in the "
 "opposite direction."
 msgstr ""
+"Zdi se, da ste pozabili potrditi možnost :guilabel:`Kompenzacija višine "
+"tona` v pogovornem oknu :ref:`change_speed`. Morda boste lahko preklicali "
+"spremembo hitrosti ali obrnili spremembo hitrosti tako, da izvedete še eno "
+"spremembo hitrosti, vendar v nasprotni smeri."
 
 #: ../../troubleshooting/faq.rst:160
 msgid ""
 "Another option is to use the **rubberband** audio effect to bring it back to "
 "normal."
 msgstr ""
+"Druga možnost je uporaba zvočnega učinka **elastika**, s katerim ga vrnete v "
+"normalno stanje."
 
 #: ../../troubleshooting/faq.rst:167
 msgid "Audio"
-msgstr ""
+msgstr "Zvok"
 
 #: ../../troubleshooting/faq.rst:170
 msgid "How do I fix Audio Sync Issues?"
 msgstr "Kako odpravim težave s (ne)sinhronostjo zvoka?"
 
 #: ../../troubleshooting/faq.rst:172
-#, fuzzy
-#| msgid ""
-#| "Often this is caused by having mixtures of different audio sources in the "
-#| "project. Audio encoded with VBR (be it pure audio like MP3 or video with "
-#| "audio) can be problematic."
 msgid ""
 "Often this is caused by having a mix of different audio sources in the "
 "project. Audio encoded with :abbr:`VBR (Variable Bit Rate)` (be it pure "
 "audio like MP3 or video with audio) can be problematic."
 msgstr ""
 "Pogosto je to posledica zmesi različnih zvokovnih virov v projektu. Zvokovno "
-"kodiranje z VBR (naj bo to samo zvok, kot je MP3, ali video z zvokom) je "
-"lahko problematično."
+"kodiranje z :abbr:`VBR (Variable Bit Rate)` (naj bo to samo zvok, kot je "
+"MP3, ali video z zvokom) je lahko problematično."
 
 #: ../../troubleshooting/faq.rst:174
-#, fuzzy
-#| msgid ""
-#| "If your audio source is from a video file try extracting the audio from "
-#| "your video sources and transcoding the audio to WAV format. If you use "
-#| "the :ref:`extract_audio` feature of Kdenlive to do this it will write a ."
-#| "wav file for you."
 msgid ""
 "If your audio source is from a video file try extracting the audio from your "
 "video sources and transcoding the audio to WAV format. You can use the :ref:"
@@ -291,23 +353,24 @@ msgid ""
 msgstr ""
 "Če je zvočni vir videodatoteka, poskusite izvleči zvok iz videovirov in "
 "prekodirati zvok v zapis WAV. Če uporabite funkcijo Kdenlive :ref:"
-"`extract_audio`, bo za vas izdelala datoteko .wav."
+"`extract_audio`, bo za vas izdelala datoteko :file:`.wav`."
 
 #: ../../troubleshooting/faq.rst:176
-#, fuzzy
-#| msgid "If you have a pure audio source try transcoding that to WAV."
 msgid "If you have a pure audio source try transcoding that to WAV with"
-msgstr "Če imate samostojni zvočni vir, ga poskusite prekodirati v zapis wav."
+msgstr "Če imate samostojni zvočni vir, ga poskusite prekodirati v zapis WAV z"
 
 #: ../../troubleshooting/faq.rst:183
 msgid ""
 "Please note that on Windows and MacOS you may need to download and install "
 "lame first. You can find the binaries on the official |lame| site."
 msgstr ""
+"Upoštevajte, da boste v operacijskih sistemih Windows in MacOS morda morali "
+"najprej prenesti in namestiti program lame. Binarne datoteke najdete na "
+"uradnem spletnem mestu |lame|."
 
 #: ../../troubleshooting/faq.rst:187
 msgid "I have a crackling noise at cuts. How can I fix that?"
-msgstr ""
+msgstr "Pri rezih slišim presket. Kako lahko to popravim?"
 
 #: ../../troubleshooting/faq.rst:189
 msgid ""
@@ -318,21 +381,31 @@ msgid ""
 "sample of the following clip that are spliced. If the delta is above the "
 "discontinuity threshold, then smoothing will be applied."
 msgstr ""
+"Uporabite filter zvočnega šiva (**Audio Seam**). Najbolje se obnese kot "
+"učinek na stezi. Z njim lahko odpravite prasket, ki se lahko pojavi na rezih "
+"med posnetki. Igrajte se z vrednostjo :guilabel:`Prag diskontinuitete`, "
+"dokler prasket ne izgine. Vrednost določa delto med zadnjim vzorcem enega "
+"posnetka in prvim vzorcem naslednjega posnetka, ki sta prepletena. Če je "
+"delta nad pragom diskontinuitete, se uveljavi glajenje."
 
 #: ../../troubleshooting/faq.rst:195
 msgid "Rendering / Exporting"
-msgstr ""
+msgstr "Izrisovanje / izvažanje"
 
 #: ../../troubleshooting/faq.rst:198
 msgid ""
 "Kdenlive warns me about missing codecs, I cannot render in some formats ..."
 msgstr ""
+"Kdenlive me opozarja na manjkajoče kodeke, v nekaterih formatih ne morem "
+"izrisovati …"
 
 #: ../../troubleshooting/faq.rst:204
 msgid ""
 "You may get an error message like this: ``Unsupported audio codec: "
 "libmp3lame``. There are several possible reasons for this:"
 msgstr ""
+"Morda se prikaže naslednje sporočilo o napaki: ``Nepodprt zvočni kodek: "
+"libmp3lame``. Možnih razlogov za to je več:"
 
 #: ../../troubleshooting/faq.rst:206
 msgid ""
@@ -342,6 +415,11 @@ msgid ""
 "Config Wizard`. Complete the wizard and restart Kdenlive to be sure the "
 "codecs have been detected."
 msgstr ""
+"Namestili ste :term:`kodeke<codec>` po namestitvi **Kdenlive**. Če želite "
+"Kdenlive prisiliti, da preveri kodeke, ki so na voljo v vašem sistemu, "
+"zaženite čarovnika za prilagoditve: :menuselection:`Meni --> Nastavitve --> "
+"Zaženi čarovnika za nastavitve`. Dokončajte čarovnika in ponovno zaženite "
+"Kdenlive, da se prepričate, da so bili kodeki zaznani."
 
 #: ../../troubleshooting/faq.rst:208
 msgid ""
@@ -352,6 +430,12 @@ msgid ""
 "package called ``libavcodec-extra-xx``. After that, check the codecs again "
 "as explained in the first step."
 msgstr ""
+"Kodeki v vašem sistemu niso na voljo. Kdenlive uporablja kodeke iz knjižnice "
+"**FFmpeg** ali **Libav**. Zaradi licenčnih vprašanj nekatere distribucije "
+"privzeto ne zagotavljajo vseh kodekov, zato boste morda morali namestiti "
+"dodaten paket. V Ubuntu/Mint morate na primer namestiti paket z imenom "
+"``libavcodec-extra-xx``. Nato ponovno preverite kodeke, kot je razloženo v "
+"prvem koraku."
 
 #: ../../troubleshooting/faq.rst:210
 msgid ""
@@ -361,12 +445,19 @@ msgid ""
 "`Menu --> Settings --> Configure Kdenlive` and check the :guilabel:`Bypass "
 "codec verification` option."
 msgstr ""
+"Zadnja možnost je, da je vaša različica **FFmpeg** ali **Libav** okvarjena "
+"in ne sporoča vseh podprtih kodekov. Izdaje Kdenlive po različici 0.9.2 "
+"imajo možnost, da poskusite uporabiti kodeke, tudi če se zdijo nepodprti: :"
+"menuselection:`Meni --> Nastavitve --> Prilagodi Kdenlive` in potrdite "
+"možnost :guilabel:`Preskoči preverjanje kodekov`."
 
 #: ../../troubleshooting/faq.rst:214
 msgid ""
 "I want my 4K sources to be processed in 4K but exported in full HD, which "
 "resolution should I pick for the project?"
 msgstr ""
+"Če želim, da se viri 4K obdelujejo v 4K, izvažajo pa v polni ločljivosti HD, "
+"katero ločljivost naj izberem za projekt?"
 
 #: ../../troubleshooting/faq.rst:216
 msgid ""
@@ -377,6 +468,12 @@ msgid ""
 "render your project in 4K later should you change your mind without having "
 "to change the project settings."
 msgstr ""
+"Če želite, da je vaš izvoz :abbr:`HD (High Definition)`, naredite projekt v "
+"4K in uporabite možnost ponovnega prilagajanja velikosti v pogovornem oknu "
+"izrisa (omogočite :guilabel:`Dodatne možnosti`). Za več podrobnosti glejte "
+"poglavje o :ref:`video možnostih <render-more_options_video>`. Na ta način "
+"lahko svoj projekt kasneje upodobite v 4K, če si premislite, ne da bi vam "
+"bilo treba spreminjati nastavitve projekta."
 
 #: ../../troubleshooting/faq.rst:218
 msgid ""
@@ -384,24 +481,19 @@ msgid ""
 "your source clips, and any transformation (scale, rotation, shear or "
 "corners) is done on the original file."
 msgstr ""
+"Ne glede na nastavitve projekta imate dostop do polne ločljivosti izvornih "
+"posnetkov, vsa preoblikovanja (pomanjšanje, vrtenje, nagibanje ali oglišča) "
+"pa se izvedejo na izvirni datoteki."
 
 #: ../../troubleshooting/faq.rst:225
 msgid "Other"
-msgstr ""
+msgstr "Drugo"
 
 #: ../../troubleshooting/faq.rst:228
 msgid "What components does Kdenlive use?"
 msgstr "Katere komponente uporablja Kdenlive?"
 
 #: ../../troubleshooting/faq.rst:230
-#, fuzzy
-#| msgid ""
-#| "In effect, **Kdenlive** is a front end to `melt <http://www.mltframework."
-#| "org/bin/view/MLT/MltMelt>`_ - which uses the MLT video framework. The MLT "
-#| "video framework relies on the FFMPEG project. **Kdenlive** writes :file:"
-#| "`sh.mlt` XML files that code the edit points and transitions and it then "
-#| "calls :file:`/usr/bin/kdenlive_render` and :file:`/usr/bin/melt` to "
-#| "render the video."
 msgid ""
 "In effect, Kdenlive is a front end to |melt| which uses the |mlt_framework|. "
 "The MLT Multimedia Framework relies on the |ffmpeg| project. Kdenlive "
@@ -409,10 +501,10 @@ msgid ""
 "code the edit points and transitions, and it then calls :file:`/usr/bin/"
 "kdenlive_render` and :file:`/usr/bin/melt` to render the video."
 msgstr ""
-"Dejansko je **Kdenlive** pročelje za `melt <http://www.mltframework.org/bin/"
-"view/MLT/MltMelt>`_ - ki uporablja videoogrodje MLT. Videoogrodje MLT sloni "
-"na projektu FFMPEG. **Kdenlive** zapisuje datoteke XML :file:`sh.mlt`, ki "
-"kodirajo točke montaže in prehodov in nato kliče :file:`/usr/bin/"
+"Dejansko je **Kdenlive** pročelje za |melt| - ki uporablja videoogrodje MLT "
+"(|mlt_framework|). Videoogrodje MLT sloni na projektu |ffmpeg|. Kdenlive "
+"zapisuje datoteke :abbr:`XML (Extensible Markup Language)` :file:`sh.mlt`, "
+"ki kodirajo točke montaže in prehodov in nato kliče :file:`/usr/bin/"
 "kdenlive_render` in :file:`/usr/bin/melt` za upodobitev videa."
 
 #: ../../troubleshooting/faq.rst:234
@@ -420,16 +512,20 @@ msgid ""
 "I have a lot of clips in the bin but don't use all of them. Can I clean up "
 "the bin?"
 msgstr ""
+"V posodi imam veliko posnetkov, vendar vseh ne uporabljam. Ali lahko posodo "
+"počistim?"
 
 #: ../../troubleshooting/faq.rst:236
 msgid "Yes you can, and in two different ways:"
-msgstr ""
+msgstr "Da, lahko, in to na dva različna načina:"
 
 #: ../../troubleshooting/faq.rst:238
 msgid ""
 ":menuselection:`Menu --> Project --> Clean Project` deletes unused clips "
 "from the :term:`Project Bin`"
 msgstr ""
+":menuselection:`Meni —> Projekt —> Počisti projekt` izbriše neuporabljene "
+"posnetke iz :term:`Posode projekta<Project Bin>`"
 
 #: ../../troubleshooting/faq.rst:239
 msgid ""
@@ -437,14 +533,14 @@ msgid ""
 "Delete Files` deletes unused files from the Project Bin **and** the storage "
 "medium (usually one of your disk drives)"
 msgstr ""
+":menuselection:`Meni --> Projekt --> Nastavitve projekta --> Projektne "
+"datoteke --> Izbriši datoteke` izbriše neuporabljene datoteke iz Projektne "
+"posode **in** medija za hrambo (običajno enega od diskovnih pogonov)"
 
 #: ../../troubleshooting/faq.rst:243
 msgid "I want to back out to a previous release."
-msgstr ""
+msgstr "Želim se vrniti na prejšnjo izdajo."
 
 #: ../../troubleshooting/faq.rst:245
 msgid "Please see the chapter about :ref:`installation`."
-msgstr ""
-
-#~ msgid "Contents"
-#~ msgstr "Vsebina"
+msgstr "Oglejte si poglavje o :ref:`nameščanju<installation>`."
