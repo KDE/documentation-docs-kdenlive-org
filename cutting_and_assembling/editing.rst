@@ -42,7 +42,7 @@ Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:
 .. .. versionadded:: 19.08.0
    Editing with keyboard shortcuts was introduced
 
-This will speed up the editing work and you can do editing steps that are not possible or not as quick and easy with the mouse. Working with keyboard shortcuts in 19.08 is different as in the former Kdenlive versions. Mouse operations have not changed and working as before. See `3 Point Editing`_
+Editing with keyboard shortcuts can speed up the editing work, and you can do editing steps that are not possible or not as quick and easy with the mouse. Working with keyboard shortcuts from version 19.08 onwards is different as in previous Kdenlive versions. Mouse operations have not changed and work as before. See `3 Point Editing`_
 
 
 Seeking through your project
