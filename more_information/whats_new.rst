@@ -115,7 +115,7 @@ What's New
 
 .. versionadded:: 21.12 (see 21.12_ release notes)
 
-   * Added the ability to:ref:`create additional project bins <multibin>`
+   * Added the ability to :ref:`create additional project bins <multibin>`
    * Added a checkbox to :ref:`ignore subfolder structure <add_clip>` when importing media
    * New :ref:`slip_tool` for editing
 
