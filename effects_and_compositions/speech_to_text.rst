@@ -135,7 +135,7 @@ Enable :menuselection:`Menu --> View --> Speech Editor` menu item.
 .. image:: /images/Speech-to-text_select_speech-engine.png
    :alt: change the speech engine
 
-Click on the :guilabel:`Hamburger Menu`|application-menu| and select :guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure Speech to Text <configure_speech_to_text>`, select the engine and click :guilabel:`OK.`
+Click on the :guilabel:`Hamburger Menu` |application-menu| and select :guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure Speech to Text <configure_speech_to_text>`, select the engine and click :guilabel:`OK.`
 
 :guilabel:`Translate to english` is only available with the Whisper speech engine. It translates non-English text to English during recognition.
 
