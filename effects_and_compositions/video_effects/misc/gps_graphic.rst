@@ -100,9 +100,9 @@ The effect has keyframes.
 
 .. [1] UTC is short for Coordinated Universal Time and is the primary time standard by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia for more details.
 
-.. [2] Note: for type 1 (follow centered dot): (a) crop values are only valid as a percentage and only the bottom (resp left) values will be taken into consideration as both values (ie: bot/top) will need to be equal to keep the dot centered); (b) if data source is not GPS location, the centering will only be done for horizontal axis (time), vertical axis crop will behave just like for the type 0 (it will statically keep the same min/max limit allowing the now_dot to move up and down).
+.. [2] Note: for type 1 (follow centered dot): (a) crop values are only valid as a percentage and only the bottom (resp left) values will be taken into consideration as both values (ie: bot/top) will need to be equal to keep the dot centered; (b) if data source is not GPS location, the centering will only be done for horizontal axis (time), vertical axis crop will behave just like for the type 0 (it will statically keep the same min/max limit allowing the now_dot to move up and down).
 
-.. [3] Note: for the horizontal type, absolute values are the longitude (for the location source type) and time (in milliseconds since epoch) for the rest of the data source types)
+.. [3] Note: for the horizontal type, absolute values are the longitude (for the location source type) and time (in milliseconds since epoch) for the rest of the data source types.
 
 .. [4] Note: for the vertical type, absolute values are latitude degrees (for the location source type) and altitude, heart rate, speed for the others interpreted as the legend_unit type where applicable (ie: a value of 10 for altitude will be considered meters by default but if changing legend_unit to feet it will mean 10 feet).
 
