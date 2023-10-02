@@ -18,10 +18,7 @@ More Information
 .. toctree::
    :maxdepth: 1
 
-   whats_new.rst
-
-
-.. still to be added (copy from /glossary/):
+   whats_new
    credits_and_license
    earlier_versions
    get_involved

@@ -168,5 +168,4 @@ Troubleshooting, Glossary, Get Involved
    exporting
    troubleshooting
    glossary
-   get_involved
    more_information/index

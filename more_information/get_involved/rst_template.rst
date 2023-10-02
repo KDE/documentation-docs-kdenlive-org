@@ -118,13 +118,13 @@ This is *italic text*
 
 backquotes ``text`` for code samples.
 
-Use for menu selection :menuselection:`File --> New` (This is used to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation) 
+Use for menu selection :menuselection:`Menu --> File --> New` (This is used to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation)
 
 This shows an icon |kdenlive-add-clip| (all linked icons check substitutions in `conf.py`)
 
 This is a keyboard shortcut :kbd:`Ctrl+Wheel` (keep the 2 keys inside 1 \` \` due to translation reasons)
 
-This is a text in the GUI :guilabel:`Play` (Including button labels, window titles, field names, menu and menu selection names, and even values in selection lists)
+This is a text in the GUI :guilabel:`Play` (including button labels, window titles, field names, menu and menu selection names, and even values in selection lists)
 
 .. code-block:: bash
 
@@ -169,7 +169,7 @@ Web page link open in the same window `KDE store <https://store.kde.org/browse?c
 
 Toctree (Toc = Table of Content) adds the content on the left-side sidebar. Only needed if there are subfolders.
 
-.. toctree::
+.. .. toctree::
    :hidden:
    :glob: 
    

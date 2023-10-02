@@ -1,5 +1,5 @@
 .. meta::
-   :description: The Kdenlive User Manual
+   :description: The Kdenlive User Manual - Notes for Earlier Versions
    :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, easy, earlier version
 
 .. metadata-placeholder
@@ -20,7 +20,7 @@
              - Roger (https://userbase.kde.org/User:Roger)
              - KGHN (https://userbase.kde.org/User:KGHN)
              - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 

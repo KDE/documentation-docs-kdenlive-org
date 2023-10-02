@@ -1,10 +1,11 @@
 .. meta::
-   :description: Do your first steps with Kdenlive video editor, writing style guide
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, writing, style, guide
+   :description: Kdenlive Manual - Writing Style Guide
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, manual, documentation, writing, style, guide, style guide
 
 .. metadata-placeholder
 
    :authors: - Eugen Mohr
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -24,32 +25,29 @@ Goals
 =====
 
 User Focused
-------------
-
-The manual shall be kept understandable by beginners to video editing.
+   The manual shall be kept understandable by beginners to video editing.
 
 
 Complete
---------
-
-All features, options and tools of **Kdenlive** should be described.
-The manual should provide information on what a feature is, its purpose, and how to use it. 
+   All features, options and tools of **Kdenlive** should be described.
+   The manual should provide information on what a feature is, its purpose, and how to use it.
 
 
 Concise
--------
-
-Keep the text short and concise and relevant to the topic you describe.
+   Keep the text short and concise and relevant to the topic you describe.
 
 
 Maintainable
-------------
-
-Write content that will not have to be redone the moment some small change is made in **Kdenlive**.
+   Write content that will not have to be redone the moment some small change is made in **Kdenlive**.
 
 
-Content Guidelines
-==================
+.. _guidelines:
+
+Guidelines
+==========
+
+Content
+-------
 
 * Use American English (e.g: modeling and not modelling, color and not colour) also for formatting numbers (e.g: 2,718.28 and not 2 718,28).
 
@@ -67,7 +65,7 @@ Content Guidelines
 
 * If you are unsure about how a feature works, ask someone else or find out who developed it and ask them.
 
-* you can add comment (which is not shown in the HTML page, but useful for other editors): ``.. TODO, How to choose the correct output format and bit rate? Ask advanced user.``
+* You can add comment (which is not shown in the HTML page, but useful for other editors): ``.. TODO, How to choose the correct output format and bit rate? Ask advanced user.``
 
 
 Style
@@ -83,57 +81,52 @@ Style
 
 * Use italic text to emphasize: *Words or phrases as in general writing*, *Titles when referencing other works*, *The first use of an unfamiliar word*
 
-* Combined Bold and Italic Text: In restructured text this is only possible with additional code. 
+* Combined Bold and Italic Text: In restructured text this is only possible with additional code.
 
 
 Putting a definition first
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+   .. code-block:: bash
 
-.. code-block:: bash
+      Sequence
+      Using sequences you can make your project clearer.
 
-   Sequence
-   Using sequences you can make your project clearer.
+   better
 
-better
+   .. code-block:: bash
 
-.. code-block:: bash
+      Sequence
+      A sequence is basically a timeline.
 
-   Sequence
-   A sequence is basically a timeline.
+   Then explain what it does and how you can use it. Example: :ref:`sequence`
 
-Then explain what it does and then explain how you can use it. Example: :ref:`sequence` 
-
+..
 
 Avoiding the immediate repetition of the term
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   .. code-block:: bash
 
-.. code-block:: bash
+      The Properties Tab
+      The Properties Tab displays the settings for the effects on the currently selected clip.
 
-   The Properties Tab
-   The Properties Tab displays the settings for the effects on the currently selected clip.
+   better
 
-better
+   .. code-block:: bash
 
-.. code-block:: bash
-
-   The Properties Tab
-   The settings for the effects on the currently selected clip are shown the properties tab.
+      The Properties Tab
+      The settings for the effects on the currently selected clip are shown the properties tab.
 
 
-avoiding the “it is”
-~~~~~~~~~~~~~~~~~~~~
+Avoiding the “it is”
+   .. code-block:: bash
 
-.. code-block:: bash
+      Binarize
+      It is an effect to make he image black and white.
 
-   Binarize
-   It is an effect to make he image black and white.
+   better
 
-better
+   .. code-block:: bash
 
-.. code-block:: bash
-
-   Binarize
-   Creates a black and white image.
+      Binarize
+      Creates a black and white image.
 
 
 Images
