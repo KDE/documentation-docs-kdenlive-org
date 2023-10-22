@@ -1,3 +1,7 @@
+.. meta::
+   :description: Kdenlive Tips & Tricks - Useful Resources
+   :keywords: KDE, Kdenlive, tips, tricks, tips & tricks, useful resources, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -66,5 +70,3 @@ Keyboard Stickers - courtesy of Weevil
 |Kdenlive_Keyboard_074|
 
 |Kdenlive_Keyboard_074_A4|
-
-
