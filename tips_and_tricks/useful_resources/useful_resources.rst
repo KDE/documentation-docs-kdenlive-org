@@ -65,7 +65,7 @@ Useful Resources
 * |kdenlive_forum_old|
 
 
-Keyboard Stickers - courtesy of Weevil 
+Keyboard Stickers - courtesy of *Weevil*
 
 |Kdenlive_Keyboard_074|
 
