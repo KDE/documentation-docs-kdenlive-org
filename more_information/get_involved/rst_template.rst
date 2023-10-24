@@ -69,12 +69,12 @@ Images side by side
 
 |pic1| any text |pic2|
 
-.. |pic1| image:: /images/nikon-50mm.jpg
-   :alt: nikon-50mm
+.. |pic1| image:: /images/tips_and_tricks/shooting_nikon_50mm.webp
+   :alt: shooting_nikon_50mm.webp
    :width: 30%
 
-.. |pic2| image:: /images/nikon-35mm.jpg
-   :alt: nikon-35mm
+.. |pic2| image:: /images/tips_and_tricks/shooting_nikon_35mm.webp
+   :alt: shooting_nikon_35mm.webp
    :width: 30%
 
 | These lines are
@@ -86,7 +86,7 @@ Exponent
 
 This is a footnote\ [1]_ 
 
-This is a next footnote [#]_ 
+This is the next footnote\ [#]_ 
 
 Link to a file :file:`quickstart-tutorial/Videos/`
 
@@ -94,10 +94,10 @@ Download link :download:`kdenlive-tutorial-videos-2011-ogv.tar.bz2 </files/kdenl
 
 This is a link to :ref:`template` and shows the text below the link
 
-This is a link to `edit_an-animation` and show the word "here" :ref:`here <edit_an-animation>` 
+This is a link to `edit_an-animation` and shows the word "here" :ref:`here <edit_an-animation>` 
 
 .. note::
-   This shows a note 
+   This shows a note window
 
 .. attention::
    This shows an attention window
@@ -120,7 +120,7 @@ backquotes ``text`` for code samples.
 
 Use for menu selection :menuselection:`Menu --> File --> New` (This is used to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation)
 
-This shows an icon |kdenlive-add-clip| (all linked icons check substitutions in `conf.py`)
+This shows an icon |kdenlive-add-clip| (for all linked icons check substitutions in `conf.py`)
 
 This is a keyboard shortcut :kbd:`Ctrl+Wheel` (keep the 2 keys inside 1 \` \` due to translation reasons)
 
