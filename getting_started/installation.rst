@@ -65,7 +65,7 @@ Minimum system requirements
 
 .. tip::
    
-   If your computer is at the lower end of CPU and RAM requirements, you should use the :ref:`Preview Resolution <ui-monitors_preview_resolution>`, :ref:`Proxy <proxy_clips_tab>` and :ref:`timeline-preview-rendering` features to help reduce preview lag.
+   If your computer is at the lower end of CPU and RAM requirements, you should use the :ref:`Preview Resolution <ui-monitors_preview_resolution>`, :ref:`Proxy <proxy_clips_tab>` and :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering` features to help reduce preview lag.
    
 .. note::
 

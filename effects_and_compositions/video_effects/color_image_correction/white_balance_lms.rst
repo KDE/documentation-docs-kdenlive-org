@@ -16,7 +16,7 @@
 White Balance (LMS)
 ===================
 
-This effect/filter does simple color correction, in a physically meaningful way. For more detailed about white balance see :ref:`tutorial-white_balance_lms` in the :ref:`useful_information` section of the documentation.
+This effect/filter does simple color correction, in a physically meaningful way. For more detailed about white balance see :doc:`/tips_and_tricks/how-tos/tutorial-white_balance_lms` in the :doc:`/tips_and_tricks/how-tos/index` section of the documentation.
 
 The effect has keyframes.
 

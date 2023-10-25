@@ -252,7 +252,7 @@ The :menuselection:`Properties` tab displays advanced properties of the clip whe
 
     * Colorspace
 
-    * :ref:`full_luma`
+    * :doc:`/more_information/earlier_versions/full_luma`
 
 
 .. rst-class:: clear-both

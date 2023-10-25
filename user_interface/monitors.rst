@@ -173,7 +173,7 @@ Preview Resolution
 
 Changing the Preview Resolution speeds up the editing experience by scaling the video resolution of the monitors. It can be used instead of :term:`proxies<proxy>` or with proxies. Speed improvement depends on your source files.
 
-Playback speed depends on several factors: source material, use of proxies, type and number of effects, and the CPU capabilities. There is limited to no GPU support for video playback. :ref:`Preview Rendering <timeline-preview-rendering>` is highly recommended if playback speed is lacking.
+Playback speed depends on several factors: source material, use of proxies, type and number of effects, and the CPU capabilities. There is limited to no GPU support for video playback. :doc:`Preview Rendering </tips_and_tricks/tips_and_tricks/timeline_preview_rendering>` is highly recommended if playback speed is lacking.
 
 .. rst-class:: clear-both
 

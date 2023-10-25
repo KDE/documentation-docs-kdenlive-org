@@ -49,7 +49,7 @@ Alphabetical List of Effects and Compositions
      - Dynamic 3-level thresholding (frei0r.threelay0r)
    * - `4 x 4 pole allpass <https://www.mltframework.org/plugins/FilterLadspa-1218/>`_
      - Audio Effect
-     - Steve Harris’ SWH plugins
+     - Steve Harris' SWH plugins
      - LADSPA plugin (ladspa.1218)
    * - acontrast
      - Audio Effect
@@ -971,7 +971,7 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Color and Image correction
      - This filter applies a global color histogram equalization on a per-frame basis (avfilter.histeq)
-   * - :ref:`histogram_working`
+   * - :ref:`effects-histogram`
      - Video Effect
      - Utility
      - Compute and draw a color distribution histogram for the input video (avfilter.histogram)

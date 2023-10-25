@@ -25,6 +25,4 @@ Next, click the button with a green plus on it.  This will make all the *Propert
 
 Fill in the settings for your project profile, give it a new *Description* and click the **OK** button.
 
-See also :ref:`How to produce 4k and 2K videos, YouTube compatible <how_to_produce_4k_and_2K_videos_for_youtube>`
-
 :ref:`download_new_project_profiles`

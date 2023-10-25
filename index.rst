@@ -147,7 +147,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      :ref:`Glossary`
+      :doc:`/glossary`
          References and further information.
 
 
@@ -167,5 +167,6 @@ Troubleshooting, Glossary, Get Involved
    effects_and_compositions
    exporting
    troubleshooting
+   tips_and_tricks/index
    glossary
    more_information/index

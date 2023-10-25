@@ -27,7 +27,7 @@ Settings Menu
    :width: 350px
    :alt: Settings menu
 
-*  :ref:`manage_cached_data`
+*  :doc:`/tips_and_tricks/useful_info/manage_cached_data`
 *  :ref:`run_config_wizard`
 *  :ref:`OpenGL Backend <issue-scopes>` Windows only: You can switch the OpenGL backend if you have playback issues.
 *  :ref:`Force Breeze Icon Theme <issue-force_breeze_icon_theme>`

@@ -89,7 +89,7 @@ Timeline ruler right click menu
 
 .. .. versionadded:: 22.04
 
-:guilabel:`Set Zone In/Out`: See :ref:`timeline-preview-rendering`
+:guilabel:`Set Zone In/Out`: See also :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`.
 
 :guilabel:`Add Project Notes`: See :ref:`notes`
 

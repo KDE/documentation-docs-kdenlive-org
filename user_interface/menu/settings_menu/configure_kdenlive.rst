@@ -159,7 +159,7 @@ Configure how the timeline appears in **Kdenlive**
 
 **Raise properties pane when selecting in timeline**
 
-- More details :ref:`here <automatically-raising-the-properties-pane>`
+- More details :doc:`here </tips_and_tricks/tips_and_tricks/automatically_raising_the_properties_pane>`.
 
 
 **Multi stream audio clips**

@@ -217,7 +217,7 @@ For more detailed information on preview render please refer to this section of 
 Right click into the timeline ruler opens the context menu and allows you to:
 
   * :ref:`Manipulate guides <guides>`
-  * :ref:`Set Zone In/Out <timeline-preview-rendering>`
+  * :term:`Set Zone In/Out<zone>`
   * :ref:`Add Project Notes <notes>`
   * :ref:`Add Subtitle <effects-subtitles>`
 

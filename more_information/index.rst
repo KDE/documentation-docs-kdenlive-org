@@ -20,5 +20,5 @@ More Information
 
    whats_new
    credits_and_license
-   earlier_versions
+   earlier_versions/index
    get_involved

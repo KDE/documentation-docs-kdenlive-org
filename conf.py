@@ -115,6 +115,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |bookmark| image:: /images/icons/bookmarks.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |color-picker| image:: /images/icons/color-picker.svg
    :width: 22px
    :class: no-scaled-link
@@ -167,6 +171,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |edit-clear-history| image:: /images/icons/edit-clear-history.svg
+   :width: 22px
+   :class: no-scaled-link
+   
 .. |edit-copy| image:: /images/icons/edit-copy.svg
    :width: 22px
    :class: no-scaled-link
@@ -227,7 +235,7 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
-.. |kdenlive-lock| image:: /images/icons/kdenlive-lock.svg
+.. |kdenlive-lock| image:: /images/icons/track-locked.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -382,6 +390,14 @@ rst_epilog = """
 .. |track-effect| image:: /images/icons/tools-wizard.svg
    :width: 22px
    :class: no-scaled-link
+
+.. |track-locked| image:: /images/icons/track-locked.svg
+   :width: 22px
+   :class: no-sclaed-link
+
+.. |track-unlocked| image:: /images/icons/track-unlocked.svg
+   :width: 22px
+   :class: no-sclaed-link
 
 .. |transform-move-horizontal| image:: /images/icons/transform-move-horizontal.svg
    :width: 22px

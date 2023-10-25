@@ -234,7 +234,7 @@ When disabled Kdenlive is set to :ref:`track_compositing_none`
 
 2c. **Timeline Insert Mode**
 
-3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See ::ref:`insert_overwrite_advanced_timeline_editing` for more details.
+3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
 
 
 **Tool Group** (one of these 3 can be active)
@@ -256,9 +256,9 @@ Active buttons are grey.
 
 8. **Mix Clips** - allows same-track transitions to be applied between two clips. See :ref:`same_track_transition` for a detailed explanation.
 
-9. Insert Clip Zone in Timeline. See :ref:`insert_overwrite_advanced_timeline_editing` for more details.
+9. Insert Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
 
-10. Overwrite Clip Zone in Timeline. See :ref:`insert_overwrite_advanced_timeline_editing` for more details.
+10. Overwrite Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
 
 11. Extract Timeline Zone
 
@@ -290,11 +290,11 @@ Active buttons are grey.
    14h. Preview Using Proxy Clips. Option to render preview using original clips, not proxies (disabled by default). 
 
 
-Items 14, 14a-14g are covered in detail by :ref:`timeline-preview-rendering` article.
+Items 14, 14a-14g are covered in detail by the Tips & Tricks chapter about :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`.
 
-15.  Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
+1.   Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
 
-16.  Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
+2.   Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
 
 

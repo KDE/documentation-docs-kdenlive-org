@@ -119,7 +119,7 @@ Rendering Preset Categories
 
 Click on |edit-download| to download more presets created by Kdenlive users. For more details about creating your own presets refer to the :ref:`Project Profiles <manage_project_profiles>` section of the documentation.
 
-See also the :doc:`Render Profile Parameter </glossary/useful_information/render_profile_parameters>` section for more details about the various settings in the presets.
+See also the :doc:`Render Profile Parameter </tips_and_tricks/useful_info/render_profile_parameters>` section for more details about the various settings in the presets.
 
 .. rst-class:: clear-both
 
