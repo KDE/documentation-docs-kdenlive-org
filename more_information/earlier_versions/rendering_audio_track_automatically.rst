@@ -1,6 +1,6 @@
 .. meta::
-   :description: The Kdenlive User Manual - Notes for Earlier Versions
-   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, easy, earlier version
+   :description: The Kdenlive User Manual - Notes for Earlier Versions - Rendering Audio Track Automatically
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, free, help, learn, easy, rendering audio track automatically
 
 .. metadata-placeholder
 
@@ -24,48 +24,13 @@
 
    :license: Creative Commons License SA 4.0
 
-==========================
-Notes for Earlier Versions
-==========================
-
-This section contains documentation of features from earlier versions that have been changed or even deprecated. It is here for reference in case you are running an earlier version. As such, the paragraphs below are not being maintained.
-
-
-.. _rendering-vbr:
-
-Variable Bit Rate (earlier version)
------------------------------------
-
-.. image:: /images/glossary/Kdenlive_Render_dialog_vbr_0.9.10.png
-   :width: 400px
-   :alt: File rendering dialog Variable Bit Rate - ver 0.9.10
-
-When a variable bitrate (VBR) profile is selected, the :guilabel:`File Size` section displays a drop down for choosing the **Video quality** you want. This quality figure is a codec-dependent number representing the quality of the video that will be rendered. Generally, lower numbers mean higher quality video and larger file sizes (e.g. x264, MPEG2, VPx), but some codecs use opposite order (e.g. Theora). Profiles provided with **Kdenlive** offer these numbers ordered from best quality (almost lossless) to lower quality (still not degrading too much). The exact file size that is produced can not be predicted when using the VBR method. The idea behind this is that you specify a certain quality of video that you want through the entire video and the encoding optimizes bitrate to give you that constant quality, lowering data size for low action scenes and using more bits for high action scenes.
-
-Example: 1min 55 seconds of 720 x 576 H.264 iPhone footage rendered at quality 15 with the H.264/AAC High Profile would produce a file size of 186 Mb. Whereas rendering the same footage at quality quality 20 produced an 83Mb file.
-
-.. _rendering-cbr:
-
-Constant Bit Rate (earlier version)
------------------------------------
-
-.. note:: |outdated|
-
-.. image:: /images/glossary/Kdenlive_Render_dialog_cbr_0.9.10.png
-   :width: 400px
-   :alt: File rendering dialog Constant Bit Rate - ver 0.9.10
-
-When a constant bitrate (CBR) profile is selected, the :menuselection:`File Size` section displays a drop down for choosing the **Video bitrate** you want. This is similar to the version <=0.9.8 behaviour of **Kdenlive**. You select the video bitrate you want and the video is encoded at that video bitrate across its entire length.
-
-.. image:: /images/glossary/Kdenlive_Render_dialog_0.9.8.png
-   :width: 400px
-   :alt: File rendering dialog - ver 0.9.8
-
 
 .. _rendering-audio_automatic:
 
+.. attention:: This page is not maintained anymore and contains information referring to features or functions from earlier versions of Kdenlive that are deprecated or have been superseeded by something else.
+
 Rendering Audio Track Automatically
------------------------------------
+===================================
 
 Admittedly, this is an unusual one. Instead of a normal on/off checkbox toggle, the :guilabel:`Export Audio` checkbox cycles among three choices.
 
@@ -75,7 +40,7 @@ Admittedly, this is an unusual one. Instead of a normal on/off checkbox toggle, 
 
 So what do the three options mean?
 
-.. image:: /images/glossary/kdenlive2108_rendering-audio_automatic.webp
+.. image:: /images/earlier_versions/kdenlive2108_rendering-audio_automatic.webp
    :align: left
    :alt: kdenlive2108_rendering-audio_automatic
 
@@ -83,7 +48,7 @@ So what do the three options mean?
 
 .. container:: clear-both
 
-   .. image:: /images/glossary/kdenlive2108_rendering-audio_checked.webp
+   .. image:: /images/earlier_versions/kdenlive2108_rendering-audio_checked.webp
       :align: left
       :alt: kdenlive2108_rendering-audio_checked
 
@@ -91,7 +56,7 @@ So what do the three options mean?
 
 .. container:: clear-both
 
-   .. image:: /images/glossary/kdenlive2108_rendering-audio_unchecked.webp
+   .. image:: /images/earlier_versions/kdenlive2108_rendering-audio_unchecked.webp
       :align: left
       :alt: kdenlive2108_rendering-audio_unchecked
 
@@ -101,12 +66,12 @@ So what do the three options mean?
 
 The difference in behavior between enabling *Export audio* versus *Export audio (automatic)* can be seen in the situation where you have a video on the timeline but there is no audio track on the timeline and the video in the video track also does not have an audio track. An example of such a situation is shown in the screenshot below.
 
-.. image:: /images/glossary/Kdenlive_Video_with_no_audio.png
+.. image:: /images/earlier_versions/Kdenlive_Video_with_no_audio.png
    :alt: Kdenlive_Video_with_no_audio
 
 In this situation, if you render with *Export audio (automatic)*, the rendered file will not have an audio track (Result 1 on screenshot below). But if you render with *Export Audio* checked, then the rendered file will contain an audio track – the track will however be empty (Result 2 on screenshot below).
 
-.. image:: /images/glossary/Kdenlive_Render_export_audio_auto_vs_just_checked2.png
+.. image:: /images/earlier_versions/Kdenlive_Render_export_audio_auto_vs_just_checked2.png
    :alt: Kdenlive_Render_export_audio_auto_vs_just_checked2
 
 FFprobe on file generated from an audio-less track using *Export audio (automatic)*. Note only one stream – Stream #0.0 – a video stream. **Kdenlive** automatically detected there was not an audio track and so it did not write one.
@@ -115,7 +80,7 @@ FFprobe on file generated from an audio-less track using *Export audio (automati
 
   $ ffprobe dog_rotated_exp_audio_auto.mp4
 
-.. code-block:: bash
+.. code-block:: cfg
 
     Metadata:
       major_brand     : isom
@@ -131,7 +96,7 @@ FFprobe on file generated from an audio-less track using *Export audio* checked.
 
   $ ffprobe dog_rotated_exp_audio.mp4
 
-.. code-block:: bash
+.. code-block:: cfg
 
     Metadata:
       major_brand     : isom
@@ -145,7 +110,7 @@ FFprobe on file generated from an audio-less track using *Export audio* checked.
 
 In cases where there is an audio track ...
 
-.. image:: /images/glossary/Kdenlive_Video_plus_Audio_in_seperate_tracks.png
+.. image:: /images/earlier_versions/Kdenlive_Video_plus_Audio_in_seperate_tracks.png
    :align: left
    :alt: Kdenlive_Video_plus_Audio_in_seperate_tracks
 
