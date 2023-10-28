@@ -401,13 +401,13 @@ Glossary
       A special type of :term:`composition` mostly used as a transition from one clip to another. See :ref:`wipe`.
 
    YIQ
-      Color space used by the analog NTSC color TV system. For more details see the Wikipedia about |yiq|.
+      Color space used by the analog NTSC color TV system. For more details see the Wikipedia page about |yiq|.
 
    YPbPr
       A color space used in video electronics. Also written as Y'PbPr or YP\ :sub:`B`\ P\ :sub:`R`. Used in particular when refering to component video cables. For more details see the Wikipedia page about |ypbpr|.
 
    YCbCr
-      A color space used for any digital encoding of YPbPr suited for video and image compression and transmission formats such as MPEG and JPEG. For more details refer to the Wikipedia page about |ycbcr|.
+      A color space used for any digital encoding of YCbCr suited for video and image compression and transmission formats such as MPEG and JPEG. For more details refer to the Wikipedia page about |ycbcr|.
 
    YUV
       A color model used to encode a color image or video taking human perception into account. Y stands for the :term:`luminance`, U for blue projection and V for red projection.
