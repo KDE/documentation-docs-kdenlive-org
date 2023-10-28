@@ -13,7 +13,7 @@
 .. moved from https://kdenlive.org/en/project/cure-projects-with-odd-audio-mixing-behavior/
 
 
-.. attention:: This page is not maintained anymore and contains information referring to features or functions from earlier versions of Kdenlive that are deprecated or have been superseeded by something else.
+.. attention:: This page is not maintained anymore and contains information referring to features or functions from earlier versions of Kdenlive that are deprecated or have been superseded by something else.
 
 Restoring Audio Mixing
 ======================

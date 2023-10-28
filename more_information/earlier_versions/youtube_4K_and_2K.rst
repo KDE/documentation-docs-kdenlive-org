@@ -27,7 +27,7 @@
 
 .. _how-to_youtube_4K_and_2K:
 
-.. attention:: This page is not maintained anymore and contains information referring to features or functions from earlier versions of Kdenlive that are deprecated or have been superseeded by something else.
+.. attention:: This page is not maintained anymore and contains information referring to features or functions from earlier versions of Kdenlive that are deprecated or have been superseded by something else.
 
 How to Produce 4K and 2K Videos for YouTube
 ===========================================

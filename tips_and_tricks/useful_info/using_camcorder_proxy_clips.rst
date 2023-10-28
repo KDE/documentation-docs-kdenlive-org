@@ -24,7 +24,7 @@ Kdenlive supports using external proxy clips. Some cameras, like Sony PXW-X70 an
 
 For Sony camcorders, the file layout is the following:
 
-- On your :abbr:`SD (Secure Digital - a proprietary, non-volatile, flash memory card format devleoped by the SD Association)` card, you will have a folder with original full resolution clips (called "Clips") and a folder with low res proxy clips (called "Sub").
+- On your :abbr:`SD (Secure Digital - a proprietary, non-volatile, flash memory card format developed by the SD Association)` card, you will have a folder with original full resolution clips (called "Clips") and a folder with low res proxy clips (called "Sub").
 - The proxy clips will end with "S03.MP4" instead of ".MXF".
 
 For example: 
@@ -34,7 +34,7 @@ For example:
 **Proxy:**
    Sub/Clip0001S03.MP4
 
-In Kdenlive we have a file called :file:`externalproxies.rc`` that will be installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies.rc`). This is a text file that lists supported camera profiles giving indication about the path and name of proxy clips. This is currently in the form:
+In Kdenlive we have a file called :file:`externalproxies.rc` that will be installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies.rc`). This is a text file that lists supported camera profiles giving indication about the path and name of proxy clips. This is currently in the form:
 
 .. code-block:: cfg
 

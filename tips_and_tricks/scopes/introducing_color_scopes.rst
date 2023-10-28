@@ -48,7 +48,7 @@ Let's first take a look at the basic options available in all scopes. :kbd:`RMB`
 - :guilabel:`Realtime` tries to maintain a certain frame rate in the scopes by dropping part of the color information received (e.g. taking a look at every 8th pixel only instead of every single pixel).
 - :guilabel:`Unscaled` fixes the width of the horizontal axis irrespective of the Histogram :term:`widget`'s size. If unchecked, the horizontal axis contracts and expands with the width of widget.
 - :guilabel:`Rec 601` selects the Rec 601 :term:`color space`
-- :guilabel:`Rec 709` selects the Rec 709 :term:`color space` (high definition content and digitial video uses this one)
+- :guilabel:`Rec 709` selects the Rec 709 :term:`color space` (high definition content and digital video uses this one)
 
 Note that you can always update a scope by clicking on it.
 
