@@ -35,6 +35,7 @@ A dependency is missing and it is recommended to install it.
 
 .. list-table::
    :widths: 30 70
+   :class: table-wrap
 
    * - Frei0r
      - This package provides many effects and transitions. Without it, Kdenlive's features will be reduced. You can simply install frei0r-plugins from your package manager.
@@ -60,6 +61,7 @@ An MLT dependency is missing and it is required to install it.
 
 .. list-table::
    :widths: 30 70
+   :class: table-wrap
 
    * - SDL
      - Is used to output audio. Install `libsdl 1.x` from your package manager.
