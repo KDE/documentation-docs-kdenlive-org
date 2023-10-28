@@ -21,11 +21,11 @@
 
 .. |freemxf| raw:: html
 
-  <a href="http://www.freemxf.org/" target="_blank">FreeMXF<a/>
+  <a href="http://www.freemxf.org/" target="_blank">FreeMXF</a>
 
 .. |ffmpeg| raw:: html
 
-  <a href="http://www.ffmpeg.org/" target="_blank">ffmpeg<a/>
+  <a href="http://www.ffmpeg.org/" target="_blank">ffmpeg</a>
 
 .. |sourceforge| raw:: html
 
