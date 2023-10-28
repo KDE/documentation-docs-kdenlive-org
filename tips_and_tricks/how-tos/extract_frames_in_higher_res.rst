@@ -23,7 +23,7 @@
 Extracting Frames in Higher Resolution than Project Profile
 ===========================================================
 
-Sometimes you may need to work in your Kdenlive projects with image stills extracted from your source footage. Now that is easy, thanks to the “extract frame…” and “extract frame to project…” items in the context menu of the clip monitor. See also the How-to chapter Extract Frame to Project.
+Sometimes you may need to work in your Kdenlive projects with image stills extracted from your source footage. Now that is easy, thanks to the “extract frame…” and “extract frame to project…” items in the context menu of the clip monitor. See also the chapter :doc:`\tips_and_tricks\tips_and_tricks\extract_frame_to_project`.
 
 .. attention:: Kdenlive currently extracts frames according to your project settings. That means: if your source footage happens to be of higher resolution than your project settings and even different orientation, then the extracted frame will be in project frame format. In consequence, extracted frame quality might noticeably differ from the same video footage when used side-by-side in your project.
 
@@ -130,7 +130,7 @@ But remember to not change the project frame rate while working on your project,
 
 
 **Sources**
-  The original text was submitted by user *TheDiveO* to the now defunct kdenlive.org blog. For this documentation it has been lifted from |kdenlive_org| and adapted to match the overall style.
+  The original text was submitted by user *TheDiveO* to the now defunct kdenlive.org blog. For this documentation it has been lifted from |kdenlive_org|, updated and adapted to match the overall style.
   
 ----
 

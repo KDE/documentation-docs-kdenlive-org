@@ -27,7 +27,7 @@ Introducing Color Scopes
 
 This section contains a brief overviews over scopes in general and explains the most basic scope, the histogram, in detail.
 
-Color correction is a really important topic in video editing. It starts with simple stretching of the tonal range if the brightness is not ideal, goes on with white balance to ensure that white remains white and not blue, and finally ends with creating looks which make your video look unique. Remember the blueish |minority_report|\ ? The contrasty |the_departed|\ ?
+Color correction is a really important topic in video editing. It starts with simple stretching of the tonal range if the brightness is not ideal, goes on with white balance to ensure that white remains white and not blue, and finally ends with creating looks which make your video look unique. Remember the blue-ish |minority_report|\ ? The contrasty |the_departed|\ ?
 
 For color correction you basically need two things: Effects or filters for changing the colors and scopes for monitoring the changes. The first scope to look at is the histogram.
 
@@ -52,8 +52,6 @@ Let's first take a look at the basic options available in all scopes. :kbd:`RMB`
 
 Note that you can always update a scope by clicking on it.
 
-So far about scopes in general. Now let's take a closer look at the :doc:`Histogram <histogram_working>` and how it works.
-
 
 .. rubric:: Notes
 
@@ -62,4 +60,4 @@ So far about scopes in general. Now let's take a closer look at the :doc:`Histog
    <a href="https://web.archive.org/web/20160319081747/https://kdenlive.org/users/granjow/introducing-color-scopes-histogram" target="_blank">web.archive.org</a>
 
 **Sources**
-  The original text was submitted by *Simon A. Eugster (Granjow)* on Mon, 8/30/2010 - 23:10 to the now defunct kdenlive.org blog. For this documentation it has been lifted from |web_archive| and adapted to match the overall style.
+  The original text was submitted by *Simon A. Eugster (Granjow)* on Mon, 8/30/2010 - 23:10 to the now defunct kdenlive.org blog. For this documentation it has been lifted from |web_archive|, updated and adapted to match the overall style.
