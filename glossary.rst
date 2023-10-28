@@ -401,7 +401,7 @@ Glossary
       A special type of :term:`composition` mostly used as a transition from one clip to another. See :ref:`wipe`.
 
    YIQ
-      Color space used by the analog NTSC color TV system. For more details see the Wikipedia pedia about |yiq|.
+      Color space used by the analog NTSC color TV system. For more details see the Wikipedia about |yiq|.
 
    YPbPr
       A color space used in video electronics. Also written as Y'PbPr or YP\ :sub:`B`\ P\ :sub:`R`. Used in particular when refering to component video cables. For more details see the Wikipedia page about |ypbpr|.
