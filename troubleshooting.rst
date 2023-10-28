@@ -42,7 +42,9 @@ This section tries to help fixing issues you may encounter when installing or us
 Please do not hesitate to log a |bug_report| if you cannot get a problem resolved.
 
 
-**Notes**
+.. **Notes**
+
+----
 
 .. [1] This site/channel is privately maintained and not an official Kdenlive site or channel
 
