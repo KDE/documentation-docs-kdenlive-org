@@ -54,4 +54,4 @@ By setting the full luma on, which should only be done for camera sources known 
    <a href="http://www.kdenlive.org/forum/what-does-full-luma-exactly-do#comment-18298" target="_blank">kdenlive.org</a>
 
 **Sources**
-  The original textfor **Full Luma** was submitted by user *Yellow* to the now defunct Kdenlive forum. For this documentation it has been lifted from |kdenlive_org| and adapted to match the overall style.
+  The original text for **Full Luma** was submitted by user *Yellow* to the now defunct Kdenlive forum. For this documentation it has been lifted from |kdenlive_org| and adapted to match the overall style.
