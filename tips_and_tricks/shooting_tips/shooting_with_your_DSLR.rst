@@ -80,7 +80,7 @@ The same as for shooting stills. Really? Not quite. As written above you will us
     
 Also, some additional problems may arise due to the sensor being read out line-wise. One I would like to mention are Rolling Shutter effects. Longer exposure can, but need not, prevent such problems. It does if you are shooting with fluorescent lamps. Shooting at high shutter speed shows wave patterns from top to bottom of the screen, lowering it hides them if you hit the correct shutter speed.
     
-On the right: Two images I shot with my Nikon D90, the left one at lowest ISO possible, the right one at highest possible.
+On the right: Two images shot with the Nikon D90 of the author, the left one at lowest ISO possible, the right one at highest possible.
 
 Exposure
 ~~~~~~~~
@@ -138,7 +138,7 @@ Nikon D90
 
 The Nikon D90 was the first DSLR offering video: 720/24p (:abbr:`AVI (Audio Video Interleave)` container).
 
-D90 videos at 720p are scaled awfully. That is why you can see stair-stepping in sharp, skew lines. If this becomes perturbing for a clip, you can apply the :doc:`/effects_and_compositions/video_effects/utility/nikon_d90_stairstepping_fix` filter. Written (but not invented) by me :) See our |nikon-d90| for an example of how stairstepping looks like (before and after correction).
+D90 videos at 720p are scaled awfully. That is why you can see stair-stepping in sharp, skew lines. If this becomes perturbing for a clip, you can apply the :doc:`/effects_and_compositions/video_effects/utility/nikon_d90_stairstepping_fix` filter. Written (but not invented) by the original author *Granjow*. See our |nikon-d90| for an example of how stairstepping looks like (before and after correction).
 
 There is an extensive overview over the D90 video function at dvxuser.com: |movie_mode|.
 
