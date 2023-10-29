@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 07:24+0000\n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
 "PO-Revision-Date: 2023-08-16 13:14+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -114,10 +114,15 @@ msgstr ""
 "1024."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:48
+#, fuzzy
+#| msgid ""
+#| "**Power R / G / B / @** - Power is a power function (i.e. 2^2) to the "
+#| "incoming data in the respective color channels. Allowed values are from 0 "
+#| "to 1000, default is 50."
 msgid ""
-"**Power R / G / B / @** - Power is a power function (i.e. 2^2) to the "
-"incoming data in the respective color channels. Allowed values are from 0 to "
-"1000, default is 50."
+"**Power R / G / B / @** - Power is a power function (i.e. 2\\ :sup:`2`) to "
+"the incoming data in the respective color channels. Allowed values are from "
+"0 to 1000, default is 50."
 msgstr ""
 "**Jakost R / G / B / @** - jakost je potenčna funkcija (tj. 2^2) vhodnih "
 "podatkov v ustreznih barvnih kanalih. Dovoljene vrednosti so od 0 do 1000, "
@@ -132,11 +137,17 @@ msgstr ""
 "Dovoljene vrednosti so od 0 do 1000, privzeta vrednost je 100."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:55
+#, fuzzy
+#| msgid ""
+#| "This filter implements a standard way of color correction proposed by the "
+#| "American Society of Cinematographers: The Color Decision List, also known "
+#| "as the ASC CDL\\ [1]_ with the goal to exchange rudimentary color "
+#| "correction information between post-production tools."
 msgid ""
 "This filter implements a standard way of color correction proposed by the "
 "American Society of Cinematographers: The Color Decision List, also known as "
-"the ASC CDL\\ [1]_ with the goal to exchange rudimentary color correction "
-"information between post-production tools."
+"the ASC :abbr:`CDL (Color Decision List)`\\ [1]_ with the goal to exchange "
+"rudimentary color correction information between post-production tools."
 msgstr ""
 "Ta filter izvaja standardni način korekcije barv, ki ga je predlagalo "
 "ameriško združenje direktorjev fotografije (ASC): Seznam barvnih odločitev, "
@@ -152,14 +163,18 @@ msgstr ""
 "vrsti predstavljan vpliv na celotno sliko in ne samo izbrane dele)."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:59
-msgid ""
-"Basically there are two stages in the correction: 1. SOP correction for each "
-"channel separately 2. Overall saturation correction"
+msgid "Basically there are two stages in the correction:"
 msgstr ""
-"V bistvu sta dve fazi v popravku: 1. Popravek SOP za vsak kanal ločeno 2. "
-"Skupni popravek nasičenosti"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:63
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:61
+msgid "SOP correction for each channel separately"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:62
+msgid "Overall saturation correction"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:64
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from [0,...,255] to [0,1]."
@@ -167,52 +182,63 @@ msgstr ""
 "Vsi popravki delujejo v obsegu [0,1], zato je treba vrednosti RGB(A) "
 "transponirati iz [0,…,255] v [0,1]."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:65
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:66
 msgid "SOP correction"
 msgstr "Popravek SOP"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:67
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:68
 msgid "Slope:   ``out = in * slope;   0 <= slope < ∞``"
 msgstr "Naklon: ``izh = vh * naklon;   0 <= naklon < ∞``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:68
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:69
 msgid "Offset:  ``out = in + offset;  -∞ < offset < ∞``"
 msgstr "Zamik: ``izh = vh + zamik;  -∞ < zamik < ∞``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:69
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:70
 msgid "Power:   ``out = in^power;     0 < power < ∞``"
 msgstr "Potenca: ``izh = vh^potenca;     0 < potenca < ∞’’"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:71
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:72
 msgid "Saturation"
 msgstr "Nasičenost"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:73
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:74
 msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
 msgstr "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (skladno z Rec. 709)"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:74
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:75
 msgid "For all channels: ``out = luma + sat * (in-luma)``"
 msgstr "Za vse kanale: ``izh = luma + nas * (vh-luma)``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:76
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:77
 msgid ""
 "As the values may exceed 1 (or 0), they need to be clipped where necessary."
 msgstr ""
 "Ker vrednosti lahko presegajo 1 (ali 0), jih je treba po potrebi prirezati."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:79
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:80
 msgid "**Notes**"
 msgstr "**Opombe**"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:81
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:82
 msgid "More details can be found in this article: |cdl_explained|."
 msgstr "Več podrobnosti je na voljo v tem članku: |cdl_explained|."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:83
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:84
+#, fuzzy
+#| msgid ""
+#| "See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the "
+#| "effect to adjust white balance of a clip."
 msgid ""
-"See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect "
-"to adjust white balance of a clip."
+"See the Tips & Tricks chapter :ref:`scopes-waveform_and_rgb_parade` where "
+"this effect is used to adjust the white balance of a clip."
 msgstr ""
 "Glejte :ref:`Granjowov blog <waveform_and_RGB_parade>`, kjer uporablja "
 "učinek za prilagoditev beline ravnotežja posnetka."
+
+#~ msgid ""
+#~ "Basically there are two stages in the correction: 1. SOP correction for "
+#~ "each channel separately 2. Overall saturation correction"
+#~ msgstr ""
+#~ "V bistvu sta dve fazi v popravku: 1. Popravek SOP za vsak kanal ločeno 2. "
+#~ "Skupni popravek nasičenosti"

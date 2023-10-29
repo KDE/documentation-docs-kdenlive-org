@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 07:24+0000\n"
-"PO-Revision-Date: 2023-08-08 13:33+0200\n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"PO-Revision-Date: 2023-10-28 12:47+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:1
 msgid "Do your first steps with Kdenlive video editor, using sop/sat effect"
@@ -112,14 +112,19 @@ msgstr ""
 "0 i 2048. El valor predeterminat és 1024."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:48
+#| msgid ""
+#| "**Power R / G / B / @** - Power is a power function (i.e. 2^2) to the "
+#| "incoming data in the respective color channels. Allowed values are from 0 "
+#| "to 1000, default is 50."
 msgid ""
-"**Power R / G / B / @** - Power is a power function (i.e. 2^2) to the "
-"incoming data in the respective color channels. Allowed values are from 0 to "
-"1000, default is 50."
+"**Power R / G / B / @** - Power is a power function (i.e. 2\\ :sup:`2`) to "
+"the incoming data in the respective color channels. Allowed values are from "
+"0 to 1000, default is 50."
 msgstr ""
 "**Potència R / G / B / @**: La potència és una funció de potència (p. ex. "
-"exposició 2^2) sobre les dades d'entrada en els canals de color respectius. "
-"Els valors permesos estan entre 0 i 1000. El valor predeterminat és 50."
+"exposició 2\\ :sup:`2`) sobre les dades d'entrada en els canals de color "
+"respectius. Els valors permesos estan entre 0 i 1000. El valor predeterminat"
+" és 50."
 
 # skip-rule: rst-italic2
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:50
@@ -131,17 +136,22 @@ msgstr ""
 "Els valors permesos estan entre 0 i 1000. El valor predeterminat és 100."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:55
+#| msgid ""
+#| "This filter implements a standard way of color correction proposed by the "
+#| "American Society of Cinematographers: The Color Decision List, also known "
+#| "as the ASC CDL\\ [1]_ with the goal to exchange rudimentary color "
+#| "correction information between post-production tools."
 msgid ""
 "This filter implements a standard way of color correction proposed by the "
 "American Society of Cinematographers: The Color Decision List, also known as "
-"the ASC CDL\\ [1]_ with the goal to exchange rudimentary color correction "
-"information between post-production tools."
+"the ASC :abbr:`CDL (Color Decision List)`\\ [1]_ with the goal to exchange "
+"rudimentary color correction information between post-production tools."
 msgstr ""
 "Aquest filtre implementa una forma estàndard de correcció del color "
 "proposada per la Societat Americana de Cinematògrafs: The Color Decision "
-"List, també coneguda com la CDL de l'ASC\\ [1]_ amb l'objectiu "
-"d'intercanviar informació de correcció rudimentària de color entre eines de "
-"postproducció."
+"List, també coneguda com la :abbr:`CDL («Color Decision List», o Llista de"
+" decisió de colors )`\\ [1]_ de l'ASC amb l'objectiu d'intercanviar"
+" informació de correcció rudimentària de color entre eines de postproducció."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:57
 msgid ""
@@ -153,14 +163,18 @@ msgstr ""
 "seleccionades)."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:59
-msgid ""
-"Basically there are two stages in the correction: 1. SOP correction for each "
-"channel separately 2. Overall saturation correction"
-msgstr ""
-"Bàsicament, hi ha dos passos en la correcció: 1. Correcció SOP per a cada "
-"canal per separat i 2. Correcció de la saturació general"
+msgid "Basically there are two stages in the correction:"
+msgstr "Bàsicament, hi ha dues etapes en la correcció:"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:63
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:61
+msgid "SOP correction for each channel separately"
+msgstr "Correcció SOP per a cada canal per separat"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:62
+msgid "Overall saturation correction"
+msgstr "Correcció de la saturació general"
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:64
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from [0,...,255] to [0,1]."
@@ -168,62 +182,65 @@ msgstr ""
 "Totes les correccions funcionen a [0,1], de manera que els valors RGB(A) "
 "s'han de transposar des de [0,...,255] a [0,1]."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:65
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:66
 msgid "SOP correction"
 msgstr "Correcció SOP"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:67
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:68
 msgid "Slope:   ``out = in * slope;   0 <= slope < ∞``"
 msgstr "Desnivell:   ``sortida = entrada * desnivell;   0 <= desnivell < ∞``"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:68
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:69
 msgid "Offset:  ``out = in + offset;  -∞ < offset < ∞``"
 msgstr ""
 "Desplaçament:  ``sortida = entrada + desplaçament;  -∞ < desplaçament < ∞``"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:69
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:70
 msgid "Power:   ``out = in^power;     0 < power < ∞``"
 msgstr "Potència:   ``sortida = entrada^potència;     0 < potència < ∞``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:71
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:72
 msgid "Saturation"
 msgstr "Saturació"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:73
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:74
 msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
 msgstr ""
 "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (d'acord amb el Rec. 709)"
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:74
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:75
 msgid "For all channels: ``out = luma + sat * (in-luma)``"
 msgstr ""
 "Per a tots els canals: ``sortida = luma + saturació * (luma d'entrada)``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:76
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:77
 msgid ""
 "As the values may exceed 1 (or 0), they need to be clipped where necessary."
 msgstr ""
 "Com que els valors poden superar l'1 (o 0), s'han de retallar quan sigui "
 "necessari."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:79
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:80
 msgid "**Notes**"
 msgstr "**Notes**"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:81
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:82
 msgid "More details can be found in this article: |cdl_explained|."
 msgstr "Es poden trobar més detalls en aquest article: |cdl_explained|."
 
 # skip-rule: t-acc_obe
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:83
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:84
+#| msgid ""
+#| "See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the "
+#| "effect to adjust white balance of a clip."
 msgid ""
-"See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect "
-"to adjust white balance of a clip."
+"See the Tips & Tricks chapter :ref:`scopes-waveform_and_rgb_parade` where "
+"this effect is used to adjust the white balance of a clip."
 msgstr ""
-"Vegeu el :ref:`blog de Granjow <waveform_and_RGB_parade>` on empra l'efecte "
-"per a ajustar el balanç de blancs d'un clip."
+"Vegeu el capítol de Consells i trucs :ref:`scopes-waveform_and_rgb_parade` on"
+" s'empra aquest efecte per a ajustar el balanç de blancs d'un clip."
