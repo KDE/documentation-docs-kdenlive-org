@@ -81,7 +81,7 @@ The RGB components also show very well that the shadows are not neutral grey but
    :width: 650px
    :alt: kdenlive2308_histogram_04.gif
 
-   Histogram before and after applying some color correctin with the :ref:`effects-curves` effect
+   Histogram before and after applying some color correcting with the :ref:`effects-curves` effect
 
 Example 2: Underexposed ABC
 ---------------------------

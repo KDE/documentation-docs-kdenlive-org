@@ -112,7 +112,7 @@ To apply effects to a track in the timeline, simply drag and drop an effect from
 
 .. note:: The split compare button does not work for timeline tracks.
 
-If you later need to return to track effects in order to edit them again, simply click into the header of the desired track. The effect stack widgete **(3)**  will automatically switch to your track effect stack.
+If you later need to return to track effects in order to edit them again, simply click into the header of the desired track. The effect stack widget **(3)**  will automatically switch to your track effect stack.
 
 
 Temporarily Disable Track Effects
