@@ -1,0 +1,366 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"PO-Revision-Date: 2023-10-28 21:36+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Джерела**"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:1
+msgid "Kdenlive Tips & Tricks - How the Histogram works"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, histogram, editing,"
+" timeline, documentation, user manual, video editor, open source, free,"
+" learn, easy"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:30
+msgid "How the Histogram Works"
+msgstr "Принципи роботи гістограми"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:32
+msgid ""
+"When the Histogram receives an updated image from one of the monitors, each"
+" of these pixels consist of a Red, Green, and Blue component. Each of these"
+" values lies within a range of 0 and 255, which are the numbers you can"
+" represent with one Byte. 0 means that the component is not shining at all"
+" (i.e. it is black), 255 means that it is shining as bright as possible."
+msgstr ""
+"Коли гістограма отримує оновлене зображення з одного з моніторів, кожен з "
+"пікселів складається з червоного, зеленого та синього компонентів. Кожне з "
+"цих значень лежить у діапазоні від 0 до 255, тобто тих чисел, які можна "
+"представити у межах одного байта. 0 означає, що компонент взагалі не "
+"світиться (тобто є чорним), 255 означає, що компонент світиться "
+"якнайяскравіше."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:34
+msgid ""
+"The histogram is merely statistics: it shows how often a component of a"
+" certain brightness occurs. So what the histogram then does is actually"
+" quite simple:"
+msgstr ""
+"Гістограма є суто статистичною; вона показує, наскільки часто зустрічається "
+"компонент із певною яскравістю. Отже, те, що робить ефект «Гістограма», є "
+"доволі простим:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:36
+msgid "Take the first pixel"
+msgstr "Беремо перший піксель"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:37
+msgid ""
+"Look at the Red value (= *x*) of the pixel. Increase the height of the bar"
+" at position *x* of the histogram by 1. Example: If the red value is 0,"
+" increase the height of the bar at position 0 (that is at the very left) of"
+" the histogram by 1. If it is 42, increase bar 42 by 1. And so on."
+msgstr ""
+"Визначаємо значення червоного (= *x*) пікселя. Збільшуємо висоту стовпчика у "
+"позиції *x* гістограми на 1. Приклад: якщо значенням червоного є 0,"
+" збільшуємо "
+"висоту стовпчика у позиції 0 (на самому краєчку ліворуч) на 1. Якщо ж це 42, "
+"висоту стовпчика 42 буде збільшено на 1. І так далі."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:38
+msgid "Repeat the previous step with Green and Blue."
+msgstr "Повторення попереднього кроку із зеленим і синім каналом."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:39
+msgid ""
+"Look at R, G, and B together and calculate the :term:`Luma` value. Luma is"
+" the perceived luminance of this pixel. See :ref:`further below <"
+"scopes-luma_calc>` how it is calculated."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:40
+msgid "Repeat these steps for all other pixels on the image."
+msgstr "Повторюємо ці кроки для усіх інших пікселів на зображенні."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:43
+msgid "What the Histogram Shows"
+msgstr "Що показує гістограма"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:45
+msgid ""
+"The Histogram only shows the distribution of the luminance of the selected"
+" components - nothing more, nothing less. Also when looking at the RGB"
+" channels separately instead of at the calculated Luma component only, you"
+" cannot really guess the colors in the image. Take a look at these two"
+" images:"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:51
+msgid "Histogram for a simple greyscale gradient image"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:57
+msgid "Histogram for a simple color gradient image"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:59
+msgid ""
+"Exactly the same Histogram. Totally different colors. (What you can do is"
+" guessing the color tone; see below.) But what is the histogram good for now?"
+msgstr ""
+"Та сама гістограма. Зовсім інші кольори. (Ви можете вгадати відтінок "
+"кольору; див. нижче.). Але для чого гістограма згодиться нам зараз?"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:61
+msgid ""
+"To answer this question, it is best to refer you to this article from"
+" |cambridge_in_colour|: |tones_and_contrast| and the second part"
+" |luminance_and_color|. Although written for digital photo cameras, exactly"
+" the same applies for digital video cameras. Both articles are easy to read"
+" and understand and may also be of interest for experienced users."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:64
+msgid "Example 1: Candlelight"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:70
+msgid "Histogram example with a candlelight image"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:72
+msgid "Two special things about this histogram."
+msgstr "Дві особливі характеристики цієї гістограми."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:74
+msgid ""
+"Most pixels are dark, according to the Luma component (white). Though there"
+" is no total black: Notice that the Luma component shows «min: 8»."
+" Nevertheless, the blue component does reach 0. This means that the darkest"
+" pixels are still slightly orange and didn't lose all color information yet."
+msgstr ""
+"Більшість пікселів є темними, відповідно до компонента яскравості (білого). "
+"Втім, повністю чорного немає: зауважте, що компонент яскравості показує "
+"«min: 8». Проте, компонент синього досягає 0. Це означає, що найтемніші "
+"пікселі все ще дещо помаранчеві і ще не втратили усіх даних щодо кольору."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:76
+msgid ""
+"There is quite some clipping. A lot of R values are sticking at the very"
+" right, at 255. Having a peak at 255 usually means that we lost information"
+" because some regions were too bright for the camera sensor with the current"
+" sensitivity settings. This could have been solved by lowering the"
+" sensitivity, but then the book and nearly everything else would be black."
+" In this case the candles cause the clipping. (Not too bad here, because the"
+" lost detail isn't important for the image.)"
+msgstr ""
+"Маємо певне обрізання. Багато значень R розташовано скраю праворуч, на "
+"значенні 255. Пік на 255, зазвичай, означає, що ми втратили дані, оскільки "
+"деякі ділянки були надто яскравими для датчика камери із поточними "
+"параметрами чутливості. Це можна було б виправити зниженням чутливості, але "
+"тоді книга і майже усе інше були б чорними. У цьому випадку обрізання "
+"спричинятимуть свічі. (Непогано у цьому випадку, оскільки втрата деталей не "
+"є важливою для цього зображення.)"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:78
+msgid ""
+"The RGB components also show very well that the shadows are not neutral grey"
+" but orange, otherwise the color heaps on the left would, as in the gradient"
+" histogram above, have their center at the same position. There isn't a lot"
+" to correct here, what could be done is raising the shadows with a Curves"
+" effect, but this is a matter of taste and the intended mood for the final"
+" movie."
+msgstr ""
+"Крім того, компоненти RGB дуже добре показують, що тіні не є нейтрально "
+"сірими, а є помаранчевими. Якби це було б не так, купки кольорів ліворуч, як "
+"на гістограмі градієнта вище, мали б центром єдину позицію. Тут небагато "
+"простору для виправлення. Можна було б підняти тіні за допомогою ефекту "
+"кривих, але це справа смаку і настрою, якого ви хочете надати остаточному "
+"відео."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:84
+msgid ""
+"Histogram before and after applying some color correctin with the"
+" :ref:`effects-curves` effect"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:87
+msgid "Example 2: Underexposed ABC"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:93
+msgid "Histogram example 2 with an underexposed image"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:95
+msgid "We immediately notice two things:"
+msgstr "Ми негайно зауважуємо дві речі:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:97
+msgid ""
+"The RGB peaks are at the same position, near the middle. The white wall is"
+" the brightest part, so these peaks are from the white wall. As they are not"
+" shifted, the white balance should be okay (the image confirms that). Note"
+" that the Hhstogram is not very accurate for white balance. Later we will"
+" introduce a much more accurate scope."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:99
+msgid ""
+"The image is too dark. The brightest component, red, only reaches a value of"
+" 170. The white wall is actually grey."
+msgstr ""
+"Зображення є надто темним. Найяскравіший компонент, червоний, досягає лише "
+"значення 170. Біла стіна, насправді, є сірою."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:101
+msgid ""
+"Monitoring correct exposure is the histogram's strength! The exposure can be"
+" corrected with :ref:`effects-curves` as well, but this time we will use the"
+" :ref:`effects-color_levels` effect."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:107
+msgid ""
+"Histogram before and after applying the :ref:`effects-levels` effect to"
+" correct exposure"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:109
+msgid ""
+"We have lowered the input white level of the luma channel until one of the"
+" RGB components reached 255. Lowering the input white level further would"
+" cause clipping on the wall and loss of image information. (Which may be"
+" desired in certain circumstances!)"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:111
+msgid "This process is called *Stretching* of the tonal range."
+msgstr "Ця процедура називається *розтягуванням* діапазону тонів."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:114
+msgid "Histogram Options"
+msgstr "Параметри діаграми"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:116
+msgid "The Histogram can be adjusted as follows:"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:118
+msgid ""
+"Components - They can be enabled individually. For example, you might only"
+" want to see the Luma component, or you want to hide the Sum display."
+msgstr ""
+"Компоненти – їх можна вмикати окремо. Наприклад, у вас може бути потреба у "
+"перегляді лише компонента яскравості або приховуванні показу суми."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:120
+msgid ""
+":guilabel:`Y` or Luma is the best known histogram. Every digital camera"
+" shows it, digikam, GIMP, etc. know it. See :ref:`below <scopes-luma_calc>`"
+" how it is calculated."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:122
+msgid ""
+":guilabel:`Sum` is basically a quick overview over the individual :abbr:`RGB"
+" (Red Green Blue)` channels. If it shows e.g. 5 as the minimum value, you"
+" know that none of the RGB components goes lower than 5."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:124
+msgid ":guilabel:`R / G / B` show the histogram for the individual channels."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:126
+msgid ""
+"Unscaled (Context menu) - Does not scale the width of the histogram (unless"
+" the widget size is smaller). Just a goodie if you want to have it 256px"
+" wide."
+msgstr ""
+"Немасштабоване (контекстне меню) — не масштабувати ширину гістограми (якщо "
+"розмір віджета є меншим). Корисно, якщо вам потрібна ширина 256 пікселів."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:130
+msgid ""
+"Luma mode (Context menu) - This option defines how the Luma value of a pixel"
+" is calculated. Two options are available:"
+msgstr ""
+"Режим яскравості (контекстне меню) — цей пункт визначає, у який спосіб "
+"обчислюється значення яскравості пікселя. Доступні два варіанти:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:132
+msgid "Rec. 601 uses the formula ``Y' = 0.299 R' + 0.587 G' + 0.114 B'``"
+msgstr "Rec. 601 використовує формулу ``Y' = 0.299 R' + 0.587 G' + 0.114 B'``"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:134
+msgid "Rec. 709 uses ``Y' = 0.2126 R' + 0.7152 G' + 0.0722 B'``"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:136
+msgid ""
+"Most of the time you will want to use Rec. 709 which is mostly used in"
+" digital video today."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:139
+msgid "Summary"
+msgstr "Резюме"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:140
+msgid ""
+"The Histogram is a great tool for exposure correction, together with the"
+" Curves and the Levels effects. It helps to avoid clipping (burned out"
+" areas) and crushed blacks (the opposite) when applying effects."
+msgstr ""
+"Гістограма є чудовим інструментом для виправлення експозиції, разом із "
+"ефектами кривих і рівнів. Вона допомагає уникнути обрізання (вигорілих "
+"ділянок) і задавленим чорним (протилежна ситуація) при застосуванні ефектів."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:145
+msgid "Notes"
+msgstr "Нотатки"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:151
+msgid ""
+":download:`Histogram-bw.png <http://granjow.net/uploads/kdenlive/samples/Hist"
+"ogram-bw.png>`"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:152
+msgid ""
+":download:`Histogram-col.png <http://granjow.net/uploads/kdenlive/samples/His"
+"togram-col.png>`"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:153
+msgid ""
+":download:`abc-underexposed.avi <http://granjow.net/uploads/kdenlive/samples/"
+"abc-underexposed.avi>` (26 MB; 720/24p)"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:154
+msgid ""
+":download:`candlelight.avi <http://granjow.net/uploads/kdenlive/samples/candl"
+"elight.avi>` (14 MB; 720/24p)"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:156
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Mon,"
+" 8/30/2010 - 23:10 to the now defunct kdenlive.org blog. For this"
+" documentation it has been lifted from |web_archive|, updated and adapted to"
+" match the overall style."
+msgstr ""
