@@ -46,7 +46,7 @@ Run-of-the-Mill Footage
 The drama starts with screen recording footage that seems quite innocent and normal at first sight. It may have been recorded on Android 7 devices using a screen recording app (such as «AZ Screen Recording», but not the “Pro” fake). And this footage has two slightly unusual properties:
 
 * a *highly variable frame rate*,
-* it is using :abbr:`BT.601 (A standard from 1982 defining how RGB color primaries get turned into the YCbCr channels used by modern codecs)`\ [#f1]_, instead of :abbr:`BT.709 (A standard from 1990 which doies the same at BT.601 but the transfer coefficients are slightly different)`\ [#f2]_ like so much HD footage these days.
+* it is using :abbr:`BT.601 (A standard from 1982 defining how RGB color primaries get turned into the YCbCr channels used by modern codecs)`\ [#f1]_, instead of :abbr:`BT.709 (A standard from 1990 which does the same at BT.601 but the transfer coefficients are slightly different)`\ [#f2]_ like so much HD footage these days.
 
 Should cause no problems, right? Well…
 
