@@ -1,0 +1,652 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"PO-Revision-Date: 2023-10-29 05:30+0100\n"
+"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
+"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:1
+msgid "Kdenlive Tips & Tricks - How to Add Meta Data to MP4 Video"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:1
+msgid "KDE, Kdenlive, tips, tricks, tips & tricks, adding meta data, documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:32
+msgid "Adding Meta Data to MP4 Video"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:34
+msgid "Adding a useful information to your video files - such as title, authors, the date of production, and some description - can be quite helpful to both yourself and your customers. This additional data - or *meta data* - can be used by media players to organize your many video files."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:37
+msgid "Project Meta Data"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:44
+msgid "Adding a new meta data field"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:46
+msgid "Kdenlive allows you to specify the meta information that should be added to a rendered file. Just go to :menuselection:`Menu --> Project --> Project Settings`, then select the second tab named :guilabel:`Metadata`."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:48
+msgid "Double-click any existing meta data entry to change it."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:50
+msgid "Click on |list-add| to add a new meta data entry (see the list of possible and permissable tags below)."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:54
+msgid "For your convenience, Kdenlive automatically adds the following four elements to each new project:"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:56
+msgid "**Title**"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:57
+msgid "**Author** - does not work for .mp4 containers, but for .mov containers; you may use **artist** instead with .mp4 containers."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:58
+msgid "**Copyright**"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:59
+msgid "**Year** - please note that this element does not work for video rendered into MP4 containers (such as .mov and .mp4). See below for more details. Use a date element instead. This *year* element is actually quite pesky: you can delete it, but it will automatically reappear. So simply ignore it … as ffmpeg does too."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:61
+msgid "But there are more elements that you actually may use with your MP4 containers."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:65
+msgid "MP4 Containers"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:67
+msgid "Unfortunately, there are competing sets of meta data when working with MP4 containers. The older, standard MP4 set is rather limited in what additional meta data can be used. Then, there is Apple iTunes, and that brings in a lot of meta data, and even changes the allowed set from time to time. We will come back to this difference in a second."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:71
+msgid "Other container formats, such as |matroska| (``.mkv``) or |audio_video_interleave| (``.avi``), support yet other sets of meta data elements."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:74
+msgid "Ffmpeg Supported MP4 Container Meta Information"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:76
+msgid "But now for the real meat: here come the available meta data elements that |ffmpeg| supports."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:78
+msgid "You must use the |ffmpeg| meta data keys from the second column in the table below as the metadata keys in Kdenlive's Project Metadata dialog."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:80
+msgid "|Ffmpeg| supports different |ffmpeg_metadata| elements, based on the type of container. And this container type normally gets derived from the container filename suffix: in particular, ``.mp4`` and ``.mov``."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:88
+msgid "Element"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:89
+msgid "ffmpeg Meta Data Key"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:90
+msgid "Description (data type\\ [1]_\\ )"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:91
+msgid "MOV"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:92
+msgid "MP4"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:93
+msgid "Tag"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:94
+msgid "Title"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:95
+msgid "title"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:96
+msgid "The title of this video. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:97
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:98
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:103
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:104
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:109
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:110
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:115
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:116
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:122
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:127
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:139
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:146
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:151
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:157
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:158
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:164
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:169
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:170
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:175
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:181
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:187
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:194
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:200
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:206
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:212
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:218
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:224
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:230
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:236
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:242
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:248
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:254
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:259
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:266
+msgid "✔"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:99
+msgid "©nam"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:100
+msgid "Year"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:101
+msgid "date"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:102
+msgid "The date of production. Please note that the ffmpeg documentation is totally wrong here, there is no key named year, but only date. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:105
+msgid "©day"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:106
+msgid "Copyright"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:107
+msgid "copyright"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:108
+msgid "The copyright of your video. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:111
+msgid "©cpy"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:112
+msgid "Artist"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:113
+msgid "artist"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:114
+msgid "The name of the (video) artist. Please do not use this element for the composer, as there is a dedicated element especially for the composer, see below. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:117
+msgid "©ART"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:118
+msgid "Album Artist"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:119
+msgid "album_artist"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:120
+msgid "The name of the album artist: this may be a guest artist or a featured artist. This element can also be left out or be the same name as the artist. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:123
+msgid "aART"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:124
+msgid "Author"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:125
+msgid "author"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:126
+msgid "The author of the video. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:129
+msgid "©aut"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:130
+msgid "Composer"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:131
+msgid "composer"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:132
+msgid "The name of the composer. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:135
+msgid "©wrt"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:136
+msgid "Album"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:137
+msgid "album"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:138
+msgid "The title or the name of this album. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:141
+msgid "©alb"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:142
+msgid "Description"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:143
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:149
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:155
+msgid "comment"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:144
+msgid "A (content) description of this video. For a synopsis, please see the separate element instead. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:147
+msgid "desc"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:148
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:154
+msgid "Comment"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:150
+msgid "A (short) comment on your video. This will probably a comment set by the audience, not at the time of production. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:153
+msgid "©des"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:156
+msgid "Same as before, but encoded in a separate element. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:159
+msgid "©cmt"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:160
+msgid "Synopsis"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:161
+msgid "synopsis"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:162
+msgid "A synopsis, a longer description of this video. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:165
+msgid "ldes"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:166
+msgid "Genre"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:167
+msgid "genre"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:168
+msgid "The genre this video belongs to. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:171
+msgid "©gen"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:172
+msgid "Make"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:173
+msgid "make"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:174
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:180
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:186
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:234
+msgid "(String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:177
+msgid "©mak"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:178
+msgid "Model"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:179
+msgid "model"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:183
+msgid "©mod"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:184
+msgid "Location"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:185
+msgid "location"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:189
+msgid "©xyz"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:190
+msgid "Grouping"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:191
+msgid "grouping"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:192
+msgid "The name of a group of videos somehow belonging together. In contrast to the album element, grouping happens inside (that is, below) the album level. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:195
+msgid "©grp"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:196
+msgid "Show"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:197
+msgid "show"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:198
+msgid "The name of the TV show, if applicable. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:201
+msgid "tvsh"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:202
+msgid "Episode"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:203
+msgid "episode_id"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:204
+msgid "Either the episode name or episode number, for display. If necessary, use the separate, yet optional episode number element for correct sorting. (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:207
+msgid "tven"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:208
+msgid "Episode (Sorting)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:209
+msgid "episode_sort"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:210
+msgid "This element is for sorting only, but never displayed. It allows numerical sorting of episode names that are strings, but not (necessarily) numbers. The valid range is limited to 0 to 255 only, so this doesn’t support all those endless telenovas, it seems… (Int8)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:213
+msgid "tves"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:214
+msgid "Season"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:215
+msgid "season_number"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:216
+msgid "The season number, in the range of 0 to 255 only. (Int8)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:219
+msgid "tvsn"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:220
+msgid "Lyrics"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:221
+msgid "lyrics"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:222
+msgid "Optional lyrics for badly sung sing-along… (String)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:225
+msgid "©lyr"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:226
+msgid "Compilation"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:227
+msgid "compilation"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:228
+msgid "If 1, then this video file is part of a compilation. 0 otherwise. (Int8)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:231
+msgid "cpil"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:232
+msgid "Network"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:233
+msgid "network"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:237
+msgid "tvnn"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:238
+msgid "Media Type"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:239
+msgid "media_type"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:240
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:246
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:252
+msgid "(Int8)"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:243
+msgid "stik"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:244
+msgid "HD Video"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:245
+msgid "hd_video"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:249
+msgid "hdvd"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:250
+msgid "Gapless Playback"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:251
+msgid "gapless_playback"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:255
+msgid "pgap"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:256
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:262
+msgid "Encoding Tool"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:257
+msgid "encoder"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:258
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:264
+msgid "Not available to us users, as it gets automatically set by ffmpeg itself; this is set to the libavformat version string."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:261
+msgid "©swr"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:263
+msgid "encoding_tool"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:267
+msgid "©too"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:272
+msgid "Notes"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:302
+msgid "There is no way to add cover art or DVD art to MP4 containers through |ffmpeg|, and in consequence, in Kdenlive. Instead, you need to resort to other video container tagging tools, such as |atomic_parsley|."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:304
+msgid "Kdenlive leverages ffmpeg for encoding, so if ffmpeg does not support certain atoms there is no way for Kdenlive to get it into the rendered output file."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:307
+msgid "The following references give some more background information on |ffmpeg| and meta data in .mov/.mp4 containers."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:309
+msgid "First, and foremost, the ffmpeg source code for reference, and |moveenc| in particular."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:311
+msgid "``mov_write_ilst_tag()`` is responsible to write the iTunes-compatible tags for .mp4 containers"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:312
+msgid "``mov_write_udta_tag()`` write the MPEG-standard tags instead, when using a .mov container"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:314
+msgid "|howto_id3| by Jon Hall. This article finally got the author on the right track. However, beware of a few incorrect ffmpeg keys in Jon's table (such as the TIT3 key, which the author thinks is not correct); these may be due to later changes in ffmpeg (or whatever). In the end, since some of Jon's keys didn't work, the author went for the ffmpeg source code which is the authoritative source, of course. Nevertheless, the author is very thankful to Jon who is some of the rare really good sources with good insight into the topic. Most other source just tell you how to press some buttons on some application, but don ot give you any clue as to what is actually going on behind the scenes."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:315
+msgid "|howto_dump| by Jon Hall. Sheds more light on how to work with meta data when it comes to ffmpeg."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:316
+msgid "**Further Reading**"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:316
+msgid "|ffmpeg_meta_data| article from the |multimediawiki|."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:319
+msgid "**Sources**"
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:319
+msgid "The original text was submitted by user *TheDiveO* to the now defunct kdenlive.org blog. For this documentation it has been lifted from |kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+
+#: ../../tips_and_tricks/how-tos/adding_meta_data_to_mp4_video.rst:323
+msgid "The data types are (String)=string, (Int8)=integer (8-bit)"
+msgstr ""
