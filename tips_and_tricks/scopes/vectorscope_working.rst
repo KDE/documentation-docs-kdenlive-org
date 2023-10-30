@@ -96,7 +96,7 @@ Two things can be noticed:
     
 - The orange background seems to connect all other areas. This is something really amazing. Like magic. It will help doing white balance. The neutral area will almost always seem to connect the other ones.
 
-As the shot above is actually correctly white balanced, it should not be maltreated it here. But you should actually try! Download the sample below, add a :ref:`SOP/Sat <effects-sop_sat>` effect and change the :guilabel:`Offset`` parameters for the RGB values. (Do not forget to enable auto-refresh.)
+As the shot above is actually correctly white balanced, it should not be maltreated it here. But you should actually try! Download the sample below, add a :ref:`SOP/Sat <effects-sop_sat>` effect and change the :guilabel:`Offset` parameters for the RGB values. (Do not forget to enable auto-refresh.)
 
 Now perhaps you wonder how we could be so sure assigning those spots to colors. Is it really the upper spot caused by the red ball? To find out, the red ball out was masked out using a white Color Clip. The spot then indeed disappeared.
 
