@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-24 07:24+0000\n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
 "PO-Revision-Date: 2022-05-22 23:16+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -113,9 +113,9 @@ msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:48
 msgid ""
-"**Power R / G / B / @** - Power is a power function (i.e. 2^2) to the "
-"incoming data in the respective color channels. Allowed values are from 0 to "
-"1000, default is 50."
+"**Power R / G / B / @** - Power is a power function (i.e. 2\\ :sup:`2`) to "
+"the incoming data in the respective color channels. Allowed values are from "
+"0 to 1000, default is 50."
 msgstr ""
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:50
@@ -133,8 +133,8 @@ msgstr ""
 msgid ""
 "This filter implements a standard way of color correction proposed by the "
 "American Society of Cinematographers: The Color Decision List, also known as "
-"the ASC CDL\\ [1]_ with the goal to exchange rudimentary color correction "
-"information between post-production tools."
+"the ASC :abbr:`CDL (Color Decision List)`\\ [1]_ with the goal to exchange "
+"rudimentary color correction information between post-production tools."
 msgstr ""
 "Este filtro implementa uma forma-padrão de correcção de cores, proposta pela "
 "Sociedade Americana de Cinematógrafos: A Lista de Decisão de Cores, também "
@@ -150,14 +150,18 @@ msgstr ""
 "seleccionadas)."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:59
-msgid ""
-"Basically there are two stages in the correction: 1. SOP correction for each "
-"channel separately 2. Overall saturation correction"
+msgid "Basically there are two stages in the correction:"
 msgstr ""
-"Basicamente existem duas etapas na correcção: 1. Correcção SOP para cada "
-"canal em separado 2. Correcção global da saturação"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:63
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:61
+msgid "SOP correction for each channel separately"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:62
+msgid "Overall saturation correction"
+msgstr ""
+
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:64
 #, fuzzy
 #| msgid ""
 #| "All corrections work on [0,1], so the RGB(A) values need to be transposed "
@@ -169,18 +173,18 @@ msgstr ""
 "Todas as correcções funcionam de [0,1], pelo que os valores de RGB(A) têm de "
 "ser transpostos de {0,...,255} para [0,1]."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:65
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:66
 msgid "SOP correction"
 msgstr "Correcção do SOP"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:67
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:68
 #, fuzzy
 #| msgid "Slope:   ``out = in * slope;   0 <= slope < \\infty``"
 msgid "Slope:   ``out = in * slope;   0 <= slope < ∞``"
 msgstr ""
 "Inclinação:   ``saída = entrada * inclinação;   0 <= inclinação < \\infty``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:68
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:69
 #, fuzzy
 #| msgid "Offset:  ``out = in + offset;  -\\infty < offset < \\infty``"
 msgid "Offset:  ``out = in + offset;  -∞ < offset < ∞``"
@@ -188,28 +192,28 @@ msgstr ""
 "Deslocamento:  ``saída = entrada + deslocamento;  -\\infty < deslocamento < "
 "\\infty``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:69
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:70
 #, fuzzy
 #| msgid "Power:   ``out = in^power;     0 < power < \\infty``"
 msgid "Power:   ``out = in^power;     0 < power < ∞``"
 msgstr "Potência:   ``saída = entrad^potência;     0 < potência < \\infty``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:71
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:72
 msgid "Saturation"
 msgstr "Saturação"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:73
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:74
 msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
 msgstr ""
 "Luma:    ``Y = 0,2126 R + 0,7152 G + 0,0722 B`` (de acordo com a Rec. 709)"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:74
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:75
 #, fuzzy
 #| msgid "Forall channels: ``out = luma + sat * (in-luma)``"
 msgid "For all channels: ``out = luma + sat * (in-luma)``"
 msgstr "Para todos os canais: ``saída = luma + sat * (entrada-luma)``"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:76
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:77
 #, fuzzy
 #| msgid ""
 #| "As the values may exceed 1 (or 0), they need to be clamped where "
@@ -220,21 +224,32 @@ msgstr ""
 "Dado que os valores poderão ultrapassar o 1 (ou 0), têm de ser limitados "
 "onde for necessário."
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:79
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:80
 msgid "**Notes**"
 msgstr "**Notas**"
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:81
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:82
 msgid "More details can be found in this article: |cdl_explained|."
 msgstr ""
 
-#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:83
+#: ../../effects_and_compositions/video_effects/color_image_correction/sat.rst:84
+#, fuzzy
+#| msgid ""
+#| "See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the "
+#| "effect to adjust white balance of a clip."
 msgid ""
-"See :ref:`Granjow's blog <waveform_and_RGB_parade>` where he uses the effect "
-"to adjust white balance of a clip."
+"See the Tips & Tricks chapter :ref:`scopes-waveform_and_rgb_parade` where "
+"this effect is used to adjust the white balance of a clip."
 msgstr ""
 "Veja o :ref:`blog do Granjow <waveform_and_RGB_parade>`, onde ele usa o "
 "efeito para ajustar o balanceamento de branco de um 'clip'."
+
+#~ msgid ""
+#~ "Basically there are two stages in the correction: 1. SOP correction for "
+#~ "each channel separately 2. Overall saturation correction"
+#~ msgstr ""
+#~ "Basicamente existem duas etapas na correcção: 1. Correcção SOP para cada "
+#~ "canal em separado 2. Correcção global da saturação"
 
 #~ msgid ""
 #~ "More information about the ASC CDL can be found on `wikipedia <https://en."

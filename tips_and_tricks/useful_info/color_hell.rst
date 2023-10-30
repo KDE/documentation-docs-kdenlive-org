@@ -126,7 +126,7 @@ This should give you something along these lines:
    color_transfer=smpte170m
    color_primaries=bt470bg
 
-The line ``color_space=...`` tells us whether we re dealing with PAL (bt470bg) or NTSC (smpte170m).
+The line ``color_space=...`` tells us whether we are dealing with PAL (bt470bg) or NTSC (smpte170m).
 
 PAL
 ~~~

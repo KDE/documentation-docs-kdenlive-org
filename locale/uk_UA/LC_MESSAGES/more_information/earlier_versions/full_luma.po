@@ -1,0 +1,162 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-29 00:36+0000\n"
+"PO-Revision-Date: 2023-10-29 08:29+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Джерела**"
+
+#: ../../more_information/earlier_versions/full_luma.rst:1
+msgid "The Kdenlive User Manual - Notes for Earlier Versions - Full Luma"
+msgstr ""
+"Підручник користувача Kdenlive — нотатки щодо попередніх версій — повний "
+"діапазон яскравості"
+
+#: ../../more_information/earlier_versions/full_luma.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, easy, earlier version, full luma"
+msgstr ""
+"KDE, Kdenlive, документація, підручник, відеоредактор, відео, відкритий код, "
+"вільний, довідка, допомога, вивчення, вивчити, просто, попередні версії, "
+"повний діапазон яскравості"
+
+#: ../../more_information/earlier_versions/full_luma.rst:28
+#| msgid ""
+#| "This page is not maintained anymore and contains information referring to "
+#| "features or functions from earlier versions of Kdenlive that are "
+#| "deprecated or have been superseeded by something else."
+msgid ""
+"This page is not maintained anymore and contains information referring to "
+"features or functions from earlier versions of Kdenlive that are deprecated "
+"or have been superseded by something else."
+msgstr ""
+"Супровід цієї сторінки припинено. Вона містить відомості, які стосуються "
+"можливостей або функцій застарілих версій Kdenlive, які вважаються "
+"застарілими або які було замінено чимось іншим."
+
+#: ../../more_information/earlier_versions/full_luma.rst:31
+msgid "Full Luma"
+msgstr "Повний діапазон яскравості"
+
+#: ../../more_information/earlier_versions/full_luma.rst:33
+msgid ""
+"The :guilabel:`Full (JPEG)` luma option refers to video sources with :term:"
+"`luma` recorded outside of the typical `broadcast`, limited 16 - 235 8-bit "
+"range."
+msgstr ""
+"Пункт :guilabel:`Повна (JPEG)` для яскравості стосується записаних "
+"відеоданих із :term:`яскравістю <luma>`, яка не вкладається у типовий "
+"діапазон «трансляції», обмежений значеннями 16-235 у 8-бітовому діапазоні."
+
+#: ../../more_information/earlier_versions/full_luma.rst:35
+msgid ""
+"It fixes problems when round-tripping video files with luma outside of the "
+"16 - 235 8-bit range."
+msgstr ""
+"Він виправляє проблеми із обробкою відеофайлів з яскравостями поза 16-235 у "
+"8-бітовому діапазоні."
+
+#: ../../more_information/earlier_versions/full_luma.rst:37
+msgid ""
+"By default, when we import a video it is handled and displayed based on the "
+"16 - 235 range. That means levels below 15 and those above 235 are "
+"compressed to 0 and 255, respectively. Thus shadows get overly dark and "
+"highlights saturated in the preview in Kdenlive for camera sources that are "
+"full range."
+msgstr ""
+"Типово, якщо ми імпортуємо відео, програма обробляє його і показує у "
+"діапазоні 16 – 235. Це означає, що рівні, нижчі за 15 і вищі за 235, "
+"стискаються до 0 і 255, тобто темні ділянки перетворюються на чорне, а "
+"виблиски насичуються для перегляду у Kdenlive матеріалу з камери, кольори "
+"якого належать до повного діапазону."
+
+#: ../../more_information/earlier_versions/full_luma.rst:39
+msgid ""
+"When we render out the project, those levels remain in the final video "
+"(compressed shadows and saturated highlights) resulting in a mismatch "
+"between the levels in the imported video and the exported video."
+msgstr ""
+"При обробці проєкту, ці рівні лишаються у остаточному відео (стиснені темні "
+"тони і насичені світлі), що призводить до невідповідності рівні в "
+"імпортованому відео та експортованому відео."
+
+#: ../../more_information/earlier_versions/full_luma.rst:41
+msgid ""
+"This only really matters for round-tripping to an external application."
+msgstr "Це має значення лише для обходу проблем із зовнішніми програмами."
+
+#: ../../more_information/earlier_versions/full_luma.rst:43
+msgid ""
+"For any playback on DVDs, Blu-ray, and via the likes of Vimeo or Youtube, "
+"our video levels in the final rendered output should be in the 16 - 235 "
+"range, otherwise we see so called `gamma shifts`, `washed out` or saturated "
+"playback depending on playback handling."
+msgstr ""
+"Для відтворення з DVD, bluray та у інтернеті, зокрема на Vimeo або Youtube "
+"рівні кольорів відео у остаточному результаті мають належати діапазону від "
+"16 до 235, інакше ми побачимо так звані «зсуви гами», «вимивання» або надто "
+"насичений результат, залежно від обробки матеріалу."
+
+#: ../../more_information/earlier_versions/full_luma.rst:45
+msgid ""
+"However, we want to have full control of the levels adjustment in Kdenlive, "
+"i.e. 0 - 255 into 16 - 235. Full luma option changes the handling of the "
+"files and preview / scopes are based on an alternative YCbCr to RGB "
+"calculation."
+msgstr ""
+"Втім, насправді нам потрібне контроль над коригуванням рівнів у Kdenlive, "
+"тобто перетворенням діапазону 0 – 255 у діапазон 16 – 235., отже пункт "
+"повного діапазону кольорів змінює параметри обробки файлів та зображень "
+"попереднього діапазону на основі альтернативного механізму переобчислення "
+"кольорів з YCbCr до RGB."
+
+#: ../../more_information/earlier_versions/full_luma.rst:47
+msgid ""
+"By setting the full luma on, which should only be done for camera sources "
+"known to be full range 0 - 255 or even 16 - 255 such as FS100, Nex5, HV20, "
+"HV30 and probably many more consumer cameras. Canon and Nikon DSLR's too but "
+"a little more complicated, we can export video with the levels as imported, "
+"BUT and it's a big but, that is without doing any RGB operations in "
+"Kdenlive, so no effects, color correction etc. If any effects are added then "
+"the output will be restricted range again."
+msgstr ""
+"Вмиканням повного діапазону кольорів, яке слід виконувати лише для камер, "
+"матеріал з яких, як відомо, містить кольори у повному діапазоні 0 – 255 або "
+"навіть 16 – 255, зокрема FS100, Nex5, HV20, HV30, а також багатьох інших "
+"непрофесійних камер. До цих камер належать і цифрові дзеркальні камери Canon "
+"і Nikon, хоча вони є дещо складнішими. Ми можемо експортувати відео із "
+"імпортованими рівнями, але зі значними обмеженнями, тобто не можна "
+"виконувати жодних дій із RGB у Kdenlive: ніяких ефектів, виправлення "
+"кольорів тощо. Якщо буде додано якісь ефекти, виведені дані буде обмежено за "
+"діапазоном."
+
+#: ../../more_information/earlier_versions/full_luma.rst:57
+#| msgid ""
+#| "The original textfor **Full Luma** was submitted by user *Yellow* to the "
+#| "now defunct Kdenlive forum. For this documentation it has been lifted "
+#| "from |kdenlive_org| and adapted to match the overall style."
+msgid ""
+"The original text for **Full Luma** was submitted by user *Yellow* to the "
+"now defunct Kdenlive forum. For this documentation it has been lifted from |"
+"kdenlive_org| and adapted to match the overall style."
+msgstr ""
+"Початковий текст було подано користувачем *Yellow* до зниклого тепер форуму "
+"Kdenlive. Для цієї документації його було запозичено з |kdenlive_org| і "
+"адаптовано до загального стилю."

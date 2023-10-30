@@ -139,7 +139,7 @@ If you open this clip and take a look at the Waveform you will notice that it sh
 
    Vectorscope after white balancing
 
-Here, the blue and red values were adjusted such that there is some padding around the neutral center. It is usually not enough to just let the first pixel hit the neutral point because of several factors like the material of the neutral object itself, chromatic abberation (also see this more accurate article about |chromatic_aberration|) in lenses, and artifacts in the recorded video file. So usually neutral areas will not share one single pixel in the vectorscope but have a certain diameter. Hence the padding.
+Here, the blue and red values were adjusted such that there is some padding around the neutral center. It is usually not enough to just let the first pixel hit the neutral point because of several factors like the material of the neutral object itself, chromatic aberration (also see this more accurate article about |chromatic_aberration|) in lenses, and artifacts in the recorded video file. So usually neutral areas will not share one single pixel in the vectorscope but have a certain diameter. Hence the padding.
 
 Because this is a suitable clip for :term:`hue` and the :ref:`effects-hue_shift` effect:
 
