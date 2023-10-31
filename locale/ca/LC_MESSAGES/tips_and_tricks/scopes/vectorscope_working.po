@@ -1,0 +1,592 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___scopes___vectorscope_working.po to Catalan
+# Copyright (C) 2023 This_file_is_part_of_KDE
+# Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: documentation-docs-kdenlive-org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-30 00:36+0000\n"
+"PO-Revision-Date: 2023-10-30 23:09+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Fonts**"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:1
+msgid "Kdenlive Tips & Tricks - The Vectorscope"
+msgstr "Consells i trucs del Kdenlive - El vectoscopi"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, vectorscope, editing,"
+" timeline, documentation, user manual, video editor, open source, free,"
+" learn, easy"
+msgstr ""
+"KDE, Kdenlive, consells, trucs, consells i trucs, electroscopis, vectoscopi,"
+" edició, línia de temps, documentació, manual d'usuari, editor de vídeo, codi"
+" lliure, lliure, aprendre, fàcil"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:42
+msgid "The Vectorscope"
+msgstr "El vectoscopi"
+
+# skip-rule: rst-italic2
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:44
+msgid ""
+"The next scope (after the :ref:`Histogram <scopes-histogram_working>` and the"
+" :ref:`Waveform and RGB Parade <scopes-waveform_and_rgb_parade>`) we want to"
+" discuss in more detail is the **Vectorscope**. This is actually the most"
+" interesting scope because it is quite different from the other ones and,"
+" secondly, is really useful for :term:`color grading`."
+msgstr ""
+"L'electroscopi següent (després d':ref:`Histograma <scopes-histogram_working"
+">` i la :ref:`Forma d'ona i histograma RGB <scopes-waveform_and_rgb_parade>`)"
+" que volem debatre en més detall és el **Vectoscopi**. En realitat, aquest"
+" és l'electroscopi més interessant perquè és bastant diferent dels altres i,"
+" en segon lloc, és realment útil per a la :term:`graduació del color<color"
+" grading>`."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:51
+msgid "How the Vectorscope Works"
+msgstr "Com funciona el vectoscopi"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:53
+msgid ""
+"There is one simple thing that makes the Vectorscope so special: It uses a"
+" color space different than RGB. That sounds unspectacular but it is not. The"
+" previous scopes allow you to determine which brightness values exist in your"
+" image, the Vectorscope shows which colors there are."
+msgstr ""
+"Hi ha una cosa senzilla que fa que el vectoscopi sigui tan especial: "
+"utilitza un espai de color diferent del RGB. Això sona poc espectacular, "
+"però no ho és. Els electroscopis anteriors us permeten determinar quins "
+"valors de brillantor existeixen a la vostra imatge, el vectoscopi mostra "
+"quins colors hi ha."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:55
+msgid ""
+"The Vectorscope supports two different color spaces: :term:`YUV` and"
+" :term:`YPbPr`. Both of them have the *Y* in common, something you know from"
+" before: It is the *Luma component* (Rec.601 in both cases). This, amongst"
+" others, comes from black/white TV. When Color TV was introduced, some people"
+" actually recognized that not everybody would immediately trash his old b/w"
+" TV and buy a new one, so they still sent the b/w signal, but with two"
+" additional channels: The blue difference and the red difference (to"
+" :term:`Luma`), called U and V. For more details look at the image with its"
+" individual YUV components on the Wikipedia page about |yuv|."
+msgstr ""
+"El vectoscopi permet dos espais de color diferents: :term:`YUV` i"
+" :term:`YPbPr`. Tots dos tenen la *Y* en comú, cosa que ja sabeu d'abans: és"
+" el component *Luma* (Rec. 601 en ambdós casos). Això, entre altres, prové de"
+" la televisió en blanc i negre. Quan es va introduir la televisió en color,"
+" algunes persones van tenir en compte que no tothom llençaria immediatament"
+" el seu televisor vell en blanc i negre i en comprarien un de nou, així que"
+" encara van enviar el senyal en blanc i negre, però amb dos canals"
+" addicionals: la diferència blava i la diferència vermella (a la"
+" :term:`Luma`), anomenada U i V. Per a més detall, doneu un cop d'ull a la"
+" imatge en els seus components YUV a la pàgina enllaçada de la Viquipèdia"
+" sobre el |yuv|."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:57
+msgid ""
+"The other color space, :term:`YPbPr` or its digital counterpart :term:`YCbCr`"
+" respectively, are similar. If you switch between the two color models in the"
+" Vectorscope (via the context menu) you will notice that the colors are"
+" slightly shifted. YCbCr is used basically everywhere in digital video."
+msgstr ""
+"L'altre espai de color, :term:`YPbPr` o la seva contrapart digital"
+" :term:`YCbCr` respectivament, són similars. Si canvieu entre els dos models"
+" de color al vectoscopi (a través del menú contextual) us adonareu que els"
+" colors es desplacen lleugerament. YCbCr s'utilitza bàsicament a tot arreu en"
+" vídeo digital."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:59
+msgid ""
+"So, what the Vectorscope does: It calculates the Luma value of a pixel, then"
+" calculates the blue difference/red difference values. Then it throws the"
+" Luma value away. Why is that? It is because the Vectorscope is"
+" 2-dimensional. The blue difference is on the horizontal axis, the red"
+" difference is on the vertical axis. (There actually are three-dimensional"
+" vectorscopes which put the Luma component on the third axis!)"
+msgstr ""
+"Així doncs, què fa el vectoscopi: calcula el valor de la luma d'un píxel, "
+"després calcula els valors de diferència blava/vermella. Després llença el "
+"valor de la luma. Per què? És perquè el vectoscopi és de dues dimensions. La "
+"diferència blava és a l'eix horitzontal, la diferència vermella és a l'eix "
+"vertical. En realitat hi ha vectoscopis tridimensionals que posen el "
+"component luma en el tercer eix!"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:62
+msgid "Example 1: Grayscale Video"
+msgstr "Exemple 1: vídeo en escala de grisos"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:64
+msgid "Now let's see at how this actually looks like in a video."
+msgstr "Ara donarem una ullada a com es veu això en un vídeo."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:70
+msgid "Vectorscope with a black-and-white image"
+msgstr "Vectoscopi amb una imatge en blanc i negre"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:72
+msgid ""
+"Well … nothing? Close. There is a little pixel in the middle of the scope."
+" And that is the whole image. That looks a little disappointing now, but"
+" actually it is great. All greys (plus black and white) are exactly in the"
+" middle. Everything that is not in the middle has some color information (and"
+" the further away it is from the middle, the higher its saturation aka."
+" chrominance). This will come in very handy when it comes to white balance."
+msgstr ""
+"Bé… res? Apropeu-vos. Hi ha un petit píxel enmig de l'electroscopi. I "
+"aquesta és tota la imatge. Ara sembla una mica decebedor, però en realitat "
+"és genial. Tots els grisos (més el blanc i el negre) estan exactament al "
+"mig. Tot el que no està al mig té alguna informació de color (i com més "
+"lluny està del mig, més alta és la seva saturació, també anomenada "
+"crominància). Això serà molt pràctic pel que fa al balanç de blancs."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:75
+msgid "Example 2: Juggling Balls"
+msgstr "Exemple 2: boles de malabarisme"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:81
+msgid "Vectorscope with a color image (juggling balls)"
+msgstr "Vectoscopi amb una imatge de color (boles de malabarisme)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:83
+msgid ""
+"Juggling balls are more interesting, especially when they are colored. The"
+" ones above are. In this example a YUV background (with fixed Luma) has been"
+" switched in order to better identify the colors of pixel heaps on the scope."
+msgstr ""
+"Les boles de malabarisme són més interessants, especialment quan són de "
+"color. Les anteriors ho són. En aquest exemple hi ha un fons YUV (amb luma "
+"fixa) que s'ha canviat per tal d'identificar els colors dels munts de píxels"
+" de l'electroscopi."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:85
+msgid "Two things can be noticed:"
+msgstr "Es poden observar dues coses:"
+
+# skip-rule: rst-italic2
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:87
+msgid ""
+"there are six areas with high black density on the scope (which means that"
+" many pixels share this :term:`hue`):"
+msgstr ""
+"hi ha sis àrees amb una alta densitat negra a l'electroscopi (el que"
+" significa que molts píxels comparteixen aquest :term:`to<hue>`):"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:89
+msgid "One that points towards blue (bottom right),"
+msgstr "Una que apunta cap al blau (part inferior dreta),"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:90
+msgid "A big one around yellow,"
+msgstr "Una gran al voltant del groc,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:91
+msgid "Two big ones around red,"
+msgstr "Dues grans al voltant del vermell,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:92
+msgid "A smaller one between red and yellow,"
+msgstr "Una més petita entre el vermell i el groc,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:93
+msgid "And the last one which you might have missed, between red and blue."
+msgstr "I l'última que potser us havíeu perdut, entre el vermell i el blau."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:95
+msgid ""
+"These are exactly the ball's colors! Blue comes from the two balls on the"
+" left, yellow from the yellow ball, the left red area is the pink part of the"
+" left ball, the right part in red is the red ball on the right. The part"
+" between red and yellow, which is actually orange, is the background of the"
+" whole scene, and the last one between red and blue is the violet part of the"
+" right red ball."
+msgstr ""
+"Aquests són exactament els colors de les boles! El blau prové de les dues "
+"boles de l'esquerra, el groc de la bola groga, l'àrea vermella esquerra és "
+"la part rosa de la bola esquerra, la part dreta en vermell és la bola "
+"vermella a la dreta. La part entre vermell i groc, que en realitat és "
+"taronja, és el fons de tota l'escena, i l'última entre vermell i blau és la "
+"part violeta de la bola vermella dreta."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:97
+msgid ""
+"The orange background seems to connect all other areas. This is something"
+" really amazing. Like magic. It will help doing white balance. The neutral"
+" area will almost always seem to connect the other ones."
+msgstr ""
+"El fons taronja sembla connectar totes les altres àrees. És una cosa "
+"realment sorprenent. Com la màgia. Ajudarà a fer el balanç de blancs. L'àrea "
+"neutra gairebé sempre sembla connectar les altres."
+
+# skip-rule: t-pu_desp
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:99
+msgid ""
+"As the shot above is actually correctly white balanced, it should not be"
+" maltreated it here. But you should actually try! Download the sample below,"
+" add a :ref:`SOP/Sat <effects-sop_sat>` effect and change the"
+" :guilabel:`Offset`` parameters for the RGB values. (Do not forget to enable"
+" auto-refresh.)"
+msgstr ""
+"Com que la imatge anterior és en realitat amb un balanç de blancs correcte, "
+"no s'hauria de maltractar aquí. Però ho hauríeu de provar! Baixeu la mostra "
+"següent, afegiu un efecte :ref:`SOP/Sat <effects-sop_sat>` i canvieu els"
+" paràmetres de :guilabel:`Desplaçament` per als valors RGB. (No oblideu"
+" habilitar l'actualització automàtica.)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:101
+msgid ""
+"Now perhaps you wonder how we could be so sure assigning those spots to"
+" colors. Is it really the upper spot caused by the red ball? To find out, the"
+" red ball out was masked out using a white Color Clip. The spot then indeed"
+" disappeared."
+msgstr ""
+"Ara potser us pregunteu com podríem estar tan segurs d'assignar aquests punts"
+" als colors. És realment el punt superior causat per la bola vermella? Per a"
+" esbrinar-ho, la bola vermella s'ha emmascarat amb un clip de color blanc. El"
+" punt llavors ha desaparegut."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:107
+msgid "Vectorscope with a partly covered (masked) color image"
+msgstr "Vectoscopi amb una imatge de color parcialment coberta (emmascarada)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:109
+msgid ""
+"The violet spot has disappeared as well, and also big parts of the yellow"
+" spot because the white rectangle covers a large part of the yellow ball as"
+" well."
+msgstr ""
+"El punt violeta també ha desaparegut, i també grans parts del punt groc "
+"perquè el rectangle blanc també cobreix una gran part de la bola groga."
+
+# skip-rule: kct-box, t-sc-box
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:112
+msgid "Example 3: Musical Box"
+msgstr "Exemple 3: capsa de música"
+
+# skip-rule: kct-box, t-sc-box
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:118
+msgid "Vectorscope of an image of a musical box"
+msgstr "Vectoscopi d'una imatge d'una capsa de música"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:120
+msgid "Again, two things worth pointing out for this clip:"
+msgstr "De nou, hi ha dues coses que val la pena assenyalar en aquest clip:"
+
+# skip-rule: kct-box, t-sc-box
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:122
+msgid ""
+"This shot of a Swiss Musical Box mainly consists of orange tones, all points"
+" on the vectorscope lie between neutral (center) and orange. Not too"
+" saturated orange tones presumably coming from the bronze/messing parts."
+msgstr ""
+"Aquesta imatge d'una capsa de música suïssa consisteix principalment de tons "
+"taronja, tots els punts del vectoscopi es troben entre neutre (centre) i "
+"taronja. No són tons taronja massa saturats, ja que provenen de les parts "
+"bronzejades/desordenades."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:124
+msgid ""
+"The white balance seems to be correct. The Vectorscope indicates that there"
+" are neutral pixels (i.e. greys), and they seem to be the origin for the"
+" other colors."
+msgstr ""
+"El balanç de blancs sembla correcte. El vectoscopi indica que hi ha píxels "
+"neutres (és a dir, grisos), i semblen ser l'origen dels altres colors."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:126
+msgid ""
+"But when increasing the gain (or zoom level) of the Vectorscope to 5x we see"
+" that the scope image actually stops right before neutral."
+msgstr ""
+"Però en augmentar el guany (o el zoom de nivell) del vectoscopi a 5x, veiem"
+" que la imatge del vectoscopi s'atura abans del neutre."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:132
+msgid "Vectorscope before white balancing"
+msgstr "Vectoscopi abans del balanç de blancs"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:134
+msgid ""
+"If you open this clip and take a look at the Waveform you will notice that it"
+" shows the same: Blue is too low, red is too high. To correct this minor"
+" color cast we can use the :ref:`SOP/Sat <effects-sop_sat>` effect again,"
+" adjusting the :guilabel:`Offset` values. By doing that the points on the"
+" Vectorscope will be shifted around. A positive red offset will make the"
+" points shift towards red at the top, a negative offset shifts them towards"
+" the opposite direction (that is, towards the |complementary_color| of red,"
+" cyan)."
+msgstr ""
+"Si obriu aquest clip i mireu la forma d'ona veureu que mostra el mateix: el "
+"blau és massa baix, el vermell és massa alt. Per a corregir aquesta dominant "
+"menor de color podem tornar a utilitzar l'efecte :ref:`SOP/Sat <"
+"effects-sop_sat>`, ajustant els valors de :guilabel:`Desplaçament`. En"
+" fer-ho, els punts del vectoscopi es desplaçaran. Un desplaçament positiu del"
+" vermell farà que els punts es desplacin cap al vermell a la part superior,"
+" un desplaçament negatiu els desplaça cap a la direcció oposada (és a dir,"
+" cap al |complementary_color| del vermell, el cian)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:140
+msgid "Vectorscope after white balancing"
+msgstr "Vectoscopi després del balanç de blancs"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:142
+msgid ""
+"Here, the blue and red values were adjusted such that there is some padding"
+" around the neutral center. It is usually not enough to just let the first"
+" pixel hit the neutral point because of several factors like the material of"
+" the neutral object itself, chromatic aberration (also see this more accurate"
+" article about |chromatic_aberration|) in lenses, and artifacts in the"
+" recorded video file. So usually neutral areas will not share one single"
+" pixel in the vectorscope but have a certain diameter. Hence the padding."
+msgstr ""
+"Aquí, els valors blau i vermell s'han ajustat de manera que hi ha algun"
+" farciment al voltant del centre neutre. Normalment no és suficient deixar"
+" que el primer píxel toqui el punt neutre a causa de diversos factors com el"
+" material de l'objecte neutre en si, l'aberració cromàtica (vegeu també"
+" aquest article més precís sobre |chromatic_aberration|) en lents, i defectes"
+" visuals en el fitxer de vídeo gravat. Per tant, normalment les àrees neutres"
+" no comparteixen un sol píxel en el vectoscopi, però tenen un cert diàmetre."
+" D'aquí el farciment."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:144
+msgid ""
+"Because this is a suitable clip for :term:`hue` and the"
+" :ref:`effects-hue_shift` effect:"
+msgstr ""
+"Perquè aquest és un clip adequat per al :term:`to<hue>` i l'efecte"
+" :ref:`effects-hue_shift`:"
+
+# skip-rule: kct-box
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:150
+msgid ""
+"Vectorscope of the musical box after applying the :ref:`effects-hue_shift`"
+" effect (Hue=45)"
+msgstr ""
+"Vectoscopi de la caixa de música després d'aplicar l'efecte"
+" :ref:`effects-hue_shift` (To=45)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:152
+msgid ""
+"Now what happened here? The hue has changed, and the points on the scope look"
+" like rotated by 30 degrees. And indeed they did rotate. The :ref:`Hueshift <"
+"effects-hue_shift>` effect changes the hue of all colors by a certain"
+" (configurable) amount. In the Vectorscope this becomes visible as a rotation"
+" around the center of the scope."
+msgstr ""
+"Què ha passat aquí? El to ha canviat, i els punts de l'electroscopi semblen "
+"haver girat 30 graus. I de fet, han girat. L'efecte de :ref:`desplaçament de"
+" to <effects-hue_shift>` canvia el to de tots els colors per una certa"
+" quantitat (configurable). En el vectoscopi això es fa visible com un gir al"
+" voltant del centre de l'electroscopi."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:154
+msgid ""
+"Similarly, when changing the saturation/chroma, the dots on the vectorscope"
+" will move closer to the center or further away from it."
+msgstr ""
+"De la mateixa manera, en canviar la saturació/croma, els punts del "
+"vectoscopi es mouran més a prop del centre o més lluny d'ell."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:157
+msgid "Creating a Look for Your Video"
+msgstr "Creació d'un aspecte per al vostre vídeo"
+
+# skip-rule: rst-italic2
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:159
+msgid ""
+"In the :doc:`Histogram <histogram_working>` chapter we mentioned creating"
+" looks with color correction or :term:`Color Grading`. This example covers"
+" part of the tip of the iceberg of this topic."
+msgstr ""
+"En el capítol de l':doc:`Histograma <histogram_working>` hem esmentat la "
+"creació d'aspectes amb correcció de color o la :term:`gradació del color<"
+"Color Grading>`. Aquest exemple cobreix part de la punta de l'iceberg"
+" d'aquest tema."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:161
+msgid ""
+"What is special about creating a look for a video? Let's take a look at some"
+" random clips:"
+msgstr ""
+"Què és especial sobre crear un aspecte d'un vídeo? Donem un cop d'ull a "
+"alguns clips aleatoris:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:167
+msgid "Collection of not color-graded video stills"
+msgstr "Col·lecció de fotografies de vídeo de color no graduat"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:169
+msgid ""
+"Mostly different content and therefore different colors - as said: random."
+" One point of Color Grading is to give single clips a connection. This is not"
+" limited to white balance only. White balancing a clip is about removing"
+" color casts (which is a good thing because it gives you a neutral starting"
+" point). But we can also add new colors."
+msgstr ""
+"Bàsicament hi ha continguts diferents i, per tant, colors diferents, com "
+"deia: aleatori. Una finalitat de la graduació del color és donar una "
+"connexió a seqüències individuals. Això no es limita només al balanç de "
+"blancs. El balanç de blancs d'un clip és sobre l'eliminació de dominants de "
+"color (que és una cosa bona perquè us dona un punt de partida neutre). Però "
+"també podem afegir colors nous."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:175
+msgid "Collection of color-graded video stills"
+msgstr "Col·lecció de fotografies de vídeo de color graduat"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:177
+msgid ""
+"These clips look much more like if they belonged together. This is the result"
+" of **Primary Color Correction** (*Primary* means that it affects the whole"
+" image; *Secondary Color Correction* would only affect parts of it, e.g. by"
+" using masks, choosing color ranges, etc.): White balance (plus in some cases"
+" reduction of saturation) followed by a :ref:`SOP/Sat <effects-sop_sat>`"
+" effect. The latter SOP/Sat effect does something similar as the Blockbuster"
+" Effect: here the blacks become blueish, the mids and the whites tend towards"
+" yellow."
+msgstr ""
+"Aquests clips semblen molt més com si formessin part d'un conjunt. Aquest és "
+"el resultat de la **correcció del color primari** (*primari* significa que "
+"afecta a tota la imatge; la *correcció del color secundari* només afectaria "
+"parts d'ella, per exemple mitjançant l'ús de màscares, triant intervals de"
+" colors, "
+"etc.): el balanç de blancs (més en alguns casos reducció de la saturació) "
+"seguit d'un efecte :ref:`SOP/Sat <effects-sop_sat>`. L'últim efecte SOP/Sat "
+"fa una cosa similar a l'efecte Blockbuster: aquí els negres esdevenen blaus,"
+" els mitjans i els blancs tendeixen cap al groc."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:179
+msgid "See also |this_page| for some hints about looks and the vectorscope."
+msgstr ""
+"Vegeu també |this_page| per a alguns consells sobre aspectes i el vectoscopi."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:182
+msgid "Vectorscope Options"
+msgstr "Opcions del vectoscopi"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:184
+msgid "You can adjust the Vectorscope as follows by right-clicking it:"
+msgstr "Podeu ajustar el vectoscopi de la manera següent fent-hi clic dret:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:186
+msgid ""
+"*Export Background* - Exports a color plane of the desired color space. It"
+" allows to export RGB, :term:`YUV` and :term:`YCbCr` planes (like the ones"
+" you see when visiting the Wikipedia articles about these color spaces)."
+msgstr ""
+"*Exporta el fons*: exporta un pla de color de l'espai de color desitjat. "
+"Permet exportar plans RGB, :term:`YUV` i :term:`YCbCr` (com els que veieu"
+" quan visiteu els articles de la Viquipèdia sobre aquests espais de color)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:188
+msgid ""
+"*75% Box* - Marks the position where color saturation reaches 75% of its"
+" maximum value. This may be interesting if you work for broadcast. Colors"
+" exceeding this box were not regarded as |broadcast_safe| - but before"
+" changing the saturation to a max of 75% better consult your broadcast"
+" company."
+msgstr ""
+"*Quadre del 75%*: marca la posició on la saturació del color arriba al 75% "
+"del seu valor màxim. Això pot ser interessant si treballeu per a emissores. "
+"Els colors que superen aquest quadre no es consideraven |broadcast_safe|, "
+"però abans de canviar la saturació a un màxim del 75% és millor que consulteu"
+" la vostra empresa emissora."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:190
+msgid "*Draw axis* - Draws the U/Pb (horizontal) and V/Cr (vertical) axis."
+msgstr ""
+"*Dibuixa els eixos*: dibuixa l'eix U/Pb (horitzontal) i l'eix V/Cr (vertical)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:192
+msgid ""
+"*YUV* and *YPbPr* - Switches between the two color spaces YUV and YPbPr."
+msgstr "*YUV* i *YPbPr*: canvia entre els dos espais de color YUV i YPbPr."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:196
+msgid "Summary"
+msgstr "Resum"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:197
+msgid ""
+"The Vectorscope shows the hue and saturation distribution in a way we can"
+" understand without problems. This is useful for quickly recognizing color"
+" casts, but also helps judging the color distribution of a clip and match it"
+" to others."
+msgstr ""
+"El vectoscopi mostra la distribució del to i la saturació d'una manera que "
+"podem entendre sense problemes. Això és útil per a reconèixer ràpidament les "
+"dominants de color, però també ajuda a jutjar la distribució de colors d'un "
+"clip i aparellar-lo amb altres."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:199
+msgid ""
+"All scopes together fulfill another important task: They help matching video"
+" from different light situations and different input sources (like a second"
+" camera) regarding brightness and color. This is what you need |test_charts|"
+" for. Different cameras might have a different dynamic range and different"
+" colors. So when combining these shots you first shoot a test chart and then"
+" match exposure and color."
+msgstr ""
+"Tots els electroscopis junts compleixen una altra tasca important: ajuden a"
+" aparellar el vídeo a partir de situacions diferents de llum i fonts"
+" diferents d'entrada (com una segona càmera) respecte a la brillantor i el"
+" color. Per això necessiteu |test_charts|. Les diferents càmeres poden tenir"
+" un marge dinàmic diferent i colors diferents. Per tant, en combinar aquestes"
+" preses, primer preneu un diagrama de prova i després feu coincidir"
+" l'exposició i el color."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:204
+msgid "Notes"
+msgstr "Notes"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:210
+msgid ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/samples"
+"/raclette-greyscale.avi>` (720/24p, 12 MB)"
+msgstr ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/samples"
+"/raclette-greyscale.avi>` (720/24p, 12 MB)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:211
+msgid ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/jug"
+"gling-balls.avi>` (720/24p, 11 MB)"
+msgstr ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/jug"
+"gling-balls.avi>` (720/24p, 11 MB)"
+
+# skip-rule: t-pu_desp
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:212
+msgid ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/Musica"
+"l-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom H4n.)"
+msgstr ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/Musica"
+"l-box.avi>` (720/24p, 23 MB. Vídeo d'una Nikon D90, àudio d'un Zoom H4n.)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:214
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Tue,"
+" 10/10/2010 - 18:30 to the now defunct kdenlive.org blog. For this"
+" documentation it has been lifted from |web_archive|, updated and adapted to"
+" match the overall style."
+msgstr ""
+"El text original va ser enviat per *Simon A. Eugster (Granjow)* el dijous, "
+"10/10/2010 - 18:30 al blog kdenlive.org, ja desaparegut. Per a aquesta "
+"documentació s'ha extret de |web_archive|, s'ha actualitzat i adaptat per a"
+" concordar amb l'estil general."

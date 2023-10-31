@@ -1,0 +1,785 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___how-tos___surround_sound.po to Catalan
+# Copyright (C) 2023 This_file_is_part_of_KDE
+# Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: documentation-docs-kdenlive-org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"PO-Revision-Date: 2023-10-30 16:00+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:1
+msgid "Kdenlive Tips & Tricks - How to Edit Surround Sound with Kdenlive"
+msgstr ""
+"Consells i trucs del Kdenlive - Com es fa l'edició de so envoltant amb el"
+" Kdenlive"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, edit surround sound,"
+" documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, consells, trucs, consells i trucs, edició de so envoltant,"
+" documentació, manual d'usuari, editor de vídeo, codi lliure, lliure,"
+" aprendre, fàcil"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:30
+msgid "Editing Surround Sound with Kdenlive"
+msgstr "Edició de so envoltant amb el Kdenlive"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:32
+msgid ""
+"At the time of writing, Kdenlive only supports rendering a project to a video"
+" containing stereo audio. It is not possible to render to more audio channels"
+" or to explicitly map audio tracks to channels in the rendered audio. In"
+" order to edit and create surround sound, some manual steps, including"
+" external tools, are required."
+msgstr ""
+"En el moment d'escriure-ho, el Kdenlive només permet renderitzar un projecte "
+"a un vídeo que conté àudio estèreo. No és possible renderitzar a més canals "
+"d'àudio o mapar explícitament les pistes d'àudio als canals de l'àudio "
+"renderitzat. Per a editar i crear so envoltant, es requereixen alguns passos"
+" manuals, incloent-hi eines externes."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:34
+msgid "This guide is using a six-channel 5.1 surround sound as example."
+msgstr "Aquesta guia utilitza un so envoltant de 6 canals 5.1 com a exemple."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:38
+msgid "External Tools Used Here"
+msgstr "Eines externes utilitzades aquí"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:40
+msgid "|audacity| - Free Audio Editor and Recorder"
+msgstr "|audacity|: editor lliure d'àudio i enregistrador"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:41
+msgid "|avconv| - A Video and Audio Converter"
+msgstr "|avconv|: un convertidor de vídeo i àudio"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:43
+msgid ""
+"Kdenlive uses |ffmpeg|, while on (k)ubuntu, ffmpeg is deprecated and avconv"
+" is used instead. So these (and possibly other) distributions already have"
+" avconv installed."
+msgstr ""
+"El Kdenlive utilitza el |ffmpeg|, mentre que a (K)Ubuntu, el «ffmpeg» és "
+"obsolet i s'utilitza l'«avconv» en el seu lloc. Així que aquestes (i "
+"possiblement altres) distribucions ja tenen l'«avconv» instal·lat."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:47
+msgid "Creating New Surround Sound"
+msgstr "Crear un so envoltant nou"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:49
+msgid ""
+"This guide describes one possible workaround using Audacity to create and"
+" render a 5.1 surround sound audio track that can be added to the video"
+" rendered by Kdenlive."
+msgstr ""
+"Aquesta guia descriu una possible solució temporal utilitzant l'Audacity per "
+"a crear i renderitzar una pista d'àudio de so envoltant 5.1 que es pot afegir"
+" al vídeo renderitzat pel Kdenlive."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:51
+msgid ""
+"More advanced features such as surround panning (i.e. let a sound move from"
+" rear to front) are beyond the capabilities of Audacity - but it is possible"
+" to create similar effects manually."
+msgstr ""
+"Les característiques més avançades com ara la panoràmica envoltant (és a "
+"dir, un moviment de so de darrere a davant) estan més enllà de les "
+"capacitats de l'Audacity, però és possible crear efectes similars manualment."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:55
+msgid "Create and Edit Surround Sound with Audacity"
+msgstr "Crear i editar el so envoltant amb l'Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:57
+msgid ""
+"The following example of a simple 5.1 surround sound is used in this guide:"
+msgstr ""
+"En aquesta guia s'utilitza l'exemple següent d'un so envoltant simple 5.1:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:59
+msgid "Some original field recording from the front (stereo)"
+msgstr "Una gravació de camp original des del davant (estèreo)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:60
+msgid "Some voice from the (front) center (mono)"
+msgstr "Una veu des del centre (davant) (mono)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:61
+msgid "Some music from the rear (stereo)"
+msgstr "Una música del darrere (estèreo)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:63
+msgid ""
+"If, like in this example, some original field recording from a video clip is"
+" supposed to be used to create the surround sound audio track, it can be"
+" easily extracted using Kdenlive with :menuselection:`Extract Audio --> Wav"
+" 48000Hz` from the context menu of the clip. This creates a WAV audio file in"
+" the same folder where the video clip is located."
+msgstr ""
+"Si, com en aquest exemple, se suposa que s'ha d'utilitzar un enregistrament "
+"de camp original d'un clip de vídeo per a crear la pista d'àudio de so "
+"envoltant, es pot extreure fàcilment utilitzant el Kdenlive amb :"
+"menuselection:`Extreu l'àudio --> Wav 48000 Hz` des del menú contextual del "
+"clip. Això crea un fitxer d'àudio WAV a la mateixa carpeta on es troba el "
+"clip de vídeo."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:65
+msgid "The audio clips to be used in this example are:"
+msgstr "Els clips d'àudio que s'utilitzen en aquest exemple són:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:67
+msgid ":file:`Field.wav` (stereo) for Front L+R"
+msgstr ":file:`Field.wav` (estèreo) per al frontal E+D"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:68
+msgid ":file:`Voice.wav` (mono) for Center"
+msgstr ":file:`Voice.wav` (mono) per al centre"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:69
+msgid ":file:`Music.mp3` (stereo) for Surround L+R (rear)"
+msgstr ":file:`Music.mp3` (estèreo) per al so envoltant E+D (darrere)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:71
+msgid ""
+"In a new Audacity project, they can be imported in the above order with"
+" :menuselection:`Menu --> File --> Import --> Audio...`, the project should"
+" now look something like this:"
+msgstr ""
+"En un projecte nou de l'Audacity, es poden importar en l'ordre anterior amb "
+":menuselection:`Menú --> Fitxer --> Importa --> Àudio...`, el projecte ara"
+" hauria de semblar una cosa així:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:77
+msgid "Audacity screenshot"
+msgstr "Captura de pantalla de l'Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:79
+msgid "The channel mapping for 5.1 surround sound is:"
+msgstr "L'assignació de canals per al so envoltant 5.1 és:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:81
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:167
+msgid "1 - Front Left"
+msgstr "1 - Frontal esquerre"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:82
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:168
+msgid "2 - Front Right"
+msgstr "2 - Frontal dret"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:83
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:169
+msgid "3 - Center"
+msgstr "3 - Centre"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:84
+msgid "4 - :abbr:`LFE (Low Frequency Effects)`"
+msgstr "4 - :abbr:`LFE («Low Frequency Effects», Efectes de baixa freqüència)`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:85
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:171
+msgid "5 - Surround Left"
+msgstr "5 - So envoltant esquerre"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:86
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:172
+msgid "6 - Surround Right"
+msgstr "6 - So envoltant dret"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:88
+msgid ""
+":abbr:`LFE (Low Frequency Effects)` is often referred to as \"subwoofer"
+" channel\", which is not quite correct. A surround sound speaker setup is"
+" perfectly valid without subwoofer. In this case the surround sound system"
+" will redirect the LFE channel to \"large\" speakers, usually the front"
+" speakers."
+msgstr ""
+":abbr:`LFE («Low Frequency Effects», Efectes de baixa freqüència)` es coneix "
+"sovint com a «canal de l'altaveu de greus» («subwoofer»), que no és gaire "
+"correcte. Una configuració d'altaveu de so envoltant és perfectament vàlida "
+"sense altaveu de greus. En aquest cas, el sistema de so envoltant redirigeix"
+" el canal LFE als altaveus «grans», normalment els altaveus frontals."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:90
+msgid ""
+"The stereo track \"Field\" can now be mapped to Front L+R, \"Voice\" to"
+" Center and \"Music\" to Surround L+R. There is just one problem: the"
+" Surround (rear) speakers of a surround speaker system are usually \"small\""
+" and not able to reproduce low frequencies. So it would be necessary to map"
+" the low frequency range of the \"Music\" track to the LFE channel, otherwise"
+" the music might sound a little \"thin\"."
+msgstr ""
+"La pista estèreo «Field» ara es pot assignar al Frontal E+D, «Voice» a "
+"Centre i «Music» a So envoltant E+D. Només hi ha un problema: els altaveus "
+"envoltants (darrere) d'un sistema d'altaveus envoltants solen ser «petits» i "
+"no poden reproduir freqüències baixes. Així que seria necessari assignar "
+"l'interval de baixa freqüència de la cançó «Music» al canal LFE, en cas "
+"contrari la música podria sonar una mica «tènue»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:92
+msgid ""
+"To do this, the \"Music\" track can simply be duplicated with"
+" :menuselection:`Menu --> Edit --> Duplicate` after selecting it, and then"
+" :menuselection:`Split Stereo to Mono` from the context menu of the third"
+" track. Then one of the two mono tracks can be deleted; the other one can be"
+" renamed to \"LFE\"."
+msgstr ""
+"Per a fer això, la pista «Music» es pot simplement duplicar amb :"
+"menuselection:`Menú --> Edita --> Duplica` després de seleccionar-la, i "
+"després :menuselection:`Divideix l'estèreo a mono` des del menú contextual "
+"de la tercera pista. Llavors es pot suprimir una de les dues pistes mono; "
+"l'altra es pot canviar el nom a «LFE»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:94
+msgid ""
+"Now the \"Equalization...\" effect could be used to cut off frequencies above"
+" around 100Hz from the \"LFE\" track, and reverse, cut off frequencies below"
+" around 100Hz from the \"Music\" track."
+msgstr ""
+"Ara es podria utilitzar l'efecte «Equalització...» per a retallar les "
+"freqüències per sobre de 100 Hz de la pista «LFE», i a l'inrevés, retallar "
+"les freqüències per sota de 100 Hz de la pista «Music»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:96
+msgid ""
+"Creating technically perfect surround sound is a science all of its own and"
+" thus beyond the scope of this guide - please refer to respective resources"
+" on the web for details."
+msgstr ""
+"La creació d'un so envoltant tècnicament perfecte és una ciència per si "
+"mateixa i, per tant, més enllà de l'àmbit d'aplicació d'aquesta guia; si us "
+"plau consulteu els recursos respectius de la web per a més detalls."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:98
+msgid ""
+"What remains for now is to make sure that the surround sound track has the"
+" same length as the video track it should be added to. The video track used"
+" in this example has a length of 1:00 minute, so the lengths of the audio"
+" tracks in Audacity are adjusted accordingly."
+msgstr ""
+"El que queda ara és assegurar-se que la pista de so envoltant tingui la "
+"mateixa longitud que la pista de vídeo a la qual s'ha d'afegir. La pista de "
+"vídeo utilitzada en aquest exemple té una longitud d'1:00 minut, de manera "
+"que les longituds de les pistes d'àudio de l'Audacity s'ajusten en "
+"conseqüència."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:100
+msgid "The Audacity project should now look something like this:"
+msgstr "El projecte Audacity ara hauria de semblar una cosa així:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:106
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:195
+msgid "Audacity project screenshot"
+msgstr "Captura de pantalla del projecte Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:108
+msgid ""
+"The next thing to do is to export the project to a multichannel 5.1 surround"
+" sound audio file. The format used here is AC-3 (Dolby Digital)."
+msgstr ""
+"El següent que cal fer és exportar el projecte a un fitxer d'àudio de so "
+"envoltant multicanal 5.1. El format utilitzat aquí és AC-3 (Dolby Digital)."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:110
+msgid ""
+"Before exporting, Audacity needs to be configured to allow exporting to a"
+" multichannel audio file: In :menuselection:`Menu --> Edit --> Preferences`,"
+" under :menuselection:`Import/Export`, select \"Use custom mix (for example"
+" to export a 5.1 multichannel file)\"."
+msgstr ""
+"Abans d'exportar, cal configurar l'Audacity per a permetre l'exportació a un "
+"fitxer d'àudio multicanal: A :menuselection:`Menú --> Edita -->"
+" Preferències`, sota :menuselection:`Importa/Exporta`, seleccioneu «Usa una"
+" mescla personalitzada (per exemple per a exportar a un fitxer multicanal"
+" 5.1)»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:112
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:266
+msgid "The project can now be exported into a 5.1 surround sound audio file:"
+msgstr ""
+"Ara es pot exportar el projecte a un fitxer d'àudio de so envoltant 5.1:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:114
+msgid "Select :menuselection:`Menu --> File --> Export...`"
+msgstr "Seleccioneu :menuselection:`Menú --> Fitxer --> Exporta...`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:115
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:269
+msgid "Provide a name for \"Name\" and select \"AC3 Files (FFmpeg)\""
+msgstr "Proporcioneu un nom per al «Nom» i seleccioneu «Fitxers AC3 (FFmpeg)»"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:116
+msgid "Click :guilabel:`Options...` and choose \"512 kbps\" as \"Bit Rate\""
+msgstr ""
+"Feu clic a :guilabel:`Opcions...` i trieu «512 kbps» com a «Taxa de bits»"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:118
+msgid ""
+"The \"Advanced Mixing Options\" dialog should show up. The number of \"Output"
+" Channels\" should be 6 and the channel mapping should already be correct:"
+msgstr ""
+"S'ha de mostrar el diàleg «Opcions de mescla avançades». El nombre de "
+"«canals de sortida» hauria de ser 6 i l'assignació de canals ja hauria de "
+"ser correcta:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:124
+msgid "Audacity mixing options"
+msgstr "Opcions de mescla de l'Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:126
+msgid ""
+"The result of the export should be an :file:`*.ac3` file which is playable"
+" with e.g. **VLC** or **Dragon Player**."
+msgstr ""
+"El resultat de l'exportació hauria de ser un fitxer :file:`*ac3` que es pot "
+"reproduir amb, p. ex., el **VLC** o el **Dragon Player**."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:130
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:284
+msgid "Muxing Video and Audio Together"
+msgstr "Multiplexar el vídeo i l'àudio junts"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:132
+msgid ""
+"The final step is to add the surround sound audio track to the video track,"
+" assuming the video was rendered without audio."
+msgstr ""
+"El pas final és afegir la pista d'àudio de so envoltant a la pista de vídeo, "
+"suposant que el vídeo s'ha renderitzat sense àudio."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:134
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:288
+msgid ""
+"When muxing audio and video files into one file, the actual streams are just"
+" copied, and not transcoded. So there is no quality loss to either the audio"
+" or the video streams. Also, because the streams are just copied, muxing is"
+" very fast."
+msgstr ""
+"Quan es multiplexen els fitxers d'àudio i vídeo en un fitxer, els fluxos "
+"reals es copien i no es transcodifiquen. Per tant, no hi ha pèrdua de "
+"qualitat per als fluxos d'àudio o vídeo. A més, com que els fluxos "
+"simplement es copien, el multiplexat és molt ràpid."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:136
+msgid ""
+"Assuming the video track was rendered to :file:`Video.mkv` and the surround"
+" sound was exported to :file:`5.1.ac3` the command to mux both to"
+" :file:`Video-5.1.mkv` with **avconv** would be:"
+msgstr ""
+"Suposant que la pista de vídeo es va renderitzar a :file:`Video.mkv` i el so "
+"envoltant es va exportar a :file:`5.1.ac3` l'ordre de multiplexar ambdós a :"
+"file:`Video-5.1.mkv` amb l'**avconv** seria:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:142
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:296
+msgid ""
+"The result should be an MKV video containing a Dolby Digital 5.1 surround"
+" sound audio track."
+msgstr ""
+"El resultat hauria de ser un vídeo MKV que contingui una pista d'àudio de so "
+"envoltant Dolby Digital 5.1."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:146
+msgid "Editing Existing Surround Sound"
+msgstr "Edició de so envoltant existent"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:148
+msgid ""
+"When adding a clip with more than two channels to a project, Kdenlive creates"
+" an audio thumbnail that correctly shows all audio channels:"
+msgstr ""
+"En afegir un clip amb més de dos canals a un projecte, el Kdenlive crea una "
+"miniatura d'àudio que mostra correctament tots els canals d'àudio:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:153
+msgid "Kdenlive timeline (Note: Older version!)"
+msgstr "Línia de temps del Kdenlive (nota: versió antiga!)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:155
+msgid ""
+"The clip can be edited and (audio) effects applied to it, and all appears to"
+" work just fine - but once rendering the project, it turns out that the audio"
+" track in the resulting video file is 2 channels (stereo) only."
+msgstr ""
+"El clip i els efectes (àudio) aplicats a ell es pot editar, i tot sembla "
+"funcionar bé, però una vegada que es renderitza el projecte, resulta que la "
+"pista d'àudio en el fitxer de vídeo resultant és només de 2 canals (estèreo)."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:157
+msgid "The following steps provide a manual workaround for this issue."
+msgstr ""
+"Els passos següents proporcionen una solució temporal manual per a aquest "
+"assumpte."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:161
+msgid "Extract and Split the Audio Track"
+msgstr "Extracció i divisió de la pista d'àudio"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:163
+msgid ""
+"The first step is to extract the audio track from the video clip. This can be"
+" done in Kdenlive with :menuselection:`Extract Audio --> Wav 48000Hz` from"
+" the context menu of the clip. This creates a WAV audio file in the same"
+" folder as where the video clip is located."
+msgstr ""
+"El primer pas és extreure la pista d'àudio del clip de vídeo. Això es pot "
+"fer al Kdenlive amb :menuselection:`Extreu l'àudio --> Wav 48000 Hz` des del "
+"menú contextual del clip. Això crea un fitxer d'àudio WAV a la mateixa "
+"carpeta on es troba el clip de vídeo."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:165
+msgid ""
+"The extracted WAV audio file can then be opened in **Audacity**, it should"
+" show all 6 channels, these are:"
+msgstr ""
+"El fitxer d'àudio WAV extret es pot obrir a l'**Audacity**, hauria de "
+"mostrar tots els 6 canals, que són:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:170
+msgid "4 - LFE"
+msgstr "4 - LFE"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:174
+msgid ""
+"LFE (Low Frequency Effects) is often referred to as \"subwoofer channel\","
+" which is not quite correct. A surround sound speaker setup is perfectly"
+" valid without subwoofer. In this case the surround sound system will"
+" redirect the LFE channel to \"large\" speakers, usually the front speakers."
+msgstr ""
+"LFE («Low Frequency Effects», Efectes de baixa freqüència) es coneix sovint "
+"com a «canal de l'altaveu de greus» («subwoofer»), que no és molt correcte. "
+"Una configuració d'altaveu de so envoltant és perfectament vàlida sense "
+"altaveu de greus. En aquest cas, el sistema de so envoltant redirigeix el "
+"canal LFE als altaveus «grans», normalment els altaveus frontals."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:176
+msgid ""
+"The idea now is to split the surround sound into four separate (stereo/mono)"
+" audio files that **Kdenlive** can handle:"
+msgstr ""
+"La idea ara és dividir el so envoltant en quatre fitxers d'àudio separats "
+"(estèreo/mono) que el **Kdenlive** pugui gestionar:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:178
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:261
+msgid "Front (stereo)"
+msgstr "Front (estèreo)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:179
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:262
+msgid "Center (mono)"
+msgstr "Centre (mono)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:180
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:263
+msgid "LFE (mono)"
+msgstr "LFE (mono)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:181
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:264
+msgid "Surround (stereo)"
+msgstr "So envoltant (estèreo)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:183
+msgid ""
+"First, Audacity needs to be configured to not always export to stereo audio"
+" files: In :menuselection:`Edit --> Preferences`, under"
+" :menuselection:`Import/Export`, select \"Use custom mix (for example to"
+" export a 5.1 multichannel file)\"."
+msgstr ""
+"En primer lloc, s'ha de configurar l'Audacity per no exportar sempre a "
+"fitxers d'àudio estèreo: A :menuselection:`Edita --> Preferències`, sota :"
+"menuselection:`Importa/Exporta`, seleccioneu «Usa una mescla personalitzada "
+"(per exemple per a exportar a un fitxer multicanal 5.1)»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:185
+msgid ""
+"Now, tracks 1+2 and 5+6 should be turned into stereo tracks by choosing"
+" :menuselection:`Make Stereo Track` from the context menu of the 1st and the"
+" 5th track, respectively. This should result in 4 tracks, two stereo and two"
+" mono."
+msgstr ""
+"Ara, les pistes 1+2 i 5+6 s'han de convertir en pistes estèreos escollint :"
+"menuselection:`Fes una pista estèreo` des del menú contextual de la primera "
+"i la cinquena pista, respectivament. Això hauria de donar lloc a 4 pistes, "
+"dues estèreos i dues monos."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:187
+msgid ""
+"Next, the 4 tracks should be renamed to \"Front\", \"Center\", \"LFE\" and"
+" \"Surround\" starting from the top, using :menuselection:`Name...` from the"
+" context menu of each track."
+msgstr ""
+"A continuació, les quatre pistes s'han de canviar de nom a «Front», "
+"«Center», «LFE» i «Surround» començant des de la part superior, utilitzant :"
+"menuselection:`Nom...` des del menú contextual de cada pista."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:189
+msgid "The tracks now look like this:"
+msgstr "Les pistes ara semblen així:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:197
+msgid ""
+"After all this hard work, exporting the four tracks to four separate audio"
+" files is easy with :menuselection:`Menu --> File --> Export --> Export"
+" Multiple...`. Use \"WAV\" as \"Export format\", the rest of the settings"
+" should already be okay: \"Split files based on: Tracks\" and \"Name files:"
+" Using Label/Track name\"."
+msgstr ""
+"Després de tot aquest treball de valent, exportar les quatre pistes a quatre "
+"fitxers d'àudio separats és fàcil amb :menuselection:`Menú --> Fitxer --> "
+"Exporta --> Exporta múltiple...`. Utilitzeu «WAV» com a «format"
+" d'exportació», la resta de la configuració ja hauria d'estar bé: «Divideix"
+" els fitxers a partir de: Pistes» i «Anomena els fitxers: Usant el nom"
+" d'etiqueta/pista»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:199
+msgid ""
+"The \"Edit metadata\" dialog might pop up for each track. It is fine to just"
+" say :guilabel:`OK`. At the end there should be a confirmation dialog and"
+" four audio files should have been exported: :file:`Front.wav`,"
+" :file:`Center.wav`, :file:`LFE.wav` and :file:`Surround.wav`."
+msgstr ""
+"El diàleg «Edita les metadades» pot aparèixer per a cada pista. Està bé dir"
+" simplement :guilabel:`D'acord`. Al final hauria d'haver-hi un diàleg de"
+" confirmació i s'haurien d'haver exportat quatre fitxers d'àudio:"
+" :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` i"
+" :file:`Surround.wav`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:203
+msgid "Import Audio Tracks into Kdenlive"
+msgstr "Importar pistes d'àudio en el Kdenlive"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:205
+msgid ""
+"The previously created audio files can now be added to the Kdenlive project"
+" using :menuselection:`Menu --> Project --> Add Clip`."
+msgstr ""
+"Els fitxers d'àudio creats anteriorment ara es poden afegir al projecte "
+"Kdenlive utilitzant :menuselection:`Menú --> Projecte --> Afegeix un clip`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:207
+msgid ""
+"Since there are only two audio tracks in a project by default, it is"
+" necessary to add two more using :menuselection:`Menu --> Project --> Tracks"
+" --> Insert Track` before adding the four audio tracks to the timeline."
+msgstr ""
+"Com que per defecte només hi ha dues pistes d'àudio en un projecte, cal "
+"afegir dues més utilitzant :menuselection:`Menú --> Projecte --> Pistes -->"
+" Insereix una pista` abans d'afegir les quatre pistes d'àudio a la línia de"
+" temps."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:209
+msgid ""
+"The next thing to do is to group the four audio tracks with the video clip by"
+" selecting all of them and then choosing :menuselection:`Menu --> Timeline --"
+"> Group Clips`."
+msgstr ""
+"El següent a fer és agrupar les quatre pistes d'àudio amb el clip de vídeo "
+"seleccionant-les totes i després escollint :menuselection:`Menú --> Línia de"
+" temps --> Agrupa clips`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:211
+msgid ""
+"Don't forget to mute the original audio track in the video clip if necessary!"
+msgstr ""
+"No oblideu silenciar la pista d'àudio original en el clip de vídeo si cal!"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:213
+msgid ""
+"The Kdenlive project should now be ready for the usual editing, like cutting"
+" clips and adding effects, and should look something like this:"
+msgstr ""
+"El projecte Kdenlive ara hauria d'estar preparat per a l'edició habitual, com"
+" retallar clips i afegir efectes, i hauria de semblar alguna cosa així:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:219
+msgid "Kdenlive project example (Note: older version!)"
+msgstr "Exemple de projecte del Kdenlive (nota: versió antiga!)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:223
+msgid "Rendering the Project"
+msgstr "Renderització del projecte"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:225
+msgid ""
+"Since it is not possible to render the project with a surround sound audio"
+" track, some manual steps are necessary to work around this."
+msgstr ""
+"Com que no és possible renderitzar el projecte amb una pista d'àudio de so "
+"envoltant, calen alguns passos manuals per una solució alternativa."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:227
+msgid ""
+"First, the video track needs to be rendered without audio. This is simply"
+" done by rendering the project as it would normally be done, but without"
+" audio, by deselecting the :guilabel:`Audio` checkbox."
+msgstr ""
+"En primer lloc, la pista de vídeo s'ha de renderitzar sense àudio. Això es "
+"fa simplement renderitzant el projecte tal com es faria normalment, però "
+"sense àudio, desseleccionant la casella de selecció :guilabel:`Àudio`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:229
+msgid ""
+"Then, each of the four surround sound audio tracks :file:`Front.wav`,"
+" :file:`Center.wav`, :file:`LFE.wav` and :file:`Surround.wav` needs to be"
+" rendered into a separate audio file. For each of them, do the following:"
+msgstr ""
+"Llavors, cadascuna de les quatre pistes d'àudio de so envoltant :file:`Front."
+"wav`, :file:`Center.wav`, :file:`LFE.wav` i :file:`Surround.wav` necessita "
+"ser renderitzada en un fitxer d'àudio separat. Per a cadascuna d'elles, feu "
+"el següent:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:236
+msgid "Exporting audio only in separate tracks"
+msgstr "Exportació de l'àudio només en pistes separades"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:238
+msgid "Mute all other audio tracks"
+msgstr "Silencia totes les altres pistes d'àudio"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:239
+msgid "Click on |media-record| Render..."
+msgstr "Feu clic a Renderitza a |media-record|..."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:240
+msgid "Enter a respective file name for :guilabel:`Output file`"
+msgstr ""
+"Introduïu un nom de fitxer respectiu per a :guilabel:`Fitxer de sortida`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:241
+msgid "Select preset :guilabel:`Audio only`"
+msgstr "Seleccioneu la predefinició :guilabel:`Només àudio`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:242
+msgid "Select profile :guilabel:`WAV`"
+msgstr "Seleccioneu el perfil :guilabel:`WAV`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:243
+msgid "Make sure :guilabel:`Audio` is checked"
+msgstr "Assegureu-vos que :guilabel:`Àudio` està marcada"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:244
+msgid "Make sure :guilabel:`Separate file for each audio track` is not checked"
+msgstr ""
+"Assegureu-vos que :guilabel:`Fitxer separat per a cada pista d'àudio` no "
+"està marcada"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:245
+msgid "Click on :guilabel:`Render to file`"
+msgstr "Feu clic a :guilabel:`Renderitza a fitxer`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:247
+msgid ""
+"Unfortunately, the mono tracks :file:`Center.wav` and :file:`LFE.wav` are"
+" rendered as stereo tracks, and there seems to be no way to avoid this. But"
+" this can be handled later in Audacity."
+msgstr ""
+"Desafortunadament, les pistes mono :file:`Center.wav` i :file:`LFE.wav` es "
+"representen com a pistes estèreos, i sembla que no hi ha manera d'evitar-ho. "
+"Però això es pot gestionar més tard a l'Audacity."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:251
+msgid "Compose a Surround Sound Audio File"
+msgstr "Compondre un fitxer d'àudio de so envoltant"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:253
+msgid ""
+"Now the separate audio tracks rendered by Kdenlive need to be \"merged\" into"
+" a single multichannel 5.1 surround sound audio file. This is again done in"
+" Audacity:"
+msgstr ""
+"Ara les pistes d'àudio separades renderitzades pel Kdenlive s'han de "
+"«fusionar» en un sol fitxer d'àudio de so envoltant multicanal 5.1. Això es "
+"fa de nou a l'Audacity:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:255
+msgid ""
+"Import :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` and"
+" :file:`Surround.wav` (in this order!) using :menuselection:`File --> Import"
+" --> Audio...`"
+msgstr ""
+"Importa :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` i :file:"
+"`Surround.wav` (en aquest ordre!) utilitzant :menuselection:`Fitxer --> "
+"Importa --> Àudio...`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:257
+msgid ""
+"\"Center\" and \"LFE\" are now stereo, which is not what is needed. This can"
+" be fixed by selecting :menuselection:`Split Stereo to Mono` from the context"
+" menu of each track, and deleting one of the two resulting mono tracks."
+msgstr ""
+"«Center» i «LFE» ara són estèreos, que no és el que es necessita. Això es "
+"pot corregir seleccionant :menuselection:`Divideix l'estèreo a mono` des del "
+"menú contextual de cada pista, i suprimint una de les dues pistes mono "
+"resultants."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:259
+msgid "Eventually, there should be four tracks in the Audacity project:"
+msgstr "Al final, hi hauria d'haver quatre pistes en el projecte Audacity:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:268
+msgid "Select :menuselection:`File --> Export...`"
+msgstr "Seleccioneu :menuselection:`Fitxer --> Exporta...`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:270
+msgid ""
+"Click :guilabel:`Options...` and choose :guilabel:`512 kbps` as \"Bit Rate\""
+msgstr ""
+"Feu clic a :guilabel:`Opcions...` i trieu :guilabel:`512 kbps` com a «Taxa "
+"de bits»"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:272
+msgid ""
+"The **Advanced Mixing Options** dialog should show up. The number of **Output"
+" Channels** should be 6 and the channel mapping should already be correct:"
+msgstr ""
+"S'ha de mostrar el diàleg **Opcions de mescla avançades**. El nombre de "
+"**canals de sortida** hauria de ser 6 i l'assignació de canals ja hauria de "
+"ser correcta:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:278
+msgid "Audacity advanced mixing options"
+msgstr "Opcions avançades de mescla de l'Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:280
+msgid ""
+"The result of the export should be an :file:`*.ac3` file which is playable"
+" with i.e. **VLC** or **Dragon Player**."
+msgstr ""
+"El resultat de l'exportació hauria de ser un fitxer :file:`*.ac3` que es pot "
+"reproduir amb, p. ex., el **VLC** o el **Dragon Player**."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:286
+msgid ""
+"Since video and audio was rendered separately, both need to be multiplexed"
+" into a single file containing both the video and audio stream."
+msgstr ""
+"Com que el vídeo i l'àudio s'han renderitzat per separat, tots dos s'han de "
+"multiplexar en un sol fitxer que conté tant el flux de vídeo com l'àudio."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:290
+msgid ""
+"Assuming the video track was rendered to :file:`Video.mkv` and the surround"
+" sound was exported to :file:`5.1.ac3`, the command to mux both to"
+" :file:`Video-5.1.mkv` with **avconv** would be:"
+msgstr ""
+"Suposant que la pista de vídeo es va renderitzar a :file:`Video.mkv` i el so "
+"envoltant es va exportar a :file:`5.1.ac3`, l'ordre de multiplexar ambdós a "
+":file:`Video-5.1.mkv` amb l'**avconv** seria:"
