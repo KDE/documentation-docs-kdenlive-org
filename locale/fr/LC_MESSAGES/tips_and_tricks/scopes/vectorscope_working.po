@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"POT-Creation-Date: 2023-10-30 00:36+0000\n"
 "PO-Revision-Date: 2023-10-29 05:30+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -21,7 +21,10 @@ msgid "Kdenlive Tips & Tricks - The Vectorscope"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:1
-msgid "KDE, Kdenlive, tips, tricks, tips & tricks, scopes, vectorscope, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy"
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, vectorscope, editing, "
+"timeline, documentation, user manual, video editor, open source, free, "
+"learn, easy"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:42
@@ -29,7 +32,12 @@ msgid "The Vectorscope"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:44
-msgid "The next scope (after the :ref:`Histogram <scopes-histogram_working>` and the :ref:`Waveform and RGB Parade <scopes-waveform_and_rgb_parade>`) we want to discuss in more detail is the **Vectorscope**. This is actually the most interesting scope because it is quite different from the other ones and, secondly, is really useful for :term:`color grading`."
+msgid ""
+"The next scope (after the :ref:`Histogram <scopes-histogram_working>` and "
+"the :ref:`Waveform and RGB Parade <scopes-waveform_and_rgb_parade>`) we want "
+"to discuss in more detail is the **Vectorscope**. This is actually the most "
+"interesting scope because it is quite different from the other ones and, "
+"secondly, is really useful for :term:`color grading`."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:51
@@ -37,19 +45,43 @@ msgid "How the Vectorscope Works"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:53
-msgid "There is one simple thing that makes the Vectorscope so special: It uses a color space different than RGB. That sounds unspectacular but it is not. The previous scopes allow you to determine which brightness values exist in your image, the Vectorscope shows which colors there are."
+msgid ""
+"There is one simple thing that makes the Vectorscope so special: It uses a "
+"color space different than RGB. That sounds unspectacular but it is not. The "
+"previous scopes allow you to determine which brightness values exist in your "
+"image, the Vectorscope shows which colors there are."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:55
-msgid "The Vectorscope supports two different color spaces: :term:`YUV` and :term:`YPbPr`. Both of them have the *Y* in common, something you know from before: It is the *Luma component* (Rec.601 in both cases). This, amongst others, comes from black/white TV. When Color TV was introduced, some people actually recognized that not everybody would immediately trash his old b/w TV and buy a new one, so they still sent the b/w signal, but with two additional channels: The blue difference and the red difference (to :term:`Luma`), called U and V. For more details look at the image with its individual YUV components on the Wikipedia page about |yuv|."
+msgid ""
+"The Vectorscope supports two different color spaces: :term:`YUV` and :term:"
+"`YPbPr`. Both of them have the *Y* in common, something you know from "
+"before: It is the *Luma component* (Rec.601 in both cases). This, amongst "
+"others, comes from black/white TV. When Color TV was introduced, some people "
+"actually recognized that not everybody would immediately trash his old b/w "
+"TV and buy a new one, so they still sent the b/w signal, but with two "
+"additional channels: The blue difference and the red difference (to :term:"
+"`Luma`), called U and V. For more details look at the image with its "
+"individual YUV components on the Wikipedia page about |yuv|."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:57
-msgid "The other color space, :term:`YPbPr` or its digital counterpart :term:`YCbCr` respectively, are similar. If you switch between the two color models in the Vectorscope (via the context menu) you will notice that the colors are slightly shifted. YCbCr is used basically everywhere in digital video."
+msgid ""
+"The other color space, :term:`YPbPr` or its digital counterpart :term:"
+"`YCbCr` respectively, are similar. If you switch between the two color "
+"models in the Vectorscope (via the context menu) you will notice that the "
+"colors are slightly shifted. YCbCr is used basically everywhere in digital "
+"video."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:59
-msgid "So, what the Vectorscope does: It calculates the Luma value of a pixel, then calculates the blue difference/red difference values. Then it throws the Luma value away. Why is that? It is because the Vectorscope is 2-dimensional. The blue difference is on the horizontal axis, the red difference is on the vertical axis. (There actually are three-dimensional vectorscopes which put the Luma component on the third axis!)"
+msgid ""
+"So, what the Vectorscope does: It calculates the Luma value of a pixel, then "
+"calculates the blue difference/red difference values. Then it throws the "
+"Luma value away. Why is that? It is because the Vectorscope is 2-"
+"dimensional. The blue difference is on the horizontal axis, the red "
+"difference is on the vertical axis. (There actually are three-dimensional "
+"vectorscopes which put the Luma component on the third axis!)"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:62
@@ -65,7 +97,13 @@ msgid "Vectorscope with a black-and-white image"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:72
-msgid "Well … nothing? Close. There is a little pixel in the middle of the scope. And that is the whole image. That looks a little disappointing now, but actually it is great. All greys (plus black and white) are exactly in the middle. Everything that is not in the middle has some color information (and the further away it is from the middle, the higher its saturation aka. chrominance). This will come in very handy when it comes to white balance."
+msgid ""
+"Well … nothing? Close. There is a little pixel in the middle of the scope. "
+"And that is the whole image. That looks a little disappointing now, but "
+"actually it is great. All greys (plus black and white) are exactly in the "
+"middle. Everything that is not in the middle has some color information (and "
+"the further away it is from the middle, the higher its saturation aka. "
+"chrominance). This will come in very handy when it comes to white balance."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:75
@@ -77,7 +115,10 @@ msgid "Vectorscope with a color image (juggling balls)"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:83
-msgid "Juggling balls are more interesting, especially when they are colored. The ones above are. In this example a YUV background (with fixed Luma) has been switched in order to better identify the colors of pixel heaps on the scope."
+msgid ""
+"Juggling balls are more interesting, especially when they are colored. The "
+"ones above are. In this example a YUV background (with fixed Luma) has been "
+"switched in order to better identify the colors of pixel heaps on the scope."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:85
@@ -85,7 +126,9 @@ msgid "Two things can be noticed:"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:87
-msgid "there are six areas with high black density on the scope (which means that many pixels share this :term:`hue`):"
+msgid ""
+"there are six areas with high black density on the scope (which means that "
+"many pixels share this :term:`hue`):"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:89
@@ -109,19 +152,37 @@ msgid "And the last one which you might have missed, between red and blue."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:95
-msgid "These are exactly the ball's colors! Blue comes from the two balls on the left, yellow from the yellow ball, the left red area is the pink part of the left ball, the right part in red is the red ball on the right. The part between red and yellow, which is actually orange, is the background of the whole scene, and the last one between red and blue is the violet part of the right red ball."
+msgid ""
+"These are exactly the ball's colors! Blue comes from the two balls on the "
+"left, yellow from the yellow ball, the left red area is the pink part of the "
+"left ball, the right part in red is the red ball on the right. The part "
+"between red and yellow, which is actually orange, is the background of the "
+"whole scene, and the last one between red and blue is the violet part of the "
+"right red ball."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:97
-msgid "The orange background seems to connect all other areas. This is something really amazing. Like magic. It will help doing white balance. The neutral area will almost always seem to connect the other ones."
+msgid ""
+"The orange background seems to connect all other areas. This is something "
+"really amazing. Like magic. It will help doing white balance. The neutral "
+"area will almost always seem to connect the other ones."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:99
-msgid "As the shot above is actually correctly white balanced, it should not be maltreated it here. But you should actually try! Download the sample below, add a :ref:`SOP/Sat <effects-sop_sat>` effect and change the :guilabel:`Offset`` parameters for the RGB values. (Do not forget to enable auto-refresh.)"
+msgid ""
+"As the shot above is actually correctly white balanced, it should not be "
+"maltreated it here. But you should actually try! Download the sample below, "
+"add a :ref:`SOP/Sat <effects-sop_sat>` effect and change the :guilabel:"
+"`Offset`` parameters for the RGB values. (Do not forget to enable auto-"
+"refresh.)"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:101
-msgid "Now perhaps you wonder how we could be so sure assigning those spots to colors. Is it really the upper spot caused by the red ball? To find out, the red ball out was masked out using a white Color Clip. The spot then indeed disappeared."
+msgid ""
+"Now perhaps you wonder how we could be so sure assigning those spots to "
+"colors. Is it really the upper spot caused by the red ball? To find out, the "
+"red ball out was masked out using a white Color Clip. The spot then indeed "
+"disappeared."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:107
@@ -129,7 +190,10 @@ msgid "Vectorscope with a partly covered (masked) color image"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:109
-msgid "The violet spot has disappeared as well, and also big parts of the yellow spot because the white rectangle covers a large part of the yellow ball as well."
+msgid ""
+"The violet spot has disappeared as well, and also big parts of the yellow "
+"spot because the white rectangle covers a large part of the yellow ball as "
+"well."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:112
@@ -145,15 +209,23 @@ msgid "Again, two things worth pointing out for this clip:"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:122
-msgid "This shot of a Swiss Musical Box mainly consists of orange tones, all points on the vectorscope lie between neutral (center) and orange. Not too saturated orange tones presumably coming from the bronze/messing parts."
+msgid ""
+"This shot of a Swiss Musical Box mainly consists of orange tones, all points "
+"on the vectorscope lie between neutral (center) and orange. Not too "
+"saturated orange tones presumably coming from the bronze/messing parts."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:124
-msgid "The white balance seems to be correct. The Vectorscope indicates that there are neutral pixels (i.e. greys), and they seem to be the origin for the other colors."
+msgid ""
+"The white balance seems to be correct. The Vectorscope indicates that there "
+"are neutral pixels (i.e. greys), and they seem to be the origin for the "
+"other colors."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:126
-msgid "But when increasing the gain (or zoom level) of the Vectorscope to 5x we see that the scope image actually stops right before neutral."
+msgid ""
+"But when increasing the gain (or zoom level) of the Vectorscope to 5x we see "
+"that the scope image actually stops right before neutral."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:132
@@ -161,7 +233,15 @@ msgid "Vectorscope before white balancing"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:134
-msgid "If you open this clip and take a look at the Waveform you will notice that it shows the same: Blue is too low, red is too high. To correct this minor color cast we can use the :ref:`SOP/Sat <effects-sop_sat>` effect again, adjusting the :guilabel:`Offset` values. By doing that the points on the Vectorscope will be shifted around. A positive red offset will make the points shift towards red at the top, a negative offset shifts them towards the opposite direction (that is, towards the |complementary_color| of red, cyan)."
+msgid ""
+"If you open this clip and take a look at the Waveform you will notice that "
+"it shows the same: Blue is too low, red is too high. To correct this minor "
+"color cast we can use the :ref:`SOP/Sat <effects-sop_sat>` effect again, "
+"adjusting the :guilabel:`Offset` values. By doing that the points on the "
+"Vectorscope will be shifted around. A positive red offset will make the "
+"points shift towards red at the top, a negative offset shifts them towards "
+"the opposite direction (that is, towards the |complementary_color| of red, "
+"cyan)."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:140
@@ -169,23 +249,41 @@ msgid "Vectorscope after white balancing"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:142
-msgid "Here, the blue and red values were adjusted such that there is some padding around the neutral center. It is usually not enough to just let the first pixel hit the neutral point because of several factors like the material of the neutral object itself, chromatic abberation (also see this more accurate article about |chromatic_aberration|) in lenses, and artifacts in the recorded video file. So usually neutral areas will not share one single pixel in the vectorscope but have a certain diameter. Hence the padding."
+msgid ""
+"Here, the blue and red values were adjusted such that there is some padding "
+"around the neutral center. It is usually not enough to just let the first "
+"pixel hit the neutral point because of several factors like the material of "
+"the neutral object itself, chromatic aberration (also see this more accurate "
+"article about |chromatic_aberration|) in lenses, and artifacts in the "
+"recorded video file. So usually neutral areas will not share one single "
+"pixel in the vectorscope but have a certain diameter. Hence the padding."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:144
-msgid "Because this is a suitable clip for :term:`hue` and the :ref:`effects-hue_shift` effect:"
+msgid ""
+"Because this is a suitable clip for :term:`hue` and the :ref:`effects-"
+"hue_shift` effect:"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:150
-msgid "Vectorscope of the musical box after applying the :ref:`effects-hue_shift` effect (Hue=45)"
+msgid ""
+"Vectorscope of the musical box after applying the :ref:`effects-hue_shift` "
+"effect (Hue=45)"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:152
-msgid "Now what happened here? The hue has changed, and the points on the scope look like rotated by 30 degrees. And indeed they did rotate. The :ref:`Hueshift <effects-hue_shift>` effect changes the hue of all colors by a certain (configurable) amount. In the Vectorscope this becomes visible as a rotation around the center of the scope."
+msgid ""
+"Now what happened here? The hue has changed, and the points on the scope "
+"look like rotated by 30 degrees. And indeed they did rotate. The :ref:"
+"`Hueshift <effects-hue_shift>` effect changes the hue of all colors by a "
+"certain (configurable) amount. In the Vectorscope this becomes visible as a "
+"rotation around the center of the scope."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:154
-msgid "Similarly, when changing the saturation/chroma, the dots on the vectorscope will move closer to the center or further away from it."
+msgid ""
+"Similarly, when changing the saturation/chroma, the dots on the vectorscope "
+"will move closer to the center or further away from it."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:157
@@ -193,11 +291,16 @@ msgid "Creating a Look for Your Video"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:159
-msgid "In the :doc:`Histogram <histogram_working>` chapter we mentioned creating looks with color correction or :term:`Color Grading`. This example covers part of the tip of the iceberg of this topic."
+msgid ""
+"In the :doc:`Histogram <histogram_working>` chapter we mentioned creating "
+"looks with color correction or :term:`Color Grading`. This example covers "
+"part of the tip of the iceberg of this topic."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:161
-msgid "What is special about creating a look for a video? Let's take a look at some random clips:"
+msgid ""
+"What is special about creating a look for a video? Let's take a look at some "
+"random clips:"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:167
@@ -205,7 +308,12 @@ msgid "Collection of not color-graded video stills"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:169
-msgid "Mostly different content and therefore different colors - as said: random. One point of Color Grading is to give single clips a connection. This is not limited to white balance only. White balancing a clip is about removing color casts (which is a good thing because it gives you a neutral starting point). But we can also add new colors."
+msgid ""
+"Mostly different content and therefore different colors - as said: random. "
+"One point of Color Grading is to give single clips a connection. This is not "
+"limited to white balance only. White balancing a clip is about removing "
+"color casts (which is a good thing because it gives you a neutral starting "
+"point). But we can also add new colors."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:175
@@ -213,7 +321,15 @@ msgid "Collection of color-graded video stills"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:177
-msgid "These clips look much more like if they belonged together. This is the result of **Primary Color Correction** (*Primary* means that it affects the whole image; *Secondary Color Correction* would only affect parts of it, e.g. by using masks, choosing color ranges, etc.): White balance (plus in some cases reduction of saturation) followed by a :ref:`SOP/Sat <effects-sop_sat>` effect. The latter SOP/Sat effect does something similar as the Blockbuster Effect: here the blacks become blueish, the mids and the whites tend towards yellow."
+msgid ""
+"These clips look much more like if they belonged together. This is the "
+"result of **Primary Color Correction** (*Primary* means that it affects the "
+"whole image; *Secondary Color Correction* would only affect parts of it, e."
+"g. by using masks, choosing color ranges, etc.): White balance (plus in some "
+"cases reduction of saturation) followed by a :ref:`SOP/Sat <effects-"
+"sop_sat>` effect. The latter SOP/Sat effect does something similar as the "
+"Blockbuster Effect: here the blacks become blueish, the mids and the whites "
+"tend towards yellow."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:179
@@ -229,11 +345,19 @@ msgid "You can adjust the Vectorscope as follows by right-clicking it:"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:186
-msgid "*Export Background* - Exports a color plane of the desired color space. It allows to export RGB, :term:`YUV` and :term:`YCbCr` planes (like the ones you see when visiting the Wikipedia articles about these color spaces)."
+msgid ""
+"*Export Background* - Exports a color plane of the desired color space. It "
+"allows to export RGB, :term:`YUV` and :term:`YCbCr` planes (like the ones "
+"you see when visiting the Wikipedia articles about these color spaces)."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:188
-msgid "*75% Box* - Marks the position where color saturation reaches 75% of its maximum value. This may be interesting if you work for broadcast. Colors exceeding this box were not regarded as |broadcast_safe| - but before changing the saturation to a max of 75% better consult your broadcast company."
+msgid ""
+"*75% Box* - Marks the position where color saturation reaches 75% of its "
+"maximum value. This may be interesting if you work for broadcast. Colors "
+"exceeding this box were not regarded as |broadcast_safe| - but before "
+"changing the saturation to a max of 75% better consult your broadcast "
+"company."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:190
@@ -241,7 +365,8 @@ msgid "*Draw axis* - Draws the U/Pb (horizontal) and V/Cr (vertical) axis."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:192
-msgid "*YUV* and *YPbPr* - Switches between the two color spaces YUV and YPbPr."
+msgid ""
+"*YUV* and *YPbPr* - Switches between the two color spaces YUV and YPbPr."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:196
@@ -249,11 +374,21 @@ msgid "Summary"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:197
-msgid "The Vectorscope shows the hue and saturation distribution in a way we can understand without problems. This is useful for quickly recognizing color casts, but also helps judging the color distribution of a clip and match it to others."
+msgid ""
+"The Vectorscope shows the hue and saturation distribution in a way we can "
+"understand without problems. This is useful for quickly recognizing color "
+"casts, but also helps judging the color distribution of a clip and match it "
+"to others."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:199
-msgid "All scopes together fulfill another important task: They help matching video from different light situations and different input sources (like a second camera) regarding brightness and color. This is what you need |test_charts| for. Different cameras might have a different dynamic range and different colors. So when combining these shots you first shoot a test chart and then match exposure and color."
+msgid ""
+"All scopes together fulfill another important task: They help matching video "
+"from different light situations and different input sources (like a second "
+"camera) regarding brightness and color. This is what you need |test_charts| "
+"for. Different cameras might have a different dynamic range and different "
+"colors. So when combining these shots you first shoot a test chart and then "
+"match exposure and color."
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:204
@@ -261,17 +396,28 @@ msgid "Notes"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:210
-msgid ":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
+msgid ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
+"samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:211
-msgid ":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/juggling-balls.avi>` (720/24p, 11 MB)"
+msgid ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
+"juggling-balls.avi>` (720/24p, 11 MB)"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:212
-msgid ":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/Musical-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom H4n.)"
+msgid ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/"
+"Musical-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom "
+"H4n.)"
 msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:214
-msgid "The original text was submitted by *Simon A. Eugster (Granjow)* on Tue, 10/10/2010 - 18:30 to the now defunct kdenlive.org blog. For this documentation it has been lifted from |web_archive|, updated and adapted to match the overall style."
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Tue, "
+"10/10/2010 - 18:30 to the now defunct kdenlive.org blog. For this "
+"documentation it has been lifted from |web_archive|, updated and adapted to "
+"match the overall style."
 msgstr ""
