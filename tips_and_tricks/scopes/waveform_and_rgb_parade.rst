@@ -109,7 +109,7 @@ To achieve proper white balance here we make use of a new effect called :ref:`SO
 
 The first thing to decide is how bright the darkest spot should be. This can be controlled with the :guilabel:`Offset` parameter. Reference is again the left part of the Parades, the soon-to-be white ceiling. You can use your mouse to make the Waveform or RGB Parade draw a horizontal line and display the value there. All channels were lifted to around 50 in this example:
 
-.. note:: The :ref:`effects-sop_sat` uses a different scale than the RGP Parade :term:`widget`. The lifting of the channels refers to the RGB Parade scale (0...255) as one can see in the :guilabel:`Min` in the RGB Parade display. The idea is to lift the channels so that there bottoms are aligned.
+.. note:: The :ref:`effects-sop_sat` uses a different scale than the RGP Parade :term:`widget`. The lifting of the channels refers to the RGB Parade scale (0...255) as one can see in the :guilabel:`Min` in the RGB Parade display. The idea is to lift the channels so that their bottoms are aligned.
 
 .. .. image:: /images/kdenlive-colorscopes-rgbparade-fluorescent-offset.png
 
