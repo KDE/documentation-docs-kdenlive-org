@@ -50,7 +50,7 @@ Following camera proxies are supported:
    DJI LRF=./;;.LRF;./;;.MP4
 
 
-In order to use the already available proxy files go to the project settings, and in the tab :ref:`configure_proxy_clips` check :guilabel:`Enable proxy clips` if not enabled already, and then check :guilabel:`External proxy clips` and select your camera profile. Now when you a clip to your project Kdenlive will automatically use the camera generated proxy instead of creating a new one. You can also directly add the proxy clip in the project and it will be recognized as a proxy.
+In order to use the already available proxy files go to the project settings, and in the tab :ref:`configure_proxy_clips` check :guilabel:`Enable proxy clips` if not enabled already, and then check :guilabel:`External proxy clips` and select your camera profile. Now when you add a clip to your project, Kdenlive will automatically use the camera generated proxy instead of creating a new one. You can also directly add the proxy clip in the project and it will be recognized as a proxy.
 
 .. |send_us| raw:: html
 
