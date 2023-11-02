@@ -1,0 +1,575 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 00:36+0000\n"
+"PO-Revision-Date: 2023-11-01 12:58+0100\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"Language: sl\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Viri**"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:1
+msgid "Kdenlive Tips & Tricks - The Vectorscope"
+msgstr "Nasveti in triki Kdenlive - Vektroskop"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, vectorscope, editing, "
+"timeline, documentation, user manual, video editor, open source, free, "
+"learn, easy"
+msgstr ""
+"KDE, Kdenlive, nasveti, triki, nasveti in triki, merilnki, vektroskop, "
+"montaža, časovnica, dokumentacija, uporabniški priročnik, montažni program, "
+"program za videomontažo, urejevalnik videa, odprta koda, brezplačno, učenje, "
+"enostavno"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:42
+msgid "The Vectorscope"
+msgstr "Vektroskop"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:44
+msgid ""
+"The next scope (after the :ref:`Histogram <scopes-histogram_working>` and "
+"the :ref:`Waveform and RGB Parade <scopes-waveform_and_rgb_parade>`) we want "
+"to discuss in more detail is the **Vectorscope**. This is actually the most "
+"interesting scope because it is quite different from the other ones and, "
+"secondly, is really useful for :term:`color grading`."
+msgstr ""
+"Naslednji merilnik (po :ref:`Histogramu <scopes-histogram_working>`, :ref:"
+"`Signalni obliki in Paradi RGB <scopes-waveform_and_rgb_parade>`), ki ga "
+"želimo podrobneje obravnavati, je **Vektroskop**. To je pravzaprav "
+"najzanimivejši merilnik, ker se precej razlikuje od drugih, in drugič, je "
+"resnično uporaben za :term:`barvno korekcijo<color grading>`."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:51
+msgid "How the Vectorscope Works"
+msgstr "Kako deluje vektroskop"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:53
+msgid ""
+"There is one simple thing that makes the Vectorscope so special: It uses a "
+"color space different than RGB. That sounds unspectacular but it is not. The "
+"previous scopes allow you to determine which brightness values exist in your "
+"image, the Vectorscope shows which colors there are."
+msgstr ""
+"Preprosta stvar, ki dela vektroskop tako posebnega: uporablja barvni "
+"prostor, drugačen od RGB. To zveni nespektakularno, vendar ni. Predhodni "
+"merilniki omogočajo, da določite, katere vrednosti svetlosti obstajajo v "
+"vaši sliki, vektroskop pa prikazuje, katere barve obstajajo."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:55
+msgid ""
+"The Vectorscope supports two different color spaces: :term:`YUV` and :term:"
+"`YPbPr`. Both of them have the *Y* in common, something you know from "
+"before: It is the *Luma component* (Rec.601 in both cases). This, amongst "
+"others, comes from black/white TV. When Color TV was introduced, some people "
+"actually recognized that not everybody would immediately trash his old b/w "
+"TV and buy a new one, so they still sent the b/w signal, but with two "
+"additional channels: The blue difference and the red difference (to :term:"
+"`Luma`), called U and V. For more details look at the image with its "
+"individual YUV components on the Wikipedia page about |yuv|."
+msgstr ""
+"Vektroskop podpira dva različna barvna prostora: :term:`YUV` in :term:"
+"`YPbPr`. Obema je skupen *Y*, kar poznate že od prej: zo je komponenta "
+"*Luma* (Rec.601 v obeh primerih). Ta med drugim izvira iz črno-bele "
+"televizije. Ko je bila uvedena barvna televizija, so nekateri ljudje "
+"ugotovili, da ne bo vsakdo takoj zavrgel svojega starega črno-belega "
+"televizorja in kupil novega, zato so še vedno pošiljali črno-beli signal, "
+"vendar z dvema dodatnima kanaloma: Za več podrobnosti si oglejte sliko s "
+"posameznimi komponentami YUV na strani Wikipedije o |yuv|."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:57
+msgid ""
+"The other color space, :term:`YPbPr` or its digital counterpart :term:"
+"`YCbCr` respectively, are similar. If you switch between the two color "
+"models in the Vectorscope (via the context menu) you will notice that the "
+"colors are slightly shifted. YCbCr is used basically everywhere in digital "
+"video."
+msgstr ""
+"Drugi barvni prostor, :term:`YPbPr` ali njegov digitalni ustreznik :term:"
+"`YCbCr`, sta podobna. Če v Vektroskopu (prek kontekstnega menija) preklopite "
+"med obema barvnima modeloma, boste opazili, da so barve nekoliko zamaknjene. "
+"YCbCr se v digitalnem videu uporablja praktično povsod."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:59
+msgid ""
+"So, what the Vectorscope does: It calculates the Luma value of a pixel, then "
+"calculates the blue difference/red difference values. Then it throws the "
+"Luma value away. Why is that? It is because the Vectorscope is 2-"
+"dimensional. The blue difference is on the horizontal axis, the red "
+"difference is on the vertical axis. (There actually are three-dimensional "
+"vectorscopes which put the Luma component on the third axis!)"
+msgstr ""
+"Torej, kaj počne vektroskop: izračuna vrednost luma slikovne točke, nato "
+"izračuna vrednosti modre razlike/rdeče razlike. Potem zavrže vrednost lume. "
+"Zakaj? To je zato, ker je vektroskop 2-dimenzionalen. Modra razlika je na "
+"vodoravni osi, rdeča razlika je na navpični osi (dejansko obstajajo 3D-"
+"vektroskopi, ki postavijo komponento luma na tretjo os)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:62
+msgid "Example 1: Grayscale Video"
+msgstr "Primer 1: sivinski videoposnetek"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:64
+msgid "Now let's see at how this actually looks like in a video."
+msgstr "Poglejmo, kako je to videti v videoposnetku."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:70
+msgid "Vectorscope with a black-and-white image"
+msgstr "Vektroskop s črno-belo sliko"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:72
+msgid ""
+"Well … nothing? Close. There is a little pixel in the middle of the scope. "
+"And that is the whole image. That looks a little disappointing now, but "
+"actually it is great. All greys (plus black and white) are exactly in the "
+"middle. Everything that is not in the middle has some color information (and "
+"the further away it is from the middle, the higher its saturation aka. "
+"chrominance). This will come in very handy when it comes to white balance."
+msgstr ""
+"Torej … nič? Blizu. Na sredini merilnika je majhna slikovna točka. In to je "
+"vsa slika. To je zdaj videti malce nenavdušujoče, ampak pravzaprav je super. "
+"Vse sivine (vključno s črno in belo) so točno na sredini. Vse, kar ni na "
+"sredini, ima nekaj barvnih informacij (in dlje je od sredine, višja je "
+"njihova nasičenost oz. krominanca). To bo zelo koristno, ko gre za belo "
+"ravnotežje."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:75
+msgid "Example 2: Juggling Balls"
+msgstr "Primer 2: Žongliranje z žogicami"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:81
+msgid "Vectorscope with a color image (juggling balls)"
+msgstr "Vektroskop z barvno sliko (žongliranje z žogicami)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:83
+msgid ""
+"Juggling balls are more interesting, especially when they are colored. The "
+"ones above are. In this example a YUV background (with fixed Luma) has been "
+"switched in order to better identify the colors of pixel heaps on the scope."
+msgstr ""
+"Žongliranje z žogami je bolj zanimivo, še posebej, ko so žoge obarvane. "
+"Tiste zgoraj so. Vklopili smo ozadje YUV (s fiksno lumo), ki pomaga "
+"identificirati barve kopic slikovnih točk v merilniku."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:85
+msgid "Two things can be noticed:"
+msgstr "Opazimo lahko dve zadevi:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:87
+msgid ""
+"there are six areas with high black density on the scope (which means that "
+"many pixels share this :term:`hue`):"
+msgstr ""
+"tukaj je šest območij z visoko gostoto črnine na obsegu (kar pomeni, da "
+"veliko slik. točk deli to :term:`<obarvanost>hue`):"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:89
+msgid "One that points towards blue (bottom right),"
+msgstr "tisto, ki kaže proti modri (desno spodaj),"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:90
+msgid "A big one around yellow,"
+msgstr "veliko okrog rumenega,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:91
+msgid "Two big ones around red,"
+msgstr "dve veliki okrog rdečega,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:92
+msgid "A smaller one between red and yellow,"
+msgstr "manjši med rdečim in rumenim,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:93
+msgid "And the last one which you might have missed, between red and blue."
+msgstr "In zadnji, ki ste ga morda spregledali, med rdečo in modro."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:95
+msgid ""
+"These are exactly the ball's colors! Blue comes from the two balls on the "
+"left, yellow from the yellow ball, the left red area is the pink part of the "
+"left ball, the right part in red is the red ball on the right. The part "
+"between red and yellow, which is actually orange, is the background of the "
+"whole scene, and the last one between red and blue is the violet part of the "
+"right red ball."
+msgstr ""
+"To so ravno barve žoge! Modra prihaja iz dveh krogel na levi, rumena iz "
+"rumene krogle, levo rdeče območje je rožnati del leve krogle, desni del v "
+"rdeči barvi je rdeča krogla na desni. Del med rdečo in rumeno barvo, ki je "
+"pravzaprav oranžna, je ozadje celotnega prizora, zadnji med rdečo in modro "
+"pa je vijolični del desne rdeče krogle."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:97
+msgid ""
+"The orange background seems to connect all other areas. This is something "
+"really amazing. Like magic. It will help doing white balance. The neutral "
+"area will almost always seem to connect the other ones."
+msgstr ""
+"Oranžno ozadje povezuje vsa druga območja. To je nekaj res neverjetnega. Kot "
+"čarovnija. To bo pomagalo pri ravnovesju beline. Nevtralno območje bo skoraj "
+"vedno povezalo druga."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:99
+msgid ""
+"As the shot above is actually correctly white balanced, it should not be "
+"maltreated it here. But you should actually try! Download the sample below, "
+"add a :ref:`SOP/Sat <effects-sop_sat>` effect and change the :guilabel:"
+"`Offset` parameters for the RGB values. (Do not forget to enable auto-"
+"refresh.)"
+msgstr ""
+"Ker ima zgornji posnetek dejansko pravilno uravnoteženo belino, ga tu ne bi "
+"smeli napačno obdelati. Vendar bi morali poskusiti! Prenesite spodnji "
+"vzorec, dodajte učinek :ref:`SOP/Sat <effects-sop_sat>` in spremenite "
+"parametre :guilabel:`Zamika` za vrednosti RGB (ne pozabite omogočiti "
+"samodejnega osveževanja)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:101
+msgid ""
+"Now perhaps you wonder how we could be so sure assigning those spots to "
+"colors. Is it really the upper spot caused by the red ball? To find out, the "
+"red ball out was masked out using a white Color Clip. The spot then indeed "
+"disappeared."
+msgstr ""
+"Zdaj se morda sprašujete, kako smo lahko tako prepričani, da smo te lise "
+"pripisali barvam. Ali je res zgornja pika posledica rdeče kroglice? Da bi to "
+"ugotovili, smo rdečo kroglico zakrili z belim barvnim posnetkom. Pika je "
+"nato res izginila."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:107
+msgid "Vectorscope with a partly covered (masked) color image"
+msgstr "Vektroskop z delno prekrito (maskirano) barvno sliko"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:109
+msgid ""
+"The violet spot has disappeared as well, and also big parts of the yellow "
+"spot because the white rectangle covers a large part of the yellow ball as "
+"well."
+msgstr ""
+"Tudi vijolična točka je izginila, pa tudi veliki deli rumene točke, ker beli "
+"pravokotnik pokriva tudi rumeno žogico."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:112
+msgid "Example 3: Musical Box"
+msgstr "Primer 3: Glasbena skrinjica"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:118
+msgid "Vectorscope of an image of a musical box"
+msgstr "Vektroskop slike glasbene skrinjice"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:120
+msgid "Again, two things worth pointing out for this clip:"
+msgstr "Še enkrat, dve zadevi, ki ju je vredno izpostaviti za ta posnetek:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:122
+msgid ""
+"This shot of a Swiss Musical Box mainly consists of orange tones, all points "
+"on the vectorscope lie between neutral (center) and orange. Not too "
+"saturated orange tones presumably coming from the bronze/messing parts."
+msgstr ""
+"Ta posnetek švicarske glasbene skrinjice je sestavljen predvsem iz oranžnih "
+"tonov, vse točke na vektroskopu ležijo med nevtralno (sredinsko) in oranžno. "
+"Niso preveč nasičeni oranžni toni, saj prihajajo iz bronastih/mesingastih "
+"delov."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:124
+msgid ""
+"The white balance seems to be correct. The Vectorscope indicates that there "
+"are neutral pixels (i.e. greys), and they seem to be the origin for the "
+"other colors."
+msgstr ""
+"Ravnovesje beline je videti pravilno. Vektroskop kaže, da obstajajo "
+"nevtralne slik. točke (torej sive), in zdi se, da so izvor za druge barve."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:126
+msgid ""
+"But when increasing the gain (or zoom level) of the Vectorscope to 5x we see "
+"that the scope image actually stops right before neutral."
+msgstr ""
+"Ko pa povečamo ojačitev (ali stopnjo povečave) Vektroskopa na 5-kratno, "
+"vidimo, da se slika dejansko ustavi tik pred nevtralno vrednostjo."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:132
+msgid "Vectorscope before white balancing"
+msgstr "Vektroskop pred uravnavanjem beline"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:134
+msgid ""
+"If you open this clip and take a look at the Waveform you will notice that "
+"it shows the same: Blue is too low, red is too high. To correct this minor "
+"color cast we can use the :ref:`SOP/Sat <effects-sop_sat>` effect again, "
+"adjusting the :guilabel:`Offset` values. By doing that the points on the "
+"Vectorscope will be shifted around. A positive red offset will make the "
+"points shift towards red at the top, a negative offset shifts them towards "
+"the opposite direction (that is, towards the |complementary_color| of red, "
+"cyan)."
+msgstr ""
+"Če odprete ta posnetek in si ogledate signalno obliko, boste opazili, da "
+"kaže enako: modra je prenizka, rdeča previsoka. Da bi popravili to manjšo "
+"obarvanost, lahko ponovno uporabimo učinek :ref:`SOP/Sat <effects-sop_sat>` "
+"in prilagodimo vrednosti :guilabel:`Zamika`. S tem se bodo točke na "
+"vektroskopu premaknile. S pozitivnim rdečim zamikom se bodo točke premaknile "
+"proti rdeči barvi na vrhu, z negativnim zamikom pa v nasprotno smer (torej "
+"proti |komplementarni barvi<complementary_color>| rdeče, cijanu)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:140
+msgid "Vectorscope after white balancing"
+msgstr "Vektroskop po uravnavanju beline"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:142
+msgid ""
+"Here, the blue and red values were adjusted such that there is some padding "
+"around the neutral center. It is usually not enough to just let the first "
+"pixel hit the neutral point because of several factors like the material of "
+"the neutral object itself, chromatic aberration (also see this more accurate "
+"article about |chromatic_aberration|) in lenses, and artifacts in the "
+"recorded video file. So usually neutral areas will not share one single "
+"pixel in the vectorscope but have a certain diameter. Hence the padding."
+msgstr ""
+"V tem primeru so bile modre in rdeče vrednosti prilagojene tako, da je okoli "
+"nevtralnega središča nekaj polnila. Običajno ni dovolj, da prva slikovna "
+"točka zadene nevtralno točko, saj to vpliva na več dejavnikov, kot so "
+"material samega nevtralnega predmeta, kromatična aberacija (glej tudi ta "
+"natančnejši članek |chromatic_aberration|) pri objektivih in artefaktih v "
+"posneti video datoteki. Zato običajno nevtralna območja v vektroskopu nimajo "
+"ene same slikovne točke, temveč imajo določen premer. Zato je potrebno "
+"polnilo."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:144
+msgid ""
+"Because this is a suitable clip for :term:`hue` and the :ref:`effects-"
+"hue_shift` effect:"
+msgstr ""
+"Ker je to primeren posnetek za :term:`odtenek<hue>` in učinek :ref:`effects-"
+"hue_shift`:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:150
+msgid ""
+"Vectorscope of the musical box after applying the :ref:`effects-hue_shift` "
+"effect (Hue=45)"
+msgstr ""
+"Vektroskop slike glasbene skrinjice po uveljavitvi učinka :ref:`effects-"
+"hue_shift` (obarvanost=45)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:152
+msgid ""
+"Now what happened here? The hue has changed, and the points on the scope "
+"look like rotated by 30 degrees. And indeed they did rotate. The :ref:"
+"`Hueshift <effects-hue_shift>` effect changes the hue of all colors by a "
+"certain (configurable) amount. In the Vectorscope this becomes visible as a "
+"rotation around the center of the scope."
+msgstr ""
+"Kaj se je zgodilo tukaj? Odtenek se je spremenil, točke na merilniku pa so "
+"videti kot obrnjene za 30 stopinj. In res so se obrnile. Učinek :ref:`Zamik "
+"odtenka <effects-hue_shift>` spremeni odtenek vseh barv za določeno "
+"(nastavljivo) količino. V vektroskopu to postane vidno kot vrtenje okoli "
+"središča obsega."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:154
+msgid ""
+"Similarly, when changing the saturation/chroma, the dots on the vectorscope "
+"will move closer to the center or further away from it."
+msgstr ""
+"Podobno se bodo pri spreminjanju zasičenosti/krome pike na vektroskopu "
+"premaknile bližje središču ali dlje od tega."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:157
+msgid "Creating a Look for Your Video"
+msgstr "Ustvarjanje videza videoposnetka"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:159
+msgid ""
+"In the :doc:`Histogram <histogram_working>` chapter we mentioned creating "
+"looks with color correction or :term:`Color Grading`. This example covers "
+"part of the tip of the iceberg of this topic."
+msgstr ""
+"V poglavju :doc:`Histogram <histogram_working>` smo omenili ustvarjanje "
+"videza z barvno korekcijo ali :term:`usklajevanjem barv<Color Grading>`. Ta "
+"primer zajema del vrha ledene gore te teme."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:161
+msgid ""
+"What is special about creating a look for a video? Let's take a look at some "
+"random clips:"
+msgstr ""
+"Kaj je posebno pri ustvarjanju videza videoposnetka? Poglejmo nekaj "
+"naključnih posnetkov:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:167
+msgid "Collection of not color-graded video stills"
+msgstr "Zbirka barvno koloriranih slik videoposnetka"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:169
+msgid ""
+"Mostly different content and therefore different colors - as said: random. "
+"One point of Color Grading is to give single clips a connection. This is not "
+"limited to white balance only. White balancing a clip is about removing "
+"color casts (which is a good thing because it gives you a neutral starting "
+"point). But we can also add new colors."
+msgstr ""
+"Večinoma različne vsebine in zato različne barve – kot rečeno: naključno. "
+"Ena od možnosti koloriranja je, da se posameznim posnetkom da povezava. To "
+"ni omejeno samo na belo ravnovesje. Belo ravnovesje za posnetek je "
+"odstranjevanje obarvanosti (kar je dobro, ker vam daje nevtralno izhodišče). "
+"Lahko pa dodamo tudi nove barve."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:175
+msgid "Collection of color-graded video stills"
+msgstr "Zbirka barvno koloriranih slik videoposnetka"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:177
+msgid ""
+"These clips look much more like if they belonged together. This is the "
+"result of **Primary Color Correction** (*Primary* means that it affects the "
+"whole image; *Secondary Color Correction* would only affect parts of it, e."
+"g. by using masks, choosing color ranges, etc.): White balance (plus in some "
+"cases reduction of saturation) followed by a :ref:`SOP/Sat <effects-"
+"sop_sat>` effect. The latter SOP/Sat effect does something similar as the "
+"Blockbuster Effect: here the blacks become blueish, the mids and the whites "
+"tend towards yellow."
+msgstr ""
+"Ti posnetki so veliko bolj podobni tistim, ki sodijo skupaj. To je rezultat "
+"**primarne barvne korekcije** (*primarna* pomeni, da vpliva na celotno "
+"sliko; *sekundarna barvna korekcija* bi vplivala le na dele slike, npr. z "
+"uporabo mask, izbiro barvnih razponov itd.): Učinek: uravnoteženje beline "
+"(in v nekaterih primerih zmanjšanje nasičenosti), ki mu sledi učinek :ref:"
+"`SOP/Sat <effects-sop_sat>`. Slednji učinek SOP/Sat naredi nekaj podobnega "
+"kot učinek Blockbuster: tu črna barva postane modrikasta, srednja in bela pa "
+"se nagibata k rumeni."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:179
+msgid "See also |this_page| for some hints about looks and the vectorscope."
+msgstr "Glejte tudi |this_page| za namige o videzu in vektroskopu."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:182
+msgid "Vectorscope Options"
+msgstr "Možnosti vektroskopa"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:184
+msgid "You can adjust the Vectorscope as follows by right-clicking it:"
+msgstr ""
+"Vektroskop lahko prilagodite na sledeč način, tako da ga kliknete z desno "
+"tipko miške:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:186
+msgid ""
+"*Export Background* - Exports a color plane of the desired color space. It "
+"allows to export RGB, :term:`YUV` and :term:`YCbCr` planes (like the ones "
+"you see when visiting the Wikipedia articles about these color spaces)."
+msgstr ""
+"*Izvozi ozadje* - Izvozi barvno ravnino želenega barvnega prostora. Omogoča "
+"izvoz avnin RGB, :term:`YUV` in :term:`YCbCr` (kot jih vidite, ko obiščete "
+"članke Wikipedije o teh barvnih prostorih)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:188
+msgid ""
+"*75% Box* - Marks the position where color saturation reaches 75% of its "
+"maximum value. This may be interesting if you work for broadcast. Colors "
+"exceeding this box were not regarded as |broadcast_safe| - but before "
+"changing the saturation to a max of 75% better consult your broadcast "
+"company."
+msgstr ""
+"*Polje 75 %* - Označi položaj, kjer nasičenost barv doseže 75 % največje "
+"vrednosti. To je lahko zanimivo, če delate za radiodifuzijo. Barve, ki "
+"presegajo to polje, niso veljale kot varne za oddajanje (|broadcast_safe|) - "
+"vendar se pred spremembo nasičenosti na največ 75 % raje posvetujte s "
+"podjetjem za radiodifuzijo."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:190
+msgid "*Draw axis* - Draws the U/Pb (horizontal) and V/Cr (vertical) axis."
+msgstr "*Nariši os* – nariše os U/Pb (vodoravno) in V/Cr (navpično)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:192
+msgid ""
+"*YUV* and *YPbPr* - Switches between the two color spaces YUV and YPbPr."
+msgstr ""
+"*YUV* in *YPbPr* – preklopi med dvema barvnima prostoroma YUV in YPbPr."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:196
+msgid "Summary"
+msgstr "Povzetek"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:197
+msgid ""
+"The Vectorscope shows the hue and saturation distribution in a way we can "
+"understand without problems. This is useful for quickly recognizing color "
+"casts, but also helps judging the color distribution of a clip and match it "
+"to others."
+msgstr ""
+"Vektroskop prikazuje odtenek in porazdelitev nasičenosti na način, ki ga "
+"lahko brez težav razumemo. To je uporabno za hitro prepoznavanje obarvanj, "
+"pomaga pa tudi pri presoji barvne porazdelitve posnetka in njegovega "
+"ujemanja z drugimi."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:199
+msgid ""
+"All scopes together fulfill another important task: They help matching video "
+"from different light situations and different input sources (like a second "
+"camera) regarding brightness and color. This is what you need |test_charts| "
+"for. Different cameras might have a different dynamic range and different "
+"colors. So when combining these shots you first shoot a test chart and then "
+"match exposure and color."
+msgstr ""
+"Vsi merilniki skupaj opravljajo še eno pomembno nalogo: pomagajo usklajevati "
+"videoposnetke iz različnih svetlobnih razmer in različnih vhodnih virov (kot "
+"je druga kamera) glede svetlosti in barv. Za to potrebujete posnetke testnih "
+"tabel (|test_charts|). Različne kamere imajo lahko različen dinamični razpon "
+"in različne barve. Zato pri združevanju teh posnetkov najprej posnamete "
+"testni grafikon in nato uskladite osvetlitev in barve."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:204
+msgid "Notes"
+msgstr "Opombe"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:210
+msgid ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
+"samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
+msgstr ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
+"samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:211
+msgid ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
+"juggling-balls.avi>` (720/24p, 11 MB)"
+msgstr ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
+"juggling-balls.avi>` (720/24p, 11 MB)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:212
+msgid ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/"
+"Musical-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom "
+"H4n.)"
+msgstr ""
+"`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/Musical-box."
+"avi>`_ (720/24p, 23 MB. Video iz Nikona D90, zvok iz Zoom H4n.)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:214
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Tue, "
+"10/10/2010 - 18:30 to the now defunct kdenlive.org blog. For this "
+"documentation it has been lifted from |web_archive|, updated and adapted to "
+"match the overall style."
+msgstr ""
+"Izvirno besedilo je poslal *Simon A. Eugster (Granjow)* dne 10. 10. 2010 ob "
+"18:30 na zdaj že nedelujoč blog kdenlive.org. Za to dokumentacijo je bilo "
+"preneseno iz |web_archive|, posodobljeno in prilagojeno, da ustreza "
+"splošnemu slogu."

@@ -1,0 +1,151 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"PO-Revision-Date: 2023-10-31 19:06+0100\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"Language: sl\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Viri**"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:1
+msgid "Kdenlive Tips & Tricks - How to Fading In/Out of Titles"
+msgstr "Nasveti in triki Kdenlive - Kako odtemniti in zatemniti naslove"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, how-to, how to, fading in, "
+"fading out, titles, documentation, user manual, video editor, open source, "
+"free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, nasveti, triki, nasveti in triki, kakojčki, kako, odtemnitev, "
+"zatemnitev, napisi, naslovi, dokumentacija, uporabniški priročnik, montažni "
+"program, program za videomontažo, urejevalnik videa, odprta koda, "
+"brezplačno, učenje, enostavno"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:15
+msgid "How to Fading In/Out of Titles"
+msgstr "Kako odtemniti in zatemniti naslove"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:17
+msgid ""
+"In this short *How-to* video, we show you how to (smoothly) fade in and out "
+"Kdenlive titles over a video clip, and fading from and to transparency. The "
+"key to success is to use a **Composite & Transform** transition with "
+"keyframes (**Affine** and **Composite** will work too). **Do not use** the "
+"Fade from/to Black effects though, as these effects remove the title "
+"transparency information."
+msgstr ""
+"V tem kratkem *pojasnilnem* videoposnetku vam pokažemo, kako (gladko) "
+"odtemniti in zatemniti naslove Kdenlive preko video posnetka, ki se odtemni "
+"in zatemni v prosojnost. Ključ do uspeha je uporaba prehoda **Sestavljeno in "
+"preoblikovanje** s ključnimi sličicami (delovala bosta tudi **Afino** in "
+"**Sestavljeno**). **Ne uporabljajte** učinkov Zatemni/Odtemni, saj ti učinki "
+"odstranijo informacije o prosojnosti naslova."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:27
+msgid "These are the individual steps shown in video:"
+msgstr "To so posamezni koraki, prikazani v tem videu:"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:29
+msgid "Add a Composite & Transform transition to the title clip."
+msgstr "V naslovni posnetek dodajte prehod Sestavi in preoblikuj."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:30
+msgid ""
+"First keyframe: set :guilabel:`Opacity` to 0%. This marks the beginning of "
+"the fade in (ramp up)."
+msgstr ""
+"Prva ključna sličica: nastavite :guilabel:`Prekrivnost` na 0 %. To označuje "
+"začetek odtemnitve (navzgor)."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:31
+msgid ""
+"Second keyframe: add a new keyframe where you want the title to be fully "
+"faded in, set :guilabel:`Opacity` to 100%. Set the type of the keyframe to :"
+"guilabel:`Linear`."
+msgstr ""
+"Druga ključna sličica: dodajte novo ključno sličico, kjer želite, da je "
+"naslov v celoti prikazan, nastavite :guilabel:`Prekrivnost` na 100 %. "
+"Nastavite vrsto ključne sličice na :guilabel:`linearno`."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:33
+msgid ""
+"The rationale to set this keyframe to :guilabel:`Linear` is that otherwise "
+"Kdenlive (MLT) calculates a smooth curve fitting to the previous and "
+"following keyframe, causing the opacity value to overshoot. With a maximum "
+"possible opacity of 100% you will not notice. However, when you use a "
+"maximum opacity of less than 100%, then this overshooting may become visible."
+msgstr ""
+"Razlog za nastavitev te ključne sličice na :guilabel:`linearno` je, da "
+"Kdenlive (MLT) sicer izračuna gladko krivuljo, ki se prilega prejšnji in "
+"naslednji ključni sličici, kar povzroča, da vrednost prekrivnosti preseže "
+"najvišjo možno vrednost. Z največjo možno prekrivnostjo 100 % tega res ne "
+"boste opazili. Če pa uporabljate največjo prekrivnost, ki je manjša od 100 "
+"%, se lahko to opazi."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:34
+msgid ""
+"Ensure that the first keyframe is Smooth. You can only adjust the type of "
+"the first keyframes after you have added a second keyframe."
+msgstr ""
+"Zagotovite, da je prva ključna sličica Gladka. Vrsto prvih ključnih sličic "
+"lahko prilagodite šele, ko dodate drugo ključno sličico."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:36
+msgid ""
+"Third keyframe: Add another keyframe near the end where you want to start "
+"fading out the title. Leave the opacity at 100%. Set the keyframe type to :"
+"guilabel:`Smooth`."
+msgstr ""
+"Tretja ključna sličica: dodajte še eno ključno sličico blizu konca, kjer "
+"želite začeti zatemnjevati naslov. Pustite prekrivnost pri 100 %. Nastavite "
+"vrsto ključne sličice na :guilabel:`Gladko`."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:37
+msgid ""
+"Fourth keyframe: Add a final keyframe, where you set :guilabel:`Opacity` to "
+"0%."
+msgstr ""
+"Četrta ključna sličica: dodajte končno ključno sličico, kjer nastavite :"
+"guilabel:`Prekrivnost` na 0 %."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:39
+msgid ""
+"For more information about mixing smooth and linear interpolated keyframes "
+"see this chapter about the :doc:`/tips_and_tricks/useful_info/"
+"smooth_keyframe_interpolation`."
+msgstr ""
+"Več o mešanju gladko in linearno interpoliranih ključnih sličic si preberite "
+"v poglavju :doc:`/tips_and_tricks/useful_info/smooth_keyframe_interpolation`."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:44
+msgid "Notes"
+msgstr "Opombe"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:50
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+"Izvirno besedilo je uporabnik *TheDiveO* poslal na zdaj že ukinjen blog "
+"kdenlive.org. Za to dokumentacijo je bilo povzeto iz |kdenlive_org|, "
+"posodobljeno in prilagojeno, da ustreza splošnemu slogu."

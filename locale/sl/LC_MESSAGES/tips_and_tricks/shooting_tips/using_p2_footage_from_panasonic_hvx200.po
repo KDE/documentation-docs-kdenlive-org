@@ -1,0 +1,110 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"PO-Revision-Date: 2023-10-31 17:31+0100\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"Language: sl\n"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:1
+msgid "Kdenlive Tips & Tricks - Shooting with Your DSLR"
+msgstr "Namigi in triki Kdenlive - Snemanje z vašim DSLR"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, shooting tips, shooting, DSLR, "
+"documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, nasveti, triki, nasveti in triki, nasveti za snemanje, "
+"snemanje, DSLR, dokumentacija, uporabniški priročnik, montažni program, "
+"program za videomontažo, urejevalnik videa, odprta koda, brezplačno, učenje, "
+"enostavno"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:38
+msgid "Using P2 Footage from the Panasonic HVX200"
+msgstr "Uporaba posnetkov P2 iz Panasonic HVX200"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:40
+msgid ""
+"Using footage from P2 cards is easy when you know how! The MXF files on P2 "
+"cards cannot be read until you convert them with |mxfsplit|, a part of |"
+"freemxf|. The conversion is lossless and the resulting files contain both "
+"video and audio and can be edited in real time with Kdenlive (or Blender "
+"2.5+) on most computers made within the last five years or so. Also, |"
+"ffmpeg| can read these files. This process is very fast because there is no "
+"transcoding and so can be done in the field while shooting just as fast as "
+"simply transferring the original P2 files."
+msgstr ""
+"Uporaba posnetkov s kartic P2 je enostavna, ko veš, kako! Datotek MXF na "
+"karticah P2 ni mogoče brati, dokler jih ne pretvorite z |mxfsplit|, ki je "
+"del |freemxf|. Pretvorba je brez izgub in datoteke, ki nastanejo, vsebujejo "
+"tako video kot zvok in jih je možno montirati v realnem času s Kdenlive (ali "
+"Blenderjem 2.5+) na večini računalnikov, narejenih v zadnjih petih letih. "
+"Prav tako lahko FFMPEG bere te datoteke. Ta proces je zelo hiter, ker ni "
+"prekodiranja in tako je to mogoče opraviti na terenu, medtem ko snemate, "
+"prav tako hitro kot poteka enostaven prenos izvirnih datotek P2."
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:44
+msgid "Step One: FreeMXF"
+msgstr "Prvi korak: FreeMXF"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:46
+msgid "Get the source code for **MFXlib** from |sourceforge|."
+msgstr "Prenesite izvorno kodo iz **MGXlib** iz |sourceforge|."
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:48
+msgid ""
+"Then configure, compile, and install it by running the following code in the "
+"directory where you saved the source files:"
+msgstr ""
+"Nato ga prilagodite, prevedite in namestite, tako da v imeniku, kjer ste "
+"shranili izvorne datoteke, zaženete naslednjo kodo:"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:58
+msgid "This will get **mxfsplit** (part of **mxflib**) working."
+msgstr "Tako bo **mxfsplit** (del **mxflib**) deloval."
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:62
+msgid "Step Two: Using mxfsplit"
+msgstr "Korak 2: uporaba mxfsplit"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:64
+msgid ""
+"Here is a simple script that can be run in the terminal. It will convert all "
+"MXF files in a chosen directory into usable files. Do a search and replace "
+"for ``/source/directory`` and ``/destination/directory``"
+msgstr ""
+"Tukaj je preprost skript, ki ga je mogoče zagnati v terminalu. Ta bo "
+"pretvoril vse datoteke MXF v izbrani mapi v uporabne datoteke. Opravite "
+"iskanje in zamenjavo za ``/vir/mapa`` in ``/cilj/mapa``"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:88
+msgid "Conclusion"
+msgstr "Zaključek"
+
+#: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:90
+msgid ""
+"Now you have a script that can easily prepare footage for editing (e.g. with "
+"Kdenlive or Blender) and for transcoding. FFMPEG can be used to transcode "
+"the resulting .MXF files to whatever format is preferred. For example, the "
+"following code would get the files ready for Youtube, Vimeo, etc.:"
+msgstr ""
+"Zdaj imate skript, ki lahko enostavno pripravi posnetke za montažo (npr. s "
+"programom Kdenlive ali Blender) in za prekodiranje. FFMPEG lahko uporabite "
+"za prekodiranje rezultatov. Zaželene so datoteke .MXF v poljubni obliki. "
+"Naslednja koda bi na primer pripravila datoteke za Youtube, Vimeo itn.:"

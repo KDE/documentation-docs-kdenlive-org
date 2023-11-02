@@ -1,0 +1,413 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___useful_info___compositing_with_transparency.po to Catalan
+# Copyright (C) 2023 This_file_is_part_of_KDE
+# Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: documentation-docs-kdenlive-org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-28 00:36+0000\n"
+"PO-Revision-Date: 2023-11-01 20:30+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Fonts**"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:1
+msgid "Kdenlive Tips & Tricks - Compositing with Transparency"
+msgstr "Consells i trucs del Kdenlive - Composició amb transparència"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, useful information, compositing,"
+" transparency, documentation, user manual, video editor, open source, free,"
+" learn, easy"
+msgstr ""
+"KDE, Kdenlive, consells, trucs, consells i trucs, informació útil,"
+" composició, transparència, documentació, manual d'usuari, editor de vídeo,"
+" codi lliure, lliure, aprendre, fàcil"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:23
+msgid "Compositing with Transparency"
+msgstr "Composició amb transparència"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:25
+msgid ""
+"When transparency is involved in both frames processed by one of Kdenlive's"
+" dynamic compositing transitions, the outcome may be surprising to some of us"
+" users. Luckily, things are not as inexplicable as they appear, so let's dive"
+" right into transparency and transitions."
+msgstr ""
+"Quan la transparència està implicada en els dos fotogrames processats per "
+"una de les transicions de composició dinàmica del Kdenlive, el resultat pot "
+"ser sorprenent per a alguns usuaris. Per sort, les coses no són tan "
+"inexplicables com semblen, així que submergim-nos en la transparència i les "
+"transicions."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:28
+msgid "Transparency & Dynamic Transitions"
+msgstr "Transparència i transicions dinàmiques"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:30
+msgid ""
+"When it comes to handling transparency, Kdenlive's :doc:`transitions <"
+"/effects_and_compositions/transitions>` fall into two categories:"
+msgstr ""
+"Quan es tracta de gestionar la transparència, les :doc:`transicions <"
+"/effects_and_compositions/transitions>` del Kdenlive es divideixen en dues"
+" categories:"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:32
+msgid "**Affine** uses the so-called **atop** compositing operator"
+msgstr "**Afí** utilitza l'operador de composició anomenat **atop**"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:33
+msgid ""
+"**Composite**, **Composite & Transform**, **Cairo (Affine) Blend** use the"
+" **over** compositing operator instead"
+msgstr ""
+"**Composició**, **Compon i transforma**, **Barreja Cairo (afí)** utilitza "
+"l'operador de composició **over**"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:35
+msgid ""
+"So what does **atop** and **over** really mean? Let's discover what these"
+" compositing operators do using a typical title and semi-transparent"
+" background example. For simplicity, we first will ignore the **opacity**"
+" parameter of the aforementioned transitions to keep things easier to grasp."
+" And after we have mastered this step, we will finally look at how the"
+" opacity parameter fits into the full picture."
+msgstr ""
+"Què signifiquen realment aquests **atop** i **over**? Descobrim què fan "
+"aquests operadors de composició utilitzant un exemple de títol típic i un "
+"fons semitransparent. Per a simplificar, primer ignorarem el paràmetre "
+"**opacitat** de les transicions abans esmentades per a fer les coses més "
+"fàcils de comprendre. I després d'haver dominat aquest pas, finalment veurem "
+"com encaixa el paràmetre d'opacitat en la imatge completa."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:39
+msgid "Affine: Atop Compositing"
+msgstr "Afí: Composició «Atop»"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:48
+msgid ""
+"The result of the **atop** compositing is best explained at first by showing"
+" its outcome: Text from the topmost title clip (partly) vanishes in those"
+" regions where the underlying clip on the middle track is (semi) transparent."
+msgstr ""
+"El resultat de la composició **atop** s'explica millor al principi mostrant "
+"el seu resultat: el text del clip de títol superior (parcialment) desapareix "
+"en aquelles regions on el clip subjacent de la pista mitjana és (semi) "
+"transparent."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:50
+msgid ""
+"The checkerboard clip on the bottom track just serves for illustrational"
+" purposes, so we can better see the transparent regions."
+msgstr ""
+"El clip de tauler d'escacs de la pista inferior només serveix per a "
+"propòsits il·lustratius, de manera que podem veure millor les regions "
+"transparents."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:52
+msgid ""
+"Please notice how the two **Affine** transitions are chained: first, the"
+" upper Affine composites the title clip onto the gradient background. Then,"
+" the lower Affine composites the result onto the checkboard background."
+msgstr ""
+"Tingueu en compte com les dues transicions **Afins** estan encadenades: en "
+"primer lloc, l'afí superior compon el títol del clip sobre el fons del "
+"degradat. Llavors, l'afí de sota compon el resultat sobre el fons del tauler "
+"d'escacs."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
+msgid ""
+"But how does the **Affine** transition exactly handle transparency? Let's"
+" look at this hand-made illustration, where we have two pixels with some"
+" transparency each (the alpha values, αA and αB). It is important to **not**"
+" confuse pixel transparency with the opaque parameter of transitions."
+msgstr ""
+"Però com funciona exactament la transició **Afí** de transparència? Mirem "
+"aquesta il·lustració feta a mà, on tenim dos píxels amb una mica de "
+"transparència cadascun (els valors alfa, αA i αB ). És important **no** "
+"confondre la transparència dels píxels amb el paràmetre opacitat de "
+"transicions."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
+msgid ""
+"Our red pixel comes from the upper track frame (B), whereas the green pixel"
+" stems from the lower track frame (A). An alpha of 0 means a completely"
+" transparent pixel, whereas an alpha of 1.0 (or 255) means totally opaque"
+" pixel."
+msgstr ""
+"El nostre píxel vermell prové del fotograma de la pista superior (B), mentre "
+"que el píxel verd prové del fotograma de la pista inferior (A). Una alfa de "
+"0 significa un píxel completament transparent, mentre que una alfa d'1,0 (o "
+"255) significa un píxel totalment opac."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
+msgid ""
+"The **Affine** transition now simply ignores the transparency information"
+" from the upper frame pixel (the red one)."
+msgstr ""
+"La transició **Afí** ara simplement ignora la informació de transparència "
+"del píxel del fotograma superior (el vermell)."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
+msgid ""
+"It solely uses the transparency information (green) contained in the lower"
+" track frames! Or more mathematical: α = αA"
+msgstr ""
+"Només utilitza la informació de transparència (verd) continguda en els "
+"fotogrames de la pista de sota! O més matemàtiques: α = αA"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:69
+msgid ""
+"And that is the explanation why in our example above the title text vanishes"
+" in those regions where the middle clip is transparent."
+msgstr ""
+"I aquesta és l'explicació per què en el nostre exemple anterior el text del "
+"títol desapareix en aquelles regions on el clip del mig és transparent."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:75
+msgid "Composite & Co: Over Compositing"
+msgstr "Composició i companyia: Sobrecomposició"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:84
+msgid ""
+"Again, we basically use the same setup as before, but this time we use"
+" **Composite & Transform** in place of **Affine** transitions. We chain the"
+" transitions as before, so that the lower transition works on the outcome of"
+" the upper transition."
+msgstr ""
+"De nou, bàsicament utilitzem la mateixa configuració que abans, però aquesta "
+"vegada utilitzem **Compon i transforma** en lloc de les transicions "
+"**Afí**. Encadenarem les transicions com abans, de manera que la transició "
+"de baix funcioni sobre el resultat de la transició de dalt."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:86
+msgid ""
+"But look: The outcome is different! The result of the **over** operator is"
+" probably more to the expectations of most users. Now, the top title clip"
+" does not get (*sorry*) clipped anymore."
+msgstr ""
+"Però mireu! El resultat és diferent! El resultat de l'operador **over** és "
+"probablement més ajustat a les expectatives de la majoria d'usuaris. Ara, el "
+"clip del títol de dalt ja no s'ha retallat (*ho sento*)."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
+msgid ""
+"As the **over** operation produces results more to the expectations of many"
+" users, how does it handle transparency exactly?"
+msgstr ""
+"Com que l'operació **over** produeix resultats més ajustats a les "
+"expectatives de molts usuaris, com gestiona exactament la transparència?"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
+msgid ""
+"**Simply spoken:** if you paint some semi-transparent pixel over another"
+" semi-transparent pixel, then **the result will be less transparent**. It"
+" will be even less transparent than the lower frame pixel transparency. This"
+" is what we would probably expect from painting with semi-opaque paint."
+msgstr ""
+"**Parlant senzillament:** si pinteu un píxel semitransparent sobre un altre "
+"píxel semitransparent, llavors **el resultat serà menys transparent**. Serà "
+"fins i tot menys transparent que la transparència dels píxels del fotograma "
+"de sota. Això és el que probablement esperem del pintat amb pintura "
+"semiopaca."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
+msgid ""
+"Calculating the resulting transparency for two given pixels from an upper"
+" frame (B) and a lower frame (A) is thus more involved this time."
+msgstr ""
+"El càlcul de la transparència resultant per a dos píxels donats d'un "
+"fotograma superior (B) i un fotograma inferior (A) és més complicat aquesta "
+"vegada."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:101
+msgid ""
+"Again, we start with the transparency of the lower frame pixel (green) as a"
+" base. But this time, we cannot ignore the transparency of the (red) upper"
+" frame pixel. But simply adding both transparencies would not yield sensible"
+" results; what does a transparency of 2.0 or 511 mean?"
+msgstr ""
+"Una vegada més, comencem amb la transparència del píxel del fotograma "
+"inferior (verd) com a base. Però aquesta vegada, no podem ignorar la "
+"transparència del píxel del fotograma superior (vermell). Però simplement "
+"afegir ambdues transparències no produiria resultats raonables; què "
+"significa una transparència de 2,0 o 511?"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:103
+msgid ""
+"So the red pixel transparency is **scaled** - you may think of shrinking the"
+" original 0-1.0 scale into the available space above the green transparency"
+" value. The resulting transparency then is the sum of the green base alpha"
+" value, plus the rescaled red alpha value. Remember, we kind of paint over"
+" the lower frame. For the formular-affine: α = αA + αB (1-αA)"
+msgstr ""
+"Així que s'**escala** la transparència dels píxels vermells: podeu pensar a "
+"reduir l'escala 0-1,0 original a l'espai disponible per sobre del valor de "
+"transparència verda. La transparència resultant és la suma del valor alfa de "
+"la base verda, més el valor alfa vermell redimensionat. Recordeu, cal una "
+"mena de pintat sobre el fotograma inferior. Per als aficionats a les "
+"fórmules: α = αA + αB (1-αA)"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:108
+msgid "Transition Parameter Opacity"
+msgstr "Paràmetre opacitat de la transició"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:110
+msgid ""
+"The dynamic compositing transitions also feature a parameter called"
+" **Opacity**. It is easy to confuse it with pixel transparency, but it is"
+" something different. The opacity parameter applies to the upper frames (B)"
+" only. It is kind of a master control but how does it work?"
+msgstr ""
+"Les transicions de composició dinàmica també tenen un paràmetre anomenat "
+"**Opacitat**. És fàcil de confondre amb la transparència dels píxels, però "
+"és quelcom diferent. El paràmetre d'opacitat només s'aplica als fotogrames "
+"superiors (B). És una espècie de control mestre, però com funciona?"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:119
+msgid ""
+"Let's start with the **Affine** transition, again. Above, we have seen that"
+" Affine ignores the transparency of the (red) upper frame pixels. And Affine"
+" also **ignores** the **opacity** parameter when calculating the result"
+" **pixel transparency**."
+msgstr ""
+"Comencem amb la transició **Afí**, de nou. Més amunt, hem vist que Afí "
+"ignora la transparència dels píxels del fotograma superior (vermell). I Afí "
+"també **ignora** el paràmetre **opacitat** en calcular el resultat de la "
+"**transparència de píxels**."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:121
+msgid ""
+"Instead, the opacity parameter influences how the result **pixel color** gets"
+" calculated: this is a linear interpolation between the color of the upper"
+" frame (B) pixel and the lower frame (A) pixel. The opacity now controls the"
+" exact blending point. An opacity of 0.0 results in only the lower frame (B)"
+" pixel color, while 1.0 solely yields the upper frame pixel (A) color. 0.5"
+" would be halfway between the two pixel colors."
+msgstr ""
+"En lloc d'això, el paràmetre d'opacitat influeix en com es calcula el "
+"resultat **color de píxel**: aquesta és una interpolació lineal entre el "
+"color del píxel superior (B) i el píxel inferior (A). L'opacitat ara "
+"controla el punt de barreja exacte. Una opacitat de 0,0 dona només el color "
+"del píxel del fotograma inferior (B), mentre que 1,0 només dona el color del "
+"píxel del fotograma superior (A). 0,5 estaria a mig camí entre els dos "
+"colors dels píxels."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:123
+msgid ""
+"To sum up: in case of the **Affine** transition, **the opacity parameter"
+" solely affects color blending** between upper frame (B) and lower frame (A)"
+" pixels."
+msgstr ""
+"En resum: en el cas de la transició **Afí**, **el paràmetre d'opacitat només "
+"afecta la barreja de color** entre els píxels del fotograma superior (B) i "
+"del fotograma inferior (A)."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
+msgid "Next, let's look at the other transitions: **Composite** & Co."
+msgstr ""
+"A continuació, donem una ullada a les altres transicions: **Composició** i "
+"companyia."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
+msgid ""
+"As for the color blending, the same procedure applies that we have just seen"
+" with the Affine transition: the opacity parameter controls how much upper"
+" frame (B) pixel color gets into the blend."
+msgstr ""
+"Pel que fa a la barreja de color, s'aplica el mateix procediment que acabem "
+"de veure amb la transició afí: el paràmetre opacitat controla la quantitat "
+"de color del píxel del fotograma superior (B) en la barreja."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:136
+msgid ""
+"But when we look at how the transparency of the resulting pixel gets"
+" calculated, things are starting to look different. We have seen that the"
+" transparency of the upper frame (B) pixel gets scaled down in reverse"
+" proportion of the lower frame (A) pixel transparency. The **opacity**"
+" parameter takes this even further: it additionally scales down the upper"
+" frame (B) pixel transparency. Please see also the illustration."
+msgstr ""
+"Però quan observem com es calcula la transparència del píxel resultant, les "
+"coses comencen a semblar diferents. Hem vist que la transparència del píxel "
+"del fotograma superior (B) s'escala cap avall en proporció inversa a la "
+"transparència del píxel del fotograma inferior (A). El paràmetre "
+"**opacitat** porta això encara més lluny: a més redueix l'escala de la "
+"transparència del píxel del fotograma superior (B). Vegeu també la "
+"il·lustració."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:138
+msgid ""
+"In consequence, the opacity parameter thus controls how much opacity of an"
+" upper frame (B) pixel is applied at all. This way, you can fade in or out"
+" the upper frame."
+msgstr ""
+"En conseqüència, el paràmetre d'opacitat controla així la quantitat "
+"d'opacitat d'un píxel del fotograma superior (B) que s'aplica en total. "
+"D'aquesta manera, es pot esvair cap a dins o cap enfora el fotograma "
+"superior."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:140
+msgid ""
+"To sum up: in case of the **Composite** (& Co) transitions, **the opacity"
+" parameter affects both color blending** of upper frame (B) and lower frame"
+" (A) pixels, **as well as transparency of the upper frame (B)**."
+msgstr ""
+"En resum: en el cas de les transicions de **Composició** (i companyia), el "
+"**paràmetre de l'opacitat afecta tant la barreja de color** dels píxels del "
+"fotograma superior (B) com del fotograma inferior (A), **així com la "
+"transparència del fotograma superior (B)**."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:147
+msgid "Notes"
+msgstr "Notes"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
+msgid ""
+"Wikipedia article on |alpha_compositing|, with a reference to the original"
+" Porter Duff SIGGRAPH’84 paper on «Compositing Digital Images»."
+msgstr ""
+"Article de la Viquipèdia sobre la |alpha_compositing|, amb una referència a"
+" l'article original SIGGRAPH'84 de Porter Duff sobre «Composició d'imatges"
+" digitals»."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+msgid "**Further Reading**"
+msgstr "**Lectura addicional**"
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+msgid ""
+"The |svg_open_paper| by Craig Northway on \"Understanding Compositing and"
+" Color extensions in SVG 1.2 in 30 minutes!\" - especially the Porter Duff"
+" operator table in chapter 6 with resulting alpha calculation column."
+msgstr ""
+"El document |svg_open_paper| de Craig Northway sobre «Entendre la composició "
+"i les extensions de color a SVG 1.2 en 30 minuts!», especialment la taula "
+"d'operadors de Porter Duff en el capítol 6 amb la columna del càlcul alfa"
+" resultant."
+
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:166
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct"
+" kdenlive.org blog. For this documentation it has been lifted from"
+" |kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+"El text original va ser enviat per l'usuari *TheDiveO* al blog"
+" kdenlive.org, ja desaparegut. Per a aquesta documentació s'ha extret de"
+" |kdenlive_org|, s'ha actualitzat i adaptat per a concordar amb l'estil"
+" general."

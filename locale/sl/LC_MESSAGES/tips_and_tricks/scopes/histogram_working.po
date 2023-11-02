@@ -1,0 +1,416 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 00:36+0000\n"
+"PO-Revision-Date: 2023-11-01 12:19+0100\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"Language: sl\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Viri**"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:1
+msgid "Kdenlive Tips & Tricks - How the Histogram works"
+msgstr "Nasveti in triki Kdenlive - Kako deluje histogram"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, histogram, editing, "
+"timeline, documentation, user manual, video editor, open source, free, "
+"learn, easy"
+msgstr ""
+"KDE, Kdenlive, nasveti, triki, nasveti in triki, merilniki, histogram, "
+"montaža, časovnica, dokumentacija, uporabniški priročnik, montažni program, "
+"program za videomontažo, urejevalnik videa, odprta koda, brezplačno, učenje, "
+"enostavno"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:38
+msgid "How the Histogram Works"
+msgstr "Kako deluje histogram"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:40
+msgid ""
+"When the Histogram receives an updated image from one of the monitors, each "
+"of these pixels consists of a Red, Green, and Blue component. Each of these "
+"values lies within a range of 0 and 255, which are the numbers you can "
+"represent with one Byte. 0 means that the component is not shining at all (i."
+"e. it is black), 255 means that it is shining as bright as possible."
+msgstr ""
+"Ko histogram prejme posodobljeno sliko enega od ogledov, je vsaka od teh "
+"slikovnih točk sestavljena iz rdeče, zelene in modre komponente. Vsaka od "
+"teh vrednosti je v razponu 0 in 255, ki sta številki, ki jih lahko "
+"predstavljate z enim bajtom. 0 pomeni, da komponenta sploh ne sije (t.j. "
+"črna), 255 pomeni, da sije najbolj svetlo."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:42
+msgid ""
+"The histogram is merely statistics: it shows how often a component of a "
+"certain brightness occurs. So what the histogram then does is actually quite "
+"simple:"
+msgstr ""
+"Histogram je zgolj statistika; kaže, kako pogosto se pojavi komponenta "
+"določene svetlosti. Torej, kar histogram potem počne, je pravzaprav precej "
+"preprosto:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:44
+msgid "Take the first pixel"
+msgstr "Vzemite prvo slikovno točko"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:45
+msgid ""
+"Look at the Red value (= *x*) of the pixel. Increase the height of the bar "
+"at position *x* of the histogram by 1. Example: If the red value is 0, "
+"increase the height of the bar at position 0 (that is at the very left) of "
+"the histogram by 1. If it is 42, increase bar 42 by 1. And so on."
+msgstr ""
+"Poglejte rdečo vrednost (= x) sl. točke. Povečajte višino vrstice na "
+"položaju x histograma za 1. Primer: Če je rdeča vrednost enaka 0, povečajte "
+"višino vrstice na položaju 0 (ki je na levi) histograma za 1. Če je 42, "
+"povečajte vrstico 42 za 1. In tako naprej."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:46
+msgid "Repeat the previous step with Green and Blue."
+msgstr "Ponovite prejšnji korak z zeleno in modro."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:47
+msgid ""
+"Look at R, G, and B together and calculate the :term:`Luma` value. Luma is "
+"the perceived luminance of this pixel. See :ref:`further below <scopes-"
+"luma_calc>` how it is calculated."
+msgstr ""
+"Poglejte R, G in B skupaj in izračunajte vrednost :term:`lume<Luma>`. Luma "
+"je zaznana svetilnost te slikovne točke. Kako se izračuna, si oglejte :ref:"
+"`spodaj <scopes-luma_calc>`."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:48
+msgid "Repeat these steps for all other pixels on the image."
+msgstr "Ponovite te korake za vse druge slikovne točke na sliki."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:51
+msgid "What the Histogram Shows"
+msgstr "Kaj prikazuje histogram"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:53
+msgid ""
+"The Histogram only shows the distribution of the luminance of the selected "
+"components - nothing more, nothing less. Also when looking at the RGB "
+"channels separately instead of at the calculated Luma component only, you "
+"cannot really guess the colors in the image. Take a look at these two images:"
+msgstr ""
+"Histogram prikazuje le porazdelitev svetilnosti izbranih komponent - nič več "
+"in nič manj. Prav tako pri ločenem pogledu na kanale RGB namesto samo na "
+"izračunano komponento lume ne morete zares ugibati o barvah na sliki. "
+"Oglejte si ti dve sliki:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:59
+msgid "Histogram for a simple greyscale gradient image"
+msgstr "Histogram za enostavno sivinsko prelivno sliko"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:65
+msgid "Histogram for a simple color gradient image"
+msgstr "Histogram za enostavno barvno prelivno sliko"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:67
+msgid ""
+"Exactly the same Histogram. Totally different colors. (What you can do is "
+"guessing the color tone; see below.) But what is the histogram good for now?"
+msgstr ""
+"Popolnoma isti histogram. Popolnoma drugačne barve (kar lahko storite, je "
+"ugibanje barvnega tona; glej spodaj). Toda čemu služi histogram za zdaj?"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:69
+msgid ""
+"To answer this question, it is best to refer you to this article from |"
+"cambridge_in_colour|: |tones_and_contrast| and the second part |"
+"luminance_and_color|. Although written for digital photo cameras, exactly "
+"the same applies for digital video cameras. Both articles are easy to read "
+"and understand and may also be of interest for experienced users."
+msgstr ""
+"Za odgovor na to vprašanje vas bomo napotili na članek |"
+"cambridge_in_colour|: |tones_and_contrast| in njegov drugi del |"
+"luminance_and_color|. Čeprav je bil napisan za digitalne fotografske "
+"fotoaparate, velja popolnoma enako tudi za digitalne videokamere. Oba članka "
+"sta enostavna za branje in razumevanje ter sta lahko zanimiva tudi za "
+"izkušene uporabnike."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:72
+msgid "Example 1: Candlelight"
+msgstr "Primer 1: Sveča"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:78
+msgid "Histogram example with a candlelight image"
+msgstr "Primer histograma s sliko ognja sveča"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:80
+msgid "Two special things about this histogram."
+msgstr "Dve posebni stvari o tem histogramu."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:82
+msgid ""
+"Most pixels are dark, according to the Luma component (white). Though there "
+"is no total black: Notice that the Luma component shows «min: 8». "
+"Nevertheless, the blue component does reach 0. This means that the darkest "
+"pixels are still slightly orange and didn't lose all color information yet."
+msgstr ""
+"Večina slikovnih točk je temnih, glede na komponento Luma (bela). Čeprav ni "
+"popolna črna: opazite lahko, da komponenta Luma kaže «min: 8». Kljub temu "
+"modra komponenta doseže 0. To pomeni, da so najtemnejše slikovne točke še "
+"vedno rahlo oranžne in še niso izgubile vseh barvnih informacij."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:84
+msgid ""
+"There is quite some clipping. A lot of R values are sticking at the very "
+"right, at 255. Having a peak at 255 usually means that we lost information "
+"because some regions were too bright for the camera sensor with the current "
+"sensitivity settings. This could have been solved by lowering the "
+"sensitivity, but then the book and nearly everything else would be black. In "
+"this case the candles cause the clipping. (Not too bad here, because the "
+"lost detail isn't important for the image.)"
+msgstr ""
+"Kar nekaj porezanega je. Veliko vrednosti R se drži na desni, na 255. To, da "
+"imamo vrh na 255, običajno pomeni, da smo izgubili informacije, ker so bile "
+"nekatera območja presvetla za tipalo kamere oz. fotoaparata s trenutnimi "
+"nastavitvami občutljivosti. To bi lahko rešili z znižanjem občutljivosti, "
+"potem pa bi bila knjiga in skoraj vse drugo črno. V tem primeru sveče "
+"povzročijo porezavo (tukaj niti ni slabo, ker izgubljena podrobnost ni "
+"pomembna za sliko)."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:86
+msgid ""
+"The RGB components also show very well that the shadows are not neutral grey "
+"but orange, otherwise the color heaps on the left would, as in the gradient "
+"histogram above, have their center at the same position. There isn't a lot "
+"to correct here, what could be done is raising the shadows with a :ref:"
+"`effects-curves` effect, but this is a matter of taste and the intended mood "
+"for the final movie."
+msgstr ""
+"Komponente RGB prav tako dobro kažejo, da sence niso nevtralno sive, temveč "
+"oranžne, sicer bi imele barvne kopice na levi strani, tako kot v zgornjem "
+"histogramu preliva, središče na istem mestu. Tu ni veliko za popraviti, kar "
+"bi lahko naredili, je dvig senc z učinkom :ref:`effects-curves`, vendar je "
+"to stvar okusa in predvidenega vzdušja celega filma."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:92
+msgid ""
+"Histogram before and after applying some color correcting with the :ref:"
+"`effects-curves` effect"
+msgstr ""
+"Histogram pred in po uporabi barvne korekcije z učinkom :ref:`effects-curves`"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:95
+msgid "Example 2: Underexposed ABC"
+msgstr "Primer 2: podeksponirani ABC"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:101
+msgid "Histogram example 2 with an underexposed image"
+msgstr "Primer 2 histograma s podeksponirano sliko"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:103
+msgid "We immediately notice two things:"
+msgstr "Takoj opazimo dve stvari:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:105
+msgid ""
+"The RGB peaks are at the same position, near the middle. The white wall is "
+"the brightest part, so these peaks are from the white wall. As they are not "
+"shifted, the white balance should be okay (the image confirms that). Note "
+"that the Histogram is not very accurate for white balance. Later we will "
+"introduce a much more accurate scope."
+msgstr ""
+"Vrhovi RGB so na istem položaju, blizu sredine. Bela stena je najsvetlejši "
+"del, zato so ti vrhovi iz bele stene. Ker niso zamaknjene, mora biti belo "
+"ravnovesje v redu (slika to potrjuje). Upoštevajte, da histogram ni ravno "
+"natančen glede beline. Kasneje bomo predstavili veliko natančnejši merilnik."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:107
+msgid ""
+"The image is too dark. The brightest component, red, only reaches a value of "
+"170. The white wall is actually grey."
+msgstr ""
+"Slika je preveč temna. Najsvetlejša komponenta, rdeča, doseže le vrednost "
+"170. Bela stena je pravzaprav siva."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:109
+msgid ""
+"Monitoring correct exposure is the histogram's strength! The exposure can be "
+"corrected with :ref:`effects-curves` as well, but this time we will use the :"
+"ref:`effects-color_levels` effect."
+msgstr ""
+"Spremljanje pravilne osvetlitve je prednost histograma! Izpostavljenost "
+"lahko popravite tudi z učinkom :ref:`effects-curves`, vendar bomo tokrat "
+"uporabili učinek :ref:`effects-color_levels`."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:115
+msgid ""
+"Histogram before and after applying the :ref:`effects-levels` effect to "
+"correct exposure"
+msgstr ""
+"Histogram pred in po uveljavitvi učinka :ref:`effects-levels` za popravek "
+"ekspozicije"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:117
+msgid ""
+"We have lowered the input white level of the luma channel until one of the "
+"RGB components reached 255. Lowering the input white level further would "
+"cause clipping on the wall and loss of image information. (Which may be "
+"desired in certain circumstances!)"
+msgstr ""
+"Znižali smo vhodno raven beline kanala luma, dokler ena od komponent RGB ni "
+"dosegla vrednosti 255. Nadaljnje zniževanje vhodne ravni beline bi "
+"povzročilo porezovanje na steni in izgubo slikovnih informacij (kar je v "
+"določenih okoliščinah lahko zaželeno)."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:119
+msgid "This process is called *Stretching* of the tonal range."
+msgstr "Ta proces se imenuje *Raztezanje* tonalnega razpona."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:122
+msgid "Histogram Options"
+msgstr "Možnosti histograma"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:124
+msgid "The Histogram can be adjusted as follows:"
+msgstr "Histogram je moč prilagoditi na naslednji način:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:126
+msgid ""
+"Components - They can be enabled individually. For example, you might only "
+"want to see the Luma component, or you want to hide the Sum display."
+msgstr ""
+"Komponente – omogočene so lahko individualno. Morda boste npr. želeli videti "
+"le komponento Luma ali pa želite skriti prikaz Vsota."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:128
+msgid ""
+":guilabel:`Y` or Luma is the best known histogram. Every digital camera "
+"shows it, |digikam|, |gimp|, etc. know it. See :ref:`below <scopes-"
+"luma_calc>` how it is calculated."
+msgstr ""
+":guilabel:`Y` ali Luma je najbolj znani histogram. Prikazuje ga vsak "
+"digitalni fotoaparat, poznajo ga |digikam|, |gimp| itn. Glejte :ref:`spodaj "
+"<scopes-luma_calc>`, kako se izračuna."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:130
+msgid ""
+":guilabel:`Sum` is basically a quick overview over the individual :abbr:`RGB "
+"(Red Green Blue)` channels. If it shows e.g. 5 as the minimum value, you "
+"know that none of the RGB components goes lower than 5."
+msgstr ""
+":guilabel:`Vsota` je hiter pregled posameznih kanalov :abbr:`RGB (Red Green "
+"Blue)`. Če prikazuje npr. 5 kot najmanjšo vrednost, veste, da nobena od "
+"komponent RGB ni nižja od 5."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:132
+msgid ":guilabel:`R / G / B` show the histogram for the individual channels."
+msgstr ":guilabel:`R / G / B` prikazujejo histogram za posamezne kanale."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:134
+msgid ""
+"Unscaled (Context menu) - Does not scale the width of the histogram (unless "
+"the widget size is smaller). Just a goodie if you want to have it 256px wide."
+msgstr ""
+"Nespremenjeno (kontekstni meni) – ne spremeni širine histograma (razen če je "
+"velikost gradnika manjša). Dobro samo, če ga želite imeti širokega 256 slik. "
+"točk."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:138
+msgid ""
+"Luma mode (Context menu) - This option defines how the Luma value of a pixel "
+"is calculated. Two options are available:"
+msgstr ""
+"Način luma (kontekstni meni) – ta možnost določa, kako se izračuna vrednost "
+"luma slikovne točke. Na voljo sta dve možnosti:"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:140
+msgid "Rec. 601 uses the formula ``Y' = 0.299 R' + 0.587 G' + 0.114 B'``"
+msgstr "Rec. 601 uporablja formulo ``Y ‘= 0,299 R' + 0,587 G' + 0,114 B’``"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:142
+msgid "Rec. 709 uses ``Y' = 0.2126 R' + 0.7152 G' + 0.0722 B'``"
+msgstr "Rec. 709 uporablja ``Y’ = 0,2126 R’ + 0,7152 G’ + 0,0722 B’``"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:144
+msgid ""
+"Most of the time you will want to use Rec. 709 which is mostly used in "
+"digital video today."
+msgstr ""
+"Večino časa boste uporabljali Rec. 709, ki je danes najpogostejši v "
+"digitalnem videu."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:147
+msgid "Summary"
+msgstr "Povzetek"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:148
+msgid ""
+"The Histogram is a great tool for exposure correction, together with the "
+"Curves and the Levels effects. It helps to avoid clipping (burned out areas) "
+"and crushed blacks (the opposite) when applying effects."
+msgstr ""
+"Histogram je odlično orodje za popravo ekspozicije, skupaj z učinki krivulj "
+"in ravni. Pri uporabi učinkov pomaga preprečiti porezovanje (prežarjena "
+"območja) in stopljene črnine (nasprotno)."
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:153
+msgid "Notes"
+msgstr "Opombe"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:159
+msgid ""
+":download:`Histogram-bw.png <http://granjow.net/uploads/kdenlive/samples/"
+"Histogram-bw.png>`"
+msgstr ""
+":download:`Histogram-bw.png <http://granjow.net/uploads/kdenlive/samples/"
+"Histogram-bw.png>`"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:160
+msgid ""
+":download:`Histogram-col.png <http://granjow.net/uploads/kdenlive/samples/"
+"Histogram-col.png>`"
+msgstr ""
+":download:`Histogram-col.png <http://granjow.net/uploads/kdenlive/samples/"
+"Histogram-col.png>`"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:161
+msgid ""
+":download:`abc-underexposed.avi <http://granjow.net/uploads/kdenlive/samples/"
+"abc-underexposed.avi>` (26 MB; 720/24p)"
+msgstr ""
+":download:`abc-underexposed.avi <http://granjow.net/uploads/kdenlive/samples/"
+"abc-underexposed.avi>` (26 MB; 720/24p)"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:162
+msgid ""
+":download:`candlelight.avi <http://granjow.net/uploads/kdenlive/samples/"
+"candlelight.avi>` (14 MB; 720/24p)"
+msgstr ""
+":download:`candlelight.avi <http://granjow.net/uploads/kdenlive/samples/"
+"candlelight.avi>` (14 MB; 720/24p)"
+
+#: ../../tips_and_tricks/scopes/histogram_working.rst:164
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Mon, "
+"8/30/2010 - 23:10 to the now defunct kdenlive.org blog. For this "
+"documentation it has been lifted from |web_archive|, updated and adapted to "
+"match the overall style."
+msgstr ""
+"Izvirno besedilo je poslal *Simon A. Eugster (Granjow)* dne 30. 8. 2010 ob "
+"23:10 na zdaj že nedelujoč blog kdenlive.org. Za to dokumentacijo je bilo "
+"preneseno iz |web_archive|, posodobljeno in prilagojeno, da ustreza "
+"splošnemu slogu."

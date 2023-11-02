@@ -1,0 +1,151 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-29 00:36+0000\n"
+"PO-Revision-Date: 2023-11-01 10:59+0100\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"Language: sl\n"
+
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr "**Viri**"
+
+#: ../../more_information/earlier_versions/full_luma.rst:1
+msgid "The Kdenlive User Manual - Notes for Earlier Versions - Full Luma"
+msgstr ""
+"Uporabniški priročnik za Kdenlive - opombe za prejšnje različice - Polni "
+"obseg svetilnosti"
+
+#: ../../more_information/earlier_versions/full_luma.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, easy, earlier version, full luma"
+msgstr ""
+"KDE, Kdenlive, dokumentacija, uporabniški priročnik, montažni program, "
+"program za videomontažo, montaža videoposnetkov, odprta koda, brezplačno, "
+"pomoč, učenje, enostavno, prejšnja različica, polni obseg svetilnosti"
+
+#: ../../more_information/earlier_versions/full_luma.rst:28
+msgid ""
+"This page is not maintained anymore and contains information referring to "
+"features or functions from earlier versions of Kdenlive that are deprecated "
+"or have been superseded by something else."
+msgstr ""
+"Te strani ne vzdržujemo več in vsebuje informacije, ki se tičejo funkcij ali "
+"funkcionalnosti starejših izdaj Kdenlive, ki so opuščene ali pa so jih "
+"nasledile druge."
+
+#: ../../more_information/earlier_versions/full_luma.rst:31
+msgid "Full Luma"
+msgstr "Poln obseg svetilnosti"
+
+#: ../../more_information/earlier_versions/full_luma.rst:33
+msgid ""
+"The :guilabel:`Full (JPEG)` luma option refers to video sources with :term:"
+"`luma` recorded outside of the typical `broadcast`, limited 16 - 235 8-bit "
+"range."
+msgstr ""
+"Možnost lume :guilabel:`Polni (JPEG)` se nanaša na video vire z :term:"
+"`lumo<luma>`, ki so posneti zunaj tipičnega omejenega 8-bitnega obsega "
+"16-235, namenjenega oddajanju (angl. `broadcast`)."
+
+#: ../../more_information/earlier_versions/full_luma.rst:35
+msgid ""
+"It fixes problems when round-tripping video files with luma outside of the "
+"16 - 235 8-bit range."
+msgstr ""
+"Odpravlja težave pri krožnem delu z videodatotekami z lumo izven 8-bitnega "
+"območja 16-235."
+
+#: ../../more_information/earlier_versions/full_luma.rst:37
+msgid ""
+"By default, when we import a video it is handled and displayed based on the "
+"16 - 235 range. That means levels below 15 and those above 235 are "
+"compressed to 0 and 255, respectively. Thus shadows get overly dark and "
+"highlights saturated in the preview in Kdenlive for camera sources that are "
+"full range."
+msgstr ""
+"Ko uvozimo videoposnetek, je privzeto obdelan in prikazan na podlagi obsega "
+"16-235. To pomeni, da so ravni pod 15 in nad 235 stisnjene na 0 oziroma 255. "
+"Tako so sence v predogledu v programu Kdenlive za vire kamere, ki imajo poln "
+"obseg, preveč temne, poudarki pa nasičeni."
+
+#: ../../more_information/earlier_versions/full_luma.rst:39
+msgid ""
+"When we render out the project, those levels remain in the final video "
+"(compressed shadows and saturated highlights) resulting in a mismatch "
+"between the levels in the imported video and the exported video."
+msgstr ""
+"Ob izrisu te ravni ostanejo v končnem videu, stisnjene sence in nasičeni "
+"poudarki, zato obstaja neskladje med ravnmi v videu, ki ga uvažamo, v "
+"primerjavi z izvoženim."
+
+#: ../../more_information/earlier_versions/full_luma.rst:41
+msgid "This only really matters for round-tripping to an external application."
+msgstr "To je pomembno samo za krožno delovanje z zunanjim programom."
+
+#: ../../more_information/earlier_versions/full_luma.rst:43
+msgid ""
+"For any playback on DVDs, Blu-ray, and via the likes of Vimeo or Youtube, "
+"our video levels in the final rendered output should be in the 16 - 235 "
+"range, otherwise we see so called `gamma shifts`, `washed out` or saturated "
+"playback depending on playback handling."
+msgstr ""
+"Pri predvajanju na diskih DVD, Blu-ray in prek portalov, kot sta Vimeo ali "
+"Youtube, morajo biti ravni slike v končnem izrisu v razponu 16-235, sicer se "
+"pojavijo tako imenovani `zamiki game`, `izprana slika` ali nasičena "
+"reprodukcija, odvisno od načina predvajanja."
+
+#: ../../more_information/earlier_versions/full_luma.rst:45
+msgid ""
+"However, we want to have full control of the levels adjustment in Kdenlive, "
+"i.e. 0 - 255 into 16 - 235. Full luma option changes the handling of the "
+"files and preview / scopes are based on an alternative YCbCr to RGB "
+"calculation."
+msgstr ""
+"Vendar pa res želimo imeti nadzor nad prilagoditvijo ravni v Kdenlive, t. "
+"j.: 0 - 255 v 16 - 235, da možnost polne lume spremeni ravnanje datotek in "
+"predogled / merilniki temeljijo na alternativnem izračunu YCbCr v RGB."
+
+#: ../../more_information/earlier_versions/full_luma.rst:47
+msgid ""
+"By setting the full luma on, which should only be done for camera sources "
+"known to be full range 0 - 255 or even 16 - 255 such as FS100, Nex5, HV20, "
+"HV30 and probably many more consumer cameras. Canon and Nikon DSLR's too but "
+"a little more complicated, we can export video with the levels as imported, "
+"BUT and it's a big but, that is without doing any RGB operations in "
+"Kdenlive, so no effects, color correction etc. If any effects are added then "
+"the output will be restricted range again."
+msgstr ""
+"Z vklopom polne lume, kar je smiselno samo za vire iz kamer, za katere je "
+"znano, da imajo polni razpon 0 - 255 ali celo 16 - 255, kot so FS100, Nex5, "
+"HV20, HV30 in verjetno še veliko potrošniških kamer. Tudi Canon in Nikon "
+"DSLR, vendar je zanje malce bolj zapleteno; lahko izvozite video z ravnmi, "
+"kot so uvožene, ampak brez opravljanja vsakršnih operacij RGB v Kdenlive, "
+"tako da ni učinkov, barvne korekcije itn. Če so vsi učinki dodani, bo izhod "
+"spet omejen."
+
+#: ../../more_information/earlier_versions/full_luma.rst:57
+msgid ""
+"The original text for **Full Luma** was submitted by user *Yellow* to the "
+"now defunct Kdenlive forum. For this documentation it has been lifted from |"
+"kdenlive_org| and adapted to match the overall style."
+msgstr ""
+"Izvirno besedilo za **Poln obseg svetilnosti** je uporabnik *Yellow* poslal "
+"na zdaj že ukinjen blog kdenlive.org. Za to dokumentacijo je bilo povzeto iz "
+"|kdenlive_org|, posodobljeno in prilagojeno, da ustreza splošnemu slogu."
