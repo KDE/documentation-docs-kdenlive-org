@@ -211,4 +211,4 @@ All scopes together fulfill another important task: They help matching video fro
   - :download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/juggling-balls.avi>` (720/24p, 11 MB)
   - :download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/Musical-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom H4n.)
 
-  The original text was submitted by *Simon A. Eugster (Granjow)* on Tue, 10/10/2010 - 18:30 to the now defunct kdenlive.org blog. For this documentation it has been lifted from |web_archive|, updated and adapted to match the overall style.
+  The original text was submitted by *Simon A. Eugster (Granjow)* on Sun, 10/10/2010 - 18:30 to the now defunct kdenlive.org blog. For this documentation it has been lifted from |web_archive|, updated and adapted to match the overall style.
