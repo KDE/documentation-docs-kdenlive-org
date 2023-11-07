@@ -227,6 +227,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |kdenlive-audio| image:: /images/icons/kdenlive-audio.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |kdenlive-hide-audio| image:: /images/icons/kdenlive-hide-audio.svg
    :width: 22px
    :class: no-scaled-link
@@ -489,11 +493,25 @@ rst_epilog = """
 
 .. |outdated| replace:: The instructions of this section are probably out-dated please help us to improve the documentation! See :ref:`get_involved`
 
-.. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
-   :width: 480px
+.. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
 
-.. |Kdenlive_Keyboard_074_A4| image:: /images/Kdenlive_Keyboard_074_A4.svg
-   :width: 480px
+.. |appimage| image:: /images/icons/appimage.png
+   :width: 18px
+   :alt: appimage
+   :class: no-scaled-link
+
+.. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+.. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link
 
 """
 
