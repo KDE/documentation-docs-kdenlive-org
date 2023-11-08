@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-30 00:38+0000\n"
+"POT-Creation-Date: 2023-11-05 12:20+0000\n"
 "PO-Revision-Date: 2021-11-19 17:01+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -17,40 +17,64 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.08.1\n"
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:13
-msgid "The “Smooth” Keyframe Interpolation"
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:1
+msgid "Kdenlive Tips & Tricks - Smooth Keyframe Interpolation"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:15
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:1
 msgid ""
-"Did you ever wonder why Kdenlive’s **smooth interpolation mode may "
+"KDE, Kdenlive, tips, tricks, tips & tricks, useful information, smooth, "
+"keyframe, interpolation, editing, documentation, user manual, video editor, "
+"open source, free, learn, easy"
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:22
+msgid "Smooth Keyframe Interpolation"
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:24
+msgid ""
+"Did you ever wonder why Kdenlive's **smooth interpolation mode may "
 "overshoot** between keyframes? And how to tell Kdenlive to avoid such "
 "situations?"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:17
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:26
 msgid ""
-"I did wonder, and so I was starting to look behind the scenes and were "
-"introduced to the strange world of smoothness. Don’t worry, there won’t be "
-"any mathematics for you to learn and understand. Just watch the figures. "
-"We’ll also show you how to avoid such overshots in those situations you "
-"don’t want it. And for the really curious what the mathematics behind "
-"“smooth” interpolation are: just see the end of this toolbox post."
+"Let's start to look behind the scenes and introduce you to the strange world "
+"of smoothness. Do not worry, there will not be any mathematics for you to "
+"learn and understand. Just watch the figures. We will also show you how to "
+"avoid such overshots in those situations you do not want it. And for the "
+"really curious who want to know what the mathematics behind “smooth” "
+"interpolation are there is some :ref:`further reading <ski_further_reading>` "
+"in the **Notes** section at the bottom of this page."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:20
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:29
 msgid "The Fade-In Ramp"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:34
-msgid ""
-"Let’s start with a simple ramp, as shown here. We use two keyframes, one "
-"with a low value setting, and the other with a high value setting. The "
-"particular values don’t matter. We set both keyframe to the interpolation "
-"mode smooth."
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:37
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:90
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:136
+msgid "Keyframes in the :ref:`effects-brightness_2` effect"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:36
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:39
+msgid ""
+"Let's start with a simple ramp, as shown here. We use two keyframes\\ [1]_, "
+"one with a low value setting, and the other with a high value setting. The "
+"particular values do not matter. We set both keyframes to the interpolation "
+"mode :guilabel:`smooth`."
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:50
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:104
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:143
+msgid "Color clip keyframe display"
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:52
 msgid ""
 "The effect display inside the timeline clip looks like a straight ramp. But "
 "if you watch the interpolated values closely while scrubbing the timeline, "
@@ -58,177 +82,204 @@ msgid ""
 "beginning the slope is smaller than in the middle, where it is higher."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:38
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:54
 msgid "But what exactly is going on here?"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:47
-msgid ""
-"So I discovered this sweet tool `GeoGebra <https://www.geogebra.org/>`_ "
-"(Open Source) for trying out the Mathematics inside Kdenlive’s MLT engine."
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:67
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:116
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:159
+msgid "GeoGebra visualization of the Catmull-Rom interpolation"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:49
-msgid "**Eh, no panic!**"
-msgstr "**Nåja, ingen panik!**"
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:69
+msgid ""
+"There is this online open source tool |geogebra| for trying out the "
+"mathematics inside Kdenlive's MLT engine."
+msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:51
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:71
 msgid ""
 "This figure shows two keyframes P1=0 and P2=1, which is a fairly typical "
-"ramp up setting. In case you already wonder: it doesn’t matter at which "
-"exact frames the individual keyframes are. If that sounds odd, it probably "
-"is. But this is how the underlying math works (you know: see the end for "
-"details)."
+"ramp up setting. In case you are already wondering: it does not matter at "
+"which exact frames the individual keyframes are."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:53
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:75
 msgid ""
-"The smooth interpolation that MLT will calculate is drawn as a thick green "
-"line. It’s bend a little bit like the capital letter S, but then, not really "
-"too much."
+"The smooth interpolation that :abbr:`MLT (Media Lovin' Toolkit - An open "
+"source software multimedia framework designed and developed for tv "
+"broadcasting)` will calculate is drawn as a thick green line. It is bent a "
+"little bit like the capital letter S, but then, not really too much."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:55
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:77
 msgid ""
 "And if you look closely, then beginning and ending slope of the green line "
-"aren’t horizontal ‒ at least what I expected at first."
+"are not horizontal - at least what could be expected at first."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:57
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:79
 msgid ""
 "You may wonder what the two other keyframes P0 and P3 are good for? Well, "
-"the math underneath always require four keyframes in order to interpolate "
+"the math underneath always requires four keyframes in order to interpolate "
 "segment-wise between any two adjacent keyframes. And if there is no "
-"preceding (P0) or trailing (P1) keyframe, then we’ll simple repeat the left "
-"(P1) or right (P2) keyframe."
+"preceding (P0) or trailing (P1) keyframe, then we will simple repeat the "
+"left (P1) or right (P2) keyframe."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:62
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:82
 msgid "Ramp-Up, and … Overshoot"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:76
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:92
 msgid ""
-"Now let’s add a third keyframe, so this looks like a ramp with a plateau. "
-"This is shown in the screen shots."
+"Now let's add a third keyframe, so this looks like a ramp with a plateau. "
+"This is shown in the screenshots."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:78
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:106
 msgid ""
 "And now, the ramp gets a clearly visible bump instead of a sharp bend. Well, "
 "this looks smooth, but not exactly what we may have intended? So why is this "
 "the way it is?"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:87
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:118
 msgid ""
-"This is now our ramp with a plateau: P0=0, P1=1, P2=2. Don’t worry about the "
-"keyframe numbering, though."
+"This is now our ramp with a plateau: P0=0, P1=1, P2=2. Do not worry about "
+"the keyframe numbering, though."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:89
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:120
 msgid ""
-"Did you expect the plateau to be, well a *straight* plateau? Me too. But you "
-"may have already notice that Kdenlive doesn’t exactly behave like this. "
-"Instead, the interpolation math causes the interpolated values to overshoot, "
-"as you can easily see in the figure."
+"Did you expect the plateau to be, well a *straight* plateau? Of course you "
+"did. But you may have already noticed that Kdenlive does not exactly behave "
+"like this. Instead, the interpolation math causes the interpolated values to "
+"overshoot, as you can easily see in the figure."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:91
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:122
 msgid ""
 "What the underlying math does is this: the interpolation is smooth, so that "
 "the slope to the *left* of P1 is the same as to the *right* of P1. Yeah, "
-"that’s a slightly different “smooth” from what you might have been expecting."
+"that is a slightly different “smooth” from what you might have been "
+"expecting."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:93
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:124
 msgid ""
 "If you want the plateau to be straight instead, then you must set the "
-"interpolation mode of the keyframe P1 to *linear* instead. By the way, this "
-"doesn’t change the *previous* smooth segment in any way. And this results in "
-"a “rough bent” at P1, but luckily you probably won’t notice in most "
-"situations."
+"interpolation mode of the keyframe P1 to :guilabel:`linear` instead. By the "
+"way, this does not change the *previous* smooth segment in any way. And this "
+"results in a “rough bent” at P1, but luckily you probably will not notice in "
+"most situations."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:98
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:129
 msgid "Ramp Up-Flat-Down"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:112
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:145
 msgid ""
-"Let’s add another, fourth keyframe, so we have: ramp-up first, then flat, "
+"Let's add another, fourth keyframe, so we have: ramp-up first, then flat, "
 "then ramp-down. A fairly typical fade-in and fade-out keyframe template."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:114
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:151
 msgid ""
-"And look, what’s happening: we’ve good a hunch-back, but not a nice and flat "
-"middle section. Gosh!"
+"And look, what is happening: we have got a hump, but not a nice and flat "
+"middle section."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:123
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:161
 msgid ""
 "This time, we look at the middle section P1-P2. To the left, we see the up "
 "ramp, to the right, the down ramp."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:125
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:163
 msgid ""
 "Again, smooth now means that there is no sharp bend in the segments. "
-"Instead, the left+right slopes are continuous at P1 and P2; that is, in the "
-"middle section. And this causes our interpolated value to overshoot. So "
-"awful. So sad. Shhh."
+"Instead, the left and right slopes are continuous at P1 and P2; that is, in "
+"the middle section. And this causes our interpolated value to overshoot."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:130
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:168
 msgid "Make Flat Great Again"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:144
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:176
+msgid "Smooth keyframes in the :ref:`effects-brightness_2` effect"
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:183
 msgid ""
-"Now, how do we get a flat top? Fortunately, that’s easy to achieve, as you "
+"Now, how do we get a flat top? Fortunately, that is easy to achieve, as you "
 "can see from the screenshots."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:146
-msgid "first keyframe: smooth,"
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:185
+msgid "1. keyframe: smooth,"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:147
-msgid "second keyframe: interpolated(!),"
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:186
+msgid "2. keyframe: linear (interpolated!),"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:148
-msgid "third keyframe: smooth,"
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:187
+msgid "3. keyframe: smooth,"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:149
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:188
 msgid ""
-"fourth keyframe: interpolated (albeit that does not really matter if there "
-"are no further keyframes)."
+"4. keyframe: smooth (albeit that does not really matter if there are no "
+"further keyframes)."
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:151
-msgid "So great!"
-msgstr "Så bra!"
-
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:157
-msgid "For the Curious (Furious?)"
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:195
+msgid "Notes"
 msgstr ""
 
-#: ../../glossary/useful_information/smooth_keyframe_interpolation.rst:159
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:219
+msgid "**Further Reading**"
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:219
 msgid ""
-"As you may (or rather may not) remember, Kdenlive’s rendering engine is the "
-"`MLT Multimedia Framework <https://www.mltframework.org/>`_. While `MLT has "
-"smooth interpolation <https://www.mltframework.org/blog/"
-"v0.9.0_released_with_new_property_animation_api/>`_ since around mid-2013, "
-"Kdenlive only later caught up and now supports all three interpolation modes "
-"linear, discrete, and finally smooth. As can be seen from the MLT `source "
-"code <https://github.com/mltframework/mlt/blob/"
-"e8b92affcafbc206a5af0d446c446ed339d79a8b/src/framework/mlt_property."
-"c#L1087>`_, smooth interpolation is done using a `Catmull-Rom spline "
-"<https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline>`_. In "
-"particular, MLT uses the so-called “uniform” variant, because it is so "
-"simple. The downside is that this smoothing sometimes has the unwanted "
-"property of overshooting, especially when you least expect it."
+"As you may (or rather may not) remember, Kdenlive's rendering engine is the |"
+"mlt_framework|. While :abbr:`MLT (Media Lovin' Toolkit - An open source "
+"software multimedia framework designed and developed for tv broadcasting)` "
+"has |smooth_interpolation| since around mid-2013, Kdenlive only later caught "
+"up and now supports all three interpolation modes linear, discrete, and "
+"smooth. As can be seen from the MLT |source_code|, smooth interpolation is "
+"done using a |cr_spline|. In particular, MLT uses the so-called *uniform* "
+"variant, because it is so simple. The downside is that this smoothing "
+"sometimes has the unwanted property of overshooting, especially when you "
+"least expect it."
 msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:222
+msgid "**Sources**"
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:222
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:226
+msgid ""
+"You may notice that there are three keyframes: one at frame 0 of the clip, "
+"and the two we created for this screenshot. Kdenlive always sets a keyframe "
+"at frame 0 of a clip, and we chose to ignore that one for the purpose of "
+"this demonstration."
+msgstr ""
+
+#~ msgid "**Eh, no panic!**"
+#~ msgstr "**Nåja, ingen panik!**"
+
+#~ msgid "So great!"
+#~ msgstr "Så bra!"

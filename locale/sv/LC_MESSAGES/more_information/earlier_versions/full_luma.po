@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 00:41+0000\n"
+"POT-Creation-Date: 2023-11-05 12:20+0000\n"
 "PO-Revision-Date: 2022-05-13 16:49+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -17,45 +17,66 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.08.1\n"
 
-#: ../../glossary/useful_information/full_luma.rst:14
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr ""
+
+#: ../../more_information/earlier_versions/full_luma.rst:1
+msgid "The Kdenlive User Manual - Notes for Earlier Versions - Full Luma"
+msgstr ""
+
+#: ../../more_information/earlier_versions/full_luma.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, easy, earlier version, full luma"
+msgstr ""
+
+#: ../../more_information/earlier_versions/full_luma.rst:28
+msgid ""
+"This page is not maintained anymore and contains information referring to "
+"features or functions from earlier versions of Kdenlive that are deprecated "
+"or have been superseded by something else."
+msgstr ""
+
+#: ../../more_information/earlier_versions/full_luma.rst:31
 msgid "Full Luma"
 msgstr "Fullständigt luminans"
 
-#: ../../glossary/useful_information/full_luma.rst:18
-msgid "Advance Clip Property - Full Luma Range"
-msgstr "Avancerad klippegenskap - Fullständigt luminansintervall"
-
-#: ../../glossary/useful_information/full_luma.rst:20
-msgid "A clip can have its full luma flag set from the :ref:`clips`"
-msgstr ""
-"Ett klipp kan få sin fullständiga luminansalternativ inställt från :ref:"
-"`clips`"
-
-#: ../../glossary/useful_information/full_luma.rst:23
+#: ../../more_information/earlier_versions/full_luma.rst:33
+#, fuzzy
+#| msgid ""
+#| "The full luma option refers to video sources with luma recorded outside "
+#| "of the typical 'broadcast', 'restricted' 16 - 235 8bit range."
 msgid ""
-"From `this <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
-"do#comment-18298>`_ forum post by Yellow"
-msgstr ""
-"Från `detta <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
-"do#comment-18298>`_ foruminlägg av Yellow"
-
-#: ../../glossary/useful_information/full_luma.rst:26
-msgid ""
-"The full luma option refers to video sources with luma recorded outside of "
-"the typical 'broadcast', 'restricted' 16 - 235 8bit range."
+"The :guilabel:`Full (JPEG)` luma option refers to video sources with :term:"
+"`luma` recorded outside of the typical `broadcast`, limited 16 - 235 8-bit "
+"range."
 msgstr ""
 "Det fullständiga luminansalternativet gäller videokällor med luminans "
 "inspelad utanför det typiska 'utsända', 'begränsade' 16 - 235 8-bitars "
 "intervallet."
 
-#: ../../glossary/useful_information/full_luma.rst:29
+#: ../../more_information/earlier_versions/full_luma.rst:35
 msgid ""
-"This option fixes problems round tripping video files with luma outside of "
-"the 16 - 235 8bit range. By default when we import a video it is handled and "
-"displayed based on the 16 - 235 range, levels below ie: 0 to 15 and those "
-"above 235 to 255 are compressed to 0 and 255, so shadows get overly dark and "
-"highlights saturated, in the preview within **Kdenlive** for camera sources "
-"that are full range."
+"It fixes problems when round-tripping video files with luma outside of the "
+"16 - 235 8-bit range."
+msgstr ""
+
+#: ../../more_information/earlier_versions/full_luma.rst:37
+#, fuzzy
+#| msgid ""
+#| "This option fixes problems round tripping video files with luma outside "
+#| "of the 16 - 235 8bit range. By default when we import a video it is "
+#| "handled and displayed based on the 16 - 235 range, levels below ie: 0 to "
+#| "15 and those above 235 to 255 are compressed to 0 and 255, so shadows get "
+#| "overly dark and highlights saturated, in the preview within **Kdenlive** "
+#| "for camera sources that are full range."
+msgid ""
+"By default, when we import a video it is handled and displayed based on the "
+"16 - 235 range. That means levels below 15 and those above 235 are "
+"compressed to 0 and 255, respectively. Thus shadows get overly dark and "
+"highlights saturated in the preview in Kdenlive for camera sources that are "
+"full range."
 msgstr ""
 "Alternativet rättar problem med skicka videofiler fram och tillbaka med "
 "luminans utanför 16 - 235 8-bitars intervallet. Normal, när vi importerar en "
@@ -64,12 +85,18 @@ msgstr ""
 "att skuggor blir överdrivet mörka och dagrar mättade, i förhandsgranskningar "
 "inne i **Kdenlive** för kamerakällor som har hela intervallet."
 
-#: ../../glossary/useful_information/full_luma.rst:32
+#: ../../more_information/earlier_versions/full_luma.rst:39
+#, fuzzy
+#| msgid ""
+#| "Then when we render out, those levels remain in the final video, "
+#| "compressed shadows and saturated highlights, so there is a mismatch "
+#| "between the levels in the video we import compared to that exported. "
+#| "**This only really matters for round tripping to an external "
+#| "application**."
 msgid ""
-"Then when we render out, those levels remain in the final video, compressed "
-"shadows and saturated highlights, so there is a mismatch between the levels "
-"in the video we import compared to that exported. **This only really matters "
-"for round tripping to an external application**."
+"When we render out the project, those levels remain in the final video "
+"(compressed shadows and saturated highlights) resulting in a mismatch "
+"between the levels in the imported video and the exported video."
 msgstr ""
 "Sedan när vi återger, förblir nivåerna i den slutliga videon, med "
 "komprimerade skuggor och mättade dagrar, så att det är skillnad mellan "
@@ -77,39 +104,64 @@ msgstr ""
 "egentligen bara någon roll när videofiler skickas fram och tillbaka med ett "
 "externt program**."
 
-#: ../../glossary/useful_information/full_luma.rst:35
+#: ../../more_information/earlier_versions/full_luma.rst:41
+msgid "This only really matters for round-tripping to an external application."
+msgstr ""
+
+#: ../../more_information/earlier_versions/full_luma.rst:43
+#, fuzzy
+#| msgid ""
+#| "For any playback on DVD's, Blu-ray and including the web like Vimeo or "
+#| "Youtube our video levels in the final rendered output should be in the 16 "
+#| "- 235 range, otherwise we see so called 'gamma shifts', 'washed out' or "
+#| "saturated playback depending on playback handling."
 msgid ""
-"For any playback on DVD's, Blu-ray and including the web like Vimeo or "
-"Youtube our video levels in the final rendered output should be in the 16 - "
-"235 range, otherwise we see so called 'gamma shifts', 'washed out' or "
-"saturated playback depending on playback handling."
+"For any playback on DVDs, Blu-ray, and via the likes of Vimeo or Youtube, "
+"our video levels in the final rendered output should be in the 16 - 235 "
+"range, otherwise we see so called `gamma shifts`, `washed out` or saturated "
+"playback depending on playback handling."
 msgstr ""
 "För all uppspelning på dvd:er, Blue-ray, och dessutom på webben, som Vimeo "
 "eller YouTube, ska våra videonivåer i den slutliga återgivna resultatet vara "
 "i intervallet 16 - 235, annars ser man så kallade 'gammaskiftningar', "
 "'urtvättat' eller mättad uppspelning, beroende på uppspelningshanteringen."
 
-#: ../../glossary/useful_information/full_luma.rst:38
+#: ../../more_information/earlier_versions/full_luma.rst:45
+#, fuzzy
+#| msgid ""
+#| "However really we want to have control of the levels adjustment in "
+#| "**Kdenlive** i.e.: 0 - 255 into 16 - 235 so full luma option changes the "
+#| "handling of the files and preview / scopes are based on an alternative "
+#| "YCbCr to RGB calculation."
 msgid ""
-"However really we want to have control of the levels adjustment in "
-"**Kdenlive** i.e.: 0 - 255 into 16 - 235 so full luma option changes the "
-"handling of the files and preview / scopes are based on an alternative YCbCr "
-"to RGB calculation."
+"However, we want to have full control of the levels adjustment in Kdenlive, "
+"i.e. 0 - 255 into 16 - 235. Full luma option changes the handling of the "
+"files and preview / scopes are based on an alternative YCbCr to RGB "
+"calculation."
 msgstr ""
 "Dock vill vi egentligen ha kontroll över nivåjusteringarna i **Kdenlive**, "
 "alltså 0 - 255 till 16 - 235 så att alternativet för fullständig luminans "
 "ändrar hantering av filerna, med förhandsgranskning och oscilloskop baserade "
 "på en alternativ beräkning av YCbCr till RGB."
 
-#: ../../glossary/useful_information/full_luma.rst:41
+#: ../../more_information/earlier_versions/full_luma.rst:47
+#, fuzzy
+#| msgid ""
+#| "By setting the full luma on, which should only be done for camera sources "
+#| "known to be full range 0 - 255 or even 16 - 255 such as FS100, Nex5, "
+#| "HV20, HV30 and probably many more consumer cameras. Canon and Nikon "
+#| "DSLR's too but a little more complicated, we can export video with the "
+#| "levels as imported, BUT and it's a big but, that is without doing any RGB "
+#| "operations in **Kdenlive**, so no effects, color correction etc. If any "
+#| "effects are added then the output will be restricted range again."
 msgid ""
 "By setting the full luma on, which should only be done for camera sources "
 "known to be full range 0 - 255 or even 16 - 255 such as FS100, Nex5, HV20, "
 "HV30 and probably many more consumer cameras. Canon and Nikon DSLR's too but "
 "a little more complicated, we can export video with the levels as imported, "
 "BUT and it's a big but, that is without doing any RGB operations in "
-"**Kdenlive**, so no effects, color correction etc. If any effects are added "
-"then the output will be restricted range again."
+"Kdenlive, so no effects, color correction etc. If any effects are added then "
+"the output will be restricted range again."
 msgstr ""
 "Genom att sätta på fullständig luminans,vilket bara ska göras för "
 "kamerakällor där det är känt att de har ett fullständigt intervall 0 - 255 "
@@ -120,18 +172,39 @@ msgstr ""
 "**Kdenlive**, så inga effekter. ingen färgkorrigering, etc. Om några "
 "effekter läggs till begränsas utdataintervallet igen."
 
-#: ../../glossary/useful_information/full_luma.rst:44
+#: ../../more_information/earlier_versions/full_luma.rst:57
 msgid ""
-"For me I use full luma all the time, it allows roundtripping a video edit "
-"and maintaining levels for grading in an external application that offers "
-"32bit float precision. When it's necessary to otherwise happy with "
-"**Kdenlive's** SOP/SAT and scopes."
+"The original text for **Full Luma** was submitted by user *Yellow* to the "
+"now defunct Kdenlive forum. For this documentation it has been lifted from |"
+"kdenlive_org| and adapted to match the overall style."
 msgstr ""
-"I mitt fall använder jag fullständig luminans hela tiden. Det gör det "
-"möjligt att låta videoredigeringen gå fram och tillbaka och behålla nivåer "
-"för gradering i ett externt program som tillhandahåller 32-bitars "
-"flyttalsprecision. När det är nödvändigt att göra på annat sätt, är jag nöjd "
-"med **Kdenlive's** SOP/SAT och oscilloskop."
+
+#~ msgid "Advance Clip Property - Full Luma Range"
+#~ msgstr "Avancerad klippegenskap - Fullständigt luminansintervall"
+
+#~ msgid "A clip can have its full luma flag set from the :ref:`clips`"
+#~ msgstr ""
+#~ "Ett klipp kan få sin fullständiga luminansalternativ inställt från :ref:"
+#~ "`clips`"
+
+#~ msgid ""
+#~ "From `this <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
+#~ "do#comment-18298>`_ forum post by Yellow"
+#~ msgstr ""
+#~ "Från `detta <http://www.kdenlive.org/forum/what-does-full-luma-exactly-"
+#~ "do#comment-18298>`_ foruminlägg av Yellow"
+
+#~ msgid ""
+#~ "For me I use full luma all the time, it allows roundtripping a video edit "
+#~ "and maintaining levels for grading in an external application that offers "
+#~ "32bit float precision. When it's necessary to otherwise happy with "
+#~ "**Kdenlive's** SOP/SAT and scopes."
+#~ msgstr ""
+#~ "I mitt fall använder jag fullständig luminans hela tiden. Det gör det "
+#~ "möjligt att låta videoredigeringen gå fram och tillbaka och behålla "
+#~ "nivåer för gradering i ett externt program som tillhandahåller 32-bitars "
+#~ "flyttalsprecision. När det är nödvändigt att göra på annat sätt, är jag "
+#~ "nöjd med **Kdenlive's** SOP/SAT och oscilloskop."
 
 #~ msgid "Contents"
 #~ msgstr "Innehåll"

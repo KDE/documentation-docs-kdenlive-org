@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 00:38+0000\n"
+"POT-Creation-Date: 2023-11-05 12:20+0000\n"
 "PO-Revision-Date: 2023-01-02 13:10-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -14,90 +14,93 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:1
-msgid "Editing in Kdenlive video editor"
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:1
+msgid "Kdenlive Tips & Tricks - Using Camcorder Proxy Clips"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:1
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:1
 msgid ""
-"KDE, Kdenlive, useful information, import external proxy clips, editing, "
-"documentation, user manual, video editor, open source, free, learn, easy"
+"KDE, Kdenlive, useful information, import external proxy clips, camcorder, "
+"camera, editing, documentation, user manual, video editor, open source, "
+"free, learn, easy"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:24
-msgid "Using camera proxy clips"
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:18
+msgid "Using Camera Proxy Clips"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:30
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:23
 msgid ""
-"Kdenlive's refactoring version, due in April 2019 now supports using "
-"external proxy clips. Some cameras, like Sony PXW-X70 and others allow you "
-"to record proxy clips during the normal recording operation."
+"Kdenlive supports using external proxy clips. Some cameras, like Sony PXW-"
+"X70 and others allow you to record proxy clips during the normal recording "
+"operation."
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:32
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:25
 msgid "For Sony camcorders, the file layout is the following:"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:34
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:27
 msgid ""
-"On your SD card, you will have a folder with original full resolution clips "
-"(called \"Clips\") and a folder with low res proxy clips (called \"Sub\")."
+"On your :abbr:`SD (Secure Digital - a proprietary, non-volatile, flash "
+"memory card format developed by the SD Association)` card, you will have a "
+"folder with original full resolution clips (called \"Clips\") and a folder "
+"with low res proxy clips (called \"Sub\")."
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:35
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:28
 msgid "The proxy clips will end with \"S03.MP4\" instead of \".MXF\"."
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:37
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:30
 msgid "For example:"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:39
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:32
 msgid "**Original clip:**"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:40
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:33
 msgid "Clips/Clip0001.MXF"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:42
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:35
 msgid "**Proxy:**"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:42
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:35
 msgid "Sub/Clip0001S03.MP4"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:44
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:37
 msgid ""
-"In Kdenlive we now have a file called externalproxies.rc that will be "
-"installed in $INSTALL_PREFIX/share/kdenlive/externalproxies.rc / Windows: "
-"KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies.rc. This is a text "
-"file that lists supported camera profiles, giving indication about the path "
-"and name of proxy clips. This is currently in the form: profile name = Proxy "
-"folder (relative to original clip) ; Proxy clip prefix; Proxy clip suffix; "
-"Original folder (relative to proxy file); original clip prefix; original "
-"clip suffix."
+"In Kdenlive we have a file called :file:`externalproxies.rc` that will be "
+"installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` "
+"(Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies."
+"rc`). This is a text file that lists supported camera profiles giving "
+"indication about the path and name of proxy clips. This is currently in the "
+"form:"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:46
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:43
 msgid "Following camera proxies are supported:"
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:56
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:53
 msgid ""
-"Then, in the project settings under :ref:`configure_proxy_clips` you can "
-"check the \"External proxy\" feature and select your camera profile. Then, "
-"you can add a clip to your project, and it will automatically use the camera "
-"generated proxy instead of creating a new one. You can also directly add the "
-"proxy clip in the project and it will be recognized as a proxy."
+"In order to use the already available proxy files go to the project "
+"settings, and in the tab :ref:`configure_proxy_clips` check :guilabel:"
+"`Enable proxy clips` if not enabled already, and then check :guilabel:"
+"`External proxy clips` and select your camera profile. Now when you add a "
+"clip to your project, Kdenlive will automatically use the camera generated "
+"proxy instead of creating a new one. You can also directly add the proxy "
+"clip in the project and it will be recognized as a proxy."
 msgstr ""
 
-#: ../../glossary/useful_information/using_camcorder_proxy_clips.rst:58
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:59
 msgid ""
-"This greatly improves workflow if you have such camera. Other camera brands "
-"also enable the creation of proxy clips, so if you have one, please send us "
-"information about the path and naming schemes so we can include it in "
-"Kdenlive"
+"This greatly improves workflow if you have such a camera. Other camera "
+"brands also enable the creation of proxy clips, so if you have one, please |"
+"send_us| information about the path and naming schemes so we can include it "
+"in Kdenlive."
 msgstr ""

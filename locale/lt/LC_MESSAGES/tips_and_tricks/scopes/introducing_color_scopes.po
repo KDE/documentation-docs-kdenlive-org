@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-27 00:38+0000\n"
+"POT-Creation-Date: 2023-11-05 12:20+0000\n"
 "PO-Revision-Date: 2022-02-27 00:38+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,70 +18,106 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:13
+#: ../../<generated>:1
+msgid "**Sources**"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:1
+msgid "Kdenlive Tips & Tricks - Introducing Scopes"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, editing, timeline, "
+"documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:26
 msgid "Introducing Color Scopes"
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:15
-msgid "*Submitted by Granjow on Mon, 08/30/2010 - 23:10*"
-msgstr ""
-
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:17
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:28
 msgid ""
-"With kdenlive 0.7.8 I added some color scopes, used for displaying color "
-"information. In this section I will give a brief overviews over scopes in "
-"general and explain the most basic scope, the histogram, in detail."
+"This section contains a brief overviews over scopes in general and explains "
+"the most basic scope, the histogram, in detail."
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:19
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:30
 msgid ""
-"**Color correction.** This is a really important topic in video editing. It "
-"starts with simple stretching of the tonal range if the brightness is not "
-"ideal, goes on with white balance to ensure that white remains white and not "
-"blue, and finally ends with creating looks which make your video look "
-"unique. (Remember the blueish `Minority Report <https://en.wikipedia.org/"
-"wiki/File:Minority_Report_bleached.jpg>`_? The contrasty `The Departed "
-"<https://web.archive.org/web/20160328033801/http://www.wbshop.com/product/"
-"code/1000121856.do>`_?)"
+"Color correction is a really important topic in video editing. It starts "
+"with simple stretching of the tonal range if the brightness is not ideal, "
+"goes on with white balance to ensure that white remains white and not blue, "
+"and finally ends with creating looks which make your video look unique. "
+"Remember the blue-ish |minority_report|\\ ? The contrasty |the_departed|\\ ?"
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:21
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:32
 msgid ""
-"For color correction we basically need two things, Effects for changing the "
-"colors and Scopes for monitoring the changes. The first scope I'm showing "
-"now is, as already mentioned, the histogram:"
+"For color correction you basically need two things: Effects or filters for "
+"changing the colors and scopes for monitoring the changes. The first scope "
+"to look at is the histogram."
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:27
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:37
+msgid "Kdenlive Histogram :term:`widget`"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:40
 msgid "Basic Scope Options"
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:29
-msgid "Let's first take a look at the basic options available in all scopes."
-msgstr ""
-
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:34
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:41
 msgid ""
-"*Auto Refresh* automatically refreshes the scope if the project/clip monitor "
-"changes. During the process of color correction you'll want to keep this "
-"option enabled. When not color correcting, it should be disabled as it "
-"usually heavily impacts the performance of playback. (There is a lot of "
-"calculations going on in the scopes.)"
+"Let's first take a look at the basic options available in all scopes. :kbd:"
+"`RMB` while overing over the scope :term:`widget<widget>` opens the scope "
+"context menu."
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:35
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:47
 msgid ""
-"*Realtime* tries to maintain a certain frame rate in the scopes by dropping "
-"part of the color information received (e.g. taking a look at every 8th "
-"pixel only instead of every single pixel)."
+":guilabel:`Auto Refresh` automatically refreshes the scope if the project/"
+"clip monitor changes. During the process of color correction you'll want to "
+"keep this option enabled. When not color correcting, it should be disabled "
+"as it usually heavily impacts the performance of playback. (There is a lot "
+"of calculations going on in the scopes.)"
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:37
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:48
+msgid ""
+":guilabel:`Realtime` tries to maintain a certain frame rate in the scopes by "
+"dropping part of the color information received (e.g. taking a look at every "
+"8th pixel only instead of every single pixel)."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:49
+msgid ""
+":guilabel:`Unscaled` fixes the width of the horizontal axis irrespective of "
+"the Histogram :term:`widget`'s size. If unchecked, the horizontal axis "
+"contracts and expands with the width of widget."
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:50
+msgid ":guilabel:`Rec 601` selects the Rec 601 :term:`color space`"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:51
+msgid ""
+":guilabel:`Rec 709` selects the Rec 709 :term:`color space` (high definition "
+"content and digital video uses this one)"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:53
 msgid "Note that you can always update a scope by clicking on it."
 msgstr ""
 
-#: ../../glossary/introducing_scopes/introducing_color_scopes.rst:39
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:57
+msgid "Notes"
+msgstr ""
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:63
 msgid ""
-"So far about scopes in general. Now let's take a closer look at the :ref:"
-"`Histogram <histogram_working>`."
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Mon, "
+"8/30/2010 - 23:10 to the now defunct kdenlive.org blog. For this "
+"documentation it has been lifted from |web_archive|, updated and adapted to "
+"match the overall style."
 msgstr ""
