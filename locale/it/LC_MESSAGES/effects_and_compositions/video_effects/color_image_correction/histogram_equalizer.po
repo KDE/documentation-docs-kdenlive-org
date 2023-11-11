@@ -1,33 +1,38 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # Vincenzo Reale <smart2128vr@gmail.com>, 2023.
+# SPDX-FileCopyrightText: 2023 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-07-08 01:50+0200\n"
-"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"PO-Revision-Date: 2023-10-31 18:43+0100\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 23.08.2\n"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:1
 msgid ""
 "Do your first steps with Kdenlive video editor, using histogram equalizer "
 "effect"
 msgstr ""
+"Compi i primi passi con l'editor video Kdenlive usando l'effetto "
+"equalizzatore dell'istogramma"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:1
 msgid ""
 "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
 "effects, color and image correction, histogram equalizer "
 msgstr ""
+"KDE, Kdenlive, editor video, aiuto, libero, impara, facile, filtro,effetti "
+"video, correzione dell'immagine e del colore, istogramma video"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:1
 msgid "- Bernd Jordan (https://discuss.kde.org/u/berndmj) "
@@ -39,13 +44,15 @@ msgstr "Licenza Creative Commons SA 4.0"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:14
 msgid "Histogram Equalizer"
-msgstr ""
+msgstr "Equalizzatore dell'istogramma"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:16
 msgid ""
 "This effect/filter applies a global color histogram equalization on a per-"
 "frame basis."
 msgstr ""
+"Questo effetto/filtro applica un'equalizzazione dell'istogramma del colore "
+"globale su base per fotogramma."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:18
 msgid ""
@@ -55,6 +62,12 @@ msgid ""
 "\"automatically adjusting contrast filter\". This filter is useful only for "
 "correcting degraded or poorly captured source video."
 msgstr ""
+"Può essere usato per correggere un video che ha un intervallo delle "
+"intensità dei pixel compresso. Il filtro ridistribuisce le intensità dei "
+"pixel per equalizzare la loro distribuzione nel loro intervallo. Può essere "
+"visto come una \"regolazione automatica del filtro di contrasto\". Questo "
+"filtro è utile solo per correggere le sorgenti video degradate o mal "
+"acquisite."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:20
 msgid "The effect does not have keyframes."
@@ -62,7 +75,7 @@ msgstr "L'effetto non ha fotogrammi chiave."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:28
 msgid "Histogram Equalizer effect"
-msgstr ""
+msgstr "L'effetto Equalizzatore dell'istogramma"
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:30
 msgid ""
@@ -71,6 +84,11 @@ msgid ""
 "approaches that of the input frame. The value must be a float number in the "
 "range from 0 to 1 and defaults to 0.200."
 msgstr ""
+"**Strength** - determina la quantità di equalizzazione da applicare. Man "
+"mano che si riduce, la distribuzione delle intensità dei pixel si avvicina "
+"sempre più a quella del fotogramma in ingresso. Il valore deve essere un "
+"numero in virgola mobile nell'intervallo tra 0 e 1; quello predefinito è 0."
+"200."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:32
 msgid ""
@@ -79,6 +97,11 @@ msgid ""
 "the intensity can be limited if needed to avoid wash-out. The value must be "
 "a float number in the range from 0 to 1 and defaults to 0.210."
 msgstr ""
+"**Intensity** - imposta l'intensità massima che può generare, e "
+"opportunamente ridimensiona i valori in uscita. Il valore di strength "
+"dovrebbe essere impostato come si vuole, quindi il valore dell'intensità può "
+"essere limitato per evitare la slavatura. Il valore deve essere un numero in "
+"virgola mobile nell'intervallo tra 0 e 1; quello predefinito è 0.210."
 
 #: ../../effects_and_compositions/video_effects/color_image_correction/histogram_equalizer.rst:34
 msgid ""
@@ -87,3 +110,7 @@ msgid ""
 "to avoid banding of the histogram. Possible values are **None**, **Weak** or "
 "**Strong**. It defaults to **None**."
 msgstr ""
+"**Antibanding level** imposta il livello di antibanding. Se abilitato, il "
+"filtro varierà in maniera casuale di un piccolo valore la :term:`luminanza` "
+"dei pixel in uscita. Questo per evitare il banding dell'istogramma. I valori "
+"possibili sono **None**, **Weak** o **Strong**. Il predefinito è **None**."

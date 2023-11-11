@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-10-01 22:12+0200\n"
+"PO-Revision-Date: 2023-11-01 16:48+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 23.08.2\n"
 
 #: ../../user_interface/monitors/clip_monitor.rst:1
 msgid "Kdenlive's User Interface - Clip Monitor"
@@ -50,24 +50,33 @@ msgid ""
 "will appear as child clip underneath the clip. See :ref:`ui-"
 "monitors_cm_clip_zone` for more details."
 msgstr ""
+"Il Controllo della clip visualizza la clip non modificata\\ [#f1]_ che è "
+"attualmente selezionata nel :ref:`Contenitore del progetto <project_tree>`. "
+"Ha le stesse funzioni e opzioni del :ref:`ui-monitors_project_monitor`, "
+"tranne l'icona |kdenlive-add-clip|: questa aggiunge la zona della clip nel "
+"contenitore del progetto, dove appare come figlia sotto alla clip. Per "
+"maggiori dettagli, vedi :ref:`ui-monitors_cm_clip_zone`."
 
 #: ../../user_interface/monitors/clip_monitor.rst:41
 msgid "1 Video Stream indicator"
-msgstr ""
+msgstr "1 Indicatore del flusso video"
 
 #: ../../user_interface/monitors/clip_monitor.rst:42
 msgid "2 Audio Stream indicator"
-msgstr ""
+msgstr "2 Indicatore del flusso audio"
 
 #: ../../user_interface/monitors/clip_monitor.rst:43
 msgid "3 Clip Zone indicator"
-msgstr ""
+msgstr "3 Indicatore della zona della clip"
 
 #: ../../user_interface/monitors/clip_monitor.rst:45
 msgid ""
 "For more details about the icons in the monitor toolbar refer to :ref:`this "
 "section <ui_elements-monitor_icons>` of the manual."
 msgstr ""
+"Per maggiori dettagli sulle icone nella barra degli strumenti del controllo, "
+"fai riferimento a :ref:`questa sezione <ui_elements-monitor_icons>` del "
+"manuale."
 
 #: ../../user_interface/monitors/clip_monitor.rst:53
 msgid "Hamburger Menu"
@@ -82,6 +91,8 @@ msgid ""
 "**Volume** - Set the Clip Monitor playback volume. This does not affect the "
 "master volume setting."
 msgstr ""
+"**Volume** - imposta il volume della riproduzione nel Controllo della clip. "
+"Non influenza le impostazioni del volume principale."
 
 #: ../../user_interface/monitors/clip_monitor.rst:65
 msgid ""
@@ -89,6 +100,9 @@ msgid ""
 "markers is displayed and selecting one positions the :term:`playhead` at the "
 "marker's timecode."
 msgstr ""
+"**Vai al marcatore** - se ci sono dei :term:`marcatori` definiti per la clip "
+"viene visualizzato il loro elenco, e la selezione di uno posiziona "
+"l':term:`indicatore di riproduzione` alla posizione temporale del marcatore."
 
 #: ../../user_interface/monitors/clip_monitor.rst:67
 msgid ""
@@ -96,10 +110,15 @@ msgid ""
 "at 100% (original size), 50% or adjust it to the Clip Monitor widget's size "
 "(Free Resize)."
 msgstr ""
+"**Forza la dimensione del controllo** - puoi forzare il controllo della clip "
+"a visualizzare il video al 100% (alla dimensione originale), al 50%, oppure "
+"regolarlo alla dimensione del controllo della clip (ridimensionamento "
+"libero)."
 
 #: ../../user_interface/monitors/clip_monitor.rst:69
 msgid "**Background Color** - Set the background color for the Clip Monitor"
 msgstr ""
+"**Colore di sfondo** - imposta il colore di sfondo del controllo della clip"
 
 #: ../../user_interface/monitors/clip_monitor.rst:71
 msgid ""
@@ -108,12 +127,18 @@ msgid ""
 "selected. See also *Extract Zone* in the :ref:`ui-monitors_cm_rightclick` "
 "section below."
 msgstr ""
+"**Estrai zona** - salva la zona corrente come file :file:`.mlt`; se "
+":guilabel:`Aggiungi clip al progetto` è selezionato, allora verrà aggiunto "
+"nel :term:`contenitore del progetto`. Vedi anche *Estrai zona* nella sezione "
+":ref:`ui-monitors_cm_rightclick` più sotto."
 
 #: ../../user_interface/monitors/clip_monitor.rst:73
 msgid ""
 "**Set Current Image as Thumbnail** - Takes the a snapshot of the current "
 "frame and uses that as the thumbnail for the clip."
 msgstr ""
+"**Imposta l'immagine corrente come miniatura** - esegue un'istantanea del "
+"fotogramma corrente e la utilizza come miniatura per la clip."
 
 #: ../../user_interface/monitors/clip_monitor.rst:75
 msgid "**Always show audio thumbnails** -"
@@ -125,12 +150,18 @@ msgid ""
 "through the timeline. You may want to turn this off to improve scrubbing "
 "performance or if the noise is distracting."
 msgstr ""
+"**Scrubbing audio** - se abilitato, l'audio viene riprodotto durante il "
+"trascinamento dell'indicatore di riproduzione nella linea temporale. "
+"Potresti volerlo disabilitare, sia per migliorare le prestazioni di ricerca, "
+"sia se il rumore è fonte di distrazione."
 
 #: ../../user_interface/monitors/clip_monitor.rst:79
 msgid ""
 "**Show Audio Levels** - If enabled shows the frequency curve of the master "
 "audio in the Project Monitor."
 msgstr ""
+"**Mostra i livelli audio** - se abilitato, mostra la curva delle frequenze "
+"dell'audio principale nel controllo del progetto."
 
 #: ../../user_interface/monitors/clip_monitor.rst:81
 msgid "**Show Source Timecode** -"
@@ -147,6 +178,11 @@ msgid ""
 "is set by clicking |zone-in| or pressing :kbd:`I`. The end of a zone is set "
 "by clicking |zone-out| or pressing :kbd:`O`."
 msgstr ""
+"Le zone sono regioni definite delle clip che sono indicate da una sezione "
+"colorata nella linea temporale del controllo della clip, vedi l'elemento 3 "
+"qui sopra. L'inizio di una zona viene impostato facendo clic su |zone-in| "
+"oppure premendo :kbd:`I`, mentre per la sua fine bisogna fare clic su |zone-"
+"out| oppure premere :kbd:`O`."
 
 #: ../../user_interface/monitors/clip_monitor.rst:97
 msgid "Right-Click Menu"
@@ -154,7 +190,7 @@ msgstr "Menu del tasto destro"
 
 #: ../../user_interface/monitors/clip_monitor.rst:106
 msgid "Clip Monitor right-click menu options"
-msgstr ""
+msgstr "Opzione del menu del tasto destro del controllo della clip"
 
 #: ../../user_interface/monitors/clip_monitor.rst:108
 msgid ""
@@ -164,6 +200,11 @@ msgid ""
 "in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu "
 "items affect the currently selected clip on the :ref:`timeline`."
 msgstr ""
+"Questi sono le voci di menu disponibili quando fai clic col tasto destro nel "
+"Controllo della clip. Queste azioni influenzano la clip che è attualmente "
+"selezionata nel :ref:`project_tree`. Ce ne sono di simili nel menu del tasto "
+"destro nel :ref:`ui-monitors_project_monitor`, tuttavia queste influenzano "
+"la clip che è attualmente selezionata nella :ref:`timeline`."
 
 #: ../../user_interface/monitors/clip_monitor.rst:120
 msgid "Item"
@@ -246,6 +287,8 @@ msgstr ":kbd:`Alt+Sinistra`"
 #: ../../user_interface/monitors/clip_monitor.rst:140
 msgid "Moves the :term:`playhead` to the previous :term:`snap point`"
 msgstr ""
+"Sposta l':term:`indicatore di riproduzione` nel :term:`punto magnetico` "
+"precedente"
 
 #: ../../user_interface/monitors/clip_monitor.rst:141
 msgid "Go to Zone Start"
@@ -306,6 +349,8 @@ msgstr ":kbd:`Alt+Destra`"
 #: ../../user_interface/monitors/clip_monitor.rst:155
 msgid "Moves the :term:`playhead` to the next :term:`snap point`"
 msgstr ""
+"Sposta l':term:`indicatore di riproduzione` nel :term:`punto magnetico` "
+"successivo"
 
 #: ../../user_interface/monitors/clip_monitor.rst:156
 msgid "Go to Next Guide"
@@ -340,10 +385,13 @@ msgid ""
 "Opens the Edit Marker dialog window for adding a new :term:`marker<markers>` "
 "into the clip at the current time point."
 msgstr ""
+"Apre la finestra Modifica marcatore per aggiungere un nuovo "
+":term:`marcatore<markers>` nella clip al punto temporale corrente."
 
 #: ../../user_interface/monitors/clip_monitor.rst:171
 msgid "Edit Marker dialog window to add or edit a marker"
 msgstr ""
+"La finestra Modifica marcatore per aggiungere o modificare un marcatore"
 
 #: ../../user_interface/monitors/clip_monitor.rst:178
 msgid "Add Marker/Guide quickly"
@@ -355,7 +403,7 @@ msgstr ":kbd:`Num+*`"
 
 #: ../../user_interface/monitors/clip_monitor.rst:180
 msgid "Adds a new marker at the current time point"
-msgstr ""
+msgstr "Aggiunge un nuovo marcatore al punto temporale corrente"
 
 #: ../../user_interface/monitors/clip_monitor.rst:181
 msgid "Edit Marker"
@@ -402,6 +450,9 @@ msgid ""
 "The menu item pops out a list of existing :term:`marker<markers>` to select "
 "from. When one is selected the playhead moves to that marker."
 msgstr ""
+"La voce di menu apre un elenco di :term:`marcatori<markers>` esistenti da "
+"selezionare. Quando ne viene selezionato uno, l'indicatore di riproduzione "
+"si sposta in quel marcatore."
 
 #: ../../user_interface/monitors/clip_monitor.rst:193
 msgid "Extract Zone"
@@ -421,6 +472,9 @@ msgid ""
 "system. If the :guilabel:`Add clip to project` is checked the zone will be "
 "added as a separate clip to the project bin."
 msgstr ""
+"La :term:`zona` corrente può essere salvata come file :file:`.mov` nel file "
+"system; se :guilabel:`Aggiungi clip al progetto` è spuntato, la zona verrà "
+"aggiunta nel :term:`contenitore del progetto` come clip separata."
 
 #: ../../user_interface/monitors/clip_monitor.rst:211
 msgid "Insert Zone in Project bin"
@@ -435,6 +489,8 @@ msgid ""
 "Inserts the current :term:`zone` into the project bin as a sub-clip of the "
 "original clip"
 msgstr ""
+"Inserisce la :term:`zona` corrente nel contenitore del progetto come sotto "
+"clip dell'originale"
 
 #: ../../user_interface/monitors/clip_monitor.rst:214
 msgid "Extract Frame"
@@ -445,6 +501,8 @@ msgid ""
 "Opens the **Save Image** dialog window to save the current frame as an image "
 "file (default is :file:`.png`) to your file system"
 msgstr ""
+"Apre la finestra **Salva immagine** per salvare il fotogramma corrente come "
+"file immagine (il formato predefinito è :file:`.png`) nel file system"
 
 #: ../../user_interface/monitors/clip_monitor.rst:217
 msgid "Extract Frame to Project"
@@ -455,6 +513,8 @@ msgid ""
 "Same as :guilabel:`Extract Frame` but in addition the image file is brought "
 "into the project bin"
 msgstr ""
+"Lo stesso di :guilabel:`Estrai fotogramma`, ma in più il file immagine viene "
+"portato nel contenitore del progetto"
 
 #: ../../user_interface/monitors/clip_monitor.rst:226
 msgid "Save Image dialog for extracting frames"
@@ -469,6 +529,9 @@ msgid ""
 "Opens the :ref:`notes` widget and adds a hyperlink to the current frame in "
 "the clip. You can enter more text to describe the scene."
 msgstr ""
+"Apre l'oggetto per le :ref:`note` e aggiunge un collegamento ipertestuale al "
+"fotogramma corrente della clip. Puoi inserire dell'altro testo per "
+"descrivere la scena."
 
 #: ../../user_interface/monitors/clip_monitor.rst:262
 msgid "Set Zone In"
@@ -501,6 +564,8 @@ msgstr "Imposta l'immagine corrente come miniatura"
 #: ../../user_interface/monitors/clip_monitor.rst:270
 msgid "Uses the current frame as the thumbnail for the clip in the project bin"
 msgstr ""
+"Usa il fotogramma corrente come miniatura per la clip nel contenitore del "
+"progetto"
 
 #: ../../user_interface/monitors/clip_monitor.rst:271
 msgid "Always show audio thumbnails"
@@ -513,6 +578,10 @@ msgid ""
 "bottom of the monitor area and the Monitor Overlay Audio Waveform option is "
 "selected."
 msgstr ""
+"Attiva o disattiva la visualizzazione permanete delle forme d'onda audio. Se "
+"non è spuntato, cioè è disattivato, il grafico dell'audio viene visualizzato "
+"solo se il mouse è vicino alla parte bassa dell'area del controllo e se "
+"l'opzione Forme d'onda audio in sovrimpressione sul controllo è selezionata."
 
 #: ../../user_interface/monitors/clip_monitor.rst:274
 msgid "Current Monitor Overlay"
@@ -521,6 +590,8 @@ msgstr "Sovrimpressioni sul controllo corrente"
 #: ../../user_interface/monitors/clip_monitor.rst:276
 msgid "Opens a fly-out for the various available monitor overlays"
 msgstr ""
+"Apre un menu a comparsa con le varie sovrapposizioni sul controllo "
+"disponibili"
 
 #: ../../user_interface/monitors/clip_monitor.rst:277
 msgid "Monitor Info Overlay"
@@ -528,7 +599,7 @@ msgstr "Informazioni in sovrimpressione sul controllo"
 
 #: ../../user_interface/monitors/clip_monitor.rst:279
 msgid "Switches all monitor overlays on or off"
-msgstr ""
+msgstr "Attiva o disattiva tutte le sovrapposizioni sul controllo"
 
 #: ../../user_interface/monitors/clip_monitor.rst:280
 msgid "Monitor Overlay Timecode"
@@ -536,7 +607,7 @@ msgstr "Codice temporale in sovrimpressione sul controllo"
 
 #: ../../user_interface/monitors/clip_monitor.rst:282
 msgid "Switches the display of the timecode on or off"
-msgstr ""
+msgstr "Attiva o disattiva la visualizzazione dei codici temporali"
 
 #: ../../user_interface/monitors/clip_monitor.rst:283
 msgid "Monitor Overlay Playback FPS"
@@ -545,6 +616,7 @@ msgstr "FPS della riproduzione in sovrimpressione sul controllo"
 #: ../../user_interface/monitors/clip_monitor.rst:285
 msgid "Switches the display of the frame-per-seconds (:term:`fps`) on or off"
 msgstr ""
+"Attiva o disattiva la visualizzazione dei fotogrammi al secondo (:term:`fps`)"
 
 #: ../../user_interface/monitors/clip_monitor.rst:286
 msgid "Monitor Overlay Markers"
@@ -553,6 +625,8 @@ msgstr "Marcatori in sovrimpressione sul controllo"
 #: ../../user_interface/monitors/clip_monitor.rst:288
 msgid "Switches the display of the marker lines and thumbnails on or off"
 msgstr ""
+"Attiva o disattiva la visualizzazione delle linee dei marcatori e delle "
+"miniature"
 
 #: ../../user_interface/monitors/clip_monitor.rst:289
 msgid "Monitor Overlay Audio Waveform"
@@ -560,7 +634,7 @@ msgstr "Forme d'onda audio in sovrimpressione sul controllo"
 
 #: ../../user_interface/monitors/clip_monitor.rst:291
 msgid "Switches the display of the audio waveform on or off"
-msgstr ""
+msgstr "Attiva o disattiva la visualizzazione delle forme d'onda dell'audio"
 
 #: ../../user_interface/monitors/clip_monitor.rst:292
 msgid "Monitor Overlay Clip Jobs"
@@ -568,7 +642,7 @@ msgstr "Gestisci i processi di sovrimpressione delle clip"
 
 #: ../../user_interface/monitors/clip_monitor.rst:294
 msgid "Switches the display of running clip jobs on or off"
-msgstr ""
+msgstr "Attiva o disattiva la visualizzazione dei processi sulle clip"
 
 #: ../../user_interface/monitors/clip_monitor.rst:311
 msgid "Seeking"
@@ -584,7 +658,7 @@ msgstr ""
 
 #: ../../user_interface/monitors/clip_monitor.rst:321
 msgid "Drag Audio or Video Only to Timeline"
-msgstr ""
+msgstr "Trascina nella linea temporale solo l'audio o solo il video"
 
 #: ../../user_interface/monitors/clip_monitor.rst:325
 msgid ""
@@ -600,6 +674,10 @@ msgid ""
 "access the video (1) and audio (2) icons. Left click on the respective icon "
 "to drag either the video or audio stream into the timeline."
 msgstr ""
+"Spostati col mouse nell'angolo in basso a sinistra del controllo della clip "
+"per aver accesso alle icone del video (1) e dell'audio (2). Fai clic col "
+"tasto sinistro sulle rispettive icone per trascinare nella linea temporale "
+"il flusso video o quello audio."
 
 #: ../../user_interface/monitors/clip_monitor.rst:339
 msgid ""
@@ -607,6 +685,9 @@ msgid ""
 "grouping and subsequent deletion of one of the streams of the clip in the "
 "timeline."
 msgstr ""
+"È molto utile se hai bisogno di un solo flusso: in questo caso viene evitata "
+"la separazione e la conseguente eliminazione dell'altro flusso della clip "
+"nella linea temporale."
 
 #: ../../user_interface/monitors/clip_monitor.rst:343
 msgid "**Notes**"
@@ -617,3 +698,6 @@ msgid ""
 "\"Unedited\" means without any cuts. Please note that clips in the Project "
 "Bin can have effects and hence people may consider them \"edited\"."
 msgstr ""
+"\"Non modificata\" significa senza tagli. Nota che le clip nel contenitore "
+"del progetto possono avere degli effetti, e per questo la gente le considera "
+"\"modificate\"."
