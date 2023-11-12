@@ -155,10 +155,24 @@ Effect Functions
 
 .. _effects-apply_effects:
 
-Apply an Effect
-===============
+Applying an Effect
+==================
 
-You apply an effect to a clip by either choosing it from the Effects Tab and dragging them onto a clip in the Project Bin or in the Timeline.
+
+Where to apply an effect
+------------------------
+
+An effect can be applied at four different levels of your project:
+
+- you can apply it on a clip in the timeline : it will affect only this clip
+- you can apply it on an clip in the bin: it will affect all the occurrences of this clip in the timeline
+- you can apply it on a track : it will affect all the clips on this track
+- you can apply it on the Master : it will affect your global output
+
+How to apply an effect
+----------------------
+
+For applying an effect to a clip in the Project Bin or in the Timeline, you can choose one from the Effects Tab and drag it onto the clip.
 
 You can also double-click on an effect in the Effects Tab which adds the effect to either the clip in the Project Bin or in the Timeline depending on where the clip is selected.
 
@@ -167,6 +181,10 @@ Another method is to use the |favorite|:guilabel:`Favorite Effect` icon in the T
 Alternatively, you can use :menuselection:`Menu --> Timeline --> Add Effect` to select an effect from the various categories and add it to the selected clip(s) in the Timeline.
 
 And last but not least you can copy effects with all their settings from any clip (Timeline or Project Bin) and paste them to other clips.
+
+For applying an effect to a track, see :ref:`Track Effect <effects-track_effect>`.
+
+For applying an effect to the Master, see :ref:`Master Effect <effects-master_effect>`.
 
 .. note:: Effects are always added at the bottom of the effect stack, and since the effect order is important can be re-arranged.
 
