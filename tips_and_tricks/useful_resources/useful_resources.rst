@@ -49,6 +49,12 @@
 
    <a href="https://www.reddit.com/r/kdenlive/" target="_blank">r/kdenlive</a>
 
+.. |Kdenlive_Keyboard_074| image:: /images/Kdenlive_Keyboard_074.svg
+   :width: 480px
+
+.. |Kdenlive_Keyboard_074_A4| image:: /images/Kdenlive_Keyboard_074_A4.svg
+   :width: 480px
+
 
 .. _useful_resources:
 

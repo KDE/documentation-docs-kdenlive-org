@@ -1,5 +1,5 @@
 .. meta::
-   :description: Add in Kdenlive video editor, video effects, audio effects, compositions, title, subtitle, speech to text, color correction.
+   :description: Kdenlive Documentation - Effects and Compositions
    :keywords: KDE, Kdenlive, effects, audio, video, title, subtitle, speech to text, color correction, documentation, user manual, video editor, open source, free, learn, easy
 
    :authors: - Eugen Mohr
@@ -400,8 +400,6 @@ You can apply more than one mask per clip by following the same three-step proce
 Video Effects
 =============
 
-See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` for an alphabetical list of effects and transitions.
-
 The video effects are divided into the following categories:
 
 .. toctree::
@@ -414,21 +412,38 @@ The available effects are defined by :file:`.xml` files found in :file:`.local/s
 
 These :file:`.xml` files contain the default values for the effects parameters. So if you don't like the default values for the effects in Kdenlive, you can modify the defaults by editing these :file:`.xml` files.
 
+See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` for an alphabetical list of effects and transitions.
+
 
 .. _effects-audio_effects:
 
 Audio Effects
 =============
 
-See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` for an alphabetical list of effects and transitions.
-
 The audio effects are divided into the following categories:
 
 .. toctree::
    :maxdepth: 1
-   :glob:
 
-   effects_and_compositions/audio_effects/*
+   effects_and_compositions/audio_effects/audio/index
+   effects_and_compositions/audio_effects/channels/index
+   effects_and_compositions/audio_effects/cmt_plugins/index
+   effects_and_compositions/audio_effects/eq_and_filters/index
+   effects_and_compositions/audio_effects/ladspa_plugins/index
+   effects_and_compositions/audio_effects/modulators/index
+   effects_and_compositions/audio_effects/pitch_and_time/index
+   effects_and_compositions/audio_effects/reverb_echo_delays/index
+   effects_and_compositions/audio_effects/swh_plugins/index
+   effects_and_compositions/audio_effects/stereo_and_binaural_images/index
+   effects_and_compositions/audio_effects/tap_plugins/index
+   effects_and_compositions/audio_effects/tools/index
+   effects_and_compositions/audio_effects/volume_and_dynamics/index
+
+The available effects are defined by :file:`.xml` files found in :file:`.local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`).
+
+These :file:`.xml` files contain the default values for the effects parameters. So if you don't like the default values for the effects in Kdenlive, you can modify the defaults by editing these :file:`.xml` files.
+
+See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` for an alphabetical list of effects and transitions.
 
 
 .. _effects-compositions:

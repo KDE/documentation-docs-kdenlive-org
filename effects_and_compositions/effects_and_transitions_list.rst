@@ -515,7 +515,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1909)
-   * - :ref:`contrast`
+   * - contrast
      - Audio Effect
      - Audio correction
      - Process audio using a SoX effect
@@ -831,7 +831,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1418)
-   * - :ref:`gain`
+   * - :doc:`/effects_and_compositions/audio_effects/volume_and_dynamics/gain`
      - Audio Effect
      - Audio Correction
      - Adjust the audio volume without keyframes (volume)
@@ -1163,7 +1163,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1419)
-   * - :ref:`mono_amplifier`
+   * - mono_amplifier
      - Audio Effect
      - Misc
      -
@@ -1195,7 +1195,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1201)
-   * - :ref:`mute`
+   * - :doc:`/effects_and_compositions/audio_effects/volume_and_dynamics/mute`
      - Audio Effect
      - Audio Correction
      -
@@ -1635,7 +1635,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1212)
-   * - :ref:`stereo_amplifier` (version >= 0.9.10)
+   * - stereo_amplifier (version >= 0.9.10)
      - Audio Effect
      - Audio Correction
      - LADSPA plugin (ladspa.1049)
@@ -1891,7 +1891,7 @@ Alphabetical List of Effects and Compositions
      - Audio Effect
      - Audio
      - LADSPA plugin (ladspa.1337)
-   * - :ref:`volume_(keyframable)`
+   * - :doc:`/effects_and_compositions/audio_effects/volume_and_dynamics/volume_keyframable`
      - Audio Effect
      - Audio Correction
      - Adjust the audio volume with keyframes (volume)

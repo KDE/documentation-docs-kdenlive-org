@@ -95,3 +95,73 @@
 .table-wrap {
     overflow: visible !important;
 }
+
+/* copied from blender doc config */
+
+/* Ugly 'red' literals. */
+.rst-content tt.literal,
+.rst-content tt.literal,
+.rst-content code.literal {
+	color: #404040;
+	border-radius: .4em;
+}
+
+/* Fix definitions with different ids. */
+.rst-content dl.simple {
+	margin-bottom: 0px;
+}
+
+/* Fix nested block spacing. */
+.rst-content .document dl dt,
+.rst-content dd dl,
+.rst-content dl.field-list dd>p {
+	margin: 0;
+}
+
+/* Dont indent field lists */
+.rst-content dl.field-list dt {
+	padding-left: 0 !important;
+}
+
+/* Fix padding for normal definitions nested in field lists */
+.rst-content dl.field-list dd>dl.simple {
+	padding-top: 12px;
+}
+
+/* BMJ: increase rubric font size */
+.rubric {
+	font-size: 120% !important;
+}
+
+/* BMJ: fix sidebar */
+/* sidebar padding */
+aside dl {
+    padding: 0px !important;
+}
+
+/* sidebar fontsize for variables */
+.sidebar dd {
+    font-size: 120% !important;
+}
+
+/* sidebar categories alignment with variables */
+.sidebar dt {
+    margin-top: 3px !important;
+}
+
+/* BMJ: decrease footnote reference font size */
+.footnote-reference {
+    font-size: 80% !important;
+}
+
+/* Correctly display keyboard shortcuts inside definition lists (theme.css explicitly excludes this case for some reason) */
+dt > kbd {
+	font-weight: normal;
+	font-size: 80%;
+	background-color: #fff;
+	border: 1px solid #a6a6a6;
+	border-radius: 4px;
+	box-shadow: 0 2px grey;
+	padding: 2.4px 6px;
+	margin: auto 0;
+}
