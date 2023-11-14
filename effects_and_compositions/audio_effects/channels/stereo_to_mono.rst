@@ -20,27 +20,19 @@ Stereo to Mono
 
 .. sidebar:: |kdenlive-audio| Stereo to Mono
 
-   | **Status**: Maintained
-   | **Keyframes**: No
-   | **Source library**: avfilter.channelcopy
-   | **Available**: |linux| |appimage| |windows| |apple|
-   | **On Master only**: No
-   | **Known bugs**: No
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-
-.. .. list-table::
-   :class: table-rows
-   :width: 45%
-   :widths: 100
-   :header-rows: 1
-
-   * - | |kdenlive-audio| **Stereo to Mono**
-       | **Status**: Maintained
-       | **Keyframes**: No
-       | **Source library**: avfilter.channelcopy
-       | **Available**: |linux| |appimage| |windows| |apple|
-       | **On Master only**: No
-       | **Known bugs**: No
 
 .. rst-class:: clear-both
 

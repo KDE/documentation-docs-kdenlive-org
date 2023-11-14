@@ -20,27 +20,19 @@ Audio Pan
 
 .. sidebar:: |kdenlive-audio| Audio Pan
 
-   | **Status**: Maintained
-   | **Keyframes**: No
-   | **Source library**: avfilter.panner
-   | **Available**: |linux| |appimage| |windows| |apple|
-   | **On Master only**: No
-   | **Known bugs**: No
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-
-.. .. list-table::
-   :class: table-rows
-   :width: 45%
-   :widths: 100
-   :header-rows: 1
-
-   * - | |kdenlive-audio| **Audio Pan**
-       | **Status**: Maintained
-       | **Keyframes**: No
-       | **Source library**: avfilter.panner
-       | **Available**: |linux| |appimage| |windows| |apple|
-       | **On Master only**: No
-       | **Known bugs**: No 
 
 .. rst-class:: clear-both
 
@@ -77,4 +69,4 @@ Allows for each channel to be panned, or a simple balance adjustment to be made.
 
    * - **Split**
      - Float
-     - The animated position of the audio relative to its neighbor channel 
+     - The animated position of the audio relative to its neighbor channel

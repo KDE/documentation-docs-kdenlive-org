@@ -20,27 +20,19 @@ Copy Channels to Stereo
 
 .. sidebar:: |kdenlive-audio| Copy Channels to Stereo
 
-   | **Status**: Maintained
-   | **Keyframes**: No
-   | **Source library**: avfilter.channelswap
-   | **Available**: |linux| |appimage| |windows| |apple|
-   | **On Master only**: No
-   | **Known bugs**: No
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-
-.. .. list-table::
-   :class: table-rows
-   :width: 45%
-   :widths: 100
-   :header-rows: 1
-
-   * - | |kdenlive-audio| **Copy Channels to Stereo**
-       | **Status**: Maintained
-       | **Keyframes**: No
-       | **Source library**: avfilter.channelswap
-       | **Available**: |linux| |appimage| |windows| |apple|
-       | **On Master only**: No
-       | **Known bugs**: No
 
 .. rst-class:: clear-both
 
