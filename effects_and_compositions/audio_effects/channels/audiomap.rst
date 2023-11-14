@@ -25,7 +25,7 @@ Audiomap
    :**Keyframes**:
       No
    :**Source library**:
-      avfilter.audiomap
+      avfilter
    :**Available**:
       |linux| |appimage| |windows| |apple|
    :**On Master only**:

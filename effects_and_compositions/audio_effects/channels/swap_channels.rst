@@ -25,7 +25,7 @@ Swap Channels
    :**Keyframes**:
       No
    :**Source library**:
-      avfilter.channelswap
+      avfilter
    :**Available**:
       |linux| |appimage| |windows| |apple|
    :**On Master only**:
