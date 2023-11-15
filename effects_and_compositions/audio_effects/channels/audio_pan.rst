@@ -57,7 +57,7 @@ Allows for each channel to be panned, or a simple balance adjustment to be made.
 
    * - **End**
      - Float
-     - Then ending value of the audio position
+     - The ending value of the audio position
 
    * - **Channel**
      - Integer
