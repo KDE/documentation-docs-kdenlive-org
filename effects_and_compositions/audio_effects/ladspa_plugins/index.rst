@@ -1,6 +1,6 @@
 .. meta::
    :description: Kdenlive Audio Effects - LADSPA Plugins
-   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, audio effects, CMT plugins
+   :keywords: KDE, Kdenlive, documentation, user manual, video editor, open source, audio effects, LADSPA plugins
    
 .. metadata-placeholders
 
