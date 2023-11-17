@@ -164,10 +164,10 @@ Where to apply an effect
 
 An effect can be applied at four different levels of your project:
 
-- you can apply it on a clip in the timeline : it will affect only this clip
+- you can apply it on a clip in the timeline: it will affect only this clip
 - you can apply it on an clip in the bin: it will affect all the occurrences of this clip in the timeline
-- you can apply it on a track : it will affect all the clips on this track
-- you can apply it on the Master : it will affect your global output
+- you can apply it on a track: it will affect all the clips on this track
+- you can apply it on the Master: it will affect your global output
 
 How to apply an effect
 ----------------------
