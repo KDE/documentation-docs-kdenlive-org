@@ -35,7 +35,16 @@ $supported_languages = array(
 // These should always be free of the language code, as this will be automatically added on when formulating the URL to forward the user on to
 $redirect_rules = array(
     // Default front page
-    "^$" => "index.html"
+    "^$" => "index.html",
+
+    // Effects short links
+    // These short links are use inside Kdenlive in the effects list to link to the documantaion.
+    // They pattern is https://docs.kdenlive.org/effect_link/EFFECTID where dots in EFFECTID are replaced by -
+    "^effect_link/frei0r-three_point_balance" => "effects_and_compositions/video_effects/color_image_correction/3_point_balance.html",
+    "^effect_link/qtblend" => "effects_and_compositions/video_effects/transform_distort_perspective/transform.html",
+
+    // Unknown effect short link, redirect to effects overview
+    "^effect_link/*" => "effects_and_compositions/effects_and_transitions_list.html"
 );
 
 //// SETTINGS END
