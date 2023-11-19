@@ -527,7 +527,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_theme_options = {
      # Toc options. The maximum depth of the table of contents tree (on the sidebar). Set this to -1 to allow unlimited depth.
-    'navigation_depth': 6,
+    'navigation_depth': 4,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
