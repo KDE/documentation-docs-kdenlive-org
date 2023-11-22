@@ -1,3 +1,8 @@
+.. meta::
+
+   :description: Kdenlive Video Effects - Alpha Operations
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha operations
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
@@ -5,110 +10,148 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Smolyaninov (https://userbase.kde.org/User:Smolyaninov)
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
-.. _effects-alpha_operations:
+
+.. |alphaops| raw:: html
+
+   <a href="https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme" target="_blank">alpha0ps</a>
+
 
 Alpha Operations
 ================
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-alpha_operations.webp
+   :width: 365px
+   :figwidth: 365px
    :align: left
-   :width: 430px
-   :figwidth: 430px
-   :alt: kdenlive2304_effects-alpha_operations
 
-   Alpha Operations effect panel
+.. sidebar:: |kdenlive-show-video| Alpha Operations
 
-This effect can shrink, grow, threshold and invert the alpha channel. It is mainly intended to improve keying edges. It can also display the alpha channel in various ways to enable quick assessment of the effect. It is cascadable and thus allows a soft shrink first followed by threshold which gives a slightly different result than a hard shrink.  (frei0r.alpha0ps)\ [1]_
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      |alphaops|
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-Parameters
-----------
+.. rubric:: Description
 
-Display
-~~~~~~~
+This effect can shrink, grow, threshold and invert the alpha channel. It is mainly intended to improve keying edges. It can also display the alpha channel in various ways to enable quick assessment of the effect. It is cascadable and thus allows a soft shrink first followed by threshold which gives a slightly different result than a hard shrink\ [1]_\ .
 
-What to display. There are seven options:
 
-* Image (default)
-* Alpha as gray
-* Gray + red
-* Selection on black
-* Selection on gray
-* Selection on white
-* Selection on checkers
+.. rubric:: Parameters
 
-This is intended for monitoring during adjustment mostly. After adjusting the parameters, it should be left on :guilabel:`Image`, which lets the unchanged input image through - this effect is intended to change only the alpha channel.
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :class: table-wrap
 
-Display input alpha
-~~~~~~~~~~~~~~~~~~~
+   * - Parameter
+     - Value
+     - Description
+   * - Display
+     - Selection
+     - What to display (see below)
+   * - Display input alpha
+     - Switch
+     - Use input alpha for the display function above (check what alpha we are getting on the input)
+   * - Operation
+     - Selection
+     - Select the operation to be done on the alpha channel (see below)
+   * - Invert
+     - Switch
+     - Inverts the input alpha channel, transparent will become opaque and vice versa.
+   * - Threshold
+     - Integer
+     - This is only used for the Threshold operation
+   * - Shrink/Grow/Blur
+     - Integer
+     - Depending on the chosen operation: How far the shrinking/growing will extend, or the amount of blur
 
-Use input alpha for the display function above (check what alpha we are getting on the input).
+The following selection items are available:
 
-Operation
-~~~~~~~~~~
+:guilabel:`Display`
 
-Select the operation to be done on the alpha channel. Currently there are eight choices:
+This is intended for monitoring during adjustment mostly. After adjusting the parameters, it should be left on **Image**, which lets the unchanged input image through - this effect is intended to change only the alpha channel.
 
-* NO OP
-* Shave
-* Shrink hard
-* Shrink soft
-* Grow hard
-* Grow soft
-* Threshold
-* Blur
+.. list-table::
+   :width: 100%
+   :widths: 30 70
+   :class: table-simple
 
-:guilabel:`Shave` tries to remove the "hairy" stuff, and also shrinks the selection a bit.
+   * - Image
+     - Image after the operation  (default)
+   * - Alpha as gray
+     - Displays the alpha channel as gray
+   * - Gray + red
+     - Displays the alpha channel as gray, everything else as red
+   * - Selection on black
+     - Displays the non-alpha channels on a black background
+   * - Selection on gray
+     - Displays the non-alpha channels on a gray background
+   * - Selection on white
+     - Displays the non-alpha channels on a white background
+   * - Selection on checkers
+     - Displays the non-alpha channels on a checkered background
 
-The *hard* operations introduce no new values to the alpha channel, so if you have a "hard" key (only 0 and 255) it will stay that way.
 
-The *soft* operations will introduce interpolated values, making the edge softer.
+:guilabel:`Operation`
+
+.. list-table::
+   :width: 100%
+   :class: table-simple
+
+   * - NO OP
+     - No operation is performed
+   * - Shave
+     - Tries to remove the "hairy" stuff, and also shrinks the selection a bit
+   * - Shrink hard
+     - Shrinks the area of the alpha channel
+   * - Shrink soft
+     - Shrinks the area of the alpha channel
+   * - Grow hard
+     - Grows the area of the alpha channel
+   * - Grow soft
+     - Grows the area of the alpha channel
+   * - Threshold
+     - Increases or decreases the area of the alpha channel by the threshold
+   * - Blur
+     - Blurs the area between the alpha and the other channels
+
+The **... hard** operations introduce no new values to the alpha channel, so if you have a **hard** key (only 0 and 255) it will stay that way.
+
+The **... soft** operations will introduce interpolated values, making the edge softer.
 
 .. note:: The shave, shrink and grow operations are quite slow, because they do many conditional operations on each pixel.
 
 
-Threshold
-~~~~~~~~~~
-
-This is only used for the Threshold operation.
-
-
-Shrink/Grow/Blur amount
-~~~~~~~~~~~~~~~~~~~~~~~
-
-How far the shrinking/growing will extend, or the amount of blur.
-
-Invert
-~~~~~~
-
-Inverts the input alpha channel, transparent will become opaque and vice versa.
-
-
 .. link to the Tutorial section is better
 
-Tutorial 1
-----------
+.. rubric:: Notes
 
 .. |tutorial_1| raw:: html
 
-   <a href="https://youtu.be/l43Hz7YEcYU" target="_blank">https://youtu.be/l43Hz7YEcYU</a>
+   <a href="https://youtu.be/l43Hz7YEcYU" target="_blank">tutorial</a>
 
-Shows usage of Alpha Operations with Shrink Hard as well as the following effects: :ref:`effects-chroma_key_basic`, :ref:`effects-denoiser`, and :ref:`effects-key_spill_mop_up`.
+This |tutorial_1| shows usage of Alpha Operations with Shrink Hard as well as the following effects: :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key`, :ref:`effects-denoiser`, and :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up`.
 
-.. note:: **This video is somewhat outdated.** In newer versions of Kdenlive the Key Spill Mop Up effect is installed by default, and it is no longer required to use a composite transition. Nevertheless, the basic steps of chroma keying and key spill mop up are explained and are still valid.
+.. note:: **This video is somewhat outdated.** In newer versions of Kdenlive the :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up` effect is installed by default, and it is no longer required to use a composite transition. Nevertheless, the basic steps of chroma keying and key spill mop up are explained and are still valid.
 
-|tutorial_1|
 
-**Notes**
+----
 
-.. |alphaops| raw:: html
-
-   <a href="https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme" target="_blank">frei0r alpha0ps plugins</a>
-
-.. [1] The description of this effect has been taken in parts from the readme file for the |alphaops|. You find much more detailed information there.
+.. [1] The description of this effect has been taken in parts from the readme file for the frei0r |alphaops| plugin. You find much more detailed information there.
