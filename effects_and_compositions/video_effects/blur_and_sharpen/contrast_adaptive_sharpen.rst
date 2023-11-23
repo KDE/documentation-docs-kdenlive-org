@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using contrast adaptive sharpen (CAS) effect
+   :description: Kdenlive Video Effects - Contrast Adaptive Sharpen (CAS)
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, blur and sharpen, contrast adaptive sharpen, CAS
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -8,23 +8,81 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-contrast_adaptive_sharpen:
-
 Contrast Adaptive Sharpen (CAS)
 ===============================
 
-Helps increase visual quality by providing natural sharpness without artifacts.
-
-This effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-CAS.webp
+   :width: 365px
+   :figwidth: 365px
    :align: left
-   :width: 400px
-   :figwidth: 400px
    :alt: kdenlive2304_effects-CAS
 
-   Contrast Adaptive Sharpening (CAS) effect
+.. sidebar:: |kdenlive-show-video| Contrast Adaptive Sharpen (CAS)
 
-* **Planes** - Set the :term:`plane` the effect is to be applied to. Options are: **Alpha**, **Y** (default), **U**, **V**, **Red**, **Green**, **Blue** and **All**.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      cas
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Strength** - Determine the strength of the effect. Allowed values are from 0.000 to 1.000, default is 0.000.
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+Helps increase visual quality by providing natural sharpness without artifacts.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Planes 
+     - Selection
+     - Sets the color space plane the effect is applied to
+   * - Strength
+     - Float
+     - Set the sharpening strength. Range is from 0.000 to 1.000, default is 0.000.
+
+The following selection items are available:
+
+:guilabel:`Planes`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Alpha
+     - Alpha channel
+   * - Y
+     - Luminance
+   * - U
+     - Chroma (U plane)
+   * - V
+     - Chroma (V plane)
+   * - Red
+     - Red channel
+   * - Green
+     - Green channel
+   * - Blue
+     - Blue channel
+   * - All
+     - All planes will be affected by the blur amount (default)
+ 
