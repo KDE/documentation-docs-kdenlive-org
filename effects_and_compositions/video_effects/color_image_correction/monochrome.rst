@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using monochrome effect
+   :description: Kdenlive Video Effects - Monochrome
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, monochrome
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -8,27 +8,60 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-monochrome:
-
 Monochrome
 ==========
 
-This effect/filter converts video to gray using custom color filter.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-monochrome.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-monochrome
 
-   Monochrome effect
+.. sidebar:: |kdenlive-show-video| Monochrome
 
-* **Chroma blue spot** - Set the :term:`chroma` blue spot. Allowed range is from -1 to 1. Default value is 0.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      monochrome
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Chroma red spot** - Set the :term:`chroma` red spot. Allowed range is from -1 to 1. Default value is 0.
+.. rst-class:: clear-both
 
-* **Color filter size** - Set the color filter size. Allowed range is from .1 to 10. Default value is 1.
 
-* **Highlights strength** - Set the highlights strength. Allowed range is from 0 to 1. Default value is 0.
+.. rubric:: Description
+
+This effect/filter converts video to gray using custom color filter.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Chroma blue spo
+     - Float
+     - Set the :term:`chroma` blue spot. Allowed range is from -1 to 1. Default value is 0.
+   * - Chroma red spot
+     - Float
+     - Set the :term:`chroma` red spot. Allowed range is from -1 to 1. Default value is 0.
+   * - Color filter size
+     - Float
+     - Set the color filter size. Allowed range is from .1 to 10. Default value is 1.
+   * - Highlights strength
+     - Float
+     - Set the highlights strength. Allowed range is from 0 to 1. Default value is 0.

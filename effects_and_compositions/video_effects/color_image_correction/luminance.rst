@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using luminance effect
+   :description: Kdenlive Video Effects - Luminance
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, luminance
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -8,21 +8,35 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-luminance:
-
 Luminance
 =========
 
-This effect/filter creates a grayscale :term:`luminance` map of the source image.
-
-The effect works like a switch and does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-luminance.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-luminance
 
-   Luminance effect
+.. sidebar:: |kdenlive-show-video| Luminance
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      luminance
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter creates a grayscale :term:`luminance` map of the source image.

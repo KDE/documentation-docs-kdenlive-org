@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using contrast effect
+   :description: Kdenlive Video Effects - Contrast
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, contrast
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -8,25 +8,51 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-contrast:
-
 Contrast
 ========
 
-This effect/filter adjusts the contrast of a source image.
-
-This effect has keyframes
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-contrast.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-contrast
 
-   Contrast effect
+.. sidebar:: |kdenlive-show-video| Contrast
 
-* **Contrast** - Set the contrast. Allowed values are from 0 to 1000, default value is 250.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      contrast0r
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-This filter controls the tonal range of the source which maps pixel values below a specified value to black, and those above a specified value to white. It is best used in conjunction with :ref:`view-rgb_parade` and the :ref:`view-histogram`. Values below 250 decrease the contrast between dark and light areas, values above 250 increase it.
+
+.. rubric:: Description
+
+This effect/filter adjusts the contrast of a source image. It controls the tonal range of the source which maps pixel values below a specified value to black, and those above a specified value to white. It is best used in conjunction with :ref:`view-rgb_parade` and the :ref:`view-histogram`. Values below 250 decrease the contrast between dark and light areas, values above 250 increase it.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Contrast
+     - Integer
+     - Set the contrast. Allowed values are from 0 to 1000, default value is 250.

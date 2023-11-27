@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using white balance effect
+   :description: Kdenlive Video Effects - White Balance
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, white balance
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -8,21 +8,54 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-white_balance:
-
 White Balance
 =============
 
-This effect/filter adjusts the white balance of the source image.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-white_balance.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-white_balance
 
-   White Balance effect
+.. sidebar:: |kdenlive-show-video| White Balance
 
-* **Neutral Color** - Choose the color from the source image that should be white
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      balanc0r
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Green Tint** - Adjust the level of green
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter adjusts the white balance of the source image.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Neutral Color
+     - Picker
+     - Choose the color from the source image that should be white
+   * - Green Tint
+     - Integer
+     - Adjust the level of green

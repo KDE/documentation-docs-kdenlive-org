@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using sop/sat effect
+   :description: Kdenlive Video Effects - SOP/Sat
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, sop/sat, slope offset power saturation
 
    :authors: - Claus Christensen
@@ -20,37 +20,76 @@
 .. .. |infty| image:: /icons/infinity.webp
 
 
-.. _effects-sop_sat:
+SOP/Sat
+=======
 
-SOP/Sat Effect
-==============
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-sop_sat.webp
+   :width: 365px
+   :figwidth: 365px
+   :align: left
+   :alt: kdenlive2304_effects-sop_sat
+
+.. sidebar:: |kdenlive-show-video| :abbr:`SOP/Sat (S(lope), O(ffset), P(ower) / SATuration)`
+
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      sopsat
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
 
 This effect/filter changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List)\ [1]_
-
-The effect has keyframes.
 
 Changing the slope means multiplying the pixel value with a constant value. Black pixels will remain black, while brighter ones will be changed. All effects can be observed well when applied on a greyscale gradient and looking at the :ref:`view-rgb_parade`.
 
 You can use this effect to achieve proper white balance.
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-sop_sat.webp
-   :width: 400px
-   :figwidth: 400px
-   :align: left
-   :alt: kdenlive2304_effects-sop_sat
 
-   SAP/Sat effect
+.. rubric:: Parameters
 
-* **Slope R / G / B / @** - Slope is the multiplier to the incoming data in the respective color channels. Allowed values are from 0 to 1000, default is 50.
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
 
-* **Offset R / G / B / @** - Offset is a summation to the incoming data in the respective color channels. Allowed values are from 0 to 2048, default is 1024.
-
-* **Power R / G / B / @** - Power is a power function (i.e. 2\ :sup:`2`) to the incoming data in the respective color channels. Allowed values are from 0 to 1000, default is 50.
-
-* **Overall Saturation** - Changes the overall :term:`saturation`. Allowed values are from 0 to 1000, default is 100.
+   * - Parameter
+     - Value
+     - Description
+   * - Slope R / G / B / @
+     - Integer
+     - Slope is the multiplier to the incoming data in the respective color channels. Allowed values are from 0 to 1000, default is 50
+   * - Offset R / G / B / @
+     - Integer
+     - Offset is a summation to the incoming data in the respective color channels. Allowed values are from 0 to 2048, default is 1024.
+   * - Power R / G / B / @
+     - Integer
+     - Power is a power function (i.e. 2\ :sup:`2`) to the incoming data in the respective color channels. Allowed values are from 0 to 1000, default is 50.
+   * - Overall Saturation
+     - Integer
+     - Changes the overall :term:`saturation`. Allowed values are from 0 to 1000, default is 100.
 
 .. rst-class:: clear-both
 
+
+.. seealso::
+   Tips & Tricks chapter :doc:`/tips_and_tricks/scopes/waveform_and_rgb_parade` where this effect is used to adjust the white balance of a clip.
+
+
+.. rubric:: Notes
 
 This filter implements a standard way of color correction proposed by the American Society of Cinematographers: The Color Decision List, also known as the ASC :abbr:`CDL (Color Decision List)`\ [1]_ with the goal to exchange rudimentary color correction information between post-production tools.
 
@@ -77,8 +116,6 @@ All corrections work on [0,1], so the RGB(A) values need to be transposed from [
 As the values may exceed 1 (or 0), they need to be clipped where necessary.
 
 
-**Notes**
+----
 
 .. [1] More details can be found in this article: |cdl_explained|.
-
-See the Tips & Tricks chapter :ref:`scopes-waveform_and_rgb_parade` where this effect is used to adjust the white balance of a clip.
