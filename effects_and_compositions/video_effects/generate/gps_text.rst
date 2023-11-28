@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using gps_text effect
+   :description: Kdenlive Video Effects - GPS Text
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, generate, gps_text
 
 .. metadata-placeholders
@@ -10,39 +10,69 @@
    :license: Creative Commons License SA 4.0
 
 
-.. |wiki_UTC| raw:: html
-
-   <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time" target="_blank">this article about UTC</a>
-
-
-.. _effects-gps_text:
-
 GPS Text
 ========
 
-This effect/filter overlays GPS-related text onto the image source. **GPS Text** will search for keywords in the text to be overlaid and will replace those keywords on a frame-by-frame basis. It is based on the :ref:`effects-dynamic_text` effect/filter.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-gps_text.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-gps_text
 
-   GPS Text effect
+.. sidebar:: |kdenlive-show-video| GPS Text
 
-* **Text** - The text to be displayed. You can add any other text between keywords.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      gpstext
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **<select a keyword>** - Select the keyword to add to the :guilabel:`Text` field. Keywords must be enclosed in '#'.
+.. rst-class:: clear-both
 
-* **GPS File** - The full path of file containing location (GPS) data. Supported extensions are ``.gpx`` and ``.tcx``.
 
-* **Time offset in seconds** - An offset to be added to the video file to match it to the GPS track. Most of the time this will at least need to be set to the timezone difference between the two files plus some seconds if the video recording device is not precisely set to the correct time. GPS time is always exact and in UTC\ [1]_. Use positive values if GPS is ahead of video, and negative otherwise.
+.. rubric:: Description
 
-* **Smoothing level** - Determines how many GPS points to smooth in order to eliminate GPS errors. A value of 0 only exposes the raw values from the file. A value of 1 does not smooth locations, it only calculates the extra fields (speed, distance, etc) it also interpolates missing values for **heart rate** and **altitude**.
+This effect/filter overlays GPS-related text onto the image source. **GPS Text** will search for keywords in the text to be overlaid and will replace those keywords on a frame-by-frame basis. It is based on the :doc:`/effects_and_compositions/video_effects/generate/dynamic_text` effect/filter.
 
-* **Updates per second** - Controls how many times per second the GPS text is updated on video (interpolated). A value of 0 will only update text when a real GPS point has been recorded.
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Text
+     - String
+     - The text to be displayed. You can add any other text between keywords.
+   * - <select a keyword>
+     - Selection
+     - Select the keyword to add to the :guilabel:`Text` field. Keywords must be enclosed in '#'.
+   * - GPS File
+     - File
+     - The full path of file containing location (GPS) data. Supported extensions are ``.gpx`` and ``.tcx``.
+   * - Time offset in seconds
+     - Integer
+     - An offset to be added to the video file to match it to the GPS track. Most of the time this will at least need to be set to the timezone difference between the two files plus some seconds if the video recording device is not precisely set to the correct time. GPS time is always exact and in UTC\ [#]_. Use positive values if GPS is ahead of video, and negative otherwise.
+   * - Smoothing level
+     - Integer
+     - Determines how many GPS points to smooth in order to eliminate GPS errors. A value of 0 only exposes the raw values from the file. A value of 1 does not smooth locations, it only calculates the extra fields (speed, distance, etc) it also interpolates missing values for **heart rate** and **altitude**.
+   * - Updates per second
+     - Integer
+     - Controls how many times per second the GPS text is updated on video (interpolated). A value of 0 will only update text when a real GPS point has been recorded.
 
 .. rst-class:: clear-both
 
@@ -50,6 +80,8 @@ The effect does not have keyframes.
 The following keywords are available:
 
 .. list-table::
+   :width: 100%
+   :widths: 30 70
    :class: table-wrap
 
    * - GPS latitude
@@ -83,20 +115,31 @@ The following keywords are available:
    * - distance travelled on flat area
      - total distance travelled on flat area so far
 
-Time-based keywords can include a ``strftime`` format string to customize the output and a number (representing seconds) preceeded by '+' or '-' which will offset the actual time. For example, ``#gps_datetime_now %I:%M:%S %p +3600#`` shows only the time in 12-hour format, offset by 1 hour.
+Time-based keywords can include a ``strftime``\ [#]_ format string to customize the output and a number (representing seconds) preceeded by '+' or '-' which will offset the actual time. For example, ``#gps_datetime_now %I:%M:%S %p +3600#`` shows only the time in 12-hour format, offset by 1 hour.
 
 Speed and distance keywords may include an extra format keyword to convert the value to metric/imperial units. Default is meters and km/h respectively.
 
 Supported formats:
 
-* Distance: m|meter, km|kilometer, mi|mile, ft|feet, nm|nautical
-* Speed: ms|m/s|meter, km|km/h|kilo, mi|mi/h|mile, ft|ft/s|feet, kn|nm/h|knots.
+* Distance: **m**\|\ **meter**, **km**\|\ **kilometer**, **mi**\|\ **mile**, **ft**\|\ **feet**, **nm**\|\ **nautical**
+* Speed: **ms**\|\ **m/s**\|\ **meters**, **km**\|\ **km/h**\|\ **kilo**, **mih**\|\ **mi/h**\|\ **mileh**, **fts**\|\ **ft/s**\|\ **feets**, **kn**\|\ **nm/h**\|\ **knots**.
 
 .. from the mlt filter page: Computed values are calculated since beginning of GPS file or since "gps_processing_start_time" property, if set.
 
 The '#' may be escaped with '\\'.
 
 
-**Notes**
+----
 
-.. [1] UTC is short for Coordinated Universal Time and is the primary time standard by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia for more details.
+.. |wiki_UTC| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time" target="_blank">this article about UTC</a>
+
+.. |possible_formats| raw:: html
+
+   <a href="https://strftime.org/" target="_blank">possible formats</a>
+
+
+.. [#] UTC is short for Coordinated Universal Time and is the primary time standard by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia for more details.
+
+.. [#] See this list of |possible_formats|.

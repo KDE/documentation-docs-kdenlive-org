@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using draw box effect
+   :description: Kdenlive Video Effects - Draw Box
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, generate, draw box
 
 .. metadata-placeholders
@@ -10,34 +10,63 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-draw_box:
-
 Draw Box
 ========
 
-This effect/filter draws a colored box on the input video.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-draw_box.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-draw_box
 
-   Draw Box effect
+.. sidebar:: |kdenlive-show-video| Draw Box
 
-* **X / Y** - Defines the coordinates for the top left-hand corner of the box (coordinates are based on the project dimension settings)
-
-* **Width** - Defines the width in pixels
-
-* **Height** - Defines the height in pixels
-
-* **Thickness** - Defines the thickness of the line in pixels. If set high enough the box is filled.
-
-* **Color** - Defines the color for the box
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      drawbox
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. note:: As of this writing and in version 23.04.2 the color parameter is being ignored and black is used.
+.. rubric:: Description
+
+This effect/filter draws a colored box on the input video.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - X / Y
+     - Integer
+     - Defines the coordinates for the top left-hand corner of the box (coordinates are based on the project dimension settings)
+   * - Width
+     - Integer
+     - Defines the width in pixels
+   * - Height
+     - Integer
+     - Defines the height in pixels
+   * - Thickness
+     - Integer
+     - Defines the thickness of the line in pixels. If set high enough the box is filled.
+   * - Color
+     - Picker
+     - Defines the color for the box

@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using scanline0r effect
+   :description: Kdenlive Video Effects - Scanline0r
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, generate, scanline0r, scanline
 
 .. metadata-placeholders
@@ -10,21 +10,35 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-scanline0r:
-
 Scanline0r
 ==========
 
-This effect/filter creates interlaced black lines imitating an old monitor.
-
-The effect works like a switch and does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-scanline0r.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-scanline0r
 
-   Scanline0r effect
+.. sidebar:: |kdenlive-show-video| Scanline0r
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      scanline0r
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter creates interlaced black lines imitating an old monitor.
