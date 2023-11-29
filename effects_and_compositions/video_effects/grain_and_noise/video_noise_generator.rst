@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using video noise generator effect
+   :description: Kdenlive Video Effects - Video Noise Generator
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, grain and noise, video noise generator
 
 .. metadata-placeholder
@@ -10,43 +10,84 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-video_noise_generator:
-
 Video Noise Generator
 =====================
 
-This effect/filter adds noise to the video input frame.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-video_noise_generator.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-video_noise_generator
 
-   Video Noise Generator effect
+.. sidebar:: |kdenlive-show-video| Video Noise Generator
 
-* **All components noise seed** - Set noise seed for all pixel components
-
-* **Component #0 / #1 / #2 / #3 noise seed** - Set noise seed for specific pixel component
-
-* **All component strength** - Set noise strength for all pixel components
-
-* **Component #0 / #1 / #2 / #3 noise seed** - Set noise strength for specific pixel component
-
-* **Flag all** - Set pixel component flag for all components
-
-* **Flag component 0 / 1 / 2 / 3** - Set pixel component flags
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      None
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      noise
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-The :guilabel:`Flag` parameter has the following options:
 
-* **Average temporal noise** - Averaged temporal noise (smoother)
+.. rubric:: Description
 
-* **Mixed random noise** - Mix random noise with a (semi-)regular pattern
+This effect/filter adds noise to the video input frame.
 
-* **Temporal noise** - Temporal noise (noise pattern changes between frames)
 
-* **Uniform noise** - Uniform noise (Gaussian otherwise)
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 40 10 50
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - All components noise seed
+     - Integer
+     - Set noise seed for all pixel components
+   * - Component #0 / #1 / #2 / #3 noise seed
+     - Integer
+     - Set noise seed for specific pixel component
+   * - All component strength
+     - Integer
+     - Set noise strength for all pixel components
+   * - Component #0 / #1 / #2 / #3 noise seed
+     - Integer
+     - Set noise strength for specific pixel component
+   * - Flag all
+     - Selection
+     - Set pixel component flag for all components
+   * - Flag component 0 / 1 / 2 / 3
+     - Selection
+     - Set pixel component flags
+
+The following selection items are available:
+
+:guilabel:`Flag`
+
+.. list-table::
+   :width: 100%
+   :widths: 40 60
+   :class: table-simple
+
+   * - Average temporal noise
+     - Averaged temporal noise (smoother). Default setting.
+   * - Mixed random noise
+     - Mix random noise with a (semi-)regular pattern
+   * - Temporal noise
+     - Temporal noise (noise pattern changes between frames)
+   * - Uniform noise
+     - Uniform noise (Gaussian otherwise)

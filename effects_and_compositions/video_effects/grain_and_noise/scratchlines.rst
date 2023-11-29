@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using scratchlines effect
+   :description: Kdenlive Video Effects - Scratchlines
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, grain and noise, scratchlines
 
 .. metadata-placeholder
@@ -10,27 +10,60 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-scratchlines:
-
 Scratchlines
 ============
 
-This effect/filter generates scratch lines over the image source. Can be used in conjunction with :ref:`effects-oldfilm` and :ref:`effects-dust` to simulate vintage film footage.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-scratchlines.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-scratchlines
 
-   Scratchlines effect
+.. sidebar:: |kdenlive-show-video| Scratchlines
 
-* **Width of lines** - Sets the width of the scratch lines
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      lines
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Max number of lines** - Defines the maximum number of lines
+.. rst-class:: clear-both
 
-* **Max darker** - Defines how much darker the image will be behind the line
 
-* **Max lighter** - Defines how much lighter the image will be behind the line
+.. rubric:: Description
+
+This effect/filter generates scratch lines over the image source. Can be used in conjunction with :doc:`/effects_and_compositions/video_effects/stylize/oldfilm` and :doc:`/effects_and_compositions/video_effects/grain_and_noise/dust` to simulate vintage film footage.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Width of lines
+     - Integer
+     - Sets the width of the scratch lines
+   * - Max number of lines
+     - Integer
+     - Defines the maximum number of lines
+   * - Max darker
+     - Integer
+     - Defines how much darker the image will be behind the line
+   * - Max lighter
+     - Integer
+     - Defines how much lighter the image will be behind the line
