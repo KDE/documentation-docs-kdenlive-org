@@ -41,7 +41,7 @@ Vignette Effect
 
 .. rubric:: Description
 
-This effect/filter creates an adjustable vignette. It is similar to the :ref:`effects-vignette` effect but lacks the adjustment of the aspect ratio.
+This effect/filter creates an adjustable vignette. It is similar to the :doc:`/effects_and_compositions/video_effects/generate/vignette` effect but lacks the adjustment of the aspect ratio.
 
 
 .. rubric:: Parameters

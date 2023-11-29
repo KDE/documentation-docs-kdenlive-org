@@ -16,7 +16,7 @@
 Grain and Noise
 ===============
 
-The *Grain and Noise* video effects category provides effects and filter for adding or removing noise. A special effect is :ref:`effects-scratchlines` which is most often used with :ref:`effects-oldfilm` and :ref:`effects-dust`.
+The *Grain and Noise* video effects category provides effects and filter for adding or removing noise. A special effect is :doc:`/effects_and_compositions/video_effects/grain_and_noise/scratchlines` which is most often used with :doc:`/effects_and_compositions/video_effects/stylize/oldfilm` and :doc:`/effects_and_compositions/video_effects/grain_and_noise/dust`.
 
 The following effects and filters are available:
 
