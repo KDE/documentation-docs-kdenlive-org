@@ -20,7 +20,7 @@
 Old Film
 ========
 
-This effect/filter moves the video up and down and adds random brightness changes, making it look like old film footage. See also :ref:`effects-dust` and :ref:`effects-scratchlines` effects.
+This effect/filter moves the video up and down and adds random brightness changes, making it look like old film footage. See also :doc:`/effects_and_compositions/video_effects/grain_and_noise/dust` and :doc:`/effects_and_compositions/video_effects/grain_and_noise/scratchlines` effects.
 
 The effect has keyframes.
 

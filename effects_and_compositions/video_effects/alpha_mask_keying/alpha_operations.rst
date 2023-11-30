@@ -147,7 +147,7 @@ The **... soft** operations will introduce interpolated values, making the edge 
 
    <a href="https://youtu.be/l43Hz7YEcYU" target="_blank">tutorial</a>
 
-This |tutorial_1| shows usage of Alpha Operations with Shrink Hard as well as the following effects: :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key`, :ref:`effects-denoiser`, and :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up`.
+This |tutorial_1| shows usage of Alpha Operations with Shrink Hard as well as the following effects: :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key`, :doc:`/effects_and_compositions/video_effects/grain_and_noise/denoiser`, and :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up`.
 
 .. note:: **This video is somewhat outdated.** In newer versions of Kdenlive the :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up` effect is installed by default, and it is no longer required to use a composite transition. Nevertheless, the basic steps of chroma keying and key spill mop up are explained and are still valid.
 

@@ -155,6 +155,6 @@ This effect can be cascaded, but it is not possible to get the same color based 
 
    <a href="https://youtu.be/l43Hz7YEcYU" target="_blank">tutorial</a>
 
-This |tutorial_1| shows usage of the following effects: :doc:`Key Spill Mop Up </effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up>`, blue screen (now called :doc:`Chroma Key: Basic </effects_and_compositions/video_effects/alpha_mask_keying/chroma_key>`), :doc:`Alpha Operations </effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations>` using Shrink Hard and :ref:`effects-denoiser`.
+This |tutorial_1| shows usage of the following effects: :doc:`Key Spill Mop Up </effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up>`, blue screen (now called :doc:`Chroma Key: Basic </effects_and_compositions/video_effects/alpha_mask_keying/chroma_key>`), :doc:`Alpha Operations </effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations>` using Shrink Hard and :doc:`/effects_and_compositions/video_effects/grain_and_noise/denoiser`.
 
 .. note:: **This video is somewhat outdated.** In newer versions of Kdenlive the Key Spill Mop Up effect is installed by default, and it is no longer required to use a composite transition. Nevertheless, the basic steps of chroma keying and keyspill mop up are explained and are still valid.

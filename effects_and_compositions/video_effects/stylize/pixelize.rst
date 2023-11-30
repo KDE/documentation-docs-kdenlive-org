@@ -15,7 +15,7 @@
 Pixelize
 ========
 
-This effect/filter pixelizes the input image. It works similar to the :ref:`effects-obscure` effect but allows you to control the block size individually and independently from the image size, but by contrast applies it to the entire frame. In order to apply the **Pixelize** effect only to a certain region use it in combination with the :ref:`effects-alpha_shapes_mask` effect.
+This effect/filter pixelizes the input image. It works similar to the :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/obscure` effect but allows you to control the block size individually and independently from the image size, but by contrast applies it to the entire frame. In order to apply the **Pixelize** effect only to a certain region use it in combination with the :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask` effect.
 
 The effect has keyframes.
 

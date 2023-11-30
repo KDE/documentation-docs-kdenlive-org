@@ -14,7 +14,7 @@ Transitions - Screen
 
 
 
-This is very much like :ref:`effects-chroma_key_basic` but it works with footage filmed against a black background.
+This is very much like :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key` but it works with footage filmed against a black background.
 
 Timeline showing how to apply the "Screen" transition.
 

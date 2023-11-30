@@ -24,7 +24,7 @@
 Blur and Sharpen
 ================
 
-The *Blur and Sharpen* video effects category provides effects and filters to blur or sharpen the clip. Combined with masks from the *Alpha, Mask and Keying* category it is possible to apply them only to portions of the clip. For more details about this technique see the :ref:`effects-mask_apply` section of the documentation.
+The *Blur and Sharpen* video effects category provides effects and filters to blur or sharpen the clip. Combined with masks from the *Alpha, Mask and Keying* category it is possible to apply them only to portions of the clip. For more details about this technique see the :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/mask_apply` section of the documentation.
 
 The following effects and filters are available:
 
