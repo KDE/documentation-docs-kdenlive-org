@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using xine deinterlacer effect
+   :description: Kdenlive Video Effects - Xine Deinterlacer
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, misc, miscellaneous, xine deinterlacer
 
 .. metadata-placeholder
@@ -10,22 +10,35 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-xine_deinterlacer:
-
 Xine Deinterlacer
 =================
 
-This effect/filter deinterlaces interlaced video.
-
-The effect works like a switch and does not have any parameters nor keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-xine_deinterlacer.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-xine_deinterlacer
 
-   Xine Deinterlacer effect
+.. sidebar:: |kdenlive-show-video| Xine Deinterlacer
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      deinterlace
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter deinterlaces interlaced video.
