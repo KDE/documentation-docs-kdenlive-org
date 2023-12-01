@@ -22,7 +22,7 @@
 Motion
 ======
 
-The *Motion* video effects category provides effects/filters for motion emulation like :ref:`effects-vertigo`.
+The *Motion* video effects category provides effects/filters for motion emulation like :doc:`/effects_and_compositions/video_effects/motion/vertigo`.
 
 The following effects and filters are available:
 

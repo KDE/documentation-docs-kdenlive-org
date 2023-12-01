@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using glitch0r effect
+   :description: Kdenlive Video Effects - Glitch0r 
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, misc, miscellaneous, glitch0r
 
 .. metadata-placeholder
@@ -10,32 +10,64 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-glitch0r:
-
 Glitch0r
 ========
 
-This effect/filter adds glitches and block shifting.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-glitch0r.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-glitch0r
 
-   Glitch0r effect
+.. sidebar:: |kdenlive-show-video| Glitch0r
 
-* **Glitch frequency** - How frequently the glitch should be applied
-
-* **Block height** - Height range of the block that will be shifted/glitched
-
-* **Shift intensity** - How much blocks should be moved when glitching
-
-* **Color glitching intensity** - How intensive color distortion should be
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      glitch0r
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. hint:: The smaller the :guilabel:`Block height`, the more visible the effect even with lower values for :guilabel:`Glitch frequency`.
+.. rubric:: Description
+
+This effect/filter adds glitches and block shifting.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 30 10 60
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Glitch frequency
+     - Integer
+     - How frequently the glitch should be applied
+   * - Block height
+     - Integer
+     - Height range of the block that will be shifted/glitched
+   * - Shift intensity
+     - Integer
+     - How much blocks should be moved when glitching
+   * - Color glitching intensity
+     - Integer
+     - How intensive color distortion should be
+
+
+.. hint:: 
+   The smaller the :guilabel:`Block height`, the more visible the effect even with lower values for :guilabel:`Glitch frequency`.
