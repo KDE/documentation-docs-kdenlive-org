@@ -317,7 +317,7 @@ This menu item opens a flyout with the following functions for the current track
 Grab Current Item
 -----------------
 
-This function will make the currently selected item available for moving around with the keyboard arrow keys. The grabbed item will have a thick orange outline. Default shortcut: :kbd:`Ctrl+G`
+This function will make the currently selected item available for moving around with the keyboard arrow keys. The grabbed item will have a thick orange outline. Default shortcut: :kbd:`Shift+G`
 
 
 .. _timeline-guides:
