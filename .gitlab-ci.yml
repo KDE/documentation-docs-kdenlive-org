@@ -12,6 +12,110 @@ variables:
     EPUB_NAME: KdenliveManual
     WEBSITE_DOMAIN: docs.kdenlive.org
 
+# alpabetically sorted by language code
+
+build_catalan_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: ca
+
+build_czech_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: cs
+
+build_danish_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: da
+
+build_german_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: de
+
+# build_english_docs (en) is part of the template and build by default
+
+build_spanish_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: es
+
+build_french_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: fr
+
+build_italian_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: it
+
+build_japanese_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: ja
+
+build_korean_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: ko
+
+build_dutch_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: nl
+
+build_polish_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: pl
+
+build_brazilian_portuguese_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: pt_BR
+
+build_russian_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: ru
+
+build_slovak_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: sk
+
+build_slovenian_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: sl
+
+build_swedish_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: sv
+
+build_turkish_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: tr
+
+build_ukrainian_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: uk_UA
+
+build_chinese_simplified_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: zh_CN
+
+build_chinese_traditional_docs:
+    extends: .build_sphinx_app_docs
+    variables:
+      BUILD_LANGUAGE: zh_TW
+
 run_tests:
   stage: test
   image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
