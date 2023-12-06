@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using emboss effect
+   :description: Kdenlive Video Effects - Emboss
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, emboss
 
 .. metadata-placeholder
@@ -10,25 +10,57 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-emboss:
-
 Emboss
 ======
 
-This effect/filter creates a greyish embossed relief appearance of the source image.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-emboss.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-emboss
 
-   Emboss effect
+.. sidebar:: |kdenlive-show-video| Emboss
 
-* **Light direction** - The direction of the embossing (practically simulating a light source). Value is an angle between 0 and 360 (degrees).
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      emboss
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Background lightness** - Defines the brightness/lightness of the areas not embossed
+.. rst-class:: clear-both
 
-* **Bump height** - Defines the thickness of the edges increasing/decreasing the perceived depth of the embossed areas
+
+.. rubric:: Description
+
+This effect/filter creates a greyish embossed relief appearance of the source image.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Light direction
+     - Integer
+     - The direction of the embossing (practically simulating a light source). Value is an angle between 0 and 360 (degrees).
+   * - Background lightness
+     - Integer
+     - Defines the brightness/lightness of the areas not embossed
+   * - Bump height
+     - Integer
+     - Defines the thickness of the edges increasing/decreasing the perceived depth of the embossed areas

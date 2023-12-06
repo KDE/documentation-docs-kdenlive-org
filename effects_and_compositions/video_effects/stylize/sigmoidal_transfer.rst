@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using sigmoidal transfer effect
+   :description: Kdenlive Video Effects - Sigmoidal Transfer
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, sigmoidal transfer
 
 .. metadata-placeholder
@@ -12,23 +12,54 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-sigmoidal_transfer:
-
 Sigmoidal Transfer
 ==================
 
-This effect/filter desaturates the image and creates a particular look that could be called Stamp, Newspaper or Photocopy.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-sigmoidal_transfer.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-sigmoidal_transfer
 
-   Sigmoidal Transfer effect
+.. sidebar:: |kdenlive-show-video| Sigmoidal Transfer
 
-* **Brightness** - Controls brightness of image. Range 0 to 100.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      sigmoidaltransfer
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Sharpness** - Controls sharpness of transfer. Range 0 to 100.
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter desaturates the image and creates a particular look that could be called Stamp, Newspaper or Photocopy.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Brightness
+     - Integer
+     - Controls brightness of image. Range 0 to 100.
+   * - Sharpness
+     - Integer
+     - Controls sharpness of transfer. Range 0 to 100.

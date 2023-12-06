@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using primaries effect
+   :description: Kdenlive Video Effects - Primaries
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, primaries
 
 .. metadata-placeholder
@@ -10,24 +10,54 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-primaries:
-
 Primaries
 =========
 
-This effect/filter reduces the image colors to the primary colors.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-primaries.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-primaries
 
-   Primaries effect
+.. sidebar:: |kdenlive-show-video| Primaries
 
-* **Factor** - Influence of mean px value ( > 32 = 0 )
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      primaries
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter reduces the image colors to the primary colors.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Factor
+     - Integer
+     - Influence of mean pixel value ( > 32 = 0 )
 
 
 .. https://youtu.be/gjgQphzQZrQ

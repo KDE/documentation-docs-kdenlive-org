@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using prewitt effect
+   :description: Kdenlive Video Effects - Prewitt
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, prewitt
 
 .. metadata-placeholder
@@ -10,37 +10,95 @@
    :license: Creative Commons License SA 4.0
 
 
-.. |prewitt| raw:: html
-
-   <a href="https://en.wikipedia.org/wiki/Prewitt_operator" target="_blank">Prewitt Operator</a>
-
-
-.. _effects-prewitt:
-
 Prewitt
 =======
 
-This effect/filter applies the Prewitt\ [1]_ operator to the input video stream. It detects edges (discrete differentiation operator) and, in the default settings, colors them white and pinkish. Compare :ref:`effects-kirsch`, :ref:`effects-roberts` and :ref:`effects-sobel` effects.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-prewitt.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-prewitt
 
-   Prewitt effect
+.. sidebar:: |kdenlive-show-video| Prewitt
 
-* **Planes** - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied. Default is **YUV**.
-
-* **Scale** - Set value which will be multiplied with filtered result
-
-* **Delta** - Set value which will be added to filtered result
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      prewitt
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-**Notes**
+.. rubric:: Description
+
+This effect/filter applies the Prewitt\ [1]_ operator to the input video stream. It detects edges (discrete differentiation operator) and, in the default settings, colors them white and pinkish. Compare :doc:`/effects_and_compositions/video_effects/stylize/kirsch`, :doc:`/effects_and_compositions/video_effects/stylize/roberts` and :doc:`/effects_and_compositions/video_effects/stylize/sobel` effects.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Planes
+     - 
+     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied.
+   * - Scale
+     - 
+     - Set value which will be multiplied with filtered result
+   * - Delta
+     - 
+     - Set value which will be added to filtered result
+
+The following selection items are available:
+
+:guilabel:`Planes`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - None
+     - 
+   * - Y
+     - 
+   * - U
+     - 
+   * - YU
+     - 
+   * - V
+     - 
+   * - YV
+     - 
+   * - UV
+     - 
+   * - YUV
+     - Default
+   * - Alpha
+     - 
+
+
+----
+
+.. |prewitt| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/Prewitt_operator" target="_blank">Prewitt Operator</a>
+
 
 .. [1] For more details refer to the |prewitt| article in Wikipedia
