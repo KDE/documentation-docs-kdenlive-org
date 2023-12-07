@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using flippo effect
+   :description: Kdenlive Video Effects - Flippo
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, flippo
 
 .. metadata-placeholder
@@ -10,23 +10,54 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-flippo:
-
 Flippo
 ======
 
-This effect/filter flips the input video along the X and/or Y axis. It basically combines the :ref:`effects-flip_horizontally` and :ref:`effects-flip_vertically` effects. Also compare :ref:`effects-mirror`.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-flippo.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-flippo
 
-   Flippo effect
+.. sidebar:: |kdenlive-show-video| Flippo
 
-* **X axis** - Flip along the X axis (flip vertically)
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      flippo
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Y axis** - Flip along the Y axis (flip horizontally)
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter flips the input video along the X and/or Y axis. It basically combines the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/flip_horizontally` and :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/flip_vertically` effects. Also compare with :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/mirror`.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - X axis
+     - Switch
+     - Flip along the X axis (flip vertically)
+   * - Y axis
+     - Switch
+     - Flip along the Y axis (flip horizontally)

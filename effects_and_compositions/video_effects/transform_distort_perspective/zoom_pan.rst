@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using zoom pan effect
+   :description: Kdenlive Video Effects - Zoom Pan
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, zoom pan
 
 .. metadata-placeholder
@@ -15,31 +15,61 @@
    <a href="https://en.wikipedia.org/wiki/Ken_Burns_effect" target="_blank">Ken Burns Effect</a>
 
 
-.. _effects-zoom_pan:
-
 Zoom Pan
 ========
 
-This effect/filter applies a zoom and pan effect (similar to the Ken Burns effect\ [1]_).
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-zoom_pan.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-zoom_pan
 
-   Zoom Pan effect
+.. sidebar:: |kdenlive-show-video| Zoom Pan
 
-* **Zoom** - Set the zoom factor. The clip is zoomed with the top left corner as the origin.
-
-* **X / Y** - Move the clip along the X / Y axis
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      zoompan
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. attention:: As of this writing and with version 23.04 the effect seems to be missing several parameters in order to make it useful (a zoom and pan effect, like Ken Burns effect). A bug report has been created. Until this is fixed use the :ref:`effects-transform` effect.
+.. rubric:: Description
+
+This effect/filter applies a zoom and pan effect (similar to the Ken Burns effect\ [1]_).
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Zoom
+     - Integer
+     - Set the zoom factor. The clip is zoomed with the top left corner as the origin.
+   * - X / Y
+     - Integer
+     - Move the clip along the X / Y axis
+
+
+.. attention:: 
+   As of this writing and with version 23.04 the effect seems to be missing several parameters in order to make it useful as a zoom and pan effect, like the |ken_burns|. A bug report has been created. Until this is fixed use the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform` effect.
 
 
 **Notes**

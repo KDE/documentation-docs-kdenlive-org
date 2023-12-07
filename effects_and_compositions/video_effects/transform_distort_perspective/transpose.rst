@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using transpose effect
+   :description: Kdenlive Video Effects - Transpose 
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, transpose
 
 .. metadata-placeholder
@@ -10,28 +10,90 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-transpose:
-
 Transpose
 =========
 
-This effect/filter transposes rows with columns in the clip and optionally flips it. This is useful if a video recorded with a smartphone is imported as a landscape clip.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-transpose.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-transpose
 
-   Transpose effect
+.. sidebar:: |kdenlive-show-video| Transpose
 
-* **Direction** - Set the direction of the transposition. Options are **Clock** (default), **Clock flip**, **Counter clock**, and **Counter clock flip**.
-
-* **Override if** - Override the transposition if clip is identified as **Portrait** or **Landscape**. Select **None** if you want to transpose regardless.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      transpose
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. note:: Many smartphones and digital cameras nowadays set an ``autorotate`` flag in the recorded video. Kdenlive can read the flag and transposes videos automatically when importing. Check the clip's properties (:ref:`clip_properties`) if you want Kdenlive to handle that differently and set the :guilabel:`Disable autorotate` to any other value than 0 (default) or switch it to **On**.
+.. rubric:: Description
+
+This effect/filter transposes rows with columns in the clip and optionally flips it. This is useful if a video recorded with a smartphone is imported as a landscape clip.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Direction
+     - 
+     - Set the direction of the transposition
+   * - Override if
+     - 
+     - Override the transposition if clip is identified as **Portrait** or **Landscape**. Select **None** if you want to transpose regardless.
+
+The following selection items are available:
+
+:guilabel:`Direction`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Clock
+     - default
+   * - Clock flip
+     - 
+   * - Counter clock
+     - 
+   * - Counter clock flip
+     - 
+
+:guilabel:`Override if`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - None
+     - default
+   * - Portrait
+     - 
+   * - Landscape
+     - 
+
+
+.. note:: 
+   Many smartphones and digital cameras nowadays set an ``autorotate`` flag in the recorded video. Kdenlive can read the flag, and transposes videos automatically when importing. Check the clip's properties (:ref:`clip_properties`) if you want Kdenlive to handle that differently and set the :guilabel:`Disable autorotate` to any other value than 0 (default) or switch it to **On**.

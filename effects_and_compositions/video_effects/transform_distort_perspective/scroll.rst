@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using scroll effect
+   :description: Kdenlive Video Effects - Scroll
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, scroll
 
 .. metadata-placeholder
@@ -10,32 +10,60 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-scroll:
-
 Scroll
 ======
 
-This effect/filter scrolls the clip horizontally and/or vertically.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-scroll.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-scroll
 
-   Scroll effect
+.. sidebar:: |kdenlive-show-video| Scroll
 
-* **Horizontal scrolling speed** - Set the horizontal scrolling speed
-
-* **Vertical scrolling speed** - Set the vertical scrolling speed
-
-* **Initial horizontal position** - Set the initial horizontal position
-
-* **Initial vertical position** - Set the initial vertical position
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      scroll
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. note:: Negative values make the scrolling go from left to right. The higher the value the faster the scrolling. A value of 1.000 renders the effect useless.
+.. rubric:: Description
+
+This effect/filter scrolls the clip horizontally and/or vertically. Negative values make the scrolling go from left to right. The higher the value the faster the scrolling. A value of 1.000 renders the effect useless.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Horizontal scrolling speed
+     - Float
+     - Set the horizontal scrolling speed
+   * - Vertical scrolling speed
+     - Float
+     - Set the vertical scrolling speed
+   * - Initial horizontal position
+     - Float
+     - Set the initial horizontal position
+   * - Initial vertical position
+     - Float
+     - Set the initial vertical position

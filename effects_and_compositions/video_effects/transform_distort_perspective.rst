@@ -23,7 +23,7 @@
 Transform, Distort and Perspective
 ==================================
 
-The *Transform, Distort and Perspective* video effects category provides effects and filters for manipulating the shape, size and position of the source clip(s), such as :ref:`effects-transform` and :ref:`effects-crop_scale_and_tilt` effects.
+The *Transform, Distort and Perspective* video effects category provides effects and filters for manipulating the shape, size and position of the source clip(s), such as :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform` and :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/crop_scale_tilt` effects.
 
 The following effects and filters are available:
 
