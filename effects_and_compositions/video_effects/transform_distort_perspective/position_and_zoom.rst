@@ -26,7 +26,7 @@ Position and Zoom
    :align: left
    :alt: kdenlive2304_effects-position_and_zoom
 
-.. sidebar:: |kdenlive-show-video| EFFECT_NAME
+.. sidebar:: |kdenlive-show-video| Position and Zoom
 
    :**Status**:
       Maintained
