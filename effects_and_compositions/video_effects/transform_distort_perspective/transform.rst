@@ -147,7 +147,6 @@ The following selection items are available:
 
 .. [1] For more details see this W3 paper on |blending_modes|
 
-\* (default)
 
 .. **Examples of compositing options:**
 
