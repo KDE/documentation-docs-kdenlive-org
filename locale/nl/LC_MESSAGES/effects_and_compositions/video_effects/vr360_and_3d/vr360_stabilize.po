@@ -3,28 +3,28 @@
 #
 # SPDX-FileCopyrightText: 2023 Freek de Kruijf <freekdekruijf@kde.nl>
 # Freek de Kruijf <f.de.kruijf@gmail.com>, 2023.
+# Ronald Stroethoff <stroet43@zonnet.nl>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-11-18 14:04+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-11-26 18:23+0100\n"
+"Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:1
 msgid ""
-"Do your first steps with Kdenlive video editor, using VR360 stabilize"
-" effect"
+"Do your first steps with Kdenlive video editor, using VR360 stabilize effect"
 msgstr ""
 "Zet uw eerste stappen met de Kdenlive videobewerker, met gebruik van het "
-"effect VR360 stabiliseren"
+"effect voor VR360 stabiliseren"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:1
 msgid ""
@@ -40,20 +40,17 @@ msgstr "VR360 stabiliseren"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:23
 msgid "This effect/filter stabilizes 360 footage."
-msgstr "Dit effect/filter stabiliseert 360 opnamen."
+msgstr "Dit effect/filter stabiliseert 360⁰ opnamen."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:25
 msgid ""
-"The filter works in two phases: analysis and stabilization. When"
-" analyzing "
-"footage, it detects frame-to-frame rotation, and when stabilizing it"
-" tries "
+"The filter works in two phases: analysis and stabilization. When analyzing "
+"footage, it detects frame-to-frame rotation, and when stabilizing it tries "
 "to correct high-frequency motion (shake)."
 msgstr ""
 "Het filter werkt in in twee fasen: analyse en stabilisatie. Bij het "
 "analyseren van opnamen detecteert het frame-naar-frame rotatie en bij "
-"stabilisering probeert het hoogfrequente beweging (schudden) te"
-" corrigeren."
+"stabilisering probeert het hoogfrequente beweging (schudden) te corrigeren."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:27
 msgid "The effect does not have keyframes."
@@ -75,8 +72,7 @@ msgid ""
 "**Motion Analysis File** - Path to file that will be used to store the "
 "analysis data"
 msgstr ""
-"**Bewegingsanalysebestand** - pad naar bestand dat gebruikt zal worden om"
-" de "
+"**Bewegingsanalysebestand** - pad naar bestand dat gebruikt zal worden om de "
 "analysegegevens op te slaan"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:41
@@ -84,16 +80,20 @@ msgid ""
 "**Analysis Sample Radius** - The radius of the square that the stabilizer "
 "will sample."
 msgstr ""
+"**Analysis Sample Radius** - De grootte van het vierkant waarin de samples "
+"voor de stabilisatie worden genomen."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:43
 msgid ""
 "**Analysis Search Radius** - The maximum amount of motion the stabilizer "
 "will detect."
 msgstr ""
+"**Analysis Search Radius** - De maximum hoeveelheid beweging dat de "
+"stabilizer zal detecteren."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:45
 msgid "**Analysis Offset** - The distance between the track points."
-msgstr ""
+msgstr "**Analysis Offset** - De afstand tussen de track punten."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:47
 msgid ""
@@ -102,98 +102,118 @@ msgid ""
 "satisfied with the analysis quality you can turn this off, as it adds "
 "approximately 50% to the analysis time."
 msgstr ""
+"**Track Points** - Als dit is ingeschakeld, dan zal het filter een frame-tot-"
+"frame transformatie toepassen om de kwaliteit van de analyse te laten zien. "
+"Aks u tevreden bent met de kwaliteit van de analyse dan kunt u dit "
+"uitschakelen, omdat het ongeveer 50% toevoegt aan de analyse-tijd."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:49
 msgid ""
-"**Yaw / Pitch / Roll Amount** - The amount of stabilization to apply. 100"
-"% "
-"means that the stabilizer will make the camera as steady as it can."
-" Smaller "
+"**Yaw / Pitch / Roll Amount** - The amount of stabilization to apply. 100% "
+"means that the stabilizer will make the camera as steady as it can. Smaller "
 "values reduce the amount of stabilization."
 msgstr ""
+"**Yaw / Pitch / Roll Amount** - Hoeveel stabilisatie toegepast moet worden. "
+"100% houdt in dat de stabilizer de camera zo stabiel mogelijk zal maken. "
+"Kleinere waarden zal minder stabilisatie geven. Yaw = (gieren) (de bocht "
+"nemen)Pitch = (stampen)(de neus omhoog/omlaag)Roll = (rollen)(vleugels "
+"wiebelen)"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:51
 msgid ""
-"**Yaw / Pitch / Roll Smoothing** - The number of frames to use to smooth"
-" out "
+"**Yaw / Pitch / Roll Smoothing** - The number of frames to use to smooth out "
 "the shakes. The higher the value, the slower the camera will follow any "
 "intended motion."
 msgstr ""
+"**Yaw / Pitch / Roll Smoothing** - Het aantal frames dat wordt gebruikt om "
+"het schudden te verminderen. Hoe groter de waarde, des te trager zal de "
+"camera een gewenste beweging volgen."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:53
 msgid ""
-"**Yaw / Pitch / Roll Time Bias** - Shift the frames used to smooth out"
-" the "
+"**Yaw / Pitch / Roll Time Bias** - Shift the frames used to smooth out the "
 "shakes relative to the stabilized frame. A value less than zero will give "
-"more weight to past frames, and the camera will seem to lag behind"
-" intended "
-"movement. A value greater than zero will give more weight to future"
-" frames, "
-"and the camera will appear to move ahead of the intended camera movement."
-" A "
+"more weight to past frames, and the camera will seem to lag behind intended "
+"movement. A value greater than zero will give more weight to future frames, "
+"and the camera will appear to move ahead of the intended camera movement. A "
 "value of zero should make the camera follow the intended path."
 msgstr ""
+"**Yaw / Pitch / Roll Time Bias** - verschuift de gebruikte frames om het "
+"schudden ten opzichte van de gestabiliseerde frame te verminderen. Een "
+"waarde kleiner dan nul zal meer gewicht geven aan al afgespeelde frames, en "
+"het zal lijken dat de camera achter zal blijven op de gewenste beweging. Een "
+"waarde groter dan nul zal meer gewicht geven aan de nog komende frames, en "
+"het zal lijken dat de camera will voor loopt op de gewenste camerabeweging. "
+"De waarde nul zal ervoor zorgen dat de camera het gewenste pad volgt."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:55
 msgid ""
-"**Interpolation** - Defines output quality. Options are"
-" **Nearest-Neighbor** "
+"**Interpolation** - Defines output quality. Options are **Nearest-Neighbor** "
 "(default) and **Bilinear**."
 msgstr ""
+"**Interpolation** - Definieert de kwaliteit van het resultaat. De "
+"keuzemogelijkheden zijn **Nearest-Neighbor** (standaard) en **Bilinear**."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:61
 msgid "How to Stabilize 360-degree Video"
-msgstr ""
+msgstr "Hoe een 360-graden video te stabiliseren"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:62
 msgid "Add the 360-degree footage to the timeline"
-msgstr ""
+msgstr "Voeg de 360-graden opnames toe aan de tijdlijn"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:64
 msgid ""
 "Apply the :ref:`effects-vr360_hemi2equi` effect to it so it is in "
 "equirectangular format"
 msgstr ""
+"Pas het :ref:`effects-vr360_hemi2equi` effect toe zodat het in een "
+"rechthoekig-formaat is"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:66
 msgid "Apply the :ref:`effects-vr360_transform` effect"
-msgstr ""
+msgstr "Pas het :ref:`effects-vr360_transform` effect toe"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:68
 msgid "Apply this effect (VR360 Stabilize)"
-msgstr ""
+msgstr "Pas dit effect (VR360 Stabiliseren) toe"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:70
 msgid ""
 "Select a file to store stabilization data in (:guilabel:`Motion Analysis "
 "File`)"
 msgstr ""
+"Selecteer een bestand waarin de stabilisatie data in moet worden opgeslagen "
+"(:guilabel:`Motion Analysis File`)"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:72
 msgid "Enable :guilabel:`Analyze` mode"
-msgstr ""
+msgstr "Schakel de :guilabel:`Analyze` mode in"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:74
 msgid ""
-"Use the :ref:`effects-vr360_transform` effect to rotate the footage so"
-" that "
+"Use the :ref:`effects-vr360_transform` effect to rotate the footage so that "
 "the point straight ahead is over the center cluster of track points"
 msgstr ""
+"Gebruik het :ref:`effects-vr360_transform` effect om de opname te verdraaien "
+"zodat recht vooruit kijkend over het midden van de verzameling track points "
+"is"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:76
 msgid "Play the footage from start to finish."
-msgstr ""
+msgstr "Speel de opname af van de start tot het einde"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:78
 msgid ""
-"When the footage has completed playing, switch off the"
-" :guilabel:`Analyze` "
+"When the footage has completed playing, switch off the :guilabel:`Analyze` "
 "mode."
 msgstr ""
+"Als de opname compleet is afgespeeld, schakel dan de :guilabel:`Analyze` "
+"mode uit."
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:80
 msgid "You should now have stable 360 video"
-msgstr ""
+msgstr "U zou nu stabiele 360 video moeten hebben"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:83
 msgid "**Notes**"
@@ -201,10 +221,8 @@ msgstr "**Notities**"
 
 #: ../../effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize.rst:85
 msgid ""
-"Parts of this documentation have been taken from the website of the"
-" filter's "
+"Parts of this documentation have been taken from the website of the filter's "
 "developer |bigsh0t|."
 msgstr ""
 "Delen van deze documentatie zijn overgenomen van de website van de "
 "ontwikkelaar van het filter |bigsh0t|."
-

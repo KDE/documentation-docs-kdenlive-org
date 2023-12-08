@@ -1104,7 +1104,7 @@ Alphabetical List of Effects and Compositions
      - Steve Harris’ SWH plugins
      - LADSPA plugin (ladspa.1908)
    * - luma
-     - Composition
+     - Compositions
      - -
      - Applies a stationary transition between the current and the next frames (luma)
    * - :ref:`effects-lumakey`
@@ -1387,8 +1387,8 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Alpha, Mask and Keying
      - Keyframable vector based rotoscoping (rotoscoping)
-   * - :ref:`effects-saturation`
-     - Composition
+   * - Saturation
+     - Compositions
      -
      - Perform a conversion to saturation only of the source input1 using the saturation level of input2 (frei0r.saturation)
    * - :ref:`effects-saturation`
@@ -1840,7 +1840,7 @@ Alphabetical List of Effects and Compositions
      - Misc
      - Convert 360 projection of video (avfilter.v360)
    * - value
-     - Transition
+     - Compositions
      -
      - Applies a stationary transition between the current and next frames (composite)
    * - `Valve rectifier <https://www.mltframework.org/plugins/FilterLadspa-1405/>`_
@@ -1872,7 +1872,7 @@ Alphabetical List of Effects and Compositions
      - Grain and Noise
      - Add noise on video input frame (avfilter.noise)
    * - videoquality\_ measurement
-     - Transition
+     - Compositions
      -
      - This performs the PSNR and SSIm video quality measurements by comparing the B frames to the reference frame A. It outputs the numbers to stdout in space-delimited format for easy use by another tool. The bottom half of the B frame is placed below the top half of the A frame for visual comparison (vqm)
    * - :ref:`effects-video_values`
