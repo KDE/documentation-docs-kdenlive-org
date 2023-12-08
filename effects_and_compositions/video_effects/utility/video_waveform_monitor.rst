@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using video waveform monitor effect
+   :description: Kdenlive Video Effects - Video Waveform Monitor
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, utility, video waveform monitor
 
 .. metadata-placeholder
@@ -10,58 +10,107 @@
    :license: Creative Commons License SA 4.0
 
 
-.. |link| raw:: html
-
-   <a href="link_URI" target="_blank">link_text</a>
-
-
-.. _effects-video_waveform_monitor:
-
 Video Waveform Monitor
 ======================
 
-This effect/filter plots color component intensity. By default luminance only. Each column of the waveform corresponds to a column of pixels in the source video.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-video_waveform_monitor.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-video_waveform_monitor
 
-   Video Waveform Monitor effect
+.. sidebar:: |kdenlive-show-video| Video Waveform Monitor
 
-* **Mode** - Select **Row** or **Column** (default). In row mode, the graph on the left side represents color component value 0 and the right side represents value = 255. In column mode, the top side represents color component value = 0 and bottom side represents value = 255.
-
-* **Intensity** - Set intensity. Smaller values are useful to find out how many values of the same luminance are distributed across input rows/columns. Default value is 0.04. Allowed range is [0, 1].
-
-* **Mirror** - Set mirroring mode. In mirrored mode, higher values will be represented on the left side for row mode and at the top for column mode. Default is **Off**.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      waveform
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-* **Display** - Set display mode. See options below.
 
-* **Components** - Set which color components to display. See options below
+.. rubric:: Description
 
-* **Envelope** - Set envelope. See options below.
-
-* **Filter** - Set the filter to apply. See options below.
-
-* **Graticule** - Select which graticule to display. See options below.
-
-* **Graticule Opacity** - Set graticule opacity
-
-* **Flags** - Set graticule flags. Options are **numbers** (default; draw numbers above lines) and **dots** (draw dots instead of lines)
-
-* **Scale** - Set scale used for displaying graticule. Options are **digital** (default), **millivolts** and **ire**
-
-* **Background Opacity** - Set background opacity
+This effect/filter plots color component intensity. By default luminance only. Each column of the waveform corresponds to a column of pixels in the source video.
 
 
-.. rubric:: Parameter Options
+.. rubric:: Parameters
 
-.. list-table:: Display
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Mode
+     - Selection
+     - Select the orientation of the waveform
+   * - Intensity
+     - Float
+     - Set intensity. Smaller values are useful to find out how many values of the same luminance are distributed across input rows/columns. Default value is 0.04. Allowed range is [0, 1].
+   * - Mirror
+     - Switch
+     - Set mirroring mode. In mirrored mode, higher values will be represented on the left side for row mode and at the top for column mode. Default is **Off**.
+   * - Display
+     - Selection
+     - Set display mode
+   * - Components
+     - Integer
+     - Set which color components to display. Numerical values represent different :term:`planes <plane>` (see below).
+   * - Envelope
+     - Selection
+     - Set envelope
+   * - Filter
+     - Selection
+     - Set the filter to apply
+   * - Graticule
+     - Selection
+     - Select which graticule to display
+   * - Graticule Opacity
+     - Float
+     - Set graticule opacity
+   * - Flags
+     - Selection
+     - Set graticule flags
+   * - Scale
+     - Selection
+     - Set scale used for displaying graticule
+   * - Background Opacity
+     - Float
+     - Set background opacity
+
+
+The following selections are available:
+
+:guilabel:`Mode`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - Row
+     - Graph on the left side represents color component value 0 and the right side represents value = 255
+   * - Column
+     - Top side represents color component value = 0 and bottom side represents value = 255.
+
+
+:guilabel:`Display`
+
+.. list-table:: 
    :header-rows: 1
    :width: 100%
    :widths: 25 75
@@ -75,29 +124,35 @@ The effect does not have keyframes.
    * - **parade**
      - Display separate graph for the color components side by side in column mode or one below the other in row mode. Using this display mode makes it easy to spot color casts in the highlights and shadows of an image, by comparing the contours of the top and the bottom graphs of each waveform. Since whites, grays, and blacks are characterized by exactly equal amounts of red, green, and blue, neutral areas of the picture should display three waveforms of roughly equal width/height. If not, the correction is easy to perform by making level adjustments to the three waveforms.
 
-.. list-table:: Components
+
+:guilabel:`Components`
+
+.. list-table:: 
    :header-rows: 1
    :width: 100%
    :widths: 25 75
 
    * - **Value**
      - **Description**
-   * - 1 (default)
+   * - **1** (default)
      - Y (:term:`luma` or luminance)
-   * - 2
+   * - **2**
      - U (blue minus luma)
-   * - 3
+   * - **3**
      - YU
-   * - 4
+   * - **4**
      - V (red minus luma)
-   * - 5
+   * - **5**
      - YV
-   * - 6
+   * - **6**
      - UV
-   * - 7
+   * - **7**
      - YUV
 
-.. list-table:: Envelope
+
+:guilabel:`Envelope`
+
+.. list-table:: 
    :header-rows: 1
    :width: 100%
    :widths: 25 75
@@ -113,7 +168,10 @@ The effect does not have keyframes.
    * - **peak+instant**
      - Peak and instant envelope combined together
 
-.. list-table:: Filter
+
+:guilabel:`Filter`
+
+.. list-table:: 
    :header-rows: 1
    :width: 100%
    :widths: 25 75
@@ -137,7 +195,10 @@ The effect does not have keyframes.
    * - **acolor**
      - Similar as above, but with luma showing frequency of chroma values.
 
-.. list-table:: Graticule
+
+:guilabel:`Graticule`
+
+.. list-table:: 
    :header-rows: 1
    :width: 100%
    :widths: 25 75
@@ -154,4 +215,33 @@ The effect does not have keyframes.
      - Display invert graticule showing legal broadcast ranges
 
 
-.. note:: As of this writing and in version 23.04.3 this effect does not do anything. A bug report has been created.
+:guilabel:`Flags`
+
+.. list-table:: 
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 75
+
+   * - **Value**
+     - **Description**
+   * - **numbers** (default)
+     - Draw numbers above lines
+   * - **dots**
+     - Draw dots instead of lines
+
+
+:guilabel:`Scale`
+
+.. list-table:: 
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 75
+
+   * - **Value**
+     - **Description**
+   * - **digital** (default)
+     - 
+   * - **millivolts**
+     - 
+   * - **ire**
+     - 

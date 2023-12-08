@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using vectorscope (advanced) effect
+   :description: Kdenlive Video Effects - Vectorscope (advanced) 
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, utility, vectorscope (advanced)
 
 .. metadata-placeholder
@@ -10,48 +10,169 @@
    :license: Creative Commons License SA 4.0
 
 
-.. |link| raw:: html
-
-   <a href="link_URI" target="_blank">link_text</a>
-
-
-.. _effects-vectorscope_advanced:
-
 Vectorscope (advanced)
 ======================
 
-This effect/filter draws and overlays a vectorscope of the video data. Compared to the :ref:`effects-vectorscope` effect it offers parameters to control the display mode and a few other things.
-
-This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` because the Effect version writes the vectorscope into the output video, whereas the View Menu version displays the vectorscope in a separate widget while you still can preview your project.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-vectorscope_advanced.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-vectorscope_advanced
 
-   Vectorscope (advanced) effect
+.. sidebar:: |kdenlive-show-video| Vectorscope (advanced)
 
-* **Mode** - Set the vectorscope mode. See below for available options.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      vectorscope
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **X / Y** - Set which color component will be represented on X / Y axis
+.. rst-class:: clear-both
 
-* **Intensity** - Set intensity used by modes **gray**, **color**, **color3** and **color5** for increasing brightness of color component which represents frequency of (X, Y) location in graph
 
-* **Envelope** - Select **None** (default), **Instant** envelope (even darkest single pixel will be clearly highlighted), **Peak** to hold maximum and minimum values presented in graph over time (this way you can still spot out of range values without constantly looking at vectorscope), or **Peak+Instant** for peak and instant envelope combined together
+.. rubric:: Description
 
-* **Graticule** - Set what kind of graticule to draw. Options are **none** (default), **color** and **green**.
+This effect/filter draws and overlays a vectorscope of the video data. Compared to the :doc:`/effects_and_compositions/video_effects/utility/vectorscope` effect it offers parameters to control the display mode and a few other things.
 
-* **Graticule Opacity** - Set graticule opacity
+This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` because the *Effect* version writes the vectorscope into the output video, whereas the *View Menu* version displays the vectorscope in a separate widget while you still can preview your project.
 
-* **Flags** - Set graticule flags. Options are **White** (draw graticule for white point), **Black** (draw graticule for black point) and **Name** (default; draw color points short names).
 
-* **Background Opacity** - Set background opacity
+.. rubric:: Parameters
 
-* **Low Threshold** - Set low threshold for color component not represented on X or Y axis. Values lower than this value will be ignored. Default is 0. Note this value is multiplied with the actual max possible value one pixel component can have. So for 8-bit input and low threshold value of 0.1 the actual threshold is 0.1 * 255 = 25.
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
 
-* **High Threshold** - Set high threshold for color component not represented on X or Y axis. Values higher than this value will be ignored. Default is 1. Note this value is multiplied with the actual max possible value one pixel component can have. So for 8-bit input and high threshold value of 0.9 the actual threshold is 0.9 * 255 = 230.
+   * - Parameter
+     - Value
+     - Description
+   * - Mode
+     - Selection
+     - Set the vectorscope mode. See below for available options.
+   * - X / Y
+     - Integer
+     - Set which color component will be represented on X / Y axis
+   * - Intensity
+     - Float
+     - Set intensity used by modes **gray**, **color**, **color3** and **color5** for increasing brightness of color component which represents frequency of (X, Y) location in graph
+   * - Envelope
+     - Selection
+     - Set whether the scope draws an edge or not and how the edge behaves
+   * - Graticule
+     - Selection
+     - Set what kind of graticule to draw
+   * - Graticule Opacity
+     - Float
+     - Set graticule opacity
+   * - Flags
+     - Selection
+     - Set graticule flags
+   * - Background Opacity\ [1]_
+     - Float
+     - Set background opacity
+   * - Low Threshold
+     - Float
+     - Set low threshold for color component not represented on X or Y axis. Values lower than this value will be ignored. Default is **0**. Note this value is multiplied with the actual max possible value one pixel component can have. So for 8-bit input and low threshold value of 0.1 the actual threshold is 0.1 * 255 = 25.
+   * - High Threshold
+     - Float
+     - Set high threshold for color component not represented on X or Y axis. Values higher than this value will be ignored. Default is **1**. Note this value is multiplied with the actual max possible value one pixel component can have. So for 8-bit input and high threshold value of 0.9 the actual threshold is 0.9 * 255 = 230.
+   * - Colorspace
+     - Selection
+     - Set what kind of :term:`color space` to use when drawing graticule
 
-* **Colorspace** - Set what kind of colorspace to use when drawing graticule. Options are **Auto** (default), **601** and **709**.
+
+The following selection items are available:
+
+:guilabel:`Mode`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - gray
+     - default
+   * - color
+     - 
+   * - color2
+     - 
+   * - color3
+     - 
+   * - color4
+     - 
+   * - color5
+     - 
+
+:guilabel:`Envelope`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - None
+     - default
+   * - Instant
+     - Even darkest single pixel will be clearly highlighted
+   * - Peak
+     - To hold maximum and minimum values presented in graph over time (this way you can still spot out-of-range values without constantly looking at the vectorscope)
+   * - Peak+Instant
+     - For peak and instant envelope combined together
+
+:guilabel:`Graticule`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - none
+     - default
+   * - color
+     - 
+   * - green
+     - 
+
+:guilabel:`Flags`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - White
+     - Draw graticule for white point
+   * - Black
+     - Draw graticule for black point
+   * - Name
+     - Draw color points short names (default)
+
+:guilabel:`Colorspace`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Auto
+     - default
+   * - 601
+     - 
+   * - 709
+     - 
+
+
+----
+
+.. [1] Does not seem to work; the vectorscope overlays the background completely.

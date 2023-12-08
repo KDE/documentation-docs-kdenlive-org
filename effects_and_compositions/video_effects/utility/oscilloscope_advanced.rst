@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using oscilloscope (advanced) effect
+   :description: Kdenlive Video Effects - Oscilloscope (advanced)
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, utility, oscilloscope (advanced)
 
 .. metadata-placeholder
@@ -15,50 +15,127 @@
    <a href="https://undergroundmathematics.org/glossary/root-mean-square" target="_blank">this article</a>
 
 
-.. _effects-oscilloscope_advanced:
-
 Oscilloscope (advanced)
 =======================
 
-This effect/filter draws a 2D oscilloscope over the clip. It does the same as :ref:`effects-oscilloscope` but offers more parameters and features, such as drawing a line across the frame that is used for the computations.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-oscilloscope_advanced.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-oscilloscope_advanced
 
-   Oscilloscope (advanced) effect
+.. sidebar:: |kdenlive-show-video| Oscilloscope (advanced)
 
-* **Channel** - Channel to numerically display at the bottom of the scope
-
-* **R / G / B trace** - Show R / G / B trace on scope
-
-* **Y / Pr / Pb trace** - Show Y' / Pr / Pb trace on scope
-
-* **Alpha trace** - Show Alpha trace on scope
-
-* **Display average** - If switched on, averages are displayed
-
-* **Display RMS** - If switched on, the RMS\ [1]_ value is displayed
-
-* **Display minimum / maximum** - If switched on, minimum and maximum values are displayed
-
-* **256 scale** - If switched on, the oscilloscope uses the range 0..255 instead of 0.0..1.0 for value display
-
-* **Color** - Set :term:`color space` to use. Options are **CCIR rec. 601** (default) and **CCIR rec. 709**.
-
-* **X / Y / Tilt / Length** - X / Y position, Tilt and Length of the profile marker (the line in the middle of the screen indicating where the scope values are taken from)
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      pr0file
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-* **Marker 1 / 2** - Position of marker 1 / 2 (starting on the left side)
 
-* **Crosshair color** - Color of the profile marker
+.. rubric:: Description
+
+This effect/filter draws a 2D oscilloscope over the clip. It does the same as :ref:`effects-oscilloscope` but offers more parameters and features, such as drawing a line across the frame that is used for the computations.
 
 
-**Notes**
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Channel
+     - Selection
+     - Channel to numerically display at the bottom of the scope
+   * - R / G / B trace
+     - Switch
+     - Show R / G / B trace on scope
+   * - Y / Pr / Pb trace
+     - Switch
+     - Show Y' / Pr / Pb trace on scope
+   * - Alpha trace
+     - Switch
+     - Show Alpha trace on scope
+   * - Display average
+     - Switch
+     - If switched on, averages are displayed
+   * - Display RMS
+     - Switch
+     - If switched on, the RMS\ [1]_ value is displayed
+   * - Display minimum / maximum
+     - Switch
+     - If switched on, minimum and maximum values are displayed
+   * - 256 scale
+     - Switch
+     - If switched on, the oscilloscope uses the range 0..255 instead of 0.0..1.0 for value display
+   * - Color
+     - Selection
+     - Set :term:`color space` to use
+   * - X / Y / Tilt / Length
+     - Integer
+     - X / Y position, Tilt and Length of the profile marker (the line in the middle of the screen indicating where the scope values are taken from)
+   * - Marker 1 / 2
+     - Integer
+     - Position of marker 1 / 2 (starting on the left side)
+   * - Crosshair color
+     - Integer
+     - Color of the profile marker
+
+
+The following selection items are available:
+
+:guilabel:`Channel`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - R
+     - Red
+   * - G
+     - Green
+   * - B
+     - Blue
+   * - Y'
+     - :term:`luma` (default)
+   * - Pr
+     - Difference between red and luma
+   * - Pb
+     - Difference between blue and luma
+   * - Alpha
+     - Alpha channel
+
+:guilabel:`Color`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - CCIR rec. 601
+     - default
+   * - CCIR rec. 709
+     - 
+
+
+
+----
 
 .. [1] RMS = Root Mean Squared. Useful when trying to measure the average "size" of numbers, where their sign is not important, as the squaring makes all numbers positive. The most common case of using the root mean square is when calculating the standard deviation of a set of numbers. For the mathematical details, refer to |rms| in undergroundmathematics.org
