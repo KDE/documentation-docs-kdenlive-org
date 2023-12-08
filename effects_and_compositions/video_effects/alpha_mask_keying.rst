@@ -35,7 +35,7 @@ The following effects and filters are available:
    alpha_mask_keying/*
 
 
-**Notes**
+----
 
 .. |wiki-alpha_compositing| raw:: html
 

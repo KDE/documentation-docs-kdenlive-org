@@ -139,19 +139,29 @@ aside dl {
     padding: 0px !important;
 }
 
-/* sidebar fontsize for variables */
+/* BMJ: sidebar fontsize for variables */
 .sidebar dd {
     font-size: 120% !important;
 }
 
-/* sidebar categories alignment with variables */
+/* BMJ: sidebar categories alignment with variables */
 .sidebar dt {
+    margin-top: 3px !important;
+}
+
+/* BMJ: fix field lists alignment */
+dl.field-list>dt {
     margin-top: 3px !important;
 }
 
 /* BMJ: decrease footnote reference font size */
 .footnote-reference {
     font-size: 80% !important;
+}
+
+/* BMJ: download filename underline */
+code.xref>span.pre {
+    text-decoration: underline !important;
 }
 
 /* Correctly display keyboard shortcuts inside definition lists (theme.css explicitly excludes this case for some reason) */

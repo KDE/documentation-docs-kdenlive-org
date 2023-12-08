@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using limiter effect
+   :description: Kdenlive Video Effects - Limiter
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, limiter
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -8,25 +8,81 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-limiter:
-
 Limiter
 =======
 
-This effect/filter limits the pixel components values to the specified range.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-limiter.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-limiter
 
-   Limiter effect
+.. sidebar:: |kdenlive-show-video| Limiter
 
-* **Min** - Lower bound. Defaults to the lowest allowed value for the input.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      limiter
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Max** - Upper bound. Defaults to the highest allowed value for the input.
+.. rst-class:: clear-both
 
-* **Planes** - Specify which :term:`planes<plane>` will be processed. Options are **None**, **Y**, **YU**, **V**, **YV**, **UV**, **YUV** and **Alpha**. Defaults to **YUV**.
+
+.. rubric:: Description
+
+This effect/filter limits the pixel components values to the specified range.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Min
+     - Integer
+     - Lower bound. Defaults to the lowest allowed value for the input.
+   * - Max
+     - Integer
+     - Upper bound. Defaults to the highest allowed value for the input.
+   * - Planes
+     - 
+     - Specify which :term:`planes<plane>` will be processed
+
+The following selection items are available:
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - None
+     - 
+   * - Y
+     - 
+   * - YU
+     - 
+   * - V
+     - 
+   * - YV
+     - 
+   * - UV
+     - 
+   * - YUV
+     - Default
+   * - Alpha
+     - 

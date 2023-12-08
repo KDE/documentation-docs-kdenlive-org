@@ -22,7 +22,7 @@
 Generate
 ========
 
-The *Generate* video effects category provides effects and filter for generating specific overlays, like :ref:`effects-dynamic_text`, :ref:`scanlines <effects-scanline0r>`, or generating a :ref:`effects-video_grid`.
+The *Generate* video effects category provides effects and filter for generating specific overlays, like :doc:`/effects_and_compositions/video_effects/generate/dynamic_text`, :doc:`Scanlines </effects_and_compositions/video_effects/generate/scanline0r>`, or generating a :doc:`/effects_and_compositions/video_effects/generate/video_grid`.
 
 The following effects and filters are available:
 

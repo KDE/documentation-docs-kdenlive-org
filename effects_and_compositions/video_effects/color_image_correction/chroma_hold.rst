@@ -1,54 +1,90 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using the chroma hold effect
+   :description: Kdenlive Video Effects - Chroma Hold
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, chroma hold
 
    :authors: - Claus Christensen
              - Yuri Chornoivan
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
 
+.. .. |color-picker| image:: /images/icons/color-picker.svg
+   :width: 22px
+   :class: no-scaled-link
+
+
 .. |chromahold| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#chromahold" target="_blank">avfilter.chromahold</a>
+   <a href="https://ffmpeg.org/ffmpeg-filters.html#chromahold" target="_blank">chromahold</a>
 
 
 .. https://youtu.be/dXnFsOjS734
 
 
-.. _effects-chroma_hold:
-
 Chroma Hold
 ===========
 
-This effect\ [1]_ removes all color information for all colors except the selected one.
-
-This effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-chroma_hold.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-chroma_hold
 
-   Chroma Hold effect
+.. sidebar:: |kdenlive-show-video| Chroma Hold
 
-* **Similarity** - Similarity percentage with the selected color. 0.01 matches only the exact key color, 1.0 matches everything.
-
-* **Blend** - Blend percentage. 0.0 makes pixels either fully grey, or not grey at all. Higher values result in more preserved color
-
-* **For YUV color** - Select this if the clip has YUV data instead of RGB
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      |chromahold|
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. note:: This effect is not as effective and easy to apply as the :ref:`effects-chroma_keep` effect.
+.. rubric:: Description
+
+This effect removes all color information for all colors except the selected one.
 
 
-**Notes**
+.. rubric:: Parameters
 
-.. [1] This is the |chromahold| MLT filter.
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Similarity
+     - Float
+     - Similarity percentage with the selected color. 0.01 matches only the exact key color, 1.0 matches everything.
+   * - Blend
+     - Float
+     - Blend percentage. 0.0 makes pixels either fully grey, or not grey at all. Higher values result in more preserved color
+   * - For YUV color
+     - Switch
+     - Select this if the clip has YUV data instead of RGB
+   * - Color key
+     - Picker
+     - Select the color to be preserved (held) using the |color-picker| color picker or by clicking the color bar
+
+.. rst-class:: clear-both
+
+
+.. note:: 
+   This effect is not as effective and easy to apply as the :doc:`/effects_and_compositions/video_effects/color_image_correction/chroma_keep` effect.

@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using color matrix effect
+   :description: Kdenlive Video Effects - Color Matrix
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, image adjustment, color matrix
 
 .. metadata-placeholder
@@ -12,41 +12,85 @@
 
 .. |color_space_descriptions| raw:: html
 
-   <a href="https://www.kernel.org/doc/html/v4.9/media/uapi/v4l/pixfmt-007.html" target="_blank">Color Space Descriptions</a>
+   <a href="https://www.kernel.org/doc/html/v4.9/media/uapi/v4l/pixfmt-007.html" target="_blank">color space descriptions</a>
 
-
-.. _effects-color_matrix:
 
 Color Matrix
 ============
 
-This effect/filter converts the :term:`color matrix`.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_matrix.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-color_matrix
 
-   Color Matrix effect
+.. sidebar:: |kdenlive-show-video| Color Matrix
 
-* **Source color Matrix**
-
-* **Destination color Matrix**
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      svfilter
+   :**Source filter**:
+      colormatrix
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-The :guilabel:`Matrix` parameters have the following options:
 
-* bt709
-* fcc
-* bt601
-* bt470
-* bt470bg
-* smpte170m
-* smpte240m
-* bt2020
+.. rubric:: Description
+
+This effect/filter converts the :term:`color matrix`.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Source color Matrix
+     - Selection
+     - 
+   * - Destination color Matrix
+     - Selection
+     - 
+
+The following selection items are available:
+
+:guilabel:`Source color Matrix` :guilabel:`Destination color Matrix`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - bt709
+     - 
+   * - fcc
+     - 
+   * - bt601
+     - 
+   * - bt470
+     - 
+   * - bt470bg
+     - 
+   * - smpte170m
+     - 
+   * - smpte240m
+     - 
+   * - bt2020
+     - 
 
 For the technical inclined there is a list of detailed |color_space_descriptions| available in the Linux Kernel documentation.

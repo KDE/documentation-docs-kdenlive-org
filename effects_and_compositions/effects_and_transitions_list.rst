@@ -1983,4 +1983,3 @@ Alphabetical List of Effects and Compositions
      - Video Effect
      - Misc
      - Apply resizing, colorspace and bit depth conversion (avfilter.zscale)
-

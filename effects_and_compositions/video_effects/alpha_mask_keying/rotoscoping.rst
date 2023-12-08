@@ -1,7 +1,6 @@
 .. meta::
-   :description: Do your first steps with Kdenlive video editor
-   :keywords: KDE, Kdenlive, quick start, first steps, documentation, user manual, video editor, open source, free, learn, easy, effects, rotoscoping, 
-
+   :description: Kdenlive Video Effects - Rotoscoping
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha, mask, keying, rotoscoping
 
 .. metadata-placeholder
 
@@ -13,7 +12,7 @@
              - Roger (https://userbase.kde.org/User:Roger)
              - TheMickyRosen-Left (https://userbase.kde.org/User:TheMickyRosen-Left)
              - Maris Stalte (https://userbase.kde.org/User:limerick)
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -33,37 +32,115 @@
 
    <a href="https://www.youtube.com/watch?v=DzIt5yCt2uU" target="_blank">ROTOSCOPING</a>
 
-.. |wiki_rotoscoping| raw:: html
-
-   <a href="https://en.wikipedia.org/wiki/Rotoscoping" target="_blank">Rotoscoping</a>
-
-.. |mlt_rotoscoping| raw:: html
-
-   <a href="https://www.mltframework.org/plugins/FilterRotoscoping/" target="_blank">MLT framework Rotoscoping</a>
-
-.. |wiki_bezier| raw:: html
-
-   <a href="https://en.wikipedia.org/wiki/Bézier_curve" target="_blank">Bézier curves</a>
-
-
-.. _effects-rotoscoping:
 
 Rotoscoping
 ===========
+
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotoscoping.webp
+   :width: 365px
+   :figwidth: 365px
+   :align: left
+   :alt: kdenlive2304_effects-rotoscoping
+
+.. sidebar:: |kdenlive-show-video| Rotoscoping
+
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      rotoscoping
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
 
 "In the visual effects industry, the term rotoscoping refers to the technique of manually creating a matte for an element on a live-action plate so it may be composited over another background."\ [1]_
 
 This effect\ [2]_ is used to draw a region on one clip, and everything outside/inside that region will disappear showing the video track underneath. Effectively, the region defines the matte or mask for the clip.
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotoscoping.webp
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Mode
+     - Selection
+     - Defines the channel to apply rotoscoping to
+   * - Alpha Operation
+     - Selection
+     - Determines how compositing is done
+   * - Invert
+     - Switch
+     - Inverts the rotoscoping selection
+   * - Feathering width
+     - Integer
+     - Determines the amount of :abbr:`feathering (Smoothing or blurring the edges of a feature)`. Default is 0 (no feathering).
+   * - Feathering passes
+     - Integer
+     - Sets the number of passes. The more passes the finer and more accurate the :abbr:`feathering (Smoothing or blurring the edges of a feature)` will be. Default is 1.
+
+The following selection items are available:
+
+:guilabel:`Mode`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - Alpha
+     - The rotoscoped area will be the alpha channel (default)
+   * - Luma
+     - 
+   * - RGB
+     - 
+
+:guilabel:`Alpha Operation`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - Write on clear
+     - (default)
+   * - Maximum
+     - 
+   * - Minimum
+     - 
+   * - Add
+     - 
+   * - Subtract
+     - 
+
+
+.. rubric:: Screenshots
+
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotoscoping_1.webp
    :width: 90%
-   :alt: kdenlive2304_effects-rotoscoping
+   :alt: kdenlive2304_effects-rotoscoping_1
 
    Before, during and after Rotoscoping. Note the disabled Edit Mode (bottom right)
 
 
-Drawing the Region
-------------------
+.. rubric:: Drawing the Region
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotoscoping_nodes_handles.webp
    :align: left
@@ -121,11 +198,8 @@ By default, the inside of the region you created is transparent (the video track
 
 .. note:: The Rotoscope effect can be keyframed. In contrast to other effects, keyframes not only can be created individually on the keyframe ruler\ [4]_ but are created automatically whenever the region is changed (nodes added, deleted or moved; curves created or changed; region moved). It is therefore important to create the rotoscope region on the very first frame of the clip.
 
-.. I think this statement is no longer true: In a previous version of Kdenlive you could add a new nodes by clicking on the line between existing nodes. You could subtract nodes by right clicking on them. But it looks like you can not do this with the 17.04 & 18.04 version.
 
-
-Using keyframes to make the region follow the action
-----------------------------------------------------
+.. rubric:: Using Keyframes to Make the Region Follow the Action
 
 .. note:: The keyframe ruler and icons\ [4]_ may be greyed out initially. They become available once the first node is created.
 
@@ -139,19 +213,18 @@ Using keyframes to make the region follow the action
 
 Move the position in the clip by dragging the playhead on the timeline (3) or by using the keyframe ruler\ [4]_ in the Rotoscope effect (2).
 
-Click |keyframe-add|:guilabel:`Add keyframe` (5).
+Click |keyframe-add|:guilabel:`Add keyframe` (6).
 
 Now adjust the position of the nodes in the curve to match the action.
 
 Kdenlive will calculate a path to move the nodes from the position they were in the previous keyframe to the position you put them in at this keyframe. So you do not have to draw a curve for every frame in the clip.
 
-To remove a keyframe select it by clicking on the keyframe symbol (diamond, circle or square), or move to the frame with the keyframe using the |keyframe-previous|:guilabel:`Go to previous keyframe` (4) or |keyframe-next|:guilabel:`Go to next keyframe` (5) and then click on |keyframe-remove| that which becomes :guilabel:`Delete keyframe` (6) when you are on an existing keyframe.
+To remove a keyframe select it by clicking on the keyframe symbol (diamond, circle or square), or move to the frame with the keyframe using the |keyframe-previous|:guilabel:`Go to previous keyframe` (4) or |keyframe-next|:guilabel:`Go to next keyframe` (5) and then click on |keyframe-remove| which becomes :guilabel:`Delete keyframe` (6) when you are on an existing keyframe.
 
 
-Examples
---------
+.. rubric:: Examples
 
-Examples on YouTube of what you can do with the Rotoscoping effect:
+**Examples on YouTube of what you can do with the Rotoscoping effect**
 
 * |no_mirror| (by Everything and Even Gaming)
 
@@ -162,8 +235,7 @@ Examples on YouTube of what you can do with the Rotoscoping effect:
 * |rotoscoping_nbtech| (by NBtech)
 
 
-Example "How to use Rotoscoping for changing color tone"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Example "How to use Rotoscoping for Changing Color Tone"**
 
 .. figure:: /images/effects_and_compositions/kdenlive_effects-rotoscoping_image21.webp
    :align: left
@@ -238,17 +310,20 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
 .. rst-class:: clear-both
 
 
-.. this video doesn't exist anymore
+----
 
-   Tutorial with Rotoscoping
-   -------------------------
+.. |wiki_rotoscoping| raw:: html
 
-   This video is about green screen on **Kdenlive** but he does use rotoscoping in it too.
+   <a href="https://en.wikipedia.org/wiki/Rotoscoping" target="_blank">Rotoscoping</a>
 
-   https://youtu.be/_6gxHLCFhLQ
+.. |mlt_rotoscoping| raw:: html
 
+   <a href="https://www.mltframework.org/plugins/FilterRotoscoping/" target="_blank">MLT framework Rotoscoping</a>
 
-**Notes**
+.. |wiki_bezier| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/Bézier_curve" target="_blank">Bézier curves</a>
+
 
 .. [1] See this Wikipedia article about |wiki_rotoscoping|
 

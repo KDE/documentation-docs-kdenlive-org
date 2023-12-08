@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using flip horizontally effect
+   :description: Kdenlive Video Effects - Flip Horizontally
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, flip horizontally
 
 .. metadata-placeholder
@@ -10,22 +10,35 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-flip_horizontally:
-
 Flip Horizontally
 =================
 
-This effect/filter flips the input video horizontally (along the X axis, mirroring on the center vertical axis). Compare :ref:`effects-flip_vertically`, :ref:`effects-flippo` and :ref:`effects-mirror` effects.
-
-The effect works like a switch and does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-flip_horizontally.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-flip_horizontally
 
-   Flip Horizontally effect
+.. sidebar:: |kdenlive-show-video| Flip Horizontally
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      hflip
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter flips the input video horizontally (along the X axis, mirroring on the center vertical axis). Compare :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/flip_vertically`, :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/flippo` and :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/mirror` effects.

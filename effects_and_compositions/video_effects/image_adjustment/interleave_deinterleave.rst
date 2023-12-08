@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using interleave - deinterleave effect
+   :description: Kdenlive Video Effects - Interleave - Deinterleave
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, image adjustment, interleave - deinterleave
 
 .. metadata-placeholder
@@ -10,25 +10,70 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-interleave:
-
 Interleave - Deinterleave
 =========================
 
-This effect/filter interleaves or deinterleave fields.
-
-This filter allows one to process interlaced images fields without deinterlacing them. Deinterleaving splits the input frame into 2 fields (so-called half pictures). Odd lines are moved to the top half of the output image, even lines to the bottom half. You can process (filter) them independently and then re-interleave them.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-interleave.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-interleave
 
-   Interleave - Deinterleave effect
+.. sidebar:: |kdenlive-show-video| Interleave - Deinterleave
 
-* **Luma / Chroma / Alpha Mode** - Options are **None** (do nothing), **Deinterleave** (deinterleave fields, placing one above the other), or **Interleave** (interleave fields; reverse the effect of deinterleaving).
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      il
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Swap Luma / Chroma / Alpha fields** - Swap :term:`luma`, :term:`chroma` or alpha fields, Exchanges even and odd lines. Default is off.
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter interleaves or deinterleave fields. It allows one to process interlaced images fields without deinterlacing them. Deinterleaving splits the input frame into 2 fields (so-called half pictures). Odd lines are moved to the top half of the output image, even lines to the bottom half. You can process (filter) them independently and then re-interleave them.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Luma / Chroma / Alpha Mode
+     - Selection
+     - Set the action for the various channels. Default is **none**
+   * - Swap Luma / Chroma / Alpha fields
+     - Switch
+     - Swap :term:`luma`, :term:`chroma` or alpha fields, Exchanges even and odd lines. Default is **off**.
+
+The following selection items are available:
+
+:guilabel:`Luma / Chroma / Alpha Mode`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - None
+     - do nothing
+   * - Deinterleave
+     - Deinterleave fields, placing one above the other
+   * - Interleave
+     - Interleave fields; reverse the effect of deinterleaving

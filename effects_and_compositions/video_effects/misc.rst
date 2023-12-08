@@ -25,7 +25,8 @@ Misc Effects
 
 The *Miscellaneous* video effects category provides effects and filters for various purposes that didn't fit into any other category or have not yet been assigned properly.
 
-.. note:: Some of the effects/filters are only available in the Linux appimage version of **Kdenlive**.
+.. note::
+   Some of the effects/filters are only available in the Linux appimage version of **Kdenlive**. Check each effect's stub to see on which platform the effect is available.
 
 The following effects and filters are available:
 

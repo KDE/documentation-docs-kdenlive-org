@@ -22,7 +22,7 @@
 Stylize
 =======
 
-The *Stylize* video effects category contains effects and filters to give images and videos an artistic appearance (e.g. :ref:`effects-charcoal` or :ref:`effects-cartoon`).
+The *Stylize* video effects category contains effects and filters to give images and videos an artistic appearance (e.g. :doc:`/effects_and_compositions/video_effects/stylize/charcoal` or :doc:`/effects_and_compositions/video_effects/stylize/cartoon`).
 
 The following effects and filters are available:
 

@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using binarize dynamically effect
+   :description: Kdenlive Video Effects - Binarize Dynamically
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, binarize dynamically
 
 .. metadata-placeholder
@@ -11,22 +11,35 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-binarize_dynamically:
-
 Binarize Dynamically
 ====================
 
-This effect/filter creates a black and white image through dynamic thresholding.
-
-This effect works like a switch and does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-binarize_dynamically.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-binarize_dynamically
 
-   Binarize Dynamically effect
+.. sidebar:: |kdenlive-show-video| Binarize Dynamically
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      twolay0r
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter creates a black and white image through dynamic thresholding.

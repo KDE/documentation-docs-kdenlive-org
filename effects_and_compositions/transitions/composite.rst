@@ -69,14 +69,14 @@ Operation **Xor**
 Tutorial 1
 ----------
 
-See this :ref:`effects-chroma_key_basic` that describes how to use:
+See this :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key` that describes how to use:
 
-* Alpha Manipulation -> :ref:`effects-chroma_key_basic`
-* :ref:`effects-rotoscoping`
+* Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key`
+* :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping`
 * Composite Transition.
-* Crop and Transform -> :ref:`effects-position_and_zoom`
+* Crop and Transform -> :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/position_and_zoom`
 * Enhancement -> :ref:`sharpen`
-* Alpha Manipulation -> :ref:`effects-alpha_operations`
+* Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations`
 
 
 Tutorial 2 - composite transition and Blue Screen

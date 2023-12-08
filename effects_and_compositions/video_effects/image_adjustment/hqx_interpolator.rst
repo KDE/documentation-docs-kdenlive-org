@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using hqx interpolator effect
+   :description: Kdenlive Video Effects - HQ*X Interpolator
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, image adjustment, hqx interpolator
 
 .. metadata-placeholder
@@ -15,35 +15,96 @@
    <a href="https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms#hqnx_family" target="_blank">Maxim Stepin's hqnx</a>
 
 
-.. _effects-hqx_interpolator:
-
 HQ*X Interpolator
 =================
 
-This effect/filter scales the input stream by 2, 3 or 4 using the Hq*X\ [1]_ magnification algorithm designed for pixel art.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-hqx_interpolator.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-hqx_interpolator
 
-   HQ*X Interpolator effect
+.. sidebar:: |kdenlive-show-video| HQ*X Interpolator
 
-* **Interpolation factor** - Options are **2xHq*X**, **3xHq*X**, and **4xHq*X**
-
-* **Maximum number of threads** - Sets the number of CPU threads to use for calculation
-
-* **Position to set the filter** - Options are **frame**, **filter**, **source**, and **producer**.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      hqx
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. note:: When set to :guilabel:`frame` this can result in significantly longer rendering times.
+.. rubric:: Description
+
+This effect/filter scales the input stream by 2, 3 or 4 using the Hq*X\ [1]_ magnification algorithm designed for pixel art.
 
 
-**Notes**
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Interpolation factor
+     - Selection
+     - Sets the scaling factor
+   * - Maximum number of threads
+     - Integer
+     - Sets the number of CPU threads to use for calculation
+   * - Position to set the filter
+     - Selection
+     - Defines where in the render pipeline the filter will be applied. When set to **frame** this can result in significantly longer rendering times.
+
+The following selection items are available:
+
+:guilabel:`Interpolation factor`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - 2xHq*X
+     - 
+   * - 3xHq*X
+     - Default
+   * - 4xHq*X
+     - 
+
+:guilabel:`Position to set the filter`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - frame
+     - 
+   * - filter
+     - 
+   * - source
+     - 
+   * - producer
+     - 
+
+.. rst-class:: clear-both
+
+
+----
 
 .. [1] See the article in Wikipedia about |hqnx| family of algorithms.

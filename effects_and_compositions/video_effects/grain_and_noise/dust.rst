@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using dust effect
+   :description: Kdenlive Video Effects - Dust
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, grain and noise, dust
 
 .. metadata-placeholder
@@ -10,23 +10,54 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-dust:
-
 Dust
 ====
 
-This effect/filter makes random dust particles appear across the image source. This gives the video an old film look. See also the :ref:`effects-oldfilm` and :ref:`effects-scratchlines` effects.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-dust.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-dust
 
-   Dust effect
+.. sidebar:: |kdenlive-show-video| Dust
 
-* **Maximal Diameter** - Sets the maximum size of (the underlying .png file for) the dust particles
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      dust
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Maximal number of dust** - Sets the maximum number of dust particles
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter makes random dust particles appear across the image source. This gives the video an old film look. See also the :doc:`/effects_and_compositions/video_effects/stylize/oldfilm` and :doc:`/effects_and_compositions/video_effects/grain_and_noise/scratchlines` effects.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 30 10 60
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Maximal Diameter
+     - Percentage
+     - Sets the maximum size of (the underlying .png file for) the dust particles
+   * - Maximal number of dust
+     - Integer
+     - Sets the maximum number of dust particles

@@ -116,7 +116,7 @@ Change speed
 * :menuselection:`Cut Clip` Selecting this will cause the selected clip to be cut at the location of the :ref:`timeline`. See also  :ref:`editing`.
 
 
-* :menuselection:`Insert Effect` will open a sub-menu to allow you to quickly add the :ref:`effects-transform` or the :ref:`effects-lift_gamma_gain` effects.
+* :menuselection:`Insert Effect` will open a sub-menu to allow you to quickly add the :ref:`effects-transform` or the :doc:`/effects_and_compositions/video_effects/color_image_correction/lift_gamma_gain` effects.
 
 
 * :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :ref:`Wipe <wipe>` composition

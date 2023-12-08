@@ -18,7 +18,7 @@ On Master
 
 The *On Master* effect category provides audio visualization effects and filters that only work as a Master effect. That means they apply to the entire project and thus the final render.
 
-The effects can be stacked and do influence each other, so sequence in the Master effect stack **is** important. The only exception is :ref:`effects-audio_wave` that overlays over everything else.
+The effects can be stacked and do influence each other, so the sequence in the Master effect stack **is** important. The only exception is :doc:`/effects_and_compositions/video_effects/on_master/audio_wave` that overlays over everything else.
 
 The following effects and filters are available:
 

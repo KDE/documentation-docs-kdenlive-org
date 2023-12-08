@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using the audio level visualization effect
+   :description: Kdenlive Video Effects - Audio Level Visualization
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, on master, audio level visualization
 
 .. metadata-placeholder
@@ -15,50 +15,117 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-audio_level_visualization_filter:
+.. .. versionadded:: 22.12
+
 
 Audio Level Visualization Filter
 ================================
 
-This effect/filter is an audio visualization effect that draws an audio level meter on the image.
-
-.. versionadded:: 22.12
-   The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-audio_level_visualization_filter.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-audio_level_visualization_filter
 
-   Audio Level Visualization effect
+.. sidebar:: |kdenlive-show-video| Audio Level Visualization Filter
 
-* **Graph type** - Select the type of graph to display the levels. Option are **Bar** (default) and **Segment**.
-
-* **Mirror** - If checked, mirrors the spectrum on the center line of the rectangle
-
-* **Reverse** - If checked, draws the points starting with the right channel
-
-* **Gradient Orientation** - Sets the direction of the color gradient
-
-* **Background Color** - Defines the background color to be applied to the entire frame
-
-* **Gradient Color 1 / 2 / 3** - Defines color of the waveform gradient. Color 1 defines the top, 2 the middle and 3 the bottom of the gradient
-
-* **Line Thickness** - Defines the thickness of the bar or segments in number of pixels
-
-* **Angle** - Defines the rotation angle to be applied to the waveform
-
-* **X / Y / W / H / Size / Opacity** - Defines the X and Y coordinates, Width and Height, Size and Opacity of the rectangle in which the waveform is drawn. The icons help lining up the rectangle.
-
-* **Channels** - Defines the number of channels to show
-
-* **Segment Gap** - Defines the space in pixels between segments
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      audiolevelgraph
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      Yes
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-**Example**
+.. rubric:: Description
+
+This effect/filter is an audio visualization effect that draws an audio level meter on the image.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Graph type
+     - Selection
+     - Select the type of graph to display the levels
+   * - Mirror
+     - Switch
+     - If checked, mirrors the spectrum on the center line of the rectangle
+   * - Reverse
+     - Switch
+     - If checked, draws the points starting with the right channel
+   * - Gradient Orientation
+     - Selection
+     - Sets the direction of the color gradient
+   * - Background Color
+     - Picker
+     - Defines the background color to be applied to the entire frame
+   * - Gradient Color 1 / 2 / 3
+     - Picker
+     - Defines color of the waveform gradient. Color 1 defines the top, 2 the middle and 3 the bottom of the gradient
+   * - Line Thickness
+     - Integer
+     - Defines the thickness of the bar or segments in number of pixels
+   * - Angle
+     - Integer
+     - Defines the rotation angle to be applied to the waveform
+   * - X / Y / W / H / Size / Opacity
+     - 
+     - Defines the X and Y coordinates, Width and Height, Size and Opacity of the rectangle in which the waveform is drawn. The icons help lining up the rectangle.
+   * - Channels
+     - Integer
+     - Defines the number of channels to show
+   * - Segment Gap
+     - Integer
+     - Defines the space in pixels between segments
+
+The following selection items are available:
+
+:guilabel:`Graph type`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Bar
+     - Default
+   * - Segment
+     - 
+
+
+:guilabel:`Gradient Orientation`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Vertical
+     - Default
+   * - Horizontal
+     - 
+
+
+.. rubric:: Example
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-audio_level_visualization_filter_example.webp
    :width: 400px

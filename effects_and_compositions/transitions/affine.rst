@@ -44,7 +44,7 @@ To rotate the image, add a keyframe and enter values for rotation. The units are
 **Rotate X** rotates the frame in the plane of the screen.
 **Rotate Y** and **Rotate Z** create the illusion of 3D rotation when used dynamically with keyframes - see example below.
 
-You can create a similar effect using the :ref:`effects-rotate_keyframable` effect from the Crop and Transform group.
+You can create a similar effect using the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/rotate_keyframable` effect from the Crop and Transform group.
 
 
 Example 2 - Rotate Y

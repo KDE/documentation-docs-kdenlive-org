@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, utility video effects category
+   :description: Kdenlive Video Effects - Utility video effects category
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, category, utility
 
 .. metadata-placeholder
@@ -18,7 +18,7 @@
 Utility
 =======
 
-The *Utility* effects category contains useful effects/tools for getting information about your video material rather than manipulating the imagery. The exception is :ref:`effects-timeout_indicator` - it can be used to add countdown or count-up indicator to your video.
+The *Utility* effects category contains useful effects/tools for getting information about your video material rather than manipulating the imagery. The exception is :doc:`/effects_and_compositions/video_effects/utility/timeout_indicator` - it can be used to add countdown or count-up indicator to your video.
 
 The following effects and filters are available:
 

@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using square blur effect
+   :description: Kdenlive Video Effects - Square Blur
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, blur and sharpen, square blur
 
 
@@ -13,19 +13,52 @@
 
    :license: Creative Commons License SA 4.0
 
-.. _effects-square_blur:
 
 Square Blur
 ===========
 
-This effect blurs the entire clip. **Kernel size** determines the blurriness.
-
-This effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-square_blur.webp
+   :width: 365px
+   :figwidth: 365px
    :align: left
-   :width: 400px
-   :figwidth: 400px
    :alt: kdenlive2304_effects-square_blur
 
-   Squareblur effect
+.. sidebar:: |kdenlive-show-video| Square Blur
+
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      squareblur
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect blurs the entire clip. **Kernel size** determines the blurriness.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Kernel size
+     - Integer
+     - The size of the kernel, as a proportion to its coverage of the image. Range is 0 - 500, default is 50.

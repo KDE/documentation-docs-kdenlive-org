@@ -1,11 +1,11 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using the apply LUT effect
+   :description: Kdenlive Video Effects - Apply LUT
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, apply LUT
 
    :authors: - Mmaguire (https://userbase.kde.org/User:Mmaguire)
              - Maris (https://userbase.kde.org/User:limerick)
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -22,39 +22,89 @@
    <a href="https://filmlifestyle.com/what-is-a-lut/" target="_blank">What is a LUT?</a>
 
 
-.. _effects-apply_lut:
-
 Apply LUT
 =========
 
-This effect applies a 3D Look Up Table (LUT)\ [1]_ to the clip. A LUT is an easy way to adjust the color tone of a video, and therefore is mostly used for color grading. It is important to note that if your clips do not match from clip to clip or shot to shot, is not properly exposed or not (yet) color corrected, that applying a LUT will not work the way one hoped it would.
-
-**Supported formats:**
-
-* .3dl (AfterEffects)
-* .cube (Iridas)
-* .dat (DaVinci)
-* .m3d (Pandora)
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-apply_lut
 
-   Apply LUT effect
+.. sidebar:: |kdenlive-show-video| Apply LUT
 
-* **LUT file to apply** - File containing the LUT to be applied. Select *Custom...* to open a file dialog window to browse for LUT files.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      lut3d
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Interpolation Mode** - Select from Nearest, Trilinear or Tetrahedral (default)
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect applies a 3D Look Up Table (LUT)\ [1]_ to the clip. A LUT is an easy way to adjust the color tone of a video, and therefore is mostly used for :term:`color grading`. It is important to note that if your clips do not match from clip to clip or shot to shot, are not properly exposed or not (yet) color corrected, applying a LUT will not work the way one hoped it would.
+
+**Supported formats**
+
+- .3dl (AfterEffects)
+- .cube (Iridas)
+- .dat (DaVinci)
+- .m3d (Pandora)
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - LUT file to apply
+     - File selection
+     - File containing the LUT to be applied. Select **Custom...** to open a file dialog window to browse for additional LUT files.
+   * - Interpolation Mode
+     - Selection
+     - Selects the mode for interpolation
+
+
+The following selection items are available:
+
+:guilabel:`Interpolation Mode`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Nearest
+     - 
+   * - Trilinear
+     - 
+   * - Tetrahedral
+     - (default)
 
 .. rst-class:: clear-both
 
 .. _effects-example_lut:
 
-**LUT Filter Example**
+.. rubric:: Example
 
-For the example we are using the :download:`Tahoe.cube </files/Tahoe.cube>` LUT file. You can download LUTs from many places on the internet, like |freshLUTs| or |smallhd|. Put the downloaded files in a directory or folder that can be reached easily from with Kdenlive. For example, you may have a media stock folder and want to create a similar one for your LUT files.
+For the example we are using the :download:`Tahoe.cube </files/Tahoe.cube>` LUT file. You can download LUTs from many places on the internet, like |freshLUTs| or |smallhd|. Put the downloaded files in a directory or folder that can be reached easily from within Kdenlive. For example, you may have a media stock folder and want to create a similar one for your LUT files.
 
 This is the *after* and *before* view:
 
@@ -68,7 +118,7 @@ This is the *after* and *before* view:
 
 To apply the LUT follow these simple steps:
 
-1. In the :guilabel:`Effects` tab open the *Color and Image Correction* category and select the *Apply LUT* effect. Assign it to the clip in the timeline
+1. In the :guilabel:`Effects` tab open the **Color and Image Correction** category and select the **Apply LUT** effect. Assign it to the clip in the timeline
 2. Open the :guilabel:`LUT file to apply` drop-down and select :guilabel:`Custom`
 3. Navigate to the folder with the LUT file(s) you downloaded
 4. Select the LUT file you want and click :guilabel:`Open`
@@ -106,6 +156,7 @@ Of course, you can add other effects from the *Color and Image Correction* categ
 
 You can find more about color correction and color grading in the Tutorial section of the documentation.
 
-**Notes**
+
+----
 
 .. [1] A good explanation of and examples for how to use LUTs for color grading are available on the filmlifestyle.com |what_is_a_lut| page.

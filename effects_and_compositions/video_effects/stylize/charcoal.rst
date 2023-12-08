@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using charcoal effect
+   :description: Kdenlive Video Effects - Charcoal
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, charcoal
 
 .. metadata-placeholder
@@ -10,33 +10,66 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-charcoal:
-
 Charcoal
 ========
 
-This effect/filter gives the clip a charcoal drawing effect.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-charcoal.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-charcoal
 
-   Charcoal effect
+.. sidebar:: |kdenlive-show-video| Charcoal
 
-* **Invert** - Inverts the clip
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      charcoal
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Horizontal scatter** - Defines the line width. Range is 1 to 10, default is 2.
+.. rst-class:: clear-both
 
-* **Vertical scatter** - Defines the line height. Range is 1 to 10, default is 2.
 
-* **Scale** - Defines the contrast. Range is 1 to 10, default is 1.
+.. rubric:: Description
 
-* **Mix** - Defines the color :term:`planes<plane>`. Range is 1 to 10, default is 0 (black & white)
+This effect/filter gives the clip a charcoal drawing effect.
 
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Invert
+     - Switch
+     - Inverts the clip
+   * - Horizontal scatter
+     - Integer
+     - Defines the line width. Range is 1 to 10, default is 2.
+   * - Vertical scatter
+     - Integer
+     - Defines the line height. Range is 1 to 10, default is 2.
+   * - Scale
+     - Integer
+     - Defines the contrast. Range is 1 to 10, default is 1.
+   * - Mix
+     - Integer
+     - Defines the color :term:`planes<plane>`. Range is 0 to 10, default is 0 (black & white)
 
 
 .. https://youtu.be/fI1YrZcT26k

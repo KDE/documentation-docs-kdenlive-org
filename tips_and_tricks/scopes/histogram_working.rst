@@ -83,13 +83,13 @@ Two special things about this histogram.
 
 - There is quite some clipping. A lot of R values are sticking at the very right, at 255. Having a peak at 255 usually means that we lost information because some regions were too bright for the camera sensor with the current sensitivity settings. This could have been solved by lowering the sensitivity, but then the book and nearly everything else would be black. In this case the candles cause the clipping. (Not too bad here, because the lost detail isn't important for the image.)
 
-The RGB components also show very well that the shadows are not neutral grey but orange, otherwise the color heaps on the left would, as in the gradient histogram above, have their center at the same position. There isn't a lot to correct here, what could be done is raising the shadows with a :ref:`effects-curves` effect, but this is a matter of taste and the intended mood for the final movie.
+The RGB components also show very well that the shadows are not neutral grey but orange, otherwise the color heaps on the left would, as in the gradient histogram above, have their center at the same position. There isn't a lot to correct here, what could be done is raising the shadows with a :doc:`/effects_and_compositions/video_effects/color_image_correction/curves` effect, but this is a matter of taste and the intended mood for the final movie.
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_04.gif
    :width: 650px
    :alt: kdenlive2308_histogram_04.gif
 
-   Histogram before and after applying some color correcting with the :ref:`effects-curves` effect
+   Histogram before and after applying some color correcting with the :doc:`/effects_and_compositions/video_effects/color_image_correction/curves` effect
 
 Example 2: Underexposed ABC
 ---------------------------
@@ -106,13 +106,13 @@ We immediately notice two things:
  
 - The image is too dark. The brightest component, red, only reaches a value of 170. The white wall is actually grey.
 
-Monitoring correct exposure is the histogram's strength! The exposure can be corrected with :ref:`effects-curves` as well, but this time we will use the :ref:`effects-color_levels` effect.
+Monitoring correct exposure is the histogram's strength! The exposure can be corrected with :doc:`/effects_and_compositions/video_effects/color_image_correction/curves` as well, but this time we will use the :doc:`/effects_and_compositions/video_effects/color_image_correction/levels` effect.
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_06.gif
    :width: 650px
    :alt: kdenlive2308_histogram_06.gif
 
-   Histogram before and after applying the :ref:`effects-levels` effect to correct exposure
+   Histogram before and after applying the :doc:`/effects_and_compositions/video_effects/color_image_correction/levels` effect to correct exposure
 
 We have lowered the input white level of the luma channel until one of the RGB components reached 255. Lowering the input white level further would cause clipping on the wall and loss of image information. (Which may be desired in certain circumstances!)
 

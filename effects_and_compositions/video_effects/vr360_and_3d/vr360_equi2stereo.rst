@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using VR360 equirectangular to stereo effect
+   :description: Kdenlive Video Effects - VR360 Equirectangular to Stereo
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, VR360 and 3D, VR360 equirectangular to stereo
 
 .. metadata-placeholder
@@ -10,31 +10,92 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-vr360_equi2stereo:
-
 VR360 Equirectangular to Stereo
 ===============================
 
-This effect/filter projects a stereographic image from an equirectangular. Use this to create the "Little Planet" effect from VR360 footage.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_equi2stereo.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-vr360_equi2stereo
 
-   VR360 Equirectangular to Stereo effect
+.. sidebar:: |kdenlive-show-video| VR360 Equirectangular to Stereo
 
-* **Interpolation** - Select from **Nearest-Neighbor** (default) and **Bilinear**
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      bigsh0t_eq_stereo\ [1]_
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Yaw** - Defines the direction of view left or right
+.. rst-class:: clear-both
 
-* **Pitch** - Defines the direction of view up or down
 
-* **Roll** - Defines the direction of view like tilting your head left or right
+.. rubric:: Description
 
-* **FOV** - Field of View (the wider the angle the wider/zoomed out the view)
+This effect/filter projects a stereographic image from an equirectangular. Use this to create the "Little Planet" effect from VR360 footage.
 
-* **Amount** - Determines the amount of stereographic projection to mix in. Range is from 0% (standard rectilinear projection ) to 100% (full stereographic projection)
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Interpolation
+     - Selection
+     - Choose the interpolation algorithm
+   * - yaw
+     - Integer
+     - Defines the direction of view left or right
+   * - pitch
+     - Integer
+     - Defines the direction of view up or down
+   * - roll
+     - Integer
+     - Defines the direction of view like tilting your head left or right
+   * - FOV
+     - Integer
+     - Field of View (the wider the angle the wider/zoomed out the view)
+   * - Amount
+     - Percent
+     - Determines the amount of stereographic projection to mix in. Range is from 0% (standard rectilinear projection ) to 100% (full stereographic projection)
+
+
+The following selection items are available:
+
+:guilabel:`Interpolation`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - Nearest-Neighbor
+     - default
+   * - Bilinear
+     - 
+
+
+----
+
+.. |bigsh0t| raw:: html
+
+   <a href="https://bitbucket.org/leo_sutic/bigsh0t/src/main/" target="_blank">bigsh0t</a>
+
+
+.. [1] Parts of this documentation have been taken from the website of the filter's developer |bigsh0t|.

@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using tint effect
+   :description: Kdenlive Video Effects - Tint
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, tint
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -8,25 +8,57 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-tint:
-
 Tint
 ====
 
-This effect/filter maps the source image :term:`luminance` between two specified colors.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-tint.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-tint
 
-   Tint effect
+.. sidebar:: |kdenlive-show-video| Tint
 
-* **Map black to** - The color to map source color with zero luminance
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      tint0r
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Map white to** - The color to map source color with full luminance
+.. rst-class:: clear-both
 
-* **Tint amount** - Amount of color. Allowed values are from 0 to 1000, default is 250.
+
+.. rubric:: Description
+
+This effect/filter maps the source image :term:`luminance` between two specified colors.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Map black to
+     - 
+     - The color to map source color with zero luminance
+   * - Map white to
+     - 
+     - The color to map source color with full luminance
+   * - Tint amount
+     - 
+     - Amount of color. Allowed values are from 0 to 1000, default is 250.

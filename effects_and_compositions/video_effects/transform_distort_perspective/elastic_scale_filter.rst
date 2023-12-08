@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using elastic scale filter effect
+   :description: Kdenlive Video Effects - Elastic Scale Filter
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, elastic scale filter
 
 .. metadata-placeholder
@@ -10,27 +10,60 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-elastic_scale_filter:
-
 Elastic Scale Filter
 ====================
 
-This effect/filter allows to scale the video sources non-linearly.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-elastic_scale_filter.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-elastic_scale_filter
 
-   Elastic Scale Filter effect
+.. sidebar:: |kdenlive-show-video| Elastic Scale Filter
 
-* **Center** - Horizontal center position of the linear area
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      elastic_scale
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Linear Width** - Width of the linear area
+.. rst-class:: clear-both
 
-* **Linear Scale Factor** - Amount how much the linear area is scaled
 
-* **Non-Linear Scale Factor** - Amount how much the outer left and outer right areas are scaled non linearly
+.. rubric:: Description
+
+This effect/filter allows to scale the video sources non-linearly.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Center
+     - Float
+     - Horizontal center position of the linear area
+   * - Linear Width
+     - Float
+     - Width of the linear area
+   * - Linear Scale Factor
+     - Float
+     - Amount how much the linear area is scaled
+   * - Non-Linear Scale Factor
+     - Float
+     - Amount how much the outer left and outer right areas are scaled non linearly

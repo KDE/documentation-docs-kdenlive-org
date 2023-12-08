@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using threshold effect
+   :description: Kdenlive Video Effects - Threshold
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, threshold
 
 .. metadata-placeholder
@@ -14,33 +14,61 @@
    :license: Creative Commons License SA 4.0
 
 
+Threshold
+=========
+
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-threshold.webp
+   :width: 365px
+   :figwidth: 365px
+   :align: left
+   :alt: kdenlive2304_effects-threshold
+
+.. sidebar:: |kdenlive-show-video| Threshold\ [1]_
+
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      threshold0r
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter thresholds a source image.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Threshold
+     - Integer
+     - Set the threshold in a range from 0 (white) to 1000 (black)
+
+
+----
+
 .. |threshold0r| raw:: html
 
    <a href="https://mltframework.org/plugins/FilterFrei0r-threshold0r/" target="_blank">frei0r.threshold0r</a>
 
 
-.. _effects-threshold:
-
-Threshold
-=========
-
-This effect/filter thresholds a source image.
-
-The effect has keyframes.
-
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-threshold.webp
-   :width: 400px
-   :figwidth: 400px
-   :align: left
-   :alt: kdenlive2304_effects-threshold>
-
-   Threshold effect
-
-* **Threshold** - Set the threshold in a range from 0 (white) to 1000 (black)
-
-.. rst-class:: clear-both
-
-
-**Note**
-
-This is the |threshold0r| filter that used to be called *threshold0r* in the Kdenlive video effects list.
+.. [1] This is the |threshold0r| filter that used to be called *threshold0r* in the Kdenlive video effects list.

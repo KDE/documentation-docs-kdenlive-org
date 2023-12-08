@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using stereoscopic 3D effect
+   :description: Kdenlive Video Effects - Stereoscopic 3D 
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, VR360 and 3D, stereoscopic 3D
 
 .. metadata-placeholder
@@ -10,36 +10,68 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-stereoscopic_3d:
-
 Stereoscopic 3D
 ===============
 
-This effect/filter converts between different stereoscopic image formats.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-stereoscopic_3d.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-stereoscopic_3d
 
-   Stereoscopic 3D effect
+.. sidebar:: |kdenlive-show-video| Stereoscopic 3D
 
-* **Input format** - Set the input format. Options see below.
-
-* **Output format** - Set the output format. Options see below.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      stereo3d
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. rubric:: Input format
+.. rubric:: Description
+
+This effect/filter converts between different stereoscopic image formats.
+
+
+.. rubric:: Parameters
 
 .. list-table::
-   :width: 80%
+   :header-rows: 1
+   :width: 100%
+   :widths: 30 10 60
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Input format
+     - Selection
+     - Set the input format
+   * - Output format
+     - Selection
+     - Set the output format
+
+
+The following selection items are available:
+
+:guilabel:`Input format`
+
+.. list-table::
+   :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - Value
      - Description
@@ -62,14 +94,14 @@ The effect does not have keyframes.
 
 \*) default
 
-|
 
-.. rubric:: Output format
+:guilabel:`Output format`
 
 .. list-table::
-   :width: 80%
+   :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - Value
      - Description

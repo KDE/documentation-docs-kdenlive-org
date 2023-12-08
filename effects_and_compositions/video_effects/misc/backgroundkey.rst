@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using backgroundkey effect
+   :description: Kdenlive Video Effects - Backgroundkey
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, misc, miscellaneous, backgroundkey
 
 .. metadata-placeholder
@@ -10,25 +10,57 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-backgroundkey:
-
 Backgroundkey
 =============
 
-This effect/filter turns a static background into transparency.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-backgroundkey.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-backgroundkey
 
-   Backgroundkey effect
+.. sidebar:: |kdenlive-show-video| Backgroundkey
 
-* **av.threshold** - Threshold for scene change detection
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      backgroundkey
+   :**Available**:
+      |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **av.similarity** - Similarity percentage with the background
+.. rst-class:: clear-both
 
-* **av.blend** - Sets the blend amount for pixels that are not similar
+
+.. rubric:: Description
+
+This effect/filter turns a static background into transparency.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - av.threshold
+     - Float
+     - Threshold for scene change detection
+   * - av.similarity
+     - Float
+     - Similarity percentage with the background
+   * - av.blend
+     - Float
+     - Sets the blend amount for pixels that are not similar

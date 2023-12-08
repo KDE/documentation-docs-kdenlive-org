@@ -45,11 +45,11 @@ The button |view-preview| labeled 1 toggles File Preview on and off (applies to 
 
 The slider labeled 2 adjusts the size of the preview icons. 
 
-Checkbox :guilabel:`Import image sequence` (labeled 3) enables the import of a series of images that can be used to make a stop motion animation.
+Checkbox :guilabel:`Import image sequence` (3) enables the import of a series of images that can be used to make a stop motion animation.
 
 .. .. versionadded:: 21.12
 
-Checkbox :guilabel:`Ignore subfolder structure` (labeled 4) enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
+Checkbox :guilabel:`Ignore subfolder structure` (4) enables import video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders or Zoom audio recorders.
 
 You can add other types of clips by choosing a clip type from the menu brought up from the drop down button next to the |kdenlive-add-clip| button.
 
@@ -63,7 +63,7 @@ You can add other types of clips by choosing a clip type from the menu brought u
 Color clips
 -----------
 
-:guilabel:`Add Color Clip...`: Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place titles.
+:guilabel:`Add Color Clip`: Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place titles.
 
 Add color clips by choosing :menuselection:`Add Color Clip` from the drop down button next to the |kdenlive-add-clip| button.
 
@@ -98,7 +98,7 @@ Image Sequence clips
 
 :guilabel:`Folder`: Browse to the location of the images which will make up your image sequence and select the first image. The subsequent images that are to be used in the slide show will be selected based on some sort of filename algorithm that predicts what the next image file name should be.
 
-:guilabel:`Frame Duration`: Select an appropriate frame duration – this defines how long each image be displayed.
+:guilabel:`Frame Duration`: Select an appropriate frame duration - this defines how long each image be displayed.
 
 :guilabel:`Loop`: When enabled you can lengthen the image sequence clip in the timeline by dragging.
 
@@ -132,9 +132,9 @@ Create Animation
 
 For editing animation clip in the timeline see :ref:`here <edit_an-animation>`. 
 
-Kdenlive supports `Json` (Lottie animations) and `rawr` (Glaxnimate animation) animation.
+Kdenlive supports :file:`Json` (Lottie animations) and :file:`rawr` (Glaxnimate animation) animation.
 
-`Json` and `rawr` files contains an alpha channel so the imported animations have a background which is not visible.
+:file:`Json` and :file:`rawr` files contains an alpha channel so the imported animations have a background which is not visible.
 
 If Glaxnimate is not installed on your computer following message pops-up:
 
@@ -183,7 +183,7 @@ See also the :ref:`project_settings` page.
    :width: 210px
    :alt: Proxy_clip_creation
 
-As soon as proxy clips are enabled, they can be generated for specific project clips in the Project Bin widget via the context menu :menuselection:`Proxy Clip`. After you select :menuselection:`Proxy Clip` for a clip, a job will start to create the clip. You can view the progress of this job by looking at the little gray progress bar that appears at the bottom of the clip in the Project Bin – see picture. Clicking :menuselection:`Proxy Clip` again disables the proxy for this clip.
+As soon as proxy clips are enabled, they can be generated for specific project clips in the Project Bin widget via the context menu :menuselection:`Proxy Clip`. After you select :menuselection:`Proxy Clip` for a clip, a job will start to create the clip. You can view the progress of this job by looking at the little gray progress bar that appears at the bottom of the clip in the Project Bin - see picture. Clicking :menuselection:`Proxy Clip` again disables the proxy for this clip.
 
 You can multi-select clips in the Project Bin and select :menuselection:`Proxy Clip` to start a batch proxy clip generation job which will queue up multiple proxy clip generation jobs.
 
@@ -242,7 +242,7 @@ The :menuselection:`Properties` tab displays advanced properties of the clip whe
 
     * Field order
 
-    * Disable autorotate
+    * Disable auto-rotate
 
     * Threads
 
@@ -250,7 +250,7 @@ The :menuselection:`Properties` tab displays advanced properties of the clip whe
 
     * Audio stream
 
-    * Colorspace
+    * Color space
 
     * :doc:`/more_information/earlier_versions/full_luma`
 
@@ -267,9 +267,9 @@ Audio properties
    :width: 340px
    :alt: Audio-properties
 
-For each channel [1]_ you can adjust:
+For each channel\ [1]_ you can adjust:
 
-1. Choose which audio channel [1]_ should be enabled or disabled. Rename with double click.
+1. Choose which audio channel\ [1]_ should be enabled or disabled. Rename with double click.
 2. Normalize the channel
 3. Swap the channels
 4. Copy a channel on the other one
@@ -315,7 +315,7 @@ Analysis
    :align: left
    :alt: Kdenlive_Clip_properties_analysis
 
-You can view and delete motion vector data that is associated with the clip from here. This is data created by :ref:`effects-motion_tracker`
+You can view and delete motion vector data that is associated with the clip from here. This is data created by :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker`
 
 Button 1 Will delete the selected analysis data, Button 2 will allow you to export the data (semi colon delimited text file), Button 3 will allow you to import analysis data.
 
@@ -337,7 +337,7 @@ This generates a counter timer clip in various formats which you can put onto th
 
 You can choose to have the clip count up by checking that option, otherwise it will count down by default. The :guilabel:`No Background` option will remove the background from the counter leaving only the grey background without the lines.
 
-To change the size and position of the clip, you can add an effect to the clip on the timeline such as the :ref:`effects-position_and_zoom` or the :ref:`effects-transform`.
+To change the size and position of the clip, you can add an effect to the clip on the timeline such as the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/position_and_zoom` or the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform`.
 
 
 .. rst-class:: clear-both
@@ -350,7 +350,7 @@ White Noise
   :width: 400px
   :alt: Kdenlive_Noize_generator
 
-This generates a video noise clip – like the "snow" on an out-of-tune analogue TV.
+This generates a video noise clip - like the "snow" on an out-of-tune analogue TV.
 In ver 17.04 it generates audio white noise as well as video snow.
 
 

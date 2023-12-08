@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using letterb0xed effect
+   :description: Kdenlive Video Effects - Letterb0xed
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, letterb0xed
 
 .. metadata-placeholder
@@ -10,27 +10,57 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-letterb0xed:
-
 LetterB0xed
 ===========
 
-This filter/effect adds black borders at the top and bottom for this Cinema look.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-letterb0xed.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-letterb0xed
 
-   LetterB0xed effect
+.. sidebar:: |kdenlive-show-video| LetterB0xed
 
-* **Transparency** - Makes the black borders transparent
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      letterb0xed
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Border Width** - Set the border width in pixel
+.. rst-class:: clear-both
 
+
+.. rubric:: Description
+
+This filter/effect adds black borders at the top and bottom for this cinematic look.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Transparency
+     - Switch
+     - Makes the black borders transparent
+   * - Border Width
+     - Integer
+     - Set the border width in pixel
 
 
 .. https://youtu.be/9Ldjt0QZPzs

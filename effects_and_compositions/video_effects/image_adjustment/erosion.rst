@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using erosion effect
+   :description: Kdenlive Video Effects - Erosion
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, image adjustment, erosion
 
 .. metadata-placeholder
@@ -10,23 +10,54 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-erosion:
-
 Erosion
 =======
 
-This effect/filter replaces the pixel by the local(3x3) minimum giving the source image an erosion effect.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-erosion.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-erosion
 
-   Erosion effect
+.. sidebar:: |kdenlive-show-video| Erosion
 
-* **1st / 2nd / 3rd / 4th Plane Threshold** - Limits the maximum change for each :term:`plane`, default is 50. If 0, plane will remain unchanged.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      erosion
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Coordinates** - Flag which specifies the pixel to refer to. Default is 255, i.e. all eight pixels are used.
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
+This effect/filter replaces the pixel by the local(3x3) minimum giving the source image an erosion effect.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - 1st / 2nd / 3rd / 4th Plane Threshold
+     - Integer
+     - Limits the maximum change for each :term:`plane`, default is 50. If 0, plane will remain unchanged.
+   * - Coordinates
+     - Integer
+     - Flag which specifies the pixel to refer to. Default is 255, i.e. all eight pixels are used.

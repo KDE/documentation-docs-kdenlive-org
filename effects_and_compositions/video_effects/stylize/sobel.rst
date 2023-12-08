@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using sobel effect
+   :description: Kdenlive Video Effects - Sobel
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, sobel
 
 .. metadata-placeholder
@@ -10,34 +10,46 @@
    :license: Creative Commons License SA 4.0
 
 
-.. |sobel| raw:: html
-
-   <a href="https://en.wikipedia.org/wiki/Sobel_operator" target="_blank">Sobel operator</a>
-
-
-.. _effects-sobel:
-
 Sobel
 =====
 
-This effect/filter is an edge detection filter using the Sobel operator\ [1]_. Compare :ref:`effects-kirsch`, :ref:`effects-prewitt` and :ref:`effects-roberts` effects.
-
-The effect works like a switch, and does not have any parameters or keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-sobel.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-sobel
 
-   Sobel effect
+.. sidebar:: |kdenlive-show-video| Sobel
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      sobel
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-**Notes**
+.. rubric:: Description
+
+This effect/filter is an edge detection filter using the Sobel operator\ [1]_. Compare :doc:`/effects_and_compositions/video_effects/stylize/kirsch`, :doc:`/effects_and_compositions/video_effects/stylize/prewitt` and :doc:`/effects_and_compositions/video_effects/stylize/roberts` effects.
+
+
+----
+
+.. |sobel| raw:: html
+
+   <a href="https://en.wikipedia.org/wiki/Sobel_operator" target="_blank">Sobel operator</a>
+
 
 .. [1] For more details refer to the |sobel| article in Wikipedia
 

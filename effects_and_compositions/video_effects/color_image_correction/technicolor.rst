@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using technicolor effect
+   :description: Kdenlive Video Effects - Technicolor
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, technicolor
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
@@ -13,30 +13,59 @@
    <a href="https://en.wikipedia.org/wiki/Technicolor#/media/File:Gentlemen_Prefer_Blondes_Movie_Trailer_Screenshot_(34).jpg" target="_blank">Gentlemen Prefer Blondes</a>
 
 
-.. _effects-technicolor:
-
 Technicolor
 ===========
 
-This effect/filter over-saturates the color in the video source and gives it the old Technicolor film appearance\ [1]_.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-technicolor.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-technicolor
 
-   Technicolor effect
+.. sidebar:: |kdenlive-show-video| Technicolor
 
-* **Blue/Yellow axis** - Adjust the factor for the Blue/Yellow axis. Allowed values are from -400 to 400, default is 190.
-
-* **Red/Green axis** - Adjust the factor for the Red/Green axis. Allowed values are from -400 to 400, default is 190.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      tcolor
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-**Notes**
+.. rubric:: Description
+
+This effect/filter over-saturates the color in the video source and gives it the old Technicolor film appearance\ [1]_.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Blue/Yellow axis
+     - Integer
+     - Adjust the factor for the Blue/Yellow axis. Allowed values are from -400 to 400, default is 190.
+   * - Red/Green axis
+     - Integer
+     - Adjust the factor for the Red/Green axis. Allowed values are from -400 to 400, default is 190.
+
+
+----
 
 .. [1] See this still from |gentlemen_prefer_blondes| in Wikipedia as an example of Technicolor filming.

@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using chroma shift effect
+   :description: Kdenlive Video Effects - Chroma Shift
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, chroma shift
 
 .. metadata-placeholder
@@ -10,29 +10,77 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-chroma_shift:
-
 Chroma Shift
 ============
 
-This effect/filter shifts chroma pixels horizontally and/or vertically similar to the Tik Tok logo effect. Compare :ref:`effects-rgba_shift` and :ref:`effects-rgbsplit0r` effects.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-chroma_shift.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-chroma_shift
 
-   Chroma Shift effect
+.. sidebar:: |kdenlive-show-video| Chroma Shift
 
-* **Chroma-blue H shift** - Set amount to shift chroma-blue horizontally
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      chromashift
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Chroma-blue V shift** - Set amount to shift chroma-blue vertically
+.. rst-class:: clear-both
 
-* **Chroma-red H shift** - Set amount to shift chroma-red horizontally
 
-* **Chroma-red V shift** - Set amount to shift chroma-red vertically
+.. rubric:: Description
 
-* **Edge mode** - Set edge mode determining what happens to pixels when shifted outside the frame. Options are **Smear** (default) or **Warp**.
+This effect/filter shifts chroma pixels horizontally and/or vertically similar to the Tik Tok logo effect. Compare :doc:`/effects_and_compositions/video_effects/stylize/rgba_shift` and :doc:`/effects_and_compositions/video_effects/stylize/rgbsplit0r` effects.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Chroma-blue H shift
+     - Integer
+     - Set amount to shift chroma-blue horizontally
+   * - Chroma-blue V shift
+     - Integer
+     - Set amount to shift chroma-blue vertically
+   * - Chroma-red H shift
+     - Integer
+     - Set amount to shift chroma-red horizontally
+   * - Chroma-red V shift
+     - Integer
+     - Set amount to shift chroma-red vertically
+   * - Edge mode
+     - Selection
+     - Set edge mode determining what happens to pixels when shifted outside the frame
+
+The following selection items are available:
+
+:guilabel:`Edge mode`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Smear
+     - Shifted pixel leave a trail (default)
+   * - Wrap
+     - Shifted pixels wrap around the image and appear on the opposite side

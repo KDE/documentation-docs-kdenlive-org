@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using the brightness (keyframable) effect
+   :description: Kdenlive Video Effects - Brightness (keyframable)
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, brightness (keyframable)
 
    :authors: - Claus Christensen
@@ -8,7 +8,7 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Mmaguire (https://userbase.kde.org/User:Mmaguire)
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -18,27 +18,56 @@
    <a href="https://www.mltframework.org/plugins/FilterBrightness/" target="_blank">brightness</a>
 
 
-.. _effects-brightness_2:
-
 Brightness (keyframable)
 ========================
 
-This effect adjusts the brightness of the clip. Intensity values range from 0 (completely dark) to 400 (bright colors)
-
-This effect has keyframes.
-
-This is the |brightness| MLT filter.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-brightness_2.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-brightness_2
 
-   Brightness (keyframable) effect
+.. sidebar:: |kdenlive-show-video| Brightness (keyframable)
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      MLT
+   :**Source filter**:
+      |brightness|
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-.. note:: This brightness effect works differently than the :ref:`effects-brightness` effect. At full intensity (400) the clip is not glaringly bright (or white) but just has bright colors.
+
+.. rubric:: Description
+
+This effect adjusts the brightness of the clip.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Intensity
+     - Integer
+     - Sets the brightness of the clip. Values range from 0 (completely dark) to 400 (bright colors)
+
+.. rst-class:: clear-both
+
+.. note:: 
+   This brightness effect works differently than the :doc:`/effects_and_compositions/video_effects/color_image_correction/brightness` effect. At full intensity (400), the clip is not glaringly bright (or white) but just has bright colors.

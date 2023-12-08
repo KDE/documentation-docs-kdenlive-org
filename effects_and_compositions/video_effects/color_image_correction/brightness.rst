@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using the brightness effect
+   :description: Kdenlive Video Effects - Brightness
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, brightness
 
    :authors: - Claus Christensen
@@ -8,37 +8,66 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Mmaguire (https://userbase.kde.org/User:Mmaguire)
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
 
 .. |frei0r_brightness| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-brightness/" target="_blank">frei0r.brightness</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-brightness/" target="_blank">brightness</a>
 
-
-.. _effects-brightness:
 
 Brightness
 ==========
 
-This effect adjusts the brightness of the clip. Values range from 0 (completely dark) to 1000 (glaringly bright).
-
-This effect has keyframes.
-
-This is the |frei0r_brightness| MLT filter.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-brightness.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-brightness
 
-   Brightness effect
+.. sidebar:: |kdenlive-show-video| Brightness
 
-..
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      |frei0r_brightness|
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-.. note:: This brightness effect works differently than the :ref:`Brightness (keyframable) <effects-brightness_2>` effect.
+
+.. rubric:: Description
+
+This effect adjusts the brightness of the clip.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Brightness
+     - Integer
+     - Sets the brightness of the clip. Values range from 0 (completely dark) to 1000 (glaringly bright).
+
+.. rst-class:: clear-both
+
+.. note:: 
+   This brightness effect works differently than the :doc:`/effects_and_compositions/video_effects/color_image_correction/brightness_keyframable` effect.

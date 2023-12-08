@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using shear effect
+   :description: Kdenlive Video Effects - Shear
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, shear
 
 .. metadata-placeholder
@@ -15,32 +15,80 @@
    <a href="link_URI" target="_blank">link_text</a>
 
 
-.. _effects-shear:
-
 Shear
 =====
+
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-shear.webp
+   :width: 365px
+   :figwidth: 365px
+   :align: left
+   :alt: kdenlive2304_effects-shear
+
+.. sidebar:: |kdenlive-show-video| Shear
+
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      shear
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      Yes (see warning)
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
 
 This effect/filter applies a shear transformation to the clip.
 
 The effect has keyframes but only for the :guilabel:`Background fill color`.
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-shear.webp
-   :width: 400px
-   :figwidth: 400px
-   :align: left
-   :alt: kdenlive2304_effects-shear
 
-   Shear effect
+.. rubric:: Parameters
 
-* **X shear factor** - Set the shear factor. Range is from -2 to 2.
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
 
-* **Y shear factor** - Set the shear factor. Range is from -2 to 2.
+   * - Parameter
+     - Value
+     - Description
+   * - X shear factor
+     - Integer
+     - Set the shear factor. Range is from -2 to 2.
+   * - Y shear factor
+     - Integer
+     - Set the shear factor. Range is from -2 to 2.
+   * - Interpolation mode
+     - Selection
+     - Set the interpolation mode
+   * - Background fill color
+     - Picker
+     - Set the background fill color if the shear reveals the background. Default is **black**
 
-* **Interpolation mode** - Set the interpolation mode. Options are **Nearest** (default) and **Bilinear**.
+The following selection items are available:
 
-* **Background fill color** - Set the background fill color if the shear reveals the background. Default is **black**.
+:guilabel:`Interpolation mode`
 
-.. rst-class:: clear-both
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Nearest
+     - default
+   * - Bilinear
+     - 
 
 
-.. note:: As of this writing and version 23.04 the shear parameters are integer values, not float, hence the very much limited use of the effect. A bug report has been created. Until this is fixed use the :ref:`effects-rotate_and_shear` effect.
+.. warning:: 
+   As of this writing and version 23.04 the shear parameters are integer values, not float, hence the very much limited use of the effect. A bug report has been created. Until this is fixed use the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/rotate_and_shear` effect.

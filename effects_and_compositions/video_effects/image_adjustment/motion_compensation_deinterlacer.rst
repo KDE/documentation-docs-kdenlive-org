@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using motion compensation deinterlacer effect
+   :description: Kdenlive Video Effects - Motion Compensation Deinterlacer
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, image adjustment, motion compensation deinterlacer
 
 .. metadata-placeholder
@@ -10,27 +10,89 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-motion_compensation_deinterlacer:
-
 Motion Compensation Deinterlacer
 ================================
 
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-motion_compensation_deinterlacer.webp
+   :width: 365px
+   :figwidth: 365px
+   :align: left
+   :alt: Motion Compensation Deinterlacer effect
+
+.. sidebar:: |kdenlive-show-video| Motion Compensation Deinterlacer
+
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      No
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      mcdeint
+   :**Available**:
+      |linux| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
+
+.. rst-class:: clear-both
+
+
+.. rubric:: Description
+
 This effect/filter applies motion-compensation deinterlacing.
 
-It needs one field per frame as input and must thus be used together with yadif=1/3 or equivalent.
+It needs one field per frame as input and must thus be used together with ``yadif=1/3`` or equivalent.
 
-The effect does not have keyframes.
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-motion_compensation_deinterlacer.webp
-   :width: 400px
-   :figwidth: 400px
-   :align: left
-   :alt: kdenlive2304_effects-motion_compensation_deinterlacer
+.. rubric:: Parameters
 
-   Motion Compensation Deinterlacer effect
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 23 10 67
+   :class: table-wrap
 
-* **Mode** - Sets the deinterlacing mode. Options are **Fast**, **Medium** (default) and **Slow** for iterative motion estimation, **Extra_slow** like **Slow** but using multiple reference frames.
+   * - Parameter
+     - Value
+     - Description
+   * - Mode
+     - Selection
+     - Sets the deinterlacing mode
+   * - Picture field parity
+     - Selection
+     - Sets the picture field parity assumed for the input video
+   * - QP
+     - Switch
+     - Sets the per-block quantizing parameter (QP) used by the internal encoder. Higher values should result in a smoother motion vector field but less optimal individual vectors. Default value is 1.
 
-* **Picture field parity** - Sets the picture field parity assumed for the input video. Options are **Top field first** and **Bottom field first**.
+The following selection items are available:
 
-**QP** - Sets the per-block quantizing parameter (QP) used by the internal encoder. Higher values should result in a smoother motion vector field but less optimal individual vectors. Default value is 1.
+:guilabel:`Mode`
+
+.. list-table::
+   :width: 100%
+   :widths: 23 77
+   :class: table-simple
+
+   * - Fast
+     - Iterative motion estimation
+   * - Medium
+     - Iterative motion estimation (default)
+   * - Slow
+     - Iterative motion estimation
+   * - Extra_slow
+     - Iterative motion estimation using multiple reference frames
+
+:guilabel:`Picture field parity`
+
+.. list-table::
+   :width: 100%
+   :widths: 23 77
+   :class: table-simple
+
+   * - Top field first
+     - 
+   * - Bottom field first
+     - 

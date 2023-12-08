@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using sobel with planes effect
+   :description: Kdenlive Video Effects - Sobel with Planes
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, sobel with planes
 
 .. metadata-placeholder
@@ -10,25 +10,85 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-sobel_planes:
-
 Sobel with Planes
 =================
 
-This effect/filter is the same as the :ref:`effects-sobel` effect but has parameters for more control. Compare :ref:`effects-kirsch`, :ref:`effects-prewitt` and :ref:`effects-roberts` effects.
-
-The effect does not have keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-sobel_planes.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-sobel_planes
 
-   Sobel with Planes effect
+.. sidebar:: |kdenlive-show-video| Sobel with Planes
 
-* **Planes** - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied. Default is **YUV**.
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      sobel
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **Scale** - Set value which will be multiplied with filtered result
+.. rst-class:: clear-both
 
-* **Delta** - Set value which will be added to filtered result
+
+.. rubric:: Description
+
+This effect/filter is the same as the :doc:`/effects_and_compositions/video_effects/stylize/sobel` effect but has parameters for more control. Compare :doc:`/effects_and_compositions/video_effects/stylize/kirsch`, :doc:`/effects_and_compositions/video_effects/stylize/prewitt` and :doc:`/effects_and_compositions/video_effects/stylize/roberts` effects.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Planes
+     - Selection
+     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied.
+   * - Scale
+     - Integer
+     - Set value which will be multiplied with filtered result
+   * - Delta
+     - Integer
+     - Set value which will be added to filtered result
+
+The following selection items are available:
+
+:guilabel:`Planes`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - None
+     - 
+   * - Y
+     - 
+   * - U
+     - 
+   * - YU
+     - 
+   * - V
+     - 
+   * - YV
+     - 
+   * - UV
+     - 
+   * - YUV
+     - Default
+   * - Alpha
+     - 

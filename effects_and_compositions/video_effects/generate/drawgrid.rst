@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using draw grid effect
+   :description: Kdenlive Video Effects - Draw Grid
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, generate, draw grid
 
 .. metadata-placeholders
@@ -10,36 +10,67 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-draw_grid:
-
 Draw Grid
 =========
 
-This effect/filter draws a colored grid on the input video.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-draw_grid.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-draw_grid
 
-   Draw Grid effect
+.. sidebar:: |kdenlive-show-video| Draw Grid
 
-* **X / Y Offset** - Defines the starting point of the grid in pixels from the top left-hand corner of the monitor (coordinates are based on the project dimension settings)
-
-* **Width** - Defines the distance between vertical grid lines in pixels
-
-* **Height** - Defines the distance between horizontal grid lines in pixels
-
-* **Thickness** - Defines the thickness of the lines in pixels
-
-* **Color** - Defines the color for the grid
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      avfilter
+   :**Source filter**:
+      drawgrid
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
 
-.. note:: As of this writing and in version 23.04.2 the color parameter is being ignored and black is used.
+.. rubric:: Description
 
-.. hint:: This effect can be used in combination with the :ref:`effects-chroma_key_basic` or :ref:`effects-chroma_key_advanced` effects to create interesting transitions by animating the number of grid lines and their thickness.
+This effect/filter draws a colored grid on the input video.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 20 10 70
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - X / Y
+     - Integer
+     - Defines the starting point of the grid in pixels from the top left-hand corner of the monitor (coordinates are based on the project dimension settings)
+   * - Width
+     - Integer
+     - Defines the distance between vertical grid lines in pixels
+   * - Height
+     - Integer
+     - Defines the distance between horizontal grid lines in pixels
+   * - Thickness
+     - Integer
+     - Defines the thickness of the line in pixels. If set high enough the grid is filled.
+   * - Color
+     - Picker
+     - Defines the color for the grid
+
+
+.. hint:: 
+   This effect can be used in combination with the :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key` or :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key_advanced` effects to create interesting transitions by animating the number of grid lines and their thickness.

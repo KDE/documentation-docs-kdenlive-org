@@ -105,11 +105,12 @@ The RGB Parade reveals two things at first glance. You will at least recognize t
 
 - The white balance is wrong. This can be told for sure. The ceiling is white in reality. And the left-most quarter of the image consists exclusively of the ceiling. This part should look equal in the RGB Parade, but when e.g. comparing Red to Blue, you see that Red starts at 19 whereas Blue starts at 0. Furthermore, the Blue channel is much more compressed. Its height in this area is 25, whereas the height of the Red channel is about 50.
 
-To achieve proper white balance here we make use of a new effect called :ref:`SOP/Sat <effects-sop_sat>`. :ref:`Curves <effects-curves>` would work as well (actually curves could do everything), but let's use a new effect here.
+To achieve proper white balance here we make use of a new effect called :doc:`/effects_and_compositions/video_effects/color_image_correction/sat`. :doc:`/effects_and_compositions/video_effects/color_image_correction/curves` would work as well (actually curves could do everything), but let's use a new effect here.
 
 The first thing to decide is how bright the darkest spot should be. This can be controlled with the :guilabel:`Offset` parameter. Reference is again the left part of the Parades, the soon-to-be white ceiling. You can use your mouse to make the Waveform or RGB Parade draw a horizontal line and display the value there. All channels were lifted to around 50 in this example:
 
-.. note:: The :ref:`effects-sop_sat` uses a different scale than the RGP Parade :term:`widget`. The lifting of the channels refers to the RGB Parade scale (0...255) as one can see in the :guilabel:`Min` in the RGB Parade display. The idea is to lift the channels so that their bottoms are aligned.
+.. note::
+   The :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` uses a different scale than the RGP Parade :term:`widget`. The lifting of the channels refers to the RGB Parade scale (0...255) as one can see in the :guilabel:`Min` in the RGB Parade display. The idea is to lift the channels so that their bottoms are aligned.
 
 .. .. image:: /images/kdenlive-colorscopes-rgbparade-fluorescent-offset.png
 
@@ -117,7 +118,7 @@ The first thing to decide is how bright the darkest spot should be. This can be 
    :width: 650px
    :alt: kdenlive2308_waveform_rgb_parade_05.webp
 
-   Using the :ref:`effects-sop_sat` to change the color tone
+   Using the :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` to change the color tone
 
 Second step is stretching the channels. This is done with the :guilabel:`Slope` sliders. The goal is again to find a neutral spot in the RGB Parade and use it as reference. We could again use the ceiling on the left, but after some testing it turned out that the little wave in the middle of the scope works as well. Its advantage is that it is slightly brighter than the ceiling allowing to correct the color cast more precisely.
 
@@ -127,7 +128,7 @@ Second step is stretching the channels. This is done with the :guilabel:`Slope` 
    :width: 650px
    :alt: kdenlive2308_waveform_rgb_parade_06.webp
 
-   Using the :ref:`effects-sop_sat` to adjust white balance
+   Using the :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` to adjust white balance
 
 And voilà, exposure and white balance are corrected.
 
@@ -203,9 +204,10 @@ RGB Parade Options
 
 - *Gradient reference line* (Context menu) - Draws a line from bottom left to top right. This is useful when testing color correction on a linear gradient clip (Black on the left, White on the right), to observe changes in each channels.
 
-To explain the last point a little more in detail: A black/white gradient draws a line from the bottom left to top right on the Waveform. When changing the colors, e.g. with the :ref:`SOP/Sat <effects-sop_sat>` effect or with :ref:`Curves <effects-curves>`, the line will change.
+To explain the last point a little more in detail: A black/white gradient draws a line from the bottom left to top right on the Waveform. When changing the colors, e.g. with the :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` effect or with :doc:`/effects_and_compositions/video_effects/color_image_correction/curves`, the line will change.
 
-.. attention:: Effects working on the saturation will not have any effect on a grayscale gradient!
+.. attention::
+   Effects working on the saturation will not have any effect on a grayscale gradient!
 
 .. .. image:: /images/kdenlive-colorscopes-waveform-gradient.png
 
@@ -213,9 +215,9 @@ To explain the last point a little more in detail: A black/white gradient draws 
    :width: 650px
    :alt: kdenlive2308_waveform_rgb_parade_11.webp
 
-   Playing with the :ref:`effects-sop_sat` and a gradient
+   Playing with the :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` and a gradient
 
-In this gradient above a :ref:`SOP/Sat <effects-sop_sat>` effect was applied to give the blacks a blueish touch and the mids and highs a warm touch. You can play around with the gradient file and some color correction effects on the gradient file as well. What the above is good for will be in the next part.
+In this gradient above a :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` effect was applied to give the blacks a blueish touch and the mids and highs a warm touch. You can play around with the gradient file and some color correction effects on the gradient file as well. What the above is good for will be in the next part.
 
 
 .. rubric:: Summary
