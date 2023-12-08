@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, using VR360 transform effect
+   :description: Kdenlive Video Effects - VR360 Transform
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, VR360 and 3D, VR360 transform
 
 .. metadata-placeholder
@@ -10,27 +10,75 @@
    :license: Creative Commons License SA 4.0
 
 
-.. _effects-vr360_transform:
-
 VR360 Transform
 ===============
 
-This effect/filter rotates a panoramic image.
-
-The effect has keyframes.
-
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_transform.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 365px
+   :figwidth: 365px
    :align: left
    :alt: kdenlive2304_effects-vr360_transform
 
-   VR360 Transform effect
+.. sidebar:: |kdenlive-show-video| VR360 Transform
 
-* **Interpolation** - Select from **Nearest-Neighbor** (default) and **Bilinear**
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      frei0r
+   :**Source filter**:
+      bigsh0t_transform_360
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
-* **yaw** - Defines the direction of view left or right
+.. rst-class:: clear-both
 
-* **pitch** - Defines the direction of view up or down
 
-* **roll** - Defines the direction of view like tilting your head left or right
+.. rubric:: Description
+
+This effect/filter rotates a panoramic image.
+
+
+.. rubric:: Parameters
+
+.. list-table::
+   :header-rows: 1
+   :width: 100%
+   :widths: 25 10 65
+   :class: table-wrap
+
+   * - Parameter
+     - Value
+     - Description
+   * - Interpolation
+     - Selection
+     - Choose the interpolation algorithm
+   * - yaw
+     - Integer
+     - Defines the direction of view left or right
+   * - pitch
+     - Integer
+     - Defines the direction of view up or down
+   * - roll
+     - Integer
+     - Defines the direction of view like tilting your head left or right
+
+
+The following selection items are available:
+
+:guilabel:`Interpolation`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - Nearest-Neighbor
+     - default
+   * - Bilinear
+     - 
