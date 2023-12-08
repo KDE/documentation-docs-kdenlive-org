@@ -217,7 +217,7 @@ Glossary
       Belong to the clip they have been created in/for and move with it. Changes to a marker apply to all copies of the clip in the timeline. See :ref:`markers`.
 
    Mask
-      An area to block out parts of an image. Can be used to apply an effect only to the masked area (see :ref:`effects-mask_apply`) or to have an underlying clip show through (see :ref:`effects-rotoscoping`, :ref:`effects-alpha_shapes`, :ref:`effects-shape_alpha` and :ref:`effects-rectangular_alpha_mask`).
+      An area to block out parts of an image. Can be used to apply an effect only to the masked area (see :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/mask_apply`) or to have an underlying clip show through (see :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping`, :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes`, :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/shape_alpha` and :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rectangular_alpha_mask`).
 
    Master
    Master Effect
@@ -404,7 +404,7 @@ Glossary
       Color space used by the analog NTSC color TV system. For more details see the Wikipedia page about |yiq|.
 
    YPbPr
-      A color space used in video electronics. Also written as Y'PbPr or YP\ :sub:`B`\ P\ :sub:`R`. Used in particular when refering to component video cables. For more details see the Wikipedia page about |ypbpr|.
+      A color space used in video electronics. Also written as Y'PbPr or YP\ :sub:`B`\ P\ :sub:`R`. Used in particular when referring to component video cables. For more details see the Wikipedia page about |ypbpr|.
 
    YCbCr
       A color space used for any digital encoding of YCbCr suited for video and image compression and transmission formats such as MPEG and JPEG. For more details refer to the Wikipedia page about |ycbcr|.

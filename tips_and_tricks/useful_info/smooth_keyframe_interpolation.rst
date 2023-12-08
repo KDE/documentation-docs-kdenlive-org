@@ -34,7 +34,7 @@ The Fade-In Ramp
    :width: 350px
    :figwidth: 350px
 
-   Keyframes in the :ref:`effects-brightness_2` effect
+   Keyframes in the :doc:`/effects_and_compositions/video_effects/color_image_correction/brightness_keyframable` effect
 
 Let's start with a simple ramp, as shown here. We use two keyframes\ [1]_, one with a low value setting, and the other with a high value setting. The particular values do not matter. We set both keyframes to the interpolation mode :guilabel:`smooth`.
 
@@ -87,7 +87,7 @@ Ramp-Up, and … Overshoot
    :width: 350px
    :figwidth: 350px
 
-   Keyframes in the :ref:`effects-brightness_2` effect
+   Keyframes in the :doc:`/effects_and_compositions/video_effects/color_image_correction/brightness_keyframable` effect
 
 Now let's add a third keyframe, so this looks like a ramp with a plateau. This is shown in the screenshots.
 
@@ -133,7 +133,7 @@ Ramp Up-Flat-Down
    :alt: kdenlive2308_smooth_keyframes_3a.webp
    :width: 350px
 
-   Keyframes in the :ref:`effects-brightness_2` effect
+   Keyframes in the :doc:`/effects_and_compositions/video_effects/color_image_correction/brightness_keyframable` effect
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_3b.webp
    :align: left
@@ -173,7 +173,7 @@ Make Flat Great Again
    :width: 350px
    :figwidth: 350px
 
-   Smooth keyframes in the :ref:`effects-brightness_2` effect
+   Smooth keyframes in the :doc:`/effects_and_compositions/video_effects/color_image_correction/brightness_keyframable` effect
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_4b.webp
    :align: left
