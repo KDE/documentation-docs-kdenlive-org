@@ -498,8 +498,8 @@ rst_epilog = """
    :alt: Linux
    :class: no-scaled-link
 
-.. |appimage| image:: /images/icons/appimage.png
-   :width: 18px
+.. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
    :alt: appimage
    :class: no-scaled-link
 
