@@ -28,7 +28,7 @@ VR360 Equirectangular Mask
    :**Source library**:
       frei0r
    :**Source filter**:
-      bigsh0t_q_mask\ [1]_
+      bigsh0t_eq_mask\ [1]_
    :**Available**:
       |linux| |appimage| |windows| |apple|
    :**On Master only**:

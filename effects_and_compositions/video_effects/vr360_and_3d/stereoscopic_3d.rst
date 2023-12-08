@@ -49,17 +49,17 @@ This effect/filter converts between different stereoscopic image formats.
 .. list-table::
    :header-rows: 1
    :width: 100%
-   :widths: 20 10 70
+   :widths: 30 10 60
    :class: table-wrap
 
    * - Parameter
      - Value
      - Description
    * - Input format
-     - 
+     - Selection
      - Set the input format
    * - Output format
-     - 
+     - Selection
      - Set the output format
 
 
@@ -71,6 +71,7 @@ The following selection items are available:
    :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - Value
      - Description
@@ -100,6 +101,7 @@ The following selection items are available:
    :width: 100%
    :widths: 30 70
    :header-rows: 1
+   :class: table-wrap
 
    * - Value
      - Description
