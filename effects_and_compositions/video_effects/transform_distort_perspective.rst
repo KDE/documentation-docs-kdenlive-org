@@ -1,6 +1,6 @@
 .. meta::
 
-   :description: Do your first steps with Kdenlive video editor, transform distort perspective video effects category
+   :description: Kdenlive Video Effects - Transform, Distort and Perspective video effects category
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, category, transform, distort, perspective
 
 .. metadata-placeholder
