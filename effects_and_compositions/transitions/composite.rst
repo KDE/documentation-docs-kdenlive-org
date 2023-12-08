@@ -74,7 +74,7 @@ See this :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_
 * Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key`
 * :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping`
 * Composite Transition.
-* Crop and Transform -> :ref:`effects-position_and_zoom`
+* Crop and Transform -> :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/position_and_zoom`
 * Enhancement -> :ref:`sharpen`
 * Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/alpha_operations`
 

@@ -45,7 +45,7 @@ Obscure
 
 .. rubric:: Description
 
-Hide a region of the clip by pixelizing it (obscure). The effect's pixelization cannot be adjusted and may therefore not work satisfactorily with all source material. Compare the :ref:`effects-pixelize` effect.
+Hide a region of the clip by pixelizing it (obscure). The effect's pixelization cannot be adjusted and may therefore not work satisfactorily with all source material. Compare the :doc:`/effects_and_compositions/video_effects/stylize/pixelize` effect.
 
 
 .. rubric:: Parameters
