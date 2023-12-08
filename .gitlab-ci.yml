@@ -3,7 +3,10 @@ stages:
   - test
   - deploy
 
-include: https://invent.kde.org/sysadmin/ci-utilities/raw/master/gitlab-templates/website-sphinx-app-docs.yml
+include:
+  - project: sysadmin/ci-utilities
+    file:
+      - /gitlab-templates/website-sphinx-app-docs.yml
 
 variables:
     EPUB_NAME: KdenliveManual
