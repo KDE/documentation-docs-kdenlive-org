@@ -54,11 +54,35 @@ This effect/filter maps the source image :term:`luminance` between two specified
      - Value
      - Description
    * - Map black to
-     - 
+     - Picker
      - The color to map source color with zero luminance
    * - Map white to
-     - 
+     - Picker
      - The color to map source color with full luminance
    * - Tint amount
-     - 
+     - Integer
      - Amount of color. Allowed values are from 0 to 1000, default is 250.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

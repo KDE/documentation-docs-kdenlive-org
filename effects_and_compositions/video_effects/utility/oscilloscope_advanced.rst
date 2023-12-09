@@ -46,7 +46,7 @@ Oscilloscope (advanced)
 
 .. rubric:: Description
 
-This effect/filter draws a 2D oscilloscope over the clip. It does the same as :ref:`effects-oscilloscope` but offers more parameters and features, such as drawing a line across the frame that is used for the computations.
+This effect/filter draws a 2D oscilloscope over the clip. It does the same as :doc:`/effects_and_compositions/video_effects/utility/oscilloscope` but offers more parameters and features, such as drawing a line across the frame that is used for the computations.
 
 
 .. rubric:: Parameters
@@ -105,7 +105,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - R
      - Red
@@ -127,7 +127,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - CCIR rec. 601
      - default
@@ -139,3 +139,27 @@ The following selection items are available:
 ----
 
 .. [1] RMS = Root Mean Squared. Useful when trying to measure the average "size" of numbers, where their sign is not important, as the squaring makes all numbers positive. The most common case of using the root mean square is when calculating the standard deviation of a set of numbers. For the mathematical details, refer to |rms| in undergroundmathematics.org
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

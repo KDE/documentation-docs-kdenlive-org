@@ -74,7 +74,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 23 77
-   :class: table-simple
+   :class: table-wrap
 
    * - Fast
      - Iterative motion estimation
@@ -90,9 +90,33 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 23 77
-   :class: table-simple
+   :class: table-wrap
 
    * - Top field first
-     - 
+     - default
    * - Bottom field first
      - 
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

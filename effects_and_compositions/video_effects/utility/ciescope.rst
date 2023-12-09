@@ -56,16 +56,16 @@ This effect/filter displays a CIE color diagram with overlaid input pixels.
      - Value
      - Description
    * - av.size / av.s
-     - 
+     - Integer
      - Set CIE Scope size, by default set to 512. [1]_
    * - av.intensity / av.i
-     - 
+     - Float
      - Set intensity used to map input pixel values to CIE diagram [2]_
    * - av.contrast
-     - 
+     - Float
      - Set contrast used to draw tongue colors that are out of active color system gamut
    * - av.gamma
-     - 
+     - Float
      - Correct gamma displayed on scope, by default enabled [3]_
 
 
@@ -76,3 +76,27 @@ This effect/filter displays a CIE color diagram with overlaid input pixels.
 .. [2] Only **av.i** is taken into account
 
 .. [3] At the moment this parameter has no effect
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

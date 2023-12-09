@@ -56,7 +56,7 @@ This effect/filter posterizes\ [1]_ the image by reducing the number of colors u
      - Value
      - Description
    * - Levels
-     - 
+     - Float
      - Number of values per channel
 
 
@@ -68,3 +68,27 @@ This effect/filter posterizes\ [1]_ the image by reducing the number of colors u
 
 
 .. [1] For more details about posterization refer to the |posterization| article in Wikipedia
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

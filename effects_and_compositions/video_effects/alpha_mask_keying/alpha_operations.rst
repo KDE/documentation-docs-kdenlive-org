@@ -91,7 +91,7 @@ This is intended for monitoring during adjustment mostly. After adjusting the pa
 .. list-table::
    :width: 100%
    :widths: 30 70
-   :class: table-simple
+   :class: table-wrap
 
    * - Image
      - Image after the operation  (default)
@@ -113,7 +113,7 @@ This is intended for monitoring during adjustment mostly. After adjusting the pa
 
 .. list-table::
    :width: 100%
-   :class: table-simple
+   :class: table-wrap
 
    * - NO OP
      - No operation is performed

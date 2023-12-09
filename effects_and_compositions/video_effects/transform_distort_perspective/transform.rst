@@ -85,7 +85,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Alpha blend
      - This is the default attribute which specifies no blending. The blending formula simply selects the source color.
@@ -157,3 +157,27 @@ The following selection items are available:
    .. image:: /images/effects_and_compositions/kdenlive2304_effects-transform_compositions_2.webp
    :align: left
    :alt: kdenlive2304_effects-transform_compositions_2
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

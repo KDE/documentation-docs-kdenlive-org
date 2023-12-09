@@ -57,25 +57,25 @@ This effect/filter creates a 2D video oscilloscope overlay. Useful to measure sp
      - Value
      - Description
    * - av.x / av.y
-     - 
+     - Float
      - Set scope center x / y position
    * - av.s
-     - 
+     - Float
      - Set scope size, relative to frame diagonal
    * - av.t
-     - 
+     - Float
      - Set scope tilt/rotation
    * - av.o
-     - 
+     - Float
      - Set scope opacity
    * - av.tx / av.ty
-     - 
+     - Float
      - Set trace center x /y position
    * - av.tw / av.th
-     - 
+     - Float
      - Set trace width / height, relative to width / height of frame
    * - av.c
-     - 
+     - Integer
      - Set which components to trace. By default it traces YUV components.
 
 
@@ -104,3 +104,27 @@ This effect/filter creates a 2D video oscilloscope overlay. Useful to measure sp
      - YUV
    * - 8..15
      - repeat
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

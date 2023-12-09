@@ -16,11 +16,11 @@
 
 .. |alphaspot| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alphaspot/" target="_blank">frei0r alphasp0t</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alphaspot/" target="_blank">frei0r.alphasp0t</a>
 
 .. |alphaops| raw:: html
 
-   <a href="https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme" target="_blank">frei0r alpha0ps</a>
+   <a href="https://github.com/dyne/frei0r/blob/master/src/filter/alpha0ps/readme" target="_blank">frei0r.alpha0ps</a>
 
 
 Alpha Shapes
@@ -101,20 +101,25 @@ The following selection items are available:
 :guilabel:`Shape`
 
 .. list-table::
-   :width: 30%
-   :class: table-simple
+   :width: 100%
+   :widths: 20 80
+   :class: table-wrap
 
    * - Rectangle
+     - Draws a rectangle
    * - Ellipse
+     - Draws an ellipse/circle
    * - Triangle
+     - Draws a triangle
    * - Diamond
+     - Draws a diamond
 
 :guilabel:`Operation`
 
 .. list-table::
    :width: 100%
-   :widths: 30 70
-   :class: table-simple
+   :widths: 20 80
+   :class: table-wrap
 
    * - Write On Clear
      - Existing alpha mask is overwritten

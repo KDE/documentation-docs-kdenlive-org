@@ -58,6 +58,7 @@ File
    :width: 100%
    :widths: 25 25 50
    :header-rows: 1
+   :class: table-wrap
 
    * - Action Name
      - Shortcuts

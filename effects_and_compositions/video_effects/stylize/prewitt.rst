@@ -56,13 +56,13 @@ This effect/filter applies the Prewitt\ [1]_ operator to the input video stream.
      - Value
      - Description
    * - Planes
-     - 
+     - Selection
      - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied.
    * - Scale
-     - 
+     - Integer
      - Set value which will be multiplied with filtered result
    * - Delta
-     - 
+     - Integer
      - Set value which will be added to filtered result
 
 The following selection items are available:
@@ -102,3 +102,27 @@ The following selection items are available:
 
 
 .. [1] For more details refer to the |prewitt| article in Wikipedia
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

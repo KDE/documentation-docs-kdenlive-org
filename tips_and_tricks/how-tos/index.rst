@@ -22,5 +22,6 @@ How-Tos
    surround_sound
    fading_inout_titles
    extract_frames_in_higher_res
+   lift_gamma_gain
    tutorial-white_balance_lms
    cmyk_adjust

@@ -100,7 +100,7 @@ The following selections are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - Row
      - Graph on the left side represents color component value 0 and the right side represents value = 255
@@ -114,6 +114,7 @@ The following selections are available:
    :header-rows: 1
    :width: 100%
    :widths: 25 75
+   :class: table-wrap
 
    * - **Value**
      - **Description**
@@ -131,6 +132,7 @@ The following selections are available:
    :header-rows: 1
    :width: 100%
    :widths: 25 75
+   :class: table-wrap
 
    * - **Value**
      - **Description**
@@ -156,6 +158,7 @@ The following selections are available:
    :header-rows: 1
    :width: 100%
    :widths: 25 75
+   :class: table-wrap
 
    * - **Value**
      - **Description**
@@ -175,6 +178,7 @@ The following selections are available:
    :header-rows: 1
    :width: 100%
    :widths: 25 75
+   :class: table-wrap
 
    * - **Value**
      - **Description**
@@ -202,6 +206,7 @@ The following selections are available:
    :header-rows: 1
    :width: 100%
    :widths: 25 75
+   :class: table-wrap
 
    * - **Value**
      - **Description**
@@ -221,6 +226,7 @@ The following selections are available:
    :header-rows: 1
    :width: 100%
    :widths: 25 75
+   :class: table-wrap
 
    * - **Value**
      - **Description**
@@ -236,6 +242,7 @@ The following selections are available:
    :header-rows: 1
    :width: 100%
    :widths: 25 75
+   :class: table-wrap
 
    * - **Value**
      - **Description**
@@ -245,3 +252,27 @@ The following selections are available:
      - 
    * - **ire**
      - 
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

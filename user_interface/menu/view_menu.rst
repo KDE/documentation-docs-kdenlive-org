@@ -325,7 +325,7 @@ The histograms have the luminance on the horizontal axis going from 0 on the lef
 
 For more information read the Tips & Tricks chapter about :doc:`/tips_and_tricks/scopes/histogram_working` in the section about :doc:`/tips_and_tricks/scopes/index`.
 
-See also the :ref:`effects-histogram` video effect.
+See also the :doc:`/effects_and_compositions/video_effects/utility/histogram` video effect.
 
 .. attention::
 
@@ -461,7 +461,7 @@ The horizontal axis represents the timeline in the video frame. The vertical axi
 
 More details including a more thorough explanation is available in the Tips & Tricks chapter about :doc:`/tips_and_tricks/scopes/waveform_and_rgb_parade` in the section about :doc:`/tips_and_tricks/scopes/index`.
 
-See also the :ref:`effects-rgb_parade` video effect.
+See also the :doc:`/effects_and_compositions/video_effects/utility/rgb_parade` video effect.
 
 .. rst-class:: clear-both
 
@@ -643,7 +643,7 @@ The Vectorscope :term:`widget` allows you to monitor the colour properties of yo
 
 More details are available in the Tip & Tricks chapter about the :doc:`Vectorscope </tips_and_tricks/scopes/vectorscope_working>` and :doc:`/tips_and_tricks/scopes/vectorscope_i_and_q_lines` in the section about :doc:`/tips_and_tricks/scopes/index`.
 
-See also the :ref:`effects-vectorscope` and :ref:`effects-vectorscope_advanced` video effects.
+See also the :doc:`/effects_and_compositions/video_effects/utility/vectorscope` and :doc:`/effects_and_compositions/video_effects/utility/vectorscope_advanced` video effects.
 
 .. rst-class:: clear-both
 
@@ -666,4 +666,4 @@ Contrary to what its name might suggest the Waveform :term:`widget` is not for a
 
 More details are available in the Tip & Tricks chapter about the :doc:`Waveform </tips_and_tricks/scopes/waveform_and_rgb_parade>` in the section about :doc:`/tips_and_tricks/scopes/index`.
 
-See also the :ref:`effects-video_waveform_monitor` video effect.
+See also the :doc:`/effects_and_compositions/video_effects/utility/video_waveform_monitor` video effect.

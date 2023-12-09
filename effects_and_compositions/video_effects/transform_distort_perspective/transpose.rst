@@ -56,10 +56,10 @@ This effect/filter transposes rows with columns in the clip and optionally flips
      - Value
      - Description
    * - Direction
-     - 
+     - Selection
      - Set the direction of the transposition
    * - Override if
-     - 
+     - Selection
      - Override the transposition if clip is identified as **Portrait** or **Landscape**. Select **None** if you want to transpose regardless.
 
 The following selection items are available:
@@ -69,7 +69,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Clock
      - default
@@ -97,3 +97,27 @@ The following selection items are available:
 
 .. note:: 
    Many smartphones and digital cameras nowadays set an ``autorotate`` flag in the recorded video. Kdenlive can read the flag, and transposes videos automatically when importing. Check the clip's properties (:ref:`clip_properties`) if you want Kdenlive to handle that differently and set the :guilabel:`Disable autorotate` to any other value than 0 (default) or switch it to **On**.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

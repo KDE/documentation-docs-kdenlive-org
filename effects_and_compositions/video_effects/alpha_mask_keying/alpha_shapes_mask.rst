@@ -93,20 +93,25 @@ The following selection items are available:
 :guilabel:`Shape`
 
 .. list-table::
-   :width: 20%
-   :class: table-simple
+   :width: 100%
+   :widths: 20 80
+   :class: table-wrap
 
    * - Rectangle
+     - Draws a rectangle
    * - Ellipse
+     - Draws an ellipse/circle
    * - Triangle
+     - Draws a triangle
    * - Diamond
+     - Draws a diamond
 
 :guilabel:`Operation`
 
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Write On Clear
      - Existing alpha mask is overwritten

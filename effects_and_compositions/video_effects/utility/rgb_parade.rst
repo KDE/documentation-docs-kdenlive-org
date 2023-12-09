@@ -42,9 +42,35 @@ RGB Parade
    :**Known bugs**:
       No
 
+.. rst-class:: clear-both
+
 
 .. rubric:: Description
 
 This effect/filter displays a histogram of R, G and B components of the video data.
 
 This is different from the :ref:`view-rgb_parade` from the :ref:`view_menu` because the *Effect* version writes the histogram into the output video whereas the *View Menu* version just displays the histogram widget in the application while you preview your project.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link
