@@ -100,7 +100,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - KCF
      - Kernelized Correlation Filters (default)
@@ -124,7 +124,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Rectangle
      - Default
@@ -140,7 +140,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - None
      - Do nothing (default)
@@ -283,3 +283,11 @@ _`Folder for models`
 .. [1] If you want to build Kdenlive yourself you need to build MLT with OpenCV support. See here for |more_info|.
 
 .. [2] If you see just a red rectangle in the Project Monitor but cannot move or size it, enable Edit Mode by clicking on the |edit-mode| icon in the Project Monitor toolbar
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |application-menu| image:: /images/icons/application-menu.svg
+   :width: 22px
+   :class: no-scaled-link

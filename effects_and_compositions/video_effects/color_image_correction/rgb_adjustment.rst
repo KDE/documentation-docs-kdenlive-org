@@ -81,12 +81,12 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Add constant
      - Adds a fixed value between -150 and +150 (this is sometimes called "black level" or "setup").
    * - 
-     - Simply shifts the RGB "cube" colorspace. This means, that on one end we are left with empty space, which is filled with zeros, and on the other end, values can "fall outside", and in this case they will be truncated to max (255).
+     - Simply shifts the RGB "cube" :term:`color space`. This means, that on one end we are left with empty space, which is filled with zeros, and on the other end, values can "fall outside", and in this case they will be truncated to max (255).
    * - Change gamma
      - Changes channel gamma between 0.3333 and 3.0.
    * - 
@@ -94,14 +94,14 @@ The following selection items are available:
    * - Multiply
      - Multiplies channel with a value between 0.3333 and 3.0 (sometimes called "gain" or "contrast")
    * - 
-     - Changes the size of the cube, keeping the "black" corner fixed, affecting predominately highlights, but the other end can still "fall out" and get 255 truncated.)
+     - Changes the size of the cube, keeping the "black" corner fixed, affecting predominately highlights, but the other end can still "fall out" and get 255 truncated.
 
 :guilabel:`Luma formula`
 
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simplAlpha controlled*e
+   :class: table-wrap
 
    * - Rec. 709
      - Default
@@ -115,3 +115,27 @@ The following selection items are available:
 ----
 
 .. [1] To apply more than one action, use stacked instances of the effect. Note that Kdenlive executes the stack from top down so sequence is important.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

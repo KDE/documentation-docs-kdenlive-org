@@ -67,7 +67,7 @@ This effect/filter normalizes RGB video (aka histogram stretching, contrast stre
    * - Strength
      - Float
      - Overall strength of the filter. 1.0 is full strength. 0.0 is a rather expensive no-op. Defaults to 1.0 (full strength).
-   * - BlackPt / WhiteP
+   * - BlackPt / WhitePt
      - Picker
      - Colors which define the output range. The minimum input value is mapped to the *blackpt*. The maximum input value is mapped to the *whitept*. The defaults are black and white respectively. Specifying white for *blackpt* and black for *whitept* will give color-inverted, normalized video. Shades of grey can be used to reduce the dynamic range (contrast). Specifying saturated colors here can create some interesting effects. Use the |color-picker| color picker or the color button to select the color.
 
@@ -80,3 +80,31 @@ This effect/filter normalizes RGB video (aka histogram stretching, contrast stre
 .. rubric:: Notes
 
 For more information refer to the Wikipedia article about |wikipedia_normalization|.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link
+
+   .. |color-picker| image:: /images/icons/color-picker.svg
+   :width: 22px
+   :class: no-scaled-link

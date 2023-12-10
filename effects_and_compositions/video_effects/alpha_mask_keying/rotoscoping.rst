@@ -103,7 +103,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - Alpha
      - The rotoscoped area will be the alpha channel (default)
@@ -117,7 +117,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - Write on clear
      - (default)
@@ -332,3 +332,51 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
 .. [3] See this Wikipedia article about |wiki_bezier|
 
 .. [4] If there is no keyframe ruler in the Rotoscope effect panel click on the |keyframe| icon in the effect header
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |keyframe| image:: /images/icons/keyframe.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |keyframe-add| image:: /images/icons/keyframe-add.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |keyframe-disable| image:: /images/icons/keyframe-disable.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |keyframe-next| image:: /images/icons/keyframe-next.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |keyframe-previous| image:: /images/icons/keyframe-previous.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |keyframe-remove| image:: /images/icons/keyframe-remove.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

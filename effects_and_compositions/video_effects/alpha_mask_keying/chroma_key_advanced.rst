@@ -97,8 +97,8 @@ The following selection items are available:
 
 .. list-table::
    :width: 100%
-   :widths: 20 80
-   :class: table-simple
+   :widths: 25 75
+   :class: table-wrap
 
    * - RGB
      - Red Green Blue
@@ -116,7 +116,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Box
      - Uses a box to select the pixels leaving no space between them
@@ -132,7 +132,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Hard
      - No feathering (edges are not smooth at all). Any part of the image/video is either fully opaque and fully transparent. This means there will be none of the selected color between the removed parts and the remaining parts whatsoever. This option is useful if your chroma key turned out to be perfect.
@@ -152,7 +152,7 @@ The options **Fat**, **Normal** and **Skinny** create a gradual transition betwe
 .. list-table::
    :width: 100%
    :widths: 20 80
-   :class: table-simple
+   :class: table-wrap
 
    * - Write on clear
      - 
@@ -189,3 +189,10 @@ If the effect took lots of time to experiment, and you want to use this effect a
 
 .. [1] This |page| covers some color theory to help understand hue, chroma, luminance, etc.
 
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |document-save| image:: /images/icons/document-save.svg
+   :width: 22px
+   :class: no-scaled-link

@@ -174,7 +174,7 @@ How to apply an effect
 
 For applying an effect to a clip in the Project Bin or in the Timeline, you can choose one from the Effects Tab and drag it onto the clip.
 
-You can also double-click on an effect in the Effects Tab which adds the effect to either the clip in the Project Bin or in the Timeline depending on where the clip is selected.
+You can also double-click on an effect in the Effects Tab which adds the effect to the clip in the Project Bin which appears in the clip monitor. In the Timeline it adds the effect to the clips which are selected. So you can apply an effect to several clips at once in the timeline.
 
 Another method is to use the |favorite|:guilabel:`Favorite Effect` icon in the Timeline toolbar and select the effect from there (you add an effect to the favorite effects by right-click on the effect in the Effects Tab and select :guilabel:`Add to favorites`).
 

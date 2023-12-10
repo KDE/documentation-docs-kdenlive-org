@@ -82,3 +82,31 @@ Use the handles on the red rectangle\ [1]_ in the Project Monitor to change the 
 ----
 
 .. [1] If you do not see a red rectangle in the Project Monitor, enable Edit Mode by clicking on the |edit-mode| icon in the Project Monitor toolbar
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |edit-mode| image:: /images/icons/kdenlive-edit-mode.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

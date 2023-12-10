@@ -407,10 +407,6 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
-.. |toggle-edit-mode| image:: /images/icons/kdenlive-edit-mode.svg
-   :width: 22px
-   :class: no-scaled-link
-
 .. |tools-wizard| image:: /images/icons/tools-wizard.svg
    :width: 22px
    :class: no-scaled-link

@@ -29,7 +29,7 @@ Audio Effects
    :class: table-wrap
    :header-rows: 1
    :width: 100%
-   :widths: 20 8 20 42
+   :widths: 23 8 20 49
 
    * - Effect or Filter
      - OS\ [1]_
@@ -40,7 +40,7 @@ Audio Effects
      - SWH plugins
      - LADSPA plugin (|ladspa.1218|)
    * - :doc:`Adecorrelate </effects_and_compositions/audio_effects/audio/index>`
-     - |appimage|\ |windows|\ |apple|\ |linux|
+     - |appimage|\ |windows|\ |apple|
      - Audio
      - Apply decorrelation to input audio. (|avfilter.adecorrelate|)
    * - :doc:`Adenorm </effects_and_compositions/audio_effects/audio/index>` 
@@ -1009,6 +1009,11 @@ Audio Effects
      - LADSPA plugin (|ladspa.1428|)
 
 
+----
+
+.. [1] |linux|: available in the installed version; |appimage|: available in the appimage; |windows|: available in the Windows version; |apple|: available in the MacOS (Intel only) version
+
+
 .. Link list
 
 .. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -1023,486 +1028,951 @@ Audio Effects
    Audio
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. |ladspa.1218| replace:: ladspa.1218
+.. |ladspa.1218| raw:: html
 
-.. |avfilter.adecorrelate| replace:: avfilter.adecorrelate
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1218/" target="_blank">ladspa.1218</a>
 
-.. |avfilter.adenorm| replace:: avfilter.adenorm
+.. |avfilter.adecorrelate| raw:: html
 
-.. |avfilter.aderivative| replace:: avfilter.aderivative
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-adecorrelate/" target="_blank">avfilter.adecorrelate</a>
 
-.. |avfilter.adrc| replace:: avfilter.adrc
+.. |avfilter.adenorm| raw:: html
 
-.. |avfilter.adynamicequalizer| replace:: avfilter.adynamicequalizer
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-adenorm/" target="_blank">avfilter.adenorm</a>
 
-.. |avfilter.adynamicsmooth| replace:: avfilter.adynamicsmooth
+.. |avfilter.aderivative| raw:: html
 
-.. |avfilter.aexciter| replace:: avfilter.aexciter
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-aderivative/" target="_blank">avfilter.aderivative</a>
 
-.. |avfilter.afreqshift| replace:: avfilter.afreqshift
+.. |avfilter.adrc| raw:: html
 
-.. |avfilter.afwtdn| replace:: avfilter.afwtdn
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-adrc/" target="_blank">avfilter.adrc</a>
 
-.. |avfilter.aintegral| replace:: avfilter.aintegral
+.. |avfilter.adynamicequalizer| raw:: html
 
-.. |avfilter.alatency| replace:: avfilter.alatency
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-adynamicequalizer/" target="_blank">avfilter.adynamicequalizer</a>
 
-.. |ladspa.1407| replace:: ladspa.1407
+.. |avfilter.adynamicsmooth| raw:: html
 
-.. |avfilter.allpass| replace:: avfilter.allpass
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-adynamicsmooth/" target="_blank">avfilter.adynamicsmooth</a>
 
-.. |ladspa.1897| replace:: ladspa.1897
+.. |avfilter.aexciter| raw:: html
 
-.. |ladspa.1896| replace:: ladspa.1896
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-aexciter/" target="_blank">avfilter.aexciter</a>
 
-.. |ladspa.1895| replace:: ladspa.1895
+.. |avfilter.afreqshift| raw:: html
 
-.. |ladspa.1433| replace:: ladspa.1433
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-afreqshift/" target="_blank">avfilter.afreqshift</a>
 
-.. |ladspa.1092| replace:: ladspa.1092
+.. |avfilter.afwtdn| raw:: html
 
-.. |ladspa.1091| replace:: ladspa.1091
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-afwtdn/" target="_blank">avfilter.afwtdn</a>
 
-.. |ladspa.1090| replace:: ladspa.1090
+.. |avfilter.aintegral| raw:: html
 
-.. |ladspa.1093| replace:: ladspa.1093
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-aintegral/" target="_blank">avfilter.aintegral</a>
 
-.. |ladspa.1087| replace:: ladspa.1087
+.. |avfilter.alatency| raw:: html
 
-.. |ladspa.1088| replace:: ladspa.1088
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-alatency/" target="_blank">avfilter.alatency</a>
 
-.. |ladspa.1094| replace:: ladspa.1094
+.. |ladspa.1407| raw:: html
 
-.. |ladspa.1095| replace:: ladspa.1095
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1407/" target="_blank">ladspa.1407</a>
 
-.. |ladspa.1067| replace:: ladspa.1067
+.. |avfilter.allpass| raw:: html
 
-.. |ladspa.1068| replace:: ladspa.1068
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-allpass/" target="_blank">avfilter.allpass</a>
 
-.. |ladspa.1070| replace:: ladspa.1070
+.. |ladspa.1897| raw:: html
 
-.. |avfilter.aphaseshift| replace:: avfilter.aphaseshift
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1897/" target="_blank">ladspa.1897</a>
 
-.. |avfilter.apsyclip| replace:: avfilter.apsyclip
+.. |ladspa.1896| raw:: html
 
-.. |avfilter.arnndn| replace:: avfilter.arnndn
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1896/" target="_blank">ladspa.1896</a>
 
-.. |ladspa.1914| replace:: ladspa.1914
+.. |ladspa.1895| raw:: html
 
-.. |avfilter.asoftclip| replace:: avfilter.asoftclip
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1895/" target="_blank">ladspa.1895</a>
 
-.. |avfilter.aspectralstats| replace:: avfilter.aspectralstats
+.. |ladspa.1433| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1433/" target="_blank">ladspa.1433</a>
+
+.. |ladspa.1092| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1092/" target="_blank">ladspa.1092</a>
+
+.. |ladspa.1091| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1091/" target="_blank">ladspa.1091</a>
+
+.. |ladspa.1090| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1090/" target="_blank">ladspa.1090</a>
+
+.. |ladspa.1093| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1093/" target="_blank">ladspa.1093</a>
+
+.. |ladspa.1087| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1087/" target="_blank">ladspa.1087</a>
+
+.. |ladspa.1088| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1088/" target="_blank">ladspa.1088</a>
+
+.. |ladspa.1094| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1094/" target="_blank">ladspa.1094</a>
+
+.. |ladspa.1095| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1095/" target="_blank">ladspa.1095</a>
+
+.. |ladspa.1067| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1067/" target="_blank">ladspa.1067</a>
+
+.. |ladspa.1068| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1068/" target="_blank">ladspa.1068</a>
+
+.. |ladspa.1070| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1070/" target="_blank">ladspa.1070</a>
+
+.. |avfilter.aphaseshift| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-aphaseshift/" target="_blank">avfilter.aphaseshift</a>
+
+.. |avfilter.apsyclip| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-apsyclip/" target="_blank">avfilter.apsyclip</a>
+
+.. |avfilter.arnndn| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-arnndn/" target="_blank">avfilter.arnndn</a>
+
+.. |ladspa.1914| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1914/" target="_blank">ladspa.1914</a>
+
+.. |avfilter.asoftclip| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-asoftclip/" target="_blank">avfilter.asoftclip</a>
+
+.. |avfilter.aspectralstats| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-aspectralstats/" target="_blank">avfilter.aspectralstats</a>
 
 .. |avfilter.asr| replace:: avfilter.asr
 
-.. |avfilter.astats| replace:: avfilter.astats
+.. |avfilter.astats| raw:: html
 
-.. |avfilter.asubcut| replace:: avfilter.asubcut
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-astats/" target="_blank">avfilter.astats</a>
 
-.. |avfilter.asupercut| replace:: avfilter.asupercut
+.. |avfilter.asubcut| raw:: html
 
-.. |avfilter.asuperpass| replace:: avfilter.asuperpass
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-asubcut/" target="_blank">avfilter.asubcut</a>
 
-.. |avfilter.asuperstop| replace:: avfilter.asuperstop
+.. |avfilter.asupercut| raw:: html
 
-.. |avfilter.atilt| replace:: avfilter.atilt
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-asupercut/" target="_blank">avfilter.asupercut</a>
 
-.. |ladspa.1186| replace:: ladspa.1186
+.. |avfilter.asuperpass| raw:: html
 
-.. |avfilter.equalizer| replace:: avfilter.equalizer
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-asuperpass/" target="_blank">avfilter.asuperpass</a>
 
-.. |audiolevel| replace:: audiolevel
+.. |avfilter.asuperstop| raw:: html
 
-.. |panner| replace:: panner
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-asuperstop/" target="_blank">avfilter.asuperstop</a>
 
-.. |audiomap| replace:: audiomap
+.. |avfilter.atilt| raw:: html
 
-.. |ladspa.1219| replace:: ladspa.1219
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-atilt/" target="_blank">avfilter.atilt</a>
 
-.. |avfilter.bandpass| replace:: avfilter.bandpass
+.. |ladspa.1186| raw:: html
 
-.. |avfilter.bandreject| replace:: avfilter.bandreject
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1186/" target="_blank">ladspa.1186</a>
 
-.. |ladspa.1408| replace:: ladspa.1408
+.. |avfilter.equalizer| raw:: html
 
-.. |avfilter.bass| replace:: avfilter.bass
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-equalizer/" target="_blank">avfilter.equalizer</a>
 
-.. |ladspa.1431| replace:: ladspa.1431
+.. |audiolevel| raw:: html
 
-.. |ladspa.1432| replace:: ladspa.1432
+   <a href="https://www.mltframework.org/plugins/FilterAudiolevel/" target="_blank">audiolevel</a>
 
-.. |ladspa.1225| replace:: ladspa.1225
+.. |panner| raw:: html
 
-.. |ladspa.1430| replace:: ladspa.1430
+   <a href="https://www.mltframework.org/plugins/FilterPanner/" target="_blank">panner</a>
 
-.. |ladspa.1888| replace:: ladspa.1888
+.. |audiowaveform| raw:: html
 
-.. |ladspa.1887| replace:: ladspa.1887
+   <a href="https://www.mltframework.org/plugins/FilterAudiowaveform/" target="_blank">audiowaveform</a>
 
-.. |ladspa.1889| replace:: ladspa.1889
+.. |audiomap| raw:: html
 
-.. |ladspa.1190| replace:: ladspa.1190
+   <a href="https://www.mltframework.org/plugins/FilterAudiomap/" target="_blank">audiomap</a>
 
-.. |ladspa.1411| replace:: ladspa.1411
+.. |ladspa.1219| raw:: html
 
-.. |avfilter.compensationdelay| replace:: avfilter.compensationdelay
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1219/" target="_blank">ladspa.1219</a>
 
-.. |avfilter.compand| replace:: avfilter.compand
+.. |avfilter.bandpass| raw:: html
 
-.. |ladspa.1909| replace:: ladspa.1909
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-bandpass/" target="_blank">avfilter.bandpass</a>
 
-.. |channelcopy| replace:: channelcopy
+.. |avfilter.bandreject| raw:: html
 
-.. |ladspa.1915| replace:: ladspa.1915
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-bandreject/" target="_blank">avfilter.bandreject</a>
 
-.. |ladspa.1917| replace:: ladspa.1917
+.. |ladspa.1408| raw:: html
 
-.. |avfilter.crossfeed| replace:: avfilter.crossfeed
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1408/" target="_blank">ladspa.1408</a>
 
-.. |ladspa.1404| replace:: ladspa.1404
+.. |avfilter.bass| raw:: html
 
-.. |avfilter.acrusher| replace:: avfilter.acrusher
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-bass/" target="_blank">avfilter.bass</a>
 
-.. |avfilter.crystalizer| replace:: avfilter.crystalizer
+.. |ladspa.1431| raw:: html
 
-.. |ladspa.1207| replace:: ladspa.1207
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1431/" target="_blank">ladspa.1431</a>
 
-.. |avfilter.dcshift| replace:: avfilter.dcshift
+.. |ladspa.1432| raw:: html
 
-.. |ladspa.1202| replace:: ladspa.1202
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1432/" target="_blank">ladspa.1432</a>
 
-.. |ladspa.1195| replace:: ladspa.1195
+.. |ladspa.1225| raw:: html
 
-.. |avfilter.deesser| replace:: avfilter.deesser
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1225/" target="_blank">ladspa.1225</a>
 
-.. |ladspa.1402| replace:: ladspa.1402
+.. |ladspa.1430| raw:: html
 
-.. |avfilter.flanger| replace:: avfilter.flanger
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1430/" target="_blank">ladspa.1430</a>
 
-.. |ladspa.1185| replace:: ladspa.1185
+.. |ladspa.1888| raw:: html
 
-.. |ladspa.1846| replace:: ladspa.1846
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1888/" target="_blank">ladspa.1888</a>
 
-.. |ladspa.1901| replace:: ladspa.1901
+.. |ladspa.1887| raw:: html
 
-.. |ladspa.1907| replace:: ladspa.1907
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1887/" target="_blank">ladspa.1887</a>
 
-.. |ladspa.1438| replace:: ladspa.1438
+.. |ladspa.1889| raw:: html
 
-.. |ladspa.1848| replace:: ladspa.1848
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1889/" target="_blank">ladspa.1889</a>
 
-.. |ladspa.1403| replace:: ladspa.1403
+.. |ladspa.1190| raw:: html
 
-.. |ladspa.1053| replace:: ladspa.1053
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1190/" target="_blank">ladspa.1190</a>
 
-.. |ladspa.1054| replace:: ladspa.1054
+.. |ladspa.1411| raw:: html
 
-.. |ladspa.1055| replace:: ladspa.1055
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1411/" target="_blank">ladspa.1411</a>
 
-.. |ladspa.1056| replace:: ladspa.1056
+.. |avfilter.compensationdelay| raw:: html
 
-.. |ladspa.1057| replace:: ladspa.1057
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-compensationdelay/" target="_blank">avfilter.compensationdelay</a>
 
-.. |ladspa.1886| replace:: ladspa.1886
+.. |avfilter.compand| raw:: html
 
-.. |avfilter.extrastereo| replace:: avfilter.extrastereo
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-compand/" target="_blank">avfilter.compand</a>
 
-.. |ladspa.1913| replace:: ladspa.1913
+.. |ladspa.1909| raw:: html
 
-.. |ladspa.1196| replace:: ladspa.1196
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1909/" target="_blank">ladspa.1909</a>
 
-.. |ladspa.1058| replace:: ladspa.1058
+.. |channelcopy| raw:: html
 
-.. |ladspa.1059| replace:: ladspa.1059
+   <a href="https://www.mltframework.org/plugins/FilterChannelcopy/" target="_blank">channelcopy</a>
 
-.. |ladspa.1060| replace:: ladspa.1060
+.. |ladspa.1915| raw:: html
 
-.. |ladspa.1061| replace:: ladspa.1061
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1915/" target="_blank">ladspa.1915</a>
 
-.. |ladspa.1062| replace:: ladspa.1062
+.. |ladspa.1917| raw:: html
 
-.. |jack| replace:: jack
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1917/" target="_blank">ladspa.1917</a>
 
-.. |ladspa.1191| replace:: ladspa.1191
+.. |avfilter.crossfeed| raw:: html
 
-.. |ladspa.1415| replace:: ladspa.1415
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-crossfeed/" target="_blank">avfilter.crossfeed</a>
 
-.. |ladspa.1089| replace:: ladspa.1089
+.. |ladspa.1404| raw:: html
 
-.. |ladspa.1213| replace:: ladspa.1213
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1404/" target="_blank">ladspa.1404</a>
 
-.. |ladspa.1192| replace:: ladspa.1192
+.. |avfilter.acrusher| raw:: html
 
-.. |ladspa.1123| replace:: ladspa.1123
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-acrusher/" target="_blank">avfilter.acrusher</a>
 
-.. |ladspa.1418| replace:: ladspa.1418
+.. |avfilter.crystalizer| raw:: html
 
-.. |ladspa.1410| replace:: ladspa.1410
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-crystalizer/" target="_blank">avfilter.crystalizer</a>
 
-.. |ladspa.1437| replace:: ladspa.1437
+.. |ladspa.1207| raw:: html
 
-.. |ladspa.1893| replace:: ladspa.1893
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1207/" target="_blank">ladspa.1207</a>
 
-.. |ladspa.1892| replace:: ladspa.1892
+.. |avfilter.dcshift| raw:: html
 
-.. |ladspa.1904| replace:: ladspa.1904
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-dcshift/" target="_blank">avfilter.dcshift</a>
 
-.. |ladspa.1903| replace:: ladspa.1903
+.. |ladspa.1202| raw:: html
 
-.. |ladspa.1902| replace:: ladspa.1902
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1202/" target="_blank">ladspa.1202</a>
 
-.. |ladspa.1890| replace:: ladspa.1890
+.. |ladspa.1195| raw:: html
 
-.. |ladspa.1891| replace:: ladspa.1891
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1195/" target="_blank">ladspa.1195</a>
 
-.. |ladspa.1439| replace:: ladspa.1439
+.. |avfilter.deesser| raw:: html
 
-.. |ladspa.1424| replace:: ladspa.1424
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-deesser/" target="_blank">avfilter.deesser</a>
 
-.. |ladspa.1096| replace:: ladspa.1096
+.. |ladspa.1402| raw:: html
 
-.. |ladspa.1215| replace:: ladspa.1215
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1402/" target="_blank">ladspa.1402</a>
 
-.. |ladspa.1216| replace:: ladspa.1216
+.. |avfilter.flanger| raw:: html
 
-.. |avfilter.haas| replace:: avfilter.haas
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-flanger/" target="_blank">avfilter.flanger</a>
 
-.. |ladspa.1845| replace:: ladspa.1845
+.. |ladspa.1185| raw:: html
 
-.. |ladspa.1413| replace:: ladspa.1413
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1185/" target="_blank">ladspa.1185</a>
 
-.. |ladspa.1220| replace:: ladspa.1220
+.. |ladspa.1846| raw:: html
 
-.. |ladspa.1200| replace:: ladspa.1200
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1846/" target="_blank">ladspa.1846</a>
 
-.. |ladspa.1052| replace:: ladspa.1052
+.. |ladspa.1901| raw:: html
 
-.. |avfilter.highpass| replace:: avfilter.highpass
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1901/" target="_blank">ladspa.1901</a>
 
-.. |avfilter.highshelf| replace:: avfilter.highshelf
+.. |ladspa.1907| raw:: html
 
-.. |ladspa.1194| replace:: ladspa.1194
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1907/" target="_blank">ladspa.1907</a>
 
-.. |ladspa.1440| replace:: ladspa.1440
+.. |ladspa.1438| raw:: html
 
-.. |ladspa.1098| replace:: ladspa.1098
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1438/" target="_blank">ladspa.1438</a>
 
-.. |ladspa.1199| replace:: ladspa.1199
+.. |ladspa.1848| raw:: html
 
-.. |ladspa.1429| replace:: ladspa.1429
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1848/" target="_blank">ladspa.1848</a>
 
-.. |ladspa.1409| replace:: ladspa.1409
+.. |ladspa.1403| raw:: html
 
-.. |ladspa.1436| replace:: ladspa.1436
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1403/" target="_blank">ladspa.1403</a>
 
-.. |ladspa.1217| replace:: ladspa.1217
+.. |ladspa.1053| raw:: html
 
-.. |avfilter.alimiter| replace:: avfilter.alimiter
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1053/" target="_blank">ladspa.1053</a>
 
-.. |ladspa.1227| replace:: ladspa.1227
+.. |ladspa.1054| raw:: html
 
-.. |ladspa.1051| replace:: ladspa.1051
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1054/" target="_blank">ladspa.1054</a>
 
-.. |avfilter.lowpass| replace:: avfilter.lowpass
+.. |ladspa.1055| raw:: html
 
-.. |avfilter.lowshelf| replace:: avfilter.lowshelf
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1055/" target="_blank">ladspa.1055</a>
 
-.. |ladspa.1908| replace:: ladspa.1908
+.. |ladspa.1056| raw:: html
 
-.. |ladspa.1894| replace:: ladspa.1894
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1056/" target="_blank">ladspa.1056</a>
 
-.. |ladspa.1422| replace:: ladspa.1422
+.. |ladspa.1057| raw:: html
 
-.. |ladspa.1421| replace:: ladspa.1421
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1057/" target="_blank">ladspa.1057</a>
 
-.. |ladspa.1420| replace:: ladspa.1420
+.. |ladspa.1886| raw:: html
 
-.. |mono| replace:: mono
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1886/" target="_blank">ladspa.1886</a>
 
-.. |ladspa.1071| replace:: ladspa.1071
+.. |avfilter.extrastereo| raw:: html
 
-.. |ladspa.1419| replace:: ladspa.1419
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-extrastereo/" target="_blank">avfilter.extrastereo</a>
 
-.. |ladspa.1406| replace:: ladspa.1406
+.. |volume| raw:: html
 
-.. |ladspa.1197| replace:: ladspa.1197
+   <a href="https://www.mltframework.org/plugins/FilterVolume/" target="_blank">volume</a>
 
-.. |ladspa.1201| replace:: ladspa.1201
+.. |ladspa.1913| raw:: html
 
-.. |volume| replace:: volume
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1913/" target="_blank">ladspa.1913</a>
+
+.. |ladspa.1196| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1196/" target="_blank">ladspa.1196</a>
+
+.. |ladspa.1058| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1058/" target="_blank">ladspa.1058</a>
+
+.. |ladspa.1059| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1059/" target="_blank">ladspa.1059</a>
+
+.. |ladspa.1060| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1060/" target="_blank">ladspa.1060</a>
+
+.. |ladspa.1061| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1061/" target="_blank">ladspa.1061</a>
+
+.. |ladspa.1062| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1062/" target="_blank">ladspa.1062</a>
+
+.. |jack| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterJack/" target="_blank">jack</a>
+
+.. |ladspa.1191| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1191/" target="_blank">ladspa.1191</a>
+
+.. |ladspa.1415| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1415/" target="_blank">ladspa.1415</a>
+
+.. |ladspa.1089| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1089/" target="_blank">ladspa.1089</a>
+
+.. |ladspa.1213| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1213/" target="_blank">ladspa.1213</a>
+
+.. |ladspa.1192| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1192/" target="_blank">ladspa.1192</a>
+
+.. |ladspa.1123| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1123/" target="_blank">ladspa.1123</a>
+
+.. |ladspa.1418| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1418/" target="_blank">ladspa.1418</a>
+
+.. |ladspa.1410| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1410/" target="_blank">ladspa.1410</a>
+
+.. |ladspa.1437| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1437/" target="_blank">ladspa.1437</a>
+
+.. |ladspa.1893| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1893/" target="_blank">ladspa.1893</a>
+
+.. |ladspa.1892| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1892/" target="_blank">ladspa.1892</a>
+
+.. |ladspa.1904| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1904/" target="_blank">ladspa.1904</a>
+
+.. |ladspa.1903| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1903/" target="_blank">ladspa.1903</a>
+
+.. |ladspa.1902| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1902/" target="_blank">ladspa.1902</a>
+
+.. |ladspa.1890| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1890/" target="_blank">ladspa.1890</a>
+
+.. |ladspa.1891| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1891/" target="_blank">ladspa.1891</a>
+
+.. |ladspa.1439| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1439/" target="_blank">ladspa.1439</a>
+
+.. |ladspa.1424| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1424/" target="_blank">ladspa.1424</a>
+
+.. |ladspa.1096| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1096/" target="_blank">ladspa.1096</a>
+
+.. |ladspa.1215| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1215/" target="_blank">ladspa.1215</a>
+
+.. |ladspa.1216| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1216/" target="_blank">ladspa.1216</a>
+
+.. |avfilter.haas| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-haas/" target="_blank">avfilter.haas</a>
+
+.. |ladspa.1845| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1845/" target="_blank">ladspa.1845</a>
+
+.. |ladspa.1413| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1413/" target="_blank">ladspa.1413</a>
+
+.. |ladspa.1220| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1220/" target="_blank">ladspa.1220</a>
+
+.. |ladspa.1200| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1200/" target="_blank">ladspa.1200</a>
+
+.. |ladspa.1052| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1052/" target="_blank">ladspa.1052</a>
+
+.. |avfilter.highpass| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-highpass/" target="_blank">avfilter.highpass</a>
+
+.. |avfilter.highshelf| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-highshelf/" target="_blank">avfilter.highshelf</a>
+
+.. |ladspa.1194| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1194/" target="_blank">ladspa.1194</a>
+
+.. |ladspa.1440| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1440/" target="_blank">ladspa.1440</a>
+
+.. |ladspa.1098| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1098/" target="_blank">ladspa.1098</a>
+
+.. |ladspa.1199| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1199/" target="_blank">ladspa.1199</a>
+
+.. |ladspa.1429| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1429/" target="_blank">ladspa.1429</a>
+
+.. |ladspa.1409| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1409/" target="_blank">ladspa.1409</a>
+
+.. |ladspa.1436| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1436/" target="_blank">ladspa.1436</a>
+
+.. |ladspa.1217| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1217/" target="_blank">ladspa.1217</a>
+
+.. |avfilter.alimiter| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-alimiter/" target="_blank">avfilter.alimiter</a>
+
+.. |ladspa.1227| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1227/" target="_blank">ladspa.1227</a>
+
+.. |ladspa.1051| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1051/" target="_blank">ladspa.1051</a>
+
+.. |avfilter.lowpass| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-lowpass/" target="_blank">avfilter.lowpass</a>
+
+.. |avfilter.lowshelf| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-lowshelf/" target="_blank">avfilter.lowshelf</a>
+
+.. |ladspa.1908| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1908/" target="_blank">ladspa.1908</a>
+
+.. |ladspa.1894| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1894/" target="_blank">ladspa.1894</a>
+
+.. |ladspa.1422| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1422/" target="_blank">ladspa.1422</a>
+
+.. |ladspa.1421| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1421/" target="_blank">ladspa.1421</a>
+
+.. |ladspa.1420| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1420/" target="_blank">ladspa.1420</a>
+
+.. |mono| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterMono/" target="_blank">mono</a>
+
+.. |ladspa.1071| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1071/" target="_blank">ladspa.1071</a>
+
+.. |ladspa.1419| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1419/" target="_blank">ladspa.1419</a>
+
+.. |ladspa.1406| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1406/" target="_blank">ladspa.1406</a>
+
+.. |ladspa.1197| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1197/" target="_blank">ladspa.1197</a>
+
+.. |ladspa.1201| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1201/" target="_blank">ladspa.1201</a>
 
 .. |ladspa.9354877| replace:: ladspa.9354877
 
-.. |dynamic_loudness| replace:: dynamic_loudness
+.. |dynamic_loudness| raw:: html
 
-.. |loudness| replace:: loudness
+   <a href="https://www.mltframework.org/plugins/FilterDynamic_loudness/" target="_blank">dynamic_loudness</a>
 
-.. |avfilter.aphaser| replace:: avfilter.aphaser
+.. |loudness| raw:: html
 
-.. |ladspa.1193| replace:: ladspa.1193
+   <a href="https://www.mltframework.org/plugins/FilterLoudness/" target="_blank">loudness</a>
 
-.. |ladspa.1423| replace:: ladspa.1423
+.. |avfilter.aphaser| raw:: html
 
-.. |ladspa.1910| replace:: ladspa.1910
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-aphaser/" target="_blank">avfilter.aphaser</a>
 
-.. |avfilter.apulsator| replace:: avfilter.apulsator
+.. |ladspa.1193| raw:: html
 
-.. |ladspa.1417| replace:: ladspa.1417
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1193/" target="_blank">ladspa.1193</a>
 
-.. |ladspa.1605| replace:: ladspa.1605
+.. |ladspa.1423| raw:: html
 
-.. |ladspa.1189| replace:: ladspa.1189
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1423/" target="_blank">ladspa.1423</a>
 
-.. |ladspa.1188| replace:: ladspa.1188
+.. |ladspa.1910| raw:: html
 
-.. |rbpitch| replace:: rbpitch
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1910/" target="_blank">ladspa.1910</a>
 
-.. |ladspa.1425| replace:: ladspa.1425
+.. |avfilter.apulsator| raw:: html
 
-.. |ladspa.1426| replace:: ladspa.1426
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-apulsator/" target="_blank">avfilter.apulsator</a>
 
-.. |ladspa.1427| replace:: ladspa.1427
+.. |ladspa.1417| raw:: html
 
-.. |ladspa.1882| replace:: ladspa.1882
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1417/" target="_blank">ladspa.1417</a>
 
-.. |ladspa.1916| replace:: ladspa.1916
+.. |ladspa.1208| raw:: html
 
-.. |ladspa.1883| replace:: ladspa.1883
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1208/" target="_blank">ladspa.1208</a>
 
-.. |ladspa.1210| replace:: ladspa.1210
+.. |ladspa.1605| raw:: html
 
-.. |ladspa.1181| replace:: ladspa.1181
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1605/" target="_blank">ladspa.1605</a>
 
-.. |ladspa.1072| replace:: ladspa.1072
+.. |ladspa.1189| raw:: html
 
-.. |ladspa.1073| replace:: ladspa.1073
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1189/" target="_blank">ladspa.1189</a>
+
+.. |ladspa.1188| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1188/" target="_blank">ladspa.1188</a>
+
+.. |rbpitch| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterRbpitch/" target="_blank">rbpitch</a>
+
+.. |ladspa.1425| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1425/" target="_blank">ladspa.1425</a>
+
+.. |ladspa.1426| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1426/" target="_blank">ladspa.1426</a>
+
+.. |ladspa.1427| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1427/" target="_blank">ladspa.1427</a>
+
+.. |ladspa.1882| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1882/" target="_blank">ladspa.1882</a>
+
+.. |ladspa.1916| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1916/" target="_blank">ladspa.1916</a>
+
+.. |ladspa.1883| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1883/" target="_blank">ladspa.1883</a>
+
+.. |ladspa.1210| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1210/" target="_blank">ladspa.1210</a>
+
+.. |ladspa.1181| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1181/" target="_blank">ladspa.1181</a>
+
+.. |ladspa.1072| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1072/" target="_blank">ladspa.1072</a>
+
+.. |ladspa.1073| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1073/" target="_blank">ladspa.1073</a>
 
 .. |avfiler.acontrast| replace:: avfiler.acontrast
 
-.. |ladspa.1900| replace:: ladspa.1900
+.. |ladspa.1900| raw:: html
 
-.. |ladspa.1899| replace:: ladspa.1899
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1900/" target="_blank">ladspa.1900</a>
 
-.. |ladspa.1898| replace:: ladspa.1898
+.. |ladspa.1899| raw:: html
 
-.. |ladspa.1074| replace:: ladspa.1074
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1899/" target="_blank">ladspa.1899</a>
 
-.. |ladspa.1075| replace:: ladspa.1075
+.. |ladspa.1898| raw:: html
 
-.. |ladspa.1076| replace:: ladspa.1076
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1898/" target="_blank">ladspa.1898</a>
 
-.. |ladspa.1077| replace:: ladspa.1077
+.. |ladspa.1074| raw:: html
 
-.. |ladspa.1063| replace:: ladspa.1063
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1074/" target="_blank">ladspa.1074</a>
 
-.. |ladspa.1064| replace:: ladspa.1064
+.. |ladspa.1075| raw:: html
 
-.. |ladspa.1065| replace:: ladspa.1065
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1075/" target="_blank">ladspa.1075</a>
 
-.. |ladspa.1203| replace:: ladspa.1203
+.. |ladspa.1076| raw:: html
 
-.. |ladspa.1198| replace:: ladspa.1198
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1076/" target="_blank">ladspa.1076</a>
 
-.. |ladspa.1414| replace:: ladspa.1414
+.. |ladspa.1077| raw:: html
 
-.. |sox| replace:: sox
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1077/" target="_blank">ladspa.1077</a>
 
-.. |avfilter.acontrast| replace:: avfilter.acontrast
+.. |ladspa.1063| raw:: html
 
-.. |avfilter.speechnorm| replace:: avfilter.speechnorm
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1063/" target="_blank">ladspa.1063</a>
 
-.. |avfilter.smartblur| replace:: avfilter.smartblur
+.. |ladspa.1064| raw:: html
 
-.. |ladspa.1214| replace:: ladspa.1214
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1064/" target="_blank">ladspa.1064</a>
 
-.. |ladspa.1212| replace:: ladspa.1212
+.. |ladspa.1065| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1065/" target="_blank">ladspa.1065</a>
+
+.. |ladspa.1203| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1203/" target="_blank">ladspa.1203</a>
+
+.. |ladspa.1198| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1198/" target="_blank">ladspa.1198</a>
+
+.. |ladspa.1414| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1414/" target="_blank">ladspa.1414</a>
+
+.. |sox| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterSox/" target="_blank">sox</a>
+
+.. |avfilter.acontrast| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-acontrast/" target="_blank">avfilter.acontrast</a>
+
+.. |avfilter.speechnorm| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-speechnorm/" target="_blank">avfilter.speechnorm</a>
+
+.. |ladspa.1214| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1214/" target="_blank">ladspa.1214</a>
+
+.. |ladspa.1212| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1212/" target="_blank">ladspa.1212</a>
 
 .. |avfilter.sofalizer| replace:: avfilter.sofalizer
 
 .. |avfilter.bs2b| replace:: avfilter.bs2b
 
-.. |avfilter.stereotools| replace:: avfilter.stereotools
+.. |avfilter.stereotools| raw:: html
 
-.. |avfilter.stereowiden| replace:: avfilter.stereowiden
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-stereotools/" target="_blank">avfilter.stereotools</a>
 
-.. |ladspa.1401| replace:: ladspa.1401
+.. |avfilter.stereowiden| raw:: html
 
-.. |channelswap| replace:: channelswap
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-stereowiden/" target="_blank">avfilter.stereowiden</a>
 
-.. |ladspa.2146| replace:: ladspa.2146
+.. |ladspa.1401| raw:: html
 
-.. |ladspa.2159| replace:: ladspa.2159
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1401/" target="_blank">ladspa.1401</a>
 
-.. |ladspa.2147| replace:: ladspa.2147
+.. |channelswap| raw:: html
 
-.. |ladspa.2152| replace:: ladspa.2152
+   <a href="https://www.mltframework.org/plugins/FilterChannelswap/" target="_blank">channelswap</a>
 
-.. |ladspa.2153| replace:: ladspa.2153
+.. |ladspa.2146| raw:: html
 
-.. |ladspa.2141| replace:: ladspa.2141
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2146/" target="_blank">ladspa.2146</a>
 
-.. |ladspa.2151| replace:: ladspa.2151
+.. |ladspa.2159| raw:: html
 
-.. |ladspa.2156| replace:: ladspa.2156
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2159/" target="_blank">ladspa.2159</a>
 
-.. |ladspa.2155| replace:: ladspa.2155
+.. |ladspa.2147| raw:: html
 
-.. |ladspa.2150| replace:: ladspa.2150
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2147/" target="_blank">ladspa.2147</a>
 
-.. |ladspa.2154| replace:: ladspa.2154
+.. |ladspa.2152| raw:: html
 
-.. |ladspa.2142| replace:: ladspa.2142
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2152/" target="_blank">ladspa.2152</a>
 
-.. |ladspa.2149| replace:: ladspa.2149
+.. |ladspa.2153| raw:: html
 
-.. |ladspa.2145| replace:: ladspa.2145
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2153/" target="_blank">ladspa.2153</a>
 
-.. |ladspa.2157| replace:: ladspa.2157
+.. |ladspa.2141| raw:: html
 
-.. |ladspa.2143| replace:: ladspa.2143
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2141/" target="_blank">ladspa.2141</a>
 
-.. |ladspa.2144| replace:: ladspa.2144
+.. |ladspa.2151| raw:: html
 
-.. |ladspa.2158| replace:: ladspa.2158
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2151/" target="_blank">ladspa.2151</a>
 
-.. |ladspa.2148| replace:: ladspa.2148
+.. |ladspa.2156| raw:: html
 
-.. |ladspa.1211| replace:: ladspa.1211
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2156/" target="_blank">ladspa.2156</a>
 
-.. |avfilter.tiltshelf| replace:: avfilter.tiltshelf
+.. |ladspa.2155| raw:: html
 
-.. |ladspa.1206| replace:: ladspa.1206
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2155/" target="_blank">ladspa.2155</a>
 
-.. |avfilter.treble| replace:: avfilter.treble
+.. |ladspa.2150| raw:: html
 
-.. |ladspa.1204| replace:: ladspa.1204
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2150/" target="_blank">ladspa.2150</a>
 
-.. |ladspa.1405| replace:: ladspa.1405
+.. |ladspa.2154| raw:: html
 
-.. |ladspa.1209| replace:: ladspa.1209
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2154/" target="_blank">ladspa.2154</a>
 
-.. |ladspa.1224| replace:: ladspa.1224
+.. |ladspa.2142| raw:: html
 
-.. |avfilter.vibrato| replace:: avfilter.vibrato
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2142/" target="_blank">ladspa.2142</a>
 
-.. |avfilter.virtualbass| replace:: avfilter.virtualbass
+.. |ladspa.2149| raw:: html
 
-.. |ladspa.1337| replace:: ladspa.1337
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2149/" target="_blank">ladspa.2149</a>
 
-.. |ladspa.1905| replace:: ladspa.1905
+.. |ladspa.2145| raw:: html
 
-.. |ladspa.1187| replace:: ladspa.1187
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2145/" target="_blank">ladspa.2145</a>
 
-.. |ladspa.1097| replace:: ladspa.1097
+.. |ladspa.2157| raw:: html
 
-.. |ladspa.1412| replace:: ladspa.1412
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2157/" target="_blank">ladspa.2157</a>
 
-.. |ladspa.1428| replace:: ladspa.1428
+.. |ladspa.2143| raw:: html
 
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2143/" target="_blank">ladspa.2143</a>
 
-----
+.. |ladspa.2144| raw:: html
 
-.. [1] |linux|: available in installed version; |appimage|: available in the appimage; |windows|: available in Windows; |apple|: available on MacOS (Intel only)
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2144/" target="_blank">ladspa.2144</a>
+
+.. |ladspa.2158| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2158/" target="_blank">ladspa.2158</a>
+
+.. |ladspa.2148| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-2148/" target="_blank">ladspa.2148</a>
+
+.. |ladspa.1211| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1211/" target="_blank">ladspa.1211</a>
+
+.. |avfilter.tiltshelf| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-tiltshelf/" target="_blank">avfilter.tiltshelf</a>
+
+.. |ladspa.1206| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1206/" target="_blank">ladspa.1206</a>
+
+.. |avfilter.treble| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-treble/" target="_blank">avfilter.treble</a>
+
+.. |ladspa.1204| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1204/" target="_blank">ladspa.1204</a>
+
+.. |ladspa.1405| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1405/" target="_blank">ladspa.1405</a>
+
+.. |ladspa.1209| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1209/" target="_blank">ladspa.1209</a>
+
+.. |ladspa.1224| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1224/" target="_blank">ladspa.1224</a>
+
+.. |avfilter.vibrato| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-vibrato/" target="_blank">avfilter.vibrato</a>
+
+.. |avfilter.virtualbass| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-virtualbass/" target="_blank">avfilter.virtualbass</a>
+
+.. |ladspa.1337| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1337/" target="_blank">ladspa.1337</a>
+
+.. |ladspa.1905| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1905/" target="_blank">ladspa.1905</a>
+
+.. |ladspa.1187| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1187/" target="_blank">ladspa.1187</a>
+
+.. |ladspa.1097| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1097/" target="_blank">ladspa.1097</a>
+
+.. |ladspa.1412| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1412/" target="_blank">ladspa.1412</a>
+
+.. |ladspa.1428| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLadspa-1428/" target="_blank">ladspa.1428</a>
 
 
 .. ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -67,16 +67,16 @@ See :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/
      - Value
      - Description
    * - Focal point relative-X coord
-     - 
+     - Float
      - Set relative center X
    * - Focal point relative-Y coord
-     - 
+     - Float
      - Set relative center Y
    * - Quadratic correction coeff.
-     - 
+     - Float
      - Set quadratic distortion factor
    * - DoubleQuadratic correction coeff.
-     - 
+     - Float
      - Set double quadratic distortion factor
 
 
@@ -87,3 +87,27 @@ See :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/
 .. https://youtu.be/axQdm482Uto
 
 .. https://youtu.be/cEwZzNRiVks
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

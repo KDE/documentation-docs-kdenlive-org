@@ -100,7 +100,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - equidistant
      - 
@@ -116,7 +116,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - Fit
      - no cropping but there will be blank area at the borders
@@ -128,7 +128,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - Nearest neighbor
      - 
@@ -150,7 +150,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 25 75
-   :class: table-simple
+   :class: table-wrap
 
    * - Square
      - default
@@ -186,6 +186,9 @@ The following selection items are available:
  For a kind of roundish kaleidoscope, try this:
 
  .. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-wrap
 
    * - Amount
      - 775
@@ -201,6 +204,9 @@ The following selection items are available:
  Another crazy distortion:
 
  .. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-wrap
 
    * - Amount
      - 921
@@ -216,6 +222,9 @@ The following selection items are available:
  For an effect, reminiscent of some scenes from the "2001 Space Odyssey" movie try this:
 
  .. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-wrap
 
    * - Amount
      - 900
@@ -230,3 +239,27 @@ The following selection items are available:
 ----
 
 .. [1] To get the math right, the effect's algorithm needs to know the pixel aspect ratio.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

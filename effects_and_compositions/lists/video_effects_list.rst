@@ -30,7 +30,7 @@ Video Effects
    :class: table-wrap
    :header-rows: 1
    :width: 100%
-   :widths: 20 8 20 42
+   :widths: 22 8 20 50
 
    * - Effect or Filter
      - OS\ [1]_
@@ -303,7 +303,7 @@ Video Effects
    * - delogo
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Deprecated
-     - Perform an RGB[A] difference operation between the pixel sources (|frei0r.difference|)
+     - Remove logo from input video (|avfilter.delogo|)
    * - :doc:`/effects_and_compositions/video_effects/grain_and_noise/denoiser` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Grain and Noise
@@ -555,7 +555,7 @@ Video Effects
    * - :doc:`/effects_and_compositions/video_effects/color_image_correction/lumaliftgammagain` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
-     - Filter can be used to apply lift gain and gamma corrections to luma values of an image (|lumaliftgammagain|)
+     - Filter can be used to apply lift gain and gamma corrections to luma values of an image (|lumaliftgaingamma|)
    * - :doc:`/effects_and_compositions/video_effects/color_image_correction/luminance` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
@@ -580,10 +580,6 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Convert video to gray using custom color filter (|avfilter.monochrome|)
-   * - :doc:`/effects_and_compositions/video_effects/image_adjustment/motion_compensation_deinterlacer` 
-     - |linux|
-     - Image Adjustment
-     - Apply motion-compensation deinterlacing (|avfilter.mcdeint|)
    * - :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Alpha, Mask and Keying
@@ -915,7 +911,7 @@ Video Effects
    * - :doc:`/effects_and_compositions/video_effects/vr360_and_3d/vr360_stabilize` 
      - |appimage|
      - VR360 and 3D
-     - Stabilizes 360 footage. The plugin works in two phases - analysis and stabilization. When analyzing footage, it detects frame-to-frame rotation, and when stabilizing it tries to correct high-frequency motion (shake) (|frei0r.bighsh0t_stabilize_360|)
+     - Stabilizes 360 footage. The plugin works in two phases - analysis and stabilization. When analyzing footage, it detects frame-to-frame rotation, and when stabilizing it tries to correct high-frequency motion (shake) (|frei0r.bigsh0t_stabilize_360|)
    * - :doc:`/effects_and_compositions/video_effects/vr360_and_3d/vr360_transform` 
      - |appimage|
      - VR360 and 3D
@@ -949,6 +945,12 @@ Video Effects
      - Transform, Distort and Perspective
      - Apply Zoom and Pan effect (|avfilter.zoompan|)
 
+
+----
+
+.. [1] |linux|: available in the installed version; |appimage|: available in the appimage; |windows|: available in the Windows version; |apple|: available in the MacOS (Intel only) version
+
+
 .. Link list
 
 .. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -965,580 +967,1182 @@ Video Effects
 
 .. |frei0r.three_point_balance| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-3-point-color-balance.html?gi-language=c" target="_blank">frei0r.three_point_balance</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-three_point_balance/" target="_blank">frei0r.three_point_balance</a>
+
 
 .. |frei0r.threelay0r| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-threelay0r.html?gi-language=c" target="_blank">frei0r.threelay0r</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-threelay0r/" target="_blank">frei0r.threelay0r</a>
+
 
 .. |avfilter.fftdnoiz| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#fftdnoiz" target="_blank">avfilter.fftdnoiz</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-fftdnoiz/" target="_blank">avfilter.fftdnoiz</a>
+
 
 .. |frei0r.aech0r| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-aech0r/" target="_blank">frei0r.aech0r</a>
 
+
 .. |frei0r.alphagrad| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-alphagrad.html?gi-language=c#frei0r-filter-alphagrad" target="_blank">frei0r.alphagrad</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alphagrad/" target="_blank">frei0r.alphagrad</a>
+
 
 .. |frei0r.alpha0ps| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-alpha0ps.html?gi-language=c" target="_blank">frei0r.alpha0ps</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alpha0ps/" target="_blank">frei0r.alpha0ps</a>
+
 
 .. |frei0r.alphaspot| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-alphaspot.html?gi-language=c" target="_blank">frei0r.alphaspot</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alphaspot/" target="_blank">frei0r.alphaspot</a>
 
-.. |frei0r.brightness| raw:: html
-
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-b.html?gi-language=c" target="_blank">frei0r.brightness</a>
 
 .. |mask_start| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterMask_start/" target="_blank">mask_start</a>
 
-.. |strobe| replace:: strobe
+
+.. |strobe| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterStrobe/" target="_blank">strobe</a>
+
 
 .. |avfilter.alphaextract| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterAvfilter-lut3d/" target="_blank">avfilter.alphaextract</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-alphaextract/" target="_blank">avfilter.alphaextract</a>
+
 
 .. |avfilter.lut3d| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterAudiolevelgraph/" target="_blank">avfilter.lut3d</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-lut3d/" target="_blank">avfilter.lut3d</a>
+
 
 .. |audiolevelgraph| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterAudiospectrum/" target="_blank">audiolevelgraph</a>
+   <a href="https://www.mltframework.org/plugins/FilterAudiolevelgraph/" target="_blank">audiolevelgraph</a>
+
 
 .. |audiospectrum| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterAudiowave/" target="_blank">audiospectrum</a>
+   <a href="https://www.mltframework.org/plugins/FilterAudiospectrum/" target="_blank">audiospectrum</a>
+
 
 .. |audiowave| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterAvfilter-avgblur/" target="_blank">audiowave</a>
+   <a href="https://www.mltframework.org/plugins/FilterAudiowave/" target="_blank">audiowave</a>
 
-.. |audiowaveform| replace:: audiowaveform
+
+.. |audiowaveform| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAudiowaveform/" target="_blank">audiowaveform</a>
+
 
 .. |avfilter.avgblur| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterAvfilter-bilateral/" target="_blank">avfilter.avgblur</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-avgblur/" target="_blank">avfilter.avgblur</a>
 
-.. |avfilter.backgroundkey| replace:: avfilter.backgroundkey
+
+.. |avfilter.backgroundkey| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-backgroundkey/" target="_blank">avfilter.backgroundkey</a>
+
 
 .. |frei0r.curves| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-twolay0r.html?gi-language=c" target="_blank">frei0r.curves</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-curves/" target="_blank">frei0r.curves</a>
+
 
 .. |avfilter.bilateral| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-bluescreen0r.html?gi-language=c" target="_blank">avfilter.bilateral</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-bilateral/" target="_blank">avfilter.bilateral</a>
+
 
 .. |threshold| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-iir-blur.html?gi-language=c" target="_blank">threshold</a>
+   <a href="https://www.mltframework.org/plugins/FilterThreshold/" target="_blank">threshold</a>
 
-.. |frei0r.twolay0r| replace:: frei0r.twolay0r
 
-.. |avfilter.blockdetect| replace:: avfilter.blockdetect
+.. |frei0r.twolay0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-twolay0r/" target="_blank">frei0r.twolay0r</a>
+
+
+.. |avfilter.blockdetect| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-blockdetect/" target="_blank">avfilter.blockdetect</a>
+
 
 .. |frei0r.bluescreen0r| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-brightness/" target="_blank">frei0r.bluescreen0r</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bluescreen0r/" target="_blank">frei0r.bluescreen0r</a>
+
 
 .. |frei0r.IIRblur| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-brightness/" target="_blank">frei0r.IIRblur</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-iirblur/" target="_blank">frei0r.IIRblur</a>
+
 
 .. |avfilter.blurdetect| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-bw0r.html?gi-language=c" target="_blank">avfilter.blurdetect</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-blurdetect/" target="_blank">avfilter.blurdetect</a>
+
 
 .. |boxblur| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-cairogradient.html?gi-language=c" target="_blank">boxblur</a>
+   <a href="https://www.mltframework.org/plugins/FilterBoxblur/" target="_blank">boxblur</a>
+
 
 .. |box_blur| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-cartoon.html?gi-language=c" target="_blank">box_blur</a>
+   <a href="https://www.mltframework.org/plugins/FilterBox_blur/" target="_blank">box_blur</a>
 
-.. |frei0r.b| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-b.html?gi-language=c" target="_blank">frei0r.b</a>
+.. |frei0r.brightness| raw:: html
 
-.. |frei0r.g| raw:: html
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-brightness/" target="_blank">frei0r.brightness</a>
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-g.html?gi-language=c" target="_blank">frei0r.b</a>
+
+.. |brightness| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterBrightness/" target="_blank">brightness</a>
+
 
 .. |frei0r.bw0r| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-r.html?gi-language=c" target="_blank">frei0r.bw0r</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bw0r/" target="_blank">frei0r.bw0r</a>
+
 
 .. |frei0r.cairogradient| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterCharcoal/" target="_blank">frei0r.cairogradient</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-cairogradient/" target="_blank">frei0r.cairogradient</a>
+
 
 .. |frei0r.cartoon| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#chromahold" target="_blank">frei0r.cartoon</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-cartoon/" target="_blank">frei0r.cartoon</a>
 
-.. |frei0r.B| replace:: frei0r.B
+
+.. |frei0r.B| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-b/" target="_blank">frei0r.B</a>
+
 
 .. |frei0r.G| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-select0r.html?gi-language=c" target="_blank">frei0r.G</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-g/" target="_blank">frei0r.G</a>
 
-.. |frei0r.R| replace:: frei0r.R
+
+.. |frei0r.R| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-r/" target="_blank">frei0r.R</a>
+
 
 .. |charcoal| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#chromanr" target="_blank">charcoal</a>
+   <a href="https://www.mltframework.org/plugins/FilterCharcoal/" target="_blank">charcoal</a>
+
 
 .. |avfilter.chromahold| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#chromashift" target="_blank">avfilter.chromahold</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-chromahold/" target="_blank">avfilter.chromahold</a>
+
 
 .. |chroma_hold| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#ciescope" target="_blank">chroma_hold</a>
+   <a href="https://www.mltframework.org/plugins/FilterChroma_hold/" target="_blank">chroma_hold</a>
+
 
 .. |frei0r.select0r| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#selectivecolor-1" target="_blank">frei0r.select0r</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-select0r/" target="_blank">frei0r.select0r</a>
+
 
 .. |chroma| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colorbalance" target="_blank">chroma</a>
+   <a href="https://www.mltframework.org/plugins/FilterChroma/" target="_blank">chroma</a>
+
 
 .. |avfilter.chromanr| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colorchannelmixer" target="_blank">avfilter.chromanr</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-chromanr/" target="_blank">avfilter.chromanr</a>
+
 
 .. |avfilter.chromashift| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colorcontrast" target="_blank">avfilter.chromashift</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-chromashift/" target="_blank">avfilter.chromashift</a>
+
 
 .. |avfilter.ciescope| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colorcorrect" target="_blank">avfilter.ciescope</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-ciescope/" target="_blank">avfilter.ciescope</a>
+
 
 .. |avfilter.selectivecolor| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-color-distance.html?gi-language=c" target="_blank">avfilter.selectivecolor</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-selectivecolor/" target="_blank">avfilter.selectivecolor</a>
+
 
 .. |avfilter.colorbalance| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-colortap.html?gi-language=c" target="_blank">avfilter.colorbalance</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorbalance/" target="_blank">avfilter.colorbalance</a>
 
-.. |avfilter.colorchannelmixer| replace:: avfilter.colorchannelmixer
+
+.. |avfilter.colorchannelmixer| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorchannelmixer/" target="_blank">avfilter.colorchannelmixer</a>
+
 
 .. |avfilter.colorcontrast| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colorlevels" target="_blank">avfilter.colorcontrast</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorcontrast/" target="_blank">avfilter.colorcontrast</a>
+
 
 .. |avfilter.colorcorrect| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colormatrix" target="_blank">avfilter.colorcorrect</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorcorrect/" target="_blank">avfilter.colorcorrect</a>
+
 
 .. |frei0r.colordistance| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colorize" target="_blank">frei0r.colordistance</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-colordistance/" target="_blank">frei0r.colordistance</a>
+
 
 .. |frei0r.colortap| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colorspace" target="_blank">frei0r.colortap</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-colortap/" target="_blank">frei0r.colortap</a>
+
 
 .. |avfilter.colorhold| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#colortemperature" target="_blank">avfilter.colorhold</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorhold/" target="_blank">avfilter.colorhold</a>
 
-.. |avfilter.colorlevels| replace:: avfilter.colorlevels
+
+.. |avfilter.colorlevels| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorlevels/" target="_blank">avfilter.colorlevels</a>
+
 
 .. |avfilter.colormatrix| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-contrast0r.html?gi-language=c" target="_blank">avfilter.colormatrix</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colormatrix/" target="_blank">avfilter.colormatrix</a>
+
 
 .. |avfilter.colorize| raw:: html
 
-   <a href="https://ffmpeg.org/ffmpeg-filters.html#cas" target="_blank">avfilter.colorize</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorize/" target="_blank">avfilter.colorize</a>
+
 
 .. |avfilter.colorspace| raw:: html
 
-   <a href="https://gstreamer.freedesktop.org/documentation/frei0r/frei0r-filter-c0rners.html?gi-language=c" target="_blank">avfilter.colorspace</a>
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colorspace/" target="_blank">avfilter.colorspace</a>
 
-.. |avfilter.colortemperature| replace:: avfilter.colortemperature
 
-.. |frei0r.colorize| replace:: frei0r.colorize
+.. |avfilter.colortemperature| raw:: html
 
-.. |frei0r.contrast0r| replace:: frei0r.contrast0r
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-colortemperature/" target="_blank">avfilter.colortemperature</a>
 
-.. |avfilter.cas| replace:: avfilter.cas
 
-.. |frei0r.c0rners| replace:: frei0r.c0rners
+.. |frei0r.colorize| raw:: html
 
-.. |qtcrop| replace:: qtcrop
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-colorize/" target="_blank">frei0r.colorize</a>
 
-.. |frei0r.scale0tilt| replace:: frei0r.scale0tilt
 
-.. |dance| replace:: dance
+.. |frei0r.contrast0r| raw:: html
 
-.. |avfilter.datascope| replace:: avfilter.datascope
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-contrast0r/" target="_blank">frei0r.contrast0r</a>
 
-.. |avfilter.dblur| replace:: avfilter.dblur
 
-.. |avfilter.dctdnoiz| replace:: avfilter.dctdnoiz
+.. |avfilter.cas| raw:: html
 
-.. |avfilter.deband| replace:: avfilter.deband
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-cas/" target="_blank">avfilter.cas</a>
 
-.. |frei0r.defish0r| replace:: frei0r.defish0r
 
-.. |frei0r.difference| replace:: frei0r.difference
+.. |frei0r.c0rners| raw:: html
 
-.. |frei0r.hqdn3d| replace:: frei0r.hqdn3d
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-c0rners/" target="_blank">frei0r.c0rners</a>
 
-.. |avfilter.despill| replace:: avfilter.despill
 
-.. |avfilter.dilation| replace:: avfilter.dilation
+.. |qtcrop| raw:: html
 
-.. |frei0r.distort0r| replace:: frei0r.distort0r
+   <a href="https://www.mltframework.org/plugins/FilterQtcrop/" target="_blank">qtcrop</a>
 
-.. |frei0r.dither| replace:: frei0r.dither
 
-.. |avfilter.dnn_classify| replace:: avfilter.dnn_classify
+.. |frei0r.scale0tilt| raw:: html
 
-.. |avfilter.dnn_detect| replace:: avfilter.dnn_detect
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-scale0tilt/" target="_blank">frei0r.scale0tilt</a>
 
-.. |avfilter.drawbox| replace:: avfilter.drawbox
 
-.. |avfilter.drawgrid| replace:: avfilter.drawgrid
+.. |dance| raw:: html
 
-.. |dust| replace:: dust
+   <a href="https://www.mltframework.org/plugins/FilterDance/" target="_blank">dance</a>
 
-.. |dynamictext| replace:: dynamictext
 
-.. |crop| replace:: crop
+.. |avfilter.datascope| raw:: html
 
-.. |avfilter.edgedetect| replace:: avfilter.edgedetect
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-datascope/" target="_blank">avfilter.datascope</a>
 
-.. |frei0r.edgeglow| replace:: frei0r.edgeglow
 
-.. |frei0r.elastic_scale| replace:: frei0r.elastic_scale
+.. |avfilter.dblur| raw:: html
 
-.. |avfilter.elbg| replace:: avfilter.elbg
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-dblur/" target="_blank">avfilter.dblur</a>
 
-.. |frei0r.emboss| replace:: frei0r.emboss
 
-.. |avfilter.epx| replace:: avfilter.epx
+.. |avfilter.dctdnoiz| raw:: html
 
-.. |frei0r.equaliz0r| replace:: frei0r.equaliz0r
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-dctdnoiz/" target="_blank">avfilter.dctdnoiz</a>
 
-.. |avfilter.erosion| replace:: avfilter.erosion
 
-.. |avfilter.exposure| replace:: avfilter.exposure
+.. |avfilter.deband| raw:: html
 
-.. |frei0r.facebl0r| replace:: frei0r.facebl0r
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-deband/" target="_blank">avfilter.deband</a>
 
-.. |frei0r.facedetect| replace:: frei0r.facedetect
 
-.. |brightness| replace:: brightness
+.. |frei0r.defish0r| raw:: html
 
-.. |avcolor_space| replace:: avcolor_space
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-defish0r/" target="_blank">frei0r.defish0r</a>
 
-.. |swscale| replace:: swscale
 
-.. |avfilter.fftfilt| replace:: avfilter.fftfilt
+.. |avfilter.delogo| raw:: html
 
-.. |avfilter.fillborders| replace:: avfilter.fillborders
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-delogo/" target="_blank">avfilter.delogo</a>
 
-.. |avfilter.hflip| replace:: avfilter.hflip
 
-.. |avfilter.vflip| replace:: avfilter.vflip
+.. |frei0r.hqdn3d| raw:: html
 
-.. |frei0r.flippo| replace:: frei0r.flippo
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-hqdn3d/" target="_blank">frei0r.hqdn3d</a>
 
-.. |freeze| replace:: freeze
 
-.. |frei0r.gamma| replace:: frei0r.gamma
+.. |avfilter.despill| raw:: html
 
-.. |gamma| replace:: gamma
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-despill/" target="_blank">avfilter.despill</a>
 
-.. |avfilter.gblur| replace:: avfilter.gblur
 
-.. |frei0r.glitch0r| replace:: frei0r.glitch0r
+.. |avfilter.dilation| raw:: html
 
-.. |frei0r.glow| replace:: frei0r.glow
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-dilation/" target="_blank">avfilter.dilation</a>
 
-.. |gpsgraphic| replace:: gpsgraphic
 
-.. |gpstext| replace:: gpstext
+.. |frei0r.distort0r| raw:: html
 
-.. |avfilter.gradfun| replace:: avfilter.gradfun
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-distort0r/" target="_blank">frei0r.distort0r</a>
 
-.. |grain| replace:: grain
 
-.. |avfilter.grayworld| replace:: avfilter.grayworld
+.. |frei0r.dither| raw:: html
 
-.. |greyscale| replace:: greyscale
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-dither/" target="_blank">frei0r.dither</a>
 
-.. |avfilter.histogram| replace:: avfilter.histogram
 
-.. |avfilter.histeq| replace:: avfilter.histeq
+.. |avfilter.dnn_classify| raw:: html
 
-.. |avfilter.hqx| replace:: avfilter.hqx
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-dnn_classify/" target="_blank">avfilter.dnn_classify</a>
 
-.. |avfilter.hsvkey| replace:: avfilter.hsvkey
 
-.. |frei0r.hueshift0r| replace:: frei0r.hueshift0r
+.. |avfilter.dnn_detect| raw:: html
 
-.. |avfilter.huesaturation| replace:: avfilter.huesaturation
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-dnn_detect/" target="_blank">avfilter.dnn_detect</a>
 
-.. |avfilter.hsvhold| replace:: avfilter.hsvhold
 
-.. |avfilter.fieldorder| replace:: avfilter.fieldorder
+.. |avfilter.drawbox| raw:: html
 
-.. |avfilter.il| replace:: avfilter.il
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-drawbox/" target="_blank">avfilter.drawbox</a>
 
-.. |invert| replace:: invert
 
-.. |frei0r.invert0r| replace:: frei0r.invert0r
+.. |avfilter.drawgrid| raw:: html
 
-.. |frei0r.cluster| replace:: frei0r.cluster
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-drawgrid/" target="_blank">avfilter.drawgrid</a>
 
-.. |avfilter.kerndeint| replace:: avfilter.kerndeint
 
-.. |frei0r.keyspillm0pup| replace:: frei0r.keyspillm0pup
+.. |dust| raw:: html
 
-.. |avfilter.kirsch| replace:: avfilter.kirsch
+   <a href="https://www.mltframework.org/plugins/FilterDust/" target="_blank">dust</a>
 
-.. |avfilter.latency| replace:: avfilter.latency
 
-.. |avdeinterlace| replace:: avdeinterlace
+.. |dynamictext| raw:: html
 
-.. |frei0r.lenscorrection| replace:: frei0r.lenscorrection
+   <a href="https://www.mltframework.org/plugins/FilterDynamictext/" target="_blank">dynamictext</a>
 
-.. |avfilter.lenscorrection| replace:: avfilter.lenscorrection
 
-.. |frei0r.letterb0xed| replace:: frei0r.letterb0xed
+.. |crop| raw:: html
 
-.. |frei0r.levels| replace:: frei0r.levels
+   <a href="https://www.mltframework.org/plugins/FilterCrop/" target="_blank">crop</a>
 
-.. |lift_gamma_gain| replace:: lift_gamma_gain
 
-.. |lightshow| replace:: lightshow
+.. |avfilter.edgedetect| raw:: html
 
-.. |avfilter.limiter| replace:: avfilter.limiter
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-edgedetect/" target="_blank">avfilter.edgedetect</a>
 
-.. |lumakey| replace:: lumakey
 
-.. |lumaliftgammagain| replace:: lumaliftgammagain
+.. |frei0r.edgeglow| raw:: html
 
-.. |frei0r.luminance| replace:: frei0r.luminance
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-edgeglow/" target="_blank">frei0r.edgeglow</a>
 
-.. |mask_apply| replace:: mask_apply
 
-.. |avfilter.median| replace:: avfilter.median
+.. |frei0r.elastic_scale| raw:: html
 
-.. |frei0r.medians| replace:: frei0r.medians
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-elastic_scale/" target="_blank">frei0r.elastic_scale</a>
 
-.. |mirror| replace:: mirror
 
-.. |avfilter.monochrome| replace:: avfilter.monochrome
+.. |avfilter.elbg| raw:: html
 
-.. |avfilter.mcdeint| replace:: avfilter.mcdeint
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-elbg/" target="_blank">avfilter.elbg</a>
 
-.. |opencv.tracker| replace:: opencv.tracker
 
-.. |frei0r.ndvi| replace:: frei0r.ndvi
+.. |frei0r.emboss| raw:: html
 
-.. |avfilter.negate| replace:: avfilter.negate
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-emboss/" target="_blank">frei0r.emboss</a>
 
-.. |frei0r.nervous| replace:: frei0r.nervous
 
-.. |frei0r.d90stairsteppingfix| replace:: frei0r.d90stairsteppingfix
+.. |avfilter.epx| raw:: html
 
-.. |frei0r.normaliz0r| replace:: frei0r.normaliz0r
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-epx/" target="_blank">avfilter.epx</a>
 
-.. |avfilter.normalize| replace:: avfilter.normalize
 
-.. |frei0r.nosync0r| replace:: frei0r.nosync0r
+.. |frei0r.equaliz0r| raw:: html
 
-.. |obscure| replace:: obscure
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-equaliz0r/" target="_blank">frei0r.equaliz0r</a>
 
-.. |oldfilm| replace:: oldfilm
 
-.. |avfilter.oscilloscope| replace:: avfilter.oscilloscope
+.. |avfilter.erosion| raw:: html
 
-.. |frei0r.pr0file| replace:: frei0r.pr0file
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-erosion/" target="_blank">avfilter.erosion</a>
 
-.. |avfilter.phase| replace:: avfilter.phase
 
-.. |avfilter.photosensitivity| replace:: avfilter.photosensitivity
+.. |avfilter.exposure| raw:: html
 
-.. |pillar_echo| replace:: pillar_echo
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-exposure/" target="_blank">avfilter.exposure</a>
 
-.. |frei0r.pixeliz0r| replace:: frei0r.pixeliz0r
 
-.. |avfilter.pixelize| replace:: avfilter.pixelize
+.. |frei0r.facebl0r| raw:: html
 
-.. |frei0r.pixs0r| replace:: frei0r.pixs0r
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-facebl0r/" target="_blank">frei0r.facebl0r</a>
 
-.. |avfilter.boxblur| replace:: avfilter.boxblur
 
-.. |affine| replace:: affine
+.. |frei0r.facedetect| raw:: html
 
-.. |frei0r.posterize| replace:: frei0r.posterize
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-facedetect/" target="_blank">frei0r.facedetect</a>
 
-.. |frei0r.premultiply| replace:: frei0r.premultiply
 
-.. |avfilter.prewitt| replace:: avfilter.prewitt
+.. |avcolor_space| raw:: html
 
-.. |frei0r.primaries| replace:: frei0r.primaries
+   <a href="https://www.mltframework.org/plugins/FilterAvcolor_space/" target="_blank">avcolor_space</a>
 
-.. |frei0r.mask0mate| replace:: frei0r.mask0mate
 
-.. |rescale| replace:: rescale
+.. |swscale| raw:: html
 
-.. |frei0r.coloradj_RGB| replace:: frei0r.coloradj_RGB
+   <a href="https://www.mltframework.org/plugins/FilterSwscale/" target="_blank">swscale</a>
 
-.. |frei0r.rgbnoise| replace:: frei0r.rgbnoise
 
-.. |avfilter.rgbashift| replace:: avfilter.rgbashift
+.. |avfilter.fftfilt| raw:: html
 
-.. |frei0r.rgbsplit0r| replace:: frei0r.rgbsplit0r
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-fftfilt/" target="_blank">avfilter.fftfilt</a>
 
-.. |avfilter.roberts| replace:: avfilter.roberts
 
-.. |rotoscoping| replace:: rotoscoping
+.. |avfilter.fillborders| raw:: html
 
-.. |frei0r.saturat0r| replace:: frei0r.saturat0r
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-fillborders/" target="_blank">avfilter.fillborders</a>
 
-.. |frei0r.scanline0r| replace:: frei0r.scanline0r
 
-.. |avfilter.scdet| replace:: avfilter.scdet
+.. |avfilter.hflip| raw:: html
 
-.. |avfilter.scharr| replace:: avfilter.scharr
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-hflip/" target="_blank">avfilter.hflip</a>
 
-.. |lines| replace:: lines
 
-.. |avfilter.scroll| replace:: avfilter.scroll
+.. |avfilter.vflip| raw:: html
 
-.. |sepia| replace:: sepia
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-vflip/" target="_blank">avfilter.vflip</a>
 
-.. |avfilter.setrange| replace:: avfilter.setrange
 
-.. |avfilter.sab| replace:: avfilter.sab
+.. |frei0r.flippo| raw:: html
 
-.. |shape| replace:: shape
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-flippo/" target="_blank">frei0r.flippo</a>
 
-.. |avfilter.unsharp| replace:: avfilter.unsharp
 
-.. |frei0r.sharpness| replace:: frei0r.sharpness
+.. |freeze| raw:: html
 
-.. |avfilter.shear| replace:: avfilter.shear
+   <a href="https://www.mltframework.org/plugins/FilterFreeze/" target="_blank">freeze</a>
 
-.. |frei0r.sigmoidaltransfer| replace:: frei0r.sigmoidaltransfer
 
-.. |avfilter.siti| replace:: avfilter.siti
+.. |frei0r.gamma| raw:: html
 
-.. |avfilter.smartblur| replace:: avfilter.smartblur
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-gamma/" target="_blank">frei0r.gamma</a>
 
-.. |frei0r.sobel| replace:: frei0r.sobel
 
-.. |avfilter.sobel| replace:: avfilter.sobel
+.. |gamma| raw:: html
 
-.. |frei0r.softglow| replace:: frei0r.softglow
+   <a href="https://www.mltframework.org/plugins/FilterGamma/" target="_blank">gamma</a>
 
-.. |frei0r.sopsat| replace:: frei0r.sopsat
 
-.. |frei0r.spillsupress| replace:: frei0r.spillsupress
+.. |avfilter.gblur| raw:: html
 
-.. |spot_remover| replace:: spot_remover
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-gblur/" target="_blank">avfilter.gblur</a>
 
-.. |frei0r.squareblur| replace:: frei0r.squareblur
 
-.. |avfilter.stereo3d| replace:: avfilter.stereo3d
+.. |frei0r.glitch0r| raw:: html
 
-.. |avfilter.super2xsai| replace:: avfilter.super2xsai
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-glitch0r/" target="_blank">frei0r.glitch0r</a>
 
-.. |avfilter.swapuv| replace:: avfilter.swapuv
 
-.. |tcolor| replace:: tcolor
+.. |frei0r.glow| raw:: html
 
-.. |frei0r.threshold0r| replace:: frei0r.threshold0r
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-glow/" target="_blank">frei0r.glow</a>
 
-.. |frei0r.timeout| replace:: frei0r.timeout
 
-.. |timer| replace:: timer
+.. |gpsgraphic| raw:: html
 
-.. |frei0r.tint0r| replace:: frei0r.tint0r
+   <a href="https://www.mltframework.org/plugins/FilterGpsgraphic/" target="_blank">gpsgraphic</a>
 
-.. |avfilter.tonemap_vaapi| replace:: avfilter.tonemap_vaapi
 
-.. |qtblend| replace:: qtblend
+.. |gpstext| raw:: html
 
-.. |frei0r.transparency| replace:: frei0r.transparency
+   <a href="https://www.mltframework.org/plugins/FilterGpstext/" target="_blank">gpstext</a>
 
-.. |avfilter.transpose| replace:: avfilter.transpose
 
-.. |typewriter| replace:: typewriter
+.. |avfilter.gradfun| raw:: html
 
-.. |frei0r.vectorscope| replace:: frei0r.vectorscope
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-gradfun/" target="_blank">avfilter.gradfun</a>
 
-.. |avfilter.vectorscope| replace:: avfilter.vectorscope
 
-.. |frei0r.vertigo| replace:: frei0r.vertigo
+.. |grain| raw:: html
 
-.. |avfilter.vibrance| replace:: avfilter.vibrance
+   <a href="https://www.mltframework.org/plugins/FilterGrain/" target="_blank">grain</a>
 
-.. |avfilter.eq| replace:: avfilter.eq
 
-.. |frei0r.cairoimagegrid| replace:: frei0r.cairoimagegrid
+.. |avfilter.grayworld| raw:: html
 
-.. |frei0r.pr0be| replace:: frei0r.pr0be
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-grayworld/" target="_blank">avfilter.grayworld</a>
 
-.. |avfilter.waveform| replace:: avfilter.waveform
 
-.. |avfilter.noise| replace:: avfilter.noise
+.. |greyscale| raw:: html
 
-.. |frei0r.vignette| replace:: frei0r.vignette
+   <a href="https://www.mltframework.org/plugins/FilterGreyscale/" target="_blank">greyscale</a>
 
-.. |vignette| replace:: vignette
 
-.. |avfilter.vpp_qsv| replace:: avfilter.vpp_qsv
+.. |avfilter.histogram| raw:: html
 
-.. |frei0r.bigsh0t_eq_to_rect| replace:: frei0r.bigsh0t_eq_to_rect
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-histogram/" target="_blank">avfilter.histogram</a>
 
-.. |frei0r.bigsh0t_eq_mask| replace:: frei0r.bigsh0t_eq_mask
 
-.. |freior.bigsh0t_hemi_to_eq| replace:: freior.bigsh0t_hemi_to_eq
+.. |avfilter.histeq| raw:: html
 
-.. |frei0r.bigsh0t_rect_to_eq| replace:: frei0r.bigsh0t_rect_to_eq
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-histeq/" target="_blank">avfilter.histeq</a>
 
-.. |frei0r.bighsh0t_stabilize_360| replace:: frei0r.bighsh0t_stabilize_360
 
-.. |frei0r.bigsh0t_transform_360| replace:: frei0r.bigsh0t_transform_360
+.. |avfilter.hqx| raw:: html
 
-.. |wave| replace:: wave
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-hqx/" target="_blank">avfilter.hqx</a>
 
-.. |avfilter.vaguedenoiser| replace:: avfilter.vaguedenoiser
 
-.. |frei0r.balanc0r| replace:: frei0r.balanc0r
+.. |avfilter.hsvhold| raw:: html
 
-.. |frei0r.colgate| replace:: frei0r.colgate
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-hsvhold/" target="_blank">avfilter.hsvhold</a>
 
-.. |avfilter.xbr| replace:: avfilter.xbr
 
-.. |deinterlace| replace:: deinterlace
+.. |avfilter.hsvkey| raw:: html
 
-.. |avfilter.zoompan| replace:: avfilter.zoompan
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-hsvkey/" target="_blank">avfilter.hsvkey</a>
 
 
-----
+.. |frei0r.hueshift0r| raw:: html
 
-.. [1] |linux|: available in installed version; |appimage|: available in the appimage; |windows|: available in Windows; |apple|: available on MacOS (Intel only)
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-hueshift0r/" target="_blank">frei0r.hueshift0r</a>
+
+
+.. |avfilter.huesaturation| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-huesaturation/" target="_blank">avfilter.huesaturation</a>
+
+
+.. |avfilter.fieldorder| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-fieldorder/" target="_blank">avfilter.fieldorder</a>
+
+
+.. |avfilter.il| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-il/" target="_blank">avfilter.il</a>
+
+
+.. |invert| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterInvert/" target="_blank">invert</a>
+
+
+.. |frei0r.invert0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-invert0r/" target="_blank">frei0r.invert0r</a>
+
+
+.. |frei0r.cluster| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-cluster/" target="_blank">frei0r.cluster</a>
+
+
+.. |avfilter.kerndeint| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-kerndeint/" target="_blank">avfilter.kerndeint</a>
+
+
+.. |frei0r.keyspillm0pup| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-keyspillm0pup/" target="_blank">frei0r.keyspillm0pup</a>
+
+
+.. |avfilter.kirsch| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-kirsch/" target="_blank">avfilter.kirsch</a>
+
+
+.. |avfilter.latency| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-latency/" target="_blank">avfilter.latency</a>
+
+
+.. |avdeinterlace| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvdeinterlace/" target="_blank">avdeinterlace</a>
+
+
+.. |frei0r.lenscorrection| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-lenscorrection/" target="_blank">frei0r.lenscorrection</a>
+
+
+.. |avfilter.lenscorrection| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-lenscorrection/" target="_blank">avfilter.lenscorrection</a>
+
+
+.. |frei0r.letterb0xed| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-letterb0xed/" target="_blank">frei0r.letterb0xed</a>
+
+
+.. |frei0r.levels| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-levels/" target="_blank">frei0r.levels</a>
+
+
+.. |lift_gamma_gain| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLift_gamma_gain/" target="_blank">lift_gamma_gain</a>
+
+
+.. |lightshow| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLightshow/" target="_blank">lightshow</a>
+
+
+.. |avfilter.limiter| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-limiter/" target="_blank">avfilter.limiter</a>
+
+
+.. |lumakey| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLumakey/" target="_blank">lumakey</a>
+
+
+.. |lumaliftgaingamma| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLumaliftgaingamma/" target="_blank">lumaliftgaingamma</a>
+
+
+.. |frei0r.luminance| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-luminance/" target="_blank">frei0r.luminance</a>
+
+
+.. |mask_apply| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterMask_apply/" target="_blank">mask_apply</a>
+
+
+.. |avfilter.median| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-median/" target="_blank">avfilter.median</a>
+
+
+.. |frei0r.medians| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-medians/" target="_blank">frei0r.medians</a>
+
+
+.. |mirror| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterMirror/" target="_blank">mirror</a>
+
+
+.. |avfilter.monochrome| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-monochrome/" target="_blank">avfilter.monochrome</a>
+
+
+.. |opencv.tracker| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterOpencv-tracker/" target="_blank">opencv.tracker</a>
+
+
+.. |frei0r.ndvi| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-ndvi/" target="_blank">frei0r.ndvi</a>
+
+
+.. |avfilter.negate| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-negate/" target="_blank">avfilter.negate</a>
+
+
+.. |frei0r.nervous| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-nervous/" target="_blank">frei0r.nervous</a>
+
+
+.. |frei0r.d90stairsteppingfix| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-d90stairsteppingfix/" target="_blank">frei0r.d90stairsteppingfix</a>
+
+
+.. |frei0r.normaliz0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-normaliz0r/" target="_blank">frei0r.normaliz0r</a>
+
+
+.. |avfilter.normalize| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-normalize/" target="_blank">avfilter.normalize</a>
+
+
+.. |frei0r.nosync0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-nosync0r/" target="_blank">frei0r.nosync0r</a>
+
+
+.. |obscure| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterObscure/" target="_blank">obscure</a>
+
+
+.. |oldfilm| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterOldfilm/" target="_blank">oldfilm</a>
+
+
+.. |avfilter.oscilloscope| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-oscilloscope/" target="_blank">avfilter.oscilloscope</a>
+
+
+.. |frei0r.pr0file| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-pr0file/" target="_blank">frei0r.pr0file</a>
+
+
+.. |avfilter.phase| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-phase/" target="_blank">avfilter.phase</a>
+
+
+.. |avfilter.photosensitivity| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-photosensitivity/" target="_blank">avfilter.photosensitivity</a>
+
+
+.. |pillar_echo| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterPillar_echo/" target="_blank">pillar_echo</a>
+
+
+.. |frei0r.pixeliz0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-pixeliz0r/" target="_blank">frei0r.pixeliz0r</a>
+
+
+.. |avfilter.pixelize| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-pixelize/" target="_blank">avfilter.pixelize</a>
+
+
+.. |frei0r.pixs0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-pixs0r/" target="_blank">frei0r.pixs0r</a>
+
+
+.. |avfilter.boxblur| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-boxblur/" target="_blank">avfilter.boxblur</a>
+
+
+.. |affine| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAffine/" target="_blank">affine</a>
+
+
+.. |frei0r.posterize| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-posterize/" target="_blank">frei0r.posterize</a>
+
+
+.. |frei0r.premultiply| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-premultiply/" target="_blank">frei0r.premultiply</a>
+
+
+.. |avfilter.prewitt| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-prewitt/" target="_blank">avfilter.prewitt</a>
+
+
+.. |frei0r.primaries| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-primaries/" target="_blank">frei0r.primaries</a>
+
+
+.. |frei0r.mask0mate| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-mask0mate/" target="_blank">frei0r.mask0mate</a>
+
+
+.. |rescale| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterRescale/" target="_blank">rescale</a>
+
+
+.. |frei0r.coloradj_RGB| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-coloradj_rgb/" target="_blank">frei0r.coloradj_RGB</a>
+
+
+.. |frei0r.rgbnoise| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-rgbnoise/" target="_blank">frei0r.rgbnoise</a>
+
+
+.. |frei0r.rgbparade| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-rgbparade/" target="_blank">frei0r.rgbparade</a>
+
+
+.. |avfilter.rgbashift| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-rgbashift/" target="_blank">avfilter.rgbashift</a>
+
+
+.. |frei0r.rgbsplit0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-rgbsplit0r/" target="_blank">frei0r.rgbsplit0r</a>
+
+
+.. |avfilter.roberts| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-roberts/" target="_blank">avfilter.roberts</a>
+
+
+.. |rotoscoping| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterRotoscoping/" target="_blank">rotoscoping</a>
+
+
+.. |frei0r.saturat0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-saturat0r/" target="_blank">frei0r.saturat0r</a>
+
+
+.. |frei0r.scanline0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-scanline0r/" target="_blank">frei0r.scanline0r</a>
+
+
+.. |avfilter.scdet| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-scdet/" target="_blank">avfilter.scdet</a>
+
+
+.. |avfilter.scharr| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-scharr/" target="_blank">avfilter.scharr</a>
+
+
+.. |lines| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterLines/" target="_blank">lines</a>
+
+
+.. |avfilter.scroll| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-scroll/" target="_blank">avfilter.scroll</a>
+
+
+.. |sepia| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterSepia/" target="_blank">sepia</a>
+
+
+.. |avfilter.setrange| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-setrange/" target="_blank">avfilter.setrange</a>
+
+
+.. |avfilter.sab| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-sab/" target="_blank">avfilter.sab</a>
+
+
+.. |shape| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterShape/" target="_blank">shape</a>
+
+
+.. |avfilter.unsharp| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-unsharp/" target="_blank">avfilter.unsharp</a>
+
+
+.. |frei0r.sharpness| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-sharpness/" target="_blank">frei0r.sharpness</a>
+
+
+.. |avfilter.shear| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-shear/" target="_blank">avfilter.shear</a>
+
+
+.. |frei0r.sigmoidaltransfer| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-sigmoidaltransfer/" target="_blank">frei0r.sigmoidaltransfer</a>
+
+
+.. |avfilter.siti| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-siti/" target="_blank">avfilter.siti</a>
+
+
+.. |avfilter.smartblur| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-smartblur/" target="_blank">avfilter.smartblur</a>
+
+
+.. |frei0r.sobel| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-sobel/" target="_blank">frei0r.sobel</a>
+
+
+.. |avfilter.sobel| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-sobel/" target="_blank">avfilter.sobel</a>
+
+
+.. |frei0r.softglow| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-softglow/" target="_blank">frei0r.softglow</a>
+
+
+.. |frei0r.sopsat| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-sopsat/" target="_blank">frei0r.sopsat</a>
+
+
+.. |frei0r.spillsupress| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-spillsupress/" target="_blank">frei0r.spillsupress</a>
+
+
+.. |spot_remover| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterSpot_remover/" target="_blank">spot_remover</a>
+
+
+.. |frei0r.squareblur| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-squareblur/" target="_blank">frei0r.squareblur</a>
+
+
+.. |avfilter.stereo3d| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-stereo3d/" target="_blank">avfilter.stereo3d</a>
+
+
+.. |avfilter.super2xsai| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-super2xsai/" target="_blank">avfilter.super2xsai</a>
+
+
+.. |avfilter.swapuv| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-swapuv/" target="_blank">avfilter.swapuv</a>
+
+
+.. |tcolor| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterTcolor/" target="_blank">tcolor</a>
+
+
+.. |frei0r.threshold0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-threshold0r/" target="_blank">frei0r.threshold0r</a>
+
+
+.. |frei0r.timeout| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-timeout/" target="_blank">frei0r.timeout</a>
+
+
+.. |timer| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterTimer/" target="_blank">timer</a>
+
+
+.. |frei0r.tint0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-tint0r/" target="_blank">frei0r.tint0r</a>
+
+
+.. |avfilter.tonemap_vaapi| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-tonemap_vaapi/" target="_blank">avfilter.tonemap_vaapi</a>
+
+
+.. |qtblend| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterQtblend/" target="_blank">qtblend</a>
+
+
+.. |frei0r.transparency| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-transparency/" target="_blank">frei0r.transparency</a>
+
+
+.. |avfilter.transpose| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-transpose/" target="_blank">avfilter.transpose</a>
+
+
+.. |typewriter| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterTypewriter/" target="_blank">typewriter</a>
+
+
+.. |frei0r.vectorscope| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-vectorscope/" target="_blank">frei0r.vectorscope</a>
+
+
+.. |avfilter.vectorscope| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-vectorscope/" target="_blank">avfilter.vectorscope</a>
+
+
+.. |frei0r.vertigo| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-vertigo/" target="_blank">frei0r.vertigo</a>
+
+
+.. |avfilter.vibrance| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-vibrance/" target="_blank">avfilter.vibrance</a>
+
+
+.. |avfilter.eq| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-eq/" target="_blank">avfilter.eq</a>
+
+
+.. |frei0r.cairoimagegrid| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-cairoimagegrid/" target="_blank">frei0r.cairoimagegrid</a>
+
+
+.. |frei0r.pr0be| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-pr0be/" target="_blank">frei0r.pr0be</a>
+
+
+.. |avfilter.waveform| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-waveform/" target="_blank">avfilter.waveform</a>
+
+
+.. |avfilter.noise| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-noise/" target="_blank">avfilter.noise</a>
+
+
+.. |frei0r.vignette| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-vignette/" target="_blank">frei0r.vignette</a>
+
+
+.. |vignette| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterVignette/" target="_blank">vignette</a>
+
+
+.. |frei0r.bigsh0t_eq_to_rect| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_eq_to_rect/" target="_blank">frei0r.bigsh0t_eq_to_rect</a>
+
+
+.. |frei0r.bigsh0t_eq_mask| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_eq_mask/" target="_blank">frei0r.bigsh0t_eq_mask</a>
+
+
+.. |frei0r.bigsh0t_hemi_to_eq| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_hemi_to_eq/" target="_blank">frei0r.bigsh0t_hemi_to_eq</a>
+
+
+.. |frei0r.bigsh0t_rect_to_eq| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_rect_to_eq/" target="_blank">frei0r.bigsh0t_rect_to_eq</a>
+
+
+.. |frei0r.bigsh0t_stabilize_360| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_stabilize_360/" target="_blank">frei0r.bigsh0t_stabilize_360</a>
+
+
+.. |frei0r.bigsh0t_transform_360| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_transform_360/" target="_blank">frei0r.bigsh0t_transform_360</a>
+
+
+.. |wave| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterWave/" target="_blank">wave</a>
+
+
+.. |avfilter.vaguedenoiser| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-vaguedenoiser/" target="_blank">avfilter.vaguedenoiser</a>
+
+
+.. |frei0r.balanc0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-balanc0r/" target="_blank">frei0r.balanc0r</a>
+
+
+.. |frei0r.colgate| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-colgate/" target="_blank">frei0r.colgate</a>
+
+
+.. |avfilter.xbr| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-xbr/" target="_blank">avfilter.xbr</a>
+
+
+.. |deinterlace| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterDeinterlace/" target="_blank">deinterlace</a>
+
+
+.. |avfilter.zoompan| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-zoompan/" target="_blank">avfilter.zoompan</a>
 
 
 .. ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -1594,3 +2198,7 @@ Video Effects
    * - :doc:`/effects_and_compositions/video_effects/stylize/aech0r` |appimage|\ |windows|\ |apple|
      - Stylize
      - analog video echo (|frei0r.aech0r|)
+   * - :doc:`/effects_and_compositions/video_effects/image_adjustment/motion_compensation_deinterlacer` 
+     - |linux|
+     - Image Adjustment
+     - Apply motion-compensation deinterlacing (|avfilter.mcdeint|)

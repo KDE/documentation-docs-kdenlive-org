@@ -68,7 +68,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 35 65
-   :class: table-simple
+   :class: table-wrap
 
    * - Delay the top field
      - Capture field order bottom-first, transfer top-first. Filter will delay the top field.
@@ -88,3 +88,27 @@ The following selection items are available:
      - Filter selects among **Delay bottom**, **Delay Top** and **Keep order** using field flags and image analysis. If no field information is available, then this works just like **Both capture**.
    * - Both capture and transfer unknown or varying
      - Filter selects among **Delay bottom**, **Delay Top** and **Keep order** using image analysis only.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link

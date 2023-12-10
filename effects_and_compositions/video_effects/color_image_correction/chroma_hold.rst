@@ -12,11 +12,6 @@
    :license: Creative Commons License SA 4.0
 
 
-.. .. |color-picker| image:: /images/icons/color-picker.svg
-   :width: 22px
-   :class: no-scaled-link
-
-
 .. |chromahold| raw:: html
 
    <a href="https://ffmpeg.org/ffmpeg-filters.html#chromahold" target="_blank">chromahold</a>
@@ -88,3 +83,31 @@ This effect removes all color information for all colors except the selected one
 
 .. note:: 
    This effect is not as effective and easy to apply as the :doc:`/effects_and_compositions/video_effects/color_image_correction/chroma_keep` effect.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link
+
+   .. |color-picker| image:: /images/icons/color-picker.svg
+   :width: 22px
+   :class: no-scaled-link

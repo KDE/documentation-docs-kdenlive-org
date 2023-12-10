@@ -65,7 +65,7 @@ The filter converts the transfer characteristics, color space and color primarie
    * - Color properties
      - Selection
      - Specify all color properties at once
-   * - Output Color Spac
+   * - Output Color Space
      - Selection
      - Specifies output color space
    * - Output transfer characteristics
@@ -112,7 +112,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
    * - BT.709
      - Default
@@ -137,7 +137,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
    * - BT.709
      - Default
@@ -160,7 +160,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
    * - BT.709
      - Default
@@ -195,7 +195,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
    * - BT.709
      - Default
@@ -224,7 +224,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
    * - TV (restricted range)
      - 
@@ -241,7 +241,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
    * - YUV 4:2:0 planar 8-bits / 10-bits / 12-bits
      - Default is 8-bits
@@ -256,7 +256,7 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
    * - No dithering
      - Default
@@ -269,9 +269,9 @@ The following selection items are available:
 .. list-table::
    :width: 100%
    :widths: 50 50
-   :class: table-simple
+   :class: table-wrap
 
-   * - Identity whitepoint adaptation (no whitepointadaptation)
+   * - Identity whitepoint adaptation (no whitepoint adaptation)
      - Default
    * - Bradford whitepoint adaptation
      - 
@@ -280,3 +280,27 @@ The following selection items are available:
 
 
 For the technical inclined there is a list of detailed |color_space_descriptions| available in the Linux Kernel documentation.
+
+
+.. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Icons used here (remove comment indent to enable them for this document)
+   
+   .. |linux| image:: /images/icons/linux.png
+   :width: 14px
+   :alt: Linux
+   :class: no-scaled-link
+
+   .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
+   :width: 14px
+   :alt: appimage
+   :class: no-scaled-link
+
+   .. |windows| image:: /images/icons/windows.png
+   :width: 14px
+   :alt: Windows
+   :class: no-scaled-link
+
+   .. |apple| image:: /images/icons/apple.png
+   :width: 14px
+   :alt: MacOS
+   :class: no-scaled-link
