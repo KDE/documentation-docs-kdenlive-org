@@ -65,7 +65,7 @@ The filter converts the transfer characteristics, color space and color primarie
    * - Color properties
      - Selection
      - Specify all color properties at once
-   * - Output Color Spac
+   * - Output Color Space
      - Selection
      - Specifies output color space
    * - Output transfer characteristics

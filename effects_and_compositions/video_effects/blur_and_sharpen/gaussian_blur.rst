@@ -99,7 +99,7 @@ The following selection items are available:
    * - YV
      - Both Y and V planes
    * - UV
-     - Bot U and V planes
+     - Both U and V planes
    * - YUV
      - All planes will be affected by the blur effect (default)
    * - None

@@ -53,7 +53,7 @@ This effect/filter converts video to gray using custom color filter.
    * - Parameter
      - Value
      - Description
-   * - Chroma blue spo
+   * - Chroma blue spot
      - Float
      - Set the :term:`chroma` blue spot. Allowed range is from -1 to 1. Default value is 0.
    * - Chroma red spot

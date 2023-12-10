@@ -94,7 +94,7 @@ The following selection items are available:
    * - Multiply
      - Multiplies channel with a value between 0.3333 and 3.0 (sometimes called "gain" or "contrast")
    * - 
-     - Changes the size of the cube, keeping the "black" corner fixed, affecting predominately highlights, but the other end can still "fall out" and get 255 truncated.)
+     - Changes the size of the cube, keeping the "black" corner fixed, affecting predominately highlights, but the other end can still "fall out" and get 255 truncated.
 
 :guilabel:`Luma formula`
 
