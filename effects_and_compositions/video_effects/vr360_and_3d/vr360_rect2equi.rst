@@ -58,7 +58,7 @@ This effect/filter converts a rectilinear (a normal-looking) image to an equirec
    * - Interpolation
      - Selection
      - Choose the interpolation algorithm
-   * - Vertical Star
+   * - Vertical Start
      - Integer
      - Determines the vertical FOV\ [2]_
    * - Horizontal Start
