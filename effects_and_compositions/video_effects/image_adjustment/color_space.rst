@@ -74,7 +74,7 @@ The filter converts the transfer characteristics, color space and color primarie
    * - Output Color Primaries
      - Selection
      - Specifies output color primaries
-   * - Output Color Rang
+   * - Output Color Range
      - Selection
      - Specifies output color range
    * - Output Color Format
