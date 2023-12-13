@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-11 00:36+0000\n"
-"PO-Revision-Date: 2023-12-11 23:40+0200\n"
+"PO-Revision-Date: 2023-12-12 16:41+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -47,16 +47,17 @@ msgid "**Known bugs**"
 msgstr "**Відомі вади**"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:1
-#, fuzzy
 #| msgid "Alpha Shapes (Mask)"
 msgid "Kdenlive Video Effects - Alpha Shapes (Mask)"
-msgstr "α-форми (маска)"
+msgstr "Відеоефекти Kdenlive — α-форми (маска)"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:1
 msgid ""
 "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
 "effects, alpha shapes (mask), mask"
 msgstr ""
+"KDE, Kdenlive, відеоредактор, довідка, вивчення, просте, ефекти, фільтр, "
+"відеоефекти, альфа-форма (маска), прозорість, маска"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:18
 msgid "Alpha Shapes (Mask)"
@@ -93,7 +94,6 @@ msgid "Description"
 msgstr "Опис"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:47
-#, fuzzy
 #| msgid ""
 #| "This filter takes a snapshot of the frame before it draws simple shapes "
 #| "into the alpha channel. Use it together with the :ref:`Mask Apply "
@@ -109,14 +109,17 @@ msgid ""
 "composite the current frame's image over the snapshot. The typical use case "
 "is to add effects in the following sequence:"
 msgstr ""
-"Цей фільтр створює знімок кадру до малювання простих форм на каналі "
-"прозорості. Скористайтеся ним у поєднанні із ефектом :ref:`застосування "
-"маски <effects-mask_apply>`, який використовує перехід для створення "
+"Цей ефект на базовому рівні працює як ефект :doc:`альфа-форм </"
+"effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes>`, але"
+" створює знімок кадру до малювання простих форм на каналі "
+"прозорості. Скористайтеся ним у поєднанні із ефектом"
+" :doc:`/effects_and_compositions/"
+"video_effects/alpha_mask_keying/mask_apply`, який використовує перехід для"
+" створення "
 "композиції зображення поточного кадру і знімка. Типове використання полягає "
 "у додаванні ефектів у такій послідовності:"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:49
-#, fuzzy
 #| msgid ""
 #| "Alpha Shapes Mask (this effect) -->  zero or more effects (e.g. Blur, "
 #| "Cartoon) -->  Mask Apply [--> more effects if needed]"
@@ -127,7 +130,10 @@ msgid ""
 ">  Mask Apply [--> more effects if needed]"
 msgstr ""
 "Маска α-форми (цей ефект) --> нуль або більше ефектів (наприклад, "
-"розмивання, мультиплікації) --> Застосування маски [--> якщо потрібно, "
+":doc:`розмивання </"
+"effects_and_compositions/video_effects/blur_and_sharpen/gaussian_blur>`, :"
+"doc:`мультиплікації </effects_and_compositions/video_effects/stylize/cartoon"
+">`) --> Застосування маски [--> якщо потрібно, "
 "додаткові ефекти]"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:56
@@ -143,7 +149,6 @@ msgid "Value"
 msgstr "Значення"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:66
-#, fuzzy
 msgid "Shape"
 msgstr "Форма"
 
@@ -155,9 +160,10 @@ msgstr "Вибір"
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:68
 msgid "Controls the shape of the area of opacity that the effect will create."
 msgstr ""
+"Визначає форму області непрозорості, яку буде створено у результаті "
+"застосування ефекту."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:69
-#, fuzzy
 msgid "Operation"
 msgstr "Дія"
 
@@ -166,10 +172,12 @@ msgid ""
 "Defines what is to happen when you have more than one alpha effect on the "
 "clip"
 msgstr ""
+"Визначає, що має статися, якщо для кліпу використано декілька "
+"ефектів прозорості"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:72
 msgid "Position X / Y"
-msgstr ""
+msgstr "Позиція за X та Y"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:73
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:76
@@ -185,18 +193,20 @@ msgid ""
 "Defines the position of the shape on the screen. The range of values is from "
 "0 to 1000 where 500 defines the middle of the screen."
 msgstr ""
+"Визначає позицію форми на екрані. Діапазон значень — від "
+"0 до 1000. 500 "
+"відповідає середині екрана."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:75
 msgid "Size X / Y"
-msgstr ""
+msgstr "Розмір за X та Y"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:77
-#, fuzzy
 msgid ""
 "Defines the size of the shape. The range of values is from 0 to 1000 where "
 "500 defines 100%,"
 msgstr ""
-"Визначає розмір форми. Діапазон значень — від 0 до 1000. 500 відповідає 100%"
+"Визначає розмір форми. Діапазон значень — від 0 до 1000. 500 відповідає 100%,"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:78
 msgid "Tilt"
@@ -208,6 +218,9 @@ msgid ""
 "of a full rotation. For example, a value of 250 is one quarter of a circle "
 "turn and 500 is a 180-degree turn. That means, 1000 tilt units = 360 degrees."
 msgstr ""
+"Керує кутом розміщення форми на екрані. Значенням є число у тисячних повного "
+"оберту. Наприклад, коефіцієнт 250 означає чверть кола, а 500 — оборот у 180 "
+"градусів. Тобто 1000 одиниць нахилу = 360 градусів."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:81
 msgid "Transition width"
@@ -219,16 +232,17 @@ msgid ""
 "from the inside to the outside of the shape. Can be used for feathering or "
 "creating a frame."
 msgstr ""
+"Визначає ширину примежової області форми із проміжними значенням прозорості "
+"від внутрішньої до зовнішньої частини форми. Можна скористатися для "
+"створення ефекту Розмивання або створення рамки."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:84
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:120
-#, fuzzy
 msgid "Min"
 msgstr "Мін."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:87
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:118
-#, fuzzy
 msgid "Max"
 msgstr "Макс."
 
@@ -238,17 +252,16 @@ msgstr "Доступними є такі пункти вибору:"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:93
 msgid ":guilabel:`Shape`"
-msgstr ""
+msgstr ":guilabel:`Форма`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:100
 msgid "Rectangle"
 msgstr "Прямокутник"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:101
-#, fuzzy
 #| msgid "Rectangle"
 msgid "Draws a rectangle"
-msgstr "Прямокутник"
+msgstr "Малювання прямокутника"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:102
 msgid "Ellipse"
@@ -256,51 +269,51 @@ msgstr "Еліпс"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:103
 msgid "Draws an ellipse/circle"
-msgstr ""
+msgstr "Малювання еліпса або кола"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:104
-#, fuzzy
 msgid "Triangle"
 msgstr "Трикутник"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:105
 msgid "Draws a triangle"
-msgstr ""
+msgstr "Малювання трикутника"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:106
-#, fuzzy
 msgid "Diamond"
 msgstr "Ромб"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:107
-#, fuzzy
 msgid "Draws a diamond"
-msgstr "Ромб"
+msgstr "Малювання ромба"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:109
 msgid ":guilabel:`Operation`"
 msgstr ":guilabel:`Дія`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:116
-#, fuzzy
 msgid "Write On Clear"
 msgstr "Запис при очищенні"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:117
 msgid "Existing alpha mask is overwritten"
-msgstr ""
+msgstr "Наявну маску прозорості буде перезаписано"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:119
 msgid ""
 "Take the maximum between the existing alpha mask and the mask generated by "
 "this filter"
 msgstr ""
+"Максимальне значення між наявною маскою прозорості і "
+"маскою, яку створено цим фільтром"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:121
 msgid ""
 "Take the minimum between existing alpha mask and mask generated by this "
 "filter"
 msgstr ""
+"Мінімальне значення між наявною маскою прозорості і "
+"маскою, яку створено цим фільтром"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:122
 msgid "Add"
@@ -308,10 +321,9 @@ msgstr "Додати"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:123
 msgid "Add the existing alpha mask and the mask generated by this filter"
-msgstr ""
+msgstr "Додати наявну маска прозорості до маски, яку створено цим фільтром"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:124
-#, fuzzy
 msgid "Subtract"
 msgstr "Відняти"
 
@@ -319,6 +331,8 @@ msgstr "Відняти"
 msgid ""
 "Subtract from the existing alpha mask the mask generated by this filter"
 msgstr ""
+"Відняти від наявної маски прозорості маску, яку створено цим "
+"фільтром"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:129
 msgid "Notes"
@@ -330,6 +344,10 @@ msgid ""
 "alpha_shapes>` effect for more details and examples for the various shapes "
 "and operations."
 msgstr ""
+"Див. ефект :doc:`альфа-форм</effects_and_compositions/video_effects/alpha_mas"
+"k_keying/"
+"alpha_shapes>`, щоб дізнатися більше і ознайомитися із прикладами"
+" різноманітних форм і дій."
 
 #~ msgid ""
 #~ "For a more detailed description of the Alpha Shapes effect refer to the :"
