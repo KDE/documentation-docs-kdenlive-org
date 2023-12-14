@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-09 00:36+0000\n"
-"PO-Revision-Date: 2023-12-10 12:39+0100\n"
+"PO-Revision-Date: 2023-12-13 19:59+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <kde-i18n-doc@kde.org>\n"
 "Language: sl\n"
@@ -80,6 +80,7 @@ msgid "frei0r"
 msgstr "frei0r"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:31
+#| msgid "Cairogradient"
 msgid "cairogradient"
 msgstr "cairogradient"
 
@@ -133,6 +134,7 @@ msgstr "Način stapljanja"
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:63
 msgid "Determines the mode used to composite  gradient and image source"
 msgstr ""
+"Določa način, ki se uporablja za sestavljanje preliva in izvorne slike."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:64
 msgid "Start Color"
@@ -240,6 +242,8 @@ msgid ""
 "This is the default attribute which specifies no blending. The blending "
 "formula simply selects the source color."
 msgstr ""
+"To je privzeti atribut, ki ne določa mešanja. Formula za mešanje preprosto "
+"izbere izvorno barvo."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:109
 msgid "add"
@@ -254,18 +258,24 @@ msgid "multiply"
 msgstr "multiply (množenje)"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:114
+#, fuzzy
 msgid ""
 "The source color is multiplied by the destination color and replaces the "
 "destination. The resultant color is always at least as dark as either the "
 "source or destination color. Multiplying any color with black results in "
 "black. Multiplying any color with white preserves the original color."
 msgstr ""
+"Izvorna barva se pomnoži s ciljno barvo in nadomesti ciljno barvo. "
+"Rezultatska barva je vedno vsaj tako temna kot izvorna ali ciljna barva. Če "
+"katero koli barvo pomnožimo s črno, dobimo črno barvo. Če katero koli barvo "
+"pomnožimo z belo, ohranimo prvotno barvo."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:115
 msgid "screen"
 msgstr "screen (zaslon)"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:116
+#, fuzzy
 msgid ""
 "Multiplies the complements of the backdrop and source color values, then "
 "complements the result. The result color is always at least as light as "
@@ -274,174 +284,197 @@ msgid ""
 "The effect is similar to projecting multiple photographic slides "
 "simultaneously onto a single screen."
 msgstr ""
+"Pomnoži dopolnitve barvnih vrednosti ozadja in vira, nato pa rezultat "
+"dopolni. Barva rezultata je vedno vsaj tako svetla kot katera koli od obeh "
+"sestavnih barv. Če katero koli barvo preslikate z belo, dobite belo barvo, "
+"če jo preslikate s črno, pa ostane prvotna barva nespremenjena. Učinek je "
+"podoben hkratnemu projiciranju več fotografskih diapozitivov na eno samo "
+"platno."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:117
 msgid "overlay"
 msgstr "overlay (prekrij)"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:118
+#, fuzzy
 msgid ""
 "Multiplies or screens the colors, depending on the backdrop color value. "
 "Source colors overlay the backdrop while preserving its highlights and "
 "shadows. The backdrop color is not replaced but is mixed with the source "
 "color to reflect the lightness or darkness of the backdrop."
 msgstr ""
+"Barve pomnoži ali preslika, odvisno od vrednosti barve ozadja. Izvorne barve "
+"prekrijejo ozadje, pri čemer ohranijo njegove svetle dele in sence. Barva "
+"ozadja se ne nadomesti, temveč se pomeša z barvo vira, da odraža svetlost "
+"ali temnost ozadja."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:119
 msgid "darken"
 msgstr "darken (potemni)"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:120
+#, fuzzy
 msgid ""
 "Selects the darker of the backdrop and source colors. The backdrop is "
 "replaced with the source where the source is darker; otherwise, it is left "
 "unchanged."
 msgstr ""
+"Izbere temnejšo od barv ozadja in vira. Če je ozadje temnejše, se nadomesti "
+"z virom, sicer pa ostane nespremenjeno."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:121
 msgid "lighten"
 msgstr "lighten (posvetli)"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:122
+#, fuzzy
 msgid ""
 "Selects the lighter of the backdrop and source colors. The backdrop is "
 "replaced with the source where the source is lighter; otherwise, it is left "
 "unchanged."
 msgstr ""
+"Izbere svetlejšo barvo ozadja in barvo vira. Če je ozadje svetlejše, se "
+"nadomesti z virom, sicer pa ostane nespremenjeno."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:123
 msgid "colordodge"
 msgstr "colordodge"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:124
+#, fuzzy
 msgid ""
 "Brightens the backdrop color to reflect the source color. Painting with "
 "black produces no changes."
 msgstr ""
+"Posvetli barvo ozadja, da odraža barvo vira. Barvanje s črno barvo ne "
+"povzroči sprememb."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:125
 msgid "colorburn"
 msgstr "colorburn"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:126
+#, fuzzy
 msgid ""
 "Darkens the backdrop color to reflect the source color. Painting with white "
 "produces no change."
 msgstr ""
+"Temni barvo ozadja, da odraža barvo vira. Barvanje z belo barvo ne povzroči "
+"sprememb."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:127
 msgid "hardlight"
 msgstr "hardlight"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:128
+#, fuzzy
 msgid ""
 "Multiplies or screens the colors, depending on the source color value. The "
 "effect is similar to shining a harsh spotlight on the backdrop."
 msgstr ""
+"Barve pomnoži ali preslika, odvisno od izvorne barvne vrednosti. Učinek je "
+"podoben, kot če bi na ozadje posvetili močno svetlobo reflektorja."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:129
 msgid "softlight"
 msgstr "softlight"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:130
+#, fuzzy
 msgid ""
 "Darkens or lightens the colors, depending on the source color value. The "
 "effect is similar to shining a diffused spotlight on the backdrop."
 msgstr ""
+"Temni ali svetli barve, odvisno od barvne vrednosti vira. Učinek je podoben, "
+"kot če bi na ozadje svetili z razpršenim žarometom."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:131
 msgid "difference"
 msgstr "difference (razlika)"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:132
+#, fuzzy
 msgid ""
 "Subtracts the darker of the two constituent colors from the lighter color. "
 "Painting with white inverts the backdrop color; painting with black produces "
 "no change."
 msgstr ""
+"Od svetlejše barve odšteje temnejšo od obeh sestavnih barv. Barvanje z belo "
+"barvo spremeni barvo ozadja, barvanje s črno barvo pa ne povzroči sprememb."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:133
 msgid "exclusion"
 msgstr "exclusion (izločitev)"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:134
+#, fuzzy
 msgid ""
 "Produces an effect similar to that of the Difference mode but lower in "
 "contrast. Painting with white inverts the backdrop color; painting with "
 "black produces no change."
 msgstr ""
+"Ustvari podoben učinek kot način Difference, vendar z nižjim kontrastom. "
+"Slikanje z belo barvo obrne barvo ozadja, slikanje s črno barvo pa ne "
+"povzroči sprememb."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:135
 msgid "hslhue"
 msgstr "hslhue"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:136
+#, fuzzy
 msgid ""
 "Creates a color with the hue of the source color and the saturation and "
 "luminosity of the backdrop color."
 msgstr ""
+"Ustvari barvo z odtenkom izvorne barve ter nasičenostjo in svetlostjo barve "
+"ozadja."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:137
 msgid "hslsaturation"
 msgstr "hslsaturation"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:138
+#, fuzzy
 msgid ""
 "Creates a color with the saturation of the source color and the hue and "
 "luminosity of the backdrop color. Painting with this mode in an area of the "
 "backdrop that is a pure gray (no saturation) produces no change."
 msgstr ""
+"Ustvari barvo z nasičenostjo izvorne barve ter odtenkom in svetlostjo barve "
+"ozadja. Barvanje s tem načinom na območju ozadja, ki je čisto sivo (brez "
+"nasičenosti), ne povzroči sprememb."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:139
 msgid "hslcolor"
 msgstr "hslcolor"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:140
+#, fuzzy
 msgid ""
 "Creates a color with the hue and saturation of the source color and the "
 "luminosity of the backdrop color. This preserves the gray levels of the "
 "backdrop and is useful for coloring monochrome images or tinting color "
 "images."
 msgstr ""
+"Ustvari barvo z odtenkom in nasičenostjo izvorne barve ter svetlostjo barve "
+"ozadja. To ohrani ravni sivine ozadja in je uporabno za barvanje enobarvnih "
+"slik ali obarvanje barvnih slik."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:141
 msgid "hslluminosity"
 msgstr "hslluminosity"
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:142
+#, fuzzy
 msgid ""
 "Creates a color with the luminosity of the source color and the hue and "
 "saturation of the backdrop color. This produces an inverse effect to that of "
 "the Color mode."
 msgstr ""
+"Ustvari barvo s svetlostjo izvorne barve ter odtenkom in nasičenostjo barve "
+"ozadja. To ustvari učinek, ki je obraten učinku načina Barva."
 
 #: ../../effects_and_compositions/video_effects/generate/cairogradient.rst:152
 msgid "For more details see this W3 paper on |blending_modes|"
 msgstr "Podrobnosti si preberite v članku W3 o teh načinih (|blending_modes|)."
-
-#~ msgid ""
-#~ "Do your first steps with Kdenlive video editor, using cairogradient effect"
-#~ msgstr ""
-#~ "Opravite svoje prve korake z montažnim programom Kdenlive z uporabo "
-#~ "učinka cairogradient"
-
-#~ msgid "Cairogradient effect"
-#~ msgstr "Učinek cairogradient"
-
-#~ msgid "**Pattern** - Set to **Linear** or **Radial**"
-#~ msgstr "**Vzorec** - nastavljen na **Linearen** ali **Radialen**"
-
-#~ msgid ""
-#~ "**Blend Mode** - Determines the mode used to composite  gradient and "
-#~ "image source. Options are **normal**, **add**, **saturate**, "
-#~ "**multiply**, **screen**, **overlay**, **darken**, **lighten**, "
-#~ "**colordodge**, **colorburn**, **hardlight**, **softlight**, "
-#~ "**difference**, **exclusion**, **hslhue**, **hslsaturation**, "
-#~ "**hslcolor** and **hslluminosity**. Default is **normal**."
-#~ msgstr ""
-#~ "**Način zlivanja** - določa način, uporabljen za sestavljanje preliva in "
-#~ "slikovnega vira. Možnosti so **normal**, **add**, **saturate**, "
-#~ "**multiply**, **screen**, **overlay**, **darken**, **lighten**, "
-#~ "**colordodge**, **colorburn**, **hardlight**, **softlight**, "
-#~ "**difference**, **exclusion**, **hslhue**, **hslsaturation**, "
-#~ "**hslcolor** in **hslluminosity**. Privzeta vrednost je **normal**."
