@@ -1,26 +1,33 @@
-stages:
-  - build
-  - test
-  - deploy
-
-include:
-  - project: sysadmin/ci-utilities
-    file:
-      - /gitlab-templates/website-sphinx-app-docs.yml
-
 variables:
     EPUB_NAME: KdenliveManual
     WEBSITE_DOMAIN: docs.kdenlive.org
+    WEBSITE_LANGUAGES: en de fr nl es tr da pt_BR ru uk_UA zh_CN zh_TW ja ko ca sk sv it sl cs pl
 
-run_tests:
-  stage: test
-  image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
-  only:
-    - branches
-    - merge_requests
-    - tags
-  tags:
-    - Linux
-  script:
-    - make test
+build_sphinx_app_docs:
+    image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
+    tags:
+      - Linux
+    stage: build
+    script:
+      - git config --global --add safe.directory $CI_PROJECT_DIR
+      - |
+        for langToBuild in $WEBSITE_LANGUAGES; do
+          # build html
+          sphinx-build -M html . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-html.log
+          mkdir -p public/$langToBuild/
+          mv _staging/$langToBuild/html/* public/$langToBuild/
+          # build epub
+          sphinx-build -M epub . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-epub.log
+          mkdir public/$langToBuild/epub/
+          mv _staging/$langToBuild/epub/$EPUB_NAME.epub public/$langToBuild/epub/
+        done
+      # turn duplicated files like image for each language into symlinks to reduce file size
+      - rdfind -makesymlinks true -makeresultsfile false $CI_PROJECT_DIR/public/
+      # make symlinks relative (rdfind creates absolute symlinks)
+      - symlinks -cr $CI_PROJECT_DIR/public/
 
+    artifacts:
+        expire_in: 2 weeks
+        paths:
+          - _logs/
+          - public/
