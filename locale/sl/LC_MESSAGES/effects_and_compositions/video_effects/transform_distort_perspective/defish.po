@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-11 00:36+0000\n"
-"PO-Revision-Date: 2023-12-13 18:26+0100\n"
+"PO-Revision-Date: 2023-12-16 17:19+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -66,7 +66,6 @@ msgid "Amount"
 msgstr "Količina"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:1
-#, fuzzy
 msgid "Kdenlive Video Effects - Defish"
 msgstr "Video učinki Kdenlive - Razribje oko"
 
@@ -100,6 +99,7 @@ msgid "frei0r"
 msgstr "frei0r"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:34
+#| msgid "Defish"
 msgid "defish0r"
 msgstr "defish0r"
 
@@ -145,7 +145,6 @@ msgid "Value"
 msgstr "Vrednost"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:61
-#, fuzzy
 msgid "DeFish"
 msgstr "Razribje oko"
 
@@ -178,7 +177,6 @@ msgid "Selection"
 msgstr "Izbor"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:66
-#, fuzzy
 msgid "Selects the fisheye angular mapping function used"
 msgstr "Izbere funkcijo preslikave kotov ribjega očesa, ki bo uporabljena"
 
@@ -275,15 +273,12 @@ msgid "equidistant"
 msgstr "Ekvidistančno"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:107
-#, fuzzy
-#| msgid "stereographic"
 msgid "orthographic"
-msgstr "Ortografska"
+msgstr "pravokotno"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:109
-#, fuzzy
 msgid "equiarea"
-msgstr "equiarea"
+msgstr "enakopovršinsko"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:110
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:136
@@ -297,12 +292,10 @@ msgid "stereographic"
 msgstr "Stereografsko"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:114
-#, fuzzy
 msgid ":guilabel:`Scaling`"
 msgstr ":guilabel:`Spreminjanja merila`"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:121
-#, fuzzy
 msgid "Fit"
 msgstr "Prilagodi"
 
@@ -394,17 +387,6 @@ msgid "Parameters explained"
 msgstr "Pojasnila o parametrih"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:170
-#, fuzzy
-#| msgid ""
-#| "There are seven different interpolation methods allowing to make a "
-#| "quality/speed trade-off. The interpolators are ordered from fast, low "
-#| "quality to (very) slow, high quality. The spline interpolating "
-#| "polynomials are from Helmut Dersch. For real-time use, **Nearest "
-#| "neighbor** is the fastest because, in fact, it is equal to no "
-#| "interpolation. In most cases **Bilinear** should be good enough, and on a "
-#| "decent machine should still run in real time. Beyond **Bicubic**, the "
-#| "quality gain is marginal for a single resampling. **Lanczos** takes an "
-#| "eternity!"
 msgid ""
 "The seven different interpolation methods allow making a quality/speed trade-"
 "off. The interpolators are ordered from fast, low quality to (very) slow, "
@@ -426,21 +408,6 @@ msgstr ""
 "samem ponovnem prevzorčenju. **Lanczos** traja celo večnost!"
 
 #: ../../effects_and_compositions/video_effects/transform_distort_perspective/defish.rst:173
-#, fuzzy
-#| msgid ""
-#| "Controls the amount of (de)distortion applied to the video. It controls "
-#| "the ratio of fisheye focal length to image half diagonal, but in an "
-#| "nonlinear inverse way, to make the control more \"comfortable\". It can "
-#| "be adjusted beyond \"reasonable\" values (which differ between the "
-#| "mapping function types), to produce some looney effects. When exploring "
-#| "this range and the image disappears, check the scaling as it could be "
-#| "that the image became too big or too small to see. For some unreasonable "
-#| "values the image might indeed disappear, when there are math overflows or "
-#| "imaginary results... (:guilabel:`Type` **Equidistant** and "
-#| "**Orthographic** are more prone to image vanishing). Anyway, when working "
-#| "in the \"special effect\" range, it is always worth to try manual "
-#| "scaling. If the video contains zooming through a curvy wide angle "
-#| "adaptor, the needed amount will vary. In this case use keyframing."
 msgid ""
 "Controls the amount of (de)distortion applied to the video. It controls the "
 "ratio of fisheye focal length to image half diagonal, but in an nonlinear "
@@ -455,7 +422,7 @@ msgid ""
 "to try manual scaling. If the video contains zooming through a curvy wide "
 "angle adaptor, the needed amount will vary. In this case use keyframing."
 msgstr ""
-"Nadzira količino (de)izkrivljanja, ki se uporablja za videoposnetek. "
+"Nadzira količino (raz)izkrivljanja, ki se uporablja za videoposnetek. "
 "Nadzoruje razmerje med goriščno razdaljo in poldiagonalo slike ribjega "
 "očesa, vendar na nelinearno inverzen način, da je nadzor bolj »udoben«. "
 "Lahko ga prilagodimo preko »razumnih« vrednosti (ki se razlikujejo med "
@@ -465,8 +432,8 @@ msgstr ""
 "nekaterih nesmiselnih vrednostih lahko slika res izgine, ko pride do "
 "matematičnih prekoračitev ali namišljenih rezultatov ... (:guilabel:`vrsti` "
 "**ekvidistančno** in **pravokotno**  sta bolj nagnjeni k izginjanju slike). "
-"Kakorkoli že, pri delu v obsegu \"posebnega učinka\" je vedno vredno "
-"poskusiti ročno spreminjanje merila. Če videoposnetek vsebuje povečave prek "
+"Kakorkoli že, pri delu v obsegu »posebnega učinka« je vedno vredno poskusiti "
+"ročno spreminjanje merila. Če videoposnetek vsebuje povečave prek "
 "ukrivljenega širokokotnega adapterja, se bo potrebna količina spreminjala. V "
 "tem primeru uporabite ključne sličice."
 
