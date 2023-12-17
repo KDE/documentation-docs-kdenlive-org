@@ -13,11 +13,11 @@ build_sphinx_app_docs:
       - |
         for langToBuild in $WEBSITE_LANGUAGES; do
           # build html
-          sphinx-build -M html . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-html.log
+          sphinx-build -M html . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-html.log -j auto
           mkdir -p public/$langToBuild/
           mv _staging/$langToBuild/html/* public/$langToBuild/
           # build epub
-          sphinx-build -M epub . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-epub.log
+          sphinx-build -M epub . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-epub.log -j auto
           mkdir public/$langToBuild/epub/
           mv _staging/$langToBuild/epub/$EPUB_NAME.epub public/$langToBuild/epub/
         done
