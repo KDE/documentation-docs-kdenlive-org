@@ -1,33 +1,38 @@
 variables:
     EPUB_NAME: KdenliveManual
-    WEBSITE_DOMAIN: docs.kdenlive.org
     WEBSITE_LANGUAGES: en de fr nl es tr da pt_BR ru uk_UA zh_CN zh_TW ja ko ca sk it sl cs pl # sv (broken atm)
 
 build_sphinx_app_docs:
     image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
     tags:
       - Linux
+    variables:
+      GIT_DEPTH: "3"
     stage: build
     script:
       - git config --global --add safe.directory $CI_PROJECT_DIR
+      # build html
       - |
         for langToBuild in $WEBSITE_LANGUAGES; do
-          # build html
-          sphinx-build -M html . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-html.log -j auto -d $CI_PROJECT_DIR/.doctree
-          mkdir -p public/$langToBuild/
-          mv _staging/$langToBuild/html/* public/$langToBuild/
-          # build epub
-          sphinx-build -M epub . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-epub.log -j auto -d $CI_PROJECT_DIR/.doctree
-          mkdir public/$langToBuild/epub/
-          mv _staging/$langToBuild/epub/$EPUB_NAME.epub public/$langToBuild/epub/
+          time sphinx-build -M html . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-html.log -j auto -d $CI_PROJECT_DIR/.doctree
+          time mkdir -p public/$langToBuild/
+          time mv _staging/$langToBuild/html/* public/$langToBuild/
         done
+      # build epub (if EPUB_NAME is not empty)
+      - |
+        if [ -n "$EPUB_NAME" ]; then
+          for langToBuild in $WEBSITE_LANGUAGES; do
+            time sphinx-build -M epub . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-epub.log -j auto -d $CI_PROJECT_DIR/.doctree
+            time mkdir public/$langToBuild/epub/
+            time mv _staging/$langToBuild/epub/$EPUB_NAME.epub public/$langToBuild/epub/
+          done
+        fi
       # turn duplicated files like image for each language into symlinks to reduce file size
-      - rdfind -makesymlinks true -makeresultsfile false $CI_PROJECT_DIR/public/
+      - time rdfind -makesymlinks true -makeresultsfile false $CI_PROJECT_DIR/public/
       # make symlinks relative (rdfind creates absolute symlinks)
-      - symlinks -cr $CI_PROJECT_DIR/public/
-
+      - time symlinks -cr $CI_PROJECT_DIR/public/
     artifacts:
         expire_in: 2 weeks
         paths:
           - _logs/
-          - public/
+          #- public/ public is to large
