@@ -72,6 +72,6 @@ This effect/filter applies a zoom and pan effect (similar to the Ken Burns effec
    As of this writing and with version 23.04 the effect seems to be missing several parameters in order to make it useful as a zoom and pan effect, like the |ken_burns|. A bug report has been created. Until this is fixed use the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform` effect.
 
 
-**Notes**
+----
 
 .. [1] For more details refer to the |ken_burns| article in Wikipedia
