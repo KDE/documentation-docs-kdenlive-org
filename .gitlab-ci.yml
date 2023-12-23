@@ -31,10 +31,10 @@ build_sphinx_app_docs:
       - time rdfind -makesymlinks true -makeresultsfile false $CI_PROJECT_DIR/public/
       # make symlinks relative (rdfind creates absolute symlinks)
       - time symlinks -cr $CI_PROJECT_DIR/public/
-      # 
+      # Remove epub files for artifacts, they are too big
       - rm -f public/*/epub/*.epub
     artifacts:
         expire_in: 2 weeks
         paths:
           - _logs/
-          - public/ public is to large
+          - public/
