@@ -14,9 +14,12 @@ build_sphinx_app_docs:
       #
       - |
         for langToBuild in $WEBSITE_LANGUAGES; do
-           echo "Build *.mo files for $langToBuild"
-           cd $CI_PROJECT_DIR/locale/$langToBuild
-           find . -name \*.po -execdir sh -c 'msgfmt "$0" -o `basename $0 .po`.mo' '{}' \;
+          if [[ "$langToBuild" == 'en' ]]; then
+            continue
+          fi
+          echo "Build *.mo files for $langToBuild"
+          cd $CI_PROJECT_DIR/locale/$langToBuild
+          find . -name \*.po -execdir sh -c 'msgfmt "$0" -o `basename $0 .po`.mo' '{}' \;
         done
       - cd $CI_PROJECT_DIR
       # build html
