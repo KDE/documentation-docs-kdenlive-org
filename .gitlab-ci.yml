@@ -1,6 +1,6 @@
 variables:
     EPUB_NAME: KdenliveManual
-    WEBSITE_LANGUAGES: en de fr nl es da pt_BR ru uk_UA zh_CN zh_TW ja ko ca sk it sl cs pl # sv (broken atm)
+    WEBSITE_LANGUAGES: en de fr nl es pt_BR ru uk_UA zh_CN zh_TW ja ko ca sk it sl cs pl # sv (broken atm) # tr da
 
 build_sphinx_app_docs:
     image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
@@ -18,7 +18,12 @@ build_sphinx_app_docs:
             continue
           fi
           echo "Build *.mo files for $langToBuild"
-          cd $CI_PROJECT_DIR/locale/$langToBuild
+          langDir=$CI_PROJECT_DIR/locale/$langToBuild
+          if [ ! -d "$langDir" ]; then
+            echo "Directory for $langToBuild does not exist ($langDir)"
+            continue
+          fi
+          cd $langDir
           find . -name \*.po -execdir sh -c 'msgfmt "$0" -o `basename $0 .po`.mo' '{}' \;
         done
       - cd $CI_PROJECT_DIR
