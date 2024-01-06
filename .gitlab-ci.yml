@@ -2,55 +2,7 @@ variables:
     EPUB_NAME: KdenliveManual
     WEBSITE_LANGUAGES: en de fr nl es pt_BR ru uk_UA zh_CN zh_TW ja ko ca sk it sl cs pl # sv (broken atm) # tr da
 
-build_sphinx_app_docs:
-    image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
-    tags:
-      - Linux
-    variables:
-      GIT_DEPTH: "3"
-    stage: build
-    script:
-      - git config --global --add safe.directory $CI_PROJECT_DIR
-      #
-      - |
-        for langToBuild in $WEBSITE_LANGUAGES; do
-          if [[ "$langToBuild" == 'en' ]]; then
-            continue
-          fi
-          echo "Build *.mo files for $langToBuild"
-          langDir=$CI_PROJECT_DIR/locale/$langToBuild
-          if [ ! -d "$langDir" ]; then
-            echo "Directory for $langToBuild does not exist ($langDir)"
-            continue
-          fi
-          cd $langDir
-          find . -name \*.po -execdir sh -c 'msgfmt "$0" -o `basename $0 .po`.mo' '{}' \;
-        done
-      - cd $CI_PROJECT_DIR
-      # build html
-      - |
-        for langToBuild in $WEBSITE_LANGUAGES; do
-          time sphinx-build -M html . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-html.log -j auto -d $CI_PROJECT_DIR/.doctree
-          time mkdir -p public/$langToBuild/
-          time mv _staging/$langToBuild/html/* public/$langToBuild/
-        done
-      # build epub (if EPUB_NAME is not empty)
-      - |
-        if [ -n "$EPUB_NAME" ]; then
-          for langToBuild in $WEBSITE_LANGUAGES; do
-            time sphinx-build -M epub . _staging/$langToBuild -D language="$langToBuild" -w _logs/warnings-$langToBuild-epub.log -j auto -d $CI_PROJECT_DIR/.doctree
-            time mkdir public/$langToBuild/epub/
-            time mv _staging/$langToBuild/epub/$EPUB_NAME.epub public/$langToBuild/epub/
-          done
-        fi
-      # turn duplicated files like image for each language into symlinks to reduce file size
-      - time rdfind -makesymlinks true -makeresultsfile false $CI_PROJECT_DIR/public/
-      # make symlinks relative (rdfind creates absolute symlinks)
-      - time symlinks -cr $CI_PROJECT_DIR/public/
-      # Remove epub files for artifacts, they are too big
-      - rm -f public/*/epub/*.epub
-    artifacts:
-        expire_in: 2 weeks
-        paths:
-          - _logs/
-          - public/
+include:
+  - project: 'sysadmin/ci-utilities'
+    ref: work/sphinx-one
+    file: 'gitlab-templates/website-sphinx-app-docs.yml'
