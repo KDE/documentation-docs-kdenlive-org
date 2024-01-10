@@ -16,14 +16,14 @@ $supported_languages = array(
     "it",
     "nl",
     "es",
-    "tr",
-    "da",
+    //"tr", // disabled because 0% translation coverage
+    //"da", // disabled because 0% translation coverage
     "pl",
-    "pt_BR",
-    "ru",
-    "sk",
+    //"pt_BR", // disabled because 0% translation coverage
+    //"ru", // disabled because 0% translation coverage
+    //"sk", // disabled because 0% translation coverage
     "sl",
-    "sv",
+    //"sv", // disabled because broken translation
     "uk_UA",
     "zh_CN",
     "zh_TW",
