@@ -1,3 +1,7 @@
+.. meta::
+   :description: Kdenlive's User Interface - Clip Menu
+   :keywords: KDE, Kdenlive, clip, project, menu, clip menu, jobs, overlay, marker, automatic transition, transcode, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Annew (https://userbase.kde.org/User:Annew)
@@ -10,7 +14,8 @@
              - Carl Schwan <carl@carlschwan.eu>
              - Karlfee (https://userbase.kde.org/User:Karlfee)
              - Tenzen (https://userbase.kde.org/User:Tenzen)
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             - Eugen Mohr
 
              
 
@@ -121,6 +126,8 @@ Opens a flyout to select different options:
 * `Configure Clip Jobs`_
 
 This function is also available via the right-click menu of the clip in the Project Bin.
+
+Select a clip which has running jobs, details of the jobs will appear in the clip monitor as overlay. Click on the :guilabel:`X` on the clip jobs overlay will cancel the clip job. To enable the clip job overlay :ref:`see here <ui-monitors_cm_rightclick>`.
 
 
 .. _automatic_scene_split:
