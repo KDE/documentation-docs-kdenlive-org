@@ -67,7 +67,7 @@ This effect/filter draws and overlays a window in the clip that shows a zoomed v
      - Show the Alpha channel
    * - Big window
      - Switch
-     - how a bigger version of the video values window
+     - Show a bigger version of the video values window
    * - X / Y / X size / Y size
      - Integer
      - Set the position (X / Y) and the size (X size / Y size) of the crosshair (determines the area covered and analyzed)
