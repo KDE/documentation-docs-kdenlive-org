@@ -28,11 +28,11 @@
 Clip Monitor
 ------------
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitors_cm_elements.webp
+.. figure:: /images/user_interface/kdenlive2402_ui-monitors_cm_elements.webp
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_ui-monitors_cm_elements
+   :alt: kdenlive2402_ui-monitors_cm_elements
 
    Clip Monitor elements
 
@@ -41,10 +41,16 @@ The Clip Monitor displays the unedited\ [#f1]_ clip that is currently selected i
 |  1 Video Stream indicator
 |  2 Audio Stream indicator
 |  3 Clip Zone indicator
+|  4 List of last opened clips 
 
-For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual.
+.. .. .. versionadded:: 24.02
+  Item 4 added
 
 .. rst-class:: clear-both
+
+Number 4: Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor.
+
+For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual.
 
 
 .. _ui-monitors_clip_monitor_hamburger:
