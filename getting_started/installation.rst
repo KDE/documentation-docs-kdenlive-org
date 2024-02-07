@@ -215,6 +215,17 @@ The Finder opens. Now right click on *Kdenlive* and choose :guilabel:`Open`.
 
 The message that Apple can't search for malware will appear again. Just click on :guilabel:`Open` and Kdenlive will open up.
 
+Automatically check for updates
+-------------------------------
+
+.. .. .. versionadded:: 24.02
+
+Kdenlive automatically check at startup for updates based on the app version (no network connection)
+
+.. figure:: /images/getting_started/kdenlive2402_check-for-update.webp
+   :width: 80%
+   :alt: kdenlive2402_check-for-update
+   
 .. _configuration:
 
 Configuration Information
