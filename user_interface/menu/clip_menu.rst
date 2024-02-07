@@ -393,6 +393,18 @@ Replace Clip
 
 Replace Clip will allow you to select a different file but keep all of the uses on the Timeline. This can be useful if you work  with placeholder clips (e.g. low resolution or in project templates) and at the end, before rendering, you replace the clip with the final clip.
 
+.. .. versionadded:: 24.02
+
+If you select an audio file only, Kdenlive ask you if you want to change the audio part of the clip only (or vice versa). This is helpful if you have optimized the audio with an external program and you will update the video clip.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2402_replace_clip_question.webp
+   :align: left
+   :alt: kdenlive2402_replace_clip_question
+   
+   Question if you only want to change the audio part of your clip
+
+.. rst-class:: clear-both
+
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
 .. note:: Make sure the clip replacement is at least of the same length/duration. Otherwise it may lead to unwanted gaps in the Timeline. If effects are used on these clips the replacement clips should have the same dimensions to avoid unwanted behaviour of effects.
