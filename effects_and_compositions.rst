@@ -67,7 +67,7 @@ The Effects widget has seven control icons that show or hide the different effec
 
 3 - **Audio Effects** shows all audio effects categories
 
-4 - **Custom Effects** shows all effects you have created by saving an effect stack.
+4 - **Custom Effects** shows all effects :ref:`you have created <effects-custom>` by saving an effect stack.
 
 .. TODO: See :ref:`Save Effect <effects-save_effect>` for more details.
 
@@ -284,6 +284,18 @@ The effect keyframe panel has new icons, improved keyframe grabbing and new func
    Moving multiple keyframes at once
 
    .. rst-class:: clear-both
+
+
+.. _effects-keyframes_types:
+
+Keyframe types
+--------------
+
+.. .. versionadded:: 24.02
+
+Easing functions are based on Robert Penner's Easing Functions: http://robertpenner.com/easing/
+
+
 
 
 .. _effects-exchange_keyframes:
