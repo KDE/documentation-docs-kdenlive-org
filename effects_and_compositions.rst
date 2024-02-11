@@ -97,6 +97,9 @@ This widget is also known as the Properties Tab as it lists all effects applied 
 
 .. note:: Only Effects can be stacked, Compositions cannot.
 
+
+.. _effect_stack_functions:
+
 Effect/Composition Stack Functions
 ----------------------------------
 
@@ -117,7 +120,20 @@ Effect/Composition Stack Functions
 
 .. rst-class:: clear-both
 
-..
+.. .. versionadded:: 24.02
+
+When an effect is applied to a clip in the timeline you can click on the effect button to enable/disable the clip stack of this clip. When disabled the effect name on the clip is strikeout.
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-effect_stack_disabled.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-effect_stack_disabled
+
+   Kdenlive Effect Stack disabled by click on the effect of a clip
+
+.. see :ref:`disable-enable_clip_stack`
+
+.. rst-class:: clear-both
 
 
 Effect Functions
