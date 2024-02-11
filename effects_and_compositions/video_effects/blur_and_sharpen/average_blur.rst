@@ -12,18 +12,20 @@
 Average Blur
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-average_blur.webp
+.. .. versionadded:: 24.02 keyframeable
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-average_blur.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-average_blur
+   :alt: kdenlive2402_effects-average_blur
 
 .. sidebar:: |kdenlive-show-video| Average Blur
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       avfilter
    :**Source filter**:

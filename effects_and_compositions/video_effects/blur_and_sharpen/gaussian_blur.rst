@@ -12,18 +12,20 @@
 Gaussian Blur
 =============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-gaussian_blur.webp
+.. .. versionadded:: 24.02 keyframeable
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-gaussian_blur.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-gaussian_blur
+   :alt: kdenlive2402_effects-gaussian_blur
 
 .. sidebar:: |kdenlive-show-video| Gaussian Blur
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       avfilter
    :**Source filter**:
