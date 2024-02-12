@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_kdenlive_org_effects_and_compositions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 00:36+0000\n"
+"POT-Creation-Date: 2024-02-11 01:35+0000\n"
 "PO-Revision-Date: 2023-07-28 01:47-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -190,9 +190,13 @@ msgstr ""
 "3 - **Efectos de audio** muestra todas las categorías de efectos de audio"
 
 #: ../../effects_and_compositions.rst:70
+#, fuzzy
+#| msgid ""
+#| "4 - **Custom Effects** shows all effects you have created by saving an "
+#| "effect stack."
 msgid ""
-"4 - **Custom Effects** shows all effects you have created by saving an "
-"effect stack."
+"4 - **Custom Effects** shows all effects :ref:`you have created <effects-"
+"custom>` by saving an effect stack."
 msgstr ""
 "4 - **Efectos personalizados** muestra todas las combinaciones de efectos "
 "que han sido guardadas por el usuario."
@@ -632,10 +636,22 @@ msgid "Moving multiple keyframes at once"
 msgstr "Moviendo varios claves a la vez"
 
 #: ../../effects_and_compositions.rst:292
+#, fuzzy
+#| msgid "Keyframes in Effects"
+msgid "Keyframe types"
+msgstr "Fotogramas clave en efectos"
+
+#: ../../effects_and_compositions.rst:296
+msgid ""
+"Easing functions are based on Robert Penner's Easing Functions: http://"
+"robertpenner.com/easing/"
+msgstr ""
+
+#: ../../effects_and_compositions.rst:304
 msgid "Exchanging Keyframes Across Effects"
 msgstr "Intercambio de fotogramas clave entre efectos"
 
-#: ../../effects_and_compositions.rst:296
+#: ../../effects_and_compositions.rst:308
 msgid ""
 "You can import and export keyframes from/to the clipboard. This feature is "
 "not only useful to copy keyframes from one clip to another, it can also be "
@@ -647,7 +663,7 @@ msgstr ""
 "otro, sino que puede ser utilizada, por ejemplo, para copiar el resultado de "
 "un rastreo de movimiento hacia el efecto Transformación."
 
-#: ../../effects_and_compositions.rst:298
+#: ../../effects_and_compositions.rst:310
 msgid ""
 "To export the keyframes to the clipboard click on |application-menu|:"
 "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:`Copy "
@@ -657,11 +673,11 @@ msgstr ""
 "|application-menu|:guilabel:`Opciones`\\ [1]_ y escoger la opción :guilabel:"
 "`Copiar todos los claves al portapapeles`."
 
-#: ../../effects_and_compositions.rst:304
+#: ../../effects_and_compositions.rst:316
 msgid "Importing keyframes"
 msgstr "Importación de fotogramas clave"
 
-#: ../../effects_and_compositions.rst:306
+#: ../../effects_and_compositions.rst:318
 msgid ""
 "To import keyframes from the clipboard click on |application-menu|:guilabel:"
 "`Options` inside the keyframe panel\\ [1]_ and choose :guilabel:`Import "
@@ -674,7 +690,7 @@ msgstr ""
 "válidos en el portapapeles, debería mostrarse un diálogo similar a este, "
 "desde donde será posible ajustar el mapeo de los datos."
 
-#: ../../effects_and_compositions.rst:308
+#: ../../effects_and_compositions.rst:320
 msgid ""
 "For most use cases the default settings suffice. But you may want to copy "
 "only a subset of the data and perhaps enter an offset value, for example."
@@ -684,15 +700,15 @@ msgstr ""
 "los datos y, tal vez, ingresar un valor de desplazamiento para estos, por "
 "ejemplo."
 
-#: ../../effects_and_compositions.rst:316
+#: ../../effects_and_compositions.rst:328
 msgid "Track Effect"
 msgstr "Efectos de pista"
 
-#: ../../effects_and_compositions.rst:324
+#: ../../effects_and_compositions.rst:336
 msgid "Track effect indicators"
 msgstr "Indicadores de efectos de pista"
 
-#: ../../effects_and_compositions.rst:326
+#: ../../effects_and_compositions.rst:338
 msgid ""
 "Effects can be added to an entire track affecting all clips in that track. "
 "Simply drag an effect from the Effects Tab to the header of the desired "
@@ -705,11 +721,11 @@ msgstr ""
 "wizard|:guilabel:`Efectos de pista` y arrastrar el efecto hacia el panel "
 "Opciones de efectos/composición."
 
-#: ../../effects_and_compositions.rst:334
+#: ../../effects_and_compositions.rst:346
 msgid "Master Effect"
 msgstr "Efectos de pista Maestra"
 
-#: ../../effects_and_compositions.rst:338
+#: ../../effects_and_compositions.rst:350
 msgid ""
 "If you want to apply audio or video effects throughout the whole video. "
 "Click on the :guilabel:`Master` button above the track headers to see the "
@@ -720,11 +736,11 @@ msgstr ""
 "de las pistas, para abrir su panel de Opciones de efectos/composición, donde "
 "se podrán agregar efectos, tal como se hace con los clips o las pistas."
 
-#: ../../effects_and_compositions.rst:344
+#: ../../effects_and_compositions.rst:356
 msgid "Adding a Sepia effect to the entire video"
 msgstr "Agregando un efecto Sepia a todo el video"
 
-#: ../../effects_and_compositions.rst:346
+#: ../../effects_and_compositions.rst:358
 msgid ""
 "There are specific effects and filters that work :ref:`effects-on_master` "
 "only."
@@ -732,11 +748,11 @@ msgstr ""
 "Existen efectos que están diseñados para funcionar exclusivamente en la "
 "pista Maestra. Ver :ref:`effects-on_master` ."
 
-#: ../../effects_and_compositions.rst:358
+#: ../../effects_and_compositions.rst:370
 msgid "Effect Zones"
 msgstr "Zonas de efecto"
 
-#: ../../effects_and_compositions.rst:362
+#: ../../effects_and_compositions.rst:374
 msgid ""
 "Effect Zones allow you to apply effects to specific regions of tracks or the "
 "timeline. Zones can be set from the effect zone bar in the Timeline or from "
@@ -747,19 +763,19 @@ msgstr ""
 "zonas de efecto, en la Línea de tiempo, o desde la interfaz en el panel de "
 "Opciones de efectos/composición."
 
-#: ../../effects_and_compositions.rst:368
+#: ../../effects_and_compositions.rst:380
 msgid "Track Effect Zone"
 msgstr "Zona de efecto de una pista"
 
-#: ../../effects_and_compositions.rst:375
+#: ../../effects_and_compositions.rst:387
 msgid "Master Effect Zone"
 msgstr "Zona de efecto de la pista Maestra"
 
-#: ../../effects_and_compositions.rst:381
+#: ../../effects_and_compositions.rst:393
 msgid "Masking Effects"
 msgstr "Efectos de enmascaramiento"
 
-#: ../../effects_and_compositions.rst:385
+#: ../../effects_and_compositions.rst:397
 msgid ""
 "This feature allows to apply effects only to specific regions of a clip by "
 "using masks. In its current implementation the process requires three steps:"
@@ -768,7 +784,7 @@ msgstr ""
 "imagen de un clip, mediante el uso de máscaras. En su implementación actual, "
 "el proceso requiere de tres pasos:"
 
-#: ../../effects_and_compositions.rst:387
+#: ../../effects_and_compositions.rst:399
 msgid ""
 "Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
 "guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
@@ -777,12 +793,12 @@ msgstr ""
 "`Máscara: Cargar alfa`, :guilabel:`Máscara: Rotoscopía` o :guilabel:"
 "`Máscara: Forma alfa`."
 
-#: ../../effects_and_compositions.rst:388
+#: ../../effects_and_compositions.rst:400
 msgid "Add an effect (or effects) to be applied to the masked region"
 msgstr ""
 "Agregar uno o varios efectos para ser aplicados a la región enmascarada"
 
-#: ../../effects_and_compositions.rst:389
+#: ../../effects_and_compositions.rst:401
 msgid ""
 "Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
 "step 2"
@@ -790,7 +806,7 @@ msgstr ""
 "Agregar el efecto :guilabel:`Mask Apply` para activar el enmascaramiento en "
 "los efectos del paso 2"
 
-#: ../../effects_and_compositions.rst:395
+#: ../../effects_and_compositions.rst:407
 msgid ""
 "Using Rotoscoping (mask) to apply the Saturation effect in one specific "
 "region only"
@@ -798,7 +814,7 @@ msgstr ""
 "Uso de Máscara: Rotoscopía para aplicar el efecto Saturation a una región "
 "específica de la imagen"
 
-#: ../../effects_and_compositions.rst:397
+#: ../../effects_and_compositions.rst:409
 msgid ""
 "You can apply more than one mask per clip by following the same three-step "
 "process."
@@ -806,17 +822,17 @@ msgstr ""
 "Es posible aplicar más de una máscara por clip, siguiendo el mismo proceso "
 "de tres pasos."
 
-#: ../../effects_and_compositions.rst:419
+#: ../../effects_and_compositions.rst:431
 msgid "Video Effects"
 msgstr "Efectos de video"
 
-#: ../../effects_and_compositions.rst:421
+#: ../../effects_and_compositions.rst:433
 msgid "The video effects are divided into the following categories:"
 msgstr ""
 "Los efectos de video se encuentran divididos en las siguientes categorías:"
 
-#: ../../effects_and_compositions.rst:429
-#: ../../effects_and_compositions.rst:460
+#: ../../effects_and_compositions.rst:441
+#: ../../effects_and_compositions.rst:472
 msgid ""
 "The available effects are defined by :file:`.xml` files found in :file:`."
 "local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`)."
@@ -825,8 +841,8 @@ msgstr ""
 "que se encuentran la carpeta :file:`.local/share/kdenlive/effects` (p.ej: :"
 "file:`/usr/share/kdenlive/effects`)."
 
-#: ../../effects_and_compositions.rst:431
-#: ../../effects_and_compositions.rst:462
+#: ../../effects_and_compositions.rst:443
+#: ../../effects_and_compositions.rst:474
 msgid ""
 "These :file:`.xml` files contain the default values for the effects "
 "parameters. So if you don't like the default values for the effects in "
@@ -837,8 +853,8 @@ msgstr ""
 "predeterminados de los efectos de Kdenlive, será posible hacerlo editando "
 "estos archivos :file:`.xml`."
 
-#: ../../effects_and_compositions.rst:433
-#: ../../effects_and_compositions.rst:464
+#: ../../effects_and_compositions.rst:445
+#: ../../effects_and_compositions.rst:476
 msgid ""
 "See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` "
 "for an alphabetical list of effects and transitions."
@@ -847,32 +863,32 @@ msgstr ""
 "effects_and_transitions_list>` para una lista alfabética de efectos y "
 "métodos de composición."
 
-#: ../../effects_and_compositions.rst:439
+#: ../../effects_and_compositions.rst:451
 msgid "Audio Effects"
 msgstr "Efectos de audio"
 
-#: ../../effects_and_compositions.rst:441
+#: ../../effects_and_compositions.rst:453
 msgid "The audio effects are divided into the following categories:"
 msgstr ""
 "Los efectos de audio se encuentran divididos en las siguientes categorías:"
 
-#: ../../effects_and_compositions.rst:470
+#: ../../effects_and_compositions.rst:482
 msgid "Compositions"
 msgstr "Métodos de composición"
 
-#: ../../effects_and_compositions.rst:482
+#: ../../effects_and_compositions.rst:494
 msgid "Alphabetical List of all Effects and Compositions"
 msgstr "Lista alfabética de todos los efectos y métodos de composición"
 
-#: ../../effects_and_compositions.rst:494
+#: ../../effects_and_compositions.rst:506
 msgid "Audio Tools"
 msgstr "Herramientas de audio"
 
-#: ../../effects_and_compositions.rst:506
+#: ../../effects_and_compositions.rst:518
 msgid "Time Remapping"
 msgstr "Remapeo de tiempo"
 
-#: ../../effects_and_compositions.rst:510
+#: ../../effects_and_compositions.rst:522
 msgid ""
 "The Time Remap feature allows to keyframe the speed of a clip to achieve "
 "effects like speed ramping."
@@ -881,29 +897,29 @@ msgstr ""
 "fotogramas clave, para lograr efectos de aceleración o desaceleración "
 "progresiva del tiempo."
 
-#: ../../effects_and_compositions.rst:516
+#: ../../effects_and_compositions.rst:528
 msgid "Example of using Time remapping for speed ramping"
 msgstr ""
 "Ejemplo de uso de Remapeo de tiempo para una variación progresiva de la "
 "velocidad"
 
-#: ../../effects_and_compositions.rst:522
+#: ../../effects_and_compositions.rst:534
 msgid "Speech-to-Text"
 msgstr "Voz a texto"
 
-#: ../../effects_and_compositions.rst:534
+#: ../../effects_and_compositions.rst:546
 msgid "Subtitles"
 msgstr "Subtítulos"
 
-#: ../../effects_and_compositions.rst:546
+#: ../../effects_and_compositions.rst:558
 msgid "Titles"
 msgstr "Titulador"
 
-#: ../../effects_and_compositions.rst:558
+#: ../../effects_and_compositions.rst:570
 msgid "Effects Demos"
 msgstr "Demostraciones de los efectos"
 
-#: ../../effects_and_compositions.rst:581
+#: ../../effects_and_compositions.rst:593
 msgid ""
 "The following three YouTube videos display the results of a number of the "
 "video effects available in **Kdenlive** (Spanish captioning)."
@@ -911,35 +927,35 @@ msgstr ""
 "Los siguientes tres videos de YouTube muestran el resultado de una serie de "
 "efectos de video disponibles en **Kdenlive** (textos en español)."
 
-#: ../../effects_and_compositions.rst:583
+#: ../../effects_and_compositions.rst:595
 msgid "|video_1|"
 msgstr "|video_1|"
 
-#: ../../effects_and_compositions.rst:585
+#: ../../effects_and_compositions.rst:597
 msgid "|video_2|"
 msgstr "|video_2|"
 
-#: ../../effects_and_compositions.rst:587
+#: ../../effects_and_compositions.rst:599
 msgid "|video_3|"
 msgstr "|video_3|"
 
-#: ../../effects_and_compositions.rst:590
+#: ../../effects_and_compositions.rst:602
 msgid "Another YouTube video (English Captions)."
 msgstr "Otro video de YouTube (textos en inglés)."
 
-#: ../../effects_and_compositions.rst:592
+#: ../../effects_and_compositions.rst:604
 msgid "|video_4|"
 msgstr "|video_4|"
 
-#: ../../effects_and_compositions.rst:595
+#: ../../effects_and_compositions.rst:607
 msgid "See also this YouTube play list from |video_5|"
 msgstr "Ver también esta lista de reproducción de YouTube de |video_5|"
 
-#: ../../effects_and_compositions.rst:600
+#: ../../effects_and_compositions.rst:612
 msgid "**Notes**"
 msgstr "**Notas**"
 
-#: ../../effects_and_compositions.rst:602
+#: ../../effects_and_compositions.rst:614
 msgid ""
 "If you do not see a keyframe panel check whether the keyframe panel has been "
 "switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
