@@ -48,6 +48,36 @@ Open...
 
 Opens a project that has been saved in the :ref:`project <project>` format file. The default keyboard shortcut is :kbd:`Ctrl+O`.
 
+.. container:: clear-both
+
+   .. figure:: /images/user_interface/menu_reference/kdenlive2402_clip-problems.webp
+     :align: left
+     :width: 300px
+     :alt: kdenlive2402_clip-problems
+  
+     Clip Problems
+
+
+   When opening a project and the needed clips are moved to another place, Kdenlive gives you the possibility to search for the clips needed in the project.
+
+   In the dialog, sort the column as you need it when click on :guilabel:`Type`, :guilabel:`Status`, :guilabel:`Original Path`, :guilabel:`New Path`.
+
+   * :guilabel:`Recreate missing proxies` if the proxies were deleted
+   
+   **Selected Items**
+
+   * :guilabel:`Search Manually` search manually for the new path
+
+   * :guilabel:`Romove` removes selected clips from re-assigning to a new path (useful when source clips are not available anymore)
+
+   **All Missing Itmes**
+
+   * :guilabel:`Search Recursively` point to the new path where all project clips are stored and Kdenlive re-assign the clips automatically
+
+   * :guilabel:`Use Placeholders` instead of the original clips  
+
+.. rst-class:: clear-both
+
 Open Recent
 -----------
 
