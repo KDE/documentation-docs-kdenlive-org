@@ -169,32 +169,37 @@ Creating clips by speech recognition
 This is useful for interviews and other speech-related footage.
 Enable the :menuselection:`Menu --> View --> Speech Editor` menu item.
 
-.. figure:: /images/Speech-to-text_Text-Edit.png
+.. figure:: /images/kdenlive2402_speech-to-text_text-edit.webp
    :alt: Speech editor
 
-   Shown with the VOSK engine
+   Shown with the VOSK engine and search enabled
 
-Select a clip in the project bin.
+Select a clip in the **Project Bin**.
 
 1. If needed set in/out point in the clip monitor and enable :guilabel:`Selected zone only` selection box. This will only recognize the text inside the zone.
 
-2. Choose the correct language.
+2. Choose the correct language when the VOSK engine is selected. Or choose the Whisper engine by click on :guilabel:`Configure Speech Recognition` (:ref:`see configure speech to text <configure_speech_to_text>`)
 
 3. Press the :guilabel:`Start Recognition` button.
 
-4. Selecting the text you want to either.
+4. Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select several texts.
 
-5. Put into the timeline.
+.. .. versionadded:: 24.02
 
-6. :guilabel:`Save` edited text as a new playlist.
+5. Choose: :guilabel:`Create new sequence with edit` creates a new sequence with each timecode-text as a single clip, or :guilabel:`Insert selection in timeline` at playhead postion, or to :guilabel:`Save edited text in a playlist file` which appears in the project bin. 
+
+.. .. versionadded:: 24.02
+
+6. :guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove non spech zones` deletes all "No speech" entries at once.
 
 7. Add a Bookmark. You can jump to these bookmarks in the timeline with the :kbd:`Alt + arrow` shortcut or edit the bookmark by double click.
 
-8. Delete the selection.
+8. Delete the selected text.
 
 9. Here you can search in the text.
 
 10. And navigate up or down in the text.
+
 
 .. _effects-s2t_silence_detection:
 
@@ -209,6 +214,8 @@ Select your language or :ref:`effects-s2t_install_language` and download the mod
 
 Then click :guilabel:`Start Recognition` button.
 
-Once this is done, click on the time-code where no-speech is indicated and just hit the :kbd:`Delete` key. Repeat the operation for all the parts you want to remove, including where someone says what you do not want to include in your final edit.
+Once this is done, choose under point 6 from above to :guilabel:`Remove non speech zones` at once. Or click on the time-code where "No speech" is indicated (hold :kbd:`CTRl` to select several items at once) and just hit the :kbd:`Delete` key. 
 
-Once finished, make sure :guilabel:`Selected zone only` is disabled, click on the :guilabel:`Save` button on the lower left part of the speech editor window and after few seconds a new playlist is added in the Project Bin without silence and without the text you do not want.
+Repeat the operation for all the parts you want to remove, including where someone says what you do not want to include in your final edit.
+
+Once finished, make sure :guilabel:`Selected zone only` is disabled, click on the :guilabel:`Save edited text in a playlist file` button (above under point 5) and after few seconds a new playlist is added in the Project Bin without silence and without the text you do not want.
