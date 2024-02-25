@@ -41,12 +41,13 @@ Rendering Dialog
 ----------------
 
 .. .. versionchanged:: 22.12
+.. .. versionchanged:: 24.02
    
-.. figure:: /images/exporting/kdenlive2212_rendering-render_dialog.webp
+.. figure:: /images/exporting/kdenlive2402_rendering-render_dialog.webp
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2212_rendering-render_dialog
+   :alt: kdenlive2402_rendering-render_dialog
 
    Rendering dialog window
 
@@ -62,11 +63,13 @@ Rendering Dialog
 
 * |edit-delete| - Delete preset (only for custom or downloaded presets)
 
-.. figure:: /images/exporting/kdenlive2212_rendering-render_dialog_2.webp
+.. rst-class:: clear-both
+
+.. figure:: /images/exporting/kdenlive2402_rendering-render_dialog_2.webp
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2212_rendering-render_dialog_2
+   :alt: kdenlive2402_rendering-render_dialog_2
 
    Rendering dialog window
 
@@ -79,6 +82,8 @@ Rendering Dialog
 * :guilabel:`Guide Multi-Export` - Render individual files for the zones defined by the guides
 
 * :guilabel:`More Options` - Folds out the dialog window to display more (advanced) options
+
+* :guilabel:`Render Duration` - Estimated time to render the actual project selection
 
 * :guilabel:`Render to File` - Click to start the rendering and file creation
 
@@ -159,15 +164,60 @@ Video
 
 Check this box to get a video track in the rendered file.
 
-.. figure:: /images/exporting/kdenlive2304_rendering-video.webp
+.. figure:: /images/exporting/kdenlive2402_rendering-video.webp
    :align: left
-   :alt: kdenlive2304_rendering-video
+   :alt: kdenlive2402_rendering-video
 
    Rendering options for video
+
+.. rst-class:: clear-both
+
+|
+
+.. .. versionadded: 24.02
+
+.. figure:: /images/exporting/kdenlive2402_rendering-video_interpolation.webp
+   :align: right
+   :alt: kdenlive2402_rendering-video_interpolation
+
+   Interpolation
+
+:guilabel:`Interpolation` - Allow setting the default interpolation method for scaling operations on rendering
+
+* Nearest-neighbour interpolation: Sharp but highly aliasing. 
+* Bilinear interpolation: Fast and low quality. Reduces contrast. 
+* Bicubic interpolation: Slower then Bilinear but better results.
+* Lanzcos interpolation: Provides the best result for scaling
+
+.. rst-class:: clear-both
+
+|
+
+.. .. versionadded: 24.02
+
+.. figure:: /images/exporting/kdenlive2402_rendering-video_deinterlacer.webp
+   :align: right
+   :alt: kdenlive2402_rendering-video_deinterlacer
+
+   Deinterlacer
+
+:guilabel:`Deinterlacer` - Allow setting different deinterlacing algorithm method for interlaced footage on rendering
+
+* One-Field: Render only one field so the rendered result is half in size.
+* Linear blend: Render each half-picture like a full picture with linear interpolation: instead of rendering each line twice, line 2 is created as the average of line 1 and 3, etc. 
+* YADIF - temporal only: Mode of checking fields. Skips spatial interlacing check. 
+* YADIF: (Yet Another DeInterlacing Filter) It check pixels of previous, current and next frames to re-create the missed field by some local adaptive method (edge-directed interpolation) and uses spatial check to prevent most artifacts.
+* BWDIF: (Bob Weaver Deinterlacing Filter): motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms.
+
+.. rst-class:: clear-both
 
 :guilabel:`Render full color range` - Check this box if you need 10-bit color instead of 8-bit color. Please note that this does not work with effects (yet).
 
 :guilabel:`Render at Preview Resolution` - Check this box if you want to use the same resolution as set in the Project Monitor. Useful for quick renderings to check or verify things.
+
+.. .. versionadded: 24.02
+
+:guilabel:`Use Proxy Clips` - Check this box if you want the use the proxy clips for rendering. Useful for quick renderings to check or verify things.
 
 :guilabel:`Rescale` - Select this if you want the rendered video to have a different resolution than what is set in the Project Settings. Useful for quick renderings to check or verify things.
 
