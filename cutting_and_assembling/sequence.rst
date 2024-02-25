@@ -19,7 +19,7 @@ Sequence
 
 A sequence is basically a timeline. Sequences can be rendered independently, but they cannot be saved separately from a project, since they are part of it. All sequences have the same settings as ones defined in the project settings.
 
-.. image:: /images/Project_bin_with_sequence.png
+.. image:: /images/kdenlive2402_project_bin_with_sequence.webp
    :scale: 75%
    :alt: Project_bin_with_sequence
 
@@ -115,6 +115,10 @@ Define default sequences folder
 In the Project Bin you can define any folder as target folder where new created sequences are stored. When no folder is enabled as :guilabel:`Default Target Folder for Sequences` then the new created sequence is stored directly in the Project Bin top level. 
 
 Project Bin: right click on a folder and enable/disable :guilabel:`Default Target Folder for Sequences`. 
+
+.. .. versionadded:: 24.02
+
+The default sequences folder gets a colored icon and is always displayed on top in the project bin.
 
 .. image:: /images/default_target_folder_for_sequences.png
    :alt: default_target_folder_for_sequences
