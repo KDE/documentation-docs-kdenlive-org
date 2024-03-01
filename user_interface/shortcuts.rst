@@ -419,6 +419,9 @@ Timeline
    * - Ungroup Clips
      - :kbd:`Ctrl+Shift+G`
      - Current selection
+   * - Edit Grouped Clips
+     - :kbd:`Ctrl+click`
+     - Current selection
    * - Cut All Clips
      - :kbd:`Ctrl+Shift+R`
      - Cuts all clips at playhead position. Except tracks which are locked.
