@@ -39,7 +39,13 @@ Install Python
 
    <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>
 
-Python 3 needs to be installed on your computer as well as the vosk and srt python modules:
+Python 3 needs to be installed on your computer (details see below for Linux and Windows). Once Python is installed, :ref:`follow these steps <settings_environment_python>` to put Python into a virtual environment (afterwards Python is copied to the :file:`venv` folder) 
+
+**De-install Python**
+
+To remove the installed :file:`venv` package got to :menuselection:`Settings --> Kdenlive Settings --> Environment --> Python` and :guilabel:`Delete` :file:`venv`.
+
+It will completely remove the :file:`venv` folder with all installed packages. Note that this does not remove the downloaded models (vosk/whisper) that can still take quite some HD space
 
 Linux
 ~~~~~
@@ -57,16 +63,34 @@ Download python from |python_download| for installation on your computer.
 Speech Engines
 --------------
 
+To install the speech engines go to :menuselection:`Settings --> Configure Kdenlive --> Speech to Text`.
+
 VOSK
-~~~~
+----
 
-**Linux**
+.. Pre 24.02
+   **Linux**
 
-To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``
+   To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``
 
-**Windows**
+   **Windows**
 
-Download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download a double click starts the installations.
+   Download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download a double click starts the installations.
+
+.. figure:: /images/kdenlive2402_speech-to-text_vosk_download.webp
+   :scale: 75%
+   :alt: Vosk download dependencies
+
+   Vosk is not installed
+
+When you switch to VOSK for the first time you have to install the missing dependencies first.
+
+Path where VOSK is installed:
+
+- Linux: :file:`~/.local/share/kdenlive/venv/Lib`
+- Windows: :file:`%LocalAppData%\\kdenlive\\venv\\Lib`
+
+If you have installed VOSK in an earlier Kdenlive version already and now you have chosen the :file:`venv` folder for Python, you can delete the past installed VOSK libraries by using following command in a console: :file:`pip uninstall vosk srt`
 
 Install a Language
 ~~~~~~~~~~~~~~~~~~
@@ -75,16 +99,21 @@ Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text page`
 
 Click on the link to get a language model.
 
-.. image:: /images/Speech-to-text_Download-link.png
+.. figure:: /images/Speech-to-text_Download-link.png
    :alt: download link
 
 Drag & drop the language you want from the vosk-model download page to the model window, and it will download and extract it for you.
 
-.. image:: /images/Speech-to-text_Download-model.png
+.. figure:: /images/Speech-to-text_Download-model.png
    :alt: download model
 
 If you have problems or check for updates click on the :guilabel:`Check configuration` button.
 
+The VOSK speech models are stored here:
+
+Linux: :file:`~/.local/share/kdenlive/speechmodels`
+
+Windows: :file:`%AppData%\\kdenlive\\speechmodels`
 
 Whisper
 -------
@@ -99,17 +128,31 @@ OpenAI-Whisper is a speech recognition model for general use. It is trained on a
 
 Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. Whisper creates sentences with punctuation marks, even in Base mode.
 
-.. image:: /images/Speech-to-text_whisper_download.png
+.. figure:: /images/kdenlive2402_speech-to-text_whisper_download.webp
    :scale: 75%
    :alt: Whisper download dependencies
 
+   Whisper is not installed
+
 When you switch to Whisper for the first time you have to install the missing dependencies first (about 2GB to download).
 
-.. image:: /images/Speech-to-text_whisper_installed.png
+.. figure:: /images/Speech-to-text_whisper_installed.png
    :scale: 75%
    :alt: Whisper installed
 
 When all is correct configured, you get this screen.
+
+Path where Whisper is installed:
+
+- Linux: :file:`~/.local/share/kdenlive/venv/Lib`
+- Windows: :file:`%LocalAppData%\\kdenlive\\venv\\Lib`
+
+The Whisper speech models are stored here:
+
+Linux: :file:`~/.local/share/kdenlive/opencvmodels`
+
+Windows: :file:`%AppData%\\kdenlive\\opencvmodels`
+
 
 :guilabel:`Model` Select the model. More details on the |whisper_source| (default: Base) .
 
@@ -121,6 +164,7 @@ When all is correct configured, you get this screen.
 
 You can check for updates by clicking on :guilabel:`Check configuration`
 
+If you have installed Whisper in an earlier Kdenlive version already and now you have chosen the :file:`venv` folder for Python, you can delete the past installed Whisper libraries by using following command in a console: :file:`pip uninstall openai-whisper`
 
 Speech recognition
 ------------------
@@ -132,7 +176,7 @@ Select the speech engine
 
 Enable :menuselection:`Menu --> View --> Speech Editor` menu item.
 
-.. image:: /images/Speech-to-text_select_speech-engine.png
+.. figure:: /images/Speech-to-text_select_speech-engine.png
    :alt: change the speech engine
 
 Click on the :guilabel:`Hamburger Menu` |application-menu| and select :guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure Speech to Text <configure_speech_to_text>`, select the engine and click :guilabel:`OK.`

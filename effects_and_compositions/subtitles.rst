@@ -43,8 +43,8 @@ Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle track 
 .. image:: /images/subtitle-timeline-1.gif
    :alt: subtitle
 
-For ways to add subtitle
-------------------------
+Four ways to add subtitle
+-------------------------
 
 * **Menu**
 

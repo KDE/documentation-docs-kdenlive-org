@@ -191,11 +191,32 @@ More details see :ref:`split_subtitle_after_first_line`
 Environment
 -----------
 
+.. figure:: /images/kdenlive2402_Configure_environment.webp
+   :width: 500px
+   :alt: Kdenlive_Configure_environment_MLT_Windows
+
+   Environment on Windows
+
+**Proxy and Transcode Jobs**
+
+- :guilabel:`Concurrent threads` This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
+
+.. versionadded:: 22.08
+
+- :guilabel:`Use lower CPU priority for proxy and transcode tasks` This adds a Kdenlive setting to lower the priority of the proxy rendering (QProcess). This helps keep the main UI responsive when proxies are rendering.
+
+.. versionadded:: 22.12
+
+- :guilabel:`Warn if cached data exceeds` Add a maximal cache size so that Kdenlive can check every 2 weeks if the total cached data size exceeds this limit and warn the user.
+
+.. versionadded:: 24.02
+
+- :guilabel:`Check for updates` When enabled Kdenlive show a pup-up menu for updating Kdenlive if your version is older then 6 month.
 
 MLT Environment
 ~~~~~~~~~~~~~~~
 
-.. figure:: /images/Kdenlive_Configure_environment_MLT.png
+.. figure:: /images/kdenlive2402_configure_environment_MLT_Windows.webp
    :width: 500px
    :alt: Kdenlive_Configure_environment_MLT_Windows
 
@@ -217,22 +238,6 @@ MLT Environment
 This setting tells **Kdenlive** where to find the MLT executables and profile files. Only advanced users would really need to change these settings. **Kdenlive** is basically a front end to the MLT program and this setting tells **Kdenlive** where to find the engine that runs the whole application.
 
 Path to the MediaInfo file. If filled in Kdenlive shows more details in clip properties.
-
-**Proxy and Transcode Jobs**
-
-- :guilabel:`Concurrent threads` This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
-
-.. versionadded:: 22.08
-
-- :guilabel:`Use lower CPU priority for proxy and transcode tasks`
-
-This adds a Kdenlive setting to lower the priority of the proxy rendering (QProcess). This helps keep the main UI responsive when proxies are rendering.
-
-.. versionadded:: 22.12
-
-- :guilabel:`Cached Data`
-
-Add a maximal cache size so that Kdenlive can check every 2 weeks if the total cached data size exceeds this limit and warn the user.
 
 
 .. deprecated:: 19.04
@@ -267,6 +272,34 @@ Default Folders
 
 
 This setting controls where **Kdenlive** expects project files to be by default. It also controls what folder **Kdenlive** will use as a temporary file storage location and it controls where files captured from an external source will be saved.
+
+
+.. _settings_environment_python:
+
+
+.. .. versionadded:: 24.02
+
+Python
+~~~~~~
+
+.. figure:: /images/kdenlive2402_configure_environment_python.webp
+   :width: 500px
+   :alt: Kdenlive_Configure_environment_python
+
+   Python tab on Windows
+
+:guilabel:`Use python virtual environment (recommended)` When enabled Kdenlive creates a :file:`venv` folder and copy/symlink Python into this folder.
+
+Using the virtual environment (venv) stores Python, as you have installed it on your system in the :file:`venv` folder.  If you install speech to text the VOSK and Whisper libraries will be installed in the :file:`venv` folder as well.
+
+This has many benefits including easier dependency management and reduced risk of package conflicts and errors caused by software deprecation.
+
+Path for venv:
+
+- Linux: :file:`~/.local/share/kdenlive/venv`
+- Windows: :file:`%LocalAppData%\\kdenlive\\venv`
+
+To remove the installed :file:`venv` packages click on :guilabel:`Delete`. This will completely remove the :file:`venv` folder with all installed packages. Note that this does not remove the downloaded models (vosk/whisper) that can still take quite some HD space.
 
 .. _default_apps:
 
