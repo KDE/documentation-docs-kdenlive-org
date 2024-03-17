@@ -5,6 +5,7 @@
 .. metadata-placeholder
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -17,7 +18,9 @@
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-.. .. _23.12: https://kdenlive.org/en/2023/12/kdenlive-23-12-0-released/
+.. .. _24.05: https://kdenlive.org/en/2024/12/kdenlive-24-05-0-released/
+
+.. _24.02: https://kdenlive.org/en/2024/03/kdenlive-24-02-0-released/
 
 .. _23.08: https://kdenlive.org/en/2023/08/kdenlive-23-08-0-released/
 
@@ -54,7 +57,19 @@
 What's New
 ==========
 
-.. .. versionadded:: 23.12.1 (see 23.12_ release notes)
+.. .. versionadded:: 24.05.1 (see 24.05_ release notes)
+
+.. versionadded:: 24.02 (see 24.02_ release notes)
+
+   * Revamped :ref:`document checker dialog when open a project <file_open>`
+   * Added ability for :ref:`multiple subtitles <effects-subtitles>`
+   * Added ability to :ref:`change either the audio or video part of an AV-clip <replace_clip>`
+   * Added :ref:`automatically check for updates <automatically_check_for_updates>`
+   * Added :ref:`easing modes for keyframes <effects-keyframe-types-interpolation>`
+   * Added ability to :ref:`enable/disable effect stack of a clip <disable-enable_clip_stack>`
+   * Added ability to :ref:`edit grouped clips <group_clips_edit>`
+   * Changed the :ref:`place where Python is stored for speech to text <effects-speech_to_text>`
+   * Added ability to :ref:`create sequences from text selection <creating_clips_by_speech_recognition>`
 
 
 .. versionadded:: 23.08 (see 23.08_ release notes)

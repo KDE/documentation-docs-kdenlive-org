@@ -43,6 +43,8 @@ See :ref:`quickstart`.
 
 The default settings that appear on this feature are defined under :menuselection:`Settings --> Configure Kdenlive`. See the :ref:`configure_kdenlive` section of this documentation for more details.
 
+.. _file_open:
+
 Open...
 -------
 
