@@ -233,7 +233,7 @@ Select a clip in the **Project Bin**.
 
 .. .. versionadded:: 24.02
 
-5. Choose: :guilabel:`Create new sequence with edit` creates a new sequence with each timecode-text as a single clip, or :guilabel:`Insert selection in timeline` at playhead postion, or to :guilabel:`Save edited text in a playlist file` which appears in the project bin. 
+5. Choose: :guilabel:`Create new sequence with edit` creates a new sequence with each timecode-text as a single clip, or :guilabel:`Insert selection in timeline` at playhead position, or to :guilabel:`Save edited text in a playlist file` which appears in the project bin. 
 
 .. .. versionadded:: 24.02
 
@@ -261,7 +261,7 @@ Select your language or :ref:`effects-s2t_install_language` and download the mod
 
 Then click :guilabel:`Start Recognition` button.
 
-Once this is done, choose under point 6 from above to :guilabel:`Remove non speech zones` at once. Or click on the time-code where "No speech" is indicated (hold :kbd:`CTRl` to select several items at once) and just hit the :kbd:`Delete` key. 
+Once this is done, choose under point 6 from above to :guilabel:`Remove non speech zones` at once. Or click on the time-code where "No speech" is indicated (hold :kbd:`Ctrl` to select several items at once) and just hit the :kbd:`Delete` key. 
 
 Repeat the operation for all the parts you want to remove, including where someone says what you do not want to include in your final edit.
 
