@@ -218,7 +218,7 @@ Many effects use the concept of "Keyframes". Keyframes are user-defined points i
 Keyframes types, interpolation
 ------------------------------
 
-Select the keyframe interpolation icon for selecting the a keyframe type. See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
+Select the keyframe interpolation icon for selecting the keyframe type. See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
 
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-keyframe_types.webp
    :align: left
