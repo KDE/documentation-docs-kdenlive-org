@@ -237,7 +237,7 @@ Select a clip in the **Project Bin**.
 
 .. .. versionadded:: 24.02
 
-6. :guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove non spech zones` deletes all "No speech" entries at once.
+6. :guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove non speech zones` deletes all "No speech" entries at once.
 
 7. Add a Bookmark. You can jump to these bookmarks in the timeline with the :kbd:`Alt + arrow` shortcut or edit the bookmark by double click.
 
