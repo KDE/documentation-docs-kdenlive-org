@@ -211,7 +211,7 @@ Environment
 
 .. versionadded:: 24.02
 
-- :guilabel:`Check for updates` When enabled Kdenlive show a pup-up menu for updating Kdenlive if your version is older then 6 month.
+- :guilabel:`Check for updates` When enabled Kdenlive shows a pop-up menu for updating Kdenlive if your version is older then 6 months.
 
 MLT Environment
 ~~~~~~~~~~~~~~~
@@ -288,7 +288,7 @@ Python
 
    Python tab on Windows
 
-:guilabel:`Use python virtual environment (recommended)` When enabled Kdenlive creates a :file:`venv` folder and copy/symlink Python into this folder.
+:guilabel:`Use python virtual environment (recommended)` When enabled Kdenlive creates a :file:`venv` folder and copies/symlinks Python into this folder.
 
 Using the virtual environment (venv) stores Python, as you have installed it on your system in the :file:`venv` folder.  If you install speech to text the VOSK and Whisper libraries will be installed in the :file:`venv` folder as well.
 

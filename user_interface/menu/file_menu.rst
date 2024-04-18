@@ -70,9 +70,9 @@ Opens a project that has been saved in the :ref:`project <project>` format file.
 
    * :guilabel:`Search Manually` search manually for the new path
 
-   * :guilabel:`Romove` removes selected clips from re-assigning to a new path (useful when source clips are not available anymore)
+   * :guilabel:`Remove` removes selected clips from re-assigning to a new path (useful when source clips are not available anymore)
 
-   **All Missing Itmes**
+   **All Missing Items**
 
    * :guilabel:`Search Recursively` point to the new path where all project clips are stored and Kdenlive re-assign the clips automatically
 
