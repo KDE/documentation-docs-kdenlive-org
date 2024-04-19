@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: "
 "docs_kdenlive_org_effects_and_compositions___speech_to_text\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
+"POT-Creation-Date: 2024-04-18 01:31+0000\n"
 "PO-Revision-Date: 2022-02-03 22:02+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -47,15 +47,37 @@ msgstr "Instalar Python"
 
 #: ../../effects_and_compositions/speech_to_text.rst:42
 msgid ""
-"Python 3 needs to be installed on your computer as well as the vosk and srt "
-"python modules:"
+"Python 3 needs to be installed on your computer (details see below for Linux "
+"and Windows). Once Python is installed, :ref:`follow these steps "
+"<settings_environment_python>` to put Python into a virtual environment "
+"(afterwards Python is copied to the :file:`venv` folder)"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:45
+#: ../../effects_and_compositions/speech_to_text.rst:44
+#, fuzzy
+#| msgid "Install Python"
+msgid "**De-install Python**"
+msgstr "Instalar Python"
+
+#: ../../effects_and_compositions/speech_to_text.rst:46
+msgid ""
+"To remove the installed :file:`venv` package got to :menuselection:`Settings "
+"--> Kdenlive Settings --> Environment --> Python` and :guilabel:`Delete` :"
+"file:`venv`."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:48
+msgid ""
+"It will completely remove the :file:`venv` folder with all installed "
+"packages. Note that this does not remove the downloaded models (vosk/"
+"whisper) that can still take quite some HD space"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:51
 msgid "Linux"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:47
+#: ../../effects_and_compositions/speech_to_text.rst:53
 msgid ""
 "On most Linux distributions python is installed by default. You can check if "
 "that is the case for you too by running ``python3 -V`` in a terminal. If "
@@ -63,142 +85,200 @@ msgid ""
 "around."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:50
+#: ../../effects_and_compositions/speech_to_text.rst:56
 msgid "Windows"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:52
+#: ../../effects_and_compositions/speech_to_text.rst:58
 msgid ""
 "Download python from |python_download| for installation on your computer."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:58
+#: ../../effects_and_compositions/speech_to_text.rst:64
 #, fuzzy
 #| msgid "Speech recognition"
 msgid "Speech Engines"
 msgstr "Reconocimiento del habla"
 
-#: ../../effects_and_compositions/speech_to_text.rst:61
-msgid "VOSK"
-msgstr ""
-
-#: ../../effects_and_compositions/speech_to_text.rst:63
-msgid "**Linux**"
-msgstr ""
-
-#: ../../effects_and_compositions/speech_to_text.rst:65
+#: ../../effects_and_compositions/speech_to_text.rst:66
 msgid ""
-"To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``"
-msgstr ""
-
-#: ../../effects_and_compositions/speech_to_text.rst:67
-msgid "**Windows**"
+"To install the speech engines go to :menuselection:`Settings --> Configure "
+"Kdenlive --> Speech to Text`."
 msgstr ""
 
 #: ../../effects_and_compositions/speech_to_text.rst:69
-msgid ""
-"Download this batch file (:download:`Install_vosk_srt.zip </files/"
-"Install_vosk_srt.zip>`). After download a double click starts the "
-"installations."
+msgid "VOSK"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:72
+#: ../../effects_and_compositions/speech_to_text.rst:84
+msgid "Vosk is not installed"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:86
+msgid ""
+"When you switch to VOSK for the first time you have to install the missing "
+"dependencies first."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:88
+msgid "Path where VOSK is installed:"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:90
+#: ../../effects_and_compositions/speech_to_text.rst:147
+msgid "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:91
+#: ../../effects_and_compositions/speech_to_text.rst:148
+msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:93
+msgid ""
+"If you have installed VOSK in an earlier Kdenlive version already and now "
+"you have chosen the :file:`venv` folder for Python, you can delete the past "
+"installed VOSK libraries by using following command in a console: :file:`pip "
+"uninstall vosk srt`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:96
 #, fuzzy
 #| msgid "Install a language"
 msgid "Install a Language"
 msgstr "Instalar un idioma"
 
-#: ../../effects_and_compositions/speech_to_text.rst:74
+#: ../../effects_and_compositions/speech_to_text.rst:98
 msgid ""
 "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
 "page` and select the speech engine VOSK."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:76
+#: ../../effects_and_compositions/speech_to_text.rst:100
 msgid "Click on the link to get a language model."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:81
+#: ../../effects_and_compositions/speech_to_text.rst:105
 msgid ""
 "Drag & drop the language you want from the vosk-model download page to the "
 "model window, and it will download and extract it for you."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:86
+#: ../../effects_and_compositions/speech_to_text.rst:110
 msgid ""
 "If you have problems or check for updates click on the :guilabel:`Check "
 "configuration` button."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:90
+#: ../../effects_and_compositions/speech_to_text.rst:112
+msgid "The VOSK speech models are stored here:"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:114
+msgid "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:116
+msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:119
 msgid "Whisper"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:98
+#: ../../effects_and_compositions/speech_to_text.rst:127
 msgid ""
 "OpenAI-Whisper is a speech recognition model for general use. It is trained "
 "on a large dataset of diverse audio and is capable of performing speech "
 "translation, and language identification."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:100
+#: ../../effects_and_compositions/speech_to_text.rst:129
 msgid ""
 "Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
 "Whisper creates sentences with punctuation marks, even in Base mode."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:106
+#: ../../effects_and_compositions/speech_to_text.rst:135
+msgid "Whisper is not installed"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:137
 msgid ""
 "When you switch to Whisper for the first time you have to install the "
 "missing dependencies first (about 2GB to download)."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:112
+#: ../../effects_and_compositions/speech_to_text.rst:143
 msgid "When all is correct configured, you get this screen."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:114
+#: ../../effects_and_compositions/speech_to_text.rst:145
+msgid "Path where Whisper is installed:"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:150
+msgid "The Whisper speech models are stored here:"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:152
+msgid "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:154
+msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:157
 msgid ""
 ":guilabel:`Model` Select the model. More details on the |whisper_source| "
 "(default: Base) ."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:116
+#: ../../effects_and_compositions/speech_to_text.rst:159
 msgid ""
 ":guilabel:`Language` Select the language if Autodetect is not accurate "
 "(default: Autodetect)"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:118
+#: ../../effects_and_compositions/speech_to_text.rst:161
 msgid ":guilabel:`Device` For compatibility purposes only CPU is available"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:120
+#: ../../effects_and_compositions/speech_to_text.rst:163
 msgid ""
 ":guilabel:`Translate text to english` This translates non-English text to "
 "English during recognition"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:122
+#: ../../effects_and_compositions/speech_to_text.rst:165
 msgid ""
 "You can check for updates by clicking on :guilabel:`Check configuration`"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:126
+#: ../../effects_and_compositions/speech_to_text.rst:167
+msgid ""
+"If you have installed Whisper in an earlier Kdenlive version already and now "
+"you have chosen the :file:`venv` folder for Python, you can delete the past "
+"installed Whisper libraries by using following command in a console: :file:"
+"`pip uninstall openai-whisper`"
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:170
 msgid "Speech recognition"
 msgstr "Reconocimiento del habla"
 
-#: ../../effects_and_compositions/speech_to_text.rst:129
+#: ../../effects_and_compositions/speech_to_text.rst:173
 #, fuzzy
 #| msgid "Delete the selection."
 msgid "Select the speech engine"
 msgstr "Borrar la selección."
 
-#: ../../effects_and_compositions/speech_to_text.rst:133
+#: ../../effects_and_compositions/speech_to_text.rst:177
 msgid "Enable :menuselection:`Menu --> View --> Speech Editor` menu item."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:138
+#: ../../effects_and_compositions/speech_to_text.rst:182
 msgid ""
 "Click on the :guilabel:`Hamburger Menu` |application-menu| and select :"
 "guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure "
@@ -206,52 +286,51 @@ msgid ""
 "guilabel:`OK.`"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:140
+#: ../../effects_and_compositions/speech_to_text.rst:184
 msgid ""
 ":guilabel:`Translate to english` is only available with the Whisper speech "
 "engine. It translates non-English text to English during recognition."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:143
+#: ../../effects_and_compositions/speech_to_text.rst:187
 msgid "Creating subtitle by speech recognition"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:148
-#: ../../effects_and_compositions/speech_to_text.rst:175
+#: ../../effects_and_compositions/speech_to_text.rst:192
 msgid "Shown with the VOSK engine"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:150
+#: ../../effects_and_compositions/speech_to_text.rst:194
 msgid "Mark the timeline zone you want to recognize (adjust the blue line)"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:152
+#: ../../effects_and_compositions/speech_to_text.rst:196
 msgid "Click on the :guilabel:`Speech recognition` icon"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:154
+#: ../../effects_and_compositions/speech_to_text.rst:198
 #, fuzzy
 #| msgid "Choose the language."
 msgid "Choose the language"
 msgstr "Escoja el idioma."
 
-#: ../../effects_and_compositions/speech_to_text.rst:156
+#: ../../effects_and_compositions/speech_to_text.rst:200
 msgid "Choose how the selected zone should be applied"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:158
+#: ../../effects_and_compositions/speech_to_text.rst:202
 msgid "Press on the :guilabel:`Process` button"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:160
+#: ../../effects_and_compositions/speech_to_text.rst:204
 msgid "The subtitle gets created and inserted automatically."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:162
+#: ../../effects_and_compositions/speech_to_text.rst:206
 msgid "Only timeline zone is implemented for now in automatic subtitles."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:164
+#: ../../effects_and_compositions/speech_to_text.rst:208
 msgid ""
 "Remark to 4: The default is to analyze only the :guilabel:`Timeline zone "
 "(all tracks)` (the blue bar in the timeline ruler). Set the zone in the "
@@ -260,104 +339,133 @@ msgid ""
 "clip only."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:167
+#: ../../effects_and_compositions/speech_to_text.rst:214
 msgid "Creating clips by speech recognition"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:169
+#: ../../effects_and_compositions/speech_to_text.rst:216
 msgid ""
 "This is useful for interviews and other speech-related footage. Enable the :"
 "menuselection:`Menu --> View --> Speech Editor` menu item."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:177
-msgid "Select a clip in the project bin."
+#: ../../effects_and_compositions/speech_to_text.rst:222
+msgid "Shown with the VOSK engine and search enabled"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:179
+#: ../../effects_and_compositions/speech_to_text.rst:224
+msgid "Select a clip in the **Project Bin**."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:226
 msgid ""
 "If needed set in/out point in the clip monitor and enable :guilabel:"
 "`Selected zone only` selection box. This will only recognize the text inside "
 "the zone."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:181
-msgid "Choose the correct language."
-msgstr "Escoja el idioma correcto."
+#: ../../effects_and_compositions/speech_to_text.rst:228
+msgid ""
+"Choose the correct language when the VOSK engine is selected. Or choose the "
+"Whisper engine by click on :guilabel:`Configure Speech Recognition` (:ref:"
+"`see configure speech to text <configure_speech_to_text>`)"
+msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:183
+#: ../../effects_and_compositions/speech_to_text.rst:230
 msgid "Press the :guilabel:`Start Recognition` button."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:185
-msgid "Selecting the text you want to either."
+#: ../../effects_and_compositions/speech_to_text.rst:232
+msgid ""
+"Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select "
+"several texts."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:187
-msgid "Put into the timeline."
-msgstr "Poner en la línea de tiempo."
-
-#: ../../effects_and_compositions/speech_to_text.rst:189
-msgid ":guilabel:`Save` edited text as a new playlist."
+#: ../../effects_and_compositions/speech_to_text.rst:236
+msgid ""
+"Choose: :guilabel:`Create new sequence with edit` creates a new sequence "
+"with each timecode-text as a single clip, or :guilabel:`Insert selection in "
+"timeline` at playhead postion, or to :guilabel:`Save edited text in a "
+"playlist file` which appears in the project bin."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:191
+#: ../../effects_and_compositions/speech_to_text.rst:240
+msgid ""
+":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove "
+"non spech zones` deletes all \"No speech\" entries at once."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:242
 msgid ""
 "Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
 "kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:193
-msgid "Delete the selection."
+#: ../../effects_and_compositions/speech_to_text.rst:244
+#, fuzzy
+#| msgid "Delete the selection."
+msgid "Delete the selected text."
 msgstr "Borrar la selección."
 
-#: ../../effects_and_compositions/speech_to_text.rst:195
+#: ../../effects_and_compositions/speech_to_text.rst:246
 msgid "Here you can search in the text."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:197
+#: ../../effects_and_compositions/speech_to_text.rst:248
 msgid "And navigate up or down in the text."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:202
+#: ../../effects_and_compositions/speech_to_text.rst:254
 msgid "Silence detection"
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:204
+#: ../../effects_and_compositions/speech_to_text.rst:256
 msgid "This works with the VOSK engine only."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:206
+#: ../../effects_and_compositions/speech_to_text.rst:258
 msgid ""
 "Open the clip in the clip monitor and open the speech editor window (:"
 "menuselection:`Menu --> View --> Speech Editor`) ."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:208
+#: ../../effects_and_compositions/speech_to_text.rst:260
 msgid ""
 "Select your language or :ref:`effects-s2t_install_language` and download the "
 "model for it."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:210
+#: ../../effects_and_compositions/speech_to_text.rst:262
 msgid "Then click :guilabel:`Start Recognition` button."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:212
+#: ../../effects_and_compositions/speech_to_text.rst:264
 msgid ""
-"Once this is done, click on the time-code where no-speech is indicated and "
-"just hit the :kbd:`Delete` key. Repeat the operation for all the parts you "
-"want to remove, including where someone says what you do not want to include "
-"in your final edit."
+"Once this is done, choose under point 6 from above to :guilabel:`Remove non "
+"speech zones` at once. Or click on the time-code where \"No speech\" is "
+"indicated (hold :kbd:`CTRl` to select several items at once) and just hit "
+"the :kbd:`Delete` key."
 msgstr ""
 
-#: ../../effects_and_compositions/speech_to_text.rst:214
+#: ../../effects_and_compositions/speech_to_text.rst:266
+msgid ""
+"Repeat the operation for all the parts you want to remove, including where "
+"someone says what you do not want to include in your final edit."
+msgstr ""
+
+#: ../../effects_and_compositions/speech_to_text.rst:268
 msgid ""
 "Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
-"on the :guilabel:`Save` button on the lower left part of the speech editor "
-"window and after few seconds a new playlist is added in the Project Bin "
+"on the :guilabel:`Save edited text in a playlist file` button (above under "
+"point 5) and after few seconds a new playlist is added in the Project Bin "
 "without silence and without the text you do not want."
 msgstr ""
+
+#~ msgid "Choose the correct language."
+#~ msgstr "Escoja el idioma correcto."
+
+#~ msgid "Put into the timeline."
+#~ msgstr "Poner en la línea de tiempo."
 
 #~ msgid "Save as a new clip."
 #~ msgstr "Guardar como nuevo clip."

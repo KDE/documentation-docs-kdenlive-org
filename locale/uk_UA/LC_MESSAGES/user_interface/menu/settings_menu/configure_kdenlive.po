@@ -1,22 +1,22 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-10-28 09:42+0300\n"
+"POT-Creation-Date: 2024-04-18 01:31+0000\n"
+"PO-Revision-Date: 2024-04-18 21:33+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language-Team: Ukrainian\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:1
 msgid "Configure settings in Kdenlive video editor"
@@ -348,53 +348,16 @@ msgstr "Докладніший опис у розділі :ref:`split_subtitle_a
 msgid "Environment"
 msgstr "Середовище"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:196
-msgid "MLT Environment"
-msgstr "Середовище MLT"
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:198
+#| msgid "Environment variables on Windows"
+msgid "Environment on Windows"
+msgstr "Середовище у Windows"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:202
-msgid "Environment variables on Windows"
-msgstr "Змінні середовища у Windows"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:208
-msgid ""
-"Environment variables on Kdenlive normal installed on Linux (Appimage, "
-"Flatpak, Snap may have integrated paths)"
-msgstr ""
-"Змінні середовища для Kdenlive, яку встановлено у звичний спосіб у Linux "
-"(Appimage, Flatpak, Snap можуть мати вбудовані до пакунків шляхи)"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:214
-msgid "Environment variables on MacOS"
-msgstr "Змінні середовища у MacOS"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:217
-msgid ""
-"This setting tells **Kdenlive** where to find the MLT executables and "
-"profile files. Only advanced users would really need to change these "
-"settings. **Kdenlive** is basically a front end to the MLT program and this "
-"setting tells **Kdenlive** where to find the engine that runs the whole "
-"application."
-msgstr ""
-"Цей параметр повідомляє **Kdenlive**, ще шукати виконувані файли та файли "
-"профілів MLT. Справжня потреба у зміні цього параметра може виникнути лише у "
-"досвідченого користувача. **Kdenlive**, на базовому рівні, є оболонкою до "
-"програми MLT, а цей параметр вказує **Kdenlive**, де шукати рушій, який є "
-"основою усієї програми."
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:219
-msgid ""
-"Path to the MediaInfo file. If filled in Kdenlive shows more details in clip "
-"properties."
-msgstr ""
-"Шлях до файла MediaInfo. Якщо заповнено, Kdenlive показуватиме більше "
-"подробиць у властивостях кліпу."
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:221
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:200
 msgid "**Proxy and Transcode Jobs**"
 msgstr "**Завдання зі створення проміжних кліпів та перекодування**"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:223
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:202
 msgid ""
 ":guilabel:`Concurrent threads` This will set the number of threads the "
 "program will attempt to use when calling ffmpeg to encode :ref:`clips`. This "
@@ -413,36 +376,89 @@ msgstr ""
 "для якого у ffmpeg не передбачено багатопотокової обробки. (Багатопотокову "
 "обробку передбачено для MPEG-2, MPEG-4, H.264 і VP8)"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:227
-msgid ":guilabel:`Use lower CPU priority for proxy and transcode tasks`"
-msgstr ""
-":guilabel:`Нижчий пріоритет використання процесора для завдань зі створення "
-"проміжних кліпів та перекодування`"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:229
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:206
+#| msgid ""
+#| "This adds a Kdenlive setting to lower the priority of the proxy rendering "
+#| "(QProcess). This helps keep the main UI responsive when proxies are "
+#| "rendering."
 msgid ""
-"This adds a Kdenlive setting to lower the priority of the proxy rendering "
-"(QProcess). This helps keep the main UI responsive when proxies are "
-"rendering."
+":guilabel:`Use lower CPU priority for proxy and transcode tasks` This adds a "
+"Kdenlive setting to lower the priority of the proxy rendering (QProcess). "
+"This helps keep the main UI responsive when proxies are rendering."
 msgstr ""
-"Додає параметр Kdenlive для зниження пріоритетності обробки проміжних кліпів "
+":guilabel:`Нижчий пріоритет використання процесора для завдань зі створення"
+" проміжних "
+"кліпів та перекодування` Додає параметр Kdenlive для зниження пріоритетності"
+" обробки проміжних кліпів "
 "(QProcess). Це допомагає зберігати інтерактивність головного інтерфейсу "
 "користувача при обробці проміжних кліпів."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:233
-msgid ":guilabel:`Cached Data`"
-msgstr ":guilabel:`Кешовані дані`"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:235
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:210
+#| msgid ""
+#| "Add a maximal cache size so that Kdenlive can check every 2 weeks if the "
+#| "total cached data size exceeds this limit and warn the user."
 msgid ""
-"Add a maximal cache size so that Kdenlive can check every 2 weeks if the "
-"total cached data size exceeds this limit and warn the user."
+":guilabel:`Warn if cached data exceeds` Add a maximal cache size so that "
+"Kdenlive can check every 2 weeks if the total cached data size exceeds this "
+"limit and warn the user."
 msgstr ""
-"Додайте максимальний розмір кешу, щоб Kdenlive виконувала кожні 2 тижні "
+":guilabel:`Попереджати, якщо вік кешованих даних перевищує` — додайте"
+" максимальний розмір кешу, щоб Kdenlive виконувала кожні 2 тижні "
 "перевірку, чи не перевищує загальний розмір кешованих даних це обмеження, і "
 "попереджала користувача."
 
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:214
+msgid ""
+":guilabel:`Check for updates` When enabled Kdenlive show a pup-up menu for "
+"updating Kdenlive if your version is older then 6 month."
+msgstr ""
+":guilabel:`Шукати оновлення` — якщо позначено, Kdenlive показуватиме"
+" контекстне меню для оновлення Kdenlive, якщо ваша версія є старішою за 6"
+" місяців."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:217
+msgid "MLT Environment"
+msgstr "Середовище MLT"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:223
+msgid "Environment variables on Windows"
+msgstr "Змінні середовища у Windows"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:229
+msgid ""
+"Environment variables on Kdenlive normal installed on Linux (Appimage, "
+"Flatpak, Snap may have integrated paths)"
+msgstr ""
+"Змінні середовища для Kdenlive, яку встановлено у звичний спосіб у Linux "
+"(Appimage, Flatpak, Snap можуть мати вбудовані до пакунків шляхи)"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:235
+msgid "Environment variables on MacOS"
+msgstr "Змінні середовища у MacOS"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:238
+msgid ""
+"This setting tells **Kdenlive** where to find the MLT executables and "
+"profile files. Only advanced users would really need to change these "
+"settings. **Kdenlive** is basically a front end to the MLT program and this "
+"setting tells **Kdenlive** where to find the engine that runs the whole "
+"application."
+msgstr ""
+"Цей параметр повідомляє **Kdenlive**, ще шукати виконувані файли та файли "
+"профілів MLT. Справжня потреба у зміні цього параметра може виникнути лише у "
+"досвідченого користувача. **Kdenlive**, на базовому рівні, є оболонкою до "
+"програми MLT, а цей параметр вказує **Kdenlive**, де шукати рушій, який є "
+"основою усієї програми."
+
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:240
+msgid ""
+"Path to the MediaInfo file. If filled in Kdenlive shows more details in clip "
+"properties."
+msgstr ""
+"Шлях до файла MediaInfo. Якщо заповнено, Kdenlive показуватиме більше "
+"подробиць у властивостях кліпу."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:245
 msgid ""
 "**Processing and transcode jobs**: This is experimental and was removed in "
 "ver 0.9.10. This number was passed to melts *real_time* consumer property. "
@@ -464,7 +480,7 @@ msgstr ""
 "певні непередбачені наслідки — див. `цей допис <https://forum.kde.org/"
 "viewtopic.php%3Ff=265&t=122140.html#p317318>`_ від автора програми Melt."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:242
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:247
 msgid ""
 "If you want to experiment with multi threading in versions higher than "
 "0.9.10  you could add something like \"real_time=-4\" to a custom render "
@@ -480,23 +496,23 @@ msgstr ""
 "advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_ числа "
 "<0 реалізують багатопотокову обробку без викидання кадрів."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:246
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:251
 msgid "Default Folders"
 msgstr "Типові теки"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:254
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:259
 msgid "Default folders on Windows."
 msgstr "Типові теки у Windows."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:260
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:265
 msgid "Default folders on Linux."
 msgstr "Типові теки у Linux."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:266
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:271
 msgid "Default folders on MacOS."
 msgstr "Типові теки у MacOS."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:269
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:274
 msgid ""
 "This setting controls where **Kdenlive** expects project files to be by "
 "default. It also controls what folder **Kdenlive** will use as a temporary "
@@ -508,11 +524,76 @@ msgstr ""
 "сховище тимчасових файлів. Він також керує тим, де буде збережено файли, "
 "захоплені із зовнішнього джерела."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:274
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:283
+msgid "Python"
+msgstr "Python"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:289
+#| msgid "Playback view on Windows."
+msgid "Python tab on Windows"
+msgstr "Вкладка «Python» у Windows"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:291
+msgid ""
+":guilabel:`Use python virtual environment (recommended)` When enabled "
+"Kdenlive creates a :file:`venv` folder and copy/symlink Python into this "
+"folder."
+msgstr ""
+":guilabel:`Скористатися віртуальним середовищем python (рекомендовано)` —"
+" якщо позначено, Kdenlive створить теку :file:`venv` і скопіює файли до цієї"
+" теки або створить відповідні символічні посилання."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:293
+msgid ""
+"Using the virtual environment (venv) stores Python, as you have installed it "
+"on your system in the :file:`venv` folder.  If you install speech to text "
+"the VOSK and Whisper libraries will be installed in the :file:`venv` folder "
+"as well."
+msgstr ""
+"Використання віртуального середовища (venv) збереже Python так, наче його"
+" встановлено у вашій системі до теки :file:`venv`. Якщо ви встановите рушій"
+" перетворенням мовлення на текст, бібліотеки VOSK і Whisper також буде"
+" встановлено до теки :file:`venv`."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:295
+msgid ""
+"This has many benefits including easier dependency management and reduced "
+"risk of package conflicts and errors caused by software deprecation."
+msgstr ""
+"У цього способу багато переваг, зокрема спрощення керування залежностями та"
+" зменшення ризику конфліктів пакунків та помилок, які спричинено"
+" застаріванням програмного забезпечення."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:297
+msgid "Path for venv:"
+msgstr "Шлях для venv:"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:299
+msgid "Linux: :file:`~/.local/share/kdenlive/venv`"
+msgstr "Linux: :file:`~/.local/share/kdenlive/venv`"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:300
+msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
+msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:302
+msgid ""
+"To remove the installed :file:`venv` packages click on :guilabel:`Delete`. "
+"This will completely remove the :file:`venv` folder with all installed "
+"packages. Note that this does not remove the downloaded models (vosk/"
+"whisper) that can still take quite some HD space."
+msgstr ""
+"Щоб вилучити встановлені пакунки :file:`venv`, натисніть кнопку"
+" :guilabel:`Вилучити`. У результаті буде повністю вилучено теку :file:`venv`"
+" із усіма встановленими пакунками. Зауважте, що це не призведе до вилучення"
+" отриманих моделей (vosk/whisper), які продовжуватимуть займати певне місце"
+" на диску комп'ютера."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:307
 msgid "Default Apps"
 msgstr "Типові програми"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:280
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:313
 msgid ""
 "This setting controls what external application opens when you choose :ref:"
 "`edit_clip` for a clip in the project bin."
@@ -520,7 +601,7 @@ msgstr ""
 "Цей пункт керує тим, яка зовнішня програма відкриватиметься, коли ви "
 "вибиратимете пункт :ref:`edit_clip` для кліпу у контейнері проєкту."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:282
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:315
 msgid ""
 ":guilabel:`Image editing`: A free software would be `Krita <https://www."
 "audacityteam.org/>`_."
@@ -528,7 +609,7 @@ msgstr ""
 ":guilabel:`Редагування зображень`: вільною програмою може бути `Krita "
 "<https://www.audacityteam.org/>`_."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:284
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:317
 msgid ""
 ":guilabel:`Audio editing`: A free software would be `Audacity <https://krita."
 "org/en/>`_."
@@ -536,7 +617,7 @@ msgstr ""
 ":guilabel:`Редагування звукових даних`: вільною програмою може бути "
 "`Audacity <https://krita.org/en/>`_."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:286
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:319
 msgid ""
 ":guilabel:`Animation editing`: Kdenlive updates automatically files which "
 "are saved in Glaxnimate. Glaxnimate can be downloaded from `here <https://"
@@ -546,7 +627,7 @@ msgstr ""
 "було збережено у Glaxnimate. Glaxnimate можна отримати `тут <https://"
 "glaxnimate.mattbas.org/>`_ (Linux, Windows, Mac)."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:288
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:321
 msgid ""
 "**Mac user:** :ref:`Instruction <kdenlive_macos>` how to install and run "
 "`dmg` files."
@@ -554,7 +635,7 @@ msgstr ""
 "**Користувачі Mac:** :ref:`настанови <kdenlive_macos>` щодо того, як "
 "встановити і виконати файли `dmg`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:290
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:323
 msgid ""
 "**Windows user:** Make sure all the paths points to an `.exe` file. "
 "`Glaxnimate.exe` is in folder `C:/YourPath/glaxnimate-x86_64/glaxnimate/bin/"
@@ -564,7 +645,7 @@ msgstr ""
 "exe`. `Glaxnimate.exe` перебуває у теці `C:/YourPath/glaxnimate-x86_64/"
 "glaxnimate/bin/glaxnimate.exe`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:295
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:328
 msgid ""
 "There is no application for video editing - because **Kdenlive** is a video "
 "editor."
@@ -572,11 +653,11 @@ msgstr ""
 "Немає програми для редагування відео, оскільки **Kdenlive** є редактором "
 "відео."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:298
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:331
 msgid "Mime types"
 msgstr "Типи MIME"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:304
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:337
 msgid ""
 "Specifies the Media Types (formerly known as MIME types) which Kdenlive can "
 "working with."
@@ -584,11 +665,11 @@ msgstr ""
 "Визначає типи мультимедійних даних (раніше називалися типами MIME), з якими "
 "може працювати Kdenlive."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:308
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:341
 msgid "Added file type: `AVIF`, `HEIF` and `JPEG XL`"
 msgstr "Додані типи файлів: `AVIF`, `HEIF` та `JPEG XL`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:310
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:343
 msgid ""
 "Added animation file type: `Json` (Lottie animations) and `rawr` (Glaxnimate "
 "animation)"
@@ -596,11 +677,11 @@ msgstr ""
 "Додано тип файлів анімацій: `Json` (анімації Lottie) і `rawr` (анімації "
 "Glaxnimate)"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:315
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:348
 msgid "Colors and Guides"
 msgstr "Кольори і напрямні"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:321
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:354
 msgid ""
 ":guilabel:`Audio thumbnail colors` Click on the color bar and change the "
 "color of the audio wave thumbnail."
@@ -608,7 +689,7 @@ msgstr ""
 ":guilabel:`Кольори мініатюр звуку`: натисніть на панелі кольору і змініть "
 "колір мініатюр хвиль звукових даних."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:325
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:358
 msgid ""
 ":guilabel:`Monitor overlay color` Click on the color bar and change the "
 "color of the monitor overlay lines. See :ref:`ui-monitors_display_toolbar`"
@@ -616,11 +697,11 @@ msgstr ""
 ":guilabel:`Колір накладки монітора`: натисніть на панелі кольору і змініть "
 "колір ліній накладки монітора. Див. :ref:`ui-monitors_display_toolbar`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:327
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:360
 msgid "Moved from tab :ref:`configure_playback`"
 msgstr "Перенесено з вкладки :ref:`configure_playback`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:330
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:363
 msgid ""
 ":guilabel:`Monitor background color` Click on the color bar and change the "
 "color of the monitor background."
@@ -628,7 +709,7 @@ msgstr ""
 ":guilabel:`Колір тла монітора`: натисніть на панелі кольору і змініть колір "
 "тла монітора."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:334
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:367
 msgid ""
 ":guilabel:`Guides and Markers Categories` This allows you to add categories. "
 "Selected categories can be edited and deleted."
@@ -636,45 +717,45 @@ msgstr ""
 ":guilabel:`Категорії напрямних і позначок` — тут ви можете додати категорії. "
 "Позначені категорії можна редагувати і вилучати."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:340
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:373
 msgid "Speech To Text"
 msgstr "Перетворення звуку на текст"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:346
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:379
 msgid ""
 "More details about speech to text see :ref:`here <effects-speech_to_text>`."
 msgstr ""
 "Докладніший опис перетворення голосових даних на текст наведено :ref:`тут "
 "<effects-speech_to_text>`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:352
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:385
 msgid "Playback"
 msgstr "Відтворення"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:356
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:389
 msgid ""
 "Configure the Video and Audio drivers and devices. For advanced users only."
 msgstr ""
 "Налаштовування драйверів та пристрої для відеоданих і звукових даних. Лише "
 "для досвідчених користувачів."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:363
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:396
 msgid "Playback view on Windows."
 msgstr "Панель відтворення у Windows."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:369
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:402
 msgid ":guilabel:`Audio driver` on Linux."
 msgstr ":guilabel:`Звуковий драйвер` у Linux."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:375
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:408
 msgid ":guilabel:`Audio driver` on MAcOS."
 msgstr ":guilabel:`Звуковий драйвер` у MacOS."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:377
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:410
 msgid ":guilabel:`Audio driver` on Windows"
 msgstr ":guilabel:`Звуковий драйвер` у Windows"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:379
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:412
 msgid ""
 "WinMM (Win7), Wasapi (Win10), DirectSound. If you have any audio issue or "
 "playback stuttering you may change to another audio driver."
@@ -682,7 +763,7 @@ msgstr ""
 "WinMM (Win7), Wasapi (Win10), DirectSound. Якщо у вас виникають проблеми зі "
 "звуком або відтворення затинається, ви можете змінити звуковий драйвер."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:381
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:414
 msgid ""
 "In version 0.9.4 of **Kdenlive**, checking the \"use Open GL for video "
 "playback\" checkbox turns on the ability to have audio scrubbing available "
@@ -700,7 +781,7 @@ msgstr ""
 "корисною для розташування позиції відтворення у потрібному місці кліпу "
 "відносно певного важливого шматка звукових даних."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:383
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:416
 msgid ""
 "In ver 15.04 or higher, there is no \"use Open GL for video playback\" "
 "checkbox  - Open GL is used by default. On Windows you can set the OpenGL "
@@ -711,12 +792,12 @@ msgstr ""
 "можете встановити модуль обробки OpenGL у розділі :menuselection:`Параметри "
 "--> Модуль OpenGL`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:387
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:420
 msgid ":guilabel:`Monitor background color` moved to :ref:`configure_colors`"
 msgstr ""
 ":guilabel:`Колір тла монітора` пересунуто до розділу :ref:`configure_colors`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:389
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:422
 msgid ""
 ":guilabel:`Enable Audio Scrubbing` and :guilabel:`Preview Volume` are "
 "removed as the UI element is a duplicate of the volume slider in the "
@@ -730,15 +811,15 @@ msgstr ""
 "monitors_clip_monitor_hamburger>` і :ref:`Монітор проєкту "
 "<project_monitor_hamburger>`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:396
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:429
 msgid "Capture"
 msgstr "Захоплення"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:400
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:433
 msgid "Configure Screen Grab Capture"
 msgstr "Налаштовування захоплення відео з екрана"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:406
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:439
 msgid ""
 "These settings configure screen grab within **Kdenlive**. More details see :"
 "ref:`here <capturing>`."
@@ -746,11 +827,11 @@ msgstr ""
 "Ці параметри визначають налаштування захоплення у **Kdenlive**. Докладніший "
 "опис можна знайти у розділі :ref:`capturing`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:409
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:442
 msgid "Blackmagic"
 msgstr "Blackmagic"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:415
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:448
 msgid ""
 "If you have a Blackmagic DecLink video capture card you can set here the "
 "import parameter."
@@ -758,11 +839,11 @@ msgstr ""
 "Якщо ви є власником картки захоплення відео Blackmagic DecLink, тут ви "
 "можете налаштувати параметри імпортування."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:420
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:453
 msgid "Audio"
 msgstr "Звук"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:426
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:459
 msgid ""
 "Microphone settings, either for screen :ref:`capturing` or for :ref:"
 "`capturingaudio` direct into the timeline."
@@ -770,11 +851,11 @@ msgstr ""
 "Параметри мікрофона, або для :ref:`захоплення з екрана <capturing>`, або "
 "для :ref:`захоплення звуку <capturingaudio>` безпосередньо на монтажний стіл."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:430
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
 msgid ":guilabel:`Disable countdown before recording`"
 msgstr ":guilabel:`Вимкнути відлік перед записуванням`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:434
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:467
 msgid ""
 "At least Firewire capture was removed in porting to KDE 5 due to lack of "
 "manpower."
@@ -782,11 +863,11 @@ msgstr ""
 "Під час портування на KF 5 було вилучено принаймні захоплення зображення за "
 "допомогою Firewire через брак розробників."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:436
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:469
 msgid "Following paragraph is for history reason only."
 msgstr "Наступний абзац наведено лише з історичних міркувань."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:438
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:471
 msgid ""
 "Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, "
 "Blackmagic, Audio) from this section."
@@ -794,11 +875,11 @@ msgstr ""
 "За допомогою цього розділу можна налаштувати пристрої :ref:`захоплення "
 "<capturing>` (Firewire, FFmpeg, захоплення з екрана, Blackmagic, Звук)."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:442
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:475
 msgid "Configure Firewire Capture"
 msgstr "Налаштовування захоплення з Firewire"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:444
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:477
 msgid ""
 "The image shows the Configure Firewire capture tab which can be accessed "
 "from the :menuselection:`Settings --> Configure Kdenlive` menu or from the "
@@ -809,7 +890,7 @@ msgstr ""
 "Налаштувати Kdenlive` або за допомогю піктограми із гайковим ключем у :ref:"
 "`capturing`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:453
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:486
 msgid ""
 "The firewire capture functionality uses the `dvgrab <http://linux.die.net/"
 "man/1/dvgrab>`_ program. The settings applied here to define how dvgrab will "
@@ -819,27 +900,27 @@ msgstr ""
 "die.net/man/1/dvgrab>`_. Параметри з цього розділу визначають, як dvgrab "
 "буде використано для захоплення відео."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:456
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:489
 msgid "**Capture Format options** are"
 msgstr "**Варіанти формату захоплення**:"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:458
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:491
 msgid "DV RAW"
 msgstr "DV RAW"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:459
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:492
 msgid "DV AVI Type 1"
 msgstr "DV AVI тип 1"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:460
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:493
 msgid "DV AVI Type 2"
 msgstr "DV AVI тип 2"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:461
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:494
 msgid "HDV"
 msgstr "HDV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:496
 msgid ""
 "The first three are quality-wise the same (exactly the same DV 25Mb/s "
 "standard definition codec), just packed differently into the file. Type 2 "
@@ -849,7 +930,7 @@ msgstr ""
 "Мбіт/с із стандартним визначенням), їх лише запаковано по-різному до файла. "
 "Підтримка типу 2, здається, є найрозповсюдженішою у інших програмах."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:465
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:498
 msgid ""
 "The raw format contains just the plain video frames (with audio interleaved) "
 "without any additional information. Raw is useful for some Linux software. "
@@ -862,7 +943,7 @@ msgstr ""
 "у цьому форматі також можна відтворювати за допомогою Windows QuickTime, "
 "якщо перейменувати файл на :file:`файл.dv`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:467
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:500
 msgid ""
 "AVI files may contain multiple streams. Typically, they include one video "
 "and one audio stream. The native DV stream format already includes the audio "
@@ -881,13 +962,13 @@ msgstr ""
 "Через це, тип 2 файлів AVI DV є надлишковим і використовує більше місця на "
 "диску."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:469
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:502
 msgid "HDV is a high-definition format used on tape-based HD camcorders."
 msgstr ""
 "HDV є форматом високої роздільності, який використовується у плівкових "
 "пристроях записування у форматі з високою роздільністю."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:471
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:504
 msgid ""
 "**Add recording time to captured file name** option: If this is unchecked "
 "then each captured file will get a sequential number post-pended to the file "
@@ -901,7 +982,7 @@ msgstr ""
 "файла буде дописано дату і часову позначку (на основі моменту створення "
 "матеріалу). Приклад: **capture2012.07.15_11-38-37.dv**"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:473
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:506
 msgid ""
 "**Automatically start a new file on scene cut** option:  With this checked "
 "it tries to detect whenever a new recording starts, and store it into a "
@@ -918,7 +999,7 @@ msgstr ""
 "позначки перевищуватиме одну секунду, програма розпочинатиме новий файл "
 "захоплення даних."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:475
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:508
 msgid ""
 "The **dvgrab additional parameters** edit box allows you to add extra dvgrab "
 "switches to the capture process that will run. See  `dvgrab manual <http://"
@@ -928,11 +1009,11 @@ msgstr ""
 "додаткові перемикачі dvgrab до процесу захоплення даних. Щоб дізнатися "
 "більше, див. `підручник dvgrab <http://linux.die.net/man/1/dvgrab>`_."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:481
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:514
 msgid "Jog Shuttle"
 msgstr "Ручка керування"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:484
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:517
 msgid ""
 "Configure a connected Jog-Shuttle device. Contour ShuttlePro and Contour "
 "ShuttleXpress are known to work."
@@ -940,11 +1021,11 @@ msgstr ""
 "Налаштувати з'єднаний пристрій Jog-Shuttle. Відомо, що це працює для Contour "
 "ShuttlePro і Contour ShuttleXpress."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:492
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:525
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:494
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:527
 msgid ""
 "Ensure that your Jog-Shuttle device is connected via USB and working. An "
 "udev rule is necessary to correct the access rights to the device file: "
@@ -955,20 +1036,20 @@ msgstr ""
 "пристрою: створіть файл /etc/udev/rules.d/90-contour-shuttleXpress.rules з "
 "таким рядком:"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:505
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:538
 msgid "for Contour ShuttleXpress or"
 msgstr "для Contour ShuttleXpress або"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:516
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:549
 msgid "for Contour ShuttlePRO V2. Obtain the device file by a command"
 msgstr ""
 "для Contour ShuttlePRO V2. Отримайте файл пристрою за допомогою команди"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:523
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:556
 msgid "The last line of the output says"
 msgstr "В останньому рядку виведених даних можна бачити"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:530
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:563
 msgid ""
 "which should tell the device file to be entered into kdenlive's setting "
 "dialog: In the text field enter /dev/input/**event3** (use the last word on "
@@ -980,7 +1061,7 @@ msgstr ""
 "(скористайтеся останнім словом у виведеному рядку, щоб вказати файл пристрою "
 "у /dev/input), встановіть значення для кнопок та застосуйте зміни."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:539
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:572
 msgid ""
 "Enable Jog-Shuttle. For the Contour ShuttleXpress the buttons 5 - 9 are "
 "relevant, whereas Contour ShuttlePro uses all buttons. The actions for the "
@@ -990,11 +1071,11 @@ msgstr ""
 "Contour ShuttlePro — усі кнопки. Дії для jog і коліщатка shuttle працюють "
 "очікуваним чином."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:542
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:575
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:544
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:577
 msgid ""
 "On the desktop, bottom-right opens the system tray. Right-click on the "
 "Contour icon and choose \"Open control Panel\"."
@@ -1003,7 +1084,7 @@ msgstr ""
 "правою кнопкою миші на контурній піктограмі і виберіть «Відкрити панель "
 "керування»."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:552
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:585
 msgid ""
 "In the configuration window choose under \"Application setting\" the program "
 "\"Adobe Premiere Pro CS&amp;CC (Edit)\". Then click on :menuselection:"
@@ -1013,11 +1094,11 @@ msgstr ""
 "Pro CS&amp;CC (Edit)». Потім клацніть на :menuselection:`Параметри --> "
 "Створити параметри --> Копіювати дані з поточних параметрів`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:560
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:593
 msgid "Then choose Kdenlive.exe in C:\\Program Files\\kdenlive\\bin."
 msgstr "Далі, виберіть Kdenlive.exe у C:\\Program Files\\kdenlive\\bin."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:568
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:601
 msgid ""
 "Now the basic functionality should work. Adjust the buttons of the shuttle "
 "with shortcuts as you like."
@@ -1025,7 +1106,7 @@ msgstr ""
 "Після цього мають працювати базові функціональні можливості. Пов'яжіть "
 "кнопки човника із бажаними для вас клавіатурними скороченнями."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:572
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:605
 msgid ""
 "You can make Kdenlive settings from scratch using :menuselection:`Options --"
 "> Create new settings --> Create Empty Settings` when creating new settings."
@@ -1034,11 +1115,11 @@ msgstr ""
 "menuselection:`Параметри --> Створити параметри --> Створити порожні "
 "параметри` при створенні значень нових параметрів."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:578
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:611
 msgid "Transcode"
 msgstr "Перекодування"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:581
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:614
 msgid ""
 "This controls the :ref:`transcode` functionality. The parameters section are "
 "ffmpeg parameters. Find help on them by issuing ``ffmpeg -h`` at a command "
@@ -1048,71 +1129,79 @@ msgstr ""
 "наведено параметри ffmpeg. Із довідковими даними щодо цих параметрів можна "
 "ознайомитися за допомогою команди ``ffmpeg -h`` у командному рядку."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:591
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:624
 msgid "Transcode Options"
 msgstr "Параметри перекодування"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:596
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:629
 msgid "Option"
 msgstr "Параметр"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:597
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:630
 msgid "Description"
 msgstr "Опис"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:598
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:631
 msgid "Parameters"
 msgstr "Параметри"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:599
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:632
 msgid "Meanings of Parameters"
 msgstr "Призначення параметрів"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:600
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:633
 msgid "Wav 48000Hz"
 msgstr "Wav 48000Гц"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:601
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:634
 msgid "Extract audio as WAV file"
 msgstr "Видобути звукові дані до файла WAV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:602
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:635
 msgid "-vn -ar 48000"
 msgstr "-vn -ar 48000"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:603
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:636
 msgid "-vn=disable video, -ar 48000 = set audio sampling rate to 48kHz"
 msgstr ""
 "-vn=вимкнути відео, -ar 48000 = встановити частоту дискретизації звукових "
 "даних у значення 48 кГц"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:604
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:637
 msgid "Remux with MKV"
 msgstr "Перемікшування з MKV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:606
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:639
 msgid "-vcodec copy -acodec copy -sn"
 msgstr "-vcodec copy -acodec copy -sn"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:607
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:640
 msgid "copy the video and the audio. -sn = disable subtitles"
 msgstr "копіювати відео і звук. -sn = вимкнути субтитри"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:608
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:641
 msgid "Remux MPEG-2 PS/VOB"
 msgstr "Перемікшування MPEG-2 PS/VOB"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:609
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:642
 msgid "Fix audio sync in MPEG-2 vob files"
 msgstr "Виправлення синхронізації звуку у файлах vob MPEG-2"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:610
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:643
 msgid "-vcodec copy -acodec copy"
 msgstr "-vcodec copy -acodec copy"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:611
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:644
 msgid "copy the video and the audio"
 msgstr "копіювати відео та звук"
+
+#~ msgid ":guilabel:`Use lower CPU priority for proxy and transcode tasks`"
+#~ msgstr ""
+#~ ":guilabel:`Нижчий пріоритет використання процесора для завдань зі "
+#~ "створення проміжних кліпів та перекодування`"
+
+#~ msgid ":guilabel:`Cached Data`"
+#~ msgstr ":guilabel:`Кешовані дані`"
 
 #~ msgid "Contents"
 #~ msgstr "Зміст"

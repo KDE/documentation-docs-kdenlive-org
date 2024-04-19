@@ -1,16 +1,16 @@
 # Translation of docs_kdenlive_org_user_interface___menu___settings_menu___configure_kdenlive.po to Catalan
-# Copyright (C) 2021-2023 This_file_is_part_of_KDE
+# Copyright (C) 2021-2024 This_file_is_part_of_KDE
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2021, 2022, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2021, 2022, 2023, 2024.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-10-28 11:01+0200\n"
+"POT-Creation-Date: 2024-04-18 01:31+0000\n"
+"PO-Revision-Date: 2024-04-18 21:15+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -348,53 +348,16 @@ msgstr "Vegeu més detalls a :ref:`split_subtitle_after_first_line`"
 msgid "Environment"
 msgstr "Entorn"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:196
-msgid "MLT Environment"
-msgstr "Entorn MLT"
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:198
+#| msgid "Environment variables on Windows"
+msgid "Environment on Windows"
+msgstr "Entorn en el Windows"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:202
-msgid "Environment variables on Windows"
-msgstr "Variables d'entorn en el Windows"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:208
-msgid ""
-"Environment variables on Kdenlive normal installed on Linux (Appimage, "
-"Flatpak, Snap may have integrated paths)"
-msgstr ""
-"Variables d'entorn en una instal·lació normal del Kdenlive en el Linux "
-"(Appimage, Flatpak i Snap poden tenir camins integrats)"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:214
-msgid "Environment variables on MacOS"
-msgstr "Variables d'entorn en el MacOS"
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:217
-msgid ""
-"This setting tells **Kdenlive** where to find the MLT executables and "
-"profile files. Only advanced users would really need to change these "
-"settings. **Kdenlive** is basically a front end to the MLT program and this "
-"setting tells **Kdenlive** where to find the engine that runs the whole "
-"application."
-msgstr ""
-"Aquest paràmetre informa el **Kdenlive** o on trobar els executables MLT i "
-"els fitxers dels perfils. Només els usuaris avançats necessitaran canviar "
-"realment aquests paràmetres. El **Kdenlive** és bàsicament un frontal del "
-"programa MLT i això informa el **Kdenlive** a on trobar el motor que executa "
-"l'aplicació sencera."
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:219
-msgid ""
-"Path to the MediaInfo file. If filled in Kdenlive shows more details in clip "
-"properties."
-msgstr ""
-"Camí al fitxer MediaInfo. Si s'omple, el Kdenlive mostra més detalls a les "
-"propietats del clip."
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:221
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:200
 msgid "**Proxy and Transcode Jobs**"
 msgstr "**Tasques de servidor intermediari i transcodificació**"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:223
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:202
 msgid ""
 ":guilabel:`Concurrent threads` This will set the number of threads the "
 "program will attempt to use when calling ffmpeg to encode :ref:`clips`. This "
@@ -412,37 +375,88 @@ msgstr ""
 "el «ffmpeg» no el tracti com a multifil. (El multifil està implementat per a "
 "MPEG-2, MPEG-4, H.264, i VP8)"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:227
-msgid ":guilabel:`Use lower CPU priority for proxy and transcode tasks`"
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:206
+#| msgid ""
+#| "This adds a Kdenlive setting to lower the priority of the proxy rendering "
+#| "(QProcess). This helps keep the main UI responsive when proxies are "
+#| "rendering."
+msgid ""
+":guilabel:`Use lower CPU priority for proxy and transcode tasks` This adds a "
+"Kdenlive setting to lower the priority of the proxy rendering (QProcess). "
+"This helps keep the main UI responsive when proxies are rendering."
 msgstr ""
 ":guilabel:`Usa una prioritat més baixa de la CPU per a tasques "
-"d'intermediaris i de transcodificació`"
+"d'intermediaris i de transcodificació` Això afegeix un paràmetre del "
+"Kdenlive per a reduir la prioritat de la renderització del servidor "
+"intermediari (QProcess). Això ajuda a mantenir la resposta de la interfície "
+"d'usuari principal quan els intermediaris estan renderitzant."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:210
+#| msgid ""
+#| "Add a maximal cache size so that Kdenlive can check every 2 weeks if the "
+#| "total cached data size exceeds this limit and warn the user."
+msgid ""
+":guilabel:`Warn if cached data exceeds` Add a maximal cache size so that "
+"Kdenlive can check every 2 weeks if the total cached data size exceeds this "
+"limit and warn the user."
+msgstr ""
+":guilabel:`Avisa si les dades en la memòria cau excedeixen` Afegeix una mida "
+"màxima de la memòria cau perquè el Kdenlive pugui comprovar cada 2 setmanes "
+"si la mida total de les dades de la memòria cau excedeix aquest límit i "
+"avisa l'usuari."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:214
+msgid ""
+":guilabel:`Check for updates` When enabled Kdenlive show a pup-up menu for "
+"updating Kdenlive if your version is older then 6 month."
+msgstr ""
+":guilabel:`Comprova si hi ha actualitzacions` Quan està activat, el Kdenlive "
+"mostra un menú emergent per a actualitzar el Kdenlive si la vostra versió té "
+"més de 6 mesos."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:217
+msgid "MLT Environment"
+msgstr "Entorn MLT"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:223
+msgid "Environment variables on Windows"
+msgstr "Variables d'entorn en el Windows"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:229
 msgid ""
-"This adds a Kdenlive setting to lower the priority of the proxy rendering "
-"(QProcess). This helps keep the main UI responsive when proxies are "
-"rendering."
+"Environment variables on Kdenlive normal installed on Linux (Appimage, "
+"Flatpak, Snap may have integrated paths)"
 msgstr ""
-"Això afegeix un paràmetre del Kdenlive per a reduir la prioritat de la "
-"renderització del servidor intermediari (QProcess). Això ajuda a mantenir la "
-"resposta de la interfície d'usuari principal quan els intermediaris estan "
-"renderitzant."
-
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:233
-msgid ":guilabel:`Cached Data`"
-msgstr ":guilabel:`Dades de la memòria cau`"
+"Variables d'entorn en una instal·lació normal del Kdenlive en el Linux "
+"(Appimage, Flatpak i Snap poden tenir camins integrats)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:235
+msgid "Environment variables on MacOS"
+msgstr "Variables d'entorn en el MacOS"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:238
 msgid ""
-"Add a maximal cache size so that Kdenlive can check every 2 weeks if the "
-"total cached data size exceeds this limit and warn the user."
+"This setting tells **Kdenlive** where to find the MLT executables and "
+"profile files. Only advanced users would really need to change these "
+"settings. **Kdenlive** is basically a front end to the MLT program and this "
+"setting tells **Kdenlive** where to find the engine that runs the whole "
+"application."
 msgstr ""
-"Afegeix una mida màxima de la memòria cau perquè el Kdenlive pugui comprovar "
-"cada 2 setmanes si la mida total de les dades de la memòria cau excedeix "
-"aquest límit i avisa l'usuari."
+"Aquest paràmetre informa el **Kdenlive** o on trobar els executables MLT i "
+"els fitxers dels perfils. Només els usuaris avançats necessitaran canviar "
+"realment aquests paràmetres. El **Kdenlive** és bàsicament un frontal del "
+"programa MLT i això informa el **Kdenlive** a on trobar el motor que executa "
+"l'aplicació sencera."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:240
+msgid ""
+"Path to the MediaInfo file. If filled in Kdenlive shows more details in clip "
+"properties."
+msgstr ""
+"Camí al fitxer MediaInfo. Si s'omple, el Kdenlive mostra més detalls a les "
+"propietats del clip."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:245
 msgid ""
 "**Processing and transcode jobs**: This is experimental and was removed in "
 "ver 0.9.10. This number was passed to melts *real_time* consumer property. "
@@ -466,7 +480,7 @@ msgstr ""
 "l'autor del programa Melt."
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:242
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:247
 msgid ""
 "If you want to experiment with multi threading in versions higher than "
 "0.9.10  you could add something like \"real_time=-4\" to a custom render "
@@ -482,23 +496,23 @@ msgstr ""
 "advantage-of-multiple-cores-or-how-do-i-enable-parallel-processing>`_, els "
 "nombres < 0 implementen els fils sense descartar fotogrames."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:246
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:251
 msgid "Default Folders"
 msgstr "Carpetes predeterminades"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:254
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:259
 msgid "Default folders on Windows."
 msgstr "Carpetes predeterminades en el Windows."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:260
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:265
 msgid "Default folders on Linux."
 msgstr "Carpetes predeterminades en el Linux."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:266
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:271
 msgid "Default folders on MacOS."
 msgstr "Carpetes predeterminades en el MacOS."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:269
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:274
 msgid ""
 "This setting controls where **Kdenlive** expects project files to be by "
 "default. It also controls what folder **Kdenlive** will use as a temporary "
@@ -510,11 +524,76 @@ msgstr ""
 "usarà el **Kdenlive** com a ubicació d'emmagatzematge de fitxers temporals, "
 "i controla a on es desaran els fitxers capturats des d'una font externa."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:274
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:283
+msgid "Python"
+msgstr "Python"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:289
+#| msgid "Playback view on Windows."
+msgid "Python tab on Windows"
+msgstr "Pestanya del Python en el Windows"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:291
+msgid ""
+":guilabel:`Use python virtual environment (recommended)` When enabled "
+"Kdenlive creates a :file:`venv` folder and copy/symlink Python into this "
+"folder."
+msgstr ""
+":guilabel:`Usa l'entorn virtual del Python (recomanat)` Quan està habilitat, "
+"el Kdenlive crea una carpeta :file:`venv` i copia/enllaça simbòlicament el "
+"Python en aquesta carpeta."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:293
+msgid ""
+"Using the virtual environment (venv) stores Python, as you have installed it "
+"on your system in the :file:`venv` folder.  If you install speech to text "
+"the VOSK and Whisper libraries will be installed in the :file:`venv` folder "
+"as well."
+msgstr ""
+"Utilitzant l'entorn virtual (venv) emmagatzema el Python, ja que l'heu "
+"instal·lat al sistema a la carpeta :file:`venv`. Si instal·leu la veu a text,"
+" les biblioteques VOSK i Whisper també s'instal·laran a la carpeta"
+" :file:`venv`."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:295
+msgid ""
+"This has many benefits including easier dependency management and reduced "
+"risk of package conflicts and errors caused by software deprecation."
+msgstr ""
+"Això té molts beneficis, inclosa una gestió de dependències més fàcil i un "
+"risc reduït de conflictes de paquets i errors causats per l'obsolescència de"
+" programari."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:297
+msgid "Path for venv:"
+msgstr "Camí per al «venv»:"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:299
+msgid "Linux: :file:`~/.local/share/kdenlive/venv`"
+msgstr "Linux: :file:`~/.local/share/kdenlive/venv`"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:300
+msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
+msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:302
+msgid ""
+"To remove the installed :file:`venv` packages click on :guilabel:`Delete`. "
+"This will completely remove the :file:`venv` folder with all installed "
+"packages. Note that this does not remove the downloaded models (vosk/"
+"whisper) that can still take quite some HD space."
+msgstr ""
+"Pera eliminar els paquets :file:`venv` instal·lats feu clic a"
+" :guilabel:`Suprimeix`. Eliminarà completament la carpeta :file:`venv` amb"
+" tots els paquets instal·lats. Tingueu en compte que això no elimina els"
+" models descarregats (vosk/whisper) que encara poden ocupar força espai del"
+" disc."
+
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:307
 msgid "Default Apps"
 msgstr "Aplicacions predeterminades"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:280
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:313
 msgid ""
 "This setting controls what external application opens when you choose :ref:"
 "`edit_clip` for a clip in the project bin."
@@ -522,7 +601,7 @@ msgstr ""
 "Aquest paràmetre controla quina aplicació externa s'obre quan trieu :ref:"
 "`edit_clip` per a un clip a la safata del projecte."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:282
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:315
 msgid ""
 ":guilabel:`Image editing`: A free software would be `Krita <https://www."
 "audacityteam.org/>`_."
@@ -530,7 +609,7 @@ msgstr ""
 ":guilabel:`Edició d'imatges`: un programari lliure podria ser el `Krita "
 "<https://www.audacityteam.org/>`_."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:284
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:317
 msgid ""
 ":guilabel:`Audio editing`: A free software would be `Audacity <https://krita."
 "org/en/>`_."
@@ -538,7 +617,7 @@ msgstr ""
 ":guilabel:`Edició d'àudio`: un programari lliure podria ser l'`Audacity "
 "<https://krita.org/en/>`_."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:286
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:319
 msgid ""
 ":guilabel:`Animation editing`: Kdenlive updates automatically files which "
 "are saved in Glaxnimate. Glaxnimate can be downloaded from `here <https://"
@@ -548,7 +627,7 @@ msgstr ""
 "fitxers que es desen en el Glaxnimate. El Glaxnimate es pot baixar des "
 "d'`aquí <https://glaxnimate.mattbas.org/>`_ (Linux, Windows, Mac)."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:288
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:321
 msgid ""
 "**Mac user:** :ref:`Instruction <kdenlive_macos>` how to install and run "
 "`dmg` files."
@@ -557,7 +636,7 @@ msgstr ""
 "executar fitxers `dmg`."
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:290
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:323
 msgid ""
 "**Windows user:** Make sure all the paths points to an `.exe` file. "
 "`Glaxnimate.exe` is in folder `C:/YourPath/glaxnimate-x86_64/glaxnimate/bin/"
@@ -567,7 +646,7 @@ msgstr ""
 "fitxer `.exe`. El `Glaxnimate.exe` és a la carpeta `C:/YourPath/glaxnimate-"
 "x86_64/glaxnimate/bin/glaxnimate.exe`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:295
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:328
 msgid ""
 "There is no application for video editing - because **Kdenlive** is a video "
 "editor."
@@ -575,11 +654,11 @@ msgstr ""
 "No hi ha cap aplicació d'edició de vídeo: perquè el **Kdenlive** és un "
 "editor de vídeo."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:298
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:331
 msgid "Mime types"
 msgstr "Tipus MIME"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:304
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:337
 msgid ""
 "Specifies the Media Types (formerly known as MIME types) which Kdenlive can "
 "working with."
@@ -588,12 +667,12 @@ msgstr ""
 "els quals pot treballar el Kdenlive."
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:308
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:341
 msgid "Added file type: `AVIF`, `HEIF` and `JPEG XL`"
 msgstr "Tipus de fitxers afegits: `AVIF`, `HEIF` i `JPEG XL`"
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:310
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:343
 msgid ""
 "Added animation file type: `Json` (Lottie animations) and `rawr` (Glaxnimate "
 "animation)"
@@ -601,11 +680,11 @@ msgstr ""
 "Tipus de fitxers d'animacions afegits: `Json` (animacions del Lottie) i "
 "`rawr` (animacions del Glaxnimate)"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:315
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:348
 msgid "Colors and Guides"
 msgstr "Colors i guies"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:321
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:354
 msgid ""
 ":guilabel:`Audio thumbnail colors` Click on the color bar and change the "
 "color of the audio wave thumbnail."
@@ -613,7 +692,7 @@ msgstr ""
 ":guilabel:`Colors de les miniatures d'àudio` feu clic a la barra de colors i "
 "canvieu el color de la miniatura d'ona de l'àudio."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:325
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:358
 msgid ""
 ":guilabel:`Monitor overlay color` Click on the color bar and change the "
 "color of the monitor overlay lines. See :ref:`ui-monitors_display_toolbar`"
@@ -622,11 +701,11 @@ msgstr ""
 "i canvieu el color de les línies de superposició del monitor. See :ref:`ui-"
 "monitors_display_toolbar`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:327
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:360
 msgid "Moved from tab :ref:`configure_playback`"
 msgstr "S'ha mogut des de la pestanya :ref:`configure_playback`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:330
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:363
 msgid ""
 ":guilabel:`Monitor background color` Click on the color bar and change the "
 "color of the monitor background."
@@ -634,7 +713,7 @@ msgstr ""
 ":guilabel:`Color de fons del monitor` Feu clic a la barra de colors i "
 "canvieu el color de fons del monitor."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:334
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:367
 msgid ""
 ":guilabel:`Guides and Markers Categories` This allows you to add categories. "
 "Selected categories can be edited and deleted."
@@ -642,45 +721,45 @@ msgstr ""
 ":guilabel:`Categories de guies i marcadors` Això permet afegir categories. "
 "Les categories seleccionades es poden editar i suprimir."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:340
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:373
 msgid "Speech To Text"
 msgstr "Veu a text"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:346
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:379
 msgid ""
 "More details about speech to text see :ref:`here <effects-speech_to_text>`."
 msgstr ""
 "Per a més detalls quant a la veu a text, vegeu :ref:`aquí <effects-"
 "speech_to_text>`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:352
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:385
 msgid "Playback"
 msgstr "Reproducció"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:356
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:389
 msgid ""
 "Configure the Video and Audio drivers and devices. For advanced users only."
 msgstr ""
 "Configura els controladors de vídeo i d'àudio i dels dispositius. Només per "
 "a usuaris avançats."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:363
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:396
 msgid "Playback view on Windows."
 msgstr "Vista del reproductor en el Windows."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:369
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:402
 msgid ":guilabel:`Audio driver` on Linux."
 msgstr ":guilabel:`Controlador d'àudio` en el Linux."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:375
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:408
 msgid ":guilabel:`Audio driver` on MAcOS."
 msgstr ":guilabel:`Controlador d'àudio` en el MacOS."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:377
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:410
 msgid ":guilabel:`Audio driver` on Windows"
 msgstr ":guilabel:`Controlador d'àudio` en el Windows"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:379
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:412
 msgid ""
 "WinMM (Win7), Wasapi (Win10), DirectSound. If you have any audio issue or "
 "playback stuttering you may change to another audio driver."
@@ -688,7 +767,7 @@ msgstr ""
 "WinMM (Win7), Wasapi (Win10), DirectSound. Si teniu algun problema d'àudio o "
 "una reproducció amb parpelleig podeu canviar a un altre controlador d'àudio."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:381
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:414
 msgid ""
 "In version 0.9.4 of **Kdenlive**, checking the \"use Open GL for video "
 "playback\" checkbox turns on the ability to have audio scrubbing available "
@@ -707,7 +786,7 @@ msgstr ""
 "pot ser útil per a situar el capçal de reproducció en el punt correcte del "
 "clip en relació amb un tros important d'àudio."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:383
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:416
 msgid ""
 "In ver 15.04 or higher, there is no \"use Open GL for video playback\" "
 "checkbox  - Open GL is used by default. On Windows you can set the OpenGL "
@@ -718,12 +797,12 @@ msgstr ""
 "el Windows es pot definir el dorsal de l'OpenGL a :menuselection:"
 "`Arranjament --> Dorsal OpenGL`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:387
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:420
 msgid ":guilabel:`Monitor background color` moved to :ref:`configure_colors`"
 msgstr ""
 ":guilabel:`Color de fons del monitor` s'ha mogut a :ref:`configure_colors`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:389
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:422
 msgid ""
 ":guilabel:`Enable Audio Scrubbing` and :guilabel:`Preview Volume` are "
 "removed as the UI element is a duplicate of the volume slider in the "
@@ -737,15 +816,15 @@ msgstr ""
 "`Monitor de clips<ui-monitors_clip_monitor_hamburger>` i :ref:`Monitor del "
 "projecte<project_monitor_hamburger>`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:396
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:429
 msgid "Capture"
 msgstr "Captura"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:400
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:433
 msgid "Configure Screen Grab Capture"
 msgstr "Configuració de la captura de pantalla"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:406
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:439
 msgid ""
 "These settings configure screen grab within **Kdenlive**. More details see :"
 "ref:`here <capturing>`."
@@ -753,11 +832,11 @@ msgstr ""
 "Aquestes opcions configuren la captura de pantalla en el **Kdenlive**. Vegeu "
 "més detalls :ref:`aquí <capturing>`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:409
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:442
 msgid "Blackmagic"
 msgstr "Blackmagic"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:415
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:448
 msgid ""
 "If you have a Blackmagic DecLink video capture card you can set here the "
 "import parameter."
@@ -765,11 +844,11 @@ msgstr ""
 "Si teniu una targeta de captura de vídeo Blackmagic DecLink aquí podreu "
 "establir el paràmetre d'importació."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:420
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:453
 msgid "Audio"
 msgstr "Àudio"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:426
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:459
 msgid ""
 "Microphone settings, either for screen :ref:`capturing` or for :ref:"
 "`capturingaudio` direct into the timeline."
@@ -777,11 +856,11 @@ msgstr ""
 "Configuració del micròfon, tant per la pantalla de :ref:`capturing` com per "
 "la :ref:`capturingaudio` directa en la línia de temps."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:430
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
 msgid ":guilabel:`Disable countdown before recording`"
 msgstr ":guilabel:`Desactiva el compte enrere abans de l'enregistrament`"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:434
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:467
 msgid ""
 "At least Firewire capture was removed in porting to KDE 5 due to lack of "
 "manpower."
@@ -789,11 +868,11 @@ msgstr ""
 "Com a mínim la captura del Firewire s'ha eliminat en l'adaptació al KDE 5 "
 "per una manca de mà d'obra."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:436
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:469
 msgid "Following paragraph is for history reason only."
 msgstr "El paràgraf següent només està per un motiu històric."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:438
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:471
 msgid ""
 "Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, "
 "Blackmagic, Audio) from this section."
@@ -801,11 +880,11 @@ msgstr ""
 "Configureu els dispositius de :ref:`capturing` (Firewire, FFmpeg, Screen "
 "Grab, Blackmagic, Audio) en aquesta secció."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:442
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:475
 msgid "Configure Firewire Capture"
 msgstr "Configuració de la captura del Firewire"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:444
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:477
 msgid ""
 "The image shows the Configure Firewire capture tab which can be accessed "
 "from the :menuselection:`Settings --> Configure Kdenlive` menu or from the "
@@ -816,7 +895,7 @@ msgstr ""
 "Kdenlive` o des de la icona de l'expansor a la :ref:`capturing`"
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:453
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:486
 msgid ""
 "The firewire capture functionality uses the `dvgrab <http://linux.die.net/"
 "man/1/dvgrab>`_ program. The settings applied here to define how dvgrab will "
@@ -826,27 +905,27 @@ msgstr ""
 "linux.die.net/man/1/dvgrab>`_. Els paràmetres aplicats aquí defineixen com "
 "s'usarà el «dvgrab» per a capturar el vídeo."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:456
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:489
 msgid "**Capture Format options** are"
 msgstr "Les **opcions de format de captura** són"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:458
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:491
 msgid "DV RAW"
 msgstr "DV RAW"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:459
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:492
 msgid "DV AVI Type 1"
 msgstr "DV AVI tipus 1"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:460
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:493
 msgid "DV AVI Type 2"
 msgstr "DV AVI tipus 2"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:461
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:494
 msgid "HDV"
 msgstr "HDV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:496
 msgid ""
 "The first three are quality-wise the same (exactly the same DV 25Mb/s "
 "standard definition codec), just packed differently into the file. Type 2 "
@@ -856,7 +935,7 @@ msgstr ""
 "definició estàndard DV 25Mb/s), encara que amb diferent empaquetatge en el "
 "fitxer. El tipus 2 sembla que és el més acceptat per altres aplicacions."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:465
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:498
 msgid ""
 "The raw format contains just the plain video frames (with audio interleaved) "
 "without any additional information. Raw is useful for some Linux software. "
@@ -868,7 +947,7 @@ msgstr ""
 "programari Linux. Els fitxers en aquest format també poden ser reproduïts "
 "amb el Windows QuickTime quan el fitxer es reanomena a :file:`file.dv`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:467
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:500
 msgid ""
 "AVI files may contain multiple streams. Typically, they include one video "
 "and one audio stream. The native DV stream format already includes the audio "
@@ -886,12 +965,12 @@ msgstr ""
 "addicionalment a les dades ja entrellaçades en el flux de vídeo DV. Per "
 "tant, el fitxer AVI DV de tipus 2 és redundant i ocupa més espai."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:469
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:502
 msgid "HDV is a high-definition format used on tape-based HD camcorders."
 msgstr ""
 "L'HDV és un format d'alta definició usat en càmeres de vídeo HD de cinta."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:471
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:504
 msgid ""
 "**Add recording time to captured file name** option: If this is unchecked "
 "then each captured file will get a sequential number post-pended to the file "
@@ -907,7 +986,7 @@ msgstr ""
 "dv**"
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:473
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:506
 msgid ""
 "**Automatically start a new file on scene cut** option:  With this checked "
 "it tries to detect whenever a new recording starts, and store it into a "
@@ -925,7 +1004,7 @@ msgstr ""
 "comença un fitxer de captura nou."
 
 # skip-rule: t-acc_obe
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:475
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:508
 msgid ""
 "The **dvgrab additional parameters** edit box allows you to add extra dvgrab "
 "switches to the capture process that will run. See  `dvgrab manual <http://"
@@ -936,11 +1015,11 @@ msgstr ""
 "el `manual del «dvgrab» <http://linux.die.net/man/1/dvgrab>`_ per a més "
 "informació."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:481
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:514
 msgid "Jog Shuttle"
 msgstr "Jog Shuttle"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:484
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:517
 msgid ""
 "Configure a connected Jog-Shuttle device. Contour ShuttlePro and Contour "
 "ShuttleXpress are known to work."
@@ -948,11 +1027,11 @@ msgstr ""
 "Configura un dispositiu Jog-Shuttle connectat. Se sap que funcionen el "
 "Contour ShuttlePro i el Contour ShuttleXpress."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:492
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:525
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:494
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:527
 msgid ""
 "Ensure that your Jog-Shuttle device is connected via USB and working. An "
 "udev rule is necessary to correct the access rights to the device file: "
@@ -963,20 +1042,20 @@ msgstr ""
 "al fitxer del dispositiu: creeu un fitxer /etc/udev/rules.d/90-contour-"
 "shuttleXpress.rules amb la línia:"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:505
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:538
 msgid "for Contour ShuttleXpress or"
 msgstr "per al Contour ShuttleXpress o"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:516
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:549
 msgid "for Contour ShuttlePRO V2. Obtain the device file by a command"
 msgstr ""
 "per al Contour ShuttlePRO V2. Obtingueu el fitxer del dispositiu amb l'ordre"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:523
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:556
 msgid "The last line of the output says"
 msgstr "La darrera línia de la sortida diu"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:530
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:563
 msgid ""
 "which should tell the device file to be entered into kdenlive's setting "
 "dialog: In the text field enter /dev/input/**event3** (use the last word on "
@@ -989,7 +1068,7 @@ msgstr ""
 "el fitxer de dispositiu a /dev/input), definiu els botons i apliqueu els "
 "canvis."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:539
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:572
 msgid ""
 "Enable Jog-Shuttle. For the Contour ShuttleXpress the buttons 5 - 9 are "
 "relevant, whereas Contour ShuttlePro uses all buttons. The actions for the "
@@ -999,11 +1078,11 @@ msgstr ""
 "ShuttleXpress, mentre que el Contour ShuttlePro usa tots els botons. Les "
 "accions per al «jog-» i la roda «shuttle» funcionen com s'espera."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:542
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:575
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:544
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:577
 msgid ""
 "On the desktop, bottom-right opens the system tray. Right-click on the "
 "Contour icon and choose \"Open control Panel\"."
@@ -1011,7 +1090,7 @@ msgstr ""
 "A l'escriptori, a la part inferior dreta s'obre la safata del sistema. Feu "
 "clic dret en la icona del Contour i trieu «Obre el plafó de control»."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:552
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:585
 msgid ""
 "In the configuration window choose under \"Application setting\" the program "
 "\"Adobe Premiere Pro CS&amp;CC (Edit)\". Then click on :menuselection:"
@@ -1022,11 +1101,11 @@ msgstr ""
 "menuselection:`Opcions --> Crea una configuració nova --> Copia el contingut "
 "a partir de la configuració actual`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:560
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:593
 msgid "Then choose Kdenlive.exe in C:\\Program Files\\kdenlive\\bin."
 msgstr "Després trieu Kdenlive.exe a C:\\Program Files\\kdenlive\\bin."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:568
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:601
 msgid ""
 "Now the basic functionality should work. Adjust the buttons of the shuttle "
 "with shortcuts as you like."
@@ -1034,7 +1113,7 @@ msgstr ""
 "Ara, les funcionalitats bàsiques haurien de funcionar. Ajusteu els botons "
 "del Shuttle amb les dreceres que vulgueu."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:572
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:605
 msgid ""
 "You can make Kdenlive settings from scratch using :menuselection:`Options --"
 "> Create new settings --> Create Empty Settings` when creating new settings."
@@ -1042,11 +1121,11 @@ msgstr ""
 "Podeu fer la configuració del Kdenlive des de zero usant :menuselection:"
 "`Opcions --> Crea una configuració nova --> Crea una configuració buida`."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:578
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:611
 msgid "Transcode"
 msgstr "Transcodificació"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:581
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:614
 msgid ""
 "This controls the :ref:`transcode` functionality. The parameters section are "
 "ffmpeg parameters. Find help on them by issuing ``ffmpeg -h`` at a command "
@@ -1056,68 +1135,76 @@ msgstr ""
 "són paràmetres del «ffmpeg». Cerqueu ajuda quant a ells introduint ``ffmpeg -"
 "h`` a la línia d'ordres."
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:591
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:624
 msgid "Transcode Options"
 msgstr "Opcions de transcodificació"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:596
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:629
 msgid "Option"
 msgstr "Opció"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:597
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:630
 msgid "Description"
 msgstr "Descripció"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:598
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:631
 msgid "Parameters"
 msgstr "Paràmetres"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:599
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:632
 msgid "Meanings of Parameters"
 msgstr "Significats dels paràmetres"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:600
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:633
 msgid "Wav 48000Hz"
 msgstr "Wav 48000 Hz"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:601
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:634
 msgid "Extract audio as WAV file"
 msgstr "Extreu l'àudio com a fitxer WAV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:602
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:635
 msgid "-vn -ar 48000"
 msgstr "-vn -ar 48000"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:603
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:636
 msgid "-vn=disable video, -ar 48000 = set audio sampling rate to 48kHz"
 msgstr ""
 "-vn=desactiva el vídeo, -ar 48000 = estableix la freqüència de mostreig "
 "d'àudio a 48 kHz"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:604
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:637
 msgid "Remux with MKV"
 msgstr "Remux amb MKV"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:606
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:639
 msgid "-vcodec copy -acodec copy -sn"
 msgstr "-vcodec copy -acodec copy -sn"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:607
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:640
 msgid "copy the video and the audio. -sn = disable subtitles"
 msgstr "copia el vídeo i l'àudio. -sn = desactiva els subtítols"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:608
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:641
 msgid "Remux MPEG-2 PS/VOB"
 msgstr "Remux MPEG-2 PS/VOB"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:609
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:642
 msgid "Fix audio sync in MPEG-2 vob files"
 msgstr "Corregeix la sincronització de l'àudio en els fitxers vob MPEG-2"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:610
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:643
 msgid "-vcodec copy -acodec copy"
 msgstr "-vcodec copy -acodec copy"
 
-#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:611
+#: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:644
 msgid "copy the video and the audio"
 msgstr "copia el vídeo i l'àudio"
+
+#~ msgid ":guilabel:`Use lower CPU priority for proxy and transcode tasks`"
+#~ msgstr ""
+#~ ":guilabel:`Usa una prioritat més baixa de la CPU per a tasques "
+#~ "d'intermediaris i de transcodificació`"
+
+#~ msgid ":guilabel:`Cached Data`"
+#~ msgstr ":guilabel:`Dades de la memòria cau`"
