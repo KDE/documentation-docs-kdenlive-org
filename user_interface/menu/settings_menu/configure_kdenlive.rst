@@ -521,6 +521,8 @@ Configure a connected Jog-Shuttle device. Contour ShuttlePro and Contour Shuttle
    :alt: Kdenlive_Configure_screen_jog-shuttle
 
 
+.. _configure_jog_shuttle_linux:
+
 Linux
 ~~~~~
 
@@ -570,6 +572,9 @@ which should tell the device file to be entered into kdenlive's setting dialog: 
 
 
 Enable Jog-Shuttle. For the Contour ShuttleXpress the buttons 5 - 9 are relevant, whereas Contour ShuttlePro uses all buttons. The actions for the jog- and the shuttle wheel are working as expected.
+
+
+.. _configure_jog_shuttle_windows:
 
 Windows
 ~~~~~~~
