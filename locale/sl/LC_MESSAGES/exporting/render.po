@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-18 01:31+0000\n"
-"PO-Revision-Date: 2023-12-18 01:58+0100\n"
+"PO-Revision-Date: 2024-04-19 15:56+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -146,16 +146,12 @@ msgstr ""
 "(naprednih) možnosti"
 
 #: ../../exporting/render.rst:86
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Render to File` - Click to start the rendering and file "
-#| "creation"
 msgid ""
 ":guilabel:`Render Duration` - Estimated time to render the actual project "
 "selection"
 msgstr ""
-":guilabel:`Izriši v datoteko` - kliknite za začetek izrisa in ustvarjanje "
-"datoteke"
+":guilabel:`Trajanje izrisa` - predvideni čas za izris dejanskega izbora "
+"projekta"
 
 #: ../../exporting/render.rst:88
 msgid ""
@@ -334,47 +330,53 @@ msgid "Rendering options for video"
 msgstr "Možnosti izrisa za video"
 
 #: ../../exporting/render.rst:183
-#, fuzzy
-#| msgid "Other Options"
 msgid "Interpolation"
-msgstr "Druge možnosti"
+msgstr "Interpolacija"
 
 #: ../../exporting/render.rst:185
 msgid ""
 ":guilabel:`Interpolation` - Allow setting the default interpolation method "
 "for scaling operations on rendering"
 msgstr ""
+":guilabel:`Interpolacija` - dovoli nastavitev privzete metode interpolacije "
+"za postopke spreminjanja velikosti pri izrisovanju"
 
 #: ../../exporting/render.rst:187
 msgid "Nearest-neighbour interpolation: Sharp but highly aliasing."
-msgstr ""
+msgstr "Interpolacija najbližjih sosedov: ostra, a z veliko nezglajenih robov."
 
 #: ../../exporting/render.rst:188
 msgid "Bilinear interpolation: Fast and low quality. Reduces contrast."
-msgstr ""
+msgstr "Bilinearna interpolacija: hitra, a slabše kakovosti. Zmanjša kontrast."
 
 #: ../../exporting/render.rst:189
 msgid "Bicubic interpolation: Slower then Bilinear but better results."
 msgstr ""
+"Bikubična interpolacija: počasnejša od bilinearne, vendar z boljšimi "
+"rezultati."
 
 #: ../../exporting/render.rst:190
 msgid "Lanzcos interpolation: Provides the best result for scaling"
-msgstr ""
+msgstr "Interpolacija Lanzcosa: zagotavlja najboljši rezultat za skaliranje"
 
 #: ../../exporting/render.rst:202
 msgid "Deinterlacer"
-msgstr ""
+msgstr "Razpletalnik"
 
 #: ../../exporting/render.rst:204
 msgid ""
 ":guilabel:`Deinterlacer` - Allow setting different deinterlacing algorithm "
 "method for interlaced footage on rendering"
 msgstr ""
+":guilabel:`Razpletalnik` - dovoli nastavitev različne metode algoritma za "
+"razpletanje posnetkov pri izrisovanju"
 
 #: ../../exporting/render.rst:206
 msgid ""
 "One-Field: Render only one field so the rendered result is half in size."
 msgstr ""
+"Eno polje: izrisovanje le ene polslike, tako da je izrisani rezultat "
+"polovične velikosti."
 
 #: ../../exporting/render.rst:207
 msgid ""
@@ -382,12 +384,17 @@ msgid ""
 "interpolation: instead of rendering each line twice, line 2 is created as "
 "the average of line 1 and 3, etc."
 msgstr ""
+"Linearna mešanica: vsako polsliko izrišite kot celotno sliko z linearno "
+"interpolacijo: namesto dvakratnega izrisovanja vsake vrstice se vrstica 2 "
+"ustvari kot povprečje vrstic 1 in 3 itn."
 
 #: ../../exporting/render.rst:208
 msgid ""
 "YADIF - temporal only: Mode of checking fields. Skips spatial interlacing "
 "check."
 msgstr ""
+"YADIF - samo začasno: način preverjanja polslik. Preskoči preverjanje "
+"prostorskega prepletanja."
 
 #: ../../exporting/render.rst:209
 msgid ""
@@ -396,12 +403,18 @@ msgid ""
 "method (edge-directed interpolation) and uses spatial check to prevent most "
 "artifacts."
 msgstr ""
+"YADIF: (še en prepleteni filter) Preverja slikovne točke prejšnjih, "
+"trenutnih in naslednjih sličic, da ponovno ustvari zamujeno polsliko z neko "
+"krajevno prilagodljivo metodo (interpolacija, usmerjena na rob), in "
+"uporablja prostorsko preverjanje, da prepreči večino artefaktov."
 
 #: ../../exporting/render.rst:210
 msgid ""
 "BWDIF: (Bob Weaver Deinterlacing Filter): motion adaptive deinterlacing "
 "based on yadif with the use of w3fdif and cubic interpolation algorithms."
 msgstr ""
+"BWDIF: (Bob Weaver Deinterlacing Filter): prilagodljivo prepletanje gibanja "
+"na osnovi yadifa z uporabo w3fdif in kubičnih interpolacijskih algoritmov."
 
 #: ../../exporting/render.rst:214
 msgid ""
@@ -423,18 +436,13 @@ msgstr ""
 "za hiter izris za preverjanje ali preizkušanje."
 
 #: ../../exporting/render.rst:220
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Render at Preview Resolution` - Check this box if you want to "
-#| "use the same resolution as set in the Project Monitor. Useful for quick "
-#| "renderings to check or verify things."
 msgid ""
 ":guilabel:`Use Proxy Clips` - Check this box if you want the use the proxy "
 "clips for rendering. Useful for quick renderings to check or verify things."
 msgstr ""
-":guilabel:`Izriši pri ogledni ločljivosti` - potrdite to polje, če želite "
-"uporabiti enako ločljivost, kot je nastavljena v Ogledu projekta. Uporabno "
-"za hiter izris za preverjanje ali preizkušanje."
+":guilabel:`Uporabi posredne posnetke` - Potrdite to polje, če želite za "
+"izrisovanje uporabiti posredne posnetke. Uporabno za hitro izrisovanje za "
+"preverjanje nastavitev."
 
 #: ../../exporting/render.rst:222
 msgid ""

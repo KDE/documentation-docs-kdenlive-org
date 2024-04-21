@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-19 01:41+0000\n"
-"PO-Revision-Date: 2023-10-04 20:09+0200\n"
+"PO-Revision-Date: 2024-04-19 23:35+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -62,12 +62,14 @@ msgid ""
 "<settings_environment_python>` to put Python into a virtual environment "
 "(afterwards Python is copied to the :file:`venv` folder)"
 msgstr ""
+"Python 3 mora biti nameščen na sistemu (podrobnosti glejte spodaj za Linux "
+"in Windows). Ko je Python nameščen, :ref: `sledite tem korakom "
+"<settings_environment_python>`, da Python postavite v virtualno okolje (nato "
+"se Python kopira v mapo :file:`venv`)."
 
 #: ../../effects_and_compositions/speech_to_text.rst:44
-#, fuzzy
-#| msgid "Install Python"
 msgid "**De-install Python**"
-msgstr "Namestite Python"
+msgstr "**Odstranite namestitev Pythona**"
 
 #: ../../effects_and_compositions/speech_to_text.rst:46
 msgid ""
@@ -75,6 +77,9 @@ msgid ""
 "--> Kdenlive Settings --> Environment --> Python` and :guilabel:`Delete` :"
 "file:`venv`."
 msgstr ""
+"Če želite odstraniti nameščeni paket :file:`venv`, izberite :menuselection:"
+"`Nastavitve ---> Nastavitve Kdenlive --> Okolje --> Python` in :guilabel:"
+"`izbrišite` :file:`venv`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:48
 msgid ""
@@ -82,6 +87,9 @@ msgid ""
 "packages. Note that this does not remove the downloaded models (vosk/"
 "whisper) that can still take quite some HD space"
 msgstr ""
+"Popolnoma bo odstranilo mapo :file:`venv` z vsemi nameščenimi paketi. "
+"Upoštevajte, da s tem ne odstranite prenesenih modelov (vosk / whisper), ki "
+"lahko še vedno zavzamejo kar nekaj prostora na trdem disku."
 
 #: ../../effects_and_compositions/speech_to_text.rst:51
 msgid "Linux"
@@ -114,16 +122,12 @@ msgid "Speech Engines"
 msgstr "Govorni ustroji"
 
 #: ../../effects_and_compositions/speech_to_text.rst:66
-#, fuzzy
-#| msgid ""
-#| "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to "
-#| "Text page` and select the speech engine VOSK."
 msgid ""
 "To install the speech engines go to :menuselection:`Settings --> Configure "
 "Kdenlive --> Speech to Text`."
 msgstr ""
-"Izberite :menuselection:`Nastavitve --> Prilagodi Kdenlive ... --> stran "
-"Govor v besedilo`, nato izberite govorni ustroj VOSK."
+"Za namestitev mehanizmov za govor izberite :menuselection:`Nastavitve --> "
+"Prilagodi Kdenlive ... --> stran Govor v besedilo`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:69
 msgid "VOSK"
@@ -131,33 +135,29 @@ msgstr "VOSK"
 
 #: ../../effects_and_compositions/speech_to_text.rst:84
 msgid "Vosk is not installed"
-msgstr ""
+msgstr "Vosk ni nameščen"
 
 #: ../../effects_and_compositions/speech_to_text.rst:86
-#, fuzzy
-#| msgid ""
-#| "When you switch to Whisper for the first time you have to install the "
-#| "missing dependencies first (about 2GB to download)."
 msgid ""
 "When you switch to VOSK for the first time you have to install the missing "
 "dependencies first."
 msgstr ""
-"Ko prvič preklopite na Whisper, morate najprej namestiti manjkajoče odvisne "
-"knjižnice in programe (približno 2 GB za prenos)."
+"Ko prvič preklopite na VOSK, morate najprej namestiti manjkajoče odvisne "
+"knjižnice in programe."
 
 #: ../../effects_and_compositions/speech_to_text.rst:88
 msgid "Path where VOSK is installed:"
-msgstr ""
+msgstr "Pot, kjer je nameščen VOSK:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:90
 #: ../../effects_and_compositions/speech_to_text.rst:147
 msgid "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
-msgstr ""
+msgstr "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:91
 #: ../../effects_and_compositions/speech_to_text.rst:148
 msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
-msgstr ""
+msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:93
 msgid ""
@@ -166,6 +166,9 @@ msgid ""
 "installed VOSK libraries by using following command in a console: :file:`pip "
 "uninstall vosk srt`"
 msgstr ""
+"Če ste že namestili VOSK v starejši različici Kdenlive in ste zdaj izbrali "
+"mapo :file:`venv` za Python, lahko izbrišete pretekle nameščene knjižnice "
+"VOSK z naslednjim ukazom v konzoli: :file:`pip uninstall vosk srt`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:96
 msgid "Install a Language"
@@ -199,15 +202,15 @@ msgstr "Če imate težave, pritisnite gumb :guilabel:`Preveri nastavitev`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:112
 msgid "The VOSK speech models are stored here:"
-msgstr ""
+msgstr "Govorni modeli VOSK so shranjeni tukaj:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:114
 msgid "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
-msgstr ""
+msgstr "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:116
 msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
-msgstr ""
+msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:119
 msgid "Whisper"
@@ -233,7 +236,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/speech_to_text.rst:135
 msgid "Whisper is not installed"
-msgstr ""
+msgstr "Whisper ni nameščen"
 
 #: ../../effects_and_compositions/speech_to_text.rst:137
 msgid ""
@@ -249,19 +252,19 @@ msgstr "Ko je vse pravilno nastavljeno, se prikaže ta zaslon."
 
 #: ../../effects_and_compositions/speech_to_text.rst:145
 msgid "Path where Whisper is installed:"
-msgstr ""
+msgstr "Pot, kjer je nameščen Whisper:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:150
 msgid "The Whisper speech models are stored here:"
-msgstr ""
+msgstr "Modeli govora Whisper so shranjeni tukaj:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:152
 msgid "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
-msgstr ""
+msgstr "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:154
 msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
-msgstr ""
+msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:157
 msgid ""
@@ -305,6 +308,10 @@ msgid ""
 "installed Whisper libraries by using following command in a console: :file:"
 "`pip uninstall openai-whisper`"
 msgstr ""
+"Če ste Whisper že namestili v starejši različici Kdenlive in ste zdaj "
+"izbrali mapo :file:`venv` za Python, lahko izbrišete pretekle nameščene "
+"knjižnice Whisper z naslednjim ukazom v konzoli: :file:`pip uninstall openai-"
+"whisper`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:170
 msgid "Speech recognition"
@@ -404,16 +411,12 @@ msgstr ""
 "Omogočite element menija :menuselection:`Pogled --> Urejevalnik govora`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:222
-#, fuzzy
-#| msgid "Shown with the VOSK engine"
 msgid "Shown with the VOSK engine and search enabled"
-msgstr "Prikazano s pogonom VOSK"
+msgstr "Prikazano s pogonom VOSK in omogočenim iskanjem"
 
 #: ../../effects_and_compositions/speech_to_text.rst:224
-#, fuzzy
-#| msgid "Select a clip in the project bin."
 msgid "Select a clip in the **Project Bin**."
-msgstr "Izberite posnetek v posodi projekta."
+msgstr "Izberite posnetek v **projektni posodi**."
 
 #: ../../effects_and_compositions/speech_to_text.rst:226
 msgid ""
@@ -431,6 +434,9 @@ msgid ""
 "Whisper engine by click on :guilabel:`Configure Speech Recognition` (:ref:"
 "`see configure speech to text <configure_speech_to_text>`)"
 msgstr ""
+"Izberite pravi jezik, ko izberete pogon VOSK. Ali pa izberite mehanizem "
+"Whisper s klikom :guilabel:`Prilagodi razpoznavo govora` (:ref:`glejte "
+"prilagoditev govora v besedilo <configure_speech_to_text>`)."
 
 #: ../../effects_and_compositions/speech_to_text.rst:230
 msgid "Press the :guilabel:`Start Recognition` button."
@@ -441,6 +447,8 @@ msgid ""
 "Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select "
 "several texts."
 msgstr ""
+"Izberite želeno besedilo. Držite pritisnjeno :kbd:`krmilko` ali :kbd:"
+"`dvigalko`, da izberete več besedil."
 
 #: ../../effects_and_compositions/speech_to_text.rst:236
 msgid ""
@@ -449,12 +457,19 @@ msgid ""
 "timeline` at playhead position, or to :guilabel:`Save edited text in a "
 "playlist file` which appears in the project bin."
 msgstr ""
+"Izberite: :guilabel:`Ustvari novo zaporedje z urejanjem` ustvari novo "
+"zaporedje z vsakim besedilom časovne kode kot enim posnetkom, :guilabel:"
+"`Vstavi izbor na časovnico` na položaju igralne glave ali na :guilabel:"
+"`Shrani urejeno besedilo v datoteko seznama predvajanja`, ki se prikaže v "
+"projektni posodi."
 
 #: ../../effects_and_compositions/speech_to_text.rst:240
 msgid ""
 ":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove "
 "non speech zones` deletes all \"No speech\" entries at once."
 msgstr ""
+":guilabel:`Približaj` ali :guilabel:`Oddalji` besedilo. :guilabel:`Odstrani "
+"območja brez govora` izbriše vse vnose »Brez govora« hkrati."
 
 #: ../../effects_and_compositions/speech_to_text.rst:242
 msgid ""
@@ -465,10 +480,8 @@ msgstr ""
 "`izmenjalka + smerna tipka` ali pa z dvojnim klikom uredite zaznamek."
 
 #: ../../effects_and_compositions/speech_to_text.rst:244
-#, fuzzy
-#| msgid "Delete the selection."
 msgid "Delete the selected text."
-msgstr "Izbrišite izbor."
+msgstr "Izbrišite izbrano besedilo."
 
 #: ../../effects_and_compositions/speech_to_text.rst:246
 msgid "Here you can search in the text."
@@ -513,30 +526,20 @@ msgid ""
 "indicated (hold :kbd:`Ctrl` to select several items at once) and just hit "
 "the :kbd:`Delete` key."
 msgstr ""
+"Ko to storite, izberite pod zgornjo točko 6 do :guilabel:`Odstrani območja "
+"brez govora` hkrati. Ali pa kliknite časovno kodo, kjer je označeno »Brez "
+"govora« (držite pritisnjeno :kbd:`krmilko`, da izberete več elementov "
+"hkrati) in samo pritisnite :kbd:`Brisalko`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:266
-#, fuzzy
-#| msgid ""
-#| "Once this is done, click on the time-code where no-speech is indicated "
-#| "and just hit the :kbd:`Delete` key. Repeat the operation for all the "
-#| "parts you want to remove, including where someone says what you do not "
-#| "want to include in your final edit."
 msgid ""
 "Repeat the operation for all the parts you want to remove, including where "
 "someone says what you do not want to include in your final edit."
 msgstr ""
-"Ko je to opravljeno, kliknite časovno kodo, kjer je označeno brez-govora in "
-"samo pritisnite brisalko oz. tipko :kbd:`Del`. Ponovite operacijo za vse "
-"dele, ki jih želite odstraniti, vključno s tem, kje nekdo pove, česa ne "
-"želite vključiti v končno montažo."
+"Ponovite operacijo za vse dele, ki jih želite odstraniti, vključno s tem, "
+"kje nekdo nekaj pove, česar ne želite vključiti v končno montažo."
 
 #: ../../effects_and_compositions/speech_to_text.rst:268
-#, fuzzy
-#| msgid ""
-#| "Once finished, make sure :guilabel:`Selected zone only` is disabled, "
-#| "click on the :guilabel:`Save` button on the lower left part of the speech "
-#| "editor window and after few seconds a new playlist is added in the "
-#| "Project Bin without silence and without the text you do not want."
 msgid ""
 "Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
 "on the :guilabel:`Save edited text in a playlist file` button (above under "
@@ -544,48 +547,7 @@ msgid ""
 "without silence and without the text you do not want."
 msgstr ""
 "Ko končate, se prepričajte, da je :guilabel:`Samo izbrano območje` "
-"onemogočeno, kliknite gumb :guilabel:`Shrani` v levem spodnjem delu okna "
-"urejevalnika govora in po nekaj sekundah se v projektno posodo doda nov "
-"seznam predvajanja brez tišine in brez besedila, ki ga ne želite."
-
-#~ msgid ""
-#~ "Python 3 needs to be installed on your computer as well as the vosk and "
-#~ "srt python modules:"
-#~ msgstr ""
-#~ "Na računalnik je potrebno namestiti Python 3, pa tudi module python vosk "
-#~ "in srt:"
-
-#~ msgid "**Linux**"
-#~ msgstr "**Linux**"
-
-#~ msgid ""
-#~ "To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``"
-#~ msgstr ""
-#~ "Če želite namestiti VOSK in srt, odprite terminal in zaženite: ``pip3 "
-#~ "install vosk srt``"
-
-#~ msgid "**Windows**"
-#~ msgstr "**Windows**"
-
-#~ msgid ""
-#~ "Download this batch file (:download:`Install_vosk_srt.zip </files/"
-#~ "Install_vosk_srt.zip>`). After download a double click starts the "
-#~ "installations."
-#~ msgstr ""
-#~ "Prenesite to paketno datoteko (:download:``Install_vosk_srt.zip </"
-#~ "datoteke/Install_vosk_srt.zip>``). Po prenosu z dvojnim klikom poženete "
-#~ "namestitev."
-
-#~ msgid "Choose the correct language."
-#~ msgstr "Izberite pravilen jezik."
-
-#~ msgid "Selecting the text you want to either."
-#~ msgstr "Izberite besedilo, ki ga želite."
-
-#~ msgid "Put into the timeline."
-#~ msgstr "Postavite na časovnico."
-
-#~ msgid ":guilabel:`Save` edited text as a new playlist."
-#~ msgstr ""
-#~ ":guilabel:`Shrani` - shranite urejeno besedilo v novem seznamu "
-#~ "predvajanja."
+"onemogočeno, kliknite gumb :guilabel:`Shrani urejeno besedilo v datoteko "
+"seznama predvajanja` (zgoraj pod točko 5) in po nekaj sekundah se v "
+"projektno posodo doda nov seznam predvajanja brez tišine in brez besedila, "
+"ki ga ne želite."
