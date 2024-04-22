@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2024-04-20 19:46\n"
+"PO-Revision-Date: 2024-04-21 04:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -73,8 +73,8 @@ msgid ""
 "compositing operators do using a typical title and semi-transparent "
 "background example. For simplicity, we first will ignore the **opacity** "
 "parameter of the aforementioned transitions to keep things easier to grasp. "
-"And after we have mastered this step, we will finally look at how the "
-"opacity parameter fits into the full picture."
+"And after we have mastered this step, we will finally look at how the opacity "
+"parameter fits into the full picture."
 msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:39
@@ -150,8 +150,8 @@ msgstr ""
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:86
 msgid ""
 "But look: The outcome is different! The result of the **over** operator is "
-"probably more to the expectations of most users. Now, the top title clip "
-"does not get (*sorry*) clipped anymore."
+"probably more to the expectations of most users. Now, the top title clip does "
+"not get (*sorry*) clipped anymore."
 msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
@@ -162,10 +162,10 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
 msgid ""
-"**Simply spoken:** if you paint some semi-transparent pixel over another "
-"semi-transparent pixel, then **the result will be less transparent**. It "
-"will be even less transparent than the lower frame pixel transparency. This "
-"is what we would probably expect from painting with semi-opaque paint."
+"**Simply spoken:** if you paint some semi-transparent pixel over another semi-"
+"transparent pixel, then **the result will be less transparent**. It will be "
+"even less transparent than the lower frame pixel transparency. This is what "
+"we would probably expect from painting with semi-opaque paint."
 msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
@@ -187,8 +187,8 @@ msgid ""
 "So the red pixel transparency is **scaled** - you may think of shrinking the "
 "original 0-1.0 scale into the available space above the green transparency "
 "value. The resulting transparency then is the sum of the green base alpha "
-"value, plus the rescaled red alpha value. Remember, we kind of paint over "
-"the lower frame. For the formular-affine: α = αA + αB (1-αA)"
+"value, plus the rescaled red alpha value. Remember, we kind of paint over the "
+"lower frame. For the formular-affine: α = αA + αB (1-αA)"
 msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:108
@@ -213,12 +213,12 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:121
 msgid ""
-"Instead, the opacity parameter influences how the result **pixel color** "
-"gets calculated: this is a linear interpolation between the color of the "
-"upper frame (B) pixel and the lower frame (A) pixel. The opacity now "
-"controls the exact blending point. An opacity of 0.0 results in only the "
-"lower frame (B) pixel color, while 1.0 solely yields the upper frame pixel "
-"(A) color. 0.5 would be halfway between the two pixel colors."
+"Instead, the opacity parameter influences how the result **pixel color** gets "
+"calculated: this is a linear interpolation between the color of the upper "
+"frame (B) pixel and the lower frame (A) pixel. The opacity now controls the "
+"exact blending point. An opacity of 0.0 results in only the lower frame (B) "
+"pixel color, while 1.0 solely yields the upper frame pixel (A) color. 0.5 "
+"would be halfway between the two pixel colors."
 msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:123
@@ -252,8 +252,8 @@ msgstr ""
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:138
 msgid ""
 "In consequence, the opacity parameter thus controls how much opacity of an "
-"upper frame (B) pixel is applied at all. This way, you can fade in or out "
-"the upper frame."
+"upper frame (B) pixel is applied at all. This way, you can fade in or out the "
+"upper frame."
 msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:140
