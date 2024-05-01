@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-19 01:41+0000\n"
-"PO-Revision-Date: 2024-04-21 09:28+0200\n"
+"PO-Revision-Date: 2024-04-27 16:33+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -54,6 +54,11 @@ msgid ""
 "<settings_environment_python>` to put Python into a virtual environment "
 "(afterwards Python is copied to the :file:`venv` folder)"
 msgstr ""
+"Python 3 deve essere installato sul tuo computer (per i dettagli su come "
+"farli in Linux e Windows vedi più avanti). Una volta che Python è stato "
+"installato :ref:`segui questi passi <settings_environment_python>`  per "
+"mettere Python in un ambiente virtuale (dopo di questo Python viene copiato "
+"nella cartella :file:`venv`)"
 
 #: ../../effects_and_compositions/speech_to_text.rst:44
 msgid "**De-install Python**"
@@ -75,6 +80,9 @@ msgid ""
 "packages. Note that this does not remove the downloaded models (vosk/"
 "whisper) that can still take quite some HD space"
 msgstr ""
+"Ciò eliminerà completamente la cartella :file:`venv` e tutti i pacchetti "
+"installati. Nota che questo non rimuove i modelli scaricati (vosk/whisper) "
+"che possono ancora occupare dello spazio sul disco rigido"
 
 #: ../../effects_and_compositions/speech_to_text.rst:51
 msgid "Linux"
@@ -106,16 +114,12 @@ msgid "Speech Engines"
 msgstr "Motori vocali"
 
 #: ../../effects_and_compositions/speech_to_text.rst:66
-#, fuzzy
-#| msgid ""
-#| "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to "
-#| "Text page` and select the speech engine VOSK."
 msgid ""
 "To install the speech engines go to :menuselection:`Settings --> Configure "
 "Kdenlive --> Speech to Text`."
 msgstr ""
-"Vai in :menuselection:`Impostazioni --> Configura Kdenlive... --> pagina "
-"Riconoscimento vocale`, e seleziona il motore vocale VOSK"
+"Per installare i motori vocali vai in :menuselection:`Impostazioni --> "
+"Configura Kdenlive --> Riconoscimento vocale`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:69
 msgid "VOSK"
@@ -126,16 +130,12 @@ msgid "Vosk is not installed"
 msgstr "Vosk non è installato"
 
 #: ../../effects_and_compositions/speech_to_text.rst:86
-#, fuzzy
-#| msgid ""
-#| "When you switch to Whisper for the first time you have to install the "
-#| "missing dependencies first (about 2GB to download)."
 msgid ""
 "When you switch to VOSK for the first time you have to install the missing "
 "dependencies first."
 msgstr ""
-"Quando passi per la prima volta a Whisper, devi prima installare le "
-"dipendenze mancanti (circa 2 GB da scaricare)."
+"Quando passi per la prima volta a VOSK, devi prima installare le dipendenze "
+"mancanti."
 
 #: ../../effects_and_compositions/speech_to_text.rst:88
 msgid "Path where VOSK is installed:"
@@ -158,6 +158,10 @@ msgid ""
 "installed VOSK libraries by using following command in a console: :file:`pip "
 "uninstall vosk srt`"
 msgstr ""
+"Se hai già installato VOSK in una vecchia versione di Kdenlive e adesso hai "
+"scelto la cartella :file:`venv` per Python, allora puoi eliminare le "
+"librerie VOSK installate usando i seguenti comandi in una console: "
+":file:`pip uninstall vosk srt`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:96
 msgid "Install a Language"
@@ -193,7 +197,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/speech_to_text.rst:112
 msgid "The VOSK speech models are stored here:"
-msgstr ""
+msgstr "I modelli vocali di VOSK sono salvati qui:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:114
 msgid "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
@@ -247,7 +251,7 @@ msgstr "Percorso di installazione di Whisper:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:150
 msgid "The Whisper speech models are stored here:"
-msgstr ""
+msgstr "I modelli vocali di Whisper sono salvati qui:"
 
 #: ../../effects_and_compositions/speech_to_text.rst:152
 msgid "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
@@ -301,6 +305,10 @@ msgid ""
 "installed Whisper libraries by using following command in a console: :file:"
 "`pip uninstall openai-whisper`"
 msgstr ""
+"Se hai già installato Whisper in una vecchia versione di Kdenlive e adesso "
+"hai scelto la cartella :file:`venv` per Python, allora puoi eliminare le "
+"librerie Whisper installate usando i seguenti comandi in una console: "
+":file:`pip uninstall openai-whisper`"
 
 #: ../../effects_and_compositions/speech_to_text.rst:170
 msgid "Speech recognition"
@@ -405,10 +413,8 @@ msgstr ""
 "voce di menu :menuselection:`Menu --> Visualizza --> Editor vocale`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:222
-#, fuzzy
-#| msgid "Shown with the VOSK engine"
 msgid "Shown with the VOSK engine and search enabled"
-msgstr "Mostrato con il motore VOSK"
+msgstr "Mostrato con il motore VOSK e la ricerca abilitata"
 
 #: ../../effects_and_compositions/speech_to_text.rst:224
 msgid "Select a clip in the **Project Bin**."
@@ -430,6 +436,9 @@ msgid ""
 "Whisper engine by click on :guilabel:`Configure Speech Recognition` (:ref:"
 "`see configure speech to text <configure_speech_to_text>`)"
 msgstr ""
+"Scegli la lingua corretta quando il motore VOSK è selezionato, oppure scegli "
+"Whisper facendo clic su :guilabel:`Configura il riconoscimento vocale` "
+"(:ref:`vedi configurare il riconoscimento vocale <configure_speech_to_text>`)"
 
 #: ../../effects_and_compositions/speech_to_text.rst:230
 msgid "Press the :guilabel:`Start Recognition` button."
@@ -440,6 +449,8 @@ msgid ""
 "Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select "
 "several texts."
 msgstr ""
+"Seleziona il testo che vuoi. Tieni premuto :kbd:`CTRL` o :kbd:`Maiusc` per "
+"selezionarne più di uno."
 
 #: ../../effects_and_compositions/speech_to_text.rst:236
 msgid ""
@@ -448,12 +459,20 @@ msgid ""
 "timeline` at playhead position, or to :guilabel:`Save edited text in a "
 "playlist file` which appears in the project bin."
 msgstr ""
+"Scegli: :guilabel:`Crea una nuova sequenza con modifica` per creare una "
+"nuova sequenza con ogni testo di codice temporale come singola clip, oppure "
+":guilabel:`Inserisci la selezione nella linea temporale` alla posizione "
+"dell'indicatore di riproduzione, oppure :guilabel:`Salva il testo modificato "
+"in un file di scaletta`, che appare nel contenitore del progetto."
 
 #: ../../effects_and_compositions/speech_to_text.rst:240
 msgid ""
 ":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove "
 "non speech zones` deletes all \"No speech\" entries at once."
 msgstr ""
+":guilabel:`Ingrandimento` o :guilabel:`Rimpicciolimento` del testo.  "
+":guilabel:`Rimuovi le zone senza parlato` elimina contemporaneamente tutte "
+"le voci \"Nessuna voce\"."
 
 #: ../../effects_and_compositions/speech_to_text.rst:242
 msgid ""
@@ -502,7 +521,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/speech_to_text.rst:262
 msgid "Then click :guilabel:`Start Recognition` button."
-msgstr "Quindi fai clic sul pulsante :guilabel:`Inizia il riconoscimento`."
+msgstr "Fai quindi clic sul pulsante :guilabel:`Inizia il riconoscimento`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:264
 msgid ""
@@ -511,6 +530,11 @@ msgid ""
 "indicated (hold :kbd:`Ctrl` to select several items at once) and just hit "
 "the :kbd:`Delete` key."
 msgstr ""
+"Una volta che è terminato vai al punto 6 qui sopra e scegli "
+":guilabel:`Rimuovi le zone senza parlato`, che le rimuove tutte in un colpo "
+"solo. Diversamente fai clic sul codice temporale dove è indicato \"Nessuna "
+"voce\" (tieni premuto :kbd:`Ctrl` per selezionarne più di una per volta), "
+"quindi premi semplicemente il tasto :kbd:`Canc`."
 
 #: ../../effects_and_compositions/speech_to_text.rst:266
 msgid ""
@@ -521,12 +545,6 @@ msgstr ""
 "cui qualcuno dice qualcosa che non vuoi includere nel montaggio finale."
 
 #: ../../effects_and_compositions/speech_to_text.rst:268
-#, fuzzy
-#| msgid ""
-#| "Once finished, make sure :guilabel:`Selected zone only` is disabled, "
-#| "click on the :guilabel:`Save` button on the lower left part of the speech "
-#| "editor window and after few seconds a new playlist is added in the "
-#| "Project Bin without silence and without the text you do not want."
 msgid ""
 "Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
 "on the :guilabel:`Save edited text in a playlist file` button (above under "
@@ -534,10 +552,10 @@ msgid ""
 "without silence and without the text you do not want."
 msgstr ""
 "Quando hai terminato, assicurati che :guilabel:`Seleziona solo la zona` sia "
-"disabilitato, poi fai clic sul pulsante :guilabel:`Salva` che si trova nella "
-"parte in basso a sinistra della finestra dell'Editor vocale: dopo pochi "
-"secondi verrà aggiunta nel contenitore del progetto una nuova scaletta, ma "
-"senza silenzi e senza il testo nei punti in cui non lo vuoi."
+"disabilitato, poi fai clic sul pulsante :guilabel:`Salva il testo modificato "
+"in un file di scaletta` (alla fine del punto 5) e dopo pochi secondi verrà "
+"aggiunta nel contenitore del progetto una nuova scaletta: questa sarà senza "
+"silenzi e senza il testo nei punti in cui non lo vuoi."
 
 #~ msgid ""
 #~ "Python 3 needs to be installed on your computer as well as the vosk and "

@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-# SPDX-FileCopyrightText: 2021, 2022, 2023 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-21 01:38+0000\n"
-"PO-Revision-Date: 2023-11-11 08:06+0100\n"
+"PO-Revision-Date: 2024-04-27 16:00+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.2\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:1
 msgid "Configure settings in Kdenlive video editor"
@@ -125,7 +125,7 @@ msgid ""
 msgstr ""
 "Con Qtblend si ottiene una riproduzione molto migliore quando non c'è "
 "composizione. Quando invece c'è, le prestazioni sono leggermente peggiori "
-"che con Frei0R.Cairoblend (KdenLive perde 1 o 2 fps durante la riproduzione)."
+"che con Frei0R.Cairoblend (Kdenlive perde 1 o 2 fps durante la riproduzione)."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:74
 msgid "**Default Durations**"
@@ -346,10 +346,8 @@ msgid "Environment"
 msgstr "Ambiente"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:198
-#, fuzzy
-#| msgid "Environment variables on Windows"
 msgid "Environment on Windows"
-msgstr "Variabili d'ambiente in Windows"
+msgstr "Ambiente in Windows"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:200
 msgid "**Proxy and Transcode Jobs**"
@@ -374,39 +372,36 @@ msgstr ""
 "threading, che è supportato per MPEG-2, MPEG-4, H.264 e VP8"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:206
-#, fuzzy
-#| msgid ""
-#| "This adds a Kdenlive setting to lower the priority of the proxy rendering "
-#| "(QProcess). This helps keep the main UI responsive when proxies are "
-#| "rendering."
 msgid ""
 ":guilabel:`Use lower CPU priority for proxy and transcode tasks` This adds a "
 "Kdenlive setting to lower the priority of the proxy rendering (QProcess). "
 "This helps keep the main UI responsive when proxies are rendering."
 msgstr ""
-"Aggiunge un'impostazione di Kdenlive per diminuire la priorità "
-"dell'esportazione delle clip rappresentative (QProcess). Ciò aiuta a "
-"mantenere reattiva l'interfaccia utente durante questo processo."
+":guilabel:`Utilizza una priorità della CPU più bassa per i processi delle "
+"clip rappresentative e di transcodifica` Aggiunge un'impostazione di "
+"Kdenlive per diminuire la priorità dell'esportazione delle clip "
+"rappresentative (QProcess). Ciò aiuta a mantenere reattiva l'interfaccia "
+"utente durante questo processo."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:210
-#, fuzzy
-#| msgid ""
-#| "Add a maximal cache size so that Kdenlive can check every 2 weeks if the "
-#| "total cached data size exceeds this limit and warn the user."
 msgid ""
 ":guilabel:`Warn if cached data exceeds` Add a maximal cache size so that "
 "Kdenlive can check every 2 weeks if the total cached data size exceeds this "
 "limit and warn the user."
 msgstr ""
-"Aggiungi una dimensione massima ai dati nella cache, in modo che Kdenlive "
-"possa controllare ogni due settimane se i dati nella cache superano il "
-"limite e possa avvisare l'utente."
+":guilabel:`Avvisa se i dati totali nella cache eccedono` Aggiungi una "
+"dimensione massima ai dati nella cache, in modo che Kdenlive possa "
+"controllare ogni due settimane se i dati nella cache superano il limite e "
+"possa avvisare l'utente."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:214
 msgid ""
 ":guilabel:`Check for updates` When enabled Kdenlive shows a pop-up menu for "
 "updating Kdenlive if your version is older then 6 months."
 msgstr ""
+":guilabel:`Controlla aggiornamenti` Quando è abilitato Kdenlive mostra un "
+"menu a comparsa per aggiornare Kdenlive se la versione è più vecchia di 6 "
+"mesi."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:217
 msgid "MLT Environment"
@@ -519,13 +514,11 @@ msgstr ""
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:283
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:289
-#, fuzzy
-#| msgid "Playback view on Windows."
 msgid "Python tab on Windows"
-msgstr "La vista Riproduzione in Windows."
+msgstr "La scheda Python in Windows"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:291
 msgid ""
@@ -533,6 +526,9 @@ msgid ""
 "Kdenlive creates a :file:`venv` folder and copies/symlinks Python into this "
 "folder."
 msgstr ""
+":guilabel:`Use python virtual environment (recommended)` Quando è abilitato "
+"Kdenlive crea una cartella :file:`venv` e, qui copia o crea un collegamento "
+"simbolico a Python."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:293
 msgid ""
@@ -541,24 +537,31 @@ msgid ""
 "the VOSK and Whisper libraries will be installed in the :file:`venv` folder "
 "as well."
 msgstr ""
+"L'uso dell'ambiente virtuale (venv) salva Python, dato che ce l'hai "
+"installato nella cartella :file:`venv`. Anche le librerie per il "
+"riconoscimento vocale VOSK e Whisper, se le installi, verranno installate "
+"nella cartella :file:`venv`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:295
 msgid ""
 "This has many benefits including easier dependency management and reduced "
 "risk of package conflicts and errors caused by software deprecation."
 msgstr ""
+"Tutti questi benefici facilitano la gestione delle dipendenze e riducono il "
+"rischio di conflitti di pacchetti ed errori causati dalla deprecazione del "
+"software."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:297
 msgid "Path for venv:"
-msgstr ""
+msgstr "Percorso dell'ambiente virtuale:"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:299
 msgid "Linux: :file:`~/.local/share/kdenlive/venv`"
-msgstr ""
+msgstr "Linux: :file:`~/.local/share/kdenlive/venv`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:300
 msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
-msgstr ""
+msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:302
 msgid ""
@@ -567,6 +570,10 @@ msgid ""
 "packages. Note that this does not remove the downloaded models (vosk/"
 "whisper) that can still take quite some HD space."
 msgstr ""
+"Per rimuovere i pacchetti di :file:`venv`, fai clic su :guilabel:`Elimina`. "
+"Ciò eliminerà completamente la cartella :file:`venv` e tutti i pacchetti "
+"installati. Nota che questo non rimuove i modelli scaricati (vosk/whisper) "
+"che possono ancora occupare dello spazio sul disco rigido."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:307
 msgid "Default Apps"
