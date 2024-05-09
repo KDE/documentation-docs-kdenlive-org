@@ -54,23 +54,45 @@ Audio recording
 
 .. versionchanged:: 22.08
 
-There is now a :guilabel:`mic` button in the mixers (number 4 in above picture) instead of the :guilabel:`record` button. Pressing the :guilabel:`mic` button will enter in audio monitoring mode (levels show mic input and volume slider selects the mic level). While recording you see a live waveform appearing on timeline.
+.. figure:: /images/kdenlive2405_show-record-controls.webp
+   :align: left
+   :alt: sow recording controls
+
+.. rst-class:: clear-both
+
+Right click the track head and enable :guilabel:`Show Record Controls` or pressing the :guilabel:`mic` button in the mixers (number 4 in above picture) displays the track head record control which get colorized. It's now in audio monitoring mode (levels show mic input and volume slider selects the mic level).
 
 
 .. image:: /images/audio-record.png
    :alt: audio-record
 
+.. rst-class:: clear-both
 
-Enabling :guilabel:`mic` displays the track head record control and it get colorized.
+While recording you see a live waveform appearing on timeline.
 
-.. image:: /images/audio-countdown.png
+
+.. figure:: /images/audio-countdown.png
    :width: 40%
    :alt: audio-countdown
 
-**Start record:** press :kbd:`spacebar` or click the :guilabel:`record` button on the track head. A countdown start in project monitor (disable countdown see :ref:`configure_audio_capture` settings).
+   Disable countdown see :ref:`configure_audio_capture` settings
 
-**Pause:** press :kbd:`spacebar`
+.. .. versionchanged:. 24.05
 
-**To resume:** press :kbd:`spacebar` again
+**Recording while timeline is playing** 
 
-**Stop record:** press :kbd:`esc` or click the :guilabel:`record` button in the track head. The audio clip get added in the timeline and project bin.
+- Hit :kbd:`spacebar` to start timeline playback when monitoring.
+
+- Press :kbd:`r` or click the :guilabel:`record` button will pause timeline playback. :kbd:`Spacebar` start recording.
+
+**Direct recording** 
+
+- *Start record:* press :kbd:`r` or click the :guilabel:`record` button on the track head. A countdown start in project monitor (disable countdown see :ref:`configure_audio_capture` settings).
+
+- *Pause:* press :kbd:`spacebar`
+
+- *To resume:* press :kbd:`spacebar` again
+
+- *Stop record:* press :kbd:`esc` or click the :guilabel:`record` button in the track head. The audio clip get added in the timeline and project bin.
+
+After the recording is finished the audio file get created and stored in the project bin or :ref:`folder you have defined <capturingaudio>`. The "focus" is still on the timeline. You can continue to use keyboard shortcuts to move around the newly inserted recording, like jumping to the end of it or the beginning, or the next clip.
