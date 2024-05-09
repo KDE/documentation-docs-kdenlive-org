@@ -120,7 +120,7 @@ Project Bin: right click on a folder and enable/disable :guilabel:`Default Targe
 
 The default sequences folder gets a colored icon and is always displayed on top in the project bin.
 
-.. image:: /images/default_target_folder_for_sequences.png
+.. image:: /images/kdenlive2405_default_target_folder_for_sequences.webp
    :alt: default_target_folder_for_sequences
   
 On new created project the default folder is `Sequences`. 
