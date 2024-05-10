@@ -39,6 +39,8 @@ You can select multiple clips in preparation for grouping them by holding shift 
 
 To group the selected clips select :menuselection:`Timeline --> Group Clips` or right-click the selected clips and choose :menuselection:`Group Clips` or use the shortcut :kbd:`Ctrl+G`.
 
+Once grouped together a click on one of the grouped clips selects the entire group.
+
 .. rst-class:: clear-both
 
 
@@ -82,6 +84,31 @@ If you cut the video clip using the :ref:`editing` when there is an audio clip g
 .. rst-class:: clear-both
 
 
+.. .. versionadded:: 24.05
+
+.. _grouped_clips_effect:
+
+Effects on grouped clips
+------------------------
+
+.. figure:: /images/kdenlive2405_effect-on-grouped_clips.webp
+   :align: left
+   :alt: effects on grouped clips
+
+When :guilabel:`Apply effect change to all clips in the group` is enabled, adjusting a parameter for an effect will apply it to all items in the group which have this effect too.
+
+When enabled, an orange number appears next to the effect name to indicate how many effects are found in the group and will be affected by a change of parameters.
+
+Deleting an effect will delete it on all clips in the group.
+
+.. figure:: /images/kdenlive2405_effect-value-on-grouped_clips.webp
+   :align: left
+   :alt: effect value  on grouped clips
+
+.. rst-class:: clear-both
+
+When :guilabel:`Apply only to effects with the same value` is enabled, only change effects that have the same parameter value.
+
 .. _ungroup_clips:
 
 Removing clip grouping
@@ -93,20 +120,12 @@ To remove the grouping on clips, select the group of clips and choose :menuselec
 FAQ
 ~~~
 
-Q: How to delete sound track only?
+Q: How to delete the audio part of a clip?
 
-A: Right-click on the clip and choose :menuselection:`Split Audio`. The audio will move to an audio track but be grouped with the video track.
+A: Right-click on the clip and choose :menuselection:`Ungroup Clips`. Then you can delete just the audio part of the clip. 
 
 .. image:: /images/Kdenlive_Grouped_video_audio.png
    :align: left
    :alt: Kdenlive_Grouped_video_audio
 
-Right-click again and choose :menuselection:`Ungroup Clips`. 
-
-Then you can delete just the audio track. 
-
-Alternatively you can keep the audio in the clip and use the :menuselection:`Audio Correction --> Mute` effect to just mute the soundtrack on the clip.
-
-Yet another method is to select :menuselection:`Video only` from the :ref:`clip_menu`.
-
-
+Alternatively you can keep the audio in the clip and use the :guilabel:`Mute` effect to just mute the audio on the clip.
