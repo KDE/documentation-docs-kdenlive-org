@@ -94,7 +94,9 @@ You can have Kdenlive only render the selected zone - see :ref:`rendering-select
 Right-click Menu
 ~~~~~~~~~~~~~~~~
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitor_pm_right-click.webp
+.. .. versionchanged:: 24.05
+
+.. figure:: /images/user_interface/kdenlive2405_ui-monitor_pm_right-click.webp
    :width: 350px
    :figwidth: 350px
    :align: left
@@ -118,14 +120,17 @@ These are the menu items that are available when you right-click in the Project 
      - Shortcut
      - Description
    * - Play
-     -
-     - Plays the :term:`clip` currently selected in the :term:`project bin`
+     - :kbd:`Space` or click into the monitor
+     - Plays the :term:`clip` currently selected in the :term:`project bin`. (:ref:`Disable play on click in the settings <configure_playback>`)
    * - Play Zone
      - :kbd:`Ctrl+Space`
      - Plays the current :term:`zone` and stops
    * - Loop Zone
      - :kbd:`Ctrl+Shift+Space`
      - Plays the current :term:`zone` in a continuous loop
+   * - Play Zone From Cursor
+     - 
+     - Plays the current :term:`zone` from cursor to the end of the :term:`zone`
    * - Loop Selected Clip
      -
      - Plays the currently selected :term:`clip` in a continuous loop
