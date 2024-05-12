@@ -384,12 +384,14 @@ More details about speech to text see :ref:`here <effects-speech_to_text>`.
 Playback
 --------
 
-.. versionchanged:: 22.12
+.. .. versionchanged:: 22.12
+
+.. .. versionchanged:: 24.05
 
 Configure the Video and Audio drivers and devices. For advanced users only.
 
 
-.. figure:: /images/Kdenlive_Configure_playback_22-12.png
+.. figure:: /images/kdenlive2405_configure-playback.webp
    :width: 500px
    :alt: Kdenlive_Configure_playback
 
@@ -411,9 +413,13 @@ Configure the Video and Audio drivers and devices. For advanced users only.
 
 - WinMM (Win7), Wasapi (Win10), DirectSound. If you have any audio issue or playback stuttering you may change to another audio driver.
 
-In version 0.9.4 of **Kdenlive**, checking the "use Open GL for video playback" checkbox turns on the ability to have audio scrubbing available for use in the clips.  Audio scrubbing lets you hear the audio at the playhead position as you drag the playhead so you can quickly find a particular sound or event in the audio. This feature can be useful for placing the play head at the correct spot in the clip relative to an important bit of audio.
+.. ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   The following part is obsolet since version 24.02.0 with the change to Qt6. Qt6 uses the platform native GPU access. 
 
-In ver 15.04 or higher, there is no "use Open GL for video playback" checkbox  - Open GL is used by default. On Windows you can set the OpenGL backend under :menuselection:`Settings --> OpenGL Backend`  
+   :In version 0.9.4 of **Kdenlive**, checking the "use Open GL for video playback" checkbox turns on the ability to have audio scrubbing available for use in the clips.  Audio scrubbing lets you hear the audio at the playhead position as you drag the playhead so you can quickly find a particular sound or event in the audio. This feature can be useful for placing the play head at the correct spot in the clip relative to an important bit of audio.
+
+   In ver 15.04 or higher, there is no "use Open GL for video playback" checkbox  - Open GL is used by default. On Windows you can set the OpenGL backend under :menuselection:`Settings --> OpenGL Backend`  
+
 
 .. versionchanged:: 22.12
 
