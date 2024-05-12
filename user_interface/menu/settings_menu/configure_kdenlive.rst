@@ -23,8 +23,18 @@
 Configure Kdenlive
 ==================
 
+.. versionadded:: 24.02
+
+.. figure:: /images/kdenlive2402_configure-search-field.webp
+   :align: left
+   :alt: configure search field
+
+   Search for "play" show the findings highlighted 
+
+With the search function you can look for notes which then get highlighted in the respective section.
 
 Following settings applies when you start a project with :ref:`new`.
+
 
 .. _configure_misc:
 
