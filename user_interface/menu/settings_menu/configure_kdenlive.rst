@@ -263,21 +263,22 @@ If you want to experiment with multi threading in versions higher than 0.9.10  y
 Default Folders
 ~~~~~~~~~~~~~~~
 
-.. versionchanged:: 22.08
+.. .. versionchanged:: 22.08
+   .. versionchanged:: 24.05
 
-.. figure:: /images/Kdenlive_Configure_environment_default_folders_22-12.png
+.. figure:: /images/kdenlive2405_configure_environment_default_folders.webp
    :width: 500px
    :alt: Kdenlive_Configure_environment_default_folders
 
    Default folders on Windows.
 
-.. figure:: /images/Kdenlive_Configure_environment_default_folders_Linux_22-12.png
+.. figure:: /images/kdenlive2405_configure_environment_default_folders_Linux.webp
    :width: 500px
    :alt: Kdenlive_Configure_environment_default_folders_Linux
 
    Default folders on Linux.
 
-.. figure:: /images/Kdenlive_Configure_environment_default_folders_MacOS_22-12.png
+.. figure:: /images/kdenlive2405_configure_environment_default_folders_MacOS.webp
    :width: 500px
    :alt: Kdenlive_Configure_environment_default_folders_MacOS
 
@@ -286,6 +287,7 @@ Default Folders
 
 This setting controls where **Kdenlive** expects project files to be by default. It also controls what folder **Kdenlive** will use as a temporary file storage location and it controls where files captured from an external source will be saved.
 
+:guilabel:`Always use a custom subfolder of project folder`: Type in the subfolder name. Captures will be stored in a subdirectory of the project folder on disk. Once a recording is done, Kdenlive creates the folder if it's pointing to a non-existent folder. 
 
 .. _settings_environment_python:
 
