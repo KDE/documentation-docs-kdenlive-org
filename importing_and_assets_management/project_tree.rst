@@ -217,13 +217,35 @@ Create additional project bins
 ------------------------------
 
 .. .. versionadded:: 21.12
+   .. versionchanged:: 24.05
 
 .. image:: /images/multibin.gif
    :alt: multibin 
 
-You can create various bins from :ref:`folders <create_folder>` you have created. Right-click the folder name and choose :guilabel:`Open in new bin` 
+You can create various bins from :ref:`folders <create_folder>` you have created. Right-click the folder name and choose :guilabel:`Open Current Folder In New Bin` 
 
-Closing the extra bins either by pressing :kbd:`CTRL + w` or on the bin you want to close click on |application-menu| and choose :guilabel:`Close` .
+.. figure:: /images/kdenlive2405_multibin.webp
+   :align: left
+   :alt: new created bin
+
+New bins have 2 additional functions:
+
+**1** :guilabel:`Go Up` :kbd:`alt+up`. This goes 1 folder hierarchy up.
+
+**2** :guilabel:`Close Current Bin`
+
+Closing the extra bins can be done either by pressing :kbd:`CTRL+w` or on the bin you want to close click on |application-menu| and choose :guilabel:`Close` .
+
+.. figure:: /images/kdenlive2405_multibin-shown-in-view.webp
+   :align: left
+   :alt: new created bin show up in view
+
+.. rst-class:: clear-both
+
+Once you create a new project bin it is shown in view under Project Bins.
+
+Positions of new bins are remembered for each project.
+
 
 .. _clip_right-click:
 
