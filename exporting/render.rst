@@ -42,8 +42,10 @@ Rendering Dialog
 
 .. .. versionchanged:: 22.12
 .. .. versionchanged:: 24.02
+.. .. versionchanged:: 24.05
    
-.. figure:: /images/exporting/kdenlive2402_rendering-render_dialog.webp
+ 
+.. figure:: /images/exporting/kdenlive2405_rendering-render_dialog.webp
    :width: 400px
    :figwidth: 400px
    :align: left
@@ -65,11 +67,11 @@ Rendering Dialog
 
 .. rst-class:: clear-both
 
-.. figure:: /images/exporting/kdenlive2402_rendering-render_dialog_2.webp
+.. figure:: /images/exporting/kdenlive2405_rendering-render_dialog_2.webp
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2402_rendering-render_dialog_2
+   :alt: kdenlive2405_rendering-render_dialog_2
 
    Rendering dialog window
 
@@ -83,7 +85,7 @@ Rendering Dialog
 
 * :guilabel:`More Options` - Folds out the dialog window to display more (advanced) options
 
-* :guilabel:`Render Duration` - Estimated time to render the actual project selection
+* :guilabel:`Rendered File Length` - The length of the actual project selection when rendered
 
 * :guilabel:`Render to File` - Click to start the rendering and file creation
 
@@ -101,7 +103,7 @@ Rendering Preset Categories
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_rendering-presets
+   :alt: kdenlive2405_rendering-presets
 
    Kdenlive Rendering Presets/Profiles
 
@@ -164,9 +166,11 @@ Video
 
 Check this box to get a video track in the rendered file.
 
-.. figure:: /images/exporting/kdenlive2402_rendering-video.webp
+.. .. versionchanged:: 24.05
+
+.. figure:: /images/exporting/kdenlive2405_rendering-video.webp
    :align: left
-   :alt: kdenlive2402_rendering-video
+   :alt: kdenlive2405_rendering-video
 
    Rendering options for video
 
@@ -230,6 +234,19 @@ Check this box to get a video track in the rendered file.
 :guilabel:`Render Overlay` - This option overlays a time code or frame count over the rendered video. The overlay will be over the *entire* rendered project. Alternatively you can use the :doc:`/effects_and_compositions/video_effects/generate/dynamic_text` effect to overlay selected regions of the video.
 
 .. rst-class:: clear-both
+
+.. .. versionadded:: 24.05
+
+.. figure:: /images/exporting/kdenlive2405_rendering-video_aspect-ratio.webp
+   :align: right
+   :alt: kdenlive2405_rendering-video_aspect-ratio
+
+   Aspect Ratio
+
+:guilabel:`Aspect Ratio` - With this option you can choose your desired aspect ratio for the rendered video. It passes the selection to the rendering profile by cropping the video in the timeline to the desired aspect ratio.
+
+.. rst-class:: clear-both
+
 
 Audio
 ~~~~~
