@@ -287,7 +287,10 @@ Kdenlive's application-wide persistent settings are stored in the following loca
      - contains the OpenCV models downloaded 
    * - :file:`~/.local/share/kdenlive/venv`
      - :file:`%LocalAppData%\\kdenlive\\venv`
-     - contains the Python virtual environment (venv) 
+     - contains the Python virtual environment (venv)
+   * - :file:`$HOME/.cache/hugginface`
+     - :file:`C:\\Users\\<username>\\.cache\\huggingface`
+     - contains the SeamlessM4T models for Whisper  
 
    
 Windows

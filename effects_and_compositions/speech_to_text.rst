@@ -78,10 +78,14 @@ VOSK
    Download this batch file (:download:`Install_vosk_srt.zip </files/Install_vosk_srt.zip>`). After download a double click starts the installations.
 
 .. figure:: /images/kdenlive2402_speech-to-text_vosk_download.webp
-   :scale: 75%
+   :align: left
+   :width: 500px
+   :figwidth: 500px
    :alt: Vosk download dependencies
 
    Vosk is not installed
+
+.. rst-class:: clear-both
 
 When you switch to VOSK for the first time you have to install the missing dependencies first.
 
@@ -97,17 +101,31 @@ Install a Language
 
 Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text page` and select the speech engine VOSK.
 
-Click on the link to get a language model.
+Click on the link :guilabel:`Download speech models from:` to get a language model.
 
-.. figure:: /images/Speech-to-text_Download-link.png
+.. figure:: /images/kdenlive2405_Speech-to-text_Download-link.webp
+   :align: left
+   :width: 500px 
+   :figwidth: 500px
    :alt: download link
+
+.. rst-class:: clear-both
 
 Drag & drop the language you want from the vosk-model download page to the model window, and it will download and extract it for you.
 
-.. figure:: /images/Speech-to-text_Download-model.png
+.. figure:: /images/kdenlive2405_Speech-to-text_Download-model.webp
+   :align: left
+   :width: 500px
+   :figwidth: 500px
    :alt: download model
 
+.. rst-class:: clear-both
+
 If you have problems or check for updates click on the :guilabel:`Check configuration` button.
+
+.. .. versionchanged:: 24.05
+
+:guilabel:`Models folder` Show the size of the installed models. Click on the link opens the model folder.
 
 The VOSK speech models are stored here:
 
@@ -129,18 +147,28 @@ OpenAI-Whisper is a speech recognition model for general use. It is trained on a
 Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. Whisper creates sentences with punctuation marks, even in Base mode.
 
 .. figure:: /images/kdenlive2402_speech-to-text_whisper_download.webp
-   :scale: 75%
+   :align: left
+   :width: 500px
+   :figwidth: 500px
    :alt: Whisper download dependencies
 
    Whisper is not installed
 
+.. rst-class:: clear-both
+
 When you switch to Whisper for the first time you have to install the missing dependencies first (about 2GB to download).
 
-.. figure:: /images/Speech-to-text_whisper_installed.png
-   :scale: 75%
+.. .. versionchanged:: 24.05
+
+.. figure:: /images/kdenlive2405_speech-to-text_whisper_installed.webp
+   :align: left
+   :width: 500px
+   :figwidth: 500px
    :alt: Whisper installed
 
-When all is correct configured, you get this screen.
+   When all is correct configured, you get this screen.
+
+.. rst-class:: clear-both
 
 Path where Whisper is installed:
 
@@ -154,17 +182,22 @@ Linux: :file:`~/.local/share/kdenlive/opencvmodels`
 Windows: :file:`%AppData%\\kdenlive\\opencvmodels`
 
 
-:guilabel:`Model` Select the model. More details on the |whisper_source| (default: Base) .
+:guilabel:`Model` Select the model. More details on the |whisper_source| (default: Base).
 
 :guilabel:`Language` Select the language if Autodetect is not accurate (default: Autodetect)
 
 :guilabel:`Device` For compatibility purposes only CPU is available
 
+:guilabel:`Disable half precision (FP16)` Only for GPU. When Kdenlive detects a NVIDIA GTX 16xx graphic card it disables half precision (FP16) automatically. If you have issues with using GPU you can switch off half precision.
+
 :guilabel:`Translate text to english` This translates non-English text to English during recognition
+
+:guilabel:`Enable translation through SeamlessM4T` This will only enable/disable ``facebook/seamless-m4t-v2-large``. To download and start subtitle translation :ref:`follow these steps <Translate_with_SeamlessM4T>`.  
 
 You can check for updates by clicking on :guilabel:`Check configuration`
 
 If you have installed Whisper in an earlier Kdenlive version already and now you have chosen the :file:`venv` folder for Python, you can delete the past installed Whisper libraries by using following command in a console: :file:`pip uninstall openai-whisper`
+
 
 Speech recognition
 ------------------
@@ -177,35 +210,137 @@ Select the speech engine
 Enable :menuselection:`Menu --> View --> Speech Editor` menu item.
 
 .. figure:: /images/Speech-to-text_select_speech-engine.png
+   :align: left
+   :width: 500px
+   :figwidth: 500px
    :alt: change the speech engine
+
+.. rst-class:: clear-both
 
 Click on the :guilabel:`Hamburger Menu` |application-menu| and select :guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure Speech to Text <configure_speech_to_text>`, select the engine and click :guilabel:`OK.`
 
 :guilabel:`Translate to english` is only available with the Whisper speech engine. It translates non-English text to English during recognition.
 
-Creating subtitle by speech recognition
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. figure:: /images/kdenlive2405_speech-to-text_Show-log.webp
+   :align: left
+   :width: 300px
+   :figwidth: 300px
+   :alt: Speech to text show log
 
-.. figure:: /images/Speech-to-text_Subtitle.png
+.. rst-class:: clear-both
+
+If some error or important message happen. Click on the :guilabel:`Show log` and the log get visible.
+
+
+Creating subtitle by VOSK speech recognition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. .. versionchanged:: 24.05
+
+.. figure:: /images/kdenlive2405_speech-to-text_subtitle_VOSK.webp
+   :align: left
+   :width: 500px
+   :figwidth: 500px
    :alt: Speech to text subtitle
 
    Shown with the VOSK engine
 
-1. Mark the timeline zone you want to recognize (adjust the blue line)
+.. rst-class:: clear-both
 
-2. Click on the :guilabel:`Speech recognition` icon
+1. Mark the timeline zone you want to recognize (adjust the blue line) (**1**)
 
-3. Choose the language
+2. Click on the :guilabel:`Speech recognition` icon (**2**)
 
-4. Choose how the selected zone should be applied
+3. Choose the :guilabel:`Language` (**3**)
 
-5. Press on the :guilabel:`Process` button
+4. Choose which part of the timeline should be applied for recognition (**4**)
+
+5. :guilabel:`Process` Start the recognition (**5**)
 
 The subtitle gets created and inserted automatically.
 
-.. note:: Only timeline zone is implemented for now in automatic subtitles.
+Remark to **4**: The default is to analyze only the :guilabel:`Timeline zone (all tracks)` (the blue bar in the timeline ruler). Set the zone in the timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to set in and out points). :guilabel:`Selected clips` option analyses the selected clip only.
 
-Remark to 4: The default is to analyze only the :guilabel:`Timeline zone (all tracks)` (the blue bar in the timeline ruler). Set the zone in the timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to set in and out points). :guilabel:`Selected clips` option analyses the selected clip only.
+
+Creating subtitle by WHISPER speech recognition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. .. versionchanged:: 24.05
+
+.. figure:: /images/kdenlive2405_speech-to-text_subtitle_Whisper.webp
+   :align: left
+   :width: 500px
+   :figwidth: 500px
+   :alt: Speech to text subtitle Whisper
+
+   Shown with the Whisper engine
+
+.. rst-class:: clear-both
+
+1. Mark the timeline zone you want to recognize (adjust the blue line) (**1**)
+
+2. Click on the :guilabel:`Speech recognition` icon (**2**)
+
+3. Choose the :guilabel:`Model` (**3**)
+
+4. Choose which part of the timeline should be applied for recognition (**4**)
+
+5. :guilabel:`Process` Start the recognition (**5**)
+
+The subtitle gets created and inserted automatically.
+
+Remark to **4**: The default is to analyze only the :guilabel:`Timeline zone (all tracks)` (the blue bar in the timeline ruler). Set the zone in the timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to set in and out points). :guilabel:`Selected clips` option analyses the selected clip only.
+
+:guilabel:`Language` If :guilabel:`Autodetect` doesn't choose the correct language you can manually set the language
+
+:guilabel:`Maximum character per line` Adjust the number of character per line in the subtitle
+
+.. _Translate_with_SeamlessM4T:
+
+:guilabel:`Translate with SeamlessM4T` First you have to enable :guilabel:`Enable translation through SeamlessM4T` in :menuselection:`Settings --> Configure Kdenlive --> Speech To Text`.
+
+.. figure:: /images/kdenlive2405_speech-to-text_Whisper_SeamlessM4T_input-output_language.webp
+   :align: left
+   :width: 300px
+   :figwidth: 300px
+   :alt: Whisper SeamlessM4T choose input and output language
+
+   **Attention** If you use SeamlessM4T the first time it downloads about 9GB of data in the background
+
+.. rst-class:: clear-both
+
+Select :guilabel:`Input Language` and :guilabel:`Output Language` and click :guilabel:`Process`. This will first process the audio using whisper, then start the SeamlessM4T translation. Translation can occupy 100% RAM, 100% CPU and 100% disk access.
+
+.. attention::
+   If the 9GB model has not yet been downloaded, it will be downloaded now. With a 100MB/s download speed this will take about 12 minutes!
+
+   During download Kdenlive will react as normal. Don't click on :guilabel:`Close` otherwise download get stopped. 
+
+Don't worry if you see such a massage on the box below :guilabel:`Initializing translation model` while downloading is running.
+
+.. figure:: /images/kdenlive2405_speech-to-text_Whisper_SeamlessM4T_download.webp
+   :align: left
+   :width: 300px
+   :figwidth: 300px
+   :alt: Whisper SeamlessM4T choose input and output language
+
+.. rst-class:: clear-both
+
+Once the translation model is downloaded translation will happen (be patient as download the model takes about 12 minutes with 100MB/s download speed). 
+
+.. figure:: /images/kdenlive2405_speech-to-text_Whisper_SeamlessM4T.webp
+   :align: left
+   :width: 500px
+   :figwidth: 500px
+   :alt: On Whisper SeamlessM4T installed
+
+   SeamlessM4T is enabled and downloaded successful
+
+The SeamlessM4T models are stored here:
+
+Linux: :file:`$HOME/.cache/hugginface`
+
+Windows: :file:`C:\\Users\\<username>\\.cache\\huggingface`
 
 
 .. _creating_clips_by_speech_recognition:
@@ -217,9 +352,14 @@ This is useful for interviews and other speech-related footage.
 Enable the :menuselection:`Menu --> View --> Speech Editor` menu item.
 
 .. figure:: /images/kdenlive2402_speech-to-text_text-edit.webp
+   :align: left
+   :width: 500px
+   :figwidth: 500px
    :alt: Speech editor
 
    Shown with the VOSK engine and search enabled
+
+.. rst-class:: clear-both
 
 Select a clip in the **Project Bin**.
 
