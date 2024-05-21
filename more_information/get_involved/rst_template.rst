@@ -54,8 +54,8 @@ After a command with .. next line must be indented by 3 blank spaces to make the
 
 .. figure:: /images/getting_started/kdenlive_add_last_clip.webp
    :align: left
-   :width: 250px 
-   :figwidth: 250px
+   :width: 500px
+   :figwidth: 500px
    :alt: Optional text which appears when the picture is not found
       
    Description of the picture (caption or legend)
@@ -117,6 +117,8 @@ This is **bold text**
 This is *italic text*
 
 backquotes ``text`` for code samples.
+
+Glossary Entry. Link a Term to its glossary entry :term:`Active Track`. Showing different text :term:`make a track active <Active Track>`
 
 Use for menu selection :menuselection:`Menu --> File --> New` (This is used to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation)
 
