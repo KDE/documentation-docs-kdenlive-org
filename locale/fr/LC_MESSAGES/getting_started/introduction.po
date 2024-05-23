@@ -1,18 +1,19 @@
 # Xavier Besnard <xavier.besnard@kde.org>, 2022.
+# Ludo <ludo0565@caramail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2022-01-21 20:03+0100\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"PO-Revision-Date: 2024-05-21 18:22+0200\n"
+"Last-Translator: Ludo <ludo0565@caramail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.12.1\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../../getting_started/introduction.rst:1
 msgid "Introduction to Kdenlive video editor"
@@ -35,19 +36,10 @@ msgid ""
 "**Kdenlive** is an acronym for |kde_org| **N**\\ on-\\ **Li**\\ near **V**\\ "
 "ideo **E**\\ ditor."
 msgstr ""
+"**Kdenlive** est un acronyme pour |kde_org| **N**\\ on-\\ **Li**\\ inear "
+"**V**\\ ideo **E**\\ ditor."
 
 #: ../../getting_started/introduction.rst:36
-#, fuzzy
-#| msgid ""
-#| "**Kdenlive** is an acronym for `KDE <http://www.kde.org>`_ **N**\\ on-\\ "
-#| "**Li**\\ near **V**\\ ideo **E**\\ ditor. It is a free software (`GPL "
-#| "licensed <http://www.fsf.org/licensing/licenses/gpl.html>`_) primarily "
-#| "aimed at the Linux platform, but it also works on BSD [1]_  as it relies "
-#| "only on portable components (`Qt <https://www.qt.io/>`_ and `MLT <http://"
-#| "www.mltframework.org/>`_ framework). Windows versions are also available, "
-#| "with some drawbacks. See :ref:`windows_issues` for more information. A "
-#| "port on MacOS is `currently in progress <https://invent.kde.org/"
-#| "multimedia/kdenlive/-/issues/993>`_."
 msgid ""
 "It is a free software (|gpl_licensed|) primarily aimed at the Linux "
 "platform, but it also works on BSD\\ [1]_  as it relies only on portable "
@@ -55,24 +47,14 @@ msgid ""
 "drawbacks. See :ref:`troubleshooting-windows_issues` for more information. A "
 "port on MacOS is also available."
 msgstr ""
-"**Kdenlive** is an acronym for `KDE <http://www.kde.org>`_ **N**\\ on-\\ "
-"**Li**\\ near **V**\\ ideo **E**\\ ditor. It is a free software (`GPL "
-"licensed <http://www.fsf.org/licensing/licenses/gpl.html>`_) primarily aimed "
-"at the Linux platform, but it also works on BSD [1]_  as it relies only on "
-"portable components (`Qt <https://www.qt.io/>`_ and `MLT <http://www."
-"mltframework.org/>`_ framework). Windows versions are also available, with "
-"some drawbacks. See :ref:`windows_issues` for more information. A port on "
-"MacOS is `currently in progress <https://invent.kde.org/multimedia/"
-"kdenlive/-/issues/993>`_."
+"C'est un logiciel libre (|sous licence GPL|), principalement destiné à un "
+"système Linux, mais qui fonctionne aussi sur BSD\\ [1]_ vu qu'il est basé "
+"uniquement sur des éléments portables (|qt| et |mlt|). Des versions Windows "
+"existent également, avec quelques limitations. Voir :ref:`troubleshooting-"
+"windows_issues` pour plus d'informations. Un portage sur macOS existe "
+"également."
 
 #: ../../getting_started/introduction.rst:58
-#, fuzzy
-#| msgid ""
-#| "Through the MLT framework, **Kdenlive** integrates many plugin effects "
-#| "for video and sound processing or creation. Furthermore **Kdenlive** "
-#| "brings a powerful titling tool, a subtitling feature with automatic "
-#| "speech to text conversion, and can then be used as a complete studio for "
-#| "video creation."
 msgid ""
 "Through the MLT framework **Kdenlive** integrates many effects for video and "
 "audio processing or creation. Furthermore, **Kdenlive** brings a powerful :"
@@ -84,23 +66,24 @@ msgid ""
 "22.08) and thus can be used as a complete studio for video creation. Check "
 "out :doc:`/more_information/whats_new` for the most recent feature additions."
 msgstr ""
-"Grâce à l'environnement de développement « MLT », **Kdenlive** intègre de "
-"nombreux effets de modules externes pour le traitement ou la création de "
-"vidéos et de sons. De plus, **Kdenlive** intègre un puissant outil de sous-"
-"titrage, une fonction de sous-titrage avec conversion automatique de la "
-"parole en texte. Il peut donc être utilisé comme un studio complet de "
-"création vidéo."
+"Grâce à l'environnement de développement « MLT », **Kdenlive** intègre de  "
+"nombreux effets pour le traitement ou la création de vidéos et de sons. De "
+"plus, **Kdenlive** intègre un puissant outil de titrage :doc:`titling tool </"
+"effects_and_compositions/titles>`, une fonction de sous-titrage "
+":doc:`subtitling </effects_and_compositions/subtitles>` avec conversion "
+"automatique de la parole en texte :doc:`speech to text </"
+"effects_and_compositions/speech_to_text>`, l'imbrication de séquences et de "
+"frises chronologiques :ref:`nested timelines <sequence>`  (nouveau dans la "
+"version 23.04), la possibilité d'animations grâce à l'intégration de "
+"Glaxnimate (nouveau dans la version 22.08). Il peut donc être utilisé comme "
+"un programme complet de création vidéo. Regardez sur :doc:`/more_information/"
+"whats_new` pour connaître les plus récents ajouts de fonctions."
 
 #: ../../getting_started/introduction.rst:63
 msgid "Video editing features"
 msgstr "Fonctionnalités de montage vidéo"
 
 #: ../../getting_started/introduction.rst:65
-#, fuzzy
-#| msgid ""
-#| "Multitrack edition with a timeline and virtually unlimited number of "
-#| "video and audio tracks, plus facilities for splitting audio and video "
-#| "from a clip in multiple tracks"
 msgid ""
 "Multitrack editing with a timeline and virtually unlimited number of video "
 "and audio tracks, plus the ability to split audio and video from a clip in "
@@ -112,7 +95,7 @@ msgstr ""
 
 #: ../../getting_started/introduction.rst:67
 msgid "3-point editing"
-msgstr ""
+msgstr "Édition à 3 points"
 
 #: ../../getting_started/introduction.rst:69
 msgid ""
@@ -120,25 +103,24 @@ msgid ""
 "project is being transformed into a video file"
 msgstr ""
 "Rendu non bloquant. Vous pouvez continuer à travailler sur un projet en même "
-"temps qu'il est transformé en fichier vidéo."
+"temps qu'un projet est transformé en fichier vidéo."
 
 #: ../../getting_started/introduction.rst:71
-#, fuzzy
-#| msgid ""
-#| "Effects and transitions can be used with ease, and you can even create "
-#| "some wipe transitions of your own!"
 msgid ""
 "Dozens of effects and transitions that can be used with ease and even saved "
 "as custom effects with their settings for use in other projects"
 msgstr ""
-"Les effets et les transitions peuvent être utilisés facilement et vous "
-"pouvez même créer vos propres transitions en balayage !"
+"Des dizaines d'effets et de transitions peuvent être facilement utilisées et "
+"sauvegardées avec leurs réglages comme effets personnalisés utilisables dans "
+"d'autres projets."
 
 #: ../../getting_started/introduction.rst:73
 msgid ""
 "Keyframeable effects with linear or smooth curves (more to come in future "
 "versions)"
 msgstr ""
+"Utilisation des images clés pour des effets avec des courbes linéaires ou "
+"lisses (plus à venir dans les futures versions)"
 
 #: ../../getting_started/introduction.rst:75
 msgid ""
@@ -156,38 +138,38 @@ msgstr ""
 "transitions en fondu entre les images."
 
 #: ../../getting_started/introduction.rst:79
-#, fuzzy
-#| msgid "Configurable keyboard shortcuts and interface layouts"
 msgid ""
 "Configurable keyboard shortcuts, toolbars and interface layouts to "
 "accommodate your workflow"
-msgstr "Raccourcis clavier et dispositions configurables de l'interface "
+msgstr ""
+"Raccourcis clavier, barres d'outils et dispositions de l'interface "
+"configurables pour faciliter votre travail"
 
 #: ../../getting_started/introduction.rst:81
 msgid "Audio and video scopes"
-msgstr ""
+msgstr "Écrans d'affichage audio et vidéo"
 
 #: ../../getting_started/introduction.rst:83
 msgid "Proxy editing for your 4K+ footage"
-msgstr ""
+msgstr "Édition de proxy pour vos images 4K +"
 
 #: ../../getting_started/introduction.rst:85
 msgid "Themable interface supporting dark themes"
-msgstr ""
+msgstr "Interface personnalisable prenant en charge les thèmes sombres"
 
 #: ../../getting_started/introduction.rst:87
-#, fuzzy
-#| msgid "and much more!"
 msgid "... and much more!"
 msgstr "…et plus encore !"
 
 #: ../../getting_started/introduction.rst:89
 msgid "See the |kdenlive_roadmap| for what the future may bring."
 msgstr ""
+"Voir le |Kdenlive_Roadmap| pour savoir ce que les développements futurs "
+"apporteront."
 
 #: ../../getting_started/introduction.rst:97
 msgid "Supported formats and codecs"
-msgstr ""
+msgstr "Formats et codecs pris en charge"
 
 #: ../../getting_started/introduction.rst:101
 msgid ""
@@ -195,14 +177,19 @@ msgid ""
 "knows how to handle any format smoothly and supports the following formats, "
 "file types and codecs:"
 msgstr ""
+"Il n'est pas nécessaire d'importer ou de convertir des images avant le "
+"montage. Kdenlive sait gérer en douceur n'importe quel format et prend en "
+"charge les formats, types de fichiers et codecs suivants :"
 
 #: ../../getting_started/introduction.rst:103
 msgid "Support for low resolution (DV) camera and camcorder files, including:"
 msgstr ""
+"Prise en charge des fichiers de caméra et de caméscope à faible résolution "
+"(DV), notamment :"
 
 #: ../../getting_started/introduction.rst:105
 msgid "DV editing (Raw and AVI)"
-msgstr ""
+msgstr "Édition DV (RAW et AVI)"
 
 #: ../../getting_started/introduction.rst:106
 msgid "MPEG4-ASP/MP3 (DivX compatible)"
@@ -221,6 +208,8 @@ msgid ""
 "Support for high (HD) and ultra-high (UHD/4K) resolution camcorder files, "
 "including:"
 msgstr ""
+"Prise en charge des fichiers de caméscope à résolution haute définition (HD) "
+"et ultra haute définition (UHD / 4K), y compris :"
 
 #: ../../getting_started/introduction.rst:112
 msgid "MPEG-2, MP4, Matroska, WebM, Apple ProRes 422 HDV"
@@ -228,11 +217,11 @@ msgstr ""
 
 #: ../../getting_started/introduction.rst:113
 msgid "H264 AAC HDV"
-msgstr ""
+msgstr "H246 AAC HDV"
 
 #: ../../getting_started/introduction.rst:114
 msgid "H265"
-msgstr ""
+msgstr "H265"
 
 #: ../../getting_started/introduction.rst:115
 msgid "Native HDV editing, 720 and 1080, interlaced or full frames"
@@ -240,7 +229,7 @@ msgstr ""
 
 #: ../../getting_started/introduction.rst:117
 msgid "Support for brand new codecs and formats:"
-msgstr ""
+msgstr "Prise en charge des nouveaux codecs et formats :"
 
 #: ../../getting_started/introduction.rst:119
 msgid "SNOW lossless codec"
@@ -252,7 +241,7 @@ msgstr ""
 
 #: ../../getting_started/introduction.rst:121
 msgid "Since version 22.08: LOTTIE and RAWR animations"
-msgstr ""
+msgstr "Depuis la version 22.08 : animations Lottie et Rawr"
 
 #: ../../getting_started/introduction.rst:123
 msgid ""
@@ -260,30 +249,37 @@ msgid ""
 "can edit a film using two sources: a small mpeg4 camera and an HDV mpeg2 "
 "camcorder."
 msgstr ""
+"Capacité à mélanger différentes sources vidéo dans un seul projet. Par "
+"exemple, vous pouvez modifier un film en utilisant deux sources : une petite "
+"caméra MPEG4 et un caméscope HDV MPEG2."
 
 #: ../../getting_started/introduction.rst:125
 msgid ""
 "Any resolution. Kdenlive will adapt resolution of source files to the "
 "resolution of the project."
 msgstr ""
+"Toute résolution. Kdenlive adaptera la résolution des fichiers source à la "
+"résolution du projet."
 
 #: ../../getting_started/introduction.rst:126
 msgid ""
 "Any frame rate (from 15fps to 60 fps or higher). Kdenlive can duplicate/"
 "remove frames when needed."
 msgstr ""
+"Toute fréquence d'images (de 15 images par seconde à 60 ips ou plus). "
+"Kdenlive peut dupliquer / supprimer les trames en cas de besoin."
 
 #: ../../getting_started/introduction.rst:128
 msgid "A wide range of image import formats:"
-msgstr ""
+msgstr "Un large éventail de formats d'importation d'images :"
 
 #: ../../getting_started/introduction.rst:130
 msgid "PNG, GIF, JPEG (jp2, jpe, jpeg, jpg, jpg2), TGA, TIFF, SVG, WEBP"
-msgstr ""
+msgstr "PNG, GIF, JPEG (jp2, jpe, jpeg, jpg, jpg2), TGA, TIFF, SVG, WEBP"
 
 #: ../../getting_started/introduction.rst:131
 msgid "Since version 22.08: AVIF, HEIF, HEIC, JPEG XL"
-msgstr ""
+msgstr "Depuis la version 22.08 : AVIF, HEIF, HEIC, JPEG XL"
 
 #: ../../getting_started/introduction.rst:133
 msgid "Export to most formats"
@@ -295,6 +291,9 @@ msgid ""
 "MPEG-2 and MP4 (PAL, NTSC and HD, UHD/4K), Matroska-H264/H265, AAC, AC3, "
 "MP3, Apple ProRes 422"
 msgstr ""
+"Exporter vers n'importe quel format pris en charge par |ffmpeg|, y compris "
+"DVD (PAL et NTSC), MPEG-2 et MP4 (PAL, NTSC et HD, UHD / 4K), Matroska-H264 "
+"/ H265, AAC, AC3, MP3, Apple Prores 422"
 
 #: ../../getting_started/introduction.rst:136
 msgid ""
@@ -312,7 +311,7 @@ msgstr ""
 
 #: ../../getting_started/introduction.rst:147
 msgid "**Notes**"
-msgstr ""
+msgstr "**Remarques**"
 
 #: ../../getting_started/introduction.rst:149
 msgid "Berkeley Software Distribution"
