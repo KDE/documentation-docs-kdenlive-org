@@ -18,7 +18,7 @@
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-.. .. _24.05: https://kdenlive.org/en/2024/12/kdenlive-24-05-0-released/
+.. _24.05: https://kdenlive.org/en/2024/05/kdenlive-24-05-0-released/
 
 .. _24.02: https://kdenlive.org/en/2024/03/kdenlive-24-02-0-released/
 
@@ -57,7 +57,23 @@
 What's New
 ==========
 
-.. .. versionadded:: 24.05.1 (see 24.05_ release notes)
+.. versionadded:: 24.05 (see 24.05_ release notes)
+
+   * Added ability in :ref:`audio recording to set default bin <capturingaudio>`
+   * Changed that new :ref:`recorded audio don't get highlighted in the project bin <audio-recording>`
+   * Revamped :ref:`audio recording short keys <audio-recording>`
+   * Added ability :ref:`to use custom project subfolder on disk <configure_environment>`
+   * Added ability :ref:`in monitor to play zone from cursor position <ui-monitors_pm_right_click>`
+   * Added ability :ref:`to configure play/pause playback when clicking into monitor <configure_playback>`
+   * Introduced :ref:`subtitles translation using SeamlessM4T engine <Translate_with_SeamlessM4T>`
+   * Added ability :ref:`to set maximum character per subtitle <Translate_with_SeamlessM4T>`
+   * Added an :ref:`output log when subtitles are generated <Translate_with_SeamlessM4T>`
+   * Added :ref:`the possibility to customizing camcorder proxy files <configure_proxy_clips>`
+   * Introduced :ref:`configurable behavior to change all effects in a group <grouped_clips_effect>`
+   * Added ability :ref:`for multi-format rendering <rendering-more_options>`
+   * Revamped and :ref:`improved multiple project bin <multibin>`
+   * Introduced :ref:`double click to select a track <editing_active_tracks>`
+
 
 .. versionadded:: 24.02 (see 24.02_ release notes)
 
