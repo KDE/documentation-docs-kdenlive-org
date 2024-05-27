@@ -316,7 +316,7 @@ Select :guilabel:`Input Language` and :guilabel:`Output Language` and click :gui
 
    During download Kdenlive will react as normal. Don't click on :guilabel:`Close` otherwise download get stopped. 
 
-Don't worry if you see such a massage on the box below :guilabel:`Initializing translation model` while downloading is running.
+Don't worry if you see such a message on the box below :guilabel:`Initializing translation model` while downloading is running.
 
 .. figure:: /images/kdenlive2405_speech-to-text_Whisper_SeamlessM4T_download.webp
    :align: left

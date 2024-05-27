@@ -367,7 +367,7 @@ Active track
 
 .. rst-class:: clear-both
       
-**1** Target track (3-point editing). The highlighted target strip indicates that in the project bin a A/V clip is selected (the selected clip has an audio and video part).
+**1** Target track (3-point editing). The highlighted target strip indicates that in the project bin an A/V clip is selected (the selected clip has an audio and video part).
 
 **2** Active track (3-point editing)
 
@@ -391,7 +391,7 @@ Make a track active by:
 
 -	:kbd:`1-9` select a video track 
 
--	:kbd:`alt+1-9` select a audio track 
+-	:kbd:`alt+1-9` select an audio track 
 
 -	arrow key up/down
 
