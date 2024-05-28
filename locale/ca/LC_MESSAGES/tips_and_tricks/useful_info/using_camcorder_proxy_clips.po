@@ -1,15 +1,15 @@
 # Translation of docs_kdenlive_org_tips_and_tricks___useful_info___using_camcorder_proxy_clips.po to Catalan
-# Copyright (C) 2023 This_file_is_part_of_KDE
+# Copyright (C) 2023-2024 This_file_is_part_of_KDE
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-11-03 12:55+0100\n"
+"POT-Creation-Date: 2024-05-27 01:41+0000\n"
+"PO-Revision-Date: 2024-05-27 10:49+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Using Camera Proxy Clips"
 msgstr "Ús de clips intermediaris de càmera"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:23
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:24
 msgid ""
 "Kdenlive supports using external proxy clips. Some cameras, like Sony PXW-"
 "X70 and others allow you to record proxy clips during the normal recording "
@@ -47,12 +47,12 @@ msgstr ""
 "càmeres, com la Sony PXW-X70 i altres, permeten enregistrar clips "
 "intermediaris durant l'operació normal d'enregistrament."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:25
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:26
 msgid "For Sony camcorders, the file layout is the following:"
 msgstr ""
 "Per a les càmeres de vídeo de Sony, la disposició del fitxer és la següent:"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:27
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:28
 msgid ""
 "On your :abbr:`SD (Secure Digital - a proprietary, non-volatile, flash "
 "memory card format developed by the SD Association)` card, you will have a "
@@ -65,51 +65,67 @@ msgstr ""
 "«Clips») i una carpeta amb clips intermediaris de baixa resolució (anomenada "
 "«Sub»)."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:28
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:29
 msgid "The proxy clips will end with \"S03.MP4\" instead of \".MXF\"."
 msgstr "Els clips intermediaris acabaran amb «S03.MP4» en lloc de «.MXF»."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:30
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:31
 msgid "For example:"
 msgstr "Per exemple:"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:32
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:33
 msgid "**Original clip:**"
 msgstr "**Clip original:**"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:33
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:34
 msgid "Clips/Clip0001.MXF"
 msgstr "Clips/Clip0001.MXF"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:35
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:36
 msgid "**Proxy:**"
 msgstr "**Intermediari:**"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:35
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:36
 msgid "Sub/Clip0001S03.MP4"
 msgstr "Sub/Clip0001S03.MP4"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:37
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:38
 msgid ""
-"In Kdenlive we have a file called :file:`externalproxies.rc` that will be "
-"installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` "
-"(Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies."
-"rc`). This is a text file that lists supported camera profiles giving "
-"indication about the path and name of proxy clips. This is currently in the "
-"form:"
+"You can create your own external camcorder proxy links directly in the :ref:"
+"`proxy clip setup <configure_proxy_clips>`."
 msgstr ""
-"Al Kdenlive tenim un fitxer anomenat :file:`externalproxies.rc` que "
-"s'instal·larà a :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` "
-"(Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies."
-"rc`). Aquest és un fitxer de text que llista els perfils de càmera admesos "
-"donant indicació sobre el camí i el nom dels clips intermediaris. Actualment "
-"es troba en la forma:"
+"Podeu crear enllaços a intermediaris externs de càmera de vídeo directament "
+"en la :ref:`configuració de clips intermediaris <configure_proxy_clips>`."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:43
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:40
+#| msgid ""
+#| "In Kdenlive we have a file called :file:`externalproxies.rc` that will be "
+#| "installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` "
+#| "(Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/"
+#| "externalproxies.rc`). This is a text file that lists supported camera "
+#| "profiles giving indication about the path and name of proxy clips. This "
+#| "is currently in the form:"
+msgid ""
+"Or you can do it manually: In Kdenlive we have a file called :file:"
+"`externalproxies.rc` that will be installed in :code:`$INSTALL_PREFIX/share/"
+"kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/"
+"data/kdenlive/externalproxies.rc`). This is a text file that lists supported "
+"camera profiles giving indication about the path and name of proxy clips. "
+"This is currently in the form:"
+msgstr ""
+"O ho podeu fer manualment: al Kdenlive tenim un fitxer anomenat"
+" :file:`externalproxies.rc` que s'instal·larà a"
+" :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` (Windows:"
+" :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies.rc`)."
+" Aquest és un fitxer de text que llista els perfils de càmera admesos donant"
+" indicació sobre el camí i el nom dels clips intermediaris. Actualment es"
+" troba en la forma:"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:46
 msgid "Following camera proxies are supported:"
 msgstr "S'admeten els intermediaris de càmera següents:"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:53
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:57
 msgid ""
 "In order to use the already available proxy files go to the project "
 "settings, and in the tab :ref:`configure_proxy_clips` check :guilabel:"
@@ -128,7 +144,7 @@ msgstr ""
 "lloc de crear-ne un de nou. També podeu afegir directament el clip "
 "intermediari al projecte i es reconeixerà com a intermediari."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:59
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:63
 msgid ""
 "This greatly improves workflow if you have such a camera. Other camera "
 "brands also enable the creation of proxy clips, so if you have one, please |"

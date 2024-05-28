@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
+"POT-Creation-Date: 2024-05-27 01:41+0000\n"
 "PO-Revision-Date: 2023-12-13 22:26+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -108,13 +108,20 @@ msgstr ""
 msgid "Audio recording"
 msgstr "Snemanje zvoka"
 
-#: ../../effects_and_compositions/audio.rst:57
+#: ../../effects_and_compositions/audio.rst:63
+#, fuzzy
+#| msgid ""
+#| "There is now a :guilabel:`mic` button in the mixers (number 4 in above "
+#| "picture) instead of the :guilabel:`record` button. Pressing the :guilabel:"
+#| "`mic` button will enter in audio monitoring mode (levels show mic input "
+#| "and volume slider selects the mic level). While recording you see a live "
+#| "waveform appearing on timeline."
 msgid ""
-"There is now a :guilabel:`mic` button in the mixers (number 4 in above "
-"picture) instead of the :guilabel:`record` button. Pressing the :guilabel:"
-"`mic` button will enter in audio monitoring mode (levels show mic input and "
-"volume slider selects the mic level). While recording you see a live "
-"waveform appearing on timeline."
+"Right click the track head and enable :guilabel:`Show Record Controls` or "
+"pressing the :guilabel:`mic` button in the mixers (number 4 in above "
+"picture) displays the track head record control which get colorized. It's "
+"now in audio monitoring mode (levels show mic input and volume slider "
+"selects the mic level)."
 msgstr ""
 "V mešalnikih (številka 4 na zgornji sliki) je zdaj gumb :guilabel:`mik` "
 "namesto gumba :guilabel:`snemaj`. S pritiskom gumba :guilabel:`mik (mic)` "
@@ -122,37 +129,87 @@ msgstr ""
 "drsnik glasnosti izbere raven mikrofona). Med snemanjem vidite, da se na "
 "časovnici pojavi signalna oblika v živo."
 
-#: ../../effects_and_compositions/audio.rst:64
-msgid ""
-"Enabling :guilabel:`mic` displays the track head record control and it get "
-"colorized."
+#: ../../effects_and_compositions/audio.rst:71
+msgid "While recording you see a live waveform appearing on timeline."
 msgstr ""
-"Omogočanje :guilabel:`mik/mic` prikaže kontrolnik snemanja glave steze in se "
-"obarva."
 
-#: ../../effects_and_compositions/audio.rst:70
+#: ../../effects_and_compositions/audio.rst:78
+msgid "Disable countdown see :ref:`configure_audio_capture` settings"
+msgstr ""
+
+#: ../../effects_and_compositions/audio.rst:82
+msgid "**Recording while timeline is playing**"
+msgstr ""
+
+#: ../../effects_and_compositions/audio.rst:84
+msgid "Hit :kbd:`spacebar` to start timeline playback when monitoring."
+msgstr ""
+
+#: ../../effects_and_compositions/audio.rst:86
 msgid ""
-"**Start record:** press :kbd:`spacebar` or click the :guilabel:`record` "
-"button on the track head. A countdown start in project monitor (disable "
-"countdown see :ref:`configure_audio_capture` settings)."
+"Press :kbd:`r` or click the :guilabel:`record` button will pause timeline "
+"playback. :kbd:`Spacebar` start recording."
+msgstr ""
+
+#: ../../effects_and_compositions/audio.rst:88
+#, fuzzy
+#| msgid "Audio recording"
+msgid "**Direct recording**"
+msgstr "Snemanje zvoka"
+
+#: ../../effects_and_compositions/audio.rst:90
+#, fuzzy
+#| msgid ""
+#| "**Start record:** press :kbd:`spacebar` or click the :guilabel:`record` "
+#| "button on the track head. A countdown start in project monitor (disable "
+#| "countdown see :ref:`configure_audio_capture` settings)."
+msgid ""
+"*Start record:* press :kbd:`r` or click the :guilabel:`record` button on the "
+"track head. A countdown start in project monitor (disable countdown see :ref:"
+"`configure_audio_capture` settings)."
 msgstr ""
 "**Začni snemati:** pritisnite :kbd:`preslednico` ali kliknite gumb :guilabel:"
 "`snemaj` na glavi steze. Začne se odštevanje v pogledu projekta (za izklop "
 "odštevanja glejte nastavitve :ref:`configure_audio_capture`)."
 
-#: ../../effects_and_compositions/audio.rst:72
-msgid "**Pause:** press :kbd:`spacebar`"
+#: ../../effects_and_compositions/audio.rst:92
+#, fuzzy
+#| msgid "**Pause:** press :kbd:`spacebar`"
+msgid "*Pause:* press :kbd:`spacebar`"
 msgstr "**Premor:** pritisnite :kbd:`preslednico`"
 
-#: ../../effects_and_compositions/audio.rst:74
-msgid "**To resume:** press :kbd:`spacebar` again"
+#: ../../effects_and_compositions/audio.rst:94
+#, fuzzy
+#| msgid "**To resume:** press :kbd:`spacebar` again"
+msgid "*To resume:* press :kbd:`spacebar` again"
 msgstr "**Za nadaljevanje:** znova pritisnite :kbd:`preslednico`"
 
-#: ../../effects_and_compositions/audio.rst:76
+#: ../../effects_and_compositions/audio.rst:96
+#, fuzzy
+#| msgid ""
+#| "**Stop record:** press :kbd:`esc` or click the :guilabel:`record` button "
+#| "in the track head. The audio clip get added in the timeline and project "
+#| "bin."
 msgid ""
-"**Stop record:** press :kbd:`esc` or click the :guilabel:`record` button in "
+"*Stop record:* press :kbd:`esc` or click the :guilabel:`record` button in "
 "the track head. The audio clip get added in the timeline and project bin."
 msgstr ""
 "**Ustavi snemanje:** pritisnite :kbd:`ubežnico (Esc)` ali kliknite gumb :"
 "guilabel:`snemaj` v glavi steze. Zvočni posnetek se doda v časovnico in "
 "projektno posodo."
+
+#: ../../effects_and_compositions/audio.rst:98
+msgid ""
+"After the recording is finished the audio file get created and stored in the "
+"project bin or :ref:`folder you have defined <capturingaudio>`. The \"focus"
+"\" is still on the timeline. You can continue to use keyboard shortcuts to "
+"move around the newly inserted recording, like jumping to the end of it or "
+"the beginning, or the next clip."
+msgstr ""
+
+#~ msgid ""
+#~ "Enabling :guilabel:`mic` displays the track head record control and it "
+#~ "get colorized."
+#~ msgstr ""
+#~ "Omogočanje :guilabel:`mik/mic` prikaže kontrolnik snemanja glave steze in "
+#~ "se obarva."
