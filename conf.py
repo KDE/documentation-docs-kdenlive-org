@@ -26,7 +26,7 @@ copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/b
 author = 'Kdenlive Community'
 
 # The full version, including alpha/beta/rc tags
-release = '23.08'
+release = '24.05'
 
 # Get the git description if possible, to put it in the footer.
 
@@ -42,6 +42,8 @@ except subprocess.CalledProcessError as exc:
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+   # Workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/1452
+   "sphinxcontrib.jquery",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -522,8 +524,8 @@ html_theme = 'sphinx_rtd_theme' #'alabaster' #'sphinx_rtd_theme' 'insegel'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_theme_options = {
-     # Toc options. The maximum depth of the table of contents tree (on the sidebar). Set this to -1 to allow unlimited depth.
-    'navigation_depth': 4,
+     # Toc options. The maximum depth of the table of contents tree (on the sidebar). Set this to -1 to allow unlimited depth. Set to 5 to see sub-title of https://docs.kdenlive.org/en/user_interface/menu/settings_menu/configure_kdenlive.html
+    'navigation_depth': 5,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

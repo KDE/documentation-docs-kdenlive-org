@@ -37,6 +37,19 @@ Hit :kbd:`Ctrl+Return` to open the rendering dialog or use the :menuselection:`M
 
 .. rst-class:: clear-both
 
+Once the video is rendered you can double-click the blue banner with the file name to start playback.
+
+.. figure:: /images/exporting/kdenlive2402_rendering-window.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2402_rendering-window
+
+   Window after rendering is complete
+
+.. rst-class:: clear-both
+
+Or right-click on the file name to either :guilabel:`Add to current  project` or :guilabel:`Open contained folder` where the video is saved.  
 
 .. toctree::
    :hidden:

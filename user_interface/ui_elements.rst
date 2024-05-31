@@ -23,7 +23,7 @@ Controls
    :align: left
 
    Kdenlive UI controls (example using the effect panel)
-..
+
 
 .. list-table::
    :width: 100%
@@ -65,7 +65,7 @@ Controls
    :align: left
 
    Kdenlive UI controls (example using the monitor panel)
-..
+
 
 .. list-table::
    :width: 100%
@@ -107,7 +107,7 @@ Elements
    :align: left
 
    UI areas and elements (example using the effect panel)
-..
+
 
 .. list-table::
    :width: 100%
@@ -147,7 +147,7 @@ Elements
    :align: left
 
    UI areas and elements (example using the monitor widget)
-..
+
 
 .. list-table::
    :width: 100%
@@ -746,11 +746,11 @@ Status Bar Icons
 
    .. |track-locked| image:: /images/icons/track-locked.svg
    :width: 22px
-   :class: no-sclaed-link
+   :class: no-scaled-link
 
    .. |track-unlocked| image:: /images/icons/track-unlocked.svg
    :width: 22px
-   :class: no-sclaed-link
+   :class: no-scaled-link
 
    .. |transform-move-horizontal| image:: /images/icons/transform-move-horizontal.svg
    :width: 22px

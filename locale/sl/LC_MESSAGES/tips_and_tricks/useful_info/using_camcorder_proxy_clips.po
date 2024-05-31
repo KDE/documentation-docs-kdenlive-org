@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-11-04 10:24+0100\n"
+"POT-Creation-Date: 2024-05-27 01:41+0000\n"
+"PO-Revision-Date: 2024-05-29 12:08+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Using Camera Proxy Clips"
 msgstr "Uporaba posrednih posnetkov kamere"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:23
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:24
 msgid ""
 "Kdenlive supports using external proxy clips. Some cameras, like Sony PXW-"
 "X70 and others allow you to record proxy clips during the normal recording "
@@ -50,11 +50,11 @@ msgstr ""
 "je Sony PXW-X70, omogočajo snemanje oz. izdelavo posrednih posnetkov med "
 "običajno operacijo snemanja."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:25
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:26
 msgid "For Sony camcorders, the file layout is the following:"
 msgstr "Pri kamerah Sony je razporeditev datotek naslednja:"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:27
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:28
 msgid ""
 "On your :abbr:`SD (Secure Digital - a proprietary, non-volatile, flash "
 "memory card format developed by the SD Association)` card, you will have a "
@@ -66,50 +66,59 @@ msgstr ""
 "mapo z originalnimi posnetki polne ločljivosti (imenovano »Clips«) in mapo s "
 "posrednimi posnetki nizke ločljivosti (imenovano »Sub«)."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:28
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:29
 msgid "The proxy clips will end with \"S03.MP4\" instead of \".MXF\"."
 msgstr "Imena posrednih posnetkov se končujejo s »S03.MP4« namesto ». MXF«."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:30
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:31
 msgid "For example:"
 msgstr "Primer:"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:32
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:33
 msgid "**Original clip:**"
 msgstr "**Izvorni posnetek:**"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:33
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:34
 msgid "Clips/Clip0001.MXF"
 msgstr "Clips/Clip0001.MXF"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:35
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:36
 msgid "**Proxy:**"
 msgstr "**Posredni posnetek:**"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:35
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:36
 msgid "Sub/Clip0001S03.MP4"
 msgstr "Sub/Clip0001S03.MP4"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:37
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:38
 msgid ""
-"In Kdenlive we have a file called :file:`externalproxies.rc` that will be "
-"installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` "
-"(Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies."
-"rc`). This is a text file that lists supported camera profiles giving "
-"indication about the path and name of proxy clips. This is currently in the "
-"form:"
+"You can create your own external camcorder proxy links directly in the :ref:"
+"`proxy clip setup <configure_proxy_clips>`."
 msgstr ""
-"V Kdenlive imamo datoteko z imenom :file:`externalproxies.rc`, ki bo "
-"nameščena v :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` "
-"(Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies."
-"rc`). To je besedilna datoteka s seznamom podprtih profilov kamer, ki navaja "
-"pot in ime posrednih posnetkov. Trenutno je v obliki:"
+"Lastne povezave do zunanjih posrednih posnetkov lahko ustvarite neposredno "
+"v :ref:`nastavitvah posrednih posnetkov <configure_proxy_clips>`."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:43
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:40
+msgid ""
+"Or you can do it manually: In Kdenlive we have a file called :file:"
+"`externalproxies.rc` that will be installed in :code:`$INSTALL_PREFIX/share/"
+"kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/"
+"data/kdenlive/externalproxies.rc`). This is a text file that lists supported "
+"camera profiles giving indication about the path and name of proxy clips. "
+"This is currently in the form:"
+msgstr ""
+"To lahko storite tudi ročno. V Kdenlive imamo datoteko z imenom :file:"
+"`externalproxies.rc`, ki bo nameščena v :code:`$INSTALL_PREFIX/share/"
+"kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/"
+"data/kdenlive/externalproxies.rc`). To je besedilna datoteka s seznamom "
+"podprtih profilov kamer, ki navaja pot in ime posrednih posnetkov. Trenutno "
+"je v obliki:"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:46
 msgid "Following camera proxies are supported:"
 msgstr "Podprti so naslednji posredni posnetki kamer:"
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:53
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:57
 msgid ""
 "In order to use the already available proxy files go to the project "
 "settings, and in the tab :ref:`configure_proxy_clips` check :guilabel:"
@@ -128,7 +137,7 @@ msgstr ""
 "ustvaril novega. Posredni posnetek lahko tudi neposredno dodate v projekt in "
 "prepoznan bo kot posreden."
 
-#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:59
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:63
 msgid ""
 "This greatly improves workflow if you have such a camera. Other camera "
 "brands also enable the creation of proxy clips, so if you have one, please |"

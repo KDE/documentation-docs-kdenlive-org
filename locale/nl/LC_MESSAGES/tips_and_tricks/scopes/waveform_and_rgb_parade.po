@@ -1,21 +1,22 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# SPDX-FileCopyrightText: 2023 Freek de Kruijf <f.de.kruijf@gmail.com>
+# SPDX-FileCopyrightText: 2023 Freek de Kruijf <freekdekruijf@kde.nl>
+# Ronald Stroethoff <stroet43@zonnet.nl>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-09 00:36+0000\n"
-"PO-Revision-Date: 2023-10-30 12:51+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2024-01-24 21:12+0100\n"
+"Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:1
 msgid "Kdenlive Tips & Tricks - Waveform and RGB Parade"
@@ -44,7 +45,7 @@ msgid ""
 msgstr ""
 "**Golfvorm** en **RGB-parade** zijn twee dichtbij gerelateerde scopes. Ze "
 "doen hetzelfde - golfvorm voor :term:`Luma`, RGB-parade voor the :abbr:`RGB "
-"(Rood Greon Blauw)` componenten. Daarom zullen we niet altijd expliciet "
+"(Rood Groen Blauw)` componenten. Daarom zullen we niet altijd expliciet "
 "aangeven welke eigenschappen gelden voor beide scopes en alleen spreken van "
 "golfvorm."
 
@@ -228,12 +229,6 @@ msgstr ""
 "dit vlak is 25, terwijl de hoogte van het rode kanaal ongeveer 50 is."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:108
-#, fuzzy
-#| msgid ""
-#| "To achieve proper white balance here we make use of a new effect called :"
-#| "ref:`SOP/Sat <effects-sop_sat>`. :ref:`Curves <effects-curves>` would "
-#| "work as well (actually curves could do everything), but let's use a new "
-#| "effect here."
 msgid ""
 "To achieve proper white balance here we make use of a new effect called :doc:"
 "`/effects_and_compositions/video_effects/color_image_correction/sat`. :doc:`/"
@@ -242,9 +237,10 @@ msgid ""
 "effect here."
 msgstr ""
 "Om hier een goede witbalans te krijgen, gebruiken we een nieuw effect "
-"genaamd :ref:`SOP/Sat <effects-sop_sat>`. :ref:`Krommen <effects-curves>` "
-"zou ook goed werken (krommen kan eigenlijk alles), maar laten we hier een "
-"nieuw effect gebruiken."
+"genaamd :doc:`/effects_and_compositions/video_effects/color_image_correction/"
+"sat`. :doc:`/effects_and_compositions/video_effects/color_image_correction/"
+"curves` zou ook goed werken (krommen kan eigenlijk alles), maar laten we "
+"hier een nieuw effect gebruiken."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:110
 msgid ""
@@ -269,12 +265,19 @@ msgid ""
 "the :guilabel:`Min` in the RGB Parade display. The idea is to lift the "
 "channels so that their bottoms are aligned."
 msgstr ""
+"Het :doc:`/effects_and_compositions/video_effects/color_image_correction/"
+"sat` gebruikt een andere schaal dan de RGP Parade :term:`widget`. Het "
+"optillen van de kanalen refereert aan de schaal van de RGB Parade (0...255) "
+"zoals u kunt zien aan de :guilabel:`Min` in het RGB Parade-venster. Het idee "
+"is dat de kanalen worden opgetild totdat hun onderkant gelijk zijn."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:121
 msgid ""
 "Using the :doc:`/effects_and_compositions/video_effects/"
 "color_image_correction/sat` to change the color tone"
 msgstr ""
+"Het gebruik van de :doc:`/effects_and_compositions/video_effects/"
+"color_image_correction/sat` om de kleurtoon te wijzigen"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:123
 msgid ""
@@ -287,19 +290,19 @@ msgid ""
 msgstr ""
 "De tweede stap is de kanalen uittrekken. Dit wordt gedaan met de "
 "schuifregelaars :guilabel:`Helling`. Het doel is opnieuw het vinden van een "
-"neutraal punt in de RGB-parade en het als referentie te gebruiken. We zouden "
-"opnieuw het plafond links kunnen gebruiken, maar n enig testen is de kleine "
+"neutraal punt in de RGB-parade en dat als referentie te gebruiken. We zouden "
+"opnieuw het plafond links kunnen gebruiken, maar na enig testen is de kleine "
 "golf in het midden van de scope gevonden die ook werkt. Zijn voordeel is dat "
-"deze iets helderder is dan het plafond, biedend het preciezer corrigeren van "
-"de kleurzweem."
+"deze iets helderder is dan het plafond, zodat de kleurzweem preciezer "
+"gecorrigeerd kan worden."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:131
-#, fuzzy
-#| msgid "Using the :ref:`effects-sop_sat` to adjust white balance"
 msgid ""
 "Using the :doc:`/effects_and_compositions/video_effects/"
 "color_image_correction/sat` to adjust white balance"
-msgstr "Het gebruiken van :ref:`effects-sop_sat` om de witbalans aan te passen"
+msgstr ""
+"Het gebruiken van :doc:`/effects_and_compositions/video_effects/"
+"color_image_correction/sat` om de witbalans aan te passen"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:133
 msgid "And voilà, exposure and white balance are corrected."
@@ -317,6 +320,17 @@ msgid ""
 "apart. (Another reason might be the high compression of the Nikon D90 "
 "clips.) This effect is called *Posterization*\\ [#f1]_."
 msgstr ""
+"Als u een blik werpt op de afbeelding (of als u het zelf probeert bij de "
+"test-clip dat u kunt downloaden aan het eind van dit artikel) dan zal u in "
+"de afbeelding de kleurgolven opmerken. Dit is het resultaat van het "
+"uitrekken: We hebben het plafond aan de linkerkant opgeblazen van 25px "
+"hoogte naar tot 100px. Als we de clip bij het maken van de opname correct "
+"hadden belicht en goed de witbalans hadden ingesteld, dan zouden we hier 100 "
+"afzonderlijke waarden moeten hebben, maar nu zijn er alleen maar 25 "
+"afzonderlijke blauw-niveaus wat deze sprongen veroorzaakt. In de histogram "
+"lijkt de afbeelding ook gescheurd te zijn. (Een andere reden kan de grote "
+"compressie van Nikon D90 clips zijn.) Dit effect is wordt *Posterization*\\ "
+"[#f1]_ genoemd."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:137
 msgid ""
@@ -354,6 +368,12 @@ msgid ""
 "Digital Single-Lens Reflex)` cameras. Supported by many image processing "
 "applications such as |digikam| or |rawtherapee|."
 msgstr ""
+"Waar u wel kunt spelen met meer dan 8 bits per kanaal zijn :abbr:`RAW (Het "
+"RAW-bestand is het digitale fotografie equivalent van een negatief in film "
+"fotografie: Deze bevat de onbewerkte rauwe pixel informatie rechtstreeks van "
+"digitale camera's sensor)` afbeeldingen van :abbr:`DSLR (DSLR betekent "
+"Digital Single-Lens Reflex)` cameras. Veel afbeelding-bewerkingsprogramma's "
+"zoals |digikam| of |rawtherapee| kunnen ermee overweg."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:144
 msgid "Waveform Example 2: Leaf with Hidden Clipping"
@@ -488,6 +508,12 @@ msgid ""
 "effects_and_compositions/video_effects/color_image_correction/curves`, the "
 "line will change."
 msgstr ""
+"Om dat laatste een beetje meer in detail uit te leggen: Een zwart/wit "
+"verloop toont een lijn van linksonder naar rechtsboven golfvorm. Bij het "
+"wijzigen van de kleuren, b.v. met het :doc:`/effects_and_compositions/"
+"video_effects/color_image_correction/sat` effect of met :doc:`/"
+"effects_and_compositions/video_effects/color_image_correction/curves`, dan "
+"zal de lijn veranderen."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:210
 msgid ""
@@ -498,21 +524,14 @@ msgstr ""
 "verloop!"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:218
-#, fuzzy
-#| msgid "Playing with the :ref:`effects-sop_sat` and a gradient"
 msgid ""
 "Playing with the :doc:`/effects_and_compositions/video_effects/"
 "color_image_correction/sat` and a gradient"
-msgstr "Spelen met het :ref:`effects-sop_sat` en een kleurverloop "
+msgstr ""
+"Spelen met het :doc:`/effects_and_compositions/video_effects/"
+"color_image_correction/sat` en een kleurverloop "
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:220
-#, fuzzy
-#| msgid ""
-#| "In this gradient above a :ref:`SOP/Sat <effects-sop_sat>` effect was "
-#| "applied to give the blacks a blueish touch and the mids and highs a warm "
-#| "touch. You can play around with the gradient file and some color "
-#| "correction effects on the gradient file as well. What the above is good "
-#| "for will be in the next part."
 msgid ""
 "In this gradient above a :doc:`/effects_and_compositions/video_effects/"
 "color_image_correction/sat` effect was applied to give the blacks a blueish "
@@ -520,11 +539,12 @@ msgid ""
 "gradient file and some color correction effects on the gradient file as "
 "well. What the above is good for will be in the next part."
 msgstr ""
-"In dit kleurverloop is hierboven een effect :ref:`SOP/Sat <effects-sop_sat>` "
-"toegepast om de zwarten een blauwachtige toon te geven en de middens en "
-"hogere een warme toon. U kunt spelen met het kleurverloopbestand en ook "
-"enige kleurcorrectie-effecten doen op het kleurverloopbestand. Waar het "
-"bovenstaande goed voor is zal in het volgende deel zijn."
+"In dit kleurverloop is hierboven een effect :doc:`/effects_and_compositions/"
+"video_effects/color_image_correction/sat` toegepast om de zwarten een "
+"blauwachtige toon te geven en de middens en hogere een warme toon. U kunt "
+"spelen met het kleurverloopbestand en ook enige kleurcorrectie-effecten doen "
+"op het kleurverloopbestand. Waar het bovenstaande goed voor is zal in het "
+"volgende deel zijn."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:224
 msgid "Summary"
@@ -556,36 +576,48 @@ msgid ""
 ":download:`windy-sunset.avi <http://granjow.net/uploads/kdenlive/samples/"
 "windy-sunset.avi>` (22 MB; 720/24p)"
 msgstr ""
+":download:`windy-sunset.avi <http://granjow.net/uploads/kdenlive/samples/"
+"windy-sunset.avi>`_ ( MB; 720/24p)"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:253
 msgid ""
 ":download:`fluorescent-wrong-whitebalance.avi <http://granjow.net/uploads/"
 "kdenlive/samples/fluorescent-wrong-whitebalance.avi>` (22 MB; 720/24p)"
 msgstr ""
+":download:`fluorescent-wrong-whitebalance.avi <http://granjow.net/uploads/"
+"kdenlive/samples/fluorescent-wrong-whitebalance.avi>` (22 MB; 720/24p)"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:254
 msgid ""
 ":download:`red-leaf-tips.avi <http://granjow.net/uploads/kdenlive/samples/"
 "red-leaf-tips.avi>` (13.5 MB; 720/24p)"
 msgstr ""
+":download:`red-leaf-tips.avi <http://granjow.net/uploads/kdenlive/samples/"
+"red-leaf-tips.avi>` (13.5 MB; 720/24p)"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:255
 msgid ""
 ":download:`highkey.avi <http://granjow.net/uploads/kdenlive/samples/highkey."
 "avi>` (13 MB; 720/24p)"
 msgstr ""
+":download:`highkey.avi <http://granjow.net/uploads/kdenlive/samples/highkey."
+"avi>` (13 MB; 720/24p)"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:256
 msgid ""
 ":download:`Gradient_1080.png <http://granjow.net/uploads/kdenlive/samples/"
 "Gradient_1080.png>` (10 kB, 1920x1080)"
 msgstr ""
+":download:`Gradient_1080.png <http://granjow.net/uploads/kdenlive/samples/"
+"Gradient_1080.png>` (10 kB, 1920x1080)"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:258
 msgid ""
 "Depending on your browser settings you may get an error that the file "
 "download is insecure."
 msgstr ""
+"Afhankelijk van de instellingen in uw browser kunt u een foutmelding krijgen "
+"dat het bestand dat u wilt downloaden onveilig is."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:260
 msgid "**Sources**"
@@ -598,15 +630,19 @@ msgid ""
 "documentation it has been lifted from |web_archive| and adapted to match the "
 "overall style."
 msgstr ""
+"De originele tekst was ingediend door *Simon A. Eugster (Granjow)* op "
+"dinsdag, 09/14/2010 - 15:01 bij het nu niet meer werkende kdenlive.org blog. "
+"Voor deze documentatie is het gedownload van het |web_archive| en aangepast "
+"om het met de algemene stijl overeen te laten komen."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:264
 msgid "See this tutorial about |posterization| from |cambridge_in_colour|"
-msgstr ""
+msgstr "Zie deze instructie over |posterization| van |cambridge_in_colour|"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:265
 msgid "For more details see the Wikipedia page about |red|"
-msgstr ""
+msgstr "Voor meer informatie gaat u naar de Wikipedia pagina over |red|"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:266
 msgid "See this tutorial about |bit_depth| from |cambridge_in_colour|"
-msgstr ""
+msgstr "Zie deze instructie over |bit_depth| van |cambridge_in_colour|"

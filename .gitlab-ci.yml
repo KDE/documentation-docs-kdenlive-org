@@ -10,15 +10,11 @@ include:
 
 variables:
     EPUB_NAME: KdenliveManual
-    WEBSITE_DOMAIN: docs.kdenlive.org
+    WEBSITE_LANGUAGES: en de fr nl es uk_UA zh_CN zh_TW ja ko ca it sl cs pl
 
 run_tests:
   stage: test
   image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
-  only:
-    - branches
-    - merge_requests
-    - tags
   tags:
     - Linux
   script:

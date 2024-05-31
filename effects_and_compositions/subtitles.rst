@@ -32,13 +32,19 @@ Subtitles
 
 .. .. versionadded:: 20.12.0
 
-The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the new subtitle window. You can also import (**SRT**/**ASS**) and export (**SRT**) subtitles.
+The subtitling tool allows you to add and edit subtitles directly in the timeline on a special subtitle track or by using the :ref:`subtitle-window`. You can also import (**SRT**/**ASS**) and export (**SRT**) subtitles.
+
+.. .. versionadded:: 24.02
+
+Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle track is displayed at a time). You can create, duplicate, and delete subtitle tracks with the :ref:`subtitle-manager`.
+
+
 
 .. image:: /images/subtitle-timeline-1.gif
    :alt: subtitle
 
-Three ways to add subtitle
---------------------------
+Four ways to add subtitle
+-------------------------
 
 * **Menu**
 
@@ -53,6 +59,10 @@ Three ways to add subtitle
   * Click :guilabel:`Add Subtitle` icon in the :ref:`timeline_toolbar` to open the subtitle track in the timeline.
   * Double-click in the subtitle track to add a subtitle.
   * Click :guilabel:`Add Subtitle` in the :ref:`timeline ruler <timeline_ruler>` context menu.
+
+* **Import**
+
+  * Import subtitles with the :ref:`import function <subtitle-import_export>`.
 
 Adding and editing text
 -----------------------
@@ -75,15 +85,19 @@ Split subtitle after first line
 
 With this feature, you can cut the selected subtitle with the Razor Tool after the first line of the current track position. The first line becomes the left subtitle before the track position, and the rest becomes the right subtitle after the track position. It then selects the right-hand subtitle.
 
-.. image:: /images/subtitle-split_at_line.png
+.. figure:: /images/subtitle-split_at_line.png
    :scale: 75%
    :alt: subtitle split at line
 
+   Subtitle split after first line or duplicate text
+
 To enable this feature go to :menuselection:`Menu --> Settings --> Configure Kdenlive... --> Tools` switch to :guilabel:`Split after first line`
 
-.. image:: /images/subtitle-split_with_razor-tool.png
+.. figure:: /images/subtitle-split_with_razor-tool.png
    :scale: 75%
    :alt: subtitle split with Razor-Tool
+
+   Subtitle split with Razor-Tool
 
 Select the subtitle in the timeline that contains two lines. Click on the subtitle with the Razor-Tool :kbd:`X`.
 
@@ -99,11 +113,15 @@ This makes it easier to split up subtitles, where you have a transcription with 
 
 2. You are adding subtitles to a song that you have the lyrics for
 
+.. _subtitle-window:
+
 Subtitle window
 ---------------
 
-.. image:: /images/subtitle-widget.gif
+.. figure:: /images/subtitle-widget.gif
    :alt: subtitle window
+
+   Subtitle window
 
 * The subtitles window allows easier editing and also makes it possible to easily navigate between subtitles with the :guilabel:`<` and :guilabel:`>` buttons
 
@@ -138,21 +156,18 @@ Style subtitle
 --------------
 
 .. .. versionadded:: 22.08
+.. .. versionchanged:: 24.05
 
-.. image:: /images/subtitle-style.png
+.. figure:: /images/kdenlive2405_subtitle-style.webp
    :alt: subtitle style
 
 This is a global, simple subtitle styling possibility. It only allows one style for all subtitles of the project. Accessible through the "T drop" icon in the subtitle edit widget.
 
 .. tip::
 
-  **SRT** supports markup for: bold, italic, underline, text color and line break.
+  **SRT** supports markup for: underline and line break.
 
-  * ``<b>text in boldface</b>``
-  * ``<i>text in italics</i>``
   * ``<u>text underlined</u>``
-  * ``<font color="#00ff00"> text in green</font>`` you can use the font tag only to change color.
-  * And all combined: ``<font color="#00ff00"><b><i><u>All combined</u></i></b></font>``
   * **Line break:** Add on the end of each line a ``<br>`` (for break). Now the :file:`.srt` file is stored correct and reopened with the line break. The subtitle in the subtitle window will be all in 1 line after several save but the breaks is working.
 
   :kbd:`Alt+Arrow` jumps from subtitle to subtitle.
@@ -173,11 +188,15 @@ Exporting **SRT** subtitles only: :menuselection:`Menu --> Project --> Subtitles
 
 .. .. versionadded:: 23.04
 
-.. image:: /images/import_subtitle_23-04.png
+.. figure:: /images/kdenlive2402_import_subtitle.webp
    :scale: 75%
    :alt: import_subtitle_23-04
 
-Allow overriding of detected codecs through a list of available codecs, and show a preview to make choice easier.
+:guilabel:`Encoding`: Allow overriding of detected codecs through a list of available codecs, and show a preview to make choice easier.
+
+.. .. versionadded:: 24.02
+
+:guilabel:`Create New Subtitle Track`: Importing an .srt file in the project, you can create a new subtitle track (an entry in the subtitles combo list) instead of overwriting the current subtitle track.
 
 
 .. _subtitle-spell_check:
@@ -189,6 +208,38 @@ Spell check
 
 A spell check for subtitle is integrated and shows incorrect words by a red wiggly line. Right-click on the word and you get a list of possible words you can then choose by clicking on it.
 
-.. image:: /images/Speech-to-text_Spell-Check.png
+.. figure:: /images/Speech-to-text_Spell-Check.png
    :align: left
    :alt: Spell check
+
+.. rst-class:: clear-both
+
+
+.. _subtitle-manager:
+
+Subtitle manager
+----------------
+
+.. .. versionadded:: 24.02
+
+You can create, duplicate, and delete subtitle tracks with the subtitle manager: :menuselection:`Menu --> Project --> Subtitles --> Manage Subtitles` or on the timeline as drop-down menu in the subtitle track.
+
+.. figure:: /images/kdenlive2402_drop-down_subtitle-manager.webp
+   :align: left
+   :alt: drop down menu to the subtitle manager
+
+   Open the subtitle manager from the drop down menu 
+
+.. figure:: /images/kdenlive2402_subtitle-manager.webp
+   :align: left
+   :alt: Spell check
+
+   Subtitle manager with 2 subtitle tracks 
+
+.. rst-class:: clear-both
+
+Click on |application-menu|:guilabel:`Options` and select :guilabel:`Import Subtitle` or :guilabel:`Export Subtitle` to reach :ref:`subtitle-import_export`. 
+
+Only one subtitle can be active. So, rendering will always render using the active subtitle only. 
+
+

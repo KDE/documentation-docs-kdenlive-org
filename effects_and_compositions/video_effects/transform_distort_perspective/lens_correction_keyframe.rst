@@ -75,7 +75,7 @@ See :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/
    * - Center Correction
      - Integer
      - Set correction near the center
-   * - Edges Correction*
+   * - Edges Correction
      - Integer
      - Set correction near the edges
    * - Brightness

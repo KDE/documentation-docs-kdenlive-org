@@ -143,7 +143,7 @@ Guides View
 
 3. Sort by categories, time, comment or descending.
 
-4. Click on a guide/marker will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click on a guide/marker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
+4. Click on a guide/marker or :kbd:`arrow-up arrow-down` will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click or :kbd:`F2` on a guide/marker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
 
 5. Add a guide/marker. Only here you have the possibility to add multiple guides/markers with an interval.
 

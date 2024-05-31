@@ -1,0 +1,133 @@
+# Spanish translations for docs_kdenlive_org_more_information___earlier_versions___rendering_audio_track_automatically.po package.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Automatically generated, 2024.
+#
+# Gabriel Gazzán <gabcorreo@gmail.com>, %Y.
+# SPDX-FileCopyrightText: 2024 Eloy Cuadra <ecuadra@eloihr.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_more_information___earlier_versions___rendering_audio_track_automatically\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-05 12:20+0000\n"
+"PO-Revision-Date: 2024-02-01 01:46+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:1
+msgid ""
+"The Kdenlive User Manual - Notes for Earlier Versions - Rendering Audio "
+"Track Automatically"
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, learn, easy, rendering audio track automatically"
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:30
+msgid ""
+"This page is not maintained anymore and contains information referring to "
+"features or functions from earlier versions of Kdenlive that are deprecated "
+"or have been superseded by something else."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:33
+msgid "Rendering Audio Track Automatically"
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:35
+msgid ""
+"Admittedly, this is an unusual one. Instead of a normal on/off checkbox "
+"toggle, the :guilabel:`Export Audio` checkbox cycles among three choices."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:37
+msgid ""
+"As if that weren't confusing enough, the :guilabel:`Export audio "
+"(automatic)` option may appear different depending on your combination of "
+"distribution, desktop environment and theme. See three examples below."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:39
+msgid ""
+"Regardless of how the checkbox on the :guilabel:`Export audio (automatic)` "
+"option may appear on your installation, rest assured that when that option "
+"is showing, it is enabled."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:41
+msgid "So what do the three options mean?"
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:47
+msgid ""
+"*Export audio (automatic)* means detect if an audio track is present and "
+"write the audio track if found"
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:55
+msgid ""
+"*Export audio*, when checked, means write an audio track in the rendered "
+"file even if there is no audio track to write."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:63
+msgid ""
+"*Export audio*, when unchecked, means do not write an audio track in the "
+"rendered file."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:67
+msgid ""
+"The difference in behavior between enabling *Export audio* versus *Export "
+"audio (automatic)* can be seen in the situation where you have a video on "
+"the timeline but there is no audio track on the timeline and the video in "
+"the video track also does not have an audio track. An example of such a "
+"situation is shown in the screenshot below."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:72
+msgid ""
+"In this situation, if you render with *Export audio (automatic)*, the "
+"rendered file will not have an audio track (Result 1 on screenshot below). "
+"But if you render with *Export Audio* checked, then the rendered file will "
+"contain an audio track – the track will however be empty (Result 2 on "
+"screenshot below)."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:77
+msgid ""
+"FFprobe on file generated from an audio-less track using *Export audio "
+"(automatic)*. Note only one stream – Stream #0.0 – a video stream. "
+"**Kdenlive** automatically detected there was not an audio track and so it "
+"did not write one."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:93
+msgid ""
+"FFprobe on file generated from an audio-less track using *Export audio* "
+"checked. Note two streams – Stream #0.0 and Stream #0.1 – the latter being "
+"an aac audio track. We forced **Kdenlive** to write an audio track even "
+"though there was not any source audio to write."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:111
+msgid "In cases where there is an audio track ..."
+msgstr ""
+
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:117
+msgid ""
+"Rendering with :guilabel:`Export audio` unchecked will produce a file with "
+"no audio track – result 4 in the screenshot above. Rendering with :guilabel:"
+"`Export audio (automatic)` (result 3 in the screenshot above) or with "
+"*Export audio* checked will produce files with Audio tracks."
+msgstr ""

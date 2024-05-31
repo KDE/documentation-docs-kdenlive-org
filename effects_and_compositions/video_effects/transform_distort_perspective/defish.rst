@@ -219,7 +219,7 @@ The following selection items are available:
    * - Manual Scale
      - 191
 
- For an effect, reminiscent of some scenes from the "2001 Space Odyssey" movie try this:
+ For an effect reminiscent of some scenes from the "2001 Space Odyssey" movie try this:
 
  .. list-table::
    :width: 100%

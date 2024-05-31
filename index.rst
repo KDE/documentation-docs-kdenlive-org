@@ -18,7 +18,7 @@ Welcome to the manual for `Kdenlive <https://kdenlive.org>`_, the free and open 
 
 The current Kdenlive version you get `here <https://kdenlive.org/download/>`_ . Check out :doc:`what's new </more_information/whats_new>`.
 
-You can download this manual as an `EPUB <https://docs.kdenlive.org/en/epub/KdenliveManual.epub>`_.
+You can download this manual as an `EPUB <https://docs.kdenlive.org/epub/KdenliveManual.epub>`_.
 
 ###############
 Getting started

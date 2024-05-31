@@ -64,7 +64,7 @@ This filter modifies the image's alpha channel as a function of its :term:`luma`
      - Luma value that defines the center point of transition from prelevel to postlevel opacity value.
    * - Slope
      - Integer
-     - Defines the width of the transition from prelevel to postlevel luma value. Start point of transition in opacity value is `threshold - slope` and end point is `thresholt + slope`, values are forced in range 0 - 255.
+     - Defines the width of the transition from prelevel to postlevel luma value. Start point of transition in opacity value is `threshold - slope` and end point is `threshold + slope`, values are forced in range 0 - 255.
    * - Pre-Threshold Luma Level
      - Integer
      - Opacity value before the transition in opacity value begins

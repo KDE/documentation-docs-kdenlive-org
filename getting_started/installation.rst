@@ -215,6 +215,23 @@ The Finder opens. Now right click on *Kdenlive* and choose :guilabel:`Open`.
 
 The message that Apple can't search for malware will appear again. Just click on :guilabel:`Open` and Kdenlive will open up.
 
+
+.. _automatically_check_for_updates:
+
+Automatically check for updates
+-------------------------------
+
+.. .. .. versionadded:: 24.02
+
+Kdenlive automatically check at startup for updates based on the app version (no network connection)
+
+.. figure:: /images/getting_started/kdenlive2402_check-for-update.webp
+   :width: 80%
+   :alt: kdenlive2402_check-for-update
+
+You can disable this function in :menuselection:`Settings --> Configure Kdenlive` under :ref:`configure_environment` see :guilabel:`Check for updates`. 
+
+
 .. _configuration:
 
 Configuration Information
@@ -256,8 +273,8 @@ Kdenlive's application-wide persistent settings are stored in the following loca
    * - :file:`~/.config/kdenlive-layoutsrc`
      - :file:`%LocalAppData%\\kdenlive-layoutsrc` 
      - contains the layout settings
-   * - :file:`~/.local/share/kxmlgui5/kdenlive/ kdenliveui.rc`
-     - :file:`%LocalAppData%\\kxmlgui5\kdenlive\\ kdenliveui.rc`
+   * - :file:`~/.local/share/kxmlgui5/kdenlive/kdenliveui.rc`
+     - :file:`%LocalAppData%\\kxmlgui5\kdenlive\\kdenliveui.rc`
      - contains UI configuration, if your UI is broken, delete this file
    * - :file:`~/.local/share/knewstuff3`
      - :file:`%LocalAppData%\\knewstuff3` 
@@ -268,7 +285,12 @@ Kdenlive's application-wide persistent settings are stored in the following loca
    * - :file:`~/.local/share/kdenlive/opencvmodels`
      - :file:`%AppData%\\kdenlive\\opencvmodels`
      - contains the OpenCV models downloaded 
-
+   * - :file:`~/.local/share/kdenlive/venv`
+     - :file:`%LocalAppData%\\kdenlive\\venv`
+     - contains the Python virtual environment (venv)
+   * - :file:`$HOME/.cache/hugginface`
+     - :file:`C:\\Users\\<username>\\.cache\\huggingface`
+     - contains the SeamlessM4T models for Whisper  
 
    
 Windows

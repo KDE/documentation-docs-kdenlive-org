@@ -115,6 +115,8 @@ In the example below a `.png` image has been overlayed to a video clip and the A
 
    Alpha Gradient effect - after
 
+.. rst-class:: clear-both
+
 
 ----
 

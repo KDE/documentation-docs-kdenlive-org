@@ -19,6 +19,7 @@ Using Camera Proxy Clips
 
 .. .. versionadded:: 19.04
    .. versionchanged:: 23.08
+   .. versionchanged:: 24.05
 
 Kdenlive supports using external proxy clips. Some cameras, like Sony PXW-X70 and others allow you to record proxy clips during the normal recording operation.
 
@@ -34,7 +35,9 @@ For example:
 **Proxy:**
    Sub/Clip0001S03.MP4
 
-In Kdenlive we have a file called :file:`externalproxies.rc` that will be installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies.rc`). This is a text file that lists supported camera profiles giving indication about the path and name of proxy clips. This is currently in the form:
+You can create your own external camcorder proxy links directly in the :ref:`proxy clip setup <configure_proxy_clips>`.
+
+Or you can do it manually: In Kdenlive we have a file called :file:`externalproxies.rc` that will be installed in :code:`$INSTALL_PREFIX/share/kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/kdenlive/externalproxies.rc`). This is a text file that lists supported camera profiles giving indication about the path and name of proxy clips. This is currently in the form:
 
 .. code-block:: cfg
 
@@ -48,6 +51,7 @@ Following camera proxies are supported:
    GoPro LRV=./;GL;.LRV;./;GX;.MP4;./;GP;.LRV;./;GP;.MP4;./;GOPR;.LRV;./;GOPR;.MP4
    Akaso LRV=./;;.LRV;./;;.MP4
    DJI LRF=./;;.LRF;./;;.MP4
+   Insta360 AcePro LRV=./;LRV;.lrv;./;VID;.mp4;./;PRO_LRV;.lrv;./;PRO_VID;.mp4
 
 
 In order to use the already available proxy files go to the project settings, and in the tab :ref:`configure_proxy_clips` check :guilabel:`Enable proxy clips` if not enabled already, and then check :guilabel:`External proxy clips` and select your camera profile. Now when you add a clip to your project, Kdenlive will automatically use the camera generated proxy instead of creating a new one. You can also directly add the proxy clip in the project and it will be recognized as a proxy.

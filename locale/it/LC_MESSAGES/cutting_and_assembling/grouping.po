@@ -1,27 +1,40 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-# Paolo Zamponi <feus73@gmail.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2022-02-22 14:22+0100\n"
-"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
+"POT-Creation-Date: 2024-05-27 01:41+0000\n"
+"PO-Revision-Date: 2024-04-25 18:13+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 21.12.2\n"
+"X-Generator: Lokalize 24.02.2\n"
 
-#: ../../cutting_and_assembling/grouping.rst:16
+#: ../../cutting_and_assembling/grouping.rst:1
+msgid "Timeline, central part of Kdenlive video editor"
+msgstr "Linea temporale, la parte centrale dell'editor video Kdenlive"
+
+#: ../../cutting_and_assembling/grouping.rst:1
+msgid ""
+"KDE, Kdenlive, timeline, track, group clips, edit grouped clips, working, "
+"documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, linea temporale, raggruppare le clip, modificare le clip "
+"raggruppate, lavoro, documentazione, manuale utente, editor video, open "
+"source, libero, impara, facile"
+
+#: ../../cutting_and_assembling/grouping.rst:22
 msgid "Grouping"
 msgstr "Raggruppamento"
 
-#: ../../cutting_and_assembling/grouping.rst:19
+#: ../../cutting_and_assembling/grouping.rst:25
 msgid ""
 "Grouping clips allows you to lock clips together so that you can move them "
 "as a group and still retain their positions relative to each element in the "
@@ -31,11 +44,11 @@ msgstr ""
 "quindi spostarle come un gruppo, conservando le posizioni relative verso "
 "ciascun elemento del gruppo."
 
-#: ../../cutting_and_assembling/grouping.rst:24
-msgid "How to Group Clips"
+#: ../../cutting_and_assembling/grouping.rst:30
+msgid "How to group clips"
 msgstr "Come raggruppare le clip"
 
-#: ../../cutting_and_assembling/grouping.rst:26
+#: ../../cutting_and_assembling/grouping.rst:32
 msgid ""
 "You can select multiple clips in preparation for grouping them by holding "
 "shift and clicking the mouse and dragging in the timeline."
@@ -43,20 +56,48 @@ msgstr ""
 "Puoi selezionare più clip che vuoi preparare per raggruppare tenendo premuto "
 "Maiusc, quindi fai clic col mouse e trascinale nella linea temporale."
 
-#: ../../cutting_and_assembling/grouping.rst:34
+#: ../../cutting_and_assembling/grouping.rst:40
 msgid ""
 "To group the selected clips select :menuselection:`Timeline --> Group Clips` "
-"or right-click the selected clips and choose :menuselection:`Group Clips`."
+"or right-click the selected clips and choose :menuselection:`Group Clips` or "
+"use the shortcut :kbd:`Ctrl+G`."
 msgstr ""
 "Per raggruppare le clip selezionate, seleziona :menuselection:`Linea "
-"temporale --> Raggruppa clip`, oppure fai clic col tasto destro sulle clip "
-"selezionate e scegli :menuselection:`Raggruppa clip`."
+"temporale --> Raggruppa clip`, o fai clic col tasto destro sulle clip "
+"selezionate e scegli :menuselection:`Raggruppa clip`, oppure puoi usare la "
+"scorciatoia :kbd:`Ctrl+G`."
 
-#: ../../cutting_and_assembling/grouping.rst:39
-msgid "Cutting Grouped Clips"
+#: ../../cutting_and_assembling/grouping.rst:42
+msgid ""
+"Once grouped together a click on one of the grouped clips selects the entire "
+"group."
+msgstr ""
+
+#: ../../cutting_and_assembling/grouping.rst:52
+msgid "Edit grouped clips"
+msgstr "Modifica le clip raggruppate"
+
+#: ../../cutting_and_assembling/grouping.rst:54
+msgid ""
+"Select an item in a group with :kbd:`Alt+click` and it gets a red border. "
+"You can then perform on that clip following operations:"
+msgstr ""
+"Seleziona un elemento in un gruppo con :kbd:`Alt+clic` e avrà un bordo "
+"rosso. Puoi quindi eseguire le seguenti operazioni:"
+
+#: ../../cutting_and_assembling/grouping.rst:56
+msgid "delete (hit :kbd:`del`)"
+msgstr "eliminare (premi :kbd:`del`)"
+
+#: ../../cutting_and_assembling/grouping.rst:57
+msgid "move (drag with the mouse)"
+msgstr "spostare (trascina col mouse)"
+
+#: ../../cutting_and_assembling/grouping.rst:64
+msgid "Cutting grouped clips"
 msgstr "Tagliare le clip raggruppate"
 
-#: ../../cutting_and_assembling/grouping.rst:41
+#: ../../cutting_and_assembling/grouping.rst:66
 msgid ""
 "Grouping is also useful if you have separate audio and video tracks and need "
 "to cut and splice both tracks at exactly the same point (e.g. for audio sync "
@@ -66,7 +107,7 @@ msgstr ""
 "devi tagliare o unire entrambe le tracce esattamente nello stesso punto (ad "
 "esempio per motivi di sincronizzazione)."
 
-#: ../../cutting_and_assembling/grouping.rst:44
+#: ../../cutting_and_assembling/grouping.rst:69
 msgid ""
 "If you cut the video clip using the :ref:`editing` when there is an audio "
 "clip grouped to it, then **Kdenlive** cuts the audio clip at the same point "
@@ -76,60 +117,109 @@ msgstr ""
 "raggruppata ad essa, **Kdenlive** taglierà automaticamente la clip audio "
 "nello stesso punto."
 
-#: ../../cutting_and_assembling/grouping.rst:65
-msgid "Removing Clip Grouping"
+#: ../../cutting_and_assembling/grouping.rst:92
+#, fuzzy
+#| msgid "Edit grouped clips"
+msgid "Effects on grouped clips"
+msgstr "Modifica le clip raggruppate"
+
+#: ../../cutting_and_assembling/grouping.rst:98
+msgid ""
+"When :guilabel:`Apply effect change to all clips in the group` is enabled, "
+"adjusting a parameter for an effect will apply it to all items in the group "
+"which have this effect too."
+msgstr ""
+
+#: ../../cutting_and_assembling/grouping.rst:100
+msgid ""
+"When enabled, an orange number appears next to the effect name to indicate "
+"how many effects are found in the group and will be affected by a change of "
+"parameters."
+msgstr ""
+
+#: ../../cutting_and_assembling/grouping.rst:102
+msgid "Deleting an effect will delete it on all clips in the group."
+msgstr ""
+
+#: ../../cutting_and_assembling/grouping.rst:110
+msgid ""
+"When :guilabel:`Apply only to effects with the same value` is enabled, only "
+"change effects that have the same parameter value."
+msgstr ""
+
+#: ../../cutting_and_assembling/grouping.rst:115
+msgid "Removing clip grouping"
 msgstr "Rimuovere il raggruppamento delle clip"
 
-#: ../../cutting_and_assembling/grouping.rst:67
+#: ../../cutting_and_assembling/grouping.rst:117
 msgid ""
 "To remove the grouping on clips, select the group of clips and choose :"
-"menuselection:`Timeline --> Ungroup Clips`."
+"menuselection:`Timeline --> Ungroup Clips` or right-click the selected clips "
+"and choose :menuselection:`Ungroup Clips` or use the shortcut :kbd:`Ctrl"
+"+Shift+G`."
 msgstr ""
-"Per rimuovere il raggruppamento delle clip, seleziona il gruppo di clip, poi "
-"scegli :menuselection:`Linea temporale --> Separa gruppo di clip`."
+"Per rimuovere il raggruppamento alle clip, seleziona il gruppo di clip, poi "
+"scegli :menuselection:`Linea temporale --> Separa gruppo di clip`, oppure "
+"fai clic col tasto destro sulle clip selezionate e scegli :menuselection:"
+"`Separa gruppo di clip`, o infine usa la scorciatoia :kbd:`Ctrl+Maiusc+G`."
 
-#: ../../cutting_and_assembling/grouping.rst:71
+#: ../../cutting_and_assembling/grouping.rst:121
 msgid "FAQ"
 msgstr "Domande ricorrenti"
 
-#: ../../cutting_and_assembling/grouping.rst:73
-msgid "Q: How to delete sound track only?"
+#: ../../cutting_and_assembling/grouping.rst:123
+#, fuzzy
+#| msgid "Q: How to delete sound track only?"
+msgid "Q: How to delete the audio part of a clip?"
 msgstr "D: come posso eliminare solamente la traccia audio?"
 
-#: ../../cutting_and_assembling/grouping.rst:75
+#: ../../cutting_and_assembling/grouping.rst:125
+#, fuzzy
+#| msgid ""
+#| "A: Right-click on the clip and choose :menuselection:`Split Audio`. The "
+#| "audio will move to an audio track but be grouped with the video track."
 msgid ""
-"A: Right-click on the clip and choose :menuselection:`Split Audio`. The "
-"audio will move to an audio track but be grouped with the video track."
+"A: Right-click on the clip and choose :menuselection:`Ungroup Clips`. Then "
+"you can delete just the audio part of the clip."
 msgstr ""
 "R: tasto destro sulla clip, poi scegli :menuselection:`Separa audio`: "
 "l'audio si sposterà in una traccia audio, ma raggruppata a quella video."
 
-#: ../../cutting_and_assembling/grouping.rst:81
-msgid "Right-click again and choose :menuselection:`Ungroup Clips`."
-msgstr ""
-"Premi di nuovo il tasto destro, poi scegli :menuselection:`Separa gruppo di "
-"clip`."
-
-#: ../../cutting_and_assembling/grouping.rst:83
-msgid "Then you can delete just the audio track."
-msgstr "Adesso puoi eliminare solamente la traccia audio."
-
-#: ../../cutting_and_assembling/grouping.rst:85
+#: ../../cutting_and_assembling/grouping.rst:131
+#, fuzzy
+#| msgid ""
+#| "Alternatively you can keep the audio in the clip and use the :"
+#| "menuselection:`Audio Correction --> Mute` effect to just mute the "
+#| "soundtrack on the clip."
 msgid ""
-"Alternatively you can keep the audio in the clip and use the :menuselection:"
-"`Audio Correction --> Mute` effect to just mute the soundtrack on the clip."
+"Alternatively you can keep the audio in the clip and use the :guilabel:"
+"`Mute` effect to just mute the audio on the clip."
 msgstr ""
 "In alternativa puoi mantenere l'audio nella clip, utilizzando l'effetto :"
 "menuselection:`Correzione audio --> Silenzia` per silenziare l'audio della "
 "clip."
 
-#: ../../cutting_and_assembling/grouping.rst:87
-msgid ""
-"Yet another method is to select :menuselection:`Video only` from the :ref:"
-"`clip_menu`."
-msgstr ""
-"Un altro metodo consiste nel selezionare :menuselection:`Solo video` dal :"
-"ref:`clip_menu`."
+#~ msgid "Right-click again and choose :menuselection:`Ungroup Clips`."
+#~ msgstr ""
+#~ "Premi di nuovo il tasto destro, poi scegli :menuselection:`Separa gruppo "
+#~ "di clip`."
+
+#~ msgid "Then you can delete just the audio track."
+#~ msgstr "Adesso puoi eliminare solamente la traccia audio."
+
+#~ msgid ""
+#~ "Yet another method is to select :menuselection:`Video only` from the :ref:"
+#~ "`clip_menu`."
+#~ msgstr ""
+#~ "Un altro metodo consiste nel selezionare :menuselection:`Solo video` dal :"
+#~ "ref:`clip_menu`."
+
+#~ msgid ""
+#~ "To remove the grouping on clips, select the group of clips and choose :"
+#~ "menuselection:`Timeline --> Ungroup Clips`."
+#~ msgstr ""
+#~ "Per rimuovere il raggruppamento delle clip, seleziona il gruppo di clip, "
+#~ "poi scegli :menuselection:`Linea temporale --> Separa gruppo di clip`."
 
 #~ msgid "Contents"
 #~ msgstr "Contenuto"

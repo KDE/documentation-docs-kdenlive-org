@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Transparency
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha, mask, keying, tansparency
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha, mask, keying, transparency
 
 .. metadata-placeholder
 

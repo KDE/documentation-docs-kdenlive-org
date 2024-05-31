@@ -28,11 +28,11 @@
 Clip Monitor
 ------------
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitors_cm_elements.webp
+.. figure:: /images/user_interface/kdenlive2402_ui-monitors_cm_elements.webp
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_ui-monitors_cm_elements
+   :alt: kdenlive2402_ui-monitors_cm_elements
 
    Clip Monitor elements
 
@@ -41,10 +41,16 @@ The Clip Monitor displays the unedited\ [#f1]_ clip that is currently selected i
 |  1 Video Stream indicator
 |  2 Audio Stream indicator
 |  3 Clip Zone indicator
+|  4 List of last opened clips 
 
-For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual.
+.. .. .. versionadded:: 24.02
+  Item 4 added
 
 .. rst-class:: clear-both
+
+Number 4: Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor.
+
+For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual.
 
 
 .. _ui-monitors_clip_monitor_hamburger:
@@ -96,8 +102,9 @@ Zones are defined regions of clips that are indicated by a colored section in th
 Right-Click Menu
 ~~~~~~~~~~~~~~~~
 
+.. .. versionchanged:: 24.05
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitor_cm_right-click.webp
+.. figure:: /images/user_interface/kdenlive2405_ui-monitor_cm_right-click.webp
    :width: 350px
    :figwidth: 350px
    :align: left
@@ -121,11 +128,14 @@ These are the menu items that are available when you right-click in the Clip Mon
      - Shortcut
      - Description
    * - Play
-     -
-     - Plays the :term:`clip` currently selected in the :term:`project bin`
+     - :kbd:`Space` or click into the monitor
+     - Plays the :term:`clip` currently selected in the :term:`project bin`. (:ref:`Disable play on click in the settings <configure_playback>`)
    * - Play Zone
      - :kbd:`Ctrl+Space`
      - Plays the current :term:`zone` and stops
+   * - Play Zone From Cursor
+     - 
+     - Plays the current :term:`zone` from cursor to the end of the :term:`zone`
    * - Loop Zone
      - :kbd:`Ctrl+Shift+Space`
      - Plays the current :term:`zone` in a continuous loop

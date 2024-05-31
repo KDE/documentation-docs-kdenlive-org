@@ -202,6 +202,7 @@ General
        - Project Bin: on a clip shows properties
        - Project Bin: on an empty place opens `add clip or folder`
        - Timeline: on a clip shows duration
+       - Timeline: into an empty part of a track makes the track active
        - Monitor: opens monitor in a second monitor (if installed) in fullscreen mode
 
 
@@ -418,6 +419,9 @@ Timeline
      - Current selection
    * - Ungroup Clips
      - :kbd:`Ctrl+Shift+G`
+     - Current selection
+   * - Edit Grouped Clips
+     - :kbd:`Ctrl+click`
      - Current selection
    * - Cut All Clips
      - :kbd:`Ctrl+Shift+R`

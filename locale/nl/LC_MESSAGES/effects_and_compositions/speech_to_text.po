@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# SPDX-FileCopyrightText: 2021, 2022, 2023 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-10-02 10:21+0200\n"
+"POT-Creation-Date: 2024-05-28 01:38+0000\n"
+"PO-Revision-Date: 2024-05-30 21:45+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #: ../../effects_and_compositions/speech_to_text.rst:1
 msgid "The Kdenlive User Manual"
@@ -23,7 +23,8 @@ msgstr "De gebruikershandleiding voor Kdenlive"
 
 #: ../../effects_and_compositions/speech_to_text.rst:1
 msgid ""
-"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"KDE, Kdenlive, documentation, user manual, video editor, open source,"
+" free, "
 "help, speech to text, silence detection"
 msgstr ""
 "KDE, Kdenlive, documentatie, gebruikershandleiding, videobewerker, open-"
@@ -35,11 +36,14 @@ msgstr "Spraak naar tekst"
 
 #: ../../effects_and_compositions/speech_to_text.rst:33
 msgid ""
-"Speech to text does not work with version 21.04.2 due to `Vosk API <https://"
-"github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and "
+"Speech to text does not work with version 21.04.2 due to `Vosk API <"
+"https://"
+"github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3"
+" and "
 "later versions."
 msgstr ""
-"Spraak naar tekst werkt niet met versie 21.04.2 vanwege problemen met `Vosk "
+"Spraak naar tekst werkt niet met versie 21.04.2 vanwege problemen met"
+" `Vosk "
 "API <https://github.com/alphacep/vosk-api>`_. Gebruik versie 21.04.1 of "
 "21.04.3 en latere versies."
 
@@ -49,117 +53,212 @@ msgstr "Python installeren"
 
 #: ../../effects_and_compositions/speech_to_text.rst:42
 msgid ""
-"Python 3 needs to be installed on your computer as well as the vosk and srt "
-"python modules:"
+"Python 3 needs to be installed on your computer (details see below for"
+" Linux "
+"and Windows). Once Python is installed, :ref:`follow these steps "
+"<settings_environment_python>` to put Python into a virtual environment "
+"(afterwards Python is copied to the :file:`venv` folder)"
 msgstr ""
-"Python 3 moet geïnstalleerd zijn op uw computer evenals de python-modulen "
-"vosk en srt:"
+"Python 3 moet geïnstalleerd zijn op uw computer (details zie onderstaand "
+"voor Linux en Windows). Nadat Python is geïnstalleerd, :ref:`volg deze "
+"stappen <settings_environment_python>` om Python in een virtuele omgeving"
+" te "
+"zetten (daarna wordt Python gekopieerd nar de map :file:`venv`)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:45
+#: ../../effects_and_compositions/speech_to_text.rst:44
+msgid "**De-install Python**"
+msgstr "**Python installatie ongedaan maken**"
+
+#: ../../effects_and_compositions/speech_to_text.rst:46
+msgid ""
+"To remove the installed :file:`venv` package got to"
+" :menuselection:`Settings "
+"--> Kdenlive Settings --> Environment --> Python` and :guilabel:`Delete` :"
+"file:`venv`."
+msgstr ""
+"Om het geïnstalleerde pakket :file:`venv` te verwijderen ga naar :"
+"menuselection:`Instellingen --> Instellingen van Kdenlive --> Omgeving --"
+"> "
+"Python` en :guilabel:`Verwijderen` :file:`venv`."
+
+#: ../../effects_and_compositions/speech_to_text.rst:48
+msgid ""
+"It will completely remove the :file:`venv` folder with all installed "
+"packages. Note that this does not remove the downloaded models (vosk/"
+"whisper) that can still take quite some HD space"
+msgstr ""
+"Dit zal de map :file:`venv` volledig met alle geïnstalleerd pakketten "
+"verwijderen. Merk op dat dit niet de gedownloade modellen (vosk/whisper) "
+"verwijdert die nog steeds heel wat schijfruimte in kunnen nemen"
+
+#: ../../effects_and_compositions/speech_to_text.rst:51
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../effects_and_compositions/speech_to_text.rst:47
+#: ../../effects_and_compositions/speech_to_text.rst:53
 msgid ""
-"On most Linux distributions python is installed by default. You can check if "
+"On most Linux distributions python is installed by default. You can check"
+" if "
 "that is the case for you too by running ``python3 -V`` in a terminal. If "
-"python is missing just search the internet, there are lots of instructions "
+"python is missing just search the internet, there are lots of"
+" instructions "
 "around."
 msgstr ""
 "Op de meeste Linux distributies is python standaard geïnstalleerd. U kunt "
-"controleren of dat voor u het geval is door ``python3 -V`` in een terminal "
-"uit te voeren. Als python ontbreekt zoek dan op het internet, er zijn veel "
+"controleren of dat voor u het geval is door ``python3 -V`` in een"
+" terminal "
+"uit te voeren. Als python ontbreekt zoek dan op het internet, er zijn"
+" veel "
 "instructies beschikbaar."
 
-#: ../../effects_and_compositions/speech_to_text.rst:50
+#: ../../effects_and_compositions/speech_to_text.rst:56
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../effects_and_compositions/speech_to_text.rst:52
+#: ../../effects_and_compositions/speech_to_text.rst:58
 msgid ""
 "Download python from |python_download| for installation on your computer."
 msgstr ""
 "Download python vanaf |python_download| voor installatie op uw computer."
 
-#: ../../effects_and_compositions/speech_to_text.rst:58
+#: ../../effects_and_compositions/speech_to_text.rst:64
 msgid "Speech Engines"
 msgstr "Spraak-engines"
 
-#: ../../effects_and_compositions/speech_to_text.rst:61
+#: ../../effects_and_compositions/speech_to_text.rst:66
+msgid ""
+"To install the speech engines go to :menuselection:`Settings -->"
+" Configure "
+"Kdenlive --> Speech to Text`."
+msgstr ""
+"Om spraakengines te installeren ga naar :menuselection:`Instellingen --> "
+"Kdenlive configureren --> Spraak naar tekst`."
+
+#: ../../effects_and_compositions/speech_to_text.rst:69
 msgid "VOSK"
 msgstr "VOSK"
 
-#: ../../effects_and_compositions/speech_to_text.rst:63
-msgid "**Linux**"
-msgstr "**Linux**"
+#: ../../effects_and_compositions/speech_to_text.rst:86
+msgid "Vosk is not installed"
+msgstr "Vosk is niet geïnstalleerd"
 
-#: ../../effects_and_compositions/speech_to_text.rst:65
+#: ../../effects_and_compositions/speech_to_text.rst:90
 msgid ""
-"To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``"
+"When you switch to VOSK for the first time you have to install the"
+" missing "
+"dependencies first."
 msgstr ""
-"Om VOSK en srt te installeren, open een terminal en voer uit: ``pip3 install "
-"vosk pip3``"
+"Wanneer u de eerste keer omschakelt naar VOSK moet u de ontbrekende "
+"afhankelijkheden eerst installeren."
 
-#: ../../effects_and_compositions/speech_to_text.rst:67
-msgid "**Windows**"
-msgstr "**Windows**"
+#: ../../effects_and_compositions/speech_to_text.rst:92
+msgid "Path where VOSK is installed:"
+msgstr "Pad waar VOSK is geïnstalleerd:"
 
-#: ../../effects_and_compositions/speech_to_text.rst:69
+#: ../../effects_and_compositions/speech_to_text.rst:94
+#: ../../effects_and_compositions/speech_to_text.rst:175
+msgid "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
+msgstr "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:95
+#: ../../effects_and_compositions/speech_to_text.rst:176
+msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:97
 msgid ""
-"Download this batch file (:download:`Install_vosk_srt.zip </files/"
-"Install_vosk_srt.zip>`). After download a double click starts the "
-"installations."
+"If you have installed VOSK in an earlier Kdenlive version already and now "
+"you have chosen the :file:`venv` folder for Python, you can delete the"
+" past "
+"installed VOSK libraries by using following command in a console:"
+" :file:`pip "
+"uninstall vosk srt`"
 msgstr ""
-"Download dit batch-bestand (:download:`Install_vosk_srt.zip </files/"
-"Install_vosk_srt.zip>`). Na downloaden start dubbelklikken de installaties."
+"Als u VOSK al hebt geïnstalleerd in een eerdere versie van Kdenlive en nu"
+" de "
+"map :file:`venv` hebt gekozen voor Python, dan kunt u de eerder "
+"geïnstalleerde VOSK bibliotheken verwijderen met gebruik van het volgende "
+"commando in een console: :file:`pip uninstall vosk srt`"
 
-#: ../../effects_and_compositions/speech_to_text.rst:72
+#: ../../effects_and_compositions/speech_to_text.rst:100
 msgid "Install a Language"
 msgstr "Een taal installeren"
 
-#: ../../effects_and_compositions/speech_to_text.rst:74
+#: ../../effects_and_compositions/speech_to_text.rst:102
 msgid ""
-"Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
+"Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to"
+" Text "
 "page` and select the speech engine VOSK."
 msgstr ""
-"Ga naar :menuselection:`Instellingen --> Kdenlive configureren... --> Pagina "
+"Ga naar :menuselection:`Instellingen --> Kdenlive configureren... -->"
+" Pagina "
 "Spraak naar tekst` en selecteer de spraak-engine VOSK"
 
-#: ../../effects_and_compositions/speech_to_text.rst:76
-msgid "Click on the link to get a language model."
-msgstr "Klik op de koppeling om een taalmodel op te halen."
-
-#: ../../effects_and_compositions/speech_to_text.rst:81
+#: ../../effects_and_compositions/speech_to_text.rst:104
 msgid ""
-"Drag & drop the language you want from the vosk-model download page to the "
+"Click on the link :guilabel:`Download speech models from:` to get a"
+" language "
+"model."
+msgstr ""
+"Klik op de koppeling :guilabel:`Spraakmodellen downloaden uit:` om een "
+"taalmodel op te halen."
+
+#: ../../effects_and_compositions/speech_to_text.rst:114
+msgid ""
+"Drag & drop the language you want from the vosk-model download page to"
+" the "
 "model window, and it will download and extract it for you."
 msgstr ""
 "Sleep & laat de taal vallen die u wilt uit de downloadpagina van het vosk-"
-"model naar het modelvenster en het zal voor u gedownload en uitgepakt worden."
+"model naar het modelvenster en het zal voor u gedownload en uitgepakt"
+" worden."
 
-#: ../../effects_and_compositions/speech_to_text.rst:86
+#: ../../effects_and_compositions/speech_to_text.rst:124
 msgid ""
 "If you have problems or check for updates click on the :guilabel:`Check "
 "configuration` button."
 msgstr ""
-"Als u problemen hebt of op bijwerken controleert, klik op de knop :guilabel:"
+"Als u problemen hebt of op bijwerken controleert, klik op de knop"
+" :guilabel:"
 "`Configuratie controleren`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:90
+#: ../../effects_and_compositions/speech_to_text.rst:128
+msgid ""
+":guilabel:`Models folder` Show the size of the installed models. Click on "
+"the link opens the model folder."
+msgstr ""
+":guilabel:`Modellenmap` toon de grootte van de geïnstalleerde modellen. "
+"Klikken op de koppeling opent de modellenmap."
+
+#: ../../effects_and_compositions/speech_to_text.rst:130
+msgid "The VOSK speech models are stored here:"
+msgstr "De VOSK spraakmodellen zijn hier opgeslagen:"
+
+#: ../../effects_and_compositions/speech_to_text.rst:132
+msgid "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
+msgstr "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:134
+msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
+msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:137
 msgid "Whisper"
 msgstr "Fluisteren"
 
-#: ../../effects_and_compositions/speech_to_text.rst:98
+#: ../../effects_and_compositions/speech_to_text.rst:145
 msgid ""
-"OpenAI-Whisper is a speech recognition model for general use. It is trained "
+"OpenAI-Whisper is a speech recognition model for general use. It is"
+" trained "
 "on a large dataset of diverse audio and is capable of performing speech "
 "translation, and language identification."
 msgstr ""
-"OpenAI-Whisper is een spraakherkenningsmodel voor algemeen gebruik. Het is "
+"OpenAI-Whisper is een spraakherkenningsmodel voor algemeen gebruik. Het"
+" is "
 "getraind op een grote dataset met diverse audio en is in staat spraak te "
 "vertalen en taal te identificeren."
 
-#: ../../effects_and_compositions/speech_to_text.rst:100
+#: ../../effects_and_compositions/speech_to_text.rst:147
 msgid ""
 "Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
 "Whisper creates sentences with punctuation marks, even in Base mode."
@@ -167,7 +266,11 @@ msgstr ""
 "Whisper is langzamer dan VOSK op CPU, maar het is accurater dan VOSK. "
 "Whisper maakt zinnen met leestekens, zelfs in de basismode."
 
-#: ../../effects_and_compositions/speech_to_text.rst:106
+#: ../../effects_and_compositions/speech_to_text.rst:155
+msgid "Whisper is not installed"
+msgstr "Whisper is niet geïnstalleerd"
+
+#: ../../effects_and_compositions/speech_to_text.rst:159
 msgid ""
 "When you switch to Whisper for the first time you have to install the "
 "missing dependencies first (about 2GB to download)."
@@ -175,19 +278,36 @@ msgstr ""
 "Wanneer u de eerste keer omschakelt naar Whisper moet u de ontbrekende "
 "afhankelijkheden eerst installeren (ongeveer 2GB te downloaden)."
 
-#: ../../effects_and_compositions/speech_to_text.rst:112
+#: ../../effects_and_compositions/speech_to_text.rst:169
 msgid "When all is correct configured, you get this screen."
 msgstr "Wanneer alles juist is geconfigureerd, krijgt u dit scherm."
 
-#: ../../effects_and_compositions/speech_to_text.rst:114
+#: ../../effects_and_compositions/speech_to_text.rst:173
+msgid "Path where Whisper is installed:"
+msgstr "Pad waar Whisper is geïnstalleerd:"
+
+#: ../../effects_and_compositions/speech_to_text.rst:178
+msgid "The Whisper speech models are stored here:"
+msgstr "De Whisper spraakmodellen zijn hier opgeslagen:"
+
+#: ../../effects_and_compositions/speech_to_text.rst:180
+msgid "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
+msgstr "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:182
+msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:185
 msgid ""
 ":guilabel:`Model` Select the model. More details on the |whisper_source| "
-"(default: Base) ."
+"(default: Base)."
 msgstr ""
-":guilabel:`Model` Selecteer het model. Meer details op de |whisper_source| "
-"(standaard: Base)"
+":guilabel:`Model` Selecteer het model. Meer details op de"
+" |whisper_source| "
+"(standaard: Base)."
 
-#: ../../effects_and_compositions/speech_to_text.rst:116
+#: ../../effects_and_compositions/speech_to_text.rst:187
 msgid ""
 ":guilabel:`Language` Select the language if Autodetect is not accurate "
 "(default: Autodetect)"
@@ -195,188 +315,410 @@ msgstr ""
 ":guilabel:`Taal` selecteer de taal als Autodetect niet accuraat is "
 "(standaard: Autodetect)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:118
+#: ../../effects_and_compositions/speech_to_text.rst:189
 msgid ":guilabel:`Device` For compatibility purposes only CPU is available"
 msgstr ""
 ":guilabel:`Apparaat` om compatibiliteit te behouden is alleen CPU "
 "beschikbaar."
 
-#: ../../effects_and_compositions/speech_to_text.rst:120
+#: ../../effects_and_compositions/speech_to_text.rst:191
+msgid ""
+":guilabel:`Disable half precision (FP16)` Only for GPU. When Kdenlive "
+"detects a NVIDIA GTX 16xx graphic card it disables half precision (FP16) "
+"automatically. If you have issues with using GPU you can switch off half "
+"precision."
+msgstr ""
+":guilabel:`Halve precisie (FP16) uitschakelen` alleen voor GPU. Wanneer "
+"Kdenlive een NVIDIA GTX 16xx grafische kaart detecteert, schakelt het "
+"halve precisie (FP16) automatisch uit. Als u problemen hebt met gebruik "
+"van de GPU kunt u halve precisie uitschakelen."
+
+#: ../../effects_and_compositions/speech_to_text.rst:193
 msgid ""
 ":guilabel:`Translate text to english` This translates non-English text to "
 "English during recognition"
 msgstr ""
-":guilabel:`Tekst naar Engels vertalen` dit vertaalt niet-Engelse tekst naar "
+":guilabel:`Tekst naar Engels vertalen` dit vertaalt niet-Engelse tekst"
+" naar "
 "Engels tijdens herkenning."
 
-#: ../../effects_and_compositions/speech_to_text.rst:122
+#: ../../effects_and_compositions/speech_to_text.rst:195
+msgid ""
+":guilabel:`Enable translation through SeamlessM4T` This will only enable/"
+"disable ``facebook/seamless-m4t-v2-large``. To download and start"
+" subtitle "
+"translation :ref:`follow these steps <Translate_with_SeamlessM4T>`."
+msgstr ""
+":guilabel:`Vertalen via SeamlessM4T inschakelen` dit zal alleen "
+"``facebook/seamless-m4t-v2-large`` in/uitschakelen. Om vertaling van "
+"ondertiteling te downloaden en te starten :ref:`volg deze stappen "
+"<Translate_with_SeamlessM4T>`."
+
+#: ../../effects_and_compositions/speech_to_text.rst:197
 msgid ""
 "You can check for updates by clicking on :guilabel:`Check configuration`"
 msgstr ""
 "U kunt op bijwerken controleren door te klikken op de knop :guilabel:"
 "`Configuratie controleren`"
 
-#: ../../effects_and_compositions/speech_to_text.rst:126
+#: ../../effects_and_compositions/speech_to_text.rst:199
+msgid ""
+"If you have installed Whisper in an earlier Kdenlive version already and"
+" now "
+"you have chosen the :file:`venv` folder for Python, you can delete the"
+" past "
+"installed Whisper libraries by using following command in a console:"
+" :file:"
+"`pip uninstall openai-whisper`"
+msgstr ""
+"Als u Whisper al hebt geïnstalleerd in een eerdere versie van Kdenlive en"
+" nu "
+"de map :file:`venv` hebt gekozen voor Python, dan kunt u de eerder "
+"geïnstalleerde Whisper bibliotheken verwijderen met gebruik van het"
+" volgende "
+"commando in een console: :file:`pip uninstall openai-whisper`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:203
 msgid "Speech recognition"
 msgstr "Spraakherkenning"
 
-#: ../../effects_and_compositions/speech_to_text.rst:129
+#: ../../effects_and_compositions/speech_to_text.rst:206
 msgid "Select the speech engine"
 msgstr "Selecteer de spraak-engine"
 
-#: ../../effects_and_compositions/speech_to_text.rst:133
+#: ../../effects_and_compositions/speech_to_text.rst:210
 msgid "Enable :menuselection:`Menu --> View --> Speech Editor` menu item."
 msgstr ""
 "Menu-item :menuselection:`Menu --> Beeld --> Spraakbewerker` inschakelen."
 
-#: ../../effects_and_compositions/speech_to_text.rst:138
+#: ../../effects_and_compositions/speech_to_text.rst:220
 msgid ""
 "Click on the :guilabel:`Hamburger Menu` |application-menu| and select :"
-"guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure "
+"guilabel:`Configure Speech Recognition`. This brings you to"
+" :ref:`Configure "
 "Speech to Text <configure_speech_to_text>`, select the engine and click :"
 "guilabel:`OK.`"
 msgstr ""
 "Klik op het :guilabel:`Hamburgermenu` |application-menu| en selecteer :"
 "guilabel:`Spraakherkenning configureren`. Dit brengt u naar :ref:`Spraak "
-"naar tekst configureren <configure_speech_to_text>`, selecteer de engine en "
+"naar tekst configureren <configure_speech_to_text>`, selecteer de engine"
+" en "
 "klik op :guilabel:`OK.`"
 
-#: ../../effects_and_compositions/speech_to_text.rst:140
+#: ../../effects_and_compositions/speech_to_text.rst:222
 msgid ""
-":guilabel:`Translate to english` is only available with the Whisper speech "
+":guilabel:`Translate to english` is only available with the Whisper"
+" speech "
 "engine. It translates non-English text to English during recognition."
 msgstr ""
-":guilabel:`Naar Engels vertalen` is alleen beschikbaar met de Whisper spraak-"
+":guilabel:`Naar Engels vertalen` is alleen beschikbaar met de Whisper"
+" spraak-"
 "engine. Deze vertaalt niet-Engelse tekst naar Engels tijdens herkennen."
 
-#: ../../effects_and_compositions/speech_to_text.rst:143
-msgid "Creating subtitle by speech recognition"
-msgstr "Ondertiteling aanmaken door spraakherkenning"
+#: ../../effects_and_compositions/speech_to_text.rst:232
+msgid ""
+"If some error or important message happen. Click on the :guilabel:`Show"
+" log` "
+"and the log get visible."
+msgstr ""
+"Als er een fout of belangrijk bericht is. Klik op :guilabel:`Log tonen` "
+"en de log wordt zichtbaar."
 
-#: ../../effects_and_compositions/speech_to_text.rst:148
-#: ../../effects_and_compositions/speech_to_text.rst:175
+#: ../../effects_and_compositions/speech_to_text.rst:236
+msgid "Creating subtitle by VOSK speech recognition"
+msgstr "Ondertiteling aanmaken door VOSK-spraakherkenning"
+
+#: ../../effects_and_compositions/speech_to_text.rst:246
 msgid "Shown with the VOSK engine"
 msgstr "Getoond met de VOSK-engine"
 
-#: ../../effects_and_compositions/speech_to_text.rst:150
-msgid "Mark the timeline zone you want to recognize (adjust the blue line)"
-msgstr "Markeer de tijdlijnzone die u wilt herkennen (pas de blauwe lijn aan)"
+#: ../../effects_and_compositions/speech_to_text.rst:250
+#: ../../effects_and_compositions/speech_to_text.rst:280
+msgid ""
+"Mark the timeline zone you want to recognize (adjust the blue line)"
+" (**1**)"
+msgstr ""
+"Markeer de tijdlijnzone die u wilt herkennen (pas de blauwe lijn aan)"
+" (**1**)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:152
-msgid "Click on the :guilabel:`Speech recognition` icon"
-msgstr "Klik op het pictogram :guilabel:`Spraakherkenning`"
+#: ../../effects_and_compositions/speech_to_text.rst:252
+#: ../../effects_and_compositions/speech_to_text.rst:282
+msgid "Click on the :guilabel:`Speech recognition` icon (**2**)"
+msgstr "Klik op het pictogram :guilabel:`Spraakherkenning` (**2**)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:154
-msgid "Choose the language"
-msgstr "Kies de taal"
+#: ../../effects_and_compositions/speech_to_text.rst:254
+msgid "Choose the :guilabel:`Language` (**3**)"
+msgstr "Kies de :guilabel:`Taal` (**3**)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:156
-msgid "Choose how the selected zone should be applied"
-msgstr "Kies hoe de geselecteerde zone toegepast zou moeten worden"
+#: ../../effects_and_compositions/speech_to_text.rst:256
+#: ../../effects_and_compositions/speech_to_text.rst:286
+msgid ""
+"Choose which part of the timeline should be applied for recognition"
+" (**4**)"
+msgstr ""
+"Kies welk deel van de tijdlijn toegepast zou moeten worden voor "
+"herkenning (**4**)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:158
-msgid "Press on the :guilabel:`Process` button"
-msgstr "Druk op de knop :guilabel:`Proces`"
+#: ../../effects_and_compositions/speech_to_text.rst:258
+#: ../../effects_and_compositions/speech_to_text.rst:288
+msgid ":guilabel:`Process` Start the recognition (**5**)"
+msgstr ":guilabel:`Verwerken` start de herkenning (**5**)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:160
+#: ../../effects_and_compositions/speech_to_text.rst:260
+#: ../../effects_and_compositions/speech_to_text.rst:290
 msgid "The subtitle gets created and inserted automatically."
 msgstr "De ondertitel wordt aangemaakt en automatisch ingevoegd."
 
-#: ../../effects_and_compositions/speech_to_text.rst:162
-msgid "Only timeline zone is implemented for now in automatic subtitles."
-msgstr ""
-"Alleen tijdlijnzone is voor nu geïmplementeerd in automatische ondertitels."
-
-#: ../../effects_and_compositions/speech_to_text.rst:164
+#: ../../effects_and_compositions/speech_to_text.rst:262
+#: ../../effects_and_compositions/speech_to_text.rst:292
 msgid ""
-"Remark to 4: The default is to analyze only the :guilabel:`Timeline zone "
+"Remark to **4**: The default is to analyze only the :guilabel:`Timeline"
+" zone "
 "(all tracks)` (the blue bar in the timeline ruler). Set the zone in the "
 "timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to set in "
 "and out points). :guilabel:`Selected clips` option analyses the selected "
 "clip only."
 msgstr ""
-"Opmerking bij 4: de standaard is om alleen de :guilabel:`tijdlijnzone (alle "
-"tracks)` te analyseren (de blauwe balk in de tijdlijnliniaal). Stel de zone "
-"in in de tijdlijn op wat u wilt analyseren (gebruik :kbd:`I` en :kbd:`O` om "
-"in- en uitpunten in te stellen). Optie :guilabel:`Geselecteerde clips` "
-"analyseert alleen de geselecteerde clip."
+"Opmerking bij **4**: de standaard is om alleen de :guilabel:`tijdlijnzone "
+"(alle tracks)` te analyseren (de blauwe balk in de tijdlijnliniaal). Stel"
+" de "
+"zone in in de tijdlijn op wat u wilt analyseren (gebruik :kbd:`I` en :kbd:"
+"`O` om in- en uitpunten in te stellen). Optie :guilabel:`Geselecteerde "
+"clips` analyseert alleen de geselecteerde clip."
 
-#: ../../effects_and_compositions/speech_to_text.rst:167
+#: ../../effects_and_compositions/speech_to_text.rst:266
+msgid "Creating subtitle by WHISPER speech recognition"
+msgstr "Ondertiteling aanmaken door WHISPER-spraakherkenning"
+
+#: ../../effects_and_compositions/speech_to_text.rst:276
+msgid "Shown with the Whisper engine"
+msgstr "Getoond met de Whisper-engine"
+
+#: ../../effects_and_compositions/speech_to_text.rst:284
+msgid "Choose the :guilabel:`Model` (**3**)"
+msgstr "Kies :guilabel:`Model` (**3**)"
+
+#: ../../effects_and_compositions/speech_to_text.rst:294
+msgid ""
+":guilabel:`Language` If :guilabel:`Autodetect` doesn't choose the correct "
+"language you can manually set the language"
+msgstr ""
+":guilabel:`Taal` als :guilabel:`Automatisch detecteren` niet de juiste "
+"taal kiest dan kunt u handmatig de taal instellen"
+
+#: ../../effects_and_compositions/speech_to_text.rst:296
+msgid ""
+":guilabel:`Maximum character per line` Adjust the number of character per "
+"line in the subtitle"
+msgstr ""
+":guilabel:`Maximum tekens per regel` pas het aantal tekens per regel in "
+"in de ondertitel"
+
+#: ../../effects_and_compositions/speech_to_text.rst:300
+msgid ""
+":guilabel:`Translate with SeamlessM4T` First you have to enable :guilabel:"
+"`Enable translation through SeamlessM4T` in :menuselection:`Settings --> "
+"Configure Kdenlive --> Speech To Text`."
+msgstr ""
+":guilabel:`Vertalen met SeamlessM4T` eerst moet u :guilabel:`Vertaling"
+" via "
+"SeamlessM4T inschakelen` inschakelen in :menuselection:`Instellingen --> "
+"Kdenlive configureren --> Spraak naar tekst`."
+
+#: ../../effects_and_compositions/speech_to_text.rst:308
+msgid ""
+"**Attention** If you use SeamlessM4T the first time it downloads about"
+" 9GB "
+"of data in the background"
+msgstr ""
+"**Attentie** als u SeamlessM4T voor de eerste keer gebruikt dan downloadt "
+"het ongeveer 9GB gegevens in de achtergrond"
+
+#: ../../effects_and_compositions/speech_to_text.rst:312
+msgid ""
+"Select :guilabel:`Input Language` and :guilabel:`Output Language` and"
+" click :"
+"guilabel:`Process`. This will first process the audio using whisper, then "
+"start the SeamlessM4T translation. Translation can occupy 100% RAM, 100%"
+" CPU "
+"and 100% disk access."
+msgstr ""
+"Selecteer :guilabel:`Invoertaal` en :guilabel:`Uitvoertaal` en klik op "
+":guilabel:`Verwerken`. Dit zal eerst de audio verwerken met whisper, "
+"daarna start de vertaling met SeamlessM4T. Vertaling kan 100% RAM, 100% "
+"CPU en 100% schijftoegang."
+
+#: ../../effects_and_compositions/speech_to_text.rst:315
+msgid ""
+"If the 9GB model has not yet been downloaded, it will be downloaded now. "
+"With a 100MB/s download speed this will take about 12 minutes!"
+msgstr ""
+"Als het 9GB model nog niet is gedownload, zal het nu gedownload worden. "
+"Met een 100MB/s downloadsnelheid zal dit ongeveer 12 minuten duren!"
+
+#: ../../effects_and_compositions/speech_to_text.rst:317
+msgid ""
+"During download Kdenlive will react as normal. Don't click on :guilabel:"
+"`Close` otherwise download get stopped."
+msgstr ""
+"Tijdens het downloaden zal Kdenlive normaal reageren. Klik niet op "
+":guilabel:`Sluiten` anders wordt het downloaden gestopt."
+
+#: ../../effects_and_compositions/speech_to_text.rst:319
+msgid ""
+"Don't worry if you see such a message on the box below :guilabel:"
+"`Initializing translation model` while downloading is running."
+msgstr ""
+"Wees niet ongerust als u zo'n bericht in het onderstaande vak ziet "
+":guilabel:`Vertaalmodel wordt geïnitialiseerd` terwijl het downloaden "
+"actief is."
+
+#: ../../effects_and_compositions/speech_to_text.rst:329
+msgid ""
+"Once the translation model is downloaded translation will happen (be"
+" patient "
+"as download the model takes about 12 minutes with 100MB/s download speed)."
+msgstr ""
+"Nadat het vertaalmodel is gedownload zal vertaling gedaan worden (wees "
+"geduldig omdat het downloaden van het model ongeveer 12 minutes met "
+"100MB/s downloadsnelheid)."
+
+#: ../../effects_and_compositions/speech_to_text.rst:337
+msgid "SeamlessM4T is enabled and downloaded successful"
+msgstr "SeamlessM4T is ingeschakeld en met succes gedownload"
+
+#: ../../effects_and_compositions/speech_to_text.rst:339
+msgid "The SeamlessM4T models are stored here:"
+msgstr "De SeamlessM4T-spraakmodellen zijn hier opgeslagen:"
+
+#: ../../effects_and_compositions/speech_to_text.rst:341
+msgid "Linux: :file:`$HOME/.cache/hugginface`"
+msgstr "Linux: :file:`$HOME/.cache/hugginface`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:343
+msgid "Windows: :file:`C:\\\\Users\\\\<username>\\\\.cache\\\\huggingface`"
+msgstr ""
+"Windows: :file:`C:\\\\Users\\\\<username>\\\\.cache\\\\huggingface`"
+
+#: ../../effects_and_compositions/speech_to_text.rst:349
 msgid "Creating clips by speech recognition"
 msgstr "Clips aanmaken met spraakherkenning"
 
-#: ../../effects_and_compositions/speech_to_text.rst:169
+#: ../../effects_and_compositions/speech_to_text.rst:351
 msgid ""
-"This is useful for interviews and other speech-related footage. Enable the :"
+"This is useful for interviews and other speech-related footage. Enable"
+" the :"
 "menuselection:`Menu --> View --> Speech Editor` menu item."
 msgstr ""
-"Dit is nuttig voor interviews en andere spraakgerelateerde opnamen. Schakel "
+"Dit is nuttig voor interviews en andere spraakgerelateerde opnamen."
+" Schakel "
 "het menu-item :menuselection:`Menu --> Beeld --> Spraakbewerker` in."
 
-#: ../../effects_and_compositions/speech_to_text.rst:177
-msgid "Select a clip in the project bin."
-msgstr "Selecteer een clip in de project-bin."
+#: ../../effects_and_compositions/speech_to_text.rst:360
+msgid "Shown with the VOSK engine and search enabled"
+msgstr "Getoond met de VOSK-engine en zoeken ingeschakeld"
 
-#: ../../effects_and_compositions/speech_to_text.rst:179
+#: ../../effects_and_compositions/speech_to_text.rst:364
+msgid "Select a clip in the **Project Bin**."
+msgstr "Selecteer een clip in de **Project-bin**."
+
+#: ../../effects_and_compositions/speech_to_text.rst:366
 msgid ""
 "If needed set in/out point in the clip monitor and enable :guilabel:"
-"`Selected zone only` selection box. This will only recognize the text inside "
+"`Selected zone only` selection box. This will only recognize the text"
+" inside "
 "the zone."
 msgstr ""
 "Indien nodig stel in/uitpunt in in de clipmonitor en schakel keuzevak :"
-"guilabel:`Alleen geselecteerde zone` in. Dit zal alleen de tekst in de zone "
+"guilabel:`Alleen geselecteerde zone` in. Dit zal alleen de tekst in de"
+" zone "
 "herkennen."
 
-#: ../../effects_and_compositions/speech_to_text.rst:181
-msgid "Choose the correct language."
-msgstr "Kies de juiste taal."
+#: ../../effects_and_compositions/speech_to_text.rst:368
+msgid ""
+"Choose the correct language when the VOSK engine is selected. Or choose"
+" the "
+"Whisper engine by click on :guilabel:`Configure Speech Recognition` (:ref:"
+"`see configure speech to text <configure_speech_to_text>`)"
+msgstr ""
+"Kies de juiste taal wanneer de VOSK-engine wordt geselecteerd. Of kies de "
+"Whisper-engine door te klikken op :guilabel:`Spraakherkenning"
+" configureren` "
+"(:ref:`zie spraak-naar-tekst configureren <configure_speech_to_text>`)"
 
-#: ../../effects_and_compositions/speech_to_text.rst:183
+#: ../../effects_and_compositions/speech_to_text.rst:370
 msgid "Press the :guilabel:`Start Recognition` button."
 msgstr "Druk op de knop :guilabel:`Herkenning starten`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:185
-msgid "Selecting the text you want to either."
-msgstr "De tekst selecteren die u wilt invoeren."
+#: ../../effects_and_compositions/speech_to_text.rst:372
+msgid ""
+"Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select "
+"several texts."
+msgstr ""
+"Selecteer de tekst die u wilt. Hou :kbd:`CTRL` of :kbd:`Shift` ingedrukt"
+" om "
+"verschillende teksten te selecteren."
 
-#: ../../effects_and_compositions/speech_to_text.rst:187
-msgid "Put into the timeline."
-msgstr "In de tijdlijn zetten."
+#: ../../effects_and_compositions/speech_to_text.rst:376
+msgid ""
+"Choose: :guilabel:`Create new sequence with edit` creates a new sequence "
+"with each timecode-text as a single clip, or :guilabel:`Insert selection"
+" in "
+"timeline` at playhead position, or to :guilabel:`Save edited text in a "
+"playlist file` which appears in the project bin."
+msgstr ""
+"Kies: :guilabel:`Een nieuwe sequentie met bewerken aanmaken` maakt een "
+"nieuwe sequentie aan met elke tijdcodetekst als een enkele clip of"
+" :guilabel:"
+"`Voeg selectie in in de tijdlijn` op de positie van de afspeelkop of naar"
+" :"
+"guilabel:`Bewerkte tekst opslaan in een afspeellijstbestand` die"
+" verschijnt "
+"in de project-bin."
 
-#: ../../effects_and_compositions/speech_to_text.rst:189
-msgid ":guilabel:`Save` edited text as a new playlist."
-msgstr ":guilabel:`Opslaan` van bewerkte tekst als een nieuwe afspeellijst."
+#: ../../effects_and_compositions/speech_to_text.rst:380
+msgid ""
+":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text."
+" :guilabel:`Remove "
+"non speech zones` deletes all \"No speech\" entries at once."
+msgstr ""
+":guilabel:`Inzoomen` of :guilabel:`UItzoomen` van de tekst."
+" :guilabel:`Zones "
+"zonder spraak verwijderen` verwijdert in een keer alle items \"zonder"
+" spraak"
+"\"."
 
-#: ../../effects_and_compositions/speech_to_text.rst:191
+#: ../../effects_and_compositions/speech_to_text.rst:382
 msgid ""
 "Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
 "kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
 msgstr ""
 "Een bladwijzer toevoegen. U kun naar deze bladwijzers in de tijdlijn "
-"springen met de sneltoets :kbd:`Alt + arrow` of de bladwijzer bewerken met "
+"springen met de sneltoets :kbd:`Alt + arrow` of de bladwijzer bewerken"
+" met "
 "dubbelklikken."
 
-#: ../../effects_and_compositions/speech_to_text.rst:193
-msgid "Delete the selection."
-msgstr "De selectie verwijderen."
+#: ../../effects_and_compositions/speech_to_text.rst:384
+msgid "Delete the selected text."
+msgstr "De geselecteerde tekst verwijderen."
 
-#: ../../effects_and_compositions/speech_to_text.rst:195
+#: ../../effects_and_compositions/speech_to_text.rst:386
 msgid "Here you can search in the text."
 msgstr "Hier kunt u in de tekst zoeken."
 
-#: ../../effects_and_compositions/speech_to_text.rst:197
+#: ../../effects_and_compositions/speech_to_text.rst:388
 msgid "And navigate up or down in the text."
 msgstr "En omhoog en omlaag navigeren in de tekst."
 
-#: ../../effects_and_compositions/speech_to_text.rst:202
+#: ../../effects_and_compositions/speech_to_text.rst:394
 msgid "Silence detection"
 msgstr "Detectie van stilte"
 
-#: ../../effects_and_compositions/speech_to_text.rst:204
+#: ../../effects_and_compositions/speech_to_text.rst:396
 msgid "This works with the VOSK engine only."
 msgstr "Dit werkt alleen met de VOSK-engine."
 
-#: ../../effects_and_compositions/speech_to_text.rst:206
+#: ../../effects_and_compositions/speech_to_text.rst:398
 msgid ""
 "Open the clip in the clip monitor and open the speech editor window (:"
 "menuselection:`Menu --> View --> Speech Editor`) ."
@@ -384,39 +726,107 @@ msgstr ""
 "De clip openen in de clipmonitor en het spraakbewerkervenster openen (:"
 "menuselection:`Menu --> Beeld --> Spraakbewerker`) ."
 
-#: ../../effects_and_compositions/speech_to_text.rst:208
+#: ../../effects_and_compositions/speech_to_text.rst:400
 msgid ""
-"Select your language or :ref:`effects-s2t_install_language` and download the "
+"Select your language or :ref:`effects-s2t_install_language` and download"
+" the "
 "model for it."
 msgstr ""
 "Selecteer uw taal of :ref:`effects-s2t_install_language` en download het "
 "model ervoor."
 
-#: ../../effects_and_compositions/speech_to_text.rst:210
+#: ../../effects_and_compositions/speech_to_text.rst:402
 msgid "Then click :guilabel:`Start Recognition` button."
 msgstr "Klik daarna knop :guilabel:`Herkennen starten`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:212
+#: ../../effects_and_compositions/speech_to_text.rst:404
 msgid ""
-"Once this is done, click on the time-code where no-speech is indicated and "
-"just hit the :kbd:`Delete` key. Repeat the operation for all the parts you "
-"want to remove, including where someone says what you do not want to include "
-"in your final edit."
+"Once this is done, choose under point 6 from above to :guilabel:`Remove"
+" non "
+"speech zones` at once. Or click on the time-code where \"No speech\" is "
+"indicated (hold :kbd:`Ctrl` to select several items at once) and just hit "
+"the :kbd:`Delete` key."
 msgstr ""
-"Nadat dit is gedaan, klik op de tijdcode waar geen spraak is aangegeven en "
-"druk up de toets :kbd:`Delete`. Herhaal de bewerking voor alle delen die u "
-"wilt verwijderen, inclusief waar iemand iets zegt wat u niet wilt meenemen "
-"in uw uiteindelijke bewerking."
+"Nadat dit is gedaan, kies onder punt 6 bovenstaand :guilabel:`Spraakzones "
+"verwijderen` om dat in een keer te doen. Of klik op de tijdcode waar "
+"\"Zonder spraak\" is aangegeven (hou :kbd:`Ctrl` in gedrukt om"
+" verschillende "
+"items in een keer te selecteren) en tik gewoon op de toets :kbd:`Delete`."
 
-#: ../../effects_and_compositions/speech_to_text.rst:214
+#: ../../effects_and_compositions/speech_to_text.rst:406
 msgid ""
-"Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
-"on the :guilabel:`Save` button on the lower left part of the speech editor "
-"window and after few seconds a new playlist is added in the Project Bin "
+"Repeat the operation for all the parts you want to remove, including"
+" where "
+"someone says what you do not want to include in your final edit."
+msgstr ""
+"Herhaal de bewerking voor alle delen die u wilt verwijderen, inclusief"
+" waar "
+"iemand iets zegt wat u niet wilt meenemen in uw uiteindelijke bewerking."
+
+#: ../../effects_and_compositions/speech_to_text.rst:408
+msgid ""
+"Once finished, make sure :guilabel:`Selected zone only` is disabled,"
+" click "
+"on the :guilabel:`Save edited text in a playlist file` button (above"
+" under "
+"point 5) and after few seconds a new playlist is added in the Project Bin "
 "without silence and without the text you do not want."
 msgstr ""
 "Nadat u klaar bent, ga na dat :guilabel:`Alleen geselecteerde zone` is "
-"uitgeschakeld, klik op de knop :guilabel:`Opslaan` aan het linksonder deel "
-"van het spraakbewerkervenster en na enkele seconden wordt een nieuwe "
-"afspeellijst toegevoegd in de project-bin zonder stilte en zonder de tekst "
-"die u niet wilt."
+"uitgeschakeld, klik op de knop :guilabel:`Bewerkte tekst opslaan in een "
+"afspeellijst` (bovenstaand onder punt 5) en na enkele seconden wordt een "
+"nieuwe afspeellijst toegevoegd in de project-bin zonder stilte en zonder"
+" de "
+"tekst die u niet wilt."
+
+#~ msgid "Choose how the selected zone should be applied"
+#~ msgstr "Kies hoe de geselecteerde zone toegepast zou moeten worden"
+
+#~ msgid "Press on the :guilabel:`Process` button"
+#~ msgstr "Druk op de knop :guilabel:`Proces`"
+
+#~ msgid "Only timeline zone is implemented for now in automatic subtitles."
+#~ msgstr ""
+#~ "Alleen tijdlijnzone is voor nu geïmplementeerd in automatische "
+#~ "ondertitels."
+
+#~ msgid ""
+#~ "Python 3 needs to be installed on your computer as well as the vosk and "
+#~ "srt python modules:"
+#~ msgstr ""
+#~ "Python 3 moet geïnstalleerd zijn op uw computer evenals de python-modulen "
+#~ "vosk en srt:"
+
+#~ msgid "**Linux**"
+#~ msgstr "**Linux**"
+
+#~ msgid ""
+#~ "To install VOSK and srt open a terminal and run: ``pip3 install vosk srt``"
+#~ msgstr ""
+#~ "Om VOSK en srt te installeren, open een terminal en voer uit: ``pip3 "
+#~ "install vosk pip3``"
+
+#~ msgid "**Windows**"
+#~ msgstr "**Windows**"
+
+#~ msgid ""
+#~ "Download this batch file (:download:`Install_vosk_srt.zip </files/"
+#~ "Install_vosk_srt.zip>`). After download a double click starts the "
+#~ "installations."
+#~ msgstr ""
+#~ "Download dit batch-bestand (:download:`Install_vosk_srt.zip </files/"
+#~ "Install_vosk_srt.zip>`). Na downloaden start dubbelklikken de "
+#~ "installaties."
+
+#~ msgid "Choose the correct language."
+#~ msgstr "Kies de juiste taal."
+
+#~ msgid "Selecting the text you want to either."
+#~ msgstr "De tekst selecteren die u wilt invoeren."
+
+#~ msgid "Put into the timeline."
+#~ msgstr "In de tijdlijn zetten."
+
+#~ msgid ":guilabel:`Save` edited text as a new playlist."
+#~ msgstr ":guilabel:`Opslaan` van bewerkte tekst als een nieuwe afspeellijst."
+

@@ -162,6 +162,28 @@ Keyframe handling
 * You can move a keyframe without altering its value by using the vertical line that appears when you are above or below a keyframe.
 * Remove a keyframe by dragging it far above or below the clip limits.
 
+
+.. _disable-enable_clip_stack:
+
+Disable/enable effect stack of a clip
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. .. versionadded:: 24.02
+
+Clip stack can be enabled/disabled by clicking on the effect.
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-effect_stack_disabled.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-effect_stack_disabled
+
+   Kdenlive Effect Stack disabled by click on the effect of a clip
+
+.. rst-class:: clear-both
+
+.. see :ref:`effect_stack_functions`
+
+
 .. _disable_clips:
 
 Disabling individual clips

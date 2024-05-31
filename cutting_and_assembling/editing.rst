@@ -152,6 +152,7 @@ Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the time
 
 Doing with right click on the clip see :ref:`change_speed`. 
 
+
 .. _remove_spaces:
 
 Removing Space Between Clips
@@ -297,8 +298,6 @@ Items 14, 14a-14g are covered in detail by the Tips & Tricks chapter about :doc:
 2.   Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
 
-
-
 .. _timeline_edit_modes:
 
 Track Compositing
@@ -316,6 +315,7 @@ The track compositing applies uniformly to all tracks in your timeline.
 
 Track compositing is now a simple checkbox instead of the none/high resolution choice.
 
+
 .. _track_compositing_hq:
 
 High Quality
@@ -325,6 +325,7 @@ High Quality
 
 When track compositing is set to High-Quality tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat slower than the algorithm used with :ref:`track_compositing_preview` but which retains higher fidelity color information.
 
+
 .. _track_compositing_none:
 
 None
@@ -333,6 +334,7 @@ None
 .. deprecated:: 22.08
 
 When Track Compositing is set to None you will not get tracks with alpha channel information to composite with the other tracks unless an explicit composite or affine transition is added between the clips. This is basically kind of an expert mode when you need full control over any compositing in your timeline.
+
 
 .. _track_compositing_preview:
 
@@ -346,6 +348,65 @@ Preview
     Final rendering always uses either **High Quality** or **None**. So Preview quality is, well, for preview only.
 
 When track compositing is set to Preview tracks with alpha channel information will be automatically composited with the other tracks using an algorithm that is somewhat faster than the algorithm used with :ref:`track_compositing_hq` but which slightly degrades the colors.
+
+
+.. _editing_active_tracks:
+
+Active track
+------------
+
+.. .. versionchanged:: 24.05
+
+.. figure:: /images/kdenlive2405_editing_active-track.webp
+   :align: left
+   :width: 350px 
+   :figwidth: 350px
+   :alt: Editing active track
+
+   An :term:`active track`
+
+.. rst-class:: clear-both
+      
+**1** Target track (3-point editing). The highlighted target strip indicates that in the project bin an A/V clip is selected (the selected clip has an audio and video part).
+
+**2** Active track (3-point editing)
+
+**3** Track header
+
+**4** Empty part of the track
+
+Only active tracks can accept clips or react to an edit function. An :term:`active track` is indicated by a:
+
+-	highlighted track number (**2**) (for 3-point editing)
+
+-	blueish or brownish track (**3 4**) (depends on the color scheme), working with the mouse or insert clip by paste
+
+When you work with the mouse Kdenlive make a track active as you drop a clip to the timeline or you select a clip.
+
+Make a track active by:
+
+-	click into the track header (**3**)
+
+-	double click into an empty part of the track (**4**) (the playhead moves to this point too). This is useful when you copy & paste clips.
+
+-	:kbd:`1-9` select a video track 
+
+-	:kbd:`alt+1-9` select an audio track 
+
+-	arrow key up/down
+
+For 3-point editing
+
+-	:kbd:`Alt+Shift+A` Switch all tracks active
+
+-	:kbd:`Shift+A` Toggle all tracks active/inactive
+
+-	:kbd:`A` Toggle track active
+
+-	:kbd:`Shift+T` Toggle track target
+
+:ref:`Here you find more timeline shortcuts <ui-shortcuts_timeline>`.
+
 
 Timeline Edit Modes
 -------------------
@@ -428,6 +489,7 @@ It always closes all space in the track.
    
 Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.
 
+
 .. _timeline_edit_tools:
 
 Timeline Edit Tools
@@ -462,12 +524,13 @@ In the above example, these clips are not grouped. However, the spacer tool grou
 
 :kbd:`ESC`: Return from any tools back to Selection tool.
 
-.. .. versionadded:: 21.12
 
 .. _slip_tool:
 
 Slip Tool
 ~~~~~~~~~
+
+.. .. versionadded:: 21.12
 
 .. image:: /images/slip_trim02.jpg
    :alt: slip tool

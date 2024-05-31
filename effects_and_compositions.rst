@@ -67,7 +67,7 @@ The Effects widget has seven control icons that show or hide the different effec
 
 3 - **Audio Effects** shows all audio effects categories
 
-4 - **Custom Effects** shows all effects you have created by saving an effect stack.
+4 - **Custom Effects** shows all effects :ref:`you have created <effects-custom>` by saving an effect stack.
 
 .. TODO: See :ref:`Save Effect <effects-save_effect>` for more details.
 
@@ -97,6 +97,9 @@ This widget is also known as the Properties Tab as it lists all effects applied 
 
 .. note:: Only Effects can be stacked, Compositions cannot.
 
+
+.. _effect_stack_functions:
+
 Effect/Composition Stack Functions
 ----------------------------------
 
@@ -117,7 +120,20 @@ Effect/Composition Stack Functions
 
 .. rst-class:: clear-both
 
-..
+.. .. versionadded:: 24.02
+
+When an effect is applied to a clip in the timeline you can click on the effect button to enable/disable the clip stack of this clip. When disabled the effect name on the clip is strikeout.
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-effect_stack_disabled.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-effect_stack_disabled
+
+   Kdenlive Effect Stack disabled by click on the effect of a clip
+
+.. see :ref:`disable-enable_clip_stack`
+
+.. rst-class:: clear-both
 
 
 Effect Functions
@@ -196,7 +212,69 @@ Keyframes in Effects
 
 Many effects use the concept of "Keyframes". Keyframes are user-defined points in your clip where you want an effect to start, stop or change. You can set the parameters for your effects to different values at different keyframes and **Kdenlive** will then gradually change the parameters between the two keyframes so that by the time the video has arrived at the next keyframe it will have adjusted the parameter to match that keyframe. It interpolates between keyframes.
 
-See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
+
+.. _effects-keyframe-types-interpolation:
+
+Keyframes types, interpolation
+------------------------------
+
+Select the keyframe interpolation icon for selecting the keyframe type. See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-keyframe_types.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-keyframe_panel
+
+   Kdenlive keyframe types
+
+The first three keyframes are: linear, discrete and smooth (Centripetal Catmull-Rom spline interpolation). This are standard keyframes. More details about keyframes you'll find :ref:`here <the_smooth_keyframe_interpolation>`.
+
+.. .. versionadded:: 24.02
+
+The next ten keyframes are easing keyframes which calculations are based on Robert Penners equations\ [2]_.
+
+Objects in real life don't just start and stop instantly, and almost never move at a constant speed. When we open a drawer, we first move it quickly, and slow it down as it comes out. Drop something on the floor, and it will first accelerate downwards, and then bounce back up after hitting the floor.
+
+.. rst-class:: clear-both
+
+**Easing keyframes:** The left end is the start of the movement, and the segments in blue and green represent faster movement.
+
+.. Picture taken from: https://easings.net/en in dark mode
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-bounce.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-ease-bounce
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-cubic.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-ease-cubic
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-exponential.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-ease-exponential
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-circular.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-ease-circular
+
+.. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-elastic.webp
+   :align: left
+   :width: 400px
+   :alt: kdenlive2402_effects-ease-elastic
+
+.. rst-class:: clear-both
+
+**Smooth (deprecated):** Is the smooth Catmull-Rom spline interpolation keyframe before Kdenlive 24.02.
+
+
+.. _effects-keyframes-ruler:
+
+Keyframe ruler
+--------------
 
 .. .. versionadded:: 20.08.0
 
@@ -284,6 +362,18 @@ The effect keyframe panel has new icons, improved keyframe grabbing and new func
    Moving multiple keyframes at once
 
    .. rst-class:: clear-both
+
+
+.. _effects-keyframes_types:
+
+Keyframe types
+--------------
+
+.. .. versionadded:: 24.02
+
+Easing functions are based on Robert Penner's Easing Functions: http://robertpenner.com/easing/
+
+
 
 
 .. _effects-exchange_keyframes:
@@ -600,3 +690,5 @@ See also this YouTube play list from |video_5|
 **Notes**
 
 .. [1] If you do not see a keyframe panel check whether the keyframe panel has been switched off for this effect (|keyframe-disable| icon in the effect toolbar) or perhaps the effect is simply not keyframable.
+
+.. [2] Robert Penners equations: http://robertpenner.com/easing/
