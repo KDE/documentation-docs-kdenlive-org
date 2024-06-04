@@ -13,6 +13,7 @@
              - TheMickyRosen-Left (https://userbase.kde.org/User:TheMickyRosen-Left)
              - Maris Stalte (https://userbase.kde.org/User:limerick)
              - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -192,7 +193,7 @@ Change the edge of the region by moving a node. You can insert a node between tw
 
 .. rst-class:: clear-both
 
-Once the region is created (closed) you can move individual nodes, insert and delete nodes, create curves to better follow the shape you want to rotoscope out or in, and move the entire region. For the latter action grab the :guilabel:`x` in the middle of the region and drag it around.
+Once the region is created (closed) you can move individual nodes, insert and delete nodes (delete a node: double-click on the node), create curves to better follow the shape you want to rotoscope out or in, and move the entire region. For the latter action grab the :guilabel:`x` in the middle of the region and drag it around.
 
 By default, the inside of the region you created is transparent (the video track underneath is visible). Use the :guilabel:`Invert` checkbox to make the outside of the region transparent.
 
