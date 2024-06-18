@@ -4,40 +4,50 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 # Automatically generated, 2022.
 #
+# SPDX-FileCopyrightText: 2024 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2022-01-16 00:37+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-06-09 02:50+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.04.70\n"
 
 #: ../../getting_started/introduction.rst:1
 msgid "Introduction to Kdenlive video editor"
-msgstr ""
+msgstr "Kdenlive 影片編輯器的介紹"
 
 #: ../../getting_started/introduction.rst:1
 msgid ""
 "KDE, Kdenlive, Introduction, documentation, user manual, video editor, open "
 "source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, Introduction, 介紹, 引言, documentation, user manual, video "
+"editor, open source, free, learn, easy"
 
 #: ../../getting_started/introduction.rst:30
 msgid "Introduction"
-msgstr ""
+msgstr "引言"
 
 #: ../../getting_started/introduction.rst:33
 msgid ""
 "**Kdenlive** is an acronym for |kde_org| **N**\\ on-\\ **Li**\\ near **V**\\ "
 "ideo **E**\\ ditor."
 msgstr ""
+"**Kdenlive** 是 |kde_org| **N**\\ on-\\ **Li**\\ near **V**\\ ideo **E**\\ "
+"ditor（KDE 非線性影片編輯器）的簡稱。"
 
+# 這裡之所以 |gpl_licensed| 是一個substitution是因為這是 reST 當中唯一指定 target="_blank" 的方法。但是原文的連結內文沒有被取出，所以可能只能在譯文重新定義另一個substitution。我目前不是很確定真的能這樣做；如果不行的話我會再 revert。
+# https://invent.kde.org/documentation/docs-kdenlive-org/-/blob/HEAD/getting_started/introduction.rst#L43
+#
+# ---Kisaragi
 #: ../../getting_started/introduction.rst:36
 msgid ""
 "It is a free software (|gpl_licensed|) primarily aimed at the Linux "
@@ -46,6 +56,12 @@ msgid ""
 "drawbacks. See :ref:`troubleshooting-windows_issues` for more information. A "
 "port on MacOS is also available."
 msgstr ""
+"Kdenlive 是以 |gpl_license_zhtw| 釋出的自由軟體，主要為 Linux 平台所設計，但"
+"由於它只依賴跨平台的元件（|qt| 與 |mlt|）而也能在 BSD\\ [1]_ 上使用。Windows "
+"版本也有提供，不過功能上稍為缺乏（更多資訊請參見 :ref:`troubleshooting-"
+"windows_issues`）。也提供 MacOS 的移植版。.. |gpl_license_zhtw| raw:: html   "
+"<a href=\"https://www.fsf.org/licensing/licenses/gpl.html\" target=\"_blank"
+"\">GPL 授權條款</a>"
 
 #: ../../getting_started/introduction.rst:58
 msgid ""
@@ -59,10 +75,18 @@ msgid ""
 "22.08) and thus can be used as a complete studio for video creation. Check "
 "out :doc:`/more_information/whats_new` for the most recent feature additions."
 msgstr ""
+"透過 MLT 框架，**Kdenlive** 整合了許多處理或建立影片與音訊的效果。另"
+"外，\\**Kdenlive** 也提供強大的\\ :doc:`標題工具 </effects_and_compositions/"
+"titles>`\\、可利用 AI 進行\\ :doc:`語音轉文字 </effects_and_compositions/"
+"speech_to_text>`\\的\\ :doc:`字幕 </effects_and_compositions/subtitles>`\\ 功"
+"能、\\ :ref:`巢狀時間軸功能 <sequence>`\\ （23.04 版新增）、透過與 "
+"Glaxnimate 整合而實現的\\ :ref:`動畫<add_animation>`\\ 支援（22.08 版新增）等"
+"等功能而可以作為創作影片的完整軟體方案。最新的功能資訊請參照 :doc:`/"
+"more_information/whats_new` 。"
 
 #: ../../getting_started/introduction.rst:63
 msgid "Video editing features"
-msgstr ""
+msgstr "影片編輯功能"
 
 #: ../../getting_started/introduction.rst:65
 msgid ""
@@ -70,69 +94,73 @@ msgid ""
 "and audio tracks, plus the ability to split audio and video from a clip in "
 "multiple tracks"
 msgstr ""
+"時間軸上的多軌道編輯，影片與音訊軌道數量基本上等同無限制，並可將素材的音訊與"
+"視訊分到多個軌道中"
 
 #: ../../getting_started/introduction.rst:67
 msgid "3-point editing"
-msgstr ""
+msgstr "三點編輯"
 
 #: ../../getting_started/introduction.rst:69
 msgid ""
 "Non-blocking rendering. You can keep working on a project at the same time a "
 "project is being transformed into a video file"
-msgstr ""
+msgstr "背景算繪。您可以在專案輸出成影片檔的同時繼續編輯專案"
 
 #: ../../getting_started/introduction.rst:71
 msgid ""
 "Dozens of effects and transitions that can be used with ease and even saved "
 "as custom effects with their settings for use in other projects"
 msgstr ""
+"大量的效果與轉場特效，可以輕鬆使用或是與設定值一同儲存成自訂效果，方便在其他"
+"專案重複利用"
 
 #: ../../getting_started/introduction.rst:73
 msgid ""
 "Keyframeable effects with linear or smooth curves (more to come in future "
 "versions)"
-msgstr ""
+msgstr "一些效果可設關鍵幀，提供線性或平滑的曲線（未來版本會繼續探索此方面）"
 
 #: ../../getting_started/introduction.rst:75
 msgid ""
 "Simple tools for easy creation of color clips, text clips and image clips"
-msgstr ""
+msgstr "提供簡單的工具來輕鬆建立色彩素材、文字素材或圖片素材"
 
 #: ../../getting_started/introduction.rst:77
 msgid ""
 "Automatic :ref:`clips` creation from pictures directories, with crossfade "
 "transitions among the images"
-msgstr ""
+msgstr "自動從圖片目錄建立 :ref:`clips`\\ ，並提供圖片間的淡化專場"
 
 #: ../../getting_started/introduction.rst:79
 msgid ""
 "Configurable keyboard shortcuts, toolbars and interface layouts to "
 "accommodate your workflow"
-msgstr ""
+msgstr "鍵盤快捷鍵、工具列與介面佈局皆可依您的工作流程需要來調整"
 
 #: ../../getting_started/introduction.rst:81
 msgid "Audio and video scopes"
-msgstr ""
+msgstr "音訊與視訊示波器"
 
 #: ../../getting_started/introduction.rst:83
 msgid "Proxy editing for your 4K+ footage"
-msgstr ""
+msgstr "代理編輯，讓您可以正常編輯 4K+ 的影片"
 
 #: ../../getting_started/introduction.rst:85
 msgid "Themable interface supporting dark themes"
-msgstr ""
+msgstr "介面可調整主題，並支援暗色主題"
 
 #: ../../getting_started/introduction.rst:87
 msgid "... and much more!"
-msgstr ""
+msgstr "…以及更多！"
 
 #: ../../getting_started/introduction.rst:89
 msgid "See the |kdenlive_roadmap| for what the future may bring."
-msgstr ""
+msgstr "關於我們的未來規劃請見 |kdenlive_roadmap|\\ 。"
 
 #: ../../getting_started/introduction.rst:97
 msgid "Supported formats and codecs"
-msgstr ""
+msgstr "支援的格式與解編碼器"
 
 #: ../../getting_started/introduction.rst:101
 msgid ""
@@ -140,64 +168,66 @@ msgid ""
 "knows how to handle any format smoothly and supports the following formats, "
 "file types and codecs:"
 msgstr ""
+"不需要在編輯前先匯入或轉檔影片。Kdenlive 知道如何正確處理幾乎任何格式。它支援"
+"以下格式、檔案類型與解編碼器："
 
 #: ../../getting_started/introduction.rst:103
 msgid "Support for low resolution (DV) camera and camcorder files, including:"
-msgstr ""
+msgstr "支援低畫質 (DV) 相機與攝影機檔案，包含："
 
 #: ../../getting_started/introduction.rst:105
 msgid "DV editing (Raw and AVI)"
-msgstr ""
+msgstr "DV 編輯 (Raw 及 AVI)"
 
 #: ../../getting_started/introduction.rst:106
 msgid "MPEG4-ASP/MP3 (DivX compatible)"
-msgstr ""
+msgstr "MPEG4-ASP/MP3 (與 DivX 相容)"
 
 #: ../../getting_started/introduction.rst:107
 msgid "VOB (DVD)"
-msgstr ""
+msgstr "VOB (DVD)"
 
 #: ../../getting_started/introduction.rst:108
 msgid "4:3 and 16:9 screen sizes, PAL and NTSC systems"
-msgstr ""
+msgstr "4:3 及 16:9 螢幕大小，PAL 及 NTSC 系統"
 
 #: ../../getting_started/introduction.rst:110
 msgid ""
 "Support for high (HD) and ultra-high (UHD/4K) resolution camcorder files, "
 "including:"
-msgstr ""
+msgstr "支援高畫質 (HD) 與超高畫質 (UHD/4K) 的攝影機檔案，包含："
 
 #: ../../getting_started/introduction.rst:112
 msgid "MPEG-2, MP4, Matroska, WebM, Apple ProRes 422 HDV"
-msgstr ""
+msgstr "MPEG-2、MP4、Matroska、WebM、Apple ProRes 422 HDV"
 
 #: ../../getting_started/introduction.rst:113
 msgid "H264 AAC HDV"
-msgstr ""
+msgstr "H264 AAC HDV"
 
 #: ../../getting_started/introduction.rst:114
 msgid "H265"
-msgstr ""
+msgstr "H265"
 
 #: ../../getting_started/introduction.rst:115
 msgid "Native HDV editing, 720 and 1080, interlaced or full frames"
-msgstr ""
+msgstr "原生高畫質影片編輯、720 與 1080、交錯或是完整影格"
 
 #: ../../getting_started/introduction.rst:117
 msgid "Support for brand new codecs and formats:"
-msgstr ""
+msgstr "支援最新的編碼器與格式："
 
 #: ../../getting_started/introduction.rst:119
 msgid "SNOW lossless codec"
-msgstr ""
+msgstr "SNOW 無損編碼"
 
 #: ../../getting_started/introduction.rst:120
 msgid "Ogg vorbis, etc ..."
-msgstr ""
+msgstr "Ogg Vorbis 等等…"
 
 #: ../../getting_started/introduction.rst:121
 msgid "Since version 22.08: LOTTIE and RAWR animations"
-msgstr ""
+msgstr "自 22.08 版：LOTTIE 及 RAWR 動畫"
 
 #: ../../getting_started/introduction.rst:123
 msgid ""
@@ -205,34 +235,37 @@ msgid ""
 "can edit a film using two sources: a small mpeg4 camera and an HDV mpeg2 "
 "camcorder."
 msgstr ""
+"可以在同一個專案中混合使用多個影片來源。舉例來說，您編輯的電影可以同時用一台 "
+"mpeg4 小相機跟一台高畫質 mpeg2 攝影機作為它的來源。"
 
 #: ../../getting_started/introduction.rst:125
 msgid ""
 "Any resolution. Kdenlive will adapt resolution of source files to the "
 "resolution of the project."
-msgstr ""
+msgstr "任何解析度。Kdenlive 會將來源檔案的解析度調整為專案的解析度。"
 
 #: ../../getting_started/introduction.rst:126
 msgid ""
 "Any frame rate (from 15fps to 60 fps or higher). Kdenlive can duplicate/"
 "remove frames when needed."
 msgstr ""
+"任何幀率（從 15fps 到 60fps 或更高）。Kdenlive 能在需要的時候重複或移除影格。"
 
 #: ../../getting_started/introduction.rst:128
 msgid "A wide range of image import formats:"
-msgstr ""
+msgstr "支援大量匯入用的圖片格式："
 
 #: ../../getting_started/introduction.rst:130
 msgid "PNG, GIF, JPEG (jp2, jpe, jpeg, jpg, jpg2), TGA, TIFF, SVG, WEBP"
-msgstr ""
+msgstr "PNG、GIF、JPEG（jp2、jpe、jpeg、jpg、jpg2）、TGA、TIFF、SVG、WEBP"
 
 #: ../../getting_started/introduction.rst:131
 msgid "Since version 22.08: AVIF, HEIF, HEIC, JPEG XL"
-msgstr ""
+msgstr "自 22.08 版：AVIF、HEIF、HEIC、JPEG XL"
 
 #: ../../getting_started/introduction.rst:133
 msgid "Export to most formats"
-msgstr ""
+msgstr "匯出到大部分格式"
 
 #: ../../getting_started/introduction.rst:135
 msgid ""
@@ -240,25 +273,30 @@ msgid ""
 "MPEG-2 and MP4 (PAL, NTSC and HD, UHD/4K), Matroska-H264/H265, AAC, AC3, "
 "MP3, Apple ProRes 422"
 msgstr ""
+"匯出到任何 |ffmpeg| 所支援的格式，包含 DVD（PAL 或 NTSC 皆可）、MPEG-2 與"
+"MP4（PAL、NTSC 及 HD、UHD/4K）、Matroska-H264/H265、AAC、AC3、\\MP3、Apple "
+"ProRes 422"
 
 #: ../../getting_started/introduction.rst:136
 msgid ""
 "Export to animated GIF or as image sequence in other formats, including BMP, "
 "DPX, JPEG, PNG, PPM, TGA, TIFF, WEBP"
 msgstr ""
+"匯出成動態 GIF，或是其他圖片格式的影像序列，包含 BMP、DPX、JPEG、PNG、\\PPM、"
+"TGA、TIFF、WEBP"
 
 #: ../../getting_started/introduction.rst:137
 msgid "Lossless/HQ like FFV1, H.264, HuffYUV and Ut Video"
-msgstr ""
+msgstr "無損/HQ，例如 FFV1、H.264、HuffYUV 或 Ut Video"
 
 #: ../../getting_started/introduction.rst:138
 msgid "Video with Alpha (Alpha MOV, Alpha VP8, Alpha VP9, Ut Video)"
-msgstr ""
+msgstr "包含透明度資訊的影片（Alpha MOV、Alpha VP8、Alpha VP9、Ut Video）"
 
 #: ../../getting_started/introduction.rst:147
 msgid "**Notes**"
-msgstr ""
+msgstr "**備註**"
 
 #: ../../getting_started/introduction.rst:149
 msgid "Berkeley Software Distribution"
-msgstr ""
+msgstr "柏克萊軟體套件"
