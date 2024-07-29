@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:1
 msgid "Alphabetical list of all video effects in Kdenlive"
-msgstr ""
+msgstr "Kdenlive中所有视频效果的字母表"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:1
 msgid "KDE, Kdenlive, video effects, plugins, composition, transition"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:23
 msgid "Video Effects"
-msgstr ""
+msgstr "视频效果"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:26
 msgid ""
@@ -38,10 +38,13 @@ msgid ""
 "your distribution. For the greatest compatibility, please use the AppImage "
 "version of Kdenlive."
 msgstr ""
+"所包含的效果和合成将根据每个操作系统上特定包上的可用插件而有所不同。Kdenlive"
+"将自动检测并提供您的发行版中任何受支持的LADSPA插件包。为了获得最大的兼容性，"
+"请使用Kdenlive的AppImage版本。"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:35
 msgid "Effect or Filter"
-msgstr ""
+msgstr "效果或过滤器"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:36
 msgid "OS\\ [1]_"
@@ -49,11 +52,11 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:37
 msgid "Category"
-msgstr ""
+msgstr "类别"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:38
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:39
 msgid ""
@@ -327,11 +330,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:929
 #: ../../effects_and_compositions/lists/video_effects_list.rst:933
 msgid "Color and Image correction"
-msgstr ""
+msgstr "Color and Image correction/颜色和图像校正"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:42
 msgid "Balances colors along with 3 points (|frei0r.three_point_balance|)"
-msgstr ""
+msgstr "利用3点平衡颜色 (|frei0r.three_point_balance|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:43
 msgid ""
@@ -368,11 +371,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:789
 #: ../../effects_and_compositions/lists/video_effects_list.rst:825
 msgid "Stylize"
-msgstr ""
+msgstr "Stylize/风格化"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:46
 msgid "Dynamic 3-level thresholding (|frei0r.threelay0r|)"
-msgstr ""
+msgstr "动态三级阈值 (|frei0r.threelay0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:47
 msgid ""
@@ -389,13 +392,13 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:733
 #: ../../effects_and_compositions/lists/video_effects_list.rst:885
 msgid "Grain and Noise"
-msgstr ""
+msgstr "Grain and Noise/颗粒和噪点"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:50
 msgid ""
 "Denoise frames using 3D FFT (frequency domain filtering) (|avfilter."
 "fftdnoiz|)"
-msgstr ""
+msgstr "使用三维FFT（频域滤波）对帧进行去噪(|avfilter.fftdnoiz|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:51
 msgid ""
@@ -427,11 +430,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:801
 #: ../../effects_and_compositions/lists/video_effects_list.rst:845
 msgid "Alpha, Mask and Keying"
-msgstr ""
+msgstr "Alpha, Mask and Keying/透明，遮罩和关键帧"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:54
 msgid "Fill the alpha channel with the specified gradient (|frei0r.alphagrad|)"
-msgstr ""
+msgstr "使用指定的渐变填充alpha通道(|frei0r.alphagrad|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:55
 msgid ""
@@ -441,7 +444,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:58
 msgid "Display and manipulation of the alpha channel (|frei0r.alpha0ps|)"
-msgstr ""
+msgstr "alpha通道的显示和操作 (|frei0r.alpha0ps|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:59
 msgid ""
@@ -450,7 +453,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:62
 msgid "Draws simple shapes into the alpha channel (|frei0r.alphaspot|)"
-msgstr ""
+msgstr "在alpha通道上绘制简单图形 (|frei0r.alphaspot|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:63
 msgid ""
@@ -466,6 +469,9 @@ msgid ""
 "typical use case is to add effects in the following sequence: this effect, "
 "zero or more effects, mask_apply. (|mask_start|)"
 msgstr ""
+"此过滤器在将简单形状绘制到alpha通道中之前会获取帧的快照。将其与mask_apply效果"
+"一起使用，后者使用过渡在快照上合成当前帧的图像。典型的用例是按以下顺序添加效"
+"果：此效果、零个或多个效果、mask_apply。 (|mask_start|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:67
 msgid ""
@@ -478,6 +484,8 @@ msgid ""
 "Strobes the alpha channel to 0. Many other filters overwrite the alpha "
 "channel, in that case this needs to be last (|strobe|)"
 msgstr ""
+"将alpha通道选通至0。许多其他过滤器会覆盖alpha通道，在这种情况下，这需要是最后"
+"一个 (|strobe|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:71
 msgid ":doc:`/effects_and_compositions/video_effects/misc/alphaextract`"
@@ -506,13 +514,13 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:729
 #: ../../effects_and_compositions/lists/video_effects_list.rst:941
 msgid "Misc"
-msgstr ""
+msgstr "Misc/其他效果"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:74
 msgid ""
 "Extract an alpha channel as a grayscale image component. (|avfilter."
 "alphaextract|)"
-msgstr ""
+msgstr "提取alpha通道作为灰度图像组件。 (|avfilter.alphaextract|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:75
 msgid ""
@@ -526,6 +534,9 @@ msgid ""
 "the color of a video. Supported formats: 3dl (AfterEffects), .cube "
 "(Iridas), .dat (DaVinci), .m3d (Pandora) (|avfilter.lut3d|)"
 msgstr ""
+"将查找表（LUT）应用于视频。LUT是校正视频颜色的一种简单方法。支持的格式：3dl"
+"（AfterEffects）、.cube（Iridas）、.dat（DaVinci）、.m3d（Pandora）(|"
+"avfilter.lut3d|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:79
 msgid ""
@@ -540,13 +551,13 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:281
 #: ../../effects_and_compositions/lists/video_effects_list.rst:545
 msgid "On Master"
-msgstr ""
+msgstr "On Master/用于主"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:82
 msgid ""
 "An audio visualization filter that draws an audio level meter on the image. "
 "(|audiolevelgraph|)"
-msgstr ""
+msgstr "一种音频可视化过滤器，用于在图像上绘制音频电平计。(|audiolevelgraph|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:83
 msgid ""
@@ -558,7 +569,7 @@ msgstr ""
 msgid ""
 "An audio visualization filter that draws an audio spectrum on the image (|"
 "audiospectrum|)"
-msgstr ""
+msgstr "在图像上绘制音频频谱的音频可视化过滤器（|audiospectrum|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:87
 msgid ":doc:`/effects_and_compositions/video_effects/on_master/audio_wave`"
@@ -566,7 +577,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:90
 msgid "Display the audio waveform instead of the video (|audiowave|)"
-msgstr ""
+msgstr "显示音频波形而不是视频 (|audiowave|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:91
 msgid ""
@@ -578,7 +589,7 @@ msgstr ""
 msgid ""
 "An audio visualization filter that draws an audio waveform on the image. (|"
 "audiowaveform|)"
-msgstr ""
+msgstr "在图像上绘制音频波形的音频可视化过滤器。（|audiowaveform|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:95
 msgid ""
@@ -597,11 +608,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:777
 #: ../../effects_and_compositions/lists/video_effects_list.rst:805
 msgid "Blur and Sharpen"
-msgstr ""
+msgstr "Blur and Sharpen/模糊和锐化"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:98
 msgid "Apply average blur filter (|avfilter.avgblur|)"
-msgstr ""
+msgstr "应用平均模糊过滤器(|avfilter.avgblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:99
 msgid ":doc:`/effects_and_compositions/video_effects/misc/backgroundkey`"
@@ -609,7 +620,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:102
 msgid "Turns a static background into transparency. (|avfilter.backgroundkey|)"
-msgstr ""
+msgstr "将静态背景转换为透明背景。(|avfilter.backgroundkey|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:103
 msgid ""
@@ -624,7 +635,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:106
 #: ../../effects_and_compositions/lists/video_effects_list.rst:278
 msgid "Color curves adjustment (|frei0r.curves|)"
-msgstr ""
+msgstr "颜色曲线调整(|frei0r.curves|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:107
 msgid ""
@@ -633,7 +644,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:110
 msgid "Apply Bilateral filter (|avfilter.bilateral|)"
-msgstr ""
+msgstr "应用双向过滤器(|avfilter.bilateral|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:111
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/binarize`"
@@ -641,7 +652,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:114
 msgid "Make monochrome clip (|threshold|)"
-msgstr ""
+msgstr "制作单色剪辑(|threshold|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:115
 msgid ""
@@ -650,7 +661,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:118
 msgid "Dynamic thresholding (|frei0r.twolay0r|)"
-msgstr ""
+msgstr "动态阈值 (|frei0r.twolay0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:119
 msgid ""
@@ -659,7 +670,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:122
 msgid "Color to alpha (blit SRCALPHA) (|frei0r.bluescreen0r|)"
-msgstr ""
+msgstr "颜色为alpha（blit SRCALPHA）(|frei0r.bluescreen0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:123
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/blur`"
@@ -678,12 +689,12 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:921
 #: ../../effects_and_compositions/lists/video_effects_list.rst:925
 msgid "Deprecated"
-msgstr ""
+msgstr "Deprecated/已弃用"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:126
 msgid ""
 "Blur using 2D IIR filters (exponential, lowpass, gaussian) (|frei0r.IIRblur|)"
-msgstr ""
+msgstr "使用2D IIR滤波器模糊（指数、低通、高斯） (|frei0r.IIRblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:127
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/box_blur`"
@@ -691,7 +702,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:130
 msgid "Box blur (separate horizontal and vertical blur) (|boxblur|)"
-msgstr ""
+msgstr "长方体模糊（分离水平和垂直模糊） (|boxblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:131
 msgid ":doc:`/effects_and_compositions/video_effects/blur_and_sharpen/boxblur`"
@@ -699,7 +710,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:134
 msgid "Box blur (separate horizontal and vertical blur) (|box_blur|)"
-msgstr ""
+msgstr "长方体模糊（分离的水平和垂直模糊）(|box_blur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:135
 msgid ""
@@ -709,7 +720,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:138
 msgid "Adjusts the brightness of a source image (|frei0r.brightness|)"
-msgstr ""
+msgstr "调整源图像的亮度 (|frei0r.brightness|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:139
 msgid ""
@@ -719,7 +730,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:142
 msgid "Change the image |brightness| with keyframes (|brightness|)"
-msgstr ""
+msgstr "使用关键帧更改图像 |brightness| (亮度)(|brightness|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:143
 msgid ""
@@ -728,7 +739,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:146
 msgid "Turns image Black/White (|frei0r.bw0r|)"
-msgstr ""
+msgstr "将图像变为黑/白 (|frei0r.bw0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:147
 msgid ":doc:`/effects_and_compositions/video_effects/generate/cairogradient`"
@@ -745,13 +756,15 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:889
 #: ../../effects_and_compositions/lists/video_effects_list.rst:893
 msgid "Generate"
-msgstr ""
+msgstr "Generate/生成"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:150
 msgid ""
 "Draws a gradient on top of image. Filter is given gradient start and end "
 "points, colors and opacities. (|frei0r.cairogradient|)"
 msgstr ""
+"在图像顶部绘制渐变。过滤器具有渐变起点和终点、颜色和不透明度。 (|frei0r."
+"cairogradient|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:151
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/cartoon`"
@@ -759,7 +772,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:154
 msgid "Cartoonify video, do a form of edge detect (|frei0r.cartoon|)"
-msgstr ""
+msgstr "卡通化视频，做一种边缘检测形式 (|frei0r.cartoon|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:155
 #: ../../effects_and_compositions/lists/video_effects_list.rst:159
@@ -771,15 +784,15 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:158
 msgid "Extracts Blue from Image (|frei0r.B|)"
-msgstr ""
+msgstr "从图像中提取蓝色 (|frei0r.B|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:162
 msgid "Extracts Green from Image (|frei0r.G|)"
-msgstr ""
+msgstr "从图像中提取绿色 (|frei0r.G|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:166
 msgid "Extracts Red from Image (|frei0r.R|)"
-msgstr ""
+msgstr "从图像中提取红色 (|frei0r.R|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:167
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/charcoal`"
@@ -787,7 +800,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:170
 msgid "Charcoal drawing effect (|charcoal|)"
-msgstr ""
+msgstr "木炭绘制效果(|charcoal|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:171
 msgid ""
@@ -799,7 +812,7 @@ msgstr ""
 msgid ""
 "Removes all color information for all colors except for a certain one (|"
 "avfilter.chromahold|)"
-msgstr ""
+msgstr "删除除特定颜色外的所有颜色的所有颜色信息(|avfilter.chromahold|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:175
 msgid ""
@@ -809,7 +822,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:178
 msgid "Make image greyscale except for chosen color (|chroma_hold|)"
-msgstr ""
+msgstr "使图像变为除所选颜色以外的灰度 (|chroma_hold|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:179
 msgid ""
@@ -822,6 +835,8 @@ msgid ""
 "Chroma Key with more advanced options (e.g. different color models). Use if "
 "basic chroma key is not working effectively. (|frei0r.select0r|)"
 msgstr ""
+"具有更高级选项（例如不同颜色型号）的色度键。如果基本色度键不能有效工作，请使"
+"用。（|frei0r.select0r|）"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:183
 msgid ""
@@ -830,7 +845,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:186
 msgid "Make Selected Color transparent (|chroma|)"
-msgstr ""
+msgstr "使所选颜色透明（|chroma|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:187
 msgid ""
@@ -840,7 +855,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:190
 msgid "Reduce chrominance noise (|avfilter.chromanr|)"
-msgstr ""
+msgstr "降低色度噪声（|avfilter.chromanr|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:191
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/chroma_shift`"
@@ -849,7 +864,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:194
 msgid ""
 "Shift chroma pixels horizontally and/or vertically (|avfilter.chromashift|)"
-msgstr ""
+msgstr "水平和/或垂直移动色度像素（|avfilter.chromashift|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:195
 msgid ":doc:`/effects_and_compositions/video_effects/utility/ciescope`"
@@ -868,11 +883,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:877
 #: ../../effects_and_compositions/lists/video_effects_list.rst:881
 msgid "Utility"
-msgstr ""
+msgstr "Utility/工具"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:198
 msgid "Video CIE scope (|avfilter.ciescope|)"
-msgstr ""
+msgstr "视频CIE范围  (|avfilter.ciescope|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:199
 msgid ""
@@ -883,7 +898,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:202
 msgid ""
 "Apply CMYK correction to specific color ranges (|avfilter.selectivecolor|)"
-msgstr ""
+msgstr "将CMYK校正应用于特定的颜色范围(|avfilter.selectivecolor|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:203
 msgid ""
@@ -895,7 +910,7 @@ msgstr ""
 msgid ""
 "Modify intensity of primary colors (red, green and blue) of input frames (|"
 "avfilter.colorbalance|)"
-msgstr ""
+msgstr "修改输入帧的原色（红、绿、蓝）的强度（|avfilter.colorbalance|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:207
 msgid ""
@@ -908,6 +923,8 @@ msgid ""
 "Modifies a color channel by adding the values associated to the other "
 "channels of the same pixels (|avfilter.colorchannelmixer|)"
 msgstr ""
+"通过添加与相同像素的其他通道关联的值来修改颜色通道(|avfilter."
+"colorchannelmixer|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:211
 msgid ""
@@ -918,7 +935,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:214
 msgid ""
 "Adjust color contrast between RGB components. (|avfilter.colorcontrast|)"
-msgstr ""
+msgstr "调整RGB组件之间的颜色对比度。(|avfilter.colorcontrast|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:215
 msgid ""
@@ -931,6 +948,8 @@ msgid ""
 "Adjust color white balance selectively for blacks and whites.This filter "
 "operates in YUV colorspace. (|avfilter.colorcorrect|)"
 msgstr ""
+"针对黑色和白色选择性地调整颜色-白色平衡。此滤波器在YUV颜色空间中工作。(|"
+"avfilter.colorcorrect|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:219
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/color_distance`"
@@ -941,6 +960,8 @@ msgid ""
 "Calculates the distance between the selected color and the current pixel and "
 "uses that value as a new pixel value (|frei0r.colordistance|)"
 msgstr ""
+"计算选定颜色与当前像素之间的距离，并将该值用作新的像素值(|frei0r."
+"colordistance|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:223
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/color_effect`"
@@ -948,7 +969,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:226
 msgid "Applies a pre-made color effect to image (|frei0r.colortap|)"
-msgstr ""
+msgstr "将预先制作的颜色效果应用于图像 (|frei0r.colortap|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:227
 msgid ""
@@ -960,7 +981,7 @@ msgstr ""
 msgid ""
 "Remove all color information all RGB colors except for certain one (|"
 "avfilter.colorhold|)"
-msgstr ""
+msgstr "删除所有颜色信息除特定颜色外的所有RGB颜色(|avfilter.colorhold|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:231
 msgid ""
@@ -970,7 +991,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:234
 msgid "Adjust video input frames using levels (|avfilter.colorlevels|)"
-msgstr ""
+msgstr "使用级别（|avfilter.colorlevels|) 调整视频输入帧)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:235
 msgid ""
@@ -992,11 +1013,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:813
 #: ../../effects_and_compositions/lists/video_effects_list.rst:937
 msgid "Image Adjustment"
-msgstr ""
+msgstr "Image Adjustment/图像调整"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:238
 msgid "Convert color matrix (|avfilter.colormatrix|)"
-msgstr ""
+msgstr "转换颜色矩阵 (|avfilter.colormatrix|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:239
 msgid ""
@@ -1006,7 +1027,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:242
 msgid "Overlay a solid color on the video stream (|avfilter.colorize|)"
-msgstr ""
+msgstr "在视频流上覆盖纯色 (|avfilter.colorize|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:243
 msgid ""
@@ -1018,6 +1039,8 @@ msgid ""
 "Convert colorspace, transfer characteristics or color primaries. Input video "
 "needs to have an even size. (|avfilter.colorspace|)"
 msgstr ""
+"转换色彩空间、转移特征或原色。输入视频需要具有均匀的大小。(|avfilter."
+"colorspace|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:247
 msgid ""
@@ -1027,7 +1050,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:250
 msgid "Adjust color temperature of video (|avfilter.colortemperature|)"
-msgstr ""
+msgstr "调整视频的色温 (|avfilter.colortemperature|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:251
 msgid ""
@@ -1038,7 +1061,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:254
 msgid ""
 "Colorizes image to selected hue, saturation and lightness (|frei0r.colorize|)"
-msgstr ""
+msgstr "将图像着色为选定的色调、饱和度和亮度 (|frei0r.colorize|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:255
 msgid ""
@@ -1048,7 +1071,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:258
 msgid "Adjusts the contrast of a source image (|frei0r.contrast0r|)"
-msgstr ""
+msgstr "调整源图像的对比度 (|frei0r.contrast0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:259
 msgid ""
@@ -1059,7 +1082,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:262
 msgid ""
 "Apply Contrast Adaptive Sharpen filter to video stream. (|avfilter.cas|)"
-msgstr ""
+msgstr "将对比度自适应锐化滤波器应用于视频流。(|avfilter.cas|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:263
 msgid ""
@@ -1093,11 +1116,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:849
 #: ../../effects_and_compositions/lists/video_effects_list.rst:945
 msgid "Transform, Distort and Perspective"
-msgstr ""
+msgstr "Transform, Distort and Perspective/变形，扭曲和透视"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:266
 msgid "Four corners geometry engine (|frei0r.c0rners|)"
-msgstr ""
+msgstr "四角几何引擎 (|frei0r.c0rners|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:267
 msgid ""
@@ -1109,7 +1132,7 @@ msgstr ""
 msgid ""
 "This filter crops the image to a rounded rectangle or circle by padding it "
 "with a color (|qtcrop|)"
-msgstr ""
+msgstr "此过滤器通过填充颜色将图像裁剪为圆形矩形或圆形 (|qtcrop|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:271
 msgid ""
@@ -1125,7 +1148,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:274
 msgid "Scales, Tilts and Crops an Image (|frei0r.scale0tilt|)"
-msgstr ""
+msgstr "缩放、倾斜和裁剪图像(|frei0r.scale0tilt|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:275
 msgid ""
@@ -1140,7 +1163,7 @@ msgstr ""
 msgid ""
 "An audio visualization filter that moves the image around proportional to "
 "the magnitude of the audio spectrum (|dance|)"
-msgstr ""
+msgstr "一种音频可视化过滤器，可根据音频频谱的大小移动图像 (|dance|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:283
 msgid ":doc:`/effects_and_compositions/video_effects/utility/datascope`"
@@ -1148,7 +1171,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:286
 msgid "Video data analysis (|avfilter.datascope|)"
-msgstr ""
+msgstr "视频数据分析 (|avfilter.datascope|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:287
 msgid ":doc:`/effects_and_compositions/video_effects/blur_and_sharpen/dblur`"
@@ -1156,7 +1179,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:290
 msgid "Apply Directional Blur filter. (|avfilter.dblur|)"
-msgstr ""
+msgstr "应用方向模糊过滤器。 (|avfilter.dblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:291
 msgid "dct_denoiser"
@@ -1165,7 +1188,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:294
 msgid ""
 "Denoise frames using 2D DCT frequency domain filtering (|avfilter.dctdnoiz|)"
-msgstr ""
+msgstr "使用2D DCT频域滤波对帧进行去噪 (|avfilter.dctdnoiz|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:295
 msgid ":doc:`/effects_and_compositions/video_effects/image_adjustment/deband`"
@@ -1176,6 +1199,8 @@ msgid ""
 "Remove banding artifacts from input video. It works by replacing banded "
 "pixels with an average value of referenced pixels (|avfilter.deband|)"
 msgstr ""
+"从输入视频中删除带状瑕疵。它的工作原理是将带状像素替换为参考像素的平均值(|"
+"avfilter.deband|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:299
 msgid ""
@@ -1185,7 +1210,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:302
 msgid "Non rectilinear lens mappings (|frei0r.defish0r|)"
-msgstr ""
+msgstr "非线性透镜映射 (|frei0r.defish0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:303
 msgid "delogo"
@@ -1193,7 +1218,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:306
 msgid "Remove logo from input video (|avfilter.delogo|)"
-msgstr ""
+msgstr "从输入视频中删除徽标(|avfilter.delogo|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:307
 msgid ":doc:`/effects_and_compositions/video_effects/grain_and_noise/denoiser`"
@@ -1201,7 +1226,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:310
 msgid "High Quality 3d denoiser (|frei0r.hqdn3d|)"
-msgstr ""
+msgstr "高质量三维去噪器 (|frei0r.hqdn3d|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:311
 msgid ""
@@ -1212,7 +1237,7 @@ msgstr ""
 msgid ""
 "Remove unwanted contamination of foreground colors, caused by reflected "
 "color of greenscreen or bluescreen (|avfilter.despill|)"
-msgstr ""
+msgstr "去除由绿屏或蓝屏反射颜色引起的前景色的不必要污染(|avfilter.despill|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:315
 msgid ""
@@ -1221,7 +1246,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:318
 msgid "Apply dilation effect (|avfilter.dilation|)"
-msgstr ""
+msgstr "应用膨胀效果 (|avfilter.dilation|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:319
 msgid ""
@@ -1231,7 +1256,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:322
 msgid "Plasma (|frei0r.distort0r|)"
-msgstr ""
+msgstr "等离子体 (|frei0r.distort0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:323
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/dither`"
@@ -1241,7 +1266,7 @@ msgstr ""
 msgid ""
 "Dithers the image and reduces the number of available colors (|frei0r."
 "dither|)"
-msgstr ""
+msgstr "抖动图像并减少可用颜色的数量(|frei0r.dither|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:327
 msgid ":doc:`/effects_and_compositions/video_effects/generate/drawbox`"
@@ -1249,7 +1274,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:330
 msgid "Draw a colored box on the input video (|avfilter.drawbox|)"
-msgstr ""
+msgstr "在输入视频上绘制一个彩色框 (|avfilter.drawbox|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:331
 msgid ":doc:`/effects_and_compositions/video_effects/generate/drawgrid`"
@@ -1257,7 +1282,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:334
 msgid "Draw a colored grid on the input video (|avfilter.drawgrid|)"
-msgstr ""
+msgstr "在输入视频上绘制彩色网格 (|avfilter.drawgrid|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:335
 msgid ":doc:`/effects_and_compositions/video_effects/grain_and_noise/dust`"
@@ -1265,7 +1290,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:338
 msgid "Add |dust| and specks to the video, as in old movies (|dust|)"
-msgstr ""
+msgstr "在视频中添加 |dust| 和斑点，就像在旧电影中一样 (|dust|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:339
 msgid ":doc:`/effects_and_compositions/video_effects/generate/dynamic_text`"
@@ -1273,7 +1298,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:342
 msgid "Overlay text with keywords replaced (|dynamictext|)"
-msgstr ""
+msgstr "替换了关键字的覆盖文本(|dynamictext|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:343
 msgid ""
@@ -1283,7 +1308,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:346
 msgid "Trim the edges of a clip (|crop|)"
-msgstr ""
+msgstr "修剪剪辑的边缘 (|crop|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:347
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/edge_detection`"
@@ -1313,7 +1338,7 @@ msgstr ""
 msgid ""
 "This is a frei0r filter which allows to scale video footage non-linearly (|"
 "frei0r.elastic_scale|)"
-msgstr ""
+msgstr "这是一个频率滤波器，允许非线性缩放视频片段(|frei0r.elastic_scale|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:359
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/elbg_posterizer`"
@@ -1321,7 +1346,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:362
 msgid "Apply posterize effect, using the ELBG algorithm (|avfilter.elbg|)"
-msgstr ""
+msgstr "使用ELBG算法(|avfilter.elbg|)应用后验效果"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:363
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/emboss`"
@@ -1329,7 +1354,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:366
 msgid "Creates embossed relief image of source image (|frei0r.emboss|)"
-msgstr ""
+msgstr "创建源图像的浮雕浮雕图像 (|frei0r.emboss|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:367
 msgid ""
@@ -1338,7 +1363,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:370
 msgid "Scale the input using EPX algorithm. (|avfilter.epx|)"
-msgstr ""
+msgstr "使用EPX算法缩放输入。(|avfilter.epx|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:371
 msgid ""
@@ -1348,7 +1373,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:374
 msgid "Equalizes the intensity historgrams (|frei0r.equaliz0r|)"
-msgstr ""
+msgstr "均衡强度直方图(|frei0r.equaliz0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:375
 msgid ":doc:`/effects_and_compositions/video_effects/image_adjustment/erosion`"
@@ -1356,7 +1381,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:378
 msgid "Apply erosion effect (|avfilter.erosion|)"
-msgstr ""
+msgstr "应用侵蚀效果 (|avfilter.erosion|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:379
 msgid ""
@@ -1366,7 +1391,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:382
 msgid "Adjust exposure of the video stream (|avfilter.exposure|)"
-msgstr ""
+msgstr "调整视频流的曝光 (|avfilter.exposure|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:383
 msgid ":doc:`/effects_and_compositions/video_effects/motion/fade_in`"
@@ -1379,11 +1404,11 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:597
 #: ../../effects_and_compositions/lists/video_effects_list.rst:861
 msgid "Motion"
-msgstr ""
+msgstr "Motion/运动"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:386
 msgid "Fade video from black (|brightness|)"
-msgstr ""
+msgstr "将视频从黑色淡出(|brightness|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:387
 msgid ":doc:`/effects_and_compositions/video_effects/motion/fade_out`"
@@ -1391,7 +1416,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:390
 msgid "Fade video to black (|brightness|)"
-msgstr ""
+msgstr "将视频淡入黑色 (|brightness|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:391
 msgid ""
@@ -1403,7 +1428,7 @@ msgstr ""
 msgid ""
 "Apply arbitrary expressions to samples in frequency domain (|avfilter."
 "fftfilt|)"
-msgstr ""
+msgstr "将任意表达式应用于频域中的样本 (|avfilter.fftfilt|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:395
 msgid ""
@@ -1418,6 +1443,8 @@ msgid ""
 "crop video input to keep size multiple of some number (|avfilter."
 "fillborders|)"
 msgstr ""
+"填充输入视频的边界，而不更改视频流的尺寸。有时视频的四个边缘可能有垃圾，您可"
+"能不想裁剪视频输入以保持某个数字的倍数 (|avfilter.fillborders|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:399
 msgid ""
@@ -1427,7 +1454,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:402
 msgid "Horizontally flip the input video (|avfilter.hflip|)"
-msgstr ""
+msgstr "水平翻转输入视频 (|avfilter.hflip|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:403
 msgid ""
@@ -1437,7 +1464,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:406
 msgid "Vertically flip the input video (|avfilter.vflip|)"
-msgstr ""
+msgstr "垂直翻转输入视频 (|avfilter.vflip|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:407
 msgid ""
@@ -1447,7 +1474,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:410
 msgid "Flipping X and Y axis (|frei0r.flippo|)"
-msgstr ""
+msgstr "翻转X和Y轴 (|frei0r.flippo|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:411
 msgid ":doc:`/effects_and_compositions/video_effects/motion/freeze`"
@@ -1455,7 +1482,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:414
 msgid "Freeze video on a chosen frame (|freeze|)"
-msgstr ""
+msgstr "在所选帧上冻结视频 (|freeze|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:415
 msgid ""
@@ -1464,7 +1491,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:418
 msgid "Adjusts the gamma value of a source image (|frei0r.gamma|)"
-msgstr ""
+msgstr "调整源图像的gamma值 (|frei0r.gamma|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:419
 msgid ""
@@ -1474,7 +1501,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:422
 msgid "Change |gamma| color value (|gamma|)"
-msgstr ""
+msgstr "更改 |gamma| 颜色值 (|gamma|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:423
 msgid ""
@@ -1483,7 +1510,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:426
 msgid "Apply Gaussian Blur filter (|avfilter.gblur|)"
-msgstr ""
+msgstr "应用高斯模糊滤波器 (|avfilter.gblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:427
 msgid ":doc:`/effects_and_compositions/video_effects/motion/glitch0r`"
@@ -1491,7 +1518,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:430
 msgid "Adds glitches and block shifting (|frei0r.glitch0r|)"
-msgstr ""
+msgstr "添加小故障和块移位 (|frei0r.glitch0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:431
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/glow`"
@@ -1499,7 +1526,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:434
 msgid "Creates a Glamorous Glow (|frei0r.glow|)"
-msgstr ""
+msgstr "创建迷人的光晕 (|frei0r.glow|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:435
 msgid ":doc:`/effects_and_compositions/video_effects/misc/gps_graphic`"
@@ -1507,7 +1534,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:438
 msgid "Overlay GPS-related graphics onto the video (|gpsgraphic|)"
-msgstr ""
+msgstr "将GPS相关图形叠加到视频上 (|gpsgraphic|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:439
 msgid ":doc:`/effects_and_compositions/video_effects/generate/gps_text`"
@@ -1515,7 +1542,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:442
 msgid "Overlay GPS-related text onto the video. (|gpstext|)"
-msgstr ""
+msgstr "将GPS相关文本叠加到视频中。 (|gpstext|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:443
 msgid ":doc:`/effects_and_compositions/video_effects/grain_and_noise/gradfun`"
@@ -1523,7 +1550,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:446
 msgid "Debands video quickly using gradients (|avfilter.gradfun|)"
-msgstr ""
+msgstr "使用渐变快速Debands视频 (|avfilter.gradfun|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:447
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/grain`"
@@ -1531,7 +1558,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:450
 msgid "Grain over the image (|grain|)"
-msgstr ""
+msgstr "图像上的纹理 (|grain|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:451
 msgid ":doc:`/effects_and_compositions/video_effects/misc/grayworld`"
@@ -1540,7 +1567,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:454
 msgid ""
 "Adjust white balance using LAB gray world algorithm (|avfilter.grayworld|)"
-msgstr ""
+msgstr "使用LAB灰度世界算法(|avfilter.grayworld|)调整白平衡 "
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:455
 msgid ""
@@ -1550,7 +1577,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:458
 msgid "Discard color information (|greyscale|)"
-msgstr ""
+msgstr "放弃颜色信息 (|greyscale|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:459
 msgid ":doc:`/effects_and_compositions/video_effects/utility/histogram`"
@@ -1560,7 +1587,7 @@ msgstr ""
 msgid ""
 "Compute and draw a color distribution histogram for the input video (|"
 "avfilter.histogram|)"
-msgstr ""
+msgstr "计算并绘制输入视频的颜色分布直方图(|avfilter.histogram|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:463
 msgid ""
@@ -1572,7 +1599,7 @@ msgstr ""
 msgid ""
 "This filter applies a global color histogram equalization on a per-frame "
 "basis (|avfilter.histeq|)"
-msgstr ""
+msgstr "此滤波器在每帧的基础上应用全局颜色直方图均衡(|avfilter.histeq|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:467
 msgid ""
@@ -1584,7 +1611,7 @@ msgstr ""
 msgid ""
 "Scale the input by 2, 3 or 4 using the hq*x magnification algorithm (|"
 "avfilter.hqx|)"
-msgstr ""
+msgstr "使用hq*x放大算法将输入缩放2、3或4(|avfilter.hqx|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:471
 msgid ":doc:`/effects_and_compositions/video_effects/misc/hsvkey`"
@@ -1594,7 +1621,7 @@ msgstr ""
 msgid ""
 "Turns a certain HSV range into transparency. Operates on YUV colors. (|"
 "avfilter.hsvkey|)"
-msgstr ""
+msgstr "将某个HSV范围转换为透明度。操作YUV颜色。(|avfilter.hsvkey|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:475
 msgid ""
@@ -1604,7 +1631,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:478
 msgid "Shifts the hue of a source image (|frei0r.hueshift0r|)"
-msgstr ""
+msgstr "移动源图像的色调(|frei0r.hueshift0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:479
 msgid ":doc:`/effects_and_compositions/video_effects/misc/huesaturation`"
@@ -1612,7 +1639,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:482
 msgid "Apply hue-saturation-intensity adjustments. (|avfilter.huesaturation|)"
-msgstr ""
+msgstr "应用色调饱和度强度调整。(|avfilter.huesaturation|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:483
 msgid ":doc:`/effects_and_compositions/video_effects/misc/hsvhold`"
@@ -1620,7 +1647,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:486
 msgid "Turns a certain HSV range into gray. (|avfilter.hsvhold|)"
-msgstr ""
+msgstr "将某个HSV范围变为灰色。(|avfilter.hsvhold|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:487
 msgid ""
@@ -1630,7 +1657,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:490
 msgid "Transform the field order of the input video (|avfilter.fieldorder|)"
-msgstr ""
+msgstr "转换输入视频的场顺序 (|avfilter.fieldorder|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:491
 msgid ""
@@ -1640,7 +1667,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:494
 msgid "Deinterleave or interleave fields (|avfilter.il|)"
-msgstr ""
+msgstr "取消交错或交错场(|avfilter.il|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:495
 #: ../../effects_and_compositions/lists/video_effects_list.rst:499
@@ -1650,11 +1677,11 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:498
 msgid "Invert colors (|invert|)"
-msgstr ""
+msgstr "反转颜色 (|invert|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:502
 msgid "Inverts all colors of a source image (|frei0r.invert0r|)"
-msgstr ""
+msgstr "反转源图像的所有颜色 (|frei0r.invert0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:503
 msgid ""
@@ -1664,7 +1691,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:506
 msgid ""
 "Clusters of a source image by color and spatial distance (|frei0r.cluster|)"
-msgstr ""
+msgstr "按颜色和空间距离划分的源图像的簇 (|frei0r.cluster|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:507
 msgid ""
@@ -1678,6 +1705,8 @@ msgid ""
 "deinterlacing. Works on interlaced parts of a video to produce progressive "
 "frames (|avfilter.kerndeint|)"
 msgstr ""
+"通过应用Donald Graft的自适应内核去隔行扫描来对输入视频进行去隔行处理。处理视"
+"频的交错部分以生成渐进帧(|avfilter.kerndeint|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:511
 msgid ""
@@ -1689,7 +1718,7 @@ msgstr ""
 msgid ""
 "Reduces the visibility of key color spill in chroma keying (|frei0r."
 "keyspillm0pup|)"
-msgstr ""
+msgstr "降低色度关键帧中关键帧颜色溢出的可见性 (|frei0r.keyspillm0pup|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:515
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/kirsch`"
@@ -1697,15 +1726,15 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:518
 msgid "Apply kirsch operator (|avfilter.kirsch|)"
-msgstr ""
+msgstr "应用kirsch运算符 (|avfilter.kirsch|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:519
 msgid "Legacy ffmpeg deinterlacer **deprecated**"
-msgstr ""
+msgstr "旧式ffmpeg解交织器**已弃用**"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:522
 msgid "Deinterlace interlaced video. (|avdeinterlace|)"
-msgstr ""
+msgstr "隔行扫描交错视频。(|avdeinterlace|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:523
 msgid ""
@@ -1715,7 +1744,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:526
 msgid "Allow compensation of lens distortion (|frei0r.lenscorrection|)"
-msgstr ""
+msgstr "允许补偿透镜失真 (|frei0r.lenscorrection|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:527
 msgid ""
@@ -1725,7 +1754,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:530
 msgid "Correct radial lens distortion (|avfilter.lenscorrection|)"
-msgstr ""
+msgstr "校正径向透镜失真 (|avfilter.lenscorrection|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:531
 msgid ""
@@ -1737,7 +1766,7 @@ msgstr ""
 msgid ""
 "Adds black borders at the top and bottom for cinema look (|frei0r."
 "letterb0xed|)"
-msgstr ""
+msgstr "在顶部和底部添加黑色边框以获得影院效果 (|frei0r.letterb0xed|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:535
 msgid ""
@@ -1746,7 +1775,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:538
 msgid "Adjust levels (|frei0r.levels|)"
-msgstr ""
+msgstr "调整级别(|frei0r.levels|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:539
 msgid ""
@@ -1757,7 +1786,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:542
 msgid ""
 "A simple lift/gamma/gain effect, used for color grading. (|lift_gamma_gain|)"
-msgstr ""
+msgstr "一种简单的提升/伽玛/增益效果，用于颜色分级。 (|lift_gamma_gain|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:543
 msgid ":doc:`/effects_and_compositions/video_effects/on_master/light_show`"
@@ -1767,7 +1796,7 @@ msgstr ""
 msgid ""
 "An audio visualization filter that colors the image proportional to the "
 "magnitude of the audio spectrum (|lightshow|)"
-msgstr ""
+msgstr "一种音频可视化过滤器，可根据音频频谱的大小对图像进行着色(|lightshow|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:547
 msgid ""
@@ -1778,7 +1807,7 @@ msgstr ""
 msgid ""
 "Limits the pixel components values to the specified range [min,max] (|"
 "avfilter.limiter|)"
-msgstr ""
+msgstr "将像素分量值限制在指定范围[min，max]内(|avfilter.limiter|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:551
 msgid ""
@@ -1792,6 +1821,8 @@ msgid ""
 "or dark areas of source image are overwritten on top of the destination "
 "image (|lumakey|)"
 msgstr ""
+"此过滤器将图像的alpha通道修改为亮度值的函数。这与合成器一起使用，以组合两个图"
+"像，从而将源图像的亮区或暗区覆盖在目标图像的顶部(|lumakey|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:555
 msgid ""
@@ -1804,6 +1835,7 @@ msgid ""
 "Filter can be used to apply lift gain and gamma corrections to luma values "
 "of an image (|lumaliftgaingamma|)"
 msgstr ""
+"滤波器可用于将提升增益和伽玛校正应用于图像的亮度值(|lumaliftgaingamma|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:559
 msgid ""
@@ -1813,7 +1845,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:562
 msgid "Creates a luminance map of the image (|frei0r.luminance|)"
-msgstr ""
+msgstr "创建图像的亮度贴图 (|frei0r.luminance|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:563
 msgid ""
@@ -1824,7 +1856,7 @@ msgstr ""
 msgid ""
 "Apply the previous effects in the zone defined by a Mask Start effect. (|"
 "mask_apply|)"
-msgstr ""
+msgstr "在由“遮罩开始”效果定义的区域中应用以前的效果。 (|mask_apply|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:567
 msgid ":doc:`/effects_and_compositions/video_effects/grain_and_noise/median`"
@@ -1834,7 +1866,7 @@ msgstr ""
 msgid ""
 "Pick median pixel from certain rectangle defined by radius. (|avfilter."
 "median|)"
-msgstr ""
+msgstr "从由半径定义的某个矩形中拾取中间像素。(|avfilter.median|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:571
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/medians`"
@@ -1842,7 +1874,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:574
 msgid "Implements several median-type filters (|frei0r.medians|)"
-msgstr ""
+msgstr "实现多个中值类型筛选器 (|frei0r.medians|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:575
 msgid ""
@@ -1852,7 +1884,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:578
 msgid "Flip your image in any direction (|mirror|)"
-msgstr ""
+msgstr "向任意方向翻转图像 (|mirror|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:579
 msgid ""
@@ -1862,7 +1894,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:582
 msgid "Convert video to gray using custom color filter (|avfilter.monochrome|)"
-msgstr ""
+msgstr " 使用自定义滤色器(|avfilter.monochrome|)将视频转换为灰色"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:583
 msgid ""
@@ -1872,7 +1904,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:586
 msgid "Select a zone to follow its movements (|opencv.tracker|)"
-msgstr ""
+msgstr "选择一个区域以跟踪其移动(|opencv.tracker|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:587
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/ndvi_filter`"
@@ -1882,7 +1914,7 @@ msgstr ""
 msgid ""
 "This filter creates a false image from a visible + infrared source (|frei0r."
 "ndvi|)"
-msgstr ""
+msgstr "此滤镜会从 可见光+红外光源 创建假图像 (|frei0r.ndvi|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:591
 msgid ""
@@ -1892,7 +1924,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:594
 msgid ""
 "Negate (invert) the input video or its alpha channel. (|avfilter.negate|)"
-msgstr ""
+msgstr "否定（反转）输入视频或其alpha通道。 (|avfilter.negate|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:595
 msgid ":doc:`/effects_and_compositions/video_effects/motion/nervous`"
@@ -1900,7 +1932,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:598
 msgid "Flushes frames in time in a nervous way (|frei0r.nervous|)"
-msgstr ""
+msgstr "以紧张的方式及时刷新帧 (|frei0r.nervous|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:599
 msgid ""
@@ -1915,6 +1947,9 @@ msgid ""
 "poor downsampling. These can be smoothed out with this filter if they become "
 "too annoying (|frei0r.d90stairsteppingfix|)"
 msgstr ""
+"从尼康D90的720p视频中删除阶梯式伪影。尼康D90视频中的尖锐线条显示了每8行或第9"
+"行的步长，这可能是由于下采样不佳。如果它们变得太烦人，可以使用此过滤器进行平"
+"滑处理 (|frei0r.d90stairsteppingfix|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:603
 msgid ""
@@ -1925,7 +1960,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:606
 msgid ""
 "Normalize (aka histogram stretch, contrast stretch) (|frei0r.normaliz0r|)"
-msgstr ""
+msgstr "归一化（也称为直方图拉伸、对比度拉伸）(|frei0r.normaliz0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:607
 msgid ""
@@ -1939,6 +1974,8 @@ msgid ""
 "https://en.wikipedia.org/wiki/Normalization_(image_processing) (|avfilter."
 "normalize|)"
 msgstr ""
+"规格化RGB视频（也称为直方图拉伸、对比度拉伸）。参看 https://en.wikipedia.org/"
+"wiki/Normalization_(image_processing) (|avfilter.normalize|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:611
 msgid ""
@@ -1948,7 +1985,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:614
 msgid "Broken TV (|frei0r.nosync0r|)"
-msgstr ""
+msgstr "坏电视 (|frei0r.nosync0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:615
 msgid ""
@@ -1957,7 +1994,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:618
 msgid "Hide a region of the clip (|obscure|)"
-msgstr ""
+msgstr "隐藏剪辑的某个区域 (|obscure|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:619
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/oldfilm`"
@@ -1965,7 +2002,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:622
 msgid "Moves the Picture up and down and random brightness change (|oldfilm|)"
-msgstr ""
+msgstr "上下移动图片并随机更改亮度 (|oldfilm|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:623
 msgid ":doc:`/effects_and_compositions/video_effects/utility/oscilloscope`"
@@ -1973,7 +2010,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:626
 msgid "2D Video Oscilloscope (|avfilter.oscilloscope|)"
-msgstr ""
+msgstr "2D视频示波器 (|avfilter.oscilloscope|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:627
 msgid ""
@@ -1982,7 +2019,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:630
 msgid "2D video oscilloscope (|frei0r.pr0file|)"
-msgstr ""
+msgstr "2D视频示波器 (|frei0r.pr0file|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:631
 msgid ":doc:`/effects_and_compositions/video_effects/image_adjustment/phase`"
@@ -1992,7 +2029,7 @@ msgstr ""
 msgid ""
 "Delay interlaced video by one field time so that the field order changes (|"
 "avfilter.phase|)"
-msgstr ""
+msgstr "将隔行扫描视频延迟一场时间，以便场顺序发生变化(|avfilter.phase|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:635
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/photosensitivity`"
@@ -2002,7 +2039,7 @@ msgstr ""
 msgid ""
 "Filter out photosensitive epilepsy seizure-inducing flashes (|avfilter."
 "photosensitivity|)"
-msgstr ""
+msgstr "滤除光敏性癫痫发作引起的闪光 (|avfilter.photosensitivity|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:639
 msgid ""
@@ -2013,7 +2050,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:642
 msgid ""
 "Create an echo effect (blur) outside of an area of interest (|pillar_echo|)"
-msgstr ""
+msgstr "在感兴趣的区域之外创建回声效果（模糊） (|pillar_echo|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:643
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/pixelize`"
@@ -2021,7 +2058,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:646
 msgid "Pixelize input image (|frei0r.pixeliz0r|)"
-msgstr ""
+msgstr "将输入图像像素化(|frei0r.pixeliz0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:647
 msgid ":doc:`/effects_and_compositions/video_effects/misc/pixs0r`"
@@ -2029,7 +2066,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:650
 msgid "Glitch image shifting rows to and fro (|frei0r.pixs0r|)"
-msgstr ""
+msgstr "来回移动行的闪烁图像 (|frei0r.pixs0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:651
 msgid ""
@@ -2041,6 +2078,7 @@ msgid ""
 "Set an expression for the box radius in pixels used for blurring the "
 "corresponding input plane. (|avfilter.boxblur|)"
 msgstr ""
+"设置用于模糊相应输入平面的框半径表达式（以像素为单位）。(|avfilter.boxblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:655
 msgid ""
@@ -2050,7 +2088,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:658
 msgid "Adjust size and position of clip (|affine|)"
-msgstr ""
+msgstr "调整剪辑的大小和位置 (|affine|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:659
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/posterize`"
@@ -2060,7 +2098,7 @@ msgstr ""
 msgid ""
 "Posterizes image by reducing the number of colors used in image (|frei0r."
 "posterize|)"
-msgstr ""
+msgstr "通过减少图像中使用的颜色数量对图像进行后处理 (|frei0r.posterize|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:663
 msgid ""
@@ -2071,7 +2109,7 @@ msgstr ""
 msgid ""
 "Multiply (or divide) each color component by the pixel's alpha value (|"
 "frei0r.premultiply|)"
-msgstr ""
+msgstr "将每个颜色分量乘以（或除以）像素的alpha值 (|frei0r.premultiply|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:667
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/prewitt`"
@@ -2079,7 +2117,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:670
 msgid "Apply prewitt operator to input video stream (|avfilter.prewitt|)"
-msgstr ""
+msgstr "将prewitt运算符应用于输入视频流 (|avfilter.prewitt|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:671
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/primaries`"
@@ -2087,7 +2125,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:674
 msgid "Reduce image to primary colors (|frei0r.primaries|)"
-msgstr ""
+msgstr "将图像还原为原色 (|frei0r.primaries|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:675
 msgid ""
@@ -2097,7 +2135,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:678
 msgid "Creates a square alpha-channel mask (|frei0r.mask0mate|)"
-msgstr ""
+msgstr "创建方形alpha通道遮罩 (|frei0r.mask0mate|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:679
 msgid ""
@@ -2107,7 +2145,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:682
 msgid "Simple color adjustment (|frei0r.coloradj_RGB|)"
-msgstr ""
+msgstr "简单颜色调整(|frei0r.coloradj_RGB|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:683
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/rgbnoise`"
@@ -2115,7 +2153,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:686
 msgid "Adds RGB noise to image (|frei0r.rgbnoise|)"
-msgstr ""
+msgstr "将RGB噪波添加到图像中(|frei0r.rgbnoise|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:687
 msgid ":doc:`/effects_and_compositions/video_effects/utility/rgb_parade`"
@@ -2128,7 +2166,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:694
 msgid ""
 "Shift R/G/B/A pixels horizontally and/or vertically (|avfilter.rgbashift|)"
-msgstr ""
+msgstr "水平和/或垂直移动R/G/B/A像素(|avfilter.rgbashift|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:695
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/rgbsplit0r`"
@@ -2136,7 +2174,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:698
 msgid "RGB splitter and shifting (|frei0r.rgbsplit0r|)"
-msgstr ""
+msgstr "RGB拆分器和移位 (|frei0r.rgbsplit0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:699
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/roberts`"
@@ -2144,7 +2182,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:702
 msgid "Apply roberts cross operator to input video stream (|avfilter.roberts|)"
-msgstr ""
+msgstr "将roberts交叉运算符应用于输入视频流(|avfilter.roberts|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:703
 msgid ""
@@ -2155,7 +2193,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:706
 #: ../../effects_and_compositions/lists/video_effects_list.rst:710
 msgid "Rotate clip in any 3 directions (|affine|)"
-msgstr ""
+msgstr "在任意3个方向上旋转剪辑 (|affine|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:707
 msgid ""
@@ -2170,7 +2208,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:714
 msgid "Keyframable vector based |rotoscoping| (|rotoscoping|)"
-msgstr ""
+msgstr "基于关键帧的矢量 |rotoscoping| (|rotoscoping|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:715
 msgid ""
@@ -2186,6 +2224,9 @@ msgid ""
 "The typical use case is to add effects in the following sequence: this "
 "effect, zero or more effects, mask_apply. (|mask_start|)"
 msgstr ""
+"此过滤器在应用可设置关键帧的基于矢量的旋转范围之前生成帧的快照。将其与"
+"mask_apply效果一起使用，后者使用过渡在快照上合成当前帧的图像。典型的用例是按"
+"以下顺序添加效果：此效果、零个或多个效果、mask_apply。(|mask_start|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:719
 msgid ""
@@ -2195,7 +2236,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:722
 msgid "Adjusts the saturation of a source image (|frei0r.saturat0r|)"
-msgstr ""
+msgstr "调整源图像的饱和度(|frei0r.saturat0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:723
 msgid ":doc:`/effects_and_compositions/video_effects/generate/scanline0r`"
@@ -2203,7 +2244,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:726
 msgid "Interlaced black lines (|frei0r.scanline0r|)"
-msgstr ""
+msgstr "交错黑线 (|frei0r.scanline0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:727
 msgid ":doc:`/effects_and_compositions/video_effects/misc/scharr`"
@@ -2211,7 +2252,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:730
 msgid "Apply scharr operator. (|avfilter.scharr|)"
-msgstr ""
+msgstr "应用scharr运算符。 (|avfilter.scharr|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:731
 msgid ""
@@ -2220,7 +2261,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:734
 msgid "Scratch|lines| over the picture (|lines|)"
-msgstr ""
+msgstr "在图片上划线 (|lines|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:735
 msgid ""
@@ -2232,7 +2273,7 @@ msgstr ""
 msgid ""
 "Pick median pixel from certain rectangle defined by radius. (|avfilter."
 "scroll|)"
-msgstr ""
+msgstr "从由半径定义的某个矩形中拾取中间像素。 (|avfilter.scroll|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:739
 msgid ""
@@ -2249,6 +2290,10 @@ msgid ""
 "case is to add effects in the following sequence: this effect, zero or more "
 "effects, mask_apply. (|mask_start|)"
 msgstr ""
+"在应用具有更高级选项（例如，不同颜色型号）的可设置关键帧的色度键选择之前，此"
+"过滤器会拍摄帧的快照。将其与mask_apply效果一起使用，后者使用过渡在快照上合成"
+"当前帧的图像。典型的用例是按以下顺序添加效果：此效果、零个或多个效果、"
+"mask_apply。 (|mask_start|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:743
 msgid ""
@@ -2257,7 +2302,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:746
 msgid "Turn clip colors to |sepia| (|sepia|)"
-msgstr ""
+msgstr "将剪辑颜色设置为 |sepia| (|sepia|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:747
 msgid ""
@@ -2266,7 +2311,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:750
 msgid "Force color range for the output video frame (|avfilter.setrange|)"
-msgstr ""
+msgstr "强制输出视频帧的颜色范围 (|avfilter.setrange|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:751
 msgid ""
@@ -2276,7 +2321,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:754
 msgid "Shape Adaptive Blur (|avfilter.sab|)"
-msgstr ""
+msgstr "形状自适应模糊 (|avfilter.sab|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:755
 msgid ""
@@ -2286,7 +2331,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:758
 msgid ""
 "Create an alpha channel (transparency) based on another resource (|shape|)"
-msgstr ""
+msgstr "基于其他资源（|shape|) 创建alpha通道（透明度） "
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:759
 msgid ""
@@ -2295,7 +2340,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:762
 msgid "Sharpen or Blur your video (|avfilter.unsharp|)"
-msgstr ""
+msgstr "锐化或模糊视频（|avfilter.unsharp|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:763
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/sharpen`"
@@ -2303,7 +2348,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:766
 msgid "Unsharp masking (port from Mplayer) (|frei0r.sharpness|)"
-msgstr ""
+msgstr "Unsharp掩蔽（来自Mplayer的端口） (|frei0r.sharpness|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:767
 msgid ""
@@ -2313,7 +2358,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:770
 msgid "Shear transform the input image (|avfilter.shear|)"
-msgstr ""
+msgstr "剪切变换输入图像 (|avfilter.shear|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:771
 msgid ""
@@ -2325,6 +2370,8 @@ msgid ""
 "Desaturates image and creates a particular look that could be called Stamp, "
 "Newspaper, or Photocopy (|frei0r.sigmoidaltransfer|)"
 msgstr ""
+"淡化图像并创建一种特殊的外观，可以称为邮票、报纸或复印件(|frei0r."
+"sigmoidaltransfer|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:775
 msgid ""
@@ -2334,7 +2381,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:778
 msgid ""
 "Blur the input video without impacting the outlines (|avfilter.smartblur|)"
-msgstr ""
+msgstr "模糊输入视频而不影响轮廓 (|avfilter.smartblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:779
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/sobel`"
@@ -2342,7 +2389,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:782
 msgid "Sobel filter (|frei0r.sobel|)"
-msgstr ""
+msgstr "索贝尔滤波器(|frei0r.sobel|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:783
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/sobel_planes`"
@@ -2350,7 +2397,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:786
 msgid "Apply sobel operators to input video stream (|avfilter.sobel|)"
-msgstr ""
+msgstr "将sobel运算符应用于输入视频流 (|avfilter.sobel|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:787
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/soft_glow`"
@@ -2358,7 +2405,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:790
 msgid "Does softglow effect on highlights (|frei0r.softglow|)"
-msgstr ""
+msgstr "对高光产生柔和光晕效果 (|frei0r.softglow|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:791
 msgid ""
@@ -2370,6 +2417,8 @@ msgid ""
 "Changes Slope, Offset, and Power of the color components, and the overall "
 "Saturation, according to the ASC CDL (Color Decision List) (|frei0r.sopsat|)"
 msgstr ""
+"根据ASC CDL（颜色决策列表）更改颜色分量的斜率、偏移和功率以及整体饱和度(|"
+"spot_remover|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:795
 msgid ""
@@ -2382,6 +2431,7 @@ msgid ""
 "Remove green or blue spill light from subjects shot in front of green or "
 "blue screen (|frei0r.spillsupress|)"
 msgstr ""
+"移除在绿色或蓝色屏幕前拍摄的受试者的绿色或蓝色溢出光 (|frei0r.spillsupress|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:799
 msgid ""
@@ -2393,6 +2443,7 @@ msgid ""
 "Replace an area with interpolated pixels. The new pixel values are "
 "interpolated from the nearest pixel. (|spot_remover|)"
 msgstr ""
+"用插值像素替换区域。新的像素值是从最近的像素进行插值的。 (|spot_remover|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:803
 msgid ""
@@ -2401,7 +2452,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:806
 msgid "Square Blur (|frei0r.squareblur|)"
-msgstr ""
+msgstr "方形模糊 (|frei0r.squareblur|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:807
 msgid ""
@@ -2416,12 +2467,12 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:913
 #: ../../effects_and_compositions/lists/video_effects_list.rst:917
 msgid "VR360 and 3D"
-msgstr ""
+msgstr "VR360 and 3D/全景和3维"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:810
 msgid ""
 "Convert between different stereoscopic image formats (|avfilter.stereo3d|)"
-msgstr ""
+msgstr "在不同的立体图像格式之间转换(|avfilter.stereo3d|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:811
 msgid ""
@@ -2432,7 +2483,7 @@ msgstr ""
 msgid ""
 "Scale the input by 2x using the Super2xSaI pixel art algorithm (|avfilter."
 "super2xsai|)"
-msgstr ""
+msgstr "使用Super2xSaI像素艺术算法将输入缩放2倍(|avfilter.super2xsai|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:815
 msgid ""
@@ -2441,7 +2492,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:818
 msgid "Swap U and V components (|avfilter.swapuv|)"
-msgstr ""
+msgstr "交换U和V分量 (|avfilter.swapuv|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:819
 msgid ""
@@ -2452,7 +2503,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:822
 msgid ""
 "Oversaturate the color in video, like in old Technicolor movies (|tcolor|)"
-msgstr ""
+msgstr "使视频中的颜色过饱和，就像在旧的彩色电影中一样 (|tcolor|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:823
 msgid ":doc:`/effects_and_compositions/video_effects/stylize/threshold`"
@@ -2460,7 +2511,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:826
 msgid "Thresholds a source image (|frei0r.threshold0r|)"
-msgstr ""
+msgstr "对源映像设置阈值(|frei0r.threshold0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:827
 msgid ""
@@ -2469,7 +2520,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:830
 msgid "Timeout indicators e.g. for slides (|frei0r.timeout|)"
-msgstr ""
+msgstr "超时指示器，例如幻灯片 (|frei0r.timeout|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:831
 msgid ":doc:`/effects_and_compositions/video_effects/generate/timer`"
@@ -2477,7 +2528,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:834
 msgid "Overlay a |timer| onto the video (|timer|)"
-msgstr ""
+msgstr "将 |timer| 叠加到视频上(|timer|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:835
 msgid ""
@@ -2487,7 +2538,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:838
 msgid ""
 "Maps source image luminance between two colors specified (|frei0r.tint0r|)"
-msgstr ""
+msgstr "在指定的两种颜色之间映射源图像亮度(|frei0r.tint0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:839
 msgid ""
@@ -2497,7 +2548,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:842
 msgid "Position, Scale and opacity, (|qtblend|)"
-msgstr ""
+msgstr "位置、比例和不透明度, (|qtblend|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:843
 msgid ""
@@ -2506,7 +2557,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:846
 msgid "Tunes the alpha channel (|frei0r.transparency|)"
-msgstr ""
+msgstr "调整alpha通道(|frei0r.transparency|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:847
 msgid ""
@@ -2518,7 +2569,7 @@ msgstr ""
 msgid ""
 "Transpose rows with columns in the input video and optionally flip it (|"
 "avfilter.transpose|)"
-msgstr ""
+msgstr "在输入视频中转换带列的行，并可选择翻转 (|avfilter.transpose|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:851
 msgid ":doc:`/effects_and_compositions/video_effects/utility/vectorscope`"
@@ -2526,7 +2577,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:854
 msgid "Display a vectorscope of the video data (|frei0r.vectorscope|)"
-msgstr ""
+msgstr "显示视频数据的矢量范围 (|frei0r.vectorscope|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:855
 msgid ""
@@ -2537,7 +2588,7 @@ msgstr ""
 msgid ""
 "Display 2 color component values in the two dimensional graph (which is "
 "called a vectorscope) (|avfilter.vectorscope|)"
-msgstr ""
+msgstr "在二维图中显示2个颜色分量值（称为矢量图） (|avfilter.vectorscope|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:859
 msgid ":doc:`/effects_and_compositions/video_effects/motion/vertigo`"
@@ -2545,7 +2596,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:862
 msgid "Alpha blending with zoomed and rotated images (|frei0r.vertigo|)"
-msgstr ""
+msgstr "Alpha与缩放和旋转的图像混合 (|frei0r.vertigo|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:863
 msgid ""
@@ -2555,7 +2606,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:866
 msgid "Boost or alter saturation.  (|avfilter.vibrance|)"
-msgstr ""
+msgstr "提高或改变饱和度。 (|avfilter.vibrance|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:867
 msgid ""
@@ -2565,7 +2616,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:870
 msgid "Adjust Brightness, contrast, gamma, saturation (|avfilter.eq|)"
-msgstr ""
+msgstr "调整亮度、对比度、伽玛、饱和度(|avfilter.eq|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:871
 msgid ":doc:`/effects_and_compositions/video_effects/generate/video_grid`"
@@ -2573,7 +2624,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:874
 msgid "Create a video grid (|frei0r.cairoimagegrid|)"
-msgstr ""
+msgstr "创建视频网格 (|frei0r.cairoimagegrid|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:875
 msgid ":doc:`/effects_and_compositions/video_effects/utility/video_values`"
@@ -2581,7 +2632,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:878
 msgid "Measure video values (|frei0r.pr0be|)"
-msgstr ""
+msgstr "测量视频值(|frei0r.pr0be|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:879
 msgid ""
@@ -2594,6 +2645,8 @@ msgid ""
 "only. Each column of the waveform corresponds to a column of pixels in the "
 "source video.  (|avfilter.waveform|)"
 msgstr ""
+"波形监视器绘制颜色分量强度。默认情况下仅亮度。波形的每一列对应于源视频中的一"
+"列像素。 (|avfilter.waveform|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:883
 msgid ""
@@ -2603,7 +2656,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:886
 msgid "Add noise on video input frame (|avfilter.noise|)"
-msgstr ""
+msgstr "在视频输入帧上添加噪声 (|avfilter.noise|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:887
 msgid ":doc:`/effects_and_compositions/video_effects/generate/vignette`"
@@ -2611,7 +2664,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:890
 msgid "Natural Lens vignetting effect (|frei0r.vignette|)"
-msgstr ""
+msgstr "自然镜头渐晕效果 (|frei0r.vignette|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:891
 msgid ":doc:`/effects_and_compositions/video_effects/generate/vignette_effect`"
@@ -2619,7 +2672,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:894
 msgid "Adjustable Vignette (|vignette|)"
-msgstr ""
+msgstr "可调渐晕 (|vignette|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:895
 msgid ""
@@ -2643,6 +2696,8 @@ msgid ""
 "video viewer. Delayed frame blitting mapping on a time bitmap (|frei0r."
 "bigsh0t_eq_to_rect|)"
 msgstr ""
+"将等矩形框架（全景）转换为直线框架（您习惯看到的）。可用于预览将在360视频查看"
+"器中显示的内容。时间位图上的延迟帧闪电传输映射 (|frei0r.bigsh0t_eq_to_rect|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:899
 msgid ""
@@ -2655,6 +2710,9 @@ msgid ""
 "but only want to use part of the 360 image - for example if you and the film "
 "crew occupy the 90 degrees behind the camera (|frei0r.bigsh0t_eq_mask|)"
 msgstr ""
+"将黑色哑光添加到框架中。如果您使用360相机拍摄，但只想使用360图像的一部分，请"
+"使用此选项，例如，如果您和摄制组占据了相机后面的90度 (|frei0r."
+"bigsh0t_eq_mask|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:903
 msgid ""
@@ -2672,6 +2730,8 @@ msgid ""
 "Use this together with transform 360 to place “normal” footage in a 360 "
 "movie (|frei0r.bigsh0t_rect_to_eq|)"
 msgstr ""
+"将直线（看起来正常）图像转换为等矩形图像。将其与transform360一起使用，可以在"
+"360电影中放置“正常”镜头 (|frei0r.bigsh0t_rect_to_eq|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:911
 msgid ""
@@ -2685,6 +2745,8 @@ msgid ""
 "and when stabilizing it tries to correct high-frequency motion (shake) (|"
 "frei0r.bigsh0t_stabilize_360|)"
 msgstr ""
+"稳定360镜头。该插件分为两个阶段——分析和稳定。分析镜头时，它会检测帧到帧的旋"
+"转，稳定镜头时，会尝试校正高频运动（抖动） (|frei0r.bigsh0t_stabilize_360|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:915
 msgid ""
@@ -2693,7 +2755,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:918
 msgid "Rotates a panoramic image (|frei0r.bigsh0t_transform_360|)"
-msgstr ""
+msgstr "旋转全景图像 (|frei0r.bigsh0t_transform_360|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:919
 msgid ":doc:`/effects_and_compositions/video_effects/deprecated/wave`"
@@ -2701,7 +2763,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:922
 msgid "Makes waves on your clip with keyframes (|wave|)"
-msgstr ""
+msgstr "使用关键帧在剪辑上产生波浪 (|wave|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:923
 msgid "wavelet_denoiser"
@@ -2709,7 +2771,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:926
 msgid "Wavelet based Denoiser (|avfilter.vaguedenoiser|)"
-msgstr ""
+msgstr "基于小波的去噪器 (|avfilter.vaguedenoiser|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:927
 msgid ""
@@ -2719,7 +2781,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:930
 msgid "Adjust the white balance / color temperature (|frei0r.balanc0r|)"
-msgstr ""
+msgstr "调整白平衡/色温 (|frei0r.balanc0r|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:931
 msgid ""
@@ -2730,7 +2792,7 @@ msgstr ""
 #: ../../effects_and_compositions/lists/video_effects_list.rst:934
 msgid ""
 "Do simple color correction, in a physically meaningful way (|frei0r.colgate|)"
-msgstr ""
+msgstr "以一种有物理意义的方式进行简单的颜色校正(|frei0r.colgate|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:935
 msgid ""
@@ -2744,6 +2806,8 @@ msgid ""
 "art. It follows a set of edge-detection rules, see this |xbr_tutorial| (|"
 "avfilter.xbr|)"
 msgstr ""
+"应用专为像素艺术设计的xBR高质量放大滤镜。它遵循一套边缘检测规则，请参阅 |"
+"xbr_tutorial| (|avfilter.xbr|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:939
 msgid ":doc:`/effects_and_compositions/video_effects/misc/xine_deinterlacer`"
@@ -2751,7 +2815,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:942
 msgid "Deinterlace interlaced video. (|deinterlace|)"
-msgstr ""
+msgstr "隔行扫描交错视频。(|deinterlace|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:943
 msgid ""
@@ -2761,7 +2825,7 @@ msgstr ""
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:946
 msgid "Apply Zoom and Pan effect (|avfilter.zoompan|)"
-msgstr ""
+msgstr "应用缩放和平移效果 (|avfilter.zoompan|)"
 
 #: ../../effects_and_compositions/lists/video_effects_list.rst:951
 msgid ""
@@ -2769,3 +2833,5 @@ msgid ""
 "appimage; |windows|: available in the Windows version; |apple|: available in "
 "the MacOS (Intel only) version"
 msgstr ""
+"|linux| 在已安装的版本中可用； |appimage| : 在appimage中可用； |windows|:在"
+"Windows版本中可用； |apple|:提供MacOS（仅限英特尔）版本"
