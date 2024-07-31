@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2024-07-29 14:24+0200\n"
+"PO-Revision-Date: 2024-07-30 19:55+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -28,24 +28,27 @@ msgstr "Linux"
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:1
 msgid "Kdenlive Tips & Tricks - Render Profile Parameters and How to Read Them"
 msgstr ""
+"Kdenlive tips och trick: Återgivningsprofilparametrar och hur man läser dem"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:1
 msgid ""
 "KDE, Kdenlive, render, parameter, documentation, user manual, video editor, "
 "open source, free, help, learn, render, render profile, render parameter"
 msgstr ""
+"KDE, Kdenlive, dokumentation, användarhandbok, videoeditor, öppen källkod,"
+" fritt, hjälp, lära, återge, återgivningsprofil, återgivningsparameter"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:36
 msgid "Render Profile Parameters Explained"
-msgstr ""
+msgstr "Återgivningsprofilparametrar förklarade"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:49
 msgid "|image_1| |image_2| |image_3|"
-msgstr ""
+msgstr "|image_1| |image_2| |image_3|"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:52
 msgid "Property Presets"
-msgstr ""
+msgstr "Egenskapsförinställningar"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:54
 msgid ""
@@ -55,38 +58,53 @@ msgid ""
 "is referencing *lossless/H.264*. This refers to a property preset found in "
 "file H.264 found on the system at"
 msgstr ""
+"Kdenlive använder nu *egenskapsförinställningar* som levereras av projektet"
+" **melt** (se |mlt_presets|). Förinställningarna refereras av syntaxen"
+" *properties=<preset>*. I det illustrerade exemplet hänvisar"
+" återgivningsprofilen till *lossless/H.264*. Det hänvisar till en"
+" egenskapsförinställning som finns i filen H.264 som finns på systemet i"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:56
 msgid ""
 ":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
 "\\\\avformat\\\\lossless`"
 msgstr ""
+":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
+"\\\\avformat\\\\lossless`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:57
 msgid ":file:`/usr/share/mlt/presets/consumer/avformat/lossless`"
-msgstr ""
+msgstr ":file:`/usr/share/mlt/presets/consumer/avformat/lossless`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:59
 msgid ""
 "On a default install, all the *<presets>* referenced in the render settings "
 "in Kdenlive will be referring to presets found in"
 msgstr ""
+"Med en standardinstallation hänvisar alla *<förinställningar>* som refereras"
+" till i återgivningsinställningarna i Kdenlive till förinställningar som"
+" finns i"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:61
 msgid ""
 ":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
 "\\\\avformat\\\\`"
 msgstr ""
+":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
+"\\\\avformat\\\\`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:62
 msgid ":file:`/usr/share/mlt/presets/consumer/avformat/`"
-msgstr ""
+msgstr ":file:`/usr/share/mlt/presets/consumer/avformat/`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:64
 msgid ""
 "You reference presets found in subdirectories of this folder using a "
 "``<subdirname>/<profile>`` syntax as shown in the example above."
 msgstr ""
+"Man refererar till förinställningar som finns i underkataloger till katalogen"
+" med hjälp av syntaxen ``<underkatalognamn>/<profil>`` som visas i exemplet"
+" ovan."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:74
 msgid ""
@@ -97,14 +115,20 @@ msgid ""
 "below. These are the same parameters that were used in earlier versions of "
 "Kdenlive."
 msgstr ""
+"Förinställningsfilerna som finns i :file:`/usr/share/mlt/presets/consumer/avfo"
+"rmat/` respektive :file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\pr"
+"esets\\"
+"\\consumer\\\\avformat\\\\`, är enkla textfiler som innehåller parametrarna"
+" för *melt* som definierar återgivningen. Ett exempel visas nedan. Det är"
+" samma parametrar som användes i tidigare versioner av Kdenlive."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:76
 msgid "Contents of :file:`lossless/H.264`:"
-msgstr ""
+msgstr "Innehållet i :file:`lossless/H.264`:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:112
 msgid "How to Read Them"
-msgstr ""
+msgstr "Hur man läser dem"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:114
 msgid ""
@@ -112,44 +136,51 @@ msgid ""
 "encoding the video and audio streams. Hence it should not come as a surprise "
 "that the parameters are well documented by the |ffmpeg_project|."
 msgstr ""
+"I huvudsak är parametrarna instruktioner till ffmpeg som används för att koda"
+" video- och ljudströmmar. Därför bör det inte komma som en överraskning att"
+" parametrarna är väldokumenterade av |ffmpeg_project|."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:116
 msgid "In the example above the parameters are:"
-msgstr ""
+msgstr "I exemplet ovan är parametrarna:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:133
 msgid "Another example for DVD output:"
-msgstr ""
+msgstr "Ett annat exempel för dvd-utdata:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:155
 msgid "Looking up the |ffmpeg_options| translates these parameters as follows:"
 msgstr ""
+"Vid uppslagning av |ffmpeg_options| översätts parametrarna på följande sätt:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:157
 msgid "Main option is:"
-msgstr ""
+msgstr "Huvudalternativ är:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:163
 msgid "Video options are:"
-msgstr ""
+msgstr "Videoalternativ är:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:175
 msgid "Audio options are:"
-msgstr ""
+msgstr "Ljudalternativ är:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:183
 msgid "The AVCodecContext AVOptions include:"
-msgstr ""
+msgstr "AVCodecContext AVOptions inkluderar:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:192
 msgid ""
 "All the render profile options are documented in the **ffmpeg** "
 "documentation."
 msgstr ""
+"Alla återgivningsprofilalternativen är beskrivna i dokumentationen över"
+" **ffmpeg**."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:194
 msgid "See also |mlt_presets| for more details on the MLT preset property."
 msgstr ""
+"Se också |mlt_presets| för mer information om egenskapen MLT-förinställning."
 
 #~ msgid "Contents"
 #~ msgstr "Innehåll"
