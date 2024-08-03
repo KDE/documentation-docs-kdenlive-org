@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2024-07-29 14:30+0200\n"
+"PO-Revision-Date: 2024-08-02 22:27+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -26,6 +26,8 @@ msgid ""
 "In **Kdenlive** a transition is a wipe or dissolve composition between two "
 "overlapping clips."
 msgstr ""
+"I **Kdenlive** är en övertoning en övergångs- eller upplösningskomposition"
+" mellan två överlappande klipp."
 
 #: ../../effects_and_compositions/transitions.rst:23
 msgid ""
@@ -33,6 +35,9 @@ msgid ""
 "same tracks transitions, and the legacy way, which is transitions between "
 "clips on different tracks."
 msgstr ""
+"Det finns två sätt att lägga till övertoningar i **Kdenlive**: **Mixa"
+" klipp**, med andra ord övertoningar i samma spår, och det äldre sättet, som"
+" är övertoningar mellan klipp på olika spår."
 
 #: ../../effects_and_compositions/transitions.rst:25
 msgid ""
@@ -44,6 +49,13 @@ msgid ""
 "wipe composition properties) or create your own and load them by clicking "
 "the folder button."
 msgstr ""
+"Övergångar är gråskalebilder med formatet :file:`.pgm` (Portable GreyMap),"
+" och under övergången kommer kompositionsspåret att visas först i de mörkaste"
+" områdena av övergångsbilden. Om övergången är inverterad, blir"
+" kompositionsspåret synligt i de ljusaste områdena av övergångsbilden först"
+" istället. Man kan ladda ner fler övergångar (genom att klicka på"
+" nerladdningsknappen i övergångskompositionens egenskaper) eller skapa egna"
+" och läsa in dem genom att klicka på katalogknappen."
 
 #: ../../effects_and_compositions/transitions.rst:30
 msgid "Mixes"
@@ -51,13 +63,15 @@ msgstr "Mixningar"
 
 #: ../../effects_and_compositions/transitions.rst:34
 msgid "Mixes are transitions between clips on the same track."
-msgstr ""
+msgstr "Mixningar är övertoningar mellan klipp på samma spår."
 
 #: ../../effects_and_compositions/transitions.rst:40
 msgid ""
 "Kdenlive with mixed clips in the timeline. The toolbar button is circled "
 "with red, and the transition properties are on the right."
 msgstr ""
+"Kdenlive med blandade klipp i tidslinjen. Knappen på verktygsraden är"
+" inringad med rött, och övertoningens egenskaper finns till höger."
 
 #: ../../effects_and_compositions/transitions.rst:42
 msgid "To use it:"
@@ -69,37 +83,48 @@ msgid ""
 "both clips (outside the timeline clip). Without that, Kdenlive will not "
 "apply the transition, but display an error message."
 msgstr ""
+"Se till att det finns minst en halv sekund med bildrutor i slutet av båda"
+" klippen (utanför tidslinjeklippet). Utan det använder Kdenlive inte"
+" övertoningen, utan visar ett felmeddelande."
 
 #: ../../effects_and_compositions/transitions.rst:45
 msgid ""
 "Select either clip. If there are clips in both ends of the one selected, the "
 "transition will be added nearest the playhead."
 msgstr ""
+"Markera endera klippet. Om det finns klipp i båda ändarna av det markerade,"
+" läggs övergången till närmast uppspelningsläget."
 
 #: ../../effects_and_compositions/transitions.rst:47
 msgid "Ready to add the transition:"
-msgstr ""
+msgstr "Redo att lägga till övertoningen:"
 
 #: ../../effects_and_compositions/transitions.rst:49
 msgid "**Keyboard:** Press the :kbd:`U` key."
-msgstr ""
+msgstr "**Tangentbord:** Tryck på tangenten :kbd:`U`."
 
 #: ../../effects_and_compositions/transitions.rst:50
 msgid ""
 "**Mouse:** double-click at the point where the clips meet. This does not "
 "require a clip to be selected."
 msgstr ""
+"**Mus:** Dubbelklicka på den punkt där klippen möts. Det kräver inte att"
+" något klipp är markerat."
 
 #: ../../effects_and_compositions/transitions.rst:51
 msgid ""
 "**Toolbar:** Press the :guilabel:`Mix Clips` button on the timeline toolbar."
 msgstr ""
+"**Verktygsrad:** Tryck på knappen :guilabel:`Mixa klipp` på tidslinjens"
+" verktygsrad."
 
 #: ../../effects_and_compositions/transitions.rst:53
 msgid ""
 "The transition length defaults to one second equally distributed between the "
 "two clips. You can drag either end of the transition to adjust."
 msgstr ""
+"Övertoningslängden är normalt en sekund jämnt fördelad mellan de två klippen."
+" Man kan dra endera änden av övertoningen för att justera."
 
 #: ../../effects_and_compositions/transitions.rst:55
 msgid ""
@@ -107,6 +132,9 @@ msgid ""
 "transition and edit the wipe method and properties as desired in the effect/"
 "transition stack window."
 msgstr ""
+"Förvald övertoning är lös upp, men man kan välja (klicka) på övertoningen och"
+" redigera övergångsmetoden och egenskaperna efter önskemål i effekt- och"
+" övertoningsfönstret."
 
 #: ../../effects_and_compositions/transitions.rst:57
 msgid ""
@@ -114,33 +142,43 @@ msgid ""
 "that, since there will not really be a transition. Other methods are meant "
 "for compositing two videos, not transitioning between them."
 msgstr ""
+"Kompositionsmetoden är inställd på Luminans, och det är inte meningsfullt att"
+" ändra på det, eftersom det egentligen inte sker någon övertoning. Andra"
+" metoder är avsedda för sammansättning av två videor, inte för övertoning"
+" mellan dem."
 
 #: ../../effects_and_compositions/transitions.rst:59
 msgid "Select the desired wipe from Wipe Method."
-msgstr ""
+msgstr "Välj önskad övergång från övergångsmetod."
 
 #: ../../effects_and_compositions/transitions.rst:60
 msgid "The :guilabel:`Reverse` option reverses the transition."
-msgstr ""
+msgstr "Alternativet :guilabel:`Vänd` vänder övertoningen."
 
 #: ../../effects_and_compositions/transitions.rst:61
 msgid ""
 "The :guilabel:`Softness:` slider will affect the edges of wipe transitions."
 msgstr ""
+"Skjutreglaget :guilabel:`Mjukhet:` påverkar kanter för övergångar med"
+" övertoning."
 
 #: ../../effects_and_compositions/transitions.rst:62
 msgid "Set the desired duration."
-msgstr ""
+msgstr "Ställ in önskad längd."
 
 #: ../../effects_and_compositions/transitions.rst:63
 msgid ""
 "Since 21.08: select the alignment of the transition, either left, centered "
 "(default) or right."
 msgstr ""
+"Sedan 21.08: Välj justeringen av övertoningen, antingen vänster, centrerad"
+" (standardvärdet) eller höger."
 
 #: ../../effects_and_compositions/transitions.rst:65
 msgid "To delete the transition, select it and press the :kbd:`Delete` key."
 msgstr ""
+"För att ta bort övertoningen, markera den och tryck på tangenten"
+" :kbd:`Delete`."
 
 #: ../../effects_and_compositions/transitions.rst:69
 msgid ""
@@ -148,30 +186,37 @@ msgid ""
 "track on which you don’t want a transition to be applied and add transitions "
 "by one of the above ways on the other track."
 msgstr ""
+"För att endast utföra övertoningar på antingen video- eller ljudspåret, lås"
+" bara spåret där man inte vill att en övertoning ska utföras och lägg till"
+" övertoningar på ett av ovanstående sätt på det andra spåret."
 
 #: ../../effects_and_compositions/transitions.rst:72
 msgid "Compositions"
-msgstr ""
+msgstr "Kompositioner"
 
 #: ../../effects_and_compositions/transitions.rst:74
 msgid ""
 "Compositions are transitions between clips on different tracks. This is the "
 "legacy way of doing transitions in **Kdenlive**."
 msgstr ""
+"Kompositioner är övertoningar mellan klipp på olika spår. Det är det gamla"
+" sättet att göra övertoningar i **Kdenlive**."
 
 #: ../../effects_and_compositions/transitions.rst:80
 msgid ""
 "To the left the purple one-click circle to add a wipe composition. In the "
 "middle the composition bar, and on the right the properties."
 msgstr ""
+"Till vänster, den lila cirkeln för att lägga till en övergångskomposition med"
+" ett klick. I mitten kompositionsraden och till höger egenskaperna."
 
 #: ../../effects_and_compositions/transitions.rst:82
 msgid "To add a transition:"
-msgstr ""
+msgstr "För att lägga till övertoning:"
 
 #: ../../effects_and_compositions/transitions.rst:84
 msgid "Adjust your clips so that they overlap."
-msgstr ""
+msgstr "Justera klippen så att de överlappar."
 
 #: ../../effects_and_compositions/transitions.rst:85
 msgid ""
@@ -180,42 +225,54 @@ msgid ""
 "\"), or alternatively right-click either clip and select :menuselection:"
 "`Insert a composition... --> Wipe`."
 msgstr ""
+"Håll mushjulet över det övre klippets nedre hörn och klicka på den lila"
+" cirkeln som visas (:ref:`status_bar` visar då \"Klicka för att lägga till en"
+" komposition\"), eller alternativt högerklicka på endera klippet och välj"
+" :menuselection:`Infoga en komposition... --> Övergång`."
 
 #: ../../effects_and_compositions/transitions.rst:87
 msgid ""
 "The default transition is a dissolve, to change that select (click) the "
 "composition bar to show the effect/composition stack window."
 msgstr ""
+"Förvald övertoning är lös upp, för att ändra det, välj (klicka) på"
+" kompositionsraden för att visa effekt- och övertoningsfönstret."
 
 #: ../../effects_and_compositions/transitions.rst:89
 msgid ""
 "The transition, when added this way, will cover the overlapping area between "
 "the clips."
 msgstr ""
+"Övertoningen, när den läggs till på detta sätt, täcker det överlappande"
+" området mellan klippen."
 
 #: ../../effects_and_compositions/transitions.rst:91
 msgid "You can:"
-msgstr ""
+msgstr "Man kan:"
 
 #: ../../effects_and_compositions/transitions.rst:93
 msgid ""
 "Select a composition track. The default is \"Automatic\" which is likely the "
 "correct choice in this case."
 msgstr ""
+"Markera ett kompositionsspår. Standardinställningen är \"Automatisk\", vilket"
+" sannolikt är det korrekta valet i det här fallet."
 
 #: ../../effects_and_compositions/transitions.rst:94
 msgid "Select a wipe."
-msgstr ""
+msgstr "Välja en övergång."
 
 #: ../../effects_and_compositions/transitions.rst:95
 msgid "Enable :guilabel:`Inverse` to inverse the wipe."
-msgstr ""
+msgstr "Aktivera :guilabel:`Invertera` för att invertera övergången."
 
 #: ../../effects_and_compositions/transitions.rst:96
 msgid ""
 "Enable :guilabel:`Revert` to revert the order of the videos in the "
 "transition (which you probably do not want)."
 msgstr ""
+"Aktivera :guilabel:`Vänd` för att återställa ordningen på videorna i"
+" övertoningen (vilket man förmodligen inte vill)."
 
 #: ../../effects_and_compositions/transitions.rst:98
 msgid ""
@@ -223,10 +280,15 @@ msgid ""
 "refit it manually if desired. You can drag the entire transition with the "
 "select tool, and adjust its duration by dragging either end."
 msgstr ""
+"Om man flyttar eller justerar klippen efter att övertoningen har lagts till"
+" måste man passa in den manuellt om så önskas. Man kan dra hela övertoningen"
+" med markeringsverktyget och justera dess längd genom att dra endera änden."
 
 #: ../../effects_and_compositions/transitions.rst:101
 msgid "Available Transitions"
-msgstr ""
+msgstr "Tillgängliga övertoningar"
 
 #~ msgid "Contents"
 #~ msgstr "Innehåll"
+
+
