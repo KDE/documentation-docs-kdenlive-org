@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-09 00:36+0000\n"
-"PO-Revision-Date: 2024-07-29 14:30+0200\n"
+"PO-Revision-Date: 2024-08-06 10:13+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -27,10 +27,13 @@ msgid ""
 "keyframe, interpolation, editing, documentation, user manual, video editor, "
 "open source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, tips, trick, tips och trick, användbar information, jämn,"
+" nyckelbild, interpolering, redigering, dokumentation, användarhandbok,"
+" videoeditor, öppen källkod, fritt, lära, enkelt"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:22
 msgid "Smooth Keyframe Interpolation"
-msgstr ""
+msgstr "Utjämnad interpolering av nyckelbild"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:24
 msgid ""
@@ -38,6 +41,9 @@ msgid ""
 "overshoot** between keyframes? And how to tell Kdenlive to avoid such "
 "situations?"
 msgstr ""
+"Har du någonsin undrat varför Kdenlives **utjämnade interpoleringsläge kan"
+" flöda över** mellan nyckelbilder? Och hur säger man till Kdenlive att"
+" undvika sådana situationer?"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:26
 msgid ""
@@ -49,10 +55,17 @@ msgid ""
 "interpolation are there is some :ref:`further reading <ski_further_reading>` "
 "in the **Notes** section at the bottom of this page."
 msgstr ""
+"Låt oss börja titta bakom kulisserna och introducera utjämningens konstiga"
+" värld. Var inte orolig, det finns inte någon matematik att lära sig och"
+" förstå. Titta bara på siffrorna. Vi kommer också att visa hur man undviker"
+" sådant överflödande i situationer då man inte vill ha det. Och för de"
+" riktigt nyfikna som vill veta vad matematiken bakom \"utjämnad\""
+" interpolering är, finns det lite :ref:`ytterligare läsning <"
+"ski_further_reading>` i avsnittet **Anmärkningar** längst ner på sidan."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:29
 msgid "The Fade-In Ramp"
-msgstr ""
+msgstr "Intoningsrampen"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:37
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:90
@@ -61,6 +74,8 @@ msgid ""
 "Keyframes in the :doc:`/effects_and_compositions/video_effects/"
 "color_image_correction/brightness_keyframable` effect"
 msgstr ""
+"Nyckelbilder för effekten :doc:`/effects_and_compositions/video_effects/color_"
+"image_correction/brightness_keyframable`"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:39
 msgid ""
@@ -69,12 +84,16 @@ msgid ""
 "particular values do not matter. We set both keyframes to the interpolation "
 "mode :guilabel:`smooth`."
 msgstr ""
+"Låt oss börja med en enkel ramp, som visas här. Vi använder två"
+" nyckelbilder\\ [1]_, en med en låg värdeinställning och den andra med en hög"
+" värdeinställning. De specifika värdena spelar ingen roll. Vi ställer in båda"
+" nyckelbilder till interpoleringsläget :guilabel:`jämn`."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:50
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:104
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:143
 msgid "Color clip keyframe display"
-msgstr ""
+msgstr "Visning av färgklippets nyckelbild"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:52
 msgid ""
@@ -83,22 +102,28 @@ msgid ""
 "you should notice that the slope of the ramp varies. At the end and "
 "beginning the slope is smaller than in the middle, where it is higher."
 msgstr ""
+"Effektvisningen inuti tidslinjeklippet ser ut som en rak ramp. Men om man"
+" tittar noga på de interpolerade värdena medan man följer tidslinjen, bör man"
+" märka att rampens lutning varierar. I slutet och början är lutningen mindre"
+" än i mitten, där den är större."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:54
 msgid "But what exactly is going on here?"
-msgstr ""
+msgstr "Men vad händer egentligen här?"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:67
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:116
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:159
 msgid "GeoGebra visualization of the Catmull-Rom interpolation"
-msgstr ""
+msgstr "GeoGebra visualisering av Catmull-Rom interpolering"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:69
 msgid ""
 "There is this online open source tool |geogebra| for trying out the "
 "mathematics inside Kdenlive's MLT engine."
 msgstr ""
+"Det finns ett verktyg på nätet med öppen källkod, |geogebra|, för att prova"
+" matematiken inuti Kdenlives MLT-gränssnitt."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:71
 msgid ""
@@ -106,6 +131,9 @@ msgid ""
 "ramp up setting. In case you are already wondering: it does not matter at "
 "which exact frames the individual keyframes are."
 msgstr ""
+"Den här bilden visar två nyckelbilder P1=0 och P2=1, vilket är en ganska"
+" typisk inställning av upprampning. Om du redan undrar: det spelar ingen roll"
+" vid vilka exakta bildrutor de enskilda nyckelbilderna är."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:75
 msgid ""
@@ -114,12 +142,18 @@ msgid ""
 "broadcasting)` will calculate is drawn as a thick green line. It is bent a "
 "little bit like the capital letter S, but then, not really too much."
 msgstr ""
+"Den utjämnade interpolationen som :abbr:`MLT (Media Lovin' Toolkit, ett"
+" multimediaramverk med öppen källkod konstruerat och utvecklat för"
+" tv-sändningar)` beräknar ritas som en bred grön linje. Den är böjd lite som"
+" den stora bokstaven S, men trots det egentligen inte för mycket."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:77
 msgid ""
 "And if you look closely, then beginning and ending slope of the green line "
 "are not horizontal - at least what could be expected at first."
 msgstr ""
+"Och om man tittar närmare, så är den gröna linjens lutning i början och"
+" slutet inte horisontell, trots allt vad som kunde förväntas till en början."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:79
 msgid ""
@@ -129,16 +163,23 @@ msgid ""
 "preceding (P0) or trailing (P1) keyframe, then we will simple repeat the "
 "left (P1) or right (P2) keyframe."
 msgstr ""
+"Man kan undra vad de två andra nyckelbilderna P0 och P3 är bra för? Tja,"
+" matematiken nedan kräver alltid fyra nyckelbilder för att kunna interpolera"
+" segmentvis mellan två intilliggande nyckelbilder. Och om det inte finns"
+" någon föregående (P0) eller efterföljande (P1) nyckelbild, upprepar vi helt"
+" enkelt vänster (P1) eller höger (P2) nyckelbild."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:82
 msgid "Ramp-Up, and … Overshoot"
-msgstr ""
+msgstr "Rampa upp, och … flöda över"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:92
 msgid ""
 "Now let's add a third keyframe, so this looks like a ramp with a plateau. "
 "This is shown in the screenshots."
 msgstr ""
+"Låt oss nu lägga till en tredje nyckelbild, så det ser ut som en ramp med en"
+" platå. Det visas på skärmbilderna."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:106
 msgid ""
@@ -146,12 +187,17 @@ msgid ""
 "this looks smooth, but not exactly what we may have intended? So why is this "
 "the way it is?"
 msgstr ""
+"Och nu får rampen en väl synlig bula istället för en skarp krök. Ja, det här"
+" ser utjämnat ut, men inte riktigt vad vi kanske hade tänkt oss? Så varför är"
+" det som det är?"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:118
 msgid ""
 "This is now our ramp with a plateau: P0=0, P1=1, P2=2. Do not worry about "
 "the keyframe numbering, though."
 msgstr ""
+"Det här är nu vår ramp med en platå: P0=0, P1=1, P2=2. Var dock inte orolig"
+" för numreringen av nyckelbilder."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:120
 msgid ""
@@ -160,6 +206,10 @@ msgid ""
 "like this. Instead, the interpolation math causes the interpolated values to "
 "overshoot, as you can easily see in the figure."
 msgstr ""
+"Var förväntningen att platån skulle vara, ja, en *rak* platå? Självklart var"
+" den det. Men det märks redan att Kdenlive inte exakt beter sig så. Istället"
+" gör interpoleringsmatematiken att de interpolerade värdena överflödar,"
+" vilket enkelt går att se i figuren."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:122
 msgid ""
@@ -168,6 +218,10 @@ msgid ""
 "that is a slightly different “smooth” from what you might have been "
 "expecting."
 msgstr ""
+"Vad den underliggande matematiken gör är följande: interpoleringen är jämn,"
+" så att lutningen till *vänster* om P1 är densamma som till *höger* om P1."
+" Ja, det är en lite annorlunda \"utjämnat\" än vad man kanske hade förväntat"
+" sig."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:124
 msgid ""
@@ -177,28 +231,40 @@ msgid ""
 "results in a “rough bent” at P1, but luckily you probably will not notice in "
 "most situations."
 msgstr ""
+"Om man istället vill att platån ska vara rak, måste man ställa in"
+" interpoleringsläget för nyckelbilden P1 till :guilabel:`linjär` istället."
+" Det ändrar förresten inte det *föregående* utjämnade segmentet på något"
+" sätt. Och det resulterar i en \"grov böjning\" vid P1, men som tur är märks"
+" det förmodligen inte i de flesta situationer."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:129
 msgid "Ramp Up-Flat-Down"
-msgstr ""
+msgstr "Rampa upp, platta ut"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:145
 msgid ""
 "Let's add another, fourth keyframe, so we have: ramp-up first, then flat, "
 "then ramp-down. A fairly typical fade-in and fade-out keyframe template."
 msgstr ""
+"Låt oss lägga till en annan, fjärde, nyckelbild, så att vi får: rampa upp"
+" först, sedan platt, sedan rampa ner. En ganska typisk nyckelbildsmall för"
+" intonings och borttoning."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:151
 msgid ""
 "And look, what is happening: we have got a hump, but not a nice and flat "
 "middle section."
 msgstr ""
+"Och se, vad som händer: vi får en puckel, men inte en snygg och platt"
+" mittsektion."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:161
 msgid ""
 "This time, we look at the middle section P1-P2. To the left, we see the up "
 "ramp, to the right, the down ramp."
 msgstr ""
+"Den här gången tittar vi på mittsektionen P1-P2. Till vänster ser vi en"
+" upprampning, till höger en nedrampning."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:163
 msgid ""
@@ -206,48 +272,57 @@ msgid ""
 "Instead, the left and right slopes are continuous at P1 and P2; that is, in "
 "the middle section. And this causes our interpolated value to overshoot."
 msgstr ""
+"Återigen betyder jämn nu att det inte finns någon skarp böj i segmenten."
+" Istället är vänster och höger lutning kontinuerlig vid P1 och P2, det vill"
+" säga i mittsektionen. Och det gör att vårt interpolerade värde flödar över."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:168
 msgid "Make Flat Great Again"
-msgstr ""
+msgstr "Göra rakt bra igen"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:176
 msgid ""
 "Smooth keyframes in the :doc:`/effects_and_compositions/video_effects/"
 "color_image_correction/brightness_keyframable` effect"
 msgstr ""
+"Utjämnade nyckelbilder i effekten :doc:`/effects_and_compositions/video_effect"
+"s/color_image_correction/brightness_keyframable`"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:183
 msgid ""
 "Now, how do we get a flat top? Fortunately, that is easy to achieve, as you "
 "can see from the screenshots."
 msgstr ""
+"Så, hur får vi en utplattad topp? Lyckligtvis är det lätt att uppnå, som syns"
+" på skärmbilderna."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:185
 msgid "1. keyframe: smooth,"
-msgstr ""
+msgstr "1. nyckelbild: utjämnad,"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:186
 msgid "2. keyframe: linear (interpolated!),"
-msgstr ""
+msgstr "2. nyckelbild: linjär (interpolerad!),"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:187
 msgid "3. keyframe: smooth,"
-msgstr ""
+msgstr "3. nyckelbild: utjämnad,"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:188
 msgid ""
 "4. keyframe: smooth (albeit that does not really matter if there are no "
 "further keyframes)."
 msgstr ""
+"4. nyckelbild: utjämnad (även om det egentligen inte spelar någon roll om det"
+" inte finns några ytterligare nyckelbilder)."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:195
 msgid "Notes"
-msgstr ""
+msgstr "Anmärkningar"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:219
 msgid "**Further Reading**"
-msgstr ""
+msgstr "**Ytterligare läsning**"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:219
 msgid ""
@@ -262,10 +337,20 @@ msgid ""
 "sometimes has the unwanted property of overshooting, especially when you "
 "least expect it."
 msgstr ""
+"Som du kanske (eller snarare kanske inte kommer ihåg) är Kdenlives"
+" återgivningsgränssnitt |mlt_framework|. Medan :abbr:`MLT (Media Lovin'"
+" Toolkit, ett multimediaramverk med öppen källkod konstruerat och utvecklat"
+" för tv-sändningar)` har |smooth_interpolation| sedan omkring mitten av 2013"
+" kom Kdenlive ikapp först senare och stöder nu alla tre metoderna att"
+" interpolera: linjär, diskret och jämn. Som kan ses från MLT |source_code|,"
+" görs utjämnad interpolering med en |cr_spline|. I synnerhet använder MLT den"
+" så kallade *likformiga* varianten, eftersom den är så enkel. Nackdelen är"
+" att utjämningen ibland har den oönskade egenskapen att flöda över, i"
+" synnerhet när man minst anar det."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:222
 msgid "**Sources**"
-msgstr ""
+msgstr "**Källor**"
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:222
 msgid ""
@@ -273,6 +358,10 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
+"Den ursprungliga texten skickades in av användaren *TheDiveO* till den nu "
+"nedlagda bloggen kdenlive.org. För den här dokumentation har den hämtats "
+"från |kdenlive_org|, uppdaterats och anpassats för att motsvara den "
+"övergripande stilen."
 
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:226
 msgid ""
@@ -281,9 +370,15 @@ msgid ""
 "at frame 0 of a clip, and we chose to ignore that one for the purpose of "
 "this demonstration."
 msgstr ""
+"Du kanske märker att det finns tre nyckelbilder: en vid bildruta 0 i klippet"
+" och de två vi skapade för den här skärmbilden. Kdenlive placerar alltid en"
+" nyckelbild på bildruta 0 i ett klipp, och vi valde att ignorera den för den"
+" här demonstrationens syfte."
 
 #~ msgid "**Eh, no panic!**"
 #~ msgstr "**Nåja, ingen panik!**"
 
 #~ msgid "So great!"
 #~ msgstr "Så bra!"
+
+
