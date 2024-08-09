@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-09 00:36+0000\n"
-"PO-Revision-Date: 2024-08-07 22:24+0200\n"
+"PO-Revision-Date: 2024-08-08 16:01+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -47,7 +47,7 @@ msgstr "**Kända fel**"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:1
 msgid "Kdenlive Video Effects - Key Spill Mop-up"
-msgstr "Kdenlive videoeffekter: Uppsnyggning av nycklingsspill"
+msgstr "Kdenlive videoeffekter: Uppsnyggning av nyckelspill"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:1
 msgid ""
@@ -55,13 +55,13 @@ msgid ""
 "effects, alpha, mask, keying, chroma key, greenscreen, bluescreen, key spill "
 "mop-up"
 msgstr ""
-"KDE, Kdenlive, videoeditor, hjälp, lär, lätt, effekter, filter,"
-" videoeffekter, alfa, krominansnyckel, grön skärm, blå skärm, uppsnyggning av"
-" nycklingsspill"
+"KDE, Kdenlive, videoeditor, hjälp, lär, lätt, effekter, filter, "
+"videoeffekter, alfa, krominansnyckel, grön skärm, blå skärm, uppsnyggning av "
+"nyckelspill"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:15
 msgid "Key Spill Mop Up"
-msgstr "Uppsnyggning av nycklingsspill"
+msgstr "Uppsnyggning av nyckelspill"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:26
 msgid "Maintained"
@@ -102,6 +102,11 @@ msgid ""
 "This is known as \"key spill\". This effect can attempt to compensate for "
 "this issue."
 msgstr ""
+"Effekten används i kombination med krominansnyckel (även känd som grön skärm"
+" eller blå skärm). Syftet är att kompensera för det faktum att färgen från"
+" den gröna eller blå skärmen ibland reflekteras på motivet och göra det till"
+" en nyans av blått eller grönt, särskilt runt kanterna. Det är känt som"
+" \"nyckelspill\". Effekt kan försöka kompensera för detta problem."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:49
 msgid "Parameters"
@@ -129,7 +134,7 @@ msgstr "Urval"
 msgid ""
 "Selects the type of mask that will determine where the color altering "
 "operations will occur"
-msgstr ""
+msgstr "Väljer masktyp som avgör var färgändringsoperationerna sker"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:62
 msgid "Operation 1"
@@ -141,6 +146,9 @@ msgid ""
 "selected pixels. Apart from no operation, there are four possibilities: De-"
 "key, Target, De-saturate and Luma adjust."
 msgstr ""
+"Väljer vilken av de fyra möjliga operationerna som ska utföras på de"
+" maskerade bildpunkterna. Förutom ingen operation finns det fyra möjligheter:"
+" Nyckelborttagning, Resultat, Mättnadsborttagning och Luminansjustering."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:65
 msgid "Operation 2"
@@ -148,7 +156,7 @@ msgstr "Operation 2"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:67
 msgid "Enable a second operation to be performed with the same mask"
-msgstr ""
+msgstr "Aktivera en andra operation att utföra med samma mask"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:68
 msgid "Show mask"
@@ -164,6 +172,8 @@ msgid ""
 "This will show the selected mask as a greyscale image, to help with fine "
 "tuning of the masks. Should be OFF for the final render."
 msgstr ""
+"Det här visar den valda masken som en gråskalebild, för att hjälpa till med"
+" finjustering av maskerna. Bör vara AV för den slutliga återgivningen."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:71
 msgid "Mask to Alpha"
@@ -175,6 +185,10 @@ msgid ""
 "operations, this should be OFF. By setting it ON, the Key Spill Mop Up "
 "itself can be used as a keyer, or to generate some special effects."
 msgstr ""
+"Kopierar den aktiva masken till alfakanalen. För all normal spillrengöring"
+" ska det vara AV. Genom att ändra den till PÅ kan själva uppsnyggningen av"
+" nyckelspill användas som en nyckel eller för att generera några"
+" specialeffekter."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:74
 msgid "Key color"
@@ -190,6 +204,8 @@ msgid ""
 "This should be the same or similar to the key color used for the preceding "
 "keying operation. Use the color bar or pipette to select the color."
 msgstr ""
+"Det bör vara samma eller liknande nyckelfärgen som användes för föregående"
+" nycklingsoperation. Använd färgraden eller pipetten för att välja färg."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:77
 msgid "Target color"
@@ -202,6 +218,9 @@ msgid ""
 "towards this color, according to the \"Amount 1\" and \"Amount 2\" "
 "parameter, respectively."
 msgstr ""
+"Används endast när \"Resultat\" är valt för operation 1 eller 2 och används"
+" med en av maskerna. Färgerna i de påverkade områdena ändras mot färgen,"
+" enligt parametern \"Värde 1\" respektive \"Värde 2\"."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:80
 msgid "Tolerance"
@@ -222,6 +241,9 @@ msgid ""
 "be 100% affected. For the transparency mask, the \"amplification\". For the "
 "edge mask, the width of the affected area."
 msgstr ""
+"För färgskillnadsmask påverkas färgintervallet runt nyckeln till 100 %. För"
+" genomskinlighetsmask, \"förstärkningen\". För kantmask, bredden på det"
+" påverkade området."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:83
 msgid "Slope"
@@ -233,26 +255,33 @@ msgid ""
 "that will be gradually less affected. No function for the transparency and "
 "edge masks."
 msgstr ""
+"För färgskillnadsmask, färgintervallet utanför \"Tolerans\", som gradvis"
+" påverkas mindre. Ingen funktion för genomskinlighets- och kantmasker."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:86
 msgid "Hue gate"
-msgstr ""
+msgstr "Färgtonsgrindning"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:88
 msgid ""
 "Reduces the mask according to difference from key hue, to prevent change to "
 "pixels that are within the mask, but not polluted by key."
 msgstr ""
+"Reducerar masken enligt skillnaden från nyckelfärgtonen, för att förhindra"
+" förändring av bildpunkter som finns inom masken, men som inte förorenas av"
+" nyckeln."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:89
 msgid "Saturation threshold"
-msgstr ""
+msgstr "Färgmättnadströskel"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:91
 msgid ""
 "Reduces the mask according to color saturation, to avoid affecting the "
 "neutral areas."
 msgstr ""
+"Reducerar masken enligt färgmättnad, för att undvika att påverka de neutrala"
+" områdena."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:92
 msgid "Amount 1"
@@ -262,39 +291,41 @@ msgstr "Värde 1"
 msgid ""
 "The amount of the selected operation 1, how much the colors will change."
 msgstr ""
+"Värdet för den valda operationen 1, hur mycket färgerna kommer att ändras."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:95
 msgid "Amount 2"
-msgstr ""
+msgstr "Värde 2"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:97
 msgid ""
 "The amount of the selected operation 2, how much the colors will change."
 msgstr ""
+"Värdet för den valda operationen 2, hur mycket färgerna kommer att ändras."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:99
 msgid "The following selection items are available:"
-msgstr ""
+msgstr "Följande valmöjligheter är tillgängliga:"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:101
 msgid ":guilabel:`Mask type`"
-msgstr ""
+msgstr ":guilabel:`Masktyp`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:108
 msgid "Color distance"
-msgstr ""
+msgstr "Färgavstånd"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:110
 msgid "Transparency"
-msgstr ""
+msgstr "Genomskinlighet"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:112
 msgid "Edge inwards"
-msgstr ""
+msgstr "Kant inåt"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:114
 msgid "Edge outwards"
-msgstr ""
+msgstr "Kant utåt"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:117
 msgid ""
@@ -302,6 +333,9 @@ msgid ""
 "depend on the alpha from the preceding keying, except for ignoring the 100% "
 "transparent areas, to increase speed."
 msgstr ""
+"Färgskillnadsmasker baseras på bildens färg och är inte beroende av alfa från"
+" föregående nyckling, förutom att de 100 % genomskinliga områdena ignoreras"
+" för att öka hastigheten."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:119
 msgid ""
@@ -311,6 +345,11 @@ msgid ""
 "values from the preceding keying operation. The effect will be proportional "
 "to the transparency."
 msgstr ""
+"Genomskinlighets- och kantmasker är baserade på alfakanalen från föregående"
+" krominansnyckeloperation. Genomskinlighetsmasker påverkar endast de delar"
+" som varken är 100 % ogenomskinliga eller 100 % genomskinliga, baserat på"
+" alfavärdena från föregående nyckeloperation. Effekten är proportionell mot"
+" genomskinligheten."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:121
 msgid ""
@@ -320,6 +359,11 @@ msgid ""
 "away from the edge. The outer edge is the edge of the fully opaque part, "
 "where the alpha from the preceding keying is 1.0 (255)."
 msgstr ""
+"Om en \"hård nyckel\" användes i den föregående krominansnyckeleffekten,"
+" finns det inte några områden som :guilabel:`Genomskinlighet` kan påverka."
+" Kantmasker påverkar endast bildpunkter nära kanten, varvid effekten avtar"
+" bort från kanten. Ytterkanten är kanten på den helt ogenomskinliga delen,"
+" där alfa från föregående nyckel är 1,0 (255)."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:123
 msgid ""
@@ -327,6 +371,10 @@ msgid ""
 "like it to be. They will have to look some more into this, and improve it, "
 "so consider it a \"temporary solution\" that will change in the future."
 msgstr ""
+"Kantmaskeringsalgoritmen är ännu inte riktigt vad upphovsmannen till filtret"
+" skulle vilja. De behöver titta lite mer på den och förbättra den, så"
+" betrakta den som en \"tillfällig lösning\" som kommer att förändras i"
+" framtiden."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:125
 msgid ""
@@ -335,42 +383,46 @@ msgid ""
 "`Saturation threshold`, which will limit the mask to areas with color "
 "saturation above a threshold."
 msgstr ""
+"Alla masker kan beskäras ytterligare med två parametrar: en"
+" :guilabel:`Färgtonsgrindning`, som kommer att begränsa masken till nyanser"
+" nära nyckelnyansen, och en :guilabel:`Färgmättadströskel`, som begränsar"
+" masken till områden med färgmättnad ovanför en tröskel."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:128
 msgid ":guilabel:`Operation 1/2`"
-msgstr ""
+msgstr ":guilabel:`Operation 1/2`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:135
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:136
 msgid "Default for :guilabel:`Operation 2`"
-msgstr ""
+msgstr "Förval för :guilabel:`Operation 2`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:137
 msgid "De-Key"
-msgstr ""
+msgstr "Nyckelborttagning"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:138
 msgid "Default for :guilabel:`Operation 1`"
-msgstr ""
+msgstr "Förval för :guilabel:`Operation 1`"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:139
 msgid "Target"
-msgstr ""
+msgstr "Resultat"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:141
 msgid "Desaturate"
-msgstr ""
+msgstr "Minska mättnad"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:143
 msgid "Luma adjust"
-msgstr ""
+msgstr "Luminansjustering"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:148
 msgid "Notes"
-msgstr ""
+msgstr "Anmärkningar"
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:149
 msgid ""
@@ -381,6 +433,12 @@ msgid ""
 "is a bit easier. If the hue gate and saturation threshold are not used, "
 "transparency and edge masks can be exactly the same in cascaded effects."
 msgstr ""
+"Effekten kan kaskadkopplas, men det är inte möjligt att få samma färgbaserade"
+" mask i den andra instansen, eftersom färgerna ändras i den första instansen."
+" För att aktivera två operationer med samma mask kan varje effektinstans"
+" utföra två operationer. Med genomskinlighets- och kantmask är kaskadkoppling"
+" lite enklare. Om färgtonsgrindning och färgmättnadströskeln inte används,"
+" kan genomskinlighets- och kantmask vara exakt samma i kaskadeffekter."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:152
 msgid "**Tutorial**"
@@ -396,6 +454,13 @@ msgid ""
 "alpha_operations>` using Shrink Hard and :doc:`/effects_and_compositions/"
 "video_effects/grain_and_noise/denoiser`."
 msgstr ""
+"|tutorial_1| visar användning av följande effekter: :doc:`Upptorkning av"
+" nyckelspill </effects_and_compositions/video_effects/alpha_mask_keying/key_sp"
+"ill_mop_up>`, blå skärm (nu kallad :doc:`Krominansnyckel: Enkel <"
+"/effects_and_compositions/video_effects/alpha_mask_keying/chroma_key>`),"
+" :doc:`Alfa-operationer </effects_and_compositions/video_effects/alpha_mask_ke"
+"ying/alpha_operations>` med användning av Hård förminskning och"
+" :doc:`/effects_and_compositions/video_effects/grain_and_noise/denoiser`."
 
 #: ../../effects_and_compositions/video_effects/alpha_mask_keying/key_spill_mop_up.rst:160
 msgid ""
@@ -404,7 +469,13 @@ msgid ""
 "use a composite transition. Nevertheless, the basic steps of chroma keying "
 "and keyspill mop up are explained and are still valid."
 msgstr ""
+"**Videon är något föråldrad.** I nyare versioner av Kdenlive är effekten "
+"upptorkning av nyckelspill installerad som standard, och det är inte längre "
+"nödvändigt att använda en sammansatt övergång. Ändå förklaras de "
+"grundläggande stegen för krominansnyckling och upptorkning av nyckelspill "
+"och är fortfarande giltiga."
 
 #~ msgid "Contents"
 #~ msgstr "Innehåll"
+
 
