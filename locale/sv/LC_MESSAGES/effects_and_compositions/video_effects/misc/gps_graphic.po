@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-09 00:36+0000\n"
-"PO-Revision-Date: 2024-08-07 16:05+0200\n"
+"PO-Revision-Date: 2024-08-09 19:54+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -87,7 +87,7 @@ msgstr "Nej"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:37
 msgid "Missing params"
-msgstr ""
+msgstr "Saknade parametrar"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:43
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:57
@@ -96,7 +96,7 @@ msgstr "Beskrivning"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:44
 msgid "This effect/filter overlays GPS-related graphics onto the video."
-msgstr ""
+msgstr "Effekten eller filtret överlagrar GPS-relaterad grafik på videon."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:48
 msgid "Parameters"
@@ -131,6 +131,12 @@ msgid ""
 "exact and in UTC\\ [1]_. Use positive values if GPS is ahead of video and "
 "negative otherwise."
 msgstr ""
+"En förskjutning (i sekunder) som ska läggas till videofilen för att den ska"
+" motsvara GPS-spåret. För det mesta behöver det åtminstone ställas in till"
+" skillnaden i tidszon mellan de två filerna plus några sekunder om"
+" videoinspelningsenheten inte är exakt inställd på rätt tid. GPS-tiden är"
+" alltid exakt och i UTC\\ [1]_. Använd positiva värden om GPS är före videon,"
+" och negativa annars."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:61
 msgid "Smoothing level"
@@ -143,6 +149,10 @@ msgid ""
 "distance, etc) it also interpolates missing values for heart rate and "
 "altitude."
 msgstr ""
+"Hur många GPS-punkter som ska jämnas ut för att eliminera GPS-fel. Ett värde"
+" på 1 jämnar inte ut punkterna, utan beräknar bara de extra fälten"
+" (hastighet, avstånd, etc.). Det interpolerar också saknade värden för puls"
+" och höjd."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:64
 msgid "Speed multiplier"
@@ -165,10 +175,13 @@ msgid ""
 "speed up/slow down ratio. Sample values: **30** for 30x timelapse, **0.25** "
 "for 4x slow motion footage."
 msgstr ""
+"Om videofilen är en tidsförkortning (eller slow motion), använd värdet för"
+" att ställa in förhållandet mellan uppsnabbning/fördröjning. Exempelvärden:"
+" **30** för 30x tidsförkortning, **0,25** för 4x slow motion-film."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:67
 msgid "Graph data source"
-msgstr ""
+msgstr "Diagrammets datakälla"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:69
 msgid ""
@@ -176,6 +189,9 @@ msgid ""
 "**1** = altitude (if available); **2** = heart rate (if available); **3** = "
 "speed (always available, computed from location)"
 msgstr ""
+"Vilken data från GPS-filen används för återgivning: **0** = GPS-plats/spår,"
+" **1** = höjd (om tillgänglig), **2** = puls (om tillgänglig); **3** ="
+" hastighet (alltid tillgänglig, beräknad från plats)"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:70
 msgid "Graph type"
@@ -189,10 +205,16 @@ msgid ""
 "for all data sources but recommended only for speed; for the map type it "
 "represents the \"percentage done\" from trimmed start - end)"
 msgstr ""
+"Hur vald data återges: **0** = en enkel tvådimensionell kartlinje (för plats)"
+" eller endimensionellt diagram per tid (övriga), **1** = zoomar in på"
+" kartan/diagrammet och centrerar den aktuella platsen\\ [2]_, **2** = visar"
+" en hastighetsmätare (tillgänglig för alla datakällor men rekommenderas"
+" endast för hastighet, för karttypen representerar den \"procenten klart\""
+" från trimningens start - slut)"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:73
 msgid "Trim start"
-msgstr ""
+msgstr "Trimningsstart"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:74
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:77
@@ -206,10 +228,14 @@ msgid ""
 "total file so trimming 50% start and 50% end will result in trimming the "
 "entire file."
 msgstr ""
+"Trimma data från början av GPS-filen (som en procentandel av totalen)."
+" *Observera*: både :guilabel:`Trimningsstart` och :guilabel:`Trimningsslut`"
+" beräknas från den totala filen så att trimma 50 % start och 50 % slut"
+" resulterar i att hela filen trimmas."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:76
 msgid "Trim end"
-msgstr ""
+msgstr "Trimningsslut"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:78
 msgid ""
@@ -219,10 +245,15 @@ msgid ""
 "computed from the total file so trimming 50% start and 50% end will result "
 "in trimming the entire file."
 msgstr ""
+"Trimma data från slutet av GPS-filen (som en omvänd procentandel av totalen)."
+" dvs 100 betyder ingen trimning, 50 betyder halva totala filen, 5 betyder"
+" trimma 95 % av filen). *Observera*: både :guilabel:`Trimningsstart` och"
+" :guilabel:`Trimningsslut` beräknas från den totala filen så att trimma 50 %"
+" start och 50 % slut resulterar i att hela filen trimmas."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:79
 msgid "Crop mode horizontal"
-msgstr ""
+msgstr "Beskärningsläge horisontellt"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:80
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:89
@@ -239,10 +270,13 @@ msgid ""
 "right` values: **0** = a percentage from min..max; **1** = an absolute value "
 "(ie: it can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgstr ""
+"Bestämmer hur värdena :guilabel:`Beskär vänster` och :guilabel:`Beskär höger`"
+" ska tolkas: **0** = en procentandel från min..max; **1** = ett absolutvärde"
+" (t.ex. kan det beskära mellan 22,2 och 22,3 grader av longituden)\\ [3]_"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:82
 msgid "Crop left"
-msgstr ""
+msgstr "Beskär vänster"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:84
 msgid ""
@@ -255,6 +289,14 @@ msgid ""
 "guilabel:`Graph type` is **speedometer**, all crop left/right values are "
 "ignored."
 msgstr ""
+"Beskär data från den vänstra sidan av diagrammet (motsvarar att zooma in)."
+" Värdet tolkas antingen som en procentandel av det totala eller ett"
+" absolutvärde beroende på :guilabel:`Beskärningsläge horisontellt`. I"
+" procentläge är värdena inte begränsade till 0-100 för att tillåta \"zooma"
+" ut\" beteende (dvs beskärning -50 vänster lägger till en extra halva av det"
+" totala horisontella avståndet). Värden över 100 (i %-läge) visar i praktiken"
+" ingenting. Om :guilabel:`Diagramtyp` är **hastighetsmätare** ignoreras alla"
+" beskärningsvärden för vänster/höger."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:85
 msgid "Crop right"
@@ -266,10 +308,13 @@ msgid ""
 "interpreted as an inverse percentage (ie: 100 = do not crop anything). "
 "Values under 0 will effectively not display anything."
 msgstr ""
+"Samma som :guilabel:`Beskär vänster` men för höger sida och procenttyp tolkas"
+" som en omvänd procentsats (dvs: 100 = beskär ingenting). Värden under 0"
+" visar i praktiken ingenting."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:88
 msgid "Crop mode vertical"
-msgstr ""
+msgstr "Beskärningsläge vertikalt"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:90
 msgid ""
@@ -278,6 +323,10 @@ msgid ""
 "value (ie: it can zoom in to between 100 and 150m of altitude to show small "
 "changes in altitude between those 2 values better)\\ [4]_"
 msgstr ""
+"Bestämmer hur värdena :guilabel:`Beskär över` och :guilabel:`Beskär under`"
+" ska tolkas: **0** = en procentandel från min..max; **1** = ett absolutvärde"
+" (t.ex. kan det zooma in till mellan 100 och 150 m höjd för att bättre visa"
+" små förändringar i höjden mellan dessa två värden)\\ [4]_"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:91
 msgid "Crop bottom"
@@ -294,6 +343,14 @@ msgid ""
 "anything. If :guilabel:`Graph type` is speedometer, this will set the "
 "minimum needle position which will clamp all values that are lower."
 msgstr ""
+"Beskär data från diagrammets undersida (motsvarar att zooma in). Värdet"
+" tolkas antingen som en procentandel av det totala eller ett absolutvärde"
+" beroende på :guilabel:`Beskärningsläge vertikalt`. I procentläge är värdena"
+" inte begränsade till 0-100 för att tillåta \"zooma ut\" beteende (dvs"
+" beskära -50 lägger till en extra halva av det totala vertikala avståndet"
+" till botten). Värden över 100 (i %-läge) visar i praktiken ingenting. Om"
+" :guilabel:`Diagramtyp` är hastighetsmätare, ställer det in den lägsta"
+" mätarpositionen som klipper alla värden som är lägre."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:94
 msgid "Crop top"
@@ -305,10 +362,13 @@ msgid ""
 "interpreted as an inverse percentage (ie: 100 = do not crop anything). "
 "Values under 0 will effectively not display anything."
 msgstr ""
+"Samma som :guilabel:`Beskär under` men för översidan och procenttyp tolkas"
+" som en omvänd procentsats (dvs: 100 = beskär ingenting). Värden under 0"
+" visar i praktiken ingenting."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:97
 msgid "Graph color style"
-msgstr ""
+msgstr "Diagrammets färgstil"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:98
 msgid "Selection"
@@ -316,21 +376,23 @@ msgstr "Urval"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:99
 msgid "Chooses one of the 9 styles to draw the graph line"
-msgstr ""
+msgstr "Väljer en av de nio stilarna för att rita diagramlinjen"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:100
 msgid "Show now dot"
-msgstr ""
+msgstr "Visa nu-punkt"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:102
 msgid ""
 "Enable it to draw a disc at the current location/time over the graph line. "
 "If graph type is speedometer, this affects the needle."
 msgstr ""
+"Aktivera för att rita en skiva vid aktuell plats/tid över diagramlinjen. Om"
+" diagramtypen är hastighetsmätare påverkar det mätarpositionen."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:103
 msgid "Show now text"
-msgstr ""
+msgstr "Visa nu-text"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:105
 msgid ""
@@ -339,6 +401,10 @@ msgid ""
 "and it will be used as the current unit (if a valid unit is found ie: "
 "kilometers if \"km\" is found anywhere in the legend_unit string)."
 msgstr ""
+"Aktivera för att rita det aktuella värdet med stora vita bokstäver med"
+" fetstil längst ner till höger om rektangeln. Värdet på legend_unit läggs"
+" till i slutet och används som aktuell enhet (om en giltig enhet finns, t.ex."
+" kilometer om \"km\" finns någonstans i strängen legend_unit)."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:106
 msgid "Rotation"
@@ -348,6 +414,8 @@ msgstr "Rotation"
 msgid ""
 "Rotate the entire graph rect. For speedometer type the text stays horizontal."
 msgstr ""
+"Vrid hela diagramrektangeln. För hastighetsmätartyp förblir texten"
+" horisontell."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:109
 msgid "Thickness"
@@ -355,7 +423,7 @@ msgstr "Bredd"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:111
 msgid "Sets the thickness of the line graph in :abbr:`px (pixel)`"
-msgstr ""
+msgstr "Ställer in tjockleken på linjediagrammet i bildpunkter"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:112
 msgid "Draw legend"
@@ -370,6 +438,12 @@ msgid ""
 "`Graph type` **speedometer** this shows division values (but without "
 "appending unit)."
 msgstr ""
+"Om aktiverad, ritar den 5 horisontella (och vertikala för karttyp) linjer med"
+" små värden som var och en motsvarar den aktuella datakällans värde på 0 %,"
+" 25 %, 50 %, 75 % och 100 % för det aktuella diagrammet som visas, påverkade"
+" av typen legend_unit  om tillämpligt och med strängen tillagt efter värdet."
+" För :guilabel:`Diagramtyp` **hastighetsmätare** visar det divisionsvärden"
+" (men utan tilläggsenhet)."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:115
 msgid "Show dots only"
@@ -383,6 +457,11 @@ msgid ""
 "smoothing is **1**) and can either be used as a cool effect when zoomed in "
 "enough or to debug unexpected line jumps."
 msgstr ""
+"Om aktiverat ritas diagrammet med individuella punkter istället för linjer."
+" Det visar de individuella datapunkterna som påverkas av"
+" :guilabel:`Utjämning` (dvs: för platsdata visar den varje GPS-fix om"
+" utjämningen är **1**) och kan antingen användas som en cool effekt när den"
+" zoomas in tillräckligt eller för att felsöka oväntade radhopp."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:118
 msgid "Background scale"
@@ -394,6 +473,9 @@ msgid ""
 "track. Values smaller than **1** zoom into the image, values larger than "
 "**1** zoom out. **0** hides it."
 msgstr ""
+"Skala bakgrundsbilden (i förhållande till mitten) för att matcha den med"
+" GPS-spåret ovan. Värden mindre än **1** zoomar in i bilden, värden större än"
+" **1** zoomar ut. **0** döljer den."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:121
 msgid "Background opacity"
@@ -401,7 +483,7 @@ msgstr "Bakgrundens ogenomskinlighet"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:123
 msgid "Sets the opacity of the background image"
-msgstr ""
+msgstr "Ställ in bakgrundsbildens ogenomskinlighet"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:124
 msgid "Colours"
@@ -414,11 +496,11 @@ msgstr "Väljare"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:126
 msgid "Sets the colors of the graph line"
-msgstr ""
+msgstr "Ställer in diagramlinjens färg"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:127
 msgid "Now dot colour"
-msgstr ""
+msgstr "Färg på nu-punkt"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:129
 msgid ""
@@ -428,6 +510,11 @@ msgid ""
 "as the nearby (or past) line (including for gradient types) thus effectively "
 "making it change color in time."
 msgstr ""
+"Välj färgen på den yttre cirkeln på nu-punktens skiva. Storleken på cirkeln"
+" är densamma som linjebredden. Insidan av skivan är alltid vit. Om färgens"
+" alfavärde är 0 (standardvärdet) använder den samma färg som den"
+" intilliggande (eller föregående) linjen (inklusive för toningstyper), vilket"
+" leder till att den ändrar färg med tiden."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:132
 msgid "The following selection items are available:"
@@ -435,7 +522,7 @@ msgstr "Följande valmöjligheter är tillgängliga:"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:134
 msgid ":guilabel:`Graph color style`"
-msgstr ""
+msgstr ":guilabel:`Diagrammets färgstil`"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:141
 msgid "0"
@@ -443,7 +530,7 @@ msgstr "0"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:142
 msgid "one color -> same color and size for the entire graph"
-msgstr ""
+msgstr "en färg -> samma färg och storlek för hela diagrammet"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:143
 msgid "1"
@@ -451,7 +538,7 @@ msgstr "1"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:144
 msgid "two colors -> same as 2 and 3 but the entire line is the same thickness"
-msgstr ""
+msgstr "två färger -> samma som 2 och 3 men hela linjen har samma bredd"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:145
 msgid "2"
@@ -464,6 +551,11 @@ msgid ""
 "thickness, but for the \"future\" part of the graph it will use the 2nd "
 "color and thickness will be 2px (or 1px if main thickness is below 3)"
 msgstr ""
+"heldragen i det förflutna, tunn i framtiden -> från början av diagrammet till"
+" den nuvarande positionen (=\"det förflutna\") ritas den med första färgen"
+" och den valda bredden, men för den \"framtida\" delen av diagrammet använder"
+" den andra färgen och bredden är 2 bildpunkter (eller 1 bildpunkt om"
+" linjebredden är under 3)"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:147
 msgid "3"
@@ -471,7 +563,7 @@ msgstr "3"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:148
 msgid "solid future, thin past"
-msgstr ""
+msgstr "heldragen framtid, tunn dåtid"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:149
 msgid "4"
@@ -482,6 +574,8 @@ msgid ""
 "vertical gradient -> the line will be coloured as a vertical gradient "
 "relative to the entire rect area"
 msgstr ""
+"vertikal toning -> linjen färgas som en vertikal toning i förhållande till"
+" hela rektangelområdet"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:151
 msgid "5"
@@ -501,6 +595,9 @@ msgid ""
 "chronological time (except for location source, this will effectively be a "
 "left to right gradient for 1D graphs)"
 msgstr ""
+"färg enligt tidslängd -> de valda färgerna används som en toning, i"
+" kronologisk tid (förutom för platsens källa, är det i praktiken en toning"
+" från vänster till höger för endimensionella diagram)"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:155
 msgid "7"
@@ -512,6 +609,9 @@ msgid ""
 "minimum altitude value from file to the maximum one, not affected by crops "
 "or trim"
 msgstr ""
+"färg enligt höjd -> de valda färgerna används som en toning från det lägsta"
+" höjdvärdet från filen till det maximala, utan påverkan av beskärning eller"
+" trimning"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:157
 msgid "8"
@@ -519,7 +619,7 @@ msgstr "8"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:158
 msgid "color by heart rate"
-msgstr ""
+msgstr "färg enligt puls"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:159
 msgid "9"
@@ -528,6 +628,7 @@ msgstr "9"
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:160
 msgid "color by speed -> same as above but gradient is affected by smoothing"
 msgstr ""
+"färg enligt hastighet -> samma som ovan men toningen påverkas av utjämning"
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:170
 msgid ""
@@ -535,6 +636,9 @@ msgid ""
 "by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia "
 "for more details."
 msgstr ""
+"UTC är en förkortning för Coordinated Universal Time och är den primära"
+" tidsstandarden som världen reglerar klockor och tid med. Se |wiki_UTC| på"
+" Wikipedia för mer information."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:172
 msgid ""
@@ -546,6 +650,13 @@ msgid ""
 "like for the type **0** (it will statically keep the same min/max limit "
 "allowing the now_dot to move up and down)."
 msgstr ""
+"Observera: För typ **1** (följ centrerad punkt): (a) beskärningsvärden är"
+" endast giltiga som en procentsats och endast de undre (respektive vänstra)"
+" värdena beaktas eftersom båda värdena (dvs under/över) måste vara lika för"
+" att hålla punkten centrerad, (b) om datakällan inte är **GPS-plats**, görs"
+" centreringen endast för horisontell axel (tid), medan vertikal"
+" axelbeskärning beter sig precis som för typ **0** (det håller statiskt samma"
+" min/max-gräns vilket tillåter att nu-punkten flyttas uppåt och neråt)."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:174
 msgid ""
@@ -553,6 +664,9 @@ msgid ""
 "location source type) and time (in milliseconds since epoch) for the rest of "
 "the data source types."
 msgstr ""
+"Observera: För den horisontella typen är absolutvärden longituden (för"
+" platsens källtyp) och tiden (i millisekunder sedan epoken) för resten av"
+" källtyperna."
 
 #: ../../effects_and_compositions/video_effects/misc/gps_graphic.rst:176
 msgid ""
@@ -562,3 +676,9 @@ msgid ""
 "altitude will be considered meters by default but if changing legend_unit to "
 "feet it will mean 10 feet)."
 msgstr ""
+"Observera: För den vertikala typen är absolutvärden latitudgrader (för"
+" platsens källtyp) och höjd, puls, hastighet för övriga tolkas enligt typen"
+" legend_unit när det är tillämpligt (dvs värdet 10 för höjd betraktas normalt"
+" som meter men om legend_unit ändras till fot betyder det 10 fot)."
+
+
