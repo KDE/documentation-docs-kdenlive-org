@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2024-08-08 19:44+0200\n"
+"PO-Revision-Date: 2024-08-12 16:17+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -40,16 +40,22 @@ msgid ""
 "Version 21.12.3 has a few issues that have workarounds. The purpose of this "
 "section is to document these issues and their workarounds."
 msgstr ""
+"Version 21.12.3 har några problem som har provisoriska lösningar. Syftet med"
+" det här avsnittet är att dokumentera dessa problem och deras lösningar."
 
 #: ../../troubleshooting/windows_issues.rst:37
 msgid "Title tool, display real background not working in \"DirectX\" backend"
 msgstr ""
+"Titelverktyg, visa verklig bakgrund som inte fungerar med \"DirectX\""
+" gränssnitt"
 
 #: ../../troubleshooting/windows_issues.rst:39
 msgid ""
 "Something with the settings went wrong. Go to: :menuselection:`Menu --> Help "
 "--> Reset Configuration` and try again."
 msgstr ""
+"Något med inställningarna gick fel. Gå till: :menuselection:`Meny --> Hjälp"
+" --> Återställ inställning` och försök igen."
 
 #: ../../troubleshooting/windows_issues.rst:43
 msgid "Render problems"
@@ -61,12 +67,17 @@ msgid ""
 "end of the last clip: Download version 20.08.1 or higher from the |"
 "download_page|."
 msgstr ""
+"Efter återgivning får man osynkroniserat ljud eller fel effekter eller svarta"
+" bildrutor i slutet av det sista klippet: Ladda ner version 20.08.1 eller"
+" senare från |download_page|."
 
 #: ../../troubleshooting/windows_issues.rst:47
 msgid ""
 "Disable :ref:`render-more_options_parallel_processing` in the render dialog "
 "window (check :guilabel:`More Options`)."
 msgstr ""
+"Inaktivera :ref:`render-more_options_parallel_processing` i dialogfönstret"
+" för återgivning (titta under :guilabel:`Fler alternativ`)."
 
 #: ../../troubleshooting/windows_issues.rst:53
 msgid "Windows issue with scopes, scopes don't show anything"
@@ -81,16 +92,20 @@ msgid ""
 "Workaround: Change the back-end to OpenGL via :menuselection:`Menu --> "
 "Settings --> OpenGL Backend --> OpenGL`"
 msgstr ""
+"Provisorisk lösning: Ändra gränssnitt till OpenGL via :menuselection:`Meny --"
+"> Inställningar --> OpenGL-gränssnitt --> OpenGL`"
 
 #: ../../troubleshooting/windows_issues.rst:63
 msgid ""
 "If it is still not working go to: :menuselection:`Menu --> Help --> Reset "
 "Configuration` and try again."
 msgstr ""
+"Om det fortfarande inte fungerar gå till: :menuselection:`Meny --> Hjälp -->"
+" Återställ inställning` och försök igen."
 
 #: ../../troubleshooting/windows_issues.rst:68
 msgid "Audio crackling while playback"
-msgstr ""
+msgstr "Ljudet sprakar under uppspelning"
 
 #: ../../troubleshooting/windows_issues.rst:70
 msgid ""
@@ -100,16 +115,23 @@ msgid ""
 "menuselection:`Wasapi` (Win10), or :menuselection:`DirectSound` to see what "
 "gives the best result."
 msgstr ""
+"Ändra ljuddrivrutinen i :menuselection:`Meny --> Inställningar --> Anpassa"
+" Kdenlive` (eller :kbd:`Ctrl+Skift +,`), välj :menuselection:`Uppspelning -->"
+" Ljudgränssnitt` och prova med :menuselection:`WinMM` (Win7),"
+" :menuselection:`Wasapi` (Win10), eller :menuselection:`DirectSound` för att"
+" se vad som ger bäst resultat."
 
 #: ../../troubleshooting/windows_issues.rst:72
 msgid "You have to restart Kdenlive after each change."
-msgstr ""
+msgstr "Man måste starta om Kdenlive efter varje ändring."
 
 #: ../../troubleshooting/windows_issues.rst:76
 msgid ""
 "Message *This application failed to start because no Qt platform plugin "
 "could be initialized*"
 msgstr ""
+"Meddelande *Programmet kunde inte startas eftersom inget Qt-plattform"
+" insticksprogram kunde initieras*"
 
 #: ../../troubleshooting/windows_issues.rst:78
 msgid ""
@@ -118,16 +140,22 @@ msgid ""
 "Environment` section and make sure the paths point to the same path as \"MLT "
 "profiles folder\"."
 msgstr ""
+"Öppna :menuselection:`Meny --> Inställningar --> Anpassa Kdenlive` (eller"
+" tryck :kbd:`Ctrl+Skift+,`). Gå sedan till avsnittet"
+" :menuselection:`Omgivning --> MLT-omgivning` och se till att sökvägarna"
+" pekar på samma sökväg som \"MLT-profilkatalog\"."
 
 #: ../../troubleshooting/windows_issues.rst:80
 msgid ""
 "Download: :download:`qt.conf </files/qt.conf>`. Put the file :file:`qt.conf` "
 "into the :file:`bin` folder (the folder where :file:`kdenlive.exe` is)."
 msgstr ""
+"Ladda ner: :download:`qt.conf </files/qt.conf>`. Lägg filen :file:`qt.conf` i"
+" katalogen :file:`bin` (katalogen där :file:`kdenlive.exe` finns)."
 
 #: ../../troubleshooting/windows_issues.rst:84
 msgid "First time use of Kdenlive"
-msgstr ""
+msgstr "Första gången Kdenlive används"
 
 #: ../../troubleshooting/windows_issues.rst:86
 msgid ""
@@ -135,6 +163,9 @@ msgid ""
 "file:`kdenliverc` is correctly set up start Kdenlive twice (start -> close -"
 "> start). Then start your work."
 msgstr ""
+"Problemet ska vara löst med version 19.04.2-6. För att vara säker på att"
+" :file:`kdenliverc` är riktigt inställd, starta Kdenlive två gånger (start ->"
+" stäng -> start). Börja sedan arbeta."
 
 #: ../../troubleshooting/windows_issues.rst:90
 msgid "Intel graphics card driver"
@@ -145,6 +176,8 @@ msgid ""
 "Updated Intel graphics driver version leads to a corrupted Kdenlive :abbr:"
 "`GUI (Graphical User Interface)`."
 msgstr ""
+"Uppdaterad version av Intels grafikdrivrutin leder till ett fördärvat"
+" Kdenlive grafiskt användargränssnitt."
 
 #: ../../troubleshooting/windows_issues.rst:94
 msgid ""
@@ -153,6 +186,10 @@ msgid ""
 "Backend` and select OpenGLES. Restart Kdenlive. This should solve your Intel "
 "graphic driver issue."
 msgstr ""
+"**Lösning 1:** Öppna Kdenlive. Flytta musen längst upp. Menyerna dyker upp."
+" Försök att nå :menuselection:`Meny --> Inställningar --> OpenGL-gränssnitt`"
+" och välj OpenGLES. Starta om Kdenlive. Det bör lösa problemet med Intels"
+" grafikdrivrutin."
 
 #: ../../troubleshooting/windows_issues.rst:101
 msgid ""
@@ -160,21 +197,27 @@ msgid ""
 "and within it open :file:`kdenliverc` with an editor. Search for ``[misc]`` "
 "and delete ``[misc]`` and the following entry. Then restart Kdenlive."
 msgstr ""
+"**Lösning 2:** Tryck på :kbd:`Win+R` och skriv **appdata**. Gå till"
+" :file:`Local` och öppna :file:`kdenliverc` i den med en editor. Sök efter"
+" ``[misc]`` och ta bort ``[misc]`` och följande rad. Starta sedan om Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:107
 msgid ""
 "Timeline right-click menu closes immediately after releasing mouse button"
 msgstr ""
+"Högerklicksmenyn på tidslinjen stängs omedelbart efter att musknappen släpps"
 
 #: ../../troubleshooting/windows_issues.rst:109
 msgid "Don't use the style :guilabel:`Fusion`."
-msgstr ""
+msgstr "Använd inte stilen :guilabel:`Fusion`."
 
 #: ../../troubleshooting/windows_issues.rst:111
 msgid ""
 "Go to: :menuselection:`Menu --> Settings --> Style` and choose :guilabel:"
 "`Default` or :guilabel:`Windows`."
 msgstr ""
+"Gå till: :menuselection:`Meny --> Inställningar --> Stil` och välj"
+" :guilabel:`Standard` eller :guilabel:`Windows`."
 
 #: ../../troubleshooting/windows_issues.rst:117
 msgid "Icons are missing"
@@ -185,16 +228,21 @@ msgid ""
 "Go to: :menuselection:`Menu --> Settings` and un-check :guilabel:`Force "
 "Breeze Icon Theme`. Kdenlive restarts and you should see the icons."
 msgstr ""
+"Gå till: :menuselection:`Meny --> Inställningar` och avmarkera"
+" :guilabel:`Tvinga användning av Breeze ikontema`. Kdenlive startar om och du"
+" bör se ikonerna."
 
 #: ../../troubleshooting/windows_issues.rst:123
 msgid ""
 "Cannot open projects made with previous version, timeline snaps back, cannot "
 "import clip"
 msgstr ""
+"Kan inte öppna projekt gjorda med tidigare version, tidslinjen snäpper"
+" tillbaka, kan inte importera klipp"
 
 #: ../../troubleshooting/windows_issues.rst:125
 msgid "Go to: :menuselection:`Menu --> Help --> Reset configuration`."
-msgstr ""
+msgstr "Gå till: :menuselection:`Meny --> Hjälp --> Återställ inställning`."
 
 #: ../../troubleshooting/windows_issues.rst:127
 msgid ""
@@ -202,6 +250,10 @@ msgid ""
 "Go to :file:`Local` and within it rename :file:`kdenliverc` to :file:"
 "`kdenliverc.old`. Start Kdenlive, close it and then start Kdenlive again."
 msgstr ""
+"Om det inte löser problemet: Tryck på :kbd:`Win+R` och skriv **appdata**. Gå"
+" till :file:`Local` och i den byt namn på :file:`kdenliverc` till"
+" :file:`kdenliverc.old`. Starta Kdenlive, stäng det och starta sedan Kdenlive"
+" igen."
 
 #: ../../troubleshooting/windows_issues.rst:129
 msgid ""
@@ -209,93 +261,115 @@ msgid ""
 "to :menuselection:`Menu --> Project --> Project Setting --> Cache Data` "
 "where you can delete cached data."
 msgstr ""
+"Om det fortfarande finns problem ta bort ersättningsklipp och annan cachedata"
+" genom att gå till :menuselection:`Meny --> Projekt --> Projektinställning --"
+"> Cachedata` där det går att ta bort cachedata."
 
 #: ../../troubleshooting/windows_issues.rst:133
 msgid "Windows 10: timeline stuttering or Kdenlive hangs"
-msgstr ""
+msgstr "Windows 10: tidslinjen hoppar eller Kdenlive låser sig"
 
 #: ../../troubleshooting/windows_issues.rst:135
 msgid ""
 "Most probably you got a major Win10 update (i.e 1809). If so, you have to "
 "update all drivers for audio and video."
 msgstr ""
+"Troligtvis har en större uppdatering av Win10 (dvs 1809) gjorts. Om så är"
+" fallet måste alla drivrutiner för ljud och video uppdateras."
 
 #: ../../troubleshooting/windows_issues.rst:137
 msgid "Intel drivers can be updated with this |intel_updater|."
-msgstr ""
+msgstr "Intel-drivrutiner kan uppdateras med |intel_updater|."
 
 #: ../../troubleshooting/windows_issues.rst:141
 msgid "Message *Clip is invalid, will be removed*"
-msgstr ""
+msgstr "Meddelande *Klippet är inte giltigt, och kommer att tas bort*"
 
 #: ../../troubleshooting/windows_issues.rst:143
 msgid ""
 "This message can appear if you do a clean reinstall of Kdenlive (see above). "
 "Simply close and open Kdenlive once, and it should be fixed."
 msgstr ""
+"Meddelandet kan visas om man gör en ren ominstallation av Kdenlive (se ovan)."
+" Stäng helt enkelt och öppna Kdenlive en gång, så borde det rättas."
 
 #: ../../troubleshooting/windows_issues.rst:145
 msgid ""
 "Additionally this can be a problem either with the :file:`kdenliverc` file "
 "or you have some mismatch in the :file:`%APPDATA%\\\\local` folder."
 msgstr ""
+"Dessutom kan det antingen vara ett problem med filen :file:`kdenliverc` eller"
+" så finns det någon som inte stämmer överens i katalogen :file:`%APPDATA"
+"%\\\\local`."
 
 #: ../../troubleshooting/windows_issues.rst:149
 msgid "Any critical bug"
-msgstr ""
+msgstr "Något kritiskt fel"
 
 #: ../../troubleshooting/windows_issues.rst:151
 msgid "This describes the process of doing a clean install on Windows®."
 msgstr ""
+"Det här beskriver processen för att göra en ren installation på Windows®."
 
 #: ../../troubleshooting/windows_issues.rst:153
 msgid ""
 "Firstly, delete your normal Kdenlive folder (containing the application)."
 msgstr ""
+"Ta först bort den vanliga Kdenlive-katalogen (som innehåller programmet)."
 
 #: ../../troubleshooting/windows_issues.rst:155
 msgid ""
 "Access the **Appdata** folder (:kbd:`Win+R` and then type **APPDATA** in "
 "full caps). Go to :file:`Local` and search for folder :file:`kdenlive`."
 msgstr ""
+"Öppna katalogen **Appdata** (:kbd:`Win+R` och skriv sedan **APPDATA** med"
+" stora bokstäver). Gå till :file:`Local` och sök efter katalogen"
+" :file:`kdenlive`."
 
 #: ../../troubleshooting/windows_issues.rst:157
 msgid ""
 "If you have any saved effects, or clips stored in your library, make a "
 "backup of the :file:`library` and the :file:`effect-templates` folders."
 msgstr ""
+"Om det finns några sparade effekter, eller klipp lagrade i biblioteket, gör"
+" en säkerhetskopia av katalogerna :file:`library` och"
+" :file:`effect-templates`."
 
 #: ../../troubleshooting/windows_issues.rst:159
 msgid "Then delete the :file:`kdenlive` folder."
-msgstr ""
+msgstr "Ta sedan bort katalogen :file:`kdenlive`."
 
 #: ../../troubleshooting/windows_issues.rst:161
 msgid "Reinstall the latest version of Kdenlive from the |download_page|."
-msgstr ""
+msgstr "Installera om den senaste versionen av Kdenlive från |download_page|."
 
 #: ../../troubleshooting/windows_issues.rst:165
 msgid "JPG files appear as white picture after rendering"
-msgstr ""
+msgstr "JPG-filer visas som vita bilder efter återgivning"
 
 #: ../../troubleshooting/windows_issues.rst:167
 msgid ""
 "This issue should be solved with version 19.04.0. If not, convert the JPG to "
 "PNG and it renders correctly."
 msgstr ""
+"Problemet bör vara löst med version 19.04.0. Om inte, konvertera JPG till PNG"
+" så återges den riktigt."
 
 #: ../../troubleshooting/windows_issues.rst:171
 msgid "Play/Pause issue"
-msgstr ""
+msgstr "Problem med spela/paus"
 
 #: ../../troubleshooting/windows_issues.rst:173
 msgid ""
 "This issue is solved with version 18.08.2 (30. Oct 2018). Get the current "
 "version from the |download_page|."
 msgstr ""
+"Problemet är löst med version 18.08.2 (30 oktober 2018). Hämta den aktuella"
+" versionen från |download_page|."
 
 #: ../../troubleshooting/windows_issues.rst:177
 msgid "Qt rendering crash"
-msgstr ""
+msgstr "Qt-återgivningskrasch"
 
 #: ../../troubleshooting/windows_issues.rst:179
 msgid ""
@@ -303,6 +377,10 @@ msgid ""
 "Configure Kdenlive`, and then to :menuselection:`Environment` and make sure "
 "the paths point to the same path as \"MLT profiles folder\"."
 msgstr ""
+"Tryck på :kbd:`Ctrl+Shift+,` eller gå till :menuselection:`Meny -->"
+" Inställningar --> Anpassa Kdenlive` och sedan till"
+" :menuselection:`Omgivning` och se till att sökvägarna pekar på samma sökväg"
+" som \" MLT-profilkatalog\"."
 
 #: ../../troubleshooting/windows_issues.rst:181
 msgid ""
@@ -313,16 +391,24 @@ msgid ""
 "simultaneously) and type **appdata**. Go to :file:`local` and within it "
 "rename :file:`kdenliverc` to :file:`kdenliverc.old`."
 msgstr ""
+"När man byter från version 17.12 till 18.04/18.08 uppstår en"
+" Qt-återgivningskrasch. För att säkerställa att det inte händer, måste filen"
+" :file:`kdenliverc` i katalogen :file:`AppData\\\\local` redigeras. För att"
+" komma åt appdata, tryck på :kbd:`Win+R` (tangenterna :kbd:`Windows` och"
+" :kbd:`R`samtidigt) och skriv **appdata**. Gå till :file:`local` och i den"
+" byt namn på :file:`kdenliverc` till :file:`kdenliverc.old`."
 
 #: ../../troubleshooting/windows_issues.rst:185
 msgid "Kdenlive cannot be deleted, running process on exit"
-msgstr ""
+msgstr "Kdenlive kan inte tas bort, processen körs vid avslutning"
 
 #: ../../troubleshooting/windows_issues.rst:187
 msgid ""
 "This issue is solved with Windows version 18.12.1. Get the current version "
 "from the |download_page|."
 msgstr ""
+"Problemet är löst med Windows version 18.12.1. Hämta den aktuella versionen"
+" från |download_page|."
 
 #: ../../troubleshooting/windows_issues.rst:189
 msgid ""
@@ -330,6 +416,9 @@ msgid ""
 "file or folder is open in another program\". Windows® then won't let you "
 "delete or re-run Kdenlive."
 msgstr ""
+"Om man vill installera om Kdenlive eller starta om Kdenlive, kan meddelandet"
+" \"Filen eller katalogen är öppen i ett annat program\" dyka upp. Windows®"
+" låter dig då inte ta bort eller starta om Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:191
 msgid ""
@@ -338,6 +427,11 @@ msgid ""
 "details`. Then find :file:`kdenlive.exe` and :file:`dbus-daemon.exe`, and "
 "click :menuselection:`End task` for both of them."
 msgstr ""
+"För att rätta det måste den pågående processen avbrytas: tryck och håll nere"
+" :kbd:`Ctrl+Skift+Esc` och expandera aktivitetshanteraren genom att klicka på"
+" :menuselection:`Alla detaljer`. Leta sedan reda på :file:`kdenlive.exe` och"
+" :file:`dbus-daemon.exe` och klicka på :menuselection:`Avsluta uppgift` för"
+" båda."
 
 #: ../../troubleshooting/windows_issues.rst:193
 msgid ""
@@ -345,16 +439,21 @@ msgid ""
 "it and just double-click the batch file which kills all running Kdenlive "
 "processes."
 msgstr ""
+"Eller ladda ner :download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>`."
+" Packa upp det och dubbelklicka bara på bakgrundsfilen som dödar alla körande"
+" Kdenlive-processer."
 
 #: ../../troubleshooting/windows_issues.rst:197
 msgid "Kdenlive crashes at start up, Kdenlive cannot be uninstalled"
-msgstr ""
+msgstr "Kdenlive kraschar vid start, Kdenlive kan inte avinstalleras"
 
 #: ../../troubleshooting/windows_issues.rst:199
 msgid ""
 "If Kdenlive crashes at startup or if the uninstaller doesn't work delete the "
 "entire folder: :file:`C:/Program Files/kdenlive`."
 msgstr ""
+"Om Kdenlive kraschar vid start eller om avinstallationsprogrammet inte"
+" fungerar, ta bort hela katalogen: :file:`C:/Program Files/kdenlive`."
 
 #: ../../troubleshooting/windows_issues.rst:201
 msgid "Re-install Kdenlive."
@@ -362,11 +461,11 @@ msgstr "Installera om Kdenlive."
 
 #: ../../troubleshooting/windows_issues.rst:203
 msgid "You may have to manually delete the Kdenlive folder in the Start menu."
-msgstr ""
+msgstr "Man kan behöva ta bort Kdenlive-katalogen manuellt i Start-menyn."
 
 #: ../../troubleshooting/windows_issues.rst:207
 msgid "Kdenlive crash or green monitor"
-msgstr ""
+msgstr "Kdenlive krasch eller grön skärm"
 
 #: ../../troubleshooting/windows_issues.rst:209
 msgid ""
@@ -376,12 +475,20 @@ msgid ""
 "Windows®10 updates (18.09 update). After you have updated the drivers re-"
 "start the computer and try again by starting :file:`kdenlive.exe`."
 msgstr ""
+"Hämta alla de senaste Windows®-uppdateringarna. Uppdatera sedan"
+" grafikkortsdrivrutinen, ljudkortsdrivrutinen och din skrivardrivrutinen."
+" Vissa krascher kan inträffa på grund av inkompatibilitet mellan grafikkortet"
+" och ljudkortet med de senaste Windows®10-uppdateringarna (uppdateringen"
+" 18.09). När drivrutinerna har uppdaterats, starta om datorn och försök igen"
+" genom att starta :file:`kdenlive.exe`."
 
 #: ../../troubleshooting/windows_issues.rst:213
 msgid ""
 "If this is not solving the problem switch your standard printer to "
 "“Microsoft XPS Document Writer” and try again to start Kdenlive."
 msgstr ""
+"Om det inte löser problemet byt standardskrivare till \"Microsoft XPS"
+" Document Writer\" och försök starta Kdenlive igen."
 
 #: ../../troubleshooting/windows_issues.rst:215
 msgid "Delete the :file:`kdenliverc` file."
@@ -394,10 +501,14 @@ msgid ""
 "menuselection:`Environment --> Proxy and Transcode Jobs` set :guilabel:"
 "`Concurrent threads` to ``1``."
 msgstr ""
+"Se till att samtidiga trådar ställs in till ``1``: Gå till"
+" :menuselection:`Meny --> Inställningar --> Anpassa Kdenlive` (eller"
+" :kbd:`Ctrl+Shift+,`) och sedan i :menuselection:`Omgivning --> Ersättnings-"
+" och omkodningsjobb` ställ in :guilabel:`Samtidiga trådar` till ``1``."
 
 #: ../../troubleshooting/windows_issues.rst:221
 msgid "Audio pops and ticks in render"
-msgstr ""
+msgstr "Ljud smäller och tickar i återgivning"
 
 #: ../../troubleshooting/windows_issues.rst:223
 msgid ""
@@ -405,6 +516,11 @@ msgid ""
 "issues that have workarounds. If this problem appears make sure the audio "
 "file uses 16-bit PCM WAV format."
 msgstr ""
+"Den nuvarande versionen av Kdenlive (november 2018, version 18.08.3) har"
+" ljudproblem som har provisoriska lösningar. Om problemet uppstår, se till"
+" att ljudfilen använder 16-bitars PCM WAV-format."
 
 #~ msgid "Contents"
 #~ msgstr "Innehåll"
+
+
