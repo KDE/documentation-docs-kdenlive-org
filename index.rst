@@ -16,7 +16,7 @@ Kdenlive Manual
 
 Welcome to the manual for `Kdenlive <https://kdenlive.org>`_, the free and open source video editor.
 
-The current Kdenlive version you get `here <https://kdenlive.org/download/>`_ . Check out :doc:`what's new </more_information/whats_new>`.
+The current Kdenlive version you get `here <https://kdenlive.org/download/>`_. Check out :doc:`what's new </more_information/whats_new>`.
 
 You can download this manual as an `EPUB <https://docs.kdenlive.org/epub/KdenliveManual.epub>`_.
 
@@ -109,14 +109,25 @@ Workflow
     .. container:: tile
 
        .. figure:: /images/intro_page/Index_Effects.png
-          :target: /effects_and_compositions/effects.html
+          :target: effects_and_filters.html
 
-       :ref:`effects_and_compositions`
-          Add video and audio effects and compositions.
+       :doc:`Effects and Filters<effects_and_filters>`
+          Add video and audio effects and filters
 
-          Create Titles and Subtitles and use Speech to Text.
+          Create Titles and Subtitles and use Speech to Text
 
-          Make color correction.
+          Make color correction
+
+    .. container:: tile
+
+       .. figure:: /images/intro_page/index_transitions.webp
+          :target: compositing.html
+
+       :doc:`Transitions and Compositions</compositing>`
+          Add transitions between clips to advance your story
+
+          Add artistic and aesthetic compositions
+          
 
     .. container:: tile
 
@@ -124,7 +135,7 @@ Workflow
           :target: exporting.html
 
        :ref:`exporting`
-          Render out your final video for distributing.
+          Render out your final video for distributing
 
 
 #######################################
@@ -148,13 +159,13 @@ Troubleshooting, Glossary, Get Involved
    .. container:: tile
 
       :doc:`/glossary`
-         References and further information.
+         References and further information
 
 
    .. container:: tile
 
       `Get Involved <https://community.kde.org/Kdenlive/Workgroup/Documentation>`__
-         Contribute to this Manual.
+         Contribute to this Manual
 
 
 .. toctree::
@@ -164,7 +175,8 @@ Troubleshooting, Glossary, Get Involved
    user_interface
    importing_and_assets_management
    cutting_and_assembling
-   effects_and_compositions
+   effects_and_filters
+   compositing
    exporting
    troubleshooting
    tips_and_tricks/index
