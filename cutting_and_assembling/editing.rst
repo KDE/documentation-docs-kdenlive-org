@@ -623,11 +623,14 @@ Split Audio and Video Automatically
 When this is on and you drag a clip to the timeline, the audio in the clip will end up on an audio track and the video on a video track. You can achieve the same result if you select the clip, :ref:`right_click_menu`, :menuselection:`Split Audio`.  When this is off and you drag a clip onto the timeline, both the audio and video tracks are combined into one video track.
 
 
-Automatic Transitions
-~~~~~~~~~~~~~~~~~~~~~
+.. ==================================================================================================
+   Is this not deprecated?
 
-When active any transitions added to the timeline will have the automatic transition option checked by default.
-See :ref:`transitions_compositions`
+   Automatic Transitions
+   ~~~~~~~~~~~~~~~~~~~~~
+
+   When active, any transitions added to the timeline will have the automatic transition option checked by default.
+   See :ref:`transitions_compositions`
 
 
 Show Video Thumbnails

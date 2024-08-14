@@ -78,12 +78,13 @@ Deletes all Markers from the current clip.
 As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
 
 
-Automatic Transition
---------------------
+.. =============================================================================================
+   Automatic Transition
+   --------------------
 
-When a transition is selected, this menu item allows you toggle the transition to and from :ref:`transitions_compositions` mode.
+   When a transition is selected, this menu item allows you toggle the transition to and from :ref:`transitions_compositions` mode.
 
-.. I am not sure this is true anymore. I could not get that menu item to be available regardless of what I did or had selected. Is this still a valid menu item?
+   I am not sure this is true anymore. I could not get that menu item to be available regardless of what I did or had selected. Is this still a valid menu item?
 
    Secondly, a transition is a Composition and this section should be rephrased
 
