@@ -155,7 +155,7 @@ What's New
 
    * Enable locking of Guides (see :ref:`timeline Ruler right-click menu <timeline_ruler_right-click_menu>`)
    * :ref:`Guides are moving <move_edit_guides>` with the Spacer tool
-   * Introducing :ref:`effects-masking_effects` (see :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/mask_apply`)
+   * Introducing :ref:`effects-masking_effects` (see :doc:`/effects_and_filters/video_effects/alpha_mask_keying/mask_apply`)
    * New :ref:`effects-time_remapping` feature
 
 
