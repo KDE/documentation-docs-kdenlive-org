@@ -15,7 +15,7 @@ Editing Audio Volume with Keyframes
 
 In this *How-to* video we show you how to edit the audio volume of a clip using keyframes:
 
-1. Learn how to add a :doc:`/effects_and_compositions/audio_effects/volume_and_dynamics/volume_keyframable` effect to adjust the volume of a clip
+1. Learn how to add a :doc:`/effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable` effect to adjust the volume of a clip
 2. How to add and edit keyframes in the effect properties
 3. How to manage and edit keyframes directly in the timeline
 4. Double click to add a keyframe, remove a keyframe by dragging it above or below the clip

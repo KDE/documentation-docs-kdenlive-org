@@ -138,7 +138,7 @@ Nikon D90
 
 The Nikon D90 was the first DSLR offering video: 720/24p (:abbr:`AVI (Audio Video Interleave)` container).
 
-D90 videos at 720p are scaled awfully. That is why you can see stair-stepping in sharp, skew lines. If this becomes perturbing for a clip, you can apply the :doc:`/effects_and_compositions/video_effects/utility/nikon_d90_stairstepping_fix` filter. Written (but not invented) by the original author *Granjow*. See our |nikon-d90| for an example of how stairstepping looks like (before and after correction).
+D90 videos at 720p are scaled awfully. That is why you can see stair-stepping in sharp, skew lines. If this becomes perturbing for a clip, you can apply the :doc:`/effects_and_filters/video_effects/utility/nikon_d90_stairstepping_fix` filter. Written (but not invented) by the original author *Granjow*. See our |nikon-d90| for an example of how stairstepping looks like (before and after correction).
 
 There is an extensive overview over the D90 video function at dvxuser.com: |movie_mode|.
 

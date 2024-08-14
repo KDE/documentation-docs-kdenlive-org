@@ -27,7 +27,7 @@ When transparency is involved in both frames processed by one of Kdenlive's dyna
 Transparency & Dynamic Transitions
 ----------------------------------
 
-When it comes to handling transparency, Kdenlive's :doc:`transitions </effects_and_compositions/transitions>` fall into two categories:
+When it comes to handling transparency, Kdenlive's :doc:`transitions </compositing/transitions>` fall into two categories:
 
 1. **Affine** uses the so-called **atop** compositing operator
 2. **Composite**, **Composite & Transform**, **Cairo (Affine) Blend** use the **over** compositing operator instead

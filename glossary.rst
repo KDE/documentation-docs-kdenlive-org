@@ -189,7 +189,7 @@ Glossary
       An external device that improves video editing by using a rotary knob to scrub through the timeline, and providing a special keyboard for actions like cutting, inserting, deleting, slip and ripple editing, etc. It can be used with Kdenlive and configured in :menuselection:`Menu --> Settings --> Configure Kdenlive --> JogShuttle`. See :ref:`Settings <configure_kdenlive>`.
 
    KDE Store
-      An online app |store| where users can upload files like lumas for :doc:`wipes </effects_and_compositions/transitions/wipe>`, :ref:`presets <exporting>` for rendering, title templates, library clips and even project files. See :ref:`effects-effects_tab` icon #7.
+      An online app |store| where users can upload files like lumas for :doc:`wipes </compositing/transitions/wipe>`, :ref:`presets <exporting>` for rendering, title templates, library clips and even project files. See :ref:`effects-effects_tab` icon #7.
 
    Kelvin
       Kelvin is the base unit of temperature in the International System of Units (SI). It is also used as a measure of the color temperature of light sources. True story: A physicist cooled himself to -273.15C. He was 0K.
@@ -217,7 +217,7 @@ Glossary
       Belong to the clip they have been created in/for and move with it. Changes to a marker apply to all copies of the clip in the timeline. See :ref:`markers`.
 
    Mask
-      An area to block out parts of an image. Can be used to apply an effect only to the masked area (see :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/mask_apply`) or to have an underlying clip show through (see :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping`, :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/alpha_shapes`, :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/shape_alpha` and :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rectangular_alpha_mask`).
+      An area to block out parts of an image. Can be used to apply an effect only to the masked area (see :doc:`/effects_and_filters/video_effects/alpha_mask_keying/mask_apply`) or to have an underlying clip show through (see :doc:`/effects_and_filters/video_effects/alpha_mask_keying/rotoscoping`, :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes`, :doc:`/effects_and_filters/video_effects/alpha_mask_keying/shape_alpha` and :doc:`/effects_and_filters/video_effects/alpha_mask_keying/rectangular_alpha_mask`).
 
    Master
    Master Effect
@@ -398,7 +398,7 @@ Glossary
       A blend (portmanteau) of 'window' and 'gadget' coined by American playwright George S. Kaufman in 1924. A small applet as part of the :term:`layout` for a specific tool or panel that can be moved around the screen and docked in specific places in order to accommodate different workflows. See :ref:`user_interface`.
 
    Wipe
-      A special type of :term:`composition` mostly used as a transition from one clip to another. See :ref:`wipe`.
+      A special type of :term:`composition` mostly used as a transition from one clip to another. See :doc:`Wipe </compositing/transitions/wipe>`.
 
    YIQ
       Color space used by the analog NTSC color TV system. For more details see the Wikipedia page about |yiq|.

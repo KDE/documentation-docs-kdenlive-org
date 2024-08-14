@@ -161,7 +161,7 @@ You can zoom in by either using the :menuselection:`zoom slider` at the bottom r
 
 Now that the clips overlap, the transition can be added. This is done either by right-clicking on the upper clip and choosing :menuselection:`Insert a Composition` and choose :menuselection:`Wipe` or, easier, by hovering the mouse over the lower right corner of the Spoon clip until the pointing-finger pointer is shown and the message "Click to add composition" appears. The latter, by default, adds a wipe transition, which is in this case the best idea anyway since the Spoon is not required for playing.
 
-The wipe transitions fades the first clip into the second one. See also :ref:`transitions_compositions`.
+The wipe transitions fades the first clip into the second one. See also :doc:`Wipe </compositing/transitions>`.
 
 .. image:: /images/getting_started/kdenlive_add_last_clip.webp
   :align: left
@@ -227,7 +227,7 @@ Moving the timeline cursor to the beginning of the project and playing it (with 
 
 Keyframing was the hardest part of this tutorial. If you managed to do it, you will master **Kdenlive** easily!
 
-.. note:: In this Quick Start section we brushed over the effects very quickly. More details about effects and an explanation of each effect is available in the :ref:`Effects and Compositions <effects_and_compositions>` section of this documentation.
+.. note:: In this Quick Start section we brushed over the effects very quickly. More details about effects and an explanation of each effect is available in the :ref:`Effects and Filters <effects_and_filters>` section of this documentation.
 
 
 Music

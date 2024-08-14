@@ -96,7 +96,7 @@ Two things can be noticed:
     
 - The orange background seems to connect all other areas. This is something really amazing. Like magic. It will help doing white balance. The neutral area will almost always seem to connect the other ones.
 
-As the shot above is actually correctly white balanced, it should not be maltreated it here. But you should actually try! Download the sample below, add a :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` effect and change the :guilabel:`Offset` parameters for the RGB values. (Do not forget to enable auto-refresh.)
+As the shot above is actually correctly white balanced, it should not be maltreated it here. But you should actually try! Download the sample below, add a :doc:`/effects_and_filters/video_effects/color_image_correction/sat` effect and change the :guilabel:`Offset` parameters for the RGB values. (Do not forget to enable auto-refresh.)
 
 Now perhaps you wonder how we could be so sure assigning those spots to colors. Is it really the upper spot caused by the red ball? To find out, the red ball out was masked out using a white Color Clip. The spot then indeed disappeared.
 
@@ -131,7 +131,7 @@ But when increasing the gain (or zoom level) of the Vectorscope to 5x we see tha
 
    Vectorscope before white balancing
 
-If you open this clip and take a look at the Waveform you will notice that it shows the same: Blue is too low, red is too high. To correct this minor color cast we can use the :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` effect again, adjusting the :guilabel:`Offset` values. By doing that the points on the Vectorscope will be shifted around. A positive red offset will make the points shift towards red at the top, a negative offset shifts them towards the opposite direction (that is, towards the |complementary_color| of red, cyan).
+If you open this clip and take a look at the Waveform you will notice that it shows the same: Blue is too low, red is too high. To correct this minor color cast we can use the :doc:`/effects_and_filters/video_effects/color_image_correction/sat` effect again, adjusting the :guilabel:`Offset` values. By doing that the points on the Vectorscope will be shifted around. A positive red offset will make the points shift towards red at the top, a negative offset shifts them towards the opposite direction (that is, towards the |complementary_color| of red, cyan).
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_07.webp
    :width: 350px
@@ -141,15 +141,15 @@ If you open this clip and take a look at the Waveform you will notice that it sh
 
 Here, the blue and red values were adjusted such that there is some padding around the neutral center. It is usually not enough to just let the first pixel hit the neutral point because of several factors like the material of the neutral object itself, chromatic aberration (also see this more accurate article about |chromatic_aberration|) in lenses, and artifacts in the recorded video file. So usually neutral areas will not share one single pixel in the vectorscope but have a certain diameter. Hence the padding.
 
-Because this is a suitable clip for :term:`hue` and the :doc:`/effects_and_compositions/video_effects/color_image_correction/hue_shift` effect:
+Because this is a suitable clip for :term:`hue` and the :doc:`/effects_and_filters/video_effects/color_image_correction/hue_shift` effect:
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_08.webp
    :width: 650px
    :alt: kdenlive2308_vectorscope_08.webp
 
-   Vectorscope of the musical box after applying the :doc:`/effects_and_compositions/video_effects/color_image_correction/hue_shift` effect (Hue=45)
+   Vectorscope of the musical box after applying the :doc:`/effects_and_filters/video_effects/color_image_correction/hue_shift` effect (Hue=45)
 
-Now what happened here? The hue has changed, and the points on the scope look like rotated by 30 degrees. And indeed they did rotate. The :doc:`/effects_and_compositions/video_effects/color_image_correction/hue_shift` effect changes the hue of all colors by a certain (configurable) amount. In the Vectorscope this becomes visible as a rotation around the center of the scope.
+Now what happened here? The hue has changed, and the points on the scope look like rotated by 30 degrees. And indeed they did rotate. The :doc:`/effects_and_filters/video_effects/color_image_correction/hue_shift` effect changes the hue of all colors by a certain (configurable) amount. In the Vectorscope this becomes visible as a rotation around the center of the scope.
 
 Similarly, when changing the saturation/chroma, the dots on the vectorscope will move closer to the center or further away from it.
 
@@ -174,7 +174,7 @@ Mostly different content and therefore different colors - as said: random. One p
 
    Collection of color-graded video stills
 
-These clips look much more like if they belonged together. This is the result of **Primary Color Correction** (*Primary* means that it affects the whole image; *Secondary Color Correction* would only affect parts of it, e.g. by using masks, choosing color ranges, etc.): White balance (plus in some cases reduction of saturation) followed by a :doc:`/effects_and_compositions/video_effects/color_image_correction/sat` effect. The latter SOP/Sat effect does something similar as the Blockbuster Effect: here the blacks become blueish, the mids and the whites tend towards yellow.
+These clips look much more like if they belonged together. This is the result of **Primary Color Correction** (*Primary* means that it affects the whole image; *Secondary Color Correction* would only affect parts of it, e.g. by using masks, choosing color ranges, etc.): White balance (plus in some cases reduction of saturation) followed by a :doc:`/effects_and_filters/video_effects/color_image_correction/sat` effect. The latter SOP/Sat effect does something similar as the Blockbuster Effect: here the blacks become blueish, the mids and the whites tend towards yellow.
 
 See also |this_page| for some hints about looks and the vectorscope.
 
