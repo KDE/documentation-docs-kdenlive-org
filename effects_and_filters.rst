@@ -1,5 +1,5 @@
 .. meta::
-   :description: Kdenlive Documentation - Effects and Compositions
+   :description: Kdenlive Documentation - Effects and Filters
    :keywords: KDE, Kdenlive, effects, audio, video, title, subtitle, speech to text, color correction, documentation, user manual, video editor, open source, free, learn, easy
 
    :authors: - Eugen Mohr
@@ -17,17 +17,22 @@
    <a href="https://www.mltframework.org/plugins/PluginsFilters/" target="_blank">avfilter</a>
 
 
-.. _effects_and_compositions:
+.. _effects_and_filters:
 
-########################
-Effects and Compositions
-########################
+###################
+Effects and Filters
+###################
 
-Effects and Compositions are very important components in video editing. In Kdenlive, effects and compositions are essentially filters provided by |frei0r| or |avfilter| (Kdenlive does not have built-in effects or compositions of its own).
+Effects and Filters are very important components in video editing. In Kdenlive, effects and filters are provided by |frei0r| or |avfilter| (Kdenlive does not have built-in effects or filters of its own).
+
+.. .. seealso:: :doc:`Compositions </compositing>`
 
 Effects are used to change the appearance of or manipulate a clip. For example, the **Transform** effect allows to scale and move the clip; the **Brightness** effect changes the brightness of the clip; effects in the *Alpha, Mask and Keying* category provide very specific filters for masking or rotoscoping.
 
-Compositions are used to combine several visual elements from different sources into a single video. In Kdenlive, you put the different sources into tracks in the Timeline and use compositions to tell Kdenlive how to combine them. For example, the **Dissolve** composition fades out one clip while fading in another over a certain number of frames. That is why Compositions are often referred to as Transitions. Keep in mind that while Compositions are very often used to transition from one video to another they can be used to create artistic and aesthetic effects when combining several clips (e.g. Darken, Dodge, Burn).
+.. ==============================================================================================
+   This text has moved to its own section "Compositing"
+   Compositions are used to combine several visual elements from different sources into a single video. In Kdenlive, you put the different sources into tracks in the Timeline and use compositions to tell Kdenlive how to combine them. For example, the **Dissolve** composition fades out one clip while fading in another over a certain number of frames. That is why Compositions are often referred to as Transitions. Keep in mind that while Compositions are very often used to transition from one video to another they can be used to create artistic and aesthetic effects when combining several clips (e.g. Darken, Dodge, Burn).
+   ==============================================================================================
 
 Kdenlive has two groups of effects: :ref:`Video Effects <effects-video_effects>` and :ref:`Audio Effects <effects-audio_effects>`.
 
@@ -366,14 +371,16 @@ The effect keyframe panel has new icons, improved keyframe grabbing and new func
 
 .. _effects-keyframes_types:
 
-Keyframe types
+Keyframe Types
 --------------
 
 .. .. versionadded:: 24.02
 
-Easing functions are based on Robert Penner's Easing Functions: http://robertpenner.com/easing/
+.. |rp_easing_func| raw:: html
 
+   <a href="http://robertpenner.com/easing/" target="_blank">Robert Penner's Easing Functions</a>
 
+Easing functions are based on |rp_easing_func|.
 
 
 .. _effects-exchange_keyframes:
@@ -439,7 +446,7 @@ There are specific effects and filters that work :ref:`effects-on_master` only.
    :maxdepth: 1
    :glob:
 
-   effects_and_compositions/video_effects/on_master
+   effects_and_filters/video_effects/on_master
 
 
 .. _effects-effect_zones:
@@ -514,13 +521,13 @@ The video effects are divided into the following categories:
    :maxdepth: 1
    :glob:
 
-   effects_and_compositions/video_effects/*
+   effects_and_filters/video_effects/*
 
 The available effects are defined by :file:`.xml` files found in :file:`.local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`).
 
 These :file:`.xml` files contain the default values for the effects parameters. So if you don't like the default values for the effects in Kdenlive, you can modify the defaults by editing these :file:`.xml` files.
 
-See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` for an alphabetical list of effects and transitions.
+See also :doc:`here <effects_and_filters/effects_and_filters_list>` for an alphabetical list of effects and filters.
 
 
 .. _effects-audio_effects:
@@ -533,49 +540,52 @@ The audio effects are divided into the following categories:
 .. toctree::
    :maxdepth: 1
 
-   effects_and_compositions/audio_effects/audio/index
-   effects_and_compositions/audio_effects/channels/index
-   effects_and_compositions/audio_effects/cmt_plugins/index
-   effects_and_compositions/audio_effects/eq_and_filters/index
-   effects_and_compositions/audio_effects/ladspa_plugins/index
-   effects_and_compositions/audio_effects/modulators/index
-   effects_and_compositions/audio_effects/pitch_and_time/index
-   effects_and_compositions/audio_effects/reverb_echo_delays/index
-   effects_and_compositions/audio_effects/swh_plugins/index
-   effects_and_compositions/audio_effects/stereo_and_binaural_images/index
-   effects_and_compositions/audio_effects/tap_plugins/index
-   effects_and_compositions/audio_effects/tools/index
-   effects_and_compositions/audio_effects/volume_and_dynamics/index
+   effects_and_filters/audio_effects/audio/index
+   effects_and_filters/audio_effects/channels/index
+   effects_and_filters/audio_effects/cmt_plugins/index
+   effects_and_filters/audio_effects/eq_and_filters/index
+   effects_and_filters/audio_effects/ladspa_plugins/index
+   effects_and_filters/audio_effects/modulators/index
+   effects_and_filters/audio_effects/pitch_and_time/index
+   effects_and_filters/audio_effects/reverb_echo_delays/index
+   effects_and_filters/audio_effects/swh_plugins/index
+   effects_and_filters/audio_effects/stereo_and_binaural_images/index
+   effects_and_filters/audio_effects/tap_plugins/index
+   effects_and_filters/audio_effects/tools/index
+   effects_and_filters/audio_effects/volume_and_dynamics/index
 
 The available effects are defined by :file:`.xml` files found in :file:`.local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`).
 
 These :file:`.xml` files contain the default values for the effects parameters. So if you don't like the default values for the effects in Kdenlive, you can modify the defaults by editing these :file:`.xml` files.
 
-See also :doc:`here <effects_and_compositions/effects_and_transitions_list>` for an alphabetical list of effects and transitions.
+See also :doc:`here <effects_and_filters/effects_and_filters_list>` for an alphabetical list of effects and filters.
 
 
-.. _effects-compositions:
+.. ====================================================================================================
+   This section has moved to its own chapter
 
-Compositions
-============
+   .. _effects-compositions:
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
+   Compositions
+   ============
 
-   effects_and_compositions/transitions
+   .. toctree::
+      :maxdepth: 1
+      :glob:
 
+      effects_and_compositions/transitions
+   ====================================================================================================
 
 .. .. _effects-effects_and_transitions_list:
 
-Alphabetical List of all Effects and Compositions
-=================================================
+Alphabetical List of all Effects and Filters
+============================================
 
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   effects_and_compositions/effects_and_transitions_list
+   effects_and_filters/effects_and_filters_list
 
 
 .. .. _effects-audio_tools:
@@ -587,7 +597,7 @@ Audio Tools
    :maxdepth: 1
    :glob:
 
-   effects_and_compositions/audio
+   effects_and_filters/audio
 
 
 .. _effects-time_remapping:
@@ -615,7 +625,7 @@ Speech-to-Text
    :maxdepth: 1
    :glob:
 
-   effects_and_compositions/speech_to_text
+   effects_and_filters/speech_to_text
 
 
 .. .. _effects-subtitles:
@@ -627,7 +637,7 @@ Subtitles
    :maxdepth: 1
    :glob:
 
-   effects_and_compositions/subtitles
+   effects_and_filters/subtitles
 
 
 .. .. _effects-titles:
@@ -639,7 +649,7 @@ Titles
    :maxdepth: 1
    :glob:
 
-   effects_and_compositions/titles
+   effects_and_filters/titles
 
 
 .. _effects-effects_demos:
