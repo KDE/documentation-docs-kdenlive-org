@@ -15,7 +15,15 @@
 Alpha Channels
 ==============
 
-The alpha channel is a component of the video or image that controls the transparency (or opacity) of the image. It is essentially a mask that specifies how the image should be combined (or composited) with another image when the two are overlaid. The alpha channel can have a value from 0 (black) to 255 (white). Normally, black is fully transparent, meaning the image below shows through completely, while white means that the image below is blocked (or masked). You could say the alpha channel determines which parts of the image are transparent or semi-transparent or not transparent at all (opaque), allowing or preventing the image below to show through. This is very useful in compositing and special effects work, such as adding fire, explosions, or rain to your video.
+The alpha channel is an additional channel inside a video clip or an image that contains information about transparency (or opacity) of the image. The following file formats may contain an alpha channel:
+
+:Image file formats:
+    EXR, PNG, APNG, TIFF, GIF, SVG, JXL
+    
+:Video file formats:
+   MOV, HEVC, WEBM
+
+The alpha channel is essentially a mask that specifies how the image should be combined (or composited) with another image when the two are overlaid. The alpha channel can have a value from 0 (black) to 255 (white). Normally, black is fully transparent, meaning the image below shows through completely, while white means that the image below is blocked (or masked). You could say the alpha channel determines which parts of the image are transparent or semi-transparent or not transparent at all (opaque), allowing or preventing the image below to show through. This is very useful in compositing and special effects work, such as adding fire, explosions, or rain to your video.
 
 Kdenlive automatically recognizes the alpha channel of video or image files. When placed in the timeline, clips with an alpha channel allow clips in lower tracks to show through.
 
