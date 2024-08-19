@@ -14,7 +14,22 @@
 Composition Blend Modes
 =======================
 
-For Kdenlive, some composition types are basically :doc:`blending modes </compositing/blending_modes>` (see there for a detailed description). The following table lists the composition types and their blending mode counterpart in :guilabel:`Composition Type` **Cairo Blend**:
+For Kdenlive, some composition types are basically :doc:`blending modes </compositing/blending_modes>` (see there for a detailed description).
+
+.. container:: clear-both
+
+   .. figure:: /images/effects_and_compositions/compositions-blend_modes-timeline.gif
+      :width: 360px
+      :figwidth: 360px
+      :align: left
+
+      Changing the composition **Blend Mode**
+
+   You can change the **Blend Mode** by selecting from the :guilabel:`Composition Type` drop-down list.
+
+.. rst-class:: clear-both
+
+The following table below lists the composition types and their blending mode counterpart in :guilabel:`Composition Type` **Cairo Blend**:
 
 .. list-table::
    :header-rows: 1

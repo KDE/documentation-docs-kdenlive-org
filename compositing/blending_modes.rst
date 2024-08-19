@@ -17,15 +17,15 @@ Blending Modes
 
 Blending modes (or **blend modes** or **mixing modes**) are also called **Composition Type** in Kdenlive. They determine how two images are blended together. The default blending mode is simply to cover whatever is in the lower track by whatever is in the upper track, while taking any :ref:`alpha channel <compositing-alpha_channels>` information into account.
 
-In this section, we are using the **Composition Type** *Cairo Blend* to explain the different blend modes.
+In this section, we are using the :guilabel:`Composition Type` **Cairo Blend** to explain the different blend modes.
 
 Compositing/blending needs at least two tracks: The top track or "layer", also called the *blend layer* or *active layer*; and the "bottom" track or layer, also called the *base layer*. In a blending composition, the *blend layer* is always the track where the composition originates, whereas the *base layer* can be specified with the :guilabel:`Composition track`. By default it is set to :guilabel:`Automatic` which uses the track immediately below.
 
 .. container:: clear-both
 
    .. figure:: /images/effects_and_compositions/cairo_blend-blend_mode.gif
-     :width: 300px
-     :figwidth: 300px
+     :width: 360px
+     :figwidth: 360px
      :align: left
 
      Selecting the composition track and blend mode

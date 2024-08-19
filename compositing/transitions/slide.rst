@@ -35,6 +35,20 @@ The composition type **Slide** is a transition. For the duration of the composit
 
 The default settings are start position :guilabel:`S1` and end position :guilabel:`E5`. This slides the clip in from left offscreen covering the other clip in the process.
 
+.. container:: clear-both
+
+   .. figure:: /images/effects_and_compositions/transitions-slide_timeline.webp
+     :width: 300px
+     :figwidth: 300px
+     :align: left
+
+     Settings for the Slide transition
+
+   Note the **Slide** being set up as a :doc:`Mix </compositing/transitions/mixes>` to work properly sliding the second slip over the first one. If set up as a :doc:`Composite Transition </compositing/transitions/composite_transitions>`, the second clip overlapping the first in the track below is slid over the first, tripping the whole transition. 
+
+.. rst-class:: clear-both
+
+
 This list shows the reasonable combinations of start and end position:
 
 .. list-table:: 

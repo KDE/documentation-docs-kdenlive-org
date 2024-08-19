@@ -15,9 +15,23 @@
 Alpha Operations
 ----------------
 
-The following composition types requires an alpha channel in the clips on the blend and base track. This can be achieved by using effects from the :doc:`/effects_and_filters/video_effects/alpha_mask_keying` effects category.
+The **Alpha_** composition types require an alpha channel in the clips on the blend and base track. This can be achieved by using effects from the :doc:`/effects_and_filters/video_effects/alpha_mask_keying` effects category.
 
-For this comparison, title clips were used for the orange square on the blend track, and for a blue circle in the base track.
+.. container:: clear-both
+
+   .. figure:: /images/effects_and_compositions/compositions-alpha_ops-timeline.gif
+      :width: 360px
+      :figwidth: 360px
+      :align: left
+
+      Changing the composition **Alpha operation**
+
+   You can change the **Alpha Operation** by selecting from the :guilabel:`Composition Type` drop-down list.
+
+.. rst-class:: clear-both
+
+
+For this comparison, :doc:`title clips </effects_and_filters/titles>` were used for the orange square on the blend track, and for a blue circle in the base track.
 
 .. list-table::
    :header-rows: 1

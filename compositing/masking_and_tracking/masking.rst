@@ -29,6 +29,24 @@ You create a mask with one of these effects:
 
 .. note:: The effects with *(Mask)* in the name need to be used in conjunction with **Mask Apply** to work. It allows to apply other effects and filters only to the masked area (can also be inverted to apply to everything but the masked area). The effects without *(Mask)* simply create an alpha channel to allow clips on lower tracks to show through.
 
+.. rubric:: Effect Stack Example
+
+.. container:: clear-both
+
+   .. figure:: /images/effects_and_compositions/masking_timeline.webp
+      :width: 360px
+      :figwidth: 360px
+      :align: left
+
+      Example of using **(Mask)** effects to apply effects/filters
+
+   This example shows the effect stack with an **Alpha Shapes (MasK)** and **Mask Apply** effect as brackets (1) around the actual effects :doc:`/effects_and_filters/video_effects/blur_and_sharpen/gaussian_blur` and :doc:`/effects_and_filters/video_effects/color_image_correction/bw0r` (2).
+
+   Note that effects are always applied top down.
+
+.. rst-class:: clear-both
+
+
 .. rubric:: Steps to create a mask
 
 #. Depending on your use case apply one of the masking effects.
