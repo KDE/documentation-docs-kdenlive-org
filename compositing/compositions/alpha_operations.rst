@@ -15,7 +15,7 @@
 Alpha Operations
 ----------------
 
-The **Alpha_** composition types require an alpha channel in the clips on the blend and base track. This can be achieved by using effects from the :doc:`/effects_and_filters/video_effects/alpha_mask_keying` effects category.
+The **Alpha Operations** composition types require an alpha channel in the clips on the blend and base track. If the clips do not have an :doc:`alpha channel </compositing/alpha_channels>`, you can add one by using effects from the :doc:`/effects_and_filters/video_effects/alpha_mask_keying` effects category.
 
 .. container:: clear-both
 
@@ -24,7 +24,7 @@ The **Alpha_** composition types require an alpha channel in the clips on the bl
       :figwidth: 360px
       :align: left
 
-      Changing the composition **Alpha operation**
+      Changing the composition type **Alpha operation**
 
    You can change the **Alpha Operation** by selecting from the :guilabel:`Composition Type` drop-down list.
 
