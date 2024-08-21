@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-11 00:36+0000\n"
-"PO-Revision-Date: 2024-08-17 11:47+0200\n"
+"PO-Revision-Date: 2024-08-20 21:22+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -81,12 +81,16 @@ msgid ""
 ":guilabel:`Full Screen Mode` toggles the main window of Kdenlive in and out "
 "of full screen mode."
 msgstr ""
+":guilabel:`Fullskärmsläge` byter huvudfönstret i Kdenlive till och från"
+" fullskärmsläge."
 
 #: ../../user_interface/menu/view_menu.rst:49
 msgid ""
 "Please note: This is not to be confused with :kbd:`F11` which toggles the "
 "Project or Clip Monitor in and out of full screen mode."
 msgstr ""
+"Observera: Det bör inte förväxlas med :kbd:`F11` som byter projekt- eller"
+" klippskärmen till och från fullskärmsläge."
 
 #: ../../user_interface/menu/view_menu.rst:51
 msgid ""
@@ -95,14 +99,18 @@ msgid ""
 "real estate on your screen. For some widgets you need titlebars to move them "
 "around."
 msgstr ""
+":guilabel:`Visa titelrader` ändrar visning av titelrader för de olika"
+" :term:`grafiska komponenterna<widget>` mellan på och av. Stäng av dem om mer"
+" utrymme behövs på skärmen. För vissa grafiska komponenter behövs titelrader"
+" för att flytta omkring dem."
 
 #: ../../user_interface/menu/view_menu.rst:57
 msgid "Title Bar"
-msgstr "Namnlist"
+msgstr "Titelrad"
 
 #: ../../user_interface/menu/view_menu.rst:62
 msgid "No Title Bar"
-msgstr "Ingen namnlist"
+msgstr "Ingen titelrad"
 
 #: ../../user_interface/menu/view_menu.rst:70
 msgid "Find Action"
@@ -116,6 +124,11 @@ msgid ""
 "ahead search, so that every character you type changes the search result on "
 "the fly."
 msgstr ""
+"Det här är en ny funktion sedan version 22.04. Den gör det möjligt att söka"
+" efter alla tillgängliga kommandon eller åtgärder. Ange bara sökbegrepp och"
+" välj sedan kommandot eller åtgärden som ska utföras. Kdenlive använder"
+" inexakt sökning eller sökning framåt, så att varje tecken som skrivs in"
+" ändrar sökresultatet direkt."
 
 #: ../../user_interface/menu/view_menu.rst:79
 msgid "Kdenlive Find Action"
@@ -131,6 +144,9 @@ msgid ""
 "More details are available in the :ref:`ui-workspace_layouts` section of "
 "this documentation."
 msgstr ""
+"Funktionen gör att man kan byta till en tidigare sparad egen layout av"
+" arbetsytan. Mer information finns i avsnittet :ref:`ui-workspace_layouts` i"
+" dokumentationen."
 
 #: ../../user_interface/menu/view_menu.rst:95
 msgid "Loading a workspace layout"
@@ -147,6 +163,14 @@ msgid ""
 "layout.  If you like the layout and want to preserve it, save it back to the "
 "original name or save it as a new name."
 msgstr ""
+"När man väl har läst in en sparad layout förblir den layouten den aktuella"
+" när Kdenlive startas, tills man byter till en annan sparad layout eller"
+" ändrar den aktuella. Om man gör ändringar i en egen layout efter att ha läst"
+" in den och sedan avslutar Kdenlive, blir man inte uppmanad att spara sina"
+" ändringar i den namngivna layouten. Ändringarna blir ihågkomna och används"
+" nästa gång man startar Kdenlive, men var medveten om att man nu arbetar med"
+" en namnlös layout. Om man gillar layouten och vill bevara den, spara"
+" tillbaka den med det ursprungliga namnet eller spara den med ett nytt namn."
 
 #: ../../user_interface/menu/view_menu.rst:105
 msgid "Save Layout"
@@ -166,6 +190,9 @@ msgid ""
 "labeled 1 through 4. Click :menuselection:`Save Layout As` and then choose "
 "one of the four choices presented."
 msgstr ""
+"I exemplet som visas har inga egna layouter sparats ännu så de är bara märkta"
+" 1 till 4. Klicka på :menuselection:`Spara layout som` och välj sedan ett av"
+" de fyra alternativen som presenteras."
 
 #: ../../user_interface/menu/view_menu.rst:131
 msgid "Naming the saved layout"
@@ -175,6 +202,7 @@ msgstr "Namnge den sparade layouten"
 msgid ""
 "The Save Layout dialog appears and you can give your custom layout a name."
 msgstr ""
+"Dialogrutan Spara layout visas och man kan ge den egna layouten ett namn."
 
 #: ../../user_interface/menu/view_menu.rst:141
 msgid "Manage Layouts"
@@ -182,7 +210,7 @@ msgstr "Hantera layouter"
 
 #: ../../user_interface/menu/view_menu.rst:143
 msgid "This function allows you to manage the saved workspace layouts."
-msgstr ""
+msgstr "Funktion låter dig hantera de sparade layouterna av arbetsytor."
 
 #: ../../user_interface/menu/view_menu.rst:150
 msgid "Kdenlive Manage Layouts function"
@@ -191,6 +219,8 @@ msgstr "Funktionen Hantera layouter i Kdenlive"
 #: ../../user_interface/menu/view_menu.rst:152
 msgid "You can delete, re-arrange, reset, import and export the saved layouts."
 msgstr ""
+"Man kan ta bort, ordna om, återställa, importera och exportera de sparade"
+" layouterna."
 
 #: ../../user_interface/menu/view_menu.rst:160
 msgid "Dock Area Orientation"
@@ -198,7 +228,7 @@ msgstr "Dockningsområdesorientering"
 
 #: ../../user_interface/menu/view_menu.rst:162
 msgid "This function controls how Kdenlive arranges the workspace layout:"
-msgstr ""
+msgstr "Funktionen styr hur Kdenlive arrangerar arbetsytans layout:"
 
 #: ../../user_interface/menu/view_menu.rst:164
 msgid ""
@@ -206,17 +236,25 @@ msgid ""
 "and dryer at both ends of the screen and scaled vertically independent from "
 "the screen split between the Timeline and the area above"
 msgstr ""
+"Arrangera dockningsområden i kolumner: Grafiska komponenter kan staplas som"
+" en tvättmaskin och torktumlare i båda kanterna av skärmen och skalas"
+" vertikalt oberoende av hur skärmen är delad mellan tidslinjen och området"
+" ovanför."
 
 #: ../../user_interface/menu/view_menu.rst:166
 msgid ""
 "Arrange Dock Areas in Rows - Widgets can be put next to each other and "
 "scaling them horizontally does not affect the widgets in the row above them."
 msgstr ""
+"Arrangera dockningsområden i rader: Grafiska komponenter kan placeras bredvid"
+" varandra och att skala dem horisontellt påverkar inte komponenterna i raden"
+" ovanför dem."
 
 #: ../../user_interface/menu/view_menu.rst:168
 msgid ""
 "See the :ref:`ui-customizing_interface` for more details and an illustration."
 msgstr ""
+"Se :ref:`ui-customizing_interface` för mer information och en illustration."
 
 #: ../../user_interface/menu/view_menu.rst:174
 msgid "Audio Mixer"
@@ -224,23 +262,26 @@ msgstr "Ljudmixer"
 
 #: ../../user_interface/menu/view_menu.rst:176
 msgid "Switches the Audio Mixer :term:`widget` on or off."
-msgstr ""
+msgstr "Stänger av eller sätter på den :term:`grafiska komponenten` ljudmixer."
 
 #: ../../user_interface/menu/view_menu.rst:183
 msgid "Kdenlive Audio Mixer widget"
-msgstr ""
+msgstr "Kdenlive grafiska komponent ljudmixer"
 
 #: ../../user_interface/menu/view_menu.rst:185
 msgid ""
 "This is the main tool for audio handling. It shows all audio tracks and a "
 "master volume."
 msgstr ""
+"Det här är huvudverktyget för ljudhantering. Det visar alla ljudspår och en"
+" huvudvolym."
 
 #: ../../user_interface/menu/view_menu.rst:187
 msgid ""
 "For more details please refer to the :ref:`audio_mixer` section of the "
 "documentation."
 msgstr ""
+"För mer information, se avsnittet :ref:`audio_mixer` i dokumentationen."
 
 #: ../../user_interface/menu/view_menu.rst:195
 msgid "Audio Spectrum"
@@ -249,10 +290,11 @@ msgstr "Ljudspektrum"
 #: ../../user_interface/menu/view_menu.rst:197
 msgid "Switches the Audio Spectrum :term:`widget` on or off."
 msgstr ""
+"Stänger av eller sätter på den :term:`grafiska komponenten` ljudspektrum."
 
 #: ../../user_interface/menu/view_menu.rst:204
 msgid "Kdenlive Audio Spectrum widget"
-msgstr ""
+msgstr "Kdenlive grafiska komponent ljudspektrum"
 
 #: ../../user_interface/menu/view_menu.rst:206
 msgid ""
@@ -260,12 +302,17 @@ msgid ""
 "graph only displays data while the clip is playing in the clip or project "
 "monitor."
 msgstr ""
+"Det gör att man kan övervaka ljudegenskaperna för klippet i detalj."
+" Diagrammet visar endast data medan klippet spelas upp i klipp- eller"
+" projektskärmen."
 
 #: ../../user_interface/menu/view_menu.rst:208
 msgid ""
 "It graphs the loudness of the audio in decibels (vertical axis) for each "
 "audio frequency (horizontal axis) in the current frame."
 msgstr ""
+"Det visar ljudstyrkan i decibel (vertikal axel) för varje ljudfrekvens"
+" (horisontell axel) för den nuvarande bildrutan."
 
 #: ../../user_interface/menu/view_menu.rst:220
 msgid "Clip Monitor"
@@ -274,6 +321,7 @@ msgstr "Klippskärm"
 #: ../../user_interface/menu/view_menu.rst:222
 msgid "Switches the Clip Monitor :term:`widget` on or off."
 msgstr ""
+"Stänger av eller sätter på den :term:`grafiska komponenten` klippskärm."
 
 #: ../../user_interface/menu/view_menu.rst:228
 msgid "Clip Properties"
@@ -282,16 +330,19 @@ msgstr "Klippegenskaper"
 #: ../../user_interface/menu/view_menu.rst:230
 msgid "Switches the Clip Properties :term:`widget` on or off."
 msgstr ""
+"Stänger av eller sätter på den :term:`grafiska komponenten` klippegenskaper."
 
 #: ../../user_interface/menu/view_menu.rst:237
 msgid "Kdenlive Clip Properties widget"
-msgstr ""
+msgstr "Kdenlive grafiska komponent klippegenskaper"
 
 #: ../../user_interface/menu/view_menu.rst:239
 msgid ""
 "The Clip Properties :term:`widget` displays the properties of the selected "
 "clip. You can change some of the properties."
 msgstr ""
+"Den :term:`grafiska komponenten` klippegenskaper visar egenskaperna för det"
+" markerade klippet. Man kan ändra några av egenskaperna."
 
 #: ../../user_interface/menu/view_menu.rst:247
 msgid "Compositions"
@@ -300,21 +351,26 @@ msgstr "Kompositioner"
 #: ../../user_interface/menu/view_menu.rst:249
 msgid "Switches the Compositions :term:`widget` on or off."
 msgstr ""
+"Stänger av eller sätter på den :term:`grafiska komponenten` kompositioner."
 
 #: ../../user_interface/menu/view_menu.rst:256
 msgid "Kdenlive Compositions widget"
-msgstr ""
+msgstr "Kdenlive grafiska komponent kompositioner"
 
 #: ../../user_interface/menu/view_menu.rst:258
 msgid ""
 "The Compositions :term:`widget` lists all compositions available in Kdenlive."
 msgstr ""
+"Den :term:`grafiska komponenten` kompositioner listar alla kompositioner som"
+" är tillgängliga i Kdenlive."
 
 #: ../../user_interface/menu/view_menu.rst:260
 msgid ""
 "You can drag a composition from the list and drop it on a clip in the "
 "Timeline."
 msgstr ""
+"Man kan dra en komposition från listan och släppa den på ett klipp i"
+" tidslinjen."
 
 #: ../../user_interface/menu/view_menu.rst:268
 msgid "Effects/Composition Stack"
@@ -322,7 +378,7 @@ msgstr "Effekt- och kompositionsstapel"
 
 #: ../../user_interface/menu/view_menu.rst:270
 msgid "Switches the Effects/Composition Stack on or off."
-msgstr ""
+msgstr "Sätter på eller stänger av effekt- och kompositionsstapel."
 
 #: ../../user_interface/menu/view_menu.rst:272
 msgid ""
@@ -338,11 +394,11 @@ msgstr "Effekter"
 
 #: ../../user_interface/menu/view_menu.rst:280
 msgid "Switches the Effects :term:`widget` on or off."
-msgstr ""
+msgstr "Stänger av eller sätter på den :term:`grafiska komponenten` effekter."
 
 #: ../../user_interface/menu/view_menu.rst:287
 msgid "Kdenlive Effects widget"
-msgstr ""
+msgstr "Kdenlive grafiska komponent effekter"
 
 #: ../../user_interface/menu/view_menu.rst:289
 msgid ""
@@ -383,11 +439,11 @@ msgstr "Histogram"
 
 #: ../../user_interface/menu/view_menu.rst:313
 msgid "Switches the Histogram :term:`widget` on or off."
-msgstr ""
+msgstr "Stänger av eller sätter på den :term:`grafiska komponenten` histogram."
 
 #: ../../user_interface/menu/view_menu.rst:320
 msgid "Kdenlive Histogram widget"
-msgstr ""
+msgstr "Kdenlive grafisk komponent histogram"
 
 #: ../../user_interface/menu/view_menu.rst:322
 msgid ""
@@ -762,7 +818,7 @@ msgstr ""
 
 #: ../../user_interface/menu/view_menu.rst:631
 msgid "Vectorscope"
-msgstr ""
+msgstr "Vektoroscilloskop"
 
 #: ../../user_interface/menu/view_menu.rst:633
 msgid "Switches the Vectorscope :term:`widget` on or off."
@@ -770,7 +826,7 @@ msgstr ""
 
 #: ../../user_interface/menu/view_menu.rst:640
 msgid "Kdenlive Vectorscope widget"
-msgstr ""
+msgstr "Kdenlive grafisk komponent vektoroscilloskop"
 
 #: ../../user_interface/menu/view_menu.rst:642
 msgid ""
@@ -795,7 +851,7 @@ msgstr ""
 
 #: ../../user_interface/menu/view_menu.rst:654
 msgid "Waveform"
-msgstr ""
+msgstr "Vågform"
 
 #: ../../user_interface/menu/view_menu.rst:656
 msgid "Switches the Waveform :term:`widget` on or off."
@@ -803,7 +859,7 @@ msgstr ""
 
 #: ../../user_interface/menu/view_menu.rst:663
 msgid "Kdenlive Waveform widget"
-msgstr ""
+msgstr "Kdenlive grafisk komponent vågform"
 
 #: ../../user_interface/menu/view_menu.rst:665
 msgid ""
@@ -828,9 +884,12 @@ msgid ""
 "See also the :doc:`/effects_and_compositions/video_effects/utility/"
 "video_waveform_monitor` video effect."
 msgstr ""
+"Se också videoeffekten :doc:`/effects_and_compositions/video_effects/utility/v"
+"ideo_waveform_monitor`."
 
 #~ msgid "Contents:"
 #~ msgstr "Innehåll:"
 
 #~ msgid "Contents"
 #~ msgstr "Innehåll"
+
