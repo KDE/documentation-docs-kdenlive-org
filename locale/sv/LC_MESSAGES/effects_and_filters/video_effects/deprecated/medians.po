@@ -1,0 +1,251 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# SPDX-FileCopyrightText: 2021, 2024 Stefan Asserhäll <stefan.asserhall@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-05 12:20+0000\n"
+"PO-Revision-Date: 2024-08-02 08:30+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:12
+msgid "Medians"
+msgstr "Medianer"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:16
+msgid "This filter implements several median type filters."
+msgstr "Det här filtret implementerar flera typer av medianfilter."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:18
+msgid "INTRODUCTION:"
+msgstr "INLEDNING:"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:20
+msgid ""
+"Median is a quite popular non-linear filter in image processing. Most often "
+"it is used to remove impulsive noise, like \"salt &  pepper\" noise, \"dead"
+"\" and \"hot\" pixels, dirt on film, etc. This is because it behaves kind of "
+"\"inversely\" compared to linear denoisers. The more a bad pixel stands out "
+"from the surrounding area, the bigger residual it will leave with a linear "
+"filter - but the more probably it will be eliminated by the median."
+msgstr ""
+"Median är ett rätt populärt icke-linjärt filter inom bildbehandling. Oftast "
+"används det för att ta bort impulsbrus, som \"salt och peppar\", \"döda\" "
+"och \"heta\" bildpunkter, smuts på film, etc. Det beror på att det beter sig "
+"lite \"omvänt\" jämfört med linjär brusreducering. Ju mer en dålig bildpunkt "
+"sticker ut från det omgivande området, desto större rest lämnar den med ett "
+"linjärt filter, men desto troligare är att den elimineras av medianen."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:22
+msgid ""
+"The down side is that the median operation is quite slow. As an order-"
+"statistic filter, it is similar to sorting, that must be done for each "
+"pixel, so using a fast algorithm is very important. For the small medians, "
+"the algorithms of the type described in `this page <http://ndevilla.free.fr/"
+"median/median/src/optmed.c>`_ are used here, with some small modifications "
+"for a further slight improvement in speed. For the \"Variable size\" median, "
+"code from  [1]_  is used. The compound filters (ArceBI, ML3D, ML3dEX) are "
+"made according to the formulas given in the corresponding work [2]_. For "
+"more info on median filtering see `Wikipedia article <https://en.wikipedia."
+"org/wiki/Median_filter>`_."
+msgstr ""
+"Nackdelen är att medianoperationen är riktigt långsam. Som ett "
+"ordningsstatistiskt filter liknar det sortering, som måste göras för varje "
+"bildpunkt, så att använda en snabb algoritm är mycket viktigt. För de små "
+"medianerna används algoritmerna av den typ som beskrivs på `den här sidan "
+"<http://ndevilla.free.fr/median/median/src/optmed.c>`_, med några små "
+"modifieringar för ytterligare en liten förbättring i hastighet. För medianen "
+"\"Variabel storlek\" används kod från [1]_. De sammansatta filtren (ArceBI, "
+"ML3D, ML3dEX) är gjorda enligt formlerna som ges i motsvarande verk [2]_. "
+"För mer information om medianfiltrering se artikeln på `Wikipedia <https://"
+"en.wikipedia.org/wiki/Median_filter>`_."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:24
+msgid "IMPLEMENTED ALGORITHMS:"
+msgstr "IMPLEMENTERADE ALGORITMER:"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
+msgid "**Cross5**"
+msgstr "**Kors-5**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
+msgid "Median of the pixel with its top, bottom, left and right neighbor."
+msgstr "Median för bildpunkten med dess övre, undre, vänstra och högra granne."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
+msgid "**Square3x3**"
+msgstr "**Fyrkant-3x3**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
+msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
+msgstr "Median för bildpunkten med de omgivande 8 bildpunkterna (3 x 3 ruta)."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
+msgid "**Bilevel**"
+msgstr "**Dubbelnivå**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
+msgid ""
+"First, make cross5 median, then make median of the pixel with its four "
+"diagonal neighbors, and finally take the median of the pixel and the two "
+"previously calculated medians. Slightly better preserves detail than the "
+"simple medians above."
+msgstr ""
+"Gör först kors-5 median, gör sedan median för bildpunkten med dess fyra "
+"diagonala grannar, och ta slutligen medianen för bildpunkten och de två "
+"tidigare beräknade medianerna. Bevarar detaljer något bättre än de enkla "
+"medianerna ovan."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
+msgid "**Diamond3x3**"
+msgstr "**Romb-3x3**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
+msgid ""
+"Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
+"pattern."
+msgstr ""
+"Tar medianen av bildpunkten med 12 angränsande bildpunkter arrangerade i ett "
+"rombmönster."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
+msgid "**Square5x5**"
+msgstr "**Fyrkant-5x5**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
+msgid "Median of the pixel with the 5x5 surrounding box."
+msgstr "Medianen för bildpunkten med den omgivande 5 x 5 rutan."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
+msgid "**Temp3**"
+msgstr "**Tid-3**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
+msgid ""
+"Temporal only median of three frames. Can be used to reduce single frame "
+"time-impulsive noise like photoflash. Delays the video by 1 frame."
+msgstr ""
+"Endast tidsmässig median av tre bildrutor. Kan användas för att reducera "
+"tidsbaserat impulsbrus i en bild som en fotoblixt. Fördröjer videon med 1 "
+"bildruta."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
+msgid "**Temp5**"
+msgstr "**Tid-5**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
+msgid ""
+"Temporal only median of five frames. Can be used to reduce double frame time-"
+"impulsive noise, but the artifacts on fast moving objects are stronger than "
+"with temp3. Delays the video by 2 frames."
+msgstr ""
+"Endast tidsmässig median av fem bildrutor. Kan användas för att reducera "
+"dubbelt tidsbaserat brus, men förvrängningarna för snabbt rörliga objekt är "
+"starkare än med tid-3. Fördröjer videon med 2 bildrutor."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
+msgid "**ArceBI**"
+msgstr "**ArceBI**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
+msgid ""
+"Spatio-temporal multilevel median, as described by Arce. See the "
+"corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Rymdtidsmässig flernivåers median, som beskrivs av Arce. Se motsvarande verk "
+"[2]_. Fördröjer videon med 1 bildruta."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
+msgid "**ML3D**"
+msgstr "**ML3D**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
+msgid ""
+"Spatio-temporal multilevel median, as described by Alp. See the "
+"corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Rymdtidsmässig flernivåers median, som beskrivs av Alp. Se motsvarande verk "
+"[2]_. Fördröjer videon med 1 bildruta."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
+msgid "**ML3dEX**"
+msgstr "**ML3dEX**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
+msgid ""
+"Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
+"see the corresponding work [2]_. Delays the video by 1 frame."
+msgstr ""
+"Rymdtidsmässig flernivåers median. Ytterligare utveckling av ML3D av "
+"Kokaram, se motsvarande verk [2]_. Fördröjer videon med 1 bildruta."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
+msgid "**VarSize**"
+msgstr "**Var-storlek**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
+msgid ""
+"Simple spatial only median in a user selected size square box around each "
+"pixel. The effect could be described as \"quasi edge preserving, corner "
+"rounding, small stuff eliminator\". Or maybe just an \"artsy blur\"."
+msgstr ""
+"Enkel rumslig median i en kvadratisk ruta omkring varje bildpunkt med "
+"storlek vald av användaren. Effekten kan beskrivas som \"delvis "
+"kantbevarande, hörnavrundande, eliminering av småsaker\". Eller kanske bara "
+"en \"konstnärlig suddighet\"."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:59
+msgid "PARAMETERS:"
+msgstr "PARAMETRAR"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
+msgid "**Type**"
+msgstr "**Typ**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
+msgid "Selects one of the eleven algorithms."
+msgstr "Väljer en av de elva algoritmerna."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:65
+msgid ""
+"Only active when \"VarSize\" type is selected. Determines the size of the "
+"square area over which the median is taken."
+msgstr ""
+"Bara aktiv när typen \"Var-storlek\" är vald. Bestämmer storleken på det "
+"kvadratiska området där medianen utförs."
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:66
+msgid "**Size**"
+msgstr "**Storlek**"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:68
+msgid ""
+"Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF "
+"version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80.org/"
+"ctmf.html>`_"
+msgstr ""
+"Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF-"
+"version <https://nomis80.org/ctmf.pdf>`_, `HTML-version <https://nomis80.org/"
+"ctmf.html>`_"
+
+#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:70
+msgid ""
+"`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://"
+"citeseerx.ist.psu.edu/viewdoc/download?"
+"doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
+msgstr ""
+"`Anil Christopher Kokaram: Motion Picture Restoration, doktorsavhandling "
+"<https://citeseerx.ist.psu.edu/viewdoc/download?"
+"doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
+
+#~ msgid "Contents"
+#~ msgstr "Innehåll"
