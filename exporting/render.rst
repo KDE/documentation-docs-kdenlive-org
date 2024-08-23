@@ -231,7 +231,7 @@ Check this box to get a video track in the rendered file.
 
    Render overlay
 
-:guilabel:`Render Overlay` - This option overlays a time code or frame count over the rendered video. The overlay will be over the *entire* rendered project. Alternatively you can use the :doc:`/effects_and_compositions/video_effects/generate/dynamic_text` effect to overlay selected regions of the video.
+:guilabel:`Render Overlay` - This option overlays a time code or frame count over the rendered video. The overlay will be over the *entire* rendered project. Alternatively you can use the :doc:`/effects_and_filters/video_effects/generate/dynamic_text` effect to overlay selected regions of the video.
 
 .. rst-class:: clear-both
 

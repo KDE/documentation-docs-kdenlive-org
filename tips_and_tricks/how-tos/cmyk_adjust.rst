@@ -13,11 +13,11 @@
 CMYK Adjust
 ===========
 
-This how-to is about applying :term:`CMYK` correction to specific color ranges using the :doc:`/effects_and_compositions/video_effects/color_image_correction/CMYK_adjust` effect.
+This how-to is about applying :term:`CMYK` correction to specific color ranges using the :doc:`/effects_and_filters/video_effects/color_image_correction/CMYK_adjust` effect.
 
 :term:`Color Correction` is an important process when dealing with footage that was shot with different equipment or in different lighting conditions. See also the how-to about :doc:`white balance </tips_and_tricks/how-tos/tutorial-white_balance_lms>`. CMYK Adjust is an interesting filter for some special tasks in color correction.
 
-Naturally, digital video footage uses the :abbr:`RGB (Red Green Blue)` :term:`color space`. But :doc:`/effects_and_compositions/video_effects/color_image_correction/CMYK_adjust` in addition has parameters (or sliders) for Cyans, Magentas, Yellows, and Whites, Neutrals and Blacks.
+Naturally, digital video footage uses the :abbr:`RGB (Red Green Blue)` :term:`color space`. But :doc:`/effects_and_filters/video_effects/color_image_correction/CMYK_adjust` in addition has parameters (or sliders) for Cyans, Magentas, Yellows, and Whites, Neutrals and Blacks.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-cmyk_adjust.webp
    :align: left

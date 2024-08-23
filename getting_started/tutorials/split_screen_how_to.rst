@@ -55,7 +55,7 @@ You create a project/timeline like that shown in Figure 1 and described in detai
 
       Effect on Video 2
 
-   Video 2 (appears top left in result) has a :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/position_and_zoom` effect added to it (See Figure 3).  This effect has a sizing and positioning effect as part of it that causes the Video on Video Track 2 to be scaled down 50% and be positioned in the top left corner.
+   Video 2 (appears top left in result) has a :doc:`/effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom` effect added to it (See Figure 3).  This effect has a sizing and positioning effect as part of it that causes the Video on Video Track 2 to be scaled down 50% and be positioned in the top left corner.
 
 .. container:: clear-both
 

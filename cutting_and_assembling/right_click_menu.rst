@@ -116,10 +116,10 @@ Change speed
 * :menuselection:`Cut Clip` Selecting this will cause the selected clip to be cut at the location of the :ref:`timeline`. See also  :ref:`editing`.
 
 
-* :menuselection:`Insert Effect` will open a sub-menu to allow you to quickly add the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform` or the :doc:`/effects_and_compositions/video_effects/color_image_correction/lift_gamma_gain` effects.
+* :menuselection:`Insert Effect` will open a sub-menu to allow you to quickly add the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform` or the :doc:`/effects_and_filters/video_effects/color_image_correction/lift_gamma_gain` effects.
 
 
-* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :ref:`Wipe <wipe>` composition
+* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition.
 
 
 Empty Space in Timeline
@@ -155,6 +155,4 @@ A different menu appears if you click in empty space in the timeline.
 * :menuselection:`Go to Guide` will pop-up a sub-menu with a list of your guides and will move the timeline position marker to that guide.
 
 
-* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :ref:`Wipe <wipe>` composition
-
-
+* :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition.

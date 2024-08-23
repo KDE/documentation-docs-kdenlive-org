@@ -46,7 +46,7 @@ Full-FPS Preview of Effect-Heavy Timeline Clips
 
       Effects applied
 
-   **Cue effects**. For production, we need to :doc:`de-fish </effects_and_compositions/video_effects/transform_distort_perspective/defish>` this footage (action cams have this tendency). After defishing, we need some :doc:`sharpening </effects_and_compositions/video_effects/blur_and_sharpen>`. And then, we also have to do some color grading (e.g. decompress the tonal :doc:`curve </effects_and_compositions/video_effects/color_image_correction/curves>`, correct :doc:`saturation </effects_and_compositions/video_effects/color_image_correction/saturation>`).
+   **Cue effects**. For production, we need to :doc:`de-fish </effects_and_filters/video_effects/transform_distort_perspective/defish>` this footage (action cams have this tendency). After defishing, we need some :doc:`sharpening </effects_and_filters/video_effects/blur_and_sharpen>`. And then, we also have to do some color grading (e.g. decompress the tonal :doc:`curve </effects_and_filters/video_effects/color_image_correction/curves>`, correct :doc:`saturation </effects_and_filters/video_effects/color_image_correction/saturation>`).
 
    With these innocent four effects applied, look at the playback rate that is shown in the bottom right corner of the monitor: a dismal six frames per second!
 

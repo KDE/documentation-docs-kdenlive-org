@@ -113,7 +113,7 @@ Editing
 Everyone is talking about Edit Mode. How can I switch it on?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:term:`Edit Mode` is a feature of the :ref:`Project Monitor <ui-monitors_project_monitor>` and allows you to control size and position parameters of certain effects directly in the project monitor with the mouse. For example: When you select the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform` effect a red rectangle is displayed in the monitor. If you don't see the red rectangle, Edit Mode is switched off. Click on the |edit-mode| icon in the project monitor :ref:`toolbar <ui-monitors_controls_and_elements>` to switch it back on.
+:term:`Edit Mode` is a feature of the :ref:`Project Monitor <ui-monitors_project_monitor>` and allows you to control size and position parameters of certain effects directly in the project monitor with the mouse. For example: When you select the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform` effect a red rectangle is displayed in the monitor. If you don't see the red rectangle, Edit Mode is switched off. Click on the |edit-mode| icon in the project monitor :ref:`toolbar <ui-monitors_controls_and_elements>` to switch it back on.
 
 
 I have many tracks. Can I collapse them?
@@ -147,7 +147,7 @@ Create a new project with the same project profile and import the project to whi
 There is a black, semi-transparent background on some images. How can I get rid of that?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you used the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/position_and_zoom` effect to move them around or make them smaller or bigger simply replace the effect with the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform` effect. It does the same thing but does not have the compositing issues.
+If you used the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom` effect to move them around or make them smaller or bigger simply replace the effect with the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform` effect. It does the same thing but does not have the compositing issues.
 
 
 How to return normal sound after I changed the speed of a clip?

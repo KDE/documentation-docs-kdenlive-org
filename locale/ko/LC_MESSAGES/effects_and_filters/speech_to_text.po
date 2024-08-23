@@ -1,0 +1,585 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# Shinjo Park <kde@peremen.name>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"PO-Revision-Date: 2022-05-08 17:25+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: ../../effects_and_filters/speech_to_text.rst:1
+msgid "The Kdenlive User Manual"
+msgstr "Kdenlive 사용자 설명서"
+
+#: ../../effects_and_filters/speech_to_text.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"help, speech to text, silence detection"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:29
+#, fuzzy
+#| msgid "Speech to text"
+msgid "Speech to Text"
+msgstr "음성을 텍스트로 변환"
+
+#: ../../effects_and_filters/speech_to_text.rst:33
+msgid ""
+"Speech to text does not work with version 21.04.2 due to `Vosk API <https://"
+"github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and "
+"later versions."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:37
+msgid "Install Python"
+msgstr "Python 설치"
+
+#: ../../effects_and_filters/speech_to_text.rst:42
+msgid ""
+"Python 3 needs to be installed on your computer (details see below for Linux "
+"and Windows). Once Python is installed, :ref:`follow these steps "
+"<settings_environment_python>` to put Python into a virtual environment "
+"(afterwards Python is copied to the :file:`venv` folder)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:44
+#, fuzzy
+#| msgid "Install Python"
+msgid "**De-install Python**"
+msgstr "Python 설치"
+
+#: ../../effects_and_filters/speech_to_text.rst:46
+msgid ""
+"To remove the installed :file:`venv` package got to :menuselection:`Settings "
+"--> Kdenlive Settings --> Environment --> Python` and :guilabel:`Delete` :"
+"file:`venv`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:48
+msgid ""
+"It will completely remove the :file:`venv` folder with all installed "
+"packages. Note that this does not remove the downloaded models (vosk/"
+"whisper) that can still take quite some HD space"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:51
+msgid "Linux"
+msgstr "리눅스"
+
+#: ../../effects_and_filters/speech_to_text.rst:53
+msgid ""
+"On most Linux distributions python is installed by default. You can check if "
+"that is the case for you too by running ``python3 -V`` in a terminal. If "
+"python is missing just search the internet, there are lots of instructions "
+"around."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:56
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../effects_and_filters/speech_to_text.rst:58
+msgid ""
+"Download python from |python_download| for installation on your computer."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:64
+#, fuzzy
+#| msgid "Speech recognition"
+msgid "Speech Engines"
+msgstr "음성 인식"
+
+#: ../../effects_and_filters/speech_to_text.rst:66
+msgid ""
+"To install the speech engines go to :menuselection:`Settings --> Configure "
+"Kdenlive --> Speech to Text`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:69
+msgid "VOSK"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:86
+msgid "Vosk is not installed"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:90
+msgid ""
+"When you switch to VOSK for the first time you have to install the missing "
+"dependencies first."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:92
+msgid "Path where VOSK is installed:"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:94
+#: ../../effects_and_filters/speech_to_text.rst:175
+msgid "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:95
+#: ../../effects_and_filters/speech_to_text.rst:176
+msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:97
+msgid ""
+"If you have installed VOSK in an earlier Kdenlive version already and now "
+"you have chosen the :file:`venv` folder for Python, you can delete the past "
+"installed VOSK libraries by using following command in a console: :file:`pip "
+"uninstall vosk srt`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:100
+#, fuzzy
+#| msgid "Install a language"
+msgid "Install a Language"
+msgstr "언어 설치"
+
+#: ../../effects_and_filters/speech_to_text.rst:102
+msgid ""
+"Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
+"page` and select the speech engine VOSK."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:104
+msgid ""
+"Click on the link :guilabel:`Download speech models from:` to get a language "
+"model."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:114
+msgid ""
+"Drag & drop the language you want from the vosk-model download page to the "
+"model window, and it will download and extract it for you."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:124
+msgid ""
+"If you have problems or check for updates click on the :guilabel:`Check "
+"configuration` button."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:128
+msgid ""
+":guilabel:`Models folder` Show the size of the installed models. Click on "
+"the link opens the model folder."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:130
+msgid "The VOSK speech models are stored here:"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:132
+msgid "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:134
+msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:137
+msgid "Whisper"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:145
+msgid ""
+"OpenAI-Whisper is a speech recognition model for general use. It is trained "
+"on a large dataset of diverse audio and is capable of performing speech "
+"translation, and language identification."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:147
+msgid ""
+"Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
+"Whisper creates sentences with punctuation marks, even in Base mode."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:155
+msgid "Whisper is not installed"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:159
+msgid ""
+"When you switch to Whisper for the first time you have to install the "
+"missing dependencies first (about 2GB to download)."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:169
+msgid "When all is correct configured, you get this screen."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:173
+msgid "Path where Whisper is installed:"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:178
+msgid "The Whisper speech models are stored here:"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:180
+msgid "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:182
+msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:185
+msgid ""
+":guilabel:`Model` Select the model. More details on the |whisper_source| "
+"(default: Base)."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:187
+msgid ""
+":guilabel:`Language` Select the language if Autodetect is not accurate "
+"(default: Autodetect)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:189
+msgid ":guilabel:`Device` For compatibility purposes only CPU is available"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:191
+msgid ""
+":guilabel:`Disable half precision (FP16)` Only for GPU. When Kdenlive "
+"detects a NVIDIA GTX 16xx graphic card it disables half precision (FP16) "
+"automatically. If you have issues with using GPU you can switch off half "
+"precision."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:193
+msgid ""
+":guilabel:`Translate text to english` This translates non-English text to "
+"English during recognition"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:195
+msgid ""
+":guilabel:`Enable translation through SeamlessM4T` This will only enable/"
+"disable ``facebook/seamless-m4t-v2-large``. To download and start subtitle "
+"translation :ref:`follow these steps <Translate_with_SeamlessM4T>`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:197
+msgid ""
+"You can check for updates by clicking on :guilabel:`Check configuration`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:199
+msgid ""
+"If you have installed Whisper in an earlier Kdenlive version already and now "
+"you have chosen the :file:`venv` folder for Python, you can delete the past "
+"installed Whisper libraries by using following command in a console: :file:"
+"`pip uninstall openai-whisper`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:203
+msgid "Speech recognition"
+msgstr "음성 인식"
+
+#: ../../effects_and_filters/speech_to_text.rst:206
+msgid "Select the speech engine"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:210
+msgid "Enable :menuselection:`Menu --> View --> Speech Editor` menu item."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:220
+msgid ""
+"Click on the :guilabel:`Hamburger Menu` |application-menu| and select :"
+"guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure "
+"Speech to Text <configure_speech_to_text>`, select the engine and click :"
+"guilabel:`OK.`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:222
+msgid ""
+":guilabel:`Translate to english` is only available with the Whisper speech "
+"engine. It translates non-English text to English during recognition."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:232
+msgid ""
+"If some error or important message happen. Click on the :guilabel:`Show log` "
+"and the log get visible."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:236
+msgid "Creating subtitle by VOSK speech recognition"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:246
+msgid "Shown with the VOSK engine"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:250
+#: ../../effects_and_filters/speech_to_text.rst:280
+msgid ""
+"Mark the timeline zone you want to recognize (adjust the blue line) (**1**)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:252
+#: ../../effects_and_filters/speech_to_text.rst:282
+msgid "Click on the :guilabel:`Speech recognition` icon (**2**)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:254
+#, fuzzy
+#| msgid "Choose the language."
+msgid "Choose the :guilabel:`Language` (**3**)"
+msgstr "언어를 선택하십시오."
+
+#: ../../effects_and_filters/speech_to_text.rst:256
+#: ../../effects_and_filters/speech_to_text.rst:286
+msgid ""
+"Choose which part of the timeline should be applied for recognition (**4**)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:258
+#: ../../effects_and_filters/speech_to_text.rst:288
+msgid ":guilabel:`Process` Start the recognition (**5**)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:260
+#: ../../effects_and_filters/speech_to_text.rst:290
+msgid "The subtitle gets created and inserted automatically."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:262
+#: ../../effects_and_filters/speech_to_text.rst:292
+msgid ""
+"Remark to **4**: The default is to analyze only the :guilabel:`Timeline zone "
+"(all tracks)` (the blue bar in the timeline ruler). Set the zone in the "
+"timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to set in "
+"and out points). :guilabel:`Selected clips` option analyses the selected "
+"clip only."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:266
+msgid "Creating subtitle by WHISPER speech recognition"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:276
+msgid "Shown with the Whisper engine"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:284
+msgid "Choose the :guilabel:`Model` (**3**)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:294
+msgid ""
+":guilabel:`Language` If :guilabel:`Autodetect` doesn't choose the correct "
+"language you can manually set the language"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:296
+msgid ""
+":guilabel:`Maximum character per line` Adjust the number of character per "
+"line in the subtitle"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:300
+msgid ""
+":guilabel:`Translate with SeamlessM4T` First you have to enable :guilabel:"
+"`Enable translation through SeamlessM4T` in :menuselection:`Settings --> "
+"Configure Kdenlive --> Speech To Text`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:308
+msgid ""
+"**Attention** If you use SeamlessM4T the first time it downloads about 9GB "
+"of data in the background"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:312
+msgid ""
+"Select :guilabel:`Input Language` and :guilabel:`Output Language` and click :"
+"guilabel:`Process`. This will first process the audio using whisper, then "
+"start the SeamlessM4T translation. Translation can occupy 100% RAM, 100% CPU "
+"and 100% disk access."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:315
+msgid ""
+"If the 9GB model has not yet been downloaded, it will be downloaded now. "
+"With a 100MB/s download speed this will take about 12 minutes!"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:317
+msgid ""
+"During download Kdenlive will react as normal. Don't click on :guilabel:"
+"`Close` otherwise download get stopped."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:319
+msgid ""
+"Don't worry if you see such a message on the box below :guilabel:"
+"`Initializing translation model` while downloading is running."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:329
+msgid ""
+"Once the translation model is downloaded translation will happen (be patient "
+"as download the model takes about 12 minutes with 100MB/s download speed)."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:337
+msgid "SeamlessM4T is enabled and downloaded successful"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:339
+msgid "The SeamlessM4T models are stored here:"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:341
+msgid "Linux: :file:`$HOME/.cache/hugginface`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:343
+msgid "Windows: :file:`C:\\\\Users\\\\<username>\\\\.cache\\\\huggingface`"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:349
+msgid "Creating clips by speech recognition"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:351
+msgid ""
+"This is useful for interviews and other speech-related footage. Enable the :"
+"menuselection:`Menu --> View --> Speech Editor` menu item."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:360
+msgid "Shown with the VOSK engine and search enabled"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:364
+msgid "Select a clip in the **Project Bin**."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:366
+msgid ""
+"If needed set in/out point in the clip monitor and enable :guilabel:"
+"`Selected zone only` selection box. This will only recognize the text inside "
+"the zone."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:368
+msgid ""
+"Choose the correct language when the VOSK engine is selected. Or choose the "
+"Whisper engine by click on :guilabel:`Configure Speech Recognition` (:ref:"
+"`see configure speech to text <configure_speech_to_text>`)"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:370
+msgid "Press the :guilabel:`Start Recognition` button."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:372
+msgid ""
+"Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select "
+"several texts."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:376
+msgid ""
+"Choose: :guilabel:`Create new sequence with edit` creates a new sequence "
+"with each timecode-text as a single clip, or :guilabel:`Insert selection in "
+"timeline` at playhead position, or to :guilabel:`Save edited text in a "
+"playlist file` which appears in the project bin."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:380
+msgid ""
+":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove "
+"non speech zones` deletes all \"No speech\" entries at once."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:382
+msgid ""
+"Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
+"kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:384
+msgid "Delete the selected text."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:386
+msgid "Here you can search in the text."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:388
+msgid "And navigate up or down in the text."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:394
+msgid "Silence detection"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:396
+msgid "This works with the VOSK engine only."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:398
+msgid ""
+"Open the clip in the clip monitor and open the speech editor window (:"
+"menuselection:`Menu --> View --> Speech Editor`) ."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:400
+msgid ""
+"Select your language or :ref:`effects-s2t_install_language` and download the "
+"model for it."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:402
+msgid "Then click :guilabel:`Start Recognition` button."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:404
+msgid ""
+"Once this is done, choose under point 6 from above to :guilabel:`Remove non "
+"speech zones` at once. Or click on the time-code where \"No speech\" is "
+"indicated (hold :kbd:`Ctrl` to select several items at once) and just hit "
+"the :kbd:`Delete` key."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:406
+msgid ""
+"Repeat the operation for all the parts you want to remove, including where "
+"someone says what you do not want to include in your final edit."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:408
+msgid ""
+"Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
+"on the :guilabel:`Save edited text in a playlist file` button (above under "
+"point 5) and after few seconds a new playlist is added in the Project Bin "
+"without silence and without the text you do not want."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Linux"
+#~ msgid "**Linux**"
+#~ msgstr "리눅스"
+
+#, fuzzy
+#~| msgid "Windows"
+#~ msgid "**Windows**"
+#~ msgstr "Windows"

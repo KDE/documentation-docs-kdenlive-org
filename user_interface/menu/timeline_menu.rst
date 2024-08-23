@@ -530,7 +530,7 @@ The sub-menu for inserting and deleting tracks can also be displayed by right-cl
 Add Effect
 ----------
 
-This menu item will open a flyout with all the effect categories from which you can then select an effect to be added to the track effect stack. See also the :ref:`Effects and Compositions <effects_and_compositions>` section of the documentation.
+This menu item will open a flyout with all the effect categories from which you can then select an effect to be added to the track effect stack. See also the :ref:`Effects and Filters <effects_and_filters>` section of the documentation.
 
 
 .. _timeline-disable_timeline_effects:

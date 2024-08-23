@@ -33,8 +33,11 @@ This section contains documentation of features from earlier versions that have 
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
-   constant_bit_rate
+   /more_information/earlier_versions/*
+
+..   constant_bit_rate
    variable_bit_rate
    restoring_audio_mixing
    rendering_audio_track_automatically

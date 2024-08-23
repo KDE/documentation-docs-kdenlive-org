@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Stefan Asserhäll <stefan.asserhall@gmail.com>, 2021.
+# SPDX-FileCopyrightText: 2021, 2024 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2021-11-19 17:01+0100\n"
+"PO-Revision-Date: 2024-08-02 12:58+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:1
 msgid ""
 "Kdenlive Tips & Tricks - Color Hell: ffmpeg Transcoding and Preserving BT.601"
 msgstr ""
+"Kdenlive tips och trick: Färghelvete: Omkoda och bevara BT.601 med ffmpeg"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:1
 msgid ""
@@ -28,10 +29,13 @@ msgid ""
 "transcoding, bt.601, documentation, user manual, video editor, open source, "
 "free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, tips, trick, tips och trick, användbar information, ffmpeg, "
+"omkodning, bt.601, dokumentation, användarhandbok, videoeditor, öppen "
+"källkod, fritt, lära, enkelt"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:38
 msgid "Color Hell: Ffmpeg Transcoding and Preserving BT.601"
-msgstr ""
+msgstr "Färghelvete: Omkoda och bevara BT.601 med ffmpeg"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:40
 msgid ""
@@ -40,10 +44,14 @@ msgid ""
 "mobile devices, such as tablets or mobile phones, only to find out that "
 "something is wrong with the colors."
 msgstr ""
+"Då och då kan man helt oväntat komma in på konstigt digitalt "
+"videoterritorium . Som exempel, man vill helt enkelt redigera några "
+"skärminspelningar gjorda på en mobilenhet, såsom en surfplatta eller "
+"mobiltelefon, bara för att råka ut för att något är fel med färgerna."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:44
 msgid "Run-of-the-Mill Footage"
-msgstr ""
+msgstr "Ordinärt filmmaterial"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:46
 msgid ""
@@ -52,10 +60,14 @@ msgid ""
 "a screen recording app (such as «AZ Screen Recording», but not the “Pro” "
 "fake). And this footage has two slightly unusual properties:"
 msgstr ""
+"Dramat börjar med skärminspelningar som verkar helt oskyldiga och normala "
+"vid första anblicken. De kan ha spelats in på Android 7-enheter med en "
+"applikation för skärminspelning (som «AZ Screen Recording», men inte "
+"förfalskningen \"Pro\"). Men filmmaterialet har två lite ovanliga egenskaper:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:48
 msgid "a *highly variable frame rate*,"
-msgstr ""
+msgstr "en *mycket variabel bildhastighet*,"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:49
 msgid ""
@@ -65,10 +77,15 @@ msgid ""
 "at BT.601 but the transfer coefficients are slightly different)`\\ [#f2]_ "
 "like so much HD footage these days."
 msgstr ""
+"det använder :abbr:`BT.601 (en standard från 1982 som definierar hur RGB-"
+"grundfärger omvandlas till YCbCr-kanalerna som används av moderna kodare)`\\ "
+"[#f1]_, istället för :abbr:`BT.709 (en standard från 1990 som gör samma sak "
+"som BT.601 men med något annorlunda överföringskoefficienterna)`\\ [#f2]_ "
+"som så mycket HD-filmmaterial nu för tiden."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:51
 msgid "Should cause no problems, right? Well…"
-msgstr ""
+msgstr "Ska inte orsaka några problem, eller hur? Nja …"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:53
 msgid ""
@@ -82,22 +99,37 @@ msgid ""
 "interaction will appear. This is probably caused by a very low fps during "
 "the inactivity period just before the user interaction."
 msgstr ""
+"Det visar sig att Kdenlives mediegränssnitt |mlt| kan uppvisa vissa problem "
+"med videomaterial som har mycket variabel bildhastighet, till exempel mellan "
+"0,001 och 100+ :abbr:`b/s (frames per second)`. Symptomen är subtila, men "
+"äventyrar produktionskvaliteten: det verkar som om MLT mycket väl kan välja "
+"en framtida bildruta som är långt bort i områden med låg bildhastighet. Även "
+"om det inte är ett problem för en lämpligt hög bildhastighet, orsakar det "
+"udda resultat på andra ställen. Till exempel visas när användaren rör vid "
+"skärmen upp till flera sekunder innan själva interaktionen dyker upp. Det "
+"beror förmodligen på en mycket låg bildhastighet under perioden utan "
+"aktivitet precis innan användarinteraktionen."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:55
 msgid ""
 "Transcoding to a fixed frame rate surely is one of |ffmpeg|'s easy tasks "
 "(this example assumes a constant project frame rate of 25 fps):"
 msgstr ""
+"Omkodning till en fast bildhastighet är säkerligen en av de enklaste "
+"uppgifterna i |ffmpeg| (exemplet antar en konstant bildhastighet i projektet "
+"på 25 b/s):"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:61
 msgid ""
 "The constant frame rate cures the issues mentioned above, so the results are "
 "as to be expected. Except…"
 msgstr ""
+"Den konstanta bildhastigheten löser problemen som nämns ovan, så resultaten "
+"är som förväntat. Bortsett från …"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:65
 msgid "Easy Transcoding: Color Me Bad"
-msgstr ""
+msgstr "Enkel omkodning: inte alls"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:72
 msgid ""
@@ -107,6 +139,11 @@ msgid ""
 "you are going to mix this footage side-by-side with further processed "
 "versions of it, such as extracted frames for stills."
 msgstr ""
+"Tyvärr visar den resulterande videon nu annorlunda färger! Det kanske inte "
+"är så uppenbart i början, men det kan vara rätt framträdande när man arbetar "
+"mer med filmmaterialet. Och åskådarna ser det tydligt om man blandar "
+"materialet sida vid sida med ytterligare bearbetade versioner av det, såsom "
+"extraherade bildrutor för stillbilder."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:74
 msgid ""
@@ -115,20 +152,27 @@ msgid ""
 "profile indication**. Yet, |ffmpeg| did *not transform the colors* at all "
 "during transcoding, and simply dropped the correct color profile information!"
 msgstr ""
+"En närmare inspektion antingen med hjälp av Kdenlives inbyggda fönster för "
+"klippegenskaper eller |ffprobe| avslöjar att den *omkodade filen* **saknar "
+"BT.601 färgprofilindikering**. Ändå, *förvandlade inte* |ffmpeg| färgerna "
+"alls under omkodningen utan tappade helt enkelt bort rätt "
+"färgprofilinformation!"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:79
 msgid "Makeshift Measures"
-msgstr ""
+msgstr "Provisoriska åtgärder"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:86
 msgid "Clip Properties color space override"
-msgstr ""
+msgstr "Överskrida klippegenskapernas färgrymd"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:88
 msgid ""
 "Of course, there is always Kdenlive's ability to overwrite source clip "
 "properties using the built-in clip properties :term:`widget`."
 msgstr ""
+"Naturligtvis finns alltid Kdenlives förmåga att skriva över källklippets "
+"egenskaper med hjälp av den inbyggda :term:`komponenten` för klippegenskaper."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:90
 msgid ""
@@ -137,6 +181,10 @@ msgid ""
 "guilabel:`Colorspace` and then select **ITU-R 601**. Kdenlive now applies "
 "the correct color profile."
 msgstr ""
+"Markera helt enkelt det omkodade videoklippet i projektkorgen. Gå sedan till "
+"klippegenskaper och välj fliken \"Tvinga egenskaper\" |document-edit|. "
+"Markera :guilabel:`Färgrymd` och välj sedan **ITU-R 601**. Kdenlive inför nu "
+"rätt färgprofil."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:94
 msgid ""
@@ -147,27 +195,40 @@ msgid ""
 "source clip property overrides. We thus need to get the correct color "
 "profile information right into the transcoded video files themselves."
 msgstr ""
+"Även om den är väldigt enkel, har metoden sina begränsningar: Den är bra när "
+"man enbart fortsätter att arbeta i Kdenlive-editorn och dess MLT-"
+"återgivning. Men så fort man behöver koppla in externa videoverktyg, som |"
+"ffmpeg| för bildextrahering är man förlorad, eftersom verktygen inte känner "
+"till ändringarna av källklippets egenskap i Kdenlive. Vi behöver alltså få "
+"in rätt färgprofilinformation direkt i de omkodade videofilerna själva."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:97
 msgid "Preserving BT.601 in Transcoding"
-msgstr ""
+msgstr "Bevara BT.601 vid omkodning"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:99
 msgid ""
 "To make this matter worse, the seemingly obvious color profile transformation"
 msgstr ""
+"För att göra saken värre, den till synes uppenbara transformeringen av "
+"färgprofilen"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:105
 msgid ""
 "simply does not work: |ffmpeg| complains about not being able to transform "
 "between the same input and output color profile."
 msgstr ""
+"fungerar helt enkelt inte: |ffmpeg| klagar på att det inte går att omvandla "
+"mellan samma färgprofil för indata och utdata."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:107
 msgid ""
 "The missing puzzle piece can be found on Stack Exchange's Video Production "
 "Q&A site in a post from 2015 asking \"|explicitly_tag|\"."
 msgstr ""
+"Den saknade pusselbiten finns på Stack Exchange-webbplatsen med frågor och "
+"svar om videoproduktion i ett inlägg från 2015 med frågan \"|explicitly_tag|"
+"\"."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:109
 msgid ""
@@ -182,10 +243,19 @@ msgid ""
 "definition (SD) resolution at all, but it does matter when it comes to "
 "encoding color."
 msgstr ""
+"Det finns en hake att hålla utkik efter: BT.601 finns i varianter för :abbr:"
+"`PAL (Phase Alternating Line, ett färgkodningssystem för analog television)` "
+"och :abbr:`NTSC (National Television Standard Committee, som definierat tv-"
+"systemet använt i USA, Japan och många andra länder)` som har något olika "
+"grundfärger, överföringskurvor och färgrymder. Så undersök först "
+"råmaterialet med |ffprobe| (eller |mediainfo|) vilken har använts under "
+"inspelningen i detta fall. Observera att det inte alls spelar någon roll att "
+"skärminspelningen inte har standardupplösning (SD), men det spelar roll när "
+"det gäller färgkodning."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:112
 msgid "PAL and NTSC DNA"
-msgstr ""
+msgstr "PAL och NTSC DNA"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:114
 msgid ""
@@ -196,16 +266,24 @@ msgid ""
 "command-line utility for searching plain-text data sets for lines that match "
 "a regular expression)`:"
 msgstr ""
+"Så hur tar vi reda på om en given videoinspelning, säg ``raw.mp4``, använder "
+"PAL- eller NTSC-färgrymd? Naturligtvis räddar oss |ffprobe|. Men för att "
+"inte gå vilse bland alla ovidkommande detaljer |ffprobe| häver ur sig, måste "
+"vi tämja det med några väljare och :abbr:`grep (ett kommandoradsverktyg i "
+"Unix för att söka i vanlig textdata efter rader som matchar ett reguljärt "
+"uttryck)`:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:120
 msgid "This should give you something along these lines:"
-msgstr ""
+msgstr "Det borde ge dig något i den här stilen:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:129
 msgid ""
 "The line ``color_space=...`` tells us whether we are dealing with PAL "
 "(bt470bg) or NTSC (smpte170m)."
 msgstr ""
+"Raden ``color_space=...`` berättar om vi har att göra med PAL (bt470bg) "
+"eller NTSC (smpte170m)."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:132
 msgid "PAL"
@@ -216,6 +294,8 @@ msgid ""
 "If it is **PAL chromaticities** (``color_space=bt470bg``), we then need to "
 "transcode as follows:"
 msgstr ""
+"Om det är **PAL-kromatitet** (``color_space=bt470bg``), måste vi omkoda på "
+"följande sätt:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:143
 msgid "NTSC"
@@ -226,6 +306,8 @@ msgid ""
 "For **NTSC chromaticities** (``color_space=smpte170m``), we will need a "
 "different set of primaries, transfer curve, and colorspace:"
 msgstr ""
+"För **NTSC-kromatitet** (``color_space=smpte170m``), behöver vi en annan "
+"uppsättning grundfärger, överföringskurva och färgrymd."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:158
 msgid ""
@@ -234,14 +316,17 @@ msgid ""
 "color profile too - unless they are broken in that they do not understand "
 "BT.601 at all."
 msgstr ""
+"I alla fall ser Kdenlive och MLT nu den omkodade videon korrekt med hjälp av "
+"färgprofilen BT.601. Dessutom detekterar andra medieverktyg också "
+"färgprofilen, om de inte är så felaktiga att de inte alls förstår BT.601."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:163
 msgid "Notes"
-msgstr ""
+msgstr "Anmärkningar"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:177
 msgid "**Sources**"
-msgstr ""
+msgstr "**Källor**"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:177
 msgid ""
@@ -249,11 +334,14 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org| and adapted to match the overall style."
 msgstr ""
+"Den ursprungliga texten skickades in av användaren *TheDiveO* till den nu "
+"nedlagda bloggen kdenlive.org. För den här dokumentation har den hämtats "
+"från |kdenlive_org| och anpassats för att motsvara den övergripande stilen."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:181
 msgid "For more details see the Wikipedia article about |bt601|"
-msgstr ""
+msgstr "För mer information se artikeln om |bt601| på Wikipedia"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:182
 msgid "For more details see the Wikipedia article about |bt709|"
-msgstr ""
+msgstr "För mer information se artikeln om |bt709| på Wikipedia"

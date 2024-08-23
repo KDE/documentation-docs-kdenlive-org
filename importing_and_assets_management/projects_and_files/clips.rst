@@ -315,7 +315,7 @@ Analysis
    :align: left
    :alt: Kdenlive_Clip_properties_analysis
 
-You can view and delete motion vector data that is associated with the clip from here. This is data created by :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/motion_tracker`
+You can view and delete motion vector data that is associated with the clip from here. This is data created by :doc:`/effects_and_filters/video_effects/alpha_mask_keying/motion_tracker`
 
 Button 1 Will delete the selected analysis data, Button 2 will allow you to export the data (semi colon delimited text file), Button 3 will allow you to import analysis data.
 
@@ -337,7 +337,7 @@ This generates a counter timer clip in various formats which you can put onto th
 
 You can choose to have the clip count up by checking that option, otherwise it will count down by default. The :guilabel:`No Background` option will remove the background from the counter leaving only the grey background without the lines.
 
-To change the size and position of the clip, you can add an effect to the clip on the timeline such as the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/position_and_zoom` or the :doc:`/effects_and_compositions/video_effects/transform_distort_perspective/transform`.
+To change the size and position of the clip, you can add an effect to the clip on the timeline such as the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom` or the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform`.
 
 
 .. rst-class:: clear-both

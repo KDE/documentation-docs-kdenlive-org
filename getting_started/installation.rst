@@ -266,7 +266,7 @@ Kdenlive's application-wide persistent settings are stored in the following loca
      - contains downloaded: effects, export, library, opencv models, profiles, speech models, and titles
    * - :file:`~/.local/share/kdenlive/lumas`
      - :file:`%LocalAppData%\\kdenlive\\lumas`
-     - lumas folder contains the files used for :ref:`wipe`
+     - lumas folder contains the files used for :doc:`Wipe </compositing/transitions/wipe>`
    * - :file:`~/.local/share/kdenlive/.backup`
      - :file:`%AppData%\\kdenlive\\.backup`
      - Auto Save Recovery files

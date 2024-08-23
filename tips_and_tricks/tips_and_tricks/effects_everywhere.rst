@@ -137,7 +137,7 @@ For timeline tracks with effects the effects indicator |tools-wizard| changes sl
 Effects on Master
 -----------------
 
-Finally, you can apply effects to the Master. They apply to all clips on all tracks. There are certain effects that can only be applied to the Master (see the :doc:`/effects_and_compositions/video_effects/on_master` chapter for more details).
+Finally, you can apply effects to the Master. They apply to all clips on all tracks. There are certain effects that can only be applied to the Master (see the :doc:`/effects_and_filters/video_effects/on_master` chapter for more details).
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_effects_everywhere_master.webp
    :width: 650px
