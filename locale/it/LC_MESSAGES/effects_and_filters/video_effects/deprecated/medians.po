@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
+"POT-Creation-Date: 2024-08-21 01:53+0000\n"
 "PO-Revision-Date: 2022-10-17 17:26+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.08.2\n"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:12
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:12
 msgid "Medians"
 msgstr "Mediane"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:16
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:16
 msgid "This filter implements several median type filters."
 msgstr "Questo filtro implementa diversi filtri di tipo mediano."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:18
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:18
 msgid "INTRODUCTION:"
 msgstr "INTRODUZIONE:"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:20
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:20
 msgid ""
 "Median is a quite popular non-linear filter in image processing. Most often "
 "it is used to remove impulsive noise, like \"salt &  pepper\" noise, \"dead"
@@ -46,7 +46,7 @@ msgstr ""
 "circostante, maggiore sarà il residuo che lascerà con un filtro lineare, ma "
 "più probabilmente sarà eliminato dalla mediana."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:22
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:22
 msgid ""
 "The down side is that the median operation is quite slow. As an order-"
 "statistic filter, it is similar to sorting, that must be done for each "
@@ -71,32 +71,32 @@ msgstr ""
 "ulteriori informazioni sul filtro mediano, vedere l'`articolo di Wikipedia "
 "<https://it.wikipedia.org/wiki/Filtro_mediano>`_."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:24
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:24
 msgid "IMPLEMENTED ALGORITHMS:"
 msgstr "ALGORITMI IMPLEMENTATI:"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:27
 msgid "**Cross5**"
 msgstr "**Croce5**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:27
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:27
 msgid "Median of the pixel with its top, bottom, left and right neighbor."
 msgstr ""
 "Mediana del pixel con i suoi vicini superiore, inferiore, sinistro e destro."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:30
 msgid "**Square3x3**"
 msgstr "**Quadrato3x3**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:30
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:30
 msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
 msgstr "Mediana del pixel con gli 8 pixel circostanti. (scatola 3x3)"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:33
 msgid "**Bilevel**"
 msgstr "**Doppio livello**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:33
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:33
 msgid ""
 "First, make cross5 median, then make median of the pixel with its four "
 "diagonal neighbors, and finally take the median of the pixel and the two "
@@ -108,11 +108,11 @@ msgstr ""
 "due mediane calcolate in precedenza. Conserva leggermente meglio i dettagli "
 "rispetto alle semplici mediane sopra."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:36
 msgid "**Diamond3x3**"
 msgstr "**Diamante3x3**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:36
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:36
 msgid ""
 "Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
 "pattern."
@@ -120,19 +120,19 @@ msgstr ""
 "Prende la mediana del pixel con 12 pixel adiacenti in una disposizione a "
 "diamante."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:39
 msgid "**Square5x5**"
 msgstr "**Quadrato5x5**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:39
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:39
 msgid "Median of the pixel with the 5x5 surrounding box."
 msgstr "Mediana del pixel con il riquadro circostante 5x5."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:42
 msgid "**Temp3**"
 msgstr "**Temp3**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:42
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:42
 msgid ""
 "Temporal only median of three frames. Can be used to reduce single frame "
 "time-impulsive noise like photoflash. Delays the video by 1 frame."
@@ -141,11 +141,11 @@ msgstr ""
 "il rumore impulsivo del tempo di un singolo fotogramma come il flash "
 "fotografico. Ritarda il video di 1 fotogramma."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:45
 msgid "**Temp5**"
 msgstr "**Temp5**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:45
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:45
 msgid ""
 "Temporal only median of five frames. Can be used to reduce double frame time-"
 "impulsive noise, but the artifacts on fast moving objects are stronger than "
@@ -156,11 +156,11 @@ msgstr ""
 "artefatti sugli oggetti in rapido movimento sono più forti rispetto a temp3. "
 "Ritarda il video di 2 fotogrammi."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:48
 msgid "**ArceBI**"
 msgstr "**ArceBI**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:48
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:48
 msgid ""
 "Spatio-temporal multilevel median, as described by Arce. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
@@ -168,11 +168,11 @@ msgstr ""
 "Mediana multilivello spazio-temporale, come descritta da Arce. Vedere il "
 "lavoro corrispondente [2]_. Ritarda il video di 1 fotogramma."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:51
 msgid "**ML3D**"
 msgstr "**ML3D**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:51
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:51
 msgid ""
 "Spatio-temporal multilevel median, as described by Alp. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
@@ -180,11 +180,11 @@ msgstr ""
 "Mediana multilivello spazio-temporale, come descritta da Alp. Vedere il "
 "lavoro corrispondente [2]_. Ritarda il video di 1 fotogramma."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:54
 msgid "**ML3dEX**"
 msgstr "**ML3dEX**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:54
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:54
 msgid ""
 "Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
 "see the corresponding work [2]_. Delays the video by 1 frame."
@@ -193,11 +193,11 @@ msgstr ""
 "di Kokaram, vedere il lavoro corrispondente [2]_. Ritarda il video di 1 "
 "fotogramma."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:57
 msgid "**VarSize**"
 msgstr "**VarSize**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:57
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:57
 msgid ""
 "Simple spatial only median in a user selected size square box around each "
 "pixel. The effect could be described as \"quasi edge preserving, corner "
@@ -208,19 +208,19 @@ msgstr ""
 "descritto come «quasi conservazione del bordo, arrotondamento degli angoli, "
 "eliminatore di piccole cose». O forse solo una «sfocatura artistica»."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:59
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:59
 msgid "PARAMETERS:"
 msgstr "PARAMETRI:"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:62
 msgid "**Type**"
 msgstr "**Tipo**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:62
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:62
 msgid "Selects one of the eleven algorithms."
 msgstr "Seleziona uno degli undici algoritmi."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:65
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:65
 msgid ""
 "Only active when \"VarSize\" type is selected. Determines the size of the "
 "square area over which the median is taken."
@@ -228,11 +228,11 @@ msgstr ""
 "Attivo solo quando è selezionato il tipo «VarSize». Determina la dimensione "
 "dell'area quadrata su cui viene presa la mediana."
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:66
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:66
 msgid "**Size**"
 msgstr "**Dimensione**"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:68
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:68
 msgid ""
 "Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF "
 "version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80.org/"
@@ -242,7 +242,7 @@ msgstr ""
 "`versione PDF <https://nomis80.org/ctmf.pdf>`_, `versione HTML <https://"
 "nomis80.org/ctmf.html>`_"
 
-#: ../../effects_and_compositions/video_effects/deprecated/medians.rst:70
+#: ../../effects_and_filters/video_effects/deprecated/medians.rst:70
 msgid ""
 "`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://"
 "citeseerx.ist.psu.edu/viewdoc/download?"

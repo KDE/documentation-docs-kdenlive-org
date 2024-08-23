@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-09 00:36+0000\n"
+"POT-Creation-Date: 2024-08-21 01:53+0000\n"
 "PO-Revision-Date: 2023-12-10 09:32+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -18,19 +18,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 23.08.3\n"
 
-#: ../../effects_and_compositions/transitions/composite.rst:17
+#: ../../more_information/earlier_versions/composite.rst:15
+msgid ""
+"This page is not maintained anymore and contains information referring to "
+"features or functions from earlier versions of Kdenlive that are deprecated "
+"or have been superseded by something else."
+msgstr ""
+
+#: ../../more_information/earlier_versions/composite.rst:19
 msgid "Composite Transition"
 msgstr "Transizione di composizione"
 
-#: ../../effects_and_compositions/transitions/composite.rst:21
+#: ../../more_information/earlier_versions/composite.rst:21
+#, fuzzy
+#| msgid ""
+#| "The Composite transition combines the video data from two video tracks "
+#| "into one. This transition is used in combination with Alpha Channel "
+#| "information supplied by one of the :ref:`effects-alpha_mask_keying` or by "
+#| "the use of a :ref:`composite`. This Alpha Channel data describes how the "
+#| "data from the two video tracks should be combined. Until you define some "
+#| "alpha channel data using an :ref:`effects-alpha_mask_keying` or a Wipe "
+#| "File, changes in the Composite transition settings will have no visible "
+#| "effect."
 msgid ""
 "The Composite transition combines the video data from two video tracks into "
 "one. This transition is used in combination with Alpha Channel information "
 "supplied by one of the :ref:`effects-alpha_mask_keying` or by the use of a :"
-"ref:`composite`. This Alpha Channel data describes how the data from the two "
-"video tracks should be combined. Until you define some alpha channel data "
-"using an :ref:`effects-alpha_mask_keying` or a Wipe File, changes in the "
-"Composite transition settings will have no visible effect."
+"doc:`/compositing/transitions/composite_transitions`. This Alpha Channel "
+"data describes how the data from the two video tracks should be combined. "
+"Until you define some alpha channel data using an :ref:`effects-"
+"alpha_mask_keying` or a Wipe File, changes in the Composite transition "
+"settings will have no visible effect."
 msgstr ""
 "La transizione di composizione combina i dati video di due tracce video in "
 "una. Questa transizione viene utilizzata in combinazione con le informazioni "
@@ -41,7 +59,7 @@ msgstr ""
 "le modifiche alle impostazioni di transizione di composizione non avranno "
 "alcun effetto visibile."
 
-#: ../../effects_and_compositions/transitions/composite.rst:23
+#: ../../more_information/earlier_versions/composite.rst:23
 msgid ""
 "Note: The disadvantages of the **Composite** transition are: luma bleed, and "
 "less precise position control. When compared to **Affine**, the "
@@ -53,19 +71,19 @@ msgstr ""
 "transizione **Composita**, non supporta la rotazione o l'inclinazione ma è "
 "molto più veloce, anche se a scapito del sanguinamento della luminanza."
 
-#: ../../effects_and_compositions/transitions/composite.rst:26
+#: ../../more_information/earlier_versions/composite.rst:26
 msgid "Alpha operations"
 msgstr "Operazioni alfa"
 
-#: ../../effects_and_compositions/transitions/composite.rst:33
+#: ../../more_information/earlier_versions/composite.rst:33
 msgid "Alpha operation options are *Over*, *And*, *Or* and *Xor*:"
 msgstr "Le opzioni di operazione alfa sono *Over*, *And*, *Or* e *Xor*:"
 
-#: ../../effects_and_compositions/transitions/composite.rst:35
+#: ../../more_information/earlier_versions/composite.rst:35
 msgid "Operation **Over**"
 msgstr "Operazione *Over*"
 
-#: ../../effects_and_compositions/transitions/composite.rst:37
+#: ../../more_information/earlier_versions/composite.rst:37
 msgid ""
 "The clip with alpha information is located on the top track: the selected "
 "color acquires transparency."
@@ -73,7 +91,7 @@ msgstr ""
 "La clip con le informazioni alfa si trova sulla traccia in alto: il colore "
 "selezionato acquisisce trasparenza."
 
-#: ../../effects_and_compositions/transitions/composite.rst:38
+#: ../../more_information/earlier_versions/composite.rst:38
 msgid ""
 "The clip with alpha information is located on the bottom track: we see only "
 "the top clip."
@@ -81,11 +99,11 @@ msgstr ""
 "La clip con le informazioni alfa si trova sulla traccia inferiore: vediamo "
 "solo la clip superiore."
 
-#: ../../effects_and_compositions/transitions/composite.rst:44
+#: ../../more_information/earlier_versions/composite.rst:44
 msgid "Operation **And**"
 msgstr "Operazione *And*"
 
-#: ../../effects_and_compositions/transitions/composite.rst:46
+#: ../../more_information/earlier_versions/composite.rst:46
 msgid ""
 "The clip with alpha information is located on the top track: the selected "
 "color becomes transparent."
@@ -93,7 +111,7 @@ msgstr ""
 "La clip con le informazioni alfa si trova sulla traccia in alto: il colore "
 "selezionato diventa trasparente."
 
-#: ../../effects_and_compositions/transitions/composite.rst:47
+#: ../../more_information/earlier_versions/composite.rst:47
 msgid ""
 "The clip with alpha information is located on the bottom track: everything "
 "in the image becomes transparent, except for the selected color."
@@ -101,15 +119,15 @@ msgstr ""
 "La clip con le informazioni alfa si trova nella traccia inferiore: tutto "
 "nell'immagine diventa trasparente, ad eccezione del colore selezionato."
 
-#: ../../effects_and_compositions/transitions/composite.rst:53
+#: ../../more_information/earlier_versions/composite.rst:53
 msgid "Operation **Or** clears any alpha information"
 msgstr "L'operazione **Or** cancella tutte le informazioni alfa"
 
-#: ../../effects_and_compositions/transitions/composite.rst:59
+#: ../../more_information/earlier_versions/composite.rst:59
 msgid "Operation **Xor**"
 msgstr "Operazione *Xor*"
 
-#: ../../effects_and_compositions/transitions/composite.rst:61
+#: ../../more_information/earlier_versions/composite.rst:61
 msgid ""
 "The clip with alpha information is located on the top track: everything in "
 "the image becomes transparent, except for the selected color."
@@ -117,7 +135,7 @@ msgstr ""
 "La clip con le informazioni alfa si trova sulla traccia in alto: tutto "
 "nell'immagine diventa trasparente, ad eccezione del colore selezionato."
 
-#: ../../effects_and_compositions/transitions/composite.rst:62
+#: ../../more_information/earlier_versions/composite.rst:62
 msgid ""
 "The clip with alpha information is located on the bottom track: the selected "
 "color acquires transparency."
@@ -125,79 +143,103 @@ msgstr ""
 "La clip con le informazioni alfa si trova nella traccia inferiore: il colore "
 "selezionato acquisisce trasparenza."
 
-#: ../../effects_and_compositions/transitions/composite.rst:70
+#: ../../more_information/earlier_versions/composite.rst:70
 msgid "Tutorial 1"
 msgstr "Esercitazione 1"
 
-#: ../../effects_and_compositions/transitions/composite.rst:72
+#: ../../more_information/earlier_versions/composite.rst:72
+#, fuzzy
+#| msgid ""
+#| "See this :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/"
+#| "chroma_key` that describes how to use:"
 msgid ""
-"See this :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/"
+"See this :doc:`/effects_and_filters/video_effects/alpha_mask_keying/"
 "chroma_key` that describes how to use:"
 msgstr ""
 "Vedi :doc:`/effects_and_compositions/video_effects/alpha_mask_keying/"
 "chroma_key`, che descrive come utilizzarlo:"
 
-#: ../../effects_and_compositions/transitions/composite.rst:74
+#: ../../more_information/earlier_versions/composite.rst:74
+#, fuzzy
+#| msgid ""
+#| "Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/"
+#| "alpha_mask_keying/chroma_key`"
 msgid ""
-"Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/"
+"Alpha Manipulation -> :doc:`/effects_and_filters/video_effects/"
 "alpha_mask_keying/chroma_key`"
 msgstr ""
 "Manipolazione alfa -> :doc:`/effects_and_compositions/video_effects/"
 "alpha_mask_keying/chroma_key`"
 
-#: ../../effects_and_compositions/transitions/composite.rst:75
-msgid ""
-":doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping`"
+#: ../../more_information/earlier_versions/composite.rst:75
+#, fuzzy
+#| msgid ""
+#| ":doc:`/effects_and_compositions/video_effects/alpha_mask_keying/"
+#| "rotoscoping`"
+msgid ":doc:`/effects_and_filters/video_effects/alpha_mask_keying/rotoscoping`"
 msgstr ""
 ":doc:`/effects_and_compositions/video_effects/alpha_mask_keying/rotoscoping`"
 
-#: ../../effects_and_compositions/transitions/composite.rst:76
+#: ../../more_information/earlier_versions/composite.rst:76
 msgid "Composite Transition."
 msgstr "Transizione di composizione."
 
-#: ../../effects_and_compositions/transitions/composite.rst:77
+#: ../../more_information/earlier_versions/composite.rst:77
+#, fuzzy
+#| msgid ""
+#| "Crop and Transform -> :doc:`/effects_and_compositions/video_effects/"
+#| "transform_distort_perspective/position_and_zoom`"
 msgid ""
-"Crop and Transform -> :doc:`/effects_and_compositions/video_effects/"
+"Crop and Transform -> :doc:`/effects_and_filters/video_effects/"
 "transform_distort_perspective/position_and_zoom`"
 msgstr ""
 "Ritaglia e trasforma -> :doc:`/effects_and_compositions/video_effects/"
 "transform_distort_perspective/position_and_zoom`"
 
-#: ../../effects_and_compositions/transitions/composite.rst:78
+#: ../../more_information/earlier_versions/composite.rst:78
 msgid "Enhancement -> :ref:`sharpen`"
 msgstr "Il miglioramento -> :ref:`sharpen`"
 
-#: ../../effects_and_compositions/transitions/composite.rst:79
+#: ../../more_information/earlier_versions/composite.rst:79
+#, fuzzy
+#| msgid ""
+#| "Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/"
+#| "alpha_mask_keying/alpha_operations`"
 msgid ""
-"Alpha Manipulation -> :doc:`/effects_and_compositions/video_effects/"
+"Alpha Manipulation -> :doc:`/effects_and_filters/video_effects/"
 "alpha_mask_keying/alpha_operations`"
 msgstr ""
 "Manipolazione alfa -> :doc:`/effects_and_compositions/video_effects/"
 "alpha_mask_keying/alpha_operations`"
 
-#: ../../effects_and_compositions/transitions/composite.rst:83
+#: ../../more_information/earlier_versions/composite.rst:83
 msgid "Tutorial 2 - composite transition and Blue Screen"
 msgstr "Esercitazione 2 - transizione di composizione e schermata blu"
 
-#: ../../effects_and_compositions/transitions/composite.rst:85
+#: ../../more_information/earlier_versions/composite.rst:85
+#, fuzzy
+#| msgid ""
+#| "Tutorial showing how to use the \"Blue screen\" function, composite "
+#| "transition and :ref:`effects_and_compositions` to animate one image "
+#| "moving over another in the **Kdenlive** video editor."
 msgid ""
 "Tutorial showing how to use the \"Blue screen\" function, composite "
-"transition and :ref:`effects_and_compositions` to animate one image moving "
-"over another in the **Kdenlive** video editor."
+"transition and :ref:`effects_and_filters` to animate one image moving over "
+"another in the **Kdenlive** video editor."
 msgstr ""
 "Esercitazione che mostra come utilizzare la funzione «Schermo blu», la "
 "transizione composita e :ref:`effects_and_compositions` per animare "
 "un'immagine che si sposta su un'altra nell'editor video **Kdenlive**."
 
-#: ../../effects_and_compositions/transitions/composite.rst:87
+#: ../../more_information/earlier_versions/composite.rst:87
 msgid "https://youtu.be/M8hC5FbIzdE"
 msgstr "https://youtu.be/M8hC5FbIzdE"
 
-#: ../../effects_and_compositions/transitions/composite.rst:91
+#: ../../more_information/earlier_versions/composite.rst:91
 msgid "Tutorial 3 - Video Masks"
 msgstr "Esercitazione 3 - Maschere video"
 
-#: ../../effects_and_compositions/transitions/composite.rst:93
+#: ../../more_information/earlier_versions/composite.rst:93
 msgid ""
 "This tutorial uses the Composite transition and a custom video mask (a.k.a. "
 "a Wipe File or `matte <https://en.wikipedia.org/wiki/Matte_(filmmaking)>`_) "
@@ -210,15 +252,15 @@ msgstr ""
 "che un video viene riprodotto sullo schermo di un fermo immagine del monitor "
 "di un computer."
 
-#: ../../effects_and_compositions/transitions/composite.rst:95
+#: ../../more_information/earlier_versions/composite.rst:95
 msgid "The mask/matte is created with **GIMP**."
 msgstr "La maschera/matte viene creata con **GIMP**."
 
-#: ../../effects_and_compositions/transitions/composite.rst:97
+#: ../../more_information/earlier_versions/composite.rst:97
 msgid "Save your mattes to :file:`/usr/share/kdenlive/lumas`."
 msgstr "Salva i tuoi matte in :file:`/usr/share/kdenlive/lumas`."
 
-#: ../../effects_and_compositions/transitions/composite.rst:99
+#: ../../more_information/earlier_versions/composite.rst:99
 msgid ""
 "It would appear that you need to stop and restart **Kdenlive** in order for "
 "it to pick up new matte/wipe files saved in the above folder."
@@ -226,7 +268,7 @@ msgstr ""
 "Sembrerebbe che tu debba interrompere e riavviare **Kdenlive** in modo che "
 "raccolga nuovi file matte/wipe salvati nella cartella sopra."
 
-#: ../../effects_and_compositions/transitions/composite.rst:101
+#: ../../more_information/earlier_versions/composite.rst:101
 msgid ""
 "There appears to be a defect in this functionality which means that when the "
 "composite is on 100% Opacity, the wipe file does not work. You need to "
@@ -236,11 +278,11 @@ msgstr ""
 "quando il composito è su 100% di opacità, il file di cancellazione non "
 "funziona. Devi cambiarlo al 99% per far sì che l'effetto si attivi."
 
-#: ../../effects_and_compositions/transitions/composite.rst:103
+#: ../../more_information/earlier_versions/composite.rst:103
 msgid "https://youtu.be/FIpnGlRY27U"
 msgstr "https://youtu.be/FIpnGlRY27U"
 
-#: ../../effects_and_compositions/transitions/composite.rst:109
+#: ../../more_information/earlier_versions/composite.rst:109
 msgid ""
 "Screenshot of Composite transition using a custom wipe file to mask out a "
 "section of video - as described in Tutorial 3."
@@ -249,7 +291,7 @@ msgstr ""
 "personalizzato per mascherare una sezione del video, come descritto "
 "nell'esercitazione 3."
 
-#: ../../effects_and_compositions/transitions/composite.rst:111
+#: ../../more_information/earlier_versions/composite.rst:111
 msgid ""
 "Aspirational goal - a compositing experiment made using detonation films "
 "free sample effects."
@@ -257,7 +299,7 @@ msgstr ""
 "Obiettivo ambizioso: un esperimento di composizione realizzato utilizzando "
 "effetti campione gratuiti di filmati di esplosione."
 
-#: ../../effects_and_compositions/transitions/composite.rst:113
+#: ../../more_information/earlier_versions/composite.rst:113
 msgid ""
 "**Warning**: video below may be inappropriate for some users. https://youtu."
 "be/vo-xntF1bns"
