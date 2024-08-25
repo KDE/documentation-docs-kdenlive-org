@@ -48,10 +48,14 @@ Following procedures add a marker at the playhead position (clip monitor, timeli
   * Clip monitor: Right click on the clip monitor and choose :menuselection:`Marker --> Add Marker`
   * Timeline: Right click the clip in the timeline and choose :menuselection:`Marker --> Add Marker`. The marker is added at the play-head position.
 
+.. .. versionadded:: 24.08
+..    Insert guides in 10 different categories using NumPad 
+
 * **Keyboard**
 
   * Clip monitor: numeric keypad :kbd:`*` adds a marker
   * Timeline: Move the playhead on the desired position on the clip. Click on the clip. Numeric keypad :kbd:`*` adds a marker
+  * :kbd:`1` - :kbd:`0` (number 1 to 0 on the NumPad)
 
 * **Mouse**
 
