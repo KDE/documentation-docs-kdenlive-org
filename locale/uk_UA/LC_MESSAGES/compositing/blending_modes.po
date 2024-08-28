@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-08-25 09:10+0300\n"
+"PO-Revision-Date: 2024-08-27 21:00+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -141,6 +141,13 @@ msgid ""
 "default it is set to :guilabel:`Automatic` which uses the track immediately "
 "below."
 msgstr ""
+"Для композиції або змішування потрібно дві доріжки: верхня доріжка або"
+" «шар», який також називають *шаром змішування* або *активним шаром*; та"
+" «нижня» доріжка або шар, який також називають *базовий шар*. У змішувальні"
+" композиції *шаром змішування* завжди є доріжка, де починається композиція,"
+" а *базовий шар* може бути вказано за допомогою :guilabel:`Доріжки"
+" композиції`. Типово, для нього встановлено :guilabel:`Автоматично`, тобто"
+" використовує доріжку безпосередньо нижче."
 
 #: ../../compositing/blending_modes.rst:31
 msgid "Selecting the composition track and blend mode"
@@ -179,6 +186,13 @@ msgid ""
 "yourself with the :doc:`/effects_and_filters/video_effects/"
 "color_image_correction/color_levels` effect."
 msgstr ""
+"Щоб краще зрозуміти як працюють режими змішування, ознайомтеся із розділами"
+" :doc:`/"
+"tips_and_tricks/index` і :doc:`/tips_and_tricks/how-tos/index` щодо :"
+"doc:`/tips_and_tricks/how-tos/lift_gamma_gain`, :doc:`балансу білого </"
+"tips_and_tricks/how-tos/tutorial-white_balance_lms>` та вивчіть опис ефекту"
+" :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/color_levels`."
 
 #: ../../compositing/blending_modes.rst:43
 msgid "Blending Modes can be grouped by their result:"
@@ -244,6 +258,11 @@ msgid ""
 "is always darker, except for where it is pure white, since each value is "
 "less than 1."
 msgstr ""
+"Зберігає темніші кольори шару змішування та робить світлі кольори менш"
+" прозорими. Результату досягають множенням значень каналу :abbr:`RGB(Red"
+" Green Blue)` пікселя у діапазоні від 0 до 1 у шарі змішування на значення"
+" відповідного пікселя у базовому шарі. Колір-результат завжди темніший,"
+" окрім місць, де він зовсім білий, оскільки усі значення менші за 1."
 
 #: ../../compositing/blending_modes.rst:81
 msgid ""
@@ -254,6 +273,12 @@ msgid ""
 "homogenous color, this effect is equivalent to changing the black point to "
 "the inverted color."
 msgstr ""
+"Колір з шару змішування використовується для затемнення базового шару і"
+" збільшує контрастність між двома шарами. Результату досягають діленням"
+" обернених значень базового шару на значення шару змішування з наступним"
+" оберненням результату. Змішування з білим не змінює кольорів. Зауважте, що"
+" якщо шар змішування заповнено однорідним кольором, цей ефект рівноцінний до"
+" зміни точки чорного на інвертований колір."
 
 #: ../../compositing/blending_modes.rst:109
 msgid "Lighter"
@@ -272,6 +297,9 @@ msgid ""
 "this always produces the same or lighter colors than the input (base layer) "
 "it is also known as *Plus Lighter*."
 msgstr ""
+"Значення кольорів обох шарів просто додають (звідси назва). Оскільки при"
+" цьому завжди отримуємо ті самі або світліші за вхідний колір (базовий шар)"
+" кольори, його також називають *Плюс-світліше*."
 
 #: ../../compositing/blending_modes.rst:117
 msgid ""
@@ -279,6 +307,9 @@ msgid ""
 "lighten of the blend layer is lighter than the brightness (or luminance) of "
 "the base layer."
 msgstr ""
+"Зберігає найсвітліші кольори з пари кольорів шару змішування і базового"
+" разу. Робить кольори світлішими, лише якщо шар змішування світліший за"
+" яскравість (або освітленість) базового шару."
 
 #: ../../compositing/blending_modes.rst:120
 msgid ""
@@ -287,6 +318,10 @@ msgid ""
 "**Multiply**: Wherever either layer was darker than white, the composite is "
 "brighter."
 msgstr ""
+"У цьому режимі змішування знаходять обернені значення кольорів зображення"
+" обох шарів, значення множаться, а потім знаходять обернене знову."
+" Протилежне до **Множення**: якщо обидва шари темніші за білий, композиція"
+" буде світлішою."
 
 #: ../../compositing/blending_modes.rst:123
 msgid ""
@@ -313,6 +348,8 @@ msgid ""
 "The following blending modes are great for adding depth and dynamics to "
 "images by having the two layers play off of each other:"
 msgstr ""
+"Наведені нижче режими змішування чудово пасують для додавання глибини і"
+" динаміки до зображень шляхом взаємодії двох шарів:"
 
 #: ../../compositing/blending_modes.rst:162
 msgid ""
@@ -328,12 +365,17 @@ msgid ""
 "similar to **Overlay** but uses the brightness of the blend layer where "
 "**Overlay** uses the base layer."
 msgstr ""
+"Цей режим змішування є поєднанням режимів **Множення** і **Екран**. Він"
+" працює подібно до режиму **Накладання**, але використовує яскравість шару"
+" змішування там, де **Накладання** використовує базовий шар."
 
 #: ../../compositing/blending_modes.rst:168
 msgid ""
 "Similar to **Overlay**, it uses luminance values to either darken or lighten "
 "the image."
 msgstr ""
+"Подібне до **Накладання**, використано значення яскравості до затемнення або"
+" освітлення зображення."
 
 #: ../../compositing/blending_modes.rst:196
 msgid "Comparative"
@@ -342,6 +384,8 @@ msgstr "Порівняльна"
 #: ../../compositing/blending_modes.rst:198
 msgid "The following blending modes basically invert white or light colors:"
 msgstr ""
+"Наведені нижче режими змішування в основному інвертують білий і світлі"
+" кольори:"
 
 #: ../../compositing/blending_modes.rst:201
 msgid ""
@@ -359,6 +403,8 @@ msgid ""
 "This blending mode is essentially the same as **Difference** but with less "
 "contrast as it does not invert mid-tones."
 msgstr ""
+"Цей режим змішування в основному тотожний до **Різниці**, але зі зменшенням"
+" контрастності, оскільки не відбувається інвертування проміжних відтінків."
 
 #: ../../compositing/blending_modes.rst:227
 #: ../../compositing/blending_modes.rst:263
@@ -370,30 +416,41 @@ msgid ""
 "The following blending modes play with :term:`hues<hue>`, :term:"
 "`saturation`, and brightness (aka :term:`luminance`, hence the acronym HSL):"
 msgstr ""
+"У наведених нижче режимах змішування обробляють :term:`відтінки<hue>`,"
+" :term:`насиченість <saturation>` яскравість (або :term:`luminance`, звідси"
+" абревіатура HSL):"
 
 #: ../../compositing/blending_modes.rst:232
 msgid ""
 "This blending mode preserves the luma and saturation (:term:`chroma`) of the "
 "base layer, while taking the hue of the blend layer."
 msgstr ""
+"У цьому режимі змішування зберігається освітленість або насиченість"
+" (:term:`chroma`) базового шару, відтінок буде взято із шару змішування."
 
 #: ../../compositing/blending_modes.rst:235
 msgid ""
 "This blending mode preserves the luma and hue from the base layer, while "
 "adopting the saturation from the blend layer."
 msgstr ""
+"У цьому режимі змішування зберігається освітленість і відтінок базового шару"
+" із використанням насиченості із шару змішування."
 
 #: ../../compositing/blending_modes.rst:238
 msgid ""
 "This blending mode preserves the luma from the base layer, while taking the "
 "hue and saturation from the blend layer."
 msgstr ""
+"У цьому режимі змішування зберігається освітленість базового шару із"
+" використанням відтінку і насиченості із шару змішування."
 
 #: ../../compositing/blending_modes.rst:241
 msgid ""
 "This blending mode preserves the hue and saturation from the base layer, "
 "while adopting the luma from the blend layer."
 msgstr ""
+"У цьому режимі змішування зберігається відтінок та насиченість базового шару"
+" із використанням яскравості із шару змішування."
 
 #: ../../compositing/blending_modes.rst:251
 msgid "Hue"
