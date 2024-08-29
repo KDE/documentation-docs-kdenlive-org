@@ -1,5 +1,5 @@
 .. meta::
-   :description: Project menu in Kdenlive video editor
+   :description: Kdenlive Documentation - Project Menu
    :keywords: KDE, Kdenlive, project, clip, folder, color, image, sequence, title, template, animation, subtitle, render, clean, generators, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -109,9 +109,9 @@ For more details refer to the :ref:`Image Sequence <add_slideshow_clip>` section
 Add Title Clip
 --------------
 
-This function adds a Title Clip to the Project Bin. First, it opens the Titler app where you create the Title Clip. Once saved it shows up in the Project Bin.
+This function adds a Title Clip to the Project Bin. First, it opens the title editor in a separate window where you create the Title Clip. Once saved it shows up in the Project Bin.
 
-A more detailed documentation of the Titler app is available in the :ref:`effects-titles` section of the documentation.
+A more detailed documentation of the title editor is available in the :doc:`/titles_and_graphics/titles/titles` section of the documentation.
 
 This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
@@ -128,11 +128,11 @@ This function creates a Title Clip based on a Template Title.
    
    Adding a Template Title
    
-You build the template in the Titler application like a normal Title Clip. The key is the placeholder '%s'. It will be replaced by the text you enter here.
+You build the template in the Titler application like a normal Title Clip. The key is the placeholder :code:`%s`. It will be replaced by the text you enter here.
 
 This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
-Please refer to the :ref:`effects-titles` section of this documentation for more details about Titles and Templates.
+Please refer to the :doc:`/titles_and_graphics/titles/title_template_titles` section of this documentation for more details about Titles and Templates.
 
 .. rst-class:: clear-both
 
@@ -190,7 +190,8 @@ This function is also available from the menu bar of the Project Bin and by righ
 
 More details are available in the :ref:`Create Folder <project_tree>` section of this documentation.
 
-.. tip:: A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
+.. tip::
+   A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
 
 
 .. _generators:
@@ -326,7 +327,9 @@ This function opens the Project Settings dialog where you can set all basic prop
    
 More details about the various parameters and tabs are available in the :ref:`project_settings` section of the documentation.
 
-.. attention:: Certain things cannot be changed once assets have been added to the project or put on the timeline. Changing certain properties of the project may lead to unwanted results. It is highly recommended to create a copy of the project file before changing project settings.
+.. attention::
+   Certain things cannot be changed once assets have been added to the project or put on the timeline. Changing certain properties of the project may lead to unwanted results. It is highly recommended to create a copy of the project file before changing project settings.
 
-.. note:: Changing the project folder location does not work properly. In most cases the files are not moved.
+.. note::
+   Changing the project folder location does not work properly. In most cases the files are not moved.
 

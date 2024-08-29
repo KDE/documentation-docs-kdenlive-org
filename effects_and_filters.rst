@@ -642,10 +642,10 @@ Subtitles
 
 .. .. _effects-titles:
 
-Titles
-======
+..   Titles
+   ======
 
-.. toctree::
+   .. toctree::
    :maxdepth: 1
    :glob:
 

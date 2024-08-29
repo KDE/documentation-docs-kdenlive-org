@@ -131,6 +131,17 @@ Workflow
 
     .. container:: tile
 
+       .. figure:: /images/intro_page/index_titles.gif
+          :target: titles_and_graphics.html
+
+       :doc:`Titles and Graphics</titles_and_graphics/titles_and_graphics>`
+          Add titles and graphics to your video
+
+          Integration with Glaxnimate for vector animations
+          
+
+    .. container:: tile
+
        .. figure:: /images/intro_page/Index_Rendering.png
           :target: exporting.html
 
@@ -146,7 +157,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      :ref:`troubleshooting`
+      :doc:`/troubleshooting`
          Solving specific :ref:`troubleshooting-windows_issues`
 
          General problem solving
@@ -177,6 +188,7 @@ Troubleshooting, Glossary, Get Involved
    cutting_and_assembling
    effects_and_filters
    compositing
+   titles_and_graphics/titles_and_graphics
    exporting
    troubleshooting
    tips_and_tricks/index

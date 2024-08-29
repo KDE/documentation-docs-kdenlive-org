@@ -157,6 +157,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |document-open| image:: /images/icons/document-open.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |document-save| image:: /images/icons/document-save.svg
    :width: 22px
    :class: no-scaled-link
@@ -173,10 +177,14 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |draw-ellipse| image:: /images/icons/draw-ellipse.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |edit-clear-history| image:: /images/icons/edit-clear-history.svg
    :width: 22px
    :class: no-scaled-link
-   
+
 .. |edit-copy| image:: /images/icons/edit-copy.svg
    :width: 22px
    :class: no-scaled-link
@@ -197,6 +205,14 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |edit-select-all| image:: /images/icons/edit-select-all.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |edit-select-none| image:: /images/icons/edit-select-none.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |favorite| image:: /images/icons/favorite.svg
    :width: 22px
    :class: no-scaled-link
@@ -206,6 +222,26 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |folder-new| image:: /images/icons/folder-new.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |format-justify-center| image:: /images/icons/format-justify-center.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |format-justify-left| image:: /images/icons/format-justify-left.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |format-justify-right| image:: /images/icons/format-justify-right.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |format-text-italic| image:: /images/icons/format-text-italic.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |format-text-underline| image:: /images/icons/format-text-underline.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -225,6 +261,14 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |insert-image| image:: /images/icons/insert-image.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |insert-text| image:: /images/icons/insert-text.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |kdenlive-add-clip| image:: /images/icons/kdenlive-add-clip.svg
    :width: 22px
    :class: no-scaled-link
@@ -241,6 +285,14 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |kdenlive-insert-rect| image:: /images/icons/kdenlive-insert-rect.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |kdenlive-insert-unicode| image:: /images/icons/kdenlive-insert-unicode.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |kdenlive-lock| image:: /images/icons/track-locked.svg
    :width: 22px
    :class: no-scaled-link
@@ -254,6 +306,14 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |kdenlive-select| image:: /images/icons/kdenlive-select-tool.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |kdenlive-select-images| image:: /images/icons/kdenlive-select-images.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |kdenlive-select-texts| image:: /images/icons/kdenlive-select-texts.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -321,6 +381,14 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |object-order-back| image:: /images/icons/object-order-back.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |object-order-front| image:: /images/icons/object-order-front.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |object-order-lower| image:: /images/icons/object-order-lower.svg
    :width: 22px
    :class: no-scaled-link
@@ -354,6 +422,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |rewind| image:: /images/icons/media-seek-backward.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |select-rectangular| image:: /images/icons/select-rectangular.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -399,11 +471,15 @@ rst_epilog = """
 
 .. |track-locked| image:: /images/icons/track-locked.svg
    :width: 22px
-   :class: no-sclaed-link
+   :class: no-scaled-link
 
 .. |track-unlocked| image:: /images/icons/track-unlocked.svg
    :width: 22px
-   :class: no-sclaed-link
+   :class: no-scaled-link
+
+.. |transform-move| image:: /images/icons/transform-move.svg
+   :width: 22px
+   :class: no-scaled-link
 
 .. |transform-move-horizontal| image:: /images/icons/transform-move-horizontal.svg
    :width: 22px

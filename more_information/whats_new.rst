@@ -169,7 +169,7 @@ What's New
    * Ability to import and export keyframes from/to the clipboard (see :ref:`effects-exchange_keyframes`)
    * Introducing :ref:`effects-effect_zones`
    * Added :ref:`spell checking <subtitle-spell_check>` to subtitles
-   * Added a :ref:`typewriter` effect to the Titler app
+   * Added a :ref:`typewriter <title-text_typewriter>` effect to the Titler app
 
 
 .. versionadded:: 20.12 (see 20.12_ release notes)

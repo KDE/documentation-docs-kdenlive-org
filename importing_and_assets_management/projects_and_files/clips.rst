@@ -118,7 +118,7 @@ To edit the slideshow parameters: In the project bin either double-click the sli
 Title clips
 -----------
 
-See :ref:`effects-titles`.
+See :doc:`/titles_and_graphics/titles/titles`.
 
 
 .. _add_animation:
