@@ -31,7 +31,7 @@ Kdenlive is integrated with |glaxnimate| for vector graphics and animations. It 
 Kdenlive needs to know where to find Glaxnimate. You set up the path to Glaxnimate in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --> Default Apps` (default shortcut :kbd:`Ctrl+Shift+,`) under the heading :guilabel:`Animation editing`.
 
 :Linux: Depending on your Glaxnimate installation method (appimage or package)
-:Windows: Locate the executable :file:`.exe` file (usually :file:`C:\\Program Files (x86)\\glaxnimate-x86_64\\glaxnimate\\bin\\glaxnimate.exe`)
+:Windows: Locate the executable :file:`.exe` file where you unpacked the ZIP file (:file:`\\Your\\Path\\To\\glaxnimate\\bin\\glaxnimate.exe`)
 
 
 .. rubric:: Creating an Animation
