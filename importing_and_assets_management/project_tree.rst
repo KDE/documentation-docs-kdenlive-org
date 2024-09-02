@@ -84,10 +84,10 @@ The Project Bin is a view in Kdenlive which lists all the clips that are associa
 * :ref:`Add Image Clip <add_slideshow_clip>`
 
 
-* :ref:`Add Title Clip <effects-titles>`
+* :ref:`Add Title Clip <title-create_clip>`
 
 
-* :ref:`Add Template Title Clip <effects-titles>`
+* :doc:`Add Template Title Clip </titles_and_graphics/titles/title_template_titles>`
 
 
 * :ref:`Create Animation... <add_animation>` (*new in version 22.08*)

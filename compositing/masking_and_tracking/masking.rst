@@ -40,7 +40,7 @@ You create a mask with one of these effects:
 
       Example of using **(Mask)** effects to apply effects/filters
 
-   This example shows the effect stack with an **Alpha Shapes (MasK)** and **Mask Apply** effect as brackets (1) around the actual effects :doc:`/effects_and_filters/video_effects/blur_and_sharpen/gaussian_blur` and :doc:`/effects_and_filters/video_effects/color_image_correction/bw0r` (2).
+   This example shows the effect stack with an **Alpha Shapes (Mask)** and **Mask Apply** effect as brackets (1) around the actual effects :doc:`/effects_and_filters/video_effects/blur_and_sharpen/gaussian_blur` and :doc:`/effects_and_filters/video_effects/color_image_correction/bw0r` (2).
 
    Note that effects are always applied top down.
 

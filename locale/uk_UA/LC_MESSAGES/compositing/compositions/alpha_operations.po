@@ -6,10 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-08-21 17:25+0300\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"POT-Creation-Date: 2024-09-01 01:41+0000\n"
+"PO-Revision-Date: 2024-09-01 14:56+0300\n"
+"Last-Translator: Fracture dept <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,13 +20,16 @@ msgstr ""
 
 #: ../../compositing/compositions/alpha_operations.rst:1
 msgid "Kdenlive Documentation - Compositing: Compositions Alpha Operations"
-msgstr ""
+msgstr "Документація до Kdenlive — Композиція: альфа-дії у композиціях"
 
 #: ../../compositing/compositions/alpha_operations.rst:1
 msgid ""
 "KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
 "learn, easy, compositing, composition, compositions, alpha, operations"
 msgstr ""
+"KDE, Kdenlive, документація, підручник, відеоредактор, відео, відкритий код, "
+"вільний, вивчення, вивчити, просто, композиція, прозорість, альфа, дії, "
+"операції"
 
 #: ../../compositing/compositions/alpha_operations.rst:16
 msgid "Alpha Operations"
@@ -40,27 +43,42 @@ msgid ""
 "from the :doc:`/effects_and_filters/video_effects/alpha_mask_keying` effects "
 "category."
 msgstr ""
+"Для типу композицій **Обробка прозорості** потрібні альфа-канали у доріжці "
+"змішування і базовій доріжці. Якщо у кліпах немає :doc:`альфа-каналу </"
+"compositing/alpha_channels>`, ви можете додати цей канал за допомогою "
+"ефектів з категорії :doc:`/effects_and_filters/video_effects/"
+"alpha_mask_keying`."
 
 #: ../../compositing/compositions/alpha_operations.rst:27
 msgid "Changing the composition type **Alpha operation**"
-msgstr ""
+msgstr "Зміна типу композиції на **Обробка прозорості**"
 
 #: ../../compositing/compositions/alpha_operations.rst:29
 msgid ""
 "You can change the **Alpha Operation** by selecting from the :guilabel:"
 "`Composition Type` drop-down list."
 msgstr ""
+"Змінити тип на **Обробку прозорості** можна вибором відповідного пункту зі "
+"спадного списку :guilabel:`Тип композиції`."
 
 #: ../../compositing/compositions/alpha_operations.rst:34
+#| msgid ""
+#| "For this comparison, :doc:`title clips </effects_and_filters/titles>` "
+#| "were used for the orange square on the blend track, and for a blue circle "
+#| "in the base track."
 msgid ""
-"For this comparison, :doc:`title clips </effects_and_filters/titles>` were "
-"used for the orange square on the blend track, and for a blue circle in the "
-"base track."
+"For this comparison, :doc:`title clips </titles_and_graphics/titles/titles>` "
+"were used for the orange square on the blend track, and for a blue circle in "
+"the base track."
 msgstr ""
+"Для цього порівняння було використано :doc:`кліпи титрів <"
+"/titles_and_graphics/titles/titles>` із помаранчевим квадратом на доріжці"
+" змішування "
+"та синім колом на базовій доріжці."
 
 #: ../../compositing/compositions/alpha_operations.rst:42
 msgid "Composition Type"
-msgstr ""
+msgstr "Тип композиції"
 
 #: ../../compositing/compositions/alpha_operations.rst:43
 msgid "Example"
@@ -72,13 +90,15 @@ msgstr "Нотатки"
 
 #: ../../compositing/compositions/alpha_operations.rst:45
 msgid "Default composite"
-msgstr ""
+msgstr "Типова композиція"
 
 #: ../../compositing/compositions/alpha_operations.rst:47
 msgid ""
 "The square on the upper track (blend track) covers part of the circle on the "
 "lower track (base track)"
 msgstr ""
+"Квадрат на верхній доріжці (доріжці змішування) вкриває частину кола на "
+"нижній доріжці (базовій доріжці)"
 
 #: ../../compositing/compositions/alpha_operations.rst:48
 msgid "Alpha ATOP"
@@ -89,6 +109,8 @@ msgid ""
 "Draw a pixel from the base layer on top of the blend layer if both layers "
 "have a non-alpha pixel (|frei0r.alphaatop|)"
 msgstr ""
+"Малює піксель з базового шару над пікселем шару змішування, якщо обидва шари "
+"мають відповідний непрозорий піксель (|frei0r.alphaatop|)"
 
 #: ../../compositing/compositions/alpha_operations.rst:51
 msgid "Alpha IN"
@@ -99,6 +121,8 @@ msgid ""
 "Draw a pixel from the base layer only where both layers have a non-alpha "
 "pixel. This is the alpha equivalent of clipping. (|frei0r.alphain|)"
 msgstr ""
+"Малює піксель з базового шару лише там, де обидва шари мають відповідний "
+"непрозорий піксель. Це альфа-еквівалент обрізання. (|frei0r.alphain|)"
 
 #: ../../compositing/compositions/alpha_operations.rst:54
 msgid "Alpha OUT"
@@ -110,6 +134,9 @@ msgid ""
 "draw the pixel from the base layer. This is the alpha equivalent of "
 "clipping. (|frei0r.alphaout|)"
 msgstr ""
+"Малює альфа-піксель лише там, де обидва шари мають відповідний непрозорий "
+"піксель, інакше малює піксель з базового шару. Це альфа-еквівалент "
+"обрізання. (|frei0r.alphaout|)"
 
 #: ../../compositing/compositions/alpha_operations.rst:57
 msgid "Alpha OVER"
@@ -117,7 +144,7 @@ msgstr "Alpha OVER"
 
 #: ../../compositing/compositions/alpha_operations.rst:59
 msgid "Overlay the blend layer with the base layer (|frei0r.alphaover|)"
-msgstr ""
+msgstr "Накласти шар змішування на базовий шар (|frei0r.alphaover|)"
 
 #: ../../compositing/compositions/alpha_operations.rst:60
 msgid "Alpha XOR"
@@ -128,3 +155,5 @@ msgid ""
 "Draw a pixel only where either layer has a pixel, and no pixel (alpha) where "
 "both layers have a pixel (|frei0r.alphaxor|)"
 msgstr ""
+"Малює піксель лише там, де хоч якійсь з шарів містить піксель, і пропуск "
+"(прозорість) там, де в обох шарах є піксель (|frei0r.alphaxor|)"

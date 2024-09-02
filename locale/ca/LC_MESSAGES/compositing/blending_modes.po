@@ -1,0 +1,491 @@
+# Translation of docs_kdenlive_org_compositing___blending_modes.po to Catalan
+# Copyright (C) 2024 This_file_is_part_of_KDE
+# Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# SPDX-FileCopyrightText: 2024 Josep M. Ferrer <txemaq@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: documentation-docs-kdenlive-org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"PO-Revision-Date: 2024-08-31 23:26+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.08.0\n"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:91
+msgid "Darken"
+msgstr "Enfosquit"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:97
+msgid "Multiply"
+msgstr "Multiplicació"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:103
+msgid "Color Burn"
+msgstr "Cremat del color"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "Add / Addition"
+msgstr "Afegir / addició"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:139
+msgid "Lighten"
+msgstr "Aclarit"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:145
+msgid "Screen"
+msgstr "Pantalla"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:151
+msgid "Color Dodge"
+msgstr "Esvaïment del color"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:178
+msgid "Overlay"
+msgstr "Superposició"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:184
+msgid "Hard Light"
+msgstr "Llum forta"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:190
+msgid "Soft Light"
+msgstr "Llum suau"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:215
+msgid "Difference"
+msgstr "Diferència"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:221
+msgid "Exclusion"
+msgstr "Exclusió"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL hue"
+msgstr "To HSL"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL saturation"
+msgstr "Saturació HSL"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL color"
+msgstr "Color HSL"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL luminosity"
+msgstr "Lluminositat HSL"
+
+#: ../../compositing/blending_modes.rst:1
+msgid "Kdenlive Documentation - Compositing: Blending Modes"
+msgstr "Documentació del Kdenlive - Composició: modes de barreja"
+
+#: ../../compositing/blending_modes.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"learn, easy, compositing, blending modes"
+msgstr ""
+"KDE, Kdenlive, documentació, manual d'usuari, editor de vídeo, codi lliure, "
+"lliure, aprendre, fàcil, composició, modes de barreja"
+
+#: ../../compositing/blending_modes.rst:16
+msgid "Blending Modes"
+msgstr "Modes de barreja"
+
+#: ../../compositing/blending_modes.rst:18
+msgid ""
+"Blending modes (or **blend modes** or **mixing modes**) are also called "
+"**Composition Type** in Kdenlive. They determine how two images are blended "
+"together. The default blending mode is simply to cover whatever is in the "
+"lower track by whatever is in the upper track, while taking any :ref:`alpha "
+"channel <compositing-alpha_channels>` information into account."
+msgstr ""
+"Els modes de barreja (o **modes de fusió** o **modes de mescla**) també "
+"s'anomenen **Tipus de composició** en el Kdenlive. Determina com es barregen "
+"dues imatges. El mode de barreja per defecte és simplement per a cobrir el "
+"que hi ha a la pista inferior pel que hi ha a la pista superior, mentre es "
+"té en compte qualsevol informació del :ref:`canal alfa <compositing-"
+"alpha_channels>`."
+
+#: ../../compositing/blending_modes.rst:20
+msgid ""
+"In this section, we are using the :guilabel:`Composition Type` **Cairo "
+"Blend** to explain the different blend modes."
+msgstr ""
+"En aquesta secció, estem utilitzant el :guilabel:`Tipus de composició` "
+"**Barreja del Cairo** per a explicar els diferents modes de barreja."
+
+#: ../../compositing/blending_modes.rst:22
+msgid ""
+"Compositing/blending needs at least two tracks: The top track or \"layer\", "
+"also called the *blend layer* or *active layer*; and the \"bottom\" track or "
+"layer, also called the *base layer*. In a blending composition, the *blend "
+"layer* is always the track where the composition originates, whereas the "
+"*base layer* can be specified with the :guilabel:`Composition track`. By "
+"default it is set to :guilabel:`Automatic` which uses the track immediately "
+"below."
+msgstr ""
+"La composició/barreja necessita com a mínim dues pistes: la pista superior o "
+"«capa», també anomenada *capa de barreja* o *capa activa*; i la pista o capa "
+"«inferior», també anomenada *capa base*. En una composició de barreja, la "
+"*capa de barreja* sempre és la pista on s'origina la composició, mentre que "
+"la *capa base* es pot especificar amb la :guilabel:`Pista de composició`. De "
+"manera predeterminada, s'estableix a :guilabel:`Automàtic`, el qual usa la "
+"pista immediatament a sota."
+
+#: ../../compositing/blending_modes.rst:31
+msgid "Selecting the composition track and blend mode"
+msgstr "Selecció de la pista de composició i el mode de barreja"
+
+#: ../../compositing/blending_modes.rst:33
+msgid ""
+"If you want to blend with a different base layer, select the correct one "
+"from the :guilabel:`Composition track`."
+msgstr ""
+"Si voleu barrejar amb una capa base diferent, seleccioneu la correcta des de "
+"la :guilabel:`Pista de composició`."
+
+#: ../../compositing/blending_modes.rst:35
+msgid ""
+"Select the blend mode by clicking on the :guilabel:`Blend mode` drop-down "
+"list."
+msgstr ""
+"Seleccioneu el mode de barreja fent clic a la llista desplegable :guilabel:"
+"`Mode de barreja`."
+
+#: ../../compositing/blending_modes.rst:37
+msgid ""
+"Blending can be controlled and keyframed by using the :guilabel:`Opacity` "
+"slider."
+msgstr ""
+"La barreja es pot controlar i posar-hi fotogrames clau mitjançant el control "
+"lliscant :guilabel:`Opacitat`."
+
+#: ../../compositing/blending_modes.rst:41
+msgid ""
+"To better understand how blending modes work, read the :doc:`/"
+"tips_and_tricks/index` :doc:`/tips_and_tricks/how-tos/index` sections about :"
+"doc:`/tips_and_tricks/how-tos/lift_gamma_gain`, :doc:`White Balance </"
+"tips_and_tricks/how-tos/tutorial-white_balance_lms>`, and familiarize "
+"yourself with the :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/color_levels` effect."
+msgstr ""
+"Per a entendre millor com funcionen els modes de barreja, llegiu les "
+"seccions :doc:`/tips_and_tricks/how-tos/index` sobre l'efecte :doc:`/"
+"tips_and_tricks/how-tos/lift_gamma_gain`, :doc:`Balanç de blancs </"
+"tips_and_tricks/how-tos/tutorial-white_balance_lms>`), i familiaritzeu-vos "
+"amb l'efecte :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"color_levels`."
+
+#: ../../compositing/blending_modes.rst:43
+msgid "Blending Modes can be grouped by their result:"
+msgstr "Els modes de barreja es poden agrupar pel seu resultat:"
+
+#: ../../compositing/blending_modes.rst:45
+msgid "Normal_"
+msgstr "Normal_"
+
+#: ../../compositing/blending_modes.rst:46
+msgid "Darker_"
+msgstr "Enfosquit_"
+
+#: ../../compositing/blending_modes.rst:47
+msgid "Lighter_"
+msgstr "Aclarit_"
+
+#: ../../compositing/blending_modes.rst:48
+msgid "Contrast_"
+msgstr "Contrast_"
+
+#: ../../compositing/blending_modes.rst:49
+msgid "Comparative_"
+msgstr "Comparatiu_"
+
+#: ../../compositing/blending_modes.rst:50
+msgid "Color_"
+msgstr "Color_"
+
+#: ../../compositing/blending_modes.rst:55
+msgid "Normal"
+msgstr "Normal"
+
+#: ../../compositing/blending_modes.rst:57
+msgid ""
+"This is the standard blending mode. The blend layer simply covers everything "
+"in the base layer, except if there is an alpha channel in the blend layer."
+msgstr ""
+"Aquest és el mode de barreja estàndard. La capa de barreja simplement ho "
+"cobreix tot a la capa base, excepte si hi ha un canal alfa a la capa de "
+"barreja."
+
+#: ../../compositing/blending_modes.rst:70
+msgid "Darker"
+msgstr "Enfosquit"
+
+#: ../../compositing/blending_modes.rst:72
+msgid ""
+"The following blending modes all darken or amplify dark colors in the image:"
+msgstr ""
+"Els modes de barreja següents enfosqueixen o amplifiquen els colors foscos a "
+"la imatge:"
+
+#: ../../compositing/blending_modes.rst:75
+msgid "Keeps the darkest colors between the blend and base layers."
+msgstr "Manté els colors més foscos entre les capes de barreja i base."
+
+#: ../../compositing/blending_modes.rst:78
+msgid ""
+"Keeps the darker colors of the blend layer and makes light colors less "
+"opaque. This is done by taking the :abbr:`RGB(Red Green Blue)` channel "
+"values from 0 to 1 of the pixel in the blend layer and multiplying it with "
+"the values of the corresponding pixel in the base layer. The resulting color "
+"is always darker, except for where it is pure white, since each value is "
+"less than 1."
+msgstr ""
+"Manté els colors més foscos de la capa de barreja i fa que els colors clars "
+"siguin menys opacs. Això es fa prenent els valors del canal :abbr:"
+"`RGB(Vermell verd blau)` de 0 a 1 del píxel a la capa de barreja i "
+"multiplicant-lo pels valors del píxel corresponent a la capa base. El color "
+"resultant és sempre més fosc, excepte on és blanc pur, ja que cada valor és "
+"inferior a 1."
+
+#: ../../compositing/blending_modes.rst:81
+msgid ""
+"The color from the blend layer is used to darken the base layer, and "
+"increases the contrast between the two. This is done by dividing the "
+"inverted base layer by the blend layer, and then inverting the result. "
+"Blending with white produces no change. Note that when the blend layer is a "
+"homogenous color, this effect is equivalent to changing the black point to "
+"the inverted color."
+msgstr ""
+"El color de la capa de barreja s'utilitza per a enfosquir la capa base i "
+"augmentar el contrast entre les dues. Això es fa dividint la capa base "
+"invertida per la capa de barreja, i després invertint el resultat. La "
+"barreja amb blanc no produeix cap canvi. Tingueu en compte que quan la capa "
+"de barreja és un color homogeni, aquest efecte és equivalent a canviar el "
+"punt negre al color invertit."
+
+#: ../../compositing/blending_modes.rst:109
+msgid "Lighter"
+msgstr "Aclarit"
+
+#: ../../compositing/blending_modes.rst:111
+msgid ""
+"The following blending modes lighten or amplify light colors in the image:"
+msgstr ""
+"Els següents modes de barreja aclareixen o amplifiquen els colors de la llum "
+"a la imatge:"
+
+#: ../../compositing/blending_modes.rst:114
+msgid ""
+"The color values of both layers are simply added (hence the name). Since "
+"this always produces the same or lighter colors than the input (base layer) "
+"it is also known as *Plus Lighter*."
+msgstr ""
+"Els valors de color d'ambdues capes simplement s'afegeixen (d'aquí el nom). "
+"Atès que això sempre produeix els mateixos colors o més clars que l'entrada "
+"(capa base) també es coneix com *Aclarit plus*."
+
+#: ../../compositing/blending_modes.rst:117
+msgid ""
+"Keeps the lightest colors between the blend and base layers. It will only "
+"lighten of the blend layer is lighter than the brightness (or luminance) of "
+"the base layer."
+msgstr ""
+"Manté els colors més clars entre les capes de barreja i base. Només aclarirà "
+"la capa de barreja més clara que la lluminositat (o luminància) de la capa "
+"base."
+
+#: ../../compositing/blending_modes.rst:120
+msgid ""
+"In this blending mode, the color values of the image of both layers are "
+"inverted, multiplied, and then inverted again. This is the opposite of "
+"**Multiply**: Wherever either layer was darker than white, the composite is "
+"brighter."
+msgstr ""
+"En aquest mode de barreja, els valors de color de la imatge d'ambdues capes "
+"s'inverteixen, es multipliquen i després es tornen a invertir. Això és el "
+"contrari de **Multiplicació**: on qualsevol de les dues capes era més fosca "
+"que blanca, la composició és més lluminosa."
+
+#: ../../compositing/blending_modes.rst:123
+msgid ""
+"This blending mode divides the base layer by the inverted blend layer. It "
+"lightens the base layer depending on the value of the blend layer: the "
+"brighter the blend layer, the more it affects the base layer. If you use "
+"white in the blend layer, the color in the base layer will become white; "
+"using black in the blend layer does not change the base layer. Note that "
+"when the blend layer is a homogenous color, this blending mode essentially "
+"changes the output black point to this color, and (input) white point to the "
+"inverted color."
+msgstr ""
+"Aquest mode de barreja divideix la capa base per la capa de barreja "
+"invertida. Aclareix la capa base en funció del valor de la capa de barreja: "
+"com més lluminosa sigui la capa de barreja, més afectarà la capa base. Si "
+"utilitzeu el blanc a la capa de barreja, el color a la capa base es tornarà "
+"blanc; utilitzar el negre a la capa de barreja no canviarà la capa base. "
+"Tingueu en compte que quan la capa de barreja és un color homogeni, aquest "
+"mode de barreja essencialment canvia el punt negre de sortida a aquest "
+"color, i (entrada) el punt blanc al color invertit."
+
+#: ../../compositing/blending_modes.rst:133
+msgid "Add"
+msgstr "Afegir"
+
+#: ../../compositing/blending_modes.rst:157
+msgid "Contrast"
+msgstr "Contrast"
+
+#: ../../compositing/blending_modes.rst:159
+msgid ""
+"The following blending modes are great for adding depth and dynamics to "
+"images by having the two layers play off of each other:"
+msgstr ""
+"Els modes de barreja següents són genials per a afegir profunditat i "
+"dinàmica a les imatges fent que les dues capes s'eliminin entre si:"
+
+#: ../../compositing/blending_modes.rst:162
+msgid ""
+"This blending mode works like **Multiply** if the base layer is darker, or "
+"like **Screen** if it's lighter. In other words: where the base layer is "
+"light, the blend layer becomes lighter; where the base layer is dark, the "
+"blend layer becomes darker; mid-tones do not affect the blend layer."
+msgstr ""
+"Aquest mode de barreja funciona com **Multiplicació** si la capa base és més "
+"fosca, o com **Pantalla** si és més clara. En altres paraules: on la capa "
+"base és clara, la capa de barreja es torna més clara; on la capa base és "
+"fosca, la capa de barreja es torna més fosca; els tons mitjans no afecten la "
+"capa de barreja."
+
+#: ../../compositing/blending_modes.rst:165
+msgid ""
+"This blending mode is a combination of **Multiply** and **Screen**. It works "
+"similar to **Overlay** but uses the brightness of the blend layer where "
+"**Overlay** uses the base layer."
+msgstr ""
+"Aquest mode de barreja és una combinació de **Multiplicació** i "
+"**Pantalla**. Funciona de manera similar a **Superposició**, però utilitza "
+"la lluminositat de la capa de barreja on **Superposició** utilitza la capa "
+"base."
+
+#: ../../compositing/blending_modes.rst:168
+msgid ""
+"Similar to **Overlay**, it uses luminance values to either darken or lighten "
+"the image."
+msgstr ""
+"Similar a **Superposició**, utilitza valors de luminància per a enfosquir o "
+"aclarir la imatge."
+
+#: ../../compositing/blending_modes.rst:196
+msgid "Comparative"
+msgstr "Comparatiu"
+
+#: ../../compositing/blending_modes.rst:198
+msgid "The following blending modes basically invert white or light colors:"
+msgstr ""
+"Els modes de barreja següents bàsicament inverteixen els colors blancs o "
+"clars:"
+
+#: ../../compositing/blending_modes.rst:201
+msgid ""
+"This blending mode subtracts the base layer from the blend layer, or the "
+"other way around to avoid negative numbers. Blending with black (:abbr:"
+"`RGB(Red Green Blue)` value is 0,0,0) results in no change, whereas blending "
+"with white (:abbr:`RGB(Red Green Blue)` value is 255, 255, 255) inverts the "
+"picture. During the editing process this can be used to verify alignment of "
+"images with similar content: is the pixel values are the same, the result is "
+"black."
+msgstr ""
+"Aquest mode de barreja resta la capa base de la capa de barreja, o a "
+"l'inrevés per a evitar nombres negatius. En barrejar amb el negre el valor (:"
+"abbr:`RGB(Vermell verd blau)` és 0,0,0) no es produeix cap canvi, mentre que "
+"la barreja amb el blanc (:abbr:`RGB(Vermell verd blau)` és 255, 255, 255) "
+"inverteix la imatge. Durant el procés d'edició es pot utilitzar per a "
+"verificar l'alineació d'imatges amb contingut similar: és que els valors "
+"dels píxels són els mateixos, el resultat és negre."
+
+#: ../../compositing/blending_modes.rst:205
+msgid ""
+"This blending mode is essentially the same as **Difference** but with less "
+"contrast as it does not invert mid-tones."
+msgstr ""
+"Aquest mode de barreja és essencialment el mateix que **Diferència** però "
+"amb menys contrast, ja que no inverteix els tons mitjans."
+
+#: ../../compositing/blending_modes.rst:227
+#: ../../compositing/blending_modes.rst:263
+msgid "Color"
+msgstr "Color"
+
+# skip-rule: rst-italic2
+#: ../../compositing/blending_modes.rst:229
+msgid ""
+"The following blending modes play with :term:`hues<hue>`, :term:"
+"`saturation`, and brightness (aka :term:`luminance`, hence the acronym HSL):"
+msgstr ""
+"Els modes de barreja següents juguen amb el :term:`to<hue>`, la :term:"
+"`saturació<saturation>`, i la lluminositat (també coneguda com a :term:"
+"`luminància<luminance>`, d'aquí l'acrònim HSL):"
+
+# skip-rule: rst-italic2
+#: ../../compositing/blending_modes.rst:232
+msgid ""
+"This blending mode preserves the luma and saturation (:term:`chroma`) of the "
+"base layer, while taking the hue of the blend layer."
+msgstr ""
+"Aquest mode de barreja conserva la luma i la saturació (:term:"
+"`croma<chroma>`) de la capa base, mentre pren el to de la capa de barreja."
+
+#: ../../compositing/blending_modes.rst:235
+msgid ""
+"This blending mode preserves the luma and hue from the base layer, while "
+"adopting the saturation from the blend layer."
+msgstr ""
+"Aquest mode de barreja conserva la luma i el to de la capa base, mentre "
+"adopta la saturació de la capa de barreja."
+
+#: ../../compositing/blending_modes.rst:238
+msgid ""
+"This blending mode preserves the luma from the base layer, while taking the "
+"hue and saturation from the blend layer."
+msgstr ""
+"Aquest mode de barreja conserva la luma de la capa base, mentre pren el to i "
+"la saturació de la capa de barreja."
+
+#: ../../compositing/blending_modes.rst:241
+msgid ""
+"This blending mode preserves the hue and saturation from the base layer, "
+"while adopting the luma from the blend layer."
+msgstr ""
+"Aquest mode de barreja conserva el to i la saturació de la capa base, mentre "
+"adopta la luma de la capa de barreja."
+
+#: ../../compositing/blending_modes.rst:251
+msgid "Hue"
+msgstr "To"
+
+#: ../../compositing/blending_modes.rst:257
+msgid "Saturation"
+msgstr "Saturació"
+
+#: ../../compositing/blending_modes.rst:269
+msgid "Luminosity"
+msgstr "Lluminositat"

@@ -31,7 +31,7 @@ The **Alpha Operations** composition types require an alpha channel in the clips
 .. rst-class:: clear-both
 
 
-For this comparison, :doc:`title clips </effects_and_filters/titles>` were used for the orange square on the blend track, and for a blue circle in the base track.
+For this comparison, :doc:`title clips </titles_and_graphics/titles/titles>` were used for the orange square on the blend track, and for a blue circle in the base track.
 
 .. list-table::
    :header-rows: 1
