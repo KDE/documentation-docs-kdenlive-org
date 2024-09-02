@@ -43,4 +43,4 @@ Refer to :doc:`this list <transitions/transitions_list>` of all available transi
 
 ----
 
-.. [1] The composition track is the one the selected clip is composited with. For example, a clip on V2 overlaps with a clip on V1, and a transition is created to dissolve vom V2 to V1: V1 is the Composition Track.
+.. [1] The composition track is the one the selected clip is composited with. For example, a clip on V2 overlaps with a clip on V1, and a transition is created to dissolve from V2 to V1: V1 is the Composition Track.
