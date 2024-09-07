@@ -164,7 +164,7 @@ $redirect_rules = array(
     "^transition_link\/wipe" => "compositing/transitions//wipe.html",
 
     // Unknown effect short link, redirect to effects overview
-    "^effect_link" => "effects_and_filters/effects_and_filters_list.html"
+    "^effect_link" => "effects_and_filters/effects_and_filters_list.html",
     // Unknown transition short link, redirect to transition overview
     "^transition_link" => "compositing.html"
 
