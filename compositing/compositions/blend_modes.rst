@@ -40,7 +40,7 @@ The following table below lists the composition types and their blending mode co
    * - Composition Type
      - Example
      - Blending Mode
-   * - .. _addition_addition-alpha:
+   * - .. _addition-addition-alpha:
    
        | Addition /
        | addition_alpha

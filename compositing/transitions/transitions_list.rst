@@ -44,12 +44,12 @@ The following composition types are used for transitioning between two clips bec
    * - :doc:`Luma </compositing/transitions/wipe>`
      - .. image:: /images/effects_and_compositions/transition-luma_burst.gif
      - This example uses the :guilabel:`Wipe Method` **Burst**. **Luma** works exactly like :doc:`/compositing/transitions/wipe` but has additional parameters.
-   * - .. _push-down_up:
+   * - .. _push-down-up:
    
        Push Down / Up
      - .. image:: /images/effects_and_compositions/transition-push_down.gif
      - Push from top to bottom, or from bottom to top (|frei0r.sleid0r_push-down|, |frei0r.sleid0r_push-up|)
-   * - .. _push-left_right:
+   * - .. _push-left-right:
    
        Push Left / Right
      - .. image:: /images/effects_and_compositions/transition-push_left.gif
@@ -62,12 +62,12 @@ The following composition types are used for transitioning between two clips bec
    * - :doc:`Slide </compositing/transitions/slide>`
      - .. image:: /images/effects_and_compositions/transition-slide.gif
      - Refer to the :doc:`details page </compositing/transitions/slide>` for this transition
-   * - .. _slide-down_up:
+   * - .. _slide-down-up:
    
        Slide Down / Up
      - .. image:: /images/effects_and_compositions/transition-slide_down.gif
      - Slide from top to bottom, or bottom to top. Note the black bar between the two clips which is not there with **Slide**. (|frei0r.sleid0r_slide-down|, |frei0r.sleid0r_slide-up|)
-   * - .. _slide-left_right:
+   * - .. _slide-left-right:
    
        Slide Left / Right
      - .. image:: /images/effects_and_compositions/transition-slide_left.gif
@@ -77,10 +77,14 @@ The following composition types are used for transitioning between two clips bec
        Vertical Barn Door Wipe
      - .. image:: /images/effects_and_compositions/transition-vertical_barn_door_wipe.gif
      - Vertical barn door wipe (|frei0r.sleid0r_wipe-barn-door-v|)
-   * - Wipe Down / Up
+   * - .._wipe-down-up
+   
+       Wipe Down / Up
      - .. image:: /images/effects_and_compositions/transition-wipe_down.gif
      - Wipe from top to bottom, or bottom to top (|frei0r.sleid0r_wipe-down|, |frei0r.sleid0r_wipe-down|)
-   * - Wipe Left / Right
+   * - .. _wipe-left-right
+   
+       Wipe Left / Right
      - .. image:: /images/effects_and_compositions/transition-wipe_left.gif
      - Wipe from left to right, or right to left (|frei0r.sleid0r_wipe-left|, |frei0r.sleid0r_wipe-right|)
 
