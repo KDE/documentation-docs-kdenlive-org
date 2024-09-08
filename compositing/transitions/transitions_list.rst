@@ -77,12 +77,12 @@ The following composition types are used for transitioning between two clips bec
        Vertical Barn Door Wipe
      - .. image:: /images/effects_and_compositions/transition-vertical_barn_door_wipe.gif
      - Vertical barn door wipe (|frei0r.sleid0r_wipe-barn-door-v|)
-   * - .._wipe-down-up
+   * - .._wipe-down-up:
    
        Wipe Down / Up
      - .. image:: /images/effects_and_compositions/transition-wipe_down.gif
      - Wipe from top to bottom, or bottom to top (|frei0r.sleid0r_wipe-down|, |frei0r.sleid0r_wipe-down|)
-   * - .. _wipe-left-right
+   * - .. _wipe-left-right:
    
        Wipe Left / Right
      - .. image:: /images/effects_and_compositions/transition-wipe_left.gif
