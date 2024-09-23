@@ -311,7 +311,7 @@ The curve editor is showing the keyframe type and their curves.
 .. figure:: /images/curve-editor_enabling.webp
    :alt: curve editor enabling
 
-To switch to the curve editor click on |switch-to-curve-editor view|:guilabel:`Switch to curve editor view`.
+To switch to the curve editor click on |switch-to-curve-editor-view|:guilabel:`Switch to curve editor view`.
 
 The curve editor can only be enabled on effects which have following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and Rotation. For all other effects the curve editor is greyed out.
 

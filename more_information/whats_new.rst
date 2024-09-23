@@ -63,7 +63,7 @@ What's New
    * Introduced :ref:`effect direct control in monitors <ui-monitors_effect_direct_control>`
    * Introduced :ref:`keyframe curve editor <effects-curve-editor>`
    * Added ability to :ref:`add guides/marker in 10 categories using the NumPad <add_guides>`
-   * Introduced :doc:`easing method to fades <effects_and_filters/video_effects/motion/fade_in>`
+   * Introduced :doc:`easing method to fades </effects_and_filters/video_effects/motion/fade_in>`
 
 
 .. versionadded:: 24.05 (see 24.05_ release notes)
