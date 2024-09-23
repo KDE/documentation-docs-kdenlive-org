@@ -17,38 +17,39 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+.. _24.08: https://kdenlive.org/2024/09/kdenlive-24-08-0-released/
 
-.. _24.05: https://kdenlive.org/en/2024/05/kdenlive-24-05-0-released/
+.. _24.05: https://kdenlive.org/2024/05/kdenlive-24-05-0-released/
 
-.. _24.02: https://kdenlive.org/en/2024/03/kdenlive-24-02-0-released/
+.. _24.02: https://kdenlive.org/2024/03/kdenlive-24-02-0-released/
 
-.. _23.08: https://kdenlive.org/en/2023/08/kdenlive-23-08-0-released/
+.. _23.08: https://kdenlive.org/2023/08/kdenlive-23-08-0-released/
 
-.. _23.04: https://kdenlive.org/en/2023/04/kdenlive-23-04-0-released/
+.. _23.04: https://kdenlive.org/2023/04/kdenlive-23-04-0-released/
 
-.. _22.12: https://kdenlive.org/en/2022/12/kdenlive-22-12-released/
+.. _22.12: https://kdenlive.org/2022/12/kdenlive-22-12-released/
 
-.. _22.08: https://kdenlive.org/en/2022/08/kdenlive-22-08-released/
+.. _22.08: https://kdenlive.org/2022/08/kdenlive-22-08-released/
 
-.. _22.04: https://kdenlive.org/en/2022/05/kdenlive-22-04-released/
+.. _22.04: https://kdenlive.org/2022/05/kdenlive-22-04-released/
 
-.. _21.12: https://kdenlive.org/en/2021/12/kdenlive-21-12-is-out/
+.. _21.12: https://kdenlive.org/2021/12/kdenlive-21-12-is-out/
 
-.. _21.08: https://kdenlive.org/en/2021/08/kdenlive-21-08-is-out/
+.. _21.08: https://kdenlive.org/2021/08/kdenlive-21-08-is-out/
 
-.. _21.04: https://kdenlive.org/en/2021/04/kdenlive-21-04-released/
+.. _21.04: https://kdenlive.org/2021/04/kdenlive-21-04-released/
 
-.. _20.12: https://kdenlive.org/en/2020/12/kdenlive-20-12-is-out/
+.. _20.12: https://kdenlive.org/2020/12/kdenlive-20-12-is-out/
 
-.. _20.08: https://kdenlive.org/en/2020/08/kdenlive-20-08-is-out/
+.. _20.08: https://kdenlive.org/2020/08/kdenlive-20-08-is-out/
 
-.. _20.04: https://kdenlive.org/en/2020/04/kdenlive-20-04-is-out/
+.. _20.04: https://kdenlive.org/2020/04/kdenlive-20-04-is-out/
 
-.. _19.12: https://kdenlive.org/en/2019/12/kdenlive-19-12-0-is-out/
+.. _19.12: https://kdenlive.org/2019/12/kdenlive-19-12-0-is-out/
 
-.. _19.08: https://kdenlive.org/en/2019/08/kdenlive-19-08-released/
+.. _19.08: https://kdenlive.org/2019/08/kdenlive-19-08-released/
 
-.. _19.04: https://kdenlive.org/en/2019/04/kdenlive-19-04-released/
+.. _19.04: https://kdenlive.org/2019/04/kdenlive-19-04-released/
 
 
 .. _whats_new:
@@ -56,6 +57,14 @@
 ==========
 What's New
 ==========
+
+.. versionadded:: 24.08 (see 24.08_ release notes)
+
+   * Introduced :ref:`effect direct control in monitors <ui-monitors_effect_direct_control>`
+   * Introduced :ref:`keyframe curve editor <effects-curve-editor>`
+   * Added ability to :ref:`add guides/marker in 10 categories using the NumPad <add_guides>`
+   * Introduced :doc:`easing method to fades <effects_and_filters/video_effects/motion/fade_in>`
+
 
 .. versionadded:: 24.05 (see 24.05_ release notes)
 
