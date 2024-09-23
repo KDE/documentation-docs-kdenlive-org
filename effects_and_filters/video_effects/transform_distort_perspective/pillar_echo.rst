@@ -42,7 +42,7 @@ Pillar Echo
 
 .. rubric:: Description
 
-This effect/filter creates an echo effect (blur) outside of an area of interest. It is very useful for using vertical video sources (like recorded on a smartphone) in a horizontal project. It can be :ref:`direct controlled on the monitor <ui-monitors_effect_direct_control>`.
+This effect/filter creates an echo effect (blur) outside of an area of interest. It is very useful for using vertical video sources (like recorded on a smartphone) in a horizontal project. It can be :ref:`controlled directly on the monitor <ui-monitors_effect_direct_control>`.
 
 
 .. rubric:: Parameters

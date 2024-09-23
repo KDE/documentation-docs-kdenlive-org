@@ -121,7 +121,7 @@ Monitor and Effect Direct Control
 
    Changing clips position and size, enabling grid
 
-Effects which can use direct control in the monitor are effects which have following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and Rotation. 
+Effects which can use direct control in the monitor are effects which have the following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and Rotation. 
 
 .. rst-class:: clear-both
 
@@ -136,7 +136,7 @@ Once such an effect is applied (either to a clip in the project bin, a clip in t
    * - Icon
      - Description
    * - |snap|
-     - Enable a grid on which the clip will snap. :ref:`Changing grid size <ui-monitors_change_overlay_color>`
+     - Enable a grid to which the clip will snap. :ref:`Changing grid size <ui-monitors_change_overlay_color>`
    * - |keyframe-next|
      - Go to the next keyframe.
    * - |keyframe-previous|
@@ -154,7 +154,7 @@ Once such an effect is applied (either to a clip in the project bin, a clip in t
 
 -	Project monitor: cycling trough resized clips with :kbd:`Alt+click`
 
-Once such an effect is applied, the monitor overlay selection panel doesn’t have the |list-add| |list-remove| icon anymore (add/remove guide). To show the |list-add| |list-remove| icon again disable the effects |view-hidden| in the :ref:`effect/composition stack header <effect_stack_functions>`.
+Once such an effect is applied, the monitor overlay selection panel does not have the |list-add| |list-remove| icon anymore (add/remove guide). To show the |list-add| |list-remove| icon again disable the effects |view-hidden| in the :ref:`effect/composition stack header <effect_stack_functions>`.
 
 .. _ui-effect_direct_control:
 

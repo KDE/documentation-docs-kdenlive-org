@@ -42,7 +42,7 @@ Crop by Padding
 
 .. rubric:: Description
 
-This effect/filter crops the image to a rounded rectangle or circle by padding the edges with a specified color. It can be :ref:`direct controlled on the monitor <ui-monitors_effect_direct_control>`.
+This effect/filter crops the image to a rounded rectangle or circle by padding the edges with a specified color. It can be :ref:`controlled directly on the monitor <ui-monitors_effect_direct_control>`.
 
 
 .. rubric:: Parameters

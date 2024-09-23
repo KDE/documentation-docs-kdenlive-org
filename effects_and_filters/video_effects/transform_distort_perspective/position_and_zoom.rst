@@ -49,7 +49,7 @@ Position and Zoom
 
 .. rubric:: Description
 
-This effect/filter allows to adjust size and position of the clip using smooth affine transformations. Formerly known as *Pan and Zoom*. It can be :ref:`direct controlled on the monitor <ui-monitors_effect_direct_control>`.
+This effect/filter allows to adjust size and position of the clip using smooth affine transformations. Formerly known as *Pan and Zoom*. It can be :ref:`controlled directly on the monitor <ui-monitors_effect_direct_control>`.
 
 
 .. rubric:: Parameters

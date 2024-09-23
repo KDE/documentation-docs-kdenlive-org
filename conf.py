@@ -441,11 +441,11 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
-.. |switch to cure editor view| image:: /images/icons/tool_curve.svg
+.. |switch-to-curve-editor-view| image:: /images/icons/tool-curve.svg
    :width: 22px
    :class: no-scaled-link
 
-.. |switch to timeline view| image:: /images/icons/tool-measure.svg
+.. |switch-to-timeline-view| image:: /images/icons/tool-measure.svg
    :width: 22px
    :class: no-scaled-link
 
