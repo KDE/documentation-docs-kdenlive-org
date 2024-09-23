@@ -95,7 +95,7 @@ Timeline ruler right click menu
 
 :guilabel:`Set Zone In/Out`: See also :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`.
 
-:guilabel:`Add Project Notes`: See :ref:`notes`
+:guilabel:`Add Project Notes`: See :doc:`/project_and_asset_management/project_notes`
 
 .. .. versionadded:: 20.12.
 

@@ -44,7 +44,7 @@ Title clips by default have an alpha channel which makes compositing rather easy
 The Title Clip App
 ==================
 
-You create and edit title clips in the **Titler App**. When you select :guilabel:`Add Title Clip` or double-click an existing title clip in the :doc:`Project Bin</importing_and_assets_management/project_tree>` or the :doc:`Timeline</user_interface/timeline>`, or right-click a title clip in the :doc:`Project Bin</importing_and_assets_management/project_tree>` and select :guilabel:`Edit`, the **Titler App** is opened in a separate window.
+You create and edit title clips in the **Titler App**. When you select :guilabel:`Add Title Clip` or double-click an existing title clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` or the :doc:`Timeline</user_interface/timeline>`, or right-click a title clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` and select :guilabel:`Edit`, the **Titler App** is opened in a separate window.
 
 You can size the window as usual but not maximize or minimize it. The focus stays on this window, and you cannot work, for example, on the timeline, or do other things with Kdenlive until you close that window.
 
@@ -77,8 +77,8 @@ Create a Title Clip
 
 You create a title clip using one of the following options:
 
-* In the :doc:`Project Bin</importing_and_assets_management/project_tree>`, click on |kdenlive-add-clip| |go-down| :guilabel:`Add Clip or Folder` and select :guilabel:`Add Title Clip`
-* Right-click on empty space in the :doc:`Project Bin</importing_and_assets_management/project_tree>` and select :guilabel:`Add Title Clip`
+* In the :doc:`Project Bin</project_and_asset_management/project_bin>`, click on |kdenlive-add-clip| |go-down| :guilabel:`Add Clip or Folder` and select :guilabel:`Add Title Clip`
+* Right-click on empty space in the :doc:`Project Bin</project_and_asset_management/project_bin>` and select :guilabel:`Add Title Clip`
 * Right-click an existing title clip, select :guilabel:`Duplicate clip`, and then double-click the newly created title clip (you may want to rename it first, though)
 
 Kdenlive opens the title editor with a blank workspace (canvas). From here you can start `adding objects <title-add_objects_>`_, open a saved title, or use a title template.
@@ -99,7 +99,7 @@ Edit a Title Clip
 
 You edit a title clip using one of the following options:
 
-* Double click the title clip in the :doc:`Project Bin</importing_and_assets_management/project_tree>` or in the :doc:`Timeline</user_interface/timeline>`
+* Double click the title clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` or in the :doc:`Timeline</user_interface/timeline>`
 * Right-click the title clip in the project bin and select Edit Clip
 
 Once you are done editing the title clip, click on :guilabel:`Update Title`. Kdenlive closes the window and updates the title clip in the project bin and all occurrences of that title clip in the timeline. Your changes are available immediately.

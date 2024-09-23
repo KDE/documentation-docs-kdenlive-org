@@ -55,7 +55,7 @@ It is a free software (|gpl_licensed|) primarily aimed at the Linux platform, bu
    <a href="http://www.mltframework.org/" target="_blank">MLT framework</a>
 
 
-Through the MLT framework **Kdenlive** integrates many effects for video and audio processing or creation. Furthermore, **Kdenlive** brings a powerful :doc:`title editor </titles_and_graphics/titles/titles>`, a :doc:`subtitling </effects_and_filters/subtitles>` feature with AI-supported :doc:`speech to text </effects_and_filters/speech_to_text>` conversion, :ref:`nested timelines <sequence>` (new in version 23.04), :ref:`animation <add_animation>` support through Glaxnimate integration (new in version 22.08) and thus can be used as a complete studio for video creation. Check out :doc:`/more_information/whats_new` for the most recent feature additions.
+Through the MLT framework **Kdenlive** integrates many effects for video and audio processing or creation. Furthermore, **Kdenlive** brings a powerful :doc:`title editor </titles_and_graphics/titles/titles>`, a :doc:`subtitling </effects_and_filters/subtitles>` feature with AI-supported :doc:`speech to text </effects_and_filters/speech_to_text>` conversion, :ref:`nested timelines <sequence>` (new in version 23.04), :doc:`animation </project_and_asset_management/project_bin/animation>` support through Glaxnimate integration (new in version 22.08) and thus can be used as a complete studio for video creation. Check out :doc:`/more_information/whats_new` for the most recent feature additions.
 
 
 
@@ -74,7 +74,7 @@ Video editing features
 
 * Simple tools for easy creation of color clips, text clips and image clips
 
-* Automatic :ref:`clips` creation from pictures directories, with crossfade transitions among the images
+* Automatic :doc:`clip creation</project_and_asset_management/project_bin/image_sequence>` from pictures directories, with crossfade transitions among the images
 
 * Configurable keyboard shortcuts, toolbars and interface layouts to accommodate your workflow
 

@@ -35,7 +35,7 @@ The monitor widgets can be switched on or off by checking :menuselection:`Menu -
 
 Kdenlive supports an external monitor display using |bmd_decklink| cards.
 
-The :ref:`ui-monitors_clip_monitor` plays the :term:`clip` selected in the :ref:`Project Bin <project_tree>`. The :ref:`ui-monitors_project_monitor` plays the timeline of the project starting at the position of the :term:`playhead`.
+The :ref:`ui-monitors_clip_monitor` plays the :term:`clip` selected in the :doc:`Project Bin </project_and_asset_management/project_bin>`. The :ref:`ui-monitors_project_monitor` plays the timeline of the project starting at the position of the :term:`playhead`.
 
 
 .. _ui-monitors_controls_and_elements:

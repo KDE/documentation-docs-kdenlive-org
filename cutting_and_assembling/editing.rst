@@ -33,7 +33,7 @@ Editing
 =======
 
 
-Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :ref:`project_tree` or the :ref:`ui-monitors`. Once a clip is dropped on a track, it can be moved (drag and drop it) to another place on the same track or onto another track.
+Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :doc:`project bin</project_and_asset_management/project_bin>` or the :ref:`ui-monitors`. Once a clip is dropped on a track, it can be moved (drag and drop it) to another place on the same track or onto another track.
 
 
 .. image:: /images/Kdenlive-addcliptotimeline.gif
@@ -650,7 +650,7 @@ When on, the audio clip will have a wave representation of the audio data as wel
 Show marker comments
 ~~~~~~~~~~~~~~~~~~~~
 
-This toggles on and off the display of :ref:`markers` saved within :ref:`clips` (the text with the gold background in the example below) and within :doc:`guides` (the text with the purple background).
+This toggles on and off the display of :ref:`markers` saved within :doc:`clips</project_and_asset_management/project_bin/clips>` (the text with the gold background in the example below) and within :doc:`guides` (the text with the purple background).
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
    :alt: markers and guides

@@ -238,6 +238,8 @@ Switches the Clip Properties :term:`widget` on or off.
    
 The Clip Properties :term:`widget` displays the properties of the selected clip. You can change some of the properties.
 
+For more details see the chapter :doc:`Clip Properties</project_and_asset_management/project_bin/clip_properties>`.
+
 .. rst-class:: clear-both
 
 
@@ -346,7 +348,7 @@ Switches the Library :term:`widget` on or off.
    
    Kdenlive Library widget
 
-The Library holds items for generic use in projects. For example watermarks, logos, lower-thirds, intros, and so on. Please refer to the :doc:`Library </tips_and_tricks/useful_info/the_library>` section of this documentation for more details.
+The Library holds items for generic use in projects. For example watermarks, logos, lower-thirds, intros, and so on. Please refer to the :doc:`Library </project_and_asset_management/library>` section of this documentation for more details.
 
 .. rst-class:: clear-both
 
@@ -365,7 +367,7 @@ Switches the Media Browser :term:`widget` on or off.
    
    Kdenlive Media Browser widget
 
-The Media Browser allows you to easily navigate your file system and add clips to your project. For more details refer to the :ref:`Media Browser <media_browser>` section of this documentation.
+The Media Browser allows you to easily navigate your file system and add clips to your project. For more details refer to the :doc:`Media Browser </project_and_asset_management/media_browser>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -405,7 +407,7 @@ Switches the Project Bin :term:`widget` on or off.
    
    Kdenlive Project Bin widget
 
-The Project Bin is the place where Kdenlive lists all the clips (video, audio, titles, images) or assets associated with the project. For more details refer to the :ref:`Project Bin <project_tree>` section of this documentation.
+The Project Bin is the place where Kdenlive lists all the clips (video, audio, titles, images) or assets associated with the project. For more details refer to the :doc:`Project Bin </project_and_asset_management/project_bin>` section of this documentation.
 
 New in 23.04: Sequences (needed for nested timelines). For more details please see the :ref:`Sequences <sequence>` section of the documentation.
 
@@ -436,7 +438,7 @@ Switches the Project Notes :term:`widget` on or off.
    
    Kdenlive Project Notes widget
 
-Project Notes can be used to keep notes about your project, like ideas or things to do. Please refer to the :ref:`Project Notes <notes>` section of this documentation for more details.
+Project Notes can be used to keep notes about your project, like ideas or things to do. Please refer to the :doc:`Project Notes </project_and_asset_management/project_notes>` section of this documentation for more details.
 
 .. rst-class:: clear-both
 

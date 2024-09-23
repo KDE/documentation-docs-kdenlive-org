@@ -240,7 +240,7 @@ Right click into the timeline ruler opens the context menu and allows you to:
 
   * :ref:`Manipulate guides <guides>`
   * :term:`Set Zone In/Out<zone>`
-  * :ref:`Add Project Notes <notes>`
+  * :doc:`Add Project Notes </project_and_asset_management/project_notes>`
   * :ref:`Add Subtitle <effects-subtitles>`
 
 
@@ -277,7 +277,7 @@ This is a quick overview of the main sections of the toolbar. A more detailed de
 Tracks
 ------
 
-The timeline is made of tracks. There are two kinds of tracks: audio and video. The number of tracks is defined when creating a new project in the :ref:`project_settings`. Adding a clip to the timeline can be achieved by dragging it from  :ref:`project_tree` or the :ref:`ui-monitors`.
+The timeline is made of tracks. There are two kinds of tracks: audio and video. The number of tracks is defined when creating a new project in the :doc:`project settings</project_and_asset_management/project_settings/general_settings>`. Adding a clip to the timeline can be achieved by dragging it from the :doc:`project bin</project_and_asset_management/project_bin>` or the :ref:`ui-monitors`.
 
 .. _track_header:
 

@@ -55,7 +55,7 @@ Following procedures add a sequence:
 
 * **Menu**
 
-  * Project bin: Either from the drop down menu or right click in the bin and choose :menuselection:`add sequence ...`, :ref:`project_tree`
+  * :doc:`Project bin</project_and_asset_management/project_bin>`: Either from the drop down menu or right click in the bin and choose :menuselection:`add sequence ...`
   * Timeline: From the timeline tab bar click on the plus icon :guilabel:`Add Timeline Sequence`, :ref:`add_sequence_from_timeline_tab_bar`
   * Timeline: Select clips and choose :menuselection:`Timeline --> Create Sequence from selection`, :ref:`Create_nested_sequence`
 

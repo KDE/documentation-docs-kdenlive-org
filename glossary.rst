@@ -79,6 +79,9 @@ Glossary
 .. glossary::
    :sorted:
 
+   Asset
+      An asset is any multimedia file (video, audio, image), title clip, color clip, and animation that can be and is used in a project. All assets are listed in the :term:`Project Bin`.
+   
    Audio Mixer
       A widget that displays VU meters and has sliders to control the volume of the respective audio tracks. See :ref:`effects-audio_tools`.
 
@@ -89,7 +92,7 @@ Glossary
       See :term:`Project Bin`
 
    Backup
-      Kdenlive creates backup files for the current project. They are stored in a special folder. See :ref:`backup widget <backup>`.
+      Kdenlive creates backup files for the current project. They are stored in a special folder. See the chapter :doc:`/project_and_asset_management/file_management/backup`.
 
    Caret
       See :term:`Playhead`
@@ -99,7 +102,7 @@ Glossary
       The signal used in video systems to convey the color information of the picture. Chrominance is usually represented as two-color difference components: U (blue projection) = B' - Y' (blue - :term:`luma`) and V (red projection) = R' - Y' (red - luma). See also :term:`YUV`.
 
    Clip
-      Essentially any file with video and/or audio, a simple image or any asset created through Kdenlive, e.g. title clip, color clip, animation (via Glaxnimate). A clip can be in the :term:`Project Bin` or :term:`Timeline`, or be referred to as the result of a :term:`Render<exporting>`.
+      Essentially any file with video and/or audio, a simple image or any asset created through Kdenlive, e.g. title clip, color clip, animation (via Glaxnimate). A clip can be in the :term:`Project Bin` or :term:`Timeline`, or be referred to as the result of a :term:`Render<exporting>`. See chapter :doc:`/project_and_asset_management/project_bin/clips`
 
    CMYK
       A |subtractive_color| model based on the CMY color model used in printing. The abbreviation refers to the four ink plates used: cyan, magenta, yellow and key (black).
@@ -119,11 +122,14 @@ Glossary
    Color Matrix
       Describes the balancing of different parts of the color spectrum in order to create an accurate representation for capture. By adjusting the properties of color matrix you can do things like shifting the white balance, alter the color palette, adjusting for color anomalies in the source.
 
+   Color Range
+      A term with more significance in broadcasting. Today's video recording equipment records in full range. Each color component is 8-bit and can have a value from 0 to 255, but only when in full range. Otherwise, for allowing headroom for video processing and exposure ranges, ranges are smaller, like 16-235 for :term:`luma`, and 16-240 for :term:`chroma`.
+
    Color Space
       A color space is a specific organization of colors. It is a useful conceptual tool for understanding the color capabilities of a particular device or digital file. When trying to reproduce color on another device, color spaces can show whether shadow/highlight detail and color :term:`saturation` can be retained, and by how much either will be compromised. See this article about |color_space| in Wikipedia.
 
    Composition
-      Also referred to as a transition, it combines at least two input :term:`clips<clip>` to one output clip. Compositions cannot be stacked.
+      Also referred to as a transition, it combines at least two input :term:`clips<clip>` to one output clip. Compositions cannot be stacked. See chapters :doc:`/compositing/compositions` and :doc:`/compositing/transitions`.
 
    Container
    Container Format
@@ -208,7 +214,7 @@ Glossary
       Represents the brightness of an image or video. Luma is typically paired with :term:`chrominance`. Luma represents the achromatic (aka black-and-white) image, while the chroma components represent the color information.
 
    Library
-      Holds assets for generic use in projects. For example, watermarks, logos, lower-thirds, intros, and so on. See :doc:`/tips_and_tricks/useful_info/the_library`.
+      Holds assets for generic use in projects. For example, watermarks, logos, lower-thirds, intros, and so on. See the chapter :doc:`Library</project_and_asset_management/library>`.
 
    Lock
       Locks a track for editing. Indicated by a closed padlock icon.
@@ -227,7 +233,7 @@ Glossary
       The volume of all of the audio tracks when merged into one during rendering. See :ref:`effects-audio_tools`.
 
    Media Browser
-      Allows easy browsing of the file system and previewing media clips and other assets for importing to the :term:`Project Bin`. A widget that can be switched on and off via :menuselection:`Menu --> View --> Media Browser`. See :ref:`media_browser`.
+      Allows easy browsing of the file system and previewing media clips and other assets for importing to the :term:`Project Bin`. A widget that can be switched on and off via :menuselection:`Menu --> View --> Media Browser`. See the chapter :doc:`media_browser</project_and_asset_management/media_browser>`.
 
    MELT
    melt
@@ -283,10 +289,10 @@ Glossary
       The sum of all assets, clips, tracks, effects, transitions, compositions and settings, their arrangements in the timeline, and references to all the source materials including their :term:`proxy` work copies. The project file is associated with a working directory where Kdenlive generates proxies and thumbs.
 
    Project Bin
-      Lists all the clips and assets that are associated with the project. Referred to as the 'Project Tree' in earlier versions. See :ref:`project_tree`.
+      Lists all the clips and assets that are associated with the project. Referred to as the 'Project Tree' in earlier versions. See the chapter :doc:`Project Bin</project_and_asset_management/project_bin>`.
 
    Project Settings
-      Defines the format (dimensions, aspect ratio, frames-per-second setting) of the project through the choice of profile or :term:`preset`, which working directory to use, how many video and audio tracks there are initially, and which profile to use for previews. Stores meta data for your project (e.g. title, author, copyright information). See :ref:`manage_project_profiles`.
+      Defines the format (dimensions, aspect ratio, frames-per-second setting) of the project through the choice of profile or :term:`preset`, which working directory to use, how many video and audio tracks there are initially, and which profile to use for previews. Stores meta data for your project (e.g. title, author, copyright information). See chapter :doc:`Project Settings</project_and_asset_management/project_settings>`.
 
    Profile
       For rendering see :term:`preset`, for project see :term:`project settings`
@@ -353,7 +359,7 @@ Glossary
       A special widget allowing to keyframe the speed of a clip to achieve effects like speed ramping. See :ref:`effects-time_remapping`.
 
    Timeline
-      The central part of Kdenlive. This is where all the editing takes place. Keeps a chronological sequence of the clips and the relations to each other through tracks and compositions. Can be zoomed. See also :ref:`sequence` for nested timelines.
+      The :doc:`central part</user_interface/timeline>` of Kdenlive. This is where all the editing takes place. Keeps a chronological sequence of the clips and the relations to each other through tracks and compositions. Can be zoomed. See also :ref:`sequence` for nested timelines.
 
    Timeline Ruler
       Sits right above the tracks and displays the time code information (default notation is hh:mm:ss:ff, can be switched to frames) as well as any currently defined timeline :term:`zone` and/or preview render zone. See :ref:`timeline_ruler`.
@@ -371,7 +377,7 @@ Glossary
       A small window with more information about a function that pops up when hovering the mouse over an icon or button. Press Shift to get even more details (not available for all functions).
 
    Track
-      Holds various assets in the timeline. Can be muted and locked individually. Can have effects in its own stack that apply to all clips in that track. Track height can be adjusted. Tracks can be inserted and deleted. Video tracks only accept clips with video, image, title, or color; audio tracks only accept pure audio clips or the audio track of a video clip. There is a relationship between video and audio tracks: A video clip with an audio :term:`stream` can only be put into a track where there is a corresponding audio track - V1/A1, V2/A2, V3/A3 and so on. See :ref:`tracks`.
+      Holds various :term:`assets <asset>` in the timeline. Can be muted and locked individually. Can have effects in its own stack that apply to all clips in that track. Track height can be adjusted. Tracks can be inserted and deleted. Video tracks only accept clips with video, image, title, or color; audio tracks only accept pure audio clips or the audio track of a video clip. There is a relationship between video and audio tracks: A video clip with an audio :term:`stream` can only be put into a track where there is a corresponding audio track - V1/A1, V2/A2, V3/A3 and so on. See :ref:`tracks`.
 
    Active Track
       Can accept clips. Indicated by a highlighted track number.
@@ -386,7 +392,7 @@ Glossary
       A step-by-step instruction to use a function, tool, effect or combination of these to achieve a certain result. Often created as a video with commentary or just explanatory text. There are many tutorials for Kdenlive available via a simple Google or YouTube search.
 
    Transition
-      A :term:`Wipe` or Dissolve :term:`composition` between two overlapping clips.
+      A :term:`Wipe` or Dissolve :term:`composition` between two overlapping clips. See chapters :doc:`/compositing/compositions` and :doc:`/compositing/transitions`.
 
    Video
       An asset or file with a video :term:`stream`.

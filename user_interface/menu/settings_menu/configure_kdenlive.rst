@@ -51,7 +51,7 @@ Misc
 
 - :guilabel:`Open the last project on startup`
 
-- :guilabel:`Activate Crash recovery` (:ref:`auto_save`)
+- :guilabel:`Activate Crash recovery` (:doc:`auto_save</project_and_asset_management/file_management/auto_save>`)
 
 **Clip import**
 
@@ -212,7 +212,7 @@ Environment
 
 **Proxy and Transcode Jobs**
 
-- :guilabel:`Concurrent threads` This will set the number of threads the program will attempt to use when calling ffmpeg to encode :ref:`clips`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :ref:`project_settings` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
+- :guilabel:`Concurrent threads` This will set the number of threads the program will attempt to use when calling ffmpeg to encode :doc:`clips</project_and_asset_management/project_bin/clips>`. This will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :doc:`project_settings</project_and_asset_management/project_settings/proxy_settings>` to a codec that ffmpeg does not do multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8)
 
 .. versionadded:: 22.08
 
@@ -457,7 +457,7 @@ Configure Screen Grab Capture
    :width: 500px
    :alt: Kdenlive_Configure_screen_grab
 
-These settings configure screen grab within **Kdenlive**. More details see :ref:`here <capturing>`.
+These settings configure screen grab within **Kdenlive**. More details see :doc:`here </project_and_asset_management/capturing_video>`.
 
 Blackmagic
 ~~~~~~~~~~
@@ -477,7 +477,7 @@ Audio
    :width: 500px
    :alt: Kdenlive_Configure_screen_grab_audio
 
-Microphone settings, either for screen :ref:`capturing` or for :ref:`capturingaudio` direct into the timeline.
+Microphone settings, either for screen :doc:`capturing</project_and_asset_management/capturing_video>` or for :doc:`capturing audio</project_and_asset_management/capturing_audio>` direct into the timeline.
 
 .. versionadded:: 22.12
 
@@ -489,13 +489,13 @@ Microphone settings, either for screen :ref:`capturing` or for :ref:`capturingau
   
   Following paragraph is for history reason only.
 
-Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, Blackmagic, Audio) from this section.
+Configure the :doc:`capturing</project_and_asset_management/capturing_video>` devices (Firewire, FFmpeg, Screen Grab, Blackmagic, Audio) from this section.
 
 
 Configure Firewire Capture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The image shows the Configure Firewire capture tab which can be accessed from the :menuselection:`Settings --> Configure Kdenlive` menu or from the spanner icon in the :ref:`capturing`
+The image shows the Configure Firewire capture tab which can be accessed from the :menuselection:`Settings --> Configure Kdenlive` menu or from the spanner icon in the capturing.
 
 
 .. image:: /images/Kdenlive_Configure_Capture.png
