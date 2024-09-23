@@ -48,7 +48,7 @@ Transform
 
 .. rubric:: Description
 
-This effect/filter allows transformation and compositing of the clip at the same time.
+This effect/filter allows transformation and compositing of the clip at the same time. It can be :ref:`direct controlled on the monitor <ui-monitors_effect_direct_control>`.
 
 
 .. rubric:: Parameters

@@ -31,7 +31,7 @@ Kdenlive uses two monitor :term:`widgets<widget>` to display and play back your 
 
 The monitor widgets can be switched on or off by checking :menuselection:`Menu --> View --> Clip Monitor` and :menuselection:`Project Monitor`, repectively. Once activated, they can be selected by clicking the corresponding tab which appears at the bottom of the monitor window.
 
-.. .. versionadded:: 19.04.0
+.. .. versionadded:: 19.04
 
 Kdenlive supports an external monitor display using |bmd_decklink| cards.
 
@@ -65,7 +65,7 @@ Controls and Elements
 Monitor Display Toolbar
 -----------------------
 
-.. .. versionadded:: 19.04.0
+.. .. versionadded:: 19.04
 
 .. figure:: /images/user_interface/kdenlive2308_ui-monitor_overlay.gif
    :width: 350px
@@ -104,15 +104,96 @@ The toolbar has the following options:
    * - |transform-move-horizontal|
      - Move Toolbar. Click through to move the toolbar from the right (default) to the left and back.
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitor_overlay_color.webp
+
+.. _ui-monitors_effect_direct_control:
+
+Monitor and Effect Direct Control
+---------------------------------
+
+.. .. versionadded:: 24.08
+
+
+.. figure:: /images/user_interface/kdenlive2408_ui-monitor_effect_direct_control.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: kdenlive2408_ui-monitor_effect_direct_control
+
+   Changing clips position and size, enabling grid
+
+Effects which can use direct control in the monitor are effects which have following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and Rotation. 
+
+.. rst-class:: clear-both
+
+Once such an effect is applied (either to a clip in the project bin, a clip in the timeline, a track or on master) you can:
+
+.. list-table::
+   :width: 80%
+   :widths: 10 90
+   :class: table-wrap
+   :header-rows: 1
+
+   * - Icon
+     - Description
+   * - |snap|
+     - Enable a grid on which the clip will snap. :ref:`Changing grid size <ui-monitors_change_overlay_color>`
+   * - |keyframe-next|
+     - Go to the next keyframe.
+   * - |keyframe-previous|
+     - Go to the previous keyframe.
+   * - |keyframe-add|
+     - Add a keyframe
+   * - |keyframe-record|
+     - Add automatic keyframe
+
+-	Move and resize. While resizing, holding:
+
+   -	:kbd:`Shift` keep the aspect ratio
+
+   -	:kbd:`Ctrl` keeps the center position untouched
+
+-	Project monitor: cycling trough resized clips with :kbd:`Alt+click`
+
+Once such an effect is applied, the monitor overlay selection panel doesn’t have the |list-add| |list-remove| icon anymore (add/remove guide). To show the |list-add| |list-remove| icon again disable the effects |view-hidden| in the :ref:`effect/composition stack header <effect_stack_functions>`.
+
+.. _ui-effect_direct_control:
+
+Following effects can be used for direct control:
+
+.. list-table::
+   :width: 80%
+   :widths: 100
+   :class: table-wrap
+   :header-rows: 1
+
+   * - Effect name
+   * - :doc:`Audio Level Visualization Filter </effects_and_filters/video_effects/on_master/audio_level_visualization_filter>`
+   * - :doc:`Audio Spectrum Filter </effects_and_filters/video_effects/on_master/audio_spectrum_filter>`
+   * - :doc:`Audio Waveform Filter </effects_and_filters/video_effects/on_master/audio_waveform_filter>`
+   * - :doc:`Dynamic Text </effects_and_filters/video_effects/generate/dynamic_text>`
+   * - :doc:`Position and Zoom </effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom>`
+   * - :doc:`Pillar Echo </effects_and_filters/video_effects/transform_distort_perspective/pillar_echo>` 
+   * - :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>`
+   * - :doc:`Crop by padding </effects_and_filters/video_effects/transform_distort_perspective/crop_padding>`
+
+
+.. _ui-monitors_change_overlay_color:
+
+Monitor Change Overlay Color and Grid Size
+------------------------------------------
+
+.. .. versionchanged:: 24.08
+
+
+.. figure:: /images/user_interface/kdenlive2408_ui-monitor_overlay_color.webp
    :width: 400px
    :figwidth: 400px
    :align: left
    :alt: kdenlive2304_ui-monitor_overlay_color
 
-   Changing the color of the monitor overlay
+   Changing the color of the monitor overlay and grid size
 
-The color of the guide overlay can be changed in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Colors and Guides`.
+The color of the guide and grid overlay as well as the grid size can be changed in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Colors and Guides`.
 
 .. rst-class:: clear-both
 

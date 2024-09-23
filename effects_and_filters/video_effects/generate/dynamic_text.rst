@@ -8,6 +8,7 @@
    :authors: - Yuri Chornoivan
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -43,7 +44,7 @@ Dynamic Text
 
 .. rubric:: Description
 
-This effect allows you to overlay specific keywords to the image source, for example the timecode that counts up relative to the start of the clip or the track it is applied to, respectively.
+This effect allows you to overlay specific keywords to the image source, for example the timecode that counts up relative to the start of the clip or the track it is applied to, respectively. It can be :ref:`direct controlled on the monitor <ui-monitors_effect_direct_control>`.
 
 .. rubric:: Parameters
 

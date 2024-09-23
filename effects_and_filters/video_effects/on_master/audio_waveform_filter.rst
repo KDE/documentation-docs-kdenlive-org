@@ -45,7 +45,7 @@ Audio Waveform Filter
 
 .. rubric:: Description
 
-This effect/filter is an audio visualization effect that draws an audio waveform on the image.
+This effect/filter is an audio visualization effect that draws an audio waveform on the image. It can be :ref:`direct controlled on the monitor <ui-monitors_effect_direct_control>`.
 
 
 .. rubric:: Parameters

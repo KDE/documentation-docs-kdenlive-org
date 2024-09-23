@@ -361,6 +361,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |keyframe-record| image:: /images/icons/keyframe-record.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |linear| image:: /images/icons/linear.svg
    :width: 22px
    :class: no-scaled-link
