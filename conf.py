@@ -121,6 +121,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |bookmark-new| image:: /images/icons/bookmark-new.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |color-picker| image:: /images/icons/color-picker.svg
    :width: 22px
    :class: no-scaled-link
@@ -177,6 +181,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |drag-surface| image:: /images/icons/drag-surface.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |draw-ellipse| image:: /images/icons/draw-ellipse.svg
    :width: 22px
    :class: no-scaled-link
@@ -197,6 +205,14 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |edit-find| image:: /images/icons/edit-find.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |edit-find-replace| image:: /images/icons/edit-find-replace.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |edit-mode| image:: /images/icons/kdenlive-edit-mode.svg
    :width: 22px
    :class: no-scaled-link
@@ -214,6 +230,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |favorite| image:: /images/icons/favorite.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |find-location| image:: /images/icons/find-location.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -249,11 +269,23 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |go-jump| image:: /images/icons/go-jump.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |go-next| image:: /images/icons/go-next.svg
    :width: 22px
    :class: no-scaled-link
 
+.. |go-previous| image:: /images/icons/go-previous.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |go-up| image:: /images/icons/go-up.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |help-about| image:: /images/icons/help-about.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -334,6 +366,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |kdenlive-spacer| image:: /images/icons/distribute-horizontal.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |kdenlive-tag-add| image:: /images/icons/kdenlive-tag-add.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -429,6 +465,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |run-build| image:: /images/icons/run-build.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |select-rectangular| image:: /images/icons/select-rectangular.svg
    :width: 22px
    :class: no-scaled-link
@@ -450,6 +490,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |tag| image:: /images/icons/kdenlive-tag.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |tag-add| image:: /images/icons/kdenlive-tag-add.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -489,6 +533,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |trash-empty| image:: /images/icons/trash-empty.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |transform-move| image:: /images/icons/transform-move.svg
    :width: 22px
    :class: no-scaled-link
@@ -517,6 +565,18 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |view-list-details| image:: /images/icons/view-list-details.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |view-list-icons| image:: /images/icons/view-list-icons.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |view-list-tree| image:: /images/icons/view-list-tree.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |view-media-equalizer| image:: /images/icons/view-media-equalizer.svg
    :width: 22px
    :class: no-scaled-link
@@ -533,6 +593,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |view-sort| image:: /images/icons/view-sort.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |view-split-left-right| image:: /images/icons/view-split-left-right.svg
    :width: 22px
    :class: no-scaled-link
@@ -542,6 +606,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |visibility| image:: /images/icons/visibility.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |window-close| image:: /images/icons/window-close.svg
    :width: 22px
    :class: no-scaled-link
 
