@@ -153,11 +153,11 @@ Click on |transform-move| :guilabel:`Select/Move` or use the keyboard shortcut :
 
 Click on |edit-select-all| :guilabel:`Select All` or press :kbd:`Ctrl+A`, drag a selection frame around objects, or hold Shift and select individual objects, for example to save them as a pattern.
 
-If you want to select all Text objects, first select all objects, then click on |kdenlive-select-texts| :guilabel:`Keep only text items` selected or press :kbd:`Ctrl+T`.
+If you want to select all Text objects, first select all objects, then click on |kdenlive-select-texts| :guilabel:`Keep only text items selected` or press :kbd:`Ctrl+T`.
 
 The same logic can be applied for image objects (|kdenlive-select-images| :guilabel:`Keep only image items selected` or :kbd:`Ctrl+I`), and rectangle objects (|select-rectangular| :guilabel:`Keep only rectangle items selected` or :kbd:`Ctrl+R`).
 
-Click on |edit-select-none| :guilabel:`Select None` or press :kbd:`Ctrl+Shift+A` to deselect all objects.
+Click on |edit-select-none| :guilabel:`Deselect` or press :kbd:`Ctrl+Shift+A` to deselect all objects.
 
 
 .. _title-move_objects:
