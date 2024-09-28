@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-08-24 13:18+0200\n"
+"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-27 22:01+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.0\n"
+"X-Generator: Lokalize 24.08.1\n"
 
 #: ../../glossary.rst:1
 msgid "Kdenlive Video Editor - Glossary"
@@ -37,10 +37,26 @@ msgid "Glossary"
 msgstr "Glossari"
 
 #: ../../glossary.rst:81
+msgid "Asset"
+msgstr "Recurs"
+
+# skip-rule: rst-italic2
+#: ../../glossary.rst:83
+msgid ""
+"An asset is any multimedia file (video, audio, image), title clip, color "
+"clip, and animation that can be and is used in a project. All assets are "
+"listed in the :term:`Project Bin`."
+msgstr ""
+"Un recurs és qualsevol fitxer multimèdia (vídeo, àudio, imatge), clip de "
+"títol, clip de color i animació que es pot utilitzar i s'utilitza en un "
+"projecte. Tots els recursos estan llistats a la :term:`Safata del projecte "
+"<Project Bin>`."
+
+#: ../../glossary.rst:84
 msgid "Audio Mixer"
 msgstr "Mesclador d'àudio"
 
-#: ../../glossary.rst:83
+#: ../../glossary.rst:86
 msgid ""
 "A widget that displays VU meters and has sliders to control the volume of "
 "the respective audio tracks. See :ref:`effects-audio_tools`."
@@ -48,12 +64,12 @@ msgstr ""
 "Un giny que mostra vúmetres i té controls lliscants per a controlar el volum "
 "de les pistes d'àudio respectives. Vegeu :ref:`effects-audio_tools`."
 
-#: ../../glossary.rst:84
+#: ../../glossary.rst:87
 msgid "Audio Track"
 msgstr "Pista d'àudio"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:86
+#: ../../glossary.rst:89
 msgid ""
 "A track in the :term:`timeline` that holds either the audio :term:`stream` "
 "of a video clip or an audio file itself"
@@ -61,47 +77,51 @@ msgstr ""
 "Una pista en la :term:`línia de temps <timeline>` que conté el :term:`flux "
 "<stream>` d'àudio d'un clip de vídeo o un fitxer d'àudio"
 
-#: ../../glossary.rst:87
+#: ../../glossary.rst:90
 msgid "Bin"
 msgstr "Safata"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:89
+#: ../../glossary.rst:92
 msgid "See :term:`Project Bin`"
 msgstr "Vegeu :term:`Safata del projecte <Project Bin>`"
 
-#: ../../glossary.rst:90
+#: ../../glossary.rst:93
 msgid "Backup"
 msgstr "Còpia de seguretat"
 
-#: ../../glossary.rst:92
+#: ../../glossary.rst:95
+#| msgid ""
+#| "Kdenlive creates backup files for the current project. They are stored in "
+#| "a special folder. See :ref:`backup widget <backup>`."
 msgid ""
 "Kdenlive creates backup files for the current project. They are stored in a "
-"special folder. See :ref:`backup widget <backup>`."
+"special folder. See the chapter :doc:`/project_and_asset_management/"
+"file_management/backup`."
 msgstr ""
 "El Kdenlive crea fitxers de còpia de seguretat del projecte actual. "
-"S'emmagatzemen en una carpeta especial. Vegeu el :ref:`giny de còpia de "
-"seguretat <backup>`."
+"S'emmagatzemen en una carpeta especial. Vegeu el capítol :doc:`/project_and_as"
+"set_management/file_management/backup`."
 
-#: ../../glossary.rst:93
+#: ../../glossary.rst:96
 msgid "Caret"
 msgstr "Cursor"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:95
+#: ../../glossary.rst:98
 msgid "See :term:`Playhead`"
 msgstr "Vegeu :term:`capçal de reproducció <Playhead>`"
 
-#: ../../glossary.rst:96
+#: ../../glossary.rst:99
 msgid "Chroma"
 msgstr "Croma"
 
-#: ../../glossary.rst:97
+#: ../../glossary.rst:100
 msgid "Chrominance"
 msgstr "Crominància"
 
 # skip-rule: t-apo_fin
-#: ../../glossary.rst:99
+#: ../../glossary.rst:102
 msgid ""
 "The signal used in video systems to convey the color information of the "
 "picture. Chrominance is usually represented as two-color difference "
@@ -114,29 +134,37 @@ msgstr ""
 "Y' (blau - :term:`luma`) i V (projecció vermella) = R' - Y' (vermell - "
 "luma). Vegeu també :term:`YUV`."
 
-#: ../../glossary.rst:100
+#: ../../glossary.rst:103
 msgid "Clip"
 msgstr "Clip"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:102
+#: ../../glossary.rst:105
+#| msgid ""
+#| "Essentially any file with video and/or audio, a simple image or any asset "
+#| "created through Kdenlive, e.g. title clip, color clip, animation (via "
+#| "Glaxnimate). A clip can be in the :term:`Project Bin` or :term:"
+#| "`Timeline`, or be referred to as the result of a :term:"
+#| "`Render<exporting>`."
 msgid ""
 "Essentially any file with video and/or audio, a simple image or any asset "
 "created through Kdenlive, e.g. title clip, color clip, animation (via "
 "Glaxnimate). A clip can be in the :term:`Project Bin` or :term:`Timeline`, "
-"or be referred to as the result of a :term:`Render<exporting>`."
+"or be referred to as the result of a :term:`Render<exporting>`. See chapter :"
+"doc:`/project_and_asset_management/project_bin/clips`"
 msgstr ""
 "Essencialment, qualsevol fitxer amb vídeo i/o àudio, una imatge senzilla o "
 "qualsevol recurs creat a través del Kdenlive, p. ex. clip de títol, clip de "
 "color, animació (via Glaxnimate). Un clip pot estar a la :term:`safata del "
 "projecte <Project Bin>` o a la :term:`línia de temps <Timeline>`, o es "
-"coneix com el resultat d'una :term:`renderització <exporting>`."
+"coneix com el resultat d'una :term:`renderització <exporting>`. vegeu el "
+"capítol :doc:`/project_and_asset_management/project_bin/clips`"
 
-#: ../../glossary.rst:103
+#: ../../glossary.rst:106
 msgid "CMYK"
 msgstr "CMYK"
 
-#: ../../glossary.rst:105
+#: ../../glossary.rst:108
 msgid ""
 "A |subtractive_color| model based on the CMY color model used in printing. "
 "The abbreviation refers to the four ink plates used: cyan, magenta, yellow "
@@ -146,12 +174,12 @@ msgstr ""
 "impressió. L'abreviatura es refereix a les quatre plaques de tinta "
 "utilitzades: cian, magenta, groc i clau (negre)."
 
-#: ../../glossary.rst:106
+#: ../../glossary.rst:109
 msgid "Codec"
 msgstr "Còdec"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:108
+#: ../../glossary.rst:111
 msgid ""
 "Short for coder/decoder. Is a hardware- or software-based process that "
 "compresses or decompresses large amount of data. Examples are MPEG, H.264, "
@@ -162,11 +190,11 @@ msgstr ""
 "Exemples: MPEG, H.264, VP8/VP9, Apple ProRes. No s'ha de confondre amb :term:"
 "`contenidor <container>`."
 
-#: ../../glossary.rst:109
+#: ../../glossary.rst:112
 msgid "Color Correction"
 msgstr "Correcció del color"
 
-#: ../../glossary.rst:111
+#: ../../glossary.rst:114
 msgid ""
 "The process of correcting color issues and making footage appear as natural "
 "as possible. The idea is to make the images look like the human eyes would "
@@ -178,11 +206,11 @@ msgstr ""
 
 # NdT: https://www.termcat.cat/ca/cercaterm/fitxa/MjA2ODg4
 # NdT: https://ca.wikipedia.org/wiki/Etalonatge_digital
-#: ../../glossary.rst:112
+#: ../../glossary.rst:115
 msgid "Color Grading"
 msgstr "Etalonatge"
 
-#: ../../glossary.rst:114
+#: ../../glossary.rst:117
 msgid ""
 "The process of creating consistent color tones throughout the film in order "
 "to give it a specific aesthetic look and style."
@@ -190,11 +218,11 @@ msgstr ""
 "El procés de crear tons de color coherents al llarg de la pel·lícula per tal "
 "de donar-li un aspecte estètic i estil específic."
 
-#: ../../glossary.rst:115
+#: ../../glossary.rst:118
 msgid "Color and Image Correction"
 msgstr "Correcció del color i la imatge"
 
-#: ../../glossary.rst:117
+#: ../../glossary.rst:120
 msgid ""
 "A category of effects and filters to adjust or change the color components "
 "of the clip."
@@ -202,11 +230,11 @@ msgstr ""
 "Una categoria d'efectes i filtres per a ajustar o canviar els components de "
 "color del clip."
 
-#: ../../glossary.rst:118
+#: ../../glossary.rst:121
 msgid "Color Matrix"
 msgstr "Matriu de color"
 
-#: ../../glossary.rst:120
+#: ../../glossary.rst:123
 msgid ""
 "Describes the balancing of different parts of the color spectrum in order to "
 "create an accurate representation for capture. By adjusting the properties "
@@ -218,12 +246,32 @@ msgstr ""
 "la matriu de color podreu fer coses com canviar el balanç de blancs, alterar "
 "la paleta de colors, ajustar les anomalies de color a l'original."
 
-#: ../../glossary.rst:121
+#: ../../glossary.rst:124
+#| msgid "Color Grading"
+msgid "Color Range"
+msgstr "Interval de color"
+
+#: ../../glossary.rst:126
+msgid ""
+"A term with more significance in broadcasting. Today's video recording "
+"equipment records in full range. Each color component is 8-bit and can have "
+"a value from 0 to 255, but only when in full range. Otherwise, for allowing "
+"headroom for video processing and exposure ranges, ranges are smaller, like "
+"16-235 for :term:`luma`, and 16-240 for :term:`chroma`."
+msgstr ""
+"Un terme amb més importància en la radiodifusió. L'equip d'enregistrament de "
+"vídeo d'avui en dia enregistra amb interval complet. Cada component de color "
+"és de 8 bits i pot tenir un valor de 0 a 255, però només quan està en "
+"interval complet. Altrament, per permetre espai per al processament de vídeo "
+"i els intervals d'exposició, els intervals són més petits, com 16-235 per a la"
+" :term:`luma`, i el 16-240 per al :term:`croma <chroma>`."
+
+#: ../../glossary.rst:127
 msgid "Color Space"
 msgstr "Espai de color"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:123
+#: ../../glossary.rst:129
 msgid ""
 "A color space is a specific organization of colors. It is a useful "
 "conceptual tool for understanding the color capabilities of a particular "
@@ -240,27 +288,34 @@ msgstr ""
 "quant es comprometrà. Vegeu aquest article sobre |color_space| a la "
 "Viquipèdia."
 
-#: ../../glossary.rst:124
+#: ../../glossary.rst:130
 msgid "Composition"
 msgstr "Composició"
 
-#: ../../glossary.rst:126
+#: ../../glossary.rst:132
+#| msgid ""
+#| "Also referred to as a transition, it combines at least two input :term:"
+#| "`clips<clip>` to one output clip. Compositions cannot be stacked."
 msgid ""
 "Also referred to as a transition, it combines at least two input :term:"
-"`clips<clip>` to one output clip. Compositions cannot be stacked."
+"`clips<clip>` to one output clip. Compositions cannot be stacked. See "
+"chapters :doc:`/compositing/compositions` and :doc:`/compositing/"
+"transitions`."
 msgstr ""
 "També es coneix com a transició, combina almenys dos :term:`clips<clip>` "
-"d'entrada en un clip de sortida. Les composicions no es poden apilar."
+"d'entrada en un clip de sortida. Les composicions no es poden apilar. Vegeu "
+"els capítols :doc:`/compositing/compositions` i :doc:`/compositing/transitions"
+"`."
 
-#: ../../glossary.rst:127
+#: ../../glossary.rst:133
 msgid "Container"
 msgstr "Contenidor"
 
-#: ../../glossary.rst:128
+#: ../../glossary.rst:134
 msgid "Container Format"
 msgstr "Format del contenidor"
 
-#: ../../glossary.rst:130
+#: ../../glossary.rst:136
 msgid ""
 "A type of file that encapsulates multiple (compressed) data :term:"
 "`streams<stream>` in one file (wrapper), usually together with metadata for "
@@ -272,12 +327,12 @@ msgstr ""
 "a identificar o detallar més els fluxos incrustats. Alguns exemples són "
 "Matroska (.mkv), OGG (.ogg), MPEG-4 (.mp4), AVI."
 
-#: ../../glossary.rst:131
+#: ../../glossary.rst:137
 msgid "Crash"
 msgstr "Fallada"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:133
+#: ../../glossary.rst:139
 msgid ""
 "The instance when you realize you have not saved your project for at least "
 "two hours and worked on the most difficult edits. See :term:`backup`."
@@ -286,11 +341,11 @@ msgstr ""
 "almenys dues hores i que heu treballat en les edicions més difícils. Vegeu :"
 "term:`còpia de seguretat <backup>`."
 
-#: ../../glossary.rst:134
+#: ../../glossary.rst:140
 msgid "Deprecated"
 msgstr "Obsolet"
 
-#: ../../glossary.rst:136
+#: ../../glossary.rst:142
 msgid ""
 "Obsolete, not used anymore. Effects in the *Deprecated* category are still "
 "available but are not maintained and can lead to unwanted results."
@@ -298,11 +353,11 @@ msgstr ""
 "Obsolet, ja no s'utilitza. Els efectes en la categoria *Obsolet* encara "
 "estan disponibles, però no es mantenen i poden donar resultats no desitjats."
 
-#: ../../glossary.rst:137
+#: ../../glossary.rst:143
 msgid "Dynamic Text"
 msgstr "Text dinàmic"
 
-#: ../../glossary.rst:139
+#: ../../glossary.rst:145
 msgid ""
 "An effect that can be applied to a :term:`clip`, :term:`track` or on :term:"
 "`master` to overlay the video with specific information. Available keyword "
@@ -315,11 +370,11 @@ msgstr ""
 "«localfiledate», «source frame rate», «source codec», «source bit rate», "
 "«source width», «source height», «source comment»"
 
-#: ../../glossary.rst:140
+#: ../../glossary.rst:146
 msgid "Effect"
 msgstr "Efecte"
 
-#: ../../glossary.rst:142
+#: ../../glossary.rst:148
 msgid ""
 "Also referred to as a :term:`filter`, an effect is used to change the "
 "appearance, size or position of a :term:`clip`. Most effects have :term:"
@@ -334,12 +389,12 @@ msgstr ""
 "efectes es processen de dalt a baix, de manera que la seqüència és "
 "important. Vegeu :ref:`effects-effect_stack`."
 
-#: ../../glossary.rst:143
+#: ../../glossary.rst:149
 msgid "Edit Mode"
 msgstr "Mode d'edició"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:145
+#: ../../glossary.rst:151
 msgid ""
 "A special function of the :term:`project monitor`. Needed in order to be "
 "able to use the mouse to manipulate certain aspects (e.g. size, position) of "
@@ -352,20 +407,20 @@ msgstr ""
 "activar i desactivar utilitzant la icona |edit-mode| de la barra d'eines del "
 "monitor del projecte."
 
-#: ../../glossary.rst:146
+#: ../../glossary.rst:152
 msgid "Exporting"
 msgstr "Exportació"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:148
+#: ../../glossary.rst:154
 msgid "See :term:`Rendering`"
 msgstr "Vegeu :term:`renderització <Rendering>`"
 
-#: ../../glossary.rst:149
+#: ../../glossary.rst:155
 msgid "Field Order"
 msgstr "Ordre dels camps"
 
-#: ../../glossary.rst:151
+#: ../../glossary.rst:157
 msgid ""
 "Also called *Field Dominance*. Determines in a video stream which field of "
 "an interlaced video stream comes first. See this article about |field_order|."
@@ -374,12 +429,12 @@ msgstr ""
 "d'un flux de vídeo entrellaçat ve primer. Vegeu aquest article sobre |"
 "field_order|."
 
-#: ../../glossary.rst:152
+#: ../../glossary.rst:158
 msgid "Filter"
 msgstr "Filtre"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:154
+#: ../../glossary.rst:160
 msgid ""
 "Kdenlive uses filters from |avfilter| and |frei0r| to modify frames. See :"
 "term:`effect`."
@@ -387,20 +442,20 @@ msgstr ""
 "El Kdenlive empra filtres de |avfilter| i |frei0r| per a modificar els "
 "fotogrames. Vegeu :term:`efecte <effect>`."
 
-#: ../../glossary.rst:155
+#: ../../glossary.rst:161
 msgid "FPS"
 msgstr "FPS"
 
-#: ../../glossary.rst:156
+#: ../../glossary.rst:162
 msgid "Frames per Second"
 msgstr "Fotogrames per segon"
 
-#: ../../glossary.rst:157
+#: ../../glossary.rst:163
 msgid "Frame Rate"
 msgstr "Velocitat dels fotogrames"
 
 # skip-rule: common-diferent_a
-#: ../../glossary.rst:159
+#: ../../glossary.rst:165
 msgid ""
 "The frame rate expressed in frames per second or FPS is typically the "
 "frequency (rate) at which consecutive images (frames) are captured or "
@@ -413,16 +468,16 @@ msgstr ""
 "fotogrames, incloent-hi una llista de velocitats de fotogrames típiques per "
 "a tipus de vídeo diferents a |techsmith|."
 
-#: ../../glossary.rst:160
+#: ../../glossary.rst:166
 msgid "Gamma"
 msgstr "Gamma"
 
-#: ../../glossary.rst:161
+#: ../../glossary.rst:167
 msgid "Gamma Correction"
 msgstr "Correcció de la gamma"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:163
+#: ../../glossary.rst:169
 msgid ""
 "A description of the relationship between a color value and its brightness "
 "on a particular device. Hence Gamma Correction is the nonlinear operation "
@@ -435,11 +490,11 @@ msgstr ""
 "<luminance>` en imatges digitals o de vídeo per a ajustar els tons de color "
 "a com els humans els veuen."
 
-#: ../../glossary.rst:164
+#: ../../glossary.rst:170
 msgid "Guide"
 msgstr "Guia"
 
-#: ../../glossary.rst:166
+#: ../../glossary.rst:172
 msgid ""
 "Static markings in the :term:`timeline` that do not necessarily move with "
 "clips. Not to be confused with :term:`markers`. Can be used to define "
@@ -451,15 +506,15 @@ msgstr ""
 "<markers>`. Es pot utilitzar per a definir regions a renderitzar i exportar "
 "per a proporcionar capítols per a vídeos de YouTube. Vegeu :ref:`guides`."
 
-#: ../../glossary.rst:167
+#: ../../glossary.rst:173
 msgid "Hamburger Menu"
 msgstr "Menú d'hamburguesa"
 
-#: ../../glossary.rst:168
+#: ../../glossary.rst:174
 msgid "Sandwich Menu"
 msgstr "Menú de sandvitx"
 
-#: ../../glossary.rst:170
+#: ../../glossary.rst:176
 msgid ""
 "A way to reduce clutter and save screen real estate. Looks like this |"
 "application-menu|. Replaces the Kdenlive menu bar. Can be expanded with :kbd:"
@@ -469,11 +524,11 @@ msgstr ""
 "com aquest |application-menu|. Substitueix la barra de menús del Kdenlive. "
 "Es pot expandir amb :kbd:`Ctrl+M`."
 
-#: ../../glossary.rst:171
+#: ../../glossary.rst:177
 msgid "Histogram"
 msgstr "Histograma"
 
-#: ../../glossary.rst:173
+#: ../../glossary.rst:179
 msgid ""
 "Displays a frequency histogram of the luminance of the color components of "
 "the video. See :ref:`view_menu`, and in particular :doc:`/tips_and_tricks/"
@@ -483,11 +538,11 @@ msgstr ""
 "del vídeo. Vegeu :ref:`view_menu` i, en particular, :doc:`/tips_and_tricks/"
 "scopes/histogram_working` per a obtenir una explicació més detallada."
 
-#: ../../glossary.rst:174
+#: ../../glossary.rst:180
 msgid "Hue"
 msgstr "To"
 
-#: ../../glossary.rst:176
+#: ../../glossary.rst:182
 msgid ""
 "Means a degree of lightness, darkness or strength of a color. Compare :term:"
 "`saturation`, :term:`tint` and :term:`shade`."
@@ -496,24 +551,24 @@ msgstr ""
 "Compareu :term:`saturació <saturation>`, :term:`tint` i :term:`ombra "
 "<shade>`."
 
-#: ../../glossary.rst:177
+#: ../../glossary.rst:183
 msgid "Icon"
 msgstr "Icona"
 
-#: ../../glossary.rst:179
+#: ../../glossary.rst:185
 msgid "A graphical representation of an action, function, option or status."
 msgstr "Una representació gràfica d'una acció, funció, opció o estat."
 
-#: ../../glossary.rst:180
+#: ../../glossary.rst:186
 msgid "Interlaced"
 msgstr "Entrellaçat"
 
-#: ../../glossary.rst:181
+#: ../../glossary.rst:187
 msgid "Interleave"
 msgstr "Interleave"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:183
+#: ../../glossary.rst:189
 msgid ""
 "A technique for doubling the perceived frame rate of a video without using "
 "extra bandwidth. Compare :term:`progressive`. See this Wikipedia article "
@@ -524,12 +579,12 @@ msgstr ""
 "`progressiu <progressive>`. Vegeu aquest article de la Viquipèdia sobre el |"
 "interlaced_video|."
 
-#: ../../glossary.rst:184
+#: ../../glossary.rst:190
 msgid "In-point"
 msgstr "Punt d'entrada"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:186
+#: ../../glossary.rst:192
 msgid ""
 "An In-point defines the beginning of a :term:`zone`. A zone can be defined "
 "in the :term:`timeline` and the :term:`project monitor` (it has the same "
@@ -542,11 +597,11 @@ msgstr ""
 "clips <clip monitor>` (útil per a moure només una secció determinada d'un "
 "clip a la línia de temps). Vegeu :term:`zona <zone>` per a possibles usos."
 
-#: ../../glossary.rst:187
+#: ../../glossary.rst:193
 msgid "Jog Shuttle"
 msgstr "Jog Shuttle"
 
-#: ../../glossary.rst:189
+#: ../../glossary.rst:195
 msgid ""
 "An external device that improves video editing by using a rotary knob to "
 "scrub through the timeline, and providing a special keyboard for actions "
@@ -561,12 +616,12 @@ msgstr ""
 "i configurar a :menuselection:`Menú --> Arranjament --> Configura el "
 "Kdenlive --> JogShuttle`. Vegeu :ref:`Arranjament <configure_kdenlive>`."
 
-#: ../../glossary.rst:190
+#: ../../glossary.rst:196
 msgid "KDE Store"
 msgstr "KDE Store"
 
 # skip-rule: kct-wip
-#: ../../glossary.rst:192
+#: ../../glossary.rst:198
 msgid ""
 "An online app |store| where users can upload files like lumas for :doc:"
 "`wipes </compositing/transitions/wipe>`, :ref:`presets <exporting>` for "
@@ -579,11 +634,11 @@ msgstr ""
 "de biblioteca i fins i tot fitxers de projecte. Vegeu la icona :ref:`effects-"
 "effects_tab` núm. 7."
 
-#: ../../glossary.rst:193
+#: ../../glossary.rst:199
 msgid "Kelvin"
 msgstr "Kelvin"
 
-#: ../../glossary.rst:195
+#: ../../glossary.rst:201
 msgid ""
 "Kelvin is the base unit of temperature in the International System of Units "
 "(SI). It is also used as a measure of the color temperature of light "
@@ -594,11 +649,11 @@ msgstr ""
 "les fonts de llum. Història verídica: un físic es va refredar a si mateix "
 "fins a -273,15 C. Estava 0K."
 
-#: ../../glossary.rst:196
+#: ../../glossary.rst:202
 msgid "Keyframe"
 msgstr "Fotograma clau"
 
-#: ../../glossary.rst:198
+#: ../../glossary.rst:204
 msgid ""
 "Defines the frame in a clip where something starts or changes. Most :term:"
 "`effects<effect>` have keyframes to allow changes over time. For example, "
@@ -611,11 +666,11 @@ msgstr ""
 "Transforma es poden assignar a fotogrames clau per a moure un clip a través "
 "de la pantalla. Vegeu :ref:`effects-working_with_keyframes`."
 
-#: ../../glossary.rst:199
+#: ../../glossary.rst:205
 msgid "Layout"
 msgstr "Disposició"
 
-#: ../../glossary.rst:201
+#: ../../glossary.rst:207
 msgid ""
 "A particular way widgets are arranged on the screen to support different "
 "workflows or tasks. Kdenlive can save different layouts for logging, "
@@ -626,11 +681,11 @@ msgstr ""
 "diferents per a l'enregistrament, edició, àudio i color. Vegeu :ref:`ui-"
 "workspace_layouts`."
 
-#: ../../glossary.rst:202
+#: ../../glossary.rst:208
 msgid "Lightness"
 msgstr "Claredat"
 
-#: ../../glossary.rst:204
+#: ../../glossary.rst:210
 msgid ""
 "Also called brightness, lightness is the amount of white or black mixed in "
 "with the color. Lightness is more a subjective measure of perceived light, "
@@ -643,16 +698,16 @@ msgstr ""
 "emesa o reflectida d'un objecte. Compareu :term:`tint` i :term:`ombra "
 "<shade>`."
 
-#: ../../glossary.rst:205
+#: ../../glossary.rst:211
 msgid "Luma"
 msgstr "Luma"
 
-#: ../../glossary.rst:206
+#: ../../glossary.rst:212
 msgid "Luminance"
 msgstr "Luminància"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:208
+#: ../../glossary.rst:214
 msgid ""
 "Represents the brightness of an image or video. Luma is typically paired "
 "with :term:`chrominance`. Luma represents the achromatic (aka black-and-"
@@ -663,34 +718,38 @@ msgstr ""
 "imatge acromàtica (també coneguda com a blanc i negre), mentre que els "
 "components del croma representen la informació del color."
 
-#: ../../glossary.rst:209
+#: ../../glossary.rst:215
 msgid "Library"
 msgstr "Biblioteca"
 
-#: ../../glossary.rst:211
+#: ../../glossary.rst:217
+#| msgid ""
+#| "Holds assets for generic use in projects. For example, watermarks, logos, "
+#| "lower-thirds, intros, and so on. See :doc:`/tips_and_tricks/useful_info/"
+#| "the_library`."
 msgid ""
 "Holds assets for generic use in projects. For example, watermarks, logos, "
-"lower-thirds, intros, and so on. See :doc:`/tips_and_tricks/useful_info/"
-"the_library`."
+"lower-thirds, intros, and so on. See the chapter :doc:`Library</"
+"project_and_asset_management/library>`."
 msgstr ""
 "Conté recursos d'ús general en els projectes. Per exemple, marques d'aigua, "
-"logotips, terços inferiors, intros, etc. Vegeu :doc:`/tips_and_tricks/"
-"useful_info/the_library`."
+"logotips, terços inferiors, intros, etc. Vegeu el capítol :doc:`Biblioteca</pr"
+"oject_and_asset_management/library>`."
 
-#: ../../glossary.rst:212
+#: ../../glossary.rst:218
 msgid "Lock"
 msgstr "Bloqueig"
 
-#: ../../glossary.rst:214
+#: ../../glossary.rst:220
 msgid "Locks a track for editing. Indicated by a closed padlock icon."
 msgstr ""
 "Bloqueja una pista per a editar-la. Indicat per una icona de cadenat tancat."
 
-#: ../../glossary.rst:215
+#: ../../glossary.rst:221
 msgid "Markers"
 msgstr "Marcadors"
 
-#: ../../glossary.rst:217
+#: ../../glossary.rst:223
 msgid ""
 "Belong to the clip they have been created in/for and move with it. Changes "
 "to a marker apply to all copies of the clip in the timeline. See :ref:"
@@ -700,11 +759,11 @@ msgstr ""
 "un marcador s'apliquen a totes les còpies del clip a la línia de temps. "
 "Vegeu :ref:`markers`."
 
-#: ../../glossary.rst:218
+#: ../../glossary.rst:224
 msgid "Mask"
 msgstr "Màscara"
 
-#: ../../glossary.rst:220
+#: ../../glossary.rst:226
 msgid ""
 "An area to block out parts of an image. Can be used to apply an effect only "
 "to the masked area (see :doc:`/effects_and_filters/video_effects/"
@@ -724,25 +783,25 @@ msgstr ""
 "alpha_mask_keying/shape_alpha` i :doc:`/effects_and_filters/video_effects/"
 "alpha_mask_keying/rectangular_alpha_mask`)."
 
-#: ../../glossary.rst:221
+#: ../../glossary.rst:227
 msgid "Master"
 msgstr "Mestre"
 
-#: ../../glossary.rst:222
+#: ../../glossary.rst:228
 msgid "Master Effect"
 msgstr "Efecte mestre"
 
-#: ../../glossary.rst:224
+#: ../../glossary.rst:230
 msgid "A special effect stack that applies to all clips in all of the tracks."
 msgstr ""
 "Una pila especial d'efectes que s'aplica a tots els clips de totes les "
 "pistes."
 
-#: ../../glossary.rst:225
+#: ../../glossary.rst:231
 msgid "Master Audio"
 msgstr "Àudio mestre"
 
-#: ../../glossary.rst:227
+#: ../../glossary.rst:233
 msgid ""
 "The volume of all of the audio tracks when merged into one during rendering. "
 "See :ref:`effects-audio_tools`."
@@ -750,32 +809,38 @@ msgstr ""
 "El volum de totes les pistes d'àudio quan es fusionen en una durant la "
 "renderització. Vegeu :ref:`effects-audio_tools`."
 
-#: ../../glossary.rst:228
+#: ../../glossary.rst:234
 msgid "Media Browser"
 msgstr "Navegador multimèdia"
 
-#: ../../glossary.rst:230
+#: ../../glossary.rst:236
+#| msgid ""
+#| "Allows easy browsing of the file system and previewing media clips and "
+#| "other assets for importing to the :term:`Project Bin`. A widget that can "
+#| "be switched on and off via :menuselection:`Menu --> View --> Media "
+#| "Browser`. See :ref:`media_browser`."
 msgid ""
 "Allows easy browsing of the file system and previewing media clips and other "
 "assets for importing to the :term:`Project Bin`. A widget that can be "
 "switched on and off via :menuselection:`Menu --> View --> Media Browser`. "
-"See :ref:`media_browser`."
+"See the chapter :doc:`media_browser</project_and_asset_management/"
+"media_browser>`."
 msgstr ""
 "Permet la navegació fàcil del sistema de fitxers i la vista prèvia dels "
 "clips multimèdia i altres recursos per a la importació a la :term:`safata "
 "del projecte <Project Bin>`. Un giny que es pot activar i desactivar "
-"mitjançant :menuselection:`Menú --> Vista --> Navegador multimèdia`. Vegeu :"
-"ref:`media_browser`."
+"mitjançant :menuselection:`Menú --> Vista --> Navegador multimèdia`. Vegeu "
+"el capítol :doc:`media_browser</project_and_asset_management/media_browser>`."
 
-#: ../../glossary.rst:231
+#: ../../glossary.rst:237
 msgid "MELT"
 msgstr "MELT"
 
-#: ../../glossary.rst:232
+#: ../../glossary.rst:238
 msgid "melt"
 msgstr "melt"
 
-#: ../../glossary.rst:234
+#: ../../glossary.rst:240
 msgid ""
 "Melt was developed as a test tool for the MLT framework. If you will, "
 "Kdenlive is a front-end for melt writing :file:`.mlt` XML files that code "
@@ -788,20 +853,20 @@ msgstr ""
 "transicions. Després crida al «melt» per a renderitzar el vídeo. Vegeu :ref:"
 "`troubleshooting-faq`."
 
-#: ../../glossary.rst:235
+#: ../../glossary.rst:241
 msgid "Mixes"
 msgstr "Mescles"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:237
+#: ../../glossary.rst:243
 msgid "See :term:`Same-track Transition`"
 msgstr "Vegeu :term:`transició a la mateixa pista <Same-track Transition>`"
 
-#: ../../glossary.rst:238
+#: ../../glossary.rst:244
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../../glossary.rst:240
+#: ../../glossary.rst:246
 msgid ""
 "A device to display a video signal. Kdenlive uses a Clip Monitor to play "
 "clips selected in the :term:`project bin` and :term:`Project Monitor` to "
@@ -815,11 +880,11 @@ msgstr ""
 "El monitor és un giny que es pot activar i desactivar mitjançant :"
 "menuselection:`Menú --> Vista`. Vegeu :ref:`ui-monitors`."
 
-#: ../../glossary.rst:241
+#: ../../glossary.rst:247
 msgid "MOVIT"
 msgstr "MOVIT"
 
-#: ../../glossary.rst:243
+#: ../../glossary.rst:249
 msgid ""
 "A library for high-quality, high-performance video filters. Is needed to "
 "enable GPU-supported preview and playback. See :ref:`configure_playback` in :"
@@ -830,11 +895,11 @@ msgstr ""
 "`configure_playback` a :menuselection:`Menú --> Arranjament --> Configura el "
 "Kdenlive`."
 
-#: ../../glossary.rst:244
+#: ../../glossary.rst:250
 msgid "Clip Monitor"
 msgstr "Monitor de clips"
 
-#: ../../glossary.rst:246
+#: ../../glossary.rst:252
 msgid ""
 "The Clip Monitor plays the clip currently selected in the :term:`Project "
 "Bin`. See :ref:`ui-monitors` and :term:`overlay`."
@@ -843,12 +908,12 @@ msgstr ""
 "`safata del projecte <Project Bin>`. Vegeu :ref:`ui-monitors` i :term:"
 "`superposició <overlay>`."
 
-#: ../../glossary.rst:247
+#: ../../glossary.rst:253
 msgid "Project Monitor"
 msgstr "Monitor del projecte"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:249
+#: ../../glossary.rst:255
 msgid ""
 "The Project Monitor plays clips selected in the :term:`timeline` or simply "
 "the project."
@@ -856,11 +921,11 @@ msgstr ""
 "El monitor del projecte reprodueix el clip a la :term:`línia de temps "
 "<timeline>` o senzillament el projecte."
 
-#: ../../glossary.rst:250
+#: ../../glossary.rst:256
 msgid "Opacity"
 msgstr "Opacitat"
 
-#: ../../glossary.rst:252
+#: ../../glossary.rst:258
 msgid ""
 "A measure of impenetrability to electromagnetic or other kinds of radiation, "
 "especially visible light. An object that does not allow any visible light to "
@@ -870,12 +935,12 @@ msgstr ""
 "tipus, especialment la llum visible. Un objecte que no permet que passi cap "
 "llum visible és completament opac o té una d'opacitat del 100%."
 
-#: ../../glossary.rst:253
+#: ../../glossary.rst:259
 msgid "Overlay"
 msgstr "Superposició"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:255
+#: ../../glossary.rst:261
 msgid ""
 "Clip and Project Monitor can have an overlay that helps with editing. Hover "
 "the mouse over the hot zone of the respective monitor (default is the top "
@@ -889,29 +954,29 @@ msgstr ""
 "Diferent de :term:`text dinàmic <Dynamic Text>` i :term:`superposició de "
 "vídeo <video overlay>`."
 
-#: ../../glossary.rst:256
+#: ../../glossary.rst:262
 msgid "Mute"
 msgstr "Silenci"
 
-#: ../../glossary.rst:258
+#: ../../glossary.rst:264
 msgid "Temporarily disable a video or audio track."
 msgstr "Desactiva temporalment una pista de vídeo o àudio."
 
-#: ../../glossary.rst:259
+#: ../../glossary.rst:265
 msgid "Nested Timeline"
 msgstr "Línia de temps imbricada"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:261
+#: ../../glossary.rst:267
 msgid "See :term:`Sequence`"
 msgstr "Vegeu :term:`Seqüència <Sequence>`"
 
-#: ../../glossary.rst:262
+#: ../../glossary.rst:268
 msgid "Out-point"
 msgstr "Punt de sortida"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:264
+#: ../../glossary.rst:270
 msgid ""
 "An Out-point defines the end of a :term:`zone`. A zone can be defined in "
 "the :term:`timeline` and the :term:`project monitor` (it has the same "
@@ -924,11 +989,11 @@ msgstr ""
 "de clips <clip monitor>` (útil per a moure només una secció determinada d'un "
 "clip a la línia de temps). Vegeu :term:`zona <zone>` per a possibles usos."
 
-#: ../../glossary.rst:265
+#: ../../glossary.rst:271
 msgid "Video Overlay"
 msgstr "Superposició de vídeo"
 
-#: ../../glossary.rst:267
+#: ../../glossary.rst:273
 msgid ""
 "Additional information (e.g. timecode) that is overlayed during the render "
 "process. Can be selected in the More Options section of the :ref:`Render "
@@ -938,11 +1003,11 @@ msgstr ""
 "procés de renderització. Es pot seleccionar a la secció Més opcions del :ref:"
 "`Diàleg de renderització<render>`."
 
-#: ../../glossary.rst:268
+#: ../../glossary.rst:274
 msgid "Playhead"
 msgstr "Capçal de reproducció"
 
-#: ../../glossary.rst:270
+#: ../../glossary.rst:276
 msgid ""
 "The upside-down triangle in the timeline ruler. Indicates the (play) "
 "position in the timeline. During :ref:`3-point Editing<three_point_editing>` "
@@ -954,15 +1019,15 @@ msgstr ""
 "punts<three_point_editing>` es determina on s'afegirà un clip o una zona de "
 "clip a la línia de temps. Arrossegueu-ho per a rastrejar la línia de temps."
 
-#: ../../glossary.rst:271
+#: ../../glossary.rst:277
 msgid "Posterize"
 msgstr "Posteritza"
 
-#: ../../glossary.rst:272
+#: ../../glossary.rst:278
 msgid "Posterization"
 msgstr "Posterització"
 
-#: ../../glossary.rst:274
+#: ../../glossary.rst:280
 msgid ""
 "Is the conversion of a continuous gradation of tone or color to several "
 "regions of fewer tones or color, causing abrupt changes from one tone or "
@@ -976,11 +1041,11 @@ msgstr ""
 "una imatge JPEG amb milions de colors es converteix al format GIF amb només "
 "256 colors."
 
-#: ../../glossary.rst:275
+#: ../../glossary.rst:281
 msgid "Preset"
 msgstr "Predefinit"
 
-#: ../../glossary.rst:277
+#: ../../glossary.rst:283
 msgid ""
 "Used for :term:`rendering` to determine output format (container), codec, "
 "dimensions, aspect ratio, bit rate and various other parameters. See :ref:"
@@ -990,12 +1055,12 @@ msgstr ""
 "format de sortida (contenidor), còdec, dimensions, relació d'aspecte, taxa "
 "de bits i altres paràmetres diversos. Vegeu :ref:`render_profile_parameters`."
 
-#: ../../glossary.rst:278
+#: ../../glossary.rst:284
 msgid "Progressive"
 msgstr "Progressiu"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:280
+#: ../../glossary.rst:286
 msgid ""
 "A format of displaying, storing or transmitting video in which all the lines "
 "of each frame are drawn in sequence. The 'p' in 1080p indicates that the "
@@ -1007,12 +1072,12 @@ msgstr ""
 "indica que el format empra l'exploració progressiva, és a dir, les línies "
 "del fotograma **no** estan :term:`entrellaçades <interlaced>`."
 
-#: ../../glossary.rst:281
+#: ../../glossary.rst:287
 msgid "Project"
 msgstr "Projecte"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:283
+#: ../../glossary.rst:289
 msgid ""
 "The sum of all assets, clips, tracks, effects, transitions, compositions and "
 "settings, their arrangements in the timeline, and references to all the "
@@ -1027,54 +1092,69 @@ msgstr ""
 "associat amb un directori de treball on el Kdenlive genera intermediaris i "
 "miniatures."
 
-#: ../../glossary.rst:284
+#: ../../glossary.rst:290
 msgid "Project Bin"
 msgstr "Safata del projecte"
 
-#: ../../glossary.rst:286
+#: ../../glossary.rst:292
+#| msgid ""
+#| "Lists all the clips and assets that are associated with the project. "
+#| "Referred to as the 'Project Tree' in earlier versions. See :ref:"
+#| "`project_tree`."
 msgid ""
 "Lists all the clips and assets that are associated with the project. "
-"Referred to as the 'Project Tree' in earlier versions. See :ref:"
-"`project_tree`."
+"Referred to as the 'Project Tree' in earlier versions. See the chapter :doc:"
+"`Project Bin</project_and_asset_management/project_bin>`."
 msgstr ""
 "Llista tots els clips i recursos associats al projecte. Referit com «arbre "
-"del projecte» en les versions anteriors. Vegeu :ref:`project_tree`."
+"del projecte» en les versions anteriors. Vegeu el capítol :doc:"
+"`Safata del projecte</project_and_asset_management/project_bin>`."
 
-#: ../../glossary.rst:287
+#: ../../glossary.rst:293
 msgid "Project Settings"
 msgstr "Paràmetres del projecte"
 
-#: ../../glossary.rst:289
+# skip-rule: rst-italic2
+#: ../../glossary.rst:295
+#| msgid ""
+#| "Defines the format (dimensions, aspect ratio, frames-per-second setting) "
+#| "of the project through the choice of profile or :term:`preset`, which "
+#| "working directory to use, how many video and audio tracks there are "
+#| "initially, and which profile to use for previews. Stores meta data for "
+#| "your project (e.g. title, author, copyright information). See :ref:"
+#| "`manage_project_profiles`."
 msgid ""
 "Defines the format (dimensions, aspect ratio, frames-per-second setting) of "
 "the project through the choice of profile or :term:`preset`, which working "
 "directory to use, how many video and audio tracks there are initially, and "
 "which profile to use for previews. Stores meta data for your project (e.g. "
-"title, author, copyright information). See :ref:`manage_project_profiles`."
+"title, author, copyright information). See chapter :doc:`Project Settings</"
+"project_and_asset_management/project_settings>`."
 msgstr ""
 "Defineix el format (dimensions, relació d'aspecte, configuració de "
 "fotogrames per segon) del projecte a través de l'elecció d'un perfil o :term:"
 "`predefinició <preset>`, quin directori de treball s'ha d'utilitzar, quantes "
 "pistes de vídeo i àudio hi ha inicialment i quin perfil s'ha d'utilitzar per "
 "a les vistes prèvies. Emmagatzema les metadades del projecte (p. ex. títol, "
-"autor, informació de copyright). Vegeu :ref:`manage_project_profiles`."
+"autor, informació de copyright). Vegeu el capítol :doc:`Configuració del "
+"projecte</project_and_asset_management/project_settings>`."
 
-#: ../../glossary.rst:290
+#: ../../glossary.rst:296
 msgid "Profile"
 msgstr "Perfil"
 
-#: ../../glossary.rst:292
+#: ../../glossary.rst:298
 msgid ""
 "For rendering see :term:`preset`, for project see :term:`project settings`"
 msgstr ""
 "Per a la renderització vegeu :term:`preset`, per al projecte vegeu :term:"
 "`paràmetres del projecte <project settings>`"
 
-#: ../../glossary.rst:293
+#: ../../glossary.rst:299
 msgid "Proxy"
 msgstr "Servidor intermediari"
 
-#: ../../glossary.rst:295
+#: ../../glossary.rst:301
 msgid ""
 "A light-weight version of the original clip. Used to make editing and in "
 "particular playback easier and smoother. See :ref:`make_proxy_clip`."
@@ -1082,12 +1162,12 @@ msgstr ""
 "Una versió lleugera del clip original. S'usa per a fer l'edició i "
 "especialment la reproducció més fàcil i suau. Vegeu :ref:`make_proxy_clip`."
 
-#: ../../glossary.rst:296
+#: ../../glossary.rst:302
 msgid "Plane"
 msgstr "Pla"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:298
+#: ../../glossary.rst:304
 msgid ""
 "Used on :term:`color correction` and blur application to separate color "
 "components for the purpose of applying an effect only to that component. "
@@ -1100,12 +1180,12 @@ msgstr ""
 "color són RGB (vermell, verd, blau) i YUV (luminància (Y), projecció blava "
 "(U), projecció vermella (V)), així com l'alfa (canal)."
 
-#: ../../glossary.rst:299
+#: ../../glossary.rst:305
 msgid "Quality, custom"
 msgstr "Qualitat, personalització"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:301
+#: ../../glossary.rst:307
 msgid ""
 "A setting in the :term:`rendering` dialog More Options section to control "
 "the quality of the rendered video."
@@ -1113,11 +1193,11 @@ msgstr ""
 "Una opció al diàleg :term:`renderització <rendering>` de la secció Més "
 "opcions per a controlar la qualitat del vídeo renderitzat."
 
-#: ../../glossary.rst:302
+#: ../../glossary.rst:308
 msgid "Radio Button"
 msgstr "Botó d'opció"
 
-#: ../../glossary.rst:304
+#: ../../glossary.rst:310
 msgid ""
 "Used to select one option and one option only from a list of option. Like in "
 "the old days on a radio to select a pre-programmed station: press the "
@@ -1128,11 +1208,11 @@ msgstr ""
 "preprogramada: premeu el botó de les estacions i el botó premut abans "
 "s'allibera."
 
-#: ../../glossary.rst:305
+#: ../../glossary.rst:311
 msgid "Rendering"
 msgstr "Renderització"
 
-#: ../../glossary.rst:307
+#: ../../glossary.rst:313
 msgid ""
 "Also referred to as 'Exporting'. The process of saving the edited clips into "
 "a single complete video clip. See :ref:`render`."
@@ -1140,20 +1220,20 @@ msgstr ""
 "També conegut com a «Exportació». El procés de desar els clips editats en un "
 "clip de vídeo complet únic. Vegeu :ref:`render`."
 
-#: ../../glossary.rst:308
+#: ../../glossary.rst:314
 msgid "Rendering Profile"
 msgstr "Perfil de renderització"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:310
+#: ../../glossary.rst:316
 msgid "See :term:`Preset`"
 msgstr "Vegeu :term:`predefinició <Preset>`"
 
-#: ../../glossary.rst:311
+#: ../../glossary.rst:317
 msgid "Ripple Tool"
 msgstr "Eina d'onada"
 
-#: ../../glossary.rst:313
+#: ../../glossary.rst:319
 msgid ""
 "Used in editing. Changes the original duration of the clip. Compare with "
 "working with old film material: The film strip is lengthened or shortened "
@@ -1165,12 +1245,12 @@ msgstr ""
 "o s'escurça i en fer-ho, els clips adjacents es mouen endavant i endarrere. "
 "Vegeu :ref:`timeline_edit_tools`."
 
-#: ../../glossary.rst:314
+#: ../../glossary.rst:320
 msgid "Saturation"
 msgstr "Saturació"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:316
+#: ../../glossary.rst:322
 msgid ""
 "Color saturation is a degree of intensity of a color in an image or video. "
 "As saturation increases, the color appears to be more pure. Compare :term:"
@@ -1180,11 +1260,11 @@ msgstr ""
 "vídeo. A mesura que augmenta la saturació, el color sembla més pur. Compareu "
 "el :term:`to <hue>` i el :term:`tint`."
 
-#: ../../glossary.rst:317
+#: ../../glossary.rst:323
 msgid "Same-track transition"
 msgstr "Transició a la mateixa pista"
 
-#: ../../glossary.rst:319
+#: ../../glossary.rst:325
 msgid ""
 "Also known as mixes. A transition between clips on the same track. See :ref:"
 "`same_track_transition`."
@@ -1192,11 +1272,11 @@ msgstr ""
 "També conegudes com a mescles. Una transició entre clips en la mateixa "
 "pista. Vegeu :ref:`same_track_transition`."
 
-#: ../../glossary.rst:320
+#: ../../glossary.rst:326
 msgid "Sequence"
 msgstr "Seqüència"
 
-#: ../../glossary.rst:322
+#: ../../glossary.rst:328
 msgid ""
 "Introduced with version 23.04.0, a sequence is basically a timeline. "
 "Sequences are part of a project but can be rendered independently. A project "
@@ -1208,11 +1288,11 @@ msgstr ""
 "de forma independent. Un projecte pot tenir múltiples seqüències (d'aquí "
 "l'àlies «línies de temps imbricades»). Vegeu :ref:`sequence`."
 
-#: ../../glossary.rst:323
+#: ../../glossary.rst:329
 msgid "Shade"
 msgstr "Ombra"
 
-#: ../../glossary.rst:325
+#: ../../glossary.rst:331
 msgid ""
 "In color theory, a shade is a mixture of a color with black, increasing its "
 "darkness. Compare :term:`tint`, :term:`hue` and :term:`saturation`."
@@ -1221,11 +1301,11 @@ msgstr ""
 "augmentant la seva foscor. Compareu :term:`tint`, :term:`to <hue>` i :term:"
 "`saturació <saturation>`."
 
-#: ../../glossary.rst:326
+#: ../../glossary.rst:332
 msgid "Slip Tool"
 msgstr "Eina de lliscament"
 
-#: ../../glossary.rst:328
+#: ../../glossary.rst:334
 msgid ""
 "Used in editing. Keeps the original duration of the clip. Compare with "
 "working with old film material: the film strip is slipped back and forth "
@@ -1237,11 +1317,11 @@ msgstr ""
 "lliscar cap enrere i cap endavant en la «finestra» indicada de la durada del "
 "clip. Vegeu :ref:`timeline_edit_tools`"
 
-#: ../../glossary.rst:329
+#: ../../glossary.rst:335
 msgid "Snap Point"
 msgstr "Punt d'ajust"
 
-#: ../../glossary.rst:331
+#: ../../glossary.rst:337
 msgid ""
 "Sections in :term:`clips<clip>` that other clips snap to when \"snapping\" "
 "is turned on. Snap points include markers, guides, zone in-points, zone out-"
@@ -1252,20 +1332,20 @@ msgstr ""
 "d'entrada de zona, punts de sortida de zona, punts d'inici de transició, "
 "vores del clip i retalls."
 
-#: ../../glossary.rst:332
+#: ../../glossary.rst:338
 msgid "Speed Ramping"
 msgstr "Canvis progressius de velocitat"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:334
+#: ../../glossary.rst:340
 msgid "See :term:`Time Remapping`"
 msgstr "Vegeu :term:`reassignació de temps <Time Remapping>`"
 
-#: ../../glossary.rst:335
+#: ../../glossary.rst:341
 msgid "Stack"
 msgstr "Pila"
 
-#: ../../glossary.rst:337
+#: ../../glossary.rst:343
 msgid ""
 "The list of effects applied to a clip, track or master. An effect stack is "
 "processed top down, so sequence is important. See :ref:`effects-"
@@ -1275,11 +1355,11 @@ msgstr ""
 "es processa de dalt a baix, de manera que la seqüència és important. Vegeu :"
 "ref:`effects-effect_stack`."
 
-#: ../../glossary.rst:338
+#: ../../glossary.rst:344
 msgid "Stream"
 msgstr "Flux"
 
-#: ../../glossary.rst:340
+#: ../../glossary.rst:346
 msgid ""
 "A part of an (encoded) media file containing either video or audio data. Use "
 "a tool like |ffprobe| to examine media files."
@@ -1288,15 +1368,15 @@ msgstr ""
 "d'àudio. Utilitzeu una eina com |ffprobe| per a examinar els fitxers "
 "multimèdia."
 
-#: ../../glossary.rst:341
+#: ../../glossary.rst:347
 msgid "Temperature"
 msgstr "Temperatura"
 
-#: ../../glossary.rst:342
+#: ../../glossary.rst:348
 msgid "Color Temperature"
 msgstr "Temperatura del color"
 
-#: ../../glossary.rst:344
+#: ../../glossary.rst:350
 msgid ""
 "A parameter describing the color of the visible light source. It is measured "
 "in :term:`Kelvins<kelvin>` (K). The range is from 1,000K to 10,000K where "
@@ -1308,11 +1388,11 @@ msgstr ""
 "temperatures més baixes són considerades «càlides», i les temperatures més "
 "altes «fredes». Vegeu aquest article sobre la |color_temp|."
 
-#: ../../glossary.rst:345
+#: ../../glossary.rst:351
 msgid "Theme"
 msgstr "Tema"
 
-#: ../../glossary.rst:347
+#: ../../glossary.rst:353
 msgid ""
 "A set of colors, icons, fonts and other settings to change the appearance of "
 "an application or desktop. Can be set from :menuselection:`Menu --> Settings "
@@ -1322,11 +1402,11 @@ msgstr ""
 "l'aparença d'una aplicació o escriptori. Es pot establir des de :"
 "menuselection:`Menú --> Arranjament --> Esquema de color`."
 
-#: ../../glossary.rst:348
+#: ../../glossary.rst:354
 msgid "Thumbnail"
 msgstr "Miniatura"
 
-#: ../../glossary.rst:350
+#: ../../glossary.rst:356
 msgid ""
 "A small image representation of a much larger image. Used in the timeline at "
 "the start and end of a clip. See :ref:`timeline-show_video_thumbnails`."
@@ -1335,11 +1415,11 @@ msgstr ""
 "de temps a l'inici i al final d'un clip. Vegeu :ref:`timeline-"
 "show_video_thumbnails`."
 
-#: ../../glossary.rst:351
+#: ../../glossary.rst:357
 msgid "Time Remapping"
 msgstr "Reassignació del temps"
 
-#: ../../glossary.rst:353
+#: ../../glossary.rst:359
 msgid ""
 "A special widget allowing to keyframe the speed of a clip to achieve effects "
 "like speed ramping. See :ref:`effects-time_remapping`."
@@ -1348,27 +1428,32 @@ msgstr ""
 "per a aconseguir efectes com canvis progressius de velocitat. Vegeu :ref:"
 "`effects-time_remapping`."
 
-#: ../../glossary.rst:354
+#: ../../glossary.rst:360
 msgid "Timeline"
 msgstr "Línia de temps"
 
-#: ../../glossary.rst:356
+#: ../../glossary.rst:362
+#| msgid ""
+#| "The central part of Kdenlive. This is where all the editing takes place. "
+#| "Keeps a chronological sequence of the clips and the relations to each "
+#| "other through tracks and compositions. Can be zoomed. See also :ref:"
+#| "`sequence` for nested timelines."
 msgid ""
-"The central part of Kdenlive. This is where all the editing takes place. "
-"Keeps a chronological sequence of the clips and the relations to each other "
-"through tracks and compositions. Can be zoomed. See also :ref:`sequence` for "
-"nested timelines."
+"The :doc:`central part</user_interface/timeline>` of Kdenlive. This is where "
+"all the editing takes place. Keeps a chronological sequence of the clips and "
+"the relations to each other through tracks and compositions. Can be zoomed. "
+"See also :ref:`sequence` for nested timelines."
 msgstr ""
-"La part central del Kdenlive. Aquí és on té lloc tota l'edició. Manté una "
-"seqüència cronològica dels clips i les relacions entre ells a través de "
-"pistes i composicions. S'hi pot fer zoom. Vegeu també :ref:`sequence` per a "
-"les línies de temps imbricades."
+"La :doc:`part central</user_interface/timeline>` del Kdenlive. Aquí és on té "
+"lloc tota l'edició. Manté una seqüència cronològica dels clips i les "
+"relacions entre ells a través de pistes i composicions. S'hi pot fer zoom. "
+"Vegeu també :ref:`sequence` per a les línies de temps imbricades."
 
-#: ../../glossary.rst:357
+#: ../../glossary.rst:363
 msgid "Timeline Ruler"
 msgstr "Regle de la línia de temps"
 
-#: ../../glossary.rst:359
+#: ../../glossary.rst:365
 msgid ""
 "Sits right above the tracks and displays the time code information (default "
 "notation is hh:mm:ss:ff, can be switched to frames) as well as any currently "
@@ -1380,21 +1465,21 @@ msgstr ""
 "com qualsevol :term:`zona <zone>` de la línia de temps definida i/o zona de "
 "renderització de la vista prèvia. Vegeu :ref:`timeline_ruler`."
 
-#: ../../glossary.rst:360
+#: ../../glossary.rst:366
 msgid "Timeline Zone"
 msgstr "Zona de la línia de temps"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:362
+#: ../../glossary.rst:368
 msgid "See :term:`Zone`"
 msgstr "Vegeu :term:`zona <Zone>`"
 
-#: ../../glossary.rst:363
+#: ../../glossary.rst:369
 msgid "Tint"
 msgstr "Tint"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:365
+#: ../../glossary.rst:371
 msgid ""
 "In color theory a tint is a mixture of a color with white, increasing the "
 "lightness. Compare :term:`shade`, :term:`hue` and :term:`saturation`."
@@ -1403,11 +1488,11 @@ msgstr ""
 "augmentant la claredat. Compareu :term:`ombra <shade>`, :term:`to <hue>` i :"
 "term:`saturació <saturation>`."
 
-#: ../../glossary.rst:366
+#: ../../glossary.rst:372
 msgid "Title Bar"
 msgstr "Barra de títol"
 
-#: ../../glossary.rst:368
+#: ../../glossary.rst:374
 msgid ""
 "Part of a :term:`widget's<widget>` window displaying additional information "
 "(e.g. name, title, action icons). You can grab a widget by the title bar and "
@@ -1417,11 +1502,11 @@ msgstr ""
 "addicional (p. ex. nom, títol, icones d'acció). Podeu agafar un giny per la "
 "barra de títol i moure'l. Vegeu :ref:`ui-moving_widgets`."
 
-#: ../../glossary.rst:369
+#: ../../glossary.rst:375
 msgid "Tooltip"
 msgstr "Consell d'eina"
 
-#: ../../glossary.rst:371
+#: ../../glossary.rst:377
 msgid ""
 "A small window with more information about a function that pops up when "
 "hovering the mouse over an icon or button. Press Shift to get even more "
@@ -1431,52 +1516,63 @@ msgstr ""
 "passa el ratolí per sobre d'una icona o botó. Premeu Maj per a obtenir "
 "encara més detalls (no disponible per a totes les funcions)."
 
-#: ../../glossary.rst:372
+#: ../../glossary.rst:378
 msgid "Track"
 msgstr "Pista"
 
-#: ../../glossary.rst:374
+#: ../../glossary.rst:380
+#| msgid ""
+#| "Holds various assets in the timeline. Can be muted and locked "
+#| "individually. Can have effects in its own stack that apply to all clips "
+#| "in that track. Track height can be adjusted. Tracks can be inserted and "
+#| "deleted. Video tracks only accept clips with video, image, title, or "
+#| "color; audio tracks only accept pure audio clips or the audio track of a "
+#| "video clip. There is a relationship between video and audio tracks: A "
+#| "video clip with an audio :term:`stream` can only be put into a track "
+#| "where there is a corresponding audio track - V1/A1, V2/A2, V3/A3 and so "
+#| "on. See :ref:`tracks`."
 msgid ""
-"Holds various assets in the timeline. Can be muted and locked individually. "
-"Can have effects in its own stack that apply to all clips in that track. "
-"Track height can be adjusted. Tracks can be inserted and deleted. Video "
-"tracks only accept clips with video, image, title, or color; audio tracks "
-"only accept pure audio clips or the audio track of a video clip. There is a "
-"relationship between video and audio tracks: A video clip with an audio :"
-"term:`stream` can only be put into a track where there is a corresponding "
-"audio track - V1/A1, V2/A2, V3/A3 and so on. See :ref:`tracks`."
+"Holds various :term:`assets <asset>` in the timeline. Can be muted and "
+"locked individually. Can have effects in its own stack that apply to all "
+"clips in that track. Track height can be adjusted. Tracks can be inserted "
+"and deleted. Video tracks only accept clips with video, image, title, or "
+"color; audio tracks only accept pure audio clips or the audio track of a "
+"video clip. There is a relationship between video and audio tracks: A video "
+"clip with an audio :term:`stream` can only be put into a track where there "
+"is a corresponding audio track - V1/A1, V2/A2, V3/A3 and so on. See :ref:"
+"`tracks`."
 msgstr ""
-"Conté diversos recursos a la línia de temps. Es pot silenciar i tancar "
-"individualment. Pot tenir efectes en la seva pròpia pila que s'apliquen a "
-"tots els clips d'aquesta pista. L'alçada de la pista es pot ajustar. Les "
-"pistes es poden inserir i suprimir. Les pistes de vídeo només accepten clips "
-"amb vídeo, imatge, títol o color; les pistes d'àudio només accepten clips "
-"d'àudio purs o la pista d'àudio d'un clip de vídeo. Hi ha una relació entre "
-"pistes de vídeo i d'àudio: un clip de vídeo amb un :term:`flux <stream>` "
-"d'àudio només es pot posar en una pista on hi ha una pista d'àudio "
+"Conté diversos :doc:`recursos <asset>` a la línia de temps. Es pot silenciar "
+"i tancar individualment. Pot tenir efectes en la seva pròpia pila que "
+"s'apliquen a tots els clips d'aquesta pista. L'alçada de la pista es pot "
+"ajustar. Les pistes es poden inserir i suprimir. Les pistes de vídeo només "
+"accepten clips amb vídeo, imatge, títol o color; les pistes d'àudio només "
+"accepten clips d'àudio purs o la pista d'àudio d'un clip de vídeo. Hi ha una "
+"relació entre pistes de vídeo i d'àudio: un clip de vídeo amb un :term:`flux "
+"<stream>` d'àudio només es pot posar en una pista on hi ha una pista d'àudio "
 "corresponent: V1/A1, V2/A2, V3/A3 i així successivament. Vegeu :ref:`tracks`."
 
-#: ../../glossary.rst:375
+#: ../../glossary.rst:381
 msgid "Active Track"
 msgstr "Pista activa"
 
-#: ../../glossary.rst:377
+#: ../../glossary.rst:383
 msgid "Can accept clips. Indicated by a highlighted track number."
 msgstr "Pot acceptar clips. S'indica amb un número de pista ressaltat."
 
-#: ../../glossary.rst:378
+#: ../../glossary.rst:384
 msgid "Inactive Track"
 msgstr "Pista inactiva"
 
-#: ../../glossary.rst:380
+#: ../../glossary.rst:386
 msgid "Cannot accept clips. Indicated by a greyed out track number."
 msgstr "No pot acceptar clips. Indicat amb un número de pista en gris."
 
-#: ../../glossary.rst:381
+#: ../../glossary.rst:387
 msgid "Transcode"
 msgstr "Transcodificació"
 
-#: ../../glossary.rst:383
+#: ../../glossary.rst:389
 msgid ""
 "Converts a video or audio clip from one format to another. Is needed (and "
 "automatically proposed when loaded in to the :term:`project bin`) for files "
@@ -1487,11 +1583,11 @@ msgstr ""
 "<project bin>`) amb els fitxers que no estan en un format d'edició fàcil. "
 "Vegeu :ref:`transcode`."
 
-#: ../../glossary.rst:384
+#: ../../glossary.rst:390
 msgid "Tutorial"
 msgstr "Guia d'aprenentatge"
 
-#: ../../glossary.rst:386
+#: ../../glossary.rst:392
 msgid ""
 "A step-by-step instruction to use a function, tool, effect or combination of "
 "these to achieve a certain result. Often created as a video with commentary "
@@ -1504,32 +1600,38 @@ msgstr ""
 "d'aprenentatge per al Kdenlive disponibles a través d'una cerca senzilla a "
 "Google o YouTube."
 
-#: ../../glossary.rst:387
+#: ../../glossary.rst:393
 msgid "Transition"
 msgstr "Transició"
 
 # skip-rule: kct-wip
-#: ../../glossary.rst:389
+#: ../../glossary.rst:395
+#| msgid ""
+#| "A :term:`Wipe` or Dissolve :term:`composition` between two overlapping "
+#| "clips."
 msgid ""
-"A :term:`Wipe` or Dissolve :term:`composition` between two overlapping clips."
+"A :term:`Wipe` or Dissolve :term:`composition` between two overlapping "
+"clips. See chapters :doc:`/compositing/compositions` and :doc:`/compositing/"
+"transitions`."
 msgstr ""
 "Una :term:`cortineta <Wipe>` o una :term:`composició` dissolució entre dos "
-"clips que se superposen."
+"clips que se superposen. Vegeu els capítols :doc:`/compositing/compositions` i"
+" :doc:`/compositing/transitions`."
 
-#: ../../glossary.rst:390
+#: ../../glossary.rst:396
 msgid "Video"
 msgstr "Vídeo"
 
 # skip-rule: rst-italic2
-#: ../../glossary.rst:392
+#: ../../glossary.rst:398
 msgid "An asset or file with a video :term:`stream`."
 msgstr "Un recurs o fitxer amb un :term:`flux <stream>` de vídeo."
 
-#: ../../glossary.rst:393
+#: ../../glossary.rst:399
 msgid "Video Track"
 msgstr "Pista de vídeo"
 
-#: ../../glossary.rst:395
+#: ../../glossary.rst:401
 msgid ""
 "A type of track that only accepts clips with video, image, title, or color. "
 "Needs a corresponding :term:`audio track` to accept a clip with video and "
@@ -1540,11 +1642,11 @@ msgstr ""
 "acceptar un clip amb un :term:`flux <stream>` de vídeo i àudio. Vegeu :ref:"
 "`tracks`."
 
-#: ../../glossary.rst:396
+#: ../../glossary.rst:402
 msgid "Widget"
 msgstr "Giny"
 
-#: ../../glossary.rst:398
+#: ../../glossary.rst:404
 msgid ""
 "A blend (portmanteau) of 'window' and 'gadget' coined by American playwright "
 "George S. Kaufman in 1924. A small applet as part of the :term:`layout` for "
@@ -1559,12 +1661,12 @@ msgstr ""
 "acomodar diferents fluxos de treball. Vegeu :ref:`user_interface`."
 
 # skip-rule: kct-wip
-#: ../../glossary.rst:399
+#: ../../glossary.rst:405
 msgid "Wipe"
 msgstr "Cortineta"
 
 # skip-rule: kct-wip, rst-italic2
-#: ../../glossary.rst:401
+#: ../../glossary.rst:407
 msgid ""
 "A special type of :term:`composition` mostly used as a transition from one "
 "clip to another. See :doc:`Wipe </compositing/transitions/wipe>`."
@@ -1573,11 +1675,11 @@ msgstr ""
 "principalment com a transició d'un clip a un altre. Vegeu :doc:`Cortineta </"
 "compositing/transitions/wipe>`."
 
-#: ../../glossary.rst:402
+#: ../../glossary.rst:408
 msgid "YIQ"
 msgstr "YIQ"
 
-#: ../../glossary.rst:404
+#: ../../glossary.rst:410
 msgid ""
 "Color space used by the analog NTSC color TV system. For more details see "
 "the Wikipedia page about |yiq|."
@@ -1585,11 +1687,11 @@ msgstr ""
 "Espai de color utilitzat pel sistema analògic de televisió en color NTSC. "
 "Per a més detalls, vegeu la pàgina de la Viquipèdia sobre |yiq|."
 
-#: ../../glossary.rst:405
+#: ../../glossary.rst:411
 msgid "YPbPr"
 msgstr "YPbPr"
 
-#: ../../glossary.rst:407
+#: ../../glossary.rst:413
 msgid ""
 "A color space used in video electronics. Also written as Y'PbPr or YP\\ :sub:"
 "`B`\\ P\\ :sub:`R`. Used in particular when referring to component video "
@@ -1600,11 +1702,11 @@ msgstr ""
 "referència als cables de vídeo dels components. Per a més detalls, vegeu la "
 "pàgina de la Viquipèdia sobre |ypbpr|."
 
-#: ../../glossary.rst:408
+#: ../../glossary.rst:414
 msgid "YCbCr"
 msgstr "YCbCr"
 
-#: ../../glossary.rst:410
+#: ../../glossary.rst:416
 msgid ""
 "A color space used for any digital encoding of YCbCr suited for video and "
 "image compression and transmission formats such as MPEG and JPEG. For more "
@@ -1615,11 +1717,11 @@ msgstr ""
 "i JPEG. Per a més detalls, consulteu la pàgina de la Viquipèdia sobre |"
 "ycbcr|."
 
-#: ../../glossary.rst:411
+#: ../../glossary.rst:417
 msgid "YUV"
 msgstr "YUV"
 
-#: ../../glossary.rst:413
+#: ../../glossary.rst:419
 msgid ""
 "A color model used to encode a color image or video taking human perception "
 "into account. Y stands for the :term:`luminance`, U for blue projection and "
@@ -1629,11 +1731,11 @@ msgstr ""
 "tenint en compte la percepció humana. Y significa :term:`luminància`, U és "
 "per la projecció blava i V per la projecció vermella."
 
-#: ../../glossary.rst:414
+#: ../../glossary.rst:420
 msgid "Zone"
 msgstr "Zona"
 
-#: ../../glossary.rst:416
+#: ../../glossary.rst:422
 msgid ""
 "A defined region of a clip or the timeline. Use a clip zone to bring only a "
 "portion of the clip into the timeline. Use a timeline zone to render only "
@@ -1650,11 +1752,11 @@ msgstr ""
 "timeline_preview_rendering`). Una zona es defineix establint un :term:`punt "
 "d'entrada <in-point>` i un :term:`punt de sortida <out-point>`."
 
-#: ../../glossary.rst:417
+#: ../../glossary.rst:423
 msgid "Zoom"
 msgstr "Zoom"
 
-#: ../../glossary.rst:419
+#: ../../glossary.rst:425
 msgid ""
 "Increase or decrease the level of detail. You can zoom the timeline by using "
 "the icons or by :kbd:`Ctrl+wheel`. Clip and Project Monitor can be zoomed by "
