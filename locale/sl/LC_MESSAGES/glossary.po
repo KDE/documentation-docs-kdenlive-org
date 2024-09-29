@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-08-29 16:30+0200\n"
+"PO-Revision-Date: 2024-09-28 09:52+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -43,7 +43,7 @@ msgstr "Slovarček"
 
 #: ../../glossary.rst:81
 msgid "Asset"
-msgstr ""
+msgstr "Sredstvo"
 
 #: ../../glossary.rst:83
 msgid ""
@@ -51,6 +51,10 @@ msgid ""
 "clip, and animation that can be and is used in a project. All assets are "
 "listed in the :term:`Project Bin`."
 msgstr ""
+"Sredstvo je poljubna večpredstavnostna datoteka (video, zvok, slika), "
+"posnetek naslova, barvni izrezek in animacija, ki se lahko uporablja in je "
+"uporabljena v projektu. Vsa sredstva so navedena v razdelku :term:`Projektna "
+"posoda<Project Bin>`."
 
 #: ../../glossary.rst:84
 msgid "Audio Mixer"
@@ -89,17 +93,14 @@ msgid "Backup"
 msgstr "Varnostna kopija"
 
 #: ../../glossary.rst:95
-#, fuzzy
-#| msgid ""
-#| "Kdenlive creates backup files for the current project. They are stored in "
-#| "a special folder. See :ref:`backup widget <backup>`."
 msgid ""
 "Kdenlive creates backup files for the current project. They are stored in a "
 "special folder. See the chapter :doc:`/project_and_asset_management/"
 "file_management/backup`."
 msgstr ""
-"Kdenlive ustvari datoteke varnostnih kopij za trenutni projekt. Shranjene so "
-"v posebni mapi. Glejte :ref:`gradnik za varnostno kopiranje <backup>`."
+"Kdenlive ustvari varnostne kopije za trenutni projekt. Shranjene so v "
+"posebni mapi. Glejte poglavje :doc:`/project_and_asset_management/"
+"file_management/backup`."
 
 #: ../../glossary.rst:96
 msgid "Caret"
@@ -134,13 +135,6 @@ msgid "Clip"
 msgstr "Posnetek"
 
 #: ../../glossary.rst:105
-#, fuzzy
-#| msgid ""
-#| "Essentially any file with video and/or audio, a simple image or any asset "
-#| "created through Kdenlive, e.g. title clip, color clip, animation (via "
-#| "Glaxnimate). A clip can be in the :term:`Project Bin` or :term:"
-#| "`Timeline`, or be referred to as the result of a :term:"
-#| "`Render<exporting>`."
 msgid ""
 "Essentially any file with video and/or audio, a simple image or any asset "
 "created through Kdenlive, e.g. title clip, color clip, animation (via "
@@ -152,7 +146,8 @@ msgstr ""
 "sliko ali poljubno sredstvo, ustvarjeno v programu Kdenlive, npr. naslovni "
 "posnetek, barvni posnetek, animacijo (prek Glaxnimate). Posnetek je lahko v :"
 "term:`projektni mapi<Project Bin>`, :term:`časovnici<Timeline>` ali pa se "
-"nanj sklicuje kot na rezultat :term:`izrisovanja<exporting>`."
+"nanj sklicuje kot na rezultat :term:`izrisovanja<exporting>`. Glejte "
+"poglavje :doc:`/project_and_asset_management/project_bin/clips`."
 
 #: ../../glossary.rst:106
 msgid "CMYK"
@@ -237,10 +232,8 @@ msgstr ""
 "barvne palete, prilagajanje barvnim anomalijam v viru."
 
 #: ../../glossary.rst:124
-#, fuzzy
-#| msgid "Color Grading"
 msgid "Color Range"
-msgstr "Koloriranje"
+msgstr "Barvni obseg"
 
 #: ../../glossary.rst:126
 msgid ""
@@ -250,6 +243,12 @@ msgid ""
 "headroom for video processing and exposure ranges, ranges are smaller, like "
 "16-235 for :term:`luma`, and 16-240 for :term:`chroma`."
 msgstr ""
+"Izraz z večjim pomenom v radiodifuziji. Današnja oprema za snemanje videa "
+"snema v celotnem barvnem obsegu. Vsaka barvna komponenta je 8-bitna in ima "
+"lahko vrednost od 0 do 255, vendar le, če je v polnem obsegu. V nasprotnem "
+"primeru so razponi manjši, da bi omogočili prostor za obdelavo videa in "
+"razpone osvetlitve, na primer 16-235 za :term:`lumo<luma>’ in 16-240 za :"
+"term:`kromatičnost<chroma>`."
 
 #: ../../glossary.rst:127
 msgid "Color Space"
@@ -276,10 +275,6 @@ msgid "Composition"
 msgstr "Sestava"
 
 #: ../../glossary.rst:132
-#, fuzzy
-#| msgid ""
-#| "Also referred to as a transition, it combines at least two input :term:"
-#| "`clips<clip>` to one output clip. Compositions cannot be stacked."
 msgid ""
 "Also referred to as a transition, it combines at least two input :term:"
 "`clips<clip>` to one output clip. Compositions cannot be stacked. See "
@@ -287,7 +282,8 @@ msgid ""
 "transitions`."
 msgstr ""
 "Imenuje se tudi prehod in združi vsaj dva vhodna :term:`posnetka<clip>` v en "
-"izhodni posnetek. Sestav ni mogoče zlagati eno na drugo."
+"izhodni posnetek. Sestav ni mogoče zlagati eno na drugo. Glejte poglavji :"
+"doc:`/compositing/compositions` in :doc:`/compositing/transitions`."
 
 #: ../../glossary.rst:133
 msgid "Container"
@@ -690,19 +686,14 @@ msgid "Library"
 msgstr "Knjižnica"
 
 #: ../../glossary.rst:217
-#, fuzzy
-#| msgid ""
-#| "Holds assets for generic use in projects. For example, watermarks, logos, "
-#| "lower-thirds, intros, and so on. See :doc:`/tips_and_tricks/useful_info/"
-#| "the_library`."
 msgid ""
 "Holds assets for generic use in projects. For example, watermarks, logos, "
 "lower-thirds, intros, and so on. See the chapter :doc:`Library</"
 "project_and_asset_management/library>`."
 msgstr ""
 "Hrani sredstva za splošno uporabo v projektih. Npr. vodne žige, logotipe, "
-"spodnje tretjine, uvodne špice itn. Glejte :doc:`/tips_and_tricks/"
-"useful_info/the_library`."
+"spodnje tretjine, uvodne špice itn. Glejte poglavje :doc:`Knjižnica</"
+"project_and_asset_management/library>`."
 
 #: ../../glossary.rst:218
 msgid "Lock"
@@ -778,12 +769,6 @@ msgid "Media Browser"
 msgstr "Predstavnostni predvajalnik"
 
 #: ../../glossary.rst:236
-#, fuzzy
-#| msgid ""
-#| "Allows easy browsing of the file system and previewing media clips and "
-#| "other assets for importing to the :term:`Project Bin`. A widget that can "
-#| "be switched on and off via :menuselection:`Menu --> View --> Media "
-#| "Browser`. See :ref:`media_browser`."
 msgid ""
 "Allows easy browsing of the file system and previewing media clips and other "
 "assets for importing to the :term:`Project Bin`. A widget that can be "
@@ -794,8 +779,8 @@ msgstr ""
 "Omogoča enostavno brskanje po datotečnem sistemu ter predogled medijskih "
 "posnetkov in drugih sredstev za uvoz v :term:`projektno posodo<Project "
 "Bin>`. Gradnik, ki ga lahko vklopite in izklopite prek :menuselection:`Meni "
-"--> Pogled --> Medijski brskalnik`. Glejte :ref:`medijski brskalnik "
-"<media_browser>`."
+"--> Pogled --> Medijski brskalnik`. Glejte :ref:`medijski brskalnik </"
+"project_and_asset_management/media_browser>`."
 
 #: ../../glossary.rst:237
 msgid "MELT"
@@ -1052,33 +1037,20 @@ msgid "Project Bin"
 msgstr "Projektna posoda"
 
 #: ../../glossary.rst:292
-#, fuzzy
-#| msgid ""
-#| "Lists all the clips and assets that are associated with the project. "
-#| "Referred to as the 'Project Tree' in earlier versions. See :ref:"
-#| "`project_tree`."
 msgid ""
 "Lists all the clips and assets that are associated with the project. "
 "Referred to as the 'Project Tree' in earlier versions. See the chapter :doc:"
 "`Project Bin</project_and_asset_management/project_bin>`."
 msgstr ""
 "Izpiše vse posnetke in sredstva, povezana s projektom. V prejšnjih "
-"različicah se imenuje »drevo projekta«. Glejte :ref:`drevo "
-"projekta<project_tree>`."
+"različicah se imenuje »drevo projekta«. Glejte poglavje :doc:`Projektna "
+"posoda</project_and_asset_management/project_bin>`."
 
 #: ../../glossary.rst:293
 msgid "Project Settings"
 msgstr "Nastavitve projekta"
 
 #: ../../glossary.rst:295
-#, fuzzy
-#| msgid ""
-#| "Defines the format (dimensions, aspect ratio, frames-per-second setting) "
-#| "of the project through the choice of profile or :term:`preset`, which "
-#| "working directory to use, how many video and audio tracks there are "
-#| "initially, and which profile to use for previews. Stores meta data for "
-#| "your project (e.g. title, author, copyright information). See :ref:"
-#| "`manage_project_profiles`."
 msgid ""
 "Defines the format (dimensions, aspect ratio, frames-per-second setting) of "
 "the project through the choice of profile or :term:`preset`, which working "
@@ -1092,7 +1064,8 @@ msgstr ""
 "mapa naj se uporabi, koliko je na začetku video in zvočnih stez ter kateri "
 "profil naj se uporabi za predogled. Shranjuje metapodatke za vaš projekt "
 "(npr. naslov, avtorja, informacije o avtorskih pravicah). Glejte :ref:"
-"`upravljanje profilov projekta<manage_project_profiles>`."
+"`upravljanje profilov projekta</project_and_asset_management/"
+"project_settings>`."
 
 #: ../../glossary.rst:296
 msgid "Profile"
@@ -1382,22 +1355,16 @@ msgid "Timeline"
 msgstr "Časovnica"
 
 #: ../../glossary.rst:362
-#, fuzzy
-#| msgid ""
-#| "The central part of Kdenlive. This is where all the editing takes place. "
-#| "Keeps a chronological sequence of the clips and the relations to each "
-#| "other through tracks and compositions. Can be zoomed. See also :ref:"
-#| "`sequence` for nested timelines."
 msgid ""
 "The :doc:`central part</user_interface/timeline>` of Kdenlive. This is where "
 "all the editing takes place. Keeps a chronological sequence of the clips and "
 "the relations to each other through tracks and compositions. Can be zoomed. "
 "See also :ref:`sequence` for nested timelines."
 msgstr ""
-"Osrednji del programa Kdenlive. Tu poteka vsa montaža in urejanje. Ohranja "
-"kronološko zaporedje posnetkov in medsebojna razmerja prek stez in sestav. "
-"Lahko jo povečate. Glejte tudi :ref:`zaporedje<sequence>` za gnezdene "
-"časovnice."
+":doc:`Osrednji del </user_interface/timeline>` programa Kdenlive. Tu poteka "
+"vsa montaža in urejanje. Ohranja kronološko zaporedje posnetkov in "
+"medsebojna razmerja prek stez in sestav. Lahko jo povečate. Glejte tudi :ref:"
+"`zaporedje<sequence>` za gnezdene časovnice."
 
 #: ../../glossary.rst:363
 msgid "Timeline Ruler"
@@ -1469,17 +1436,6 @@ msgid "Track"
 msgstr "Steza"
 
 #: ../../glossary.rst:380
-#, fuzzy
-#| msgid ""
-#| "Holds various assets in the timeline. Can be muted and locked "
-#| "individually. Can have effects in its own stack that apply to all clips "
-#| "in that track. Track height can be adjusted. Tracks can be inserted and "
-#| "deleted. Video tracks only accept clips with video, image, title, or "
-#| "color; audio tracks only accept pure audio clips or the audio track of a "
-#| "video clip. There is a relationship between video and audio tracks: A "
-#| "video clip with an audio :term:`stream` can only be put into a track "
-#| "where there is a corresponding audio track - V1/A1, V2/A2, V3/A3 and so "
-#| "on. See :ref:`tracks`."
 msgid ""
 "Holds various :term:`assets <asset>` in the timeline. Can be muted and "
 "locked individually. Can have effects in its own stack that apply to all "
@@ -1491,15 +1447,15 @@ msgid ""
 "is a corresponding audio track - V1/A1, V2/A2, V3/A3 and so on. See :ref:"
 "`tracks`."
 msgstr ""
-"Hrani različna sredstva v časovnici. Posamično jo je mogoče utišati in "
-"zakleniti. V svojem nizu ima lahko učinke, ki veljajo za vse posnetke na tej "
-"sledi. Višino steze je mogoče prilagoditi. Steze lahko vstavljate in "
-"brišete. Video steze sprejemajo samo posnetke z videom, sliko, naslovom/"
-"napisom ali barvo; zvočne steze sprejemajo samo čiste zvočne posnetke ali "
-"zvočno stezo video posnetka. Med video in zvočnimi stezami obstaja razmerje: "
-"video posnetek z zvočnim :term:`tokom<stream>` lahko vstavite samo na stezo, "
-"kjer je ustrezna zvočna steza - V1/A1, V2/A2, V3/A3 in tako naprej. Glejte :"
-"ref:`steze<tracks>`."
+"Hrani različna :term:`sredstva <asset>` v časovnici. Posamično jo je mogoče "
+"utišati in zakleniti. V svojem nizu ima lahko učinke, ki veljajo za vse "
+"posnetke na tej sledi. Višino steze je mogoče prilagoditi. Steze lahko "
+"vstavljate in brišete. Video steze sprejemajo samo posnetke z videom, sliko, "
+"naslovom/napisom ali barvo; zvočne steze sprejemajo samo čiste zvočne "
+"posnetke ali zvočno stezo video posnetka. Med video in zvočnimi stezami "
+"obstaja razmerje: video posnetek z zvočnim :term:`tokom<stream>` lahko "
+"vstavite samo na stezo, kjer je ustrezna zvočna steza - V1/A1, V2/A2, V3/A3 "
+"in tako naprej. Glejte :ref:`steze<tracks>`."
 
 #: ../../glossary.rst:381
 msgid "Active Track"
@@ -1554,17 +1510,14 @@ msgid "Transition"
 msgstr "Prehod"
 
 #: ../../glossary.rst:395
-#, fuzzy
-#| msgid ""
-#| "A :term:`Wipe` or Dissolve :term:`composition` between two overlapping "
-#| "clips."
 msgid ""
 "A :term:`Wipe` or Dissolve :term:`composition` between two overlapping "
 "clips. See chapters :doc:`/compositing/compositions` and :doc:`/compositing/"
 "transitions`."
 msgstr ""
 ":term:`Sestava`:term:`zavese<Wipe>` ali preliva med dvema prekrivajočima se "
-"posnetkoma."
+"posnetkoma. Glejte poglavji :doc:`/compositing/compositions` in :doc:`/"
+"compositing/transitions`."
 
 #: ../../glossary.rst:396
 msgid "Video"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-09-27 20:45+0300\n"
+"PO-Revision-Date: 2024-09-28 20:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -36,7 +36,7 @@ msgstr "Глосарій"
 
 #: ../../glossary.rst:81
 msgid "Asset"
-msgstr "Актив"
+msgstr "Ресурс"
 
 #: ../../glossary.rst:83
 msgid ""
@@ -44,6 +44,10 @@ msgid ""
 "clip, and animation that can be and is used in a project. All assets are "
 "listed in the :term:`Project Bin`."
 msgstr ""
+"Ресурсом є будь-який файл мультимедійних даних (відео, звук, зображення),"
+" кліп титрів, кольоровий кліп та анімація, яким можна скористатися і яким"
+" користуються у проєкті. Усі активи наведено у списку :term:`контейнера"
+" проєкту`."
 
 #: ../../glossary.rst:84
 msgid "Audio Mixer"
@@ -83,7 +87,6 @@ msgid "Backup"
 msgstr "Резервне копіювання"
 
 #: ../../glossary.rst:95
-#, fuzzy
 #| msgid ""
 #| "Kdenlive creates backup files for the current project. They are stored in "
 #| "a special folder. See :ref:`backup widget <backup>`."
@@ -93,8 +96,8 @@ msgid ""
 "file_management/backup`."
 msgstr ""
 "Kdenlive створює файли резервних копій для поточного проєкту. Вони "
-"зберігаються в особливій теці. Див. :ref:`віджет резервного копіювання "
-"<backup>`."
+"зберігаються в особливій теці. Див. :doc:`/project_and_asset_management/file_"
+"management/backup`."
 
 #: ../../glossary.rst:96
 msgid "Caret"
@@ -129,12 +132,6 @@ msgid "Clip"
 msgstr "Кліп"
 
 #: ../../glossary.rst:105
-#| msgid ""
-#| "Essentially any file with video and/or audio, a simple image or any asset "
-#| "created through Kdenlive, e.g. title clip, color clip, animation (via "
-#| "Glaxnimate). A clip can be in the :term:`Project Bin` or :term:"
-#| "`Timeline`, or be referred to as the result of a :term:"
-#| "`Render<exporting>`."
 msgid ""
 "Essentially any file with video and/or audio, a simple image or any asset "
 "created through Kdenlive, e.g. title clip, color clip, animation (via "
@@ -234,7 +231,6 @@ msgstr ""
 "кольорів у початковому відео."
 
 #: ../../glossary.rst:124
-#| msgid "Color Grading"
 msgid "Color Range"
 msgstr "Діапазон кольорів"
 
@@ -246,6 +242,13 @@ msgid ""
 "headroom for video processing and exposure ranges, ranges are smaller, like "
 "16-235 for :term:`luma`, and 16-240 for :term:`chroma`."
 msgstr ""
+"Термін із переважною значимістю при транслюванні. Сучасне обладнання для"
+" запису відео виконує запис у повному діапазоні кольорів. Кожен компонент"
+" кольору є 8-бітовим і може мати значення від 0 до 255, але лише якщо у"
+" повному діапазоні. Якщо це не так, для забезпечення місця для обробки відео"
+" та діапазонів експонування, діапазони значень є вужчими, наприклад 16-235"
+" для :term:`яскравості<luma>` та 16-240 для :term:`сигналу колірності<chroma"
+">`."
 
 #: ../../glossary.rst:127
 msgid "Color Space"
@@ -272,9 +275,6 @@ msgid "Composition"
 msgstr "Композиція"
 
 #: ../../glossary.rst:132
-#| msgid ""
-#| "Also referred to as a transition, it combines at least two input :term:"
-#| "`clips<clip>` to one output clip. Compositions cannot be stacked."
 msgid ""
 "Also referred to as a transition, it combines at least two input :term:"
 "`clips<clip>` to one output clip. Compositions cannot be stacked. See "
@@ -282,9 +282,8 @@ msgid ""
 "transitions`."
 msgstr ""
 "Також називають переходом. Поєднує принаймні два вхідних :term:`кліпи "
-"<clip>` до одного кліпу-результату. Композиції не можна додавати до стосу."
-" Див. :doc:`/compositing/compositions` і :doc:`/compositing/"
-"transitions`."
+"<clip>` до одного кліпу-результату. Композиції не можна додавати до стосу. "
+"Див. :doc:`/compositing/compositions` і :doc:`/compositing/transitions`."
 
 #: ../../glossary.rst:133
 msgid "Container"
@@ -690,7 +689,6 @@ msgid "Library"
 msgstr "Бібліотека"
 
 #: ../../glossary.rst:217
-#, fuzzy
 #| msgid ""
 #| "Holds assets for generic use in projects. For example, watermarks, logos, "
 #| "lower-thirds, intros, and so on. See :doc:`/tips_and_tricks/useful_info/"
@@ -701,8 +699,8 @@ msgid ""
 "project_and_asset_management/library>`."
 msgstr ""
 "Містить ресурси для загального використання у проєктах. Наприклад, «водяні» "
-"знаки, логотипи, нижні третини, вступи тощо. Див. :doc:`/tips_and_tricks/"
-"useful_info/the_library`."
+"знаки, логотипи, нижні третини, вступи тощо. Див. :doc:`розділ щодо"
+" бібліотеки</project_and_asset_management/library>`."
 
 #: ../../glossary.rst:218
 msgid "Lock"
@@ -781,7 +779,6 @@ msgid "Media Browser"
 msgstr "Навігатор мультимедіа"
 
 #: ../../glossary.rst:236
-#, fuzzy
 #| msgid ""
 #| "Allows easy browsing of the file system and previewing media clips and "
 #| "other assets for importing to the :term:`Project Bin`. A widget that can "
@@ -798,7 +795,9 @@ msgstr ""
 "мультимедійних кліпів та інших ресурсів для імпортування до :term:"
 "`контейнера проєкту <Project Bin>`. Віджет можна увімкнути або вимкнути за "
 "допомогою сторінки :menuselection:`Меню --> Перегляд --> Навігатор "
-"мультимедіа`. Див. :ref:`media_browser`."
+"мультимедіа`. Див. :doc:`навігатор мультимедійними даними<"
+"/project_and_asset_management/"
+"media_browser>`."
 
 #: ../../glossary.rst:237
 msgid "MELT"
@@ -1058,7 +1057,6 @@ msgid "Project Bin"
 msgstr "Контейнер проєкту"
 
 #: ../../glossary.rst:292
-#, fuzzy
 #| msgid ""
 #| "Lists all the clips and assets that are associated with the project. "
 #| "Referred to as the 'Project Tree' in earlier versions. See :ref:"
@@ -1069,14 +1067,14 @@ msgid ""
 "`Project Bin</project_and_asset_management/project_bin>`."
 msgstr ""
 "Список усіх кліпів та ресурсів, які пов'язано із проєктом. У ранніх версіях "
-"мав назву «Ієрархія проєкту». Див. :ref:`project_tree`."
+"мав назву «Ієрархія проєкту». Див. :doc:`контейнер проєкту<"
+"/project_and_asset_management/project_bin>`."
 
 #: ../../glossary.rst:293
 msgid "Project Settings"
 msgstr "Параметри проєкту"
 
 #: ../../glossary.rst:295
-#, fuzzy
 #| msgid ""
 #| "Defines the format (dimensions, aspect ratio, frames-per-second setting) "
 #| "of the project through the choice of profile or :term:`preset`, which "
@@ -1097,8 +1095,9 @@ msgstr ""
 "<preset>`, те, який каталог слід використовувати, скільки відеодоріжок та "
 "звукових доріжок має бути на початку проєкту, який профіль слід "
 "використовувати для попереднього перегляду. Зберігає метадані для вашого "
-"проєкту (наприклад заголовок, дані автора, дані щодо авторських прав). Див. :"
-"ref:`manage_project_profiles`."
+"проєкту (наприклад заголовок, дані автора, дані щодо авторських прав). Див."
+" :doc:`параметри проєкту</"
+"project_and_asset_management/project_settings>`."
 
 #: ../../glossary.rst:296
 msgid "Profile"
@@ -1387,7 +1386,6 @@ msgid "Timeline"
 msgstr "Монтажний стіл"
 
 #: ../../glossary.rst:362
-#, fuzzy
 #| msgid ""
 #| "The central part of Kdenlive. This is where all the editing takes place. "
 #| "Keeps a chronological sequence of the clips and the relations to each "
@@ -1399,7 +1397,8 @@ msgid ""
 "the relations to each other through tracks and compositions. Can be zoomed. "
 "See also :ref:`sequence` for nested timelines."
 msgstr ""
-"Центральна частина Kdenlive. Тут відбувається увесь процес редагування. "
+":doc:`Центральна частина</user_interface/timeline>` Kdenlive. Тут"
+" відбувається увесь процес редагування. "
 "Зберігає хронологічну послідовність кліпів та зв'язок між ним на основі "
 "доріжок та композицій. Можна масштабувати. Див. такою :ref:`sequence` щодо "
 "вкладених монтажних столів."
@@ -1475,7 +1474,6 @@ msgid "Track"
 msgstr "Доріжка"
 
 #: ../../glossary.rst:380
-#, fuzzy
 #| msgid ""
 #| "Holds various assets in the timeline. Can be muted and locked "
 #| "individually. Can have effects in its own stack that apply to all clips "
@@ -1497,7 +1495,8 @@ msgid ""
 "is a corresponding audio track - V1/A1, V2/A2, V3/A3 and so on. See :ref:"
 "`tracks`."
 msgstr ""
-"Містить різноманітні ресурси на монтажному столі. Можна вимикати або "
+"Містить різноманітні :term:`ресурси <asset>` на монтажному столі. Можна"
+" вимикати або "
 "блокувати окремо. Може мати власний стос ефектів, який застосовується до "
 "усіх кліпів доріжки. Висоту доріжки можна змінювати. Доріжки можна вставляти "
 "і вилучати. На відеодоріжках можна розташовувати лише кліпи з відео, "
@@ -1560,7 +1559,6 @@ msgid "Transition"
 msgstr "Перехід"
 
 #: ../../glossary.rst:395
-#, fuzzy
 #| msgid ""
 #| "A :term:`Wipe` or Dissolve :term:`composition` between two overlapping "
 #| "clips."
@@ -1570,7 +1568,9 @@ msgid ""
 "transitions`."
 msgstr ""
 ":term:`Композиція <composition>` :term:`витирання <Wipe>` або розчинення між "
-"двома кліпами, що перекриваються."
+"двома кліпами, що перекриваються. Див. :doc:`/compositing/compositions` і"
+" :doc:`/compositing/"
+"transitions`."
 
 #: ../../glossary.rst:396
 msgid "Video"

@@ -7,9 +7,9 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-05-27 07:58+0300\n"
+"PO-Revision-Date: 2024-09-28 09:43+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,14 +66,13 @@ msgid ":guilabel:`Open the last project on startup`"
 msgstr ":guilabel:`Відкривати після запуску попередній проєкт`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:54
-#, fuzzy
 #| msgid ":guilabel:`Activate Crash recovery` (:ref:`auto_save`)"
 msgid ""
 ":guilabel:`Activate Crash recovery` (:doc:`auto_save</"
 "project_and_asset_management/file_management/auto_save>`)"
 msgstr ""
-":guilabel:`Задіяти відновлення після аварій` (:ref:`автоматичне резервне "
-"копіювання <auto_save>`)"
+":guilabel:`Задіяти відновлення після аварій` (:doc:`автоматичне резервне"
+" копіювання </project_and_asset_management/file_management/auto_save>`)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:56
 msgid "**Clip import**"
@@ -385,7 +384,6 @@ msgid "**Proxy and Transcode Jobs**"
 msgstr "**Завдання зі створення проміжних кліпів та перекодування**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:215
-#, fuzzy
 #| msgid ""
 #| ":guilabel:`Concurrent threads` This will set the number of threads the "
 #| "program will attempt to use when calling ffmpeg to encode :ref:`clips`. "
@@ -406,10 +404,13 @@ msgid ""
 msgstr ""
 ":guilabel:`Конкурентні потоки обробки`. Цей параметр встановлює кількість "
 "потоків обробки, якими програма спробує скористатися при виклику ffmpeg для "
-"кодування :ref:`кліпів <clips>`. Саме це значення kdenlive передасть до "
+"кодування :doc:`кліпів </project_and_asset_management/project_bin/clips>`."
+" Саме це значення kdenlive передасть до "
 "параметра ffmpeg  *-threads*. Збільшення значення цього параметра може не "
 "спрацювати, якщо вами було змінено параметри кодування проміжних кліпів на "
-"за допомогою вікна :ref:`project_settings` так, що буде використано кодек, "
+"за допомогою вікна :doc:`параметрів проєкту <"
+"/project_and_asset_management/project_settings/proxy_settings>` так, що буде"
+" використано кодек, "
 "для якого у ffmpeg не передбачено багатопотокової обробки. (Багатопотокову "
 "обробку передбачено для MPEG-2, MPEG-4, H.264 і VP8)"
 
@@ -831,7 +832,6 @@ msgid "Configure Screen Grab Capture"
 msgstr "Налаштовування захоплення відео з екрана"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:460
-#, fuzzy
 #| msgid ""
 #| "These settings configure screen grab within **Kdenlive**. More details "
 #| "see :ref:`here <capturing>`."
@@ -840,7 +840,8 @@ msgid ""
 "doc:`here </project_and_asset_management/capturing_video>`."
 msgstr ""
 "Ці параметри визначають налаштування захоплення у **Kdenlive**. Докладніший "
-"опис можна знайти у розділі :ref:`capturing`."
+"опис можна знайти у розділі щодо :doc:`захоплення <"
+"/project_and_asset_management/capturing_video>`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
 msgid "Blackmagic"
@@ -859,7 +860,6 @@ msgid "Audio"
 msgstr "Звук"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:480
-#, fuzzy
 #| msgid ""
 #| "Microphone settings, either for screen :ref:`capturing` or for :ref:"
 #| "`capturingaudio` direct into the timeline."
@@ -868,8 +868,10 @@ msgid ""
 "project_and_asset_management/capturing_video>` or for :doc:`capturing audio</"
 "project_and_asset_management/capturing_audio>` direct into the timeline."
 msgstr ""
-"Параметри мікрофона, або для :ref:`захоплення з екрана <capturing>`, або "
-"для :ref:`захоплення звуку <capturingaudio>` безпосередньо на монтажний стіл."
+"Параметри мікрофона, або для :doc:`захоплення з екрана <"
+"/project_and_asset_management/capturing_video>`, або "
+"для :doc:`захоплення звуку </project_and_asset_management/capturing_audio>`"
+" безпосередньо на монтажний стіл."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:484
 msgid ":guilabel:`Disable countdown before recording`"
@@ -888,7 +890,6 @@ msgid "Following paragraph is for history reason only."
 msgstr "Наступний абзац наведено лише з історичних міркувань."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:492
-#, fuzzy
 #| msgid ""
 #| "Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, "
 #| "Blackmagic, Audio) from this section."
@@ -897,15 +898,15 @@ msgid ""
 "capturing_video>` devices (Firewire, FFmpeg, Screen Grab, Blackmagic, Audio) "
 "from this section."
 msgstr ""
-"За допомогою цього розділу можна налаштувати пристрої :ref:`захоплення "
-"<capturing>` (Firewire, FFmpeg, захоплення з екрана, Blackmagic, Звук)."
+"За допомогою цього розділу можна налаштувати пристрої :doc:`захоплення <"
+"/project_and_asset_management/capturing_video>` (Firewire, FFmpeg,"
+" захоплення з екрана, Blackmagic, Звук)."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:496
 msgid "Configure Firewire Capture"
 msgstr "Налаштовування захоплення з Firewire"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:498
-#, fuzzy
 #| msgid ""
 #| "The image shows the Configure Firewire capture tab which can be accessed "
 #| "from the :menuselection:`Settings --> Configure Kdenlive` menu or from "
@@ -917,8 +918,8 @@ msgid ""
 msgstr ""
 "На цьому зображенні показано вкладку налаштовування захоплення з Firewire, "
 "відкрити яку можна за допомогою пункту меню :menuselection:`Параметри --> "
-"Налаштувати Kdenlive` або за допомогю піктограми із гайковим ключем у :ref:"
-"`capturing`"
+"Налаштувати Kdenlive` або за допомогою піктограми із гайковим ключем на"
+" панелі захоплення зображення"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:507
 msgid ""
