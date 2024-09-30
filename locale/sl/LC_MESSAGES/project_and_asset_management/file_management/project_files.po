@@ -1,0 +1,227 @@
+# Translation of kdenlive Manual to Slovenian
+#
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-29 12:57+0200\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"Language: sl\n"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:1
+msgid "Kdenlive Documentation - Project File Details"
+msgstr "Dokumentacija Kdenlive - Podrobnosti o projektni datoteki"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:1
+msgid ""
+"KDE, Kdenlive, project, working, file, management, details, documentation, "
+"user manual, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, projektna posoda, datoteka, upravljanje, podrobnosti, "
+"dokumentacija, uporabniški priročnik, montažni program, program za montažo, "
+"video urejevalnik, odprta koda, brezplačno, prosto, pomoč"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:36
+msgid "Project File Details"
+msgstr "Podrobnosti o datotekah projekta"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:38
+msgid ""
+"Kdenlive's :file:`.kdenlive` project files use an :abbr:`XML(Extensible "
+"Markup Language)` format based on MLT's format to describe the source media "
+"used in a project, as well as the use of that media in the timeline. For "
+"more details see |mlt-xml-doc| and |mlt-dtd-doc| (document type definition)."
+msgstr ""
+"Projektne datoteke programa Kdenlive :file:`.kdenlive` uporabljajo zapis :"
+"abbr:`XML(Extensible Markup Language)`, ki temelji na MLT-jevem zapisu za "
+"opis izvornega medija, uporabljenega v projektu, kot tudi uporabo tega "
+"medija na časovnici. Za podrobnosti glejte |mlt-xml-doc| in |mlt-dtd-doc| "
+"(opredelitev vrste dokumenta)."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:40
+msgid ""
+"For most media, such as video, audio, and images, Kdenlive stores only a "
+"reference in a project, not the media itself. Only some media gets stored "
+"directly inside Kdenlive's project files, most notably Kdenlive :doc:`title</"
+"project_and_asset_management/project_bin/title_clip>` and :doc:`color clips</"
+"project_and_asset_management/project_bin/color_clip>`."
+msgstr ""
+"Za večino medijev, kot so video, zvok in slike, Kdenlive shrani samo sklic v "
+"projektu, ne pa tudi samega medija. Samo nekateri mediji so shranjeni "
+"neposredno v projektne datoteke Kdenlive, predvsem Kdenlive :doc:`naslovi</"
+"project_and_asset_management/project_bin/title_clip>` in :d c:`barvni "
+"posnetki</project_and_asset_management/project_bin/color_clip>`."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:42
+msgid "The advantages of using this file format are:"
+msgstr "Prednosti uporabe te vrste zapisa datoteke so:"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:44
+msgid ""
+"|mlt| is able to directly render Kdenlive project files. MLT simply ignores "
+"all the additional Kdenlive-specific project data and just sticks to its "
+"rendering information. The Kdenlive-specific data is the additional icing on "
+"top that makes working with projects much easier than editing at the (lower) "
+"rendering level."
+msgstr ""
+"|mlt| lahko neposredno izrisuje projektne datoteke Kdenlive. MLT preprosto "
+"prezre vse dodatne podatke o projektu, specifične za Kdenlive, in se drži "
+"svojih informacij o izrisovanju. Podatki, specifični za Kdenlive, so dodatna "
+"češnja na smetani, zaradi katere je delo s projekti veliko lažje kot montaža "
+"in urejanje na (nižji) ravni izrisovanja."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:45
+msgid ""
+"Kdenlive can directly include and work with MLT rendering files, just the "
+"same way it works with other media. In fact, Kdenlive's :doc:`library clips</"
+"project_and_asset_management/library>` are simply MLT rendering files, "
+"nothing more."
+msgstr ""
+"Kdenlive lahko neposredno vključuje in dela z datotekami za izrisovanje MLT, "
+"tako kot deluje z drugimi mediji. Pravzaprav Kdenliveovi :doc:`posnetki "
+"knjižnice</project_and_asset_management/library>` niso nič drugega datoteke "
+"MLT za izrisovanje."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:47
+msgid "The project file holds all relevant information about"
+msgstr "Projektna datoteka vsebuje vse pomembne informacije o"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:49
+msgid ""
+"target video and audio properties (selected in the :doc:`project profile</"
+"project_and_asset_management/project_settings/general_settings>`)"
+msgstr ""
+"ciljnih lastnostih videa in zvoka (izbrane so v oknu :doc:`profil projekta</"
+"project_and_asset_management/project_settings/general_settings>`),"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:50
+msgid ""
+"references to all the source materials (and to their :term:`proxies<proxy>`)"
+msgstr ""
+"sklice na vsa izvorna gradiva (in na njihove :term:`posredne "
+"posnetke<proxy>`),"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:51
+msgid ""
+"position, duration and edits of the clips in the timeline, with applied "
+"effects and their respective parameters including keyframes, and everything "
+"to get the final result"
+msgstr ""
+"položaju, trajanju in montažnih rezih posnetkov na časovnici, z "
+"uporabljenimi učinki in njihovimi parametri, vključno s ključnimi sličicami, "
+"in vsem, da dobite končni rezultat."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:53
+msgid ""
+"Project files are associated with a :doc:`working directory</"
+"project_and_asset_management/file_management/folder_structure>`, in which "
+"**Kdenlive** will generate *proxies* and *thumbnails*, so that an overview "
+"of your media always shows up quickly."
+msgstr ""
+"Projektne datoteke so povezane z :doc:`delovno mapo</"
+"project_and_asset_management/file_management/folder_structure>`, v kateri bo "
+"**Kdenlive** ustvaril *posredne posnetke* in *sličice*, tako da se pregled "
+"vaših medijev vedno hitro prikaže."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:56
+msgid ""
+"If you move your project file, you should declare the directory change in "
+"the project properties."
+msgstr ""
+"Če premaknete datoteko projekta, morate spremembo mape navesti v lastnostih "
+"projekta."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:58
+msgid ""
+"The development of Kdenlive introduces changes to the :file:`.kdenlive` "
+"document format from time to time. For example, the introduction of "
+"sequences (also known as nested timelines) in version 23.04 required new "
+"objects to be stored in the :file:`.kdenlive` file. The document version "
+"changed from 1.04 to 1.1. You can find the document version in the :file:`."
+"kdenlive` file in the line containing this:"
+msgstr ""
+"Razvoj Kdenlive občasno uvaja spremembe v obliki dokumentov :file:`."
+"kdenlive`. Uvedba zaporedij (znanih tudi kot ugnezdene časovnice) v "
+"različici 23.04 je npr. zahtevala, da se novi predmeti shranijo v datoteko :"
+"file:`.kdenlive`. Različica dokumenta se je spremenila iz 1.04 v 1.1. "
+"Različico oblike dokumenta lahko najdete v datoteki :file:`.kdenlive` v "
+"vrstici, ki vsebuje naslednje:"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:64
+msgid ""
+"When Kdenlive opens a project file that was created with a lower (previous) "
+"version of Kdenlive, it upgrades the document version, and automatically "
+"creates a backup copy of the original project file. Kdenlive tells you that "
+"a backup was created and the project file was updated to the new document "
+"version. In the project folder you will find a file called :file:"
+"`myproject_backup.kdenlive` (where *myproject* is the name of your project "
+"file). In case something does not work with the new version of Kdenlive, you "
+"can downgrade Kdenlive and open the backup of your project."
+msgstr ""
+"Ko Kdenlive odpre datoteko projekta, ki je bila ustvarjena z nižjo "
+"(prejšnjo) različico Kdenlive, nadgradi različico dokumenta in samodejno "
+"ustvari varnostno kopijo izvirne datoteke projekta. Kdenlive vam pove, da je "
+"bila ustvarjena varnostna kopija in da je bila datoteka projekta "
+"posodobljena na novo različico dokumenta. V mapi projekta boste našli "
+"datoteko z imenom :file:`mojprojekt_backup.kdenlive` (kjer je *mojprojekt* "
+"ime vaše projektne datoteke). V primeru, da nekaj ne deluje z novo različico "
+"Kdenlive, lahko Kdenlive zamenjate in odprete varnostno kopijo projekta."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:66
+msgid ""
+"This is important because document versions are not necessarily backwards "
+"compatible. In other words: higher (newer) versions of the :file:`.kdenlive` "
+"file format cannot be opened with lower (previous) versions of Kdenlive . "
+"For example, projects created with Kdenlive 23.04 or higher (newer) cannot "
+"be opened by a Kdenlive version lower than (prior to) 23.04 (e.g. 22.12.8) "
+"because the 23.04 release of Kdenlive introduced the document change from "
+"1.04 to 1.1 for the nested timelines."
+msgstr ""
+"To je pomembno, ker različice dokumentov niso nujno združljive za nazaj. Z "
+"drugimi besedami: višje (novejše) različice formata datoteke :file:`."
+"kdenlive` ni mogoče odpreti z nižjimi (prejšnjimi) različicami Kdenlive . "
+"Projektov, ustvarjenih s Kdenlive 23.04 ali novejšim (novejšo različico), "
+"npr. ni mogoče odpreti z različico Kdenlive, ki je nižja od (pred) 23.04 "
+"(npr. 22.12.8), ker je izdaja Kdenlive 23.04 uvedla spremembo dokumenta z "
+"1.04 na 1.1 za ugnezdene časovnice."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:73
+msgid ""
+"Projects created with 20.08 forward are not backwards compatible, that is, "
+"you won't be able to open your :file:`.kdenlive` project files with older "
+"versions."
+msgstr ""
+"Projekti, ustvarjeni z različico 20.08 in novejšimi, niso združljivi s "
+"starejšimi različicami, kar pomeni, da ne boste mogli odpreti projektnih "
+"datotek :file:`.kdenlive` s starejšimi različicami."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:79
+msgid ""
+"Projects created with 23.04 forward are not backwards compatible, that is, "
+"you won't be able to open your :file:`.kdenlive` project files with older "
+"versions."
+msgstr ""
+"Projekti, ustvarjeni z različico 23.04 in novejšimi, niso združljivi s "
+"starejšimi različicami, kar pomeni, da ne boste mogli odpreti projektnih "
+"datotek :file:`.kdenlive` s starejšimi različicami."
+
+#: ../../project_and_asset_management/file_management/project_files.rst:81
+msgid ""
+"For the more technically inclined user a more detailed description of the "
+"file format and how the various objects are described is available in the |"
+"github-repo| of Kdenlive."
+msgstr ""
+"Za tehnično bolj podkovane uporabnike je podrobnejši opis oblike zapisa "
+"datoteke in opisa različnih predmetov na voljo v |github-repo| Kdenlive."
