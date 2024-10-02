@@ -40,76 +40,112 @@ The following table below lists the composition types and their blending mode co
    * - Composition Type
      - Example
      - Blending Mode
-   * - | Addition /
+   * - .. _addition-addition-alpha:
+   
+       | Addition /
        | addition_alpha
      - .. image:: /images/effects_and_compositions/composition_method-addition.webp
      - | Add
        | Perform an RGB[A] addition or addition_alpha operation of the pixel sources (|frei0r.addition| and |frei0r.addition_alpha|, respectively)
-   * - Burn
+   * - .. _burn:
+   
+       Burn
      - .. image:: /images/effects_and_compositions/composition_method-burn.webp
      - | Color Burn
        | Perform an RGB[A] dodge operation between the pixel sources\ [1]_ (|frei0r.burn|)
-   * - Color Only
+   * - .. _color-only:
+   
+       Color Only
      - .. image:: /images/effects_and_compositions/composition_method-color_only.webp
      - | No equivalent
        | Perform a conversion to color only of the source input 1 using the hue and saturation values of input 2 (|frei0r.color_only|)
-   * - Darken
+   * - .. _darken:
+   
+       Darken
      - .. image:: /images/effects_and_compositions/composition_method-darken.webp
      - | Darken
        | Perform a darken operation between two sources (minimum value for both sources) (|frei0r.darken|)
-   * - Difference
+   * - .. _difference:
+   
+       Difference
      - .. image:: /images/effects_and_compositions/composition_method-difference.webp
      - | Difference
        | Perform an RGB[A] difference operation between the pixel sources. (|frei0r.difference|)
-   * - Divide
+   * - .. _divide:
+   
+       Divide
      - .. image:: /images/effects_and_compositions/composition_method-divide.webp
      - | No equivalent
        | Perform an RGB[A] divide operation between the pixel sources\ [2]_ (|frei0r.divide|)
-   * - Dodge
+   * - .. _dodge:
+   
+       Dodge
      - .. image:: /images/effects_and_compositions/composition_method-dodge.webp
      - | Color Dodge
        | Perform an RGB[A] dodge operation between the pixel sources\ [3]_ (|frei0r.dodge|)
-   * - Grain Extract
+   * - .. _grain-extract:
+   
+       Grain Extract
      - .. image:: /images/effects_and_compositions/composition_method-grain_extract.webp
      - | No equivalent
        | Perform an RGB[A] grain-extract operation between the pixel sources (|frei0r.grain_extract|)
-   * - Grain Merge
+   * - .. _grain-merge:
+   
+       Grain Merge
      - .. image:: /images/effects_and_compositions/composition_method-grain_merge.webp
      - | No equivalent
        | Perform an RGB[A] grain-merge operation between the pixel sources (|frei0r.grain_merge|)
-   * - Hardlight
+   * - .. _hardlight:
+   
+       Hardlight
      - .. image:: /images/effects_and_compositions/composition_method-hardlight.webp
      - | Hard light
        | Perform an RGB[A] hardlight operation between the pixel sources (|frei0r.hardlight|)
-   * - Hue 
+   * - .. _hue:
+   
+       Hue
      - .. image:: /images/effects_and_compositions/composition_method-hue.webp
      - | HSL hue
        | Perform a conversion to hue only of the source input1 using the hue of input2 (|frei0r.hue|)
-   * - Lighten
+   * - .. _lighten:
+   
+       Lighten
      - .. image:: /images/effects_and_compositions/composition_method-lighten.webp
      - | Lighten
        | Perform a lighten operation between two sources (maximum value of both sources) (|frei0r.lighten|)
-   * - Multiply
+   * - .. _multiply:
+   
+       Multiply
      - .. image:: /images/effects_and_compositions/composition_method-multiply.webp
      - | Multiply
        | Perform an RGB[A] multiply operation between the pixel sources (|frei0r.multiply|)
-   * - Overlay
+   * - .. _overlay:
+   
+       Overlay
      - .. image:: /images/effects_and_compositions/composition_method-overlay.webp
      - | Overlay
        | Perform an RGB[A] overlay operation between the pixel sources\ [4]_ (|frei0r.overlay|)
-   * - Saturation
+   * - .. _saturation:
+   
+       Saturation
      - .. image:: /images/effects_and_compositions/composition_method-saturation.webp
      - | HSL saturation
        | Perform a conversion to saturation only of the source input1 using the saturation level of input2 (|frei0r.saturation|)
-   * - Screen
+   * - .. _screen:
+   
+       Screen
      - .. image:: /images/effects_and_compositions/composition_method-screen.webp
      - | Screen
        | Perform an RGB[A] screen operation between the pixel sources\ [5]_ effectively using black as the alpha channel (|frei0r.screen|)
-   * - Softlight
+   * - .. _softlight:
+   
+       Softlight
      - .. image:: /images/effects_and_compositions/composition_method-softlight.webp
      - | Soft light
        | Perform an RGB[A] softlight operation between the pixel sources (|frei0r.softlight|)
-   * - Subtract
+   * - .. _subtract:
+   
+       Subtract
      - .. image:: /images/effects_and_compositions/composition_method-subtract.webp
      - | No equivalent
        | Perform an RGB[A] subtract operation of the pixel source input2 from input1 (|frei0r.subtract|)

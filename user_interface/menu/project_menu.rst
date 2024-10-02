@@ -19,7 +19,7 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
 
    :license: Creative Commons License SA 4.0
@@ -58,12 +58,13 @@ This function allows you to add video, audio and (single) image files from your 
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_add_clip_window.webp
    :align:  left
-   :height: 250px
+   :width: 360px
+   :figwidth: 360px
    :alt: kdenlive2304_add_clip_window
    
    Adding a clip or entire folder
    
-A more detailed explanation of this function is available in the :ref:`clips` section of this documentation.
+A more detailed explanation of this function is available in the :doc:`clips</project_and_asset_management/project_bin/clips>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -82,7 +83,7 @@ This function allows you to create a clip with a single color.
 
 It is also available from the menu bar of the Project Bin and by right-clicking on empty space in the Project Bin.
 
-For more details refer to the :ref:`Color Clips <add_color_clip>` section of this documentation.
+For more details refer to the :doc:`Color Clips </project_and_asset_management/project_bin/color_clip>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -94,14 +95,15 @@ This function adds a series of still images as one clip to the Project Bin.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_add_image_sequence_window.webp
    :align:  left
-   :height: 250px
+   :width: 360px
+   :figwidth: 360px
    :alt: kdenlive2304_add_image_sequence_window
    
    Adding an Image Sequence
 
 It is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
-For more details refer to the :ref:`Image Sequence <add_slideshow_clip>` section of this documentation.
+For more details refer to the :doc:`Image Sequence </project_and_asset_management/project_bin/image_sequence>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -123,7 +125,8 @@ This function creates a Title Clip based on a Template Title.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_add_template_title_window.webp
    :align:  left
-   :height: 250px
+   :width: 360px
+   :figwidth: 360px
    :alt: kdenlive2304_add_template_title_window
    
    Adding a Template Title
@@ -144,7 +147,8 @@ This function creates an animation clip in the Project Bin and calls |glaxnimate
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_create_animation_window.webp
    :align:  left
-   :width: 430px
+   :width: 360px
+   :figwidth: 360px
    :alt: kdenlive2304_create_animation_window
    
    Creating an animation
@@ -184,11 +188,11 @@ Create Folder
 
 This function creates a new folder in the Project Bin.
 
-The folder is a virtual folder and very useful to keep your assets organized. You can also create separate bins from each folder (see the :ref:`Create additional project bins <multibin>` section)
+The folder is a virtual folder and very useful to keep your assets organized. You can also create separate bins from each folder (see the :doc:`Multiple Bins</project_and_asset_management/project_bin/project_bin_use_multiple_bins>` section)
 
 This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
-More details are available in the :ref:`Create Folder <project_tree>` section of this documentation.
+More details are available in the :doc:`Create Folder</project_and_asset_management/project_bin/project_bin_use_folders>` section of this documentation.
 
 .. tip::
    A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
@@ -202,12 +206,10 @@ Generators
 This function allows to create generated clips in your Project Bin for
 
 * Counter
-
 * Color Bars (old TV test display)
-
 * White Noise
 
-This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin. See the :ref:`clips` section in this documentation for more details.
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin. See the :doc:`clips</project_and_asset_management/project_bin/clips>` section in this documentation for more details.
 
 
 Subtitles
@@ -246,7 +248,8 @@ This function can be used to remove any unused clips from the Project Bin.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clean_project.webp
    :align:  left
-   :width: 412px
+   :width: 360px
+   :figwidth: 360px
    :alt: kdenlive2304_clean_project
    
    Clean up the project
@@ -255,7 +258,8 @@ You can undo this action with :menuselection:`Edit --> Undo`, through the :ref:`
 
 .. rst-class:: clear-both
 
-.. note:: This is different from the :ref:`Project Settings <project_settings>` dialog button :guilabel:`Delete Files` in the Project Files tab which deletes files not used by the project from the hard drive.
+.. note::
+   This is different from the :doc:`Project Settings</project_and_asset_management/project_settings>` dialog button :guilabel:`Delete Files` in the :doc:`Project Files</project_and_asset_management/project_settings/tab_project_files>` tab which deletes files not used by the project from the hard drive.
 
 
 Render
@@ -286,12 +290,13 @@ This function allows you to copy all files required by the project to a specific
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_archive_project.webp
    :align:  left
-   :height: 250px
+   :width: 360px
+   :figwidth: 360px
    :alt: kdenlive2304_archive_project
    
    Archiving a project
 
-Please refer to the :ref:`archiving` section of this documentation for more details.
+Please refer to the :doc:`archiving</project_and_asset_management/file_management/archiving>` section of this documentation for more details.
 
 .. rst-class:: clear-both
 
@@ -301,14 +306,15 @@ Open Backup File
 
 This function opens the list of automatic backups of the project Kdenlive creates.
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_open_backup_file.webp
+.. figure:: /images/project_and_asset_management/restore_backup_file.webp
    :align:  left
-   :height: 250px
-   :alt: kdenlive2304_open_backup_file
+   :width: 360px
+   :figwidth: 360px
+   :alt: restore_backup_file
    
    Restore a backup file
 
-From here you can select the restore point you want to go back to. More details are available in the :ref:`backup` section of this documentation.
+From here you can select the restore point you want to go back to. More details are available in the :doc:`backup</project_and_asset_management/file_management/backup>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -318,18 +324,17 @@ Project Settings
 
 This function opens the Project Settings dialog where you can set all basic properties of the project.
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_project_settings.webp
+.. figure:: /images/user_interface/menu_reference/project_settings.webp
    :align:  left
-   :width: 450px
-   :alt: kdenlive2304_project_settings
+   :width: 360px
+   :alt: project_settings
    
    Project Settings window
    
-More details about the various parameters and tabs are available in the :ref:`project_settings` section of the documentation.
+More details about the various parameters and tabs are available in the :doc:`project_settings</project_and_asset_management/project_settings/general_settings>` section of the documentation.
 
 .. attention::
    Certain things cannot be changed once assets have been added to the project or put on the timeline. Changing certain properties of the project may lead to unwanted results. It is highly recommended to create a copy of the project file before changing project settings.
 
 .. note::
    Changing the project folder location does not work properly. In most cases the files are not moved.
-

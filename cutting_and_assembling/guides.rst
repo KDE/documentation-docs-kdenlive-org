@@ -53,9 +53,13 @@ Following procedures add a guide at the timeline playhead position:
   * Right click on :ref:`timeline ruler<timeline_ruler>` and choose in the menu :guilabel:`Add/Remove Guide`
   * Right click in the timeline and choose :guilabel:`Add/Remove Guide`
 
+.. .. versionadded:: 24.08
+..    Insert guides in 10 different categories using NumPad 
+
 * **Keyboard**
 
   * :kbd:`G` adds a guide.
+  * :kbd:`1` - :kbd:`0` (number 1 to 0 on the NumPad)
 
 * **Mouse**
 
@@ -91,7 +95,7 @@ Timeline ruler right click menu
 
 :guilabel:`Set Zone In/Out`: See also :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`.
 
-:guilabel:`Add Project Notes`: See :ref:`notes`
+:guilabel:`Add Project Notes`: See :doc:`/project_and_asset_management/project_notes`
 
 .. .. versionadded:: 20.12.
 

@@ -140,7 +140,7 @@ Use .webp for images.
 
 Use animated .gif or .mp4 files if that explains the feature/task better.
 
-Try to avoid having a lot of images. Use a single image that shows all of the relevant areas placed at the top of the section. Numbering the features and then explain the features in that order. Like this :ref:`example <project_tree>`.
+Try to avoid having a lot of images. Use a single image that shows all of the relevant areas placed at the top of the section. Numbering the features and then explain the features in that order. Like :doc:`this example</project_and_asset_management/project_bin/project_bin_use>`.
 
 
 Further information

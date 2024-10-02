@@ -76,7 +76,7 @@ Use the :doc:`Motion Tracker </effects_and_filters/video_effects/alpha_mask_keyi
 
    You may want to keep it in case you need to run another pass, or you need the keyframes again after you copied something else (unless you have a clipboard manager, of course).
 
-#. Add the other effect you need, and paste the keyframes from the the motion tracker
+#. Add the other effect you need, and paste the keyframes from the motion tracker
 
    .. container:: clear-both
 

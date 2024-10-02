@@ -60,13 +60,13 @@ User Interface
 
     .. container:: tile
 
-       :ref:`Project_Settings`
+       :doc:`Project_Settings</project_and_asset_management/project_settings>`
           Setting the correct project values
 
     .. container:: tile
 
        Key components
-          :ref:`Project_tree`
+          :doc:`Project Bin</project_and_asset_management/project_bin>`
 
           :ref:`Timeline`
 
@@ -89,9 +89,9 @@ Workflow
     .. container:: tile
 
         .. figure:: /images/intro_page/Index_Logging.png
-           :target: importing_and_assets_management.html
+           :target: project_and_asset_management.html
 
-        :ref:`importing_and_assets_management`
+        :doc:`project_and_asset_management`
            Load files into Kdenlive and be prepared
 
            Starting video editing
@@ -157,7 +157,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      :doc:`/troubleshooting`
+      :doc:`Troubleshooting</troubleshooting>`
          Solving specific :ref:`troubleshooting-windows_issues`
 
          General problem solving
@@ -184,7 +184,7 @@ Troubleshooting, Glossary, Get Involved
      
    getting_started
    user_interface
-   importing_and_assets_management
+   project_and_asset_management
    cutting_and_assembling
    effects_and_filters
    compositing

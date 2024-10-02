@@ -1,15 +1,15 @@
 # Translation of docs_kdenlive_org_user_interface___monitors.po to Catalan
-# Copyright (C) 2021-2023 This_file_is_part_of_KDE
+# Copyright (C) 2021-2024 This_file_is_part_of_KDE
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2023-11-03 18:18+0100\n"
+"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-27 20:40+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.08.1\n"
 
 #: ../../user_interface/monitors.rst:1
 msgid "Kdenlive's User Interface - Clip and Project Monitor"
@@ -68,14 +68,14 @@ msgstr ""
 #: ../../user_interface/monitors.rst:38
 msgid ""
 "The :ref:`ui-monitors_clip_monitor` plays the :term:`clip` selected in the :"
-"ref:`Project Bin <project_tree>`. The :ref:`ui-monitors_project_monitor` "
-"plays the timeline of the project starting at the position of the :term:"
-"`playhead`."
+"doc:`Project Bin </project_and_asset_management/project_bin>`. The :ref:`ui-"
+"monitors_project_monitor` plays the timeline of the project starting at the "
+"position of the :term:`playhead`."
 msgstr ""
 "El :ref:`ui-monitors_clip_monitor` reprodueix el :term:`clip` seleccionat a "
-"la :ref:`Safata del projecte <project_tree>`. El :ref:`ui-"
-"monitors_project_monitor` reprodueix la línia de temps del projecte "
-"començant a la posició del :term:`capçal de reproducció<playhead>`."
+"la :doc:`Safata del projecte </project_and_asset_management/project_bin>`. "
+"El :ref:`ui-monitors_project_monitor` reprodueix la línia de temps del "
+"projecte començant a la posició del :term:`capçal de reproducció<playhead>`."
 
 #: ../../user_interface/monitors.rst:44
 msgid "Controls and Elements"
@@ -126,11 +126,11 @@ msgstr ""
 msgid "The toolbar has the following options:"
 msgstr "La barra d'eines té les opcions següents:"
 
-#: ../../user_interface/monitors.rst:90
+#: ../../user_interface/monitors.rst:90 ../../user_interface/monitors.rst:136
 msgid "Icon"
 msgstr "Icona"
 
-#: ../../user_interface/monitors.rst:91
+#: ../../user_interface/monitors.rst:91 ../../user_interface/monitors.rst:137
 msgid "Description"
 msgstr "Descripció"
 
@@ -201,27 +201,208 @@ msgstr ""
 "Mou la barra d'eines. Feu-hi clic per a moure la barra d'eines des de la "
 "dreta (predeterminat) a l'esquerra i cap enrere."
 
-#: ../../user_interface/monitors.rst:113
-msgid "Changing the color of the monitor overlay"
-msgstr "Canviar el color de la superposició del monitor"
+#: ../../user_interface/monitors.rst:111
+msgid "Monitor and Effect Direct Control"
+msgstr "Monitor i control directe d'efectes"
 
-#: ../../user_interface/monitors.rst:115
+#: ../../user_interface/monitors.rst:122
+msgid "Changing clips position and size, enabling grid"
+msgstr "Canviar la posició i mida dels clips, habilitant la quadrícula"
+
+#: ../../user_interface/monitors.rst:124
 msgid ""
-"The color of the guide overlay can be changed in :menuselection:`Menu --> "
-"Settings --> Configure Kdenlive --> Colors and Guides`."
+"Effects which can use direct control in the monitor are effects which have "
+"the following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and "
+"Rotation."
 msgstr ""
-"El color de la superposició de la guia es pot canviar a :menuselection:`Menú "
-"--> Arranjament --> Configura el Kdenlive --> Colors i guies`."
+"Els efectes que poden utilitzar el control directe en el monitor són efectes "
+"que tenen els paràmetres següents: X, Y, Amplada, Alçada, Opacitat (Alfa, "
+"opcional) i Gir."
 
-#: ../../user_interface/monitors.rst:123
+#: ../../user_interface/monitors.rst:128
+msgid ""
+"Once such an effect is applied (either to a clip in the project bin, a clip "
+"in the timeline, a track or on master) you can:"
+msgstr ""
+"Una vegada s'ha aplicat aquest efecte (sigui en un clip a la safata del "
+"projecte, un clip a la línia de temps, una pista o al mestre) podeu:"
+
+#: ../../user_interface/monitors.rst:138
+msgid "|snap|"
+msgstr "|snap|"
+
+#: ../../user_interface/monitors.rst:139
+msgid ""
+"Enable a grid to which the clip will snap. :ref:`Changing grid size <ui-"
+"monitors_change_overlay_color>`"
+msgstr ""
+"Activar una quadrícula a on s'ajustarà el clip. :ref:`Canviar la mida de la "
+"quadrícula <ui-monitors_change_overlay_color>`"
+
+#: ../../user_interface/monitors.rst:140
+msgid "|keyframe-next|"
+msgstr "|keyframe-next|"
+
+#: ../../user_interface/monitors.rst:141
+msgid "Go to the next keyframe."
+msgstr "Anar al fotograma clau següent."
+
+#: ../../user_interface/monitors.rst:142
+msgid "|keyframe-previous|"
+msgstr "|keyframe-previous|"
+
+#: ../../user_interface/monitors.rst:143
+msgid "Go to the previous keyframe."
+msgstr "Anar al fotograma clau anterior."
+
+#: ../../user_interface/monitors.rst:144
+msgid "|keyframe-add|"
+msgstr "|keyframe-add|"
+
+#: ../../user_interface/monitors.rst:145
+msgid "Add a keyframe"
+msgstr "Afegir un fotograma clau"
+
+#: ../../user_interface/monitors.rst:146
+msgid "|keyframe-record|"
+msgstr "|keyframe-record|"
+
+#: ../../user_interface/monitors.rst:147
+msgid "Add automatic keyframe"
+msgstr "Afegir un fotograma clau automàtic"
+
+#: ../../user_interface/monitors.rst:149
+msgid "Move and resize. While resizing, holding:"
+msgstr "Moure i redimensionar. Mentre es redimensiona, prement:"
+
+#: ../../user_interface/monitors.rst:151
+msgid ":kbd:`Shift` keep the aspect ratio"
+msgstr ":kbd:`Maj` manté la relació d'aspecte"
+
+#: ../../user_interface/monitors.rst:153
+msgid ":kbd:`Ctrl` keeps the center position untouched"
+msgstr ":kbd:`Ctrl` manté la posició central sense tocar"
+
+#: ../../user_interface/monitors.rst:155
+msgid "Project monitor: cycling trough resized clips with :kbd:`Alt+click`"
+msgstr ""
+"Monitor del projecte: circula a traves dels clips redimensionats amb :kbd:"
+"`Alt+clic`"
+
+#: ../../user_interface/monitors.rst:157
+msgid ""
+"Once such an effect is applied, the monitor overlay selection panel does not "
+"have the |list-add| |list-remove| icon anymore (add/remove guide). To show "
+"the |list-add| |list-remove| icon again disable the effects |view-hidden| in "
+"the :ref:`effect/composition stack header <effect_stack_functions>`."
+msgstr ""
+"Una vegada s'ha aplicat l'efecte, el plafó de selecció de superposició del "
+"monitor ja no té les icones |list-add| |list-remove| (afegir/eliminar guia). "
+"Per a tornar a mostrar les icones |list-add| |list-remove| desactiveu els "
+"efectes |view-hidden| a la :ref:`capçalera d'efecte/composició "
+"<effect_stack_functions>`."
+
+#: ../../user_interface/monitors.rst:161
+msgid "Following effects can be used for direct control:"
+msgstr "Els efectes següents es poden fer servir per al control directe:"
+
+#: ../../user_interface/monitors.rst:169
+msgid "Effect name"
+msgstr "Nom de l'efecte"
+
+#: ../../user_interface/monitors.rst:170
+msgid ""
+":doc:`Audio Level Visualization Filter </effects_and_filters/video_effects/"
+"on_master/audio_level_visualization_filter>`"
+msgstr ""
+":doc:`Filtre de visualització del nivell d'àudio </effects_and_filters/"
+"video_effects/on_master/audio_level_visualization_filter>`"
+
+#: ../../user_interface/monitors.rst:171
+msgid ""
+":doc:`Audio Spectrum Filter </effects_and_filters/video_effects/on_master/"
+"audio_spectrum_filter>`"
+msgstr ""
+":doc:`Filtre d'espectre d'àudio </effects_and_filters/video_effects/"
+"on_master/audio_spectrum_filter>`"
+
+#: ../../user_interface/monitors.rst:172
+msgid ""
+":doc:`Audio Waveform Filter </effects_and_filters/video_effects/on_master/"
+"audio_waveform_filter>`"
+msgstr ""
+":doc:`Filtre de forma d'ona d'àudio </effects_and_filters/video_effects/"
+"on_master/audio_waveform_filter>`"
+
+#: ../../user_interface/monitors.rst:173
+msgid ""
+":doc:`Dynamic Text </effects_and_filters/video_effects/generate/"
+"dynamic_text>`"
+msgstr ""
+":doc:`Text dinàmic </effects_and_filters/video_effects/generate/"
+"dynamic_text>`"
+
+#: ../../user_interface/monitors.rst:174
+msgid ""
+":doc:`Position and Zoom </effects_and_filters/video_effects/"
+"transform_distort_perspective/position_and_zoom>`"
+msgstr ""
+":doc:`Posició i zoom </effects_and_filters/video_effects/"
+"transform_distort_perspective/position_and_zoom>`"
+
+#: ../../user_interface/monitors.rst:175
+msgid ""
+":doc:`Pillar Echo </effects_and_filters/video_effects/"
+"transform_distort_perspective/pillar_echo>`"
+msgstr ""
+":doc:`Eco de pilar </effects_and_filters/video_effects/"
+"transform_distort_perspective/pillar_echo>`"
+
+#: ../../user_interface/monitors.rst:176
+msgid ""
+":doc:`Transform </effects_and_filters/video_effects/"
+"transform_distort_perspective/transform>`"
+msgstr ""
+":doc:`Transformació </effects_and_filters/video_effects/"
+"transform_distort_perspective/transform>`"
+
+#: ../../user_interface/monitors.rst:177
+msgid ""
+":doc:`Crop by padding </effects_and_filters/video_effects/"
+"transform_distort_perspective/crop_padding>`"
+msgstr ""
+":doc:`Retall per farciment </effects_and_filters/video_effects/"
+"transform_distort_perspective/crop_padding>`"
+
+#: ../../user_interface/monitors.rst:183
+msgid "Monitor Change Overlay Color and Grid Size"
+msgstr ""
+"Canvi del color de la superposició del monitor i la mida de la quadrícula"
+
+#: ../../user_interface/monitors.rst:194
+msgid "Changing the color of the monitor overlay and grid size"
+msgstr ""
+"Canviar el color de la superposició del monitor i la mida de la quadrícula"
+
+#: ../../user_interface/monitors.rst:196
+msgid ""
+"The color of the guide and grid overlay as well as the grid size can be "
+"changed in :menuselection:`Menu --> Settings --> Configure Kdenlive --> "
+"Colors and Guides`."
+msgstr ""
+"El color de la superposició de la guia i de la quadrícula, així com la mida "
+"de la quadrícula es pot canviar a :menuselection:`Menú --> Arranjament --> "
+"Configura el Kdenlive --> Colors i guies`."
+
+#: ../../user_interface/monitors.rst:204
 msgid "Resizing the Monitor"
 msgstr "Canvi de mida del monitor"
 
-#: ../../user_interface/monitors.rst:131
+#: ../../user_interface/monitors.rst:212
 msgid "Resizing the monitor widget"
 msgstr "Canvi de mida del giny del monitor"
 
-#: ../../user_interface/monitors.rst:133
+#: ../../user_interface/monitors.rst:214
 msgid ""
 "You can resize the monitors by dragging the widget's edges. Make sure the "
 "mouse pointer changes to the sizing shape."
@@ -229,15 +410,15 @@ msgstr ""
 "Podeu redimensionar els monitors arrossegant les vores del giny. Assegureu-"
 "vos que el punter del ratolí canvia a la forma de mida."
 
-#: ../../user_interface/monitors.rst:141
+#: ../../user_interface/monitors.rst:222
 msgid "Monitor Zoom Bar"
 msgstr "Barra de zoom del monitor"
 
-#: ../../user_interface/monitors.rst:151
+#: ../../user_interface/monitors.rst:232
 msgid "Monitor zoom bar (audio file example)"
 msgstr "Barra de zoom del monitor (exemple d'un fitxer d'àudio)"
 
-#: ../../user_interface/monitors.rst:153
+#: ../../user_interface/monitors.rst:234
 msgid ""
 "The timeline rulers of the monitors have zoom bars. To activate, hover over "
 "the timeline ruler and use :kbd:`Ctrl+Mouse wheel`. A zoom bar will appear "
@@ -254,15 +435,15 @@ msgstr ""
 "el factor de zoom. Això és útil quan s'intenten fer retalls exactes dels "
 "fotogrames o establir les :term:`zones<zone>`."
 
-#: ../../user_interface/monitors.rst:161
+#: ../../user_interface/monitors.rst:242
 msgid "Preview Resolution"
 msgstr "Resolució de la vista prèvia"
 
-#: ../../user_interface/monitors.rst:172
+#: ../../user_interface/monitors.rst:253
 msgid "Preview resolutions"
 msgstr "Resolucions de les vistes prèvies"
 
-#: ../../user_interface/monitors.rst:174
+#: ../../user_interface/monitors.rst:255
 msgid ""
 "Changing the Preview Resolution speeds up the editing experience by scaling "
 "the video resolution of the monitors. It can be used instead of :term:"
@@ -274,7 +455,7 @@ msgstr ""
 "term:`intermediaris<proxy>` o amb intermediaris. La millora de velocitat "
 "depèn dels fitxers d'origen."
 
-#: ../../user_interface/monitors.rst:176
+#: ../../user_interface/monitors.rst:257
 msgid ""
 "Playback speed depends on several factors: source material, use of proxies, "
 "type and number of effects, and the CPU capabilities. There is limited to no "
@@ -288,11 +469,11 @@ msgstr ""
 "vista prèvia </tips_and_tricks/tips_and_tricks/timeline_preview_rendering>` "
 "és molt recomanable si la velocitat de reproducció és justa."
 
-#: ../../user_interface/monitors.rst:184
+#: ../../user_interface/monitors.rst:265
 msgid "Multitrack View"
 msgstr "Vista multipista"
 
-#: ../../user_interface/monitors.rst:188
+#: ../../user_interface/monitors.rst:269
 msgid ""
 "You enable the multitrack view via :menuselection:`Menu --> Monitor --> "
 "Multitrack view` or via right-click in the Project Monitor area and "
@@ -302,7 +483,7 @@ msgstr ""
 "Vista multipista` o fent clic dret a l'àrea del monitor del projecte i "
 "seleccionant :guilabel:`Vista multipista` o prement :kbd:`F12`."
 
-#: ../../user_interface/monitors.rst:193
+#: ../../user_interface/monitors.rst:274
 msgid ""
 "The multitrack view interface allows you to select a track in the timeline "
 "by clicking on the project monitor. See the section about :ref:`multicam "
@@ -312,12 +493,12 @@ msgstr ""
 "de temps fent clic en el monitor del projecte. Vegeu la secció sobre l':ref:"
 "`edició multicàmera <multicam_tool>` per a utilitzar-la durant l'edició."
 
-#: ../../user_interface/monitors.rst:199
+#: ../../user_interface/monitors.rst:280
 msgid "Clip and Project Monitor in Separate Windows"
 msgstr "Monitors de clips i del projecte en finestres separades"
 
 # skip-rule: tags-spaces-start, rst-italic2
-#: ../../user_interface/monitors.rst:201
+#: ../../user_interface/monitors.rst:282
 msgid ""
 "If you want to have the :ref:`Clip <ui-monitors_clip_monitor>` and/or the :"
 "ref:`Project Monitor <ui-monitors_project_monitor>` in their own individual "
@@ -332,14 +513,14 @@ msgstr ""
 "finestra. Això desacobla els ginys del seu espai. Des d'allà els podeu moure "
 "fins i tot a altres monitors que pugueu haver connectat."
 
-#: ../../user_interface/monitors.rst:208
+#: ../../user_interface/monitors.rst:289
 msgid ""
 "Moving Clip and Project Monitor to their own independent windows (undocking)"
 msgstr ""
 "Moure el monitor de clips i el monitor del projecte a les seves pròpies "
 "finestres independents (desacoblament)"
 
-#: ../../user_interface/monitors.rst:210
+#: ../../user_interface/monitors.rst:291
 msgid ""
 "To put the monitors back into the tabbed view click on the monitor's title "
 "bar (enable it via :menuselection:`Menu --> View --> Show Titlebars`) and "
@@ -352,7 +533,7 @@ msgstr ""
 "part superior d'un altre giny. Per a més detalls, vegeu el capítol :ref:`ui-"
 "customizing_interface`."
 
-#: ../../user_interface/monitors.rst:212
+#: ../../user_interface/monitors.rst:293
 msgid ""
 "There is low risk that the monitor widget has no title bar (intermittent "
 "defect). In this case you will need to reset the Kdenlive settings by "

@@ -104,7 +104,7 @@ Right-click Menu
 
    Project Monitor right-click menu options
 
-These are the menu items that are available when you right-click in the Project Monitor. These actions affect the clip that is currently selected in the :ref:`timeline`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_clip_monitor`. However, the clip monitor menu items affect the currently selected clip in the :ref:`project bin <project_tree>`.
+These are the menu items that are available when you right-click in the Project Monitor. These actions affect the clip that is currently selected in the :ref:`timeline`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_clip_monitor`. However, the clip monitor menu items affect the currently selected clip in the :doc:`project bin </project_and_asset_management/project_bin>`.
 
 .. rst-class:: clear-both
 
@@ -188,7 +188,7 @@ These are the menu items that are available when you right-click in the Project 
 
    * - Add Project Note
      -
-     - Opens the :ref:`Project Notes <notes>` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene.
+     - Opens the :doc:`Project Notes </project_and_asset_management/project_notes>` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene.
    * - Set Zone In
      - :kbd:`I`
      - Sets the :term:`in-point` for the :term:`zone`

@@ -11,17 +11,6 @@
    :license: Creative Commons License SA 4.0
 
 
-.. #########################################################################################################################################
-   Not needed but keeping it here just in case
-
-   .. |save_clip_zone| image:: /images/Kdenlive_Save_clip_zone.png
-                       :alt: Kdenlive_Save_clip_zone
-
-   .. |extract_clip_zone| image:: /images/Kdenlive_Extract_zone.png
-                         :alt: Kdenlive_Extract_zone
-
-   #########################################################################################################################################
-
 
 .. _ui-monitors_clip_monitor:
 
@@ -36,7 +25,7 @@ Clip Monitor
 
    Clip Monitor elements
 
-The Clip Monitor displays the unedited\ [#f1]_ clip that is currently selected in the :ref:`Project Bin <project_tree>`. It has the same functions and options as the :ref:`ui-monitors_project_monitor` except for the |kdenlive-add-clip| icon which adds the clip zone to the Project Bin where it will appear as child clip underneath the clip. See :ref:`ui-monitors_cm_clip_zone` for more details.
+The Clip Monitor displays the unedited\ [#f1]_ clip that is currently selected in the :doc:`Project Bin </project_and_asset_management/project_bin>`. It has the same functions and options as the :ref:`ui-monitors_project_monitor` except for the |kdenlive-add-clip| icon which adds the clip zone to the Project Bin where it will appear as child clip underneath the clip. See :ref:`ui-monitors_cm_clip_zone` for more details.
 
 |  1 Video Stream indicator
 |  2 Audio Stream indicator
@@ -112,7 +101,7 @@ Right-Click Menu
 
    Clip Monitor right-click menu options
 
-These are the menu items that are available when you right-click in the Clip Monitor. These actions affect the clip that is currently selected in the :ref:`project_tree`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu items affect the currently selected clip on the :ref:`timeline`.
+These are the menu items that are available when you right-click in the Clip Monitor. These actions affect the clip that is currently selected in the :doc:`project bin</project_and_asset_management/project_bin>`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu items affect the currently selected clip on the :ref:`timeline`.
 
 .. rst-class:: clear-both
 
@@ -235,31 +224,6 @@ The current :term:`zone` can be saved as a :file:`.mov` file in your file system
 
    Save Image dialog for extracting frames
 
-.. #########################################################################################################################################
-   Not sure what to do with this section of the documentation: Suggest to delete it as it refers to a very old version
-
-   On the authors 0.9.2  and 0.9.5 version of **Kdenlive** this feature is broken for .dv format clips at least.  It does work for .mp4 type clips. However, the accuracy of the cuts on the clip is way out.
-
-   .. code-block:: text
-
-   ffmpeg version 0.8.3-4:0.8.3-0ubuntu0.12.04.1, Copyright (c) 2000-2012 the Libav developers
-    built on Jun 12 2012 16:37:58 with gcc 4.6.3
-   [dv @ 0x9d71480] Can't initialize DV format!
-   Make sure that you supply exactly two streams:
-       video: 25fps or 29.97fps, audio: 2ch/48kHz/PCM
-       (50Mbps allows an optional second audio stream)
-   Output #0, dv, to '/home/ttguy/Videos/Tape3_006_0.dv':
-    Metadata:
-      encoder         : Lavf53.21.0
-      Stream #0.0: Video: dvvideo, yuv420p, 720x576 [PAR 64:45 DAR 16:9], q=2-31, 28800 kb/s, 90k tbn, 25 tbc
-      Stream #0.1: Audio: pcm_s16le, 32000 Hz, 2 channels, 1024 kb/s
-   Stream mapping:
-    Stream #0.0 -> #0.0
-    Stream #0.1 -> #0.1
-   Could not write header for output file #0 (incorrect codec parameters ?)
-
-   #########################################################################################################################################
-
 
 .. list-table::
    :width: 100%
@@ -268,7 +232,7 @@ The current :term:`zone` can be saved as a :file:`.mov` file in your file system
 
    * - Add Project Note
      -
-     - Opens the :ref:`notes` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene.
+     - Opens the :doc:`Project Notes</project_and_asset_management/project_notes>` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene.
    * - Set Zone In
      - :kbd:`I`
      - Sets the :term:`in-point` for the :term:`zone`
@@ -303,16 +267,6 @@ The current :term:`zone` can be saved as a :file:`.mov` file in your file system
      -
      - Switches the display of running clip jobs on or off
 
-
-.. ##########################################################################################################################################
-   Not sure what to do with this section of the original documentation: This is not part of the right-click menu anymore but is not yet explained in the Monitor Menu
-
-   Real time (drop frames)
-   '''''''''''''''''''''''
-
-   Setting this to the Checked state means the clip monitor will drop frames during playback to ensure the clip plays in real time. This does not effect the final rendered file - it just effect how the clip appears when being previewed in the clip monitor
-
-   ##########################################################################################################################################
 
 
 .. _ui-monitors_cm_seeking:

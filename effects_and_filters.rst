@@ -297,6 +297,40 @@ The keyframe ruler has zoom bars which makes adjusting keyframes a lot easier if
 Keyframes can be copied and pasted between effects and even across clips. Standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`
 
 
+.. _effects-curve-editor:
+
+Keyframe Curve editor
+---------------------
+
+.. versionadded:: 24.08
+
+Implemented with version 24.08 the keyframe curve editor is still in alpha state. Improvements will come with upcoming versions.
+
+The curve editor is showing the keyframe type and their curves.
+
+.. figure:: /images/curve-editor_enabling.webp
+   :alt: curve editor enabling
+
+To switch to the curve editor click on |switch-to-curve-editor-view|:guilabel:`Switch to curve editor view`.
+
+The curve editor can only be enabled on effects which have following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and Rotation. For all other effects the curve editor is greyed out.
+
+By double clicking into the window new keyframes get added. Hovering over a keyframe the cursor changes to a cross and you can:
+
+- move the keyframe to change the value, depending on which tab you are (X position, Y position, Width, Height, Opacity, Rotation). Hold :kbd:`Ctrl` moves the keyframe vertically only.
+- click on the keyframe and change the keyframe type
+
+.. figure:: /images/curve-editor_example-view.webp
+   :alt: curve editor example view
+
+In this example the cursor enables the second keyframe and you can either change the values by moving the keyframe or change the values directly in the boxes below the curve editor view.
+
+.. figure:: /images/curve-editor_switch-back.webp
+   :alt: curve editor switch back
+
+To switch back to the timeline view click on |switch-to-timeline-view|:guilabel:`Switch to timeline view`.
+
+
 .. _effects-working_with_keyframes:
 
 Working with Keyframes in the Effect Stack

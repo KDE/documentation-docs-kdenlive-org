@@ -45,7 +45,7 @@ Multiple audio streams
 
 .. versionadded:: 20.08.0
 
-Multiple audio streams of a video clip. In clip properties on the tab audio you can adjust and manipulate each audio stream. More details see here :ref:`audio_properties`
+Multiple audio streams of a video clip. In clip properties on the tab audio you can adjust and manipulate each audio stream. For more details see the chapter :ref:`audio_properties`
   
 .. _audio-recording:
 
@@ -95,4 +95,4 @@ While recording you see a live waveform appearing on timeline.
 
 - *Stop record:* press :kbd:`esc` or click the :guilabel:`record` button in the track head. The audio clip get added in the timeline and project bin.
 
-After the recording is finished the audio file get created and stored in the project bin or :ref:`folder you have defined <capturingaudio>`. The "focus" is still on the timeline. You can continue to use keyboard shortcuts to move around the newly inserted recording, like jumping to the end of it or the beginning, or the next clip.
+After the recording is finished the audio file get created and stored in the project bin or :doc:`folder you have defined </project_and_asset_management/capturing_audio>`. The "focus" is still on the timeline. You can continue to use keyboard shortcuts to move around the newly inserted recording, like jumping to the end of it or the beginning, or the next clip.

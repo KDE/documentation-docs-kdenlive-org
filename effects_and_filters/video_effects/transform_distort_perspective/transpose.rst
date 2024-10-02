@@ -96,7 +96,7 @@ The following selection items are available:
 
 
 .. note:: 
-   Many smartphones and digital cameras nowadays set an ``autorotate`` flag in the recorded video. Kdenlive can read the flag, and transposes videos automatically when importing. Check the clip's properties (:ref:`clip_properties`) if you want Kdenlive to handle that differently and set the :guilabel:`Disable autorotate` to any other value than 0 (default) or switch it to **On**.
+   Many smartphones and digital cameras nowadays set an ``autorotate`` flag in the recorded video. Kdenlive can read the flag, and transposes videos automatically when importing. Check the clip's :doc:`properties</project_and_asset_management/project_bin/clip_properties>` if you want Kdenlive to handle that differently and set the :guilabel:`Disable autorotate` to any other value than 0 (default) or switch it to **On**.
 
 
 .. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

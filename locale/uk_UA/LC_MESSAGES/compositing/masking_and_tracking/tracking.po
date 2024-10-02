@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-08-27 21:07+0300\n"
+"POT-Creation-Date: 2024-09-26 01:43+0000\n"
+"PO-Revision-Date: 2024-09-26 09:52+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -52,6 +52,13 @@ msgid ""
 "video_effects/transform_distort_perspective/transform>` to move texts or "
 "images around the screen."
 msgstr ""
+"Ефект **Стеження за рухом** має власні базові типи розмиття, які можна "
+"використовувати для розмиття або пікселізації областей швидко й за один раз. "
+"У цьому розділі щодо стеження за рухом йдеться про використання засобу "
+"стеження за рухом для створення ключових кадрів для використання в інших "
+"ефектах, наприклад :doc:`Перетворення </effects_and_filters/video_effects/"
+"transform_distort_perspective/transform>` для пересування тексту або "
+"зображень по екрану."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:21
 msgid "Steps to track an object and make a text follow it"
@@ -61,21 +68,23 @@ msgstr ""
 
 #: ../../compositing/masking_and_tracking/tracking.rst:22
 msgid "Apply the Motion Tracker effect to the clip with the object"
-msgstr ""
+msgstr "Застосування ефекту стеження за рухом до кліпу з об'єктом"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:24
 msgid ""
 "You may want to cut the clip such that the object is clearly visible over "
 "the tracking period or for the duration of the special effect."
 msgstr ""
+"Можливо, вам варто обрізати кліп так, що протягом періоду стеження або "
+"тривалості використання спеціального ефекту об'єкт було добре видно."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:26
 msgid "Select the area with the object you want to track"
-msgstr ""
+msgstr "Позначте область із об'єктом, за яким ви хочете стежити"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:35
 msgid "Selecting the area for tracking"
-msgstr ""
+msgstr "Вибір області для стеження"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:37
 msgid ""
@@ -83,10 +92,13 @@ msgid ""
 "the tracking. The algorithms are not that good if the area leaves the screen "
 "and comes back."
 msgstr ""
+"Позначте область із високою контрастністю, яка перебуватиме на екрані "
+"протягом усього періоду відстеження. Алгоритми працюють не так добре, як "
+"хотілося б, якщо область залишає екран і повертається."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:41
 msgid "Adjust the parameters for optimal tracking"
-msgstr ""
+msgstr "Коригування параметрів для оптимального стеження"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:43
 msgid ""
@@ -94,10 +106,13 @@ msgid ""
 "to get the best results. For more details about the different algorithms "
 "see :ref:`this page <tracking algorithms>`."
 msgstr ""
+"Типові значення працюють у більшості випадків, але вам, можливо, доведеться "
+"погратися з ними, щоб отримати найкращі результати. Додаткову інформацію про "
+"різні алгоритми див. :ref:`на цій сторінці <tracking algorithms>`."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:45
 msgid "Click on the :guilabel:`Analyze` button to start the analysis"
-msgstr ""
+msgstr "Натисніть кнопку :guilabel:`Аналіз`, щоб розпочати аналіз"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:54
 msgid "Analyzing the video"
@@ -109,6 +124,9 @@ msgid ""
 "parameter and displays them in the keyframe ruler and as a track in the "
 "project monitor."
 msgstr ""
+"Kdenlive створює ключові кадри відповідно до значення параметра :guilabel:"
+"`Інтервал між ключовими кадрами` і показує їх на лінійці ключових кадрів та "
+"як доріжку на моніторі проєкту."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:60
 msgid "Copy the keyframes from the tracker"
@@ -128,36 +146,48 @@ msgid ""
 "the keyframes again after you copied something else (unless you have a "
 "clipboard manager, of course)."
 msgstr ""
+"У вас може виникнути потреба у його збереженні, якщо вам знадобиться ще один "
+"прохід або вам знов знадобляться ключові кадри після того, як ви скопіюєте "
+"щось інше (якщо, звичайно ж, у вас немає засобу керування буфером обміну "
+"даними)."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:79
 msgid ""
-"Add the other effect you need, and paste the keyframes from the the motion "
+"Add the other effect you need, and paste the keyframes from the motion "
 "tracker"
 msgstr ""
+"Додайте інший потрібний вам ефект і вставте ключові кадри із засобу стеження "
+"за рухом"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:88
 msgid "Applying the tracking information to the Transform effect"
-msgstr ""
+msgstr "Застосування даних щодо стеження до ефекту перетворення"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:90
 msgid ""
 "The keyframes for the X coordinates are depicted in red, the one for Y in "
 "green."
 msgstr ""
+"Ключові кадри для координат за X зображено червоним, а ключові кадри за Y — "
+"зеленим."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:92
 msgid ""
 "You can add an offset for the X and Y position, but using another "
 "**Transform** effect is more efficient and easier."
 msgstr ""
+"Ви можете додати зсув для позиції за X і Y, але використання іншого ефекту "
+"**Перетворення** є ефективнішим та простішим."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:96
 msgid "Adjust other parameters or add other effects as needed"
-msgstr ""
+msgstr "Якщо потрібно, скоригуйте інші параметри або додайте інші ефекти"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:105
 msgid "Adding another Transform effect for fine tuned positioning of the text"
 msgstr ""
+"Додавання ще одного ефекту перетворення для остаточного коригування "
+"розташування тексту"
 
 #: ../../compositing/masking_and_tracking/tracking.rst:107
 msgid ""
@@ -171,6 +201,16 @@ msgid ""
 "`Crop, Scale and Tilt </effects_and_filters/video_effects/"
 "transform_distort_perspective/crop_scale_tilt>`."
 msgstr ""
+"Важливо при додаванні інших ефектів тримати цю послідовність у голові. "
+"Kdenlive обробляє ефекти за списком згори вниз. Це частково важливо для "
+"ефектів, які перетворюють кліп, зокрема :doc:`Перетворення </"
+"effects_and_filters/video_effects/transform_distort_perspective/"
+"transform>`, :doc:`Позиціювання і зміна масштабу </effects_and_filters/"
+"video_effects/transform_distort_perspective/position_and_zoom>`, :doc:"
+"`Обертання і перекошування </effects_and_filters/video_effects/"
+"transform_distort_perspective/rotate_and_shear>` або :doc:`Обрізання, "
+"масштабування і нахил </effects_and_filters/video_effects/"
+"transform_distort_perspective/crop_scale_tilt>`."
 
 #: ../../compositing/masking_and_tracking/tracking.rst:111
 msgid ""
@@ -178,3 +218,6 @@ msgid ""
 "video_effects/alpha_mask_keying/motion_tracker>` effect section in this "
 "documentation."
 msgstr ""
+"Щоб дізнатися більше, зверніться до розділу щодо ефекту :doc:`стеження за "
+"рухом </effects_and_filters/video_effects/alpha_mask_keying/motion_tracker>` "
+"у цій документації."

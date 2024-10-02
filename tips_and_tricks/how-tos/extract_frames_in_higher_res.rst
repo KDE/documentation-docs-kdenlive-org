@@ -54,7 +54,7 @@ To give a concrete example: Recording the screen of an Android Tablet, say, a Sa
    :alt: hires-frames-frame-clipmonitor
    :width: 350px
 
-Unfortunately, if you need to work with still images extracted from such source footage, then you might have already met a nasty surprise: Kdenlive's media engine MLT extracts still frames always according to the :doc:`project settings </importing_and_assets_management/projects_and_files/project_settings>`. Consider you have a FullHD 1920x1080 pixels 19:6 project. And the screencast footage is 1536x2048 pixels with 2:3 portrait aspect ratio. Then you end up with extracted frames of 1920x1080 pixels size with a landscape 16:9 aspect ratio and a lot of transparent space, but not the expected 1536x2048. So not only the resolution changed, but also the aspect ratio.
+Unfortunately, if you need to work with still images extracted from such source footage, then you might have already met a nasty surprise: Kdenlive's media engine MLT extracts still frames always according to the :doc:`project settings </project_and_asset_management/project_settings/general_settings>`. Consider you have a FullHD 1920x1080 pixels 19:6 project. And the screencast footage is 1536x2048 pixels with 2:3 portrait aspect ratio. Then you end up with extracted frames of 1920x1080 pixels size with a landscape 16:9 aspect ratio and a lot of transparent space, but not the expected 1536x2048. So not only the resolution changed, but also the aspect ratio.
 
 .. image:: /images/tips_and_tricks/hires-frames-frame-properties.jpeg
    :align: left

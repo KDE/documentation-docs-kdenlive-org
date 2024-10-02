@@ -11,18 +11,22 @@
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Roger (https://userbase.kde.org/User:Roger)
              - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
+
+.. .. versionadded:: 24.08
+..     easing method added
 
 
 Fade Out
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-fade_out.webp
+.. figure:: /images/effects_and_compositions/kdenlive2408_effects-fade_out.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-fade_out
+   :alt: kdenlive2408_effects-fade_out
 
 .. sidebar:: |kdenlive-show-video| Fade Out
 
@@ -46,17 +50,18 @@ Fade Out
 
 .. rubric:: Description
 
-This effect/filter fades out the source similar to the :doc:`Wipe </compositing/transitions/wipe>`. A checkbox switches to fade to black. It used to be called "Fade to Black".
+This effect/filter fades out the source similar to the :doc:`Wipe </compositing/transitions/wipe>` transition. A checkbox switches to fade from black. It used to be called "Fade from Black".
 
 This effect does not have keyframes but a slider controlling the duration of the fade.
 
+The applied easing method curve is shown on the clips fade.
 
 .. rubric:: Parameters
 
 .. list-table::
    :header-rows: 1
    :width: 100%
-   :widths: 20 10 70
+   :widths: 20 20 60
    :class: table-wrap
 
    * - Parameter
@@ -65,6 +70,17 @@ This effect does not have keyframes but a slider controlling the duration of the
    * - Duration
      - Slider
      - Set the duration via the slider or the time code (using the format hh:mm:ss:ff)
+   * - Easing Method
+     - | Linear
+       | Cubic in
+       | Exponential in
+       | Cubic out
+       | Exponential out
+     - | Add a linear fade
+       | Add a cubic in fade
+       | Add a exponential in fade
+       | Add a Cubic out fade
+       | Add a exponential out fade
    * - Fade to black
      - Switch
      - If checked, fades out the source to black. Default is **off**

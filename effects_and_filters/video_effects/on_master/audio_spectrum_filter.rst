@@ -49,7 +49,7 @@ Audio Spectrum Filter
 
 .. rubric:: Description
 
-This effect/filter is an audio visualization effect that draws an audio spectrum on the image.
+This effect/filter is an audio visualization effect that draws an audio spectrum on the image. It can be :ref:`controlled directly on the monitor <ui-monitors_effect_direct_control>`.
 
 
 .. rubric:: Parameters

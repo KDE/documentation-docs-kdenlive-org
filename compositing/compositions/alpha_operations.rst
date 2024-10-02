@@ -45,19 +45,29 @@ For this comparison, :doc:`title clips </titles_and_graphics/titles/titles>` wer
    * - Default composite
      - .. image:: /images/effects_and_compositions/composition_method-alpha_baseline.webp
      - The square on the upper track (blend track) covers part of the circle on the lower track (base track)
-   * - Alpha ATOP
+   * - .. _alpha-atop:
+       
+       Alpha ATOP
      - .. image:: /images/effects_and_compositions/composition_method-alpha_atop.webp
      - Draw a pixel from the base layer on top of the blend layer if both layers have a non-alpha pixel (|frei0r.alphaatop|)
-   * - Alpha IN
+   * - .. _alpha-in:
+   
+       Alpha IN
      - .. image:: /images/effects_and_compositions/composition_method-alpha_in.webp
      - Draw a pixel from the base layer only where both layers have a non-alpha pixel. This is the alpha equivalent of clipping. (|frei0r.alphain|)
-   * - Alpha OUT
+   * - .. _alpha-out:
+   
+       Alpha OUT
      - .. image:: /images/effects_and_compositions/composition_method-alpha_out.webp
      - Draw an alpha pixel only where both layers have a non-alpha pixel, otherwise draw the pixel from the base layer. This is the alpha equivalent of clipping. (|frei0r.alphaout|)
-   * - Alpha OVER
+   * - .. _alpha-over:
+   
+       Alpha OVER
      - .. image:: /images/effects_and_compositions/composition_method-alpha_over.webp
      - Overlay the blend layer with the base layer (|frei0r.alphaover|)
-   * - Alpha XOR
+   * - .. _alpha-xor:
+   
+       Alpha XOR
      - .. image:: /images/effects_and_compositions/composition_method-alpha_xor.webp
      - Draw a pixel only where either layer has a pixel, and no pixel (alpha) where both layers have a pixel (|frei0r.alphaxor|)
 

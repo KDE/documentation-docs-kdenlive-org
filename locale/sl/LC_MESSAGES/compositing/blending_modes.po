@@ -1,0 +1,477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"PO-Revision-Date: 2024-09-14 21:18+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <kde-i18n-doc@kde.org>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:91
+msgid "Darken"
+msgstr "Potemni"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:97
+msgid "Multiply"
+msgstr "Pomnoži"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:103
+msgid "Color Burn"
+msgstr "Barvno preosvetljevanje"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "Add / Addition"
+msgstr "Dodaj / dodajanje"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:139
+msgid "Lighten"
+msgstr "Posvetli"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:145
+msgid "Screen"
+msgstr "Zaslon"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:151
+msgid "Color Dodge"
+msgstr "Barvni izmik"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:178
+msgid "Overlay"
+msgstr "Prekrivanje"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:184
+msgid "Hard Light"
+msgstr "Ostra svetloba"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:190
+msgid "Soft Light"
+msgstr "Mehka osvetlitev"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:215
+msgid "Difference"
+msgstr "Razlika"
+
+#: ../../compositing/blending_modes.rst:0
+#: ../../compositing/blending_modes.rst:221
+msgid "Exclusion"
+msgstr "Odvzem"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL hue"
+msgstr "Obarvanost HSL"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL saturation"
+msgstr "Nasičenost HSL"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL color"
+msgstr "Barva HSL"
+
+#: ../../compositing/blending_modes.rst:0
+msgid "HSL luminosity"
+msgstr "Svetilnost HSL"
+
+#: ../../compositing/blending_modes.rst:1
+msgid "Kdenlive Documentation - Compositing: Blending Modes"
+msgstr "Dokumentacija Kdenlive - Sestavljanje: načini zlivanja"
+
+#: ../../compositing/blending_modes.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"learn, easy, compositing, blending modes"
+msgstr ""
+"KDE, Kdenlive, dokumentacija, uporabniški priročnik, montažni program, "
+"program za videomontažo, urejanje videoposnetkov, odprtokodni, brezplačno, "
+"učenje, enostavno, sestava, sestave, sestavljanje, načini zlivanja, načini "
+"mešanja, zlivanje, mešanje"
+
+#: ../../compositing/blending_modes.rst:16
+msgid "Blending Modes"
+msgstr "Načini zlivanja"
+
+#: ../../compositing/blending_modes.rst:18
+msgid ""
+"Blending modes (or **blend modes** or **mixing modes**) are also called "
+"**Composition Type** in Kdenlive. They determine how two images are blended "
+"together. The default blending mode is simply to cover whatever is in the "
+"lower track by whatever is in the upper track, while taking any :ref:`alpha "
+"channel <compositing-alpha_channels>` information into account."
+msgstr ""
+"Načini zlivanja (ali **načini mešanja**) se v Kdenlive imenujejo tudi "
+"**vrsta sestave**. Določajo, kako se dve sliki zmešata skupaj. Privzeti "
+"način zlivanja je preprosto pokrivanje vsega, kar je na spodnji stezi, s "
+"tem, kar je na zgornji stezi, pri čemer se upoštevajo vse informacije :ref:"
+"`kanala alfa<compositing-alpha_channels>`."
+
+#: ../../compositing/blending_modes.rst:20
+msgid ""
+"In this section, we are using the :guilabel:`Composition Type` **Cairo "
+"Blend** to explain the different blend modes."
+msgstr ""
+"V tem razdelku uporabljamo :guilabel:`vrsto sestave` **Zlivanje Cairo** za "
+"razlago različnih načinov zlivanja."
+
+#: ../../compositing/blending_modes.rst:22
+msgid ""
+"Compositing/blending needs at least two tracks: The top track or \"layer\", "
+"also called the *blend layer* or *active layer*; and the \"bottom\" track or "
+"layer, also called the *base layer*. In a blending composition, the *blend "
+"layer* is always the track where the composition originates, whereas the "
+"*base layer* can be specified with the :guilabel:`Composition track`. By "
+"default it is set to :guilabel:`Automatic` which uses the track immediately "
+"below."
+msgstr ""
+"Za sestavljanje/zlivanje sta potrebni vsaj dve stezi: zgornja steza ali "
+"»plast«, imenovana tudi *plast zlivanja* ali *dejavna plast*; in »spodnja« "
+"steza ali plast, imenovana tudi *osnovna plast*. V sestavi zlivanja  je "
+"*plast zlivanja* vedno steza, od koder izvira sestava, medtem ko je *osnovna "
+"plast* lahko določena s :guilabel:`stezo Sestava`. Privzeto je nastavljeno "
+"na :guilabel:`Samodejno`, ki uporablja stezo neposredno spodaj."
+
+#: ../../compositing/blending_modes.rst:31
+msgid "Selecting the composition track and blend mode"
+msgstr "Izbor steze sestave in načina zlivanja"
+
+#: ../../compositing/blending_modes.rst:33
+msgid ""
+"If you want to blend with a different base layer, select the correct one "
+"from the :guilabel:`Composition track`."
+msgstr ""
+"Če želite zlivati z drugo osnovno plastjo, izberite pravo pod :guilabel:"
+"`Steza sestave`."
+
+#: ../../compositing/blending_modes.rst:35
+msgid ""
+"Select the blend mode by clicking on the :guilabel:`Blend mode` drop-down "
+"list."
+msgstr ""
+"Izberite način zlivanja s klikom na spustni seznam :guilabel:`Način "
+"zlivanja`."
+
+#: ../../compositing/blending_modes.rst:37
+msgid ""
+"Blending can be controlled and keyframed by using the :guilabel:`Opacity` "
+"slider."
+msgstr ""
+"Zlivanje lahko nadzorujete in oblikujete s ključnimi sličicami z drsnikom :"
+"guilabel:`Prekrivnost`."
+
+#: ../../compositing/blending_modes.rst:41
+msgid ""
+"To better understand how blending modes work, read the :doc:`/"
+"tips_and_tricks/index` :doc:`/tips_and_tricks/how-tos/index` sections about :"
+"doc:`/tips_and_tricks/how-tos/lift_gamma_gain`, :doc:`White Balance </"
+"tips_and_tricks/how-tos/tutorial-white_balance_lms>`, and familiarize "
+"yourself with the :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/color_levels` effect."
+msgstr ""
+"Če želite bolje razumeti, kako delujejo načini zlivanja, preberite razdelke :"
+"doc:`/tips_and_tricks/index` :doc:`/tips_and_tricks/how-tos/index` o učinku :"
+"doc:`/tips_and_tricks/how-tos/lift_gamma_gain`, :doc:`ravnovesju beline </"
+"tips_and_tricks/how-tos/tutorial-white_balance_lms>` in se seznanite z "
+"učinkom :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"color_levels`."
+
+#: ../../compositing/blending_modes.rst:43
+msgid "Blending Modes can be grouped by their result:"
+msgstr "Načine zlivanja lahko združite glede na rezultat:"
+
+#: ../../compositing/blending_modes.rst:45
+msgid "Normal_"
+msgstr "_Navadno"
+
+#: ../../compositing/blending_modes.rst:46
+msgid "Darker_"
+msgstr "Temneje_"
+
+#: ../../compositing/blending_modes.rst:47
+msgid "Lighter_"
+msgstr "Svetlejše_"
+
+#: ../../compositing/blending_modes.rst:48
+msgid "Contrast_"
+msgstr "Kontrast_"
+
+#: ../../compositing/blending_modes.rst:49
+msgid "Comparative_"
+msgstr "Primerjalno_"
+
+#: ../../compositing/blending_modes.rst:50
+msgid "Color_"
+msgstr "Barva_"
+
+#: ../../compositing/blending_modes.rst:55
+msgid "Normal"
+msgstr "Običajno"
+
+#: ../../compositing/blending_modes.rst:57
+msgid ""
+"This is the standard blending mode. The blend layer simply covers everything "
+"in the base layer, except if there is an alpha channel in the blend layer."
+msgstr ""
+"To je standardni način zlivanja. Plast zlivanja preprosto pokriva vse v "
+"osnovni plasti, razen če je v mešani plasti kanal alfa."
+
+#: ../../compositing/blending_modes.rst:70
+msgid "Darker"
+msgstr "Temenjše"
+
+#: ../../compositing/blending_modes.rst:72
+msgid ""
+"The following blending modes all darken or amplify dark colors in the image:"
+msgstr "Naslednji načini zlivanja zatemnijo ali okrepijo temne barve na sliki:"
+
+#: ../../compositing/blending_modes.rst:75
+msgid "Keeps the darkest colors between the blend and base layers."
+msgstr "Ohranja najtemnejše barve med zlitimi in osnovnimi plastmi."
+
+#: ../../compositing/blending_modes.rst:78
+msgid ""
+"Keeps the darker colors of the blend layer and makes light colors less "
+"opaque. This is done by taking the :abbr:`RGB(Red Green Blue)` channel "
+"values from 0 to 1 of the pixel in the blend layer and multiplying it with "
+"the values of the corresponding pixel in the base layer. The resulting color "
+"is always darker, except for where it is pure white, since each value is "
+"less than 1."
+msgstr ""
+"Ohranja temnejše barve zlite plasti in naredi svetle barve manj prekrivne. "
+"To naredite tako, da vzamete vrednosti kanala :abbr:`RGB(Red Green Blue - "
+"zelena modra rdeča)` od 0 do 1 slikovne točke v plasti zlivanja in jih "
+"pomnožite z vrednostmi ustrezne slikovne točke v osnovni plasti. Dobljena "
+"barva je vedno temnejša, razen če je čisto bela, saj je vsaka vrednost "
+"manjša od 1."
+
+#: ../../compositing/blending_modes.rst:81
+msgid ""
+"The color from the blend layer is used to darken the base layer, and "
+"increases the contrast between the two. This is done by dividing the "
+"inverted base layer by the blend layer, and then inverting the result. "
+"Blending with white produces no change. Note that when the blend layer is a "
+"homogenous color, this effect is equivalent to changing the black point to "
+"the inverted color."
+msgstr ""
+"Barva iz zlite plasti se uporablja za zatemnitev osnovne plasti in poveča "
+"kontrast med obema. To naredite tako, da obrnjeno osnovno plast delite z "
+"mešano plastjo in nato obrnete rezultat. Zlivanje z belo ne povzroča "
+"sprememb. Upoštevajte, da je mešana plast homogene barve, zato je ta učinek "
+"enakovreden spreminjanju črne točke v obrnjeno barvo."
+
+#: ../../compositing/blending_modes.rst:109
+msgid "Lighter"
+msgstr "Svetlejše"
+
+#: ../../compositing/blending_modes.rst:111
+msgid ""
+"The following blending modes lighten or amplify light colors in the image:"
+msgstr ""
+"Naslednji načini zlivannja posvetlijo ali okrepijo svetle barve na sliki:"
+
+#: ../../compositing/blending_modes.rst:114
+msgid ""
+"The color values of both layers are simply added (hence the name). Since "
+"this always produces the same or lighter colors than the input (base layer) "
+"it is also known as *Plus Lighter*."
+msgstr ""
+"Barvne vrednosti obeh plasti se preprosto seštejejo (od tod tudi ime). Ker "
+"to vedno proizvaja enake ali svetlejše barve kot vhod (osnovna plast), je "
+"znan tudi kot *Plus Lighter*."
+
+#: ../../compositing/blending_modes.rst:117
+msgid ""
+"Keeps the lightest colors between the blend and base layers. It will only "
+"lighten of the blend layer is lighter than the brightness (or luminance) of "
+"the base layer."
+msgstr ""
+"Ohranja najsvetlejše barve med plastmi zlivanja in osnovnimi plastmi. To bo "
+"samo posvetlilo plast zlivanja, ki je svetlejša od svetlosti (ali "
+"svetilnosti) osnovnega plasti."
+
+#: ../../compositing/blending_modes.rst:120
+msgid ""
+"In this blending mode, the color values of the image of both layers are "
+"inverted, multiplied, and then inverted again. This is the opposite of "
+"**Multiply**: Wherever either layer was darker than white, the composite is "
+"brighter."
+msgstr ""
+"V tem načinu zlivanja se barvne vrednosti slike obeh plasti obrnejo, "
+"pomnožijo in nato znova obrnejo. To je nasprotno od **Množenja**: kjerkoli "
+"je bila katera koli plast temnejša od bele, je sestavek svetlejši."
+
+#: ../../compositing/blending_modes.rst:123
+msgid ""
+"This blending mode divides the base layer by the inverted blend layer. It "
+"lightens the base layer depending on the value of the blend layer: the "
+"brighter the blend layer, the more it affects the base layer. If you use "
+"white in the blend layer, the color in the base layer will become white; "
+"using black in the blend layer does not change the base layer. Note that "
+"when the blend layer is a homogenous color, this blending mode essentially "
+"changes the output black point to this color, and (input) white point to the "
+"inverted color."
+msgstr ""
+"Ta način zlivanja deli osnovno plast z obrnjeno plastjo zlivanja. Posvetli "
+"osnovni sloj glede na vrednost mešane plasti: svetlejša kot je mešana plast, "
+"bolj vpliva na osnovno plast. Če v mešani plasti uporabite belo, bo barva v "
+"osnovni plasti postala bela; uporaba črne barve v mešanici ne spremeni "
+"osnovne plasti. Upoštevajte, da ko je plast zlivanja homogene barve, ta "
+"način zlivanja v bistvu spremeni izhodno črno točko v to barvo in (vhodno) "
+"belo točko v obrnjeno barvo."
+
+#: ../../compositing/blending_modes.rst:133
+msgid "Add"
+msgstr "Dodaj"
+
+#: ../../compositing/blending_modes.rst:157
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: ../../compositing/blending_modes.rst:159
+msgid ""
+"The following blending modes are great for adding depth and dynamics to "
+"images by having the two layers play off of each other:"
+msgstr ""
+"Naslednji načini zlivanja so odlični za dodajanje globine in dinamike "
+"slikam, tako da se obe plasti med seboj preigravata:"
+
+#: ../../compositing/blending_modes.rst:162
+msgid ""
+"This blending mode works like **Multiply** if the base layer is darker, or "
+"like **Screen** if it's lighter. In other words: where the base layer is "
+"light, the blend layer becomes lighter; where the base layer is dark, the "
+"blend layer becomes darker; mid-tones do not affect the blend layer."
+msgstr ""
+"Ta način zlivanja deluje kot **Množenje**, če je osnovna plast temnejša, ali "
+"kot **Zaslon**, če je svetlejša. Z drugimi besedami: kjer je osnovna plast "
+"svetla, postane zlita plast svetlejša; kjer je osnovna plast temna, postane "
+"zlita plast temnejša; srednji toni ne vplivajo na plast zlivanja."
+
+#: ../../compositing/blending_modes.rst:165
+msgid ""
+"This blending mode is a combination of **Multiply** and **Screen**. It works "
+"similar to **Overlay** but uses the brightness of the blend layer where "
+"**Overlay** uses the base layer."
+msgstr ""
+"Ta način zlivanja je kombinacija »Množenja« in »Zaslona«. Deluje podobno kot "
+"**Prekrij**, vendar uporablja svetlost mešane plasti, kjer **Prekrij** "
+"uporablja osnovno plast."
+
+#: ../../compositing/blending_modes.rst:168
+msgid ""
+"Similar to **Overlay**, it uses luminance values to either darken or lighten "
+"the image."
+msgstr ""
+"Podobno kot **Prekrij** uporablja vrednosti svetilnosti za potemnitev ali "
+"osvetlitev slike."
+
+#: ../../compositing/blending_modes.rst:196
+msgid "Comparative"
+msgstr "Primerjalno"
+
+#: ../../compositing/blending_modes.rst:198
+msgid "The following blending modes basically invert white or light colors:"
+msgstr "Naslednji načini zlivanja v bistvu preobrnejo belo ali svetle barve:"
+
+#: ../../compositing/blending_modes.rst:201
+msgid ""
+"This blending mode subtracts the base layer from the blend layer, or the "
+"other way around to avoid negative numbers. Blending with black (:abbr:"
+"`RGB(Red Green Blue)` value is 0,0,0) results in no change, whereas blending "
+"with white (:abbr:`RGB(Red Green Blue)` value is 255, 255, 255) inverts the "
+"picture. During the editing process this can be used to verify alignment of "
+"images with similar content: is the pixel values are the same, the result is "
+"black."
+msgstr ""
+"Ta način zlivanja odšteje osnovno plast od zlite plasti ali obratno, da se "
+"izognemo negativnim številom. Zlivanje s črno (vrednost :abbr:`RGB(Red Green "
+"Blue)` je 0,0,0) ne povzroči nobene spremembe, medtem ko zlivanje z belo "
+"(vrednost :abbr:`RGB(Red Green Blue)` 255, 255, 255) obrne sliko. Med "
+"postopkom urejanja lahko to uporabite za preverjanje poravnave slik s "
+"podobno vsebino: če so vrednosti slikovnih točk enake, je rezultat črna."
+
+#: ../../compositing/blending_modes.rst:205
+msgid ""
+"This blending mode is essentially the same as **Difference** but with less "
+"contrast as it does not invert mid-tones."
+msgstr ""
+"Ta način zlivanja je v bistvu enak kot **Razlika**, vendar z manj "
+"kontrasten, saj ne preobrne srednjih tonov."
+
+#: ../../compositing/blending_modes.rst:227
+#: ../../compositing/blending_modes.rst:263
+msgid "Color"
+msgstr "Barva"
+
+#: ../../compositing/blending_modes.rst:229
+msgid ""
+"The following blending modes play with :term:`hues<hue>`, :term:"
+"`saturation`, and brightness (aka :term:`luminance`, hence the acronym HSL):"
+msgstr ""
+"Naslednji načini zlivanja se igrajo z :term:`obarvanostjo<hue>`, :term:"
+"`nasičenostjo<saturation>` in svetlostjo (t.j. :term:`luminance`, od tod "
+"tudi kratica HSL):"
+
+#: ../../compositing/blending_modes.rst:232
+msgid ""
+"This blending mode preserves the luma and saturation (:term:`chroma`) of the "
+"base layer, while taking the hue of the blend layer."
+msgstr ""
+"Ta način zlivanja ohrani lumo in nasičenost (:term:`kroma<chroma>`) osnovne "
+"plasti, medtem ko prevzame obarvanost zlite plasti."
+
+#: ../../compositing/blending_modes.rst:235
+msgid ""
+"This blending mode preserves the luma and hue from the base layer, while "
+"adopting the saturation from the blend layer."
+msgstr ""
+"Ta način zlivanja ohrani lumo in obarvanost iz osnovne plasti, hkrati pa "
+"prevzame nasičenost iz zlite plasti."
+
+#: ../../compositing/blending_modes.rst:238
+msgid ""
+"This blending mode preserves the luma from the base layer, while taking the "
+"hue and saturation from the blend layer."
+msgstr ""
+"Ta način zlivanja ohrani lumo iz osnovne plasti, hkrati pa prevzame "
+"obarvanost in nasičenost iz zlite plasti."
+
+#: ../../compositing/blending_modes.rst:241
+msgid ""
+"This blending mode preserves the hue and saturation from the base layer, "
+"while adopting the luma from the blend layer."
+msgstr ""
+"Ta način mešanja ohrani odtenek in nasičenost osnovne plasti, medtem ko "
+"prevzame lumo iz mešane plasti."
+
+#: ../../compositing/blending_modes.rst:251
+msgid "Hue"
+msgstr "Obarvanost"
+
+#: ../../compositing/blending_modes.rst:257
+msgid "Saturation"
+msgstr "Nasičenost"
+
+#: ../../compositing/blending_modes.rst:269
+msgid "Luminosity"
+msgstr "Svetilnost"

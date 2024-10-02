@@ -16,6 +16,7 @@ help:
 
 test:
 	@python3 $(SOURCEDIR)/tests/check_filenames.py
+	@python3 $(SOURCEDIR)/tests/check_redirects.py
 
 
 # Catch-all target: route all unknown targets to Sphinx using the new

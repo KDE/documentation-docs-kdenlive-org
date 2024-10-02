@@ -482,6 +482,8 @@ This menu item opens the Clip Properties widget and displays the properties of t
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
+For more details see the chapter :doc:`Clip Properties</project_and_asset_management/project_bin/clip_properties>`.
+
 .. rst-class:: clear-both
 
 

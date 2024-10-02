@@ -318,7 +318,7 @@ Other Options
 
 :guilabel:`2 pass`
 
-:guilabel:`Export metadata` - Check this box to have the metadata entered in the :ref:`project_settings` placed into the metadata of the rendered file.
+:guilabel:`Export metadata` - Check this box to have the metadata entered in the :doc:`project_settings</project_and_asset_management/project_settings/tab_meta_data>` placed into the metadata of the rendered file.
 
 .. container:: clear-both
 

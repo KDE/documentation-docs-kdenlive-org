@@ -3,14 +3,14 @@
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2021, 2022, 2023, 2024.
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Josep M. Ferrer <txemaq@gmail.com>
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-27 01:41+0000\n"
-"PO-Revision-Date: 2024-05-27 11:04+0200\n"
+"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-09-28 17:25+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.08.1\n"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:1
 msgid "Configure settings in Kdenlive video editor"
@@ -67,8 +67,12 @@ msgid ":guilabel:`Open the last project on startup`"
 msgstr ":guilabel:`Obre el darrer projecte en iniciar`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:54
-msgid ":guilabel:`Activate Crash recovery` (:ref:`auto_save`)"
-msgstr ":guilabel:`Recuperació de fallada` (:ref:`auto_save`)"
+msgid ""
+":guilabel:`Activate Crash recovery` (:doc:`auto_save</"
+"project_and_asset_management/file_management/auto_save>`)"
+msgstr ""
+":guilabel:`Recuperació de fallada` (:doc:`auto_save</"
+"project_and_asset_management/file_management/auto_save>`)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:56
 msgid "**Clip import**"
@@ -383,20 +387,23 @@ msgstr "**Tasques de servidor intermediari i transcodificació**"
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:215
 msgid ""
 ":guilabel:`Concurrent threads` This will set the number of threads the "
-"program will attempt to use when calling ffmpeg to encode :ref:`clips`. This "
-"will be what kdenlive passes to the ffmpeg  *-threads* parameter. Increasing "
-"this parameter may not have an effect if you have changed the proxy encoding "
-"settings using :ref:`project_settings` to a codec that ffmpeg does not do "
-"multi-thread on. (Multi-threading is supported for MPEG-2, MPEG-4, H.264, "
-"and VP8)"
+"program will attempt to use when calling ffmpeg to encode :doc:`clips</"
+"project_and_asset_management/project_bin/clips>`. This will be what kdenlive "
+"passes to the ffmpeg  *-threads* parameter. Increasing this parameter may "
+"not have an effect if you have changed the proxy encoding settings using :"
+"doc:`project_settings</project_and_asset_management/project_settings/"
+"proxy_settings>` to a codec that ffmpeg does not do multi-thread on. (Multi-"
+"threading is supported for MPEG-2, MPEG-4, H.264, and VP8)"
 msgstr ""
 ":guilabel:`Fils concurrents`: això definirà el nombre de fils que el "
-"programa intentarà usar en cridar el «ffmpeg» per a codificar :ref:`clips`. "
-"El Kdenlive passarà això al paràmetre *-threads* del «ffmpeg». Incrementar "
-"aquest paràmetre pot no tenir cap efecte si heu canviat la configuració de "
-"codificació dels intermediaris usant :ref:`project_settings` a un còdec que "
-"el «ffmpeg» no el tracti com a multifil. (El multifil està implementat per a "
-"MPEG-2, MPEG-4, H.264, i VP8)"
+"programa intentarà usar en cridar el «ffmpeg» per a codificar :doc:`clips</"
+"project_and_asset_management/project_bin/clips>`. El Kdenlive passarà això "
+"al paràmetre *-threads* del «ffmpeg». Incrementar aquest paràmetre pot no "
+"tenir cap efecte si heu canviat la configuració de codificació dels "
+"intermediaris usant :doc:`project_settings</project_and_asset_management/"
+"project_settings/proxy_settings>` a un còdec que el «ffmpeg» no el tracti "
+"com a multifil. (El multifil està implementat per a MPEG-2, MPEG-4, H.264, i "
+"VP8)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:219
 msgid ""
@@ -824,10 +831,10 @@ msgstr "Configuració de la captura de pantalla"
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:460
 msgid ""
 "These settings configure screen grab within **Kdenlive**. More details see :"
-"ref:`here <capturing>`."
+"doc:`here </project_and_asset_management/capturing_video>`."
 msgstr ""
 "Aquestes opcions configuren la captura de pantalla en el **Kdenlive**. Vegeu "
-"més detalls :ref:`aquí <capturing>`."
+"més detalls :doc:`aquí </project_and_asset_management/capturing_video>`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
 msgid "Blackmagic"
@@ -847,11 +854,14 @@ msgstr "Àudio"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:480
 msgid ""
-"Microphone settings, either for screen :ref:`capturing` or for :ref:"
-"`capturingaudio` direct into the timeline."
+"Microphone settings, either for screen :doc:`capturing</"
+"project_and_asset_management/capturing_video>` or for :doc:`capturing audio</"
+"project_and_asset_management/capturing_audio>` direct into the timeline."
 msgstr ""
-"Configuració del micròfon, tant per la pantalla de :ref:`capturing` com per "
-"la :ref:`capturingaudio` directa en la línia de temps."
+"Configuració del micròfon, tant per la pantalla de :doc:`captura</"
+"project_and_asset_management/capturing_video>` com per la :doc:`captura "
+"d'àudio</project_and_asset_management/capturing_audio>` directa en la línia "
+"de temps."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:484
 msgid ":guilabel:`Disable countdown before recording`"
@@ -871,11 +881,13 @@ msgstr "El paràgraf següent només està per un motiu històric."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:492
 msgid ""
-"Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, "
-"Blackmagic, Audio) from this section."
+"Configure the :doc:`capturing</project_and_asset_management/"
+"capturing_video>` devices (Firewire, FFmpeg, Screen Grab, Blackmagic, Audio) "
+"from this section."
 msgstr ""
-"Configureu els dispositius de :ref:`capturing` (Firewire, FFmpeg, Screen "
-"Grab, Blackmagic, Audio) en aquesta secció."
+"Configureu els dispositius de :doc:`captura</project_and_asset_management/"
+"capturing_video>` (Firewire, FFmpeg, Screen Grab, Blackmagic, Audio) en "
+"aquesta secció."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:496
 msgid "Configure Firewire Capture"
@@ -885,11 +897,11 @@ msgstr "Configuració de la captura del Firewire"
 msgid ""
 "The image shows the Configure Firewire capture tab which can be accessed "
 "from the :menuselection:`Settings --> Configure Kdenlive` menu or from the "
-"spanner icon in the :ref:`capturing`"
+"spanner icon in the capturing."
 msgstr ""
 "La imatge mostra la pestanya de Configuració de la captura del Firewire que "
 "és accessible des del menú :menuselection:`Arranjament --> Configura el "
-"Kdenlive` o des de la icona de l'expansor a la :ref:`capturing`"
+"Kdenlive` o des de la icona de l'expansor a la captura."
 
 # skip-rule: t-acc_obe
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:507

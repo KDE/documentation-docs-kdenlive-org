@@ -27,7 +27,6 @@ Useful Information
    compositing_with_transparency
    kdenlive_transitions
    insert_overwrite_advanced_timeline_editing
-   the_library
    library_clips
    smooth_keyframe_interpolation
    fixing_slow_audio_fade-ins

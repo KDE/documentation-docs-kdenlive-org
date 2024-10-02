@@ -16,7 +16,7 @@ Manage Cached Data
 
 .. .. versionadded:: 16.04.1
 
-Kdenlive 16.04.1 rather quietly introduced a useful new feature to be found in the timeline toolbar: :guilabel:`Manage Cached Data`. It allows you to see how much disk space your projects each eat up. You can then also selectively clean up project-cached data when you do not need it anymore after finishing a project. See also the :ref:`archiving` feature.
+Kdenlive 16.04.1 rather quietly introduced a useful new feature to be found in the timeline toolbar: :guilabel:`Manage Cached Data`. It allows you to see how much disk space your projects each eat up. You can then also selectively clean up project-cached data when you do not need it anymore after finishing a project. See also the :doc:`archiving</project_and_asset_management/file_management/archiving>` feature.
 
 .. figure:: /images/tips_and_tricks/manage_cached_data.webp
    :align: left
