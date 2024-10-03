@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-05-31 09:39+0200\n"
+"PO-Revision-Date: 2024-09-28 19:19+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.08.1\n"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:1
 msgid "Configure settings in Kdenlive video editor"
@@ -65,12 +65,12 @@ msgid ":guilabel:`Open the last project on startup`"
 msgstr ":guilabel:`Apri l'ultimo progetto all'avvio`"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:54
-#, fuzzy
-#| msgid ":guilabel:`Activate Crash recovery` (:ref:`auto_save`)"
 msgid ""
 ":guilabel:`Activate Crash recovery` (:doc:`auto_save</"
 "project_and_asset_management/file_management/auto_save>`)"
-msgstr ":guilabel:`Attiva il recupero in caso di crash` (:ref:`auto_save`)"
+msgstr ""
+":guilabel:`Attiva il recupero in caso di crash` (:doc:`auto_save</"
+"project_and_asset_management/file_management/auto_save>`)"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:56
 msgid "**Clip import**"
@@ -382,15 +382,6 @@ msgid "**Proxy and Transcode Jobs**"
 msgstr "**Clip rappresentative e processi di transcodifica**"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:215
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Concurrent threads` This will set the number of threads the "
-#| "program will attempt to use when calling ffmpeg to encode :ref:`clips`. "
-#| "This will be what kdenlive passes to the ffmpeg  *-threads* parameter. "
-#| "Increasing this parameter may not have an effect if you have changed the "
-#| "proxy encoding settings using :ref:`project_settings` to a codec that "
-#| "ffmpeg does not do multi-thread on. (Multi-threading is supported for "
-#| "MPEG-2, MPEG-4, H.264, and VP8)"
 msgid ""
 ":guilabel:`Concurrent threads` This will set the number of threads the "
 "program will attempt to use when calling ffmpeg to encode :doc:`clips</"
@@ -403,11 +394,13 @@ msgid ""
 msgstr ""
 ":guilabel:`Thread simultanei` questo controllo imposta il numero di thread "
 "che il programma proverà ad utilizzare quando chiama ffmpeg per codificare "
-"le :ref:`clips`. Questo è ciò che kdenlive passa a ffmpeg col parametro *-"
-"threads*. L'aumento di questo parametro potrebbe non aver effetto se hai "
-"modificato le impostazioni di codifica delle clip rappresentative usando le :"
-"ref:`project_settings` con un codec con cui ffmpeg non attiva il multi-"
-"threading, che è supportato per MPEG-2, MPEG-4, H.264 e VP8"
+"le :doc:`clip</project_and_asset_management/project_bin/clips>`. Questo è "
+"ciò che kdenlive passa a ffmpeg col parametro *-threads*. L'aumento di "
+"questo parametro potrebbe non aver effetto se hai modificato le impostazioni "
+"di codifica delle clip rappresentative usando le :doc:`project_settings</"
+"project_and_asset_management/project_settings/proxy_settings>` con un codec "
+"con cui ffmpeg non attiva il multi-threading, che è supportato per MPEG-2, "
+"MPEG-4, H.264 e VP8"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:219
 msgid ""
@@ -827,16 +820,13 @@ msgid "Configure Screen Grab Capture"
 msgstr "Configurare la cattura dello schermo"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:460
-#, fuzzy
-#| msgid ""
-#| "These settings configure screen grab within **Kdenlive**. More details "
-#| "see :ref:`here <capturing>`."
 msgid ""
 "These settings configure screen grab within **Kdenlive**. More details see :"
 "doc:`here </project_and_asset_management/capturing_video>`."
 msgstr ""
 "Queste impostazioni configurano la cattura dello schermo con **Kdenlive**. "
-"Per maggiori dettagli vedi :ref:`qui <capturing>`."
+"Per maggiori dettagli, vedi :doc:`qui </project_and_asset_management/"
+"capturing_video>`."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:463
 msgid "Blackmagic"
@@ -855,17 +845,15 @@ msgid "Audio"
 msgstr "Audio"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:480
-#, fuzzy
-#| msgid ""
-#| "Microphone settings, either for screen :ref:`capturing` or for :ref:"
-#| "`capturingaudio` direct into the timeline."
 msgid ""
 "Microphone settings, either for screen :doc:`capturing</"
 "project_and_asset_management/capturing_video>` or for :doc:`capturing audio</"
 "project_and_asset_management/capturing_audio>` direct into the timeline."
 msgstr ""
-"Le impostazioni del microfono, sia per la :ref:`capturing` dello schermo che "
-"per la :ref:`capturingaudio` direttamente nella linea temporale."
+"Le impostazioni del microfono, sia per la :doc:`cattura</"
+"project_and_asset_management/capturing_video>` dello schermo che per quella "
+":doc:`audio</project_and_asset_management/capturing_audio>` direttamente "
+"nella linea temporale."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:484
 msgid ":guilabel:`Disable countdown before recording`"
@@ -885,28 +873,20 @@ msgid "Following paragraph is for history reason only."
 msgstr "Il paragrafo seguente è presente solo per ragioni storiche."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:492
-#, fuzzy
-#| msgid ""
-#| "Configure the :ref:`capturing` devices (Firewire, FFmpeg, Screen Grab, "
-#| "Blackmagic, Audio) from this section."
 msgid ""
 "Configure the :doc:`capturing</project_and_asset_management/"
 "capturing_video>` devices (Firewire, FFmpeg, Screen Grab, Blackmagic, Audio) "
 "from this section."
 msgstr ""
-"Configura i dispositivi di :ref:`capturing` (Firewire, FFmpeg, Screen Grab, "
-"Blackmagic e audio) da questa sezione."
+"Configura i dispositivi di :doc:`cattura </project_and_asset_management/"
+"capturing_video>` (Firewire, FFmpeg, Screen Grab, Blackmagic e audio) in "
+"questa sezione."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:496
 msgid "Configure Firewire Capture"
 msgstr "Configura cattura Firewire"
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:498
-#, fuzzy
-#| msgid ""
-#| "The image shows the Configure Firewire capture tab which can be accessed "
-#| "from the :menuselection:`Settings --> Configure Kdenlive` menu or from "
-#| "the spanner icon in the :ref:`capturing`"
 msgid ""
 "The image shows the Configure Firewire capture tab which can be accessed "
 "from the :menuselection:`Settings --> Configure Kdenlive` menu or from the "
@@ -914,7 +894,7 @@ msgid ""
 msgstr ""
 "L'immagine mostra la scheda per la configurazione della cattura Firewire, "
 "che può essere trovata dal menu :menuselection:`Impostazioni --> Configura "
-"Kdenlive`, oppure dall'icona a chiave inglese in :ref:`capturing`"
+"Kdenlive`, oppure dall'icona a chiave inglese nella cattura."
 
 #: ../../user_interface/menu/settings_menu/configure_kdenlive.rst:507
 msgid ""
