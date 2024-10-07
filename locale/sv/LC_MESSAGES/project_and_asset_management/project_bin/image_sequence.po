@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-09-28 08:16+0200\n"
+"PO-Revision-Date: 2024-10-06 20:51+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -53,6 +53,9 @@ msgid ""
 "clip|\\ |go-down|\\ :guilabel:`Add Clip` icon on the project bin toolbar, "
 "and select :guilabel:`Add Image Sequence`."
 msgstr ""
+"Högerklicka på tomt utrymme i projektkorgen, eller klicka på ikonen"
+" |kdenlive-add-clip|\\ |go-down|\\ :guilabel:`Lägg till klipp` på"
+" projektkorgens verktygsrad och välj :guilabel:` Lägg till bildsekvens`."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:39
 msgid "Adding an image sequence"
@@ -60,17 +63,19 @@ msgstr "Lägga till en bildsekvens"
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:41
 msgid "This opens a dialog window to specify further details."
-msgstr ""
+msgstr "Det öppnar ett dialogfönster för att ange ytterligare information."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:53
 msgid "Image sequence details"
-msgstr ""
+msgstr "Information om bildsekvens"
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:57
 msgid ""
 ":guilabel:`Name`: Enter the name of the image sequence. You can change it "
 "later from within the project bin."
 msgstr ""
+":guilabel:`Namn`: Skriv in namnet på bildsekvensen. Man kan ändra det senare"
+" inifrån projektkorgen."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:59
 msgid ""
@@ -78,6 +83,9 @@ msgid ""
 "order using a simple alphabetic sorting method. It is recommended to get the "
 "images into the right order before adding the image sequence."
 msgstr ""
+":guilabel:`MIME-typ`: När aktiverat, importeras bilderna i stigande ordning"
+" med en enkel alfabetisk sorteringsmetod. Det rekommenderas att ha bilderna i"
+" rätt ordning innan bildsekvensen läggs till."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:61
 msgid ""
@@ -108,6 +116,10 @@ msgid ""
 "default, the :abbr:`hh:mm:ss:ff(hours:minutes:seconds:frames)` format is "
 "used; alternatively you can use frames."
 msgstr ""
+":guilabel:`Bildlängd`: Ange längden på varje bild som ska visas. Välj det"
+" formatet som ska använda i kombinationsmenyn. Normalt används formatet"
+" :abbr:`tt:mm:ss:ff (timmar:minuter:sekunder:ramar)`; alternativt kan man"
+" använda bildrutor."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:67
 msgid ""
@@ -115,6 +127,9 @@ msgid ""
 "the timeline by dragging. Otherwise the image sequence clip is only as long "
 "as the number of images times the frame duration."
 msgstr ""
+":guilabel:`Upprepa`: När det är aktiverat kan bildsekvensklippet förlängas i "
+"tidslinjen genom att dra. Annars är bildsekvensklippet bara så långt som"
+" antalet bilder gånger bildlängden."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:69
 msgid ""
@@ -125,6 +140,12 @@ msgid ""
 "will appear when the photo orientation or aspect ratio does not match the "
 "project settings."
 msgstr ""
+":guilabel:`Centrumbeskärning`: När aktiverat, fylls videobildrutan"
+" automatiskt ut med bilderna samtidigt som deras bildförhållande bibehålls"
+" genom att zooma bilden och beskära lika mycket från varje kant tills de"
+" fyller hela bilden. Utan alternativet zoomas bilderna inte, men svarta fält"
+" visas när fotoorienteringen eller proportionen inte stämmer överens med"
+" projektinställningarna."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:71
 msgid ""
@@ -133,6 +154,9 @@ msgid ""
 "duration`), choose the type of :guilabel:`Wipe`, and adjust it with the :"
 "guilabel:`Softness` slider."
 msgstr ""
+":guilabel:`Lös upp`: När det är aktiverat kan man justera längden för lös upp"
+" (formatet beror på val av format med :guilabel:`Bildlängd`) och välja typ av"
+" :guilabel:`Övergång` och justera den med reglagen för :guilabel:`Mjukhet`."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:73
 msgid ""
@@ -144,6 +168,14 @@ msgid ""
 "much slower, so you should preview without it, and then enable it for the "
 "final render."
 msgstr ""
+":guilabel:`Animering`: När aktiverad, lägger den till förinställda långsamma,"
+" jämna panorerings- och zoomeffekter, även kända som Ken Burns-effekten\\"
+" [1]_. Man kan välja :guilabel:`Ingen` (ingen animering),"
+" :guilabel:`Panorera`, :guilabel:`Panorera och zooma` eller"
+" :guilabel:`Zooma`. Varje alternativ har också ett lågpassfilter för att"
+" minska bruset i bilderna som kan uppstå under operationen. Lågpassfiltrering"
+" är mycket långsammare, så man bör förhandsgranska utan den och sedan"
+" aktivera den för den slutliga återgivningen."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:75
 msgid ""
@@ -151,12 +183,17 @@ msgid ""
 "the image sequence. Check :guilabel:`Show thumbnails` to switch on "
 "thumbnails for the files."
 msgstr ""
+"Rutan a längst ned i fönstret visar filerna som inkluderas i bildsekvensen."
+" Markera :guilabel:`Visa miniatyrbilder` för att aktivera miniatyrbilder för"
+" filerna."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:77
 msgid ""
 "When you press :guilabel:`OK`, a video file made up of all the images you "
 "selected will be added to the project bin."
 msgstr ""
+"När man trycker på :guilabel:`Ok` läggs en videofil som består av alla bilder"
+" som markerats till i projektkorgen."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:79
 msgid "You can then drag this video to the timeline."
@@ -168,6 +205,9 @@ msgid ""
 "either double-click the image sequence in the project bin or right-click and "
 "choose :guilabel:`Clip Properties`."
 msgstr ""
+"För att redigera parametrarna för bildspelet och sätta på"
+" :guilabel:`Lågpass`, dubbelklicka antingen på bildsekvensen i projektkorgen"
+" eller högerklicka och välj :guilabel:`Klippegenskaper`."
 
 #: ../../project_and_asset_management/project_bin/image_sequence.rst:91
 msgid ""
@@ -177,3 +217,9 @@ msgid ""
 "impression of movement. See the Wikipedia article about the |"
 "ken_burns_effect|."
 msgstr ""
+"Ken Burns-effekten beskriver en teknik som används flitigt av den amerikanske"
+" dokumentärskaparen Ken Burns som förvandlar stillbilder till något rörligt."
+" I huvudsak applicerar den en panorering och zoom över en bild som ger"
+" intryck av rörelse. Se Wikipedia-artikeln om |ken_burns_effect|."
+
+
