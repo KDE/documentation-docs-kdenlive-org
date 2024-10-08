@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-10-06 20:46+0200\n"
+"PO-Revision-Date: 2024-10-07 21:33+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -45,14 +45,19 @@ msgid ""
 "switch it on here in the Project Settings Proxy tab and change the settings "
 "for it."
 msgstr ""
+"Ersättningsklipp kan sättas på och stängas av per projekt. När ersättningar"
+" är inaktiverade globalt (se :ref:`configure_proxy_clips`), stängs de av för"
+" alla nya projekt. Men om man behöver ersättningar för ett nytt projekt kan"
+" man sätta på det under fliken Projektinställningar Ersättning och ändra"
+" inställningen av det."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:39
 msgid ""
 "For illustration purposes, all check boxes have been selected. This is not "
 "the case when you open this tab."
 msgstr ""
-"I illustrationssyfte har alla kryssrutor markerats. Det är inte fallet när"
-" fliken öppnas."
+"I illustrationssyfte har alla kryssrutor markerats. Det är inte fallet när "
+"fliken öppnas."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:41
 msgid ""
@@ -61,10 +66,10 @@ msgid ""
 "editing. The proxy clips will be replaced with the originals for the full "
 "resolution when rendering."
 msgstr ""
-"När :guilabel:`Ersättningsklipp` är aktiverat skapar Kdenlive automatiskt"
-" reducerade versioner av källklipp och använder de versionerna vid"
-" redigering. Ersättningsklippen byts ut mot originalen för full upplösning"
-" vid återgivning."
+"När :guilabel:`Ersättningsklipp` är aktiverat skapar Kdenlive automatiskt "
+"reducerade versioner av källklipp och använder de versionerna vid "
+"redigering. Ersättningsklippen byts ut mot originalen för full upplösning "
+"vid återgivning."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:43
 msgid ""
@@ -72,9 +77,9 @@ msgid ""
 "create proxy clips for all videos added to the project that have a frame "
 "width larger than the number of pixels specified here."
 msgstr ""
-"Alternativet :guilabel:`Skapa för videor större än` skapar automatiskt"
-" ersättningsklipp för alla videor som läggs till i projektet och som har en"
-" bildbredd större än antalet bildpunkter angivna här."
+"Alternativet :guilabel:`Skapa för videor större än` skapar automatiskt "
+"ersättningsklipp för alla videor som läggs till i projektet och som har en "
+"bildbredd större än antalet bildpunkter angivna här."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:46
 msgid ""
@@ -82,15 +87,18 @@ msgid ""
 "clip in your project bin by right-clicking on the clip and choosing :"
 "guilabel:`Proxy Clip`."
 msgstr ""
-"Man kan också välja att manuellt aktivera/inaktivera ersättningsklipp för"
-" varje klipp i din projektkorgen genom att högerklicka på klippet och välja"
-" :guilabel:`Ersättningsklipp`."
+"Man kan också välja att manuellt aktivera/inaktivera ersättningsklipp för "
+"varje klipp i din projektkorgen genom att högerklicka på klippet och välja :"
+"guilabel:`Ersättningsklipp`."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:48
 msgid ""
 "Specify the frame width of the proxy clip. Default is 640px which is a "
 "reasonable compromise between smooth editing performance and preview detail."
 msgstr ""
+"Ange ersättningsklippets bildbredd. Normalt är den 640 bildpunkter, vilket är"
+" en rimlig kompromiss mellan smidig redigeringsprestanda och"
+" förhandsgranskningsdetaljer."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:50
 msgid ""
@@ -101,6 +109,12 @@ msgid ""
 "`Settings --> Configure Kdenlive --> Proxy` dialog. For more details see "
 "the :ref:`configure_proxy_clips` chapter."
 msgstr ""
+"Man kan välja en :guilabel:`Kodningsprofil` för ersättningsklippen, som"
+" definierar storlek, kodare och bithastighet som används när"
+" ersättningsklippet skapas. Ersättningsprofilerna kan hanteras härifrån genom"
+" att klicka på ikonen |configure|\\ :guilabel:`Hantera ersättningsprofiler`,"
+" eller i dialogrutan :menuselection:`Inställningar --> Anpassa Kdenlive -->"
+" Ersättning`. För mer information se kapitlet :ref:`configure_proxy_clips`."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:60
 msgid "List of available proxy profiles"
@@ -113,17 +127,21 @@ msgstr "|list-add|\\ :guilabel:`Lägg till profil`: Skapar en ny profil"
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:64
 msgid "|document-edit|\\ :guilabel:`Edit`: Edit the selected profile"
 msgstr ""
+"|document-edit|\\ :guilabel:`Redigera`: Redigera den markerade profilen"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:66
 msgid ""
 "|list-remove|\\ :guilabel:`Remove profile`: Deletes the selected profile"
 msgstr ""
+"|list-remove|\\ :guilabel:`Ta bort profil`: Tar bort den markerade profilen"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:68
 msgid ""
 "|edit-download|\\ :guilabel:`Download`: Opens the download from KDE Store "
 "window (not yet implemented)"
 msgstr ""
+"|edit-download|\\ :guilabel:`Ladda ner`: Öppnar nerladdningen från KDE:s"
+" butiksfönster (inte implementerat ännu)"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:72
 msgid ""
@@ -132,10 +150,14 @@ msgid ""
 "`Compare proxy profile efficiency` icon, and select :guilabel:`Test Proxy "
 "Profiles`."
 msgstr ""
+"Man kan testa prestandan för de tillgängliga ersättningsklippens profiler för"
+" att välja den bästa för datorinstallationen. Klicka på ikonen |run-build|\\"
+" :guilabel:`Jämför ersättningsprofilens effektivitet` och välj"
+" :guilabel:`Testa ersättningsprofiler`."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:82
 msgid "The results of the comparison of proxy profiles"
-msgstr ""
+msgstr "Resultaten av jämförelsen av ersättningsprofiler"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:84
 msgid ""
@@ -143,6 +165,9 @@ msgid ""
 "against it. The results are shown for each proxy profile for render time and "
 "file size."
 msgstr ""
+"Kdenlive genererar en 60-sekunders testvideo och kör varje ersättningsprofil"
+" mot den. Resultaten visas för varje ersättningsprofil för återgivningstid"
+" och filstorlek."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:88
 msgid ""
@@ -150,6 +175,9 @@ msgid ""
 "create proxy clips for all images added to the project that have a frame "
 "width larger than the number of pixels specified here."
 msgstr ""
+"Alternativet :guilabel:`Skapa för bilder större än` skapar automatiskt "
+"ersättningsklipp för alla bilder som läggs till i projektet och som har en "
+"bildbredd större än antalet bildpunkter angivna här."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:90
 msgid ""
@@ -160,5 +188,4 @@ msgstr ""
 ":guilabel:`Externa ersättningsklipp` När den är aktiverad läser den "
 "ersättningsklippen som genereras av videokameran. För mer information, se: :"
 "ref:`using_camcorder_proxy_clips`."
-
 
