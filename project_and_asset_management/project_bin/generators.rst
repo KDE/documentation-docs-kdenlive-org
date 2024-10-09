@@ -62,7 +62,7 @@ This generates a counter timer video clip in various formats.
 .. rst-class:: clear-both
 
 :guilabel:`Count up`:
-   You can choose to have the clip count up by checking that option, otherwise it will count dow.. .. versionadded:: 17.04
+   You can choose to have the clip count up by checking that option, otherwise it will count down.
 
 :guilabel:`No Background`:
    This option will remove the black lines and the white circles from the counter leaving only the grey background.

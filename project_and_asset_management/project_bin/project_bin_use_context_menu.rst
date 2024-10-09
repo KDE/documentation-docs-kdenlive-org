@@ -115,7 +115,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
    You need to select two clips in the bin for this action. The clip you right-clicked on will be replace by the other. See also the chapter :ref:`replace_clip`.
 
 |duplicate_clip|:
-   Craetes a copy of the selected clip. See also the chapter :ref:`duplicate_clip`.
+   Creates a copy of the selected clip. See also the chapter :ref:`duplicate_clip`.
 
 |transcode|:
    Opens a window with the selected clips where you can select the format to transcode the clips to. See also the chapter :ref:`transcode_to_edit_friendly_format`.

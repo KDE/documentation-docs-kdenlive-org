@@ -99,7 +99,7 @@ Editing Tags
 .. rst-class:: clear-both
 
 .. hint::
-   You can change the order of the tags in the panel by simply grabbing a tag adn dragging it to the desired place in the panel.
+   You can change the order of the tags in the panel by simply grabbing a tag and dragging it to the desired place in the panel.
 
 
 Filtering by Tags
