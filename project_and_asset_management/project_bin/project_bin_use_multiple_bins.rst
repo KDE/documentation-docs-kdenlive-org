@@ -46,7 +46,7 @@ Folders are a good way to stay organized but they are tied to the Project Bin. I
 
    Right-click the folder name and choose :guilabel:`Open Current Folder In New Bin`.
 
-   A bin can be closed either by clicking the |window-close|\ :guilabel:`Close Current Bin` icon in the bin toolbar, opening the |application-menu|\ :guilabel:`Options` menu and selecting :guilabel:`Close Current Bin` (you must be in the bin), or by selecting the :menuselection:`Menu --> View --> Project Bins` and un-ticking the respective bin in the list.
+   A bin can be closed either by clicking the |window-close|\ :guilabel:`Close Current Bin` icon on the bin toolbar, opening the |application-menu|\ :guilabel:`Options` menu and selecting :guilabel:`Close Current Bin` (you must be in the bin), or by selecting the :menuselection:`Menu --> View --> Project Bins` and un-ticking the respective bin in the list.
 
 .. rst-class:: clear-both
 
