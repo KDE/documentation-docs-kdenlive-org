@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-10-06 20:35+0200\n"
+"PO-Revision-Date: 2024-10-08 20:39+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -38,12 +38,16 @@ msgid ""
 "**Kdenlive** provides functionality for capturing video using |blackmagic|'s "
 "|decklink|, and via ScreenGrab."
 msgstr ""
+"**Kdenlive** tillhandahåller funktionalitet för att hämta video med"
+" användning av |decklink| från |blackmagic| och via skärmlagring."
 
 #: ../../project_and_asset_management/capturing_video.rst:40
 msgid ""
 "For other devices, mostly connected via Firewire (also known as IEEE 1394 "
 "High Speed Serial Bus) card and cable, use |dvgrab| directly in a terminal."
 msgstr ""
+"För andra enheter, oftast anslutna via Firewire (även känd som IEEE 1394 High"
+" Speed ​​Serial Bus) kort och kabel, använd |dvgrab| direkt i en terminal."
 
 #: ../../project_and_asset_management/capturing_video.rst:42
 msgid ""
@@ -74,6 +78,8 @@ msgid ""
 "This captures video off the PC screen. Enable the Screen Grab widget via :"
 "menuselection:`Menu --> View --> Screen Grab`."
 msgstr ""
+"Lagrar video från datorskärmen. Aktivera komponenten Skärmlagring via"
+" :menuselection:`Meny --> Visa --> Skärmlagring`."
 
 #: ../../project_and_asset_management/capturing_video.rst:53
 msgid ""
@@ -83,6 +89,11 @@ msgid ""
 "be added to the dock where the Project Bin or the Library is. Docking it to "
 "the Clip Monitor widget prevents a message from being visible."
 msgstr ""
+"Eventuella problem eller fel med skärmlagring visas i klippskärmskomponenten."
+" Det rekommenderas att flytta skärmlagringskomponenten till en position där"
+" klippskärmen är lätt synlig. Till exempel kan skärmlagringskomponenten"
+" placeras där projektkorgen eller biblioteket finns. Att placera den i"
+" klippskärmskomponenten förhindrar att ett meddelande visas."
 
 #: ../../project_and_asset_management/capturing_video.rst:61
 msgid "The Screen Grab widget"
@@ -113,6 +124,8 @@ msgid ""
 "Opens the Kdenlive :menuselection:`Settings --> Capture --> Screen Grab` "
 "window"
 msgstr ""
+"Öppnar Kdenlives fönstret :menuselection:`Inställningar --> Tagning -->"
+" Skärmlagring`"
 
 #: ../../project_and_asset_management/capturing_video.rst:74
 msgid "The recorded clip will be added to the project bin."
@@ -127,6 +140,9 @@ msgid ""
 "Screen grab uses ffmpeg for recording and encoding. Most issues have to do "
 "with the version of ffmpeg installed or how ffmpeg was compiled."
 msgstr ""
+"Skärmlagring använder ffmpeg för inspelning och kodning. De flesta problem"
+" har att göra med versionen av ffmpeg installerad eller hur ffmpeg"
+" kompilerades."
 
 #: ../../project_and_asset_management/capturing_video.rst:80
 msgid ""
@@ -135,6 +151,10 @@ msgid ""
 "version`` in a terminal and look for that parameter in the information "
 "reported back by ffmpeg. [1]_"
 msgstr ""
+"Specifikt behöver ffmpeg ``--enable-x11grab`` för att fungera för"
+" skärmlagring. Kontrollera i Linux-distributionen om ffmpeg har parametern"
+" genom att skriva ``ffmpeg -version`` i en terminal och leta efter parametern"
+" i informationen som rapporteras av ffmpeg. [1]_."
 
 #: ../../project_and_asset_management/capturing_video.rst:82
 msgid ""
@@ -143,6 +163,10 @@ msgid ""
 "for Screen Capture where ``-acodec pcm_s16le``  is replaced by ``-acodec "
 "libvorbis -b 320k``."
 msgstr ""
+"Om man lagrar skärmen och använder inställningen :guilabel:`x246 med ljud`"
+" kan inspelningen krascha. Om det är fallet, skapa en kodningsprofil för"
+" skärmlagring där ``-acodec pcm_s16le`` ersätts med ``-acodec libvorbis -b"
+" 320k``."
 
 #: ../../project_and_asset_management/capturing_video.rst:86
 msgid "Blackmagic"
@@ -151,6 +175,7 @@ msgstr "Blackmagic"
 #: ../../project_and_asset_management/capturing_video.rst:88
 msgid "This is for capturing from Blackmagic's |decklink| video capture cards."
 msgstr ""
+"Det är för att lagra med |decklink| videoinspelningskort från Blackmagic."
 
 #: ../../project_and_asset_management/capturing_video.rst:91
 msgid ""
@@ -159,6 +184,10 @@ msgid ""
 "is not knowing how many users actually perform video capturing with this "
 "hardware."
 msgstr ""
+"Det har inte skett någon större utveckling eller testning av den här delen av"
+" Kdenlive. Det kan fungera, det kan ha problem. Inga felrapporter har"
+" skapats, men man vet inte hur många användare som faktiskt utför"
+" videoinspelning med maskinvaran."
 
 #: ../../project_and_asset_management/capturing_video.rst:97
 msgid ""
@@ -173,3 +202,4 @@ msgstr ""
 "när man använder ``ffmpeg -version``.  Versionen från *Libav* gör det inte. "
 "Så den här metoden för att söka efter ``--enable-x11grab`` fungerar inte om "
 "du har versionen från *Libav* av *ffmpeg*."
+
