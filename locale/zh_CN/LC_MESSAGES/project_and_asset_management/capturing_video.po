@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-10-10 15:40\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/documentation-docs-kdenlive-org/"
+"docs_kdenlive_org_project_and_asset_management___capturing_video.pot\n"
+"X-Crowdin-File-ID: 55878\n"
+
+#: ../../project_and_asset_management/capturing_video.rst:1
+msgid "Kdenlive Documentation - Capturing Video"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:1
+msgid ""
+"KDE, Kdenlive, project bin, file, management, capturing, video, "
+"documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:36
+msgid "Capturing Video"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:38
+msgid ""
+"**Kdenlive** provides functionality for capturing video using |blackmagic|'s "
+"|decklink|, and via ScreenGrab."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:40
+msgid ""
+"For other devices, mostly connected via Firewire (also known as IEEE 1394 "
+"High Speed Serial Bus) card and cable, use |dvgrab| directly in a terminal."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:42
+msgid ""
+"You configure video capturing from :menuselection:`Menu --> Settings --> "
+"Configure Kdenlive --> Capture` (more on this in the chapter :ref:"
+"`configure_kdenlive`)."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:44
+msgid ""
+"You define the destination location for your captures by using :"
+"menuselection:`Settings --> Configure Kdenlive --> Environment --> Default "
+"Folders` (more on this :ref:`configure_kdenlive`)."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:48
+msgid "Screen Grab"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:50
+msgid ""
+"This captures video off the PC screen. Enable the Screen Grab widget via :"
+"menuselection:`Menu --> View --> Screen Grab`."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:53
+msgid ""
+"Any issues or errors with the screen grab are displayed in the Clip Monitor "
+"widget. It is recommended to move the Screen Grab widget to a position where "
+"the clip monitor is easily visible. For example, the Screen Grab widget can "
+"be added to the dock where the Project Bin or the Library is. Docking it to "
+"the Clip Monitor widget prevents a message from being visible."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:61
+msgid "The Screen Grab widget"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:64
+msgid ":guilabel:`Monitor 0/1`:"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:64
+msgid "Select the monitor to record from"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:67
+msgid "|media-record|\\ :guilabel:`Screen Grab`:"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:67
+msgid "Start/Stop recording"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:70
+msgid "|configure|\\ :guilabel:`Configure Recording`:"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:70
+msgid ""
+"Opens the Kdenlive :menuselection:`Settings --> Capture --> Screen Grab` "
+"window"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:74
+msgid "The recorded clip will be added to the project bin."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:77
+msgid "Possible issues"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:78
+msgid ""
+"Screen grab uses ffmpeg for recording and encoding. Most issues have to do "
+"with the version of ffmpeg installed or how ffmpeg was compiled."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:80
+msgid ""
+"Specifically, ffmpeg needs ``--enable-x11grab`` to work for screen grab. "
+"Check your Linux distro for this parameter for ffmpeg by typing ``ffmpeg -"
+"version`` in a terminal and look for that parameter in the information "
+"reported back by ffmpeg. [1]_"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:82
+msgid ""
+"If you are capturing the screen and using the :guilabel:`x246 with audio` "
+"setting, the recording may crash. In this case create an Encoding Profile "
+"for Screen Capture where ``-acodec pcm_s16le``  is replaced by ``-acodec "
+"libvorbis -b 320k``."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:86
+msgid "Blackmagic"
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:88
+msgid "This is for capturing from Blackmagic's |decklink| video capture cards."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:91
+msgid ""
+"There has been no major development or testing with this part of Kdenlive. "
+"It may work, it may have issues. No bug reports have been created, but there "
+"is not knowing how many users actually perform video capturing with this "
+"hardware."
+msgstr ""
+
+#: ../../project_and_asset_management/capturing_video.rst:97
+msgid ""
+"There are now two branches of *ffmpeg*: a *Libav* branch and an ffmpeg.org "
+"branch. The *ffmpeg* version from the latter branch reports the "
+"configuration when you run with ``ffmpeg -version``. The *Libav* version "
+"does not. So this method to check for the ``--enable-x11grab`` does not work "
+"if you have the *Libav* version of *ffmpeg*."
+msgstr ""

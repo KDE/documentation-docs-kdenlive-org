@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"PO-Revision-Date: 2024-10-10 15:40\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/documentation-docs-kdenlive-org/"
+"docs_kdenlive_org_project_and_asset_management___file_management___project_files."
+"pot\n"
+"X-Crowdin-File-ID: 55934\n"
+
+#: ../../project_and_asset_management/file_management/project_files.rst:1
+msgid "Kdenlive Documentation - Project File Details"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:1
+msgid ""
+"KDE, Kdenlive, project, working, file, management, details, documentation, "
+"user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:36
+msgid "Project File Details"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:38
+msgid ""
+"Kdenlive's :file:`.kdenlive` project files use an :abbr:`XML(Extensible "
+"Markup Language)` format based on MLT's format to describe the source media "
+"used in a project, as well as the use of that media in the timeline. For "
+"more details see |mlt-xml-doc| and |mlt-dtd-doc| (document type definition)."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:40
+msgid ""
+"For most media, such as video, audio, and images, Kdenlive stores only a "
+"reference in a project, not the media itself. Only some media gets stored "
+"directly inside Kdenlive's project files, most notably Kdenlive :doc:`title</"
+"project_and_asset_management/project_bin/title_clip>` and :doc:`color clips</"
+"project_and_asset_management/project_bin/color_clip>`."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:42
+msgid "The advantages of using this file format are:"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:44
+msgid ""
+"|mlt| is able to directly render Kdenlive project files. MLT simply ignores "
+"all the additional Kdenlive-specific project data and just sticks to its "
+"rendering information. The Kdenlive-specific data is the additional icing on "
+"top that makes working with projects much easier than editing at the (lower) "
+"rendering level."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:45
+msgid ""
+"Kdenlive can directly include and work with MLT rendering files, just the "
+"same way it works with other media. In fact, Kdenlive's :doc:`library clips</"
+"project_and_asset_management/library>` are simply MLT rendering files, "
+"nothing more."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:47
+msgid "The project file holds all relevant information about"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:49
+msgid ""
+"target video and audio properties (selected in the :doc:`project profile</"
+"project_and_asset_management/project_settings/general_settings>`)"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:50
+msgid ""
+"references to all the source materials (and to their :term:`proxies<proxy>`)"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:51
+msgid ""
+"position, duration and edits of the clips in the timeline, with applied "
+"effects and their respective parameters including keyframes, and everything "
+"to get the final result"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:53
+msgid ""
+"Project files are associated with a :doc:`working directory</"
+"project_and_asset_management/file_management/folder_structure>`, in which "
+"**Kdenlive** will generate *proxies* and *thumbnails*, so that an overview "
+"of your media always shows up quickly."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:56
+msgid ""
+"If you move your project file, you should declare the directory change in "
+"the project properties."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:58
+msgid ""
+"The development of Kdenlive introduces changes to the :file:`.kdenlive` "
+"document format from time to time. For example, the introduction of "
+"sequences (also known as nested timelines) in version 23.04 required new "
+"objects to be stored in the :file:`.kdenlive` file. The document version "
+"changed from 1.04 to 1.1. You can find the document version in the :file:`."
+"kdenlive` file in the line containing this:"
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:64
+msgid ""
+"When Kdenlive opens a project file that was created with a lower (previous) "
+"version of Kdenlive, it upgrades the document version, and automatically "
+"creates a backup copy of the original project file. Kdenlive tells you that "
+"a backup was created and the project file was updated to the new document "
+"version. In the project folder you will find a file called :file:"
+"`myproject_backup.kdenlive` (where *myproject* is the name of your project "
+"file). In case something does not work with the new version of Kdenlive, you "
+"can downgrade Kdenlive and open the backup of your project."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:66
+msgid ""
+"This is important because document versions are not necessarily backwards "
+"compatible. In other words: higher (newer) versions of the :file:`.kdenlive` "
+"file format cannot be opened with lower (previous) versions of Kdenlive . "
+"For example, projects created with Kdenlive 23.04 or higher (newer) cannot "
+"be opened by a Kdenlive version lower than (prior to) 23.04 (e.g. 22.12.8) "
+"because the 23.04 release of Kdenlive introduced the document change from "
+"1.04 to 1.1 for the nested timelines."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:73
+msgid ""
+"Projects created with 20.08 forward are not backwards compatible, that is, "
+"you won't be able to open your :file:`.kdenlive` project files with older "
+"versions."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:79
+msgid ""
+"Projects created with 23.04 forward are not backwards compatible, that is, "
+"you won't be able to open your :file:`.kdenlive` project files with older "
+"versions."
+msgstr ""
+
+#: ../../project_and_asset_management/file_management/project_files.rst:81
+msgid ""
+"For the more technically inclined user a more detailed description of the "
+"file format and how the various objects are described is available in the |"
+"github-repo| of Kdenlive."
+msgstr ""
