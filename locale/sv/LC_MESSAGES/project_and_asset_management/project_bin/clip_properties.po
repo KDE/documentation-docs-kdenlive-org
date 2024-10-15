@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-07 01:41+0000\n"
-"PO-Revision-Date: 2024-10-06 20:23+0200\n"
+"PO-Revision-Date: 2024-10-14 21:36+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -42,6 +42,10 @@ msgid ""
 "menuselection:`Menu --> Project --> Clip Properties`, or selecting :guilabel:"
 "`Clip Properties` from the right-click clip context menu."
 msgstr ""
+"Man kan visa och redigera klippegenskaper genom att markera ett klipp i"
+" :doc:`projektkorgen</project_and_asset_management/project_bin>` och använda"
+" :menuselection:`Meny --> Projekt --> Klippegenskaper`, eller välja"
+" :guilabel: `Klippegenskaper` i klippets högerklicksmeny."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:19
 msgid ""
@@ -54,25 +58,38 @@ msgid ""
 "See the chapter about :doc:`Workspace Layout</user_interface/"
 "workspace_layouts>`."
 msgstr ""
+"Klippegenskaper visas i sin egen grafiska komponent. Man aktiverar den från"
+" :menuselection:`Meny --> Visa --> Klippegenskaper`. Om den inte är aktiverad"
+" när man väljer :guilabel:`Klippegenskaper` som beskrivs ovan, aktiverar"
+" Kdenlive den automatiskt. Normalt är komponenten en del av samma arbetsyta"
+" som projektkorgen. Som med alla andra komponenter kan man flytta omkring den"
+" inom samma panel eller flytta den till en annan eller till och med till sin"
+" egen panel. Se kapitlet om :doc:`arbetsytans layout<"
+"/user_interface/workspace_layouts>`."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:21
 msgid "The Clip Properties widget has several tabs:"
-msgstr ""
+msgstr "Komponenten Klippegenskaper har flera flikar:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:23
 msgid "|edit-find|\\ :guilabel:`File Info` - displays general `file info`_"
 msgstr ""
+"|edit-find|\\ :guilabel:`Filinformation` visar allmän `filinformation`_"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:24
 msgid ""
 "|document-edit|\\ :guilabel:`Properties` - allows editing some `properties`_"
 msgstr ""
+"|document-edit|\\ :guilabel:`Egenskaper` möjliggör redigering av vissa"
+" `egenskaper`_"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:25
 msgid ""
 "|kdenlive-audio|\\ :guilabel:`Audio Properties` - displays properties of the "
 "`audio <audio properties>`_ stream"
 msgstr ""
+"|kdenlive-audio|\\ :guilabel:`Ljudegenskaper`visar egenskaperna"
+" för`ljudströmmen <ljudegenskaper>`_"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:38
 msgid "File Info"
@@ -83,6 +100,8 @@ msgid ""
 "The first tab is the **File Info** tab. It displays general information "
 "about the file, its streams, and other technical data."
 msgstr ""
+"Den första fliken är **Filinformation**. Den visar allmän information om"
+" filen, dess strömmar och annan teknisk data."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:45
 msgid "The File Info tab"
@@ -93,6 +112,8 @@ msgid ""
 "At the top, the filename with its full path is displayed as a link. Clicking "
 "it opens your OS file manager at that particular location."
 msgstr ""
+"Längst upp visas filnamnet med fullständig sökväg som en länk. Om man klickar"
+" på den öppnas operativsystemets filhanterare på den specifika platsen."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:51
 msgid "Properties"
@@ -103,20 +124,23 @@ msgid ""
 "The **Properties** tab displays those properties of the clip that Kdenlive "
 "allows you to change."
 msgstr ""
+"Fliken **Egenskaper** visar klippets egenskaperna som Kdenlive tillåter att"
+" man ändrar."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:59
 msgid "Editable properties of the selected file"
-msgstr ""
+msgstr "Den markerade filens redigerbara egenskaper"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:61
 msgid ""
 "Check the property you want to change, and then enter or select the new "
 "value."
 msgstr ""
+"Markera egenskapen som ska ändras och mata sedan in eller välj det nya värdet."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:66
 msgid ":guilabel:`Duration`:"
-msgstr ""
+msgstr ":guilabel:`Längd`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:66
 msgid ""
@@ -127,18 +151,24 @@ msgid ""
 "longer than the clip duration, then the last image is repeated (freeze "
 "frame) until the new duration is reached."
 msgstr ""
+"Det ursprungliga klippets längd. Inte särskilt användbart för videoklipp,"
+" utan för färgklipp, titelklipp, bilder och bildsekvenser. Men om det anges"
+" för ett videoklipp gäller följande regler: Om den nya längden är kortare än"
+" klippets längd, är klippet **beskuret**. Om den nya längden är större än"
+" klippets längd, upprepas den sista bilden (fryst bild) tills den nya längden"
+" nås."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:69
 msgid ":guilabel:`Aspect Ratio`:"
-msgstr ""
+msgstr ":guilabel:`Proportion`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:69
 msgid "The current aspect ratio of the clip"
-msgstr ""
+msgstr "Klippets nuvarande proportion"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:72
 msgid ":guilabel:`Proxy clip`:"
-msgstr ""
+msgstr ":guilabel:`Ersättningsklipp`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:72
 msgid ""
@@ -149,58 +179,69 @@ msgid ""
 "guilabel:`Delete proxy file` to delete the proxy file. The |application-"
 "menu| icon opens a flyout with additional options:"
 msgstr ""
+"Om ersättningsklipp är aktiverade i projektet (se kapitlet"
+" :doc:`Projektinställningar</project_and_asset_management/project_settings"
+">`), skapar man en ersättningsfil för det markerade klippet. Om en"
+" ersättningsfil redan finns, kontrolleras den och det kodade formatet visas."
+" Klicka på |edit-delete|\\ :guilabel:`Ta bort ersättningsfil` för att ta bort"
+" ersättningsfilen. Ikonen |application-menu| öppnar en kombinationsmeny med"
+" ytterligare alternativ:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:75
 msgid ":guilabel:`Frame rate`:"
-msgstr ""
+msgstr ":guilabel:`Bildhastighet`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:75
 msgid "The current frame rate in :abbr:`fps(frames per second)`"
-msgstr ""
+msgstr "Den nuvarande bildhastigheten i bilder per sekund :abbr:`(fps)`"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:78
 msgid ":guilabel:`Scanning`:"
-msgstr ""
+msgstr ":guilabel:`Avläsning`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:78
 msgid "The current scan format (interlaced or progressive)"
-msgstr ""
+msgstr "Det nuvarande avläsningsformatet (inflätat eller progressivt)"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:81
 msgid ":guilabel:`Field order`:"
-msgstr ""
+msgstr ":guilabel:`Fältordning`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:81
 msgid "The current field order (only applicable to *interlaced* scanning)"
-msgstr ""
+msgstr "Den nuvarande fältordningen (gäller endast *inflätad* avläsning)"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:84
 msgid ":guilabel:`Disable auto-rotate`:"
-msgstr ""
+msgstr ":guilabel:`Inaktivera automatisk rotation`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:84
 msgid ""
 "If checked will prevent the image to be rotated according to its embedded "
 "rotation setting (not present in all images)"
 msgstr ""
+"Om markerad förhindras bilden från att rotera enligt den inbäddade"
+" rotationsinställningen (finns inte i alla bilder)"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:87
 msgid ":guilabel:`Color space`:"
-msgstr ""
+msgstr ":guilabel:`Färgrymd`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:87
 msgid "The current :term:`color space` of the clip"
-msgstr ""
+msgstr "Klippets nuvarande :term:`färgrymd`"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:90
 msgid ":guilabel:`Color range`:"
-msgstr ""
+msgstr ":guilabel:`Färgintervall`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:90
 msgid ""
 "The current :term:`color range` of the clip. This is mostly relevant for "
 "videos intended for broadcasting."
 msgstr ""
+"Klippets nuvarande :term:`färgintervall`. Det är mest relevant för videor"
+" avsedda för utsändning."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:97
 msgid "Audio Properties"
@@ -208,25 +249,27 @@ msgstr "Ljudegenskaper"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:103
 msgid "The Audio properties tab"
-msgstr "Fliken ljudegenskaper"
+msgstr "Fliken Ljudegenskaper"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:105
 msgid "Choose which audio channel\\ [1]_ should be enabled or disabled."
-msgstr ""
+msgstr "Välj vilken ljudkanal\\ [1]_ som ska aktiveras eller inaktiveras."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:107
 msgid "Rename with double click."
-msgstr ""
+msgstr "Byt namn med dubbelklick"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:111
 msgid ""
 "Select each channel in the list individually to perform any of the following "
 "functions:"
 msgstr ""
+"Markera varje kanal i listan individuellt för att utföra någon av följande"
+" funktioner:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:114
 msgid ":guilabel:`Normalize`:"
-msgstr ""
+msgstr ":guilabel:`Normalisera`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:114
 msgid "Normalize the channel"
@@ -234,7 +277,7 @@ msgstr "Normalisera kanalen"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:117
 msgid ":guilabel:`Swap channels`:"
-msgstr ""
+msgstr ":guilabel:`Byt kanaler`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:117
 msgid "Swap the channels"
@@ -242,15 +285,15 @@ msgstr "Byt kanalerna"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:120
 msgid ":guilabel:`Copy channel`:"
-msgstr ""
+msgstr ":guilabel:`Kopiera kanal`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:120
 msgid "Copy a channel on the other one"
-msgstr ""
+msgstr "Kopiera en kanal på den andra"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:123
 msgid ":guilabel:`Gain`:"
-msgstr ""
+msgstr ":guilabel:`Förstärkning`:"
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:123
 msgid "Adjust the volume"
@@ -261,6 +304,8 @@ msgid ""
 "Adjusting the :guilabel:`Audio sync` in increments of one millisecond (1 ms) "
 "applies to all channels."
 msgstr ""
+"Justerar :guilabel:`Ljudsynkronisering` i steg om en millisekund (1 ms),"
+" gäller för alla kanaler."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:147
 msgid "Notes"
@@ -272,10 +317,13 @@ msgid ""
 "widget **Guides**. You enable it in :menuselection:`Menu --> View --> "
 "Guides`. More details see :ref:`markers`."
 msgstr ""
+"Fliken **Markör** har tagits bort. Klippmarkörer visas i sin egen komponent"
+" **Flaggor**. Man aktiverar den i :menuselection:`Meny --> Visa --> Flaggor`."
+" För mer information, se :ref:`markörer`."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:152
 msgid "The **Metadata** tab does not display anything at the moment."
-msgstr ""
+msgstr "Fliken **Metadata** visar ingenting för tillfället."
 
 #: ../../project_and_asset_management/project_bin/clip_properties.rst:157
 msgid ""
@@ -284,7 +332,8 @@ msgid ""
 "mostly have only 1 audio stream with i.e. 6 channels, like 5.1 audio. "
 "Kdenlive does not allow manipulation of the audio channels,"
 msgstr ""
-"Det är skillnad på ljudströmmar och ljudkanaler. Kdenlive visar de olika "
-"ljudströmmarna med en lista. Konsumentvideokameror har oftast bara en "
-"ljudström med t.ex. 6 kanaler, som 5.1-ljud. Kdenlive tillåter inte "
-"manipulering av ljudkanalerna,"
+"Det är skillnad på ljudströmmar och ljudkanaler. Kdenlive visar de olika"
+" ljudströmmarna med en lista. Konsumentvideokameror har oftast bara en"
+" ljudström med t.ex. 6 kanaler, som 5.1-ljud. Kdenlive tillåter inte"
+" manipulering av ljudkanalerna."
+
