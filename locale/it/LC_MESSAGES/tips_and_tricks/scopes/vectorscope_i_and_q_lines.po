@@ -1,21 +1,22 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # SPDX-FileCopyrightText: 2024 Vincenzo Reale <smart2128vr@gmail.com>
+# SPDX-FileCopyrightText: 2024 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2024-07-07 11:28+0200\n"
-"Last-Translator: Vincenzo Reale <>\n"
+"PO-Revision-Date: 2024-10-12 15:20+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.08.1\n"
 
 #: ../../<generated>:1
 msgid "**Sources**"
@@ -23,7 +24,7 @@ msgstr "**Fonti**"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:1
 msgid "Kdenlive Tips & Tricks - The Vectorscope's I and Q Lines"
-msgstr "Suggerimenti e trucchi di Kdenlive - Le linee I e Q di Vectorscope"
+msgstr "Suggerimenti e trucchi di Kdenlive - Le linee I e Q del vettorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:1
 msgid ""
@@ -32,24 +33,24 @@ msgid ""
 "free, learn, easy"
 msgstr ""
 "KDE, Kdenlive, suggerimenti, trucchi, suggerimenti e trucchi, ambiti, "
-"Vectorscope, I e Q, modifica, sequenza temporale, documentazione, manuale "
+"vettorscopio, I e Q, modifica, sequenza temporale, documentazione, manuale "
 "dell'utente, editor video, open source, gratuito, impara, facile"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:22
 msgid "Vectorscope I and Q Lines"
-msgstr "Le linee I e Q di Vectorscope"
+msgstr "Le linee I e Q del vettorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:24
 msgid ""
 "The Vectorscope has an option to draw I/Q lines. So you may be wondering "
 "what are they good for?"
 msgstr ""
-"Vectorescope ha un'opzione per disegnare linee I/Q. Quindi ti starai "
-"chiedendo a cosa servono?"
+"IL vettorscopio ha un'opzione per disegnare le linee I/Q. Quindi ti starai "
+"chiedendo: a cosa servono?"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:30
 msgid "I and Q lines in the Vectorscope"
-msgstr "Le linee I e Q in Vectorscope"
+msgstr "Le linee I e Q in vettorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:33
 msgid "Where I/Q lines Come From"
@@ -67,6 +68,16 @@ msgid ""
 "them in equal parts results in neutral again - which is why they can be used "
 "for the deviation.)"
 msgstr ""
+"Ti potresti ricordare dal :doc:`capitolo sul vettorscopio "
+"<vectorscope_working>` che questo usa uno spazio dei colori diverso da RGB: "
+"nell'immagine qui sopra è :term:`YUV`, mentre in quella sotto è "
+":term:`YPbPr`. Entrambi condividono la proprietà che la componente Y "
+"rappresenta solo la :term:`Luma` (cioè quanto è luminoso un pixel), mentre "
+"le altre due rappresentano la :term:`Chroma` (il colore), esprimendo la "
+"deviazione dal colore naturale sugli assi rosso-verde e giallo-blu. Questi "
+"sono colori complementari, perciò se vengono mescolati in parti uguali il "
+"colore ottenuto sarà di nuovo neutrale: possono quindi essere usati per la "
+"deviazione."
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:37
 msgid ""
@@ -78,10 +89,17 @@ msgid ""
 "the Q component (which represents the green-purple line; the human eye is "
 "also less sensitive for changes on this line)."
 msgstr ""
+"YUV è lo spazio dei colori standard della televisione analogica PAL, mentre "
+"NTSC, l'analogo americano, ne utilizza uno ancora non menzionato: "
+":term:`YIQ`. La caratteristica speciale di questo spazio dei colori è che la "
+"componente I è stata scelta in modo che i toni della pelle giacciano sulla "
+"linea I (arancio-blu), a cui è stata data una larghezza di banda di quattro "
+"volte maggiore rispetto alla Q. Questa rappresenta la linea verde-viola, a "
+"cui l'occhio umano è meno sensibile."
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:43
 msgid "Vectorscope showing skin tones along the I line"
-msgstr ""
+msgstr "Il vettorscopio che mostra i toni della pelle lungo la linea I"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:46
 msgid "Purpose of the I and the Q line"
@@ -94,10 +112,10 @@ msgid ""
 "approximately lie on the I line. If it is not, you might want to |color-"
 "correct| your clip."
 msgstr ""
-"Visualizzare la linea Q e soprattutto la linea I aiuta con i toni della "
+"Visualizzare la linea Q, e soprattutto la linea I, aiuta con i toni della "
 "pelle. Esiste una regola pratica in post produzione secondo cui tutte le "
 "tonalità della pelle dovrebbero trovarsi approssimativamente sulla linea I. "
-"Se non lo è, potresti voler |correggere il colore| la tua clip."
+"Se non lo sono, potresti voler |color-correct| la tua clip."
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:50
 msgid ""
@@ -106,10 +124,10 @@ msgid ""
 "look unnatural. There are very good picture examples in the Save our Skins "
 "article mentioned above."
 msgstr ""
-"La semplice ragione di ciò è che i nostri occhi sono abituati alle tonalità "
-"della pelle e, se le tonalità della pelle nel tuo video non si trovano nella "
-"linea I, è molto probabile che sembrino innaturali. Ci sono ottimi esempi di "
-"immagini nell'articolo Save our Skins menzionato sopra."
+"La ragione semplice è che i nostri occhi sono abituati alle tonalità della "
+"pelle e, se nel tuo video non si trovano sulla linea I, è molto probabile "
+"che sembrino innaturali. Ci sono ottimi esempi di immagini nell'articolo "
+"Save our Skins menzionato sopra."
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:55
 msgid "Notes"
