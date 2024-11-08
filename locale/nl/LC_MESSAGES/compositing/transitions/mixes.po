@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # SPDX-FileCopyrightText: 2024 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2024 Ronald Stroethoff <stroet43@zonnet.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-08-23 16:49+0200\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2024-11-04 20:52+0100\n"
+"Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: ../../compositing/transitions/mixes.rst:0
 msgid "1"
@@ -47,7 +48,7 @@ msgstr "6"
 
 #: ../../compositing/transitions/mixes.rst:1
 msgid "Kdenlive Documentation - Mixes / Same-track Transition"
-msgstr "Kdenlive documentatie - mengsels / zelfde track overgang"
+msgstr "Kdenlive documentatie - mengsels / dezelfde track overgang"
 
 #: ../../compositing/transitions/mixes.rst:1
 msgid ""
@@ -56,17 +57,19 @@ msgid ""
 msgstr ""
 "KDE, Kdenlive, documentatie, gebruikershandleiding, videobewerker, open-"
 "source, vrij, leren, gemakkelijk, composities, overgang, overgangen, "
-"menging, mengsels, zelfde track"
+"menging, mengsels, dezelfde track"
 
 #: ../../compositing/transitions/mixes.rst:16
 msgid "Mixes / Same-track Transitions"
-msgstr ""
+msgstr "Mengingen / overgangen op dezelfde track"
 
 #: ../../compositing/transitions/mixes.rst:20
 msgid ""
 "A **Mix** is a transition between two adjacent clips in the same track, "
 "hence the term **same-track transition**."
 msgstr ""
+"Een **Menging** is een overgang tussen twee aangrenzende clips op dezelfde"
+" track, vandaar de term **dezelfde-track overgang**."
 
 #: ../../compositing/transitions/mixes.rst:22
 msgid ""
@@ -74,6 +77,10 @@ msgid ""
 "side of the two clips. Trim video clips accordingly, otherwise an error "
 "message will be displayed and the **Mix** is not applied."
 msgstr ""
+"Om een **Menging** te laten werken is tenminste 1/2 seconde aan frames in"
+" beide clips nodig. Zorg dat beide video clips tenminste deze lengte hebben,"
+" anders zal een"
+" foutmelding worden getoond en zal de **Menging** niet worden uitgevoerd."
 
 #: ../../compositing/transitions/mixes.rst:24
 msgid ""
@@ -81,6 +88,10 @@ msgid ""
 "clips, or by selecting one of the clips and pressing :kbd:`U`, or clicking "
 "the |composite-track-preview| icon in the timeline toolbar."
 msgstr ""
+"Een **Menging** kan zowel toegevoegd worden door dubbel te klikken op de lijn"
+" tussen de twee clips, en door een van de clips te selecteren en dan op"
+" :kbd:`U` in te drukken, of door op het |composite-track-preview| pictogram"
+" in werkbalk voor de tijdlijn te klikken."
 
 #: ../../compositing/transitions/mixes.rst:26
 msgid ""
@@ -90,12 +101,19 @@ msgid ""
 "is no clip after the selected one but one before, the transition is put "
 "between the clip before and the selected one."
 msgstr ""
+"Bij het gebruik van :kbd:`U`, probeert Kdenlive om de overgang op de meest"
+" logische plek te plaatsen. Als eerste, als er een clip na de geselecteerde"
+" is, dan zal de overgang tussen de geselecteerde en die onmiddellijk erna te"
+" plaatsen; als er geen clip na de geselecteerde is maar wel een ervoor, dan"
+" zal de overgang geplaatst worden tussen de clip ervoor en de geselecteerde."
 
 #: ../../compositing/transitions/mixes.rst:31
 msgid ""
 "A **Mix** transition in the timeline. Note the toolbar button (top left) and "
 "the transition properties on the right."
 msgstr ""
+"Een **Menging**-overgang op de tijdlijn. Let op dat de werkbalk-knop"
+" (linksboven) en de eigenschappen van de overgang rechts."
 
 #: ../../compositing/transitions/mixes.rst:33
 msgid ""
@@ -103,6 +121,10 @@ msgid ""
 "**Luma** composition. The transition properties change depending on the "
 "selected transition."
 msgstr ""
+"Standaard creëert Kdenlive een overgang van een seconde waarbij de "
+"**Luma** compositie wordt gebruikt. De eigenschappen van de overgang wijzigen"
+" afhankelijk"
+" van de geselecteerde overgang."
 
 #: ../../compositing/transitions/mixes.rst:35
 msgid ""
@@ -110,6 +132,9 @@ msgid ""
 "if needed. See this list of :doc:`available transitions </compositing/"
 "transitions/transitions_list>`."
 msgstr ""
+":guilabel:`Compositietype`. Selecteer indien nodig in de keuzelijst een"
+" andere. Zie deze lijst van :doc:`beschikbare overgangen </compositing/"
+"transitions/transitions_list>`."
 
 #: ../../compositing/transitions/mixes.rst:36
 msgid ""
@@ -118,12 +143,18 @@ msgid ""
 "your local file system. See this list of :ref:`available wipe methods "
 "<transitions-wipe_methods>`."
 msgstr ""
+":guilabel:`Veegmethode`. Selecteer een ingebouwde methode in de keuzelijst,"
+" of selecteer **Aangepast** om een afbeelding met grijstinten (:file:`.pgm`"
+" formaat) in uw lokale bestandssysteem te gebruiken. Zie de lijst met :"
+"ref:`beschikbare veegmethodes <transitions-wipe_methods>`."
 
 #: ../../compositing/transitions/mixes.rst:37
 msgid ""
 ":doc:`Adding transitions <add_transitions>` by downloading and installing "
 "additional wipes from the KDE Store\\ [1]_."
 msgstr ""
+":doc:`Overgangen toevoegen <add_transitions>` door het downloaden en"
+" installeren van extra veegmethodes in de KDE Store\\ [1]_."
 
 #: ../../compositing/transitions/mixes.rst:38
 msgid ""
@@ -131,18 +162,21 @@ msgid ""
 "of the transition. Setting :guilabel:`Softness` to 0 creates a hard edge "
 "between the two clips."
 msgstr ""
+"Het aanpassen van de :abbr:`vervaging (de randen van een onderdeel vloeiender"
+" of vager maken)` van een overgang. Het instellen van :guilabel:`Zachtheid` op"
+" 0 creëert een harde grens tussen de twee clips."
 
 #: ../../compositing/transitions/mixes.rst:39
 msgid "Additional settings to control the transition."
-msgstr ""
+msgstr "Meer instellingen voor de overgang."
 
 #: ../../compositing/transitions/mixes.rst:40
 msgid "Change the duration of the transition"
-msgstr ""
+msgstr "De tijdsduur van de overgang wijzigen"
 
 #: ../../compositing/transitions/mixes.rst:41
 msgid "Change the alignment of the transition"
-msgstr ""
+msgstr "De uitlijning van de overgang wijzigen"
 
 #: ../../compositing/transitions/mixes.rst:50
 msgid ""
@@ -152,3 +186,11 @@ msgid ""
 "have an active Internet connection, Kdenlive queries the KDE Store for all "
 "of the luma files available and opens a dialog window."
 msgstr ""
+"Kdenlive heeft een directe link naar de |kde_store| waarmee u nieuwe"
+" transities kan downloaden en installeren in de vorm van luma-bestanden"
+" (afbeeldingen in grijstinten van het type :file:`.pgm`). Klik op de"
+" |edit-download| :guilabel:`Download` icon"
+"Als u een werkende Internet-verbinding heeft, dan kan Kdenlive in de KDE"
+" Store vragen voor alle beschikbare luma-bestanden en een dialoogvenster"
+" openen om een lijst met deze bestanden te tonen."
+
