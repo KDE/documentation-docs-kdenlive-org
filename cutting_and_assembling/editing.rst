@@ -680,12 +680,19 @@ The magnifying glasses zoom in or out on the timeline. The slider adjusts the zo
 Cutting Footage from multiple aligned tracks - Ripple Delete
 ------------------------------------------------------------
 
-This is available on the :menuselection:`Timeline` menu under :menuselection:`All clips --> Ripple Delete`  [1]_ .
+.. This is available on the :menuselection:`Timeline` menu under :menuselection:`All clips --> Ripple Delete`  [1]_ .
 
+.. **Seems missing in Kdenlive 17.04 & 18.04**
 
-**Seems missing in Kdenlive 17.04 & 18.04**
+There are 4 possiblities for ripple delete (point 1 and 2 are the classical `Ripple Delete`):
 
-Mark In and Out points in the Project Monitor, then choose :menuselection:`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  Kdenlive deletes all footage between the In and Out points in unlocked tracks, slides everything else back to fill the gap, and puts the playhead on the In point.
+1. On the active track: Cut out the piece on the clip which you don't want with :kbd:`Shift + R`. Right click on that piece and choose :menuselection:`Extract Clip`. This removes the clip and slides everything else to the left to fill the gap. The playhead stays were you made the last cut.
+
+2. On the active track: Empty spaces between clips can only be removed by right click on empty space and choose :menuselection:`Remove Space`. 
+
+3. On all tracks together: Mark `In` and `Out` points in the Project Monitor or on the Timeline, then choose :menuselection:`Timeline --> Removal --> Extract Timeline Zone` (or :kbd:`Shift + X`). Kdenlive deletes all footage between the `In` and `Out` points in unlocked tracks, slides everything else back to fill the gap, and puts the playhead on the In point.
+
+4. On the active track with `Insert Mode`: Cut out the piece on the clip which you don't want with :kbd:`Shift + R`. Hit `Delete`. This removes the clip and slides everything else to the left to fill the gap. The playhead stays were you made the last cut.
 
 
 .. _three_point_editing:
@@ -769,4 +776,4 @@ Here is a brief introduction to the 3 point editing system.
 
 .. container:: clear-both
 
-   .. [1] available on bleeding edge version > 0.9.10 (Jan2015)
+..   .. [1] available on bleeding edge version > 0.9.10 (Jan2015)
