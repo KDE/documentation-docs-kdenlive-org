@@ -548,6 +548,9 @@ Slip can be done with the mouse, with the :kbd:`arrow` keys and with the buttons
 
 :kbd:`ESC`: Return from any tools back to Selection tool. 
 
+
+.. _ripple_tool:
+
 Ripple Tool
 ~~~~~~~~~~~
 
@@ -563,6 +566,21 @@ You can Ripple only a single clip at once.
 Ripple can be done with the mouse only.
 
 :kbd:`ESC`: Return from any tools back to Selection tool.
+
+
+.. _ripple_trim_to_playhead:
+
+Ripple Trim to Playhead
+~~~~~~~~~~~~~~~~~~~~~~~
+
+To cut a clip on an active track at the playhead position, without getting a gap in the timeline do the following.
+
+- enable ripple
+
+- place the playhead at the desired place
+
+- hit :kbd:`(`: This cuts and removes the clip and space at the left side of the playhead. :kbd:`)` does the same but at the right side of the playhead.
+
 
 .. _multicam_tool:
 
@@ -694,6 +712,8 @@ There are 4 possibilities for ripple delete (point 1 and 2 are the classical `Ri
 
 4. On the active track with `Insert Mode`: Cut out the piece on the clip which you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and slides everything else to the left to fill the gap. The playhead stays were you made the last cut.
 
+You can do a ripple trim to the playhead using :ref:`ripple_trim_to_playhead`.
+
 
 .. _three_point_editing:
 
@@ -774,6 +794,6 @@ Here is a brief introduction to the 3 point editing system.
 
    3. Press :kbd:`V` (insert).
 
-.. container:: clear-both
+.. rst-class:: clear-both
 
 ..   .. [1] available on bleeding edge version > 0.9.10 (Jan2015)
