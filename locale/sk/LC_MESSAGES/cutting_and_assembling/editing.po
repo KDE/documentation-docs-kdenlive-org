@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"POT-Creation-Date: 2024-11-13 01:44+0000\n"
 "PO-Revision-Date: 2021-11-17 11:16+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -1027,39 +1027,58 @@ msgstr ""
 msgid "Cutting Footage from multiple aligned tracks - Ripple Delete"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:683
+#: ../../cutting_and_assembling/editing.rst:687
 msgid ""
-"This is available on the :menuselection:`Timeline` menu under :menuselection:"
-"`All clips --> Ripple Delete`  [1]_ ."
+"There are 4 possiblities for ripple delete (point 1 and 2 are the classical "
+"`Ripple Delete`):"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:686
-msgid "**Seems missing in Kdenlive 17.04 & 18.04**"
-msgstr ""
-
-#: ../../cutting_and_assembling/editing.rst:688
+#: ../../cutting_and_assembling/editing.rst:689
 msgid ""
-"Mark In and Out points in the Project Monitor, then choose :menuselection:"
-"`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  Kdenlive "
-"deletes all footage between the In and Out points in unlocked tracks, slides "
-"everything else back to fill the gap, and puts the playhead on the In point."
+"On the active track: Cut out the piece on the clip which you do not want "
+"with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:"
+"`Extract Clip`. This removes the clip and slides everything else to the left "
+"to fill the gap. The playhead stays were you made the last cut."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:694
+#: ../../cutting_and_assembling/editing.rst:691
+msgid ""
+"On the active track: Empty spaces between clips can only be removed by right "
+"click on empty space and choose :menuselection:`Remove Space`."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:693
+msgid ""
+"On all tracks together: Mark `In` and `Out` points in the Project Monitor or "
+"on the Timeline, then choose :menuselection:`Timeline --> Removal --> "
+"Extract Timeline Zone` (or :kbd:`Shift+X`). Kdenlive deletes all footage "
+"between the `In` and `Out` points in unlocked tracks, slides everything else "
+"back to fill the gap, and puts the playhead on the In point."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:695
+msgid ""
+"On the active track with `Insert Mode`: Cut out the piece on the clip which "
+"you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and "
+"slides everything else to the left to fill the gap. The playhead stays were "
+"you made the last cut."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:701
 msgid "3 point editing"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:698
+#: ../../cutting_and_assembling/editing.rst:705
 msgid ""
 "3 important points to understand the 3 point editing concept (with keyboard "
 "shortcuts):"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:702
+#: ../../cutting_and_assembling/editing.rst:709
 msgid "Source"
 msgstr "Zdroj"
 
-#: ../../cutting_and_assembling/editing.rst:709
+#: ../../cutting_and_assembling/editing.rst:716
 msgid ""
 "On the left of the track head the green vertical lines (V1 or A2). The green "
 "line is connected to the source clip in the project bin. Only when a clip is "
@@ -1067,93 +1086,89 @@ msgid ""
 "of the clip (A/V clip, picture/title/color clip, audio clip)."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:714
+#: ../../cutting_and_assembling/editing.rst:721
 msgid "Target"
 msgstr "Cieľ"
 
-#: ../../cutting_and_assembling/editing.rst:721
+#: ../../cutting_and_assembling/editing.rst:728
 msgid ""
 "In the track head the target V1 or A1 is active when it’s yellow. An active "
 "target track reacts to edit operations like insert a clip even if the source "
 "is not active."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:724
+#: ../../cutting_and_assembling/editing.rst:731
 msgid "**The concept is like thinking of connectors**"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:726
+#: ../../cutting_and_assembling/editing.rst:733
 msgid ""
 "Connect the source (the clip in the project bin) to a target (a track in the "
 "timeline). Only when both connectors on the **same** track are switched on "
 "the clip “flow” from the project bin to the timeline."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:731
+#: ../../cutting_and_assembling/editing.rst:738
 msgid "Active target tracks without connected source react on edit operations."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:734
+#: ../../cutting_and_assembling/editing.rst:741
 msgid "Examples of advanced edit"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:736
+#: ../../cutting_and_assembling/editing.rst:743
 msgid "Here is a brief introduction to the 3 point editing system."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:743
+#: ../../cutting_and_assembling/editing.rst:750
 msgid "Select a clip in the project bin with an up/down arrow"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:745
+#: ../../cutting_and_assembling/editing.rst:752
 msgid ""
 "Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows "
 "and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:747
+#: ../../cutting_and_assembling/editing.rst:754
 msgid "Hit :kbd:`T` to change to the timeline"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:749
+#: ../../cutting_and_assembling/editing.rst:756
 msgid ""
 "Select a video or audio track in the timeline (up/down arrow key) and set it "
 "as source with :kbd:`Shift + T`."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:751
+#: ../../cutting_and_assembling/editing.rst:758
 msgid ""
 "Activate the track as a target with shortcut :kbd:`A` (this connects the "
 "track to the source)"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:753
+#: ../../cutting_and_assembling/editing.rst:760
 msgid ""
 "Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-"
 "head position or to fill the selected area in the timeline if it is active. "
 "If you need to activate it use the :kbd:`G` key."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:762
+#: ../../cutting_and_assembling/editing.rst:769
 msgid ""
 "In the following example, we want only to insert the audio part of a clip in "
 "A2 and we want to create a gap in all the other video and audio tracks:"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:764
+#: ../../cutting_and_assembling/editing.rst:771
 msgid "Activate all the target tracks which contain clips (yellow buttons)."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:766
+#: ../../cutting_and_assembling/editing.rst:773
 msgid "Activate just the audio source on A2"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:768
+#: ../../cutting_and_assembling/editing.rst:775
 msgid "Press :kbd:`V` (insert)."
-msgstr ""
-
-#: ../../cutting_and_assembling/editing.rst:772
-msgid "available on bleeding edge version > 0.9.10 (Jan2015)"
 msgstr ""
 
 #~ msgid "Contents"

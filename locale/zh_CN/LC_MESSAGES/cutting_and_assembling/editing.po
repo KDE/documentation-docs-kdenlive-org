@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"POT-Creation-Date: 2024-11-13 01:44+0000\n"
 "PO-Revision-Date: 2024-04-21 04:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -1162,44 +1162,68 @@ msgstr ""
 msgid "Cutting Footage from multiple aligned tracks - Ripple Delete"
 msgstr "从多个对齐的轨道中切割素材 - 波纹删除"
 
-#: ../../cutting_and_assembling/editing.rst:683
+#: ../../cutting_and_assembling/editing.rst:687
 msgid ""
-"This is available on the :menuselection:`Timeline` menu under :menuselection:"
-"`All clips --> Ripple Delete`  [1]_ ."
+"There are 4 possiblities for ripple delete (point 1 and 2 are the classical "
+"`Ripple Delete`):"
 msgstr ""
-"这个功能可以在 :menuselection:`时间轴` 菜单下找到 :menuselection:`所有剪辑 --"
-"> 波纹删除` [1]_ ."
 
-#: ../../cutting_and_assembling/editing.rst:686
-msgid "**Seems missing in Kdenlive 17.04 & 18.04**"
-msgstr "**在 Kdenlive 17.04 和 18.04 中似乎缺少**"
-
-#: ../../cutting_and_assembling/editing.rst:688
+#: ../../cutting_and_assembling/editing.rst:689
 msgid ""
-"Mark In and Out points in the Project Monitor, then choose :menuselection:"
-"`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  Kdenlive "
-"deletes all footage between the In and Out points in unlocked tracks, slides "
-"everything else back to fill the gap, and puts the playhead on the In point."
+"On the active track: Cut out the piece on the clip which you do not want "
+"with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:"
+"`Extract Clip`. This removes the clip and slides everything else to the left "
+"to fill the gap. The playhead stays were you made the last cut."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:691
+msgid ""
+"On the active track: Empty spaces between clips can only be removed by right "
+"click on empty space and choose :menuselection:`Remove Space`."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:693
+#, fuzzy
+#| msgid ""
+#| "Mark In and Out points in the Project Monitor, then choose :menuselection:"
+#| "`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  "
+#| "Kdenlive deletes all footage between the In and Out points in unlocked "
+#| "tracks, slides everything else back to fill the gap, and puts the "
+#| "playhead on the In point."
+msgid ""
+"On all tracks together: Mark `In` and `Out` points in the Project Monitor or "
+"on the Timeline, then choose :menuselection:`Timeline --> Removal --> "
+"Extract Timeline Zone` (or :kbd:`Shift+X`). Kdenlive deletes all footage "
+"between the `In` and `Out` points in unlocked tracks, slides everything else "
+"back to fill the gap, and puts the playhead on the In point."
 msgstr ""
 "在项目监视器中标记入点和出点，然后选择 :menuselection:`时间轴 --> 所有剪辑 --"
 "> 波纹删除` (或 :kbd:`Ctrl + X`)。Kdenlive 删除所有未锁定轨道之间的所有素材，"
 "滑动所有其他内容以填充空白，并将播放头放在入点上。"
 
-#: ../../cutting_and_assembling/editing.rst:694
+#: ../../cutting_and_assembling/editing.rst:695
+msgid ""
+"On the active track with `Insert Mode`: Cut out the piece on the clip which "
+"you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and "
+"slides everything else to the left to fill the gap. The playhead stays were "
+"you made the last cut."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:701
 msgid "3 point editing"
 msgstr "3点编辑"
 
-#: ../../cutting_and_assembling/editing.rst:698
+#: ../../cutting_and_assembling/editing.rst:705
 msgid ""
 "3 important points to understand the 3 point editing concept (with keyboard "
 "shortcuts):"
 msgstr "3个重要点来理解3点编辑的概念（使用键盘快捷键）："
 
-#: ../../cutting_and_assembling/editing.rst:702
+#: ../../cutting_and_assembling/editing.rst:709
 msgid "Source"
 msgstr "源"
 
-#: ../../cutting_and_assembling/editing.rst:709
+#: ../../cutting_and_assembling/editing.rst:716
 msgid ""
 "On the left of the track head the green vertical lines (V1 or A2). The green "
 "line is connected to the source clip in the project bin. Only when a clip is "
@@ -1210,11 +1234,11 @@ msgstr ""
 "目库中选择了一个剪辑时，绿色线才会根据剪辑的类型显示出来（A/V剪辑，图片/标题/"
 "颜色剪辑，音频剪辑）。"
 
-#: ../../cutting_and_assembling/editing.rst:714
+#: ../../cutting_and_assembling/editing.rst:721
 msgid "Target"
 msgstr "目标"
 
-#: ../../cutting_and_assembling/editing.rst:721
+#: ../../cutting_and_assembling/editing.rst:728
 msgid ""
 "In the track head the target V1 or A1 is active when it’s yellow. An active "
 "target track reacts to edit operations like insert a clip even if the source "
@@ -1223,11 +1247,11 @@ msgstr ""
 "在轨道头中，当它为黄色时，目标V1或A1是活动的。一个活动的目标轨道对编辑操作做"
 "出反应，即使源不活动。"
 
-#: ../../cutting_and_assembling/editing.rst:724
+#: ../../cutting_and_assembling/editing.rst:731
 msgid "**The concept is like thinking of connectors**"
 msgstr "**这个概念就像想连接器一样**"
 
-#: ../../cutting_and_assembling/editing.rst:726
+#: ../../cutting_and_assembling/editing.rst:733
 msgid ""
 "Connect the source (the clip in the project bin) to a target (a track in the "
 "timeline). Only when both connectors on the **same** track are switched on "
@@ -1236,23 +1260,23 @@ msgstr ""
 "将源（项目库中的剪辑）连接到目标（时间轴中的轨道）。只有在同一轨道上的两个连"
 "接器都切换开时，剪辑才会从项目库流向时间轴。"
 
-#: ../../cutting_and_assembling/editing.rst:731
+#: ../../cutting_and_assembling/editing.rst:738
 msgid "Active target tracks without connected source react on edit operations."
 msgstr "活动目标轨道在没有连接的源上对编辑操作做出反应。"
 
-#: ../../cutting_and_assembling/editing.rst:734
+#: ../../cutting_and_assembling/editing.rst:741
 msgid "Examples of advanced edit"
 msgstr "高级编辑的例子"
 
-#: ../../cutting_and_assembling/editing.rst:736
+#: ../../cutting_and_assembling/editing.rst:743
 msgid "Here is a brief introduction to the 3 point editing system."
 msgstr "这是一个对3点编辑系统进行简要介绍的简短介绍。"
 
-#: ../../cutting_and_assembling/editing.rst:743
+#: ../../cutting_and_assembling/editing.rst:750
 msgid "Select a clip in the project bin with an up/down arrow"
 msgstr "使用向上/向下箭头选择项目库中的一个剪辑"
 
-#: ../../cutting_and_assembling/editing.rst:745
+#: ../../cutting_and_assembling/editing.rst:752
 msgid ""
 "Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows "
 "and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys."
@@ -1260,11 +1284,11 @@ msgstr ""
 "使用 :kbd:`JKL` 键或 :kbd:`left/right` 箭头导航剪辑，并通过 :kbd:`I` 和 :kbd:"
 "`O` 键设置入 和 出 点。"
 
-#: ../../cutting_and_assembling/editing.rst:747
+#: ../../cutting_and_assembling/editing.rst:754
 msgid "Hit :kbd:`T` to change to the timeline"
 msgstr "点击 :kbd:`T` 切换到时间轴"
 
-#: ../../cutting_and_assembling/editing.rst:749
+#: ../../cutting_and_assembling/editing.rst:756
 msgid ""
 "Select a video or audio track in the timeline (up/down arrow key) and set it "
 "as source with :kbd:`Shift + T`."
@@ -1272,13 +1296,13 @@ msgstr ""
 "在时间轴中选择一个视频或音频轨道（向上/向下箭头键），并使用 :kbd:`Shift + T` "
 "将其设为源。"
 
-#: ../../cutting_and_assembling/editing.rst:751
+#: ../../cutting_and_assembling/editing.rst:758
 msgid ""
 "Activate the track as a target with shortcut :kbd:`A` (this connects the "
 "track to the source)"
 msgstr "使用快捷键 :kbd:`A` 激活该轨道作为目标（这将连接该轨道到源）。"
 
-#: ../../cutting_and_assembling/editing.rst:753
+#: ../../cutting_and_assembling/editing.rst:760
 msgid ""
 "Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-"
 "head position or to fill the selected area in the timeline if it is active. "
@@ -1287,7 +1311,7 @@ msgstr ""
 "点击 :kbd:`V` (插入)或  :kbd:`B` （覆盖）在播放头位置添加剪辑，或者在选定区域"
 "中填充时间轴（如果它处于活动状态）。如果需要激活它，请使用 :kbd:`G` 键。"
 
-#: ../../cutting_and_assembling/editing.rst:762
+#: ../../cutting_and_assembling/editing.rst:769
 msgid ""
 "In the following example, we want only to insert the audio part of a clip in "
 "A2 and we want to create a gap in all the other video and audio tracks:"
@@ -1295,18 +1319,27 @@ msgstr ""
 "在下面的例子中，我们只想在A2中插入剪辑的音频部分，我们想在所有其他视频和音频"
 "轨道中创建一个间隙："
 
-#: ../../cutting_and_assembling/editing.rst:764
+#: ../../cutting_and_assembling/editing.rst:771
 msgid "Activate all the target tracks which contain clips (yellow buttons)."
 msgstr "激活包含剪辑的所有目标轨道（黄色按钮）。"
 
-#: ../../cutting_and_assembling/editing.rst:766
+#: ../../cutting_and_assembling/editing.rst:773
 msgid "Activate just the audio source on A2"
 msgstr "在A2上激活仅音频源"
 
-#: ../../cutting_and_assembling/editing.rst:768
+#: ../../cutting_and_assembling/editing.rst:775
 msgid "Press :kbd:`V` (insert)."
 msgstr "点击 :kbd:`V` （插入）。"
 
-#: ../../cutting_and_assembling/editing.rst:772
-msgid "available on bleeding edge version > 0.9.10 (Jan2015)"
-msgstr "可用在尖端版本> 0.9.10（2015年1月）"
+#~ msgid ""
+#~ "This is available on the :menuselection:`Timeline` menu under :"
+#~ "menuselection:`All clips --> Ripple Delete`  [1]_ ."
+#~ msgstr ""
+#~ "这个功能可以在 :menuselection:`时间轴` 菜单下找到 :menuselection:`所有剪"
+#~ "辑 --> 波纹删除` [1]_ ."
+
+#~ msgid "**Seems missing in Kdenlive 17.04 & 18.04**"
+#~ msgstr "**在 Kdenlive 17.04 和 18.04 中似乎缺少**"
+
+#~ msgid "available on bleeding edge version > 0.9.10 (Jan2015)"
+#~ msgstr "可用在尖端版本> 0.9.10（2015年1月）"

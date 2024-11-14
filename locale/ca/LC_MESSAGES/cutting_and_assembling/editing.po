@@ -3,14 +3,14 @@
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2021, 2022.
 # SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Josep M. Ferrer <txemaq@gmail.com>
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-09-27 20:24+0200\n"
+"POT-Creation-Date: 2024-11-13 01:44+0000\n"
+"PO-Revision-Date: 2024-11-13 10:23+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.1\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../../cutting_and_assembling/editing.rst:1
 msgid "Editing in Kdenlive video editor"
@@ -1322,37 +1322,75 @@ msgstr ""
 msgid "Cutting Footage from multiple aligned tracks - Ripple Delete"
 msgstr "Retallar el metratge de diverses pistes alineades - Suprimir l'onada"
 
-#: ../../cutting_and_assembling/editing.rst:683
+# skip-rule: t-acc_obe
+#: ../../cutting_and_assembling/editing.rst:687
 msgid ""
-"This is available on the :menuselection:`Timeline` menu under :menuselection:"
-"`All clips --> Ripple Delete`  [1]_ ."
+"There are 4 possiblities for ripple delete (point 1 and 2 are the classical "
+"`Ripple Delete`):"
 msgstr ""
-"Això està disponible amb l'element de menú :menuselection:`Línia de temps --"
-"> Tots els clips --> Suprimeix l'ondulació` [1]_."
+"Hi ha 4 possibilitats per a suprimir l'onada (els punts 1 i 2 són el "
+"`Suprimir l'onada` clàssic):"
 
-#: ../../cutting_and_assembling/editing.rst:686
-msgid "**Seems missing in Kdenlive 17.04 & 18.04**"
-msgstr "**Sembla que falta en el Kdenlive 17.04 i 18.04**"
-
-#: ../../cutting_and_assembling/editing.rst:688
+#: ../../cutting_and_assembling/editing.rst:689
 msgid ""
-"Mark In and Out points in the Project Monitor, then choose :menuselection:"
-"`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  Kdenlive "
-"deletes all footage between the In and Out points in unlocked tracks, slides "
-"everything else back to fill the gap, and puts the playhead on the In point."
+"On the active track: Cut out the piece on the clip which you do not want "
+"with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:"
+"`Extract Clip`. This removes the clip and slides everything else to the left "
+"to fill the gap. The playhead stays were you made the last cut."
 msgstr ""
-"Marqueu els punts d'entrada i de sortida en el Monitor del projecte i, a "
-"continuació, seleccioneu l'element de menú :menuselection:`Línia de temps --"
-"> Tots els clips --> Suprimeix l'ondulació` (o amb la drecera :kbd:`Ctrl + "
-"X`). El Kdenlive suprimirà totes les imatges entre els punts d'entrada i "
-"sortida de les pistes desbloquejades, fent lliscar tota la resta fins a "
-"omplir el buit i posar la capçalera de reproducció sobre el punt d'entrada."
+"A la pista activa: retalleu la peça del clip que no vulgueu amb "
+":kbd:`Maj+R`. Feu clic amb el botó dret sobre aquesta peça i trieu "
+":menuselection:`Extreu el clip`. Això elimina el clip i desplaça tota la "
+"resta cap a l'esquerra per a omplir el buit. El capçal de reproducció queda "
+"a on heu fet el darrer retall."
 
-#: ../../cutting_and_assembling/editing.rst:694
+#: ../../cutting_and_assembling/editing.rst:691
+msgid ""
+"On the active track: Empty spaces between clips can only be removed by right "
+"click on empty space and choose :menuselection:`Remove Space`."
+msgstr ""
+"A la pista activa: els espais buits entre clips només es poden eliminar fent "
+"clic dret sobre l'espai buit i triant :menuselection:`Elimina l'espai`."
+
+#: ../../cutting_and_assembling/editing.rst:693
+#| msgid ""
+#| "Mark In and Out points in the Project Monitor, then choose :menuselection:"
+#| "`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  "
+#| "Kdenlive deletes all footage between the In and Out points in unlocked "
+#| "tracks, slides everything else back to fill the gap, and puts the "
+#| "playhead on the In point."
+msgid ""
+"On all tracks together: Mark `In` and `Out` points in the Project Monitor or "
+"on the Timeline, then choose :menuselection:`Timeline --> Removal --> "
+"Extract Timeline Zone` (or :kbd:`Shift+X`). Kdenlive deletes all footage "
+"between the `In` and `Out` points in unlocked tracks, slides everything else "
+"back to fill the gap, and puts the playhead on the In point."
+msgstr ""
+"A totes les pistes juntes: marqueu els punts d'`Entrada` i de `Sortida` en "
+"el monitor del projecte o la línia de temps, després seleccioneu l'element "
+"de menú :menuselection:`Línia de temps --> Eliminació --> Extreu la zona de "
+"la línia de temps` (o :kbd:`Maj+X`). El Kdenlive suprimirà tot el metratge "
+"entre els punts d'`Entrada` i de `Sortida` de les pistes desbloquejades, "
+"desplaçant tota la resta fins a omplir el buit i posar la capçalera de "
+"reproducció sobre el punt d'entrada."
+
+#: ../../cutting_and_assembling/editing.rst:695
+msgid ""
+"On the active track with `Insert Mode`: Cut out the piece on the clip which "
+"you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and "
+"slides everything else to the left to fill the gap. The playhead stays were "
+"you made the last cut."
+msgstr ""
+"A la pista activa amb el `Mode d'inserció`: retalleu la peça del clip que no "
+"vulgueu amb :kbd:`Maj+R`. Premeu `Suprimeix`. Això elimina el clip i "
+"desplaça tota la resta cap a l'esquerra per a omplir el buit. El capçal de "
+"reproducció queda a on heu fet el darrer retall."
+
+#: ../../cutting_and_assembling/editing.rst:701
 msgid "3 point editing"
 msgstr "Edició de 3 punts"
 
-#: ../../cutting_and_assembling/editing.rst:698
+#: ../../cutting_and_assembling/editing.rst:705
 msgid ""
 "3 important points to understand the 3 point editing concept (with keyboard "
 "shortcuts):"
@@ -1360,12 +1398,12 @@ msgstr ""
 "3 punts importants per a entendre el concepte d'edició de 3 punts (amb les "
 "dreceres de teclat):"
 
-#: ../../cutting_and_assembling/editing.rst:702
+#: ../../cutting_and_assembling/editing.rst:709
 msgid "Source"
 msgstr "Font"
 
 # skip-rule: barb-uns
-#: ../../cutting_and_assembling/editing.rst:709
+#: ../../cutting_and_assembling/editing.rst:716
 msgid ""
 "On the left of the track head the green vertical lines (V1 or A2). The green "
 "line is connected to the source clip in the project bin. Only when a clip is "
@@ -1378,11 +1416,11 @@ msgstr ""
 "línia verda apareixerà en funció del tipus de clip (clip A/V, clip d'imatge/"
 "títol/color, clip d'àudio)."
 
-#: ../../cutting_and_assembling/editing.rst:714
+#: ../../cutting_and_assembling/editing.rst:721
 msgid "Target"
 msgstr "Destinació"
 
-#: ../../cutting_and_assembling/editing.rst:721
+#: ../../cutting_and_assembling/editing.rst:728
 msgid ""
 "In the track head the target V1 or A1 is active when it’s yellow. An active "
 "target track reacts to edit operations like insert a clip even if the source "
@@ -1392,11 +1430,11 @@ msgstr ""
 "groga. Una pista de destinació activa reaccionarà a les operacions d'edició "
 "com ara inserir un clip encara que la font no estigui activa."
 
-#: ../../cutting_and_assembling/editing.rst:724
+#: ../../cutting_and_assembling/editing.rst:731
 msgid "**The concept is like thinking of connectors**"
 msgstr "**El concepte és com pensar en els connectors**"
 
-#: ../../cutting_and_assembling/editing.rst:726
+#: ../../cutting_and_assembling/editing.rst:733
 msgid ""
 "Connect the source (the clip in the project bin) to a target (a track in the "
 "timeline). Only when both connectors on the **same** track are switched on "
@@ -1407,27 +1445,27 @@ msgstr ""
 "pista estiguin actius, el clip «fluirà» des de la safata del projecte cap a "
 "la línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:731
+#: ../../cutting_and_assembling/editing.rst:738
 msgid "Active target tracks without connected source react on edit operations."
 msgstr ""
 "Les pistes de destinació actives sense font connectada reaccionen a les "
 "operacions d'edició."
 
-#: ../../cutting_and_assembling/editing.rst:734
+#: ../../cutting_and_assembling/editing.rst:741
 msgid "Examples of advanced edit"
 msgstr "Exemples d'edició avançada"
 
-#: ../../cutting_and_assembling/editing.rst:736
+#: ../../cutting_and_assembling/editing.rst:743
 msgid "Here is a brief introduction to the 3 point editing system."
 msgstr "Aquí teniu una breu introducció al sistema d'edició de 3 punts."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:743
+#: ../../cutting_and_assembling/editing.rst:750
 msgid "Select a clip in the project bin with an up/down arrow"
 msgstr ""
 "Seleccioneu un clip a la safata del projecte amb una fletxa amunt/avall."
 
-#: ../../cutting_and_assembling/editing.rst:745
+#: ../../cutting_and_assembling/editing.rst:752
 msgid ""
 "Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows "
 "and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys."
@@ -1437,11 +1475,11 @@ msgstr ""
 "`O`."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:747
+#: ../../cutting_and_assembling/editing.rst:754
 msgid "Hit :kbd:`T` to change to the timeline"
 msgstr "Premeu la tecla :kbd:`T` per a canviar a la línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:749
+#: ../../cutting_and_assembling/editing.rst:756
 msgid ""
 "Select a video or audio track in the timeline (up/down arrow key) and set it "
 "as source with :kbd:`Shift + T`."
@@ -1450,7 +1488,7 @@ msgstr ""
 "Fletxa amunt/avall) i establiu-la com a font amb la drecera :kbd:`Maj + T`."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:751
+#: ../../cutting_and_assembling/editing.rst:758
 msgid ""
 "Activate the track as a target with shortcut :kbd:`A` (this connects the "
 "track to the source)"
@@ -1458,7 +1496,7 @@ msgstr ""
 "Activeu la pista com a destinació amb la drecera :kbd:`A` (això connectarà "
 "la pista amb la font)."
 
-#: ../../cutting_and_assembling/editing.rst:753
+#: ../../cutting_and_assembling/editing.rst:760
 msgid ""
 "Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-"
 "head position or to fill the selected area in the timeline if it is active. "
@@ -1469,7 +1507,7 @@ msgstr ""
 "l'àrea seleccionada a la línia de temps. Si necessiteu activar-la, empreu la "
 "tecla :kbd:`G`."
 
-#: ../../cutting_and_assembling/editing.rst:762
+#: ../../cutting_and_assembling/editing.rst:769
 msgid ""
 "In the following example, we want only to insert the audio part of a clip in "
 "A2 and we want to create a gap in all the other video and audio tracks:"
@@ -1477,21 +1515,17 @@ msgstr ""
 "En l'exemple següent, només volem inserir la part d'àudio d'un clip en A2 i "
 "volem crear una separació en totes les altres pistes de vídeo i àudio:"
 
-#: ../../cutting_and_assembling/editing.rst:764
+#: ../../cutting_and_assembling/editing.rst:771
 msgid "Activate all the target tracks which contain clips (yellow buttons)."
 msgstr ""
 "Activeu totes les pistes de destinació que contenen clips (botons de color "
 "groc)."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:766
+#: ../../cutting_and_assembling/editing.rst:773
 msgid "Activate just the audio source on A2"
 msgstr "Activeu només la font d'àudio a A2."
 
-#: ../../cutting_and_assembling/editing.rst:768
+#: ../../cutting_and_assembling/editing.rst:775
 msgid "Press :kbd:`V` (insert)."
 msgstr "Premeu la tecla :kbd:`V` (insereix)."
-
-#: ../../cutting_and_assembling/editing.rst:772
-msgid "available on bleeding edge version > 0.9.10 (Jan2015)"
-msgstr "Disponible a la versió d'última generació > 0.9.10 (Gen2015)"

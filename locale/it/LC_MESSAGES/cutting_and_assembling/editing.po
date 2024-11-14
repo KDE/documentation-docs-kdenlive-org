@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-27 01:48+0000\n"
+"POT-Creation-Date: 2024-11-13 01:44+0000\n"
 "PO-Revision-Date: 2024-10-07 15:39+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -1308,24 +1308,40 @@ msgstr ""
 msgid "Cutting Footage from multiple aligned tracks - Ripple Delete"
 msgstr "Tagliare gli spezzoni da più tracce allineate: eliminazione con scarto"
 
-#: ../../cutting_and_assembling/editing.rst:683
+#: ../../cutting_and_assembling/editing.rst:687
 msgid ""
-"This is available on the :menuselection:`Timeline` menu under :menuselection:"
-"`All clips --> Ripple Delete`  [1]_ ."
+"There are 4 possiblities for ripple delete (point 1 and 2 are the classical "
+"`Ripple Delete`):"
 msgstr ""
-"È disponibile nel menu :menuselection:`Linea temporale` in :menuselection:"
-"`Tutte le clip--> Eliminazione con scarto` [1]_ ."
 
-#: ../../cutting_and_assembling/editing.rst:686
-msgid "**Seems missing in Kdenlive 17.04 & 18.04**"
-msgstr "**Sembra mancare in Kdenlive 17.04 & 18.04**"
-
-#: ../../cutting_and_assembling/editing.rst:688
+#: ../../cutting_and_assembling/editing.rst:689
 msgid ""
-"Mark In and Out points in the Project Monitor, then choose :menuselection:"
-"`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  Kdenlive "
-"deletes all footage between the In and Out points in unlocked tracks, slides "
-"everything else back to fill the gap, and puts the playhead on the In point."
+"On the active track: Cut out the piece on the clip which you do not want "
+"with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:"
+"`Extract Clip`. This removes the clip and slides everything else to the left "
+"to fill the gap. The playhead stays were you made the last cut."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:691
+msgid ""
+"On the active track: Empty spaces between clips can only be removed by right "
+"click on empty space and choose :menuselection:`Remove Space`."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:693
+#, fuzzy
+#| msgid ""
+#| "Mark In and Out points in the Project Monitor, then choose :menuselection:"
+#| "`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  "
+#| "Kdenlive deletes all footage between the In and Out points in unlocked "
+#| "tracks, slides everything else back to fill the gap, and puts the "
+#| "playhead on the In point."
+msgid ""
+"On all tracks together: Mark `In` and `Out` points in the Project Monitor or "
+"on the Timeline, then choose :menuselection:`Timeline --> Removal --> "
+"Extract Timeline Zone` (or :kbd:`Shift+X`). Kdenlive deletes all footage "
+"between the `In` and `Out` points in unlocked tracks, slides everything else "
+"back to fill the gap, and puts the playhead on the In point."
 msgstr ""
 "Marca i punti di ATTACCO e di STACCO nel Controllo del progetto, quindi "
 "scegli :menuselection:`Linea temporale --> Tutte le clip --> Eliminazione "
@@ -1334,11 +1350,19 @@ msgstr ""
 "il resto per riempire il divario, e mette la testina di riproduzione sul "
 "punto di attacco."
 
-#: ../../cutting_and_assembling/editing.rst:694
+#: ../../cutting_and_assembling/editing.rst:695
+msgid ""
+"On the active track with `Insert Mode`: Cut out the piece on the clip which "
+"you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and "
+"slides everything else to the left to fill the gap. The playhead stays were "
+"you made the last cut."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:701
 msgid "3 point editing"
 msgstr "Montaggio a 3 punti"
 
-#: ../../cutting_and_assembling/editing.rst:698
+#: ../../cutting_and_assembling/editing.rst:705
 msgid ""
 "3 important points to understand the 3 point editing concept (with keyboard "
 "shortcuts):"
@@ -1346,11 +1370,11 @@ msgstr ""
 "Tre punti importanti da capire nel montaggio a 3 punti (con le scorciatoie "
 "di tastiera):"
 
-#: ../../cutting_and_assembling/editing.rst:702
+#: ../../cutting_and_assembling/editing.rst:709
 msgid "Source"
 msgstr "Sorgente"
 
-#: ../../cutting_and_assembling/editing.rst:709
+#: ../../cutting_and_assembling/editing.rst:716
 msgid ""
 "On the left of the track head the green vertical lines (V1 or A2). The green "
 "line is connected to the source clip in the project bin. Only when a clip is "
@@ -1363,11 +1387,11 @@ msgstr ""
 "del progetto, a seconda del tipo di clip (audio/video, immagine, titolo, "
 "colore, o audio)."
 
-#: ../../cutting_and_assembling/editing.rst:714
+#: ../../cutting_and_assembling/editing.rst:721
 msgid "Target"
 msgstr "Destinazione"
 
-#: ../../cutting_and_assembling/editing.rst:721
+#: ../../cutting_and_assembling/editing.rst:728
 msgid ""
 "In the track head the target V1 or A1 is active when it’s yellow. An active "
 "target track reacts to edit operations like insert a clip even if the source "
@@ -1378,11 +1402,11 @@ msgstr ""
 "di montaggio, come l'inserimento di una clip, anche se la sorgente non è "
 "attiva."
 
-#: ../../cutting_and_assembling/editing.rst:724
+#: ../../cutting_and_assembling/editing.rst:731
 msgid "**The concept is like thinking of connectors**"
 msgstr "**Il concetto è quello dei connettori**"
 
-#: ../../cutting_and_assembling/editing.rst:726
+#: ../../cutting_and_assembling/editing.rst:733
 msgid ""
 "Connect the source (the clip in the project bin) to a target (a track in the "
 "timeline). Only when both connectors on the **same** track are switched on "
@@ -1393,25 +1417,25 @@ msgstr ""
 "connettori sono sulla **stessa** traccia vengono attivate, e la clip scorre "
 "dal contenitore del progetto alla linea temporale."
 
-#: ../../cutting_and_assembling/editing.rst:731
+#: ../../cutting_and_assembling/editing.rst:738
 msgid "Active target tracks without connected source react on edit operations."
 msgstr ""
 "Le tracce di destinazione attive senza sorgenti connesse reagiscono alle "
 "operazioni di montaggio."
 
-#: ../../cutting_and_assembling/editing.rst:734
+#: ../../cutting_and_assembling/editing.rst:741
 msgid "Examples of advanced edit"
 msgstr "Esempi di montaggio avanzato"
 
-#: ../../cutting_and_assembling/editing.rst:736
+#: ../../cutting_and_assembling/editing.rst:743
 msgid "Here is a brief introduction to the 3 point editing system."
 msgstr "Ecco una breve introduzione al sistema di montaggio a 3 punti."
 
-#: ../../cutting_and_assembling/editing.rst:743
+#: ../../cutting_and_assembling/editing.rst:750
 msgid "Select a clip in the project bin with an up/down arrow"
 msgstr "Seleziona una clip nel contenitore del progetto con le frecce su/giù"
 
-#: ../../cutting_and_assembling/editing.rst:745
+#: ../../cutting_and_assembling/editing.rst:752
 msgid ""
 "Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows "
 "and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys."
@@ -1420,11 +1444,11 @@ msgstr ""
 "kbd:`sinistra/destra`, e imposta i punti di ATTACCO e di STACCO con i tasti :"
 "kbd:`I` e :kbd:`O`."
 
-#: ../../cutting_and_assembling/editing.rst:747
+#: ../../cutting_and_assembling/editing.rst:754
 msgid "Hit :kbd:`T` to change to the timeline"
 msgstr "Premi :kbd:`T` per passare alla linea temporale"
 
-#: ../../cutting_and_assembling/editing.rst:749
+#: ../../cutting_and_assembling/editing.rst:756
 msgid ""
 "Select a video or audio track in the timeline (up/down arrow key) and set it "
 "as source with :kbd:`Shift + T`."
@@ -1432,7 +1456,7 @@ msgstr ""
 "Seleziona una traccia audio o video nella linea temporale (tasti freccia su/"
 "giù), e impostala come sorgente con :kbd:`Maiusc + T`."
 
-#: ../../cutting_and_assembling/editing.rst:751
+#: ../../cutting_and_assembling/editing.rst:758
 msgid ""
 "Activate the track as a target with shortcut :kbd:`A` (this connects the "
 "track to the source)"
@@ -1440,7 +1464,7 @@ msgstr ""
 "Attiva la traccia come destinazione con la scorciatoia :kbd:`A` (questo "
 "connette la traccia alla sorgente)"
 
-#: ../../cutting_and_assembling/editing.rst:753
+#: ../../cutting_and_assembling/editing.rst:760
 msgid ""
 "Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-"
 "head position or to fill the selected area in the timeline if it is active. "
@@ -1451,7 +1475,7 @@ msgstr ""
 "selezionata nella linea temporale se è attiva. Se devi attivarla, premi il "
 "tasto :kbd:`G`."
 
-#: ../../cutting_and_assembling/editing.rst:762
+#: ../../cutting_and_assembling/editing.rst:769
 msgid ""
 "In the following example, we want only to insert the audio part of a clip in "
 "A2 and we want to create a gap in all the other video and audio tracks:"
@@ -1460,23 +1484,32 @@ msgstr ""
 "clip in A2, e vogliamo creare uno spazio in tutte le altre tracce audio e "
 "video:"
 
-#: ../../cutting_and_assembling/editing.rst:764
+#: ../../cutting_and_assembling/editing.rst:771
 msgid "Activate all the target tracks which contain clips (yellow buttons)."
 msgstr ""
 "Attiva tutte le tracce di destinazione che contengono le clip (pulsanti "
 "gialli)."
 
-#: ../../cutting_and_assembling/editing.rst:766
+#: ../../cutting_and_assembling/editing.rst:773
 msgid "Activate just the audio source on A2"
 msgstr "Attiva solo la sorgente audio su A2"
 
-#: ../../cutting_and_assembling/editing.rst:768
+#: ../../cutting_and_assembling/editing.rst:775
 msgid "Press :kbd:`V` (insert)."
 msgstr "Premi :kbd:`V` (inserisci)."
 
-#: ../../cutting_and_assembling/editing.rst:772
-msgid "available on bleeding edge version > 0.9.10 (Jan2015)"
-msgstr "disponibile nelle versioni avanzate > 0.9.10 (gen 2015)"
+#~ msgid ""
+#~ "This is available on the :menuselection:`Timeline` menu under :"
+#~ "menuselection:`All clips --> Ripple Delete`  [1]_ ."
+#~ msgstr ""
+#~ "È disponibile nel menu :menuselection:`Linea temporale` in :menuselection:"
+#~ "`Tutte le clip--> Eliminazione con scarto` [1]_ ."
+
+#~ msgid "**Seems missing in Kdenlive 17.04 & 18.04**"
+#~ msgstr "**Sembra mancare in Kdenlive 17.04 & 18.04**"
+
+#~ msgid "available on bleeding edge version > 0.9.10 (Jan2015)"
+#~ msgstr "disponibile nelle versioni avanzate > 0.9.10 (gen 2015)"
 
 #~ msgid "Automatic Transitions"
 #~ msgstr "Transizioni automatiche"
