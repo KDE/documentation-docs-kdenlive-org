@@ -579,7 +579,7 @@ To cut a clip on an active track at the playhead position without getting a gap 
 
 - place the playhead at the desired place
 
-- hit :kbd:`(`: This cuts and removes the clip and space at to left side of the playhead. :kbd:`)` does the same but at to right side of the playhead.
+- hit :kbd:`(`: This cuts and removes the clip and space to the left side of the playhead. :kbd:`)` does the same but to the right side of the playhead.
 
 
 .. _multicam_tool:
