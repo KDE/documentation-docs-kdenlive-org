@@ -458,11 +458,11 @@ Timeline
      -
    * - Resize Item End
      - :kbd:`)`
-     - | On active track: Cut and deletes the end of the clip at playhead position.
+     - | On active track: Cut the clip at the playhead position and delete the remainder.
        | On active track: Cut, delete and remove the empty space use :ref:`ripple_trim_to_playhead`.
    * - Resize Item Start
      - :kbd:`(`
-     - | On active track: Cut and deletes the start of the clip at playhead position.
+     - | On active track: Cut the clip at the playhead position and delete the section from the start of the clip to the playhead.
        | On active track: Cut, delete and remove the empty space use :ref:`ripple_trim_to_playhead`.   
    * - Select Clip
      - :kbd:`+`

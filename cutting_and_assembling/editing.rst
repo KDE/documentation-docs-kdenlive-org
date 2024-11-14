@@ -573,13 +573,13 @@ Ripple can be done with the mouse only.
 Ripple Trim to Playhead
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-To cut a clip on an active track at the playhead position, without getting a gap in the timeline do the following.
+To cut a clip on an active track at the playhead position without getting a gap in the timeline do the following.
 
 - enable ripple
 
 - place the playhead at the desired place
 
-- hit :kbd:`(`: This cuts and removes the clip and space at the left side of the playhead. :kbd:`)` does the same but at the right side of the playhead.
+- hit :kbd:`(`: This cuts and removes the clip and space at to left side of the playhead. :kbd:`)` does the same but at to right side of the playhead.
 
 
 .. _multicam_tool:
@@ -793,7 +793,5 @@ Here is a brief introduction to the 3 point editing system.
    2. Activate just the audio source on A2
 
    3. Press :kbd:`V` (insert).
-
-.. rst-class:: clear-both
 
 ..   .. [1] available on bleeding edge version > 0.9.10 (Jan2015)
