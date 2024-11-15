@@ -419,7 +419,7 @@ function determine_appropriate_language( $request, $browser_languages, $supporte
 $requested_url = $_SERVER['REQUEST_URI'];
 $requested_languages = $_SERVER["HTTP_ACCEPT_LANGUAGE"];
 
-$parsed_url = parse_url($uri);
+$parsed_url = parse_url($requested_url);
 $requested_url = $parsed_url['path'];
 $query_string = $parsed_url['query'] ? '?' . $parsed_url['query'] : '';
 
