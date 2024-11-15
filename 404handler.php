@@ -419,6 +419,10 @@ function determine_appropriate_language( $request, $browser_languages, $supporte
 $requested_url = $_SERVER['REQUEST_URI'];
 $requested_languages = $_SERVER["HTTP_ACCEPT_LANGUAGE"];
 
+$parsed_url = parse_url($uri);
+$requested_url = $parsed_url['path'];
+$query_string = $parsed_url['query'] ? '?' . $parsed_url['query'] : '';
+
 // Before we can do anything else we need to clean up the URL we have received to remove the leading slash
 $requested_url = substr($requested_url, 1);
 
@@ -443,7 +447,7 @@ $requested_page = $result[3];
 if( file_exists("../$language/$requested_page") ) {
     // Then redirect them there
     header("HTTP/1.1 301 Moved Permanently");
-    header("Location: /$language/$requested_page");
+    header("Location: /$language/$requested_page$query_string");
     exit();
 }
 
@@ -458,7 +462,7 @@ foreach( $redirect_rules as $rule => $replacement ) {
     // We have a winner!
     // Perform the redirect
     header("HTTP/1.1 301 Moved Permanently"); 
-    header("Location: /$language/$replacement"); 
+    header("Location: /$language/$replacement$query_string");
     exit();
 }
 
