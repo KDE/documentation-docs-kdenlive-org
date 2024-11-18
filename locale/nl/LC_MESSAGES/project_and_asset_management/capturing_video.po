@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # SPDX-FileCopyrightText: 2024 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2024 Ronald Stroethoff <stroet43@zonnet.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2024-09-27 15:55+0200\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2024-11-17 09:38+0100\n"
+"Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: ../../project_and_asset_management/capturing_video.rst:1
 msgid "Kdenlive Documentation - Capturing Video"
@@ -56,6 +57,9 @@ msgid ""
 "Configure Kdenlive --> Capture` (more on this in the chapter :ref:"
 "`configure_kdenlive`)."
 msgstr ""
+"U stelt video opnemen in met :menuselection:`Menu --> Instellingen -->"
+" Kdenlive configureren --> Opnemen` (meer hierover in het hoofdstuk"
+" :ref:`configure_kdenlive`)."
 
 #: ../../project_and_asset_management/capturing_video.rst:44
 msgid ""
@@ -63,8 +67,9 @@ msgid ""
 "menuselection:`Settings --> Configure Kdenlive --> Environment --> Default "
 "Folders` (more on this :ref:`configure_kdenlive`)."
 msgstr ""
-"U definieert de doelmap van uw opnames door :menuselection:`Instellingen --> "
-"Kdenlive configureren --> Omgeving --> Standaard Mappen` (meer hierover :ref:"
+"U stelt de doelmap van uw opnames in door :menuselection:`Instellingen --> "
+"Kdenlive te configureren --> Omgeving --> Standaard Mappen` (meer hierover"
+" :ref:"
 "`configure_kdenlive`)."
 
 #: ../../project_and_asset_management/capturing_video.rst:48
@@ -76,6 +81,8 @@ msgid ""
 "This captures video off the PC screen. Enable the Screen Grab widget via :"
 "menuselection:`Menu --> View --> Screen Grab`."
 msgstr ""
+"Dit maakt video-opnames van het beeldscherm. Open het schermopname-paneel in via"
+" :menuselection:`Menu --> Beeld --> Opname van beeldscherm`."
 
 #: ../../project_and_asset_management/capturing_video.rst:53
 msgid ""
@@ -85,30 +92,37 @@ msgid ""
 "be added to the dock where the Project Bin or the Library is. Docking it to "
 "the Clip Monitor widget prevents a message from being visible."
 msgstr ""
+"Alle problemen en fouten die bij de schermopname optreden worden getoond in"
+" de Clip Monitor widget. Het wordt aangeraden om het schermopname widget te"
+" verplaatsen naar"
+" een plek waar de clip monitor goed zichtbaar is. Het schermopname-paneel kan"
+" toegevoegd worden aan het paneel waar ook de Project Bin en de bibliotheek"
+" zijn. het toevoegen aan het Clip Monitor paneel zorgt ervoor dat de"
+" meldingen niet meer zichtbaar zijn."
 
 #: ../../project_and_asset_management/capturing_video.rst:61
 msgid "The Screen Grab widget"
-msgstr ""
+msgstr "Het paneel voor schermopnames"
 
 #: ../../project_and_asset_management/capturing_video.rst:64
 msgid ":guilabel:`Monitor 0/1`:"
-msgstr ""
+msgstr ":guilabel:`Monitor 0/1`:"
 
 #: ../../project_and_asset_management/capturing_video.rst:64
 msgid "Select the monitor to record from"
-msgstr ""
+msgstr "Selecteer de monitor waarvan de opnames gemaakt moeten worden"
 
 #: ../../project_and_asset_management/capturing_video.rst:67
 msgid "|media-record|\\ :guilabel:`Screen Grab`:"
-msgstr ""
+msgstr "|media-record|\\ :guilabel:`Opname van beeldscherm`:"
 
 #: ../../project_and_asset_management/capturing_video.rst:67
 msgid "Start/Stop recording"
-msgstr ""
+msgstr "Start/Stop opname"
 
 #: ../../project_and_asset_management/capturing_video.rst:70
 msgid "|configure|\\ :guilabel:`Configure Recording`:"
-msgstr ""
+msgstr "|configure|\\ :guilabel:`Opnemen instellen`:"
 
 #: ../../project_and_asset_management/capturing_video.rst:70
 msgid ""
@@ -120,17 +134,20 @@ msgstr ""
 
 #: ../../project_and_asset_management/capturing_video.rst:74
 msgid "The recorded clip will be added to the project bin."
-msgstr "De opgenomen clip zal in de project-bin worden toegevoegd."
+msgstr "De opgenomen clip zal aan de project-bin worden toegevoegd."
 
 #: ../../project_and_asset_management/capturing_video.rst:77
 msgid "Possible issues"
-msgstr ""
+msgstr "Mogelijke problemen"
 
 #: ../../project_and_asset_management/capturing_video.rst:78
 msgid ""
 "Screen grab uses ffmpeg for recording and encoding. Most issues have to do "
 "with the version of ffmpeg installed or how ffmpeg was compiled."
 msgstr ""
+"Voor de schermopnames en codering wordt ffmpeg gebruikt. De meeste problemen"
+" hebben te maken met de geïnstalleerde versie van ffmpeg of hoe ffmpeg was"
+" gecompileerd."
 
 #: ../../project_and_asset_management/capturing_video.rst:80
 msgid ""
@@ -139,6 +156,11 @@ msgid ""
 "version`` in a terminal and look for that parameter in the information "
 "reported back by ffmpeg. [1]_"
 msgstr ""
+"Ffmpeg heeft specifiek de parameter ``--enable-x11grab`` nodig om"
+" schermopnames te kunnen maken. "
+"Controleer of uw Linux distro deze parameter bij ffmpeg gebruikt door"
+" ``ffmpeg -version`` in een terminal in te voeren om vervolgens naar deze"
+" parameter in de informatie te zoeken dat door ffmpeg wordt teruggemeld. [1]_"
 
 #: ../../project_and_asset_management/capturing_video.rst:82
 msgid ""
@@ -147,6 +169,10 @@ msgid ""
 "for Screen Capture where ``-acodec pcm_s16le``  is replaced by ``-acodec "
 "libvorbis -b 320k``."
 msgstr ""
+"Als u een opname van het scherm maakt en de :guilabel:`x246 met"
+" audio`-instelling gebruikt, dan kan de opname crashen. Creëer in dat geval"
+" een coderingsprofiel voor de schermopname waarin ``-acodec pcm_s16le`` is"
+" vervangen door `-acodec libvorbis -b 320k``."
 
 #: ../../project_and_asset_management/capturing_video.rst:86
 msgid "Blackmagic"
@@ -154,7 +180,7 @@ msgstr "Blackmagic"
 
 #: ../../project_and_asset_management/capturing_video.rst:88
 msgid "This is for capturing from Blackmagic's |decklink| video capture cards."
-msgstr ""
+msgstr "Dit is voor opnames met Blackmagic's |decklink| video opname-kaarten."
 
 #: ../../project_and_asset_management/capturing_video.rst:91
 msgid ""
@@ -163,6 +189,11 @@ msgid ""
 "is not knowing how many users actually perform video capturing with this "
 "hardware."
 msgstr ""
+"Er is geen serieuze ontwikkeling of tests gaande voor dit gedeelte van"
+" Kdenlive. "
+"Het kan werken, het kan problemen geven. Er zijn tot nu toe nog geen bug"
+" reports ingediend, maar het is onbekend hoeveel gebruikers daadwerkelijk"
+" video-opnames maken met deze hardware."
 
 #: ../../project_and_asset_management/capturing_video.rst:97
 msgid ""
@@ -177,3 +208,4 @@ msgstr ""
 "configuratie die u gebruikt voor ``ffmpeg -version``. De *Libav* versie doet "
 "dat niet. Deze methode voor controle van de ``--enable-x11grab`` werkt dus "
 "niet als u *Libav* versie van *ffmpeg* heeft."
+
