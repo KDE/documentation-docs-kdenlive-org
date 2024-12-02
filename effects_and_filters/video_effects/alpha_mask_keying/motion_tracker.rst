@@ -278,6 +278,14 @@ _`Folder for models`
  Press :kbd:`Win+R` (:kbd:`Windows` key and :kbd:`R` key simultaneously) and copy **%AppData%/kdenlive/**. Then create the folder `opencvmodels`
 
 
+.. admonition:: Windows Only!
+
+   If you get an error of ``mlt_repository_init: failed to dlopen C:\Program Files\kdenlive\lib\mlt/libmltjack.dll`` followed by many lines of ``Current Frame:          <f>, percentage:          <p>``, it is recommended to delete all :file:`kdenlive` folders in :file:`C:\\Program Files\\`, :file:`%AppData%\\Roaming\\`, and :file:`%AppData%\\Local\\`, and then do a new install of Kdenlive.   
+
+
+.. t
+
+
 ----
 
 .. [1] If you want to build Kdenlive yourself you need to build MLT with OpenCV support. See here for |more_info|.
