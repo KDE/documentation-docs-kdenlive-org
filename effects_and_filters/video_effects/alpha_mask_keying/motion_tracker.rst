@@ -280,7 +280,9 @@ _`Folder for models`
 
 .. admonition:: Windows Only!
 
-   If you get an error of ``mlt_repository_init: failed to dlopen C:\Program Files\kdenlive\lib\mlt/libmltjack.dll`` followed by many lines of ``Current Frame:          <f>, percentage:          <p>``, it is recommended to delete all :file:`kdenlive` folders in :file:`C:\\Program Files\\`, :file:`%AppData%\\Roaming\\`, and :file:`%AppData%\\Local\\`, and then do a new install of Kdenlive.   
+   You may get an error of ``mlt_repository_init: failed to dlopen C:\Program Files\kdenlive\lib\mlt/libmltjack.dll`` or ``animation initialized FAILED`` followed by many lines of ``Current Frame: <f>, percentage: <p>``.
+   
+   In this case it is recommended to delete all :file:`kdenlive` folders in :file:`C:\\Program Files\\`, :file:`%AppData%\\Roaming\\`, and :file:`%AppData%\\Local\\`, and then do a new install of Kdenlive.   
 
 
 .. t
