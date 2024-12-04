@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-05 12:20+0000\n"
+"POT-Creation-Date: 2024-12-03 01:45+0000\n"
 "PO-Revision-Date: 2022-05-08 16:45+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -248,70 +248,90 @@ msgid ""
 msgstr ""
 
 #: ../../troubleshooting/windows_issues.rst:149
-msgid "Any critical bug"
+msgid ""
+"Message *Failed to filter source* in :doc:`Motion Tracker</"
+"effects_and_filters/video_effects/alpha_mask_keying/motion_tracker>` effect"
 msgstr ""
 
 #: ../../troubleshooting/windows_issues.rst:151
-msgid "This describes the process of doing a clean install on Windows®."
+msgid ""
+"You may get an error of ``mlt_repository_init: failed to dlopen C:\\Program "
+"Files\\kdenlive\\lib\\mlt/libmltjack.dll`` or ``animation initialized "
+"FAILED`` followed by many lines of ``Current Frame: <f>, percentage: <p>``."
 msgstr ""
 
 #: ../../troubleshooting/windows_issues.rst:153
 msgid ""
+"In this case, delete all :file:`kdenlive` folders in :file:`C:\\\\Program "
+"Files\\\\`, :file:`%AppData%\\\\Roaming\\\\`, and :file:`%AppData%\\\\Local\\"
+"\\`, and then do a new install of Kdenlive."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:157
+msgid "Any critical bug"
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:159
+msgid "This describes the process of doing a clean install on Windows®."
+msgstr ""
+
+#: ../../troubleshooting/windows_issues.rst:161
+msgid ""
 "Firstly, delete your normal Kdenlive folder (containing the application)."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:155
+#: ../../troubleshooting/windows_issues.rst:163
 msgid ""
 "Access the **Appdata** folder (:kbd:`Win+R` and then type **APPDATA** in "
 "full caps). Go to :file:`Local` and search for folder :file:`kdenlive`."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:157
+#: ../../troubleshooting/windows_issues.rst:165
 msgid ""
 "If you have any saved effects, or clips stored in your library, make a "
 "backup of the :file:`library` and the :file:`effect-templates` folders."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:159
+#: ../../troubleshooting/windows_issues.rst:167
 msgid "Then delete the :file:`kdenlive` folder."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:161
+#: ../../troubleshooting/windows_issues.rst:169
 msgid "Reinstall the latest version of Kdenlive from the |download_page|."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:165
+#: ../../troubleshooting/windows_issues.rst:173
 msgid "JPG files appear as white picture after rendering"
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:167
+#: ../../troubleshooting/windows_issues.rst:175
 msgid ""
 "This issue should be solved with version 19.04.0. If not, convert the JPG to "
 "PNG and it renders correctly."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:171
+#: ../../troubleshooting/windows_issues.rst:179
 msgid "Play/Pause issue"
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:173
+#: ../../troubleshooting/windows_issues.rst:181
 msgid ""
 "This issue is solved with version 18.08.2 (30. Oct 2018). Get the current "
 "version from the |download_page|."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:177
+#: ../../troubleshooting/windows_issues.rst:185
 msgid "Qt rendering crash"
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:179
+#: ../../troubleshooting/windows_issues.rst:187
 msgid ""
 "Hit :kbd:`Ctrl+Shift+,` or go to :menuselection:`Menu --> Settings --> "
 "Configure Kdenlive`, and then to :menuselection:`Environment` and make sure "
 "the paths point to the same path as \"MLT profiles folder\"."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:181
+#: ../../troubleshooting/windows_issues.rst:189
 msgid ""
 "When switching from version 17.12 to 18.04/18.08, a Qt rendering crash "
 "appears. To make sure this doesn't happen, you need to edit the :file:"
@@ -321,24 +341,24 @@ msgid ""
 "rename :file:`kdenliverc` to :file:`kdenliverc.old`."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:185
+#: ../../troubleshooting/windows_issues.rst:193
 msgid "Kdenlive cannot be deleted, running process on exit"
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:187
+#: ../../troubleshooting/windows_issues.rst:195
 msgid ""
 "This issue is solved with Windows version 18.12.1. Get the current version "
 "from the |download_page|."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:189
+#: ../../troubleshooting/windows_issues.rst:197
 msgid ""
 "If you want to reinstall Kdenlive or re-run Kdenlive, it may tell you \"The "
 "file or folder is open in another program\". Windows® then won't let you "
 "delete or re-run Kdenlive."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:191
+#: ../../troubleshooting/windows_issues.rst:199
 msgid ""
 "To fix this you have to kill the running process: press and hold :kbd:`Ctrl"
 "+Shift+Esc` and expand the task manager by clicking :menuselection:`All "
@@ -346,36 +366,36 @@ msgid ""
 "click :menuselection:`End task` for both of them."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:193
+#: ../../troubleshooting/windows_issues.rst:201
 msgid ""
 "Or download :download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>`. Unpack "
 "it and just double-click the batch file which kills all running Kdenlive "
 "processes."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:197
+#: ../../troubleshooting/windows_issues.rst:205
 msgid "Kdenlive crashes at start up, Kdenlive cannot be uninstalled"
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:199
+#: ../../troubleshooting/windows_issues.rst:207
 msgid ""
 "If Kdenlive crashes at startup or if the uninstaller doesn't work delete the "
 "entire folder: :file:`C:/Program Files/kdenlive`."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:201
+#: ../../troubleshooting/windows_issues.rst:209
 msgid "Re-install Kdenlive."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:203
+#: ../../troubleshooting/windows_issues.rst:211
 msgid "You may have to manually delete the Kdenlive folder in the Start menu."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:207
+#: ../../troubleshooting/windows_issues.rst:215
 msgid "Kdenlive crash or green monitor"
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:209
+#: ../../troubleshooting/windows_issues.rst:217
 msgid ""
 "Get all newest Windows® updates. Afterwards, update your graphics card "
 "driver, your sound card driver and your printer driver. Some crashes could "
@@ -384,17 +404,17 @@ msgid ""
 "start the computer and try again by starting :file:`kdenlive.exe`."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:213
+#: ../../troubleshooting/windows_issues.rst:221
 msgid ""
 "If this is not solving the problem switch your standard printer to "
 "“Microsoft XPS Document Writer” and try again to start Kdenlive."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:215
+#: ../../troubleshooting/windows_issues.rst:223
 msgid "Delete the :file:`kdenliverc` file."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:217
+#: ../../troubleshooting/windows_issues.rst:225
 msgid ""
 "Make sure you set concurrent threads to ``1``: Go to :menuselection:`Menu --"
 "> Settings --> Configure Kdenlive` (or :kbd:`Ctrl+Shift+,`) and then in :"
@@ -402,11 +422,11 @@ msgid ""
 "`Concurrent threads` to ``1``."
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:221
+#: ../../troubleshooting/windows_issues.rst:229
 msgid "Audio pops and ticks in render"
 msgstr ""
 
-#: ../../troubleshooting/windows_issues.rst:223
+#: ../../troubleshooting/windows_issues.rst:231
 msgid ""
 "The current Kdenlive version (November 2018, version 18.08.3) has audio "
 "issues that have workarounds. If this problem appears make sure the audio "
