@@ -272,6 +272,9 @@ _`Folder for models`
 :Flatpak:
  :file:`$HOME/.var/app/org.kde.kdenlive/data/kdenlive/opencvmodels`
 
+:MacOS:
+ :file:`$HOME/Library/Application Support/kdenlive/opencvmodels`
+
 :Windows:
  :file:`%AppData%/kdenlive/opencvmodels`
 
