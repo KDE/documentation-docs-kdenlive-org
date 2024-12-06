@@ -120,9 +120,9 @@ Resizing multiple timeline items
 
 .. .. versionadded:: 24.12
 
-Select several clips in the timeline. Double click on one of the clips. The duration window popup. Enable :guilabel:`Apply duration to all items` otherwise nothing happens.
+Select several clips in the timeline. Double click on one of the clips. The Duration dialog window pops up. Enable :guilabel:`Apply duration to all items`, otherwise nothing happens.
 
-The duration/resize is coupled on the start position of each clip. Meaning if you select 3 clips and reduce the duration, then you get gaps between each clip as the start position of each clip is "fixed".
+The duration/resize is linked on the start position of each clip. Meaning if you select three clips and reduce the duration you get gaps between each clip as the start position of each clip is fixed.
 
 :guilabel:`Position` show the start position of the most left selected clip
 
@@ -140,12 +140,12 @@ The duration/resize is coupled on the start position of each clip. Meaning if yo
 
    The selected clips have different length
 
--	Shorten and lengthen duration: The clips getting shorted/lengthen but keeping their starting position
+-	Shorten and lengthen duration: The clips get shortened/lengthened but keep their starting position
 
 -	Clips attached to each other: You cannot lengthen the clips
 
 
-Change duration with :guilabel:`Ripple Tool` (|kdenlive-ripple|) enabled
+Change duration with |kdenlive-ripple| :guilabel:`Ripple Tool` enabled
 
 .. figure:: /images/kdenlive2412_resizing-clip-different-length-ripple.webp
    :width: 50%
@@ -154,9 +154,9 @@ Change duration with :guilabel:`Ripple Tool` (|kdenlive-ripple|) enabled
 
    The selected clips have different length
 
--	Shorten and lengthen duration: The starting position of the left most selected clip on each track is “fixed”. Any gaps between clips are kept.
+-	Shorten and lengthen duration: The starting position of the left most selected clip on each track is fixed. Any gaps between clips are kept.
 
--	Clips attached to each other: All clips attached to the right will lengthen or shorten according the left most clip keeping their attachment.
+-	Clips attached to each other: All clips attached to the right will lengthen or shorten according to the left most clip, keeping their attachment.
 
 
 .. _edit_an-animation: 

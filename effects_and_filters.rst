@@ -51,14 +51,14 @@ There are several ways to apply effects:
 
 .. _builtin-effects:
 
-Builtin Effects
-===============
+Built-in Effects
+================
 
 .. .. versionadded:: 24.12
 
-When dragging a clip into the timeline on the video part the flip and transform effect is always preloaded and the volume effect is always preloaded on the audio part.
+When dragging a clip into the timeline, the :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>` effects are always added to the video part of the clip; for the audio part the :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` effect is added by default.
 
-These are the most used effects which you have at your fingertips and just can enable if you need it. 
+These are the most used effects which you now have at your fingertips without the need to add them manually.
 
 |video-effect| < video part | audio part > |audio-effect|
 
@@ -70,17 +70,17 @@ These are the most used effects which you have at your fingertips and just can e
    :alt: builtin-audio-effect
    :width: 30%
 
-The builtin effects are disabled by default. So you have to enable it before you can use it.
+The built-in effects are disabled by default. So you have to enable it before you can use it.
 
-3 places were embedded effects are:
+Embedded effects can be used in three places:
 
 - on the timeline when a clip is available
 
-- on the track header (only flip on video track and volume on audio track)
+- on the track header (only :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` on video track and :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` on audio track)
 
-- as master effect (only flip and volume)
+- as master effect (only :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`)
 
-All builtin effects can be disabled/removed in general in :menuselection:`Settings --> Configure Kdenlive -> Misc`
+All built-in effects can be disabled/removed in general in :menuselection:`Settings --> Configure Kdenlive -> Misc`
 
 .. figure:: /images/effects_and_compositions/kdenlive2412_builtin-effect_disable.webp
    :align: left
@@ -88,7 +88,7 @@ All builtin effects can be disabled/removed in general in :menuselection:`Settin
    :figwidth: 80%
    :alt: builtin-effect_disable
       
-   Under misc you can disable/enable all builtin effects in general. Default: enabled
+   Under misc you can disable/enable all built-in effects in general. Default: enabled
 
 .. rst-class:: clear-both
 
