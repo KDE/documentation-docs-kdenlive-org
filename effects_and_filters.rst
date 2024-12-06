@@ -53,11 +53,15 @@ There are several ways to apply effects:
 
 Built-in Effects
 ================
+Built-in Effects
+================
 
 .. .. versionadded:: 24.12
 
 When dragging a clip into the timeline, the :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>` effects are always added to the video part of the clip; for the audio part the :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` effect is added by default.
+When dragging a clip into the timeline, the :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>` effects are always added to the video part of the clip; for the audio part the :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` effect is added by default.
 
+These are the most used effects which you now have at your fingertips without the need to add them manually.
 These are the most used effects which you now have at your fingertips without the need to add them manually.
 
 |video-effect| < video part | audio part > |audio-effect|
@@ -71,15 +75,19 @@ These are the most used effects which you now have at your fingertips without th
    :width: 30%
 
 The built-in effects are disabled by default. So you have to enable it before you can use it.
+The built-in effects are disabled by default. So you have to enable it before you can use it.
 
-Embedded effects can be used in three places:
+Built-in effects can be used in three places:
 
 - on the timeline when a clip is available
 
 - on the track header (only :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` on video track and :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` on audio track)
+- on the track header (only :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` on video track and :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` on audio track)
 
 - as master effect (only :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`)
+- as master effect (only :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`)
 
+All built-in effects can be disabled/removed in general in :menuselection:`Settings --> Configure Kdenlive -> Misc`
 All built-in effects can be disabled/removed in general in :menuselection:`Settings --> Configure Kdenlive -> Misc`
 
 .. figure:: /images/effects_and_compositions/kdenlive2412_builtin-effect_disable.webp
@@ -88,6 +96,7 @@ All built-in effects can be disabled/removed in general in :menuselection:`Setti
    :figwidth: 80%
    :alt: builtin-effect_disable
       
+   Under misc you can disable/enable all built-in effects in general. Default: enabled
    Under misc you can disable/enable all built-in effects in general. Default: enabled
 
 .. rst-class:: clear-both
