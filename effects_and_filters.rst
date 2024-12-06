@@ -49,6 +49,50 @@ There are several ways to apply effects:
 .. note:: Not all effects can be used at the track or Master level nor does it make sense.
 
 
+.. _builtin-effects:
+
+Builtin Effects
+===============
+
+.. .. versionadded:: 24.12
+
+When dragging a clip into the timeline on the video part the flip and transform effect is always preloaded and the volume effect is always preloaded on the audio part.
+
+These are the most used effects which you have at your fingertips and just can enable if you need it. 
+
+|video-effect| < video part | audio part > |audio-effect|
+
+.. |video-effect| image:: /images/effects_and_compositions/kdenlive2412_builtin-video-effect.webp
+   :alt: builtin-video-effect
+   :width: 30%
+
+.. |audio-effect| image:: /images/effects_and_compositions/kdenlive2412_builtin-audio-effect.webp
+   :alt: builtin-audio-effect
+   :width: 30%
+
+The builtin effects are disabled by default. So you have to enable it before you can use it.
+
+3 places were embedded effects are:
+
+- on the timeline when a clip is available
+
+- on the track header (only flip on video track and volume on audio track)
+
+- as master effect (only flip and volume)
+
+All builtin effects can be disabled/removed in general in :menuselection:`Settings --> Configure Kdenlive -> Misc`
+
+.. figure:: /images/effects_and_compositions/kdenlive2412_builtin-effect_disable.webp
+   :align: left
+   :width: 80%
+   :figwidth: 80%
+   :alt: builtin-effect_disable
+      
+   Under misc you can disable/enable all builtin effects in general. Default: enabled
+
+.. rst-class:: clear-both
+
+
 .. _effects-effects_tab:
 
 Effects Tab

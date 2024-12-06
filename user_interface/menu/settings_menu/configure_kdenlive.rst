@@ -41,9 +41,9 @@ Following settings applies when you start a project with :ref:`new`.
 Misc
 ----
 
-.. versionchanged:: 22.12
+.. versionchanged:: 24.12
 
-.. image:: /images/Kdenlive_Configure_misc_22-12.png
+.. image:: /images/Kdenlive_Configure_misc_24-12.webp
    :width: 500px
    :alt: Kdenlive_Configure_misc
 
@@ -70,6 +70,8 @@ Misc
 **-------**
 
 - :guilabel:`Disable parameters when the effect is disabled`
+
+- :guilabel:`Enable Builtin Effects` Enable or disable all builtin effects
 
 - :guilabel:`Tab position` Set the tab position when a window is open.
 
