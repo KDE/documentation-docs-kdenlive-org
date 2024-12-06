@@ -113,6 +113,52 @@ Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or
 Select a clip in the project bin. When resizing this clip in the timeline the clip monitor shows a yellow indicator relative to the original clip length. 
 
 
+.. _resizing_multiple_timeline_items:
+
+Resizing multiple timeline items
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. .. versionadded:: 24.12
+
+Select several clips in the timeline. Double click on one of the clips. The duration window popup. Enable :guilabel:`Apply duration to all items` otherwise nothing happens.
+
+The duration/resize is coupled on the start position of each clip. Meaning if you select 3 clips and reduce the duration, then you get gaps between each clip as the start position of each clip is "fixed".
+
+:guilabel:`Position` show the start position of the most left selected clip
+
+.. figure:: /images/kdenlive2412_resizing-clip-same-length.webp
+   :width: 50%
+   :figwidth: 50%
+   :alt: All selected clips have the same length
+
+   All selected clips have the same length
+
+.. figure:: /images/kdenlive2412_resizing-clip-different-length.webp
+   :width: 50%
+   :figwidth: 50%
+   :alt: The selected clips have different  length
+
+   The selected clips have different length
+
+-	Shorten and lengthen duration: The clips getting shorted/lengthen but keeping their starting position
+
+-	Clips attached to each other: You cannot lengthen the clips
+
+
+Change duration with :guilabel:`Ripple Tool` (|kdenlive-ripple|) enabled
+
+.. figure:: /images/kdenlive2412_resizing-clip-different-length-ripple.webp
+   :width: 50%
+   :figwidth: 50%
+   :alt: All selected clips have the same length
+
+   The selected clips have different length
+
+-	Shorten and lengthen duration: The starting position of the left most selected clip on each track is “fixed”. Any gaps between clips are kept.
+
+-	Clips attached to each other: All clips attached to the right will lengthen or shorten according the left most clip keeping their attachment.
+
+
 .. _edit_an-animation: 
 
 Edit an Animation
