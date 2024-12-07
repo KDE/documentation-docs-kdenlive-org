@@ -40,7 +40,7 @@ HSL Primaries
 
 .. rubric:: Description
 
-Adjust :term:`hue`, :term:`saturation` and lightness for each of the 3 primary colors (Red, Green, Blue) and 3 secondary colors (Cyan, Magenta, Yellow). HSL color space is useful when performing subtle color changes.
+Adjust :term:`hue`, :term:`saturation` and lightness for each of the three primary colors (red, green, blue) and three secondary colors (cyan, magenta, yellow). HSL color space is useful when performing subtle color changes.
 
 
 .. rubric:: Parameters
@@ -54,13 +54,13 @@ Adjust :term:`hue`, :term:`saturation` and lightness for each of the 3 primary c
    * - Parameter
      - Value
      - Description
-   * - Hue Shift color
+   * - Hue shift color
      - 0° to 360°
      - 0° (or 360°) is red, 120° is green, 240° is blue
-   * - Saturation Scale color
+   * - Saturation scale color
      - 0% to 100%
      - Intensity of a color: 0% completely gray, 50% gray, 100% color
-   * - Lightness Scale color
+   * - Lightness scale color
      - 0% to 100%
      - How much light you want to give the color: 0% no light (dark)
    * - Overlap

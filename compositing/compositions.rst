@@ -26,7 +26,7 @@ Compositions Tab
 
 .. .. versionchanged:: 24.12
 
-Make the Compositions widget visible in :menuselection:`Menu --> View --> compositions`.
+Make the Compositions widget visible in :menuselection:`Menu --> View --> Compositions`.
 
 The Compositions widget has six control icons that show or hide the different effect categories:
 
