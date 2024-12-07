@@ -450,6 +450,9 @@ Timeline
    * - Mix Clips
      - :kbd:`U`
      - Or double click. Play head must be on the end/begin of 2 clips. Creates a transition between 2 clips on the same track.
+   * - Extract Clip
+     - :kbd:`Shift+Del`
+     - Deletes the clip from the Timeline and removes the gab
    * - Multitrack View
      - :kbd:`F12`
      - :menuselection:`Tool -> Multicam tool` must be disabled

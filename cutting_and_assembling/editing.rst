@@ -750,7 +750,7 @@ Cutting Footage from multiple aligned tracks - Ripple Delete
 
 There are 4 possibilities for ripple delete (point 1 and 2 are the classical `Ripple Delete`):
 
-1. On the active track: Cut out the piece on the clip which you do not want with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:`Extract Clip`. This removes the clip and slides everything else to the left to fill the gap. The playhead stays were you made the last cut.
+1. On the active track: Cut out the piece on the clip which you do not want with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:`Extract Clip` :kbd:`Shift+Del`. This removes the clip and slides everything else to the left to fill the gap. The playhead stays were you made the last cut.
 
 2. On the active track: Empty spaces between clips can only be removed by right click on empty space and choose :menuselection:`Remove Space`. 
 
