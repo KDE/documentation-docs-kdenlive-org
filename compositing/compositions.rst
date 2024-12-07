@@ -5,6 +5,7 @@
 .. metadata-placeholder
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -16,6 +17,38 @@ Compositions
 ############
 
 Compositions, outside of the use for :doc:`transitioning <transitions>` from one clip to another, are mostly used for aesthetic or artistic purposes, or to combine images and/or videos to create the illusion that all the elements are parts of the same scene.
+
+
+.. _compositions-effects_tab:
+
+Compositions Tab
+================
+
+.. .. versionchanged:: 24.12
+
+Make the Compositions widget visible in :menuselection:`Menu --> View --> compositions`.
+
+The Compositions widget has six control icons that show or hide the different effect categories:
+
+.. figure:: /images/effects_and_compositions/kdenlive2412_compositions_tab.webp
+   :align: left
+   :width: 400px
+   :figwidth: 400px
+   :alt: kdenlive_compositions_tab
+
+   Kdenlive Compositions widget as a tab in the Project Bin area
+
+|show-all-effects| :guilabel:`Main effects` shows all compositions (default view)
+
+|transform-move-horizontal| :guilabel:`Show transitions only` shows the transitions only
+
+|favorite| :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert an composition` from the right-click menu of a clip in the Timeline.
+
+|edit-download| :guilabel:`Download New Effects` opens a dialog window where compositions templates are listed from the KDE Store
+
+|view-filter| :guilabel:`Only show reviewed assets` toggles between the compositions which are reviewed and tested by the Kdenlive team and not tested compositions (still in test phase)
+
+|help-about| :guilabel:`Show/hide description of effects` toggles the information display below the compositions list where a short description of what the composition does is displayed when on. Click on the blue composition text opens the online documentation to this effect.
 
 
 .. _compositing-how:

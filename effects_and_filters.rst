@@ -98,9 +98,13 @@ All builtin effects can be disabled/removed in general in :menuselection:`Settin
 Effects Tab
 ===========
 
+.. .. versionchanged:: 24.12
+
 Make the Effects widget visible in :menuselection:`Menu --> View --> Effects`.
 
-.. figure:: /images/effects_and_compositions/kdenlive_effects_tab.webp
+The Effects widget has eight control icons that show or hide the different effect categories:
+
+.. figure:: /images/effects_and_compositions/kdenlive2412_effects_tab.webp
    :align: left
    :width: 400px
    :figwidth: 400px
@@ -108,23 +112,25 @@ Make the Effects widget visible in :menuselection:`Menu --> View --> Effects`.
 
    Kdenlive Effects widget as a tab in the Project Bin area
 
-The Effects widget has seven control icons that show or hide the different effect categories:
+|show-all-effects| :guilabel:`Main effects` shows all video and audio effects (default view)
 
-1 - **Main Effects** shows all video and audio effects (default view)
+|kdenlive-show-video| :guilabel:`Show all video effects` shows all video effect categories only
 
-2 - **Video Effects** shows all video effect categories. This option hides the *Audio Correction* category that is in the **Main Effects**, and adds the *Misc* and *Motion* categories.
+|kdenlive-audio| :guilabel:`Show all audio effects` shows all audio effects categories only
 
-3 - **Audio Effects** shows all audio effects categories
-
-4 - **Custom Effects** shows all effects :ref:`you have created <effects-custom>` by saving an effect stack.
+|kdenlive-custom-effect| :guilabel:`Show all custom effects` shows all effects :ref:`you have created <effects-custom>` by saving an effect stack.
 
 .. TODO: See :ref:`Save Effect <effects-save_effect>` for more details.
 
-5 - **Favorite Effects** shows all effects that were flagged as a favorite effect. This is the same list that appears when selecting :guilabel:`Insert an effect` from the right-click menu of a clip in the Timeline, or by clicking the :guilabel:`Favorite Effects` in the Timeline toolbar.
+|favorite| :guilabel:`Show all favorite items` shows all effects that were flagged as a favorite effect. This is the same list that appears when selecting :guilabel:`Insert an effect` from the right-click menu of a clip in the Timeline, or by clicking the :guilabel:`Favorite Effects` in the Timeline toolbar.
 
-6 - **Show Effect Info** toggles the information display below the effect list where a short description of what the effect does is displayed when on
+|edit-download| :guilabel:`Download New Effects` opens a dialog window where effect templates are listed from the KDE Store
 
-7 - **Download Effects** opens a dialog window where effect templates are listed from the KDE Store
+|view-filter| :guilabel:`Only show reviewed assets` toggles between the effects which are reviewed and tested by the Kdenlive team and not tested effects (still in test phase)
+
+|help-about| :guilabel:`Show/hide description of effects` toggles the information display below the effect list where a short description of what the effect does is displayed when on. Click on the blue effect text opens the online documentation to this effect.
+
+
 
 
 .. _effects-effect_stack:
@@ -188,13 +194,15 @@ When an effect is applied to a clip in the timeline you can click on the effect 
 Effect Functions
 ----------------
 
+.. .. versionchanged:: 24.12
+
 .. |selection-raise| image:: /images/icons/selection-raise.png
 
 .. |selection-lower| image:: /images/icons/selection-lower.png
 
 .. |adjustlevels2| image:: /images/icons/adjustlevels.png
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-effect_panel.webp
+.. figure:: /images/effects_and_compositions/kdenlive2412_effects-effect_panel.webp
    :align: left
    :width: 400px
    :alt: kdenlive2304_effects-effect_panel
@@ -203,11 +211,14 @@ Effect Functions
 
 |keyframe-disable| Hide/show keyframes - Turns the display of the keyframe ruler off or on
 
+|zoom-fit-width| Use effect zone - Toggles on the display to show the :ref:`effect zone <effects-effect_zones>`
+
 |visibility| Disable effect - Turns the effect off or on. The effect stays in the stack but is not applied during playback or rendering.
 
-|adjustlevels2| Presets - Opens a list of advanced options to manage presets for the effect (e.g. reset the effect to its default parameters)
+| |adjustlevels2| Presets - Opens a list of advanced options to manage presets for the effect (e.g. reset the effect to its default parameters).
+| |document-save| Save effect - Opens a dialog window for entering a name for the effect under which it will be listed in the *Custom* effect category and a comment which will be displayed in the information display
 
-|document-save| Save effect - Opens a dialog window for entering a name for the effect under which it will be listed in the *Custom* effect category and a comment which will be displayed in the information display
+|help-about| Open effect documentation in browser  - This opens the online documentation to this effect
 
 |selection-raise| Move effect up - Moves the effect up one notch in the list (effect sequence from top to bottom is important)
 
