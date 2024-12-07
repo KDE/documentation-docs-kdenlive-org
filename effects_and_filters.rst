@@ -220,7 +220,7 @@ Effect Functions
 
 |keyframe-disable| Hide/show keyframes - Turns the display of the keyframe ruler off or on
 
-|zoom-fit-width| Use effect zone - Toggles on the display to show the :ref:`effect zone <effects-effect_zones>`
+|zoom-fit-width| Use effect zone - Toggles the display to show the :ref:`effect zone <effects-effect_zones>`
 
 |visibility| Disable effect - Turns the effect off or on. The effect stays in the stack but is not applied during playback or rendering.
 
