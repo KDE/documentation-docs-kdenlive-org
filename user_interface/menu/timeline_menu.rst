@@ -291,7 +291,7 @@ This menu item opens a flyout with actions for the currently selected clip(s) in
 
 * **Clip in Project Bin**: Opens the Project Bin and highlights the clip.
 
-* **Extract Clip**: Removes the clip from the Timeline. If the track is set to inactive the clips to the right of the extracted clip will not be moved to fill the gap.
+* **Extract Clip**: Removes the clip from the Timeline and removes the gab :kbd:`Shift+Del`. If the track is set to inactive the clips to the right of the extracted clip will not be moved to fill the gap.
 
 * **Save Clip Part to Bin**: If the selected clip is part of a larger clip (e.g. a cut section) the selected clip part will be saved to the project bin as a new zone under the original clip.
 
