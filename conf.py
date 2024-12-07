@@ -309,6 +309,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |kdenlive-custom-effect| image:: /images/kdenlive-custom-effect.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |kdenlive-hide-audio| image:: /images/icons/kdenlive-hide-audio.svg
    :width: 22px
    :class: no-scaled-link
@@ -470,6 +474,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |select-rectangular| image:: /images/icons/select-rectangular.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |show-all-effects| image:: /images/icons/show-all-effects.svg
    :width: 22px
    :class: no-scaled-link
 
