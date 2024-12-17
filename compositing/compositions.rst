@@ -42,7 +42,7 @@ The Compositions widget has six control icons that show or hide the different ef
 
 |transform-move-horizontal| :guilabel:`Show transitions only` shows the transitions only
 
-|favorite| :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert an composition` from the right-click menu of a clip in the Timeline.
+|favorite| :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert a composition` from the right-click menu of a clip in the Timeline.
 
 |edit-download| :guilabel:`Download New Effects` opens a dialog window where compositions templates are listed from the KDE Store
 
