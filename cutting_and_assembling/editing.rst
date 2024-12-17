@@ -122,7 +122,7 @@ Resizing multiple timeline items
 
 Select several clips in the timeline. Double click on one of the clips. The Duration dialog window pops up. Enable :guilabel:`Apply duration to all items`, otherwise nothing happens.
 
-The duration/resize is linked on the start position of each clip. Meaning if you select three clips and reduce the duration you get gaps between each clip as the start position of each clip is fixed.
+The duration/resize is linked to the start position of each clip. Meaning if you select three clips and reduce the duration you get gaps between each clip as the start position of each clip is fixed.
 
 :guilabel:`Position` show the start position of the most left selected clip
 

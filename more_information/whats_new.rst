@@ -17,6 +17,8 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+.. _24.12: https://kdenlive.org/2024/12/kdenlive-24-12-released/
+
 .. _24.08: https://kdenlive.org/2024/09/kdenlive-24-08-0-released/
 
 .. _24.05: https://kdenlive.org/2024/05/kdenlive-24-05-0-released/
@@ -57,6 +59,16 @@
 ==========
 What's New
 ==========
+
+.. versionadded:: 24.12 (see 24.12_ release notes)
+
+   * Introduced :ref:`multiple Subtitle Tracks <effects-subtitles>`
+   * Introduced :ref:`built-in effects <builtin-effects>`
+   * Introduced :ref:`resizing multiple timeline items <resizing_multiple_timeline_items>`
+   * Added a on :ref:`effects and compositions a direct link to the documentation`
+   * Added a :ref:`shortcut to extract clip from timeline <timeline-current_clip>`
+   * Added new :ref:`MLT HSL color correction effect </effects_and_filters/video_effects/color_image_correction/hsl_primaries>`
+
 
 .. versionadded:: 24.08 (see 24.08_ release notes)
 
