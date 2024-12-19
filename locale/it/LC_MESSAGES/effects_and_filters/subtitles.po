@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"POT-Creation-Date: 2024-12-18 01:52+0000\n"
 "PO-Revision-Date: 2024-05-31 09:04+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -31,56 +31,79 @@ msgstr ""
 "temporale, documentazione, Manuale utente, editor video, open source, "
 "libero, impara, facile"
 
-#: ../../effects_and_filters/subtitles.rst:31
+#: ../../effects_and_filters/subtitles.rst:32
 msgid "Subtitles"
 msgstr "Sottotitoli"
 
-#: ../../effects_and_filters/subtitles.rst:35
+#: ../../effects_and_filters/subtitles.rst:36
+#, fuzzy
+#| msgid ""
+#| "The subtitling tool allows you to add and edit subtitles directly in the "
+#| "timeline on a special subtitle track or by using the :ref:`subtitle-"
+#| "window`. You can also import (**SRT**/**ASS**) and export (**SRT**) "
+#| "subtitles."
 msgid ""
 "The subtitling tool allows you to add and edit subtitles directly in the "
 "timeline on a special subtitle track or by using the :ref:`subtitle-window`. "
-"You can also import (**SRT**/**ASS**) and export (**SRT**) subtitles."
+"You can also import (**ASS**/**SRT**/**VTT**/**SBV**) and export (**ASS**/"
+"**SRT**) subtitles."
 msgstr ""
 "Lo strumento per i sottotitoli ti permette di aggiungere e di modificare i "
 "sottotitoli direttamente nella linea temporale in una traccia speciale, "
 "oppure utilizzando la nuova :ref:`subtitle-window`. Puoi anche importare i "
 "sottotitoli in **SRT** e **ASS** ed esportarli in **SRT**."
 
-#: ../../effects_and_filters/subtitles.rst:39
+#: ../../effects_and_filters/subtitles.rst:40
+#, fuzzy
+#| msgid ""
+#| "Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle "
+#| "track is displayed at a time). You can create, duplicate, and delete "
+#| "subtitle tracks with the :ref:`subtitle-manager`."
 msgid ""
-"Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle "
-"track is displayed at a time). You can create, duplicate, and delete "
-"subtitle tracks with the :ref:`subtitle-manager`."
+"Kdenlive allows multiple subtitle files in the subtitle track (only 1 "
+"subtitle file loaded at a time). You can create, duplicate, and delete "
+"subtitle files and manage its components with the :ref:`subtitle-manager`."
 msgstr ""
 "Kdenlive permette di avere più sottotitoli nella traccia di sottotitoli (ne "
 "viene visualizzata solo una alla volta). Puoi creare, duplicare, oppure "
 "eliminare le tracce di sottotitoli con il :ref:`subtitle-manager`."
 
-#: ../../effects_and_filters/subtitles.rst:47
-msgid "Four ways to add subtitle"
-msgstr "Quattro modi per aggiungere un sottotitolo"
+#: ../../effects_and_filters/subtitles.rst:48
+msgid ""
+"Kdenlive stores subtitles as .ass files, which means you might be interested "
+"in exploring some advanced ASS features. For more details, check out the "
+"`ASS File Format Guide <https://github.com/libass/libass/wiki/ASS-File-"
+"Format-Guide>`_ and `Aegisub's Documentation <https://aegisub.org/docs/"
+"latest/>`_."
+msgstr ""
 
-#: ../../effects_and_filters/subtitles.rst:49
+#: ../../effects_and_filters/subtitles.rst:51
+#, fuzzy
+#| msgid "Subtitles"
+msgid "Add Subtitles"
+msgstr "Sottotitoli"
+
+#: ../../effects_and_filters/subtitles.rst:53
 msgid "**Menu**"
 msgstr "**Menu**"
 
-#: ../../effects_and_filters/subtitles.rst:51
+#: ../../effects_and_filters/subtitles.rst:55
 msgid ":menuselection:`Project --> Subtitle --> Add Subtitle`"
 msgstr ":menuselection:`Progetto --> Sottotitoli --> Aggiungi sottotitolo`"
 
-#: ../../effects_and_filters/subtitles.rst:53
+#: ../../effects_and_filters/subtitles.rst:57
 msgid "**Keyboard**"
 msgstr "**Tastiera**"
 
-#: ../../effects_and_filters/subtitles.rst:55
+#: ../../effects_and_filters/subtitles.rst:59
 msgid ":kbd:`Shift + S` adds a subtitle."
 msgstr ":kbd:`Maiusc + S` aggiunge un sottotitolo."
 
-#: ../../effects_and_filters/subtitles.rst:57
+#: ../../effects_and_filters/subtitles.rst:61
 msgid "**Icon and Mouse**"
 msgstr "**Icona e mouse**"
 
-#: ../../effects_and_filters/subtitles.rst:59
+#: ../../effects_and_filters/subtitles.rst:63
 msgid ""
 "Click :guilabel:`Add Subtitle` icon in the :ref:`timeline_toolbar` to open "
 "the subtitle track in the timeline."
@@ -89,12 +112,12 @@ msgstr ""
 "`timeline_toolbar` per aprire la traccia dei sottotitoli nella linea "
 "temporale."
 
-#: ../../effects_and_filters/subtitles.rst:60
+#: ../../effects_and_filters/subtitles.rst:64
 msgid "Double-click in the subtitle track to add a subtitle."
 msgstr ""
 "Doppio clic nella traccia dei sottotitoli per aggiungere un sottotitolo."
 
-#: ../../effects_and_filters/subtitles.rst:61
+#: ../../effects_and_filters/subtitles.rst:65
 msgid ""
 "Click :guilabel:`Add Subtitle` in the :ref:`timeline ruler <timeline_ruler>` "
 "context menu."
@@ -102,50 +125,44 @@ msgstr ""
 "Fai clic su :guilabel:`Aggiungi sottotitolo` nel menu contestuale del :ref:"
 "`righello della linea temporale <timeline_ruler>`."
 
-#: ../../effects_and_filters/subtitles.rst:63
+#: ../../effects_and_filters/subtitles.rst:67
 msgid "**Import**"
 msgstr "**Importazione**"
 
-#: ../../effects_and_filters/subtitles.rst:65
+#: ../../effects_and_filters/subtitles.rst:69
 msgid ""
 "Import subtitles with the :ref:`import function <subtitle-import_export>`."
 msgstr ""
 "Importa i sottotitoli con la  :ref:`funzione di importazione <subtitle-"
 "import_export>`."
 
-#: ../../effects_and_filters/subtitles.rst:68
-msgid "Adding and editing text"
-msgstr "Aggiungere e modificare il testo"
+#: ../../effects_and_filters/subtitles.rst:72
+#, fuzzy
+#| msgid "Subtitles"
+msgid "Edit Subtitles"
+msgstr "Sottotitoli"
 
-#: ../../effects_and_filters/subtitles.rst:70
+#: ../../effects_and_filters/subtitles.rst:74
+#, fuzzy
+#| msgid ""
+#| "Add or editing text either directly into the subtitle clip or in the "
+#| "subtitle window."
 msgid ""
-"Add or editing text either directly into the subtitle clip or in the "
+"You can add or editing text either directly into the subtitle clip or in the "
 "subtitle window."
 msgstr ""
 "Puoi aggiungere o modificare il testo sia direttamente nella clip che nella "
 "finestra dei sottotitoli."
 
-#: ../../effects_and_filters/subtitles.rst:73
-msgid "Adjust the length of subtitle"
-msgstr "Regolare la lunghezza di un sottotitolo"
-
-#: ../../effects_and_filters/subtitles.rst:75
-msgid ""
-"Grab the end of a subtitle with the mouse and lengthen or shorten it as "
-"needed. Set subtitle in/out can be achieved with the same shortcut as to set "
-"clip in/out (left/right parenthesis shortcut)."
-msgstr ""
-"Puoi allungare o accorciare la lunghezza di un sottotitolo afferrando la "
-"fine dello stesso col mouse, e trascinandolo di conseguenza. L'impostazione "
-"dell'inizio o della fine di un sottotitolo può essere ottenuta con la stessa "
-"scorciatoia che serve per impostare l'inizio o la fine di una clip "
-"(parentesi aperta o chiusa)."
-
 #: ../../effects_and_filters/subtitles.rst:82
 msgid "Split subtitle after first line"
 msgstr "Dividi il sottotitolo dopo la prima riga"
 
-#: ../../effects_and_filters/subtitles.rst:86
+#: ../../effects_and_filters/subtitles.rst:85
+msgid "Use the escaped character `\\\\N` to insert a new line in the subtitle."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:89
 msgid ""
 "With this feature, you can cut the selected subtitle with the Razor Tool "
 "after the first line of the current track position. The first line becomes "
@@ -158,12 +175,12 @@ msgstr ""
 "nella traccia, mentre il resto diventa il destro dopo la posizione nella "
 "traccia. Viene quindi selezionato il sottotitolo sulla destra."
 
-#: ../../effects_and_filters/subtitles.rst:92
+#: ../../effects_and_filters/subtitles.rst:95
 msgid "Subtitle split after first line or duplicate text"
 msgstr ""
 "La divisione del sottotitolo dopo la prima riga oppure con testo duplicato"
 
-#: ../../effects_and_filters/subtitles.rst:94
+#: ../../effects_and_filters/subtitles.rst:97
 msgid ""
 "To enable this feature go to :menuselection:`Menu --> Settings --> Configure "
 "Kdenlive... --> Tools` switch to :guilabel:`Split after first line`"
@@ -172,11 +189,11 @@ msgstr ""
 "Impostazioni --> Configura Kdenlive... --> Strumenti` e passa a :guilabel:"
 "`Dividi dopo la prima riga`"
 
-#: ../../effects_and_filters/subtitles.rst:100
+#: ../../effects_and_filters/subtitles.rst:103
 msgid "Subtitle split with Razor-Tool"
 msgstr "Il sottotitolo diviso con lo strumento Rasoio"
 
-#: ../../effects_and_filters/subtitles.rst:102
+#: ../../effects_and_filters/subtitles.rst:105
 msgid ""
 "Select the subtitle in the timeline that contains two lines. Click on the "
 "subtitle with the Razor-Tool :kbd:`X`."
@@ -184,11 +201,11 @@ msgstr ""
 "Nella linea temporale seleziona il sottotitolo che contiene due righe: facci "
 "clic con lo strumento Rasoio :kbd:`X`."
 
-#: ../../effects_and_filters/subtitles.rst:108
+#: ../../effects_and_filters/subtitles.rst:111
 msgid "Subtitle after you have split it with the Razor-Tool"
 msgstr "Il sottotitolo dopo che è stato diviso con lo strumento Rasoio"
 
-#: ../../effects_and_filters/subtitles.rst:110
+#: ../../effects_and_filters/subtitles.rst:113
 msgid ""
 "This makes it easier to split up subtitles, where you have a transcription "
 "with one subtitle per line. This comes from a couple of situations:"
@@ -197,119 +214,280 @@ msgstr ""
 "abbia la trascrizione con un sottotitolo per riga. Questo succede in un paio "
 "di situazioni:"
 
-#: ../../effects_and_filters/subtitles.rst:112
+#: ../../effects_and_filters/subtitles.rst:115
 msgid "You have put the audio through an external transcription service"
 msgstr "Hai messo l'audio in un servizio di trascrizione esterno"
 
-#: ../../effects_and_filters/subtitles.rst:114
+#: ../../effects_and_filters/subtitles.rst:117
 msgid "You are adding subtitles to a song that you have the lyrics for"
 msgstr "Stai aggiungendo i sottotitoli a una canzone di cui hai il testo"
 
-#: ../../effects_and_filters/subtitles.rst:119
-#: ../../effects_and_filters/subtitles.rst:124
-msgid "Subtitle window"
-msgstr "Finestra dei sottotitoli"
-
-#: ../../effects_and_filters/subtitles.rst:126
-msgid ""
-"The subtitles window allows easier editing and also makes it possible to "
-"easily navigate between subtitles with the :guilabel:`<` and :guilabel:`>` "
-"buttons"
+#: ../../effects_and_filters/subtitles.rst:120
+msgid "Resize"
 msgstr ""
-"La finestra dei sottotitoli permette una modifica più semplice, e rende "
-"anche possibile la navigazione tra i sottotitoli con i pulsanti :guilabel:"
-"`<` e :guilabel:`>`."
+
+#: ../../effects_and_filters/subtitles.rst:122
+msgid ""
+"Grab the end of a subtitle with the mouse and lengthen or shorten it as "
+"needed."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:124
+#, fuzzy
+#| msgid ""
+#| "Grab the end of a subtitle with the mouse and lengthen or shorten it as "
+#| "needed. Set subtitle in/out can be achieved with the same shortcut as to "
+#| "set clip in/out (left/right parenthesis shortcut)."
+msgid ""
+"Set subtitle in/out can be achieved with the same shortcut as to set clip in/"
+"out (left/right parenthesis shortcut)."
+msgstr ""
+"Puoi allungare o accorciare la lunghezza di un sottotitolo afferrando la "
+"fine dello stesso col mouse, e trascinandolo di conseguenza. L'impostazione "
+"dell'inizio o della fine di un sottotitolo può essere ottenuta con la stessa "
+"scorciatoia che serve per impostare l'inizio o la fine di una clip "
+"(parentesi aperta o chiusa)."
 
 #: ../../effects_and_filters/subtitles.rst:128
-msgid "With the :guilabel:`+` button you can add subtitles"
-msgstr ""
-"Puoi aggiungere i sottotitoli con il pulsante col pulsante :guilabel:`+`"
+#, fuzzy
+#| msgid "Style subtitle"
+msgid "Style Subtitles"
+msgstr "Stile dei sottotitoli"
 
-#: ../../effects_and_filters/subtitles.rst:130
+#: ../../effects_and_filters/subtitles.rst:133
 msgid ""
-"The scissors are mostly here for dividing subtitles: let's say your subtitle "
-"text is too long and you want to make it two different subtitles. Put the "
-"cursor in the text widget where you want to cut and click the scissors, it "
-"will split the text between two different subtitle items. The scissors are "
-"only working when the playhead is over the subtitle itself."
+"Creating, duplicating, deleting, and editing subtitle styles can be managed "
+"through the :ref:`subtitle-manager`."
 msgstr ""
-"Le forbici servono principalmente per dividere i sottotitoli: diciamo che il "
-"testo del tuo sottotitolo è troppo lungo, e ne vuoi ricavare due distinti. "
-"Posiziona il puntatore nell'oggetto testuale nel punto in cui vuoi tagliare, "
-"poi fai clic sulle forbici: avrai diviso il testo in due sottotitoli. Le "
-"forbici funzionano solo quando l'indicatore di riproduzione è sopra il "
-"sottotitolo stesso."
 
-#: ../../effects_and_filters/subtitles.rst:132
-msgid "The check-mark button adds the text to the subtitle"
-msgstr "Il pulsante con la spunta aggiunge il testo al sottotitolo."
+#: ../../effects_and_filters/subtitles.rst:135
+#, fuzzy
+#| msgid ":menuselection:`Project --> Subtitle --> Add Subtitle`"
+msgid ""
+":menuselection:`Menu --> Project --> Subtitles --> Manage Subtitles --> "
+"Styles`"
+msgstr ":menuselection:`Progetto --> Sottotitoli --> Aggiungi sottotitolo`"
 
 #: ../../effects_and_filters/subtitles.rst:137
-msgid "Character count and zoom"
-msgstr "Conteggio dei caratteri e ingrandimento"
+#, fuzzy
+#| msgid ""
+#| "Add or editing text either directly into the subtitle clip or in the "
+#| "subtitle window."
+msgid ""
+"Additionally, you can edit the assigned style directly using the edit button "
+"in the :ref:`subtitle-window`."
+msgstr ""
+"Puoi aggiungere o modificare il testo sia direttamente nella clip che nella "
+"finestra dei sottotitoli."
+
+#: ../../effects_and_filters/subtitles.rst:140
+msgid "Create a style"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:142
+msgid ""
+"Subtitle styles can be created either within each subtitle file or globally."
+msgstr ""
 
 #: ../../effects_and_filters/subtitles.rst:144
-msgid ":guilabel:`Character:`: Character number at cursor position"
+msgid ""
+"Choose a subtitle file or the global space from the sidebar as the location "
+"for the new style."
 msgstr ""
-":guilabel:`Carattere:`: numero del carattere alla posizione del puntatore"
 
 #: ../../effects_and_filters/subtitles.rst:146
-msgid ":guilabel:`total:`: Total number of Character"
-msgstr ":guilabel:`totali:`: numero totale di caratteri"
+#, fuzzy
+#| msgid ""
+#| "Click :guilabel:`Add Subtitle` in the :ref:`timeline ruler "
+#| "<timeline_ruler>` context menu."
+msgid "Click :guilabel:`+ Add Style` in the :ref:`subtitle-manager`."
+msgstr ""
+"Fai clic su :guilabel:`Aggiungi sottotitolo` nel menu contestuale del :ref:"
+"`righello della linea temporale <timeline_ruler>`."
 
 #: ../../effects_and_filters/subtitles.rst:148
-msgid ":guilabel:`Zoom in`: Zoom into the edit window"
-msgstr ":guilabel:`Ingrandisci`: ingrandisci la finestra di modifica"
+msgid "Enter the properties in the :ref:`subtitle-style-editor`."
+msgstr ""
 
-#: ../../effects_and_filters/subtitles.rst:150
-msgid ":guilabel:`Zoom out`:Zoom out of the edit window"
-msgstr ":guilabel:`Rimpicciolisci`: rimpicciolisci la finestra di modifica"
+#: ../../effects_and_filters/subtitles.rst:151
+msgid "Move/Copy a style"
+msgstr ""
 
 #: ../../effects_and_filters/subtitles.rst:156
-msgid "Style subtitle"
-msgstr "Stile dei sottotitoli"
+msgid ""
+"In the style section of the :ref:`subtitle-manager`, drag a style to the "
+"desired item in the sidebar to move or copy it."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:159
+msgid "You can't move/delete style \"Default\"."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:162
+#, fuzzy
+#| msgid "Four ways to add subtitle"
+msgid "Assign a style to a subtitle"
+msgstr "Quattro modi per aggiungere un sottotitolo"
 
 #: ../../effects_and_filters/subtitles.rst:164
 msgid ""
-"This is a global, simple subtitle styling possibility. It only allows one "
-"style for all subtitles of the project. Accessible through the \"T drop\" "
-"icon in the subtitle edit widget."
+"You can assign a style to the subtitle you're currently editing using the :"
+"guilabel:`Style` combobox in the :ref:`subtitle-window`. This style will be "
+"applied to **the entire subtitle**."
 msgstr ""
-"Questa è una possibilità di stile semplice e globale. Permette solo uno "
-"stile per i sottotitoli del progetto. È accessibile dall'icona «T con la "
-"goccia» nell'oggetto per la modifica dei sottotitoli."
 
-#: ../../effects_and_filters/subtitles.rst:168
-msgid "**SRT** supports markup for: underline and line break."
+#: ../../effects_and_filters/subtitles.rst:167
+msgid "Override style with tags"
 msgstr ""
-"**SRT** supporta i marcatori per: sottolineatura e interruzione di riga."
 
-#: ../../effects_and_filters/subtitles.rst:170
-msgid "``<u>text underlined</u>``"
-msgstr "``<u>testo sottolineato</u>``"
-
-#: ../../effects_and_filters/subtitles.rst:171
+#: ../../effects_and_filters/subtitles.rst:169
 msgid ""
-"**Line break:** Add on the end of each line a ``<br>`` (for break). Now the :"
-"file:`.srt` file is stored correct and reopened with the line break. The "
-"subtitle in the subtitle window will be all in 1 line after several save but "
-"the breaks is working."
+"Kdenlive supports using ASS override tags to style **specific parts of the "
+"subtitle text**."
 msgstr ""
-"**Interruzione di riga:** aggiungi un ``<br>`` (br sta per \"break\", "
-"interrompi) alla fine di ogni riga. Ora il file :file:`.srt` è stato salvato "
-"correttamente, e viene riaperto con l'interruzione di riga. Il sottotitolo "
-"nella finestra verrà aggiunto tutto su una riga, ma dopo molti salvataggi "
-"l'interruzione funziona."
 
-#: ../../effects_and_filters/subtitles.rst:173
-msgid ":kbd:`Alt+Arrow` jumps from subtitle to subtitle."
-msgstr ":kbd:`Alt+freccia` salta da un sottotitolo a un altro."
+#: ../../effects_and_filters/subtitles.rst:175
+msgid ""
+"A **highlighter** renders different parts of the tags in distinct styles, "
+"making them more distinguishable."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:177
+msgid ""
+"An **auto-completer** automatically lists all valid presets as you start "
+"typing a tag name."
+msgstr ""
 
 #: ../../effects_and_filters/subtitles.rst:179
-msgid "Import and export subtitle"
-msgstr "Importare ed esportare i sottotitoli"
+msgid ""
+"The buttons above the text editor will automatically add or edit tags when "
+"pressed."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:181
+msgid ""
+"Tags like \"Set Position,\" which affect the entire subtitle text, will be "
+"added **at the beginning of the subtitle text**."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:183
+msgid ""
+"Tags like \"Toggle Bold,\" which affect only the text following them, will "
+"either be added **at the current cursor position** or **wrap the selected "
+"text in tags** if there is a selection."
+msgstr ""
 
 #: ../../effects_and_filters/subtitles.rst:185
+msgid ""
+"Additionally, you can use '\\\\r<style>' to reset the style of the subtitle "
+"after the tag."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:190
+msgid "Multi-layer Subtitling"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:192
+#, fuzzy
+#| msgid ""
+#| "Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle "
+#| "track is displayed at a time). You can create, duplicate, and delete "
+#| "subtitle tracks with the :ref:`subtitle-manager`."
+msgid ""
+"Kdenlive supports multiple subtitle layers. You can create, duplicate, and "
+"delete subtitle layers using the :guilabel:`Layer` tab in :ref:`subtitle-"
+"manager`."
+msgstr ""
+"Kdenlive permette di avere più sottotitoli nella traccia di sottotitoli (ne "
+"viene visualizzata solo una alla volta). Puoi creare, duplicare, oppure "
+"eliminare le tracce di sottotitoli con il :ref:`subtitle-manager`."
+
+#: ../../effects_and_filters/subtitles.rst:197
+msgid ""
+"A new subtitle layer can also be created by dragging an existing subtitle "
+"down beyond the bottom of the subtitle track or by adjusting the layer "
+"indicator in the :ref:`subtitle-window`."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:202
+msgid ""
+"Subtitles with a lower Layer value are placed behind those with a higher "
+"value."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:205
+#, fuzzy
+#| msgid "Adjust the length of subtitle"
+msgid "Set the layer of a subtitle"
+msgstr "Regolare la lunghezza di un sottotitolo"
+
+#: ../../effects_and_filters/subtitles.rst:207
+msgid ""
+"When you create a new subtitle by double-clicking on the timeline, the "
+"subtitle will be placed on the layer under your cursor."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:209
+msgid ""
+"You can change a subtitle's layer value using the :guilabel:`Layer` "
+"indicator in the :ref:`subtitle-window`, or you can simply drag and drop the "
+"subtitle from one layer to another on the timeline."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:214
+msgid ""
+"If you set the layer value higher than the current maximum, Kdenlive will "
+"automatically add a new layer."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:217
+msgid "Copy/Move layer between files"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:219
+msgid ""
+"You can copy and move layers between different subtitle files using the :ref:"
+"`subtitle-manager`."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:221
+msgid ""
+"In the :guilabel:`Layer` tab, Simply drag a layer to the desired file in the "
+"sidebar. All events within the layer will be copied or moved to the new "
+"location."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:227
+msgid "Default style of layer"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:229
+msgid ""
+"You can assign each subtitle layer a default style. Any new subtitles "
+"created on that layer will automatically be assigned this style."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:231
+msgid ""
+"To set this, go to the :guilabel:`Layer` tab in the :ref:`subtitle-manager`. "
+"Click the :guilabel:`Style` column of a layer item and select the desired "
+"style from the pop-up menu."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:233
+msgid ""
+"This feature is particularly useful when working with multiple speakers in a "
+"subtitle file, as it allows each speaker to have a distinct style "
+"effortlessly."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:238
+#, fuzzy
+#| msgid "Import and export subtitle"
+msgid "Import and Export Subtitles"
+msgstr "Importare ed esportare i sottotitoli"
+
+#: ../../effects_and_filters/subtitles.rst:244
 msgid ""
 "Importing **SRT**, **ASS**, **VTT** and **SBV** subtitle file: :"
 "menuselection:`Menu --> Project --> Subtitles --> Import Subtitle File`"
@@ -318,15 +496,19 @@ msgstr ""
 "menuselection:`Menu --> Progetto --> Sottotitoli --> Importa file di "
 "sottotitoli`"
 
-#: ../../effects_and_filters/subtitles.rst:187
+#: ../../effects_and_filters/subtitles.rst:246
+#, fuzzy
+#| msgid ""
+#| "Exporting **SRT** subtitles only: :menuselection:`Menu --> Project --> "
+#| "Subtitles --> Export Subtitle File`"
 msgid ""
-"Exporting **SRT** subtitles only: :menuselection:`Menu --> Project --> "
+"Exporting **ASS** or **SRT** subtitles: :menuselection:`Menu --> Project --> "
 "Subtitles --> Export Subtitle File`"
 msgstr ""
 "Esportare i sottotitoli, solo **SRT**: :menuselection:`Menu --> Progetto --> "
 "Sottotitoli --> Esporta file di sottotitoli`"
 
-#: ../../effects_and_filters/subtitles.rst:195
+#: ../../effects_and_filters/subtitles.rst:254
 msgid ""
 ":guilabel:`Encoding`: Allow overriding of detected codecs through a list of "
 "available codecs, and show a preview to make choice easier."
@@ -335,7 +517,7 @@ msgstr ""
 "un elenco dei codec disponibili, e mostra un'anteprima che semplifica la "
 "scelta."
 
-#: ../../effects_and_filters/subtitles.rst:199
+#: ../../effects_and_filters/subtitles.rst:258
 msgid ""
 ":guilabel:`Create New Subtitle Track`: Importing an .srt file in the "
 "project, you can create a new subtitle track (an entry in the subtitles "
@@ -345,11 +527,106 @@ msgstr ""
 "progetto puoi creare una nuova traccia di sottotitoli (una voce nell'elenco "
 "combinato dei sottotitoli) invece di sovrascrivere quella corrente."
 
-#: ../../effects_and_filters/subtitles.rst:205
+#: ../../effects_and_filters/subtitles.rst:263
+#, fuzzy
+#| msgid "Subtitle window"
+msgid "Subtitle Window"
+msgstr "Finestra dei sottotitoli"
+
+#: ../../effects_and_filters/subtitles.rst:265
+msgid ""
+"The subtitles window allows easier editing and also makes it possible to "
+"easily navigate between subtitles with the :guilabel:`<` and :guilabel:`>` "
+"buttons"
+msgstr ""
+"La finestra dei sottotitoli permette una modifica più semplice, e rende "
+"anche possibile la navigazione tra i sottotitoli con i pulsanti :guilabel:"
+"`<` e :guilabel:`>`."
+
+#: ../../effects_and_filters/subtitles.rst:270
+msgid "Subtitle window"
+msgstr "Finestra dei sottotitoli"
+
+#: ../../effects_and_filters/subtitles.rst:272
+msgid "**Add subtitles** with the :guilabel:`+` button"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:274
+msgid "**Cut subtitles** with the scissors button"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:276
+#, fuzzy
+#| msgid ""
+#| "The scissors are mostly here for dividing subtitles: let's say your "
+#| "subtitle text is too long and you want to make it two different "
+#| "subtitles. Put the cursor in the text widget where you want to cut and "
+#| "click the scissors, it will split the text between two different subtitle "
+#| "items. The scissors are only working when the playhead is over the "
+#| "subtitle itself."
+msgid ""
+"Let's say your subtitle text is too long and you want to make it two "
+"different subtitles. Put the cursor in the text widget where you want to cut "
+"and click the scissors, it will split the text between two different "
+"subtitle items."
+msgstr ""
+"Le forbici servono principalmente per dividere i sottotitoli: diciamo che il "
+"testo del tuo sottotitolo è troppo lungo, e ne vuoi ricavare due distinti. "
+"Posiziona il puntatore nell'oggetto testuale nel punto in cui vuoi tagliare, "
+"poi fai clic sulle forbici: avrai diviso il testo in due sottotitoli. Le "
+"forbici funzionano solo quando l'indicatore di riproduzione è sopra il "
+"sottotitolo stesso."
+
+#: ../../effects_and_filters/subtitles.rst:279
+msgid ""
+"The scissors only works when the playhead is positioned over the subtitle "
+"itself."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:281
+msgid ""
+"**Apply changes** by clicking the check-mark button, or by pressing :kbd:"
+"`Enter`"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:286
+msgid "Character count and zoom"
+msgstr "Conteggio dei caratteri e ingrandimento"
+
+#: ../../effects_and_filters/subtitles.rst:293
+#, fuzzy
+#| msgid ":guilabel:`Character:`: Character number at cursor position"
+msgid ":guilabel:`Character`: Character number at cursor position"
+msgstr ""
+":guilabel:`Carattere:`: numero del carattere alla posizione del puntatore"
+
+#: ../../effects_and_filters/subtitles.rst:295
+#, fuzzy
+#| msgid ":guilabel:`total:`: Total number of Character"
+msgid ":guilabel:`Total`: Total number of Character"
+msgstr ":guilabel:`totali:`: numero totale di caratteri"
+
+#: ../../effects_and_filters/subtitles.rst:297
+msgid ":guilabel:`Zoom in`: Zoom into the edit window"
+msgstr ":guilabel:`Ingrandisci`: ingrandisci la finestra di modifica"
+
+#: ../../effects_and_filters/subtitles.rst:299
+#, fuzzy
+#| msgid ":guilabel:`Zoom out`:Zoom out of the edit window"
+msgid ":guilabel:`Zoom out`: Zoom out of the edit window"
+msgstr ":guilabel:`Rimpicciolisci`: rimpicciolisci la finestra di modifica"
+
+#: ../../effects_and_filters/subtitles.rst:301
+#, fuzzy
+#| msgid ":kbd:`Alt+Arrow` jumps from subtitle to subtitle."
+msgid ":kbd:`Alt+Arrow`: jumps from subtitle to subtitle."
+msgstr ":kbd:`Alt+freccia` salta da un sottotitolo a un altro."
+
+#: ../../effects_and_filters/subtitles.rst:304
 msgid "Spell check"
 msgstr "Controllo ortografico"
 
-#: ../../effects_and_filters/subtitles.rst:209
+#: ../../effects_and_filters/subtitles.rst:308
 msgid ""
 "A spell check for subtitle is integrated and shows incorrect words by a red "
 "wiggly line. Right-click on the word and you get a list of possible words "
@@ -360,30 +637,100 @@ msgstr ""
 "parola otterrai una lista di possibili sostitute, che puoi scegliere "
 "facendoci clic sopra."
 
-#: ../../effects_and_filters/subtitles.rst:221
-msgid "Subtitle manager"
+#: ../../effects_and_filters/subtitles.rst:310
+msgid ""
+"To enable spell check, right-click the subtitle text widget in the :ref:"
+"`subtitle-window` and check the :guilabel:`Auto Spell Check` option."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:313
+msgid ""
+"Please note that this feature conflicts with the ASS tag highlighter. To re-"
+"enable the highlighter, uncheck the :guilabel:`Auto Spell Check` option."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:322
+msgid "Simple editor"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:324
+msgid ""
+"A simple text editor that syncs with the normal editor, hides ASS override "
+"tag blocks, and translates '\\N' into a new line."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:327
+msgid ""
+"Due to the complexities of ASS tag rules, style editing in the Simple Editor "
+"can sometimes behave unpredictably. So it's best suited for simpler use "
+"cases before or after editing styles."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:330
+msgid "Scolling"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:332
+msgid "You can configure subtitle scrolling using the following options:"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:334
+msgid ":menuselection:`Subtitle Window --> More Options --> Scroll`"
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:339
+msgid "Check the :guilabel:`Scrolling` checkbox to enable scrolling."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:341
+msgid "Use the :guilabel:`Direction` combobox to set the scrolling direction."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:343
+msgid "Adjust the speed by changing the value of :guilabel:`Speed`."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:345
+msgid ""
+"**For vertical scrolling only**, set the :guilabel:`Upper Bound` and :"
+"guilabel:`Lower Bound` values to clip the text at the top and bottom of the "
+"screen."
+msgstr ""
+
+#: ../../effects_and_filters/subtitles.rst:350
+#, fuzzy
+#| msgid "Subtitle manager"
+msgid "Subtitle Manager"
 msgstr "Gestore dei sottotitoli"
 
-#: ../../effects_and_filters/subtitles.rst:225
+#: ../../effects_and_filters/subtitles.rst:354
+#, fuzzy
+#| msgid ""
+#| "You can create, duplicate, and delete subtitle tracks with the subtitle "
+#| "manager: :menuselection:`Menu --> Project --> Subtitles --> Manage "
+#| "Subtitles` or on the timeline as drop-down menu in the subtitle track."
 msgid ""
-"You can create, duplicate, and delete subtitle tracks with the subtitle "
-"manager: :menuselection:`Menu --> Project --> Subtitles --> Manage "
-"Subtitles` or on the timeline as drop-down menu in the subtitle track."
+"You can create, duplicate, and delete subtitle files and manage its "
+"components with the subtitle manager: :menuselection:`Menu --> Project --> "
+"Subtitles --> Manage Subtitles` or on the timeline as drop-down menu in the "
+"subtitle track."
 msgstr ""
 "Puoi creare, duplicare ed eliminare le tracce dei sottotitoli col gestore "
 "dei sottotitoli: :menuselection:`Menu --> Progetto --> Sottotitoli --> "
 "Gestisci sottotitoli` oppure nella linea temporale come menu a discesa nella "
 "traccia dei sottotitoli."
 
-#: ../../effects_and_filters/subtitles.rst:231
+#: ../../effects_and_filters/subtitles.rst:360
 msgid "Open the subtitle manager from the drop down menu"
 msgstr "Apri il gestore dei sottotitoli dal menu a discesa"
 
-#: ../../effects_and_filters/subtitles.rst:237
-msgid "Subtitle manager with 2 subtitle tracks"
+#: ../../effects_and_filters/subtitles.rst:366
+#, fuzzy
+#| msgid "Subtitle manager with 2 subtitle tracks"
+msgid "Subtitle manager with 4 subtitle files"
 msgstr "Il gestore dei sottotitoli con 2 tracce di sottotitoli"
 
-#: ../../effects_and_filters/subtitles.rst:241
+#: ../../effects_and_filters/subtitles.rst:370
 msgid ""
 "Click on |application-menu|:guilabel:`Options` and select :guilabel:`Import "
 "Subtitle` or :guilabel:`Export Subtitle` to reach :ref:`subtitle-"
@@ -393,13 +740,66 @@ msgstr ""
 "`Importa sottotitoli` o :guilabel:`Esporta sottotitoli` per raggiungere :ref:"
 "`subtitle-import_export`."
 
-#: ../../effects_and_filters/subtitles.rst:243
+#: ../../effects_and_filters/subtitles.rst:372
+#, fuzzy
+#| msgid ""
+#| "Only one subtitle can be active. So, rendering will always render using "
+#| "the active subtitle only."
 msgid ""
-"Only one subtitle can be active. So, rendering will always render using the "
-"active subtitle only."
+"Only one subtitle file can be active. So, rendering will always render using "
+"the active subtitle only."
 msgstr ""
 "Può essere attivo solo un sottotitolo. L'esportazione verrà eseguita usando "
 "solamente quello attivo."
+
+#: ../../effects_and_filters/subtitles.rst:377
+#, fuzzy
+#| msgid "Style subtitle"
+msgid "Style editor"
+msgstr "Stile dei sottotitoli"
+
+#: ../../effects_and_filters/subtitles.rst:382
+msgid ""
+"An editor that allows you to adjust style properties with a live preview."
+msgstr ""
+
+#~ msgid "Adding and editing text"
+#~ msgstr "Aggiungere e modificare il testo"
+
+#~ msgid "With the :guilabel:`+` button you can add subtitles"
+#~ msgstr ""
+#~ "Puoi aggiungere i sottotitoli con il pulsante col pulsante :guilabel:`+`"
+
+#~ msgid "The check-mark button adds the text to the subtitle"
+#~ msgstr "Il pulsante con la spunta aggiunge il testo al sottotitolo."
+
+#~ msgid ""
+#~ "This is a global, simple subtitle styling possibility. It only allows one "
+#~ "style for all subtitles of the project. Accessible through the \"T drop\" "
+#~ "icon in the subtitle edit widget."
+#~ msgstr ""
+#~ "Questa è una possibilità di stile semplice e globale. Permette solo uno "
+#~ "stile per i sottotitoli del progetto. È accessibile dall'icona «T con la "
+#~ "goccia» nell'oggetto per la modifica dei sottotitoli."
+
+#~ msgid "**SRT** supports markup for: underline and line break."
+#~ msgstr ""
+#~ "**SRT** supporta i marcatori per: sottolineatura e interruzione di riga."
+
+#~ msgid "``<u>text underlined</u>``"
+#~ msgstr "``<u>testo sottolineato</u>``"
+
+#~ msgid ""
+#~ "**Line break:** Add on the end of each line a ``<br>`` (for break). Now "
+#~ "the :file:`.srt` file is stored correct and reopened with the line break. "
+#~ "The subtitle in the subtitle window will be all in 1 line after several "
+#~ "save but the breaks is working."
+#~ msgstr ""
+#~ "**Interruzione di riga:** aggiungi un ``<br>`` (br sta per \"break\", "
+#~ "interrompi) alla fine di ogni riga. Ora il file :file:`.srt` è stato "
+#~ "salvato correttamente, e viene riaperto con l'interruzione di riga. Il "
+#~ "sottotitolo nella finestra verrà aggiunto tutto su una riga, ma dopo "
+#~ "molti salvataggi l'interruzione funziona."
 
 #~ msgid "``<b>text in boldface</b>``"
 #~ msgstr "``<b>testo in grassetto</b>``"

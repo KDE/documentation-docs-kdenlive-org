@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 01:45+0000\n"
+"POT-Creation-Date: 2024-12-18 01:52+0000\n"
 "PO-Revision-Date: 2024-04-21 04:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -179,25 +179,83 @@ msgstr ""
 "一个黄色指示器，相对于原始剪辑长度。"
 
 #: ../../cutting_and_assembling/editing.rst:119
+msgid "Resizing multiple timeline items"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:123
+msgid ""
+"Select several clips in the timeline. Double click on one of the clips. The "
+"Duration dialog window pops up. Enable :guilabel:`Apply duration to all "
+"items`, otherwise nothing happens."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:125
+msgid ""
+"The duration/resize is linked to the start position of each clip. Meaning if "
+"you select three clips and reduce the duration you get gaps between each "
+"clip as the start position of each clip is fixed."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:127
+msgid ""
+":guilabel:`Position` show the start position of the most left selected clip"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:134
+msgid "All selected clips have the same length"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:141
+#: ../../cutting_and_assembling/editing.rst:155
+msgid "The selected clips have different length"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:143
+msgid ""
+"Shorten and lengthen duration: The clips get shortened/lengthened but keep "
+"their starting position"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:145
+msgid "Clips attached to each other: You cannot lengthen the clips"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:148
+msgid "Change duration with |kdenlive-ripple| :guilabel:`Ripple Tool` enabled"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:157
+msgid ""
+"Shorten and lengthen duration: The starting position of the left most "
+"selected clip on each track is fixed. Any gaps between clips are kept."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:159
+msgid ""
+"Clips attached to each other: All clips attached to the right will lengthen "
+"or shorten according to the left most clip, keeping their attachment."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:165
 msgid "Edit an Animation"
 msgstr "编辑动画"
 
-#: ../../cutting_and_assembling/editing.rst:124
+#: ../../cutting_and_assembling/editing.rst:170
 msgid "This requires Glaxnimate version >= 0.5.1"
 msgstr "这需要 Glaxnimate 版本 >= 0.5.1"
 
-#: ../../cutting_and_assembling/editing.rst:126
+#: ../../cutting_and_assembling/editing.rst:172
 msgid ""
 "Double click on an animation clip in the timeline and this will open "
 "Glaxnimate."
 msgstr "在时间轴中双击一个动画剪辑，这将打开 Glaxnimate。"
 
-#: ../../cutting_and_assembling/editing.rst:132
+#: ../../cutting_and_assembling/editing.rst:178
 msgid ""
 "The background of the animation in Kdenlive will also be shown in Glaxnimate."
 msgstr "Kdenlive 中的动画背景也会在 Glaxnimate 中显示。"
 
-#: ../../cutting_and_assembling/editing.rst:138
+#: ../../cutting_and_assembling/editing.rst:184
 msgid ""
 "It is possible to have several Glaxnimate instances open, but the background "
 "will only be send to the one opened first in Glaxnimate. If you like to see "
@@ -208,25 +266,25 @@ msgstr ""
 "例。如果您想看到另一个动画剪辑的 Kdenlive 背景，请保存动画并关闭 Glaxnimate，"
 "然后再双击另一个动画剪辑。"
 
-#: ../../cutting_and_assembling/editing.rst:144
+#: ../../cutting_and_assembling/editing.rst:190
 msgid "Change Speed of a Clip"
 msgstr "调整剪辑的速度。"
 
-#: ../../cutting_and_assembling/editing.rst:151
+#: ../../cutting_and_assembling/editing.rst:197
 msgid ""
 "Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the "
 "timeline."
 msgstr "通过 :kbd:`Ctrl + 拖动` 来调整剪辑的速度。"
 
-#: ../../cutting_and_assembling/editing.rst:153
+#: ../../cutting_and_assembling/editing.rst:199
 msgid "Doing with right click on the clip see :ref:`change_speed`."
 msgstr "右键点击剪辑可查看 :ref:`改变速度<change_speed>` 。"
 
-#: ../../cutting_and_assembling/editing.rst:159
+#: ../../cutting_and_assembling/editing.rst:205
 msgid "Removing Space Between Clips"
 msgstr "删除剪辑间的空白"
 
-#: ../../cutting_and_assembling/editing.rst:161
+#: ../../cutting_and_assembling/editing.rst:207
 msgid ""
 "Right click in the space between the clips and choose :menuselection:`Remove "
 "Space`. Be aware however that if you have clips on multiple tracks in the "
@@ -240,13 +298,13 @@ msgstr ""
 "轨道之间剪辑的对齐——只有您点击的轨道上的空白才会被移除。 在这种情况下，使用 `"
 "间隙工具 <Spacer Tool>`_ 可能更加安全。"
 
-#: ../../cutting_and_assembling/editing.rst:169
+#: ../../cutting_and_assembling/editing.rst:215
 msgid ""
 ":menuselection:`Timeline --> Current track --> Remove All Spaces After "
 "Cursor`"
 msgstr ":menuselection:`时间轴 --> 当前轨道 --> 移除光标后的所有空白区域`"
 
-#: ../../cutting_and_assembling/editing.rst:171
+#: ../../cutting_and_assembling/editing.rst:217
 msgid ""
 "It handles AV clips as 1 element, doesn't matter on which track they are. "
 "This function is only in the Timeline menu available this to avoid clutter."
@@ -254,63 +312,63 @@ msgstr ""
 "它处理 AV 剪辑作为 1 个元素，无论它们在哪个轨道上。 此功能仅在时间轴菜单中可"
 "用，以避免混乱。"
 
-#: ../../cutting_and_assembling/editing.rst:173
+#: ../../cutting_and_assembling/editing.rst:219
 msgid "More details see :ref:`timeline_space-remove`."
 msgstr "有关更多信息，请参阅 :ref:`时间轴移除间隙<timeline_space-remove>` 。"
 
-#: ../../cutting_and_assembling/editing.rst:179
+#: ../../cutting_and_assembling/editing.rst:225
 msgid "Adjust timeline zone"
 msgstr "调整时间轴区域"
 
-#: ../../cutting_and_assembling/editing.rst:183
+#: ../../cutting_and_assembling/editing.rst:229
 msgid ":kbd:`Shift+z` adjusts timeline zone to selected clips"
 msgstr ":kbd:`Shift + z` 调整时间轴区域以选择剪辑"
 
-#: ../../cutting_and_assembling/editing.rst:192
+#: ../../cutting_and_assembling/editing.rst:238
 msgid "Timeline Toolbar"
 msgstr "时间轴工具栏"
 
-#: ../../cutting_and_assembling/editing.rst:194
+#: ../../cutting_and_assembling/editing.rst:240
 msgid ""
 "There is a toolbar between monitors and the timeline that controls various "
 "aspects of the editor."
 msgstr "显示器和时间轴之间有一个工具栏来控制编辑器的各个选项。"
 
-#: ../../cutting_and_assembling/editing.rst:201
+#: ../../cutting_and_assembling/editing.rst:247
 msgid "`Track Compositing`_ drop down."
 msgstr "`轨道合成 <Track Compositing>`_  下拉式菜单"
 
-#: ../../cutting_and_assembling/editing.rst:208
+#: ../../cutting_and_assembling/editing.rst:254
 msgid ""
 "Track compositing is now a simple checkbox instead of the deprecated none/"
 "high resolution choice."
 msgstr "轨道合成现在是简单的复选框，而不是已弃用的无/高分辨率选择。"
 
-#: ../../cutting_and_assembling/editing.rst:210
+#: ../../cutting_and_assembling/editing.rst:256
 msgid "When enabled Kdenlive is set to :ref:`track_compositing_hq`"
 msgstr "当启用时，Kdenlive 设置为 :ref:`高品质轨道合成<track_compositing_hq>`"
 
-#: ../../cutting_and_assembling/editing.rst:212
+#: ../../cutting_and_assembling/editing.rst:258
 msgid "When disabled Kdenlive is set to :ref:`track_compositing_none`"
 msgstr "当禁用时，Kdenlive 设置为 :ref:`无轨道合成<track_compositing_none>`"
 
-#: ../../cutting_and_assembling/editing.rst:216
+#: ../../cutting_and_assembling/editing.rst:262
 msgid "1a, 1b and 1c cannot be selected anymore."
 msgstr "1a、1b 和 1c 无法再选择。"
 
-#: ../../cutting_and_assembling/editing.rst:218
+#: ../../cutting_and_assembling/editing.rst:264
 msgid "1a. :ref:`track_compositing_none`"
 msgstr "1a. :ref:`无轨道合成<track_compositing_none>`"
 
-#: ../../cutting_and_assembling/editing.rst:220
+#: ../../cutting_and_assembling/editing.rst:266
 msgid "1b. :ref:`track_compositing_preview`"
 msgstr "1b. :ref:`track_compositing_preview`"
 
-#: ../../cutting_and_assembling/editing.rst:222
+#: ../../cutting_and_assembling/editing.rst:268
 msgid "1c. :ref:`track_compositing_hq`"
 msgstr "1c. :ref:`高品质轨道合成<track_compositing_hq>`"
 
-#: ../../cutting_and_assembling/editing.rst:224
+#: ../../cutting_and_assembling/editing.rst:270
 msgid ""
 "1d. **Mixed Audio tracks** changes the order in which tracks are displayed "
 "to mixed audio and video tracks.  For example, from the bottom of the "
@@ -319,7 +377,7 @@ msgstr ""
 "1d. **混合音频轨道** 更改音频和视频音轨显示顺序。 例如，从时间轴的底部到时间"
 "轴的顶部：A1、V1、A2、V2、A3、V3"
 
-#: ../../cutting_and_assembling/editing.rst:226
+#: ../../cutting_and_assembling/editing.rst:272
 msgid ""
 "1e. **Split Audio tracks** changes the order in which tracks are displayed "
 "to separate audio and video tracks.  For example, from the bottom of the "
@@ -328,7 +386,7 @@ msgstr ""
 "1e. **拆分音频音轨** 更改音频和视频轨道显示顺序。 例如，从时间轴的底部到时间"
 "轴的顶部：A3、A2、A1、V1、V2、V3"
 
-#: ../../cutting_and_assembling/editing.rst:228
+#: ../../cutting_and_assembling/editing.rst:274
 msgid ""
 "1f. **Split Audio tracks (reverse)** changes the order in which tracks are "
 "displayed to separate audio and video tracks with the audio tracks in "
@@ -338,7 +396,7 @@ msgstr ""
 "1e. **拆分音频音轨（反向）** 更改音频和视频轨道显示顺序。 例如，从时间轴的底"
 "部到时间轴的顶部：A1、A2、A3、V1、V2、V3"
 
-#: ../../cutting_and_assembling/editing.rst:230
+#: ../../cutting_and_assembling/editing.rst:276
 msgid ""
 "**Timeline Edit Mode**  Drop Down. These same settings can be found under "
 "the :menuselection:`Tool` menu."
@@ -346,19 +404,19 @@ msgstr ""
 "**时间轴编辑模式** 下拉式菜单。这些相同的设置可以在 :menuselection:`工具` 菜"
 "单下找到。"
 
-#: ../../cutting_and_assembling/editing.rst:232
+#: ../../cutting_and_assembling/editing.rst:278
 msgid "2a. **Timeline Normal Mode**"
 msgstr "2a. **时间轴 - 正常模式**"
 
-#: ../../cutting_and_assembling/editing.rst:234
+#: ../../cutting_and_assembling/editing.rst:280
 msgid "2b. **Timeline Overwrite Mode**"
 msgstr "2b. **时间轴 - 覆盖模式**"
 
-#: ../../cutting_and_assembling/editing.rst:236
+#: ../../cutting_and_assembling/editing.rst:282
 msgid "2c. **Timeline Insert Mode**"
 msgstr "2a. **时间轴 - 插入模式**"
 
-#: ../../cutting_and_assembling/editing.rst:238
+#: ../../cutting_and_assembling/editing.rst:284
 msgid ""
 "Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |"
 "timeline-use-zone-off| for insert (toggles). See :doc:`/tips_and_tricks/"
@@ -368,21 +426,21 @@ msgstr ""
 "off| 进行插入（切换）。 有关更多信息，请参阅 :doc:`高级时间轴编辑 </"
 "tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing>`。"
 
-#: ../../cutting_and_assembling/editing.rst:241
+#: ../../cutting_and_assembling/editing.rst:287
 msgid "**Tool Group** (one of these 3 can be active)"
 msgstr "**工具组** (3 个中的一个可以激活)"
 
-#: ../../cutting_and_assembling/editing.rst:243
+#: ../../cutting_and_assembling/editing.rst:289
 msgid "Active buttons are grey."
 msgstr "激活的按钮是灰色的。"
 
-#: ../../cutting_and_assembling/editing.rst:246
+#: ../../cutting_and_assembling/editing.rst:292
 msgid ""
 "`Selection Tool`_ - Also selected with the 'S' hotkey.  Allows the selection "
 "and manipulation of clips on the timeline"
 msgstr "`选区工具`_ - 同时按下 'S' 热键来选择。允许选择和操纵时间轴上的素材"
 
-#: ../../cutting_and_assembling/editing.rst:248
+#: ../../cutting_and_assembling/editing.rst:294
 msgid ""
 "`Razor Tool`_ - Also selected with the 'X' hotkey, or to cut at the point of "
 "the play head use \"Shift-R\". This allows a clip to be cut into two clips."
@@ -390,7 +448,7 @@ msgstr ""
 "`剃刀工具`_ - 同时按下 'X' 热键来选择，或使用\"Shift-R\"在剪辑开头切割。 可以"
 "将一个剪辑切成两个剪辑。"
 
-#: ../../cutting_and_assembling/editing.rst:250
+#: ../../cutting_and_assembling/editing.rst:296
 msgid ""
 "`Spacer Tool`_ - Also selected with the 'M' hotkey.  This tool will select "
 "all clips at one point in the timeline and allow them to be shifted at once."
@@ -398,7 +456,7 @@ msgstr ""
 "`间隔工具 <Spacer Tool>`_ - 也可通过“M”热键选择。该工具将在时间轴的某一点选择"
 "所有剪辑，并允许它们立即移动。"
 
-#: ../../cutting_and_assembling/editing.rst:252
+#: ../../cutting_and_assembling/editing.rst:298
 msgid ""
 "Position indicator - displays the time point or frame number of the location "
 "of the hovering mouse on the left side, and the total length of the project "
@@ -406,15 +464,15 @@ msgid ""
 msgstr ""
 "位置指示器 - 在左侧显示鼠标悬停位置的时间点或帧数，在右侧显示项目的总长度。"
 
-#: ../../cutting_and_assembling/editing.rst:254
+#: ../../cutting_and_assembling/editing.rst:300
 msgid "7a. **hh:mm:ss:ff;** Sets the position indicator to display time units"
 msgstr "7a. **hh:mm:ss:ff;** 设置位置指示器以显示时间单位"
 
-#: ../../cutting_and_assembling/editing.rst:256
+#: ../../cutting_and_assembling/editing.rst:302
 msgid "7b. **Frames** Sets the position indicator to display frames"
 msgstr "7b. **帧** 将位置指示器设置为显示帧"
 
-#: ../../cutting_and_assembling/editing.rst:258
+#: ../../cutting_and_assembling/editing.rst:304
 msgid ""
 "**Mix Clips** - allows same-track transitions to be applied between two "
 "clips. See :ref:`same_track_transition` for a detailed explanation."
@@ -422,7 +480,7 @@ msgstr ""
 "**混合剪辑** - 允许在两个剪辑之间应用相同的轨道过渡。有关详细解释，请参阅 :"
 "ref:`同轨道转场<same_track_transition>`。"
 
-#: ../../cutting_and_assembling/editing.rst:260
+#: ../../cutting_and_assembling/editing.rst:306
 msgid ""
 "Insert Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/"
 "insert_overwrite_advanced_timeline_editing` for more details."
@@ -430,7 +488,7 @@ msgstr ""
 "在时间轴中插入剪辑选区。有关详细信息，请参阅 :doc:`高级时间轴编辑</"
 "tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing>`。"
 
-#: ../../cutting_and_assembling/editing.rst:262
+#: ../../cutting_and_assembling/editing.rst:308
 msgid ""
 "Overwrite Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/"
 "insert_overwrite_advanced_timeline_editing` for more details."
@@ -438,51 +496,51 @@ msgstr ""
 "在时间轴中覆盖剪辑选区。有关详细信息，请参阅 :doc:`高级时间轴编辑 </"
 "tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing>`。"
 
-#: ../../cutting_and_assembling/editing.rst:264
+#: ../../cutting_and_assembling/editing.rst:310
 msgid "Extract Timeline Zone"
 msgstr "提取时间轴选区"
 
-#: ../../cutting_and_assembling/editing.rst:266
+#: ../../cutting_and_assembling/editing.rst:312
 msgid "Lift Timeline Zone"
 msgstr "提升时间轴选区"
 
-#: ../../cutting_and_assembling/editing.rst:268
+#: ../../cutting_and_assembling/editing.rst:314
 msgid "Favourite Effects"
 msgstr "收藏的效果"
 
-#: ../../cutting_and_assembling/editing.rst:270
+#: ../../cutting_and_assembling/editing.rst:316
 msgid "Start Preview Render"
 msgstr "开始预览渲染"
 
-#: ../../cutting_and_assembling/editing.rst:272
+#: ../../cutting_and_assembling/editing.rst:318
 msgid "14a. Stop Preview Render"
 msgstr "14a. 停止预览渲染"
 
-#: ../../cutting_and_assembling/editing.rst:274
+#: ../../cutting_and_assembling/editing.rst:320
 msgid "14b. Add Preview Zone"
 msgstr "14b. 添加预览区域"
 
-#: ../../cutting_and_assembling/editing.rst:276
+#: ../../cutting_and_assembling/editing.rst:322
 msgid "14c. Remove Preview Zone"
 msgstr "14c. 移除预览区域"
 
-#: ../../cutting_and_assembling/editing.rst:278
+#: ../../cutting_and_assembling/editing.rst:324
 msgid "14d. Remove All Preview Zones"
 msgstr "14d. 删除所有预览区域"
 
-#: ../../cutting_and_assembling/editing.rst:280
+#: ../../cutting_and_assembling/editing.rst:326
 msgid "14e. Automatic Preview"
 msgstr "14e. 自动预览"
 
-#: ../../cutting_and_assembling/editing.rst:282
+#: ../../cutting_and_assembling/editing.rst:328
 msgid "14f. Disable Timeline Preview"
 msgstr "14f. 禁用时间轴预览"
 
-#: ../../cutting_and_assembling/editing.rst:284
+#: ../../cutting_and_assembling/editing.rst:330
 msgid "14g. Manage Cached Data"
 msgstr "14g. 管理缓存数据"
 
-#: ../../cutting_and_assembling/editing.rst:294
+#: ../../cutting_and_assembling/editing.rst:340
 msgid ""
 "Items 14, 14a-14g are covered in detail by the Tips & Tricks chapter about :"
 "doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`."
@@ -490,7 +548,7 @@ msgstr ""
 "14、14a-14g 项由 :doc:`时间轴预览渲染 </tips_and_tricks/tips_and_tricks/"
 "timeline_preview_rendering>` 章节详细介绍。"
 
-#: ../../cutting_and_assembling/editing.rst:296
+#: ../../cutting_and_assembling/editing.rst:342
 msgid ""
 "Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to "
 "be managed in the project."
@@ -498,7 +556,7 @@ msgstr ""
 "显示/隐藏 :ref:`音频混音器 <audio_mixer>` 工具。音频混音器工具允许在项目中管"
 "理音频。"
 
-#: ../../cutting_and_assembling/editing.rst:298
+#: ../../cutting_and_assembling/editing.rst:344
 msgid ""
 "Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the "
 "subtitle track where subtitles can be created or edited in the project."
@@ -506,15 +564,15 @@ msgstr ""
 "显示/隐藏 :ref:`效果-字幕<effects-subtitles>` 工具。这将显示或隐藏字幕轨道，"
 "可以在项目中创建或编辑字幕。"
 
-#: ../../cutting_and_assembling/editing.rst:304
+#: ../../cutting_and_assembling/editing.rst:350
 msgid "Track Compositing"
 msgstr "轨道合成"
 
-#: ../../cutting_and_assembling/editing.rst:308
+#: ../../cutting_and_assembling/editing.rst:354
 msgid "The track compositing applies uniformly to all tracks in your timeline."
 msgstr "轨道合成应用于时间轴中的所有轨道。"
 
-#: ../../cutting_and_assembling/editing.rst:312
+#: ../../cutting_and_assembling/editing.rst:358
 msgid ""
 "Under certain compositing conditions, if you see the outcome of a transition "
 "not to be what you would expect, try to switch track compositing off for a "
@@ -525,17 +583,17 @@ msgstr ""
 "检查。如果这个奇怪现象消失了，那么这是自动时间轴轨道合成和用户过渡之间的干"
 "扰。"
 
-#: ../../cutting_and_assembling/editing.rst:316
+#: ../../cutting_and_assembling/editing.rst:362
 msgid ""
 "Track compositing is now a simple checkbox instead of the none/high "
 "resolution choice."
 msgstr "轨道合成现在是简单的复选框，而不是无/高分辨率选择。"
 
-#: ../../cutting_and_assembling/editing.rst:322
+#: ../../cutting_and_assembling/editing.rst:368
 msgid "High Quality"
 msgstr "高品质"
 
-#: ../../cutting_and_assembling/editing.rst:326
+#: ../../cutting_and_assembling/editing.rst:372
 msgid ""
 "When track compositing is set to High-Quality tracks with alpha channel "
 "information will be automatically composited with the other tracks using an "
@@ -547,11 +605,11 @@ msgstr ""
 "一个比 :ref:`轨道合成预览<track_compositing_preview>` 使用的算法略慢但保留更"
 "高保真度颜色信息。"
 
-#: ../../cutting_and_assembling/editing.rst:332
+#: ../../cutting_and_assembling/editing.rst:378
 msgid "None"
 msgstr "None/无"
 
-#: ../../cutting_and_assembling/editing.rst:336
+#: ../../cutting_and_assembling/editing.rst:382
 msgid ""
 "When Track Compositing is set to None you will not get tracks with alpha "
 "channel information to composite with the other tracks unless an explicit "
@@ -563,17 +621,17 @@ msgstr ""
 "得具有 alpha 通道信息的轨道来与其他轨道合成。基本上，这是您在时间轴中需要完全"
 "控制任何合成的专家模式。"
 
-#: ../../cutting_and_assembling/editing.rst:342
+#: ../../cutting_and_assembling/editing.rst:388
 msgid "Preview"
 msgstr "预览"
 
-#: ../../cutting_and_assembling/editing.rst:348
+#: ../../cutting_and_assembling/editing.rst:394
 msgid ""
 "Final rendering always uses either **High Quality** or **None**. So Preview "
 "quality is, well, for preview only."
 msgstr "最终渲染总是使用 **高品质** 或 **无**。因此，预览质量仅用于预览。"
 
-#: ../../cutting_and_assembling/editing.rst:350
+#: ../../cutting_and_assembling/editing.rst:396
 msgid ""
 "When track compositing is set to Preview tracks with alpha channel "
 "information will be automatically composited with the other tracks using an "
@@ -584,15 +642,15 @@ msgstr ""
 "个比 :ref:`轨道合成高分辨率<track_compositing_hq>` 使用的算法略快但会稍微降低"
 "颜色。"
 
-#: ../../cutting_and_assembling/editing.rst:356
+#: ../../cutting_and_assembling/editing.rst:402
 msgid "Active track"
 msgstr "活动的轨道"
 
-#: ../../cutting_and_assembling/editing.rst:366
+#: ../../cutting_and_assembling/editing.rst:412
 msgid "An :term:`active track`"
 msgstr "一个 :term:`活动的轨道<active track>`"
 
-#: ../../cutting_and_assembling/editing.rst:370
+#: ../../cutting_and_assembling/editing.rst:416
 msgid ""
 "**1** Target track (3-point editing). The highlighted target strip indicates "
 "that in the project bin an A/V clip is selected (the selected clip has an "
@@ -601,19 +659,19 @@ msgstr ""
 "**1** 目标轨道（3-点编辑）。高亮的目标带指示在项目中选定的 A/V 剪辑（选定的剪"
 "辑具有音频和视频部分）。"
 
-#: ../../cutting_and_assembling/editing.rst:372
+#: ../../cutting_and_assembling/editing.rst:418
 msgid "**2** Active track (3-point editing)"
 msgstr "**2** 活动轨道（3-点编辑）"
 
-#: ../../cutting_and_assembling/editing.rst:374
+#: ../../cutting_and_assembling/editing.rst:420
 msgid "**3** Track header"
 msgstr "**3** 轨道标题"
 
-#: ../../cutting_and_assembling/editing.rst:376
+#: ../../cutting_and_assembling/editing.rst:422
 msgid "**4** Empty part of the track"
 msgstr "**4** 轨道的空部分"
 
-#: ../../cutting_and_assembling/editing.rst:378
+#: ../../cutting_and_assembling/editing.rst:424
 msgid ""
 "Only active tracks can accept clips or react to an edit function. An :term:"
 "`active track` is indicated by a:"
@@ -621,17 +679,17 @@ msgstr ""
 "只有活动轨道才能接受剪辑或响应编辑功能。一个 :term:`活动轨道<active track>` "
 "表示一个："
 
-#: ../../cutting_and_assembling/editing.rst:380
+#: ../../cutting_and_assembling/editing.rst:426
 msgid "highlighted track number (**2**) (for 3-point editing)"
 msgstr "高亮显示的轨道号（**2**）(用于 3-点编辑)"
 
-#: ../../cutting_and_assembling/editing.rst:382
+#: ../../cutting_and_assembling/editing.rst:428
 msgid ""
 "blueish or brownish track (**3 4**) (depends on the color scheme), working "
 "with the mouse or insert clip by paste"
 msgstr "蓝色或棕色轨道（**3 4**）(取决于颜色方案)，使用鼠标或通过粘贴插入剪辑"
 
-#: ../../cutting_and_assembling/editing.rst:384
+#: ../../cutting_and_assembling/editing.rst:430
 msgid ""
 "When you work with the mouse Kdenlive make a track active as you drop a clip "
 "to the timeline or you select a clip."
@@ -639,15 +697,15 @@ msgstr ""
 "当你使用鼠标时，Kdenlive 将一个轨道设置为活动状态，当你将剪辑拖到时间轴或选择"
 "一个剪辑时。"
 
-#: ../../cutting_and_assembling/editing.rst:386
+#: ../../cutting_and_assembling/editing.rst:432
 msgid "Make a track active by:"
 msgstr "通过以下方式使一个轨道活动："
 
-#: ../../cutting_and_assembling/editing.rst:388
+#: ../../cutting_and_assembling/editing.rst:434
 msgid "click into the track header (**3**)"
 msgstr "点击轨道标题（**3**）"
 
-#: ../../cutting_and_assembling/editing.rst:390
+#: ../../cutting_and_assembling/editing.rst:436
 msgid ""
 "double click into an empty part of the track (**4**) (the playhead moves to "
 "this point too). This is useful when you copy & paste clips."
@@ -655,51 +713,51 @@ msgstr ""
 "双击轨道的空部分（**4**）(播放头也会移动到这个点)。当你复制和粘贴剪辑时，这很"
 "有用。"
 
-#: ../../cutting_and_assembling/editing.rst:392
+#: ../../cutting_and_assembling/editing.rst:438
 msgid ":kbd:`1-9` select a video track"
 msgstr ":kbd:`1-9` 选择一个视频轨道"
 
-#: ../../cutting_and_assembling/editing.rst:394
+#: ../../cutting_and_assembling/editing.rst:440
 msgid ":kbd:`alt+1-9` select an audio track"
 msgstr ":kbd:`alt+1-9` 选择一个音频轨道"
 
-#: ../../cutting_and_assembling/editing.rst:396
+#: ../../cutting_and_assembling/editing.rst:442
 msgid "arrow key up/down"
 msgstr "方向键上/下"
 
-#: ../../cutting_and_assembling/editing.rst:398
+#: ../../cutting_and_assembling/editing.rst:444
 msgid "For 3-point editing"
 msgstr "对于 3-点编辑"
 
-#: ../../cutting_and_assembling/editing.rst:400
+#: ../../cutting_and_assembling/editing.rst:446
 msgid ":kbd:`Alt+Shift+A` Switch all tracks active"
 msgstr ":kbd:`Alt+Shift+A` 切换所有活动轨道"
 
-#: ../../cutting_and_assembling/editing.rst:402
+#: ../../cutting_and_assembling/editing.rst:448
 msgid ":kbd:`Shift+A` Toggle all tracks active/inactive"
 msgstr ":kbd:`Shift+A` 切换所有活动轨道/非活动轨道"
 
-#: ../../cutting_and_assembling/editing.rst:404
+#: ../../cutting_and_assembling/editing.rst:450
 msgid ":kbd:`A` Toggle track active"
 msgstr ":kbd:`A` 切换轨道活动状态"
 
-#: ../../cutting_and_assembling/editing.rst:406
+#: ../../cutting_and_assembling/editing.rst:452
 msgid ":kbd:`Shift+T` Toggle track target"
 msgstr ":kbd:`Shift+T` 切换轨道目标"
 
-#: ../../cutting_and_assembling/editing.rst:408
+#: ../../cutting_and_assembling/editing.rst:454
 msgid ":ref:`Here you find more timeline shortcuts <ui-shortcuts_timeline>`."
 msgstr ":ref:`在这里你可以找到更多关于时间轴快捷键 <ui-shortcuts_timeline>`."
 
-#: ../../cutting_and_assembling/editing.rst:412
+#: ../../cutting_and_assembling/editing.rst:458
 msgid "Timeline Edit Modes"
 msgstr "时间轴编辑模式"
 
-#: ../../cutting_and_assembling/editing.rst:417
+#: ../../cutting_and_assembling/editing.rst:463
 msgid "Normal Mode"
 msgstr "常规模式"
 
-#: ../../cutting_and_assembling/editing.rst:419
+#: ../../cutting_and_assembling/editing.rst:465
 msgid ""
 "In this edit mode, you can not drag clips on top of other clips in the same "
 "track in the timeline. You can drag them to another track in the timeline "
@@ -710,11 +768,11 @@ msgstr ""
 "拖动它们到另一个时间轴轨道，但不能在同一时间点上拖动它们。这与覆盖模式形成对"
 "比。"
 
-#: ../../cutting_and_assembling/editing.rst:424
+#: ../../cutting_and_assembling/editing.rst:470
 msgid "Overwrite Mode"
 msgstr "覆盖模式"
 
-#: ../../cutting_and_assembling/editing.rst:426
+#: ../../cutting_and_assembling/editing.rst:472
 msgid ""
 "In this edit mode, you can drag a clip onto a track where there is an "
 "existing clip and the incoming clip will overwrite that portion of the "
@@ -723,16 +781,16 @@ msgstr ""
 "在覆盖模式下，你可以拖动一个剪辑到有现有剪辑的轨道上，并且传入剪辑将覆盖现有"
 "剪辑（或剪辑）被传入剪辑覆盖的部分。"
 
-#: ../../cutting_and_assembling/editing.rst:432
-#: ../../cutting_and_assembling/editing.rst:466
+#: ../../cutting_and_assembling/editing.rst:478
+#: ../../cutting_and_assembling/editing.rst:512
 msgid "Before"
 msgstr "之前"
 
-#: ../../cutting_and_assembling/editing.rst:438
+#: ../../cutting_and_assembling/editing.rst:484
 msgid "After"
 msgstr "之后"
 
-#: ../../cutting_and_assembling/editing.rst:441
+#: ../../cutting_and_assembling/editing.rst:487
 msgid ""
 "In the \"After\" screenshot above, you can see that the clip which was "
 "dragged from the upper track has replaced a portion of the clip on the lower "
@@ -741,17 +799,17 @@ msgstr ""
 "在上面的\"之后\"截图中，你可以看到从上轨道拖动的剪辑替换了下轨道上的剪辑的一"
 "部分。"
 
-#: ../../cutting_and_assembling/editing.rst:444
+#: ../../cutting_and_assembling/editing.rst:490
 msgid "**Rearrange clips in the timeline**"
 msgstr "**重新排列时间轴中的剪辑**"
 
-#: ../../cutting_and_assembling/editing.rst:447
+#: ../../cutting_and_assembling/editing.rst:493
 msgid ""
 "Performing a rearrange edit. This technique lets you quickly change the "
 "order of clips in the timeline."
 msgstr "执行重新排列编辑。这种技术让你可以快速改变时间轴中剪辑的顺序。"
 
-#: ../../cutting_and_assembling/editing.rst:453
+#: ../../cutting_and_assembling/editing.rst:499
 msgid ""
 "Drag a clip, as you drop it to a new location performs an overwrite edit "
 "that overwrites the existing clip."
@@ -759,11 +817,11 @@ msgstr ""
 "拖动一个剪辑，当你把它放在一个新的位置上时，执行一个覆盖编辑，覆盖现有的剪"
 "辑。"
 
-#: ../../cutting_and_assembling/editing.rst:458
+#: ../../cutting_and_assembling/editing.rst:504
 msgid "Insert Mode"
 msgstr "插入模式"
 
-#: ../../cutting_and_assembling/editing.rst:460
+#: ../../cutting_and_assembling/editing.rst:506
 msgid ""
 "With this mode selected and you drop a selection into the timeline the "
 "selection will be inserted into the timeline at the point where the mouse is "
@@ -773,20 +831,20 @@ msgstr ""
 "当你选择此模式并把选择拖到时间轴上时，选择将被插入到鼠标释放的位置。所选剪辑"
 "将被剪切，剪辑将被移动到右侧以容纳传入的剪辑。"
 
-#: ../../cutting_and_assembling/editing.rst:472
+#: ../../cutting_and_assembling/editing.rst:518
 msgid "During"
 msgstr "持续"
 
-#: ../../cutting_and_assembling/editing.rst:478
+#: ../../cutting_and_assembling/editing.rst:524
 msgid ""
 "After. Incoming Clip inserted. Clips after the insert point are shifted Right"
 msgstr "之后。插入剪辑。插入点后的剪辑向右移动"
 
-#: ../../cutting_and_assembling/editing.rst:481
+#: ../../cutting_and_assembling/editing.rst:527
 msgid "**Rearrange edit in the timeline**"
 msgstr "**时间轴中的重新排列编辑**"
 
-#: ../../cutting_and_assembling/editing.rst:483
+#: ../../cutting_and_assembling/editing.rst:529
 msgid ""
 "Performing a rearrange edit. Only clips in the destination track are "
 "shifted; clips in other tracks are not affected. This technique lets you "
@@ -795,11 +853,11 @@ msgstr ""
 "执行重新排列编辑。只有目标轨道中的剪辑才会被移动；其他轨道中的剪辑不会受影"
 "响。这种技巧让你可以快速改变时间轴中剪辑的顺序。"
 
-#: ../../cutting_and_assembling/editing.rst:485
+#: ../../cutting_and_assembling/editing.rst:531
 msgid "It always closes all space in the track."
 msgstr "它总是关闭轨道中的所有空间。"
 
-#: ../../cutting_and_assembling/editing.rst:490
+#: ../../cutting_and_assembling/editing.rst:536
 msgid ""
 "Drag a clip, as you drop it to a new location. Releasing the clip performs "
 "an insert edit that shifts clips in the destination track only."
@@ -807,44 +865,44 @@ msgstr ""
 "拖动一个剪辑，当你把它放在一个新的位置上时。释放剪辑执行一个插入编辑，只移动"
 "目标轨道中的剪辑。"
 
-#: ../../cutting_and_assembling/editing.rst:496
+#: ../../cutting_and_assembling/editing.rst:542
 msgid "Timeline Edit Tools"
 msgstr "时间轴编辑工具"
 
-#: ../../cutting_and_assembling/editing.rst:499
+#: ../../cutting_and_assembling/editing.rst:545
 msgid "Selection Tool"
 msgstr "选择工具"
 
-#: ../../cutting_and_assembling/editing.rst:501
+#: ../../cutting_and_assembling/editing.rst:547
 msgid ""
 "Use this to select clips in the timeline. The cursor becomes a hand when "
 "this tool is active."
 msgstr "使用此工具选择时间轴中的剪辑。当此工具处于活动状态时，光标将变为手形。"
 
-#: ../../cutting_and_assembling/editing.rst:505
+#: ../../cutting_and_assembling/editing.rst:551
 msgid "Razor Tool"
 msgstr "剃刀工具"
 
-#: ../../cutting_and_assembling/editing.rst:507
+#: ../../cutting_and_assembling/editing.rst:553
 msgid ""
 "Use this to cut clips in the timeline. The cursor becomes a pair of scissors "
 "when this tool is active."
 msgstr ""
 "使用此工具在时间轴中切割剪辑。当此工具处于活动状态时，光标将变为剪刀形状。"
 
-#: ../../cutting_and_assembling/editing.rst:509
-#: ../../cutting_and_assembling/editing.rst:525
-#: ../../cutting_and_assembling/editing.rst:549
-#: ../../cutting_and_assembling/editing.rst:568
-#: ../../cutting_and_assembling/editing.rst:601
+#: ../../cutting_and_assembling/editing.rst:555
+#: ../../cutting_and_assembling/editing.rst:571
+#: ../../cutting_and_assembling/editing.rst:595
+#: ../../cutting_and_assembling/editing.rst:614
+#: ../../cutting_and_assembling/editing.rst:647
 msgid ":kbd:`ESC`: Return from any tools back to Selection tool."
 msgstr ":kbd:`ESC`: 返回任何工具回到选择工具。"
 
-#: ../../cutting_and_assembling/editing.rst:512
+#: ../../cutting_and_assembling/editing.rst:558
 msgid "Spacer Tool"
 msgstr "间隙工具"
 
-#: ../../cutting_and_assembling/editing.rst:514
+#: ../../cutting_and_assembling/editing.rst:560
 msgid ""
 "Use this tool (|distribute-horizontal|) to temporarily group separate clips "
 "and then drag them around the timeline to create or remove space between "
@@ -854,7 +912,7 @@ msgstr ""
 "间轴中以创建或删除剪辑之间的空间。非常实用。尝试使用此工具，看看它是如何工作"
 "的。"
 
-#: ../../cutting_and_assembling/editing.rst:523
+#: ../../cutting_and_assembling/editing.rst:569
 msgid ""
 "In the above example, these clips are not grouped. However, the spacer tool "
 "groups them temporarily for you so you can move them all as a group."
@@ -862,11 +920,11 @@ msgstr ""
 "在上面的例子中，这些剪辑没有分组。然而，间隙工具临时将这些剪辑分组，以便您可"
 "以将它们作为一组移动。"
 
-#: ../../cutting_and_assembling/editing.rst:531
+#: ../../cutting_and_assembling/editing.rst:577
 msgid "Slip Tool"
 msgstr "外滑工具"
 
-#: ../../cutting_and_assembling/editing.rst:538
+#: ../../cutting_and_assembling/editing.rst:584
 msgid ""
 "Slip keeps the original duration of the clip. Like working with old film "
 "material: beneath the given \"window\" of the clip length it slips the film "
@@ -875,7 +933,7 @@ msgstr ""
 "外滑保持剪辑的原始持续时间。就像使用旧胶片材料一样：在剪辑长度给定的“窗"
 "口”下，剪辑滑向前后。"
 
-#: ../../cutting_and_assembling/editing.rst:543
+#: ../../cutting_and_assembling/editing.rst:589
 msgid ""
 "Use Slip (|kdenlive-slip|) to trim, in a single operation, the IN and OUT "
 "points of a clip forward or backward by the same number of frames, while "
@@ -884,7 +942,7 @@ msgstr ""
 "使用外滑（|kdenlive-slip|）来修剪，在一个操作中，向前或向后修剪剪辑的 入 和 "
 "出 点，同时保持原始持续时间和不影响相邻剪辑。"
 
-#: ../../cutting_and_assembling/editing.rst:545
+#: ../../cutting_and_assembling/editing.rst:591
 msgid ""
 "You can slip multiple clips at once now: select all clips you want to slip "
 "with the selection tool using :kbd:`Shift` then enable the slip tool and go "
@@ -893,17 +951,17 @@ msgstr ""
 "你现在可以同时滑动多个剪辑：使用选择工具选择所有你想要滑动剪辑，然后启用滑动"
 "工具并继续前进……"
 
-#: ../../cutting_and_assembling/editing.rst:547
+#: ../../cutting_and_assembling/editing.rst:593
 msgid ""
 "Slip can be done with the mouse, with the :kbd:`arrow` keys and with the "
 "buttons on the monitor toolbar."
 msgstr "外滑可以用鼠标、:kbd:`箭头` 键和监视器工具栏上的按钮来完成。"
 
-#: ../../cutting_and_assembling/editing.rst:555
+#: ../../cutting_and_assembling/editing.rst:601
 msgid "Ripple Tool"
 msgstr "波纹编辑工具"
 
-#: ../../cutting_and_assembling/editing.rst:560
+#: ../../cutting_and_assembling/editing.rst:606
 msgid ""
 "Ripple changes the original duration of the clip. Like working with old film "
 "material: You lengthen or shorten the film strip and move the adjacent clips "
@@ -912,7 +970,7 @@ msgstr ""
 "波纹编辑工具更改了剪辑的原始持续时间。就像使用旧胶片材料一样：您延长或缩短胶"
 "片带并向前或向后移动相邻的剪辑。"
 
-#: ../../cutting_and_assembling/editing.rst:562
+#: ../../cutting_and_assembling/editing.rst:608
 msgid ""
 "Use Ripple (|kdenlive-ripple|) to trim a clip and shift following clips in "
 "the track by the number of frames you trim. When you shorten a clip by this "
@@ -926,43 +984,43 @@ msgstr ""
 "剪辑的剪辑会向前移动。如果轨道上有一个空隙，它将像一个剪辑一样工作，并且它的"
 "时间会像一个标准剪辑一样移动。"
 
-#: ../../cutting_and_assembling/editing.rst:564
+#: ../../cutting_and_assembling/editing.rst:610
 msgid "You can Ripple only a single clip at once."
 msgstr "你现在可以一次只波纹编辑一个剪辑。"
 
-#: ../../cutting_and_assembling/editing.rst:566
+#: ../../cutting_and_assembling/editing.rst:612
 msgid "Ripple can be done with the mouse only."
 msgstr "你现在只能用鼠标来完成波纹编辑。"
 
-#: ../../cutting_and_assembling/editing.rst:574
+#: ../../cutting_and_assembling/editing.rst:620
 msgid "Ripple Trim to Playhead"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:576
+#: ../../cutting_and_assembling/editing.rst:622
 msgid ""
 "To cut a clip on an active track at the playhead position without getting a "
 "gap in the timeline do the following."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:578
+#: ../../cutting_and_assembling/editing.rst:624
 msgid "enable ripple"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:580
+#: ../../cutting_and_assembling/editing.rst:626
 msgid "place the playhead at the desired place"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:582
+#: ../../cutting_and_assembling/editing.rst:628
 msgid ""
 "hit :kbd:`(`: This cuts and removes the clip and space to the left side of "
 "the playhead. :kbd:`)` does the same but to the right side of the playhead."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:588
+#: ../../cutting_and_assembling/editing.rst:634
 msgid "Multicam Tool"
 msgstr "多镜头工具"
 
-#: ../../cutting_and_assembling/editing.rst:593
+#: ../../cutting_and_assembling/editing.rst:639
 msgid ""
 "The multicam tool allows to cut between several cameras while playback is "
 "running. Add your clips in different tracks, but at the same position in the "
@@ -979,7 +1037,7 @@ msgstr ""
 "kbd:`2` 等）来修剪所选轨道中的剪辑，或者只需通过单击项目监视器中的相应轨道来"
 "选择所需的轨道。"
 
-#: ../../cutting_and_assembling/editing.rst:595
+#: ../../cutting_and_assembling/editing.rst:641
 msgid ""
 "Select multicam tool will switch on the :ref:`ui-multitrack_view` in the "
 "project monitor and set a marker at the current timeline position. You can "
@@ -993,7 +1051,7 @@ msgstr ""
 "器中的另一个轨道视图，它将抬起除先前活动轨道以外的所有轨道。然后你可以重复寻"
 "找和点击另一个轨道以继续抬起轨道。"
 
-#: ../../cutting_and_assembling/editing.rst:597
+#: ../../cutting_and_assembling/editing.rst:643
 msgid ""
 "It doesn't stop playing when you perform the operation to avoid to lose the "
 "rhythm and to work as you are working during a live broadcasting. If you "
@@ -1003,7 +1061,7 @@ msgstr ""
 "当你执行操作时，它不会停止播放，以避免失去节奏，并像你在现场直播时一样工作。"
 "如果你需要纠正编辑，你可以手动停止并修剪切割，就像你在正常视频编辑时一样。"
 
-#: ../../cutting_and_assembling/editing.rst:599
+#: ../../cutting_and_assembling/editing.rst:645
 msgid ""
 "The audio tracks is not involved in the process as you generally use only "
 "one audio track (the one which come from the main mixer to which the other "
@@ -1012,67 +1070,67 @@ msgstr ""
 "音频轨道不涉及该过程，因为通常只使用一个音频轨道（来自主混音器，其他轨道与之"
 "同步）"
 
-#: ../../cutting_and_assembling/editing.rst:607
+#: ../../cutting_and_assembling/editing.rst:653
 msgid "Status Bar"
 msgstr "状态栏"
 
-#: ../../cutting_and_assembling/editing.rst:613
+#: ../../cutting_and_assembling/editing.rst:659
 msgid "Hints what you can do when you hover over items."
 msgstr "当你在项目监视器中悬停时，提示你可以做什么。"
 
-#: ../../cutting_and_assembling/editing.rst:615
+#: ../../cutting_and_assembling/editing.rst:661
 msgid "Names of the clip you hover over in the timeline"
 msgstr "在时间轴中悬停时，剪辑名称"
 
-#: ../../cutting_and_assembling/editing.rst:617
+#: ../../cutting_and_assembling/editing.rst:663
 msgid ""
 "Mode you are in (default is :guilabel:`Select` = :guilabel:`Normal Mode`)"
 msgstr "你正在使用的模式（默认是 :guilabel:`选择` = :guilabel:`正常模式`)"
 
-#: ../../cutting_and_assembling/editing.rst:619
+#: ../../cutting_and_assembling/editing.rst:665
 msgid "Switch for :guilabel:`Color Tags`"
 msgstr "切换 :guilabel:`颜色标签`"
 
-#: ../../cutting_and_assembling/editing.rst:621
+#: ../../cutting_and_assembling/editing.rst:667
 msgid "Switch for :guilabel:`Video Thumbnails`"
 msgstr "切换 :guilabel:`视频缩略图`"
 
-#: ../../cutting_and_assembling/editing.rst:623
+#: ../../cutting_and_assembling/editing.rst:669
 msgid "Switch for :guilabel:`Audio Thumbnails`. See `Show Audio Thumbnails`_"
 msgstr ""
 "切换 :guilabel:`音频缩略图` 。参见  `显示音频缩略图 <Show Audio "
 "Thumbnails>`_  "
 
-#: ../../cutting_and_assembling/editing.rst:625
+#: ../../cutting_and_assembling/editing.rst:671
 msgid "Switch for :guilabel:`markers`. See `Show marker comments`_"
 msgstr "切换 :guilabel:`标记` 。参见   `显示标记注释 <Show marker comments>`_ "
 
-#: ../../cutting_and_assembling/editing.rst:627
+#: ../../cutting_and_assembling/editing.rst:673
 msgid "Switch for :guilabel:`Snap`. See `Snap`_"
 msgstr "切换 :guilabel:`吸附` 。参见  `吸附 <Snap>`_ "
 
-#: ../../cutting_and_assembling/editing.rst:629
+#: ../../cutting_and_assembling/editing.rst:675
 msgid ":guilabel:`Fit Zoom to Project`. See `Fit Zoom to Project`_"
 msgstr ""
 ":guilabel:`适应缩放到项目` 。参见  `适应缩放到项目 <Fit Zoom to Project>`_ "
 
-#: ../../cutting_and_assembling/editing.rst:631
+#: ../../cutting_and_assembling/editing.rst:677
 msgid "Zoom Out"
 msgstr "缩小"
 
-#: ../../cutting_and_assembling/editing.rst:633
+#: ../../cutting_and_assembling/editing.rst:679
 msgid "Zoom slider `Zoom Project`_"
 msgstr "缩放滑块 `缩放项目 <Zoom Project>`_"
 
-#: ../../cutting_and_assembling/editing.rst:635
+#: ../../cutting_and_assembling/editing.rst:681
 msgid "Zoom In"
 msgstr "放大"
 
-#: ../../cutting_and_assembling/editing.rst:639
+#: ../../cutting_and_assembling/editing.rst:685
 msgid "Split Audio and Video Automatically"
 msgstr "自动拆分音频和视频"
 
-#: ../../cutting_and_assembling/editing.rst:641
+#: ../../cutting_and_assembling/editing.rst:687
 msgid ""
 "When this is on and you drag a clip to the timeline, the audio in the clip "
 "will end up on an audio track and the video on a video track. You can "
@@ -1086,11 +1144,11 @@ msgstr ""
 "选项关闭时，当你拖动一个剪辑到时间轴上时，音频和视频轨道被合并成一个视频轨"
 "道。"
 
-#: ../../cutting_and_assembling/editing.rst:655
+#: ../../cutting_and_assembling/editing.rst:701
 msgid "Show Video Thumbnails"
 msgstr "显示视频缩略图"
 
-#: ../../cutting_and_assembling/editing.rst:657
+#: ../../cutting_and_assembling/editing.rst:703
 msgid ""
 "When on, the video clips in the timeline will contain thumbnails as well as "
 "a filename. Otherwise, they just have the clip filename."
@@ -1098,7 +1156,7 @@ msgstr ""
 "当打开时，时间轴中的视频剪辑将包含缩略图以及文件名。否则，它们只具有剪辑文件"
 "名。"
 
-#: ../../cutting_and_assembling/editing.rst:659
+#: ../../cutting_and_assembling/editing.rst:705
 msgid ""
 "When the timeline is zoomed in to the maximum, the video track will show a "
 "thumbnail for every frame in the clip. When the timeline is not on maximum "
@@ -1108,11 +1166,11 @@ msgstr ""
 "当时间轴缩放到最大时，视频轨道将显示剪辑中每一帧的缩略图。当时间轴没有缩放到"
 "最大时，视频轨道将显示剪辑中第一和最后一帧的缩略图。"
 
-#: ../../cutting_and_assembling/editing.rst:663
+#: ../../cutting_and_assembling/editing.rst:709
 msgid "Show Audio Thumbnails"
 msgstr "显示音频缩略图"
 
-#: ../../cutting_and_assembling/editing.rst:665
+#: ../../cutting_and_assembling/editing.rst:711
 msgid ""
 "When on, the audio clip will have a wave representation of the audio data as "
 "well as a filename.  Otherwise, they just have the clip filename."
@@ -1120,11 +1178,11 @@ msgstr ""
 "当打开时，音频剪辑将具有音频数据的波形表示，以及一个文件名。否则，它们只具有"
 "剪辑文件名。"
 
-#: ../../cutting_and_assembling/editing.rst:669
+#: ../../cutting_and_assembling/editing.rst:715
 msgid "Show marker comments"
 msgstr "显示标记注释"
 
-#: ../../cutting_and_assembling/editing.rst:671
+#: ../../cutting_and_assembling/editing.rst:717
 msgid ""
 "This toggles on and off the display of :ref:`markers` saved within :doc:"
 "`clips</project_and_asset_management/project_bin/clips>` (the text with the "
@@ -1132,11 +1190,11 @@ msgid ""
 "with the purple background)."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:678
+#: ../../cutting_and_assembling/editing.rst:724
 msgid "Snap"
 msgstr "吸附"
 
-#: ../../cutting_and_assembling/editing.rst:680
+#: ../../cutting_and_assembling/editing.rst:726
 msgid ""
 "When this feature is on, dragging the beginning of one clip near to the end "
 "of another will result at the end of the first clip snapping into place to "
@@ -1150,15 +1208,15 @@ msgstr ""
 "它们之间的距离足够小，它们就会自动对齐在一起，没有空间，也没有重叠。请注意，"
 "即使剪辑在时间轴中的不同轨道上，也会发生这种情况。"
 
-#: ../../cutting_and_assembling/editing.rst:683
+#: ../../cutting_and_assembling/editing.rst:729
 msgid "Clips will also snap to the cursor position, markers and :doc:`guides`."
 msgstr "剪辑也会吸附到光标位置，标记和 :doc:`辅助线<guides>` 。"
 
-#: ../../cutting_and_assembling/editing.rst:687
+#: ../../cutting_and_assembling/editing.rst:733
 msgid "Fit Zoom to Project"
 msgstr "放缩适配项目"
 
-#: ../../cutting_and_assembling/editing.rst:689
+#: ../../cutting_and_assembling/editing.rst:735
 msgid ""
 "This will zoom the project out so that it all fits in the timeline window. "
 "This is the same function that is triggered by :ref:`timeline_menu` Menu "
@@ -1167,11 +1225,11 @@ msgstr ""
 "这将缩小项目，以便所有内容都适合时间轴窗口。这与 :ref:`时间轴菜单"
 "<timeline_menu>` 菜单项的  :menuselection:`放缩适配项目` 相同的功能相同。"
 
-#: ../../cutting_and_assembling/editing.rst:693
+#: ../../cutting_and_assembling/editing.rst:739
 msgid "Zoom project"
 msgstr "放缩项目"
 
-#: ../../cutting_and_assembling/editing.rst:695
+#: ../../cutting_and_assembling/editing.rst:741
 msgid ""
 "The magnifying glasses zoom in or out on the timeline. The slider adjusts "
 "the zoom by large increments. These same settings are controlled by the :"
@@ -1182,31 +1240,32 @@ msgstr ""
 "menuselection:`时间轴` 菜单项控制， :menuselection:`Zoom In/放大` 和 :"
 "menuselection:`Zoom Out/缩小` 。"
 
-#: ../../cutting_and_assembling/editing.rst:699
+#: ../../cutting_and_assembling/editing.rst:745
 msgid "Cutting Footage from multiple aligned tracks - Ripple Delete"
 msgstr "从多个对齐的轨道中切割素材 - 波纹删除"
 
-#: ../../cutting_and_assembling/editing.rst:705
+#: ../../cutting_and_assembling/editing.rst:751
 msgid ""
 "There are 4 possibilities for ripple delete (point 1 and 2 are the classical "
 "`Ripple Delete`):"
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:707
+#: ../../cutting_and_assembling/editing.rst:753
 msgid ""
 "On the active track: Cut out the piece on the clip which you do not want "
 "with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:"
-"`Extract Clip`. This removes the clip and slides everything else to the left "
-"to fill the gap. The playhead stays were you made the last cut."
+"`Extract Clip` or press :kbd:`Shift+Del`. This removes the clip and slides "
+"everything else to the left to fill the gap. The playhead stays where you "
+"made the last cut."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:709
+#: ../../cutting_and_assembling/editing.rst:755
 msgid ""
 "On the active track: Empty spaces between clips can only be removed by right "
 "click on empty space and choose :menuselection:`Remove Space`."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:711
+#: ../../cutting_and_assembling/editing.rst:757
 msgid ""
 "On all tracks together: Mark `In` and `Out` points in the Project Monitor or "
 "on the Timeline, then choose :menuselection:`Timeline --> Removal --> "
@@ -1215,7 +1274,7 @@ msgid ""
 "back to fill the gap, and puts the playhead on the In point."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:713
+#: ../../cutting_and_assembling/editing.rst:759
 msgid ""
 "On the active track with `Insert Mode`: Cut out the piece on the clip which "
 "you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and "
@@ -1223,27 +1282,27 @@ msgid ""
 "you made the last cut."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:715
+#: ../../cutting_and_assembling/editing.rst:761
 msgid ""
 "You can do a ripple trim to the playhead using :ref:"
 "`ripple_trim_to_playhead`."
 msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:721
+#: ../../cutting_and_assembling/editing.rst:767
 msgid "3 point editing"
 msgstr "3点编辑"
 
-#: ../../cutting_and_assembling/editing.rst:725
+#: ../../cutting_and_assembling/editing.rst:771
 msgid ""
 "3 important points to understand the 3 point editing concept (with keyboard "
 "shortcuts):"
 msgstr "3个重要点来理解3点编辑的概念（使用键盘快捷键）："
 
-#: ../../cutting_and_assembling/editing.rst:729
+#: ../../cutting_and_assembling/editing.rst:775
 msgid "Source"
 msgstr "源"
 
-#: ../../cutting_and_assembling/editing.rst:736
+#: ../../cutting_and_assembling/editing.rst:782
 msgid ""
 "On the left of the track head the green vertical lines (V1 or A2). The green "
 "line is connected to the source clip in the project bin. Only when a clip is "
@@ -1254,11 +1313,11 @@ msgstr ""
 "目库中选择了一个剪辑时，绿色线才会根据剪辑的类型显示出来（A/V剪辑，图片/标题/"
 "颜色剪辑，音频剪辑）。"
 
-#: ../../cutting_and_assembling/editing.rst:741
+#: ../../cutting_and_assembling/editing.rst:787
 msgid "Target"
 msgstr "目标"
 
-#: ../../cutting_and_assembling/editing.rst:748
+#: ../../cutting_and_assembling/editing.rst:794
 msgid ""
 "In the track head the target V1 or A1 is active when it’s yellow. An active "
 "target track reacts to edit operations like insert a clip even if the source "
@@ -1267,11 +1326,11 @@ msgstr ""
 "在轨道头中，当它为黄色时，目标V1或A1是活动的。一个活动的目标轨道对编辑操作做"
 "出反应，即使源不活动。"
 
-#: ../../cutting_and_assembling/editing.rst:751
+#: ../../cutting_and_assembling/editing.rst:797
 msgid "**The concept is like thinking of connectors**"
 msgstr "**这个概念就像想连接器一样**"
 
-#: ../../cutting_and_assembling/editing.rst:753
+#: ../../cutting_and_assembling/editing.rst:799
 msgid ""
 "Connect the source (the clip in the project bin) to a target (a track in the "
 "timeline). Only when both connectors on the **same** track are switched on "
@@ -1280,23 +1339,23 @@ msgstr ""
 "将源（项目库中的剪辑）连接到目标（时间轴中的轨道）。只有在同一轨道上的两个连"
 "接器都切换开时，剪辑才会从项目库流向时间轴。"
 
-#: ../../cutting_and_assembling/editing.rst:758
+#: ../../cutting_and_assembling/editing.rst:804
 msgid "Active target tracks without connected source react on edit operations."
 msgstr "活动目标轨道在没有连接的源上对编辑操作做出反应。"
 
-#: ../../cutting_and_assembling/editing.rst:761
+#: ../../cutting_and_assembling/editing.rst:807
 msgid "Examples of advanced edit"
 msgstr "高级编辑的例子"
 
-#: ../../cutting_and_assembling/editing.rst:763
+#: ../../cutting_and_assembling/editing.rst:809
 msgid "Here is a brief introduction to the 3 point editing system."
 msgstr "这是一个对3点编辑系统进行简要介绍的简短介绍。"
 
-#: ../../cutting_and_assembling/editing.rst:770
+#: ../../cutting_and_assembling/editing.rst:816
 msgid "Select a clip in the project bin with an up/down arrow"
 msgstr "使用向上/向下箭头选择项目库中的一个剪辑"
 
-#: ../../cutting_and_assembling/editing.rst:772
+#: ../../cutting_and_assembling/editing.rst:818
 msgid ""
 "Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows "
 "and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys."
@@ -1304,11 +1363,11 @@ msgstr ""
 "使用 :kbd:`JKL` 键或 :kbd:`left/right` 箭头导航剪辑，并通过 :kbd:`I` 和 :kbd:"
 "`O` 键设置入 和 出 点。"
 
-#: ../../cutting_and_assembling/editing.rst:774
+#: ../../cutting_and_assembling/editing.rst:820
 msgid "Hit :kbd:`T` to change to the timeline"
 msgstr "点击 :kbd:`T` 切换到时间轴"
 
-#: ../../cutting_and_assembling/editing.rst:776
+#: ../../cutting_and_assembling/editing.rst:822
 msgid ""
 "Select a video or audio track in the timeline (up/down arrow key) and set it "
 "as source with :kbd:`Shift + T`."
@@ -1316,13 +1375,13 @@ msgstr ""
 "在时间轴中选择一个视频或音频轨道（向上/向下箭头键），并使用 :kbd:`Shift + T` "
 "将其设为源。"
 
-#: ../../cutting_and_assembling/editing.rst:778
+#: ../../cutting_and_assembling/editing.rst:824
 msgid ""
 "Activate the track as a target with shortcut :kbd:`A` (this connects the "
 "track to the source)"
 msgstr "使用快捷键 :kbd:`A` 激活该轨道作为目标（这将连接该轨道到源）。"
 
-#: ../../cutting_and_assembling/editing.rst:780
+#: ../../cutting_and_assembling/editing.rst:826
 msgid ""
 "Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-"
 "head position or to fill the selected area in the timeline if it is active. "
@@ -1331,7 +1390,7 @@ msgstr ""
 "点击 :kbd:`V` (插入)或  :kbd:`B` （覆盖）在播放头位置添加剪辑，或者在选定区域"
 "中填充时间轴（如果它处于活动状态）。如果需要激活它，请使用 :kbd:`G` 键。"
 
-#: ../../cutting_and_assembling/editing.rst:789
+#: ../../cutting_and_assembling/editing.rst:835
 msgid ""
 "In the following example, we want only to insert the audio part of a clip in "
 "A2 and we want to create a gap in all the other video and audio tracks:"
@@ -1339,14 +1398,14 @@ msgstr ""
 "在下面的例子中，我们只想在A2中插入剪辑的音频部分，我们想在所有其他视频和音频"
 "轨道中创建一个间隙："
 
-#: ../../cutting_and_assembling/editing.rst:791
+#: ../../cutting_and_assembling/editing.rst:837
 msgid "Activate all the target tracks which contain clips (yellow buttons)."
 msgstr "激活包含剪辑的所有目标轨道（黄色按钮）。"
 
-#: ../../cutting_and_assembling/editing.rst:793
+#: ../../cutting_and_assembling/editing.rst:839
 msgid "Activate just the audio source on A2"
 msgstr "在A2上激活仅音频源"
 
-#: ../../cutting_and_assembling/editing.rst:795
+#: ../../cutting_and_assembling/editing.rst:841
 msgid "Press :kbd:`V` (insert)."
 msgstr "点击 :kbd:`V` （插入）。"
