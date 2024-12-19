@@ -327,7 +327,7 @@ A simple text editor that syncs with the normal editor, hides ASS override tag b
    Due to the complexities of ASS tag rules, style editing in the Simple Editor can sometimes behave unpredictably. So it's best suited for simpler use cases before or after editing styles.
 
 Scrolling
-~~~~~~~~
+~~~~~~~~~
 
 You can configure subtitle scrolling using the following options:
 
