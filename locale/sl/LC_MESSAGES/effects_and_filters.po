@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-18 01:52+0000\n"
-"PO-Revision-Date: 2024-09-26 10:58+0200\n"
+"PO-Revision-Date: 2024-12-20 07:32+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -122,12 +122,11 @@ msgstr ""
 "smiselno."
 
 #: ../../effects_and_filters.rst:55 ../../effects_and_filters.rst:57
-#, fuzzy
-#| msgid "Audio Effects"
 msgid "Built-in Effects"
-msgstr "Zvočni učinki"
+msgstr "Vgrajeni učinki"
 
 #: ../../effects_and_filters.rst:61
+#, fuzzy
 msgid ""
 "When dragging a clip into the timeline, the :doc:`Flip </effects_and_filters/"
 "video_effects/transform_distort_perspective/flippo>` and :doc:`Transform </"
@@ -142,6 +141,12 @@ msgid ""
 "the :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/"
 "volume_keyframable>` effect is added by default."
 msgstr ""
+"Ko povlečete posnetek na časovnico, se v video del posnetka vedno dodajo "
+"učinki :doc:`Preobrni </effects_and_filters/video_effects/"
+"transform_distort_perspective/flippo>` in :doc:`Preoblikuj </"
+"effects_and_filters/video_effects/transform_distort_perspective/transform>`; "
+"za zvočni del je privzeto dodan učinek :doc:`Glasnost </effects_and_filters/"
+"audio_effects/volume_and_dynamics/volume_keyframable>`."
 
 #: ../../effects_and_filters.rst:64
 msgid ""
@@ -149,10 +154,12 @@ msgid ""
 "without the need to add them manually. These are the most used effects which "
 "you now have at your fingertips without the need to add them manually."
 msgstr ""
+"To so najpogosteje uporabljeni učinki, ki jih imate zdaj na dosegu rok, ne "
+"da bi jih morali ročno dodajati."
 
 #: ../../effects_and_filters.rst:67
 msgid "|video-effect| < video part | audio part > |audio-effect|"
-msgstr ""
+msgstr "|video-effect|  < video del | zvočni del > |audio-effect|"
 
 #: ../../effects_and_filters.rst:77
 msgid ""
@@ -160,29 +167,40 @@ msgid ""
 "before you can use it. The built-in effects are disabled by default. So you "
 "have to enable it before you can use it."
 msgstr ""
+"Vgrajeni učinki so privzeto onemogočeni. Zato jih morate omogočiti, preden "
+"jih lahko uporabite."
 
 #: ../../effects_and_filters.rst:80
 msgid "Built-in effects can be used in three places:"
-msgstr ""
+msgstr "Vgrajene učinke lahko uporabite na treh mestih:"
 
 #: ../../effects_and_filters.rst:82
 msgid "on the timeline when a clip is available"
-msgstr ""
+msgstr "na časovnici, ko je posnetek na voljo"
 
 #: ../../effects_and_filters.rst:84 ../../effects_and_filters.rst:85
+#, fuzzy
 msgid ""
 "on the track header (only :doc:`Flip </effects_and_filters/video_effects/"
 "transform_distort_perspective/flippo>` on video track and :doc:`Volume </"
 "effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` "
 "on audio track)"
 msgstr ""
+"v glavi steze (samo :doc:`Preobrni </effects_and_filters/video_effects/"
+"transform_distort_perspective/flippo>` na video stezi in :doc:`Glasnost </"
+"effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` "
+"na zvočni stezi)"
 
 #: ../../effects_and_filters.rst:87 ../../effects_and_filters.rst:88
+#, fuzzy
 msgid ""
 "as master effect (only :doc:`Flip </effects_and_filters/video_effects/"
 "transform_distort_perspective/flippo>` and :doc:`Volume </"
 "effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`)"
 msgstr ""
+"kot glavni učinek (samo :doc:`Preobrni </effects_and_filters/video_effects/"
+"transform_distort_perspective/flippo>` in :doc:`Glasnost </"
+"effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`)"
 
 #: ../../effects_and_filters.rst:90
 msgid ""
@@ -191,6 +209,8 @@ msgid ""
 "disabled/removed in general in :menuselection:`Settings --> Configure "
 "Kdenlive -> Misc`"
 msgstr ""
+"Vse vgrajene učinke je mogoče na splošno onemogočiti/odstraniti v :"
+"menuselection:`Nastavitve --> Prilagodi Kdenlive -> Razno`."
 
 #: ../../effects_and_filters.rst:99
 msgid ""
@@ -198,6 +218,8 @@ msgid ""
 "enabled Under misc you can disable/enable all built-in effects in general. "
 "Default: enabled"
 msgstr ""
+"V razdelku Razno lahko onemogočite / omogočite vse vgrajene učinke na "
+"splošno. Privzeto: omogočeno"
 
 #: ../../effects_and_filters.rst:108
 msgid "Effects Tab"
@@ -211,15 +233,11 @@ msgstr ""
 "Zavihek Učinki naredite viden z :menuselection:`Meni --> Pogled --> Učinki`."
 
 #: ../../effects_and_filters.rst:114
-#, fuzzy
-#| msgid ""
-#| "The Effects widget has seven control icons that show or hide the "
-#| "different effect categories:"
 msgid ""
 "The Effects widget has eight control icons that show or hide the different "
 "effect categories:"
 msgstr ""
-"Gradnik Učinki ima sedem krmilnih ikon, ki prikažejo oz. skrijejo različne "
+"Gradnik Učinki ima osem krmilnih ikon, ki prikažejo oz. skrijejo različne "
 "kategorije učinkov:"
 
 #: ../../effects_and_filters.rst:122
@@ -228,49 +246,39 @@ msgstr ""
 "Gradnik programa Kdenlive Učinki kot zavihek v področju projektne posode"
 
 #: ../../effects_and_filters.rst:124
-#, fuzzy
-#| msgid ""
-#| "1 - **Main Effects** shows all video and audio effects (default view)"
 msgid ""
 "|show-all-effects| :guilabel:`Main effects` shows all video and audio "
 "effects (default view)"
 msgstr ""
-"1 - **Glavni učinki** prikaže vse slikovne in zvočne učinke (privzeti pogled)"
+"|show-all-effects| :guilabel:`Glavni učinki` prikaže vse slikovne in zvočne "
+"učinke (privzeti pogled)"
 
 #: ../../effects_and_filters.rst:126
 msgid ""
 "|kdenlive-show-video| :guilabel:`Show all video effects` shows all video "
 "effect categories only"
 msgstr ""
+"|kdenlive-show-video| :guilabel:`Pokaži vse videoučinke` prikaže le vse "
+"kategorije videoučinkov"
 
 #: ../../effects_and_filters.rst:128
-#, fuzzy
-#| msgid "3 - **Audio Effects** shows all audio effects categories"
 msgid ""
 "|kdenlive-audio| :guilabel:`Show all audio effects` shows all audio effects "
 "categories only"
-msgstr "3 - **Zvočni učinki** prikaže vse kategorije zvočnih učinkov"
+msgstr ""
+"|kdenlive-audio| :guilabel:`Pokaži vse zvočne učinke` prikaže vse kategorije "
+"zvočnih učinkov"
 
 #: ../../effects_and_filters.rst:130
-#, fuzzy
-#| msgid ""
-#| "4 - **Custom Effects** shows all effects :ref:`you have created <effects-"
-#| "custom>` by saving an effect stack."
 msgid ""
 "|kdenlive-custom-effect| :guilabel:`Show all custom effects` shows all "
 "effects :ref:`you have created <effects-custom>` by saving an effect stack."
 msgstr ""
-"4 - **Učinki po meri** prikaže vse učinke, ki ste jih :ref:"
-"`ustvarili<effects-custom>` s shranjevanjem sklada učinkov."
+"|kdenlive-custom-effect| :guilabel:`Pokaži vse učinke po meri` prikaže vse "
+"učinke, ki ste jih :ref:`ustvarili<effects-custom>` s shranjevanjem sklada "
+"učinkov."
 
 #: ../../effects_and_filters.rst:134
-#, fuzzy
-#| msgid ""
-#| "5 - **Favorite Effects** shows all effects that were flagged as a "
-#| "favorite effect. This is the same list that appears when selecting :"
-#| "guilabel:`Insert an effect` from the right-click menu of a clip in the "
-#| "Timeline, or by clicking the :guilabel:`Favorite Effects` in the Timeline "
-#| "toolbar."
 msgid ""
 "|favorite| :guilabel:`Show all favorite items` shows all effects that were "
 "flagged as a favorite effect. This is the same list that appears when "
@@ -278,22 +286,19 @@ msgid ""
 "in the Timeline, or by clicking the :guilabel:`Favorite Effects` in the "
 "Timeline toolbar."
 msgstr ""
-"5 - **Priljubljeni učinki** prikaže vse učinke, označene kot priljubljeni "
-"učinki. To je isti seznam, ki se prikaže, ko izberete možnost :guilabel:"
-"`Vstavi učinek` v kontekstnem meniju posnetka na časovnici ali ko kliknete :"
-"guilabel:`Priljubljeni učinki` v orodni vrstici Časovnica."
+"|favorite| :guilabel:`Pokaži vse priljubljene elemente` prikaže vse učinke, "
+"označene kot priljubljeni učinki. To je isti seznam, ki se prikaže, ko "
+"izberete možnost :guilabel:`Vstavi učinek` v kontekstnem meniju posnetka na "
+"časovnici ali ko kliknete :guilabel:`Priljubljeni učinki` v orodni vrstici "
+"Časovnica."
 
 #: ../../effects_and_filters.rst:136
-#, fuzzy
-#| msgid ""
-#| "7 - **Download Effects** opens a dialog window where effect templates are "
-#| "listed from the KDE Store"
 msgid ""
 "|edit-download| :guilabel:`Download New Effects` opens a dialog window where "
 "effect templates are listed from the KDE Store"
 msgstr ""
-"7 - **Prenesi učinke** odpre pogovorno okno s seznamom predlog učinkov iz "
-"trgovine KDE Store"
+"|edit-download| :guilabel:`Prenesi nove učinke` odpre pogovorno okno s "
+"seznamom predlog učinkov iz trgovine KDE Store"
 
 #: ../../effects_and_filters.rst:138
 msgid ""
@@ -301,21 +306,21 @@ msgid ""
 "effects which are reviewed and tested by the Kdenlive team and not tested "
 "effects (still in test phase)"
 msgstr ""
+"|view-filter| :guilabel:`Prikaži samo pregledana sredstva` preklaplja med "
+"učinki, ki jih pregleda in preizkuša ekipa Kdenlive, in nepreizkušenimi "
+"učinki (še vedno v poskusni fazi)"
 
 #: ../../effects_and_filters.rst:140
-#, fuzzy
-#| msgid ""
-#| "6 - **Show Effect Info** toggles the information display below the effect "
-#| "list where a short description of what the effect does is displayed when "
-#| "on"
 msgid ""
 "|help-about| :guilabel:`Show/hide description of effects` toggles the "
 "information display below the effect list where a short description of what "
 "the effect does is displayed when on. Click on the blue effect text opens "
 "the online documentation to this effect."
 msgstr ""
-"6 - **Pokaži podatke o učinku** preklopi prikaz informacij pod seznamom "
-"učinkov, kjer se ob vklopu prikaže kratek opis delovanja učinka"
+"|help-about| :guilabel:`Pokaži/skrij opis učinkov` preklopi prikaz "
+"informacij pod seznamom učinkov, kjer se ob vklopu prikaže kratek opis "
+"delovanja učinka. S klikom modrega besedila učinka odprete spletno "
+"dokumentacijo za ta učinek."
 
 #: ../../effects_and_filters.rst:148
 msgid "Effect/Composition Stack"
@@ -419,6 +424,8 @@ msgid ""
 "|zoom-fit-width| Use effect zone - Toggles the display to show the :ref:"
 "`effect zone <effects-effect_zones>`"
 msgstr ""
+"|zoom-fit-width| Uporabi območje učinka - Preklopi zaslon, da prikaže "
+"območje :ref:`območje učinka <effects-effect_zones>`"
 
 #: ../../effects_and_filters.rst:225
 msgid ""
@@ -429,10 +436,6 @@ msgstr ""
 "skladu, vendar se med predvajanjem ali izrisom ne uveljavi."
 
 #: ../../effects_and_filters.rst:227
-#, fuzzy
-#| msgid ""
-#| "|adjustlevels2| Presets - Opens a list of advanced options to manage "
-#| "presets for the effect (e.g. reset the effect to its default parameters)"
 msgid ""
 "|adjustlevels2| Presets - Opens a list of advanced options to manage presets "
 "for the effect (e.g. reset the effect to its default parameters)."
@@ -456,6 +459,8 @@ msgid ""
 "|help-about| Open effect documentation in browser  - This opens the online "
 "documentation to this effect"
 msgstr ""
+"|help-about| Odpri dokumentacijo o učinku v brskalniku – s tem odprete "
+"spletno dokumentacijo za ta učinek"
 
 #: ../../effects_and_filters.rst:232
 msgid ""
@@ -1162,12 +1167,3 @@ msgstr ""
 #: ../../effects_and_filters.rst:802
 msgid "Robert Penners equations: http://robertpenner.com/easing/"
 msgstr "Enačbe Roberta Pennerja: http://robertpenner.com/easing/"
-
-#~ msgid ""
-#~ "2 - **Video Effects** shows all video effect categories. This option "
-#~ "hides the *Audio Correction* category that is in the **Main Effects**, "
-#~ "and adds the *Misc* and *Motion* categories."
-#~ msgstr ""
-#~ "2 - **Slikovni učinki** prikaže vse kategorije video učinkov. Ta možnost "
-#~ "skrije kategorijo *Zvočni popravek*, ki je v »Glavnih učinkih« in dodaja "
-#~ "kategorije *Razno* in *Gibanje*."
