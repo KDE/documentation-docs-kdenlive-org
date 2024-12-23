@@ -25,6 +25,8 @@ Controls
    Kdenlive UI controls (example using the effect panel)
 
 
+Control Elements
+~~~~~~~~~~~~~~~~
 .. list-table::
    :width: 100%
    :widths: 30 70
@@ -66,7 +68,8 @@ Controls
 
    Kdenlive UI controls (example using the monitor panel)
 
-
+Monitor Control Elements
+~~~~~~~~~~~~~~~~~~~~~~~~
 .. list-table::
    :width: 100%
    :widths: 30 70
@@ -109,6 +112,8 @@ Elements
    UI areas and elements (example using the effect panel)
 
 
+Effect Panel Elements
+~~~~~~~~~~~~~~~~~~~~~
 .. list-table::
    :width: 100%
    :widths: 30 70
@@ -148,7 +153,8 @@ Elements
 
    UI areas and elements (example using the monitor widget)
 
-
+Monitor Elements
+~~~~~~~~~~~~~~~~
 .. list-table::
    :width: 100%
    :widths: 30 70
