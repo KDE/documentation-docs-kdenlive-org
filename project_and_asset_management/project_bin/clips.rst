@@ -52,7 +52,7 @@ In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or
    * -
      - |go-up|\ :guilabel:`Go up` goes up one level in the file system folder hierarchy
    * - 
-     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder</project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their :ref:`own bins <project_bin_use_multiple_bins>`.
+     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder</project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their :doc:`own bins <project_bin_use_multiple_bins>`.
    * - **2**
      - |view-refresh|\ :guilabel:`Refresh document` refreshes the current view (default keyboard shortcut :kbd:`F5`)
    * - **3**

@@ -41,7 +41,7 @@
    This file is being .. include(d):: in project_bin_use.rst and the chapter title designation follows the structure of the parent file. Hence the use of --- and ~~~ as chapter designation
    ====================================================================================================
 
-.. _project_bin_use_sorting:
+.. _project_bin_sorting_the_project-bin:
 
 Sorting the Project Bin
 -----------------------

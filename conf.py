@@ -309,7 +309,7 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
-.. |kdenlive-custom-effect| image:: /images/kdenlive-custom-effect.svg
+.. |kdenlive-custom-effect| image:: /images/icons/kdenlive-custom-effect.svg
    :width: 22px
    :class: no-scaled-link
 

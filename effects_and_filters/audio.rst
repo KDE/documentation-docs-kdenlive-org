@@ -21,7 +21,7 @@ Kdenlive has some tools for handling audio. Beside the audio spectrum viewer and
 .. _audio_mixer:
 
 Audio Mixer
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 .. versionadded:: 19.12.0
 

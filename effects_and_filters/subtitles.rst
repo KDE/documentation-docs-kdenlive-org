@@ -374,7 +374,7 @@ Only one subtitle file can be active. So, rendering will always render using the
 .. _subtitle-style-editor:
 
 Style editor
----------------------
+------------
 
 .. figure:: /images/effects_and_compositions/subtitle-style_editor.png
    :alt: subtitle style editor

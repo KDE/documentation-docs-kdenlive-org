@@ -17,7 +17,7 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. _24.12: https://kdenlive.org/2024/12/kdenlive-24-12-released/
+.. _24.12: https://kdenlive.org/2024/12/kdenlive-24-12-0-released/
 
 .. _24.08: https://kdenlive.org/2024/09/kdenlive-24-08-0-released/
 
@@ -65,9 +65,9 @@ What's New
    * Introduced :ref:`multiple Subtitle Tracks <effects-subtitles>`
    * Introduced :ref:`built-in effects <builtin-effects>`
    * Introduced :ref:`resizing multiple timeline items <resizing_multiple_timeline_items>`
-   * Added a on :ref:`effects and compositions a direct link to the documentation`
+   * Added on :ref:`effects and compositions a direct link to the documentation <effect_functions>`
    * Added a :ref:`shortcut to extract clip from timeline <timeline-current_clip>`
-   * Added new :ref:`MLT HSL color correction effect </effects_and_filters/video_effects/color_image_correction/hsl_primaries>`
+   * Added new :doc:`MLT HSL color correction effect </effects_and_filters/video_effects/color_image_correction/hsl_primaries>`
 
 
 .. versionadded:: 24.08 (see 24.08_ release notes)
@@ -147,11 +147,11 @@ What's New
 .. versionadded:: 22.08 (see 22.08_ release notes)
 
    * :doc:`Add animation </project_and_asset_management/project_bin/animation>` (Glaxnimate integration and support of Lottie animation files)
-   * :ref:`Edit Project Bin tags <project_bin_use_tags>`
+   * :ref:`Edit Project Bin tags <project_bin_using_tags>`
    * Deprecated Track compositing fly-out menu (1a/b/c in :ref:`timeline_toolbar2`)
    * Switched to :guilabel:`Enable Track Compositing` being a toggle (see :ref:`timeline_toolbar2`)
    * :ref:`Export guides as chapter descriptions <export_guides>`
-   * Added ability to add a :ref:`style <subtitle-style>` to subtitles
+   * Added ability to add a :ref:`style <subtitle-style-editor>` to subtitles
    * Added ability to :ref:`import and export <subtitle-import_export>` subtitles
 
 

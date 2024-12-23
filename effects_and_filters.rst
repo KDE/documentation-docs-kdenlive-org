@@ -66,6 +66,10 @@ These are the most used effects which you now have at your fingertips without th
    :alt: builtin-video-effect
    :width: 30%
 
+.. |audio-effect| image:: /images/effects_and_compositions/kdenlive2412_builtin-audio-effect.webp
+   :alt: builtin-audio-effect
+   :width: 30%
+
 The built-in effects are disabled by default. So you have to enable it before you can use it.
 
 Built-in effects can be used in three places:
@@ -186,6 +190,8 @@ When an effect is applied to a clip in the timeline you can click on the effect 
 
 .. rst-class:: clear-both
 
+
+.. _effect_functions:
 
 Effect Functions
 ----------------
