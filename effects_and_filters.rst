@@ -80,7 +80,7 @@ Built-in effects can be used in three places:
 
 - as master effect (only :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`)
 
-All built-in effects can be disabled/removed in general in :menuselection:`Settings --> Configure Kdenlive -> Misc`
+All built-in effects can be disabled/enabled globally in :menuselection:`Settings --> Configure Kdenlive -> Misc`
 
 .. figure:: /images/effects_and_compositions/kdenlive2412_builtin-effect_disable.webp
    :align: left
@@ -88,7 +88,7 @@ All built-in effects can be disabled/removed in general in :menuselection:`Setti
    :figwidth: 80%
    :alt: builtin-effect_disable
       
-   Under misc you can disable/enable all built-in effects in general. Default: enabled
+   Under **Misc** you can disable/enable all built-in effects. Default is **disabled**.
 
 .. rst-class:: clear-both
 
@@ -129,8 +129,6 @@ The Effects widget has eight control icons that show or hide the different effec
 |view-filter| :guilabel:`Only show reviewed assets` toggles between the effects which are reviewed and tested by the Kdenlive team and not tested effects (still in test phase)
 
 |help-about| :guilabel:`Show/hide description of effects` toggles the information display below the effect list where a short description of what the effect does is displayed when on. Click on the blue effect text opens the online documentation to this effect.
-
-
 
 
 .. _effects-effect_stack:
@@ -217,8 +215,9 @@ Effect Functions
 
 |visibility| Disable effect - Turns the effect off or on. The effect stays in the stack but is not applied during playback or rendering.
 
-| |adjustlevels2| Presets - Opens a list of advanced options to manage presets for the effect (e.g. reset the effect to its default parameters).
-| |document-save| Save effect - Opens a dialog window for entering a name for the effect under which it will be listed in the *Custom* effect category and a comment which will be displayed in the information display
+|adjustlevels2| Presets - Opens a list of advanced options to manage presets for the effect (e.g. reset the effect to its default parameters).
+
+|document-save| Save effect - Opens a dialog window for entering a name for the effect under which it will be listed in the *Custom* effect category and a comment which will be displayed in the information display
 
 |help-about| Open effect documentation in browser  - This opens the online documentation to this effect
 
@@ -236,23 +235,22 @@ Effect Functions
 Applying an Effect
 ==================
 
-
 Where to apply an effect
 ------------------------
 
 An effect can be applied at four different levels of your project:
 
-- you can apply it on a clip in the timeline: it will affect only this clip
-- you can apply it on an clip in the bin: it will affect all the occurrences of this clip in the timeline
-- you can apply it on a track: it will affect all the clips on this track
-- you can apply it on the Master: it will affect your global output
+- On a clip in the timeline: it will affect only this clip
+- On an clip in the bin: it will affect all the occurrences of this clip in the timeline
+- On a track: it will affect all the clips on this track
+- On the Master: it will affect your global output
 
 How to apply an effect
 ----------------------
 
 For applying an effect to a clip in the Project Bin or in the Timeline, you can choose one from the Effects Tab and drag it onto the clip.
 
-You can also double-click on an effect in the Effects Tab which adds the effect to the clip in the Project Bin which appears in the clip monitor. In the Timeline it adds the effect to the clips which are selected. So you can apply an effect to several clips at once in the timeline.
+You can also double-click on an effect in the Effects Tab which adds the effect to the clip in the Project Bin which appears in the clip monitor. In the Timeline, it adds the effect to the clips which are selected. So you can apply an effect to several clips at once in the timeline.
 
 Another method is to use the |favorite|:guilabel:`Favorite Effect` icon in the Timeline toolbar and select the effect from there (you add an effect to the favorite effects by right-click on the effect in the Effects Tab and select :guilabel:`Add to favorites`).
 
@@ -264,7 +262,7 @@ For applying an effect to a track, see :ref:`Track Effect <effects-track_effect>
 
 For applying an effect to the Master, see :ref:`Master Effect <effects-master_effect>`.
 
-.. note:: Effects are always added at the bottom of the effect stack, and since the effect order is important can be re-arranged.
+.. note:: Effects are always added at the bottom of the effect stack, and since the effect order is important, can be re-arranged.
 
 
 .. _effects-keyframes:
@@ -280,7 +278,7 @@ Many effects use the concept of "Keyframes". Keyframes are user-defined points i
 Keyframes types, interpolation
 ------------------------------
 
-Select the keyframe interpolation icon for selecting the keyframe type. See :ref:`quickstart` for an example on keyframing the RGB adjustment effect.
+Select the keyframe interpolation icon for selecting the keyframe type. See :ref:`quickstart` for an example on keyframing the :doc:`RGB adjustment</effects_and_filters/video_effects/color_image_correction/rgb_adjustment>` effect.
 
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-keyframe_types.webp
    :align: left
@@ -289,7 +287,7 @@ Select the keyframe interpolation icon for selecting the keyframe type. See :ref
 
    Kdenlive keyframe types
 
-The first three keyframes are: linear, discrete and smooth (Centripetal Catmull-Rom spline interpolation). This are standard keyframes. More details about keyframes you'll find :ref:`here <the_smooth_keyframe_interpolation>`.
+The first three keyframes are: **Linear**, **Discrete** and **Smooth** (Centripetal Catmull-Rom spline interpolation). This are standard keyframes. More details about keyframes are :ref:`here <the_smooth_keyframe_interpolation>`.
 
 .. .. versionadded:: 24.02
 
@@ -351,15 +349,15 @@ The keyframe ruler has zoom bars which makes adjusting keyframes a lot easier if
 .. image:: /images/keyframe_toolbar_copy-paste.png
    :alt: keyframe toolbar
 
-Keyframes can be copied and pasted between effects and even across clips. Standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`
+Keyframes can be copied and pasted between effects and even across clips using the standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`
 
 
 .. _effects-curve-editor:
 
-Keyframe Curve editor
+Keyframe Curve Editor
 ---------------------
 
-.. versionadded:: 24.08
+.. .. versionadded:: 24.08
 
 Implemented with version 24.08 the keyframe curve editor is still in alpha state. Improvements will come with upcoming versions.
 
@@ -370,9 +368,9 @@ The curve editor is showing the keyframe type and their curves.
 
 To switch to the curve editor click on |switch-to-curve-editor-view|:guilabel:`Switch to curve editor view`.
 
-The curve editor can only be enabled on effects which have following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and Rotation. For all other effects the curve editor is greyed out.
+The curve editor can only be enabled on effects which have the following parameters: X, Y, width, hight, opacity (alpha, optional) and rotation. For all other effects the curve editor is greyed out.
 
-By double clicking into the window new keyframes get added. Hovering over a keyframe the cursor changes to a cross and you can:
+By double clicking into the window new keyframes get added. Hovering over a keyframe, the cursor changes to a cross and you can:
 
 - move the keyframe to change the value, depending on which tab you are (X position, Y position, Width, Height, Opacity, Rotation). Hold :kbd:`Ctrl` moves the keyframe vertically only.
 - click on the keyframe and change the keyframe type
@@ -380,7 +378,7 @@ By double clicking into the window new keyframes get added. Hovering over a keyf
 .. figure:: /images/curve-editor_example-view.webp
    :alt: curve editor example view
 
-In this example the cursor enables the second keyframe and you can either change the values by moving the keyframe or change the values directly in the boxes below the curve editor view.
+In this example, the cursor enables the second keyframe and you can either change the values by moving the keyframe or change the values directly in the boxes below the curve editor view.
 
 .. figure:: /images/curve-editor_switch-back.webp
    :alt: curve editor switch back
@@ -395,7 +393,7 @@ Working with Keyframes in the Effect Stack
 
 .. .. versionadded:: 21.04.0
 
-The effect keyframe panel has new icons, improved keyframe grabbing and new functions.
+The effect keyframe panel allows comprehensive manipulation of keyframes:
 
 .. image:: /images/Move-kf-to-cursor.gif
    :width: 220px
@@ -437,7 +435,7 @@ The effect keyframe panel has new icons, improved keyframe grabbing and new func
       :align: left
       :alt: kf-ctrl-select
 
-   Select multiple individual keyframes with :kbd:`Ctrl+Left-click`
+   Select multiple individual keyframes with :kbd:`Ctrl+LMB`
 
 .. container:: clear-both
 
@@ -446,7 +444,7 @@ The effect keyframe panel has new icons, improved keyframe grabbing and new func
       :align: left
       :alt: kf-rubber-select
 
-   Select contiguous keyframes with :kbd:`Shift+Left-click`
+   Select contiguous keyframes with :kbd:`Shift+LMB`
 
 .. container:: clear-both
 
@@ -788,7 +786,7 @@ See also this YouTube play list from |video_5|
 
 .. _effects_notes:
 
-**Notes**
+----
 
 .. [1] If you do not see a keyframe panel check whether the keyframe panel has been switched off for this effect (|keyframe-disable| icon in the effect toolbar) or perhaps the effect is simply not keyframable.
 
