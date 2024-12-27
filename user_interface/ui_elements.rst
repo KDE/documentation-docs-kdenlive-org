@@ -24,9 +24,10 @@ Controls
 
    Kdenlive UI controls (example using the effect panel)
 
+.. rst-class:: clear-both
 
-Control Elements
-~~~~~~~~~~~~~~~~
+|
+
 .. list-table::
    :width: 100%
    :widths: 30 70
@@ -68,8 +69,10 @@ Control Elements
 
    Kdenlive UI controls (example using the monitor panel)
 
-Monitor Control Elements
-~~~~~~~~~~~~~~~~~~~~~~~~
+.. rst-class:: clear-both
+
+|
+
 .. list-table::
    :width: 100%
    :widths: 30 70
@@ -111,9 +114,10 @@ Elements
 
    UI areas and elements (example using the effect panel)
 
+.. rst-class:: clear-both
 
-Effect Panel Elements
-~~~~~~~~~~~~~~~~~~~~~
+|
+
 .. list-table::
    :width: 100%
    :widths: 30 70
@@ -153,8 +157,10 @@ Effect Panel Elements
 
    UI areas and elements (example using the monitor widget)
 
-Monitor Elements
-~~~~~~~~~~~~~~~~
+.. rst-class:: clear-both
+
+|
+
 .. list-table::
    :width: 100%
    :widths: 30 70
