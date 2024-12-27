@@ -432,9 +432,9 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
      - Creates a Glamorous Glow (|frei0r.glow|)
-   * - :doc:`/effects_and_filters/video_effects/misc/gps_graphic` 
+   * - :doc:`/effects_and_filters/video_effects/generate/gps_graphic` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Misc
+     - Generate
      - Overlay GPS-related graphics onto the video (|gpsgraphic|)
    * - :doc:`/effects_and_filters/video_effects/generate/gps_text` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -468,6 +468,14 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Image Adjustment
      - Scale the input by 2, 3 or 4 using the hq*x magnification algorithm (|avfilter.hqx|)
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/hsl_primaries` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Color and Image correction
+     - Adjust hue, saturation and lightness for each of the three primary colors. (|hslprimaries|)
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/hsl_range` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Color and Image correction
+     - Adjust hue, saturation and lightness for a range of hue values. (|hslrange|)
    * - :doc:`/effects_and_filters/video_effects/misc/hsvkey` 
      - |appimage|\ |windows|\ |apple|
      - Misc
@@ -500,6 +508,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Inverts all colors of a source image (|frei0r.invert0r|)
+   * - :doc:`/effects_and_filters/video_effects/misc/kaleid0sc0pe` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Misc
+     - Applies a kaleidoscope effect (|frei0r.kaleid0sc0pe|)
    * - :doc:`/effects_and_filters/video_effects/deprecated/k-means_clustering` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Deprecated
@@ -1540,6 +1552,20 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-hsvhold/" target="_blank">avfilter.hsvhold</a>
 
 
+.. needs updating
+
+.. |hslprimaries| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/PluginsFilters/" target="_blank">hslprimaries</a>
+
+
+.. needs updating
+
+.. |hslrange| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/PluginsFilters/" target="_blank">hslrange</a>
+
+
 .. |avfilter.hsvkey| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-hsvkey/" target="_blank">avfilter.hsvkey</a>
@@ -1573,6 +1599,11 @@ Video Effects
 .. |frei0r.invert0r| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-invert0r/" target="_blank">frei0r.invert0r</a>
+
+
+.. |frei0r.kaleid0sc0pe| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-kaleid0sc0pe/" target="_blank">frei0r.kaleid0sc0pe</a>
 
 
 .. |frei0r.cluster| raw:: html
