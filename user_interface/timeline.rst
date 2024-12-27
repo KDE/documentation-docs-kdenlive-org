@@ -18,11 +18,11 @@
 
    :license: Creative Commons License SA 4.0
 
+
 .. _timeline:
 
 Timeline
 ========
-
 
 The timeline is the central part of **Kdenlive**. It is made of four different areas:
 
@@ -39,13 +39,13 @@ The timeline is the central part of **Kdenlive**. It is made of four different a
 Timeline Areas
 --------------
 
-1 -  **Timeline**. This is the area where you drop your clips to the various tracks. It shows the clips with or without thumbnails, with or without the audio frequency curve, transitions and compositions, as well as the markers, guides and keyframes (if any).
+:1:  **Timeline**. This is the area where you drop your clips to the various tracks. It shows the clips with or without thumbnails, with or without the audio frequency curve, transitions and compositions, as well as the markers, guides and keyframes (if any).
 
-2 - **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It also shows the current zone (if defined) and the preview render zones and their respective render status. A more detailed description can be found :ref:`further down here <timeline_ruler>`. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. For the right-click menu see the :ref:`detailed description <timeline_ruler_right-click_menu>`.
+:2: **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It also shows the current zone (if defined) and the preview render zones and their respective render status. A more detailed description can be found :ref:`further down here <timeline_ruler>`. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. For the right-click menu see the :ref:`detailed description <timeline_ruler_right-click_menu>`.
 
-3 - **Timeline Toolbar** - This is an important area where the tools for working with the clips in the timeline are easily accessible. Feel free to adjust the timeline toolbar to accommodate your workflow. For details how to do that refer to the section about toolbar configuration.
+:3: **Timeline Toolbar** - This is an important area where the tools for working with the clips in the timeline are easily accessible. Feel free to adjust the timeline toolbar to accommodate your workflow. For details how to do that refer to the section about toolbar configuration.
 
-4 - **Track Header**. This area displays track header data like track type (V for video, A for audio), track number, with your without track effects, hidden or muted, locked or unlocked, and an optional track name. Each track can be adjusted in height individually as well as expanded or collapsed. A more detailed description can be found :ref:`further down here <track_header>`. For the right-click menu see the detailed section.
+:4: **Track Header**. This area displays track header data like track type (V for video, A for audio), track number, with your without track effects, hidden or muted, locked or unlocked, and an optional track name. Each track can be adjusted in height individually as well as expanded or collapsed. A more detailed description can be found :ref:`further down here <track_header>`. For the right-click menu see the detailed section.
 
 
 Timeline
@@ -136,14 +136,14 @@ Keyboard Navigation
 
 .. .. versionadded:: 19.04.0
 
-You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in the timeline and use the :guilabel:`Grab Current Item` function from the :menuselection:`Menu --> Timeline` menu or use the default shortcut of :kbd:`Shift + G`.
+You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in the timeline and use the :guilabel:`Grab Current Item` function from the :menuselection:`Menu --> Timeline` menu or use the default shortcut of :kbd:`Shift+G`.
 
 .. image:: /images/shift-g.gif
    :alt: Moving clips and compositions with Shift+G
 
 You can then move the item with the arrow keys.
 
-Keyframes can also be moved individually. Just click on a keyframe in the timeline, then move it :kbd:`Left` or :kbd:`Right`, change its value with :kbd:`+` and :kbd:`-`. Use :kbd:`Alt + arrow` to go to another keyframe.
+Keyframes can also be moved individually. Just click on a keyframe in the timeline, then move it :kbd:`Left` or :kbd:`Right`, change its value with :kbd:`+` and :kbd:`-`. Use :kbd:`Alt+arrow` to go to another keyframe.
 
 .. image:: /images/moving-keyframes.gif
    :alt: Moving clip keyframes in the timeline
@@ -256,19 +256,19 @@ The timeline toolbar controls various aspects of the editor. It can be configure
 
 This is a quick overview of the main sections of the toolbar. A more detailed description can be found in the :ref:`timeline_toolbar3` section of this documentation.
 
-1 - Enable track compositing and switching split view of audio and video (see :ref:`layout_modes`)
+:1: Enable track compositing and switching split view of audio and video (see :ref:`layout_modes`)
 
-2 - Selects the editing mode: Normal, Overwrite, Insert (see :ref:`timeline_edit_modes`)
+:2: Selects the editing mode: Normal, Overwrite, Insert (see :ref:`timeline_edit_modes`)
 
-3 - Edit Tools: Selection Tool, Razor Tool, Spacer Tool, Slip Tool, Ripple Tool (see :ref:`timeline_edit_tools`)
+:3: Edit Tools: Selection Tool, Razor Tool, Spacer Tool, Slip Tool, Ripple Tool (see :ref:`timeline_edit_tools`)
 
-4 - Clip and Zone Tools: Mix Clips, Insert Clip Zone in Timeline, Overwrite Clip Zone in Timeline, Extract Timeline Zone, Lift Timeline Zone, Expand Clip (see also :ref:`3-point editing <three_point_editing>`)
+:4: Clip and Zone Tools: Mix Clips, Insert Clip Zone in Timeline, Overwrite Clip Zone in Timeline, Extract Timeline Zone, Lift Timeline Zone, Expand Clip (see also :ref:`3-point editing <three_point_editing>`)
 
-5 - Preview Render Tools - Start/Stop Render, Open Preview Render Options Dialog, Add Preview Render Zone, Delete All Preview Render Zones
+:5: Preview Render Tools - Start/Stop Render, Open Preview Render Options Dialog, Add Preview Render Zone, Delete All Preview Render Zones
 
-6 - Toggle Audio Mixer Widget
+:6: Toggle Audio Mixer Widget
 
-7 - Status Bar icons (in lieu of the status bar which can be switched off in the View menu)*
+:7: Status Bar icons (in lieu of the status bar which can be switched off in the View menu)*
 
 \* Please note this is a customized version of the timeline toolbar and the section #7 is not part of the default toolbar
 
@@ -293,13 +293,13 @@ This area shows some options for a track:
       :alt: Track header information
    
    
-   1 Track collapse and expand icon. Click on it to collapse or expand the track: hold Shift and click to expand or collapse all tracks of the same type.
+   :1: Track collapse and expand icon. Click on it to collapse or expand the track: hold Shift and click to expand or collapse all tracks of the same type.
    
-   2 Track name. Click on it to enter or change the name of the track.
+   :2: Track name. Click on it to enter or change the name of the track.
    
-   3 Track type and track number
+   :3: Track type and track number
    
-   4 Track control icons. Use them to:
+   :4: Track control icons. Use them to:
    
      + Lock the track |kdenlive-lock| which will prevent adding clips, removing clips, or moving of clips on the timeline;  
      + Mute the track |kdenlive-hide-audio| (audio tracks only)  
@@ -313,17 +313,25 @@ This area shows some options for a track:
 Adding Tracks
 ~~~~~~~~~~~~~
 
-In order to add a track right-click anywhere in the track header area. In the Add Track dialog window specify what type of track, where and how many you want to insert.
+In order to add a track, right-click anywhere in the track header area. In the **Add Track** dialog window specify what type of track, where and how many you want to insert.
 
-.. image:: /images/kdenlive_timeline_add_track.webp
-   :alt: Add track(s)
+.. container:: clear-both
+
+   .. image:: /images/kdenlive_timeline_add_track.webp
+      :width: 400px
+      :align: left
+      :alt: Add track(s)
+
+   You can specify the number of tracks for a new project in :menuselection:`Menu --> Settings --> Configure Kdenlive` in the :ref:`Project Defaults <configure_project_defaults>` tab. 
+
+.. rst-class:: clear-both
 
 .. _deleting_tracks:
 
 Deleting Tracks
 ~~~~~~~~~~~~~~~
 
-In order to delete a track right-click anywhere in the track header area. In the Delete Track dialog window select the tracks you want to delete.
+In order to delete a track right-click anywhere in the track header area. In the **Delete Track** dialog window select the tracks you want to delete.
 
 .. image:: /images/kdenlive_timeline_delete_track.webp
    :alt: Delete track(s)
@@ -427,7 +435,7 @@ Continuously loop playback
 
 - Disable :guilabel:`Pause playback when seeking` in :ref:`configure_timeline` settings (:menuselection:`Settings --> Configure Kdenlive --> Timeline`). 
 - Make a timeline zone the length you like to loop.
-- Loop Zone (:kbd:`Ctrl + Shift + Space`)
+- Loop Zone (:kbd:`Ctrl+Shift+Space`)
 
 
 .. toctree::
