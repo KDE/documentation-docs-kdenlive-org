@@ -60,9 +60,26 @@ After a command with .. next line must be indented by 3 blank spaces to make the
       
    Description of the picture (caption or legend)
 
-The `rst-class:: clear-both` resets floating text before a new chapter 
+The ``rst-class:: clear-both`` command resets floating text (``:align: left`` or ``right``) before a new chapter or ``list-table``
 
 .. rst-class:: clear-both
+
+The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` that Google Chrome show the followed table.
+
+|
+
+.. list-table::
+   :width: 100%
+   :widths: 30 70
+   :header-rows: 1
+   :class: table-wrap
+
+   * - UI Element
+     - Description
+   * - 1 :guilabel:`edit frame`
+     - [Project Monitor only] Identifies the object or area of the effect. :term:`Edit Mode<edit mode>` needs to be enabled for the frame to show.
+   * - 2 :guilabel:`edit frame handles`
+     - Used to change the size (square handles) and move the frame (circle in the middle)
 
 
 Images side by side
