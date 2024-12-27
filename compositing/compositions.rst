@@ -32,23 +32,23 @@ The Compositions widget has six control icons that show or hide the different ef
 
 .. figure:: /images/effects_and_compositions/kdenlive2412_compositions_tab.webp
    :align: left
-   :width: 400px
-   :figwidth: 400px
+   :width: 350px
+   :figwidth: 350px
    :alt: kdenlive_compositions_tab
 
    Kdenlive Compositions widget as a tab in the Project Bin area
 
-|show-all-effects| :guilabel:`Main effects` shows all compositions (default view)
+|show-all-effects|\ :guilabel:`Main effects` shows all compositions (default view)
 
-|transform-move-horizontal| :guilabel:`Show transitions only` shows the transitions only
+|transform-move-horizontal|\ :guilabel:`Show transitions only` shows the transitions only
 
-|favorite| :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert a composition` from the right-click menu of a clip in the Timeline.
+|favorite|\ :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert a composition` from the right-click menu of a clip in the Timeline.
 
-|edit-download| :guilabel:`Download New Effects` opens a dialog window where compositions templates are listed from the KDE Store
+|edit-download|\ :guilabel:`Download New Effects` opens a dialog window where compositions templates are listed from the KDE Store
 
-|view-filter| :guilabel:`Only show reviewed assets` toggles between the compositions which are reviewed and tested by the Kdenlive team and not tested compositions (still in test phase)
+|view-filter|\ :guilabel:`Only show reviewed assets` toggles between the compositions which are reviewed and tested by the Kdenlive team and not tested compositions (still in test phase)
 
-|help-about| :guilabel:`Show/hide description of effects` toggles the information display below the compositions list where a short description of what the composition does is displayed when on. Click on the blue composition text opens the online documentation to this effect.
+|help-about|\ :guilabel:`Show/hide description of effects` toggles the information display below the compositions list where a short description of what the composition does is displayed when on. Clicking on the link opens the online documentation to this effect.
 
 
 .. _compositing-how:
