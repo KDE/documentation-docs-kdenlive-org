@@ -29,7 +29,7 @@
 Searching the Project Bin
 -------------------------
 
-The Project Bin is where all your assets are. Depending on the size of your project that list can quickly become confusing and difficult to work with. Kdenlive has several features to manage the bin's content.
+You can search by name for any asset in the Project Bin.
 
 .. container:: clear-both
 

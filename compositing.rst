@@ -9,7 +9,6 @@
    :license: Creative Commons License SA 4.0
 
 
-
 ############################
 Transitions and Compositions
 ############################
