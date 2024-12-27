@@ -42,9 +42,9 @@ File name:
 Code quality
 
 * 1 empty line between title or text paragraph
-* 2 empty lines after a :ref: or before a reference
+* 2 empty lines after a ``:ref:`` or before a reference
 
-After a command with .. next line must be indented by 3 blank spaces to make the below line is part of the command. The number of indent spaces must be always the same. 
+After a command with ``..`` next line must be indented by 3 blank spaces to make the below line part of the command. The number of indent spaces must be always the same. 
 
 .. figures: Only use figures
    :align: make it possible that you have text on the right site of the figure  
@@ -60,11 +60,28 @@ After a command with .. next line must be indented by 3 blank spaces to make the
       
    Description of the picture (caption or legend)
 
-The ``rst-class:: clear-both`` command resets floating text (``:align: left`` or ``right``) before a new chapter or ``list-table``
+.. sidebar:: |kdenlive-show-video| Motion Tracker
+
+   :**Status**:
+      Maintained
+   :**Keyframes**:
+      Yes
+   :**Source library**:
+      opencv
+   :**Source filter**:
+      tracker
+   :**Available**:
+      |linux| |appimage| |windows| |apple|
+   :**On Master only**:
+      No
+   :**Known bugs**:
+      No
 
 .. rst-class:: clear-both
 
-The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` that Google Chrome show the followed table.
+The ``rst-class:: clear-both`` command resets floating text (``:align: left`` or ``right``) before a new chapter or ``list-table``
+
+The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` when no command is following, so that Google Chrome show the followed table.
 
 |
 
@@ -82,7 +99,9 @@ The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` that Go
      - Used to change the size (square handles) and move the frame (circle in the middle)
 
 
-Images side by side
+.. rubric:: Images side by side
+
+Use ``.. rubric::``` if you want a section-like element that doesn’t make up the table of contents.
 
 |pic1| any text |pic2|
 
@@ -113,20 +132,20 @@ This is a link to :ref:`template` and shows the text below the link
 
 This is a link to `edit_an-animation` and shows the word "here" :ref:`here <edit_an-animation>` 
 
-.. note::
-   This shows a note window
+.. note:: This shows a note window
 
-.. attention::
-   This shows an attention window
+.. attention:: This shows an attention window
 
-.. tip::
-   This shows a tip window
+.. tip:: This shows a tip window
 
-.. hint::
-   This shows a hint window
+.. hint:: This shows a hint window
 
-.. Warning::
-   This shows a warning window 
+.. Warning:: This shows a warning window 
+
+
+.. admonition:: Windows Only!
+
+   This is a warning for Windows user only.
 
 
 This is **bold text**
@@ -181,6 +200,11 @@ Web page link open in the same window `KDE store <https://store.kde.org/browse?c
 
 #. This is a numbered list.
 #. It has two items too.
+
+.. glossary::
+   :sorted:
+
+``.. glossary::`` and ``:sorted:``: Insert a glossary which is sorted.
 
 
 .. [1] Text of footnote 1. The backslash at the end of the word moves the footnote number closer to the text
