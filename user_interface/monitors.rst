@@ -29,7 +29,7 @@ Kdenlive uses two monitor :term:`widgets<widget>` to display and play back your 
 
    monitors/*
 
-The monitor widgets can be switched on or off by checking :menuselection:`Menu --> View --> Clip Monitor` and :menuselection:`Project Monitor`, repectively. Once activated, they can be selected by clicking the corresponding tab which appears at the bottom of the monitor window.
+The monitor widgets can be switched on or off by checking :menuselection:`Menu --> View --> Clip Monitor` and :menuselection:`Project Monitor`, respectively. Once activated, they can be selected by clicking the corresponding tab which appears at the bottom of the monitor window.
 
 .. .. versionadded:: 19.04
 
@@ -49,15 +49,14 @@ Controls and Elements
    :align: left
 
    Monitor controls (see :ref:`this table <ui_elements-monitor_controls>` for more details)
-..
+
 
 .. figure:: /images/user_interface/kdenlive2304_ui-monitor_elements.webp
    :width: 700px
    :figwidth: 700px
-   :align: right
+   :align: left
 
    Monitor areas and elements (see :ref:`this table <ui_elements-monitor_elements>` for more details)
-..
 
 
 .. _ui-monitors_display_toolbar:
@@ -94,7 +93,7 @@ The toolbar has the following options:
    * - |view-grid|
      - Change overlay. Click through the different available patterns.
    * - |zoom-in|
-     - Zoom in It’s always for the entire clip. Cut it if needed and apply motion tracking only to the resulting pieces where needed.
+     - Zoom in
    * - |zoom-out|
      - Zoom Out
    * - |list-add|
@@ -112,20 +111,21 @@ Monitor and Effect Direct Control
 
 .. .. versionadded:: 24.08
 
-
 .. figure:: /images/user_interface/kdenlive2408_ui-monitor_effect_direct_control.webp
-   :width: 400px
-   :figwidth: 400px
+   :width: 350px
+   :figwidth: 350px
    :align: left
    :alt: kdenlive2408_ui-monitor_effect_direct_control
 
-   Changing clips position and size, enabling grid
+   Directly changing position and size, grid enabled
 
-Effects which can use direct control in the monitor are effects which have the following parameters: X, Y, Width, Height, Opacity (Alpha, optional) and Rotation. 
+Effects which have parameters for X, Y, width, height, opacity (alpha, optional) and rotation, can be controlled directly in the monitor. For example: :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>` or :doc:`Crop by Padding </effects_and_filters/video_effects/transform_distort_perspective/crop_padding>`.
+
+Make sure :term:`Edit Mode<Edit Mode>` is enabled.
 
 .. rst-class:: clear-both
 
-Once such an effect is applied (either to a clip in the project bin, a clip in the timeline, a track or on master) you can:
+Once such an effect is applied either to a clip in the project bin, a clip in the timeline, a track or on master, the following additional tools are available in the monitor tool bar:
 
 .. list-table::
    :width: 80%
@@ -136,7 +136,7 @@ Once such an effect is applied (either to a clip in the project bin, a clip in t
    * - Icon
      - Description
    * - |snap|
-     - Enable a grid to which the clip will snap. :ref:`Changing grid size <ui-monitors_change_overlay_color>`
+     - Enable a grid to which the editing handles will snap. You can :ref:`change the grid size<ui-monitors_change_overlay_color>` in the Settings.
    * - |keyframe-next|
      - Go to the next keyframe.
    * - |keyframe-previous|
@@ -146,35 +146,33 @@ Once such an effect is applied (either to a clip in the project bin, a clip in t
    * - |keyframe-record|
      - Add automatic keyframe
 
--	Move and resize. While resizing, holding:
+Grab the handles to change the size of the clip. Holding :kbd:`Shift` to keep the aspect ratio, holding :kbd:`Ctrl` resizes in all directions equally (essentially keeping the center position in place).
 
-   -	:kbd:`Shift` keep the aspect ratio
+In the Project Monitor you can cycle trough resized clips with :kbd:`Alt+LMB`
 
-   -	:kbd:`Ctrl` keeps the center position untouched
-
--	Project monitor: cycling trough resized clips with :kbd:`Alt+click`
-
-Once such an effect is applied, the monitor overlay selection panel does not have the |list-add| |list-remove| icon anymore (add/remove guide). To show the |list-add| |list-remove| icon again disable the effects |view-hidden| in the :ref:`effect/composition stack header <effect_stack_functions>`.
+.. note:: Once such an effect is applied, the monitor overlay selection panel does not have the |list-add|\ :guilabel:`Add Guide/Marker` and |list-remove|\ :guilabel:`Remove Guide/Marker` icons anymore. To show them again disable the effects by clicking on the |view-visible|\ :guilabel:`Effects enabled` icon in the :ref:`Effect/Composition Stack header <effect_stack_functions>`. To enable direct control again, click on the |view-hidden|\ :guilabel:`Effects Disabled` icon.
 
 .. _ui-effect_direct_control:
 
-Following effects can be used for direct control:
+Direct Control is available for the following effects:
 
-.. list-table::
-   :width: 80%
-   :widths: 100
-   :class: table-wrap
-   :header-rows: 1
+.. hlist::
+   :columns: 2
 
-   * - Effect name
-   * - :doc:`Audio Level Visualization Filter </effects_and_filters/video_effects/on_master/audio_level_visualization_filter>`
-   * - :doc:`Audio Spectrum Filter </effects_and_filters/video_effects/on_master/audio_spectrum_filter>`
-   * - :doc:`Audio Waveform Filter </effects_and_filters/video_effects/on_master/audio_waveform_filter>`
-   * - :doc:`Dynamic Text </effects_and_filters/video_effects/generate/dynamic_text>`
-   * - :doc:`Position and Zoom </effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom>`
-   * - :doc:`Pillar Echo </effects_and_filters/video_effects/transform_distort_perspective/pillar_echo>` 
-   * - :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>`
-   * - :doc:`Crop by padding </effects_and_filters/video_effects/transform_distort_perspective/crop_padding>`
+   * :doc:`Alpha Shapes </effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes>`
+   * :doc:`Alpha Shapes (Mask) </effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask>`
+   * :doc:`Audio Level Visualization Filter </effects_and_filters/video_effects/on_master/audio_level_visualization_filter>`
+   * :doc:`Audio Spectrum Filter </effects_and_filters/video_effects/on_master/audio_spectrum_filter>`
+   * :doc:`Audio Waveform Filter </effects_and_filters/video_effects/on_master/audio_waveform_filter>`
+   * :doc:`Dynamic Text </effects_and_filters/video_effects/generate/dynamic_text>`
+   * :doc:`GPS Graphic </titles_and_graphics/titles/title_shapes>`
+   * :doc:`Motion Tracker </effects_and_filters/video_effects/alpha_mask_keying/motion_tracker>`
+   * :doc:`Position and Zoom </effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom>`
+   * :doc:`Pillar Echo </effects_and_filters/video_effects/transform_distort_perspective/pillar_echo>` 
+   * :doc:`Spot Remover </effects_and_filters/video_effects/alpha_mask_keying/spot_remover>`
+   * :doc:`Timer </effects_and_filters/video_effects/generate/timer>`
+   * :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>`
+   * :doc:`Crop by padding </effects_and_filters/video_effects/transform_distort_perspective/crop_padding>`
 
 
 .. _ui-monitors_change_overlay_color:
@@ -284,10 +282,10 @@ If you want to have the :ref:`Clip <ui-monitors_clip_monitor>` and/or the :ref:`
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_separate_windows.gif
    :width: 100%
    :figwidth: 100%
-   :alt: kdenlive2308_ui-monitors_separater_windows
+   :alt: kdenlive2308_ui-monitors_separate_windows
 
    Moving Clip and Project Monitor to their own independent windows (undocking)
 
-To put the monitors back into the tabbed view click on the monitor's title bar (enable it via :menuselection:`Menu --> View --> Show Titlebars`) and drag the window on top of another widget. See the :ref:`ui-customizing_interface` chapter for more details.
+To put the monitors back into the tabbed view click on the monitor's title bar (enable it via :menuselection:`Menu --> View --> Show Title Bars`) and drag the window on top of another widget. See the :ref:`ui-customizing_interface` chapter for more details.
 
-.. note:: There is low risk that the monitor widget has no title bar (intermittent defect). In this case you will need to reset the Kdenlive settings by deleting :file:`~/.config/kdenliverc` (Linux) or :file:`C:\\Users\\<user_name>\\AppData\\Roaming\\kdenlive\\kdenlivestaterc` (Windows).
+.. note:: There is a small risk that the monitor widget has no title bar (intermittent defect). In this case you will need to reset the Kdenlive settings by deleting :file:`~/.config/kdenliverc` (Linux) or :file:`C:\\Users\\<user_name>\\AppData\\Roaming\\kdenlive\\kdenlivestaterc` (Windows).
