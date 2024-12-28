@@ -44,7 +44,7 @@ Code quality
 * 1 empty line between title or text paragraph
 * 2 empty lines after a ``:ref:`` or before a reference
 
-After a command with ``..`` next line must be indented by 3 blank spaces to make the below line part of the command. The number of indent spaces must be always the same. 
+After a directive with ``..``, the next line must be indented by 3 blank spaces to make the below line part of the directive. The number of indent spaces must be always the same.
 
 .. figures: Only use figures
    :align: make it possible that you have text on the right site of the figure  
@@ -79,9 +79,9 @@ After a command with ``..`` next line must be indented by 3 blank spaces to make
 
 .. rst-class:: clear-both
 
-The ``rst-class:: clear-both`` command resets floating text (``:align: left`` or ``right``) before a new chapter or ``list-table``
+The ``rst-class:: clear-both`` directive resets floating text (``:align: left`` or ``right``) before a new chapter or a ``list-table`` directive.
 
-The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` when no command is following, so that Google Chrome show the followed table.
+The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` when white space is following or in case of a ``list-table`` directive after a ``figure`` directive with ``:align: left`` or ``align: right`` in order for Google Chrome to properly display the table. If there is no ``:align: left`` or ``:align: right``, a ``list-table`` can follow the ``figure`` directive without the need for ``rst-class:: clear-both`` and the ``|`` pipe character. Try to avoid that and do not use ``:align:`` when a ``list-table`` follows.
 
 |
 
@@ -101,7 +101,7 @@ The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` when no
 
 .. rubric:: Images side by side
 
-Use ``.. rubric::``` if you want a section-like element that doesn’t make up the table of contents.
+Use ``.. rubric::`` if you want a section-like element that is not included in the table of contents.
 
 |pic1| any text |pic2|
 
