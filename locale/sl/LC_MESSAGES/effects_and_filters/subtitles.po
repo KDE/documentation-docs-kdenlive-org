@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-23 01:47+0000\n"
-"PO-Revision-Date: 2024-12-20 07:34+0100\n"
+"PO-Revision-Date: 2024-12-27 20:13+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -43,12 +43,6 @@ msgid "Subtitles"
 msgstr "Podnaslovi"
 
 #: ../../effects_and_filters/subtitles.rst:36
-#, fuzzy
-#| msgid ""
-#| "The subtitling tool allows you to add and edit subtitles directly in the "
-#| "timeline on a special subtitle track or by using the :ref:`subtitle-"
-#| "window`. You can also import (**SRT**/**ASS**) and export (**SRT**) "
-#| "subtitles."
 msgid ""
 "The subtitling tool allows you to add and edit subtitles directly in the "
 "timeline on a special subtitle track or by using the :ref:`subtitle-window`. "
@@ -61,11 +55,6 @@ msgstr ""
 "**ASS**) in izvozite podnaslove (**SRT**)."
 
 #: ../../effects_and_filters/subtitles.rst:40
-#, fuzzy
-#| msgid ""
-#| "Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle "
-#| "track is displayed at a time). You can create, duplicate, and delete "
-#| "subtitle tracks with the :ref:`subtitle-manager`."
 msgid ""
 "Kdenlive allows multiple subtitle files in the subtitle track (only 1 "
 "subtitle file loaded at a time). You can create, duplicate, and delete "
@@ -83,6 +72,11 @@ msgid ""
 "Format-Guide>`_ and `Aegisub's Documentation <https://aegisub.org/docs/"
 "latest/>`_."
 msgstr ""
+"Kdenlive shranjuje podnaslove kot datoteke .ass, kar pomeni, da vas bo morda "
+"zanimalo raziskovanje nekaterih naprednih funkcij ASS. Za več podrobnosti si "
+"oglejte `Vodnik po vrsti datotek ASS <https://github.com/libass/libass/wiki/"
+"ASS-File-Format-Guide>`_ in `dokumentacijo programa Aegisub <https://aegisub."
+"org/docs/latest/>`_."
 
 #: ../../effects_and_filters/subtitles.rst:51
 msgid "Add Subtitles"
@@ -142,10 +136,6 @@ msgid "Edit Subtitles"
 msgstr "Uredi podnaslove"
 
 #: ../../effects_and_filters/subtitles.rst:74
-#, fuzzy
-#| msgid ""
-#| "Add or editing text either directly into the subtitle clip or in the "
-#| "subtitle window."
 msgid ""
 "You can add or editing text either directly into the subtitle clip or in the "
 "subtitle window."
@@ -227,33 +217,29 @@ msgid ""
 "Grab the end of a subtitle with the mouse and lengthen or shorten it as "
 "needed."
 msgstr ""
+"Z miško zgrabite konec podnaslova in ga po potrebi podaljšajte ali "
+"skrajšajte."
 
 #: ../../effects_and_filters/subtitles.rst:124
-#, fuzzy
-#| msgid ""
-#| "Grab the end of a subtitle with the mouse and lengthen or shorten it as "
-#| "needed. Set subtitle in/out can be achieved with the same shortcut as to "
-#| "set clip in/out (left/right parenthesis shortcut)."
 msgid ""
 "Set subtitle in/out can be achieved with the same shortcut as to set clip in/"
 "out (left/right parenthesis shortcut)."
 msgstr ""
-"Zgrabite konec podnaslova z miško in ga podaljšate ali skrajšate, kot je "
-"potrebno. Vhodno/izhodno točko podnaslova določite z enako bližnjico, kot "
-"velja za nastavitev vhodne/izhodne točke posnetka (bližnjica: levi/desni "
+"Vhodno/izhodno točko podnaslova določite z enako bližnjico, kot velja za "
+"nastavitev vhodne/izhodne točke posnetka (bližnjica: levi/desni okrogli "
 "oklepaj)."
 
 #: ../../effects_and_filters/subtitles.rst:128
-#, fuzzy
-#| msgid "Style subtitle"
 msgid "Style Subtitles"
-msgstr "Določitev sloga podnaslova"
+msgstr "Slog podnaslovov"
 
 #: ../../effects_and_filters/subtitles.rst:133
 msgid ""
 "Creating, duplicating, deleting, and editing subtitle styles can be managed "
 "through the :ref:`subtitle-manager`."
 msgstr ""
+"Ustvarjanje, podvajanje, brisanje in urejanje slogov podnaslovov je mogoče "
+"upravljati s pomočjo :ref:`upravitelja podnaslovov<subtitle-manager>`."
 
 #: ../../effects_and_filters/subtitles.rst:135
 msgid ""
@@ -264,16 +250,12 @@ msgstr ""
 "Slogi`"
 
 #: ../../effects_and_filters/subtitles.rst:137
-#, fuzzy
-#| msgid ""
-#| "Add or editing text either directly into the subtitle clip or in the "
-#| "subtitle window."
 msgid ""
 "Additionally, you can edit the assigned style directly using the edit button "
 "in the :ref:`subtitle-window`."
 msgstr ""
-"Dodajajte ali uredite besedilo neposredno v posnetku podnaslova ali v oknu "
-"podnaslova."
+"Poleg tega lahko urejate dodeljeni slog neposredno z gumbom za urejanje v "
+"oknu :ref:`subtitle-window`."
 
 #: ../../effects_and_filters/subtitles.rst:140
 msgid "Create a style"
@@ -283,12 +265,15 @@ msgstr "Ustvarjanje sloga"
 msgid ""
 "Subtitle styles can be created either within each subtitle file or globally."
 msgstr ""
+"Sloge podnaslovov lahko ustvarite v vsaki datoteki podnaslovov ali globalno."
 
 #: ../../effects_and_filters/subtitles.rst:144
 msgid ""
 "Choose a subtitle file or the global space from the sidebar as the location "
 "for the new style."
 msgstr ""
+"Izberite datoteko s podnaslovi ali globalni prostor v stranski vrstici kot "
+"mesto za nov slog."
 
 #: ../../effects_and_filters/subtitles.rst:146
 msgid "Click :guilabel:`+ Add Style` in the :ref:`subtitle-manager`."
@@ -311,10 +296,12 @@ msgid ""
 "In the style section of the :ref:`subtitle-manager`, drag a style to the "
 "desired item in the sidebar to move or copy it."
 msgstr ""
+"V razdelku slog v :ref:`upravitelju podnaslovov<subtitle-manager>` povlecite "
+"slog na želeni element v stranski vrstici, da ga premaknete ali kopirate."
 
 #: ../../effects_and_filters/subtitles.rst:159
 msgid "You can't move/delete style \"Default\"."
-msgstr ""
+msgstr "Sloga »Privzeto« ne morete premakniti/izbrisati."
 
 #: ../../effects_and_filters/subtitles.rst:162
 msgid "Assign a style to a subtitle"
@@ -326,40 +313,53 @@ msgid ""
 "guilabel:`Style` combobox in the :ref:`subtitle-window`. This style will be "
 "applied to **the entire subtitle**."
 msgstr ""
+"Podnaslovu, ki ga trenutno urejate, lahko dodelite slog z uporabo "
+"kombiniranega polja :guilabel:`Slog` v oknu :ref:`subtitle-window`. Ta slog "
+"bo uporabljen za **celoten podnaslov**."
 
 #: ../../effects_and_filters/subtitles.rst:167
 msgid "Override style with tags"
-msgstr ""
+msgstr "Preglasi slog z značkami"
 
 #: ../../effects_and_filters/subtitles.rst:169
 msgid ""
 "Kdenlive supports using ASS override tags to style **specific parts of the "
 "subtitle text**."
 msgstr ""
+"Kdenlive podpira uporabo oznak za preglasitev ASS za slog **določenih delov "
+"besedila podnapisov**."
 
 #: ../../effects_and_filters/subtitles.rst:175
 msgid ""
 "A **highlighter** renders different parts of the tags in distinct styles, "
 "making them more distinguishable."
 msgstr ""
+"**Označevalnik** izriše različne dele značk v različnih slogih, zaradi česar "
+"so bolj razločljive."
 
 #: ../../effects_and_filters/subtitles.rst:177
 msgid ""
 "An **auto-completer** automatically lists all valid presets as you start "
 "typing a tag name."
 msgstr ""
+"**Samodokončevalnik** samodejno navede vse veljavne prednastavitve, ko "
+"začnete vnašati ime značke."
 
 #: ../../effects_and_filters/subtitles.rst:179
 msgid ""
 "The buttons above the text editor will automatically add or edit tags when "
 "pressed."
 msgstr ""
+"Gumbi nad urejevalnikom besedila bodo samodejno dodali ali uredili značke, "
+"ko jih pritisnete."
 
 #: ../../effects_and_filters/subtitles.rst:181
 msgid ""
 "Tags like \"Set Position,\" which affect the entire subtitle text, will be "
 "added **at the beginning of the subtitle text**."
 msgstr ""
+"Značke, kot je »Nastavi položaj«, ki vplivajo na celotno besedilo podnapisa, "
+"bodo dodane **na začetku besedila podnapisa**."
 
 #: ../../effects_and_filters/subtitles.rst:183
 msgid ""
@@ -367,48 +367,49 @@ msgid ""
 "either be added **at the current cursor position** or **wrap the selected "
 "text in tags** if there is a selection."
 msgstr ""
+"Značke, kot je »Preklopi krepko«, ki vplivajo samo na besedilo, ki jim "
+"sledi, bodo dodane **na trenutni položaj kazalca** ali ** zavijte izbrano "
+"besedilo v oznake**, če obstaja izbor."
 
 #: ../../effects_and_filters/subtitles.rst:185
 msgid ""
 "Additionally, you can use '\\\\r<style>' to reset the style of the subtitle "
 "after the tag."
 msgstr ""
+"Poleg tega lahko uporabite `\\\\r<style>`, da ponastavite slog podnaslova po "
+"znački."
 
 #: ../../effects_and_filters/subtitles.rst:190
 msgid "Multi-layer Subtitling"
 msgstr "Večplastno podnaslavljanje"
 
 #: ../../effects_and_filters/subtitles.rst:192
-#, fuzzy
-#| msgid ""
-#| "Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle "
-#| "track is displayed at a time). You can create, duplicate, and delete "
-#| "subtitle tracks with the :ref:`subtitle-manager`."
 msgid ""
 "Kdenlive supports multiple subtitle layers. You can create, duplicate, and "
 "delete subtitle layers using the :guilabel:`Layer` tab in :ref:`subtitle-"
 "manager`."
 msgstr ""
-"Kdenlive omogoča več podnaslovov v stezi s podnaslovi (hkrati je prikazana "
-"le 1 steza s podnaslovi). Steze s podnaslovi lahko ustvarite, podvojite in "
-"izbrišete z :ref:`upraviteljem podnaslovov <subtitle-manager>`."
+"Kdenlive omogoča več plasti podnaslovov. Plasti podnaslovov lahko ustvarite, "
+"podvojite in izbrišete na zavihku :guilabel:`Plast<Layer>` v :ref:"
+"`upravitelju podnaslovov <subtitle-manager>`."
 
 #: ../../effects_and_filters/subtitles.rst:197
-#, fuzzy
 msgid ""
 "A new subtitle layer can also be created by dragging an existing subtitle "
 "down beyond the bottom of the subtitle track or by adjusting the layer "
 "indicator in the :ref:`subtitle-window`."
 msgstr ""
-"Novo plast podnapisov lahko ustvarite tudi tako, da obstoječi podnapis "
-"povlečete navzdol čez dno podnapisov ali prilagodite indikator plasti v "
-"oknu :ref:'podnapisi'."
+"Novo plast podnaslovov lahko ustvarite tudi tako, da obstoječi podnapis "
+"povlečete navzdol čez dno podnapisov ali prilagodite indikator plasti v :ref:"
+"`oknu podnapisov<subtitle-window>`."
 
 #: ../../effects_and_filters/subtitles.rst:202
 msgid ""
 "Subtitles with a lower Layer value are placed behind those with a higher "
 "value."
 msgstr ""
+"Podnaslovi z nižjo vrednostjo Plast so postavljeni za tistimi z višjo "
+"vrednostjo."
 
 #: ../../effects_and_filters/subtitles.rst:205
 msgid "Set the layer of a subtitle"
@@ -419,6 +420,8 @@ msgid ""
 "When you create a new subtitle by double-clicking on the timeline, the "
 "subtitle will be placed on the layer under your cursor."
 msgstr ""
+"Ko ustvarite nov podnaslov z dvoklikom časovnice, bo podnaslov umeščen na "
+"plast pod kazalcem."
 
 #: ../../effects_and_filters/subtitles.rst:209
 msgid ""
@@ -426,22 +429,29 @@ msgid ""
 "indicator in the :ref:`subtitle-window`, or you can simply drag and drop the "
 "subtitle from one layer to another on the timeline."
 msgstr ""
+"Vrednost plasti podnaslova lahko spremenite z indikatorjem :guilabel:`Plast` "
+"v oknu :ref:`subtitle-window` ali pa preprosto povlečete in spustite "
+"podnaslov iz ene plasti v drugo na časovnici."
 
 #: ../../effects_and_filters/subtitles.rst:214
 msgid ""
 "If you set the layer value higher than the current maximum, Kdenlive will "
 "automatically add a new layer."
 msgstr ""
+"Če nastavite vrednost plasti, ki je višja od trenutne najvišje vrednosti, "
+"Kdenlive samodejno doda novo plast."
 
 #: ../../effects_and_filters/subtitles.rst:217
 msgid "Copy/Move layer between files"
-msgstr ""
+msgstr "Kopiraj/premakni plast med datotekami"
 
 #: ../../effects_and_filters/subtitles.rst:219
 msgid ""
 "You can copy and move layers between different subtitle files using the :ref:"
 "`subtitle-manager`."
 msgstr ""
+"Plasti lahko kopirate in premikate med različnimi datotekami s podnaslovi z "
+"uporabo :ref:`upravitelja podnaslovov<subtitle-manager>`."
 
 #: ../../effects_and_filters/subtitles.rst:221
 msgid ""
@@ -449,16 +459,21 @@ msgid ""
 "sidebar. All events within the layer will be copied or moved to the new "
 "location."
 msgstr ""
+"Na zavihku :guilabel:`Plast` preprosto povlecite plast v želeno datoteko v "
+"stranski vrstici. Vsi dogodki v plasti bodo kopirani ali premaknjeni na novo "
+"mesto."
 
 #: ../../effects_and_filters/subtitles.rst:227
 msgid "Default style of layer"
-msgstr ""
+msgstr "Privzeti slog plasti"
 
 #: ../../effects_and_filters/subtitles.rst:229
 msgid ""
 "You can assign each subtitle layer a default style. Any new subtitles "
 "created on that layer will automatically be assigned this style."
 msgstr ""
+"Vsaki plasti podnaslovov lahko dodelite privzeti slog. Vsem novim "
+"podnaslovom, ustvarjenim na tej plasti, bo samodejno dodeljen ta slog."
 
 #: ../../effects_and_filters/subtitles.rst:231
 msgid ""
@@ -466,6 +481,9 @@ msgid ""
 "Click the :guilabel:`Style` column of a layer item and select the desired "
 "style from the pop-up menu."
 msgstr ""
+"Če želite to nastaviti, pojdite na zavihek :guilabel:`Plast` v :ref:"
+"`upravitelju podnaslovov<subtitle-manager>`. Kliknite stolpec :guilabel:"
+"`Slog` elementa plasti in v pojavnem meniju izberite želeni slog."
 
 #: ../../effects_and_filters/subtitles.rst:233
 msgid ""
@@ -473,6 +491,8 @@ msgid ""
 "subtitle file, as it allows each speaker to have a distinct style "
 "effortlessly."
 msgstr ""
+"Ta funkcija je še posebej uporabna pri delu z več govorci v datoteki s "
+"podnaslovi, saj omogoča vsakemu govorcu, da ima brez težav poseben slog."
 
 #: ../../effects_and_filters/subtitles.rst:238
 msgid "Import and Export Subtitles"
@@ -532,45 +552,38 @@ msgstr "Okno podnaslovov"
 
 #: ../../effects_and_filters/subtitles.rst:272
 msgid "**Add subtitles** with the :guilabel:`+` button"
-msgstr ""
+msgstr "**Dodaj podnaslove** z gumbom :guilabel:`+`"
 
 #: ../../effects_and_filters/subtitles.rst:274
 msgid "**Cut subtitles** with the scissors button"
-msgstr ""
+msgstr "**Izreži podnaslove** z gumbom škarij"
 
 #: ../../effects_and_filters/subtitles.rst:276
-#, fuzzy
-#| msgid ""
-#| "The scissors are mostly here for dividing subtitles: let's say your "
-#| "subtitle text is too long and you want to make it two different "
-#| "subtitles. Put the cursor in the text widget where you want to cut and "
-#| "click the scissors, it will split the text between two different subtitle "
-#| "items. The scissors are only working when the playhead is over the "
-#| "subtitle itself."
 msgid ""
 "Let's say your subtitle text is too long and you want to make it two "
 "different subtitles. Put the cursor in the text widget where you want to cut "
 "and click the scissors, it will split the text between two different "
 "subtitle items."
 msgstr ""
-"Škarje so večinoma tukaj za delitev podnaslova: recimo, da je besedilo "
-"vašega podnaslova predolgo in želite iz njega narediti dva različna "
-"podnaslova. Postavite kazalec v besedilni gradnik, kjer želite razpoloviti "
-"podnaslova, in kliknite škarje, da razdeli besedilo med dva različna "
-"podnaslovna elementa. Škarje delujejo le, ko je predvajalna glava nad "
-"podnaslovom."
+"Recimo, da je besedilo podnaslova predolgo in želite narediti dva različna "
+"podnaslova. Postavite kazalec v pripomoček za besedilo, kjer želite rezati, "
+"in kliknite škarje; besedilo se razdeli med dva različna elementa "
+"podnaslovov."
 
 #: ../../effects_and_filters/subtitles.rst:279
 msgid ""
 "The scissors only works when the playhead is positioned over the subtitle "
 "itself."
 msgstr ""
+"Škarje delujejo le, če je predvajalnna glava postavljena nad sam podnaslov."
 
 #: ../../effects_and_filters/subtitles.rst:281
 msgid ""
 "**Apply changes** by clicking the check-mark button, or by pressing :kbd:"
 "`Enter`"
 msgstr ""
+"**Uveljavite spremembe** tako, da kliknete gumb s kljukico ali pritisnete :"
+"kbd:`vnašalko`"
 
 #: ../../effects_and_filters/subtitles.rst:286
 msgid "Character count and zoom"
@@ -615,22 +628,30 @@ msgid ""
 "To enable spell check, right-click the subtitle text widget in the :ref:"
 "`subtitle-window` and check the :guilabel:`Auto Spell Check` option."
 msgstr ""
+"Če želite omogočiti preverjanje črkovanja, z desno tipko miške kliknite "
+"pripomoček za besedilo podnaslovov v oknu :ref:`subtitle-window` in potrdite "
+"možnost :guilabel:`Samodejno preverjanje črkovanja`."
 
 #: ../../effects_and_filters/subtitles.rst:313
 msgid ""
 "Please note that this feature conflicts with the ASS tag highlighter. To re-"
 "enable the highlighter, uncheck the :guilabel:`Auto Spell Check` option."
 msgstr ""
+"Upoštevajte, da je ta funkcija v nasprotju z označevalnikom značk ASS. Če "
+"želite znova omogočiti označevalnik, počistite možnost :guilabel:`Samodejno "
+"preverjanje črkovanja`."
 
 #: ../../effects_and_filters/subtitles.rst:322
 msgid "Simple editor"
-msgstr ""
+msgstr "Enostaven urejevalnik"
 
 #: ../../effects_and_filters/subtitles.rst:324
 msgid ""
 "A simple text editor that syncs with the normal editor, hides ASS override "
 "tag blocks, and translates '\\N' into a new line."
 msgstr ""
+"Preprost urejevalnik besedila, ki se sinhronizira z običajnim urejevalnikom, "
+"skrije bloke značk ASS in prevede »\\N« v novo vrstico."
 
 #: ../../effects_and_filters/subtitles.rst:327
 msgid ""
@@ -638,37 +659,48 @@ msgid ""
 "can sometimes behave unpredictably. So it's best suited for simpler use "
 "cases before or after editing styles."
 msgstr ""
+"Zaradi zapletenosti pravil značk ASS se lahko urejanje slogov v preprostem "
+"urejevalniku včasih obnaša nepredvidljivo. Zato je najprimernejši za "
+"preprostejše primere uporabe pred ali po urejanju slogov."
 
 #: ../../effects_and_filters/subtitles.rst:330
+#, fuzzy
 msgid "Scrolling"
-msgstr ""
+msgstr "Drsenje"
 
 #: ../../effects_and_filters/subtitles.rst:332
 msgid "You can configure subtitle scrolling using the following options:"
-msgstr ""
+msgstr "Pomikanje podnaslovov lahko prilagodite z naslednjimi možnostmi:"
 
 #: ../../effects_and_filters/subtitles.rst:334
+#, fuzzy
 msgid ":menuselection:`Subtitle Window --> More Options --> Scroll`"
-msgstr ""
+msgstr ":menuselection:`Okno s podnapisi --> Več možnosti --> Drsenje`"
 
 #: ../../effects_and_filters/subtitles.rst:339
+#, fuzzy
 msgid "Check the :guilabel:`Scrolling` checkbox to enable scrolling."
-msgstr ""
+msgstr "Potrdite polje :guilabel:`Drsenje`, da omogočite drsenje."
 
 #: ../../effects_and_filters/subtitles.rst:341
+#, fuzzy
 msgid "Use the :guilabel:`Direction` combobox to set the scrolling direction."
 msgstr ""
+"Uporabite kombinirano polje :guilabel:`Smer`, da nastavite smer drsenja."
 
 #: ../../effects_and_filters/subtitles.rst:343
 msgid "Adjust the speed by changing the value of :guilabel:`Speed`."
-msgstr ""
+msgstr "Prilagodite hitrost tako, da spremenite vrednost :guilabel:`Hitrost`."
 
 #: ../../effects_and_filters/subtitles.rst:345
+#, fuzzy
 msgid ""
 "**For vertical scrolling only**, set the :guilabel:`Upper Bound` and :"
 "guilabel:`Lower Bound` values to clip the text at the top and bottom of the "
 "screen."
 msgstr ""
+"**Samo za navpično drsenje** nastavite vrednosti :guilabel:`Zgornja meja` "
+"in :guilabel:`Spodnja meja`, da porežete besedilo na vrhu in dnu zaslona."
 
 #: ../../effects_and_filters/subtitles.rst:350
 msgid "Subtitle Manager"
@@ -719,3 +751,5 @@ msgstr "Urejevalnik slogov"
 msgid ""
 "An editor that allows you to adjust style properties with a live preview."
 msgstr ""
+"Urejevalnik, ki vam omogoča prilagajanje lastnosti sloga s predogledom v "
+"živo."
