@@ -368,7 +368,7 @@ The curve editor is showing the keyframe type and their curves.
 
 To switch to the curve editor click on |switch-to-curve-editor-view|:guilabel:`Switch to curve editor view`.
 
-The curve editor can only be enabled on effects which have the following parameters: X, Y, width, hight, opacity (alpha, optional) and rotation. For all other effects the curve editor is greyed out.
+The curve editor can only be enabled on effects which have the following parameters: X, Y, width, height, opacity (alpha, optional) and rotation. For all other effects the curve editor is greyed out.
 
 By double clicking into the window new keyframes get added. Hovering over a keyframe, the cursor changes to a cross and you can:
 
