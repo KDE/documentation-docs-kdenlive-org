@@ -126,8 +126,8 @@ msgid ""
 "Select a file with the GPS data. Supported formats are :file:`.gpx` and :"
 "file:`.tcx`."
 msgstr ""
-"Seleccioneu un fitxer amb les dades de GPS. Els formats admesos són "
-":file:`.gpx` i :file:`.tcx`."
+"Seleccioneu un fitxer amb les dades de GPS. Els formats admesos són :file:`."
+"gpx` i :file:`.tcx`."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:62
 msgid "Time offset in seconds"
@@ -140,13 +140,6 @@ msgid "Integer"
 msgstr "Enter"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:64
-#| msgid ""
-#| "An offset (in seconds) to be added to the video file to match it to the "
-#| "GPS track. Most of the time this willTrim start at least need to be set "
-#| "to the timezone difference between the two files plus some seconds if the "
-#| "video recording device isn't precisely set to correct time. GPS time is "
-#| "always exact and in UTC\\ [1]_. Use positive values if GPS is ahead of "
-#| "video and negative otherwise."
 msgid ""
 "An offset in seconds to be added to the video file to match it to the GPS "
 "track. Most of the time this will at least need to be set to the timezone "
@@ -216,10 +209,6 @@ msgid "Selection"
 msgstr "Selecció"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:73
-#| msgid ""
-#| "What data from the GPS file is used for drawing: **0** = GPS location/"
-#| "track; **1** = altitude (if available); **2** = heart rate (if "
-#| "available); **3** = speed (always available, computed from location)"
 msgid ""
 "What data from the GPS file is used for drawing. Options are **GPS location/"
 "track** (default), **Altitude** (if available), **Heart rate** (if "
@@ -235,12 +224,6 @@ msgid "Graph type"
 msgstr "Tipus de gràfic"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:76
-#| msgid ""
-#| "How to draw the selected data: **0** = a basic 2D map line (for location) "
-#| "or 1D graph per time (others); **1** = zooms in onto the map/graph and "
-#| "centers around the current location\\ [2]_; **2** = draws a speedometer "
-#| "(available for all data sources but recommended only for speed; for the "
-#| "map type it represents the \"percentage done\" from trimmed start - end)"
 msgid ""
 "How to draw the selected data. Options are **Basic 2D map line (for "
 "location) or 1D graph per time (others)**, **Zoom in onto the map/graph and "
@@ -310,19 +293,15 @@ msgid "Switch"
 msgstr "Commutador"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:85
-#| msgid ""
-#| "Decides how to interpret the :guilabel:`Crop left` and :guilabel:`Crop "
-#| "right` values: **0** = a percentage from min..max; **1** = an absolute "
-#| "value (ie: it can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgid ""
 "Decides how to interpret the :guilabel:`Crop left` and :guilabel:`Crop "
 "right` values: **Percentage from min..max**, or **Absolute value** (ie: it "
 "can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgstr ""
 "Decideix com interpretar els valors :guilabel:`Escapçat per l'esquerra` i :"
-"guilabel:`Escapçat per la dreta`: **Percentatge des del mín..màx** o "
-"**Valor absolut** (és a dir, es pot retallar entre 22,2 i 22,3 graus de "
-"longitud)\\ [3]_"
+"guilabel:`Escapçat per la dreta`: **Percentatge des del mín..màx** o **Valor "
+"absolut** (és a dir, es pot retallar entre 22,2 i 22,3 graus de longitud)\\ "
+"[3]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:86
 msgid "Crop left"
@@ -330,15 +309,6 @@ msgstr "Escapçat per l'esquerra"
 
 # skip-rule: t-sp_tpc
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:88
-#| msgid ""
-#| "Crops data from the left side of the graph (effectively zooming in). The "
-#| "value is interpreted either as a percentage of total or an absolute value "
-#| "depending on :guilabel:`Crop mode horizontal`. In percentage mode the "
-#| "values are not restricted to 0-100 to allow for \"zoom out\" behaviour "
-#| "(ie: cropping -50 left will add an extra half of the total horizontal "
-#| "distance). Values over 100 (in % mode) will effectively not display "
-#| "anything. If :guilabel:`Graph type` is **speedometer**, all crop left/"
-#| "right values are ignored."
 msgid ""
 "Crops data from the left side of the graph (effectively zooming in). The "
 "value is interpreted either as a percentage of total or an absolute value "
@@ -378,11 +348,6 @@ msgid "Crop mode vertical"
 msgstr "Mode d'escapçat vertical"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:94
-#| msgid ""
-#| "Decides how to interpret the :guilabel:`Crop top` and :guilabel:`Crop "
-#| "bottom` values: **0** = a percentage from min..max; **1** = an absolute "
-#| "value (ie: it can zoom in to between 100 and 150m of altitude to show "
-#| "small changes in altitude between those 2 values better)\\ [4]_"
 msgid ""
 "Decides how to interpret the :guilabel:`Crop top` and :guilabel:`Crop "
 "bottom` values: **Percentage from min..max**, or **Absolute value** (ie: it "
@@ -391,8 +356,8 @@ msgid ""
 msgstr ""
 "Decideix com interpretar els valors d':guilabel:`Escapçat superior` i :"
 "guilabel:`Escapçat inferior`: **Percentatge des del mín..màx** o **Valor "
-"absolut** (és a dir, pot ampliar entre 100 i 150 m d'altitud per a "
-"mostrar millor els petits canvis d'altitud entre aquests 2 valors)\\ [4]_"
+"absolut** (és a dir, pot ampliar entre 100 i 150 m d'altitud per a mostrar "
+"millor els petits canvis d'altitud entre aquests 2 valors)\\ [4]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:95
 msgid "Crop bottom"
@@ -400,15 +365,6 @@ msgstr "Escapçat inferior"
 
 # skip-rule: t-sp_tpc
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:97
-#| msgid ""
-#| "Crops data from the bottom side of the graph (effectively zooming in). "
-#| "The value is interpreted either as a percentage of total or an absolute "
-#| "value depending on :guilabel:`Crop mode vertical`. In percentage mode the "
-#| "values are not restricted to 0-100 to allow for \"zoom out\" behaviour "
-#| "(ie: cropping -50 bot will add an extra half of the total vertical "
-#| "distance to the bottom). Values over 100 (in % mode) will effectively not "
-#| "display anything. If :guilabel:`Graph type` is speedometer, this will set "
-#| "the minimum needle position which will clamp all values that are lower."
 msgid ""
 "Crops data from the bottom side of the graph (effectively zooming in). The "
 "value is interpreted either as a percentage of total or an absolute value "
@@ -453,11 +409,10 @@ msgid ""
 "Chooses one of nine styles to draw the graph line (:ref:`options see below "
 "<effects-gps_graphic-color_style>`)"
 msgstr ""
-"Tria un dels nous estils per a dibuixar la línia del gràfic (:ref:`vegeu "
-"les opcions a sota <effects-gps_graphic-color_style>`)"
+"Tria un dels nous estils per a dibuixar la línia del gràfic (:ref:`vegeu les "
+"opcions a sota <effects-gps_graphic-color_style>`)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:104
-#| msgid "Show now dot"
 msgid "Show Now dot"
 msgstr "Mostra el punt actual"
 
@@ -470,7 +425,6 @@ msgstr ""
 "del gràfic. Si el tipus de gràfic és velocímetre, això afecta l'agulla."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:107
-#| msgid "Now dot colour"
 msgid "Now dot color"
 msgstr "Color del punt actual"
 
@@ -494,7 +448,6 @@ msgstr ""
 "degradats), fent que canviï de color en el temps de manera efectiva."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:110
-#| msgid "Show now text"
 msgid "Show Now text"
 msgstr "Text del punt actual"
 
@@ -523,7 +476,6 @@ msgstr ""
 "horitzontal."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:116
-#| msgid "Thickness"
 msgid "Line Thickness (px)"
 msgstr "Gruix de la línia (px)"
 
@@ -536,13 +488,6 @@ msgid "Draw legend"
 msgstr "Dibuixa la llegenda"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:121
-#| msgid ""
-#| "If enabled it will draw 5 horizontal (and vertical for map type) lines "
-#| "with small values each corresponding to the current data source value at "
-#| "0%, 25%, 50%, 75% and 100% of current graph shown, affected by the "
-#| "legend_unit type if applicable and with the string appended to the value. "
-#| "For :guilabel:`Graph type` **speedometer** this shows division values "
-#| "(but without appending unit)."
 msgid ""
 "If enabled it will draw 5 horizontal (and vertical for map type) lines with "
 "small values each corresponding to the current data source value at 0%, 25%, "
@@ -594,12 +539,10 @@ msgstr ""
 "inesperats."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:128
-#| msgid "Background scale"
 msgid "Background image"
 msgstr "Imatge de fons"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:129
-#| msgid "Selection"
 msgid "File selection"
 msgstr "Selecció de fitxer"
 
@@ -639,7 +582,6 @@ msgid "Sets the colors of the graph line"
 msgstr "Estableix els colors de la línia del gràfic"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:144
-#| msgid "The following selection items are available:"
 msgid "The following options for :guilabel:`Graph color style` are available:"
 msgstr ""
 "Hi ha disponibles les opcions següents per a :guilabel:`Estil de color del "
@@ -650,18 +592,14 @@ msgid "One color"
 msgstr "Un color"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:152
-#| msgid "one color -> same color and size for the entire graph"
 msgid "Same color and size for the entire graph"
 msgstr "El mateix color i mida per al gràfic sencer"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:153
-#| msgid "Now dot colour"
 msgid "Two colors"
 msgstr "Dos colors"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:154
-#| msgid ""
-#| "two colors -> same as 2 and 3 but the entire line is the same thickness"
 msgid ""
 "Same as *Solid Past* or *Solid Future* but the entire line is the same "
 "thickness"
@@ -674,11 +612,6 @@ msgid "Solid past - thin future"
 msgstr "Passat sòlid - futur prim"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:156
-#| msgid ""
-#| "solid past, thin future -> from the beginning of the graph to the current "
-#| "position (=\"past\") it will be drawn using the 1st color and chosen "
-#| "thickness, but for the \"future\" part of the graph it will use the 2nd "
-#| "color and thickness will be 2px (or 1px if main thickness is below 3)"
 msgid ""
 "From the beginning of the graph to the current position (=\"past\") it will "
 "be drawn using the 1st color and chosen thickness, but for the \"future\" "
@@ -691,7 +624,6 @@ msgstr ""
 "el gruix principal està per sota de 3)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:157
-#| msgid "solid future, thin past"
 msgid "Solid future - thin past"
 msgstr "Futur sòlid - passat prim"
 
@@ -700,14 +632,10 @@ msgid "Same as above, just reversed"
 msgstr "Igual que l'anterior però invertit"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:159
-#| msgid "horizontal gradient"
 msgid "Vertical gradient"
 msgstr "Degradat horitzontal"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:160
-#| msgid ""
-#| "vertical gradient -> the line will be coloured as a vertical gradient "
-#| "relative to the entire rect area"
 msgid ""
 "The line will be coloured as a vertical gradient relative to the entire rect "
 "area"
@@ -716,7 +644,6 @@ msgstr ""
 "recta"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:161
-#| msgid "horizontal gradient"
 msgid "Horizontal gradient"
 msgstr "Degradat horitzontal"
 
@@ -725,15 +652,10 @@ msgid "Same as above, just horizontal"
 msgstr "Igual que l'anterior però horizontal"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:163
-#| msgid "color by heart rate"
 msgid "Color by duration"
 msgstr "Color per a la durada"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:164
-#| msgid ""
-#| "color by duration -> the selected colors will be used as a gradient, in "
-#| "chronological time (except for location source, this will effectively be "
-#| "a left to right gradient for 1D graphs)"
 msgid ""
 "The selected colors will be used as a gradient, in chronological order "
 "(except for location source, this will effectively be a left to right "
@@ -744,15 +666,10 @@ msgstr ""
 "d'esquerra a dreta per als gràfics 1D)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:165
-#| msgid "color by heart rate"
 msgid "Color by altitude"
 msgstr "Color per a l'altitud"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:166
-#| msgid ""
-#| "color by altitude -> the selected colors will be used as a gradient from "
-#| "the minimum altitude value from file to the maximum one, not affected by "
-#| "crops or trim"
 msgid ""
 "The selected colors will be used as a gradient from the minimum altitude "
 "value from file to the maximum one, not affected by crops or trim"
@@ -761,15 +678,10 @@ msgstr ""
 "d'altitud des del fitxer fins al màxim, no afectat per escapçats o retallats"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:167
-#| msgid "color by heart rate"
 msgid "Color by heart rate"
 msgstr "Color per a la freqüència cardíaca"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:168
-#| msgid ""
-#| "color by altitude -> the selected colors will be used as a gradient from "
-#| "the minimum altitude value from file to the maximum one, not affected by "
-#| "crops or trim"
 msgid ""
 "The selected colors will be used as a gradient from the minimum heart rate "
 "value from file to the maximum one"
@@ -778,13 +690,10 @@ msgstr ""
 "la freqüència cardíaca fins al màxim"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:169
-#| msgid "color by heart rate"
 msgid "Color by speed"
 msgstr "Color per a la velocitat"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:170
-#| msgid ""
-#| "color by speed -> same as above but gradient is affected by smoothing"
 msgid "Same as above but gradient is affected by smoothing"
 msgstr "Igual que l'anterior, però el degradat es veu afectat pel suavitzat"
 
