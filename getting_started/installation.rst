@@ -1,5 +1,5 @@
 .. meta::
-   :description: How to install Kdenlive video editor
+   :description: Kdenlive Documentation - How to install Kdenlive
    :keywords: KDE, Kdenlive, install, Installation, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -21,9 +21,10 @@
              - Geolgar (https://userbase.kde.org/User:Geolgar)
              - Tenzen (https://userbase.kde.org/User:Tenzen)
              - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
+
 
 .. |news_page| raw:: html
 
@@ -46,30 +47,32 @@ Installation
 
 Kdenlive is released about every three month. See the Kdenlive |news_page| to get the latest information and release notes. And check out :doc:`/more_information/whats_new` for the most recent feature additions.
 
-You can install Kdenlive in two different ways: Using an installer or as fully self-contained executable (Windows: standalone; Linux: appimage). On MacOS you can only use the installer version.
+You can install Kdenlive in two different ways:
+
+- Using an installer
+- As a self-contained executable (Windows: *standalone*; Linux: *appimage*).
+
+On macOS you can only use the installer version.
 
 Visit the |download_page| of the Kdenlive web site for up to date information on installing Kdenlive.
 
-You’ll find all previous Kdenlive versions in the |attic|.
+You will find all previous Kdenlive versions in the |attic|.
 
-Minimum system requirements
+
+Minimum System Requirements
 ---------------------------
 
 **Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.15 (Catalina) [1]_ or newer and on M1, 64-bit Linux. Please see the details below.
 
-**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD-Video, 4 cores for HD-Video, and 8 cores for 4K-Video. Please see the details below.
+**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD video, 4 cores for HD video, and 8 cores for 4K video. Please see the details below.
 
 **GPU:** OpenGL 2.0 that works correctly and is compatible. On Windows, you can also use a card with good, compatible DirectX 9 or 11 drivers.
 
-**RAM:** At least 4 GB for SD-Video, 8 GB for HD-Video, and 16 GB for 4K-Video.
+**RAM:** At least 4 GB for SD video, 8 GB for HD video, and 16 GB for 4K video.
 
-.. tip::
+.. tip:: If your computer is at the lower end of CPU and RAM requirements, you should use the :ref:`Preview Resolution <ui-monitors_preview_resolution>`, :ref:`Proxy<configure_proxy_clips>` and :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering` features to help reduce preview lag.
    
-   If your computer is at the lower end of CPU and RAM requirements, you should use the :ref:`Preview Resolution <ui-monitors_preview_resolution>`, :ref:`Proxy<configure_proxy_clips>` and :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering` features to help reduce preview lag.
-   
-.. note::
-
-   Video editing is in general relying heavily on CPU power. While Kdenlive has render profiles with GPU support timeline playback uses the CPU. Therefore, the more powerful your CPU the better the playback performance of Kdenlive. More and better GPU support is on the near-term roadmap.
+.. note:: Video editing is in general relying heavily on CPU power. While Kdenlive has render profiles with GPU support, timeline playback uses the CPU. Therefore, the more powerful your CPU the better the playback performance of Kdenlive. More and better GPU support is on the near-term roadmap.
    
 
 Kdenlive on Linux
@@ -79,6 +82,7 @@ Kdenlive can be installed on non-KDE Desktops without any issues.
 
 **Packages:** Minimum Ubuntu 22.04 for PPA. AppImage, Snap or Flatpak have no such minimal requirements.
 
+
 Kdenlive on Windows
 -------------------
 
@@ -86,17 +90,17 @@ Kdenlive runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and n
 
 Kdenlive is available as an install and as a standalone version.
 
-- Install version: Needs administrator rights and gets installed on your local machine. It's also listed as a program.
+- Install version: Needs administrator rights and gets installed on your local machine. It is also listed as a program.
    
-   - It's available for all users on your computer.
+   - It is available for all users on your computer.
 
    - The Kdenlive files are always located in the same folder.  
 
-- Standalone version: **Doesn't** need administrator rights and isn't installed. It's **not** listed as a program. Is only accessible for the user who has downloaded the file.  
+- Standalone version: **Doesn't** need administrator rights and isn't installed. It is **not** listed as a program. Is only accessible for the user who has downloaded the file.  
    
    - If you work with a normal user on your computer, you can use Kdenlive.
 
-   - You can copy the Kdenlive folder on any external drive and run it on a different computer without installing it. However, your personal settings and downloads within Kdenlive are related to the computer you work on.   
+   - You can copy the Kdenlive folder on any external drive and run it on a different computer without installing it. However, your personal settings and downloads within Kdenlive are stored on the computer you work on.   
 
 .. epigraph::
 
@@ -118,14 +122,15 @@ Kdenlive is available as an install and as a standalone version.
       Kdenlive bin folder
 
 
-   To start Kdenlive navigate to the `bin folder` and double-click Kdenlive. You can also create a shortcut to your Desktop for easy access. Right-click on kdenlive.exe and select :guilabel:`Send to ...` and then :guilabel:`Desktop (create shortcut)`.
+   To start Kdenlive navigate to the :file:`bin` folder and double-click :file:`kdenlive.exe`. You can also create a shortcut to your Desktop for easy access. Right-click on :file:`kdenlive.exe` and select :guilabel:`Send to ...` and then :guilabel:`Desktop (create shortcut)`.
 
 .. rst-class:: clear-both
 
-Kdenlive in a Windows domain
+
+Kdenlive in a Windows Domain
 ----------------------------
 
-If you want to use Kdenlive with domain users with using Windows Active Directory and/or Group Policies (GPOs) make sure all users have read/write rights to the following folders:
+If you want to use Kdenlive with domain users using Windows Active Directory and/or Group Policies (GPOs), make sure all users have read/write access to the following folders:
 
 .. epigraph::
 
@@ -143,21 +148,22 @@ If you want to use Kdenlive with domain users with using Windows Active Director
 
    %LocalAppData%\\knewstuff3
 
-Do also make sure no GPO is blocking the access to these folders.
+Also make sure no GPO is blocking the access to these folders.
+
 
 .. _kdenlive_macos:
 
 Kdenlive on macOS
 -----------------
 
-Kdenlive runs with Intel based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
+Kdenlive runs with Intel-based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
 
 .. .. .. versionadded:: 22.04.0
 
 .. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
 
-Install procedure
-~~~~~~~~~~~~~~~~~
+Installation Procedure
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/getting_started/macos_download_option.webp
    :alt: macos_download_option
@@ -218,84 +224,20 @@ The message that Apple can't search for malware will appear again. Just click on
 
 .. _automatically_check_for_updates:
 
-Automatically check for updates
+Automatically Check for Updates
 -------------------------------
 
 .. .. .. versionadded:: 24.02
 
-Kdenlive automatically check at startup for updates based on the app version (no network connection)
+Kdenlive automatically checks at startup for updates based on the app version (no network connection needed)
 
 .. figure:: /images/getting_started/kdenlive2402_check-for-update.webp
    :width: 80%
    :alt: kdenlive2402_check-for-update
 
-You can disable this function in :menuselection:`Settings --> Configure Kdenlive` under :ref:`configure_environment` see :guilabel:`Check for updates`. 
+You can disable this function in :menuselection:`Settings --> Configure Kdenlive -->` :doc:`Environment</getting_started/configure_kdenlive/configuration_environment>` by un-checking :guilabel:`Check for updates`. 
 
 
-.. _configuration:
-
-Configuration Information
--------------------------
-
-Kdenlive's application-wide persistent settings are stored in the following locations, depending on your platform. 
-
-
-.. list-table::
-   :header-rows: 1
-   :width: 100%
-   :widths: 20 20 60
-   :class: table-wrap
-
-   * - Linux  
-     - Windows
-     - Description
-   * - :file:`~/.config/kdenliverc`
-     - :file:`%LocalAppData%\\kdenliverc`
-     - General settings of the application. Delete this and restart Kdenlive to reset the application to "factory" settings
-   * - :file:`~/.config/kdenlive-appimagerc`
-     - 
-     - Linux AppImage only: contains the general settings of the application
-   * - :file:`~/.config/session/kdenlive_*`
-     -
-     - temporary session info
-   * - :file:`~/.cache/kdenlive`
-     - :file:`%LocalAppData%\\kdenlive`
-     - cache location storing audio and video thumbnails, and proxy clips, user defined titles, LUTS, lumas, shortcuts
-   * - :file:`~/.local/share/kdenlive`
-     - :file:`%AppData%\\kdenlive`
-     - contains downloaded: effects, export, library, opencv models, profiles, speech models, and titles
-   * - :file:`~/.local/share/kdenlive/lumas`
-     - :file:`%LocalAppData%\\kdenlive\\lumas`
-     - lumas folder contains the files used for :doc:`Wipe </compositing/transitions/wipe>`
-   * - :file:`~/.local/share/kdenlive/.backup`
-     - :file:`%AppData%\\kdenlive\\.backup`
-     - Auto Save Recovery files
-   * - :file:`~/.config/kdenlive-layoutsrc`
-     - :file:`%LocalAppData%\\kdenlive-layoutsrc` 
-     - contains the layout settings
-   * - :file:`~/.local/share/kxmlgui5/kdenlive/kdenliveui.rc`
-     - :file:`%LocalAppData%\\kxmlgui5\kdenlive\\kdenliveui.rc`
-     - contains UI configuration, if your UI is broken, delete this file
-   * - :file:`~/.local/share/knewstuff3`
-     - :file:`%LocalAppData%\\knewstuff3` 
-     - contains LUT definition
-   * - :file:`~/.local/share/kdenlive/speechmodels`
-     - :file:`%AppData%\\kdenlive\\speechmodels`
-     - contains the VOSK models downloaded
-   * - :file:`~/.local/share/kdenlive/opencvmodels`
-     - :file:`%AppData%\\kdenlive\\opencvmodels`
-     - contains the OpenCV models downloaded 
-   * - :file:`~/.local/share/kdenlive/venv`
-     - :file:`%LocalAppData%\\kdenlive\\venv`
-     - contains the Python virtual environment (venv)
-   * - :file:`$HOME/.cache/hugginface`
-     - :file:`C:\\Users\\<username>\\.cache\\huggingface`
-     - contains the SeamlessM4T models for Whisper  
-
-   
-Windows
-   To reach the above folders: :kbd:`Windows+R` then copy above path into the window.
-
-**Notes**
+----
 
 .. [1] Due to QT6 compatibility the build system was switched to C++17 in January 2022 so minimum macOS requirement is macOS 10.15.
