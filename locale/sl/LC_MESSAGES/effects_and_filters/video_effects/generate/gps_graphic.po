@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-30 01:56+0000\n"
-"PO-Revision-Date: 2023-12-10 11:45+0100\n"
+"PO-Revision-Date: 2025-01-04 10:59+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -93,7 +93,7 @@ msgstr "Ne"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:38
 msgid "None"
-msgstr ""
+msgstr "Brez"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:44
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:58
@@ -118,21 +118,22 @@ msgstr "Vrednost"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:59
 msgid "GPS File"
-msgstr ""
+msgstr "Datoteka GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:60
 msgid "Open file"
-msgstr ""
+msgstr "Odpri datoteko"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:61
 msgid ""
 "Select a file with the GPS data. Supported formats are :file:`.gpx` and :"
 "file:`.tcx`."
 msgstr ""
+"Izberite datoteko s podatki GPS. Podprta zapisa sta `.gpx` in :file:`.tcx`."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:62
 msgid "Time offset in seconds"
-msgstr ""
+msgstr "Časovni zamik v sekundah"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:63
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:66
@@ -141,14 +142,6 @@ msgid "Integer"
 msgstr "Celo število"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:64
-#, fuzzy
-#| msgid ""
-#| "An offset (in seconds) to be added to the video file to match it to the "
-#| "GPS track. Most of the time this willTrim start at least need to be set "
-#| "to the timezone difference between the two files plus some seconds if the "
-#| "video recording device isn't precisely set to correct time. GPS time is "
-#| "always exact and in UTC\\ [1]_. Use positive values if GPS is ahead of "
-#| "video and negative otherwise."
 msgid ""
 "An offset in seconds to be added to the video file to match it to the GPS "
 "track. Most of the time this will at least need to be set to the timezone "
@@ -159,7 +152,7 @@ msgid ""
 msgstr ""
 "Zamik (v sekundah), ki se doda video datoteki, da se ujema s sledjo GPS. "
 "Večinoma je treba to nastaviti vsaj na razliko v časovnem pasu med "
-"datotekama in nekaj sekund, če naprava za snemanje videoposnetkov ni "
+"datotekama in dodati nekaj sekund, če naprava za snemanje videoposnetkov ni "
 "natančno nastavljena na pravilen čas. Čas GPS je vedno natančen in v UTC\\ "
 "[1]_. Uporabite pozitivne vrednosti, če je GPS pred časom videoposnetka, v "
 "nasprotnem primeru pa negativne."
@@ -217,32 +210,20 @@ msgid "Selection"
 msgstr "Izbor"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:73
-#, fuzzy
-#| msgid ""
-#| "What data from the GPS file is used for drawing: **0** = GPS location/"
-#| "track; **1** = altitude (if available); **2** = heart rate (if "
-#| "available); **3** = speed (always available, computed from location)"
 msgid ""
 "What data from the GPS file is used for drawing. Options are **GPS location/"
 "track** (default), **Altitude** (if available), **Heart rate** (if "
 "available), **Speed** (always available, computed from location)"
 msgstr ""
-"Kateri podatki iz datoteke GPS se uporabljajo za risanje: **0** = lokacija/"
-"sledenje GPS; **1** = nadmorska višina (če je na voljo); **2** = srčni utrip "
-"(če je na voljo); **3** = hitrost (vedno na voljo, izračunana iz lokacije)"
+"Kateri podatki iz datoteke GPS se uporabljajo za risanje: **Lokacija/"
+"sledenje GPS**, **Nadmorska višina** (če je na voljo); **Srčni utrip** (če "
+"je na voljo); **Hitrost** (vedno na voljo, izračunana iz lokacije)."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:74
 msgid "Graph type"
 msgstr "Vrsta grafikona"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:76
-#, fuzzy
-#| msgid ""
-#| "How to draw the selected data: **0** = a basic 2D map line (for location) "
-#| "or 1D graph per time (others); **1** = zooms in onto the map/graph and "
-#| "centers around the current location\\ [2]_; **2** = draws a speedometer "
-#| "(available for all data sources but recommended only for speed; for the "
-#| "map type it represents the \"percentage done\" from trimmed start - end)"
 msgid ""
 "How to draw the selected data. Options are **Basic 2D map line (for "
 "location) or 1D graph per time (others)**, **Zoom in onto the map/graph and "
@@ -250,12 +231,12 @@ msgid ""
 "(available for all data sources but recommended only for speed; for the map "
 "type it represents the \"percentage done\" from trimmed start - end)"
 msgstr ""
-"Kako narišete izbrane podatke: **0** = osnovna črta 2D-zemljevida (za "
-"lokacijo) ali 1D-grafikon na čas (ostalo); **1** = poveča zemljevid/grafikon "
-"in se osredotoči okoli trenutne lokacije\\  [2]_; **2** = nariše merilnik "
-"hitrosti (na voljo za vse vire podatkov, vendar je priporočljiv samo za "
-"hitrost; za vrsto zemljevida predstavlja »odstotek opravljenega« od "
-"obrezanega začetka do konca)"
+"Kako narišete izbrane podatke: **Osnovna črta 2D-zemljevida (za lokacijo) "
+"ali 1D-grafikon na čas (ostalo)**, **Povečaj zemljevid/grafikon in se "
+"osredotoči okoli trenutne lokacije**\\  [2]_, **Nariši merilnik hitrosti** "
+"(na voljo za vse vire podatkov, vendar je priporočljiv samo za hitrost; za "
+"vrsto zemljevida predstavlja »odstotek opravljenega« od obrezanega začetka "
+"do konca)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:77
 msgid "Trim start"
@@ -311,35 +292,20 @@ msgid "Switch"
 msgstr "Preklopi"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:85
-#, fuzzy
-#| msgid ""
-#| "Decides how to interpret the :guilabel:`Crop left` and :guilabel:`Crop "
-#| "right` values: **0** = a percentage from min..max; **1** = an absolute "
-#| "value (ie: it can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgid ""
 "Decides how to interpret the :guilabel:`Crop left` and :guilabel:`Crop "
 "right` values: **Percentage from min..max**, or **Absolute value** (ie: it "
 "can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgstr ""
 "Določa, kako interpretirati vrednosti :guilabel:`Obreži levo` in :guilabel:"
-"`Obreži desno`: **0** = odstotek od min..maks; **1** = absolutna vrednost "
-"(tj.: lahko obrezuje med 22,2 in 22,3 stopinjami zemljepisne dolžine)\\ [3]_"
+"`Obreži desno`: **Odstotek od min..maks** ali **Absolutna vrednost** (tj.: "
+"lahko obrezuje med 22,2 in 22,3 stopinjami zemljepisne dolžine)\\ [3]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:86
 msgid "Crop left"
 msgstr "Obreži levo"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:88
-#, fuzzy
-#| msgid ""
-#| "Crops data from the left side of the graph (effectively zooming in). The "
-#| "value is interpreted either as a percentage of total or an absolute value "
-#| "depending on :guilabel:`Crop mode horizontal`. In percentage mode the "
-#| "values are not restricted to 0-100 to allow for \"zoom out\" behaviour "
-#| "(ie: cropping -50 left will add an extra half of the total horizontal "
-#| "distance). Values over 100 (in % mode) will effectively not display "
-#| "anything. If :guilabel:`Graph type` is **speedometer**, all crop left/"
-#| "right values are ignored."
 msgid ""
 "Crops data from the left side of the graph (effectively zooming in). The "
 "value is interpreted either as a percentage of total or an absolute value "
@@ -349,14 +315,14 @@ msgid ""
 "over 100 (in % mode) will effectively not display anything. If :guilabel:"
 "`Graph type` is **Speedometer**, all crop left/right values are ignored."
 msgstr ""
-"Obdela podatke z leve strani grafikona (učinkovita povečava). Vrednost se "
+"Obreže podatke z leve strani grafikona (učinkovita povečava). Vrednost se "
 "interpretira kot odstotek skupnega ali absolutna vrednost, odvisno od :"
 "guilabel:`Način obrezovanja: vodoravno`. V odstotkovnem načinu vrednosti "
-"niso omejene na 0-100, da se omogoči obnašanje »pomanjšanja« (tj.: "
+"niso omejene na obseg 0-100, da se omogoči obnašanje »pomanjšanja« (tj.: "
 "obrezovanje -50 levo bo dodalo dodatno polovico celotne vodoravne razdalje). "
 "Vrednosti nad 100 (v načinu %) dejansko ne bodo prikazale ničesar. Če je :"
-"guilabel:`Vrsta grafikona` **merilnik hitrosti**, se vse vrednosti "
-"obrezovanja levo/desno ne upoštevajo."
+"guilabel:`grafikon vrste` **Merilnik hitrosti**, so vse vrednosti "
+"obrezovanja levo/desno prezrte."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:89
 msgid "Crop right"
@@ -377,12 +343,6 @@ msgid "Crop mode vertical"
 msgstr "Način obrezovanja: navpično"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:94
-#, fuzzy
-#| msgid ""
-#| "Decides how to interpret the :guilabel:`Crop top` and :guilabel:`Crop "
-#| "bottom` values: **0** = a percentage from min..max; **1** = an absolute "
-#| "value (ie: it can zoom in to between 100 and 150m of altitude to show "
-#| "small changes in altitude between those 2 values better)\\ [4]_"
 msgid ""
 "Decides how to interpret the :guilabel:`Crop top` and :guilabel:`Crop "
 "bottom` values: **Percentage from min..max**, or **Absolute value** (ie: it "
@@ -390,25 +350,15 @@ msgid ""
 "altitude between those 2 values better)\\ [4]_"
 msgstr ""
 "Določa, kako interpretirati vrednosti :guilabel:`Obreži zgoraj` in :guilabel:"
-"`Obreži spodaj`: **0** = odstotek od min..maks; **1** = absolutna vrednost "
-"(tj.: lahko se poveča na višino med 100 in 150 m, da bolje prikaže majhne "
-"spremembe višine med tema dvema vrednostma)\\ [4]_"
+"`Obreži spodaj`: **Odstotek od min..maks** ali **Absolutna vrednost** (tj.: "
+"lahko se poveča na višino med 100 in 150 m, da bolje prikaže majhne "
+"spremembe višine med tema vrednostma)\\ [4]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:95
 msgid "Crop bottom"
 msgstr "Obreži spodaj"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:97
-#, fuzzy
-#| msgid ""
-#| "Crops data from the bottom side of the graph (effectively zooming in). "
-#| "The value is interpreted either as a percentage of total or an absolute "
-#| "value depending on :guilabel:`Crop mode vertical`. In percentage mode the "
-#| "values are not restricted to 0-100 to allow for \"zoom out\" behaviour "
-#| "(ie: cropping -50 bot will add an extra half of the total vertical "
-#| "distance to the bottom). Values over 100 (in % mode) will effectively not "
-#| "display anything. If :guilabel:`Graph type` is speedometer, this will set "
-#| "the minimum needle position which will clamp all values that are lower."
 msgid ""
 "Crops data from the bottom side of the graph (effectively zooming in). The "
 "value is interpreted either as a percentage of total or an absolute value "
@@ -425,7 +375,7 @@ msgstr ""
 "omejene na 0-100, da se omogoči obnašanje »pomanjšanja« (tj. obrezovanje -50 "
 "bot bo dodalo dodatno polovico skupne navpične razdalje na dnu). Vrednosti "
 "nad 100 (v načinu %) dejansko ne bodo prikazale ničesar. Če je :guilabel:"
-"`Vrsta grafikona` merilnik hitrosti, bo to določilo najmanjši položaj igle, "
+"`grafikon vrste` merilnik hitrosti, bo to določilo najmanjši položaj igle, "
 "ki bo spojil vse vrednosti, ki so nižje."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:98
@@ -451,12 +401,12 @@ msgid ""
 "Chooses one of nine styles to draw the graph line (:ref:`options see below "
 "<effects-gps_graphic-color_style>`)"
 msgstr ""
+"Izbere enega od devetih slogov za risanje črte grafikona (:ref:`glejte "
+"spodnje možnosti<effects-gps_graphic-color_style>`)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:104
-#, fuzzy
-#| msgid "Show now dot"
 msgid "Show Now dot"
-msgstr "Pokaži piko zdaj"
+msgstr "Pokaži piko »zdaj«"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:106
 msgid ""
@@ -467,10 +417,8 @@ msgstr ""
 "je vrsta grafikona merilnik hitrosti, to vpliva na iglo."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:107
-#, fuzzy
-#| msgid "Now dot colour"
 msgid "Now dot color"
-msgstr "Barva pike zdaj"
+msgstr "Barva pike »zdaj«"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:108
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:138
@@ -491,10 +439,8 @@ msgstr ""
 "(tudi pri vrstah preliva), s čimer se bo barva dejansko spreminjala v času."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:110
-#, fuzzy
-#| msgid "Show now text"
 msgid "Show Now text"
-msgstr "Pokaži besedilo zdaj"
+msgstr "Pokaži besedilo »Zdaj«"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:112
 msgid ""
@@ -521,10 +467,8 @@ msgstr ""
 "ostane besedilo vodoravno."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:116
-#, fuzzy
-#| msgid "Thickness"
 msgid "Line Thickness (px)"
-msgstr "Debelina"
+msgstr "Debelina črte (sl. točke)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:118
 msgid "Sets the thickness of the line graph in :abbr:`px (pixel)`"
@@ -535,14 +479,6 @@ msgid "Draw legend"
 msgstr "Nariši legendo"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:121
-#, fuzzy
-#| msgid ""
-#| "If enabled it will draw 5 horizontal (and vertical for map type) lines "
-#| "with small values each corresponding to the current data source value at "
-#| "0%, 25%, 50%, 75% and 100% of current graph shown, affected by the "
-#| "legend_unit type if applicable and with the string appended to the value. "
-#| "For :guilabel:`Graph type` **speedometer** this shows division values "
-#| "(but without appending unit)."
 msgid ""
 "If enabled it will draw 5 horizontal (and vertical for map type) lines with "
 "small values each corresponding to the current data source value at 0%, 25%, "
@@ -555,22 +491,24 @@ msgstr ""
 "črt z majhnimi vrednostmi, od katerih vsaka ustreza trenutni vrednosti vira "
 "podatkov pri 0 %, 25 %, 50 %, 75 % in 100 % trenutno prikazanega grafikona, "
 "na katere vpliva tip legenda_enota, če se uporablja, in z nizom, ki je dodan "
-"vrednosti. Za :guilabel:`vrsto grafikona` **merilnika hitrosti** se "
-"prikažejo vmesne vrednosti (vendar brez dodane enote)."
+"vrednosti. Za :guilabel:`vrsto grafikona` **Merilnik hitrosti** se prikažejo "
+"vmesne vrednosti (vendar brez dodane enote)."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:122
 msgid "Legend unit"
-msgstr ""
+msgstr "Enota legende"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:123
 msgid "Text field"
-msgstr ""
+msgstr "Besedilno polje"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:124
 msgid ""
 "Select the unit of measure for the data to be displayed from the list below. "
 "You can add additional text in this field."
 msgstr ""
+"Na spodnjem seznamu izberite mersko enoto za podatke, ki bodo prikazani. V "
+"to polje lahko dodate dodatno besedilo."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:125
 msgid "Show dots only"
@@ -591,20 +529,16 @@ msgstr ""
 "povečan, ali za odpravljanje nepričakovanih preskokov črt."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:128
-#, fuzzy
-#| msgid "Background scale"
 msgid "Background image"
-msgstr "Merilo ozadja"
+msgstr "Slika ozadja"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:129
-#, fuzzy
-#| msgid "Selection"
 msgid "File selection"
-msgstr "Izbor"
+msgstr "Izbor datoteke"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:130
 msgid "Opens an image file that is used as a background for the GPS graphic"
-msgstr ""
+msgstr "Odpre slikovno datoteko, ki je uporabljena kot ozadje za grafiko GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:131
 msgid "Background scale"
@@ -637,170 +571,116 @@ msgid "Sets the colors of the graph line"
 msgstr "Nastavi barve črte grafikona."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:144
-#, fuzzy
-#| msgid "The following selection items are available:"
 msgid "The following options for :guilabel:`Graph color style` are available:"
-msgstr "Na voljo so naslednji izbirni elementi:"
+msgstr "Na voljo so naslednje možnosti za :guilabel:`Barvni slog grafikona`:"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:151
 msgid "One color"
-msgstr ""
+msgstr "Ena barva"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:152
-#, fuzzy
-#| msgid "one color -> same color and size for the entire graph"
 msgid "Same color and size for the entire graph"
-msgstr "ena barva -> ista barva in velikost za celoten grafikon"
+msgstr "Ista barva in velikost za celoten grafikon."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:153
-#, fuzzy
-#| msgid "Now dot colour"
 msgid "Two colors"
-msgstr "Barva pike zdaj"
+msgstr "Dve barvi"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:154
-#, fuzzy
-#| msgid ""
-#| "two colors -> same as 2 and 3 but the entire line is the same thickness"
 msgid ""
 "Same as *Solid Past* or *Solid Future* but the entire line is the same "
 "thickness"
-msgstr "dve barvi -> enako kot 2 in 3, vendar je celotna črta enako debela"
+msgstr ""
+"Enako kot »polnjena preteklost« in »polnjena prihodnost«, vendar je celotna "
+"črta enako debela"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:155
 msgid "Solid past - thin future"
-msgstr ""
+msgstr "Polnjena preteklost - tanka prihodnost"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:156
-#, fuzzy
-#| msgid ""
-#| "solid past, thin future -> from the beginning of the graph to the current "
-#| "position (=\"past\") it will be drawn using the 1st color and chosen "
-#| "thickness, but for the \"future\" part of the graph it will use the 2nd "
-#| "color and thickness will be 2px (or 1px if main thickness is below 3)"
 msgid ""
 "From the beginning of the graph to the current position (=\"past\") it will "
 "be drawn using the 1st color and chosen thickness, but for the \"future\" "
 "part of the graph it will use the 2nd color and thickness will be 2px (or "
 "1px if main thickness is below 3)"
 msgstr ""
-"polna preteklost, tanka prihodnost -> od začetka grafikona do trenutnega "
-"položaja (=»preteklost«) bo narisan z uporabo 1. barve in izbrane debeline, "
-"za »prihodnji« del grafa pa bo uporabljena 2. barva in debelina 2 sl. tč "
-"(ali 1 sl. tč, če je glavna debelina pod 3)"
+"Od začetka grafikona do trenutnega položaja (=»preteklost«) bo narisan z "
+"uporabo 1. barve in izbrane debeline, za »prihodnji« del grafa pa bo "
+"uporabljena 2. barva in debelina 2 sl. tč (ali 1 sl. tč, če je glavna "
+"debelina pod 3)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:157
-#, fuzzy
-#| msgid "solid future, thin past"
 msgid "Solid future - thin past"
-msgstr "polna prihodnost, tanka preteklost"
+msgstr "Polnjena prihodnost, tanka preteklost"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:158
 msgid "Same as above, just reversed"
-msgstr ""
+msgstr "Enako kot zgoraj, samo obrnjeno"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:159
-#, fuzzy
-#| msgid "horizontal gradient"
 msgid "Vertical gradient"
-msgstr "vodoravni preliv"
+msgstr "Navpični preliv"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:160
-#, fuzzy
-#| msgid ""
-#| "vertical gradient -> the line will be coloured as a vertical gradient "
-#| "relative to the entire rect area"
 msgid ""
 "The line will be coloured as a vertical gradient relative to the entire rect "
 "area"
 msgstr ""
-"navpični preliv -> črta bo obarvana kot navpični preliv glede na celotno "
-"pravokotno območje"
+"Črta bo obarvana kot navpični preliv glede na celotno pravokotno območje."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:161
-#, fuzzy
-#| msgid "horizontal gradient"
 msgid "Horizontal gradient"
-msgstr "vodoravni preliv"
+msgstr "Vodoravni preliv"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:162
 msgid "Same as above, just horizontal"
-msgstr ""
+msgstr "Enako kot zgoraj, samo vodoravno"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:163
-#, fuzzy
-#| msgid "color by heart rate"
 msgid "Color by duration"
-msgstr "barva po srčnem utripu"
+msgstr "Barva po trajanju"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:164
-#, fuzzy
-#| msgid ""
-#| "color by duration -> the selected colors will be used as a gradient, in "
-#| "chronological time (except for location source, this will effectively be "
-#| "a left to right gradient for 1D graphs)"
 msgid ""
 "The selected colors will be used as a gradient, in chronological order "
 "(except for location source, this will effectively be a left to right "
 "gradient for 1D graphs)"
 msgstr ""
-"barva po trajanju -> izbrane barve bodo uporabljene kot preliv v kronološkem "
-"času (razen za vir lokacije, to bo dejansko preliv od leve proti desni za 1D-"
-"grafikone)"
+"Izbrane barve bodo uporabljene kot preliv v kronološkem času (razen za vir "
+"lokacije, to bo dejansko preliv od leve proti desni za 1D-grafikone)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:165
-#, fuzzy
-#| msgid "color by heart rate"
 msgid "Color by altitude"
-msgstr "barva po srčnem utripu"
+msgstr "Barva po nadmorski višini"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:166
-#, fuzzy
-#| msgid ""
-#| "color by altitude -> the selected colors will be used as a gradient from "
-#| "the minimum altitude value from file to the maximum one, not affected by "
-#| "crops or trim"
 msgid ""
 "The selected colors will be used as a gradient from the minimum altitude "
 "value from file to the maximum one, not affected by crops or trim"
 msgstr ""
-"barva po nadmorski višini -> izbrane barve se uporabijo kot preliv od "
-"najmanjše vrednosti nadmorske višine iz datoteke do največje, na kar ne "
-"vplivajo obrezovanje ali porezave"
+"izbrane barve se uporabijo kot preliv od najmanjše vrednosti nadmorske "
+"višine iz datoteke do največje, na kar ne vplivajo obrezovanje ali porezave"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:167
-#, fuzzy
-#| msgid "color by heart rate"
 msgid "Color by heart rate"
-msgstr "barva po srčnem utripu"
+msgstr "Barva po srčnem utripu"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:168
-#, fuzzy
-#| msgid ""
-#| "color by altitude -> the selected colors will be used as a gradient from "
-#| "the minimum altitude value from file to the maximum one, not affected by "
-#| "crops or trim"
 msgid ""
 "The selected colors will be used as a gradient from the minimum heart rate "
 "value from file to the maximum one"
 msgstr ""
-"barva po nadmorski višini -> izbrane barve se uporabijo kot preliv od "
-"najmanjše vrednosti nadmorske višine iz datoteke do največje, na kar ne "
-"vplivajo obrezovanje ali porezave"
+"izbrane barve se uporabijo kot preliv od najmanjše vrednosti srčnega utripa "
+"iz datoteke do največje."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:169
-#, fuzzy
-#| msgid "color by heart rate"
 msgid "Color by speed"
-msgstr "barva po srčnem utripu"
+msgstr "Barva po hitrosti"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:170
-#, fuzzy
-#| msgid ""
-#| "color by speed -> same as above but gradient is affected by smoothing"
 msgid "Same as above but gradient is affected by smoothing"
-msgstr ""
-"barva po hitrosti -> enako kot zgoraj, vendar na preliv vpliva glajenje"
+msgstr "Enako kot zgoraj, vendar na preliv vpliva glajenje."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:180
 msgid ""
@@ -854,44 +734,48 @@ msgstr ""
 "vrednost 10 za nadmorsko višino bo privzeto veljala za metre, če pa "
 "spremenite enoto legende v stopinje, bo to pomenilo 10 čevljev)."
 
-#~ msgid "Missing params"
-#~ msgstr "Manjkajoči parametri"
+msgid "Missing params"
+msgstr "Manjkajoči parametri"
 
-#~ msgid "Offset"
-#~ msgstr "Odmik"
+msgid "Offset"
+msgstr "Odmik"
 
+msgid "0"
+msgstr "0"
+
+msgid "1"
+msgstr "1"
+
+msgid "2"
+msgstr "2"
+
+msgid "3"
+msgstr "3"
+
+msgid "4"
+msgstr "4"
+
+msgid "5"
+msgstr "5"
+
+msgid "6"
+msgstr "6"
+
+msgid "7"
+msgstr "7"
+
+msgid "8"
+msgstr "8"
+
+msgid "9"
+msgstr "9"
+
+#, fuzzy
+#~| msgid "Sets the colors of the graph line"
 #~ msgid "Chooses one of the 9 styles to draw the graph line"
-#~ msgstr "Izbere enega od 9 slogov za risanje črte grafikona:"
+#~ msgstr "Nastavi barve črte grafikona."
 
+#, fuzzy
+#~| msgid "Graph color style"
 #~ msgid ":guilabel:`Graph color style`"
-#~ msgstr ":guilabel:`Barvni slog grafikona`"
-
-#~ msgid "0"
-#~ msgstr "0"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "4"
-#~ msgstr "4"
-
-#~ msgid "5"
-#~ msgstr "5"
-
-#~ msgid "6"
-#~ msgstr "6"
-
-#~ msgid "7"
-#~ msgstr "7"
-
-#~ msgid "8"
-#~ msgstr "8"
-
-#~ msgid "9"
-#~ msgstr "9"
+#~ msgstr "Barvni slog grafikona"
