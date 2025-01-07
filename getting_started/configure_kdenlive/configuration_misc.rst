@@ -24,13 +24,13 @@ The **Misc** (Miscellaneous) section contains settings for the general behavior 
 
 :1: :guilabel:`Open last project on startup`. If checked, Kdenlive will open the project file that was last edited and saved before closing Kdenlive. If unchecked, Kdenlive will create a new project using the :doc:`Project Default</getting_started/configure_kdenlive/configuration_project_defaults>` settings.
 
-:2: :guilabel:`Activate crash recovery (auto save)`. If checked, Kdenlive will automaticaly create a backup of the current project file three seconds after you perform an action that cannot be undone. This only happens if no other action is performed within those three seconds. See also AUTO_SAVE
+:2: :guilabel:`Activate crash recovery (auto save)`. If checked, Kdenlive will automatically create a backup of the current project file three seconds after you perform an action that cannot be undone. This only happens if no other action is performed within those three seconds. See also AUTO_SAVE
 
 :3: :guilabel:`Check if first added clip matches project profile`. If checked, Kdenlive compares the dimensions and fps values of the first clip added to the project bin with the respective settings in project profile. If they differ, Kdenlive asks if the project settings should be adjusted to match the values of the clip.
 
 :4: :guilabel:`Automatically import all streams in multi-stream clips`. If checked, all video and audio streams of a clip are imported. This is useful if a video has multiple video streams for the different camera angles. If unchecked, the first video and audio streams are imported.
 
-:5: :guilabel:`Automatically import image sequence`. If checked, Kdenlive will import multiple selecte images as an image sequence, and not as individual images.Please note that an image sequence cannot be broken into individual images.
+:5: :guilabel:`Automatically import image sequence`. If checked, Kdenlive will import multiple selected images as an image sequence, and not as individual images.Please note that an image sequence cannot be broken into individual images.
 
 :6: :guilabel:`Get clip metadata created by Magic Lantern`. If checked, Kdenlive will try to read to read any metadata created by that tool and display it in the clip properties widget.
 
