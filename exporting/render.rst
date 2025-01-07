@@ -290,7 +290,7 @@ Encoder
 
 Use the slider to change the speed setting from 'very slow' to 'ultra fast'.
 
-If you have a CPU capable of multi-threading you can select the number of *Encoding threads* to be passed to melt [1]_. For encoding with certain codecs (MPEG-2, MPEG-4, H.264, and VP8) Kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines.
+If you have a CPU capable of multi-threading you can select the number of *Encoding threads* to be passed to melt\ [1]_. For encoding with certain codecs (MPEG-2, MPEG-4, H.264, and VP8) Kdenlive can use more than one thread and thus make use of multiple cores. Increase this number to take advantage of this feature on multi-core machines.
 
 .. _render-more_options_parallel_processing:
 
@@ -318,7 +318,7 @@ Other Options
 
 :guilabel:`2 pass`
 
-:guilabel:`Export metadata` - Check this box to have the metadata entered in the :doc:`project_settings</project_and_asset_management/project_settings/tab_meta_data>` placed into the metadata of the rendered file.
+:guilabel:`Export metadata` - Check this box to have the metadata entered in the :doc:`Project Settings</project_and_asset_management/project_settings/tab_meta_data>` placed into the metadata of the rendered file.
 
 .. container:: clear-both
 
@@ -363,7 +363,7 @@ You can check the metadata in the rendered video by entering this in a terminal 
 Rendering in Batch Mode
 =======================
 
-If you have a lot of rendering jobs to do, you can use **Kdenlive** to create rendering scripts which you can accumulate and then execute in batch mode overnight. **Kdenlive** stores the scripts in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --> Default folders`.
+If you have a lot of rendering jobs to do, you can use **Kdenlive** to create rendering scripts which you can accumulate and then execute in batch mode overnight. **Kdenlive** stores the scripts in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default folders<configure_environment_default_folders>`.
 
 Alternatively, once you have submitted a rendering job on a project and it is up and running in the **Job Queue**, you can drag the render window out of the way or even close it, and continue editing the project, or load a new project and render that one, too. Any subsequent render jobs will go into the **Job Queue**. Editing the project after a render job has been submitted will not change the settings on that job.
 
@@ -420,7 +420,7 @@ Choose which guides will establish the regions of video you want to export using
       :width: 345px
       :alt: kdenlive2304_rendering-guide_zones_6
 
-   Now you can render this to a file or generate a script that will render this guide zone to a file. Click :guilabel:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --> Default Folders`.
+   Now you can render this to a file or generate a script that will render this guide zone to a file. Click :guilabel:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Folders <configure_environment_default_folders>`.
 
 .. rst-class:: clear-both
 
@@ -536,8 +536,8 @@ If you want to share your work right after you finished rendering you can click 
 * **Send via Email** - Opens your default email application with the video file as an attachment in a new email window
 * **Send to Device**
 * **Send via Bluetooth**
-* **YouTube** [2]_ - Opens a dialog window to enter your account, tags and a comment. You can upload directly from there.
-* **Nextcloud** [2]_ - Opens a dialog window to select your account and enter the folder to upload to. You can upload directly from there.
+* **YouTube**\ [2]_ - Opens a dialog window to enter your account, tags and a comment. You can upload directly from there.
+* **Nextcloud**\ [2]_ - Opens a dialog window to select your account and enter the folder to upload to. You can upload directly from there.
 * **Send via Telegram** - Opens the Telegram desktop app
 
 .. rst-class:: clear-both

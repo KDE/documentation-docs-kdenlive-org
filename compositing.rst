@@ -15,9 +15,9 @@ Transitions and Compositions
 
 Compositing is the process of combining several visual elements from different sources into a single video. It involves replacing selected parts of an image or video with other material, usually other images or videos.
 
-To create a composite from several clips, you make parts of one or more of the clips transparent so that the other clips can show through. :doc:`Alpha shapes </effects_and_filters/video_effects/alpha_mask_keying>`, :doc:`rotoscoping </effects_and_filters/video_effects/alpha_mask_keying/rotoscoping>`, and masks are the most common features for making portions of the clips transparent.
+To create a composite from several clips, you make parts of one or more of the clips transparent so that the other clips can show through. :doc:`Alpha shapes</effects_and_filters/video_effects/alpha_mask_keying>`, :doc:`rotoscoping</effects_and_filters/video_effects/alpha_mask_keying/rotoscoping>`, and masks are the most common features for making portions of the clips transparent.
 
-You can use the :guilabel:`Opacity` parameter in the :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>` effect to control uniform transparency of a clip. This can be animated using :term:`keyframes <keyframe>` to fade a clip down or up over time.
+You can use the :guilabel:`Opacity` parameter in the :doc:`Transform</effects_and_filters/video_effects/transform_distort_perspective/transform>` effect to control uniform transparency of a clip. This can be animated using :term:`keyframes <keyframe>` to fade a clip down or up over time.
 
 Some clips may have their transparency information stored in the alpha channel. You can tell Kdenlive how to use this information during compositing. The following file formats may contain an alpha channel:
 
