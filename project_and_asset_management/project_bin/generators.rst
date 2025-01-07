@@ -62,7 +62,9 @@ This generates a counter timer video clip in various formats.
 .. rst-class:: clear-both
 
 :guilabel:`Count up`:
-   You can choose to have the clip count up by checking that option, otherwise it will count down. .. .. versionadded:: 17.04
+   You can choose to have the clip count up by checking that option, otherwise it will count down.
+   
+.. .. versionadded:: 17.04
 
 :guilabel:`No Background`:
    This option will remove the black lines and the white circles from the counter leaving only the grey background.
@@ -84,7 +86,7 @@ This generates a counter timer video clip in various formats.
    * 1 kHz each second
 
 :guilabel:`Drop frame timecode`:
-   <to_be_documented>
+.. .. to be documented
 
 To change the size and position of the clip, you can add an effect to the clip on the timeline or in the project bin such as the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom` or the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform`.
 

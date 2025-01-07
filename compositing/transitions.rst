@@ -20,7 +20,7 @@ In Kdenlive, transitions are part of :doc:`compositions <compositions>`. After a
 
 There are two ways to transition between clips:
 
-* :doc:`transitions/mixes`, also called **same-track transitions**, between two adjacent clips in the same track
+* :doc:`Mixes</compositing/transitions/mixes>`, also called **same-track transitions**, between two adjacent clips in the same track
 * :doc:`transitions/composite_transitions` between overlapping clips on different tracks
 
 Available transitions range from built-in presets to wipes with different methods and the ability to use your own greyscale images in :file:`.pgm` (Portable Grey Map) format. Most wipes (and the same applies to Dissolve and Luma) are essentially greyscale images under the hood. During the transition, the composition track\ [1]_ will be displayed in the darkest part of the wipe image first; if the wipe transition is inverted, the composition track will become visible in the brightest area of the wipe image first.

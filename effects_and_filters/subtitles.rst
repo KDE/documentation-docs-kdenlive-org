@@ -37,7 +37,7 @@ The subtitling tool allows you to add and edit subtitles directly in the timelin
 
 .. .. versionadded:: 24.02
 
-Kdenlive allows multiple subtitle files in the subtitle track (only 1 subtitle file loaded at a time). You can create, duplicate, and delete subtitle files and manage its components with the :ref:`subtitle-manager`.
+Kdenlive allows multiple subtitle files in the subtitle track (only one subtitle file loaded at a time). You can create, duplicate, and delete subtitle files and manage its components with the :ref:`subtitle-manager`.
 
 
 
@@ -88,13 +88,13 @@ Split subtitle after first line
 
 With this feature, you can cut the selected subtitle with the Razor Tool after the first line of the current track position. The first line becomes the left subtitle before the track position, and the rest becomes the right subtitle after the track position. It then selects the right-hand subtitle.
 
-.. figure:: /images/subtitle-split_at_line.png
+.. .. figure:: /images/subtitle-split_at_line.png
    :scale: 75%
    :alt: subtitle split at line
 
    Subtitle split after first line or duplicate text
 
-To enable this feature go to :menuselection:`Menu --> Settings --> Configure Kdenlive... --> Tools` switch to :guilabel:`Split after first line`
+To enable this feature go to :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Tools</getting_started/configure_kdenlive/configuration_tools>` and switch to :guilabel:`Split after first line`
 
 .. figure:: /images/subtitle-split_with_razor-tool.png
    :scale: 75%
@@ -155,13 +155,13 @@ Move/Copy a style
 
 In the style section of the :ref:`subtitle-manager`, drag a style to the desired item in the sidebar to move or copy it.
 
-.. tip::
-   You can't move/delete style "Default".
+.. note::
+   You cannot move or delete the style **Default**.
 
 Assign a style to a subtitle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can assign a style to the subtitle you're currently editing using the :guilabel:`Style` combobox in the :ref:`subtitle-window`. This style will be applied to **the entire subtitle**.
+You can assign a style to the subtitle you are currently editing using the :guilabel:`Style` combobox in the :ref:`subtitle-window`. This style will be applied to **the entire subtitle**.
 
 Override style with tags
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -255,7 +255,7 @@ Exporting **ASS** or **SRT** subtitles: :menuselection:`Menu --> Project --> Sub
 
 .. .. versionadded:: 24.02
 
-:guilabel:`Create New Subtitle Track`: Importing an .srt file in the project, you can create a new subtitle track (an entry in the subtitles combo list) instead of overwriting the current subtitle track.
+:guilabel:`Create New Subtitle Track`: Importing an :file:`.srt` file in the project, you can create a new subtitle track (an entry in the subtitles combo list) instead of overwriting the current subtitle track.
 
 .. _subtitle-window:
 
