@@ -40,7 +40,7 @@ Settings Menu
 *  :ref:`Configure Keyboard Shortcuts <configure_shortcuts>`
 *  :ref:`Configure Toolbars <toolbars>`
 *  :ref:`configure_notifications`
-*  :ref:`configure_kdenlive`
+*  :doc:`Configure Kdenlive</getting_started/configuration>`
 
 .. rst-class:: clear-both
 

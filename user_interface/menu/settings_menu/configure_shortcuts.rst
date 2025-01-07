@@ -41,7 +41,7 @@ Allows modification of the keyboard shortcuts for various **Kdenlive** tasks.
 
 :guilabel:`More Actions`: your actual scheme can be:
 
-- saved (storage place see :ref:`configuration`)
+- saved (storage place see :doc:`Configure Kdenlive</getting_started/configuration>`)
 - exported
 - imported
 - or download new schemes from the KDE server.

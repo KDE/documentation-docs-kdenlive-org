@@ -67,7 +67,7 @@ If it is still not working go to: :menuselection:`Menu --> Help --> Reset Config
 Audio crackling while playback
 ------------------------------
 
-Change the audio driver in :menuselection:`Menu --> Settings --> Configure Kdenlive` (or :kbd:`Ctrl+Shift +,`), select :menuselection:`Playback --> Audio Backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), or :menuselection:`DirectSound` to see what gives the best result.
+Change the audio driver in :menuselection:`Menu --> Settings --> Configure Kdenlive` (or :kbd:`Ctrl+Shift+,`), select :menuselection:`Playback --> Audio Backend` and play around with :menuselection:`WinMM` (Win7), :menuselection:`Wasapi` (Win10), or :menuselection:`DirectSound` to see what gives the best result.
 
 You have to restart Kdenlive after each change.
 
@@ -204,7 +204,7 @@ Or download :download:`Kdenlive-kill.zip </files/Kdenlive-kill.zip>`. Unpack it 
 Kdenlive crashes at start up, Kdenlive cannot be uninstalled
 ------------------------------------------------------------
 
-If Kdenlive crashes at startup or if the uninstaller doesn't work delete the entire folder: :file:`C:/Program Files/kdenlive`.
+If Kdenlive crashes at startup or if the uninstaller doesn't work delete the entire folder: :file:`C:\\Program Files\\kdenlive`.
 
 Re-install Kdenlive.
 

@@ -70,7 +70,7 @@ Minimum System Requirements
 
 **RAM:** At least 4 GB for SD video, 8 GB for HD video, and 16 GB for 4K video.
 
-.. tip:: If your computer is at the lower end of CPU and RAM requirements, you should use the :ref:`Preview Resolution <ui-monitors_preview_resolution>`, :ref:`Proxy<configure_proxy_clips>` and :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering` features to help reduce preview lag.
+.. tip:: If your computer is at the lower end of CPU and RAM requirements, you should use the :ref:`Preview Resolution <ui-monitors_preview_resolution>`, :doc:`Proxy</getting_started/configure_kdenlive/configuration_proxy_clips>` and :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering` features to help reduce preview lag.
    
 .. note:: Video editing is in general relying heavily on CPU power. While Kdenlive has render profiles with GPU support, timeline playback uses the CPU. Therefore, the more powerful your CPU the better the playback performance of Kdenlive. More and better GPU support is on the near-term roadmap.
    

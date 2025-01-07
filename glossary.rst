@@ -192,7 +192,7 @@ Glossary
       An In-point defines the beginning of a :term:`zone`. A zone can be defined in the :term:`timeline` and the :term:`project monitor` (it has the same result), or in the :term:`clip monitor` (useful to move only a certain section of a clip to the timeline). See :term:`zone` for possible usages.
 
    Jog Shuttle
-      An external device that improves video editing by using a rotary knob to scrub through the timeline, and providing a special keyboard for actions like cutting, inserting, deleting, slip and ripple editing, etc. It can be used with Kdenlive and configured in :menuselection:`Menu --> Settings --> Configure Kdenlive --> JogShuttle`. See :ref:`Settings <configure_kdenlive>`.
+      An external device that improves video editing by using a rotary knob to scrub through the timeline, and providing a special keyboard for actions like cutting, inserting, deleting, slip and ripple editing, etc. It can be used with Kdenlive and configured in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`JogShuttle</getting_started/configure_kdenlive/configuration_jogshuttle>`. See :doc:`Settings</getting_started/configuration>`.
 
    KDE Store
       An online app |store| where users can upload files like lumas for :doc:`wipes </compositing/transitions/wipe>`, :ref:`presets <exporting>` for rendering, title templates, library clips and even project files. See :ref:`effects-effects_tab` icon #7.
@@ -246,7 +246,7 @@ Glossary
       A device to display a video signal. Kdenlive uses a Clip Monitor to play clips selected in the :term:`project bin` and :term:`Project Monitor` to play clips in the :term:`timeline`. Monitor is widget that can be switched on and off via :menuselection:`Menu --> View`. See :ref:`ui-monitors`.
 
    MOVIT
-      A library for high-quality, high-performance video filters. Is needed to enable GPU-supported preview and playback. See :ref:`configure_playback` in :menuselection:`Menu --> Settings --> Configure Kdenlive`.
+      A library for high-quality, high-performance video filters. Is needed to enable GPU-supported preview and playback. See :doc:`Configure Playback</getting_started/configure_kdenlive/configuration_playback>` in :menuselection:`Menu --> Settings --> Configure Kdenlive`.
 
    Clip Monitor
       The Clip Monitor plays the clip currently selected in the :term:`Project Bin`. See :ref:`ui-monitors` and :term:`overlay`.
