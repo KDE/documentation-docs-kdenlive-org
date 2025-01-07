@@ -1,5 +1,5 @@
 .. meta::
-   :description: File menu in Kdenlive video editor
+   :description: Kdenlive Documentation - File Menu
    :keywords: KDE, Kdenlive, file, menu, new, open, save, revert, transcode, clips, quit, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -19,7 +19,7 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
 
    :license: Creative Commons License SA 4.0
@@ -32,7 +32,7 @@ File Menu
 
 The File Menu contains the normal file operations as well as the option to import and export project files using the OpenTimelineIO format.
 
-.. _new:
+.. _file_new:
 
 New
 ---
@@ -41,7 +41,7 @@ Creates a new Kdenlive project. The default keyboard shortcut is :kbd:`Ctrl+N`.
 
 See :ref:`quickstart`.
 
-The default settings that appear on this feature are defined under :menuselection:`Settings --> Configure Kdenlive`. See the :ref:`configure_kdenlive` section of this documentation for more details.
+The default settings that appear on this feature are defined in :menuselection:`Menu --> Settings --> Configure Kdenlive`. See the chapter :doc:`Configure Kdenlive</getting_started/configuration>` for more details.
 
 .. _file_open:
 

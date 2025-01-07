@@ -31,7 +31,7 @@ Proxy Settings
 
       The Project Settings Proxy dialog window
 
-Proxy clips can be switched on and off per project. When proxies are disabled globally (see :ref:`configure_proxy_clips`), they are switched off for each new project. But if you need proxies for the new project, you can switch it on here in the Project Settings Proxy tab and change the settings for it.
+Proxy clips can be switched on and off per project. When proxies are disabled globally (see :doc:`Proxy Clips</getting_started/configure_kdenlive/configuration_proxy_clips>`), they are switched off for each new project. But if you need proxies for the new project, you can switch it on here in the Project Settings Proxy tab and change the settings for it.
 
 .. rst-class:: clear-both
 
@@ -47,7 +47,7 @@ The :guilabel:`Generate for videos larger than` option will automatically create
 
 Specify the frame width of the proxy clip. Default is 640px which is a reasonable compromise between smooth editing performance and preview detail.
 
-You can choose an :guilabel:`Encoding profile` for the proxy clips, which will define the size, codecs and bitrate used when creating the proxy clip. The proxy profiles can be managed from here by clicking on the |configure|\ :guilabel:`Manage proxy profiles` icon, or from the :menuselection:`Settings --> Configure Kdenlive --> Proxy` dialog. For more details see the :ref:`configure_proxy_clips` chapter.
+You can choose an :guilabel:`Encoding profile` for the proxy clips, which will define the size, codecs and bitrate used when creating the proxy clip. The proxy profiles can be managed from here by clicking on the |configure|\ :guilabel:`Manage proxy profiles` icon, or from the :menuselection:`Menu --> Settings --> Configure Kdenlive --> Proxy` dialog. For more details see the :doc:`Configure Proxy Clips</getting_started/configure_kdenlive/configuration_proxy_clips>` chapter.
 
 .. container:: clear-both
 

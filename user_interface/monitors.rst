@@ -91,7 +91,7 @@ The toolbar has the following options:
    * - |view-fullscreen|
      - Switch full screen. You can set the target monitor via :menuselection:`Menu --> Settings --> Configure Kdenlive --> Playback --> Monitor for fullscreen output`.
    * - |view-grid|
-     - Change overlay. Click through the different available patterns.
+     - Change overlay. Click through the different available patterns. You can :ref:`change the color<ui-monitors_change_overlay_color>` of the patterns in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Guides</getting_started/configure_kdenlive/configuration_colors+guides>`.
    * - |zoom-in|
      - Zoom in
    * - |zoom-out|
@@ -136,7 +136,7 @@ Once such an effect is applied either to a clip in the project bin, a clip in th
    * - Icon
      - Description
    * - |snap|
-     - Enable a grid to which the editing handles will snap. You can :ref:`change the grid size<ui-monitors_change_overlay_color>` in the Settings.
+     - Enable a grid to which the editing handles will snap. You can :ref:`change the grid size<ui-monitors_change_overlay_color>` in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Guides</getting_started/configure_kdenlive/configuration_colors+guides>`.
    * - |keyframe-next|
      - Go to the next keyframe.
    * - |keyframe-previous|
@@ -182,7 +182,6 @@ Monitor Change Overlay Color and Grid Size
 
 .. .. versionchanged:: 24.08
 
-
 .. figure:: /images/user_interface/kdenlive2408_ui-monitor_overlay_color.webp
    :width: 400px
    :figwidth: 400px
@@ -191,7 +190,7 @@ Monitor Change Overlay Color and Grid Size
 
    Changing the color of the monitor overlay and grid size
 
-The color of the guide and grid overlay as well as the grid size can be changed in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Colors and Guides`.
+The color of the guide and grid overlay as well as the grid size can be changed in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Guides</getting_started/configure_kdenlive/configuration_colors+guides>`.
 
 .. rst-class:: clear-both
 

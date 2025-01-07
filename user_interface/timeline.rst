@@ -125,7 +125,7 @@ Timeline Cursor/Position Caret/Playhead
 
    This indicates the position we are displaying in the :ref:`ui-monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead).
 
-   Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :ref:`configure_kdenlive`.
+   Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :doc:`Configure Kdenlive</getting_started/configuration>`.
 
 .. rst-class:: clear-both
 
@@ -322,7 +322,7 @@ In order to add a track, right-click anywhere in the track header area. In the *
       :align: left
       :alt: Add track(s)
 
-   You can specify the number of tracks for a new project in :menuselection:`Menu --> Settings --> Configure Kdenlive` in the :ref:`Project Defaults <configure_project_defaults>` tab. 
+   You can specify the number of tracks for a new project in :menuselection:`Menu --> Settings --> Configure Kdenlive` in the :doc:`Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>` tab. 
 
 .. rst-class:: clear-both
 
@@ -433,7 +433,7 @@ Configurable Tracks
 Continuously loop playback
 --------------------------
 
-- Disable :guilabel:`Pause playback when seeking` in :ref:`configure_timeline` settings (:menuselection:`Settings --> Configure Kdenlive --> Timeline`). 
+- Disable :guilabel:`Pause playback when seeking` in :doc:`Configure Timeline</getting_started/configure_kdenlive/configuration_timeline>` settings (:menuselection:`Menu --> Settings --> Configure Kdenlive --> Timeline`). 
 - Make a timeline zone the length you like to loop.
 - Loop Zone (:kbd:`Ctrl+Shift+Space`)
 

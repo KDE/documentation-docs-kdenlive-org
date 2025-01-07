@@ -64,7 +64,9 @@ As recommended in the :ref:`quickstart` section, you should create a new folder 
 .. seealso:: 
    :doc:`/project_and_asset_management/file_management/folder_structure`
 
-.. list-table:: 
+.. list-table::
+   :width: 100%
+   :widths: 35 65
    :class: table-wrap
 
    * - :guilabel:`Default`
@@ -102,7 +104,7 @@ For example, if your desired output is a 4K video, select one of the 4K profiles
 
 You can manage the list of project profiles from here. Click on the |configure|\ :guilabel:`Manage project profiles` icon. By default, the profile currently highlighted in the list will be opened for editing. In case this is the profile used in the current project, an error message will be displayed saying that it cannot be edited while the project is open.
 
-Further details can be found in the :ref:`configure_project_defaults` section of this documentation.
+Further details can be found in the :doc:`Configure Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>` section of this documentation.
 
 .. rst-class:: clear-both
 

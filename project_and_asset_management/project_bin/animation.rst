@@ -33,7 +33,7 @@ Create Animation
 Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\ |go-down|\ :guilabel:`Add Clip` icon on the project bin toolbar, and select :guilabel:`Create Animation`.
 
 .. note:: 
-   This requires |glaxnimate| to be installed and the path to it configured in Kdenlive's :doc:`settings</user_interface/menu/settings_menu/configure_kdenlive>`.
+   This requires |glaxnimate| to be installed and the path to it configured in Kdenlive's :ref:`settings<configure_environment_default_apps>`.
 
 .. figure:: /images/project_and_asset_management/project_bin_create_animation.webp
    :width: 206px
@@ -57,4 +57,4 @@ Kdenlive supports the :file:`Json` (Lottie animations) and :file:`rawr` (Glaxnim
 
 :file:`Json` and :file:`rawr` files contain an alpha channel, so the imported animations can be overlayed over other clips in the timeline.
 
-For Glaxnimate installation see the chapter about :ref:`default_apps`.
+For Glaxnimate installation see the chapter about :ref:`configure_environment_default_apps`.

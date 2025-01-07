@@ -75,7 +75,7 @@ While recording you see a live waveform appearing on timeline.
    :width: 40%
    :alt: audio-countdown
 
-   Disable countdown see :ref:`configure_audio_capture` settings
+   Disable countdown see :ref:`Configure Capture Audio<configure_capture_audio>` settings
 
 .. .. versionchanged:. 24.05
 
@@ -87,7 +87,7 @@ While recording you see a live waveform appearing on timeline.
 
 **Direct recording** 
 
-- *Start record:* press :kbd:`r` or click the :guilabel:`record` button on the track head. A countdown start in project monitor (disable countdown see :ref:`configure_audio_capture` settings).
+- *Start record:* press :kbd:`r` or click the :guilabel:`record` button on the track head. A countdown start in project monitor (disable countdown see :ref:`Configure Capture Audio<configure_capture_audio>` settings).
 
 - *Pause:* press :kbd:`spacebar`
 

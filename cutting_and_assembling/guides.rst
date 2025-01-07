@@ -115,7 +115,7 @@ Managing categories and guides
 Categories
 ~~~~~~~~~~
 
-When starting a new project the categories for the project are pulled in from :guilabel:`Guides and Markers Categories` in setting :ref:`configure_colors`. 
+When starting a new project the categories for the project are pulled in from :guilabel:`Guides and Markers Categories` in setting :doc:`Configure Colors and Guides</getting_started/configure_kdenlive/configuration_colors+guides>`. 
 
 .. image:: /images/Kdenlive_project_specific_categories.png
    :width: 350px

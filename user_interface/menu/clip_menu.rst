@@ -351,7 +351,7 @@ Transcode
    
 Use this function to transcode your source material into a wide variety of other formats. This function is also available via the right-click menu for the clip(s) selected in the Project Bin.
 
-Choose a transcode profile from the available list to transcode the selected clip into a different video format. The options are controlled by :ref:`configure_kdenlive`. The transcoding is done by the |ffmpeg| program.
+Choose a transcode profile from the available list to transcode the selected clip into a different video format. The options are controlled by :doc:`Transcode Settings</getting_started/configure_kdenlive/configuration_transcode>`. The transcoding is done by the |ffmpeg| program.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_transcode_clips.webp
    :align: left
@@ -500,7 +500,7 @@ This function is available for the following clip types:
 
 - animation (*new in version 22.08*) 
 
-It opens the clip in an external software specified in :ref:`default_apps` (:menuselection:`Settings --> Configure Kdenlive... --> Environment page --> Default Apps tab`) ready for editing.
+It opens the clip in an external software specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Apps <configure_environment_default_apps>` ready for editing.
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
@@ -513,7 +513,7 @@ If the path is not set a pop-up window appears to define the path to the externa
 
 Once the path is set the application starts and opens the clip you had selected. The entered path gets added automatically to the default apps in :menuselection:`Settings --> Configure Kdenlive`.
 
-More details for installing the needed external software and how to set the path: see :ref:`default_apps`.
+More details for installing the needed external software and how to set the path: see :ref:`configure_environment_default_apps`.
 
 .. hint:: The option is greyed out for video clips because **Kdenlive** is the video editor - only audio, image and animation clips are edited by external software.
 

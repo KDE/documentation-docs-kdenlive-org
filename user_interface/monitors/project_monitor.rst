@@ -121,7 +121,7 @@ These are the menu items that are available when you right-click in the Project 
      - Description
    * - Play
      - :kbd:`Space` or click into the monitor
-     - Plays the :term:`clip` currently selected in the :term:`project bin`. (:ref:`Disable play on click in the settings <configure_playback>`)
+     - Plays the :term:`clip` currently selected in the :term:`project bin`. (:doc:`Disable play on click in the settings</getting_started/configure_kdenlive/configuration_playback>`)
    * - Play Zone
      - :kbd:`Ctrl+Space`
      - Plays the current :term:`zone` and stops
