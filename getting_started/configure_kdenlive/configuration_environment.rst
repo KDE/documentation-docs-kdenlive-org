@@ -141,7 +141,7 @@ These settings tell Kdenlive where project files are to be stored. It also contr
 Python
 ~~~~~~
 
-*Python* is used for the speech-to-text feature. These settings tell Kdenlive where *Python* can be found on your system or whether a virtual environemnt (venv) should be set up and used.
+*Python* is used for the speech-to-text feature. These settings tell Kdenlive where *Python* can be found on your system or whether a virtual environment (venv) should be set up and used.
 
 .. figure:: /images/getting_started/configure_environment_python_appimage_2_2412.webp
    :width: 500px
