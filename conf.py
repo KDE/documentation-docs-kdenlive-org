@@ -245,6 +245,14 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |format-font-size-less| image:: /images/icons/format-font-size-less.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |format-font-size-more| image:: /images/icons/format-font-size-more.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |format-justify-center| image:: /images/icons/format-justify-center.svg
    :width: 22px
    :class: no-scaled-link
