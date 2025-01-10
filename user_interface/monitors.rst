@@ -89,7 +89,7 @@ The toolbar has the following options:
    * - Icon
      - Description
    * - |view-fullscreen|
-     - Switch full screen
+     - Switch full screen. You can set the target monitor via :menuselection:`Menu --> Settings --> Configure Kdenlive --> Playback --> Monitor for fullscreen output`.
    * - |view-grid|
      - Change overlay. Click through the different available patterns.
    * - |zoom-in|
