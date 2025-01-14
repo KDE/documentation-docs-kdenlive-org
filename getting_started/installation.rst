@@ -1,6 +1,5 @@
 .. meta::
    :description: Kdenlive Documentation - How to install Kdenlive
-   :description: Kdenlive Documentation - How to install Kdenlive
    :keywords: KDE, Kdenlive, install, Installation, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -23,7 +22,7 @@
              - Tenzen (https://userbase.kde.org/User:Tenzen)
              - Eugen Mohr
              - Bernd Jordan (https://discuss.kde.org/u/berndmj)
-             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             
 
    :license: Creative Commons License SA 4.0
 
@@ -56,27 +55,18 @@ You can install Kdenlive in two different ways:
 - As a self-contained executable (Windows: *standalone*; Linux: *appimage*).
 
 On macOS you can only use the installer version.
-You can install Kdenlive in two different ways:
-
-- Using an installer
-- As a self-contained executable (Windows: *standalone*; Linux: *appimage*).
-
-On macOS you can only use the installer version.
 
 Visit the |download_page| of the Kdenlive web site for up to date information on installing Kdenlive.
 
 You will find all previous Kdenlive versions in the |attic|.
 
-You will find all previous Kdenlive versions in the |attic|.
 
 
-Minimum System Requirements
 Minimum System Requirements
 ---------------------------
 
 **Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.15 (Catalina) [1]_ or newer and on M1, 64-bit Linux. Please see the details below.
 
-**CPU:** x86 Intel or AMD; at least one 2 GHz core for SD video, 4 cores for HD video, and 8 cores for 4K video. Please see the details below.
 **CPU:** x86 Intel or AMD; at least one 2 GHz core for SD video, 4 cores for HD video, and 8 cores for 4K video. Please see the details below.
 
 **GPU:** OpenGL 2.0 that works correctly and is compatible. On Windows, you can also use a card with good, compatible DirectX 9 or 11 drivers.
@@ -85,7 +75,6 @@ Minimum System Requirements
 
 .. tip:: If your computer is at the lower end of CPU and RAM requirements, you should use the :ref:`Preview Resolution <ui-monitors_preview_resolution>`, :doc:`Proxy</getting_started/configure_kdenlive/configuration_proxy_clips>` and :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering` features to help reduce preview lag.
    
-.. note:: Video editing is in general relying heavily on CPU power. While Kdenlive has render profiles with GPU support, timeline playback uses the CPU. Therefore, the more powerful your CPU the better the playback performance of Kdenlive. More and better GPU support is on the near-term roadmap.
 .. note:: Video editing is in general relying heavily on CPU power. While Kdenlive has render profiles with GPU support, timeline playback uses the CPU. Therefore, the more powerful your CPU the better the playback performance of Kdenlive. More and better GPU support is on the near-term roadmap.
    
 
@@ -106,19 +95,15 @@ Kdenlive runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and n
 Kdenlive is available as an install and as a standalone version.
 
 - Install version: Needs administrator rights and gets installed on your local machine. It is also listed as a program.
-- Install version: Needs administrator rights and gets installed on your local machine. It is also listed as a program.
    
-   - It is available for all users on your computer.
    - It is available for all users on your computer.
 
    - The Kdenlive files are always located in the same folder.  
 
 - Standalone version: **Doesn't** need administrator rights and isn't installed. It is **not** listed as a program. Is only accessible for the user who has downloaded the file.  
-- Standalone version: **Doesn't** need administrator rights and isn't installed. It is **not** listed as a program. Is only accessible for the user who has downloaded the file.  
    
    - If you work with a normal user on your computer, you can use Kdenlive.
 
-   - You can copy the Kdenlive folder on any external drive and run it on a different computer without installing it. However, your personal settings and downloads within Kdenlive are stored on the computer you work on.   
    - You can copy the Kdenlive folder on any external drive and run it on a different computer without installing it. However, your personal settings and downloads within Kdenlive are stored on the computer you work on.   
 
 .. epigraph::
@@ -142,17 +127,13 @@ Kdenlive is available as an install and as a standalone version.
 
 
    To start Kdenlive navigate to the :file:`bin` folder and double-click :file:`kdenlive.exe`. You can also create a shortcut to your Desktop for easy access. Right-click on :file:`kdenlive.exe` and select :guilabel:`Send to ...` and then :guilabel:`Desktop (create shortcut)`.
-   To start Kdenlive navigate to the :file:`bin` folder and double-click :file:`kdenlive.exe`. You can also create a shortcut to your Desktop for easy access. Right-click on :file:`kdenlive.exe` and select :guilabel:`Send to ...` and then :guilabel:`Desktop (create shortcut)`.
 
 .. rst-class:: clear-both
 
 
 Kdenlive in a Windows Domain
-
-Kdenlive in a Windows Domain
 ----------------------------
 
-If you want to use Kdenlive with domain users using Windows Active Directory and/or Group Policies (GPOs), make sure all users have read/write access to the following folders:
 If you want to use Kdenlive with domain users using Windows Active Directory and/or Group Policies (GPOs), make sure all users have read/write access to the following folders:
 
 .. epigraph::
@@ -173,8 +154,6 @@ If you want to use Kdenlive with domain users using Windows Active Directory and
 
 Also make sure no GPO is blocking the access to these folders.
 
-Also make sure no GPO is blocking the access to these folders.
-
 
 .. _kdenlive_macos:
 
@@ -182,14 +161,12 @@ Kdenlive on macOS
 -----------------
 
 Kdenlive runs with Intel-based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
-Kdenlive runs with Intel-based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
 
 .. .. .. versionadded:: 22.04.0
 
 .. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
 
-Installation Procedure
-~~~~~~~~~~~~~~~~~~~~~~
+
 Installation Procedure
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -253,12 +230,10 @@ The message that Apple can't search for malware will appear again. Just click on
 .. _automatically_check_for_updates:
 
 Automatically Check for Updates
-Automatically Check for Updates
 -------------------------------
 
 .. .. .. versionadded:: 24.02
 
-Kdenlive automatically checks at startup for updates based on the app version (no network connection needed)
 Kdenlive automatically checks at startup for updates based on the app version (no network connection needed)
 
 .. figure:: /images/getting_started/kdenlive2402_check-for-update.webp
