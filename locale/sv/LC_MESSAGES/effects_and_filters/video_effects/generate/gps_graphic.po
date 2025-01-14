@@ -136,13 +136,6 @@ msgid "Integer"
 msgstr "Heltal"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:64
-#| msgid ""
-#| "An offset (in seconds) to be added to the video file to match it to the "
-#| "GPS track. Most of the time this willTrim start at least need to be set "
-#| "to the timezone difference between the two files plus some seconds if the "
-#| "video recording device isn't precisely set to correct time. GPS time is "
-#| "always exact and in UTC\\ [1]_. Use positive values if GPS is ahead of "
-#| "video and negative otherwise."
 msgid ""
 "An offset in seconds to be added to the video file to match it to the GPS "
 "track. Most of the time this will at least need to be set to the timezone "
@@ -210,30 +203,20 @@ msgid "Selection"
 msgstr "Urval"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:73
-#| msgid ""
-#| "What data from the GPS file is used for drawing: **0** = GPS location/"
-#| "track; **1** = altitude (if available); **2** = heart rate (if "
-#| "available); **3** = speed (always available, computed from location)"
 msgid ""
 "What data from the GPS file is used for drawing. Options are **GPS location/"
 "track** (default), **Altitude** (if available), **Heart rate** (if "
 "available), **Speed** (always available, computed from location)"
 msgstr ""
-"Vilken data från GPS-filen används för återgivning. Alternativen är **GPS-plat"
-"s/spår** (standardvärde), **Höjd** (om tillgänglig), **Puls** (om tillgänglig)"
-", **Hastighet** (alltid tillgänglig, beräknad från plats)"
+"Vilken data från GPS-filen används för återgivning. Alternativen är **GPS-"
+"plats/spår** (standardvärde), **Höjd** (om tillgänglig), **Puls** (om "
+"tillgänglig), **Hastighet** (alltid tillgänglig, beräknad från plats)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:74
 msgid "Graph type"
 msgstr "Diagramtyp"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:76
-#| msgid ""
-#| "How to draw the selected data: **0** = a basic 2D map line (for location) "
-#| "or 1D graph per time (others); **1** = zooms in onto the map/graph and "
-#| "centers around the current location\\ [2]_; **2** = draws a speedometer "
-#| "(available for all data sources but recommended only for speed; for the "
-#| "map type it represents the \"percentage done\" from trimmed start - end)"
 msgid ""
 "How to draw the selected data. Options are **Basic 2D map line (for "
 "location) or 1D graph per time (others)**, **Zoom in onto the map/graph and "
@@ -241,12 +224,12 @@ msgid ""
 "(available for all data sources but recommended only for speed; for the map "
 "type it represents the \"percentage done\" from trimmed start - end)"
 msgstr ""
-"Hur vald data återges. Alternativen är **Enkel tvådimensionell kartlinje (för "
-"plats) eller endimensionellt diagram per tid (övriga)**, **Zooma in på kartan/"
-"diagrammet och centrerar den aktuella platsen**\\ [2]_, **Visar en hastighetsm"
-"ätare** (tillgänglig för alla datakällor men rekommenderas endast för hastighe"
-"t, för karttypen representerar den \"procenten klart\" från trimningens start "
-"- slut)"
+"Hur vald data återges. Alternativen är **Enkel tvådimensionell kartlinje "
+"(för plats) eller endimensionellt diagram per tid (övriga)**, **Zooma in på "
+"kartan/diagrammet och centrerar den aktuella platsen**\\ [2]_, **Visar en "
+"hastighetsmätare** (tillgänglig för alla datakällor men rekommenderas endast "
+"för hastighet, för karttypen representerar den \"procenten klart\" från "
+"trimningens start - slut)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:77
 msgid "Trim start"
@@ -301,33 +284,20 @@ msgid "Switch"
 msgstr "Byt"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:85
-#| msgid ""
-#| "Decides how to interpret the :guilabel:`Crop left` and :guilabel:`Crop "
-#| "right` values: **0** = a percentage from min..max; **1** = an absolute "
-#| "value (ie: it can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgid ""
 "Decides how to interpret the :guilabel:`Crop left` and :guilabel:`Crop "
 "right` values: **Percentage from min..max**, or **Absolute value** (ie: it "
 "can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgstr ""
-"Bestämmer hur värdena :guilabel:`Beskär vänster` och :guilabel:`Beskär höger` "
-"ska tolkas: **Procentandel från min..max** eller **Absolutvärde** (t.ex. kan d"
-"et beskära mellan 22,2 och 22,3 grader av longituden)\\ [3]_"
+"Bestämmer hur värdena :guilabel:`Beskär vänster` och :guilabel:`Beskär "
+"höger` ska tolkas: **Procentandel från min..max** eller **Absolutvärde** (t."
+"ex. kan det beskära mellan 22,2 och 22,3 grader av longituden)\\ [3]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:86
 msgid "Crop left"
 msgstr "Beskär vänster"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:88
-#| msgid ""
-#| "Crops data from the left side of the graph (effectively zooming in). The "
-#| "value is interpreted either as a percentage of total or an absolute value "
-#| "depending on :guilabel:`Crop mode horizontal`. In percentage mode the "
-#| "values are not restricted to 0-100 to allow for \"zoom out\" behaviour "
-#| "(ie: cropping -50 left will add an extra half of the total horizontal "
-#| "distance). Values over 100 (in % mode) will effectively not display "
-#| "anything. If :guilabel:`Graph type` is **speedometer**, all crop left/"
-#| "right values are ignored."
 msgid ""
 "Crops data from the left side of the graph (effectively zooming in). The "
 "value is interpreted either as a percentage of total or an absolute value "
@@ -365,36 +335,22 @@ msgid "Crop mode vertical"
 msgstr "Beskärningsläge vertikalt"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:94
-#| msgid ""
-#| "Decides how to interpret the :guilabel:`Crop top` and :guilabel:`Crop "
-#| "bottom` values: **0** = a percentage from min..max; **1** = an absolute "
-#| "value (ie: it can zoom in to between 100 and 150m of altitude to show "
-#| "small changes in altitude between those 2 values better)\\ [4]_"
 msgid ""
 "Decides how to interpret the :guilabel:`Crop top` and :guilabel:`Crop "
 "bottom` values: **Percentage from min..max**, or **Absolute value** (ie: it "
 "can zoom in to between 100 and 150m of altitude to show small changes in "
 "altitude between those 2 values better)\\ [4]_"
 msgstr ""
-"Bestämmer hur värdena :guilabel:`Beskär över` och :guilabel:`Beskär under` ska"
-" tolkas: **Procentandel från min..max**, **Absolutvärde** (t.ex. kan det zooma"
-" in till mellan 100 och 150 m höjd för att bättre visa små förändringar i höjd"
-"en mellan dessa två värden)\\ [4]_"
+"Bestämmer hur värdena :guilabel:`Beskär över` och :guilabel:`Beskär under` "
+"ska tolkas: **Procentandel från min..max**, **Absolutvärde** (t.ex. kan det "
+"zooma in till mellan 100 och 150 m höjd för att bättre visa små förändringar "
+"i höjden mellan dessa två värden)\\ [4]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:95
 msgid "Crop bottom"
 msgstr "Beskär under"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:97
-#| msgid ""
-#| "Crops data from the bottom side of the graph (effectively zooming in). "
-#| "The value is interpreted either as a percentage of total or an absolute "
-#| "value depending on :guilabel:`Crop mode vertical`. In percentage mode the "
-#| "values are not restricted to 0-100 to allow for \"zoom out\" behaviour "
-#| "(ie: cropping -50 bot will add an extra half of the total vertical "
-#| "distance to the bottom). Values over 100 (in % mode) will effectively not "
-#| "display anything. If :guilabel:`Graph type` is speedometer, this will set "
-#| "the minimum needle position which will clamp all values that are lower."
 msgid ""
 "Crops data from the bottom side of the graph (effectively zooming in). The "
 "value is interpreted either as a percentage of total or an absolute value "
@@ -437,11 +393,10 @@ msgid ""
 "Chooses one of nine styles to draw the graph line (:ref:`options see below "
 "<effects-gps_graphic-color_style>`)"
 msgstr ""
-"Väljer en av de nio stilarna för att rita diagramlinjen (:ref:`se nedan för al"
-"ternativ <effects-gps_graphic-color_style>`)"
+"Väljer en av de nio stilarna för att rita diagramlinjen (:ref:`se nedan för "
+"alternativ <effects-gps_graphic-color_style>`)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:104
-#| msgid "Show now dot"
 msgid "Show Now dot"
 msgstr "Visa nu-punkt"
 
@@ -454,7 +409,6 @@ msgstr ""
 "diagramtypen är hastighetsmätare påverkar det mätarpositionen."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:107
-#| msgid "Now dot colour"
 msgid "Now dot color"
 msgstr "Nu-punktens färg"
 
@@ -478,7 +432,6 @@ msgstr ""
 "leder till att den ändrar färg med tiden."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:110
-#| msgid "Show now text"
 msgid "Show Now text"
 msgstr "Visa nu-text"
 
@@ -506,7 +459,6 @@ msgstr ""
 "horisontell."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:116
-#| msgid "Thickness"
 msgid "Line Thickness (px)"
 msgstr "Linjebredd (bildpunkter)"
 
@@ -519,13 +471,6 @@ msgid "Draw legend"
 msgstr "Rita förklaring"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:121
-#| msgid ""
-#| "If enabled it will draw 5 horizontal (and vertical for map type) lines "
-#| "with small values each corresponding to the current data source value at "
-#| "0%, 25%, 50%, 75% and 100% of current graph shown, affected by the "
-#| "legend_unit type if applicable and with the string appended to the value. "
-#| "For :guilabel:`Graph type` **speedometer** this shows division values "
-#| "(but without appending unit)."
 msgid ""
 "If enabled it will draw 5 horizontal (and vertical for map type) lines with "
 "small values each corresponding to the current data source value at 0%, 25%, "
@@ -554,8 +499,8 @@ msgid ""
 "Select the unit of measure for the data to be displayed from the list below. "
 "You can add additional text in this field."
 msgstr ""
-"Välj måttenhet för data som ska visas i listan nedan. Man kan lägga till ytter"
-"ligare text i fältet."
+"Välj måttenhet för data som ska visas i listan nedan. Man kan lägga till "
+"ytterligare text i fältet."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:125
 msgid "Show dots only"
@@ -576,12 +521,10 @@ msgstr ""
 "tillräckligt eller för att felsöka oväntade radhopp."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:128
-#| msgid "Background scale"
 msgid "Background image"
 msgstr "Bakgrundsbild"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:129
-#| msgid "Selection"
 msgid "File selection"
 msgstr "Filmarkering"
 
@@ -620,7 +563,6 @@ msgid "Sets the colors of the graph line"
 msgstr "Ställer in diagramlinjens färg"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:144
-#| msgid "The following selection items are available:"
 msgid "The following options for :guilabel:`Graph color style` are available:"
 msgstr ""
 "Följande alternativ för :guilabel:`Diagrammens färgstil` är tillgängliga:"
@@ -630,48 +572,38 @@ msgid "One color"
 msgstr "En färg"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:152
-#| msgid "one color -> same color and size for the entire graph"
 msgid "Same color and size for the entire graph"
 msgstr "Samma färg och storlek för hela diagrammet"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:153
-#| msgid "Now dot colour"
 msgid "Two colors"
 msgstr "Två färger"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:154
-#| msgid ""
-#| "two colors -> same as 2 and 3 but the entire line is the same thickness"
 msgid ""
 "Same as *Solid Past* or *Solid Future* but the entire line is the same "
 "thickness"
 msgstr ""
-"Samma som **Heldragen dåtid** eller **Heldragen framtid** men hela linjen har "
-"samma bredd"
+"Samma som **Heldragen dåtid** eller **Heldragen framtid** men hela linjen "
+"har samma bredd"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:155
 msgid "Solid past - thin future"
 msgstr "**Heldragen dåtid** - **Tunn framtid**"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:156
-#| msgid ""
-#| "solid past, thin future -> from the beginning of the graph to the current "
-#| "position (=\"past\") it will be drawn using the 1st color and chosen "
-#| "thickness, but for the \"future\" part of the graph it will use the 2nd "
-#| "color and thickness will be 2px (or 1px if main thickness is below 3)"
 msgid ""
 "From the beginning of the graph to the current position (=\"past\") it will "
 "be drawn using the 1st color and chosen thickness, but for the \"future\" "
 "part of the graph it will use the 2nd color and thickness will be 2px (or "
 "1px if main thickness is below 3)"
 msgstr ""
-"Från början av diagrammet till den nuvarande positionen (=\"det förflutna\") r"
-"itas den med första färgen och den valda bredden, men för den \"framtida\" del"
-"en av diagrammet använder den andra färgen och bredden är 2 bildpunkter (eller"
-" 1 bildpunkt om linjebredden är under 3)"
+"Från början av diagrammet till den nuvarande positionen (=\"det förflutna\") "
+"ritas den med första färgen och den valda bredden, men för den \"framtida\" "
+"delen av diagrammet använder den andra färgen och bredden är 2 bildpunkter "
+"(eller 1 bildpunkt om linjebredden är under 3)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:157
-#| msgid "solid future, thin past"
 msgid "Solid future - thin past"
 msgstr "Heldragen framtid - tunn dåtid"
 
@@ -680,14 +612,10 @@ msgid "Same as above, just reversed"
 msgstr "Samma som ovan, bara omvänd"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:159
-#| msgid "horizontal gradient"
 msgid "Vertical gradient"
 msgstr "Vertikal toning"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:160
-#| msgid ""
-#| "vertical gradient -> the line will be coloured as a vertical gradient "
-#| "relative to the entire rect area"
 msgid ""
 "The line will be coloured as a vertical gradient relative to the entire rect "
 "area"
@@ -695,7 +623,6 @@ msgstr ""
 "Linjen färgas som en vertikal toning i förhållande till hela rektangelområdet"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:161
-#| msgid "horizontal gradient"
 msgid "Horizontal gradient"
 msgstr "Horisontell toning"
 
@@ -704,66 +631,48 @@ msgid "Same as above, just horizontal"
 msgstr "Samma som ovan, bara horisontell"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:163
-#| msgid "color by heart rate"
 msgid "Color by duration"
 msgstr "Färg enligt längd"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:164
-#| msgid ""
-#| "color by duration -> the selected colors will be used as a gradient, in "
-#| "chronological time (except for location source, this will effectively be "
-#| "a left to right gradient for 1D graphs)"
 msgid ""
 "The selected colors will be used as a gradient, in chronological order "
 "(except for location source, this will effectively be a left to right "
 "gradient for 1D graphs)"
 msgstr ""
-"De valda färgerna används som en toning, i kronologisk ordning (förutom för pl"
-"atsens källa, är det i praktiken en toning från vänster till höger för endimen"
-"sionella diagram)"
+"De valda färgerna används som en toning, i kronologisk ordning (förutom för "
+"platsens källa, är det i praktiken en toning från vänster till höger för "
+"endimensionella diagram)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:165
-#| msgid "color by heart rate"
 msgid "Color by altitude"
 msgstr "Färg enligt höjd"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:166
-#| msgid ""
-#| "color by altitude -> the selected colors will be used as a gradient from "
-#| "the minimum altitude value from file to the maximum one, not affected by "
-#| "crops or trim"
 msgid ""
 "The selected colors will be used as a gradient from the minimum altitude "
 "value from file to the maximum one, not affected by crops or trim"
 msgstr ""
-"De valda färgerna används som en toning från det lägsta höjdvärdet från filen "
-"till det maximala, utan påverkan av beskärning eller trimning"
+"De valda färgerna används som en toning från det lägsta höjdvärdet från "
+"filen till det maximala, utan påverkan av beskärning eller trimning"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:167
-#| msgid "color by heart rate"
 msgid "Color by heart rate"
 msgstr "Färg enligt puls"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:168
-#| msgid ""
-#| "color by altitude -> the selected colors will be used as a gradient from "
-#| "the minimum altitude value from file to the maximum one, not affected by "
-#| "crops or trim"
 msgid ""
 "The selected colors will be used as a gradient from the minimum heart rate "
 "value from file to the maximum one"
 msgstr ""
-"De valda färgerna används som en toning från det lägsta höjdvärdet från filen "
-"till det maximala, utan påverkan av beskärning eller trimning"
+"De valda färgerna används som en toning från det lägsta höjdvärdet från "
+"filen till det maximala, utan påverkan av beskärning eller trimning"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:169
-#| msgid "color by heart rate"
 msgid "Color by speed"
 msgstr "Färg enligt hastighet"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:170
-#| msgid ""
-#| "color by speed -> same as above but gradient is affected by smoothing"
 msgid "Same as above but gradient is affected by smoothing"
 msgstr "Samma som ovan men toningen påverkas av utjämning"
 
