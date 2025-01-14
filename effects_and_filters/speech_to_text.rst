@@ -96,7 +96,7 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 
 :3: Choose which part of the timeline should be used for speech recognition
 
-:4: :guilabel:`Process`. Click top start the recognition
+:4: :guilabel:`Process`. Click to start the recognition
 
 :5: :guilabel:`Model`. Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
 
@@ -284,7 +284,7 @@ Silence Detection
 
 Select the clip in the **Project Bin**** and open the speech editor window (:menuselection:`Menu --> View --> Speech Editor`) .
 
-Click on |application-menu|:guilabel:`Hamburger Menu` and choose the model for your language. If the right model is not listed, click on :guilabel:`Configure Speech Recognition`. For details about hwo to add models for the *VOSK* engine refer to the chapter about :doc:`/getting_started/configure_kdenlive/configuration_speech2text`.
+Click on |application-menu|:guilabel:`Hamburger Menu` and choose the model for your language. If the right model is not listed, click on :guilabel:`Configure Speech Recognition`. For details about how to add models for the *VOSK* engine refer to the chapter about :doc:`/getting_started/configure_kdenlive/configuration_speech2text`.
 
 Then click :guilabel:`Start Recognition` button.
 
