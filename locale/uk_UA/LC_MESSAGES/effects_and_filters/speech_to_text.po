@@ -1,15 +1,15 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-05-28 08:45+0300\n"
+"POT-Creation-Date: 2025-01-14 01:50+0000\n"
+"PO-Revision-Date: 2025-01-14 17:19+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,9 +18,49 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 23.04.3\n"
 
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "1"
+msgstr "1"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "2"
+msgstr "2"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "3"
+msgstr "3"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "4"
+msgstr "4"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "5"
+msgstr "5"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "6"
+msgstr "6"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "7"
+msgstr "7"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "8"
+msgstr "8"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "9"
+msgstr "9"
+
+#: ../../effects_and_filters/speech_to_text.rst:0
+msgid "10"
+msgstr "10"
+
 #: ../../effects_and_filters/speech_to_text.rst:1
-msgid "The Kdenlive User Manual"
-msgstr "Підручник користувача Kdenlive"
+msgid "Kdenlive Documentation - Speech to Text"
+msgstr "Документація до Kdenlive — Перетворення звукових даних на текст"
 
 #: ../../effects_and_filters/speech_to_text.rst:1
 msgid ""
@@ -31,7 +71,7 @@ msgstr ""
 "вільний, довідка, допомога, вивчення, синтез мовлення, виявлення тиші, "
 "виявлення мовчання"
 
-#: ../../effects_and_filters/speech_to_text.rst:29
+#: ../../effects_and_filters/speech_to_text.rst:31
 msgid "Speech to Text"
 msgstr "Перетворення звуку на текст"
 
@@ -45,403 +85,182 @@ msgstr ""
 "`програмним інтерфейсом Vosk <https://github.com/alphacep/vosk-api>`_. "
 "Скористайтеся версією 21.04.1 або 21.04.3 чи новішими версіями."
 
-#: ../../effects_and_filters/speech_to_text.rst:37
-msgid "Install Python"
-msgstr "Встановлення Python"
+#: ../../effects_and_filters/speech_to_text.rst:36
+msgid ""
+"Before you can use Speech to Text, it must be properly configured and speech "
+"models installed. Please refer to the chapter :doc:`Configure Speech to "
+"Text</getting_started/configure_kdenlive/configuration_speech2text>`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:38
+msgid ""
+"While you can configure and set up both, VOSK and Whisper, for speech "
+"recognition, the engine that is selected in the :doc:`Speech to Text</"
+"getting_started/configure_kdenlive/configuration_speech2text>` configuration "
+"section is being used for speech recognition the next time you use this "
+"feature. You can switch back and forth during editing, of course, and use "
+"different engines for different purposes. The Speech Editor widget has a "
+"menu entry to quickly access the configuration section bypassing the :"
+"menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Speech to "
+"Text</getting_started/configure_kdenlive/configuration_speech2text>` route."
+msgstr ""
 
 #: ../../effects_and_filters/speech_to_text.rst:42
-msgid ""
-"Python 3 needs to be installed on your computer (details see below for Linux "
-"and Windows). Once Python is installed, :ref:`follow these steps "
-"<settings_environment_python>` to put Python into a virtual environment "
-"(afterwards Python is copied to the :file:`venv` folder)"
-msgstr ""
-"На вашому комп'ютері має бути встановлено Python 3 (подробиці для Linux і "
-"Windows наведено нижче). Після встановлення Python :ref:`виконайте ці кроки "
-"<settings_environment_python>`, щоб розташувати Python у віртуальному "
-"середовищі (після цього Python буде скопійовано до теки :file:`venv`)"
-
-#: ../../effects_and_filters/speech_to_text.rst:44
-msgid "**De-install Python**"
-msgstr "**Вилучення Python**"
-
-#: ../../effects_and_filters/speech_to_text.rst:46
-msgid ""
-"To remove the installed :file:`venv` package got to :menuselection:`Settings "
-"--> Kdenlive Settings --> Environment --> Python` and :guilabel:`Delete` :"
-"file:`venv`."
-msgstr ""
-"Щоб вилучити встановлений пакунок :file:`venv` перейдіть до пункту :"
-"menuselection:`Параметри --> Параметри Kdenlive --> Середовище --> Python` і "
-"натисніть кнопку :guilabel:`Вилучити` :file:`venv`."
-
-#: ../../effects_and_filters/speech_to_text.rst:48
-msgid ""
-"It will completely remove the :file:`venv` folder with all installed "
-"packages. Note that this does not remove the downloaded models (vosk/"
-"whisper) that can still take quite some HD space"
-msgstr ""
-"У результаті програма повністю вилучить теку :file:`venv` із усіма "
-"встановленими пакунками. Зауважте, що це не призведе до вилучення отриманих "
-"моделей (vosk/whisper), які після цього можуть продовжити займати певне "
-"місце на диску"
-
-#: ../../effects_and_filters/speech_to_text.rst:51
-msgid "Linux"
-msgstr "Linux"
-
-#: ../../effects_and_filters/speech_to_text.rst:53
-msgid ""
-"On most Linux distributions python is installed by default. You can check if "
-"that is the case for you too by running ``python3 -V`` in a terminal. If "
-"python is missing just search the internet, there are lots of instructions "
-"around."
-msgstr ""
-"У більшості дистрибутивів Linux до типового комплекту програм включено "
-"Python. Ви можете перевірити, чи це так за допомогою команди ``python3 -V``, "
-"відданої у терміналі. Якщо Python не встановлено, ви можете знайти безліч "
-"інструкцій з його встановлення в інтернеті."
-
-#: ../../effects_and_filters/speech_to_text.rst:56
-msgid "Windows"
-msgstr "Windows"
-
-#: ../../effects_and_filters/speech_to_text.rst:58
-msgid ""
-"Download python from |python_download| for installation on your computer."
-msgstr "Пакунки для встановлення Python можна отримати тут: |python_download|."
-
-#: ../../effects_and_filters/speech_to_text.rst:64
-msgid "Speech Engines"
-msgstr "Рушії озвучення"
-
-#: ../../effects_and_filters/speech_to_text.rst:66
-msgid ""
-"To install the speech engines go to :menuselection:`Settings --> Configure "
-"Kdenlive --> Speech to Text`."
-msgstr ""
-"Щоб встановити рушії розпізнавання мовлення, скористайтеся пунктом :"
-"menuselection:`Параметри --> Налаштувати Kdenlive --> Перетворення звуку на "
-"текст`."
-
-#: ../../effects_and_filters/speech_to_text.rst:69
-msgid "VOSK"
-msgstr "VOSK"
-
-#: ../../effects_and_filters/speech_to_text.rst:86
-msgid "Vosk is not installed"
-msgstr "Vosk не встановлено"
-
-#: ../../effects_and_filters/speech_to_text.rst:90
-msgid ""
-"When you switch to VOSK for the first time you have to install the missing "
-"dependencies first."
-msgstr ""
-"Якщо ви перший раз перемикаєтеся на VOSK, вам доведеться спочатку встановити "
-"пропущені залежності."
-
-#: ../../effects_and_filters/speech_to_text.rst:92
-msgid "Path where VOSK is installed:"
-msgstr "Шлях, куди встановлено VOSK:"
-
-#: ../../effects_and_filters/speech_to_text.rst:94
-#: ../../effects_and_filters/speech_to_text.rst:175
-msgid "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
-msgstr "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
-
-#: ../../effects_and_filters/speech_to_text.rst:95
-#: ../../effects_and_filters/speech_to_text.rst:176
-msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
-msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
-
-#: ../../effects_and_filters/speech_to_text.rst:97
-msgid ""
-"If you have installed VOSK in an earlier Kdenlive version already and now "
-"you have chosen the :file:`venv` folder for Python, you can delete the past "
-"installed VOSK libraries by using following command in a console: :file:`pip "
-"uninstall vosk srt`"
-msgstr ""
-"Якщо вами було встановлено VOSK у якійсь із попередніх версій Kdenlive, а у "
-"новій версії вибрано теку :file:`venv` для Python, ви можете вилучити "
-"встановлені бібліотеки VOSK за допомогою такої команди у консолі: :file:`pip "
-"uninstall vosk srt`"
-
-#: ../../effects_and_filters/speech_to_text.rst:100
-msgid "Install a Language"
-msgstr "Встановлення даних мови"
-
-#: ../../effects_and_filters/speech_to_text.rst:102
-msgid ""
-"Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to Text "
-"page` and select the speech engine VOSK."
-msgstr ""
-"Перейдіть :menuselection:`Параметри --> Налаштувати Kdenlive... --> сторінка "
-"«Перетворення звуку на текст»` і виберіть рушій озвучення VOSK."
-
-#: ../../effects_and_filters/speech_to_text.rst:104
-msgid ""
-"Click on the link :guilabel:`Download speech models from:` to get a language "
-"model."
-msgstr ""
-"Натисніть посилання :guilabel:`Моделі мовлення можна отримати звідси:` для "
-"отримання моделі мови."
-
-#: ../../effects_and_filters/speech_to_text.rst:114
-msgid ""
-"Drag & drop the language you want from the vosk-model download page to the "
-"model window, and it will download and extract it for you."
-msgstr ""
-"Перетягніть пункт мови, яка вам потрібна, зі сторінки отримання пакунків "
-"vosk-model у вікно моделей — програма виконає автоматичне отримання і "
-"розпакування даних."
-
-#: ../../effects_and_filters/speech_to_text.rst:124
-msgid ""
-"If you have problems or check for updates click on the :guilabel:`Check "
-"configuration` button."
-msgstr ""
-"Якщо виникають проблеми або ви хочете пошукати оновлення, натисніть кнопку :"
-"guilabel:`Перевірити налаштування`."
-
-#: ../../effects_and_filters/speech_to_text.rst:128
-msgid ""
-":guilabel:`Models folder` Show the size of the installed models. Click on "
-"the link opens the model folder."
-msgstr ""
-":guilabel:`Тека моделей` — показує розмір встановлених моделей. Натискання "
-"посилання відкриває теку моделі."
-
-#: ../../effects_and_filters/speech_to_text.rst:130
-msgid "The VOSK speech models are stored here:"
-msgstr "Моделі мовлення VOSK буде встановлено сюди:"
-
-#: ../../effects_and_filters/speech_to_text.rst:132
-msgid "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
-msgstr "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
-
-#: ../../effects_and_filters/speech_to_text.rst:134
-msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
-msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
-
-#: ../../effects_and_filters/speech_to_text.rst:137
-msgid "Whisper"
-msgstr "Whisper"
-
-#: ../../effects_and_filters/speech_to_text.rst:145
-msgid ""
-"OpenAI-Whisper is a speech recognition model for general use. It is trained "
-"on a large dataset of diverse audio and is capable of performing speech "
-"translation, and language identification."
-msgstr ""
-"OpenAI-Whisper є модель розпізнавання мовлення для загального використання. "
-"Її натреновано на великому наборі даних різних звукових фрагментів, і вона "
-"може виконувати переклад та визначення мови."
-
-#: ../../effects_and_filters/speech_to_text.rst:147
-msgid ""
-"Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
-"Whisper creates sentences with punctuation marks, even in Base mode."
-msgstr ""
-"Whisper є повільнішим за VOSK на процесорі, але є точнішими за VOSK. Whisper "
-"створює речення зі знаками пунктуації, навіть у базовому режимі."
-
-#: ../../effects_and_filters/speech_to_text.rst:155
-msgid "Whisper is not installed"
-msgstr "Whisper не встановлено"
-
-#: ../../effects_and_filters/speech_to_text.rst:159
-msgid ""
-"When you switch to Whisper for the first time you have to install the "
-"missing dependencies first (about 2GB to download)."
-msgstr ""
-"Якщо ви перший раз перемикаєтеся на Whisper, вам доведеться спочатку "
-"встановити пропущені залежності (доведеться отримати близько 2 ГБ даних)."
-
-#: ../../effects_and_filters/speech_to_text.rst:169
-msgid "When all is correct configured, you get this screen."
-msgstr "Якщо все налаштовано правильно, ви отримаєте показане нижче вікно."
-
-#: ../../effects_and_filters/speech_to_text.rst:173
-msgid "Path where Whisper is installed:"
-msgstr "Шлях, куди встановлено Whisper:"
-
-#: ../../effects_and_filters/speech_to_text.rst:178
-msgid "The Whisper speech models are stored here:"
-msgstr "Моделі мовлення Whisper зберігатимуться тут:"
-
-#: ../../effects_and_filters/speech_to_text.rst:180
-msgid "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
-msgstr "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
-
-#: ../../effects_and_filters/speech_to_text.rst:182
-msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
-msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
-
-#: ../../effects_and_filters/speech_to_text.rst:185
-msgid ""
-":guilabel:`Model` Select the model. More details on the |whisper_source| "
-"(default: Base)."
-msgstr ""
-":guilabel:`Модель`: виберіть модель. Докладніше про це на |whisper_source| "
-"(типове значення: Базова)"
-
-#: ../../effects_and_filters/speech_to_text.rst:187
-msgid ""
-":guilabel:`Language` Select the language if Autodetect is not accurate "
-"(default: Autodetect)"
-msgstr ""
-":guilabel:`Мова`: виберіть мову, якщо «Автовизначення» є неправильним "
-"(типове значення: Автовизначення)"
-
-#: ../../effects_and_filters/speech_to_text.rst:189
-msgid ":guilabel:`Device` For compatibility purposes only CPU is available"
-msgstr ""
-":guilabel:`Пристрій`: для підтримання сумісності, можна використовувати лише "
-"процесор."
-
-#: ../../effects_and_filters/speech_to_text.rst:191
-msgid ""
-":guilabel:`Disable half precision (FP16)` Only for GPU. When Kdenlive "
-"detects a NVIDIA GTX 16xx graphic card it disables half precision (FP16) "
-"automatically. If you have issues with using GPU you can switch off half "
-"precision."
-msgstr ""
-":guilabel:`Вимкнути напівточність (FP16)`. Лише для графічних процесорів. "
-"Коли Kdenlive виявляє графічну картку NVIDIA GTX 16xx, програма вимикає "
-"половинну точність (FP16) автоматично. Якщо у вас виникають проблеми з "
-"використанням графічного процесора, ви можете вимкнути половинну точність."
-
-#: ../../effects_and_filters/speech_to_text.rst:193
-msgid ""
-":guilabel:`Translate text to english` This translates non-English text to "
-"English during recognition"
-msgstr ""
-":guilabel:`Перекласти текст англійською`: наказує програмі перекласти текст, "
-"відмінний від англійського, англійською під час розпізнавання"
-
-#: ../../effects_and_filters/speech_to_text.rst:195
-msgid ""
-":guilabel:`Enable translation through SeamlessM4T` This will only enable/"
-"disable ``facebook/seamless-m4t-v2-large``. To download and start subtitle "
-"translation :ref:`follow these steps <Translate_with_SeamlessM4T>`."
-msgstr ""
-":guilabel:`Увімкнути переклад за допомогою SeamlessM4T`. Вмикає або вимикає "
-"лише ``facebook/seamless-m4t-v2-large``. Щоб отримати і запустити переклад "
-"субтитрів, виконайте :ref:`ці кроки <Translate_with_SeamlessM4T>`."
-
-#: ../../effects_and_filters/speech_to_text.rst:197
-msgid ""
-"You can check for updates by clicking on :guilabel:`Check configuration`"
-msgstr ""
-"Виконати пошук оновлень можна натисканням кнопки :guilabel:`Перевірити "
-"налаштування`"
-
-#: ../../effects_and_filters/speech_to_text.rst:199
-msgid ""
-"If you have installed Whisper in an earlier Kdenlive version already and now "
-"you have chosen the :file:`venv` folder for Python, you can delete the past "
-"installed Whisper libraries by using following command in a console: :file:"
-"`pip uninstall openai-whisper`"
-msgstr ""
-"Якщо вами вже було встановлено Whisper у якійсь із попередніх версій "
-"Kdenlive, а у новій версії вибрано теку :file:`venv` для Python, ви можете "
-"вилучити старі встановлені бібліотеки Whisper за допомогою такої команди у "
-"консолі: :file:`pip uninstall openai-whisper`"
-
-#: ../../effects_and_filters/speech_to_text.rst:203
-msgid "Speech recognition"
+#| msgid "Speech recognition"
+msgid "Speech Recognition"
 msgstr "Розпізнавання мовлення"
 
-#: ../../effects_and_filters/speech_to_text.rst:206
-msgid "Select the speech engine"
-msgstr "Вибір рушія озвучення"
+#: ../../effects_and_filters/speech_to_text.rst:44
+#| msgid "Creating clips by speech recognition"
+msgid "There are two use cases for speech recognition:"
+msgstr "Розпізнаванням мовлення можна скористатися у двох випадках:"
 
-#: ../../effects_and_filters/speech_to_text.rst:210
-msgid "Enable :menuselection:`Menu --> View --> Speech Editor` menu item."
-msgstr ""
-"Виберіть пункт меню :menuselection:`Меню --> Перегляд --> Редактор мовлення`."
+#: ../../effects_and_filters/speech_to_text.rst:46
+msgid "Creating subtitles automatically"
+msgstr "Автоматичне створення субтитрів"
 
-#: ../../effects_and_filters/speech_to_text.rst:220
+#: ../../effects_and_filters/speech_to_text.rst:47
 msgid ""
-"Click on the :guilabel:`Hamburger Menu` |application-menu| and select :"
-"guilabel:`Configure Speech Recognition`. This brings you to :ref:`Configure "
-"Speech to Text <configure_speech_to_text>`, select the engine and click :"
-"guilabel:`OK.`"
+"Creating :ref:`transcripts<creating_clips_by_speech_recognition>` and the "
+"ability to :ref:`add clips to the "
+"timeline<creating_clips_by_speech_recognition>` based on the transcript"
 msgstr ""
-"Натисніть :guilabel:`меню-гамбургер` |application-menu| і виберіть пункт :"
-"guilabel:`Налаштувати розпізнавання мовлення`. У відповідь буде відкрито "
-"вікно :ref:`Налаштування Перетворення звуку на текст "
-"<configure_speech_to_text>`. Виберіть рушій і натисніть кнопку :guilabel:"
-"`Гаразд`."
 
-#: ../../effects_and_filters/speech_to_text.rst:222
+#: ../../effects_and_filters/speech_to_text.rst:80
+#| msgid "Creating subtitle by VOSK speech recognition"
+msgid "Creating Subtitles using VOSK Speech Recognition"
+msgstr "Створення субтитрів за допомогою розпізнавання мовлення з VOSK"
+
+#: ../../effects_and_filters/speech_to_text.rst:84
 msgid ""
-":guilabel:`Translate to english` is only available with the Whisper speech "
-"engine. It translates non-English text to English during recognition."
+"If not yet created, add a subtitle track by clicking on the |add-subtitle|"
+"\\ :guilabel:`Edit Subtitle Tool` icon in the Timeline tool bar (**6**)."
 msgstr ""
-"Пункт :guilabel:`Перекласти текст англійською` доступний лише для рушія "
-"мовлення Whisper. Наказує програмі перекласти текст, відмінний від "
-"англійського, англійською під час розпізнавання."
 
-#: ../../effects_and_filters/speech_to_text.rst:232
+#: ../../effects_and_filters/speech_to_text.rst:91
+msgid "Automatic subtitle generation using the VOSK engine"
+msgstr "Автоматичне створення субтитрів за допомогою рушія VOSK"
+
+#: ../../effects_and_filters/speech_to_text.rst:93
+#: ../../effects_and_filters/speech_to_text.rst:138
 msgid ""
-"If some error or important message happen. Click on the :guilabel:`Show log` "
-"and the log get visible."
+"|tools-wizard|\\ :guilabel:`Speech recognition`. Click here to open the "
+"**Automatic Subtitling** dialog window."
 msgstr ""
-"Якщо трапилася якась помилка або було виведено важливе повідомлення. "
-"Натисніть :guilabel:`Показати журнал`, і програма покаже журнал."
 
-#: ../../effects_and_filters/speech_to_text.rst:236
-msgid "Creating subtitle by VOSK speech recognition"
-msgstr "Створення субтитрів для розпізнавання мовлення VOSK"
-
-#: ../../effects_and_filters/speech_to_text.rst:246
-msgid "Shown with the VOSK engine"
-msgstr "Показано з рушієм VOSK"
-
-#: ../../effects_and_filters/speech_to_text.rst:250
-#: ../../effects_and_filters/speech_to_text.rst:280
+#: ../../effects_and_filters/speech_to_text.rst:95
+#: ../../effects_and_filters/speech_to_text.rst:140
 msgid ""
-"Mark the timeline zone you want to recognize (adjust the blue line) (**1**)"
+"Timeline Zone. More details about Timeline Zones can be found in the "
+"chapter :ref:`timeline_ruler`."
 msgstr ""
-"Позначте на монтажному столі ділянку, де має бути розпізнано мовлення "
-"(скоригуйте розташування синьої лінії) (**1**)"
 
-#: ../../effects_and_filters/speech_to_text.rst:252
-#: ../../effects_and_filters/speech_to_text.rst:282
-msgid "Click on the :guilabel:`Speech recognition` icon (**2**)"
-msgstr "Натисніть піктограму :guilabel:`Розпізнавання мовлення` (**2**)"
-
-#: ../../effects_and_filters/speech_to_text.rst:254
-msgid "Choose the :guilabel:`Language` (**3**)"
-msgstr "Виберіть :guilabel:`Мову` (**3**)"
-
-#: ../../effects_and_filters/speech_to_text.rst:256
-#: ../../effects_and_filters/speech_to_text.rst:286
+#: ../../effects_and_filters/speech_to_text.rst:97
+#: ../../effects_and_filters/speech_to_text.rst:142
+#| msgid ""
+#| "Choose which part of the timeline should be applied for recognition "
+#| "(**4**)"
 msgid ""
-"Choose which part of the timeline should be applied for recognition (**4**)"
+"Choose which part of the timeline should be used for speech recognition"
 msgstr ""
 "Виберіть частину монтажного столу, до якої має бути застосовано "
-"розпізнавання (**4**)"
+"розпізнавання мовлення"
 
-#: ../../effects_and_filters/speech_to_text.rst:258
-#: ../../effects_and_filters/speech_to_text.rst:288
-msgid ":guilabel:`Process` Start the recognition (**5**)"
-msgstr ":guilabel:`Обробка` — розпочати розпізнавання (**5**)"
+#: ../../effects_and_filters/speech_to_text.rst:99
+#| msgid ":guilabel:`Process` Start the recognition (**5**)"
+msgid ":guilabel:`Process`. Click top start the recognition"
+msgstr ":guilabel:`Обробка`. Натисніть, щоб розпочати розпізнавання"
 
-#: ../../effects_and_filters/speech_to_text.rst:260
-#: ../../effects_and_filters/speech_to_text.rst:290
-msgid "The subtitle gets created and inserted automatically."
+#: ../../effects_and_filters/speech_to_text.rst:101
+#: ../../effects_and_filters/speech_to_text.rst:144
+msgid ""
+":guilabel:`Model`. Select the model for the language of the subtitles. You "
+"can install more models in the Configuration section :doc:`Speech to Text</"
+"getting_started/configure_kdenlive/configuration_speech2text>`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:103
+#: ../../effects_and_filters/speech_to_text.rst:156
+msgid ""
+"|add-subtitle|\\ :guilabel:`Edit Subtitle Tool`. Click to open or close the "
+"subtitle track."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:106
+#: ../../effects_and_filters/speech_to_text.rst:159
+#| msgid "Creating subtitle by VOSK speech recognition"
+msgid "Steps to create subtitles using VOSK speech recognition"
+msgstr "Кроки створення субтитрів за допомогою розпізнавання мовлення з VOSK"
+
+#: ../../effects_and_filters/speech_to_text.rst:107
+#: ../../effects_and_filters/speech_to_text.rst:160
+msgid ""
+"(numbers in brackets point to the GUI element in the screenshot above):"
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:109
+#: ../../effects_and_filters/speech_to_text.rst:162
+msgid ""
+"|tools-wizard|\\ :guilabel:`Speech recognition` (**1**). Click here to open "
+"the **Automatic Subtitling** dialog window."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:111
+#: ../../effects_and_filters/speech_to_text.rst:164
+msgid ""
+"If needed, define a timeline zone (**2**) for which you want to use speech "
+"recognition. More details about Timeline Zones can be found in the chapter :"
+"ref:`timeline_ruler`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:113
+#: ../../effects_and_filters/speech_to_text.rst:166
+msgid ""
+":guilabel:`Model` (**5**). Select the model for the language of the "
+"subtitles. You can install more models in the Configuration section :doc:"
+"`Speech to Text</getting_started/configure_kdenlive/"
+"configuration_speech2text>`."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:115
+#: ../../effects_and_filters/speech_to_text.rst:168
+#| msgid ""
+#| "Choose which part of the timeline should be applied for recognition "
+#| "(**4**)"
+msgid ""
+"Choose which part of the timeline should be used for speech recognition "
+"(**3**)"
+msgstr ""
+"Виберіть частину монтажного столу, до якої має бути застосовано "
+"розпізнавання мовлення (**3**)"
+
+#: ../../effects_and_filters/speech_to_text.rst:117
+#: ../../effects_and_filters/speech_to_text.rst:170
+#| msgid ":guilabel:`Process` Start the recognition (**5**)"
+msgid ":guilabel:`Process` (**4**). Click to start the subtitle creation."
+msgstr ""
+":guilabel:`Обробка` (**4**). Натисніть, щоб розпочати створення субтитрів."
+
+#: ../../effects_and_filters/speech_to_text.rst:119
+#: ../../effects_and_filters/speech_to_text.rst:172
+#| msgid "The subtitle gets created and inserted automatically."
+msgid "The subtitle is created and inserted automatically."
 msgstr "Субтитри буде створено і вставлено автоматично."
 
-#: ../../effects_and_filters/speech_to_text.rst:262
-#: ../../effects_and_filters/speech_to_text.rst:292
+#: ../../effects_and_filters/speech_to_text.rst:121
+#: ../../effects_and_filters/speech_to_text.rst:174
+#, fuzzy
+#| msgid ""
+#| "Remark to **4**: The default is to analyze only the :guilabel:`Timeline "
+#| "zone (all tracks)` (the blue bar in the timeline ruler). Set the zone in "
+#| "the timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to "
+#| "set in and out points). :guilabel:`Selected clips` option analyses the "
+#| "selected clip only."
 msgid ""
-"Remark to **4**: The default is to analyze only the :guilabel:`Timeline zone "
-"(all tracks)` (the blue bar in the timeline ruler). Set the zone in the "
-"timeline to what you want to analyze (use :kbd:`I` and :kbd:`O` to set in "
-"and out points). :guilabel:`Selected clips` option analyses the selected "
-"clip only."
+"Remark to step **4**: The default is to analyze only the :guilabel:`Timeline "
+"zone (all tracks)` (**2** in the screenshot above). Set the timeline zone to "
+"what you want to analyze (use :kbd:`I` and :kbd:`O` to set in and out "
+"points). :guilabel:`Selected clips` option analyses the selected clip only."
 msgstr ""
 "Зауваження щодо пункту **4**: типова поведінка полягає в аналізі лише :"
 "guilabel:`зони монтажного столу (усі доріжки)` (синя смуга на лінійці "
@@ -450,67 +269,108 @@ msgstr ""
 "вхідної і вихідної позицій). Якщо буде позначено пункт :guilabel:`Позначені "
 "кліпи`, програма виконає аналіз лише позначених кліпів."
 
-#: ../../effects_and_filters/speech_to_text.rst:266
-msgid "Creating subtitle by WHISPER speech recognition"
+#: ../../effects_and_filters/speech_to_text.rst:125
+#, fuzzy
+#| msgid "Creating subtitle by WHISPER speech recognition"
+msgid "Creating Subtitles using WHISPER Speech Recognition"
 msgstr "Створення субтитрів для розпізнавання мовлення WHISPER"
 
-#: ../../effects_and_filters/speech_to_text.rst:276
-msgid "Shown with the Whisper engine"
-msgstr "Показано з рушієм WHISPER"
-
-#: ../../effects_and_filters/speech_to_text.rst:284
-msgid "Choose the :guilabel:`Model` (**3**)"
-msgstr "Виберіть :guilabel:`Модель` (**3**)"
-
-#: ../../effects_and_filters/speech_to_text.rst:294
+#: ../../effects_and_filters/speech_to_text.rst:129
 msgid ""
-":guilabel:`Language` If :guilabel:`Autodetect` doesn't choose the correct "
-"language you can manually set the language"
+"If not yet created, add a subtitle track by clicking on the |add-subtitle|"
+"\\ :guilabel:`Edit Subtitle Tool` icon in the Timeline tool bar (**11**)."
+msgstr ""
+
+#: ../../effects_and_filters/speech_to_text.rst:136
+msgid "Automatic subtitle generation using the Whisper engine"
+msgstr "Автоматичне створення субтитрів за допомогою рушія Whisper"
+
+#: ../../effects_and_filters/speech_to_text.rst:146
+#, fuzzy
+#| msgid ":guilabel:`Process` Start the recognition (**5**)"
+msgid ":guilabel:`Process`. Click to start the recognition"
+msgstr ":guilabel:`Обробка` — розпочати розпізнавання (**5**)"
+
+#: ../../effects_and_filters/speech_to_text.rst:148
+#, fuzzy
+#| msgid ""
+#| ":guilabel:`Language` If :guilabel:`Autodetect` doesn't choose the correct "
+#| "language you can manually set the language"
+msgid ""
+":guilabel:`Language`. Default is **Autodetect**. Change to the correct "
+"language if not detected properly."
 msgstr ""
 ":guilabel:`Мова` — якщо :guilabel:`Автовиявлення` не вибирає належну мову, "
 "ви можете встановити мову вручну"
 
-#: ../../effects_and_filters/speech_to_text.rst:296
+#: ../../effects_and_filters/speech_to_text.rst:150
+#, fuzzy
+#| msgid ""
+#| ":guilabel:`Maximum character per line` Adjust the number of character per "
+#| "line in the subtitle"
 msgid ""
-":guilabel:`Maximum character per line` Adjust the number of character per "
-"line in the subtitle"
+":guilabel:`Maximum character per line`. Define how many characters per line "
+"are allowed before a line break is inserted."
 msgstr ""
 ":guilabel:`Максимальна кількість символів на рядок` — скоригувати кількість "
 "символів на рядок у субтитрах"
 
-#: ../../effects_and_filters/speech_to_text.rst:300
+#: ../../effects_and_filters/speech_to_text.rst:152
 msgid ""
-":guilabel:`Translate with SeamlessM4T` First you have to enable :guilabel:"
-"`Enable translation through SeamlessM4T` in :menuselection:`Settings --> "
-"Configure Kdenlive --> Speech To Text`."
+":guilabel:`Translate with SeamlessM4T`. Checking this opens adds two more "
+"selection fields: One for the :guilabel:`Input language`, and one for the :"
+"guilabel:`Output language`. This requires that translation with SeamlessM4T "
+"is enabled in the settings (:menuselection:`Menu --> Settings --> Configure "
+"Kdenlive --> Speech To Text`). Please refer to the chapter about :doc:"
+"`Speech to Text</getting_started/configure_kdenlive/"
+"configuration_speech2text>`."
 msgstr ""
-":guilabel:`Перекласти за допомогою SeamlessM4T` — спочатку вам слід "
-"позначити пункт :guilabel:`Увімкнути переклад за допомогою SeamlessM4T` на "
-"сторінці :menuselection:`Параметри --> Налаштувати Kdenlive --> Перетворення "
-"звуку на текст`."
 
-#: ../../effects_and_filters/speech_to_text.rst:308
+#: ../../effects_and_filters/speech_to_text.rst:154
+#, fuzzy
+#| msgid ""
+#| ":guilabel:`Translate to english` is only available with the Whisper "
+#| "speech engine. It translates non-English text to English during "
+#| "recognition."
 msgid ""
-"**Attention** If you use SeamlessM4T the first time it downloads about 9GB "
-"of data in the background"
+":guilabel:`Translate to English`. Select this to use *Whisper* for the "
+"translation to English."
 msgstr ""
-"**Увага!** Якщо ви використовуєте SeamlessM4T уперше, програма отримає "
-"близько 9 ГБ даних у фоновому режимі"
+"Пункт :guilabel:`Перекласти текст англійською` доступний лише для рушія "
+"мовлення Whisper. Наказує програмі перекласти текст, відмінний від "
+"англійського, англійською під час розпізнавання."
 
-#: ../../effects_and_filters/speech_to_text.rst:312
+#: ../../effects_and_filters/speech_to_text.rst:180
+msgid "Translate with SeamlessM4T"
+msgstr "Перекласти за допомогою SeamlessM4T"
+
+#: ../../effects_and_filters/speech_to_text.rst:187
+msgid "Translating with SeamlessM4T"
+msgstr "Переклад за допомогою SeamlessM4T"
+
+#: ../../effects_and_filters/speech_to_text.rst:189
 msgid ""
 "Select :guilabel:`Input Language` and :guilabel:`Output Language` and click :"
-"guilabel:`Process`. This will first process the audio using whisper, then "
-"start the SeamlessM4T translation. Translation can occupy 100% RAM, 100% CPU "
-"and 100% disk access."
+"guilabel:`Process`."
 msgstr ""
-"Виберіть :guilabel:`Вхідну мову` і :guilabel:`Вихідну мову` і натисніть :"
-"guilabel:`Обробити`. Спочатку буде оброблено звукові дані за допомогою "
-"whisper, потім буде запущено переклад за допомогою SeamlessM4T. Для "
+
+#: ../../effects_and_filters/speech_to_text.rst:191
+#| msgid ""
+#| "Select :guilabel:`Input Language` and :guilabel:`Output Language` and "
+#| "click :guilabel:`Process`. This will first process the audio using "
+#| "whisper, then start the SeamlessM4T translation. Translation can occupy "
+#| "100% RAM, 100% CPU and 100% disk access."
+msgid ""
+"This will first process the audio using *Whisper*, then start the "
+"*SeamlessM4T* translation. Translation can occupy 100% RAM, 100% CPU and "
+"100% disk access."
+msgstr ""
+"Спочатку буде оброблено звукові дані за допомогою "
+"*Whisper*, потім буде запущено переклад за допомогою *SeamlessM4T*. Для "
 "перекладу може знадобитися 100% оперативної пам'яті, 100% потужностей "
 "процесора та 100% можливостей доступу до диска."
 
-#: ../../effects_and_filters/speech_to_text.rst:315
+#: ../../effects_and_filters/speech_to_text.rst:196
 msgid ""
 "If the 9GB model has not yet been downloaded, it will be downloaded now. "
 "With a 100MB/s download speed this will take about 12 minutes!"
@@ -518,95 +378,115 @@ msgstr ""
 "Якщо модель у 9 ГБ ще не було отримано, її буде отримано. Зі швидкістю 100 "
 "МБ/с отримання даних буде тривати 12 хвилин!"
 
-#: ../../effects_and_filters/speech_to_text.rst:317
+#: ../../effects_and_filters/speech_to_text.rst:198
+#| msgid ""
+#| "During download Kdenlive will react as normal. Don't click on :guilabel:"
+#| "`Close` otherwise download get stopped."
 msgid ""
-"During download Kdenlive will react as normal. Don't click on :guilabel:"
-"`Close` otherwise download get stopped."
+"During download Kdenlive will react as normal. Do not click on :guilabel:"
+"`Close`, otherwise the download is stopped."
 msgstr ""
 "Під час отримання даних Kdenlive працюватиме у звичному режимі. Не "
 "натискайте кнопку :guilabel:`Закрити`, якщо не хочете перервати отримання "
 "даних."
 
-#: ../../effects_and_filters/speech_to_text.rst:319
+#: ../../effects_and_filters/speech_to_text.rst:206
+#| msgid ""
+#| "Don't worry if you see such a message on the box below :guilabel:"
+#| "`Initializing translation model` while downloading is running."
 msgid ""
 "Don't worry if you see such a message on the box below :guilabel:"
-"`Initializing translation model` while downloading is running."
+"`Initializing translation model` while the download is running."
 msgstr ""
 "Не переймайтеся, якщо побачите таке повідомлення на панелі під пунктом :"
 "guilabel:`Ініціалізація моделі перекладу`, доки триває отримання даних."
 
-#: ../../effects_and_filters/speech_to_text.rst:329
+#: ../../effects_and_filters/speech_to_text.rst:208
+#, fuzzy
+#| msgid ""
+#| "Once the translation model is downloaded translation will happen (be "
+#| "patient as download the model takes about 12 minutes with 100MB/s "
+#| "download speed)."
 msgid ""
-"Once the translation model is downloaded translation will happen (be patient "
-"as download the model takes about 12 minutes with 100MB/s download speed)."
+"Depending on your internet connection and bandwidth, downloading the model "
+"can take quite some time (about 12 minutes with 100MB/s download speed)."
 msgstr ""
 "Щойно модель перекладу буде завантажено, буде виконано переклад (майте "
 "терпіння, оскільки отримання моделі триватиме близько 12 хвилин зі швидкістю "
 "отримання даних 100 МБ/с)."
 
-#: ../../effects_and_filters/speech_to_text.rst:337
-msgid "SeamlessM4T is enabled and downloaded successful"
-msgstr "SeamlessM4T увімкнено і успішно отримано"
+#: ../../effects_and_filters/speech_to_text.rst:210
+msgid "Once the translation model is downloaded, translation will start."
+msgstr ""
 
-#: ../../effects_and_filters/speech_to_text.rst:339
-msgid "The SeamlessM4T models are stored here:"
-msgstr "Моделі SeamlessM4T буде встановлено сюди:"
-
-#: ../../effects_and_filters/speech_to_text.rst:341
-msgid "Linux: :file:`$HOME/.cache/hugginface`"
-msgstr "Linux: :file:`$HOME/.cache/hugginface`"
-
-#: ../../effects_and_filters/speech_to_text.rst:343
-msgid "Windows: :file:`C:\\\\Users\\\\<username>\\\\.cache\\\\huggingface`"
-msgstr "Windows: :file:`C:\\\\Users\\\\<username>\\\\.cache\\\\huggingface`"
-
-#: ../../effects_and_filters/speech_to_text.rst:349
-msgid "Creating clips by speech recognition"
+#: ../../effects_and_filters/speech_to_text.rst:242
+#, fuzzy
+#| msgid "Creating clips by speech recognition"
+msgid "Creating Clips using Speech Recognition"
 msgstr "Створення кліпів за розпізнаванням мовлення"
 
-#: ../../effects_and_filters/speech_to_text.rst:351
+#: ../../effects_and_filters/speech_to_text.rst:244
+#, fuzzy
+#| msgid ""
+#| "This is useful for interviews and other speech-related footage. Enable "
+#| "the :menuselection:`Menu --> View --> Speech Editor` menu item."
 msgid ""
-"This is useful for interviews and other speech-related footage. Enable the :"
-"menuselection:`Menu --> View --> Speech Editor` menu item."
+"This is useful for interviews and other speech-related footage. Go to the "
+"Speech Editor widget. If not yet enabled, do so via :menuselection:`Menu --> "
+"View --> Speech Editor`."
 msgstr ""
 "Ця можливість корисна для інтерв'ю та іншого пов'язаного із голосовими "
 "даними матеріалу. Увімкніть пункт меню :menuselection:`Меню --> Перегляд --> "
 "Редактор озвучення`."
 
-#: ../../effects_and_filters/speech_to_text.rst:360
-msgid "Shown with the VOSK engine and search enabled"
-msgstr "Показано з рушієм VOSK і увімкненим пошуком"
+#: ../../effects_and_filters/speech_to_text.rst:246
+msgid ""
+"Using speech recognition to create transcripts and create clips from that, "
+"is only possible with clips in the **Project Bin**."
+msgstr ""
 
-#: ../../effects_and_filters/speech_to_text.rst:364
+#: ../../effects_and_filters/speech_to_text.rst:253
+#| msgid "Shown with the VOSK engine and search enabled"
+msgid "Shown with the VOSK engine and Search (10) enabled"
+msgstr "Показано з рушієм VOSK і увімкненим пошуком (10)"
+
+#: ../../effects_and_filters/speech_to_text.rst:255
 msgid "Select a clip in the **Project Bin**."
 msgstr "Виберіть кліп на панелі контейнера проєкту."
 
-#: ../../effects_and_filters/speech_to_text.rst:366
+#: ../../effects_and_filters/speech_to_text.rst:257
+#, fuzzy
+#| msgid ""
+#| "If needed set in/out point in the clip monitor and enable :guilabel:"
+#| "`Selected zone only` selection box. This will only recognize the text "
+#| "inside the zone."
 msgid ""
-"If needed set in/out point in the clip monitor and enable :guilabel:"
-"`Selected zone only` selection box. This will only recognize the text inside "
-"the zone."
+"If needed, set in and out points in the **Clip Monitor** and check :guilabel:"
+"`Selected zone only`. This will only transcribe text inside that zone."
 msgstr ""
 "Якщо потрібно, встановіть точки входу і виходу на моніторі кліпу і позначте "
 "пункт :guilabel:`Лише позначена ділянка`. У результаті буде розпізнано текст "
 "лише з вказаної ділянки."
 
-#: ../../effects_and_filters/speech_to_text.rst:368
+#: ../../effects_and_filters/speech_to_text.rst:259
 msgid ""
-"Choose the correct language when the VOSK engine is selected. Or choose the "
-"Whisper engine by click on :guilabel:`Configure Speech Recognition` (:ref:"
-"`see configure speech to text <configure_speech_to_text>`)"
+"Click on |application-menu|\\ :guilabel:`Hamburger Menu` and choose the "
+"model for the correct language when the *VOSK* engine is set for speech "
+"recognition. If the *Whisper* engine is selected, you can select :guilabel:"
+"`Translate to English` if needed. You select the speech recognition engine "
+"in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Speech to "
+"Text`. Click on :guilabel:`Configure Speech Recognition` to open the "
+"configuration section for Speech to Text. For more details about the "
+"configuration refer to the chapter :doc:`Configure Speech to Text</"
+"getting_started/configure_kdenlive/configuration_speech2text>`."
 msgstr ""
-"Виберіть належну мову, якщо вибрано рушій VOSK. Або виберіть рушій Whisper "
-"натисканням пункту :guilabel:`Налаштувати розпізнавання мовлення` (:ref:"
-"`див. налаштовування перетворення мовлення на текст "
-"<configure_speech_to_text>`)"
 
-#: ../../effects_and_filters/speech_to_text.rst:370
-msgid "Press the :guilabel:`Start Recognition` button."
-msgstr "Натисніть кнопку :guilabel:`Почати розпізнавання`."
+#: ../../effects_and_filters/speech_to_text.rst:261
+#| msgid "Press on the :guilabel:`Process` button"
+msgid "Press the :guilabel:`Transcribe` button."
+msgstr "Натисніть кнопку :guilabel:`Транскрибувати`."
 
-#: ../../effects_and_filters/speech_to_text.rst:372
+#: ../../effects_and_filters/speech_to_text.rst:263
 msgid ""
 "Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select "
 "several texts."
@@ -614,12 +494,19 @@ msgstr ""
 "Виберіть бажаний фрагмент тексту. Шляхом утримання натиснутими клавіш :kbd:"
 "`Ctrl` або :kbd:`Shift` можна вибрати одразу декілька фрагментів тексту."
 
-#: ../../effects_and_filters/speech_to_text.rst:376
+#: ../../effects_and_filters/speech_to_text.rst:265
+#, fuzzy
+#| msgid ""
+#| "Choose: :guilabel:`Create new sequence with edit` creates a new sequence "
+#| "with each timecode-text as a single clip, or :guilabel:`Insert selection "
+#| "in timeline` at playhead position, or to :guilabel:`Save edited text in a "
+#| "playlist file` which appears in the project bin."
 msgid ""
-"Choose: :guilabel:`Create new sequence with edit` creates a new sequence "
-"with each timecode-text as a single clip, or :guilabel:`Insert selection in "
-"timeline` at playhead position, or to :guilabel:`Save edited text in a "
-"playlist file` which appears in the project bin."
+":guilabel:`Create new sequence with edit` creates a new sequence with each "
+"timecode-text as a single clip. :guilabel:`Insert selection in timeline` "
+"creates clips for each selected timecode-text starting at the playhead's "
+"position. :guilabel:`Save edited text in a playlist file` creates an asset "
+"in the project bin with the entire transcribed text."
 msgstr ""
 "Виберіть: :guilabel:`Створити послідовність із редагуванням` — створити "
 "послідовність із прив'язками часових позначок до тексту як окремий кліп, "
@@ -627,64 +514,81 @@ msgstr ""
 "або :guilabel:`Зберегти редагований текст до файла списку відтворення` для "
 "додавання пункту на панель контейнера проєкту."
 
-#: ../../effects_and_filters/speech_to_text.rst:380
+#: ../../effects_and_filters/speech_to_text.rst:267
 msgid ""
-":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:`Remove "
-"non speech zones` deletes all \"No speech\" entries at once."
+"|format-font-size-more|\\ :guilabel:`Increase font size` and |format-font-"
+"size-less|\\ :guilabel:`Decrease font size` decrease, respectively, increase "
+"the font size."
 msgstr ""
-":guilabel:`Збільшити` або :guilabel:`Зменшити` текст. :guilabel:`Вилучити "
-"усі зони без голосових даних` вилучає усі записи без мовлення одразу."
 
-#: ../../effects_and_filters/speech_to_text.rst:382
+#: ../../effects_and_filters/speech_to_text.rst:269
 msgid ""
-"Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
-"kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
+"|bookmark-new|\\ :guilabel:`Add marker` adds a marker/guide for the timecode "
+"of the selected text. More details about *Guides* and *Markers* are "
+"available in the chapter about :doc:`/cutting_and_assembling/guides`."
 msgstr ""
-"Додати закладку. Переходити до таких закладок на монтажному столі можна за "
-"допомогою комбінації :kbd:`Alt + стрілка`, а редагувати закладку можна після "
-"подвійного клацання на ній."
 
-#: ../../effects_and_filters/speech_to_text.rst:384
-msgid "Delete the selected text."
-msgstr "Вилучити позначений фрагмент тексту."
+#: ../../effects_and_filters/speech_to_text.rst:271
+msgid ""
+"|edit-delete|\\ :guilabel:`Delete selection` deletes the selected text."
+msgstr ""
+"|edit-delete|\\ :guilabel:`Вилучити позначене` вилучає позначений текст."
 
-#: ../../effects_and_filters/speech_to_text.rst:386
-msgid "Here you can search in the text."
-msgstr "Тут ви можете шукати фрагмент у тексті."
+#: ../../effects_and_filters/speech_to_text.rst:273
+#| msgid ""
+#| ":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:"
+#| "`Remove non speech zones` deletes all \"No speech\" entries at once."
+msgid ""
+":guilabel:`Remove non speech zones` deletes all \"No speech\" entries at "
+"once."
+msgstr ""
+":guilabel:`Вилучити усі зони без голосових даних` вилучає усі записи без"
+" мовлення одразу."
 
-#: ../../effects_and_filters/speech_to_text.rst:388
-msgid "And navigate up or down in the text."
-msgstr "Навігація текстом вгору і вниз."
+#: ../../effects_and_filters/speech_to_text.rst:275
+msgid ""
+"|edit-find|\\ :guilabel:`Search in text` toggles the search field. Enter "
+"text you want to find in the transcribed text. Search is not case sensitive "
+"and finds all occurrences of the string even within words. |go-up| and |go-"
+"down| navigate to the next occurrence of the search term. If the search "
+"field turns reddish you have reached the last occurrence of the search term "
+"in the text."
+msgstr ""
 
-#: ../../effects_and_filters/speech_to_text.rst:394
-msgid "Silence detection"
+#: ../../effects_and_filters/speech_to_text.rst:281
+#| msgid "Silence detection"
+msgid "Silence Detection"
 msgstr "Виявлення мовчання"
 
-#: ../../effects_and_filters/speech_to_text.rst:396
+#: ../../effects_and_filters/speech_to_text.rst:283
 msgid "This works with the VOSK engine only."
 msgstr "Працює лише із рушієм VOSK."
 
-#: ../../effects_and_filters/speech_to_text.rst:398
+#: ../../effects_and_filters/speech_to_text.rst:285
+#| msgid ""
+#| "Open the clip in the clip monitor and open the speech editor window (:"
+#| "menuselection:`Menu --> View --> Speech Editor`) ."
 msgid ""
-"Open the clip in the clip monitor and open the speech editor window (:"
+"Select the clip in the **Project Bin**** and open the speech editor window (:"
 "menuselection:`Menu --> View --> Speech Editor`) ."
 msgstr ""
-"Відкрийте кліп на панелі монітора кліпу і відкрийте вікно редактора "
+"Виберіть кліп на панелі **Контейнер проєкту** і відкрийте вікно редактора "
 "озвучення (:menuselection:`Меню --> Перегляд --> Редактор озвучення`) ."
 
-#: ../../effects_and_filters/speech_to_text.rst:400
+#: ../../effects_and_filters/speech_to_text.rst:287
 msgid ""
-"Select your language or :ref:`effects-s2t_install_language` and download the "
-"model for it."
+"Click on |application-menu|:guilabel:`Hamburger Menu` and choose the model "
+"for your language. If the right model is not listed, click on :guilabel:"
+"`Configure Speech Recognition`. For details about hwo to add models for the "
+"*VOSK* engine refer to the chapter about :doc:`/getting_started/"
+"configure_kdenlive/configuration_speech2text`."
 msgstr ""
-"Виберіть мову або :ref:`встановіть мову <effects-s2t_install_language>` і "
-"отримайте модель для неї."
 
-#: ../../effects_and_filters/speech_to_text.rst:402
+#: ../../effects_and_filters/speech_to_text.rst:289
 msgid "Then click :guilabel:`Start Recognition` button."
 msgstr "Потім натисніть кнопку :guilabel:`Почати розпізнавання`."
 
-#: ../../effects_and_filters/speech_to_text.rst:404
+#: ../../effects_and_filters/speech_to_text.rst:291
 msgid ""
 "Once this is done, choose under point 6 from above to :guilabel:`Remove non "
 "speech zones` at once. Or click on the time-code where \"No speech\" is "
@@ -696,7 +600,7 @@ msgstr ""
 "де вказано «Немає озвучення» (утримуйте натиснутою клавішу :kbd:`Ctrl`, щоб "
 "позначити декілька пунктів одразу), а потім натисніть клавішу :kbd:`Delete`."
 
-#: ../../effects_and_filters/speech_to_text.rst:406
+#: ../../effects_and_filters/speech_to_text.rst:293
 msgid ""
 "Repeat the operation for all the parts you want to remove, including where "
 "someone says what you do not want to include in your final edit."
@@ -704,7 +608,7 @@ msgstr ""
 "Повторіть дію для усіх частин, які ви хочете вилучити, включно із частинами, "
 "де хтось говорить щось, що не слід включати до остаточного варіанта."
 
-#: ../../effects_and_filters/speech_to_text.rst:408
+#: ../../effects_and_filters/speech_to_text.rst:295
 msgid ""
 "Once finished, make sure :guilabel:`Selected zone only` is disabled, click "
 "on the :guilabel:`Save edited text in a playlist file` button (above under "
@@ -717,11 +621,386 @@ msgstr ""
 "контейнера проєкту буде доданого новий список відтворення без проміжків з "
 "мовчанням та без небажаного тексту."
 
+#~ msgid "The Kdenlive User Manual"
+#~ msgstr "Підручник користувача Kdenlive"
+
+#~ msgid "Install Python"
+#~ msgstr "Встановлення Python"
+
+#~ msgid ""
+#~ "Python 3 needs to be installed on your computer (details see below for "
+#~ "Linux and Windows). Once Python is installed, :ref:`follow these steps "
+#~ "<settings_environment_python>` to put Python into a virtual environment "
+#~ "(afterwards Python is copied to the :file:`venv` folder)"
+#~ msgstr ""
+#~ "На вашому комп'ютері має бути встановлено Python 3 (подробиці для Linux і "
+#~ "Windows наведено нижче). Після встановлення Python :ref:`виконайте ці "
+#~ "кроки <settings_environment_python>`, щоб розташувати Python у "
+#~ "віртуальному середовищі (після цього Python буде скопійовано до теки :"
+#~ "file:`venv`)"
+
+#~ msgid "**De-install Python**"
+#~ msgstr "**Вилучення Python**"
+
+#~ msgid ""
+#~ "To remove the installed :file:`venv` package got to :menuselection:"
+#~ "`Settings --> Kdenlive Settings --> Environment --> Python` and :guilabel:"
+#~ "`Delete` :file:`venv`."
+#~ msgstr ""
+#~ "Щоб вилучити встановлений пакунок :file:`venv` перейдіть до пункту :"
+#~ "menuselection:`Параметри --> Параметри Kdenlive --> Середовище --> "
+#~ "Python` і натисніть кнопку :guilabel:`Вилучити` :file:`venv`."
+
+#~ msgid ""
+#~ "It will completely remove the :file:`venv` folder with all installed "
+#~ "packages. Note that this does not remove the downloaded models (vosk/"
+#~ "whisper) that can still take quite some HD space"
+#~ msgstr ""
+#~ "У результаті програма повністю вилучить теку :file:`venv` із усіма "
+#~ "встановленими пакунками. Зауважте, що це не призведе до вилучення "
+#~ "отриманих моделей (vosk/whisper), які після цього можуть продовжити "
+#~ "займати певне місце на диску"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid ""
+#~ "On most Linux distributions python is installed by default. You can check "
+#~ "if that is the case for you too by running ``python3 -V`` in a terminal. "
+#~ "If python is missing just search the internet, there are lots of "
+#~ "instructions around."
+#~ msgstr ""
+#~ "У більшості дистрибутивів Linux до типового комплекту програм включено "
+#~ "Python. Ви можете перевірити, чи це так за допомогою команди ``python3 -"
+#~ "V``, відданої у терміналі. Якщо Python не встановлено, ви можете знайти "
+#~ "безліч інструкцій з його встановлення в інтернеті."
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid ""
+#~ "Download python from |python_download| for installation on your computer."
+#~ msgstr ""
+#~ "Пакунки для встановлення Python можна отримати тут: |python_download|."
+
+#~ msgid "Speech Engines"
+#~ msgstr "Рушії озвучення"
+
+#~ msgid ""
+#~ "To install the speech engines go to :menuselection:`Settings --> "
+#~ "Configure Kdenlive --> Speech to Text`."
+#~ msgstr ""
+#~ "Щоб встановити рушії розпізнавання мовлення, скористайтеся пунктом :"
+#~ "menuselection:`Параметри --> Налаштувати Kdenlive --> Перетворення звуку "
+#~ "на текст`."
+
+#~ msgid "VOSK"
+#~ msgstr "VOSK"
+
+#~ msgid "Vosk is not installed"
+#~ msgstr "Vosk не встановлено"
+
+#~ msgid ""
+#~ "When you switch to VOSK for the first time you have to install the "
+#~ "missing dependencies first."
+#~ msgstr ""
+#~ "Якщо ви перший раз перемикаєтеся на VOSK, вам доведеться спочатку "
+#~ "встановити пропущені залежності."
+
+#~ msgid "Path where VOSK is installed:"
+#~ msgstr "Шлях, куди встановлено VOSK:"
+
+#~ msgid "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
+#~ msgstr "Linux: :file:`~/.local/share/kdenlive/venv/Lib`"
+
+#~ msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+#~ msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+
+#~ msgid ""
+#~ "If you have installed VOSK in an earlier Kdenlive version already and now "
+#~ "you have chosen the :file:`venv` folder for Python, you can delete the "
+#~ "past installed VOSK libraries by using following command in a console: :"
+#~ "file:`pip uninstall vosk srt`"
+#~ msgstr ""
+#~ "Якщо вами було встановлено VOSK у якійсь із попередніх версій Kdenlive, а "
+#~ "у новій версії вибрано теку :file:`venv` для Python, ви можете вилучити "
+#~ "встановлені бібліотеки VOSK за допомогою такої команди у консолі: :file:"
+#~ "`pip uninstall vosk srt`"
+
+#~ msgid "Install a Language"
+#~ msgstr "Встановлення даних мови"
+
+#~ msgid ""
+#~ "Goto :menuselection:`Settings --> Configure Kdenlive... --> Speech to "
+#~ "Text page` and select the speech engine VOSK."
+#~ msgstr ""
+#~ "Перейдіть :menuselection:`Параметри --> Налаштувати Kdenlive... --> "
+#~ "сторінка «Перетворення звуку на текст»` і виберіть рушій озвучення VOSK."
+
+#~ msgid ""
+#~ "Click on the link :guilabel:`Download speech models from:` to get a "
+#~ "language model."
+#~ msgstr ""
+#~ "Натисніть посилання :guilabel:`Моделі мовлення можна отримати звідси:` "
+#~ "для отримання моделі мови."
+
+#~ msgid ""
+#~ "Drag & drop the language you want from the vosk-model download page to "
+#~ "the model window, and it will download and extract it for you."
+#~ msgstr ""
+#~ "Перетягніть пункт мови, яка вам потрібна, зі сторінки отримання пакунків "
+#~ "vosk-model у вікно моделей — програма виконає автоматичне отримання і "
+#~ "розпакування даних."
+
+#~ msgid ""
+#~ "If you have problems or check for updates click on the :guilabel:`Check "
+#~ "configuration` button."
+#~ msgstr ""
+#~ "Якщо виникають проблеми або ви хочете пошукати оновлення, натисніть "
+#~ "кнопку :guilabel:`Перевірити налаштування`."
+
+#~ msgid ""
+#~ ":guilabel:`Models folder` Show the size of the installed models. Click on "
+#~ "the link opens the model folder."
+#~ msgstr ""
+#~ ":guilabel:`Тека моделей` — показує розмір встановлених моделей. "
+#~ "Натискання посилання відкриває теку моделі."
+
+#~ msgid "The VOSK speech models are stored here:"
+#~ msgstr "Моделі мовлення VOSK буде встановлено сюди:"
+
+#~ msgid "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
+#~ msgstr "Linux: :file:`~/.local/share/kdenlive/speechmodels`"
+
+#~ msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
+#~ msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\speechmodels`"
+
+#~ msgid "Whisper"
+#~ msgstr "Whisper"
+
+#~ msgid ""
+#~ "OpenAI-Whisper is a speech recognition model for general use. It is "
+#~ "trained on a large dataset of diverse audio and is capable of performing "
+#~ "speech translation, and language identification."
+#~ msgstr ""
+#~ "OpenAI-Whisper є модель розпізнавання мовлення для загального "
+#~ "використання. Її натреновано на великому наборі даних різних звукових "
+#~ "фрагментів, і вона може виконувати переклад та визначення мови."
+
+#~ msgid ""
+#~ "Whisper is slower than VOSK on CPU, but it is more accurate than VOSK. "
+#~ "Whisper creates sentences with punctuation marks, even in Base mode."
+#~ msgstr ""
+#~ "Whisper є повільнішим за VOSK на процесорі, але є точнішими за VOSK. "
+#~ "Whisper створює речення зі знаками пунктуації, навіть у базовому режимі."
+
+#~ msgid "Whisper is not installed"
+#~ msgstr "Whisper не встановлено"
+
+#~ msgid ""
+#~ "When you switch to Whisper for the first time you have to install the "
+#~ "missing dependencies first (about 2GB to download)."
+#~ msgstr ""
+#~ "Якщо ви перший раз перемикаєтеся на Whisper, вам доведеться спочатку "
+#~ "встановити пропущені залежності (доведеться отримати близько 2 ГБ даних)."
+
+#~ msgid "When all is correct configured, you get this screen."
+#~ msgstr "Якщо все налаштовано правильно, ви отримаєте показане нижче вікно."
+
+#~ msgid "Path where Whisper is installed:"
+#~ msgstr "Шлях, куди встановлено Whisper:"
+
+#~ msgid "The Whisper speech models are stored here:"
+#~ msgstr "Моделі мовлення Whisper зберігатимуться тут:"
+
+#~ msgid "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
+#~ msgstr "Linux: :file:`~/.local/share/kdenlive/opencvmodels`"
+
+#~ msgid "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+#~ msgstr "Windows: :file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+
+#~ msgid ""
+#~ ":guilabel:`Model` Select the model. More details on the |whisper_source| "
+#~ "(default: Base)."
+#~ msgstr ""
+#~ ":guilabel:`Модель`: виберіть модель. Докладніше про це на |"
+#~ "whisper_source| (типове значення: Базова)"
+
+#~ msgid ""
+#~ ":guilabel:`Language` Select the language if Autodetect is not accurate "
+#~ "(default: Autodetect)"
+#~ msgstr ""
+#~ ":guilabel:`Мова`: виберіть мову, якщо «Автовизначення» є неправильним "
+#~ "(типове значення: Автовизначення)"
+
+#~ msgid ":guilabel:`Device` For compatibility purposes only CPU is available"
+#~ msgstr ""
+#~ ":guilabel:`Пристрій`: для підтримання сумісності, можна використовувати "
+#~ "лише процесор."
+
+#~ msgid ""
+#~ ":guilabel:`Disable half precision (FP16)` Only for GPU. When Kdenlive "
+#~ "detects a NVIDIA GTX 16xx graphic card it disables half precision (FP16) "
+#~ "automatically. If you have issues with using GPU you can switch off half "
+#~ "precision."
+#~ msgstr ""
+#~ ":guilabel:`Вимкнути напівточність (FP16)`. Лише для графічних процесорів. "
+#~ "Коли Kdenlive виявляє графічну картку NVIDIA GTX 16xx, програма вимикає "
+#~ "половинну точність (FP16) автоматично. Якщо у вас виникають проблеми з "
+#~ "використанням графічного процесора, ви можете вимкнути половинну точність."
+
+#~ msgid ""
+#~ ":guilabel:`Translate text to english` This translates non-English text to "
+#~ "English during recognition"
+#~ msgstr ""
+#~ ":guilabel:`Перекласти текст англійською`: наказує програмі перекласти "
+#~ "текст, відмінний від англійського, англійською під час розпізнавання"
+
+#~ msgid ""
+#~ ":guilabel:`Enable translation through SeamlessM4T` This will only enable/"
+#~ "disable ``facebook/seamless-m4t-v2-large``. To download and start "
+#~ "subtitle translation :ref:`follow these steps "
+#~ "<Translate_with_SeamlessM4T>`."
+#~ msgstr ""
+#~ ":guilabel:`Увімкнути переклад за допомогою SeamlessM4T`. Вмикає або "
+#~ "вимикає лише ``facebook/seamless-m4t-v2-large``. Щоб отримати і запустити "
+#~ "переклад субтитрів, виконайте :ref:`ці кроки "
+#~ "<Translate_with_SeamlessM4T>`."
+
+#~ msgid ""
+#~ "You can check for updates by clicking on :guilabel:`Check configuration`"
+#~ msgstr ""
+#~ "Виконати пошук оновлень можна натисканням кнопки :guilabel:`Перевірити "
+#~ "налаштування`"
+
+#~ msgid ""
+#~ "If you have installed Whisper in an earlier Kdenlive version already and "
+#~ "now you have chosen the :file:`venv` folder for Python, you can delete "
+#~ "the past installed Whisper libraries by using following command in a "
+#~ "console: :file:`pip uninstall openai-whisper`"
+#~ msgstr ""
+#~ "Якщо вами вже було встановлено Whisper у якійсь із попередніх версій "
+#~ "Kdenlive, а у новій версії вибрано теку :file:`venv` для Python, ви "
+#~ "можете вилучити старі встановлені бібліотеки Whisper за допомогою такої "
+#~ "команди у консолі: :file:`pip uninstall openai-whisper`"
+
+#~ msgid "Select the speech engine"
+#~ msgstr "Вибір рушія озвучення"
+
+#~ msgid "Enable :menuselection:`Menu --> View --> Speech Editor` menu item."
+#~ msgstr ""
+#~ "Виберіть пункт меню :menuselection:`Меню --> Перегляд --> Редактор "
+#~ "мовлення`."
+
+#~ msgid ""
+#~ "Click on the :guilabel:`Hamburger Menu` |application-menu| and select :"
+#~ "guilabel:`Configure Speech Recognition`. This brings you to :ref:"
+#~ "`Configure Speech to Text <configure_speech_to_text>`, select the engine "
+#~ "and click :guilabel:`OK.`"
+#~ msgstr ""
+#~ "Натисніть :guilabel:`меню-гамбургер` |application-menu| і виберіть пункт :"
+#~ "guilabel:`Налаштувати розпізнавання мовлення`. У відповідь буде відкрито "
+#~ "вікно :ref:`Налаштування Перетворення звуку на текст "
+#~ "<configure_speech_to_text>`. Виберіть рушій і натисніть кнопку :guilabel:"
+#~ "`Гаразд`."
+
+#~ msgid ""
+#~ "If some error or important message happen. Click on the :guilabel:`Show "
+#~ "log` and the log get visible."
+#~ msgstr ""
+#~ "Якщо трапилася якась помилка або було виведено важливе повідомлення. "
+#~ "Натисніть :guilabel:`Показати журнал`, і програма покаже журнал."
+
+#~ msgid "Shown with the VOSK engine"
+#~ msgstr "Показано з рушієм VOSK"
+
+#~ msgid ""
+#~ "Mark the timeline zone you want to recognize (adjust the blue line) "
+#~ "(**1**)"
+#~ msgstr ""
+#~ "Позначте на монтажному столі ділянку, де має бути розпізнано мовлення "
+#~ "(скоригуйте розташування синьої лінії) (**1**)"
+
+#~ msgid "Click on the :guilabel:`Speech recognition` icon (**2**)"
+#~ msgstr "Натисніть піктограму :guilabel:`Розпізнавання мовлення` (**2**)"
+
+#~ msgid "Choose the :guilabel:`Language` (**3**)"
+#~ msgstr "Виберіть :guilabel:`Мову` (**3**)"
+
+#~ msgid "Shown with the Whisper engine"
+#~ msgstr "Показано з рушієм WHISPER"
+
+#~ msgid "Choose the :guilabel:`Model` (**3**)"
+#~ msgstr "Виберіть :guilabel:`Модель` (**3**)"
+
+#~ msgid ""
+#~ ":guilabel:`Translate with SeamlessM4T` First you have to enable :guilabel:"
+#~ "`Enable translation through SeamlessM4T` in :menuselection:`Settings --> "
+#~ "Configure Kdenlive --> Speech To Text`."
+#~ msgstr ""
+#~ ":guilabel:`Перекласти за допомогою SeamlessM4T` — спочатку вам слід "
+#~ "позначити пункт :guilabel:`Увімкнути переклад за допомогою SeamlessM4T` "
+#~ "на сторінці :menuselection:`Параметри --> Налаштувати Kdenlive --> "
+#~ "Перетворення звуку на текст`."
+
+#~ msgid ""
+#~ "**Attention** If you use SeamlessM4T the first time it downloads about "
+#~ "9GB of data in the background"
+#~ msgstr ""
+#~ "**Увага!** Якщо ви використовуєте SeamlessM4T уперше, програма отримає "
+#~ "близько 9 ГБ даних у фоновому режимі"
+
+#~ msgid "SeamlessM4T is enabled and downloaded successful"
+#~ msgstr "SeamlessM4T увімкнено і успішно отримано"
+
+#~ msgid "The SeamlessM4T models are stored here:"
+#~ msgstr "Моделі SeamlessM4T буде встановлено сюди:"
+
+#~ msgid "Linux: :file:`$HOME/.cache/hugginface`"
+#~ msgstr "Linux: :file:`$HOME/.cache/hugginface`"
+
+#~ msgid "Windows: :file:`C:\\\\Users\\\\<username>\\\\.cache\\\\huggingface`"
+#~ msgstr "Windows: :file:`C:\\\\Users\\\\<username>\\\\.cache\\\\huggingface`"
+
+#~ msgid ""
+#~ "Choose the correct language when the VOSK engine is selected. Or choose "
+#~ "the Whisper engine by click on :guilabel:`Configure Speech Recognition` (:"
+#~ "ref:`see configure speech to text <configure_speech_to_text>`)"
+#~ msgstr ""
+#~ "Виберіть належну мову, якщо вибрано рушій VOSK. Або виберіть рушій "
+#~ "Whisper натисканням пункту :guilabel:`Налаштувати розпізнавання мовлення` "
+#~ "(:ref:`див. налаштовування перетворення мовлення на текст "
+#~ "<configure_speech_to_text>`)"
+
+#~ msgid "Press the :guilabel:`Start Recognition` button."
+#~ msgstr "Натисніть кнопку :guilabel:`Почати розпізнавання`."
+
+#~ msgid ""
+#~ "Add a Bookmark. You can jump to these bookmarks in the timeline with the :"
+#~ "kbd:`Alt + arrow` shortcut or edit the bookmark by double click."
+#~ msgstr ""
+#~ "Додати закладку. Переходити до таких закладок на монтажному столі можна "
+#~ "за допомогою комбінації :kbd:`Alt + стрілка`, а редагувати закладку можна "
+#~ "після подвійного клацання на ній."
+
+#~ msgid "Delete the selected text."
+#~ msgstr "Вилучити позначений фрагмент тексту."
+
+#~ msgid "Here you can search in the text."
+#~ msgstr "Тут ви можете шукати фрагмент у тексті."
+
+#~ msgid "And navigate up or down in the text."
+#~ msgstr "Навігація текстом вгору і вниз."
+
+#~ msgid ""
+#~ "Select your language or :ref:`effects-s2t_install_language` and download "
+#~ "the model for it."
+#~ msgstr ""
+#~ "Виберіть мову або :ref:`встановіть мову <effects-s2t_install_language>` і "
+#~ "отримайте модель для неї."
+
 #~ msgid "Choose how the selected zone should be applied"
 #~ msgstr "Виберіть спосіб обробки позначеної ділянки."
-
-#~ msgid "Press on the :guilabel:`Process` button"
-#~ msgstr "Натисніть кнопку :guilabel:`Обробити`."
 
 #~ msgid "Only timeline zone is implemented for now in automatic subtitles."
 #~ msgstr ""
