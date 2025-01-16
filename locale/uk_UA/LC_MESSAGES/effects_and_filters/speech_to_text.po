@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 01:50+0000\n"
-"PO-Revision-Date: 2025-01-14 17:19+0200\n"
+"POT-Creation-Date: 2025-01-15 01:48+0000\n"
+"PO-Revision-Date: 2025-01-15 18:47+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -91,6 +91,10 @@ msgid ""
 "models installed. Please refer to the chapter :doc:`Configure Speech to "
 "Text</getting_started/configure_kdenlive/configuration_speech2text>`."
 msgstr ""
+"Перш ніж використовувати функціональну можливість «Перетворення звуку на"
+" текст», її потрібно правильно налаштувати та встановити моделі мовлення."
+" Будь ласка, зверніться до розділу :doc:`Налаштовування перетворення звуку"
+" на текст</getting_started/configure_kdenlive/configuration_speech2text>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:38
 msgid ""
@@ -104,14 +108,23 @@ msgid ""
 "menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Speech to "
 "Text</getting_started/configure_kdenlive/configuration_speech2text>` route."
 msgstr ""
+"Хоча ви можете налаштувати обидва рушії, VOSK і Whisper, для розпізнавання"
+" мовлення, рушій, який буде вибрано у розділі налаштувань :doc:`Перетворення"
+" звуку на текст</getting_started/configure_kdenlive/configuration_speech2text"
+">`, буде використано для розпізнавання мовлення наступного разу під час"
+" використання цієї функціональної можливості. Звичайно, ви можете"
+" перемикатися між рушіями під час редагування та використовувати різні рушії"
+" для різних цілей. У віджеті «Редактор озвучення» є пункт меню для швидкого"
+" доступу до розділу налаштувань, оминаючи потребу у послідовному виборі"
+" :menuselection:`Меню --> Параметри --> Налаштувати Kdenlive -->`"
+" :doc:`Перетворення мовлення на текст</getting_started/configure_kdenlive/con"
+"figuration_speech2text>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:42
-#| msgid "Speech recognition"
 msgid "Speech Recognition"
 msgstr "Розпізнавання мовлення"
 
 #: ../../effects_and_filters/speech_to_text.rst:44
-#| msgid "Creating clips by speech recognition"
 msgid "There are two use cases for speech recognition:"
 msgstr "Розпізнаванням мовлення можна скористатися у двох випадках:"
 
@@ -125,9 +138,11 @@ msgid ""
 "ability to :ref:`add clips to the "
 "timeline<creating_clips_by_speech_recognition>` based on the transcript"
 msgstr ""
+"Створення :ref:`транскрибування<creating_clips_by_speech_recognition>` і"
+" можливість :ref:`додавання кліпів на монтажний стіл<"
+"creating_clips_by_speech_recognition>` на основі транскрибування"
 
 #: ../../effects_and_filters/speech_to_text.rst:80
-#| msgid "Creating subtitle by VOSK speech recognition"
 msgid "Creating Subtitles using VOSK Speech Recognition"
 msgstr "Створення субтитрів за допомогою розпізнавання мовлення з VOSK"
 
@@ -136,6 +151,9 @@ msgid ""
 "If not yet created, add a subtitle track by clicking on the |add-subtitle|"
 "\\ :guilabel:`Edit Subtitle Tool` icon in the Timeline tool bar (**6**)."
 msgstr ""
+"Якщо доріжку не створено, додайте доріжку субтитрів натисканням піктограми"
+" |add-subtitle|\\ :guilabel:`Інструмент редагування субтитрів` на панелі"
+" інструментів монтажного столу (**6**)."
 
 #: ../../effects_and_filters/speech_to_text.rst:91
 msgid "Automatic subtitle generation using the VOSK engine"
@@ -147,6 +165,8 @@ msgid ""
 "|tools-wizard|\\ :guilabel:`Speech recognition`. Click here to open the "
 "**Automatic Subtitling** dialog window."
 msgstr ""
+"|tools-wizard|\\ :guilabel:`Розпізнавання мовлення`. Натисніть, щоб відкрити"
+" діалогове вікно **Автоматичне субтитрування**."
 
 #: ../../effects_and_filters/speech_to_text.rst:95
 #: ../../effects_and_filters/speech_to_text.rst:140
@@ -154,12 +174,11 @@ msgid ""
 "Timeline Zone. More details about Timeline Zones can be found in the "
 "chapter :ref:`timeline_ruler`."
 msgstr ""
+"Зона монтажного столу. Докладніший опис зон монтажного столу наведено у"
+" розділі :ref:`timeline_ruler`."
 
 #: ../../effects_and_filters/speech_to_text.rst:97
 #: ../../effects_and_filters/speech_to_text.rst:142
-#| msgid ""
-#| "Choose which part of the timeline should be applied for recognition "
-#| "(**4**)"
 msgid ""
 "Choose which part of the timeline should be used for speech recognition"
 msgstr ""
@@ -167,8 +186,9 @@ msgstr ""
 "розпізнавання мовлення"
 
 #: ../../effects_and_filters/speech_to_text.rst:99
+#: ../../effects_and_filters/speech_to_text.rst:146
 #| msgid ":guilabel:`Process` Start the recognition (**5**)"
-msgid ":guilabel:`Process`. Click top start the recognition"
+msgid ":guilabel:`Process`. Click to start the recognition"
 msgstr ":guilabel:`Обробка`. Натисніть, щоб розпочати розпізнавання"
 
 #: ../../effects_and_filters/speech_to_text.rst:101
@@ -178,6 +198,10 @@ msgid ""
 "can install more models in the Configuration section :doc:`Speech to Text</"
 "getting_started/configure_kdenlive/configuration_speech2text>`."
 msgstr ""
+":guilabel:`Модель`. Виберіть модель для мови субтитрів. Додаткові моделі"
+" можна встановити у розділі налаштувань :doc:`Перетворення мовлення на"
+" текст</"
+"getting_started/configure_kdenlive/configuration_speech2text>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:103
 #: ../../effects_and_filters/speech_to_text.rst:156
@@ -185,10 +209,11 @@ msgid ""
 "|add-subtitle|\\ :guilabel:`Edit Subtitle Tool`. Click to open or close the "
 "subtitle track."
 msgstr ""
+"|add-subtitle|\\ :guilabel:`Інструмент редагування субтитрів`. Натисніть,"
+" щоб відкрити або закрити доріжку субтитрів."
 
 #: ../../effects_and_filters/speech_to_text.rst:106
 #: ../../effects_and_filters/speech_to_text.rst:159
-#| msgid "Creating subtitle by VOSK speech recognition"
 msgid "Steps to create subtitles using VOSK speech recognition"
 msgstr "Кроки створення субтитрів за допомогою розпізнавання мовлення з VOSK"
 
@@ -197,6 +222,8 @@ msgstr "Кроки створення субтитрів за допомогою
 msgid ""
 "(numbers in brackets point to the GUI element in the screenshot above):"
 msgstr ""
+"(число у дужках вказує на елемент графічного інтерфейсу на наведеному вище"
+" знімку вікна):"
 
 #: ../../effects_and_filters/speech_to_text.rst:109
 #: ../../effects_and_filters/speech_to_text.rst:162
@@ -204,6 +231,8 @@ msgid ""
 "|tools-wizard|\\ :guilabel:`Speech recognition` (**1**). Click here to open "
 "the **Automatic Subtitling** dialog window."
 msgstr ""
+"|tools-wizard|\\ :guilabel:`Розпізнавання мовлення` (**1**). Натисніть, щоб"
+" відкрити діалогове вікно **Автоматичне субтитрування**."
 
 #: ../../effects_and_filters/speech_to_text.rst:111
 #: ../../effects_and_filters/speech_to_text.rst:164
@@ -212,6 +241,9 @@ msgid ""
 "recognition. More details about Timeline Zones can be found in the chapter :"
 "ref:`timeline_ruler`."
 msgstr ""
+"Якщо потрібно, визначте зону монтажного столу (**2**), для якої слід"
+" виконати розпізнавання мовлення. Докладніший опис зон монтажного столу"
+" наведено у розділі :ref:`timeline_ruler`."
 
 #: ../../effects_and_filters/speech_to_text.rst:113
 #: ../../effects_and_filters/speech_to_text.rst:166
@@ -221,12 +253,13 @@ msgid ""
 "`Speech to Text</getting_started/configure_kdenlive/"
 "configuration_speech2text>`."
 msgstr ""
+":guilabel:`Модель` (**5**). Виберіть модель для мови субтитрів. Додаткові"
+" моделі можна встановити у розділі налаштувань :doc:`Перетворення мовлення"
+" на текст</getting_started/configure_kdenlive/"
+"configuration_speech2text>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:115
 #: ../../effects_and_filters/speech_to_text.rst:168
-#| msgid ""
-#| "Choose which part of the timeline should be applied for recognition "
-#| "(**4**)"
 msgid ""
 "Choose which part of the timeline should be used for speech recognition "
 "(**3**)"
@@ -236,20 +269,17 @@ msgstr ""
 
 #: ../../effects_and_filters/speech_to_text.rst:117
 #: ../../effects_and_filters/speech_to_text.rst:170
-#| msgid ":guilabel:`Process` Start the recognition (**5**)"
 msgid ":guilabel:`Process` (**4**). Click to start the subtitle creation."
 msgstr ""
 ":guilabel:`Обробка` (**4**). Натисніть, щоб розпочати створення субтитрів."
 
 #: ../../effects_and_filters/speech_to_text.rst:119
 #: ../../effects_and_filters/speech_to_text.rst:172
-#| msgid "The subtitle gets created and inserted automatically."
 msgid "The subtitle is created and inserted automatically."
 msgstr "Субтитри буде створено і вставлено автоматично."
 
 #: ../../effects_and_filters/speech_to_text.rst:121
 #: ../../effects_and_filters/speech_to_text.rst:174
-#, fuzzy
 #| msgid ""
 #| "Remark to **4**: The default is to analyze only the :guilabel:`Timeline "
 #| "zone (all tracks)` (the blue bar in the timeline ruler). Set the zone in "
@@ -262,37 +292,32 @@ msgid ""
 "what you want to analyze (use :kbd:`I` and :kbd:`O` to set in and out "
 "points). :guilabel:`Selected clips` option analyses the selected clip only."
 msgstr ""
-"Зауваження щодо пункту **4**: типова поведінка полягає в аналізі лише :"
-"guilabel:`зони монтажного столу (усі доріжки)` (синя смуга на лінійці "
-"монтажного столу). Встановіть на монтажному столі зону, аналіз якої слід "
+"Зауваження щодо кроку **4**: типова поведінка полягає в аналізі лише :"
+"guilabel:`зони монтажного столу (усі доріжки)` (**2** на наведеному вище"
+" знімку). Встановіть на монтажному столі зону, аналіз якої слід "
 "виконати (скористайтеся клавішами :kbd:`I` і :kbd:`O` для встановлення "
 "вхідної і вихідної позицій). Якщо буде позначено пункт :guilabel:`Позначені "
 "кліпи`, програма виконає аналіз лише позначених кліпів."
 
 #: ../../effects_and_filters/speech_to_text.rst:125
-#, fuzzy
 #| msgid "Creating subtitle by WHISPER speech recognition"
 msgid "Creating Subtitles using WHISPER Speech Recognition"
-msgstr "Створення субтитрів для розпізнавання мовлення WHISPER"
+msgstr "Створення субтитрів за допомогою рушія розпізнавання мовлення WHISPER"
 
 #: ../../effects_and_filters/speech_to_text.rst:129
 msgid ""
 "If not yet created, add a subtitle track by clicking on the |add-subtitle|"
 "\\ :guilabel:`Edit Subtitle Tool` icon in the Timeline tool bar (**11**)."
 msgstr ""
+"Якщо доріжку не створено, додайте доріжку субтитрів натисканням піктограми"
+" |add-subtitle|\\ :guilabel:`Інструмент редагування субтитрів` на панелі"
+" інструментів монтажного столу (**11**)."
 
 #: ../../effects_and_filters/speech_to_text.rst:136
 msgid "Automatic subtitle generation using the Whisper engine"
 msgstr "Автоматичне створення субтитрів за допомогою рушія Whisper"
 
-#: ../../effects_and_filters/speech_to_text.rst:146
-#, fuzzy
-#| msgid ":guilabel:`Process` Start the recognition (**5**)"
-msgid ":guilabel:`Process`. Click to start the recognition"
-msgstr ":guilabel:`Обробка` — розпочати розпізнавання (**5**)"
-
 #: ../../effects_and_filters/speech_to_text.rst:148
-#, fuzzy
 #| msgid ""
 #| ":guilabel:`Language` If :guilabel:`Autodetect` doesn't choose the correct "
 #| "language you can manually set the language"
@@ -300,11 +325,10 @@ msgid ""
 ":guilabel:`Language`. Default is **Autodetect**. Change to the correct "
 "language if not detected properly."
 msgstr ""
-":guilabel:`Мова` — якщо :guilabel:`Автовиявлення` не вибирає належну мову, "
-"ви можете встановити мову вручну"
+":guilabel:`Мова`. Типовим варіантом є **Автовиявлення**. Змініть мову на"
+" відповідну, якщо виявлення не спрацювало належним чином."
 
 #: ../../effects_and_filters/speech_to_text.rst:150
-#, fuzzy
 #| msgid ""
 #| ":guilabel:`Maximum character per line` Adjust the number of character per "
 #| "line in the subtitle"
@@ -312,8 +336,8 @@ msgid ""
 ":guilabel:`Maximum character per line`. Define how many characters per line "
 "are allowed before a line break is inserted."
 msgstr ""
-":guilabel:`Максимальна кількість символів на рядок` — скоригувати кількість "
-"символів на рядок у субтитрах"
+":guilabel:`Максимальна кількість символів на рядок`. Визначає кількість"
+" символів у рядку, перш ніж буде вставлено символ розриву рядка."
 
 #: ../../effects_and_filters/speech_to_text.rst:152
 msgid ""
@@ -325,9 +349,16 @@ msgid ""
 "`Speech to Text</getting_started/configure_kdenlive/"
 "configuration_speech2text>`."
 msgstr ""
+":guilabel:`Перекласти за допомогою SeamlessM4T`. Позначення цього пункту"
+" надає доступ до двох додаткових полів: одного для :guilabel:`Початкова"
+" мова` і одного для :guilabel:`Мова перекладу`. Це потребує вмикання"
+" перекладу за допомогою SeamlessM4T у параметрах програми"
+" (:menuselection:`Меню --> Параметри --> Налаштувати Kdenlive -->"
+" Перетворення мовлення на текст`). Будь ласка, зверніться до розділу щодо"
+" :doc:`Перетворення мовлення на текст</getting_started/configure_kdenlive/con"
+"figuration_speech2text>`, щоб дізнатися більше."
 
 #: ../../effects_and_filters/speech_to_text.rst:154
-#, fuzzy
 #| msgid ""
 #| ":guilabel:`Translate to english` is only available with the Whisper "
 #| "speech engine. It translates non-English text to English during "
@@ -336,9 +367,8 @@ msgid ""
 ":guilabel:`Translate to English`. Select this to use *Whisper* for the "
 "translation to English."
 msgstr ""
-"Пункт :guilabel:`Перекласти текст англійською` доступний лише для рушія "
-"мовлення Whisper. Наказує програмі перекласти текст, відмінний від "
-"англійського, англійською під час розпізнавання."
+"Пункт :guilabel:`Перекласти текст англійською`. Позначте, якщо слід"
+" використати *Whisper* для перекладу англійською."
 
 #: ../../effects_and_filters/speech_to_text.rst:180
 msgid "Translate with SeamlessM4T"
@@ -353,22 +383,19 @@ msgid ""
 "Select :guilabel:`Input Language` and :guilabel:`Output Language` and click :"
 "guilabel:`Process`."
 msgstr ""
+"Виберіть :guilabel:`Початкову мову` і :guilabel:`Мову перекладу` і натисніть"
+" кнопку :guilabel:`Обробка`."
 
 #: ../../effects_and_filters/speech_to_text.rst:191
-#| msgid ""
-#| "Select :guilabel:`Input Language` and :guilabel:`Output Language` and "
-#| "click :guilabel:`Process`. This will first process the audio using "
-#| "whisper, then start the SeamlessM4T translation. Translation can occupy "
-#| "100% RAM, 100% CPU and 100% disk access."
 msgid ""
 "This will first process the audio using *Whisper*, then start the "
 "*SeamlessM4T* translation. Translation can occupy 100% RAM, 100% CPU and "
 "100% disk access."
 msgstr ""
-"Спочатку буде оброблено звукові дані за допомогою "
-"*Whisper*, потім буде запущено переклад за допомогою *SeamlessM4T*. Для "
-"перекладу може знадобитися 100% оперативної пам'яті, 100% потужностей "
-"процесора та 100% можливостей доступу до диска."
+"Спочатку буде оброблено звукові дані за допомогою *Whisper*, потім буде "
+"запущено переклад за допомогою *SeamlessM4T*. Для перекладу може знадобитися "
+"100% оперативної пам'яті, 100% потужностей процесора та 100% можливостей "
+"доступу до диска."
 
 #: ../../effects_and_filters/speech_to_text.rst:196
 msgid ""
@@ -379,9 +406,6 @@ msgstr ""
 "МБ/с отримання даних буде тривати 12 хвилин!"
 
 #: ../../effects_and_filters/speech_to_text.rst:198
-#| msgid ""
-#| "During download Kdenlive will react as normal. Don't click on :guilabel:"
-#| "`Close` otherwise download get stopped."
 msgid ""
 "During download Kdenlive will react as normal. Do not click on :guilabel:"
 "`Close`, otherwise the download is stopped."
@@ -391,9 +415,6 @@ msgstr ""
 "даних."
 
 #: ../../effects_and_filters/speech_to_text.rst:206
-#| msgid ""
-#| "Don't worry if you see such a message on the box below :guilabel:"
-#| "`Initializing translation model` while downloading is running."
 msgid ""
 "Don't worry if you see such a message on the box below :guilabel:"
 "`Initializing translation model` while the download is running."
@@ -402,7 +423,6 @@ msgstr ""
 "guilabel:`Ініціалізація моделі перекладу`, доки триває отримання даних."
 
 #: ../../effects_and_filters/speech_to_text.rst:208
-#, fuzzy
 #| msgid ""
 #| "Once the translation model is downloaded translation will happen (be "
 #| "patient as download the model takes about 12 minutes with 100MB/s "
@@ -411,22 +431,21 @@ msgid ""
 "Depending on your internet connection and bandwidth, downloading the model "
 "can take quite some time (about 12 minutes with 100MB/s download speed)."
 msgstr ""
-"Щойно модель перекладу буде завантажено, буде виконано переклад (майте "
-"терпіння, оскільки отримання моделі триватиме близько 12 хвилин зі швидкістю "
-"отримання даних 100 МБ/с)."
+"Залежно від вашого інтернет-з'єднання та ширини каналу зв'язку, отримання"
+" моделі може бути досить тривалим (приблизно 12 хвилин при швидкості"
+" отримання даних у 100 МБ/с)."
 
 #: ../../effects_and_filters/speech_to_text.rst:210
 msgid "Once the translation model is downloaded, translation will start."
 msgstr ""
+"Щойно отримання моделі перекладу буде завершено, програма розпочне переклад."
 
 #: ../../effects_and_filters/speech_to_text.rst:242
-#, fuzzy
 #| msgid "Creating clips by speech recognition"
 msgid "Creating Clips using Speech Recognition"
-msgstr "Створення кліпів за розпізнаванням мовлення"
+msgstr "Створення кліпів з використанням розпізнаванням мовлення"
 
 #: ../../effects_and_filters/speech_to_text.rst:244
-#, fuzzy
 #| msgid ""
 #| "This is useful for interviews and other speech-related footage. Enable "
 #| "the :menuselection:`Menu --> View --> Speech Editor` menu item."
@@ -436,7 +455,8 @@ msgid ""
 "View --> Speech Editor`."
 msgstr ""
 "Ця можливість корисна для інтерв'ю та іншого пов'язаного із голосовими "
-"даними матеріалу. Увімкніть пункт меню :menuselection:`Меню --> Перегляд --> "
+"даними матеріалу. Відкрийте віджет редактора озвучення. Якщо його ще не"
+" увімкнено, скористайтеся пунктом меню :menuselection:`Меню --> Перегляд --> "
 "Редактор озвучення`."
 
 #: ../../effects_and_filters/speech_to_text.rst:246
@@ -444,9 +464,10 @@ msgid ""
 "Using speech recognition to create transcripts and create clips from that, "
 "is only possible with clips in the **Project Bin**."
 msgstr ""
+"Скористатися розпізнаванням мовлення для створення транскрибування та кліпів"
+" на його основі, можливе лише для кліпів у **Контейнері проєкту**."
 
 #: ../../effects_and_filters/speech_to_text.rst:253
-#| msgid "Shown with the VOSK engine and search enabled"
 msgid "Shown with the VOSK engine and Search (10) enabled"
 msgstr "Показано з рушієм VOSK і увімкненим пошуком (10)"
 
@@ -455,7 +476,6 @@ msgid "Select a clip in the **Project Bin**."
 msgstr "Виберіть кліп на панелі контейнера проєкту."
 
 #: ../../effects_and_filters/speech_to_text.rst:257
-#, fuzzy
 #| msgid ""
 #| "If needed set in/out point in the clip monitor and enable :guilabel:"
 #| "`Selected zone only` selection box. This will only recognize the text "
@@ -464,7 +484,8 @@ msgid ""
 "If needed, set in and out points in the **Clip Monitor** and check :guilabel:"
 "`Selected zone only`. This will only transcribe text inside that zone."
 msgstr ""
-"Якщо потрібно, встановіть точки входу і виходу на моніторі кліпу і позначте "
+"Якщо потрібно, встановіть точки входу і виходу на **моніторі кліпу** і"
+" позначте "
 "пункт :guilabel:`Лише позначена ділянка`. У результаті буде розпізнано текст "
 "лише з вказаної ділянки."
 
@@ -480,9 +501,19 @@ msgid ""
 "configuration refer to the chapter :doc:`Configure Speech to Text</"
 "getting_started/configure_kdenlive/configuration_speech2text>`."
 msgstr ""
+"Натисніть кнопку |application-menu|\\ :guilabel:`Меню-гамбургера` і виберіть"
+" правильну модель для мови, якщо на розпізнавання мовлення налаштовано рушій"
+" *VOSK*. Якщо вибрано рушій *Whisper*, ви можете позначити пункт"
+" :guilabel:`Перекласти англійською мовою`, якщо це потрібно. Вибрати рушій"
+" розпізнавання мовлення можна за допомогою пункту :menuselection:`Меню -->"
+" Параметри --> Налаштувати Kdenlive --> Перетворення мовлення на текст`."
+" Натисніть :guilabel:`Налаштувати розпізнавання мовлення`, щоб відкрити"
+" розділ налаштувань для перетворення мовлення на текст. Щоб дізнатися більше"
+" про налаштування, зверніться до розділу :doc:`Налаштування перетворення"
+" мовлення на текст</getting_started/configure_kdenlive/configuration_speech2t"
+"ext>"
 
 #: ../../effects_and_filters/speech_to_text.rst:261
-#| msgid "Press on the :guilabel:`Process` button"
 msgid "Press the :guilabel:`Transcribe` button."
 msgstr "Натисніть кнопку :guilabel:`Транскрибувати`."
 
@@ -495,7 +526,6 @@ msgstr ""
 "`Ctrl` або :kbd:`Shift` можна вибрати одразу декілька фрагментів тексту."
 
 #: ../../effects_and_filters/speech_to_text.rst:265
-#, fuzzy
 #| msgid ""
 #| "Choose: :guilabel:`Create new sequence with edit` creates a new sequence "
 #| "with each timecode-text as a single clip, or :guilabel:`Insert selection "
@@ -508,11 +538,12 @@ msgid ""
 "position. :guilabel:`Save edited text in a playlist file` creates an asset "
 "in the project bin with the entire transcribed text."
 msgstr ""
-"Виберіть: :guilabel:`Створити послідовність із редагуванням` — створити "
-"послідовність із прив'язками часових позначок до тексту як окремий кліп, "
-"або :guilabel:`Вставити позначене на монтажний стіл` у позиції відтворення, "
-"або :guilabel:`Зберегти редагований текст до файла списку відтворення` для "
-"додавання пункту на панель контейнера проєкту."
+":guilabel:`Створити послідовність із редагуванням` — створити "
+"послідовність із прив'язками часових позначок до тексту як окремий кліп."
+" :guilabel:`Вставити позначене на монтажний стіл` створює кліпи для кожної"
+" вибраної часової позначки і тексту, починаючи з позиції відтворення."
+" :guilabel:`Зберегти редагований текст до файла списку відтворення` створює"
+" пункт на панель контейнера проєкту для усього транскрибованого тексту."
 
 #: ../../effects_and_filters/speech_to_text.rst:267
 msgid ""
@@ -520,6 +551,9 @@ msgid ""
 "size-less|\\ :guilabel:`Decrease font size` decrease, respectively, increase "
 "the font size."
 msgstr ""
+"|format-font-size-more|\\ :guilabel:`Збільшити розмір шрифту` і |format-font-"
+"size-less|\\ :guilabel:`Зменшити розмір шрифту` — збільшити або зменшити"
+" розмір шрифту."
 
 #: ../../effects_and_filters/speech_to_text.rst:269
 msgid ""
@@ -527,6 +561,9 @@ msgid ""
 "of the selected text. More details about *Guides* and *Markers* are "
 "available in the chapter about :doc:`/cutting_and_assembling/guides`."
 msgstr ""
+"|bookmark-new|\\ :guilabel:`Додати позначку` — додає позначку або напрямну"
+" для часової позначки позначеного тексту. Докладніше про *напрямні* і"
+" *позначки* можна дізнатися з розділу :doc:`/cutting_and_assembling/guides`."
 
 #: ../../effects_and_filters/speech_to_text.rst:271
 msgid ""
@@ -535,15 +572,12 @@ msgstr ""
 "|edit-delete|\\ :guilabel:`Вилучити позначене` вилучає позначений текст."
 
 #: ../../effects_and_filters/speech_to_text.rst:273
-#| msgid ""
-#| ":guilabel:`Zoom in` or :guilabel:`Zoom out` of the text. :guilabel:"
-#| "`Remove non speech zones` deletes all \"No speech\" entries at once."
 msgid ""
 ":guilabel:`Remove non speech zones` deletes all \"No speech\" entries at "
 "once."
 msgstr ""
-":guilabel:`Вилучити усі зони без голосових даних` вилучає усі записи без"
-" мовлення одразу."
+":guilabel:`Вилучити усі зони без голосових даних` вилучає усі записи без "
+"мовлення одразу."
 
 #: ../../effects_and_filters/speech_to_text.rst:275
 msgid ""
@@ -554,9 +588,14 @@ msgid ""
 "field turns reddish you have reached the last occurrence of the search term "
 "in the text."
 msgstr ""
+"|edit-find|\\ :guilabel:`Шукати у тексті` перемикає поле пошуку. Введіть"
+" фрагмент тексту, який слід знайти у транскрибованому тексті. Пошук не"
+" враховує регістр і знаходить усі випадки входження рядка навіть у межах"
+" слів. За допомогою кнопок |go-up| і |go-down| можна перейти до наступного"
+" або попереднього входження пошукового терміну. Якщо поле пошуку стає"
+" червонуватим, ви досягли останнього входження пошукового терміну в тексті."
 
 #: ../../effects_and_filters/speech_to_text.rst:281
-#| msgid "Silence detection"
 msgid "Silence Detection"
 msgstr "Виявлення мовчання"
 
@@ -565,9 +604,6 @@ msgid "This works with the VOSK engine only."
 msgstr "Працює лише із рушієм VOSK."
 
 #: ../../effects_and_filters/speech_to_text.rst:285
-#| msgid ""
-#| "Open the clip in the clip monitor and open the speech editor window (:"
-#| "menuselection:`Menu --> View --> Speech Editor`) ."
 msgid ""
 "Select the clip in the **Project Bin**** and open the speech editor window (:"
 "menuselection:`Menu --> View --> Speech Editor`) ."
@@ -579,10 +615,15 @@ msgstr ""
 msgid ""
 "Click on |application-menu|:guilabel:`Hamburger Menu` and choose the model "
 "for your language. If the right model is not listed, click on :guilabel:"
-"`Configure Speech Recognition`. For details about hwo to add models for the "
+"`Configure Speech Recognition`. For details about how to add models for the "
 "*VOSK* engine refer to the chapter about :doc:`/getting_started/"
 "configure_kdenlive/configuration_speech2text`."
 msgstr ""
+"Натисніть кнопку |application-menu|:guilabel:`Меню-гамбургера` і виберіть"
+" модель для вашої мови. Якщо потрібної моделі немає в списку, натисніть"
+" :guilabel:`Налаштувати розпізнавання мовлення`. Щоб дізнатися більше про"
+" те, як додати моделі для рушія *VOSK*, зверніться до розділу про"
+" :doc:`/getting_started/configure_kdenlive/configuration_speech2text`."
 
 #: ../../effects_and_filters/speech_to_text.rst:289
 msgid "Then click :guilabel:`Start Recognition` button."
@@ -620,6 +661,10 @@ msgstr ""
 "файла списку відтворення` (над точкою 5), і за декілька секунд на панель "
 "контейнера проєкту буде доданого новий список відтворення без проміжків з "
 "мовчанням та без небажаного тексту."
+
+#~| msgid ":guilabel:`Process` Start the recognition (**5**)"
+#~ msgid ":guilabel:`Process`. Click top start the recognition"
+#~ msgstr ":guilabel:`Обробка`. Натисніть, щоб розпочати розпізнавання"
 
 #~ msgid "The Kdenlive User Manual"
 #~ msgstr "Підручник користувача Kdenlive"
