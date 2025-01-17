@@ -48,7 +48,7 @@ You can also add, edit, and delete the categories and colors used for Guides and
 
 :guilabel:`Monitor background color` Click on the color bar to change the color of the monitor background.
 
-:guilabel:`Guides and Markers Categories` This lists all the defined categories for Guides and Markers. From her you can add, edit, and delete categories.
+:guilabel:`Guides and Markers Categories` This lists all the defined categories for Guides and Markers. From here you can add, edit, and delete categories.
 
 Click on :guilabel:`Add category` to add a new category. Select a color and enter a name.
 

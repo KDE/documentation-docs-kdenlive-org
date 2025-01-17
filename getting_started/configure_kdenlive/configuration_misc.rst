@@ -32,7 +32,7 @@ The **Misc** (Miscellaneous) section contains settings for the general behavior 
 
 :5: :guilabel:`Automatically import image sequence`. If checked, Kdenlive will import multiple selected images as an image sequence, and not as individual images.Please note that an image sequence cannot be broken into individual images.
 
-:6: :guilabel:`Get clip metadata created by Magic Lantern`. If checked, Kdenlive will try to read to read any metadata created by that tool and display it in the clip properties widget.
+:6: :guilabel:`Get clip metadata created by Magic Lantern`. If checked, Kdenlive will try to read any metadata created by that tool and display it in the clip properties widget.
 
 :7: :guilabel:`Ignore subfolder structure on import`. If checked, importing a whole folder will ignore any subfolder structure and bring all supported files contained in any subfolder straight into the project bin. If unchecked, Kdenlive will create folders and subfolders in the project bin to reflect the folder structure in your file system and add the imported files accordingly.
 
