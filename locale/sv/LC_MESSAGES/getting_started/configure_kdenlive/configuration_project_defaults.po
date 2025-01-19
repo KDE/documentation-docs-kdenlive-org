@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-14 01:50+0000\n"
-"PO-Revision-Date: 2025-01-18 09:01+0100\n"
+"PO-Revision-Date: 2025-01-18 19:36+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -51,7 +51,7 @@ msgstr "5"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:1
 msgid "Kdenlive Documentation - Configuration Project Defaults"
-msgstr "Kdenlive dokumentation: Inställning av projektstandardvärden"
+msgstr "Kdenlive dokumentation: Inställning av projektets standardvärden"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:1
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:14
 msgid "Project Defaults"
-msgstr "Projektstandardvärden"
+msgstr "Projektets standardvärden"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:16
 msgid ""
@@ -74,10 +74,17 @@ msgid ""
 "Please note that while changing parameter for the open project is possible, "
 "it is not recommended as it may break things like keyframes and cuts."
 msgstr ""
+"Kdenlive använder inställningar för att skapa ett nytt projekt (se Meny > Arki"
+"v > Nytt, eller när Kdenlive startar och alternativet för att öppna det senast"
+"e projektet inte är markerat). För att ändra parametrarna i ett för närvarande"
+" öppet projekt, använd :doc:`Projektinställningar</project_and_asset_managemen"
+"t/project_settings>`. Observera att även om det är möjligt att ändra parameter"
+" för det öppna projektet, rekommenderas det inte eftersom det kan göra att sak"
+"er som nyckelrutor och klipp går sönder."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:23
 msgid "The Project Defaults section"
-msgstr "Sektionen Projektstandardvärden"
+msgstr "Sektionen Projektets standardvärden"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:25
 msgid ""
@@ -87,6 +94,11 @@ msgid ""
 "file:`videothumbs`, and :file:`workfiles`. See also :doc:`/getting_started/"
 "configure_kdenlive/configuration_info`."
 msgstr ""
+":guilabel:`Projektkatalog`. Det är en viktig inställning för att hålla projekt"
+" organiserade och filsystemet i form. Kdenlive skapar följande kataloger för v"
+"arje projekt: :file:`audiothumbs`, :file:`sequences`, :file:`videothumbs` och "
+":file:`workfiles`. Se även :doc:`/getting_started/configure_kdenlive/configura"
+"tion_info`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:27
 msgid ""
@@ -95,6 +107,10 @@ msgid ""
 "<username>/.var/app/org.kde.kdenlive/cache/kdenlive/<projectID>/`. For "
 "Windows this is :file:`%APPDATA\\\\Local\\\\kdenlive\\\\cache`."
 msgstr ""
+"Om inställt till :guilabel:`Standard`, skapar Kdenlive katalogerna i en specie"
+"ll katalog i installationssökvägen. För Linux är det :file:`/home/<användarnam"
+"n>/.var/app/org.kde.kdenlive/cache/kdenlive/<projektID>/`. För Windows är det "
+":file:`%APPDATA\\\\Local\\\\kdenlive\\\\cache`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:29
 msgid ""
@@ -105,12 +121,20 @@ msgid ""
 "project_1/:` :file:`/home/my/projects/project_1/audiothumbs/`, :file:`/home/"
 "my/projects/project_1/sequences/`, etc."
 msgstr ""
+":guilabel:`Projektfilens överliggande katalog`. Om det är markerad skapar Kden"
+"live katalogerna för projektet i projektfilens överliggande katalog. Till exem"
+"pel, om projektfilen finns i :file:`/home/my/projects/project_1/`, skapar Kden"
+"live projektrelaterade filer i :file:`../project_1/:` :file:`/home/my /project"
+"s/project_1/audiothumbs/`, :file:`/home/my/projects/project_1/sequences/`, etc"
+"."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:31
 msgid ""
 ":guilabel:`Custom project folder`: You can specify a folder to use for these "
 "project folders."
 msgstr ""
+":guilabel:`Egen projektkatalog`: Man kan ange en katalog att använda för proje"
+"ktkatalogerna."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:33
 msgid ""
@@ -121,12 +145,20 @@ msgid ""
 "new profile from here by clicking on <create> icon. For details about how to "
 "do that, please see <this_section>."
 msgstr ""
+":guilabel:`Välj standardprofil (förinställning)`. I den här sektionen definier"
+"ar man vilka av profilerna som ska användas när man skapar ett nytt projekt. A"
+"nvänd filtren för :guilabel:`Bilder/s` och :guilabel:`Avläsning` (den gammalda"
+"gs referensen till :term:`inflätad` eller :term:`progressiv`). Man kan skapa e"
+"n ny profil härifrån genom att klicka på ikonen <skapa>. För detaljer om hur m"
+"an gör det, se <this_section>."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:35
 msgid ""
 ":guilabel:`Video/Audio Tracks`. Determines the number of video and tracks a "
 "new project has. You can add and delete tracks later at any time."
 msgstr ""
+":guilabel:`Videospår/ljudspår`. Bestämmer antalet videor och spår som ett nytt"
+" projekt har. Man kan när som helst senare lägga till och ta bort spår."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:37
 msgid ""
@@ -134,6 +166,9 @@ msgid ""
 "supports. Options are **2 channels (stereo)** (default), **4 channels**, and "
 "**6 channels**."
 msgstr ""
+":guilabel:`Ljudkanaler`. Bestämmer hur många kanaler varje ljudspår stöder. Al"
+"ternativen är **2 kanaler (stereo)** (standardvärde), **4 kanaler** och **6 ka"
+"naler**."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:39
 msgid ""
@@ -143,6 +178,11 @@ msgid ""
 "HW and installed codecs. You can manage the profiles by clicking on the |"
 "configure| icon."
 msgstr ""
+":guilabel:`Profil för förhandsgranskning av tidslinje`. Välj vilken kodningspr"
+"ofil som ska användas för funktionen :doc:`Förhandsåtergivning</tips_and_trick"
+"s/tips_and_tricks/timeline_preview_rendering>`. De tillgängliga alternativen b"
+"eror på maskinvaran och installerade avkodare. Man kan hantera profilerna geno"
+"m att klicka på ikonen |configure|."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:43
 msgid "Encoding Profiles"
@@ -166,3 +206,6 @@ msgid ""
 "document-edit| to edit the selected profile, |edit-delete| to delete the "
 "selected profile. |edit-download| does not have a function yet."
 msgstr ""
+"Klicka på |list-add| för att skapa en ny profil baserat på den valda, |documen"
+"t-edit| för att redigera den valda profilen, |edit-delete| för att radera den "
+"valda profilen. |edit-download| har ingen funktion än."
