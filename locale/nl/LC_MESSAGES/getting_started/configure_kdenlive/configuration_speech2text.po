@@ -10,11 +10,11 @@ msgstr ""
 "PO-Revision-Date: 2025-01-18 12:12+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.12.1\n"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:0
@@ -51,8 +51,8 @@ msgstr "Kdenlive documentatie - configuratie van spraak naar tekst"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:1
 msgid ""
-"KDE, Kdenlive, documentation, user manual, configuration, preferences, spe"
-"ech to text, video editor, open source, free, learn, easy"
+"KDE, Kdenlive, documentation, user manual, configuration, preferences, "
+"speech to text, video editor, open source, free, learn, easy"
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:35
@@ -61,32 +61,32 @@ msgstr "Spraak naar tekst"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:37
 msgid ""
-"This section is used for setting up the Speech-to-Text feature of Kdenlive"
-" and for managing the various models for the two engines VOSK and Whisper."
+"This section is used for setting up the Speech-to-Text feature of Kdenlive "
+"and for managing the various models for the two engines VOSK and Whisper."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:39
 msgid ""
-"Speech to text does not work with version 21.04.2 due to `Vosk API <https:"
-"//github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 a"
-"nd later versions."
+"Speech to text does not work with version 21.04.2 due to `Vosk API <https://"
+"github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and "
+"later versions."
 msgstr ""
-"Spraak naar tekst werkt niet met versie 21.04.2 vanwege problemen met "
-"`Vosk API <https://github.com/alphacep/vosk-api>`_. Gebruik versie "
-"21.04.1 of 21.04.3 en latere versies."
+"Spraak naar tekst werkt niet met versie 21.04.2 vanwege problemen met `Vosk "
+"API <https://github.com/alphacep/vosk-api>`_. Gebruik versie 21.04.1 of "
+"21.04.3 en latere versies."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:41
 msgid ""
-"Before Speech to Text can be configured and used, *Python3* needs to be in"
-"stalled. Once *Python3* is installed, you may want to use a virtual enviro"
-"nment (:file:`venv`) to keep it separate for Kdenlive from other uses on y"
-"our system."
+"Before Speech to Text can be configured and used, *Python3* needs to be "
+"installed. Once *Python3* is installed, you may want to use a virtual "
+"environment (:file:`venv`) to keep it separate for Kdenlive from other uses "
+"on your system."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:43
 msgid ""
-"If you have installed *Python3* already jump right to the :ref:`configurat"
-"ion page <speech2text_config>`."
+"If you have installed *Python3* already jump right to the :ref:"
+"`configuration page <speech2text_config>`."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:47
@@ -95,20 +95,19 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:49
 msgid ""
-"On most Linux distributions *Python* is installed by default. You can chec"
-"k if that is the case for your system by running ``python3 --version`` in "
-"a terminal. The following are the basic steps for installing *Python3* on "
-"Ubuntu. If your distribution is not Ubuntu-based please refer to the speci"
-"fic documentation or search the Internet for installation instructions."
+"On most Linux distributions *Python* is installed by default. You can check "
+"if that is the case for your system by running ``python3 --version`` in a "
+"terminal. The following are the basic steps for installing *Python3* on "
+"Ubuntu. If your distribution is not Ubuntu-based please refer to the "
+"specific documentation or search the Internet for installation instructions."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:56
 msgid ""
-"The crucial third-party *Python* package you may need is *pip*. *Python 3."
-"4* and later include *pip* by default but it does not hurt to check by run"
-"ning ``command -v pip`` in a terminal (some distributions use *pip* for *P"
-"ython2* and *pip3* for *Python 3*). If *pip* is missing, you can install i"
-"t with"
+"The crucial third-party *Python* package you may need is *pip*. *Python 3.4* "
+"and later include *pip* by default but it does not hurt to check by running "
+"``command -v pip`` in a terminal (some distributions use *pip* for *Python2* "
+"and *pip3* for *Python 3*). If *pip* is missing, you can install it with"
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:62
@@ -117,8 +116,8 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:64
 msgid ""
-"In the following paragraphs, *pip* is the generic term for all versions of"
-" pip, including pip3. Please use the correct ``pip`` command for your OS."
+"In the following paragraphs, *pip* is the generic term for all versions of "
+"pip, including pip3. Please use the correct ``pip`` command for your OS."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:68
@@ -135,16 +134,16 @@ msgstr "Spraak-engines"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:78
 msgid ""
-"There are two speech engines available: *VOSK* and *Whisper*. OpenAI's *Wh"
-"isper* is a speech recognition module for general use trained on a large d"
-"ataset of diverse audio and is capable of performing speech translation, a"
-"nd language identification."
+"There are two speech engines available: *VOSK* and *Whisper*. OpenAI's "
+"*Whisper* is a speech recognition module for general use trained on a large "
+"dataset of diverse audio and is capable of performing speech translation, "
+"and language identification."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:80
 msgid ""
-"*Whisper* is slower than *VOSK* on CPU, but it is more accurate than *VOSK"
-"*. *Whisper* creates sentences with punctuation marks, even in Base mode."
+"*Whisper* is slower than *VOSK* on CPU, but it is more accurate than *VOSK*. "
+"*Whisper* creates sentences with punctuation marks, even in Base mode."
 msgstr ""
 "*Whisper* is langzamer dan *VOSK* op CPU, maar het is accurater dan VOSK. "
 "*Whisper* maakt zinnen met leestekens, zelfs in de basismodus."
@@ -155,21 +154,21 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:84
 msgid ""
-"If you are using the flatpak version of Kdenlive, you may experience probl"
-"ems with installing the speech models. The sandbox approach of flatpak pre"
-"vents kdenlive from running *pip*. There is a possible workaround using ``"
-"$ flatpak run --command=/bin/bash org.kde.kdenlive`` and then ``$ python -"
-"m ensurepip`` followed by ``$ python -m pip install -U openai-whisper torc"
-"h`` (courtesy of |veronica_explains|). Your mileage may vary."
+"If you are using the flatpak version of Kdenlive, you may experience "
+"problems with installing the speech models. The sandbox approach of flatpak "
+"prevents kdenlive from running *pip*. There is a possible workaround using ``"
+"$ flatpak run --command=/bin/bash org.kde.kdenlive`` and then ``$ python -m "
+"ensurepip`` followed by ``$ python -m pip install -U openai-whisper torch`` "
+"(courtesy of |veronica_explains|). Your mileage may vary."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:86
 msgid ""
-"The other option is to select :guilabel:`Whisper` and then click on :guila"
-"bel:`Install multilingual translation`. This will download and install the"
-" necessary dependencies and make Kdenlive aware of the location of your in"
-"stallation of *Python* and *pip*. After that you can follow the instructio"
-"ns for setting up VOSK and Whisper here."
+"The other option is to select :guilabel:`Whisper` and then click on :"
+"guilabel:`Install multilingual translation`. This will download and install "
+"the necessary dependencies and make Kdenlive aware of the location of your "
+"installation of *Python* and *pip*. After that you can follow the "
+"instructions for setting up VOSK and Whisper here."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:89
@@ -183,8 +182,8 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:98
 msgid ""
-"You need to download a speech model first from the alphacephei\\ [1]_ down"
-"load page. Follow the link (**2**) and download the models you need."
+"You need to download a speech model first from the alphacephei\\ [1]_ "
+"download page. Follow the link (**2**) and download the models you need."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:100
@@ -204,55 +203,55 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:105
 msgid ""
-"If you want to use a specific folder, check :guilabel:`Custom models folde"
-"r` (**3**) and specify it in the text field below or click on |document-op"
-"en|\\ :guilabel:`Open file dialog` to navigate to the target folder. If yo"
-"u use the default folder, it will be displayed for informational purposes "
-"in the models folder text field."
+"If you want to use a specific folder, check :guilabel:`Custom models folder` "
+"(**3**) and specify it in the text field below or click on |document-open|"
+"\\ :guilabel:`Open file dialog` to navigate to the target folder. If you use "
+"the default folder, it will be displayed for informational purposes in the "
+"models folder text field."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:107
 msgid ""
-"If you have installed VOSK in an earlier Kdenlive version, and now you hav"
-"e chosen the :file:`venv` folder for Python, you can delete the previously"
-" installed VOSK libraries by using the following command in a terminal:"
+"If you have installed VOSK in an earlier Kdenlive version, and now you have "
+"chosen the :file:`venv` folder for Python, you can delete the previously "
+"installed VOSK libraries by using the following command in a terminal:"
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:114
 msgid ""
-"Click on :guilabel:`Add Model` and enter the path to the file(s) you downl"
-"oaded."
+"Click on :guilabel:`Add Model` and enter the path to the file(s) you "
+"downloaded."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:122
 msgid ""
-"Click on |document-open|\\ :guilabel:`Open file dialog` to open the file m"
-"anager of your OS to navigate to where you downloaded the files and select"
-" the model file you want to add."
+"Click on |document-open|\\ :guilabel:`Open file dialog` to open the file "
+"manager of your OS to navigate to where you downloaded the files and select "
+"the model file you want to add."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:134
 msgid ""
-"Alternatively, drag & drop the language model you want from the alphacephe"
-"i\\ [1]_ download page to the model window (**4**), and Kdenlive will down"
-"load and extract it for you into the default folder or the custom folder y"
-"ou specified."
+"Alternatively, drag & drop the language model you want from the alphacephei"
+"\\ [1]_ download page to the model window (**4**), and Kdenlive will "
+"download and extract it for you into the default folder or the custom folder "
+"you specified."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:138
 msgid ""
 "The models are compressed files (:file:`.zip`) and can be several GB big. "
-"Depending on your internet connection, download times could be long. After"
-" the download, the files need to be extracted which depending on your syst"
-"em configuration can also take a long time. Kdenlive will appear unrespons"
-"ive but is working in the background. Please be patient."
+"Depending on your internet connection, download times could be long. After "
+"the download, the files need to be extracted which depending on your system "
+"configuration can also take a long time. Kdenlive will appear unresponsive "
+"but is working in the background. Please be patient."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:140
 msgid ""
-"Once models have been installed, Kdenlive displays the size of the model f"
-"older. Click on :guilabel:`Models folder` to open the models folder with t"
-"he file manager of your OS."
+"Once models have been installed, Kdenlive displays the size of the model "
+"folder. Click on :guilabel:`Models folder` to open the models folder with "
+"the file manager of your OS."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:143
@@ -265,8 +264,8 @@ msgstr "Ontbrekende afhankelijkheden installeren"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:153
 msgid ""
-"When you switch to Whisper for the first time you have to install the miss"
-"ing dependencies (about 2GB to download)."
+"When you switch to Whisper for the first time you have to install the "
+"missing dependencies (about 2GB to download)."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:157
@@ -283,38 +282,38 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:171
 msgid ""
-"When left at **Autodetect**, Kdenlive will try to figure out which languag"
-"e to use for speech recognition. If this gives the wrong results, select t"
-"he correct language here."
+"When left at **Autodetect**, Kdenlive will try to figure out which language "
+"to use for speech recognition. If this gives the wrong results, select the "
+"correct language here."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:173
 msgid ""
-"You can switch between using the **CPU** or your **GPU** for speech recogn"
-"ition. A GPU supporting CUDA is required for GPU speech recognition."
+"You can switch between using the **CPU** or your **GPU** for speech "
+"recognition. A GPU supporting CUDA is required for GPU speech recognition."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:175
 msgid ""
-"Only for GPU. When Kdenlive detects a NVIDIA GTX 16xx graphic card it disa"
-"bles half precision (FP16) automatically. If you have issues with using GP"
-"U you can switch off half precision."
+"Only for GPU. When Kdenlive detects a NVIDIA GTX 16xx graphic card it "
+"disables half precision (FP16) automatically. If you have issues with using "
+"GPU you can switch off half precision."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:177
 msgid ""
-"You can have Whisper translate the text to English. If you need translatio"
-"n to other languages, you need to click on :guilabel:`Install multilingual"
-" translation`. This will enable SeamlessM4T\\ [2]_ and download and instal"
-"l its models (around 10GB of data). Processing will happen offline from th"
-"en on."
+"You can have Whisper translate the text to English. If you need translation "
+"to other languages, you need to click on :guilabel:`Install multilingual "
+"translation`. This will enable SeamlessM4T\\ [2]_ and download and install "
+"its models (around 10GB of data). Processing will happen offline from then "
+"on."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:182
 msgid ""
 "Click on :guilabel:`Manage models` or go with the recommendation of using "
-"the turbo model by clicking on :guilabel:`Download (1.4GB)`. More informat"
-"ion about the available models is on the |whisper_source|."
+"the turbo model by clicking on :guilabel:`Download (1.4GB)`. More "
+"information about the available models is on the |whisper_source|."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:190
@@ -327,14 +326,14 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:194
 msgid ""
-"Installed speech models have a solid circle. You can delete them by clicki"
-"ng on :guilabel:`Uninstall model`"
+"Installed speech models have a solid circle. You can delete them by clicking "
+"on :guilabel:`Uninstall model`"
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:196
 msgid ""
-"Available models have a hollow circle. You can install them by clicking on"
-" :guilabel:`Install model`."
+"Available models have a hollow circle. You can install them by clicking on :"
+"guilabel:`Install model`."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:209
@@ -359,8 +358,8 @@ msgstr ":file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:223
 msgid ""
-"To download and start subtitle translation :ref:`follow these steps <Trans"
-"late_with_SeamlessM4T>`."
+"To download and start subtitle translation :ref:`follow these steps "
+"<Translate_with_SeamlessM4T>`."
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:225
@@ -373,25 +372,25 @@ msgstr ""
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:227
 msgid ""
 "If you have installed Whisper in an earlier Kdenlive version, and now you "
-"have chosen the :file:`venv` folder for Python, you can delete the previou"
-"sly installed Whisper libraries by using the following command in a termin"
-"al:"
+"have chosen the :file:`venv` folder for Python, you can delete the "
+"previously installed Whisper libraries by using the following command in a "
+"terminal:"
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:234
 msgid ""
-"If you get consistent messages during speech recognition about missing mod"
-"el files, check where clicking on the link next to :guilabel:`Models folde"
-"r` takes you. If it is :file:`~/.cache` where there is a folder :file:`Whi"
-"sper` containing all the models you downloaded, simply copy this folder to"
-" where the error message says they are missing (most likely: :file:`~/.var"
-"/app/org.kde.kdenlive/cache`)"
+"If you get consistent messages during speech recognition about missing model "
+"files, check where clicking on the link next to :guilabel:`Models folder` "
+"takes you. If it is :file:`~/.cache` where there is a folder :file:`Whisper` "
+"containing all the models you downloaded, simply copy this folder to where "
+"the error message says they are missing (most likely: :file:`~/.var/app/org."
+"kde.kdenlive/cache`)"
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:239
 msgid ""
-"The alphacephei download page with the different language models looks lik"
-"e this:"
+"The alphacephei download page with the different language models looks like "
+"this:"
 msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:250

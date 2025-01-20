@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-14 01:50+0000\n"
-"PO-Revision-Date: 2025-01-18 09:11+0100\n"
+"PO-Revision-Date: 2025-01-19 11:23+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -87,6 +87,10 @@ msgid ""
 "environment (:file:`venv`) to keep it separate for Kdenlive from other uses "
 "on your system."
 msgstr ""
+"Innan Tal till text kan ställas in och användas måste *Python3* installeras. N"
+"är *Python3* är installerat kanske man vill använda en virtuell miljö (:file:`"
+"venv`) för att hålla det åtskilt för Kdenlive från andra användningar på syste"
+"met."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:43
 msgid ""
@@ -108,6 +112,11 @@ msgid ""
 "Ubuntu. If your distribution is not Ubuntu-based please refer to the "
 "specific documentation or search the Internet for installation instructions."
 msgstr ""
+"På de flesta Linux-distributioner är *Python* normalt installerat. Man kan kon"
+"trollera om det är fallet för systemet genom att köra ``python3 --version`` i "
+"en terminal. De grundläggande stegen för att installera *Python3* på Ubuntu är"
+" följande. Om distribution inte är baserad på Ubuntu, se den specifika dokumen"
+"tationen eller sök på Internet för installationsinstruktioner."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:56
 msgid ""
@@ -116,16 +125,23 @@ msgid ""
 "``command -v pip`` in a terminal (some distributions use *pip* for *Python2* "
 "and *pip3* for *Python 3*). If *pip* is missing, you can install it with"
 msgstr ""
+"Det avgörande *Python*-paketet från tredje part som kan behövas är *pip*. *Pyt"
+"hon 3.4* och senare inkluderar normalt *pip*, men det skadar inte att kontroll"
+"era genom att köra ``command -v pip`` i en terminal (vissa distributioner anvä"
+"nder *pip* för *Python2* och *pip3* för *Python 3*). Om *pip* saknas kan det i"
+"nstalleras med"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:62
 msgid "In case of issues please refer to the |pip_installation_guide|."
-msgstr ""
+msgstr "Vid problem, se |pip_installation_guide|."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:64
 msgid ""
 "In the following paragraphs, *pip* is the generic term for all versions of "
 "pip, including pip3. Please use the correct ``pip`` command for your OS."
 msgstr ""
+"I följande stycken är *pip* den generella termen för alla versioner av pip, in"
+"klusive pip3. Använd det korrekta ``pip``-kommandot för operativsystemet."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:68
 msgid "Installation on Windows"
@@ -133,7 +149,7 @@ msgstr "Installation på Windows"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:70
 msgid "Download *Python* from the official |python_download| page."
-msgstr ""
+msgstr "Ladda ner *Python* från den officiella sidan |python_download|."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:76
 msgid "Speech Engines"
@@ -146,16 +162,21 @@ msgid ""
 "dataset of diverse audio and is capable of performing speech translation, "
 "and language identification."
 msgstr ""
+"Det finns två tillgängliga talgränssnitt: *VOSK* och *Whisper*. Whisper från O"
+"penAI är en taligenkänningsmodell för allmänt bruk tränad på en stor datauppsä"
+"ttning av olika ljud och kan utföra talöversättning och språkidentifiering."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:80
 msgid ""
 "*Whisper* is slower than *VOSK* on CPU, but it is more accurate than *VOSK*. "
 "*Whisper* creates sentences with punctuation marks, even in Base mode."
 msgstr ""
+"*Whisper* är långsammare än *VOSK* på processorer, men det är mer exakt än *VO"
+"SK*. *Whisper* skapar meningar med skiljetecken, även i basläge."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:82
 msgid "You need to set up the models to be used by these engines."
-msgstr ""
+msgstr "Man måste ställa in de modeller som ska användas av gränssnitten."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:84
 msgid ""
@@ -184,6 +205,8 @@ msgstr "VOSK"
 msgid ""
 "Python is working, but VOSK is not yet usable due to missing speech models"
 msgstr ""
+"Python fungerar, men VOSK är ännu inte användbar på grund av att talmodeller s"
+"aknas"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:98
 msgid ""
@@ -194,7 +217,7 @@ msgstr ""
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:100
 msgid ""
 "By default, the language models are installed into the following folders:"
-msgstr ""
+msgstr "Normalt installeras språkmodellerna i följande kataloger:"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:102
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:215
@@ -221,12 +244,17 @@ msgid ""
 "chosen the :file:`venv` folder for Python, you can delete the previously "
 "installed VOSK libraries by using the following command in a terminal:"
 msgstr ""
+"Om man redan har installerat VOSK i en tidigare version av Kdenlive, och nu ha"
+"r valt katalogen :file:`venv` för Python, kan de tidigare installerade VOSK-bi"
+"blioteken tas bort genom att använda följande kommando i en terminal:"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:114
 msgid ""
 "Click on :guilabel:`Add Model` and enter the path to the file(s) you "
 "downloaded."
 msgstr ""
+"Klicka på :guilabel:`Lägg till modell` och ange sökvägen till filen/filerna so"
+"m laddades ner."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:122
 msgid ""
@@ -277,15 +305,15 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:157
 msgid "After that you need to download one or more speech models."
-msgstr ""
+msgstr "Därefter behöver man ladda ner en eller flera talmodeller."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:165
 msgid "Whisper is installed but no speech model has been downloaded"
-msgstr ""
+msgstr "Whisper är installerat men ingen talmodell har laddats ner"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:169
 msgid "Whisper is selected for speech recognition"
-msgstr ""
+msgstr "Whisper är valt för taligenkänning"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:171
 msgid ""
@@ -306,6 +334,9 @@ msgid ""
 "disables half precision (FP16) automatically. If you have issues with using "
 "GPU you can switch off half precision."
 msgstr ""
+"Endast för grafikprocessor. När Kdenlive upptäcker ett NVIDIA GTX 16xx-grafikk"
+"ort inaktiverar det halv precision (FP16) automatiskt. Om man har problem med "
+"att använda grafikprocessorn kan man stänga av halv precision."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:177
 msgid ""
@@ -329,7 +360,7 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:192
 msgid "Kdenlive shows the download process."
-msgstr ""
+msgstr "Kdenlive visar nerladdningsprocessen."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:194
 msgid ""
@@ -345,11 +376,11 @@ msgstr ""
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:209
 msgid "When all is configured correctly you get this screen: All green!"
-msgstr ""
+msgstr "När allt är riktigt inställt visas följande skärm: allt grönt."
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:213
 msgid "Path where Whisper is installed:"
-msgstr ""
+msgstr "Sökväg där Whisper är installerat:"
 
 #: ../../getting_started/configure_kdenlive/configuration_speech2text.rst:218
 msgid "The Whisper speech models are stored here:"
