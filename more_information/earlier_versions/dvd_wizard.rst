@@ -1,20 +1,30 @@
+.. meta::
+   :description: Kdenlive Documentation - DVD Wizard
+   :keywords: KDE, Kdenlive, documentation, user manual, configuration, DVD wizard, DVD creation, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen
              - Yuri Chornoivan
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
-             - Jessej (https://userbase.kde.org/User:Jessej)
+.. meta::
+   :description: Kdenlive Documentation - Configuration Capture Firewire
+   :keywords: KDE, Kdenlive, documentation, user manual, configuration, preferences, capture, firewire, video capture, video editor, open source, free, learn, easy
+
              - Jack (https://userbase.kde.org/User:Jack)
              - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
+
+.. attention:: This page is not maintained anymore and contains information referring to features or functions from earlier versions of Kdenlive that are deprecated or have been superseded by something else.
+
+
 .. _dvd_wizard:
 
 DVD Wizard
 ==========
-
 
 .. note:: Removed since Version 21.08
 
