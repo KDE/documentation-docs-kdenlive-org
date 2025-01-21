@@ -40,8 +40,8 @@ This section controls certain aspects of the Timeline.
 
 :9: :guilabel:`Default track height`. Determines the default height of the tracks in the timeline in pixels. The height can be adjusted anytime by dragging the line between tracks. See the chapter about :ref:`resizing_tracks` for more details.
 
-:10: :guilabel:`Raise Properties Pane when Selecting in Timeline`. Determine for :guilabel:`Clips`, :guilabel:`Transitions`, and :guilabel:`Tracks` whether selecting any of these raises the corresponding properties pane (provided their respective view has been enabled. See the chapter about :doc:`views</user_interface/menu/view_menu>` for more details).
+:10: :guilabel:`Raise Properties Pane when Selecting in Timeline`. Determine for :guilabel:`Clips`, :guilabel:`Transitions`, and :guilabel:`Tracks` whether selecting any of these raises the corresponding properties pane (provided their respective view has been enabled. See the chapter about :doc:`Views</user_interface/menu/view_menu>` for more details).
 
 :11: :guilabel:`On import enable` determines what Kdenlive shall do when an audio clip has multiple audio streams.
 
-:12: :guilabel:`Check if project contains enough tracks`. By default, Kdenlive checks whether the project an audio clip with multiple streams is added to has enough audio tracks to divide the clip into, and if needed asks if it should generate the additional audio tracks needed automatically.
+:12: :guilabel:`Check if project contains enough tracks`. By default, Kdenlive checks whether the project an audio clip with multiple streams is added to has enough audio tracks to divide the clip into, and if needed asks if it should generate the additionally required audio tracks automatically.

@@ -65,7 +65,7 @@ You will find all previous Kdenlive versions in the |attic|.
 Minimum System Requirements
 ---------------------------
 
-**Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.15 (Catalina) [1]_ or newer and on M1, 64-bit Linux. Please see the details below.
+**Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.15 (Catalina)\ [1]_ or newer and on M1, 64-bit Linux. Please see the details below.
 
 **CPU:** x86 Intel or AMD; at least one 2 GHz core for SD video, 4 cores for HD video, and 8 cores for 4K video. Please see the details below.
 
@@ -162,8 +162,7 @@ Kdenlive on macOS
 
 Kdenlive runs with Intel-based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
 
-.. .. .. versionadded:: 22.04.0
-
+.. ..versionadded:: 22.04.0
 .. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
 
 
@@ -232,7 +231,7 @@ The message that Apple can't search for malware will appear again. Just click on
 Automatically Check for Updates
 -------------------------------
 
-.. .. .. versionadded:: 24.02
+.. ..versionadded:: 24.02
 
 Kdenlive automatically checks at startup for updates based on the app version (no network connection needed)
 
@@ -240,11 +239,8 @@ Kdenlive automatically checks at startup for updates based on the app version (n
    :width: 80%
    :alt: kdenlive2402_check-for-update
 
-You can disable this function in :menuselection:`Settings --> Configure Kdenlive -->` :doc:`Environment</getting_started/configure_kdenlive/configuration_environment>` by un-checking :guilabel:`Check for updates`. 
+You can disable this function in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Environment</getting_started/configure_kdenlive/configuration_environment>` by un-checking :guilabel:`Check for updates`. 
 
-
-----
-You can disable this function in :menuselection:`Settings --> Configure Kdenlive -->` :doc:`Environment</getting_started/configure_kdenlive/configuration_environment>` by un-checking :guilabel:`Check for updates`. 
 
 
 ----

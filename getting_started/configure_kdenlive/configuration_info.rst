@@ -18,7 +18,7 @@ Kdenlive's application-wide persistent settings are stored in the following loca
 .. list-table::
    :header-rows: 1
    :width: 100%
-   :widths: 35 35 30
+   :widths: 33 32 35
    :class: table-wrap
 
    * - File / Folder

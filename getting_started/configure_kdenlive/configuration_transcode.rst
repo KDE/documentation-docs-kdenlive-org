@@ -10,6 +10,11 @@
    :license: Creative Commons License SA 4.0
 
 
+.. |ffmpeg| raw:: html
+
+   <a href="https://ffmpeg.org" target="_blank">ffmpeg</a>
+
+
 Transcode
 ---------
 
@@ -24,13 +29,13 @@ This controls the :ref:`transcode` functionality. The parameters section are ffm
 
 :1: List of all available transcoding profiles
 
-:2: :guilabel:`Description` - short description of the selected profile.
+:2: :guilabel:`Description` shows the short description of the selected profile.
 
-:3: :guilabel:`Audio only` - indicates if this is an audio-only transcoding profile.
+:3: :guilabel:`Audio only` indicates if this is an audio-only transcoding profile.
 
-:4: :guilabel:`Extension` - the file type / extension used for the transcoded video file.
+:4: :guilabel:`Extension` shows the file type / extension used for the transcoded video file.
 
-:5: List of ffmpeg parameters used in the selected profile. You can change and add parameters here.
+:5: :guilabel:`Parameters` lists the |ffmpeg| parameters used in the selected profile. You can change and add parameters here.
 
 :6: :guilabel:`Add profile` - create a new transcoding profile. :guilabel:`Update Profile` - to save changes made for the selected profile (see **5**). :guilabel:`Delete Profile` - deletes the selected profile.
 

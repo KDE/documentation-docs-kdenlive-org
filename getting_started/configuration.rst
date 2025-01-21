@@ -44,7 +44,7 @@ The configuration settings are divided into the following sections:
    * - :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>`
      - This section contains settings for the general behavior of Kdenlive, how to handle clip import and effects, and the default duration for the various clip types.
    * - :doc:`Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>`
-     - Kdenlive uses these settings for creating a new project (see Menu > File > New, or when Kdenlive starts and the option for opening the last project is not checked). To change the parameters for a currently open project, use the Project Settings. Please note that while changing parameter for the open project is possible, it is not recommended as it may break things like keyframes and cuts.
+     - Kdenlive uses these settings for creating a new project (see :menuselection:`Menu --> File --> New`, or when Kdenlive starts and the option for opening the last project is not checked). To change the parameters for a currently open project, use the Project Settings. Please note that while changing parameter for the open project is possible, it is not recommended as it may break things like keyframes and cuts.
    * - :doc:`Proxy Clips</getting_started/configure_kdenlive/configuration_proxy_clips>`
      - This section contains settings pertaining to enabling and managing proxy clip generation.
    * - :doc:`Timeline</getting_started/configure_kdenlive/configuration_timeline>`
