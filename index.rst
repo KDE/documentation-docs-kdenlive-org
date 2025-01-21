@@ -60,7 +60,7 @@ User Interface
 
     .. container:: tile
 
-       :doc:`Project_Settings</project_and_asset_management/project_settings>`
+       :doc:`Project Settings</project_and_asset_management/project_settings>`
           Setting the correct project values
 
     .. container:: tile
