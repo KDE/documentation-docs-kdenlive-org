@@ -301,6 +301,18 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |input-mouse-click-left| image:: /images/icons/input-mouse-click-left.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |input-mouse-click-right| image:: /images/icons/input-mouse-click-right.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |input-mouse-click-middle| image:: /images/icons/input-mouse-click-middle.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |insert-image| image:: /images/icons/insert-image.svg
    :width: 22px
    :class: no-scaled-link
