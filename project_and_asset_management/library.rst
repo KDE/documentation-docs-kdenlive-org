@@ -84,7 +84,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
       Library with the newly created item
 
-   You can even **neatly organize** your library items **into folders**, and sub-folders. This is similar to what you know from Kdenlive's :doc:`(project) bin</project_and_asset_management/project_bin>`, where you also can use :doc:`folders</project_and_asset_management/project_bin/project_bin_use_folders>` to organize your project (source) clips.
+   You can even **neatly organize** your library items **into folders** and sub-folders. This is similar to what you know from Kdenlive's :doc:`(project) bin</project_and_asset_management/project_bin>`, where you also can use :doc:`folders</project_and_asset_management/project_bin/project_bin_use_folders>` to organize your project (source) clips.
 
    Use the |folder-new|\ :guilabel:`Add Folder` button at the bottom of the library to create a new folder. You can rearrange library items and folders at any time by simple dragging them into their new place.\ [1]_
 
@@ -120,7 +120,7 @@ Copy Library Item into (New) Project
 
    Your project bin now contains the new library item you have just added.
 
-   You can rename library items at any time: :kbd:`RMB`, then :guilabel:`Rename Library Clip`.\ [2]_
+   You can rename library items at any time: |input-mouse-click-right|, then :guilabel:`Rename Library Clip`.\ [2]_
 
 .. rst-class:: clear-both
 

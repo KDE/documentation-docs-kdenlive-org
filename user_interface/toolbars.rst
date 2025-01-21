@@ -1,5 +1,5 @@
 .. meta::
-   :description: Kdenlive's User Interface - Toolbars
+   :description: Kdenlive Documentation - User Interface Toolbars
    :keywords: KDE, Kdenlive, use, using, toolbars, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -105,17 +105,15 @@ The tools and actions/commands that are available in the toolbars are defined in
 .. image:: /images/kdenlive_configure_toolbars.webp
    :alt: Configure Toolbars Dialogue Window
 
-1 - Select which toolbar you want to configure
+:1: Select which toolbar you want to configure
 
-2 - List of available actions/commands/tools. You can search for them in the 'filter' field. Select the item you want to add to the toolbar and click on the right-arrow in (4)
+:2: List of available actions/commands/tools. You can search for them in the :guilabel:`Filter` field. Select the item you want to add to the toolbar and click on the right-arrow in (**4**)
 
-3 - List of actions/commands/tools already available in the selected toolbar. You can search for items in the 'filter' field. Select the item you want to process and click on an arrow in (4). Arrows up and down move the selected item up or down in the list. Arrow left deletes it from the list.
+:3: List of actions/commands/tools already available in the selected toolbar. You can search for items in the ':guilabel:`Filter` field. Select the item you want to process and click on an arrow in (**4**). Arrows up and down move the selected item up or down in the list. Arrow left deletes it from the list.
 
-4 - Arrows to move items around in the list (up or down) and into or out of the lists (left or right).
+:4: Arrows to move items around in the list (up or down) and into or out of the lists (left or right).
 
-.. tip::
-
-   If you are running out of screen space because you have many tracks it is a good idea to move commands or actions from the menu to the Extra or Timeline Toolbar, and also from the Status Bar to the Timeline Toolbar. Then switch off the menu bar in :menuselection:`Settings --> Show Menubar` or with :kbd:`Ctrl+M` and the Status Bar in :menuselection:`Settings --> Show Statusbar`. Please note that with the Status Bar off you will not get any keybinding information.
+.. tip:: If you are running out of screen space because you have many tracks it is a good idea to move commands or actions from the menu to the Extra or Timeline Toolbar, and also from the Status Bar to the Timeline Toolbar. Then switch off the menu bar in :menuselection:`Menu --> Settings --> Show Menubar` or with :kbd:`Ctrl+M` and the Status Bar in :menuselection:`Menu --> Settings --> Show Statusbar`. Please note that with the Status Bar off you will not get any keybinding information.
 
 
 

@@ -18,7 +18,7 @@ You can display and edit clip properties by selecting a clip in the :doc:`Projec
 
 Clip Properties are displayed in their own widget. You enable it from the :menuselection:`Menu --> View --> Clip Properties`. If it is not enabled when selecting :guilabel:`Clip Properties` as described above, Kdenlive will automatically enable it. By default, the widget is part of the same workspace dock as the project bin. As with any other widget, you can move it around within the same dock or put it to another or even into its own dock. See the chapter about :doc:`Workspace Layout</user_interface/workspace_layouts>`.
 
-The Clip Properties widget has several tabs:
+The Clip Properties widget has several tabs\ [1]_:
 
 * |edit-find|\ :guilabel:`File Info` - displays general `file info`_
 * |document-edit|\ :guilabel:`Properties` - allows editing some `properties`_
@@ -102,7 +102,7 @@ Audio Properties
 
    The Audio properties tab
 
-Choose which audio channel\ [1]_ should be enabled or disabled.
+Choose which audio channel\ [2]_ should be enabled or disabled.
 
 Rename with double click.
 
@@ -141,17 +141,15 @@ Adjusting the :guilabel:`Audio sync` in increments of one millisecond (1 ms) app
    .. rst-class:: clear-both
 
 
-----
-
 .. rubric:: Notes
 
 .. .. versionchanged:: 22.12
 
 The **Marker** tab has been removed. Clip markers are shown in their own widget **Guides**. You enable it in :menuselection:`Menu --> View --> Guides`. More details see :ref:`markers`.
 
-The **Metadata** tab does not display anything at the moment.
-
 
 ----
 
-.. [1] There is a difference between audio streams and audio channels. Kdenlive does display the different audio streams with a list. Consumer video camera mostly have only 1 audio stream with i.e. 6 channels, like 5.1 audio. Kdenlive does not allow manipulation of the audio channels,
+.. [1] The **Metadata** and **Analysis** tabs do not display anything at the moment.
+
+.. [2] There is a difference between audio streams and audio channels. Kdenlive does display the different audio streams with a list. Consumer video camera mostly have only 1 audio stream with i.e. 6 channels, like 5.1 audio. Kdenlive does not allow manipulation of the audio channels.

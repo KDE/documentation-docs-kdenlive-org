@@ -1,5 +1,5 @@
 .. meta::
-   :description: Kdenlive's User Interface - Clip Monitor
+   :description: Kdenlive Documentation - Clip Monitor
    :keywords: KDE, Kdenlive, clip, project, monitor, clip monitor, overlay, resizing, zoombar, preview, toolbar, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
@@ -27,17 +27,17 @@ Clip Monitor
 
 The Clip Monitor displays the unedited\ [#f1]_ clip that is currently selected in the :doc:`Project Bin </project_and_asset_management/project_bin>`. It has the same functions and options as the :ref:`ui-monitors_project_monitor` except for the |kdenlive-add-clip| icon which adds the clip zone to the Project Bin where it will appear as child clip underneath the clip. See :ref:`ui-monitors_cm_clip_zone` for more details.
 
-|  1 Video Stream indicator
-|  2 Audio Stream indicator
-|  3 Clip Zone indicator
-|  4 List of last opened clips 
+|  **1** Video Stream indicator
+|  **2** Audio Stream indicator
+|  **3** Clip Zone indicator
+|  **4** List of last opened clips 
 
 .. .. .. versionadded:: 24.02
   Item 4 added
 
 .. rst-class:: clear-both
 
-Number 4: Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor.
+Number **4**: Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor.
 
 For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual.
 
@@ -103,7 +103,7 @@ Right-Click Menu
 
 These are the menu items that are available when you right-click in the Clip Monitor. These actions affect the clip that is currently selected in the :doc:`project bin</project_and_asset_management/project_bin>`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu items affect the currently selected clip on the :ref:`timeline`.
 
-.. rst-class:: clear-both
+.. rst-class:: clear-bothMouse whee
 
 |
 
@@ -303,7 +303,6 @@ Move with the mouse to the lower left-hand corner of the clip monitor to access 
 This is very useful if you only need one of the streams as it avoids the un-grouping and subsequent deletion of one of the streams of the clip in the timeline.
 
 
-
-**Notes**
+----
 
 .. [#f1] "Unedited" means without any cuts. Please note that clips in the Project Bin can have effects and hence people may consider them "edited".

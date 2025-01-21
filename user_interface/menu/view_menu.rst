@@ -69,7 +69,9 @@ Use the navigation on the left to go to the various menu items
 Find Action
 -----------
 
-This is a new feature since version 22.04. It allows you to search for any command or action available. Simply enter the search and then select the command or action you want to execute. Kdenlive uses fuzzy search or look-ahead search, so that every character you type changes the search result on the fly.
+.. .. versionadded:: 22.04
+
+This feature allows you to search for any command or action available. Simply enter the search and then select the command or action you want to execute. Kdenlive uses fuzzy search or look-ahead search, so that every character you type changes the search result on the fly.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_find_action.webp
    :align: left
@@ -94,7 +96,7 @@ This function lets you switch to a previously saved custom workspace layout. Mor
   
   Loading a workspace layout
 
-Once you load a saved layout that layout will remain the current one when starting Kdenlive until you switch to another saved layout or modify the current one.  If you do make changes to a custom layout after loading it and then quit Kdenlive, you will not be prompted to save your changes to the named layout.  The changes will be remembered and applied the next time you launch Kdenlive, but be aware that you are now working with an unnamed layout.  If you like the layout and want to preserve it, save it back to the original name or save it as a new name.
+Once you load a saved layout, that layout will remain the current one when starting Kdenlive until you switch to another saved layout or modify the current one. If you do make changes to a custom layout after loading it and then quit Kdenlive, you will not be prompted to save your changes to the named layout.  The changes will be remembered and applied the next time you launch Kdenlive, but be aware that you are now working with an unnamed layout. If you like the layout and want to preserve it, save it back to the original name or save it as a new name.
 
 .. rst-class:: clear-both	 
 
@@ -257,7 +259,7 @@ Switches the Compositions :term:`widget` on or off.
    
    Kdenlive Compositions widget
    
-The Compositions :term:`widget` lists all compositions available in Kdenlive.
+The Compositions :term:`widget` lists all compositions available in Kdenlive. See the chapter about :doc:`Compositions</compositing/compositions>` for more details and a list of available Compositions.
 
 You can drag a composition from the list and drop it on a clip in the Timeline.
 
@@ -271,7 +273,7 @@ Effects/Composition Stack
 
 Switches the Effects/Composition Stack on or off.
 
-The Effects/Composition Stack shows all effects applied to a clip or a track. This is where you make changes to the effect settings. See the :ref:`Effects/Composition Stack <effects_and_filters>` section of this documentation for more details.
+The Effects/Composition Stack shows all effects applied to a clip or a track. This is where you make changes to the effect settings. See the :ref:`Effects and Filters <effects_and_filters>` section of this documentation for more details.
 
 
 .. _view-effects:
@@ -329,9 +331,7 @@ For more information read the Tips & Tricks chapter about :doc:`/tips_and_tricks
 
 See also the :doc:`/effects_and_filters/video_effects/utility/histogram` video effect.
 
-.. attention::
-
-   :ref:`issue-scopes`
+.. attention:: Versions before 21.12.2 had an issue in Windows where scopes did not show anything. For more details and a workaround please refer to the :ref:`Windows issues<issue-scopes>` section.
 
 
 .. _view-library:
@@ -386,9 +386,9 @@ Switches the Online Resources :term:`widget` on or off.
    
    Kdenlive Online Resources widget
 
-The Online Resources :term:`widget` allow you to include assets from various online media providers like Pixabay or Pexels in your project.
+The Online Resources :term:`widget` allows you to include assets from various online media providers like Pixabay or Pexels in your project.
 
-.. BMJ: needs to be included one the section in "Project and File management" is done: Please refer to the :ref:`Online Resources <online_resources>` section of this documentation.
+See also the :doc:`Online Resources</project_and_asset_management/project_bin/online_resources>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -477,6 +477,8 @@ Switches the Screen Grab :term:`widget` on or off.
 
 .. note:: This function has issues and should not be used. It has not been maintained for a while. There are other tools and applications for screen recording or grabbing available, hence this function will most likely be deprecated.
 
+You can configure the ScreenGrab function in :menuselection:`Menu --> Settings --> Configure Kdenlive -->`\ :doc:`/getting_started/configure_kdenlive/configuration_capture`.
+
 
 .. _view-speech_editor:
 
@@ -561,7 +563,7 @@ The Undo History shows all the operations performed so far and allows to quickly
    
    Kdenlive Undo History widget
 
-There may be times when you want to quickly restore your project to the state it was in several changes ago. Instead of repeatedly executing single undo operations, it might be more efficient to jump right to the operation in question – if you could easily locate it.
+There may be times when you want to quickly restore your project to the state it was in several changes ago. Instead of repeatedly executing single undo operations, it might be more efficient to jump right to the operation in question - if you could easily locate it.
 
 .. rst-class:: clear-both
 
@@ -574,7 +576,7 @@ There may be times when you want to quickly restore your project to the state it
 
       Figure 1
 
-   That is where :menuselection:`View --> Undo History` comes in. It opens a dockable window which lists all the changes made to your project in the order they were made. When a project file is first opened the window looks like Figure 1.
+   That is where :menuselection:`Menu --> View --> Undo History` comes in. It opens a dockable window which lists all the changes made to your project in the order they were made. When a project file is first opened the window looks like Figure 1.
 
 
 .. container:: clear-both
@@ -666,6 +668,6 @@ Switches the Waveform :term:`widget` on or off.
 
 Contrary to what its name might suggest the Waveform :term:`widget` is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the `RGB Parade`_. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel :term:`luma` from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this :term:`luma` in this column of pixels in the video frame.
 
-More details are available in the Tip & Tricks chapter about the :doc:`Waveform </tips_and_tricks/scopes/waveform_and_rgb_parade>` in the section about :doc:`/tips_and_tricks/scopes/index`.
+More details are available in the :doc:`Tips & Tricks</tips_and_tricks/index>` chapter about the :doc:`Waveform </tips_and_tricks/scopes/waveform_and_rgb_parade>` in the section about :doc:`/tips_and_tricks/scopes/index`.
 
 See also the :doc:`/effects_and_filters/video_effects/utility/video_waveform_monitor` video effect.

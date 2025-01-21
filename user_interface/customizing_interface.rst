@@ -56,7 +56,7 @@ Note that you can still have widgets in rows within one column, and in columns w
 Adding Widgets
 --------------
 
-You can add :term:`widgets<widget>` (e.g. :ref:`view-library`, :ref:`view-project_notes`) by enabling them in the :menuselection:`Menu --> View Menu`. Likewise, disable them by taking off the check mark right next to their entry in the menu.
+You can add :term:`widgets<widget>` (e.g. :ref:`view-library`, :ref:`view-project_notes`) by enabling them in :menuselection:`Menu --> View`. Likewise, disable them by taking off the check mark right next to their entry in the menu.
 
 
 .. _ui-moving_widgets:
@@ -79,6 +79,7 @@ The Kdenlive layout reacts to your dragging of the widget and you need to pay cl
 
 .. list-table::
    :header-rows: 1
+   :class: table-wrap
 
    * - Reaction
      - Result when let go

@@ -153,7 +153,7 @@ This function creates an animation clip in the Project Bin and calls |glaxnimate
    
    Creating an animation
 
-Glaxnimate has to be installed on your computer and the path to it must be set in :menuselection:`Settings --> Configure Kdenlive --> Environment --> Default Apps`.
+Glaxnimate has to be installed on your computer and the path to it must be set in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --> Default Apps`.
 
 This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
@@ -194,8 +194,7 @@ This function is also available from the menu bar of the Project Bin and by righ
 
 More details are available in the :doc:`Create Folder</project_and_asset_management/project_bin/project_bin_use_folders>` section of this documentation.
 
-.. tip::
-   A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
+.. tip:: A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
 
 
 .. _generators:
@@ -203,13 +202,13 @@ More details are available in the :doc:`Create Folder</project_and_asset_managem
 Generators
 ----------
 
-This function allows to create generated clips in your Project Bin for
+This function allows to create :doc:`generated clips</project_and_asset_management/project_bin/generators>` in your Project Bin for
 
 * Counter
 * Color Bars (old TV test display)
 * White Noise
 
-This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin. See the :doc:`clips</project_and_asset_management/project_bin/clips>` section in this documentation for more details.
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin. See the :doc:`Clips</project_and_asset_management/project_bin/clips>` section in this documentation for more details.
 
 
 Subtitles
@@ -254,7 +253,7 @@ This function can be used to remove any unused clips from the Project Bin.
    
    Clean up the project
 
-You can undo this action with :menuselection:`Edit --> Undo`, through the :ref:`undo_history` or with the default keyboard shortcut :kbd:`Ctrl+Z`.
+You can undo this action with :menuselection:`Menu --> Edit --> Undo`, through the :ref:`undo_history` or with the default keyboard shortcut :kbd:`Ctrl+Z`.
 
 .. rst-class:: clear-both
 
@@ -331,10 +330,8 @@ This function opens the Project Settings dialog where you can set all basic prop
    
    Project Settings window
    
-More details about the various parameters and tabs are available in the :doc:`project_settings</project_and_asset_management/project_settings/general_settings>` section of the documentation.
+More details about the various parameters and tabs are available in the :doc:`Project Settings</project_and_asset_management/project_settings/general_settings>` section of the documentation.
 
-.. attention::
-   Certain things cannot be changed once assets have been added to the project or put on the timeline. Changing certain properties of the project may lead to unwanted results. It is highly recommended to create a copy of the project file before changing project settings.
+.. attention:: Certain things cannot be changed once assets have been added to the project or put on the timeline. Changing certain properties of the project may lead to unwanted results. It is highly recommended to create a copy of the project file before changing project settings.
 
-.. note::
-   Changing the project folder location does not work properly. In most cases the files are not moved.
+.. note:: Changing the project folder location does not work properly. In most cases the files are not moved.

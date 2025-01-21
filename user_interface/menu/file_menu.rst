@@ -137,9 +137,3 @@ Quit
 Exits **Kdenlive**.
 
 Prompts you to save any unsaved changes. The default keyboard shortcut is :kbd:`Ctrl+Q`.
-
-.. toctree::
-   :hidden:
-   :glob:
-
-   file_menu/*

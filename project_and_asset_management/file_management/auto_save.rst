@@ -17,6 +17,8 @@ Auto Save
 
 Autosaves are generated three seconds after the user performs an action that cannot be undone, **BUT** only if no another action is performed within these three seconds.
 
+You can switch it on or off in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>`
+
 Autosaves are offered the first time after you open the project again in case the autosave is newer than the last saved project version.
 
 Autosaves are stored in stale files, not in normal :file:`.kdenlive` files.

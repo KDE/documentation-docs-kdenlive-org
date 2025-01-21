@@ -1,5 +1,5 @@
 .. meta::
-   :description: Menu reference in Kdenlive video editor
+   :description: Kdenlive Documentation - Menu Reference
    :keywords: KDE, Kdenlive, menu, reference, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -19,7 +19,7 @@
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Eugen Mohr
-             - Bernd Jordan
+             - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
@@ -65,4 +65,4 @@ This section explains the nine menus in the main menu bar. These are:
 * :ref:`settings_menu`
 
 
-.. tip:: In order to optimize screen space you can turn off the menu bar in :menuselection:`Settings --> Show Menubar` or by hitting :kbd:`Ctrl+M`. This will add a hamburger menu (|application-menu|) to the main toolbar containing the menus.
+.. tip:: In order to optimize screen space you can turn off the menu bar in :menuselection:`Menu --> Settings --> Show Menubar` or by hitting :kbd:`Ctrl+M`. This will add a hamburger menu (|application-menu|) to the main toolbar containing the menus.

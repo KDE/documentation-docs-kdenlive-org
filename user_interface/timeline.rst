@@ -214,9 +214,9 @@ Toggle between sequence tabs
 
 With following keyboard shortcuts you can toggle between sequence tabs:
 
-Go to next sequence :kbd:`Ctrl+tab`
+Go to next sequence :kbd:`Ctrl+Tab`
 
-Go to previous sequence :kbd:`Ctrl+shift+tab`
+Go to previous sequence :kbd:`Ctrl+Shift+Tab`
 
 
 .. _timeline_ruler:

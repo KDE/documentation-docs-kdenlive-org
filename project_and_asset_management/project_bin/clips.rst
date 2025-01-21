@@ -68,7 +68,7 @@ In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or
    * - **6**
      - Use the slider or the :guilabel:`Zoom In` and :guilabel:`Zoom Out` buttons to increase or decrease the icon size 
    * - **7**
-     - |folder-new|\ :guilabel:`New folder` opens the new folder dialog window (default keyboard shortcut :kbd:`Ctrl+shift+N`)
+     - |folder-new|\ :guilabel:`New folder` opens the new folder dialog window (default keyboard shortcut :kbd:`Ctrl+Shift+N`)
    * - **8**
      - |configure|\ :guilabel:`Options` opens a context list menu to specify what to show
    * - **9**

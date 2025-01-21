@@ -1,5 +1,5 @@
 .. meta::
-   :description: Edit menu in Kdenlive video editor
+   :description: Kdenlive Documentation - Edit Menu
    :keywords: KDE, Kdenlive, edit, menu, undo, redo, copy, paste, effect, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -34,14 +34,14 @@ Edit Menu
 Undo
 ----
 
-:menuselection:`Edit --> Undo` is used to reverse the last change you made or operation you performed in Kdenlive.  If you have made multiple changes to your project, **Undo** can be used repeatedly to rollback each of the changes in the reverse order they were performed. **Undo** can also be executed from the icon on the **Extra Toolbar** (:menuselection:`Settings --> Toolbars Shown`) or by using the default keyboard shortcut :kbd:`Ctrl+Z`.
+:menuselection:`Edit --> Undo` is used to reverse the last change you made or operation you performed in Kdenlive.  If you have made multiple changes to your project, **Undo** can be used repeatedly to rollback each of the changes in the reverse order they were performed. **Undo** can also be executed from the icon on the **Extra Toolbar** (:menuselection:`Menu --> Settings --> Toolbars Shown`) or by using the default keyboard shortcut :kbd:`Ctrl+Z`.
 
 To view a navigable list of all the changes which can be undone, see :ref:`Undo_History`.
 
 Redo
 ----
 
-:menuselection:`Edit --> Redo` reverses the previous `Undo`_ operation. The default keyboard shortcut is :kbd:`Ctrl+Shift+Z`.
+:menuselection:`Menu --> Edit --> Redo` reverses the previous `Undo`_ operation. The default keyboard shortcut is :kbd:`Ctrl+Shift+Z`.
 
 Copy
 ----

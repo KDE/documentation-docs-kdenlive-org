@@ -120,7 +120,7 @@ Opens a flyout to select different options:
 
 * `Stabilize`_
 
-* `Duplicate Clip with Speed Change`_
+* `Duplicate Clip with Speed Change`_ [1]_
 
 * My Clip Job (this may look different in your environment)
 
@@ -261,26 +261,32 @@ Here are examples of the effect of running stabilize - transcoded by the origina
 Duplicate Clip with Speed Change
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This function is only available for clips selected in the Project Bin, and can be selected from the right-click menu of a clip.
+This function is only available for clips selected in the Project Bin, and can be selected from the right-click menu of a clip. [1]_
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_job-duplicate_speed_change.webp
+   :width: 350px
+   :figwidth: 350px
    :align: left
    :alt: kdenlive2304_clip_job-duplicate_speed_change
    
    Duplicate Clip with Speed Change
 
-This feature used to be *Reverse Clip* and was first available in version 0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse the clip by entering a speed of minus 100%. Values above 100% speed the clip up, values below 100% slow it down. With the new version of the clip job the sound in the clip is also reversed.
+Values above 100% speed the clip up, values below 100% slow it down. The sound in the clip is also reversed.
 
 Select :guilabel:`Pitch compensation` to avoid the Mickey Mouse effect in speech when speeding up the clip.
 If you check :guilabel:`Add clip to "Speed Change" folder` a folder named "Speed Change" is created in the Project Bin and the clip added to it.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_job-clip_added.webp
+   :width: 350px
+   :figwidth: 350px
    :align: left
    :alt: kdenlive2304_clip_job-clip_added
    
    Duplicate Clip with speed change in Project Bin   
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_job-clip_added_folder.webp
+   :width: 350px
+   :figwidth: 350px
    :align: left
    :alt: kdenlive2304_clip_job-clip_added
    
@@ -309,15 +315,15 @@ Configure Clip Jobs
    
    Manage Bin Clip Jobs dialog
    
-This opens the Manage Bin Clip Jobs dialog. Here you can create and manage your own jobs that can then be applied to clips in the Project Bin. Select the executable you want to be called and enter the arguments to be passed to the executable. ''%1'' will be replaced by the path of the source clip. If you do not specify an output file extension the extension of the source file will be used.
+This opens the **Manage Bin Clip Jobs** dialog. Here you can create and manage your own jobs that can then be applied to clips in the Project Bin. Select the executable you want to be called and enter the arguments to be passed to the executable. ``%1`` will be replaced by the path of the source clip. If you do not specify an output file extension the extension of the source file will be used.
 
 Unless you want the original clip to be replaced with the result, select whether the resulting clip is :guilabel:`Placed in the original clip folder`, :guilabel:`Placed at the top level`, or Kdenlive shall :guilabel:`Use a subfolder` to save it. In the latter case you need to enter a folder name.
 
+.. rst-class:: clear-both
+
 You can have the source clip path {source} as well as 2 configurable parameters {param1} and {param2}. The output file will replace the {output}. The arguments should be: {source} {param1} {output}
 
-Click on the :guilabel:`+` to create a new custom clip job. In order to delete one select it first then click on the trashcan icon.
-
-.. rst-class:: clear-both
+Click on |list-add| to create a new custom clip job. In order to delete one, select it first then click on |edit-delete|.
 
 
 .. _transcode_to_edit_friendly_format:
@@ -345,6 +351,7 @@ There are several formats available, some are lossless (producing huge files), s
 
 Transcode
 ---------
+
 .. |ffmpeg| raw:: html
 
    <a href="http://www.ffmpeg.org" target="_blank">ffmpeg</a>
@@ -464,7 +471,7 @@ In the example we have clicked on the third video entry which is located on vide
 
 This option will be greyed out if the clip is not being used in the Timeline.
 
-See also :guilabel:`Clip in Project Bin` available in the :ref:`right_click_menu` on a clip in the Timeline.
+See also :guilabel:`Clip in Project Bin` available in the :ref:`right-click menu <right_click_menu>` on a clip in the Timeline.
 
 
 .. _clip_menu-clip_properties:
@@ -492,13 +499,16 @@ For more details see the chapter :doc:`Clip Properties</project_and_asset_manage
 Edit Clip
 ---------
 
+.. .. versionadded:: 22.08
+   animation
+
 This function is available for the following clip types:
 
 - audio
 
 - image
 
-- animation (*new in version 22.08*) 
+- animation
 
 It opens the clip in an external software specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Apps <configure_environment_default_apps>` ready for editing.
 
@@ -511,9 +521,9 @@ If the path is not set a pop-up window appears to define the path to the externa
    
    Missing path for Glaxnimate
 
-Once the path is set the application starts and opens the clip you had selected. The entered path gets added automatically to the default apps in :menuselection:`Settings --> Configure Kdenlive`.
+Once the path is set, the application starts and opens the clip you had selected. The entered path gets added automatically to the default apps in :menuselection:`Menu --> Settings --> Configure Kdenlive`.
 
-More details for installing the needed external software and how to set the path: see :ref:`configure_environment_default_apps`.
+More details for installing the needed external software and how to set the path refer to the :ref:`configure_environment_default_apps` chapter.
 
 .. hint:: The option is greyed out for video clips because **Kdenlive** is the video editor - only audio, image and animation clips are edited by external software.
 
@@ -537,3 +547,7 @@ This function removes the clip from the Project Bin. It does not delete it from 
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
+
+----
+
+.. [1] This feature used to be *Reverse Clip* and was first available in version 0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse the clip by entering a speed of minus 100%. 

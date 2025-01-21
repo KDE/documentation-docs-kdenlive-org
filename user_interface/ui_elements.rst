@@ -1,5 +1,5 @@
 .. meta::
-   :description: Kdenlive's User Interface - UI Elements, Icons and Buttons
+   :description: Kdenlive Documentation - UI Elements, Icons and Buttons
    :keywords: KDE, Kdenlive, user interface, documentation, user manual, video editor, open source, free, learn, easy, user interface, ui elements, controls, icons, buttons
 
 .. metadata-placeholders
@@ -44,11 +44,11 @@ Controls
    * - 6 :guilabel:`spinner`
      - Used to increase or decrease a value one step at a time
    * - 7 :guilabel:`direct entry`
-     - Used to enter a specific value. In most cases it is possible to use the :kbd:`Mouse wheel` to increase or decrease the value.
+     - Used to enter a specific value. In most cases it is possible to use the :kbd:`Mouse wheel` to increase or decrease the value. Hold :kbd:`Shift` to increase by one (1), :kbd:`Ctrl` to increase by 10.
    * - 8 :guilabel:`button`
      - Used to enable a certain state while it is pushed in. Click again to make it come out.
    * - 9 :guilabel:`slider`
-     - Allows for rapid changes of values. Drag the mouse left or right to move the slider. The value in an adjacent :guilabel:`direct entry` field is changed accordingly.
+     - Allows for rapid changes of values. Drag the mouse left or right to move the slider. The value in an adjacent :guilabel:`direct entry` field is changed accordingly. Hold :kbd:`Shift` to increase by one (1), :kbd:`Ctrl` to increase by 10.
    * - 10 :guilabel:`action button`
      - Used to change a value in defined steps. Every click changes the value, wrapping at the end of the scale may occur.
    * - 11 :guilabel:`action icon`
@@ -82,7 +82,7 @@ Controls
    * - 5 :guilabel:`timeline zone`
      - Indicates the timeline zone set with :kbd:`I` and :kbd:`O` or by clicking |zone-in| and |zone-out|, respectively
    * - 6 :guilabel:`zoom bar`
-     - Used to zoom the timeline. Grab the white handles on either end and drag them left or right, or use :kbd:`Ctrl+Mouse wheel` while hovering over the monitor timeline.
+     - Used to zoom the timeline. Grab the white handles on either end and drag them left or right, or use :kbd:`Ctrl+MW` while hovering over the monitor timeline.
    * - 7 :guilabel:`audio level meter`
      - Displays the audio level of the project or clip when playback is running
    * - 8 :guilabel:`options drop-down`

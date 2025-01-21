@@ -1,5 +1,5 @@
 .. meta::
-   :description: Kdenlive's User Interface - Clip and Project Monitor
+   :description: Kdenlive Documentation - Monitors
    :keywords: KDE, Kdenlive, clip, project, monitor, overlay, resizing, zoombar, preview, toolbar, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
@@ -146,9 +146,9 @@ Once such an effect is applied either to a clip in the project bin, a clip in th
    * - |keyframe-record|
      - Add automatic keyframe
 
-Grab the handles to change the size of the clip. Holding :kbd:`Shift` to keep the aspect ratio, holding :kbd:`Ctrl` resizes in all directions equally (essentially keeping the center position in place).
+Grab the handles to change the size of the clip. Holding :kbd:`Shift` maintains the aspect ratio, holding :kbd:`Ctrl` resizes in all directions equally (essentially keeping the center position in place).
 
-In the Project Monitor you can cycle trough resized clips with :kbd:`Alt+LMB`
+In the Project Monitor you can cycle trough resized clips with :kbd:`Alt+LMB`\ [1]_
 
 .. note:: Once such an effect is applied, the monitor overlay selection panel does not have the |list-add|\ :guilabel:`Add Guide/Marker` and |list-remove|\ :guilabel:`Remove Guide/Marker` icons anymore. To show them again disable the effects by clicking on the |view-visible|\ :guilabel:`Effects enabled` icon in the :ref:`Effect/Composition Stack header <effect_stack_functions>`. To enable direct control again, click on the |view-hidden|\ :guilabel:`Effects Disabled` icon.
 
@@ -228,7 +228,7 @@ Monitor Zoom Bar
 
    Monitor zoom bar (audio file example)
 
-The timeline rulers of the monitors have zoom bars. To activate, hover over the timeline ruler and use :kbd:`Ctrl+Mouse wheel`. A zoom bar will appear with a scrollbar that has handles on the left and the right. At the same time, the timeline ruler scaling marks will change according to the zoom factor. This is helpful when trying to make frame-accurate cuts or setting :term:`zones<zone>`.
+The timeline rulers of the monitors have zoom bars. To activate, hover over the timeline ruler and use :kbd:`Ctrl+MW`\ [2]_. A zoom bar will appear with a scrollbar that has handles on the left and the right. At the same time, the timeline ruler scaling marks will change according to the zoom factor. This is helpful when trying to make frame-accurate cuts or setting :term:`zones<zone>`.
 
 .. rst-class:: clear-both
 
@@ -288,3 +288,9 @@ If you want to have the :ref:`Clip <ui-monitors_clip_monitor>` and/or the :ref:`
 To put the monitors back into the tabbed view click on the monitor's title bar (enable it via :menuselection:`Menu --> View --> Show Title Bars`) and drag the window on top of another widget. See the :ref:`ui-customizing_interface` chapter for more details.
 
 .. note:: There is a small risk that the monitor widget has no title bar (intermittent defect). In this case you will need to reset the Kdenlive settings by deleting :file:`~/.config/kdenliverc` (Linux) or :file:`C:\\Users\\<user_name>\\AppData\\Roaming\\kdenlive\\kdenlivestaterc` (Windows).
+
+
+----
+
+.. [1] LMB = Left mouse button
+.. [2] MW = Mouse wheel

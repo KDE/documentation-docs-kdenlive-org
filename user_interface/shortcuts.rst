@@ -1,5 +1,5 @@
 .. meta::
-   :description: Kdenlive's User Interface - Default Keyboard Shortcuts
+   :description: Kdenlive Documentation - Default Keyboard Shortcuts
    :keywords: KDE, Kdenlive, shortcuts, set, documentation, user manual, video editor, open source, free, learn, easy, user interface, keyboard, shortcuts
 
 .. metadata-placeholder
@@ -150,7 +150,7 @@ General
      - Works in Timeline only
    * - Zoom In
      - | :kbd:`Ctrl+=` or
-       | :kbd:`Ctrl+Mouse wheel`
+       | :kbd:`Ctrl+MW`\ [1]_
      - Works in:
 
        - :term:`Timeline`
@@ -162,7 +162,7 @@ General
      - :kbd:`Ctrl+-`
      - Works in Timeline only
    * - Zoom Out
-     - :kbd:`Ctrl+Mouse wheel`
+     - :kbd:`Ctrl+MW`\ [1]_
      - Works in:
 
        - Timeline
@@ -171,7 +171,7 @@ General
        - Project Bin
        - Effects keyframe panel
    * - Increment, Decrement
-     - :kbd:`Mouse wheel`
+     - :kbd:`MW`
      - Works in:
 
        - Timeline: scroll the timeline left/right
@@ -180,7 +180,7 @@ General
        - Project Bin
        - Effects keyframe pane, numbers and selections
    * - Add to the selection
-     - | :kbd:`Shift+left click`
+     - | :kbd:`Shift+LMB`\ [2]_
        | :kbd:`Shift+dragging`
      - Works in:
 
@@ -189,7 +189,7 @@ General
        - Titler: adds clicked clips to the selection
        - Project Bin: adds all clips between already selected clip and clicked clip
    * - Add to the selection
-     - :kbd:`Ctrl+left click`
+     - :kbd:`Ctrl+LMB`\ [2]_
      - Works in:
 
        - Project Bin: adds clicked clips to the selection
@@ -409,7 +409,7 @@ Timeline
      - :kbd:`Shift+S`
      - Adds a subtitle at playhead position.
    * - Add Transition to Selection
-     - :kbd:`Alt+Shift+ +`
+     - :kbd:`Alt+Shift++`
      -
    * - Add/Remove Guide
      - :kbd:`G`
@@ -471,7 +471,7 @@ Timeline
      - :kbd:`+`
      -
    * - Select Transition
-     - :kbd:`Shift+ +`
+     - :kbd:`Shift++`
      -
    * - Start Preview Render
      - :kbd:`Shift+Return`
@@ -563,7 +563,7 @@ Timeline
    * - Toggle Track Target
      - :kbd:`Shift+T`
      - | 3-point-editing
-       | Select a video or audio track in the timeline (up/down arrow key) and set it as source with :kbd:`Shift + T`.
+       | Select a video or audio track in the timeline (up/down arrow key) and set it as source with :kbd:`Shift+T`.
    * - Resize only audio or video part of a clip
      - :kbd:`Shift+resize`
      - Only possible with keyboard
@@ -580,14 +580,14 @@ Timeline
      - :kbd:`Shift+dragging`
      - Either for video or audio tracks.
    * - Tracks resized simultaneously to normal
-     - :kbd:`Shift+double click`
+     - :kbd:`Shift+double-click`
      - Normalize track height either for video or audio tracks.
    * - Track selection
      - :kbd:`up/down`
      -
    * - Toggle between sequence tabs
-     - | :kbd:`Ctrl+tab`
-       | :kbd:`Ctrl+Shift+tab`
+     - | :kbd:`Ctrl+Tab`
+       | :kbd:`Ctrl+Shift+Tab`
      - | Go to next sequence
        | Go to previous sequence
 
@@ -726,4 +726,9 @@ The command bar allows to easily search for any action in Kdenlive like changing
   
    Searching for Kdenlive action commands
 
-..
+
+
+----
+
+.. [1] MW = Mouse Wheel
+.. [2] LMB = Left mouse button

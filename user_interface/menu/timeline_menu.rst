@@ -74,7 +74,7 @@ Selection Menu
 
    Timeline Selection Menu
 
-The purpose of this sub-menu is to allow you to select multiple clips or compositions on the timeline for the purpose of performing operations on all of them simultaneously. However, it should be said up front that making selections this way is not very practical. That is because, in order to select a clip or transition using this menu, you must first position the playhead on it. A much quicker and easier way is to press :kbd:`Shift+Right-click` on each clip you want to add to the selection. The clips do not have to be adjacent to each other to be selected using this method. If the clips you want to select are all adjacent to each other, you can press :kbd:`Shift+Left-click` and hold and then drag your mouse across all the clips. A selection box ("lasso") will appear and every clip and/or composition it touches or encompasses will be selected once you let go of the mouse.
+The purpose of this sub-menu is to allow you to select multiple clips or compositions on the timeline for the purpose of performing operations on all of them simultaneously. However, it should be said up front that making selections this way is not very practical. That is because, in order to select a clip or transition using this menu, you must first position the playhead on it. A much quicker and easier way is to press :kbd:`Shift+RMB`\ [1]_ on each clip you want to add to the selection. The clips do not have to be adjacent to each other to be selected using this method. If the clips you want to select are all adjacent to each other, you can press :kbd:`Shift+LMB`\ [2]_ and hold and then drag your mouse across all the clips. A selection box ("lasso") will appear and every clip and/or composition it touches or encompasses will be selected once you let go of the mouse.
 
 The following illustrations show how clips can be selected and a simple move to another track is be performed.
 
@@ -84,7 +84,7 @@ The following illustrations show how clips can be selected and a simple move to 
 
    Figure 1: Three selected clips in track V1
 
-In Figure 1, three of the five clips on the timeline have been selected using the :kbd:`Shift+Left-click` method. A selected clip has an orange outline and the highlight color of the filename text is red; not selected clips have a black outline and the filename highlight color is a semi-transparent grey.
+In Figure 1, three of the five clips on the timeline have been selected using the :kbd:`Shift+LMB`\ [2]_ method. A selected clip has an orange outline and the highlight color of the filename text is red; not selected clips have a black outline and the filename highlight color is a semi-transparent grey.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_selection_2.webp
    :width: 100%
@@ -100,7 +100,7 @@ Now that multiple clips have been selected, you can do things like moving (dragg
 
    Figure 3: Two selected compositions
 
-Selecting multiple compositions works just like selecting clips. Click on the first one and then :kbd:`Shift+Left-click` on as many others as you'd like to add to the selection. Figure 3 shows two **Wipe** compositions selected. These compositions can now be copied, moved (dragged), deleted, etc. just as with clips. Selected compositions have an orange outline and a bright purple semi-transparent background color.
+Selecting multiple compositions works just like selecting clips. Click on the first one and then :kbd:`Shift+LMB`\ [2]_ on as many others as you'd like to add to the selection. Figure 3 shows two **Wipe** compositions selected. These compositions can now be copied, moved (dragged), deleted, etc. just as with clips. Selected compositions have an orange outline and a bright purple semi-transparent background color.
 
 
 .. _insert_clip_zone:
@@ -369,7 +369,7 @@ This function can be used when you want to push all the existing clips on the ti
 
    Figure 1: Insert space
 
-In addition to invoking this menu from :menuselection:`Menu --> Timeline --> Space`, you can also bring it up by right-clicking on an empty spot on a track in the timeline.  There are a couple of important differences how :guilabel:`Insert Space` behaves, though, depending on which method you choose. Using :menuselection:`Timeline --> Space --> Insert Space` brings up the **Add Space** dialog shown in Figure 1. Note that the default choice for :guilabel:`Insert space in all tracks` is un-checked.
+In addition to invoking this menu from :menuselection:`Menu --> Timeline --> Space`, you can also bring it up by right-clicking on an empty spot on a track in the timeline.  There are a couple of important differences how :guilabel:`Insert Space` behaves, though, depending on which method you choose. Using :menuselection:`Menu --> Timeline --> Space --> Insert Space` brings up the **Add Space** dialog shown in Figure 1. Note that the default choice for :guilabel:`Insert space in all tracks` is un-checked.
 
 .. rst-class:: clear-both
 
@@ -578,14 +578,16 @@ Switches on or off the snap function. With Snap turned on moving items along the
 Zoom In
 -------
 
-Increases the zoom level of the Timeline. Default shortcut: :kbd:`Ctrl++`, or :kbd:`Ctrl+Mouse Wheel` while the mouse is hovering anywhere over the Timeline.
+Increases the zoom level of the Timeline. Default shortcut: :kbd:`Ctrl++`, or :kbd:`Ctrl+MW`\ [3]_ while the mouse is hovering anywhere over the Timeline.
+
 
 .. _timeline-zoom_out:
 
 Zoom Out
 --------
 
-Decreases the zoom level of the Timeline. Default shortcut: :kbd:`Ctrl+-`, or :kbd:`Ctrl+Mouse Wheel` while the mouse is hovering anywhere over the Timeline.
+Decreases the zoom level of the Timeline. Default shortcut: :kbd:`Ctrl+-`, or :kbd:`Ctrl+MW`\ [3]_ while the mouse is hovering anywhere over the Timeline.
+
 
 .. _timeline-fit_zoom:
 
@@ -593,3 +595,11 @@ Fit Zoom to Project
 -------------------
 
 Adjusts the zoom level of the Timeline to fit the entire project into the visible Timeline window.
+
+
+
+----
+
+.. [1] RMB = Right mouse button
+.. [2] LMB = Left mouse button
+.. [3] MW = Mouse wheel
