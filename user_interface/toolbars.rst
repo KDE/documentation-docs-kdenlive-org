@@ -109,7 +109,7 @@ The tools and actions/commands that are available in the toolbars are defined in
 
 :2: List of available actions/commands/tools. You can search for them in the :guilabel:`Filter` field. Select the item you want to add to the toolbar and click on the right-arrow in (**4**)
 
-:3: List of actions/commands/tools already available in the selected toolbar. You can search for items in the ':guilabel:`Filter` field. Select the item you want to process and click on an arrow in (**4**). Arrows up and down move the selected item up or down in the list. Arrow left deletes it from the list.
+:3: List of actions/commands/tools already available in the selected toolbar. You can search for items in the :guilabel:`Filter` field. Select the item you want to process and click on an arrow in (**4**). Arrows up and down move the selected item up or down in the list. Arrow left deletes it from the list.
 
 :4: Arrows to move items around in the list (up or down) and into or out of the lists (left or right).
 
