@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 01:50+0000\n"
+"POT-Creation-Date: 2025-01-23 01:46+0000\n"
 "PO-Revision-Date: 2024-04-21 04:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -197,8 +197,8 @@ msgid "`Stabilize`_"
 msgstr "`稳像 <Stabilize>`_"
 
 #: ../../user_interface/menu/clip_menu.rst:123
-msgid "`Duplicate Clip with Speed Change`_"
-msgstr "`带速度变化的复制剪辑 <Duplicate Clip with Speed Change>`_ "
+msgid "`Duplicate Clip with Speed Change`_ [1]_"
+msgstr ""
 
 #: ../../user_interface/menu/clip_menu.rst:125
 msgid "My Clip Job (this may look different in your environment)"
@@ -455,30 +455,23 @@ msgid ""
 msgstr "以下是运行稳像-由原始作者转码-的效果示例。"
 
 #: ../../user_interface/menu/clip_menu.rst:262
-#: ../../user_interface/menu/clip_menu.rst:270
+#: ../../user_interface/menu/clip_menu.rst:272
 msgid "Duplicate Clip with Speed Change"
 msgstr "带速度变化的复制剪辑"
 
 #: ../../user_interface/menu/clip_menu.rst:264
 msgid ""
 "This function is only available for clips selected in the Project Bin, and "
-"can be selected from the right-click menu of a clip."
+"can be selected from the right-click menu of a clip. [1]_"
 msgstr ""
-"该功能仅适用于在项目素材箱中选择的剪辑，并且可以从剪辑的右键菜单中选择。"
-
-#: ../../user_interface/menu/clip_menu.rst:272
-msgid ""
-"This feature used to be *Reverse Clip* and was first available in version "
-"0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse the "
-"clip by entering a speed of minus 100%. Values above 100% speed the clip up, "
-"values below 100% slow it down. With the new version of the clip job the "
-"sound in the clip is also reversed."
-msgstr ""
-"该功能以前被称为 *反转剪辑* ，最早在Kdenlive 0.9.6版本中可用。从版本17.04开"
-"始，它还可以使用速度为负100%来反转剪辑。值高于100%的速度会加快剪辑，值低于"
-"100%的速度会减慢剪辑。在新的剪辑作业版本中，剪辑中的声音也被反转。"
 
 #: ../../user_interface/menu/clip_menu.rst:274
+msgid ""
+"Values above 100% speed the clip up, values below 100% slow it down. The "
+"sound in the clip is also reversed."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu.rst:276
 msgid ""
 "Select :guilabel:`Pitch compensation` to avoid the Mickey Mouse effect in "
 "speech when speeding up the clip. If you check :guilabel:`Add clip to "
@@ -490,15 +483,15 @@ msgstr ""
 "加剪辑到\"Speed Change\"文件夹` ，则在项目素材箱中创建一个名为\"Speed "
 "Change\"的文件夹，并将剪辑添加到其中。"
 
-#: ../../user_interface/menu/clip_menu.rst:281
+#: ../../user_interface/menu/clip_menu.rst:285
 msgid "Duplicate Clip with speed change in Project Bin"
 msgstr "在项目素材箱中带速度变化的复制剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:287
+#: ../../user_interface/menu/clip_menu.rst:293
 msgid "Same as above but with Speed Change folder"
 msgstr "类似上文，但带有速度变化文件夹"
 
-#: ../../user_interface/menu/clip_menu.rst:289
+#: ../../user_interface/menu/clip_menu.rst:295
 msgid ""
 "When you click on :guilabel:`Save` a new clip is created in the Project Bin. "
 "It has the filename you supplied in the dialog with the :file:`.mlt` "
@@ -507,7 +500,7 @@ msgstr ""
 "当你点击 :guilabel:`Save/保存` 时，一个新的剪辑将在项目素材箱中创建。它具有你"
 "在对话框中提供的文件名，后缀为 :file:`.mlt`。"
 
-#: ../../user_interface/menu/clip_menu.rst:291
+#: ../../user_interface/menu/clip_menu.rst:297
 msgid ""
 "You can add this clip to the Timeline just like any other, and when you play "
 "it the video of the original source clip will be played but at the new speed "
@@ -516,29 +509,25 @@ msgstr ""
 "你可以像任何其他一样将这个剪辑添加到时间轴，当你播放它时，原始源剪辑的视频将"
 "播放，但速度将变为新的速度（如果输入了负%值，则将以相反的速度播放）。"
 
-#: ../../user_interface/menu/clip_menu.rst:299
+#: ../../user_interface/menu/clip_menu.rst:305
 msgid "Configure Clip Jobs"
 msgstr "配置剪辑任务"
 
-#: ../../user_interface/menu/clip_menu.rst:310
+#: ../../user_interface/menu/clip_menu.rst:316
 msgid "Manage Bin Clip Jobs dialog"
 msgstr "管理剪辑作业对话框"
 
-#: ../../user_interface/menu/clip_menu.rst:312
+#: ../../user_interface/menu/clip_menu.rst:318
 msgid ""
-"This opens the Manage Bin Clip Jobs dialog. Here you can create and manage "
-"your own jobs that can then be applied to clips in the Project Bin. Select "
-"the executable you want to be called and enter the arguments to be passed to "
-"the executable. ''%1'' will be replaced by the path of the source clip. If "
-"you do not specify an output file extension the extension of the source file "
-"will be used."
+"This opens the **Manage Bin Clip Jobs** dialog. Here you can create and "
+"manage your own jobs that can then be applied to clips in the Project Bin. "
+"Select the executable you want to be called and enter the arguments to be "
+"passed to the executable. ``%1`` will be replaced by the path of the source "
+"clip. If you do not specify an output file extension the extension of the "
+"source file will be used."
 msgstr ""
-"这将打开管理剪辑作业对话框。在这里，您可以创建和管理自己的作业，然后可以将这"
-"些作业应用于项目素材箱中的剪辑。选择要调用的可执行文件，并输入要传递给可执行"
-"文件的参数。''%1''将被源剪辑的路径替换。如果您没有指定输出文件扩展名，则将使"
-"用源文件的扩展名。"
 
-#: ../../user_interface/menu/clip_menu.rst:314
+#: ../../user_interface/menu/clip_menu.rst:320
 msgid ""
 "Unless you want the original clip to be replaced with the result, select "
 "whether the resulting clip is :guilabel:`Placed in the original clip "
@@ -550,7 +539,7 @@ msgstr ""
 "`,还是 :guilabel:`放在顶级级别`,还是Kdenlive应该 :guilabel:`使用子文件夹` 来"
 "保存它。在后一种情况下，您需要输入一个文件夹名称。"
 
-#: ../../user_interface/menu/clip_menu.rst:316
+#: ../../user_interface/menu/clip_menu.rst:324
 msgid ""
 "You can have the source clip path {source} as well as 2 configurable "
 "parameters {param1} and {param2}. The output file will replace the {output}. "
@@ -559,23 +548,21 @@ msgstr ""
 "你可以有源剪辑路径{source}，以及两个可配置的参数{param1}和{param2}。输入文件"
 "将替换{output}。参数应该是: {source} {param1} {output}"
 
-#: ../../user_interface/menu/clip_menu.rst:318
-msgid ""
-"Click on the :guilabel:`+` to create a new custom clip job. In order to "
-"delete one select it first then click on the trashcan icon."
-msgstr ""
-"点击 :guilabel:`+` 创建一个新的自定义剪辑作业。为了删除一个，首先选择它，然后"
-"点击垃圾箱图标。"
-
 #: ../../user_interface/menu/clip_menu.rst:326
+msgid ""
+"Click on |list-add| to create a new custom clip job. In order to delete one, "
+"select it first then click on |edit-delete|."
+msgstr ""
+
+#: ../../user_interface/menu/clip_menu.rst:332
 msgid "Transcode to Edit Friendly Format"
 msgstr "转码为编辑友好格式"
 
-#: ../../user_interface/menu/clip_menu.rst:333
+#: ../../user_interface/menu/clip_menu.rst:339
 msgid "Transcode clip to edit-friendly format"
 msgstr "转码剪辑为编辑友好格式"
 
-#: ../../user_interface/menu/clip_menu.rst:335
+#: ../../user_interface/menu/clip_menu.rst:341
 msgid ""
 "This opens a dialog window where you can select an edit-friendly format in "
 "case your source material is not suitable for non-linear video editing. This "
@@ -585,22 +572,22 @@ msgstr ""
 "这将打开一个对话窗口，您可以在其中选择一个适合非线性视频编辑的编辑友好格式。"
 "这个功能也可以通过右键菜单为项目素材箱中选择的剪辑使用。"
 
-#: ../../user_interface/menu/clip_menu.rst:337
+#: ../../user_interface/menu/clip_menu.rst:343
 msgid "You can select more than one clip in the Project Bin for this function."
 msgstr "你可以在这个功能中为项目素材箱中选择多个剪辑来使用这个功能。"
 
-#: ../../user_interface/menu/clip_menu.rst:339
+#: ../../user_interface/menu/clip_menu.rst:345
 msgid ""
 "There are several formats available, some are lossless (producing huge "
 "files), some produce a slight degradation in quality."
 msgstr ""
 "有几种格式可用，有些是无损的（产生巨大的文件），有些会产生轻微的质量下降。"
 
-#: ../../user_interface/menu/clip_menu.rst:347
+#: ../../user_interface/menu/clip_menu.rst:353
 msgid "Transcode"
 msgstr "转码"
 
-#: ../../user_interface/menu/clip_menu.rst:352
+#: ../../user_interface/menu/clip_menu.rst:359
 msgid ""
 "Use this function to transcode your source material into a wide variety of "
 "other formats. This function is also available via the right-click menu for "
@@ -609,7 +596,7 @@ msgstr ""
 "使用此功能将您的源材料转码为各种其他格式的格式。这个功能也可以通过右键菜单为"
 "项目素材箱中选定的剪辑使用。"
 
-#: ../../user_interface/menu/clip_menu.rst:354
+#: ../../user_interface/menu/clip_menu.rst:361
 msgid ""
 "Choose a transcode profile from the available list to transcode the selected "
 "clip into a different video format. The options are controlled by :doc:"
@@ -617,11 +604,11 @@ msgid ""
 "configuration_transcode>`. The transcoding is done by the |ffmpeg| program."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu.rst:361
+#: ../../user_interface/menu/clip_menu.rst:368
 msgid "Transcoding job running"
 msgstr "转码任务运行中"
 
-#: ../../user_interface/menu/clip_menu.rst:363
+#: ../../user_interface/menu/clip_menu.rst:370
 msgid ""
 "While the transcode job is running, the Project Bin will display a progress "
 "bar on the thumbnail of the clip(s), and a job list menu item will appear at "
@@ -630,11 +617,11 @@ msgstr ""
 "转码任务运行时，项目素材箱将在剪辑的缩略图上显示一个进度条，并且项目素材箱的"
 "顶部将出现一个作业列表菜单项。"
 
-#: ../../user_interface/menu/clip_menu.rst:371
+#: ../../user_interface/menu/clip_menu.rst:378
 msgid "Locate Clip"
 msgstr "定位剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:373
+#: ../../user_interface/menu/clip_menu.rst:380
 msgid ""
 "Locate Clip opens up the system's file browser at the location of the file "
 "system where the selected clip is stored. Useful for tracking down the "
@@ -643,31 +630,31 @@ msgstr ""
 "定位剪辑将在系统文件浏览器中打开，该文件浏览器位于存储所选剪辑的文件系统的位"
 "置。对于在项目素材箱中跟踪剪辑源非常有用。"
 
-#: ../../user_interface/menu/clip_menu.rst:375
-#: ../../user_interface/menu/clip_menu.rst:387
-#: ../../user_interface/menu/clip_menu.rst:409
-#: ../../user_interface/menu/clip_menu.rst:421
-#: ../../user_interface/menu/clip_menu.rst:442
-#: ../../user_interface/menu/clip_menu.rst:483
-#: ../../user_interface/menu/clip_menu.rst:505
-#: ../../user_interface/menu/clip_menu.rst:528
+#: ../../user_interface/menu/clip_menu.rst:382
+#: ../../user_interface/menu/clip_menu.rst:394
+#: ../../user_interface/menu/clip_menu.rst:416
+#: ../../user_interface/menu/clip_menu.rst:428
+#: ../../user_interface/menu/clip_menu.rst:449
+#: ../../user_interface/menu/clip_menu.rst:490
+#: ../../user_interface/menu/clip_menu.rst:515
 #: ../../user_interface/menu/clip_menu.rst:538
+#: ../../user_interface/menu/clip_menu.rst:548
 msgid ""
 "This function is also available via the right-click menu of a clip selected "
 "in the Project Bin."
 msgstr "这个功能也可以通过项目素材箱中选定的剪辑的右键菜单使用。"
 
-#: ../../user_interface/menu/clip_menu.rst:377
+#: ../../user_interface/menu/clip_menu.rst:384
 msgid ""
 "Please note that depending on the type of clip certain menu items are not "
 "shown."
 msgstr "请注意，根据剪辑的类型，某些菜单项可能不会显示。"
 
-#: ../../user_interface/menu/clip_menu.rst:383
+#: ../../user_interface/menu/clip_menu.rst:390
 msgid "Reload Clip"
 msgstr "重新加载剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:385
+#: ../../user_interface/menu/clip_menu.rst:392
 msgid ""
 "Reload Clip will re-import the clip from the file system into Kdenlive. This "
 "is useful when you edit a clip outside of Kdenlive and want Kdenlive to "
@@ -676,11 +663,11 @@ msgstr ""
 "重新加载剪辑将从文件系统中重新导入剪辑到Kdenlive。当您在Kdenlive之外编辑剪辑"
 "时，这很有用，您希望Kdenlive更新项目中的剪辑。"
 
-#: ../../user_interface/menu/clip_menu.rst:393
+#: ../../user_interface/menu/clip_menu.rst:400
 msgid "Replace Clip"
 msgstr "替换剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:395
+#: ../../user_interface/menu/clip_menu.rst:402
 msgid ""
 "Replace Clip will allow you to select a different file but keep all of the "
 "uses on the Timeline. This can be useful if you work  with placeholder clips "
@@ -690,7 +677,7 @@ msgstr ""
 "替换剪辑将允许您选择不同的文件，但保持时间轴上的所有使用。如果使用占位符剪辑"
 "（例如低分辨率或项目模板），则在最终替换剪辑之前，这可能很有用。"
 
-#: ../../user_interface/menu/clip_menu.rst:399
+#: ../../user_interface/menu/clip_menu.rst:406
 msgid ""
 "If you select an audio file only, Kdenlive ask you if you want to change the "
 "audio part of the clip only (or vice versa). This is helpful if you have "
@@ -700,11 +687,11 @@ msgstr ""
 "如果你选择的是音频文件，Kdenlive会问你是否只想改变剪辑的音频部分（或相反）。"
 "如果使用外部程序优化了音频，并且您将更新视频剪辑，这将非常有用。"
 
-#: ../../user_interface/menu/clip_menu.rst:405
+#: ../../user_interface/menu/clip_menu.rst:412
 msgid "Question if you only want to change the audio part of your clip"
 msgstr "如果您只想更改剪辑的音频部分，请提问"
 
-#: ../../user_interface/menu/clip_menu.rst:411
+#: ../../user_interface/menu/clip_menu.rst:418
 msgid ""
 "Make sure the clip replacement is at least of the same length/duration. "
 "Otherwise it may lead to unwanted gaps in the Timeline. If effects are used "
@@ -715,11 +702,11 @@ msgstr ""
 "隙。如果对这些剪辑使用了效果，则替换剪辑应该具有相同的尺寸，以避免效果的非预"
 "期行为。"
 
-#: ../../user_interface/menu/clip_menu.rst:417
+#: ../../user_interface/menu/clip_menu.rst:424
 msgid "Duplicate Clip"
 msgstr "复制剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:419
+#: ../../user_interface/menu/clip_menu.rst:426
 msgid ""
 "This function will create a copy of the clip in the Project Bin. This can be "
 "useful when applying effects to clips and allowing you to have the same "
@@ -729,12 +716,12 @@ msgstr ""
 "这个功能将在项目文件夹中创建一个剪辑的副本。当应用于剪辑并允许您使用两个不同"
 "的集合效果的相同源文件时，或者一个没有效果时，这可能非常有用。"
 
-#: ../../user_interface/menu/clip_menu.rst:427
 #: ../../user_interface/menu/clip_menu.rst:434
+#: ../../user_interface/menu/clip_menu.rst:441
 msgid "Proxy Clip"
 msgstr "代理剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:436
+#: ../../user_interface/menu/clip_menu.rst:443
 msgid ""
 "If Proxy Clips are enabled in the project settings this function will create "
 "a proxy clip for the selected clip(s). A yellow square with the letter P "
@@ -747,7 +734,7 @@ msgstr ""
 "监视器中播放时，预期播放质量较低）。在最终渲染期间，代理剪辑将被原始源文件替"
 "换。"
 
-#: ../../user_interface/menu/clip_menu.rst:438
+#: ../../user_interface/menu/clip_menu.rst:445
 msgid ""
 "This menu item is a toggle, meaning that if the selected clip is already a "
 "proxy clip Kdenlive will revert back to the original source clip."
@@ -755,11 +742,11 @@ msgstr ""
 "这个菜单项是一个切换按钮，这意味着如果选定的剪辑已经是代理剪辑，Kdenlive将返"
 "回到原始源剪辑。"
 
-#: ../../user_interface/menu/clip_menu.rst:448
+#: ../../user_interface/menu/clip_menu.rst:455
 msgid "Clip in Timeline"
 msgstr "在时间轴中的剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:450
+#: ../../user_interface/menu/clip_menu.rst:457
 msgid ""
 "This function is useful for quickly locating all the places where a clip is "
 "used in the Timeline. It is also available via the right-click menu for the "
@@ -768,11 +755,11 @@ msgstr ""
 "这个功能对于快速定位剪辑在时间轴上的所有位置非常有用。它也可以通过右键菜单在"
 "项目文件夹中选定的剪辑中使用。"
 
-#: ../../user_interface/menu/clip_menu.rst:457
+#: ../../user_interface/menu/clip_menu.rst:464
 msgid "Locating all occurencies of a clip"
 msgstr "定位所有使用的剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:459
+#: ../../user_interface/menu/clip_menu.rst:466
 msgid ""
 "Selecting the :guilabel:`Clip In Timeline` menu item brings up a flyout that "
 "lists all instances of the selected clip, identified by their track (A for "
@@ -783,7 +770,7 @@ msgstr ""
 "出所有选定剪辑的实例，通过其轨道（A代表音频，V代表视频）和时间轴中的位置来标"
 "识。单击列表中的条目将重新定位播放头到所指示剪辑的开始位置。"
 
-#: ../../user_interface/menu/clip_menu.rst:461
+#: ../../user_interface/menu/clip_menu.rst:468
 msgid ""
 "In the example we have clicked on the third video entry which is located on "
 "video track 1 at the 00:35;09 mark and the playhead is now located at the "
@@ -792,28 +779,26 @@ msgstr ""
 "在示例中，我们单击了第三个视频条目，该条目位于视频轨道1的00:35;09标记，播放头"
 "现在位于该剪辑的开始位置。"
 
-#: ../../user_interface/menu/clip_menu.rst:465
+#: ../../user_interface/menu/clip_menu.rst:472
 msgid ""
 "This option will be greyed out if the clip is not being used in the Timeline."
 msgstr "如果剪辑未在时间轴中使用，则此选项将被禁用。"
 
-#: ../../user_interface/menu/clip_menu.rst:467
+#: ../../user_interface/menu/clip_menu.rst:474
 msgid ""
-"See also :guilabel:`Clip in Project Bin` available in the :ref:"
-"`right_click_menu` on a clip in the Timeline."
+"See also :guilabel:`Clip in Project Bin` available in the :ref:`right-click "
+"menu <right_click_menu>` on a clip in the Timeline."
 msgstr ""
-"在时间轴上的 :ref:`右键菜单<right_click_menu>` 上查看 :guilabel:`Clip in "
-"Project Bin/项目素材箱中的剪辑` 也可用。"
 
-#: ../../user_interface/menu/clip_menu.rst:473
+#: ../../user_interface/menu/clip_menu.rst:480
 msgid "Clip Properties"
 msgstr "剪辑属性"
 
-#: ../../user_interface/menu/clip_menu.rst:479
+#: ../../user_interface/menu/clip_menu.rst:486
 msgid "Properties of the clip"
 msgstr "剪辑的属性"
 
-#: ../../user_interface/menu/clip_menu.rst:481
+#: ../../user_interface/menu/clip_menu.rst:488
 msgid ""
 "This menu item opens the Clip Properties widget and displays the properties "
 "of the selected clip in the Project Bin. Depending on the type of clip it "
@@ -823,65 +808,63 @@ msgstr ""
 "这个菜单项打开剪辑属性小部件，并在项目文件夹中显示所选剪辑的属性。根据剪辑的"
 "类型，它包括有关音频流、视频流、宽高比、尺寸或帧大小、帧速率等的信息。"
 
-#: ../../user_interface/menu/clip_menu.rst:485
+#: ../../user_interface/menu/clip_menu.rst:492
 msgid ""
 "For more details see the chapter :doc:`Clip Properties</"
 "project_and_asset_management/project_bin/clip_properties>`."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu.rst:493
+#: ../../user_interface/menu/clip_menu.rst:500
 msgid "Edit Clip"
 msgstr "编辑剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:495
+#: ../../user_interface/menu/clip_menu.rst:505
 msgid "This function is available for the following clip types:"
 msgstr "这个功能适用于以下剪辑类型："
 
-#: ../../user_interface/menu/clip_menu.rst:497
+#: ../../user_interface/menu/clip_menu.rst:507
 msgid "audio"
 msgstr "音频"
 
-#: ../../user_interface/menu/clip_menu.rst:499
+#: ../../user_interface/menu/clip_menu.rst:509
 msgid "image"
 msgstr "图像"
 
-#: ../../user_interface/menu/clip_menu.rst:501
-msgid "animation (*new in version 22.08*)"
-msgstr "动画 (*新版本 22.08*)"
+#: ../../user_interface/menu/clip_menu.rst:511
+msgid "animation"
+msgstr ""
 
-#: ../../user_interface/menu/clip_menu.rst:503
+#: ../../user_interface/menu/clip_menu.rst:513
 msgid ""
 "It opens the clip in an external software specified in :menuselection:`Menu "
 "--> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Apps "
 "<configure_environment_default_apps>` ready for editing."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu.rst:507
+#: ../../user_interface/menu/clip_menu.rst:517
 msgid ""
 "If the path is not set a pop-up window appears to define the path to the "
 "external software on your computer:"
 msgstr "如果路径未设置，则会出现一个弹出窗口，用于定义计算机上外部软件的路径："
 
-#: ../../user_interface/menu/clip_menu.rst:512
+#: ../../user_interface/menu/clip_menu.rst:522
 msgid "Missing path for Glaxnimate"
 msgstr "Glaximate缺少路径"
 
-#: ../../user_interface/menu/clip_menu.rst:514
+#: ../../user_interface/menu/clip_menu.rst:524
 msgid ""
-"Once the path is set the application starts and opens the clip you had "
+"Once the path is set, the application starts and opens the clip you had "
 "selected. The entered path gets added automatically to the default apps in :"
-"menuselection:`Settings --> Configure Kdenlive`."
+"menuselection:`Menu --> Settings --> Configure Kdenlive`."
 msgstr ""
-"一旦设置了路径，应用程序就会启动并打开你选择的剪辑。输入的路径会自动添加到 :"
-"menuselection:`Settings --> Configure Kdenlive/设置-->配置Kdenlive`"
 
-#: ../../user_interface/menu/clip_menu.rst:516
+#: ../../user_interface/menu/clip_menu.rst:526
 msgid ""
 "More details for installing the needed external software and how to set the "
-"path: see :ref:`configure_environment_default_apps`."
+"path refer to the :ref:`configure_environment_default_apps` chapter."
 msgstr ""
 
-#: ../../user_interface/menu/clip_menu.rst:518
+#: ../../user_interface/menu/clip_menu.rst:528
 msgid ""
 "The option is greyed out for video clips because **Kdenlive** is the video "
 "editor - only audio, image and animation clips are edited by external "
@@ -890,11 +873,11 @@ msgstr ""
 "这个选项对于视频剪辑是灰色的，因为 **Kdenlive** 是视频编辑器 - 只有音频、图像"
 "和动画剪辑由外部软件编辑。"
 
-#: ../../user_interface/menu/clip_menu.rst:524
+#: ../../user_interface/menu/clip_menu.rst:534
 msgid "Rename"
 msgstr "重命名"
 
-#: ../../user_interface/menu/clip_menu.rst:526
+#: ../../user_interface/menu/clip_menu.rst:536
 msgid ""
 "This function allows you to change the name of the clip in the Project Bin "
 "to an arbitrary name. It does not rename the file in the file system."
@@ -902,11 +885,11 @@ msgstr ""
 "这个功能允许你将剪辑在项目素材箱中的名称更改为任意名称。它不会在文件系统中重"
 "命名文件。"
 
-#: ../../user_interface/menu/clip_menu.rst:534
+#: ../../user_interface/menu/clip_menu.rst:544
 msgid "Delete Clip"
 msgstr "删除剪辑"
 
-#: ../../user_interface/menu/clip_menu.rst:536
+#: ../../user_interface/menu/clip_menu.rst:546
 msgid ""
 "This function removes the clip from the Project Bin. It does not delete it "
 "from the file system. If the clip is being used in the Timeline a warning "
@@ -916,3 +899,10 @@ msgstr ""
 "这个功能从项目素材箱中删除剪辑。它不会从文件系统中删除该文件。如果剪辑正在时"
 "间轴中使用，将出现警告消息，如果您点击 :guilabel:`继续`，则时间轴中任何对该剪"
 "辑的引用都将被删除。"
+
+#: ../../user_interface/menu/clip_menu.rst:553
+msgid ""
+"This feature used to be *Reverse Clip* and was first available in version "
+"0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse the "
+"clip by entering a speed of minus 100%."
+msgstr ""

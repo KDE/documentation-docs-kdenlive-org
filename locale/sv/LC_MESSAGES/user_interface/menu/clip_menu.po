@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 01:50+0000\n"
+"POT-Creation-Date: 2025-01-23 01:46+0000\n"
 "PO-Revision-Date: 2025-01-17 19:26+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -212,7 +212,9 @@ msgid "`Stabilize`_"
 msgstr "`Stabilize`_"
 
 #: ../../user_interface/menu/clip_menu.rst:123
-msgid "`Duplicate Clip with Speed Change`_"
+#, fuzzy
+#| msgid "`Duplicate Clip with Speed Change`_"
+msgid "`Duplicate Clip with Speed Change`_ [1]_"
 msgstr "`Duplicate Clip with Speed Change`_"
 
 #: ../../user_interface/menu/clip_menu.rst:125
@@ -499,33 +501,29 @@ msgstr ""
 "ursprungliga upphovsmannen: Georg Martius."
 
 #: ../../user_interface/menu/clip_menu.rst:262
-#: ../../user_interface/menu/clip_menu.rst:270
+#: ../../user_interface/menu/clip_menu.rst:272
 msgid "Duplicate Clip with Speed Change"
 msgstr "Duplicera klipp med hastighetsändring"
 
 #: ../../user_interface/menu/clip_menu.rst:264
+#, fuzzy
+#| msgid ""
+#| "This function is only available for clips selected in the Project Bin, "
+#| "and can be selected from the right-click menu of a clip."
 msgid ""
 "This function is only available for clips selected in the Project Bin, and "
-"can be selected from the right-click menu of a clip."
+"can be selected from the right-click menu of a clip. [1]_"
 msgstr ""
 "Funktionen är endast tillgänglig för klipp som markerats i projektkorgen, "
 "och kan väljas från ett klipps högerklicksmeny."
 
-#: ../../user_interface/menu/clip_menu.rst:272
+#: ../../user_interface/menu/clip_menu.rst:274
 msgid ""
-"This feature used to be *Reverse Clip* and was first available in version "
-"0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse the "
-"clip by entering a speed of minus 100%. Values above 100% speed the clip up, "
-"values below 100% slow it down. With the new version of the clip job the "
+"Values above 100% speed the clip up, values below 100% slow it down. The "
 "sound in the clip is also reversed."
 msgstr ""
-"Funktionen brukade kallas *Vänd klipp* och var först tillgänglig i version "
-"0.9.6 av Kdenlive. Sedan version 17.04 kan den fortfarande användas för att "
-"vända klippet genom att ange en hastighet på minus 100 %. Värden över 100 % "
-"snabbar upp klippet, värden under 100 % saktar ner det. Med den nya "
-"versionen av klippjobbet vänds också ljudet i klippet."
 
-#: ../../user_interface/menu/clip_menu.rst:274
+#: ../../user_interface/menu/clip_menu.rst:276
 msgid ""
 "Select :guilabel:`Pitch compensation` to avoid the Mickey Mouse effect in "
 "speech when speeding up the clip. If you check :guilabel:`Add clip to "
@@ -537,15 +535,15 @@ msgstr ""
 "katalogen \"Hastighetsändring\"` skapas en katalog med namnet "
 "\"Hastighetsändring\" i projektkorgen och klippet läggs till i den."
 
-#: ../../user_interface/menu/clip_menu.rst:281
+#: ../../user_interface/menu/clip_menu.rst:285
 msgid "Duplicate Clip with speed change in Project Bin"
 msgstr "Duplicera klipp med hastighetsändring i projektkorgen"
 
-#: ../../user_interface/menu/clip_menu.rst:287
+#: ../../user_interface/menu/clip_menu.rst:293
 msgid "Same as above but with Speed Change folder"
 msgstr "Samma som ovan men med katalogen Hastighetsändring"
 
-#: ../../user_interface/menu/clip_menu.rst:289
+#: ../../user_interface/menu/clip_menu.rst:295
 msgid ""
 "When you click on :guilabel:`Save` a new clip is created in the Project Bin. "
 "It has the filename you supplied in the dialog with the :file:`.mlt` "
@@ -554,7 +552,7 @@ msgstr ""
 "När man klickar på :guilabel:`Spara` skapas ett nytt klipp i projektkorgen. "
 "Det har filnamnet som angavs i dialogrutan med filändelsen :file:`.mlt`."
 
-#: ../../user_interface/menu/clip_menu.rst:291
+#: ../../user_interface/menu/clip_menu.rst:297
 msgid ""
 "You can add this clip to the Timeline just like any other, and when you play "
 "it the video of the original source clip will be played but at the new speed "
@@ -565,22 +563,30 @@ msgstr ""
 "upp men med den nya hastigheten (eller omvänt om ett negativt procentvärde "
 "angavs)."
 
-#: ../../user_interface/menu/clip_menu.rst:299
+#: ../../user_interface/menu/clip_menu.rst:305
 msgid "Configure Clip Jobs"
 msgstr "Anpassa klippjobb"
 
-#: ../../user_interface/menu/clip_menu.rst:310
+#: ../../user_interface/menu/clip_menu.rst:316
 msgid "Manage Bin Clip Jobs dialog"
 msgstr "Dialogrutan Hantera korgklippjobb"
 
-#: ../../user_interface/menu/clip_menu.rst:312
+#: ../../user_interface/menu/clip_menu.rst:318
+#, fuzzy
+#| msgid ""
+#| "This opens the Manage Bin Clip Jobs dialog. Here you can create and "
+#| "manage your own jobs that can then be applied to clips in the Project "
+#| "Bin. Select the executable you want to be called and enter the arguments "
+#| "to be passed to the executable. ''%1'' will be replaced by the path of "
+#| "the source clip. If you do not specify an output file extension the "
+#| "extension of the source file will be used."
 msgid ""
-"This opens the Manage Bin Clip Jobs dialog. Here you can create and manage "
-"your own jobs that can then be applied to clips in the Project Bin. Select "
-"the executable you want to be called and enter the arguments to be passed to "
-"the executable. ''%1'' will be replaced by the path of the source clip. If "
-"you do not specify an output file extension the extension of the source file "
-"will be used."
+"This opens the **Manage Bin Clip Jobs** dialog. Here you can create and "
+"manage your own jobs that can then be applied to clips in the Project Bin. "
+"Select the executable you want to be called and enter the arguments to be "
+"passed to the executable. ``%1`` will be replaced by the path of the source "
+"clip. If you do not specify an output file extension the extension of the "
+"source file will be used."
 msgstr ""
 "Det här öppnar dialogrutan Hantera korgklippjobb. Här kan man skapa och "
 "hantera egna jobb som sedan kan användas med klipp i projektkorgen. Välj den "
@@ -588,7 +594,7 @@ msgstr ""
 "körbara filen. ''%1'' ersätts av sökvägen till källklippet. Om man inte "
 "anger en filändelse för utdata används källfilens filändelse."
 
-#: ../../user_interface/menu/clip_menu.rst:314
+#: ../../user_interface/menu/clip_menu.rst:320
 msgid ""
 "Unless you want the original clip to be replaced with the result, select "
 "whether the resulting clip is :guilabel:`Placed in the original clip "
@@ -602,7 +608,7 @@ msgstr ""
 "guilabel:`Använd en underkatalog` för att spara det. I det senare fallet "
 "måste man ange ett katalognamn."
 
-#: ../../user_interface/menu/clip_menu.rst:316
+#: ../../user_interface/menu/clip_menu.rst:324
 msgid ""
 "You can have the source clip path {source} as well as 2 configurable "
 "parameters {param1} and {param2}. The output file will replace the {output}. "
@@ -612,23 +618,27 @@ msgstr ""
 "{param1} och {param2}. Utdatafilen ersätter {output}. Argumenten ska vara: "
 "{source} {param1} {output}"
 
-#: ../../user_interface/menu/clip_menu.rst:318
+#: ../../user_interface/menu/clip_menu.rst:326
+#, fuzzy
+#| msgid ""
+#| "Click on the :guilabel:`+` to create a new custom clip job. In order to "
+#| "delete one select it first then click on the trashcan icon."
 msgid ""
-"Click on the :guilabel:`+` to create a new custom clip job. In order to "
-"delete one select it first then click on the trashcan icon."
+"Click on |list-add| to create a new custom clip job. In order to delete one, "
+"select it first then click on |edit-delete|."
 msgstr ""
 "Klicka på :guilabel:`+` för att skapa ett nytt eget klippjobb. För att ta "
 "bort ett, markera det först och klicka sedan på papperskorgen."
 
-#: ../../user_interface/menu/clip_menu.rst:326
+#: ../../user_interface/menu/clip_menu.rst:332
 msgid "Transcode to Edit Friendly Format"
 msgstr "Omkodar till redigeringsvänligt format"
 
-#: ../../user_interface/menu/clip_menu.rst:333
+#: ../../user_interface/menu/clip_menu.rst:339
 msgid "Transcode clip to edit-friendly format"
 msgstr "Omkodar klipp till redigeringsvänligt format"
 
-#: ../../user_interface/menu/clip_menu.rst:335
+#: ../../user_interface/menu/clip_menu.rst:341
 msgid ""
 "This opens a dialog window where you can select an edit-friendly format in "
 "case your source material is not suitable for non-linear video editing. This "
@@ -640,11 +650,11 @@ msgstr ""
 "Funktionen är också tillgänglig via högerklicksmenyn för klippet/klippen som "
 "markerats i projektkorgen."
 
-#: ../../user_interface/menu/clip_menu.rst:337
+#: ../../user_interface/menu/clip_menu.rst:343
 msgid "You can select more than one clip in the Project Bin for this function."
 msgstr "Man kan välja mer än ett klipp i projektkorgen för funktionen."
 
-#: ../../user_interface/menu/clip_menu.rst:339
+#: ../../user_interface/menu/clip_menu.rst:345
 msgid ""
 "There are several formats available, some are lossless (producing huge "
 "files), some produce a slight degradation in quality."
@@ -652,11 +662,11 @@ msgstr ""
 "Det finns flera format tillgängliga, vissa är förlustfria (producerar enorma "
 "filer), vissa ger en liten försämring av kvaliteten."
 
-#: ../../user_interface/menu/clip_menu.rst:347
+#: ../../user_interface/menu/clip_menu.rst:353
 msgid "Transcode"
 msgstr "Omkoda"
 
-#: ../../user_interface/menu/clip_menu.rst:352
+#: ../../user_interface/menu/clip_menu.rst:359
 msgid ""
 "Use this function to transcode your source material into a wide variety of "
 "other formats. This function is also available via the right-click menu for "
@@ -666,7 +676,7 @@ msgstr ""
 "Funktionen är också tillgänglig via högerklicksmenyn för klippet/klippen som "
 "markerats i projektkorgen."
 
-#: ../../user_interface/menu/clip_menu.rst:354
+#: ../../user_interface/menu/clip_menu.rst:361
 msgid ""
 "Choose a transcode profile from the available list to transcode the selected "
 "clip into a different video format. The options are controlled by :doc:"
@@ -678,11 +688,11 @@ msgstr ""
 "`Omkodningsinställningar</getting_started/configure_kdenlive/"
 "configuration_transcode>`. Omkodningen görs av programmet |ffmpeg|."
 
-#: ../../user_interface/menu/clip_menu.rst:361
+#: ../../user_interface/menu/clip_menu.rst:368
 msgid "Transcoding job running"
 msgstr "Omkodningsjobb kör"
 
-#: ../../user_interface/menu/clip_menu.rst:363
+#: ../../user_interface/menu/clip_menu.rst:370
 msgid ""
 "While the transcode job is running, the Project Bin will display a progress "
 "bar on the thumbnail of the clip(s), and a job list menu item will appear at "
@@ -692,11 +702,11 @@ msgstr ""
 "miniatyrbilden av klippet/klippen, och ett menyalternativ med jobblistan "
 "visas överst i projektkorgen."
 
-#: ../../user_interface/menu/clip_menu.rst:371
+#: ../../user_interface/menu/clip_menu.rst:378
 msgid "Locate Clip"
 msgstr "Lokalisera klipp"
 
-#: ../../user_interface/menu/clip_menu.rst:373
+#: ../../user_interface/menu/clip_menu.rst:380
 msgid ""
 "Locate Clip opens up the system's file browser at the location of the file "
 "system where the selected clip is stored. Useful for tracking down the "
@@ -706,15 +716,15 @@ msgstr ""
 "det valda klippet lagrats. Användbart för att spåra källorna till klipp i "
 "projektkorgen."
 
-#: ../../user_interface/menu/clip_menu.rst:375
-#: ../../user_interface/menu/clip_menu.rst:387
-#: ../../user_interface/menu/clip_menu.rst:409
-#: ../../user_interface/menu/clip_menu.rst:421
-#: ../../user_interface/menu/clip_menu.rst:442
-#: ../../user_interface/menu/clip_menu.rst:483
-#: ../../user_interface/menu/clip_menu.rst:505
-#: ../../user_interface/menu/clip_menu.rst:528
+#: ../../user_interface/menu/clip_menu.rst:382
+#: ../../user_interface/menu/clip_menu.rst:394
+#: ../../user_interface/menu/clip_menu.rst:416
+#: ../../user_interface/menu/clip_menu.rst:428
+#: ../../user_interface/menu/clip_menu.rst:449
+#: ../../user_interface/menu/clip_menu.rst:490
+#: ../../user_interface/menu/clip_menu.rst:515
 #: ../../user_interface/menu/clip_menu.rst:538
+#: ../../user_interface/menu/clip_menu.rst:548
 msgid ""
 "This function is also available via the right-click menu of a clip selected "
 "in the Project Bin."
@@ -722,18 +732,18 @@ msgstr ""
 "Funktionen är också tillgänglig via högerklicksmenyn för ett klipp som "
 "markerats i projektkorgen."
 
-#: ../../user_interface/menu/clip_menu.rst:377
+#: ../../user_interface/menu/clip_menu.rst:384
 msgid ""
 "Please note that depending on the type of clip certain menu items are not "
 "shown."
 msgstr ""
 "Observera att vissa menyalternativ inte visas beroende på typen av klipp."
 
-#: ../../user_interface/menu/clip_menu.rst:383
+#: ../../user_interface/menu/clip_menu.rst:390
 msgid "Reload Clip"
 msgstr "Uppdatera klipp"
 
-#: ../../user_interface/menu/clip_menu.rst:385
+#: ../../user_interface/menu/clip_menu.rst:392
 msgid ""
 "Reload Clip will re-import the clip from the file system into Kdenlive. This "
 "is useful when you edit a clip outside of Kdenlive and want Kdenlive to "
@@ -743,11 +753,11 @@ msgstr ""
 "är användbart när man redigerar ett klipp utanför Kdenlive och vill att "
 "Kdenlive ska uppdatera det i projektet."
 
-#: ../../user_interface/menu/clip_menu.rst:393
+#: ../../user_interface/menu/clip_menu.rst:400
 msgid "Replace Clip"
 msgstr "Ersätt klipp"
 
-#: ../../user_interface/menu/clip_menu.rst:395
+#: ../../user_interface/menu/clip_menu.rst:402
 msgid ""
 "Replace Clip will allow you to select a different file but keep all of the "
 "uses on the Timeline. This can be useful if you work  with placeholder clips "
@@ -759,7 +769,7 @@ msgstr ""
 "ersättningsklipp (t.ex. lågupplöst eller i projektmallar) och i slutet, "
 "innan återgivning, ersätter det klippet med det slutliga klippet."
 
-#: ../../user_interface/menu/clip_menu.rst:399
+#: ../../user_interface/menu/clip_menu.rst:406
 msgid ""
 "If you select an audio file only, Kdenlive ask you if you want to change the "
 "audio part of the clip only (or vice versa). This is helpful if you have "
@@ -770,11 +780,11 @@ msgstr ""
 "ska ändras (eller vice versa). Det är användbart om man har optimerat ljudet "
 "med ett externt program och videoklippet ska uppdateras."
 
-#: ../../user_interface/menu/clip_menu.rst:405
+#: ../../user_interface/menu/clip_menu.rst:412
 msgid "Question if you only want to change the audio part of your clip"
 msgstr "Fråga om bara ljuddelen av klippet ska ändras"
 
-#: ../../user_interface/menu/clip_menu.rst:411
+#: ../../user_interface/menu/clip_menu.rst:418
 msgid ""
 "Make sure the clip replacement is at least of the same length/duration. "
 "Otherwise it may lead to unwanted gaps in the Timeline. If effects are used "
@@ -786,11 +796,11 @@ msgstr ""
 "ersättningsklippen ha samma dimensioner för att undvika oönskat beteende med "
 "effekterna."
 
-#: ../../user_interface/menu/clip_menu.rst:417
+#: ../../user_interface/menu/clip_menu.rst:424
 msgid "Duplicate Clip"
 msgstr "Duplicera klipp"
 
-#: ../../user_interface/menu/clip_menu.rst:419
+#: ../../user_interface/menu/clip_menu.rst:426
 msgid ""
 "This function will create a copy of the clip in the Project Bin. This can be "
 "useful when applying effects to clips and allowing you to have the same "
@@ -802,12 +812,12 @@ msgstr ""
 "med två olika uppsättningar av använda effekter, eller den ena med den andra "
 "utan effekter."
 
-#: ../../user_interface/menu/clip_menu.rst:427
 #: ../../user_interface/menu/clip_menu.rst:434
+#: ../../user_interface/menu/clip_menu.rst:441
 msgid "Proxy Clip"
 msgstr "Ersättningsklipp"
 
-#: ../../user_interface/menu/clip_menu.rst:436
+#: ../../user_interface/menu/clip_menu.rst:443
 msgid ""
 "If Proxy Clips are enabled in the project settings this function will create "
 "a proxy clip for the selected clip(s). A yellow square with the letter P "
@@ -822,7 +832,7 @@ msgstr ""
 "Vid den slutliga återgivningen kommer ersättningsklipp att ersättas av de "
 "ursprungliga källfilerna."
 
-#: ../../user_interface/menu/clip_menu.rst:438
+#: ../../user_interface/menu/clip_menu.rst:445
 msgid ""
 "This menu item is a toggle, meaning that if the selected clip is already a "
 "proxy clip Kdenlive will revert back to the original source clip."
@@ -831,11 +841,11 @@ msgstr ""
 "klippet redan är ett ersättningsklipp återgår Kdenlive till det ursprungliga "
 "källklippet."
 
-#: ../../user_interface/menu/clip_menu.rst:448
+#: ../../user_interface/menu/clip_menu.rst:455
 msgid "Clip in Timeline"
 msgstr "Klipp i tidslinjen"
 
-#: ../../user_interface/menu/clip_menu.rst:450
+#: ../../user_interface/menu/clip_menu.rst:457
 msgid ""
 "This function is useful for quickly locating all the places where a clip is "
 "used in the Timeline. It is also available via the right-click menu for the "
@@ -845,11 +855,11 @@ msgstr ""
 "används i tidslinjen. Den är också tillgängligt via högerklicksmenyn för "
 "klippet som markerats i projektkorgen."
 
-#: ../../user_interface/menu/clip_menu.rst:457
+#: ../../user_interface/menu/clip_menu.rst:464
 msgid "Locating all occurencies of a clip"
 msgstr "Lokalisera alla förekomster av ett klipp"
 
-#: ../../user_interface/menu/clip_menu.rst:459
+#: ../../user_interface/menu/clip_menu.rst:466
 msgid ""
 "Selecting the :guilabel:`Clip In Timeline` menu item brings up a flyout that "
 "lists all instances of the selected clip, identified by their track (A for "
@@ -862,7 +872,7 @@ msgstr ""
 "post i listan flyttas uppspelningspositionen till början av det angivna "
 "klippet."
 
-#: ../../user_interface/menu/clip_menu.rst:461
+#: ../../user_interface/menu/clip_menu.rst:468
 msgid ""
 "In the example we have clicked on the third video entry which is located on "
 "video track 1 at the 00:35;09 mark and the playhead is now located at the "
@@ -872,28 +882,32 @@ msgstr ""
 "vid markeringen 00:35;09 och uppspelningspositionen är nu i början av det "
 "klippet."
 
-#: ../../user_interface/menu/clip_menu.rst:465
+#: ../../user_interface/menu/clip_menu.rst:472
 msgid ""
 "This option will be greyed out if the clip is not being used in the Timeline."
 msgstr "Alternativet är grått om klippet inte används i tidslinjen."
 
-#: ../../user_interface/menu/clip_menu.rst:467
+#: ../../user_interface/menu/clip_menu.rst:474
+#, fuzzy
+#| msgid ""
+#| "See also :guilabel:`Clip in Project Bin` available in the :ref:"
+#| "`right_click_menu` on a clip in the Timeline."
 msgid ""
-"See also :guilabel:`Clip in Project Bin` available in the :ref:"
-"`right_click_menu` on a clip in the Timeline."
+"See also :guilabel:`Clip in Project Bin` available in the :ref:`right-click "
+"menu <right_click_menu>` on a clip in the Timeline."
 msgstr ""
 "Se också :guilabel:`Klipp i projektkorg` tillgängligt med :ref:"
 "`right_click_menu` på ett klipp i tidslinjen."
 
-#: ../../user_interface/menu/clip_menu.rst:473
+#: ../../user_interface/menu/clip_menu.rst:480
 msgid "Clip Properties"
 msgstr "Klippegenskaper"
 
-#: ../../user_interface/menu/clip_menu.rst:479
+#: ../../user_interface/menu/clip_menu.rst:486
 msgid "Properties of the clip"
 msgstr "Klippets egenskaper"
 
-#: ../../user_interface/menu/clip_menu.rst:481
+#: ../../user_interface/menu/clip_menu.rst:488
 msgid ""
 "This menu item opens the Clip Properties widget and displays the properties "
 "of the selected clip in the Project Bin. Depending on the type of clip it "
@@ -905,7 +919,7 @@ msgstr ""
 "klipp innehåller det information om ljudströmmen, videoströmmen, proportion, "
 "dimensioner eller bildstorlek, bildhastighet, etc."
 
-#: ../../user_interface/menu/clip_menu.rst:485
+#: ../../user_interface/menu/clip_menu.rst:492
 msgid ""
 "For more details see the chapter :doc:`Clip Properties</"
 "project_and_asset_management/project_bin/clip_properties>`."
@@ -913,27 +927,27 @@ msgstr ""
 "För mer information se kapitlet :doc:`Klippegenskaper</"
 "project_and_asset_management/project_bin/clip_properties>`."
 
-#: ../../user_interface/menu/clip_menu.rst:493
+#: ../../user_interface/menu/clip_menu.rst:500
 msgid "Edit Clip"
 msgstr "Redigera klipp"
 
-#: ../../user_interface/menu/clip_menu.rst:495
+#: ../../user_interface/menu/clip_menu.rst:505
 msgid "This function is available for the following clip types:"
 msgstr "Funktionen är tillgänglig för följande klipptyper:"
 
-#: ../../user_interface/menu/clip_menu.rst:497
+#: ../../user_interface/menu/clip_menu.rst:507
 msgid "audio"
 msgstr "ljud"
 
-#: ../../user_interface/menu/clip_menu.rst:499
+#: ../../user_interface/menu/clip_menu.rst:509
 msgid "image"
 msgstr "bild"
 
-#: ../../user_interface/menu/clip_menu.rst:501
-msgid "animation (*new in version 22.08*)"
-msgstr "animering (*ny i version 22.08*)"
+#: ../../user_interface/menu/clip_menu.rst:511
+msgid "animation"
+msgstr ""
 
-#: ../../user_interface/menu/clip_menu.rst:503
+#: ../../user_interface/menu/clip_menu.rst:513
 msgid ""
 "It opens the clip in an external software specified in :menuselection:`Menu "
 "--> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Apps "
@@ -943,7 +957,7 @@ msgstr ""
 "`Inställningar --> Anpassa Kdenlive... --> Omgivning -->` :ref:"
 "`Standardprogram <configure_environment_default_apps>` redo för redigering."
 
-#: ../../user_interface/menu/clip_menu.rst:507
+#: ../../user_interface/menu/clip_menu.rst:517
 msgid ""
 "If the path is not set a pop-up window appears to define the path to the "
 "external software on your computer:"
@@ -951,29 +965,38 @@ msgstr ""
 "Om sökvägen inte är inställd visas ett meddelandefönster för att definiera "
 "sökvägen till den externa programvaran på datorn:"
 
-#: ../../user_interface/menu/clip_menu.rst:512
+#: ../../user_interface/menu/clip_menu.rst:522
 msgid "Missing path for Glaxnimate"
 msgstr "Saknar sökväg för Glaxnimate"
 
-#: ../../user_interface/menu/clip_menu.rst:514
+#: ../../user_interface/menu/clip_menu.rst:524
+#, fuzzy
+#| msgid ""
+#| "Once the path is set the application starts and opens the clip you had "
+#| "selected. The entered path gets added automatically to the default apps "
+#| "in :menuselection:`Settings --> Configure Kdenlive`."
 msgid ""
-"Once the path is set the application starts and opens the clip you had "
+"Once the path is set, the application starts and opens the clip you had "
 "selected. The entered path gets added automatically to the default apps in :"
-"menuselection:`Settings --> Configure Kdenlive`."
+"menuselection:`Menu --> Settings --> Configure Kdenlive`."
 msgstr ""
 "När sökvägen är inställd startas programmet och öppnar klippet som är "
 "markerat. Den angivna sökvägen läggs automatiskt till i standardprogrammen "
 "i :menuselection:`Inställningar --> Anpassa Kdenlive`."
 
-#: ../../user_interface/menu/clip_menu.rst:516
+#: ../../user_interface/menu/clip_menu.rst:526
+#, fuzzy
+#| msgid ""
+#| "More details for installing the needed external software and how to set "
+#| "the path: see :ref:`configure_environment_default_apps`."
 msgid ""
 "More details for installing the needed external software and how to set the "
-"path: see :ref:`configure_environment_default_apps`."
+"path refer to the :ref:`configure_environment_default_apps` chapter."
 msgstr ""
 "Mer information om installation av nödvändig extern programvara och hur man "
 "ställer in sökvägar: se :ref:`configure_environment_default_apps`."
 
-#: ../../user_interface/menu/clip_menu.rst:518
+#: ../../user_interface/menu/clip_menu.rst:528
 msgid ""
 "The option is greyed out for video clips because **Kdenlive** is the video "
 "editor - only audio, image and animation clips are edited by external "
@@ -982,11 +1005,11 @@ msgstr ""
 "Alternativet är grått för videoklipp eftersom **Kdenlive** är videoeditorn: "
 "bara ljud-, bild- och animeringsklipp redigeras av extern programvara."
 
-#: ../../user_interface/menu/clip_menu.rst:524
+#: ../../user_interface/menu/clip_menu.rst:534
 msgid "Rename"
 msgstr "Byt namn"
 
-#: ../../user_interface/menu/clip_menu.rst:526
+#: ../../user_interface/menu/clip_menu.rst:536
 msgid ""
 "This function allows you to change the name of the clip in the Project Bin "
 "to an arbitrary name. It does not rename the file in the file system."
@@ -994,11 +1017,11 @@ msgstr ""
 "Funktion gör det möjligt att byta namn på klippet i projektkorgen till ett "
 "godtyckligt namn. Den byter inte namn på filen i filsystemet."
 
-#: ../../user_interface/menu/clip_menu.rst:534
+#: ../../user_interface/menu/clip_menu.rst:544
 msgid "Delete Clip"
 msgstr "Ta bort klipp"
 
-#: ../../user_interface/menu/clip_menu.rst:536
+#: ../../user_interface/menu/clip_menu.rst:546
 msgid ""
 "This function removes the clip from the Project Bin. It does not delete it "
 "from the file system. If the clip is being used in the Timeline a warning "
@@ -1009,6 +1032,28 @@ msgstr ""
 "filsystemet. Om klippet används i tidslinjen visas ett varningsmeddelande, "
 "och om man klickar på :guilabel:`Fortsätt` tas alla förekomster av klippet i "
 "tidslinjen bort."
+
+#: ../../user_interface/menu/clip_menu.rst:553
+#, fuzzy
+#| msgid ""
+#| "This feature used to be *Reverse Clip* and was first available in version "
+#| "0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse "
+#| "the clip by entering a speed of minus 100%. Values above 100% speed the "
+#| "clip up, values below 100% slow it down. With the new version of the clip "
+#| "job the sound in the clip is also reversed."
+msgid ""
+"This feature used to be *Reverse Clip* and was first available in version "
+"0.9.6 of Kdenlive. Since version 17.04 it can still be used to reverse the "
+"clip by entering a speed of minus 100%."
+msgstr ""
+"Funktionen brukade kallas *Vänd klipp* och var först tillgänglig i version "
+"0.9.6 av Kdenlive. Sedan version 17.04 kan den fortfarande användas för att "
+"vända klippet genom att ange en hastighet på minus 100 %. Värden över 100 % "
+"snabbar upp klippet, värden under 100 % saktar ner det. Med den nya "
+"versionen av klippjobbet vänds också ljudet i klippet."
+
+#~ msgid "animation (*new in version 22.08*)"
+#~ msgstr "animering (*ny i version 22.08*)"
 
 #~ msgid "Automatic Transition"
 #~ msgstr "Automatisk övertoning"
