@@ -2,50 +2,50 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # SPDX-FileCopyrightText: 2023, 2024 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2025 Ronald Stroethoff <stroet43@zonnet.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-03 01:49+0000\n"
-"PO-Revision-Date: 2024-05-22 14:06+0200\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-02-09 10:51+0100\n"
+"Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: ../../more_information/get_involved/rst_template.rst:0
 msgid "**Status**"
-msgstr ""
+msgstr "**Status**"
 
 #: ../../more_information/get_involved/rst_template.rst:0
 msgid "**Keyframes**"
-msgstr ""
+msgstr "**Keyframes**"
 
 #: ../../more_information/get_involved/rst_template.rst:0
 msgid "**Source library**"
-msgstr ""
+msgstr "**Source library**"
 
 #: ../../more_information/get_involved/rst_template.rst:0
-#, fuzzy
 #| msgid "the source file."
 msgid "**Source filter**"
-msgstr "het bronbestand."
+msgstr "**Source filter**"
 
 #: ../../more_information/get_involved/rst_template.rst:0
 msgid "**Available**"
-msgstr ""
+msgstr "**Available**"
 
 #: ../../more_information/get_involved/rst_template.rst:0
 msgid "**On Master only**"
-msgstr ""
+msgstr "**On Master only**"
 
 #: ../../more_information/get_involved/rst_template.rst:0
 msgid "**Known bugs**"
-msgstr ""
+msgstr "**Known bugs**"
 
 #: ../../more_information/get_involved/rst_template.rst:1
 msgid ""
@@ -108,13 +108,11 @@ msgid "1 empty line between title or text paragraph"
 msgstr "1 lege regel tussen titel of text paragraaf"
 
 #: ../../more_information/get_involved/rst_template.rst:45
-#, fuzzy
 #| msgid "2 empty lines after a :ref: or before a reference"
 msgid "2 empty lines after a ``:ref:`` or before a reference"
-msgstr "2 lege regels na een :ref: of voor een verwijzing"
+msgstr "2 lege regels na een ``:ref:`` of voor een verwijzing"
 
 #: ../../more_information/get_involved/rst_template.rst:47
-#, fuzzy
 #| msgid ""
 #| "After a command with .. next line must be indented by 3 blank spaces to "
 #| "make the below line is part of the command. The number of indent spaces "
@@ -124,7 +122,7 @@ msgid ""
 "spaces to make the below line part of the directive. The number of indent "
 "spaces must be always the same."
 msgstr ""
-"Na een opdracht met .. moet de volgende regel ingesprongen worden met 3 "
+"Na een opdracht met ``..``, moet de volgende regel ingesprongen worden met 3 "
 "spaties om de onderstaande regel deel van de opdracht te maken. Het aantal "
 "ingesprongen spaties moet altijd hetzelfde zijn."
 
@@ -133,40 +131,40 @@ msgid "Description of the picture (caption or legend)"
 msgstr "Beschrijving van het plaatje (opschrift of legenda)"
 
 #: ../../more_information/get_involved/rst_template.rst:66
-#, fuzzy
 #| msgid "Main Title"
 msgid "Maintained"
-msgstr "Hoofdtitel"
+msgstr "Maintained"
 
 #: ../../more_information/get_involved/rst_template.rst:68
 msgid "Yes"
-msgstr ""
+msgstr "Yes"
 
 #: ../../more_information/get_involved/rst_template.rst:70
 msgid "opencv"
-msgstr ""
+msgstr "opencv"
 
 #: ../../more_information/get_involved/rst_template.rst:72
 msgid "tracker"
-msgstr ""
+msgstr "tracker"
 
 #: ../../more_information/get_involved/rst_template.rst:74
 msgid "|linux| |appimage| |windows| |apple|"
-msgstr ""
+msgstr "|linux| |appimage| |windows| |apple|"
 
 #: ../../more_information/get_involved/rst_template.rst:76
 #: ../../more_information/get_involved/rst_template.rst:78
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: ../../more_information/get_involved/rst_template.rst:82
-#, fuzzy
 #| msgid ""
 #| "The `rst-class:: clear-both` resets floating text before a new chapter"
 msgid ""
 "The ``rst-class:: clear-both`` directive resets floating text (``:align: "
 "left`` or ``right``) before a new chapter or a ``list-table`` directive."
-msgstr "De `rst-class:: clear-both` reset zwevende tekst vóór een nieuw teken"
+msgstr ""
+"De ``rst-class:: clear-both`` reset zwevende tekst (``:align: "
+"left`` or ``right``) vóór een nieuw hoofdstuk of een ``list-table`` opdracht"
 
 #: ../../more_information/get_involved/rst_template.rst:84
 msgid ""
@@ -179,34 +177,46 @@ msgid ""
 "character. Try to avoid that and do not use ``:align:`` when a ``list-"
 "table`` follows."
 msgstr ""
+"Het pipe karakter ``|`` is nodig om ``rst-class:: clear-both`` uit te voeren"
+" als een spatie volgt of in het geval van een ``list-table`` aanwijzing na"
+" een ``figure`` opdracht met ``:align: left`` of ``align: right`` zodat"
+" Google Chrome de tabel correct kan tonen. Als er geen ``:align: left`` or"
+" ``:align: right`` is, dan kan ``list-table`` de ``figure`` opdracht volgen"
+" dat een een ``rst-class:: clear-both`` en de ``|`` pipe karakter nodig is."
+" Probeer dit te vermijden en gebruik geen ``:align:`` als een ``list-table``"
+" volgt."
 
 #: ../../more_information/get_involved/rst_template.rst:94
 msgid "UI Element"
-msgstr ""
+msgstr "UI Element"
 
 #: ../../more_information/get_involved/rst_template.rst:95
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 #: ../../more_information/get_involved/rst_template.rst:96
 msgid "1 :guilabel:`edit frame`"
-msgstr ""
+msgstr "1 :guilabel:`edit frame`"
 
 #: ../../more_information/get_involved/rst_template.rst:97
 msgid ""
 "[Project Monitor only] Identifies the object or area of the effect. :term:"
 "`Edit Mode<edit mode>` needs to be enabled for the frame to show."
 msgstr ""
+"[Project Monitor only] Identificeert he object of het vlak waarop het effect."
+" :term:`Edit Mode<edit mode>` moet worden ingeschakeld om de frame te tonen."
 
 #: ../../more_information/get_involved/rst_template.rst:98
 msgid "2 :guilabel:`edit frame handles`"
-msgstr ""
+msgstr "2 :guilabel:`edit frame handles`"
 
 #: ../../more_information/get_involved/rst_template.rst:99
 msgid ""
 "Used to change the size (square handles) and move the frame (circle in the "
 "middle)"
 msgstr ""
+"Wordt gebruikt om de grootte (vierkante hendels) te wijzigen en om het frame"
+" (cirkel in het midden) te verplaatsen"
 
 #: ../../more_information/get_involved/rst_template.rst:103
 msgid "Images side by side"
@@ -217,6 +227,8 @@ msgid ""
 "Use ``.. rubric::`` if you want a section-like element that is not included "
 "in the table of contents."
 msgstr ""
+"Gebruik ``.. rubric::`` als een sectie-achtig element gewenst is die niet in"
+" de inhoudsopgave terecht moet komen."
 
 #: ../../more_information/get_involved/rst_template.rst:106
 msgid "|pic1| any text |pic2|"
@@ -294,13 +306,12 @@ msgstr "Dit toont een venster met een waarschuwing"
 
 #: ../../more_information/get_involved/rst_template.rst:146
 msgid "Windows Only!"
-msgstr ""
+msgstr "Windows Only!"
 
 #: ../../more_information/get_involved/rst_template.rst:148
-#, fuzzy
 #| msgid "This shows a warning window"
 msgid "This is a warning for Windows user only."
-msgstr "Dit toont een venster met een waarschuwing"
+msgstr "Dit is een waarschuwing alleen voor Windows-gebruikers"
 
 #: ../../more_information/get_involved/rst_template.rst:151
 msgid "This is **bold text**"
@@ -405,6 +416,8 @@ msgstr "Deze heeft ook twee items."
 #: ../../more_information/get_involved/rst_template.rst:207
 msgid "``.. glossary::`` and ``:sorted:``: Insert a glossary which is sorted."
 msgstr ""
+"``.. glossary::`` en ``:sorted:``: Voegt een woordenlist toe die gesorteerd"
+" (op volgorde gelegd) is."
 
 #: ../../more_information/get_involved/rst_template.rst:210
 msgid ""
@@ -431,3 +444,4 @@ msgstr ""
 
 #~ msgid "Text of footnote 1"
 #~ msgstr "Tekst van voetnoot 1"
+
