@@ -209,6 +209,10 @@ Effect Functions
 
    Kdenlive Effect Panel
 
+.. .. versionadded:: 25.04
+
+|go-down| Expand/collapse the effect panel. :kbd:`Shift + click` to expand/collapse all effects 
+
 |keyframe-disable| Hide/show keyframes - Turns the display of the keyframe ruler off or on
 
 |zoom-fit-width| Use effect zone - Toggles the display to show the :ref:`effect zone <effects-effect_zones>`
