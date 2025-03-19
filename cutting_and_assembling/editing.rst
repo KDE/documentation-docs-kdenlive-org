@@ -126,33 +126,31 @@ The duration/resize is linked to the start position of each clip. Meaning if you
 
 :guilabel:`Position` show the start position of the most left selected clip
 
-.. figure:: /images/kdenlive2412_resizing-clip-same-length.webp
+.. .. versionadded:: 25.04
+
+:guilabel:`Duration` show the length of the first selected clip done by :kbd:`Shift + click`. When selected by :kbd:`Shift + drag` it show the length of the most left clip.
+
+.. figure:: /images/kdenlive2504_resizing-multiple-clip.webp
    :width: 50%
    :figwidth: 50%
    :alt: All selected clips have the same length
 
-   All selected clips have the same length
-
-.. figure:: /images/kdenlive2412_resizing-clip-different-length.webp
-   :width: 50%
-   :figwidth: 50%
-   :alt: The selected clips have different  length
-
-   The selected clips have different length
+   Selection with :kbd:`Shift + drag` show the length of the most left clip 
 
 -	Shorten and lengthen duration: The clips get shortened/lengthened but keep their starting position
 
 -	Clips attached to each other: You cannot lengthen the clips
 
+.. .. versionadded:: 25.04
 
-Change duration with |kdenlive-ripple| :guilabel:`Ripple Tool` enabled
+Change duration with :guilabel:`Ripple resize` enabled
 
-.. figure:: /images/kdenlive2412_resizing-clip-different-length-ripple.webp
+.. figure:: /images/kdenlive2504_resizing-multiple-clip-ripple.webp
    :width: 50%
    :figwidth: 50%
    :alt: All selected clips have the same length
 
-   The selected clips have different length
+   Selection with :kbd:`Shift + click` show the length of the first selected clip
 
 -	Shorten and lengthen duration: The starting position of the left most selected clip on each track is fixed. Any gaps between clips are kept.
 
