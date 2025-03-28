@@ -1,0 +1,142 @@
+# Spanish translations for docs_kdenlive_org_compositing.po package.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-01-14 01:50+0000\n"
+"PO-Revision-Date: 2025-03-28 01:56+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: ../../compositing.rst:0
+msgid "Image file formats"
+msgstr "Archivos de imagen"
+
+#: ../../compositing.rst:0
+msgid "Video file formats"
+msgstr "Archivos de video"
+
+#: ../../compositing.rst:1
+msgid "Kdenlive Documentation - Compositing"
+msgstr "Documentación de Kdenlive - Composición"
+
+#: ../../compositing.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
+"learn, easy, compositing"
+msgstr ""
+"KDE, Kdenlive, documentación, manual de usuario, editor de video, código "
+"abierto, libre, aprender, fácil, composición"
+
+#: ../../compositing.rst:14
+msgid "Transitions and Compositions"
+msgstr "Transiciones y métodos de composición"
+
+#: ../../compositing.rst:16
+msgid ""
+"Compositing is the process of combining several visual elements from "
+"different sources into a single video. It involves replacing selected parts "
+"of an image or video with other material, usually other images or videos."
+msgstr ""
+"La composición es el proceso de combinar varios elementos visuales "
+"provenientes de distintas fuentes en un único video. Involucra el reemplazo "
+"de partes seleccionadas de una imagen o video con otro material, usualmente "
+"otras imágenes o videos."
+
+#: ../../compositing.rst:18
+msgid ""
+"To create a composite from several clips, you make parts of one or more of "
+"the clips transparent so that the other clips can show through. :doc:`Alpha "
+"shapes</effects_and_filters/video_effects/alpha_mask_keying>`, :doc:"
+"`rotoscoping</effects_and_filters/video_effects/alpha_mask_keying/"
+"rotoscoping>`, and masks are the most common features for making portions of "
+"the clips transparent."
+msgstr ""
+"Para crear una composición a partir de varios clips, será posible hacer que "
+"partes de uno o más clips sean transparentes, de manera que otros clips "
+"puedan ser vistos a través de ellos. :doc:`Forma alfa </effects_and_filters/"
+"video_effects/alpha_mask_keying>`, :doc:`Rotoscopía </effects_and_filters/"
+"video_effects/alpha_mask_keying/rotoscoping>`, así como máscaras son las "
+"características más comunes para lograr que partes de los clips sean "
+"transparentes."
+
+#: ../../compositing.rst:20
+msgid ""
+"You can use the :guilabel:`Opacity` parameter in the :doc:`Transform</"
+"effects_and_filters/video_effects/transform_distort_perspective/transform>` "
+"effect to control uniform transparency of a clip. This can be animated "
+"using :term:`keyframes <keyframe>` to fade a clip down or up over time."
+msgstr ""
+"Será posible usar el parámetro :guilabel:`Opacidad` del efecto :doc:"
+"`Transformar</effects_and_filters/video_effects/"
+"transform_distort_perspective/transform>` para controlar la transparencia "
+"general de un clip. Ésta podrá ser animada usando :term:`claves <fotograma "
+"clave>` para fundir un clip a lo largo del tiempo para hacerlo aparecer o "
+"desaparecer."
+
+#: ../../compositing.rst:22
+msgid ""
+"Some clips may have their transparency information stored in the alpha "
+"channel. You can tell Kdenlive how to use this information during "
+"compositing. The following file formats may contain an alpha channel:"
+msgstr ""
+"Algunos clips podrán tener información de opacidad almacenada en el canal "
+"alfa. Será posible decirle a Kdenlive cómo usar esta información durante el "
+"proceso de composición. Los siguientes formatos de archivo son capaces de "
+"contener un canal alfa:"
+
+#: ../../compositing.rst:25
+msgid "EXR, PNG, APNG, TIFF, GIF, SVG, JXL"
+msgstr "EXR, PNG, APNG, TIFF, GIF, SVG, JXL"
+
+#: ../../compositing.rst:28
+msgid "MOV, HEVC, WEBM"
+msgstr "MOV, HEVC, WEBM"
+
+#: ../../compositing.rst:30
+msgid ""
+"Compositing more than two clips requires subsequent compositions between the "
+"other tracks, or the clever use of alpha channels and mattes."
+msgstr ""
+"Componer clips en más de dos pistas requerirá la utilización de "
+"subsiguientes composiciones entre las otras pistas o un uso diestro de los "
+"canales alfa y mates."
+
+#: ../../compositing.rst:32
+msgid ""
+"In Kdenlive, you put the different sources into tracks in the **Timeline** "
+"and use **Compositions** to tell Kdenlive how to combine them. For example, "
+"the *Dissolve* composition fades out one clip while fading in another over a "
+"certain number of frames."
+msgstr ""
+"En Kdenlive, las distintas fuentes serán colocadas en pistas de la **Línea "
+"de tiempo**, usándose **Composiciones** para instruir a Kdenlive sobre cómo "
+"combinarlas. Por ejemplo, la composición *Disolver* permitirá fundir un "
+"clip, dejando ver otro en la pista inferior a lo largo de una cierta "
+"cantidad de fotogramas."
+
+#: ../../compositing.rst:34
+msgid ""
+"That is why :doc:`/compositing/compositions` are often referred to as :doc:`/"
+"compositing/transitions`."
+msgstr ""
+"Esta es la razón por la que muchas veces a las :doc:`/compositing/"
+"compositions` se las denomina :doc:`/compositing/transitions`."
+
+#: ../../compositing.rst:36
+msgid ""
+"Alpha channels are taken into account automatically so that clips with alpha "
+"can be stacked on top of each other without the need of compositions."
+msgstr ""
+"Los canales alfa serán tomados en cuenta de forma automática en la línea de "
+"tiempo, por lo que los clips con alfa podrán ser apilados unos sobre otros "
+"sin necesidad de agregar un método de composición entre ellos."
