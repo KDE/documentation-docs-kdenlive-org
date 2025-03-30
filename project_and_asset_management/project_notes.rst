@@ -22,13 +22,13 @@ For complex or big projects, it is good practice to keep notes about the footage
 
 You enable the Project Notes widget from the Kdenlive :menuselection:`Menu --> View --> Project Notes`. You can move it around and dock it where it fits your working style and workflow. For more details about adjusting the workspace see the chapters about :doc:`/user_interface/workspace_layouts` and :doc:`/user_interface/customizing_interface`.
 
-.. figure:: /images/project_and_asset_management/project_notes.webp
+.. figure:: /images/project_and_asset_management/kdenlive2504_project_notes.webp
    :width: 360px
    :figwidth: 360px
    :align: left
    :alt: project_notes
 
-   The Project Notes widget
+   The Project Notes widget with open search function
 
 It is basically a small text editor, but also has the ability to create links to some places in your project's timeline.
 
@@ -38,7 +38,15 @@ It is basically a small text editor, but also has the ability to create links to
 
 :3: |list-add|\ :guilabel:`Create markers from selected timecodes`
 
-:4: Notes area
+.. .. versionadded:: 25.04
+
+:4: |edit-find|\ :guilabel:`Search`, :kbd:`Ctrl+F`. When the search text is found the search background changes from red to green.
+
+:5: |go-up|\ :guilabel:`Find Previous`, :kbd:`Shift+F3`
+
+:6: |go-down|\ :guilabel:`Find Next`, :kbd:`F3`
+
+:7: Notes area
 
 .. rst-class:: clear-both
 
