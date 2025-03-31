@@ -1,15 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Automatically generated, 2021.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2021.
+# SPDX-FileCopyrightText: 2021 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_kdenlive_org_effects_and_compositions\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-31 01:49+0000\n"
-"PO-Revision-Date: 2023-07-28 01:47-0300\n"
+"PO-Revision-Date: 2025-03-30 23:29+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,13 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../effects_and_filters.rst:1
-#, fuzzy
-#| msgid "Effects and Compositions"
 msgid "Kdenlive Documentation - Effects and Filters"
-msgstr "Efectos y métodos de composición"
+msgstr "Efectos"
 
 #: ../../effects_and_filters.rst:1
 msgid ""
@@ -44,27 +43,18 @@ msgid "Creative Commons License SA 4.0"
 msgstr "Licencia Creative Commons SA 4.0"
 
 #: ../../effects_and_filters.rst:24
-#, fuzzy
-#| msgid "Effects and Compositions"
 msgid "Effects and Filters"
-msgstr "Efectos y métodos de composición"
+msgstr "Efectos"
 
 #: ../../effects_and_filters.rst:26
-#, fuzzy
-#| msgid ""
-#| "Effects and Compositions are very important components in video editing. "
-#| "In Kdenlive, effects and compositions are essentially filters provided by "
-#| "|frei0r| or |avfilter| (Kdenlive does not have built-in effects or "
-#| "compositions of its own)."
 msgid ""
 "Effects and Filters are very important components in video editing. In "
 "Kdenlive, effects and filters are provided by |frei0r| or |avfilter| "
 "(Kdenlive does not have built-in effects or filters of its own)."
 msgstr ""
-"Los efectos y métodos de composición son componentes muy importantes en la "
-"edición de video. En Kdenlive, los efectos y métodos de composición son, "
-"esencialmente, filtros provistos por |frei0r| o |avfilter| (Kdenlive no "
-"posee efectos o métodos de composición propios)."
+"Los efectos son componentes muy importantes en la edición de video. En "
+"Kdenlive, los efectos son provistos por |frei0r| y |avfilter| (Kdenlive, en "
+"sí mismo, no posee efectos propios)."
 
 #: ../../effects_and_filters.rst:30
 msgid ""
@@ -75,10 +65,10 @@ msgid ""
 "or rotoscoping."
 msgstr ""
 "Los efectos son usados para cambiar la apariencia o manipular un clip. Por "
-"ejemplo, el efecto **Transformación** permite redimensionar y mover un clip; "
-"el efecto **Brillo** permite cambiar el brillo de un clip; los efectos en la "
-"categoría *Alfa, enmascaramiento y recorte* proporcionan filtros muy "
-"específicos para enmascarar o realizar rotoscopías."
+"ejemplo, el efecto **Transformar** permite redimensionar y mover un clip; el "
+"efecto **Brillo** permite cambiar el brillo de un clip; los efectos en la "
+"categoría *Alfa, enmascaramiento y recorte* proporcionan funciones muy "
+"específicas para enmascarar o realizar rotoscopías."
 
 #: ../../effects_and_filters.rst:37
 msgid ""
@@ -91,50 +81,48 @@ msgstr ""
 
 #: ../../effects_and_filters.rst:39
 msgid "There are several ways to apply effects:"
-msgstr "Existen varias formas de alicar efectos:"
+msgstr "Existen varias formas de aplicar efectos:"
 
 #: ../../effects_and_filters.rst:41
 msgid ""
 "On the clip in the Project Bin, which makes the effect available in all "
 "instances of that clip in the Timeline"
 msgstr ""
-"Sobre el clip en la Bandeja del proyecto, lo que hace que el efecto se "
-"aplique a todas las instancias de ese clip en el proyecto"
+"Sobre un clip en la Bandeja del proyecto, lo que hace que esos efectos "
+"acompañen a todas las instancias de ese clip usadas en el proyecto"
 
 #: ../../effects_and_filters.rst:43
 msgid ""
 "On the clip in the Timeline, which makes the effect only applicable for that "
 "clip in the Timeline at that point"
 msgstr ""
-"Sobre el clip en la Línea de tiempo, lo que hace que el efecto se aplique "
-"únicamente a esa instancia del clip en la secuencia"
+"Sobre un clip en la Línea de tiempo, lo que hace que el efecto se aplique "
+"únicamente a esa instancia particular del clip en esa secuencia"
 
 #: ../../effects_and_filters.rst:45
 msgid ""
 "On the track, which applies the effect to all clips in that particular track"
 msgstr ""
 "Sobre una pista de la Línea de tiempo, lo que hace que el efecto se aplique "
-"a todos los clips en esa pista de la secuencia"
+"a todos los clips que se coloquen en esa pista de la secuencia"
 
 #: ../../effects_and_filters.rst:47
 msgid "On Master, which applies that effect to all clips in all tracks"
 msgstr ""
-"Sobre la pista Maestra, lo que hace que el efecto se aplique a todos los "
-"clips en todas las pistas de esa secuencia"
+"Sobre la pista Maestra, lo que hace que el efecto se aplique al resultado "
+"final de esa secuencia"
 
 #: ../../effects_and_filters.rst:49
 msgid ""
 "Not all effects can be used at the track or Master level nor does it make "
 "sense."
 msgstr ""
-"No todos los efectos pueden ser usados a nivel de pistas o de pista Maestra, "
-"ni tendría sentido hacerlo."
+"No todos los efectos podrán ser usados como efectos de pistas o de la pista "
+"Maestra, ni tendría sentido hacerlo."
 
 #: ../../effects_and_filters.rst:55
-#, fuzzy
-#| msgid "Audio Effects"
 msgid "Built-in Effects"
-msgstr "Efectos de audio"
+msgstr "Efectos incorporados"
 
 #: ../../effects_and_filters.rst:59
 msgid ""
@@ -145,30 +133,41 @@ msgid ""
 "the :doc:`Volume </effects_and_filters/audio_effects/volume_and_dynamics/"
 "volume_keyframable>` effect is added by default."
 msgstr ""
+"En caso de estar habilitados, al arrastrar un clip a la línea de tiempo se "
+"agregarán automáticamente los efectos de video :doc:`Invertir </"
+"effects_and_filters/video_effects/transform_distort_perspective/flippo>` y :"
+"doc:`Transformar </effects_and_filters/video_effects/"
+"transform_distort_perspective/transform>` y el efecto de audio :doc:`Volumen "
+"</effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`."
 
 #: ../../effects_and_filters.rst:61
 msgid ""
 "These are the most used effects which you now have at your fingertips "
 "without the need to add them manually."
 msgstr ""
+"Se trata de los efectos más comunes, que ahora estarán a disposición sin la "
+"necesidad de agregarlos manualmente."
 
 #: ../../effects_and_filters.rst:63
 msgid "|video-effect| < video part | audio part > |audio-effect|"
-msgstr ""
+msgstr "|video-effect| < video | audio > |audio-effect|"
 
 #: ../../effects_and_filters.rst:73
 msgid ""
 "The built-in effects are disabled by default. So you have to enable it "
 "before you can use it."
 msgstr ""
+"Los efectos incorporados se encuentran deshabilitados, de forma "
+"predeterminada. Por lo que será necesario habilitarlos en la configuración "
+"de Kdenlive."
 
 #: ../../effects_and_filters.rst:75
 msgid "Built-in effects can be used in three places:"
-msgstr ""
+msgstr "Los efectos incorporados podrán ser usados en tres lugares:"
 
 #: ../../effects_and_filters.rst:77
 msgid "on the timeline when a clip is available"
-msgstr ""
+msgstr "En la línea de tiempo, cuando haya un clip disponible"
 
 #: ../../effects_and_filters.rst:79
 msgid ""
@@ -177,6 +176,10 @@ msgid ""
 "effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>` "
 "on audio track)"
 msgstr ""
+"En el encabezado de una pista (sólo :doc:`Invertir </effects_and_filters/"
+"video_effects/transform_distort_perspective/flippo>` para pistas de video y :"
+"doc:`Volumen </effects_and_filters/audio_effects/volume_and_dynamics/"
+"volume_keyframable>` para pistas de audio)"
 
 #: ../../effects_and_filters.rst:81
 msgid ""
@@ -184,18 +187,26 @@ msgid ""
 "transform_distort_perspective/flippo>` and :doc:`Volume </"
 "effects_and_filters/audio_effects/volume_and_dynamics/volume_keyframable>`)"
 msgstr ""
+"En la pista Maestra (sólo :doc:`Invertir </effects_and_filters/video_effects/"
+"transform_distort_perspective/flippo>` y :doc:`Volumen </effects_and_filters/"
+"audio_effects/volume_and_dynamics/volume_keyframable>`)"
 
 #: ../../effects_and_filters.rst:83
 msgid ""
 "All built-in effects can be disabled/enabled globally in :menuselection:"
 "`Settings --> Configure Kdenlive -> Misc`"
 msgstr ""
+"Los efectos incorporados podrán ser habilitados/deshabilitados globalmente "
+"en :menuselection:`Preferencias --> Configurar Kdenlive -> General`"
 
 #: ../../effects_and_filters.rst:91
 msgid ""
 "Under **Misc** you can disable/enable all built-in effects. Default is "
 "**disabled**."
 msgstr ""
+"En la sección **General** será posible habilitar o deshabilitar globalmente "
+"los efectos incorporados. De forma predeterminada se encuentran "
+"**deshabilitados**."
 
 #: ../../effects_and_filters.rst:99
 msgid "Effects Tab"
@@ -208,15 +219,11 @@ msgid ""
 msgstr "Es posible abrir el panel Efectos mediante el menú `Ver --> Efectos`."
 
 #: ../../effects_and_filters.rst:105
-#, fuzzy
-#| msgid ""
-#| "The Effects widget has seven control icons that show or hide the "
-#| "different effect categories:"
 msgid ""
 "The Effects widget has eight control icons that show or hide the different "
 "effect categories:"
 msgstr ""
-"El panel Efectos contiene siete íconos de control que permiten mostrar u "
+"El panel Efectos contiene ocho íconos de control que permitirán mostrar u "
 "ocultar las distintas categorías de efectos:"
 
 #: ../../effects_and_filters.rst:113
@@ -225,51 +232,39 @@ msgstr ""
 "El panel Efectos de Kdenlive empotrado en el área de la Bandeja del proyecto"
 
 #: ../../effects_and_filters.rst:115
-#, fuzzy
-#| msgid ""
-#| "1 - **Main Effects** shows all video and audio effects (default view)"
 msgid ""
 "|show-all-effects| :guilabel:`Main effects` shows all video and audio "
 "effects (default view)"
 msgstr ""
-"1 - **Todos los efectos** muestra todos los efectos de audio y video (vista "
-"predeterminada)"
+"|show-all-effects| :guilabel:`Todos` mostrará todos los efectos de audio y "
+"video (es el modo predeterminado)"
 
 #: ../../effects_and_filters.rst:117
 msgid ""
 "|kdenlive-show-video| :guilabel:`Show all video effects` shows all video "
 "effect categories only"
 msgstr ""
+"|kdenlive-show-video| :guilabel:`Efectos de video` mostrará sólo los efectos "
+"de las categorías de video"
 
 #: ../../effects_and_filters.rst:119
-#, fuzzy
-#| msgid "3 - **Audio Effects** shows all audio effects categories"
 msgid ""
 "|kdenlive-audio| :guilabel:`Show all audio effects` shows all audio effects "
 "categories only"
 msgstr ""
-"3 - **Efectos de audio** muestra todas las categorías de efectos de audio"
+"|kdenlive-audio| :guilabel:`Efectos de audio` mostrará sólo los efectos de "
+"las categorías de audio"
 
 #: ../../effects_and_filters.rst:121
-#, fuzzy
-#| msgid ""
-#| "4 - **Custom Effects** shows all effects you have created by saving an "
-#| "effect stack."
 msgid ""
 "|kdenlive-custom-effect| :guilabel:`Show all custom effects` shows all "
 "effects :ref:`you have created <effects-custom>` by saving an effect stack."
 msgstr ""
-"4 - **Efectos personalizados** muestra todas las combinaciones de efectos "
-"que han sido guardadas por el usuario."
+"|kdenlive-custom-effect| :guilabel:`Efectos personalizados` mostrará los "
+"efectos que hubieran sido :ref:`creados <effects-custom>` al guardar una "
+"pila de efectos."
 
 #: ../../effects_and_filters.rst:125
-#, fuzzy
-#| msgid ""
-#| "5 - **Favorite Effects** shows all effects that were flagged as a "
-#| "favorite effect. This is the same list that appears when selecting :"
-#| "guilabel:`Insert an effect` from the right-click menu of a clip in the "
-#| "Timeline, or by clicking the :guilabel:`Favorite Effects` in the Timeline "
-#| "toolbar."
 msgid ""
 "|favorite| :guilabel:`Show all favorite items` shows all effects that were "
 "flagged as a favorite effect. This is the same list that appears when "
@@ -277,23 +272,20 @@ msgid ""
 "in the Timeline, or by clicking the :guilabel:`Favorite Effects` in the "
 "Timeline toolbar."
 msgstr ""
-"5 - **Efectos favoritos** muestra todos los efectos que fueron marcados como "
-"favoritos. Esta lista es también la que se muestra al seleccionar :guilabel:"
-"`Insertar efecto…` mediante clic derecho sobre un clip en la Línea de "
-"tiempo, o al hacer clic sobre el botón :guilabel:`Efectos favoritos` en la "
-"Barra de herramientas de la Línea de tiempo."
+"|favorite| :guilabel:`Favoritos` mostrará todos los efectos que hubieran "
+"sido marcados como favoritos. Estos efectos serán los mismos mostrados en el "
+"submenú :guilabel:`Insertar efecto` accesible mediante clic derecho sobre un "
+"clip en la Línea de tiempo, o al hacer clic sobre el botón :guilabel:"
+"`Efectos favoritos` en la Barra de herramientas de la Línea de tiempo."
 
 #: ../../effects_and_filters.rst:127
-#, fuzzy
-#| msgid ""
-#| "7 - **Download Effects** opens a dialog window where effect templates are "
-#| "listed from the KDE Store"
 msgid ""
 "|edit-download| :guilabel:`Download New Effects` opens a dialog window where "
 "effect templates are listed from the KDE Store"
 msgstr ""
-"7 - **Descargar efectos** abre una ventana de diálogo con una lista de "
-"plantillas de efectos desde el KDE Store"
+"|edit-download| :guilabel:`Descargar nuevos efectos` abrirá una ventana de "
+"diálogo con una lista de plantillas de efectos, disponibles desde la KDE "
+"Store"
 
 #: ../../effects_and_filters.rst:129
 msgid ""
@@ -301,22 +293,21 @@ msgid ""
 "effects which are reviewed and tested by the Kdenlive team and not tested "
 "effects (still in test phase)"
 msgstr ""
+"|view-filter| :guilabel:`Sólo mostrar recursos revisados` permitirá alternar "
+"la visualización de todos los efectos o sólo de aquellos que han sido "
+"revisados y probados por el equipo de Kdenlive"
 
 #: ../../effects_and_filters.rst:131
-#, fuzzy
-#| msgid ""
-#| "6 - **Show Effect Info** toggles the information display below the effect "
-#| "list where a short description of what the effect does is displayed when "
-#| "on"
 msgid ""
 "|help-about| :guilabel:`Show/hide description of effects` toggles the "
 "information display below the effect list where a short description of what "
 "the effect does is displayed when on. Click on the blue effect text opens "
 "the online documentation to this effect."
 msgstr ""
-"6 - **Mostrar información de efecto** alterna el despliegue de información "
-"en un cuadro debajo de la lista de efectos, en donde se muestra una corta "
-"descripción de las funciones del efecto"
+"|help-about| :guilabel:`Descripciones de efectos` permitirá alternar la "
+"visualización de un sub panel con una breve descripción de las funciones del "
+"efecto. Al final de la descripción habrá un enlace que llevará a la "
+"documentación en línea del efecto."
 
 #: ../../effects_and_filters.rst:137
 msgid "Effect/Composition Stack"
@@ -346,11 +337,12 @@ msgstr ""
 
 #: ../../effects_and_filters.rst:157
 msgid "Effect/Composition Stack Functions"
-msgstr "Funciones generales del panel"
+msgstr "Funciones globales de efectos"
 
 #: ../../effects_and_filters.rst:164
 msgid "Kdenlive Effect Stack"
-msgstr "El encabezado del panel Opciones de efectos/composición de Kdenlive"
+msgstr ""
+"Se encuentran en el encabezado del panel Opciones de efectos/composición"
 
 #: ../../effects_and_filters.rst:166
 msgid ""
@@ -359,9 +351,9 @@ msgid ""
 "category and a comment which will be displayed in the information display"
 msgstr ""
 "|document-save-all| Guardar pila de efectos… - Abre un diálogo para ingresar "
-"un nombre para la pila de efectos, bajo el que será listado en la categoría "
-"de efectos *Personalizados*, así como un comentario, que se mostrará en la "
-"descripción del efecto"
+"un nombre para almacenar la pila de efectos, bajo el que será listado en la "
+"categoría de efectos *Personalizados*, así como un comentario, que se "
+"mostrará en la descripción de dicha plantilla de efectos"
 
 #: ../../effects_and_filters.rst:168
 msgid ""
@@ -369,26 +361,26 @@ msgid ""
 "vertically to do a side-by-side comparison of the clip with and without "
 "effects"
 msgstr ""
-"|view-split-left-right| Comparar efecto - Divide la imagen del Monitor de "
-"forma vertical para permitir realizar una comparación lado a lado del clip "
-"con y sin los efectos aplicados"
+"|view-split-left-right| Comparar efectos - Dividirá la imagen del Monitor "
+"correspondiente, de forma vertical, para permitir realizar una comparación "
+"lado a lado del clip con y sin los efectos aplicados"
 
 #: ../../effects_and_filters.rst:170
 msgid ""
 "|visibility| Effects enabled - Switches the effect stack on or off. This is "
 "equivalent to disabling all effects in the effect stack."
 msgstr ""
-"|visibility| Efectos habilitados/deshabilitados - Alterna el estado de "
-"habilitación de la pila de efectos. Es equivalente a deshabilitar/habilitar "
-"todos los efectos del clip."
+"|visibility| Efectos habilitados/deshabilitados - Permitirá alternar el "
+"estado de habilitación de la pila de efectos. Es equivalente a deshabilitar/"
+"habilitar todos los efectos de un clip."
 
 #: ../../effects_and_filters.rst:172
 msgid ""
 "|keyframe-disable| Hide/Show keyframes in Timeline - Switches the display of "
 "keyframes in the clip in the Timeline on or off"
 msgstr ""
-"|keyframe-disable| Ocultar/Mostrar claves en línea de tiempo - Alterna la "
-"visualización de fotogramas clave sobre el clip en la Línea de tiempo"
+"|keyframe-disable| Ocultar/Mostrar claves en línea de tiempo - Permitirá "
+"alternar la visualización de claves sobre el clip en la Línea de tiempo"
 
 #: ../../effects_and_filters.rst:178
 msgid ""
@@ -396,13 +388,17 @@ msgid ""
 "effect button to enable/disable the clip stack of this clip. When disabled "
 "the effect name on the clip is strikeout."
 msgstr ""
+"Cuando existan efectos aplicados a un clip en la Línea de tiempo, será "
+"posible hacer clic sobre el botón de efectos que aparece sobre el propio "
+"clip, para alternar el estado de habilitación de todos sus efectos. Cuando "
+"se encuentren deshabilitados, el botón se mostrará en negro y los nombres de "
+"los efectos tachados."
 
 #: ../../effects_and_filters.rst:185
-#, fuzzy
-#| msgid "Kdenlive Effects widget as a tab in the Project Bin area"
 msgid "Kdenlive Effect Stack disabled by click on the effect of a clip"
 msgstr ""
-"El panel Efectos de Kdenlive empotrado en el área de la Bandeja del proyecto"
+"La pila de efectos de un clip deshabilitada, al hacer clic sobre el botón de "
+"efectos del clip"
 
 #: ../../effects_and_filters.rst:195
 msgid "Effect Functions"
@@ -425,6 +421,8 @@ msgid ""
 "|zoom-fit-width| Use effect zone - Toggles the display to show the :ref:"
 "`effect zone <effects-effect_zones>`"
 msgstr ""
+"|zoom-fit-width| Usar zona de efecto - Alterna la visualización de una :ref:"
+"`zona de aplicación para el efecto <effects-effect_zones>`"
 
 #: ../../effects_and_filters.rst:216
 msgid ""
@@ -433,20 +431,16 @@ msgid ""
 msgstr ""
 "|visibility| Deshabilitar/Habilitar efecto - Alterna el estado de "
 "habilitación del efecto. El efecto permanece en la pila pero no será "
-"aplicado durante la reproducción o el procesamiento."
+"aplicado durante la reproducción ni el procesamiento."
 
 #: ../../effects_and_filters.rst:218
-#, fuzzy
-#| msgid ""
-#| "|adjustlevels2| Presets - Opens a list of advanced options to manage "
-#| "presets for the effect (e.g. reset the effect to its default parameters)"
 msgid ""
 "|adjustlevels2| Presets - Opens a list of advanced options to manage presets "
 "for the effect (e.g. reset the effect to its default parameters)."
 msgstr ""
-"|adjustlevels2| Ajustes - Despliega un menú con opciones para administrar "
-"ajustes predeterminados para el efecto (p.ej: restablecer el efecto a sus "
-"opciones predeterminadas)"
+"|adjustlevels2| Preajustes - Despliega un menú con opciones para administrar "
+"preajustes para el efecto (p.ej: restablecer el efecto a sus opciones "
+"predeterminadas)"
 
 #: ../../effects_and_filters.rst:220
 msgid ""
@@ -454,16 +448,18 @@ msgid ""
 "the effect under which it will be listed in the *Custom* effect category and "
 "a comment which will be displayed in the information display"
 msgstr ""
-"|document-save| Guardar efecto… - Abre un diálogo para ingresar un nombre "
+"|document-save| Guardar efecto - Abre un diálogo para ingresar un nombre "
 "para el efecto, bajo el que será listado en la categoría de efectos "
 "*Personalizados*, así como un comentario, que se mostrará en la descripción "
-"del efecto"
+"del mismo"
 
 #: ../../effects_and_filters.rst:222
 msgid ""
 "|help-about| Open effect documentation in browser  - This opens the online "
 "documentation to this effect"
 msgstr ""
+"|help-about| Abrir la documentación del efecto en un navegador  - Abrirá la "
+"documentación en línea del efecto"
 
 #: ../../effects_and_filters.rst:224
 msgid ""
@@ -486,85 +482,65 @@ msgid "|edit-delete| Delete effect - Removes the effect from the effect stack"
 msgstr "|edit-delete| Borrar efecto - Elimina el efecto de la pila de efectos"
 
 #: ../../effects_and_filters.rst:236
-#, fuzzy
-#| msgid "Apply an Effect"
 msgid "Applying an Effect"
 msgstr "Aplicación de efectos"
 
 #: ../../effects_and_filters.rst:239
-#, fuzzy
-#| msgid "Apply an Effect"
 msgid "Where to apply an effect"
-msgstr "Aplicación de efectos"
+msgstr "Dónde aplicar efectos"
 
 #: ../../effects_and_filters.rst:241
 msgid "An effect can be applied at four different levels of your project:"
 msgstr ""
+"Los efectos podrá ser aplicados en cuatros distintos niveles, dentro de un "
+"proyecto:"
 
 #: ../../effects_and_filters.rst:243
 msgid "On a clip in the timeline: it will affect only this clip"
-msgstr ""
+msgstr "Sobre un clip en la línea de tiempo: afectará únicamente a ese clip"
 
 #: ../../effects_and_filters.rst:244
-#, fuzzy
-#| msgid ""
-#| "On the clip in the Project Bin, which makes the effect available in all "
-#| "instances of that clip in the Timeline"
 msgid ""
 "On an clip in the bin: it will affect all the occurrences of this clip in "
 "the timeline"
 msgstr ""
-"Sobre el clip en la Bandeja del proyecto, lo que hace que el efecto se "
-"aplique a todas las instancias de ese clip en el proyecto"
+"Sobre un clip en la Bandeja del proyecto: afectará a todas las instancias de "
+"ese clip en el proyecto"
 
 #: ../../effects_and_filters.rst:245
-#, fuzzy
-#| msgid ""
-#| "On the track, which applies the effect to all clips in that particular "
-#| "track"
 msgid "On a track: it will affect all the clips on this track"
 msgstr ""
-"Sobre una pista de la Línea de tiempo, lo que hace que el efecto se aplique "
-"a todos los clips en esa pista de la secuencia"
+"Sobre una pista de la Línea de tiempo: afectará a todos los clips en esa "
+"pista de la secuencia"
 
 #: ../../effects_and_filters.rst:246
 msgid "On the Master: it will affect your global output"
-msgstr ""
+msgstr "Sobre la pista Maestra: afectará al resultado final de la secuencia"
 
 #: ../../effects_and_filters.rst:249
-#, fuzzy
-#| msgid "Apply an Effect"
 msgid "How to apply an effect"
-msgstr "Aplicación de efectos"
+msgstr "Cómo aplicar efectos"
 
 #: ../../effects_and_filters.rst:251
-#, fuzzy
-#| msgid ""
-#| "You apply an effect to a clip by either choosing it from the Effects Tab "
-#| "and dragging them onto a clip in the Project Bin or in the Timeline."
 msgid ""
 "For applying an effect to a clip in the Project Bin or in the Timeline, you "
 "can choose one from the Effects Tab and drag it onto the clip."
 msgstr ""
-"La aplicación de un efecto a un clip se realiza eligiéndolo desde el panel "
-"Efectos y arrastrándolo sobre el clip en la Bandeja del proyecto o la Línea "
-"de tiempo."
+"Para aplicar un efecto a un clip de la Bandeja del proyecto o la Línea de "
+"tiempo, bastará con arrastrarlo desde el panel Efectos y soltarlo sobre el "
+"clip."
 
 #: ../../effects_and_filters.rst:253
-#, fuzzy
-#| msgid ""
-#| "You can also double-click on an effect in the Effects Tab which adds the "
-#| "effect to either the clip in the Project Bin or in the Timeline depending "
-#| "on where the clip is selected."
 msgid ""
 "You can also double-click on an effect in the Effects Tab which adds the "
 "effect to the clip in the Project Bin which appears in the clip monitor. In "
 "the Timeline, it adds the effect to the clips which are selected. So you can "
 "apply an effect to several clips at once in the timeline."
 msgstr ""
-"También es posible hacer doble clic sobre el efecto en el panel Efectos, lo "
-"que lo agregará al clip en la Bandeja del proyecto o la Línea de tiempo, "
-"dependiendo de en dónde se había seleccionado el clip previamente."
+"También será posible hacer doble clic sobre el efecto en el panel Efectos, "
+"lo que agregará el efecto al clip correspondiente. En la Bandeja del "
+"proyecto lo agregará al clip que se esté mostrando en el Monitor de clips, "
+"en la Línea de tiempo lo agregará a todos los clips seleccionados."
 
 #: ../../effects_and_filters.rst:255
 msgid ""
@@ -575,7 +551,7 @@ msgid ""
 msgstr ""
 "Otro método es usar el ícono de |favorite|:guilabel:`Efectos favoritos` en "
 "la Barra de herramientas de la Línea de tiempo y seleccionar el efecto allí "
-"(para agregar efectos a la lista de favoritos se debe hacer clic derecho "
+"(para agregar efectos a la lista de favoritos se deberá hacer clic derecho "
 "sobre un efecto en el panel Efectos y seleccionar :guilabel:`Agregar a "
 "favoritos`)."
 
@@ -585,37 +561,36 @@ msgid ""
 "to select an effect from the various categories and add it to the selected "
 "clip(s) in the Timeline."
 msgstr ""
-"Alternativamente, es posible usar el menú :menuselection:`Línea de tiempo --"
-"> Agregar efecto` para seleccionar un efecto de entre las categorías "
-"disponibles y agregarlo a el/los clip(s) seleccionado(s) en la Línea de "
-"tiempo."
+"Alternativamente, será posible usar el menú :menuselection:`Línea de tiempo "
+"--> Agregar efecto` para seleccionar un efecto de entre las categorías "
+"disponibles y agregarlo a el o los clips seleccionados en la Línea de tiempo."
 
 #: ../../effects_and_filters.rst:259
 msgid ""
 "And last but not least you can copy effects with all their settings from any "
 "clip (Timeline or Project Bin) and paste them to other clips."
 msgstr ""
-"Y por último, pero no menos importante, es posible copiar efectos con todas "
-"sus opciones desde cualquier clip (Línea de tiempo o Bandeja del proyecto) y "
-"pegarlo en otros clips."
+"Y por último, pero no menos importante, será posible copiar efectos con "
+"todas sus opciones desde cualquier clip (Línea de tiempo o Bandeja del "
+"proyecto) y pegarlo en otros clips."
 
 #: ../../effects_and_filters.rst:261
 msgid ""
 "For applying an effect to a track, see :ref:`Track Effect <effects-"
 "track_effect>`."
 msgstr ""
+"Para aplicar un efecto a una pista, ver :ref:`Efectos de pistas <effects-"
+"track_effect>`."
 
 #: ../../effects_and_filters.rst:263
 msgid ""
 "For applying an effect to the Master, see :ref:`Master Effect <effects-"
 "master_effect>`."
 msgstr ""
+"Para aplicar un efecto a la pista Maestra, ver :ref:`Efectos de pista "
+"Maestra <effects-master_effect>`."
 
 #: ../../effects_and_filters.rst:265
-#, fuzzy
-#| msgid ""
-#| "Effects are always added at the bottom of the effect stack, and since the "
-#| "effect order is important can be re-arranged."
 msgid ""
 "Effects are always added at the bottom of the effect stack, and since the "
 "effect order is important, can be re-arranged."
@@ -647,30 +622,24 @@ msgstr ""
 "definidos."
 
 #: ../../effects_and_filters.rst:279
-#, fuzzy
-#| msgid "Keyframes in Effects"
 msgid "Keyframes types, interpolation"
-msgstr "Fotogramas clave en efectos"
+msgstr "Tipos de interpolación de claves"
 
 #: ../../effects_and_filters.rst:281
-#, fuzzy
-#| msgid ""
-#| "See :ref:`quickstart` for an example on keyframing the RGB adjustment "
-#| "effect."
 msgid ""
 "Select the keyframe interpolation icon for selecting the keyframe type. See :"
 "ref:`quickstart` for an example on keyframing the :doc:`RGB adjustment</"
 "effects_and_filters/video_effects/color_image_correction/rgb_adjustment>` "
 "effect."
 msgstr ""
-"Ver :ref:`quickstart` para un ejemplo de utilización de fotogramas clave "
-"sobre el efecto RGB adjustment."
+"Hacer clic en el botón 'Interpolación del clave seleccionado' para "
+"seleccionar su tipo de interpolación. Ver :ref:`quickstart` para un ejemplo "
+"de aplicación de claves al efecto :doc:`Ajustar RVA </effects_and_filters/"
+"video_effects/color_image_correction/rgb_adjustment>`."
 
 #: ../../effects_and_filters.rst:288
-#, fuzzy
-#| msgid "Keyframes in Effects"
 msgid "Kdenlive keyframe types"
-msgstr "Fotogramas clave en efectos"
+msgstr "Tipos de interpolación de claves en Kdenlive"
 
 #: ../../effects_and_filters.rst:290
 msgid ""
@@ -679,12 +648,18 @@ msgid ""
 "More details about keyframes are :ref:`here "
 "<the_smooth_keyframe_interpolation>`."
 msgstr ""
+"Los primeros tres tipos son: **Lineal**, **Escalonada** y **Suave** "
+"(interpolación centrípeta de curvas tipo Catmull-Rom). Estas son "
+"interpolaciones estándar. Más detalles acerca de los fotogramas clave se "
+"pueden encontrar :ref:`aquí <the_smooth_keyframe_interpolation>`."
 
 #: ../../effects_and_filters.rst:294
 msgid ""
 "The next ten keyframes are easing keyframes which calculations are based on "
 "Robert Penners equations\\ [2]_."
 msgstr ""
+"Los siguientes diez tipos de interpolación utilizan cálculos basados en las "
+"ecuaciones de Robert Penners\\ [2]_."
 
 #: ../../effects_and_filters.rst:296
 msgid ""
@@ -693,24 +668,33 @@ msgid ""
 "and slow it down as it comes out. Drop something on the floor, and it will "
 "first accelerate downwards, and then bounce back up after hitting the floor."
 msgstr ""
+"Los objetos en el mundo real no comienzan o terminan sus movimientos de "
+"forma súbita y casi nunca se mueven a una velocidad constante. Por ejemplo, "
+"al abrir un cajón, inicialmente se moverá rápidamente y se irá frenando a "
+"medida que va saliendo. Al dejar caer algo al piso, inicialmente acelerará "
+"debido a la gravedad, luego rebotará hacia arriba hasta volver a detenerse, "
+"etc."
 
 #: ../../effects_and_filters.rst:300
 msgid ""
 "**Easing keyframes:** The left end is the start of the movement, and the "
 "segments in blue and green represent faster movement."
 msgstr ""
+"**Claves progresivos:** El extremo izquierdo representa el comienzo del "
+"movimiento, los segmentos en azul y verde representan un movimiento más "
+"rápido."
 
 #: ../../effects_and_filters.rst:331
 msgid ""
 "**Smooth (deprecated):** Is the smooth Catmull-Rom spline interpolation "
 "keyframe before Kdenlive 24.02."
 msgstr ""
+"**Suave (obsoleta):** Era la interpolación suave de tipo Catmull-Rom usada "
+"antes de la versión 24.02 de Kdenlive."
 
 #: ../../effects_and_filters.rst:337
-#, fuzzy
-#| msgid "Keyframes in Effects"
 msgid "Keyframe ruler"
-msgstr "Fotogramas clave en efectos"
+msgstr "Regla de tiempo"
 
 #: ../../effects_and_filters.rst:341
 msgid ""
@@ -721,44 +705,45 @@ msgstr ""
 "La regla de tiempo disponible en los efectos presenta una barra de "
 "ampliación, lo que hace que el ajuste de fotogramas clave sea "
 "considerablemente más sencillo cuando la duración del clip es relativamente "
-"grande, ya que el panel Opciones de efectos/composición suele ocupar un "
-"espacio demasiado angosto en la pantalla como para mostrar los claves de una "
-"manera espaciada."
+"grande, ya que el panel 'Opciones de efectos/composición' suele ocupar un "
+"espacio angosto en la pantalla como para mostrar los claves de una manera "
+"espaciada."
 
 #: ../../effects_and_filters.rst:352
-#, fuzzy
-#| msgid ""
-#| "Keyframes can be copied and pasted between effects and even across clips. "
-#| "Standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`"
 msgid ""
 "Keyframes can be copied and pasted between effects and even across clips "
 "using the standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`"
 msgstr ""
-"Los fotogramas clave pueden ser copiados y pegados entre distintos efectos y "
-"clips, mediante los accesos rápidos de teclado estándar: :kbd:`Ctrl+C`, :kbd:"
+"Los fotogramas clave podrán ser copiados y pegados entre distintos efectos y "
+"clips, usando los accesos rápidos de teclado estándar: :kbd:`Ctrl+C`, :kbd:"
 "`Ctrl+V`"
 
 #: ../../effects_and_filters.rst:358
-#, fuzzy
-#| msgid "Keyframes in Effects"
 msgid "Keyframe Curve Editor"
-msgstr "Fotogramas clave en efectos"
+msgstr "Editor de curvas"
 
 #: ../../effects_and_filters.rst:362
 msgid ""
 "Implemented with version 24.08 the keyframe curve editor is still in alpha "
 "state. Improvements will come with upcoming versions."
 msgstr ""
+"Implementado en la versión 24.08 de Kdenlive, el editor de curvas aún se "
+"encuentra en estado alfa de implementación. En las próximas versiones se "
+"podrán ver mejoras en su funcionamiento y presentación gráfica."
 
 #: ../../effects_and_filters.rst:364
 msgid "The curve editor is showing the keyframe type and their curves."
 msgstr ""
+"El editor de curvas será capaz de mostrar, tanto el tipo de interpolación de "
+"los claves, como la curva de animación producida por estos."
 
 #: ../../effects_and_filters.rst:369
 msgid ""
 "To switch to the curve editor click on |switch-to-curve-editor-view|:"
 "guilabel:`Switch to curve editor view`."
 msgstr ""
+"Para cambiar al editor de curvas, hacer clic sobre el botón |switch-to-curve-"
+"editor-view|:guilabel:`Cambiar a editor de curvas`."
 
 #: ../../effects_and_filters.rst:371
 msgid ""
@@ -766,12 +751,18 @@ msgid ""
 "parameters: X, Y, width, height, opacity (alpha, optional) and rotation. For "
 "all other effects the curve editor is greyed out."
 msgstr ""
+"El editor de curvas sólo podrá ser habilitado en efectos que contengan los "
+"siguientes parámetros: X, Y, ancho, altura, opacidad (alfa opcional) y "
+"rotación. Para todos los demás efectos el editor se encontrará deshabilitado."
 
 #: ../../effects_and_filters.rst:373
 msgid ""
 "By double clicking into the window new keyframes get added. Hovering over a "
 "keyframe, the cursor changes to a cross and you can:"
 msgstr ""
+"Al hacer doble clic sobre el área de la gráfica se crearán nuevos claves. Al "
+"hacer clic sobre un clave en la gráfica, el cursor cambiará a una cruz y "
+"será posible:"
 
 #: ../../effects_and_filters.rst:375
 msgid ""
@@ -779,10 +770,14 @@ msgid ""
 "position, Y position, Width, Height, Opacity, Rotation). Hold :kbd:`Ctrl` "
 "moves the keyframe vertically only."
 msgstr ""
+"mover el clave para cambiar su valor, dependiendo de en qué pestaña se esté "
+"(posición X, posición Y, Ancho, Altura, Opacidad, Rotación). Al mantener "
+"pulsada la tecla :kbd:`Ctrl` será posible mover un clave únicamente en su "
+"eje vertical, permitiendo cambiar su valor sin alterar el tiempo."
 
 #: ../../effects_and_filters.rst:376
 msgid "click on the keyframe and change the keyframe type"
-msgstr ""
+msgstr "hacer clic sobre el clave y cambiar su tipo de interpolación"
 
 #: ../../effects_and_filters.rst:381
 msgid ""
@@ -790,22 +785,28 @@ msgid ""
 "change the values by moving the keyframe or change the values directly in "
 "the boxes below the curve editor view."
 msgstr ""
+"En este ejemplo, se seleccionó el segundo clave, pudiéndose ahora cambiar su "
+"valor moviéndolo con el ratón o directamente mediante los valores en los "
+"campos numéricos debajo de la gráfica."
 
 #: ../../effects_and_filters.rst:386
 msgid ""
 "To switch back to the timeline view click on |switch-to-timeline-view|:"
 "guilabel:`Switch to timeline view`."
 msgstr ""
+"Para regresar a la regla de tiempo, se deberá hacer clic nuevamente en el "
+"botón |switch-to-timeline-view|:guilabel:`Cambiar a regla de tiempo`."
 
 #: ../../effects_and_filters.rst:392
 msgid "Working with Keyframes in the Effect Stack"
-msgstr ""
-"Trabajo con fotogramas clave en el panel Opciones de efectos/composición"
+msgstr "Trabajo con claves en el panel Opciones de efectos/composición"
 
 #: ../../effects_and_filters.rst:396
 msgid ""
 "The effect keyframe panel allows comprehensive manipulation of keyframes:"
 msgstr ""
+"La regla de tiempo del panel de efectos permite una amplia manipulación de "
+"los fotogramas clave:"
 
 #: ../../effects_and_filters.rst:403
 msgid "Select the keyframe you want to move"
@@ -869,30 +870,26 @@ msgstr ""
 "`OK`"
 
 #: ../../effects_and_filters.rst:438
-#, fuzzy
-#| msgid "Select multiple individual keyframes with :kbd:`Ctrl+Left-click`"
 msgid "Select multiple individual keyframes with :kbd:`Ctrl+LMB`"
 msgstr "Seleccionar varios claves individuales usando :kbd:`Ctrl+clic Izq`"
 
 #: ../../effects_and_filters.rst:447
-#, fuzzy
-#| msgid "Select contiguous keyframes with :kbd:`Shift+Left-click`"
 msgid "Select contiguous keyframes with :kbd:`Shift+LMB`"
-msgstr "Seleccionar claves contiguos usando :kbd:`Shift+clic Izq`"
+msgstr ""
+"Seleccionar un área de claves contiguos arrastrando con :kbd:`Mayús+clic Izq`"
 
 #: ../../effects_and_filters.rst:456
 msgid "Moving multiple keyframes at once"
 msgstr "Moviendo varios claves a la vez"
 
 #: ../../effects_and_filters.rst:464
-#, fuzzy
-#| msgid "Keyframes in Effects"
 msgid "Keyframe Types"
-msgstr "Fotogramas clave en efectos"
+msgstr "Tipos de interpolación"
 
 #: ../../effects_and_filters.rst:472
 msgid "Easing functions are based on |rp_easing_func|."
 msgstr ""
+"Las funciones de movimiento progresivo están basadas en las |rp_easing_func|."
 
 #: ../../effects_and_filters.rst:478
 msgid "Exchanging Keyframes Across Effects"
@@ -1099,18 +1096,12 @@ msgstr ""
 "estos archivos :file:`.xml`."
 
 #: ../../effects_and_filters.rst:619 ../../effects_and_filters.rst:650
-#, fuzzy
-#| msgid ""
-#| "See also :doc:`here <effects_and_compositions/"
-#| "effects_and_transitions_list>` for an alphabetical list of effects and "
-#| "transitions."
 msgid ""
 "See also :doc:`here <effects_and_filters/effects_and_filters_list>` for an "
 "alphabetical list of effects and filters."
 msgstr ""
-"Ver también :doc:`aquí <effects_and_compositions/"
-"effects_and_transitions_list>` para una lista alfabética de efectos y "
-"métodos de composición."
+"Ver también :doc:`aquí <effects_and_filters/effects_and_filters_list>` para "
+"una lista alfabética de efectos."
 
 #: ../../effects_and_filters.rst:625
 msgid "Audio Effects"
@@ -1122,10 +1113,8 @@ msgstr ""
 "Los efectos de audio se encuentran divididos en las siguientes categorías:"
 
 #: ../../effects_and_filters.rst:671
-#, fuzzy
-#| msgid "Alphabetical List of all Effects and Compositions"
 msgid "Alphabetical List of all Effects and Filters"
-msgstr "Lista alfabética de todos los efectos y métodos de composición"
+msgstr "Lista alfabética de efectos"
 
 #: ../../effects_and_filters.rst:683
 msgid "Audio Tools"
@@ -1208,66 +1197,4 @@ msgstr ""
 
 #: ../../effects_and_filters.rst:793
 msgid "Robert Penners equations: http://robertpenner.com/easing/"
-msgstr ""
-
-#~ msgid ""
-#~ "The effect keyframe panel has new icons, improved keyframe grabbing and "
-#~ "new functions."
-#~ msgstr ""
-#~ "La interfaz de manejo de fotogramas clave de los efectos tiene nuevos "
-#~ "íconos, un arrastre mejorado de claves y nuevas funciones."
-
-#~ msgid "**Notes**"
-#~ msgstr "**Notas**"
-
-#~ msgid ""
-#~ "2 - **Video Effects** shows all video effect categories. This option "
-#~ "hides the *Audio Correction* category that is in the **Main Effects**, "
-#~ "and adds the *Misc* and *Motion* categories."
-#~ msgstr ""
-#~ "2 - **Efectos de video** muestra todas las categorías de efectos de video."
-
-#~ msgid "Titles"
-#~ msgstr "Titulador"
-
-#~ msgid ""
-#~ "Compositions are used to combine several visual elements from different "
-#~ "sources into a single video. In Kdenlive, you put the different sources "
-#~ "into tracks in the Timeline and use compositions to tell Kdenlive how to "
-#~ "combine them. For example, the **Dissolve** composition fades out one "
-#~ "clip while fading in another over a certain number of frames. That is why "
-#~ "Compositions are often referred to as Transitions. Keep in mind that "
-#~ "while Compositions are very often used to transition from one video to "
-#~ "another they can be used to create artistic and aesthetic effects when "
-#~ "combining several clips (e.g. Darken, Dodge, Burn)."
-#~ msgstr ""
-#~ "Los métodos de composición son usados para combinar varios elementos "
-#~ "visuales, provenientes de distintas fuentes, en un único video. En "
-#~ "Kdenlive, se disponen las distintas fuentes en pistas de la Línea de "
-#~ "tiempo y se usan métodos de composición para decirle a Kdenlive cómo "
-#~ "combinarlos. Por ejemplo, el método **Dissolve** realiza un fundido "
-#~ "cruzado de un clip a otro, en un cierta cantidad de fotogramas. Es por "
-#~ "estta razón que muchas veces los métodos de composición son llamados "
-#~ "Transiciones. Es necesario tener en cuenta que, si bien los métodos de "
-#~ "composición son usados habitualmente como transición de un clip a otro, "
-#~ "también pueden ser usados para crear efectos estéticos artísticos, "
-#~ "combinando varios clips (uasndo métodos como p.ej: Darken, Dodge o Burn)."
-
-#~ msgid "Compositions"
-#~ msgstr "Métodos de composición"
-
-#~ msgid ""
-#~ "Add in Kdenlive video editor, video effects, audio effects, compositions, "
-#~ "title, subtitle, speech to text, color correction."
-#~ msgstr ""
-#~ "Agregar en el editor de video Kdenlive, efectos de video, efectos de "
-#~ "audio, métodos de composición, títulos, subtítulos, voz a texto, "
-#~ "corrección de color."
-
-#~ msgid "The following effects are available On Master only:"
-#~ msgstr ""
-#~ "Los siguientes efectos se encuentran disponibles únicamente para ser "
-#~ "aplicados a la pista Maestra:"
-
-#~ msgid "Contents:"
-#~ msgstr "Contenido:"
+msgstr "Ecuaciones de Robert Penners: http://robertpenner.com/easing/"

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Automatically generated, 2021.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2021, 2022.
+# SPDX-FileCopyrightText: 2021, 2022 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_kdenlive_org_cutting_and_assembling___editing\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-18 01:52+0000\n"
-"PO-Revision-Date: 2024-01-03 23:25-0300\n"
+"PO-Revision-Date: 2025-03-30 23:29+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../cutting_and_assembling/editing.rst:1
 msgid "Editing in Kdenlive video editor"
@@ -37,22 +38,17 @@ msgid "Editing"
 msgstr "Edición"
 
 #: ../../cutting_and_assembling/editing.rst:36
-#, fuzzy
-#| msgid ""
-#| "Editing is done in the :ref:`timeline`. Add a clip by dragging it from "
-#| "the :ref:`project_tree` or the :ref:`ui-monitors`. Once a clip is dropped "
-#| "on a track, it can be moved (drag and drop it) to another place on the "
-#| "same track or onto another track."
 msgid ""
 "Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :"
 "doc:`project bin</project_and_asset_management/project_bin>` or the :ref:`ui-"
 "monitors`. Once a clip is dropped on a track, it can be moved (drag and drop "
 "it) to another place on the same track or onto another track."
 msgstr ""
-"La edición es realizada en la :ref:`timeline`. Se agregan clips "
-"arrastrándolos desde la :ref:`project_tree` o los :ref:`ui-monitors`. Una "
-"vez que un clip es colocado en una pista, podrá ser movido a otro lugar en "
-"la misma pista o hacia otra pista."
+"La edición se realiza en la :ref:`timeline`. Se agregan clips arrastrándolos "
+"desde la :doc:`bandeja del proyecto </project_and_asset_management/"
+"project_bin>` o los :ref:`ui-monitors`. Una vez que un clip es colocado en "
+"una pista, podrá ser movido (arrastrándolo) a otro lugar en la misma pista o "
+"hacia otra pista."
 
 #: ../../cutting_and_assembling/editing.rst:45
 msgid ""
@@ -219,7 +215,7 @@ msgstr ""
 
 #: ../../cutting_and_assembling/editing.rst:119
 msgid "Resizing multiple timeline items"
-msgstr ""
+msgstr "Redimensión de varios elementos en la línea de tiempo"
 
 #: ../../cutting_and_assembling/editing.rst:123
 msgid ""
@@ -227,6 +223,10 @@ msgid ""
 "Duration dialog window pops up. Enable :guilabel:`Apply duration to all "
 "items`, otherwise nothing happens."
 msgstr ""
+"Seleccionar varios clips en la línea de tiempo. Hacer doble clic sobre uno "
+"de los clips. Se abrirá el diálogo de Duración. Activar (si no lo estuviera "
+"ya) la opción :guilabel:`Aplicar duración a todos los elementos`, en caso "
+"contrario no sucederá lo deseado."
 
 #: ../../cutting_and_assembling/editing.rst:125
 msgid ""
@@ -234,46 +234,65 @@ msgid ""
 "you select three clips and reduce the duration you get gaps between each "
 "clip as the start position of each clip is fixed."
 msgstr ""
+"De forma predeterminada, el cambio en la duración de los clips sucederá en "
+"relación al inicio de cada uno de ellos. Por lo tanto, si se seleccionaran "
+"tres clips adyacentes en una misma pista y se redujera su duración, se "
+"producirán huecos entre ellos debido a que sus puntos de inicio permanecerán "
+"fijos. Para evitar esto y lograr que los tres clips sigan siendo adyacentes "
+"después de esta operación, será posible activar la opción :guilabel:"
+"`Redimensión encadenada`."
 
 #: ../../cutting_and_assembling/editing.rst:127
 msgid ""
 ":guilabel:`Position` show the start position of the most left selected clip"
 msgstr ""
+":guilabel:`Posición` mostrará la posición inicial del clip seleccionado que "
+"se encuentre más hacia la izquierda"
 
 #: ../../cutting_and_assembling/editing.rst:134
 msgid "All selected clips have the same length"
-msgstr ""
+msgstr "Los clips seleccionados tienen la misma duración"
 
 #: ../../cutting_and_assembling/editing.rst:141
 #: ../../cutting_and_assembling/editing.rst:155
 msgid "The selected clips have different length"
-msgstr ""
+msgstr "Los clips seleccionados tienen distintas duraciones"
 
 #: ../../cutting_and_assembling/editing.rst:143
 msgid ""
 "Shorten and lengthen duration: The clips get shortened/lengthened but keep "
 "their starting position"
 msgstr ""
+"Recorte o extensión de la duración: Los clips serán recortados o extendidos, "
+"conservando su posición inicial"
 
 #: ../../cutting_and_assembling/editing.rst:145
 msgid "Clips attached to each other: You cannot lengthen the clips"
-msgstr ""
+msgstr "Clips adyacentes a otros: No será posible extender su duración"
 
 #: ../../cutting_and_assembling/editing.rst:148
 msgid "Change duration with |kdenlive-ripple| :guilabel:`Ripple Tool` enabled"
 msgstr ""
+"Cambio de duración cuando la herramienta |kdenlive-ripple| :guilabel:"
+"`Edición encadenada` se encuentre activa"
 
 #: ../../cutting_and_assembling/editing.rst:157
 msgid ""
 "Shorten and lengthen duration: The starting position of the left most "
 "selected clip on each track is fixed. Any gaps between clips are kept."
 msgstr ""
+"Recorte o extensión de la duración: La posición inicial del clip más a la "
+"izquierda en cada pista quedará fija. La duración de los clips adyacentes "
+"será ajustada sin que queden huecos entre ellos."
 
 #: ../../cutting_and_assembling/editing.rst:159
 msgid ""
 "Clips attached to each other: All clips attached to the right will lengthen "
 "or shorten according to the left most clip, keeping their attachment."
 msgstr ""
+"Clips adyacentes a otros: Todos los clips adyacentes hacia la derecha "
+"ajustarán su duración de acuerdo al clip de más a la izquierda, sin huecos "
+"entre ellos."
 
 #: ../../cutting_and_assembling/editing.rst:165
 msgid "Edit an Animation"
@@ -619,7 +638,7 @@ msgstr "14f. Deshabilitar previsualización de línea de tiempo"
 
 #: ../../cutting_and_assembling/editing.rst:330
 msgid "14g. Manage Cached Data"
-msgstr "14g. Administrar datos en caché..."
+msgstr "14g. Administrar datos en caché"
 
 #: ../../cutting_and_assembling/editing.rst:340
 msgid ""
@@ -741,11 +760,11 @@ msgstr ""
 
 #: ../../cutting_and_assembling/editing.rst:402
 msgid "Active track"
-msgstr ""
+msgstr "Pista activa"
 
 #: ../../cutting_and_assembling/editing.rst:412
 msgid "An :term:`active track`"
-msgstr ""
+msgstr "Una :term:`pista activa`"
 
 #: ../../cutting_and_assembling/editing.rst:416
 msgid ""
@@ -753,92 +772,111 @@ msgid ""
 "that in the project bin an A/V clip is selected (the selected clip has an "
 "audio and video part)."
 msgstr ""
+"**1** Pista de destino (edición de tres puntos). Los rectángulos resaltados "
+"en verde a la izquierda del nombre de las pistas V1 y A1, indican que hay "
+"seleccionado un clip en la Bandeja del proyecto y que éste contiene tanto "
+"video como audio."
 
 #: ../../cutting_and_assembling/editing.rst:418
 msgid "**2** Active track (3-point editing)"
-msgstr ""
+msgstr "**2** Pista activa (edición de tres puntos)"
 
 #: ../../cutting_and_assembling/editing.rst:420
 msgid "**3** Track header"
-msgstr ""
+msgstr "**3** Encabezado de la pista"
 
 #: ../../cutting_and_assembling/editing.rst:422
 msgid "**4** Empty part of the track"
-msgstr ""
+msgstr "**4** Pista vacía"
 
 #: ../../cutting_and_assembling/editing.rst:424
 msgid ""
 "Only active tracks can accept clips or react to an edit function. An :term:"
 "`active track` is indicated by a:"
 msgstr ""
+"Sólo las pistas activas serán capaces de recibir clips o reaccionar a una "
+"operación de edición. Una :term:`pista activa` estará indicada por:"
 
 #: ../../cutting_and_assembling/editing.rst:426
 msgid "highlighted track number (**2**) (for 3-point editing)"
 msgstr ""
+"el número de pista resaltado en verde (**2**) (para una edición de 3 puntos)"
 
 #: ../../cutting_and_assembling/editing.rst:428
 msgid ""
 "blueish or brownish track (**3 4**) (depends on the color scheme), working "
 "with the mouse or insert clip by paste"
 msgstr ""
+"un color azulado o amarronado (dependiendo del esquema de colores elegido) "
+"(**3 4**) en la pista, al trabajar con el ratón o insertar un clip "
+"pegándolo, indicará que esa pista es la pista seleccionada"
 
 #: ../../cutting_and_assembling/editing.rst:430
 msgid ""
 "When you work with the mouse Kdenlive make a track active as you drop a clip "
 "to the timeline or you select a clip."
 msgstr ""
+"Al trabajar con el ratón, Kdenlive hará que una pista de la línea de tiempo "
+"se convierta en la pista seleccionada al soltar un clip sobre ella o al "
+"seleccionar un clip en ella."
 
 #: ../../cutting_and_assembling/editing.rst:432
 msgid "Make a track active by:"
-msgstr ""
+msgstr "Será posible hacer que una pista sea la pista seleccionada mediante:"
 
 #: ../../cutting_and_assembling/editing.rst:434
 msgid "click into the track header (**3**)"
-msgstr ""
+msgstr "un clic en el encabezado de la pista (**3**)"
 
 #: ../../cutting_and_assembling/editing.rst:436
 msgid ""
 "double click into an empty part of the track (**4**) (the playhead moves to "
 "this point too). This is useful when you copy & paste clips."
 msgstr ""
+"doble clic en una parte vacía de una pista (**4**) (además, el cursor de "
+"tiempo será movido hacia ese mismo lugar). Esto resultará útil cuando se "
+"estén copiando y pegando clips."
 
 #: ../../cutting_and_assembling/editing.rst:438
 msgid ":kbd:`1-9` select a video track"
-msgstr ""
+msgstr "las teclas del :kbd:`1 al 9` permitirán seleccionar una pista de video"
 
 #: ../../cutting_and_assembling/editing.rst:440
 msgid ":kbd:`alt+1-9` select an audio track"
 msgstr ""
+"Alt + las teclas del :kbd:`1 al 9` permitirán seleccionar una pista de audio"
 
 #: ../../cutting_and_assembling/editing.rst:442
 msgid "arrow key up/down"
 msgstr ""
+"las teclas de flechas arriba/abajo permitirán seleccionar cíclicamente las "
+"pistas de audio y video"
 
 #: ../../cutting_and_assembling/editing.rst:444
-#, fuzzy
-#| msgid "3 point editing"
 msgid "For 3-point editing"
-msgstr "Edición de 3 puntos"
+msgstr "Para la edición de 3 puntos:"
 
 #: ../../cutting_and_assembling/editing.rst:446
 msgid ":kbd:`Alt+Shift+A` Switch all tracks active"
-msgstr ""
+msgstr ":kbd:`Alt+Mayús+A` Activará o desactivará todas las pistas"
 
 #: ../../cutting_and_assembling/editing.rst:448
 msgid ":kbd:`Shift+A` Toggle all tracks active/inactive"
-msgstr ""
+msgstr ":kbd:`Mayús+A` Alternará el estado de activación de todas las pistas"
 
 #: ../../cutting_and_assembling/editing.rst:450
 msgid ":kbd:`A` Toggle track active"
-msgstr ""
+msgstr ":kbd:`A` Alternará el estado de activación de la pista seleccionada"
 
 #: ../../cutting_and_assembling/editing.rst:452
 msgid ":kbd:`Shift+T` Toggle track target"
-msgstr ""
+msgstr ":kbd:`Mayús+T` Alternará la pista seleccionada como pista de destino"
 
 #: ../../cutting_and_assembling/editing.rst:454
 msgid ":ref:`Here you find more timeline shortcuts <ui-shortcuts_timeline>`."
 msgstr ""
+":ref:`Aquí será posible encontrar más atajos de teclado de la línea de "
+"tiempo <ui-shortcuts_timeline>`."
 
 #: ../../cutting_and_assembling/editing.rst:458
 msgid "Timeline Edit Modes"
@@ -1042,10 +1080,10 @@ msgid ""
 "strip back and forth."
 msgstr ""
 "La herramienta Desplazar mantiene la duración original del clip. De forma "
-"análoga al trabajo con una película tradicional: por debajo de la \"ventana"
-"\" determinada por la duración del clip, la película podrá ser desplazada "
-"hacia adelante o atrás en el tiempo, cambiando efectivamente el contenido "
-"visible en la edición."
+"análoga al trabajo con una película tradicional: por debajo de la "
+"\"ventana\" determinada por la duración del clip, la película podrá ser "
+"desplazada hacia adelante o atrás en el tiempo, cambiando efectivamente el "
+"contenido visible en la edición."
 
 #: ../../cutting_and_assembling/editing.rst:589
 msgid ""
@@ -1100,14 +1138,15 @@ msgid ""
 "space is on the track it behaves as a clip and it shifts in time as a "
 "standard clip would be."
 msgstr ""
-"Usar la Edición encadenada (|kdenlive-ripple|) para recortar un clip, "
-"desplazando los clips siguientes en la pista la misma cantidad de fotogramas "
-"que se hubiera acortado o extendido el clip editado. Al acortar un clip "
-"usando esta herramienta, todos los clips siguientes se desplazarán hacia "
-"atrás en el tiempo; a la inversa, cuando se extendiera el clip, los clips a "
-"continuación serán desplazados hacia adelante en el tiempo. Si hubieran "
-"espacios en blanco en la pista afectada, serán tratados como clips y, por "
-"tanto, desplazados hacia adelante o atrás en el tiempo, según correspondiera."
+"Usar la herramienta (|kdenlive-ripple|) Edición encadenada para recortar un "
+"clip, desplazando los clips siguientes en la pista la misma cantidad de "
+"fotogramas que se hubiera acortado o extendido el clip editado. Al acortar "
+"un clip usando esta herramienta, todos los clips siguientes se desplazarán "
+"hacia atrás en el tiempo; a la inversa, cuando se extendiera el clip, los "
+"clips a continuación serán desplazados hacia adelante en el tiempo. Si "
+"hubieran espacios en blanco en la pista afectada, serán tratados como clips "
+"y, por tanto, desplazados hacia adelante o atrás en el tiempo, según "
+"correspondiera."
 
 #: ../../cutting_and_assembling/editing.rst:610
 msgid "You can Ripple only a single clip at once."
@@ -1119,27 +1158,32 @@ msgstr "Únicamente es posible usar Edición encadenada mediante el ratón."
 
 #: ../../cutting_and_assembling/editing.rst:620
 msgid "Ripple Trim to Playhead"
-msgstr ""
+msgstr "Recorte encadenado en la posición del cursor"
 
 #: ../../cutting_and_assembling/editing.rst:622
 msgid ""
 "To cut a clip on an active track at the playhead position without getting a "
 "gap in the timeline do the following."
 msgstr ""
+"Para cortar un clip de la pista seleccionada, en la posición del cursor de "
+"tiempo, sin que quede un hueco, se deberá hacer lo siguiente."
 
 #: ../../cutting_and_assembling/editing.rst:624
 msgid "enable ripple"
-msgstr ""
+msgstr "activar la herramienta (|kdenlive-ripple|) Edición encadenada"
 
 #: ../../cutting_and_assembling/editing.rst:626
 msgid "place the playhead at the desired place"
-msgstr ""
+msgstr "ubicar el cursor de tiempo en el instante deseado"
 
 #: ../../cutting_and_assembling/editing.rst:628
 msgid ""
 "hit :kbd:`(`: This cuts and removes the clip and space to the left side of "
 "the playhead. :kbd:`)` does the same but to the right side of the playhead."
 msgstr ""
+"pulsar :kbd:`(`: Esto recortará el inicio clip y eliminará el espacio "
+"restante a la izquierda del cursor de tiempo. El atajo :kbd:`)` hará lo "
+"mismo, pero hacia la derecha del cursor de tiempo."
 
 #: ../../cutting_and_assembling/editing.rst:634
 msgid "Multicam Tool"
@@ -1179,10 +1223,10 @@ msgstr ""
 "multipista <ui-multitrack_view>` en el Monitor del proyecto y se establecerá "
 "un marcador en la posición actual del cursor de tiempo. Luego, se podrá "
 "buscar/reproducir hasta el instante deseado y hacer clic sobre otra de las "
-"imágenes en el Monitor del proyecto, esto removerá el contenido de todas las "
-"pistas, excepto la previamente activa. Luego se podrá seguir repitiendo el "
-"proceso de búsqueda y selección de otras imágenes, para continuar removiendo "
-"pistas."
+"imágenes en el Monitor del proyecto, esto eliminará el contenido de todas "
+"las pistas, excepto el de la previamente activa. Luego se podrá seguir "
+"repitiendo el proceso de búsqueda y selección de otras imágenes, para "
+"continuar eliminando pistas."
 
 #: ../../cutting_and_assembling/editing.rst:643
 msgid ""
@@ -1329,20 +1373,16 @@ msgid "Show marker comments"
 msgstr "Mostrar comentarios de marcadores"
 
 #: ../../cutting_and_assembling/editing.rst:717
-#, fuzzy
-#| msgid ""
-#| "This toggles on and off the display of :ref:`markers` saved within :ref:"
-#| "`clips` (the text with the gold background in the example below) and "
-#| "within :doc:`guides` (the text with the purple background)."
 msgid ""
 "This toggles on and off the display of :ref:`markers` saved within :doc:"
 "`clips</project_and_asset_management/project_bin/clips>` (the text with the "
 "gold background in the example below) and within :doc:`guides` (the text "
 "with the purple background)."
 msgstr ""
-"Esta opción alterna la visualización de los comentarios de los :ref:"
-"`markers` guardados en los :ref:`clips` (en el ejemplo de abajo, los textos "
-"con fondo dorado) y de las :doc:`guides` (los textos con fondo morado)."
+"Esta opción alternará la visualización de los comentarios de los :ref:"
+"`markers` guardados en los :doc:`clips</project_and_asset_management/"
+"project_bin/clips>` (en el ejemplo de abajo, los textos con fondo dorado) y "
+"de las :doc:`guides` (los textos con fondo morado)."
 
 #: ../../cutting_and_assembling/editing.rst:724
 msgid "Snap"
@@ -1407,14 +1447,15 @@ msgstr ""
 
 #: ../../cutting_and_assembling/editing.rst:745
 msgid "Cutting Footage from multiple aligned tracks - Ripple Delete"
-msgstr ""
-"Cortar material de varias pistas alineadas - Extraer zona de línea de tiempo"
+msgstr "Cortar material de varias pistas alineadas, eliminando los espacios"
 
 #: ../../cutting_and_assembling/editing.rst:751
 msgid ""
 "There are 4 possibilities for ripple delete (point 1 and 2 are the classical "
 "`Ripple Delete`):"
 msgstr ""
+"Existen 4 posibilidades de realizar una eliminación encadenada (los puntos 1 "
+"y 2 corresponden a la función `Eliminar espacio` clásica):"
 
 #: ../../cutting_and_assembling/editing.rst:753
 msgid ""
@@ -1424,21 +1465,23 @@ msgid ""
 "everything else to the left to fill the gap. The playhead stays where you "
 "made the last cut."
 msgstr ""
+"En la pista seleccionada: Cortar la porción de un clip que ya no se desee, "
+"usando :kbd:`Mayús+R`. Hacer clic derecho sobre esa porción y escoger :"
+"menuselection:`Extraer clip` o pulsar :kbd:`Mayús+Supr`. Esto eliminará el "
+"clip y deslizará todo el contenido de esa pista hacia la izquierda para "
+"cerrar el hueco. El cursor de tiempo permanecerá en la misma ubicación "
+"anterior."
 
 #: ../../cutting_and_assembling/editing.rst:755
 msgid ""
 "On the active track: Empty spaces between clips can only be removed by right "
 "click on empty space and choose :menuselection:`Remove Space`."
 msgstr ""
+"En la pista seleccionada: Los espacios vacíos entre los clips sólo podrán "
+"ser eliminados haciendo clic derecho sobre un espacio vacío y escogiendo :"
+"menuselection:`Eliminar espacio`."
 
 #: ../../cutting_and_assembling/editing.rst:757
-#, fuzzy
-#| msgid ""
-#| "Mark In and Out points in the Project Monitor, then choose :menuselection:"
-#| "`Timeline --> All clips --> Ripple Delete` (or :kbd:`Ctrl + X`).  "
-#| "Kdenlive deletes all footage between the In and Out points in unlocked "
-#| "tracks, slides everything else back to fill the gap, and puts the "
-#| "playhead on the In point."
 msgid ""
 "On all tracks together: Mark `In` and `Out` points in the Project Monitor or "
 "on the Timeline, then choose :menuselection:`Timeline --> Removal --> "
@@ -1446,12 +1489,13 @@ msgid ""
 "between the `In` and `Out` points in unlocked tracks, slides everything else "
 "back to fill the gap, and puts the playhead on the In point."
 msgstr ""
-"Marcar puntos de Entrada y Salida en el Monitor del proyecto, luego escoger :"
-"menuselection:`Línea de tiempo --> Remoción --> Extraer zona de línea de "
-"tiempo` (o :kbd:`Mayúsculas + X`).  Kdenlive borrará todo el material entre "
-"el punto de Entrada y el de Salida (de pistas que no se encontraran "
+"En todas las pistas activas: Marcar puntos de `Entrada` y `Salida` en el "
+"Monitor del proyecto o Línea de tiempo, luego escoger :menuselection:`Línea "
+"de tiempo --> Eliminación --> Extraer zona de línea de tiempo` (o :kbd:"
+"`Mayús+X`). Kdenlive borrará todo el material entre el punto de `Entrada` y "
+"el de `Salida` de todas las pistas activas (que no se encontraran "
 "bloqueadas), desplazando todo el resto hacia la izquierda para cerrar el "
-"hueco, y llevará el cursor de tiempo hasta el punto de Entrada."
+"hueco generado y llevará el cursor de tiempo hasta el punto de `Entrada`."
 
 #: ../../cutting_and_assembling/editing.rst:759
 msgid ""
@@ -1460,12 +1504,18 @@ msgid ""
 "slides everything else to the left to fill the gap. The playhead stays were "
 "you made the last cut."
 msgstr ""
+"En la pista seleccionada, el modo de edición `Inserción`: Cortar la porción "
+"del clip que ya no se desee usando :kbd:`Mayús+R`. Pulsar `Supr`. Esto "
+"eliminará el clip y deslizará todo hacia la izquierda para eliminar el hueco "
+"generado. El cursor de tiempo permanecerá en su lugar."
 
 #: ../../cutting_and_assembling/editing.rst:761
 msgid ""
 "You can do a ripple trim to the playhead using :ref:"
 "`ripple_trim_to_playhead`."
 msgstr ""
+"Será posible realizar un recorte encadenado en la posición del cursor, "
+"usando la función :ref:`ripple_trim_to_playhead`."
 
 #: ../../cutting_and_assembling/editing.rst:767
 msgid "3 point editing"
@@ -1555,21 +1605,21 @@ msgid ""
 "and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys."
 msgstr ""
 "Navegar por el clip mediante las teclas :kbd:`J K L` o las flechas "
-"direccionales a :kbd:`izquierda/derecha` y marcar los puntos de Entrada y "
-"Salida mediante las teclas :kbd:`I` y :kbd:`O`_."
+"direccionales :kbd:`izquierda/derecha` y marcar los puntos de Entrada y "
+"Salida mediante las teclas :kbd:`I` y :kbd:`O`."
 
 #: ../../cutting_and_assembling/editing.rst:820
 msgid "Hit :kbd:`T` to change to the timeline"
-msgstr "Presionar la tecla :kbd:`T` para cambiar el foco a la Línea de tiempo"
+msgstr "Pulsar la tecla :kbd:`T` para cambiar el foco a la Línea de tiempo"
 
 #: ../../cutting_and_assembling/editing.rst:822
 msgid ""
 "Select a video or audio track in the timeline (up/down arrow key) and set it "
 "as source with :kbd:`Shift + T`."
 msgstr ""
-"Seleccionar una pista de video o audio en la línea de tiempo (con las teclas "
-"direccionales hacia arriba/abajo) y marcarla como pista de destino mediante "
-"el acceso rápido :kbd:`Mayúsculas + T`."
+"Seleccionar una pista de video o audio en la línea de tiempo (usando las "
+"teclas direccionales :kbd:`arriba/abajo`) y marcarla como pista de destino "
+"mediante el acceso rápido :kbd:`Mayús + T`."
 
 #: ../../cutting_and_assembling/editing.rst:824
 msgid ""
@@ -1588,7 +1638,7 @@ msgid ""
 msgstr ""
 "Presionar la tecla :kbd:`V` (insertar) o :kbd:`B` (superponer) para agregar "
 "el clip a partir de la posición del cursor de tiempo o para rellenar la zona "
-"seleccionada de la línea de tiempo, si ésta opción se encontrara activa."
+"seleccionada de la línea de tiempo, si hubiera una zona activa."
 
 #: ../../cutting_and_assembling/editing.rst:835
 msgid ""
@@ -1610,50 +1660,3 @@ msgstr "Activar únicamente la pista A2 como destino"
 #: ../../cutting_and_assembling/editing.rst:841
 msgid "Press :kbd:`V` (insert)."
 msgstr "Presionar la tecla :kbd:`V` (insertar)."
-
-#~ msgid ""
-#~ "This is available on the :menuselection:`Timeline` menu under :"
-#~ "menuselection:`All clips --> Ripple Delete`  [1]_ ."
-#~ msgstr ""
-#~ "Esta función se encuentra disponible en el menú :menuselection:`Línea de "
-#~ "tiempo` opción :menuselection:`Remoción --> Extraer zona de línea de "
-#~ "tiempo`  [1]_ ."
-
-#~ msgid "**Seems missing in Kdenlive 17.04 & 18.04**"
-#~ msgstr "**Parece no estar disponible en Kdenlive 17.04 y 18.04**"
-
-#~ msgid "available on bleeding edge version > 0.9.10 (Jan2015)"
-#~ msgstr "disponible a partir de la versión 0.9.10 (Enero de 2015)"
-
-#~ msgid "Automatic Transitions"
-#~ msgstr "Transiciones automáticas (obsoleto)"
-
-#~ msgid ""
-#~ "When active any transitions added to the timeline will have the automatic "
-#~ "transition option checked by default. See :ref:`transitions_compositions`"
-#~ msgstr ""
-#~ "Cuando esta opción se encuentre activa, cualquier transición agregada a "
-#~ "la línea de tiempo tendrá la opción de transición automática activada de "
-#~ "forma predeterminada. Ver :ref:`transitions_compositions`"
-
-#~ msgid "Editing with keyboard shortcuts was introduced"
-#~ msgstr ""
-#~ "Se ha incorporado la posibilidad de editar usando accesos rápidos de "
-#~ "teclado"
-
-#~ msgid ""
-#~ "14h. Preview Using Proxy Clips. Option to render preview using original "
-#~ "clips, not proxies (disabled by default)."
-#~ msgstr ""
-#~ "14h. Previsualizar usando clips de reemplazo. Esta opción permite "
-#~ "procesar las previsualizaciones usando clips de reemplazo, en vez de los "
-#~ "originales (activada de forma predeterminada)"
-
-#~ msgid "Contents"
-#~ msgstr "Contenido"
-
-#~ msgid "`Automatic Transitions`_"
-#~ msgstr "`Transiciones automáticas`_"
-
-#~ msgid "`Show Audio Thumbnails`_"
-#~ msgstr "`Mostrar miniaturas de sonido`_"
