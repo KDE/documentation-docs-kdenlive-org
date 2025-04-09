@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # Automatically generated, 2021.
-# SPDX-FileCopyrightText: 2021, 2022, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2021, 2022 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-05 01:46+0000\n"
-"PO-Revision-Date: 2025-04-06 12:38+0100\n"
+"PO-Revision-Date: 2025-04-08 14:32+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -291,11 +291,16 @@ msgid ""
 "provide extremely accurate results. Please see note below for installation "
 "instructions."
 msgstr ""
+"El algoritmo de rastreo visual |DaSiamRPN| se basa en modelos de aprendizaje "
+"profundo para proporcionar resultados extremadamente precisos. Ver la nota "
+"más abajo, para obtener instrucciones de instalación."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:118
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:253
 msgid "Nano tracker is a lightweight model and gives good results and is fast."
 msgstr ""
+"Nano es un modelo liviano de rastreo que produce buenos resultados y es "
+"rápido."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:120
 msgid ""
@@ -388,7 +393,7 @@ msgstr "Los distintos tipos de desenfoque en acción"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:166
 msgid "How to Track a Region of a Video"
-msgstr "¿Cómo rastrear una región de un video?"
+msgstr "Cómo rastrear una región de un video"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:168
 msgid "The basic workflow for tracking a region is as follows:"
@@ -445,10 +450,14 @@ msgid ""
 "**Pros:** Accuracy and speed are both better than MIL and it reports "
 "tracking failure better than MIL."
 msgstr ""
+"**Pros:** Su precisión y velocidad es mejor que la del algoritmo MIL y "
+"también tiene un mejor reporte de errores de rastreo que MIL."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:206
 msgid "**Cons:** Does not recover from full occlusion."
 msgstr ""
+"**Contras:** No es capaz de recuperar el rastreo después de una oclusión "
+"completa."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:210
 msgid "**Channel and Spatial Reliability Tracking**."
@@ -464,6 +473,14 @@ msgid ""
 "standard features (HoGs and Colornames). It also operates at a comparatively "
 "lower fps (25 fps) but gives higher accuracy for object tracking."
 msgstr ""
+"En el algoritmo DCF-CSR (Discriminative Correlation Filter with Channel and "
+"Spatial Reliability), se usa un mapa de confiabilidad espacial para ajustar "
+"el soporte del efecto a la parte de la región seleccionada para ser "
+"rastreada. Esto asegura un agrandamiento y ubicación de la región "
+"seleccionada y un rastreo mejorado de regiones o elementos no rectangulares. "
+"Utiliza sólo 2 características estándar (HoGs y Colornames). También es "
+"capaz de operar a una tasa relativamente baja de fps (25), logrando una "
+"mejor precisión al rastrear objetos."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:216
 msgid "**Minimum Output Sum of Squared Error**"
@@ -479,16 +496,28 @@ msgid ""
 "reappears. MOSSE tracker also operates at a higher fps (450 fps and even "
 "more)."
 msgstr ""
+"MOSSE usa una correlación adaptativa para el rastreo de elementos que "
+"produce filtros estables de correlación, cuando sea inicializado a partir de "
+"un único fotograma. El rastreador MOSSE es robusto frente a variaciones de "
+"iluminación, escala, pose y deformaciones no rígidas. También es capaz de "
+"detectar oclusiones, basándose en la proporción entre picos y lóbulos, lo "
+"cual le permite pausar el análisis y retomar donde se dejó, cuando el objeto "
+"vuelva a aparecer. El rastreador MOSSE también es capaz de operar a tasas "
+"altas de fps (450 y hasta más)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:220
 msgid "**Pros:** It is as accurate as other complex trackers and much faster."
 msgstr ""
+"**Pros:** Es tan preciso como otros rastreadores complejos, pero mucho más "
+"rápido."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:222
 msgid ""
 "**Cons:** On a performance scale, it lags behind the deep learning based "
 "trackers."
 msgstr ""
+"**Contras:** En una escala de rendimiento, es superado por los rastreadores "
+"basados en aprendizaje profundo."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:226
 msgid "**Multiple Instance Learning**"
@@ -499,38 +528,42 @@ msgid ""
 "**Pros:** The performance is pretty good. It does a reasonable job under "
 "partial occlusion."
 msgstr ""
+"**Pros:** Su rendimiento es muy bueno. Realiza un trabajo razonable en "
+"condiciones de oclusión parcial."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:230
 msgid ""
 "**Cons:** Tracking failure is not reported reliably. Does not recover from "
 "full occlusion."
 msgstr ""
+"**Contras:** No reporta de forma confiable errores de rastreo. No es capaz "
+"de recuperarse de una oclusión completa."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:233
 msgid ""
 "**Pros:** Excellent tracking failure reporting. Works very well when the "
 "motion is predictable and there is no occlusion."
 msgstr ""
+"**Pros:** Excelente reporte de errores de rastreo. Funciona muy bien con "
+"movimientos predecibles y ausencia de oclusiones."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:235
 msgid "**Cons:** Fails under large motion."
-msgstr ""
+msgstr "**Contras:** Falla con movimientos extensos."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:239
 msgid ""
 "The |DaSiamRPN| visual tracking algorithm relies on deep-learning models to "
 "provide extremely accurate results."
 msgstr ""
+"El algoritmo de rastreo visual |DaSiamRPN| se basa en modelos de aprendizaje "
+"profundo para proporcionar resultados extremadamente precisos."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:241
-#, fuzzy
-#| msgid ""
-#| "In order to use the DaSiam algorithm you need to download the AI models "
-#| "and place them in:"
 msgid "In order to use the DaSiam algorithm you need to download the AI models"
 msgstr ""
-"Para poder usar el algoritmo DaSiam debe descargar los modelos de IA y "
-"colocarlos en:"
+"Para poder usar el algoritmo DaSiam será necesario descargar los modelos de "
+"IA"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:243
 msgid ""
@@ -558,19 +591,15 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:249
 msgid "and place them in `folder for models`_"
-msgstr ""
+msgstr "y colocarlos en la `carpeta para modelos`_"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:255
-#, fuzzy
-#| msgid ""
-#| "In order to use the DaSiam algorithm you need to download the AI models "
-#| "and place them in:"
 msgid ""
 "In order to use the Nano algorithm you need to download the AI models (model "
 "size about 1.9 MB)"
 msgstr ""
-"Para poder usar el algoritmo DaSiam debe descargar los modelos de IA y "
-"colocarlos en:"
+"Para poder usar el algoritmo Nano será necesario descargar los modelos de IA "
+"(tamaño del modelo: 1,9 MB aproximadamente)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:257
 msgid ""
@@ -590,11 +619,11 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:261
 msgid "and place them in the `folder for models`_"
-msgstr ""
+msgstr "y colocarlos en la `carpeta para modelos`_"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:267
 msgid "_`Folder for models`"
-msgstr "_`Carpeta para los modelos`"
+msgstr "_`Carpeta para modelos`"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:270
 msgid ":file:`$HOME/.local/share/kdenlive/opencvmodels`"
@@ -630,19 +659,29 @@ msgid ""
 "Files\\kdenlive\\lib\\mlt/libmltjack.dll`` or ``animation initialized "
 "FAILED`` followed by many lines of ``Current Frame: <f>, percentage: <p>``."
 msgstr ""
+"Es posible que se obtenga un error: ``mlt_repository_init: error al abrir C:"
+"\\Archivos de programa\\kdenlive\\lib\\mlt/libmltjack.dll`` o "
+"``inicialización de animación FALLÓ`` seguido de muchas líneas como "
+"``Fotograma actual: <f>, porcentaje: <p>``."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:288
 msgid ""
 "In this case it is recommended to delete all :file:`kdenlive` folders in :"
-"file:`C:\\\\Program Files\\\\`, :file:`%AppData%\\\\Roaming\\\\`, and :file:`"
-"%AppData%\\\\Local\\\\`, and then do a new install of Kdenlive."
+"file:`C:\\\\Program Files\\\\`, :file:`%AppData%\\\\Roaming\\\\`, and :file:"
+"`%AppData%\\\\Local\\\\`, and then do a new install of Kdenlive."
 msgstr ""
+"En tal caso, se recomienda borrar todas las carpetas de :file:`kdenlive` en :"
+"file:`C:\\\\Archivos de programa\\\\`, :file:`%AppData%\\\\Roaming\\\\` y :"
+"file:`%AppData%\\\\Local\\\\` y después realizar una nueva instalación de "
+"Kdenlive."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:296
 msgid ""
 "If you want to build Kdenlive yourself you need to build MLT with OpenCV "
 "support. See here for |more_info|."
 msgstr ""
+"En caso de que se deseara compilar Kdenlive, será necesario compilar MLT con "
+"soporte para OpenCV. Ver aquí para más información (|more_info|)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/motion_tracker.rst:298
 msgid ""
@@ -650,46 +689,7 @@ msgid ""
 "size it, enable Edit Mode by clicking on the |edit-mode| icon in the Project "
 "Monitor toolbar"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Motion Tracker"
-#~ msgid "Motion Tracker effect panel"
-#~ msgstr "Seguidor de movimiento"
-
-#~ msgid "What is Motion Tracking?"
-#~ msgstr "¿Qué es el seguimiento del movimiento?"
-
-#~ msgid ""
-#~ "Motion tracking is the process of locating a moving object across time. "
-#~ "Kdenlive uses `OpenCV (Open Source Computer Vision Library) <https://"
-#~ "opencv.org/about/>`_ for motion detection."
-#~ msgstr ""
-#~ "El seguimiento del movimiento es el proceso de localizar un objeto que se "
-#~ "mueve a lo largo del tiempo. Kdenlive usa `OpenCV (la biblioteca de "
-#~ "visión artificial abierta) <https://opencv.org/about/>`_ para detectar el "
-#~ "movimiento."
-
-#~ msgid "-- `Wikipedia <https://en.wikipedia.org/wiki/Video_tracking>`_"
-#~ msgstr "-- `Wikipedia <https://en.wikipedia.org/wiki/Video_tracking>`_"
-
-#~ msgid "`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_"
-#~ msgstr "`DaSiam <https://arxiv.org/pdf/1808.06048.pdf>`_"
-
-#~ msgid "soon"
-#~ msgstr "en breve"
-
-#~ msgid "Contents"
-#~ msgstr "Contenido"
-
-#~ msgid "https://www.dropbox.com/s/rr1lk9355vzolqv/dasiamrpn_model.onnx?dl=1"
-#~ msgstr "https://www.dropbox.com/s/rr1lk9355vzolqv/dasiamrpn_model.onnx?dl=1"
-
-#~ msgid ""
-#~ "https://www.dropbox.com/s/999cqx5zrfi7w4p/dasiamrpn_kernel_r1.onnx?dl=1"
-#~ msgstr ""
-#~ "https://www.dropbox.com/s/999cqx5zrfi7w4p/dasiamrpn_kernel_r1.onnx?dl=1"
-
-#~ msgid ""
-#~ "https://www.dropbox.com/s/qvmtszx5h339a0w/dasiamrpn_kernel_cls1.onnx?dl=1"
-#~ msgstr ""
-#~ "https://www.dropbox.com/s/qvmtszx5h339a0w/dasiamrpn_kernel_cls1.onnx?dl=1"
+"En caso de que en el Monitor del proyecto se mostrara un rectángulo rojo, "
+"pero no fuera posible moverlo ni redimensionarlo, activar el *Modo de "
+"edición*, haciendo clic en el botón |edit-mode|, en la barra de herramientas "
+"del Monitor del proyecto"
