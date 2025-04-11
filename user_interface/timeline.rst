@@ -288,7 +288,9 @@ This area shows some options for a track:
 
 .. container:: clear-both
 
-   .. image:: /images/kdenlive_timeline4.webp
+   .. figure:: /images/kdenlive2504_timeline_track_haeder.webp
+      :width: 250px
+      :figwidth: 250px
       :align: left
       :alt: Track header information
    
@@ -305,6 +307,8 @@ This area shows some options for a track:
      + Mute the track |kdenlive-hide-audio| (audio tracks only)  
      + Hide video |kdenlive-hide-video| from this track; and,  
      + Enable/Disable track effects |tools-wizard| allows you to enable or disable the effects applied to the track.
+
+   :5: Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms an all audio tracks.  
 
 .. rst-class:: clear-both
 

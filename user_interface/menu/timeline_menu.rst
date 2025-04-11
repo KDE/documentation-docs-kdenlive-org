@@ -25,12 +25,13 @@ Timeline Menu
 =============
 
 .. .. versionadded:: 22.12
+.. .. versionadded:: 25.04 Zoom Audio Waveforms   
 
 The Timeline Menu functions affect the clip or clips selected in the timeline, and perform actions with relation to the timeline.
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_menu.webp
+.. figure:: /images/user_interface/menu_reference/kdenlive2504_timeline_menu.webp
    :align: left
-   :scale: 85%
+   :scale: 77%
    :alt: kdenlive2304_timeline_menu
 
    Kdenlive Timeline Menu
@@ -49,11 +50,13 @@ The Timeline Menu functions affect the clip or clips selected in the timeline, a
 - :ref:`Group Clips <timeline-group_clips>`
 - :ref:`Ungroup Clips <timeline-ungroup_clips>`
 - :ref:`Add Timeline Selection to Library <timeline-add_to_library>`
+- :ref:`Create Sequence from Selection <timeline-create_sequence_from_selection>`
 - :ref:`Tracks <timeline-menu_tracks>`
 - :ref:`Add Effect <timeline-add_effects>`
 - :ref:`Disable Timeline Effects <timeline-disable_timeline_effects>`
 - :ref:`Show Video Thumbnails <timeline-show_video_thumbnails>`
 - :ref:`Show Audio Thumbnails <timeline-show_audio_thumbnails>`
+- :ref:`Zoom Audio Waveforms <timeline-zoom_audio_waveforms>`
 - :ref:`Show Markers Comments <timeline-show_markers_comments>`
 - :ref:`Snap <timeline-toggle_snap>`
 - :ref:`Zoom In <timeline-zoom_in>`
@@ -478,6 +481,14 @@ Add Timeline Selection to Library
 This function opens a dialog window to enter a name for the library item. Kdenlive will create a :file:`.mlt` clip in the Library from where it can be added to any project. This is useful for intros, outros, logos, watermarks or any other asset that will be used in many projects.
 
 
+.. _timeline-create_sequence_from_selection:
+
+Create Sequence from Selection
+------------------------------
+
+This creates a :ref:`new sequence <Create_nested_sequence>` with the selected clips.
+
+
 .. _timeline-menu_tracks:
 
 Tracks
@@ -555,6 +566,14 @@ Show Audio Thumbnails
 ---------------------
 
 Switches on or off the display of the audio waveform in audio tracks.
+
+
+.. _timeline-zoom_audio_waveforms:
+
+Zoom Audio Waveforms
+--------------------
+
+Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms an all audio tracks.   
 
 
 .. _timeline-show_markers_comments:
