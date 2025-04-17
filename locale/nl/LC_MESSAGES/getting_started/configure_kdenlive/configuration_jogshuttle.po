@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # SPDX-FileCopyrightText: 2025 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2025 Ronald Stroethoff <stroet43@zonnet.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-14 01:50+0000\n"
-"PO-Revision-Date: 2025-01-18 12:06+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-04-14 20:20+0200\n"
+"Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:0
 msgid "1"
@@ -31,7 +32,7 @@ msgstr "3"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:1
 msgid "Kdenlive Documentation - Configuration JogShuttle"
-msgstr "Kdenlive documentatie - configuratie van JogShuttle"
+msgstr "Kdenlive documentatie - Configuratie van JogShuttle"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:1
 msgid ""
@@ -39,6 +40,9 @@ msgid ""
 "jogshuttle, jog shuttle, contour shuttlepro, contour shuttlexpress, contour, "
 "video editor, open source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, documentatie, gebruikershandleiding, configuratie, voorkeuren, "
+" jogshuttle, jog shuttle, contour shuttlepro, contour shuttlexpress, contour,"
+" videobewerker, open-source, vrij, leren, gemakkelijk"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:14
 msgid "Jog Shuttle"
@@ -49,12 +53,12 @@ msgid ""
 "Configure a connected jog shuttle device. Contour *ShuttlePro* and Contour "
 "*ShuttleXpress* are known to work."
 msgstr ""
-"Configureer een verbonden jog-shuttle apparaat. Van *ShuttlePro* en Contour "
+"Configureert een verbonden jog-shuttle apparaat. Van *ShuttlePro* en Contour "
 "*ShuttleXpress* is het bekend dat ze werken."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:23
 msgid "Configure section Jogshuttle"
-msgstr ""
+msgstr "Configuratie-sectie voor de Jogshuttle"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:25
 msgid ""
@@ -62,16 +66,24 @@ msgid ""
 "connected jog shuttle device (provided it is supported by your OS and "
 "Kdenlive)."
 msgstr ""
+":guilabel:`Activeer Jog Shuttle apparaat`. Selecteer dit als u een"
+" aangesloten connected jog shuttle (gesteld dat uw OS en Kdenlive ermee"
+" overweg kunnen)"
+" wilt gebruiken."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:27
 msgid ""
 ":guilabel:`Device name`. Select the device from this list. Click on |view-"
 "refresh| to refresh the list."
 msgstr ""
+":guilabel:`Apparaatnaam`. Selecteer in de lijst het apparaat. Klik op |view-"
+"refresh| om de lijst te verversen."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:29
 msgid "Enter here device-specific parameters or identifiers (see below)."
 msgstr ""
+"Voer hier specifieke parameters of identifiers voor het apparaat in (zie"
+" hieronder)."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:34
 msgid "Linux"
@@ -84,18 +96,24 @@ msgid ""
 "Use the text editor of your choice and create a file :file:`/etc/udev/rules."
 "d/90-contour-shuttleXpress.rules` with the line:"
 msgstr ""
+"Controleer dat uw jog-Shuttle is verbonden via USB en dat het werkt. Een"
+" \"udev\" rule is noodzakelijk voor de juiste toegangsrechten van het"
+" device-bestand. "
+"Gebruik een tekstverwerker naar keuze en creëer het bestand"
+" :file:`/etc/udev/rules.d/90-contour-shuttleXpress.rules met de "
+"regel:"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:43
 msgid "for Contour ShuttleXpress, or"
-msgstr "voor Contour ShuttleXpress of"
+msgstr "voor de Contour ShuttleXpress of"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:50
 msgid "for Contour ShuttlePRO V2."
-msgstr ""
+msgstr "voor de Contour ShuttlePRO V2."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:52
 msgid "Obtain the device file by the command in the terminal"
-msgstr ""
+msgstr "Verkrijg het device-bestand via het commando in een terminal"
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:58
 msgid "The last line of the output says"
@@ -108,8 +126,9 @@ msgid ""
 "last word on the line above to specify the device file in /dev/input), set "
 "the buttons and apply the changes."
 msgstr ""
-"Wat zou moeten vertellen welk apparaatbestand moet worden opgegeven in de "
-"instellingsdialoog van Kdenlive. Vul in het tekstvak (**3**) in ``/dev/input/"
+"Wat zou moeten vertellen welk apparaatbestand moet worden opgegeven in het"
+" dialoogvenster voor "
+"instelling van Kdenlive. Vul in het tekstvak (**3**) in ``/dev/input/"
 "**event3**`` (gebruik het laatste woord op de regel erboven om het "
 "apparaatbestand in /dev/input te specificeren), stel de knoppen in en pas de "
 "wijzigingen toe."
@@ -133,6 +152,8 @@ msgid ""
 "On the desktop open the system tray. Right-click on the Contour icon and "
 "choose **Open Control Panel**."
 msgstr ""
+"Op het bureaublad. Rechtsklik op het contourpictogram en selecteer"
+" **Besturingspaneel openen**."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:86
 msgid ""
@@ -140,12 +161,18 @@ msgid ""
 "program *Adobe Premiere Pro CS&CC (Edit)*. Then click on :menuselection:"
 "`Options --> Create new settings --> Copy contents from Current Settings`."
 msgstr ""
+"Kies in het configuratievenster onder **Toepassingsinstellingen** het "
+"programma *Adobe Premiere Pro CS&CC (Edit)*. Klik daarna op :"
+"menuselection:`Opties --> Nieuwe instellingen aanmaken --> Inhoud van "
+"huidige instellingen kopiëren`."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:92
 msgid ""
 "Then choose :file:`kdenlive.exe` in :file:`C:\\\\Program Files\\\\kdenlive\\"
 "\\bin`."
 msgstr ""
+"Selecteer dan :file:`Kdenlive.exe` in :file:`C:\\\\Program"
+" Files\\\\kdenlive\\\\bin'."
 
 #: ../../getting_started/configure_kdenlive/configuration_jogshuttle.rst:98
 msgid ""
@@ -154,3 +181,4 @@ msgid ""
 msgstr ""
 "De basis-functionaliteit zou nu moeten werken. Pas de knoppen van de shuttle "
 "aan met de gewenste sneltoetsen."
+
