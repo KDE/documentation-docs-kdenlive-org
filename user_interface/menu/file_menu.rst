@@ -105,6 +105,7 @@ Revert
 
 This abandons any changes to the project you have made since last saving and reverts back to the last saved version of the project.
 
+
 Transcode Clips
 ---------------
 
@@ -129,6 +130,42 @@ Transcode Clips
    * :guilabel:`Close after encode` Uncheck this checkbox if there is the need to convert to another format after the conversion.
 
 .. rst-class:: clear-both
+
+
+.. _file_opentimeline-export:
+.. .. versionadded:: 25.04, as C++ interface
+OpenTimelineIO Export
+---------------------
+
+•	Export a timeline with multiple tracks and clips
+•	Support for markers and guides
+
+.. Note::
+
+   Guides are converted to OTIO markers on the timeline stack.
+
+   Clip markers are converted to OTIO markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO the they are unique to each instance of the clip.
+
+   The Kdenlive marker types are stored as OTIO metadata for round-tripping files. This allows the guides and clip markers to be properly recreated when importing an OTIO file that was created with Kdenlive. The metadata is stored under the key "kdenlive" to keep it separate from metadata of other applications.
+
+
+.. _file_opentimeline-import:
+.. .. versionadded:: 25.04, as C++ interface
+OpenTimelineIO import
+---------------------
+
+•	Import a timeline with multiple tracks and clips
+•	Support for markers and guides
+
+.. note:: 
+
+   OTIO files do not contain information about rendering, so we get the render resolution from the first video clip.
+
+   OTIO markers on the timeline stack are converted to Kdenlive guides.
+   
+   OTIO markers on clips are converted to Kdenlive clip markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO the they are unique to each instance of the clip.
+   
+   If the OTIO marker metadata does not contain the Kdenlive marker type, we pick the Kdenlive guide/marker with the closest color to the OTIO marker.
 
 
 Quit
