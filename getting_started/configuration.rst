@@ -55,8 +55,8 @@ The configuration settings are divided into the following sections:
      - This section contains settings pertaining to proxy and transcoding jobs, cache data, third party application and tools, and default folders and apps
    * - :doc:`Colors and Guides</getting_started/configure_kdenlive/configuration_colors+guides>`
      - This section defines which colors to use for thumbnails, guides and markers, and monitor overlays, as well as grid spacing. Here you can also manage the categories for guides and markers.
-   * - :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`
-     - This section is used to manage the various models used for VOSK and Whisper
+   * - :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`
+     - This section is used to manage the various models used for Speech To Text (VOSK and Whisper) and Object Detection
    * - :doc:`Playback</getting_started/configure_kdenlive/configuration_playback>`
      - This section contains settings for playback during editing and external displays
    * - :doc:`Capture</getting_started/configure_kdenlive/configuration_capture>`
@@ -82,7 +82,7 @@ The configuration settings are divided into the following sections:
    configure_kdenlive/configuration_tools
    configure_kdenlive/configuration_environment
    configure_kdenlive/configuration_colors+guides
-   configure_kdenlive/configuration_speech2text
+   configure_kdenlive/configuration_plugins
    configure_kdenlive/configuration_playback
    configure_kdenlive/configuration_capture
    configure_kdenlive/configuration_jogshuttle

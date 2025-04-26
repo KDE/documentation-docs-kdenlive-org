@@ -137,6 +137,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |create-object-mask| image:: /images/icons/path-mask-edit.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |discreet| image:: /images/icons/discrete.svg
    :width: 22px
    :class: no-scaled-link
@@ -214,6 +218,14 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |edit-mode| image:: /images/icons/kdenlive-edit-mode.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |edit-opacity| image:: /images/icons/edit-opacity.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |edit-select-invert| image:: /images/icons/edit-select-invert.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -709,7 +721,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_theme_options = {
      # Toc options. The maximum depth of the table of contents tree (on the sidebar). Set this to -1 to allow unlimited depth. Set to 5 to see sub-title of https://docs.kdenlive.org/en/user_interface/menu/settings_menu/configure_kdenlive.html
-    'navigation_depth': 5,
+    'navigation_depth': 6,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
