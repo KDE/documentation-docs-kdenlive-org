@@ -33,9 +33,9 @@ Speech to Text
 .. warning:: Speech to text does not work with version 21.04.2 due to `Vosk API <https://github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and later versions.
 
 
-Before you can use Speech to Text, it must be properly configured and speech models installed. Please refer to the chapter :doc:`Configure Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
+Before you can use Speech to Text, it must be properly configured and speech models installed. Please refer to the chapter :doc:`Configure Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.
 
-.. hint:: While you can configure and set up both, VOSK and Whisper, for speech recognition, the engine that is selected in the :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>` configuration section is being used for speech recognition the next time you use this feature. You can switch back and forth during editing, of course, and use different engines for different purposes. The Speech Editor widget has a menu entry to quickly access the configuration section bypassing the :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>` route.
+.. hint:: While you can configure and set up both, VOSK and Whisper, for speech recognition, the engine that is selected in the :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>` configuration section is being used for speech recognition the next time you use this feature. You can switch back and forth during editing, of course, and use different engines for different purposes. The Speech Editor widget has a menu entry to quickly access the configuration section bypassing the :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>` route.
 
 
 Speech Recognition
@@ -98,7 +98,7 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 
 :4: :guilabel:`Process`. Click to start the recognition
 
-:5: :guilabel:`Model`. Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
+:5: :guilabel:`Model`. Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.
 
 :6: |add-subtitle|\ :guilabel:`Edit Subtitle Tool`. Click to open or close the subtitle track.
 
@@ -110,7 +110,7 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 
 #. If needed, define a timeline zone (**2**) for which you want to use speech recognition. More details about Timeline Zones can be found in the chapter :ref:`timeline_ruler`.
 
-#. :guilabel:`Model` (**5**). Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
+#. :guilabel:`Model` (**5**). Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.
 
 #. Choose which part of the timeline should be used for speech recognition (**3**)
 
@@ -141,7 +141,7 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 
 :3: Choose which part of the timeline should be used for speech recognition
 
-:4: :guilabel:`Model`. Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
+:4: :guilabel:`Model`. Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.
 
 :5: :guilabel:`Process`. Click to start the recognition
 
@@ -149,7 +149,7 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 
 :7: :guilabel:`Maximum character per line`. Define how many characters per line are allowed before a line break is inserted.
 
-:8: :guilabel:`Translate with SeamlessM4T`. Checking this opens adds two more selection fields: One for the :guilabel:`Input language`, and one for the :guilabel:`Output language`. This requires that translation with SeamlessM4T is enabled in the settings (:menuselection:`Menu --> Settings --> Configure Kdenlive --> Speech To Text`). Please refer to the chapter about :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
+:8: :guilabel:`Translate with SeamlessM4T`. Checking this opens adds two more selection fields: One for the :guilabel:`Input language`, and one for the :guilabel:`Output language`. This requires that translation with SeamlessM4T is enabled in the settings (:menuselection:`Menu --> Settings --> Configure Kdenlive --> Speech To Text`). Please refer to the chapter about :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.
 
 :9: :guilabel:`Translate to English`. Select this to use *Whisper* for the translation to English.
 
@@ -163,7 +163,7 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 
 #. If needed, define a timeline zone (**2**) for which you want to use speech recognition. More details about Timeline Zones can be found in the chapter :ref:`timeline_ruler`.
 
-#. :guilabel:`Model` (**5**). Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
+#. :guilabel:`Model` (**5**). Select the model for the language of the subtitles. You can install more models in the Configuration section :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.
 
 #. Choose which part of the timeline should be used for speech recognition (**3**)
 
@@ -256,7 +256,7 @@ Select a clip in the **Project Bin**.
 
 :1: If needed, set in and out points in the **Clip Monitor** and check :guilabel:`Selected zone only`. This will only transcribe text inside that zone.
 
-:2: Click on |application-menu|\ :guilabel:`Hamburger Menu` and choose the model for the correct language when the *VOSK* engine is set for speech recognition. If the *Whisper* engine is selected, you can select :guilabel:`Translate to English` if needed. You select the speech recognition engine in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Speech to Text`. Click on :guilabel:`Configure Speech Recognition` to open the configuration section for Speech to Text. For more details about the configuration refer to the chapter :doc:`Configure Speech to Text</getting_started/configure_kdenlive/configuration_speech2text>`.
+:2: Click on |application-menu|\ :guilabel:`Hamburger Menu` and choose the model for the correct language when the *VOSK* engine is set for speech recognition. If the *Whisper* engine is selected, you can select :guilabel:`Translate to English` if needed. You select the speech recognition engine in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Speech to Text`. Click on :guilabel:`Configure Speech Recognition` to open the configuration section for Speech to Text. For more details about the configuration refer to the chapter :doc:`Configure Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.
 
 :3: Press the :guilabel:`Transcribe` button.
 
@@ -284,7 +284,7 @@ Silence Detection
 
 Select the clip in the **Project Bin** and open the speech editor window (:menuselection:`Menu --> View --> Speech Editor`) .
 
-Click on |application-menu|:guilabel:`Hamburger Menu` and choose the model for your language. If the right model is not listed, click on :guilabel:`Configure Speech Recognition`. For details about how to add models for the *VOSK* engine refer to the chapter about :doc:`/getting_started/configure_kdenlive/configuration_speech2text`.
+Click on |application-menu|:guilabel:`Hamburger Menu` and choose the model for your language. If the right model is not listed, click on :guilabel:`Configure Speech Recognition`. For details about how to add models for the *VOSK* engine refer to the chapter about :doc:`/getting_started/configure_kdenlive/configuration_plugins`.
 
 Then click :guilabel:`Start Recognition` button.
 

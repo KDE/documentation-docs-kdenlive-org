@@ -134,6 +134,7 @@ Transcode Clips
 
 .. _file_opentimeline-export:
 .. .. versionadded:: 25.04, as C++ interface
+
 OpenTimelineIO Export
 ---------------------
 
@@ -151,6 +152,7 @@ OpenTimelineIO Export
 
 .. _file_opentimeline-import:
 .. .. versionadded:: 25.04, as C++ interface
+
 OpenTimelineIO import
 ---------------------
 
