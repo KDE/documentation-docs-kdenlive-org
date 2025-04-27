@@ -128,14 +128,14 @@ The duration/resize is linked to the start position of each clip. Meaning if you
 
 .. .. versionadded:: 25.04
 
-:guilabel:`Duration` show the length of the first selected clip done by :kbd:`Shift + click`. When selected by :kbd:`Shift + drag` it show the length of the most left clip.
+:guilabel:`Duration` shows the length of the first selected clip done by :kbd:`Shift + LMB`. When selected by :kbd:`Shift + drag` it show the length of the most left clip.
 
 .. figure:: /images/kdenlive2504_resizing-multiple-clip.webp
    :width: 50%
    :figwidth: 50%
    :alt: All selected clips have the same length
 
-   Selection with :kbd:`Shift + drag` show the length of the most left clip 
+   Selection with :kbd:`Shift + drag` shows the length of the most left clip 
 
 -	Shorten and lengthen duration: The clips get shortened/lengthened but keep their starting position
 
@@ -150,7 +150,7 @@ Change duration with :guilabel:`Ripple resize` enabled
    :figwidth: 50%
    :alt: All selected clips have the same length
 
-   Selection with :kbd:`Shift + click` show the length of the first selected clip
+   Selection with :kbd:`Shift + click` shows the length of the first selected clip
 
 -	Shorten and lengthen duration: The starting position of the left most selected clip on each track is fixed. Any gaps between clips are kept.
 

@@ -252,7 +252,7 @@ If you have installed Whisper in an earlier Kdenlive version, and now you have c
 Object Detection
 ================
 
-The first time you use object detection the plugin has to be installed
+The first time you use object detection the plugin has to be installed.
 
 .. figure:: /images/kdenlive2504_object-detection_plugin-to-be-installed.webp
    :align: left
@@ -262,12 +262,12 @@ The first time you use object detection the plugin has to be installed
 
 .. rst-class:: clear-both
 
-The plugin get installed in folder:
+The plugin gets installed in folder:
 
 :Linux: :file:`~/.local/share/kdenlive/venv-sam`
 :Windows: :file:`%LocalAppData%\\kdenlive\\venv-sam`
 
-If all is proper installed it should look like so:
+If all is properly installed it should look like so:
 
 .. figure:: /images/kdenlive2504_object-detection_plugin-installed.webp
    :align: left
@@ -283,7 +283,7 @@ If all is proper installed it should look like so:
 
 :2: :guilabel:`Device` You can switch between using the **CPU** or your **GPU** for object detection. A GPU supporting CUDA is required for GPU object detection. Kdenlive tries to find your graphic card automatically. If the graphic card supports CUDA (Nvidia GPU) it will install the necessary driver so you can use it. If your graphic card doesn't support CUDA or is not detected by Kdenlive you only see CPU. :guilabel:`GPU Support` If your Nvidia GPU is not listed, try installing an alternative by :ref:`following these steps<gpu-manual_config>`.
 
-:3: :guilabel:`Offload video to CPU to save GPU Memory` If you have long clips on which Kdenlive has to detect objects you may get a crash. Enabled, this offloads some of the memory used to the RAM instead of the GPU memory. 
+:3: :guilabel:`Offload video to CPU to save GPU Memory` If you have long clips on which Kdenlive has to detect objects you may get a crash. If enabled, this offloads some of the memory used to the RAM instead of the GPU memory. 
 
 :4: :guilabel:`Use system packages only` When enabled, Kdenlive will use the SAM2 version installed on your system. For advanced users only, as you will have to properly setup everything by yourself.
 
@@ -303,7 +303,7 @@ GPU acceleration only works with CUDA (Compute Unified Device Architecture) whic
 
 Check the CUDA version you have installed:
 
-- open a command shell (Windows: :kbd:`Windows+r` enter :kbd:`cmd` and hit enter)
+- open a command shell (Windows: :kbd:`Windows+R` enter :kbd:`cmd` and hit enter)
 
 - Enter :kbd:`nvidia-smi –-version`
 
@@ -321,7 +321,7 @@ You should get something like this:
 
 Now click on :guilabel:`GPU Support`
 
-You can select a CUDA version equal or lower then you have detected
+You can select a CUDA version equal to or lower than what was detected
 
 .. figure:: /images/kdenlive2504_cuda-version-to-be-installed.webp
    :align: left
@@ -329,7 +329,7 @@ You can select a CUDA version equal or lower then you have detected
    :figwidth: 500px
    :alt: CUDA version to be installed
 
-   Select a CUDA version which is lower then you have detected.
+   Select a CUDA version which is lower than what was detected.
 
 .. rst-class:: clear-both
 
@@ -345,7 +345,7 @@ On the next window click :guilabel:`Continue`
 
 .. rst-class:: clear-both
 
-Kdenlive start downloading all necessary files for using the GPU. Once finished you should see your GPU under :guilabel:`Device` like so: 
+Kdenlive starts downloading all necessary files for using the GPU. Once finished you should see your GPU under :guilabel:`Device` like so: 
 
 .. figure:: /images/kdenlive2504_cuda-installed.webp
    :align: left
