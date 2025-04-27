@@ -17,41 +17,43 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. _24.12: https://kdenlive.org/2024/12/kdenlive-24-12-0-released/
+.. _25.04: https://kdenlive.org/news/releases/25.05.0/
 
-.. _24.08: https://kdenlive.org/2024/09/kdenlive-24-08-0-released/
+.. _24.12: https://kdenlive.org/news/releases/24.12.0/
 
-.. _24.05: https://kdenlive.org/2024/05/kdenlive-24-05-0-released/
+.. _24.08: https://kdenlive.org/news/releases/24.08.0/
 
-.. _24.02: https://kdenlive.org/2024/03/kdenlive-24-02-0-released/
+.. _24.05: https://kdenlive.org/news/releases/24.05.0/
 
-.. _23.08: https://kdenlive.org/2023/08/kdenlive-23-08-0-released/
+.. _24.02: https://kdenlive.org/news/releases/24.02.0/
 
-.. _23.04: https://kdenlive.org/2023/04/kdenlive-23-04-0-released/
+.. _23.08: https://kdenlive.org/news/releases/23.08.0/
 
-.. _22.12: https://kdenlive.org/2022/12/kdenlive-22-12-released/
+.. _23.04: https://kdenlive.org/news/releases/23.04.0/
 
-.. _22.08: https://kdenlive.org/2022/08/kdenlive-22-08-released/
+.. _22.12: https://kdenlive.org/news/releases/22.12.0/
 
-.. _22.04: https://kdenlive.org/2022/05/kdenlive-22-04-released/
+.. _22.08: https://kdenlive.org/news/releases/22.08.0/
 
-.. _21.12: https://kdenlive.org/2021/12/kdenlive-21-12-is-out/
+.. _22.04: https://kdenlive.org/news/releases/22.04.0/
 
-.. _21.08: https://kdenlive.org/2021/08/kdenlive-21-08-is-out/
+.. _21.12: https://kdenlive.org/news/releases/21.12.0/
 
-.. _21.04: https://kdenlive.org/2021/04/kdenlive-21-04-released/
+.. _21.08: https://kdenlive.org/news/releases/21.08.0/
 
-.. _20.12: https://kdenlive.org/2020/12/kdenlive-20-12-is-out/
+.. _21.04: https://kdenlive.org/news/releases/21.04.0/
 
-.. _20.08: https://kdenlive.org/2020/08/kdenlive-20-08-is-out/
+.. _20.12: https://kdenlive.org/news/releases/20.12.0/
 
-.. _20.04: https://kdenlive.org/2020/04/kdenlive-20-04-is-out/
+.. _20.08: https://kdenlive.org/news/releases/20.08.0/
 
-.. _19.12: https://kdenlive.org/2019/12/kdenlive-19-12-0-is-out/
+.. _20.04: https://kdenlive.org/news/releases/20.04.0/
 
-.. _19.08: https://kdenlive.org/2019/08/kdenlive-19-08-released/
+.. _19.12: https://kdenlive.org/news/releases/19.12.0/
 
-.. _19.04: https://kdenlive.org/2019/04/kdenlive-19-04-released/
+.. _19.08: https://kdenlive.org/news/releases/19.08.0/
+
+.. _19.04: https://kdenlive.org/news/releases/19.04.0/
 
 
 .. _whats_new:
@@ -59,6 +61,16 @@
 ==========
 What's New
 ==========
+
+.. versionadded:: 25.04 (see 25.04_ release notes)
+
+   * Introduced :doc:`object segmentation</effects_and_filters/video_effects/alpha_mask_keying/object_mask>`
+   * Introduced support for :ref:`OpenTimeLineIO import and export<file_opentimeline-export>`
+   * Added possibility to :ref:`zoom waveform in the audio track<timeline-zoom_audio_waveforms>`
+   * Added possibility to :ref:`collapse and expand all effects in the effect stack<effect_functions>`
+   * Added in the :ref:`duration dialog a checkbox for ripple delete<resizing_multiple_timeline_items>`
+   * Added :doc:`shortcuts for find next/previous text phrase in the project notes</project_and_asset_management/project_notes>`
+
 
 .. versionadded:: 24.12 (see 24.12_ release notes)
 
