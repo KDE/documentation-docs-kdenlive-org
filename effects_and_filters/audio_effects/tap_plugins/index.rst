@@ -17,7 +17,83 @@
 
    <a href="https://www.ladspa.org" target="_blank">LADSPA</a>
 
+.. |tapAutoPanner| raw:: html
 
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/autopan.html" target="_blank">TAP AutoPanner</a>
+
+.. |tapChorusFlanger| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/chorusflanger.html" target="_blank">TAP Chorus/Flanger</a>
+
+.. |tapDeEsser| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/deesser.html" target="_blank">TAP DeEsser</a>
+
+.. |tapDynamicsM| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/dynamics.html" target="_blank">TAP Dynamics (M)</a>
+
+.. |tapDynamicsSt| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/dynamics.html" target="_blank">TAP Dynamics (St)</a>
+
+.. |tapEqualizer| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/eq.html" target="_blank">TAP Equalizer</a>
+
+.. |tapEqualizerBW| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/eq.html" target="_blank">TAP Equalizer/BW</a>
+
+.. |tapFractalDoubler| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/doubler.html" target="_blank">TAP Fractal Doubler</a>
+
+.. |tapPinkFractalNoise| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/pinknoise.html" target="_blank">TAP Pink/Fractal Noise</a>
+
+.. |tapPitchShifter| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/pitch.html" target="_blank">TAP Pitch Shifter</a>
+
+.. |tapReflector| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/reflector.html" target="_blank">TAP Reflector</a>
+
+.. |tapReverberator| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/reverb.html" target="_blank">TAP Reverberator</a>
+
+.. |tapRotarySpeaker| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/rotspeak.html" target="_blank">TAP Rotary Speaker</a>
+
+.. |tapScalingLimiter| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/limiter.html" target="_blank">TAP Scaling Limiter</a>
+
+.. |tapSigmoidBooster| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/sigmoid.html" target="_blank">TAP Sigmoid Booster</a>
+
+.. |tapStereoEcho| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/echo.html" target="_blank">TAP Stereo Echo</a>
+
+.. |tapTremolo| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/tremolo.html" target="_blank">TAP Tremolo</a>
+
+.. |tapTubeWarmth| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/tubewarmth.html" target="_blank">TAP TubeWarmth</a>
+
+.. |tapVibrato| raw:: html
+
+   <a href="https://tomscii.sig7.se/tap-plugins/ladspa/vibrato.html" target="_blank">TAP Vibrato</a>
+
+   
 TAP Plugins
 ===========
 
@@ -36,22 +112,22 @@ This category consists of effects and filters from the |ladspa| library pertaini
    
 The following filters and effects are available but not documented here. Please refer to the |tap| documentation for more details using the LADSPA identifier listed in the description of the filter.
 
-* TAP AutoPanner
-* TAP Chorus/Flanger
-* TAP DeEsser
-* TAP Dynamics (M)
-* TAP Dynamics (St)
-* TAP Equalizer
-* TAP Equalizer/BW
-* TAP Fractal Doubler
-* TAP Pink/Fractal Noise
-* TAP Pitch Shifter
-* TAP Reflector
-* TAP Reverberator
-* TAP Rotary Speaker
-* TAP Scaling Limiter
-* TAP Sigmoid Booster
-* TAP Stereo Echo
-* TAP Tremolo
-* TAP TubeWarmth
-* TAP Vibrato
+* |tapAutoPanner|
+* |tapChorusFlanger|
+* |tapDeEsser|
+* |tapDynamicsM|
+* |tapDynamicsSt|
+* |tapEqualizer|
+* |tapEqualizerBW|
+* |tapFractalDoubler|
+* |tapPinkFractalNoise|
+* |tapPitchShifter|
+* |tapReflector|
+* |tapReverberator|
+* |tapRotarySpeaker|
+* |tapScalingLimiter|
+* |tapSigmoidBooster|
+* |tapStereoEcho|
+* |tapTremolo|
+* |tapTubeWarmth|
+* |tapVibrato|
