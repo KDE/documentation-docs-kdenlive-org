@@ -52,7 +52,7 @@ There are two ways to use Object Mask:
    :width: 90%
    :alt: kdenlive2504_effects-alpha_object-mask
 
-   Object Mask in the effect stack when an clip is selected
+   Object Mask in the effect stack when a clip is selected
 
 .. rst-class:: clear-both
 

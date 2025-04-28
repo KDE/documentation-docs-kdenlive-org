@@ -145,7 +145,7 @@ OpenTimelineIO Export
 
    Guides are converted to OTIO markers on the timeline stack.
 
-   Clip markers are converted to OTIO markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO the they are unique to each instance of the clip.
+   Clip markers are converted to OTIO markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO they are unique to each instance of the clip.
 
    The Kdenlive marker types are stored as OTIO metadata for round-tripping files. This allows the guides and clip markers to be properly recreated when importing an OTIO file that was created with Kdenlive. The metadata is stored under the key "kdenlive" to keep it separate from metadata of other applications.
 

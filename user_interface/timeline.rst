@@ -284,6 +284,8 @@ The timeline is made of tracks. There are two kinds of tracks: audio and video. 
 Track Header
 ~~~~~~~~~~~~
 
+.. .. versionadded:: 25.04 Zoom Audio Waveforms 
+
 This area shows some options for a track:
 
 .. container:: clear-both
@@ -308,7 +310,7 @@ This area shows some options for a track:
      + Hide video |kdenlive-hide-video| from this track; and,  
      + Enable/Disable track effects |tools-wizard| allows you to enable or disable the effects applied to the track.
 
-   :5: Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms an all audio tracks.  
+   :5: Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio tracks.  
 
 .. rst-class:: clear-both
 
