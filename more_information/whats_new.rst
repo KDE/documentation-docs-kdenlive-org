@@ -17,7 +17,7 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. _25.04: https://kdenlive.org/news/releases/25.05.0/
+.. _25.04: https://kdenlive.org/news/releases/25.04.0/
 
 .. _24.12: https://kdenlive.org/news/releases/24.12.0/
 
