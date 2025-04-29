@@ -1,0 +1,716 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-28 01:53+0000\n"
+"PO-Revision-Date: 2025-04-28 16:35+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "1"
+msgstr "1"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "2"
+msgstr "2"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "3"
+msgstr "3"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "4"
+msgstr "4"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "5"
+msgstr "5"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "6"
+msgstr "6"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:1
+msgid "Kdenlive Documentation - Configuration Speech to Text"
+msgstr ""
+"Документація до Kdenlive — Налаштовування перетворення звукових даних на "
+"текст"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, configuration, preferences,"
+" speech to text, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, документація, підручник, налаштування, параметри, диктування,"
+" текст, відеоредактор, відео, "
+"відкритий код, вільний, вивчення, вивчити, просто"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:35
+msgid "Plugins"
+msgstr "Додатки"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:41
+msgid "This section defines settings for Speech To Text and Object Detection."
+msgstr ""
+"За допомогою цього розділу можна визначити параметри роботи перетворення"
+" звуку на текст та виявлення об'єктів."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:43
+msgid ""
+"Before Speech To Text and Object Detection can be configured and used,"
+" *Python3* needs to be installed. Once *Python3* is installed, you may want"
+" to use a virtual environment (:file:`venv`) to keep it separate for"
+" Kdenlive from other uses on your system."
+msgstr ""
+"Перш ніж можна буде налаштувати та скористатися перетворенням озвучення на"
+" текст та виявленням об'єктів, слід встановити *Python3*. Після встановлення"
+" *Python3* ви можете скористатися віртуальним середовищем (:file:`venv`),"
+" щоб відокремити Kdenlive від інших частин програмного середовища у вашій"
+" системі."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:45
+msgid ""
+"If you have installed *Python3* already jump right to the configuration page"
+" of :ref:`Speech To Text<speech2text_config>` or :ref:`Object Detection<"
+"object-detection_config>`."
+msgstr ""
+"Якщо вами вже встановлено *Python3*, перейдіть безпосереднього до сторінки"
+" налаштувань :ref:`Перетворення мовлення у текст<speech2text_config>` або"
+" :ref:`Виявлення об'єктів<object-detection_config>`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:49
+msgid "Python installation"
+msgstr "Встановлення Python"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:52
+msgid "Installation on Linux"
+msgstr "Встановлення у Linux"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:54
+msgid ""
+"On most Linux distributions *Python* is installed by default. You can check"
+" if that is the case for your system by running ``python3 --version`` in a"
+" terminal. The following are the basic steps for installing *Python3* on"
+" Ubuntu. If your distribution is not Ubuntu-based please refer to the"
+" specific documentation or search the Internet for installation instructions."
+msgstr ""
+"У більшості дистрибутивів Linux *Python* вже типово встановлено. Ви можете"
+" перевірити, чи встановлено інтерпретатор у вашій системі, віддавши команду"
+" ``python3 --version`` у терміналі. Нижче наведено основні кроки для"
+" встановлення *Python3* в Ubuntu. Якщо ваш дистрибутив не засновано на"
+" Ubuntu, зверніться до відповідної документації або знайдіть в інтернеті"
+" настанови зі встановлення."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:61
+msgid ""
+"The crucial third-party *Python* package you may need is *pip*. *Python 3.4*"
+" and later include *pip* by default but it does not hurt to check by running"
+" ``command -v pip`` in a terminal (some distributions use *pip* for"
+" *Python2* and *pip3* for *Python 3*). If *pip* is missing, you can install"
+" it with"
+msgstr ""
+"Важливий сторонній пакет *Python*, який вам може знадобитися, — це *pip*. У"
+" *Python 3.4* і новіших версіях типово вже є *pip*, але не завадить"
+" перевірити, віддавши команду ``command -v pip`` у терміналі (деякі"
+" дистрибутиви використовують *pip* для *Python2* і *pip3* для *Python 3*)."
+" Якщо *pip* немає, ви можете встановити його за допомогою"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:67
+msgid "In case of issues please refer to the |pip_installation_guide|."
+msgstr ""
+"Якщо виникнуть проблеми, будь ласка, зверніться до |pip_installation_guide|."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:69
+msgid ""
+"In the following paragraphs, *pip* is the generic term for all versions of"
+" pip, including pip3. Please use the correct ``pip`` command for your OS."
+msgstr ""
+"У наступних розділах *pip* є загальним терміном для всіх версій pip,"
+" включаючи pip3. Будь ласка, скористайтеся належною командою ``pip`` для"
+" вашої операційної системи."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:73
+msgid "Installation on Windows"
+msgstr "Встановлення у Windows"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:75
+msgid "Download *Python* from the official |python_download| page."
+msgstr "Отримайте *Python* з офіційної сторінки |python_download|."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:81
+msgid "Speech To Text"
+msgstr "Перетворення звуку на текст"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:83
+msgid ""
+"This section is used for setting up the Speech-to-Text feature of Kdenlive"
+" and for managing the various models for the two engines VOSK and Whisper."
+msgstr ""
+"За допомогою цього розділу можна налаштувати можливість перетворення"
+" озвучення на текст у Kdenlive та керувати різноманітними моделями для двох"
+" рушіїв, VOSK і Whisper."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:85
+msgid ""
+"Speech To Text does not work with version 21.04.2 due to `Vosk API <"
+"https://github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or"
+" 21.04.3 and later versions."
+msgstr ""
+"Перетворення мовлення у текст не працює у версії 21.04.2 через проблеми із "
+"`програмним інтерфейсом Vosk <https://github.com/alphacep/vosk-api>`_. "
+"Скористайтеся версією 21.04.1 або 21.04.3 чи новішими версіями."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:89
+msgid "Speech Engines"
+msgstr "Рушії озвучення"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:91
+msgid ""
+"There are two speech engines available: *VOSK* and *Whisper*. OpenAI's"
+" *Whisper* is a speech recognition module for general use trained on a large"
+" dataset of diverse audio and is capable of performing speech translation,"
+" and language identification."
+msgstr ""
+"Доступні два рушії мовлення: *VOSK* і *Whisper*. OpenAI-*Whisper* є модулем "
+"розпізнавання мовлення для загального використання Її натреновано на "
+"великому наборі даних різних звукових фрагментів, і вона може виконувати "
+"переклад та визначення мови."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:93
+msgid ""
+"*Whisper* is slower than *VOSK* on CPU, but it is more accurate than *VOSK*."
+" *Whisper* creates sentences with punctuation marks, even in Base mode."
+msgstr ""
+"*Whisper* є повільнішим за *VOSK* на процесорі, але є точнішими за *VOSK*."
+" *Whisper* "
+"створює речення зі знаками пунктуації, навіть у базовому режимі."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:95
+msgid "You need to set up the models to be used by these engines."
+msgstr "Вам слід налаштувати моделі, які буде використано цими рушіями."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:97
+msgid ""
+"If you are using the flatpak version of Kdenlive, you may experience"
+" problems with installing the speech models. The sandbox approach of flatpak"
+" prevents kdenlive from running *pip*. There is a possible workaround using"
+" ``$ flatpak run --command=/bin/bash org.kde.kdenlive`` and then ``$ python"
+" -m ensurepip`` followed by ``$ python -m pip install -U openai-whisper"
+" torch`` (courtesy of |veronica_explains|). Your mileage may vary."
+msgstr ""
+"Якщо ви користуєтеся версією Kdenlive з Flatpak, у вас можуть виникнути"
+" проблеми зі встановленням моделей мовлення. Підхід із пісочницею flatpak"
+" запобігає запуску *pip* у kdenlive. Це можна обійти за допомогою команди"
+" ``$ flatpak run --command=/bin/bash org.kde.kdenlive``, а потім ``$ python"
+" -m securepip``, а потім ``$ python -m pip install -U openai -whisper"
+" torch`` (поради люб'язно надано |veronica_explains|). Складність"
+" налаштовування у вашому дистрибутиві може бути різною."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:99
+msgid ""
+"The other option is to select :guilabel:`Whisper` and then click on"
+" :guilabel:`Install multilingual translation`. This will download and"
+" install the necessary dependencies and make Kdenlive aware of the location"
+" of your installation of *Python* and *pip*. After that you can follow the"
+" instructions for setting up VOSK and Whisper here."
+msgstr ""
+"Інший варіант – вибрати :guilabel:`Whisper`, а потім натиснути"
+" :guilabel:`Установити багатомовний переклад`. У результаті буде отримано і"
+" встановлено необхідні залежності та повідомлено Kdenlive про місце, куди ви"
+" встановили *Python* і *pip*. Після цього ви можете виконати надані тут"
+" настанови щодо налаштовування VOSK і Whisper."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:102
+msgid "VOSK"
+msgstr "VOSK"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:109
+msgid ""
+"Python is working, but VOSK is not yet usable due to missing speech models"
+msgstr ""
+"Python працює, але VOSK не може бути використано через нестачу моделей "
+"мовлення"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:111
+msgid ""
+"You need to download a speech model first from the alphacephei\\ [1]_"
+" download page. Follow the link (**2**) and download the models you need."
+msgstr ""
+"Спочатку вам слід отримати модель мовлення зі сторінки отримання даних "
+"alphacephei\\ [1]_. Перейдіть за посиланням (**2**) і отримайте потрібні вам "
+"моделі."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:113
+msgid ""
+"By default, the language models are installed into the following folders:"
+msgstr "Типово, мовні моделі буде встановлено до таких тек:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:115
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:228
+msgid ":file:`~/.local/share/kdenlive/venv/Lib`"
+msgstr ":file:`~/.local/share/kdenlive/venv/Lib`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:116
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:229
+msgid ":file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+msgstr ":file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:118
+msgid ""
+"If you want to use a specific folder, check :guilabel:`Custom models folder`"
+" (**3**) and specify it in the text field below or click on"
+" |document-open|\\ :guilabel:`Open file dialog` to navigate to the target"
+" folder. If you use the default folder, it will be displayed for"
+" informational purposes in the models folder text field."
+msgstr ""
+"Якщо ви хочете скористатися певною текою, позначте :guilabel:`Нетипова тека"
+" моделей` (**3**) і вкажіть теку у текстовому полі нижче або натисніть"
+" |document-open|\\ :guilabel:`Відкрити вікно вибору файлів`, щоб перейти до"
+" потрібної теки. Якщо ви використовуєте типову теку, її адресу буде показано"
+" у текстовому полі теки моделей для інформування."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:120
+msgid ""
+"If you have installed VOSK in an earlier Kdenlive version, and now you have"
+" chosen the :file:`venv` folder for Python, you can delete the previously"
+" installed VOSK libraries by using the following command in a terminal:"
+msgstr ""
+"Якщо вами було встановлено VOSK у якійсь із попередніх версій Kdenlive, а у "
+"новій версії вибрано теку :file:`venv` для Python, ви можете вилучити "
+"встановлені бібліотеки VOSK за допомогою такої команди у терміналі:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:127
+msgid ""
+"Click on :guilabel:`Add Model` and enter the path to the file(s) you"
+" downloaded."
+msgstr ""
+"Натисніть кнопку :guilabel:`Додати модель` і введіть шлях до отриманих вами "
+"файлів."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:135
+msgid ""
+"Click on |document-open|\\ :guilabel:`Open file dialog` to open the file"
+" manager of your OS to navigate to where you downloaded the files and select"
+" the model file you want to add."
+msgstr ""
+"Натисніть кнопку |document-open|\\ :guilabel:`Відкрити вікно вибору файлів`,"
+" щоб відкрити програму для керування файлами вашої операційної системи, щоб"
+" перейти до місця, куди ви отримали файли, і вибрати файл моделі, який"
+" потрібно додати."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:147
+msgid ""
+"Alternatively, drag & drop the language model you want from the"
+" alphacephei\\ [1]_ download page to the model window (**4**), and Kdenlive"
+" will download and extract it for you into the default folder or the custom"
+" folder you specified."
+msgstr ""
+"Крім того, можна перетягнути мовну модель зі сторінки отримання даних"
+" alphacephei\\ [1]_ і скинути її до вікна моделей (**4**), і Kdenlive"
+" отримає дані і видобуде їх до типової теки або вказаної вами нетипової теки."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:151
+msgid ""
+"The models are compressed files (:file:`.zip`) and can be several GB big."
+" Depending on your internet connection, download times could be long. After"
+" the download, the files need to be extracted which depending on your system"
+" configuration can also take a long time. Kdenlive will appear unresponsive"
+" but is working in the background. Please be patient."
+msgstr ""
+"Моделі є стиснутими файлами (:file:`.zip`) і можуть мати розмір у декілька"
+" ГБ. Залежно від з'єднання з інтернетом отримання даних може бути досить"
+" тривалим. Після отримання файли слід розпакувати, що також може тривати"
+" досить довго, залежно від конфігурації вашої системи. Kdenlive не"
+" реагуватиме на команди, але працюватиме у фоновому режимі. Майте терпіння."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:153
+msgid ""
+"Once models have been installed, Kdenlive displays the size of the model"
+" folder. Click on :guilabel:`Models folder` to open the models folder with"
+" the file manager of your OS."
+msgstr ""
+"Після встановлення моделей Kdenlive покаже розмір теки моделей. Натисніть"
+" :guilabel:`Тека моделей`, щоб відкрити теку моделей за допомогою програми"
+" для керування файлами вашої операційної системи."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:156
+msgid "Whisper"
+msgstr "Whisper"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:164
+msgid "Install missing dependencies"
+msgstr "Встановити потрібні залежності"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:166
+msgid ""
+"When you switch to Whisper for the first time you have to install the"
+" missing dependencies (about 2GB to download)."
+msgstr ""
+"Якщо ви перший раз перемикаєтеся на Whisper, вам доведеться спочатку "
+"встановити пропущені залежності (доведеться отримати близько 2 ГБ даних)."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:170
+msgid "After that you need to download one or more speech models."
+msgstr "Після цього вам слід отримати одну або декілька моделей мовлення."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:178
+msgid "Whisper is installed but no speech model has been downloaded"
+msgstr "Whisper встановлено, але не отримано жодної моделі мовлення"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:182
+msgid "Whisper is selected for speech recognition"
+msgstr "Whisper вибрано для розпізнавання мовлення"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:184
+msgid ""
+"When left at **Autodetect**, Kdenlive will try to figure out which language"
+" to use for speech recognition. If this gives the wrong results, select the"
+" correct language here."
+msgstr ""
+"Якщо не змінювати **Автовиявлення**, Kdenlive спробує визначити, яку мову"
+" слід використати для розпізнавання мовлення. Якщо це дає неправильні"
+" результати, виберіть тут належну мову."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:186
+msgid ""
+"You can switch between using the **CPU** or your **GPU** for speech"
+" recognition. A GPU supporting CUDA is required for GPU speech recognition."
+msgstr ""
+"Ви можете перемикатися між використанням **основного процесора** і"
+" **графічного процесора** для розпізнавання мовлення. Для розпізнавання"
+" мовлення за допомогою графічного процесора потрібен графічний процесор із"
+" підтримкою CUDA."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:188
+msgid ""
+"Only for GPU. When Kdenlive detects a NVIDIA GTX 16xx graphic card it"
+" disables half precision (FP16) automatically. If you have issues with using"
+" GPU you can switch off half precision."
+msgstr ""
+"Тільки для графічних процесорів. Якщо Kdenlive виявляє графічну карту NVIDIA"
+" GTX 16xx, він автоматично вимикає половинну точність (FP16). Якщо у вас"
+" виникають проблеми з використанням графічного процесора, ви можете вимкнути"
+" половинну точність."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:190
+msgid ""
+"You can have Whisper translate the text to English. If you need translation"
+" to other languages, you need to click on :guilabel:`Install multilingual"
+" translation`. This will enable SeamlessM4T\\ [2]_ and download and install"
+" its models (around 10GB of data). Processing will happen offline from then"
+" on."
+msgstr ""
+"Ви можете наказати Whisper перекласти текст англійською мовою. Якщо вам"
+" потрібен переклад іншими мовами, вам слід позначити пункт"
+" :guilabel:`Встановити багатомовний переклад`. Це надасть змогу увімкнути"
+" SeamlessM4T\\ [2]_, а також отримати і встановити його моделі (приблизно 10"
+" ГБ даних). Після цього обробка відбуватиметься в автономному режимі."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:195
+msgid ""
+"Click on :guilabel:`Manage models` or go with the recommendation of using"
+" the turbo model by clicking on :guilabel:`Download (1.4GB)`. More"
+" information about the available models is on the |whisper_source|."
+msgstr ""
+"Натисніть :guilabel:`Керувати моделями` або перейдіть до рекомендації щодо"
+" використання турбо-моделі, натиснувши :guilabel:`Отримати (1,4 ГБ)`. Більше"
+" відомостей щодо доступних моделей можна знайти на сторінці |whisper_source|."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:203
+msgid "Whisper download and manage models"
+msgstr "Отримання моделей Whisper і керування ними"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:205
+msgid "Kdenlive shows the download process."
+msgstr "Kdenlive показує процес отримання."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:207
+msgid ""
+"Installed speech models have a solid circle. You can delete them by clicking"
+" on :guilabel:`Uninstall model`"
+msgstr ""
+"Для встановлених моделей мовлення буде показано зафарбований кружок. Ви "
+"можете вилучити модель натисканням кнопки :guilabel:`Вилучити модель`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:209
+msgid ""
+"Available models have a hollow circle. You can install them by clicking on"
+" :guilabel:`Install model`."
+msgstr ""
+"Для доступних моделей буде показано порожній кружок. Ви можете встановити "
+"модель натисканням кнопки :guilabel:`Встановити модель`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:222
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:278
+msgid "When all is configured correctly you get this screen: All green!"
+msgstr ""
+"Якщо все налаштовано правильно, ви побачите таке вікно: усюди зелений!"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:226
+msgid "Path where Whisper is installed:"
+msgstr "Шлях, куди встановлено Whisper:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:231
+msgid "The Whisper speech models are stored here:"
+msgstr "Моделі мовлення Whisper зберігатимуться тут:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:233
+msgid ":file:`~/.local/share/kdenlive/opencvmodels`"
+msgstr ":file:`~/.local/share/kdenlive/opencvmodels`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:234
+msgid ":file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+msgstr ":file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:236
+msgid ""
+"To download and start subtitle translation :ref:`follow these steps <"
+"Translate_with_SeamlessM4T>`."
+msgstr ""
+"Щоб отримати дані та розпочати переклад субтитрів, виконайте :ref:`ці кроки "
+"<Translate_with_SeamlessM4T>`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:238
+msgid ""
+"You can check for updates by clicking on :guilabel:`Check configuration`"
+msgstr ""
+"Виконати пошук оновлень можна натисканням кнопки :guilabel:`Перевірити "
+"налаштування`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:240
+msgid ""
+"If you have installed Whisper in an earlier Kdenlive version, and now you"
+" have chosen the :file:`venv` folder for Python, you can delete the"
+" previously installed Whisper libraries by using the following command in a"
+" terminal:"
+msgstr ""
+"Якщо вами було встановлено Whisper у якійсь із попередніх версій Kdenlive, а "
+"у новій версії вибрано теку :file:`venv` для Python, ви можете вилучити "
+"встановлені бібліотеки Whisper за допомогою такої команди у терміналі:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:247
+msgid ""
+"If you get consistent messages during speech recognition about missing model"
+" files, check where clicking on the link next to :guilabel:`Models folder`"
+" takes you. If it is :file:`~/.cache` where there is a folder"
+" :file:`Whisper` containing all the models you downloaded, simply copy this"
+" folder to where the error message says they are missing (most likely:"
+" :file:`~/.var/app/org.kde.kdenlive/cache`)"
+msgstr ""
+"Якщо під час розпізнавання мовлення ви отримуєте послідовні повідомлення про"
+" нестачу файлів моделі, перевірте, куди вас переведе натискання посилання"
+" поруч із :guilabel:`текою моделей`. Якщо це :file:`~/.cache`, де є тека"
+" :file:`Whisper`, що містить усі моделі, які ви отримали, просто скопіюйте"
+" цю теку туди, де в повідомленні про помилку зазначено, що їх немає"
+" (найімовірніше: :file: `~/.var/app/org.kde.kdenlive/cache`)"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:253
+msgid "Object Detection"
+msgstr "Виявлення об'єктів"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:255
+msgid ""
+"The first time you use object detection the plugin has to be installed."
+msgstr ""
+"На момент першого використання виявлення об'єктів має бути встановлено"
+" додаток."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:265
+msgid "The plugin gets installed in folder:"
+msgstr "Додаток буде встановлено до такої теки:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:267
+msgid ":file:`~/.local/share/kdenlive/venv-sam`"
+msgstr ":file:`~/.local/share/kdenlive/venv-sam`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:268
+msgid ":file:`%LocalAppData%\\\\kdenlive\\\\venv-sam`"
+msgstr ":file:`%LocalAppData%\\\\kdenlive\\\\venv-sam`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:270
+msgid "If all is properly installed it should look like so:"
+msgstr "Якщо все встановлено належним чином, має виглядати якось так:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:282
+msgid ""
+":guilabel:`Model` You can download different models for object detection."
+msgstr ""
+":guilabel:`Модель` — ви можете отримати різні моделі для виявлення об'єктів."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:284
+msgid ""
+":guilabel:`Device` You can switch between using the **CPU** or your **GPU**"
+" for object detection. A GPU supporting CUDA is required for GPU object"
+" detection. Kdenlive tries to find your graphic card automatically. If the"
+" graphic card supports CUDA (Nvidia GPU) it will install the necessary"
+" driver so you can use it. If your graphic card doesn't support CUDA or is"
+" not detected by Kdenlive you only see CPU. :guilabel:`GPU Support` If your"
+" Nvidia GPU is not listed, try installing an alternative by :ref:`following"
+" these steps<gpu-manual_config>`."
+msgstr ""
+":guilabel:`Пристрій` — ви можете перемикатися між використанням **ЦП** або"
+" **ГП** для виявлення об'єктів. Для виявлення об'єктів на графічному"
+" процесорі потрібен графічний процесор з підтримкою CUDA. Kdenlive"
+" автоматично намагається знайти вашу відеокартку. Якщо для вашої відеокартки"
+" передбачено підтримку CUDA (ГП Nvidia), вона встановить необхідний драйвер,"
+" щоб ви могли її використовувати. Якщо ваша відеокартка не підтримує CUDA"
+" або не виявляється Kdenlive, ви побачите лише центральний процесор."
+" :guilabel:`Підтримка ГП` — якщо вашого ГП Nvidia немає у списку, спробуйте"
+" встановити альтернативу, :ref:`виконавши ці кроки<gpu-manual_config>`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:286
+msgid ""
+":guilabel:`Offload video to CPU to save GPU Memory` If you have long clips"
+" on which Kdenlive has to detect objects you may get a crash. If enabled,"
+" this offloads some of the memory used to the RAM instead of the GPU memory."
+msgstr ""
+":guilabel:`Вивантажити відео до основного процесора і заощадити пам'ять"
+" графічного` — якщо ви працюєте з довгими кліпами, у яких Kdenlive має"
+" виявити об'єкти, може статися аварійне завершення роботи програми. Якщо"
+" позначити цей пункт, програма вивантажить частину даних до оперативної"
+" пам'яті і розвантажить пам'ять графічного процесора."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:288
+msgid ""
+":guilabel:`Use system packages only` When enabled, Kdenlive will use the"
+" SAM2 version installed on your system. For advanced users only, as you will"
+" have to properly setup everything by yourself."
+msgstr ""
+":guilabel:`Використовувати лише загальносистемні пакунки` — Якщо позначено,"
+" Kdenlive використовуватиме версію SAM2, яку встановлено у "
+"вашій системі. Лише для досвідчених користувачів, оскільки доведеться "
+"належним чином налаштувати усе власноруч."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:290
+msgid ""
+":guilabel:`Models folder` When you click on the link the folder will be"
+" opened where the SAM2 models are stored including the size of this folder."
+" :guilabel:`Delete all models` will delete the content of the model folder."
+msgstr ""
+":guilabel:`Тека моделей` — у відповідь на натискання посилання буде відкрито"
+" теку, де зберігаються моделі SAM2 із зазначенням об'єму цієї теки."
+" Натискання кнопки :guilabel:`Вилучити усі моделі` призведе до вилучення"
+" усіх даних з теки моделей."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:292
+msgid ""
+":guilabel:`Plugin size` When you click on the link the folder will be opened"
+" where the venv-sam Python scripts are stored including the size of this"
+" folder. :guilabel:`Uninstall plugin` will uninstall venv-sam Python."
+msgstr ""
+":guilabel:`Розмір додатка` — у відповідь на натискання посилання буде"
+" відкрито теку, де зберігаються скрипти venv-sam мовою Python із зазначенням"
+" об'єму даних, що зберігаються у теці. У відповідь на натискання кнопки"
+" :guilabel:`Вилучити додаток` venv-sam Python буде вилучено."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:298
+msgid "GPU manual installation"
+msgstr "Встановлення підтримки графічного процесора вручну"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:300
+msgid ""
+"If Kdenlive doesn't detect your NVIDIA GPU automatically you can try to"
+" install it manually."
+msgstr ""
+"Якщо Kdenlive не вдається виявити ваш графічний процесор NVIDIA автоматично,"
+" ви можете спробувати встановити його вручну."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:302
+msgid ""
+"GPU acceleration only works with CUDA (Compute Unified Device Architecture)"
+" which is a proprietary NVIDIA parallel computing architecture."
+msgstr ""
+"Прискорення за допомогою графічного процесора працює лише з CUDA (Compute"
+" Unified Device Architecture), тобто закритої архітектури паралельних"
+" обчислень NVIDIA."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:304
+msgid "Check the CUDA version you have installed:"
+msgstr "Перевірте версію встановленої CUDA:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:306
+msgid ""
+"open a command shell (Windows: :kbd:`Windows+R` enter :kbd:`cmd` and hit"
+" enter)"
+msgstr ""
+"відкрийте командну оболонку (Windows: :kbd:`Windows+R`, введіть :kbd:`cmd` і"
+" натисніть Enter)"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:308
+msgid "Enter :kbd:`nvidia-smi –-version`"
+msgstr "Введіть команду :kbd:`nvidia-smi –-version`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:310
+msgid "You should get something like this:"
+msgstr "У вас має бути щось таке:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:318
+msgid "Here the CUDA version is 12.8"
+msgstr "Тут версією CUDA є 12.8"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:322
+msgid "Now click on :guilabel:`GPU Support`"
+msgstr "Тепер натисніть :guilabel:`Підтримка графічного процесора`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:324
+msgid "You can select a CUDA version equal to or lower than what was detected"
+msgstr ""
+"Ви можете вибрати версію CUDA, яка є рівною тій, яку виявлено, або меншою за"
+" неї"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:332
+msgid "Select a CUDA version which is lower than what was detected."
+msgstr "Виберіть версію CUDA, яка є меншою за ту, яку виявлено."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:336
+msgid "Click :guilabel:`Apply`"
+msgstr "Натисніть кнопку :guilabel:`Застосувати`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:338
+msgid "On the next window click :guilabel:`Continue`"
+msgstr "У наступному вікні натисніть кнопку :guilabel:`Продовжити`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:348
+msgid ""
+"Kdenlive starts downloading all necessary files for using the GPU. Once"
+" finished you should see your GPU under :guilabel:`Device` like so:"
+msgstr ""
+"Kdenlive починає отримувати усі потрібні файли для використання графічного"
+" процесора. Щойно процедуру буде завершено, ви маєте побачити ваш графічний"
+" процесор у списку :guilabel:`Пристрій`, ось так:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:356
+msgid "Successfully installed GPU"
+msgstr "Підтримку графічного процесора успішно встановлено"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:362
+msgid ""
+"The alphacephei download page with the different language models looks like"
+" this:"
+msgstr ""
+"Сторінка отримання даних alphacephei із пунктами різних моделей мов виглядає "
+"десь так:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:373
+msgid "This is meta's |seamless-m4t-v2-large| model"
+msgstr "Це модель meta |seamless-m4t-v2-large|"
