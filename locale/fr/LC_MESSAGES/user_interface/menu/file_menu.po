@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 01:50+0000\n"
+"POT-Creation-Date: 2025-04-28 01:53+0000\n"
 "PO-Revision-Date: 2024-02-05 15:35+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
@@ -223,26 +223,26 @@ msgstr ""
 "enregistrement et permet de revenir à la dernière version enregistrée du "
 "projet."
 
-#: ../../user_interface/menu/file_menu.rst:109
+#: ../../user_interface/menu/file_menu.rst:110
 #, fuzzy
 #| msgid "Transcode Clips..."
 msgid "Transcode Clips"
 msgstr "Transcoder des vidéos..."
 
-#: ../../user_interface/menu/file_menu.rst:118
+#: ../../user_interface/menu/file_menu.rst:119
 #, fuzzy
 #| msgid "Transcode Clips..."
 msgid "Transcode clips"
 msgstr "Transcoder des vidéos..."
 
-#: ../../user_interface/menu/file_menu.rst:121
+#: ../../user_interface/menu/file_menu.rst:122
 msgid ""
 "Use this to convert a video or audio clip from one codec/format to another."
 msgstr ""
 "Utiliser ceci pour convertir une vidéo ou une séquence audio à partir d'un "
 "codec / format vers un autre."
 
-#: ../../user_interface/menu/file_menu.rst:123
+#: ../../user_interface/menu/file_menu.rst:124
 #, fuzzy
 #| msgid ""
 #| "Choose one source file or multiple source files and a profile that "
@@ -261,7 +261,7 @@ msgstr ""
 "menuselection:`Démarrer`. Sinon, cliquez sur :menuselection:`Annuler` pour "
 "fermer les fenêtres."
 
-#: ../../user_interface/menu/file_menu.rst:125
+#: ../../user_interface/menu/file_menu.rst:126
 msgid ""
 "Transcoding a clip should be faster than loading the clip into the timeline "
 "and re-encoding it into a different format."
@@ -270,7 +270,7 @@ msgstr ""
 "vidéo dans la frise chronologique et son son ré-encodage dans un format "
 "différent."
 
-#: ../../user_interface/menu/file_menu.rst:127
+#: ../../user_interface/menu/file_menu.rst:128
 #, fuzzy
 #| msgid ""
 #| ":menuselection:`Add clip to project` controls if after the conversion, "
@@ -283,7 +283,7 @@ msgstr ""
 ":menuselection:`Ajouter une vidéo au projet` contrôle si, après la "
 "conversion, la nouvelle vidéo est ajoutée à :ref:`project_tree`."
 
-#: ../../user_interface/menu/file_menu.rst:129
+#: ../../user_interface/menu/file_menu.rst:130
 #, fuzzy
 #| msgid ""
 #| ":menuselection:`Close after encode` Uncheck this checkbox if there is the "
@@ -295,15 +295,81 @@ msgstr ""
 ":menuselection:`Fermer après encodage` Décochez cette case s'il est "
 "nécessaire de convertir dans un autre format après la conversion."
 
-#: ../../user_interface/menu/file_menu.rst:135
+#: ../../user_interface/menu/file_menu.rst:139
+msgid "OpenTimelineIO Export"
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:141
+msgid "Export a timeline with multiple tracks and clips"
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:142
+#: ../../user_interface/menu/file_menu.rst:160
+msgid "Support for markers and guides"
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:146
+msgid "Guides are converted to OTIO markers on the timeline stack."
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:148
+msgid ""
+"Clip markers are converted to OTIO markers. Note that clip markers work "
+"differently between Kdenlive and OTIO; in Kdenlive they are shared between "
+"each instance of the clip, in OTIO the they are unique to each instance of "
+"the clip."
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:150
+msgid ""
+"The Kdenlive marker types are stored as OTIO metadata for round-tripping "
+"files. This allows the guides and clip markers to be properly recreated when "
+"importing an OTIO file that was created with Kdenlive. The metadata is "
+"stored under the key \"kdenlive\" to keep it separate from metadata of other "
+"applications."
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:157
+msgid "OpenTimelineIO import"
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:159
+msgid "Import a timeline with multiple tracks and clips"
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:164
+msgid ""
+"OTIO files do not contain information about rendering, so we get the render "
+"resolution from the first video clip."
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:166
+msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:168
+msgid ""
+"OTIO markers on clips are converted to Kdenlive clip markers. Note that clip "
+"markers work differently between Kdenlive and OTIO; in Kdenlive they are "
+"shared between each instance of the clip, in OTIO the they are unique to "
+"each instance of the clip."
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:170
+msgid ""
+"If the OTIO marker metadata does not contain the Kdenlive marker type, we "
+"pick the Kdenlive guide/marker with the closest color to the OTIO marker."
+msgstr ""
+
+#: ../../user_interface/menu/file_menu.rst:174
 msgid "Quit"
 msgstr "Quitter"
 
-#: ../../user_interface/menu/file_menu.rst:137
+#: ../../user_interface/menu/file_menu.rst:176
 msgid "Exits **Kdenlive**."
 msgstr ""
 
-#: ../../user_interface/menu/file_menu.rst:139
+#: ../../user_interface/menu/file_menu.rst:178
 #, fuzzy
 #| msgid ""
 #| "Exits **Kdenlive**. Prompts you to save any unsaved changes. The default "

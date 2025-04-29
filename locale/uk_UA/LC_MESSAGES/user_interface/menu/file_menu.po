@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 01:50+0000\n"
-"PO-Revision-Date: 2025-01-14 21:07+0200\n"
+"POT-Creation-Date: 2025-04-28 01:53+0000\n"
+"PO-Revision-Date: 2025-04-28 12:08+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -210,22 +210,22 @@ msgstr ""
 "внесено після останнього зберігання, і повернути проєкт до стану останньої "
 "збереженої версії."
 
-#: ../../user_interface/menu/file_menu.rst:109
+#: ../../user_interface/menu/file_menu.rst:110
 msgid "Transcode Clips"
 msgstr "Перекодувати кліпи"
 
-#: ../../user_interface/menu/file_menu.rst:118
+#: ../../user_interface/menu/file_menu.rst:119
 msgid "Transcode clips"
 msgstr "Перекодувати кліпи…"
 
-#: ../../user_interface/menu/file_menu.rst:121
+#: ../../user_interface/menu/file_menu.rst:122
 msgid ""
 "Use this to convert a video or audio clip from one codec/format to another."
 msgstr ""
 "Цим пунктом можна скористатися для перекодування відеокліпу або звукового "
 "кліпу з одного кодеку або формату до іншого."
 
-#: ../../user_interface/menu/file_menu.rst:123
+#: ../../user_interface/menu/file_menu.rst:124
 msgid ""
 "Choose one source file or multiple source files and a profile that "
 "represents the desired destination codec/format. Optionally change the "
@@ -238,7 +238,7 @@ msgstr ""
 "`Почати`. Якщо передумали, натисніть кнопку :guilabel:`Перервати`, щоб "
 "закрити вікно."
 
-#: ../../user_interface/menu/file_menu.rst:125
+#: ../../user_interface/menu/file_menu.rst:126
 msgid ""
 "Transcoding a clip should be faster than loading the clip into the timeline "
 "and re-encoding it into a different format."
@@ -246,7 +246,7 @@ msgstr ""
 "Перекодування кліпу може бути швидшим способом обробки, ніж завантаження "
 "кліпу на монтажний стіл із наступним перекодовуванням його в інший формат."
 
-#: ../../user_interface/menu/file_menu.rst:127
+#: ../../user_interface/menu/file_menu.rst:128
 msgid ""
 ":guilabel:`Add clip to project` controls if after the conversion, the new "
 "clip is added to the :doc:`Project Bin </project_and_asset_management/"
@@ -256,7 +256,7 @@ msgstr ""
 "перекодовування додано на :doc:`панель контейнера проєкту </"
 "project_and_asset_management/project_bin>`."
 
-#: ../../user_interface/menu/file_menu.rst:129
+#: ../../user_interface/menu/file_menu.rst:130
 msgid ""
 ":guilabel:`Close after encode` Uncheck this checkbox if there is the need to "
 "convert to another format after the conversion."
@@ -266,15 +266,101 @@ msgstr ""
 "Зніміть позначку з пункту Закрити після перекодування, якщо після першого "
 "перетворення плануєте перекодувати дані у ще якийсь формат."
 
-#: ../../user_interface/menu/file_menu.rst:135
+#: ../../user_interface/menu/file_menu.rst:139
+msgid "OpenTimelineIO Export"
+msgstr "Експортувати до OpenTimelineIO"
+
+#: ../../user_interface/menu/file_menu.rst:141
+msgid "Export a timeline with multiple tracks and clips"
+msgstr "Експортування монтажного столу із декількома доріжками та кліпами"
+
+#: ../../user_interface/menu/file_menu.rst:142
+#: ../../user_interface/menu/file_menu.rst:160
+msgid "Support for markers and guides"
+msgstr "Підтримка позначок і напрямних"
+
+#: ../../user_interface/menu/file_menu.rst:146
+msgid "Guides are converted to OTIO markers on the timeline stack."
+msgstr ""
+"Дані напрямних буде перетворено до позначок OTIO у стосі монтажного столу."
+
+#: ../../user_interface/menu/file_menu.rst:148
+msgid ""
+"Clip markers are converted to OTIO markers. Note that clip markers work "
+"differently between Kdenlive and OTIO; in Kdenlive they are shared between "
+"each instance of the clip, in OTIO the they are unique to each instance of "
+"the clip."
+msgstr ""
+"Позначки кліпу буде перетворено на позначки OTIO. Зауважте, що позначки"
+" кліпу працюють по-різному у Kdenlive і OTIO; у Kdenlive вони є спільними"
+" для усіх екземплярів кліпу, а у OTIO вони визначаються для кожного кліпу"
+" окремо."
+
+#: ../../user_interface/menu/file_menu.rst:150
+msgid ""
+"The Kdenlive marker types are stored as OTIO metadata for round-tripping "
+"files. This allows the guides and clip markers to be properly recreated when "
+"importing an OTIO file that was created with Kdenlive. The metadata is "
+"stored under the key \"kdenlive\" to keep it separate from metadata of other "
+"applications."
+msgstr ""
+"Типи позначок Kdenlive зберігаються як метадані OTIO для обхідних файлів. Це"
+" надає змогу правильно відтворювати напрямні та позначки кліпів під час"
+" імпортування файлів OTIO, створених за допомогою Kdenlive. Метадані"
+" зберігаються у параметрі \"kdenlive\", щоб відокремити їх від метаданих"
+" інших програм."
+
+#: ../../user_interface/menu/file_menu.rst:157
+msgid "OpenTimelineIO import"
+msgstr "Імпортувати OpenTimelineIO"
+
+#: ../../user_interface/menu/file_menu.rst:159
+msgid "Import a timeline with multiple tracks and clips"
+msgstr "Імпортування монтажного столу із декількома доріжками та кліпами"
+
+#: ../../user_interface/menu/file_menu.rst:164
+msgid ""
+"OTIO files do not contain information about rendering, so we get the render "
+"resolution from the first video clip."
+msgstr ""
+"У файлах OTIO не зберігаються дані щодо способу обробки, тому роздільну"
+" здатність обробки буде взято з параметрів першого відеокліпу."
+
+#: ../../user_interface/menu/file_menu.rst:166
+msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
+msgstr ""
+"Позначки OTIO у стосі монтажного столу буде перетворено на напрямні Kdenlive."
+
+#: ../../user_interface/menu/file_menu.rst:168
+msgid ""
+"OTIO markers on clips are converted to Kdenlive clip markers. Note that clip "
+"markers work differently between Kdenlive and OTIO; in Kdenlive they are "
+"shared between each instance of the clip, in OTIO the they are unique to "
+"each instance of the clip."
+msgstr ""
+"Позначки OTIO на кліпах буде перетворено на позначки кліпів Kdenlive."
+" Зауважте, що позначки кліпу працюють по-різному у Kdenlive і OTIO; у"
+" Kdenlive вони є спільними для усіх екземплярів кліпу, а у OTIO вони"
+" визначаються для кожного кліпу окремо."
+
+#: ../../user_interface/menu/file_menu.rst:170
+msgid ""
+"If the OTIO marker metadata does not contain the Kdenlive marker type, we "
+"pick the Kdenlive guide/marker with the closest color to the OTIO marker."
+msgstr ""
+"Якщо у метаданих позначки OTIO не міститься типу позначки Kdenlive, буде"
+" вибрано напрямну або позначку Kdenlive із найближчим кольором до позначки"
+" OTIO."
+
+#: ../../user_interface/menu/file_menu.rst:174
 msgid "Quit"
 msgstr "Вийти"
 
-#: ../../user_interface/menu/file_menu.rst:137
+#: ../../user_interface/menu/file_menu.rst:176
 msgid "Exits **Kdenlive**."
 msgstr "Вийти з **Kdenlive**."
 
-#: ../../user_interface/menu/file_menu.rst:139
+#: ../../user_interface/menu/file_menu.rst:178
 msgid ""
 "Prompts you to save any unsaved changes. The default keyboard shortcut is :"
 "kbd:`Ctrl+Q`."
