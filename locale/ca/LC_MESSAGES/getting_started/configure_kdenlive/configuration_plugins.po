@@ -1,0 +1,714 @@
+# Translation of docs_kdenlive_org_getting_started___configure_kdenlive___configuration_plugins.po to Catalan
+# Copyright (C) 2025 This_file_is_part_of_KDE
+# Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: documentation-docs-kdenlive-org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-28 01:53+0000\n"
+"PO-Revision-Date: 2025-04-29 12:14+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "1"
+msgstr "1"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "2"
+msgstr "2"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "3"
+msgstr "3"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "4"
+msgstr "4"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "5"
+msgstr "5"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:0
+msgid "6"
+msgstr "6"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:1
+msgid "Kdenlive Documentation - Configuration Speech to Text"
+msgstr "Kdenlive Documentation - Configuració de la veu a text"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, configuration, preferences, "
+"speech to text, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, documentació, manual d'usuari, configuració, preferències, "
+"veu a text, editor de vídeo, codi lliure, lliure, aprendre, fàcil"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:35
+msgid "Plugins"
+msgstr "Connectors"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:41
+msgid "This section defines settings for Speech To Text and Object Detection."
+msgstr ""
+"Aquesta secció defineix la configuració per a la veu a text i la detecció "
+"d'objectes."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:43
+msgid ""
+"Before Speech To Text and Object Detection can be configured and used, "
+"*Python3* needs to be installed. Once *Python3* is installed, you may want "
+"to use a virtual environment (:file:`venv`) to keep it separate for Kdenlive"
+" from other uses on your system."
+msgstr ""
+"Abans que es pugui configurar i utilitzar la veu a text i la detecció "
+"d'objectes, s'ha d'instal·lar *Python3*. Un cop instal·lat *Python3*, és "
+"possible que vulgueu utilitzar un entorn virtual (:file:`venv`) per a "
+"mantenir-lo separat del Kdenlive d'altres usos al vostre sistema."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:45
+msgid ""
+"If you have installed *Python3* already jump right to the configuration page"
+" of :ref:`Speech To Text<speech2text_config>` or :ref:`Object "
+"Detection<object-detection_config>`."
+msgstr ""
+"Si heu instal·lat el *Python3* ja podeu anar directe a la pàgina de "
+"configuració de la :ref:`Veu a text<speech2text_config>` o la :ref:`Detecció "
+"d'objectes<object-detection_config>`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:49
+msgid "Python installation"
+msgstr "Instal·lació del Python"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:52
+msgid "Installation on Linux"
+msgstr "Instal·lació al Linux"
+
+# skip-rule: t-acc_obe
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:54
+msgid ""
+"On most Linux distributions *Python* is installed by default. You can check "
+"if that is the case for your system by running ``python3 --version`` in a "
+"terminal. The following are the basic steps for installing *Python3* on "
+"Ubuntu. If your distribution is not Ubuntu-based please refer to the "
+"specific documentation or search the Internet for installation instructions."
+msgstr ""
+"En la majoria de distribucions del Linux, el *Python* està instal·lat de "
+"manera predeterminada. Podeu comprovar si aquest és el cas del sistema "
+"executant ``python3 --version`` en un terminal. Els següents són els passos "
+"bàsics per a instal·lar el *Python3* a l'Ubuntu. Si la vostra distribució no"
+" està basada en l'Ubuntu, consulteu la documentació específica o cerqueu a "
+"Internet les instruccions d'instal·lació."
+
+# skip-rule: t-acc_obe
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:61
+msgid ""
+"The crucial third-party *Python* package you may need is *pip*. *Python 3.4*"
+" and later include *pip* by default but it does not hurt to check by running"
+" ``command -v pip`` in a terminal (some distributions use *pip* for "
+"*Python2* and *pip3* for *Python 3*). If *pip* is missing, you can install "
+"it with"
+msgstr ""
+"El paquet *Python* més important de tercers que potser necessiteu és *pip*. "
+"El *Python 3.4* i posteriors inclouen *pip* de manera predeterminada però no"
+" fa mal comprovar-ho executant ``command -v pip`` en un terminal (algunes "
+"distribucions utilitzen *pip* per *Python2* i *pip3* per *Python 3*). Si "
+"falta *pip*, podeu instal·lar-lo amb"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:67
+msgid "In case of issues please refer to the |pip_installation_guide|."
+msgstr "En cas de problemes, consulteu la |pip_installation_guide|."
+
+# skip-rule: t-acc_obe
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:69
+msgid ""
+"In the following paragraphs, *pip* is the generic term for all versions of "
+"pip, including pip3. Please use the correct ``pip`` command for your OS."
+msgstr ""
+"En els paràgrafs següents, *pip* és el terme genèric per a totes les "
+"versions de pip, incloent-hi pip3. Si us plau, utilitzeu l'ordre ``pip`` "
+"correcta del SO."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:73
+msgid "Installation on Windows"
+msgstr "Instal·lació al Windows"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:75
+msgid "Download *Python* from the official |python_download| page."
+msgstr "Baixeu *Python* de la pàgina oficial |python_download|."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:81
+msgid "Speech To Text"
+msgstr "Veu a text"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:83
+msgid ""
+"This section is used for setting up the Speech-to-Text feature of Kdenlive "
+"and for managing the various models for the two engines VOSK and Whisper."
+msgstr ""
+"Aquesta secció s'utilitza per a configurar la funció veu a text del Kdenlive"
+" i per a gestionar els diversos models dels dos motors VOSK i Whisper."
+
+# skip-rule: t-acc_obe
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:85
+msgid ""
+"Speech To Text does not work with version 21.04.2 due to `Vosk API "
+"<https://github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or "
+"21.04.3 and later versions."
+msgstr ""
+"La veu al text no funciona amb la versió 21.04.2 a causa de problemes en la "
+"`API del Vosk <https://github.com/alphacep/vosk-api>`_. Utilitzeu la versió "
+"21.04.1 o 21.04.3, així com versions posteriors."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:89
+msgid "Speech Engines"
+msgstr "Motors de veu"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:91
+msgid ""
+"There are two speech engines available: *VOSK* and *Whisper*. OpenAI's "
+"*Whisper* is a speech recognition module for general use trained on a large "
+"dataset of diverse audio and is capable of performing speech translation, "
+"and language identification."
+msgstr ""
+"Hi ha dos motors de veu disponibles: *VOSK* i *Whisper*. El *Whisper* "
+"d'OpenAI és un mòdul de reconeixement de veu per a ús general entrenat en un"
+" gran conjunt de dades d'àudio divers i és capaç de realitzar la traducció "
+"de la veu i la identificació de l'idioma."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:93
+msgid ""
+"*Whisper* is slower than *VOSK* on CPU, but it is more accurate than *VOSK*."
+" *Whisper* creates sentences with punctuation marks, even in Base mode."
+msgstr ""
+"El *Whisper* és més lent que el *VOSK* en la CPU, però és més precís que el "
+"*VOSK*. El *Whisper* crea frases amb signes de puntuació, fins i tot en el "
+"mode base."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:95
+msgid "You need to set up the models to be used by these engines."
+msgstr "Heu de configurar els models que han d'utilitzar aquests motors."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:97
+msgid ""
+"If you are using the flatpak version of Kdenlive, you may experience "
+"problems with installing the speech models. The sandbox approach of flatpak "
+"prevents kdenlive from running *pip*. There is a possible workaround using "
+"``$ flatpak run --command=/bin/bash org.kde.kdenlive`` and then ``$ python "
+"-m ensurepip`` followed by ``$ python -m pip install -U openai-whisper "
+"torch`` (courtesy of |veronica_explains|). Your mileage may vary."
+msgstr ""
+"Si esteu utilitzant la versió flatpak del Kdenlive, podeu experimentar "
+"problemes amb la instal·lació dels models de veu. L'enfocament de l'entorn "
+"aïllat del flatpak impedeix que el Kdenlive executi *pip*. Hi ha una solució"
+" possible utilitzant ``$ flatpak execute --command=/bin/bash "
+"org.kde.kdenlive`` i després ``$ python -m ensurepip`` seguit de ``$ python "
+"-m pip install -U openai-whisper torch`` (cortesia de |veronica_explains|). "
+"La vostra experiència pot variar."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:99
+msgid ""
+"The other option is to select :guilabel:`Whisper` and then click on "
+":guilabel:`Install multilingual translation`. This will download and install"
+" the necessary dependencies and make Kdenlive aware of the location of your "
+"installation of *Python* and *pip*. After that you can follow the "
+"instructions for setting up VOSK and Whisper here."
+msgstr ""
+"L'altra opció és seleccionar :guilabel:`Whisper` i després fer clic a "
+":guilabel:`Instal·la la traducció multilingüe`. Això baixarà i instal·larà "
+"les dependències necessàries i farà que el Kdenlive sàpiga la ubicació de la"
+" vostra instal·lació del *Python* i *pip*. Després d'això podeu seguir les "
+"instruccions per a configurar VOSK i Whisper aquí."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:102
+msgid "VOSK"
+msgstr "VOSK"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:109
+msgid ""
+"Python is working, but VOSK is not yet usable due to missing speech models"
+msgstr ""
+"El Python està funcionant, però VOSK encara no es pot utilitzar a causa de "
+"la manca de models de veu"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:111
+msgid ""
+"You need to download a speech model first from the alphacephei\\ [1]_ "
+"download page. Follow the link (**2**) and download the models you need."
+msgstr ""
+"Primer heu de baixar un model de veu des de la pàgina de descàrrega "
+"alphacephei\\ [1]_. Seguiu l'enllaç (**2**) i baixeu els models que "
+"necessiteu."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:113
+msgid ""
+"By default, the language models are installed into the following folders:"
+msgstr ""
+"De manera predeterminada, els models d'idioma s'instal·len a les carpetes "
+"següents:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:115
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:228
+msgid ":file:`~/.local/share/kdenlive/venv/Lib`"
+msgstr ":file:`~/.local/share/kdenlive/venv/Lib`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:116
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:229
+msgid ":file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+msgstr ":file:`%LocalAppData%\\\\kdenlive\\\\venv\\\\Lib`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:118
+msgid ""
+"If you want to use a specific folder, check :guilabel:`Custom models folder`"
+" (**3**) and specify it in the text field below or click on |document-"
+"open|\\ :guilabel:`Open file dialog` to navigate to the target folder. If "
+"you use the default folder, it will be displayed for informational purposes "
+"in the models folder text field."
+msgstr ""
+"Si voleu utilitzar una carpeta específica, marqueu :guilabel:`Carpeta de "
+"models personalitzats` (**3**) i especifiqueu-la al camp de text de sota o "
+"feu clic a |document-open|\\ :guilabel:`Diàleg d'obrir fitxer` per a navegar"
+" a la carpeta de destinació. Si utilitzeu la carpeta predeterminada, es "
+"mostrarà amb finalitats informatives al camp de text de la carpeta de "
+"models."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:120
+msgid ""
+"If you have installed VOSK in an earlier Kdenlive version, and now you have "
+"chosen the :file:`venv` folder for Python, you can delete the previously "
+"installed VOSK libraries by using the following command in a terminal:"
+msgstr ""
+"Si heu instal·lat VOSK en una versió anterior del Kdenlive, i ara heu triat "
+"la carpeta :file:`venv` per al Python, podeu suprimir les biblioteques VOSK "
+"instal·lades anteriorment utilitzant l'ordre següent en un terminal:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:127
+msgid ""
+"Click on :guilabel:`Add Model` and enter the path to the file(s) you "
+"downloaded."
+msgstr ""
+"Feu clic a :guilabel:`Afegeix un model` i introduïu el camí al/s fitxer/s "
+"que heu baixat."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:135
+msgid ""
+"Click on |document-open|\\ :guilabel:`Open file dialog` to open the file "
+"manager of your OS to navigate to where you downloaded the files and select "
+"the model file you want to add."
+msgstr ""
+"Feu clic a |document-open|\\ :guilabel:`Diàleg d'obrir fitxer` per a obrir "
+"el gestor de fitxers del sistema operatiu per a navegar a on heu baixat els "
+"fitxers i seleccionar el fitxer del model que voleu afegir."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:147
+msgid ""
+"Alternatively, drag & drop the language model you want from the "
+"alphacephei\\ [1]_ download page to the model window (**4**), and Kdenlive "
+"will download and extract it for you into the default folder or the custom "
+"folder you specified."
+msgstr ""
+"Alternativament, arrossegueu i deixeu anar el model d'idioma que voleu des "
+"de la pàgina de baixada alphacephei\\ [1]_ a la finestra del model (**4**), "
+"i el Kdenlive us el baixarà i l'extraurà a la carpeta predeterminada o a la "
+"carpeta personalitzada que hàgiu especificat."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:151
+msgid ""
+"The models are compressed files (:file:`.zip`) and can be several GB big. "
+"Depending on your internet connection, download times could be long. After "
+"the download, the files need to be extracted which depending on your system "
+"configuration can also take a long time. Kdenlive will appear unresponsive "
+"but is working in the background. Please be patient."
+msgstr ""
+"Els models són fitxers comprimits (:file:`.zip`) i poden ser força grossos "
+"(diversos GB). Depenent de la vostra connexió a Internet, els temps de "
+"baixada poden ser llargs. Després de la descàrrega, cal extreure els fitxers"
+" que depenent de la configuració del sistema també poden trigar força temps."
+" El Kdenlive semblarà que no respongui, però està treballant en segon pla. "
+"Tingueu paciència."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:153
+msgid ""
+"Once models have been installed, Kdenlive displays the size of the model "
+"folder. Click on :guilabel:`Models folder` to open the models folder with "
+"the file manager of your OS."
+msgstr ""
+"Un cop instal·lats els models, el Kdenlive mostra la mida de la carpeta dels"
+" models. Feu clic a :guilabel:`Carpeta de models` per a obrir la carpeta de "
+"models amb el gestor de fitxers del sistema operatiu."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:156
+msgid "Whisper"
+msgstr "Whisper"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:164
+msgid "Install missing dependencies"
+msgstr "Instal·la les dependències que manquen"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:166
+msgid ""
+"When you switch to Whisper for the first time you have to install the "
+"missing dependencies (about 2GB to download)."
+msgstr ""
+"Quan canvieu per primera vegada al Whisper haureu d'instal·lar les "
+"dependències que manquen (al voltant de 2 GB per a baixar)."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:170
+msgid "After that you need to download one or more speech models."
+msgstr "Després d'això cal baixar un o més models de veu."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:178
+msgid "Whisper is installed but no speech model has been downloaded"
+msgstr "Whisper està instal·lat però no s'ha baixat cap model de veu"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:182
+msgid "Whisper is selected for speech recognition"
+msgstr "El Whisper està seleccionat per al reconeixement de veu"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:184
+msgid ""
+"When left at **Autodetect**, Kdenlive will try to figure out which language "
+"to use for speech recognition. If this gives the wrong results, select the "
+"correct language here."
+msgstr ""
+"Quan es deixi a **Detecta automàticament**, el Kdenlive intentarà esbrinar "
+"quin idioma s'ha d'utilitzar per al reconeixement de veu. Si això dona "
+"resultats erronis, seleccioneu aquí l'idioma correcte."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:186
+msgid ""
+"You can switch between using the **CPU** or your **GPU** for speech "
+"recognition. A GPU supporting CUDA is required for GPU speech recognition."
+msgstr ""
+"Podeu canviar entre utilitzar la **CPU** o la **GPU** per al reconeixement "
+"de veu. Es requereix una GPU que admeti CUDA per al reconeixement de veu amb"
+" la GPU."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:188
+msgid ""
+"Only for GPU. When Kdenlive detects a NVIDIA GTX 16xx graphic card it "
+"disables half precision (FP16) automatically. If you have issues with using "
+"GPU you can switch off half precision."
+msgstr ""
+"Només per la GPU. Quan el Kdenlive detecta una targeta gràfica NVIDIA GTX "
+"16xx desactiva la precisió mitja (FP16) automàticament. Si teniu problemes "
+"utilitzant la GPU podeu desconnectar la precisió mitja."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:190
+msgid ""
+"You can have Whisper translate the text to English. If you need translation "
+"to other languages, you need to click on :guilabel:`Install multilingual "
+"translation`. This will enable SeamlessM4T\\ [2]_ and download and install "
+"its models (around 10GB of data). Processing will happen offline from then "
+"on."
+msgstr ""
+"Podeu fer que Whisper tradueixi el text a l'anglès. Si necessiteu traducció "
+"a altres idiomes, heu de fer clic a :guilabel:`Instal·la la traducció "
+"multilingüe`. Això activarà SeamlessM4T\\ [2]_ i baixar i instal·lar els "
+"seus models (al voltant de 10 GB de dades). El processament es farà fora de "
+"línia a partir d'aquest moment."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:195
+msgid ""
+"Click on :guilabel:`Manage models` or go with the recommendation of using "
+"the turbo model by clicking on :guilabel:`Download (1.4GB)`. More "
+"information about the available models is on the |whisper_source|."
+msgstr ""
+"Feu clic a :guilabel:`Gestiona els models` o continueu amb la recomanació "
+"d'utilitzar el model turbo fent clic a :guilabel:`Baixa (1,4 GB)`. Més "
+"informació sobre els models disponibles es troba a la |whisper_source|."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:203
+msgid "Whisper download and manage models"
+msgstr "Baixada del Whisper i gestió dels models"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:205
+msgid "Kdenlive shows the download process."
+msgstr "El Kdenlive mostra el procés de baixada."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:207
+msgid ""
+"Installed speech models have a solid circle. You can delete them by clicking"
+" on :guilabel:`Uninstall model`"
+msgstr ""
+"Els models de veu instal·lats tenen un cercle ple. Podeu suprimir-los fent "
+"clic a :guilabel:`Desinstal·la el model`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:209
+msgid ""
+"Available models have a hollow circle. You can install them by clicking on "
+":guilabel:`Install model`."
+msgstr ""
+"Els models disponibles tenen un cercle buit. Podeu instal·lar-los fent clic "
+"a :guilabel:`Instal·la el model`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:222
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:278
+msgid "When all is configured correctly you get this screen: All green!"
+msgstr ""
+"Quan tot està configurat correctament s'obté aquesta pantalla: tot verd!"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:226
+msgid "Path where Whisper is installed:"
+msgstr "Camí a on està instal·lat el Whisper:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:231
+msgid "The Whisper speech models are stored here:"
+msgstr "Els models de veu Whisper estan emmagatzemats aquí:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:233
+msgid ":file:`~/.local/share/kdenlive/opencvmodels`"
+msgstr ":file:`~/.local/share/kdenlive/opencvmodels`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:234
+msgid ":file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+msgstr ":file:`%AppData%\\\\kdenlive\\\\opencvmodels`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:236
+msgid ""
+"To download and start subtitle translation :ref:`follow these steps "
+"<Translate_with_SeamlessM4T>`."
+msgstr ""
+"Per a baixar i iniciar la traducció de subtítols :ref:`seguiu aquests passos"
+" <Translate_with_SeamlessM4T>`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:238
+msgid ""
+"You can check for updates by clicking on :guilabel:`Check configuration`"
+msgstr ""
+"Podeu comprovar si hi ha actualitzacions fent clic al botó "
+":guilabel:`Comprova la configuració`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:240
+msgid ""
+"If you have installed Whisper in an earlier Kdenlive version, and now you "
+"have chosen the :file:`venv` folder for Python, you can delete the "
+"previously installed Whisper libraries by using the following command in a "
+"terminal:"
+msgstr ""
+"Si ja heu instal·lat el Whisper en una versió anterior del Kdenlive i ara "
+"heu triat la carpeta :file:`venv` per al Python, podreu suprimir les "
+"biblioteques del Whisper instal·lades anteriorment utilitzant l'ordre "
+"següent en un terminal:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:247
+msgid ""
+"If you get consistent messages during speech recognition about missing model"
+" files, check where clicking on the link next to :guilabel:`Models folder` "
+"takes you. If it is :file:`~/.cache` where there is a folder :file:`Whisper`"
+" containing all the models you downloaded, simply copy this folder to where "
+"the error message says they are missing (most likely: "
+":file:`~/.var/app/org.kde.kdenlive/cache`)"
+msgstr ""
+"Si obteniu missatges coherents durant el reconeixement de veu sobre fitxers "
+"de model que manquen, comproveu on feu clic a l'enllaç que hi ha al costat "
+"de la :guilabel:`Carpeta de models`. Si és :file:`~/.cache` a on hi ha una "
+"carpeta :file:`Whisper` que conté tots els models que heu baixat, simplement"
+" copieu aquesta carpeta on el missatge d'error diu que falten (el més "
+"probable és: :file:`~/.var/app/org.kde.kdenlive/cache`)"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:253
+msgid "Object Detection"
+msgstr "Detecció d'objectes"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:255
+msgid "The first time you use object detection the plugin has to be installed."
+msgstr ""
+"La primera vegada que utilitzeu la detecció d'objectes s'ha d'instal·lar el "
+"connector."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:265
+msgid "The plugin gets installed in folder:"
+msgstr "El connector s'instal·la a la carpeta:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:267
+msgid ":file:`~/.local/share/kdenlive/venv-sam`"
+msgstr ":file:`~/.local/share/kdenlive/venv-sam`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:268
+msgid ":file:`%LocalAppData%\\\\kdenlive\\\\venv-sam`"
+msgstr ":file:`%LocalAppData%\\\\kdenlive\\\\venv-sam`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:270
+msgid "If all is properly installed it should look like so:"
+msgstr "Si tot està instal·lat correctament hauria de veure's així:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:282
+msgid ""
+":guilabel:`Model` You can download different models for object detection."
+msgstr ""
+":guilabel:`Model` Podeu baixar models diferents per a la detecció "
+"d'objectes."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:284
+msgid ""
+":guilabel:`Device` You can switch between using the **CPU** or your **GPU** "
+"for object detection. A GPU supporting CUDA is required for GPU object "
+"detection. Kdenlive tries to find your graphic card automatically. If the "
+"graphic card supports CUDA (Nvidia GPU) it will install the necessary driver"
+" so you can use it. If your graphic card doesn't support CUDA or is not "
+"detected by Kdenlive you only see CPU. :guilabel:`GPU Support` If your "
+"Nvidia GPU is not listed, try installing an alternative by :ref:`following "
+"these steps<gpu-manual_config>`."
+msgstr ""
+":guilabel:`Dispositiu` Podeu canviar entre utilitzar la **CPU** o la **GPU** "
+"per a la detecció d'objectes. Es requereix una GPU que admeti CUDA per a la "
+"detecció d'objectes amb GPU. El Kdenlive intenta trobar la vostra targeta "
+"gràfica automàticament. Si la targeta gràfica admet CUDA (Nvidia GPU), "
+"s'instal·larà el controlador necessari perquè pugueu utilitzar-la. Si la "
+"targeta gràfica no admet CUDA o el Kdenlive no la detecta, només veureu la "
+"CPU. :guilabel:`Suport de GPU` Si la vostra GPU Nvidia no està llistada, "
+"proveu d'instal·lar una alternativa :ref:`seguint aquests "
+"passos<gpu-manual_config>`."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:286
+msgid ""
+":guilabel:`Offload video to CPU to save GPU Memory` If you have long clips "
+"on which Kdenlive has to detect objects you may get a crash. If enabled, "
+"this offloads some of the memory used to the RAM instead of the GPU memory."
+msgstr ""
+":guilabel:`Descarrega el vídeo a la CPU per a estalviar la memòria de la "
+"GPU` Si teniu clips llargs en els quals el Kdenlive ha de detectar objectes, "
+"és possible que tingueu una fallada. Si està activat, això descarrega part "
+"de la memòria utilitzada a la RAM en lloc de la memòria de la GPU."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:288
+msgid ""
+":guilabel:`Use system packages only` When enabled, Kdenlive will use the "
+"SAM2 version installed on your system. For advanced users only, as you will "
+"have to properly setup everything by yourself."
+msgstr ""
+":guilabel:`Utilitza només paquets del sistema` Quan està activat, el "
+"Kdenlive utilitzarà la versió del SAM2 instal·lada al sistema. Només per a "
+"usuaris avançats, ja que ho haureu de configurar tot correctament vós "
+"mateix."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:290
+msgid ""
+":guilabel:`Models folder` When you click on the link the folder will be "
+"opened where the SAM2 models are stored including the size of this folder. "
+":guilabel:`Delete all models` will delete the content of the model folder."
+msgstr ""
+"guilabel:`Carpeta de models` Quan feu clic a l'enllaç, s'obrirà la carpeta a "
+"on s'emmagatzemaran els models SAM2, inclosa la mida d'aquesta carpeta. "
+":guilabel:`Suprimeix tots els models` suprimirà el contingut de la carpeta "
+"de models."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:292
+msgid ""
+":guilabel:`Plugin size` When you click on the link the folder will be opened"
+" where the venv-sam Python scripts are stored including the size of this "
+"folder. :guilabel:`Uninstall plugin` will uninstall venv-sam Python."
+msgstr ""
+":guilabel:`Mida del connector` Quan feu clic a l'enllaç, s'obrirà la carpeta "
+"on s'emmagatzemen els scripts Python de «venv-sam», incloent-hi la mida "
+"d'aquesta carpeta. :guilabel:`Desinstal·la el connector` desinstal·larà el "
+"Python «venv-sam»."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:298
+msgid "GPU manual installation"
+msgstr "Instal·lació manual de la GPU"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:300
+msgid ""
+"If Kdenlive doesn't detect your NVIDIA GPU automatically you can try to "
+"install it manually."
+msgstr ""
+"Si el Kdenlive no detecta automàticament la vostra GPU NVIDIA, podeu "
+"intentar instal·lar-la manualment."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:302
+msgid ""
+"GPU acceleration only works with CUDA (Compute Unified Device Architecture) "
+"which is a proprietary NVIDIA parallel computing architecture."
+msgstr ""
+"L'acceleració de GPU només funciona amb CUDA (Compute Unified Device "
+"Architecture) que és una arquitectura de càlcul paral·lel de NVIDIA."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:304
+msgid "Check the CUDA version you have installed:"
+msgstr "Comproveu la versió del CUDA que teniu instal·lada:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:306
+msgid ""
+"open a command shell (Windows: :kbd:`Windows+R` enter :kbd:`cmd` and hit "
+"enter)"
+msgstr ""
+"obriu un intèrpret d'ordres (Windows: :kbd:`Windows+R` introduïu :kbd:`cmd` "
+"i premeu Retorn)"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:308
+msgid "Enter :kbd:`nvidia-smi –-version`"
+msgstr "Introduïu :kbd:`nvidia-smi –-version`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:310
+msgid "You should get something like this:"
+msgstr "Hauríeu d'obtenir alguna cosa com això:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:318
+msgid "Here the CUDA version is 12.8"
+msgstr "Aquí la versió del CUDA és 12.8"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:322
+msgid "Now click on :guilabel:`GPU Support`"
+msgstr "Ara feu clic a :guilabel:`Suport de GPU`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:324
+msgid "You can select a CUDA version equal to or lower than what was detected"
+msgstr "Podeu seleccionar una versió del CUDA igual o inferior a la detectada"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:332
+msgid "Select a CUDA version which is lower than what was detected."
+msgstr "Seleccioneu una versió del CUDA que sigui inferior a la detectada."
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:336
+msgid "Click :guilabel:`Apply`"
+msgstr "Feu clic a :guilabel:`Aplica`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:338
+msgid "On the next window click :guilabel:`Continue`"
+msgstr "A la finestra següent feu clic a :guilabel:`Continua`"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:348
+msgid ""
+"Kdenlive starts downloading all necessary files for using the GPU. Once "
+"finished you should see your GPU under :guilabel:`Device` like so:"
+msgstr ""
+"El Kdenlive comença a baixar tots els fitxers necessaris per a utilitzar la "
+"GPU. Un cop finalitzat, hauríeu de veure la vostra GPU des de "
+":guilabel:`Dispositiu` com a:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:356
+msgid "Successfully installed GPU"
+msgstr "GPU instal·lada correctament"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:362
+msgid ""
+"The alphacephei download page with the different language models looks like "
+"this:"
+msgstr ""
+"La pàgina de descàrrega d'alphacephei amb els diferents models d'idioma es "
+"veu així:"
+
+#: ../../getting_started/configure_kdenlive/configuration_plugins.rst:373
+msgid "This is meta's |seamless-m4t-v2-large| model"
+msgstr "Aquest és el model |seamless-m4t-v2-large| de Meta"
