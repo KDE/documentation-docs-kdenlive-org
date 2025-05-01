@@ -5,13 +5,14 @@
 # Automatically generated, 2021.
 # SPDX-FileCopyrightText: 2021 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2025 Víctor Rodrigo Córdoba <vrcordoba@gmail.com>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-29 01:51+0000\n"
-"PO-Revision-Date: 2025-04-21 12:40+0100\n"
-"Last-Translator: Víctor Rodrigo Córdoba <vrcordoba@gmail.com>\n"
+"PO-Revision-Date: 2025-04-30 19:56+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -51,8 +52,8 @@ msgstr "Nuevo"
 
 #: ../../user_interface/menu/file_menu.rst:40
 msgid ""
-"Creates a new Kdenlive project. The default keyboard shortcut is :kbd:`Ctrl"
-"+N`."
+"Creates a new Kdenlive project. The default keyboard shortcut is :kbd:"
+"`Ctrl+N`."
 msgstr ""
 "Creará un nuevo proyecto de Kdenlive. Su atajo de teclado predeterminado es :"
 "kbd:`Ctrl+N`."
@@ -276,20 +277,22 @@ msgstr ""
 
 #: ../../user_interface/menu/file_menu.rst:139
 msgid "OpenTimelineIO Export"
-msgstr ""
+msgstr "Exportar OpenTimelineIO…"
 
 #: ../../user_interface/menu/file_menu.rst:141
 msgid "Export a timeline with multiple tracks and clips"
-msgstr ""
+msgstr "Permitirá exportar una línea de tiempo con múltiples pistas y clips"
 
 #: ../../user_interface/menu/file_menu.rst:142
 #: ../../user_interface/menu/file_menu.rst:160
 msgid "Support for markers and guides"
-msgstr ""
+msgstr "Soporta el uso de marcadores y guías"
 
 #: ../../user_interface/menu/file_menu.rst:146
 msgid "Guides are converted to OTIO markers on the timeline stack."
 msgstr ""
+"Las guías serán convertidas a marcadores OTIO en la pila de la línea de "
+"tiempo."
 
 #: ../../user_interface/menu/file_menu.rst:148
 msgid ""
@@ -298,6 +301,11 @@ msgid ""
 "each instance of the clip, in OTIO they are unique to each instance of the "
 "clip."
 msgstr ""
+"Los marcadores de clips serán convertidos a marcadores OTIO. Nótese que los "
+"marcadores de clips funcionan diferente entre Kdenlive y OTIO; en Kdenlive "
+"son compartidos entre cada instancia del clip en las distintas secuencias, "
+"mientras que en OTIO son únicos para cada instancia del clip en las "
+"distintas secuencias."
 
 #: ../../user_interface/menu/file_menu.rst:150
 msgid ""
@@ -307,24 +315,35 @@ msgid ""
 "stored under the key \"kdenlive\" to keep it separate from metadata of other "
 "applications."
 msgstr ""
+"Los tipos de marcadores de Kdenlive son almacenados como metadatos de OTIO "
+"para su reutilización en archivos que hagan un viaje de ida y vuelta. Esto "
+"permitirá que tanto guías como marcadores puedan ser adecuadamente recreados "
+"al ser importados desde un archivo OTIO que hubiera sido originalmente "
+"creado en Kdenlive. Los metadatos serán almacenados bajo la clave "
+"\"kdenlive\" para mantenerlos separados de metadatos de otras aplicaciones."
 
 #: ../../user_interface/menu/file_menu.rst:157
 msgid "OpenTimelineIO import"
-msgstr ""
+msgstr "Importar OpenTimelineIO…"
 
 #: ../../user_interface/menu/file_menu.rst:159
 msgid "Import a timeline with multiple tracks and clips"
-msgstr ""
+msgstr "Permitirá importar una línea de tiempo con múltiples pistas y clips"
 
 #: ../../user_interface/menu/file_menu.rst:164
 msgid ""
 "OTIO files do not contain information about rendering, so we get the render "
 "resolution from the first video clip."
 msgstr ""
+"Los archivos OTIO no contienen información sobre opciones de procesamiento, "
+"por lo que la resolución de procesamiento será obtenida a partir del primer "
+"clip de video de la secuencia."
 
 #: ../../user_interface/menu/file_menu.rst:166
 msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
 msgstr ""
+"Los marcadores de OTIO en la pila de la línea de tiempo serán convertidos a "
+"guías de Kdenlive."
 
 #: ../../user_interface/menu/file_menu.rst:168
 msgid ""
@@ -333,12 +352,20 @@ msgid ""
 "shared between each instance of the clip, in OTIO the they are unique to "
 "each instance of the clip."
 msgstr ""
+"Los marcadores de OTIO en clips serán convertidos a marcadores de clips de "
+"Kdenlive. Nótese que los marcadores de clips funcionan diferente entre "
+"Kdenlive y OTIO; en Kdenlive son compartidos entre cada instancia del clip "
+"en las distintas secuencias, mientras que en OTIO son únicos para cada "
+"instancia del clip en las distintas secuencias."
 
 #: ../../user_interface/menu/file_menu.rst:170
 msgid ""
 "If the OTIO marker metadata does not contain the Kdenlive marker type, we "
 "pick the Kdenlive guide/marker with the closest color to the OTIO marker."
 msgstr ""
+"En caso de que los metadatos de un marcador de OTIO no contuviera el tipo de "
+"marcador de Kdenlive al cual debería corresponder, se escogerá el marcador o "
+"guía de Kdenlive con el color más parecido al del marcador de OTIO."
 
 #: ../../user_interface/menu/file_menu.rst:174
 msgid "Quit"
