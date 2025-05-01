@@ -36,16 +36,14 @@ Linux
 Ensure that your Jog-Shuttle device is connected via USB and working. An ``udev`` rule is necessary to correct the access rights to the device file. Use the text editor of your choice and create a file :file:`/etc/udev/rules.d/90-contour-shuttleXpress.rules` with the line:
 
 .. code-block:: bash
-  
-   SUBSYSTEMS"usb", ATTRS{idVendor}
-   "0b33", ATTRS{idProduct}=="0020", MODE="0444"
+
+   SUBSYSTEMS=="usb", ATTRS{idVendor}=="0b33", ATTRS{idProduct}=="0020", MODE="0444"
 
 for Contour ShuttleXpress, or
 
 .. code-block:: bash
-  
-   SUBSYSTEMS"usb", ATTRS{idVendor}
-   "0b33", ATTRS{idProduct}=="0030", MODE="0444"
+
+   SUBSYSTEMS=="usb", ATTRS{idVendor}=="0b33", ATTRS{idProduct}=="0030", MODE="0444"
 
 for Contour ShuttlePRO V2.
 
@@ -58,7 +56,7 @@ Obtain the device file by the command in the terminal
 The last line of the output says
 
 .. code-block:: bash
-  
+
    H: Handlers=mouse0 event3
 
 which should tell the device file to be entered into Kdenlive's setting dialog. In the text field (**3**) enter ``/dev/input/**event3**`` (use the last word on the line above to specify the device file in /dev/input), set the buttons and apply the changes.
