@@ -47,9 +47,13 @@ Environment
 .. .. versionadded:: 24.02
    Check for Updates
 
+.. .. versionremoved:: 25.04
+   Python tab
+
+
 This section defines some of the most important settings for Kdenlive.
 
-.. figure:: /images/getting_started/configure_environment_2412.webp
+.. figure:: /images/getting_started/configure_environment_2504.webp
    :width: 700px
    :figwidth: 700px
    :alt: configure_environment_2412
@@ -134,57 +138,62 @@ These settings tell Kdenlive where project files are to be stored. It also contr
    Default folders on MacOS.
 
 
-.. _configure_environment_python:
+.. .. _configure_environment_python:
 
 .. .. versionadded:: 24.02
+      Python tab
 
-Python
-~~~~~~
+.. .. versionremoved:: 25.04
+      Python tab
 
-*Python* is used for the speech-to-text feature. These settings tell Kdenlive where *Python* can be found on your system or whether a virtual environemnt (venv) should be set up and used.
+.. Set on remark, we may need it again
+   Python
+   ~~~~~~
 
-.. figure:: /images/getting_started/configure_environment_python_appimage_2_2412.webp
-   :width: 500px
-   :alt: configure_environment_python_appimage_2_2412
+   *Python* is used for the speech-to-text feature. These settings tell Kdenlive where *Python* can be found on your system or whether a virtual environemnt (venv) should be set up and used.
 
-   Python tab on Linux (appimage) using venv
+   .. figure:: /images/getting_started/configure_environment_python_appimage_2_2412.webp
+      :width: 500px
+      :alt: configure_environment_python_appimage_2_2412
 
-:guilabel:`Use python virtual environment (recommended)`. When enabled, Kdenlive creates a :file:`venv` folder and copies/symlinks *Python* into this folder.
+      Python tab on Linux (appimage) using venv
 
-Using the virtual environment (venv) stores *Python* as you have installed it on your system in the :file:`venv` folder.  If you install speech to text, the VOSK and Whisper libraries will be installed in the :file:`venv` folder as well.
+   :guilabel:`Use python virtual environment (recommended)`. When enabled, Kdenlive creates a :file:`venv` folder and copies/symlinks *Python* into this folder.
 
-This has many benefits including easier dependency management and reduced risk of package conflicts and errors caused by software deprecation.
+   Using the virtual environment (venv) stores *Python* as you have installed it on your system in the :file:`venv` folder.  If you install speech to text, the VOSK and Whisper libraries will be installed in the :file:`venv` folder as well.
 
-Path for :file:`venv`:
+   This has many benefits including easier dependency management and reduced risk of package conflicts and errors caused by software deprecation.
 
-- Linux: :file:`~/.local/share/kdenlive/venv`
-- Windows: :file:`%LocalAppData%\\kdenlive\\venv`
+   Path for :file:`venv`:
 
-To remove the installed :file:`venv` packages click on :guilabel:`Delete`. This will completely remove the :file:`venv` folder with all installed packages. Note that this does not remove the downloaded models (VOSK/Whisper) that can still occupy significant disk space.
+   - Linux: :file:`~/.local/share/kdenlive/venv`
+   - Windows: :file:`%LocalAppData%\\kdenlive\\venv`
 
-.. figure:: /images/getting_started/kdenlive2402_configure_environment_python.webp
-   :width: 500px
-   :alt: Kdenlive_Configure_environment_python
+   To remove the installed :file:`venv` packages click on :guilabel:`Delete`. This will completely remove the :file:`venv` folder with all installed packages. Note that this does not remove the downloaded models (VOSK/Whisper) that can still occupy significant disk space.
 
-   Python tab on Windows
+   .. figure:: /images/getting_started/kdenlive2402_configure_environment_python.webp
+      :width: 500px
+      :alt: Kdenlive_Configure_environment_python
 
-.. figure:: /images/getting_started/configure_environment_python_appimage_1_2412.webp
-   :width: 500px
-   :alt: configure_environment_python_appimage_1_2412
+      Python tab on Windows
 
-   Python tab on Linux (appimage) not using venv
+   .. figure:: /images/getting_started/configure_environment_python_appimage_1_2412.webp
+      :width: 500px
+      :alt: configure_environment_python_appimage_1_2412
 
-.. figure:: /images/getting_started/configure_environment_python_flatpak_1_2412.webp
-   :width: 500px
-   :alt: configure_environment_python_flatpak_1_2412
+      Python tab on Linux (appimage) not using venv
 
-   Python tab on Linux (flatpak) not using venv
+   .. figure:: /images/getting_started/configure_environment_python_flatpak_1_2412.webp
+      :width: 500px
+      :alt: configure_environment_python_flatpak_1_2412
 
-.. figure:: /images/getting_started/configure_environment_python_flatpak_2_2412.webp
-   :width: 500px
-   :alt: configure_environment_python_flatpak_2_2412
+      Python tab on Linux (flatpak) not using venv
 
-   Python tab on Linux (flatpak) using venv
+   .. figure:: /images/getting_started/configure_environment_python_flatpak_2_2412.webp
+      :width: 500px
+      :alt: configure_environment_python_flatpak_2_2412
+
+      Python tab on Linux (flatpak) using venv
 
 
 .. _configure_environment_default_apps:

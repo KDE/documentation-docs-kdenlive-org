@@ -74,6 +74,10 @@ Installation on Windows
 
 Download *Python* from the official |python_download| page.
 
+Select "Add python.exe to PATH”
+
+Select “Install Now”
+
 
 .. _speech2text_config:
 
