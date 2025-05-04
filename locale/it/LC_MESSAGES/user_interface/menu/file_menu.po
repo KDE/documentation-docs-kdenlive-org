@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-29 01:51+0000\n"
-"PO-Revision-Date: 2025-01-16 14:20+0100\n"
+"PO-Revision-Date: 2025-05-02 09:23+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: ../../user_interface/menu/file_menu.rst:1
 msgid "Kdenlive Documentation - File Menu"
@@ -264,20 +264,22 @@ msgstr ""
 
 #: ../../user_interface/menu/file_menu.rst:139
 msgid "OpenTimelineIO Export"
-msgstr ""
+msgstr "Esportazione OpenTimelineIO"
 
 #: ../../user_interface/menu/file_menu.rst:141
 msgid "Export a timeline with multiple tracks and clips"
-msgstr ""
+msgstr "Esporta una linea temporale con più tracce e clip"
 
 #: ../../user_interface/menu/file_menu.rst:142
 #: ../../user_interface/menu/file_menu.rst:160
 msgid "Support for markers and guides"
-msgstr ""
+msgstr "Supporto per marcatori e guide"
 
 #: ../../user_interface/menu/file_menu.rst:146
 msgid "Guides are converted to OTIO markers on the timeline stack."
 msgstr ""
+"Le guide vengono convertite in marcatori OTIO nella pila della linea "
+"temporale."
 
 #: ../../user_interface/menu/file_menu.rst:148
 msgid ""
@@ -286,6 +288,10 @@ msgid ""
 "each instance of the clip, in OTIO they are unique to each instance of the "
 "clip."
 msgstr ""
+"I marcatori delle clip vengono convertiti in marcatori OTIO. Nota che i "
+"marcatori delle clip funzionano in maniera diversa in Kdenlive e in OTIO: in "
+"Kdenlive sono condivisi tra ogni istanza del clip, mentre in OTIO sono unici "
+"per ogni istanza della clip."
 
 #: ../../user_interface/menu/file_menu.rst:150
 msgid ""
@@ -295,24 +301,33 @@ msgid ""
 "stored under the key \"kdenlive\" to keep it separate from metadata of other "
 "applications."
 msgstr ""
+"I tipi di marcatori di Kdenlive sono memorizzati come metadati OTIO per i "
+"file di andata e ritorno. Ciò consente di ricreare correttamente le guide e "
+"i marcatori dei clip quando si importa un file OTIO creato con Kdenlive. I "
+"metadati sono memorizzati sotto la chiave “kdenlive” per tenerli separati da "
+"quelli di altre applicazioni."
 
 #: ../../user_interface/menu/file_menu.rst:157
 msgid "OpenTimelineIO import"
-msgstr ""
+msgstr "Importazione OpenTimelineIO"
 
 #: ../../user_interface/menu/file_menu.rst:159
 msgid "Import a timeline with multiple tracks and clips"
-msgstr ""
+msgstr "Importa una linea temporale con più tracce e clip"
 
 #: ../../user_interface/menu/file_menu.rst:164
 msgid ""
 "OTIO files do not contain information about rendering, so we get the render "
 "resolution from the first video clip."
 msgstr ""
+"I file OTIO non contengono informazioni sull'esportazione, quindi la "
+"risoluzione di esportazione viene ottenuta dalla prima clip video."
 
 #: ../../user_interface/menu/file_menu.rst:166
 msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
 msgstr ""
+"I marcatori OTIO nella pila della linea temporale vengono convertiti in "
+"guide di Kdenlive."
 
 #: ../../user_interface/menu/file_menu.rst:168
 msgid ""
@@ -321,12 +336,19 @@ msgid ""
 "shared between each instance of the clip, in OTIO the they are unique to "
 "each instance of the clip."
 msgstr ""
+"I marcatori OTIO sulle clip vengono convertiti in marcatori per clip di "
+"Kdenlive. Nota che i marcatori delle clip funzionano in maniera diversa in "
+"Kdenlive e in OTIO: in Kdenlive sono condivisi tra ogni istanza del clip, "
+"mentre in OTIO sono unici per ogni istanza della clip."
 
 #: ../../user_interface/menu/file_menu.rst:170
 msgid ""
 "If the OTIO marker metadata does not contain the Kdenlive marker type, we "
 "pick the Kdenlive guide/marker with the closest color to the OTIO marker."
 msgstr ""
+"Se i metadati del marcatore OTIO non contengono il tipo di marcatore "
+"Kdenlive, la guida o il marcatore di Kdenlive avrà il colore più simile a "
+"quello OTIO."
 
 #: ../../user_interface/menu/file_menu.rst:174
 msgid "Quit"
