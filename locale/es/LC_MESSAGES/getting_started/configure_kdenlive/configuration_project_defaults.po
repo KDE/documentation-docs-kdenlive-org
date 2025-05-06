@@ -4,21 +4,21 @@
 # Automatically generated, 2025.
 #
 # SPDX-FileCopyrightText: 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_getting_started___configure_kdenlive___configuration_project_defaults\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 01:46+0000\n"
-"PO-Revision-Date: 2025-03-28 02:31+0100\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"PO-Revision-Date: 2025-05-05 20:17+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:0
 msgid "1"
@@ -54,17 +54,20 @@ msgstr "5"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:1
 msgid "Kdenlive Documentation - Configuration Project Defaults"
-msgstr ""
+msgstr "Documentación de Kdenlive - Configuración: Opciones de proyecto"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:1
 msgid ""
 "KDE, Kdenlive, documentation, user manual, configuration, preferences, "
 "project, defaults, video editor, open source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, documentación, manual de usuario, editor de video, código "
+"abierto, libre, aprender, fácil, preferencias, configuración, opciones de "
+"proyecto"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:14
 msgid "Project Defaults"
-msgstr ""
+msgstr "Opciones de proyecto"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:16
 msgid ""
@@ -75,10 +78,18 @@ msgid ""
 "Please note that while changing parameter for the open project is possible, "
 "it is not recommended as it may break things like keyframes and cuts."
 msgstr ""
+"Kdenlive utilizará estas opciones al crearse un proyecto nuevo (ver Archivo "
+"> Nuevo) o cuando se inicie Kdenlive y la opción :guilabel:`Abrir el último "
+"proyecto al iniciar` se encuentre inactiva. Para cambiar los parámetros del "
+"proyecto actualmente abierto, usar la opción :doc:`Opciones del proyecto </"
+"project_and_asset_management/project_settings>`. Nótese que si bien es "
+"posible cambiar las opciones de un proyecto activo, no es algo recomendable, "
+"dado que podría desconfigurar elementos del proyecto, como claves de "
+"animación y cortes que ya hubieran sido definidos."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:23
 msgid "The Project Defaults section"
-msgstr ""
+msgstr "La sección Opciones de proyecto"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:25
 msgid ""
@@ -88,6 +99,12 @@ msgid ""
 "file:`videothumbs`, and :file:`workfiles`. See also :doc:`/getting_started/"
 "configure_kdenlive/configuration_info`."
 msgstr ""
+":guilabel:`Carpeta del proyecto`. Se trata de una opción importante para "
+"mantener organizados los distintos proyectos que se creen a lo largo del "
+"tiempo. Kdenlive creará las siguientes carpetas para cada nuevo proyecto: :"
+"file:`audiothumbs`, :file:`sequences`, :file:`videothumbs` y :file:"
+"`workfiles`. Ver también la sección :doc:`/getting_started/"
+"configure_kdenlive/configuration_info`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:27
 msgid ""
@@ -96,6 +113,11 @@ msgid ""
 "<username>/.var/app/org.kde.kdenlive/cache/kdenlive/<projectID>/`. For "
 "Windows this is :file:`%APPDATA\\\\Local\\\\kdenlive\\\\cache`."
 msgstr ""
+"Cuando se use la opción :guilabel:`Predeterminado`, Kdenlive creará estas "
+"subcarpetas dentro de una carpeta especial en la ruta de instalación. En el "
+"caso de Linux esta será :file:`/home/<nombre_de_usuario>/.var/app/org.kde."
+"kdenlive/cache/kdenlive/<ID_del_proyecto>/`. En Windows será :file:"
+"`%APPDATA\\\\Local\\\\kdenlive\\\\cache`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:29
 msgid ""
@@ -106,12 +128,21 @@ msgid ""
 "project_1/`: :file:`/home/my/projects/project_1/audiothumbs/`, :file:`/home/"
 "my/projects/project_1/sequences/`, etc."
 msgstr ""
+":guilabel:`Carpeta del archivo de proyecto`. Cuando se use esta opción, "
+"Kdenlive creará las subcarpetas para el proyecto en la carpeta del archivo "
+"del proyecto. Por ejemplo, en caso de que el proyecto se encontrara en la "
+"carpeta :file:`/home/mis/proyectos/proyecto_1/`, Kdenlive creará los "
+"archivos relacionados con ese proyecto en la carpeta :file:`../proyecto_1/` "
+"(:file:`/home/mis/proyectos/proyecto_1/audiothumbs/`, :file:`/home/mis/"
+"proyectos/proyecto_1/sequences/`, etc)."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:31
 msgid ""
 ":guilabel:`Custom project folder`: You can specify a folder to use for these "
 "project folders."
 msgstr ""
+":guilabel:`Carpeta de proyecto personalizada`: Permitirá especificar una "
+"carpeta para que contenga estas carpetas para los distintos proyectos."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:33
 msgid ""
@@ -123,12 +154,25 @@ msgid ""
 "profiles` icon. For details about how to do that, please see :ref:`Project "
 "Profiles / Preset <project_profile>`."
 msgstr ""
+":guilabel:`Seleccionar el preajuste predeterminado de perfil del proyecto`. "
+"En esta sección será posible definir cuál de los preajustes disponibles "
+"deberá ser usado al crear un nuevo proyecto. Existen dos filtros que podrán "
+"ser usados para restringir el tipo de preajustes ostrados en la lista: :"
+"guilabel:`Fps` y :guilabel:`Barrido` (que hace referencia al barrido :term:"
+"`entrelazado` o :term:`progresivo` del video). Desde aquí será posible crear "
+"nuevos barridos, haciendo clic en el botón |configure|\\ :guilabel:"
+"`Administrar perfiles de proyecto`. Para más detalles acerca de cómo hacer "
+"esto, ver la sección :ref:`Preajustes o perfiles de proyectos "
+"<project_profile>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:35
 msgid ""
 ":guilabel:`Video/Audio Tracks`. Determines the number of video and tracks a "
 "new project has. You can add and delete tracks later at any time."
 msgstr ""
+":guilabel:`Pistas de video/audio`. Permitirá determinar la cantidad de "
+"pistas de video y audio que deberán contener las secuencias de los nuevos "
+"proyectos. En cualquier momento será posible agregar o borrar pistas."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:37
 msgid ""
@@ -136,6 +180,10 @@ msgid ""
 "supports. Options are **2 channels (stereo)** (default), **4 channels**, and "
 "**6 channels**."
 msgstr ""
+":guilabel:`Canales de audio`. Permitirá determinar cuántos canales deberá "
+"tener cada pista de audio en las nuevas secuencias del proyecto. Las "
+"opciones son **2 canales (estéreo)** (predeterminada), **4 canales** o **6 "
+"canales**."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:39
 msgid ""
@@ -147,22 +195,30 @@ msgid ""
 "parameters in the text window below the profile selection field, click on "
 "the |help-about| icon."
 msgstr ""
+":guilabel:`Previsualización línea de tiempo`. Permitirá seleccionar qué "
+"perfil de codificación deberá ser usado para la función de :doc:"
+"`Previsualización </tips_and_tricks/tips_and_tricks/"
+"timeline_preview_rendering>` de la línea de tiempo. Las opciones disponibles "
+"dependerán del hardware y los codecs instalados. Es posible administrar los "
+"perfiles haciendo clic en el botón |configure|\\ :guilabel:`Administrar "
+"perfiles de codificación`. Para ver los parámetros del perfil seleccionado "
+"en un campo de texto debajo, hacer clic en el botón |help-about|."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:43
 msgid "Encoding Profiles"
-msgstr ""
+msgstr "Perfiles de codificación"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:49
 msgid "Timeline Preview profiles"
-msgstr ""
+msgstr "Perfiles de codificación de previsualización de la Línea de tiempo"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:51
 msgid "List of available profiles"
-msgstr ""
+msgstr "Lista de perfiles disponibles"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:53
 msgid "The parameters used in the selected profile"
-msgstr ""
+msgstr "Los parámetros usados en el perfil seleccionado"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:55
 msgid ""
@@ -170,3 +226,7 @@ msgid ""
 "document-edit| to edit the selected profile, |edit-delete| to delete the "
 "selected profile. |edit-download| does not have a function yet."
 msgstr ""
+"Hacer clic en el botón |list-add| para crear un nuevo perfil, basado en el "
+"perfil seleccionado, clic en |document-edit| para editar el perfil "
+"seleccionado, clic en |edit-delete| para borrar el perfil seleccionado. El "
+"botón |edit-download| aún no tiene una función asociada."

@@ -4,21 +4,21 @@
 # Automatically generated, 2025.
 #
 # SPDX-FileCopyrightText: 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_getting_started___configure_kdenlive___configuration_environment\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-14 01:50+0000\n"
-"PO-Revision-Date: 2025-03-28 02:28+0100\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"PO-Revision-Date: 2025-05-05 20:17+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
 msgid "1"
@@ -42,7 +42,7 @@ msgstr "5"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:1
 msgid "Kdenlive Documentation - Configuration Environment"
-msgstr ""
+msgstr "Documentación de Kdenlive - Configuración: Entorno"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:1
 msgid ""
@@ -50,18 +50,24 @@ msgid ""
 "environment, default folders, default apps, mlt, mime types, python, video "
 "editor, open source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, documentación, manual de usuario, editor de video, código "
+"abierto, libre, aprender, fácil, preferencias, configuración, entorno, "
+"carpetas predeterminadas, aplicaciones predeterminadas, mlt, tipos mime, "
+"python, actualizaciones"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:39
 msgid "Environment"
-msgstr ""
+msgstr "Entorno"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:50
 msgid "This section defines some of the most important settings for Kdenlive."
 msgstr ""
+"Esta sección permitirá establecer algunas de las opciones más importantes de "
+"Kdenlive."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:57
 msgid "The Environment section"
-msgstr ""
+msgstr "La sección Entorno"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:59
 msgid ""
@@ -74,6 +80,17 @@ msgid ""
 "that ffmpeg does not do multi-threading on. Multi-threading is supported for "
 "MPEG-2, MPEG-4, H.264, and VP8."
 msgstr ""
+":guilabel:`Hilos concurrentes`. Permitirá definir la cantidad de hilos de "
+"proceso a ser usados durante la generación de clips de reemplazo y tareas de "
+"transcodificación. Dichas tareas transcurrirán en segundo plano. El valor "
+"introducido aquí será pasado a ffmpeg como parámetro de su opción :code:`-"
+"threads`. El aumento de este parámetro podría no tener ningún efecto, en "
+"caso de que se hubieran cambiado las opciones de codificación de clips de "
+"reemplazo en las :doc:`Opciones del proyecto </project_and_asset_management/"
+"project_settings/proxy_settings>` para usar un compresor con el cual ffmpeg "
+"no fuera capaz de operar mediante múltiples hilos. La operación mediante "
+"múltiples hilos es soportada para los compresores MPEG-2, MPEG-4, H.264 y "
+"VP8."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:61
 msgid ""
@@ -82,6 +99,11 @@ msgid ""
 "the main UI responsive when proxies are created or clips are being "
 "transcoded."
 msgstr ""
+":guilabel:`Usar una prioridad de CPU más baja para tareas de reemplazo y "
+"transcodificación`. Esto instruirá a Kdenlive para que reduzca la prioridad "
+"de las tareas usadas para la generación de clips de reemplazo y "
+"transcodificación. Será de ayuda para mantener ágil a la interfaz del "
+"programa, mientras se estén procesando ese tipo de tareas."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:63
 msgid ""
@@ -90,20 +112,28 @@ msgid ""
 "total cached data size exceeds this limit. If you need to purge the cache, "
 "use the :doc:`/tips_and_tricks/useful_info/manage_cached_data` feature."
 msgstr ""
+":guilabel:`Advertir cuando datos en caché excedan`. Permitirá establecer un "
+"tamaño máximo de caché, que será comprobado cada dos semanas. Kdenlive "
+"enviará un mensaje de advertencia cuando el tamaño total de datos en caché "
+"exceda este límite. En caso de que fuera necesario purgar el caché, podrá "
+"usarse la función :doc:`/tips_and_tricks/useful_info/manage_cached_data`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:65
 msgid ""
 ":guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up "
 "window with a reminder if your version is older than six (6) months."
 msgstr ""
+":guilabel:`Comprobar actualizaciones`. Cuando esté activa, Kdenlive mostrará "
+"un diálogo emergente con un recordatorio de que la versión en uso tiene una "
+"antigüedad de más de (6) meses."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:67
 msgid "Tabs for the different environment settings."
-msgstr ""
+msgstr "Pestañas para las distintas opciones de entorno."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:73
 msgid "MLT Environment"
-msgstr ""
+msgstr "Entorno MLT"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:75
 msgid ""
@@ -113,26 +143,33 @@ msgid ""
 "installed and provide the path here, Kdenlive shows more details in the clip "
 "properties. The values differ depending on your OS."
 msgstr ""
+"Estas opciones indicarán a Kdenlive dónde encontrar los archivos ejecutables "
+"de MLT y de los perfiles. Sólo los usuarios avanzados deberían aventurarse a "
+"cambiar estas opciones. Kdenlive es esencialmente una interfaz para el "
+"programa MLT. En caso de que se tuviera instalado el programa |mediainfo| y "
+"se proporcionara aquí la ruta hasta él, Kdenlive podrá mostrar más detalles "
+"en el panel de *Propiedades del clip*. Los valores a ingresar aquí variarán, "
+"dependiendo del sistema operativo usado."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:81
 msgid "Environment variables in Kdenlive installed on Windows"
-msgstr ""
+msgstr "Variables de entorno en un Kdenlive instalado en Windows"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:87
 msgid "Environment variables in Kdenlive installed on Linux"
-msgstr ""
+msgstr "Variables de entorno en un Kdenlive instalado en Linux"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:93
 msgid "Environment variables in Kdenlive appimage on Linux"
-msgstr ""
+msgstr "Variables de entorno en un Kdenlive instalado en Linux (appimage)"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:99
 msgid "Environment variables in Kdenlive on MacOS"
-msgstr ""
+msgstr "Variables de entorno en un Kdenlive instalado en macOS"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:105
 msgid "Default Folders"
-msgstr ""
+msgstr "Carpetas predeterminadas"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:107
 msgid ""
@@ -140,22 +177,26 @@ msgid ""
 "controls what folder Kdenlive will use as a temporary file storage location "
 "and where files captured from an external source will be saved."
 msgstr ""
+"Estas opciones indicarán a Kdenlive en dónde deberán guardarse los distintos "
+"archivos de un proyecto. También permitirá controlar qué carpeta usará "
+"Kdenlive como ubicación de almacenamiento temporal y dónde se colocarán los "
+"archivos capturados desde una fuente externa."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:116
 msgid "Default folders on Windows."
-msgstr ""
+msgstr "Carpetas predeterminadas en Windows."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:122
 msgid "Default folders on Linux (appimage)."
-msgstr ""
+msgstr "Carpetas predeterminadas en Linux (appimage)."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:128
 msgid "Default folders on Linux (flatpak)."
-msgstr ""
+msgstr "Carpetas predeterminadas en Linux (flatpak)."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:134
 msgid "Default folders on MacOS."
-msgstr ""
+msgstr "Carpetas predeterminadas en macOS."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:142
 msgid "Python"
@@ -167,10 +208,13 @@ msgid ""
 "Kdenlive where *Python* can be found on your system or whether a virtual "
 "environemnt (venv) should be set up and used."
 msgstr ""
+"*Python* es usado para las funciones de Voz a texto. Estas opciones "
+"permitirán indicar a Kdenlive dónde encontrar *Python* en el sistema o si "
+"deberá configurarse un entorno virtual (venv) para ser usado."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:150
 msgid "Python tab on Linux (appimage) using venv"
-msgstr ""
+msgstr "La pestaña Python en Linux (appimage), usando venv"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:152
 msgid ""
@@ -178,6 +222,9 @@ msgid ""
 "Kdenlive creates a :file:`venv` folder and copies/symlinks *Python* into "
 "this folder."
 msgstr ""
+":guilabel:`Usar entorno virtual de Python (recomendado)`. Cuando esté "
+"activa, Kdenlive creará una carpeta :file:`venv` y copiará/enlazará allí a "
+"*Python*."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:154
 msgid ""
@@ -186,24 +233,31 @@ msgid ""
 "text, the VOSK and Whisper libraries will be installed in the :file:`venv` "
 "folder as well."
 msgstr ""
+"Al usar el entorno virtual (venv), se almacenará *Python*, tal como se lo "
+"tenga instalado en el sistema, en la carpeta :file:`venv`. Cuando se instale "
+"la funcionalidad de Voz a texto, las bibliotecas VOSK y Whisper también "
+"serán instaladas en la carpeta :file:`venv`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:156
 msgid ""
 "This has many benefits including easier dependency management and reduced "
 "risk of package conflicts and errors caused by software deprecation."
 msgstr ""
+"Esto tendrá múltiples beneficios, incluyendo una administración de "
+"dependencias más sencilla y un menor riesgo de conflictos de paquetes, así "
+"como errores debidos a software obsoleto."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:158
 msgid "Path for :file:`venv`:"
-msgstr ""
+msgstr "Ruta de la carpeta :file:`venv`:"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:160
 msgid "Linux: :file:`~/.local/share/kdenlive/venv`"
-msgstr ""
+msgstr "Linux: :file:`~/.local/share/kdenlive/venv`"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:161
 msgid "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
-msgstr ""
+msgstr "Windows: :file:`%LocalAppData%\\\\kdenlive\\\\venv`"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:163
 msgid ""
@@ -212,44 +266,53 @@ msgid ""
 "packages. Note that this does not remove the downloaded models (VOSK/"
 "Whisper) that can still occupy significant disk space."
 msgstr ""
+"Para eliminar los paquetes instalados en el :file:`venv`, hacer clic en :"
+"guilabel:`Borrar`. Eso eliminará completamente la carpeta :file:`venv` con "
+"todos los paquetes instalados. Nótese que eso no eliminará los modelos "
+"descargados (VOSK/Whisper) que aún seguirán ocupando un espacio "
+"significativo en disco."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:169
 msgid "Python tab on Windows"
-msgstr ""
+msgstr "La pestaña Python en Windows"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:175
 msgid "Python tab on Linux (appimage) not using venv"
-msgstr ""
+msgstr "La pestaña Python en Linux (appimage), sin usar un venv"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:181
 msgid "Python tab on Linux (flatpak) not using venv"
-msgstr ""
+msgstr "La pestaña Python en Linux (flatpak), sin usar un venv"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:187
 msgid "Python tab on Linux (flatpak) using venv"
-msgstr ""
+msgstr "La pestaña Python en Linux (flatpak), usando un venv"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:193
 msgid "Default Apps"
-msgstr ""
+msgstr "Aplicaciones predeterminadas"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:195
 msgid ""
 "These settings control which external application opens when you choose :ref:"
 "`edit_clip` for a clip in the Project Bin."
 msgstr ""
+"Estas opciones permitirán controlar qué aplicaciones externas serán "
+"abiertas, al elegir :ref:`edit_clip` en los clips de la Bandeja del proyecto."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:202
 msgid "Settings for default apps"
-msgstr ""
+msgstr "Opciones de aplicaciones predeterminadas"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:204
 msgid ":guilabel:`Image editing`: A free software would be |krita|."
 msgstr ""
+":guilabel:`Edición de imagenes`: Un buen programa libre podría ser |krita|."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:206
 msgid ":guilabel:`Audio editing`: A free software would be |audacity|."
 msgstr ""
+":guilabel:`Edición de audio`: Un buen programa libre podría ser |audacity|."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:208
 msgid ""
@@ -257,19 +320,28 @@ msgid ""
 "files automatically which are saved in |glaxnimate| which is available from "
 "its homepage for Linux, Windows, and MacOS."
 msgstr ""
+":guilabel:`Edición de animación`: Kdenlive proporciona una buena integración "
+"con |glaxnimate|, siendo capaz de actualizar archivos entre ambos programas "
+"de forma automática. Este programa se encuentra disponible para Linux, "
+"Windows y macOS desde su sitio web."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:210
 msgid ""
 "**Mac user:** See these :ref:`instructions <kdenlive_macos>` how to install "
 "and run :file:`dmg` files."
 msgstr ""
+"**Usuarios de Mac:** Ver estas :ref:`instrucciones <kdenlive_macos>` sobre "
+"cómo instalar y ejecutar archivos :file:`dmg`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:212
 msgid ""
 "**Windows user:** Make sure all the paths point to an :file:`.exe` file. :"
-"file:`glaxnimate.exe` is in folder :file:`%PROGRAMFILES%\\\\glaxnimate\\\\bin"
-"\\\\`."
+"file:`glaxnimate.exe` is in folder :file:`%PROGRAMFILES%\\\\glaxnimate\\"
+"\\bin\\\\`."
 msgstr ""
+"**Usuarios de Windows:** Asegurarse de que todas las rutas apunten a "
+"archivos :file:`.exe`. Por ejemplo, :file:`glaxnimate.exe` se encuentra en "
+"la carpeta :file:`%PROGRAMFILES%\\\\glaxnimate\\\\bin\\\\`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:215
 msgid "Example"
@@ -278,17 +350,21 @@ msgstr "Ejemplo"
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:220
 msgid "Examples of properly configured default apps on Linux (appimage)"
 msgstr ""
+"Ejemplos de aplicaciones predeterminadas apropiadamente configuradas en la "
+"versión de Linux (appimage)"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:224
 msgid "Mime types"
-msgstr ""
+msgstr "Tipos MIME"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:226
 msgid ""
 "Specifies the Media Types (formerly known as MIME types) which Kdenlive can "
 "work with."
 msgstr ""
+"Permite especificar los tipos de medios (antes conocidos como tipos MIME) "
+"con los que Kdenlive será capaz de trabajar."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:233
 msgid "Supported MIME Types"
-msgstr ""
+msgstr "Tipos MIME soportados"
