@@ -60,12 +60,20 @@ Visit the |download_page| of the Kdenlive web site for up to date information on
 
 You will find all previous Kdenlive versions in the |attic|.
 
-
+.. .. versionchanged:: 24.08.2
 
 Minimum System Requirements
 ---------------------------
 
-**Operating system:** 64-bit Windows 7 or newer, Apple macOS 10.15 (Catalina)\ [1]_ or newer and on M1, 64-bit Linux. Please see the details below.
+**Operating system:** 
+
+- 64-bit Windows 10 (1809 or later) \ [2]_ or newer
+
+- Apple macOS 12 (Monterey)\ [1]_ or newer and on Silicon M-Series
+
+- 64-bit Linux
+
+Please see the details below
 
 **CPU:** x86 Intel or AMD; at least one 2 GHz core for SD video, 4 cores for HD video, and 8 cores for 4K video. Please see the details below.
 
@@ -90,7 +98,9 @@ Kdenlive can be installed on non-KDE Desktops without any issues.
 Kdenlive on Windows
 -------------------
 
-Kdenlive runs only on 64bit version of Windows. Kdenlive runs on Windows 7 and newer. We cannot guarantee that Kdenlive runs on server or embedded Windows version.
+Kdenlive runs only on 64bit version of Windows. Kdenlive runs on Windows 10 (1809 or later) and newer. We cannot guarantee that Kdenlive runs on server or embedded Windows version.
+
+Last version for Windows 7 (Kdenlive 23.08.5) can be `downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/windows/>`_.
 
 Kdenlive is available as an install and as a standalone version.
 
@@ -160,10 +170,14 @@ Also make sure no GPO is blocking the access to these folders.
 Kdenlive on macOS
 -----------------
 
-Kdenlive runs with Intel-based Macs on macOS 10.15 (Catalina)\ [1]_ or newer and on M1 (available on the |download_page|).
+Kdenlive runs with Intel-based Macs on macOS 12 (Monterey)\ [1]_ or newer and on Silicon M-Series (available on the |download_page|).
 
-.. ..versionadded:: 22.04.0
+.. .. versionadded:: 22.04.0
 .. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
+
+Last version for macOS 10.13 (High Sierra) (Kdenlive 23.08.5) can be `downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/macOS/>`_.
+
+Last version for macOS 11 (Big Sur) (Kdenlive 24.08.1) can be `downloaded from the attic <https://download.kde.org/Attic/kdenlive/24.08/macOS/>`_.
 
 
 Installation Procedure
@@ -245,4 +259,6 @@ You can disable this function in :menuselection:`Menu --> Settings --> Configure
 
 ----
 
-.. [1] Due to QT6 compatibility the build system was switched to C++17 in January 2022 so minimum macOS requirement is macOS 10.15.
+.. [1] Due to QT6 compatibility the build system was switched to C++17 in January 2022 so minimum macOS requirement is macOS 10.15. With update to Qt6 in February 2024 the minimum macOS requirement is macOS 11.
+
+.. [2] With update to Qt6 in February 2024 the minimum requirement is Windows 10 (1809 or later).
