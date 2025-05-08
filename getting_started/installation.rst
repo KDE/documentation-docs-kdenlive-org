@@ -67,7 +67,7 @@ Minimum System Requirements
 
 **Operating system:** 
 
-- 64-bit Windows 10 (1809 or later) \ [2]_ or newer
+- 64-bit Windows 10 (1809 or later)\ [2]_ or newer
 
 - Apple macOS 12 (Monterey)\ [1]_ or newer and on Silicon M-Series
 
