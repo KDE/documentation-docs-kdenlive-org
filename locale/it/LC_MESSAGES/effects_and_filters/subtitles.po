@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-14 01:50+0000\n"
-"PO-Revision-Date: 2025-01-22 17:32+0100\n"
+"PO-Revision-Date: 2025-05-10 09:13+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: ../../effects_and_filters/subtitles.rst:1
 msgid "Add Subtitle in the timeline with Kdenlive video editor"
@@ -317,37 +317,47 @@ msgstr ""
 
 #: ../../effects_and_filters/subtitles.rst:167
 msgid "Override style with tags"
-msgstr ""
+msgstr "Sostituire lo stile con le etichette"
 
 #: ../../effects_and_filters/subtitles.rst:169
 msgid ""
 "Kdenlive supports using ASS override tags to style **specific parts of the "
 "subtitle text**."
 msgstr ""
+"Kdenlive supporta l'uso delle etichette di sostituzione ASS per creare lo "
+"stile in **parti specifiche del testo del sottotitolo**."
 
 #: ../../effects_and_filters/subtitles.rst:175
 msgid ""
 "A **highlighter** renders different parts of the tags in distinct styles, "
 "making them more distinguishable."
 msgstr ""
+"Un **evidenziatore** rende le diverse parti delle etichette con degli stili "
+"diversi, in modo da renderle più distinguibili."
 
 #: ../../effects_and_filters/subtitles.rst:177
 msgid ""
 "An **auto-completer** automatically lists all valid presets as you start "
 "typing a tag name."
 msgstr ""
+"Non appena inizi a digitare il nome di un'etichetta, il **completamento "
+"automatico** elenca automaticamente tutte le preimpostazioni valide."
 
 #: ../../effects_and_filters/subtitles.rst:179
 msgid ""
 "The buttons above the text editor will automatically add or edit tags when "
 "pressed."
 msgstr ""
+"I pulsanti sopra l'editor di testo aggiungono o modificano automaticamente "
+"le etichette quando vengono premuti."
 
 #: ../../effects_and_filters/subtitles.rst:181
 msgid ""
 "Tags like \"Set Position,\" which affect the entire subtitle text, will be "
 "added **at the beginning of the subtitle text**."
 msgstr ""
+"Etichette come «Imposta posizione», che riguardano tutto il testo del "
+"sottotitolo, verranno aggiunte **all'inizio del testo del sottotitolo**."
 
 #: ../../effects_and_filters/subtitles.rst:183
 msgid ""
@@ -355,31 +365,31 @@ msgid ""
 "either be added **at the current cursor position** or **wrap the selected "
 "text in tags** if there is a selection."
 msgstr ""
+"Etichette come «Attiva il grassetto», che hanno effetto solo sul testo che "
+"le segue, verranno aggiunte **nella posizione corrente del cursore**, oppure "
+"**avvolgeranno il testo selezionato nell'etichetta** se c'è una selezione."
 
 #: ../../effects_and_filters/subtitles.rst:185
 msgid ""
 "Additionally, you can use '\\\\r<style>' to reset the style of the subtitle "
 "after the tag."
 msgstr ""
+"Inoltre puoi usare '\\\\r<style>' per ripristinare lo stile del sottotitolo "
+"dopo l'etichetta."
 
 #: ../../effects_and_filters/subtitles.rst:190
 msgid "Multi-layer Subtitling"
 msgstr "Sottotitoli multi livello"
 
 #: ../../effects_and_filters/subtitles.rst:192
-#, fuzzy
-#| msgid ""
-#| "Kdenlive allows multiple subtitles in the subtitle track (only 1 subtitle "
-#| "track is displayed at a time). You can create, duplicate, and delete "
-#| "subtitle tracks with the :ref:`subtitle-manager`."
 msgid ""
 "Kdenlive supports multiple subtitle layers. You can create, duplicate, and "
 "delete subtitle layers using the :guilabel:`Layer` tab in :ref:`subtitle-"
 "manager`."
 msgstr ""
-"Kdenlive permette di avere più sottotitoli nella traccia di sottotitoli (ne "
-"viene visualizzata solo una alla volta). Puoi creare, duplicare, oppure "
-"eliminare le tracce di sottotitoli con il :ref:`subtitle-manager`."
+"Kdenlive supporta più livelli di sottotitoli: puoi creare, duplicare ed "
+"eliminare i livelli dei sottotitoli utilizzando la scheda "
+":guilabel:`Livello` del :ref:`subtitle-manager`."
 
 #: ../../effects_and_filters/subtitles.rst:197
 msgid ""
@@ -387,12 +397,17 @@ msgid ""
 "down beyond the bottom of the subtitle track or by adjusting the layer "
 "indicator in the :ref:`subtitle-window`."
 msgstr ""
+"Puoi creare un livello di sottotitoli anche trascinando verso il basso, "
+"oltre la parte inferiore della traccia dei sottotitoli, oppure regolando "
+"l'indicatore del livello nella :ref:`subtitle-window`."
 
 #: ../../effects_and_filters/subtitles.rst:202
 msgid ""
 "Subtitles with a lower Layer value are placed behind those with a higher "
 "value."
 msgstr ""
+"I sottotitoli con un valore di livello inferiore vengono posizionati dietro "
+"a quelli con uno superiore."
 
 #: ../../effects_and_filters/subtitles.rst:205
 msgid "Set the layer of a subtitle"
@@ -403,6 +418,8 @@ msgid ""
 "When you create a new subtitle by double-clicking on the timeline, the "
 "subtitle will be placed on the layer under your cursor."
 msgstr ""
+"Quando crei un nuovo sottotitolo facendo doppio clic sulla linea temporale, "
+"questo viene posizionato nel livello sotto al cursore."
 
 #: ../../effects_and_filters/subtitles.rst:209
 msgid ""
@@ -416,6 +433,8 @@ msgid ""
 "If you set the layer value higher than the current maximum, Kdenlive will "
 "automatically add a new layer."
 msgstr ""
+"Se imposti il valore del livello a uno più alto del massimo attuale, "
+"Kdenlive aggiungerà automaticamente un nuovo livello."
 
 #: ../../effects_and_filters/subtitles.rst:217
 msgid "Copy/Move layer between files"
@@ -464,6 +483,9 @@ msgid ""
 "subtitle file, as it allows each speaker to have a distinct style "
 "effortlessly."
 msgstr ""
+"Questa funzione è particolarmente utile quando si lavora con più oratori in "
+"un file di sottotitoli: ciascuno di essi avrà uno stile distinto senza "
+"nussuno sforzo."
 
 #: ../../effects_and_filters/subtitles.rst:238
 msgid "Import and Export Subtitles"
@@ -614,6 +636,9 @@ msgid ""
 "Please note that this feature conflicts with the ASS tag highlighter. To re-"
 "enable the highlighter, uncheck the :guilabel:`Auto Spell Check` option."
 msgstr ""
+"Nota che questa funzionalità è in conflitto con l'evidenziatore di etichette "
+"ASS. Per abilitare di nuovo l'evidenziatore, togli la spunta all'opzione "
+":guilabel:`Controllo ortografico automatico`."
 
 #: ../../effects_and_filters/subtitles.rst:322
 msgid "Simple editor"
@@ -624,6 +649,9 @@ msgid ""
 "A simple text editor that syncs with the normal editor, hides ASS override "
 "tag blocks, and translates '\\N' into a new line."
 msgstr ""
+"Un semplice editor di testo che si sincronizza con l'editor normale, "
+"nasconde i blocchi di etichette sostituenti ASS, e traduce «\\N» in una "
+"nuova riga."
 
 #: ../../effects_and_filters/subtitles.rst:327
 msgid ""
@@ -718,6 +746,8 @@ msgstr "Editor dello stile"
 msgid ""
 "An editor that allows you to adjust style properties with a live preview."
 msgstr ""
+"Un editor che ti permette di regolare le proprietà dello stile con "
+"un'anteprima dal vivo."
 
 #~ msgid "Subtitle split after first line or duplicate text"
 #~ msgstr ""
