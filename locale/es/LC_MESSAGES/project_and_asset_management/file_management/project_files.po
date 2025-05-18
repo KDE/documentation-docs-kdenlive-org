@@ -1,38 +1,40 @@
 # Spanish translations for docs_kdenlive_org_project_and_asset_management___file_management___project_files.po package.
-# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
-# This file is distributed under the same license as the Kdenlive Manual package.
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the documentation-docs-kdenlive-org package.
 # Automatically generated, 2025.
 #
-# SPDX-FileCopyrightText: 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_project_and_asset_management___file_management___project_files\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-27 01:48+0000\n"
-"PO-Revision-Date: 2025-03-28 02:34+0100\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"PO-Revision-Date: 2025-05-17 11:11+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:1
 msgid "Kdenlive Documentation - Project File Details"
-msgstr ""
+msgstr "Documentación de Kdenlive - Detalles del archivo de proyecto"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:1
 msgid ""
 "KDE, Kdenlive, project, working, file, management, details, documentation, "
 "user manual, video editor, open source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, proyecto, trabajo, archivo, administración, detalles, "
+"documentación, manual de usuario, editor de video, código abierto, libre, "
+"aprender, fácil"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:36
 msgid "Project File Details"
-msgstr ""
+msgstr "Detalles del archivo de proyecto"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:38
 msgid ""
@@ -41,6 +43,11 @@ msgid ""
 "used in a project, as well as the use of that media in the timeline. For "
 "more details see |mlt-xml-doc| and |mlt-dtd-doc| (document type definition)."
 msgstr ""
+"Los archivos de proyecto :file:`.kdenlive` de Kdenlive se usan un formato :"
+"abbr:`XML(Extensible Markup Language)` basado en el formato usado por MLT, "
+"para describir los recursos de un proyecto y su uso en la línea de tiempo. "
+"Para más detalles, ver |mlt-xml-doc| y |mlt-dtd-doc| (definición del tipo de "
+"documento)."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:40
 msgid ""
@@ -50,10 +57,17 @@ msgid ""
 "project_and_asset_management/project_bin/title_clip>` and :doc:`color clips</"
 "project_and_asset_management/project_bin/color_clip>`."
 msgstr ""
+"Para la mayoría de los tipos de recursos, tales como videos, audios e "
+"imágenes, Kdenlive sólo almacenará una referencia a éstos en el proyecto, no "
+"los recursos en sí mismos. Sólo algunos tipos de recursos serán almacenados "
+"internamente en los archivos de proyecto de Kdenlive, siendo los más "
+"destacables los :doc:`clips de título </project_and_asset_management/"
+"project_bin/title_clip>` y los :doc:`clips de color </"
+"project_and_asset_management/project_bin/color_clip>`."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:42
 msgid "The advantages of using this file format are:"
-msgstr ""
+msgstr "Las ventajas de usar este formato son:"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:44
 msgid ""
@@ -63,6 +77,13 @@ msgid ""
 "top that makes working with projects much easier than editing at the (lower) "
 "rendering level."
 msgstr ""
+"|mlt| es capaz de procesar directamente los archivos de proyecto de "
+"Kdenlive. MLT simplemente ignorará todos los datos específicos de Kdenlive "
+"contenidos en el archivo de proyecto, utilizando sólo los datos que permiten "
+"realizar el procesamiento. Los datos específicos de Kdenlive son los que "
+"permiten que el trabajo con los proyectos en Kdenlive sean mucho más "
+"sencillo y potente, de lo que sería simplemente editar sus datos a nivel "
+"(bajo) de procesamiento."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:45
 msgid ""
@@ -71,21 +92,32 @@ msgid ""
 "project_and_asset_management/library>` are simply MLT rendering files, "
 "nothing more."
 msgstr ""
+"Kdenlive es capaz de incluir y trabajar directamente con archivos de "
+"procesamiento de MLT, de la misma forma en que trabaja con otros tipos de "
+"recursos. De hecho, los :doc:`clips de la Biblioteca </"
+"project_and_asset_management/library>` de Kdenlive son simplemente archivos "
+"de procesamiento de MLT."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:47
 msgid "The project file holds all relevant information about"
 msgstr ""
+"Un archivo de proyecto contendrá toda la información relevante acerca de:"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:49
 msgid ""
 "target video and audio properties (selected in the :doc:`project profile</"
 "project_and_asset_management/project_settings/general_settings>`)"
 msgstr ""
+"propiedades del video y audio a ser producidos (seleccionado en el :doc:"
+"`perfil del proyecto </project_and_asset_management/project_settings/"
+"general_settings>`)"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:50
 msgid ""
 "references to all the source materials (and to their :term:`proxies<proxy>`)"
 msgstr ""
+"referencias a todos los recursos de origen (así como a sus :term:`reemplazos "
+"<reemplazo>`)"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:51
 msgid ""
@@ -93,6 +125,9 @@ msgid ""
 "effects and their respective parameters including keyframes, and everything "
 "to get the final result"
 msgstr ""
+"posición, duración y ediciones realizadas a los clips en la línea de tiempo, "
+"con los efectos aplicados y sus respectivos parámetros, incluyendo "
+"fotogramas clave y todo lo necesario para obtener el resultado final"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:53
 msgid ""
@@ -101,12 +136,18 @@ msgid ""
 "**Kdenlive** will generate *proxies* and *thumbnails*, so that an overview "
 "of your media always shows up quickly."
 msgstr ""
+"Los archivos de proyecto estarán asociados con una :doc:`carpeta de trabajo "
+"</project_and_asset_management/file_management/folder_structure>`, en la que "
+"**Kdenlive** generará *clips de reemplazo* y *miniaturas*, para que sea "
+"posible mostrar rápidamente una vista rápida de los recursos usados."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:56
 msgid ""
 "If you move your project file, you should declare the directory change in "
 "the project properties."
 msgstr ""
+"En caso de que un proyecto fuera movido a otro sitio, será necesario "
+"declarar ese cambio de carpeta en las *Opciones del proyecto*."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:58
 msgid ""
@@ -117,6 +158,13 @@ msgid ""
 "changed from 1.04 to 1.1. You can find the document version in the :file:`."
 "kdenlive` file in the line containing this:"
 msgstr ""
+"Cada cierto tiempo, y como parte del propio desarrollo de Kdenlive, se "
+"introducen cambios en el formato de documento :file:`.kdenlive`. Por "
+"ejemplo, cuando se introdujeron las secuencias (permitiendo la anidación de "
+"líneas de tiempo) en la versión 23.04, fue necesario almacenar un nuevo tipo "
+"de objeto dentro de los archivos :file:`.kdenlive`. La versión de documento "
+"cambió de 1.04 a 1.1. Es posible comprobar la versión de documento de un "
+"archivo :file:`.kdenlive` en la línea que contiene los siguientes datos:"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:64
 msgid ""
@@ -129,6 +177,14 @@ msgid ""
 "file). In case something does not work with the new version of Kdenlive, you "
 "can downgrade Kdenlive and open the backup of your project."
 msgstr ""
+"Cuando Kdenlive abre un archivo de proyecto que fue creado con una versión "
+"anterior de Kdenlive, actualizará el documento a la nueva versión y creará "
+"automáticamente una copia de respaldo del archivo de proyecto original. "
+"Kdenlive informará de esto al usuario. En la carpeta del proyecto podrá "
+"encontrarse un archivo llamado :file:`miproyecto_backup.kdenlive` (en donde "
+"*miproyecto* es el nombre real del archivo de proyecto en cuestión). En caso "
+"de que algo no funcionara bien con la nueva versión de Kdenlive, será "
+"posible regresar a la versión anterior del proyecto, respaldada previamente."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:66
 msgid ""
@@ -140,6 +196,15 @@ msgid ""
 "because the 23.04 release of Kdenlive introduced the document change from "
 "1.04 to 1.1 for the nested timelines."
 msgstr ""
+"Esto resulta importante dado que las distintas versiones de documento no "
+"serán necesariamente compatibles hacia atrás. En otras palabras: las nuevas "
+"versiones de los archivos en formato :file:`.kdenlive` no necesariamente "
+"podrán ser abiertas en versiones anteriores de Kdenlive . Por ejemplo, los "
+"proyectos creados con Kdenlive 23.04 o superior podrán ser abiertos usando "
+"versiones anteriores a la 23.04 (p.ej: la 22.12.8) debido a que en la "
+"versión 23.04 de Kdenlive fue donde se introdujo el cambio de la versión de "
+"documento, de 1.04 a 1.1, para contemplar el uso de múltiples secuencias en "
+"un mismo proyecto."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:73
 msgid ""
@@ -147,6 +212,10 @@ msgid ""
 "you won't be able to open your :file:`.kdenlive` project files with older "
 "versions."
 msgstr ""
+"Los proyectos creados con la versión 20.08 y posteriores de Kdenlive tampoco "
+"son compatibles hacia atrás, esto es, no será posible abrir los archivos :"
+"file:`.kdenlive` creados con estas versiones, usando versiones anteriores de "
+"Kdenlive."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:79
 msgid ""
@@ -154,6 +223,10 @@ msgid ""
 "you won't be able to open your :file:`.kdenlive` project files with older "
 "versions."
 msgstr ""
+"Los proyectos creados con la versión 23.04 y posteriores de Kdenlive tampoco "
+"son compatibles hacia atrás, esto es, no será posible abrir los archivos :"
+"file:`.kdenlive` creados con estas versiones, usando versiones anteriores de "
+"Kdenlive."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:81
 msgid ""
@@ -161,3 +234,7 @@ msgid ""
 "file format and how the various objects are described is available in the |"
 "github-repo| of Kdenlive."
 msgstr ""
+"Para aquellos usuarios con un perfil más técnico que tengan interés, existe "
+"una descripción más detallada del formato de archivo de proyecto y de la "
+"forma en que los distintos tipos de objeto son descriptos dentro del mismo, "
+"en el repositorio de GitHub (|github-repo|)."

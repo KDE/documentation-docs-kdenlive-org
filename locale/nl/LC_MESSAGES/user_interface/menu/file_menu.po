@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-29 01:51+0000\n"
-"PO-Revision-Date: 2025-01-22 20:30+0100\n"
+"PO-Revision-Date: 2025-05-17 07:12+0200\n"
 "Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -195,7 +195,7 @@ msgid ""
 "Saves the current state of the project in a :file:`.kdenlive` file as a "
 "copy. Prompts for a file name. Kdenlive returns to the current project."
 msgstr ""
-"Slaat de huidige status van het project op in een bestand :file:`.kdelive` "
+"Slaat de huidige status van het project op in een bestand :file:`.kdenlive` "
 "als een kopie. Vraagt naar een bestandsnaam. Kdenlive keert terug in het "
 "huidige project."
 
@@ -267,20 +267,21 @@ msgstr ""
 
 #: ../../user_interface/menu/file_menu.rst:139
 msgid "OpenTimelineIO Export"
-msgstr ""
+msgstr "Exporteren van OpenTimelineIO"
 
 #: ../../user_interface/menu/file_menu.rst:141
 msgid "Export a timeline with multiple tracks and clips"
-msgstr ""
+msgstr "Exporteert een tijdlijn met meerdere tracks en clips"
 
 #: ../../user_interface/menu/file_menu.rst:142
 #: ../../user_interface/menu/file_menu.rst:160
 msgid "Support for markers and guides"
-msgstr ""
+msgstr "Ondersteuning voor markeringen en hulplijnen"
 
 #: ../../user_interface/menu/file_menu.rst:146
 msgid "Guides are converted to OTIO markers on the timeline stack."
 msgstr ""
+"Hulplijnen worden geconverteerd naar OTIO-markeringen op de tijdlijn-stapel."
 
 #: ../../user_interface/menu/file_menu.rst:148
 msgid ""
@@ -289,6 +290,10 @@ msgid ""
 "each instance of the clip, in OTIO they are unique to each instance of the "
 "clip."
 msgstr ""
+"Markeringen van clips worden geconverteerd naar OTIO-markeringen. Merk op dat"
+" clipmarkeringen verschillend werken in Kdenlive en in OTIO; in Kdenlive"
+" worden ze gedeeld tussen alle locaties waar de clip voorkomt, in OTIO zijn"
+" ze uniek voor elke locatie waar de clip voorkomt."
 
 #: ../../user_interface/menu/file_menu.rst:150
 msgid ""
@@ -298,24 +303,32 @@ msgid ""
 "stored under the key \"kdenlive\" to keep it separate from metadata of other "
 "applications."
 msgstr ""
+"De Kdenlive markering-types worden als OTIO metadata for heen-en-weer gaande"
+" bestanden. Hierdoor kunnen hulplijnen en clip-markeringen weer correct"
+" opnieuw worden gecreëerd als een OTIO-bestand wordt geïmporteerd dat was"
+" gecreëerd met Kdenlive. De metadata wordt opgeslagen on de key \"kdenlive\""
+" om het gescheiden te houden van metadata van andere programma's."
 
 #: ../../user_interface/menu/file_menu.rst:157
 msgid "OpenTimelineIO import"
-msgstr ""
+msgstr "Importeren van OpenTimelineIO"
 
 #: ../../user_interface/menu/file_menu.rst:159
 msgid "Import a timeline with multiple tracks and clips"
-msgstr ""
+msgstr "Importeert een tijdlijn met meerdere tracks en clips"
 
 #: ../../user_interface/menu/file_menu.rst:164
 msgid ""
 "OTIO files do not contain information about rendering, so we get the render "
 "resolution from the first video clip."
 msgstr ""
+"In OTIO-bestanden is geen informatie aanwezig over rendering, daarom"
+" gebruiken we de render-resolutie van de eerste video clip."
 
 #: ../../user_interface/menu/file_menu.rst:166
 msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
 msgstr ""
+"OTIO-markeringen op de tijdlijn worden geconverteerd naar Kdenlive hulplijnen."
 
 #: ../../user_interface/menu/file_menu.rst:168
 msgid ""
@@ -324,12 +337,19 @@ msgid ""
 "shared between each instance of the clip, in OTIO the they are unique to "
 "each instance of the clip."
 msgstr ""
+"OTIO-markeringen op clips worden geconverteerd naar Kdenlive clip"
+" markeringen. Merk op dat clipmarkeringen verschillend werken in Kdenlive en"
+" in OTIO; in Kdenlive worden ze gedeeld tussen alle locaties waar de clip"
+" voorkomt, in OTIO zijn ze uniek voor elke locatie waar de clip voorkomt."
 
 #: ../../user_interface/menu/file_menu.rst:170
 msgid ""
 "If the OTIO marker metadata does not contain the Kdenlive marker type, we "
 "pick the Kdenlive guide/marker with the closest color to the OTIO marker."
 msgstr ""
+"Als in de OTIO-markering-metadata niet het Kdenlive markering-type aanwezig"
+" is, dan nemen we het Kdenlive hulplijn/markering met de dichtstbijzijnde"
+" kleur van de OTIO-markering."
 
 #: ../../user_interface/menu/file_menu.rst:174
 msgid "Quit"
@@ -389,3 +409,4 @@ msgstr ""
 
 #~ msgid "Contents:"
 #~ msgstr "Inhoud:"
+
