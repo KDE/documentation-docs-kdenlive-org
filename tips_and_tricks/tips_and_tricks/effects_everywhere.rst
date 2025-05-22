@@ -131,6 +131,29 @@ For timeline tracks with effects the effects indicator |tools-wizard| changes sl
 
 .. rst-class:: clear-both
 
+.. _effects_everywhere-effect_zones:
+
+Effect Zones
+============
+
+.. .. versionadded:: 21.04.0
+
+Effect Zones allow you to apply effects to specific regions of tracks or the timeline. Zones can be set from the effect zone bar in the Timeline or from the interface in the effect panel.
+
+.. figure:: /images/Track-effect-zone.gif
+   :alt: track-effect-zone
+   :width: 80%
+
+   Track Effect Zone
+
+
+.. figure:: /images/Timeline-effect-zone.gif
+   :alt: timeline-effect-zone
+   :width: 80%
+
+   Master Effect Zone
+
+.. rst-class:: clear-both
 
 .. _effects_everywhere-master:
 
