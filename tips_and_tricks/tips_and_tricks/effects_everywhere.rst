@@ -134,7 +134,7 @@ For timeline tracks with effects the effects indicator |tools-wizard| changes sl
 .. _effects_everywhere-effect_zones:
 
 Effect Zones
-============
+------------
 
 .. .. versionadded:: 21.04.0
 
