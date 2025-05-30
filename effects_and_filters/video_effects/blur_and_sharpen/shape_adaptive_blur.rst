@@ -11,11 +11,11 @@
 Shape Adaptive Blur
 ===================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-shape_adaptive_blur.webp
+.. figure:: /images/effects_and_compositions/effects-shape_adaptive_blur-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-shape_adaptive_blur
+   :alt: effects-shape_adaptive_blur-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Shape Adaptive Blur
 

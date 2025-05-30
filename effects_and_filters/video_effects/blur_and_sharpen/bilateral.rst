@@ -16,11 +16,11 @@
 Bilateral
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-bilateral.webp
+.. figure:: /images/effects_and_compositions/effects-bilateral-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-bilateral
+   :alt: effects-bilateral-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Bilateral
 
@@ -80,7 +80,7 @@ The following selection items are available:
    * - Alpha
      - Alpha channel
    * - Y
-     - Luminance (default)
+     - Luminance
    * - U
      - Chroma (U plane)
    * - V
@@ -92,4 +92,4 @@ The following selection items are available:
    * - Blue
      - Blue channel
    * - All
-     - All planes will be affected by the blur amount
+     - All planes will be affected by the blur amount (default)

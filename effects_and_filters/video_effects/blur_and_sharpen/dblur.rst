@@ -12,18 +12,18 @@
 Directional Blur (Dblur)
 ========================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-dblur.webp
+.. figure:: /images/effects_and_compositions/effects-dblur-2412.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-dblur
+   :alt: effects-dblur_2412
 
 .. sidebar:: |kdenlive-show-video| Directional Blur
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       avfilter
    :**Source filter**:
@@ -54,38 +54,38 @@ This effect applies a directional blur to the clip.
    * - Parameter
      - Value
      - Description
-   * - av.angle
-     - Float
-     - Sets the angle for the direction. Range is from 0.000 to 360.000, default is 0.000.
-   * - av.radius
-     - Float
-     - Sets the radius for the direction. Range is from 5.000 to 8192.000, default is 5.000.
-   * - av.planes
-     - Integer
+   * - Planes to filter
+     - List
      - Sets the color space plane the effect is applied to (see below)
+   * - Angle
+     - Float
+     - Sets the angle for the direction. Range is from 0.0 to 360.0, default is 45.0.
+   * - Radius
+     - Integer
+     - Sets the radius for the direction. Range is from 0 to 8192, default is 5.
 
-:guilabel:`Planes`
+:guilabel:`Planes to filter`
 
 .. list-table::
    :width: 100%
-   :widths: 20 80
-   :class: table-simple
+   :widths: 25 75
+   :class: table-wrap
 
-   * - 0/8 - Alpha
+   * - Alpha
      - Alpha channel
-   * - 1/9 - Y
-     - Luminance
-   * - 2/10 - U
-     - Chroma (U plane)
-   * - 3/11 - V
-     - Chroma (V plane)
-   * - 4/12 - Red
+   * - Luminance (Y plane)
+     - 
+   * - Chroma (U plane)
+     - 
+   * - Chroma (V plane)
+     - 
+   * - Red
      - Red channel
-   * - 5/13 - Green
+   * - Green
      - Green channel
-   * - 6/14 - Blue
+   * - Blue
      - Blue channel
-   * - 7/15 - All
+   * - All
      - All planes will be affected by the blur amount (default)
 
 .. hint:: Using the slider or mouse wheel for :guilabel:`av.radius` results in large fixed increments and therefore overly strong blur effects. It is recommended to use direct input for better results.

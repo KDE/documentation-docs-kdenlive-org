@@ -11,11 +11,11 @@
 Contrast Adaptive Sharpen (CAS)
 ===============================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-CAS.webp
+.. figure:: /images/effects_and_compositions/effects-CAS-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-CAS
+   :alt: effects-CAS-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Contrast Adaptive Sharpen (CAS)
 

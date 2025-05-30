@@ -14,11 +14,11 @@ Average Blur
 
 .. .. versionadded:: 24.02 keyframeable
 
-.. figure:: /images/effects_and_compositions/kdenlive2402_effects-average_blur.webp
+.. figure:: /images/effects_and_compositions/effects-average_blur-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2402_effects-average_blur
+   :alt: effects-average_blur-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Average Blur
 

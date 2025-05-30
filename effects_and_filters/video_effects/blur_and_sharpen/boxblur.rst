@@ -11,11 +11,11 @@
 BoxBlur
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-boxblur.webp
+.. figure:: /images/effects_and_compositions/effects-boxblur-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-boxblur
+   :alt: effects-boxblur-2504.webp
 
 .. sidebar:: |kdenlive-show-video| BoxBlur
 
@@ -53,6 +53,9 @@ This effect blurs the image based on the horizontal and vertical multiplicator a
    * - Parameter
      - Value
      - Description
+   * - Preserve alpha
+     - Checkbox
+     - If checked, the alpha channel will not be blurred
    * - Horizontal multiplicator
      - Percentage
      - Sets the amount of horizontal blur. Range is from 0% to 1000%, default is 1%.

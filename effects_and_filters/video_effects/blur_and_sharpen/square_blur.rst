@@ -17,11 +17,11 @@
 Square Blur
 ===========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-square_blur.webp
+.. figure:: /images/effects_and_compositions/effects-square_blur-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-square_blur
+   :alt: effects-square_blur-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Square Blur
 

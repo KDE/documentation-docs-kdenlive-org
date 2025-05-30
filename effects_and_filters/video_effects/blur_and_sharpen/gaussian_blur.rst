@@ -14,11 +14,11 @@ Gaussian Blur
 
 .. .. versionadded:: 24.02 keyframeable
 
-.. figure:: /images/effects_and_compositions/kdenlive2402_effects-gaussian_blur.webp
+.. figure:: /images/effects_and_compositions/effects-gaussian_blur-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2402_effects-gaussian_blur
+   :alt: effects-gaussian_blur-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Gaussian Blur
 
@@ -56,22 +56,22 @@ This effect blurs the clip by applying a Gaussian function (known from statistic
    * - Parameter
      - Value
      - Description
-   * - Sigma
-     - Integer
-     - Set horizontal sigma, standard deviation of Gaussian blur. Determines the strength of the blur. Default is 0.5.
-   * - StepsX 
+   * - Steps 
      - Selection
      - Set number of steps for Gaussian approximation
    * - Planes
      - Selection
      - Set which planes to filter. By default all planes are filtered (YUV).
+   * - Sigma
+     - Integer
+     - Set horizontal sigma, standard deviation of Gaussian blur. Determines the strength of the horizontal blur. Default is 10.
    * - Vertical Sigma
      - Integer
-     - Set vertical sigma, if negative it will be same as sigma. Default is -1.
+     - Set vertical sigma. Determines the strength of the vertical blur. Default is 10.
 
 The following selection items are available:
 
-:guilabel:`StepsX`
+:guilabel:`Steps`
 
 .. list-table::
    :width: 100%

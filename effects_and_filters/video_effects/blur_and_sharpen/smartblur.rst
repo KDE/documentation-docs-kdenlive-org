@@ -11,11 +11,11 @@
 Smartblur
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-smartblur.webp
+.. figure:: /images/effects_and_compositions/effects-smartblur-2412.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-smartblur
+   :alt: effects-smartblur-2412
 
 .. sidebar:: |kdenlive-show-video| Smartblur
 
@@ -58,10 +58,10 @@ This effect blurs the clip without impacting the outlines.
      - Number in the range [0.1,5.0] that specifies the variance of the gaussian filter used to blur the image (slower if larger). Default value is 1.0.
    * - Luma Strength
      - Float
-     - Number in the range [-1.0,1.0] that configures the blurring. A value included in [0.0,1.0] will blur the image whereas a value included in [-1.0,0.0] will sharpen the image. Default value is 1.0.
+     - Number in the range [-1.0,1.0] that configures the blurring. Positive values will blur the image, negative values will sharpen the image. Default value is 1.0.
    * - Luma Threshold
      - Integer
-     - Used as a coefficient to determine whether a pixel should be blurred or not. The value must be an integer in the range [-30,30]. A value of 0 will filter all the image, a value included in [0,30] will filter flat areas and a value included in [-30,0] will filter edges. Default value is 0.
+     - Used as a coefficient to determine whether a pixel should be blurred or not. The value must be an integer in the range [-30,30]. A value of 0 will filter all the image, positive values will filter flat areas, negative values will filter edges. Default value is 0.
    * - Chroma Radius
      - Float
      - Same as Luma Radius. Default value is what is defined for Luma Radius.
@@ -69,5 +69,14 @@ This effect blurs the clip without impacting the outlines.
      - Float
      - Same as Luma Strength. Default value is what is defined for Luma Strength.
    * - Chroma Threshold
+     - Integer
+     - Same as Luma Threshold. Default value is what is defined for Luma Threshold.
+   * - Alpha Radius
+     - Float
+     - Same as Luma Radius. Default value is what is defined for Luma Radius.
+   * - Alpha Strength
+     - Float
+     - Same as Luma Strength. Default value is what is defined for Luma Strength.
+   * - Alpha Threshold
      - Integer
      - Same as Luma Threshold. Default value is what is defined for Luma Threshold.
