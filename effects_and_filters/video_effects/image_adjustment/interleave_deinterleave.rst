@@ -13,11 +13,11 @@
 Interleave - Deinterleave
 =========================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-interleave.webp
+.. figure:: /images/effects_and_compositions/effects-interleave-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-interleave
+   :alt: effects-interleave-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Interleave - Deinterleave
 
@@ -41,7 +41,7 @@ Interleave - Deinterleave
 
 .. rubric:: Description
 
-This effect/filter interleaves or deinterleave fields. It allows one to process interlaced images fields without deinterlacing them. Deinterleaving splits the input frame into 2 fields (so-called half pictures). Odd lines are moved to the top half of the output image, even lines to the bottom half. You can process (filter) them independently and then re-interleave them.
+This effect/filter interleaves or de-interleaves fields. It allows one to process interlaced image fields without deinterlacing them. De-interleaving splits the input frame into 2 fields (so-called half pictures). Odd lines are moved to the top half of the output image, even lines to the bottom half. You can process (filter) them independently and then re-interleave them.
 
 
 .. rubric:: Parameters

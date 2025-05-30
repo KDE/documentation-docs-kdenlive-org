@@ -13,11 +13,11 @@
 Set Range
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-set_range.webp
+.. figure:: /images/effects_and_compositions/effects-set_range-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-set_range
+   :alt: effects-set_range-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Set Range
 
@@ -57,7 +57,7 @@ The filter marks the color range property for the output frames. It does not cha
    * - Parameter
      - Value
      - Description
-   * - Set range
+   * - Range
      - Selection
      - Define the property for the output frame
 
@@ -71,11 +71,11 @@ The following selection items are available:
    :widths: 35 65
    :class: table-simple
 
-   * - auto
+   * - Auto
      - Keep the same color range property (default)
-   * - unspecified / unknown
+   * - Unspecified / Unknown
      - Set the color range as unspecified
-   * - limited / tv / mpeg
+   * - Limited / TV / Mpeg
      - Set the color range as limited
-   * - full / pc / jpeg
+   * - Full / PC / Jpeg
      - Set the color range as full

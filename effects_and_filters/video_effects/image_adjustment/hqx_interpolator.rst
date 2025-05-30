@@ -18,11 +18,11 @@
 HQ*X Interpolator
 =================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-hqx_interpolator.webp
+.. figure:: /images/effects_and_compositions/effects-hqx_interpolator-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-hqx_interpolator
+   :alt: effects-hqx_interpolator-2504.webp
 
 .. sidebar:: |kdenlive-show-video| HQ*X Interpolator
 
@@ -46,7 +46,7 @@ HQ*X Interpolator
 
 .. rubric:: Description
 
-This effect/filter scales the input stream by 2, 3 or 4 using the Hq*X\ [1]_ magnification algorithm designed for pixel art.
+This effect/filter works best for pixel art. Scaling is done by a factor of 2, 3, or 4 using the Hq*X\ [1]_ magnification algorithm specifically designed for this.
 
 
 .. rubric:: Parameters
@@ -60,30 +60,24 @@ This effect/filter scales the input stream by 2, 3 or 4 using the Hq*X\ [1]_ mag
    * - Parameter
      - Value
      - Description
-   * - Interpolation factor
+   * - Scale factor
      - Selection
      - Sets the scaling factor
-   * - Maximum number of threads
-     - Integer
-     - Sets the number of CPU threads to use for calculation
-   * - Position to set the filter
-     - Selection
-     - Defines where in the render pipeline the filter will be applied. When set to **frame** this can result in significantly longer rendering times.
 
 The following selection items are available:
 
-:guilabel:`Interpolation factor`
+:guilabel:`Scale factor`
 
 .. list-table::
    :width: 100%
    :widths: 20 80
    :class: table-wrap
 
-   * - 2xHq*X
+   * - 2x
      - 
-   * - 3xHq*X
+   * - 3x
      - Default
-   * - 4xHq*X
+   * - 4x
      - 
 
 :guilabel:`Position to set the filter`

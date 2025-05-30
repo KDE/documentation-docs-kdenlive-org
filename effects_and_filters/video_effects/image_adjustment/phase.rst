@@ -13,11 +13,11 @@
 Phase
 =====
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-phase.webp
+.. figure:: /images/effects_and_compositions/effects-phase-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-phase
+   :alt: effects-phase-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Phase
 
@@ -88,6 +88,10 @@ The following selection items are available:
      - Filter selects among **Delay bottom**, **Delay Top** and **Keep order** using field flags and image analysis. If no field information is available, then this works just like **Both capture**.
    * - Both capture and transfer unknown or varying
      - Filter selects among **Delay bottom**, **Delay Top** and **Keep order** using image analysis only.
+
+
+.. warning:: 
+   Due to the long text in the drop-down list, the parameter name may not show up in the effect panel. It doesn't affect the functionality, though. You can make the effect panel widget wider to fit everything.
 
 
 .. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

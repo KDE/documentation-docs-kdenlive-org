@@ -13,11 +13,11 @@
 XBR Interpolator
 ================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-xbr_interpolator.webp
+.. figure:: /images/effects_and_compositions/effects-xbr_interpolator-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-xbr_interpolator
+   :alt: effects-xbr_interpolator-2504.webp
 
 .. sidebar:: |kdenlive-show-video| XBR Interpolator
 
@@ -55,15 +55,9 @@ This effect/filter applies the xBR\ [1]_ high-quality magnification filter which
    * - Parameter
      - Value
      - Description
-   * - Interpolation factor
+   * - Scaling dimension
      - Selection
      - Sets the scaling factor
-   * - Maximum number of threads
-     - Integer
-     - Sets the number of CPU threads to use
-   * - Position to set the filter
-     - Selection
-     - Defines where in the render pipeline the filter will be applied. When set to **frame** this can result in significantly longer rendering times.
 
 The following selection items are available:
 
@@ -79,23 +73,6 @@ The following selection items are available:
    * - 3xBR
      - 
    * - 4xBR
-     - 
-
-
-:guilabel:`Position to set the filter`
-
-.. list-table::
-   :width: 100%
-   :widths: 20 80
-   :class: table-simple
-
-   * - frame
-     - Default
-   * - filter
-     - 
-   * - source
-     - 
-   * - producer
      - 
 
 

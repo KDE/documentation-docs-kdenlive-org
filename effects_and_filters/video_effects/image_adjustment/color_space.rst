@@ -18,11 +18,11 @@
 Color Space
 ===========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_space.webp
+.. figure:: /images/effects_and_compositions/effects-color_space-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_space
+   :alt: effects-color_space-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Space
 
@@ -65,25 +65,25 @@ The filter converts the transfer characteristics, color space and color primarie
    * - Color properties
      - Selection
      - Specify all color properties at once
-   * - Output Color Space
+   * - Output color space
      - Selection
      - Specifies output color space
    * - Output transfer characteristics
      - Selection
      - Specifies output transfer characteristics
-   * - Output Color Primaries
+   * - Output color primaries
      - Selection
      - Specifies output color primaries
-   * - Output Color Range
+   * - Output color range
      - Selection
      - Specifies output color range
-   * - Output Color Format
+   * - Output color format
      - Selection
      - Specifies output color format
-   * - Fast Conversion
+   * - Fast conversion
      - Switch
      - Do a fast conversion, which skips gamma/primary correction. This will take significantly less CPU, but will be mathematically incorrect. To get output compatible with that produced by the :doc:`/effects_and_filters/video_effects/image_adjustment/color_matrix` filter, switch it on.
-   * - Dithering Mode
+   * - Dithering mode
      - Selection
      - Specifies dithering mode
    * - Whitepoint adaption mode
@@ -92,7 +92,7 @@ The filter converts the transfer characteristics, color space and color primarie
    * - Override all input properties at once
      - Selection
      - 
-   * - Override input colorspace
+   * - Override input color space
      - Selection
      - 
    * - Override input color primaries
@@ -132,7 +132,7 @@ The following selection items are available:
      - 
 
 
-:guilabel:`Output Color Space` :guilabel:`Override input colorspace` 
+:guilabel:`Output color space` :guilabel:`Override input color space` 
 
 .. list-table::
    :width: 100%
@@ -145,9 +145,9 @@ The following selection items are available:
      - 
    * - BT.470BG (BT.470BG or BT.601-6 625)
      - 
-   * - SMPTE-170M (SMPTE-170M or BT.601-6 525)
+   * - SMPTE 170M (SMPTE 170M or BT.601-6 525)
      - 
-   * - SMPTE-240M
+   * - SMPTE 240M
      - 
    * - YCgCo
      - 
@@ -172,25 +172,25 @@ The following selection items are available:
      - 
    * - Constant Gamma of 2.8
      - 
-   * - SMPTE-170M (SMPTE-170M, BT.601-6 525 or BT.601-6 525)
+   * - SMPTE 170M (SMPTE 170M, BT.601-6 525 or BT.601-6 525)
      - 
-   * - SMPTE-240M
+   * - SMPTE 240M
      - 
    * - SRGB
      - 
-   * - iec61966-2-1
+   * - IEC 61966-2-1
      - 
-   * - iec61966-2-4
+   * - IEC 61966-2-4
      - 
-   * - xvycc
-     - 
+   * - xvYCC
+     - extended-gamut YCbCr
    * - BT.2020 for 10-bits constant
      - 
    * - BT.2020 for 12-bits constant
      - 
 
 
-:guilabel:`Output Color Primaries` :guilabel:`Override input color primaries`
+:guilabel:`Output color primaries` :guilabel:`Override input color primaries`
 
 .. list-table::
    :width: 100%
@@ -203,23 +203,23 @@ The following selection items are available:
      - 
    * - BT.470BG (BT.470BG or BT.601-6 625)
      - 
-   * - SMPTE-170M (SMPTE-170M or BT.601-6 525)
+   * - SMPTE 170M (SMPTE 170M or BT.601-6 525)
      - 
-   * - SMPTE-240M
+   * - SMPTE 240M
      - 
    * - Film
      - 
    * - BT.2020
      - 
-   * - SMPTE-431
+   * - SMPTE 431
      - 
-   * - SMPTE-432
+   * - SMPTE 432
      - 
    * - JEDEC-PT22 phosphors
      - 
 
 
-:guilabel:`Output Color Range`
+:guilabel:`Output color range`
 
 .. list-table::
    :width: 100%
@@ -230,13 +230,13 @@ The following selection items are available:
      - 
    * - MPEG (restricted range)
      - 
-   * - PC (FULLrange)
+   * - PC (full range)
      - Default
-   * - JPEG (FULL range)
+   * - JPEG (full range)
      - 
 
 
-:guilabel:`Output Color Format`
+:guilabel:`Output color format`
 
 .. list-table::
    :width: 100%
@@ -251,7 +251,7 @@ The following selection items are available:
      - 
 
 
-:guilabel:`Dithering Mode`
+:guilabel:`Dithering mode`
 
 .. list-table::
    :width: 100%

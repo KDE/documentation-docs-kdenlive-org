@@ -13,11 +13,11 @@
 Motion Compensation Deinterlacer
 ================================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-motion_compensation_deinterlacer.webp
+.. figure:: /images/effects_and_compositions/effects-motion_compensation_deinterlacer-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: Motion Compensation Deinterlacer effect
+   :alt: effects-motion_compensation_deinterlacer-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Motion Compensation Deinterlacer
 
@@ -82,7 +82,7 @@ The following selection items are available:
      - Iterative motion estimation (default)
    * - Slow
      - Iterative motion estimation
-   * - Extra_slow
+   * - Extra slow
      - Iterative motion estimation using multiple reference frames
 
 :guilabel:`Picture field parity`
@@ -93,9 +93,9 @@ The following selection items are available:
    :class: table-wrap
 
    * - Top field first
-     - default
-   * - Bottom field first
      - 
+   * - Bottom field first
+     - default
 
 
 .. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -13,11 +13,11 @@
 Kernel Deinterlacer
 ===================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-kernel_deinterlacer.webp
+.. figure:: /images/effects_and_compositions/effects-kernel_deinterlacer-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-kernel_deinterlacer
+   :alt: effects-kernel_deinterlacer-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Kernel Deinterlacer
 
@@ -41,7 +41,7 @@ Kernel Deinterlacer
 
 .. rubric:: Description
 
-This effect/filter deinterlaces input video by applying Donald Graft’s adaptive kernel deinterlacing. Work on interlaced parts of a video to produce progressive frames.
+This effect/filter deinterlaces input video by applying Donald Graft’s adaptive kernel deinterlacing. It works on interlaced parts of a video to produce progressive frames.
 
 
 .. rubric:: Parameters
@@ -57,7 +57,7 @@ This effect/filter deinterlaces input video by applying Donald Graft’s adaptiv
      - Description
    * - Threshold
      - Integer
-     - Sets the threshold which affects the filter's tolerance when determining if a pixel line must be processed. It must be an integer in the range [0,255] and defaults to 10. A value of 0 will result in applying the process on every pixels.
+     - Sets the threshold which affects the filter's tolerance when determining if a pixel line must be processed. It must be an integer in the range [0,255] and defaults to 10. A value of 0 will result in applying the process on every pixel.
    * - Paint in white pixels exceeding the threshold
      - Switch
      - Paint pixels exceeding the threshold value to white if set to **On**. Default is **Off**.
@@ -67,6 +67,6 @@ This effect/filter deinterlaces input video by applying Donald Graft’s adaptiv
    * - Enable additional sharpening
      - Switch
      - Default is **Off**
-   * - Enable twoway sharpening
+   * - Enable two-way sharpening
      - Switch
      - Default is **Off**

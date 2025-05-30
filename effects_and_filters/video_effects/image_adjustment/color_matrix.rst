@@ -18,11 +18,11 @@
 Color Matrix
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_matrix.webp
+.. figure:: /images/effects_and_compositions/effects-color_matrix-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_matrix
+   :alt: effects-color_matrix-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Matrix
 
@@ -76,21 +76,21 @@ The following selection items are available:
    :widths: 20 80
    :class: table-simple
 
-   * - bt709
+   * - BT.709
      - 
-   * - fcc
+   * - FCC
      - 
-   * - bt601
+   * - BT.601
      - 
-   * - bt470
+   * - BT.470
      - 
-   * - bt470bg
+   * - BT.470bg
      - 
-   * - smpte170m
+   * - SMPTE 170m
      - 
-   * - smpte240m
-     - 
-   * - bt2020
+   * - SMPTE 240m
+     - Default
+   * - BT.2020
      - 
 
 For the technical inclined there is a list of detailed |color_space_descriptions| available in the Linux Kernel documentation.
