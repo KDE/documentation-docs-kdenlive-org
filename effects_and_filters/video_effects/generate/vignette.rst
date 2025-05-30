@@ -11,11 +11,11 @@
 Vignette
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vignette.webp
+.. figure:: /images/effects_and_compositions/effects-vignette-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vignette
+   :alt: effects-vignette-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Vignette
 
@@ -62,3 +62,7 @@ This effect/filter creates a natural lens vignetting effect. It is similar to th
    * - Softness
      - Integer
      - Set the softness of the vignette
+
+
+.. note::
+   Even with :kbd:`Softness` at 0, there will always be some softness (or feathering) in the vignette.

@@ -13,11 +13,11 @@
 Draw Grid
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-draw_grid.webp
+.. figure:: /images/effects_and_compositions/effects-draw_grid-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-draw_grid
+   :alt: effects-draw_grid-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Draw Grid
 
@@ -55,7 +55,13 @@ This effect/filter draws a colored grid on the input video.
    * - Parameter
      - Value
      - Description
-   * - X / Y
+   * - Color
+     - Picker
+     - Defines the color for the box
+   * - Replace color and alpha
+     - Switch
+     - If the input has alpha, checking this	will overwrite the video's color and alpha pixels with the pixels of the painted box. By default (off), the box will be composited onto the input, leaving the video's alpha intact.
+   * - X / Y Offset
      - Integer
      - Defines the starting point of the grid in pixels from the top left-hand corner of the monitor (coordinates are based on the project dimension settings)
    * - Width
@@ -64,12 +70,9 @@ This effect/filter draws a colored grid on the input video.
    * - Height
      - Integer
      - Defines the distance between horizontal grid lines in pixels
-   * - Thickness
+   * - Thickness (px)
      - Integer
-     - Defines the thickness of the line in pixels. If set high enough the grid is filled.
-   * - Color
-     - Picker
-     - Defines the color for the grid
+     - Defines the thickness of the line in pixels. If set high enough, the grid is essentially filled.
 
 
 .. hint:: 

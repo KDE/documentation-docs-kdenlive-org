@@ -13,11 +13,11 @@
 GPS Text
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-gps_text.webp
+.. figure:: /images/effects_and_compositions/effects-gps_text-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-gps_text
+   :alt: effects-gps_text-2504.webp
 
 .. sidebar:: |kdenlive-show-video| GPS Text
 

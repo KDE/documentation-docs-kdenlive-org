@@ -13,11 +13,11 @@
 Cairogradient
 =============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-cairogradient.webp
+.. figure:: /images/effects_and_compositions/effects-cairogradient-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: denlive2304_effects-cairogradient
+   :alt: effects-cairogradient-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Cairogradient
 
@@ -104,41 +104,41 @@ The following selection items are available:
    :widths: 20 80
    :class: table-wrap
 
-   * - normal
+   * - Normal
      - This is the default attribute which specifies no blending. The blending formula simply selects the source color.
-   * - add
+   * - Add
      - 
-   * - saturate
+   * - Saturate
      - 
-   * - multiply
+   * - Multiply
      - The source color is multiplied by the destination color and replaces the destination. The resultant color is always at least as dark as either the source or destination color. Multiplying any color with black results in black. Multiplying any color with white preserves the original color.
-   * - screen
+   * - Screen
      - Multiplies the complements of the backdrop and source color values, then complements the result. The result color is always at least as light as either of the two constituent colors. Screening any color with white produces white; screening with black leaves the original color unchanged. The effect is similar to projecting multiple photographic slides simultaneously onto a single screen.
-   * - overlay
+   * - Overlay
      - Multiplies or screens the colors, depending on the backdrop color value. Source colors overlay the backdrop while preserving its highlights and shadows. The backdrop color is not replaced but is mixed with the source color to reflect the lightness or darkness of the backdrop.
-   * - darken
+   * - Darken
      - Selects the darker of the backdrop and source colors. The backdrop is replaced with the source where the source is darker; otherwise, it is left unchanged.
-   * - lighten
+   * - Lighten
      - Selects the lighter of the backdrop and source colors. The backdrop is replaced with the source where the source is lighter; otherwise, it is left unchanged.
-   * - colordodge
+   * - Color dodge
      - Brightens the backdrop color to reflect the source color. Painting with black produces no changes.
-   * - colorburn
+   * - Color burn
      - Darkens the backdrop color to reflect the source color. Painting with white produces no change.
-   * - hardlight
+   * - Hard light
      - Multiplies or screens the colors, depending on the source color value. The effect is similar to shining a harsh spotlight on the backdrop.
-   * - softlight
+   * - Soft light
      - Darkens or lightens the colors, depending on the source color value. The effect is similar to shining a diffused spotlight on the backdrop.
-   * - difference
+   * - Difference
      - Subtracts the darker of the two constituent colors from the lighter color. Painting with white inverts the backdrop color; painting with black produces no change.
-   * - exclusion
+   * - Exclusion
      - Produces an effect similar to that of the Difference mode but lower in contrast. Painting with white inverts the backdrop color; painting with black produces no change.
-   * - hslhue
+   * - :abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for subtle color changes)` hue
      - Creates a color with the hue of the source color and the saturation and luminosity of the backdrop color.
-   * - hslsaturation
+   * - :abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for subtle color changes)` saturation
      - Creates a color with the saturation of the source color and the hue and luminosity of the backdrop color. Painting with this mode in an area of the backdrop that is a pure gray (no saturation) produces no change.
-   * - hslcolor
+   * - :abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for subtle color changes)` color
      - Creates a color with the hue and saturation of the source color and the luminosity of the backdrop color. This preserves the gray levels of the backdrop and is useful for coloring monochrome images or tinting color images.
-   * - hslluminosity
+   * - :abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for subtle color changes)` luminosity
      - Creates a color with the luminosity of the source color and the hue and saturation of the backdrop color. This produces an inverse effect to that of the Color mode.
 
 

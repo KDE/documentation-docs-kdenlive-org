@@ -16,11 +16,11 @@
 Dynamic Text
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-dynamic_text.webp
+.. figure:: /images/effects_and_compositions/effects-dynamic_text-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-dynamic_text
+   :alt: effects-dynamic_text-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Dynamic Text
 
@@ -44,7 +44,7 @@ Dynamic Text
 
 .. rubric:: Description
 
-This effect allows you to overlay specific keywords to the image source, for example the timecode that counts up relative to the start of the clip or the track it is applied to, respectively. It can be :ref:`controlled directly  on the monitor <ui-monitors_effect_direct_control>`.
+This effect allows you to overlay specific keywords to the image source, for example the timecode that counts up relative to the start of the clip or the track it is applied to, respectively. It can be :ref:`controlled directly on the monitor <ui-monitors_effect_direct_control>`.
 
 .. rubric:: Parameters
 
@@ -134,15 +134,16 @@ The following keywords are available:
 Timecode keywords are based on the frame rate (fps) and position of the frame. Time-based keywords can include a ``strftime``\ [#]_ format string to customize the output as long as you put some delimiter except '#' between the keyword and the format string and the keyword comes first. For example, ``#localtime %I:%M:%S %p#`` shows only the time in 12-hour format. The '#' may be escaped with '\'.
 
 .. note:: 
-  This effect uses the clip's properties for the calculation of the keywords' values. For example, **#timecode#** will start counting at the beginning of the clip and not at the position of the clip in the timeline. **#timecode#** will reset at the start of every clip it is assigned to. In order to have **#timecode#** count across the whole length of your project you must assign it to the (main) video track.
+  This effect uses the clip's properties for the calculation of the keywords' values. For example, **#timecode#** will start counting at the beginning of the clip and not at the position of the clip in the timeline. **#timecode#** will reset at the start of every clip it is assigned to. In order to have **#timecode#** count across the whole length of your project you must assign the effect to the (main) video track or the Master.
 
-See also the :ref:`render` option in the render dialog to add time code or frame count to the entire rendered project.
+.. seealso::
+  :ref:`Render` option in the render dialog to add time code or frame count to the entire rendered project.
 
 .. hint:: 
   In order to use a semi-transparent background color, click on the color panel, click on :guilabel:`+` and use the horizontal slider to change the transparency.
 
 .. hint:: 
-  You can add effects to entire video tracks by clicking on |tools-wizard| icon in the track header and choosing :menuselection:`Menu --> Timeline --> Add Effect`. Video tracks that have effects added to them have the white |tools-wizard|, tracks without have a grey |tools-wizard| icon. See also :ref:`effects-track_effect`.
+  You can add effects to entire video tracks by clicking on the |tools-wizard| icon in the track header and choosing :menuselection:`Menu --> Timeline --> Add Effect`. Video tracks that have effects added to them have the white |tools-wizard|, tracks without have a grey |tools-wizard| icon. See also :ref:`effects-track_effect`.
 
 
 ----

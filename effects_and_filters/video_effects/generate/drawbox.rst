@@ -13,11 +13,11 @@
 Draw Box
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-draw_box.webp
+.. figure:: /images/effects_and_compositions/effects-draw_box-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-draw_box
+   :alt: effects-draw_box-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Draw Box
 
@@ -55,18 +55,21 @@ This effect/filter draws a colored box on the input video.
    * - Parameter
      - Value
      - Description
-   * - X / Y
-     - Integer
-     - Defines the coordinates for the top left-hand corner of the box (coordinates are based on the project dimension settings)
-   * - Width
-     - Integer
-     - Defines the width in pixels
-   * - Height
-     - Integer
-     - Defines the height in pixels
-   * - Thickness
-     - Integer
-     - Defines the thickness of the line in pixels. If set high enough the box is filled.
    * - Color
      - Picker
      - Defines the color for the box
+   * - Replace color and alpha
+     - Switch
+     - If the input has alpha, checking this	will overwrite the video's color and alpha pixels with the pixels of the painted box. By default (off), the box will be composited onto the input, leaving the video's alpha intact.
+   * - Top-left X / Y
+     - Integer
+     - Defines the coordinates for the top left-hand corner of the box (coordinates are based on the project dimension settings)
+   * - Width (px)
+     - Integer
+     - Defines the width in pixels
+   * - Height (px)
+     - Integer
+     - Defines the height in pixels
+   * - Thickness (px)
+     - Integer
+     - Defines the thickness of the line in pixels. If set high enough, the box is essentially filled.

@@ -13,11 +13,11 @@
 Vignette Effect
 ===============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vignette_effect.webp
+.. figure:: /images/effects_and_compositions/effects-vignette_effect-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vignette_effect
+   :alt: effects-vignette_effect-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Vignette Effect
 
@@ -55,18 +55,18 @@ This effect/filter creates an adjustable vignette. It is similar to the :doc:`/e
    * - Parameter
      - Value
      - Description
-   * - use cos instead of linear
+   * - Use cos instead of linear
      - Switch
      - If selected makes the fall-off area appear denser by applying a cosine curve instead of a linear function
-   * - smooth
-     - Integer
+   * - Smooth
+     - Percentage
      - Set the size of the fall-off area. Higher values make the center darker and the edges lighter. If **smooth** is set to zero, the vignette is like a black matte with a distinct edge.
-   * - radius
+   * - Radius
      - Integer
      - Set the radius of the vignette
-   * - x / y
+   * - Center X / Y
      - Integer
      - Define the X and Y coordinates for the center point of the vignette (X = 0, Y = 0 defines the top-left corner of the screen)
-   * - opacity
+   * - Transparency
      - Integer
-     - Set the :term:`opacity` of the black parts of the vignette
+     - Set the transparency of the black parts of the vignette

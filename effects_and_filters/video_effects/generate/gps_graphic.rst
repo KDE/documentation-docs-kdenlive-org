@@ -177,9 +177,9 @@ The following options for :guilabel:`Graph color style` are available:
    <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time" target="_blank">this article about UTC</a>
 
 
-.. [1] UTC is short for Coordinated Universal Time and is the primary time standard by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia for more details.
+.. [1] UTC is short for Coordinated Universal Time (Universal Time Coordinated) and is the primary time standard by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia for more details.
 
-.. [2] Note: for type **1** (follow centered dot): (a) crop values are only valid as a percentage and only the bottom (resp left) values will be taken into consideration as both values (ie: bot/top) will need to be equal to keep the dot centered; (b) if data source is not **GPS location**, the centering will only be done for horizontal axis (time), vertical axis crop will behave just like for the type **0** (it will statically keep the same min/max limit allowing the now_dot to move up and down).
+.. [2] Note: for type **1** (follow centered dot): (a) crop values are only valid as a percentage and only the bottom (respective left) values will be taken into consideration as both values (ie: bot/top) will need to be equal to keep the dot centered; (b) if data source is not **GPS location**, the centering will only be done for horizontal axis (time), vertical axis crop will behave just like for the type **0** (it will statically keep the same min/max limit allowing the now_dot to move up and down).
 
 .. [3] Note: for the horizontal type, absolute values are the longitude (for the location source type) and time (in milliseconds since epoch) for the rest of the data source types.
 
@@ -187,24 +187,6 @@ The following options for :guilabel:`Graph color style` are available:
 
 
 .. Differences to the MLT documentation:
-
-   * **GPS File/URL** - The full path of file containing location (GPS) data. Supported extensions: .gpx, .tcx.
-
-   * **Crop top / bottom** are called Crop right / left
-
-   * **Colours** - filter seems to support multiple colour: Multiple colours can be specified with incrementing suffixes to cause the line to be drawn in a specific way (ie: gradient or past/future). By default, the filter has 5 colors (blue, green, yellow, orange, red):
-      color.1 = #ff00aaff
-      color.2 = #ff00e000
-      color.3 = #ffffff00
-      color.4 = #ffff8c00
-      color.5 = #ffff0000
-   A color value is a hexadecimal representation of RGB plus alpha channel as 0xrrggbbaa. Colors can also be the words: white, black, red, green, or blue. You can also use a HTML-style color values #rrggbb or #aarrggbb.
-
-   * **Legend unit** - Sets the unit to be used for displaying values of type altitude and speed. Default is meters and km/h respectively. The unit is matched anywhere in the string so extra spaces can be used to tweak displaying. Supported formats, distance: m|meter, km|kilometer, mi|mile, ft|feet, nm|nautical*; speed: ms|m/s|meter, km|km/h|kilometer, mi|mi/h|mile, ft|ft/s|feet, kn|nm/h|knots.
-
-   * **Rectangle** - Defines the rectangle that the graph should be drawn in. Format is: "X Y W H". X, Y, W, H are assumed to be pixel units unless they have the suffix '%'.
-
-   * **Background image** - If a valid image file is selected it will be used as a background for the rect area. Paths starting with the "!" character are ignored. TIP: use a map image to add context to the GPS track.
 
    * **GPS start time** - Date and time of the first valid GPS point
 
