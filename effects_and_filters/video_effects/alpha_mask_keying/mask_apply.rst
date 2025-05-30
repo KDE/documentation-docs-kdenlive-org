@@ -17,11 +17,11 @@
 Mask Apply
 ==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-sec_color_corr_area_select.webp
+.. figure:: /images/effects_and_compositions/effects-mask_apply-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-sec_color_corr_area_select
+   :alt: effects-mask_apply-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Mask Apply
 
@@ -47,8 +47,14 @@ Mask Apply
 
 Apply the previous effects starting with an effect with "(Mask)" in its name.
 
+.. rubric:: Note
 
-.. rubric:: Notes
+.. figure:: /images/effects_and_compositions/effects-mask_apply_example-2504.webp
+   :width: 365px
+   :figwidth: 365px
+   :align: left
+   :alt: effects-mask_apply_example-2504.webp
+
 
 This is a very powerful effect function as it does not do anything itself but instruct Kdenlive to apply the effects beginning with the (Mask) effect only to the area defined by that (Mask) effect.
 

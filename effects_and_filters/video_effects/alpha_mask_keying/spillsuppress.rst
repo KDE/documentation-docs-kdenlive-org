@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Spill Suppress
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha, mask, keying, key, chroma, greenscreen, bluescreen, spill, supress, suppress
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha, mask, keying, key, chroma, greenscreen, bluescreen, spill, suppress
 
 .. metadata-placeholder
 
@@ -17,11 +17,11 @@
 Spill Suppress
 ==============
 
-.. figure:: /images/effects_and_compositions/kdenlive2308_effects-spillsupress.webp
+.. figure:: /images/effects_and_compositions/effects-spillsuppress-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2308_effects-spillsupress
+   :alt: effects-spillsuppress-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Spill Suppress
 
@@ -59,8 +59,6 @@ Remove green or blue spill light from subjects shot in front of green or blue sc
    * - Parameter
      - Value
      - Description
-   * - supresstype
-     - Float
+   * - Supress Type
+     - Selection
      - Defines if green or blue screen spill suppress is applied
-
-.. note:: The slider for :guilabel:`supresstype` is shown with a float value: 0.000 means no spillsupress, 0.500 means green screen spill suppress, 1.000 means blue screen spill suppress

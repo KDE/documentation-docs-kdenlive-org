@@ -26,7 +26,7 @@
 Alpha Shapes
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2308_effects-alpha_shapes.webp
+.. figure:: /images/effects_and_compositions/effects-alpha_shapes-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left

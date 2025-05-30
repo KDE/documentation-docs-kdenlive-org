@@ -17,11 +17,11 @@
 Bluescreen0r
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-bluescreen0r.webp
+.. figure:: /images/effects_and_compositions/effects-bluescreen0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-bluescreen0r
+   :alt: effects-bluescreen0r-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Alpha Strobing
 

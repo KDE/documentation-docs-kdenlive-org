@@ -17,11 +17,11 @@
 Obscure
 -------
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-obscure.webp
+.. figure:: /images/effects_and_compositions/effects-obscure-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-obscure
+   :alt: effects-obscure-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Obscure
 
@@ -59,7 +59,13 @@ Hide a region of the clip by pixelizing it (obscure). The effect's pixelization 
    * - Parameter
      - Value
      - Description
-   * - Size
+   * - Position X / Y
+     - Integer
+     - X and Y coordinates of the area (in pixels) to be obscured (pixelated)
+   * - Size W / H
+     - Integer
+     - Width and Height of the area (in pixels) to be obscured (pixelated)
+   * - Scale
      - Percentage
      - Determines the size of the area. Can also be changed via the rectangle's coordinates and dimensions.
 
@@ -75,6 +81,8 @@ Hide a region of the clip by pixelizing it (obscure). The effect's pixelization 
    Obscure effect panel and results (default settings)
 
 Use the handles on the red rectangle\ [1]_ in the Project Monitor to change the size: use the center handle to move the rectangle around.
+
+The `Align` buttons can be used to align the red rectangle wih the left, vertical center, right, top, horizontal center, bottom edge of the clip, respectively. You can also adjust to original size, adjust to and center in frame, fit width, and fit height.
 
 .. rst-class:: clear-both
 

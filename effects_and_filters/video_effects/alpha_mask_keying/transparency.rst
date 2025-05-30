@@ -21,11 +21,11 @@
 Transparency
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-transparency.webp
+.. figure:: /images/effects_and_compositions/effects-transparency-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-transparency
+   :alt: effects-transparency-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Transparency
 

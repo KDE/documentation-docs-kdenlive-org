@@ -14,11 +14,11 @@
 Key Spill Mop Up
 ================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-key_spill_mop_up.webp
+.. figure:: /images/effects_and_compositions/effects-key_spill_mop_up-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-key_spill_mop_up
+   :alt: effects-key_spill_mop_up-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Key Spill Mop-up
 

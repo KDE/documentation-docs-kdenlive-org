@@ -13,18 +13,18 @@
 Shape Alpha (Mask)
 ==================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-shape_alpha_mask.webp
+.. figure:: /images/effects_and_compositions/effects-shape_alpha_mask-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-shape_alpha_mask
+   :alt: effects-shape_alpha_mask-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Shape Alpha (Mask)
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       MLT
    :**Source filter**:
@@ -60,9 +60,6 @@ This effect essentially works like the :doc:`Shape Alpha </effects_and_filters/v
    * - Image or video resource
      - File Selection
      - Select the file (image or video) to be used as the mask
-   * - Threshold
-     - Percentage
-     - Sets the threshold for making opaqueness and transparency. Values below the value are made opaque, values above transparent.
    * - Softness
      - Float
      - When using Threshold determines how soft to make the edge around the threshold. Similar to :abbr:`feathering (Smoothing or blurring the edges of a feature)`. 0.0 means no softness (hard edge), 1.0 means very soft (default is 0.10).
@@ -75,6 +72,15 @@ This effect essentially works like the :doc:`Shape Alpha </effects_and_filters/v
    * - Use Threshold
      - Switch
      - Use the Threshold value
+   * - Offset
+     - Timecode
+     - Start position of the mask file
+   * - Out
+     - Timecode
+     - End position of the mask file
+   * - Threshold
+     - Percentage
+     - Sets the threshold for making opaqueness and transparency. Values below the value are made opaque, values above transparent.
 
 
 .. rubric:: Notes

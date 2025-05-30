@@ -21,11 +21,11 @@
 Spot Remover
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-spot_remover.webp
+.. figure:: /images/effects_and_compositions/effects-spot_remover-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-spot_remover
+   :alt: effects-spot_remover-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Spot Remover
 

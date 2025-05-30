@@ -23,7 +23,7 @@
 Chroma Key: Basic
 =================
 
-.. figure:: /images/effects_and_compositions/kdenlive2308_effects-chroma_key.webp
+.. figure:: /images/effects_and_compositions/effects-chroma_key_basic-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left

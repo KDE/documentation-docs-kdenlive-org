@@ -29,11 +29,11 @@ Motion Tracker
 ==============
 .. .. versionadded:: 19.04.0
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-motion_tracker.webp
+.. figure:: /images/effects_and_compositions/effects-motion_tracker-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-motion_tracker
+   :alt: effects-motion_tracker-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Motion Tracker
 

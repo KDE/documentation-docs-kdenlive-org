@@ -19,7 +19,7 @@
 Chroma Key: Advanced
 ====================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-chroma_key_advanced.webp
+.. figure:: /images/effects_and_compositions/effects-chroma_key_advanced-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -68,7 +68,7 @@ This is better for backgrounds that have less contrast with the foreground or fo
      - When ON (default), the selected color will be transparent. When OFF the selected color will be opaque. Keeping the selected color opaque may be more effective if the foreground is simple and the background is complicated.
    * - Color Model\ [1]_
      - Selection
-     - These different options yield different results. While RGB should yield the sharpest and best results, sometimes the other options HCI and ABI can yield much better results than RGB. So if RGB is not producing good results then try one of the other options.
+     - These different options yield different results. While RGB should yield the sharpest and best results, sometimes the other options HCI and ABI can yield much better results than RGB. So if RGB is not producing good results, try one of the other options.
    * - Shape
      - Selection
      - Determines the shape for subspace selection
@@ -107,7 +107,7 @@ The following selection items are available:
    * - HCI
      - Hue Chromacity Intensity
 
-.. tip:: These different options yield different results. While **RGB** should yield the sharpest and best results, sometimes the other options **HCI** and **ABI** can yield much better results than **RGB**. So if **RGB** is not producing good results then try one of the other options.
+.. tip:: These different options yield different results. While **RGB** should yield the sharpest and best results, sometimes the other options **HCI** and **ABI** can yield much better results than **RGB**. So if **RGB** is not producing good results, try one of the other options.
 
 .. note:: Previews of video clips that were chroma keyed using **HCI** will be slow since values for every single pixel have to be calculated. Either lower the Project Monitor playback resolution or use the Preview Render function.
 

@@ -16,7 +16,7 @@
 Alpha Gradient
 ==============
 
-.. figure:: /images/effects_and_compositions/kdenlive2308_effects-alpha_gradient.webp
+.. figure:: /images/effects_and_compositions/effects-alpha_gradient-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -58,22 +58,22 @@ Fill the alpha channel with a specified gradient (frei0r.alphagrad)\ [1]_. Its p
      - Description
    * - Operation
      - Selection
-     - Defines the compositing operation
+     - Defines the compositing operation (see list below)
    * - Position
      - Integer
-     - Position where the gradient starts (range is 0-1000, default is 500)
+     - Position where the gradient starts (default is half the project vertical resolution)
    * - Transition width
-     - Integer
-     - Width of the gradient (range is 0-1000, default is 500)
+     - Percentage
+     - Width of the gradient (default is 505)
    * - Tilt
-     - Integer
-     - Rotation of the gradient (range is 0-1000, default is 500). Values below 500 rotate counter clockwise, values above rotate clockwise. 0 means a rotation of -180 degrees, 1000 a rotation of +180 degrees.
-   * - Min
-     - Integer
-     - Sets the density at the bottom / start of the gradient (range is 0-1000, default is 0)
-   * - Max
-     - Integer
-     - Sets the density at the top / end of the gradient (range is 0-1000, default is 1000)
+     - Degrees
+     - Rotation of the gradient in degrees (range is 0-360, default is 0)
+   * - Transparency top
+     - Percentage
+     - Sets the transparency at the top / start of the gradient (default is 100% for full transparency)
+   * - Transparency bottom
+     - Percentage
+     - Sets the transparency at the bottom / end of the gradient (default is 0% for no transparency)
 
 The following selection items are available:
 
