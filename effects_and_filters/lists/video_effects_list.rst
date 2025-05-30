@@ -96,7 +96,7 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Blur and Sharpen
      - Apply average blur filter (|avfilter.avgblur|)
-   * - :doc:`/effects_and_filters/video_effects/misc/backgroundkey` 
+   * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/backgroundkey` 
      - |appimage|\ |windows|\ |apple|
      - Misc
      - Turns a static background into transparency. (|avfilter.backgroundkey|)
@@ -476,7 +476,7 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Adjust hue, saturation and lightness for a range of hue values. (|hslrange|)
-   * - :doc:`/effects_and_filters/video_effects/misc/hsvkey` 
+   * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/hsvkey` 
      - |appimage|\ |windows|\ |apple|
      - Misc
      - Turns a certain HSV range into transparency. Operates on YUV colors. (|avfilter.hsvkey|)
@@ -484,11 +484,11 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Shifts the hue of a source image (|frei0r.hueshift0r|)
-   * - :doc:`/effects_and_filters/video_effects/misc/huesaturation` 
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/huesaturation` 
      - |appimage|\ |windows|\ |apple|
      - Misc
      - Apply hue-saturation-intensity adjustments. (|avfilter.huesaturation|)
-   * - :doc:`/effects_and_filters/video_effects/misc/hsvhold` 
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/hsvhold` 
      - |appimage|\ |windows|\ |apple|
      - Misc
      - Turns a certain HSV range into gray. (|avfilter.hsvhold|)
@@ -736,7 +736,7 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Generate
      - Interlaced black lines (|frei0r.scanline0r|)
-   * - :doc:`/effects_and_filters/video_effects/misc/scharr` 
+   * - :doc:`/effects_and_filters/video_effects/stylize/scharr` 
      - |appimage|\ |windows|\ |apple|
      - Misc
      - Apply scharr operator. (|avfilter.scharr|)
