@@ -45,12 +45,12 @@ This effect/filter extracts the alpha component from the input as a grayscale vi
 
 .. rst-class:: clear-both
 
-If the source does not have an alpha channel the following error comes up:
+If the source does not have an alpha channel, the following error message comes up:
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-alphaextract_error.webp
+.. figure:: /images/effects_and_compositions/effects-alphaextract_error-2504.webp
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-alphaextract_error
+   :alt: effects-alphaextract_error-2504.webp
 
    Alphaextract effect error message
