@@ -38,7 +38,7 @@ The following effects and filters manipulate or use the alpha channel:
 * :doc:`/effects_and_filters/video_effects/alpha_mask_keying/lumakey`
 * :doc:`/effects_and_filters/video_effects/misc/alphaextract`
 * :doc:`/effects_and_filters/video_effects/misc/alphamerge`
-* :doc:`/effects_and_filters/video_effects/misc/backgroundkey`
+* :doc:`/effects_and_filters/video_effects/alpha_mask_keying/backgroundkey`
 * :doc:`Premultiply </effects_and_filters/video_effects/alpha_mask_keying/premultiply>`
 * :doc:`/effects_and_filters/video_effects/alpha_mask_keying/transparency`
 
@@ -54,4 +54,4 @@ The following effects and filters create an alpha channel:
 * :doc:`Rect. Alpha Mask </effects_and_filters/video_effects/alpha_mask_keying/rectangular_alpha_mask>`
 * :doc:`/effects_and_filters/video_effects/alpha_mask_keying/rotoscoping`
 * :doc:`/effects_and_filters/video_effects/alpha_mask_keying/shape_alpha`
-* :doc:`/effects_and_filters/video_effects/misc/hsvkey`
+* :doc:`/effects_and_filters/video_effects/alpha_mask_keying/hsvkey`

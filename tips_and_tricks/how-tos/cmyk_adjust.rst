@@ -19,10 +19,10 @@ This how-to is about applying :term:`CMYK` correction to specific color ranges u
 
 Naturally, digital video footage uses the :abbr:`RGB (Red Green Blue)` :term:`color space`. But :doc:`/effects_and_filters/video_effects/color_image_correction/CMYK_adjust` in addition has parameters (or sliders) for Cyans, Magentas, Yellows, and Whites, Neutrals and Blacks.
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-cmyk_adjust.webp
+.. figure:: /images/effects_and_compositions/effects-cmyk_adjust-2504.webp
    :align: left
    :width: 350px
-   :alt: kdenlive2304_effects-cmyk_adjust.webp
+   :alt: effects-cmyk_adjust-2504.webp
 
    CMYK Adjust effect
 

@@ -19,11 +19,11 @@ A photo or image will show a white or color-neutral object with a hue based on t
 
 In case your equipment did not set the white balance correctly you can use the :doc:`/effects_and_filters/video_effects/color_image_correction/white_balance` or :doc:`/effects_and_filters/video_effects/color_image_correction/white_balance_lms` effects to eliminate any incorrect hues. In this tutorial we are using the :doc:`/effects_and_filters/video_effects/color_image_correction/white_balance_lms` effect. LMS stands for long, medium and short and is a color space which represents the response of the three types of cones of the human eye, named for the responsiveness (sensitivity) peaks at long, medium, and short wavelengths.
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-white_balance_lms.webp
+.. figure:: /images/effects_and_compositions/effects-white_balance_lms-2504.webp
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-white_balance_lms
+   :alt: effects-white_balance_lms-2504.webp
 
    White Balance (LMS space) effect
 
