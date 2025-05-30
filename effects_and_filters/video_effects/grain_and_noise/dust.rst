@@ -13,11 +13,11 @@
 Dust
 ====
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-dust.webp
+.. figure:: /images/effects_and_compositions/effects-dust-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-dust
+   :alt: effects-dust-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Dust
 
@@ -41,7 +41,7 @@ Dust
 
 .. rubric:: Description
 
-This effect/filter makes random dust particles appear across the image source. This gives the video an old film look. See also the :doc:`/effects_and_filters/video_effects/stylize/oldfilm` and :doc:`/effects_and_filters/video_effects/grain_and_noise/scratchlines` effects.
+This effect/filter makes random dust particles appear across the image source. This gives the video an old film look. See also the :doc:`/effects_and_filters/video_effects/stylize/oldfilm`, :doc:`/effects_and_filters/video_effects/grain_and_noise/filmgrain`, and :doc:`/effects_and_filters/video_effects/grain_and_noise/scratchlines` effects.
 
 
 .. rubric:: Parameters
@@ -55,9 +55,9 @@ This effect/filter makes random dust particles appear across the image source. T
    * - Parameter
      - Value
      - Description
-   * - Maximal Diameter
+   * - Maximum diameter
      - Percentage
      - Sets the maximum size of (the underlying .png file for) the dust particles
-   * - Maximal number of dust
+   * - Maximum number of particles
      - Integer
      - Sets the maximum number of dust particles

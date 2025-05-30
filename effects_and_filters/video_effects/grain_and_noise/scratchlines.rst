@@ -13,11 +13,11 @@
 Scratchlines
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-scratchlines.webp
+.. figure:: /images/effects_and_compositions/effects-scratchlines-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-scratchlines
+   :alt: effects-scratchlines-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Scratchlines
 
@@ -55,7 +55,7 @@ This effect/filter generates scratch lines over the image source. Can be used in
    * - Parameter
      - Value
      - Description
-   * - Width of lines
+   * - Width of line
      - Integer
      - Sets the width of the scratch lines
    * - Max number of lines

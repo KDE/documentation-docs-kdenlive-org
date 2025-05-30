@@ -13,11 +13,11 @@
 Denoiser
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-denoiser.webp
+.. figure:: /images/effects_and_compositions/effects-denoiser-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-denoiser
+   :alt: effects-denoiser-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Denoiser
 

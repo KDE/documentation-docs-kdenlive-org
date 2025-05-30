@@ -13,11 +13,11 @@
 Chroma Noise Reduction
 ======================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-chroma_noise_reduction.webp
+.. figure:: /images/effects_and_compositions/effects-chroma_noise_reduction-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-chroma_noise_reduction
+   :alt: effects-chroma_noise_reduction-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Chroma Noise Reduction
 
@@ -57,7 +57,7 @@ This effect/filter reduces :term:`chrominance` noise.
      - Description
    * - Y+U+V Threshold
      - Integer
-     - Set threshold for averaging chrominance values. Sum of absolute difference of Y, U and V pixel components of current pixel and neighbour pixels lower than this threshold will be used in averaging. :term:`Luma<luma>` component is left unchanged and is copied to output. Default value is 30. Allowed range is from 1 to 200.
+     - Set threshold for averaging chrominance values. Sum of absolute difference of Y, U and V pixel components of current pixel and neighbor pixels lower than this threshold will be used in averaging. :term:`Luma<luma>` component is left unchanged and is copied to output. Default value is 30. Allowed range is from 1 to 200.
    * - Horizontal / Vertical size
      - Integer
      - Set horizontal / vertical radius of rectangle used for averaging. Allowed range is from 1 to 100. Default value is 5.
@@ -66,7 +66,7 @@ This effect/filter reduces :term:`chrominance` noise.
      - Set horizontal step when averaging. Default value is 1. Allowed range is from 1 to 50. Mostly useful to speed-up filtering.
    * - Y / U / V threshold
      - Integer
-     - Set Y / U / V threshold for averaging chrominance values. Set finer control for max allowed difference between Y / U / V components of current pixel and neighbour pixels. Default value is 200. Allowed range is from 1 to 200.
+     - Set Y / U / V threshold for averaging chrominance values. Set finer control for max allowed difference between Y / U / V components of current pixel and neighbor pixels. Default value is 200. Allowed range is from 1 to 200.
    * - Distance
      - Selection
      - Set distance type used in calculations

@@ -13,18 +13,18 @@
 Video Noise Generator
 =====================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-video_noise_generator.webp
+.. figure:: /images/effects_and_compositions/effects-video_noise_generator-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-video_noise_generator
+   :alt: effects-video_noise_generator-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Video Noise Generator
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      None
+      Yes
    :**Source library**:
       avfilter
    :**Source filter**:

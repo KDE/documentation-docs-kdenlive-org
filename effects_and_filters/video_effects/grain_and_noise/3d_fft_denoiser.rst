@@ -13,11 +13,11 @@
 3D FFT Denoiser
 ===============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-3d_fft_denoiser.webp
+.. figure:: /images/effects_and_compositions/effects-3d_fft_denoiser-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-3d_fft_denoiser
+   :alt: effects-3d_fft_denoiser-2504.webp
 
 .. sidebar:: |kdenlive-show-video| 3D FFT Denoiser
 
@@ -67,6 +67,9 @@ This effect/filter denoises frames using 3D FFT (Fast Fourier Transform) frequen
    * - Overlap
      - Float
      - Set block overlap. Default is 0.5. Allowed range is from 0.2 to 0.8.
+   * - Method
+     - Selection
+     - Set denoising method
    * - Add previous frame to temporal denoise
      - Switch
      - Check to include previous frame in denoising. Default is off.
@@ -78,6 +81,18 @@ This effect/filter denoises frames using 3D FFT (Fast Fourier Transform) frequen
      - Set :term:`planes<plane>` which will be filtered, by default all available are filtered except alpha.
 
 The following selection items are available:
+
+:guilabel:`Method`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Wiener
+     - Default
+   * - Hard
+     - 
 
 :guilabel:`Planes`
 
@@ -100,10 +115,8 @@ The following selection items are available:
      - 
    * - UV
      - 
-   * - YUV
+   * - All
      - Default
-   * - Alpha
-     - 
 
 
 ----

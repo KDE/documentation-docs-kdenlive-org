@@ -13,11 +13,11 @@
 Median
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-median.webp
+.. figure:: /images/effects_and_compositions/effects-median-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-median
+   :alt: effects-median-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Median
 
@@ -57,7 +57,7 @@ This effect/filter picks the median pixel from a given rectangle defined by :gui
      - Description
    * - Planes
      - Selection
-     - Sets which :term:`planes<plane>` to process.
+     - Sets which :term:`planes<plane>` to process. Default is **All**.
    * - Spatial sigma
      - Float
      - Sets the horizontal radius size. Allowed values are from 1.000 to 127.000, default is 1.
