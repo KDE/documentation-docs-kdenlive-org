@@ -13,11 +13,11 @@
 VR360 Equirectangular to Stereo
 ===============================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_equi2stereo.webp
+.. figure:: /images/effects_and_compositions/effects-vr360_equi2stereo-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vr360_equi2stereo
+   :alt: effects-vr360_equi2stereo-2504.webp
 
 .. sidebar:: |kdenlive-show-video| VR360 Equirectangular to Stereo
 
@@ -41,7 +41,7 @@ VR360 Equirectangular to Stereo
 
 .. rubric:: Description
 
-This effect/filter projects a stereographic image from an equirectangular. Use this to create the "Little Planet" effect from VR360 footage.
+This effect/filter projects a stereographic image from an equirectangular source. Use this to create the "Little Planet" effect from VR360 footage.
 
 
 
@@ -59,14 +59,14 @@ This effect/filter projects a stereographic image from an equirectangular. Use t
    * - Interpolation
      - Selection
      - Choose the interpolation algorithm
-   * - yaw
-     - Integer
+   * - Yaw
+     - Degree
      - Defines the direction of view left or right
-   * - pitch
-     - Integer
+   * - Pitch
+     - Degree
      - Defines the direction of view up or down
-   * - roll
-     - Integer
+   * - Roll
+     - Degree
      - Defines the direction of view like tilting your head left or right
    * - FOV
      - Integer

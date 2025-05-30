@@ -13,11 +13,11 @@
 VR360 Transform
 ===============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_transform.webp
+.. figure:: /images/effects_and_compositions/effects-vr360_transform-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vr360_transform
+   :alt: effects-vr360_transform-2504.webp
 
 .. sidebar:: |kdenlive-show-video| VR360 Transform
 
@@ -58,13 +58,13 @@ This effect/filter rotates a panoramic image.
    * - Interpolation
      - Selection
      - Choose the interpolation algorithm
-   * - yaw
+   * - Yaw
      - Integer
      - Defines the direction of view left or right
-   * - pitch
+   * - Pitch
      - Integer
      - Defines the direction of view up or down
-   * - roll
+   * - Roll
      - Integer
      - Defines the direction of view like tilting your head left or right
 

@@ -13,11 +13,11 @@
 VR360 Stabilize
 ===============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_stabilize.webp
+.. figure:: /images/effects_and_compositions/effects-vr360_stabilize-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vr360_stabilize
+   :alt: effects-vr360_stabilize-2504.webp
 
 .. sidebar:: |kdenlive-show-video| VR360 Stabilize
 
@@ -60,29 +60,32 @@ The filter works in two phases: analysis and stabilization. When analyzing foota
    * - Analyze
      - Switch
      - Switch on for analysis phase, switch off for stabilization
-   * - Motion Analysis File
+   * - Motion analysis file
      - 
      - Path to file that will be used to store the analysis data
-   * - Analysis Sample Radius
+   * - Start offset
+     - Float
+     - The offset into the stabilization file that corresponds to the start of this clip. For example, if you have a 30 second clip, analyze it all, and then split it into three clips of 10 seconds each, then the start offsets should be 0s, 10s, and 20s
+   * - Analysis sample radius
      - Integer
      - The radius of the square that the stabilizer will sample.
-   * - Analysis Search Radius
+   * - Analysis search radius
      - Integer
      - The maximum amount of motion the stabilizer will detect.
-   * - Analysis Offset
+   * - Analysis offset
      - Integer
      - The distance between the track points.
-   * - Track Points
+   * - Use backwards-facing track point
      - Switch
-     - When checked, the filter will apply the frame-to-frame transform in order to show the quality of the analysis. When you are satisfied with the analysis quality you can turn this off, as it adds approximately 50% to the analysis time.
-   * - Yaw / Pitch / Roll Amount
-     - Integer
+     - If set, six backwards-facing track points will also be used to detect pitch and yaw motion. Disable if, for example, you show up holding the camera there.
+   * - Yaw / Pitch / Roll amount
+     - Percentage
      - The amount of stabilization to apply. 100% means that the stabilizer will make the camera as steady as it can. Smaller values reduce the amount of stabilization.
-   * - Yaw / Pitch / Roll Smoothing
+   * - Yaw / Pitch / Roll smoothing
      - Integer
      - The number of frames to use to smooth out the shakes. The higher the value, the slower the camera will follow any intended motion.
-   * - Yaw / Pitch / Roll Time Bias
-     - Integer
+   * - Yaw / Pitch / Roll time bias
+     - Percentage
      - Shift the frames used to smooth out the shakes relative to the stabilized frame. A value less than zero will give more weight to past frames, and the camera will seem to lag behind intended movement. A value greater than zero will give more weight to future frames, and the camera will appear to move ahead of the intended camera movement. A value of zero should make the camera follow the intended path.
    * - Interpolation
      - Selection

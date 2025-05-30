@@ -14,15 +14,19 @@
 
    <a href="https://stackoverflow.com/questions/11552565/vertically-or-horizontally-stack-mosaic-several-videos-using-ffmpeg" target="_blank">ffmpeg</a>
 
+.. |hugin| raw:: html
+
+   <a href="https://hugin.sourceforge.io/" target="_blank">Hugin</a>
+
 
 VR360 Hemispherical to Equirectangular
 ======================================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_hemi2equi.webp
+.. figure:: /images/effects_and_compositions/effects-vr360_hemi2equi-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vr360_hemi2equi
+   :alt: effects-vr360_hemi2equi-2504.webp
 
 .. sidebar:: |kdenlive-show-video| VR360 Hemispherical to Equirectangular
 
@@ -72,7 +76,10 @@ The plugin assumes that both hemispheres are in the frame. If you have a camera 
      - Description
    * - Projection
      - Selection
-     - The fisheye projection type
+     - The fisheye projection type. Currently only equidistant fisheyes, like the Ricoh Theta and Garmin Virb360 are supported.
+   * - Use sensor response parameters
+     - Switch
+     - Switch on to use sensor response parameters (see EMoR h(x) parameters below)
    * - Interpolation
      - Selection
      - Determines the sampling method
@@ -100,6 +107,21 @@ The plugin assumes that both hemispheres are in the frame. If you have a camera 
    * - Nadir Radius / Start
      - Float
      - Adjust the :abbr:`nadir (direction pointing directly below a particular location)` of the camera if you have parts of the camera or equipment in the image
+   * - Lens distortion A / B / C
+     - Float
+     - Lens distortion correction parameters. The first three parameters are the same as in |hugin|.
+   * - Lens distortion radius
+     - Float
+     - Lens distortion correction parameters. If you use |hugin| parameters, the Radius should be set to the value of (0.5 * min(image width, image height) / image width). For a 2:1 aspect dual hemispherical image, that would be 0.25.
+   * - Lens vignetting A / B / C / D
+     - Float
+     - Lens vignetting correction parameters. The first four parameters are the same as in |hugin|, corresponding to the V\ :sub:`a` , V\ :sub:`b` , V\ :sub:`c` , and V\ :sub:`d` image parameters.
+   * - Lens vignetting radius
+     - Float
+     - If you use Hugin parameters, the radius should be set to the value of (0.5 * image diagonal / image width). For a 2:1 aspect dual hemispherical image, that would be 0.5590. Use the :kbd:`A` parameter to scale the effect and avoid overexposing highlights.
+   * - EMoR h(1 / 2 / 3 / 4 / 5)
+     - Float
+     - Sensor response parameters. The EMoR h(x) parameters are the same as |hugin|'s R\ :sub:`a` - R\ :sub:`e` in the lens parameters. If you use |hugin|-derived values for vignetting correction, you should also use these parameters, as |hugin|'s vignetting correction assumes that the sensor response has been corrected.
 
 
 The following selection items are available:

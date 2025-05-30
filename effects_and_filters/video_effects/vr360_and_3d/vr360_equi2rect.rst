@@ -13,11 +13,11 @@
 VR360 Equirectangular to Rectilinear
 ====================================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_equi2rect.webp
+.. figure:: /images/effects_and_compositions/effects-vr360_equi2rect-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vr360_equi2rect
+   :alt: effects-vr360_equi2rect-2504.webp
 
 .. sidebar:: |kdenlive-show-video| VR360 Equirectangular to Rectilinear
 
@@ -58,21 +58,21 @@ This effect/filter converts an equirectangular frame (panoramic) to a rectilinea
    * - Interpolation
      - Selection
      - Choose the interpolation algorithm
-   * - yaw
-     - Integer
+   * - Yaw
+     - Degree
      - Defines the direction of view left or right
-   * - pitch
-     - Integer
+   * - Pitch
+     - Degree
      - Defines the direction of view up or down
-   * - roll
-     - Integer
+   * - Roll
+     - Degree
      - Defines the direction of view like tilting your head left or right
-   * - fov
-     - Integer
-     - Field of View (the wider the angle the wider/zoomed out the view)
-   * - fisheye
+   * - FOV
+     - Degree
+     - The horizontal field of view, in degrees, of the resulting frame. Any value over 179 results in a fisheye projection.
+   * - Fisheye
      - Percent
-     - Fisheye lens compensation
+     - The amount of fisheye to mix in. 100% means that you get a 100% fisheye lens.
 
 
 The following selection items are available:

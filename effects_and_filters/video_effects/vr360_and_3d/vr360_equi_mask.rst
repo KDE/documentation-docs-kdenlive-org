@@ -13,11 +13,11 @@
 VR360 Equirectangular Mask
 ==========================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_equi_mask.webp
+.. figure:: /images/effects_and_compositions/effects-vr360_equi_mask-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vr360_equi_mask
+   :alt: effects-vr360_equi_mask-2504.webp
 
 .. sidebar:: |kdenlive-show-video| VR360 Equirectangular Mask
 
@@ -59,10 +59,10 @@ This effect/filter adds a black matte to the frame. Use this if you filmed using
      - Selection
      - Choose the interpolation algorithm
    * - Vertical Start / End
-     - Integer
+     - Degree
      - Define the vertical FOV (field of vision). **Start** defines the width in degrees of the un-matted area; **End** is the width in degrees where the matte is 100%.
    * - Horizontal Start / End
-     - Integer
+     - Degree
      - Define the horizontal FOV. **Start** is half the height in degrees of the un-matted area; **End** is half the height in degrees where the matte is 100%.
 
 

@@ -13,11 +13,11 @@
 VR360 Rectilinear to Equirectangular
 ====================================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vr360_rect2equi.webp
+.. figure:: /images/effects_and_compositions/effects-vr360_rect2equi-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vr360_rect2equi
+   :alt: effects-vr360_rect2equi-2504.webp
 
 .. sidebar:: |kdenlive-show-video| VR360 Rectilinear to Equirectangular
 
@@ -41,7 +41,7 @@ VR360 Rectilinear to Equirectangular
 
 .. rubric:: Description
 
-This effect/filter converts a rectilinear (a normal-looking) image to an equirectangular image. Use this together with Transform 360 to place "normal" footage in a 360 movie. It is the opposite of the :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_equi2rect` effect.
+This effect/filter converts a rectilinear (a normal-looking) image to an equirectangular image. Use this together with :doc:`VR360 Transform</effects_and_filters/video_effects/vr360_and_3d/vr360_transform>` to place "normal" footage in a 360 movie. It is the opposite of the :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_equi2rect` effect.
 
 
 .. rubric:: Parameters
@@ -58,11 +58,11 @@ This effect/filter converts a rectilinear (a normal-looking) image to an equirec
    * - Interpolation
      - Selection
      - Choose the interpolation algorithm
-   * - Vertical Start
-     - Integer
+   * - Width
+     - Degree
      - Determines the vertical FOV\ [2]_
-   * - Horizontal Start
-     - Integer
+   * - Height
+     - Degree
      - Determines the horizontal FOV\ [2]_
 
 
