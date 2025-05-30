@@ -23,11 +23,11 @@
 Chroma Hold
 ===========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-chroma_hold.webp
+.. figure:: /images/effects_and_compositions/effects-chroma_hold-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-chroma_hold
+   :alt: effects-chroma_hold-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Chroma Hold
 
@@ -65,18 +65,18 @@ This effect removes all color information for all colors except the selected one
    * - Parameter
      - Value
      - Description
+   * - YUV color
+     - Switch
+     - Select this if the clip has YUV data instead of RGB
+   * - Color key
+     - Picker
+     - Select the color to be preserved (held) using the |color-picker| color picker or by clicking the color bar
    * - Similarity
      - Float
      - Similarity percentage with the selected color. 0.01 matches only the exact key color, 1.0 matches everything.
    * - Blend
      - Float
      - Blend percentage. 0.0 makes pixels either fully grey, or not grey at all. Higher values result in more preserved color
-   * - For YUV color
-     - Switch
-     - Select this if the clip has YUV data instead of RGB
-   * - Color key
-     - Picker
-     - Select the color to be preserved (held) using the |color-picker| color picker or by clicking the color bar
 
 .. rst-class:: clear-both
 

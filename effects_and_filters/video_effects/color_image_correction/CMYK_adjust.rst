@@ -11,11 +11,11 @@
 CMYK Adjust
 ===========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-cmyk_adjust.webp
+.. figure:: /images/effects_and_compositions/effects-cmyk_adjust-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-cmyk_adjust
+   :alt: effects-cmyk_adjust-2504.webp
 
 .. sidebar:: |kdenlive-show-video| CMYK Adjust
 

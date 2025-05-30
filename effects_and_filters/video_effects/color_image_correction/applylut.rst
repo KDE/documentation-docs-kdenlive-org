@@ -21,15 +21,19 @@
 
    <a href="https://filmlifestyle.com/what-is-a-lut/" target="_blank">What is a LUT?</a>
 
+.. |kde_store| raw:: html
+
+   <a href="https://www.pling.com/browse?cat=644&ord=latest" target="_blank">KDE Store</a>
+
 
 Apply LUT
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut.webp
+.. figure:: /images/effects_and_compositions/effects-apply_lut-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-apply_lut
+   :alt: effects-apply_lut-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Apply LUT
 
@@ -76,7 +80,7 @@ This effect applies a 3D Look Up Table (LUT)\ [1]_ to the clip. A LUT is an easy
      - Description
    * - LUT file to apply
      - File selection
-     - File containing the LUT to be applied. Select **Custom...** to open a file dialog window to browse for additional LUT files.
+     - File containing the LUT to be applied. Select **Custom...** to open a file dialog window to browse for additional LUT files. You can also download LUT files from the |kde_store| directly from here by clicking on the |edit-download| icon. See the `Notes <lut_notes>`_ section below.
    * - Interpolation Mode
      - Selection
      - Selects the mode for interpolation
@@ -129,7 +133,7 @@ To apply the LUT follow these simple steps:
    :align: left
    :alt: kdenlive2304_effects-apply_lut_example_1
 
-   Apply LUT effect with default settings
+   Apply LUT effect with default settings\ [2]_
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-apply_lut_example_2.webp
    :width: 400px
@@ -147,7 +151,7 @@ Note that this example shows an individual video editing directory structure wit
    :align: left
    :alt: kdenlive2304_effects-apply_lut_example_4
 
-   Apply LUT effect with Tahoe.cube LUT file applied
+   Apply LUT effect with Tahoe.cube LUT file applied\ [2]_
 
 .. rst-class:: clear-both
 
@@ -157,6 +161,51 @@ Of course, you can add other effects from the *Color and Image Correction* categ
 You can find more about color correction and color grading in the Tutorial section of the documentation.
 
 
+.. _lut_notes:
+
+.. rubric:: Notes
+
+Kdenlive has a direct connection to the |kde_store| to download LUT files other users uploaded there. Of course it requires a working Internet connection.
+
+Click on the |edit-download| icon and a window opens listing all available LUT files.
+
+.. figure:: /images/effects_and_compositions/effects-apply_lut_store_1-2504.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: effects-apply_lut_store_1-2504.webp
+
+   LUT files available in the |kde_store|
+
+You can use filters (|view-filter|) to select all available LUTs, installed ones, and those for which an update is available.
+
+Use |view-sort| to sort by name, rating, downloads (default), or release date.
+
+Use the :kbd:`Search` field to search for a LUT file by name.
+
+Click on :kbd:`Install` to install the selected LUT file(s).
+
+Click on the highlighted tile to get more information about the selected LUT.
+
+.. figure:: /images/effects_and_compositions/effects-apply_lut_store_2-2504.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: effects-apply_lut_store_2-2504.webp
+
+   More details about the selected LUT
+
+Here you see more details and some examples (provided the author has uploaded images).
+
+Clicking the link opens a browser and the respective |kde_store| page for the LUT file. 
+
+Click on :kbd:`Install` to download and install the selected LUT file.
+
+.. rst-class:: clear-both
+
+
 ----
 
 .. [1] A good explanation of and examples for how to use LUTs for color grading are available on the filmlifestyle.com |what_is_a_lut| page.
+
+.. [2] The screenshot is showing the old effect/filter layout/design

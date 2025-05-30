@@ -16,11 +16,11 @@
 Normaliz0r
 ==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-normaliz0r.webp
+.. figure:: /images/effects_and_compositions/effects-normaliz0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-normaliz0r
+   :alt: effects-normaliz0r-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Normaliz0r
 
@@ -58,6 +58,9 @@ This effect/filter normalizes RGB video (aka histogram stretching, contrast stre
    * - Parameter
      - Value
      - Description
+   * - BlackPt / WhitePt
+     - Picker
+     - Colors which define the output range. The minimum input value is mapped to the *blackpt*. The maximum input value is mapped to the *whitept*. The defaults are black and white respectively. Specifying white for *blackpt* and black for *whitept* will give color-inverted, normalized video. Shades of grey can be used to reduce the dynamic range (contrast). Specifying saturated colors here can create some interesting effects. Use the |color-picker| color picker or the color button to select the color.
    * - Smoothing
      - Float
      - The number of previous frames to use for temporal smoothing. The input range of each channel is smoothed using a rolling average over the current frame and the smoothing previous frames. The default is 0 (no temporal smoothing).
@@ -67,9 +70,6 @@ This effect/filter normalizes RGB video (aka histogram stretching, contrast stre
    * - Strength
      - Float
      - Overall strength of the filter. 1.0 is full strength. 0.0 is a rather expensive no-op. Defaults to 1.0 (full strength).
-   * - BlackPt / WhitePt
-     - Picker
-     - Colors which define the output range. The minimum input value is mapped to the *blackpt*. The maximum input value is mapped to the *whitept*. The defaults are black and white respectively. Specifying white for *blackpt* and black for *whitept* will give color-inverted, normalized video. Shades of grey can be used to reduce the dynamic range (contrast). Specifying saturated colors here can create some interesting effects. Use the |color-picker| color picker or the color button to select the color.
 
 .. rst-class:: clear-both
 

@@ -16,11 +16,11 @@
 Normalize RGB Video
 ===================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-normalize_rgb_video.webp
+.. figure:: /images/effects_and_compositions/effects-normalize_rgb_video-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-normalize_rgb_video
+   :alt: effects-normalize_rgb_video-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Normalize RGB Video
 
@@ -58,18 +58,18 @@ This effect/filter normalizes RGB video (aka histogram stretching, contrast stre
    * - Parameter
      - Value
      - Description
-   * - Temporal smoothing
+   * - Output darkest / brightest input color
+     - Picker
+     - Colors which define the output range. The minimum input value is mapped to the *output darkest input color*. The maximum input value is mapped to the *output brightest input color*. The defaults are black and white respectively. Specifying white for *output darkest input color* and black for *output brightest input color* will give color-inverted, normalized video. Shades of grey can be used to reduce the dynamic range (contrast). Specifying saturated colors here can create some interesting effects. Use the |color-picker| color picker or the color button to select the color.
+   * - Smoothing
      - Integer
      - The number of previous frames to use for temporal smoothing. The input range of each channel is smoothed using a rolling average over the current frame and the smoothing previous frames. The default is 0 (no temporal smoothing)
-   * - Proportion of independent
+   * - Independence
      - Float
      - Controls the ratio of independent (color shifting) channel normalization to linked (color preserving) normalization. 0.0 is fully linked, 1.0 is fully independent. Defaults to 1.0 (fully independent).
    * - Strength
      - Float
      - Overall strength of the filter. 1.0 is full strength. 0.0 is a rather expensive no-op. Defaults to 1.0 (full strength).
-   * - Output darkest / brightest input color
-     - Picker
-     - Colors which define the output range. The minimum input value is mapped to the *output darkest input color*. The maximum input value is mapped to the *output brightest input color*. The defaults are black and white respectively. Specifying white for *output darkest input color* and black for *output brightest input color* will give color-inverted, normalized video. Shades of grey can be used to reduce the dynamic range (contrast). Specifying saturated colors here can create some interesting effects. Use the |color-picker| color picker or the color button to select the color.
 
 .. rst-class:: clear-both
 

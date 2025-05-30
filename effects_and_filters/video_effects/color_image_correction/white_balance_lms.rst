@@ -14,11 +14,11 @@
 White Balance (LMS)
 ===================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-white_balance_lms.webp
+.. figure:: /images/effects_and_compositions/effects-white_balance_lms-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-white_balance_lms
+   :alt: effects-white_balance_lms-2504.webp
 
 .. sidebar:: |kdenlive-show-video| White Balance (LMS)
 
@@ -61,9 +61,9 @@ This effect/filter does simple color correction, in a physically meaningful way.
      - Choose the color from the source image that should be white
    * - Color Temperature
      - Integer
-     - Choose an output color temperature, if different from 6,500K
+     - Choose an output color temperature in degrees :term:`Kelvin<kelvin>`. Default is 6,500K
 
 
 .. rubric:: Notes
 
-Color temperature is measured in degrees Kelvin. Lower values correct for "warmer" lighting, higher values correct for "cool" lighting. the default value of +6,500K is unity.
+Color temperature is measured in degrees Kelvin. Lower values correct for "warmer" lighting, higher values correct for "cool" lighting. The default value of +6,500K is unity.

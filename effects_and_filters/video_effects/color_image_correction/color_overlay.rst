@@ -11,11 +11,11 @@
 Color Overlay
 =============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_overlay.webp
+.. figure:: /images/effects_and_compositions/effects-color_overlay-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_overlay
+   :alt: effects-color_overlay-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Overlay
 

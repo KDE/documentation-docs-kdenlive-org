@@ -11,11 +11,11 @@
 Contrast
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-contrast.webp
+.. figure:: /images/effects_and_compositions/effects-contrast-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-contrast
+   :alt: effects-contrast-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Contrast
 

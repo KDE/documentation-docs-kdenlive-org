@@ -1,23 +1,23 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Tint
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, tint
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, tint, tint0r
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
 
-Tint
-====
+Tint0r
+======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-tint.webp
+.. figure:: /images/effects_and_compositions/effects-tint0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-tint
+   :alt: effects-tint0r-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Tint
+.. sidebar:: |kdenlive-show-video| Tint0r
 
    :**Status**:
       Maintained

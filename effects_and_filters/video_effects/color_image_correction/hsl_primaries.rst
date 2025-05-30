@@ -12,18 +12,18 @@
 HSL Primaries
 =============
 
-.. figure:: /images/effects_and_compositions/kdenlive2412_effects-hsl_primaries.webp
+.. figure:: /images/effects_and_compositions/effects-hsl_primaries-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2412_effects-hsl_primaries
+   :alt: effects-hsl_primaries-2504.webp
 
 .. sidebar:: |kdenlive-show-video| HSL Primaries
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       MLT
    :**Source filter**:

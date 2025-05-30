@@ -16,11 +16,11 @@
 3-Point Balance
 ===============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-3_point_balance.webp
+.. figure:: /images/effects_and_compositions/effects-3_point_balance-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-3_point_balance
+   :alt: effects-3_point_balance-2504.webp
 
 .. sidebar:: |kdenlive-show-video| 3-Point Balance
 
@@ -52,18 +52,12 @@ This effect is a simple implementation of the Bezier Curves effect. With the sim
 .. list-table::
    :header-rows: 1
    :width: 100%
-   :widths: 30 10 60
+   :widths: 20 10 70
    :class: table-wrap
 
    * - Parameter
      - Value
      - Description
-   * - Split screen preview
-     - Switch
-     - Select this to have a split screen in the Project Monitor where you can compare the results of the effect/filter with the original clip.
-   * - Source image on left side
-     - Switch
-     - If :guilabel:`Split screen preview` is enabled, the original clip is on the left side of the split screen. Uncheck this to have the original on the right-hand side of the split screen.
    * - Black color
      - Picker
      - Represents the black levels (dark tones) for the clip
@@ -73,6 +67,16 @@ This effect is a simple implementation of the Bezier Curves effect. With the sim
    * - White color
      - Picker
      - Represents the white levels (highlights) for the clip
+
+
+.. .. versionchanged:: 25.04
+   removed
+   * - Split screen preview
+     - Switch
+     - Select this to have a split screen in the Project Monitor where you can compare the results of the effect/filter with the original clip.
+   * - Source image on left side
+     - Switch
+     - If :guilabel:`Split screen preview` is enabled, the original clip is on the left side of the split screen. Uncheck this to have the original on the right-hand side of the split screen.
 
 
 .. rubric:: Notes

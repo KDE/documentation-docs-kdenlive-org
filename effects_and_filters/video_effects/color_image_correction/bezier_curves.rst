@@ -21,11 +21,11 @@
 Bezier Curves
 =============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-bezier_curves.webp
+.. figure:: /images/effects_and_compositions/effects-bezier_curves-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-bezier_curves
+   :alt: effects-bezier_curves-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Bezier Curves
 
@@ -51,7 +51,7 @@ Bezier Curves
 
 This effect is used to adjust the color levels similar to the :doc:`/effects_and_filters/video_effects/color_image_correction/3_point_balance` but with finer control. Although the effect defaults to the RGB channel, it is mostly used with the :term:`Luma` channel. See also the :doc:`/effects_and_filters/video_effects/color_image_correction/curves` effect that does the same thing but does not have the curve handles.
 
-Note the extended handles on the red dot in the middle with which you can adjust the steepness of the curve leading to and leaving the point.
+Click anywhere on the graph paper to insert a node. Use the extended handles on the node to adjust the steepness of the curve leading to and leaving the point.
 
 
 .. rubric:: Parameters

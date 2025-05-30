@@ -23,11 +23,11 @@
 SOP/Sat
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-sop_sat.webp
+.. figure:: /images/effects_and_compositions/effects-sop_sat-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-sop_sat
+   :alt: effects-sop_sat-2504.webp
 
 .. sidebar:: |kdenlive-show-video| :abbr:`SOP/Sat (S(lope), O(ffset), P(ower) / SATuration)`
 

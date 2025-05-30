@@ -11,11 +11,11 @@
 Colorize
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-colorize.webp
+.. figure:: /images/effects_and_compositions/effects-colorize-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-colorize
+   :alt: effects-colorize-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Colorize
 
@@ -55,7 +55,7 @@ This effect/filter colorizes an image to the selected :term:`hue`, :term:`satura
      - Description
    * - Hue
      - Integer
-     - Set the color :term:`hue`. Allowed values are from 0 to 360, default value is 0.
+     - Set the color :term:`hue`. Allowed values are from 0 to 1, default value is 0.5.
    * - Saturation
      - Integer
      - Set the color :term:`saturation`. Allowed values are from 0 to 1, default value is 0.5.

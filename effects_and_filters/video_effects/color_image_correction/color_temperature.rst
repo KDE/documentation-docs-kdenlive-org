@@ -11,11 +11,11 @@
 Color Temperature
 =================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_temperature.webp
+.. figure:: /images/effects_and_compositions/effects-color_temperature-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_temperature
+   :alt: effects-color_temperature-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Temperature
 
@@ -69,5 +69,6 @@ This effect/filter adjusts the color :term:`temperature` in video or images to s
 .. rst-class:: clear-both
 
 
-.. hint::
-   Color temperature is measured in degrees Kelvin. Lower values correct for "warmer" lighting, higher values correct for "cool" lighting. the default value of +6,500K is unity.
+.. rubric:: Notes
+
+Color temperature is measured in degrees Kelvin. Lower values correct for "warmer" lighting, higher values correct for "cool" lighting. The default value of +6,500K is unity.

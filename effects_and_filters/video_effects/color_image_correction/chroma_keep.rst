@@ -19,11 +19,11 @@
 Chroma Keep
 ===========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-chroma_keep.webp
+.. figure:: /images/effects_and_compositions/effects-chroma_keep-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-chroma_keep
+   :alt: effects-chroma_keep-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Chroma Keep
 
@@ -61,12 +61,12 @@ This effect turns the clip into grey scale except for the selected color.
    * - Parameter
      - Value
      - Description
-   * - Variance
-     - Percent
-     - Percentage of deviation from the selected color value. Lower values keep the colors closer to the selected one; higher values include more colors.
    * - Color key
      - Picker
      - Set the color to be preserved (kept)
+   * - Variance
+     - Percent
+     - Percentage of deviation from the selected color value. Lower values keep the colors closer to the selected one; higher values include more colors.
 
 .. rst-class:: clear-both
 

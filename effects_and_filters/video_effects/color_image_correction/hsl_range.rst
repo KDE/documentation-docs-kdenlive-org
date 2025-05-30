@@ -12,18 +12,18 @@
 HSL Range
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2412_effects-hsl_range.webp
+.. figure:: /images/effects_and_compositions/effects-hsl_range-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2412_effects-hsl_range
+   :alt: effects-hsl_range-2504.webp
 
 .. sidebar:: |kdenlive-show-video| HSL Range
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       MLT
    :**Source filter**:

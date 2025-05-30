@@ -16,11 +16,11 @@
 RGB Adjustment
 ==============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-rgb_adjustment.webp
+.. figure:: /images/effects_and_compositions/effects-rgb_adjustment-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: denlive2304_effects-rgb_adjustment
+   :alt: effects-rgb_adjustment-2504.webp
 
 .. sidebar:: |kdenlive-show-video| RGB Adjustment
 
@@ -70,7 +70,7 @@ This filter is for simple manual color adjustment by RGB channel, either through
    * - Luma formula
      - Selection
      - Set the color space to operate in
-   * - R / G / B
+   * - Red / Green / Blue
      - Integer
      - Determines the change in each of the three color channels
 

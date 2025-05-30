@@ -12,11 +12,11 @@
 Levels
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-levels.webp
+.. figure:: /images/effects_and_compositions/effects-levels-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-levels
+   :alt: effects-levels-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Levels
 
@@ -55,29 +55,29 @@ This effect/filter is very useful and important for correcting color levels. Thi
      - Value
      - Description
    * - Channel
-     - 
-     - Set the color channel you want to adjust.
+     - Selection
+     - Set the color channel you want to adjust
    * - Show histogram
-     - 
+     - Switch
      - Switches the built-in small histogram on and off
    * - Histogram position
-     - 
+     - Selection
      - Defines where the histogram is shown in the monitor
    * - Input black level
-     - 
-     - Moves the black point to the right: all pixels with that value or less will be black. This makes the dark areas even darker, influences the mid-tones a little and the highlights not at all. Increases contrast. Range is 0 to 1000 (equivalent to 0% to 100%).
+     - Percentage
+     - Moves the black point to the right: all pixels with that value or less will be black. This makes the dark areas even darker, influences the mid-tones a little and the highlights not at all. Increases contrast.
    * - Input white level
-     - 
-     - Moves the white point to the left: all pixels with that value or higher will be white. This makes bright areas even brighter, influences the mid-tones a little and the dark areas not at all. Increases contrast. Range is 0 to 1000 (equivalent to 0% to 100%).
+     - Percentage
+     - Moves the white point to the left: all pixels with that value or higher will be white. This makes bright areas even brighter, influences the mid-tones a little and the dark areas not at all. Increases contrast.
    * - Gamma
-     - 
-     - Changes the overall brightness of the image. Affects only the mid-tones, black and white are not influenced. Range is 10 to 4000 (default is 1000, equivalent to Gamma 1.0). Lower values (moving the bar to the left) make the image darker, higher values (moving the bar to the right) make it brighter.
+     - Percentage
+     - Changes the overall brightness of the image. Affects only the mid-tones, black and white are not influenced. Default is 25%, equivalent to Gamma 1.0). Lower values (moving the bar to the left) make the image darker, higher values (moving the bar to the right) make it brighter.
    * - Black output
-     - 
-     - Opposite of Input level black\ [1]_
+     - Percentage
+     - Opposite of Input black level\ [1]_
    * - White output
-     - 
-     - Opposite of Input level white\ [1]_
+     - Percentage
+     - Opposite of Input white level\ [1]_
 
 The following selection items are available:
 

@@ -21,11 +21,11 @@
 Brightness
 ==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-brightness.webp
+.. figure:: /images/effects_and_compositions/effects-brightness-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-brightness
+   :alt: effects-brightness-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Brightness
 
@@ -65,9 +65,9 @@ This effect adjusts the brightness of the clip.
      - Description
    * - Brightness
      - Integer
-     - Sets the brightness of the clip. Values range from 0 (completely dark) to 1000 (glaringly bright).
+     - Sets the brightness of the clip. Values range from 0 (completely dark) to 1000 (completely white).
 
 .. rst-class:: clear-both
 
 .. note:: 
-   This brightness effect works differently than the :doc:`/effects_and_filters/video_effects/color_image_correction/brightness_keyframable` effect.
+   This brightness effect works differently than the :doc:`Intensity</effects_and_filters/video_effects/color_image_correction/brightness_keyframable>` effect.

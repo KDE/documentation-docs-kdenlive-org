@@ -11,11 +11,11 @@
 Limiter
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-limiter.webp
+.. figure:: /images/effects_and_compositions/effects-limiter-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-limiter
+   :alt: effects-limiter-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Limiter
 
@@ -60,8 +60,8 @@ This effect/filter limits the pixel components values to the specified range.
      - Integer
      - Upper bound. Defaults to the highest allowed value for the input.
    * - Planes
-     - 
-     - Specify which :term:`planes<plane>` will be processed
+     - Selection
+     - Specifies which :term:`planes<plane>` will be processed
 
 The following selection items are available:
 

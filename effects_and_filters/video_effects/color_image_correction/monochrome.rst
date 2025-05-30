@@ -11,11 +11,11 @@
 Monochrome
 ==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-monochrome.webp
+.. figure:: /images/effects_and_compositions/effects-monochrome-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-monochrome
+   :alt: effects-monochrome-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Monochrome
 

@@ -11,11 +11,11 @@
 Color Correct
 =============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_correct.webp
+.. figure:: /images/effects_and_compositions/effects-color_correct-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_correct
+   :alt: effects-color_correct-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Correct
 

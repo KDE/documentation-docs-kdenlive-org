@@ -11,11 +11,11 @@
 Color Balance
 =============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_balance.webp
+.. figure:: /images/effects_and_compositions/effects-color_balance-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_balance
+   :alt: effects-color_balance-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Balance
 

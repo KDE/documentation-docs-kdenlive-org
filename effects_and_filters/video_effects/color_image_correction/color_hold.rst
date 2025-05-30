@@ -8,21 +8,25 @@
    :license: Creative Commons License SA 4.0
 
 
+.. .. versionchanged:: 25.04
+   no keyframes
+
+   
 Color Hold
 ==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_hold.webp
+.. figure:: /images/effects_and_compositions/effects-color_hold-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_hold
+   :alt: effects-color_hold-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Hold
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      Yes
+      No
    :**Source library**:
       avfilter
    :**Source filter**:

@@ -11,11 +11,11 @@
 Histogram Equalizer
 ===================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-histogram_equalizer.webp
+.. figure:: /images/effects_and_compositions/effects-histogram_equalizer-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-histogram_equalizer
+   :alt: effects-histogram_equalizer-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Histogram Equalizer
 

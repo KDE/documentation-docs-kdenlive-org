@@ -11,11 +11,11 @@
 Curves
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-curves.webp
+.. figure:: /images/effects_and_compositions/effects-curves-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-curves
+   :alt: effects-curves-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Curves
 
@@ -128,3 +128,7 @@ The following selection items are available:
 
 .. hint:: 
   It is recommended to use this effect while in Color layout as this comes with :ref:`RGB Parade <view-rgb_parade>` and :ref:`view-histogram` already switched on. If you want to use the effect while in Editing or Effects layout, turn on the Histogram :term:`widget` with :menuselection:`Menu --> View --> Histogram`.
+
+.. seealso:: 
+  The :doc:`Bezier Curves</effects_and_filters/video_effects/color_image_correction/bezier_curves>` effect does the same but has the ability to adjust the steepness/flatness of the curves.
+  

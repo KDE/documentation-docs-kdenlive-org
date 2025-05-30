@@ -18,16 +18,19 @@
    <a href="https://www.mltframework.org/plugins/FilterBrightness/" target="_blank">brightness</a>
 
 
-Brightness (keyframable)
-========================
+.. ..versionchanged:: 25.04
+   Brightness (keyframable --> Intensity)
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-brightness_2.webp
+Intensity
+=========
+
+.. figure:: /images/effects_and_compositions/effects-intensity-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-brightness_2
+   :alt: effects-intensity-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Brightness (keyframable)
+.. sidebar:: |kdenlive-show-video| Intensity
 
    :**Status**:
       Maintained
@@ -49,7 +52,7 @@ Brightness (keyframable)
 
 .. rubric:: Description
 
-This effect adjusts the brightness of the clip.
+This effect adjusts the intensity of the clip.
 
 
 .. rubric:: Parameters
@@ -65,9 +68,9 @@ This effect adjusts the brightness of the clip.
      - Description
    * - Intensity
      - Integer
-     - Sets the brightness of the clip. Values range from 0 (completely dark) to 400 (bright colors)
+     - Sets the intensity of the clip. Values range from 0 (completely dark) to 400 (bright colors)
 
 .. rst-class:: clear-both
 
 .. note:: 
-   This brightness effect works differently than the :doc:`/effects_and_filters/video_effects/color_image_correction/brightness` effect. At full intensity (400), the clip is not glaringly bright (or white) but just has bright colors.
+   This effect was called *Brightness (keyframable)* before. It works differently than the :doc:`/effects_and_filters/video_effects/color_image_correction/brightness` effect. At full intensity (400), the clip is not glaringly bright (or white) but just has bright colors.

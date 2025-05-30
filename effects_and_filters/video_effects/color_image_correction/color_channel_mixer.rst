@@ -11,11 +11,11 @@
 Color Channel Mixer
 ===================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_channel_mixer.webp
+.. figure:: /images/effects_and_compositions/effects-color_channel_mixer-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_channel_mixer
+   :alt: effects-color_channel_mixer-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Channel Mixer
 

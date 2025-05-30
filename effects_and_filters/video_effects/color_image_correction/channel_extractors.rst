@@ -41,6 +41,22 @@ Channel Extractor BLUE / GREEN / RED
 
 These three separate effects extract the respective color channels from the clip. There are no further parameters or keyframes.
 
+These filters essentially isolate the individual color channels (red, green, blue) from the clip and generate a greyscale image where the intensity represents the specific color channel. The result can be used for color analysis (understanding the distribution of colors in the clip), further image processing (using the greyscale as a mask), or segmentation (separating objects based on their color characteristics).
+
+You typically put the same clip in three adjacent tracks in the timeline, add the effect to each clip (one for RED, one for GREEN, and for one BLUE), and then add additional effects to create the desired (artistic) look.
+
+.. figure:: /images/effects_and_compositions/effects-channel_extractor_RGB_timeline-2504.webp
+   :width: 400px
+   :figwidth: 400px
+   :align: left
+   :alt: effects-channel_extractor_RGB-2504.webp
+
+   Example of bringing a clip back together after using Channel Extractor
+
+In order to bring the channels back together, use either the :kbd:`Addition` composition or the :kbd:`Cairo blend` composition with :kbd:`Composition Type` **Add** between the two top tracks, and one added to the bottom track.
+
+.. rst-class:: clear-both
+
 
 .. rubric:: Screenshots
 
