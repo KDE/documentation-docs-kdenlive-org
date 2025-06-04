@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"POT-Creation-Date: 2025-06-03 01:57+0000\n"
 "PO-Revision-Date: 2024-08-01 09:46+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -120,6 +120,8 @@ msgstr "Luminansradie"
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:60
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:66
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:69
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:75
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:78
 msgid "Float"
 msgstr "Flyttal"
 
@@ -137,10 +139,15 @@ msgid "Luma Strength"
 msgstr "Luminansstyrka"
 
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:61
+#, fuzzy
+#| msgid ""
+#| "Number in the range [-1.0,1.0] that configures the blurring. A value "
+#| "included in [0.0,1.0] will blur the image whereas a value included in "
+#| "[-1.0,0.0] will sharpen the image. Default value is 1.0."
 msgid ""
-"Number in the range [-1.0,1.0] that configures the blurring. A value "
-"included in [0.0,1.0] will blur the image whereas a value included in "
-"[-1.0,0.0] will sharpen the image. Default value is 1.0."
+"Number in the range [-1.0,1.0] that configures the blurring. Positive values "
+"will blur the image, negative values will sharpen the image. Default value "
+"is 1.0."
 msgstr ""
 "Tal i intervallet [-1,0; 1,0] som ställer in oskärpan. Ett värde som ingår i "
 "[0,0; 1,0] gör bilden oskarp medan ett värde som ingår i [-1,0; 0,0] gör "
@@ -152,15 +159,23 @@ msgstr "Luminanströskel"
 
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:63
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:72
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:81
 msgid "Integer"
 msgstr "Heltal"
 
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:64
+#, fuzzy
+#| msgid ""
+#| "Used as a coefficient to determine whether a pixel should be blurred or "
+#| "not. The value must be an integer in the range [-30,30]. A value of 0 "
+#| "will filter all the image, a value included in [0,30] will filter flat "
+#| "areas and a value included in [-30,0] will filter edges. Default value is "
+#| "0."
 msgid ""
 "Used as a coefficient to determine whether a pixel should be blurred or not. "
 "The value must be an integer in the range [-30,30]. A value of 0 will filter "
-"all the image, a value included in [0,30] will filter flat areas and a value "
-"included in [-30,0] will filter edges. Default value is 0."
+"all the image, positive values will filter flat areas, negative values will "
+"filter edges. Default value is 0."
 msgstr ""
 "Används som en koefficient för att avgöra om en bildpunkt ska vara suddig "
 "eller inte. Värdet måste vara ett heltal i intervallet [-30, 30]. Värdet 0 "
@@ -172,6 +187,7 @@ msgid "Chroma Radius"
 msgstr "Krominansradie"
 
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:67
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:76
 msgid "Same as Luma Radius. Default value is what is defined for Luma Radius."
 msgstr ""
 "Samma som luminansradie. Standardvärdet är det som definieras för "
@@ -182,6 +198,7 @@ msgid "Chroma Strength"
 msgstr "Krominansstyrka"
 
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:70
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:79
 msgid ""
 "Same as Luma Strength. Default value is what is defined for Luma Strength."
 msgstr ""
@@ -193,8 +210,27 @@ msgid "Chroma Threshold"
 msgstr "Krominanströskel"
 
 #: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:73
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:82
 msgid ""
 "Same as Luma Threshold. Default value is what is defined for Luma Threshold."
 msgstr ""
 "Samma som luminanströskel. Standardvärdet är det som definieras för "
 "luminanströskel."
+
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:74
+#, fuzzy
+#| msgid "Chroma Radius"
+msgid "Alpha Radius"
+msgstr "Krominansradie"
+
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:77
+#, fuzzy
+#| msgid "Chroma Strength"
+msgid "Alpha Strength"
+msgstr "Krominansstyrka"
+
+#: ../../effects_and_filters/video_effects/blur_and_sharpen/smartblur.rst:80
+#, fuzzy
+#| msgid "Chroma Threshold"
+msgid "Alpha Threshold"
+msgstr "Krominanströskel"

@@ -1,15 +1,15 @@
 # Translation of docs_kdenlive_org_effects_and_filters___video_effects___color_image_correction___channel_extractors.po to Catalan
-# Copyright (C) 2023 This_file_is_part_of_KDE
+# Copyright (C) 2023-2025 This_file_is_part_of_KDE
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2023, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2023-12-28 20:16+0200\n"
+"POT-Creation-Date: 2025-06-03 01:57+0000\n"
+"PO-Revision-Date: 2025-06-03 21:06+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -107,22 +107,66 @@ msgstr ""
 "Aquests tres efectes separats extreuen els canals de color respectius del "
 "clip. No hi ha cap altre paràmetre ni fotogrames clau."
 
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:44
+msgid ""
+"These filters essentially isolate the individual color channels (red, green, "
+"blue) from the clip and generate a greyscale image where the intensity "
+"represents the specific color channel. The result can be used for color "
+"analysis (understanding the distribution of colors in the clip), further "
+"image processing (using the greyscale as a mask), or segmentation "
+"(separating objects based on their color characteristics)."
+msgstr ""
+"Essencialment, aquests filtres aïllen els canals de color individuals "
+"(vermell, verd, blau) del clip i generen una imatge en escala de grisos on "
+"la intensitat representa el canal de color específic. El resultat es pot "
+"utilitzar per a l'anàlisi de color (entendre la distribució de colors en el "
+"clip), processament d'imatges addicionals (utilitzant l'escala de grisos com "
+"a màscara), o segmentació (separant objectes en funció de les seves "
+"característiques de color)."
+
 #: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:46
+msgid ""
+"You typically put the same clip in three adjacent tracks in the timeline, "
+"add the effect to each clip (one for RED, one for GREEN, and for one BLUE), "
+"and then add additional effects to create the desired (artistic) look."
+msgstr ""
+"Normalment col·loqueu el mateix clip en tres pistes adjacents a la línia de "
+"temps, afegiu l'efecte a cada clip (un per al VERMELL, un per al VERD i un "
+"altre per al BLAU), i afegiu efectes addicionals per a crear l'aspecte "
+"desitjat (artístic)."
+
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:54
+msgid "Example of bringing a clip back together after using Channel Extractor"
+msgstr ""
+"Exemple de tornar a reunir un clip després d'utilitzar l'extractor de canals"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:56
+msgid ""
+"In order to bring the channels back together, use either the :kbd:`Addition` "
+"composition or the :kbd:`Cairo blend` composition with :kbd:`Composition "
+"Type` **Add** between the two top tracks, and one added to the bottom track."
+msgstr ""
+"Per a tornar a unir els canals, utilitzeu la composició :kbd:`Addició` o la "
+"composició :kbd:`Barreja del Cairo` amb :kbd:`Tipus de composició` "
+"**Afegeix** entre les dues pistes superiors i una afegida a la pista "
+"inferior."
+
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:62
 msgid "Screenshots"
 msgstr "Captures de pantalla"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:53
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:69
 msgid "Original clip before"
 msgstr "Clip original abans"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:62
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:78
 msgid "Result of Channel Extractor RED"
 msgstr "Resultat de l'extractor de canal Vermell"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:71
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:87
 msgid "Result of Channel Extractor GREEN"
 msgstr "Resultat de l'extractor de canal Verd"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:80
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:96
 msgid "Result of Channel Extractor BLUE"
 msgstr "Resultat de l'extractor de canal Blau"

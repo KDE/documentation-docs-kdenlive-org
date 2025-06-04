@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-08-22 16:44+0300\n"
+"POT-Creation-Date: 2025-06-03 01:57+0000\n"
+"PO-Revision-Date: 2025-06-03 20:54+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -121,66 +121,14 @@ msgid "Value"
 msgstr "Значення"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:61
-msgid "Temporal smoothing"
-msgstr "Згладжування за часом"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:62
-msgid "Integer"
-msgstr "Ціле"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:63
-msgid ""
-"The number of previous frames to use for temporal smoothing. The input range "
-"of each channel is smoothed using a rolling average over the current frame "
-"and the smoothing previous frames. The default is 0 (no temporal smoothing)"
-msgstr ""
-"Кількість попередніх кадрів, якими слід користуватися для часового "
-"згладжування. Вхідний діапазон кожного каналу буде згладжено за допомогою "
-"рухомого середнього на основі поточного кадру і попередніх кадрів для "
-"згладжування. Типовим значенням є 0 (без часового згладжування)"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:64
-msgid "Proportion of independent"
-msgstr "Частка незалежності"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:65
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:68
-msgid "Float"
-msgstr "З рухомою крапкою"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:66
-msgid ""
-"Controls the ratio of independent (color shifting) channel normalization to "
-"linked (color preserving) normalization. 0.0 is fully linked, 1.0 is fully "
-"independent. Defaults to 1.0 (fully independent)."
-msgstr ""
-"Керує співвідношенням між незалежною (зі зсувом кольорів) нормалізацією "
-"каналів та пов'язаною (із збереженням кольорів) нормалізацією. 0.0 — "
-"повністю пов'язані, 1.0 — повністю незалежні. Типовим значенням є 1.0 "
-"(повністю незалежні)."
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:67
-msgid "Strength"
-msgstr "Потужність"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:69
-msgid ""
-"Overall strength of the filter. 1.0 is full strength. 0.0 is a rather "
-"expensive no-op. Defaults to 1.0 (full strength)."
-msgstr ""
-"Загальна потужність фільтрування. 1.0 — повна потужність. 0.0 — доволі "
-"обчислювально вартісна фіктивна робота. Типовим значенням є 1.0 (повна "
-"потужність)."
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:70
 msgid "Output darkest / brightest input color"
 msgstr "Найтемніший / Найсвітліший вхідний колір у виведенні"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:71
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:62
 msgid "Picker"
 msgstr "Піпетка"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:72
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:63
 msgid ""
 "Colors which define the output range. The minimum input value is mapped to "
 "the *output darkest input color*. The maximum input value is mapped to the "
@@ -201,6 +149,58 @@ msgstr ""
 "динамічного діапазону (контрастності). Зазначення насичених кольорів може "
 "дати цікаві результати. Скористайтеся піпеткою |color-picker| або кнопкою "
 "кольору, щоб вибрати колір."
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:64
+msgid "Smoothing"
+msgstr "Згладжування"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:65
+msgid "Integer"
+msgstr "Ціле"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:66
+msgid ""
+"The number of previous frames to use for temporal smoothing. The input range "
+"of each channel is smoothed using a rolling average over the current frame "
+"and the smoothing previous frames. The default is 0 (no temporal smoothing)"
+msgstr ""
+"Кількість попередніх кадрів, якими слід користуватися для часового "
+"згладжування. Вхідний діапазон кожного каналу буде згладжено за допомогою "
+"рухомого середнього на основі поточного кадру і попередніх кадрів для "
+"згладжування. Типовим значенням є 0 (без часового згладжування)"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:67
+msgid "Independence"
+msgstr "Незалежність"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:68
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:71
+msgid "Float"
+msgstr "З рухомою крапкою"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:69
+msgid ""
+"Controls the ratio of independent (color shifting) channel normalization to "
+"linked (color preserving) normalization. 0.0 is fully linked, 1.0 is fully "
+"independent. Defaults to 1.0 (fully independent)."
+msgstr ""
+"Керує співвідношенням між незалежною (зі зсувом кольорів) нормалізацією "
+"каналів та пов'язаною (із збереженням кольорів) нормалізацією. 0.0 — "
+"повністю пов'язані, 1.0 — повністю незалежні. Типовим значенням є 1.0 "
+"(повністю незалежні)."
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:70
+msgid "Strength"
+msgstr "Потужність"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:72
+msgid ""
+"Overall strength of the filter. 1.0 is full strength. 0.0 is a rather "
+"expensive no-op. Defaults to 1.0 (full strength)."
+msgstr ""
+"Загальна потужність фільтрування. 1.0 — повна потужність. 0.0 — доволі "
+"обчислювально вартісна фіктивна робота. Типовим значенням є 1.0 (повна "
+"потужність)."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:78
 msgid ""
@@ -223,6 +223,12 @@ msgid ""
 msgstr ""
 "Щоб дізнатися більше, зверніться до статті у Вікіпедії щодо |"
 "wikipedia_normalization|."
+
+#~ msgid "Temporal smoothing"
+#~ msgstr "Згладжування за часом"
+
+#~ msgid "Proportion of independent"
+#~ msgstr "Частка незалежності"
 
 #~ msgid ""
 #~ "Do your first steps with Kdenlive video editor, using normalize rgb video "

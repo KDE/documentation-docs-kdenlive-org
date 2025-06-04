@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"POT-Creation-Date: 2025-06-03 01:57+0000\n"
 "PO-Revision-Date: 2024-09-08 09:51+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <kde-i18n-doc@kde.org>\n"
@@ -127,64 +127,14 @@ msgid "Value"
 msgstr "Vrednost"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:61
-msgid "Temporal smoothing"
-msgstr "Časovno glajenje"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:62
-msgid "Integer"
-msgstr "integer"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:63
-msgid ""
-"The number of previous frames to use for temporal smoothing. The input range "
-"of each channel is smoothed using a rolling average over the current frame "
-"and the smoothing previous frames. The default is 0 (no temporal smoothing)"
-msgstr ""
-"Število predhodnih sličic, ki se uporabijo za časovno glajenje. Vhodno "
-"območje vsakega kanala se zgladi z uporabo drsečega povprečja trenutne "
-"sličice in glajenja prejšnjih sličic. Privzeta vrednost je 0 (brez časovnega "
-"glajenja)."
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:64
-msgid "Proportion of independent"
-msgstr "Delež neodvisnega"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:65
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:68
-msgid "Float"
-msgstr "Plavajoča vejica"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:66
-msgid ""
-"Controls the ratio of independent (color shifting) channel normalization to "
-"linked (color preserving) normalization. 0.0 is fully linked, 1.0 is fully "
-"independent. Defaults to 1.0 (fully independent)."
-msgstr ""
-"Nadzoruje razmerje med neodvisno (barvni premik) in povezano (ohranjanje "
-"barv) normalizacijo kanalov. 0,0 pomeni popolnoma povezano, 1,0 pa popolnoma "
-"neodvisno. Privzeta vrednost je 1,0 (popolnoma neodvisno)."
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:67
-msgid "Strength"
-msgstr "Moč"
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:69
-msgid ""
-"Overall strength of the filter. 1.0 is full strength. 0.0 is a rather "
-"expensive no-op. Defaults to 1.0 (full strength)."
-msgstr ""
-"Splošna moč oz. jakost filtra. 1,0 pomeni polno jakost. 0,0 je precej draga "
-"operacija brez učinka. Privzeta vrednost je 1,0 (polna jakost)."
-
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:70
 msgid "Output darkest / brightest input color"
 msgstr "Izhodna najtemnejša / najsvetlejša vhodna barva"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:71
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:62
 msgid "Picker"
 msgstr "Kapalka"
 
-#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:72
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:63
 msgid ""
 "Colors which define the output range. The minimum input value is mapped to "
 "the *output darkest input color*. The maximum input value is mapped to the "
@@ -203,6 +153,56 @@ msgstr ""
 "normaliziran video. Za zmanjšanje dinamičnega razpona (kontrasta) lahko "
 "uporabite odtenke sive barve. Z določitvijo nasičenih barv lahko ustvarite "
 "nekaj zanimivih učinkov."
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:64
+msgid "Smoothing"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:65
+msgid "Integer"
+msgstr "integer"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:66
+msgid ""
+"The number of previous frames to use for temporal smoothing. The input range "
+"of each channel is smoothed using a rolling average over the current frame "
+"and the smoothing previous frames. The default is 0 (no temporal smoothing)"
+msgstr ""
+"Število predhodnih sličic, ki se uporabijo za časovno glajenje. Vhodno "
+"območje vsakega kanala se zgladi z uporabo drsečega povprečja trenutne "
+"sličice in glajenja prejšnjih sličic. Privzeta vrednost je 0 (brez časovnega "
+"glajenja)."
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:67
+msgid "Independence"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:68
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:71
+msgid "Float"
+msgstr "Plavajoča vejica"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:69
+msgid ""
+"Controls the ratio of independent (color shifting) channel normalization to "
+"linked (color preserving) normalization. 0.0 is fully linked, 1.0 is fully "
+"independent. Defaults to 1.0 (fully independent)."
+msgstr ""
+"Nadzoruje razmerje med neodvisno (barvni premik) in povezano (ohranjanje "
+"barv) normalizacijo kanalov. 0,0 pomeni popolnoma povezano, 1,0 pa popolnoma "
+"neodvisno. Privzeta vrednost je 1,0 (popolnoma neodvisno)."
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:70
+msgid "Strength"
+msgstr "Moč"
+
+#: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:72
+msgid ""
+"Overall strength of the filter. 1.0 is full strength. 0.0 is a rather "
+"expensive no-op. Defaults to 1.0 (full strength)."
+msgstr ""
+"Splošna moč oz. jakost filtra. 1,0 pomeni polno jakost. 0,0 je precej draga "
+"operacija brez učinka. Privzeta vrednost je 1,0 (polna jakost)."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:78
 msgid ""
@@ -225,3 +225,9 @@ msgid ""
 msgstr ""
 "Za več informacij glejte članek v Wikipediji o normalizaciji: |"
 "wikipedia_normalization|."
+
+#~ msgid "Temporal smoothing"
+#~ msgstr "Časovno glajenje"
+
+#~ msgid "Proportion of independent"
+#~ msgstr "Delež neodvisnega"

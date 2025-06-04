@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"POT-Creation-Date: 2025-06-03 01:57+0000\n"
 "PO-Revision-Date: 2024-08-01 19:21+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -124,7 +124,9 @@ msgid "Selection"
 msgstr "Urval"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:61
-msgid "Defines the compositing operation"
+#, fuzzy
+#| msgid "Defines the compositing operation"
+msgid "Defines the compositing operation (see list below)"
 msgstr "Definierar kompositionsoperationen"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:62
@@ -132,15 +134,15 @@ msgid "Position"
 msgstr "Position"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:63
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:66
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:69
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:72
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:75
 msgid "Integer"
 msgstr "Heltal"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:64
-msgid "Position where the gradient starts (range is 0-1000, default is 500)"
+#, fuzzy
+#| msgid "Position where the gradient starts (range is 0-1000, default is 500)"
+msgid ""
+"Position where the gradient starts (default is half the project vertical "
+"resolution)"
 msgstr ""
 "Position där toningen startar (intervall är 0-1000, standardvärdet är 500)"
 
@@ -148,49 +150,64 @@ msgstr ""
 msgid "Transition width"
 msgstr "Övergångsbredd"
 
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:66
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:72
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:75
+msgid "Percentage"
+msgstr ""
+
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:67
-msgid "Width of the gradient (range is 0-1000, default is 500)"
+#, fuzzy
+#| msgid "Width of the gradient (range is 0-1000, default is 500)"
+msgid "Width of the gradient (default is 505)"
 msgstr "Toningens bredd (intervall är 0-1000, standardvärdet är 500)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:68
 msgid "Tilt"
 msgstr "Lutning"
 
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:70
-msgid ""
-"Rotation of the gradient (range is 0-1000, default is 500). Values below 500 "
-"rotate counter clockwise, values above rotate clockwise. 0 means a rotation "
-"of -180 degrees, 1000 a rotation of +180 degrees."
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:69
+msgid "Degrees"
 msgstr ""
-"Toningens rotation (intervall är 0-1000, standardvärdet är 500). Värden "
-"under 500 roterar moturs, värden över roterar medurs. 0 betyder en rotation "
-"på -180 grader, 1000 en rotation på +180 grader."
+
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:70
+#, fuzzy
+#| msgid "Position where the gradient starts (range is 0-1000, default is 500)"
+msgid "Rotation of the gradient in degrees (range is 0-360, default is 0)"
+msgstr ""
+"Position där toningen startar (intervall är 0-1000, standardvärdet är 500)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:71
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:91
-msgid "Min"
-msgstr "Min"
+msgid "Transparency top"
+msgstr ""
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:73
+#, fuzzy
+#| msgid ""
+#| "Sets the density at the bottom / start of the gradient (range is 0-1000, "
+#| "default is 0)"
 msgid ""
-"Sets the density at the bottom / start of the gradient (range is 0-1000, "
-"default is 0)"
+"Sets the transparency at the top / start of the gradient (default is 100% "
+"for full transparency)"
 msgstr ""
 "Ställer in densiteten vid botten/starten av toningen (intervall är 0-1000, "
 "standardvärdet är 0)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:74
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:93
-msgid "Max"
-msgstr "Max"
+msgid "Transparency bottom"
+msgstr ""
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:76
+#, fuzzy
+#| msgid ""
+#| "Sets the density at the bottom / start of the gradient (range is 0-1000, "
+#| "default is 0)"
 msgid ""
-"Sets the density at the top / end of the gradient (range is 0-1000, default "
-"is 1000)"
+"Sets the transparency at the bottom / end of the gradient (default is 0% for "
+"no transparency)"
 msgstr ""
-"Ställer in densiteten i toppen/slutet av toningen (intervall är 0-1000, "
-"standardvärdet är 1000)"
+"Ställer in densiteten vid botten/starten av toningen (intervall är 0-1000, "
+"standardvärdet är 0)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:78
 msgid "The following selection items are available:"
@@ -216,9 +233,17 @@ msgstr "Lägg till"
 msgid "Add the existing pixel and the calculated gradient values"
 msgstr "Lägg till den befintliga bildpunkten och de beräknade toningsvärdena"
 
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:91
+msgid "Min"
+msgstr "Min"
+
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:92
 msgid "Take the minimum of existing pixel and calculated gradient values"
 msgstr "Ta ett minimum av befintliga bildpunkter och beräknade toningsvärden"
+
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:93
+msgid "Max"
+msgstr "Max"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:94
 msgid "Take the maximum of existing pixel and calculated gradient values"
@@ -271,6 +296,22 @@ msgid ""
 msgstr ""
 "För mer information om ämnet, se artikeln i Wikipedia om |"
 "wiki_graduated_nd_filter|."
+
+#~ msgid ""
+#~ "Rotation of the gradient (range is 0-1000, default is 500). Values below "
+#~ "500 rotate counter clockwise, values above rotate clockwise. 0 means a "
+#~ "rotation of -180 degrees, 1000 a rotation of +180 degrees."
+#~ msgstr ""
+#~ "Toningens rotation (intervall är 0-1000, standardvärdet är 500). Värden "
+#~ "under 500 roterar moturs, värden över roterar medurs. 0 betyder en "
+#~ "rotation på -180 grader, 1000 en rotation på +180 grader."
+
+#~ msgid ""
+#~ "Sets the density at the top / end of the gradient (range is 0-1000, "
+#~ "default is 1000)"
+#~ msgstr ""
+#~ "Ställer in densiteten i toppen/slutet av toningen (intervall är 0-1000, "
+#~ "standardvärdet är 1000)"
 
 #~ msgid ""
 #~ "This is the `Frei0r alphagrad <https://www.mltframework.org/plugins/"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:53+0000\n"
+"POT-Creation-Date: 2025-06-03 01:57+0000\n"
 "PO-Revision-Date: 2024-08-29 16:25+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -125,7 +125,7 @@ msgid "Analyze"
 msgstr "Analiziraj"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:61
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:76
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:79
 msgid "Switch"
 msgstr "Preklopi"
 
@@ -134,7 +134,9 @@ msgid "Switch on for analysis phase, switch off for stabilization"
 msgstr "Vklopite za fazo analize, izklopite za stabilizacijo"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:63
-msgid "Motion Analysis File"
+#, fuzzy
+#| msgid "Motion Analysis File"
+msgid "Motion analysis file"
 msgstr "Datoteka analize gibanja"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:65
@@ -142,59 +144,81 @@ msgid "Path to file that will be used to store the analysis data"
 msgstr "Pot do datoteke, ki se bo uporabljala za shranjevanje podatkov analize"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:66
-msgid "Analysis Sample Radius"
-msgstr "Polmer vzorca analize"
+msgid "Start offset"
+msgstr ""
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:67
+msgid "Float"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:68
+msgid ""
+"The offset into the stabilization file that corresponds to the start of this "
+"clip. For example, if you have a 30 second clip, analyze it all, and then "
+"split it into three clips of 10 seconds each, then the start offsets should "
+"be 0s, 10s, and 20s"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:69
+#, fuzzy
+#| msgid "Analysis Sample Radius"
+msgid "Analysis sample radius"
+msgstr "Polmer vzorca analize"
+
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:70
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:73
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:79
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:82
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:76
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:85
 msgid "Integer"
 msgstr "Celo število"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:68
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:71
 msgid "The radius of the square that the stabilizer will sample."
 msgstr "Polmer kvadrata, ki ga bo stabilizator vzorčil."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:69
-msgid "Analysis Search Radius"
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:72
+#, fuzzy
+#| msgid "Analysis Search Radius"
+msgid "Analysis search radius"
 msgstr "Iskalni polmer analize"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:71
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:74
 msgid "The maximum amount of motion the stabilizer will detect."
 msgstr "Največja količina gibanja, ki jo bo stabilizator zaznal."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:72
-msgid "Analysis Offset"
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:75
+#, fuzzy
+#| msgid "Analysis Offset"
+msgid "Analysis offset"
 msgstr "Zamik analize"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:74
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:77
 msgid "The distance between the track points."
 msgstr "Razdalja med dvema točkama sledenja."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:75
-msgid "Track Points"
-msgstr "Točke sledenja"
-
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:77
-msgid ""
-"When checked, the filter will apply the frame-to-frame transform in order to "
-"show the quality of the analysis. When you are satisfied with the analysis "
-"quality you can turn this off, as it adds approximately 50% to the analysis "
-"time."
-msgstr ""
-"Če je ta možnost potrjena, filter uporabi transformacijo od sličice do "
-"sličice, da prikaže kakovost analize. Ko ste zadovoljni s kakovostjo "
-"analize, lahko to možnost izklopite, saj se s tem čas analize podaljša za "
-"približno 50 %."
-
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:78
-msgid "Yaw / Pitch / Roll Amount"
-msgstr "Količina odklona / nagiba / kotaljenja"
+msgid "Use backwards-facing track point"
+msgstr ""
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:80
+msgid ""
+"If set, six backwards-facing track points will also be used to detect pitch "
+"and yaw motion. Disable if, for example, you show up holding the camera "
+"there."
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:81
+#, fuzzy
+#| msgid "Yaw / Pitch / Roll Amount"
+msgid "Yaw / Pitch / Roll amount"
+msgstr "Količina odklona / nagiba / kotaljenja"
+
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:82
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:88
+msgid "Percentage"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:83
 msgid ""
 "The amount of stabilization to apply. 100% means that the stabilizer will "
 "make the camera as steady as it can. Smaller values reduce the amount of "
@@ -204,11 +228,13 @@ msgstr ""
 "poskrbel, da bo kamera čim bolj stabilna. Manjše vrednosti zmanjšajo "
 "količino stabilizacije."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:81
-msgid "Yaw / Pitch / Roll Smoothing"
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:84
+#, fuzzy
+#| msgid "Yaw / Pitch / Roll Smoothing"
+msgid "Yaw / Pitch / Roll smoothing"
 msgstr "Glajenje z nihanjem / nagibanjem / kotaljenjem"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:83
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:86
 msgid ""
 "The number of frames to use to smooth out the shakes. The higher the value, "
 "the slower the camera will follow any intended motion."
@@ -216,11 +242,13 @@ msgstr ""
 "Število sličic, uporabljenih za glajenje tresljajev. Višja kot je vrednost, "
 "počasneje bo kamera sledila predvidenemu gibanju."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:84
-msgid "Yaw / Pitch / Roll Time Bias"
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:87
+#, fuzzy
+#| msgid "Yaw / Pitch / Roll Time Bias"
+msgid "Yaw / Pitch / Roll time bias"
 msgstr "Časovno odstopane odklona / nagibanja / kotaljenja"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:86
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:89
 msgid ""
 "Shift the frames used to smooth out the shakes relative to the stabilized "
 "frame. A value less than zero will give more weight to past frames, and the "
@@ -236,47 +264,47 @@ msgstr ""
 "bo, da se kamera premika pred predvidenim gibanjem kamere. Pri vrednosti nič "
 "naj bi kamera sledila predvideni poti."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:87
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:90
 msgid "Interpolation"
 msgstr "Interpolacija"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:88
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:91
 msgid "Selection"
 msgstr "Izbor"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:89
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:92
 msgid "Defines output quality"
 msgstr "Določa kakovost izhoda"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:92
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:95
 msgid "The following selection items are available:"
 msgstr "Na voljo so naslednji izbirni elementi:"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:94
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:97
 msgid ":guilabel:`Interpolation`"
 msgstr ":guilabel:`Interpolacija`"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:101
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:104
 msgid "Nearest-Neighbor"
 msgstr "Najbližji sosed"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:102
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:105
 msgid "default"
 msgstr "privzeto"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:103
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:106
 msgid "Bilinear"
 msgstr "Bilinearno"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:108
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:111
 msgid "How to Stabilize 360-degree Video"
 msgstr "Kako stabiliziramo video"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:109
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:112
 msgid "Add the 360-degree footage to the timeline"
 msgstr "Dodate 360-stopinjske posnetke na časovnico"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:111
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:114
 msgid ""
 "Apply the :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
 "vr360_hemi2equi` effect to it so it is in equirectangular format"
@@ -284,7 +312,7 @@ msgstr ""
 "Uveljavite učinek :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
 "vr360_hemi2equi`, tako da bo v enakokrakem formatu"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:113
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:116
 msgid ""
 "Apply the :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
 "vr360_transform` effect"
@@ -292,11 +320,11 @@ msgstr ""
 "Uveljavite učinek :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
 "vr360_transform`"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:115
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:118
 msgid "Apply this effect (VR360 Stabilize)"
 msgstr "Uveljavite ta učinek (Stabilizacija VR360)"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:117
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:120
 msgid ""
 "Select a file to store stabilization data in (:guilabel:`Motion Analysis "
 "File`)"
@@ -304,11 +332,11 @@ msgstr ""
 "Izberite datoteko za shranjevanje podatkov o stabilizaciji (:guilabel:"
 "`Datoteka analize gibanja`)"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:119
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:122
 msgid "Enable :guilabel:`Analyze` mode"
 msgstr "Omogočite način :guilabel:`Analiziraj`"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:121
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:124
 msgid ""
 "Use the :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
 "vr360_transform` effect to rotate the footage so that the point straight "
@@ -318,25 +346,39 @@ msgstr ""
 "vr360_transform` zavrtite posnetek tako, da bo točka naravnost pred vami nad "
 "središčnim skupkom točk sledenja"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:123
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:126
 msgid "Play the footage from start to finish."
 msgstr "Predvajajte posnetek od začetka do konca."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:125
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:128
 msgid ""
 "When the footage has completed playing, switch off the :guilabel:`Analyze` "
 "mode."
 msgstr ""
 "Ko je predvajanje posnetka končano, izklopite način :guilabel:`Analiziraj`."
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:127
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:130
 msgid "You should now have stable 360 video"
 msgstr "Zdaj bi morali imeti stabilen 360-stopinjski videoposnetek"
 
-#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:137
+#: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:140
 msgid ""
 "Parts of this documentation have been taken from the website of the filter's "
 "developer |bigsh0t|."
 msgstr ""
 "Deli te dokumentacije so bili prevzeti s spletne strani razvijalca filtra |"
 "bigsh0t|."
+
+#~ msgid "Track Points"
+#~ msgstr "Točke sledenja"
+
+#~ msgid ""
+#~ "When checked, the filter will apply the frame-to-frame transform in order "
+#~ "to show the quality of the analysis. When you are satisfied with the "
+#~ "analysis quality you can turn this off, as it adds approximately 50% to "
+#~ "the analysis time."
+#~ msgstr ""
+#~ "Če je ta možnost potrjena, filter uporabi transformacijo od sličice do "
+#~ "sličice, da prikaže kakovost analize. Ko ste zadovoljni s kakovostjo "
+#~ "analize, lahko to možnost izklopite, saj se s tem čas analize podaljša za "
+#~ "približno 50 %."
