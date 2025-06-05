@@ -1,15 +1,15 @@
 # Translation of docs_kdenlive_org_effects_and_filters___video_effects___image_adjustment___dilation.po to Catalan
-# Copyright (C) 2023-2024 This_file_is_part_of_KDE
+# Copyright (C) 2023-2025 This_file_is_part_of_KDE
 # Licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2023, 2024.
+# Josep M. Ferrer <txemaq@gmail.com>, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-03 01:57+0000\n"
-"PO-Revision-Date: 2024-01-09 20:17+0100\n"
+"PO-Revision-Date: 2025-06-04 15:43+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -49,15 +49,15 @@ msgstr "**Errors coneguts**"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:0
 msgid "1 2 3"
-msgstr ""
+msgstr "1 2 3"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:0
 msgid "4 P 5"
-msgstr ""
+msgstr "4 P 5"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:0
 msgid "6 7 8"
-msgstr ""
+msgstr "6 7 8"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:1
 msgid "Kdenlive Video Effects - Dilation"
@@ -109,6 +109,10 @@ msgid ""
 "maximum. It is the opposite of the :doc:`Erosion</effects_and_filters/"
 "video_effects/image_adjustment/erosion>` effect."
 msgstr ""
+"Aquest efecte/filtre simula la dilatació de la imatge, un efecte que "
+"ampliarà els píxels més clars de la imatge reemplaçant el píxel pel màxim "
+"local (3x3). És el contrari de l'efecte :doc:`Erosió</effects_and_filters/"
+"video_effects/image_adjustment/erosion>`."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:48
 msgid "Parameters"
@@ -133,7 +137,6 @@ msgstr "Enter"
 
 # skip-rule: rst-italic2
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:60
-#, fuzzy
 #| msgid ""
 #| "Limit the maximum change for each :term:`plane`, default is 50. If 0, "
 #| "plane will remain unchanged."
@@ -142,7 +145,7 @@ msgid ""
 "plane will remain unchanged."
 msgstr ""
 "Limita el canvi màxim de cada :term:`pla <plane>`. El valor predeterminat és "
-"50. Si és 0, el pla roman sense canvis."
+"65535. Si és 0, el pla roman sense canvis."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:61
 msgid "Coordinates"
@@ -158,11 +161,11 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:67
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:68
 msgid "The local 3x3 matrix looks like this (**P** represents the pixel):"
-msgstr ""
+msgstr "La matriu local 3x3 es veu així (**P** representa el píxel):"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:74
 msgid ""
@@ -170,10 +173,13 @@ msgid ""
 "of this matrix. Each point in the matrix is represented as a bit in a binary "
 "number\\ [1]_ with 8 bits."
 msgstr ""
+"El paràmetre :kbd:`Coordenades` és el valor decimal de la notació binària "
+"d'aquesta matriu. Cada punt de la matriu es representa com un bit en un "
+"nombre binari\\ [1]_ amb 8 bits."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:77
 msgid "Example 1:"
-msgstr ""
+msgstr "Exemple 1:"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:77
 msgid ""
@@ -181,6 +187,9 @@ msgid ""
 "`Coordinates` must be set to 00000111\\ :sub:`2`, or 2\\ :sup:`2` + 2\\ :sup:"
 "`1` + 2\\ :sup:`0` = 4 + 2 + 1 = 7\\ :sub:`10`"
 msgstr ""
+"Els píxels núm. 1, 2 i 3 s'utilitzaran a l'efecte de dilatació. Cal definir "
+"les :kbd:`Coordenades` a 00000111\\ :sub:`2` o 2\\ :sup:`2` + 2\\ :sup:"
+"`1` + 2\\ :sup:`0` = 4 + 2 + 1 = 7\\ :sub:`10`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:80
 msgid ""
@@ -188,22 +197,26 @@ msgid ""
 "10100101\\ :sub:`2`, or 2\\ :sup:`7` + 2\\ :sup:`5` + 2\\ :sup:`2` + 2\\ :"
 "sup:`0` = 128 + 32 + 4 + 1 = 165\\ :sub:`10`"
 msgstr ""
+"Els píxels núm. 1, 3, 6 i 8 s'utilitzaran a l'efecte de dilatació. Cal "
+"definir les :kbd:`Coordenades` a 10100101\\ :sub:`2` o 2\\ :sup:`7` + 2\\ "
+":sup:`5` + 2\\ :sup:`2` + 2\\ :sup:`0` = 128 + 32 + 4 + 1 = 165\\ :sub:`10`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:81
 msgid "Example 2:"
-msgstr ""
+msgstr "Exemple 2:"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:85
 msgid ""
 "Binary number's digits have 2 symbols: zero (0) and one (1). Each digit of a "
 "binary number counts a power of 2."
 msgstr ""
+"Els dígits d'un nombre binari tenen 2 símbols: zero (0) i un (1). Cada "
+"dígit d'un nombre binari compta una potència de 2."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:87
 msgid ""
 "Binary number example: 1101\\ :sub:`2` = 1×2\\ :sup:`3` + 1×2\\ :sup:`2` + "
 "0×2\\ :sup:`1` + 1×2\\ :sup:`0` = 13\\ :sub:`10`"
 msgstr ""
-
-#~ msgid "This effect/filter replaces the pixel by the local(3x3) maximum."
-#~ msgstr "Aquest efecte/filtre substitueix el píxel pel màxim local (3x3)."
+"Exemple de nombre binari: 1101\\ :sub:`2` = 1×2\\ :sup:`3` + 1×2\\ :sup:`2` "
+"+ 0×2\\ :sup:`1` + 1×2\\ :sup:`0` = 13\\ :sub:`10`"
