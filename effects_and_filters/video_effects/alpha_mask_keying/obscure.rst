@@ -82,7 +82,7 @@ Hide a region of the clip by pixelizing it (obscure). The effect's pixelization 
 
 Use the handles on the red rectangle\ [1]_ in the Project Monitor to change the size: use the center handle to move the rectangle around.
 
-The `Align` buttons can be used to align the red rectangle wih the left, vertical center, right, top, horizontal center, bottom edge of the clip, respectively. You can also adjust to original size, adjust to and center in frame, fit width, and fit height.
+The `Align` buttons can be used to align the red rectangle with the left, vertical center, right, top, horizontal center, bottom edge of the clip, respectively. You can also adjust to original size, adjust to and center in frame, fit width, and fit height.
 
 .. rst-class:: clear-both
 

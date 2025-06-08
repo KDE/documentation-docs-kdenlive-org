@@ -59,6 +59,6 @@ Remove green or blue spill light from subjects shot in front of green or blue sc
    * - Parameter
      - Value
      - Description
-   * - Supress Type
+   * - Suppress Type
      - Selection
      - Defines if green or blue screen spill suppress is applied
