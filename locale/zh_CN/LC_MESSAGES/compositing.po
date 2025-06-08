@@ -20,25 +20,25 @@ msgstr ""
 
 #: ../../compositing.rst:0
 msgid "Image file formats"
-msgstr ""
+msgstr "图像文件格式"
 
 #: ../../compositing.rst:0
 msgid "Video file formats"
-msgstr ""
+msgstr "视频文件格式"
 
 #: ../../compositing.rst:1
 msgid "Kdenlive Documentation - Compositing"
-msgstr ""
+msgstr "Kdenlive 文档 - 合成"
 
 #: ../../compositing.rst:1
 msgid ""
 "KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
 "learn, easy, compositing"
-msgstr ""
+msgstr "KDE,Kdenlive,文档,用户手册,视频编辑,开源,免费,学习,简单,视频合成"
 
 #: ../../compositing.rst:14
 msgid "Transitions and Compositions"
-msgstr ""
+msgstr "转场与合成"
 
 #: ../../compositing.rst:16
 msgid ""
@@ -46,6 +46,8 @@ msgid ""
 "different sources into a single video. It involves replacing selected parts "
 "of an image or video with other material, usually other images or videos."
 msgstr ""
+"合成是将来自不同来源的多个视觉元素组合成单个视频的过程。其涉及使用其他素材 "
+"(通常是其他图像或视频) 替换图像或视频的选定部分。"
 
 #: ../../compositing.rst:18
 msgid ""
@@ -56,6 +58,12 @@ msgid ""
 "rotoscoping>`, and masks are the most common features for making portions of "
 "the clips transparent."
 msgstr ""
+"要从多个片段创建合成，你需要透明化一个或多个片段，使得其他片段能够显示出"
+"来。\n"
+":doc:`Alpha 蒙版形状</effects_and_filters/video_effects/"
+"alpha_mask_keying>`,\n"
+":doc:`动态遮罩</effects_and_filters/video_effects/alpha_mask_keying/"
+"rotoscoping>`, 和遮罩是使片段部分透明的最常见方法。"
 
 #: ../../compositing.rst:20
 msgid ""
@@ -64,6 +72,10 @@ msgid ""
 "effect to control uniform transparency of a clip. This can be animated "
 "using :term:`keyframes <keyframe>` to fade a clip down or up over time."
 msgstr ""
+"您可以使用：:doc:`Transform</effects_and_filters/video_effects/"
+"transform_distort_perspective/transform>` 效果中的 :guilabel:`不透明度` 参数"
+"来控制剪辑的均匀透明度。该参数可以通过 :term:`关键帧<keyframe>` 进行动画处"
+"理，使剪辑可以随时间逐渐淡入淡出。"
 
 #: ../../compositing.rst:22
 msgid ""
@@ -71,20 +83,23 @@ msgid ""
 "channel. You can tell Kdenlive how to use this information during "
 "compositing. The following file formats may contain an alpha channel:"
 msgstr ""
+"某些片段可能在其 Alpha 通道中存储了透明度信息。您可以在合成过程中告诉 "
+"Kdenlive 如何使用此信息。以下文件格式可能包含 Alpha 通道："
 
 #: ../../compositing.rst:25
 msgid "EXR, PNG, APNG, TIFF, GIF, SVG, JXL"
-msgstr ""
+msgstr "EXR, PNG, APNG, TIFF, GIF, SVG, JXL"
 
 #: ../../compositing.rst:28
 msgid "MOV, HEVC, WEBM"
-msgstr ""
+msgstr "MOV, HEVC, WEBM"
 
 #: ../../compositing.rst:30
 msgid ""
 "Compositing more than two clips requires subsequent compositions between the "
 "other tracks, or the clever use of alpha channels and mattes."
 msgstr ""
+"合成两个以上的片段需要在多个轨道之间进行合成，或者组合使用 Alpha 通道和遮罩。"
 
 #: ../../compositing.rst:32
 msgid ""
@@ -93,15 +108,22 @@ msgid ""
 "the *Dissolve* composition fades out one clip while fading in another over a "
 "certain number of frames."
 msgstr ""
+"在 Kdenlive 中，您需要将不同的素材放入**时间轴**中的轨道，并使用**合成**来告"
+"诉 Kdenlive 如何将它们组合在一起。例如，“溶解”合成滤镜会在一定帧数内淡出一个"
+"片段的同时淡入另一个片段。"
 
 #: ../../compositing.rst:34
 msgid ""
 "That is why :doc:`/compositing/compositions` are often referred to as :doc:`/"
 "compositing/transitions`."
 msgstr ""
+"这就是为什么：:doc:`/compositing/compositions` 通常被称为 :doc:`/compositing/"
+"transitions`。"
 
 #: ../../compositing.rst:36
 msgid ""
 "Alpha channels are taken into account automatically so that clips with alpha "
 "can be stacked on top of each other without the need of compositions."
 msgstr ""
+"Alpha 通道会自动进行计算，因此带有 Alpha 通道的片段可以互相叠加，而无需使用合"
+"成。"
