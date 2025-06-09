@@ -4,14 +4,13 @@
 # Automatically generated, 2024.
 #
 # SPDX-FileCopyrightText: 2024 Eloy Cuadra <ecuadra@eloihr.net>
-# Gabriel Gazzán <gabcorreo@gmail.com>, %Y.
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_tips_and_tricks___tips_and_tricks___timeline_preview_rendering\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2024-02-01 01:55+0100\n"
+"PO-Revision-Date: 2025-06-08 11:36+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../<generated>:1
 msgid "**Sources**"
@@ -27,7 +26,7 @@ msgstr "**Fuentes**"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:1
 msgid "Kdenlive Tips & Tricks - Timeline Preview Rendering"
-msgstr ""
+msgstr "Consejos y trucos de Kdenlive - Previsualización de la línea de tiempo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:1
 msgid ""
@@ -35,16 +34,22 @@ msgid ""
 "render, documentation, user manual, video editor, open source, free, learn, "
 "easy"
 msgstr ""
+"KDE, Kdenlive, documentación, manual de usuario, editor de video, código "
+"abierto, libre, aprender, fácil, edición, consejos, trucos, consejos y "
+"trucos, previsualización de la línea de tiempo, previsualización, línea de "
+"tiempo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:15
 msgid "Timeline Preview Rendering"
-msgstr ""
+msgstr "Previsualización de la línea de tiempo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:19
 msgid ""
 "Timeline preview rendering is an outstanding feature of Kdenlive. It "
 "officially debuted in version 16.08."
 msgstr ""
+"La previsualización de la Línea de tiempo es una característica destacada de "
+"Kdenlive. Se lanzó oficialmente en la versión 16.08."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:21
 msgid ""
@@ -55,14 +60,24 @@ msgid ""
 "smooth playback. This way you can check that your timing of keyframes and "
 "effect is working out nicely."
 msgstr ""
+"El procesamiento de previsualizaciones permite procesar la línea de tiempo "
+"completa o algunas partes de ella, en segundo plano, para que sea posible "
+"reproducirla de forma fluida. Esto será especialmente útil al trabajar con "
+"composiciones de pistas complejas o usar efectos que requieran un uso "
+"intensivo de recursos computacionales. En lugar de una reproducción "
+"entrecortada, será posible obtener una reproducción fluida. De esta manera, "
+"será posible comprobar que la sincronización de los fotogramas clave y de "
+"los efectos funcione correctamente."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:25
 msgid "Full-FPS Preview of Effect-Heavy Timeline Clips"
 msgstr ""
+"Previsualización a velocidad completa de clips con efectos pesados en la "
+"línea de tiempo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:34
 msgid "Raw source footage"
-msgstr ""
+msgstr "Material en crudo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:36
 msgid ""
@@ -72,12 +87,20 @@ msgid ""
 "`fps (frames per second)`. This is not even a job for proxy clips on a "
 "decent system."
 msgstr ""
+"**Material en crudo**: un buen ejemplo para las capacidades de "
+"previsualización de la línea de tiempo de Kdenlive es éste: digamos que se "
+"tiene un material original en FullHD. En crudo, el sistema es fácilmente "
+"capaz de reproducirlo a su velocidad original de 25\\ :abbr:`fps (fotogramas "
+"por segundo)`. Este no sería un trabajo ni siquiera para el uso de clips de "
+"reemplazo en un sistema decente."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:38
 msgid ""
 "But this raw footage needs some serious processing before it can be shown to "
 "any audience."
 msgstr ""
+"Sin embargo, este material en crudo necesitará un procesamiento bastante "
+"intenso antes de que pueda ser mostrado a la audiencia."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:47
 msgid "Effects applied"
@@ -94,6 +117,16 @@ msgid ""
 "color_image_correction/curves>`, correct :doc:`saturation </"
 "effects_and_filters/video_effects/color_image_correction/saturation>`)."
 msgstr ""
+"**Efectos de referencia**. Para la producción, será necesario :doc:`quitar "
+"la distorsión de la lente </effects_and_filters/video_effects/"
+"transform_distort_perspective/defish>` de este material (las cámaras de "
+"acción suelen tener esa tendencia). Después de revertir la distorsión, será "
+"necesario :doc:`enfocarlo </effects_and_filters/video_effects/"
+"blur_and_sharpen>`. Y luego, también será necesario realizar el etalonaje "
+"(por ejemplo, descomprimiendo la :doc:`curva </effects_and_filters/"
+"video_effects/color_image_correction/curves>` tonal y corrigiendo la :doc:"
+"`saturación </effects_and_filters/video_effects/color_image_correction/"
+"saturation>`)."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:51
 msgid ""
@@ -101,6 +134,9 @@ msgid ""
 "shown in the bottom right corner of the monitor: a dismal six frames per "
 "second!"
 msgstr ""
+"Con estos cuatro inocentes efectos aplicados, si se revisa la velocidad de "
+"reproducción mostrada en la esquina inferior derecha del monitor: ¡se ven "
+"unos tristes 6 fps!"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:55
 msgid ""
@@ -108,16 +144,24 @@ msgid ""
 "low-res and low-quality variants of the source clips, without any effects "
 "applied. So our effects will also slow down proxy clips considerably."
 msgstr ""
+"Desafortunadamente, los clips de reemplazo no serán de ayuda en esta "
+"situación: los clips de reemplazo son versiones de baja resolución y calidad "
+"de los clips originales, sin incorporar ningún efecto aplicado. Por lo que "
+"los efectos anteriores seguirán enlenteciendo la reproducción de forma "
+"considerable."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:59
 msgid "Using Timeline Preview Rendering"
-msgstr ""
+msgstr "Uso de las previsualizaciones de la línea de tiempo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:61
 msgid ""
 "Timeline preview rendering does **not** speed up timeline *editing*. It "
 "speeds up the timeline *playback*."
 msgstr ""
+"El procesamiento de previsualizaciones de la línea de tiempo **no** "
+"acelerará la *edición* en la Línea de tiempo. Sí acelerará la *reproducción* "
+"de la línea de tiempo."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:63
 msgid ""
@@ -127,6 +171,14 @@ msgid ""
 "Any change to the video portion covered by the preview render zone triggers "
 "a new render pass."
 msgstr ""
+"Las previsualizaciones únicamente mejorarán la parte de video de la línea de "
+"tiempo. Kdenlive siempre procesará el audio de forma independiente a las "
+"previsualizaciones. Con respecto a esto, será posible realizar todo tipo de "
+"cambios al audio, en cualquier momento, sin afectar a las previsualizaciones "
+"que ya hubieran sido procesadas. Cualquier cambio a la parte de video de una "
+"región de la línea de tiempo abarcada por alguna zona de previsualización, "
+"hará que la previsualización de esa zona quede obsoleta y deba volver a ser "
+"procesada."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:70
 msgid ""
@@ -135,16 +187,25 @@ msgid ""
 "most of the menu items also in :menuselection:`Menu --> Timeline --> "
 "Timeline Preview` which opens a fly-out menu with all the options."
 msgstr ""
+"El procesamiento de previsualizaciones de la Línea de tiempo podrá ser "
+"controlado mediante el uso del botón (y el menú desplegable) :guilabel:"
+"`Previsualizar` en la barra de herramientas de la Línea de tiempo. "
+"Alternativamente, también será posible encontrar la mayor pare de esas "
+"mismas opciones en el menú :menuselection:`Línea de tiempo --> "
+"Previsualización`."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:76
 msgid "Step 1: Set Preview Zone"
-msgstr ""
+msgstr "Paso 1: Definir la zona de previsualización"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:83
 msgid ""
 "Set the timeline zone in (:kbd:`I`) and out (:kbd:`O`) points for the zone "
 "you want to render for preview."
 msgstr ""
+"Definir la zona de la línea de tiempo mediante el marcado de puntos de "
+"entrada (:kbd:`I`) y salida (:kbd:`O`), delimitando la zona que se desee "
+"previsualizar."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:87
 msgid ""
@@ -152,14 +213,18 @@ msgid ""
 "via :menuselection:`Menu --> Timeline --> Timeline Preview --> Add Preview "
 "Zone`)."
 msgstr ""
+"A continuación, seleccionar la opción :guilabel:`Agregar zona de "
+"previsualización` |preview-add-zone| (alternativamente mediante el menú :"
+"menuselection:`Línea de tiempo --> Previsualización --> Agregar zona de "
+"previsualización`)."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:89
 msgid "For the first time, you will not see any change yet."
-msgstr ""
+msgstr "La primera vez no se observará ningún cambio aún."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:93
 msgid "Step 2: Render Preview Zone in Background"
-msgstr ""
+msgstr "Paso 2: Procesar la zona de previsualización en segundo plano"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:100
 msgid ""
@@ -167,10 +232,13 @@ msgid ""
 "Preview --> Start Preview Render`). Or press :kbd:`Shift+Return`, or click "
 "on |preview-render-on|."
 msgstr ""
+"Seleccionar Previsualizar (:menuselection:`Línea de tiempo --> "
+"Previsualización --> Previsualizar`). O pulsar :kbd:`Mayús+Intro` o hacer "
+"clic en el botón |preview-render-on|."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:102
 msgid "You can even add multiple, non-contiguous preview rendering zones."
-msgstr ""
+msgstr "Será posible agregar varias zonas de previsualización no contiguas."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:104
 msgid ""
@@ -178,6 +246,9 @@ msgid ""
 "background rendering progresses, this bar will slowly turn yellow then "
 "green, chunk by chunk."
 msgstr ""
+"Aparecerá una barra roja entre la regla de tiempo y la primera pista de "
+"video. A medida que el procesamiento en segundo plano vaya progresando, esta "
+"barra se irá tornando primero amarilla y luego verde, bloque a bloque."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:106
 msgid ""
@@ -186,16 +257,26 @@ msgid ""
 "touch your preview zones, rendering will stop and the affected preview zones "
 "turn back to red. Simply restart rendering if needed."
 msgstr ""
+"Se podrá continuar con el trabajo en cualquier parte del programa con "
+"normalidad, mientras las previsualizaciones están siendo calculadas (y "
+"después de haber finalizado su procesamiento). Sin embargo, en el momento en "
+"que algún cambio en la edición de clips o transiciones afecte a alguna de "
+"las zonas que estén siendo previsualizadas, el procesamiento se detendrá y "
+"las zonas afectadas volverán a quedar en rojo. Bastará con reiniciar el "
+"procesamiento, si fuera necesario."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:108
 msgid ""
 "The preview is divided into chunks of 25 frames each in size - this "
 "corresponds with one second of playback length for 25fps projects."
 msgstr ""
+"La previsualización se dividirá en bloques de 25 fotogramas, que "
+"corresponderán a un segundo de reproducción, en proyectos que usen una "
+"velocidad de 25fps."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:114
 msgid "Step 3: Enjoy Smooth Timeline Preview"
-msgstr ""
+msgstr "Paso 3: Disfrutar una reproducción fluida de la línea de tiempo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:123
 msgid ""
@@ -203,24 +284,31 @@ msgid ""
 "should immediately notice that scrubbing such timeline zones will be much "
 "faster, too."
 msgstr ""
+"Todos los bloques de la línea de tiempo mostrados en color verde podrán ser "
+"reproducidos en tiempo real. También debería notarse la mejora en la "
+"velocidad de respuesta al arrastrar el cursor de tiempo en dichas zonas de "
+"la línea de tiempo."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:132
 msgid "Preview Rendering enables smooth playback"
-msgstr ""
+msgstr "Las previsualizaciones permitiendo una reproducción fluida"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:134
 msgid ""
 "Timeline playback is now full 25fps, even as the corresponding timeline clip "
 "makes heave use of effects (especially de-fish is computational intensive)."
 msgstr ""
+"La reproducción de la línea de tiempo es ahora de 25fps, aún en casos como "
+"éste en donde el clip hace un fuerte uso de efectos (especialmente el efecto "
+"*Quitar distorsión* es especialmente intenso en el cálculo)."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:140
 msgid "Good to Know"
-msgstr ""
+msgstr "Es bueno saber"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:143
 msgid "Smart Preview Undo/Redo"
-msgstr ""
+msgstr "Uso inteligente de Deshacer/Rehacer con previsualizaciones"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:145
 msgid ""
@@ -229,10 +317,15 @@ msgid ""
 "and redoing the effect change without having to render the preview once "
 "again."
 msgstr ""
+"Kdenlive es suficientemente inteligente como para soportar algunos niveles "
+"de deshacer y rehacer. Por lo que será posible comprobar el resultado de "
+"distintos valores de un determinado efecto, mediante el uso rápido de las "
+"funciones Deshacer y Rehacer, sin que exista la necesidad de volver a "
+"procesar las previsualizaciones nuevamente."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:149
 msgid "Preview Cache Storage"
-msgstr ""
+msgstr "Almacenamiento de previsualizaciones en caché"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:158
 msgid ""
@@ -240,6 +333,10 @@ msgid ""
 "timeline preview. Use :menuselection:`Menu --> Project --> Project "
 "Settings`, then select the tab :guilabel:`Cache Data`."
 msgstr ""
+"Será posible saber cuánto espacio de almacenamiento se está usando "
+"actualmente para las previsualizaciones de la línea de tiempo. Usar :"
+"menuselection:`Proyecto --> Opciones del proyecto`, luego seleccionar la "
+"pestaña :guilabel:`Datos en caché`."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:160
 msgid ""
@@ -247,14 +344,18 @@ msgid ""
 "You can purge the cache used for the timeline preview by clicking on the |"
 "edit-delete| button next to :guilabel:`Timeline Preview`."
 msgstr ""
+"Kdenlive mostrará una gráfica circular que indicará el espacio consumido en "
+"el disco por los datos en caché. Será posible purgar el caché usado por las "
+"previsualizaciones de la línea de tiempo, haciendo clic en el botón |edit-"
+"delete| junto a la leyenda :guilabel:`Previsualización`."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:166
 msgid "Preview Profiles"
-msgstr ""
+msgstr "Perfiles de previsualización"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:173
 msgid ":menuselection:`Menu --> Project --> Project Settings`"
-msgstr ""
+msgstr ":menuselection:`Proyecto --> Opciones del proyecto`"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:175
 msgid ""
@@ -262,6 +363,9 @@ msgid ""
 "guilabel:`Auto`. Kdenlive then will select a suitable preview profile based "
 "on your project profile."
 msgstr ""
+"La mayor parte del tiempo debería ser suficiente mantener el perfil de "
+"previsualización en :guilabel:`Auto`. Kdenlive podrá seleccionar un perfil "
+"de previsualización apropiado, basándose en el perfil del proyecto activo."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:177
 msgid ""
@@ -271,10 +375,16 @@ msgid ""
 "Parameters` |configure| button next to the :guilabel:`Timeline Preview` "
 "profile selection."
 msgstr ""
+"En algunos casos poco frecuentes, como al usarse velocidades de fotograma "
+"inusuales o cuando se desea controlar la calidad de codificación del "
+"procesamiento de las previsualizaciones, será posible cambiar el perfil de "
+"previsualización o crear uno nuevo. Usar el botón :guilabel:`Administrar "
+"perfiles de codificación` |configure| junto al menú de selección de :"
+"guilabel:`Previsualización de línea de tiempo`."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:183
 msgid "De-synchronized Preview"
-msgstr ""
+msgstr "Previsualización fuera de sincronismo"
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:185
 msgid ""
@@ -284,6 +394,14 @@ msgid ""
 "back to a sane preview state. Then add the zone(s) back again (using :kbd:"
 "`I` and :kbd:`O` and |preview-add-zone|), and rerender (|preview-render-on|)."
 msgstr ""
+"En caso de que, por alguna razón, una previsualización procesada quedara "
+"fuera de sincronismo con la edición de la línea de tiempo, simplemente "
+"eliminar la zona de previsualización correspondiente (|preview-remove-zone|) "
+"o todas las zonas de previsualización (|preview-remove-all|\\ ). Esto "
+"saneará las previsualizaciones de la línea de tiempo. A continuación, "
+"agregar nuevamente las zonas (usando los atajos :kbd:`I` y :kbd:`O` y el "
+"botón |preview-add-zone|) y para luego procesarla usando el botón |preview-"
+"render-on|."
 
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:190
 msgid "Notes"
@@ -295,3 +413,7 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
+"El texto original fue enviado por el usuario *TheDiveO* al (ahora difunto) "
+"blog de kdenlive.org. Para su uso en esta documentación, el texto ha sido "
+"tomado de |kdenlive_org|, actualizado y adaptado para que coincida con el "
+"estilo general de este manual."

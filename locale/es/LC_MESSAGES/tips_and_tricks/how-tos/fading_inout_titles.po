@@ -4,14 +4,13 @@
 # Automatically generated, 2024.
 #
 # SPDX-FileCopyrightText: 2024 Eloy Cuadra <ecuadra@eloihr.net>
-# Gabriel Gazzán <gabcorreo@gmail.com>, %Y.
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_kdenlive_org_tips_and_tricks___how-"
-"tos___fading_inout_titles\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2024-02-01 01:51+0100\n"
+"PO-Revision-Date: 2025-06-08 11:36+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../<generated>:1
 msgid "**Sources**"
@@ -28,6 +27,8 @@ msgstr "**Fuentes**"
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:1
 msgid "Kdenlive Tips & Tricks - How to Fading In/Out of Titles"
 msgstr ""
+"Consejos y trucos de Kdenlive - Guía para fundido entrante/saliente de "
+"títulos"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:1
 msgid ""
@@ -35,10 +36,13 @@ msgid ""
 "fading out, titles, documentation, user manual, video editor, open source, "
 "free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, editor de video, ayuda, aprender, fácil, efectos, corrección "
+"de color, información útil, consejos y trucos, tutorial, guía, fundido "
+"entrante/saliente de títulos, fundido, títulos"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:15
 msgid "How to Fading In/Out of Titles"
-msgstr ""
+msgstr "Guía para fundido entrante/saliente de títulos"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:17
 msgid ""
@@ -49,20 +53,30 @@ msgid ""
 "Fade from/to Black effects though, as these effects remove the title "
 "transparency information."
 msgstr ""
+"En este breve video de *guía* se muestra cómo realizar un fundido entrante o "
+"saliente suave de títulos de Kdenlive sobre un clip de video o una "
+"transparencia. La clave del éxito es el uso de la transición **Componer y "
+"transformar** utilizando claves de animación (las transiciones "
+"**Transformar** y **Componer** también funcionarán). También podrán usarse "
+"los efectos **Fundido entrante** y **Fundido saliente**, que no requerirán "
+"del uso de claves de animación, sino que permitirán establecer una duración "
+"para el fundido."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:27
 msgid "These are the individual steps shown in video:"
-msgstr ""
+msgstr "Estos son los pasos individuales mostrados en el video:"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:29
 msgid "Add a Composite & Transform transition to the title clip."
-msgstr ""
+msgstr "Agregar una transición **Componer y transformar** al clip de título."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:30
 msgid ""
 "First keyframe: set :guilabel:`Opacity` to 0%. This marks the beginning of "
 "the fade in (ramp up)."
 msgstr ""
+"Primer clave: definir la :guilabel:`Opacidad` en 0%. Esto marcará el "
+"comienzo del fundido entrante."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:31
 msgid ""
@@ -70,6 +84,9 @@ msgid ""
 "faded in, set :guilabel:`Opacity` to 100%. Set the type of the keyframe to :"
 "guilabel:`Linear`."
 msgstr ""
+"Segundo clave: agregar un nuevo clave en el instante en que se desee que el "
+"título quede completamente visible, definir la :guilabel:`Opacidad` en 100%. "
+"Establecer el tipo de interpolación del clave en :guilabel:`Lineal`."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:33
 msgid ""
@@ -79,12 +96,21 @@ msgid ""
 "possible opacity of 100% you will not notice. However, when you use a "
 "maximum opacity of less than 100%, then this overshooting may become visible."
 msgstr ""
+"La razón para establecer la interpolación de este clave en :guilabel:"
+"`Lineal` es que , de otro modo, Kdenlive (MLT) calcularía una curva suave "
+"entre el fotograma anterior y el siguiente, causando que el valor de "
+"opacidad se sobrepasara. Al usar una opacidad máxima de 100% esto no sería "
+"notado. Sin embargo, en caso de que se usara una opacidad final de menos de "
+"100%, este sobrepaso del valor sí causaría un comportamiento inesperado."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:34
 msgid ""
 "Ensure that the first keyframe is Smooth. You can only adjust the type of "
 "the first keyframes after you have added a second keyframe."
 msgstr ""
+"Asegurarse de que la interpolación del primer clave sea *Suave*. (Sólo será "
+"posible cambiar la interpolación del primer fotograma clave, luego de haber "
+"agregado algún otro clave a la animación)."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:36
 msgid ""
@@ -92,12 +118,18 @@ msgid ""
 "fading out the title. Leave the opacity at 100%. Set the keyframe type to :"
 "guilabel:`Smooth`."
 msgstr ""
+"Tercer clave: Agregar otro clave cerca del final, en el punto en donde se "
+"desee que comience el fundido saliente del título. Mantener la opacidad en "
+"su nivel máximo (en este caso 100%). Establecer la interpolación del clave "
+"en :guilabel:`Suave`."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:37
 msgid ""
 "Fourth keyframe: Add a final keyframe, where you set :guilabel:`Opacity` to "
 "0%."
 msgstr ""
+"Cuarto clave: Agregar un clave final, en el cual se definirá la :guilabel:"
+"`Opacidad` en 0%."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:39
 msgid ""
@@ -105,6 +137,9 @@ msgid ""
 "see this chapter about the :doc:`/tips_and_tricks/useful_info/"
 "smooth_keyframe_interpolation`."
 msgstr ""
+"Para más información acerca de mezclar claves con interpolaciones suave y "
+"lineal ver esta sección acerca de la :doc:`/tips_and_tricks/useful_info/"
+"smooth_keyframe_interpolation`."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:44
 msgid "Notes"
@@ -116,3 +151,7 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
+"El texto original fue enviado por el usuario *TheDiveO* al (ahora "
+"desaparecido) blog kdenlive.org. Para esta documentación, ha sido tomado "
+"desde |kdenlive_org| actualizado y adaptado para que coincida con el estilo "
+"de esta documentación."
