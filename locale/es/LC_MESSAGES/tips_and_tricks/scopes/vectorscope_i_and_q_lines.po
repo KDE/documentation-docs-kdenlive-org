@@ -4,14 +4,13 @@
 # Automatically generated, 2024.
 #
 # SPDX-FileCopyrightText: 2024 Eloy Cuadra <ecuadra@eloihr.net>
-# Gabriel Gazzán <gabcorreo@gmail.com>, %Y.
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_tips_and_tricks___scopes___vectorscope_i_and_q_lines\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-05 12:20+0000\n"
-"PO-Revision-Date: 2024-02-01 01:52+0100\n"
+"PO-Revision-Date: 2025-06-11 00:44+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../<generated>:1
 msgid "**Sources**"
@@ -27,7 +26,7 @@ msgstr "**Fuentes**"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:1
 msgid "Kdenlive Tips & Tricks - The Vectorscope's I and Q Lines"
-msgstr ""
+msgstr "Consejos y trucos de Kdenlive - Los ejes I y Q del vectorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:1
 msgid ""
@@ -35,24 +34,30 @@ msgid ""
 "editing, timeline, documentation, user manual, video editor, open source, "
 "free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, edición, línea de tiempo, documentación, manual de usuario, "
+"editor de video, código abierto, libre, ayuda, aprender, fácil, consejos y "
+"trucos, consejos, trucos, ejes i y q del vectorscopio, ejes i y q, i/q, "
+"ejes , vectorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:22
 msgid "Vectorscope I and Q Lines"
-msgstr ""
+msgstr "Los ejes I y Q del vectorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:24
 msgid ""
 "The Vectorscope has an option to draw I/Q lines. So you may be wondering "
 "what are they good for?"
 msgstr ""
+"El Vectorscopio contiene una opción que permite mostrar unos ejes I y Q. "
+"Surge la pregunta: ¿para qué sirven?"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:30
 msgid "I and Q lines in the Vectorscope"
-msgstr ""
+msgstr "Los ejes I y Q del Vectorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:33
 msgid "Where I/Q lines Come From"
-msgstr ""
+msgstr "¿De dónde provienen los ejes I y Q?"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:35
 msgid ""
@@ -66,6 +71,17 @@ msgid ""
 "them in equal parts results in neutral again - which is why they can be used "
 "for the deviation.)"
 msgstr ""
+"Posiblemente se recuerde del :doc:`capítulo del Vectorscopio "
+"<vectorscope_working>` que el Vectorscopio utiliza un espacio de color "
+"distinto al RVA. En la imagen de arriba es el :term:`YUV`, en la de abajo "
+"el :term:`YPbPr`. Ambos comparten la propiedad de que el componente Y "
+"represente sólo al canal de luminancia (:term:`Luma`, es decir, la "
+"intensidad del brillo de un píxel), mientras que los otros dos componentes "
+"representan el :term:`Croma` (color) expresando como desviaciones a partir "
+"de un color neutral en los ejes rojo-verde y amarillo-azul. (Que son colores "
+"mutuamente complementarios, por lo que al mezclarlos en partes iguales se "
+"vuelve a producir el color neutral - razón por la cual pueden ser usados "
+"como una desviación.)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:37
 msgid ""
@@ -77,14 +93,21 @@ msgid ""
 "the Q component (which represents the green-purple line; the human eye is "
 "also less sensitive for changes on this line)."
 msgstr ""
+"YUV es el espacio de color estándar de la televisión PAL. NTSC, el estándar "
+"estadounidense de TV analógica, utiliza un espacio de color aún no "
+"mencionado: el :term:`YIQ`. Lo especial acerca de este espacio de color es "
+"que su componente I fue escogido de tal manera que los tonos de la piel "
+"cayeran sobre ese eje I (naranja-azul), al cual se le otorgó más de cuatro "
+"veces el ancho de banda del componente Q (que representa al eje verde-"
+"morado; a cuyos cambios el ojo humano es, casualmente, menos sensible)."
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:43
 msgid "Vectorscope showing skin tones along the I line"
-msgstr ""
+msgstr "Vectorscopio mostrando los tonos de piel a lo largo del eje I"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:46
 msgid "Purpose of the I and the Q line"
-msgstr ""
+msgstr "Propósito de los ejes I y Q"
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:48
 msgid ""
@@ -93,6 +116,11 @@ msgid ""
 "approximately lie on the I line. If it is not, you might want to |color-"
 "correct| your clip."
 msgstr ""
+"La visualización de los ejes Q y especialmente I es deseable para asistir en "
+"la corrección de tonos de piel. Existe una regla en posproducción, que dice "
+"que cualquier tono de piel debería caer aproximadamente sobre el eje I. Si "
+"no fuera así, es probable que se deba corregir el color de la imagen del "
+"clip. Ver |color-correct|."
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:50
 msgid ""
@@ -101,6 +129,11 @@ msgid ""
 "look unnatural. There are very good picture examples in the Save our Skins "
 "article mentioned above."
 msgstr ""
+"La razón simple detrás de esto es que nuestros ojos se encuentran entrenados "
+"en la detección de tonos de piel y si estos tonos en un video no se "
+"encontraran sobre el eje I es muy probable que tampoco luzcan naturales al "
+"espectador. Existen muchos ejemplos de películas en el artículo \"Save our "
+"Skins\" mencionado arriba."
 
 #: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:55
 msgid "Notes"
@@ -121,3 +154,7 @@ msgid ""
 "documentation it has been lifted from |web_archive|, updated and adapted to "
 "match the overall style."
 msgstr ""
+"El texto original fue enviado por *Simon A. Eugster (Granjow)*, el "
+"26/11/2010, al (ahora desaparecido) blog kdenlive.org. Para esta "
+"documentación, fue tomado del sitio |web_archive|, actualizado y adaptado "
+"para que coincida con el estilo general de la misma."

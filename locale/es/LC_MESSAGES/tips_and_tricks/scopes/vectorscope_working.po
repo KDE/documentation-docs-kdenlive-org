@@ -1,32 +1,32 @@
-# Spanish translations for docs_kdenlive_org_glossary___introducing_scopes___vectorscope_working.po package.
+# Spanish translations for docs_kdenlive_org_tips_and_tricks___scopes___vectorscope_working.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2022.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2022.
+#
+# SPDX-FileCopyrightText: 2022 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_glossary___introducing_scopes___vectorscope_working\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-21 01:53+0000\n"
-"PO-Revision-Date: 2022-02-27 13:30+0100\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"PO-Revision-Date: 2025-06-11 00:44+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../<generated>:1
 msgid "**Sources**"
-msgstr ""
+msgstr "**Fuentes**"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:1
 msgid "Kdenlive Tips & Tricks - The Vectorscope"
-msgstr ""
+msgstr "Consejos y trucos de Kdenlive - El vectorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:1
 msgid ""
@@ -34,6 +34,9 @@ msgid ""
 "timeline, documentation, user manual, video editor, open source, free, "
 "learn, easy"
 msgstr ""
+"KDE, Kdenlive, edición, línea de tiempo, documentación, manual de usuario, "
+"editor de video, código abierto, libre, ayuda, aprender, fácil, consejos y "
+"trucos, consejos, trucos, instrumentos, vectorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:42
 msgid "The Vectorscope"
@@ -47,10 +50,14 @@ msgid ""
 "interesting scope because it is quite different from the other ones and, "
 "secondly, is really useful for :term:`color grading`."
 msgstr ""
+"El próximo instrumento (después del :ref:`Histograma <scopes-"
+"histogram_working>`, :ref:`Forma de onda y Presentación RVA <scopes-"
+"waveform_and_rgb_parade>`) en ser presentado en más detalle será el "
+"**Vectorscopio**. Es, de hecho, el más interesante dado que es "
+"sustancialmente distinto a los demás y que, además, resulta sumamente útil "
+"durante el :term:`etalonaje`."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:51
-#, fuzzy
-#| msgid "How the Vectorscope works"
 msgid "How the Vectorscope Works"
 msgstr "Cómo funciona el vectorscopio"
 
@@ -61,6 +68,11 @@ msgid ""
 "previous scopes allow you to determine which brightness values exist in your "
 "image, the Vectorscope shows which colors there are."
 msgstr ""
+"Existe una cosa simple que hace tan especial al Vectorscopio: Que utiliza un "
+"espacio de color distinto al RVA. Esto suena muy poco espectacular, pero "
+"realmente no lo es. Los instrumentos anteriores permitían determinar qué "
+"valores de brillo existían en la imagen, mientras que el vectorscopio es "
+"capaz de mostrar cuáles son esos colores."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:55
 msgid ""
@@ -74,6 +86,17 @@ msgid ""
 "`Luma`), called U and V. For more details look at the image with its "
 "individual YUV components on the Wikipedia page about |yuv|."
 msgstr ""
+"El vectorscopio soporta dos espacios de color distintos: el :term:`YUV` y "
+"el :term:`YPbPr`. Ambos tienen en común el *Y*, un componente ya visto "
+"anteriormente: Se trata del componente de *Luma* (Rec.601 en ambos casos, "
+"vale aclarar). Éste, entre otros, proviene de la TV en blanco y negro. "
+"Cuando se introdujo la TV en colores, algunas personas reconocieron que no "
+"todo el mundo tiraría inmediatamente sus aparatos para comprar uno nuevo en "
+"colores, razón por la cual mantuvieron la emisión de la señal en \"blanco y "
+"negro\", aunque con dos canales adicionales: La diferencia de azul y la "
+"diferencia de rojo (con respecto al canal de :term:`Luma`), llamados "
+"respectivamente U y V. Para más detalles, ver la imagen con sus componentes "
+"individuales YUV en la página de Wikipedia sobre YUV (|yuv|)."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:57
 msgid ""
@@ -83,6 +106,11 @@ msgid ""
 "colors are slightly shifted. YCbCr is used basically everywhere in digital "
 "video."
 msgstr ""
+"El otro espacio de color, :term:`YPbPr` o su contraparte digital :term:"
+"`YCbCr`, son similares. Al cambiar entre ambos modelos de color en el "
+"Vectorscopio (mediante el menú contextual) se podrá notar cómo los colores "
+"se desplazan ligeramente. YCbCr es usado de forma prácticamente universal "
+"para video digital."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:59
 msgid ""
@@ -93,18 +121,24 @@ msgid ""
 "difference is on the vertical axis. (There actually are three-dimensional "
 "vectorscopes which put the Luma component on the third axis!)"
 msgstr ""
+"Entonces, ¿qué hace el vectorscopio? Calcula el valor de Luma de un píxel, "
+"luego calcula los valores de diferencia de azul/diferencia de rojo. Después "
+"de esto, descarta el valor de Luma. ¿Por qué? Es porque el vectorscopio es "
+"bidimensional. La diferencia de azul se grafica en el eje horizontal y la "
+"diferencia de rojo en el vertical. (¡De hecho existen vectorscopios "
+"tridimensionales, capaces de colocar el componente de Luma en un tercer eje!)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:62
 msgid "Example 1: Grayscale Video"
-msgstr ""
+msgstr "Ejemplo 1: Video en tonos de gris"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:64
 msgid "Now let's see at how this actually looks like in a video."
-msgstr ""
+msgstr "Veremos ahora cómo se ve esto realmente con un video."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:70
 msgid "Vectorscope with a black-and-white image"
-msgstr ""
+msgstr "El vectorscopio mostrando una imagen en tonos de gris."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:72
 msgid ""
@@ -115,14 +149,21 @@ msgid ""
 "the further away it is from the middle, the higher its saturation aka. "
 "chrominance). This will come in very handy when it comes to white balance."
 msgstr ""
+"Bueno… ¿nada? Cerca. Hay un pequeño píxel en el medio del instrumento. Y eso "
+"es toda la imagen. Luce un poco decepcionante por ahora, pero es algo "
+"realmente muy bueno. Todos los grises (más el negro y el blanco) se "
+"encuentran exactamente en el centro. Todo lo que no esté en el centro tendrá "
+"alguna información de color (y cuanto más alejado se encuentre del centro, "
+"mayor saturación tendrá su color, también conocido como crominancia). Esto "
+"resultará muy útil al trabajar con el balance de blancos."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:75
 msgid "Example 2: Juggling Balls"
-msgstr ""
+msgstr "Ejemplo 2: Bolas de malabarismo"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:81
 msgid "Vectorscope with a color image (juggling balls)"
-msgstr ""
+msgstr "El vectorscopio mostrando una imagen en color."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:83
 msgid ""
@@ -130,36 +171,45 @@ msgid ""
 "ones above are. In this example a YUV background (with fixed Luma) has been "
 "switched in order to better identify the colors of pixel heaps on the scope."
 msgstr ""
+"La imagen con las bolas de malabarismo es bastante más interesante, "
+"especialmente porque tiene colores vivos. En este ejemplo, se ha activado en "
+"el instrumento un fondo YUV (con Luma fijo) para identificar de mejor manera "
+"los píxeles de color, amontonados en las diferentes áreas del instrumento."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:85
 msgid "Two things can be noticed:"
-msgstr ""
+msgstr "Es posible notar dos cosas:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:87
 msgid ""
 "there are six areas with high black density on the scope (which means that "
 "many pixels share this :term:`hue`):"
 msgstr ""
+"existen seis áreas con una alta intensidad de píxeles negros en el "
+"instrumento (lo que significa que esa misma cantidad de píxeles comparten el "
+"mismo :term:`tono`):"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:89
 msgid "One that points towards blue (bottom right),"
-msgstr ""
+msgstr "Una que tiende a apuntar hacia los azules (inferior derecha),"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:90
 msgid "A big one around yellow,"
-msgstr ""
+msgstr "Una grande alrededor del amarillo,"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:91
 msgid "Two big ones around red,"
-msgstr ""
+msgstr "Dos grandes alrededor del rojo,"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:92
 msgid "A smaller one between red and yellow,"
-msgstr ""
+msgstr "Una más pequeña entre el rojo y el amarillo,"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:93
 msgid "And the last one which you might have missed, between red and blue."
 msgstr ""
+"Y la última, que es posible que haya pasado desapercibida, entre el rojo y "
+"el azul."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:95
 msgid ""
@@ -170,6 +220,12 @@ msgid ""
 "whole scene, and the last one between red and blue is the violet part of the "
 "right red ball."
 msgstr ""
+"¡Se trata exactamente de los colores de la bolas! El azul proviene de las "
+"dos bolas de la izquierda, el amarillo de la bola amarilla, el área roja de "
+"la izquierda is la parte rosa de la bola de la izquierda, la parte derecha "
+"en rojo es la bola roja de la derecha. La parte entre el rojo y el amarillo, "
+"que es en realidad naranja, es el fondo de la imagen y la última entre el "
+"rojo y el azul es la parte violeta de la bola roja de la derecha."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:97
 msgid ""
@@ -177,6 +233,9 @@ msgid ""
 "really amazing. Like magic. It will help doing white balance. The neutral "
 "area will almost always seem to connect the other ones."
 msgstr ""
+"El fondo naranja parece conectar todas las otras áreas. . Esto es algo "
+"realmente asombroso. Como magia, que ayudará a realizar un balance de "
+"blancos. El área neutral casi siempre parecerá conectar las otras áreas."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:99
 msgid ""
@@ -186,6 +245,11 @@ msgid ""
 "effect and change the :guilabel:`Offset` parameters for the RGB values. (Do "
 "not forget to enable auto-refresh.)"
 msgstr ""
+"Como la toma de arriba tiene su color correctamente balanceado, no debería "
+"haber necesidad de maltratarla aquí. ¡Aunque hay que practicar! Descargar el "
+"ejemplo de más abajo, agregar un efecto :doc:`/effects_and_filters/"
+"video_effects/color_image_correction/sat` y cambiar los parámetros de :"
+"guilabel:`Desplazamiento` RVA. (No olvidar habilitar el refresco automático.)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:101
 msgid ""
@@ -194,10 +258,15 @@ msgid ""
 "red ball out was masked out using a white Color Clip. The spot then indeed "
 "disappeared."
 msgstr ""
+"Ahora, sería razonable preguntarse ¿cómo es posible estar tan seguros al "
+"asignarle a esas áreas esos colores? ¿Está realmente el punto superior "
+"causado por la bola roja? Para averiguarlo, en la imagen de abajo, se ha "
+"enmascarado la bola roja usando un *Clip de color* blanco. Se puede observar "
+"cómo, en efecto, dicha concentración de píxeles desapareció del instrumento."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:107
 msgid "Vectorscope with a partly covered (masked) color image"
-msgstr ""
+msgstr "El vectorscopio con una imagen en color parcialmente cubierta"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:109
 msgid ""
@@ -205,18 +274,21 @@ msgid ""
 "spot because the white rectangle covers a large part of the yellow ball as "
 "well."
 msgstr ""
+"El punto violeta también ha desaparecido, así como grandes partes del punto "
+"amarillo, debido a que el rectángulo blanco también cubrió una gran parte de "
+"la bola amarilla."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:112
 msgid "Example 3: Musical Box"
-msgstr ""
+msgstr "Ejemplo 3: Caja musical"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:118
 msgid "Vectorscope of an image of a musical box"
-msgstr ""
+msgstr "El vectorscopio con una imagen con una caja musical"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:120
 msgid "Again, two things worth pointing out for this clip:"
-msgstr ""
+msgstr "Nuevamente, hay dos cosas que vale la pena resaltar en este clip:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:122
 msgid ""
@@ -224,6 +296,10 @@ msgid ""
 "on the vectorscope lie between neutral (center) and orange. Not too "
 "saturated orange tones presumably coming from the bronze/messing parts."
 msgstr ""
+"Esta toma de una caja musical suiza consiste, principalmente, de tonos "
+"anaranjados, por lo tanto todos los puntos en el vectorscopio caen entre el "
+"centro (neutral) y el color naranja. Tonos naranja no demasiado saturados, "
+"presumiblemente provenientes de las varias partes de bronce del artefacto."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:124
 msgid ""
@@ -231,16 +307,22 @@ msgid ""
 "are neutral pixels (i.e. greys), and they seem to be the origin for the "
 "other colors."
 msgstr ""
+"El balance de blancos parece estar correcto. El vectorscopio indica la "
+"presencia de píxeles neutrales (grises), que parecen ser el origen para los "
+"de otros colores."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:126
 msgid ""
 "But when increasing the gain (or zoom level) of the Vectorscope to 5x we see "
 "that the scope image actually stops right before neutral."
 msgstr ""
+"Sin embargo, al aumentar la ganancia (nivel de ampliación) del vectorscopio "
+"a ×5 se podrá apreciar que la imagen del instrumento se detiene justo antes "
+"de ser neutral."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:132
 msgid "Vectorscope before white balancing"
-msgstr ""
+msgstr "Vectorscopio antes del balance de blancos"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:134
 msgid ""
@@ -253,10 +335,20 @@ msgid ""
 "negative offset shifts them towards the opposite direction (that is, towards "
 "the |complementary_color| of red, cyan)."
 msgstr ""
+"Si se abre este clip y se observa en el instrumento *Forma de onda*, se "
+"podrá notar que muestra el mismo problema: El azul es demasiado bajo, el "
+"rojo demasiado alto. Para corregir esta ligera proyección de color será "
+"posible usar nuevamente el efecto :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/sat`, en donde se ajustarán sus valores de :guilabel:"
+"`Desplazamiento`. Al hacer esto, los puntos en el vectorscopio se "
+"desplazarán. Un desplazamiento positivo en el rojo hará que los puntos se "
+"desplacen hacia el rojo en la parte superior del instrumento, un "
+"desplazamiento negativo los desplazará en la dirección opuesta (esto es, "
+"hacia su color complementario, el cian). Ver |complementary_color|."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:140
 msgid "Vectorscope after white balancing"
-msgstr ""
+msgstr "Vectorscopio después del balance de blancos"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:142
 msgid ""
@@ -268,18 +360,31 @@ msgid ""
 "recorded video file. So usually neutral areas will not share one single "
 "pixel in the vectorscope but have a certain diameter. Hence the padding."
 msgstr ""
+"Aquí, los valores de azul y rojo fueron ajustados de tal manera que exista "
+"un colchón alrededor del centro neutral. Normalmente no será suficiente "
+"simplemente permitir que el primer píxel alcance el punto neutral, debido a "
+"varios factores como el material del objeto neutral en sí mismo, la "
+"aberración cromática (ver también este artículo más preciso acerca de la "
+"aberración cromática causada por las lentes: |chromatic_aberration|), así "
+"como defectos de imagen en el archivo de video grabado. Por lo tanto, "
+"usualmente las áreas neutrales no compartirá un único píxel en el "
+"vectorscopio sino un cierto diámetro alrededor del mismo."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:144
 msgid ""
 "Because this is a suitable clip for :term:`hue` and the :doc:`/"
 "effects_and_filters/video_effects/color_image_correction/hue_shift` effect:"
 msgstr ""
+"Este es un clip apropiado para jugar con el :term:`tono` mediante el efecto :"
+"doc:`/effects_and_filters/video_effects/color_image_correction/hue_shift`:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:150
 msgid ""
 "Vectorscope of the musical box after applying the :doc:`/effects_and_filters/"
 "video_effects/color_image_correction/hue_shift` effect (Hue=45)"
 msgstr ""
+"El Vectorscopio con la caja musical, luego de aplicarle efecto :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift` (Tono=45)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:152
 msgid ""
@@ -290,16 +395,24 @@ msgid ""
 "Vectorscope this becomes visible as a rotation around the center of the "
 "scope."
 msgstr ""
+"¿Qué ha ocurrido aquí? El tono ha cambiado y los puntos en el instrumento "
+"parecen rotados 30 grados. Y de hecho han rotado. El efecto :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift` cambia "
+"el tono de todos los colores en una cierta magnitud (configurable). En el "
+"Vectorscopio esto se hace visible como una rotación alrededor del centro del "
+"instrumento."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:154
 msgid ""
 "Similarly, when changing the saturation/chroma, the dots on the vectorscope "
 "will move closer to the center or further away from it."
 msgstr ""
+"De manera similar, al cambiar la saturación, los puntos en el vectorscopio "
+"se moverán más cerca al centro o se apartarán del mismo."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:157
 msgid "Creating a Look for Your Video"
-msgstr ""
+msgstr "Creación de la apariencia de un video"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:159
 msgid ""
@@ -307,16 +420,21 @@ msgid ""
 "looks with color correction or :term:`Color Grading`. This example covers "
 "part of the tip of the iceberg of this topic."
 msgstr ""
+"En el capítulo sobre el :doc:`Histograma <histogram_working>` se mencionó la "
+"creación de apariencias específicas mediante la corrección de color o el :"
+"term:`Etalonaje`. Este ejemplo cubre la punta del iceberg de este tópico."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:161
 msgid ""
 "What is special about creating a look for a video? Let's take a look at some "
 "random clips:"
 msgstr ""
+"¿Qué es lo especial acerca de la creación de una apariencia para un video? "
+"Demos un vistazo a algunos clips aleatorios:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:167
 msgid "Collection of not color-graded video stills"
-msgstr ""
+msgstr "Una colección de imágenes en video sin etalonaje"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:169
 msgid ""
@@ -326,10 +444,16 @@ msgid ""
 "color casts (which is a good thing because it gives you a neutral starting "
 "point). But we can also add new colors."
 msgstr ""
+"Contenidos muy diferentes y, por lo tanto, colores distintos - como se dijo: "
+"aleatorios. Un punto del etalonaje es dotar a cada clip particular de una "
+"conexión. Esto no se limitará sólo al balance de blancos. El balance de "
+"blancos de un clip se trata de eliminar desviaciones de color (lo cual es "
+"bueno, dado que proporcionará un punto de partida neutral). Pero también "
+"será posible agregar nuevos colores."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:175
 msgid "Collection of color-graded video stills"
-msgstr ""
+msgstr "La misma colección de imágenes luego de un proceso de etalonaje"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:177
 msgid ""
@@ -342,20 +466,33 @@ msgid ""
 "does something similar as the Blockbuster Effect: here the blacks become "
 "blueish, the mids and the whites tend towards yellow."
 msgstr ""
+"Ahora los clips lucen mucho más como si estuvieran relacionados entre sí. "
+"Esto es el resultado de una **Corrección de color primaria** (*primaria* "
+"significa que afecta a toda la imagen; una *Corrección de color secundaria* "
+"sólo afectaría a determinadas partes de la imagen, p.ej, mediante el uso de "
+"máscaras, la selección de determinados rangos de color a ser afectados, "
+"etc.): que implica un balance de blancos (al cual en algunos casos se le "
+"agrega una reducción de la saturación) seguido de un efecto :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/sat`. Con este "
+"último efecto PDP/Sat se logra algo similar al efecto Blockbuster: en donde "
+"los negros se tornan azulados, mientras que los tonos medios y los blancos "
+"tienden hacia el amarillo."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:179
 msgid "See also |this_page| for some hints about looks and the vectorscope."
 msgstr ""
+"Ver también la siguiente página (|this_page|) para obtener algunos consejos "
+"sobre determinadas apariencias y el vectorscopio."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:182
-#, fuzzy
-#| msgid "The Vectorscope"
 msgid "Vectorscope Options"
-msgstr "El vectorscopio"
+msgstr "Opciones del vectorscopio"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:184
 msgid "You can adjust the Vectorscope as follows by right-clicking it:"
 msgstr ""
+"Será posible ajustar el Vectorscopio de las siguientes maneras, mediante su "
+"menú contextual:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:186
 msgid ""
@@ -363,6 +500,10 @@ msgid ""
 "allows to export RGB, :term:`YUV` and :term:`YCbCr` planes (like the ones "
 "you see when visiting the Wikipedia articles about these color spaces)."
 msgstr ""
+"*Exportar fondo* - Permitirá exportar un plano de color en el espacio de "
+"color deseado. Permite exportar los planos RVA, :term:`YUV` y :term:`YCbCr` "
+"(como los que se ven al visitar los artículos de Wikipedia acerca de estos "
+"espacios de color)."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:188
 msgid ""
@@ -372,15 +513,25 @@ msgid ""
 "changing the saturation to a max of 75% better consult your broadcast "
 "company."
 msgstr ""
+"*Marco en 75%* - Demarcará la posición en donde la saturación de los colores "
+"alcanza el 75% de su valor máximo. Esto podría resultar de interés en videos "
+"que estén siendo preparados para su emisión al aire. Los colores que exceden "
+"este marco no podrán ser considerados seguros para la emisión (|"
+"broadcast_safe|) - de todas maneras, antes de cambiar la saturación a un "
+"máximo del 75% es recomendable consultar al medio que vaya a emitir el video."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:190
 msgid "*Draw axis* - Draws the U/Pb (horizontal) and V/Cr (vertical) axis."
 msgstr ""
+"*Mostrar ejes* - Dibujará los ejes U/Pb (horizontal) y V/Cr (vertical) de la "
+"gráfica."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:192
 msgid ""
 "*YUV* and *YPbPr* - Switches between the two color spaces YUV and YPbPr."
 msgstr ""
+"*YUV* y *YPbPr* - Permitirá cambiar entre los dos espacios de color: YUV e "
+"YPbPr."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:196
 msgid "Summary"
@@ -393,6 +544,11 @@ msgid ""
 "casts, but also helps judging the color distribution of a clip and match it "
 "to others."
 msgstr ""
+"El Vectorscopio permitirá mostrar la distribución de tono y saturación de "
+"una manera fácil de comprender. Esto resultará útil para reconocer "
+"rápidamente desviaciones de color, ayudando también a evaluar la "
+"distribución de color de un clip, para hacerlo coincidir con el color de "
+"otros clips."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:199
 msgid ""
@@ -403,22 +559,35 @@ msgid ""
 "colors. So when combining these shots you first shoot a test chart and then "
 "match exposure and color."
 msgstr ""
+"Todos los instrumentos, usados en conjunto, ayudarán a resolver otra tarea "
+"importante: Hacer coincidir la imagen de videos provenientes de distintas "
+"condiciones de iluminación y distintas fuentes de grabación (como una "
+"segunda cámara de un modelo distinto al de la principal) que pueden producir "
+"diferente brillo y color. Para esto son necesarios los patrones de ajuste (|"
+"test_charts|). Distintas cámaras podrán tener rangos dinámicos y colores "
+"diferentes. Por lo que para combinar tomas de ambas fuentes de mejor manera, "
+"será útil realizar primero tomas de los patrones de ajuste, con los que "
+"luego se podrá hacer coincidir la exposición y el color más fácilmente."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:204
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:210
 msgid ""
 ":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
 "samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
 msgstr ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
+"samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:211
 msgid ""
 ":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
 "juggling-balls.avi>` (720/24p, 11 MB)"
 msgstr ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
+"juggling-balls.avi>` (720/24p, 11 MB)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:212
 msgid ""
@@ -426,6 +595,9 @@ msgid ""
 "Musical-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom "
 "H4n.)"
 msgstr ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/"
+"Musical-box.avi>` (720/24p, 23 MB. Video de una Nikon D90, Audio de un Zoom "
+"H4n.)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:214
 msgid ""
@@ -434,9 +606,7 @@ msgid ""
 "documentation it has been lifted from |web_archive|, updated and adapted to "
 "match the overall style."
 msgstr ""
-
-#~ msgid "Simon A. Eugster (Granjow)"
-#~ msgstr "Simon A. Eugster (Granjow)"
-
-#~ msgid "skin1.avi (720p, 5.1 MB)"
-#~ msgstr "skin1.avi (720p, 5.1 MB)"
+"El texto original fue enviado por *Simon A. Eugster (Granjow)*, el "
+"10/10/2010, al (ahora desaparecido) blog kdenlive.org. Para esta "
+"documentación, fue tomado del sitio |web_archive|, actualizado y adaptado "
+"para que coincida con el estilo general de la misma."
