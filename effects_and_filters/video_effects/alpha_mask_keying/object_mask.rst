@@ -33,6 +33,10 @@ Object Mask
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-object_mask>` |view-presentation|
 
 .. rst-class:: clear-both
 
@@ -43,7 +47,7 @@ This effect relies on (SAM2)\ [1]_ object segmentation. Its purpose is to isolat
 
 Before Object Mask can be used, it must be properly configured and models installed. Please refer to the chapter :doc:`Configure Object Detection</getting_started/configure_kdenlive/configuration_plugins>`.
 
-.. warning:: The effect works only on the selected clips in the project bin.
+.. attention:: The effect works only on the selected clips in the project bin.
 
 There are two ways to use Object Mask:
 

@@ -41,6 +41,10 @@ Chroma Key: Advanced
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-chroma_key_advanced>` |view-presentation|
 
 .. rst-class:: clear-both
 

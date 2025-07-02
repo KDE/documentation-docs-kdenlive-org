@@ -39,6 +39,10 @@ Bluescreen0r
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -58,9 +62,12 @@ Turns the selected color into the alpha channel (blue or green screen effect).
    * - Parameter
      - Value
      - Description
-   * - Distance
-     - Float
-     - Defines the distance between the values of the selected color and the pixel in the image. The lower the number, the closer the colors need to match. Range is from 0.000 (exact match) to 1.000 (very loose match). Default is 0.288.
+   * - Invert
+     - Switch
+     - Whether to produce the inverse of the effect on the alpha channel
    * - Color
      - Picker
      - Defines the color that will be turned into the alpha channel
+   * - Distance to Color
+     - Float
+     - Defines the distance between the values of the selected color and the pixel in the image. The lower the number, the closer the colors need to match. Range is from 0.000 (exact match) to 1.000 (very loose match). Default is 0.288.

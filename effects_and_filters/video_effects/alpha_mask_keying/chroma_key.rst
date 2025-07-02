@@ -36,7 +36,7 @@ Chroma Key: Basic
    :**Keyframes**:
       Yes
    :**Source library**:
-      
+      MLT
    :**Source filter**:
       chroma
    :**Available**:
@@ -45,6 +45,10 @@ Chroma Key: Basic
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-chroma_key>` |view-presentation|
 
 .. rst-class:: clear-both
 

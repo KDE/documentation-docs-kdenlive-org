@@ -59,6 +59,10 @@ Rotoscoping
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-rotoscoping>` |view-presentation|
 
 .. rst-class:: clear-both
 

@@ -51,6 +51,10 @@ Motion Tracker
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-motion_tracker>` |view-presentation|
 
 .. rst-class:: clear-both
 
