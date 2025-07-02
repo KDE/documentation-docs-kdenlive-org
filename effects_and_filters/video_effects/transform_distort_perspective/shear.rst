@@ -96,4 +96,4 @@ The following selection items are available:
 
 .. The effect behaves now as intended. Warning not needed anymore but kept for reference purposes
    .. warning:: 
-   As of this writing and version 23.04 the shear parameters are integer values, not float, hence the very much limited use of the effect. A bug report has been created. Until this is fixed use the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_and_shear` effect.
+   As of this writing and version 23.04 the shear parameters are integer values, not float, hence the very much limited use of the effect. A bug report has been created. Until this is fixed use the :doc:`/effects_and_filters/video_effects/deprecated/rotate_and_shear` effect.
