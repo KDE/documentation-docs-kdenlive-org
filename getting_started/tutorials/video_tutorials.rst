@@ -232,13 +232,13 @@ Video Tutorials
    
    .. |yt_90| raw:: html
 
-      <a href="https://www.youtube.com/shorts/KbUvIBELE0A" target="_blank">Add Drop Shadow</a>
+      <a href="https://www.youtube.com/watch?v=6zBnTBQQE94" target="_blank">Add Drop Shadow</a>
    
    .. figure:: /images/tutorials/nuxttux-drop_shadow.webp
       :width: 123px
       :align: left
 
-   |yt_90| by Nuxttux Creative Studio\ [1]_
+   |yt_90| by Nuxttux Creative Studio\ [1]_. This tutorial does **not** use the :doc:`/effects_and_filters/video_effects/generate/drop_shadow` effect but shows a different way to generate a drop shadow for a clip.
 
    .. rst-class:: clear-both
 

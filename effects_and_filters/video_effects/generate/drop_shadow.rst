@@ -44,7 +44,7 @@ Drop Shadow
    :**Color depth**:
       8bit
    :**Tutorial**:
-      :ref:`Yes <tutorials-drop_shadow>` |view-presentation|
+      No
 
 .. rst-class:: clear-both
 
