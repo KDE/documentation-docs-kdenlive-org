@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - ELBG Posterizer
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, elbg posterizer
+   :description: Kdenlive Video Effects - Posterize (ELBG)
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, posterize, elbg, 10bit
 
 .. metadata-placeholder
 
@@ -10,16 +10,16 @@
    :license: Creative Commons License SA 4.0
 
 
-ELBG Posterizer
-===============
+Posterize (ELBG)
+================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-elbg_posterizer.webp
+.. figure:: /images/effects_and_compositions/effects-posterize_elbg-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-elbg_posterizer
+   :alt: effects-posterize_elbg-2504.webp
 
-.. sidebar:: |kdenlive-show-video| EFFECT_NAME
+.. sidebar:: |kdenlive-show-video| Posterize (ELBG)
 
    :**Status**:
       Maintained
@@ -34,6 +34,10 @@ ELBG Posterizer
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -59,7 +63,7 @@ For each input image, the filter will compute the optimal mapping from the input
      - Description
    * - Codebook Length
      - Integer
-     - Set codebook length. The value must be a positive integer, and represents the number of distinct output colors. Default value is 50.
+     - Set codebook length. The value must be a positive integer, and represents the number of distinct output colors. Default value is 9, maximum is 50.
    * - Steps
      - Integer
      - Set the maximum number of iterations to apply for computing the optimal mapping. The higher the value the better the result and the higher the computation time. Default value is 1.
