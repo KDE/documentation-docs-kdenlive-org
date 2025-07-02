@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Shear
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, shear
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, shear, 10bit
 
 .. metadata-placeholder
 
@@ -18,11 +18,11 @@
 Shear
 =====
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-shear.webp
+.. figure:: /images/effects_and_compositions/effects-shear-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-shear
+   :alt: effects-shear-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Shear
 
@@ -39,7 +39,11 @@ Shear
    :**On Master only**:
       No
    :**Known bugs**:
-      Yes (see warning)
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -62,18 +66,18 @@ The effect has keyframes but only for the :guilabel:`Background fill color`.
    * - Parameter
      - Value
      - Description
-   * - X shear factor
-     - Integer
-     - Set the shear factor. Range is from -2 to 2.
-   * - Y shear factor
-     - Integer
-     - Set the shear factor. Range is from -2 to 2.
-   * - Interpolation mode
-     - Selection
-     - Set the interpolation mode
-   * - Background fill color
+   * - Background Fill Color
      - Picker
      - Set the background fill color if the shear reveals the background. Default is **black**
+   * - Interpolation Mode
+     - Selection
+     - Set the interpolation mode
+   * - X-axis Shear Factor
+     - Float
+     - Set the shear factor. Range is from -2 to 2.
+   * - Y-axis Shear Factor
+     - Float
+     - Set the shear factor. Range is from -2 to 2.
 
 The following selection items are available:
 
@@ -90,5 +94,6 @@ The following selection items are available:
      - 
 
 
-.. warning:: 
+.. The effect behaves now as intended. Warning not needed anymore but kept for reference purposes
+   .. warning:: 
    As of this writing and version 23.04 the shear parameters are integer values, not float, hence the very much limited use of the effect. A bug report has been created. Until this is fixed use the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_and_shear` effect.

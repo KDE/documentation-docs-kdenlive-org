@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Lens Correction (keyframable)
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, lens correction keyframable
+   :description: Kdenlive Video Effects - Lens Correction (frei0r)
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, lens correction, frei0r
 
 .. metadata-placeholder
 
@@ -19,16 +19,16 @@
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-lenscorrection/" target="_blank">frei0r.lenscorrection</a>
 
 
-Lens Correction (keyframable)
-=============================
+Lens Correction (frei0r)
+========================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-lens_correction_keyframable.webp
+.. figure:: /images/effects_and_compositions/effects-lens_correction_frei0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-lens_correction_keyframable
+   :alt: effects-lens_correction_frei0r-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Lens Correction (keyframable)
+.. sidebar:: |kdenlive-show-video| Lens Correction
 
    :**Status**:
       Maintained
@@ -44,6 +44,10 @@ Lens Correction (keyframable)
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -52,7 +56,7 @@ Lens Correction (keyframable)
 
 This effect/filter allows compensation of lens distortion. It can be used to create an "old TV set or monitor" curving effect.
 
-See :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction` if you do not need to use keyframes.
+See also :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_avfilter` if you need to specify a color for unmapped pixels or need to render in 10bit color.
 
 
 .. rubric:: Parameters
@@ -67,24 +71,24 @@ See :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_
      - Value
      - Description
    * - Horizontal Center
-     - Integer
+     - Float
      - Set relative center X
    * - Vertical Center
-     - Integer
+     - Float
      - Set relative center Y
    * - Center Correction
-     - Integer
+     - Float
      - Set correction near the center
    * - Edges Correction
-     - Integer
+     - Float
      - Set correction near the edges
    * - Brightness
-     - Integer
+     - Float
      - Set brightness increase
 
 
 .. note:: 
-   This effect may produce different results than :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction` although the name may suggest the only difference is the keyframes. **Lens Correction (keyframable)** uses |frei0r.lc|, whereas :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction` uses |avfilter.lc|.
+   This effect may produce different results than :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_avfilter` although the name may suggest the only difference is the effects library. **Lens Correction (frei0r)** uses |frei0r.lc|, whereas :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_avfilter` uses |avfilter.lc|. There are different options available in each effect.
 
 
 .. https://youtu.be/axQdm482Uto

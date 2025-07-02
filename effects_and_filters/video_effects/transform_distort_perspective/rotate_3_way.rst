@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Rotate (keyframable)
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, rotate keyframable
+   :description: Kdenlive Video Effects - 3-way Rotate
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, rotate, 3-way
 
 .. metadata-placeholder
 
@@ -13,16 +13,16 @@
    :license: Creative Commons License SA 4.0
 
 
-Rotate (keyframable)
-====================
+3-way Rotate
+============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotate_keyframable.webp
+.. figure:: /images/effects_and_compositions/effects-rotate_3_way-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-rotate_keyframable
+   :alt: effects-rotate_3_way-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Rotate (keyframable)
+.. sidebar:: |kdenlive-show-video| 3-way Rotate
 
    :**Status**:
       Maintained
@@ -38,13 +38,21 @@ Rotate (keyframable)
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
 
 .. rubric:: Description
 
-This effect/filter rotates the clip in any of the three directions: X, Y, and Z.
+This effect/filter rotates the clip in any of the three directions: X, Y, and Z. It allows to specify an offset for the image to be moved before rotation, effectively moving the center of rotation.
+The :guilabel:`Scale` parameter is applied irrespective of the rotation - it scales along the X and Y axis of the monitor.
+
+.. warning:: 
+   This effect may move pixels outside of the project frame. This will crop the clip, meaning that a :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform` effect after the 3-way Rotate effect will be applied to the cropped clip, and moving the clip will not show the pixels "rotated out" of the project frame.
 
 
 .. rubric:: Parameters
@@ -58,21 +66,27 @@ This effect/filter rotates the clip in any of the three directions: X, Y, and Z.
    * - Parameter
      - Value
      - Description
-   * - Disable repeat
+   * - Disable Repeat
      - Switch
      - When animating properties with keyframes, whether to repeat the animation after it reaches the last key frame. Default is **on**.
-   * - Disable mirror
+   * - Disable Mirror
      - Switch
      - When animating properties with keyframes and :guilabel:`Disable repeat` is **off**, whether the animation alternates between reverses and forwards for each repetition. Default is **on**.
+   * - Invert Scale
+     - Switch
+     - Whether to invert the :guilabel:`Scale X` and :guilabel:`Scale Y` values. This is helpful to make animation interpolation sane because otherwise the scale values do not animate linearly. Default is **on**.
    * - Rotate X / Y / Z
      - Integer
-     - Set the amount of rotation in ``degrees * 10``. For example: 900 = 90 degrees rotation.
+     - Set the amount of rotation along the respective axes in degrees of rotation.
    * - Offset X / Y
      - Integer
      - Horizontal (X) and vertical (Y) offset
+   * - Scale X / Y
+     - Integer
+     - Scale factor applied to the X and Y axis
    * - Background Color
      - Picker
-     - Define the background color to be used when rotating reveals the background. Default is Alpha.
+     - Define the background color to be used when rotating reveals the background. Default is **Alpha**.
 
 
 .. attention:: 

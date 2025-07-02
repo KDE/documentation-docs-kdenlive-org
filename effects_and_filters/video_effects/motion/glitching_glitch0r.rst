@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Glitch0r 
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, misc, miscellaneous, glitch0r
+   :description: Kdenlive Video Effects - Glitching (rows and color) 
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, motion, glitch, block, color, shifting, glitch0r
 
 .. metadata-placeholder
 
@@ -10,16 +10,16 @@
    :license: Creative Commons License SA 4.0
 
 
-Glitch0r
-========
+Glitching (rows and color)
+==========================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-glitch0r.webp
+.. figure:: /images/effects_and_compositions/effects-glitch0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-glitch0r
+   :alt: effects-glitch0r-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Glitch0r
+.. sidebar:: |kdenlive-show-video| Glitching (rows and color)
 
    :**Status**:
       Maintained
@@ -35,13 +35,17 @@ Glitch0r
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
 
 .. rubric:: Description
 
-This effect/filter adds glitches and block shifting.
+This effect/filter adds color glitches and block shifting.
 
 
 .. rubric:: Parameters
@@ -55,16 +59,16 @@ This effect/filter adds glitches and block shifting.
    * - Parameter
      - Value
      - Description
-   * - Glitch frequency
+   * - Glitch Frequency
      - Integer
      - How frequently the glitch should be applied
-   * - Block height
+   * - Block Height
      - Integer
      - Height range of the block that will be shifted/glitched
-   * - Shift intensity
+   * - Shift Intensity
      - Integer
      - How much blocks should be moved when glitching
-   * - Color glitching intensity
+   * - Color Glitching Intensity
      - Integer
      - How intensive color distortion should be
 

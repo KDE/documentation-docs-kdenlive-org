@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Lens Correction
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, lens correction
+   :description: Kdenlive Video Effects - Lens Correction (avfilter)
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, lens correction, avfilter, 10bit
 
 .. metadata-placeholder
 
@@ -19,14 +19,14 @@
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-lenscorrection/" target="_blank">frei0r.lenscorrection</a>
 
 
-Lens Correction
-===============
+Lens Correction (avfilter)
+==========================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-lens_correction.webp
+.. figure:: /images/effects_and_compositions/effects-lens_correction_avfilter-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-lens_correction
+   :alt: effects-lens_correction_avfilter-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Lens Correction
 
@@ -44,6 +44,10 @@ Lens Correction
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -52,7 +56,7 @@ Lens Correction
 
 This effect/filter corrects radial lens distortion. It can be used to create an "old TV set or monitor" curving effect.
 
-See :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_keyframe` if you need to use keyframes.
+See :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_frei0r` if you need to adjust brightness.
 
 
 .. rubric:: Parameters
@@ -81,7 +85,7 @@ See :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_
 
 
 .. note:: 
-   This effect may produce different results than :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_keyframe` although the name may suggest the only difference is the keyframes. **Lens Correction** uses |avfilter.lc|, whereas :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_keyframe` uses |frei0r.lc|.
+   This effect may produce different results than :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_frei0r` although the name may suggest the only difference is the effects library. **Lens Correction (frei0r)** uses |frei0r.lc|, whereas :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_frei0r` uses |avfilter.lc|. There are different options available in each effect.
 
 
 .. https://youtu.be/axQdm482Uto
