@@ -18,11 +18,11 @@
 Crop, Scale and Tilt
 ====================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-crop_scale_tilt.webp
+.. figure:: /images/effects_and_compositions/effects-crop_scale_tilt-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-crop_scale_tilt
+   :alt: effects-crop_scale_tilt-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Crop, Scale and Tilt\ [1]_
 
@@ -39,6 +39,10 @@ Crop, Scale and Tilt
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -60,10 +64,10 @@ This effect/filter crops, scales and tilts an image.
    * - Parameter
      - Value
      - Description
-   * - Crop left / right
+   * - Crop Left / Right
      - Integer
      - Number of pixels to crop from the left / right
-   * - Crop top / bottom
+   * - Crop Top / Bottom
      - Integer
      - Number of pixels to crop from the top / bottom
    * - Scale X / Y

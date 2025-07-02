@@ -13,11 +13,11 @@
 Scroll
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-scroll.webp
+.. figure:: /images/effects_and_compositions/effects-scroll-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-scroll
+   :alt: effects-scroll-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Scroll
 
@@ -35,13 +35,17 @@ Scroll
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
 
 .. rubric:: Description
 
-This effect/filter scrolls the clip horizontally and/or vertically. Negative values make the scrolling go from left to right. The higher the value the faster the scrolling. A value of 1.000 renders the effect useless.
+This effect/filter scrolls the clip horizontally and/or vertically. Negative values make the scrolling go from left to right. The higher the value the faster the scrolling. A value of 1000 renders the effect useless.
 
 
 .. rubric:: Parameters
@@ -56,14 +60,14 @@ This effect/filter scrolls the clip horizontally and/or vertically. Negative val
      - Value
      - Description
    * - Horizontal scrolling speed
-     - Float
+     - Integer
      - Set the horizontal scrolling speed
    * - Vertical scrolling speed
-     - Float
+     - Integer
      - Set the vertical scrolling speed
    * - Initial horizontal position
-     - Float
+     - Integer
      - Set the initial horizontal position
    * - Initial vertical position
-     - Float
+     - Integer
      - Set the initial vertical position

@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Elastic Scale Filter
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, elastic scale filter
+   :description: Kdenlive Video Effects - Elastic Scale
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, elastic scale
 
 .. metadata-placeholder
 
@@ -10,21 +10,21 @@
    :license: Creative Commons License SA 4.0
 
 
-Elastic Scale Filter
-====================
+Elastic Scale
+=============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-elastic_scale_filter.webp
+.. figure:: /images/effects_and_compositions/effects-elastic_scale-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-elastic_scale_filter
+   :alt: effects-elastic_scale-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Elastic Scale Filter
+.. sidebar:: |kdenlive-show-video| Elastic Scale
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       frei0r
    :**Source filter**:
@@ -34,6 +34,10 @@ Elastic Scale Filter
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -56,14 +60,14 @@ This effect/filter allows to scale the video sources non-linearly.
      - Value
      - Description
    * - Center
-     - Float
+     - Integer
      - Horizontal center position of the linear area
    * - Linear Width
-     - Float
+     - Integer
      - Width of the linear area
    * - Linear Scale Factor
      - Float
      - Amount how much the linear area is scaled
    * - Non-Linear Scale Factor
      - Float
-     - Amount how much the outer left and outer right areas are scaled non linearly
+     - Amount how much the outer left and outer right areas are scaled non-linearly

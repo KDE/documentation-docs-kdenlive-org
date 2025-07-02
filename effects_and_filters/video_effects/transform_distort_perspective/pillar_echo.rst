@@ -14,11 +14,11 @@
 Pillar Echo
 ===========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-pillar_echo.webp
+.. figure:: /images/effects_and_compositions/effects-pillar_echo-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-pillar_echo
+   :alt: effects-pillar_echo-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Pillar Echo
 
@@ -35,6 +35,10 @@ Pillar Echo
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

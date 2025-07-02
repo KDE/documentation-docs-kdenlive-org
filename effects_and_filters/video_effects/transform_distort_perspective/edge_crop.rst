@@ -13,11 +13,11 @@
 Edge Crop
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-edge_crop.webp
+.. figure:: /images/effects_and_compositions/effects-edge_crop-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-edge_crop
+   :alt: effects-edge_crop-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Edge Crop
 
@@ -35,6 +35,10 @@ Edge Crop
       No
    :**Known bugs**:
       Yes (see warning)
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -70,13 +74,13 @@ This effect/filter removes pixels from the edges of the video (cropping).
    * - Right
      - Integer
      - Number of pixels to be removed from the right edge
-   * - Automatic center-crop
+   * - Automatic Center-crop
      - Switch
      - Whether to automatically crop whatever is needed to fill the output frame and prevent padding
-   * - Center balance
+   * - Center Balance
      - Integer
      - When center crop is enabled, offset the center point
-   * - Use project resolution
+   * - Use Project Resolution
      - Switch
      - This is useful for proxy editing. Normally all crop values are expressed in terms of pixels of the source footage, but this option makes them relative to the profile resolution.
 

@@ -17,11 +17,11 @@
 Corners
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-corners.webp
+.. figure:: /images/effects_and_compositions/effects-corners-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-corners
+   :alt: effects-corners-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Corners
 
@@ -39,13 +39,17 @@ Corners
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
 
 .. rubric:: Description
 
-This effect/filter allows accurate perspective distortion of the input source's geometry. Instead of using the sliders or entering the values you can use the corner handles to change the geometry. Edit Mode must be switched on for this.
+This effect/filter allows accurate perspective distortion of the input source's geometry. Instead of using the sliders or entering the values you can use the corner handles to change the geometry. Edit Mode must be switched on for this. See the :ref:`Notes <corners_notes>` below for an explanation how this effect works and the parameters need to be interpreted.
 
 
 .. rubric:: Parameters
@@ -71,9 +75,18 @@ This effect/filter allows accurate perspective distortion of the input source's 
    * - Alpha Operation
      - Selection
      - 
-   * - Corner 1-4 X / Y
+   * - Top-left X / Y
      - Integer
-     - Set the coordinates for the corners. Corner 1 is the top left corner, corner 4 the bottom left. Ranges are 0 to 6000.
+     - Set the coordinates for the top-left corner. Range is 0 to 3000, default is 1000
+   * - Top-right X / Y
+     - Integer
+     - Set the coordinates for the top-right corner. Range is 0 to 3000, default is 2000 and 1000, respectively
+   * - Bottom-right X / Y
+     - Integer
+     - Set the coordinates for the bottom-right corner. Range is 0 to 3000, default is 2000
+   * - Bottom-left X / Y
+     - Integer
+     - Set the coordinates for the bottom-left corner. Range is 0 to 3000, default is 1000 and 2000, respectively
    * - Stretch X / Y
      - Integer
      - Stretches the source clip along the X and/or Y axis by "moving" the virtual center of the frame left/right or up/down.
@@ -120,9 +133,11 @@ The following selection items are available:
      - 
 
 
+.. _corners_notes:
+
 .. rubric:: Notes
    
-Corners can be moved towards the inside and the outside of the frame. Hence the default values of 1999 and 4000. Imagine the frame of the clip being a frame sitting on a bigger canvas (see yellow hatch pattern below). The top left corner of the canvas has the coordinates X=0 and Y=0, the bottom right X=6000 and Y=6000. When moving the corners you are stretching the image of the clip across the canvas distorting the clip accordingly.
+Corners can be moved towards the inside and the outside of the frame. Hence the default values of 999 and 2000. Imagine the frame of the clip being a frame sitting on a bigger canvas (see yellow hatch pattern below). The top left corner of the canvas has the coordinates X=0 and Y=0, the bottom right X=3000 and Y=3000. When moving the corners you are stretching the image of the clip across the canvas distorting the clip accordingly.
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-corners_schematic.webp
    :width: 500px
@@ -132,7 +147,7 @@ Corners can be moved towards the inside and the outside of the frame. Hence the 
    Corners effect schematic
    
 :**1 - 4**:
- The corners numbering scheme.
+ The corners numbering scheme: Top-left, top-right, bottom-right, bottom-left.
 
 :Grey background:
  Project Monitor background

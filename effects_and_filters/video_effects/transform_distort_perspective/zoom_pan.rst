@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Zoom Pan
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, zoom pan
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, zoom pan, 10bit
 
 .. metadata-placeholder
 
@@ -18,11 +18,11 @@
 Zoom Pan
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-zoom_pan.webp
+.. figure:: /images/effects_and_compositions/effects-zoom_pan-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-zoom_pan
+   :alt: effects-zoom_pan-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Zoom Pan
 
@@ -39,6 +39,10 @@ Zoom Pan
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

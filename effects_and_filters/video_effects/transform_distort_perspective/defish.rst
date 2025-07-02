@@ -16,11 +16,11 @@
 Defish
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-defish.webp
+.. figure:: /images/effects_and_compositions/effects-defish-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-defish
+   :alt: effects-defish-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Defish
 
@@ -37,6 +37,10 @@ Defish
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -58,7 +62,7 @@ This effect can transform footage shot with a fisheye lens to look like it was s
    * - Parameter
      - Value
      - Description
-   * - DeFish
+   * - De-Fish
      - Switch
      - If checked, the transform direction is from fisheye to rectilinear, when not checked, it is rectilinear to fisheye.
    * - Type
@@ -67,10 +71,10 @@ This effect can transform footage shot with a fisheye lens to look like it was s
    * - Scaling
      - Selection
      - Select the scaling method
-   * - Straighten all edges of video frame
+   * - Straighten all Edges of Video Frame
      - Switch
      - 
-   * - Interpolator
+   * - Interpolation
      - Selection
      - Select which interpolation method to use. Options: see below.
    * - Aspect Type
@@ -79,10 +83,10 @@ This effect can transform footage shot with a fisheye lens to look like it was s
    * - Amount
      - Integer
      - Controls the amount of (de)distortion applied to the video. More details below.
-   * - Fix camera scaling between 4:3 and 16:9
+   * - Fix Camera Scaling Between 4:3 and 16:9
      - Integer
      - 
-   * - Scale Y to affect aspect ratio
+   * - Scale Y to Affect Aspect Ratio
      - Integer
      - 
    * - Manual Scale
@@ -102,13 +106,13 @@ The following selection items are available:
    :widths: 25 75
    :class: table-wrap
 
-   * - equidistant
+   * - Equidistant
      - 
-   * - orthographic
+   * - Orthographic
      - Straighten all edges of video frame
-   * - equiarea
+   * - Equiarea
      - default
-   * - stereographic
+   * - Stereographic
      - 
 
 :guilabel:`Scaling`
@@ -166,7 +170,7 @@ The following selection items are available:
 
 .. rubric:: Parameters explained
 
-:Interpolator:
+:Interpolation:
  The seven different interpolation methods allow making a quality/speed trade-off. The interpolators are ordered from fast, low quality to (very) slow, high quality. The spline interpolating polynomials are from Helmut Dersch. For real-time use, **Nearest neighbor** is the fastest because, in fact, it is equal to no interpolation. In most cases **Bilinear** should be good enough, and on a decent machine should still run in real time. Beyond **Bicubic**, the quality gain is marginal for a single resampling. **Lanczos** takes an eternity!
 
 :Amount:

@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Fill Borders
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, fill borders
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, fill borders, 10bit
 
 .. metadata-placeholder
 
@@ -13,11 +13,11 @@
 Fill Borders
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-fill_borders.webp
+.. figure:: /images/effects_and_compositions/effects-fill_borders-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-fill_borders
+   :alt: effects-fill_borders-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Fill Borders
 
@@ -34,6 +34,10 @@ Fill Borders
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -55,18 +59,18 @@ This effect/filter fills borders of the input video without changing video strea
    * - Parameter
      - Value
      - Description
+   * - Mode
+     - Selection
+     - Set fill mode
+   * - Color
+     - Picker
+     - Set color for pixels for :guilabel:`Mode` **Color**. Default is black.
    * - Left / Right
      - Integer
      - Number of pixels to fill from left / right border
    * - Top / Bottom
      - Integer
      - Number of pixels to fill from top / bottom border
-   * - Mode
-     - Selection
-     - Set fill mode
-   * - Color
-     - Picker
-     - Set color for pixels for :guilabel:`Mode` **Fixed**. Default is black.
 
 The following selection items are available:
 
@@ -81,7 +85,7 @@ The following selection items are available:
      - Fill pixels using outermost pixels (default)
    * - Mirror
      - Fill pixels using mirroring (half sample symmetric)
-   * - Fixed
+   * - Color
      - Fill pixels with :guilabel:`Color`
    * - Reflect
      - Fill pixels using reflecting (whole sample symmetric)

@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Letterb0xed
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, letterb0xed
+   :description: Kdenlive Video Effects - Letter-boxing
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, letterb0xed, letter-boxing, letter boxing
 
 .. metadata-placeholder
 
@@ -10,16 +10,16 @@
    :license: Creative Commons License SA 4.0
 
 
-LetterB0xed
-===========
+Letter-boxing
+=============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-letterb0xed.webp
+.. figure:: /images/effects_and_compositions/effects-letterb0xed-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-letterb0xed
+   :alt: effects-letterb0xed-2504.webp
 
-.. sidebar:: |kdenlive-show-video| LetterB0xed
+.. sidebar:: |kdenlive-show-video| Letter-boxing
 
    :**Status**:
       Maintained
@@ -34,6 +34,10 @@ LetterB0xed
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -59,8 +63,8 @@ This filter/effect adds black borders at the top and bottom for this cinematic l
      - Switch
      - Makes the black borders transparent
    * - Border Width
-     - Integer
-     - Set the border width in pixel
+     - Percent
+     - Set the border width as percent of half the vertical resolution. If you set it to 100%, there is no room for the picture.
 
 
 .. https://youtu.be/9Ldjt0QZPzs

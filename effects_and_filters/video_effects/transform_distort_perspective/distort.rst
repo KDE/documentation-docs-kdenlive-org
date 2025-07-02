@@ -13,11 +13,11 @@
 Distort
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-distort.webp
+.. figure:: /images/effects_and_compositions/effects-distort-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-distort
+   :alt: effects-distort-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Distort
 
@@ -35,13 +35,19 @@ Distort
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
 
 .. rubric:: Description
 
-This effect/filter creates an overlapping wave distortion with adjustable amplitude and frequency giving the video a plasma appearance.
+This effect/filter creates an overlapping wave distortion with adjustable amplitude, frequency, and speed giving the video a plasma appearance.
+
+Compare with the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/wave` effect.
 
 
 .. rubric:: Parameters
@@ -55,9 +61,15 @@ This effect/filter creates an overlapping wave distortion with adjustable amplit
    * - Parameter
      - Value
      - Description
+   * - Use Velocity
+     - Switch
+     - Determine whether the :guilabel:`Velocity` parameter is used (**On** default) or the velocity is time based (**Off**)
    * - Amplitude
-     - Integer
-     - Set the amplitude of the plasma signal. Range is -1000 to 1000, default is 0.
+     - Percent
+     - Set the amplitude of the plasma signal. Smaller values work best.
    * - Frequency
-     - Integer
-     - Set the frequency of the plasma signal. Range is -2000 to 2000, default is 0.
+     - Percent
+     - Set the frequency of the plasma signal. Smaller values work best.
+   * - Velocity
+     - Percent
+     - Set the speed of the plasma signal. Smaller values work best.

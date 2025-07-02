@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Transpose 
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, transpose
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, transform, distort, perspective, transpose, 10bit
 
 .. metadata-placeholder
 
@@ -13,11 +13,11 @@
 Transpose
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-transpose.webp
+.. figure:: /images/effects_and_compositions/effects-transpose-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-transpose
+   :alt: effects-transpose-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Transpose
 
@@ -34,6 +34,10 @@ Transpose
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -74,11 +78,11 @@ The following selection items are available:
    * - Clock
      - default
    * - Clock flip
-     - 
+     - Turns the image clockwise and flips it (mirror along the Y-axis before rotation)
    * - Counter clock
      - 
    * - Counter clock flip
-     - 
+     - Turns the image counter-clockwise and flips it (mirror along the Y-axis before rotation)
 
 :guilabel:`Override if`
 
@@ -95,7 +99,7 @@ The following selection items are available:
      - 
 
 
-.. note:: 
+.. hint:: 
    Many smartphones and digital cameras nowadays set an ``autorotate`` flag in the recorded video. Kdenlive can read the flag, and transposes videos automatically when importing. Check the clip's :doc:`properties</project_and_asset_management/project_bin/clip_properties>` if you want Kdenlive to handle that differently and set the :guilabel:`Disable autorotate` to any other value than 0 (default) or switch it to **On**.
 
 
