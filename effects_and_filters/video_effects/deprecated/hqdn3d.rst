@@ -13,6 +13,12 @@
 Hqdn3d
 ======
 
+.. attention::
+
+   Replaced by :doc:`/effects_and_filters/video_effects/grain_and_noise/denoise_hqdn3d`
+   
+
+
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-hqdn3d.webp
    :width: 365px
    :figwidth: 365px
