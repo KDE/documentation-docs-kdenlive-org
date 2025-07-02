@@ -14,11 +14,11 @@
 Video Values
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-video_values.webp
+.. figure:: /images/effects_and_compositions/effects-video_values-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-video_values
+   :alt: effects-video_values-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Video Values
 
@@ -35,6 +35,10 @@ Video Values
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -59,18 +63,22 @@ This effect/filter draws and overlays a window in the clip that shows a zoomed v
    * - Measurement
      - Selection
      - Select what will be measured.
-   * - 256 scale
+   * - 256-Scale
      - Switch
      - Use the scale 0..256 instead of 0.0..1.0 (default)
-   * - Show alpha
+   * - Show Alpha
      - Switch
      - Show the Alpha channel
-   * - Big window
+   * - Big Window
      - Switch
      - Show a bigger version of the video values window
-   * - X / Y / X size / Y size
+   * - | X Position
+       | Y Position
+       | X Size
+       | Y Size
      - Integer
-     - Set the position (X / Y) and the size (X size / Y size) of the crosshair (determines the area covered and analyzed)
+     - | Set the position and the size of the crosshair (determines the area covered and analyzed).
+       | For size values above 16 switch on :guilabel:`Big Window`.
 
 
 The following selection items are available:
@@ -84,9 +92,9 @@ The following selection items are available:
 
    * - RGB
      - default
-   * - Y'PbPr - rec.601
+   * - Y'PbPr - Rec.601
      - 
-   * - Y'PbPr - rec.709
+   * - Y'PbPr - Rec.709
      - 
    * - HSV
      - Hue, Saturation, Value

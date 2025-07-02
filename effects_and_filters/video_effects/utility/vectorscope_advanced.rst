@@ -13,11 +13,11 @@
 Vectorscope (advanced)
 ======================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-vectorscope_advanced.webp
+.. figure:: /images/effects_and_compositions/effects-vectorscope_advanced-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vectorscope_advanced
+   :alt: effects-vectorscope_advanced-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Vectorscope (advanced)
 
@@ -34,6 +34,10 @@ Vectorscope (advanced)
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -60,6 +64,9 @@ This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` bec
    * - Mode
      - Selection
      - Set the vectorscope mode. See below for available options.
+   * - Tint 1 / Tint 2
+     - Float
+     - Set color tint for gray/tint vectorscope mode. By default both options are zero. This means no tint, and output will remain gray.
    * - X / Y
      - Integer
      - Set which color component will be represented on X / Y axis
@@ -68,16 +75,16 @@ This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` bec
      - Set intensity used by modes **gray**, **color**, **color3** and **color5** for increasing brightness of color component which represents frequency of (X, Y) location in graph
    * - Envelope
      - Selection
-     - Set whether the scope draws an edge or not and how the edge behaves
+     - Set whether the scope draws an edge or not and how the edge behaves. See below for available options.
    * - Graticule
      - Selection
-     - Set what kind of graticule to draw
+     - Set what kind of graticule to draw. See below for available options.
    * - Graticule Opacity
      - Float
      - Set graticule opacity
-   * - Flags
+   * - Graticule Flags
      - Selection
-     - Set graticule flags
+     - Set graticule flags. See below for available options.
    * - Background Opacity\ [1]_
      - Float
      - Set background opacity
@@ -87,7 +94,7 @@ This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` bec
    * - High Threshold
      - Float
      - Set high threshold for color component not represented on X or Y axis. Values higher than this value will be ignored. Default is **1**. Note this value is multiplied with the actual max possible value one pixel component can have. So for 8-bit input and high threshold value of 0.9 the actual threshold is 0.9 * 255 = 230.
-   * - Colorspace
+   * - Color Space
      - Selection
      - Set what kind of :term:`color space` to use when drawing graticule
 
@@ -101,17 +108,19 @@ The following selection items are available:
    :widths: 20 80
    :class: table-wrap
 
-   * - gray
+   * - Gray
+     - 
+   * - Tint
+     - 
+   * - Color
+     - 
+   * - Color 2
+     - 
+   * - Color 3
      - default
-   * - color
+   * - Color 4
      - 
-   * - color2
-     - 
-   * - color3
-     - 
-   * - color4
-     - 
-   * - color5
+   * - Color 5
      - 
 
 :guilabel:`Envelope`
@@ -137,14 +146,14 @@ The following selection items are available:
    :widths: 20 80
    :class: table-wrap
 
-   * - none
-     - default
-   * - color
+   * - None
      - 
-   * - green
+   * - Color
+     - default
+   * - Green
      - 
 
-:guilabel:`Flags`
+:guilabel:`Graticule Flags`
 
 .. list-table::
    :width: 100%
@@ -158,7 +167,7 @@ The following selection items are available:
    * - Name
      - Draw color points short names (default)
 
-:guilabel:`Colorspace`
+:guilabel:`Color Space`
 
 .. list-table::
    :width: 100%
@@ -167,9 +176,9 @@ The following selection items are available:
 
    * - Auto
      - default
-   * - 601
+   * - Rec.601 (interleaved)
      - 
-   * - 709
+   * - Rec.709 (progressive)
      - 
 
 

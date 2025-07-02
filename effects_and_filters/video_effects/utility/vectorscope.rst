@@ -35,6 +35,10 @@ Vectorscope
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      :ref:`Yes <tutorials-vectorscope>` |view-presentation|
 
 .. rst-class:: clear-both
 
@@ -46,3 +50,5 @@ This effect/filter draws and overlays a vectorscope of the video data.
 This is different from the :ref:`view-vectorscope` from the :ref:`view_menu` because the Effect version writes the vectorscope into the output video, whereas the View Menu version displays the vectorscope in a separate widget while you still can preview your project.
 
 The effect works like a switch and does not have any parameters nor keyframes. Compare with the :doc:`/effects_and_filters/video_effects/utility/vectorscope_advanced` effect.
+
+.. seealso:: :doc:`/tips_and_tricks/scopes/vectorscope_working` and :doc:`/tips_and_tricks/scopes/vectorscope_i_and_q_lines`

@@ -13,11 +13,11 @@
 Video Waveform Monitor
 ======================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-video_waveform_monitor.webp
+.. figure:: /images/effects_and_compositions/effects-video_waveform-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-video_waveform_monitor
+   :alt: effects-video_waveform-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Video Waveform Monitor
 
@@ -35,6 +35,10 @@ Video Waveform Monitor
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      :ref:`Yes <tutorials-waveform>` |view-presentation|
 
 .. rst-class:: clear-both
 
@@ -43,6 +47,7 @@ Video Waveform Monitor
 
 This effect/filter plots color component intensity. By default luminance only. Each column of the waveform corresponds to a column of pixels in the source video.
 
+.. seealso:: :doc:`/tips_and_tricks/scopes/waveform_and_rgb_parade`
 
 .. rubric:: Parameters
 
@@ -57,7 +62,7 @@ This effect/filter plots color component intensity. By default luminance only. E
      - Description
    * - Mode
      - Selection
-     - Select the orientation of the waveform
+     - Select the orientation of the waveform: rows or columns
    * - Intensity
      - Float
      - Set intensity. Smaller values are useful to find out how many values of the same luminance are distributed across input rows/columns. Default value is 0.04. Allowed range is [0, 1].
@@ -66,30 +71,30 @@ This effect/filter plots color component intensity. By default luminance only. E
      - Set mirroring mode. In mirrored mode, higher values will be represented on the left side for row mode and at the top for column mode. Default is **Off**.
    * - Display
      - Selection
-     - Set display mode
+     - Set display mode. See below for options and explanation.
    * - Components
      - Integer
-     - Set which color components to display. Numerical values represent different :term:`planes <plane>` (see below).
+     - Set which color components to display. Values represent different :term:`planes <plane>` (see below).
    * - Envelope
      - Selection
-     - Set envelope
+     - Set envelope. See below for options and explanation.
    * - Filter
      - Selection
-     - Set the filter to apply
+     - Set the filter to apply. See below for options and explanation.
    * - Graticule
      - Selection
-     - Select which graticule to display
+     - Select which graticule to display. See below for options.
    * - Graticule Opacity
-     - Float
+     - Percentage
      - Set graticule opacity
    * - Flags
      - Selection
-     - Set graticule flags
+     - Set graticule flags. See below for options.
    * - Scale
      - Selection
-     - Set scale used for displaying graticule
+     - Set scale used for displaying graticule. See below for options.
    * - Background Opacity
-     - Float
+     - Percentage
      - Set background opacity
 
 
@@ -98,10 +103,13 @@ The following selections are available:
 :guilabel:`Mode`
 
 .. list-table::
+   :header-rows: 1
    :width: 100%
    :widths: 25 75
    :class: table-wrap
 
+   * - **Value**
+     - **Description**
    * - Row
      - Graph on the left side represents color component value 0 and the right side represents value = 255
    * - Column
@@ -118,11 +126,11 @@ The following selections are available:
 
    * - **Value**
      - **Description**
-   * - **overlay**
-     - Presents information identical to **parade**, except that the graphs representing color components are superimposed directly over one another. This display mode makes it easier to spot relative differences or similarities in overlapping areas of the color components that are supposed to be identical, such as neutral whites, grays, or blacks.
-   * - **stack** (default)
+   * - Overlay
+     - Presents information identical to **Parade**, except that the graphs representing color components are superimposed directly over one another. This display mode makes it easier to spot relative differences or similarities in overlapping areas of the color components that are supposed to be identical, such as neutral whites, grays, or blacks.
+   * - Stack (default)
      - Display separate graph for the color components side by side in row mode or one below the other in column mode.
-   * - **parade**
+   * - Parade
      - Display separate graph for the color components side by side in column mode or one below the other in row mode. Using this display mode makes it easy to spot color casts in the highlights and shadows of an image, by comparing the contours of the top and the bottom graphs of each waveform. Since whites, grays, and blacks are characterized by exactly equal amounts of red, green, and blue, neutral areas of the picture should display three waveforms of roughly equal width/height. If not, the correction is easy to perform by making level adjustments to the three waveforms.
 
 
@@ -136,20 +144,20 @@ The following selections are available:
 
    * - **Value**
      - **Description**
-   * - **1** (default)
+   * - Y
      - Y (:term:`luma` or luminance)
-   * - **2**
+   * - U
      - U (blue minus luma)
-   * - **3**
+   * - YU
      - YU
-   * - **4**
+   * - V
      - V (red minus luma)
-   * - **5**
+   * - YV
      - YV
-   * - **6**
+   * - UV
      - UV
-   * - **7**
-     - YUV
+   * - All
+     - YUV (default)
 
 
 :guilabel:`Envelope`
@@ -162,13 +170,13 @@ The following selections are available:
 
    * - **Value**
      - **Description**
-   * - **none** (default)
+   * - None (default)
      - No envelope
-   * - **instant**
+   * - Instant
      - Instant envelope, minimum and maximum values presented in graph will be easily visible even with small step value.
-   * - **peak**
+   * - Peak
      - Hold minimum and maximum values presented in graph across time. This way you can still spot out of range values without constantly looking at waveforms.
-   * - **peak+instant**
+   * - Peak+Instant
      - Peak and instant envelope combined together
 
 
@@ -182,21 +190,21 @@ The following selections are available:
 
    * - **Value**
      - **Description**
-   * - **lowpass** (default)
+   * - Lowpass (default)
      - No filtering
-   * - **flat**
+   * - Flat
      - :term:`Luma` and :term:`chroma` combined together
-   * - **aflat**
+   * - Aflat
      - Similar as above, but shows difference between blue and red chroma.
-   * - **xflat**
+   * - Xflat
      - Similar as above, but use different colors.
-   * - **yflat**
+   * - Yflat
      - Similar as above, but again with different colors.
-   * - **chroma**
+   * - Chroma
      - Displays only chroma
-   * - **color**
+   * - Color
      - Displays actual color value on waveform
-   * - **acolor**
+   * - Acolor
      - Similar as above, but with luma showing frequency of chroma values.
 
 
@@ -210,13 +218,13 @@ The following selections are available:
 
    * - **Value**
      - **Description**
-   * - **none** (default)
+   * - None
      - Do not display graticule
-   * - **green**
+   * - Green (default)
      - Display green graticule showing legal broadcast ranges
-   * - **orange**
+   * - Orange
      - Display orange graticule showing legal broadcast ranges
-   * - **invert**
+   * - Invert
      - Display invert graticule showing legal broadcast ranges
 
 
@@ -230,9 +238,9 @@ The following selections are available:
 
    * - **Value**
      - **Description**
-   * - **numbers** (default)
+   * - Show numbers (default)
      - Draw numbers above lines
-   * - **dots**
+   * - Draw dots
      - Draw dots instead of lines
 
 
@@ -246,11 +254,11 @@ The following selections are available:
 
    * - **Value**
      - **Description**
-   * - **digital** (default)
+   * - Digital (default)
      - 
-   * - **millivolts**
+   * - Millivolts
      - 
-   * - **ire**
+   * - IRE
      - 
 
 

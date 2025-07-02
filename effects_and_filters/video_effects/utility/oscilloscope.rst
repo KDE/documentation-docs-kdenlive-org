@@ -11,16 +11,16 @@
    :license: Creative Commons License SA 4.0
 
 
-Oscilloscope
-============
+Oscilloscope (simple)
+=====================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-oscilloscope.webp
+.. figure:: /images/effects_and_compositions/effects-oscilloscope-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-oscilloscope
+   :alt: effects-oscilloscope-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Oscilloscope
+.. sidebar:: |kdenlive-show-video| Oscilloscope (simple)
 
    :**Status**:
       Maintained
@@ -36,6 +36,10 @@ Oscilloscope
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -50,60 +54,80 @@ This effect/filter creates a 2D video oscilloscope overlay. Useful to measure sp
 .. list-table::
    :header-rows: 1
    :width: 100%
-   :widths: 20 10 70
+   :widths: 25 10 65
    :class: table-wrap
 
    * - Parameter
      - Value
      - Description
-   * - av.x / av.y
-     - Float
-     - Set scope center x / y position
-   * - av.s
-     - Float
+   * - Components
+     - Selection
+     - Set which components to trace. By default it traces **All** components (YUV).
+   * - Draw Scope Grid
+     - Switch
      - Set scope size, relative to frame diagonal
-   * - av.t
-     - Float
-     - Set scope tilt/rotation
-   * - av.o
-     - Float
-     - Set scope opacity
-   * - av.tx / av.ty
-     - Float
-     - Set trace center x /y position
-   * - av.tw / av.th
-     - Float
-     - Set trace width / height, relative to width / height of frame
-   * - av.c
+   * - Print Statistics
+     - Switch
+     - Set scope size, relative to frame diagonal
+   * - Draw Trace Profile Line
+     - Switch
+     - 
+   * - Trace X Position
      - Integer
-     - Set which components to trace. By default it traces YUV components.
+     - Set trace center X position
+   * - Trace Y Position
+     - Integer
+     - Set trace center Y position
+   * - Size
+     - Integer
+     - Set scope size, relative to frame diagonal
+   * - Tilt
+     - Integer
+     - Set scope tilt/rotation
+   * - Opacity
+     - Integer
+     - Set scope opacity
+   * - Scope X Position
+     - Integer
+     - Set scope center X position
+   * - Scope Y Position
+     - Integer
+     - Set scope center Y position
+   * - Scope Width
+     - Integer
+     - Set trace width, relative to width of frame
+   * - Scope Height
+     - Integer
+     - Set trace height, relative to height of frame
 
 
-.. rubric:: Components Matrix
+The following selection items are available:
+
+:guilabel:`Components`
 
 .. list-table::
-   :header-rows: 1
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
 
-   * - av.c Value
-     - Component
-   * - 0
-     - None
-   * - 1
-     - Y
-   * - 2
-     - U
-   * - 3
-     - YU
-   * - 4
-     - V
-   * - 5
-     - YV
-   * - 6
-     - UV
-   * - 7 (default)
-     - YUV
-   * - 8..15
-     - repeat
+   * - None
+     - 
+   * - Y (Luminance)
+     - 
+   * - U (Chroma red-diff)
+     - 
+   * - YU
+     - 
+   * - V (Chroma blue-diff)
+     - 
+   * - YV
+     - 
+   * - UV
+     - 
+   * - All
+     - Default
+   * - Alpha
+     - 
 
 
 .. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

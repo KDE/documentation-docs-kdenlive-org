@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Datascope 
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, utility, datascope
+   :description: Kdenlive Video Effects - Data Scope 
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, utility, data scope, data, scope
 
 .. metadata-placeholder
 
@@ -10,14 +10,14 @@
    :license: Creative Commons License SA 4.0
 
 
-DataScope
-=========
+Data Scope
+==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-datascope.webp
+.. figure:: /images/effects_and_compositions/effects-datascope-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-datascope
+   :alt: effects-datascope-2504.webp
 
 .. sidebar:: |kdenlive-show-video| DataScope
 
@@ -35,6 +35,10 @@ DataScope
       No
    :**Known bugs**:
       Yes
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -61,18 +65,21 @@ This effect/filter analyses the video data and shows hexadecimal pixel values of
    * - X / Y Offset
      - Integer
      - Set the x / y offset from where to pick the pixels
+   * - Components
+     - Selection
+     - Set pixel components to display. By default all pixel components are displayed.
    * - Mode
      - Selection
-     - Set scope mode [1]_
+     - Set scope mode
    * - Show Axis
      - Selection
      - If set to **On**, draws rows and columns numbers on left and top of video. Default is **Off**.
    * - Opacity
      - Float
-     - Set background opacity [1]_
+     - Set background opacity\ [1]_
    * - Format
      - Selection
-     - Set display number format [1]_
+     - Set display number format
 
 The following selection items are available:
 
@@ -80,7 +87,7 @@ The following selection items are available:
 
 .. list-table::
    :width: 100%
-   :widths: 20 80
+   :widths: 25 75
    :class: table-wrap
 
    * - 128p
@@ -93,34 +100,60 @@ The following selection items are available:
      - 
    * - 480p
      - 
-   * - 720HD
+   * - 720 HD
      - default
-   * - 1080FullHD
+   * - 1080 Full HD
      - 
    * - 2K
      - 
    * - 4K
      - 
 
+:guilabel:`Components`
+
+.. list-table::
+   :width: 100%
+   :widths: 25 75
+   :class: table-simple
+
+   * - None
+     - 
+   * - Y (Luminance)
+     - 
+   * - U (Chroma red-diff)
+     - 
+   * - YU
+     - 
+   * - V (Chroma blue-diff)
+     - 
+   * - YV
+     - 
+   * - UV
+     - 
+   * - All
+     - Default
+   * - Alpha
+     - 
+
 :guilabel:`Mode`
 
 .. list-table::
    :width: 100%
-   :widths: 20 80
+   :widths: 25 75
    :class: table-wrap
 
-   * - mono
+   * - Mono
      - Draw hexadecimal pixel values with white color on black background (default)
-   * - color
+   * - Color
      - Draw hexadecimal pixel values with input video pixel color on black background
-   * - color2
+   * - Color2
      - Draw hexadecimal pixel values on color background picked from input video, the text color is picked in such way so its always visible
 
 :guilabel:`Format`
 
 .. list-table::
    :width: 100%
-   :widths: 20 80
+   :widths: 25 75
    :class: table-wrap
 
    * - Hex

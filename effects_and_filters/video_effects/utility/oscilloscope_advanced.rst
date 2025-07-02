@@ -18,11 +18,11 @@
 Oscilloscope (advanced)
 =======================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-oscilloscope_advanced.webp
+.. figure:: /images/effects_and_compositions/effects-oscilloscope_advanced-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-oscilloscope_advanced
+   :alt: effects-oscilloscope_advanced-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Oscilloscope (advanced)
 
@@ -39,6 +39,10 @@ Oscilloscope (advanced)
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
