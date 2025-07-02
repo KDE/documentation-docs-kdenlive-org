@@ -104,7 +104,7 @@ Use the :doc:`Motion Tracker </effects_and_filters/video_effects/alpha_mask_keyi
 
          Adding another Transform effect for fine tuned positioning of the text
 
-      It is important to keep the sequence in mind when adding other effects. Kdenlive processes effects top down. This is particular important for effects that transform a clip, like :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>`, :doc:`Position and Zoom </effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom>`, :doc:`Rotate and Shear </effects_and_filters/video_effects/transform_distort_perspective/rotate_and_shear>`, or :doc:`Crop, Scale and Tilt </effects_and_filters/video_effects/transform_distort_perspective/crop_scale_tilt>`.
+      It is important to keep the sequence in mind when adding other effects. Kdenlive processes effects top down. This is particular important for effects that transform a clip, like :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>`, :doc:`Position and Zoom </effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom>`, :doc:`Rotate and Shear </effects_and_filters/video_effects/transform_distort_perspective/shear>`, or :doc:`Crop, Scale and Tilt </effects_and_filters/video_effects/transform_distort_perspective/crop_scale_tilt>`.
 
    .. rst-class:: clear-both
 

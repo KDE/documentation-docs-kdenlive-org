@@ -44,7 +44,7 @@ Getting started
 
     .. container:: tile no-descr
 
-            :ref:`Tutorials`
+         :doc:`/getting_started/tutorials`
 
 
 ##############

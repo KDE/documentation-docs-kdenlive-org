@@ -708,6 +708,8 @@ The Time Remap feature allows to keyframe the speed of a clip to achieve effects
 
    Example of using Time remapping for speed ramping
 
+See also :ref:`this tutorial<tutorials-time_remapping>`.
+
 
 .. .. _effects-speech_to_text:
 

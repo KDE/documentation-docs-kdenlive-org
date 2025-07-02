@@ -24,7 +24,7 @@
 Title Scrolling
 ===============
 
-The title editor has a built-in animation function, albeit rather rudimentary. It allows scrolling titles in basically any direction in a linear motion. This is enough for something like closing credits, but for more elaborate motion it is recommended to use effects like :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform`, :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_keyframable`, or :doc:`/effects_and_filters/video_effects/transform_distort_perspective/shear`.
+The title editor has a built-in animation function, albeit rather rudimentary. It allows scrolling titles in basically any direction in a linear motion. This is enough for something like closing credits, but for more elaborate motion it is recommended to use effects like :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform`, :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way`, or :doc:`/effects_and_filters/video_effects/transform_distort_perspective/shear`.
 
 The animation feature works by defining a start viewport and an end viewport covering none or some of the title workspace. The position of the viewports determines the direction of the animation:
 
