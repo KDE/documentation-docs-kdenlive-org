@@ -22,11 +22,11 @@
 Fade Out
 ========
 
-.. figure:: /images/effects_and_compositions/kdenlive2408_effects-fade_out.webp
+.. figure:: /images/effects_and_compositions/effects-fade_out-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2408_effects-fade_out
+   :alt: effects-fade_out-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Fade Out
 
@@ -50,7 +50,7 @@ Fade Out
 
 .. rubric:: Description
 
-This effect/filter fades out the source similar to the :doc:`Wipe </compositing/transitions/wipe>` transition. A checkbox switches to fade from black. It used to be called "Fade from Black".
+This effect/filter fades out the source similar to the :doc:`Wipe </compositing/transitions/wipe>` transition. A checkbox switches to fade from black. It used to be called "Fade to Black".
 
 This effect does not have keyframes but a slider controlling the duration of the fade.
 
@@ -69,21 +69,33 @@ The applied easing method curve is shown on the clips fade.
      - Description
    * - Duration
      - Slider
-     - Set the duration via the slider or the time code (using the format hh:mm:ss:ff)
-   * - Easing Method
-     - | Linear
-       | Cubic in
-       | Exponential in
-       | Cubic out
-       | Exponential out
-     - | Add a linear fade
-       | Add a cubic in fade
-       | Add a exponential in fade
-       | Add a Cubic out fade
-       | Add a exponential out fade
+     - Set the duration via the slider or the time code (using the format :abbr:`hh:mm:ss:ff(hours:minutes:seconds:frames)`)
    * - Fade to black
      - Switch
-     - If checked, fades out the source to black. Default is **off**
+     - If checked, fades in the source to black. Default is **off**
+   * - Easing Method
+     - Selection
+     - See below
+
+The following selection values are available:
+
+:guilabel:`Fade to black`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-wrap
+
+   * - Linear
+     - Add a linear fade
+   * - Cubic in
+     - Add a cubic-in fade
+   * - Exponential in
+     - Add an exponential-in fade
+   * - Cubic out
+     - Add a Cubic-out fade
+   * - Exponential out
+     - Add an exponential-out fade
 
 
 .. hint:: 

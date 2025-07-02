@@ -21,11 +21,11 @@
 Fade In
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2408_effects-fade_in.webp
+.. figure:: /images/effects_and_compositions/effects-fade_in-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2408_effects-fade_in
+   :alt: effects-fade_in-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Fade In
 
@@ -68,21 +68,33 @@ The applied easing method curve is shown on the clips fade.
      - Description
    * - Duration
      - Slider
-     - Set the duration via the slider or the time code (using the format hh:mm:ss:ff)
-   * - Easing Method
-     - | Linear
-       | Cubic in
-       | Exponential in
-       | Cubic out
-       | Exponential out
-     - | Add a linear fade
-       | Add a cubic in fade
-       | Add a exponential in fade
-       | Add a Cubic out fade
-       | Add a exponential out fade
-   * - Fade to black
+     - Set the duration via the slider or the time code (using the format :abbr:`hh:mm:ss:ff(hours:minutes:seconds:frames)`)
+   * - Fade from black
      - Switch
      - If checked, fades in the source from black. Default is **off**
+   * - Easing Method
+     - Selection
+     - See below
+
+The following selection values are available:
+
+:guilabel:`Fade from black`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-wrap
+
+   * - Linear
+     - Add a linear fade
+   * - Cubic in
+     - Add a cubic in fade
+   * - Exponential in
+     - Add an exponential-in fade
+   * - Cubic out
+     - Add a Cubic out fade
+   * - Exponential out
+     - Add an exponential-out fade
 
 
 .. hint:: 

@@ -18,11 +18,11 @@
 Freeze
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-freeze.webp
+.. figure:: /images/effects_and_compositions/effects-freeze-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-freeze
+   :alt: effects-freeze-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Freeze
 
@@ -62,7 +62,7 @@ This effect causes the video to freeze. By default, the clip will be frozen for 
      - Description
    * - Freeze at
      - 
-     - Set the position via the slider or the time code (using the format hh:mm:ss:ff)
+     - Set the position via the slider or the time code (using the format :abbr:`hh:mm:ss:ff(hours:minutes:seconds:frames)`)
    * - Freeze Before
      - 
      - If checked, freezes the video from the start of the clip to the set :guilabel:`Freeze at` position. Default is **off**

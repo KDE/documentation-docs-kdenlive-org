@@ -31,12 +31,16 @@ Gate Weave
    :**Source library**:
       frei0r
    :**Source filter**:
-      vertigo
+      gateweave
    :**Available**:
       |linux| |appimage| |windows| |apple|
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
