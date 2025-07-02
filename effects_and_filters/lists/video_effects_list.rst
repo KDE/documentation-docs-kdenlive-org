@@ -50,23 +50,23 @@ Video Effects
      - Denoise frames using 3D FFT (frequency domain filtering) (|avfilter.fftdnoiz|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Fill the alpha channel with the specified gradient (|frei0r.alphagrad|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_operations` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Display and manipulation of the alpha channel (|frei0r.alpha0ps|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Draws simple shapes into the alpha channel (|frei0r.alphaspot|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - This filter takes a snapshot of the frame before it draws simple shapes into the alpha channel. Use it together with the mask_apply effect, that uses a transition to composite the current frame's image over the snapshot. The typical use case is to add effects in the following sequence: this effect, zero or more effects, mask_apply. (|mask_start|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_strobing` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Strobes the alpha channel to 0. Many other filters overwrite the alpha channel, in that case this needs to be last (|strobe|)
    * - :doc:`/effects_and_filters/video_effects/misc/alphaextract` 
      - |appimage|\ |windows|\ |apple|
@@ -118,7 +118,7 @@ Video Effects
      - Dynamic thresholding (|frei0r.twolay0r|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/bluescreen0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Color to alpha (blit SRCALPHA) (|frei0r.bluescreen0r|)
    * - :doc:`/effects_and_filters/video_effects/deprecated/blur` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -136,10 +136,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Adjusts the brightness of a source image (|frei0r.brightness|)
-   * - :doc:`/effects_and_filters/video_effects/color_image_correction/brightness_keyframable` 
+   * - :doc:`/effects_and_filters/video_effects/stylize/burning_tv` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Color and Image correction
-     - Change the image |brightness| with keyframes (|brightness|)
+     - Stylize
+     - Simulates burning TV pixels (|burningtv|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/bw0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
@@ -155,15 +155,7 @@ Video Effects
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/channel_extractors` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
-     - Extracts Blue from Image (|frei0r.B|)
-   * - :doc:`/effects_and_filters/video_effects/color_image_correction/channel_extractors` 
-     - |linux|\ |appimage|\ |windows|\ |apple|
-     - Color and Image correction
-     - Extracts Green from Image (|frei0r.G|)
-   * - :doc:`/effects_and_filters/video_effects/color_image_correction/channel_extractors` 
-     - |linux|\ |appimage|\ |windows|\ |apple|
-     - Color and Image correction
-     - Extracts Red from Image (|frei0r.R|)
+     - Extracts Blue, Green, or Red from the image (|frei0r.B|)
    * - :doc:`/effects_and_filters/video_effects/stylize/charcoal` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
@@ -178,11 +170,11 @@ Video Effects
      - Make image greyscale except for chosen color (|chroma_hold|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/chroma_key_advanced` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Chroma Key with more advanced options (e.g. different color models). Use if basic chroma key is not working effectively. (|frei0r.select0r|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/chroma_key` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Make Selected Color transparent (|chroma|)
    * - :doc:`/effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -262,16 +254,16 @@ Video Effects
      - Apply Contrast Adaptive Sharpen filter to video stream. (|avfilter.cas|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/corners` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Four corners geometry engine (|frei0r.c0rners|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/crop_padding` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - This filter crops the image to a rounded rectangle or circle by padding it with a color (|qtcrop|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/crop_scale_tilt` 
      - |linux|\ |appimage|\ |windows|
-     - Transform, Distort and Perspective
-     - Scales, Tilts and Crops an Image (|frei0r.scale0tilt|)
+     - Transform, Distort, and Perspective
+     - Crops, scales, and tilts an Image (|frei0r.scale0tilt|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/curves` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
@@ -298,19 +290,19 @@ Video Effects
      - Remove banding artifacts from input video. It works by replacing banded pixels with an average value of referenced pixels (|avfilter.deband|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/defish` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Non rectilinear lens mappings (|frei0r.defish0r|)
    * - delogo
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Deprecated
      - Remove logo from input video (|avfilter.delogo|)
-   * - :doc:`/effects_and_filters/video_effects/grain_and_noise/denoiser` 
+   * - :doc:`/effects_and_filters/video_effects/grain_and_noise/denoise_hqdn3d` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Grain and Noise
-     - High Quality 3d denoiser (|frei0r.hqdn3d|)
+     - High Quality 3d denoiser (|frei0r.denoise_hqdn3d|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/despill` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Remove unwanted contamination of foreground colors, caused by reflected color of greenscreen or bluescreen (|avfilter.despill|)
    * - :doc:`/effects_and_filters/video_effects/image_adjustment/dilation` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -318,11 +310,11 @@ Video Effects
      - Apply dilation effect (|avfilter.dilation|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/distort` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Plasma (|frei0r.distort0r|)
-   * - :doc:`/effects_and_filters/video_effects/deprecated/dither` 
+   * - :doc:`/effects_and_filters/video_effects/grain_and_noise/dither` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Deprecated
+     - Grain and Noise
      - Dithers the image and reduces the number of available colors (|frei0r.dither|)
    * - :doc:`/effects_and_filters/video_effects/generate/drawbox` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -332,6 +324,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Generate
      - Draw a colored grid on the input video (|avfilter.drawgrid|)
+   * - :doc:`/effects_and_filters/video_effects/generate/drop_shadow` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Generate
+     - Creates a shadow effect for the clip (|dropshadow|)
    * - :doc:`/effects_and_filters/video_effects/grain_and_noise/dust` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Grain and Noise
@@ -342,7 +338,7 @@ Video Effects
      - Overlay text with keywords replaced (|dynamictext|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/edge_crop` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Trim the edges of a clip (|crop|)
    * - :doc:`/effects_and_filters/video_effects/stylize/edge_detection` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -354,12 +350,8 @@ Video Effects
      - Edge glow filter (|frei0r.edgeglow|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/elastic_scale_filter` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - This is a frei0r filter which allows to scale video footage non-linearly (|frei0r.elastic_scale|)
-   * - :doc:`/effects_and_filters/video_effects/stylize/elbg_posterizer` 
-     - |linux|\ |appimage|\ |windows|\ |apple|
-     - Stylize
-     - Apply posterize effect, using the ELBG algorithm (|avfilter.elbg|)
    * - :doc:`/effects_and_filters/video_effects/stylize/emboss` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
@@ -394,19 +386,23 @@ Video Effects
      - Apply arbitrary expressions to samples in frequency domain (|avfilter.fftfilt|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/fill_borders` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Fill borders of the input video, without changing video stream dimensions. Sometimes video can have garbage at the four edges and you may not want to crop video input to keep size multiple of some number (|avfilter.fillborders|)
+   * - :doc:`/effects_and_filters/video_effects/grain_and_noise/filmgrain` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Grain and Noise
+     - Adds film-like grain and softens the picture. This gives the video an old film look. (|frei0r.filmgrain|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/flip_horizontally` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Horizontally flip the input video (|avfilter.hflip|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/flip_vertically` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Vertically flip the input video (|avfilter.vflip|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/flippo` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Flipping X and Y axis (|frei0r.flippo|)
    * - :doc:`/effects_and_filters/video_effects/motion/freeze` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -424,10 +420,18 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Blur and Sharpen
      - Apply Gaussian Blur filter (|avfilter.gblur|)
-   * - :doc:`/effects_and_filters/video_effects/motion/glitch0r` 
+   * - :doc:`/effects_and_filters/video_effects/motion/gate_weave` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Motion
+     - Randomly moves frame around to simulate film gate weave (|frei0r.gateweave|)
+   * - :doc:`/effects_and_filters/video_effects/motion/glitching_glitch0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Motion
      - Adds glitches and block shifting (|frei0r.glitch0r|)
+   * - :doc:`/effects_and_filters/video_effects/motion/glitching_pixs0r` 
+     - |appimage|\ |windows|\ |apple|
+     - Misc
+     - Glitch image shifting rows to and fro (|frei0r.pixs0r|)
    * - :doc:`/effects_and_filters/video_effects/stylize/glow` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
@@ -448,9 +452,9 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Deprecated
      - Grain over the image (|grain|)
-   * - :doc:`/effects_and_filters/video_effects/misc/grayworld` 
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/grayworld` 
      - |appimage|\ |windows|\ |apple|
-     - Misc
+     - Color and Image correction
      - Adjust white balance using LAB gray world algorithm (|avfilter.grayworld|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/greyscale` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -476,9 +480,13 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Adjust hue, saturation and lightness for a range of hue values. (|hslrange|)
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/hsvhold` 
+     - |appimage|\ |windows|\ |apple|
+     - Color and Image correction
+     - Turns a certain HSV range into gray. (|avfilter.hsvhold|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/hsvkey` 
      - |appimage|\ |windows|\ |apple|
-     - Misc
+     - Alpha, Mask, and Keying
      - Turns a certain HSV range into transparency. Operates on YUV colors. (|avfilter.hsvkey|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/hue_shift` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -488,10 +496,10 @@ Video Effects
      - |appimage|\ |windows|\ |apple|
      - Misc
      - Apply hue-saturation-intensity adjustments. (|avfilter.huesaturation|)
-   * - :doc:`/effects_and_filters/video_effects/color_image_correction/hsvhold` 
-     - |appimage|\ |windows|\ |apple|
-     - Misc
-     - Turns a certain HSV range into gray. (|avfilter.hsvhold|)
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/brightness_keyframable` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Color and Image correction
+     - Change the image |brightness| with keyframes (|brightness|)
    * - :doc:`/effects_and_filters/video_effects/image_adjustment/interlace_field_order` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Image Adjustment
@@ -508,21 +516,21 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Inverts all colors of a source image (|frei0r.invert0r|)
-   * - :doc:`/effects_and_filters/video_effects/misc/kaleid0sc0pe` 
+   * - :doc:`/effects_and_filters/video_effects/stylize/kaleid0sc0pe` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Misc
      - Applies a kaleidoscope effect (|frei0r.kaleid0sc0pe|)
    * - :doc:`/effects_and_filters/video_effects/deprecated/k-means_clustering` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Deprecated
-     - Clusters of a source image by color and spatial distance (|frei0r.cluster|)
+     - **Abandoned due to high CPU requirements**. Clusters of a source image by color and spatial distance (|frei0r.cluster|)
    * - :doc:`/effects_and_filters/video_effects/image_adjustment/kernel_deinterlacer` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Image Adjustment
      - Deinterlace input video by applying Donald Graft’s adaptive kernel deinterlacing. Works on interlaced parts of a video to produce progressive frames (|avfilter.kerndeint|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Reduces the visibility of key color spill in chroma keying (|frei0r.keyspillm0pup|)
    * - :doc:`/effects_and_filters/video_effects/stylize/kirsch` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -532,17 +540,17 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Misc
      - Deinterlace interlaced video. (|avdeinterlace|)
-   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction` 
+   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_frei0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Allow compensation of lens distortion (|frei0r.lenscorrection|)
-   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_keyframe` 
+   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/lens_correction_avfilter` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Correct radial lens distortion (|avfilter.lenscorrection|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/letterb0xed` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Adds black borders at the top and bottom for cinema look (|frei0r.letterb0xed|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/levels` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -562,7 +570,7 @@ Video Effects
      - Limits the pixel components values to the specified range [min,max] (|avfilter.limiter|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/lumakey` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - This filter modifies image’s alpha channel as a function of its luma value. This is used together with a compositor to combine two images so that bright or dark areas of source image are overwritten on top of the destination image (|lumakey|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/lumaliftgammagain` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -574,7 +582,7 @@ Video Effects
      - Creates a luminance map of the image (|frei0r.luminance|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/mask_apply` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Apply the previous effects in the zone defined by a Mask Start effect. (|mask_apply|)
    * - :doc:`/effects_and_filters/video_effects/grain_and_noise/median` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -586,7 +594,7 @@ Video Effects
      - Implements several median-type filters (|frei0r.medians|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/mirror` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Flip your image in any direction (|mirror|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/monochrome` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -594,7 +602,7 @@ Video Effects
      - Convert video to gray using custom color filter (|avfilter.monochrome|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/motion_tracker` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Select a zone to follow its movements (|opencv.tracker|)
    * - :doc:`/effects_and_filters/video_effects/stylize/ndvi_filter` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -622,11 +630,11 @@ Video Effects
      - Normalize RGB video (aka histogram stretching, contrast stretching). See: https://en.wikipedia.org/wiki/Normalization_(image_processing) (|avfilter.normalize|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/nosync0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Broken TV (|frei0r.nosync0r|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/obscure` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Hide a region of the clip (|obscure|)
    * - :doc:`/effects_and_filters/video_effects/stylize/oldfilm` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -650,31 +658,31 @@ Video Effects
      - Filter out photosensitive epilepsy seizure-inducing flashes (|avfilter.photosensitivity|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/pillar_echo` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Create an echo effect (blur) outside of an area of interest (|pillar_echo|)
    * - :doc:`/effects_and_filters/video_effects/stylize/pixelize` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
      - Pixelize input image (|frei0r.pixeliz0r|)
-   * - :doc:`/effects_and_filters/video_effects/misc/pixs0r` 
-     - |appimage|\ |windows|\ |apple|
-     - Misc
-     - Glitch image shifting rows to and fro (|frei0r.pixs0r|)
    * - :doc:`/effects_and_filters/video_effects/blur_and_sharpen/planes_blur` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Blur and Sharpen
      - Set an expression for the box radius in pixels used for blurring the corresponding input plane. (|avfilter.boxblur|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/position_and_zoom` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Adjust size and position of clip (|affine|)
    * - :doc:`/effects_and_filters/video_effects/stylize/posterize` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
      - Posterizes image by reducing the number of colors used in image (|frei0r.posterize|)
+   * - :doc:`/effects_and_filters/video_effects/stylize/posterize_elbg` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Stylize
+     - Apply posterize effect, using the ELBG algorithm (|avfilter.elbg|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/premultiply` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Multiply (or divide) each color component by the pixel's alpha value (|frei0r.premultiply|)
    * - :doc:`/effects_and_filters/video_effects/stylize/prewitt` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -686,7 +694,7 @@ Video Effects
      - Reduce image to primary colors (|frei0r.primaries|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/rectangular_alpha_mask` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Creates a square alpha-channel mask (|frei0r.mask0mate|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/rgb_adjustment` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -712,21 +720,17 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
      - Apply roberts cross operator to input video stream (|avfilter.roberts|)
-   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_keyframable` 
+   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
-     - Rotate clip in any 3 directions (|affine|)
-   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_and_shear` 
-     - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Rotate clip in any 3 directions (|affine|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/rotoscoping` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Keyframable vector based |rotoscoping| (|rotoscoping|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/rotoscoping_mask` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - This filter makes a snapshot of the frame before a keyframable vector based rotoscoping is applied. Use it together with the mask_apply effect, that uses a transition to composite the current frame's image over the snapshot. The typical use case is to add effects in the following sequence: this effect, zero or more effects, mask_apply. (|mask_start|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/saturation` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -743,14 +747,14 @@ Video Effects
    * - :doc:`/effects_and_filters/video_effects/grain_and_noise/scratchlines` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Grain and Noise
-     - Scratch|lines| over the picture (|lines|)
+     - Creates scratch lines over the picture (|lines|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/scroll` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Pick median pixel from certain rectangle defined by radius. (|avfilter.scroll|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/secondary_color_selection_mask` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - This filter takes a snapshot of the frame before a keyframable Chroma Key selection with more advanced options (e.g. different color models) is applied. Use it together with the mask_apply effect, that uses a transition to composite the current frame's image over the snapshot. The typical use case is to add effects in the following sequence: this effect, zero or more effects, mask_apply. (|mask_start|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/sepia` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -766,7 +770,7 @@ Video Effects
      - Shape Adaptive Blur (|avfilter.sab|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/shape_alpha` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Create an alpha channel (transparency) based on another resource (|shape|)
    * - :doc:`/effects_and_filters/video_effects/blur_and_sharpen/sharp_unsharp` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -778,7 +782,7 @@ Video Effects
      - Unsharp masking (port from Mplayer) (|frei0r.sharpness|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/shear` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Shear transform the input image (|avfilter.shear|)
    * - :doc:`/effects_and_filters/video_effects/stylize/sigmoidal_transfer` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -806,11 +810,11 @@ Video Effects
      - Changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List) (|frei0r.sopsat|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/spillsuppress` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Remove green or blue spill light from subjects shot in front of green or blue screen (|frei0r.spillsupress|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/spot_remover` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Replace an area with interpolated pixels. The new pixel values are interpolated from the nearest pixel. (|spot_remover|)
    * - :doc:`/effects_and_filters/video_effects/blur_and_sharpen/square_blur` 
      - |linux|\ |appimage|\ |windows|\ |apple|
@@ -850,15 +854,15 @@ Video Effects
      - Maps source image luminance between two colors specified (|frei0r.tint0r|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Position, Scale and opacity, (|qtblend|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/transparency` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - Tunes the alpha channel (|frei0r.transparency|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transpose` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Transpose rows with columns in the input video and optionally flip it (|avfilter.transpose|)
    * - :doc:`/effects_and_filters/video_effects/utility/vectorscope` 
      - |linux|\ |appimage|\ |windows|
@@ -904,10 +908,14 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Generate
      - Adjustable Vignette (|vignette|)
+   * - :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_cap` 
+     - |appimage|
+     - VR360 and 3D
+     - Attempts to fill in zenith and nadir by stretching and blurring the image data. It samples a band of latitude near the start of the effect and stretches and blurs it over the pole. (|frei0r.bigsh0t_cap|)
    * - :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_equi2stereo` 
      - |appimage|
      - VR360 and 3D
-     - converts an equirectangular frame (panoramic) to a rectilinear frame (what you’re used to seeing). Can be used to preview what will be shown in a 360 video viewer. Delayed frame blitting mapping on a time bitmap (|frei0r.bigsh0t_eq_to_rect|)
+     - Converts an equirectangular frame (panoramic) to a rectilinear frame (what you’re used to seeing). Can be used to preview what will be shown in a 360 video viewer. Delayed frame blitting mapping on a time bitmap (|frei0r.bigsh0t_eq_to_rect|)
    * - :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_equi_mask` 
      - |appimage|
      - VR360 and 3D
@@ -915,7 +923,7 @@ Video Effects
    * - :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_equi2rect` 
      - |appimage|
      - VR360 and 3D
-     - converts an equirectangular frame (panoramic) to a rectilinear frame (what you’re used to seeing). Can be used to preview what will be shown in a 360 video viewer. Delayed frame blitting mapping on a time bitmap (|frei0r.bigsh0t_eq_to_rect|)
+     - Converts an equirectangular frame (panoramic) to a rectilinear frame (what you’re used to seeing). Can be used to preview what will be shown in a 360 video viewer. Delayed frame blitting mapping on a time bitmap (|frei0r.bigsh0t_eq_to_rect|)
    * - :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_rect2equi` 
      - |appimage|
      - VR360 and 3D
@@ -928,14 +936,18 @@ Video Effects
      - |appimage|
      - VR360 and 3D
      - Rotates a panoramic image (|frei0r.bigsh0t_transform_360|)
-   * - :doc:`/effects_and_filters/video_effects/deprecated/wave` 
+   * - :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_wrap` 
+     - |appimage|
+     - VR360 and 3D
+     - Stretches a section of the equirectangular panorama to cover the entire VR sphere (|frei0r.bigsh0t_wrap|)
+   * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/wave` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Deprecated
+     - Transform, Distort, and Perspective
      - Makes waves on your clip with keyframes (|wave|)
-   * - wavelet_denoiser
+   * - :doc:`/effects_and_filters/video_effects/grain_and_noise/vague_denoiser`
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Deprecated
-     - Wavelet based Denoiser (|avfilter.vaguedenoiser|)
+     - Grain and Noise
+     - Wavelet-based denoiser (|avfilter.vaguedenoiser|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/white_balance` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
@@ -954,7 +966,7 @@ Video Effects
      - Deinterlace interlaced video. (|deinterlace|)
    * - :doc:`/effects_and_filters/video_effects/transform_distort_perspective/zoom_pan` 
      - |linux|\ |appimage|\ |windows|\ |apple|
-     - Transform, Distort and Perspective
+     - Transform, Distort, and Perspective
      - Apply Zoom and Pan effect (|avfilter.zoompan|)
 
 
@@ -999,17 +1011,17 @@ Video Effects
 
 .. |frei0r.alphagrad| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alphagrad/" target="_blank">frei0r.alphagrad</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alpha0ps_alphagrad/" target="_blank">frei0r.alpha0ps_alphagrad</a>
 
 
 .. |frei0r.alpha0ps| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alpha0ps/" target="_blank">frei0r.alpha0ps</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alpha0ps_alpha0ps/" target="_blank">frei0r.alpha0ps_alpha0ps</a>
 
 
 .. |frei0r.alphaspot| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alphaspot/" target="_blank">frei0r.alphaspot</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-alpha0ps_alphaspot/" target="_blank">frei0r.alpha0ps_alphaspot</a>
 
 
 .. |mask_start| raw:: html
@@ -1287,6 +1299,11 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-scale0tilt/" target="_blank">frei0r.scale0tilt</a>
 
 
+.. |burningtv| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterBurningtv/" target="_blank">BurningTV</a>
+
+
 .. |dance| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterDance/" target="_blank">dance</a>
@@ -1322,9 +1339,9 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-delogo/" target="_blank">avfilter.delogo</a>
 
 
-.. |frei0r.hqdn3d| raw:: html
+.. |frei0r.denoise_hqdn3d| raw:: html
 
-   <a href="https://www.mltframework.org/plugins/FilterFrei0r-hqdn3d/" target="_blank">frei0r.hqdn3d</a>
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-denoise_hqdn3d/" target="_blank">frei0r.denoise_hqdn3d</a>
 
 
 .. |avfilter.despill| raw:: html
@@ -1365,6 +1382,11 @@ Video Effects
 .. |avfilter.drawgrid| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-drawgrid/" target="_blank">avfilter.drawgrid</a>
+
+
+.. |dropshadow| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterDropshadow/" target="_blank">dropshadow</a>
 
 
 .. |dust| raw:: html
@@ -1457,6 +1479,11 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-fillborders/" target="_blank">avfilter.fillborders</a>
 
 
+.. |frei0r.filmgrain| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-filmgrain/" target="_blank">frei0r.filmgrain</a>
+
+
 .. |avfilter.hflip| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-hflip/" target="_blank">avfilter.hflip</a>
@@ -1490,6 +1517,11 @@ Video Effects
 .. |avfilter.gblur| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-gblur/" target="_blank">avfilter.gblur</a>
+
+
+.. |frei0r.gateweave| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-gateweave/" target="_blank">frei0r.gateweave</a>
 
 
 .. |frei0r.glitch0r| raw:: html
@@ -2111,6 +2143,11 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterVignette/" target="_blank">vignette</a>
 
 
+.. |frei0r.bigsh0t_cap| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_eq_cap/" target="_blank">frei0r.bigsh0t_eq_cap</a>
+
+
 .. |frei0r.bigsh0t_eq_to_rect| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_eq_to_rect/" target="_blank">frei0r.bigsh0t_eq_to_rect</a>
@@ -2139,6 +2176,11 @@ Video Effects
 .. |frei0r.bigsh0t_transform_360| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_transform_360/" target="_blank">frei0r.bigsh0t_transform_360</a>
+
+
+.. |frei0r.bigsh0t_wrap| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-bigsh0t_eq_wrap/" target="_blank">frei0r.bigsh0t_eq_wrap</a>
 
 
 .. |wave| raw:: html
@@ -2191,7 +2233,7 @@ Video Effects
      - Stylize
      - Typewriter effect v0.3.3 To be applied on title clips only. (|typewriter|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/shape_alpha_mask` |linux|\ |appimage|\ |windows|\ |apple|
-     - Alpha, Mask and Keying
+     - Alpha, Mask, and Keying
      - This filter makes a snapshot of the frame before an alpha channel (transparency) is created based on another resource. Use it together with the mask_apply effect, that uses a transition to composite the current frame's image over the snapshot. The typical use case is to add effects in the following sequence: this effect, zero or more effects, mask_apply. (|mask_start|)
    * - :doc:`/effects_and_filters/video_effects/image_adjustment/rescale` |appimage|
      - Image Adjustment
