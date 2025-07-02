@@ -26,7 +26,7 @@ copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/b
 author = 'Kdenlive Community'
 
 # The full version, including alpha/beta/rc tags
-release = '25.08'
+release = '25.04'
 
 # Get the git description if possible, to put it in the footer.
 
@@ -122,6 +122,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |bookmark-new| image:: /images/icons/bookmark-new.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |color-management| image:: /images/icons/color-management.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -585,6 +589,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |tools-report-bug| image:: /images/icons/tools-report-bug.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |tools-wizard| image:: /images/icons/tools-wizard.svg
    :width: 22px
    :class: no-scaled-link
@@ -618,6 +626,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |view-media-equalizer| image:: /images/icons/view-media-equalizer.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |view-presentation| image:: /images/icons/view-presentation.svg
    :width: 22px
    :class: no-scaled-link
 
