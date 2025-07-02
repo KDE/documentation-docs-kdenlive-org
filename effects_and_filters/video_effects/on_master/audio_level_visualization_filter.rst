@@ -21,11 +21,11 @@
 Audio Level Visualization Filter
 ================================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-audio_level_visualization_filter.webp
+.. figure:: /images/effects_and_compositions/effects-audio_level_visualization-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-audio_level_visualization_filter
+   :alt: effects-audio_level_visualization-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Audio Level Visualization Filter
 

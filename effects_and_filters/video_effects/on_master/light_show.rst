@@ -13,11 +13,11 @@
 Light Show
 ==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-light_show.webp
+.. figure:: /images/effects_and_compositions/effects-light_show-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-light_show
+   :alt: effects-light_show-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Light Show
 

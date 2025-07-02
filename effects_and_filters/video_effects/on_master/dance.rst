@@ -14,11 +14,11 @@
 Dance
 =====
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-dance.webp
+.. figure:: /images/effects_and_compositions/effects-dance-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: denlive2304_effects-dance
+   :alt: effects-dance-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Dance
 
