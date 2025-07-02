@@ -110,7 +110,7 @@ Kdenlive is available as an install and as a standalone version.
 
    - The Kdenlive files are always located in the same folder.  
 
-- Standalone version: **Doesn't** need administrator rights and isn't installed. It is **not** listed as a program. Is only accessible for the user who has downloaded the file.  
+- Standalone version: **Does not** need administrator rights and isn't installed. It is **not** listed as a program. Is only accessible for the user who has downloaded the file.  
    
    - If you work with a normal user on your computer, you can use Kdenlive.
 
