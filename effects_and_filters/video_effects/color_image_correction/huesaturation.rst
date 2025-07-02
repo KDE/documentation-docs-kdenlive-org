@@ -34,7 +34,11 @@ Hue Saturation Intensity
    :**On Master only**:
       No
    :**Known bugs**:
-      See footnote\ [1]_
+      Yes\ [1]_ |tools-report-bug|
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -57,7 +61,7 @@ This filter operates in :abbr:`RGB (Red, Green, Blue)` :term:`color space`.
    * - Parameter
      - Value
      - Description
-   * - Colors
+   * - Colors to Adjust
      - Selection
      - Set which primary and complementary colors are going to be adjusted
    * - Preserve lightness
@@ -78,6 +82,30 @@ This filter operates in :abbr:`RGB (Red, Green, Blue)` :term:`color space`.
    * - Red / Green / Blue weight
      - Float
      - Set weight for each RGB component. This is used in saturation and lightness\ [1]_ processing.
+
+The following selection items are available:
+
+:guilabel:`Colors to Adjust`
+
+.. list-table::
+   :width: 100%
+   :widths: 20 80
+   :class: table-simple
+
+   * - Reds
+     - Default
+   * - Yellows
+     - 
+   * - Greens
+     - 
+   * - Cyans
+     - 
+   * - Blues
+     - 
+   * - Magentas
+     - 
+   * - All colors
+     - 
 
 
 ----
