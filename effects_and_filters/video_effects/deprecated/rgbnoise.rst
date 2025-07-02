@@ -11,7 +11,6 @@ rgbnoise
 ========
 
 
-
 This is an effect in the Misc category.
 
 This is the `Frei0r rgbnoise <https://www.mltframework.org/plugins/FilterFrei0r-rgbnoise/>`_ MLT filter by Janne Liljeblad.

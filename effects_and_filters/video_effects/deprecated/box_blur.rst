@@ -13,6 +13,11 @@
 Box Blur
 ========
 
+.. attention::
+
+   Replaced by :doc:`/effects_and_filters/video_effects/blur_and_sharpen/boxblur`. For more blurring effects see the :doc:`/effects_and_filters/video_effects/blur_and_sharpen` chapter.
+   
+
 
 This is the `Boxblur <https://www.mltframework.org/plugins/FilterBoxblur/>`_ MLT filter.
 

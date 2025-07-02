@@ -12,6 +12,11 @@
 K-Means Clustering
 ==================
 
+.. attention::
+
+   Abandoned due to heavy CPU workload
+
+
 
 
 This is the `Frei0r cluster <https://www.mltframework.org/plugins/FilterFrei0r-cluster/>`_ MLT filter.
