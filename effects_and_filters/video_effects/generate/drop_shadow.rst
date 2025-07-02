@@ -41,6 +41,10 @@ Drop Shadow
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-drop_shadow>` |view-presentation|
 
 .. rst-class:: clear-both
 

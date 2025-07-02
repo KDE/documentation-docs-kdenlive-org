@@ -35,6 +35,10 @@ Timer
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-timer>` |view-presentation|
 
 .. rst-class:: clear-both
 
