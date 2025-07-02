@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Edge Detection
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, edge detection
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, edge, detection, 10bit
 
 .. metadata-placeholder
 
@@ -18,11 +18,11 @@
 Edge Detection
 ==============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-edge_detection.webp
+.. figure:: /images/effects_and_compositions/effects-edge_detection-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-edge_detection
+   :alt: effects-edge_detection-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Edge Detection
 
@@ -39,6 +39,10 @@ Edge Detection
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

@@ -17,11 +17,11 @@
 Threshold
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-threshold.webp
+.. figure:: /images/effects_and_compositions/effects-threshold-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-threshold
+   :alt: effects-threshold-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Threshold\ [1]_
 
@@ -38,6 +38,10 @@ Threshold
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -61,7 +65,7 @@ This effect/filter thresholds a source image.
      - Description
    * - Threshold
      - Integer
-     - Set the threshold in a range from 0 (white) to 1000 (black)
+     - Set the threshold in a range from 0 (white) to 255 (black)
 
 
 ----

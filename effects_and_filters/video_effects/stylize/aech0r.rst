@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Aech0r
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, binarize dynamically
+   :description: Kdenlive Video Effects - Analog Video Echo
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, analog, video, echo
 
 .. metadata-placeholder
 
@@ -10,21 +10,21 @@
    :license: Creative Commons License SA 4.0
 
 
-Aech0r
-======
+Analog Video Echo
+=================
 
-.. figure:: /images/effects_and_compositions/kdenlive2308_effects-aech0r.webp
+.. figure:: /images/effects_and_compositions/effects-aech0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2308_effects-aech0r
+   :alt: effects-aech0r-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Aech0r
+.. sidebar:: |kdenlive-show-video| Analog Video Echo
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       frei0r
    :**Source filter**:
@@ -34,6 +34,10 @@ Aech0r
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

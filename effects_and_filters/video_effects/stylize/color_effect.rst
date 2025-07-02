@@ -15,11 +15,11 @@
 Color Effect
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_effect.webp
+.. figure:: /images/effects_and_compositions/effects-color_effect-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_effect
+   :alt: effects-color_effect-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Effect
 
@@ -36,6 +36,10 @@ Color Effect
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -70,19 +74,19 @@ The following selection items are available:
    :widths: 20 80
    :class: table-simple
 
-   * - xpro
-     - default
-   * - sepia
+   * - X-Pro
+     - Apply a X-Pro LUT effect (default)
+   * - Sepia
+     - Apply a sepia color effect
+   * - Heat
+     - Makes the image look like taken by a heat sensor
+   * - Red-Green
      - 
-   * - heat
-     - 
-   * - red_green
-     - 
-   * - old_photo
-     - 
-   * - xraym
-     - 
-   * - esses
-     - 
-   * - yellow_blue
+   * - Old Photo
+     - Gives the image the appearance of old prints
+   * - X-Ray
+     - Make the image look like an x-ray
+   * - Esses (Ss)
+     - Apply S-curves
+   * - Yellow-Blue
      - 

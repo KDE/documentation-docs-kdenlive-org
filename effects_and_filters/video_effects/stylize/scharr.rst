@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Scharr
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, scharr, edge, detection
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, scharr, edge, detection, 10bit
 
 .. metadata-placeholder
 
@@ -34,6 +34,10 @@ Scharr
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

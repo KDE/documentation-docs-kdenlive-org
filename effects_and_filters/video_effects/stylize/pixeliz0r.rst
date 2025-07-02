@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Pixelize (advanced)
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, pixelize, advanced, 10bit
+   :description: Kdenlive Video Effects - Pixelize (basic)
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, pixeliz0r
 
 .. metadata-placeholder
 
@@ -10,14 +10,14 @@
    :license: Creative Commons License SA 4.0
 
 
-Pixelize (advanced)
-===================
+Pixelize (basic)
+================
 
-.. figure:: /images/effects_and_compositions/effects-pixelize-2504.webp
+.. figure:: /images/effects_and_compositions/effects-pixeliz0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-pixelize-2504.webp
+   :alt: effects-pixeliz0r-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Pixelize (basic)
 
@@ -26,9 +26,9 @@ Pixelize (advanced)
    :**Keyframes**:
       Yes
    :**Source library**:
-      avfilter
+      frei0r
    :**Source filter**:
-      pixelize
+      pixeliz0r
    :**Available**:
       |linux| |appimage| |windows| |apple|
    :**On Master only**:
@@ -36,7 +36,7 @@ Pixelize (advanced)
    :**Known bugs**:
       No
    :**Color depth**:
-      10bit |color-management|
+      8bit
    :**Tutorial**:
       No
 
@@ -47,7 +47,8 @@ Pixelize (advanced)
 
 This effect/filter pixelizes the input image. It works similar to the :doc:`/effects_and_filters/video_effects/alpha_mask_keying/obscure` effect but allows you to control the block size individually and independently from the image size, but by contrast applies it to the entire frame. In order to apply the effect only to a certain region use it in combination with the :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask` effect.
 
-The result is the same as using the :doc:`/effects_and_filters/video_effects/stylize/pixeliz0r` effect, but **Pixelize (advanced)** allows to choose the pixelization mode and which color channel to apply the pixelization to.
+See also :doc:`/effects_and_filters/video_effects/stylize/pixelize`.
+
 
 .. rubric:: Parameters
 
@@ -60,15 +61,12 @@ The result is the same as using the :doc:`/effects_and_filters/video_effects/sty
    * - Parameter
      - Value
      - Description
-   * - Pixelize Mode
-     - Selection
-     - Defines the mode of pixelization used. Default is **Average**
-   * - Planes
-     - Selection
-     - Defines what planes to filter. Default is **All**
    * - Block Width
      - Integer
      - Horizontal size of one "pixel"
    * - Block Height
      - Integer
      - Vertical size of one "pixel"
+
+.. note:: 
+   You can set the block size independently from each other generating elongated pixels. In order to produce square pixels you need to take the aspect ratio of your project into account. The default values are already with the correct aspect ratio.

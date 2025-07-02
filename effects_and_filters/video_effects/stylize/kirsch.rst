@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Kirsch
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, kirsch
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, kirsch, 10bit
 
 .. metadata-placeholder
 
@@ -13,13 +13,13 @@
 Kirsch
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-kirsch.webp
+.. figure:: /images/effects_and_compositions/effects-kirsch-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-kirsch
+   :alt: effects-kirsch-2504.webp
 
-.. sidebar:: |kdenlive-show-video| EFFECT_NAME
+.. sidebar:: |kdenlive-show-video| Kirsch
 
    :**Status**:
       Maintained
@@ -34,6 +34,10 @@ Kirsch
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -75,13 +79,13 @@ The following selection items are available:
    :class: table-simple
 
    * - Alpha
-     - 
-   * - Y
-     - Default
-   * - U
-     - 
-   * - V
-     - 
+     - Alpha channel (if present)
+   * - Y (Luminance)
+     - Luminance
+   * - U (Chroma)
+     - The blue-difference chroma component
+   * - V (Chroma)
+     - The red-difference chroma component
    * - Red
      - 
    * - Green
@@ -89,7 +93,7 @@ The following selection items are available:
    * - Blue
      - 
    * - All
-     - 
+     - Default
 
 
 ----

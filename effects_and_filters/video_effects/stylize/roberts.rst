@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Roberts
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, roberts
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, roberts, 10bit
 
 .. metadata-placeholder
 
@@ -13,11 +13,11 @@
 Roberts
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-roberts.webp
+.. figure:: /images/effects_and_compositions/effects-roberts-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-roberts
+   :alt: effects-roberts-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Roberts
 
@@ -34,6 +34,10 @@ Roberts
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -57,7 +61,7 @@ This effect/filter applies the Roberts cross operator\ [1]_ to the input video s
      - Description
    * - Planes
      - Selection
-     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied. Default is **YUV**.
+     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied. Default is **All**.
    * - Scale
      - Integer
      - Set value which will be multiplied with filtered result
@@ -76,19 +80,19 @@ The following selection items are available:
 
    * - None
      - 
-   * - Y
+   * - Y (Luminance)
      - 
-   * - U
+   * - U (Chroma red-diff)
      - 
    * - YU
      - 
-   * - V
+   * - V (Chroma blue-diff)
      - 
    * - YV
      - 
    * - UV
      - 
-   * - YUV
+   * - All
      - Default
    * - Alpha
      - 

@@ -14,11 +14,11 @@
 Soft Glow
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-soft_glow.webp
+.. figure:: /images/effects_and_compositions/effects-soft_glow-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-soft_glow
+   :alt: effects-soft_glow-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Soft Glow
 
@@ -35,6 +35,10 @@ Soft Glow
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -56,10 +60,10 @@ This effect/filter creates a soft glow effect on highlights.
    * - Parameter
      - Value
      - Description
-   * - Blend mode
+   * - Blend Mode
      - Selection
      - Defines how to blend highlight blur with input image
-   * - Blur of the glow
+   * - Blur of the Glow
      - Float
      - Set the blurriness of the glow
    * - Brightness

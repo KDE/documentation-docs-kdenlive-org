@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Sobel with Planes
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, sobel with planes
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, sobel with planes, 10bit
 
 .. metadata-placeholder
 
@@ -13,11 +13,11 @@
 Sobel with Planes
 =================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-sobel_planes.webp
+.. figure:: /images/effects_and_compositions/effects-sobel_planes-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-sobel_planes
+   :alt: effects-sobel_planes-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Sobel with Planes
 
@@ -34,6 +34,10 @@ Sobel with Planes
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -76,19 +80,19 @@ The following selection items are available:
 
    * - None
      - 
-   * - Y
+   * - Y (Luminance)
      - 
-   * - U
+   * - U (Chroma red-diff)
      - 
    * - YU
      - 
-   * - V
+   * - V (Chroma blue-diff)
      - 
    * - YV
      - 
    * - UV
      - 
-   * - YUV
+   * - All
      - Default
    * - Alpha
      - 

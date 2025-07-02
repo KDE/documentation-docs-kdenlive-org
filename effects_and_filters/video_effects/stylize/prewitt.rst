@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Prewitt
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, prewitt
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, prewitt, 10bit
 
 .. metadata-placeholder
 
@@ -13,11 +13,11 @@
 Prewitt
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-prewitt.webp
+.. figure:: /images/effects_and_compositions/effects-prewitt-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-prewitt
+   :alt: effects-prewitt-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Prewitt
 
@@ -34,6 +34,10 @@ Prewitt
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -76,19 +80,19 @@ The following selection items are available:
 
    * - None
      - 
-   * - Y
+   * - Y (Luminance)
      - 
-   * - U
+   * - U (Chroma red-diff)
      - 
    * - YU
      - 
-   * - V
+   * - V (Chroma blue-diff)
      - 
    * - YV
      - 
    * - UV
      - 
-   * - YUV
+   * - All
      - Default
    * - Alpha
      - 

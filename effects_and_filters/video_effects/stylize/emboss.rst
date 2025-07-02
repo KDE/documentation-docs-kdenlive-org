@@ -13,11 +13,11 @@
 Emboss
 ======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-emboss.webp
+.. figure:: /images/effects_and_compositions/effects-emboss-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-emboss
+   :alt: effects-emboss-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Emboss
 
@@ -34,6 +34,10 @@ Emboss
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -57,7 +61,7 @@ This effect/filter creates a greyish embossed relief appearance of the source im
      - Description
    * - Light direction
      - Integer
-     - The direction of the embossing (practically simulating a light source). Value is an angle between 0 and 360 (degrees).
+     - The direction of the embossing (practically simulating a light source). Value is an angle between 0 and 360 degrees.
    * - Background lightness
      - Integer
      - Defines the brightness/lightness of the areas not embossed

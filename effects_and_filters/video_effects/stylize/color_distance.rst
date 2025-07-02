@@ -22,11 +22,11 @@
 Color Distance
 ==============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-color_distance.webp
+.. figure:: /images/effects_and_compositions/effects-color_distance-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-color_distance
+   :alt: effects-color_distance-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Distance
 
@@ -43,6 +43,10 @@ Color Distance
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

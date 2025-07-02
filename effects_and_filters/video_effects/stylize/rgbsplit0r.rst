@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Rgbsplit0r
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, rgbsplit0r
+   :description: Kdenlive Video Effects - RGB Splitter
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, rgb splitter, rgbsplit0r
 
 .. metadata-placeholder
 
@@ -11,16 +11,16 @@
    :license: Creative Commons License SA 4.0
 
 
-Rgbsplit0r
-==========
+RGB Splitter
+============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-rgbsplit0r.webp
+.. figure:: /images/effects_and_compositions/effects-rgbsplit0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-rgbsplit0r
+   :alt: effects-rgbsplit0r-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Rgbsplit0r
+.. sidebar:: |kdenlive-show-video| RGB Splitter
 
    :**Status**:
       Maintained
@@ -35,6 +35,10 @@ Rgbsplit0r
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -56,9 +60,9 @@ This effect/filter takes the red, green and blue channels in the video and separ
    * - Parameter
      - Value
      - Description
-   * - Vertical split distance
+   * - Vertical Split Distance
      - Float
      - How far should layers be moved vertically from each other
-   * - Horizontal split distance
+   * - Horizontal Split Distance
      - Float
      - How far should layers be moved horizontally from each other

@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - Chroma Shift
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, chroma shift
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, chroma shift, 10bit
 
 .. metadata-placeholder
 
@@ -13,18 +13,18 @@
 Chroma Shift
 ============
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-chroma_shift.webp
+.. figure:: /images/effects_and_compositions/effects-chroma_shift-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-chroma_shift
+   :alt: effects-chroma_shift-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Chroma Shift
 
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       avfilter
    :**Source filter**:
@@ -34,6 +34,10 @@ Chroma Shift
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

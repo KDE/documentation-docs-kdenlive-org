@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Photosensitivity
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, photosensitivity
+   :description: Kdenlive Video Effects - Photosensitivity Filter
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, photosensitivity filter, 10bit
 
 .. metadata-placeholder
 
@@ -10,16 +10,16 @@
    :license: Creative Commons License SA 4.0
 
 
-Photosensitivity
-================
+Photosensitivity Filter
+=======================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-photosensitivity.webp
+.. figure:: /images/effects_and_compositions/effects-photosensitivity-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-photosensitivity
+   :alt: effects-photosensitivity-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Photosensitivity
+.. sidebar:: |kdenlive-show-video| Photosensitivity Filter
 
    :**Status**:
       Maintained
@@ -34,6 +34,10 @@ Photosensitivity
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

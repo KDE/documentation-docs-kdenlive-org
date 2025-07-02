@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Oldfilm
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, oldfilm
+   :description: Kdenlive Video Effects - Old Film Simulator
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, oldfilm, old, film, simulator
 
 .. metadata-placeholder
 
@@ -15,16 +15,16 @@
    :license: Creative Commons License SA 4.0
 
 
-Old Film
-========
+Old Film Simulator
+==================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-oldfilm.webp
+.. figure:: /images/effects_and_compositions/effects-oldfilm-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-oldfilm
+   :alt: effects-oldfilm-2504.webp
 
-.. sidebar:: |kdenlive-show-video| EFFECT_NAME
+.. sidebar:: |kdenlive-show-video| Old Film Simulator
 
    :**Status**:
       Maintained
@@ -40,13 +40,17 @@ Old Film
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
 
 .. rubric:: Description
 
-This effect/filter moves the video up and down and adds random brightness changes, making it look like old film footage. See also :doc:`/effects_and_filters/video_effects/grain_and_noise/dust` and :doc:`/effects_and_filters/video_effects/grain_and_noise/scratchlines` effects.
+This effect/filter moves the video up and down and adds random brightness changes, making it look like old film footage. See also :doc:`/effects_and_filters/video_effects/grain_and_noise/dust`, :doc:`/effects_and_filters/video_effects/grain_and_noise/scratchlines`, :doc:`/effects_and_filters/video_effects/motion/gate_weave`, and :doc:`/effects_and_filters/video_effects/grain_and_noise/filmgrain` effects.
 
 
 .. rubric:: Parameters
@@ -54,34 +58,34 @@ This effect/filter moves the video up and down and adds random brightness change
 .. list-table::
    :header-rows: 1
    :width: 100%
-   :widths: 20 10 70
+   :widths: 25 10 65
    :class: table-wrap
 
    * - Parameter
      - Value
      - Description
-   * - Y-Delta
+   * - Maximum Up/Down Move
      - Integer
-     - Maximum delta value of up/down move (jitter)
-   * - % of picture have delta
+     - Determines the maximum vertical movement in pixels (jitter)
+   * - Frames With Movement
      - Percent
-     - Set the %age of frames that have a Y-Delta (jitter)
-   * - Brightness up
+     - Set the %age of frames that have a vertical movement (jitter)
+   * - Brightness Up
      - Integer
      - Sets the value by which the image will be made lighter
-   * - Brightness down
+   * - Brightness Down
      - Integer
      - Sets the value by which the image will be made darker
-   * - Brightness every
+   * - Brightness Every
      - Percent
      - Set the %age of frames that will have the brightness changed
-   * - Unevendevelop up
+   * - Uneven Develop Up
      - Integer
      - Sets the value by which the image will be made lighter
-   * - Unevendevelop down
+   * - Uneven Develop Down
      - Integer
      - Sets the value by which the image will be made darker
-   * - Unevendevelop Duration
+   * - Uneven Develop Duration
      - Integer
      - Sets the time in frames of an up/down cycle for uneven development
 

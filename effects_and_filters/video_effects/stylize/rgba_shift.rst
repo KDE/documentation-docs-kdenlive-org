@@ -1,7 +1,7 @@
 .. meta::
 
    :description: Kdenlive Video Effects - RGBA Shift
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, rgba shift
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, rgba shift, 10bit
 
 .. metadata-placeholder
 
@@ -13,11 +13,11 @@
 RGBA Shift
 ==========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-rgba_shift.webp
+.. figure:: /images/effects_and_compositions/effects-rgba_shift-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-rgba_shift
+   :alt: effects-rgba_shift-2504.webp
 
 .. sidebar:: |kdenlive-show-video| RGBA Shift
 
@@ -34,6 +34,10 @@ RGBA Shift
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -55,31 +59,31 @@ This effect/filter shifts R/G/B/A pixels horizontally and/or vertically creating
    * - Parameter
      - Value
      - Description
-   * - Red Horizontal shift
+   * - Red Horizontal Shift
      - Integer
      - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
-   * - Red Vertical shift
+   * - Red Vertical Shift
      - Integer
      - Set amount to shift red vertically. Positive values shift up, negative values shift down.
-   * - Green Horizontal shift
+   * - Green Horizontal Shift
      - Integer
      - Set amount to shift green horizontally. Positive values shift right, negative values shift left.
-   * - Green Vertical shift
+   * - Green Vertical Shift
      - Integer
      - Set amount to shift green vertically. Positive values shift up, negative values shift down.
-   * - Blue Horizontal shift
+   * - Blue Horizontal Shift
      - Integer
      - Set amount to shift blue horizontally. Positive values shift right, negative values shift left.
-   * - Blue Vertical shift
+   * - Blue Vertical Shift
      - Integer
      - Set amount to shift blue vertically. Positive values shift up, negative values shift down.
-   * - Alpha Horizontal shift
+   * - Alpha Horizontal Shift
      - Integer
      - Set amount to shift red horizontally. Positive values shift right, negative values shift left.
-   * - Alpha Vertical shift
+   * - Alpha Vertical Shift
      - Integer
      - Set amount to shift alpha vertically. Positive values shift up, negative values shift down.
-   * - Edge operation
+   * - Edge Operation
      - Selection
      - Set edge mode
 

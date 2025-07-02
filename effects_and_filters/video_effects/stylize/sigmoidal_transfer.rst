@@ -15,11 +15,11 @@
 Sigmoidal Transfer
 ==================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-sigmoidal_transfer.webp
+.. figure:: /images/effects_and_compositions/effects-sigmoidal_transfer-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-sigmoidal_transfer
+   :alt: effects-sigmoidal_transfer-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Sigmoidal Transfer
 

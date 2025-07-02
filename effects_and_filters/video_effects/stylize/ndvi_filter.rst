@@ -14,11 +14,11 @@
 NDVI Filter
 ===========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-ndvi_filter.webp
+.. figure:: /images/effects_and_compositions/effects-ndvi_filter-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-ndvi_filter
+   :alt: effects-ndvi_filter-2504.webp
 
 .. sidebar:: |kdenlive-show-video| NDVI Filter
 
@@ -35,6 +35,10 @@ NDVI Filter
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

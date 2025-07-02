@@ -13,11 +13,11 @@
 Edge Glow
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-edge_glow.webp
+.. figure:: /images/effects_and_compositions/effects-edge_glow-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-edge_glow
+   :alt: effects-edge_glow-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Edge Glow
 
@@ -35,6 +35,10 @@ Edge Glow
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      No
 
 .. rst-class:: clear-both
 
@@ -49,7 +53,7 @@ This effect/filter creates an edge glow.
 .. list-table::
    :header-rows: 1
    :width: 100%
-   :widths: 20 10 70
+   :widths: 30 10 60
    :class: table-wrap
 
    * - Parameter
@@ -61,7 +65,7 @@ This effect/filter creates an edge glow.
    * - Edge brightness upscaling multiplier
      - Integer
      - Defines the level of brightness in which edges are drawn
-   * - Non-edge downscaling multiplier
+   * - Non-edge brightness downscaling multiplier
      - Integer
      - Defines the darkening of areas between edges
 

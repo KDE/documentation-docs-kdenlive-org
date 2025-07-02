@@ -13,11 +13,11 @@
 Posterize
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-posterize.webp
+.. figure:: /images/effects_and_compositions/effects-posterize-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-posterize
+   :alt: effects-posterize-2505.webp
 
 .. sidebar:: |kdenlive-show-video| Posterize
 
@@ -34,6 +34,10 @@ Posterize
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -56,7 +60,7 @@ This effect/filter posterizes\ [1]_ the image by reducing the number of colors u
      - Value
      - Description
    * - Levels
-     - Float
+     - Integer
      - Number of values per channel
 
 

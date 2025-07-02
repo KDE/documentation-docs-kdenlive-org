@@ -13,11 +13,11 @@
 Glow
 ====
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-glow.webp
+.. figure:: /images/effects_and_compositions/effects-glow-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-glow
+   :alt: effects-glow-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Glow
 
@@ -34,6 +34,10 @@ Glow
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both

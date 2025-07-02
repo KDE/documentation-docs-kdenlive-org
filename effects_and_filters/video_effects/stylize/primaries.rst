@@ -13,11 +13,11 @@
 Primaries
 =========
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-primaries.webp
+.. figure:: /images/effects_and_compositions/effects-primaries-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-primaries
+   :alt: effects-primaries-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Primaries
 
@@ -34,6 +34,10 @@ Primaries
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -57,7 +61,7 @@ This effect/filter reduces the image colors to the primary colors.
      - Description
    * - Factor
      - Integer
-     - Influence of mean pixel value ( > 32 = 0 )
+     - Influence of mean pixel value. Range is from 0 to 32, default is **9**.
 
 
 .. https://youtu.be/gjgQphzQZrQ

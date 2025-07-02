@@ -13,11 +13,11 @@
 Cartoon
 =======
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-cartoon.webp
+.. figure:: /images/effects_and_compositions/effects-cartoon-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-cartoon
+   :alt: effects-cartoon-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Cartoon
 
@@ -34,6 +34,10 @@ Cartoon
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
