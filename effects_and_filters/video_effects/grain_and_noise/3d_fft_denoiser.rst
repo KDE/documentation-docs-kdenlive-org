@@ -35,6 +35,10 @@
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
+      :ref:`Yes <tutorials-3d_fft_denoiser>` |view-presentation|
 
 .. rst-class:: clear-both
 

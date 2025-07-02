@@ -35,6 +35,10 @@ HQ 3D Denoiser
       No
    :**Known bugs**:
       No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
+      :ref:`Yes <tutorials-hqdn3d>` |view-presentation|
 
 .. rst-class:: clear-both
 

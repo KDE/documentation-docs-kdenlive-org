@@ -10,8 +10,8 @@
    :license: Creative Commons License SA 4.0
 
 
-Scratchlines
-============
+Scratch Lines
+=============
 
 .. figure:: /images/effects_and_compositions/effects-scratchlines-2504.webp
    :width: 365px
@@ -19,7 +19,7 @@ Scratchlines
    :align: left
    :alt: effects-scratchlines-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Scratchlines
+.. sidebar:: |kdenlive-show-video| Scratch Lines
 
    :**Status**:
       Maintained
@@ -34,6 +34,10 @@ Scratchlines
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
