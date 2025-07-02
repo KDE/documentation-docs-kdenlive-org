@@ -1,7 +1,7 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Kaleid0sc0pe
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, misc, miscellaneous, high quality, denoiser
+   :description: Kdenlive Video Effects - Kaleidoscope
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, stylize, kaleidoscope, kaleid0sc0pe
 
 .. metadata-placeholder
 
@@ -11,16 +11,16 @@
 
 .. .. versionchanged:: 24.12
   
-Kaleid0sc0pe
+Kaleidoscope
 ============
 
-.. figure:: /images/effects_and_compositions/effects-kaleid0sc0pe_2412.webp
+.. figure:: /images/effects_and_compositions/effects-kaleid0sc0pe-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-kaleid0sc0pe_2412
+   :alt: effects-kaleid0sc0pe-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Kaleid0sc0pe
+.. sidebar:: |kdenlive-show-video| Kaleidoscope
 
    :**Status**:
       Maintained
@@ -35,6 +35,10 @@ Kaleid0sc0pe
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      8bit
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -56,27 +60,24 @@ Applies a kaleidoscope effect.
    * - Parameter
      - Value
      - Description
-   * - Specify source segment 
+   * - Specify Source Segment 
      - Switch
      - If **on**, the source angle is read from :guilabel:`Source segment`, otherwise auto-calculated
-   * - Segmentation direction
+   * - Segmentation Direction
      - Selection
      - Options are **None**, **Counter clockwise**, and **Clockwise** (default)
-   * - Reflect edges
+   * - Reflect Edges
      - Switch
      - If **on**, then reflections that end up outside the source reflect back into it, otherwise the specified background color is used
-   * - Preferred corner
+   * - Preferred Corner
      - Selection
      - Options are **Top right** (default), **Top left**, **Bottom left**, and **bottom right**
    * - Corner Search
      - Switch
      - If **on**, search clockwise for furthest corner, otherwise counter clockwise
-   * - Background color
-     - Picker
-     - Color to use if reflection lies outside of source image and not reflecting back in (:guilabel:`Reflect edges` is **off**). Default is pink.
-   * - Use alpha background
+   * - No Alpha Background
      - Switch
-     - Alpha to use if reflection lies outside of source image and not reflecting back in. Default is **1**.
+     - If reflection lies outside of source image and not reflecting back in, the selected color is used. Default is **On**.
    * - Origin X 
      - Float
      - X-coordinate of the origin of the kaleidoscope. Default **50** (center).
@@ -86,9 +87,12 @@ Applies a kaleidoscope effect.
    * - Segmentation 
      - Float
      - Kaleidoscope segmentation / 128. Segmentations of 1, 2 or multiples of 4 work best. Default **16** (16/128 = 0.125)
-   * - Source segment
+   * - Source Segment
      - Float
      - Centre of source segment if :guilabel:`Specify source segment` is **on**. 0 is in +x and rotates counter clockwise
-   * - Edge threshold
+   * - Edge Threshold
      - Float
      - Edge threshold / 4, reflections outside the image but within this distance clamp to the edge. Default is **0**
+   * - Background Color
+     - Picker
+     - Color to use if reflection lies outside of source image and not reflecting back in (:guilabel:`Reflect edges` is **off**). Default is pink.
