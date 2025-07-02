@@ -10,33 +10,34 @@
    :license: Creative Commons License SA 4.0
 
 
-.. |ex1_kf1| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex1_kf1.webp
+.. Not needed images:
+   .. |ex1_kf1| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex1_kf1.webp
    :width: 200px
 
-.. |ex1_kf2| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex1_kf2.webp
+   .. |ex1_kf2| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex1_kf2.webp
    :width: 200px
 
-.. |ex2_kf1| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf1.webp
+   .. |ex2_kf1| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf1.webp
    :width: 170px
 
-.. |ex2_kf2| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf2.webp
+   .. |ex2_kf2| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf2.webp
    :width: 170px
 
-.. |ex2_kf3| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf3.webp
+   .. |ex2_kf3| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf3.webp
    :width: 170px
 
-.. |ex2_kf4| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf4.webp
+   .. |ex2_kf4| image:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator_ex2_kf4.webp
    :width: 170px
 
 
 Timeout Indicator
 =================
 
-.. figure:: /images/effects_and_compositions/kdenlive2304_effects-timeout_indicator.webp
+.. figure:: /images/effects_and_compositions/effects-timeout_indicator-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-timeout_indicator
+   :alt: effects-timeout_indicator-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Timeout Indicator
 
@@ -53,6 +54,10 @@ Timeout Indicator
    :**On Master only**:
       No
    :**Known bugs**:
+      No
+   :**Color depth**:
+      10bit |color-management|
+   :**Tutorial**:
       No
 
 .. rst-class:: clear-both
@@ -74,14 +79,14 @@ This effect/filter displays a kind of countdown bar in the current frame's botto
    * - Parameter
      - Value
      - Description
-   * - Indicator color
-     - 
+   * - Indicator Color
+     - Picker
      - Set the color for the countdown (or count-up) indicator
    * - Time
-     - 
+     - Integer
      - Set the time value. Range is from 0 (default, bar is full or at 100%) to 1000 (bar is gone or at 0%).
    * - Transparency
-     - 
+     - Percentage
      - Define the transparency of the indicator
 
 
@@ -91,12 +96,20 @@ This effect/filter displays a kind of countdown bar in the current frame's botto
 
  Create a keyframe at the end of the clip and change the :guilabel:`Time` value to 1000. For count up swap the :guilabel:`Time` values.
 
- |ex1_kf1| |ex1_kf2|
+ .. figure:: /images/effects_and_compositions/effects-timeout_indicator_ex1-2504.webp
+   :width: 100%
+   :figwidth: 100%
+   :align: left
+   :alt: effects-timeout_indicator_ex1-2504.webp
 
-|
 
 2. Countdown starts 3 seconds before the end of the clip and the indicator goes from yellow to red
 
- Go to the first (default) keyframe and set the :guilabel:`Time` value to 1000 and the :guilabel:`Indicator color` to yellow. Go to the last frame, create a keyframe and set the :guilabel:`Time` value to 1000 and the :guilabel:`Indicator color` to red. Go back 3 minutes in the timeline, create a keyframe and set the :guilabel:`Time` value to 0 and the :guilabel:`Indicator color` to yellow. Go back one frame (:kbd:`Left Arrow`), create a keyframe and set the :guilabel:`Time` value to 1000.
+ Go to the first (default) keyframe and set the :guilabel:`Time` value to 1000 and the :guilabel:`Indicator Color` to yellow. Set the keyframe type to :guilabel:`Discrete`. Go to the last frame, create a keyframe and set the :guilabel:`Time` value to 0 and the :guilabel:`Indicator Color` to red. Make sure the keyframe type is :guilabel:`Linear`. Go back 3 seconds in the timeline, create a keyframe (type is :guilabel:`Linear`) and set the :guilabel:`Time` value to 0 and the :guilabel:`Indicator Color` to yellow.
 
- |ex2_kf1| |ex2_kf2| |ex2_kf3| |ex2_kf4|
+ .. figure:: /images/effects_and_compositions/effects-timeout_indicator_ex2-2504.webp
+   :width: 100%
+   :figwidth: 100%
+   :align: left
+   :alt: effects-timeout_indicator_ex2-2504.webp
+
