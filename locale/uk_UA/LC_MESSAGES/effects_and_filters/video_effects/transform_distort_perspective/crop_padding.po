@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 01:54+0000\n"
+"POT-Creation-Date: 2025-07-03 08:06+0000\n"
 "PO-Revision-Date: 2024-09-26 09:57+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -18,23 +18,29 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 23.04.3\n"
 
-#: ../../<rst_epilog>:306
+#: ../../<rst_epilog>:310
 msgid "kdenlive-show-video"
 msgstr "kdenlive-show-video"
 
-#: ../../<rst_epilog>:608
+#: ../../<rst_epilog>:550
+#, fuzzy
+#| msgid "view-list-icons"
+msgid "view-presentation"
+msgstr "view-list-icons"
+
+#: ../../<rst_epilog>:620
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../<rst_epilog>:613
+#: ../../<rst_epilog>:625
 msgid "appimage"
 msgstr "appimage"
 
-#: ../../<rst_epilog>:618
+#: ../../<rst_epilog>:630
 msgid "Windows"
 msgstr "Windows"
 
-#: ../../<rst_epilog>:623
+#: ../../<rst_epilog>:635
 msgid "MacOS"
 msgstr "MacOS"
 
@@ -51,7 +57,9 @@ msgstr ""
 "відеоефекти, перетворення, викривлення, перспектива, обрізання за фаскою"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:-1
-msgid "kdenlive2304_effects-crop_by_padding"
+#, fuzzy
+#| msgid "kdenlive2304_effects-crop_by_padding"
+msgid "effects-crop_by_padding-2504.webp"
 msgstr "kdenlive2304_effects-crop_by_padding"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:0
@@ -82,6 +90,14 @@ msgstr "**Лише на основі**"
 msgid "**Known bugs**"
 msgstr "**Відомі вади**"
 
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:0
+msgid "**Color depth**"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:0
+msgid "**Tutorial**"
+msgstr ""
+
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:15
 msgid "Crop by Padding"
 msgstr "Обрізати за фаскою"
@@ -111,12 +127,20 @@ msgstr "|linux| |appimage| |windows| |apple|"
 msgid "No"
 msgstr "Ні"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:44
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:58
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:40
+msgid "8bit"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:42
+msgid ":ref:`Yes<tutorials-crop_padding>` |view-presentation|"
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:48
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:64
 msgid "Description"
 msgstr "Опис"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:45
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:49
 msgid ""
 "This effect/filter crops the image to a rounded rectangle or circle by "
 "padding the edges with a specified color. It can be :ref:`controlled "
@@ -127,27 +151,34 @@ msgstr ""
 "ref:`керувати безпосередньо за допомогою панелі монітора <ui-"
 "monitors_effect_direct_control>`."
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:49
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:51
+msgid ""
+"This effect can be used for picture-in-picture effects. Very effective when "
+"used in combination with the :doc:`/effects_and_filters/video_effects/"
+"generate/drop_shadow` effect. See the tutorial."
+msgstr ""
+
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:55
 msgid "Parameters"
 msgstr "Параметри"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:56
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:62
 msgid "Parameter"
 msgstr "Параметр"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:57
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:63
 msgid "Value"
 msgstr "Значення"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:59
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:65
 msgid "Circle"
 msgstr "Коло"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:60
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:66
 msgid "Switch"
 msgstr "Перемикач"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:61
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:67
 msgid ""
 "If switched on, the :guilabel:`Radius` parameter creates a circular crop. "
 "Otherwise a rectangle is used. Default is **off**."
@@ -155,39 +186,45 @@ msgstr ""
 "Якщо позначено, параметр :guilabel:`Радіус` створює кругове обрізання. Якщо "
 "не позначено, буде використано прямокутник. Типовим значенням є **вимкнено**."
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:62
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:68
 msgid "Radius"
 msgstr "Радіус"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:63
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:69
 msgid "Float"
 msgstr "З рухомою крапкою"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:64
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:70
 msgid "Amount of circular or rectangle rounding"
 msgstr "Розмір кола або заокруглення у прямокутнику"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:65
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:71
 msgid "Padding Color"
 msgstr "Колір фаски"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:66
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:72
 msgid "Picker"
 msgstr "Піпетка"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:67
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:73
 msgid "The color to be used for padding. Can be alpha."
 msgstr "Колір, який буде використано для фаски. Може бути прозорим."
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:71
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:77
 msgid "Notes"
 msgstr "Нотатки"
 
-#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:72
+#: ../../effects_and_filters/video_effects/transform_distort_perspective/crop_padding.rst:78
+#, fuzzy
+#| msgid ""
+#| "The parameters **X**, **Y**, **W**, **H**, and **Size** can be used to "
+#| "move and/or scale the rectangle or circle within the frame in order to "
+#| "crop a specific portion of the image."
 msgid ""
-"The parameters **X**, **Y**, **W**, **H**, and **Size** can be used to move "
-"and/or scale the rectangle or circle within the frame in order to crop a "
-"specific portion of the image."
+"The parameters :guilabel:`Position X`, :guilabel:`Y`, :guilabel:`Size W`, :"
+"guilabel:`H`, :guilabel:`Scale` can be used to move and/or scale the "
+"rectangle or circle within the frame in order to crop a specific portion of "
+"the image."
 msgstr ""
 "Параметрами **X**, **Y**, **Ш**, **В** і **Розмір** можна скористатися для "
 "пересуванні і/або масштабування прямокутника або кола у рамці з метою "
@@ -586,9 +623,6 @@ msgstr ""
 
 #~ msgid "view-list-details"
 #~ msgstr "view-list-details"
-
-#~ msgid "view-list-icons"
-#~ msgstr "view-list-icons"
 
 #~ msgid "view-list-tree"
 #~ msgstr "view-list-tree"
