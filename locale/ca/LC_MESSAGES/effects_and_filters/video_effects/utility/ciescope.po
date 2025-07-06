@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-06-21 13:24+0200\n"
+"PO-Revision-Date: 2025-07-04 20:03+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: ../../<rst_epilog>:46
 msgid "color-management"
-msgstr ""
+msgstr "color-management"
 
 #: ../../<rst_epilog>:310
 msgid "kdenlive-show-video"
@@ -44,26 +44,20 @@ msgid "MacOS"
 msgstr "MacOS"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:-1
-#, fuzzy
-#| msgid "Kdenlive Video Effects - Ciescope"
 msgid "Kdenlive Video Effects - CIE Scope"
 msgstr "Efectes de vídeo del Kdenlive - Electroscopi CIE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:-1
-#, fuzzy
-#| msgid ""
-#| "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
-#| "effects, utility, ciescope"
 msgid ""
 "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
 "effects, utility, ciescope, scope, cie"
 msgstr ""
 "KDE, Kdenlive, editor de vídeo, ajuda, aprendre, fàcil, efectes, filtre, "
-"efectes de vídeo, utilitat, ciescope"
+"efectes de vídeo, utilitat, ciescope, electroscopi, cie"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:-1
 msgid "effects-cie_scope-2504.webp"
-msgstr ""
+msgstr "effects-cie_scope-2504.webp"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid "**Status**"
@@ -95,43 +89,43 @@ msgstr "**Errors coneguts**"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid "**Color depth**"
-msgstr ""
+msgstr "**Profunditat de color**"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid "**Tutorial**"
-msgstr ""
+msgstr "**Guia d'aprenentatge**"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid "effects-cie_scope_example_2-2504.webp"
-msgstr ""
+msgstr "effects-cie_scope_example_2-2504.webp"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`Color System`: CIE 1931"
-msgstr ""
+msgstr ":guilabel:`Sistema de color`: CIE 1931"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`CIE System`: UCS"
-msgstr ""
+msgstr ":guilabel:`Sistema CIE`: UCS"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`Gamuts to Draw`: SMPTE"
-msgstr ""
+msgstr ":guilabel:`Gamma a dibuixar`: SMPTE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid "effects-cie_scope_example_3-2504.webp"
-msgstr ""
+msgstr "effects-cie_scope_example_3-2504.webp"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`Color System`: BT.470M"
-msgstr ""
+msgstr ":guilabel:`Sistema de color`: BT.470M"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`CIE System`: LUV"
-msgstr ""
+msgstr ":guilabel:`Sistema CIE`: LUV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`Gamuts to Draw`: Apple"
-msgstr ""
+msgstr ":guilabel:`Gamma a dibuixar`: Apple"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:20
 msgid "CIE Scope"
@@ -162,7 +156,7 @@ msgstr "|linux| |appimage| |windows| |apple|"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:45
 msgid "10bit |color-management|"
-msgstr ""
+msgstr "10 bits |color-management|"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:53
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:69
@@ -175,6 +169,9 @@ msgid ""
 "l'éclairage, French for International Commission on Illumination)` color "
 "diagram with overlaid input pixels."
 msgstr ""
+"Aquest efecte/filtre mostra un diagrama de color :abbr:`CIE (Commission "
+"internationale de l'éclairage, en català Comissió internacional de la "
+"il·luminació)` amb els píxels d'entrada superposats."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:56
 msgid ""
@@ -188,6 +185,15 @@ msgid ""
 "the rectangle to the scope dimensions and thus get the CIE Scope to overlay "
 "the clip."
 msgstr ""
+"L'efecte utilitza el format de píxel del clip en el qual s'aplica en la "
+"composició. De manera predeterminada, l'electroscopi CIE només mostra "
+"l'electroscopi, de manera que si voleu superposar-lo al clip en si, haureu "
+"de posar el clip a la pista de sota. Si aquest clip no té un canal alfa, "
+"l'electroscopi no se superposarà sinó que enfosquirà el clip de sota. Podeu "
+"afegir un efecte :doc:`/effects_and_filters/video_effects/alpha_mask_keying/"
+"alpha_shapes` al clip, establir el mode d'operacions a :guilabel:`Min`, i "
+"ajustar la mida del rectangle a les dimensions de l'electroscopi i així "
+"aconseguir que l'electroscopi CIE superposi el clip."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:60
 msgid "Parameters"
@@ -203,57 +209,50 @@ msgstr "Valor"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:70
 msgid "Color System"
-msgstr ""
+msgstr "Sistema de color"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:71
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:74
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:77
-#, fuzzy
-#| msgid "Description"
 msgid "Selection"
-msgstr "Descripció"
+msgstr "Selecció"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:72
 msgid "Set color system to use"
-msgstr ""
+msgstr "Estableix el sistema de color a utilitzar"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:73
-#, fuzzy
-#| msgid "CIE Scope"
 msgid "CIE System"
-msgstr "Electroscopi CIE"
+msgstr "Sistema CIE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:75
 msgid "Set CIE system to use"
-msgstr ""
+msgstr "Estableix el sistema CIE a utilitzar"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:76
 msgid "Gamuts to Draw"
-msgstr ""
+msgstr "Gamma a dibuixar"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:78
 msgid "Set what gamuts to draw"
-msgstr ""
+msgstr "Estableix quines gammes dibuixar"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:79
 msgid "Size"
-msgstr ""
+msgstr "Mida"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:80
 msgid "Integer"
 msgstr "Enter"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:81
-#, fuzzy
-#| msgid "Set CIE Scope size, by default set to 512. [1]_"
 msgid "Set CIE Scope size, by default set to 512."
 msgstr ""
-"Estableix la mida de l'electroscopi CIE, de manera predeterminada és 512. "
-"[1]_"
+"Estableix la mida de l'electroscopi CIE, de manera predeterminada és 512."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:82
 msgid "Intensity"
-msgstr ""
+msgstr "Intensitat"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:83
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:86
@@ -262,18 +261,14 @@ msgid "Float"
 msgstr "Flotant"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:84
-#, fuzzy
-#| msgid "Set intensity used to map input pixel values to CIE diagram [2]_"
 msgid "Set intensity used to map input pixel values to CIE diagram"
 msgstr ""
 "Estableix la intensitat emprada per a assignar els valors dels píxels "
-"d'entrada al diagrama CIE [2]_"
+"d'entrada al diagrama CIE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:85
-#, fuzzy
-#| msgid "av.contrast"
 msgid "Contrast"
-msgstr "av.contrast"
+msgstr "Contrast"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:87
 msgid ""
@@ -285,279 +280,260 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:88
 msgid "Display Correct Gamma"
-msgstr ""
+msgstr "Visualitza la gamma correcta"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:89
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:92
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:98
 msgid "Switch"
-msgstr ""
+msgstr "Commutador"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:90
-#, fuzzy
-#| msgid "Correct gamma displayed on scope, by default enabled [3]_"
 msgid "Correct gamma displayed on scope, by default enabled"
 msgstr ""
 "Corregeix la gamma mostrada a l'electroscopi, activat de manera "
-"predeterminada [3]_"
+"predeterminada"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:91
 msgid "Show White Point"
-msgstr ""
+msgstr "Mostra el punt blanc"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:93
 msgid "Show white point on CIE diagram, by default disabled"
 msgstr ""
+"Mostra el punt blanc en el diagrama CIE, desactivat de manera predeterminada"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:94
 msgid "Input Gamma"
-msgstr ""
+msgstr "Gamma d'entrada"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:96
 msgid "Set input gamma. Used only with xyY input color space."
 msgstr ""
+"Estableix la gamma d'entrada. Només es fa servir amb l'espai de color "
+"d'entrada xyY."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:97
 msgid "Fill with CIE Colors"
-msgstr ""
+msgstr "Omple amb colors CIE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:99
 msgid "Fill with CIE colors, by default enabled."
-msgstr ""
+msgstr "Omple amb colors CIE, activat de manera predeterminada."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:101
 msgid "The following selection items are available:"
-msgstr ""
+msgstr "Hi ha disponibles els elements de selecció següents:"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:103
 msgid ":guilabel:`Color System`\\ [1]_, :guilabel:`Gamuts to Draw`"
-msgstr ""
+msgstr ":guilabel:`Sistema de color`\\ [1]_, :guilabel:`Gammes a dibuixar`"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:110
 msgid "NTSC"
-msgstr ""
+msgstr "NTSC"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:111
 msgid ""
 "American standard for color TV. For the color space relevance, refer to |"
 "cie_ntsc| in Wikipedia."
 msgstr ""
+"Estàndard americà de la televisió en color. Per a la rellevància de l'espai "
+"de color, consulteu |cie_ntsc| a la Viquipèdia."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:112
 msgid "BT.470M"
-msgstr ""
+msgstr "BT.470M"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:113
 msgid "Same as NTSC"
-msgstr ""
+msgstr "El mateix que NTSC"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:114
 msgid "EBU"
-msgstr ""
+msgstr "EBU"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:115
 msgid "Color space used by the European Broadcasting Union (basically BT.601)"
 msgstr ""
+"Espai de color utilitzat per l'European Broadcasting Union (bàsicament "
+"BT.601)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:116
 msgid "BT.470BG"
-msgstr ""
+msgstr "BT.470BG"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:118
 msgid "SMPTE"
-msgstr ""
+msgstr "SMPTE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:119
 msgid ""
 "Color space used by the Society of Motion Picture and Television Engineers "
 "(SMPTE)"
 msgstr ""
+"Espai de color utilitzat per la Society of Motion Picture and Television "
+"Engineers (SMPTE)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:120
 msgid "BT.240M"
-msgstr ""
+msgstr "BT.240M"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:122
 msgid "Apple"
-msgstr ""
+msgstr "Apple"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:123
 msgid "Color space as defined by Apple RGB\\ [1]_"
-msgstr ""
+msgstr "Espai de color definit per Apple RGB\\ [1]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:124
 msgid "Wide RGB"
-msgstr ""
+msgstr "Wide RGB"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:125
 msgid "Wide Gamut RGB\\ [2]_ as defined by Adobe"
-msgstr ""
+msgstr "Wide Gamut RGB\\ [2]_ definit per Adobe"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:126
 msgid "CIE 1931"
-msgstr ""
+msgstr "CIE 1931"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:127
 msgid "Color space as defined by CIE\\ [3]_"
-msgstr ""
+msgstr "Espai de color definit per CIE\\ [3]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:128
 msgid "HD TV"
-msgstr ""
+msgstr "HD TV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:129
 msgid "Using the YCbCr color model (Rec. 709)"
-msgstr ""
+msgstr "Fa servir el mode de color YCbCr (Rec. 709)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:130
 msgid "Rec. 709"
-msgstr ""
+msgstr "Rec. 709"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:131
 msgid "Same as HD TV"
-msgstr ""
+msgstr "El mateix que HD TV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:132
 msgid "UHD TV"
-msgstr ""
+msgstr "UHD TV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:133
 msgid "Using the YCbCr color model (Rec. 2020)"
-msgstr ""
+msgstr "Fa servir el mode de color YCbCr (Rec. 2020)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:134
 msgid "Rec. 2020"
-msgstr ""
+msgstr "Rec. 2020"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:135
 msgid "Same as UHD TV"
-msgstr ""
+msgstr "El mateix que UHD TV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:136
 msgid "DCI-P3"
-msgstr ""
+msgstr "DCI-P3"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:137
 msgid "Color space defined by :abbr:`DCI(Digital Cinema Initiative)`\\ [4]_"
 msgstr ""
+"Espai de color definit per :abbr:`DCI(Digital Cinema Initiative)`\\ [4]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:139
 msgid ":guilabel:`CIE System`\\ [1]_"
-msgstr ""
+msgstr ":guilabel:`Sistema CIE`\\ [1]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:146
 msgid "xyY"
-msgstr ""
+msgstr "xyY"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:147
 msgid "Using the CIE xyY\\ [5]_ color space (derived from CIE XYZ)."
-msgstr ""
+msgstr "Utilitza l'espia de color CIE xyY\\ [5]_ (derivat del CIE XYZ)."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:148
 msgid "UCS"
-msgstr ""
+msgstr "UCS"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:149
 msgid "CIE 1960 UCS\\ [6]_ color space"
-msgstr ""
+msgstr "Espai de color CIE 1960 UCS\\ [6]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:150
 msgid "LUV"
-msgstr ""
+msgstr "LUV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:151
 msgid "CIELUV\\ [7]_ (abbreviation for CIE 1976 L*, u*, v)"
-msgstr ""
+msgstr "CIELUV\\ [7]_ (abreviació de CIE 1976 L*, u*, v)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:155
 msgid "Examples"
-msgstr ""
+msgstr "Exemples"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:162
 msgid "effects-cie_scope_example_1-2504.webp"
-msgstr ""
+msgstr "effects-cie_scope_example_1-2504.webp"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:162
 msgid "CIE Scope Example 1 - Default settings"
-msgstr ""
+msgstr "Exemple 1 d'electroscopi CIE: configuració predeterminada"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:164
 msgid ""
 "This shows the CIE Scope effect with the default settings. Depending on your "
 "source material the pixel distribution will look differently."
 msgstr ""
+"Això mostra l'efecte d'electroscopi CIE amb la configuració predeterminada. "
+"Depenent del vostre material d'origen, la distribució de píxels es veurà de "
+"manera diferent."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:174
-#, fuzzy
-#| msgid "CIE Scope"
 msgid "CIE Scope Example 2"
-msgstr "Electroscopi CIE"
+msgstr "Exemple 2 d'electroscopi CIE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:176
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:194
 msgid "This shows the CIE Scope effect with the following settings:"
-msgstr ""
+msgstr "Això mostra l'efecte d'electroscopi CIE amb la configuració següent:"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:192
-#, fuzzy
-#| msgid "CIE Scope"
 msgid "CIE Scope Example 3"
-msgstr "Electroscopi CIE"
+msgstr "Exemple 3 d'electroscopi CIE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:236
 msgid ""
 "For more information about the color space models, refer to the |"
 "rgb_color_space_models| page on Wikipedia"
 msgstr ""
+"Per a més informació sobre els models d'espais de color, consulteu la pàgina "
+"|rgb_color_space_models| a la Viquipèdia"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:238
 msgid "|wide_gamut_rgb|"
-msgstr ""
+msgstr "|wide_gamut_rgb|"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:240
 msgid "|cie_1931|"
-msgstr ""
+msgstr "|cie_1931|"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:242
 msgid "|dci_p3|"
-msgstr ""
+msgstr "|dci_p3|"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:244
 msgid "|cie_xyy|"
-msgstr ""
+msgstr "|cie_xyy|"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:246
 msgid "|cie_ucs|"
-msgstr ""
+msgstr "|cie_ucs|"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:248
 msgid "|cie_luv|"
-msgstr ""
-
-#~ msgid "kdenlive2304_effects-ciescope"
-#~ msgstr "kdenlive2304_effects-ciescope"
-
-#~ msgid ""
-#~ "This effect/filter displays a CIE color diagram with overlaid input "
-#~ "pixels."
-#~ msgstr ""
-#~ "Aquest efecte/filtre mostra un diagrama de color CIE amb els píxels "
-#~ "d'entrada superposats."
-
-#~ msgid "av.size / av.s"
-#~ msgstr "av.size / av.s"
-
-#~ msgid "av.intensity / av.i"
-#~ msgstr "av.intensity / av.i"
-
-#~ msgid "av.gamma"
-#~ msgstr "av.gamma"
-
-#~ msgid "Only **av.s** is taken into account"
-#~ msgstr "Només es té en compte **av.s**"
-
-#~ msgid "Only **av.i** is taken into account"
-#~ msgstr "Només es té en compte **av.i**"
-
-#~ msgid "At the moment this parameter has no effect"
-#~ msgstr "De moment, aquest paràmetre no es té en compte"
+msgstr "|cie_luv|"

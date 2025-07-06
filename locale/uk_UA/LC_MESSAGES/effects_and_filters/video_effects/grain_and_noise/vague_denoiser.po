@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-07-04 09:36+0300\n"
+"PO-Revision-Date: 2025-07-04 21:12+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 23.04.3\n"
 
 #: ../../<rst_epilog>:46
@@ -48,8 +48,8 @@ msgstr "Відеоефекти Kdenlive — усування шуму за до�
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:-1
 msgid ""
-"KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video"
-" effects, grain and noise, vague, wavelet, denoiser"
+"KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
+"effects, grain and noise, vague, wavelet, denoiser"
 msgstr ""
 "KDE, Kdenlive, відеоредактор, довідка, вивчення, просте, ефекти, фільтр, "
 "відеоефекти, зернистість і шум, нечіткість, вейвлет, усування, шум"
@@ -132,24 +132,34 @@ msgstr "Опис"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:48
 msgid ""
-"Wavelet\\ [1]_ based denoiser. It transforms each frame from the video input"
-" into the wavelet domain, using Cohen-Daubechies-Feauveau 9/7\\ [2]_. Then"
-" it applies some filtering to the obtained coefficients. It does an inverse"
-" wavelet transform after. Due to wavelet properties, it should give a nice"
-" smoothed result and reduced noise without blurring picture features."
+"Wavelet\\ [1]_ based denoiser. It transforms each frame from the video input "
+"into the wavelet domain, using Cohen-Daubechies-Feauveau 9/7\\ [2]_. Then it "
+"applies some filtering to the obtained coefficients. It does an inverse "
+"wavelet transform after. Due to wavelet properties, it should give a nice "
+"smoothed result and reduced noise without blurring picture features."
 msgstr ""
+"Засіб усування шуму на основі вейвлетів\\ [1]_. Він перетворює кожен кадр з "
+"вхідного відеосигналу у вейвлет-домен, використовуючи формулу Коена-Добеші-"
+"Фео 9/7\\ [2]_. Потім застосовує певну фільтрацію до отриманих коефіцієнтів. "
+"Після цього виконує зворотне вейвлет-перетворення. Завдяки властивостям "
+"вейвлета, це має дати гарний згладжений результат та зменшений шум без "
+"розмиття деталей зображення."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:50
 msgid ""
-"The effect works best with smaller threshold values. It is easy to"
-" over-filter this effect."
+"The effect works best with smaller threshold values. It is easy to over-"
+"filter this effect."
 msgstr ""
+"Найкращих результатів можна досягти за малих порогових значень. У цьому "
+"ефекті просто отримати надмірне фільтрування."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:52
 msgid ""
-"Using different planes and/or higher threshold values can be used for"
-" artistic manipulation of the image."
+"Using different planes and/or higher threshold values can be used for "
+"artistic manipulation of the image."
 msgstr ""
+"За допомогою різних площин та/або вищих порогових значень можна досягти "
+"певної художньої обробки зображення."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:55
 msgid "Parameters"
@@ -196,10 +206,13 @@ msgstr "Ціле"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:73
 msgid ""
-"The filtering strength. The higher, the more filtered the video will be."
-" Hard thresholding can use a higher threshold than soft thresholding before"
-" the video looks overfiltered."
+"The filtering strength. The higher, the more filtered the video will be. "
+"Hard thresholding can use a higher threshold than soft thresholding before "
+"the video looks overfiltered."
 msgstr ""
+"Потужність фільтрування. Чим вона вища, тим вищим є рівень фільтрування. У "
+"жорсткому пороговому налаштуванні можна використати вищий поріг за м'яке "
+"налаштування, перш ніж відео почне виглядати надмірно фільтрованим."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:74
 msgid "Steps"
@@ -207,10 +220,13 @@ msgstr "Кроки"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:76
 msgid ""
-"Number of times the wavelet will decompose the picture. Picture cannot be"
-" decomposed beyond a particular point (typically, 8 for a 640x480 frame - as"
-" 2^9 = 512 > 480)."
+"Number of times the wavelet will decompose the picture. Picture cannot be "
+"decomposed beyond a particular point (typically, 8 for a 640x480 frame - as "
+"2^9 = 512 > 480)."
 msgstr ""
+"Кількість розкладень зображення вейвлетом. Зображення вже не можна розкласти "
+"нижче певної позиції (типово, 8 для кадру 640x480 — оскільки 2^9 = 512 > "
+"480)."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:77
 msgid "Percentage"
@@ -222,7 +238,7 @@ msgstr "Відсоток"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:79
 msgid "Partial of full denoising (limited coefficients shrinking)"
-msgstr ""
+msgstr "Часткове чи повне усування шуму (обмежене звуження коефіцієнтів)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:80
 msgid "Planes"
@@ -230,7 +246,7 @@ msgstr "Площини"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:82
 msgid "Select the planes to process. See below."
-msgstr ""
+msgstr "Вибір площин для обробки. Див. нижче."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:84
 msgid "The following selection items are available:"
@@ -246,11 +262,11 @@ msgstr "М'яко"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:94
 msgid ""
-"All values under the threshold will be zeroed. All values above will be"
-" reduced by the threshold."
+"All values under the threshold will be zeroed. All values above will be "
+"reduced by the threshold."
 msgstr ""
-"Усі значення, які є нижчими за порогове значення, буде змінено на нулі. Усі"
-" значення, вищі за порогове, буде зменшено на порогове значення."
+"Усі значення, які є нижчими за порогове значення, буде змінено на нулі. Усі "
+"значення, вищі за порогове, буде зменшено на порогове значення."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:95
 msgid "Hard"
@@ -267,9 +283,11 @@ msgstr "Гаррота"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:98
 msgid ""
-"Scales or nullifies coefficients - intermediary between (more) soft and"
-" (less) hard thresholding (default)"
+"Scales or nullifies coefficients - intermediary between (more) soft and "
+"(less) hard thresholding (default)"
 msgstr ""
+"Масштабує або занулює коефіцієнти — проміжний варіант між (більш) м'яким і "
+"(менш) жорстким пороговим значенням (типовий варіант)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:100
 msgid ":guilabel:`Threshold Type`"
@@ -282,6 +300,8 @@ msgstr "Універсальний"
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:108
 msgid "Threshold used is same for all decompositions (default)"
 msgstr ""
+"Використане порогове значення є однаковим для усіх розкладів (типовий "
+"варіант)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:109
 msgid "Bayes"
@@ -289,7 +309,7 @@ msgstr "Баєс"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:110
 msgid "Threshold used depends also on each decomposition coefficients"
-msgstr ""
+msgstr "Використаний поріг залежить також від кожного з коефіцієнтів розкладу"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:112
 msgid ":guilabel:`Planes`"
@@ -305,7 +325,7 @@ msgstr "Y (яскравість)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:123
 msgid "U (Chroma red-diff)"
-msgstr ""
+msgstr "U (відмінність за інтенсивністю від червоного)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:125
 msgid "YU"
@@ -313,7 +333,7 @@ msgstr "YU"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:127
 msgid "V (Chroma blue-diff)"
-msgstr ""
+msgstr "V (відмінність від інтенсивності синього)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:129
 msgid "YV"
