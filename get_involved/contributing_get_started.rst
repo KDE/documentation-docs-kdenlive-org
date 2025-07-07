@@ -53,7 +53,7 @@ Now the process starts again with making changes.
 
 
 Prerequisites
-============
+=============
 
 To edit and preview the manual locally you only need a simple text editor and a terminal. Alternatively an IDE like Visual Studio Code makes things easier for you as it eg. shows you broken or missing links, has automated code completion and highlights typos and shows a preview of the rendered result.
 
