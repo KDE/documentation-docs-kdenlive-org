@@ -208,6 +208,73 @@ Important: Wait with new changes and commits until your merge request is merged 
 
 Now you can start with new changes.
 
+git CLI:
+
+Check the status of your changes:
+
+git status
+
+It will list all the files that have been changed, added or deleted in red indicating that they are not (yet) part of a commit. If the list shows files in green they are already part of a commit.
+
+To add individual files to a commit use
+
+git add <filename_or_folder>
+
+To add everything git status listed in red:
+
+git add .
+
+Once all files you want to include in the commit have been added and are listed in green in git status you can bundle up the commit:
+
+git commit -m "<commit_message>"
+
+You tell git where the commit goes to with
+
+git push origin master
+
+Remember that git remote -v shows the name of the 'origin'. 'master' is the main "branch" from where you created your branch <branch_name>.
+
+You finalize the commit and send it to your fork with
+
+git push
+
+When you do this for the first time you may need to config git with your gitlab user name and email to pass the git audit:
+
+git config --global user.name <gitlab_user_name>
+git config --global user.email <gitlab_user_email>
+git commit --amend --reset-author
+
+If something goes wrong during the push due to other commits:
+
+git fetch
+git pull
+
+... and then try the git push again.
+
+Once the commit has been accepted and successfully merged with the kdenlive documentation repository the branch <branch_name> is deleted. It is now a good idea to purge your local working directory:
+
+Navigate to where the branch was cloned to. In our example ~/path/to/repo/docs-kdenlive-org. Remove everything either with the file manage of your choice or using
+
+rm -rf <clone_name>.git
+cd ..
+rm -rf <clone_name>
+
+We now need to bring the Kdenlive documentation repository with the latest and creates changes into our fork:
+
+git checkout master /# this directs changes to the master branch of our fork
+
+git fetch upstream /# this initiates the pulling of the Kdenlive doc repo
+
+git pull upstream master /# this executes the pull
+
+git push origin master /# this pushes the pulled Kdenlive doc repo into our fork
+
+Now we need to purge the directory again just in case. Then we create a new branch in gitlab and copy the branch URL.
+
+git clone <new_branch>
+
+git checkout <new_branch>
+
 Search
 ------
 
