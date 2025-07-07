@@ -107,9 +107,7 @@ Details see |kdenlive_doc|
 
    <a href="https://invent.kde.org/documentation/docs-kdenlive-org" target="_blank">kdenlive_doc</a>
 
-Fork the Kdenlive.org repository
-
-When you want to contribute to Kdenlive manual. A `fork` is a copy of a repository.
+Fork the "Kdenlive.org Documentation Website" repository (https://invent.kde.org/documentation/docs-kdenlive-org) if you want to contribute to Kdenlive manual. A **fork** is a copy of a repository.
 
 .. figure:: /images/kdenlive_fork.png
    :width: 450px 
@@ -117,7 +115,7 @@ When you want to contribute to Kdenlive manual. A `fork` is a copy of a reposito
       
    Fork the Kdenlive documentation repository
 
-**fork** is not a command in Git, but offered in GitLab. Fork Kdenlive Documentation repository: https://invent.kde.org/documentation/docs-kdenlive-org
+**fork** is not a command in Git, but offered in GitLab.
 
 .. figure:: /images/personal_projects.png
    :width: 450px 
