@@ -55,21 +55,25 @@ Now the process starts again with making changes.
 Prerequisites
 ============
 
-With the example using Visual Studio Code.
+To edit and preview the manual locally you only need a simple text editor and a terminal. Alternatively an IDE like Visual Studio Code makes things easier for you as it eg. shows you broken or missing links, has automated code completion and highlights typos and shows a preview of the rendered result.
 
-You need:
+To build the manual you also need to install a few things on you PC:
 
--	A KDE Gitlab account: https://my.kde.org/login 
+-	Python (Windows: set PATH to Python and Script)
 
--	On your PC: Install Python (Windows: set PATH to Python and Script)
+-	Sphinx: Open a console and type `pip install --upgrade sphinx`
 
--	Open a console and type: pip install esbonio (Language Server for Sphinx projects. To see preview in VScode)
+-	The Sphinx "Read the Docs" theme: Open a console and type `pip install --upgrade sphinx_rtd_theme` 
 
--	Open a console and type: pip install sphinx-rtd-theme (The Kdenlve Sphinx theme. To see the correct preview)
+To be able to bring your contribution to the official manual you finally need a KDE GitLab account: https://my.kde.org/login 
 
--	Install on VS-Code: https://code.visualstudio.com/
+If you use an IDE you may want to install some additional tools for example with Visual Studio Code:
 
-   - Install: Gitlab Workflow (To see the status on Gitlab. Not mandatory)
+-	Open a console and type: pip install esbonio (Language Server for Sphinx projects. To see preview in VSCode)
+
+-	Install on VSCode: https://code.visualstudio.com/
+
+   - Install: Gitlab Workflow (To see the status on GitLab. Not mandatory)
 
    - Install: Gitlens (Microsoft git software)
 
@@ -92,8 +96,6 @@ You need:
 -	git clone -> to clone from your fork (you have to clone it only once) 
 
 VS-Code: When you now open a `*.rst` document and hit Ctrl + Shift + R it will build the entire Sphinx project and display the result in a new editor tab. Watch on the bottom right: it takes a while to do it the first time.
-
-Advantage working with an IDE like VScode: It shows you broken or missing links. Completeness of the code. Typos.
 
 
 Build the Manual
