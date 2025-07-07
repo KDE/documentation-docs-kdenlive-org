@@ -127,7 +127,7 @@ Now we have our own copy of docs-kdenlive-org on: https://invent.kde.org/your-na
 
 Our own fork is only on GitLab. We also want a clone on our local Git to keep working on it on our PC.
 
-A clone is a full copy of a repository, including all logging and versions of files.
+A **clone** is a full copy of a repository on your local machine, including all logging and versions of files.
 
 Start Visual Studio Code:
 
