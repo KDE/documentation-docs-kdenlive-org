@@ -135,6 +135,32 @@ Hit F1 and type Git:clone, now copy your fork link into the field: https://inven
 
 Select a folder were you like to store the documentation on your PC.
 
+git CLI:
+
+Get the link to clone your repository (insert the screenshot here)
+
+Go to the directory where the clone will be. Important: The git clone command will create a new directory and put the files there. So if you want the clone directory to be ~/Documents/repo/docs-kdenlive-org you must navigate to ~/Documents/repo, open a Terminal and start the git CLI commands.
+
+git clone <clone_string_copied_from_github>
+
+git remote -v
+
+If this shows only origin <clone_string_copied_from_github> go to the kdenlive manual repository and get the clone link. Then enter
+
+git remote add upstream <upstream_link>
+
+This creates the link to the kdenlive manual repository needed for pulling changes from the master to your fork.
+
+git status
+
+At this stage this should report all good. If not take care of any issues git reports (in most cases there are suggestions or even instructions how to fix it).
+
+Create a branch in your gitlab repository (see Editing the Manual below)
+
+git checkout <branch_name>
+
+This command starts tracking all changes to the branch. <branch_name> is case sensitive.
+
 
 Editing the Manual
 ==================
