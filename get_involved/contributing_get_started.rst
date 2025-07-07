@@ -39,7 +39,7 @@ Git is the control software which tracks: code changes, who made changes.
 
 From your GitLab fork you make a copy of the manual to your local PC.
 
-Make a branch. A branch is a new/separate version of the master repository.
+Make a branch. A branch is a new/separate version of the master branch.
 
 Now you can start making changes. 
 
