@@ -179,6 +179,16 @@ More details about rst see here :ref:`rst_template.rst`
  
 Do not change to much at once.
 
+git CLI:
+
+Use the editor of your choice to edit the *.rst files. 
+
+Use this CLI command to create the full kdenlive documentation web site locally in order to check your editing:
+
+sphinx-build -b html repo/docs-kdenlive-org/ test_docs/build/html
+
+This example assumes the branch was cloned to the directory/folder ~/path/to/repo/docs-kdenlive-org/ and the local web site will be build in ~/path/to/test_docs/build/html/. Navigate to ~/path/to/ and open a Terminal and enter the sphinx-build command. Once sphinx has built the pages you can use the browser of your choice to open the site and check out your editing.
+
 Commit
 ------
 
