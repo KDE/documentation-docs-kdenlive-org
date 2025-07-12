@@ -134,6 +134,8 @@ Images
 
 Only ``.. figure::`` should be used to place images.
 
+Do not use the ``:alt:`` tag. Either let it empty or delete it. The script ``getext`` extract it and it creates unnecessary translation work.
+
 Use the **Kdenlive** dark theme when making screenshots.
 
 Use .webp for images.
