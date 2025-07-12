@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-07-09 20:59+0300\n"
+"PO-Revision-Date: 2025-07-10 20:20+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -117,6 +117,9 @@ msgid ""
 "All bug reports need to be logged in the official |bug_tracker|. And feature "
 "requests are tracked there as well using the severity item wishlist."
 msgstr ""
+"Усі звіти про помилки слід реєструвати в офіційній |bug_tracker|. Запити "
+"щодо нових можливостей також відстежуються там за допомогою варіанта "
+"*wishlist* для пункту **severity**."
 
 #: ../../troubleshooting/bug_report.rst:56
 msgid "First Things First"
@@ -124,7 +127,7 @@ msgstr "Початкові кроки"
 
 #: ../../troubleshooting/bug_report.rst:58
 msgid "But before you do, please do the following:"
-msgstr ""
+msgstr "Але перш ніж створювати звіт, зробіть наступне:"
 
 #: ../../troubleshooting/bug_report.rst:61
 msgid "Step 1: Upgrade to the latest release"
@@ -201,6 +204,9 @@ msgid ""
 "been reported or is even being worked on. The bug's status is a good "
 "indicator for what is currently happening:"
 msgstr ""
+"|bug_tracker_search|. Можливо, про проблему, з якою ви зіткнулися, уже "
+"повідомляли або над нею навіть працюють. Стан повідомлення про ваду є "
+"показником того, що зараз відбувається:"
 
 #: ../../troubleshooting/bug_report.rst:81
 msgid ""
@@ -285,6 +291,8 @@ msgid ""
 "Include the results in your :ref:`bug report<troubleshooting-bug_enter>` as "
 "**attachments**."
 msgstr ""
+"Включіть до вашого :ref:`звіту<troubleshooting-bug_enter>` як **долучення** "
+"результати роботи."
 
 #: ../../troubleshooting/bug_report.rst:100
 msgid "For a good bug report please include the following information:"
@@ -296,6 +304,9 @@ msgid ""
 "Your Kdenlive and MLT version. You can copy that information from Kdenlive :"
 "menuselection:`Menu --> Help --> About`."
 msgstr ""
+"Ваші версії Kdenlive і MLT`. Ці дані можна скопіювати з вікна, відкрити яке "
+"можна за допомогою пункту :menuselection:`меню Kdenlive --> Довідка --> Про "
+"програму`."
 
 #: ../../troubleshooting/bug_report.rst:103
 msgid ""
@@ -366,12 +377,12 @@ msgstr ""
 
 #: ../../troubleshooting/bug_report.rst:120
 msgid "Type :code:`gdb kdenlive`"
-msgstr ""
+msgstr "Введіть команду :code:`gdb kdenlive`"
 
 #: ../../troubleshooting/bug_report.rst:122
 #: ../../troubleshooting/bug_report.rst:131
 msgid "After gdb read debug symbols, type :code:`run`"
-msgstr ""
+msgstr "Після того, як gdb прочитає діагностичні символи, введіть :code:`run`"
 
 #: ../../troubleshooting/bug_report.rst:125
 msgid ""
@@ -391,10 +402,12 @@ msgid ""
 "Start a shell inside the Kdenlive Flatpak sandbox: :code:`flatpak run --"
 "command=sh --devel org.kde.kdenlive`"
 msgstr ""
+"Запустіть оболонку всередині пісочниці Flatpak Kdenlive: :code:`flatpak run "
+"--command=sh --devel org.kde.kdenlive`"
 
 #: ../../troubleshooting/bug_report.rst:130
 msgid "Type :code:`gdb /app/bin/kdenlive`"
-msgstr ""
+msgstr "Введіть :code:`gdb /app/bin/kdenlive`"
 
 #: ../../troubleshooting/bug_report.rst:133
 msgid ""
@@ -410,11 +423,11 @@ msgstr "Зберіть Kdenlive за допомогою KDE Craft локальн
 
 #: ../../troubleshooting/bug_report.rst:138
 msgid "Type to the command line :code:`cd C:/CraftRoot/mingw64/bin`"
-msgstr ""
+msgstr "Введіть у командному рядку команду :code:`cd C:/CraftRoot/mingw64/bin`"
 
 #: ../../troubleshooting/bug_report.rst:139
 msgid "Start gdb with :code:`gdb`"
-msgstr ""
+msgstr "Запустіть gdb за допомогою команди :code:`gdb`"
 
 #: ../../troubleshooting/bug_report.rst:140
 msgid "Start Kdenlive -> get the PID number"
@@ -422,7 +435,7 @@ msgstr "Запустіть Kdenlive -> отримайте номер PID"
 
 #: ../../troubleshooting/bug_report.rst:141
 msgid ":code:`attach 3288` (replace 3288 by the PID number)"
-msgstr ""
+msgstr ":code:`attach 3288` (замініть 3288 на номер PID)"
 
 #: ../../troubleshooting/bug_report.rst:142
 msgid "Wait on the (gdb) prompt"
@@ -430,7 +443,7 @@ msgstr "Зачекайте на запит (gdb)"
 
 #: ../../troubleshooting/bug_report.rst:143
 msgid "Type :code:`c`"
-msgstr ""
+msgstr "Введіть команду :code:`c`"
 
 #: ../../troubleshooting/bug_report.rst:145
 msgid ""
@@ -444,35 +457,39 @@ msgstr ""
 
 #: ../../troubleshooting/bug_report.rst:147
 msgid ":code:`thread apply all bt full`"
-msgstr ""
+msgstr ":code:`thread apply all bt full`"
 
 #: ../../troubleshooting/bug_report.rst:149
 msgid ""
 "Then press enter until you see the full data. Copy the log to a file and "
 "attach it to the bug report as an **attachment**."
 msgstr ""
+"Натискайте Enter, аж доки не побачите дані повністю. Скопіюйте журнал до "
+"файла і долучіть цей файл до звіту щодо вади."
 
 #: ../../troubleshooting/bug_report.rst:155
 msgid "Creating the Bug Report"
-msgstr ""
+msgstr "Створення звіту щодо вади"
 
 #: ../../troubleshooting/bug_report.rst:157
 msgid ""
 "Now that you have all the relevant and important information, it is time to "
 "file the bug report in the official KDE Bug Tracker, Bugzilla."
 msgstr ""
+"Тепер, коли у вас є усі потрібні і важливі відомості, час створити звіт в "
+"офіційній системі стеження за вадами KDE, Bugzilla."
 
 #: ../../troubleshooting/bug_report.rst:159
 msgid "Open a browser and enter |bug_tracker_URI| in the URI field."
-msgstr ""
+msgstr "Відкрийте вікно браузера і введіть |bug_tracker_URI| у поле адреси."
 
 #: ../../troubleshooting/bug_report.rst:167
 msgid "kde_bugtracking_system.webp"
-msgstr ""
+msgstr "kde_bugtracking_system.webp"
 
 #: ../../troubleshooting/bug_report.rst:167
 msgid "KDE Bug Tracking System welcome screen"
-msgstr ""
+msgstr "Сторінка вітання системи стеження за вадами KDE"
 
 #: ../../troubleshooting/bug_report.rst:169
 msgid ""
@@ -482,11 +499,11 @@ msgstr ""
 
 #: ../../troubleshooting/bug_report.rst:171
 msgid "Click on :guilabel:`File a Bug`."
-msgstr ""
+msgstr "Натисніть кнопку :guilabel:`File a Bug`."
 
 #: ../../troubleshooting/bug_report.rst:181
 msgid "KDE Bug Tracking System classification selection"
-msgstr ""
+msgstr "Вибір класифікації у системі стеження за вадами KDE"
 
 #: ../../troubleshooting/bug_report.rst:183
 msgid ""
@@ -496,7 +513,7 @@ msgstr ""
 
 #: ../../troubleshooting/bug_report.rst:193
 msgid "KDE Bug Tracking System application selection"
-msgstr ""
+msgstr "Вибір програми у системі стеження за вадами KDE"
 
 #: ../../troubleshooting/bug_report.rst:195
 msgid ""
@@ -514,23 +531,27 @@ msgstr ""
 
 #: ../../troubleshooting/bug_report.rst:206
 msgid "kde_bug_enter.webp"
-msgstr ""
+msgstr "kde_bug_enter.webp"
 
 #: ../../troubleshooting/bug_report.rst:206
 msgid "KDE Bug Tracking System entering bug details"
-msgstr ""
+msgstr "Введення подробиць у системі стеження за вадами у KDE"
 
 #: ../../troubleshooting/bug_report.rst:208
 msgid "The bug report will be filed under your user name's email address"
 msgstr ""
+"Звіт щодо вади буде створено з використанням адреси електронної пошти вашого "
+"користувача"
 
 #: ../../troubleshooting/bug_report.rst:209
 msgid "Select a component that best fits the type of problem you encountered"
 msgstr ""
+"Виберіть компонент, який найкраще відповідає типу проблеми, з якою ви "
+"зіткнулися"
 
 #: ../../troubleshooting/bug_report.rst:210
 msgid "Select the version of Kdenlive you are using"
-msgstr ""
+msgstr "Виберіть версію Kdenlive, якою ви користуєтеся"
 
 #: ../../troubleshooting/bug_report.rst:211
 msgid ""
@@ -541,15 +562,19 @@ msgstr ""
 #: ../../troubleshooting/bug_report.rst:212
 msgid "Select the platform you are using. This helps when troubleshooting."
 msgstr ""
+"Виберіть платформу, якою ви користуєтеся. Це допоможе у пошуку причини "
+"проблеми."
 
 #: ../../troubleshooting/bug_report.rst:213
 msgid "Select the operating system (OS) you are using"
-msgstr ""
+msgstr "Виберіть операційну систему, якою ви користуєтеся"
 
 #: ../../troubleshooting/bug_report.rst:214
 msgid ""
 "Enter a short but descriptive summary if the bug or problem you are reporting"
 msgstr ""
+"Введіть коротке, але змістовне резюме щодо вади або проблеми, про яку ви "
+"звітуєте"
 
 #: ../../troubleshooting/bug_report.rst:215
 msgid ""
@@ -582,7 +607,7 @@ msgstr ""
 
 #: ../../troubleshooting/bug_report.rst:228
 msgid "Copy information from Kdenlive"
-msgstr ""
+msgstr "Скопіюйте відомості з Kdenlive"
 
 #: ../../troubleshooting/bug_report.rst:230
 msgid ""
