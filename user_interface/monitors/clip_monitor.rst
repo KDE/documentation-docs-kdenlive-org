@@ -47,11 +47,11 @@ For more details about the icons in the monitor toolbar refer to :ref:`this sect
 Hamburger Menu
 ~~~~~~~~~~~~~~
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitor_cm_options.webp
+.. figure:: /images/user_interface/kdenlive2508_ui-monitor_cm_options.webp
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_ui-monitor_cm_options
+   :alt:
 
    Clip Monitor options
 
