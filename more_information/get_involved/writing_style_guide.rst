@@ -134,7 +134,7 @@ Images
 
 Only ``.. figure::`` should be used to place images.
 
-Do not use the ``:alt:`` tag. Either leave it empty or delete it. The script ``getext`` extracts it which creates unnecessary translation work.
+Do not use the ``:alt:`` tag. Either leave it empty or delete it. The script ``gettext`` extracts it which creates unnecessary translation work.
 
 Use the **Kdenlive** dark theme when making screenshots.
 
