@@ -50,7 +50,7 @@ After a directive with ``..``, the next line must be indented by 3 blank spaces 
    :align: make it possible that you have text on the right site of the figure  
    :with: restrict the figure size
    :figwith: the caption get a line break after 250px
-   :alt: leave it empty or delete it. Do not use as it creates unnecessary translation work.
+   :alt: Do not use as it creates unnecessary translation work.
 
 .. figure:: /images/getting_started/kdenlive_add_last_clip.webp
    :align: left
