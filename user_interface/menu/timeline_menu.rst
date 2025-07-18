@@ -32,8 +32,7 @@ The Timeline Menu functions affect the clip or clips selected in the timeline, a
 .. figure:: /images/user_interface/menu_reference/kdenlive2504_timeline_menu.webp
    :align: left
    :scale: 77%
-   :alt: kdenlive2304_timeline_menu
-
+   
    Kdenlive Timeline Menu
 
 - :ref:`Selection <selection>`
@@ -73,8 +72,7 @@ Selection Menu
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_menu-selection.webp
    :align: left
-   :alt: kdenlive2304_timeline_menu-selection
-
+   
    Timeline Selection Menu
 
 The purpose of this sub-menu is to allow you to select multiple clips or compositions on the timeline for the purpose of performing operations on all of them simultaneously. However, it should be said up front that making selections this way is not very practical. That is because, in order to select a clip or transition using this menu, you must first position the playhead on it. A much quicker and easier way is to press :kbd:`Shift+RMB`\ [1]_ on each clip you want to add to the selection. The clips do not have to be adjacent to each other to be selected using this method. If the clips you want to select are all adjacent to each other, you can press :kbd:`Shift+LMB`\ [2]_ and hold and then drag your mouse across all the clips. A selection box ("lasso") will appear and every clip and/or composition it touches or encompasses will be selected once you let go of the mouse.
@@ -83,24 +81,21 @@ The following illustrations show how clips can be selected and a simple move to 
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_selection_1.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_selection_1
-
+   
    Figure 1: Three selected clips in track V1
 
 In Figure 1, three of the five clips on the timeline have been selected using the :kbd:`Shift+LMB`\ [2]_ method. A selected clip has an orange outline and the highlight color of the filename text is red; not selected clips have a black outline and the filename highlight color is a semi-transparent grey.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_selection_2.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_selectionp_2
-
+   
    Figure 2: Selected clip moved to track V2
 
 Now that multiple clips have been selected, you can do things like moving (dragging), copying, pasting or deleting all of them at once. Or you can use the :ref:`grouping <timeline-group_clips>` function (:menuselection:`Menu --> Timeline --> Group Clips`; default keyboard shortcut is :kbd:`Ctrl+G`) to group the clips together. After clips have been grouped a click on one of the grouped clips selects the entire group. Any clip function (e.g. delete, copy, extract) applies to the entire group. Figure 2 shows that the selected clips from Figure 1 have been moved to another track. This was done by grabbing any of the selected clips with the mouse and dragging them to track V2. Clicking anywhere outside of the selected clips will deselect all of them. Note however, that if you had used the **Group Clips** function on the selection the clips will still be grouped even though they are no longer selected.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_selection_3.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_selection_3
-
+   
    Figure 3: Two selected compositions
 
 Selecting multiple compositions works just like selecting clips. Click on the first one and then :kbd:`Shift+LMB`\ [2]_ on as many others as you'd like to add to the selection. Figure 3 shows two **Wipe** compositions selected. These compositions can now be copied, moved (dragged), deleted, etc. just as with clips. Selected compositions have an orange outline and a bright purple semi-transparent background color.
@@ -117,8 +112,7 @@ With this menu you can insert a clip or clip zone into the Timeline or overwrite
    :align: left
    :width: 124px
    :figwidth: 124px
-   :alt: kdenlive2304_timeline_source_target
-
+   
    ..
 
 .. More info here: https://kdenlive.org/en/2019/08/kdenlive-19-08-released/
@@ -136,8 +130,7 @@ Say you have an eight second zone defined in a clip in the Clip Monitor. When yo
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_clip_no_zone.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip
-
+   
    Insert clip zone from Clip Monitor to Timeline (not using the Timeline Zone)
 
 The clip selected in the Project Bin (in this example My_Video_7.mp4) is displayed in the Clip Monitor. An eight second zone has been defined (see the blue bar between the yellow brackets). The playhead in the Timeline has been positioned where the clip zone is to be inserted. Note the setting of the :guilabel:`Use Timeline Zone for Inserts` switch (1).
@@ -146,16 +139,14 @@ Press :kbd:`V` or select :menuselection:`Menu --> Timeline --> Insertion --> Ins
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_clip_no_zone_1.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip_zone_1
-
+   
    Insert clip zone from Clip Monitor to Timeline (insert mode)
 
 Press :kbd:`B` or select :menuselection:`Menu --> Timeline --> Insertion --> Overwrite Clip Zone in Timeline` and the section in the clip is inserted in the timeline overwriting portions of the clip currently in the target track.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_clip_no_zone_2.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip
-
+   
    Insert clip zone from Clip Monitor to Timeline (overwrite mode)
 
 Please note that in the example for the overwrite mode the target track has been changed to V2 only. This is only to demonstrate how target track settings affect the clip operation (in this case no audio stream was inserted because the necessary audio track was set to inactive).
@@ -164,24 +155,21 @@ Using the Timeline Zone for inserting the clip:
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_clip_zone.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip
-
+   
    Insert clip zone from Clip Monitor to Timeline (using the Timeline Zone)
 
 Press :kbd:`V` or select :menuselection:`Menu --> Timeline --> Insertion --> Insert Clip Zone in Timeline` and the section in the clip is inserted in the timeline starting where the Timeline Zone starts and only for the length of the Timeline Zone. Any clip already in the Timeline in the target track will be cut, the clip zone inserted and the cut clip pushed to the right to make room for the inserted clip.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_clip_zone_1.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip
-
+   
    Insert clip zone from Clip Monitor to Timeline (insert mode)
 
 Press :kbd:`B` or select :menuselection:`Menu --> Timeline --> Insertion --> Overwrite Clip Zone in Timeline` and the section in the clip is inserted in the Timeline starting where the Timeline Zone starts and only for the length of Timeline Zone overwriting portions of the clip currently in the target track.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_clip_zone_2.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip
-
+   
    Insert clip zone from Clip Monitor to Timeline (overwrite mode)
 
 Please note that in the example for the overwrite mode the target track has been changed to V2 only. This is only to demonstrate how target track settings affect the clip operation (in this case no audio stream was inserted because the necessary audio track was set to inactive).
@@ -202,38 +190,33 @@ This function extracts or lifts portions of the Timeline defined by the Timeline
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_removal.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_removal
-
+   
    Timeline Removal: Timeline Zone and active tracks
 
 Pressing :kbd:`Shift+X` or selecting :menuselection:`Menu --> Timeline --> Removal --> Extract Timeline Zone` will cut the clips where the Timeline Zone starts and ends, delete that portion and move all clips that are to the right in the Timeline left to close the gap.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_removal_extract_1.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_removal_extract_1
-
+   
    Timeline Zone extracted from the Timeline
 
 Pressing :kbd:`Z` or selecting :menuselection:`Menu --> Timeline --> Removal --> Lift Timeline Zone` will cut the clips where the Timeline Zone starts and ends, delete that portion but leave all clips that are to the right in the Timeline thus creating a gap.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_removal_lift_1.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_removal_lift_1
-
+   
    Timeline Zone lifted from the Timeline
 
 If you want only one track to be affected by this function switch all the other tracks to inactive.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_removal_extract_2.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip
-
+   
    Timeline Zone extracted from the Timeline on only one track (V2)
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_removal_lift_2.webp
    :width: 100%
-   :alt: kdenlive2304_timeline_insert_clip
-
+   
    Timeline Zone lifted from the Timeline on only one track (V2)
 
 
@@ -368,8 +351,7 @@ This function can be used when you want to push all the existing clips on the ti
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_space_all_tracks.webp
    :align: left
-   :alt: kdenlive2304_timeline_insert_space
-
+   
    Figure 1: Insert space
 
 In addition to invoking this menu from :menuselection:`Menu --> Timeline --> Space`, you can also bring it up by right-clicking on an empty spot on a track in the timeline.  There are a couple of important differences how :guilabel:`Insert Space` behaves, though, depending on which method you choose. Using :menuselection:`Menu --> Timeline --> Space --> Insert Space` brings up the **Add Space** dialog shown in Figure 1. Note that the default choice for :guilabel:`Insert space in all tracks` is un-checked.
@@ -396,40 +378,35 @@ Let's look at an example, albeit an unrealistic one, of how inserting space from
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_space_1.webp
    :width: 90%
-   :alt: kdenlive2304_timeline_insert_space_1
-
+   
    Figure 3: Timeline before inserting space. Compare this with the illustrations below.
 
 Figure 3 shows a scenario with clips on three video tracks before inserting a space. All of the following examples assume we are starting from this position.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_space_2.webp
    :width: 90%
-   :alt: kdenlive2304_timeline_insert_space_2
-
+   
    Figure 4:
 
 In Figure 4 we have chosen to :guilabel:`Insert a space on all tracks`. Since the playhead was touching both compositions and the clips on tracks V1 and V2, it shifted them along with all the clips to the right of the playhead. It did not shift the clip on track V3 because it was to the left of the playhead.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_space_3.webp
    :width: 90%
-   :alt: kdenlive2304_timeline_insert_space_2.
-
+   
    Figure 5
 
 In Figure 5 we chose track V3. The composition went because it “belongs” to the clip on track V3, but the clip itself did not go because it was to the left of the playhead. The clip *My_Video_4.mp4* on track V3 also went because it was to the right of the playhead.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_space_4.webp
    :width: 90%
-   :alt: kdenlive2304_timeline_insert_space_2
-
+   
    Figure 6
 
 In Figure 6 we shifted the clips on track V2. Now the Wipe composition between tracks V3 and V2 does not shift, even though the playhead was touching it, because it belongs to track V3. The other transition does go because it belongs to the higher track V2.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_space_5.webp
    :width: 90%
-   :alt: kdenlive2304_timeline_insert_space_2
-
+   
    Figure 7
 
 Finally, in Figure 7, we chose track V1 and just the clips move.
@@ -496,11 +473,10 @@ Tracks
 
 This menu item opens a flyout with the following functions:
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_menu-tracks.webp
+.. figure:: /images/user_interface/menu_reference/timeline_menu-tracks-2508.webp
    :align: left
    :width: 300px
    :figwidth: 300px
-   :alt: kdenlive2304_timeline_menu-tracks
 
    Timeline Menu Tracks
 
@@ -512,11 +488,21 @@ This menu item opens a flyout with the following functions:
 
 * **Switch Track Target Audio Stream**
 
+* **Fit all Tracks in View**: When enabled the :ref:`tracks fits to the hight of the timeline <fit_tracks_to_view_height>`
+
+----
+
 * **Select All in Current Track**: Selects all items in the current track
 
 * **Select All**: Selects all items in all tracks. Default shortcut: :kbd:`Ctrl+A`
 
 * **Deselect**: Cancels the selection. Default shortcut: :kbd:`Ctrl+Shift+A`
+
+----
+
+* **Toggle Track Disabled**: Default shortcut: :kbd:`Shift+H`
+
+* **Toggle All Track Disabled**: Default shortcut: :kbd:`Ctrl+Shift+H`
 
 * **Toggle Track Lock**: Locks or unlocks the current track. A locked track cannot be edited and is marked with a red track number and the |kdenlive-lock| icon. Default shortcut: :kbd:`Shift+L`
 

@@ -29,8 +29,7 @@ The timeline is the central part of **Kdenlive**. It is made of four different a
 .. figure:: /images/kdenlive_timeline.webp
   :width: 900px
   :align: left
-  :alt: Timeline pane
-
+  
 
 .. rst-class:: clear-both
 
@@ -60,10 +59,9 @@ Zoombars
 
 .. container:: clear-both
 
-   .. image:: /images/Zoom-bar.gif
+   .. figure:: /images/Zoom-bar.gif
       :align: left 
-      :alt: Zoom-bar
-
+      
    Besides the availability of zoombars in the monitor and keyframe scroll bars, zoombars are now available in the timeline as well. You can easily zoom in/out in the timeline by dragging the edges of the timeline scrollbar. (Vertical zoombars coming soon.) Recommend playing this video in full-screen mode.
 
 .. _keybinding_info:
@@ -75,10 +73,9 @@ Key binding information
 
 .. container:: clear-both
 
-   .. image:: /images/Context-and-keybinds.gif
+   .. figure:: /images/Context-and-keybinds.gif
       :align: left 
-      :alt: context-and-keybinds
-
+      
    Key binding info has been added on the left while context item information has been moved to the right of the :ref:`status_bar`. Recommend playing this video in full-screen mode.
 
 .. _timeline_visuals:
@@ -90,9 +87,8 @@ Timeline visuals
 
 The timeline got a visual overhaul with more and better looking guides/marker colors, the guides have been moved above the timeline ruler while preview and zone bars have been moved below.
 
-.. image:: /images/timeline-overhaul.png
-   :alt: timeline_overhaul
-  
+.. figure:: /images/timeline-overhaul.png
+   
 Before (above) and after (below)
 
 .. rst-class:: clear-both
@@ -104,9 +100,8 @@ Split Audio/Video
 
 .. .. versionadded:: 19.04.0
 
-.. image:: /images/splitAV.gif
-   :alt: splitAV
- 
+.. figure:: /images/splitAV.gif
+   
 The way timeline tracks work has changed. Each track is now either audio or video, and will only accept audio and video clips respectively. When dragging an AV clip from the project bin to the timeline the clip will be automatically split with the video part going on a video track, and the audio part on an audio track.
 
 The separation of audio/video is important for implementing :ref:`same-track-transitions <same_track_transition>`.
@@ -118,11 +113,10 @@ Timeline Cursor/Position Caret/Playhead
 
 .. container:: clear-both
 
-   .. image:: /images/kdenlive_timeline_playhead.png
+   .. figure:: /images/kdenlive_timeline_playhead.png
       :width: 450px
       :align: left
-      :alt: timeline playhead
-
+      
    This indicates the position we are displaying in the :ref:`ui-monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead).
 
    Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :doc:`Configure Kdenlive</getting_started/configuration>`.
@@ -138,16 +132,14 @@ Keyboard Navigation
 
 You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in the timeline and use the :guilabel:`Grab Current Item` function from the :menuselection:`Menu --> Timeline` menu or use the default shortcut of :kbd:`Shift+G`.
 
-.. image:: /images/shift-g.gif
-   :alt: Moving clips and compositions with Shift+G
-
+.. figure:: /images/shift-g.gif
+   
 You can then move the item with the arrow keys.
 
 Keyframes can also be moved individually. Just click on a keyframe in the timeline, then move it :kbd:`Left` or :kbd:`Right`, change its value with :kbd:`+` and :kbd:`-`. Use :kbd:`Alt+arrow` to go to another keyframe.
 
-.. image:: /images/moving-keyframes.gif
-   :alt: Moving clip keyframes in the timeline
-
+.. figure:: /images/moving-keyframes.gif
+   
 .. _keyframe_handling:
 
 Keyframe handling
@@ -155,8 +147,7 @@ Keyframe handling
 
 .. .. versionadded:: 19.04.0
 
-.. image:: /images/keyframe-improvements.gif
-   :alt: Improved keyframe handling
+.. figure:: /images/keyframe-improvements.gif
    
 * Add a new keyframe by double clicking in timeline.
 * You can move a keyframe without altering its value by using the vertical line that appears when you are above or below a keyframe.
@@ -175,8 +166,7 @@ Clip stack can be enabled/disabled by clicking on the effect.
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-effect_stack_disabled.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-effect_stack_disabled
-
+   
    Kdenlive Effect Stack disabled by click on the effect of a clip
 
 .. rst-class:: clear-both
@@ -193,10 +183,9 @@ Disabling individual clips
 
 .. container:: clear-both
 
-   .. image:: /images/Disabling_individual_clips.png
+   .. figure:: /images/Disabling_individual_clips.png
       :align: left
-      :alt: Disabling_individual_clips
-  
+      
    Individual clips can be disabled while still in the timeline but with no audio and no video – (works for all clip types). Right-click on the clip and choose :guilabel:`Disable clip` or :guilabel:`Enable clip`.
 
 .. rst-class:: clear-both
@@ -210,8 +199,7 @@ Toggle between sequence tabs
 .. .. versionadded:: 19.08
 
  .. figure:: /images/user_interface/toggle_between_sequence_tabs.gif
-    :alt: toggle between timeline tabs
-
+    
 With following keyboard shortcuts you can toggle between sequence tabs:
 
 Go to next sequence :kbd:`Ctrl+Tab`
@@ -226,16 +214,14 @@ Timeline Ruler
 
 The timeline ruler shows the timecode information in the notation of hh:mm:ss:ff (default) or in frames. It displays the currently defined timeline zone (1) and the preview render zone (2) and its respective rendering status (red: not yet rendered; yellow: being rendered; green: finished).
 
-.. image:: /images/kdenlive_timeline_ruler.webp
-   :alt: Timeline Ruler
-
+.. figure:: /images/kdenlive_timeline_ruler.webp
+   
 The timeline zone can be moved by dragging the square in the middle, and sized by either dragging the left or right edge or by positioning the playhead in the timeline and pressing :kbd:`I` or :kbd:`O` to set in-point and out-point, respectively.
 For more detailed information on preview render please refer to this section of the documentation.
 
-.. image:: /images/Kdenlive_timeline_ruler_context-menu.png
+.. figure:: /images/Kdenlive_timeline_ruler_context-menu.png
    :width: 450px
-   :alt: Timeline ruler context menu
-
+   
 Right click into the timeline ruler opens the context menu and allows you to:
 
   * :ref:`Manipulate guides <guides>`
@@ -251,7 +237,7 @@ Timeline Toolbar
 
 The timeline toolbar controls various aspects of the editor. It can be configured to accommodate your workflow (see :ref:`Configuring the Toolbars <configuring_the_toolbars>` for more details).
 
-.. image:: /images/kdenlive_timeline_toolbar.webp
+.. figure:: /images/kdenlive_timeline_toolbar.webp
    :width: 900px
 
 This is a quick overview of the main sections of the toolbar. A more detailed description can be found in the :ref:`timeline_toolbar3` section of this documentation.
@@ -285,6 +271,7 @@ Track Header
 ~~~~~~~~~~~~
 
 .. .. versionadded:: 25.04 Zoom Audio Waveforms 
+.. .. versionadded:: 25.08 Hide all tracks Shift+Ctrl+H
 
 This area shows some options for a track:
 
@@ -294,8 +281,7 @@ This area shows some options for a track:
       :width: 250px
       :figwidth: 250px
       :align: left
-      :alt: Track header information
-   
+         
    
    :1: Track collapse and expand icon. Click on it to collapse or expand the track: hold Shift and click to expand or collapse all tracks of the same type.
    
@@ -306,8 +292,8 @@ This area shows some options for a track:
    :4: Track control icons. Use them to:
    
      + Lock the track |kdenlive-lock| which will prevent adding clips, removing clips, or moving of clips on the timeline;  
-     + Mute the track |kdenlive-hide-audio| (audio tracks only)  
-     + Hide video |kdenlive-hide-video| from this track; and,  
+     + Mute the track |kdenlive-hide-audio| (audio tracks only) :kbd:`Ctrl+Shift+H`
+     + Hide video |kdenlive-hide-video| from this track :kbd:`Ctrl+Shift+H`; and,  
      + Enable/Disable track effects |tools-wizard| allows you to enable or disable the effects applied to the track.
 
    :5: Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio tracks.  
@@ -323,11 +309,10 @@ In order to add a track, right-click anywhere in the track header area. In the *
 
 .. container:: clear-both
 
-   .. image:: /images/kdenlive_timeline_add_track.webp
+   .. figure:: /images/kdenlive_timeline_add_track.webp
       :width: 400px
       :align: left
-      :alt: Add track(s)
-
+      
    You can specify the number of tracks for a new project in :menuselection:`Menu --> Settings --> Configure Kdenlive` in the :doc:`Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>` tab. 
 
 .. rst-class:: clear-both
@@ -339,9 +324,8 @@ Deleting Tracks
 
 In order to delete a track right-click anywhere in the track header area. In the **Delete Track** dialog window select the tracks you want to delete.
 
-.. image:: /images/kdenlive_timeline_delete_track.webp
-   :alt: Delete track(s)
-
+.. figure:: /images/kdenlive_timeline_delete_track.webp
+   
 .. _resizing_tracks:
 
 Resizing Tracks
@@ -351,9 +335,8 @@ Resizing Tracks
 
 Tracks can be individually resized. Holding down :kbd:`Shift` makes all video or audio tracks change in height simultaneously.
 
-.. image:: /images/resize-tracks.gif
-   :alt: resize-tracks
-
+.. figure:: /images/resize-tracks.gif
+   
 
 .. _fit_tracks_to_view_height:
 
@@ -364,9 +347,8 @@ Fit Tracks to view height
 
 All tracks height can be adjusted following the height of the timeline view.
 
-.. image:: /images/user_interface/Fit_all_tracks_to_view.gif
-   :alt: fit all tracks to view height
-
+.. figure:: /images/user_interface/Fit_all_tracks_to_view.gif
+   
 
 .. _reset_track_to_default_height:
 
@@ -377,9 +359,8 @@ Reset track to default height
 
 :kbd:`Shift+double-click` on the track divider resets the track back to its default height.
 
-.. image:: /images/user_interface/track_to_default_height.webp
-   :alt: track to default height
-
+.. figure:: /images/user_interface/track_to_default_height.webp
+   
 
 
 
@@ -390,9 +371,8 @@ Switching between mixed or split audio
 
 Switch live between two different layout modes (Mixed or Split).
 
-.. image:: /images/layout-modes.gif
-   :alt: layout-modes
-
+.. figure:: /images/layout-modes.gif
+   
 .. _configurable_tracks:
 
 Configurable Tracks
@@ -402,10 +382,9 @@ Configurable Tracks
 
 .. container:: clear-both
 
-   .. image:: /images/Configurable_thumbnails.png
+   .. figure:: /images/Configurable_thumbnails.png
       :align: left
-      :alt: Configurable_thumbnails
-  
+      
    **Video track** - You can choose to display either
    
    - :guilabel:`In Frame`
@@ -418,10 +397,9 @@ Configurable Tracks
 
 .. container:: clear-both
 
-   .. image:: /images/audio-track_right-click.png
+   .. figure:: /images/audio-track_right-click.png
       :align: left
-      :alt: audio-track_right-click
-
+      
    **Audio track** - You can enable:
    
    - :guilabel:`Show Record Controls` to record audio direct into the track. More details see :ref:`audio-recording`.

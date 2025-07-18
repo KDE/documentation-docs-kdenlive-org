@@ -371,6 +371,9 @@ Editing
    * - Toggle All Track Lock
      - :kbd:`Ctrl+Shift+L`
      - Tracks
+   * - Toggle Track hidden/mute
+     - :kbd:`Ctrl+Shift+H`
+     - Toggle video/audio track hidden/mute when selected
    * - Toggle All Tracks Active
      - :kbd:`Shift+A`
      - 3-point-editing
@@ -681,8 +684,7 @@ You can assign shortcuts to raise docked :term:`widgets<widget>`. In the :menuse
 
 .. figure:: ../images/user_interface/kdenlive_ui-shortcuts.gif
    :width: 100%
-   :alt: kdenlive_shortcuts
-
+   
    Assigning a keyboard shortcut to raise a widget
 
 ..
@@ -702,8 +704,7 @@ Click on a :term:`clip` in the :term:`timeline` and you can use the shortcuts to
 
 .. figure:: /images/user_interface/kdenlive_ui-shortcut_keyframe.gif
    :width: 100%
-   :alt: kdenlive_ui-shortcut_keyframe
-
+   
    Creating keyboard shortcuts for keyframe functions
 
 ..
@@ -722,8 +723,7 @@ The command bar allows to easily search for any action in Kdenlive like changing
 
 .. figure:: /images/user_interface/kdenlive_ui-searchbar.gif
    :width: 100%
-   :alt: kdenlive_ui-searchbar
-  
+   
    Searching for Kdenlive action commands
 
 
