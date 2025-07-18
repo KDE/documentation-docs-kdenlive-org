@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-# SPDX-FileCopyrightText: 2023 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2025 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2023-12-15 08:24+0100\n"
+"PO-Revision-Date: 2025-07-12 13:28+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,27 +15,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #: ../../<rst_epilog>:310
 msgid "kdenlive-show-video"
-msgstr ""
+msgstr "kdenlive-show-video"
 
 #: ../../<rst_epilog>:620
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../<rst_epilog>:625
 msgid "appimage"
-msgstr ""
+msgstr "appimage"
 
 #: ../../<rst_epilog>:630
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../<rst_epilog>:635
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:-1
 msgid "Kdenlive Video Effects - Dilation"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:-1
 msgid "effects-dilation-2504.webp"
-msgstr ""
+msgstr "effects-dilation-2504.webp"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:0
 msgid "**Status**"
@@ -83,15 +83,15 @@ msgstr "**Bug conosciuti**"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:0
 msgid "1 2 3"
-msgstr ""
+msgstr "1 2 3"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:0
 msgid "4 P 5"
-msgstr ""
+msgstr "4 P 5"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:0
 msgid "6 7 8"
-msgstr ""
+msgstr "6 7 8"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:14
 msgid "Dilation"
@@ -131,6 +131,10 @@ msgid ""
 "maximum. It is the opposite of the :doc:`Erosion</effects_and_filters/"
 "video_effects/image_adjustment/erosion>` effect."
 msgstr ""
+"Questo effetto/filtro simula la dilatazione dell'immagine, un effetto che "
+"ingrandisce i pixel più chiari dell'immagine e li sostituisce con il massimo "
+"locale (3x3). È l'opposto dell'effetto :doc:`Erosione</effects_and_filters/"
+"video_effects/image_adjustment/erosion>`."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:48
 msgid "Parameters"
@@ -146,7 +150,7 @@ msgstr "Valore"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:58
 msgid "1st / 2nd / 3rd / 4th Plane Threshold"
-msgstr ""
+msgstr "Prima / Seconda / Terza / Quarta soglia del piano"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:59
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:62
@@ -158,6 +162,8 @@ msgid ""
 "Limit the maximum change for each :term:`plane`, default is 65535. If 0, "
 "plane will remain unchanged."
 msgstr ""
+"Limita la modifica massima per ciascun :term:`piano`; l'impostazione "
+"predefinita è 65535. Se 0, il piano rimarrà invariato."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:61
 msgid "Coordinates"
@@ -168,14 +174,17 @@ msgid ""
 "Flag which specifies the pixel to refer to. Default is 255, i.e. all eight "
 "pixels are used."
 msgstr ""
+"Contrassegno che specifica il pixel a cui fare riferimento. L'impostazione "
+"predefinita è 255, cioè vengono utilizzati tutti gli otto pixel."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:67
 msgid "Notes"
-msgstr ""
+msgstr "Note"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:68
 msgid "The local 3x3 matrix looks like this (**P** represents the pixel):"
 msgstr ""
+"La matrice locale 3x3 ha il seguente aspetto (**P** rappresenta il pixel):"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:74
 msgid ""
@@ -183,10 +192,13 @@ msgid ""
 "of this matrix. Each point in the matrix is represented as a bit in a binary "
 "number\\ [1]_ with 8 bits."
 msgstr ""
+"Il parametro :kbd:`Coordinate` è il valore decimale della notazione binaria "
+"di questa matrice. Ogni punto della matrice è rappresentato come un bit in "
+"un numero binario\\ [1]_ a 8 bit."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:77
 msgid "Example 1:"
-msgstr ""
+msgstr "Esempio 1:"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:77
 msgid ""
@@ -194,6 +206,9 @@ msgid ""
 "`Coordinates` must be set to 00000111\\ :sub:`2`, or 2\\ :sup:`2` + 2\\ :sup:"
 "`1` + 2\\ :sup:`0` = 4 + 2 + 1 = 7\\ :sub:`10`"
 msgstr ""
+"Per l'effetto di dilatazione vengono utilizzati i pixel numero 1, 2 e 3. :"
+"kbd:`Coordinate` deve essere impostato su 00000111\\ :sub:`2`, o 2\\ :sup:"
+"`2` + 2\\ :sup:`1` + 2\\ :sup:`0` = 4 + 2 + 1 = 7\\ :sub:`10`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:80
 msgid ""
@@ -201,22 +216,29 @@ msgid ""
 "10100101\\ :sub:`2`, or 2\\ :sup:`7` + 2\\ :sup:`5` + 2\\ :sup:`2` + 2\\ :"
 "sup:`0` = 128 + 32 + 4 + 1 = 165\\ :sub:`10`"
 msgstr ""
+"Per l'effetto di dilatazione vengono utilizzati i pixel numero 1, 3, 6 e 8. :"
+"kbd:`Coordinate` deve essere impostato su 10100101\\ :sub:`5`, o 2\\ :sup:"
+"`2` + 2\\ :sup:`2` + 2\\ :sup:`0` = 1328 + 2 + 1 = 165\\ :sub:`10`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:81
 msgid "Example 2:"
-msgstr ""
+msgstr "Esempio 2:"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:85
 msgid ""
 "Binary number's digits have 2 symbols: zero (0) and one (1). Each digit of a "
 "binary number counts a power of 2."
 msgstr ""
+"Le cifre dei numeri binari hanno 2 simboli: zero (0) e uno (1). Ciascuna "
+"cifra di un numero binario conta una potenza di 2."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/dilation.rst:87
 msgid ""
 "Binary number example: 1101\\ :sub:`2` = 1×2\\ :sup:`3` + 1×2\\ :sup:`2` + "
 "0×2\\ :sup:`1` + 1×2\\ :sup:`0` = 13\\ :sub:`10`"
 msgstr ""
+"Esempio di numero binario: 1101\\ :sub:`2` = 1×2\\ :sup:`3` + 1×2\\ :sup:`2` "
+"+ 0×2\\ :sup:`1` + 1×2\\ :sup:`0` = 13\\ :sub:`10`"
 
 #, fuzzy
 #~| msgid "Dilation"
