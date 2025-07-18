@@ -117,6 +117,11 @@ Use ``.. rubric::`` if you want a section-like element that is not included in t
 | broken exactly like in
 | the source file.
 
+four - (hyphen) in a row creates a horizontal line to visually separate content elements. Adding blank lines before and after.
+
+----
+
+
 Exponent
 2 :sup:`8` = 256
 
