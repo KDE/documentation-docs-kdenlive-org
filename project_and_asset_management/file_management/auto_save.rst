@@ -15,9 +15,16 @@
 Auto Save
 =========
 
-Autosaves are generated three seconds after the user performs an action that cannot be undone, **BUT** only if no another action is performed within these three seconds.
+.. .. versionchanged::25.08
 
-You can switch it on or off in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>`
+
+.. figure:: /images/project_and_asset_management/file-management_auto-save_2508.webp
+   :width: 100px
+   :figwidth: 500px
+   
+   Green square top right: Auto save is ongoing
+
+Autosaves are generated according the settings in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>` (default 60sec / 25 operations). There you can switch it on or off. 
 
 Autosaves are offered the first time after you open the project again in case the autosave is newer than the last saved project version.
 
