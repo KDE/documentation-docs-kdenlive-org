@@ -96,6 +96,9 @@ General
    * - Collapse/Expand Item
      - :kbd:`<`
      -
+   * - Cut
+     - :kbd:`Ctrl+X`
+     - Current selection   
    * - Copy
      - | :kbd:`Ctrl+C` or
        | :kbd:`Ctrl+Ins`
