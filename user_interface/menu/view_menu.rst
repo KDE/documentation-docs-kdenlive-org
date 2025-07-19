@@ -39,8 +39,7 @@ Use the navigation on the left to go to the various menu items
    .. figure:: /images/user_interface/menu_reference/kdenlive2304_view_menu.webp
      :align: left
      :height: 635px
-     :alt: kdenlive2304_view_menu
-	 
+     
      Kdenlive View Menu
 	 
 	 
@@ -76,7 +75,6 @@ This feature allows you to search for any command or action available. Simply en
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_find_action.webp
    :align: left
    :width: 650px
-   :alt: kdenlive23.04_find_action
    
    Kdenlive Find Action
 
@@ -92,7 +90,6 @@ This function lets you switch to a previously saved custom workspace layout. Mor
 
 .. figure:: /images/user_interface/menu_reference/kdenlive_load_layout01.webp
   :align: left
-  :alt: kdenlive_load_layout01.webp
   
   Loading a workspace layout
 
@@ -115,7 +112,6 @@ This function allows you to save the workspace layout.
 .. figure:: /images/user_interface/menu_reference/kdenlive_save_layout01.webp
   :align: left
   :width: 290px
-  :alt: kdenlive_save_layout01
   
   Saving the current workspace layout
 
@@ -128,8 +124,7 @@ In the example shown, no custom layouts have been saved yet so they are just lab
    .. figure:: /images/user_interface/menu_reference/kdenlive_save_layout02.webp
       :align: left
       :width: 190px
-      :alt: kdenlive_save_layout02
-
+      
       Naming the saved layout
 
    The Save Layout dialog appears and you can give your custom layout a name.
@@ -147,7 +142,6 @@ This function allows you to manage the saved workspace layouts.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_manage_layouts.webp
    :align: left
    :width: 250px
-   :alt: kdenlive2304_manage_layouts
    
    Kdenlive Manage Layouts function
    
@@ -180,7 +174,6 @@ Switches the Audio Mixer :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_audio_mixer.webp
    :align: left
    :height: 400px
-   :alt: kdenlive2304_audio_mixer
    
    Kdenlive Audio Mixer widget
    
@@ -201,7 +194,6 @@ Switches the Audio Spectrum :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_audio_spectrum.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_audio_spectrum
    
    Kdenlive Audio Spectrum widget
 
@@ -234,7 +226,6 @@ Switches the Clip Properties :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_properties.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_clip_properties
    
    Kdenlive Clip Properties widget
    
@@ -255,7 +246,6 @@ Switches the Compositions :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_compositions.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_compositions
    
    Kdenlive Compositions widget
    
@@ -286,7 +276,6 @@ Switches the Effects :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_effects.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_effects
    
    Kdenlive Effects widget
 
@@ -319,7 +308,6 @@ Switches the Histogram :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_histogram.webp
    :align: left
    :height: 400px
-   :alt: Histogram
    
    Kdenlive Histogram widget
 
@@ -344,7 +332,6 @@ Switches the Library :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_library.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_library
    
    Kdenlive Library widget
 
@@ -363,7 +350,6 @@ Switches the Media Browser :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_media_browser.webp
    :align:  left
    :width: 450px
-   :alt: kdenlive2304_media_browser
    
    Kdenlive Media Browser widget
 
@@ -382,7 +368,6 @@ Switches the Online Resources :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_online_resources.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_online_resources
    
    Kdenlive Online Resources widget
 
@@ -403,7 +388,6 @@ Switches the Project Bin :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_project_bin.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_project_bin
    
    Kdenlive Project Bin widget
 
@@ -434,7 +418,6 @@ Switches the Project Notes :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_project_notes.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_project_notes
    
    Kdenlive Project Notes widget
 
@@ -453,7 +436,6 @@ Switches the RGB Parade :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_rgb_parade.webp
    :align:  left
    :height: 400px
-   :alt: kdenlive2304_rgb_parade
    
    Kdenlive RGB Parade widget
 
@@ -490,7 +472,6 @@ Switches the Speech Editor :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_speech_editor.webp
    :align:  left
    :width: 400px
-   :alt: kdenlive2304_speech_editor
    
    Kdenlive Speech Editor widget
 
@@ -509,7 +490,6 @@ Switches the Subtitle :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_subtitles.webp
    :align:  left
    :height: 300px
-   :alt: kdenlive2304_subtitles
    
    Kdenlive Subtitles widget
 
@@ -528,7 +508,6 @@ The Time Remapping :term:`widget` allows you to create speed ramping.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_time_remapping.webp
    :align:  left
    :height: 300px
-   :alt: kdenlive2304_time_remapping
    
    Kdenlive Time Remapping widget
 
@@ -551,19 +530,21 @@ The Timeline is the central part of Kdenlive where you put together your video. 
 
 Undo History
 ------------
+.. .. versionchanged:: 25.08
 
 Switches the Undo History :term:`widget` on or off.
 
 The Undo History shows all the operations performed so far and allows to quickly restore your project to the state it was in several changes ago.
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_undo_history.webp
+.. figure:: /images/user_interface/menu_reference/view-menu_undo-history_2508.webp
    :align:  left
    :height: 250px
-   :alt: kdenlive2304_undo_history
    
    Kdenlive Undo History widget
 
 There may be times when you want to quickly restore your project to the state it was in several changes ago. Instead of repeatedly executing single undo operations, it might be more efficient to jump right to the operation in question - if you could easily locate it.
+
+When :kbd:`RMB` click into the window a context menu appears to clear all undo history. Once clicked a warning shows up that the undo history will be deleted irretrievable. It may be helpful to release memory in long edit sessions. The undo stack are cleared as well when a timeline sequence gets deleted.
 
 .. rst-class:: clear-both
 
@@ -572,8 +553,7 @@ There may be times when you want to quickly restore your project to the state it
    .. figure:: /images/undo_history_clean.png
       :align: left
       :width: 210px
-      :alt: 
-
+      
       Figure 1
 
    That is where :menuselection:`Menu --> View --> Undo History` comes in. It opens a dockable window which lists all the changes made to your project in the order they were made. When a project file is first opened the window looks like Figure 1.
@@ -584,8 +564,7 @@ There may be times when you want to quickly restore your project to the state it
    .. figure:: /images/undo_history_pre-save.png
       :align: left
       :width: 210px
-      :alt:
-		
+      
       Figure 2
 
    Each operation you perform from then on gets added to the list, as shown in Figure 2.  Notice that the most recent operation you have performed is highlighted. 
@@ -596,8 +575,7 @@ There may be times when you want to quickly restore your project to the state it
    .. figure:: /images/undo_history_back_three.png
       :align: left
       :width: 210px
-      :alt:
-		
+      
       Figure 3
 
    In this example, if you wanted to undo the last three operations with one click all you have to do is click on the **Create color clip** entry and those three changes will be reversed in one fell swoop.  At this point if you are unhappy with undoing those changes you can easily redo them by clicking on any of the entries which are still in the list.
@@ -608,8 +586,7 @@ There may be times when you want to quickly restore your project to the state it
    .. figure:: /images/undo_history_commited.png
       :align: left
       :width: 210px
-      :alt:
-
+      
       Figure 4
 
    However, if you decided that reverting to that **Create color clip** entry looked good and you then made another change to the project the three remaining operations that were in the list in Figure 3 will be flushed from the buffer and be no longer available.  They will be replaced by the new operation you just performed.  See the result in Figure 4.
@@ -620,8 +597,7 @@ There may be times when you want to quickly restore your project to the state it
    .. figure:: /images/undo_history_post_save.png
       :align: left
       :width: 210px
-      :alt:
-	   
+      
       Figure 5
 
    Whenever you save your project the icon that looks like the backspace icon is repositioned next to the most recent operation in the list.  Figure 5 shows three additional operations which were performed after the file save shown by the square.  After saving the file you can still revert back to changes which were made before the save.
@@ -639,7 +615,6 @@ Switches the Vectorscope :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_vectorscope.webp
    :align:  left
    :height: 300
-   :alt: kdenlive2304_vectorscope
    
    Kdenlive Vectorscope widget
 
@@ -662,7 +637,6 @@ Switches the Waveform :term:`widget` on or off.
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_waveform.webp
    :align:  left
    :height: 300px
-   :alt: kdenlive2304_waveform
    
    Kdenlive Waveform widget
 
