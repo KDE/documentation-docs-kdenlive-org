@@ -8,6 +8,7 @@
              - Bushuev (https://userbase.kde.org/User:Bushuev)
              - Jack (https://userbase.kde.org/User:Jack)
              - Tenzen (https://userbase.kde.org/User:Tenzen)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -24,9 +25,8 @@ Clip in Timeline
 This is the context menu that appears when you right-click on a clip in the timeline.  A different menu appears if you click in empty space in the timeline.
 
 
-.. image:: /images/kdenlive_right-click_on_clip.png
-   :alt: kdenlive_right-click_on_clip
-
+.. figure:: /images/kdenlive_right-click_on_clip.png
+   
 
 * :menuselection:`Copy` will copy the clip and selected clips to the clipboard.
 
@@ -46,16 +46,14 @@ This is the context menu that appears when you right-click on a clip in the time
 * :menuselection:`Edit Duration` - will open the Duration Dialog and will allow you to adjust the position of the clip in the timeline, what time point of the source clip to start on the timeline, the duration of the clip, and what time point of the source clip to end on the timeline. Note that Kdenlive will automatically adjust co-related values. 
 
 
-.. image:: /images/kdenlive_timeline_current_clip_duration02.png
-   :alt: kdenlive_timeline_current_clip_duration02
-
+.. figure:: /images/kdenlive_timeline_current_clip_duration02.png
+   
 
 * :menuselection:`Restore audio` will add any audio track that is part of the original clip to the timeline
 
 
-.. image:: /images/Kdenlive-restore-audio.gif
-   :alt: Kdenlive-restore-audio
-
+.. figure:: /images/Kdenlive-restore-audio.gif
+   
 
 * :menuselection:`Disable clip` will disable the clip so it will not render in the project monitor or in a final video render. To disable the video or audio part of an A/V clip you have to un-group the A/V clip, disable the video or audio part and group the A/V clip again.
 
@@ -66,35 +64,44 @@ This is the context menu that appears when you right-click on a clip in the time
 * :menuselection:`Extract clip` will remove the clip from the timeline and the space it occupied. 
 
 
-.. image:: /images/Kdenlive-extract_clip.gif
-   :alt: Kdenlive-extract_clip
-
+.. figure:: /images/Kdenlive-extract_clip.gif
+   
 
 * :menuselection:`Save timeline zone to bin` will take the selected timeline zone and add markers to your clips in the project bin.
 
 
-.. image:: /images/Kdenlive-timeline-righ-click-markersmenu.png
-   :alt: Kdenlive-timeline-righ-click-markersmenu
-
+.. figure:: /images/Kdenlive-timeline-righ-click-markersmenu.png
+   
 * The markers sub-menu allows you to add, edit and remove markers from your clips that are displayed on the timeline.  These markers will move with the clips.  See :ref:`markers`.
 
 
-* :menuselection:`Set Audio Reference` and :menuselection:`Align Audio to Reference` are used to align two clips on different tracks in the timeline base on the audio in the tracks. This is useful if two cameras recorded the same scene simultaneously. **Kdenlive** can use the almost identical audio track to align the two clips.
+.. .. versionadded:: 25.08
+
+.. figure:: /images/right-click-menu_align-to-reference_2508.webp
+
+The :menuselection:`Align to Reference` sub-menu allows you to set either audio or SMPTE-esque timecode to a reference. This is useful if two or more cameras recorded the same scene simultaneously.
+
+* :menuselection:`Set Audio Reference` and :menuselection:`Align Audio to Reference` are used to align clips on different tracks in the timeline based on the audio in the tracks. **Kdenlive** can use the almost identical audio track to align the two clips.
+
+* :menuselection:`Set Timecode Reference` and :menuselection:`Align Timecode to Reference` are used to align clips on different tracks in the timeline based on the SMPTE-esque timecode in the tracks.
 
 
-   To use this feature:
+   To use these features:
 
 
    * Select the clip that you would like to align *to*.
 
 
-   * Right click, select :menuselection:`Set Audio Reference`.
+   * Right click, select :menuselection:`Set Audio Reference` or :menuselection:`Set Timecode Reference`.
 
 
    * Select all the clips that you would like to get aligned.
 
 
-   * Right-click and select :menuselection:`Align Audio to Reference`.
+   * Right-click and select :menuselection:`Align Audio to Reference` or :menuselection:`Align Timecode to Reference`.
+
+
+
 
 .. _change_speed:
 
@@ -104,9 +111,8 @@ Change speed
 *  :menuselection:`Change speed` will open the change speed dialog that will allow you to increase or decrease the playback speed of a clip, allow you to play the clip in reverse, and will enable / disable pitch compensation for the audio on a speed-adjusted clip.
 
 
-   .. image:: /images/Kdenlive-change_speed_dialog.png
-      :alt: Kdenlive-change_speed_dialog
-
+   .. figure:: /images/Kdenlive-change_speed_dialog.png
+      
    Doing speed change of a clip with the mouse see: :ref:`change_speed_of_a_clip` 
 
 
@@ -130,9 +136,8 @@ Empty Space in Timeline
 A different menu appears if you click in empty space in the timeline.
 
 
-.. image:: /images/kdenlive_right-click_in_timeline_space.png
-   :alt: kdenlive_right-click_in_timeline_space
-
+.. figure:: /images/kdenlive_right-click_in_timeline_space.png
+   
 
 * :menuselection:`Paste` will paste a clip from the clipboard into the timeline
 
