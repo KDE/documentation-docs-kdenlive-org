@@ -50,14 +50,16 @@ Environment
 .. .. versionremoved:: 25.04
    Python tab
 
+.. .. versionadded:: 25.08
+   Prevent sleep when playing and rendering
+
 
 This section defines some of the most important settings for Kdenlive.
 
-.. figure:: /images/getting_started/configure_environment_2504.webp
+.. figure:: /images/getting_started/configure_environment_2508.webp
    :width: 700px
    :figwidth: 700px
-   :alt: configure_environment_2412
-
+   
    The Environment section
 
 :1: :guilabel:`Concurrent threads`. Defines the number of threads to use for proxy clip generation and transcode jobs. Those jobs will run in the background. The value entered is passed to ffmpeg as the :code:`-threads` parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :doc:`project settings</project_and_asset_management/project_settings/proxy_settings>` to a codec that ffmpeg does not do multi-threading on. Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8.
@@ -68,7 +70,9 @@ This section defines some of the most important settings for Kdenlive.
 
 :4: :guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up window with a reminder if your version is older than six (6) months.
 
-:5: Tabs for the different environment settings.
+:5: :guilabel:`Prevent sleep when playing and rendering`. If checked, Kdenlive disable the system powermanagement to avoid sleep and screen locking while playback and rendering.
+
+:6: Tabs for the different environment settings.
 
 
 .. _configure_environment_mlt:
@@ -80,26 +84,22 @@ These settings tell Kdenlive where to find the MLT executables and profile files
 
 .. figure:: /images/getting_started/kdenlive2402_configure_environment_MLT_Windows.webp
    :width: 500px
-   :alt: Kdenlive_Configure_environment_MLT_Windows
-
+   
    Environment variables in Kdenlive installed on Windows
 
 .. figure:: /images/getting_started/Kdenlive_Configure_environment_MLT_Linux.png
    :width: 500px
-   :alt: Kdenlive_Configure_environment_MLT_Linux
-
+   
    Environment variables in Kdenlive installed on Linux
 
 .. figure:: /images/getting_started/configure_environment_mlt_appimage_2412.webp
    :width: 500px
-   :alt: configure_environment_mlt_appimage_2412
-
+   
    Environment variables in Kdenlive appimage on Linux
 
 .. figure:: /images/getting_started/Kdenlive_Configure_environment_MLT_MacOS.png
    :width: 500px
-   :alt: Kdenlive_Configure_environment_MLT_Windows
-
+   
    Environment variables in Kdenlive on MacOS
 
 
@@ -115,26 +115,22 @@ These settings tell Kdenlive where project files are to be stored. It also contr
 
 .. figure:: /images/getting_started/kdenlive2405_configure_environment_default_folders.webp
    :width: 500px
-   :alt: Kdenlive_Configure_environment_default_folders
-
+   
    Default folders on Windows.
 
 .. figure:: /images/getting_started/configure_environment_default_folders_appimage_2412.webp
    :width: 500px
-   :alt: configure_environment_default_folders_appimage_2412.webp
-
+   
    Default folders on Linux (appimage).
 
 .. figure:: /images/getting_started/configure_environment_default_folders_linux_2412.webp
    :width: 500px
-   :alt: configure_environment_default_folders_linux_2412
-
+   
    Default folders on Linux (flatpak).
 
 .. figure:: /images/getting_started/kdenlive2405_configure_environment_default_folders_MacOS.webp
    :width: 500px
-   :alt: Kdenlive_Configure_environment_default_folders_MacOS
-
+   
    Default folders on MacOS.
 
 
@@ -206,8 +202,7 @@ These settings control which external application opens when you choose :ref:`ed
 .. figure:: /images/getting_started/configure_environment_default_apps_1_2412.webp
    :width: 500px
    :figwidth: 500px
-   :alt: configure_environment_default_apps_1_2412
-
+   
    Settings for default apps
 
 :guilabel:`Image editing`: A free software would be |krita|.
@@ -224,8 +219,7 @@ These settings control which external application opens when you choose :ref:`ed
 
 .. figure:: /images/getting_started/configure_environment_default_apps_2_2412.webp
    :width: 500px
-   :alt: configure_environment_default_apps_1_2412
-
+   
    Examples of properly configured default apps on Linux (appimage)
 
 
@@ -237,8 +231,7 @@ Specifies the Media Types (formerly known as MIME types) which Kdenlive can work
 .. figure:: /images/getting_started/configure_environment_mime_types_2412.webp
    :width: 500px
    :figwidth: 500px
-   :alt: configure_environment_mime_types_2412
-
+   
    Supported MIME Types
 
 .. .. versionadded:: 22.08
