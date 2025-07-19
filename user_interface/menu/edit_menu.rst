@@ -43,6 +43,13 @@ Redo
 
 :menuselection:`Menu --> Edit --> Redo` reverses the previous `Undo`_ operation. The default keyboard shortcut is :kbd:`Ctrl+Shift+Z`.
 
+Cut
+---
+
+.. .. versionadded:: 25.08
+
+Cuts a clip selected in the timeline to the clipboard. The default keyboard shortcut is :kbd:`Ctrl+X`. It also copies the effects attached to the clip to the clipboard. Use `Paste`_ to paste the clip into a different spot on the timeline. Use `Paste Effects`_ to paste just the effects from the copied clip onto a different clip or group of clips.
+
 Copy
 ----
 
