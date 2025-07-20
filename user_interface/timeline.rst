@@ -283,7 +283,7 @@ This area shows some options for a track:
       :align: left
          
    
-   :1: Track collapse and expand icon. Click on it to collapse or expand the track: hold Shift and click to expand or collapse all tracks of the same type.
+   :1: |go-down| Expand/collapse the track. :kbd:`Shift + click` to expand/collapse all tracks of the same type.
    
    :2: Track name. Click on it to enter or change the name of the track.
    
@@ -297,6 +297,8 @@ This area shows some options for a track:
      + Enable/Disable track effects |tools-wizard| allows you to enable or disable the effects applied to the track.
 
    :5: Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio tracks.  
+
+:kbd:`arrow up/down` goes to the next track
 
 .. rst-class:: clear-both
 
