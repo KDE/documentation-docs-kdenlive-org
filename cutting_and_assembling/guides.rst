@@ -29,10 +29,9 @@ Guides
 Guides in the picture below are the purple flags. Not to be confused with :ref:`markers` (green in the picture below). Guides are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
 
 
-.. image:: /images/Kdenlive_Markers_and_guides_crop.png
+.. figure:: /images/Kdenlive_Markers_and_guides_crop.png
    :align: left
-   :alt: Kdenlive_Markers_and_guides_crop
-
+   
 
 Guides can be used to define regions for rendering. See :ref:`rendering-guides`.
 
@@ -63,7 +62,7 @@ Following procedures add a guide at the timeline playhead position:
 
 * **Mouse**
 
-  .. image:: /images/Kdenlive_add_guide_double-click.png
+  .. figure:: /images/Kdenlive_add_guide_double-click.png
 
   * Double-click on top of the :ref:`timeline ruler<timeline_ruler>` and the guide gets added were you have clicked
 
@@ -73,10 +72,9 @@ Following procedures add a guide at the timeline playhead position:
 Timeline ruler right click menu
 -------------------------------
 
-.. image:: /images/Kdenlive_Add_guide.png
+.. figure:: /images/Kdenlive_Add_guide.png
    :align: left
-   :alt: Kdenlive_Add_guide
-
+   
 
 .. rst-class:: clear-both
 
@@ -117,16 +115,14 @@ Categories
 
 When starting a new project the categories for the project are pulled in from :guilabel:`Guides and Markers Categories` in setting :doc:`Configure Colors and Guides</getting_started/configure_kdenlive/configuration_colors+guides>`. 
 
-.. image:: /images/Kdenlive_project_specific_categories.png
+.. figure:: /images/Kdenlive_project_specific_categories.png
    :width: 350px
-   :alt: Kdenlive_Add_guide
-
+   
 Project specific categories can be added, edited and deleted in :menuselection:`Project --> Project Settings --> Guides`
 
-.. image:: /images/Kdenlive_delete_category.png
+.. figure:: /images/Kdenlive_delete_category.png
    :width: 250px
-   :alt: Kdenlive delete category
-
+   
 Deleting a category were guides are assigned, Kdenlive ask if you really want to delete it or if you want to reassign the guide to another category. 
 
 
@@ -135,31 +131,40 @@ Deleting a category were guides are assigned, Kdenlive ask if you really want to
 Guides View
 ~~~~~~~~~~~
 
-.. image:: /images/Kdenlive_guides_view.png
-   :alt: Kdenlive guides view
+.. .. versionchanged:: 25.08
+   add a button to show all project clip markers in the list
+   Add option to show thumbnails in markers list dialog 
 
+.. figure:: /images/guides_view_2508.webp
+   
 :menuselection:`View --> Guides` opens the guides window were you can managing your guides.  
 
 
-1. Search guides/markers. If you enter `2` in this example shows only `guide2` / `marker2` in the list and in the timeline/on the clip monitor.
+:1: Shows the selected object: Clip-Name, Sequence-Name 
 
-2. Show only the chosen categories in the list and in the timeline/clip monitor.
+:2: Search guides/markers. If you enter `2` in this example it shows only `guide2` / `marker2` in the list and in the timeline/on the clip monitor.
 
-3. Sort by categories, time, comment or descending.
+:3: Show only the chosen categories in the list and in the timeline/clip monitor.
 
-4. Click on a guide/marker or :kbd:`arrow-up arrow-down` will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click or :kbd:`F2` on a guide/marker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
+:4: Show markers for all clips in the project
 
-5. Add a guide/marker. Only here you have the possibility to add multiple guides/markers with an interval.
+:5: Sort by categories, time, comment or descending.
 
-6. Edit a selected guide/marker. The same like when you Double-click a guide/marker under point 4 or guides in the :ref:`timeline ruler<timeline_ruler>`.
+:6: Click on a guide/marker or :kbd:`arrow-up arrow-down` will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click or :kbd:`F2` on a guide/marker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
 
-7. Delete a selected guide/marker.
+:7: Add a guide/marker. Only here you have the possibility to add multiple guides/markers with an interval.
 
-8. Set the category for new created guides/marker.
+:8: Edit a selected guide/marker. The same like when you Double-click a guide/marker under point 4 or guides in the :ref:`timeline ruler<timeline_ruler>`.
 
-9. Guides only: :ref:`Locks guide <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
+:9: Delete a selected guide/marker.
 
-10. Import/:ref:`export guides/marker <export_guides>` or configure the :ref:`project categories <categories>`.
+:10: Set the category for new created guides/marker.
+
+:11: Guides only: :ref:`Locks guide <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
+
+:12: Refresh all thumbnails when thumbnails are enabled
+
+:13: Enable/disable thumbnails. Import/:ref:`export guides/marker <export_guides>` or configure the :ref:`project categories <categories>`.
 
 
 You can put a comment in the guide/marker and make the comment display by choosing :ref:`editing` in the :menuselection:`Timeline` menu or by clicking on the :ref:`editing` button.
@@ -178,9 +183,8 @@ Guides can mark chapters or different sections of a video while editing. Uploadi
 
 Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :guilabel:`Export Guides` or :menuselection:`Timeline -> Guides -> Export Guides` or :menuselection:`View --> Guides --> Export`. Then the window `Export guides as chapters description` appears.
 
-.. image:: /images/Kdenlive_export_guides_22-12.png
-   :alt: Kdenlive_export_guides
-
+.. figure:: /images/Kdenlive_export_guides_22-12.png
+   
 :guilabel:`Marker Type`: Choose one of the guide types to mark chapters and use other types to do other things.
 
 :guilabel:`Save As`: Text (for Youtube) or as JSON data file which can be re-imported.
@@ -219,9 +223,8 @@ Move and edit guides
 
 Guides can be moved by click on a guides text in the timeline and drag it to the desired position.
 
-.. image:: /images/Kdenlive_edit_guide.png
-   :alt: Kdenlive edit guide
-
+.. figure:: /images/Kdenlive_edit_guide.png
+   
 Guides can be moved by changing the :guilabel:`Position` in the edit window.
 
 Double-click on a guide text in the timeline ruler opens the edit window (beside the possibility in :ref:`guide_view`).
@@ -237,9 +240,6 @@ Move Guides with Spacer Tool
 Easily moves guides along with clips using the spacer tool by using the new :menuselection:`Guides Locked` option. When locked the guides stay in place. When unlocked the guides move with the clip.
 
 
-.. image:: /images/guidemove.gif
+.. figure:: /images/guidemove.gif
    :align: left
-   :alt: guidemove
-  
-
-
+   
