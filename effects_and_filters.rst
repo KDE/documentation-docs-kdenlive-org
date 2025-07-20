@@ -63,11 +63,9 @@ These are the most used effects which you now have at your fingertips without th
 |video-effect| < video part | audio part > |audio-effect|
 
 .. |video-effect| image:: /images/effects_and_compositions/kdenlive2412_builtin-video-effect.webp
-   :alt: builtin-video-effect
    :width: 30%
 
 .. |audio-effect| image:: /images/effects_and_compositions/kdenlive2412_builtin-audio-effect.webp
-   :alt: builtin-audio-effect
    :width: 30%
 
 The built-in effects are disabled by default. So you have to enable it before you can use it.
@@ -86,7 +84,6 @@ All built-in effects can be disabled/enabled globally in :menuselection:`Setting
    :align: left
    :width: 80%
    :figwidth: 80%
-   :alt: builtin-effect_disable
       
    Under **Misc** you can disable/enable all built-in effects. Default is **disabled**.
 
@@ -108,8 +105,7 @@ The Effects widget has eight control icons that show or hide the different effec
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive_effects_tab
-
+   
    Kdenlive Effects widget as a tab in the Project Bin area
 
 |show-all-effects| :guilabel:`Main effects` shows all video and audio effects (default view)
@@ -141,11 +137,9 @@ This widget is also known as the Properties Tab as it lists all effects applied 
 |effect| < effect | composition > |composition|
 
 .. |effect| image:: /images/effects_and_compositions/kdenlive2304_effects-effect_stack.webp
-   :alt: effect_stack
    :width: 200px
 
 .. |composition| image:: /images/effects_and_compositions/kdenlive2304_effects-composition_stack.webp
-   :alt: composition_stack
    :width: 200px
 
 .. note:: Only Effects can be stacked, Compositions cannot.
@@ -159,8 +153,7 @@ Effect/Composition Stack Functions
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-effect_stack.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_effects-effect_stack
-
+   
    Kdenlive Effect Stack
 
 |document-save-all| Save Effect - Opens a dialog window for entering a name for the effect stack under which it will be listed in the *Custom* effect category and a comment which will be displayed in the information display
@@ -180,8 +173,7 @@ When an effect is applied to a clip in the timeline you can click on the effect 
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-effect_stack_disabled.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-effect_stack_disabled
-
+   
    Kdenlive Effect Stack disabled by click on the effect of a clip
 
 .. see :ref:`disable-enable_clip_stack`
@@ -195,6 +187,8 @@ Effect Functions
 ----------------
 
 .. .. versionchanged:: 24.12
+.. .. versionchanged:: 25.08
+
 
 .. |selection-raise| image:: /images/icons/selection-raise.png
 
@@ -205,8 +199,7 @@ Effect Functions
 .. figure:: /images/effects_and_compositions/kdenlive2412_effects-effect_panel.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_effects-effect_panel
-
+   
    Kdenlive Effect Panel
 
 .. .. versionadded:: 25.04
@@ -230,6 +223,8 @@ Effect Functions
 |selection-lower| Move effect down - Moves the effect down one notch in the list (effect sequence from top to bottom is important)
 
 |edit-delete| Delete effect - Removes the effect from the effect stack
+
+:kbd:`arrow up/down` goes to the next effect in the list
 
 .. rst-class:: clear-both
 
@@ -287,8 +282,7 @@ Select the keyframe interpolation icon for selecting the keyframe type. See :ref
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-keyframe_types.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-keyframe_panel
-
+   
    Kdenlive keyframe types
 
 The first three keyframes are: **Linear**, **Discrete** and **Smooth** (Centripetal Catmull-Rom spline interpolation). This are standard keyframes. More details about keyframes are :ref:`here <the_smooth_keyframe_interpolation>`.
@@ -308,28 +302,23 @@ Objects in real life don't just start and stop instantly, and almost never move 
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-bounce.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-ease-bounce
-
+   
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-cubic.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-ease-cubic
-
+   
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-exponential.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-ease-exponential
-
+   
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-circular.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-ease-circular
-
+   
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-ease-elastic.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2402_effects-ease-elastic
-
+   
 .. rst-class:: clear-both
 
 **Smooth (deprecated):** Is the smooth Catmull-Rom spline interpolation keyframe before Kdenlive 24.02.
@@ -345,14 +334,12 @@ Keyframe ruler
 The keyframe ruler has zoom bars which makes adjusting keyframes a lot easier if the clip's duration is relatively long and the effect stack widget is too narrow to display all keyframes nicely spaced.
 
 .. figure:: /images/Zoombar-effects.gif
-   :alt: Zoombar-effects
-
+   
 
 .. .. versionadded:: 20.12.0
 
-.. image:: /images/keyframe_toolbar_copy-paste.png
-   :alt: keyframe toolbar
-
+.. figure:: /images/keyframe_toolbar_copy-paste.png
+   
 Keyframes can be copied and pasted between effects and even across clips using the standard shortcuts :kbd:`Ctrl+C`, :kbd:`Ctrl+V`
 
 
@@ -368,8 +355,7 @@ Implemented with version 24.08 the keyframe curve editor is still in alpha state
 The curve editor is showing the keyframe type and their curves.
 
 .. figure:: /images/curve-editor_enabling.webp
-   :alt: curve editor enabling
-
+   
 To switch to the curve editor click on |switch-to-curve-editor-view|:guilabel:`Switch to curve editor view`.
 
 The curve editor can only be enabled on effects which have the following parameters: X, Y, width, height, opacity (alpha, optional) and rotation. For all other effects the curve editor is greyed out.
@@ -380,13 +366,11 @@ By double clicking into the window new keyframes get added. Hovering over a keyf
 - click on the keyframe and change the keyframe type
 
 .. figure:: /images/curve-editor_example-view.webp
-   :alt: curve editor example view
-
+   
 In this example, the cursor enables the second keyframe and you can either change the values by moving the keyframe or change the values directly in the boxes below the curve editor view.
 
 .. figure:: /images/curve-editor_switch-back.webp
-   :alt: curve editor switch back
-
+   
 To switch back to the timeline view click on |switch-to-timeline-view|:guilabel:`Switch to timeline view`.
 
 
@@ -399,22 +383,20 @@ Working with Keyframes in the Effect Stack
 
 The effect keyframe panel allows comprehensive manipulation of keyframes:
 
-.. image:: /images/Move-kf-to-cursor.gif
+.. figure:: /images/Move-kf-to-cursor.gif
    :width: 220px
    :align: left
-   :alt: move-kf-to-cursor
-
+   
 1. Select the keyframe you want to move
 2. Move the cursor to the position where you want to move the keyframe to
 3. Click on |align-horizontal-center|:guilabel:`Move selected keyframe to cursor`
 
 .. container:: clear-both
 
-   .. image:: /images/Duplicate-keyframe.gif
+   .. figure:: /images/Duplicate-keyframe.gif
       :width: 220px
       :align: left
-      :alt: duplicate-keyframe
-
+      
    1. Select the keyframe you want to duplicate
    2. Click on |edit-copy|:guilabel:`Copy keyframe`
    3. Move the cursor to the position where you want to insert the new keyframe
@@ -422,11 +404,10 @@ The effect keyframe panel allows comprehensive manipulation of keyframes:
 
 .. container:: clear-both
 
-   .. image:: /images/Apply-value-to-selected-kf.gif
+   .. figure:: /images/Apply-value-to-selected-kf.gif
       :width: 220px
       :align: left
-      :alt: apply-value-to-selected-kf
-
+      
    1. Select all keyframes you want to apply the value on
    2. Go to one of the selected keyframes and change the value(s) as you want
    3. Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply current position value to selected keyframes`
@@ -434,20 +415,18 @@ The effect keyframe panel allows comprehensive manipulation of keyframes:
 
 .. container:: clear-both
 
-   .. image:: /images/Kf-ctrl-select.gif
+   .. figure:: /images/Kf-ctrl-select.gif
       :width: 220px
       :align: left
-      :alt: kf-ctrl-select
-
+      
    Select multiple individual keyframes with :kbd:`Ctrl+LMB`
 
 .. container:: clear-both
 
-   .. image:: /images/Kf-rubber-select.gif
+   .. figure:: /images/Kf-rubber-select.gif
       :width: 220px
       :align: left
-      :alt: kf-rubber-select
-
+      
    Select contiguous keyframes with :kbd:`Shift+LMB`
 
 .. container:: clear-both
@@ -455,8 +434,7 @@ The effect keyframe panel allows comprehensive manipulation of keyframes:
    .. figure:: /images/Multiple-kf-move.gif
       :width: 220px
       :align: left
-      :alt: multiple-kf-move
-
+      
    Moving multiple keyframes at once
 
    .. rst-class:: clear-both
@@ -489,8 +467,7 @@ To export the keyframes to the clipboard click on |application-menu|:guilabel:`O
 
 .. figure:: /images/Kdenlive_import_keyframes_dialog.png
    :align: left
-   :alt: Import keyframes dialog
-
+   
    Importing keyframes
 
 To import keyframes from the clipboard click on |application-menu|:guilabel:`Options` inside the keyframe panel\ [1]_ and choose :guilabel:`Import keyframes from clipboard`. If you have valid data on your clipboard you should see this dialog window where you can adjust the mapping of the data.
@@ -509,8 +486,7 @@ Track Effect
    :align: left
    :width: 90%
    :figwidth: 240px
-   :alt: kdenlive2304_effects-track_effect
-
+   
    Track effect indicators
 
 Effects can be added to an entire track affecting all clips in that track. Simply drag an effect from the Effects Tab to the header of the desired track, or click on the |tools-wizard|:guilabel:`Track Effect` icon and drag the effect to the track's effect stack.
@@ -528,7 +504,6 @@ Master Effect
 If you want to apply audio or video effects throughout the whole video. Click on the :guilabel:`Master` button above the track headers to see the Master Effect Stack where you can add effects just like with clips or tracks.
 
 .. figure:: /images/effects_and_compositions/master.gif
-   :alt: master
    :width: 100%
 
    Adding a Sepia effect to the entire video
@@ -552,14 +527,12 @@ Effect Zones
 Effect Zones allow you to apply effects to specific regions of tracks or the timeline. Zones can be set from the effect zone bar in the Timeline or from the interface in the effect panel.
 
 .. figure:: /images/Track-effect-zone.gif
-   :alt: track-effect-zone
    :width: 80%
 
    Track Effect Zone
 
 
 .. figure:: /images/Timeline-effect-zone.gif
-   :alt: timeline-effect-zone
    :width: 80%
 
    Master Effect Zone
@@ -579,7 +552,6 @@ This feature allows to apply effects only to specific regions of a clip by using
 3. Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in step 2
 
 .. figure:: /images/mask.gif
-   :alt: mask
    :width: 80%
 
 Using Rotoscoping (mask) to apply the Saturation effect in one specific region only
@@ -703,7 +675,6 @@ Time Remapping
 The Time Remap feature allows to keyframe the speed of a clip to achieve effects like speed ramping.
 
 .. figure:: /images/timeremap.gif
-   :alt: timeremap
    :width: 80%
 
    Example of using Time remapping for speed ramping

@@ -191,6 +191,20 @@ General
        - Timeline: adds multiple clips to the selection
        - Titler: adds clicked clips to the selection
        - Project Bin: adds all clips between already selected clip and clicked clip
+   * - Expand/Collapse
+     - :kbd:`Shift+click`
+     - Works in:
+
+       - Timeline: expand/collapse all tracks of the same type
+       - Effect/Composition Stack: expand/collapse all effects
+       - Project Bin: expand/collapse all folders
+   * - Navigate
+     - :kbd:`Arrow Up/Down`
+     - Works in:
+
+       - Timeline: goes to the next track
+       - Effect/Composition Stack: goes to the next effect in the list
+       - Project Bin: goes to the next folder
    * - Add to the selection
      - :kbd:`Ctrl+LMB`\ [2]_
      - Works in:
