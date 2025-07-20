@@ -80,24 +80,26 @@ This section defines some of the most important settings for Kdenlive.
 MLT Environment
 ~~~~~~~~~~~~~~~
 
-These settings tell Kdenlive where to find the MLT executables and profile files. Only advanced users would really need to change these settings. Kdenlive is basically a frontend to the MLT program. If you have |mediainfo| installed and provide the path here, Kdenlive shows more details in the clip properties. The values differ depending on your OS.
+.. .. versionchanged:: 25.08
 
-.. figure:: /images/getting_started/kdenlive2402_configure_environment_MLT_Windows.webp
+These settings tell Kdenlive where to find the MLT executables and profile files. Only advanced users would really need to change these settings. Kdenlive is basically a frontend to the MLT program. Since Kdenlive version 25.08 |mediainfo| is not needed anymore as Kdenlive can read the timecode directly from MLT and shows these details in the clip properties. The values differ depending on your OS.
+
+.. figure:: /images/getting_started/configure_environment_MLT_Windows_2508.webp
    :width: 500px
    
    Environment variables in Kdenlive installed on Windows
 
-.. figure:: /images/getting_started/Kdenlive_Configure_environment_MLT_Linux.png
+.. figure:: /images/getting_started/configure_environment_MLT_Linux_2508.webp
    :width: 500px
    
    Environment variables in Kdenlive installed on Linux
 
-.. figure:: /images/getting_started/configure_environment_mlt_appimage_2412.webp
+.. figure:: /images/getting_started/configure_environment_MLT_appimage_2508.webp
    :width: 500px
    
    Environment variables in Kdenlive appimage on Linux
 
-.. figure:: /images/getting_started/Kdenlive_Configure_environment_MLT_MacOS.png
+.. figure:: /images/getting_started/configure_environment_MLT_MacOS_2508.webp
    :width: 500px
    
    Environment variables in Kdenlive on MacOS
