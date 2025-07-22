@@ -84,7 +84,7 @@ Controls
    * - 6 :guilabel:`zoom bar`
      - Used to zoom the timeline. Grab the white handles on either end and drag them left or right, or use :kbd:`Ctrl+MW` while hovering over the monitor timeline.
    * - 7 :guilabel:`audio level meter`
-     - Displays the audio level of the project or clip when playback is running
+     - Displays the audio level of the project or clip when playback is running. The :ref:`audio mixer <audio_mixer>` settings will change the audio level appearance. 
    * - 8 :guilabel:`options drop-down`
      - Opens a list of options to select from
    * - 9 :guilabel:`timecode`
