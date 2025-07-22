@@ -23,27 +23,39 @@ Kdenlive has some tools for handling audio. Beside the audio spectrum viewer and
 Audio Mixer
 ~~~~~~~~~~~
 
-.. versionadded:: 19.12.0
+.. .. versionadded:: 19.12.0
 
-.. versionchanged:: 22.08
+.. .. versionchanged:: 22.08
 
-.. figure:: /images/audio-mixer_23-08.webp
-   :alt: Audio-Mixer
+..  .. versionchanged:: 22.08
+   Revamp audio mixer and levels
 
+.. figure:: /images/effects-and-filer_audio-mixer_2508.webp
+   
 The audio mixer has following functions for each channel:
 
-1.	Channel number (audio track number) or Master channel
-2.	Mute an audio channel
-3.	Solo an audio channel
-4.	:ref:`Record audio <audio-recording>` direct on the track of the related audio channel
-5.	Opens the effect stack of the related audio channel
-6.	Balance the audio channel. Either with the slider or with values
-7.	Adjustment of the volume
+:1:	Channel number (audio track number or name) and Master channel
+:2:	Mute an audio channel
+:3:	Solo an audio channel
+:4:	:ref:`Record audio <audio-recording>` direct on the track of the related audio channel
+:5:	Opens the effect stack of the related audio channel
+:6:   Toggles on/off the audio track controls
+:7:	Balance the audio channel. Either with the slider or with values
+:8:	Adjustment of the volume
+:9:   :kbd:`RMB+click` shows the menu where you can adjust the audio level appearance. These settings controls the level appearance on clip and project monitor simultaneously.
+:10:  Hovering over the level shows the dB value of each channel
+
+.. figure:: /images/effects-and-filer_monitor-level_2508.webp
+   
+   Monitor level. When 6 channels are playing the dB value are hidden.
+
+Monitors. If you have more than 2 audio channels the audio dB value is not shown (ticks will still shown). Hover over the widget and it shows the meter and the dB value per channel is shown.
+
 
 Multiple audio streams
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 20.08.0
+.. .. versionadded:: 20.08.0
 
 Multiple audio streams of a video clip. In clip properties on the tab audio you can adjust and manipulate each audio stream. For more details see the chapter :ref:`audio_properties`
   
@@ -52,20 +64,18 @@ Multiple audio streams of a video clip. In clip properties on the tab audio you 
 Audio recording
 ~~~~~~~~~~~~~~~
 
-.. versionchanged:: 22.08
+.. .. versionchanged:: 22.08
 
 .. figure:: /images/kdenlive2405_show-record-controls.webp
    :align: left
-   :alt: sow recording controls
-
+   
 .. rst-class:: clear-both
 
 Right click the track head and enable :guilabel:`Show Record Controls` or pressing the :guilabel:`mic` button in the mixers (number 4 in above picture) displays the track head record control which get colorized. It's now in audio monitoring mode (levels show mic input and volume slider selects the mic level).
 
 
-.. image:: /images/audio-record.png
-   :alt: audio-record
-
+.. figure:: /images/audio-record.png
+   
 .. rst-class:: clear-both
 
 While recording you see a live waveform appearing on timeline.
@@ -73,8 +83,7 @@ While recording you see a live waveform appearing on timeline.
 
 .. figure:: /images/audio-countdown.png
    :width: 40%
-   :alt: audio-countdown
-
+   
    Disable countdown see :ref:`Configure Capture Audio<configure_capture_audio>` settings
 
 .. .. versionchanged:. 24.05
