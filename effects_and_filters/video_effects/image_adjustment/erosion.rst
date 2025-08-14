@@ -74,7 +74,7 @@ The local 3x3 matrix looks like this (**P** represents the pixel):
 The parameter :kbd:`Coordinates` is the decimal value of the binary-notation of this matrix. Each point in the matrix is represented as a bit in a binary number\ [1]_ with 8 bits.
 
 Example 1:
- Pixels #1, 2, and 3 are to be used for the dilation effect. :kbd:`Coordinates` must be set to 00000111\ :sub:`2`, or 2\ :sup:`2` + 2\ :sup:`1` + 2\ :sup:`0` = 4 + 2 + 1 = 7\ :sub:`10`
+ Pixels #1, 2, and 3 are to be used for the erosion effect. :kbd:`Coordinates` must be set to 00000111\ :sub:`2`, or 2\ :sup:`2` + 2\ :sup:`1` + 2\ :sup:`0` = 4 + 2 + 1 = 7\ :sub:`10`
 
 Example 2:
  Pixels #1, 3, 6, and 8 are to be used. :kbd:`Coordinates` must be set to 10100101\ :sub:`2`, or 2\ :sup:`7` + 2\ :sup:`5` + 2\ :sup:`2` + 2\ :sup:`0` = 128 + 32 + 4 + 1 = 165\ :sub:`10`
