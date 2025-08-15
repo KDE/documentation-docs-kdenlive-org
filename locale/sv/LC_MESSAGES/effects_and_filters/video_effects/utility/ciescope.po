@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-08-12 16:18+0200\n"
+"PO-Revision-Date: 2025-08-13 12:09+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -107,7 +107,7 @@ msgstr ":guilabel:`CIE-system`: UCS"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`Gamuts to Draw`: SMPTE"
-msgstr ""
+msgstr ":guilabel:`Tonomfång att rita upp`: SMPTE"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid "effects-cie_scope_example_3-2504.webp"
@@ -115,15 +115,15 @@ msgstr "effects-cie_scope_example_3-2504.webp"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`Color System`: BT.470M"
-msgstr ""
+msgstr ":guilabel:`Färgsystem`: BT.470M"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`CIE System`: LUV"
-msgstr ""
+msgstr ":guilabel:`CIE-system`: LUV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:0
 msgid ":guilabel:`Gamuts to Draw`: Apple"
-msgstr ""
+msgstr ":guilabel:`Tonomfång att rita upp`: Apple"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:20
 msgid "CIE Scope"
@@ -167,6 +167,9 @@ msgid ""
 "l'éclairage, French for International Commission on Illumination)` color "
 "diagram with overlaid input pixels."
 msgstr ""
+"Effekten eller filtret visar ett :abbr:`CIE (Commission internationale de "
+"l'éclairage, franska för Internationella belysningskommissionen)` "
+"färgdiagram med överlagrade bildpunkter från indata."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:56
 msgid ""
@@ -180,6 +183,15 @@ msgid ""
 "the rectangle to the scope dimensions and thus get the CIE Scope to overlay "
 "the clip."
 msgstr ""
+"Effekten använder bildpunktsformatet för klippet som den används för vid "
+"komposition. Normalt visar CIE-oscilloskopet bara själva oscilloskopet, så "
+"om man vill lägga det över själva klippet måste man placera klippet i spåret "
+"nedanför. Om klippet inte har en alfakanal läggs inte oscilloskopet ovanpå "
+"utan döljer klippet nedanför. Man kan lägga till effekten :doc:`/"
+"effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes` i klippet, "
+"ställa in operationsläget till :guilabel:`Min` och justera rektangelns "
+"storlek till oscilloskopets dimensioner och därmed få CIE-oscilloskopet att "
+"läggas ovanpå klippet."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:60
 msgid "Parameters"
@@ -283,7 +295,7 @@ msgstr "Visa vitpunkt"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:93
 msgid "Show white point on CIE diagram, by default disabled"
-msgstr ""
+msgstr "Visa vitpunkt på CIE-diagram, normalt inaktiverad."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:94
 msgid "Input Gamma"
@@ -291,7 +303,7 @@ msgstr "Indatagamma"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:96
 msgid "Set input gamma. Used only with xyY input color space."
-msgstr ""
+msgstr "Ställ in indatagamma. Används bara med indatafärgrymden xyY."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:97
 msgid "Fill with CIE Colors"
@@ -299,7 +311,7 @@ msgstr "Fyll med CIE-färger"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:99
 msgid "Fill with CIE colors, by default enabled."
-msgstr ""
+msgstr "Fyll med CIE-färger, normalt aktiverad."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:101
 msgid "The following selection items are available:"
@@ -307,7 +319,7 @@ msgstr "Följande valmöjligheter är tillgängliga:"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:103
 msgid ":guilabel:`Color System`\\ [1]_, :guilabel:`Gamuts to Draw`"
-msgstr ""
+msgstr ":guilabel:`Färgsystem`\\ [1]_, :guilabel:`Tonomfång att rita upp`"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:110
 msgid "NTSC"
@@ -318,6 +330,8 @@ msgid ""
 "American standard for color TV. For the color space relevance, refer to |"
 "cie_ntsc| in Wikipedia."
 msgstr ""
+"Amerikansk standard för färg-TV. För färgrymdens relevans, se |cie_ntsc| på "
+"Wikipedia."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:112
 msgid "BT.470M"
@@ -334,6 +348,7 @@ msgstr "EBU"
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:115
 msgid "Color space used by the European Broadcasting Union (basically BT.601)"
 msgstr ""
+"Färgrymd som används av European Broadcasting Union (egentligen BT.601)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:116
 msgid "BT.470BG"
@@ -348,6 +363,8 @@ msgid ""
 "Color space used by the Society of Motion Picture and Television Engineers "
 "(SMPTE)"
 msgstr ""
+"Färgrymd som används av Society of Motion Picture and Television Engineers "
+"(SMPTE)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:120
 msgid "BT.240M"
@@ -359,15 +376,15 @@ msgstr "Apple"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:123
 msgid "Color space as defined by Apple RGB\\ [1]_"
-msgstr ""
+msgstr "Färgrymd som definierad av Apple RGB\\ [1]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:124
 msgid "Wide RGB"
-msgstr ""
+msgstr "Stor RGB"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:125
 msgid "Wide Gamut RGB\\ [2]_ as defined by Adobe"
-msgstr ""
+msgstr "Stort tonomfång RGB\\ [2]_ som definierat av Adobe"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:126
 msgid "CIE 1931"
@@ -375,7 +392,7 @@ msgstr "CIE 1931"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:127
 msgid "Color space as defined by CIE\\ [3]_"
-msgstr ""
+msgstr "Färgrymden definieras av CIE\\ [3]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:128
 msgid "HD TV"
@@ -383,7 +400,7 @@ msgstr "HD TV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:129
 msgid "Using the YCbCr color model (Rec. 709)"
-msgstr ""
+msgstr "Använder färgmodellen YCbCr (Rec. 709)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:130
 msgid "Rec. 709"
@@ -399,7 +416,7 @@ msgstr "UHD TV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:133
 msgid "Using the YCbCr color model (Rec. 2020)"
-msgstr ""
+msgstr "Använder färgmodellen YCbCr (Rec. 2020)"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:134
 msgid "Rec. 2020"
@@ -407,7 +424,7 @@ msgstr "Rec. 2020"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:135
 msgid "Same as UHD TV"
-msgstr ""
+msgstr "Samma som UHD TV"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:136
 msgid "DCI-P3"
@@ -415,7 +432,7 @@ msgstr "DCI-P3"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:137
 msgid "Color space defined by :abbr:`DCI(Digital Cinema Initiative)`\\ [4]_"
-msgstr ""
+msgstr "Färgrymden definieras av :abbr:`DCI(Digital Cinema Initiative)`\\ [4]_"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:139
 msgid ":guilabel:`CIE System`\\ [1]_"
@@ -462,6 +479,8 @@ msgid ""
 "This shows the CIE Scope effect with the default settings. Depending on your "
 "source material the pixel distribution will look differently."
 msgstr ""
+"Visar CIE oscilloskop-effekten med standardinställningar. "
+"Bildpunktsfördelningen ser olika ut beroende på källmaterialet."
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:174
 msgid "CIE Scope Example 2"
@@ -470,7 +489,7 @@ msgstr "CIE-oscilloskop exempel 2"
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:176
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:194
 msgid "This shows the CIE Scope effect with the following settings:"
-msgstr ""
+msgstr "Visar CIE oscilloskop-effekten med följande inställningar:"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:192
 msgid "CIE Scope Example 3"
@@ -481,6 +500,8 @@ msgid ""
 "For more information about the color space models, refer to the |"
 "rgb_color_space_models| page on Wikipedia"
 msgstr ""
+"För mer information om färgrymdsmodeller, se sidan |rgb_color_space_models| "
+"på Wikipedia"
 
 #: ../../effects_and_filters/video_effects/utility/ciescope.rst:238
 msgid "|wide_gamut_rgb|"

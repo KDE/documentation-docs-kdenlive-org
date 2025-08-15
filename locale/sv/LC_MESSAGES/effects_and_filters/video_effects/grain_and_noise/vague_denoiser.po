@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-08-12 11:54+0200\n"
+"PO-Revision-Date: 2025-08-13 11:49+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -137,18 +137,28 @@ msgid ""
 "wavelet transform after. Due to wavelet properties, it should give a nice "
 "smoothed result and reduced noise without blurring picture features."
 msgstr ""
+"Vågelementbaserad\\ [1]_ brusreducering. Den transformerar varje bildruta "
+"från videoingången till vågelementdomänen med hjälp av Cohen-Daubechies-"
+"Feauveau 9/7\\ [2]_. Sedan utför den filtrering av de erhållna "
+"koefficienterna. Den gör en invers vågelementtransform efteråt. På grund av "
+"vågelementens egenskaper bör den ge ett fint utjämnat resultat och minskat "
+"brus utan att sudda ut bildens kännetecken."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:50
 msgid ""
 "The effect works best with smaller threshold values. It is easy to over-"
 "filter this effect."
 msgstr ""
+"Effekten fungerar bäst med lägre tröskelvärden. Det är lätt att överfiltrera "
+"effekten."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:52
 msgid ""
 "Using different planes and/or higher threshold values can be used for "
 "artistic manipulation of the image."
 msgstr ""
+"Att använda olika plan och/eller större tröskelvärden kan utnyttjas för "
+"konstnärlig manipulation av bilden."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:55
 msgid "Parameters"
@@ -174,7 +184,7 @@ msgstr "Urval"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:67
 msgid "The filtering method the filter will use. See below."
-msgstr ""
+msgstr "Filtreringsmetoden som filtret använder. Se nedan."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:68
 msgid "Threshold Type"
@@ -182,7 +192,7 @@ msgstr "Tröskeltyp"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:70
 msgid "The threshold type the filter will use. See below."
-msgstr ""
+msgstr "Tröskeltypen som filtret använder. Se nedan."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:71
 msgid "Threshold"
@@ -199,6 +209,9 @@ msgid ""
 "Hard thresholding can use a higher threshold than soft thresholding before "
 "the video looks overfiltered."
 msgstr ""
+"Filtreringsstyrkan. Ju större, desto mer filtrerad blir videon. Hård tröskel "
+"kan använda en högre tröskel än mjuk tröskel innan videon ser överfiltrerad "
+"ut."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:74
 msgid "Steps"
@@ -210,6 +223,9 @@ msgid ""
 "decomposed beyond a particular point (typically, 8 for a 640x480 frame - as "
 "2^9 = 512 > 480)."
 msgstr ""
+"Antal gånger vågelement bryter ner bilden. Bilden kan inte brytas ner bortom "
+"en viss punkt (vanligtvis 8 för en 640 x 480 bildruta, eftersom 2^9 = 512 > "
+"480)."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:77
 msgid "Percentage"
@@ -222,6 +238,8 @@ msgstr "Procent"
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:79
 msgid "Partial of full denoising (limited coefficients shrinking)"
 msgstr ""
+"Delvis eller fullständig brusreducering (begränsad krympning av "
+"koefficienter)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:80
 msgid "Planes"
@@ -229,25 +247,27 @@ msgstr "Plan"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:82
 msgid "Select the planes to process. See below."
-msgstr ""
+msgstr "Välj planen att behandla. Se nedan."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:84
 msgid "The following selection items are available:"
-msgstr ""
+msgstr "Följande valmöjligheter är tillgängliga:"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:86
 msgid ":guilabel:`Method`"
-msgstr ""
+msgstr ":guilabel:`Metod`"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:93
 msgid "Soft"
-msgstr ""
+msgstr "Mjuk"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:94
 msgid ""
 "All values under the threshold will be zeroed. All values above will be "
 "reduced by the threshold."
 msgstr ""
+"Alla värden under tröskelvärdet nollställs. Alla värden ovan reduceras av "
+"tröskelvärdet."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:95
 msgid "Hard"
@@ -255,17 +275,19 @@ msgstr "Hård"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:96
 msgid "All values under the threshold will be zeroed"
-msgstr ""
+msgstr "Alla värden under tröskelvärdet nollställs"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:97
 msgid "Garrote"
-msgstr ""
+msgstr "Garrote"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:98
 msgid ""
 "Scales or nullifies coefficients - intermediary between (more) soft and "
 "(less) hard thresholding (default)"
 msgstr ""
+"Skalar eller nollställer koefficienter. Mellanhand mellan (mer) mjukt och "
+"(mindre) hårt tröskelvärde (standardvärde)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:100
 msgid ":guilabel:`Threshold Type`"
@@ -273,11 +295,11 @@ msgstr ":guilabel:`Tröskeltyp`"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:107
 msgid "Universal"
-msgstr ""
+msgstr "Generell"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:108
 msgid "Threshold used is same for all decompositions (default)"
-msgstr ""
+msgstr "Använd tröskel är samma för alla sönderfall (standardvärde)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:109
 msgid "Bayes"
@@ -285,7 +307,7 @@ msgstr "Bayes"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:110
 msgid "Threshold used depends also on each decomposition coefficients"
-msgstr ""
+msgstr "Tröskelvärdet som används beror också på varje sönderfallskoefficient"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:112
 msgid ":guilabel:`Planes`"
@@ -337,4 +359,4 @@ msgstr "|vågelement|"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:152
 msgid "|cohen-daubechies-feauveau| (heavy on the math behind it)"
-msgstr ""
+msgstr "|cohen-daubechies-feauveau| (fokuserar på matematiken bakom det)"

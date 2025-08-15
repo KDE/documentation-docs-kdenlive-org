@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 01:54+0000\n"
-"PO-Revision-Date: 2025-08-12 20:29+0200\n"
+"PO-Revision-Date: 2025-08-13 11:09+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -279,7 +279,7 @@ msgstr "Stöd för markörer och flaggor"
 
 #: ../../user_interface/menu/file_menu.rst:146
 msgid "Guides are converted to OTIO markers on the timeline stack."
-msgstr ""
+msgstr "Flaggor konverteras till OTIO-markörer på tidslinjestapeln."
 
 #: ../../user_interface/menu/file_menu.rst:148
 msgid ""
@@ -288,6 +288,9 @@ msgid ""
 "each instance of the clip, in OTIO they are unique to each instance of the "
 "clip."
 msgstr ""
+"Klippmarkörer konverteras till OTIO-markörer. Observera att klippmarkörer "
+"fungerar annorlunda mellan Kdenlive och OTIO: i Kdenlive delas de mellan "
+"varje instans av klippet, i OTIO är de unika för varje instans av klippet."
 
 #: ../../user_interface/menu/file_menu.rst:150
 msgid ""
@@ -297,6 +300,10 @@ msgid ""
 "stored under the key \"kdenlive\" to keep it separate from metadata of other "
 "applications."
 msgstr ""
+"Kdenlive markörtyper lagras som OTIO-metadata för tur och retur filer. Det "
+"gör att flaggorna och klippmarkörerna kan återskapas korrekt när en OTIO-fil "
+"importeras som skapades med Kdenlive. Metadata lagras under nyckeln "
+"\"kdenlive\" för att hålla dem separerade från metadata från andra program."
 
 #: ../../user_interface/menu/file_menu.rst:157
 msgid "OpenTimelineIO import"
@@ -311,10 +318,12 @@ msgid ""
 "OTIO files do not contain information about rendering, so we get the render "
 "resolution from the first video clip."
 msgstr ""
+"OTIO-filer innehåller ingen information om återgivning, så vi får "
+"återgivningsupplösningen från det första videoklippet."
 
 #: ../../user_interface/menu/file_menu.rst:166
 msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
-msgstr ""
+msgstr "OTIO-markörer på tidslinjestapeln konverteras till flaggor i Kdenlive."
 
 #: ../../user_interface/menu/file_menu.rst:168
 msgid ""
@@ -323,12 +332,19 @@ msgid ""
 "shared between each instance of the clip, in OTIO the they are unique to "
 "each instance of the clip."
 msgstr ""
+"OTIO-markörer för klipp konverteras till Kdenlive klippmarkörer. Observera "
+"att klippmarkörer fungerar olika mellan Kdenlive och OTIO: i Kdenlive delas "
+"de mellan varje instans av klippet, i OTIO är de unika för varje instans av "
+"klippet."
 
 #: ../../user_interface/menu/file_menu.rst:170
 msgid ""
 "If the OTIO marker metadata does not contain the Kdenlive marker type, we "
 "pick the Kdenlive guide/marker with the closest color to the OTIO marker."
 msgstr ""
+"Om OTIO-markörens metadata inte innehåller Kdenlive-markörtypen väljer vi "
+"flaggan eller markören i Kdenlive med den färg som ligger närmast OTIO-"
+"markören."
 
 #: ../../user_interface/menu/file_menu.rst:174
 msgid "Quit"

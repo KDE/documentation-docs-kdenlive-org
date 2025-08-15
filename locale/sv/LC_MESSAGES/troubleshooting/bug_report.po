@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-08-12 12:13+0200\n"
+"PO-Revision-Date: 2025-08-13 12:33+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -122,11 +122,11 @@ msgstr ""
 
 #: ../../troubleshooting/bug_report.rst:56
 msgid "First Things First"
-msgstr ""
+msgstr "Det viktigaste först"
 
 #: ../../troubleshooting/bug_report.rst:58
 msgid "But before you do, please do the following:"
-msgstr ""
+msgstr "Men innan du gör det, gör följande:"
 
 #: ../../troubleshooting/bug_report.rst:61
 msgid "Step 1: Upgrade to the latest release"
@@ -203,6 +203,9 @@ msgid ""
 "been reported or is even being worked on. The bug's status is a good "
 "indicator for what is currently happening:"
 msgstr ""
+"|bug_tracker_search|. Problemet som upplevs kanske redan har rapporterats "
+"eller till och med arbetas på. Felstatus är en bra indikator på vad som "
+"händer just nu:"
 
 #: ../../troubleshooting/bug_report.rst:81
 msgid ""
@@ -210,27 +213,36 @@ msgid ""
 "happened so far. There may be a discussion about it, so it is worth checking "
 "if it may apply to your issue."
 msgstr ""
+":guilabel:`REPORTED` är ett fel som har rapporterats men inget har hittills "
+"hänt. Det kan finnas en diskussion om den, så det är värt att kontrollera om "
+"den kan gälla ditt problem."
 
 #: ../../troubleshooting/bug_report.rst:82
 msgid ""
 ":guilabel:`NEEDSINFO` is a reported bug, which needs more feedback. This "
 "means, a dev team member looked at it but needs more details."
 msgstr ""
+":guilabel:`NEEDSINFO` är ett rapporterat fel som behöver mer återkoppling. "
+"Det betyder att en medlem i utvecklingsteamet tittade på den men behöver mer "
+"information."
 
 #: ../../troubleshooting/bug_report.rst:83
 msgid ""
 ":guilabel:`CONFIRMED` means that the bug can be reproduced (either by other "
 "users or the dev team)"
 msgstr ""
+":guilabel:`CONFIRMED` betyder att felet kan reproduceras (antingen av andra "
+"användare eller utvecklingsteamet)"
 
 #: ../../troubleshooting/bug_report.rst:84
 msgid ":guilabel:`ASSIGNED` means that a developer is handling the bug"
-msgstr ""
+msgstr ":guilabel:`ASSIGNED` betyder att en utvecklare hanterar felet"
 
 #: ../../troubleshooting/bug_report.rst:85
 msgid ""
 ":guilabel:`RESOLVED` means that the bug was fixed in the development version"
 msgstr ""
+":guilabel:`RESOLVED` betyder att felet åtgärdades i utvecklingsversionen"
 
 #: ../../troubleshooting/bug_report.rst:88
 msgid "Step 5: Report the bug"
@@ -277,6 +289,8 @@ msgid ""
 "Include the results in your :ref:`bug report<troubleshooting-bug_enter>` as "
 "**attachments**."
 msgstr ""
+"Inkludera resultaten i :ref:`felrapporten<troubleshooting-bug_enter>` som "
+"**bilagor**."
 
 #: ../../troubleshooting/bug_report.rst:100
 msgid "For a good bug report please include the following information:"
@@ -287,6 +301,8 @@ msgid ""
 "Your Kdenlive and MLT version. You can copy that information from Kdenlive :"
 "menuselection:`Menu --> Help --> About`."
 msgstr ""
+"Version av Kdenlive- och MLT`. Informationen kan kopieras från Kdenlive: :"
+"menuselection:`Meny --> Hjälp --> Om`."
 
 #: ../../troubleshooting/bug_report.rst:103
 msgid ""
@@ -359,27 +375,31 @@ msgstr "Skriv :code:`gdb kdenlive`"
 #: ../../troubleshooting/bug_report.rst:122
 #: ../../troubleshooting/bug_report.rst:131
 msgid "After gdb read debug symbols, type :code:`run`"
-msgstr ""
+msgstr "Efter att gdb har läst felsökningssymbolerna, skriv :code:`run`"
 
 #: ../../troubleshooting/bug_report.rst:125
 msgid ""
 "First of all make sure the Flatpak debug symbols are installed by typing :"
 "code:`flatpak install org.kde.kdenlive.Debug` to a command line."
 msgstr ""
+"Se först till att Flatpak-felsökningssymboler är installerade genom att "
+"skriva :code:`flatpak install org.kde.kdenlive.Debug` på kommandoraden."
 
 #: ../../troubleshooting/bug_report.rst:127
 msgid "Now you can start the Flatpak from a command line like this:"
-msgstr "Nu kan du starta Flatpak från en kommandorad så här:"
+msgstr "Nu kan Flatpak startas från en kommandorad så här:"
 
 #: ../../troubleshooting/bug_report.rst:129
 msgid ""
 "Start a shell inside the Kdenlive Flatpak sandbox: :code:`flatpak run --"
 "command=sh --devel org.kde.kdenlive`"
 msgstr ""
+"Starta en skal i Kdenlive Flatpak-miljön: :code:`flatpak run --command=sh --"
+"devel org.kde.kdenlive`"
 
 #: ../../troubleshooting/bug_report.rst:130
 msgid "Type :code:`gdb /app/bin/kdenlive`"
-msgstr ""
+msgstr "Skriv :code:`gdb /app/bin/kdenlive`"
 
 #: ../../troubleshooting/bug_report.rst:133
 msgid ""
@@ -395,11 +415,11 @@ msgstr "Bygg Kdenlive med KDE Craft lokalt enligt beskrivningen här:"
 
 #: ../../troubleshooting/bug_report.rst:138
 msgid "Type to the command line :code:`cd C:/CraftRoot/mingw64/bin`"
-msgstr ""
+msgstr "Skriv :code:`cd C:/CraftRoot/mingw64/bin` i kommandoraden"
 
 #: ../../troubleshooting/bug_report.rst:139
 msgid "Start gdb with :code:`gdb`"
-msgstr ""
+msgstr "Starta gdb med :code:`gdb`"
 
 #: ../../troubleshooting/bug_report.rst:140
 msgid "Start Kdenlive -> get the PID number"
@@ -407,7 +427,7 @@ msgstr "Starta Kdenlive -> hämta PID-numret"
 
 #: ../../troubleshooting/bug_report.rst:141
 msgid ":code:`attach 3288` (replace 3288 by the PID number)"
-msgstr ""
+msgstr ":code:`attach 3288` (ersätt 3288 med PID-numret)"
 
 #: ../../troubleshooting/bug_report.rst:142
 msgid "Wait on the (gdb) prompt"
@@ -415,7 +435,7 @@ msgstr "Vänta på prompten (gdb)"
 
 #: ../../troubleshooting/bug_report.rst:143
 msgid "Type :code:`c`"
-msgstr ""
+msgstr "Skriv :code:`c`"
 
 #: ../../troubleshooting/bug_report.rst:145
 msgid ""
@@ -448,10 +468,12 @@ msgid ""
 "Now that you have all the relevant and important information, it is time to "
 "file the bug report in the official KDE Bug Tracker, Bugzilla."
 msgstr ""
+"Nu när du har all relevant och viktig information är det dags att rapportera "
+"felet i KDE:s officiella felrapporteringssystem, Bugzilla."
 
 #: ../../troubleshooting/bug_report.rst:159
 msgid "Open a browser and enter |bug_tracker_URI| in the URI field."
-msgstr ""
+msgstr "Öppna en webbläsare och skriv in |bug_tracker_URI| i webbadressfältet."
 
 #: ../../troubleshooting/bug_report.rst:167
 msgid "kde_bugtracking_system.webp"
@@ -459,31 +481,35 @@ msgstr "kde_bugtracking_system.webp"
 
 #: ../../troubleshooting/bug_report.rst:167
 msgid "KDE Bug Tracking System welcome screen"
-msgstr ""
+msgstr "Välkomstskärmen för KDE:s felrapporteringssystem"
 
 #: ../../troubleshooting/bug_report.rst:169
 msgid ""
 "You may need to log on first or even create a user account. Please follow "
 "the onscreen instructions for that."
 msgstr ""
+"Det kan vara nödvändigt att logga in först eller till och med skapa ett "
+"användarkonto. Följ instruktionerna på skärmen för att göra det."
 
 #: ../../troubleshooting/bug_report.rst:171
 msgid "Click on :guilabel:`File a Bug`."
-msgstr ""
+msgstr "Klicka på :guilabel:`File a Bug`."
 
 #: ../../troubleshooting/bug_report.rst:181
 msgid "KDE Bug Tracking System classification selection"
-msgstr ""
+msgstr "Val av klassificering i KDE:s felrapporteringssystem"
 
 #: ../../troubleshooting/bug_report.rst:183
 msgid ""
 "Click on :guilabel:`Application` to get to the list of all applications "
 "using Bugzilla."
 msgstr ""
+"Klicka på :guilabel:`Application` för att få en lista över alla program som "
+"använder Bugzilla."
 
 #: ../../troubleshooting/bug_report.rst:193
 msgid "KDE Bug Tracking System application selection"
-msgstr ""
+msgstr "Val av program i KDE:s felrapporteringssystem"
 
 #: ../../troubleshooting/bug_report.rst:195
 msgid ""
@@ -491,6 +517,9 @@ msgid ""
 "or use :kbd:`Ctrl+F` to open a search field and enter `kdenlive`. This "
 "should work in most browsers but may be different in yours."
 msgstr ""
+"Listan är sorterad alfabetiskt. Rulla ner till där Kdenlive finns, eller "
+"använd :kbd:`Ctrl+F` för att öppna ett sökfält och skriv `kdenlive`. Det "
+"borde fungera i de flesta webbläsare men kan vara annorlunda."
 
 #: ../../troubleshooting/bug_report.rst:199
 msgid ""
@@ -498,6 +527,9 @@ msgid ""
 "bug report. Some fields are mandatory (indicated by the red \\*) and some "
 "will be populated with data collected from your system."
 msgstr ""
+"Bugzilla visar skärmen för detaljerad felrapport där man kan ange "
+"felrapporten. Vissa fält är obligatoriska (indikeras av en röd \\*) och "
+"vissa fylls i med data som samlats in från systemet."
 
 #: ../../troubleshooting/bug_report.rst:206
 msgid "kde_bug_enter.webp"
@@ -505,38 +537,42 @@ msgstr "kde_bug_enter.webp"
 
 #: ../../troubleshooting/bug_report.rst:206
 msgid "KDE Bug Tracking System entering bug details"
-msgstr ""
+msgstr "Ange felinformation i KDE:s felrapporteringssystem"
 
 #: ../../troubleshooting/bug_report.rst:208
 msgid "The bug report will be filed under your user name's email address"
-msgstr ""
+msgstr "Felrapporten arkiveras under användarnamnets e-postadress"
 
 #: ../../troubleshooting/bug_report.rst:209
 msgid "Select a component that best fits the type of problem you encountered"
-msgstr ""
+msgstr "Välj en komponent som bäst passar den typ av problem som inträffade"
 
 #: ../../troubleshooting/bug_report.rst:210
 msgid "Select the version of Kdenlive you are using"
-msgstr ""
+msgstr "Välj version av Kdenlive som används"
 
 #: ../../troubleshooting/bug_report.rst:211
 msgid ""
 "Specify the severity of the problem. If you want to create a feature "
 "request, select :guilabel:`wishlist`."
 msgstr ""
+"Ange problemets allvarlighetsgrad. Om ett önskemål ska skapas välj :guilabel:"
+"`wishlist`."
 
 #: ../../troubleshooting/bug_report.rst:212
 msgid "Select the platform you are using. This helps when troubleshooting."
-msgstr ""
+msgstr "Välj plattform som används. Det är till hjälp vid felsökning."
 
 #: ../../troubleshooting/bug_report.rst:213
 msgid "Select the operating system (OS) you are using"
-msgstr ""
+msgstr "Välj operativsystem (OS) som används"
 
 #: ../../troubleshooting/bug_report.rst:214
 msgid ""
 "Enter a short but descriptive summary if the bug or problem you are reporting"
 msgstr ""
+"Ange en kort men beskrivande sammanfattning av felet eller problemet som "
+"rapporteras"
 
 #: ../../troubleshooting/bug_report.rst:215
 msgid ""
@@ -545,12 +581,18 @@ msgid ""
 "reports. If you want to continue filing a bug report, please select this "
 "text and delete it. Then start entering your problem description."
 msgstr ""
+"Det är här problemet beskrivs mer i detalj. Texten mellan **\\*\\*\\*** är "
+"endast i informationssyfte för att förhindra onödiga felrapporter. Om man "
+"vill fortsätta att skicka in en felrapport, markera texten och ta bort den. "
+"Börja sedan skriva in problembeskrivningen."
 
 #: ../../troubleshooting/bug_report.rst:217
 msgid ""
 "Please be as detailed as possible describing what you did when the bug was "
 "triggered or Kdenlive did not work as expected."
 msgstr ""
+"Beskriv så detaljerat som möjligt vad som gjordes när felet inträffade eller "
+"när Kdenlive inte fungerade som förväntat."
 
 #: ../../troubleshooting/bug_report.rst:219
 msgid ""
@@ -559,6 +601,10 @@ msgid ""
 "that guide you through the bug report. It just helps structuring the report "
 "for easy reference and replication by the developer team."
 msgstr ""
+"Det finns redan några föreskrivna sektioner, som :guilabel:`Step to "
+"Reproduce`, :guilabel:`Observed Results` och :guilabel:`Expected Results` "
+"som leder genom felrapporten. Det hjälper bara till att strukturera "
+"rapporten för enkel referens och replikering av utvecklarteamet."
 
 #: ../../troubleshooting/bug_report.rst:221
 msgid ""
@@ -566,23 +612,30 @@ msgid ""
 "data from Kdenlive :menuselection:`Menu --> Help --> About Kdenlive --> "
 "Components --> Copy to Clipboard`."
 msgstr ""
+"I sektionen :guilabel:`Software/OS Version` kan man klistra in relevant data "
+"från Kdenlive :menuselection:`Meny --> Hjälp --> Om Kdenlive --> Komponenter "
+"--> Kopiera till klippbordet`."
 
 #: ../../troubleshooting/bug_report.rst:228
 msgid "Copy information from Kdenlive"
-msgstr ""
+msgstr "Kopiera information från Kdenlive"
 
 #: ../../troubleshooting/bug_report.rst:230
 msgid ""
 "You can add attachments like screen recordings, screenshots, and text files "
 "with debugging and terminal output information."
 msgstr ""
+"Man kan lägga till bilagor som skärminspelningar, skärmbilder och textfiler "
+"med felsöknings- och terminalutmatningsinformation."
 
 #: ../../troubleshooting/bug_report.rst:231
 msgid "Click :guilabel:`Submit Bug` to file your bug report"
-msgstr ""
+msgstr "Klicka på :guilabel:`Submit Bug` för att lämna in felrapporten"
 
 #: ../../troubleshooting/bug_report.rst:236
 msgid ""
 "This is a privately maintained server and not affiliated in any way, shape, "
 "or form with Kdenlive"
 msgstr ""
+"Det är en privat underhållen server och är inte på något sätt ansluten till "
+"Kdenlive"

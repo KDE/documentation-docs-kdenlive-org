@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-08-12 15:35+0200\n"
+"PO-Revision-Date: 2025-08-13 11:37+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -88,6 +88,8 @@ msgstr "Insticksprogram"
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:41
 msgid "This section defines settings for Speech To Text and Object Detection."
 msgstr ""
+"Det här avsnittet definierar inställningar för Tal till text och "
+"Objektdetektering."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:43
 msgid ""
@@ -96,6 +98,10 @@ msgid ""
 "to use a virtual environment (:file:`venv`) to keep it separate for Kdenlive "
 "from other uses on your system."
 msgstr ""
+"Innan tal till text och objektdetektering kan ställas in och användas måste "
+"*Python3* installeras. När *Python3* är installerat kan man använda en "
+"virtuell miljö (:file:`venv`) för att hålla den separat för Kdenlive från "
+"annan användning på systemet."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:45
 msgid ""
@@ -103,6 +109,9 @@ msgid ""
 "of :ref:`Speech To Text<speech2text_config>` or :ref:`Object "
 "Detection<object-detection_config>`."
 msgstr ""
+"Om *Python3* redan har installerats, gå direkt till inställningssidan för :"
+"ref:`Tal till text<speech2text_config>` eller :ref:`Objektdetektering<object-"
+"detection_config>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:49
 msgid "Python installation"
@@ -162,7 +171,7 @@ msgstr "Ladda ner *Python* från den officiella sidan |python_download|."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:77
 msgid "Select \"Add python.exe to PATH”"
-msgstr ""
+msgstr "Välj \"Lägg till python.exe i PATH”"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:79
 msgid "Select “Install Now”"
@@ -557,6 +566,7 @@ msgstr "Objektdetektering"
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:259
 msgid "The first time you use object detection the plugin has to be installed."
 msgstr ""
+"Första gången objektdetektering används måste insticksprogrammet installeras."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:269
 msgid "The plugin gets installed in folder:"
@@ -572,7 +582,7 @@ msgstr ":file:`%LocalAppData%\\\\kdenlive\\\\venv-sam`"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:274
 msgid "If all is properly installed it should look like so:"
-msgstr ""
+msgstr "Om allt är korrekt installerat borde det se ut så här:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:282
 msgid "Object Detection plugin installed"
@@ -582,6 +592,7 @@ msgstr "Insticksprogram för objektdetektering installerat"
 msgid ""
 ":guilabel:`Model` You can download different models for object detection."
 msgstr ""
+":guilabel:`Modell` Man kan ladda ner olika modeller för objektdetektering."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:288
 msgid ""
@@ -594,6 +605,15 @@ msgid ""
 "Nvidia GPU is not listed, try installing an alternative by :ref:`following "
 "these steps<gpu-manual_config>`."
 msgstr ""
+":guilabel:`Enhet` Man kan byta mellan att använda **processor** eller "
+"**grafikprocessor** för objektdetektering. En grafikprocessor som stöder "
+"CUDA krävs för objektdetektering med grafikprocessor. Kdenlive försöker "
+"hitta grafikkortet automatiskt. Om grafikkortet stöder CUDA (Nvidia "
+"grafikprocessor) installeras den nödvändiga drivrutinen så att den kan "
+"användas. Om grafikkortet inte stöder CUDA eller inte upptäcks av Kdenlive "
+"syns bara processorn. :guilabel:`Grafikprocessorstöd` Om Nvidia "
+"grafikprocessorn inte finns med i listan kan man försöka installera ett "
+"alternativ genom att :ref:`följa de här stegen<gpu-manual_config>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:290
 msgid ""
@@ -601,6 +621,10 @@ msgid ""
 "on which Kdenlive has to detect objects you may get a crash. If enabled, "
 "this offloads some of the memory used to the RAM instead of the GPU memory."
 msgstr ""
+":guilabel:`Avlasta video till processorn för att spara grafikprocessorminne` "
+"Om man har långa klipp där Kdenlive måste upptäcka objekt kan det hända att "
+"programmet kraschar. Om det är aktiverat avlastas en del av minnet som "
+"används till RAM istället för grafikprocessorminnet."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:292
 msgid ""
@@ -608,6 +632,9 @@ msgid ""
 "SAM2 version installed on your system. For advanced users only, as you will "
 "have to properly setup everything by yourself."
 msgstr ""
+":guilabel:`Använd bara systempaket` När det är aktiverat använder Kdenlive "
+"versionen av SAM2 som är installerad på systemet. Endast för avancerade "
+"användare, eftersom man måste ställa in allting själv."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:294
 msgid ""
@@ -615,6 +642,9 @@ msgid ""
 "opened where the SAM2 models are stored including the size of this folder. :"
 "guilabel:`Delete all models` will delete the content of the model folder."
 msgstr ""
+":guilabel:`Modellkatalog` När man klickar på länken öppnas katalogen där "
+"SAM2-modellerna lagras, inklusive katalogens storlek. :guilabel:`Ta bort "
+"alla modeller` tar bort innehållet i modellkatalogen."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:296
 msgid ""
@@ -622,6 +652,10 @@ msgid ""
 "where the venv-sam Python scripts are stored including the size of this "
 "folder. :guilabel:`Uninstall plugin` will uninstall venv-sam Python."
 msgstr ""
+":guilabel:`Insticksprogramstorlek` När man klickar på länken öppnas "
+"katalogen där venv-sam Python-skripten lagras, inklusive katalogens "
+"storlek. :guilabel:`Avinstallera insticksprogram` avinstallerar venv-sam "
+"Python."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:302
 msgid "GPU manual installation"
@@ -632,12 +666,17 @@ msgid ""
 "If Kdenlive doesn't detect your NVIDIA GPU automatically you can try to "
 "install it manually."
 msgstr ""
+"Om Kdenlive inte upptäcker NVIDIA grafikprocessorn automatiskt kan man "
+"försöka installera den manuellt."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:306
 msgid ""
 "GPU acceleration only works with CUDA (Compute Unified Device Architecture) "
 "which is a proprietary NVIDIA parallel computing architecture."
 msgstr ""
+"Acceleration med grafikprocessor fungerar bara med CUDA (Compute Unified "
+"Device Architecture) som är en proprietär parallell "
+"databehandlingsarkitektur från NVIDIA."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:308
 msgid "Check the CUDA version you have installed:"
@@ -674,6 +713,8 @@ msgstr "Klicka nu på :guilabel:`Grafikprocessorstöd`"
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:328
 msgid "You can select a CUDA version equal to or lower than what was detected"
 msgstr ""
+"Man kan välja en CUDA-version som är lika med eller lägre än den som "
+"upptäcktes."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:336
 msgid "CUDA version to be installed"
@@ -681,7 +722,7 @@ msgstr "CUDA-version ska installeras"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:336
 msgid "Select a CUDA version which is lower than what was detected."
-msgstr ""
+msgstr "Välj en CUDA-version som är lägre än den som upptäcktes."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:340
 msgid "Click :guilabel:`Apply`"
@@ -696,6 +737,9 @@ msgid ""
 "Kdenlive starts downloading all necessary files for using the GPU. Once "
 "finished you should see your GPU under :guilabel:`Device` like so:"
 msgstr ""
+"Kdenlive börjar ladda ner alla nödvändiga filer för att använda "
+"grafikprocessorn. När det är klart bör du se grafikprocessorn under :"
+"guilabel:`Enhet` så här:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:360
 msgid "CUDA version installaled"
