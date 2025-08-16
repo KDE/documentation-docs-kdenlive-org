@@ -10,6 +10,7 @@
              - Jean-Baptiste Mardelle <jb@kdenlive.org>
              - Ttguy (https://userbase.kde.org/User:Ttguy)
              - Jack (https://userbase.kde.org/User:Jack)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -22,33 +23,36 @@ For complex or big projects, it is good practice to keep notes about the footage
 
 You enable the Project Notes widget from the Kdenlive :menuselection:`Menu --> View --> Project Notes`. You can move it around and dock it where it fits your working style and workflow. For more details about adjusting the workspace see the chapters about :doc:`/user_interface/workspace_layouts` and :doc:`/user_interface/customizing_interface`.
 
-.. figure:: /images/project_and_asset_management/kdenlive2504_project_notes.webp
+.. figure:: /images/project_and_asset_management/project_and_asset_management-project_notes-2508.webp
    :width: 360px
    :figwidth: 360px
    :align: left
-   :alt: project_notes
 
    The Project Notes widget with open search function
 
 It is basically a small text editor, but also has the ability to create links to some places in your project's timeline.
 
-:1: |bookmark-new|\ :guilabel:`Add Project Note`
+.. rst-class:: clear-both
 
-:2: |edit-find-replace|\ :guilabel:`Reassign selected timecode to current clip`
+:1: |list-add|\ :guilabel:`Add Project Note`
 
-:3: |list-add|\ :guilabel:`Create markers from selected timecodes`
+:2: |document-import|\ :guilabel:`Reassign selected timecodes to current Bin clip`
+
+.. .. versionadded:: 25.08
+
+:3: |link|\ :guilabel:`Reassign selected timecodes to current timeline clip`
+
+:4: |bookmark-new|\ :guilabel:`Create markers from selected timecodes`. Creates markers in the timeline from the selected timecodes (doesn’t matter if other text is selected too).
 
 .. .. versionadded:: 25.04
 
-:4: |edit-find|\ :guilabel:`Search`, :kbd:`Ctrl+F`. When the search text is found the search background changes from red to green.
+:5: |edit-find|\ :guilabel:`Search`, :kbd:`Ctrl+F`. When the search text is found the search background changes from red to green.
 
-:5: |go-up|\ :guilabel:`Find Previous`, :kbd:`Shift+F3`
+:6: |go-up|\ :guilabel:`Find Previous`, :kbd:`Shift+F3`
 
-:6: |go-down|\ :guilabel:`Find Next`, :kbd:`F3`
+:7: |go-down|\ :guilabel:`Find Next`, :kbd:`F3`
 
-:7: Notes area
-
-.. rst-class:: clear-both
+:8: Notes area
 
 Taking notes just takes entering text into the notes area (4). If you want to add timecodes, move the playhead in the timeline to the desired position, and click on |bookmark-new|\ :guilabel:`Add Project Note`. Kdenlive inserts the timecode as a link. You can then add text to further describe the timecode. Click the timecode link to position the playhead to that precise point in the timeline.
 
@@ -56,7 +60,6 @@ Taking notes just takes entering text into the notes area (4). If you want to ad
    :width: 360px
    :figwidth: 360px
    :align: left
-   :alt: project_notes_examples
 
    Project Notes examples
 
