@@ -30,7 +30,7 @@ Audio Mixer
 ..  .. versionchanged:: 22.08
    Revamp audio mixer and levels
 
-.. figure:: /images/effects-and-filer_audio-mixer_2508.webp
+.. figure:: /images/user_interface/effects_and_filter-audio_mixer-2508.webp
    
 The audio mixer has following functions for each channel:
 
@@ -45,7 +45,7 @@ The audio mixer has following functions for each channel:
 :9:   :kbd:`RMB` shows the menu where you can adjust the audio level appearance. These settings control the level appearance on clip and project monitor simultaneously.
 :10:  Hovering over the level shows the dB value of each channel
 
-.. figure:: /images/effects-and-filer_monitor-level_2508.webp
+.. figure:: /images/user_interface/effects_and_filter-monitor_level-2508.webp
    
    Monitor level. When 6 channels are playing the dB value are hidden.
 
