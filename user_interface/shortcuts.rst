@@ -388,7 +388,7 @@ Editing
    * - Toggle All Track Lock
      - :kbd:`Ctrl+Shift+L`
      - Tracks
-   * - Toggle Track hidden/mute
+   * - Toggle Track Hidden/Mute
      - :kbd:`Ctrl+Shift+H`
      - Toggle video/audio track hidden/mute when selected
    * - Toggle All Tracks Active
