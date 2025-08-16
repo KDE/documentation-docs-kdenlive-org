@@ -30,7 +30,6 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
    :width: 206px
    :figwidth: 206px
    :align: left
-   :alt: project_bin_add_template_title
 
    Adding a template title
 
@@ -42,13 +41,14 @@ Use :file:`%s` anywhere in the title template to be replaced by text you enter f
 
 .. rst-class:: clear-both
 
+Alternatively you can add template title inside :ref:`the title app <title-editor_load-template>`.
+
 See the chapter :doc:`/titles_and_graphics/titles/title_template_titles` for more details.
 
 .. figure:: /images/project_and_asset_management/project_bin_add_template_title_window.webp
    :width: 360px
    :figwidth: 360px
    :align: left
-   :alt: project_bin_add_template_title_window
 
    Selecting the template
 

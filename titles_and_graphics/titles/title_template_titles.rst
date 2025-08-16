@@ -54,6 +54,8 @@ In the Project Bin, click on |kdenlive-add-clip|\ |go-down|\ :guilabel:`Add clip
 
 .. rst-class:: clear-both
 
+Alternatively you can add template title inside :ref:`the title app <title-editor_load-template>`.
+
 Kdenlive added a new title clip to the Project Bin. Right-click this clip in the Project Bin and select :guilabel:`Clip Properties`, or in case you have the :guilabel:`Clip Properties` widget available, simply open it.
 
 .. container::
