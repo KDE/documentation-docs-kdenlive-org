@@ -488,7 +488,7 @@ This menu item opens a flyout with the following functions:
 
 * **Switch Track Target Audio Stream**
 
-* **Fit all Tracks in View**: When enabled the :ref:`tracks fits to the hight of the timeline <fit_tracks_to_view_height>`
+* **Fit all Tracks in View**: When enabled, the :ref:`tracks fits to the hight of the timeline <fit_tracks_to_view_height>`
 
 ----
 
