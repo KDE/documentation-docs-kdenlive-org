@@ -283,7 +283,7 @@ This area shows some options for a track:
       :align: left
          
    
-   :1: |go-down| Expand/collapse the track. :kbd:`Shift + click` to expand/collapse all tracks of the same type.
+   :1: |go-down| Expand/collapse the track. :kbd:`Shift+LMB` to expand/collapse all tracks of the same type.
    
    :2: Track name. Click on it to enter or change the name of the track.
    
