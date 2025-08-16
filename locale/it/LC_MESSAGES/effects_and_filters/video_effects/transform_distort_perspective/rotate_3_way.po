@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-07-10 23:50+0200\n"
+"PO-Revision-Date: 2025-08-07 16:44+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -40,7 +40,7 @@ msgstr "MacOS"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:-1
 msgid "Kdenlive Video Effects - 3-way Rotate"
-msgstr ""
+msgstr "Effetti video di Kdenlive - Ruota in 3 modi"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:-1
 msgid ""
@@ -76,7 +76,7 @@ msgstr "**Disponibile**"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:0
 msgid "**On Master only**"
-msgstr ""
+msgstr "**Solo nel Principale**"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:0
 msgid "**Known bugs**"
@@ -137,6 +137,11 @@ msgid ""
 "parameter is applied irrespective of the rotation - it scales along the X "
 "and Y axis of the monitor."
 msgstr ""
+"Questo effetto/filtro ruota la clip in una qualsiasi delle tre direzioni: X, "
+"Y e Z. Permette di specificare uno scostamento per l'immagine da spostare "
+"prima della rotazione, spostando efficacemente il centro di rotazione. Il "
+"parametro :guilabel:`Scala` viene applicato indipendentemente dalla "
+"rotazione: scala lungo gli assi X e Y del controllo."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:55
 msgid ""
@@ -146,6 +151,12 @@ msgid ""
 "effect will be applied to the cropped clip, and moving the clip will not "
 "show the pixels \"rotated out\" of the project frame."
 msgstr ""
+"Questo effetto può spostare i pixel al di fuori del fotogramma del progetto. "
+"Ciò comporterà il ritaglio della clip, il che significa che un effetto :doc:"
+"`/effects_and_filters/video_effects/transform_distort_perspective/transform` "
+"applicato dopo l'effetto Ruota in 3 modi verrà applicato alla clip "
+"ritagliata. Lo spostamento della clip non mostrerà quindi i pixel «ruotati "
+"fuori» dal fotogramma del progetto."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:59
 msgid "Parameters"
@@ -174,6 +185,9 @@ msgid ""
 "When animating properties with keyframes, whether to repeat the animation "
 "after it reaches the last key frame. Default is **on**."
 msgstr ""
+"Quando si animano le proprietà con i fotogrammi chiave, se ripetere "
+"l'animazione dopo che è stato raggiunto l'ultimo fotogramma. Come "
+"impostazione predefinita è **attivo**."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:72
 msgid "Disable Mirror"
@@ -185,6 +199,10 @@ msgid ""
 "**off**, whether the animation alternates between reverses and forwards for "
 "each repetition. Default is **on**."
 msgstr ""
+"Quando si animano le proprietà con i fotogrammi chiave e :guilabel:"
+"`Disabilita ripetizione` è **disattiva**, se l'animazione si alterna tra "
+"andare avanti e indietro per ogni ripetizione. Come impostazione predefinita "
+"è **attivo**."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:75
 msgid "Invert Scale"
@@ -196,6 +214,10 @@ msgid ""
 "This is helpful to make animation interpolation sane because otherwise the "
 "scale values do not animate linearly. Default is **on**."
 msgstr ""
+"Se invertire i valori di :guilabel:`Scala X` e :guilabel:`Scala Y`. Ciò è "
+"utile per rendere l'interpolazione dell'animazione più realistica, poiché "
+"altrimenti i valori di scala non vengono animati in modo lineare. Come "
+"impostazione predefinita è **attivo**."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:78
 msgid "Rotate X / Y / Z"
@@ -211,6 +233,7 @@ msgstr "Intero"
 msgid ""
 "Set the amount of rotation along the respective axes in degrees of rotation."
 msgstr ""
+"Imposta l'angolo di rotazione lungo i rispettivi assi in gradi di rotazione."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:81
 msgid "Offset X / Y"
@@ -226,7 +249,7 @@ msgstr "Scala X / Y"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:86
 msgid "Scale factor applied to the X and Y axis"
-msgstr ""
+msgstr "Il fattore di scala applicato agli assi X e Y"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:87
 msgid "Background Color"
@@ -241,6 +264,8 @@ msgid ""
 "Define the background color to be used when rotating reveals the background. "
 "Default is **Alpha**."
 msgstr ""
+"Definisce il colore di sfondo da usare quando la rotazione rivela lo sfondo. "
+"Come predefinito è **Alfa**."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:93
 msgid ""
@@ -252,6 +277,13 @@ msgid ""
 "width of the monitor and the Z axis being along the height of the monitor. "
 "See image below."
 msgstr ""
+"Gli assi di rotazione sono diversi rispetto a quelli per lo spostamento "
+"della clip. Questi ultimi utilizzano il piano dello schermo: X = larghezza, "
+"o asse orizzontale, Y = altezza, o asse verticale. Per la rotazione, il "
+"piano è inclinato di 90 gradi «nel monitor» ed è ruotato di 90 gradi in "
+"senso orario attorno all'asse verticale. Ciò si traduce in un'asse X che "
+"esce dal monitor, in un'asse Y che si trova lungo la larghezza del monitor, "
+"e in un'asse Z giace lungo l'altezza del monitor. Vedi l'immagine sotto."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way.rst:101
 msgid "kdenlive2304_effects-rotate_and_shear_axes"
