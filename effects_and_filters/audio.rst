@@ -40,7 +40,7 @@ The audio mixer has following functions for each channel:
 :4:	:ref:`Record audio <audio-recording>` directly on the track of the related audio channel
 :5:	Opens the effect stack of the related audio channel
 :6:   Toggles the audio track controls on and off
-:7:	Balance the audio channel. Either with the slider or with values
+:7:	Change the balance of the audio channel. You can use the slider or enter values.
 :8:	Adjustment of the volume
 :9:   :kbd:`RMB+click` shows the menu where you can adjust the audio level appearance. These settings controls the level appearance on clip and project monitor simultaneously.
 :10:  Hovering over the level shows the dB value of each channel
