@@ -26,6 +26,6 @@ Auto Save
 
 Backup files (auto saves) are generated according to the settings in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>` (default is every 60 seconds and/or 25 operations). This is where you can switch it on or off. 
 
-Autosaves are offered the first time after you open the project again in case the autosave is newer than the last saved project version.
+Creating a backup file is offered the first time after you open the project again in case the auto save is newer than the version of the last saved project file.
 
 Autosaves are stored in stale files, not in normal :file:`.kdenlive` files.
