@@ -142,7 +142,7 @@ Guides View
 
 :1: Shows the selected object: Clip-Name, Sequence-Name 
 
-:2: Search guides/markers. If you enter `2` in this example it shows only `guide2` / `marker2` in the list and in the timeline/on the clip monitor.
+:2: Search guides/markers. If you enter `2` in this example, it shows only `guide2` / `marker2` in the list and in the timeline/on the clip monitor.
 
 :3: Show only the chosen categories in the list and in the timeline/clip monitor.
 
