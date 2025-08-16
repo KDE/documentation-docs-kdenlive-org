@@ -43,7 +43,7 @@ The image properties can be set in the **Properties** tab.
 
 :Preserve aspect ratio: Set by default, it keeps the image's aspect ratio. Deselect this, if you need to distort the image using the :guilabel:`W` and :guilabel:`H` parameters.
 
-An image can be scaled by entering values for the :guilabel:`W` and :guilabel:`H` parameters, or by using the :guilabel:`Zoom` parameter. You can grab the edges or the corners with the :kbd:`LMB` and adjust the size of the image. Click into the image with the :kbd:`LMB` and you can drag the image around. 
+An image can be scaled by entering values for the :guilabel:`W` and :guilabel:`H` parameters, or by using the :guilabel:`Zoom` parameter. You can grab the edges or the corners with the :kbd:`LMB` and adjust the size of the image. Center resize with :kbd:`Shift+Drag`. Click into the image with the :kbd:`LMB` and you can drag the image around. 
 
 
 .. rubric:: Object Zooming and Rotating
