@@ -26,7 +26,7 @@ The **Misc** (Miscellaneous) section contains settings for the general behavior 
 
 :1: :guilabel:`Open last project on startup`. If checked, Kdenlive will open the project file that was last edited and saved before closing Kdenlive. If unchecked, Kdenlive will create a new project using the :doc:`Project Default</getting_started/configure_kdenlive/configuration_project_defaults>` settings.
 
-:2: :guilabel:`Auto Save`. If checked, Kdenlive will automatically create a backup of the current project file every seconds or operations you have specified (default 60sec / 25 operations). When saving is ongoing a green square indicator beside the layout widget shows up for 2 seconds (top right). See also the chapter :doc:`Auto Save</project_and_asset_management/file_management/auto_save>`.
+:2: :guilabel:`Auto Save`. If checked, Kdenlive will automatically create a backup of the current project file every number of seconds or operations you have specified (default is 60sec / 25 operations). When saving is ongoing, a green square indicator next to the layout widget shows up for 2 seconds (top right). See also the chapter :doc:`Auto Save</project_and_asset_management/file_management/auto_save>`.
 
 :3: :guilabel:`Check if first added clip matches project profile`. If checked, Kdenlive compares the dimensions and fps values of the first clip added to the project bin with the respective settings in project profile. If they differ, Kdenlive asks if the project settings should be adjusted to match the values of the clip.
 
