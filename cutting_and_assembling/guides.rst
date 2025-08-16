@@ -148,7 +148,7 @@ Guides View
 
 :4: Show markers for all clips in the project
 
-:5: Sort by categories, time, comment or descending.
+:5: Sort by categories, time, or comment, and change sort order (ascending/descending).
 
 :6: Click on a guide/marker or :kbd:`arrow-up arrow-down` will select it and the playhead jumps to this guide/marker in the timeline/clip monitor. Multi-selection: holding down :kbd:`Shift` or :kbd:`Control` to select single guides. :kbd:`Control + A` select all guides/markers. Double-click or :kbd:`F2` on a guide/marker opens the :ref:`edit guide window <move_edit_guides>`/:ref:`edit marker window <move_edit_marker>`.
 
