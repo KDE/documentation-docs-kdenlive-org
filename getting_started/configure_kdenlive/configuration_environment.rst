@@ -82,7 +82,7 @@ MLT Environment
 
 .. .. versionchanged:: 25.08
 
-These settings tell Kdenlive where to find the MLT executables and profile files. Only advanced users would really need to change these settings. Kdenlive is basically a frontend to the MLT program. Since Kdenlive version 25.08 |mediainfo| is not needed anymore as Kdenlive can read the timecode directly from MLT and shows these details in the clip properties. The values differ depending on your OS.
+These settings tell Kdenlive where to find the MLT executables and profile files. Only advanced users would really need to change these settings. Kdenlive is basically a frontend to the MLT program. Since Kdenlive version 25.08, |mediainfo| is not needed anymore as Kdenlive can read the timecode directly from MLT and shows these details in the clip properties. The values differ depending on your OS.
 
 .. figure:: /images/getting_started/configure_environment_MLT_Windows_2508.webp
    :width: 500px
