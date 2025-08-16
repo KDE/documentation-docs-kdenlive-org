@@ -97,7 +97,7 @@ Sequence timecode offset
 
 For each sequence you can set a timecode offset using the :ref:`clip properties <sequence_properties>`.
 
-Timecode offset provides the flexibility to tailor the timeline to specific project needs for non-standard starting points, such as trailers or sequences. Aligns with professional video editing requirements where specific starting timecodes (e.g., 10:00:00;00) are industry-standard. Simplifies team collaboration by allowing all editors and content creators to work with identical timecode references.
+The timecode offset allows tailoring the timeline to specific project needs for non-standard starting points, such as trailers or sequences. This aligns with professional video editing requirements where specific starting timecodes (e.g., 10:00:00;00) are an industry standard. It also simplifies team collaboration by allowing all editors and content creators to work with identical timecode references.
 
 It improves interoperability with other editing software and tools that rely on specific timecode standards, enhancing seamless project transfers and collaborative workflows.
 
