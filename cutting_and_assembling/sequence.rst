@@ -19,28 +19,24 @@ Sequence
 
 A sequence is basically a timeline. Sequences can be rendered independently, but they cannot be saved separately from a project, since they are part of it. All sequences have the same settings as ones defined in the project settings.
 
-.. image:: /images/kdenlive2402_project_bin_with_sequence.webp
+.. figure:: /images/kdenlive2402_project_bin_with_sequence.webp
    :scale: 75%
-   :alt: Project_bin_with_sequence
-
+   
 When you open a new project, Kdenlive automatically generates one (1) sequence called `Sequence 1` and store it in the `Sequence` folder located in the project bin.
 
 A sequence behaves like a clip: you can open a sequence and play it in the Clip Monitor, mark In and Out points, drag it into another sequence, just as if it is a clip (insert in the same sequence is not possible). 
 
-.. image:: /images/Timeline_nested_sequence.png
+.. figure:: /images/Timeline_nested_sequence.png
    :scale: 75%
-   :alt: Timeline_nested_sequence
-
-
+   
 Inserting a sequence into another sequence creates what's known as a nested sequence. Like clips, nested sequences are actually pointers or references to the original sequence, not copies. You can nest a sequence into another one; then, if you change the original sequence, all the locations in which that sequence is nested will be updated.
 
 The timeline view consists in minimum of one (1) or more sequences. By adding a second sequence to the timeline, each sequence appears with a tab above the timeline in the timeline tab bar.
 
 
-.. image:: /images/Timeline_with_sequences.png
+.. figure:: /images/Timeline_with_sequences.png
    :scale: 75%
-   :alt: Timeline_with_sequences
-
+  
 
 
 
@@ -75,10 +71,9 @@ Create new sequence in timeline's tab bar
 
 After adding a 2nd sequence, the timeline tab bar shows up and sequence tabs appear. You can add sequences from the :guilabel:`Add Timeline Sequence` on the right site (plus sign).
 
-.. image:: /images/add_sequence_from_timeline_tab_bar.png
+.. figure:: /images/add_sequence_from_timeline_tab_bar.png
    :align: left
-   :alt: add_sequence_from_timeline_tab_bar
-
+   
 
 .. _Create_nested_sequence:
 
@@ -87,11 +82,44 @@ Create a nested sequence
 
 Adds the clips which are currently selected in the timeline to a new sequence clip. The selected clips get exchanged in place by the new created sequence and the new created sequence is stored in the :ref:`default sequence folder <default_sequence_folder>`.
 
-.. image:: /images/Create_nested_sequence.png
+.. figure:: /images/Create_nested_sequence.png
    :scale: 75%
-   :alt: Create_nested_sequence
-
+   
 Select clips in the timeline. Choose :menuselection:`Timeline --> Create Sequence from selection`
+
+
+.. _sequence_timecode_offset:
+
+Sequence timecode offset
+------------------------
+
+.. .. versionadded:: 25.08
+
+For each sequence you can set a timecode offset using the :ref:`clip properties <sequence_properties>`.
+
+Timecode offset provides the flexibility to tailor the timeline to specific project needs for non-standard starting points, such as trailers or sequences. Aligns with professional video editing requirements where specific starting timecodes (e.g., 10:00:00;00) are industry-standard. Simplifies team collaboration by allowing all editors and content creators to work with identical timecode references.
+
+It improves interoperability with other editing software and tools that rely on specific timecode standards, enhancing seamless project transfers and collaborative workflows.
+
+.. figure:: /images/cutting_and_assembling-sequence_timocode_offset_monitor-2508.webp
+   :scale: 75%
+
+   Sequence timecode offset is shown in the project monitor
+
+.. figure:: /images/cutting_and_assembling-sequence_timocode_offset_guide-2508.webp
+   :scale: 75%
+
+   Sequence timecode offset is shown in the timeline guides
+
+.. figure:: /images/cutting_and_assembling-sequence_timocode_offset_timeline_ruler-2508.webp
+   :scale: 75%
+
+   Sequence timecode offset is shown in the timeline ruler
+
+.. figure:: /images/cutting_and_assembling-sequence_timocode_offset_render_dialog-2508.webp.
+   :scale: 75%
+
+   Sequence timecode offset is shown in the render dialog
 
 
 .. _delete_all_sequence_tabs:
@@ -104,8 +132,7 @@ Delete all sequence tabs
 When deleting all sequence tabs, then the current sequence name gets shown in the Master Effect space.
 
 .. figure:: /images/23-08_delete-sequence-tab.gif
-   :alt: 23-08_delete-sequence-tab
-
+   
 
 .. _default_sequence_folder:
 
@@ -120,9 +147,8 @@ Project Bin: right click on a folder and enable/disable :guilabel:`Default Targe
 
 The default sequences folder gets a colored icon and is always displayed on top in the project bin.
 
-.. image:: /images/kdenlive2405_default_target_folder_for_sequences.webp
-   :alt: default_target_folder_for_sequences
-  
+.. figure:: /images/kdenlive2405_default_target_folder_for_sequences.webp
+     
 On new created project the default folder is `Sequences`. 
 
 
@@ -134,10 +160,9 @@ Working with sequences
 Change order of sequence tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/Kdenlive_reorder_sequence_tabs.png
+.. figure:: /images/Kdenlive_reorder_sequence_tabs.png
    :scale: 75%
-   :alt: Kdenlive_reorder_sequence_tabs
-
+   
 Click and hold the mouse button until the sequence tab gets a blue line on top. Drag it to the new position you want, and then release the mouse.
 
 
@@ -148,8 +173,7 @@ There are 3 ways to open a sequence for editing:
 
 .. figure:: /images/Timeline_nested_sequence_jump.png
    :scale: 75%
-   :alt: Timeline_nested_sequence_jump
-
+   
    Double click a nested sequence for editing
 
 * Double click a nested sequence in the timeline will open its tab and seek to the current playhead position.
@@ -160,10 +184,9 @@ There are 3 ways to open a sequence for editing:
 Duplicate a sequence
 ~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/Duplicate_sequence.png
+.. figure:: /images/Duplicate_sequence.png
    :scale: 75%
-   :alt: Duplicate_sequence
-
+   
 Right-click a sequence in the Project Bin choose :guilabel:`Duplicate Clip`
 
 
