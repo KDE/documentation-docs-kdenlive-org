@@ -156,7 +156,7 @@ Guides View
 
 :8: Edit a selected guide/marker. The same as double-clicing a guide/marker under point 4 or guides in the :ref:`timeline ruler<timeline_ruler>`.
 
-:9: Delete a selected guide/marker.
+:9: Delete the selected guide(s)/marker(s).
 
 :10: Set the category for new created guides/marker.
 
