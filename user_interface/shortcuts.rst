@@ -428,6 +428,9 @@ Timeline
    * - Add Subtitle
      - :kbd:`Shift+S`
      - Adds a subtitle at playhead position.
+   * - Create a new subtitle layer
+     - :kbd:`Shift+drag`
+     - Adds a new subtitle layer by dragging an existing subtitle down beyond the bottom of the subtitle track.
    * - Add Transition to Selection
      - :kbd:`Alt+Shift++`
      -

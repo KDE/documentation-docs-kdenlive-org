@@ -194,7 +194,7 @@ Kdenlive supports multiple subtitle layers. You can create, duplicate, and delet
 .. figure:: /images/effects_and_compositions/subtitle-manager_event.png
    :alt: subtitle event
 
-A new subtitle layer can also be created by dragging an existing subtitle down beyond the bottom of the subtitle track or by adjusting the layer indicator in the :ref:`subtitle-window`.
+A new subtitle layer can also be created by :kbd:`Shift+drag` an existing subtitle down beyond the bottom of the subtitle track or by adjusting the layer indicator in the :ref:`subtitle-window`.
 
 .. figure:: /images/effects_and_compositions/subtitle-add_new_layer_on_timeline.gif
    :alt: subtitle add new layer on timeline
