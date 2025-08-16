@@ -154,7 +154,7 @@ Guides View
 
 :7: Add a guide/marker. Only here you have the possibility to add multiple guides/markers with an interval.
 
-:8: Edit a selected guide/marker. The same like when you Double-click a guide/marker under point 4 or guides in the :ref:`timeline ruler<timeline_ruler>`.
+:8: Edit a selected guide/marker. The same as double-clicing a guide/marker under point 4 or guides in the :ref:`timeline ruler<timeline_ruler>`.
 
 :9: Delete a selected guide/marker.
 
