@@ -192,7 +192,7 @@ General
        - Titler: adds clicked clips to the selection
        - Project Bin: adds all clips between already selected clip and clicked clip
    * - Expand/Collapse
-     - :kbd:`Shift+click`
+     - :kbd:`Shift+LMB`
      - Works in:
 
        - Timeline: expand/collapse all tracks of the same type
