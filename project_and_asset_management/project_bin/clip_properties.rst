@@ -40,8 +40,7 @@ File Info
 The first tab is the **File Info** tab. It displays general information about the file, its streams, and other technical data.
 
 .. figure:: /images/project_and_asset_management/clip_properties_info.webp
-   :alt: clip_properties_info
-
+   
    The File Info tab
 
 At the top, the filename with its full path is displayed as a link. Clicking it opens your OS file manager at that particular location.
@@ -54,7 +53,6 @@ The **Properties** tab displays those properties of the clip that Kdenlive allow
 
 .. figure:: /images/project_and_asset_management/clip_properties_edit.webp
    :align: left
-   :alt: clip_properties_edit
 
    Editable properties of the selected file
 
@@ -89,7 +87,19 @@ Check the property you want to change, and then enter or select the new value.
 :guilabel:`Color range`:
    The current :term:`color range` of the clip. This is mostly relevant for videos intended for broadcasting.
 
-|
+
+.. _sequence_properties:
+
+Sequence Properties
+-------------------
+
+.. .. versionadded:: 25.08
+
+.. figure:: /images/project_and_asset_management/clip_properties-sequence-2508.webp
+   :scale: 75%
+
+When a sequence is selected in the project bin you can change the timecode offset. More details see under :ref:`sequence timecode offset <sequence_timecode_offset>`.
+
 
 .. _audio_properties:
 
@@ -98,8 +108,7 @@ Audio Properties
 
 .. figure:: /images/project_and_asset_management/clip_properties_audio.webp
    :align: left
-   :alt: clip_properties_audio
-
+   
    The Audio properties tab
 
 Choose which audio channel\ [2]_ should be enabled or disabled.
