@@ -37,7 +37,7 @@ The audio mixer has following functions for each channel:
 :1:	Channel number (audio track number or name) and Master channel
 :2:	Mute an audio channel
 :3:	Solo an audio channel
-:4:	:ref:`Record audio <audio-recording>` direct on the track of the related audio channel
+:4:	:ref:`Record audio <audio-recording>` directly on the track of the related audio channel
 :5:	Opens the effect stack of the related audio channel
 :6:   Toggles on/off the audio track controls
 :7:	Balance the audio channel. Either with the slider or with values
