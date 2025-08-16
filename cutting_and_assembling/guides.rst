@@ -158,7 +158,7 @@ Guides View
 
 :9: Delete the selected guide(s)/marker(s).
 
-:10: Set the category for new created guides/marker.
+:10: Set the default category for new guides/markers.
 
 :11: Guides only: :ref:`Locks guide <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
 
