@@ -70,7 +70,7 @@ This section defines some of the most important settings for Kdenlive.
 
 :4: :guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up window with a reminder if your version is older than six (6) months.
 
-:5: :guilabel:`Prevent sleep when playing and rendering`. If checked, Kdenlive disable the system powermanagement to avoid sleep and screen locking while playback and rendering.
+:5: :guilabel:`Prevent sleep when playing and rendering`. If checked, Kdenlive disables the system's power management to avoid sleep mode and screen locking while playback and rendering.
 
 :6: Tabs for the different environment settings.
 
