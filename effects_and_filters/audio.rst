@@ -42,7 +42,7 @@ The audio mixer has following functions for each channel:
 :6:   Toggles the audio track controls on and off
 :7:	Change the balance of the audio channel. You can use the slider or enter values.
 :8:	Adjustment of the volume
-:9:   :kbd:`RMB+click` shows the menu where you can adjust the audio level appearance. These settings controls the level appearance on clip and project monitor simultaneously.
+:9:   :kbd:`RMB` shows the menu where you can adjust the audio level appearance. These settings control the level appearance on clip and project monitor simultaneously.
 :10:  Hovering over the level shows the dB value of each channel
 
 .. figure:: /images/effects-and-filer_monitor-level_2508.webp
