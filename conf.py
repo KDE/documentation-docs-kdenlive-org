@@ -445,6 +445,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |link| image:: /images/icons/link.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |list-add| image:: /images/icons/list-add.svg
    :width: 22px
    :class: no-scaled-link
