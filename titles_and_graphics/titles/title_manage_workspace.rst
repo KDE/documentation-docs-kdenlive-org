@@ -5,6 +5,7 @@
 .. metadata-placeholder
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
+             - Eugen Mohr
 
    :license: Creative Commons License SA 4.0
 
@@ -21,7 +22,6 @@ Title Editor Workspace
    .. figure:: /images/titles_and_graphics/title_toolbar-position.webp
       :width: 337px
       :figwidth: 337px
-      :alt: title_toolbar-add_object
       :align: left
 
       Object position toolbar
@@ -44,15 +44,14 @@ Therefore, :guilabel:`+X` and :guilabel:`-Y` sets the origin (0,0) of the coordi
 
 .. rubric:: Guides, Zoom Level, and Background
 
-.. figure:: /images/titles_and_graphics/titler_app_manage_workspace.webp
-   :width: 360px
-   :figwidth: 360px
+.. figure:: /images/titles_and_graphics/titler-app_manage-workspace_2508.webp
+   :width: 450px
+   :figwidth: 4500px
    :align: left
-   :alt: Title Editor Workspace Controls
-
+   
    Title editor workspace controls
 
-You can adjust some aspects of the workspace using the tools in this toolbar. By default, only :guilabel:`Show background` is selected.
+You can adjust some aspects of the workspace using the tools in this toolbar. By default, only :guilabel:`Show timeline` is selected.
 
 If the title clip is in a track above another clip, the content of the clip below the title clip will be shown as the background.
 
@@ -66,4 +65,4 @@ If the title clip is in a track above another clip, the content of the clip belo
 
 :Zoom slider: Use the slider to adjust the zoom level. Alternatively, you can enter a zoom level percentage, or use :kbd:`Ctrl+MW` inside the workspace.
 
-:Show background: When selected, the content of the clip in the timeline below the title clip is displayed. If not selected, the background can be set to :guilabel:`Checkered`, :guilabel:`Black`, or :guilabel:`White`.
+:Show timeline: When selected, the content of the clip in the timeline below the title clip is displayed. **Timecode**: You can change the timecode or seek when holding the :kbd:`LMB` and dragging left and right (:kbd:`Shift+drag` or :kbd:`MW` for 1 frame, :kbd:`Ctrl+MW` for 5 frames, :kbd:`Ctrl+drag` for fast seek). **If not selected**, the background can be set to :guilabel:`Checkered`, :guilabel:`Black`, or :guilabel:`White`.

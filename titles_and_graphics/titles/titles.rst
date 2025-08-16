@@ -52,7 +52,7 @@ You can size the window as usual but not maximize or minimize it. The focus stay
 
 The window's layout consists of several areas:
 
-.. image:: /images/titles_and_graphics/titler_app_layout.webp
+.. figure:: /images/titles_and_graphics/titler_app-layout-2508.webp
 
 * The main workspace (1)
 * Toolbars for `adding objects <title-add_objects_>`_ (2), `selecting objects <title-select_objects_>`_ (3), sizing and `aligning objects <title-move_objects_>`_ (4)/(5)/(6), :doc:`managing the workspace</titles_and_graphics/titles/title_manage_workspace>` (8)/(9), and :doc:`file operations</titles_and_graphics/titles/title_file_operations>` (10)
@@ -123,7 +123,6 @@ Add Objects to a Title Clip
    .. figure:: /images/titles_and_graphics/title_toolbar-add_object.webp
       :width: 109px
       :figwidth: 150px
-      :alt: title_toolbar-add_object
       :align: left
 
       Add objects toolbar

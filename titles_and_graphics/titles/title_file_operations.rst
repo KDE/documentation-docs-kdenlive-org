@@ -56,6 +56,8 @@ Click the |document-save-as|:guilabel:`Save As` button in the tool bar, or press
 :Windows: :file:`%AppData%/kdenlive/titles` (press :kbd:`Win+R` and copy **%AppData%/kdenlive/**)
 
 
+.. _title_file_operations-title_template:
+
 Download New Title Template
 ---------------------------
 
