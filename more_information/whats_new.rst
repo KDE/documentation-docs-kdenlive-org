@@ -17,6 +17,8 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+.. _25.08: https://kdenlive.org/news/releases/25.08.0/
+
 .. _25.04: https://kdenlive.org/news/releases/25.04.0/
 
 .. _24.12: https://kdenlive.org/news/releases/24.12.0/
@@ -61,6 +63,25 @@
 ==========
 What's New
 ==========
+
+.. versionadded:: 25.08 (see 25.08_ release notes)
+
+   * Added checkerboard option in :ref:`clip monitor<ui-monitors_clip_monitor_hamburger>`
+   * Added possibility to :ref:`hide all tracks at once<timeline-menu_tracks>`
+   * Added possibility to :doc:`make autosave configurable</getting_started/configure_kdenlive/configuration_misc>`
+   * Revamp and updated the :doc:`titler</titles_and_graphics/titles/title_images>`
+   * Revamp and updated the :doc:`notes widget</project_and_asset_management/project_notes>`
+   * Added possibility for :ref:`timecode offset per sequence<sequence_timecode_offset>`
+   * Added possibility to :ref:`show thumbnails/all project clip markers in markers list<guide_view>`
+   * Removed link to app :ref:`MediaInfo<configure_environment_mlt>`
+   * Added possibility to :ref:`manually clear all undo history<undo_history>`
+   * Added possibility to :ref:`align clip based on SMPTE-esque timecode<delete_items>`
+   * Added possibility to :ref:`expand/collapse items (effects, folders) and navigate effects with arrows<track_header>`
+   * Added in the timeline :ref:`ctrl+x for cut<edit_menu>`
+   * Added possibility to :doc:`disable power management while rendering or when playback</getting_started/configure_kdenlive/configuration_environment>`
+   * Revamp :ref:`audio mixer and levels<audio_mixer>`
+   * Added possibility to :ref:`create a new subtitle layer by Shift+drag a subtitle down<subtitle-multi-layer_subtitling>`
+
 
 .. versionadded:: 25.04 (see 25.04_ release notes)
 
