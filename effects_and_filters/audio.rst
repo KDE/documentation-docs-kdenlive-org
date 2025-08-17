@@ -47,7 +47,7 @@ The audio mixer has following functions for each channel:
 
 .. figure:: /images/user_interface/effects_and_filter-monitor_level-2508.webp
    
-   Monitor level. When 6 channels are playing, the dB value ares hidden.
+   Monitor level. When 6 channels are playing, the dB values are hidden.
 
 Monitors. If you have more than two audio channels, the audio dB value is not shown (ticks will still be shown). Hover over the widget and it shows the meter and the dB value per channel.
 
