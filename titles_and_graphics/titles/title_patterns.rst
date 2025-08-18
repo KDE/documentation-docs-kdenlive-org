@@ -42,5 +42,5 @@ Use the slider to change the size of the patterns' thumbnails.
 
 .. _title-editor_load-template:
 
-:guilabel:`Load template` Kdenlive opens a window with a drop-down list with all the title templates :ref:`stored in this default folder <title_file_operations-title_template>`. When you click on the template a preview is shown direct in the main workspace. Click on :guilabel:`Update Title` and the chosen template is added to the actual title.   The templates you see here are stored in 
+:guilabel:`Load template` Kdenlive opens a window with a drop-down list with all the title templates :ref:`stored in this default folder <title_file_operations-title_template>`. When you click on the template a preview is shown direct in the main workspace. Click on :guilabel:`Update Title` and the chosen template is added to the actual title.
    
