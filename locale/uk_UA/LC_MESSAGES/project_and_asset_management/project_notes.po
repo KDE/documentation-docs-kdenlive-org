@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-03 08:06+0000\n"
+"POT-Creation-Date: 2025-08-18 01:56+0000\n"
 "PO-Revision-Date: 2025-04-28 10:06+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -22,13 +22,13 @@ msgstr ""
 msgid "bookmark-new"
 msgstr "bookmark-new"
 
+#: ../../<rst_epilog>:82
+msgid "document-import"
+msgstr "document-import"
+
 #: ../../<rst_epilog>:134
 msgid "edit-find"
 msgstr "edit-find"
-
-#: ../../<rst_epilog>:138
-msgid "edit-find-replace"
-msgstr "edit-find-replace"
 
 #: ../../<rst_epilog>:210
 msgid "go-down"
@@ -39,6 +39,10 @@ msgid "go-up"
 msgstr "go-up"
 
 #: ../../<rst_epilog>:366
+msgid "link"
+msgstr ""
+
+#: ../../<rst_epilog>:370
 msgid "list-add"
 msgstr "list-add"
 
@@ -83,11 +87,15 @@ msgstr "6"
 msgid "7"
 msgstr "7"
 
-#: ../../project_and_asset_management/project_notes.rst:19
+#: ../../project_and_asset_management/project_notes.rst:0
+msgid "8"
+msgstr ""
+
+#: ../../project_and_asset_management/project_notes.rst:20
 msgid "Project Notes"
 msgstr "Нотатки щодо проєкту"
 
-#: ../../project_and_asset_management/project_notes.rst:21
+#: ../../project_and_asset_management/project_notes.rst:22
 msgid ""
 "For complex or big projects, it is good practice to keep notes about the "
 "footage and the scenes. As they are saved with the project, the notes can be "
@@ -101,7 +109,7 @@ msgstr ""
 "проєктом. Або, іноді, ви просто хочете зберегти деякі нотатки про свій "
 "проєкт, щоб запам’ятати ідеї чи речі, які потрібно зробити."
 
-#: ../../project_and_asset_management/project_notes.rst:23
+#: ../../project_and_asset_management/project_notes.rst:24
 msgid ""
 "You enable the Project Notes widget from the Kdenlive :menuselection:`Menu --"
 "> View --> Project Notes`. You can move it around and dock it where it fits "
@@ -117,10 +125,6 @@ msgstr ""
 "user_interface/customizing_interface`."
 
 #: ../../project_and_asset_management/project_notes.rst:31
-msgid "project_notes"
-msgstr "project_notes"
-
-#: ../../project_and_asset_management/project_notes.rst:31
 msgid "The Project Notes widget with open search function"
 msgstr "Віджет нотаток щодо проєкту із відкритою панеллю пошуку"
 
@@ -133,23 +137,43 @@ msgstr ""
 "можливість створення посилань на певні місця на монтажному столі вашого "
 "проєкту."
 
-#: ../../project_and_asset_management/project_notes.rst:35
-msgid "|bookmark-new|\\ :guilabel:`Add Project Note`"
+#: ../../project_and_asset_management/project_notes.rst:37
+#, fuzzy
+#| msgid "|bookmark-new|\\ :guilabel:`Add Project Note`"
+msgid "|list-add|\\ :guilabel:`Add Project Note`"
 msgstr "|bookmark-new|\\ :guilabel:`Додати нотатку щодо проєкту`"
 
-#: ../../project_and_asset_management/project_notes.rst:37
+#: ../../project_and_asset_management/project_notes.rst:39
+#, fuzzy
+#| msgid ""
+#| "|edit-find-replace|\\ :guilabel:`Reassign selected timecode to current "
+#| "clip`"
 msgid ""
-"|edit-find-replace|\\ :guilabel:`Reassign selected timecode to current clip`"
+"|document-import|\\ :guilabel:`Reassign selected timecodes to current Bin "
+"clip`"
 msgstr ""
 "|edit-find-replace|\\ :guilabel:`Перепризначити вибрані часові прив'язки до "
 "поточного кліпу у контейнері`"
 
-#: ../../project_and_asset_management/project_notes.rst:39
-msgid "|list-add|\\ :guilabel:`Create markers from selected timecodes`"
-msgstr ""
-"|list-add|\\ :guilabel:`Створити позначки з вибраних часових прив'язок`"
-
 #: ../../project_and_asset_management/project_notes.rst:43
+#, fuzzy
+#| msgid ""
+#| "|edit-find-replace|\\ :guilabel:`Reassign selected timecode to current "
+#| "clip`"
+msgid ""
+"|link|\\ :guilabel:`Reassign selected timecodes to current timeline clip`"
+msgstr ""
+"|edit-find-replace|\\ :guilabel:`Перепризначити вибрані часові прив'язки до "
+"поточного кліпу у контейнері`"
+
+#: ../../project_and_asset_management/project_notes.rst:45
+msgid ""
+"|bookmark-new|\\ :guilabel:`Create markers from selected timecodes`. Creates "
+"markers in the timeline from the selected timecodes (doesn’t matter if other "
+"text is selected too)."
+msgstr ""
+
+#: ../../project_and_asset_management/project_notes.rst:49
 msgid ""
 "|edit-find|\\ :guilabel:`Search`, :kbd:`Ctrl+F`. When the search text is "
 "found the search background changes from red to green."
@@ -157,19 +181,19 @@ msgstr ""
 "|edit-find|\\ :guilabel:`Шукати`, :kbd:`Ctrl+F`. Якщо буде знайдено текст, "
 "колір тла пошуку буде змінено з червоного на зелений."
 
-#: ../../project_and_asset_management/project_notes.rst:45
+#: ../../project_and_asset_management/project_notes.rst:51
 msgid "|go-up|\\ :guilabel:`Find Previous`, :kbd:`Shift+F3`"
 msgstr "|go-up|\\ :guilabel:`Знайти позаду`, :kbd:`Shift+F3`"
 
-#: ../../project_and_asset_management/project_notes.rst:47
+#: ../../project_and_asset_management/project_notes.rst:53
 msgid "|go-down|\\ :guilabel:`Find Next`, :kbd:`F3`"
 msgstr "|go-down|\\ :guilabel:`Знайти далі`, :kbd:`F3`"
 
-#: ../../project_and_asset_management/project_notes.rst:49
+#: ../../project_and_asset_management/project_notes.rst:55
 msgid "Notes area"
 msgstr "Область нотаток"
 
-#: ../../project_and_asset_management/project_notes.rst:53
+#: ../../project_and_asset_management/project_notes.rst:57
 msgid ""
 "Taking notes just takes entering text into the notes area (4). If you want "
 "to add timecodes, move the playhead in the timeline to the desired position, "
@@ -186,21 +210,17 @@ msgstr ""
 "позначки. Натисніть посилання на часову позначку, щоб розташувати позицію "
 "відтворення у цій точці на монтажному столі."
 
-#: ../../project_and_asset_management/project_notes.rst:61
-msgid "project_notes_examples"
-msgstr "project_notes_examples"
-
-#: ../../project_and_asset_management/project_notes.rst:61
+#: ../../project_and_asset_management/project_notes.rst:64
 msgid "Project Notes examples"
 msgstr "Приклади нотаток щодо проєкту"
 
-#: ../../project_and_asset_management/project_notes.rst:63
+#: ../../project_and_asset_management/project_notes.rst:66
 msgid "This example has two notes with timecodes, and one just as simple text."
 msgstr ""
 "У цьому прикладі маємо дві нотатки із часовими позначками і одну просту "
 "текстову нотатку."
 
-#: ../../project_and_asset_management/project_notes.rst:67
+#: ../../project_and_asset_management/project_notes.rst:70
 msgid ""
 "A neat feature is the ability to create :doc:`markers</"
 "cutting_and_assembling/markers>` from the timecodes in the notes. Select a "
@@ -213,6 +233,19 @@ msgstr ""
 "часову позначку (не має значення, якщо ви виберете додатковий текст) і "
 "натисніть |list-add|\\ :guilabel:`Створити позначки з вибраних часових "
 "прив'язок`, і Kdenlive створить позначку у цій точці на монтажному столі."
+
+#~ msgid "edit-find-replace"
+#~ msgstr "edit-find-replace"
+
+#~ msgid "project_notes"
+#~ msgstr "project_notes"
+
+#~ msgid "|list-add|\\ :guilabel:`Create markers from selected timecodes`"
+#~ msgstr ""
+#~ "|list-add|\\ :guilabel:`Створити позначки з вибраних часових прив'язок`"
+
+#~ msgid "project_notes_examples"
+#~ msgstr "project_notes_examples"
 
 #~ msgid "add-subtitle"
 #~ msgstr "add-subtitle"
@@ -267,9 +300,6 @@ msgstr ""
 
 #~ msgid "document-export"
 #~ msgstr "document-export"
-
-#~ msgid "document-import"
-#~ msgstr "document-import"
 
 #~ msgid "document-new"
 #~ msgstr "document-new"

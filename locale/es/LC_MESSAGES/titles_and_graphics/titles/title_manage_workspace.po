@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 01:54+0000\n"
+"POT-Creation-Date: 2025-08-18 01:56+0000\n"
 "PO-Revision-Date: 2025-08-14 20:28+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -35,10 +35,6 @@ msgstr ""
 "componer"
 
 #: ../../titles_and_graphics/titles/title_manage_workspace.rst:0
-msgid "title_toolbar-add_object"
-msgstr "title_toolbar-add_object"
-
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:0
 msgid "Use grid"
 msgstr "Usar cuadrícula"
 
@@ -59,14 +55,14 @@ msgid "Zoom slider"
 msgstr "Deslizador Ampliación"
 
 #: ../../titles_and_graphics/titles/title_manage_workspace.rst:0
-msgid "Show background"
-msgstr "Componer"
+msgid "Show timeline"
+msgstr ""
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:15
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:16
 msgid "Title Editor Workspace"
 msgstr "Espacio de trabajo del Titulador"
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:18
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:19
 msgid "Coordinate System"
 msgstr "Sistema de coordenadas"
 
@@ -125,24 +121,24 @@ msgstr "Esto también fijará el centro usado para la rotación."
 msgid "Guides, Zoom Level, and Background"
 msgstr "Guías, nivel de ampliación, componer y fondo"
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:53
-msgid "Title Editor Workspace Controls"
-msgstr "Controles del espacio de trabajo del Titulador"
-
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:53
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:52
 msgid "Title editor workspace controls"
 msgstr "Controles del espacio de trabajo del Titulador"
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:55
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:54
+#, fuzzy
+#| msgid ""
+#| "You can adjust some aspects of the workspace using the tools in this "
+#| "toolbar. By default, only :guilabel:`Show background` is selected."
 msgid ""
 "You can adjust some aspects of the workspace using the tools in this "
-"toolbar. By default, only :guilabel:`Show background` is selected."
+"toolbar. By default, only :guilabel:`Show timeline` is selected."
 msgstr ""
 "Será posible ajustar algunos aspectos del espacio de trabajo usando las "
 "opciones presentes en esta barra de herramientas. De forma predeterminada, "
 "sólo la opción :guilabel:`Fondo` se encontrará activa."
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:57
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:56
 msgid ""
 "If the title clip is in a track above another clip, the content of the clip "
 "below the title clip will be shown as the background."
@@ -151,12 +147,12 @@ msgstr ""
 "de tiempo, el contenido del clip de abajo se mostrará como fondo del "
 "titulador."
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:59
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:58
 msgid "Turns on a grid that objects snap to"
 msgstr ""
 "Mostrará y activará una cuadrícula a la que los objetos podrán adherirse"
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:61
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:60
 msgid ""
 "Displays a set of guides and turns on the fields for number of vertical "
 "lines (default is 3), horizontal lines (default is 2), and the color button "
@@ -166,7 +162,7 @@ msgstr ""
 "de líneas verticales (predeterminadas: 3), horizontales (predeterminadas: "
 "2), así como la muestra de color (predeterminado: rojo)."
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:63
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:62
 msgid ""
 "Adjusts the zoom level to fit the standard viewport (or the canvas) to the "
 "width of the workspace"
@@ -174,7 +170,7 @@ msgstr ""
 "Ajustará el nivel de ampliación del lienzo, para que se muestre toda la "
 "imagen del proyecto en el titulador"
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:65
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:64
 msgid ""
 "Adjusts the zoom level to display the title full size (depending on project "
 "settings)"
@@ -182,7 +178,7 @@ msgstr ""
 "Ajustará el nivel de ampliación para mostrar la imagen a su tamaño real "
 "(dependiente de las opciones del proyecto)"
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:67
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:66
 msgid ""
 "Use the slider to adjust the zoom level. Alternatively, you can enter a zoom "
 "level percentage, or use :kbd:`Ctrl+MW` inside the workspace."
@@ -192,13 +188,30 @@ msgstr ""
 "nivel de ampliación o usar el atajo :kbd:`Ctrl+RuedaRatón` dentro del "
 "espacio de trabajo."
 
-#: ../../titles_and_graphics/titles/title_manage_workspace.rst:69
+#: ../../titles_and_graphics/titles/title_manage_workspace.rst:68
+#, fuzzy
+#| msgid ""
+#| "When selected, the content of the clip in the timeline below the title "
+#| "clip is displayed. If not selected, the background can be set to :"
+#| "guilabel:`Checkered`, :guilabel:`Black`, or :guilabel:`White`."
 msgid ""
 "When selected, the content of the clip in the timeline below the title clip "
-"is displayed. If not selected, the background can be set to :guilabel:"
-"`Checkered`, :guilabel:`Black`, or :guilabel:`White`."
+"is displayed. **Timecode**: You can change the timecode or seek when holding "
+"the :kbd:`LMB` and dragging left and right (:kbd:`Shift+drag` or :kbd:`MW` "
+"for 1 frame, :kbd:`Ctrl+MW` for 5 frames, :kbd:`Ctrl+drag` for fast seek). "
+"**If not selected**, the background can be set to :guilabel:`Checkered`, :"
+"guilabel:`Black`, or :guilabel:`White`."
 msgstr ""
 "Cuando esté activa, se mostrará de fondo el contenido del clip que se "
 "encuentre debajo del título en la Línea de tiempo. Cuando esté inactiva, se "
 "habilitará un menú desplegable para la selección de un fondo de tipo :"
 "guilabel:`Damero`, :guilabel:`Negro` o :guilabel:`Blanco`."
+
+#~ msgid "title_toolbar-add_object"
+#~ msgstr "title_toolbar-add_object"
+
+#~ msgid "Show background"
+#~ msgstr "Componer"
+
+#~ msgid "Title Editor Workspace Controls"
+#~ msgstr "Controles del espacio de trabajo del Titulador"
