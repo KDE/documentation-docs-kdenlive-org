@@ -4,14 +4,13 @@
 # Automatically generated, 2024.
 #
 # SPDX-FileCopyrightText: 2024 Eloy Cuadra <ecuadra@eloihr.net>
-# Gabriel Gazzán <gabcorreo@gmail.com>, %Y.
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_more_information___earlier_versions___variable_bit_rate\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 01:54+0000\n"
-"PO-Revision-Date: 2024-02-01 01:46+0100\n"
+"PO-Revision-Date: 2025-08-18 23:57+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,22 +18,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../more_information/earlier_versions/variable_bit_rate.rst:-1
 msgid ""
 "The Kdenlive User Manual - Notes for Earlier Versions - Variable Bit Rate"
 msgstr ""
+"Manual de usuario de Kdenlive - Notas acerca de las versiones anteriores - "
+"Frecuencia de bits variable"
 
 #: ../../more_information/earlier_versions/variable_bit_rate.rst:-1
 msgid ""
 "KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
 "help, learn, easy, earlier version, variable bit rate"
 msgstr ""
+"KDE, Kdenlive, documentación, manual de usuario, editor de video, código "
+"abierto, libre, aprender, fácil, versiones anteriores, versión anterior, "
+"control de datos, frecuencia de bits variable, tasa de bits variable"
 
 #: ../../more_information/earlier_versions/variable_bit_rate.rst:-1
 msgid "File rendering dialog Variable Bit Rate - ver 0.9.10"
 msgstr ""
+"Diálogo de procesamiento de archivos Frecuencia de bits variable - ver 0.9.10"
 
 #: ../../more_information/earlier_versions/variable_bit_rate.rst:30
 msgid ""
@@ -42,10 +47,13 @@ msgid ""
 "features or functions from earlier versions of Kdenlive that are deprecated "
 "or have been superseded by something else."
 msgstr ""
+"Esta página ya no se encuentra mantenida y contiene información referente a "
+"características o funciones de versiones anteriores de Kdenlive que han sido "
+"declaradas obsoletas o han sido reemplazadas por otras funciones."
 
 #: ../../more_information/earlier_versions/variable_bit_rate.rst:33
 msgid "Variable Bit Rate"
-msgstr ""
+msgstr "Frecuencia de bits variable"
 
 #: ../../more_information/earlier_versions/variable_bit_rate.rst:39
 msgid ""
@@ -63,6 +71,21 @@ msgid ""
 "lowering data size for low action scenes and using more bits for high action "
 "scenes."
 msgstr ""
+"Cuando se seleccione un perfil con una frecuencia de bits variable (VBR), la "
+"sección :menuselection:`Tamaño del archivo` mostrará un menú desplegable "
+"para escoger la **Calidad de video** deseada. Este valor de calidad será "
+"dependiente del compresor y representará la calidad del video que será "
+"procesado. Generalmente, valores menores significarán una calidad de video "
+"mayor y tamaños de archivo también mayores (p.ej, al usar x264, MPEG2, VPx), "
+"aunque con algunos compresores se usará una relación inversa (p.ej, con "
+"Theora). Los perfiles provistos por Kdenlive ofrecerán estos valores "
+"ordenados desde una mayor calidad hasta a una menor. El tamaño exacto de los "
+"archivos generados no podrá ser predicho al usar una frecuencia de bits "
+"variable. La idea detrás de este sistema es que se especifique una cierta "
+"calidad de video general deseada a lo largo de todo el video y que el "
+"compresor optimice la frecuencia de bits para producir la calidad "
+"especificada, pudiendo bajar el flujo de datos en escenas de poca acción o "
+"elevarlo en escenas con mucha acción."
 
 #: ../../more_information/earlier_versions/variable_bit_rate.rst:41
 msgid ""
@@ -71,3 +94,8 @@ msgid ""
 "Mb. Whereas rendering the same footage at quality quality 20 produced an "
 "83Mb file."
 msgstr ""
+"Ejemplo: 1min 55 segundos de material de un iPhone con una resolución de 720 "
+"× 576 y compresión H.264, procesado a una calidad de 15 usando el perfil "
+"H.264/AAC High Profile producirá un archivo con un tamaño de 186 Mb. "
+"Mientras que procesar el mismo archivo a una calidad de 20 producirá un "
+"archivo de 83Mb de tamaño."

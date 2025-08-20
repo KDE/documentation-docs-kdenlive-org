@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-14 12:25+0100\n"
+"PO-Revision-Date: 2025-08-18 23:57+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -149,6 +149,11 @@ msgid ""
 "bottom right-hand corner. You need to set keyframes and the time value for "
 "the effect to work. The default settings simply display a blueish bar."
 msgstr ""
+"Este efecto dibujará una especie de barra de cuenta regresiva sobre la "
+"esquina inferior derecha de la imagen de un clip. Será necesario definir "
+"claves de animación para hacer que la barra vaya decreciendo hacia el final "
+"del clip. Las opciones predeterminadas simplemente mostrarán una barra "
+"azulada estática."
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:72
 msgid "Parameters"
@@ -173,6 +178,7 @@ msgstr "Selector"
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:84
 msgid "Set the color for the countdown (or count-up) indicator"
 msgstr ""
+"Permitirá definir el color de la barra de cuenta regresiva (o progresiva)"
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:85
 msgid "Time"
@@ -187,6 +193,10 @@ msgid ""
 "Set the time value. Range is from 0 (default, bar is full or at 100%) to "
 "1000 (bar is gone or at 0%)."
 msgstr ""
+"Definirá el valor actual de tiempo transcurrido mostrado en forma de "
+"extensión de la barra de color. El rango permitido será entre 0 "
+"(predeterminado, barra con extensión del 100%) y 1000 (barra con extensión "
+"del 0% o invisible)."
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:88
 msgid "Transparency"
@@ -198,7 +208,7 @@ msgstr "Porcentaje"
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:90
 msgid "Define the transparency of the indicator"
-msgstr ""
+msgstr "Definirá la transparencia del indicador (la barra)"
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:94
 msgid "Examples"
@@ -206,19 +216,24 @@ msgstr "Ejemplos"
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:95
 msgid "Count down/count up for the entire length of the clip"
-msgstr ""
+msgstr "Cuenta regresiva/progresiva durante toda la extensión de un clip"
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:97
 msgid ""
 "Create a keyframe at the end of the clip and change the :guilabel:`Time` "
 "value to 1000. For count up swap the :guilabel:`Time` values."
 msgstr ""
+"Crear un clave al final del clip y cambiar el valor de la opción :guilabel:"
+"`Tiempo transcurrido` a 1000. Para una cuenta progresiva, intercambiar los "
+"valores de los claves."
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:106
 msgid ""
 "Countdown starts 3 seconds before the end of the clip and the indicator goes "
 "from yellow to red"
 msgstr ""
+"Cuenta regresiva comenzando 3 segundos antes del final de un clip, con la "
+"barra cambiando su color de amarillo a rojo"
 
 #: ../../effects_and_filters/video_effects/utility/timeout_indicator.rst:108
 msgid ""
@@ -230,3 +245,12 @@ msgid ""
 "timeline, create a keyframe (type is :guilabel:`Linear`) and set the :"
 "guilabel:`Time` value to 0 and the :guilabel:`Indicator Color` to yellow."
 msgstr ""
+"Ir hasta el primer clave (el predeterminado) y establecer el valor de :"
+"guilabel:`Tiempo transcurrido` en 1000 y el :guilabel:`Color del indicador` "
+"en amarillo. Definir la interpolación del clave en :guilabel:`Escalonada`. "
+"Ir hasta el último fotograma y establecer el valor de :guilabel:`Tiempo "
+"transcurrido` en 1000 el :guilabel:`Color del indicador` en rojo. Asegurarse "
+"de que la interpolación del clave sea :guilabel:`Lineal`. Retroceder 3 "
+"segundos en la línea de tiempo, crear un clave (con interpolación :guilabel:"
+"`Lineal`) y establecer el :guilabel:`Tiempo transcurrido` en 0 y el :"
+"guilabel:`Color del indicador` en amarillo."

@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 02:53-0300\n"
+"PO-Revision-Date: 2025-08-18 23:55+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -114,12 +114,18 @@ msgstr "Descripción"
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:44
 msgid "This effect/filter applies motion-compensation deinterlacing."
 msgstr ""
+"Este efecto aplica un desentrelazado con compensación de movimientos a la "
+"imagen de un clip."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:46
 msgid ""
 "It needs one field per frame as input and must thus be used together with "
 "``yadif=1/3`` or equivalent."
 msgstr ""
+"El clip al cual se aplicará el efecto deberá tener un campo por fotograma, "
+"por lo que deberá ser previamente procesado con un algoritmo de entresacado "
+"como ``yadif`` (en sus modos *send_field* (1) o *send_field_nospatial* (3)) "
+"o equivalente."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:50
 msgid "Parameters"
@@ -144,7 +150,7 @@ msgstr "Selección"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:62
 msgid "Sets the deinterlacing mode"
-msgstr ""
+msgstr "Permitirá establecer el modo de desentrelazado"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:63
 msgid "Picture field parity"
@@ -153,6 +159,7 @@ msgstr "Orden campos"
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:65
 msgid "Sets the picture field parity assumed for the input video"
 msgstr ""
+"Permitirá establecer el orden de campos asumido para la imagen del clip"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:66
 msgid "QP"
@@ -168,7 +175,7 @@ msgid ""
 "Higher values should result in a smoother motion vector field but less "
 "optimal individual vectors. Default value is 1."
 msgstr ""
-"Definirá el parámetro de cuantización (PC) por cada bloque, usado por el "
+"Definirá el Parámetro de Cuantización (PC) para cada bloque, usado por el "
 "codificador interno. Valores mayores deberían producir campos con vectores "
 "de movimiento más suaves, aunque también vectores individuales de movimiento "
 "menos óptimos. Predeterminado: 1."
@@ -189,7 +196,7 @@ msgstr "Rápido"
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:80
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:84
 msgid "Iterative motion estimation"
-msgstr ""
+msgstr "Estimación de movimiento iterativa"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:81
 msgid "Medium"
@@ -197,7 +204,7 @@ msgstr "Medio"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:82
 msgid "Iterative motion estimation (default)"
-msgstr ""
+msgstr "Estimación de movimiento iterativa (predeterminado)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:83
 msgid "Slow"
@@ -210,6 +217,7 @@ msgstr "Extra lento"
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:86
 msgid "Iterative motion estimation using multiple reference frames"
 msgstr ""
+"Estimación de movimiento iterativa, usando varios fotogramas como referencia"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/motion_compensation_deinterlacer.rst:88
 msgid ":guilabel:`Picture field parity`"

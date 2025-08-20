@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 03:00-0300\n"
+"PO-Revision-Date: 2025-08-18 23:55+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -121,8 +121,8 @@ msgid ""
 "color primaries. Input video needs to have an even size."
 msgstr ""
 "Este efecto permitirá convertir el :term:`espacio de color`, las "
-"características de transferencia y los colores primarios. El clip de video "
-"deberá tener un tamaño uniforme."
+"características de transferencia y los colores primarios de un clip. El clip "
+"de video deberá tener un tamaño uniforme."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:51
 msgid ""
@@ -136,6 +136,16 @@ msgid ""
 "any of these are missing, the filter will log an error and no conversion "
 "will take place."
 msgstr ""
+"El efecto convertirá las características de transferencia, el espacio de "
+"color y los colores primarios a los valores especificados por el usuario. El "
+"valor de salida, si no fuera especificado, quedará establecido en un valor "
+"predeterminado, basado en la opción :guilabel:`Propiedades de color`. De "
+"forma predeterminada, el rango y formato de salida quedarán en los mismos "
+"valores que el rango y formato de entrada. Las características de "
+"transferencia, el espacio de color, los colores primarios y el rango de "
+"colores deberán estar establecidos en los datos de entrada. Ante la falta de "
+"cualquiera de éstos, el efecto producirá un error y se producirá ninguna "
+"conversión."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:55
 msgid "Parameters"
@@ -171,7 +181,7 @@ msgstr "Selección"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:67
 msgid "Specify all color properties at once"
-msgstr ""
+msgstr "Permitirá especificar todas las propiedades de color a la vez"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:68
 msgid "Output color space"
@@ -179,7 +189,7 @@ msgstr "Espacio de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:70
 msgid "Specifies output color space"
-msgstr ""
+msgstr "Permitirá especificar el espacio de color de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:71
 msgid "Output transfer characteristics"
@@ -187,7 +197,7 @@ msgstr "Transferencia de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:73
 msgid "Specifies output transfer characteristics"
-msgstr ""
+msgstr "Permitirá especificar las características de transferencia de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:74
 msgid "Output color primaries"
@@ -195,7 +205,7 @@ msgstr "Primarios de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:76
 msgid "Specifies output color primaries"
-msgstr ""
+msgstr "Permitirá especificar los colores primarios de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:77
 msgid "Output color range"
@@ -203,7 +213,7 @@ msgstr "Rango de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:79
 msgid "Specifies output color range"
-msgstr ""
+msgstr "Permitirá especificar el rango de colores de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:80
 msgid "Output color format"
@@ -211,7 +221,7 @@ msgstr "Formato de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:82
 msgid "Specifies output color format"
-msgstr ""
+msgstr "Permitirá especificar el formato de color de salida"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:83
 msgid "Fast conversion"
@@ -228,6 +238,11 @@ msgid ""
 "compatible with that produced by the :doc:`/effects_and_filters/"
 "video_effects/image_adjustment/color_matrix` filter, switch it on."
 msgstr ""
+"Permitirá realizar una conversión rápida, que omitirá la corrección gama/"
+"primaria. Esto requerirá significativamente menos poder de CPU, aunque será "
+"matemáticamente incorrecta. Al activar esta opción se obtendrá un resultado "
+"final compatible con el producido por el efecto :doc:`/effects_and_filters/"
+"video_effects/image_adjustment/color_matrix`."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:86
 msgid "Dithering mode"
@@ -243,7 +258,7 @@ msgstr "Adaptación de punto de blanco"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:91
 msgid "Specifies whitepoint adaptation mode"
-msgstr ""
+msgstr "Permitirá especificar el modo de adaptación del punto de blanco"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:92
 msgid "Override all input properties at once"
@@ -500,3 +515,6 @@ msgid ""
 "For the technical inclined there is a list of detailed |"
 "color_space_descriptions| available in the Linux Kernel documentation."
 msgstr ""
+"Existe una lista detallada de descripciones de los distintos espacios de "
+"color, disponible en la documentación del núcleo de Linux: |"
+"color_space_descriptions|."

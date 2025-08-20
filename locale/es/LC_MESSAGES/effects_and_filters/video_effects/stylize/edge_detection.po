@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___video_effects___stylize___edge_detection.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___stylize___edge_detection.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2023.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2023.
+#
+# SPDX-FileCopyrightText: 2023 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___video_effects___stylize___edge_detection\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 01:02-0300\n"
+"PO-Revision-Date: 2025-08-18 23:56+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -137,6 +137,8 @@ msgid ""
 "This effect/filter detects and draws edges using the Canny edge detection "
 "algorithm\\ [1]_."
 msgstr ""
+"Este efecto permitirá detectar y dibujar bordes usando el algoritmo de "
+"detección de bordes desarrollado por John F. Canny\\ [1]_."
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:57
 msgid "Parameters"
@@ -166,6 +168,13 @@ msgid ""
 "guilabel:`Low threshold`. Range is from 0.000 to 1.000 with :guilabel:`Low "
 "threshold` being lower or equal to :guilabel:`High threshold`."
 msgstr ""
+"Definirán los valores de los umbrales inferior y superior usados por el "
+"algoritmo. El :guilabel:`Umbral superior` permitirá seleccionar los píxeles "
+"de bordes \"fuertes\", que serán luego conectados mediante una *conectividad "
+"indirecta* con los píxeles de bordes \"débiles\" seleccionados por el :"
+"guilabel:`Umbral inferior`. El rango permitido será de 0,000 a 1,000, en "
+"donde el valor del :guilabel:`Umbral inferior` deberá ser menor o igual al "
+"del :guilabel:`Umbral superior`."
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:70
 msgid "Modes"
@@ -187,6 +196,7 @@ msgstr "Planos"
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:75
 msgid "Select the :term:`planes<plane>` for filtering"
 msgstr ""
+"Permitirá seleccionar los :term:`planos<plano>` afectados por el efecto"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:77
 msgid "The following selection items are available:"
@@ -203,7 +213,7 @@ msgstr "Líneas"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:87
 msgid "Draw white/gray wires on black background (default)"
-msgstr ""
+msgstr "Dibujará líneas blancas/grises sobre un fondo negro (predeterminado)"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:88
 msgid "Colormix"
@@ -212,14 +222,18 @@ msgstr "Mezcla de color"
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:89
 msgid "Mix the colors to create a paint/cartoon effect"
 msgstr ""
+"Mezclará los colores para crear una apariencia de estilo pintado o dibujo "
+"animado"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:90
 msgid "Canny"
-msgstr "Perceptivo"
+msgstr "Canny"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:91
 msgid "Applies Canny edge detector on all selected :term:`planes<plane>`"
 msgstr ""
+"Aplicará el método de detección de bordes de Canny a todos los :term:"
+"`planos<plano>` seleccionados"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:93
 msgid ":guilabel:`Planes`"
@@ -236,6 +250,8 @@ msgstr "Y/U/V"
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:103
 msgid "Also combinations of the planes are possible. Default is **YUV**."
 msgstr ""
+"Podrán seleccionarse distintas combinaciones de los tres planos disponibles. "
+"Predeterminado: **YUV**."
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:104
 msgid "Alpha"
@@ -245,3 +261,5 @@ msgstr "Alfa"
 msgid ""
 "For more details refer to the |canny_edge_detector| article in Wikipedia."
 msgstr ""
+"Para más detalles acerca de este método, ver el artículo de Wikipedia: |"
+"canny_edge_detector|."

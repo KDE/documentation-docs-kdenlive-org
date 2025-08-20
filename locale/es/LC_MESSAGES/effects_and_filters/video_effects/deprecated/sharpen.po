@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___effect_groups___enhancement___sharpen.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___deprecated___sharpen.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2021.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2021.
+#
+# SPDX-FileCopyrightText: 2021 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___effect_groups___enhancement___sharpen\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-03 08:06+0000\n"
-"PO-Revision-Date: 2025-07-15 03:31-0300\n"
+"PO-Revision-Date: 2025-08-18 23:54+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -39,6 +39,11 @@ msgid ""
 "unsharp masking. The \"size\" means the size of the blur, and the amount is "
 "how much of the blurred version gets subtracted."
 msgstr ""
+"Este efecto ha sido transportada desde el efecto `unsharp mask <https://en."
+"wikipedia.org/wiki/Unsharp_masking>`_ de Mplayer. Los parámetros son los "
+"esperables para un efecto de enfoque. La opción Tamaño controlará el tamaño "
+"del desenfoque y la opción Intensidad determinará cuánto de la versión "
+"desenfocada será sustraída de la imagen original."
 
 #: ../../effects_and_filters/video_effects/deprecated/sharpen.rst:24
 msgid ""
@@ -46,6 +51,10 @@ msgid ""
 "neighbourhood, 250 represents a 5x5 neighbourhood, and 1000 represents an "
 "11x11 neighbourhood. Typically values from 0-250 are a good starting point."
 msgstr ""
+"La opción Tamaño tiene un rango de 0 a 1000, en donde 0 representará una "
+"vecindad de 3×3, 250 representará una de 5×5 y 1000 una de 11×11. "
+"Normalmente valores en el rango de 0 a 250 servirán como un buen punto de "
+"partida."
 
 #: ../../effects_and_filters/video_effects/deprecated/sharpen.rst:26
 msgid ""
@@ -58,6 +67,15 @@ msgid ""
 "below 300 will result in a gaussian blurring of the picture, with an input "
 "value of 0 representing a -150% \"sharpening\" (ie. gaussian blurring)."
 msgstr ""
+"La opción Intensidad también utiliza un rango entre 0 y 1000 y un valor "
+"predeterminado de 300. Éste último representará el punto de neutralidad, "
+"correspondiendo a un enfoque del 0%. Aumentarlo por encima de 300 aumentará "
+"la intensidad del enfoque, en donde 500 representará un enfoque del 100%, "
+"700 uno de 200% y 1000 uno de 350%. Un valor de 500 (es decir, un enfoque "
+"del 100%) servirá normalmente como un buen punto de partida. Al reducir el "
+"valor por debajo de 300 se producirá un desenfoque gaussiano de la imagen, "
+"al usar un valor de 0 se producirá un \"enfoque\" negativo del -150% (es "
+"decir, un desenfoque gaussiano)."
 
 #: ../../effects_and_filters/video_effects/deprecated/sharpen.rst:28
 msgid ""

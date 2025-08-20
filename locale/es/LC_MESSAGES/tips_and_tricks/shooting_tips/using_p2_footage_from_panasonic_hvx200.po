@@ -1,38 +1,44 @@
-# Spanish translations for docs_kdenlive_org_glossary___shootinghints___using_p2_footage_from_panasonic_hvx200.po package.
+# Spanish translations for docs_kdenlive_org_tips_and_tricks___shooting_tips___using_p2_footage_from_panasonic_hvx200.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2022.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2022.
+#
+# SPDX-FileCopyrightText: 2022 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_glossary___shootinghints___using_p2_footage_from_panasonic_hvx200\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 01:54+0000\n"
-"PO-Revision-Date: 2022-02-27 13:35+0100\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"PO-Revision-Date: 2025-08-18 23:58+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:-1
 msgid "Kdenlive Tips & Tricks - Shooting with Your DSLR"
 msgstr ""
+"Consejos y trucos de Kdenlive - Consejos de filmación: Filmación con cámaras "
+"DSLR"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:-1
 msgid ""
 "KDE, Kdenlive, tips, tricks, tips & tricks, shooting tips, shooting, DSLR, "
 "documentation, user manual, video editor, open source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, documentación, manual de usuario, editor de video, código "
+"abierto, libre, aprender, fácil, consejos y trucos, consejos, trucos, "
+"consejos de filmación, filmación, filmación con cámaras dslr, dslr, "
+"panasonic, hvx200, p2"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:38
 msgid "Using P2 Footage from the Panasonic HVX200"
-msgstr ""
+msgstr "Uso material P2 de cámaras Panasonic HVX200"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:40
 msgid ""
@@ -45,6 +51,16 @@ msgid ""
 "transcoding and so can be done in the field while shooting just as fast as "
 "simply transferring the original P2 files."
 msgstr ""
+"¡Usar material proveniente de tarjetas P2 es sencillo cuando se sabe cómo! "
+"Los archivos MXF de las tarjetas P2 no pueden ser leídos hasta no ser "
+"convertidos mediante el utilitario |mxfsplit|, que forma parte de |freemxf|. "
+"La conversión no afecta la calidad y los archivos resultantes contendrán "
+"tanto video como audio y podrán ser editados en tiempo real con Kdenlive en "
+"la mayoría de las computadoras fabricadas en los últimos 10 años. Además, |"
+"ffmpeg| podrá leer dichos archivos. Este proceso se realiza muy rápidamente, "
+"dado que no hay ninguna transcodificación involucrada y, por lo tanto, podrá "
+"ser realizado en campo, mientras se produce la filmación, de una forma tan "
+"rápida como lo es la propia transferencia de los archivos P2 originales."
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:44
 msgid "Step One: FreeMXF"
@@ -52,17 +68,20 @@ msgstr "Paso 1: FreeMXF"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:46
 msgid "Get the source code for **MFXlib** from |sourceforge|."
-msgstr ""
+msgstr "Obtener el código fuente de **MFXlib** desde |sourceforge|."
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:48
 msgid ""
 "Then configure, compile, and install it by running the following code in the "
 "directory where you saved the source files:"
 msgstr ""
+"Luego configurar, compilar e instalarlo ejecutando el siguiente código en la "
+"carpeta donde se hubieran guardado los archivos fuente:"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:58
 msgid "This will get **mxfsplit** (part of **mxflib**) working."
 msgstr ""
+"Esto bastará para que **mxfsplit** (parte de **mxflib**) quede funcionando."
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:62
 msgid "Step Two: Using mxfsplit"
@@ -74,6 +93,11 @@ msgid ""
 "MXF files in a chosen directory into usable files. Do a search and replace "
 "for ``/source/directory`` and ``/destination/directory``"
 msgstr ""
+"Se presenta aquí un pequeño script que podrá ser ejecutado desde una "
+"terminal. Convertirá todos los archivos MXF en la carpeta seleccionada en "
+"archivos editables. Modificar ``/source/directory`` y ``/destination/"
+"directory`` por las rutas apropiadas a las carpetas de origen y destino "
+"deseadas"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:88
 msgid "Conclusion"
@@ -86,3 +110,8 @@ msgid ""
 "the resulting .MXF files to whatever format is preferred. For example, the "
 "following code would get the files ready for Youtube, Vimeo, etc.:"
 msgstr ""
+"Este scripts permitirá preparar fácilmente material para la edición en "
+"Kdenlive y para su transcodificación. FFMPEG podrá ser usado para "
+"transcodificar los archivos .MXF resultantes al formato deseado. Por "
+"ejemplo, el siguiente código aprontará los archivos para ser enviados a "
+"Youtube, Vimeo, etc.:"

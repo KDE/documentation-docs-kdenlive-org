@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___video_effects___generate___timer.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___generate___timer.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2023.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2023.
+#
+# SPDX-FileCopyrightText: 2023 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___video_effects___generate___timer\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 03:25-0300\n"
+"PO-Revision-Date: 2025-08-18 23:54+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -143,6 +143,8 @@ msgid ""
 "This effect/filter overlays a timer onto the video. The timer can count up "
 "or down."
 msgstr ""
+"Este efecto permitirá superponer un temporizador sobre la imagen de un clip. "
+"La cuenta del mismo podrá ser progresiva o regresiva."
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:52
 msgid "Parameters"
@@ -169,6 +171,9 @@ msgid ""
 "Select the font and its attributes for the text. **Font Weight** seems to "
 "behave differently depending on the selected font family."
 msgstr ""
+"Permitirá escoger la tipografía, así como sus atributos, para el texto. Los "
+"**Estilo de tipografía** disponibles dependerán de la familia de tipografía "
+"seleccionada."
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:65
 msgid "Outline Width"
@@ -182,6 +187,8 @@ msgstr "Entero"
 #: ../../effects_and_filters/video_effects/generate/timer.rst:67
 msgid "Set the width of the outline in pixels to 0, 1, 2 or 3"
 msgstr ""
+"Definirá el ancho del contorno de los caracteres, en píxeles. Los valores "
+"permitidos son 0, 1, 2 o 3 píxeles"
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:68
 msgid "Padding"
@@ -190,7 +197,7 @@ msgstr "Relleno"
 #: ../../effects_and_filters/video_effects/generate/timer.rst:70
 msgid ""
 "The number of pixels to pad the background rectangle beyond the edges of text"
-msgstr ""
+msgstr "La cantidad de píxeles a ampliar el marco de fondo del texto"
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:71
 msgid "Horizontal / Vertical Alignment"
@@ -205,6 +212,8 @@ msgstr "Selección"
 #: ../../effects_and_filters/video_effects/generate/timer.rst:73
 msgid "Set the horizontal and vertical alignment within the geometry rectangle"
 msgstr ""
+"Permitirán, respectivamente, escoger una alineación horizontal y vertical, "
+"con respecto al marco definido en el monitor"
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:74
 msgid "Format"
@@ -212,7 +221,7 @@ msgstr "Formato"
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:76
 msgid "The time format of the timer text"
-msgstr ""
+msgstr "Permitirá establecer un formato numérico para el temporizador"
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:77
 msgid "Start"
@@ -230,6 +239,9 @@ msgid ""
 "frozen at 00:00:00.000 from the start of the filter until the start time has "
 "elapsed."
 msgstr ""
+"El tiempo en el que el temporizador comenzará a contar. El texto mostrado "
+"por el efecto permanecerá congelado en 00:00:00.000 desde el inicio del "
+"efecto hasta que el tiempo de inicio sea alcanzado."
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:80
 msgid "Duration"
@@ -240,6 +252,10 @@ msgid ""
 "The maximum elapsed duration of the timer after the start time has elapsed. "
 "The text will be frozen at the duration time after the duration has elapsed."
 msgstr ""
+"Tiempo máximo que llegará a alcanzar el temporizador, una vez que el tiempo "
+"de inicio haya transcurrido. El texto mostrado por el efecto permanecerá "
+"congelado en el tiempo de duración, luego de que el tiempo máximo haya sido "
+"alcanzado."
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:83
 msgid "Offset"
@@ -251,6 +267,11 @@ msgid ""
 "the timer will count down to \"offset\" instead of 00:00:00.000. When the "
 "direction is up, the timer will count up starting from \"offset\"."
 msgstr ""
+"Un desplazamiento a ser adicionado al valor del temporizador. Cuando la "
+"dirección sea \"down\" (regresiva), el temporizador contará de forma "
+"regresiva hasta el \"desplazamiento\", en vez de hasta 00:00:00.000. Cuando "
+"la dirección sea \"up\" (progresiva), el temporizador contará de forma "
+"progresiva, partiendo del valor de \"desplazamiento\"."
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:86
 msgid "Direction"
@@ -279,6 +300,9 @@ msgid ""
 "rectangle. You can use these parameters to fine tune the position, size and :"
 "term:`opacity` of the overlay."
 msgstr ""
+"Definirá las coordenadas de posición X e Y, el Ancho y la Altura, así como "
+"el Tamaño y la Opacidad del rectángulo del efecto. Será posible usar estos "
+"parámetros para retocar la posición, tamaño y :term:`opacidad` del efecto."
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:92
 msgid "Foreground / Background / Outline Color"
@@ -294,6 +318,9 @@ msgid ""
 "defined by :guilabel:`Padding` and the outline color (if :guilabel:`Outline "
 "Width` is greater than 0)."
 msgstr ""
+"Permitirán, respectivamente, escoger el color para el texto (primer plano), "
+"el fondo del marco alrededor del texto y del controno del texto (en caso de "
+"que la opción :guilabel:`Ancho del contorno` fuera mayor a 0)."
 
 #: ../../effects_and_filters/video_effects/generate/timer.rst:97
 msgid "The following selection items are available:"

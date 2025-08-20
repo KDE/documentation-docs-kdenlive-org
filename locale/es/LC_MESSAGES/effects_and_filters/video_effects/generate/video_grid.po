@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___effect_groups___misc___cairoimagegrid.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___generate___video_grid.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2021.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2021.
+#
+# SPDX-FileCopyrightText: 2021 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___effect_groups___misc___cairoimagegrid\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 03:13-0300\n"
+"PO-Revision-Date: 2025-08-18 23:54+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -50,7 +50,7 @@ msgid ""
 "effects, generate, videogrid, video, grid "
 msgstr ""
 "KDE, Kdenlive, editor de video, ayuda, aprender, fácil, efectos, efectos de "
-"video, generación, mosaico de video"
+"video, generación, mosaico de video "
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:-1
 msgid ""
@@ -145,6 +145,9 @@ msgid ""
 "guilabel:`Columns` parameters. These take decimal fractions from zero to 1. "
 "The maximum value of 1 means 20 rows or columns."
 msgstr ""
+"Este efecto permitirá crear un mosaico con copias de la imagen de un clip. "
+"Será posible ajustar la cantidad de filas y columnas resultantes, mediante "
+"las opciones :guilabel:`Filas` y :guilabel:`Columnas`."
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:47
 msgid "Parameters"
@@ -165,13 +168,15 @@ msgstr "Filas"
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:58
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:61
 msgid "Float"
-msgstr "Decimal"
+msgstr "Entero"
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:59
 msgid ""
 "Number of rows in the image grid. Input range 0 - 1 is interpreted as range "
 "1 - 20."
 msgstr ""
+"Determinará la cantidad de filas presentes en el mosaico de imágenes. El "
+"rango permitido irá de 0 a 20."
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:60
 msgid "Columns"
@@ -182,12 +187,16 @@ msgid ""
 "Number of columns in the image grid. Input range 0 - 1 is interpreted as "
 "range 1 - 20."
 msgstr ""
+"Determinará la cantidad de columnas presentes en el mosaico de imágenes. El "
+"rango permitido irá de 0 a 20."
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:65
 msgid ""
 "``Number of rows/columns = (p X 19) + 1``    [where p = the value of the row "
 "or column parameter]"
 msgstr ""
+"La cantidad de imágenes resultantes en cada dimensión será igual a la "
+"cantidad de filas/columnas introducida + 1"
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:69
 msgid "Examples"
@@ -199,31 +208,31 @@ msgstr "kdenlive2304_effects-video_grid_3x6"
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:76
 msgid "Video Grid effect with 3 rows and 6 columns"
-msgstr ""
+msgstr "El efecto Mosaico de video con 2 filas y 5 columnas"
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:81
 msgid "rows = 0.105 ⇒  means (0.1 X 19) + 1 =  3 rows"
-msgstr ""
+msgstr "filas = 2 ⇒  significa 2 + 1 =  3 filas"
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:83
 msgid "columns = 0.263 ⇒ means (0.263 X 19) + 1 = 6  columns"
-msgstr ""
+msgstr "columnas = 5 ⇒  significa 5 + 1 =  6 columnas"
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:85
 msgid ""
 "In order to calculate the fractional value for :guilabel:`Rows` and :"
 "guilabel:`Columns` for a specific number of rows and/or columns use this "
 "formula:"
-msgstr ""
+msgstr "."
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:87
 msgid "``Rows/Columns = (#_of_rows/columns - 1) * 0.05263``"
-msgstr ""
+msgstr "."
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:90
 msgid "#_of_rows = 3 ⇒ means (3 - 1) * 0.05263 = 0.105"
-msgstr ""
+msgstr "."
 
 #: ../../effects_and_filters/video_effects/generate/video_grid.rst:92
 msgid "#_of_columns = 6 ⇒ means (6 -1) * 0.05263 = 0.263"
-msgstr ""
+msgstr "."

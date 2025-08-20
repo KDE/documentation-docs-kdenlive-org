@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 02:57-0300\n"
+"PO-Revision-Date: 2025-08-18 23:55+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -134,6 +134,10 @@ msgid ""
 "minimum. It is the opposite of the :doc:`Dilation</effects_and_filters/"
 "video_effects/image_adjustment/dilation>` effect."
 msgstr ""
+"Este efecto permitirá simular una erosión de la imagen de un clip, un efecto "
+"que agrandará los píxeles más oscuros, reemplazando el píxel por el mínimo "
+"local de (3×3). Se trata del efecto opuesto al efecto :doc:`/"
+"effects_and_filters/video_effects/image_adjustment/dilation`."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:48
 msgid "Parameters"
@@ -161,6 +165,8 @@ msgid ""
 "Limits the maximum change for each :term:`plane`, default is 65535. If 0, "
 "plane will remain unchanged."
 msgstr ""
+"Limitará el cambio máximo para cada :term:`plano`, predeterminado: 65535. En "
+"caso de ser 0, el plano permanecerá intacto."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:61
 msgid "Coordinates"
@@ -171,6 +177,8 @@ msgid ""
 "Flag which specifies the pixel to refer to. Default is 255, i.e. all eight "
 "pixels are used."
 msgstr ""
+"Indicador que especificará qué píxeles se tomarán como referencia. "
+"Predeterminado: 255 (se usarán los ocho píxeles como referencia)."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:67
 msgid "Notes"
@@ -180,7 +188,7 @@ msgstr "Notas"
 msgid "The local 3x3 matrix looks like this (**P** represents the pixel):"
 msgstr ""
 "La matriz local de 3×3 luciría de la siguiente manera (**P** representa al "
-"píxel):"
+"píxel que está siendo procesado por el efecto):"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:74
 msgid ""
@@ -188,17 +196,29 @@ msgid ""
 "of this matrix. Each point in the matrix is represented as a bit in a binary "
 "number\\ [1]_ with 8 bits."
 msgstr ""
+"El parámetro :kbd:`Coordenadas` corresponderá al valor decimal de la "
+"notación binaria de esta matriz. Cada punto de la matriz estará representado "
+"como un bit de un número binario\\ [1]_ compuesto por 8 bits."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:77
 msgid "Example 1:"
 msgstr "Ejemplo 1:"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:77
+#, fuzzy
+#| msgid ""
+#| "Pixels #1, 2, and 3 are to be used for the dilation effect. :kbd:"
+#| "`Coordinates` must be set to 00000111\\ :sub:`2`, or 2\\ :sup:`2` + 2\\ :"
+#| "sup:`1` + 2\\ :sup:`0` = 4 + 2 + 1 = 7\\ :sub:`10`"
 msgid ""
 "Pixels #1, 2, and 3 are to be used for the erosion effect. :kbd:"
 "`Coordinates` must be set to 00000111\\ :sub:`2`, or 2\\ :sup:`2` + 2\\ :sup:"
 "`1` + 2\\ :sup:`0` = 4 + 2 + 1 = 7\\ :sub:`10`"
 msgstr ""
+"Los píxeles 1, 2 y 3 serán los usados para el efecto de dilatación. La "
+"opción :kbd:`Coordenadas` deberá ser definida como 00000111\\ :sub:`(en base "
+"2)` o 2\\ :sup:`2` + 2\\ :sup:`1` + 2\\ :sup:`0` = 4 + 2 + 1 = 7\\ :sub:`(en "
+"base 10)`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:80
 msgid ""
@@ -206,6 +226,10 @@ msgid ""
 "10100101\\ :sub:`2`, or 2\\ :sup:`7` + 2\\ :sup:`5` + 2\\ :sup:`2` + 2\\ :"
 "sup:`0` = 128 + 32 + 4 + 1 = 165\\ :sub:`10`"
 msgstr ""
+"Los píxeles 1, 3, 6 y 8 serán los usados. La opción :kbd:`Coordenadas` "
+"deberá ser definida como 10100101\\ :sub:`(en base 2)` o 2\\ :sup:`7` + 2\\ :"
+"sup:`5` + 2\\ :sup:`2` + 2\\ :sup:`0` = 128 + 32 + 4 + 1 = 165\\ :sub:`(en "
+"base 10)`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:81
 msgid "Example 2:"
@@ -216,9 +240,14 @@ msgid ""
 "Binary number's digits have 2 symbols: zero (0) and one (1). Each digit of a "
 "binary number counts a power of 2."
 msgstr ""
+"Los dígitos de la numeración binaria constan sólo de dos dígitos: el cero "
+"(0) y el uno (1). Cada dígito en un número binario describe una potencia de "
+"2."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/erosion.rst:87
 msgid ""
 "Binary number example: 1101\\ :sub:`2` = 1×2\\ :sup:`3` + 1×2\\ :sup:`2` + "
 "0×2\\ :sup:`1` + 1×2\\ :sup:`0` = 13\\ :sub:`10`"
 msgstr ""
+"Ejemplo de número binario: 1101\\ :sub:`(en base 2)` = 1×2\\ :sup:`3` + "
+"1×2\\ :sup:`2` + 0×2\\ :sup:`1` + 1×2\\ :sup:`0` = 13\\ :sub:`(en base 10)`"

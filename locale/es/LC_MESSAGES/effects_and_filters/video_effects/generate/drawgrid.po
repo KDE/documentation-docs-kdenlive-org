@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 03:30-0300\n"
+"PO-Revision-Date: 2025-08-18 23:54+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -162,6 +162,11 @@ msgid ""
 "and alpha pixels with the pixels of the painted box. By default (off), the "
 "box will be composited onto the input, leaving the video's alpha intact."
 msgstr ""
+"En caso de que el clip tuviera canal alfa, activar esta opción permitirá que "
+"el efecto sobrescriba tanto los canales de color como el alfa, en los "
+"píxeles en donde la cuadrícula sea dibujada. De forma predeterminada "
+"(inactiva), la cuadrícula será compuesta sólo en los canales de color de la "
+"imagen, manteniendo el canal alfa intacto."
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:64
 msgid "X / Y Offset"
@@ -180,6 +185,9 @@ msgid ""
 "corner of the monitor (coordinates are based on the project dimension "
 "settings)"
 msgstr ""
+"Definirá el punto inicial de la cuadrícula, expresado en píxeles, desde la "
+"esquina superior izquierda de la imagen (las coordenadas estarán basadas en "
+"las dimensiones establecidas en las opciones de proyecto)"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:67
 msgid "Width"
@@ -188,6 +196,8 @@ msgstr "Ancho"
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:69
 msgid "Defines the distance between vertical grid lines in pixels"
 msgstr ""
+"Definirá la distancia entre las líneas verticales de la cuadrícula, en "
+"píxeles"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:70
 msgid "Height"
@@ -196,6 +206,8 @@ msgstr "Altura"
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:72
 msgid "Defines the distance between horizontal grid lines in pixels"
 msgstr ""
+"Definirá la distancia entre las líneas horizontales de la cuadrícula, en "
+"píxeles"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:73
 msgid "Thickness (px)"
@@ -206,6 +218,9 @@ msgid ""
 "Defines the thickness of the line in pixels. If set high enough, the grid is "
 "essentially filled."
 msgstr ""
+"Definirá el grosor de las líneas de la cuadrícula, en píxeles. En caso de "
+"establecerse lo suficientemente alto, la cuadrícula quedará esencialmente "
+"transformada en un bloque sólido"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:79
 msgid ""
@@ -215,3 +230,8 @@ msgid ""
 "interesting transitions by animating the number of grid lines and their "
 "thickness."
 msgstr ""
+"Este efecto podrá ser usado en combinación con los efectos :doc:`/"
+"effects_and_filters/video_effects/alpha_mask_keying/chroma_key` y :doc:`/"
+"effects_and_filters/video_effects/alpha_mask_keying/chroma_key_advanced` "
+"para crear transiciones interesantes, animando la cantidad de líneas de la "
+"cuadrícula y su grosor."

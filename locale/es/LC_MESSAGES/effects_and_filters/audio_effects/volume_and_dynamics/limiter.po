@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-10 03:50-0300\n"
+"PO-Revision-Date: 2025-08-18 23:52+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -111,6 +111,11 @@ msgid ""
 "processed. Keep in mind that the delay it produces is the attack time you "
 "set."
 msgstr ""
+"El limitador prevendrá que una señal de audio se eleve más allá de un cierto "
+"umbral deseado. Este limitador utiliza una tecnología predictiva para "
+"prevenir la distorsión de la señal. Esto significa que existirá un cierto "
+"retraso después de que la señal sea procesada. Tener en cuenta que el "
+"retraso producido será igual al tiempo de ataque especificado."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:44
 msgid "Parameters"
@@ -138,7 +143,7 @@ msgstr "Decimal"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:56
 msgid "Set input gain. Default is 1."
-msgstr ""
+msgstr "Establecerá la ganancia de entrada. Predeterminado: 1."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:57
 msgid "**Output gain**"
@@ -146,7 +151,7 @@ msgstr "**Ganancia salida**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:59
 msgid "Set output gain. Default is 1."
-msgstr ""
+msgstr "Establecerá la ganancia de salida. Predeterminado: 1."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:60
 msgid "**Limit**"
@@ -155,6 +160,8 @@ msgstr "**Límite**"
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:62
 msgid "Do not let signals above this level pass the limiter. Default is 1."
 msgstr ""
+"No se permitirá que las señales que superen este nivel pasen por el "
+"limitador. Predeterminado: 1."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:63
 msgid "**Attack**"
@@ -165,6 +172,8 @@ msgid ""
 "The limiter will reach its attenuation level in this amount of time in "
 "milliseconds. Default is 5 milliseconds."
 msgstr ""
+"El limitador alcanzará su nivel de atenuación en este tiempo, expresado en "
+"milisegundos. Predeterminado: 5,00 ms."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:66
 msgid "**Release**"
@@ -179,6 +188,8 @@ msgid ""
 "Come back from limiting to attenuation 1.0 in this amount of milliseconds. "
 "Default is 50 milliseconds."
 msgstr ""
+"Tiempo (en milisegundos) que le tomará a la señal regresar al nivel de "
+"atenuación de 1,0. Predeterminado: 50 ms."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:69
 msgid "**Enable ASC**"
@@ -195,6 +206,9 @@ msgid ""
 "average reduction level rather than reaching a reduction of 0 in the release "
 "time."
 msgstr ""
+"En caso de que siempre fuera necesaria una reducción de la ganancia, ASC se "
+"encargará de relajar hasta un nivel de reducción promedio, en vez de llegar "
+"hasta una reducción de 0 en el tiempo de relajación."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:72
 msgid "**ASC level**"
@@ -205,6 +219,9 @@ msgid ""
 "Select how much the release time is affected by ASC, 0 means nearly no "
 "changes in release time while 1 produces higher release times."
 msgstr ""
+"Permitirá determinar en qué grado el tiempo de relajación se verá afectado "
+"por ASC, 0 significará que no habrá casi cambios en el tiempo de relajación, "
+"mientras que 1 producirá tiempos de relajación mayores."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:75
 msgid "**Normalize to 0dB**"
@@ -215,3 +232,6 @@ msgid ""
 "Auto level output signal. Default is enabled. This normalizes audio back to "
 "0dB if enabled."
 msgstr ""
+"Nivel automático de señal de salida. Predeterminado: **activa**. Cuando esta "
+"opción esté activa se normalizará el audio de vuelta a 0dB, después de la "
+"aplicación del limitador."

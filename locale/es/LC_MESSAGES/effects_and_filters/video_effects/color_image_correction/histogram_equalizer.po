@@ -1,16 +1,16 @@
 # Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___color_image_correction___histogram_equalizer.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2023.
+#
 # SPDX-FileCopyrightText: 2023 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 04:13-0300\n"
+"PO-Revision-Date: 2025-08-18 23:53+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -129,6 +129,8 @@ msgid ""
 "This effect/filter applies a global color histogram equalization on a per-"
 "frame basis."
 msgstr ""
+"Este efecto aplicará una ecualización global del histograma de color, "
+"fotograma a fotograma."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/histogram_equalizer.rst:44
 msgid ""
@@ -138,6 +140,12 @@ msgid ""
 "\"automatically adjusting contrast filter\". This filter is useful only for "
 "correcting degraded or poorly captured source video."
 msgstr ""
+"Podrá ser usado para corregir imágenes con un rango comprimido de "
+"intensidades de píxeles. El efecto modificará las intensidades de los "
+"píxeles para ecualizar su distribución a lo largo del rango de intensidades "
+"posibles. Podría ser visto como un \"efecto de ajuste automático del "
+"contraste\". Resultará útil para corregir video degradado o con una pobre "
+"calidad de captura original."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/histogram_equalizer.rst:48
 msgid "Parameters"
@@ -167,6 +175,10 @@ msgid ""
 "of the input frame. The value must be a float number in the range from 0 to "
 "1 and defaults to 0.200."
 msgstr ""
+"Determinará la magnitud de la ecualización a ser aplicada. A medida que la "
+"magnitud se reduzca, la distribución de las intensidades de los píxeles se "
+"aproximará más y más a la original. El valor deberá ser un número decimal, "
+"dentro del rango entre 0 y 1. Su valor predeterminado es 0,200."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/histogram_equalizer.rst:61
 msgid "Intensity"
@@ -179,10 +191,16 @@ msgid ""
 "can be limited if needed to avoid wash-out. The value must be a float number "
 "in the range from 0 to 1 and defaults to 0.210."
 msgstr ""
+"Permitirá establecer la intensidad máxima final para el efecto, escalando "
+"los valores de salida como sea necesario. La opción de Intensidad de más "
+"arriba deberá ser definida primero como se desee, para luego limitar la "
+"intensidad máxima mediante esta opción, si fuera necesario, para evitar que "
+"la imagen se lave. Este valor deberá ser un número decimal dentro del rango "
+"entre 0 y 1; siendo el valor predeterminado 0,210."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/histogram_equalizer.rst:64
 msgid "Antibanding level"
-msgstr "Nivel de supresión de bandas"
+msgstr "Nivel supresión de bandas"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/histogram_equalizer.rst:65
 msgid "Selection"
@@ -194,6 +212,9 @@ msgid ""
 "term:`luminance` of output pixels by a small amount to avoid banding of the "
 "histogram."
 msgstr ""
+"Establecerá el nivel de supresión de bandas. En caso de estar habilitado, el "
+"efecto variará de forma aleatoria la :term:`luminancia` de los píxeles de "
+"salida ligeramente, para evitar que se produzcan bandas en el histograma."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/histogram_equalizer.rst:69
 msgid "The following selection items are available:"
