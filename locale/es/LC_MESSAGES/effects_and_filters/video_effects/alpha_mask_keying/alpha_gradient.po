@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-10 04:28-0300\n"
+"PO-Revision-Date: 2025-08-21 11:14+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -122,6 +122,10 @@ msgid ""
 "the use of graduated neutral-density filters similar to what one uses in "
 "photography\\ [2]_."
 msgstr ""
+"Permitirá rellenar el canal alfa de un clip con un gradiente especificado "
+"(frei0r.alphagrad)\\ [1]_. Su propósito es habilitar, conjuntamente con una "
+"manipulación de color controlada por canal alfa, el uso de efectos con una "
+"densidad neutral graduada similares a los usados en fotografía\\ [2]_."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:50
 msgid "Parameters"
@@ -146,6 +150,8 @@ msgstr "Selección"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:61
 msgid "Defines the compositing operation (see list below)"
 msgstr ""
+"Permitirá escoger la operación de composición a ser usada en el efecto (ver "
+"la lista más abajo)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:62
 msgid "Position"
@@ -160,6 +166,8 @@ msgid ""
 "Position where the gradient starts (default is half the project vertical "
 "resolution)"
 msgstr ""
+"Posición de inicio del gradiente (de forma predeterminada se encontrará en "
+"la mitad de la resolución vertical del proyecto)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:65
 msgid "Transition width"
@@ -173,7 +181,7 @@ msgstr "Porcentaje"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:67
 msgid "Width of the gradient (default is 505)"
-msgstr ""
+msgstr "Ancho del gradiente (predeterminado: 50,0%)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:68
 msgid "Tilt"
@@ -186,26 +194,32 @@ msgstr "Grados"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:70
 msgid "Rotation of the gradient in degrees (range is 0-360, default is 0)"
 msgstr ""
+"Orientación del gradiente, expresada en grados (rango: de 0 a 360; "
+"predeterminada: 0)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:71
 msgid "Transparency top"
-msgstr "Transparencia arriba"
+msgstr "Opacidad arriba"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:73
 msgid ""
 "Sets the transparency at the top / start of the gradient (default is 100% "
 "for full transparency)"
 msgstr ""
+"Definirá la opacidad en el extremo superior (inicio) del gradiente "
+"(predeterminada: 100% o completamente opaco)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:74
 msgid "Transparency bottom"
-msgstr "Transparencia abajo"
+msgstr "Opacidad abajo"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:76
 msgid ""
 "Sets the transparency at the bottom / end of the gradient (default is 0% for "
 "no transparency)"
 msgstr ""
+"Definirá la opacidad en el extremo inferior (final) del gradiente "
+"(predeterminada: 0% o completamente transparente)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:78
 msgid "The following selection items are available:"
@@ -222,6 +236,8 @@ msgstr "Reemplazar"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:88
 msgid "Overlay the image (default)"
 msgstr ""
+"Reemplazará el alfa de la imagen por el generado por el efecto "
+"(predeterminado)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:89
 msgid "Add"
@@ -229,7 +245,7 @@ msgstr "Adicionar"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:90
 msgid "Add the existing pixel and the calculated gradient values"
-msgstr ""
+msgstr "Adicionará el alfa generado por el efecto al alfa del clip"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:91
 msgid "Min"
@@ -238,6 +254,8 @@ msgstr "Mín"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:92
 msgid "Take the minimum of existing pixel and calculated gradient values"
 msgstr ""
+"Conservará el valor mínimo, resultante de comparar el alfa generado por el "
+"efecto y alfa del clip"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:93
 msgid "Max"
@@ -246,6 +264,8 @@ msgstr "Máx"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:94
 msgid "Take the maximum of existing pixel and calculated gradient values"
 msgstr ""
+"Conservará el valor máximo, resultante de comparar el alfa generado por el "
+"efecto y alfa del clip"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:95
 msgid "Subtract"
@@ -253,7 +273,7 @@ msgstr "Sustraer"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:96
 msgid "Subtract from the existing pixel the calculated gradient value"
-msgstr ""
+msgstr "Sustraerá el alfa generado por el efecto del alfa del clip"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:100
 msgid "Notes"
@@ -266,6 +286,12 @@ msgid ""
 "the gradient darkens the video. Note the Operation **Add** to make the text "
 "opaque."
 msgstr ""
+"En el ejemplo de abajo, una imagen `.png` ha sido superpuesta sobre un clip "
+"de video y a la que se ha aplicado un efecto *Gradiente alfa*, usando sus "
+"valores predeterminados. Es posible observar cómo el gradiente producido por "
+"el efecto en el canal alfa oscurece el video. Nótese el uso de la operación "
+"**Adicionar** para hacer opaca a la imagen con el texto en su parte "
+"superior, manteniendo además los valores ya existentes en su alfa original."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:108
 msgid "kdenlive2304_effects-alpha_gradient_before"
@@ -288,9 +314,14 @@ msgid ""
 "The description of this effect has been taken in parts from the readme file "
 "for the |alphaops|. You find much more detailed information there."
 msgstr ""
+"La descripción de este efecto ha sido en parte tomada del archivo Readme de |"
+"alphaops|. Será posible encontrar información más detallada sobre el tema "
+"allí mismo."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:133
 msgid ""
 "For more details about this topic refer to the Wikipedia entry about the |"
 "wiki_graduated_nd_filter|."
 msgstr ""
+"Para más detalles acerca de este tema, referirse al artículo de Wikipedia: |"
+"wiki_graduated_nd_filter|."

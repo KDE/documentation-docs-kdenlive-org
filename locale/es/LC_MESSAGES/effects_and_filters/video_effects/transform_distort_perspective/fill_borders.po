@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___video_effects___transform_distort_perspective___fill_borders.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___transform_distort_perspective___fill_borders.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2023.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2023.
+#
+# SPDX-FileCopyrightText: 2023 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___video_effects___transform_distort_perspective___fill_borders\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 02:15-0300\n"
+"PO-Revision-Date: 2025-08-21 11:15+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -142,6 +142,11 @@ msgid ""
 "you may not want to crop the video input to keep the size a multiple of some "
 "number."
 msgstr ""
+"Este efecto permitirá rellenar los bordes exteriores de la imagen de un "
+"clip, sin modificar sus dimensiones. En ciertas ocasiones, es posible que un "
+"video contenga elementos no deseados cerca de los bordes de la imagen, pero "
+"que no se desee recortar el tamaño de la imagen, para mantener sus "
+"dimensiones valores consistentes con otros clips."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:52
 msgid "Parameters"
@@ -165,7 +170,7 @@ msgstr "Selección"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:64
 msgid "Set fill mode"
-msgstr ""
+msgstr "Permitirá establecer el modo de relleno de la imagen"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:65
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:88
@@ -179,6 +184,8 @@ msgstr "Selector"
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:67
 msgid "Set color for pixels for :guilabel:`Mode` **Color**. Default is black."
 msgstr ""
+"Definirá el color para los píxeles de fondo, usado en los :guilabel:`Modos` "
+"**Color** y **Fundir**. Predeterminado: negro."
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:68
 msgid "Left / Right"
@@ -191,7 +198,7 @@ msgstr "Entero"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:70
 msgid "Number of pixels to fill from left / right border"
-msgstr ""
+msgstr "Cantidad de píxeles a recortar desde el extremo izquierdo / derecho"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:71
 msgid "Top / Bottom"
@@ -199,11 +206,12 @@ msgstr "Arriba / Abajo"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:73
 msgid "Number of pixels to fill from top / bottom border"
-msgstr ""
+msgstr "Cantidad de píxeles a recortar desde el extremo superior / inferior"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:75
 msgid "The following selection items are available:"
 msgstr ""
+"Los siguientes elementos se encuentran disponibles para ser seleccionados:"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:77
 msgid ":guilabel:`Mode`"
@@ -216,6 +224,8 @@ msgstr "Manchar"
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:85
 msgid "Fill pixels using outermost pixels (default)"
 msgstr ""
+"Rellenará los píxeles recortados usando el color de los píxeles del borde "
+"exterior de la imagen (predeterminado)"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:86
 msgid "Mirror"
@@ -224,10 +234,12 @@ msgstr "Simetrizar"
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:87
 msgid "Fill pixels using mirroring (half sample symmetric)"
 msgstr ""
+"Rellenará los píxeles recortados usando una simetría de la imagen (simetría "
+"de media muestra)"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:89
 msgid "Fill pixels with :guilabel:`Color`"
-msgstr ""
+msgstr "Rellenará los píxeles recortados usando un :guilabel:`Color`"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:90
 msgid "Reflect"
@@ -236,6 +248,8 @@ msgstr "Reflejar"
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:91
 msgid "Fill pixels using reflecting (whole sample symmetric)"
 msgstr ""
+"Rellenará los píxeles recortados usando una simetría de la imagen (simetría "
+"de muestra completa)"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:92
 msgid "Wrap"
@@ -244,6 +258,7 @@ msgstr "Repetir"
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:93
 msgid "Fill pixels using wrapping"
 msgstr ""
+"Rellenará los píxeles recortados haciendo aparecer los del lado opuesto"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:94
 msgid "Fade"
@@ -252,6 +267,8 @@ msgstr "Fundir"
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:95
 msgid "Fade pixels to a constant value"
 msgstr ""
+"Rellenará los píxeles recortados fundiéndolos hacia el :guilabel:`Color` de "
+"fondo"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:96
 msgid "Margins"
@@ -261,6 +278,8 @@ msgstr "Márgenes"
 msgid ""
 "Fill pixels at top and bottom with weighted averages pixels near borders"
 msgstr ""
+"Rellenará los píxeles recortados usando el color promedio ponderado de los "
+"píxeles del borde exterior de la imagen"
 
 #: ../../effects_and_filters/video_effects/transform_distort_perspective/fill_borders.rst:101
 msgid "In version 23.04 the :guilabel:`Color` value is ignored."

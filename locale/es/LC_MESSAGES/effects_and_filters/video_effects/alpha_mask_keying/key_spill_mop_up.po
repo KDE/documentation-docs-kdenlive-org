@@ -1,16 +1,16 @@
 # Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___alpha_mask_keying___key_spill_mop_up.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2021.
+#
 # SPDX-FileCopyrightText: 2021, 2022, 2024 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 04:30-0300\n"
+"PO-Revision-Date: 2025-08-21 11:14+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -150,6 +150,11 @@ msgid ""
 "This is known as \"key spill\". This effect can attempt to compensate for "
 "this issue."
 msgstr ""
+"Este efecto puede ser usado en conjunto con un recorte por croma (usualmente "
+"de pantalla verde o azul). Su propósito es contrarrestar el efecto del "
+"reflejo de luz del color de la pantalla sobre el elemento de primer plano, "
+"que hace que sus bordes se tornen verdosos o azulados. A esto se le conoce "
+"como \"derrame de color\"."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:53
 msgid "Parameters"
@@ -178,6 +183,8 @@ msgid ""
 "Selects the type of mask that will determine where the color altering "
 "operations will occur"
 msgstr ""
+"Permitirá escoger el tipo de máscara que determinará en dónde se producirán "
+"las operaciones de modificación del color"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:66
 msgid "Operation 1"
@@ -189,6 +196,9 @@ msgid ""
 "selected pixels. Apart from no operation, there are four possibilities: De-"
 "key, Target, De-saturate and Luma adjust."
 msgstr ""
+"Permitirá escoger el tipo de operación que será realizada en los píxeles "
+"definidos por la máscara. Existen cuatro operaciones disponibles: Eliminar "
+"color, Objetivo, Desaturar y Ajustar luma."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:69
 msgid "Operation 2"
@@ -197,6 +207,8 @@ msgstr "Operación 2"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:71
 msgid "Enable a second operation to be performed with the same mask"
 msgstr ""
+"Permitirá escoger una segunda operación a ser realizada en los píxeles "
+"definidos por la misma máscara."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:72
 msgid "Show mask"
@@ -212,6 +224,9 @@ msgid ""
 "This will show the selected mask as a greyscale image, to help with fine "
 "tuning of the masks. Should be OFF for the final render."
 msgstr ""
+"Mostrará la máscara activa en forma de imagen en escala de grises, para "
+"ayudar a su retoque. Durante el procesamiento final deberá estar "
+"**inactiva**."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:75
 msgid "Mask to Alpha"
@@ -223,6 +238,10 @@ msgid ""
 "operations, this should be OFF. By setting it ON, the Key Spill Mop Up "
 "itself can be used as a keyer, or to generate some special effects."
 msgstr ""
+"Copiará la máscara activa al canal alfa. Para todas las operaciones normales "
+"de limpieza de derrames, esta opción debería permanecer **inactiva**. Al "
+"**activarla**, el efecto en sí mismo podría ser usado como un efecto de "
+"recorte o para generar algún tipo de efecto especial."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:78
 msgid "Key color"
@@ -238,6 +257,9 @@ msgid ""
 "This should be the same or similar to the key color used for the preceding "
 "keying operation. Use the color bar or pipette to select the color."
 msgstr ""
+"Este debería ser el mismo color (o uno similar) al usado en la operación "
+"precedente de recorte. Usar la muestra de color o el cuentagotas para "
+"seleccionarlo."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:81
 msgid "Target color"
@@ -250,6 +272,11 @@ msgid ""
 "towards this color, according to the \"Amount 1\" and \"Amount 2\" "
 "parameter, respectively."
 msgstr ""
+"Este color sólo será usado en caso de que se encuentre seleccionada la "
+"operación \"Objetivo\" en las opciones Operación 1 o 2 y que sea usado en "
+"alguna de las máscaras. Los colores en las áreas afectadas serán virados "
+"hacia este color, de acuerdo a los parámetros \"Cantidad 1\" y \"Cantidad "
+"2\", respectivamente."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:84
 msgid "Tolerance"
@@ -270,6 +297,10 @@ msgid ""
 "be 100% affected. For the transparency mask, the \"amplification\". For the "
 "edge mask, the width of the affected area."
 msgstr ""
+"En las máscaras de tipo *Distancia de color*, controlará el rango de colores "
+"(en torno al color de recorte) que será afectado en un 100%. En las máscaras "
+"de tipo *Transparencia*, controlará su \"amplificación\". En las máscaras de "
+"tipo *Borde*, controlará el ancho del área afectada."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:87
 msgid "Slope"
@@ -281,6 +312,9 @@ msgid ""
 "that will be gradually less affected. No function for the transparency and "
 "edge masks."
 msgstr ""
+"En las máscaras de tipo *Distancia de color*, controlará el rango de colores "
+"por fuera de la \"Tolerancia\", que será progresivamente menos afectado. En "
+"los otros tipos de máscaras no ejercerá ninguna función."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:90
 msgid "Hue gate"
@@ -291,6 +325,9 @@ msgid ""
 "Reduces the mask according to difference from key hue, to prevent change to "
 "pixels that are within the mask, but not polluted by key."
 msgstr ""
+"Permitirá reducir la máscara de acuerdo a su diferencia con respecto al tono "
+"del Color de recorte, para prevenir cambios en píxeles que se encuentren "
+"dentro de la máscara pero que no estén contaminados por el color de recorte."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:93
 msgid "Saturation threshold"
@@ -301,6 +338,8 @@ msgid ""
 "Reduces the mask according to color saturation, to avoid affecting the "
 "neutral areas."
 msgstr ""
+"Permitirá reducir la máscara de acuerdo a la saturación de los colores, para "
+"evitar afectar a las áreas más neutrales de la imagen."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:96
 msgid "Amount 1"
@@ -310,6 +349,8 @@ msgstr "Cantidad 1"
 msgid ""
 "The amount of the selected operation 1, how much the colors will change."
 msgstr ""
+"La intensidad de aplicación de la Operación 1, determinará qué tanto "
+"cambiarán los colores."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:99
 msgid "Amount 2"
@@ -319,6 +360,8 @@ msgstr "Cantidad 2"
 msgid ""
 "The amount of the selected operation 2, how much the colors will change."
 msgstr ""
+"La intensidad de aplicación de la Operación 2, determinará qué tanto "
+"cambiarán los colores."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:103
 msgid "The following selection items are available:"
@@ -351,6 +394,10 @@ msgid ""
 "depend on the alpha from the preceding keying, except for ignoring the 100% "
 "transparent areas, to increase speed."
 msgstr ""
+"Las máscaras de tipo *Distancia de color* estarán basadas en el color de la "
+"imagen y no dependerán del canal alfa producido por el efecto de recorte "
+"precedente, excepto por el hecho de que ignorarán las áreas 100% "
+"transparentes, para mejorar su rendimiento."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:123
 msgid ""
@@ -360,6 +407,12 @@ msgid ""
 "values from the preceding keying operation. The effect will be proportional "
 "to the transparency."
 msgstr ""
+"Las máscaras de tipo *Transparencia* y *Borde* estarán basadas en el canal "
+"alfa producido por el efecto de recorte por croma precedente. Las máscaras "
+"de tipo *Transparencia* afectarán sólo a las partes que no sean ni 100% "
+"opacas, ni 100% transparentes, basándose en los valores de alfa producidos "
+"por el efecto de recorte por croma precedente. El efecto será proporcional a "
+"la transparencia de los píxeles."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:125
 msgid ""
@@ -369,6 +422,13 @@ msgid ""
 "away from the edge. The outer edge is the edge of the fully opaque part, "
 "where the alpha from the preceding keying is 1.0 (255)."
 msgstr ""
+"En caso de que se hubiera usado un \"recorte definido\" en el efecto de "
+"recorte por croma precedente, no existirán áreas que puedan ser afectadas "
+"por las operaciones de tipo :guilabel:`Transparencia`. Las máscaras de tipo "
+"*Borde* afectarán sólo a los píxeles cercanos a los bordes, con un efecto "
+"que disminuirá a medida que se aleje del borde. El borde exterior será el "
+"borde de la parte completamente opaca de la imagen, en donde el alfa del "
+"efecto de recorte precedente sea de 1,0 (o 255)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:127
 msgid ""
@@ -376,6 +436,11 @@ msgid ""
 "like it to be. They will have to look some more into this, and improve it, "
 "so consider it a \"temporary solution\" that will change in the future."
 msgstr ""
+"El algoritmo usado para las máscaras de tipo *Borde* no es, por el momento, "
+"el que le gustaría al autor del efecto. Se reporta que es la intención "
+"revisarlo para lograr una mejora en el mismo, por lo que debería ser "
+"considerado como una \"solución temporal\" que seguramente cambie en el "
+"futuro."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:129
 msgid ""
@@ -384,6 +449,11 @@ msgid ""
 "`Saturation threshold`, which will limit the mask to areas with color "
 "saturation above a threshold."
 msgstr ""
+"Todos los tipos de máscaras podrán ser refinados aún más, mediante el uso de "
+"dos parámetros: :guilabel:`Rango tonal`, que permitirá limitar la máscara a "
+"los tonos cercanos al tono del color de recorte y :guilabel:`Umbral de "
+"saturación`, que permitirá limitar la máscara a las áreas con una saturación "
+"por encima del mismo."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:132
 msgid ":guilabel:`Operation 1/2`"
@@ -430,6 +500,15 @@ msgid ""
 "is a bit easier. If the hue gate and saturation threshold are not used, "
 "transparency and edge masks can be exactly the same in cascaded effects."
 msgstr ""
+"Este efecto puede ser usado en cascada, aunque no será posible obtener en la "
+"segunda instancia del efecto la misma máscara de color que en la primera "
+"instancia, debido a que los colores habrán cambiado luego de la aplicación "
+"del primer efecto. Para habilitar la posibilidad de realizar dos operaciones "
+"con la misma máscara, es que el efecto contiene dos opciones *Operación*. Al "
+"usar máscaras de tipo *Transparencia* y *Borde*, la aplicación en cascada "
+"será un poco más sencilla. En caso de que las opciones *Rango tonal* y "
+"*Umbral de saturación* no se usaran, las máscaras de tipo *Transparencia* y "
+"*Borde* podrán ser exactamente iguales en efectos sucesivos (en cascada)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:162
 msgid ""
@@ -441,6 +520,12 @@ msgid ""
 "Shrink Hard and :doc:`/effects_and_filters/video_effects/grain_and_noise/"
 "denoise_hqdn3d`."
 msgstr ""
+"Este |tutorial_1| muestra el uso de los siguientes efectos: :doc:`/"
+"effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up`, :doc:"
+"`/effects_and_filters/video_effects/alpha_mask_keying/chroma_key`), :doc:`/"
+"effects_and_filters/video_effects/alpha_mask_keying/alpha_operations` usando "
+"la operación *Contraer duro* y :doc:`Reductor de ruido HQ 3D </"
+"effects_and_filters/video_effects/grain_and_noise/denoise_hqdn3d>`."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:164
 msgid ""
@@ -449,3 +534,9 @@ msgid ""
 "use a composite transition. Nevertheless, the basic steps of chroma keying "
 "and keyspill mop up are explained and are still valid."
 msgstr ""
+"**Este video se encuentra desactualizado.** En las versiones más nuevas de "
+"Kdenlive el efecto *Limpiar derrame en recorte* se encuentra instalado de "
+"forma predeterminada y ya no se requiere el uso de un método de composición. "
+"Aún así, los pasos básicos para realizar un recorte por croma y para limpiar "
+"el derrame en un recorte se explican de manera satisfactoria y son aún "
+"válidos."

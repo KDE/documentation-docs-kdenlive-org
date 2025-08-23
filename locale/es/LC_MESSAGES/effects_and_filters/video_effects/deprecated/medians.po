@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___effect_groups___misc___medians.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___deprecated___medians.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2021.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2021.
+#
+# SPDX-FileCopyrightText: 2021 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___effect_groups___misc___medians\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 01:54+0000\n"
-"PO-Revision-Date: 2025-05-18 22:49-0300\n"
+"PO-Revision-Date: 2025-08-21 11:15+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -41,6 +41,14 @@ msgid ""
 "from the surrounding area, the bigger residual it will leave with a linear "
 "filter - but the more probably it will be eliminated by the median."
 msgstr ""
+"El efecto de medianas es un filtro no lineal bastante popular en el "
+"procesamiento de imágenes. Muy a menudo es usado para eliminar ruido "
+"esporádico, tal como el ruido de tipo \"sal y pimienta\", píxeles \"muertos"
+"\" o \"quemados\", polvo sobre una película, etc. Esto es debido a que se "
+"comporta de una manera cuasi \"inversa\" con respecto a los reductores de "
+"ruido lineales. Cuanto más destaque un píxel de su área circundante, más "
+"residuo dejará al aplicarse un filtro lineal - pero más probabilidad habrá "
+"de que pueda ser eliminado por un filtro de tipo mediana."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:22
 msgid ""
@@ -55,6 +63,18 @@ msgid ""
 "more info on median filtering see `Wikipedia article <https://en.wikipedia."
 "org/wiki/Median_filter>`_."
 msgstr ""
+"Lo malo es que este tipo de operación suele ser bastante lenta. Por ser un "
+"filtro estadístico de orden, es similar a ordenar algo, lo cual debe ser "
+"realizado para cada píxel, es por esto que usar un algoritmo rápido se torna "
+"muy importante. Para las medianas pequeñas, los algoritmos de los tipos "
+"descriptos en `esta página <http://ndevilla.free.fr/median/median/src/optmed."
+"c>`_ son los usados en este efecto, con algunas pequeñas modificaciones para "
+"obtener algunas ligeras mejoras de velocidad. Para la mediana de tipo "
+"\"TamVar\" (tamaño variable), se utiliza código proveniente de  [1]_  . Los "
+"filtros compuestos (ArceBI, ML3D, ML3dEX) están hechos de acuerdo a las "
+"fórmulas dadas en el trabajo correspondiente [2]_. Para más información "
+"sobre el filtrado de medianas, ver el `artículo de Wikipedia <https://en."
+"wikipedia.org/wiki/Median_filter>`_ (en inglés)."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:24
 msgid "IMPLEMENTED ALGORITHMS:"
@@ -67,14 +87,18 @@ msgstr "**Cruz5**"
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:27
 msgid "Median of the pixel with its top, bottom, left and right neighbor."
 msgstr ""
+"La mediana de cada píxel, con respecto a sus píxeles inmediatos de arriba, "
+"abajo, izquierda y derecha."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:30
 msgid "**Square3x3**"
-msgstr "**Cuadrado 3x3**"
+msgstr "**Cuadrado 3×3**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:30
 msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
 msgstr ""
+"La mediana de cada píxel, con respecto a sus 8 píxeles inmediatos (un "
+"cuadrado de 3×3)"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:33
 msgid "**Bilevel**"
@@ -87,24 +111,31 @@ msgid ""
 "previously calculated medians. Slightly better preserves detail than the "
 "simple medians above."
 msgstr ""
+"Para cada píxel, primero calculará una mediana de tipo *Cruz5*, luego "
+"calculará su mediana con respecto a los cuatro diagonales adyacentes, para "
+"finalmente calcular la mediana entre el píxel y esas dos medianas "
+"anteriormente calculadas. Será capaz de preservar un poco mejor el detalle "
+"que los métodos simples de arriba."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:36
 msgid "**Diamond3x3**"
-msgstr "**Diamante 3x3**"
+msgstr "**Diamante 3×3**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:36
 msgid ""
 "Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
 "pattern."
 msgstr ""
+"La mediana de cada píxel, con respecto a sus 12 píxeles inmediatos, "
+"dispuestos en un patrón de diamante."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:39
 msgid "**Square5x5**"
-msgstr "**Cuadrado 5x5**"
+msgstr "**Cuadrado 5×5**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:39
 msgid "Median of the pixel with the 5x5 surrounding box."
-msgstr ""
+msgstr "La mediana de cada píxel, con respecto a un cuadrado de 5×5 píxeles."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:42
 msgid "**Temp3**"
@@ -115,6 +146,9 @@ msgid ""
 "Temporal only median of three frames. Can be used to reduce single frame "
 "time-impulsive noise like photoflash. Delays the video by 1 frame."
 msgstr ""
+"Mediana sólo temporal de 3 fotogramas. Podrá ser usada para reducir ruido "
+"esporádico con ocurrencias en un sólo fotograma, como un flash fotográfico. "
+"Retardará el video en 1 fotograma."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:45
 msgid "**Temp5**"
@@ -126,6 +160,10 @@ msgid ""
 "impulsive noise, but the artifacts on fast moving objects are stronger than "
 "with temp3. Delays the video by 2 frames."
 msgstr ""
+"Mediana sólo temporal de 5 fotogramas. Podrá ser usada para reducir ruido "
+"esporádico con ocurrencias en dos fotogramas, aunque tenderá a mostrar más "
+"defectos visuales en los objetos con movimientos rápidos de la imagen que el "
+"método *Temp3*. Retardará el video en 2 fotogramas."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:48
 msgid "**ArceBI**"
@@ -136,6 +174,8 @@ msgid ""
 "Spatio-temporal multilevel median, as described by Arce. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
 msgstr ""
+"Mediana espacio-temporal multinivel, tal como es descripta por Arce. Ver el "
+"trabajo correspondiente [2]_. Retardará el video en 1 fotograma."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:51
 msgid "**ML3D**"
@@ -146,6 +186,8 @@ msgid ""
 "Spatio-temporal multilevel median, as described by Alp. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
 msgstr ""
+"Mediana espacio-temporal multinivel, tal como es descripta por Alp. Ver el "
+"trabajo correspondiente [2]_. Retardará el video en 1 fotograma."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:54
 msgid "**ML3dEX**"
@@ -156,6 +198,9 @@ msgid ""
 "Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
 "see the corresponding work [2]_. Delays the video by 1 frame."
 msgstr ""
+"Mediana espacio-temporal multinivel. Se trata de una evolución del método "
+"ML3D de Kokaram, ver el trabajo correspondiente [2]_. Retardará el video en "
+"1 fotograma."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:57
 msgid "**VarSize**"
@@ -167,6 +212,11 @@ msgid ""
 "pixel. The effect could be described as \"quasi edge preserving, corner "
 "rounding, small stuff eliminator\". Or maybe just an \"artsy blur\"."
 msgstr ""
+"Mediana sólo espacial simple, dentro de un cuadrado de tamaño definido por "
+"el usuario alrededor de cada píxel. El efecto podría ser descrito como un "
+"\"eliminador de pequeños elementos, capaz de preservar los bordes y "
+"redondear las esquinas\". O quizás simplemente como un \"desenfoque artístico"
+"\"."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:59
 msgid "PARAMETERS:"
@@ -178,13 +228,16 @@ msgstr "**Tipo**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:62
 msgid "Selects one of the eleven algorithms."
-msgstr "Selecciona uno de los once algoritmos."
+msgstr "Permitirá escoger uno de los once algoritmos."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:65
 msgid ""
 "Only active when \"VarSize\" type is selected. Determines the size of the "
 "square area over which the median is taken."
 msgstr ""
+"Sólo estará activo cuando se utilice el método \"TamVar\". Determinará el "
+"tamaño del área cuadrada alrededor de cada píxel, sobre la cual se calculará "
+"la mediana."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:66
 msgid "**Size**"

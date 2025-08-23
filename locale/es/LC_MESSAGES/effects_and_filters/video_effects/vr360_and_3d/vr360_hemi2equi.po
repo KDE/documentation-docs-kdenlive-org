@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-14 12:26+0100\n"
+"PO-Revision-Date: 2025-08-21 11:15+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -123,6 +123,8 @@ msgid ""
 "This effect/filter converts a video frame with two hemispherical images to a "
 "single equirectangular frame."
 msgstr ""
+"Este efecto permitirá convertir un clip conteniendo dos imágenes "
+"semiesféricas a una única imagen equirrectangular."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:55
 msgid ""
@@ -132,6 +134,13 @@ msgid ""
 "them side by side using, for example, |ffmpeg| (you can also add parameters "
 "to produce lossless, intra-only output here for easier editing):"
 msgstr ""
+"El efecto asumirá que ambas semiesferas se encuentran dentro del mismo "
+"fotograma. En caso de tener una cámara como la Garmin Virb360 que produce "
+"dos videos separados, uno para cada cámara, se debería comenzar por "
+"convertirlos en una única película en donde se muestren lado usando, por "
+"ejemplo, |ffmpeg| (también será posible usar parámetros para producir un "
+"video sin pérdida de calidad, conteniendo sólo fotogramas intra, para una "
+"edición más sencilla):"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:67
 msgid "Parameters"
@@ -159,6 +168,9 @@ msgid ""
 "The fisheye projection type. Currently only equidistant fisheyes, like the "
 "Ricoh Theta and Garmin Virb360 are supported."
 msgstr ""
+"El tipo de proyección de ojo de pez usada. Actualmente, sólo se soporta una "
+"proyección equidistante, como las usadas por las cámaras Ricoh Theta y "
+"Garmin Virb360."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:80
 msgid "Use sensor response parameters"
@@ -172,6 +184,8 @@ msgstr "Interruptor"
 msgid ""
 "Switch on to use sensor response parameters (see EMoR h(x) parameters below)"
 msgstr ""
+"Activar para usar parámetros de respuesta de sensor (ver los parámetros EMoR "
+"h(x) más abajo)"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:83
 msgid "Interpolation"
@@ -179,7 +193,7 @@ msgstr "Interpolación"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:85
 msgid "Determines the sampling method"
-msgstr ""
+msgstr "Determinará el método de muestreo"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:86
 msgid "Alignment Yaw / Pitch / Roll"
@@ -197,6 +211,8 @@ msgid ""
 "Adjust the rotation along the Z- (yaw), X- (pitch) and Y-axis (roll) to "
 "compensate for any alignment differences"
 msgstr ""
+"Permitirá ajustar la rotación a lo largo de los ejes Z (alabeo), X (cabeceo) "
+"e Y (guiñada) para compensar cualquier diferencia en la alineación"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:89
 msgid "Lens FOV"
@@ -204,7 +220,7 @@ msgstr "Campo de visión de la lente"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:91
 msgid "Field of View of a single hemisphere in degrees"
-msgstr ""
+msgstr "Campo de visión de cada semiesfera individual, en grados"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:92
 msgid "Lens Radius"
@@ -227,6 +243,8 @@ msgid ""
 "Radius of the image circle as a fraction of the frame width (for example "
 "0.25 = 25% of 1920)"
 msgstr ""
+"Radio del círculo de imagen, como fracción del ancho de la imagen (por "
+"ejemplo 0,25 = 25% de 1920)"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:95
 msgid "Front X / Y"
@@ -237,6 +255,9 @@ msgid ""
 "Defines the center of the image of the front-facing camera. X is expressed "
 "as a fraction of the image width, Y as a fraction of the image height."
 msgstr ""
+"Definirá el centro de la imagen de la cámara frontal. X estará expresado "
+"como fracción del ancho de la imagen, Y como fracción de la altura de la "
+"imagen."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:98
 msgid "Front UP"
@@ -248,6 +269,8 @@ msgid ""
 "Defines the \"up\" direction in the image in degrees counting clockwise from "
 "a directions towards the top edge"
 msgstr ""
+"Definirá la dirección \"hacia arriba\" de la imagen, en grados, contándolos "
+"en sentido horario, partiendo de una dirección hacia el extremo superior"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:101
 msgid "Back X / Y"
@@ -258,6 +281,9 @@ msgid ""
 "Defines the center of the image of the back-facing camera. X is expressed as "
 "a fraction of the image width, Y as a fraction of the image height."
 msgstr ""
+"Definirá el centro de la imagen de la cámara trasera. X estará expresado "
+"como fracción del ancho de la imagen, Y como fracción de la altura de la "
+"imagen."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:104
 msgid "Back UP"
@@ -273,6 +299,10 @@ msgid ""
 "location)` of the camera if you have parts of the camera or equipment in the "
 "image"
 msgstr ""
+"Permitirá ajustar el :abbr:`nadir (la dirección que apunta directamente "
+"hacia abajo de una ubicación determinada)` de la cámara, en caso de que "
+"parte de la propia cámara o de equipamiento de trabajo hubiera salido en la "
+"imagen filmada"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:110
 msgid "Lens distortion A / B / C"
@@ -283,6 +313,8 @@ msgid ""
 "Lens distortion correction parameters. The first three parameters are the "
 "same as in |hugin|."
 msgstr ""
+"Parámetros de corrección de distorsión de lente. Los primeros tres "
+"parámetros serán los mismos que los usados en |hugin|."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:113
 msgid "Lens distortion radius"
@@ -294,6 +326,10 @@ msgid ""
 "Radius should be set to the value of (0.5 * min(image width, image height) / "
 "image width). For a 2:1 aspect dual hemispherical image, that would be 0.25."
 msgstr ""
+"En caso de estarse usando parámetros de |hugin|, el radio debería ser "
+"establecido a un valor de (0,5 × mín(ancho_imagen, altura_imagen) / "
+"ancho_imagen). Para una imagen semiesférica dual de proporción 2:1, debería "
+"usarse 0,25."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:116
 msgid "Lens vignetting A / B / C / D"
@@ -305,6 +341,10 @@ msgid ""
 "same as in |hugin|, corresponding to the V\\ :sub:`a` , V\\ :sub:`b` , V\\ :"
 "sub:`c` , and V\\ :sub:`d` image parameters."
 msgstr ""
+"Parámetros de corrección de viñeta de lente. Los primeros cuatro parámetros "
+"serán los mismos que los usados en |hugin|, correspondientes a los "
+"parámetros V\\ :sub:`a` , V\\ :sub:`b` , V\\ :sub:`c` y V\\ :sub:`d` de la "
+"imagen."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:119
 msgid "Lens vignetting radius"
@@ -317,6 +357,11 @@ msgid ""
 "that would be 0.5590. Use the :kbd:`A` parameter to scale the effect and "
 "avoid overexposing highlights."
 msgstr ""
+"En caso de estarse usando parámetros de |hugin|, el radio debería ser "
+"establecido a un valor de (0,5 × diagonal_imagen / ancho_imagen). Para una "
+"imagen semiesférica dual de proporción 2:1, debería usarse 0,5590. Usar el "
+"parámetro :kbd:`A` para escalar el efecto y evitar una sobreexposición de "
+"las luces de la imagen."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:122
 msgid "EMoR h(1 / 2 / 3 / 4 / 5)"
@@ -330,6 +375,12 @@ msgid ""
 "parameters, as |hugin|'s vignetting correction assumes that the sensor "
 "response has been corrected."
 msgstr ""
+"Parámetros de respuesta de sensor. Los parámetros EMoR h(x) son los mismos "
+"que los parámetros de |hugin| R\\ :sub:`a` - R\\ :sub:`e` en los parámetros "
+"de lente. En caso de estarse usando valores derivados de |hugin| para la "
+"corrección de viñetas, también deberían usarse estos parámetros, dado que la "
+"corrección de viñetas de |hugin| asume que la respuesta del sensor ha sido "
+"corregida."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_hemi2equi.rst:127
 msgid "The following selection items are available:"
@@ -366,3 +417,5 @@ msgid ""
 "Parts of this documentation have been taken from the website of the filter's "
 "developer |bigsh0t|."
 msgstr ""
+"Partes de esta documentación han sido tomadas del sitio web del "
+"desarrollador del filtro: |bigsh0t|."

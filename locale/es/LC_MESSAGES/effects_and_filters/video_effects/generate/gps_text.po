@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___video_effects___generate___gps_text.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___generate___gps_text.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2023.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2023.
+#
+# SPDX-FileCopyrightText: 2023 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___video_effects___generate___gps_text\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 03:27-0300\n"
+"PO-Revision-Date: 2025-08-21 11:15+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -184,7 +184,7 @@ msgid ""
 "are ``.gpx`` and ``.tcx``."
 msgstr ""
 "La ruta completa hasta el archivo que contenga los datos de ubicación de "
-"GPS. Las extensiones soportadas son ``.gpx`` y ``.tcx``."
+"GPS. Las extensiones soportadas son :file:`.gpx` y :file:`.tcx`."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:67
 msgid "Time offset in seconds"
@@ -204,6 +204,14 @@ msgid ""
 "precisely set to the correct time. GPS time is always exact and in UTC\\ "
 "[#]_. Use positive values if GPS is ahead of video, and negative otherwise."
 msgstr ""
+"Un desplazamiento a ser adicionado al archivo de video para que coincida con "
+"la pista del GPS. La mayoría del tiempo esto deberá ser al menos configurado "
+"a la diferencia entre las zonas horarias de los dos archivos, más algunos "
+"segundos, en caso de que el dispositivo de grabación de video no estuviera "
+"correctamente configurado a la hora correcta. El tiempo del GPS siempre será "
+"el correcto y estará expresado en tiempo UTC\\ [#]_. Usar valores positivos "
+"en caso de que el GPS se encuentre adelantado al video y negativos en el "
+"caso contrario."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:70
 msgid "Smoothing level"
@@ -216,6 +224,11 @@ msgid ""
 "smooth locations, it only calculates the extra fields (speed, distance, etc) "
 "it also interpolates missing values for **heart rate** and **altitude**."
 msgstr ""
+"Determinará cuántos puntos del GPS a suavizar para eliminar los errores del "
+"GPS. Un valor de 0 sólo expondrá los valores crudos de un archivo. Un valor "
+"de 1 no suavizará las ubicaciones, sólo calculará los campos adicionales "
+"(velocidad, distancia, etc), también interpolará los valores faltantes de "
+"**pulso** y **altitud**."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:73
 msgid "Updates per second"
@@ -227,6 +240,9 @@ msgid ""
 "(interpolated). A value of 0 will only update text when a real GPS point has "
 "been recorded."
 msgstr ""
+"Contralará cuántas veces por segundo se actualizará (de forma interpolada) "
+"el texto del GPS en el clip. Un valor de 0 sólo actualizará el texto cuando "
+"un punto real del GPS haya sido registrado."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:80
 msgid "The following keywords are available:"
@@ -238,7 +254,7 @@ msgstr "latitud"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:88
 msgid "the GPS latitude value"
-msgstr ""
+msgstr "el valor de latitud del GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:89
 msgid "GPS longitude"
@@ -246,7 +262,7 @@ msgstr "longitud"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:90
 msgid "the GPS longitude value"
-msgstr ""
+msgstr "el valor de longitud del GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:91
 msgid "GPS altitude"
@@ -254,7 +270,7 @@ msgstr "altitud"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:92
 msgid "the GPS altitude or elevation value"
-msgstr ""
+msgstr "el valor de altitud o elevación del GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:93
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:94
@@ -267,7 +283,7 @@ msgstr "distancia transitada"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:96
 msgid "Total distance so far"
-msgstr ""
+msgstr "distancia total transitada"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:97
 msgid "date and time of current GPS point"
@@ -275,7 +291,7 @@ msgstr "fecha y hora de la ubicación"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:98
 msgid "date and time of current GPS point shown"
-msgstr ""
+msgstr "fecha y hora del punto del GPS mostrado actualmente"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:99
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:100
@@ -289,6 +305,7 @@ msgstr "pulso"
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:102
 msgid "heart rate (if present in GPS file)"
 msgstr ""
+"frecuencia de pulsaciones (si estuviera presenta en el archivo del GPS)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:103
 msgid "current GPS_bearing"
@@ -296,7 +313,7 @@ msgstr "rumbo"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:104
 msgid "current GPS bearing (degrees 0-360)"
-msgstr ""
+msgstr "rumbo actual del GPS (en grados de 0 a 360)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:105
 msgid "current GPS direction"
@@ -304,7 +321,7 @@ msgstr "dirección"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:106
 msgid "current GPS direction (8 divisions: N, NE, E, etc)"
-msgstr ""
+msgstr "dirección actual del GPS (8 divisiones: N, NE, E, etc)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:107
 msgid "GPS altitude gain so far"
@@ -312,7 +329,7 @@ msgstr "ganancia de altitud"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:108
 msgid "total GPS altitude gain so far"
-msgstr ""
+msgstr "ganancia total de altitud del GPS hasta ese momento"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:109
 msgid "GPS altitude loss so far"
@@ -320,7 +337,7 @@ msgstr "pérdida de altitud"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:110
 msgid "total GPS altitude loss so far"
-msgstr ""
+msgstr "pérdida total de altitud del GPS hasta ese momento"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:111
 msgid "distance travelled uphill"
@@ -328,7 +345,7 @@ msgstr "distancia ascendida"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:112
 msgid "total distance travelled uphill so far"
-msgstr ""
+msgstr "distancia total recorrida en subida hasta el momento"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:113
 msgid "distance travelled downhill"
@@ -336,7 +353,7 @@ msgstr "distancia descendida"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:114
 msgid "total distance travelled downhill so far"
-msgstr ""
+msgstr "distancia total recorrida en bajada hasta el momento"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:115
 msgid "distance travelled on flat area"
@@ -344,7 +361,7 @@ msgstr "distancia plana"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:116
 msgid "total distance travelled on flat area so far"
-msgstr ""
+msgstr "distancia total recorrida a nivel hasta el momento"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:118
 msgid ""
@@ -353,12 +370,21 @@ msgid ""
 "'-' which will offset the actual time. For example, ``#gps_datetime_now %I:"
 "%M:%S %p +3600#`` shows only the time in 12-hour format, offset by 1 hour."
 msgstr ""
+"Las palabras clave basadas en tiempo podrán incluir formateo de cadenas tipo "
+"``strftime``\\ [#]_ para personalizar la salida, así como un número (en "
+"segundos) precedido por '+' o '-' que provocará un desfasaje con respecto al "
+"tiempo real. Por ejemplo, ``#gps_datetime_now %I:%M:%S %p +3600#`` mostrará "
+"sólo el tiempo en formato de 12 horas, desfasado en 1 hora."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:120
 msgid ""
 "Speed and distance keywords may include an extra format keyword to convert "
 "the value to metric/imperial units. Default is meters and km/h respectively."
 msgstr ""
+"Las palabras clave de distancia y velocidad podrán incluir una palabra clave "
+"adicional de formato, para convertir el valor a unidades métricas o "
+"imperiales. Las unidades predeterminadas serán metros y km/h, "
+"respectivamente."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:122
 msgid "Supported formats:"
@@ -370,7 +396,7 @@ msgid ""
 "**mile**, **ft**\\|\\ **feet**, **nm**\\|\\ **nautical**"
 msgstr ""
 "Distancia: **m**\\|\\ **metros**, **km**\\|\\ **kilómetros**, **mi**\\|\\ "
-"**millas**, **ft**\\|\\ **pies**, **nm**\\|\\ **náuticas**"
+"**millas**, **ft**\\|\\ **pies**, **nm**\\|\\ **millas náuticas**"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:125
 msgid ""
@@ -392,6 +418,10 @@ msgid ""
 "by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia "
 "for more details."
 msgstr ""
+"UTC es una sigla para Coordinated Universal Time (o tiempo universal "
+"coordinado) y es el principal estándar de tiempo por el cual el mundo regula "
+"los relojes y el tiempo. Ver el artículo de Wikipedia: |wiki_UTC| para más "
+"información."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:145
 msgid "See this list of |possible_formats|."

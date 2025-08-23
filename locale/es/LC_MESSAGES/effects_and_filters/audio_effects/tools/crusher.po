@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 04:39-0300\n"
+"PO-Revision-Date: 2025-08-21 11:14+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -118,6 +118,17 @@ msgid ""
 "guilabel:`Anti-aliasing` setting is able to produce \"softer\" crushing "
 "sounds."
 msgstr ""
+"Un estrujador de bits se usa para producir el efecto audible de una "
+"reducción en la cantidad de bits con los cuales parece estar muestreada una "
+"señal de audio. No modificará su profundidad de bits real, sino que "
+"simplemente producirá un efecto audible equiparable a tal cosa. Una señal "
+"con una profundidad de bits reducida sonará más dura y \"digital\". Este "
+"efecto será capaz incluso de redondear hasta valores continuos, en vez de a "
+"profundidades de bits discretas. Adicionalmente, presenta una opción de "
+"desfasaje de :guilabel:`CC` que producirá un estrujamiento distinto en las "
+"mitades inferior y superior del espectro de la señal. Así como una opción "
+"de :guilabel:`Suavizado de niveles` que permitirá producir sonidos de "
+"estrujamiento más \"suaves\"."
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:46
 msgid ""
@@ -128,6 +139,13 @@ msgid ""
 "crushing is much more pleasant. Logarithmic crushing is also able to get "
 "anti-aliased."
 msgstr ""
+"Otra característica de este efecto es su modo logarítmico. Esta opción "
+"permite cambiar las distancias lineales entre los bits por distancias "
+"logarítmicas. El resultado de esto es que se produce un efecto de "
+"estrujamiento mucho más \"natural\", que no deja pasar las señales bajas, "
+"por ejemplo. El oído humano en sí mismo tiene una percepción logarítmica, "
+"por lo que esta clase de estrujamiento resulta mucho más agradable al oído. "
+"El estrujamiento logarítmico también podrá ser sujeto a suavizado de niveles."
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:50
 msgid "Parameters"
@@ -157,7 +175,7 @@ msgstr "Decimal"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:63
 msgid "Sets level in"
-msgstr ""
+msgstr "Establecerá el nivel de entrada"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:64
 msgid "**Output gain**"
@@ -165,7 +183,7 @@ msgstr "**Ganancia salida**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:66
 msgid "Sets level out"
-msgstr ""
+msgstr "Establecerá el nivel de salida"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:67
 msgid "**Limit**"
@@ -184,6 +202,8 @@ msgstr "Entero"
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:72
 msgid "Sets bit reduction (range is from 1 to 64 bit; default is 8 bits)"
 msgstr ""
+"Establecerá el nivel de reducción de bits (el rango permitido irá de 1 a 64 "
+"bits; predeterminado: 8 bits)"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:73
 msgid "**Mix**"
@@ -191,11 +211,11 @@ msgstr "**Mezclar**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:75
 msgid "Sets mixing amount"
-msgstr ""
+msgstr "Establecerá el nivel de mezcla del efecto"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:76
 msgid "**Mode**"
-msgstr "**Modo****Modo**"
+msgstr "**Modo**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:77
 msgid "Selection"
@@ -204,14 +224,17 @@ msgstr "Selección"
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:78
 msgid "Sets filtering mode (Linear or Logarithmic; default is Linear)"
 msgstr ""
+"Establecerá el modo en que operará el efecto (Lineal o Logarítmico; "
+"predeterminado: Lineal)"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:79
 msgid "**DC**"
-msgstr "**DC**"
+msgstr "**Desfasaje de CC**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:81
 msgid "Sets DC"
 msgstr ""
+"Establecerá el nivel de desfasaje de corriente continua a aplicar a la señal"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:82
 msgid "**Anti-aliasing**"
@@ -219,7 +242,7 @@ msgstr "**Suavizado de niveles**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:84
 msgid "Sets anti-aliasing"
-msgstr ""
+msgstr "Establecerá el nivel de suavizado de niveles"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:85
 msgid "**Sample reduction**"
@@ -228,6 +251,8 @@ msgstr "**Reducción muestras**"
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:87
 msgid "Sets sample reduction (range is from 1 to 250; default is 1)"
 msgstr ""
+"Establecerá el nivel de reducción de muestras (el rango irá de 1 a 250; "
+"predeterminado: 1)"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:88
 msgid "**Enable LFO**"
@@ -235,11 +260,13 @@ msgstr "**Habilitar LFO**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:89
 msgid "Switch"
-msgstr ""
+msgstr "Interruptor"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:90
 msgid "Enables :abbr:`LFO (Low-Frequency Oscillation)` (default is disabled)"
 msgstr ""
+"Permitirá habilitar el cálculo de oscilación de baja frecuencia :abbr:`LFO "
+"(Low-Frequency Oscillation)` (predeterminado: **inactiva**)"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:91
 msgid "**LFO depth**"
@@ -247,7 +274,7 @@ msgstr "**Profundidad LFO**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:93
 msgid "Sets LFO depth"
-msgstr ""
+msgstr "Establecerá la profundidad de la LFO"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:94
 msgid "**LFO rate**"
@@ -255,4 +282,4 @@ msgstr "**Tasa LFO**"
 
 #: ../../effects_and_filters/audio_effects/tools/crusher.rst:96
 msgid "Sets LFO rate"
-msgstr ""
+msgstr "Establecerá la frecuencia de la LFO"

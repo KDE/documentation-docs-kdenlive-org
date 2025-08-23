@@ -7,10 +7,10 @@
 # SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 03:28-0300\n"
+"PO-Revision-Date: 2025-08-21 11:15+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -152,6 +152,8 @@ msgid ""
 "Select a file with the GPS data. Supported formats are :file:`.gpx` and :"
 "file:`.tcx`."
 msgstr ""
+"Permite seleccionar un archivo que contenga los datos de GPS. Las "
+"extensiones soportadas son :file:`.gpx` y :file:`.tcx`."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:62
 msgid "Time offset in seconds"
@@ -172,6 +174,14 @@ msgid ""
 "UTC\\ [1]_. Use positive values if GPS is ahead of video and negative "
 "otherwise."
 msgstr ""
+"Un desplazamiento a ser adicionado al archivo de video para que coincida con "
+"el rastro del GPS. La mayoría del tiempo esto deberá ser al menos "
+"configurado a la diferencia entre las zonas horarias de los dos archivos, "
+"más algunos segundos, en caso de que el dispositivo de grabación de video no "
+"estuviera correctamente configurado a la hora correcta. El tiempo del GPS "
+"siempre será el correcto y estará expresado en tiempo UTC\\ [1]_. Usar "
+"valores positivos en caso de que el GPS se encuentre adelantado al video y "
+"negativos en el caso contrario."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:65
 msgid "Smoothing level"
@@ -184,6 +194,10 @@ msgid ""
 "distance, etc) it also interpolates missing values for heart rate and "
 "altitude."
 msgstr ""
+"Determinará cuántos puntos del GPS a suavizar para eliminar los errores del "
+"GPS. Un valor de 1 no suavizará las ubicaciones, sólo calculará los campos "
+"adicionales (velocidad, distancia, etc), también interpolará los valores "
+"faltantes de **pulso** y **altitud**."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:68
 msgid "Speed multiplier"
@@ -206,6 +220,10 @@ msgid ""
 "speed up/slow down ratio. Sample values: **30** for 30x timelapse, **0.25** "
 "for 4x slow motion footage."
 msgstr ""
+"En caso de que el archivo de video fuera en cámara rápida (o lenta), será "
+"posible usar este valor para establecer la tasa de ajuste de la velocidad. "
+"Valores de ejemplo: **30** para una cámara rápida a ×30, **0,25** para una "
+"cámara lenta que vaya a 1/4 de la velocidad normal."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:71
 msgid "Graph data source"
@@ -223,6 +241,10 @@ msgid ""
 "track** (default), **Altitude** (if available), **Heart rate** (if "
 "available), **Speed** (always available, computed from location)"
 msgstr ""
+"Qué datos provenientes del archivo de GPS serán usados para ser mostrados en "
+"la gráfica. Las opciones serán **Ubicación/rastro GPS** (predeterminada), "
+"**Altitud** (si estuviera disponible), **Pulso** (si estuviera disponible), "
+"**Velocidad** (siempre disponible, calculada a partir de la ubicación)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:74
 msgid "Graph type"
@@ -236,6 +258,13 @@ msgid ""
 "(available for all data sources but recommended only for speed; for the map "
 "type it represents the \"percentage done\" from trimmed start - end)"
 msgstr ""
+"Define la forma en que se graficarán los datos seleccionados. Las opciones "
+"disponibles son **Mapa 2D de líneas básicas (para ubicación) o gráfica 1D "
+"por tiempo (otros)**, **Ampliar el mapa/gráfica centrado en la ubicación "
+"actual**\\ [2]_, **Mostrar velocímetro** (disponible para todas las fuentes "
+"de datos, pero recomendado sólo para velocidad; para el tipo de mapa "
+"representará el \"porcentaje de completitud\" a partir del inicio - fin de "
+"recorte)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:77
 msgid "Trim start"
@@ -244,7 +273,7 @@ msgstr "Inicio recorte (%)"
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:78
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:81
 msgid "Percent"
-msgstr ""
+msgstr "Porcentaje"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:79
 msgid ""
@@ -253,6 +282,11 @@ msgid ""
 "total file so trimming 50% start and 50% end will result in trimming the "
 "entire file."
 msgstr ""
+"Permite recortar datos desde el inicio del archivo de GPS (como porcentaje "
+"del total). *Nota*: tanto :guilabel:`Inicio recorte` como :guilabel:`Final "
+"recorte` serán calculados a partir del archivo completo, por lo que un "
+"inicio de recorte de 50% y un final de recorte de 50% dará como resultado "
+"excluir el archivo completo de la gráfica."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:80
 msgid "Trim end"
@@ -266,6 +300,13 @@ msgid ""
 "computed from the total file so trimming 50% start and 50% end will result "
 "in trimming the entire file."
 msgstr ""
+"Permite recortar datos desde el final del archivo de GPS (como porcentaje "
+"inverso del total, es decir, 100 significará que no habrá recorte, 50 "
+"significará la mitad del archivo total y 5 significará recortar el 95% del "
+"archivo). *Nota*: tanto :guilabel:`Inicio recorte` como :guilabel:`Final "
+"recorte` serán calculados a partir del archivo completo, por lo que un "
+"inicio de recorte de 50% y un final de recorte de 50% dará como resultado "
+"excluir el archivo completo de la gráfica."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:83
 msgid "Crop mode horizontal"
@@ -286,6 +327,10 @@ msgid ""
 "right` values: **Percentage from min..max**, or **Absolute value** (ie: it "
 "can crop between 22.2 and 22.3 degrees of longitude)\\ [3]_"
 msgstr ""
+"Permitirá decidir cómo interpretar los valores :guilabel:`Recorte izquierdo` "
+"y :guilabel:`Recorte derecho`: **Porcentaje desde mín..máx** o **Valor "
+"absoluto** (esto es: se podrá recortar entre los 22,2 y 22,3 grados de "
+"longitud)\\ [3]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:86
 msgid "Crop left"
@@ -301,6 +346,17 @@ msgid ""
 "over 100 (in % mode) will effectively not display anything. If :guilabel:"
 "`Graph type` is **Speedometer**, all crop left/right values are ignored."
 msgstr ""
+"Permitirá recortar datos del extremo izquierdo de la gráfica (logrando en "
+"esencia un efecto de ampliación). El valor será interpretado bien como un "
+"porcentaje del total o como un valor absoluto, dependiendo del modo de :"
+"guilabel:`Recorte horizontal` seleccionado. En modo de porcentaje los "
+"valores no estarán restringidos al rango de 0 a 100 para permitir el "
+"comportamiento de \"reducción\" (p.ej: recortar -50 hacia la izquierda "
+"agregará una mitad adicional con respecto a la distancia total horizontal). "
+"Valores por encima de 100 (en modo porcentaje) no mostrarán nada. En caso de "
+"que el :guilabel:`Tipo de gráfica` seleccionado fuera **Mostrar "
+"velocímetro**, ambos valores de recorte (horizontal y vertical) serán "
+"ignorados."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:89
 msgid "Crop right"
@@ -312,6 +368,9 @@ msgid ""
 "interpreted as an inverse percentage (ie: 100 = do not crop anything). "
 "Values under 0 will effectively not display anything."
 msgstr ""
+"Igual que :guilabel:`Recorte izquierdo` pero para el lado derecho, en este "
+"caso el porcentaje será interpretado como un porcentaje inverso (p.ej: 100 = "
+"no recortará nada). Valores por debajo de 0 no mostrarán nada."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:92
 msgid "Crop mode vertical"
@@ -324,6 +383,10 @@ msgid ""
 "can zoom in to between 100 and 150m of altitude to show small changes in "
 "altitude between those 2 values better)\\ [4]_"
 msgstr ""
+"Permitirá decidir cómo interpretar los valores :guilabel:`Recorte superior` "
+"y :guilabel:`Recorte inferior`: **Porcentaje desde mín..máx** o **Valor "
+"absoluto** (p.ej: se podría ampliar hasta entre 100 y 150m de altitud, para "
+"mostrar mejor pequeños cambios en la altitud entre esos dos valores)\\ [4]_"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:95
 msgid "Crop bottom"
@@ -340,6 +403,17 @@ msgid ""
 "If :guilabel:`Graph type` is speedometer, this will set the minimum needle "
 "position which will clamp all values that are lower."
 msgstr ""
+"Permitirá recortar datos del extremo inferior de la gráfica (logrando en "
+"esencia un efecto de ampliación). El valor será interpretado bien como un "
+"porcentaje del total o como un valor absoluto, dependiendo del modo de :"
+"guilabel:`Recorte vertical` seleccionado. En modo de porcentaje los valores "
+"no estarán restringidos al rango de 0 a 100 para permitir el comportamiento "
+"de \"reducción\" (p.ej: recortar -50 hacia la abajo agregará una mitad "
+"adicional con respecto a la distancia total vertical). Valores por encima de "
+"100 (en modo porcentaje) no mostrarán nada. En caso de que el :guilabel:"
+"`Tipo de gráfica` seleccionado fuera **Mostrar velocímetro**, este parámetro "
+"establecerá la posición mínima de la aguja, lo cual limitará todos los "
+"valores menores."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:98
 msgid "Crop top"
@@ -351,6 +425,9 @@ msgid ""
 "interpreted as an inverse percentage (ie: 100 = do not crop anything). "
 "Values under 0 will effectively not display anything."
 msgstr ""
+"Igual que :guilabel:`Recorte inferior` pero para el extremo superior, en "
+"este caso el porcentaje será interpretado como un porcentaje inverso (p.ej: "
+"100 = no recortará nada). Valores por debajo de 0 no mostrarán nada."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:101
 msgid "Graph color style"
@@ -361,20 +438,26 @@ msgid ""
 "Chooses one of nine styles to draw the graph line (:ref:`options see below "
 "<effects-gps_graphic-color_style>`)"
 msgstr ""
+"Permitirá escoger uno de entre nueve estilos de dibujar las líneas de la "
+"gráfica (para las :ref:`opciones ver abajo <effects-gps_graphic-"
+"color_style>`)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:104
 msgid "Show Now dot"
-msgstr "Mostrar punto Ahora"
+msgstr "Mostrar Ahora"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:106
 msgid ""
 "Enable it to draw a disc at the current location/time over the graph line. "
 "If graph type is speedometer, this affects the needle."
 msgstr ""
+"Activa la opción para mostrar un disco en la posición de la ubicación/tiempo "
+"actual sobre la línea de la gráfica. En caso de que el tipo de gráfica sea "
+"**Mostrar velocímetro**, esto afectará a la aguja."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:107
 msgid "Now dot color"
-msgstr "Color punto Ahora"
+msgstr "Color Ahora"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:108
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:138
@@ -389,10 +472,16 @@ msgid ""
 "as the nearby (or past) line (including for gradient types) thus effectively "
 "making it change color in time."
 msgstr ""
+"Permitirá escoger el color del círculo exterior del disco de Ahora. El "
+"tamaño de este círculo será el mismo que el grosor de la línea. El interior "
+"del disco será siempre blanco. En caso de que el *Canal alfa* del color "
+"fuera 0 (predeterminado), éste usará el mismo color que la línea cercana (o "
+"pasada), incluyendo los tipos de gradientes, haciendo que en la práctica "
+"cambie de color con el tiempo."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:110
 msgid "Show Now text"
-msgstr "Mostrar texto de Ahora"
+msgstr "Texto Ahora"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:112
 msgid ""
@@ -401,6 +490,9 @@ msgid ""
 "and it will be used as the current unit (if a valid unit is found ie: "
 "kilometers if \"km\" is found anywhere in the legend_unit string)."
 msgstr ""
+"Activará la visualización del valor actual en letras blancas grandes sobre "
+"la esquina inferior derecha del marco del efecto. Las unidades visibles "
+"seleccionadas serán anexadas como sufijo y usadas como unidades actuales."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:113
 msgid "Rotation"
@@ -410,6 +502,8 @@ msgstr "Rotación"
 msgid ""
 "Rotate the entire graph rect. For speedometer type the text stays horizontal."
 msgstr ""
+"Rotará el marco completo del efecto. En el caso de una gráfica de tipo "
+"velocímetro, el texto permanecerá horizontal."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:116
 msgid "Line Thickness (px)"
@@ -417,7 +511,7 @@ msgstr "Grosor de línea (px)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:118
 msgid "Sets the thickness of the line graph in :abbr:`px (pixel)`"
-msgstr ""
+msgstr "Establecerá el grosor de línea de la gráfica, en :abbr:`px (píxeles)`"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:119
 msgid "Draw legend"
@@ -432,6 +526,13 @@ msgid ""
 "`Graph type` **Speedometer** this shows division values (but without "
 "appending unit)."
 msgstr ""
+"Cuando esté activa, dibujará 5 líneas horizontales (y verticales para el "
+"tipo *Mapa*) con pequeños valores, correspondientes al valor actual de la "
+"fuente de datos en 0%, 25%, 50%, 75% y 100% de la gráfica, afectada por el "
+"tipo de *Unidades visibles* seleccionado, si fuera aplicable, y con la "
+"cadena anexada como sufijo del valor. Para el :guilabel:`Tipo de gráfica` "
+"**Mostrar velocímetro** esto mostrará los valores de cada división (pero sin "
+"anexarles las unidades)."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:122
 msgid "Legend unit"
@@ -446,6 +547,9 @@ msgid ""
 "Select the unit of measure for the data to be displayed from the list below. "
 "You can add additional text in this field."
 msgstr ""
+"Permitirá seleccionar las unidades de medida para los datos que serán "
+"mostrados, desde la lista de abajo. Será posible agregar un texto adicional "
+"en este campo."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:125
 msgid "Show dots only"
@@ -459,6 +563,13 @@ msgid ""
 "smoothing is **1**) and can either be used as a cool effect when zoomed in "
 "enough or to debug unexpected line jumps."
 msgstr ""
+"Cuando esté activa, la gráfica será dibujada usando puntos individuales, en "
+"lugar de líneas. En esencia esto mostrará los puntos de datos individuales, "
+"afectados por el :guilabel:`Nivel de suavizado` (p.ej: para los datos de "
+"ubicación, mostrará cada ubicación registrada por el GPS, cuando el nivel de "
+"suavizado sea **1**), lo que podrá ser usado como un efecto interesante, "
+"cuando se realice una ampliación suficiente o también para depurar saltos "
+"inesperados en la línea."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:128
 msgid "Background image"
@@ -471,6 +582,8 @@ msgstr "Selección de archivo"
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:130
 msgid "Opens an image file that is used as a background for the GPS graphic"
 msgstr ""
+"Permitirá abrir un archivo de imagen, que será usado como fondo para la "
+"gráfica del GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:131
 msgid "Background scale"
@@ -482,6 +595,10 @@ msgid ""
 "track. Values smaller than **1** zoom into the image, values larger than "
 "**1** zoom out. **0** hides it."
 msgstr ""
+"Permitirá escalar la imagen de fondo (relativa al centro) para que coincida "
+"con el rastro del GPS por encima. Valores más pequeños que **100** "
+"producirán una ampliación de la imagen, valores mayores de **100** "
+"producirán una reducción de la imagen. **0** ocultará la imagen."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:134
 msgid "Background opacity"
@@ -489,15 +606,15 @@ msgstr "Opacidad del fondo"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:136
 msgid "Sets the opacity of the background image"
-msgstr ""
+msgstr "Definirá la opacidad de la imagen de fondo"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:137
 msgid "Colours"
-msgstr "Colores"
+msgstr "Colores 1 al 5"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:139
 msgid "Sets the colors of the graph line"
-msgstr ""
+msgstr "Permitirá escoger los colores para las líneas de la gráfica"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:144
 msgid "The following options for :guilabel:`Graph color style` are available:"
@@ -511,7 +628,7 @@ msgstr "Un color"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:152
 msgid "Same color and size for the entire graph"
-msgstr ""
+msgstr "Se usará un único color y un tamaño constante para toda la gráfica"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:153
 msgid "Two colors"
@@ -522,6 +639,8 @@ msgid ""
 "Same as *Solid Past* or *Solid Future* but the entire line is the same "
 "thickness"
 msgstr ""
+"Igual que los estilos *Sólido pasado* o *Sólido futuro* pero toda la línea "
+"será del mismo grosor"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:155
 msgid "Solid past - thin future"
@@ -534,6 +653,11 @@ msgid ""
 "part of the graph it will use the 2nd color and thickness will be 2px (or "
 "1px if main thickness is below 3)"
 msgstr ""
+"Desde el inicio de la gráfica hasta la posición actual (=\"el pasado\") la "
+"línea se dibujará usando el *Color 1* y el *Grosor de línea* escogido; para "
+"la parte \"futura\" de la gráfica se usará el *Color 2* y el grosor será de "
+"2 píxeles (o de 1 píxel, en caso de que el *Grosor de línea* fuera inferior "
+"a 3)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:157
 msgid "Solid future - thin past"
@@ -542,6 +666,11 @@ msgstr "Sólido futuro - Delgado pasado"
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:158
 msgid "Same as above, just reversed"
 msgstr ""
+"Desde el inicio de la gráfica hasta la posición actual (=\"el pasado\") la "
+"línea se dibujará usando el *Color 2* y un grosor de 2 píxeles (o de 1 "
+"píxel, en caso de que el *Grosor de línea* fuera inferior a 3); para la "
+"parte \"futura\" de la gráfica se usará el *Color 1* y el *Grosor de línea* "
+"escogido"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:159
 msgid "Vertical gradient"
@@ -552,6 +681,8 @@ msgid ""
 "The line will be coloured as a vertical gradient relative to the entire rect "
 "area"
 msgstr ""
+"La línea será coloreada como un gradiente vertical, relativo al área total "
+"del marco del efecto"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:161
 msgid "Horizontal gradient"
@@ -560,6 +691,8 @@ msgstr "Gradiente horizontal"
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:162
 msgid "Same as above, just horizontal"
 msgstr ""
+"La línea será coloreada como un gradiente horizontal, relativo al área total "
+"del marco de la gráfica"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:163
 msgid "Color by duration"
@@ -571,6 +704,10 @@ msgid ""
 "(except for location source, this will effectively be a left to right "
 "gradient for 1D graphs)"
 msgstr ""
+"Los colores seleccionados serán usados como un gradiente, en orden "
+"cronológico (excepto para una fuente de datos de tipo *Ubicación*, en "
+"esencia esto será un gradiente de izquierda a derecha para las gráficas de 1 "
+"dimensión)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:165
 msgid "Color by altitude"
@@ -581,6 +718,9 @@ msgid ""
 "The selected colors will be used as a gradient from the minimum altitude "
 "value from file to the maximum one, not affected by crops or trim"
 msgstr ""
+"Los colores seleccionados serán usados como un gradiente, desde el valor de "
+"altitud mínima del archivo, hasta el máximo, no siendo esto afectado por los "
+"recortes"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:167
 msgid "Color by heart rate"
@@ -591,6 +731,8 @@ msgid ""
 "The selected colors will be used as a gradient from the minimum heart rate "
 "value from file to the maximum one"
 msgstr ""
+"Los colores seleccionados serán usados como un gradiente, desde el valor "
+"mínimo de pulsaciones del archivo, hasta el máximo"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:169
 msgid "Color by speed"
@@ -599,6 +741,8 @@ msgstr "Color por velocidad"
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:170
 msgid "Same as above but gradient is affected by smoothing"
 msgstr ""
+"Igual que la opción de arriba, pero el gradiente será afectado por el "
+"suavizado"
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:180
 msgid ""
@@ -606,6 +750,10 @@ msgid ""
 "is the primary time standard by which the world regulates clocks and time. "
 "See |wiki_UTC| on Wikipedia for more details."
 msgstr ""
+"UTC es una sigla para Coordinated Universal Time (o tiempo universal "
+"coordinado) y es el principal estándar de tiempo por el cual el mundo regula "
+"los relojes y el tiempo. Ver el artículo de Wikipedia: |wiki_UTC| para más "
+"información."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:182
 msgid ""
@@ -617,6 +765,15 @@ msgid ""
 "will behave just like for the type **0** (it will statically keep the same "
 "min/max limit allowing the now_dot to move up and down)."
 msgstr ""
+"Nota: para el tipo **1** (seguir al punto centrado): (a) los valores de "
+"recorte sólo serán válidos como porcentajes y únicamente los valores "
+"inferiores (izquierdo respectivo) serán tomados en consideración, dado que "
+"ambos valores (el superior y el inferior) necesitarán ser iguales para "
+"mantener el punto centrado; (b) en caso de que la fuente de datos no fuera "
+"**Ubicación/rastro GPS**, el centrado sólo se realizará en el eje horizontal "
+"(tiempo), el recorte vertical se comportará igual que en el tipo **0** "
+"(mantendrá de forma estática el mismo límite mín/máx, permitiendo que el "
+"punto Ahora se mueva hacia arriba y abajo)."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:184
 msgid ""
@@ -624,6 +781,10 @@ msgid ""
 "location source type) and time (in milliseconds since epoch) for the rest of "
 "the data source types."
 msgstr ""
+"Nota: para el tipo horizontal, los valores absolutos representarán la "
+"longitud (para fuentes de datos de tipo Ubicación) y el tiempo (en "
+"milisegundos desde la *época*) para el resto de fuentes de datos de otros "
+"tipos."
 
 #: ../../effects_and_filters/video_effects/generate/gps_graphic.rst:186
 msgid ""
@@ -633,3 +794,9 @@ msgid ""
 "altitude will be considered meters by default but if changing legend_unit to "
 "feet it will mean 10 feet)."
 msgstr ""
+"Nota: para el tipo vertical, los valores absolutos representarán grados de "
+"latitud (para fuentes de datos de tipo Ubicación) y altitud, pulso o "
+"velocidad para el resto de fuentes de datos de otros tipos, interpretados "
+"como *unidades visibles* en donde sea aplicable (p.ej: un valor de 10 para "
+"altitud será considerado en metros, de forma predeterminada pero, en caso de "
+"cambiarse las unidades a pies, significará 10 pies)."
