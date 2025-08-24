@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-14 12:26+0100\n"
+"PO-Revision-Date: 2025-08-23 00:20+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -153,6 +153,8 @@ msgstr "Interruptor"
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:62
 msgid "Switch on for analysis phase, switch off for stabilization"
 msgstr ""
+"Activarla para entrar en el modo de análisis, desactivarla para el modo de "
+"estabilización"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:63
 msgid "Motion analysis file"
@@ -161,6 +163,7 @@ msgstr "Archivo de análisis de movimiento"
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:65
 msgid "Path to file that will be used to store the analysis data"
 msgstr ""
+"Ruta hacia el archivo que será usado para almacenar los datos de análisis"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:66
 msgid "Start offset"
@@ -177,6 +180,11 @@ msgid ""
 "split it into three clips of 10 seconds each, then the start offsets should "
 "be 0s, 10s, and 20s"
 msgstr ""
+"Desplazamiento dentro del archivo de estabilización que corresponde al "
+"inicio de este clip. Por ejemplo, si un clip de 30 segundos se hubiera "
+"analizado completo y después divido en tres clips de 10 segundos cada uno, "
+"entonces los desplazamientos iniciales deberían ser de 0s, 10s y 20s "
+"respectivamente en cada clip."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:69
 msgid "Analysis sample radius"
@@ -191,7 +199,7 @@ msgstr "Entero"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:71
 msgid "The radius of the square that the stabilizer will sample."
-msgstr ""
+msgstr "El radio del cuadrado del cual tomará muestras el estabilizador"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:72
 msgid "Analysis search radius"
@@ -200,6 +208,8 @@ msgstr "Radio de búsqueda del análisis"
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:74
 msgid "The maximum amount of motion the stabilizer will detect."
 msgstr ""
+"La cantidad máxima de movimiento que podrá ser detectada por el "
+"estabilizador."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:75
 msgid "Analysis offset"
@@ -207,7 +217,7 @@ msgstr "Desplazamiento del análisis"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:77
 msgid "The distance between the track points."
-msgstr ""
+msgstr "Distancia entre los puntos de rastreo."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:78
 msgid "Use backwards-facing track point"
@@ -219,6 +229,9 @@ msgid ""
 "and yaw motion. Disable if, for example, you show up holding the camera "
 "there."
 msgstr ""
+"Cuando esté activa, también se usarán seis puntos de rastreo que apuntan "
+"hacia atrás para detectar movimientos de alabeo y cabeceo. Disable if, for "
+"example, you show up holding the camera there."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:81
 msgid "Yaw / Pitch / Roll amount"
@@ -227,7 +240,7 @@ msgstr "Cantidad de alabeo / cabeceo / guiñada"
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:82
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:88
 msgid "Percentage"
-msgstr ""
+msgstr "Porcentaje"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:83
 msgid ""
@@ -235,6 +248,9 @@ msgid ""
 "make the camera as steady as it can. Smaller values reduce the amount of "
 "stabilization."
 msgstr ""
+"La cantidad de estabilización a ser aplicada. 100% significará que el "
+"estabilizador hará que la cámara quede tan estática como sea posible. "
+"Valores menores reducirán la cantidad de estabilización."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:84
 msgid "Yaw / Pitch / Roll smoothing"
@@ -245,6 +261,9 @@ msgid ""
 "The number of frames to use to smooth out the shakes. The higher the value, "
 "the slower the camera will follow any intended motion."
 msgstr ""
+"La cantidad de fotogramas a ser usados para suavizar los sacudones. Cuanto "
+"más alto sea el valor, más lentamente seguirá la cámara cualquier movimiento "
+"intencional efectuado durante la grabación."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:87
 msgid "Yaw / Pitch / Roll time bias"
@@ -259,6 +278,13 @@ msgid ""
 "ahead of the intended camera movement. A value of zero should make the "
 "camera follow the intended path."
 msgstr ""
+"Desplaza los fotogramas usados para suavizar los sacudones, en relación con "
+"el fotograma estabilizado. Un valor menor a cero otorgará más influencia a "
+"los fotogramas pasados, haciendo que la cámara parezca retrasarse con "
+"respecto a su movimiento intencional. Un valor mayor a cero otorgará más "
+"influencia a los fotogramas futuros, haciendo que la cámara parezca "
+"adelantarse con respecto a su movimiento intencional. Un valor de cero "
+"debería lograr que la cámara siguiera su trayectoria intencional."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:90
 msgid "Interpolation"
@@ -270,7 +296,7 @@ msgstr "Selección"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:92
 msgid "Defines output quality"
-msgstr ""
+msgstr "Permitirá escoger la calidad de imagen a ser producida por el efecto"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:95
 msgid "The following selection items are available:"
@@ -295,37 +321,43 @@ msgstr "Bilineal"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:111
 msgid "How to Stabilize 360-degree Video"
-msgstr ""
+msgstr "Cómo estabilizar un video de 360 grados"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:112
 msgid "Add the 360-degree footage to the timeline"
-msgstr ""
+msgstr "Agregar el material de 360 grados a la línea de tiempo"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:114
 msgid ""
 "Apply the :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
 "vr360_hemi2equi` effect to it so it is in equirectangular format"
 msgstr ""
+"Aplicarle el efecto :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
+"vr360_hemi2equi`, para que quede en formato equirrectangular"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:116
 msgid ""
 "Apply the :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
 "vr360_transform` effect"
 msgstr ""
+"Aplicarle el efecto :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
+"vr360_transform`"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:118
 msgid "Apply this effect (VR360 Stabilize)"
-msgstr ""
+msgstr "Aplicarle este efecto (RV360 Estabilizar)"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:120
 msgid ""
 "Select a file to store stabilization data in (:guilabel:`Motion Analysis "
 "File`)"
 msgstr ""
+"Seleccionar un archivo en donde almacenar los datos de estabilización "
+"(usando la opción :guilabel:`Archivo de análisis de movimiento`)"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:122
 msgid "Enable :guilabel:`Analyze` mode"
-msgstr ""
+msgstr "Activar el modo :guilabel:`Analizar`"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:124
 msgid ""
@@ -333,23 +365,30 @@ msgid ""
 "vr360_transform` effect to rotate the footage so that the point straight "
 "ahead is over the center cluster of track points"
 msgstr ""
+"Usar el efecto :doc:`/effects_and_filters/video_effects/vr360_and_3d/"
+"vr360_transform` para rotar la imagen de manera que el punto directamente "
+"hacia adelante quede sobre el grupo central de puntos de rastreo"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:126
 msgid "Play the footage from start to finish."
-msgstr ""
+msgstr "Reproducir el material desde el inicio hasta su fin."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:128
 msgid ""
 "When the footage has completed playing, switch off the :guilabel:`Analyze` "
 "mode."
 msgstr ""
+"Cuando el material haya completado su reproducción, desactivar el modo :"
+"guilabel:`Analizar`."
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:130
 msgid "You should now have stable 360 video"
-msgstr ""
+msgstr "En este momento el video 360 debería estar estable"
 
 #: ../../effects_and_filters/video_effects/vr360_and_3d/vr360_stabilize.rst:140
 msgid ""
 "Parts of this documentation have been taken from the website of the filter's "
 "developer |bigsh0t|."
 msgstr ""
+"Partes de esta documentación han sido tomadas del sitio web del "
+"desarrollador del efecto, |bigsh0t|."

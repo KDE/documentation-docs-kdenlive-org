@@ -1,16 +1,16 @@
-# Spanish translations for docs_kdenlive_org_effects_and_compositions___video_effects___on_master___audio_spectrum_filter.po package.
+# Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___on_master___audio_spectrum_filter.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2023.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2023.
+#
+# SPDX-FileCopyrightText: 2023 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_effects_and_compositions___video_effects___on_master___audio_spectrum_filter\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 01:56+0000\n"
-"PO-Revision-Date: 2025-07-15 00:32-0300\n"
+"PO-Revision-Date: 2025-08-23 00:20+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -124,6 +124,9 @@ msgid ""
 "spectrum on the image. It can be :ref:`controlled directly on the monitor "
 "<ui-monitors_effect_direct_control>`."
 msgstr ""
+"Este es un efecto de visualización de audio que dibuja un espectro de audio "
+"sobre la imagen de un clip. Podrá ser :ref:`controlado directamente desde el "
+"Monitor <ui-monitors_effect_direct_control>`."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:56
 msgid "Parameters"
@@ -148,6 +151,7 @@ msgstr "Selección"
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:68
 msgid "Select the type of graph to display the levels"
 msgstr ""
+"Permitirá escoger un tipo de gráfica para mostrar los niveles del audio"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:69
 msgid "Fill"
@@ -164,6 +168,8 @@ msgid ""
 "If checked, fills the area under the graph. Only applies to :guilabel:`Graph "
 "type` **Line**."
 msgstr ""
+"Cuando esté activa, rellenará el área debajo de la gráfica. Sólo se aplica "
+"al :guilabel:`Tipo de gráfica` **Líneas**."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:72
 msgid "Mirror"
@@ -172,6 +178,8 @@ msgstr "Simetrizar"
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:74
 msgid "If checked, mirrors the spectrum on the center line of the rectangle"
 msgstr ""
+"Cuando esté activa, creará un espectro simétrico sobre el centro del marco "
+"del efecto"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:75
 msgid "Reverse"
@@ -180,6 +188,8 @@ msgstr "En reversa"
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:77
 msgid "If checked, draws the points starting with the highest frequency"
 msgstr ""
+"Cuando esté activa, dibujará los puntos comenzando con los de mayor "
+"frecuencia a la izquierda"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:78
 msgid "Window size"
@@ -205,6 +215,14 @@ msgid ""
 "the window. The buffering is performed as a sliding window so that the most "
 "recent samples are always transformed."
 msgstr ""
+"La cantidad de muestras sobre las que se calculará la FFT\\ [1]_. En caso de "
+"que :guilabel:`Tamaño de ventana` fuera inferior a la cantidad de muestras "
+"en un fotograma, las muestras adicionales serán ignoradas. En caso de que :"
+"guilabel:`Tamaño de ventana` sea superior a la cantidad de muestras en un "
+"fotograma, las muestras serán mantenidas desde los fotogramas anteriores, "
+"para completar la ventana. El proceso de preservación de las muestras "
+"anteriores será realizado en forma de ventana deslizante, por lo que las "
+"muestras más recientes siempre serán transformadas."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:81
 msgid "Background Color"
@@ -213,11 +231,11 @@ msgstr "Color de fondo"
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:82
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:85
 msgid "Picker"
-msgstr ""
+msgstr "Selector"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:83
 msgid "Defines the background color to be applied to the entire frame"
-msgstr ""
+msgstr "Definirá el color de fondo a ser aplicado al marco del efecto"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:84
 msgid "Foreground color"
@@ -225,7 +243,7 @@ msgstr "Color principal"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:86
 msgid "Defines the color of the waveform"
-msgstr ""
+msgstr "Definirá el color de la forma de onda"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:87
 msgid "Line Thickness"
@@ -233,7 +251,7 @@ msgstr "Grosor de línea"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:89
 msgid "Defines the thickness of the bar or line in number of pixels"
-msgstr ""
+msgstr "Definirá el grosor de las barras o de las líneas, expresado en píxeles"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:90
 msgid "Angle"
@@ -241,7 +259,7 @@ msgstr "Ángulo"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:92
 msgid "Defines the rotation angle to be applied to the waveform"
-msgstr ""
+msgstr "Definirá el ángulo de rotación a ser aplicado a la forma de onda"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:93
 msgid "X / Y / W / H / Size / Opacity"
@@ -253,6 +271,9 @@ msgid ""
 "rectangle in which the waveform is drawn. The icons help in lining up the "
 "rectangle."
 msgstr ""
+"Definirá las coordenadas X e Y de traslación, el Ancho y la Altura, el "
+"Tamaño y la Opacidad del marco en donde se dibujará la gráfica. Los íconos "
+"ayudarán a alinear el marco."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:96
 msgid "Line Tension"
@@ -265,6 +286,11 @@ msgid ""
 "between points. Values below **0** and above **100** will cause loops in the "
 "lines. Only applies to :guilabel:`Graph type` **Line**."
 msgstr ""
+"Afectará la definición de las curvas que interpolan entre los puntos de la "
+"gráfica. Con un valor de **0** se dibujarán líneas rectas; con **100** "
+"líneas muy detalladas. Valores por debajo de **0** y por encima de **100** "
+"producirán bucles en las líneas. Sólo se aplica al :guilabel:`Tipo de "
+"gráfica` **Líneas**."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:99
 msgid "Points"
@@ -275,6 +301,8 @@ msgid ""
 "Defines the number of bands to draw in the spectrum. Each band shows up as a "
 "data point in the graph."
 msgstr ""
+"Definirá la cantidad de bandas a ser dibujadas en el espectro. Cada banda se "
+"mostrará como un punto de datos en la gráfica."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:102
 msgid "Low Frequency"
@@ -285,6 +313,8 @@ msgid ""
 "The low end of the frequency range to be used for the graph (:abbr:`Hz "
 "(Hertz)`)"
 msgstr ""
+"El extremo inferior del rango de frecuencias usado para la gráfica "
+"(expresado en :abbr:`Hz (Hertz)`)"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:105
 msgid "High Frequency"
@@ -295,6 +325,8 @@ msgid ""
 "The high end of the frequency range to be used for the graph (:abbr:`Hz "
 "(Hertz)`)"
 msgstr ""
+"El extremo superior del rango de frecuencias usado para la gráfica "
+"(expresado en :abbr:`Hz (Hertz)`)"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:108
 msgid "Level Threshold"
@@ -305,6 +337,9 @@ msgid ""
 "The minimum amplitude of sound that must occur within the frequency range to "
 "cause the value to be applied (:abbr:`dB (decibel)`)"
 msgstr ""
+"La amplitud mínima del audio que deberá producirse dentro del rango de "
+"frecuencias, para causar que el valor sea aplicado (expresado en :abbr:`dB "
+"(decibelios)`)"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:112
 msgid "The following selection items are available:"
@@ -328,6 +363,8 @@ msgid ""
 "The effect is not updated in the Project Monitor during scrubbing. You need "
 "to play back the project to see this effect."
 msgstr ""
+"El efecto no se actualizará mientras se esté arrastrando el cursor de "
+"tiempo. Será necesario reproducir el proyecto para ver el efecto."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:131
 msgid ""
@@ -335,6 +372,9 @@ msgid ""
 "of the effect by adjusting the alpha component of the :guilabel:`Foreground "
 "color`."
 msgstr ""
+"La :guilabel:`Opacidad` se encuentra fija en un valor de 100%. Será posible "
+"controlar la opacidad del efecto ajustando el componente alfa del :guilabel:"
+"`Color principal`."
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:135
 msgid "Example"
@@ -346,12 +386,12 @@ msgstr "kdenlive2304_effects-audio_spectrum_filter_example"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:142
 msgid "Example of the Audio Spectrum Filter effect"
-msgstr ""
+msgstr "Ejemplo del efecto Visualizar espectro de audio"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:144
 msgid ":guilabel:`Line Thickness` set to **4**"
-msgstr ""
+msgstr ":guilabel:`Grosor de línea` establecido en **4**"
 
 #: ../../effects_and_filters/video_effects/on_master/audio_spectrum_filter.rst:151
 msgid "FFT := Fast Fourier Transform"
-msgstr ""
+msgstr "FFT := Fast Fourier Transform"
