@@ -1,28 +1,29 @@
-# Spanish translations for docs_kdenlive_org_glossary___useful_information___library_clips.po package.
+# Spanish translations for docs_kdenlive_org_tips_and_tricks___useful_info___library_clips.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2021.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2021.
+#
+# SPDX-FileCopyrightText: 2021 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_kdenlive_org_glossary___useful_information___library_clips\n"
+"Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 01:54+0000\n"
-"PO-Revision-Date: 2021-11-22 00:55+0100\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"PO-Revision-Date: 2025-08-24 01:18+0100\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.08.3\n"
+"X-Generator: Poedit 3.7\n"
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:-1
 msgid "Kdenlive Tips & Tricks - Improved Handling of Library Clips"
 msgstr ""
+"Consejos y trucos de Kdenlive - Manejo mejorado de clips de la biblioteca"
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:-1
 msgid ""
@@ -30,10 +31,14 @@ msgid ""
 "editing, documentation, user manual, video editor, open source, free, learn, "
 "easy"
 msgstr ""
+"KDE, Kdenlive, consejos, trucos, consejos y trucos, información útil, clip, "
+"clips, biblioteca, manejo clips de biblioteca, línea de tiempo, edición, "
+"documentación, manual de usuario, editor de video, código abierto, libre, "
+"aprender, fácil"
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:17
 msgid "Improved Handling of Library Clips"
-msgstr ""
+msgstr "Manejo mejorado de clips de la biblioteca"
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:21
 msgid ""
@@ -44,6 +49,13 @@ msgid ""
 "the improved functionality, as it affects only library clips where the same "
 "image sequence or title is used multiple times."
 msgstr ""
+"La versión 16.12.0 de Kdenlive introdujo más mejoras a la función **Expandir "
+"clip** de :term:`biblioteca` (y, en consecuencia, a la importación de listas "
+"de reproducción de :abbr:`MLT (Media Lovin' Toolkit - Una infraestructura "
+"multimedios de código abierto diseñada para la emisión de TV)`). Quizás no "
+"todos los usuarios de Kdenlive hayan notado esta funcionalidad mejorada, ya "
+"que sólo afecta a los clips de la biblioteca en donde se hubieran usado "
+"varias veces la misma secuencia de imágenes o el mismo título."
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:23
 msgid ""
@@ -55,6 +67,12 @@ msgid ""
 "project bin. To emphasize, this undesired behavior only affected image "
 "sequences, titles, and color clips."
 msgstr ""
+"En particular, en caso de que una secuencia de imágenes, clip de título o "
+"hasta un clip de color hubieran sido usados varias veces **en el mismo clip "
+"de la biblioteca**, tales recursos **sólo serán agregados una única vez a la "
+"Bandeja del proyecto**. En las versiones anteriores de Kdenlive, esta "
+"situación implicaba que (desafortunadamente) se cargaran estos recursos "
+"varias veces en la Bandeja del proyecto."
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:25
 msgid ""
@@ -63,6 +81,12 @@ msgid ""
 "content, clip name, and original bin folder location. If there is a match, "
 "then such a timeline clip will be added only once to your project bin."
 msgstr ""
+"Al :ref:`expandir un clip de la biblioteca <library-expand_library_clip>`, "
+"Kdenlive comprobará si el contenido, nombre y ubicación original de los "
+"clips ya existentes en la Bandeja del proyecto coincide con el de los clips "
+"expandidos en la línea de tiempo. En caso afirmativo, no se volverá a "
+"agregar un nuevo clip a la Bandeja del proyecto, sino que se reutilizará el "
+"ya existente."
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:29
 msgid ""
@@ -70,6 +94,8 @@ msgid ""
 "that has been added to your personal Kdenlive library. They show up in "
 "Kdenlive's library pane."
 msgstr ""
+"Un “clip de la biblioteca” es un clip con una extensión “.mlt” que ha sido "
+"agregado al panel Biblioteca de Kdenlive."
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:31
 msgid ""
@@ -78,6 +104,12 @@ msgid ""
 "the file system in a “.mlt” file (which is an MLT playlist to be precise), "
 "and shown in the library widget as a new library clip."
 msgstr ""
+"Internamente, al seleccionarse algunos clips y transiciones en la línea de "
+"tiempo y agregarlos a la Biblioteca de Kdenlive, estos clips y transiciones "
+"serán almacenados en el sistema de archivos en un archivo de extensión “."
+"mlt” (que, para ser precisos, se trata de una lista de reproducción de MLT) "
+"que será mostrado en el panel Biblioteca como un nuevo clip de la "
+"biblioteca, disponible para su uso en todos los proyectos de Kdenlive."
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:33
 msgid ""
@@ -87,10 +119,17 @@ msgid ""
 "an MP4 video, you can “expand” library (that is, MLT playlist) clips to get "
 "back the individual clips and transitions inside it."
 msgstr ""
+"Técnicamente hablando, los archivos de proyecto de Kdenlive también son "
+"listas de reproducción de MLT. Cuando se agrega un clip desde la Biblioteca "
+"a la Bandeja del proyecto, simplemente se agregará la lista de reproducción "
+"de MLT correspondiente al mismo. Sin embargo, al contrario de lo que sucede "
+"con otro tipo de clips (como un video MP4) será posible “expandir” los clips "
+"de la biblioteca para volver a acceder a los clips individuales que lo "
+"conforman."
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:38
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:44
 msgid ""
@@ -98,7 +137,11 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
+"El texto original fu enviado por el usuario *TheDiveO* al (ahora "
+"desaparecido) blog de kdenlive.org. Para su inclusión en esta documentación, "
+"fue tomado desde |kdenlive_org|, actualizado y adaptado para que su estilo "
+"concuerde con el de esta documentación."
 
 #: ../../tips_and_tricks/useful_info/library_clips.rst:45
 msgid "**Sources**"
-msgstr ""
+msgstr "**Fuentes**"
