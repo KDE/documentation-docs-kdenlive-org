@@ -22,3 +22,27 @@ run_tests:
   script:
     - make test
 
+build_docs_vm:
+  image: storage.kde.org/vm-images/staticweb
+  tags:
+    - VM
+    - amd64
+  stage: build
+  variables:
+    GIT_DEPTH: "3"
+    WEBSITE_LANGUAGES: en ca # space seperated list of languages to build
+    DOC_ROOT: "." # path to the directory containing documentation in the repo
+  before_script:
+    - git clone https://invent.kde.org/sysadmin/ci-utilities.git
+    - git clone https://invent.kde.org/sysadmin/ci-notary-service.git
+  script:
+    - !reference [build_sphinx_app_docs, script]
+  artifacts:
+    expire_in: 2 weeks
+    when: always
+    paths:
+      - _logs/
+      - public/
+      - task*.log
+    exclude:
+      - public/**/*.epub # Do not capture the epubs, they are too big in most cases
