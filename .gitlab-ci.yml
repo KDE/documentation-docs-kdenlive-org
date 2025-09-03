@@ -18,6 +18,8 @@ build_sphinx_app_docs:
   tags:
     - VM
     - amd64
+  variables:
+    TMPDIR: $CI_PROJECT_DIR/tmp
 
 run_tests:
   stage: test
