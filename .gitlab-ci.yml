@@ -12,6 +12,13 @@ variables:
     EPUB_NAME: KdenliveManual
     WEBSITE_LANGUAGES: en de fr nl es uk_UA zh_CN zh_TW ja ko ca it sl cs pl
 
+# Modify the build job to use the VM image (instead of Poadman) to fix performance issues
+build_sphinx_app_docs:
+  image: storage.kde.org/vm-images/staticweb
+  tags:
+    - VM
+    - amd64
+
 run_tests:
   stage: test
   image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
