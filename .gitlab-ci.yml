@@ -10,7 +10,10 @@ include:
 
 variables:
     EPUB_NAME: KdenliveManual
-    WEBSITE_LANGUAGES: en de fr nl es uk_UA zh_CN zh_TW ja ko ca it sl cs pl
+    # Translation coverage can be checked here
+    # https://l10n.kde.org/stats/gui/trunk-kf5/package/documentation-docs-kdenlive-org/
+    # As a rough guideline don't enable language with less than 10% coverage
+    WEBSITE_LANGUAGES: en ca cs es it nl pt sl sv uk zh_CN zh_TW
 
 # Modify the build job to use the VM image (instead of Poadman) to fix performance issues
 build_sphinx_app_docs:
