@@ -19,7 +19,8 @@ build_sphinx_app_docs:
     - VM
     - amd64
   variables:
-    TMPDIR: $CI_PROJECT_DIR/tmp
+    # This needs to be a path that exists, otherwise it will fallback to /tmp
+    TMPDIR: $CI_PROJECT_DIR
 
 run_tests:
   stage: test
