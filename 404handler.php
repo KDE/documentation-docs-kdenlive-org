@@ -12,7 +12,7 @@ $supported_languages = array(
     "ca",
     "cs",
     "de",
-    "fr",
+    // "fr",
     "it",
     "nl",
     "es",
@@ -23,12 +23,12 @@ $supported_languages = array(
     //"ru", // disabled because 0% translation coverage
     //"sk", // disabled because 0% translation coverage
     "sl",
-    //"sv", // disabled because broken translation
+    "sv", // disabled because broken translation
     "uk_UA",
     "zh_CN",
-    "zh_TW",
-    "ja",
-    "ko"
+    "zh_TW"
+    // "ja",
+    // "ko"
 );
 
 // List of page redirect rules
