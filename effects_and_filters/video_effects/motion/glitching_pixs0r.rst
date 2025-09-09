@@ -60,7 +60,7 @@ This effect/filter creates a glitch effect by shifting rows left and right.
      - Description
    * - Shift Intensity
      - Float
-     - Agressiveness of row/column-shifting
+     - Aggressiveness of row/column-shifting
    * - Block Height
      - Float
      - Height of each block whose shift is invariant. If set to **0**, block height will be randomized.

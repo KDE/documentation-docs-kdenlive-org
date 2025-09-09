@@ -38,7 +38,7 @@ Please see :doc:`effects_everywhere` about how to temporarily disable bin clip e
 
 .. |kdenlive_org| raw:: html
 
-   <a href="hhttps://kdenlive.org/en/project/disable-all-timeline-effects/" target="_blank">kdenlive.org</a>
+   <a href="https://kdenlive.org/en/project/disable-all-timeline-effects/" target="_blank">kdenlive.org</a>
 
 **Sources**
   The original text was submitted by user *TheDiveO* to the now defunct kdenlive.org blog. For this documentation it has been lifted from |kdenlive_org| and adapted to match the overall style.

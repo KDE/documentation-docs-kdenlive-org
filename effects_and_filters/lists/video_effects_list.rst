@@ -363,7 +363,7 @@ Video Effects
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/equaliz0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
-     - Equalizes the intensity historgrams (|frei0r.equaliz0r|)
+     - Equalizes the intensity histograms (|frei0r.equaliz0r|)
    * - :doc:`/effects_and_filters/video_effects/image_adjustment/erosion` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Image Adjustment

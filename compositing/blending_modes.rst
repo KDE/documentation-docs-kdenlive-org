@@ -78,7 +78,7 @@ The following blending modes all darken or amplify dark colors in the image:
    Keeps the darker colors of the blend layer and makes light colors less opaque. This is done by taking the :abbr:`RGB(Red Green Blue)` channel values from 0 to 1 of the pixel in the blend layer and multiplying it with the values of the corresponding pixel in the base layer. The resulting color is always darker, except for where it is pure white, since each value is less than 1.
 
 :Color Burn:
-   The color from the blend layer is used to darken the base layer, and increases the contrast between the two. This is done by dividing the inverted base layer by the blend layer, and then inverting the result. Blending with white produces no change. Note that when the blend layer is a homogenous color, this effect is equivalent to changing the black point to the inverted color.
+   The color from the blend layer is used to darken the base layer, and increases the contrast between the two. This is done by dividing the inverted base layer by the blend layer, and then inverting the result. Blending with white produces no change. Note that when the blend layer is a homogeneous color, this effect is equivalent to changing the black point to the inverted color.
 
 .. list-table:: 
    :widths: 33 33 33
@@ -120,7 +120,7 @@ The following blending modes lighten or amplify light colors in the image:
    In this blending mode, the color values of the image of both layers are inverted, multiplied, and then inverted again. This is the opposite of **Multiply**: Wherever either layer was darker than white, the composite is brighter.
 
 :Color Dodge:
-   This blending mode divides the base layer by the inverted blend layer. It lightens the base layer depending on the value of the blend layer: the brighter the blend layer, the more it affects the base layer. If you use white in the blend layer, the color in the base layer will become white; using black in the blend layer does not change the base layer. Note that when the blend layer is a homogenous color, this blending mode essentially changes the output black point to this color, and (input) white point to the inverted color.
+   This blending mode divides the base layer by the inverted blend layer. It lightens the base layer depending on the value of the blend layer: the brighter the blend layer, the more it affects the base layer. If you use white in the blend layer, the color in the base layer will become white; using black in the blend layer does not change the base layer. Note that when the blend layer is a homogeneous color, this blending mode essentially changes the output black point to this color, and (input) white point to the inverted color.
 
 .. list-table:: 
    :widths: 25 25 25 25

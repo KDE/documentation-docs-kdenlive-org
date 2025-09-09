@@ -30,8 +30,8 @@ https://youtu.be/hylowKurZaw
    :alt: Affine Transition
 
 
-Disolve using Affine Transition
--------------------------------
+Dissolve using Affine Transition
+--------------------------------
 
 To add a Dissolve, change the opacity to zero percent.
 

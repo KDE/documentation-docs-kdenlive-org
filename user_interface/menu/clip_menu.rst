@@ -188,7 +188,7 @@ Stabilize
 
 .. |Original| raw:: html
 
-   <a href="https://youtu.be/cRA5H1LYzM4" taregt="_blank">Original</a>
+   <a href="https://youtu.be/cRA5H1LYzM4" target="_blank">Original</a>
 
    
 This feature applies image stabilization algorithms to the clip which can reduce the shakiness of a bit of footage. It is also available via the right-click menu of the clip in the Project Bin.
@@ -543,7 +543,7 @@ This function is also available via the right-click menu of a clip selected in t
 Delete Clip
 -----------
 
-This function removes the clip from the Project Bin. It does not delete it from the file system. If the clip is being used in the Timeline a warning message will appear, and if you click on :guilabel:`Continue` any occurence of that clip in the Timeline will be deleted.
+This function removes the clip from the Project Bin. It does not delete it from the file system. If the clip is being used in the Timeline a warning message will appear, and if you click on :guilabel:`Continue` any occurrence of that clip in the Timeline will be deleted.
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 

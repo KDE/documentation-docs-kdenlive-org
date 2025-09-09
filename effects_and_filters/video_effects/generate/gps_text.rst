@@ -115,14 +115,14 @@ The following keywords are available:
    * - distance travelled on flat area
      - total distance travelled on flat area so far
 
-Time-based keywords can include a ``strftime``\ [#]_ format string to customize the output and a number (representing seconds) preceeded by '+' or '-' which will offset the actual time. For example, ``#gps_datetime_now %I:%M:%S %p +3600#`` shows only the time in 12-hour format, offset by 1 hour.
+Time-based keywords can include a ``strftime``\ [#]_ format string to customize the output and a number (representing seconds) preceded by '+' or '-' which will offset the actual time. For example, ``#gps_datetime_now %I:%M:%S %p +3600#`` shows only the time in 12-hour format, offset by 1 hour.
 
 Speed and distance keywords may include an extra format keyword to convert the value to metric/imperial units. Default is meters and km/h respectively.
 
 Supported formats:
 
 * Distance: **m**\|\ **meter**, **km**\|\ **kilometer**, **mi**\|\ **mile**, **ft**\|\ **feet**, **nm**\|\ **nautical**
-* Speed: **ms**\|\ **m/s**\|\ **meters**, **km**\|\ **km/h**\|\ **kilo**, **mih**\|\ **mi/h**\|\ **mileh**, **fts**\|\ **ft/s**\|\ **feets**, **kn**\|\ **nm/h**\|\ **knots**.
+* Speed: **ms**\|\ **m/s**\|\ **meters**, **km**\|\ **km/h**\|\ **kilo**, **mih**\|\ **mi/h**\|\ **mileh**, **fts**\|\ **ft/s**\|\ **feet**, **kn**\|\ **nm/h**\|\ **knots**.
 
 .. from the mlt filter page: Computed values are calculated since beginning of GPS file or since "gps_processing_start_time" property, if set.
 

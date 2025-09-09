@@ -47,7 +47,7 @@ Kdenlive allows you to specify the meta information that should be added to a re
 
 Double-click any existing meta data entry to change it.
 
-Click on |list-add| to add a new meta data entry (see the list of possible and permissable tags below).
+Click on |list-add| to add a new meta data entry (see the list of possible and permissible tags below).
 
 .. rst-class:: clear-both
 
