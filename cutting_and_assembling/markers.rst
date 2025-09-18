@@ -36,7 +36,7 @@ Markers are clip related and "fix" to this clip. When you put the same clip agai
 2 ways to add markers
 ---------------------
 
-Add markers to your clips via the :ref:`ui-monitors_clip_monitor`. That allows you to preview the clip at the location where you adding a marker.
+Add markers to your clips via the :ref:`ui-monitors_clip_monitor`. That allows you to preview the clip at the location where you are adding a marker.
 
 Following procedures add a marker at the playhead position (clip monitor, timeline):
 
