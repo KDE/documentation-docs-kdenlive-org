@@ -11,7 +11,7 @@ $supported_languages = array(
     "en",
     "ca",
     "cs",
-    "de",
+    // "de",
     // "fr",
     "it",
     "nl",
