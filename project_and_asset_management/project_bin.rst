@@ -43,15 +43,16 @@ The Project Bin\ [1]_ is a view in Kdenlive which lists all the :term:`assets<As
 
 It is good practice to use :doc:`folders</project_and_asset_management/project_bin/project_bin_use_folders>`, :doc:`tags</project_and_asset_management/project_bin/project_bin_use_tags>`, and even :doc:`multiple bins</project_and_asset_management/project_bin/project_bin_use_multiple_bins>` to stay organized and have quick and structured access to all assets of the project.
 
+.. .. versionchanged:: 25.12
+      Show placeholder in the Bin. Explaining how to import media
 
 .. container:: clear-both
 
-   .. figure:: /images/project_and_asset_management/project_bin_initial.webp
+   .. figure:: /images/project_and_asset_management/project-asset-management_project-bin-initial_2512.webp
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_initial
-
+      
       The initial Project Bin in Kdenlive
 
    This is how the project bin looks when you start Kdenlive or create a new project. Note the **Sequence** folder that is there always and will hold all sequences you create.
@@ -66,8 +67,7 @@ It is good practice to use :doc:`folders</project_and_asset_management/project_b
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_example
-
+      
       An example Project Bin in Kdenlive
 
    This is how the project bin looks with several assets of different types imported, a sequence created, and several folders created by the user.
