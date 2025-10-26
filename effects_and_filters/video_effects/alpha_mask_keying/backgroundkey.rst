@@ -69,4 +69,4 @@ This effect/filter turns a static background into transparency.
 .. note::
    This effect/filter works best if the background is somewhat uniform in color. In that regard it works similar to :doc:`Chroma Key</effects_and_filters/video_effects/alpha_mask_keying/chroma_key>` and :doc:`Chroma Key (Advanced)</effects_and_filters/video_effects/alpha_mask_keying/chroma_key_advanced>`, but it is able to work with changing backgrounds.
 
-   The :doc:`Object Mask</effects_and_filters/video_effects/alpha_mask_keying/object_mask>` feature is working much better and allows for more flexibility in mask creation thanks to its use of :abbr:`AI(Artifical Intelligence)` and :abbr:`LLM(Large Language Model)`\ s.
+   The :doc:`Object Mask</effects_and_filters/video_effects/alpha_mask_keying/object_mask>` feature is working much better and allows for more flexibility in mask creation thanks to its use of :abbr:`AI(Artificial Intelligence)` and :abbr:`LLM(Large Language Model)`\ s.

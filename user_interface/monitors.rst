@@ -148,7 +148,7 @@ Once such an effect is applied either to a clip in the project bin, a clip in th
 
 Grab the handles to change the size of the clip. Holding :kbd:`Shift` maintains the aspect ratio, holding :kbd:`Ctrl` resizes in all directions equally (essentially keeping the center position in place).
 
-In the Project Monitor you can cycle trough resized clips with :kbd:`Alt+LMB`\ [1]_
+In the Project Monitor you can cycle through resized clips with :kbd:`Alt+LMB`\ [1]_
 
 .. note:: Once such an effect is applied, the monitor overlay selection panel does not have the |list-add|\ :guilabel:`Add Guide/Marker` and |list-remove|\ :guilabel:`Remove Guide/Marker` icons anymore. To show them again disable the effects by clicking on the |view-visible|\ :guilabel:`Effects enabled` icon in the :ref:`Effect/Composition Stack header <effect_stack_functions>`. To enable direct control again, click on the |view-hidden|\ :guilabel:`Effects Disabled` icon.
 

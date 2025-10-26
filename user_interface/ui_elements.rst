@@ -126,7 +126,7 @@ Elements
    * - [A2]
      - Effect toolbar (for icons see :ref:`below <ui_elements-toolbar_icons>`)
    * - [D1]
-     - Keyframes; red color is selected; a diamond shape denotes a linear keyframe, a square a discreet and a circle a smooth keyframe.
+     - Keyframes; red color is selected; a diamond shape denotes a linear keyframe, a square a discrete and a circle a smooth keyframe.
    * - [D2]
      - Keyframe action icons (for actions see :ref:`below <ui_elements-keyframe_action_icons>`)
    * - [E1]
@@ -222,8 +222,8 @@ Keyframe Icons
      - Paste keyframe(s)
    * - |linear|
      - Keyframe is of type 'linear' (interpolation towards this keyframe is linear)
-   * - |discreet|
-     - Keyframe is of type 'discreet' (no interpolation between the previous and this keyframe)
+   * - |discrete|
+     - Keyframe is of type 'discrete' (no interpolation between the previous and this keyframe)
    * - |smooth|
      - Keyframe is of type 'smooth' (interpolation towards this keyframe is slightly dynamic with ease-in and ease-out with a little overshoot)
    * - |application-menu|
@@ -472,7 +472,7 @@ Status Bar Icons
    :width: 22px
    :class: no-scaled-link
 
-   .. |discreet| image:: /images/icons/discrete.svg
+   .. |discrete| image:: /images/icons/discrete.svg
    :width: 22px
    :class: no-scaled-link
 

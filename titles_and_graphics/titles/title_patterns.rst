@@ -15,7 +15,7 @@
 Patterns
 ========
 
-Patterns are, like templates, re-usable collections of objects. Any object you can add to a title and any group of objects can be saved as a pattern and added to a title clip.
+Patterns are, like templates, reusable collections of objects. Any object you can add to a title and any group of objects can be saved as a pattern and added to a title clip.
 
 In contrast to title templates, adding a pattern does not overwrite the existing title clip but simply adds the pattern to whatever is already in the title clip.
 

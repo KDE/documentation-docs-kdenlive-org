@@ -32,7 +32,7 @@ You will still see the :guilabel:`Save Image` dialog, but there is an additional
 
 The extracted image is immediately added to your project bin. If you use bin folders, then the image gets added to your currently selected bin folder.
 
-On purpose, Kdenlive **does not** switch to the project bin. This way, you can focus on extracting the required still images from a source video clip, without loosing context all the time. However, the extracted frame is not copied or saved to your file system.
+On purpose, Kdenlive **does not** switch to the project bin. This way, you can focus on extracting the required still images from a source video clip, without losing context all the time. However, the extracted frame is not copied or saved to your file system.
 
 In contrast, the :guilabel:`Extract Frame` feature copies and saves the extracted frame to your file system so you can edit or otherwise use the image elsewhere. However, it does not add the extracted frame to your project immediately.
 
