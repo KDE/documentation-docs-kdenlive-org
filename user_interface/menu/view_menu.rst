@@ -184,30 +184,6 @@ For more details please refer to the :ref:`audio_mixer` section of the documenta
 .. rst-class:: clear-both
 
 
-.. _view-audio_spectrum:
-
-Audio Spectrum
---------------
-
-Switches the Audio Spectrum :term:`widget` on or off.
-
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_audio_spectrum.webp
-   :align:  left
-   :height: 250px
-   
-   Kdenlive Audio Spectrum widget
-
-This allows you to monitor the audio properties of your clip in detail. The graph only displays data while the clip is playing in the clip or project monitor.
-
-It graphs the loudness of the audio in decibels (vertical axis) for each audio frequency (horizontal axis) in the current frame.
-
-.. For more information read the Tips & Tricks chapter about :doc:`/more_information/earlier_versions/audio_spectrum_and_spectrogram`.
-
-.. See also the :ref:`Spectrogram <audio_spectrum_and_spectrogram>` scope which displays a graphical representation of the spectrum over the entire clip.
-
-.. rst-class:: clear-both
-
-
 .. _view-clip_monitor:
 
 Clip Monitor
@@ -296,30 +272,6 @@ Guides
 Switches the Guides :term:`widget` on or off.
 
 Guides and Markers are a powerful tool to speed up your workflow. More details about them in the :ref:`guides` section of the documentation.
-
-
-.. _view-histogram:
-
-Histogram
----------
-
-Switches the Histogram :term:`widget` on or off.
-
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_histogram.webp
-   :align: left
-   :height: 400px
-   
-   Kdenlive Histogram widget
-
-This scope displays a frequency histogram of the luminance of the color components of the video. This information is useful when used in combination with color correction effects to perform color correction on the video. Color correction includes increasing the brightness or adjusting the white balance to ensure that white remains white and not blue.
-
-The histograms have the luminance on the horizontal axis going from 0 on the left to 255 on the right. The vertical axis represents the count of the total number of pixels in the current video frame with a given luminance.
-
-For more information read the Tips & Tricks chapter about :doc:`/tips_and_tricks/scopes/histogram_working` in the section about :doc:`/tips_and_tricks/scopes/index`.
-
-See also the :doc:`/effects_and_filters/video_effects/utility/histogram` video effect.
-
-.. attention:: Versions before 21.12.2 had an issue in Windows where scopes did not show anything. For more details and a workaround please refer to the :ref:`Windows issues<issue-scopes>` section.
 
 
 .. _view-library:
@@ -426,16 +378,72 @@ Project Notes can be used to keep notes about your project, like ideas or things
 .. rst-class:: clear-both
 
 
+.. _view-audio_spectrum:
+
+Scope - Audio Spectrum
+----------------------
+
+.. .. versionchanged:: 25.12
+
+Switches the Audio Spectrum :term:`widget` on or off.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_audio_spectrum.webp
+   :align:  left
+   :height: 250px
+   
+   Kdenlive Audio Spectrum widget
+
+This allows you to monitor the audio properties of your clip in detail. The graph only displays data while the clip is playing in the clip or project monitor.
+
+It graphs the loudness of the audio in decibels (vertical axis) for each audio frequency (horizontal axis) in the current frame.
+
+.. For more information read the Tips & Tricks chapter about :doc:`/more_information/earlier_versions/audio_spectrum_and_spectrogram`.
+
+.. See also the :ref:`Spectrogram <audio_spectrum_and_spectrogram>` scope which displays a graphical representation of the spectrum over the entire clip.
+
+.. rst-class:: clear-both
+
+
+.. _view-histogram:
+
+Scope - Histogram
+-----------------
+
+.. .. versionchanged:: 25.12
+
+Switches the Histogram :term:`widget` on or off.
+
+.. figure:: /images/user_interface/menu_reference/view-scopes_histogram_2512.webp
+   :align: left
+   :height: 300px
+   
+   Kdenlive Histogram widget
+
+This scope displays a frequency histogram of the luminance of the color components of the video. This information is useful when used in combination with color correction effects to perform color correction on the video. Color correction includes increasing the brightness or adjusting the white balance to ensure that white remains white and not blue.
+
+The histograms have the luminance on the horizontal axis going from 0 on the left to 255 on the right. The vertical axis represents the count of the total number of pixels in the current video frame with a given luminance.
+
+.. rst-class:: clear-both
+
+For more information read the Tips & Tricks chapter about :doc:`/tips_and_tricks/scopes/histogram_working` in the section about :doc:`/tips_and_tricks/scopes/index`.
+
+See also the :doc:`/effects_and_filters/video_effects/utility/histogram` video effect.
+
+.. attention:: Versions before 21.12.2 had an issue in Windows where scopes did not show anything. For more details and a workaround please refer to the :ref:`Windows issues<issue-scopes>` section.
+
+
 .. _view-rgb_parade:
 
-RGB Parade
-----------
+Scope - RGB Parade
+------------------
+
+.. .. versionchanged:: 25.12
 
 Switches the RGB Parade :term:`widget` on or off.
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_rgb_parade.webp
+.. figure:: /images/user_interface/menu_reference/view-scopes_rgb-parade_2512.webp
    :align:  left
-   :height: 400px
+   :height: 300
    
    Kdenlive RGB Parade widget
 
@@ -443,11 +451,59 @@ The RGB Parade :term:`widget` displays a histogram of the RGB components of the 
 
 The horizontal axis represents the timeline in the video frame. The vertical axis is the pixel luminance from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this luminance in this column of pixels in the video frame.
 
+.. rst-class:: clear-both
+
 More details including a more thorough explanation is available in the Tips & Tricks chapter about :doc:`/tips_and_tricks/scopes/waveform_and_rgb_parade` in the section about :doc:`/tips_and_tricks/scopes/index`.
 
 See also the :doc:`/effects_and_filters/video_effects/utility/rgb_parade` video effect.
 
+
+.. _view-vectorscope:
+
+Scope - Vectorscope
+-------------------
+
+.. .. versionchanged:: 25.12
+
+Switches the Vectorscope :term:`widget` on or off.
+
+.. figure:: /images/user_interface/menu_reference/view-scope_vectorscope_2512.webp
+   :align:  left
+   :height: 300
+   
+   Kdenlive Vectorscope widget
+
+The Vectorscope :term:`widget` allows you to monitor the colour properties of your clip in detail.
+
 .. rst-class:: clear-both
+
+More details are available in the Tip & Tricks chapter about the :doc:`Vectorscope </tips_and_tricks/scopes/vectorscope_working>` and :doc:`/tips_and_tricks/scopes/vectorscope_i_and_q_lines` in the section about :doc:`/tips_and_tricks/scopes/index`.
+
+See also the :doc:`/effects_and_filters/video_effects/utility/vectorscope` and :doc:`/effects_and_filters/video_effects/utility/vectorscope_advanced` video effects.
+
+
+.. _view-waveform:
+
+Scope - Waveform
+----------------
+
+.. .. versionchanged:: 25.12
+
+Switches the Waveform :term:`widget` on or off.
+
+.. figure:: /images/user_interface/menu_reference/view-scope_waveform_2512.webp
+   :align:  left
+   :height: 300px
+   
+   Kdenlive Waveform widget
+
+Contrary to what its name might suggest the Waveform :term:`widget` is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the `RGB Parade`_. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel :term:`luma` from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this :term:`luma` in this column of pixels in the video frame.
+
+.. rst-class:: clear-both
+
+More details are available in the :doc:`Tips & Tricks</tips_and_tricks/index>` chapter about the :doc:`Waveform </tips_and_tricks/scopes/waveform_and_rgb_parade>` in the section about :doc:`/tips_and_tricks/scopes/index`.
+
+See also the :doc:`/effects_and_filters/video_effects/utility/video_waveform_monitor` video effect.
 
 
 .. _view-screen_grab:
@@ -603,45 +659,3 @@ Use :kbd:`RMB` anywhere in the window to open a context menu to clear all undo h
    Whenever you save your project the icon that looks like the backspace icon is repositioned next to the most recent operation in the list.  Figure 5 shows three additional operations which were performed after the file save shown by the square.  After saving the file you can still revert back to changes which were made before the save.
 
 .. rst-class:: clear-both
-
-
-.. _view-vectorscope:
-
-Vectorscope
------------
-
-Switches the Vectorscope :term:`widget` on or off.
-
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_vectorscope.webp
-   :align:  left
-   :height: 300
-   
-   Kdenlive Vectorscope widget
-
-The Vectorscope :term:`widget` allows you to monitor the colour properties of your clip in detail.
-
-More details are available in the Tip & Tricks chapter about the :doc:`Vectorscope </tips_and_tricks/scopes/vectorscope_working>` and :doc:`/tips_and_tricks/scopes/vectorscope_i_and_q_lines` in the section about :doc:`/tips_and_tricks/scopes/index`.
-
-See also the :doc:`/effects_and_filters/video_effects/utility/vectorscope` and :doc:`/effects_and_filters/video_effects/utility/vectorscope_advanced` video effects.
-
-.. rst-class:: clear-both
-
-
-.. _view-waveform:
-
-Waveform
---------
-
-Switches the Waveform :term:`widget` on or off.
-
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_waveform.webp
-   :align:  left
-   :height: 300px
-   
-   Kdenlive Waveform widget
-
-Contrary to what its name might suggest the Waveform :term:`widget` is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the `RGB Parade`_. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel :term:`luma` from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this :term:`luma` in this column of pixels in the video frame.
-
-More details are available in the :doc:`Tips & Tricks</tips_and_tricks/index>` chapter about the :doc:`Waveform </tips_and_tricks/scopes/waveform_and_rgb_parade>` in the section about :doc:`/tips_and_tricks/scopes/index`.
-
-See also the :doc:`/effects_and_filters/video_effects/utility/video_waveform_monitor` video effect.
