@@ -239,13 +239,13 @@ Preview Resolution
 ------------------
 
 .. .. versionadded:: 20.04.0
+.. .. versionchanged:: 25.12  
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitor_preview_res.webp
+.. figure:: /images/user_interface/monitor-preview_resolution-2512.webp
    :width: 73px
    :figwidth: 73px
    :align: left
    :class: no-scaled-link
-   :alt: kdenlive2304_ui-monitor_preview_res
 
    Preview resolutions
 
