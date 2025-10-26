@@ -422,7 +422,7 @@ def reformat_content(content, fullpath):
     content = rewrite_heading(content, toplevel + 1, '=', '-')
     content = rewrite_heading(content, toplevel, '=', '=', True)
 
-    # rewrite todos to commends
+# rewrite todos to comments
     res = re.compile('(?<=\{\{:Kdenlive/Templates/ContentTodo\|\n)([\s\S]*?)(?=\}\})', re.DOTALL)
     for match in res.findall(content):
         lines = match.split('\n')

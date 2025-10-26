@@ -55,7 +55,7 @@ Alpha Shapes
 
 This is the |alphaspot| MLT filter, see also the |alphaops| readme file.
 
-This effect creates an area of transparency in the clip such that the underlying clip shows through in places defined by geometric shapes. By default, the area of transparency is outside the shape that is drawn. Inside the shape is an area of opacity where the overlaying clip is visible. The effect can be stacked to create odd shaped or many areas fo transparency.
+This effect creates an area of transparency in the clip such that the underlying clip shows through in places defined by geometric shapes. By default, the area of transparency is outside the shape that is drawn. Inside the shape is an area of opacity where the overlaying clip is visible. The effect can be stacked to create odd shaped or many areas of transparency.
 
 .. rst-class:: clear-both
 
@@ -287,7 +287,7 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :figwidth: 400px
       :alt: Okdenlive2304_effects-alpha_shapes_example_12
 
-      Operation set to Substract
+      Operation set to Subtract
 
    The operation :guilabel:`Subtract` performs a simple mathematical subtraction of the respective Min and Max values (and floors it at 0 or 0%). In this example because the Max value of effect (2) is 1000, it practically brings the opacity down to 0 hence the background is visible (the area of the shape is 100% transparent).
 
@@ -299,7 +299,7 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :figwidth: 400px
       :alt: kdenlive2304_effects-alpha_shapes_example_13
 
-      Operation set to Substract; Min = 0
+      Operation set to Subtract; Min = 0
 
    In this example we have reduced the Min value of effect (2) to 0 making the area outside the triangle 0% opaque (= 100% transparent). This results in the rectangular shape from effect (1) being cut by the triangle shape from effect (2) because the Max values in both effects are at 1000 (100% opaque), and with the :guilabel:`Subtract` operation the Max value of the pixels in the overlapping area is 0.
 
