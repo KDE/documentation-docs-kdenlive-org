@@ -47,6 +47,13 @@ Code quality
 After a directive with ``..``, the next line must be indented by 3 blank spaces to make the below line part of the directive. The number of indent spaces must be always the same.
 
 .. figures: Only use figures
+   Screenshots:
+   Use "webp" as file type
+   Image name convention: "[sub_chapter]-<feature_name>-(4digit Kdenlive version).webp"
+   Example:
+   "configure-speech2text_vosk_drag-2412.webp"
+   "rendering-render_dialog-2403.webp"
+   "project_bin-create_animation-2208.webp"
    :align: make it possible that you have text on the right site of the figure  
    :with: restrict the figure size
    :figwith: the caption get a line break after 250px
@@ -56,8 +63,7 @@ After a directive with ``..``, the next line must be indented by 3 blank spaces 
    :align: left
    :width: 500px
    :figwidth: 500px
-   :alt:
-      
+         
    Description of the picture (caption or legend)
 
 .. sidebar:: |kdenlive-show-video| Motion Tracker
