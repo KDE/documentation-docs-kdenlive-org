@@ -272,14 +272,15 @@ Track Header
 
 .. .. versionadded:: 25.04 Zoom Audio Waveforms 
 .. .. versionadded:: 25.08 Hide all tracks Shift+Ctrl+H
+.. .. versionchanged:: 25.12 move Zoom Audio Waveforms to status bar
 
 This area shows some options for a track:
 
 .. container:: clear-both
 
-   .. figure:: /images/kdenlive2504_timeline_track_haeder.webp
-      :width: 250px
-      :figwidth: 250px
+   .. figure:: /images/timeline_track-header_2512.webp
+      :width: 230px
+      :figwidth: 230px
       :align: left
          
    
@@ -295,9 +296,7 @@ This area shows some options for a track:
      + Mute the track |kdenlive-hide-audio| (audio tracks only) :kbd:`Ctrl+Shift+H`
      + Hide video |kdenlive-hide-video| from this track :kbd:`Ctrl+Shift+H`; and,  
      + Enable/Disable track effects |tools-wizard| allows you to enable or disable the effects applied to the track.
-
-   :5: Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio tracks.  
-
+   
 :kbd:`arrow up/down` goes to the next track
 
 .. rst-class:: clear-both
