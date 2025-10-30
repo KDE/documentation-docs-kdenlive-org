@@ -650,33 +650,38 @@ The audio tracks is not involved in the process as you generally use only one au
 Status Bar
 ----------
 
-.. image:: /images/Kdenlive_statusbar_21-04.png
+.. .. versionadded:: 25.12 Audio track: add Zoom Audio Waveforms. Add button to hide clip overlays (clip name, effect names, ...) 
+
+.. figure:: /images/cutting-assembling_statusbar_2512.webp
    :width: 500px
-   :alt: Bottom toolbar ver 17.04
+   :figwidth: 500px
 
-1. Hints what you can do when you hover over items.
 
-2. Names of the clip you hover over in the timeline
+:1: Hints what you can do when you hover over items.
 
-3. Mode you are in (default is :guilabel:`Select` = :guilabel:`Normal Mode`)
+:2: Names of the clip you hover over in the timeline
 
-4. Switch for :guilabel:`Color Tags`
+:3: Mode you are in (default is :guilabel:`Select` = :guilabel:`Normal Mode`)
 
-5. Switch for :guilabel:`Video Thumbnails`
+:4: Switch for :guilabel:`Color Tags`
 
-6. Switch for :guilabel:`Audio Thumbnails`. See `Show Audio Thumbnails`_
+:5: Switch for :guilabel:`Video Thumbnails`
 
-7. Switch for :guilabel:`markers`. See `Show marker comments`_
+:6: Switch for :guilabel:`Audio Thumbnails`. Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio tracks. See `Show Audio Thumbnails`_
 
-8. Switch for :guilabel:`Snap`. See `Snap`_
+:7: Switch for :guilabel:`markers`. See `Show marker comments`_
 
-9. :guilabel:`Fit Zoom to Project`. See `Fit Zoom to Project`_
+:8: Switch for :guilabel:`Clip Names`, effect names and info in the timeline
+   
+:9: Switch for :guilabel:`Snap`. See `Snap`_
 
-10. Zoom Out
+:10: :guilabel:`Fit Zoom to Project`. See `Fit Zoom to Project`_
 
-11. Zoom slider `Zoom Project`_
+:11: Zoom Out
 
-12. Zoom In
+:12: Zoom slider `Zoom Project`_
+
+:13: Zoom In
 
 
 Split Audio and Video Automatically
