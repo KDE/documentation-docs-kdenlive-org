@@ -1,0 +1,153 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 01:54+0000\n"
+"PO-Revision-Date: 2025-10-30 11:01-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:-1
+msgid "Kdenlive Tips & Tricks - How to Fading In/Out of Titles"
+msgstr ""
+"Dicas e Truques do Kdenlive - Como fazer o efeito de fade in/out nos títulos"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, how-to, how to, fading in, "
+"fading out, titles, documentation, user manual, video editor, open source, "
+"free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, dicas, truques, tutoriais, como fazer, efeito de fade in, "
+"efeito de fade out, títulos, documentação, manual do usuário, editor de "
+"vídeo, código aberto, gratuito, aprender, fácil"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:-1
+msgid "fading_inout_titles.webp"
+msgstr "fading_inout_titles.webp"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:15
+msgid "How to Fading In/Out of Titles"
+msgstr "Como fazer o efeito de fade in/out nos títulos"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:17
+msgid ""
+"In this short *How-to* video, we show you how to (smoothly) fade in and out "
+"Kdenlive titles over a video clip, and fading from and to transparency. The "
+"key to success is to use a **Composite & Transform** transition with "
+"keyframes (**Affine** and **Composite** will work too). **Do not use** the "
+"Fade from/to Black effects though, as these effects remove the title "
+"transparency information."
+msgstr ""
+"Neste breve vídeo de *Tutorial*, mostramos como fazer transições (suaves) de "
+"entrada e saída de títulos do Kdenlive sobre um videoclipe, além de "
+"transições de transparência. A chave para o sucesso é usar uma transição "
+"**Composição e transformação** com quadros-chave (as transições **Afim** e "
+"**Composta** também funcionam). **Não use** os efeitos de transição de/para "
+"preto, pois eles removem as informações de transparência do título."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:27
+msgid "These are the individual steps shown in video:"
+msgstr "Esses são os passos individuais mostrados no vídeo:"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:29
+msgid "Add a Composite & Transform transition to the title clip."
+msgstr ""
+"Adicione uma transição de composição e transformação ao clipe de título."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:30
+msgid ""
+"First keyframe: set :guilabel:`Opacity` to 0%. This marks the beginning of "
+"the fade in (ramp up)."
+msgstr ""
+"Primeiro quadro-chave: defina :guilabel:`Opacidade` para 0%. Isso marca o "
+"início do efeito de fade in (aumento gradual)."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:31
+msgid ""
+"Second keyframe: add a new keyframe where you want the title to be fully "
+"faded in, set :guilabel:`Opacity` to 100%. Set the type of the keyframe to :"
+"guilabel:`Linear`."
+msgstr ""
+"Segundo quadro-chave: adicione um novo quadro-chave onde você deseja que o "
+"título apareça completamente com efeito de fade-in, defina :guilabel:"
+"`Opacidade` para 100%. Defina o tipo do quadro-chave para :guilabel:`Linear`."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:33
+msgid ""
+"The rationale to set this keyframe to :guilabel:`Linear` is that otherwise "
+"Kdenlive (MLT) calculates a smooth curve fitting to the previous and "
+"following keyframe, causing the opacity value to overshoot. With a maximum "
+"possible opacity of 100% you will not notice. However, when you use a "
+"maximum opacity of less than 100%, then this overshooting may become visible."
+msgstr ""
+"A justificativa para definir este quadro-chave como :guilabel:`Linear` é "
+"que, caso contrário, o Kdenlive (MLT) calcula uma curva suave que se ajusta "
+"ao quadro-chave anterior e ao seguinte, fazendo com que o valor da opacidade "
+"ultrapasse o limite. Com uma opacidade máxima possível de 100%, você não "
+"notará. No entanto, ao usar uma opacidade máxima inferior a 100%, esse "
+"excesso pode se tornar visível."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:34
+msgid ""
+"Ensure that the first keyframe is Smooth. You can only adjust the type of "
+"the first keyframes after you have added a second keyframe."
+msgstr ""
+"Certifique-se de que o primeiro quadro-chave seja suave. Você só poderá "
+"ajustar o tipo do primeiro quadro-chave depois de adicionar um segundo."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:36
+msgid ""
+"Third keyframe: Add another keyframe near the end where you want to start "
+"fading out the title. Leave the opacity at 100%. Set the keyframe type to :"
+"guilabel:`Smooth`."
+msgstr ""
+"Terceiro quadro-chave: Adicione outro quadro-chave perto do final, onde você "
+"deseja que o título comece a desaparecer gradualmente. Deixe a opacidade em "
+"100%. Defina o tipo de quadro-chave como :guilabel:`Suave`."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:37
+msgid ""
+"Fourth keyframe: Add a final keyframe, where you set :guilabel:`Opacity` to "
+"0%."
+msgstr ""
+"Quarto quadro-chave: Adicione um quadro-chave final, onde você define :"
+"guilabel:`Opacidade` para 0%."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:39
+msgid ""
+"For more information about mixing smooth and linear interpolated keyframes "
+"see this chapter about the :doc:`/tips_and_tricks/useful_info/"
+"smooth_keyframe_interpolation`."
+msgstr ""
+"Para obter mais informações sobre como combinar quadros-chave interpolados "
+"suaves e lineares, consulte este capítulo sobre :doc:`/tips_and_tricks/"
+"useful_info/smooth_keyframe_interpolation`."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:44
+msgid "Notes"
+msgstr "Notas"
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:50
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+"O texto original foi enviado pelo usuário *TheDiveO* para o blog kdenlive."
+"org, agora extinto. Para esta documentação, ele foi extraído do |"
+"kdenlive_org|, atualizado e adaptado para corresponder ao estilo geral."
+
+#: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:51
+msgid "**Sources**"
+msgstr "**Fontes**"
