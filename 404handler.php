@@ -283,6 +283,7 @@ $redirect_rules = array(
     "^effect_link\/avfilter.negate" => "effects_and_filters/video_effects/color_image_correction/negate.html",
     "^effect_link\/gpstext" => "effects_and_filters/video_effects/generate/gps_text.html",
     "^effect_link\/timer" => "effects_and_filters/video_effects/generate/timer.html",
+    "^effect_link\/ladspa.21[4-5]\d" => "effects_and_filters/audio_effects/tap_plugins/index.html",
     "^effect_link\/ladspa" => "effects_and_filters/audio_effects/ladspa_plugins/index.html",
     "^effect_link\/rboctaveshift" => "effects_and_filters/audio_effects/pitch_and_time/index.html",
     "^effect_link\/rbpitch" => "effects_and_filters/audio_effects/pitch_and_time/index.html",
