@@ -18,7 +18,7 @@ $supported_languages = array(
     "es",
     //"tr", // disabled because 0% translation coverage
     //"da", // disabled because 0% translation coverage
-    "pl",
+    //"pl", // disabled because 0% translation coverage
     "pt_BR",
     //"ru", // disabled because 0% translation coverage
     //"sk", // disabled because 0% translation coverage

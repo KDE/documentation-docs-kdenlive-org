@@ -17,7 +17,7 @@ var all_langs = {
     // "ko": "&#xD55C;&#xAD6D;&#xC5B4;",
     //"nb": "Norsk Bokm&#x00E5;l",
     "nl": "Nederlands",
-    "pl": "Polski",
+    //"pl": "Polski",
     "pt_BR": "Portugu&ecirc;s",
     //"ru": "&#x3A1;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;",
     //"sk": "Sloven&#269;ina",
