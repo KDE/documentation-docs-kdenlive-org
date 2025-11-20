@@ -1,0 +1,370 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"PO-Revision-Date: 2025-11-18 07:32-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.3\n"
+
+#: ../../<rst_epilog>:74
+msgid "document-edit"
+msgstr "document-edit"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
+msgid ""
+"Kdenlive Tips & Tricks - Color Hell: ffmpeg Transcoding and Preserving BT.601"
+msgstr ""
+"Dicas e truques do Kdenlive - Inferno das cores: Transcodificação com ffmpeg "
+"e preservação de BT.601"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, useful information, ffmpeg, "
+"transcoding, bt.601, documentation, user manual, video editor, open source, "
+"free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, dicas, truques, informações úteis, ffmpeg, transcodificação, "
+"bt.601, documentação, manual do usuário, editor de vídeo, código aberto, "
+"gratuito, aprender, fácil"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
+msgid "transcoding_color_change.webp"
+msgstr "transcoding_color_change.webp"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
+msgid "transcoding_comparison.webp"
+msgstr "transcoding_comparison.webp"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:38
+msgid "Color Hell: Ffmpeg Transcoding and Preserving BT.601"
+msgstr "Inferno das cores: Transcodificação com ffmpeg e preservação de BT.601"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:40
+msgid ""
+"From time to time, you may get into weird digital video territory quite "
+"unexpectedly. For instance, you just want to cut some screen records made on "
+"mobile devices, such as tablets or mobile phones, only to find out that "
+"something is wrong with the colors."
+msgstr ""
+"De vez em quando, você pode se deparar com situações estranhas no mundo dos "
+"vídeos digitais de forma inesperada. Por exemplo, você quer editar algumas "
+"gravações de tela feitas em dispositivos móveis, como tablets ou celulares, "
+"e descobre que há algo errado com as cores."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:44
+msgid "Run-of-the-Mill Footage"
+msgstr "Vídeo mediano"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:46
+msgid ""
+"The drama starts with screen recording footage that seems quite innocent and "
+"normal at first sight. It may have been recorded on Android 7 devices using "
+"a screen recording app (such as «AZ Screen Recording», but not the “Pro” "
+"fake). And this footage has two slightly unusual properties:"
+msgstr ""
+"O drama começa com uma gravação de tela que, à primeira vista, parece "
+"bastante inocente e normal. Pode ter sido gravada em dispositivos Android 7 "
+"usando um aplicativo de gravação de tela (como o «AZ Screen Recording», mas "
+"não a versão falsa “Pro”). E essa gravação tem duas características um pouco "
+"incomuns:"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:48
+msgid "a *highly variable frame rate*,"
+msgstr "uma *taxa de quadros altamente variável*,"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:49
+msgid ""
+"it is using :abbr:`BT.601 (A standard from 1982 defining how RGB color "
+"primaries get turned into the YCbCr channels used by modern codecs)`\\ "
+"[#f1]_, instead of :abbr:`BT.709 (A standard from 1990 which does the same "
+"at BT.601 but the transfer coefficients are slightly different)`\\ [#f2]_ "
+"like so much HD footage these days."
+msgstr ""
+"está usando :abbr:`BT.601 (Um padrão de 1982 que define como as primárias de "
+"cor do RGB são transformadas nos canais YCbCr usados ​​pelos codecs modernos)`"
+"\\ [#f1]_, em vez de :abbr:`BT.709 (Um padrão de 1990 que faz o mesmo que "
+"BT.601, mas os coeficientes de transferência são ligeiramente diferentes)`\\ "
+"[#f2]_, como muitas filmagens HD hoje em dia."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:51
+msgid "Should cause no problems, right? Well…"
+msgstr "Não deve haver problemas, certo? Bem…"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:53
+msgid ""
+"As it turns out, Kdenlive's media engine |mlt| can exhibit some issues with "
+"video footage that has a highly variable frame rate, such as between 0.001 "
+"and 100+ :abbr:`fps (frames per second)`. The symptoms are subtle, yet "
+"endanger production quality: it seems as if MLT may well pick a future frame "
+"which is way off in regions with a low framerate. While this is not an issue "
+"for a suitably high framerate, this causes odd results in other places. For "
+"instance, user touch interaction shows up even a few seconds before the "
+"interaction will appear. This is probably caused by a very low fps during "
+"the inactivity period just before the user interaction."
+msgstr ""
+"Acontece que o motor de mídia do Kdenlive, o |mlt|, pode apresentar alguns "
+"problemas com vídeos que possuem taxas de quadros muito variáveis, como "
+"entre 0,001 e mais de 100 :abbr:`fps (quadros por segundo)`. Os sintomas são "
+"sutis, mas comprometem a qualidade da produção: parece que o MLT pode "
+"selecionar um quadro futuro muito diferente do esperado em regiões com baixa "
+"taxa de quadros. Embora isso não seja um problema para taxas de quadros "
+"suficientemente altas, causa resultados estranhos em outros casos. Por "
+"exemplo, a interação do usuário por toque aparece até mesmo alguns segundos "
+"antes do momento em que realmente acontece. Isso provavelmente é causado por "
+"uma taxa de quadros muito baixa durante o período de inatividade "
+"imediatamente anterior à interação do usuário."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:55
+msgid ""
+"Transcoding to a fixed frame rate surely is one of |ffmpeg|'s easy tasks "
+"(this example assumes a constant project frame rate of 25 fps):"
+msgstr ""
+"Transcodificar para uma taxa de quadros fixa é certamente uma das tarefas "
+"fáceis do |ffmpeg| (este exemplo pressupõe uma taxa de quadros constante do "
+"projeto de 25 fps):"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:61
+msgid ""
+"The constant frame rate cures the issues mentioned above, so the results are "
+"as to be expected. Except…"
+msgstr ""
+"A taxa de quadros constante resolve os problemas mencionados acima, portanto "
+"os resultados são os esperados. Exceto…"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:65
+msgid "Easy Transcoding: Color Me Bad"
+msgstr "Transcodificação fácil: Colorização ruim"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:72
+msgid ""
+"Unfortunately, the resulting video now shows shifted colors! It might not be "
+"too obvious in the first place, but it can be quite prominent when you work "
+"more with your footage. And it gets clearly visible to your audience in case "
+"you are going to mix this footage side-by-side with further processed "
+"versions of it, such as extracted frames for stills."
+msgstr ""
+"Infelizmente, o vídeo resultante agora apresenta cores alteradas! Pode não "
+"ser muito óbvio inicialmente, mas pode ficar bastante evidente ao trabalhar "
+"mais com a filmagem. E fica claramente visível para o público caso você vá "
+"misturar essa filmagem lado a lado com versões posteriormente processadas, "
+"como quadros extraídos para fotos."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:74
+msgid ""
+"A closer inspection either using Kdenlive's built-in clip properties pane or "
+"|ffprobe| reveals that the *transcoded file* **lacks the BT.601 color "
+"profile indication**. Yet, |ffmpeg| did *not transform the colors* at all "
+"during transcoding, and simply dropped the correct color profile information!"
+msgstr ""
+"Uma inspeção mais detalhada, seja usando o painel de propriedades do clipe "
+"integrado do Kdenlive ou o comando |ffprobe|, revela que o *arquivo "
+"transcodificado* **não possui a indicação do perfil de cor BT.601**. No "
+"entanto, o |ffmpeg| *não transformou as cores* durante a transcodificação, "
+"simplesmente descartando as informações corretas do perfil de cor!"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:79
+msgid "Makeshift Measures"
+msgstr "Soluções improvisadas"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:86
+msgid "kdenlive2308_clip_properties_color_space.webp"
+msgstr "kdenlive2308_clip_properties_color_space.webp"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:86
+msgid "Clip Properties color space override"
+msgstr "Substituição do espaço de cor das propriedades do clipe"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:88
+msgid ""
+"Of course, there is always Kdenlive's ability to overwrite source clip "
+"properties using the built-in clip properties :term:`widget`."
+msgstr ""
+"Claro, sempre existe a capacidade do Kdenlive de sobrescrever as "
+"propriedades do clipe de origem usando o :term:`widget` de propriedades de "
+"clipe integrado."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:90
+msgid ""
+"Simply select the transcoded video clip in the project bin. Then go to clip "
+"properties and select its “Force Properties” tab |document-edit|. Check :"
+"guilabel:`Colorspace` and then select **ITU-R 601**. Kdenlive now applies "
+"the correct color profile."
+msgstr ""
+"Basta selecionar o clipe de vídeo transcodificado na pasta do projeto. Em "
+"seguida, acesse as propriedades do clipe e selecione a aba \"Forçar "
+"propriedades\" |document-edit|. Marque a opção :guilabel:`Espaço de cor` e "
+"selecione **ITU-R 601**. O Kdenlive agora aplicará o perfil de cor correto."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:94
+msgid ""
+"While very easy, this method has its limitations: It is fine while you keep "
+"working solely inside the Kdenlive editor and its MLT renderer. But as soon "
+"as you need to pull in external video tools, such as |ffmpeg| for image "
+"extraction you will loose because these tools do not know about Kdenlive's "
+"source clip property overrides. We thus need to get the correct color "
+"profile information right into the transcoded video files themselves."
+msgstr ""
+"Embora muito simples, esse método tem suas limitações: funciona bem enquanto "
+"você trabalha exclusivamente dentro do editor Kdenlive e seu renderizador "
+"MLT. Mas, assim que você precisar usar ferramentas de vídeo externas, como o "
+"|ffmpeg| para extração de imagens, você terá problemas, pois essas "
+"ferramentas não reconhecem as propriedades de clipe de origem sobrescritas "
+"pelo Kdenlive. Portanto, precisamos inserir as informações corretas do "
+"perfil de cor diretamente nos arquivos de vídeo transcodificados."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:97
+msgid "Preserving BT.601 in Transcoding"
+msgstr "Preservando BT.601 na transcodificação"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:99
+msgid ""
+"To make this matter worse, the seemingly obvious color profile transformation"
+msgstr ""
+"Para piorar a situação, a transformação aparentemente óbvia do perfil de cor"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:105
+msgid ""
+"simply does not work: |ffmpeg| complains about not being able to transform "
+"between the same input and output color profile."
+msgstr ""
+"Simplesmente não funciona: o |ffmpeg| reclama que não consegue transformar "
+"entre o mesmo perfil de cor de entrada e saída."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:107
+msgid ""
+"The missing puzzle piece can be found on Stack Exchange's Video Production "
+"Q&A site in a post from 2015 asking \"|explicitly_tag|\"."
+msgstr ""
+"A peça que faltava no quebra-cabeça pode ser encontrada no site de perguntas "
+"e respostas sobre produção de vídeo do Stack Exchange, em uma postagem de "
+"2015 com a pergunta \"|explicitly_tag|\"."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:109
+msgid ""
+"There is a catch to watch out for: BT.601 comes in :abbr:`PAL (Phase "
+"Alternating Line - a colour encoding system for analogue television)` and :"
+"abbr:`NTSC (National Television Standard Committee - defined the TV system "
+"used in the United States, Japan and many other countries)` flavors which "
+"feature slightly different primary chromaticities, transfer curves, and "
+"colorspaces. So check your raw footage first using |ffprobe| (or |"
+"mediainfo|) which one has been used during recording in your case. Please "
+"note that it does not matter that your screen recording has not standard "
+"definition (SD) resolution at all, but it does matter when it comes to "
+"encoding color."
+msgstr ""
+"Há um detalhe importante a observar: o BT.601 possui versões PAL (Phase "
+"Alternating Line - um sistema de codificação de cores para televisão "
+"analógica) e NTSC (National Television Standard Committee - sistema de TV "
+"usado nos Estados Unidos, Japão e muitos outros países), que apresentam "
+"cromaticidades primárias, curvas de transferência e espaços de cor "
+"ligeiramente diferentes. Portanto, verifique primeiro sua gravação original "
+"usando o |ffprobe| (ou |mediainfo|) para descobrir qual foi usado durante a "
+"gravação. Observe que o fato da sua gravação de tela não ter resolução de "
+"definição padrão (SD) não importa, mas faz diferença na codificação de cor."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:112
+msgid "PAL and NTSC DNA"
+msgstr "DNA PAL e NTSC"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:114
+msgid ""
+"So how do we find out if a given video recording file, say ``raw.mp4``, uses "
+"the PAL or NTSC color space? Of course, |ffprobe| comes to our rescue. But "
+"in order to not get lost in all the nitty-gritty details |ffprobe| will "
+"throw at you, we need to tame it using a few options and :abbr:`grep (A Unix "
+"command-line utility for searching plain-text data sets for lines that match "
+"a regular expression)`:"
+msgstr ""
+"Então, como descobrimos se um determinado arquivo de gravação de vídeo, "
+"digamos ``raw.mp4``, usa o espaço de cor PAL ou NTSC? Claro, o |ffprobe| vem "
+"em nosso auxílio. Mas, para não nos perdermos em todos os detalhes "
+"minuciosos que o |ffprobe| apresenta, precisamos simplificá-lo usando "
+"algumas opções e o :abbr:`grep (um utilitário de linha de comando Unix para "
+"pesquisar conjuntos de dados de texto simples por linhas que correspondam a "
+"uma expressão regular)`:"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:120
+msgid "This should give you something along these lines:"
+msgstr "Isso deve lhe dar algo parecido com isto:"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:129
+msgid ""
+"The line ``color_space=...`` tells us whether we are dealing with PAL "
+"(bt470bg) or NTSC (smpte170m)."
+msgstr ""
+"A linha ``color_space=...`` indica se estamos lidando com PAL (bt470bg) ou "
+"NTSC (smpte170m)."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:132
+msgid "PAL"
+msgstr "PAL"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:134
+msgid ""
+"If it is **PAL chromaticities** (``color_space=bt470bg``), we then need to "
+"transcode as follows:"
+msgstr ""
+"Se forem **cromaticidades PAL** (``color_space=bt470bg``), precisamos "
+"transcodificar da seguinte forma:"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:143
+msgid "NTSC"
+msgstr "NTSC"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:145
+msgid ""
+"For **NTSC chromaticities** (``color_space=smpte170m``), we will need a "
+"different set of primaries, transfer curve, and colorspace:"
+msgstr ""
+"Para **cromaticidades NTSC** (``color_space=smpte170m``), precisaremos de um "
+"conjunto diferente de cores primárias, curva de transferência e espaço de "
+"cor:"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:158
+msgid ""
+"In any case, Kdenlive/MLT now correctly see the transcoded video using the "
+"BT.601 color profile. In addition, other media tools correctly detect the "
+"color profile too - unless they are broken in that they do not understand "
+"BT.601 at all."
+msgstr ""
+"Em todo caso, o Kdenlive/MLT agora reconhece corretamente o vídeo "
+"transcodificado usando o perfil de cor BT.601. Além disso, outras "
+"ferramentas de mídia também detectam corretamente o perfil de cor, a menos "
+"que apresentem algum problema que as impeça de reconhecer o BT.601."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:163
+msgid "Notes"
+msgstr "Notas"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:177
+msgid "**Sources**"
+msgstr "**Fontes**"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:177
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org| and adapted to match the overall style."
+msgstr ""
+"O texto original foi enviado pelo usuário *TheDiveO* para o blog kdenlive."
+"org, agora extinto. Para esta documentação, ele foi extraído do |"
+"kdenlive_org| e adaptado para corresponder ao estilo geral."
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:181
+msgid "For more details see the Wikipedia article about |bt601|"
+msgstr "Para mais detalhes, consulte o artigo da Wikipédia sobre |bt601|"
+
+#: ../../tips_and_tricks/useful_info/color_hell.rst:182
+msgid "For more details see the Wikipedia article about |bt709|"
+msgstr "Para mais detalhes, consulte o artigo da Wikipédia sobre |bt709|"
