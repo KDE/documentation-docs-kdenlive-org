@@ -1,0 +1,184 @@
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+#
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"PO-Revision-Date: 2025-11-18 12:09-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.3\n"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:-1
+msgid "Kdenlive Tips & Tricks - Fixing Unwanted Slow Audio Fade-Ins"
+msgstr ""
+"Dicas e truques do Kdenlive - Corrigindo entradas de áudio lentas indesejadas"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, useful information, usb, audio, "
+"card, fixing, documentation, user manual, video editor, open source, free, "
+"learn, easy"
+msgstr ""
+"KDE, Kdenlive, dicas, truques, informações úteis, USB, áudio, placa, solução "
+"de problemas, documentação, manual do usuário, editor de vídeo, código "
+"aberto, gratuito, aprender, fácil"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:15
+msgid "Fixing Unwanted Slow Audio Fade-Ins"
+msgstr "Corrigindo entradas de áudio lentas indesejadas"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:17
+msgid ""
+"Do you suffer from an unwanted slow audio fade-ins whenever starting "
+"playback in the timeline or in the clip monitor, while you do not have any "
+"audio fade effects applied at all? Turns out this is some odd interference "
+"between some(!) USB audio cards and the PulseAudio sound backend."
+msgstr ""
+"Você sofre com indesejáveis ​​fades de áudio lentos ao iniciar a reprodução na "
+"linha do tempo ou no monitor de clipes, mesmo sem nenhum efeito de fade "
+"aplicado? Acontece que isso é uma estranha interferência entre algumas(!) "
+"placas de áudio USB e o backend de som PulseAudio."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:20
+msgid "ALSA to the Res-Cue"
+msgstr "ALSA para nos salvar"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:26
+msgid "kdenlive2308_alsa_audio.webp"
+msgstr "kdenlive2308_alsa_audio.webp"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:26
+msgid "Setting the audio driver to ALSA"
+msgstr "Configurar o driver de áudio para ALSA"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:28
+msgid "Luckily, there is an easy remedy in case you are affected."
+msgstr "Felizmente, existe um remédio simples caso você seja afetado."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:30
+msgid ""
+"Go to :menuselection:`Menu --> Settings > Configure Kdenlive`, then in the "
+"configuration dialog select the :guilabel:`Playback` section. Change the :"
+"guilabel:`Audio driver` from :guilabel:`Automatic` to :guilabel:`ALSA`. "
+"Leave the Audio device set to “Default”, so your desktop audio device "
+"settings apply."
+msgstr ""
+"Acesse :menuselection:`Menu --> Configurações > Configurar Kdenlive` e, na "
+"janela de configuração, selecione a seção :guilabel:`Reprodução`. Altere o :"
+"guilabel:`Driver de áudio` de :guilabel:`Automático` para :guilabel:`ALSA`. "
+"Deixe o dispositivo de áudio definido como “Padrão”, para que as "
+"configurações de áudio do seu computador sejam aplicadas."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:32
+msgid "Click :guilabel:`OK`, and you are done."
+msgstr "Clique em :guilabel:`OK`, e pronto."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:36
+msgid ""
+"Your timeline and bin clip audio playback should now be working as expected, "
+"without any unwanted slow audio fade-ins anymore."
+msgstr ""
+"A reprodução de áudio da sua linha do tempo e dos clipes da pasta agora deve "
+"funcionar como esperado, sem mais aqueles fades de áudio lentos e "
+"indesejados."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:39
+msgid ""
+"You will find the corresponding option in the main menu via :menuselection:"
+"`Menu --> Timeline --> Disable Timeline Effects`. This disables or re-"
+"enables all timeline effects, that is, timeline clip effects and track "
+"effects."
+msgstr ""
+"Você encontrará a opção correspondente no menu principal através de :"
+"menuselection:`Menu --> Linha do tempo --> Desativar efeitos da linha do "
+"tempo`. Isso desativa ou reativa todos os efeitos da linha do tempo, ou "
+"seja, efeitos de clipe e efeitos de faixa."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:41
+msgid ""
+"However, please note that prior to Kdenlive 16.08.1, track effects are not "
+"properly disabled or re-enabled by :menuselection:`Menu --> Timeline --> "
+"Disable Timeline Effects`."
+msgstr ""
+"No entanto, observe que, em versões anteriores ao Kdenlive 16.08.1, os "
+"efeitos de faixa não são desativados ou reativados corretamente por meio do :"
+"menuselection:`Menu --> Linha do tempo --> Desativar efeitos da linha do "
+"tempo`."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:43
+msgid ""
+"Please see :doc:`/tips_and_tricks/tips_and_tricks/effects_everywhere` about "
+"how to temporarily disable bin clip effects."
+msgstr ""
+"Consulte :doc:`/tips_and_tricks/tips_and_tricks/effects_everywhere` para "
+"saber como desativar temporariamente os efeitos dos clipes da cesta."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:50
+msgid "Notes"
+msgstr "Notas"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:56
+msgid ""
+"Please note that the unwanted ~2 seconds audio fade-in only happens with "
+"**some** USB audio cards but not others. It was noticed when trying a "
+"Steinberg UR22mkII USB audio interface."
+msgstr ""
+"Observe que o indesejado fade-in de áudio de aproximadamente 2 segundos "
+"ocorre apenas com **algumas** placas de áudio USB, e não com outras. O "
+"problema foi notado ao testar uma interface de áudio USB Steinberg UR22mkII."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:58
+msgid ""
+"Using the UR22mkII in Kdenlive using the stock audio settings was "
+"impossible, as the automatic fade-in made any voice over editing a complete "
+"and utter fail. Curiously, the UR22mkII worked beautifully when playing back "
+"audio using an Android tablet (that is a beautiful aspect of the UR22mkII: "
+"it is designed to be used with mobile devices). For comparison, a (much "
+"bulkier) Behringer QX1202USB does not exhibit the strange behavior even with "
+"the default audio settings in Kdenlive, or when using PulseAudio."
+msgstr ""
+"Usar o UR22mkII no Kdenlive com as configurações de áudio padrão era "
+"impossível, já que o fade-in automático tornava qualquer edição de locução "
+"um completo fracasso. Curiosamente, o UR22mkII funcionou perfeitamente ao "
+"reproduzir áudio em um tablet Android (essa é uma das grandes vantagens do "
+"UR22mkII: ele foi projetado para ser usado com dispositivos móveis). Para "
+"efeito de comparação, um Behringer QX1202USB (bem maior) não apresenta esse "
+"comportamento estranho, mesmo com as configurações de áudio padrão do "
+"Kdenlive ou ao usar o PulseAudio."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:60
+msgid "**Background Information**"
+msgstr "**Informações gerais**"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:60
+msgid ""
+"And what is even more strange and surprising: at least some other software, "
+"such as VLC, are completely unaffected, even when using PulseAudio for audio "
+"output."
+msgstr ""
+"E o que é ainda mais estranho e surpreendente: pelo menos alguns outros "
+"softwares, como o VLC, não são afetados, mesmo quando se utiliza o "
+"PulseAudio para a saída de áudio."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:63
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+"O texto original foi enviado pelo usuário *TheDiveO* para o blog kdenlive."
+"org, agora extinto. Para esta documentação, ele foi extraído do |"
+"kdenlive_org|, atualizado e adaptado para corresponder ao estilo geral."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:64
+msgid "**Sources**"
+msgstr "**Fontes**"
