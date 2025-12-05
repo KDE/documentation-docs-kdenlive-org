@@ -258,7 +258,7 @@ You can also double-click on an effect in the Effects Tab which adds the effect 
 
 Another method is to use the |favorite|:guilabel:`Favorite Effect` icon in the Timeline toolbar and select the effect from there (you add an effect to the favorite effects by right-click on the effect in the Effects Tab and select :guilabel:`Add to favorites`).
 
-Alternatively, you can use :menuselection:`Menu --> Timeline --> Add Effect` to select an effect from the various categories and add it to the selected clip(s) in the Timeline.
+Alternatively, you can use :menuselection:`Menu --> Sequence --> Add Effect` to select an effect from the various categories and add it to the selected clip(s) in the Timeline.
 
 And last but not least you can copy effects with all their settings from any clip (Timeline or Project Bin) and paste them to other clips.
 

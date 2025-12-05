@@ -31,7 +31,7 @@ This is the context menu that appears when you right-click on a clip in the time
 * :menuselection:`Copy` will copy the clip and selected clips to the clipboard.
 
 
-* :menuselection:`Paste Effects` will paste only the effects of the last copied clip to the selected clip.  See :ref:`paste_effects`.
+* :menuselection:`Paste Effects` will paste only the effects of the last copied clip to the selected clip.  See :ref:`edit_paste_effects`.
 
 
 * :menuselection:`Delete Effects` will remove all effects from the selected clip.

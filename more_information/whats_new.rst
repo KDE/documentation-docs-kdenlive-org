@@ -67,7 +67,7 @@ What's New
 .. versionadded:: 25.08 (see 25.08_ release notes)
 
    * Added checkerboard option in :ref:`clip monitor<ui-monitors_clip_monitor_hamburger>`
-   * Added possibility to :ref:`hide all tracks at once<timeline-menu_tracks>`
+   * Added possibility to :ref:`hide all tracks at once<sequence-menu_tracks>`
    * Added possibility to :doc:`make autosave configurable</getting_started/configure_kdenlive/configuration_misc>`
    * Revamp and updated the :doc:`titler</titles_and_graphics/titles/title_images>`
    * Revamp and updated the :doc:`notes widget</project_and_asset_management/project_notes>`
@@ -147,7 +147,7 @@ What's New
    * Changed the way the default sequence is displayed when you :ref:`delete all sequence tabs <Delete_all_sequence_tabs>`
    * Added :kbd:`Shift+double-click` to :ref:`reset track to default height <reset_track_to_default_height>`
    * Added ability to :ref:`fit tracks to view height <fit_tracks_to_view_height>`
-   * Changes to the :ref:`Clip jobs <clip_jobs>` menu
+   * Changes to the :ref:`Media jobs <media_jobs>` menu
    * Changes to the :ref:`Configure clip jobs <configure_clip_jobs>` dialog window
    * Added :kbd:`Shift+z` to :ref:`adjust timeline zone <adjust_timeline_zone>` to selected clips
 
@@ -155,7 +155,7 @@ What's New
 .. versionadded:: 23.04 (see 23.04_ release notes)
 
    * Introduced :ref:`Nested timelines / Sequences <sequence>`
-   * Changed the :ref:`Clip jobs <clip_jobs>` menu
+   * Changed the :ref:`Media jobs <media_jobs>` menu
    * Added a feature to :ref:`configure clip jobs <configure_clip_jobs>`
    * Ability to :ref:`split subtitle after first line <split_subtitle_after_first_line>`
    * Added :ref:`character count and zoom <subtitle-char_count_and_zoom>` to subtitles
@@ -166,7 +166,7 @@ What's New
 .. versionadded:: 22.12 (see 22.12_ release notes)
 
    * Added ability to :ref:`switch between a menubar and a hamburger menu <menubar>`
-   * New timeline menu entry :ref:`Current Track <timeline_menu>`
+   * New timeline menu entry :ref:`Current Track <sequence_menu>`
    * Removed the marker tab from :doc:`clip properties</project_and_asset_management/project_bin/clip_properties>`
    * Added ability to :ref:`double-click on animation to edit <edit_an-animation>`
    * Added new function to :ref:`remove all spaces <remove_spaces>` in the current track
@@ -190,7 +190,7 @@ What's New
 
 .. versionadded:: 22.04 (see 22.04_ release notes)
 
-   * :ref:`Find action <view-find_action>`
+   * :ref:`Find action <help-find_action>`
    * Proxy Clips can now be used in preview
    * Added Set Zone In/Out to :ref:`Timeline Ruler right-click menu <timeline_ruler_right-click_menu>`
    * Changed the :guilabel:`Audio` checkbox to a simple checkbox in the Rendering dialog window (see :ref:`More Options <rendering-more_options>`)

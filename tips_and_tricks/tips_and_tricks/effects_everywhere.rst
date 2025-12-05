@@ -23,7 +23,7 @@ Most of the time effects or filters are assigned to individual clips in the time
 
 But in some situations it is easier and faster to add effects or filters to clips in the bin or an entire track.
 
-.. hint:: Did you know that you can temporarily :doc:`disable all timeline effects </tips_and_tricks/tips_and_tricks/disable_all_timeline_effects>`? Use :menuselection:`Menu --> Timeline --> Disable timeline effects`.
+.. hint:: Did you know that you can temporarily :doc:`disable all timeline effects </tips_and_tricks/tips_and_tricks/disable_all_timeline_effects>`? Use :menuselection:`Menu --> Sequence --> Disable timeline effects`.
 
 
 .. _effects_everywhere-bin_clips:

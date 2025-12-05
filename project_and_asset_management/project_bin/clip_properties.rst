@@ -14,7 +14,7 @@
 Clip Properties
 ===============
 
-You can display and edit clip properties by selecting a clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` and using the :menuselection:`Menu --> Project --> Clip Properties`, or selecting :guilabel:`Clip Properties` from the right-click clip context menu.
+You can display and edit clip properties by selecting a clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` and using the :menuselection:`Menu --> Media --> Clip Properties`, or selecting :guilabel:`Clip Properties` from the right-click clip context menu.
 
 Clip Properties are displayed in their own widget. You enable it from the :menuselection:`Menu --> View --> Clip Properties`. If it is not enabled when selecting :guilabel:`Clip Properties` as described above, Kdenlive will automatically enable it. By default, the widget is part of the same workspace dock as the project bin. As with any other widget, you can move it around within the same dock or put it to another or even into its own dock. See the chapter about :doc:`Workspace Layout</user_interface/workspace_layouts>`.
 

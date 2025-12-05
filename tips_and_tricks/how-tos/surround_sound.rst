@@ -202,11 +202,11 @@ The "Edit metadata" dialog might pop up for each track. It is fine to just say :
 Import Audio Tracks into Kdenlive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The previously created audio files can now be added to the Kdenlive project using :menuselection:`Menu --> Project --> Add Clip`.
+The previously created audio files can now be added to the Kdenlive project using :menuselection:`Menu --> Media --> Add Media --> Add Clip`.
 
-Since there are only two audio tracks in a project by default, it is necessary to add two more using :menuselection:`Menu --> Project --> Tracks --> Insert Track` before adding the four audio tracks to the timeline.
+Since there are only two audio tracks in a project by default, it is necessary to add two more using :menuselection:`Menu --> Sequence --> Tracks --> Insert Track` before adding the four audio tracks to the timeline.
 
-The next thing to do is to group the four audio tracks with the video clip by selecting all of them and then choosing :menuselection:`Menu --> Timeline --> Group Clips`.
+The next thing to do is to group the four audio tracks with the video clip by selecting all of them and then choosing :menuselection:`Menu --> Sequence --> Group Clips`.
 
 .. note:: Don't forget to mute the original audio track in the video clip if necessary!
 

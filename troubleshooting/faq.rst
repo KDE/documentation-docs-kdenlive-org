@@ -141,7 +141,7 @@ The Kdenlive community is a great place to learn from each other and exchange id
 I want to apply an effect, for example a watermark, to the whole project. What is the best way to do this?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create a new project with the same project profile and import the project to which you want to apply the effect as a clip with  :menuselection:`Menu --> Project --> Add Clip` or by clicking on |kdenlive-add-clip| in the project bin. See also this |vimeo_how-to_watermark| on Vimeo.
+Create a new project with the same project profile and import the project to which you want to apply the effect as a clip with  :menuselection:`Menu --> Media --> Add Media --> Add Clip` or by clicking on |kdenlive-add-clip| in the project bin. See also this |vimeo_how-to_watermark| on Vimeo.
 
 
 There is a black, semi-transparent background on some images. How can I get rid of that?
@@ -235,8 +235,8 @@ I have a lot of clips in the bin but don't use all of them. Can I clean up the b
 
 Yes you can, and in two different ways:
 
-1. :menuselection:`Menu --> Project --> Clean Project` deletes unused clips from the :term:`Project Bin`
-2. :menuselection:`Menu --> Project --> Project Settings --> Project Files --> Delete Files` deletes unused files from the Project Bin **and** the storage medium (usually one of your disk drives)
+1. :menuselection:`Menu --> Media --> Remove Unused Media` deletes unused clips from the :term:`Project Bin`
+2. :menuselection:`Menu --> File --> Project Settings --> Project Files --> Delete Files` deletes unused files from the Project Bin **and** the storage medium (usually one of your disk drives)
 
 
 I want to back out to a previous release.

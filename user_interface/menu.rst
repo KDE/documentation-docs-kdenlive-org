@@ -28,6 +28,8 @@
 Menu Reference
 ==============
 
+.. .. versionchanged:: 25.12 Reorder menu structure and content 
+
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -36,14 +38,14 @@ Menu Reference
    menu/file_menu
    menu/edit_menu
    menu/view_menu
-   menu/project_menu
+   menu/media_menu
+   menu/sequence_menu
    menu/tool_menu
-   menu/clip_menu
-   menu/timeline_menu
    menu/monitor_menu
+   menu/markers_menu
    menu/settings_menu
+   menu/help_menu
    
-
 This section explains the nine menus in the main menu bar. These are:
 
 * :ref:`file_menu`
@@ -52,17 +54,19 @@ This section explains the nine menus in the main menu bar. These are:
 
 * :ref:`view_menu`
 
-* :ref:`project_menu`
+* :ref:`media_menu`
+
+* :ref:`sequence_menu`
 
 * :ref:`tool_menu`
 
-* :ref:`clip_menu`
-
-* :ref:`timeline_menu`
-
 * :ref:`monitor_menu`
 
+* :ref:`markers_menu`
+
 * :ref:`settings_menu`
+
+* :ref:`help_menu`
 
 
 .. tip:: In order to optimize screen space you can turn off the menu bar in :menuselection:`Menu --> Settings --> Show Menubar` or by hitting :kbd:`Ctrl+M`. This will add a hamburger menu (|application-menu|) to the main toolbar containing the menus.

@@ -1,3 +1,7 @@
+.. meta::
+   :description: Kdenlive's User Interface - configure Notifications
+   :keywords: KDE, Kdenlive, media, project, menu, configure Notifications, documentation, user manual, video editor, open source, free, learn, easy
+
 .. metadata-placeholder
 
    :authors: - Claus Christensen

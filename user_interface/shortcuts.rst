@@ -422,9 +422,9 @@ Timeline
    * - Add Clip to Selection
      - :kbd:`Alt++`
      - Adds the clip of the active track to the selection at playhead position.
-   * - Add Marker/Guide quickly
+   * - Add Marker quickly
      - :kbd:`Num+*`
-     - On Numlock pad: :kbd:`*` adds a marker/guide
+     - On Numlock pad: :kbd:`*` adds a marker
    * - Add Subtitle
      - :kbd:`Shift+S`
      - Adds a subtitle at playhead position.

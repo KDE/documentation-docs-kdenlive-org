@@ -22,7 +22,7 @@
 
 .. |extract_audio| replace:: :guilabel:`Extract Audio`
 
-.. |clip_jobs| replace:: :guilabel:`Clip Jobs`
+.. |media_jobs| replace:: :guilabel:`Media Jobs`
 
 .. |clip_in_timeline| replace:: |go-jump|\ :guilabel:`Clip in Timeline`
 
@@ -86,7 +86,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
 |extract_audio|:
    Extracts the audio stream of the clip and adds a :file:`.wav` file with a sample rate of 48kHz to the project bin. Is only available if the clip is of type :file:`audio` or a video file with an audio stream. For further details see the chapter :ref:`extract_audio`.
 
-|clip_jobs|:
+|media_jobs|:
    Opens a flyout with additional options
    
    * |my_custom_job| runs the clip job *My Custom Job*
@@ -121,7 +121,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
    Opens a window with the selected clips where you can select the format to transcode the clips to. See also the chapter :ref:`transcode_to_edit_friendly_format`.
 
 |proxy_clip|:
-   If checked indicates that the selected clip is a proxy clip* :ref:`make_proxy_clip`. If the option is greyed out, proxy clips are not enabled for the project. Go to the :doc:`/project_and_asset_management/project_settings/proxy_settings` tab in the Project Settings (:menuselection:`Menu --> Project --> Project Settings`) and enable proxy clips.
+   If checked indicates that the selected clip is a proxy clip* :ref:`make_proxy_clip`. If the option is greyed out, proxy clips are not enabled for the project. Go to the :doc:`/project_and_asset_management/project_settings/proxy_settings` tab in the Project Settings (:menuselection:`Menu --> File --> Project Settings`) and enable proxy clips.
 
 |clip_properties|:
    Opens the widget for the Clip Properties. For more details refer to the chapter :ref:`clip_menu-clip_properties`.
@@ -130,7 +130,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
    Opens the application associated with the type of the selected clip. See also the chapter :ref:`edit_clip`.
 
 |rename_clip| (default keyboard shortcut :kbd:`F2`):
-   Opens the clip name field in the bin for editing. This does not change the filename in the file system. See also the chapter :ref:`clip_menu-rename_clip`.
+   Opens the clip name field in the bin for editing. This does not change the filename in the file system.
 
 |delete_clip|:
    Deletes the selected clips. If the clips are being used in the timeline or in sequences, a warning windows is opened where you need to confirm that the clips' instances in the timeline will also be deleted. See also the chapter :ref:`delete_clip`.

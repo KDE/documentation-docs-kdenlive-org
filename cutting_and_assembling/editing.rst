@@ -735,7 +735,7 @@ Clips will also snap to the cursor position, markers and :doc:`guides`.
 Fit Zoom to Project
 ~~~~~~~~~~~~~~~~~~~
 
-This will zoom the project out so that it all fits in the timeline window. This is the same function that is triggered by :ref:`timeline_menu` Menu item, :menuselection:`Fit Zoom to Project`.
+This will zoom the project out so that it all fits in the timeline window. This is the same function that is triggered by :ref:`sequence_menu` Menu item, :menuselection:`Fit Zoom to Project`.
 
 
 Zoom project

@@ -36,7 +36,7 @@ Version 21.12.3 has a few issues that have workarounds. The purpose of this sect
 Title tool, display real background not working in "DirectX" backend
 --------------------------------------------------------------------
 
-Something with the settings went wrong. Go to: :menuselection:`Menu --> Help --> Reset Configuration` and try again.
+Something with the settings went wrong. Go to: :menuselection:`Menu --> Settings --> Reset Configuration` and try again.
 
 
 Render problems
@@ -60,7 +60,7 @@ Windows issue with scopes, scopes don't show anything
 
 Workaround: Change the back-end to OpenGL via :menuselection:`Menu --> Settings --> OpenGL Backend --> OpenGL`
 
-If it is still not working go to: :menuselection:`Menu --> Help --> Reset Configuration` and try again.
+If it is still not working go to: :menuselection:`Menu --> Help --> timeline guide locked` and try again.
 
 
 
@@ -106,9 +106,9 @@ Updated Intel graphics driver version leads to a corrupted Kdenlive :abbr:`GUI (
 Timeline right-click menu closes immediately after releasing mouse button
 -------------------------------------------------------------------------
 
-Don't use the style :guilabel:`Fusion`.
+Don't use the application style :guilabel:`Fusion`.
 
-Go to: :menuselection:`Menu --> Settings --> Style` and choose :guilabel:`Default` or :guilabel:`Windows`.
+Go to: :menuselection:`Menu --> Settings --> Application Style` and choose :guilabel:`Default` or :guilabel:`Windows`.
 
 
 .. _issue-force_breeze_icon_theme:
@@ -116,17 +116,17 @@ Go to: :menuselection:`Menu --> Settings --> Style` and choose :guilabel:`Defaul
 Icons are missing
 -----------------
 
-Go to: :menuselection:`Menu --> Settings` and un-check :guilabel:`Force Breeze Icon Theme`. Kdenlive restarts and you should see the icons.
+Go to: :menuselection:`Menu --> Settings` and click on :guilabel:`Reset Configuration`. Kdenlive restarts and you should see the icons.
 
 
 Cannot open projects made with previous version, timeline snaps back, cannot import clip
 ----------------------------------------------------------------------------------------
 
-Go to: :menuselection:`Menu --> Help --> Reset configuration`.
+Go to: :menuselection:`Menu --> Settings --> Reset configuration`.
 
 If this is not solving the problem: Press :kbd:`Win+R` and type **appdata**. Go to :file:`Local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive, close it and then start Kdenlive again.
 
-If you have still problems delete proxy clips and other cached data by going to :menuselection:`Menu --> Project --> Project Setting --> Cache Data` where you can delete cached data.
+If you have still problems delete proxy clips and other cached data by going to :menuselection:`Menu --> File --> Project Setting --> Cache Data` where you can delete cached data.
 
 
 Windows 10: timeline stuttering or Kdenlive hangs

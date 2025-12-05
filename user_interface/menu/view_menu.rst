@@ -30,56 +30,54 @@
 View Menu
 =========
 
+.. .. versionchanged:: 25.12 Reorder menu structure and content 
+
 The View Menu controls the widgets that appear on screen, and is used for managing screen layouts.
 
-Use the navigation on the left to go to the various menu items
-
-.. container:: clear-both
-
-   .. figure:: /images/user_interface/menu_reference/kdenlive2304_view_menu.webp
+   .. figure:: /images/user_interface/menu_reference/menu_reference-view_menu-2512.webp
      :align: left
-     :height: 635px
+     :scale: 77%
      
      Kdenlive View Menu
+
+- :ref:`view_full_screen_mode`
+- :ref:`view-load_layout`
+- :ref:`view-save_layout`
+- :ref:`view-manage_layout`
+- :ref:`view_show_title_bars`
+- :ref:`view-audio_mixer`
+- :ref:`view-clip_monitor`
+- :ref:`view-clip_properties`
+- :ref:`view-compositions`
+- :ref:`view-effects_stack`
+- :ref:`view-effects`
+- :ref:`view-library`
+- :ref:`view-markers`
+- :ref:`view-media_browser`
+- :ref:`online_resources`
+- :ref:`view-project_bin`
+- :ref:`view-project_monitor`
+- :ref:`view-project_notes`
+- :ref:`view_scopes`
+- :ref:`view-screen_grab`
+- :ref:`view-speech_editor`
+- :ref:`view-subtitles`
+- :ref:`view-time_remapping`
+- :ref:`view-timeline`
+- :ref:`undo_history`
+
+.. rst-class:: clear-both
+
+
+.. _view_full_screen_mode:   
+
+Full Screen Mode
+----------------
 	 
-	 
-   :guilabel:`Full Screen Mode` toggles the main window of Kdenlive in and out of full screen mode.
+:guilabel:`Full Screen Mode` toggles the main window of Kdenlive in and out of full screen mode.
    
-   Please note: This is not to be confused with :kbd:`F11` which toggles the Project or Clip Monitor in and out of full screen mode.
+Please note: This is not to be confused with :kbd:`F11` which toggles the Project or Clip Monitor in and out of full screen mode.
    
-   :guilabel:`Show Title Bars` toggles the display of the title bars of the various :term:`widgets<widget>` on and off. Turn it off if you need more real estate on your screen. For some widgets you need titlebars to move them around.
-   
-   .. figure:: /images/user_interface/menu_reference/kdenlive_show_titles01.webp
-      :align: left
-      :width: 200px
-	  
-      Title Bar
-
-   .. figure:: /images/user_interface/menu_reference/kdenlive_show_titles02.webp
-      :width: 200px
-	  
-      No Title Bar
-   
-.. rst-class:: clear-both	 
-
-
-.. _view-find_action:
-
-Find Action
------------
-
-.. .. versionadded:: 22.04
-
-This feature allows you to search for any command or action available. Simply enter the search and then select the command or action you want to execute. Kdenlive uses fuzzy search or look-ahead search, so that every character you type changes the search result on the fly.
-
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_find_action.webp
-   :align: left
-   :width: 650px
-   
-   Kdenlive Find Action
-
-.. rst-class:: clear-both	 
-
 
 .. _view-load_layout:
 
@@ -132,7 +130,7 @@ In the example shown, no custom layouts have been saved yet so they are just lab
 .. rst-class:: clear-both	 
 
 
-.. _view-manege_layout:
+.. _view-manage_layout:
 
 Manage Layouts
 --------------
@@ -150,18 +148,42 @@ You can delete, re-arrange, reset, import and export the saved layouts.
 .. rst-class:: clear-both	 
 
 
-.. _view-dock_area_orientation:
+.. _view_show_title_bars:
 
-Dock Area Orientation
----------------------
+Show Title Bars
+---------------
 
-This function controls how Kdenlive arranges the workspace layout:
+:guilabel:`Show Title Bars` toggles the display of the title bars of the various :term:`widgets<widget>` on and off. Turn it off if you need more real estate on your screen. For some widgets you need titlebars to move them around.
+   
+.. figure:: /images/user_interface/menu_reference/kdenlive_show_titles01.webp
+   :align: left
+   :width: 200px
+	  
+   Title Bar
 
-* Arrange Dock Areas in Columns - Widgets can be stacked like washing machine and dryer at both ends of the screen and scaled vertically independent from the screen split between the Timeline and the area above
+.. figure:: /images/user_interface/menu_reference/kdenlive_show_titles02.webp
+   :width: 200px
+	  
+   No Title Bar
+   
+.. rst-class:: clear-both	 
 
-* Arrange Dock Areas in Rows - Widgets can be put next to each other and scaling them horizontally does not affect the widgets in the row above them.
 
-See the :ref:`ui-customizing_interface` for more details and an illustration.
+.. .. versionremoved:: 25.12
+   With introduction of the KDDockWidgets this function from QtWidget is not needed anymore as the window can now be freely arranged in any orientation.
+   
+   .. _view-dock_area_orientation:
+
+   Dock Area Orientation
+   ---------------------
+
+   This function controls how Kdenlive arranges the workspace layout:
+
+   * Arrange Dock Areas in Columns - Widgets can be stacked like washing machine and dryer at both ends of the screen and scaled vertically independent from the screen split between the Timeline and the area above
+
+   * Arrange Dock Areas in Rows - Widgets can be put next to each other and scaling them horizontally does not affect the widgets in the row above them.
+
+   See the :ref:`ui-customizing_interface` for more details and an illustration.
 
 
 .. _view-audio_mixer:
@@ -264,16 +286,6 @@ More details about effects are available in the :ref:`Effects and Filters <effec
 .. rst-class:: clear-both
 
 
-.. _view-guides:
-
-Guides
-------
-
-Switches the Guides :term:`widget` on or off.
-
-Guides and Markers are a powerful tool to speed up your workflow. More details about them in the :ref:`guides` section of the documentation.
-
-
 .. _view-library:
 
 Library
@@ -290,6 +302,16 @@ Switches the Library :term:`widget` on or off.
 The Library holds items for generic use in projects. For example watermarks, logos, lower-thirds, intros, and so on. Please refer to the :doc:`Library </project_and_asset_management/library>` section of this documentation for more details.
 
 .. rst-class:: clear-both
+
+
+.. _view-markers:
+
+Markers
+-------
+
+Switches the Markers :term:`widget` on or off.
+
+Markers (Timeline Markers former Guides) are a powerful tool to speed up your workflow. More details about them in the :ref:`guides` section of the documentation.
 
 
 .. _view-media_browser:
@@ -378,10 +400,31 @@ Project Notes can be used to keep notes about your project, like ideas or things
 .. rst-class:: clear-both
 
 
+.. _view_scopes:
+
+Scopes
+------
+
+   .. figure:: /images/user_interface/menu_reference/menu_reference-view_scopes-2512.webp
+     :align: left
+     :scale: 87%
+     
+     Kdenlive View Scopes
+
+- :ref:`view-audio_spectrum`
+- :ref:`view-histogram`
+- :ref:`view-rgb_parade`
+- :ref:`view-vectorscope`
+- :ref:`view-waveform`
+
+.. rst-class:: clear-both
+
+
+
 .. _view-audio_spectrum:
 
 Scope - Audio Spectrum
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. .. versionchanged:: 25.12
 
@@ -407,7 +450,7 @@ It graphs the loudness of the audio in decibels (vertical axis) for each audio f
 .. _view-histogram:
 
 Scope - Histogram
------------------
+~~~~~~~~~~~~~~~~~
 
 .. .. versionchanged:: 25.12
 
@@ -435,7 +478,7 @@ See also the :doc:`/effects_and_filters/video_effects/utility/histogram` video e
 .. _view-rgb_parade:
 
 Scope - RGB Parade
-------------------
+~~~~~~~~~~~~~~~~~~
 
 .. .. versionchanged:: 25.12
 
@@ -461,7 +504,7 @@ See also the :doc:`/effects_and_filters/video_effects/utility/rgb_parade` video 
 .. _view-vectorscope:
 
 Scope - Vectorscope
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 .. .. versionchanged:: 25.12
 
@@ -485,7 +528,7 @@ See also the :doc:`/effects_and_filters/video_effects/utility/vectorscope` and :
 .. _view-waveform:
 
 Scope - Waveform
-----------------
+~~~~~~~~~~~~~~~~
 
 .. .. versionchanged:: 25.12
 
@@ -497,7 +540,7 @@ Switches the Waveform :term:`widget` on or off.
    
    Kdenlive Waveform widget
 
-Contrary to what its name might suggest the Waveform :term:`widget` is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the `RGB Parade`_. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel :term:`luma` from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this :term:`luma` in this column of pixels in the video frame.
+Contrary to what its name might suggest the Waveform :term:`widget` is not for audio but represents the Luma component (whiteness) of the video. It is the same type of graph as for the :term:`RGB Parade`. The horizontal axis represents the horizontal axis in the video frame. The vertical axis is the pixel :term:`luma` from 0 to 255. The brightness of the point on the graph represents the count of the number of pixels with this :term:`luma` in this column of pixels in the video frame.
 
 .. rst-class:: clear-both
 

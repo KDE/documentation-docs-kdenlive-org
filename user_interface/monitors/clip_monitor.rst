@@ -174,7 +174,7 @@ These are the menu items that are available when you right-click in the Clip Mon
    :widths: 20 25 60
    :class: table-wrap
 
-   * - Add Marker/Guide quickly
+   * - Add Marker quickly
      - :kbd:`Num+*`
      - Adds a new marker at the current time point
    * - Edit Marker

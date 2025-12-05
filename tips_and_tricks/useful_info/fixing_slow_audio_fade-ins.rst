@@ -36,9 +36,9 @@ Click :guilabel:`OK`, and you are done.
 Your timeline and bin clip audio playback should now be working as expected, without any unwanted slow audio fade-ins anymore.
 
 
-You will find the corresponding option in the main menu via :menuselection:`Menu --> Timeline --> Disable Timeline Effects`. This disables or re-enables all timeline effects, that is, timeline clip effects and track effects.
+You will find the corresponding option in the main menu via :menuselection:`Menu --> Sequence --> Disable Timeline Effects`. This disables or re-enables all timeline effects, that is, timeline clip effects and track effects.
 
-However, please note that prior to Kdenlive 16.08.1, track effects are not properly disabled or re-enabled by :menuselection:`Menu --> Timeline --> Disable Timeline Effects`.
+However, please note that prior to Kdenlive 16.08.1, track effects are not properly disabled or re-enabled by :menuselection:`Menu --> Sequence --> Disable Timeline Effects`.
 
 Please see :doc:`/tips_and_tricks/tips_and_tricks/effects_everywhere` about how to temporarily disable bin clip effects.
 
