@@ -1,4 +1,8 @@
-.. metadata~placeholder
+.. meta::
+   :description: Kdenlive's User Interface - Tool Menu
+   :keywords: KDE, Kdenlive, clip, project, menu, tool menu, modes, selection, documentation, user manual, video editor, open source, free, learn, easy
+
+.. metadata-placeholder
 
    :authors: - Yuri Chornoivan
              - Jack (https://userbase.kde.org/User:Jack)
@@ -13,6 +17,7 @@
 Tool Menu
 =========
 
+.. .. versionchanged:: 25.12 Reorder menu structure and content 
 
 .. figure:: /images/user_interface/menu_reference/kdenlive_tool_menu.webp
    :align: left
@@ -24,6 +29,8 @@ Tool Menu
 The options on this menu provide three modes and six tools which determine how operations are performed on clips in the timeline. The same options can also be accessed from :ref:`timeline_edit_modes` and :ref:`timeline_edit_tools`. More details on their usage can be found there.
 
 .. rst-class:: clear-both
+
+Use the navigation to the left to go to the various items.
 
 Modes
 -----

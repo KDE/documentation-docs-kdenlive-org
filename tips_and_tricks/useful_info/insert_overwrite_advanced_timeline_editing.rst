@@ -82,7 +82,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
       Clip region inserted in the timeline
 
-   Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone toolbar button |timeline-insert|, or use :menuselection:`Menu --> Timeline --> Insertion --> Insert Clip Zone in Timeline`.
+   Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone toolbar button |timeline-insert|, or use :menuselection:`Menu --> Sequence --> Insertion --> Insert Clip Zone in Timeline`.
 
 .. container:: clear-both
 
@@ -159,7 +159,7 @@ Insert Clip (from In Point) into Timeline Zone
 
       Timeline with clip inserted into and having overwritten the timeline zone
 
-   Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone toolbar button |timeline-insert|, or use :menuselection:`Menu --> Timeline --> Insertion --> Insert Clip Zone in Timeline`.
+   Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone toolbar button |timeline-insert|, or use :menuselection:`Menu --> Sequence --> Insertion --> Insert Clip Zone in Timeline`.
 
 .. rst-class:: clear-both
    
@@ -221,7 +221,7 @@ Overwrite Timeline with Clip Zone
 
       Clip region overwrote parts of the timeline
 
-   Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> Timeline --> Insertion --> Overwrite Clip Zone in Timeline`.
+   Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> Sequence --> Insertion --> Overwrite Clip Zone in Timeline`.
 
    .. rst-class:: clear-both
 
@@ -288,7 +288,7 @@ Overwrite Timeline Zone with Clip
 
       Timeline with clip having overwritten the timeline zone
 
-   Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> Timeline --> Insertion --> Overwrite Clip Zone in Timeline`.
+   Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> Sequence --> Insertion --> Overwrite Clip Zone in Timeline`.
 
 .. rst-class:: clear-both
    

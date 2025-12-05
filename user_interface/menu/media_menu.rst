@@ -1,6 +1,6 @@
 .. meta::
-   :description: Kdenlive's User Interface - Clip Menu
-   :keywords: KDE, Kdenlive, clip, project, menu, clip menu, jobs, overlay, marker, automatic transition, transcode, documentation, user manual, video editor, open source, free, learn, easy
+   :description: Kdenlive's User Interface - Media Menu
+   :keywords: KDE, Kdenlive, media, project, menu, media menu, jobs, transcode, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
 
@@ -21,61 +21,242 @@
 
    :license: Creative Commons License SA 4.0
 
+.. |glaxnimate| raw:: html
 
-.. _clip_menu:
+   <a href="https://glaxnimate.mattbas.org/" target="_blank">Glaxnimate</a>
 
-Clip Menu
-=========
 
-The functions in this menu affect the clip that is selected in the Timeline **or** in the Project Bin. Menu functions are available depending on whether a clip is selected in the Project Bin or in the Timeline.
+.. _media_menu:
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_menu.webp
+Media Menu
+==========
+
+.. .. versionchanged:: 25.12 Reorder menu structure and content 
+
+The functions in this menu affects media that is selected in the Timeline **or** in the Project Bin. Menu functions are available depending on whether a clip is selected in the Project Bin or in the Timeline.
+
+.. figure:: /images/user_interface/menu_reference/menu_reference-media_menu-2512.webp
    :align: left
-   :alt: kdenlive2304_clip_menu
-   
-   Clip Menu
+   :scale: 77%
+      
+   Kdenlive Media Menu
+
+- :ref:`add_media`
+- :ref:`create_folder`
+- :ref:`extract_audio`
+- :ref:`media_jobs`
+- :ref:`transcode_to_edit_friendly_format`
+- :ref:`transcode_clips`
+- :ref:`transcode`
+- :ref:`locate_clip`
+- :ref:`reload_clip`
+- :ref:`replace_clip`
+- :ref:`replace_clip_in_timeline`
+- :ref:`duplicate_clip`
+- :ref:`Proxy Clip <make_proxy_clip>`
+- :ref:`clip_in_timeline`
+- :ref:`Clip Properties <media_menu-clip_properties>`
+- :ref:`edit_clip`
+- :ref:`delete_clip`
+- :ref:`adjust_profile_to_current_clip`
+- :ref:`remove_unused_media`
 
 .. rst-class:: clear-both
 
-.. _clip_menu-markers:
 
-Markers
--------
+.. _add_media:
 
-The menu allows you to Add, Edit or Delete Markers or Guides. For more details see the section about :ref:`Markers` in this documentation.
+Add Media
+---------
 
-.. note:: The Add Marker function behaves differently depending on whether a clip is selected in the Project Bin or in the Timeline **and** where the playhead is currently **and** whether the focus is on the Timeline or the Clip Monitor.
+.. figure:: /images/user_interface/menu_reference/menu_reference-add_media_menu-2512.webp
+   :align: left
+   :scale: 77%
+      
+   Kdenlive Add Media Menu
 
-Add Marker
-~~~~~~~~~~
+- :ref:`add_clip_or_folder`
+- :ref:`add_color_clip`
+- :ref:`add_image_sequence`
+- :ref:`add_title_clip`
+- :ref:`add_template_title`
+- :ref:`create_animation`
+- :ref:`add_sequence`
+- :ref:`generators`
 
-Adds a Marker to the clip at the current timepoint. Markers are properties of the clips in the Project Bin. So this action puts a marker in the clip in the Project Bin.
+.. rst-class:: clear-both
 
-.. note:: In order for the Add Marker to work a clip must be selected in the Timeline. You can create multiple Markers in the Guides widget for the clip selected in the Project Bin independent of the Timeline.
-
-
-Edit Marker...
-~~~~~~~~~~~~~~
-
-For this to work the playhead needs to be right on top of a Marker. If it is not you get an error on the bottom left "No Marker found at Cursor time". Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at a time, or use them with :kbd:`ALT` to jump to the next or previous edit point (for example cuts, clip edges, Markers and Guides).
-
-As Markers are properties of the clips in the Project Bin, this action changes the Marker from the clip in the Project Bin and thus in any other instance of this clip in the Timeline.
-
-
-Delete Marker
-~~~~~~~~~~~~~
-
-For this to work the playhead needs to be right on top of a Marker. If it is not you get an error on the bottom left "No Marker found at Cursor time". Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at a time, or use them with :kbd:`ALT` to jump to the next or previous edit point (for example cuts, clip edges, Markers and Guides).
-
-As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
+The purpose of this sub-menu is to allow you to add different types of media to the project bin.
 
 
-Delete All Markers
+.. _add_clip_or_folder:
+
+Add Clip or Folder
 ~~~~~~~~~~~~~~~~~~
 
-Deletes all Markers from the current clip.
+This function allows you to add video, audio and (single) image files from your file system. It is also available from the menu bar of the Project Bin or by right-click or double-click on empty space in the Project Bin.
 
-As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
+.. Currently, the following formats are supported: <list of formats>
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_add_clip_window.webp
+   :align:  left
+   :width: 360px
+   :figwidth: 360px
+   
+   Adding a clip or entire folder
+   
+A more detailed explanation of this function is available in the :doc:`clips</project_and_asset_management/project_bin/clips>` section of this documentation.
+
+.. rst-class:: clear-both
+
+
+.. _add_color_clip:
+
+Add Color Clip
+~~~~~~~~~~~~~~
+
+This function allows you to create a clip with a single color.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_add_color_clip_window.webp
+   :align:  left
+   :height: 250px
+   
+   Adding a Color Clip
+
+It is also available from the menu bar of the Project Bin and by right-clicking on empty space in the Project Bin.
+
+For more details refer to the :doc:`Color Clips </project_and_asset_management/project_bin/color_clip>` section of this documentation.
+
+.. rst-class:: clear-both
+
+
+.. _add_image_sequence:
+
+Add Image Sequence
+~~~~~~~~~~~~~~~~~~
+
+This function adds a series of still images as one clip to the Project Bin. 
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_add_image_sequence_window.webp
+   :align:  left
+   :width: 360px
+   :figwidth: 360px
+   
+   Adding an Image Sequence
+
+It is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
+
+For more details refer to the :doc:`Image Sequence </project_and_asset_management/project_bin/image_sequence>` section of this documentation.
+
+.. rst-class:: clear-both
+
+
+.. _add_title_clip:
+
+Add Title Clip
+~~~~~~~~~~~~~~
+
+This function adds a Title Clip to the Project Bin. First, it opens the title editor in a separate window where you create the Title Clip. Once saved it shows up in the Project Bin.
+
+A more detailed documentation of the title editor is available in the :doc:`/titles_and_graphics/titles/titles` section of the documentation.
+
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
+
+
+.. _add_template_title:
+
+Add Template Title
+~~~~~~~~~~~~~~~~~~
+
+This function creates a Title Clip based on a Template Title.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_add_template_title_window.webp
+   :align:  left
+   :width: 360px
+   :figwidth: 360px
+   
+   Adding a Template Title
+   
+You build the template in the Titler application like a normal Title Clip. The key is the placeholder :code:`%s`. It will be replaced by the text you enter here.
+
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
+
+Please refer to the :doc:`/titles_and_graphics/titles/title_template_titles` section of this documentation for more details about Titles and Templates.
+
+.. rst-class:: clear-both
+
+
+.. _create_animation:
+
+Create Animation
+~~~~~~~~~~~~~~~~
+
+This function creates an animation clip in the Project Bin and calls |glaxnimate|, the application to actually create the animation.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_create_animation_window.webp
+   :align:  left
+   :width: 360px
+   :figwidth: 360px
+   
+   Creating an animation
+
+Glaxnimate has to be installed on your computer and the path to it must be set in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --> Default Apps`.
+
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
+
+.. rst-class:: clear-both
+
+
+.. _add_sequence:
+
+Add Sequence
+~~~~~~~~~~~~
+
+This function creates a new Sequence in the Project Bin.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_add_sequence_window.webp
+   :align:  left
+   :height: 250px
+   
+   Add a new Sequence
+
+Sequences were introduced with version 23.04 and are needed for nested timelines where you can edit clips separately and independently.
+
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
+
+Please refer to the :ref:`sequence` section of this documentation for more details.
+
+.. rst-class:: clear-both
+
+
+.. _generators:
+
+Generators
+~~~~~~~~~~
+
+This function allows to create :doc:`generated clips</project_and_asset_management/project_bin/generators>` in your Project Bin for
+
+* Counter
+* Color Bars (old TV test display)
+* White Noise
+
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin. See the :doc:`Clips</project_and_asset_management/project_bin/clips>` section in this documentation for more details.
+
+
+.. _create_folder:
+
+Create Folder
+-------------
+
+This function creates a new folder in the Project Bin.
+
+The folder is a virtual folder and very useful to keep your assets organized. You can also create separate bins from each folder (see the :doc:`Multiple Bins</project_and_asset_management/project_bin/project_bin_use_multiple_bins>` section)
+
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
+
+More details are available in the :doc:`Create Folder</project_and_asset_management/project_bin/project_bin_use_folders>` section of this documentation.
+
+.. tip:: A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
 
 
 .. =============================================================================================
@@ -89,11 +270,6 @@ As Markers are properties of the clips in the Project Bin, this action removes t
    Secondly, a transition is a Composition and this section should be rephrased
 
 
-Delete Effects
---------------
-
-Deletes all effects from the selected clip.
-
 
 .. _extract_audio:
 
@@ -105,10 +281,10 @@ Only available if the selected clip is a video clip with an audio track. This fu
 This function is also available via the right-click menu of the clip in the Project Bin.
 
 
-.. _clip_jobs:
+.. _media_jobs:
 
-Clip Jobs
----------
+Media Jobs
+----------
 
 .. .. versionchanged:: 23.04
 
@@ -116,15 +292,23 @@ Clip Jobs
 
 Opens a flyout to select different options:
 
+.. figure:: /images/user_interface/menu_reference/menu_reference-media_jobs_menu-2512.webp
+   :align:  left
+   :scale: 77%
+   
+   Media Jobs Menu
+
+* My Custom Job (this may look different in your environment)
+
 * `Automatic Scene Split`_
 
 * `Stabilize`_
 
 * `Duplicate Clip with Speed Change`_ [1]_
 
-* My Clip Job (this may look different in your environment)
-
 * `Configure Clip Jobs`_
+
+.. rst-class:: clear-both
 
 This function is also available via the right-click menu of the clip in the Project Bin.
 
@@ -138,8 +322,7 @@ Automatic Scene Split
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_job-scene_split.webp
    :align: left
-   :alt: kdenlive2304_clip_job-scene_split
-   
+      
    Scene Detection
    
 This job detects scene changes in the clip and creates markers and/or cuts the clip into sub-clips. The :guilabel:`Change threshold` determines the difference in the video stream to be considered a scene change. You may need to experiment with this parameter to get satisfactory results for your specific situation and source material.
@@ -148,14 +331,12 @@ If you want Kdenlive to create sub-clips for each scene check the :guilabel:`Cut
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2104_clip_job-scene_split_markers.webp
    :align: left
-   :alt: kdenlive2104_clip_job-scene_split_markers
-   
+      
    Automatic Scene Detection with markers
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2104_clip_job-scene_split_cuts.webp
    :align: left
-   :alt: kdenlive2104_clip_job-scene_split_cuts
-   
+     
    Automatic Scene Detection with cuts
 
 .. rst-class:: clear-both
@@ -195,8 +376,7 @@ This feature applies image stabilization algorithms to the clip which can reduce
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2112_clip_job-stabilize_dialog.webp
    :align: left
-   :alt: kdenlive2112_clip_job-stabilize_dialog
-   
+      
    Stabilize Clip dialog in version 21.12
 
 Based on the tooltips from this screen and |vid.stab| this is what all the options mean:
@@ -267,8 +447,7 @@ This function is only available for clips selected in the Project Bin, and can b
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_clip_job-duplicate_speed_change
-   
+      
    Duplicate Clip with Speed Change
 
 Values above 100% speed the clip up, values below 100% slow it down. The sound in the clip is also reversed.
@@ -280,16 +459,14 @@ If you check :guilabel:`Add clip to "Speed Change" folder` a folder named "Speed
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_clip_job-clip_added
-   
+      
    Duplicate Clip with speed change in Project Bin   
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_job-clip_added_folder.webp
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_clip_job-clip_added
-   
+      
    Same as above but with Speed Change folder
 
 When you click on :guilabel:`Save` a new clip is created in the Project Bin. It has the filename you supplied in the dialog with the :file:`.mlt` extension.
@@ -311,8 +488,7 @@ Configure Clip Jobs
 .. figure:: /images/user_interface/menu_reference/kdenlive2308_clip_jobs.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_clip_jobs
-   
+      
    Manage Bin Clip Jobs dialog
    
 This opens the **Manage Bin Clip Jobs** dialog. Here you can create and manage your own jobs that can then be applied to clips in the Project Bin. Select the executable you want to be called and enter the arguments to be passed to the executable. ``%1`` will be replaced by the path of the source clip. If you do not specify an output file extension the extension of the source file will be used.
@@ -334,8 +510,7 @@ Transcode to Edit Friendly Format
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_job-transcode_edit_friendly.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_clip_job-transcode_edit_friendly
-   
+      
    Transcode clip to edit-friendly format
    
 This opens a dialog window where you can select an edit-friendly format in case your source material is not suitable for non-linear video editing. This function is also available via the right-click menu for the clip(s) selected in the Project Bin.
@@ -343,6 +518,33 @@ This opens a dialog window where you can select an edit-friendly format in case 
 You can select more than one clip in the Project Bin for this function.
 
 There are several formats available, some are lossless (producing huge files), some produce a slight degradation in quality.
+
+.. rst-class:: clear-both
+
+
+.. _transcode_clips:
+
+Transcode Clips
+---------------
+
+.. container:: clear-both
+
+   .. figure:: /images/user_interface/menu_reference/kdenlive2304_transcode_2.webp
+     :align: left
+     :width: 300px
+  
+     Transcode clips
+
+
+   Use this to convert a video or audio clip from one codec/format to another.
+
+   Choose one source file or multiple source files and a profile that represents the desired destination codec/format. Optionally change the destination path and file name and hit :guilabel:`Start`. Otherwise, hit :guilabel:`Abort` to close the windows.
+
+   Transcoding a clip should be faster than loading the clip into the timeline and re-encoding it into a different format.
+
+   * :guilabel:`Add clip to project` controls if after the conversion, the new clip is added to the :doc:`Project Bin </project_and_asset_management/project_bin>`.
+
+   * :guilabel:`Close after encode` Uncheck this checkbox if there is the need to convert to another format after the conversion.
 
 .. rst-class:: clear-both
 
@@ -363,8 +565,7 @@ Choose a transcode profile from the available list to transcode the selected cli
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_transcode_clips.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_transcode_clips
-   
+      
    Transcoding job running
 
 While the transcode job is running, the Project Bin will display a progress bar on the thumbnail of the clip(s), and a job list menu item will appear at the top of the Project Bin.
@@ -407,7 +608,6 @@ If you select an audio file only, Kdenlive ask you if you want to change the aud
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2402_replace_clip_question.webp
    :align: left
-   :alt: kdenlive2402_replace_clip_question
    
    Question if you only want to change the audio part of your clip
 
@@ -416,6 +616,16 @@ If you select an audio file only, Kdenlive ask you if you want to change the aud
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
 .. note:: Make sure the clip replacement is at least of the same length/duration. Otherwise it may lead to unwanted gaps in the Timeline. If effects are used on these clips the replacement clips should have the same dimensions to avoid unwanted behaviour of effects.
+
+
+.. _replace_clip_in_timeline:
+
+Replace Clip In Timeline
+------------------------
+
+With this function you can replace a clip which is in the timeline with another clip. This is helpful when you are working with placeholders or low resolution clips which you like to exchange with the final clip before rendering.
+
+You need to select 2 clips (the replacement clip and the original clip) for this replacement
 
 
 .. _duplicate_clip:
@@ -436,7 +646,6 @@ Proxy Clip
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_proxy_clip.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_proxy_clip
 
    Proxy Clip
 
@@ -459,7 +668,6 @@ This function is useful for quickly locating all the places where a clip is used
 .. figure:: /images/user_interface/menu_reference/kdenlive_clip-in-timeline.webp
    :align: left
    :width: 400px
-   :alt: kdenlive_clip-in-timeline
    
    Locating all occurencies of a clip
 
@@ -474,14 +682,13 @@ This option will be greyed out if the clip is not being used in the Timeline.
 See also :guilabel:`Clip in Project Bin` available in the :ref:`right-click menu <right_click_menu>` on a clip in the Timeline.
 
 
-.. _clip_menu-clip_properties:
+.. _media_menu-clip_properties:
 
 Clip Properties
 ---------------
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_properties_2.webp
    :align: left
-   :alt: kdenlive2304_clip_properties_2
    
    Properties of the clip
    
@@ -499,8 +706,7 @@ For more details see the chapter :doc:`Clip Properties</project_and_asset_manage
 Edit Clip
 ---------
 
-.. .. versionadded:: 22.08
-   animation
+.. .. versionadded:: 22.08 animation
 
 This function is available for the following clip types:
 
@@ -517,7 +723,6 @@ This function is also available via the right-click menu of a clip selected in t
 If the path is not set a pop-up window appears to define the path to the external software on your computer:
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2208_missing_glaxnimate_path.webp
-   :alt: kdenlive2208_missing_glaxnimate_path
    
    Missing path for Glaxnimate
 
@@ -528,16 +733,6 @@ More details for installing the needed external software and how to set the path
 .. hint:: The option is greyed out for video clips because **Kdenlive** is the video editor - only audio, image and animation clips are edited by external software.
 
 
-.. _clip_menu-rename_clip:
-
-Rename
-------
-
-This function allows you to change the name of the clip in the Project Bin to an arbitrary name. It does not rename the file in the file system.
-
-This function is also available via the right-click menu of a clip selected in the Project Bin.
-
-
 .. _delete_clip:
 
 Delete Clip
@@ -546,6 +741,45 @@ Delete Clip
 This function removes the clip from the Project Bin. It does not delete it from the file system. If the clip is being used in the Timeline a warning message will appear, and if you click on :guilabel:`Continue` any occurrence of that clip in the Timeline will be deleted.
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
+
+
+.. _adjust_profile_to_current_clip:
+
+Adjust Profile to Current Clip
+------------------------------
+
+This function offers up a suggested Project Profile that would be most suitable for the currently selected clip in the Project Bin.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_adjust_profile.webp
+   :align:  left
+   :width: 480px
+   
+   Adjusting the project profile to the clip properties
+   
+.. rst-class:: clear-both
+
+
+.. _remove_unused_media:
+
+Remove Unused Media
+-------------------
+
+This function can be used to remove any unused clips from the Project Bin.
+
+.. figure:: /images/user_interface/menu_reference/kdenlive2304_clean_project.webp
+   :align:  left
+   :width: 360px
+   :figwidth: 360px
+   :alt: kdenlive2304_clean_project
+   
+   Clean up the project
+
+You can undo this action with :menuselection:`Menu --> Edit --> Undo`, through the :ref:`undo_history` or with the default keyboard shortcut :kbd:`Ctrl+Z`.
+
+.. rst-class:: clear-both
+
+.. note::
+   This is different from the :doc:`Project Settings</project_and_asset_management/project_settings>` dialog button :guilabel:`Delete Files` in the :doc:`Project Files</project_and_asset_management/project_settings/tab_project_files>` tab which deletes files not used by the project from the hard drive.
 
 
 ----

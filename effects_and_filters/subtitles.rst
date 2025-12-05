@@ -132,7 +132,7 @@ Style Subtitles
 
 Creating, duplicating, deleting, and editing subtitle styles can be managed through the :ref:`subtitle-manager`.
 
-:menuselection:`Menu --> Project --> Subtitles --> Manage Subtitles --> Styles`
+:menuselection:`Menu --> Sequence --> Subtitles --> Manage Subtitles --> Styles`
 
 Additionally, you can edit the assigned style directly using the edit button in the :ref:`subtitle-window`.
 
@@ -241,9 +241,9 @@ Import and Export Subtitles
 
   Allows importing .vtt (Web Video Text Tracks) and .sbv (YouTube) files.
 
-Importing **SRT**, **ASS**, **VTT** and **SBV** subtitle file: :menuselection:`Menu --> Project --> Subtitles --> Import Subtitle File`
+Importing **SRT**, **ASS**, **VTT** and **SBV** subtitle file: :menuselection:`Menu --> Sequence --> Subtitles --> Import Subtitle File`
 
-Exporting **ASS** or **SRT** subtitles: :menuselection:`Menu --> Project --> Subtitles --> Export Subtitle File`
+Exporting **ASS** or **SRT** subtitles: :menuselection:`Menu --> Sequence --> Subtitles --> Export Subtitle File`
 
 .. .. versionadded:: 23.04
 
@@ -351,7 +351,7 @@ Subtitle Manager
 
 .. .. versionadded:: 24.02
 
-You can create, duplicate, and delete subtitle files and manage its components with the subtitle manager: :menuselection:`Menu --> Project --> Subtitles --> Manage Subtitles` or on the timeline as drop-down menu in the subtitle track.
+You can create, duplicate, and delete subtitle files and manage its components with the subtitle manager: :menuselection:`Menu --> Sequence --> Subtitles --> Manage Subtitles` or on the timeline as drop-down menu in the subtitle track.
 
 .. figure:: /images/kdenlive2402_drop-down_subtitle-manager.webp
    :align: left

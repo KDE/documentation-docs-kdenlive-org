@@ -40,4 +40,4 @@ Click on the |trash-empty| icon beside the categories to clear the cache data fo
 Click on the link below the project total cache data information to open that location with the standard file manager of your OS.
 
 .. note:: 
-   This tab is only available from :menuselection:`Menu --> Project --> Project Settings`.
+   This tab is only available from :menuselection:`Menu --> File --> Project Settings`.

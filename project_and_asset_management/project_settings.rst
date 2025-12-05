@@ -29,7 +29,7 @@ Here you also define the categories and colors for the guides and markers you ca
 
 Once the project is underway, you can find here some statistics about your project, like number and size of the clips, used versus unused, and about the data cache. Kdenlive gives you full control over the use and utilization of your assets.
 
-The project settings dialog is opened every time a new project is created (:menuselection:`Menu --> File --> New`), or via :menuselection:`Menu --> Project --> Project Settings`.
+The project settings dialog is opened every time a new project is created (:menuselection:`Menu --> File --> New`), or via :menuselection:`Menu --> File --> Project Settings`.
 
 The Project Settings dialog window has six tabs:
 

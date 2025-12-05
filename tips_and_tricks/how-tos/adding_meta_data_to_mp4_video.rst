@@ -43,7 +43,7 @@ Project Meta Data
 
    Adding a new meta data field
 
-Kdenlive allows you to specify the meta information that should be added to a rendered file. Just go to :menuselection:`Menu --> Project --> Project Settings`, then select the second tab named :guilabel:`Metadata`.
+Kdenlive allows you to specify the meta information that should be added to a rendered file. Just go to :menuselection:`Menu --> File --> Project Settings`, then select the second tab named :guilabel:`Metadata`.
 
 Double-click any existing meta data entry to change it.
 

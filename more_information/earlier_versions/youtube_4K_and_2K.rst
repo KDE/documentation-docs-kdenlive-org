@@ -117,7 +117,7 @@ Briefly, for the 4K and 2K cases we have:
 Step 1: Create Custom Project Settings
 --------------------------------------
 
-Under :menuselection:`Menu --> Project --> Project Settings` create a new custom project settings as follows.
+Under :menuselection:`Menu --> File --> Project Settings` create a new custom project settings as follows.
 
 For 4K
    a. Size: 3840x2160

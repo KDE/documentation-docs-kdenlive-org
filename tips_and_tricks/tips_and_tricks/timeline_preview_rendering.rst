@@ -67,7 +67,7 @@ Using Timeline Preview Rendering
    :alt: preview-menu
    :width: 250px
 
-Timeline preview rendering is best controlled using the dedicated :guilabel:`Timeline Preview` menu in the timeline toolbar. In addition, you can find most of the menu items also in :menuselection:`Menu --> Timeline --> Timeline Preview` which opens a fly-out menu with all the options.
+Timeline preview rendering is best controlled using the dedicated :guilabel:`Timeline Preview` menu in the timeline toolbar. In addition, you can find most of the menu items also in :menuselection:`Menu --> Sequence --> Timeline Preview` which opens a fly-out menu with all the options.
 
 .. rst-class:: clear-both
 
@@ -84,7 +84,7 @@ Set the timeline zone in (:kbd:`I`) and out (:kbd:`O`) points for the zone you w
 
 .. rst-class:: clear-both
 
-Next, select :guilabel:`Add Preview Zone` |preview-add-zone| (alternatively via :menuselection:`Menu --> Timeline --> Timeline Preview --> Add Preview Zone`).
+Next, select :guilabel:`Add Preview Zone` |preview-add-zone| (alternatively via :menuselection:`Menu --> Sequence --> Timeline Preview --> Add Preview Zone`).
 
 For the first time, you will not see any change yet.
 
@@ -97,7 +97,7 @@ Step 2: Render Preview Zone in Background
    :alt: preview-timeline-step-render
    :width: 350px
 
-Select Start Preview Render (:menuselection:`Menu --> Timeline --> Timeline Preview --> Start Preview Render`). Or press :kbd:`Shift+Return`, or click on |preview-render-on|.
+Select Start Preview Render (:menuselection:`Menu --> Sequence --> Timeline Preview --> Start Preview Render`). Or press :kbd:`Shift+Return`, or click on |preview-render-on|.
 
 .. note:: You can even add multiple, non-contiguous preview rendering zones.
 
@@ -155,7 +155,7 @@ Preview Cache Storage
    :alt: preview-timeline-cache-data
    :width: 350px
 
-You can easily find out how much storage you are currently using for the timeline preview. Use :menuselection:`Menu --> Project --> Project Settings`, then select the tab :guilabel:`Cache Data`.
+You can easily find out how much storage you are currently using for the timeline preview. Use :menuselection:`Menu --> File --> Project Settings`, then select the tab :guilabel:`Cache Data`.
 
 Kdenlive displays a pie chart showing the cache data disc space consumption. You can purge the cache used for the timeline preview by clicking on the |edit-delete| button next to :guilabel:`Timeline Preview`.
 
@@ -170,7 +170,7 @@ Preview Profiles
    :alt: kdenlive2308_project_preview_settings.webp
    :width: 350px
 
-   :menuselection:`Menu --> Project --> Project Settings`
+   :menuselection:`Menu --> File --> Project Settings`
 
 Most of the time it should suffice to leave the preview profile set to :guilabel:`Auto`. Kdenlive then will select a suitable preview profile based on your project profile.
 

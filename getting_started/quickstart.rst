@@ -261,7 +261,7 @@ Rendering
   Rendering dialog
 
 
-A few minutes left, and the project is finished! Click the Render button (or go to :menuselection:`Menu --> Project --> Render`, or press :kbd:`Ctrl+Enter`) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the :guilabel:`Render to File` button. 
+A few minutes left, and the project is finished! Click the Render button (or go to :menuselection:`Menu --> File --> Render`, or press :kbd:`Ctrl+Enter`) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MP4 (works nearly everywhere), select the output file location and press the :guilabel:`Render to File` button. 
 
 .. container:: clear-both
 

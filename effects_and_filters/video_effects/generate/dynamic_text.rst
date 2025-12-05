@@ -143,7 +143,7 @@ Timecode keywords are based on the frame rate (fps) and position of the frame. T
   In order to use a semi-transparent background color, click on the color panel, click on :guilabel:`+` and use the horizontal slider to change the transparency.
 
 .. hint:: 
-  You can add effects to entire video tracks by clicking on the |tools-wizard| icon in the track header and choosing :menuselection:`Menu --> Timeline --> Add Effect`. Video tracks that have effects added to them have the white |tools-wizard|, tracks without have a grey |tools-wizard| icon. See also :ref:`effects-track_effect`.
+  You can add effects to entire video tracks by clicking on the |tools-wizard| icon in the track header and choosing :menuselection:`Menu --> Sequence --> Add Effect`. Video tracks that have effects added to them have the white |tools-wizard|, tracks without have a grey |tools-wizard| icon. See also :ref:`effects-track_effect`.
 
 
 ----

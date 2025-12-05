@@ -130,7 +130,7 @@ Keyboard Navigation
 
 .. .. versionadded:: 19.04.0
 
-You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in the timeline and use the :guilabel:`Grab Current Item` function from the :menuselection:`Menu --> Timeline` menu or use the default shortcut of :kbd:`Shift+G`.
+You now have the possibility to move clips and compositions with your keyboard. To do it, select a clip in the timeline and use the :guilabel:`Grab Current Item` function from the :menuselection:`Menu --> Sequence` menu or use the default shortcut of :kbd:`Shift+G`.
 
 .. figure:: /images/shift-g.gif
    
