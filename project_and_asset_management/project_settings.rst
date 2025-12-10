@@ -16,12 +16,19 @@
 
    :license: Creative Commons License SA 4.0
 
-
+.. _project-settings:
 
 Project Settings
 ================
 
-Project Settings define first and foremost the properties of the final video (a rescaling or output format change during the render process notwithstanding). That includes the dimensions (e.g. 1920x1080), aspect ratio (e.g. 16:9 or 4:3), frame rate (e.g. 30fps), color space, and interlaced or progressive rendering.
+Project Settings define first and foremost the properties of the final video (a rescaling or output format change during the render process notwithstanding). That includes the dimensions (e.g. 1920x1080), aspect ratio (e.g. 16:9 or 9:16 or 4:3), frame rate (e.g. 30fps), color space, and interlaced or progressive rendering.
+
+.. figure::  /images/project_and_asset_management/workspace-layouts_editing-layout_2512.webp
+   :align: left
+
+Depends on the project profile you chose the :ref:`edit layout <ui-workspace_layouts>` automatically switch to horizontal or vertical with the :ref:`safe areas <ui_elements-monitor_icons>` adapting automatically. 
+
+.. rst-class:: clear-both
 
 Besides that, you can define where Kdenlive stores all project assets, how many video and audio tracks there are initially (you can add or delete tracks later as needed), whether or not Kdenlive should create proxy files automatically and under what circumstances, and you can enter meta data like author's name and copyright information which will be embedded in the multimedia container during export/render.
 
