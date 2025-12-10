@@ -50,10 +50,10 @@ Kdenlive's application-wide persistent settings are stored in the following loca
        | |windows|: :file:`%AppData%\\kdenlive\\ .backup\\`
      - 
      - Auto Save Recovery files
-   * - | :file:`kdenlive-layoutsrc`
-     - | |linux|: :file:`~/.config/`
-       | |windows|: :file:`%LocalAppData%\\`
-     - Contains the layout settings
+   * - | |linux|: :file:`~/.config/share/kdenlive/ layouts/`
+       | |windows|: :file:`%LocalAppData%\\kdenlive\\ layouts\\`
+     -
+     - Contains the different layout files saved by the user
    * - | :file:`kdenliveui.rc`
      - | |linux|: :file:`~/.local/share/kxmlgui5/ kdenlive/`
        | |windows|: :file:`%LocalAppData%\\kxmlgui5\\ kdenlive\\`

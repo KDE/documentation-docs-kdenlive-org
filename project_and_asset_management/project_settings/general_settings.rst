@@ -43,7 +43,7 @@ The first tab in the Project Settings dialog is for general project settings. It
 
 :4: Opens the dialog for :ref:`creating new <project_profile_create>` project profiles
 
-:5: List of all available `project profiles <project profile / preset>`_ (left) and their details (right)
+:5: List of all available `project profiles <project_profile>`_ (left) and their details (right)
 
 :6: Defines how many initial `video and audio tracks <tracks>`_ the project will have. You can add and delete tracks later from within the timeline.
 

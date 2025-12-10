@@ -1,6 +1,6 @@
 .. meta::
    :description: Kdenlive's User Interface - Customizing the Interface
-   :keywords: KDE, Kdenlive, user interface, documentation, user manual, video editor, open source, free, learn, easy, customize
+   :keywords: KDE, Kdenlive, user interface, widget, layout, arrange, documentation, user manual, video editor, open source, free, learn, easy, customize
 
 .. metadata-placeholder
 
@@ -10,6 +10,8 @@
              
    :license: Creative Commons License SA 4.0
 
+
+.. .. versionchanged:: 25.12 Switch to KDDockWidgets library for improved docking
 
 .. _ui-customizing_interface:
 
@@ -22,25 +24,27 @@ The user interface model allows you to freely adjust the different panels to sup
    :align: left
    :width: 350px
    :figwidth: 350px
-   :alt: kdenlive2304_ui-workspaces
-
+   
    Kdenlive’s default workspaces (example uses the Editing view; click to enlarge)
 
 Here is a quick reminder of the different workspace panels (see :ref:`user_interface`). In this section we want to focus on the panels 1 thru 4 and panel #6. Panel #5 (timeline toolbar) is not really a panel by itself but is part of the timeline. Panels 7 and 8 are described in more detail in the :ref:`status_bar` (#8) and :ref:`toolbars` (#7) chapters.
 
 .. rst-class:: clear-both
 
-Kdenlive allows you to arrange these five panels in columns or in rows. You define this in :menuselection:`Menu --> View --> Dock Area Orientation`. In both cases the timeline panel (#4) determines what is a row and what is a column.
-The difference is that if you select :guilabel:`Arrange dock areas in columns` you can add columns to the right of the timeline that extend from top to bottom. You can still add widgets above or below other widgets but the right edge of the timeline will be. If you select :guilabel:`Arrange dock areas in rows` you have two rows to start with. You can drag widgets below the timeline to create a new row but not above the first and between the first and second row. You can move widgets with a row to create new columns.
+
+
+Kdenlive allows you to arrange the pre-defined five panels as you like by grabbing an empty part where no tabs are.
+
+Widgets can be rearrange the same way.
+
+Here an example where the layout is arranged in column or rows:
 
 .. |columns| image:: /images/user_interface/kdenlive2304_ui-screen_layout_columns.webp
    :width: 340px
-   :alt: kdenlive2304_ui-screen_layout_columns
-
+   
 .. |rows| image:: /images/user_interface/kdenlive2304_ui-screen_layout_rows.webp
    :width: 340px
-   :alt: kdenlive2304_ui-screen_layout_rows
-
+   
 .. list-table::
 
    * - |columns|
@@ -48,7 +52,9 @@ The difference is that if you select :guilabel:`Arrange dock areas in columns` y
    * - *Columns* (click to enlarge)
      - *Rows* (click to enlarge)
 
-Note that you can still have widgets in rows within one column, and in columns within one row. See the dashed lines in the images above. Similarly, you can have widgets as tabs (see the yellow box in the screenshots above) regardless of the dock orientation setting.
+You can have widgets as tabs (see the yellow box in the screenshots above) regardless of the dock orientation setting.
+
+Rearranged layouts are stored in the project file when saving.
 
 
 .. _ui-adding_widgets:
@@ -66,33 +72,52 @@ Moving Widgets
 
 You move a :term:`widget` by grabbing the tab or the :term:`title bar` and moving it to a new position. It is possible to move the widget to a different position within the same panel thereby simply changing the sequence of the tabs.
 
-A widget can also be moved to a new panel, to its own (new) column or row, or undocked as a floating window. In the example below the :ref:`Clip <ui-monitors_clip_monitor>` and :ref:`Project Monitor <ui-monitors_project_monitor>` widgets are being undocked and turned into floating windows:
+A widget can also be moved to a new panel, to its own (new) column or row, or undocked as a floating window. Put a floating window on a second screen on which you can dock other widgets to create a new panel. 
+
+.. note:: In order to move widgets without a tab they must have :term:`title bars<title bar>`. You can switch them on and off in :menuselection:`Menu --> View --> Show Title Bars`.
+
+.. figure::  /images/user_interface/menu-view_Show-title-bar_2512.webp
+   :align: left
+   :scale: 77%
+   
+   Make sure Show Title Bar is enabled
+
+.. rst-class:: clear-both
+
+This shows you the title bar of each widgets when un-docked
+
+.. figure::  /images/user_interface/view_title-bar_2512.webp
+   :align: left
+   :scale: 77%
+   
+   Title bar of the timeline view
+
+.. rst-class:: clear-both
+
+
+In the example below the :ref:`Clip <ui-monitors_clip_monitor>` and :ref:`Project Monitor <ui-monitors_project_monitor>` widgets are being undocked and turned into floating windows:
 
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_separate_windows.gif
    :width: 100%
    :figwidth: 100%
-   :alt: kdenlive2308_ui-monitors_separater_windows
-
+   
    Moving Clip and Project Monitor to their own independent windows (undocking)
 
-The Kdenlive layout reacts to your dragging of the widget and you need to pay close attention which layout elements change color when you move over them.
+The Kdenlive layout reacts to your dragging of the widget and you need to pay close attention which docking indicator change color when you move over them.
 
-.. list-table::
-   :header-rows: 1
-   :class: table-wrap
+.. figure:: /images/user_interface/ui-manage_layouts_2512.webp
+   :width: 100%
+   :figwidth: 100%
+   
+   Docking indicators when a widgets is undocked and hovered over a panel
 
-   * - Reaction
-     - Result when let go
-   * - Widget underneath changes color
-     - Widget is added as a tab to the panel
-   * - Empty highlighted area appears
-     - Widget is dropped in to a new column or row
-   * - No color change
-     - [Only when hovering over the timeline panel or the menu bar] Widget becomes a floating window
+:1: Panel docking indicator. Docking inside the panel: top, right, bottom, left or center. In this example it would be placed to the left side showed by the blue indicator. 
+
+:2: Edge docking indicator. Docking outside of a panel: top, right, bottom, left
+
+:3: Blue indicator where the widget would land if you release it
 
 .. tip:: When trying to move a floating window to a new position Kdenlive may think you want to move it to a panel or create a new row or column. It is recommended to use the standard size handles of the window manager to adjust the top left and bottom right corners accordingly.
-
-.. note:: In order to move widgets without a tab they must have :term:`title bars<title bar>`. You can switch them on and off in :menuselection:`Menu --> View --> Show Title Bars`.
 
 
 .. _ui-resizing_widgets:
@@ -109,6 +134,8 @@ Saving the Layout
 -----------------
 
 Once you have arranged the :term:`widgets<widget>` to your liking you can save the layout via :menuselection:`Menu --> View --> Save Layout`. A dialog windows opens where you can name the new layout. If you enter the name of an existing layout a warning will appear but you can overwrite the layout.
+
+The current layout is saved within the Kdenlive project file. 
 
 It is good practice and very helpful to have different layouts for the different tasks of post-production. See the :ref:`ui-workspace_layouts` chapter for more details.
 
@@ -132,8 +159,7 @@ Kdenlive displays only eight saved layouts when selecting :menuselection:`Menu -
    :align: left
    :width: 250px
    :figwidth: 250px
-   :alt: kdenlive2304_ui-manage_layouts
-
+   
    List of available layouts
 
 Selecting :menuselection:`Menu --> View --> Manage Layouts` opens this window where you can manage the workspace layouts available.
