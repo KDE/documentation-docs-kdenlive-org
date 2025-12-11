@@ -47,7 +47,7 @@ The audio mixer has following functions for each channel:
 :8:	Adjustment of the volume
 :9:   :kbd:`RMB` shows the menu where you can adjust the audio level appearance. These settings control the level appearance on clip and project monitor simultaneously.
 :10:  Hovering over the level shows the dB value of each channel
-:11:  Clipping indicator: Once a signal hit 0db or higher a red dot appears and stay above the 0db. The indicator reset after a couple of second (4-5sec) when the level doesn't hit 0dB anymore.
+:11:  Clipping indicator: Once a signal hits 0dB or higher a red dot appears and stays above the 0dB. The indicator resets after a couple of seconds (4-5sec) when the level doesn't hit 0dB anymore.
 
 .. figure:: /images/user_interface/effects_and_filter-monitor_level-2508.webp
    
