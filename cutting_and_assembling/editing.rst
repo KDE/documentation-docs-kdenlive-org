@@ -838,4 +838,8 @@ Here is a brief introduction to the 3 point editing system.
 
    3. Press :kbd:`V` (insert).
 
+.. rst-class:: clear-both
+
+For more information about 3 point editing check :ref:`Advanced Timeline Editing <advanced_timeline_editing>` 
+
 ..   .. [1] available on bleeding edge version > 0.9.10 (Jan2015)
