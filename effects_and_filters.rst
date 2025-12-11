@@ -113,23 +113,24 @@ The Effects widget has eight control icons that show or hide the different effec
    
    Kdenlive Effects widget as a tab in the Project Bin area
 
-|show-all-effects| :guilabel:`Main effects` shows all video and audio effects (default view)
+|show-all-effects|\ :guilabel:`Main effects` shows all video and audio effects (default view)
 
-|kdenlive-show-video| :guilabel:`Show all video effects` shows all video effect categories only
+|kdenlive-show-video|\ :guilabel:`Show all video effects` shows all video effect categories only
 
-|kdenlive-audio| :guilabel:`Show all audio effects` shows all audio effects categories only
+|kdenlive-audio|\ :guilabel:`Show all audio effects` shows all audio effects categories only
 
-|kdenlive-custom-effect| :guilabel:`Show all custom effects` shows all effects :ref:`you have created <effects-custom>` by saving an effect stack.
+|kdenlive-custom-effect|\ :guilabel:`Show all custom effects` shows all effects :ref:`you have created <effects-custom>` by saving an effect stack.
 
 .. TODO: See :ref:`Save Effect <effects-save_effect>` for more details.
 
-|favorite| :guilabel:`Show all favorite items` shows all effects that were flagged as a favorite effect. This is the same list that appears when selecting :guilabel:`Insert an effect` from the right-click menu of a clip in the Timeline, or by clicking the :guilabel:`Favorite Effects` in the Timeline toolbar.
+|favorite|\ :guilabel:`Show all favorite items` shows all effects that were flagged as a favorite effect. This is the same list that appears when selecting :guilabel:`Insert an effect` from the right-click menu of a clip in the Timeline, or by clicking the :guilabel:`Favorite Effects` in the Timeline toolbar.
 
-|edit-download| :guilabel:`Download New Effects` opens a dialog window where effect templates are listed from the KDE Store
+|edit-download|\ :guilabel:`Download New Effects` opens a dialog window where effect templates are listed from the KDE Store
 
-|view-filter| :guilabel:`Only show reviewed assets` toggles between the effects which are reviewed and tested by the Kdenlive team and not tested effects (still in test phase)
+|view-filter|\ :guilabel:`Only show reviewed assets` toggles between the effects which are reviewed and tested by the Kdenlive team and not tested effects (still in test phase). 
+:guilabel:`Show 10 bit compatible only` it hides assets not compatible with a 10-bit pipeline. Use the :guilabel:`10 Bit` category or the :guilabel:`NVENC H265 ABR 10 bit` codec for :ref:`rendering <rendering_preset_categories>`. 
 
-|help-about| :guilabel:`Show/hide description of effects` toggles the information display below the effect list where a short description of what the effect does is displayed when on. Click on the blue effect text opens the online documentation to this effect.
+|help-about|\ :guilabel:`Show/hide description of effects` toggles the information display below the effect list where a short description of what the effect does is displayed when on. Click on the blue effect text opens the online documentation to this effect.
 
 
 .. _effects-effect_stack:

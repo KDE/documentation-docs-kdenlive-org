@@ -47,6 +47,7 @@ The Compositions widget has six control icons that show or hide the different ef
 |edit-download|\ :guilabel:`Download New Effects` opens a dialog window where compositions templates are listed from the KDE Store
 
 |view-filter|\ :guilabel:`Only show reviewed assets` toggles between the compositions which are reviewed and tested by the Kdenlive team and not tested compositions (still in test phase)
+:guilabel:`Show 10 bit compatible only` it hides assets not compatible with a 10-bit pipeline.Use the :guilabel:`10 Bit` category or the :guilabel:`NVENC H265 ABR 10 bit` codec for :ref:`rendering <rendering_preset_categories>`.
 
 |help-about|\ :guilabel:`Show/hide description of effects` toggles the information display below the compositions list where a short description of what the composition does is displayed when on. Clicking on the link opens the online documentation to this effect.
 

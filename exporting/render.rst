@@ -34,7 +34,7 @@ Rendering
    * How to choose the correct output format and bit rate? * What to do for rendering lossless, for an iPhone, or whatever? (Dropdown containing targets like lossless/HQ/player)
 
 
-The rendering dialog is brought up by selecting |media-record| Render... from the :menuselection:`Menu --> File`, or by the :kbd:`Ctrl+Enter` default keyboard shortcut.
+The rendering dialog is brought up by selecting |media-record| Render... from the :menuselection:`Menu --> File --> Render`, or by the :kbd:`Ctrl+Enter` default keyboard shortcut.
 
 
 Rendering Dialog
@@ -49,7 +49,6 @@ Rendering Dialog
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2402_rendering-render_dialog
 
    Rendering dialog window
 
@@ -71,7 +70,6 @@ Rendering Dialog
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2405_rendering-render_dialog_2
 
    Rendering dialog window
 
@@ -94,20 +92,22 @@ Rendering Dialog
 .. rst-class:: clear-both
 
 
+.. _rendering_preset_categories:
+
 Rendering Preset Categories
-----------------------------
+---------------------------
 
 **Kdenlive** offers many different rendering presets to choose from. They are grouped into categories.
 
-.. figure:: /images/exporting/kdenlive2304_rendering-presets.webp
-   :width: 400px
-   :figwidth: 400px
+.. figure:: /images/exporting/render_rendering-presets_2512.webp
+   :scale: 77%
    :align: left
-   :alt: kdenlive2405_rendering-presets
 
    Kdenlive Rendering Presets/Profiles
 
 * **Audio only** - AC3, ALAC, FLAC, MP3, OGG, WAV
+
+* **10 Bit** [3]_ - AV1, DNxHR-HQ, ProRes 422, ProRes 444, ProRes HQ, SVT-AV1, x261-high10, x265-main10
 
 * **Video with Alpha** - Alpha MOV, Alpha VP8, Alpha VP9, Ut Video
 
@@ -119,9 +119,9 @@ Rendering Preset Categories
 
 * **Ultra-High Definition (4K)** - MP4-H265 (HEVC), WebM-AV1/Opus (libre), WebM-VP9/Opus (libre)
 
-* **Old-TV definition (DVD...)** - MPEG4-ASP/MP3 (DivX compatible), WOB (DVD), Windows Media Player
+* **Old-TV definition (DVD...)** - MPEG4-ASP/MP3 (DivX compatible), VOB (DVD), Windows Media Player
 
-* **Hardware Accelerated (experimental)** - NVENC H264 ABR, NVENC H264 VBR, NVENC H265 ABR, VAAPI AMD H264, VAAPI Intel H264
+* **Hardware Accelerated (experimental)** - NVENC AV1 VR, NVENC H264 ABR, NVENC H264 VBR, NVENC H265 ABR, NVENC H265 ABR 10 bit [3]_, VAAPI AMD H264, VAAPI Intel H264, VideoToolbox H264 ABR, VideoToolbox H265 ABR
 
 Click on |edit-download| to download more presets created by Kdenlive users. For more details about creating your own presets refer to the :ref:`Project Profiles <manage_project_profiles>` section of the documentation.
 
@@ -170,7 +170,6 @@ Check this box to get a video track in the rendered file.
 
 .. figure:: /images/exporting/kdenlive2405_rendering-video.webp
    :align: left
-   :alt: kdenlive2405_rendering-video
 
    Rendering options for video
 
@@ -182,7 +181,6 @@ Check this box to get a video track in the rendered file.
 
 .. figure:: /images/exporting/kdenlive2402_rendering-video_interpolation.webp
    :align: right
-   :alt: kdenlive2402_rendering-video_interpolation
 
    Interpolation
 
@@ -201,7 +199,6 @@ Check this box to get a video track in the rendered file.
 
 .. figure:: /images/exporting/kdenlive2402_rendering-video_deinterlacer.webp
    :align: right
-   :alt: kdenlive2402_rendering-video_deinterlacer
 
    Deinterlacer
 
@@ -227,7 +224,6 @@ Check this box to get a video track in the rendered file.
 
 .. figure:: /images/exporting/kdenlive2304_rendering-video_overlay.webp
    :align: right
-   :alt: kdenlive2304_rendering-video_overlay
 
    Render overlay
 
@@ -239,7 +235,6 @@ Check this box to get a video track in the rendered file.
 
 .. figure:: /images/exporting/kdenlive2405_rendering-video_aspect-ratio.webp
    :align: right
-   :alt: kdenlive2405_rendering-video_aspect-ratio
 
    Aspect Ratio
 
@@ -258,7 +253,6 @@ Check this box to have audio tracks in the rendered file.
 
 .. figure:: /images/exporting/kdenlive2304_rendering-audio.webp
    :align: left
-   :alt: kdenlive2304_rendering-audio
 
    Rendering options for audio
 
@@ -271,7 +265,6 @@ Custom Quality
 
 .. figure:: /images/exporting/kdenlive2304_rendering-custom_quality.webp
    :align: left
-   :alt: kdenlive2304_rendering-custom_quality
 
    Rendering options for custom quality
 
@@ -284,7 +277,6 @@ Encoder
 
 .. figure:: /images/exporting/kdenlive2304_rendering-encoder.webp
    :align: left
-   :alt: kdenlive2304_rendering-encoder
 
    Rendering options for encoder usage
 
@@ -299,7 +291,6 @@ Parallel Processing
 
 .. figure:: /images/exporting/kdenlive2304_rendering-parallel_proc.webp
    :align: left
-   :alt: kdenlive2304_rendering-parallel_proc
 
    Rendering options for parallel processing
 
@@ -312,7 +303,6 @@ Other Options
 
 .. figure:: /images/exporting/kdenlive2304_rendering-other.webp
    :align: left
-   :alt: kdenlive2304_rendering-other
 
    Other rendering options
 
@@ -326,7 +316,6 @@ Other Options
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_project_settings_metadata
 
       Metadata for the project
 
@@ -345,7 +334,6 @@ You can check the metadata in the rendered video by entering this in a terminal 
 
 .. figure:: /images/exporting/kdenlive2304_rendering-other.webp
    :align: left
-   :alt: kdenlive2304_rendering-other
 
    Other rendering options
 
@@ -369,7 +357,6 @@ Alternatively, once you have submitted a rendering job on a project and it is up
 
 .. image:: /images/exporting/kdenlive2304_rendering-job_queue.webp
    :width: 400px
-   :alt: Kdenlive_Rendering_job_queue
 
 .. rst-class:: clear-both
 
@@ -390,7 +377,6 @@ Using Guide Zones
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive2304_rendering-guide_zones
 
    Using guide zones to render a section
 
@@ -404,12 +390,10 @@ Generating Rendering Scripts
 .. image:: /images/exporting/kdenlive2304_rendering-guide_zones_5a.webp
    :align: left
    :width: 160px
-   :alt: kdenlive2304_rendering-guide_zones_5a
 
 .. image:: /images/exporting/kdenlive2304_rendering-guide_zones_5b.webp
    :align: left
    :width: 160px
-   :alt: kdenlive2304_rendering-guide_zones_5b
 
 Choose which guides will establish the regions of video you want to export using the pull down menus next to :guilabel:`From` and :guilabel:`to`. In this example *Section 1* to *Section 1 End* will be used to define the section to be rendered.
 
@@ -418,7 +402,6 @@ Choose which guides will establish the regions of video you want to export using
    .. image:: /images/exporting/kdenlive2304_rendering-guide_zones_6.webp
       :align: left
       :width: 345px
-      :alt: kdenlive2304_rendering-guide_zones_6
 
    Now you can render this to a file or generate a script that will render this guide zone to a file. Click :guilabel:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Folders <configure_environment_default_folders>`.
 
@@ -427,7 +410,6 @@ Choose which guides will establish the regions of video you want to export using
 .. image:: /images/exporting/kdenlive2304_rendering-stored_playlist.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_rendering-stored_playlist
 
 After saving the script, the top tab in the window switches to :guilabel:`Scripts`. This lists all the scripts you have generated, including scripts from other projects.
 
@@ -443,7 +425,6 @@ Each script needs to be started individually by selecting the script and clickin
 .. image:: /images/exporting/kdenlive2304_rendering-job_queue.webp
    :align: left
    :width: 400px
-   :alt: kdenlive2304_rendering-rendering_job_queue
 
 After clicking each script, Kdenlive switches to the *Job Queue* tab. Here you will see what script is being run and how many more are waiting to be run. If you have a large queue and you want to run the rendering after hours, you can take advantage of the nifty checkbox in the bottom left: :guilabel:`Shutdown computer after renderings`
 
@@ -480,7 +461,6 @@ With this option you use guides to divide the timeline in pieces that will be re
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: render guide multi-export example 22-04
 
    Defined Guides to be used for multi-export
 
@@ -531,7 +511,6 @@ If you want to share your work right after you finished rendering you can click 
 
 .. image:: /images/exporting/kdenlive2304_rendering-share_video.webp
    :align: left
-   :alt: kdenlive2304_rendering-share_video
 
 * **Send via Email** - Opens your default email application with the video file as an attachment in a new email window
 * **Send to Device**
@@ -560,3 +539,5 @@ If you want to share your work right after you finished rendering you can click 
 .. [1] Melt is the engine Kdenlive uses for compositing and effects rendering. It is part of the MLT framework. For more details refer to the |melt| documentation. See the |melt_doc| on threads and the |melt_faq| on multi-threading.
 
 .. [2] May not be available in all distros and/or appimages
+
+.. [3] It renders only the 10 bit pipeline if you choose 10 bit :ref:`effects <effects-effects_tab>` or :ref:`compositing <compositions-effects_tab>` avfilter only
