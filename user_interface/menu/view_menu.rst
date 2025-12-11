@@ -516,7 +516,7 @@ Switches the Vectorscope :term:`widget` on or off.
    
    Kdenlive Vectorscope widget
 
-The Vectorscope :term:`widget` allows you to monitor the colour properties of your clip in detail.
+The Vectorscope :term:`widget` allows you to monitor the color properties of your clip in detail.
 
 .. rst-class:: clear-both
 
