@@ -10,6 +10,7 @@
              
    :license: Creative Commons License SA 4.0
 
+.. _advanced_timeline_editing:
 
 Insert and Overwrite: Advanced Timeline Editing
 ===============================================
@@ -22,6 +23,14 @@ When inserting or overwriting some part in the timeline with some part from a cl
 
 1. Insert/overwrite a clip zone into the timeline at some point (cursor/playhead), or
 2. Insert/overwrite a clip starting at some point into a timeline zone
+
+Kdenlive’s timeline IN/OUT system has 1 basic difference to other video editors: **Kdenlive don't have**:
+
+* IN/OUT points for 3 points editing and 
+* IN/OUT points to set the rendering area.
+
+In Kdenlive we use the same timeline IN/OUT points for both functions. For this reason, we have a button to enable |timeline-use-zone-on| / disable |timeline-use-zone-off| the timeline zone for the task. Instead of removing the reference points you just disable |timeline-use-zone-on| the timeline zone. This has the advantage to preserve a set area (IN/OUT zone) and be able to work on the playhead/cursor reference only, without the needs of cancelling the zone.
+
 
 .. _advanced_editing-insert:
 
@@ -297,7 +306,7 @@ Overwrite Timeline Zone with Clip
    * Overwrite starts at the beginning of the timeline zone, and not from the timeline cursor position (because we chose to enable the timeline zone in our very first step)
    * Locked tracks are unaffected, such as the top-most track in our example (see **(2)** in the screenshot above)
    * Unlocked tracks get affected in that whatever is at the insertion point and later in the timeline gets shifted for the duration set by the timeline zone.
-
+   * For more details about how to set the tracks as source and target check :ref:`three_point_editing`
 
 .. rubric:: Notes
 
