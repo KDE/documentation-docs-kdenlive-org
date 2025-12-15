@@ -17,27 +17,58 @@
 Clip Monitor
 ------------
 
-.. figure:: /images/user_interface/kdenlive2402_ui-monitors_cm_elements.webp
+.. figure:: /images/user_interface/ui-monitors_clip-monitor-elements_2512.webp
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2402_ui-monitors_cm_elements
 
    Clip Monitor elements
 
 The Clip Monitor displays the unedited\ [#f1]_ clip that is currently selected in the :doc:`Project Bin </project_and_asset_management/project_bin>`. It has the same functions and options as the :ref:`ui-monitors_project_monitor` except for the |kdenlive-add-clip| icon which adds the clip zone to the Project Bin where it will appear as child clip underneath the clip. See :ref:`ui-monitors_cm_clip_zone` for more details.
 
-|  **1** Video Stream indicator
-|  **2** Audio Stream indicator
-|  **3** Clip Zone indicator
-|  **4** List of last opened clips 
-
-.. .. .. versionadded:: 24.02
-  Item 4 added
 
 .. rst-class:: clear-both
 
-Number **4**: Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor.
+.. .. .. versionadded:: 24.02 Item 4 added
+.. .. .. versionadded:: 25.12 Item 5 added
+
+:1: Video Stream indicator. Grab the icon to only put the video part of the video into the timeline.
+
+:2: Audio Stream indicator. Grab the icon to only put the audio part of the video into the timeline.
+
+:3: Clip Zone indicator. See :ref:`ui-monitors_cm_clip_zone` for more details.
+
+:4: List of last opened clips. Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor.
+
+:5: Minimap for zooming the audio stream
+
+The action differs if the mouse is on the main view (upper part with the video) or on the audio/minimap view.
+
+.. list-table::
+   :width: 100%
+   :widths: 25 35 35
+   :header-rows: 1
+   :class: table-wrap
+
+   * - Action
+     - Audio / Minimap
+     - Main view
+   * - :kbd:`Single click`
+     - Scroll
+     - Seek
+   * - :kbd:`Double click`
+     - Switch to full screen
+     - Switch to full screen
+   * - :kbd:`Drag`
+     - Scroll
+     - Seek
+   * - :kbd:`Wheel`
+     - Scroll
+     - Seek
+   * - :kbd:`Ctrl + Wheel`
+     - Zoom
+     - Zoom
+
 
 For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual.
 
@@ -51,7 +82,6 @@ Hamburger Menu
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt:
 
    Clip Monitor options
 
@@ -97,7 +127,6 @@ Right-Click Menu
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_ui-monitor_cm_right-click
 
    Clip Monitor right-click menu options
 
@@ -165,7 +194,6 @@ These are the menu items that are available when you right-click in the Clip Mon
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_edit_marker.webp
    :width: 350px
    :figwidth: 350px
-   :alt: kdenlive2308_ui-monitors_edit_marker
 
    Edit Marker dialog window to add or edit a marker
 
@@ -196,7 +224,6 @@ These are the menu items that are available when you right-click in the Clip Mon
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_cut_clip.webp
    :width: 350px
    :figwidth: 350px
-   :alt: kdenlive2308_ui-monitors_cut_clip
 
    Cut Clip dialog to extract zone
 
@@ -220,7 +247,6 @@ The current :term:`zone` can be saved as a :file:`.mov` file in your file system
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_save_image.webp
    :width: 350px
    :figwidth: 350px
-   :alt: kdenlive2308_ui-monitors_save_image
 
    Save Image dialog for extracting frames
 
@@ -292,7 +318,6 @@ It is possible to drag only the video or audio stream of a clip from the project
    :width: 250px
    :figwidth: 250px
    :align: left
-   :alt: kdenlive2304_ui-monitors_cm_av_only
 
 ..
 
