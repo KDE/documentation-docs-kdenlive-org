@@ -18,14 +18,14 @@
 
 
    
-Guides Settings
-===============
+Markers Settings
+================
 
 In this tab you define project-specific categories and colors for markers and guides.
 
 .. container:: clear-both
 
-   .. figure:: /images/project_and_asset_management/project_settings_guides.webp
+   .. figure:: /images/project-specific-categories_2512.webp
       :width: 360px
       :figwidth: 360px
       :align: left
@@ -43,7 +43,7 @@ In this tab you define project-specific categories and colors for markers and gu
 
 .. container:: clear-both
 
-   .. figure:: /images/project_and_asset_management/project_settings_guides_add_category.webp
+   .. figure:: /images/project_and_asset_management/project-settings_markers_add-category.webp
       :align: left
       :alt: project_settings_guides
 
