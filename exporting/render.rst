@@ -77,9 +77,9 @@ Rendering Dialog
 
 * :guilabel:`Selected zone` - Render only the defined timeline zone
 
-* :guilabel:`Guide Zone` - Render only the zone defined by two selected guides
+* :guilabel:`Marker Zone` - Render only the zone defined by two selected timeline maker
 
-* :guilabel:`Guide Multi-Export` - Render individual files for the zones defined by the guides
+* :guilabel:`Makers Multi-Export` - Render individual files for the zones defined by the timeline marker
 
 * :guilabel:`More Options` - Folds out the dialog window to display more (advanced) options
 
@@ -144,16 +144,16 @@ Selected Zone
 :guilabel:`Selected Zone` radio button selected, **Kdenlive** will only render that portion of the project which has a selected zone created for it. See :ref:`ui-monitors`.
 
 
-Guide Zone
-----------
+Marker Zone
+-----------
 
-:guilabel:`Guide zone` radio button makes use of :ref:`guides` to define a region of the project that is to be rendered. For more details refer to the :ref:`rendering-guides` section of the documentation.
+:guilabel:`Marker zone` radio button makes use of :ref:`guides` to define a region of the project that is to be rendered. For more details refer to the :ref:`rendering-guides` section of the documentation.
 
 
-Guide Multi-Export
-------------------
+Markers Multi-Export
+--------------------
 
-:guilabel:`Guide Multi-Export` radio button makes use of :ref:`guides` categories to be rendered. For more details refer to the :ref:`rendering-multi_export` section of the documentation.
+:guilabel:`Markers Multi-Export` radio button makes use of :ref:`guides` categories to be rendered. For more details refer to the :ref:`rendering-multi_export` section of the documentation.
 
 
 .. _rendering-more_options:
@@ -363,24 +363,24 @@ Alternatively, once you have submitted a rendering job on a project and it is up
 
 .. _rendering-guides:
 
-Rendering Using Guides
-======================
+Rendering Using Timeline Markers
+================================
 
-:ref:`Guides <guides>` can help organize your project while you work on it and when you share it with the world. You can use guides to keep track of areas or to generate rendering scripts that will do the mundane task for you. This feature makes exporting sections of your project quite easy.
+:ref:`Timeline marker <guides>` can help organize your project while you work on it and when you share it with the world. You can use timeline maker to keep track of areas or to generate rendering scripts that will do the mundane task for you. This feature makes exporting sections of your project quite easy.
 
-For more details about guides, how to add and manage them, refer to the :ref:`Guides <guides>` section of the documentation.
+For more details about markers, how to add and manage them, refer to the :ref:`Timeline maker <guides>` section of the documentation.
 
-Using Guide Zones
------------------
+Using Marker Zones
+------------------
 
 .. figure:: /images/exporting/kdenlive2304_rendering-guide_zones.webp
    :align: left
    :width: 400px
    :figwidth: 400px
 
-   Using guide zones to render a section
+   Using marker zones to render a section
 
-With this option you define the start and end point for the render by selecting specific guides.
+With this option you define the start and end point for the render by selecting specific timeline marker.
 
 .. rst-class:: clear-both
 
@@ -395,7 +395,7 @@ Generating Rendering Scripts
    :align: left
    :width: 160px
 
-Choose which guides will establish the regions of video you want to export using the pull down menus next to :guilabel:`From` and :guilabel:`to`. In this example *Section 1* to *Section 1 End* will be used to define the section to be rendered.
+Choose which timeline markers will establish the regions of video you want to export using the pull down menus next to :guilabel:`From` and :guilabel:`to`. In this example *Section 1* to *Section 1 End* will be used to define the section to be rendered.
 
 .. container:: clear-both
 
@@ -403,7 +403,7 @@ Choose which guides will establish the regions of video you want to export using
       :align: left
       :width: 345px
 
-   Now you can render this to a file or generate a script that will render this guide zone to a file. Click :guilabel:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Folders <configure_environment_default_folders>`.
+   Now you can render this to a file or generate a script that will render this timeline marker zone to a file. Click :guilabel:`Generate Script` and a dialog appears asking you to name the script. **Kdenlive** stores the clips in the folder specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Folders <configure_environment_default_folders>`.
 
 .. rst-class:: clear-both
 
@@ -413,7 +413,7 @@ Choose which guides will establish the regions of video you want to export using
 
 After saving the script, the top tab in the window switches to :guilabel:`Scripts`. This lists all the scripts you have generated, including scripts from other projects.
 
-In this example three scripts were created based on the guides in the timeline. Be sure and keep the :file:`.mlt` extension otherwise the rendering script will not be generated.
+In this example three scripts were created based on the timeline marker in the timeline. Be sure and keep the :file:`.mlt` extension otherwise the rendering script will not be generated.
 
 .. rst-class:: clear-both
 
@@ -450,21 +450,21 @@ To render the video in the terminal ...
 
 .. _rendering-multi_export:
 
-Using Guides for Multi-Export
------------------------------
+Using Markers for Multi-Export
+------------------------------
 
 .. .. versionadded:: 22.04
 
-With this option you use guides to divide the timeline in pieces that will be rendered as individual files on one go. You do not need to define each section or piece individually.
+With this option you use timeline markers to divide the timeline in pieces that will be rendered as individual files on one go. You do not need to define each section or piece individually.
 
 .. figure:: /images/exporting/render_guide_multi-export_example_22-04.png
    :width: 400px
    :figwidth: 400px
    :align: left
 
-   Defined Guides to be used for multi-export
+   Defined timeline markers to be used for multi-export
 
-The selection of guide categories indicates which guides will be considered for rendering.
+The selection of timeline marker categories indicates which timeline marker will be considered for rendering.
 
 .. rst-class:: clear-both
 
@@ -473,25 +473,25 @@ In this example, there are the following options:
 *	"All Categories": This leads to four files:
 
    * `projectname-begin.mp4` (from 00:00:00 to "guide1")
-   * `projectname-guide1.mp4` (from "guide1" to "guide2")
-   * `projectname-guide2.mp4` (from "guide2" to "guide3")
-   * `projectname-guide3.mp4` (from "guide3" to the end)
+   * `projectname-Marker1.mp4` (from "guide1" to "guide2")
+   * `projectname-Marker2.mp4` (from "guide2" to "guide3")
+   * `projectname-Marker3.mp4` (from "guide3" to the end)
 
 *	"Category 0 (purple)": This leads to three files:
 
    * `projectname-begin.mp4` (from 00:00:00 to "guide1")
-   * `projectname-guide1.mp4` (from "guide1" to "guide2")
-   * `projectname-guide2.mp4` (from "guide2" to the end)
+   * `projectname-Marker1.mp4` (from "guide1" to "guide2")
+   * `projectname-Marker2.mp4` (from "guide2" to the end)
 
 *	"Category 1 (blue)": This leads to two files:
 
    * `projectname-begin.mp4` (from 00:00:00 to "guide3")
-   * `projectname-guide3.mp4` (from "guide3" to the end)
+   * `projectname-Marker3.mp4` (from "guide3" to the end)
 
 .. note::
-   * If guides are behind the last timeline clip, they are ignored.
-   * If a guide sits right at the beginning of the timeline, the name of that guide is used instead of "begin".
-   * If two guides have the same name, an underscore and a number will be added to the file name.
+   * If timeline marker are behind the last timeline clip, they are ignored.
+   * If a timeline maker sits right at the beginning of the timeline, the name of that timeline maker is used instead of "begin".
+   * If two timeline marker have the same name, an underscore and a number will be added to the file name.
 
 .. note:: As of this writing, the appimage of version 23.04.1 is having issues with the scripts generated with this function. Only one of the scripts is executed successfully but the other scripts remain in status 'Waiting...'. Unfortunately, a manual start of the scripts is not possible either.
 
