@@ -60,7 +60,7 @@ Windows issue with scopes, scopes don't show anything
 
 Workaround: Change the back-end to OpenGL via :menuselection:`Menu --> Settings --> OpenGL Backend --> OpenGL`
 
-If it is still not working go to: :menuselection:`Menu --> Help --> timeline guide locked` and try again.
+If it is still not working go to: :menuselection:`Menu --> Help --> Timeline Guide Locked` and try again.
 
 
 
@@ -116,7 +116,7 @@ Go to: :menuselection:`Menu --> Settings --> Application Style` and choose :guil
 Icons are missing
 -----------------
 
-Go to: :menuselection:`Menu --> Settings` and click on :guilabel:`Reset Configuration`. Kdenlive restarts and you should see the icons.
+Go to: :menuselection:`Menu --> Settings` and click on :guilabel:`Reset Configuration`. Kdenlive restarts, and you should see the icons.
 
 
 Cannot open projects made with previous version, timeline snaps back, cannot import clip
@@ -126,7 +126,7 @@ Go to: :menuselection:`Menu --> Settings --> Reset configuration`.
 
 If this is not solving the problem: Press :kbd:`Win+R` and type **appdata**. Go to :file:`Local` and within it rename :file:`kdenliverc` to :file:`kdenliverc.old`. Start Kdenlive, close it and then start Kdenlive again.
 
-If you have still problems delete proxy clips and other cached data by going to :menuselection:`Menu --> File --> Project Setting --> Cache Data` where you can delete cached data.
+If you have still problems, delete proxy clips and other cached data by going to :menuselection:`Menu --> File --> Project Setting --> Cache Data` where you can delete cached data.
 
 
 Windows 10: timeline stuttering or Kdenlive hangs

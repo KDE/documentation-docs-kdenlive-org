@@ -35,11 +35,11 @@ The Help Menu gives you access to various information.
 
 .. _kdenlive_handbook:
 
-:guilabel:`Kdenlive Handbook` or press :kbd:`F1` to open the online Kdenlive handbook which you just reading. 
+:guilabel:`Kdenlive Handbook` or press :kbd:`F1` to open the online Kdenlive handbook which you are just reading. 
 
 .. _whats_this:
 
-:guilabel:`Whats This?` or press :kbd:`Shift+F1`. This function is not implemented so far.
+:guilabel:`What's This?` or press :kbd:`Shift+F1`. This function is not implemented so far.
    
    
 .. _help-find_action:
@@ -49,7 +49,7 @@ Find Action
 
 .. .. versionadded:: 22.04
 
-This feature allows you to search for any command or action available. Simply enter the search and then select the command or action you want to execute. Kdenlive uses fuzzy search or look-ahead search, so that every character you type changes the search result on the fly.
+This feature allows you to search for any command or action available. Simply enter the search term and then select the command or action you want to execute. Kdenlive uses fuzzy search or look-ahead search, so that every character you type changes the search result on the fly.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_find_action.webp
    :align: left
@@ -65,7 +65,7 @@ This feature allows you to search for any command or action available. Simply en
 Copy Debug Information
 ----------------------
 
-This function copy relevant debug information into the clipboard. When you report a bug in Bugzilla you can paste this information in the section `SOFTWARE/OS VERSIONS`
+This function copies relevant debug information into the clipboard. When you report a bug in Bugzilla you can paste this information in the section `SOFTWARE/OS VERSIONS`
 
 
 .. _help-report_bug:

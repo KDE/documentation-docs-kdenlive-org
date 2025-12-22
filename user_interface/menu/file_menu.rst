@@ -128,7 +128,7 @@ This abandons any changes to the project you have made since last saving and rev
 Save
 ----
 
-Saves the current state of the project including the actual layouts. Prompts for a file name if this is the first time the file is being saved. The default keyboard shortcut is :kbd:`Ctrl+S`.
+Saves the current state of the project including the current layout. Prompts for a file name, if this is the first time the file is being saved. The default keyboard shortcut is :kbd:`Ctrl+S`.
 
 
 .. _file_save_as:

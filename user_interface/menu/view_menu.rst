@@ -170,7 +170,7 @@ Show Title Bars
 
 
 .. .. versionremoved:: 25.12
-   With introduction of the KDDockWidgets this function from QtWidget is not needed anymore as the window can now be freely arranged in any orientation.
+   With the introduction of the KDDockWidgets this function from QtWidget is not needed anymore as the window can now be freely arranged in any orientation.
    
    .. _view-dock_area_orientation:
 

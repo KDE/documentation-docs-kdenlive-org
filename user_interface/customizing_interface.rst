@@ -33,7 +33,7 @@ Here is a quick reminder of the different workspace panels (see :ref:`user_inter
 
 
 
-Kdenlive allows you to arrange the pre-defined five panels as you like by grabbing an empty part where no tabs are.
+Kdenlive allows you to arrange the predefined five panels as you like by grabbing an empty part where there are no tabs.
 
 Widgets can be rearrange the same way.
 
