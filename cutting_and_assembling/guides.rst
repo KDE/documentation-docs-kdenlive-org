@@ -21,25 +21,25 @@
 
 .. _guides:
 
-Timeline marker
+Timeline Marker
 ===============
 
 
 
-Timeline marker in the picture below are the purple flags. Not to be confused with :ref:`markers` on a clip (green in the picture below). Timeline marker are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
+Timeline markers in the picture below are the purple flags. Not to be confused with :ref:`markers` on a clip (green in the picture below). Timeline markers are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
 
 
 .. figure:: /images/Kdenlive_Markers_and_guides_crop.png
 
-Timeline marker can be used to define regions for rendering. See :ref:`rendering-guides`.
+Timeline markers can be used to define regions for rendering. See :ref:`rendering-guides`.
 
 
-Timeline marker can also be used as chapters for DVD videos. See :ref:`rendering-guides`.
+Timeline markers can also be used as chapters for DVD videos. See :ref:`rendering-guides`.
 
 
 .. _add_guides:
 
-3 ways to add Timeline marker
+3 ways to add timeline markers
 -----------------------------
 
 Following procedures add a timeline marker at the timeline playhead position:
@@ -82,7 +82,7 @@ Timeline ruler right click menu
 
 .. .. versionadded:: 21.08
    
-:guilabel:`Timeline Marker Locked`: See :ref:`move_edit_guides`  
+:guilabel:`Timeline Markers Locked`: See :ref:`move_edit_guides`  
 
 :guilabel:`Export Markers`: Opens the Export Marker dialog.
 
@@ -107,7 +107,7 @@ Timeline ruler right click menu
 
 .. _managing_guides:
 
-Managing categories and Markers
+Managing Categories and Markers
 -------------------------------
 
 .. .. versionadded:: 22.12
@@ -136,7 +136,7 @@ When starting a new project the categories for the project are pulled in from :g
       :align: left
       :scale: 77%
    
-   :guilabel:`Delete category` Deleting a category were markers are assigned, Kdenlive ask if you really want to delete it or if you want to reassign the markers to another category. 
+   :guilabel:`Delete category` When deleting a category were markers are assigned, Kdenlive asks if you really want to delete it or if you want to reassign the markers to another category. 
 
 .. rst-class:: clear-both
 
@@ -151,7 +151,7 @@ Markers View
 
 .. figure:: /images/guides_view_2508.webp
    
-:menuselection:`View --> Markers` opens the markers window were you can managing your markers.  
+:menuselection:`View --> Markers` opens the markers window were you can manage your markers.  
 
 
 :1: Shows the selected object: Clip-Name, Sequence-Name 
@@ -186,14 +186,14 @@ You can put a comment in the marker and make the comment display by choosing :re
 
 .. _export_guides:
 
-Export Timeline Markers as chapters description
+Export Timeline Markers as Chapters Description
 -----------------------------------------------
 
 .. .. versionadded:: 22.08
 
 .. .. versionchanged:: 22.12
 
-Timeline marker can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the timeline marker can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
+Timeline markers can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the timeline marker can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
 
 Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :guilabel:`Export Markers` or :menuselection:`Markers --> Export Markers`. Then the window `Export markers as chapters description` appears.
 
@@ -223,7 +223,7 @@ Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :guilabel:`
 
 :guilabel:`Reset`: Resets the settings to the default: {{timecode}} {{comment}}
 
-:guilabel:`Exported`: Shows what get exported. To change the timeline marker text you have to edit the timeline marker in the timeline.
+:guilabel:`Exported`: Shows what gets exported. To change the timeline marker text you have to edit the timeline marker in the timeline.
 
 :guilabel:`Copy to Clipboard`: Copy the data viewed in :guilabel:`Exported` into the clipboard to use it in other applications (Youtube).
 
@@ -232,12 +232,12 @@ The warning in the blue box only show up if one of the 3 points are not fulfille
 
 .. _move_edit_guides:
 
-Move and edit timeline marker
------------------------------
+Move and edit timeline markers
+------------------------------
 
-Timeline marker can be moved by click on a timeline marker text in the timeline and drag it to the desired position.
+Timeline markers can be moved by clicking on a timeline marker text in the timeline and dragging it to the desired position.
 
-Timeline marker can be moved by changing the :guilabel:`Position` in the edit window.
+Timeline markers can be moved by changing the :guilabel:`Position` in the edit window.
 
 .. figure:: /images/cutting_and_assembling/timeline-markers_edit-marker_2512.webp
    :scale: 77%
@@ -247,12 +247,12 @@ Double-click on a timeline marker text in the timeline ruler opens the edit wind
 :guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit window.
 
 
-Move timeline marker with Spacer Tool
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Move timeline markers with Spacer Tool
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. .. versionadded:: 21.08.0
 
-Easily moves timeline marker along with clips using the spacer tool by using the new :menuselection:`Timeline Marker Locked` option. When locked the timeline markers stay in place. When unlocked the timeline markers move with the clip.
+Easily moves timeline markers along with clips using the spacer tool by using the new :menuselection:`Timeline Marker Locked` option. When locked, the timeline markers stay in place. When unlocked, the timeline markers move with the clip.
 
 
 .. figure:: /images/guidemove.gif

@@ -26,7 +26,7 @@ Project Settings define first and foremost the properties of the final video (a 
 .. figure::  /images/project_and_asset_management/workspace-layouts_editing-layout_2512.webp
    :align: left
 
-Depends on the project profile you chose the :ref:`edit layout <ui-workspace_layouts>` automatically switch to horizontal or vertical with the :ref:`safe areas <ui_elements-monitor_icons>` adapting automatically. 
+Depending on the project profile you chose, the :ref:`edit layout <ui-workspace_layouts>` automatically switches to horizontal or vertical with the :ref:`safe areas <ui_elements-monitor_icons>` adapting at the same time. 
 
 .. rst-class:: clear-both
 

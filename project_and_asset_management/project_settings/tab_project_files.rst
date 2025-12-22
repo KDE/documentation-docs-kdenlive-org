@@ -46,7 +46,7 @@ The Project Files tab shows all the external assets for this project:
 .. rst-class:: clear-both
 
 .. warning:: 
-   :guilabel:`Delete files` deletes the unused files from your file system! If you want to remove unused files from your project use :menuselection:`Project -->` :ref:`remove_unused_media`.
+   :guilabel:`Delete files` deletes the unused files from your file system! If you want to remove unused files from your project, use :menuselection:`Project -->` :ref:`remove_unused_media`.
 
 .. container:: clear-both
 

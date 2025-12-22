@@ -366,7 +366,7 @@ Alternatively, once you have submitted a rendering job on a project and it is up
 Rendering Using Timeline Markers
 ================================
 
-:ref:`Timeline marker <guides>` can help organize your project while you work on it and when you share it with the world. You can use timeline maker to keep track of areas or to generate rendering scripts that will do the mundane task for you. This feature makes exporting sections of your project quite easy.
+:ref:`Timeline marker <guides>` can help organize your project while you work on it and when you share it with the world. You can use timeline markers to keep track of areas or to generate rendering scripts that will do the mundane task for you. This feature makes exporting sections of your project quite easy.
 
 For more details about markers, how to add and manage them, refer to the :ref:`Timeline maker <guides>` section of the documentation.
 
@@ -380,7 +380,7 @@ Using Marker Zones
 
    Using marker zones to render a section
 
-With this option you define the start and end point for the render by selecting specific timeline marker.
+With this option you define the start and end point for the render by selecting specific timeline markers.
 
 .. rst-class:: clear-both
 
@@ -413,7 +413,7 @@ Choose which timeline markers will establish the regions of video you want to ex
 
 After saving the script, the top tab in the window switches to :guilabel:`Scripts`. This lists all the scripts you have generated, including scripts from other projects.
 
-In this example three scripts were created based on the timeline marker in the timeline. Be sure and keep the :file:`.mlt` extension otherwise the rendering script will not be generated.
+In this example three scripts were created based on the timeline markers in the timeline. Be sure and keep the :file:`.mlt` extension otherwise the rendering script will not be generated.
 
 .. rst-class:: clear-both
 
@@ -464,7 +464,7 @@ With this option you use timeline markers to divide the timeline in pieces that 
 
    Defined timeline markers to be used for multi-export
 
-The selection of timeline marker categories indicates which timeline marker will be considered for rendering.
+The selection of timeline marker categories indicates which timeline markers will be considered for rendering.
 
 .. rst-class:: clear-both
 
@@ -489,9 +489,9 @@ In this example, there are the following options:
    * `projectname-Marker3.mp4` (from "guide3" to the end)
 
 .. note::
-   * If timeline marker are behind the last timeline clip, they are ignored.
+   * If timeline markers are behind the last timeline clip, they are ignored.
    * If a timeline maker sits right at the beginning of the timeline, the name of that timeline maker is used instead of "begin".
-   * If two timeline marker have the same name, an underscore and a number will be added to the file name.
+   * If two timeline markers have the same name, an underscore and a number will be added to the file name.
 
 .. note:: As of this writing, the appimage of version 23.04.1 is having issues with the scripts generated with this function. Only one of the scripts is executed successfully but the other scripts remain in status 'Waiting...'. Unfortunately, a manual start of the scripts is not possible either.
 

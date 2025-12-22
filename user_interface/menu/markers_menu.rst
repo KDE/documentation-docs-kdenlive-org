@@ -19,7 +19,7 @@ Markers Menu
 
 .. .. versionchanged:: 25.12 Reorder menu structure and content 
 
-The functions in this menu affects markers that are selected in the Timeline **or** in the Project Bin. Menu functions are available depending on whether a clip is selected in the Project Bin or in the Timeline.
+The functions in this menu affect markers that are selected in the Timeline **or** in the Project Bin. Menu functions are available depending on whether a clip is selected in the Project Bin or in the Timeline.
 
 .. figure:: /images/user_interface/menu_reference/menu_reference-markers_menu-2512.webp
    :align: left
