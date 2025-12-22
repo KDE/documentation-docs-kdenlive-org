@@ -24,12 +24,12 @@ When inserting or overwriting some part in the timeline with some part from a cl
 1. Insert/overwrite a clip zone into the timeline at some point (cursor/playhead), or
 2. Insert/overwrite a clip starting at some point into a timeline zone
 
-Kdenlive’s timeline IN/OUT system has 1 basic difference to other video editors: **Kdenlive don't have**:
+Kdenlive’s timeline IN/OUT system has one basic difference to other video editors: **Kdenlive doesn't have**:
 
-* IN/OUT points for 3 points editing and 
+* IN/OUT points for 3-point editing and 
 * IN/OUT points to set the rendering area.
 
-In Kdenlive we use the same timeline IN/OUT points for both functions. For this reason, we have a button to enable |timeline-use-zone-on| / disable |timeline-use-zone-off| the timeline zone for the task. Instead of removing the reference points you just disable |timeline-use-zone-on| the timeline zone. This has the advantage to preserve a set area (IN/OUT zone) and be able to work on the playhead/cursor reference only, without the needs of cancelling the zone.
+In Kdenlive we use the same timeline IN/OUT points for both functions. For this reason, we have a button to enable |timeline-use-zone-on| / disable |timeline-use-zone-off| the timeline zone for the task. Instead of removing the reference points you just disable |timeline-use-zone-on| the timeline zone. This has the advantage to preserve a set area (IN/OUT zone) and be able to work on the playhead/cursor reference only, without having to cancel the zone.
 
 
 .. _advanced_editing-insert:
