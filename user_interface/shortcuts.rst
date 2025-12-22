@@ -596,6 +596,10 @@ Timeline
    * - Adjust the speed of a clip
      - :kbd:`Ctrl+dragging`
      - Only possible with keyboard
+   * - Timeline panning
+     - :kbd:`Ctrl+dragging`
+     - | Only possible with keyboard
+       | Hold :kbd:`Ctrl` and click with :kbd:`LMB` into the timeline and start panning.
    * - Return from any tools back to Selection tool.
      - :kbd:`ESC`
      - Only possible with keyboard
