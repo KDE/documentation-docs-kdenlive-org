@@ -38,7 +38,7 @@ The timeline is the central part of **Kdenlive**. It is made of four different a
 Timeline Areas
 --------------
 
-:1:  **Timeline**. This is the area where you drop your clips to the various tracks. It shows the clips with or without thumbnails, with or without the audio frequency curve, transitions and compositions, as well as the markers, guides and keyframes (if any).
+:1:  **Timeline**. This is the area where you drop your clips to the various tracks. It shows the clips with or without thumbnails, with or without the audio frequency curve, with or without clip names and other info, transitions and compositions, as well as the markers, guides and keyframes (if any). All this can be toggled in the :ref:`status bar <status_bar>`.
 
 :2: **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It also shows the current zone (if defined) and the preview render zones and their respective render status. A more detailed description can be found :ref:`further down here <timeline_ruler>`. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. For the right-click menu see the :ref:`detailed description <timeline_ruler_right-click_menu>`.
 
