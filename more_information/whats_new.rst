@@ -86,8 +86,8 @@ What's New
 .. versionadded:: 25.04 (see 25.04_ release notes)
 
    * Introduced :doc:`object segmentation</effects_and_filters/video_effects/alpha_mask_keying/object_mask>`
-   * Introduced support for :ref:`OpenTimeLineIO import and export<file_opentimeline-export>`
-   * Added possibility to :ref:`zoom waveform in the audio track<timeline-zoom_audio_waveforms>`
+   * Introduced support for :ref:`OpenTimeLineIO import and export <file_opentimelineio_export>`
+   * Added possibility to :ref:`zoom waveform in the audio track <status_bar>`
    * Added possibility to :ref:`collapse and expand all effects in the effect stack<effect_functions>`
    * Added in the :ref:`duration dialog a checkbox for ripple delete<resizing_multiple_timeline_items>`
    * Added :doc:`shortcuts for find next/previous text phrase in the project notes</project_and_asset_management/project_notes>`
@@ -173,7 +173,7 @@ What's New
    * Added the ability to :ref:`manage categories and guides <managing_guides>`
    * Added the ability to :ref:`manage categories and markers <managing_markers>`
    * Changes to :ref:`export guides as chapter descriptions <export_guides>`
-   * Changes to :ref:`export markers as chapter descriptions <export_markers>`
+   * Changes to :ref:`export markers as chapter descriptions <export_guides>`
    * Revamped the :ref:`rendering dialog <render>` window
 
 

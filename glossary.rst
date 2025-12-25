@@ -309,6 +309,9 @@ Glossary
    Radio Button
       Used to select one option and one option only from a list of option. Like in the old days on a radio to select a pre-programmed station: press the stations' button and the previously pressed button pops out.
 
+   RGB Parade
+      An RGB parade is a video editing tool (a “scope”) that separates the red, green, and blue color channels of an image in order to analyze their levels and distribution; it is essential for color correction to detect color casts, adjust white balance (ideally, all channels should match), and ensure that no details are clipped in highlights or shadows by graphically displaying the brightness values of each color. 
+
    Rendering
       Also referred to as 'Exporting'. The process of saving the edited clips into a single complete video clip. See :ref:`render`.
 
