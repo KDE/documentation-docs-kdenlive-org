@@ -37,7 +37,7 @@ The functions in this menu affect markers that are selected in the Timeline **or
 - :ref:`delete_all_markers`
 - :ref:`timeline_markers_locked`
 - :ref:`search_marker`
-- :ref:`export_markers`
+- :ref:`marker_menu_export_markers`
 - :ref:`add_markers_by_category`
 
 .. rst-class:: clear-both
@@ -139,7 +139,7 @@ Search Marker
 This will bring the focus to the Search field in the Marker widget.
 
 
-.. _export_markers:
+.. _marker_menu_export_markers:
 
 Export Markers
 --------------

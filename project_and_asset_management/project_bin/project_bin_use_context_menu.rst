@@ -124,7 +124,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
    If checked indicates that the selected clip is a proxy clip* :ref:`make_proxy_clip`. If the option is greyed out, proxy clips are not enabled for the project. Go to the :doc:`/project_and_asset_management/project_settings/proxy_settings` tab in the Project Settings (:menuselection:`Menu --> File --> Project Settings`) and enable proxy clips.
 
 |clip_properties|:
-   Opens the widget for the Clip Properties. For more details refer to the chapter :ref:`clip_menu-clip_properties`.
+   Opens the widget for the Clip Properties. For more details refer to the chapter :ref:`media_menu-clip_properties`.
 
 |edit_clip|:
    Opens the application associated with the type of the selected clip. See also the chapter :ref:`edit_clip`.

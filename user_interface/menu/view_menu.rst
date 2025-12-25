@@ -700,5 +700,3 @@ Use :kbd:`RMB` anywhere in the window to open a context menu to clear all undo h
       Figure 5
 
    Whenever you save your project the icon that looks like the backspace icon is repositioned next to the most recent operation in the list.  Figure 5 shows three additional operations which were performed after the file save shown by the square.  After saving the file you can still revert back to changes which were made before the save.
-
-.. rst-class:: clear-both

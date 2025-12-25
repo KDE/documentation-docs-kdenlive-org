@@ -20,7 +20,7 @@
 Archiving
 =========
 
-The Archiving feature (:menuselection:`Menu --> File --> Archive Project`, see :ref:`project_menu`) in **Kdenlive** allows you to copy all files required by the project (images, video clips, project files,...) to a folder, and alternatively to compress the whole into a :file:`tar.gz` or a :file:`zip` file.
+The Archiving feature (:menuselection:`Menu --> File --> Archive Project`, see :ref:`file_archive_project`) in **Kdenlive** allows you to copy all files required by the project (images, video clips, project files,...) to a folder, and alternatively to compress the whole into a :file:`tar.gz` or a :file:`zip` file.
 
 .. figure:: /images/project_and_asset_management/archive_project.webp
    :width: 360px

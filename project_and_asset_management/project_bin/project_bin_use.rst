@@ -48,25 +48,25 @@ User Interface
    * - 
      - |go-down| opens a pop-up window from where you can select what kind of clip you want to add 
    * - 
-     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder</project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their own bins.
+     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder </project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their own bins.
    * - **2**
      - |edit-delete|\ :guilabel:`Delete clip or folder` deletes the currently selected clip or folder from the bin
    * - **3**
-     - |tag|\ :guilabel:`Tags Panel` toggles the :ref:`tags<project_bin_using_tags>` panel
+     - |tag|\ :guilabel:`Tags Panel` toggles the :ref:`tags <project_bin_using_tags>` panel
    * - **4**
      - |application-menu|\ :guilabel:`Options` opens a pop-window with more `options` including the option to :ref:`scale <scaling_the_view>` the view
    * - **5**
-     - |view-filter|\ :guilabel:`Filter` switches a :ref:`filter<project_bin_using_filters>` on or off
+     - |view-filter|\ :guilabel:`Filter` switches a :ref:`filter <project_bin_using_filters>` on or off
    * - 
-     - |go-down|\ :guilabel:`Filter` opens a pop-up window to :doc:`set filter<project_bin_use_filters>` parameters
+     - |go-down|\ :guilabel:`Filter` opens a pop-up window to :doc:`set filter <project_bin_use_filters>` parameters
    * - **6**
-     - Search field to :ref:`search for assets<project_bin_searching_the_project_bin>` in the bin
+     - Search field to :ref:`search for assets <project_bin_searching_the_project_bin>` in the bin
    * - **7**
      - |go-up|\ :guilabel:`Sort` Toggles between sorting ascending and descending
    * - **8**
-     - The folder with all the sequences. It is there even if you did not :doc:`create a sequence</project_and_asset_management/project_bin/sequence>`.
+     - The folder with all the sequences. It is there even if you did not :doc:`create a sequence </project_and_asset_management/project_bin/sequence>`.
    * - **9**
-     - Folders created by the user (for illustration purposes only). You can turn folders into :ref:`individual bins<project_bin_using_multiple_bins>` that can be added to your workspace and docked.
+     - Folders created by the user (for illustration purposes only). You can turn folders into :ref:`individual bins <project_bin_using_multiple_bins>` that can be added to your workspace and docked.
    * - **10**
      - |kdenlive-audio| indicates a file with an audio stream
    * - 
