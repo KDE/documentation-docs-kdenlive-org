@@ -60,7 +60,7 @@ Windows issue with scopes, scopes don't show anything
 
 Workaround: Change the back-end to OpenGL via :menuselection:`Menu --> Settings --> OpenGL Backend --> OpenGL`
 
-If it is still not working go to: :menuselection:`Menu --> Help --> Timeline Guide Locked` and try again.
+If it is still not working go to: :menuselection:`Menu --> Markers --> Timeline Markers Locked` and try again.
 
 
 

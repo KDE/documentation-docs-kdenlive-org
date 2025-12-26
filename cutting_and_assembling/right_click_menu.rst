@@ -151,13 +151,13 @@ A different menu appears if you click in empty space in the timeline.
 * :menuselection:`Remove Space in All Tracks` will remove space between clips on all the tracks.
 
 
-* :menuselection:`Add/Remove Guide` will add a guide to the timeline.
+* :menuselection:`Add/Remove Timeline Marker` will add a timeline marker to the timeline.
 
 
-* :menuselection:`Edit Guide` will allow you to edit the guide label.
+* :menuselection:`Edit Guide` will allow you to edit the timeline marker label.
 
 
-* :menuselection:`Go to Guide` will pop-up a sub-menu with a list of your guides and will move the timeline position marker to that guide.
+* :menuselection:`Go to TimeLine Marker` will pop-up a sub-menu with a list of your timeline markers and will move the timeline position marker to that guide.
 
 
 * :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition.

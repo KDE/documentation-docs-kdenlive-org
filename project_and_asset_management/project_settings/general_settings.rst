@@ -35,7 +35,7 @@ The first tab in the Project Settings dialog is for general project settings. It
 
 .. rst-class:: clear-both
 
-:1: The available tabs for the different settings: Settings, :doc:`Proxy</project_and_asset_management/project_settings/proxy_settings>`, :doc:`Guides</project_and_asset_management/project_settings/guides_settings>`, :doc:`Metadata</project_and_asset_management/project_settings/tab_meta_data>`, :doc:`Project Files</project_and_asset_management/project_settings/tab_project_files>`, and :doc:`Cache Data</project_and_asset_management/project_settings/tab_cache_data>`. The two latter ones are only available via :menuselection:`Menu --> File --> Project Settings`.
+:1: The available tabs for the different settings: Settings, :doc:`Proxy</project_and_asset_management/project_settings/proxy_settings>`, :doc:`Markers</project_and_asset_management/project_settings/guides_settings>`, :doc:`Metadata</project_and_asset_management/project_settings/tab_meta_data>`, :doc:`Project Files</project_and_asset_management/project_settings/tab_project_files>`, and :doc:`Cache Data</project_and_asset_management/project_settings/tab_cache_data>`. The two latter ones are only available via :menuselection:`Menu --> File --> Project Settings`.
       
 :2: Defines how to set up the `project folder`_
 

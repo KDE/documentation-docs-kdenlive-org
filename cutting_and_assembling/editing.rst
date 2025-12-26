@@ -720,7 +720,7 @@ Show marker comments
 This toggles on and off the display of :ref:`markers` saved within :doc:`clips</project_and_asset_management/project_bin/clips>` (the text with the gold background in the example below) and within :doc:`guides` (the text with the purple background).
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
-   :alt: markers and guides
+   :alt: markers and timeline markers
 
 
 Snap

@@ -1,5 +1,5 @@
 .. meta::
-   :description: Kdenlive Documentation - Project Guides Settings
+   :description: Kdenlive Documentation - Project Markers Settings
    :keywords: KDE, Kdenlive, project, setup, settings, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
@@ -21,7 +21,7 @@
 Markers Settings
 ================
 
-In this tab you define project-specific categories and colors for markers and guides.
+In this tab you define project-specific categories and colors for markers and timeline markers.
 
 .. container:: clear-both
 
@@ -31,7 +31,7 @@ In this tab you define project-specific categories and colors for markers and gu
       :align: left
       :alt: project_settings_guides
 
-      The Project Settings Guides dialog window
+      The Project Settings Markers dialog window
 
    :guilabel:`Add category`: Adds a category
 

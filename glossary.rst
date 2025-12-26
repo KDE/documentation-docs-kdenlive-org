@@ -168,9 +168,6 @@ Glossary
    Gamma Correction
       A description of the relationship between a color value and its brightness on a particular device. Hence Gamma Correction is the nonlinear operation for encoding and decoding :term:`luminance` in video or digital images to adjust color tones to how humans see them.
 
-   Guide
-      Static markings in the :term:`timeline` that do not necessarily move with clips. Not to be confused with :term:`markers`. Can be used to define regions for rendering and exported to provide chapters for YouTube videos. See :ref:`guides`.
-
    Hamburger Menu
    Sandwich Menu
       A way to reduce clutter and save screen real estate. Looks like this |application-menu|. Replaces the Kdenlive menu bar. Can be expanded with :kbd:`Ctrl+M`.
@@ -337,7 +334,7 @@ Glossary
       Used in editing. Keeps the original duration of the clip. Compare with working with old film material: the film strip is slipped back and forth beneath the given "window" of the clip length. See :ref:`timeline_edit_tools`
 
    Snap Point
-      Sections in :term:`clips<clip>` that other clips snap to when "snapping" is turned on. Snap points include markers, guides, zone in-points, zone out-points, transition start points, clip edges, and cuts.
+      Sections in :term:`clips<clip>` that other clips snap to when "snapping" is turned on. Snap points include markers, timeline markers, zone in-points, zone out-points, transition start points, clip edges, and cuts.
 
    Speed Ramping
       See :term:`Time Remapping`
@@ -352,7 +349,7 @@ Glossary
    Color Temperature
       A parameter describing the color of the visible light source. It is measured in :term:`Kelvins<kelvin>` (K). The range is from 1,000K to 10,000K where lower temperatures are considered "warm", and higher temperatures "cool". See this article about |color_temp|.
 
-   Theme
+      Theme
       A set of colors, icons, fonts and other settings to change the appearance of an application or desktop. Can be set from :menuselection:`Menu --> Settings --> Color Scheme`.
 
    Thumbnail
@@ -364,6 +361,9 @@ Glossary
    Timeline
       The :doc:`central part</user_interface/timeline>` of Kdenlive. This is where all the editing takes place. Keeps a chronological sequence of the clips and the relations to each other through tracks and compositions. Can be zoomed. See also :ref:`sequence` for nested timelines.
 
+   Timeline Maker (former Guide)
+      Static markings in the :term:`timeline` that do not necessarily move with clips. Not to be confused with :term:`markers`. Can be used to define regions for rendering and exported to provide chapters for YouTube videos. See :ref:`guides`.
+   
    Timeline Ruler
       Sits right above the tracks and displays the time code information (default notation is hh:mm:ss:ff, can be switched to frames) as well as any currently defined timeline :term:`zone` and/or preview render zone. See :ref:`timeline_ruler`.
 

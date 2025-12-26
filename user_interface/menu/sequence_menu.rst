@@ -696,7 +696,7 @@ Switches on or off the display of the audio waveform in audio tracks.
 Show Markers Comments
 ---------------------
 
-Switches on or off the display of the comment of Markers and Guides.
+Switches on or off the display of the comment of Markers and Timeline Markers.
 
 
 .. _timeline-toggle_snap:
@@ -704,7 +704,7 @@ Switches on or off the display of the comment of Markers and Guides.
 Snap
 ----
 
-Switches on or off the snap function. With Snap turned on moving items along the Timeline will make them snap to other items including Markers and Guides even across different tracks. Default shortcut: :kbd:`Alt+M`
+Switches on or off the snap function. With Snap turned on moving items along the Timeline will make them snap to other items including Markers and Timeline Markers even across different tracks. Default shortcut: :kbd:`Alt+M`
 
 
 .. _timeline-zoom_in:

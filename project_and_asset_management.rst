@@ -29,7 +29,7 @@ Project and Asset Management
    /project_and_asset_management/file_management
 
 
-Kdenlive works with projects. A project contains all the :term:`assets<Asset>` (sources), the :term:`timeline` with your :term:`clips<Clip>` in different :term:`tracks<Track>`, the cuts and trims, :term:`compositions<Composition>` and :term:`transitions<Transition>`, :doc:`annotations</project_and_asset_management/project_notes>`, :term:`markers`, :term:`guides<Guide>` - in short, everything you and Kdenlive need to produce a video file as the result of your work.
+Kdenlive works with projects. A project contains all the :term:`assets<Asset>` (sources), the :term:`timeline` with your :term:`clips<Clip>` in different :term:`tracks<Track>`, the cuts and trims, :term:`compositions<Composition>` and :term:`transitions<Transition>`, :doc:`annotations</project_and_asset_management/project_notes>`, :term:`markers`, :term:`timeline marker <Timeline Maker (former Guide)>` - in short, everything you and Kdenlive need to produce a video file as the result of your work.
 
 .. hint:: 
    When creating a project, select a project profile with the final video in mind. The :doc:`project settings</project_and_asset_management/project_settings>` determine the resolution (e.g. 1920x1080), the frame rate (e.g. 25 fps), other :doc:`meta data</project_and_asset_management/project_settings/tab_meta_data>`, and how to deal with the project's assets.
