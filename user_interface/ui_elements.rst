@@ -303,7 +303,7 @@ Project / Clip Monitor Icons
    * - |zoom-out|
      - Zoom out
    * - |list-add|
-     - Add :term:`guide`
+     - Add :term:`Timeline Maker (former Guide)`
    * - |list-remove|
      - Remove guide
    * - |transform-move-horizontal|

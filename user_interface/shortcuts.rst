@@ -436,7 +436,7 @@ Timeline
      -
    * - Add/Remove Guide
      - :kbd:`G`
-     - Adds a guide at playhead position.
+     - Adds a timeline marker at playhead position.
    * - Group Clips
      - :kbd:`Ctrl+G`
      - Current selection

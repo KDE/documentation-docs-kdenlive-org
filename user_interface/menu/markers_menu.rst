@@ -56,7 +56,7 @@ Add Marker
 
 Adds a Marker to the clip at the current timepoint. Markers are properties of the clips in the Project Bin. So this action puts a marker in the clip in the Project Bin.
 
-.. note:: In order for the Add Marker to work a clip must be selected in the Timeline. You can create multiple Markers in the Guides widget for the clip selected in the Project Bin independent of the Timeline.
+.. note:: In order for the Add Marker to work a clip must be selected in the Timeline. You can create multiple Markers in the markers widget for the clip selected in the Project Bin independent of the Timeline.
 
 
 .. _add_marker_quickly:
@@ -72,7 +72,7 @@ Adds a new marker at the current time point. Shortcut :kbd:`Num+*` (On Numlock p
 Edit Marker
 -----------
 
-For this to work the playhead needs to be right on top of a Marker. If it is not you get an error on the bottom left "No Marker found at Cursor time". Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at a time, or use them with :kbd:`ALT` to jump to the next or previous edit point (for example cuts, clip edges, Markers and Guides).
+For this to work the playhead needs to be right on top of a Marker. If it is not you get an error on the bottom left "No Marker found at Cursor time". Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at a time, or use them with :kbd:`ALT` to jump to the next or previous edit point (for example cuts, clip edges, Markers and Timeline Markers).
 
 As Markers are properties of the clips in the Project Bin, this action changes the Marker from the clip in the Project Bin and thus in any other instance of this clip in the Timeline.
 
@@ -82,7 +82,7 @@ As Markers are properties of the clips in the Project Bin, this action changes t
 Delete Marker
 -------------
 
-For this to work the playhead needs to be right on top of a Marker. If it is not you get an error on the bottom left "No Marker found at Cursor time". Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at a time, or use them with :kbd:`ALT` to jump to the next or previous edit point (for example cuts, clip edges, Markers and Guides).
+For this to work the playhead needs to be right on top of a Marker. If it is not you get an error on the bottom left "No Marker found at Cursor time". Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at a time, or use them with :kbd:`ALT` to jump to the next or previous edit point (for example cuts, clip edges, Markers and Timeline Markers).
 
 As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
 
@@ -120,7 +120,7 @@ Deletes all Markers from the current clip.
 
 As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
 
-This will delete all Guides from the timeline without any further warning. Use :guilabel:`Undo` or :menuselection:`Menu --> Edit --> Undo` or :kbd:`Ctrl+Z` to undo this action.
+This will delete all Timeline Markers from the timeline without any further warning. Use :guilabel:`Undo` or :menuselection:`Menu --> Edit --> Undo` or :kbd:`Ctrl+Z` to undo this action.
 
 
 .. _timeline_markers_locked:
@@ -128,7 +128,7 @@ This will delete all Guides from the timeline without any further warning. Use :
 Timeline Markers Locked
 -----------------------
 
-This will lock the Timeline Markers (Guides) in the Timeline so that specific actions do not move the Guides.
+This will lock the Timeline Markers (Guides) in the Timeline so that specific actions do not move the Timeline Markers.
 
 
 .. _search_marker:

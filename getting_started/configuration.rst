@@ -53,8 +53,8 @@ The configuration settings are divided into the following sections:
      - Currently, this section contains only the setting for cutting subtitles.
    * - :doc:`Environment</getting_started/configure_kdenlive/configuration_environment>`
      - This section contains settings pertaining to proxy and transcoding jobs, cache data, third party application and tools, and default folders and apps
-   * - :doc:`Colors and Guides</getting_started/configure_kdenlive/configuration_colors+guides>`
-     - This section defines which colors to use for thumbnails, guides and markers, and monitor overlays, as well as grid spacing. Here you can also manage the categories for guides and markers.
+   * - :doc:`Colors and Markers</getting_started/configure_kdenlive/configuration_colors+markers>`
+     - This section defines which colors to use for thumbnails, markers, and monitor overlays, as well as grid spacing. Here you can also manage the categories for timeline markers and markers.
    * - :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`
      - This section is used to manage the various models used for Speech To Text (VOSK and Whisper) and Object Detection
    * - :doc:`Playback</getting_started/configure_kdenlive/configuration_playback>`
@@ -69,7 +69,7 @@ The configuration settings are divided into the following sections:
 
 .. warning:: Clicking :guilabel:`Restore Defaults` will reset every setting in every section to the default value! It is **not** restricted to the current, selected section.
    
-   One exception: A deleted category for Guides and Markers cannot be restored! 
+   One exception: A deleted category for Timeline Markers and Markers cannot be restored! 
 
 
 .. toctree::
@@ -81,7 +81,7 @@ The configuration settings are divided into the following sections:
    configure_kdenlive/configuration_timeline
    configure_kdenlive/configuration_tools
    configure_kdenlive/configuration_environment
-   configure_kdenlive/configuration_colors+guides
+   configure_kdenlive/configuration_colors+markers
    configure_kdenlive/configuration_plugins
    configure_kdenlive/configuration_playback
    configure_kdenlive/configuration_capture

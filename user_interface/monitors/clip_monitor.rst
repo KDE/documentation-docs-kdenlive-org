@@ -162,7 +162,7 @@ These are the menu items that are available when you right-click in the Clip Mon
      - Goes to the beginning of the clip
    * - Go to Previous Guide
      - :kbd:`Ctrl+Left`
-     - Goes to the previous :term:`marker<markers>` or :term:`guide`
+     - Goes to the previous :term:`marker<markers>` or :term:`Timeline Maker (former Guide)`
    * - Go to Previous Snap Point
      - :kbd:`Alt+Left`
      - Moves the :term:`playhead` to the previous :term:`snap point`
@@ -183,7 +183,7 @@ These are the menu items that are available when you right-click in the Clip Mon
      - Moves the :term:`playhead` to the next :term:`snap point`
    * - Go to Next Guide
      - :kbd:`Ctrl+Right`
-     - Goes to the next :term:`marker<markers>` or :term:`guide`
+     - Goes to the next :term:`marker<markers>` or :term:`Timeline Maker (former Guide)`
    * - Go to Project End
      - :kbd:`Ctrl+End`
      - Goes the end of the clip

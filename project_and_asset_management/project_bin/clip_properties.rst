@@ -154,7 +154,7 @@ Adjusting the :guilabel:`Audio sync` in increments of one millisecond (1 ms) app
 
 .. .. versionchanged:: 22.12
 
-The **Marker** tab has been removed. Clip markers are shown in their own widget **Guides**. You enable it in :menuselection:`Menu --> View --> Guides`. More details see :ref:`markers`.
+The **Marker** tab has been removed. Clip markers are shown in their own widget **Marker**. You enable it in :menuselection:`Menu --> View --> Markers`. More details see :ref:`markers`.
 
 
 ----

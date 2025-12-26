@@ -315,17 +315,20 @@ This function is also available via the right-click menu of the clip in the Proj
 Select a clip which has running jobs, details of the jobs will appear in the clip monitor as overlay. Click on the :guilabel:`X` on the clip jobs overlay will cancel the clip job. To enable the clip job overlay :ref:`see here <ui-monitors_cm_rightclick>`.
 
 
+.. .. versionchanged:: Extend Marker System with Range/Duration Support
+
 .. _automatic_scene_split:
 
 Automatic Scene Split
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: /images/user_interface/menu_reference/kdenlive2304_clip_job-scene_split.webp
+.. figure:: /images/user_interface/menu_reference/clip_job-scene_split-2512.webp
    :align: left
-      
+   :scale: 77%
+
    Scene Detection
    
-This job detects scene changes in the clip and creates markers and/or cuts the clip into sub-clips. The :guilabel:`Change threshold` determines the difference in the video stream to be considered a scene change. You may need to experiment with this parameter to get satisfactory results for your specific situation and source material.
+This job detects scene changes in the clip and creates markers and/or range marker and/or cuts the clip into sub-clips. The :guilabel:`Change threshold` determines the difference in the video stream to be considered a scene change. You may need to experiment with this parameter to get satisfactory results for your specific situation and source material.
 
 If you want Kdenlive to create sub-clips for each scene check the :guilabel:`Cut scenes`.
 

@@ -266,7 +266,7 @@ Select a clip in the **Project Bin**.
 
 :6: |format-font-size-more|\ :guilabel:`Increase font size` and |format-font-size-less|\ :guilabel:`Decrease font size` decrease, respectively, increase the font size.
 
-:7: |bookmark-new|\ :guilabel:`Add marker` adds a marker for the timecode of the selected text. More details about *Guides* and *Markers* are available in the chapter about :doc:`/cutting_and_assembling/guides`.
+:7: |bookmark-new|\ :guilabel:`Add marker` adds a marker for the timecode of the selected text. More details about *Timeline Markers* and *Markers* are available in the chapter about :doc:`/cutting_and_assembling/guides`.
 
 :8: |edit-delete|\ :guilabel:`Delete selection` deletes the selected text.
 

@@ -17,7 +17,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. .. versionchanged::25.12 Change name of guide to timeline marker
+.. .. versionchanged::25.12 Change name of guide to timeline marker, Reorder menu structure to make it clearer
 
 .. _guides:
 
@@ -26,13 +26,13 @@ Timeline Marker
 
 
 
-Timeline markers in the picture below are the purple flags. Not to be confused with :ref:`markers` on a clip (green in the picture below). Timeline markers are static on the timeline and can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
+Timeline markers in the picture below are the red flags. Not to be confused with :ref:`markers` on a clip (yellow in the picture below). Timeline markers can be either stationary or moved when clips are moved around. Markers are inside the clips and move with the clips.
 
-
-.. figure:: /images/Kdenlive_Markers_and_guides_crop.png
+.. figure:: /images/cutting_and_assembling/cutting_and_assembling-markers-2512.webp
+   
+Timeline markers can be used for certain points (Timeline Marker2) or ranges (Timeline Marker1).
 
 Timeline markers can be used to define regions for rendering. See :ref:`rendering-guides`.
-
 
 Timeline markers can also be used as chapters for DVD videos. See :ref:`rendering-guides`.
 
@@ -40,7 +40,7 @@ Timeline markers can also be used as chapters for DVD videos. See :ref:`renderin
 .. _add_guides:
 
 3 ways to add timeline markers
------------------------------
+------------------------------
 
 Following procedures add a timeline marker at the timeline playhead position:
 
@@ -50,8 +50,7 @@ Following procedures add a timeline marker at the timeline playhead position:
   * Right click on :ref:`timeline ruler<timeline_ruler>` and choose in the menu :guilabel:`Add/Remove Timeline Marker`
   * Right click in the timeline and choose :guilabel:`Add/Remove TimeLine Marker`
 
-.. .. versionadded:: 24.08
-..    Insert guides in 10 different categories using NumPad 
+.. .. versionadded:: 24.08 Insert guides in 10 different categories using NumPad 
 
 * **Keyboard**
 
@@ -105,6 +104,20 @@ Timeline ruler right click menu
 :guilabel:`Add Subtitle`: See :ref:`effects-subtitles`
 
 
+.. .. versionchanged:: Extend Marker System with Range/Duration Support
+
+Timeline Marker with range
+--------------------------
+
+.. figure:: /images/cutting_and_assembling/cutting_and_assembling-markers_with_range-2512.webp
+   :align: left
+   :scale: 77%
+
+In the Edit Marker window you can enable :guilabel:`Range Marker` which allows you to determine a :guilabel:`Duration` of the marker. Default :guilabel:`Duration` is 1 second.
+
+.. rst-class:: clear-both
+
+
 .. _managing_guides:
 
 Managing Categories and Markers
@@ -118,7 +131,7 @@ Managing Categories and Markers
 Categories
 ~~~~~~~~~~
 
-When starting a new project the categories for the project are pulled in from :guilabel:`Markers Categories` in setting :doc:`Configure Colors and Markers </getting_started/configure_kdenlive/configuration_colors+guides>`. These categories are for markers and timeline markers.
+When starting a new project the categories for the project are pulled in from :guilabel:`Markers Categories` in setting :doc:`Configure Colors and Markers </getting_started/configure_kdenlive/configuration_colors+markers>`. These categories are for markers and timeline markers.
 
 .. container:: clear-both
 
@@ -145,9 +158,7 @@ When starting a new project the categories for the project are pulled in from :g
 Markers View
 ~~~~~~~~~~~~
 
-.. .. versionchanged:: 25.08
-   add a button to show all project clip markers in the list
-   Add option to show thumbnails in markers list dialog 
+.. .. versionchanged:: 25.08 add a button to show all project clip markers in the list, add option to show thumbnails in markers list dialog 
 
 .. figure:: /images/guides_view_2508.webp
    

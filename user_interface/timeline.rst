@@ -38,7 +38,7 @@ The timeline is the central part of **Kdenlive**. It is made of four different a
 Timeline Areas
 --------------
 
-:1:  **Timeline**. This is the area where you drop your clips to the various tracks. It shows the clips with or without thumbnails, with or without the audio frequency curve, with or without clip names and other info, transitions and compositions, as well as the markers, guides and keyframes (if any). All this can be toggled in the :ref:`status bar <status_bar>`.
+:1:  **Timeline**. This is the area where you drop your clips to the various tracks. It shows the clips with or without thumbnails, with or without the audio frequency curve, with or without clip names and other info, transitions and compositions, as well as the markers, timeline markers and keyframes (if any). All this can be toggled in the :ref:`status bar <status_bar>`.
 
 :2: **Timeline ruler**. This area shows the time in hh:mm:ss:ff notation. It also shows the current zone (if defined) and the preview render zones and their respective render status. A more detailed description can be found :ref:`further down here <timeline_ruler>`. Left-clicking in the timeline ruler will move the :ref:`timeline` and seek to that position. For the right-click menu see the :ref:`detailed description <timeline_ruler_right-click_menu>`.
 
@@ -85,7 +85,7 @@ Timeline visuals
 
 .. .. versionadded:: 21.04.0
 
-The timeline got a visual overhaul with more and better looking guides/marker colors, the guides have been moved above the timeline ruler while preview and zone bars have been moved below.
+The timeline got a visual overhaul with more and better looking timeline marker/marker colors, the timeline marker have been moved above the timeline ruler while preview and zone bars have been moved below.
 
 .. figure:: /images/timeline-overhaul.png
    
@@ -224,7 +224,7 @@ For more detailed information on preview render please refer to this section of 
    
 Right click into the timeline ruler opens the context menu and allows you to:
 
-  * :ref:`Manipulate guides <guides>`
+  * :ref:`Manipulate timeline markers <guides>`
   * :term:`Set Zone In/Out<zone>`
   * :doc:`Add Project Notes </project_and_asset_management/project_notes>`
   * :ref:`Add Subtitle <effects-subtitles>`

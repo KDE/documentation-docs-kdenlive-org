@@ -133,7 +133,7 @@ This menu item opens a flyout with following seeking possibilities:
 
 .. _insert_zone_in_project_bin:
 
-* **Insert Zone in Project Bin**: When you have created a zone you can put the zone with this command into the project bin as a sub-clip of the original clip. This is useful when you have a long clip and you want only some parts of it. Shortcut :kbd:`Ctrl + I`
+* **Insert Zone in Project Bin**: When you have created a zone you can put the zone with this command into the project bin as a sub-clip of the original clip. This is useful when you have a long clip and you want only some parts of it. Shortcut :kbd:`Ctrl + I`. Another possibility is to use :ref:`markers_with_range`.
 
 ----
 

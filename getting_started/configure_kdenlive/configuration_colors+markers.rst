@@ -1,6 +1,6 @@
 .. meta::
-   :description: Kdenlive Documentation - Configuration Colors and Guides
-   :keywords: KDE, Kdenlive, documentation, user manual, configuration, preferences, colors, guides, video editor, open source, free, learn, easy
+   :description: Kdenlive Documentation - Configuration Colors and Markers
+   :keywords: KDE, Kdenlive, documentation, user manual, configuration, preferences, colors, timeline marker, video editor, open source, free, learn, easy
 
 
 .. metadata-placeholder
@@ -18,29 +18,27 @@
 
    :license: Creative Commons License SA 4.0
 
-.. .. versionadded:: 22.08
-   Monitor overlay color
+.. .. versionadded:: 22.08 Monitor overlay color
 
-.. .. versionchanged:: 22.12
-   Moved "Monitor background color" from tab Playback
+.. .. versionchanged:: 22.12 Moved "Monitor background color" from tab Playback
 
-.. .. versionadded:: 22.12
-   Guides and Markers Categories
+.. .. versionadded:: 22.12 Guides and Markers Categories
+
+.. .. versionchanged:: 25.12 Replace "Guide" wth "Marker"
 
 
-Colors and Guides
------------------
+Colors and Markers
+------------------
 
 This section is used to configure the colors used for audio thumbnails, the monitor overlay and background color, and the grid for certain effects.
 
-You can also add, edit, and delete the categories and colors used for :doc:`Guides</cutting_and_assembling/guides>` and :doc:`Markers</cutting_and_assembling/markers>`.
+You can also add, edit, and delete the categories and colors used for :doc:`Timeline Marker </cutting_and_assembling/guides>` and :doc:`Markers </cutting_and_assembling/markers>`.
 
-.. figure:: /images/getting_started/configure_colors+guides_2412.webp
+.. figure:: /images/getting_started/configure_colors+markers_2512.webp
    :width: 700px
    :figwidth: 700px
-   :alt: configure_colors+guides_2412
 
-   The Colors and Guides section
+   The Colors and Markers section
 
 :guilabel:`Audio thumbnail colors` Click on the color bar to change the color of the audio wave thumbnail. The color bar on the right controls the color of the second channel (see the section :doc:`Timeline</getting_started/configure_kdenlive/configuration_timeline>` :menuselection:`--> Thumbnails -->` :guilabel:`Separate audio channels`).
 
@@ -48,7 +46,7 @@ You can also add, edit, and delete the categories and colors used for :doc:`Guid
 
 :guilabel:`Monitor background color` Click on the color bar to change the color of the monitor background.
 
-:guilabel:`Guides and Markers Categories` This lists all the defined categories for :doc:`Guides</cutting_and_assembling/guides>` and :doc:`Markers</cutting_and_assembling/markers>`. From here you can add, edit, and delete categories.
+:guilabel:`Markers Categories` This lists all the defined categories for :doc:`Timeline Marker </cutting_and_assembling/guides>` and :doc:`Markers</cutting_and_assembling/markers>`. From here you can add, edit, and delete categories.
 
 Click on :guilabel:`Add category` to add a new category. Select a color and enter a name.
 

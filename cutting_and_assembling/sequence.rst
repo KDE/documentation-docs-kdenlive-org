@@ -109,7 +109,7 @@ It improves interoperability with other editing software and tools that rely on 
 .. figure:: /images/cutting_and_assembling-sequence_timocode_offset_guide-2508.webp
    :scale: 75%
 
-   Sequence timecode offset is shown in the timeline guides
+   Sequence timecode offset is shown in the timeline marker
 
 .. figure:: /images/cutting_and_assembling-sequence_timocode_offset_timeline_ruler-2508.webp
    :scale: 75%
