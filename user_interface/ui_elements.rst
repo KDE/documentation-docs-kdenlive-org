@@ -135,7 +135,7 @@ Elements
 
 .. _ui_elements-monitor_elements:
 
-.. figure:: /images/user_interface/kdenlive2304_ui-monitor_elements.webp
+.. figure:: /images/user_interface/ui-monitor_elements-2512.webp
    :width: 700px
    :figwidth: 700px
 
@@ -296,16 +296,16 @@ Project / Clip Monitor Icons
      - Monitor options menu
    * - |view-fullscreen|
      - Switch full screen
+   * - |select-rectangular|
+     - | Show Safe Areas. Where essentials (text, logos, main action) must stay to avoid being cut off by different screens or platform interfaces. Important for social media and older TVs.
+       | Title Safe (inner 80%) for text/graphics
+       | Action Safe (inner 90%) for important visuals
    * - |view-grid|
      - Change overlay. Click through the different available patterns.
-   * - |zoom-in|
-     - Zoom in
-   * - |zoom-out|
-     - Zoom out
-   * - |list-add|
-     - Add :term:`Timeline Maker (former Guide)`
-   * - |list-remove|
-     - Remove guide
+   * - |zoom|
+     - Fly out contains: |zoom-in| Zoom in, |zoom-out| Zoom out, |zoom-original| Zoom reset
+   * - |bookmark-new|
+     - Add/remove :term:`Markers`
    * - |transform-move-horizontal|
      - Move toolbar. Click through to move the toolbar from the right (default) to the left and back.
 
@@ -796,11 +796,15 @@ Status Bar Icons
    :width: 22px
    :class: no-scaled-link
 
-   .. |zone-in| image:: /images/icons/zone-in.svg
+      .. |zone-in| image:: /images/icons/zone-in.svg
    :width: 22px
    :class: no-scaled-link
 
    .. |zone-out| image:: /images/icons/zone-out.svg
+   :width: 22px
+   :class: no-scaled-link
+
+   .. |zoom| image:: /images/icons/zoom.svg
    :width: 22px
    :class: no-scaled-link
 
