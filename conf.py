@@ -145,7 +145,7 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
-.. |discreet| image:: /images/icons/discrete.svg
+.. |discrete| image:: /images/icons/discrete.svg
    :width: 22px
    :class: no-scaled-link
 
@@ -674,6 +674,10 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |zone-out| image:: /images/icons/zone-out.svg
+   :width: 22px
+   :class: no-scaled-link
+
+.. |zoom| image:: /images/icons/zoom.svg
    :width: 22px
    :class: no-scaled-link
 
