@@ -80,7 +80,7 @@ A widget can also be moved to a new panel, to its own (new) column or row, or un
    :align: left
    :scale: 77%
    
-   Make sure Show Title Bar is enabled
+   Make sure Show Title Bars is enabled
 
 .. rst-class:: clear-both
 
@@ -94,6 +94,19 @@ This shows you the title bar of each widgets when un-docked
 
 .. rst-class:: clear-both
 
+On the title bar are 3 icons
+
+.. figure::  /images/user_interface/view-title_bar_icons-2512.webp
+   :align: left
+   :scale: 77%
+   
+.. rst-class:: clear-both
+
+* :ref:`Auto-hide <ui-auto_hide>`. Let's you save space by hiding window until needed. 
+
+* Undock window. The window get undocked and ready for moving.
+
+* Close. The window get closed and can be re-opened in :menuselection:`Menu --> view`
 
 In the example below the :ref:`Clip <ui-monitors_clip_monitor>` and :ref:`Project Monitor <ui-monitors_project_monitor>` widgets are being undocked and turned into floating windows:
 
@@ -113,12 +126,26 @@ The Kdenlive layout reacts to your dragging of the widget and you need to pay cl
 
 :1: Panel docking indicator. Docking inside the panel: top, right, bottom, left or center. In this example it would be placed to the left side showed by the blue indicator. 
 
-:2: Edge docking indicator. Docking outside of a panel: top, right, bottom, left
+:2: Edge docking indicator. Docking outside of a panel: top, right, bottom, left. Here a window can be :ref:`auto-hided <ui-auto_hide>`
 
 :3: Blue indicator where the widget would land if you release it
 
 .. tip:: When trying to move a floating window to a new position Kdenlive may think you want to move it to a panel or create a new row or column. It is recommended to use the standard size handles of the window manager to adjust the top left and bottom right corners accordingly.
 
+
+.. _ui-auto_hide:
+
+Auto-hide
+~~~~~~~~~
+
+.. figure:: /images/user_interface/ui-auto_hide-2512.gif
+
+   Space Saving: Displays more content by hiding panels until needed.
+
+Click the pin icon (first icon in the title bar) to enable the auto-hide feature which lets you pin dockable window (widgets) to the edges (top, right, bottom, left; See point 2 above) of the main window, making them disappear into a sidebar and reappear as overlays when clicked. 
+
+Restoring: Click the pin icon again (now on the overlay) to restore it to its original docked position. 
+   
 
 .. _ui-resizing_widgets:
 
