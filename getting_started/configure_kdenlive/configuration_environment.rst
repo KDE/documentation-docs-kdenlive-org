@@ -38,25 +38,22 @@
 Environment
 -----------
 
-.. .. versionadded:: 22.08
-   Use lower CPU priority for proxy and transcode tasks
+.. .. versionadded:: 22.08 Use lower CPU priority for proxy and transcode tasks
 
-.. .. versionadded:: 22.12
-   Warn if cache data exceeds
+.. .. versionadded:: 22.12 Warn if cache data exceeds
 
-.. .. versionadded:: 24.02
-   Check for Updates
+.. .. versionadded:: 24.02 Check for Updates
 
-.. .. versionremoved:: 25.04
-   Python tab
+.. .. versionremoved:: 25.04 Python tab
 
-.. .. versionadded:: 25.08
-   Prevent sleep when playing and rendering
+.. .. versionadded:: 25.08 Prevent sleep when playing and rendering
+
+.. .. versionadded:: 25.12 Show welcome screen at startup
 
 
 This section defines some of the most important settings for Kdenlive.
 
-.. figure:: /images/getting_started/configure_environment_2508.webp
+.. figure:: /images/getting_started/configure_environment_2512.webp
    :width: 700px
    :figwidth: 700px
    
@@ -68,11 +65,13 @@ This section defines some of the most important settings for Kdenlive.
 
 :3: :guilabel:`Warn if cached data exceeds`. Add a maximal cache size that Kdenlive checks every two weeks. Kdenlive issues a warning message if the total cached data size exceeds this limit. If you need to purge the cache, use the :doc:`/tips_and_tricks/useful_info/manage_cached_data` feature.
 
-:4: :guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up window with a reminder if your version is older than six (6) months.
+:4: :guilabel:`Show welcome screen at startup`. If checked, Kdenlive will show the :ref:`welcome screen <welcome_and_splash_screen>` on which you can select a project. When unchecked, Kdenlive will show the :ref:`splash screen <welcome_and_splash_screen>`. 
 
-:5: :guilabel:`Prevent sleep when playing and rendering`. If checked, Kdenlive disables the system's power management to avoid sleep mode and screen locking during playback and rendering.
+:5: :guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up window with a reminder if your version is older than six (6) months.
 
-:6: Tabs for the different environment settings.
+:6: :guilabel:`Prevent sleep when playing and rendering`. If checked, Kdenlive disables the system's power management to avoid sleep mode and screen locking during playback and rendering.
+
+:7: Tabs for the different environment settings.
 
 
 .. _configure_environment_mlt:

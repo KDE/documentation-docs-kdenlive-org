@@ -18,6 +18,51 @@ User Interface
 
 This section introduces the Kdenlive user interface (UI), explains the various :ref:`elements <ui_elements>`, :ref:`icons <ui_elements-icons>` and :ref:`buttons <ui_elements-icons>`, the :ref:`menu options <menu>`, the default :ref:`keyboard shortcuts <ui-keyboard_shortcuts>` that can speed up your editing work, and how you can :ref:`customize the layout <ui-workspace_layouts>` to fit your specific post-production workflow.
 
+
+.. _welcome_and_splash_screen:
+
+Welcome and Splash Screen
+-------------------------
+
+When starting Kdenlive a welcome screen appears on which you can: 
+
+.. figure:: /images/user_interface/ui-welcome_screen_2512.webp
+   :scale: 60%
+   
+   Kdenlive's default welcome screen
+
+:1: Cancel the start of Kdenlive
+
+:2: Opens the :ref:`Open <file_open>` dialog after start
+
+:3: Clears the history list of recent projects 
+
+:4: Opens a recent project directly. The same list as in :ref:`open recent <file_open_recent>`. 
+
+:5: Opens the :ref:`New <file_new>` dialog after start
+
+:6: Clears the history list of recent profiles
+
+:7: Opens a new project with the setup of a recent profile 
+
+:8: If un-checked, Kdenlive will show the splash screen on startup instead. You can enable the :doc:`Welcome Screen in the environment settings </getting_started/configure_kdenlive/configuration_environment>` 
+
+:9: Shows the Kdenlive version
+
+If a project is opened from command line or file browser, instead of the welcome screen the splash screen is showing up.
+
+.. figure:: /images/user_interface/ui-splash_screen_2512.webp
+   :scale: 77%
+
+   Kdenlive's splash screen when the welcome screen is disabled or a project is opened from command line or file browser
+
+
+.. _user_interface-after_start:
+
+User Interface after Kdenlive has Started
+-----------------------------------------
+
+
 After starting Kdenlive the window should look similar to the image below. Kdenlive's user interface (UI) is consistent across all platforms, so it doesn't matter whether your operating system is Linux, Windows or MacOS. Of course, icons and text look different.
 
 The UI is separated into four main parts:
@@ -32,8 +77,7 @@ The UI is separated into four main parts:
 
 .. figure:: /images/user_interface/kdenlive2304_ui-screen_layout.webp
    :width: 650px
-   :alt: kdenlive2304_ui-screen_layout
-
+   
    Kdenlive's default screen layout (example uses the Editing view): Menu Bar (blue), Toolbars (yellow), Workspace (green) and Status Bar (red).
 
 ..
@@ -44,8 +88,7 @@ The Workspace model follows the video editing workflow and can be adapted to you
 
 .. figure::  /images/user_interface/kdenlive2304_ui-workspaces.webp
    :width: 650px
-   :alt: kdenlive2304_ui-workspaces
-
+   
    Kdenlive's default workspaces (example uses the Editing view)
 
 
