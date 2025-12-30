@@ -7,7 +7,12 @@
 
    :license: Creative Commons License SA 4.0
 
-   
+
+.. |donate| raw:: html
+
+   <a href="https://kdenlive.org/fund/" target="_blank">donate</a>
+
+
 .. _help_menu:
 
 Help Menu
@@ -81,7 +86,7 @@ This function allows you to report a bug directly into the Kdenlive Bugzilla bug
 Donate
 ------
 
-This function allows you to donate. It points you to https://kde.org/donate/?app=kdenlive where the donation get collected for Kdenlive.
+This function allows you to donate. It points you to the Kdenlive |donate| page where the donation get collected for Kdenlive (https://kdenlive.org/fund/).
 
 
 .. _help-about_kdenlive:
