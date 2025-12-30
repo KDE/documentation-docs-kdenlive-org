@@ -151,7 +151,7 @@ A different menu appears if you click in empty space in the timeline.
 * :menuselection:`Remove Space in All Tracks` will remove space between clips on all the tracks.
 
 
-* :menuselection:`Add/Remove Timeline Marker` will add a timeline marker to the timeline.
+* :menuselection:`Add/Remove Timeline Marker` will add a timeline marker to the timeline or remove an existing one at the playhead's position.
 
 
 * :menuselection:`Edit Guide` will allow you to edit the timeline marker label.

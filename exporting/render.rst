@@ -395,7 +395,7 @@ Generating Rendering Scripts
    :align: left
    :width: 160px
 
-Choose which timeline markers will establish the regions of video you want to export using the pull down menus next to :guilabel:`From` and :guilabel:`to`. In this example *Section 1* to *Section 1 End* will be used to define the section to be rendered.
+Choose which timeline markers will establish the regions of the video you want to export using the pull down menus next to :guilabel:`From` and :guilabel:`to`. In this example *Section 1* to *Section 1 End* will be used to define the section to be rendered.
 
 .. container:: clear-both
 

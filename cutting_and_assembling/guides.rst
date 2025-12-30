@@ -1,5 +1,5 @@
 .. meta::
-   :description: Set timeline marker in Kdenlive video editor
+   :description: Set timeline markers
    :keywords: KDE, Kdenlive, set timeline marker, DVD, youtube, editing, timeline, documentation, user manual, video editor, open source, free, learn, easy
 
 
@@ -21,8 +21,8 @@
 
 .. _guides:
 
-Timeline Marker
-===============
+Timeline Markers
+================
 
 
 
@@ -39,7 +39,7 @@ Timeline markers can also be used as chapters for DVD videos. See :ref:`renderin
 
 .. _add_guides:
 
-3 ways to add timeline markers
+3 Ways to add Timeline Markers
 ------------------------------
 
 Following procedures add a timeline marker at the timeline playhead position:
@@ -108,7 +108,7 @@ Timeline ruler right click menu
 
 .. _timeline_marker_with_range:
 
-Timeline Marker with range
+Timeline Marker With Range
 --------------------------
 
 .. figure:: /images/cutting_and_assembling/cutting_and_assembling-markers_with_range-2512.webp
@@ -181,13 +181,13 @@ Markers View
 
 :7: Add a marker. Only here you have the possibility to add multiple markers with an interval.
 
-:8: Edit a selected marker. The same as double-clicking a marker under point 4, or timeline marker in the :ref:`timeline ruler<timeline_ruler>`.
+:8: Edit a selected marker. The same as double-clicking a marker under point 4, or timeline markers in the :ref:`timeline ruler<timeline_ruler>`.
 
 :9: Delete the selected marker(s).
 
 :10: Set the default category for new markers.
 
-:11: Timeline Marker only: :ref:`Locks Timeline Markers <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
+:11: Timeline Markers only: :ref:`Locks Timeline Markers <move_edit_guides>`. Locked when the background is light gray (as shown on the screenshot).
 
 :12: Refresh all thumbnails when thumbnails are enabled
 
@@ -206,7 +206,7 @@ Export Timeline Markers as Chapters Description
 
 .. .. versionchanged:: 22.12
 
-Timeline markers can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the timeline marker can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
+Timeline markers can mark chapters or different sections of a video while editing. Uploading edited videos to platforms like YouTube, the timeline markers can be exported as chapter marks that are supported by YouTube. This can be done by :guilabel:`Copy to Clipboard` and paste then into YouTube.
 
 Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :guilabel:`Export Markers` or :menuselection:`Markers --> Export Markers`. Then the window `Export markers as chapters description` appears.
 
@@ -222,7 +222,7 @@ Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :guilabel:`
 
 :guilabel:`i`: Shows all possible export strings. Select the string you want and Kdenlive adds it to the :guilabel:`Format` for export. Add spaces between the strings as needed. 
 
-{{timecode}} adds timeline marker position in HH:MM.SS (default)
+{{timecode}} adds timeline marker position at HH:MM.SS (default)
 
 {{comment}} adds the timeline marker text (default)
 
@@ -230,9 +230,9 @@ Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :guilabel:`
 
 {{index}} adds timeline marker number
 
-{{nexttimecode}} adds next timeline marker position in HH:MM.SS
+{{nexttimecode}} adds next timeline marker position at HH:MM.SS
 
-{{realtimecode}} adds timeline marker position in HH:MM:SS:FF
+{{realtimecode}} adds timeline marker position at HH:MM:SS:FF
 
 :guilabel:`Reset`: Resets the settings to the default: {{timecode}} {{comment}}
 
@@ -245,7 +245,7 @@ The warning in the blue box only show up if one of the 3 points are not fulfille
 
 .. _move_edit_guides:
 
-Move and edit timeline markers
+Move and Edit Timeline Markers
 ------------------------------
 
 Timeline markers can be moved by clicking on a timeline marker text in the timeline and dragging it to the desired position.
@@ -260,7 +260,7 @@ Double-click on a timeline marker text in the timeline ruler opens the edit wind
 :guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit window.
 
 
-Move timeline markers with Spacer Tool
+Move Timeline Markers with Spacer Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. .. versionadded:: 21.08.0

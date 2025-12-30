@@ -57,14 +57,14 @@ Following procedures add a marker at the playhead position (clip monitor, timeli
   * not possible
 
 
-.. .. versionchanged:: Extend Marker System with Range/Duration Support
+.. .. versionchanged:: 25.12 Extend Marker System with Range/Duration Support
 
 .. _markers_with_range:
 
-Markers with range
+Markers With Range
 ------------------
 
-Following two procedures generates markers with range:
+The following two procedures generate markers with range:
 
 .. figure:: /images/cutting_and_assembling/cutting_and_assembling-markers_with_range-2512.webp
    :align: left
@@ -74,7 +74,7 @@ In the Edit Marker window you can enable :guilabel:`Range Marker` which allows y
 
 .. rst-class:: clear-both
 
-You can create from a clip zone a marker with range. 
+You can create a marker with range from a clip zone. 
 
 .. figure:: /images/cutting_and_assembling/cutting_and_assembling-markers_from_zone-2512.webp
    :align: left
@@ -88,9 +88,9 @@ You can create from a clip zone a marker with range.
 
 Define a zone in the clip monitor with :kbd:`I` and :kbd:`O`. Then you can:
 
-* right click on the zone and choose :guilabel:`Create Maker from Zone`. This opens above window and you can adjust all settings. 
+* Right click on the zone and choose :guilabel:`Create Maker from Zone`. This opens a window (see above) and you can adjust all settings. 
 
-* right click on the zone and choose :guilabel:`Create Marker from Zon Quickly`. This creates a marker with the text :guilabel:`Zone Marker` in the category which is active.
+* Right click on the zone and choose :guilabel:`Create Marker from Zone Quickly`. This creates a marker with the text :guilabel:`Zone Marker` in the category which is active.
 
 Now the advantage is, that you can select this zone marker in the markers windows and drag it to the timeline. In this way you can mark interesting parts of a clip with zone marker instead of :ref:`Insert Zone in Project Bin <insert_zone_in_project_bin>` and creating sub clips. 
 
@@ -119,12 +119,12 @@ Once markers are put in your clip, you can access them in the :ref:`ui-monitors_
 Markers View
 ~~~~~~~~~~~~
 
-Markers using the same window as :ref:`timeline marker <guide_view>`. Yellow marking show the differences compare to the guide view. 
+Markers are using the same window as :ref:`timeline marker <guide_view>`. Yellow markings show the differences compared to the guide view. 
 
 
 .. figure:: /images/Kdenlive_guides_view_markers.png
  
-:menuselection:`View --> Markers` opens the markers window were you can managing your markers.
+:menuselection:`View --> Markers` opens the markers window were you can manage your markers.
 
 To show clip markers in this view you have to:
 
@@ -160,7 +160,7 @@ Move and edit markers
    :align: left
    :scale: 77%
 
-Double-click on a marker **text** in the timeline opens the edit window (beside the possibility in :ref:`markers view <guide_view>`)
+A double-click on a marker **text** in the timeline opens the edit window (besides the possibility in :ref:`markers view <guide_view>`)
 
 .. rst-class:: clear-both
 

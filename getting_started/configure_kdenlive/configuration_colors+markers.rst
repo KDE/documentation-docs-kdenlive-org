@@ -24,7 +24,7 @@
 
 .. .. versionadded:: 22.12 Guides and Markers Categories
 
-.. .. versionchanged:: 25.12 Replace "Guide" wth "Marker"
+.. .. versionchanged:: 25.12 Replace "Guide" with "Marker"
 
 
 Colors and Markers
