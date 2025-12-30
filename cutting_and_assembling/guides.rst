@@ -106,6 +106,8 @@ Timeline ruler right click menu
 
 .. .. versionchanged:: Extend Marker System with Range/Duration Support
 
+.. _timeline_marker_with_range:
+
 Timeline Marker with range
 --------------------------
 
