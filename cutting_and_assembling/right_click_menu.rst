@@ -157,7 +157,7 @@ A different menu appears if you click in empty space in the timeline.
 * :menuselection:`Edit Guide` will allow you to edit the timeline marker label.
 
 
-* :menuselection:`Go to TimeLine Marker` will pop-up a sub-menu with a list of your timeline markers and will move the timeline position marker to that guide.
+* :menuselection:`Go to TimeLine Marker` will pop up a sub-menu with a list of your timeline markers and will move the timeline position marker to that guide.
 
 
 * :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition.

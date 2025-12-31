@@ -9,7 +9,7 @@
 
    :license: Creative Commons License SA 4.0
 
-.. .. versionchanged:: 25.12 Reorder menu structure to make it clearer, Extend Marker System with Range/Duration Support
+.. .. versionchanged:: 25.12 Reorder menu structure to make it clearer, extend marker system with range/duration support
 
 
 .. _markers:
@@ -153,7 +153,7 @@ More details see :ref:`export_guides`
 
 .. _move_edit_marker:
 
-Move and edit markers
+Move and Edit Markers
 ---------------------
 
 .. figure:: /images/cutting_and_assembling/cutting_and_assembling-markers_with_range-2512.webp

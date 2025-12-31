@@ -72,7 +72,7 @@ What's New
    * Added 10-bit pipeline support for :ref:`effects <effects-effects_tab>` and :ref:`composition <compositions-effects_tab>` and :ref:`rendering <rendering_preset_categories>`
    * Moved controls and settings to hamburger menus in :ref:`color scopes <view-audio_spectrum>`
    * Added clipping indicator in :ref:`audio mixer <audio_mixer>`
-   * Moved timeline audio waveform zoom control from A1 track header to :ref:`status bar <status_bar>`
+   * Moved timeline audio waveform zoom control from audio track header to :ref:`status bar <status_bar>`
    * Added button to hide clip overlays (clip name, effect names, ...) in the :ref:`timeline <status_bar>`
    * Added placeholder explaining how to import media in :doc:`project bin </project_and_asset_management/project_bin>`
    * Replaced "Guide" with "Marker" and/or :ref:`"timeline marker" <guides>`
@@ -80,8 +80,8 @@ What's New
    * Reordered menu structure to make it :ref:`clearer <menu>`
    * Revamped audio view in :ref:`clip monitor <ui-monitors_clip_monitor>`
    * Introduced KDDockWidgets library for :ref:`improved window docking <ui-moving_widgets>`
-   * Added safe-area button, vertical safe-area layout and zoom-reset in :ref:`monitor toolbar <ui_elements-monitor_elements>`
-   * Added :ref:`welcome screen <welcome_and_splash_screen>`
+   * Added safe-area button, vertical safe-area layout, and zoom-reset in :ref:`monitor toolbar <ui_elements-monitor_elements>`
+   * Added a :ref:`welcome screen <welcome_and_splash_screen>`
 
 
 .. versionadded:: 25.08 (see 25.08_ release notes)

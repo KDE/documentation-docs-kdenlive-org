@@ -86,7 +86,7 @@ This function allows you to report a bug directly into the Kdenlive Bugzilla bug
 Donate
 ------
 
-This function allows you to donate. It points you to the Kdenlive |donate| page where the donation get collected for Kdenlive (https://kdenlive.org/fund/).
+This function allows you to donate. It points you to the Kdenlive |donate| page where the donations get collected for Kdenlive (https://kdenlive.org/fund/).
 
 
 .. _help-about_kdenlive:

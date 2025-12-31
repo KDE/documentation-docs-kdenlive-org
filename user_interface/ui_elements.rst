@@ -303,7 +303,7 @@ Project / Clip Monitor Icons
    * - |view-grid|
      - Change overlay. Click through the different available patterns.
    * - |zoom|
-     - Fly out contains: |zoom-in| Zoom in, |zoom-out| Zoom out, |zoom-original| Zoom reset
+     - Fly-out contains: |zoom-in| Zoom in, |zoom-out| Zoom out, |zoom-original| Zoom reset
    * - |bookmark-new|
      - Add/remove :term:`Markers`
    * - |transform-move-horizontal|
