@@ -102,7 +102,7 @@ This menu item opens a flyout with actions for jumping to dedicated points in th
    :align: left
    :scale: 77%
    
-   Got To Menu
+   Go To Menu
 
 .. rst-class:: clear-both
 
