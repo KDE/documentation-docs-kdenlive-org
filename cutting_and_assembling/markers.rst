@@ -64,7 +64,7 @@ Following procedures add a marker at the playhead position (clip monitor, timeli
 Markers With Range
 ------------------
 
-The following two procedures generate markers with range:
+The following two procedures generate markers with a range:
 
 .. figure:: /images/cutting_and_assembling/cutting_and_assembling-markers_with_range-2512.webp
    :align: left
@@ -90,7 +90,7 @@ Define a zone in the clip monitor with :kbd:`I` and :kbd:`O`. Then you can:
 
 * Right click on the zone and choose :guilabel:`Create Maker from Zone`. This opens a window (see above) and you can adjust all settings. 
 
-* Right click on the zone and choose :guilabel:`Create Marker from Zone Quickly`. This creates a marker with the text :guilabel:`Zone Marker` in the category which is active.
+* Right click on the zone and choose :guilabel:`Create Marker from Zone Quickly`. This creates a marker with the text :guilabel:`Zone Marker` in the currently active category.
 
 Now the advantage is, that you can select this zone marker in the markers windows and drag it to the timeline. In this way you can mark interesting parts of a clip with zone marker instead of :ref:`Insert Zone in Project Bin <insert_zone_in_project_bin>` and creating sub clips. 
 

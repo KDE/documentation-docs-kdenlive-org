@@ -260,7 +260,7 @@ Double-click on a timeline marker text in the timeline ruler opens the edit wind
 :guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit window.
 
 
-Move Timeline Markers with Spacer Tool
+Move Timeline Markers With Spacer Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. .. versionadded:: 21.08.0
