@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-01 01:54+0000\n"
 "PO-Revision-Date: 2022-05-15 20:08+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -107,8 +107,10 @@ msgstr "**Ulepszony wygląd osi czasu**"
 msgid ""
 "**Timeline**. This is the area where you drop your clips to the various "
 "tracks. It shows the clips with or without thumbnails, with or without the "
-"audio frequency curve, transitions and compositions, as well as the markers, "
-"guides and keyframes (if any)."
+"audio frequency curve, with or without clip names and other info, "
+"transitions and compositions, as well as the markers, timeline markers and "
+"keyframes (if any). All this can be toggled in the :ref:`status bar "
+"<status_bar>`."
 msgstr ""
 
 #: ../../user_interface/timeline.rst:43
@@ -198,10 +200,15 @@ msgid "Timeline visuals"
 msgstr "**Ulepszony wygląd osi czasu**"
 
 #: ../../user_interface/timeline.rst:88
+#, fuzzy
+#| msgid ""
+#| "The timeline got a visual overhaul with more and better looking guides/"
+#| "marker colors, the guides have been moved above the timeline ruler while "
+#| "preview and zone bars have been moved below."
 msgid ""
-"The timeline got a visual overhaul with more and better looking guides/"
-"marker colors, the guides have been moved above the timeline ruler while "
-"preview and zone bars have been moved below."
+"The timeline got a visual overhaul with more and better looking timeline "
+"marker/marker colors, the timeline marker have been moved above the timeline "
+"ruler while preview and zone bars have been moved below."
 msgstr ""
 "Oś czasu została przebudowana, co dało lepiej wyglądające barwy prowadnic/"
 "znaczników, prowadnice zostały przeniesione ponad linijkę osi czasu, "
@@ -299,7 +306,7 @@ msgstr "Sterowanie z klawiatury"
 msgid ""
 "You now have the possibility to move clips and compositions with your "
 "keyboard. To do it, select a clip in the timeline and use the :guilabel:"
-"`Grab Current Item` function from the :menuselection:`Menu --> Timeline` "
+"`Grab Current Item` function from the :menuselection:`Menu --> Sequence` "
 "menu or use the default shortcut of :kbd:`Shift+G`."
 msgstr ""
 "Teraz masz możliwość przemieszczania wycinków i złożeń przy użyciu swojej "
@@ -430,7 +437,7 @@ msgid ""
 msgstr ""
 
 #: ../../user_interface/timeline.rst:227
-msgid ":ref:`Manipulate guides <guides>`"
+msgid ":ref:`Manipulate timeline markers <guides>`"
 msgstr ""
 
 #: ../../user_interface/timeline.rst:228
@@ -542,29 +549,29 @@ msgstr ""
 msgid "Track Header"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:276
+#: ../../user_interface/timeline.rst:277
 msgid "This area shows some options for a track:"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:286
+#: ../../user_interface/timeline.rst:287
 msgid ""
 "|go-down| Expand/collapse the track. :kbd:`Shift+LMB` to expand/collapse all "
 "tracks of the same type."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:288
+#: ../../user_interface/timeline.rst:289
 msgid "Track name. Click on it to enter or change the name of the track."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:290
+#: ../../user_interface/timeline.rst:291
 msgid "Track type and track number"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:292
+#: ../../user_interface/timeline.rst:293
 msgid "Track control icons. Use them to:"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:294
+#: ../../user_interface/timeline.rst:295
 #, fuzzy
 #| msgid ""
 #| ":menuselection:`Lock the track` |kdenlive-lock| which will prevent adding "
@@ -576,14 +583,14 @@ msgstr ""
 ":menuselection:`Zablokuj ścieżkę` |kdenlive-lock| co zapobiegnie dodawaniu, "
 "usuwaniu lub przesuwaniu wycinków na osi czasu;"
 
-#: ../../user_interface/timeline.rst:295
+#: ../../user_interface/timeline.rst:296
 #, fuzzy
 #| msgid ":menuselection:`Mute the track` |kdenlive-hide-audio|"
 msgid ""
 "Mute the track |kdenlive-hide-audio| (audio tracks only) :kbd:`Ctrl+Shift+H`"
 msgstr ":menuselection:`Wycisz ścieżkę` |kdenlive-hide-audio|"
 
-#: ../../user_interface/timeline.rst:296
+#: ../../user_interface/timeline.rst:297
 #, fuzzy
 #| msgid ""
 #| ":menuselection:`Hide video` |kdenlive-hide-video| from this track; and,"
@@ -592,7 +599,7 @@ msgid ""
 msgstr ""
 ":menuselection:`Ukryj obraz` |kdenlive-hide-video| z tej ścieżki; oraz,"
 
-#: ../../user_interface/timeline.rst:297
+#: ../../user_interface/timeline.rst:298
 #, fuzzy
 #| msgid ""
 #| ":menuselection:`Enable/Disable track effects` |tools-wizard| allows you "
@@ -604,55 +611,49 @@ msgstr ""
 ":menuselection:`Włącz/Wyłącz efekty ścieżki` |tools-wizard| umożliwia "
 "włączenie lub wyłączenie efektów nałożonych na ścieżce."
 
-#: ../../user_interface/timeline.rst:299
-msgid ""
-"Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all "
-"displayed waveforms and all audio tracks."
-msgstr ""
-
-#: ../../user_interface/timeline.rst:301
+#: ../../user_interface/timeline.rst:300
 msgid ":kbd:`arrow up/down` goes to the next track"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:308
+#: ../../user_interface/timeline.rst:307
 #, fuzzy
 #| msgid "Resizing tracks"
 msgid "Adding Tracks"
 msgstr "Zmieniam rozmiar ścieżek"
 
-#: ../../user_interface/timeline.rst:310
+#: ../../user_interface/timeline.rst:309
 msgid ""
 "In order to add a track, right-click anywhere in the track header area. In "
 "the **Add Track** dialog window specify what type of track, where and how "
 "many you want to insert."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:318
+#: ../../user_interface/timeline.rst:317
 msgid ""
 "You can specify the number of tracks for a new project in :menuselection:"
 "`Menu --> Settings --> Configure Kdenlive` in the :doc:`Project Defaults</"
 "getting_started/configure_kdenlive/configuration_project_defaults>` tab."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:325
+#: ../../user_interface/timeline.rst:324
 #, fuzzy
 #| msgid "Resizing tracks"
 msgid "Deleting Tracks"
 msgstr "Zmieniam rozmiar ścieżek"
 
-#: ../../user_interface/timeline.rst:327
+#: ../../user_interface/timeline.rst:326
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the **Delete Track** dialog window select the tracks you want to delete."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:334
+#: ../../user_interface/timeline.rst:333
 #, fuzzy
 #| msgid "Resizing tracks"
 msgid "Resizing Tracks"
 msgstr "Zmieniam rozmiar ścieżek"
 
-#: ../../user_interface/timeline.rst:338
+#: ../../user_interface/timeline.rst:337
 #, fuzzy
 #| msgid ""
 #| "Tracks can be individually resized. (Holding down :kbd:`Shift` makes all "
@@ -664,85 +665,85 @@ msgstr ""
 "Ścieżkom można zmieniać rozmiar osobno. (Przytrzymanie :kbd:`Shift` sprawi, "
 "że wszystkie ścieżki obrazu i dźwięku zmienią swoja wysokość równocześnie.)"
 
-#: ../../user_interface/timeline.rst:346
+#: ../../user_interface/timeline.rst:345
 msgid "Fit Tracks to view height"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:350
+#: ../../user_interface/timeline.rst:349
 msgid ""
 "All tracks height can be adjusted following the height of the timeline view."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:358
+#: ../../user_interface/timeline.rst:357
 msgid "Reset track to default height"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:362
+#: ../../user_interface/timeline.rst:361
 msgid ""
 ":kbd:`Shift+double-click` on the track divider resets the track back to its "
 "default height."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:372
+#: ../../user_interface/timeline.rst:371
 msgid "Switching between mixed or split audio"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:374
+#: ../../user_interface/timeline.rst:373
 msgid "Switch live between two different layout modes (Mixed or Split)."
 msgstr "Przełącz na żywo pomiędzy dwoma układami (mieszane lub oddzielone)."
 
-#: ../../user_interface/timeline.rst:381
+#: ../../user_interface/timeline.rst:380
 #, fuzzy
 #| msgid "Configurable thumbnails for each track"
 msgid "Configurable Tracks"
 msgstr "Dostosowywalne miniatury dla każdej ścieżki"
 
-#: ../../user_interface/timeline.rst:390
+#: ../../user_interface/timeline.rst:389
 msgid "**Video track** - You can choose to display either"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:392
+#: ../../user_interface/timeline.rst:391
 msgid ":guilabel:`In Frame`"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:394
+#: ../../user_interface/timeline.rst:393
 msgid ":guilabel:`In/Out Frames`"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:396
+#: ../../user_interface/timeline.rst:395
 msgid ":guilabel:`All Frames` or"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:398
+#: ../../user_interface/timeline.rst:397
 msgid ":guilabel:`No Thumbnails`"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:405
+#: ../../user_interface/timeline.rst:404
 msgid "**Audio track** - You can enable:"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:407
+#: ../../user_interface/timeline.rst:406
 msgid ""
 ":guilabel:`Show Record Controls` to record audio direct into the track. More "
 "details see :ref:`audio-recording`."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:409
+#: ../../user_interface/timeline.rst:408
 msgid ""
 ":guilabel:`Separate Channels` to see each channel of an audio track (i.e "
 "stereo, 5.1)"
 msgstr ""
 
-#: ../../user_interface/timeline.rst:411
+#: ../../user_interface/timeline.rst:410
 msgid ""
 ":guilabel:`Normalize Audio Thumbnails` maximize the audio level peak to -3dB."
 msgstr ""
 
-#: ../../user_interface/timeline.rst:420
+#: ../../user_interface/timeline.rst:419
 msgid "Continuously loop playback"
 msgstr "Ciągłe odtwarzanie w pętli"
 
-#: ../../user_interface/timeline.rst:422
+#: ../../user_interface/timeline.rst:421
 #, fuzzy
 #| msgid ""
 #| "Disable :guilabel:`Pause playback when seeking` in :ref:"
@@ -757,11 +758,11 @@ msgstr ""
 "ustawieniach  :ref:`configure_timeline` (:menuselection:`Ustawienia --> "
 "Ustawienia Kdenlive --> Oś czasu`)."
 
-#: ../../user_interface/timeline.rst:423
+#: ../../user_interface/timeline.rst:422
 msgid "Make a timeline zone the length you like to loop."
 msgstr "Stwórz obszar na osi czasu o takiej długości, którą chcesz zapętlić."
 
-#: ../../user_interface/timeline.rst:424
+#: ../../user_interface/timeline.rst:423
 #, fuzzy
 #| msgid "Loop Zone (:kbd:`Ctrl + Shift + Space`)"
 msgid "Loop Zone (:kbd:`Ctrl+Shift+Space`)"

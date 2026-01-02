@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-01 01:54+0000\n"
 "PO-Revision-Date: 2025-08-03 08:50+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -152,16 +152,24 @@ msgstr ""
 "seznamom predlog sestav iz trgovine KDE Store"
 
 #: ../../compositing/compositions.rst:49
+#, fuzzy
+#| msgid ""
+#| "|view-filter|\\ :guilabel:`Only show reviewed assets` toggles between the "
+#| "compositions which are reviewed and tested by the Kdenlive team and not "
+#| "tested compositions (still in test phase)"
 msgid ""
 "|view-filter|\\ :guilabel:`Only show reviewed assets` toggles between the "
 "compositions which are reviewed and tested by the Kdenlive team and not "
-"tested compositions (still in test phase)"
+"tested compositions (still in test phase) :guilabel:`Show 10 bit compatible "
+"only` it hides assets not compatible with a 10-bit pipeline. Use the :"
+"guilabel:`10 Bit` category or the :guilabel:`NVENC H265 ABR 10 bit` codec "
+"for :ref:`rendering <rendering_preset_categories>`."
 msgstr ""
 "|view-filter|\\ :guilabel:`Prikaži samo pregledana sredstva` preklaplja med "
 "sestavami, ki jih pregleda in preizkuša ekipa Kdenlive, in nepreizkušenimi "
 "sestavami (še vedno v poskusni fazi)"
 
-#: ../../compositing/compositions.rst:51
+#: ../../compositing/compositions.rst:52
 msgid ""
 "|help-about|\\ :guilabel:`Show/hide description of effects` toggles the "
 "information display below the compositions list where a short description of "
@@ -173,11 +181,11 @@ msgstr ""
 "sestava počne, ko je vklopljena. S klikom na modro besedilo sestave se odpre "
 "spletna dokumentacija v ta namen."
 
-#: ../../compositing/compositions.rst:57
+#: ../../compositing/compositions.rst:58
 msgid "How to Composite Two Clips"
 msgstr "Kako sestaviti skupaj dva posnetka"
 
-#: ../../compositing/compositions.rst:58
+#: ../../compositing/compositions.rst:59
 msgid ""
 "Alpha channels are taken into account automatically so that clips with alpha "
 "can be stacked on top of each other without the need of compositions. You "
@@ -189,7 +197,7 @@ msgstr ""
 "posnetkih z učinki iz kategorije :doc:`/effects_and_filters/video_effects/"
 "alpha_mask_keying`."
 
-#: ../../compositing/compositions.rst:61
+#: ../../compositing/compositions.rst:62
 msgid ""
 "Click on the grey dot in the lower left or right hand corner of the clip you "
 "want to composite with the one below. The default composition **Wipe** is "
@@ -202,7 +210,7 @@ msgstr ""
 "`prehod <transitions>`, zato morate :ref:`spremeniti vrsto sestave "
 "<compositing-composition_type>` v nekaj podobnega **Zlivanju Cairo**)."
 
-#: ../../compositing/compositions.rst:66
+#: ../../compositing/compositions.rst:67
 msgid ""
 "Using the left-hand grey dot creates a Wipe composition going from the lower "
 "track to the upper track; using the right-hand grey dot creates a Wipe "
@@ -212,7 +220,7 @@ msgstr ""
 "steze; z desno sivo piko ustvarite sestavo Zavesa od zgornje do spodnje "
 "steze."
 
-#: ../../compositing/compositions.rst:69
+#: ../../compositing/compositions.rst:70
 msgid ""
 "Right-click the clip you want to composite with the one below, select :"
 "guilabel:`Insert Composition`, and select :guilabel:`Composite and "
@@ -222,7 +230,7 @@ msgstr ""
 "izberite :guilabel:`Vstavi sestavo` in izberite :guilabel:`Sestavek in "
 "pretvorba` ali :guilabel:`Zavesa`."
 
-#: ../../compositing/compositions.rst:74
+#: ../../compositing/compositions.rst:75
 msgid ""
 "You can add compositions to your favorites by right-clicking on the "
 "composition in the Compositions widget and selecting :guilabel:`Add to "
@@ -233,7 +241,7 @@ msgstr ""
 "sestavo v pripomočku Sestave in izberete :guilabel:`Dodaj med priljubljene`. "
 "Vaše najljubše sestave se prikažejo kot možnosti, ko uporabljate to metodo."
 
-#: ../../compositing/compositions.rst:77
+#: ../../compositing/compositions.rst:78
 msgid ""
 "Drag a composition from the Compositions widget and drop it on the clip you "
 "want to composite with the one below. Adjust the start and end points by "
@@ -243,11 +251,11 @@ msgstr ""
 "želite združiti s spodnjim. Začetno in končno točko prilagodite tako, da "
 "povlečete levi in/ali desni rob vrstice sestave na časovnici."
 
-#: ../../compositing/compositions.rst:86
+#: ../../compositing/compositions.rst:87
 msgid "Composition Track"
 msgstr "Steza sestave"
 
-#: ../../compositing/compositions.rst:88
+#: ../../compositing/compositions.rst:89
 msgid ""
 "By default, Kdenlive uses the clip in the track immediately below for the "
 "compositing. In most cases, this is what you want. But you can instruct "
@@ -262,11 +270,11 @@ msgstr ""
 "`Stezo`. Kdenlive navaja vse možne steze za sestavo in vse so pod tisto, v "
 "kateri je posnetek s sestavo. Ni mogoče sestavljati navzgor."
 
-#: ../../compositing/compositions.rst:94
+#: ../../compositing/compositions.rst:95
 msgid "Composition Type"
 msgstr "Vrsta sestave"
 
-#: ../../compositing/compositions.rst:96
+#: ../../compositing/compositions.rst:97
 msgid ""
 "With method #1 and #2, Kdenlive by default creates a composition with a "
 "composition type **Wipe**, **Composite and Transform**, or whatever "
@@ -280,7 +288,7 @@ msgstr ""
 "<transitions>`, in **Sestavek in preoblikuj** morda ne bosta vedno potrebna "
 "zaradi bogastva dodatnih parametrov."
 
-#: ../../compositing/compositions.rst:98
+#: ../../compositing/compositions.rst:99
 msgid ""
 "You can change the composition type in the Effect/Composition Stack widget. "
 "Kdenlive uses the same space in the UI to display effects or compositions. "
@@ -290,11 +298,11 @@ msgstr ""
 "uporablja isti prostor v uporabniškem vmesniku za prikaz učinkov ali sestav. "
 "Oglejte si razdelek :doc:`/user_interface`."
 
-#: ../../compositing/compositions.rst:107
+#: ../../compositing/compositions.rst:108
 msgid "Composition type drop-down"
 msgstr "Spustni meni Vrsta sestave"
 
-#: ../../compositing/compositions.rst:109
+#: ../../compositing/compositions.rst:110
 msgid ""
 "In the top left corner of the :guilabel:`Composition Stack` is the drop-down "
 "list for the composition type. It lists both compositions, :doc:`blend modes "

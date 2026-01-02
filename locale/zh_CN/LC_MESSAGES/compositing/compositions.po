@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-01 01:54+0000\n"
 "PO-Revision-Date: 2024-08-21 19:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -135,15 +135,23 @@ msgstr ""
 "板。"
 
 #: ../../compositing/compositions.rst:49
+#, fuzzy
+#| msgid ""
+#| "|view-filter|\\ :guilabel:`Only show reviewed assets` toggles between the "
+#| "compositions which are reviewed and tested by the Kdenlive team and not "
+#| "tested compositions (still in test phase)"
 msgid ""
 "|view-filter|\\ :guilabel:`Only show reviewed assets` toggles between the "
 "compositions which are reviewed and tested by the Kdenlive team and not "
-"tested compositions (still in test phase)"
+"tested compositions (still in test phase) :guilabel:`Show 10 bit compatible "
+"only` it hides assets not compatible with a 10-bit pipeline. Use the :"
+"guilabel:`10 Bit` category or the :guilabel:`NVENC H265 ABR 10 bit` codec "
+"for :ref:`rendering <rendering_preset_categories>`."
 msgstr ""
 ":guilabel:`仅显示已审核资源` 切换显示经过 Kdenlive 团队审核测试的合成与未测试"
 "合成（仍处于测试阶段）"
 
-#: ../../compositing/compositions.rst:51
+#: ../../compositing/compositions.rst:52
 msgid ""
 "|help-about|\\ :guilabel:`Show/hide description of effects` toggles the "
 "information display below the compositions list where a short description of "
@@ -154,11 +162,11 @@ msgstr ""
 "时，该区域会显示当前合成的简要功能说明。点击说明中的链接可在浏览器打开该效果"
 "的在线文档。"
 
-#: ../../compositing/compositions.rst:57
+#: ../../compositing/compositions.rst:58
 msgid "How to Composite Two Clips"
 msgstr "如何合成两个片段"
 
-#: ../../compositing/compositions.rst:58
+#: ../../compositing/compositions.rst:59
 msgid ""
 "Alpha channels are taken into account automatically so that clips with alpha "
 "can be stacked on top of each other without the need of compositions. You "
@@ -169,7 +177,7 @@ msgstr ""
 "合成。您可以通过 :doc:`/effects_and_filters/video_effects/alpha_mask_keying` "
 "分类中的特效为剪辑创建 Alpha 通道。"
 
-#: ../../compositing/compositions.rst:61
+#: ../../compositing/compositions.rst:62
 msgid ""
 "Click on the grey dot in the lower left or right hand corner of the clip you "
 "want to composite with the one below. The default composition **Wipe** is "
@@ -181,7 +189,7 @@ msgstr ""
 "** 将被添加（这更像一种 :doc:`转场 <transitions>`，因此您需要 :ref:`将合成类"
 "型更改为 <compositing-composition_type>` 例如 **Cairo Blend**）。"
 
-#: ../../compositing/compositions.rst:66
+#: ../../compositing/compositions.rst:67
 msgid ""
 "Using the left-hand grey dot creates a Wipe composition going from the lower "
 "track to the upper track; using the right-hand grey dot creates a Wipe "
@@ -190,7 +198,7 @@ msgstr ""
 "使用左侧的灰色圆点将创建从下方轨道到上方轨道的划像合成；使用右侧的灰色圆点将"
 "创建从上方轨道到下方轨道的划像合成。"
 
-#: ../../compositing/compositions.rst:69
+#: ../../compositing/compositions.rst:70
 msgid ""
 "Right-click the clip you want to composite with the one below, select :"
 "guilabel:`Insert Composition`, and select :guilabel:`Composite and "
@@ -199,7 +207,7 @@ msgstr ""
 "右键单击要与其下方剪辑合成的剪辑，选择:guilabel:`插入合成`，然后选择:"
 "guilabel:`合成与变换`或:guilabel:`擦除`。"
 
-#: ../../compositing/compositions.rst:74
+#: ../../compositing/compositions.rst:75
 msgid ""
 "You can add compositions to your favorites by right-clicking on the "
 "composition in the Compositions widget and selecting :guilabel:`Add to "
@@ -209,7 +217,7 @@ msgstr ""
 "您可以通过右键点击“合成”窗口部件中的合成并选择:guilabel:`添加到收藏夹`，将合"
 "成添加至收藏夹。使用此方法时，您收藏的合成将显示为可选选项。"
 
-#: ../../compositing/compositions.rst:77
+#: ../../compositing/compositions.rst:78
 msgid ""
 "Drag a composition from the Compositions widget and drop it on the clip you "
 "want to composite with the one below. Adjust the start and end points by "
@@ -218,11 +226,11 @@ msgstr ""
 "从“合成”部件中拖拽一个合成项，并将其放置到您想与下方剪辑合成的剪辑上。通过拖"
 "拽时间轴中合成条带的左边缘和/或右边缘调整起始点与结束点。  "
 
-#: ../../compositing/compositions.rst:86
+#: ../../compositing/compositions.rst:87
 msgid "Composition Track"
 msgstr "合成轨道"
 
-#: ../../compositing/compositions.rst:88
+#: ../../compositing/compositions.rst:89
 msgid ""
 "By default, Kdenlive uses the clip in the track immediately below for the "
 "compositing. In most cases, this is what you want. But you can instruct "
@@ -236,11 +244,11 @@ msgstr ""
 "Kdenlive 会列出所有可用于合成的轨道，这些轨道都位于当前合成剪辑所在轨道的下"
 "方。请注意无法向上进行合成。"
 
-#: ../../compositing/compositions.rst:94
+#: ../../compositing/compositions.rst:95
 msgid "Composition Type"
 msgstr "合成类型"
 
-#: ../../compositing/compositions.rst:96
+#: ../../compositing/compositions.rst:97
 msgid ""
 "With method #1 and #2, Kdenlive by default creates a composition with a "
 "composition type **Wipe**, **Composite and Transform**, or whatever "
@@ -252,7 +260,7 @@ msgstr ""
 "能添加为收藏的任意合成类型的合成。**擦除** 实际上更偏向于一种 :doc:`转场 "
 "<transitions>`，而 **合成与变换** 因其丰富的额外参数可能并非时时需要。"
 
-#: ../../compositing/compositions.rst:98
+#: ../../compositing/compositions.rst:99
 msgid ""
 "You can change the composition type in the Effect/Composition Stack widget. "
 "Kdenlive uses the same space in the UI to display effects or compositions. "
@@ -261,11 +269,11 @@ msgstr ""
 "您可以在效果/合成堆叠部件中更改合成类型。Kdenlive 在用户界面中使用相同区域来"
 "显示效果或合成。请参阅关于 :doc:`/user_interface` 的章节。"
 
-#: ../../compositing/compositions.rst:107
+#: ../../compositing/compositions.rst:108
 msgid "Composition type drop-down"
 msgstr "合成类型下拉框"
 
-#: ../../compositing/compositions.rst:109
+#: ../../compositing/compositions.rst:110
 msgid ""
 "In the top left corner of the :guilabel:`Composition Stack` is the drop-down "
 "list for the composition type. It lists both compositions, :doc:`blend modes "
