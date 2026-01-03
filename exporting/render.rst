@@ -77,9 +77,9 @@ Rendering Dialog
 
 * :guilabel:`Selected zone` - Render only the defined timeline zone
 
-* :guilabel:`Marker Zone` - Render only the zone defined by two selected timeline maker
+* :guilabel:`Marker Zone` - Render only the zone defined by two selected timeline marker
 
-* :guilabel:`Makers Multi-Export` - Render individual files for the zones defined by the timeline marker
+* :guilabel:`Markers Multi-Export` - Render individual files for the zones defined by the timeline marker
 
 * :guilabel:`More Options` - Folds out the dialog window to display more (advanced) options
 
@@ -368,7 +368,7 @@ Rendering Using Timeline Markers
 
 :ref:`Timeline marker <guides>` can help organize your project while you work on it and when you share it with the world. You can use timeline markers to keep track of areas or to generate rendering scripts that will do the mundane task for you. This feature makes exporting sections of your project quite easy.
 
-For more details about markers, how to add and manage them, refer to the :ref:`Timeline maker <guides>` section of the documentation.
+For more details about markers, how to add and manage them, refer to the :ref:`Timeline marker <guides>` section of the documentation.
 
 Using Marker Zones
 ------------------
@@ -490,7 +490,7 @@ In this example, there are the following options:
 
 .. note::
    * If timeline markers are behind the last timeline clip, they are ignored.
-   * If a timeline maker sits right at the beginning of the timeline, the name of that timeline maker is used instead of "begin".
+   * If a timeline marker sits right at the beginning of the timeline, the name of that timeline marker is used instead of "begin".
    * If two timeline markers have the same name, an underscore and a number will be added to the file name.
 
 .. note:: As of this writing, the appimage of version 23.04.1 is having issues with the scripts generated with this function. Only one of the scripts is executed successfully but the other scripts remain in status 'Waiting...'. Unfortunately, a manual start of the scripts is not possible either.

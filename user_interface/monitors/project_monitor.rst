@@ -56,7 +56,7 @@ Hamburger Menu
 
 * **Volume** - Set the Project Monitor playback volume. This does not affect the master volume setting.
 
-* **Go to Timeine Marker** - If :term:`timeline markers <Timeline Maker (former Guide)>` are defined the list of timeline markers is displayed and selecting one positions the :term:`playhead` at the guide's timecode.
+* **Go to Timeine Marker** - If :term:`timeline markers <Timeline Marker (former Guide)>` are defined the list of timeline markers is displayed and selecting one positions the :term:`playhead` at the guide's timecode.
 
 * **Force Monitor Size** - You can force the Project Monitor to display the video at 100% (original size), 50% or adjust it to the Project Monitor widget's size.
 
@@ -139,7 +139,7 @@ These are the menu items that are available when you right-click in the Project 
      - Goes to the beginning of the clip
    * - Go to Previous Guide
      - :kbd:`Ctrl+Left`
-     - Goes to the previous :term:`Timeline Maker (former Guide)`
+     - Goes to the previous :term:`Timeline Marker (former Guide)`
    * - Go to Previous Snap Point
      - :kbd:`Alt+Left`
      - Moves the :term:`playhead` to the previous :term:`snap point`
@@ -160,13 +160,13 @@ These are the menu items that are available when you right-click in the Project 
      - Moves the :term:`playhead` to the next :term:`snap point`
    * - Go to Next Guide
      - :kbd:`Ctrl+Right`
-     - Goes to the next :term:`Timeline Maker (former Guide)`
+     - Goes to the next :term:`Timeline Marker (former Guide)`
    * - Go to Project End
      - :kbd:`Ctrl+End`
      - Goes the end of the clip
    * - Go to Guide...
      -
-     - The menu item pops out a list of existing :term:`Timeline Maker <Timeline Maker (former Guide)>` to select from. When one is selected the playhead moves to that guide.
+     - The menu item pops out a list of existing :term:`Timeline Marker <Timeline Marker (former Guide)>` to select from. When one is selected the playhead moves to that guide.
    * - Extract Frame
      -
      - Opens the **Save Image** dialog window to save the current frame as an image file (default is :file:`.png`) to your file system

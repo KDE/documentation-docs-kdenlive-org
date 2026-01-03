@@ -88,7 +88,7 @@ You can create a marker with range from a clip zone.
 
 Define a zone in the clip monitor with :kbd:`I` and :kbd:`O`. Then you can:
 
-* Right click on the zone and choose :guilabel:`Create Maker from Zone`. This opens a window (see above) and you can adjust all settings. 
+* Right click on the zone and choose :guilabel:`Create Marker from Zone`. This opens a window (see above) and you can adjust all settings. 
 
 * Right click on the zone and choose :guilabel:`Create Marker from Zone Quickly`. This creates a marker with the text :guilabel:`Zone Marker` in the currently active category.
 

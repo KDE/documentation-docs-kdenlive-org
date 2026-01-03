@@ -361,7 +361,7 @@ Glossary
    Timeline
       The :doc:`central part</user_interface/timeline>` of Kdenlive. This is where all the editing takes place. Keeps a chronological sequence of the clips and the relations to each other through tracks and compositions. Can be zoomed. See also :ref:`sequence` for nested timelines.
 
-   Timeline Maker (former Guide)
+   Timeline Marker (former Guide)
       Static markings in the :term:`timeline` that do not necessarily move with clips. Not to be confused with :term:`markers`. Can be used to define regions for rendering and exported to provide chapters for YouTube videos. See :ref:`guides`.
    
    Timeline Ruler
