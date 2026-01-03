@@ -61,7 +61,7 @@ Following procedures add a timeline marker at the timeline playhead position:
 
   .. figure:: /images/Kdenlive_add_guide_double-click.png
 
-  * Double-click on top of the :ref:`timeline ruler<timeline_ruler>` and the timeline marker gets added were you have clicked
+  * Double-click on top of the :ref:`timeline ruler<timeline_ruler>` and the timeline marker gets added where you have clicked
 
 
 .. _timeline_ruler_right-click_menu:
@@ -151,7 +151,7 @@ When starting a new project the categories for the project are pulled in from :g
       :align: left
       :scale: 77%
    
-   :guilabel:`Delete category` When deleting a category were markers are assigned, Kdenlive asks if you really want to delete it or if you want to reassign the markers to another category. 
+   :guilabel:`Delete category` When deleting a category where markers are assigned, Kdenlive asks if you really want to delete it or if you want to reassign the markers to another category. 
 
 .. rst-class:: clear-both
 
@@ -164,7 +164,7 @@ Markers View
 
 .. figure:: /images/guides_view_2508.webp
    
-:menuselection:`View --> Markers` opens the markers window were you can manage your markers.  
+:menuselection:`View --> Markers` opens the markers window where you can manage your markers.  
 
 
 :1: Shows the selected object: Clip-Name, Sequence-Name 
