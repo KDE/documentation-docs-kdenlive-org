@@ -124,7 +124,7 @@ Markers are using the same window as :ref:`timeline marker <guide_view>`. Yellow
 
 .. figure:: /images/Kdenlive_guides_view_markers.png
  
-:menuselection:`View --> Markers` opens the markers window were you can manage your markers.
+:menuselection:`View --> Markers` opens the markers window where you can manage your markers.
 
 To show clip markers in this view you have to:
 

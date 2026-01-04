@@ -122,7 +122,7 @@ The Kdenlive layout reacts to your dragging of the widget and you need to pay cl
    :width: 100%
    :figwidth: 100%
    
-   Docking indicators when a widgets is undocked and hovered over a panel
+   Docking indicators when a widget is undocked and hovered over a panel
 
 :1: Panel docking indicator. Docking inside the panel: top, right, bottom, left or center. In this example it would be placed to the left side showed by the blue indicator. 
 

@@ -132,7 +132,7 @@ Now that multiple clips have been selected, you can do things like moving (dragg
 Add Clip to Selection
 ~~~~~~~~~~~~~~~~~~~~~
 
-With :kbd:`Alt + +` you can add additional clips wich are under the playhead. 
+With :kbd:`Alt + +` you can add additional clips which are under the playhead. 
 
 
 .. _sequence_deselect_clip:
@@ -140,7 +140,7 @@ With :kbd:`Alt + +` you can add additional clips wich are under the playhead.
 Deselect Clip
 ~~~~~~~~~~~~~
 
-With :kbd:`-` you can deselect clips wich are under the playhead. 
+With :kbd:`-` you can deselect clips which are under the playhead. 
 
 
 .. _sequence_select_transition:
@@ -161,7 +161,7 @@ Selecting multiple transitions works just like selecting clips. Click on the fir
 Add Transition To Selection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-With :kbd:`Alt + shift +` you can add additional transitions wich are under the playhead. 
+With :kbd:`Alt + shift +` you can add additional transitions which are under the playhead. 
 
 
 .. _sequence_deselect_transition:
@@ -169,7 +169,7 @@ With :kbd:`Alt + shift +` you can add additional transitions wich are under the 
 Deselect Transition
 ~~~~~~~~~~~~~~~~~~~
 
-With :kbd:`Shift + -` you can deselect transitions wich are under the playhead. 
+With :kbd:`Shift + -` you can deselect transitions which are under the playhead. 
 
 
 .. _sequence_adjust_timeline_zone_to_selection:

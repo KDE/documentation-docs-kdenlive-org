@@ -35,7 +35,7 @@ Monitor Menu
 - :ref:`Play Zone From Cursor <play_zone_from_cursor>`
 - :ref:`Loop Zone <loop_zone>`
 - :ref:`Loop Selected Clip <loop_selected_clip>`
-- :ref:`Got to <go_to>`
+- :ref:`Go to <go_to>`
 - :ref:`Seek <seek>`
 - :ref:`Set Zone In <set_zone_in>`
 - :ref:`Set Zone Out <set_zone_out>`

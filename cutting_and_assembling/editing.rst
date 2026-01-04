@@ -759,7 +759,7 @@ There are 4 possibilities for ripple delete (point 1 and 2 are the classical `Ri
 
 3. On all tracks together: Mark `In` and `Out` points in the Project Monitor or on the Timeline, then choose :menuselection:`Timeline --> Removal --> Extract Timeline Zone` (or :kbd:`Shift+X`). Kdenlive deletes all footage between the `In` and `Out` points in unlocked tracks, slides everything else back to fill the gap, and puts the playhead on the In point.
 
-4. On the active track with `Insert Mode`: Cut out the piece on the clip which you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and slides everything else to the left to fill the gap. The playhead stays were you made the last cut.
+4. On the active track with `Insert Mode`: Cut out the piece on the clip which you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and slides everything else to the left to fill the gap. The playhead stays where you made the last cut.
 
 You can do a ripple trim to the playhead using :ref:`ripple_trim_to_playhead`.
 
