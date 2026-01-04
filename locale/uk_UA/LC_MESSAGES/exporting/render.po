@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023, 2024, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-01 01:54+0000\n"
-"PO-Revision-Date: 2025-01-14 21:42+0200\n"
+"PO-Revision-Date: 2026-01-02 20:34+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -60,18 +60,13 @@ msgid "Rendering"
 msgstr "Обробка"
 
 #: ../../exporting/render.rst:37
-#, fuzzy
-#| msgid ""
-#| "The rendering dialog is brought up by selecting |media-record| Render... "
-#| "from the :menuselection:`Menu --> Project`, or by the :kbd:`Ctrl+Enter` "
-#| "default keyboard shortcut."
 msgid ""
 "The rendering dialog is brought up by selecting |media-record| Render... "
 "from the :menuselection:`Menu --> File --> Render`, or by the :kbd:`Ctrl"
 "+Enter` default keyboard shortcut."
 msgstr ""
 "Діалогове вікно обробки даних можна відкрити вибором пункту |media-record| "
-"обробити з меню :menuselection:`Проєкт --> Обробити` або натисканням "
+"обробити з меню :menuselection:`Файл --> Обробити` або натисканням "
 "комбінації клавіш :kbd:`Ctrl + Enter`."
 
 #: ../../exporting/render.rst:41
@@ -146,27 +141,20 @@ msgstr ""
 "столу"
 
 #: ../../exporting/render.rst:80
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Guide Zone` - Render only the zone defined by two selected "
-#| "guides"
 msgid ""
 ":guilabel:`Marker Zone` - Render only the zone defined by two selected "
 "timeline maker"
 msgstr ""
-":guilabel:`Ділянка напрямних` — обробити лише ділянку, яку визначено двома "
-"позначеними напрямними"
+":guilabel:`Зона позначки` — обробити лише ділянку, яку визначено двома "
+"вибраними позначками на монтажному столі"
 
 #: ../../exporting/render.rst:82
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Guide Multi-Export` - Render individual files for the zones "
-#| "defined by the guides"
 msgid ""
 ":guilabel:`Makers Multi-Export` - Render individual files for the zones "
 "defined by the timeline marker"
 msgstr ""
-":guilabel:`Мультиекспорт напрямних` — обробити окремі файли для ділянок"
+":guilabel:`Мультиекспорт позначок` — обробити окремі файли для ділянок, які "
+"визначено позначкою на монтажному столі"
 
 #: ../../exporting/render.rst:84
 msgid ""
@@ -224,6 +212,8 @@ msgid ""
 "**10 Bit** [3]_ - AV1, DNxHR-HQ, ProRes 422, ProRes 444, ProRes HQ, SVT-AV1, "
 "x261-high10, x265-main10"
 msgstr ""
+"**10-бітові** [3]_ - AV1, DNxHR-HQ, ProRes 422, ProRes 444, ProRes HQ, SVT-"
+"AV1, x261-high10, x265-main10"
 
 #: ../../exporting/render.rst:112
 msgid "**Video with Alpha** - Alpha MOV, Alpha VP8, Alpha VP9, Ut Video"
@@ -259,29 +249,22 @@ msgstr ""
 "VP9/Opus (libre)"
 
 #: ../../exporting/render.rst:122
-#, fuzzy
-#| msgid ""
-#| "**Old-TV definition (DVD...)** - MPEG4-ASP/MP3 (DivX compatible), WOB "
-#| "(DVD), Windows Media Player"
 msgid ""
 "**Old-TV definition (DVD...)** - MPEG4-ASP/MP3 (DivX compatible), VOB (DVD), "
 "Windows Media Player"
 msgstr ""
 "**Чіткість старого телебачення (DVD...)** — MPEG4-ASP/MP3 (сумісний з DivX), "
-"WOB (DVD), Windows Media Player"
+"VOB (DVD), Windows Media Player"
 
 #: ../../exporting/render.rst:124
-#, fuzzy
-#| msgid ""
-#| "**Hardware Accelerated (experimental)** - NVENC H264 ABR, NVENC H264 VBR, "
-#| "NVENC H265 ABR, VAAPI AMD H264, VAAPI Intel H264"
 msgid ""
 "**Hardware Accelerated (experimental)** - NVENC AV1 VR, NVENC H264 ABR, "
 "NVENC H264 VBR, NVENC H265 ABR, NVENC H265 ABR 10 bit [3]_, VAAPI AMD H264, "
 "VAAPI Intel H264, VideoToolbox H264 ABR, VideoToolbox H265 ABR"
 msgstr ""
-"**Апаратне прискорення (експериментальне)** — NVENC H264 ABR, NVENC H264 "
-"VBR, NVENC H265 ABR, VAAPI AMD H264, VAAPI Intel H264"
+"**Апаратне прискорення (експериментальне)** — NVENC AV1 VR, NVENC H264 ABR, "
+"NVENC H264 VBR, NVENC H265 ABR, NVENC H265 ABR 10 bit [3]_, VAAPI AMD H264, "
+"VAAPI Intel H264, VideoToolbox H264 ABR, VideoToolbox H265 ABR"
 
 #: ../../exporting/render.rst:126
 msgid ""
@@ -333,41 +316,29 @@ msgstr ""
 
 #: ../../exporting/render.rst:148
 msgid "Marker Zone"
-msgstr ""
+msgstr "Зона позначки"
 
 #: ../../exporting/render.rst:150
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Guide zone` radio button makes use of :ref:`guides` to define "
-#| "a region of the project that is to be rendered. For more details refer to "
-#| "the :ref:`rendering-guides` section of the documentation."
 msgid ""
 ":guilabel:`Marker zone` radio button makes use of :ref:`guides` to define a "
 "region of the project that is to be rendered. For more details refer to the :"
 "ref:`rendering-guides` section of the documentation."
 msgstr ""
-"У перемикачі :guilabel:`Ділянка напрямних` для визначення ділянки проєкту, "
+"У перемикачі :guilabel:`Ділянка позначки` для визначення ділянки проєкту, "
 "яку буде оброблено, використовуються :ref:`напрямні <guides>`. Щоб дізнатися "
 "більше, ознайомтеся із розділом :ref:`rendering-guides` документації."
 
 #: ../../exporting/render.rst:154
-#, fuzzy
-#| msgid "Guide Multi-Export"
 msgid "Markers Multi-Export"
-msgstr "Мультиекспорт напрямних"
+msgstr "Мультиекспорт позначок"
 
 #: ../../exporting/render.rst:156
-#, fuzzy
-#| msgid ""
-#| ":guilabel:`Guide Multi-Export` radio button makes use of :ref:`guides` "
-#| "categories to be rendered. For more details refer to the :ref:`rendering-"
-#| "multi_export` section of the documentation."
 msgid ""
 ":guilabel:`Markers Multi-Export` radio button makes use of :ref:`guides` "
 "categories to be rendered. For more details refer to the :ref:`rendering-"
 "multi_export` section of the documentation."
 msgstr ""
-"Варіант :guilabel:`Мультиекспорт напрямних` використає категорії :ref:"
+"Варіант :guilabel:`Мультиекспорт позначок` використає категорії :ref:"
 "`напрямних <guides>` для обробки матеріалу. Щоб дізнатися більше, "
 "ознайомтеся із розділом :ref:`rendering-multi_export` документації."
 
@@ -765,18 +736,10 @@ msgstr ""
 "надсилання завдання не змінить параметрів завдання, яке вже виконується."
 
 #: ../../exporting/render.rst:367
-#, fuzzy
-#| msgid "Rendering Using Guides"
 msgid "Rendering Using Timeline Markers"
-msgstr "Обробка з використанням напрямних"
+msgstr "Обробка з використанням позначок на монтажному столі"
 
 #: ../../exporting/render.rst:369
-#, fuzzy
-#| msgid ""
-#| ":ref:`Guides <guides>` can help organize your project while you work on "
-#| "it and when you share it with the world. You can use guides to keep track "
-#| "of areas or to generate rendering scripts that will do the mundane task "
-#| "for you. This feature makes exporting sections of your project quite easy."
 msgid ""
 ":ref:`Timeline marker <guides>` can help organize your project while you "
 "work on it and when you share it with the world. You can use timeline "
@@ -784,79 +747,56 @@ msgid ""
 "the mundane task for you. This feature makes exporting sections of your "
 "project quite easy."
 msgstr ""
-":ref:`Напрямні <guides>` можуть допомогти у впорядковуванні вашого проєкту "
-"під час роботи над ним, після чого ви зможете поділитися результатами. Ви "
-"можете скористатися напрямними для визначення ділянок проєкту або для "
-"створення скриптів обробки, які виконуватимуть ваші типові завдання. "
-"Напрямні роблять експортування розділів вашого проєкту дуже простим."
+":ref:`Позначки на монтажному столі <guides>` можуть допомогти у "
+"впорядковуванні вашого проєкту під час роботи над ним, після чого ви зможете "
+"поділитися результатами. Ви можете скористатися напрямними для визначення "
+"ділянок проєкту або для створення скриптів обробки, які виконуватимуть ваші "
+"типові завдання. Позначки на монтажному столі роблять експортування розділів "
+"вашого проєкту дуже простим."
 
 #: ../../exporting/render.rst:371
-#, fuzzy
-#| msgid ""
-#| "For more details about guides, how to add and manage them, refer to the :"
-#| "ref:`Guides <guides>` section of the documentation."
 msgid ""
 "For more details about markers, how to add and manage them, refer to the :"
 "ref:`Timeline maker <guides>` section of the documentation."
 msgstr ""
-"Докладніший опис напрямних, а також їхнього додавання та керування ними "
-"наведено у :ref:`розділі щодо напрямних <guides>` документації."
+"Докладніший опис позначок, а також їхнього додавання та керування ними "
+"наведено у :ref:`розділі щодо позначок на монтажному столі <guides>` "
+"документації."
 
 #: ../../exporting/render.rst:374
-#, fuzzy
-#| msgid "Using Guide Zones"
 msgid "Using Marker Zones"
-msgstr "Використання ділянок напрямних"
+msgstr "Використання ділянок позначок"
 
 #: ../../exporting/render.rst:381
-#, fuzzy
-#| msgid "Using guide zones to render a section"
 msgid "Using marker zones to render a section"
-msgstr "Користування ділянками напрямних для обробки частини"
+msgstr "Користування ділянками позначок для обробки частини"
 
 #: ../../exporting/render.rst:383
-#, fuzzy
-#| msgid ""
-#| "With this option you define the start and end point for the render by "
-#| "selecting specific guides."
 msgid ""
 "With this option you define the start and end point for the render by "
 "selecting specific timeline markers."
 msgstr ""
 "Скористайтеся цим варіантом для визначення початкової і кінцевої точок "
-"обробки шляхом вибору певних напрямних."
+"обробки шляхом вибору певних позначок на монтажному столі."
 
 #: ../../exporting/render.rst:388
 msgid "Generating Rendering Scripts"
 msgstr "Створення скриптів обробки"
 
 #: ../../exporting/render.rst:398
-#, fuzzy
-#| msgid ""
-#| "Choose which guides will establish the regions of video you want to "
-#| "export using the pull down menus next to :guilabel:`From` and :guilabel:"
-#| "`to`. In this example *Section 1* to *Section 1 End* will be used to "
-#| "define the section to be rendered."
 msgid ""
 "Choose which timeline markers will establish the regions of the video you "
 "want to export using the pull down menus next to :guilabel:`From` and :"
 "guilabel:`to`. In this example *Section 1* to *Section 1 End* will be used "
 "to define the section to be rendered."
 msgstr ""
-"Виберіть напрямні, які визначатимуть ділянки відео, які ви хочете "
-"експортувати, за допомогою спадних меню, розташованих поряд з мітками :"
-"guilabel:`Від` і :guilabel:`до`. У нашому прикладі буде використано мітки "
-"*Section 1* і *Section 1 End* для визначення частини, яку буде оброблено."
+"Виберіть позначки на монтажному столі, які визначатимуть ділянки відео, які "
+"ви хочете експортувати, за допомогою спадних меню, розташованих поряд з "
+"мітками :guilabel:`Від` і :guilabel:`до`. У нашому прикладі буде використано "
+"мітки *Section 1* і *Section 1 End* для визначення частини, яку буде "
+"оброблено."
 
 #: ../../exporting/render.rst:406
-#, fuzzy
-#| msgid ""
-#| "Now you can render this to a file or generate a script that will render "
-#| "this guide zone to a file. Click :guilabel:`Generate Script` and a dialog "
-#| "appears asking you to name the script. **Kdenlive** stores the clips in "
-#| "the folder specified in :menuselection:`Menu --> Settings --> Configure "
-#| "Kdenlive --> Environment -->` :ref:`Default Folders "
-#| "<configure_environment_default_folders>`."
 msgid ""
 "Now you can render this to a file or generate a script that will render this "
 "timeline marker zone to a file. Click :guilabel:`Generate Script` and a "
@@ -866,11 +806,11 @@ msgid ""
 "<configure_environment_default_folders>`."
 msgstr ""
 "Ви можете обробити дані до файла або створити скрипт, який обробить ділянку "
-"між напрямними до файла. Натисніть кнопку :guilabel:`Створити скрипт`, і "
-"програма відкриє вікно, де ви зможете вказати назву скрипту. **Kdenlive** "
-"зберігає кліпи у теці, яку вказано на сторінці :menuselection:`Меню --> "
-"Параметри --> Налаштувати Kdenlive --> Середовище -->` :ref:`Типові теки "
-"<configure_environment_default_folders>`."
+"між позначками на монтажному столі до файла. Натисніть кнопку :guilabel:"
+"`Створити скрипт`, і програма відкриє вікно, де ви зможете вказати назву "
+"скрипту. **Kdenlive** зберігає кліпи у теці, яку вказано на сторінці :"
+"menuselection:`Меню --> Параметри --> Налаштувати Kdenlive --> Середовище --"
+">` :ref:`Типові теки <configure_environment_default_folders>`."
 
 #: ../../exporting/render.rst:414
 msgid ""
@@ -883,19 +823,14 @@ msgstr ""
 "зокрема скрипти з інших проєктів."
 
 #: ../../exporting/render.rst:416
-#, fuzzy
-#| msgid ""
-#| "In this example three scripts were created based on the guides in the "
-#| "timeline. Be sure and keep the :file:`.mlt` extension otherwise the "
-#| "rendering script will not be generated."
 msgid ""
 "In this example three scripts were created based on the timeline markers in "
 "the timeline. Be sure and keep the :file:`.mlt` extension otherwise the "
 "rendering script will not be generated."
 msgstr ""
-"У цьому прикладі нами було створено 3 скрипти на основі напрямних, створених "
-"на монтажному столі. Скрипти слід зберегти у файлах з суфіксами назв :file:`."
-"mlt`, інакше скрипт обробки не буде створено."
+"У цьому прикладі нами було створено 3 скрипти на основі позначок на "
+"монтажному столі, створених на монтажному столі. Скрипти слід зберегти у "
+"файлах з суфіксами назв :file:`.mlt`, інакше скрипт обробки не буде створено."
 
 #: ../../exporting/render.rst:421
 msgid "Starting Your Rendering Scripts"
@@ -961,43 +896,32 @@ msgid "Run melt with the :file:`.mlt` script"
 msgstr "Запустіть melt із параметром скрипту :file:`.mlt`"
 
 #: ../../exporting/render.rst:454
-#, fuzzy
-#| msgid "Using Guides for Multi-Export"
 msgid "Using Markers for Multi-Export"
-msgstr "Використання напрямних для мультиекспорту"
+msgstr "Використання позначок для мультиекспорту"
 
 #: ../../exporting/render.rst:458
-#, fuzzy
-#| msgid ""
-#| "With this option you use guides to divide the timeline in pieces that "
-#| "will be rendered as individual files on one go. You do not need to define "
-#| "each section or piece individually."
 msgid ""
 "With this option you use timeline markers to divide the timeline in pieces "
 "that will be rendered as individual files on one go. You do not need to "
 "define each section or piece individually."
 msgstr ""
-"За допомогою цього пункту можна скористатися напрямними для поділу "
-"монтажного столу на частини, які буде оброблено до окремих файлів в один "
-"прохід. Вам не доведеться визначати кожен розділ або частину окремо."
+"За допомогою цього пункту можна скористатися позначками на монтажному столі "
+"для поділу монтажного столу на частини, які буде оброблено до окремих файлів "
+"в один прохід. Вам не доведеться визначати кожен розділ або частину окремо."
 
 #: ../../exporting/render.rst:465
-#, fuzzy
-#| msgid "Defined Guides to be used for multi-export"
 msgid "Defined timeline markers to be used for multi-export"
-msgstr "Визначені напрямні, які буде використано для мультиекспорту"
+msgstr ""
+"Визначені позначки на монтажному столі, які буде використано для "
+"мультиекспорту"
 
 #: ../../exporting/render.rst:467
-#, fuzzy
-#| msgid ""
-#| "The selection of guide categories indicates which guides will be "
-#| "considered for rendering."
 msgid ""
 "The selection of timeline marker categories indicates which timeline markers "
 "will be considered for rendering."
 msgstr ""
-"Вибір категорій напрямних визначає, які напрямні буде використано для "
-"обробки."
+"Вибір категорій позначок на монтажному столі визначає, які позначки на "
+"монтажному столі буде використано для обробки."
 
 #: ../../exporting/render.rst:471
 msgid "In this example, there are the following options:"
@@ -1012,32 +936,24 @@ msgid "`projectname-begin.mp4` (from 00:00:00 to \"guide1\")"
 msgstr "`projectname-begin.mp4` (з 00:00:00 до «guide1»)"
 
 #: ../../exporting/render.rst:476 ../../exporting/render.rst:483
-#, fuzzy
-#| msgid "`projectname-guide1.mp4` (from \"guide1\" to \"guide2\")"
 msgid "`projectname-Marker1.mp4` (from \"guide1\" to \"guide2\")"
-msgstr "`projectname-guide1.mp4` (від «guide1» до «guide2»)"
+msgstr "`projectname-Marker1.mp4` (від «guide1» до «guide2»)"
 
 #: ../../exporting/render.rst:477
-#, fuzzy
-#| msgid "`projectname-guide2.mp4` (from \"guide2\" to \"guide3\")"
 msgid "`projectname-Marker2.mp4` (from \"guide2\" to \"guide3\")"
-msgstr "`projectname-guide2.mp4` (від «guide2» to «guide3»)"
+msgstr "`projectname-Marker2.mp4` (від «guide2» to «guide3»)"
 
 #: ../../exporting/render.rst:478 ../../exporting/render.rst:489
-#, fuzzy
-#| msgid "`projectname-guide3.mp4` (from \"guide3\" to the end)"
 msgid "`projectname-Marker3.mp4` (from \"guide3\" to the end)"
-msgstr "`projectname-guide3.mp4` (від «guide3» до кінця)"
+msgstr "``projectname-Marker3.mp4` (від «guide3» до кінця)"
 
 #: ../../exporting/render.rst:480
 msgid "\"Category 0 (purple)\": This leads to three files:"
 msgstr "«Категорія 0 (пурпуровий)»: дає три файли:"
 
 #: ../../exporting/render.rst:484
-#, fuzzy
-#| msgid "`projectname-guide2.mp4` (from \"guide2\" to the end)"
 msgid "`projectname-Marker2.mp4` (from \"guide2\" to the end)"
-msgstr "`projectname-guide2.mp4` (від «guide2» до кінця)"
+msgstr "`projectname-Marker2.mp4` (від «guide2» до кінця)"
 
 #: ../../exporting/render.rst:486
 msgid "\"Category 1 (blue)\": This leads to two files:"
@@ -1048,37 +964,27 @@ msgid "`projectname-begin.mp4` (from 00:00:00 to \"guide3\")"
 msgstr "`projectname-begin.mp4` (з 00:00:00 до «guide3»)"
 
 #: ../../exporting/render.rst:492
-#, fuzzy
-#| msgid "If guides are behind the last timeline clip, they are ignored."
 msgid ""
 "If timeline markers are behind the last timeline clip, they are ignored."
 msgstr ""
-"Якщо напрямні потрапляють за межі останнього кліпу на монтажному столі, їх "
-"буде проігноровано."
+"Якщо позначки на монтажному столі потрапляють за межі останнього кліпу на "
+"монтажному столі, їх буде проігноровано."
 
 #: ../../exporting/render.rst:493
-#, fuzzy
-#| msgid ""
-#| "If a guide sits right at the beginning of the timeline, the name of that "
-#| "guide is used instead of \"begin\"."
 msgid ""
 "If a timeline maker sits right at the beginning of the timeline, the name of "
 "that timeline maker is used instead of \"begin\"."
 msgstr ""
-"Якщо напрямну розташовано на початку монтажного столу, буде використано "
-"назву напрямної замість «початок»."
+"Якщо позначку на монтажному столі розташовано на початку монтажного столу, "
+"буде використано назву позначки на монтажному столі замість «початок»."
 
 #: ../../exporting/render.rst:494
-#, fuzzy
-#| msgid ""
-#| "If two guides have the same name, an underscore and a number will be "
-#| "added to the file name."
 msgid ""
 "If two timeline markers have the same name, an underscore and a number will "
 "be added to the file name."
 msgstr ""
-"Якщо дві напрямні мають однакові назви, до назви файла буде додано символ "
-"підкреслювання і номер."
+"Якщо дві позначки на монтажному столі мають однакові назви, до назви файла "
+"буде додано символ підкреслювання і номер."
 
 #: ../../exporting/render.rst:496
 msgid ""
@@ -1172,6 +1078,9 @@ msgid ""
 "<effects-effects_tab>` or :ref:`compositing <compositions-effects_tab>` "
 "avfilter only"
 msgstr ""
+"Буде оброблено лише 10-бітовий контейнер, якщо ви виберете лише 10-бітові :"
+"ref:`ефекти <effects-effects_tab>` або :ref:`композицію <compositions-"
+"effects_tab>` avfilter"
 
 #~ msgid "Kdenlive_Rendering_job_queue"
 #~ msgstr "Kdenlive_Rendering_job_queue"
