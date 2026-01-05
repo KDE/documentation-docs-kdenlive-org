@@ -4,13 +4,13 @@
 # Automatically generated, 2021.
 #
 # SPDX-FileCopyrightText: 2021 Eloy Cuadra <ecuadra@eloihr.net>
-# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-01 01:54+0000\n"
-"PO-Revision-Date: 2025-07-14 12:30+0100\n"
+"PO-Revision-Date: 2026-01-03 15:03+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../<rst_epilog>:470
 msgid "timeline-insert"
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 "Kdenlive ofrece funciones avanzadas de edición en la línea de tiempo. En "
 "este capítulo se mostrarán funciones de **Inserción** |timeline-insert| y "
-"**Superposición** |timeline-overwrite| de la línea de tiempo."
+"**Superposición** |timeline-overwrite| en la línea de tiempo."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:22
 msgid ""
@@ -125,24 +125,24 @@ msgid ""
 "there are two different insert/overwrite operations:"
 msgstr ""
 "Al insertar o superponer alguna parte de la línea de tiempo con una parte de "
-"un clip, estarán en consideración dos zonas distintas, por lo tanto ¿cómo es "
-"que esto funcionará a fin de cuentas? Solo se tomarán en cuenta tres puntos, "
-"a saber, los dos de una zona y otro punto adicional (razón por la cual es a "
-"veces llamada **edición de 3 puntos**). En consecuencia, existirán dos "
-"operaciones diferentes de inserción/superposición:"
+"un medio, estarán en consideración dos zonas distintas, por lo tanto ¿cómo "
+"es que esto funcionará a fin de cuentas? Solo se tomarán en cuenta tres "
+"puntos, a saber, los dos de una zona y otro punto adicional (razón por la "
+"cual es a veces llamada **edición de 3 puntos**). En consecuencia, existirán "
+"dos operaciones diferentes de inserción/superposición:"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:24
 msgid ""
 "Insert/overwrite a clip zone into the timeline at some point (cursor/"
 "playhead), or"
 msgstr ""
-"Inserción/Superposición de la zona de un clip en algún punto de la línea de "
+"Inserción/Superposición de la zona de un medio en algún punto de la línea de "
 "tiempo (normalmente el Cursor de tiempo), o"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:25
 msgid "Insert/overwrite a clip starting at some point into a timeline zone"
 msgstr ""
-"Inserción/Superposición de un clip comenzando en algún punto de una zona de "
+"Inserción/Superposición de un medio comenzando en algún punto de una zona de "
 "la línea de tiempo"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:27
@@ -150,14 +150,17 @@ msgid ""
 "Kdenlive’s timeline IN/OUT system has one basic difference to other video "
 "editors: **Kdenlive doesn't have**:"
 msgstr ""
+"El sistema de puntos de Entrada y Salida de la línea de tiempo de Kdenlive "
+"presenta una diferencia básica con respecto a otros editores de video: "
+"**Kdenlive utiliza los mismos puntos como**:"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:29
 msgid "IN/OUT points for 3-point editing and"
-msgstr ""
+msgstr "Entrada/Salida para la edición de 3 puntos y"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:30
 msgid "IN/OUT points to set the rendering area."
-msgstr ""
+msgstr "Entrada/Salida para establecer el área a ser procesada."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:32
 msgid ""
@@ -169,11 +172,21 @@ msgid ""
 "able to work on the playhead/cursor reference only, without having to cancel "
 "the zone."
 msgstr ""
+"En Kdenlive se utilizan los mismos puntos de Entrada y Salida de la línea de "
+"tiempo para ambas funciones. Por esta razón, se cuenta con un botón que "
+"permite activar |timeline-use-zone-on| / desactivar |timeline-use-zone-off| "
+"el uso de la zona de la línea de tiempo para las tareas de edición. En vez "
+"de tener que eliminar los puntos marcados, es posible simplemente desactivar "
+"|timeline-use-zone-on| el uso de la zona de la línea de tiempo. Esto ofrece "
+"la ventaja de preservar un área ya definida (zona de Entrada/Salida) pero "
+"usar, en cambio, solo el cursor de tiempo como referencia, sin necesitar "
+"eliminar la zona."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:38
 msgid "Insert Clip Zone into Timeline at Timeline Cursor"
 msgstr ""
-"Inserción de la zona de un clip en la Línea de tiempo, en el Cursor de tiempo"
+"Inserción de la zona de un medio en la Línea de tiempo, en el Cursor de "
+"tiempo"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:49
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:194
@@ -187,10 +200,10 @@ msgid ""
 "that the switch for Using Timeline Zone |timeline-use-zone-off| is crossed "
 "out (it is *off*)."
 msgstr ""
-"Como se va a insertar la zona de un clip en la línea de tiempo, primero "
+"Como se va a insertar la zona de un medio en la línea de tiempo, primero "
 "habrá que asegurarse de que el interruptor para *Usar zona para inserción* |"
-"timeline-use-zone-off| se encuentre apagado (su ícono se mostrará cruzado "
-"por una línea diagonal)."
+"timeline-use-zone-off| se encuentre desactivado (su ícono se mostrará "
+"cruzado por una línea diagonal)."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:53
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:198
@@ -203,7 +216,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:64
 msgid "Setting the clip region for insertion"
-msgstr "Estableciendo la zona del clip que será insertado"
+msgstr "Estableciendo la zona del medio que será insertada"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:66
 msgid ""
@@ -212,10 +225,10 @@ msgid ""
 "shortcuts, or the set Zone In |zone-in| / Zone Out |zone-out| buttons of the "
 "clip monitor."
 msgstr ""
-"A continuación, marcar la **zona del clip** que se desee insertar en la "
+"A continuación, marcar la **zona del medio** que se desee insertar en la "
 "línea de tiempo. Esto se hará de la forma usual, mediante los atajos :kbd:"
 "`I` y :kbd:`O` o los botones Marcar inicio de zona |zone-in| / Marcar fin de "
-"zona |zone-out| en el Monitor de clips."
+"zona |zone-out| en el Monitor de medios."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:77
 msgid "Setting the insertion point in the timeline"
@@ -248,23 +261,18 @@ msgstr ""
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:92
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:103
 msgid "Clip region inserted in the timeline"
-msgstr "La zona del clip insertada en la línea de tiempo"
+msgstr "La zona del medio insertada en la línea de tiempo"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:94
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:171
-#, fuzzy
-#| msgid ""
-#| "Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone "
-#| "toolbar button |timeline-insert|, or use :menuselection:`Menu --> "
-#| "Timeline --> Insertion --> Insert Clip Zone in Timeline`."
 msgid ""
 "Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone toolbar "
 "button |timeline-insert|, or use :menuselection:`Menu --> Sequence --> "
 "Insertion --> Insert Clip Zone in Timeline`."
 msgstr ""
-"Finalmente, pulsar la tecla :kbd:`V` o hacer clic en el botón Insertar zona "
-"de clip |timeline-insert| o la opción :menuselection:`Línea de tiempo --> "
-"Inserción --> Insertar zona de clip`."
+"Finalmente, pulsar el atajo :kbd:`V` o hacer clic en el botón Insertar zona "
+"del medio |timeline-insert| o la opción :menuselection:`Secuencia --> "
+"Inserción --> Insertar zona del medio`."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:105
 msgid ""
@@ -277,7 +285,8 @@ msgstr ""
 "pistas, además de la activa, para hacer espacio para el clip insertado. En "
 "caso de querer evitar esto último, bloquear las demás pistas haciendo clic "
 "en el ícono |track-unlocked| en su encabezado (ver **(2)** en las capturas "
-"de pantalla)."
+"de pantalla) o desactivar las pistas que no se desee que se vean afectadas "
+"por la operación."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:111
 msgid ""
@@ -307,7 +316,7 @@ msgstr ""
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:116
 msgid "Insert Clip (from In Point) into Timeline Zone"
 msgstr ""
-"Inserción de un clip (desde su punto de entrada) en la zona de la Línea de "
+"Inserción de un medio (desde su punto de entrada) en la zona de la Línea de "
 "tiempo"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:127
@@ -316,7 +325,7 @@ msgid ""
 "the timeline zone. So we now need to switch on Using the Timeline Zone |"
 "timeline-use-zone-on|."
 msgstr ""
-"En esta ocasión, se insertará una parte de un clip para que *se ajuste "
+"En esta ocasión, se insertará una parte de un medio para que *se ajuste "
 "exactamente* a la zona de la línea de tiempo. Por esto, será ahora necesario "
 "activar la opción Usar zona para inserción |timeline-use-zone-on|."
 
@@ -331,7 +340,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:140
 msgid "Setting the in-point in the clip for insertion"
-msgstr "Definiendo el punto de entrada del clip que será insertado"
+msgstr "Definiendo el punto de entrada del medio que será insertado"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:142
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:271
@@ -341,9 +350,9 @@ msgid ""
 "timeline zone."
 msgstr ""
 "Solo será necesario preocuparse por establecer la posición del **punto de "
-"entrada** del clip original. El punto de salida no incidirá en la operación, "
-"dado que estará determinado automáticamente por la longitud de la zona de la "
-"línea de tiempo."
+"entrada** del medio original. El punto de salida no incidirá en la "
+"operación, dado que estará determinado automáticamente por la longitud de la "
+"zona de la línea de tiempo."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:153
 msgid "Defining the timeline zone to be overwritten"
@@ -359,7 +368,7 @@ msgstr ""
 "Ahora, marcar (mediante los atajos :kbd:`I` y :kbd:`O`, los botones |zone-"
 "in| o |zone-out| ) o reubicar (arrastrando sus extremos izquierdo y derecho) "
 "la **zona de la línea de tiempo** para que cubra la región en donde se desee "
-"insertar parte del clip original. La posición del Cursor de tiempo no será "
+"insertar parte del medio original. La posición del Cursor de tiempo no será "
 "de importancia en este caso."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:157
@@ -405,7 +414,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:185
 msgid "Overwrite Timeline with Clip Zone"
-msgstr "Superposición de la línea de tiempo con la zona de un clip"
+msgstr "Superposición de la línea de tiempo con la zona de un medio"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:196
 msgid ""
@@ -413,14 +422,14 @@ msgid ""
 "that the switch for Using Timeline Zone |timeline-use-zone-off| is crossed "
 "out (it is *off*). This is also shown in the screenshot."
 msgstr ""
-"Como se va a superponer la zona de un clip en la línea de tiempo, primero "
+"Como se va a superponer la zona de un medio en la línea de tiempo, primero "
 "habrá que asegurarse de que el interruptor para *Usar zona para inserción* |"
-"timeline-use-zone-off| se encuentre apagado (su ícono se mostrará cruzado "
+"timeline-use-zone-off| se encuentre inactivo (su ícono se mostrará cruzado "
 "por una línea diagonal)."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:207
 msgid "Setting the clip region for the operation"
-msgstr "Estableciendo la zona del clip para la operación"
+msgstr "Estableciendo la zona del medio para la operación"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:209
 msgid ""
@@ -429,10 +438,10 @@ msgid ""
 "kbd:`I` and :kbd:`O` shortcuts, or the set Zone In |zone-in| / Zone Out |"
 "zone-out| buttons of the clip monitor."
 msgstr ""
-"A continuación, marcar la **zona del clip** que se desee superponer en la "
+"A continuación, marcar la **zona del medio** que se desee superponer en la "
 "línea de tiempo. Esto se hará de la forma usual, mediante los atajos :kbd:"
 "`I` y :kbd:`O` o los botones Marcar inicio de zona |zone-in| / Marcar fin de "
-"zona |zone-out| en el Monitor de clips."
+"zona |zone-out| en el Monitor de medios."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:218
 msgid "Setting the overwrite start point in the timeline"
@@ -465,23 +474,18 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:231
 msgid "Clip region overwrote parts of the timeline"
-msgstr "La zona del clip superpuesta en la línea de tiempo"
+msgstr "La zona del medio superpuesta en la línea de tiempo"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:233
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:300
-#, fuzzy
-#| msgid ""
-#| "Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone "
-#| "toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> "
-#| "Timeline --> Insertion --> Overwrite Clip Zone in Timeline`."
 msgid ""
 "Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone "
 "toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> "
 "Sequence --> Insertion --> Overwrite Clip Zone in Timeline`."
 msgstr ""
-"Finalmente, pulsar la tecla :kbd:`B` o hacer clic en el botón Superponer "
-"zona de clip |timeline-insert| o la opción :menuselection:`Línea de tiempo --"
-"> Inserción --> Superponer zona de clip`."
+"Finalmente, pulsar el atajo :kbd:`B` o hacer clic en el botón Superponer "
+"zona del medio |timeline-insert| o la opción :menuselection:`Secuencia --> "
+"Inserción --> Superponer zona del medio`."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:237
 msgid ""
@@ -492,7 +496,8 @@ msgstr ""
 "Nótese cómo la operación de superposición ha eliminado el contenido de otras "
 "pistas, además de la activa. En caso de querer evitar esto último, bloquear "
 "las demás pistas haciendo clic en el ícono |track-unlocked| en su encabezado "
-"(ver **(2)** en las capturas de pantalla)."
+"(ver **(2)** en las capturas de pantalla) o desactivar las pistas que no se "
+"desee que se vean afectadas por la operación."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:241
 msgid ""
@@ -508,13 +513,13 @@ msgid ""
 "Unlocked tracks get affected in that whatever is at the insertion point and "
 "later in the timeline gets removed for the duration of the clip region."
 msgstr ""
-"Las pistas que no estén bloqueadas se verán afectadas, eliminándose todo su "
-"contenido desde el punto de inicio de la superposición y hasta el final de "
-"la zona del clip superpuesto."
+"Las pistas que no estén bloqueadas o inactivas se verán afectadas, "
+"eliminándose todo su contenido desde el punto de inicio de la superposición "
+"y hasta el final de la zona del medio superpuesto."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:247
 msgid "Overwrite Timeline Zone with Clip"
-msgstr "Superposición de la zona de la línea de tiempo con un clip"
+msgstr "Superposición de la zona de la línea de tiempo con un medio"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:258
 msgid ""
@@ -522,13 +527,13 @@ msgid ""
 "the timeline zone and *overwrite* what is in it. So we now need to switch on "
 "Using the Timeline Zone |timeline-use-zone-on|."
 msgstr ""
-"En esta ocasión, se superpondrá una parte de un clip para que *se ajuste "
+"En esta ocasión, se superpondrá una parte de un medio para que *se ajuste "
 "exactamente* a la zona de la línea de tiempo. Por esto, será ahora necesario "
 "activar la opción Usar zona para inserción |timeline-use-zone-on|."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:269
 msgid "Setting the in-point in the clip for the operation"
-msgstr "Definiendo el punto de entrada del clip para la operación"
+msgstr "Definiendo el punto de entrada del medio para la operación"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:282
 msgid "Defining the timeline zone for overwriting"
@@ -544,8 +549,8 @@ msgstr ""
 "Ahora, marcar (mediante los atajos :kbd:`I` y :kbd:`O`, los botones |zone-"
 "in| o |zone-out| ) o reubicar (arrastrando sus extremos izquierdo y derecho) "
 "la **zona de la línea de tiempo** para que cubra la región en donde se desee "
-"superponer parte del clip original. La posición del Cursor de tiempo no será "
-"de importancia en este caso."
+"superponer parte del medio original. La posición del Cursor de tiempo no "
+"será de importancia en este caso."
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:286
 msgid ""
@@ -599,6 +604,8 @@ msgid ""
 "For more details about how to set the tracks as source and target check :ref:"
 "`three_point_editing`"
 msgstr ""
+"Para más detalles acerca de cómo establecer las pistas como origen y "
+"destino, revisar la sección :ref:`three_point_editing`"
 
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:312
 msgid "Notes"
