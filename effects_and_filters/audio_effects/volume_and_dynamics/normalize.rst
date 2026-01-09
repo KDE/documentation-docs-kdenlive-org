@@ -39,8 +39,9 @@ Normalize
 
 .. rubric:: Description
 
-This filter adjusts the level of the audio based on the loudness of the input. It performs loudness measurement over a specified sliding window of time. Then, it adjusts the gain on the output based on the difference between the measured loudness and the target loudness in order to achieve the desired loudness.
+This filter adjusts the level of the audio based on the loudness of the input. It is designed for live streams and applies the normalization based on a measurement window but has no lookahead possibilities. It performs loudness measurement over a specified sliding window of time. Then, it adjusts the gain on the output based on the difference between the measured loudness and the target loudness in order to achieve the desired loudness.
 
+If you like to normalize an audio file or an entire track then use :doc:`Normalize 2 Pass <normalize_2pass>`
 
 .. rubric:: Parameters
 

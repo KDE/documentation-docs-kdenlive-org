@@ -39,8 +39,9 @@ Normalize (2 Pass)
 
 .. rubric:: Description
 
-This filter requires two passes. Click :guilabel:`Analyse to Apply Effect` to start the first pass which performs the analysis and stores the result in the "results" property. The second pass applies the results to the audio in order to achieve the desired loudness over the range of the filter.
+This filter requires two passes. It is designed to analyze and apply the normalization based on an entire audio file or an entire track. Click :guilabel:`Analyse to Apply Effect` to start the first pass which performs the analysis and stores the result in the "results" property. The second pass applies the results to the audio in order to achieve the desired loudness over the range of the filter.
 
+If you like to normalize a live stream then use :doc:`Normalize <normalize>`
 
 .. rubric:: Parameters
 
