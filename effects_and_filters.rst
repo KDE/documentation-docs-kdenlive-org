@@ -210,29 +210,39 @@ Effect Functions
 
 .. .. versionadded:: 25.04
 
-|go-down| Expand/collapse the effect panel. :kbd:`Shift + click` to expand/collapse all effects 
+.. rst-class:: clear-both  
 
-|keyframe-disable| Hide/show keyframes - Turns the display of the keyframe ruler off or on
+:1: |go-down| Expand/collapse the effect panel. :kbd:`Shift + click` to expand/collapse all effects 
 
-|zoom-fit-width| Use effect zone - Toggles the display to show the :ref:`effect zone <effects-effect_zones>`
+    |keyframe-disable| Hide/show keyframes - Turns the display of the keyframe ruler off or on
 
-|visibility| Disable effect - Turns the effect off or on. The effect stays in the stack but is not applied during playback or rendering.
+    |zoom-fit-width| Use effect zone - Toggles the display to show the :ref:`effect zone <effects-effect_zones>`
 
-|adjustlevels2| Presets - Opens a list of advanced options to manage presets for the effect (e.g. reset the effect to its default parameters).
+    |visibility| Disable effect - Turns the effect off or on. The effect stays in the stack but is not applied during playback or rendering.
 
-|document-save| Save effect - Opens a dialog window for entering a name for the effect under which it will be listed in the *Custom* effect category and a comment which will be displayed in the information display
+    |adjustlevels2| Presets - Opens a list of advanced options to manage presets for the effect (e.g. reset the effect to its default parameters).
 
-|help-about| Open effect documentation in browser  - This opens the online documentation to this effect
+    |document-save| Save effect - Opens a dialog window for entering a name for the effect under which it will be listed in the *Custom* effect category and a comment which will be displayed in the information display
 
-|selection-raise| Move effect up - Moves the effect up one notch in the list (effect sequence from top to bottom is important)
+    |help-about| Open effect documentation in browser  - This opens the online documentation to this effect
 
-|selection-lower| Move effect down - Moves the effect down one notch in the list (effect sequence from top to bottom is important)
+    |selection-raise| Move effect up - Moves the effect up one notch in the list (effect sequence from top to bottom is important)
 
-|edit-delete| Delete effect - Removes the effect from the effect stack
+    |selection-lower| Move effect down - Moves the effect down one notch in the list (effect sequence from top to bottom is important)
 
-:kbd:`arrow up/down` goes to the next effect in the list
+    |edit-delete| Delete effect - Removes the effect from the effect stack
 
-.. rst-class:: clear-both
+    :kbd:`arrow up/down` goes to the next effect in the list
+
+:2: Effect function with check box only
+
+:3: Effect function with selector
+
+:4: Effect with :ref:`keyframes <effects-keyframes>`
+
+:5: Effect values and action button (|object-rotate-right|).
+
+    Reset value to default by click with the  :kbd:`MMB` [3]_ on the slider or value.
 
 
 .. _effects-apply_effects:
@@ -772,3 +782,5 @@ See also this YouTube play list from |video_5|
 .. [1] If you do not see a keyframe panel check whether the keyframe panel has been switched off for this effect (|keyframe-disable| icon in the effect toolbar) or perhaps the effect is simply not keyframable.
 
 .. [2] Robert Penners equations: http://robertpenner.com/easing/
+
+.. [3] :kbd:`MMB` = Middle Mouse Button, :kbd:`RMB` = Right Mouse Button

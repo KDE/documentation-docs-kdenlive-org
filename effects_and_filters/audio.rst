@@ -44,6 +44,7 @@ The audio mixer has following functions for each channel:
 :6:   Toggles the audio track controls on and off
 :7:	Change the balance of the audio channel. You can use the slider or enter values.
 :8:	Adjustment of the volume.   
+
       Reset value to default by either click with the :kbd:`MMB` [1]_ or :kbd:`RMB` [1]_ on the slider or level.
 :9:   :kbd:`RMB` [1]_ shows the menu where you can adjust the audio level appearance. These settings control the level appearance on clip and project monitor simultaneously.
 :10:  Hovering over the level shows the dB value of each channel
@@ -113,4 +114,4 @@ After the recording is finished the audio file get created and stored in the pro
 
 ----
 
-.. [1]  :kbd:`MMB` = Middle Mouse Button, :kbd:`RMB` = Right Mouse Button
+.. [1] :kbd:`MMB` = Middle Mouse Button, :kbd:`RMB` = Right Mouse Button
