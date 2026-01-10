@@ -221,6 +221,13 @@ General
        - Timeline: on a clip shows duration
        - Timeline: into an empty part of a track makes the track active
        - Monitor: opens monitor in a second monitor (if installed) in fullscreen mode
+   * - Reset value to default 
+     - :kbd:`MMB` [1]_ or :kbd:`RMB` [3]_
+     - Works in:
+
+       - :ref:`audio_mixer`
+       - :ref:`effect_functions`
+
 
 
 .. _ui-shortcuts_nav+playback:
@@ -756,3 +763,4 @@ The command bar allows to easily search for any action in Kdenlive like changing
 
 .. [1] MW = Mouse Wheel
 .. [2] LMB = Left mouse button
+.. [3] RMB = Right mouse button
