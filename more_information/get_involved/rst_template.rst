@@ -1,3 +1,14 @@
+.. _rst-template:
+
+************
+RST template
+************
+
+This template page can be used for a new document page or as a guide or for reference.
+
+If you are using this template for a new document delete all line until ``.. meta::`` is the top line.  
+
+
 .. meta::
    :description: Do your first steps with Kdenlive video editor, adjust this description to the content of this rst file
    :keywords: KDE, Kdenlive, video editor, help, learn, easy, add here more words that search engines find the Kdenlive documentation
@@ -11,7 +22,6 @@
 .. This is a remark and only show up in the file itself
 
 .. metadata-placeholder: must be placed before :authors: and :license: to avoid i18n translation.
-
 
 .. _template:
 
