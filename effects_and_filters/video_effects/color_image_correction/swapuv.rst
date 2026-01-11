@@ -15,8 +15,7 @@ Swapuv
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-swapuv
-
+   
 .. sidebar:: |kdenlive-show-video| Swapuv
 
    :**Status**:

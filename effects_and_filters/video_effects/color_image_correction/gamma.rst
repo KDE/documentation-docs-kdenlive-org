@@ -20,8 +20,7 @@ Gamma
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-gamma
-
+   
 .. sidebar:: |kdenlive-show-video| Gamma
 
    :**Status**:

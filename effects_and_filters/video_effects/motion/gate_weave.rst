@@ -20,8 +20,7 @@ Gate Weave
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-gate_weave-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Gate Weave
 
    :**Status**:

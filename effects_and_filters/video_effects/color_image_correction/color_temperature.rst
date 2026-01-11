@@ -15,7 +15,6 @@ Color Temperature
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-color_temperature-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Temperature
 

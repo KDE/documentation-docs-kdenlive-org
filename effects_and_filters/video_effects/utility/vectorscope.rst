@@ -17,8 +17,7 @@ Vectorscope
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-vectorscope
-
+   
 .. sidebar:: |kdenlive-show-video| Vectorscope
 
    :**Status**:

@@ -26,8 +26,7 @@ A backup file is automatically created each time you save your project. To resto
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: restore_backup_file
-
+   
       Restoring a backup file
 
   In case something went wrong (corrupted project file, unwanted change, ...), you can now restore a previous version of the file using this feature. Just select the version you want and click |document-open|\ :guilabel:`Open`.

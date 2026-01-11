@@ -773,7 +773,6 @@ This function can be used to remove any unused clips from the Project Bin.
    :align:  left
    :width: 360px
    :figwidth: 360px
-   :alt: kdenlive2304_clean_project
    
    Clean up the project
 

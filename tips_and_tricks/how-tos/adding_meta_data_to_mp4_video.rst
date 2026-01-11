@@ -38,7 +38,6 @@ Project Meta Data
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_meta_data.webp
    :align: left
-   :alt: kdenlive2308_meta_data.webp
    :width: 350px
 
    Adding a new meta data field

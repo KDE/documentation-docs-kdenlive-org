@@ -33,7 +33,6 @@ You define the destination location for your captures by using :menuselection:`M
 
 .. figure:: /images/project_and_asset_management/audio_capture_recording.gif
    :align: left
-   :alt: audio_capture_recording
 
    Recording a voiceover 
 
@@ -56,7 +55,6 @@ By default, the :file:`.wav` file of the recording is put into the main project 
    :width: 360px
    :figwidth: 360px
    :align: left
-   :alt: kdenlive2405_audio-capture-folder
 
    Designating a folder in the bin for audio recordings
 

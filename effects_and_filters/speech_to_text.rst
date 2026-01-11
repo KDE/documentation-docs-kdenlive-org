@@ -57,7 +57,6 @@ There are two use cases for speech recognition:
    :align: left
    :width: 500px
    :figwidth: 500px
-   :alt: change the speech engine
 
    .. rst-class:: clear-both
 
@@ -69,7 +68,6 @@ There are two use cases for speech recognition:
    :align: left
    :width: 300px
    :figwidth: 300px
-   :alt: Speech to text show log
 
    .. rst-class:: clear-both
 
@@ -86,7 +84,7 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 .. figure:: /images/effects_and_compositions/s2t_subs_vosk_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Speech to text subtitle
+
 
    Automatic subtitle generation using the VOSK engine
 
@@ -131,7 +129,6 @@ If not yet created, add a subtitle track by clicking on the |add-subtitle|\ :gui
 .. figure:: /images/effects_and_compositions/s2t_subs_whisper_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Speech to text subtitle Whisper
 
    Automatic subtitle generation using the Whisper engine
 
@@ -182,7 +179,6 @@ Remark to step **4**: The default is to analyze only the :guilabel:`Timeline zon
    :align: left
    :width: 300px
    :figwidth: 300px
-   :alt: Whisper SeamlessM4T: Choose input and output language
 
    Translating with SeamlessM4T
 
@@ -201,7 +197,6 @@ This will first process the audio using *Whisper*, then start the *SeamlessM4T* 
    :align: left
    :width: 300px
    :figwidth: 300px
-   :alt: Whisper SeamlessM4T choose input and output language
 
 Don't worry if you see such a message on the box below :guilabel:`Initializing translation model` while the download is running.
 
@@ -215,7 +210,6 @@ Once the translation model is downloaded, translation will start.
 .. .. figure:: /images/kdenlive2405_speech-to-text_Whisper_SeamlessM4T.webp
    :width: 500px
    :figwidth: 500px
-   :alt: On Whisper SeamlessM4T installed
 
    SeamlessM4T is enabled and downloaded successful
 
@@ -248,7 +242,6 @@ This is useful for interviews and other speech-related footage. Go to the Speech
 .. figure:: /images/effects_and_compositions/speech_editor_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Speech editor
 
    Shown with the VOSK engine and Search (10) enabled
 

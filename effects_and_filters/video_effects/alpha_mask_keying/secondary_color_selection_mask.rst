@@ -17,7 +17,6 @@ Secondary Color Correction Area Selection (Mask)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-sec_color_corr_area_select_mask-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Secondary Color Correction Area Selection (Mask)
 

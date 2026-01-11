@@ -17,8 +17,7 @@ Flip Vertically
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-flip_vertically
-
+   
 .. sidebar:: |kdenlive-show-video| Flip Vertically
 
    :**Status**:

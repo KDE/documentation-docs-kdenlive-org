@@ -34,8 +34,7 @@ User Interface
 
    .. figure:: /images/project_and_asset_management/project_bin_layout.webp
       :align: center
-      :alt: project_bin_layout
-
+   
       The Project Bin in Kdenlive
 
 .. rst-class:: clear-both
@@ -88,8 +87,7 @@ You can zoom the project bin view in and out.
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_scale_view
-
+   
       Scaling the project bin view
 
    Click on the |application-menu|\ :guilabel:`Options` icon and use the slider or the buttons to the left or right of it to increase or decrease the zoom level.
@@ -108,8 +106,7 @@ You can switch the project bin view from Tree View to Icon View, change the sort
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_scale_view
-
+   
       Scaling the project bin view
 
    Click on the |application-menu|\ :guilabel:`Options` icon and select the :guilabel:`View Mode`, :guilabel:`Sort By` criteria, and tick the boxes for additional columns.
@@ -130,8 +127,7 @@ A neat feature is to have a preview in the thumbnails for video files. This allo
       :width: 301px
       :figwidth: 301px
       :align: left
-      :alt: project_bin_scale_view
-
+   
       Scaling the project bin view
 
    Check the :guilabel:`Show Video Preview in Thumbnails` to enable the feature.

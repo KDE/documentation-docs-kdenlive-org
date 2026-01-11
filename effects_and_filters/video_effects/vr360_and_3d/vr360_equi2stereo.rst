@@ -17,8 +17,7 @@ VR360 Equirectangular to Stereo
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vr360_equi2stereo-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| VR360 Equirectangular to Stereo
 
    :**Status**:

@@ -15,7 +15,6 @@ Channel Extractor BLUE / GREEN / RED
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-channel_extractor_RGB
 
 .. sidebar:: |kdenlive-show-video| Channel Extractor B / G / R
 
@@ -49,7 +48,6 @@ You typically put the same clip in three adjacent tracks in the timeline, add th
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: effects-channel_extractor_RGB-2504.webp
 
    Example of bringing a clip back together after using Channel Extractor
 
@@ -64,7 +62,6 @@ In order to bring the channels back together, use either the :kbd:`Addition` com
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-channel_extractor
 
    Original clip before
 
@@ -73,7 +70,6 @@ In order to bring the channels back together, use either the :kbd:`Addition` com
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-channel_extractor_RED
 
    Result of Channel Extractor RED
 
@@ -82,7 +78,6 @@ In order to bring the channels back together, use either the :kbd:`Addition` com
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-channel_extractor_GREEN
 
    Result of Channel Extractor GREEN
 
@@ -91,6 +86,5 @@ In order to bring the channels back together, use either the :kbd:`Addition` com
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-channel_extractor_BLUE
 
    Result of Channel Extractor BLUE

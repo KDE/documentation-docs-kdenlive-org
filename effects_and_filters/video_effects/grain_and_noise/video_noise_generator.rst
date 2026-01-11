@@ -17,8 +17,7 @@ Video Noise Generator
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-video_noise_generator-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Video Noise Generator
 
    :**Status**:

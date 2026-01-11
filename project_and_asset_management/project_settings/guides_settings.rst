@@ -29,8 +29,7 @@ In this tab you define project-specific categories and colors for markers and ti
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_guides
-
+   
       The Project Settings Markers dialog window
 
    :guilabel:`Add category`: Adds a category
@@ -45,8 +44,7 @@ In this tab you define project-specific categories and colors for markers and ti
 
    .. figure:: /images/project_and_asset_management/project-settings_markers_add-category.webp
       :align: left
-      :alt: project_settings_guides
-
+   
       The category add/edit dialog window
 
    Click on the color button to select a color for the category.

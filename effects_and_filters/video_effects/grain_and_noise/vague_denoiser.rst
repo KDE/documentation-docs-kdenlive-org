@@ -17,8 +17,7 @@ Wavelet Denoiser
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-wavelet_denoiser-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Wavelet Denoiser
 
    :**Status**:

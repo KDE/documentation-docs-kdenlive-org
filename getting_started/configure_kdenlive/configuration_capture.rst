@@ -33,8 +33,7 @@ ScreenGrab
 .. figure:: /images/getting_started/configure_capture_screengrab_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Kdenlive Configure Screen Grab
-
+   
    Configure section Capture: ScreenGrab with Rectangular Region selected
 
 :1: :guilabel:`Region to Capture`. Default is **Full screen**. Selecting **Rectangular Region** opens a panel with additional parameters (as shown in the figure above).
@@ -60,8 +59,7 @@ If you have a |blackmagic| |decklink| video capture card you can set here the im
 .. figure:: /images/getting_started/configure_capture_blackmagic_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Kdenlive_Configure_screen_grab_Blackmagic
-
+   
    Configure section Capture: Blackmagic DeckLink (encoding parameter window open)
 
 :1: :guilabel:`Detected devices`. Lists the devices you can choose from.
@@ -90,8 +88,7 @@ These settings are for configuring the audio device that is used during screen r
 .. figure:: /images/getting_started/configure_capture_audio_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Kdenlive_Configure_screen_grab_audio
-
+   
 
 :1: :guilabel:`Device`. Select the device to be used for recording audio.
 

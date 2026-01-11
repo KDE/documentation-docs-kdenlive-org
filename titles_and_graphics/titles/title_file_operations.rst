@@ -69,8 +69,7 @@ Kdenlive can connect to the KDE Store\ [1]_ to download title templates from the
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: Kdenlive_Download_title_templates
-
+   
    Once these title templates are installed, they can be accessed via the :guilabel:`Template` drop-down list (see (10) in the :ref:`layout description <title-editor_layout>`).
 
 .. rst-class:: clear-both

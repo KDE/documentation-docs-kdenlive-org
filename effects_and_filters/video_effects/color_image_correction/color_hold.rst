@@ -19,7 +19,6 @@ Color Hold
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-color_hold-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Color Hold
 
@@ -73,22 +72,18 @@ This effect/filter removes all color information for all RGB colors except for t
    
    .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
    :class: no-scaled-link
 
    .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
    :class: no-scaled-link
 
    .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
    :class: no-scaled-link
 
    .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
    :class: no-scaled-link
 
    .. |color-picker| image:: /images/icons/color-picker.svg

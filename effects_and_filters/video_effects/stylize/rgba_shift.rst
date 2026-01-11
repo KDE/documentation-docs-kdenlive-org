@@ -17,8 +17,7 @@ RGBA Shift
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-rgba_shift-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| RGBA Shift
 
    :**Status**:

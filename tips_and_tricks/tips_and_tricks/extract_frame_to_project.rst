@@ -20,7 +20,6 @@ If you happen to work a lot with still images from your video source material in
    :align: left
    :width: 250px
    :figwidth: 250px
-   :alt: kdenlive-extract-clip-to-project
 
    Clip and Project Monitor right-click menu item
 

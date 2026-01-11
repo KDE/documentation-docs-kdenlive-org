@@ -43,8 +43,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-      :alt: kdenlive2308_editing_01.gif
-      :width: 350px
+         :width: 350px
 
       Toggle the use of the timeline zone
 
@@ -58,8 +57,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_01.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_02.webp
-      :width: 350px
+         :width: 350px
 
       Setting the clip region for insertion
 
@@ -71,8 +69,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_02.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_01.webp
-      :width: 350px
+         :width: 350px
 
       Setting the insertion point in the timeline
 
@@ -86,8 +83,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_03a.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_03a.webp
-      :width: 350px
+         :width: 350px
 
       Clip region inserted in the timeline
 
@@ -97,8 +93,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_03b.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_03a.webp
-      :width: 350px
+         :width: 350px
 
       Clip region inserted in the timeline
 
@@ -121,8 +116,7 @@ Insert Clip (from In Point) into Timeline Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-      :alt: kdenlive2308_editing_01.gif
-      :width: 350px
+         :width: 350px
 
    This time, we are going to insert some part of a clip to *exactly fit* into the timeline zone. So we now need to switch on Using the Timeline Zone |timeline-use-zone-on|.
 
@@ -134,8 +128,7 @@ Insert Clip (from In Point) into Timeline Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_04.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_04.webp
-      :width: 350px
+         :width: 350px
 
       Setting the in-point in the clip for insertion
 
@@ -147,8 +140,7 @@ Insert Clip (from In Point) into Timeline Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_05.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_05.webp
-      :width: 350px
+         :width: 350px
 
       Defining the timeline zone to be overwritten
 
@@ -162,8 +154,7 @@ Insert Clip (from In Point) into Timeline Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_06.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_06.webp
-      :width: 350px
+         :width: 350px
       :figwidth: 350px
 
       Timeline with clip inserted into and having overwritten the timeline zone
@@ -188,8 +179,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-      :alt: kdenlive2308_editing_01.gif
-      :width: 350px
+         :width: 350px
 
       Toggle the use of the timeline zone
 
@@ -201,8 +191,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_01.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_02.webp
-      :width: 350px
+         :width: 350px
 
       Setting the clip region for the operation
 
@@ -212,8 +201,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_02.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_01.webp
-      :width: 350px
+         :width: 350px
 
       Setting the overwrite start point in the timeline
 
@@ -225,8 +213,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_03.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_03a.webp
-      :width: 350px
+         :width: 350px
 
       Clip region overwrote parts of the timeline
 
@@ -250,8 +237,7 @@ Overwrite Timeline Zone with Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-      :alt: kdenlive2308_editing_01.gif
-      :width: 350px
+         :width: 350px
 
       Toggle the use of the timeline zone
 
@@ -263,8 +249,7 @@ Overwrite Timeline Zone with Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_04.webp
       :align: left
-      :alt: kdenlive2308_editing_insert_04.webp
-      :width: 350px
+         :width: 350px
 
       Setting the in-point in the clip for the operation
 
@@ -276,8 +261,7 @@ Overwrite Timeline Zone with Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_05.webp
       :align: left
-      :alt: kdenlive2308_editing_overwrite_05.webp
-      :width: 350px
+         :width: 350px
 
       Defining the timeline zone for overwriting
 
@@ -291,8 +275,7 @@ Overwrite Timeline Zone with Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_06.webp
       :align: left
-      :alt: kdenlive2308_editing_overwrite_06.webp
-      :width: 350px
+         :width: 350px
       :figwidth: 350px
 
       Timeline with clip having overwritten the timeline zone

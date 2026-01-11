@@ -143,7 +143,6 @@ The following selection items are available:
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-alpha_shapes_example.webp
    :width: 800px
-   :alt: kdenlive2304_effects-alpha_shapes_example
 
    Alpha Shapes example timeline
 
@@ -159,7 +158,6 @@ The Max and Min values adjust the opacity of the clip inside and outside of the 
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive2304_effects-alpha_shapes_example_1
 
    Max parameter at 1000
 
@@ -171,7 +169,6 @@ The :guilabel:`Max` parameter controls how opaque it is *inside* the shape. At M
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: Alpha_shapes_max_control
 
       Max parameter at 500
 
@@ -183,7 +180,6 @@ The :guilabel:`Max` parameter controls how opaque it is *inside* the shape. At M
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: Alpha_shapes_max_control3
 
       Max parameter at 0; Min parameter at 0
 
@@ -198,7 +194,6 @@ The :guilabel:`Max` parameter controls how opaque it is *inside* the shape. At M
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive2304_effects-alpha_shapes_example_4
 
    Min parameter at 100
 
@@ -210,7 +205,6 @@ The :guilabel:`Min` parameter adjusts how opaque it is *outside* the shape. When
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-alpha_shapes_example_5
 
       Min parameter at 1000
 
@@ -225,7 +219,6 @@ The :guilabel:`Min` parameter adjusts how opaque it is *outside* the shape. When
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive2304_effects-alpha_shapes_example_14
 
    Alpha Shape effects stacked: (1) & (2)
 
@@ -237,7 +230,6 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-alpha_shapes_example_8
 
       Max at 1000; Min at 500
 
@@ -249,7 +241,6 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-alpha_shapes_example_9
 
       Operation set to Max
 
@@ -261,7 +252,6 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-alpha_shapes_example_10
 
       Operation set to Min
 
@@ -273,7 +263,6 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-alpha_shapes_example_11
 
       Operation set to Add
 
@@ -285,7 +274,6 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: Okdenlive2304_effects-alpha_shapes_example_12
 
       Operation set to Subtract
 
@@ -297,7 +285,6 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-alpha_shapes_example_13
 
       Operation set to Subtract; Min = 0
 
@@ -312,7 +299,6 @@ In this example, we added a second alpha shape effect (2) using a triangle as th
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: Operation_max
 
    Transition width set to 100 (default = 200) for feathering
 

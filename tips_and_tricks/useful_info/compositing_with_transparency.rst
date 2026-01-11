@@ -42,8 +42,7 @@ Affine: Atop Compositing
 
    .. image:: /images/affine-transition-atop.png
       :align: left
-      :alt: affine-transition-atop
-      :width: 350px
+         :width: 350px
 
    The result of the **atop** compositing is best explained at first by showing its outcome: Text from the topmost title clip (partly) vanishes in those regions where the underlying clip on the middle track is (semi) transparent.
 
@@ -55,8 +54,7 @@ Affine: Atop Compositing
 
    .. image:: /images/Alpha-Compositing-1.jpg
       :align: left
-      :alt: Alpha-Compositing-1
-      :width: 350px
+         :width: 350px
 
    But how does the **Affine** transition exactly handle transparency? Let's look at this hand-made illustration, where we have two pixels with some transparency each (the alpha values, αA and αB). It is important to **not** confuse pixel transparency with the opaque parameter of transitions.
 
@@ -78,8 +76,7 @@ Composite & Co: Over Compositing
 
    .. image:: /images/composite-transition-over.png
       :align: left
-      :alt: composite-transition-over
-      :width: 350px
+         :width: 350px
 
    Again, we basically use the same setup as before, but this time we use **Composite & Transform** in place of **Affine** transitions. We chain the transitions as before, so that the lower transition works on the outcome of the upper transition.
 
@@ -89,8 +86,7 @@ Composite & Co: Over Compositing
 
    .. image:: /images/Alpha-Compositing-2.jpg
       :align: left
-      :alt: Alpha-Compositing-2
-      :width: 350px
+         :width: 350px
 
    As the **over** operation produces results more to the expectations of many users, how does it handle transparency exactly?
 
@@ -113,8 +109,7 @@ The dynamic compositing transitions also feature a parameter called **Opacity**.
 
    .. image:: /images/Alpha-Compositing-3.jpg
       :align: left
-      :alt: Alpha-Compositing-3
-      :width: 350px
+         :width: 350px
 
    Let's start with the **Affine** transition, again. Above, we have seen that Affine ignores the transparency of the (red) upper frame pixels. And Affine also **ignores** the **opacity** parameter when calculating the result **pixel transparency**.
 
@@ -126,8 +121,7 @@ The dynamic compositing transitions also feature a parameter called **Opacity**.
 
    .. image:: /images/Alpha-Compositing-4.jpg
       :align: left
-      :alt: Alpha-Compositing-4
-      :width: 350px
+         :width: 350px
 
    Next, let's look at the other transitions: **Composite** & Co.
 

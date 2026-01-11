@@ -22,8 +22,7 @@ Color Space
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-color_space-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Color Space
 
    :**Status**:
@@ -287,20 +286,16 @@ For the technical inclined there is a list of detailed |color_space_descriptions
    
    .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
-   :class: no-scaled-link
+      :class: no-scaled-link
 
    .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
-   :class: no-scaled-link
+      :class: no-scaled-link
 
    .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
-   :class: no-scaled-link
+      :class: no-scaled-link
 
    .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
-   :class: no-scaled-link
+      :class: no-scaled-link

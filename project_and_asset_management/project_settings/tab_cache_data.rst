@@ -29,8 +29,7 @@ The Cache Data tab shows the data used in the project including the timeline pre
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_cache_data
-
+   
       The Project Settings Cache Data dialog window
 
 .. rst-class:: clear-both

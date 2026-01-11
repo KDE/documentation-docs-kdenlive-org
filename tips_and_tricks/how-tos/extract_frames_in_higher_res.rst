@@ -33,14 +33,12 @@ Project Profile and Profile-Differing Footage
 
 ..   .. image:: /images/hires-frames-rawvideo-clipmonitor.jpeg
       :align: left
-      :alt: hires-frames-rawvideo-clipmonitor
-      :width: 350px
+         :width: 350px
 
 In some projects you may face source footage that *does not match the project profile at all*. For instance, when working with certain screen recordings, especially when recorded on tablets and smartphones. The recordings might be even in a different orientation\ [#f1]_.
 
 .. image:: /images/tips_and_tricks/hires-frames-rawvideo-properties.jpeg
    :align: left
-   :alt: hires-frames-rawvideo-properties
    :width: 250px
 
 To give a concrete example: Recording the screen of an Android Tablet, say, a Samsung Galaxy Tab S3 gives raw footage with a frame size of 1536x2048 pixels with 2:3 aspect ratio (because the portrait orientation). Even when recording in landscape orientation, the 3:2 display aspect ratio isn't ideal. And you may very well want to record in original resolution in order to not loose later downstream during post production when you may need the reverse in the raw footage.
@@ -51,14 +49,12 @@ To give a concrete example: Recording the screen of an Android Tablet, say, a Sa
 
 .. .. image:: /images/hires-frames-frame-clipmonitor.jpeg
    :align: left
-   :alt: hires-frames-frame-clipmonitor
    :width: 350px
 
 Unfortunately, if you need to work with still images extracted from such source footage, then you might have already met a nasty surprise: Kdenlive's media engine MLT extracts still frames always according to the :doc:`project settings </project_and_asset_management/project_settings/general_settings>`. Consider you have a FullHD 1920x1080 pixels 19:6 project. And the screencast footage is 1536x2048 pixels with 2:3 portrait aspect ratio. Then you end up with extracted frames of 1920x1080 pixels size with a landscape 16:9 aspect ratio and a lot of transparent space, but not the expected 1536x2048. So not only the resolution changed, but also the aspect ratio.
 
 .. image:: /images/tips_and_tricks/hires-frames-frame-properties.jpeg
    :align: left
-   :alt: hires-frames-frame-properties
    :width: 250px
 
 Hardly what you want here, as our detail screenshot shows. When comparing this clip monitor screenshot with the clip monitor screenshot taken from the raw footage, you'll notice their different qualities. It does not matter which one you prefer, the issue is that they noticeably differ.
@@ -99,7 +95,6 @@ Remember that we wrote above that Kdenlive extracts frames from bin clips using 
 
 .. image:: /images/tips_and_tricks/hires-frames-hiresframe-properties.jpeg
    :align: left
-   :alt: hires-frames-hiresframe-properties
    :width: 250px
    
 After you have run the ``extract-frames`` script, you should notice in Kdenlive's clip properties pane that the extracted frame PNGs are now having the correct original frame size and aspect ratio. Just for completeness: the clip preview monitor now shows the same image quality as the original raw footage does. So you are all set to finalize and tape-out, erm, render your project.

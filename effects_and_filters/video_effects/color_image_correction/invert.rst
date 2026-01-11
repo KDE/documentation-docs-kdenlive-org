@@ -15,8 +15,7 @@ Invert / Invert0r
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-invert0r
-
+   
 .. sidebar:: |kdenlive-show-video| Invert / Invert0r
 
    :**Status**:

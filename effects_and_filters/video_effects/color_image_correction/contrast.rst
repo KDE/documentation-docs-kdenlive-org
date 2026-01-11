@@ -15,7 +15,6 @@ Contrast
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-contrast-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Contrast
 

@@ -20,7 +20,6 @@ You can configure the default duration for all newly created transitions. In ver
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_config_default_transition_duration.webp
    :align: left
-   :alt: kdenlive2308_config_default_transition_duration.webp
    :width: 350px
    
    :menuselection:`Menu --> Settings --> Configure Kdenlive`

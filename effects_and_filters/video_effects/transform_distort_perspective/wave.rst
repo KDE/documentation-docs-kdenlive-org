@@ -17,8 +17,7 @@ Wave
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-wave-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Wave
 
    :**Status**:

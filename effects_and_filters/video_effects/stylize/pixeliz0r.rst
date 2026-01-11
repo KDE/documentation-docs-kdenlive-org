@@ -17,8 +17,7 @@ Pixelize (basic)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-pixeliz0r-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Pixelize (basic)
 
    :**Status**:

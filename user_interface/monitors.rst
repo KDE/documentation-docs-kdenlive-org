@@ -70,7 +70,6 @@ Monitor Display Toolbar
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2308_ui-monitor_overlay
 
    Monitor Display Toolbar and overlay options
 
@@ -115,7 +114,6 @@ Monitor and Effect Direct Control
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2408_ui-monitor_effect_direct_control
 
    Directly changing position and size, grid enabled
 
@@ -186,7 +184,6 @@ Monitor Change Overlay Color and Grid Size
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_ui-monitor_overlay_color
 
    Changing the color of the monitor overlay and grid size
 
@@ -204,7 +201,6 @@ Resizing the Monitor
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_ui-monitor_resize
 
    Resizing the monitor widget
 
@@ -224,7 +220,6 @@ Monitor Zoom Bar
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive-ui-monitor_zoombar
 
    Monitor zoom bar (audio file example)
 
@@ -266,7 +261,6 @@ Multitrack View
 You enable the multitrack view via :menuselection:`Menu --> Monitor --> Multitrack view` or via right-click in the Project Monitor area and selecting :guilabel:`Multitrack View` or by pressing :kbd:`F12`.
 
 .. image:: /images/Multicam0.gif
-   :alt: Multicam
 
 The multitrack view interface allows you to select a track in the timeline by clicking on the project monitor. See the section about :ref:`multicam editing <multicam_tool>` for using it during Editing.
 
@@ -281,7 +275,6 @@ If you want to have the :ref:`Clip <ui-monitors_clip_monitor>` and/or the :ref:`
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_separate_windows.gif
    :width: 100%
    :figwidth: 100%
-   :alt: kdenlive2308_ui-monitors_separate_windows
 
    Moving Clip and Project Monitor to their own independent windows (undocking)
 

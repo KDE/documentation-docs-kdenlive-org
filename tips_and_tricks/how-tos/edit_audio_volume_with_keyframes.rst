@@ -25,7 +25,6 @@ In this *How-to* video we show you how to edit the audio volume of a clip using 
 .. image:: /images/tips_and_tricks/edit_audio_volume_with_keyframes.webp
    :width: 418px
    :align: center
-   :alt: edit_audio_volume_with_keyframes.webp
    :target: https://kdenlive.org/wp-content/uploads/2016/12/volume.mp4
 
 | 

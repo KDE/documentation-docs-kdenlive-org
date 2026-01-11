@@ -17,8 +17,7 @@ Interleave - Deinterleave
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-interleave-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Interleave - Deinterleave
 
    :**Status**:

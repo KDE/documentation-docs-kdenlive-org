@@ -26,8 +26,7 @@ Rotate and Shear
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-rotate_and_shear
-
+   
 .. sidebar:: |kdenlive-show-video| Rotate and Shear
 
    :**Status**:
@@ -93,8 +92,7 @@ The effect has keyframes but not for the rotation and the shear degrees. This is
    :width: 400px
    :figwidth: 400px
    :align: center
-   :alt: kdenlive2304_effects-rotate_and_shear_axes
-
+   
    Rotate and Shear effect axis visualization
 
 

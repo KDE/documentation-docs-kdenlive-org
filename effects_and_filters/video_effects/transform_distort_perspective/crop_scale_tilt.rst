@@ -22,8 +22,7 @@ Crop, Scale and Tilt
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-crop_scale_tilt-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Crop, Scale and Tilt\ [1]_
 
    :**Status**:

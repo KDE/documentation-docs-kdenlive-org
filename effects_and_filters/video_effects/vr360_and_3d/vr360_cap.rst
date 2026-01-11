@@ -17,8 +17,7 @@ VR360 Cap Top and Bottom
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vr360_cap-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| VR360 Cap Top and Bottom
 
    :**Status**:

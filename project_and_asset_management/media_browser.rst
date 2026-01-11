@@ -25,8 +25,7 @@ The main advantage of using the Media Browser is the ability to drag clips not o
 .. container:: 
 
    .. figure:: /images/project_and_asset_management/project_bin_clips_add.webp
-      :alt: project_bin_clips_add
-
+   
       The Media Browser layout and controls
 
 .. rst-class:: clear-both
@@ -71,7 +70,6 @@ The main advantage of using the Media Browser is the ability to drag clips not o
 
 .. image:: /images/Media-browser.gif
    :align: left
-   :alt: media-browser
 
 .. note:: 
   Depending on the version of Kdenlive, the Media Browser may look slightly differently.
@@ -79,8 +77,7 @@ The main advantage of using the Media Browser is the ability to drag clips not o
 .. container:: 
 
    .. figure:: /images/project_and_asset_management/media_browser_2.webp
-      :alt: media_browser_2
-
+   
       Alternative Media Browser layout and controls
 
 .. rst-class:: clear-both

@@ -17,8 +17,7 @@ Stereoscopic 3D
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-stereoscopic_3d
-
+   
 .. sidebar:: |kdenlive-show-video| Stereoscopic 3D
 
    :**Status**:

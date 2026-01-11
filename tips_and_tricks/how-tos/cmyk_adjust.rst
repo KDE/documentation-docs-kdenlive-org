@@ -22,7 +22,6 @@ Naturally, digital video footage uses the :abbr:`RGB (Red Green Blue)` :term:`co
 .. figure:: /images/effects_and_compositions/effects-cmyk_adjust-2504.webp
    :align: left
    :width: 350px
-   :alt: effects-cmyk_adjust-2504.webp
 
    CMYK Adjust effect
 

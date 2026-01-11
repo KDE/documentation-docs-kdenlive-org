@@ -17,8 +17,7 @@ Hue Saturation Intensity
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-hue_saturation_intensity-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Hue Saturation Intensity
 
    :**Status**:

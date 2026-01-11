@@ -16,8 +16,7 @@ HSL Range
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-hsl_range-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| HSL Range
 
    :**Status**:

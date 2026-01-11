@@ -151,8 +151,7 @@ These settings tell Kdenlive where project files are to be stored. It also contr
 
    .. figure:: /images/getting_started/configure_environment_python_appimage_2_2412.webp
       :width: 500px
-      :alt: configure_environment_python_appimage_2_2412
-
+      
       Python tab on Linux (appimage) using venv
 
    :guilabel:`Use python virtual environment (recommended)`. When enabled, Kdenlive creates a :file:`venv` folder and copies/symlinks *Python* into this folder.
@@ -170,26 +169,22 @@ These settings tell Kdenlive where project files are to be stored. It also contr
 
    .. figure:: /images/getting_started/kdenlive2402_configure_environment_python.webp
       :width: 500px
-      :alt: Kdenlive_Configure_environment_python
-
+      
       Python tab on Windows
 
    .. figure:: /images/getting_started/configure_environment_python_appimage_1_2412.webp
       :width: 500px
-      :alt: configure_environment_python_appimage_1_2412
-
+      
       Python tab on Linux (appimage) not using venv
 
    .. figure:: /images/getting_started/configure_environment_python_flatpak_1_2412.webp
       :width: 500px
-      :alt: configure_environment_python_flatpak_1_2412
-
+      
       Python tab on Linux (flatpak) not using venv
 
    .. figure:: /images/getting_started/configure_environment_python_flatpak_2_2412.webp
       :width: 500px
-      :alt: configure_environment_python_flatpak_2_2412
-
+      
       Python tab on Linux (flatpak) using venv
 
 

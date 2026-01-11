@@ -50,8 +50,7 @@ Folders help keeping the Project Bin organized, structured, and easy to navigate
       :width: 334px
       :figwidth: 334px
       :align: left
-      :alt: project_bin_folder_create
-
+   
       Creating folders in the project bin
       
    You create a folder by clicking the |folder-new|\ :guilabel:`Create Folder` icon in the project bin toolbar.

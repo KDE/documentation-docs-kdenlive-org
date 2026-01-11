@@ -26,8 +26,7 @@ VR360 Hemispherical to Equirectangular
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vr360_hemi2equi-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| VR360 Hemispherical to Equirectangular
 
    :**Status**:

@@ -15,7 +15,6 @@ CMYK Adjust
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-cmyk_adjust-2504.webp
 
 .. sidebar:: |kdenlive-show-video| CMYK Adjust
 

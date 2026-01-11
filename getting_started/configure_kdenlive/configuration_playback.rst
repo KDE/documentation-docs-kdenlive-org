@@ -20,8 +20,7 @@ This section configures the options for playback.
 .. figure:: /images/getting_started/configure_playback_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Kdenlive Configure Playback
-
+   
    Configure Playback section
 
 :1: :guilabel:`Play/pause monitor on mouse click`. If checked, clicking anywhere in the clip or project monitor starts or stops the playback. If unchecked, you can use the mouse to perform other operations in the monitors but need to use keyboard shortcuts to start or stop playback (e.g. J-K-L or Space).

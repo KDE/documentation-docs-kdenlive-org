@@ -17,8 +17,7 @@ Analog Video Echo
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-aech0r-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Analog Video Echo
 
    :**Status**:

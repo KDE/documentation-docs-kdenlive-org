@@ -20,7 +20,6 @@ Project Monitor
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive_ui-monitors_pm_elements
 
    Project Monitor elements
 
@@ -50,7 +49,6 @@ Hamburger Menu
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_ui-monitor_pm_options
 
    Project Monitor options
 
@@ -78,7 +76,6 @@ Creating Zones
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive_ui-monitors_pm_zone
 
    Project Monitor zone
 
@@ -100,7 +97,6 @@ Right-click Menu
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2304_ui-monitor_pm_right-click
 
    Project Monitor right-click menu options
 
@@ -177,7 +173,6 @@ These are the menu items that are available when you right-click in the Project 
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_save_image.webp
    :width: 350px
    :figwidth: 350px
-   :alt: kdenlive2308_ui-monitors_save_image
 
    Save Image dialog for extracting frames
 
@@ -227,7 +222,6 @@ Multitrack View
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive_ui-monitors_pm_multitrack
 
 Selecting this allows you to view all the video tracks at once in a split screen in the project monitor. Kdenlive starts with video track #1 in the top left corner and displays the other tracks sequentially. Hidden tracks are not displayed.
 

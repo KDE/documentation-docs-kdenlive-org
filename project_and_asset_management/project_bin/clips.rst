@@ -35,8 +35,7 @@ In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or
 .. container:: clear-both
 
    .. figure:: /images/project_and_asset_management/project_bin_clips_add.webp
-      :alt: project_bin_clips_add
-
+   
       Add Clip dialog window
 
 .. rst-class:: clear-both

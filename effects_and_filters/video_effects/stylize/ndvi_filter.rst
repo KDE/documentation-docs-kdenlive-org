@@ -18,8 +18,7 @@ NDVI Filter
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-ndvi_filter-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| NDVI Filter
 
    :**Status**:

@@ -17,8 +17,7 @@ Light Show
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-light_show-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Light Show
 
    :**Status**:

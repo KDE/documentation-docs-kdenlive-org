@@ -22,8 +22,7 @@ Nosync0r (Broken TV)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-nosync0r
-
+   
 .. sidebar:: |kdenlive-show-video| Nosync0r
 
    :**Status**:

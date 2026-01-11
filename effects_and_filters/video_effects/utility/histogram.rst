@@ -17,8 +17,7 @@ Histogram
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-histogram-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Histogram
 
    :**Status**:

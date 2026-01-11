@@ -34,7 +34,6 @@ The Compositions widget has six control icons that show or hide the different ef
    :align: left
    :width: 350px
    :figwidth: 350px
-   :alt: kdenlive_compositions_tab
 
    Kdenlive Compositions widget as a tab in the Project Bin area
 

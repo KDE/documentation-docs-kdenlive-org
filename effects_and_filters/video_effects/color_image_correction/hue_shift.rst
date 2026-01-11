@@ -15,8 +15,7 @@ Hue Shift
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-hue_shift-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Hue Shift
 
    :**Status**:

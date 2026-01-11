@@ -15,8 +15,7 @@ Gamma (keyframable)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-gamma_keyframe-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Gamma (keyframable)
 
    :**Status**:

@@ -15,8 +15,7 @@ Negate
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-negate
-
+   
 .. sidebar:: |kdenlive-show-video| Negate
 
    :**Status**:

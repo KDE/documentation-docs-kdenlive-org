@@ -26,8 +26,7 @@ Lens Correction (frei0r)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-lens_correction_frei0r-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Lens Correction
 
    :**Status**:

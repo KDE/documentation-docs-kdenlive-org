@@ -24,8 +24,7 @@ FFT-based FIR
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-fft_based_fir-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| FFT-based FIR
 
    :**Status**:

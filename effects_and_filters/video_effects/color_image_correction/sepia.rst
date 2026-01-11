@@ -20,8 +20,7 @@ Sepia
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-sepia-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Sepia
 
    :**Status**:

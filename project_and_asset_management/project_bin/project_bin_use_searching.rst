@@ -37,8 +37,7 @@ You can search by name for any asset in the Project Bin.
       :width: 332px
       :figwidth: 332px
       :align: left
-      :alt: project_bin_searching
-
+   
       Searching the Project Bin
 
    Enter the search term into the :guilabel:`Search` field. Kdenlive will start filtering the asset list immediately and continue adjusting the search results as you type.

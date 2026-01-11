@@ -17,8 +17,7 @@ Alphaextract
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-alphaextract
-
+   
 .. sidebar:: |kdenlive-show-video| Alphaextract
 
    :**Status**:
@@ -51,6 +50,5 @@ If the source does not have an alpha channel, the following error message comes 
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: effects-alphaextract_error-2504.webp
-
+   
    Alphaextract effect error message

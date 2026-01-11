@@ -17,8 +17,7 @@ Vignette Effect
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vignette_effect-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Vignette Effect
 
    :**Status**:

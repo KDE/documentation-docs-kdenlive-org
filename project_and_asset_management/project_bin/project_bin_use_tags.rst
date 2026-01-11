@@ -40,8 +40,7 @@ Tags are a good way to stay organized as they give you a quick overview of the n
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_toolbar_tags
-      
+         
       Enabling the tags panel
 
    Click on the |tag|\ :guilabel:`Tags Panel` icon in the project bin toolbar to enable the panel.
@@ -62,8 +61,7 @@ Assigning tags is as simple as selecting a clip and then clicking the appropriat
       :width: 334px
       :figwidth: 334px
       :align: left
-      :alt: project_bin_tags_assign
-   
+      
       Assigning tags to clips
 
    A clip can have more than one tag.
@@ -84,8 +82,7 @@ Editing Tags
       :width: 334px
       :figwidth: 334px
       :align: left
-      :alt: project_bin_tags_edit
-
+   
       Editing tags
       
    You can change the description and color of existing tags.
@@ -112,8 +109,7 @@ You can filter the project bin list using tags.
    .. figure:: /images/project_and_asset_management/project_bin_tags_filter.gif
       :width: 334px
       :align: left
-      :alt: project_bin_tags_filter
-
+   
       Filtering using tags
 
    Note how the background of the |view-filter|\ icon changes as soon as filter criteria have been selected.

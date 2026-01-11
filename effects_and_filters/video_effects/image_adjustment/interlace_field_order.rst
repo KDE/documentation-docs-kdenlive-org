@@ -17,8 +17,7 @@ Interlace Field Order
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-interlace_field_order
-
+   
 .. sidebar:: |kdenlive-show-video| Interlace Field Order
 
    :**Status**:

@@ -17,8 +17,7 @@ Timer
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-timer-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Timer
 
    :**Status**:

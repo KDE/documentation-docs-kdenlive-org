@@ -25,8 +25,7 @@ Audio Level Visualization Filter
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-audio_level_visualization-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Audio Level Visualization Filter
 
    :**Status**:
@@ -131,8 +130,7 @@ The following selection items are available:
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-audio_level_visualization_filter_example
-
+   
    Example of the Audio Level Visualization Filter effect
 
 * :guilabel:`Line Thickness` set to **8**

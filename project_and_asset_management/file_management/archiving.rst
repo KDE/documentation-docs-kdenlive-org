@@ -26,7 +26,6 @@ The Archiving feature (:menuselection:`Menu --> File --> Archive Project`, see :
    :width: 360px
    :figwidth: 360px
    :align: left
-   :alt: Archive
 
    Archiving the project
 
@@ -40,8 +39,7 @@ This can be useful if you finished working on a project and want to keep a copy 
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: open_archived_project
-
+   
    The resulting tar.gz or zip file can be opened directly in **Kdenlive** with :menuselection:`Menu --> File --> Open`, then switch file ending to :guilabel:`Archived Project`.
 
 .. container:: clear-both
@@ -50,8 +48,7 @@ This can be useful if you finished working on a project and want to keep a copy 
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: open_archived_project_target
-
+   
    Kdenlive will extract the archive to a location you specify before opening it.
 
 .. container:: clear-both
@@ -60,6 +57,5 @@ This can be useful if you finished working on a project and want to keep a copy 
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: open_project_missing_files
-
+   
    If you have archived the project with the option :guilabel:`Archive only timeline clips`, **Kdenlive** will ask what it should do with the not archived clips.

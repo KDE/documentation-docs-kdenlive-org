@@ -17,8 +17,7 @@ Distort
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-distort-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Distort
 
    :**Status**:

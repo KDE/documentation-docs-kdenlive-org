@@ -17,7 +17,6 @@ Backgroundkey
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-backgroundkey-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Backgroundkey
 

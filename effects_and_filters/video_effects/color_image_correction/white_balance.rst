@@ -15,8 +15,7 @@ White Balance
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-white_balance-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| White Balance
 
    :**Status**:

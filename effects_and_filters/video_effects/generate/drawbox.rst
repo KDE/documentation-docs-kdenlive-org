@@ -17,8 +17,7 @@ Draw Box
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-draw_box-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Draw Box
 
    :**Status**:

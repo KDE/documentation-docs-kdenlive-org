@@ -15,7 +15,6 @@ Contrast Adaptive Sharpen (CAS)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-CAS-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Contrast Adaptive Sharpen (CAS)
 

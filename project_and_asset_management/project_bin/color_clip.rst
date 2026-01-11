@@ -34,8 +34,7 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
       :width: 206px
       :figwidth: 206px
       :align: left
-      :alt: project_bin_add_color_clip
-
+   
       Adding a color clip
 
    This opens a small dialog window to determine the duration and color of the clip.
@@ -48,8 +47,7 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
       :width: 206px
       :figwidth: 206px
       :align: left
-      :alt: project_bin_color_clip
-
+   
       Color clip dialog window
    
    Enter a name for the color clip.

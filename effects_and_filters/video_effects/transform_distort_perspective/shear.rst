@@ -22,8 +22,7 @@ Shear
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-shear-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Shear
 
    :**Status**:

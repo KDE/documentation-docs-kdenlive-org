@@ -21,7 +21,6 @@ Obscure
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-obscure-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Obscure
 
@@ -76,7 +75,6 @@ Hide a region of the clip by pixelizing it (obscure). The effect's pixelization 
    :align:  left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive2304_effects-obscure
 
    Obscure effect panel and results (default settings)
 
@@ -101,20 +99,16 @@ The `Align` buttons can be used to align the red rectangle with the left, vertic
 
    .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
    :class: no-scaled-link
 
    .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
    :class: no-scaled-link
 
    .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
    :class: no-scaled-link
 
    .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
    :class: no-scaled-link

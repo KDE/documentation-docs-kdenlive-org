@@ -16,7 +16,6 @@ Directional Blur (Dblur)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-dblur_2412
 
 .. sidebar:: |kdenlive-show-video| Directional Blur
 

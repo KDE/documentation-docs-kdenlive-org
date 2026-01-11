@@ -37,7 +37,7 @@ Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :doc:
 
 
 .. image:: /images/Kdenlive-addcliptotimeline.gif
-   :alt: add clip to timeline
+
 
 .. .. versionadded:: 19.08.0
    Editing with keyboard shortcuts was introduced
@@ -91,7 +91,6 @@ To even more precisely control the length of a clip, double click it in the time
 
 
 .. image:: /images/kdenlive_timeline_current_clip_duration02.png
-   :alt: clip duration
 
 
 You can also resize a clip by cutting it with the  `Razor Tool`_ and then deleting the bit you do not want.
@@ -103,12 +102,10 @@ Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or
 :kbd:`alt + Move` in timeline allows to move the audio or video part to another track independently.
 
 .. image:: /images/av-metamove.gif
-   :alt: av-metamove
 
 .. .. versionadded:: 23.08
 
 .. figure:: /images/resize_clip_yellow_indicator.gif
-   :alt: resize clip yellow indicator
 
 Select a clip in the project bin. When resizing this clip in the timeline the clip monitor shows a yellow indicator relative to the original clip length. 
 
@@ -133,7 +130,6 @@ The duration/resize is linked to the start position of each clip. Meaning if you
 .. figure:: /images/kdenlive2504_resizing-multiple-clip.webp
    :width: 50%
    :figwidth: 50%
-   :alt: All selected clips have the same length
 
    Selection with :kbd:`Shift + drag` shows the length of the most left clip 
 
@@ -148,7 +144,6 @@ Change duration with :guilabel:`Ripple resize` enabled
 .. figure:: /images/kdenlive2504_resizing-multiple-clip-ripple.webp
    :width: 50%
    :figwidth: 50%
-   :alt: All selected clips have the same length
 
    Selection with :kbd:`Shift + click` shows the length of the first selected clip
 
@@ -170,13 +165,11 @@ Edit an Animation
 Double click on an animation clip in the timeline and this will open Glaxnimate. 
 
 .. image:: /images/animation_with__background.png
-   :alt: Animation with background
 
 
 The background of the animation in Kdenlive will also be shown in Glaxnimate.
 
 .. image:: /images/glaxnimate_with_background.png
-   :alt: Glaxnimate with background
 
 
 It is possible to have several Glaxnimate instances open, but the background will only be send to the one opened first in Glaxnimate. If you like to see the Kdenlive background of another animation clip, save the animation and close Glaxnimate before you double click another animation clip.
@@ -190,7 +183,7 @@ Change Speed of a Clip
 .. .. versionadded:: 19.08
 
 .. image:: /images/adjustspeed.gif
-   :alt: adjustspeed
+
 
 Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the timeline.
 
@@ -206,7 +199,6 @@ Right click in the space between the clips and choose :menuselection:`Remove Spa
 
 
 .. image:: /images/Kdenlive-removespace.gif
-   :alt: remove space
 
 .. .. versionadded:: 22.12
 
@@ -227,7 +219,6 @@ Adjust timeline zone
 :kbd:`Shift+z` adjusts timeline zone to selected clips
 
 .. image:: /images/adjust_timeline_zone_to_selection.gif
-   :alt: adjust timeline zone to selection
 
 
 .. _timeline_toolbar2:
@@ -239,7 +230,6 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 
 .. image:: /images/Kdenlive-middle-toolbar.png
-   :alt: Middle Toolbar ver  21.04
 
 
 1.  `Track Compositing`_ drop down.
@@ -247,7 +237,6 @@ There is a toolbar between monitors and the timeline that controls various aspec
 .. .. versionchanged:: 22.08
 
 .. image:: /images/Kdenlive-enable-track-composition.png
-   :alt: Kdenlive-enable-track-composition
 
 Track compositing is now a simple checkbox instead of the deprecated none/high resolution choice.
 
@@ -330,7 +319,7 @@ Active buttons are grey.
 .. .. versionadded:: 22.04
 
    .. image:: /images/preview_using_proxy_clips.png
-      :alt: Preview Using Proxy Clips
+
 
    14h. Preview Using Proxy Clips. Option to render preview using original clips, not proxies (disabled by default). 
 
@@ -405,7 +394,7 @@ Active track
    :align: left
    :width: 350px 
    :figwidth: 350px
-   :alt: Editing active track
+
 
    An :term:`active track`
 
@@ -471,13 +460,13 @@ In this edit mode, you can drag a clip onto a track where there is an existing c
 
 
 .. figure:: /images/kdenlive_overwrite_mode_before01.png
-   :alt: kdenlive_overwrite_mode_after01
+
    
    Before
 
 
 .. figure:: /images/kdenlive_overwrite_mode_after01.png
-   :alt: kdenlive_overwrite_mode_after01
+
    
    After
 
@@ -491,7 +480,7 @@ In the "After" screenshot above, you can see that the clip which was dragged fro
 Performing a rearrange edit. This technique lets you quickly change the order of clips in the timeline.
 
 .. image:: /images/Overwrite-mode.gif
-   :alt: Overwrite-mode
+
  
 
 Drag a clip, as you drop it to a new location performs an overwrite edit that overwrites the existing clip.
@@ -505,19 +494,19 @@ With this mode selected and you drop a selection into the timeline the selection
 
 
 .. figure:: /images/Kdenlive_Insert_mode0before.png
-   :alt: Kdenlive_Insert_mode0before
+
    
    Before
 
 
 .. figure:: /images/Kdenlive_Insert_mode1before.png
-   :alt: Kdenlive_Insert_mode1before
+
    
    During
 
 
 .. figure:: /images/Kdenlive_Insert_mode1after.png
-   :alt: Kdenlive_Insert_mode1after
+
    
    After. Incoming Clip inserted. Clips after the insert point are shifted Right
 
@@ -529,7 +518,7 @@ Performing a rearrange edit. Only clips in the destination track are shifted; cl
 It always closes all space in the track.
 
 .. image:: /images/Insert-mode.gif
-   :alt: Insert-mode
+
    
 Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.
 
@@ -560,7 +549,7 @@ Use this tool (|distribute-horizontal|) to temporarily group separate clips and 
 
 .. image:: /images/Kdenlive_Spacer_tool_crop.png
    :width: 300px
-   :alt: spacer tool crop
+
    
 
 
@@ -577,12 +566,12 @@ Slip Tool
 .. .. versionadded:: 21.12
 
 .. image:: /images/slip_trim02.jpg
-   :alt: slip tool
+
 
 Slip keeps the original duration of the clip. Like working with old film material: beneath the given "window" of the clip length it slips the film strip back and forth.
 
 .. image:: /images/slip.gif
-   :alt: slip tool in action
+
 
 Use Slip (|kdenlive-slip|) to trim, in a single operation, the IN and OUT points of a clip forward or backward by the same number of frames, while keeping the original duration and without affecting adjacent clips.
 
@@ -599,7 +588,7 @@ Ripple Tool
 ~~~~~~~~~~~
 
 .. image:: /images/ripple-trim.png
-   :alt: ripple tool
+
 
 Ripple changes the original duration of the clip. Like working with old film material: You lengthen or shorten the film strip and move the adjacent clips back and forth as you do that.
 
@@ -632,7 +621,7 @@ Multicam Tool
 ~~~~~~~~~~~~~
 
 .. image:: /images/multicam.gif
-   :alt: multicam tool
+
    
 The multicam tool allows to cut between several cameras while playback is running. Add your clips in different tracks, but at the same position in the timeline and activate the multicam tool by going to menu :menuselection:`Tool -> Multicam tool`. You may trim the clips in the desired track while the timeline is playing by pressing their corresponding numbers (for track V1, press key :kbd:`1`; for track V2 press key :kbd:`2`, etc…) or simply select the desired track in the project monitor by clicking on it with the mouse.
 
@@ -720,7 +709,7 @@ Show marker comments
 This toggles on and off the display of :ref:`markers` saved within :doc:`clips</project_and_asset_management/project_bin/clips>` (the text with the gold background in the example below) and within :doc:`guides` (the text with the purple background).
 
 .. image:: /images/Kdenlive_Markers_and_guides_crop.png
-   :alt: markers and timeline markers
+
 
 
 Snap
@@ -779,7 +768,6 @@ Source
 
 .. figure:: /images/3p-Source-1.gif
    :align: right
-   :alt: 3point source
    :width: 200px
 
 On the left of the track head the green vertical lines (V1 or A2). The green line is connected to the source clip in the project bin. Only when a clip is selected in the project bin, the green line shows up depending on the type of the clip (A/V clip, picture/title/color clip, audio clip).
@@ -791,7 +779,6 @@ Target
 
 .. figure:: /images/3p-Target-active-1.gif
    :align: right
-   :alt: 3point target
    :width: 200px
 
 In the track head the target V1 or A1 is active when it’s yellow. An active target track reacts to edit operations like insert a clip even if the source is not active.
@@ -813,7 +800,6 @@ Here is a brief introduction to the 3 point editing system.
 
 .. figure:: /images/3p-Insert-clip-1.gif
    :align: right
-   :alt: 3point insert
    :width: 200px
   
 1. Select a clip in the project bin with an up/down arrow
@@ -832,7 +818,6 @@ Here is a brief introduction to the 3 point editing system.
 
    .. figure:: /images/3p-Advanced-edit-1.gif
       :align: right
-      :alt: 3point edit
       :width: 200px
 
    In the following example, we want only to insert the audio part of a clip in A2 and we want to create a gap in all the other video and audio tracks:

@@ -72,8 +72,7 @@ In a new Audacity project, they can be imported in the above order with :menusel
 
 .. figure:: /images/tips_and_tricks/AudacitySurround.jpg
   :width: 650px
-  :alt: AudacitySurround.jpg
-
+ 
   Audacity screenshot
 
 The channel mapping for 5.1 surround sound is:
@@ -101,8 +100,7 @@ The Audacity project should now look something like this:
 
 .. figure:: /images/tips_and_tricks/AudacitySurroundLFE.jpg
   :width: 650px
-  :alt: AudacitySurroundLFE.jpg
-
+ 
   Audacity project screenshot
 
 The next thing to do is to export the project to a multichannel 5.1 surround sound audio file. The format used here is AC-3 (Dolby Digital).
@@ -119,8 +117,7 @@ The "Advanced Mixing Options" dialog should show up. The number of "Output Chann
 
 .. figure:: /images/tips_and_tricks/AdvancedMixingOptions2.jpg
   :width: 650px
-  :alt: AdvancedMixingOptions2.jpg
-
+ 
   Audacity mixing options
 
 The result of the export should be an :file:`*.ac3` file which is playable with e.g. **VLC** or **Dragon Player**.
@@ -148,8 +145,7 @@ Editing Existing Surround Sound
 When adding a clip with more than two channels to a project, Kdenlive creates an audio thumbnail that correctly shows all audio channels:
 
 .. figure:: /images/tips_and_tricks/AudioThumbnail.png
-  :alt: AudioThumbnail.png
-
+ 
   Kdenlive timeline (Note: Older version!)
 
 The clip can be edited and (audio) effects applied to it, and all appears to work just fine - but once rendering the project, it turns out that the audio track in the resulting video file is 2 channels (stereo) only.
@@ -190,8 +186,7 @@ The tracks now look like this:
 
 .. figure:: /images/tips_and_tricks/AudacityChannels2.jpg
   :width: 650px
-  :alt: AudacityChannels2.jpg
-
+ 
   Audacity project screenshot
 
 After all this hard work, exporting the four tracks to four separate audio files is easy with :menuselection:`Menu --> File --> Export --> Export Multiple...`. Use "WAV" as "Export format", the rest of the settings should already be okay: "Split files based on: Tracks" and "Name files: Using Label/Track name".
@@ -214,8 +209,7 @@ The Kdenlive project should now be ready for the usual editing, like cutting cli
 
 .. figure:: /images/tips_and_tricks/KdenliveProjectEdit.jpg
   :width: 650px
-  :alt: KdenliveProjectEdit.jpg
-
+ 
   Kdenlive project example (Note: older version!)
 
 
@@ -231,8 +225,7 @@ Then, each of the four surround sound audio tracks :file:`Front.wav`, :file:`Cen
 .. figure:: /images/tips_and_tricks/kdenlive2308_render_audio.webp
   :width: 350px
   :align: left
-  :alt: kdenlive2308_render_audio.webp
-
+ 
   Exporting audio only in separate tracks
 
 * Mute all other audio tracks
@@ -273,8 +266,7 @@ The **Advanced Mixing Options** dialog should show up. The number of **Output Ch
 
 .. figure:: /images/tips_and_tricks/AdvancedMixingOptions.jpg
   :width: 650px
-  :alt: AdvancedMixingOptions.jpg
-
+ 
   Audacity advanced mixing options
 
 The result of the export should be an :file:`*.ac3` file which is playable with i.e. **VLC** or **Dragon Player**.

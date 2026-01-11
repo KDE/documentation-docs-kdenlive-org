@@ -709,22 +709,18 @@ rst_epilog = """
 
 .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
    :class: no-scaled-link
 
 .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
    :class: no-scaled-link
 
 .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
    :class: no-scaled-link
 
 .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
    :class: no-scaled-link
 
 """

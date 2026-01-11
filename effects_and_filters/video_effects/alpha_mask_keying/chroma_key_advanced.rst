@@ -23,7 +23,6 @@ Chroma Key: Advanced
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: Color_selection_effect
 
 .. sidebar:: |kdenlive-show-video| Chroma Key Advanced
 

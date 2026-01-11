@@ -17,8 +17,7 @@
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-3-level_threshold
-
+   
 .. sidebar:: |kdenlive-show-video| 3-Level Threshold
 
    :**Status**:

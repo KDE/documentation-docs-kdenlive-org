@@ -27,8 +27,7 @@ SOP/Sat
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-sop_sat-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| :abbr:`SOP/Sat (S(lope), O(ffset), P(ower) / SATuration)`
 
    :**Status**:

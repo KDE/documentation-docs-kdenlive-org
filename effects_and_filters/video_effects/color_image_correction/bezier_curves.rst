@@ -25,7 +25,6 @@ Bezier Curves
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-bezier_curves-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Bezier Curves
 

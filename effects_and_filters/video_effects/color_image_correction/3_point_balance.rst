@@ -20,7 +20,6 @@
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-3_point_balance-2504.webp
 
 .. sidebar:: |kdenlive-show-video| 3-Point Balance
 
@@ -90,22 +89,18 @@ This effect is a simple implementation of the Bezier Curves effect. With the sim
    
    .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
    :class: no-scaled-link
 
    .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
    :class: no-scaled-link
 
    .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
    :class: no-scaled-link
 
    .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
    :class: no-scaled-link
 
    .. |color-picker| image:: /images/icons/color-picker.svg

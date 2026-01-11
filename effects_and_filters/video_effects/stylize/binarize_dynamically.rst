@@ -18,8 +18,7 @@ Binarize Dynamically
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-binarize_dynamically
-
+   
 .. sidebar:: |kdenlive-show-video| Binarize Dynamically
 
    :**Status**:

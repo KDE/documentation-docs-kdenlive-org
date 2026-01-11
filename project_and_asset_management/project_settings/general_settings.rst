@@ -29,8 +29,7 @@ The first tab in the Project Settings dialog is for general project settings. It
 
    .. figure:: /images/project_and_asset_management/project_settings_settings.webp
       :align: left
-      :alt: project_settings
-
+   
       The Project Settings dialog window
 
 .. rst-class:: clear-both
@@ -98,8 +97,7 @@ For example, if your desired output is a 4K video, select one of the 4K profiles
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_preview_profile_create
-
+   
       Creating a new project profile
 
 You can manage the list of project profiles from here. Click on the |configure|\ :guilabel:`Manage project profiles` icon. By default, the profile currently highlighted in the list will be opened for editing. In case this is the profile used in the current project, an error message will be displayed saying that it cannot be edited while the project is open.
@@ -151,8 +149,7 @@ This setting determines what codec to use for the :doc:`preview render feature</
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_preview_profile
-
+   
       The list of available preview profiles
 
 You can also change the settings for the various preview profiles or create new ones. Click on the |configure|\ :guilabel:`Display Profile Parameters` icon to open this dialog window.

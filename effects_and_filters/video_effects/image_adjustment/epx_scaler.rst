@@ -17,8 +17,7 @@ EPX Scaler
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-epx_scaler
-
+   
 .. sidebar:: |kdenlive-show-video| EPX Scaler
 
    :**Status**:

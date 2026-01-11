@@ -18,7 +18,6 @@ Gaussian Blur
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-gaussian_blur-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Gaussian Blur
 

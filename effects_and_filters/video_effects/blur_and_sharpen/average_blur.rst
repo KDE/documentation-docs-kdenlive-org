@@ -18,7 +18,6 @@ Average Blur
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-average_blur-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Average Blur
 

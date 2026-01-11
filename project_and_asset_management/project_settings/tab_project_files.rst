@@ -35,8 +35,7 @@ The Project Files tab shows all the external assets for this project:
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_project_files
-
+   
       The Project Files dialog window
 
    :guilabel:`Clips used in project` shows the total number of clips in the timeline. If it is greater than the number of :guilabel:`Project files` it means that you have used project files more than once.
@@ -54,8 +53,7 @@ The Project Files tab shows all the external assets for this project:
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_project_files_delete_unused
-
+   
       The Project Files Delete Unused Clips dialog window
 
 .. rst-class:: clear-both

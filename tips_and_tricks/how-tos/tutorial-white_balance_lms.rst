@@ -23,7 +23,6 @@ In case your equipment did not set the white balance correctly you can use the :
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: effects-white_balance_lms-2504.webp
 
    White Balance (LMS space) effect
 

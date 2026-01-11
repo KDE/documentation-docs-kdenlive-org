@@ -31,8 +31,7 @@ As the name suggests, **Generators** generate a short video clip or still images
       :width: 318px
       :figwidth: 318px
       :align: left
-      :alt: project_bin_generator
-
+   
       Using generators
 
    There are three generators available:
@@ -55,7 +54,6 @@ This generates a counter timer video clip in various formats.
    :align: left
    :width: 360px
    :figwidth: 360px
-   :alt: project_bin_generator_counter
 
    Counter generator
 
@@ -102,8 +100,7 @@ Generates a color test pattern of various types.
   :align: left
   :width: 360px
   :figwidth: 360px
-  :alt: project_bin_generator_color_bars
-
+ 
   Color Bars generator
 
 .. rst-class:: clear-both
@@ -131,4 +128,4 @@ This generates a video noise clip - like the "snow" on an out-of-tune analogue T
 .. figure:: /images/project_and_asset_management/project_bin_generator_white_noise.webp
   :width: 360px
   :figwidth: 360px
-  :alt: project_bin_generator_white_noise
+ 

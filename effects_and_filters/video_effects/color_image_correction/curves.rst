@@ -15,7 +15,6 @@ Curves
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-curves-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Curves
 

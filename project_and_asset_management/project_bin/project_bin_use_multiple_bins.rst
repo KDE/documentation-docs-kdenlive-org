@@ -40,8 +40,7 @@ Folders are a good way to stay organized but they are tied to the Project Bin. I
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_multiple_bins
-
+   
       Turning folders into bins
 
    Right-click the folder name and choose :guilabel:`Open Current Folder In New Bin`.
@@ -56,8 +55,7 @@ Folders are a good way to stay organized but they are tied to the Project Bin. I
       :width: 334px
       :figwidth: 334px
       :align: left
-      :alt: project_bin_multiple_bins_toolbar
-
+   
       Additional icons in the toolbar
 
    Note the additional icons in the toolbar of the bin.

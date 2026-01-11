@@ -15,8 +15,7 @@ Video Equalizer
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-video_equalizer-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Video Equalizer
 
    :**Status**:

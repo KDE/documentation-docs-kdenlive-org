@@ -18,8 +18,7 @@ Soft Glow
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-soft_glow-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Soft Glow
 
    :**Status**:

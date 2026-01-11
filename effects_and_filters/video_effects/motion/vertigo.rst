@@ -17,8 +17,7 @@ Vertigo
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vertigo-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Vertigo
 
    :**Status**:

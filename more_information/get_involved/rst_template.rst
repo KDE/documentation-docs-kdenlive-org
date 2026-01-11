@@ -57,7 +57,6 @@ After a directive with ``..``, the next line must be indented by 3 blank spaces 
    :align: make it possible that you have text on the right site of the figure  
    :with: restrict the figure size
    :figwith: the caption get a line break after 250px
-   :alt: Do not use as it creates unnecessary translation work.
 
 .. figure:: /images/getting_started/kdenlive_add_last_clip.webp
    :align: left
@@ -112,11 +111,9 @@ Use ``.. rubric::`` if you want a section-like element that is not included in t
 |pic1| any text |pic2|
 
 .. |pic1| image:: /images/tips_and_tricks/shooting_nikon_50mm.webp
-   :alt: shooting_nikon_50mm.webp
    :width: 30%
 
 .. |pic2| image:: /images/tips_and_tricks/shooting_nikon_35mm.webp
-   :alt: shooting_nikon_35mm.webp
    :width: 30%
 
 | These lines are

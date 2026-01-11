@@ -25,8 +25,7 @@ Rotate (keyframable)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-rotate_keyframable
-
+   
 .. sidebar:: |kdenlive-show-video| Rotate (keyframable)
 
    :**Status**:
@@ -87,8 +86,7 @@ This effect/filter rotates the clip in any of the three directions: X, Y, and Z.
    :width: 400px
    :figwidth: 400px
    :align: center
-   :alt: kdenlive2304_effects-rotate_and_shear_axes
-
+   
    Rotation axes visualization
 
 

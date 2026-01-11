@@ -25,8 +25,7 @@ Audio Spectrum Filter
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-audio_spectrum-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Audio Spectrum Filter
 
    :**Status**:
@@ -137,8 +136,7 @@ The following selection items are available:
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-audio_spectrum_filter_example
-
+   
    Example of the Audio Spectrum Filter effect
 
 * :guilabel:`Line Thickness` set to **4**

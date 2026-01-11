@@ -34,8 +34,7 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
       :align: left
       :width: 206px
       :figwidth: 206px
-      :alt: project_bin_add_image_sequence
-
+   
       Adding an image sequence
 
    This opens a dialog window to specify further details.
@@ -48,8 +47,7 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
       :align: left
       :width: 360px
       :figwidth: 360px
-      :alt: project_bin_image_sequence
-
+   
       Image sequence details
 
 .. rst-class:: clear-both

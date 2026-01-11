@@ -15,7 +15,6 @@ Smartblur
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-smartblur-2412
 
 .. sidebar:: |kdenlive-show-video| Smartblur
 

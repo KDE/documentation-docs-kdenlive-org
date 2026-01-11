@@ -18,8 +18,7 @@ RGB Splitter
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-rgbsplit0r-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| RGB Splitter
 
    :**Status**:

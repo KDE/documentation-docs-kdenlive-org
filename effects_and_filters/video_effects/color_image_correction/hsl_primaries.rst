@@ -16,8 +16,7 @@ HSL Primaries
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-hsl_primaries-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| HSL Primaries
 
    :**Status**:

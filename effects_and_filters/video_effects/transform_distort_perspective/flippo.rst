@@ -17,8 +17,7 @@ Flippo
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-flippo
-
+   
 .. sidebar:: |kdenlive-show-video| Flippo
 
    :**Status**:

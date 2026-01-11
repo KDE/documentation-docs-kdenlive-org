@@ -22,8 +22,7 @@ Freeze
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-freeze-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Freeze
 
    :**Status**:

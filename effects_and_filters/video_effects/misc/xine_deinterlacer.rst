@@ -17,8 +17,7 @@ Xine Deinterlacer
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-xine_deinterlacer
-
+   
 .. sidebar:: |kdenlive-show-video| Xine Deinterlacer
 
    :**Status**:

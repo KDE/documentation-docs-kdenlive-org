@@ -470,7 +470,6 @@ In addition to invoking this menu from :menuselection:`Menu --> Sequence --> Spa
 
    .. figure:: /images/user_interface/menu_reference/kdenlive2304_timeline_insert_space.webp
    :align: left
-   :alt: Figure 2.
 
    Figure 2
 

@@ -16,8 +16,7 @@ Video Grid
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-video_grid
-
+   
 .. sidebar:: |kdenlive-show-video| Video Grid
 
    :**Status**:
@@ -71,8 +70,7 @@ This effect creates a grid of copies of the video footage. You adjust the number
    :width: 650px
    :figwidth: 650px
    :align: left
-   :alt: kdenlive2304_effects-video_grid_3x6
-
+   
    Video Grid effect with 3 rows and 6 columns
 
 .. rst-class:: clear-both

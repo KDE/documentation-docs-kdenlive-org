@@ -56,7 +56,6 @@ This captures video off the PC screen. Enable the Screen Grab widget via :menuse
    :width: 292px
    :figwidth: 292px
    :align: left
-   :alt: 
    
    The Screen Grab widget
 

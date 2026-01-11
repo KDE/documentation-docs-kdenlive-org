@@ -45,7 +45,6 @@ The next scope (after the :ref:`Histogram <scopes-histogram_working>` and the :r
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_01.webp
    :width: 250px
-   :alt: kdenlive-colorscopes-vectorscope
 
 How the Vectorscope Works
 -------------------------
@@ -65,7 +64,6 @@ Now let's see at how this actually looks like in a video.
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_02.webp
    :width: 650px
-   :alt: kdenlive2308_vectorscope_02.webp
 
    Vectorscope with a black-and-white image
 
@@ -76,7 +74,6 @@ Example 2: Juggling Balls
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_03.webp
    :width: 650px
-   :alt: kdenlive2308_vectorscope_03.webp
 
    Vectorscope with a color image (juggling balls)
 
@@ -102,7 +99,6 @@ Now perhaps you wonder how we could be so sure assigning those spots to colors. 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_04.webp
    :width: 650px
-   :alt: kdenlive2308_vectorscope_04.webp
 
    Vectorscope with a partly covered (masked) color image
 
@@ -113,7 +109,6 @@ Example 3: Musical Box
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_05.webp
    :width: 650px
-   :alt: kdenlive2308_vectorscope_05.webp
 
    Vectorscope of an image of a musical box
 
@@ -127,7 +122,6 @@ But when increasing the gain (or zoom level) of the Vectorscope to 5x we see tha
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_06.webp
    :width: 350px
-   :alt: kdenlive2308_vectorscope_06.webp
 
    Vectorscope before white balancing
 
@@ -135,7 +129,6 @@ If you open this clip and take a look at the Waveform you will notice that it sh
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_07.webp
    :width: 350px
-   :alt: kdenlive2308_vectorscope_07.webp
 
    Vectorscope after white balancing
 
@@ -145,7 +138,6 @@ Because this is a suitable clip for :term:`hue` and the :doc:`/effects_and_filte
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_08.webp
    :width: 650px
-   :alt: kdenlive2308_vectorscope_08.webp
 
    Vectorscope of the musical box after applying the :doc:`/effects_and_filters/video_effects/color_image_correction/hue_shift` effect (Hue=45)
 
@@ -162,7 +154,6 @@ What is special about creating a look for a video? Let's take a look at some ran
 
 .. figure:: /images/tips_and_tricks/color_correction_uncorrected.webp
    :width: 650px
-   :alt: color_correction_uncorrected.webp
 
    Collection of not color-graded video stills
 
@@ -170,7 +161,6 @@ Mostly different content and therefore different colors - as said: random. One p
 
 .. figure:: /images/tips_and_tricks/color_correction_corrected.webp
    :width: 650px
-   :alt: tips_and_tricks/color_correction_corrected.webp
 
    Collection of color-graded video stills
 

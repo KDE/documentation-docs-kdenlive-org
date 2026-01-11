@@ -22,8 +22,7 @@ Color Matrix
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-color_matrix-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Color Matrix
 
    :**Status**:

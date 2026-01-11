@@ -16,8 +16,7 @@ Levels
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-levels-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Levels
 
    :**Status**:
@@ -124,8 +123,7 @@ The following selection items are available:
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-levels_histogram
-
+   
    Color Levels effect built-in histogram
 
 The histogram shows the color distribution and the position of the black and white points (black and white triangles) and gamma (grey triangle). Input levels are shown above the greyscale bar; output points are shown below. Initially, the black and white triangles are all at the same position.

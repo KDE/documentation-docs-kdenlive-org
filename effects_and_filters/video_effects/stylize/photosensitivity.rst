@@ -17,8 +17,7 @@ Photosensitivity Filter
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-photosensitivity-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Photosensitivity Filter
 
    :**Status**:

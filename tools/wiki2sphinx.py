@@ -567,8 +567,7 @@ def reformat_content(content, fullpath):
                             e = '%spx' %e
                         replacement = replacement + '\n   :width: '+e
                     elif not re.search('^(thumb|frame|frameless)$', e):
-                        replacement = replacement + '\n   :alt: '+e
-            content = content.replace('[[%s:%s]]' %(tag, match), '%s\n' %replacement)
+                        replacement = replacement + '\n            content = content.replace('[[%s:%s]]' %(tag, match), '%s\n' %replacement)
 
     # [[a/b/c|xyz]]
     for tag in ['Kdenlive/Manual/', ' Kdenlive/Manual/', '']:

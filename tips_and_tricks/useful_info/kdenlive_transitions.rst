@@ -64,8 +64,7 @@ Let's start with those **standard transitions** most users would probably expect
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_clip_to_clip_dissolve.webp
       :align: left
-      :alt: kdenlive2308_clip_to_clip_dissolve.webp
-      :width: 350px
+         :width: 350px
 
    **Dissolve**: gradually transitions from one clip to another. So it is kind of fading between the two clips. (See also the Wikipedia article on `Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_) 
 
@@ -73,8 +72,7 @@ Let's start with those **standard transitions** most users would probably expect
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_clip_to_clip_slide.webp
       :align: left
-      :alt: kdenlive2308_clip_to_clip_slide.webp
-      :width: 350px
+         :width: 350px
 
    **Slide**: gradually replaces one clip by another clip, by traveling from one side of the frame to another (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
 
@@ -82,8 +80,7 @@ Let's start with those **standard transitions** most users would probably expect
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_clip_to_clip_wipe.webp
       :align: left
-      :alt: kdenlive2308_clip_to_clip_wipe.webp
-      :width: 350px
+         :width: 350px
 
    **Wipe**: one clip gradually replaces another clip, often in form of some shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
 
@@ -100,8 +97,7 @@ Dynamic Compositing Transitions
 -------------------------------
 
 .. image:: /images/transition-compositing-galore.png
-      :alt: transition-compositing-galore
-
+   
 To some degree, Kdenlive supports (simple) compositing in its timeline. Actually, even this simple compositing can get you a long way in many projects (as the above screenshot may hint at). Kdenlive currently offers the following (keyframable) compositing transitions:
 
 
@@ -138,8 +134,7 @@ Compositing with Transparency
 
    .. image:: /images/composite-transition-over.png
       :align: left
-      :alt: composite-transition-over
-      :width: 350px
+         :width: 350px
 
    **Composite & Transform** - whatever semi or non-transparent is in the frame from the upper track, it will be painted over the frame from the lower track. Hence the name of this compositing mode: over. Please note: in the transition properties, this mode is to be found as **Compositing**: **Alpha Blend** instead.
 
@@ -149,8 +144,7 @@ Compositing with Transparency
 
    .. image:: /images/affine-transition-atop.png
       :align: left
-      :alt: affine-transition-atop
-      :width: 350px
+         :width: 350px
 
    **Affine** - as the simple rule of thumb, transparency is solely controlled by the *lower* track. Any transparency information from the upper track simply gets completely ignored. In consequence, if your lower frame has regions of full transparency, whatever falls within them on the upper frame will be invisible! You can see this result also in the screenshot.
 

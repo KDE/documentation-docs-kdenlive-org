@@ -17,8 +17,7 @@ Film Grain
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-film_grain-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Film Grain
 
    :**Status**:

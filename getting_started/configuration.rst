@@ -23,8 +23,7 @@ The Configure Kdenlive window has a search function making it easy for you to fi
    :width: 450px
    :figwidth: 450px
    :align: left
-   :alt: configure_search_2412
-
+   
    Search function in the Configure Kdenlive window
 
 While typing, Kdenlive highlights any phrase or section the search term matches.

@@ -25,7 +25,6 @@ Spot Remover
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-spot_remover-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Spot Remover
 
@@ -59,7 +58,6 @@ This example shows how to use the Spot Remover effect: A bird is crossing the vi
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-spot_remover_1.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2304_effects-spot_remover_1
 
    Spot Remover effect panel with example
 
@@ -77,22 +75,18 @@ This example shows how to use the Spot Remover effect: A bird is crossing the vi
    
    .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
    :class: no-scaled-link
 
    .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
    :class: no-scaled-link
 
    .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
    :class: no-scaled-link
 
    .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
    :class: no-scaled-link
 
    .. |edit-mode| image:: /images/icons/kdenlive-edit-mode.svg

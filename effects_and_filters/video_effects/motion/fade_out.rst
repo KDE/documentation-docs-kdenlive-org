@@ -26,8 +26,7 @@ Fade Out
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-fade_out-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Fade Out
 
    :**Status**:
@@ -103,7 +102,6 @@ The following selection values are available:
 
 .. image:: /images/effects_and_compositions/kdenlive2304_effects-fade_in_out_dots.webp
    :align: left
-   :alt: kdenlive2304_effects-fade_in
-
+   
 .. image:: /images/effects_and_compositions/kdenlive2304_effects-fade_out_dot.webp
-   :alt: kdenlive2304_effects-fade_in
+   

@@ -33,8 +33,7 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
       :width: 206px
       :figwidth: 206px
       :align: left
-      :alt: project_bin_add_sequence
-
+   
       Adding a sequence
 
    Adds a new sequence to the timeline. A sequence behaves like a clip.
@@ -47,8 +46,7 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
       :width: 196px
       :figwidth: 196px
       :align: left
-      :alt: project_bin_create_new_sequence
-
+   
       Creating a new sequence
 
    Enter the name of the new sequence. You can change it later if needed.

@@ -25,7 +25,6 @@ Brightness
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-brightness-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Brightness
 

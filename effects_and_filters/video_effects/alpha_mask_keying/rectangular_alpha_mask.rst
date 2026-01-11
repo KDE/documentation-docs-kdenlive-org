@@ -27,7 +27,6 @@ Rectangular Alpha Mask
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-rectangular_alpha_mask-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Rectangular Alpha Mask
 
@@ -88,7 +87,6 @@ Creates a rectangular alpha-channel mask. Its size and position is defined by th
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-rect_alpha_mask_1.webp
    :width: 90%
-   :alt: kdenlive2304_effects-rect_alpha_mask
 
    Rectangular Alpha Mask effect panel and example
 

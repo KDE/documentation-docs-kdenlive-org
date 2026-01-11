@@ -30,7 +30,6 @@ The image shows the Configure Firewire capture tab which can be accessed from th
 
 .. image:: /images/Kdenlive_Configure_Capture.png
    :width: 500px
-   :alt: Kdenlive_Configure_Capture
 
 
 

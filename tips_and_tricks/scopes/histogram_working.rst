@@ -54,13 +54,11 @@ The Histogram only shows the distribution of the luminance of the selected compo
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_01.webp
    :width: 650px
-   :alt: kdenlive2308_histogram_01.webp
 
    Histogram for a simple greyscale gradient image
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_02.webp
    :width: 650px
-   :alt: kdenlive2308_histogram_02.webp
 
    Histogram for a simple color gradient image
 
@@ -73,7 +71,6 @@ Example 1: Candlelight
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_03.webp
    :width: 650px
-   :alt: kdenlive2308_histogram_03.webp
 
    Histogram example with a candlelight image
 
@@ -87,7 +84,6 @@ The RGB components also show very well that the shadows are not neutral grey but
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_04.gif
    :width: 650px
-   :alt: kdenlive2308_histogram_04.gif
 
    Histogram before and after applying some color correcting with the :doc:`/effects_and_filters/video_effects/color_image_correction/curves` effect
 
@@ -96,7 +92,6 @@ Example 2: Underexposed ABC
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_05.webp
    :width: 650px
-   :alt: kdenlive2308_histogram_05.webp
 
    Histogram example 2 with an underexposed image
 
@@ -110,7 +105,6 @@ Monitoring correct exposure is the histogram's strength! The exposure can be cor
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_histogram_06.gif
    :width: 650px
-   :alt: kdenlive2308_histogram_06.gif
 
    Histogram before and after applying the :doc:`/effects_and_filters/video_effects/color_image_correction/levels` effect to correct exposure
 

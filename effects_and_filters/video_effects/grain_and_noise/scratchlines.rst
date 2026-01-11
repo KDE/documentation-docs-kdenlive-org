@@ -17,8 +17,7 @@ Scratch Lines
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-scratchlines-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Scratch Lines
 
    :**Status**:

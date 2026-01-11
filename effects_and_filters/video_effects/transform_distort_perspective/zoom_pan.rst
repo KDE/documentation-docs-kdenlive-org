@@ -22,8 +22,7 @@ Zoom Pan
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-zoom_pan-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Zoom Pan
 
    :**Status**:

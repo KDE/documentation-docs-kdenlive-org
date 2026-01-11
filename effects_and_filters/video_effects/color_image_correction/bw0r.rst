@@ -20,7 +20,6 @@ Bw0r
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2308_effects-bw0r
 
 .. sidebar:: |kdenlive-show-video| Bw0r
 

@@ -27,7 +27,6 @@ Add Clips to the Library
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_01.webp
    :align: left
-   :alt: library-pane
    :width: 350px
 
    Library with example folders
@@ -46,8 +45,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_timeline_01.webp
       :align: left
-      :alt: kdenlive2308_library_timeline_01.webp
-      :width: 350px
+         :width: 350px
 
       Timeline with clips selected for the library
 
@@ -57,8 +55,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_01a.webp
       :align: left
-      :alt: kdenlive2308_library_widget_01a.webp
-      :width: 350px
+         :width: 350px
 
       Library widget
 
@@ -68,8 +65,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_03.webp
       :align: left
-      :alt: kdenlive2308_library_widget_03.webp
-      :width: 250px
+         :width: 250px
 
       Enter name for new library item
 
@@ -79,8 +75,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_04.webp
       :align: left
-      :alt: kdenlive2308_library_widget_04.webp
-      :width: 350px
+         :width: 350px
 
       Library with the newly created item
 
@@ -100,8 +95,7 @@ Copy Library Item into (New) Project
    
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_04a.webp
       :align: left
-      :alt: kdenlive2308_library_widget_04a.webp
-      :width: 350px
+         :width: 350px
 
       Library with new item to be copied to project bin
 
@@ -113,8 +107,7 @@ Copy Library Item into (New) Project
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_project_bin_01.webp
       :align: left
-      :alt: kdenlive2308_library_project_bin_01.webp
-      :width: 350px
+         :width: 350px
 
       Project bin with the new library item as a separate clip
 
@@ -132,7 +125,6 @@ Drag Library Item into Timeline
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_library_timeline_02.webp
    :align: left
-   :alt: kdenlive2308_library_timeline_02.webp
    :width: 350px
 
    Timeline with the library clip as a single clip
@@ -154,8 +146,7 @@ Expand Library Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_expand_clip.webp
       :align: left
-      :alt: kdenlive2308_library_expand_clip.webp
-      :width: 350px
+         :width: 350px
 
       :menuselection:`Menu --> Sequence`
 
@@ -165,8 +156,7 @@ Expand Library Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_timeline_03.webp
       :align: left
-      :alt: kdenlive2308_library_timeline_03.webp
-      :width: 350px
+         :width: 350px
 
       Timeline with the expanded library clip
 
@@ -178,8 +168,7 @@ Expand Library Clip
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_project_bin_02.webp
       :align: left
       :width: 300px
-      :alt: kdenlive2308_library_project_bin_02.webp
-
+   
       Project bin with expanded library Clip
 
    Kdenlive has expanded all the clips inside the library item into the bin folder :guilabel:`Pasted clips`. You can rename the folder if you want. Another library clip will expand into a new :guilabel:`Pasted clips` folder. So you may want to keep those separate. Your choice.
@@ -196,7 +185,6 @@ Clip Expansion Details
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_library_timeline_04.webp
    :align: left
-   :alt: kdenlive2308_library_timeline_04.webp
    :width: 350px
 
    Timeline with library clip (1) and expanded (2)
@@ -211,7 +199,6 @@ If there are not enough tracks above the library clip, yet there are enough trac
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_library_timeline_05.webp
    :align: left
-   :alt: kdenlive2308_library_timeline_05.webp
    :width: 350px
    :figwidth: 350px
 
@@ -230,7 +217,6 @@ All items in your Kdenlive library are stored in a user-configurable place insid
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_settings_library_location.webp
    :align: left
-   :alt: kdenlive2308_settings_library_location.webp
    :width: 350px
 
    Setting the library folder location

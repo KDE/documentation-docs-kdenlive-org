@@ -17,8 +17,7 @@ Primaries
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-primaries-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Primaries
 
    :**Status**:

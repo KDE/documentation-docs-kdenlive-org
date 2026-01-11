@@ -29,8 +29,7 @@ This tab stores meta data about your project. By default, there are fields for *
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_metadata
-
+   
       The Project Settings Metadata dialog window
 
 Double-click an existing field to enter text.

@@ -20,7 +20,6 @@ Did you know that you can **temporarily disable all timeline effects at once?** 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_disable_timeline_effects.webp
    :align: left
-   :alt: kdenlive2308_disable_timeline_effects.webp
    :width: 350px
 
    :menuselection:`Menu --> Sequence`

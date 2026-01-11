@@ -20,7 +20,6 @@ Kdenlive 16.04.1 rather quietly introduced a useful new feature to be found in t
 
 .. figure:: /images/tips_and_tricks/manage_cached_data.webp
    :align: left
-   :alt: manage_cached_data.webp
    :width: 250px
 
    Manage Cached Data
@@ -36,7 +35,6 @@ Current Project Tab
 
 .. figure:: /images/tips_and_tricks/manage_cached_data_current.webp
    :align: left
-   :alt: manage_cached_data_current.webp
    :width: 350px
 
    Manage cached data for the current project
@@ -56,7 +54,6 @@ All Projects Tab
 
 .. figure:: /images/tips_and_tricks/manage_cached_data_all.webp
    :align: left
-   :alt: manage_cached_data_all.webp
    :width: 350px
 
    Manage cached data for all projects

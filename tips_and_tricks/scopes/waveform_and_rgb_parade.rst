@@ -39,7 +39,6 @@ Waveform and RGB Parade
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_01.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_01.webp
 
    Kdenlive Waveform :term:`widget`
 
@@ -62,7 +61,6 @@ Waveform Example 1: Sunset
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_02.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_02.webp
 
    Waveform example 1
 
@@ -78,7 +76,6 @@ That is where the RGB Parade drops in now.
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_03.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_03.webp
 
    Kdenlive RGB Parade :term:`widget`
 
@@ -95,7 +92,6 @@ Wait … imaginary? Actually there is a short clip with light bulbs. Which is qu
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_04.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_04.webp
 
    RGB Parade example 1
 
@@ -116,7 +112,6 @@ The first thing to decide is how bright the darkest spot should be. This can be 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_05.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_05.webp
 
    Using the :doc:`/effects_and_filters/video_effects/color_image_correction/sat` to change the color tone
 
@@ -126,7 +121,6 @@ Second step is stretching the channels. This is done with the :guilabel:`Slope` 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_06.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_06.webp
 
    Using the :doc:`/effects_and_filters/video_effects/color_image_correction/sat` to adjust white balance
 
@@ -147,7 +141,6 @@ Waveform Example 2: Leaf with Hidden Clipping
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_07.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_07.webp
 
    Waveform example 2
 
@@ -159,7 +152,6 @@ Nevertheless, there is some clipping. It is just hidden by the Luma calculation:
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_08.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_08.webp
 
    RGB Parade exposes clipping
 
@@ -172,7 +164,6 @@ Waveform Example 3: High Key Clip
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_09.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_09.webp
 
    Waveform example 3
 
@@ -189,7 +180,6 @@ Waveform Options
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_10.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_10.webp
 
    Waveform :term:`widget` with paint mode Green
 
@@ -213,7 +203,6 @@ To explain the last point a little more in detail: A black/white gradient draws 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_11.webp
    :width: 650px
-   :alt: kdenlive2308_waveform_rgb_parade_11.webp
 
    Playing with the :doc:`/effects_and_filters/video_effects/color_image_correction/sat` and a gradient
 

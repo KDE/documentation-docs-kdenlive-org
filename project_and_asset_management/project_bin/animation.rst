@@ -39,7 +39,6 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
    :width: 206px
    :figwidth: 206px
    :align: left
-   :alt: project_bin_create_animation
 
    Creating an animation
 

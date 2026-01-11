@@ -33,7 +33,6 @@ Motion Tracker
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-motion_tracker-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Motion Tracker
 
@@ -161,7 +160,6 @@ Examples for :guilabel:`Blur Type`:
 
 .. figure:: /images/effects_and_compositions/kdenlive_effects-motion_tracker_blur_type.gif
    :width: 90%
-   :alt: kdenlive_effects-motion_tracker_blur_type
 
    Different blur types in action
 
@@ -176,7 +174,6 @@ The basic workflow for tracking a region is as follows:
    .. figure:: /images/effects_and_compositions/kdenlive_effects-motion_tracking_face.webp
       :align: left
       :width: 350px
-      :alt: kdenlive_effects-motion_tracking_face
 
       Tracking the face of the model
 
@@ -190,7 +187,6 @@ The basic workflow for tracking a region is as follows:
    .. figure:: /images/effects_and_compositions/kdenlive2304_effects-motion_tracker_copy_kf.webp
       :align: left
       :width: 350px
-      :alt: kdenlive2304_effects-motion_tracker_copy_kf
 
       Options menu
 

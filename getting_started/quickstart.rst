@@ -38,8 +38,7 @@ Creating a new project
 .. figure:: /images/getting_started/kdenlive_folder_structure.webp
   :align: left
   :width: 250px
-  :alt: kdenlive_folder_structure
-      
+        
   Kdenlive directory structure
 
 The first step is creating a new (empty) folder for our new project. We will call it :file:`quickstart-tutorial/` in this tutorial. Then get some sample video clips, or download them from here :download:`Kdenlive-tutorial-videos-2011-avi.zip </files/Kdenlive-tutorial-videos-2011-avi.zip>` (7 MB)\ [1]_  and extract them to e.g. a :file:`quickstart-tutorial/Videos/` subfolder inside the project folder.
@@ -53,8 +52,7 @@ The image on the left shows the suggested directory structure: Each project has 
 .. figure:: /images/getting_started/kdenlive2104_new_project_window.webp
   :align: left
   :width: 250px
-  :alt: kdenlive21.04_new_project_window
-  
+    
   New Project dialog
 
 
@@ -71,8 +69,7 @@ Adding clips
 .. figure:: /images/getting_started/kdenlive2304_add_clips.webp
   :align: left
   :width: 250px
-  :alt: kdenlive2304_add_clips
-  
+    
   Project Bin: Adding video clips
 
 Now that the project is ready, let us start adding some clips (i.e. the ones you downloaded). This is done via the *Project Bin widget*; a click on the |kdenlive-add-clip|\ :menuselection:`Add Clip or Folder` icon directly opens the file dialog, a click on the small arrow shows a list of additional clip types that can be added as well. Video clips, audio clips, images, and other **Kdenlive** projects can be added via the default :menuselection:`Add Clip or Folder` dialog.
@@ -82,8 +79,7 @@ Now that the project is ready, let us start adding some clips (i.e. the ones you
    .. figure:: /images/getting_started/kdenlive_main_window.webp
       :align: left
       :width: 400px
-      :alt: kdenlive_main_window
-
+      
       Kdenlive window with the tutorial files
 
 After loading the clips, **Kdenlive** will look similar to this. On the top left there is the already known Project Bin. To the right of it are the monitors that show video: The clip monitor displays video from the original clips, the project monitor shows how the output video will look with all effects, transitions, etc. applied. The third, also very important, item is the timeline (below the monitors): This is the place where the video clips will be edited. There are two different types of tracks: Video and audio. Video tracks can contain any kind of clip, audio tracks as well but when dropping a video file to the audio track, only the audio will be used.
@@ -92,8 +88,7 @@ After loading the clips, **Kdenlive** will look similar to this. On the top left
 .. figure:: /images/getting_started/kdenlive_save_project.webp
   :align: left
   :width: 400px
-  :alt: kdenlive_save_project
-  
+    
   Saving a Kdenlive project
 
 
@@ -111,8 +106,7 @@ Now comes the actual editing. Project clips are combined to the final result on 
 .. figure:: /images/getting_started/kdenlive_timeline_clips.webp
   :align: left
   :width: 400px
-  :alt: kdenlive_timeline_clips
-  
+    
   First clips in the timeline
 
 
@@ -120,8 +114,7 @@ Since some cutlery is needed as well, grab the spoon clip and drop it on the fir
 
 .. figure:: /images/getting_started/kdenlive_timeline_cursor.webp
   :align: left
-  :alt: kdenlive_timeline_cursor
-  
+    
   Timeline cursor
 
 
@@ -130,8 +123,7 @@ The result can already be previewed by pressing :kbd:`Space` (or the :guilabel:`
 
 .. figure:: /images/getting_started/kdenlive_resize_marker.webp
   :align: left
-  :alt: kdenlive_resize_marker
-  
+    
   Resize marker
 
 
@@ -140,8 +132,7 @@ Since after eating comes playing, there is a Billiards clip. Add it to the timel
 
 .. figure:: /images/getting_started/kdenlive_overlap_clips.webp
   :align: left
-  :alt: kdenlive_overlap_clips
-  
+    
   Overlapping clips
 
 
@@ -154,8 +145,7 @@ You can zoom in by either using the :menuselection:`zoom slider` at the bottom r
 .. figure:: /images/getting_started/kdenlive_add_transition.webp
   :align: left
   :width: 375px
-  :alt: kdenlive_add_transition
-  
+    
   Transition marker
 
 
@@ -166,8 +156,7 @@ The wipe transitions fades the first clip into the second one. See also :doc:`Wi
 .. image:: /images/getting_started/kdenlive_add_last_clip.webp
   :align: left
   :width: 375px
-  :alt: kdenlive_add_last_clip
-
+  
 Let us now add the last clip, the Piano, and again apply a wipe transition. When adding it on the first track of the timeline (track V2), you need to click on the new clip's lower left edge to add the transition to the previous clip.
 
 
@@ -177,8 +166,7 @@ Effects
 .. figure:: /images/getting_started/kdenlive_add_effect.webp
   :align: left
   :width: 375px
-  :alt: kdenlive_add_effect
-  
+    
   Effect List
 
 
@@ -189,8 +177,7 @@ The Piano can be colorized by adding an *effect* to it.  Click on the effect vie
    .. image:: /images/getting_started/kdenlive_effect_flag.webp
       :align: left
       :width: 375px
-      :alt: kdenlive_effect_flag
-
+      
    Once the effect has been added, click on an empty part in the timeline and you see its name on the timeline clip. It will also be shown in the :menuselection:`Effect/Composition Stack` widget.
 
 .. container:: clear-both
@@ -198,8 +185,7 @@ The Piano can be colorized by adding an *effect* to it.  Click on the effect vie
    .. figure:: /images/getting_started/kdenlive_effect_stack.webp
       :align: left
       :width: 375px
-      :alt: kdenlive_effect_stack
-
+      
       Effect Stack with RGB adjustment
 
 
@@ -214,8 +200,7 @@ For some effects like the one used there it is possible to add keyframes. The fr
 .. figure:: /images/getting_started/kdenlive_keyframes.webp
   :align: left
   :width: 375px
-  :alt: kdenlive_keyframes
-  
+    
   Keyframes for effects
 
 
@@ -236,8 +221,7 @@ Music
 .. figure:: /images/getting_started/kdenlive_fadeout.webp
   :align: left
   :width: 375px
-  :alt: kdenlive_fadeout
-  
+    
   Audio fadeout
 
 
@@ -256,8 +240,7 @@ Rendering
 .. figure:: /images/getting_started/kdenlive_renderer.webp
   :align: left
   :width: 300px
-  :alt: kdenlive_renderer
-  
+    
   Rendering dialog
 
 
@@ -268,8 +251,7 @@ A few minutes left, and the project is finished! Click the Render button (or go 
    .. figure:: /images/getting_started/kdenlive_rendering.webp
       :align: left
       :width: 300px
-      :alt: kdenlive_rendering
-
+      
       Rendering progress
 
    After some seconds rendering will be finished and your first **Kdenlive** project is completed. Congratulations!

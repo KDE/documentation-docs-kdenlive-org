@@ -42,7 +42,6 @@ So what do the three options mean?
 
 .. image:: /images/earlier_versions/kdenlive2108_rendering-audio_automatic.webp
    :align: left
-   :alt: kdenlive2108_rendering-audio_automatic
 
 *Export audio (automatic)* means detect if an audio track is present and write the audio track if found
 
@@ -50,16 +49,14 @@ So what do the three options mean?
 
    .. image:: /images/earlier_versions/kdenlive2108_rendering-audio_checked.webp
       :align: left
-      :alt: kdenlive2108_rendering-audio_checked
-
+   
    *Export audio*, when checked, means write an audio track in the rendered file even if there is no audio track to write.
 
 .. container:: clear-both
 
    .. image:: /images/earlier_versions/kdenlive2108_rendering-audio_unchecked.webp
       :align: left
-      :alt: kdenlive2108_rendering-audio_unchecked
-
+   
    *Export audio*, when unchecked, means do not write an audio track in the rendered file.
 
 .. rst-class:: clear-both
@@ -67,12 +64,10 @@ So what do the three options mean?
 The difference in behavior between enabling *Export audio* versus *Export audio (automatic)* can be seen in the situation where you have a video on the timeline but there is no audio track on the timeline and the video in the video track also does not have an audio track. An example of such a situation is shown in the screenshot below.
 
 .. image:: /images/earlier_versions/Kdenlive_Video_with_no_audio.png
-   :alt: Kdenlive_Video_with_no_audio
 
 In this situation, if you render with *Export audio (automatic)*, the rendered file will not have an audio track (Result 1 on screenshot below). But if you render with *Export Audio* checked, then the rendered file will contain an audio track – the track will however be empty (Result 2 on screenshot below).
 
 .. image:: /images/earlier_versions/Kdenlive_Render_export_audio_auto_vs_just_checked2.png
-   :alt: Kdenlive_Render_export_audio_auto_vs_just_checked2
 
 FFprobe on file generated from an audio-less track using *Export audio (automatic)*. Note only one stream – Stream #0.0 – a video stream. **Kdenlive** automatically detected there was not an audio track and so it did not write one.
 
@@ -112,7 +107,6 @@ In cases where there is an audio track ...
 
 .. image:: /images/earlier_versions/Kdenlive_Video_plus_Audio_in_seperate_tracks.png
    :align: left
-   :alt: Kdenlive_Video_plus_Audio_in_seperate_tracks
 
 Rendering with :guilabel:`Export audio` unchecked will produce a file with no audio track – result 4 in the screenshot above.
 Rendering with :guilabel:`Export audio (automatic)` (result 3 in the screenshot above) or with *Export audio* checked will produce files with Audio tracks.

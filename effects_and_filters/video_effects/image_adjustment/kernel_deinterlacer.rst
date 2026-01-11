@@ -17,8 +17,7 @@ Kernel Deinterlacer
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-kernel_deinterlacer-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Kernel Deinterlacer
 
    :**Status**:

@@ -16,8 +16,7 @@ Proxy Clips
 .. figure:: /images/getting_started/configure_proxy_clips_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: configure_proxy_clips_2412
-
+   
    The Proxy Clips section
 
 :1: :guilabel:`Enable proxy clips`. In order to be able to use proxy clips at all, they have to be enabled.
@@ -40,8 +39,7 @@ Proxy Clips
 .. figure:: /images/getting_started/configure_proxy_clips_encoding_profiles_2412.webp
    :width: 500px
    :figwidth: 500px
-   :alt: configure_proxy_clips_encoding_profiles_2412
-
+   
    Proxy Clips encoding profiles
 
 :1: List of available profiles

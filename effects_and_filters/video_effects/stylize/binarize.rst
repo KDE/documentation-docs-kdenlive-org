@@ -18,8 +18,7 @@ Binarize
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-binarize-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Binarize\ [1]_
 
    :**Status**:

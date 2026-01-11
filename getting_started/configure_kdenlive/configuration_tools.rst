@@ -27,8 +27,7 @@ Tools
 .. figure:: /images/getting_started/configure_tools_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: configure_tools_2412
-
+   
    The Tools section
 
 :guilabel:`Duplicate text` If selected, a 2-line subtitle gets split into two subtitles by copying the content 

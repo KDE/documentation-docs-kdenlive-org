@@ -23,8 +23,7 @@ Drop Shadow
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-drop_shadow-2412
-
+   
 .. sidebar:: |kdenlive-show-video| Drop Shadow
 
    :**Status**:

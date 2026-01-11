@@ -27,8 +27,7 @@ Proxy Settings
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_proxy
-
+   
       The Project Settings Proxy dialog window
 
 Proxy clips can be switched on and off per project. When proxies are disabled globally (see :doc:`Proxy Clips</getting_started/configure_kdenlive/configuration_proxy_clips>`), they are switched off for each new project. But if you need proxies for the new project, you can switch it on here in the Project Settings Proxy tab and change the settings for it.
@@ -55,8 +54,7 @@ You can choose an :guilabel:`Encoding profile` for the proxy clips, which will d
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_settings_proxy_profiles
-
+   
       List of available proxy profiles
 
 |list-add|\ :guilabel:`Add profile`: Creates a new profile
@@ -77,8 +75,7 @@ You can test the performance of the available proxy clip profiles to choose the 
       :width: 324px
       :figwidth: 324px
       :align: left
-      :alt: project_settings_compare
-
+   
       The results of the comparison of proxy profiles
 
 Kdenlive will generate a 60-seconds test video and run each proxy profile against it. The results are shown for each proxy profile for render time and file size.

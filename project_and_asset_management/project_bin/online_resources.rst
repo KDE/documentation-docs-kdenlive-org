@@ -38,8 +38,7 @@ Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\
       :width: 206px
       :figwidth: 206px
       :align: left
-      :alt: project_bin_online_resources
-
+   
       Using online resources
 
    Kdenlive has direct access to various online resources for images, video, and audio. An internet connection is required, of course.
@@ -56,8 +55,7 @@ See the chapter :ref:`online_resources` for more details.
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_online_resources_photos
-
+   
       Using online resources
 
    Kdenlive has direct access to various online resources for images, video, and audio. An internet connection is required, of course.

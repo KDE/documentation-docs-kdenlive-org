@@ -54,7 +54,6 @@ There are two ways to use Object Mask:
 .. figure:: /images/effects_and_compositions/kdenlive2504_effects-alpha_object-mask.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2504_effects-alpha_object-mask
 
    Object Mask in the effect stack when a clip is selected
 
@@ -68,7 +67,6 @@ There are two ways to use Object Mask:
 .. figure:: /images/effects_and_compositions/kdenlive2504_effects-alpha_object-mask-creation.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2504_effects-alpha_object-mask-creation
 
 .. rst-class:: clear-both
 
@@ -79,7 +77,6 @@ There are two ways to use Object Mask:
 .. figure:: /images/effects_and_compositions/kdenlive2504_effects-alpha_object-mask-create-new-mask.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2504_effects-alpha_object-mask-create-new-mask
 
 .. rst-class:: clear-both
 
@@ -93,7 +90,6 @@ There are two ways to use Object Mask:
 .. figure:: /images/effects_and_compositions/kdenlive2504_effects-alpha_object-mask-apply.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2504_effects-alpha_object-mask-apply
 
 .. rst-class:: clear-both
 
@@ -106,7 +102,6 @@ There are two ways to use Object Mask:
 .. figure:: /images/effects_and_compositions/kdenlive2504_effects-alpha_object-mask-applied.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2504_effects-alpha_object-mask-applied
 
 .. rst-class:: clear-both
 

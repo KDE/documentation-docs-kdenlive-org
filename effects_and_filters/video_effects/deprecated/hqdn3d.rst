@@ -23,8 +23,7 @@ Hqdn3d
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-hqdn3d
-
+   
 .. sidebar:: |kdenlive-show-video| Hqdn3d
 
    :**Status**:

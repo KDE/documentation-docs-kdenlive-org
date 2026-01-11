@@ -17,8 +17,7 @@ Glitching (rows only)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-pixs0r-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Glitching (rows only)
 
    :**Status**:

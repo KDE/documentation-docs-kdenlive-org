@@ -17,8 +17,7 @@ Posterize (ELBG)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-posterize_elbg-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Posterize (ELBG)
 
    :**Status**:

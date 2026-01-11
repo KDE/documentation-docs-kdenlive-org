@@ -21,7 +21,6 @@ Tool Menu
 
 .. figure:: /images/user_interface/menu_reference/kdenlive_tool_menu.webp
    :align: left
-   :alt: kdenlive_tool_menu
    
    Tool Menu
 

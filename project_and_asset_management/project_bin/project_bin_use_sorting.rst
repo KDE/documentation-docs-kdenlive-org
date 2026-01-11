@@ -55,8 +55,7 @@ You can sort the project bin content by various criteria.
       :width: 360px
       :figwidth: 360px
       :align: left
-      :alt: project_bin_sort_by
-
+   
       Sorting options
 
 .. rst-class:: clear-both

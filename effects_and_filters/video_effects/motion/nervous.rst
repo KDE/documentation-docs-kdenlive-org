@@ -19,8 +19,7 @@ Nervous
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-nervous
-
+   
 .. sidebar:: |kdenlive-show-video| Nervous
 
    :**Status**:

@@ -19,8 +19,7 @@ Sigmoidal Transfer
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-sigmoidal_transfer-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Sigmoidal Transfer
 
    :**Status**:

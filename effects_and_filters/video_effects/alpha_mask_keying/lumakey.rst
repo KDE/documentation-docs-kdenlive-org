@@ -21,7 +21,6 @@ Lumakey
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-lumakey-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Lumakey
 

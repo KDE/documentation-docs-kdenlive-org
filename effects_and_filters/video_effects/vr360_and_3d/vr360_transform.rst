@@ -17,8 +17,7 @@ VR360 Transform
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vr360_transform-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| VR360 Transform
 
    :**Status**:

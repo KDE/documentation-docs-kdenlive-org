@@ -103,7 +103,6 @@ In the example below a `.png` image has been overlayed to a video clip and the A
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-alpha_gradient_before.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2304_effects-alpha_gradient_before
 
    Alpha Gradient effect - before
 
@@ -111,7 +110,6 @@ In the example below a `.png` image has been overlayed to a video clip and the A
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-alpha_gradient_after.webp
    :align: left
    :width: 90%
-   :alt: kdenlive2304_effects-alpha_gradient_after
 
    Alpha Gradient effect - after
 

@@ -25,7 +25,6 @@ The Vectorscope has an option to draw I/Q lines. So you may be wondering what ar
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_iq_01.webp
    :width: 350px
-   :alt: kdenlive2308_vectorscope_iq_01.webp
 
    I and Q lines in the Vectorscope
 
@@ -38,7 +37,6 @@ YUV is the standard color space for analog PAL television. NTSC, the american an
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_vectorscope_iq_02.webp
    :width: 650px
-   :alt: kdenlive2308_vectorscope_iq_02.webp
 
    Vectorscope showing skin tones along the I line
 

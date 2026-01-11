@@ -17,7 +17,6 @@ Shape Alpha (Mask)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-shape_alpha_mask-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Shape Alpha (Mask)
 
@@ -94,7 +93,6 @@ You can use a static image file or a video for animated masks
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive2304_effects-shape_alpha_resource
 
    Shape Alpha selecting the resource
 
@@ -106,7 +104,6 @@ Select the file you want to use for the mask
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-shape_alpha_error
 
       Shape Alpha error message in case no alpha
 
@@ -118,7 +115,6 @@ Select the file you want to use for the mask
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive2304_effects-shape_alpha_luma
 
       Shape Alpha using Luma information
 
@@ -129,6 +125,5 @@ Select the file you want to use for the mask
 This is an example for how the Shape Alpha effect looks like when using a :file:`PGM` image file with :term:`Luma`:
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-shape_alpha_result.webp
-   :alt: kdenlive2304_effects-shape_alpha_result
 
    Shape Alpha effect applied

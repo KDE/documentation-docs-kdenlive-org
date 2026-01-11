@@ -18,8 +18,7 @@ White Balance (LMS)
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-white_balance_lms-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| White Balance (LMS)
 
    :**Status**:

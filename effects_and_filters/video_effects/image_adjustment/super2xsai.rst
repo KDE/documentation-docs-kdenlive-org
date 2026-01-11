@@ -17,8 +17,7 @@ Super2xSaI
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-super2xsai
-
+   
 .. sidebar:: |kdenlive-show-video| Super2xSaI
 
    :**Status**:

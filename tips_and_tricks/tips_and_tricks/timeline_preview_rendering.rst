@@ -28,8 +28,7 @@ Full-FPS Preview of Effect-Heavy Timeline Clips
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_01.webp
       :align: left
-      :alt: kdenlive2308_timeline_preview_rendering_01.webp
-      :width: 350px
+         :width: 350px
 
       Raw source footage
 
@@ -41,8 +40,7 @@ Full-FPS Preview of Effect-Heavy Timeline Clips
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_02.webp
       :align: left
-      :alt: kdenlive2308_timeline_preview_rendering_02.webp
-      :width: 350px
+         :width: 350px
 
       Effects applied
 
@@ -64,7 +62,6 @@ Using Timeline Preview Rendering
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_03.webp
    :align: left
-   :alt: preview-menu
    :width: 250px
 
 Timeline preview rendering is best controlled using the dedicated :guilabel:`Timeline Preview` menu in the timeline toolbar. In addition, you can find most of the menu items also in :menuselection:`Menu --> Sequence --> Timeline Preview` which opens a fly-out menu with all the options.
@@ -77,7 +74,6 @@ Step 1: Set Preview Zone
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_04.webp
    :align: left
-   :alt: preview-timeline-step-set-zone
    :width: 350px
 
 Set the timeline zone in (:kbd:`I`) and out (:kbd:`O`) points for the zone you want to render for preview.
@@ -94,7 +90,6 @@ Step 2: Render Preview Zone in Background
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_05.webp
    :align: left
-   :alt: preview-timeline-step-render
    :width: 350px
 
 Select Start Preview Render (:menuselection:`Menu --> Sequence --> Timeline Preview --> Start Preview Render`). Or press :kbd:`Shift+Return`, or click on |preview-render-on|.
@@ -117,8 +112,7 @@ Step 3: Enjoy Smooth Timeline Preview
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_06.webp
       :align: left
-      :alt: preview-timeline-step-done
-      :width: 350px
+         :width: 350px
 
    All green chunks of your timeline will now play back at full speed. You should immediately notice that scrubbing such timeline zones will be much faster, too.
 
@@ -126,8 +120,7 @@ Step 3: Enjoy Smooth Timeline Preview
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_07.webp
       :align: left
-      :alt: kdenlive2308_timeline_preview_rendering_07.webp
-      :width: 350px
+         :width: 350px
 
       Preview Rendering enables smooth playback
 
@@ -152,7 +145,6 @@ Preview Cache Storage
 
 .. figure:: /images/tips_and_tricks/preview-timeline-cache-data.png
    :align: left
-   :alt: preview-timeline-cache-data
    :width: 350px
 
 You can easily find out how much storage you are currently using for the timeline preview. Use :menuselection:`Menu --> File --> Project Settings`, then select the tab :guilabel:`Cache Data`.
@@ -167,7 +159,6 @@ Preview Profiles
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_project_preview_settings.webp
    :align: left
-   :alt: kdenlive2308_project_preview_settings.webp
    :width: 350px
 
    :menuselection:`Menu --> File --> Project Settings`

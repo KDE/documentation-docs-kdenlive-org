@@ -21,8 +21,7 @@ Corners
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-corners-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Corners
 
    :**Status**:
@@ -142,8 +141,7 @@ Corners can be moved towards the inside and the outside of the frame. Hence the 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-corners_schematic.webp
    :width: 500px
    :figwidth: 500px
-   :alt: kdenlive2304_effects-corners_schematic
-
+   
    Corners effect schematic
    
 :**1 - 4**:

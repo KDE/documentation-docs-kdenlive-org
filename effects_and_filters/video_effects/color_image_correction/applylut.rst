@@ -33,7 +33,6 @@ Apply LUT
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-apply_lut-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Apply LUT
 
@@ -116,7 +115,6 @@ This is the *after* and *before* view:
    :width: 700px
    :figwidth: 700px
    :align: left
-   :alt: kdenlive2304_effects-apply_lut_example_3
 
    Project Monitor showing the clip with LUT applied, Clip Monitor the unaltered clip
 
@@ -131,7 +129,6 @@ To apply the LUT follow these simple steps:
    :width: 700px
    :figwidth: 700px
    :align: left
-   :alt: kdenlive2304_effects-apply_lut_example_1
 
    Apply LUT effect with default settings\ [2]_
 
@@ -139,7 +136,6 @@ To apply the LUT follow these simple steps:
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-apply_lut_example_2
 
    Apply LUT file selection dialog
 
@@ -149,7 +145,6 @@ Note that this example shows an individual video editing directory structure wit
    :width: 700px
    :figwidth: 700px
    :align: left
-   :alt: kdenlive2304_effects-apply_lut_example_4
 
    Apply LUT effect with Tahoe.cube LUT file applied\ [2]_
 
@@ -173,7 +168,6 @@ Click on the |edit-download| icon and a window opens listing all available LUT f
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: effects-apply_lut_store_1-2504.webp
 
    LUT files available in the |kde_store|
 
@@ -191,7 +185,6 @@ Click on the highlighted tile to get more information about the selected LUT.
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: effects-apply_lut_store_2-2504.webp
 
    More details about the selected LUT
 

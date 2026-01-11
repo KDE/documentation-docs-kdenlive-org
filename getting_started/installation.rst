@@ -121,8 +121,7 @@ Kdenlive is available as an install and as a standalone version.
    Double click the downloaded file.
 
    .. figure:: /images/getting_started/kdenlive_zip_self_extracting_archive.webp
-      :alt: kdenlive_zip_self_extracting_archive
-      :width: 40%
+            :width: 40%
 	  
       Kdenlive self-extracting archive
 
@@ -130,8 +129,7 @@ Kdenlive is available as an install and as a standalone version.
    Point to the folder you like to store the Kdenlive folder  
 
    .. figure:: /images/getting_started/kdenlive_bin_folder.webp
-      :alt: Kdenlive_bin_folder
-      :width: 30%
+            :width: 30%
 	  
       Kdenlive bin folder
 
@@ -184,56 +182,49 @@ Installation Procedure
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/getting_started/macos_download_option.webp
-   :alt: macos_download_option
-   :width: 30%
+      :width: 30%
    
    MacOS download option
 
 Choose the option *Open with DiskImageMounter (Default)*.
 
 .. figure:: /images/getting_started/macos_diskimagemounter.webp
-   :alt: macos_diskimagemounter
-   :width: 30%
+      :width: 30%
    
    MacOS DiskImageMounter
 
 When the dmg file is downloaded, the *DiskImageMounter* will open. Drag the *Kdenlive* Logo into the *Applications* Folder.
 
 .. figure:: /images/getting_started/macos_copy.webp
-   :alt: macos_copy
-   :width: 30%
+      :width: 30%
    
    MacOS copy
 
 The files get copied.
 
 .. figure:: /images/getting_started/macos_check.webp
-   :alt: macos_check
-   :width: 30%
+      :width: 30%
    
    MacOS check
 
 MacOS will try to check the files for malware.
 
 .. figure:: /images/getting_started/macos_warning.webp
-   :alt: macos_warnig
-   :width: 30%
+      :width: 30%
    
    MacOS warning
 
 The message *“kdenlive" cannot be opened, because Apple cannot search for malware in it* will appear. Here you have to click :guilabel:`Show in Finder`.
 
 .. figure:: /images/getting_started/macos_right_click.webp
-   :alt: macos_right_click
-   :width: 30%
+      :width: 30%
    
    MacOS right-click
 
 The Finder opens. Now right click on *Kdenlive* and choose :guilabel:`Open`.
 
 .. figure:: /images/getting_started/macos_open.webp
-   :alt: macos_open
-   :width: 30%
+      :width: 30%
    
    MacOS open
 
@@ -251,8 +242,7 @@ Kdenlive automatically checks at startup for updates based on the app version (n
 
 .. figure:: /images/getting_started/kdenlive2402_check-for-update.webp
    :width: 80%
-   :alt: kdenlive2402_check-for-update
-
+   
 You can disable this function in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Environment</getting_started/configure_kdenlive/configuration_environment>` by un-checking :guilabel:`Check for updates`. 
 
 

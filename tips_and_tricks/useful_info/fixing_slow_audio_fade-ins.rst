@@ -20,7 +20,6 @@ Do you suffer from an unwanted slow audio fade-ins whenever starting playback in
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_alsa_audio.webp
    :align: left
-   :alt: kdenlive2308_alsa_audio.webp
    :width: 350px
 
    Setting the audio driver to ALSA

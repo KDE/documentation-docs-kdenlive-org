@@ -16,8 +16,7 @@ Lift/Gamma/Gain
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-liftgammagain-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Lift/Gamma/Gain
 
    :**Status**:

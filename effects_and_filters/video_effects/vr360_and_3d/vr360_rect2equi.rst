@@ -17,8 +17,7 @@ VR360 Rectilinear to Equirectangular
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vr360_rect2equi-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| VR360 Rectilinear to Equirectangular
 
    :**Status**:

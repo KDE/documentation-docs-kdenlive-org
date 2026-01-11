@@ -18,8 +18,7 @@ Kdenlive uses these settings for creating a new project (see Menu > File > New, 
 .. figure:: /images/getting_started/configure_project_defaults_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: configure_project_defaults_2412
-
+   
    The Project Defaults section
 
 :1: :guilabel:`Project Folder`. This is an important setting for keeping your projects organized and your file system shipshape. Kdenlive creates the following folders for each project: :file:`audiothumbs`, :file:`sequences`, :file:`videothumbs`, and :file:`workfiles`. See also :doc:`/getting_started/configure_kdenlive/configuration_info`.
@@ -44,8 +43,7 @@ Kdenlive uses these settings for creating a new project (see Menu > File > New, 
 .. figure:: /images/getting_started/configure_project_defaults_preview_profiles_2412.webp
    :width: 500px
    :figwidth: 500px
-   :alt: configure_project_defaults_preview_profiles_2412
-
+   
    Timeline Preview profiles
 
 :1: List of available profiles

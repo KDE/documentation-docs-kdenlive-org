@@ -108,8 +108,7 @@ VOSK
 .. figure:: /images/getting_started/configure_speech2text_vosk_conf_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: configure_speech2text_vosk_conf_2412
-
+   
    Python is working, but VOSK is not yet usable due to missing speech models
 
 You need to download a speech model first from the alphacephei\ [1]_ download page. Follow the link (**2**) and download the models you need.
@@ -134,8 +133,7 @@ Click on :guilabel:`Add Model` and enter the path to the file(s) you downloaded.
    :width: 300px
    :figwidth: 300px
    :align: left
-   :alt: configure_speech2text_new_dictionary_2412
-
+   
 Click on |document-open|\ :guilabel:`Open file dialog` to open the file manager of your OS to navigate to where you downloaded the files and select the model file you want to add.
 
 | 
@@ -146,8 +144,7 @@ Click on |document-open|\ :guilabel:`Open file dialog` to open the file manager 
    :width: 300px
    :figwidth: 300px
    :align: left
-   :alt: configure_speech2text_new_dictionary_2412
-
+   
 Alternatively, drag & drop the language model you want from the alphacephei\ [1]_ download page to the model window (**4**), and Kdenlive will download and extract it for you into the default folder or the custom folder you specified.
 
 .. rst-class:: clear-both
@@ -163,8 +160,7 @@ Whisper
    :align: right
    :width: 400px
    :figwidth: 400px
-   :alt: configure_speech2text_whisper_install_2412
-
+   
    Install missing dependencies
 
 When you switch to Whisper for the first time you have to install the missing dependencies (about 2GB to download).
@@ -177,8 +173,7 @@ After that you need to download one or more speech models.
    :align: left
    :width: 700px
    :figwidth: 700px
-   :alt: configure_speech2text_whisper_2412
-
+   
    Whisper is installed but no speech model has been downloaded
 
 .. rst-class:: clear-both
@@ -202,8 +197,7 @@ Click on :guilabel:`Manage models` or go with the recommendation of using the tu
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: configure_speech2text_whisper_models_2412
-
+   
    Whisper download and manage models
 
 Kdenlive shows the download process.
@@ -221,8 +215,7 @@ Available models have a hollow circle. You can install them by clicking on :guil
    :align: left
    :width: 500px
    :figwidth: 500px
-   :alt: Whisper installed
-
+   
    When all is configured correctly you get this screen: All green!
 
 .. rst-class:: clear-both
@@ -262,8 +255,7 @@ The first time you use object detection the plugin has to be installed.
    :align: left
    :width: 700px
    :figwidth: 500px
-   :alt: Object Detection plugin to be installed
-
+   
 .. rst-class:: clear-both
 
 The plugin gets installed in folder:
@@ -277,8 +269,7 @@ If all is properly installed it should look like so:
    :align: left
    :width: 500px
    :figwidth: 500px
-   :alt: Object Detection plugin installed
-
+   
    When all is configured correctly you get this screen: All green!
 
 .. rst-class:: clear-both
@@ -317,8 +308,7 @@ You should get something like this:
    :align: left
    :width: 300px
    :figwidth: 500px
-   :alt: CUDA version installed
-
+   
    Here the CUDA version is 12.8
 
 .. rst-class:: clear-both
@@ -331,8 +321,7 @@ You can select a CUDA version equal to or lower than what was detected
    :align: left
    :width: 300px
    :figwidth: 500px
-   :alt: CUDA version to be installed
-
+   
    Select a CUDA version which is lower than what was detected.
 
 .. rst-class:: clear-both
@@ -345,8 +334,7 @@ On the next window click :guilabel:`Continue`
    :align: left
    :width: 300px
    :figwidth: 500px
-   :alt: CUDA version installation
-
+   
 .. rst-class:: clear-both
 
 Kdenlive starts downloading all necessary files for using the GPU. Once finished you should see your GPU under :guilabel:`Device` like so: 
@@ -355,8 +343,7 @@ Kdenlive starts downloading all necessary files for using the GPU. Once finished
    :align: left
    :width: 300px
    :figwidth: 500px
-   :alt: CUDA version installaled
-
+   
    Successfully installed GPU
 
 .. rst-class:: clear-both
@@ -368,8 +355,7 @@ Kdenlive starts downloading all necessary files for using the GPU. Once finished
 .. figure:: /images/getting_started/configure_speech2text_vosk_models_alphacephei_2412.webp
    :width: 250px
    :align: center
-   :alt: configure_speech2text_vosk_models_alphacephei_2412
-
+   
 .. rst-class:: clear-both
 
 |

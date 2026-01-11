@@ -20,8 +20,7 @@
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-rotate_3_way-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| 3-way Rotate
 
    :**Status**:
@@ -96,8 +95,7 @@ The :guilabel:`Scale` parameter is applied irrespective of the rotation - it sca
    :width: 400px
    :figwidth: 400px
    :align: center
-   :alt: kdenlive2304_effects-rotate_and_shear_axes
-
+   
    Rotation axes visualization
 
 

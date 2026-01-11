@@ -20,7 +20,6 @@ Depending on your workflow habits, you can configure when to raise the propertie
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_config_raise_properties.webp
    :align: left
-   :alt: kdenlive2308_config_raise_properties.webp
    :width: 350px
 
 Go to :menuselection:`Menu --> Settings --> Configure Kdenlive`, then select the tab :guilabel:`Timeline`.

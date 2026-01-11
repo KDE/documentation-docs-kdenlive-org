@@ -15,8 +15,7 @@ Saturation
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-saturation-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Saturation
 
    :**Status**:

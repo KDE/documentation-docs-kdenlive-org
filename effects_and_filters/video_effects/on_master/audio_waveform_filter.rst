@@ -21,8 +21,7 @@ Audio Waveform Filter
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-audio_waveform-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Audio Waveform Filter
 
    :**Status**:
@@ -109,8 +108,7 @@ The following selection items are available:
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-audio_waveform_filter_example
-
+   
    Example of the Audio Waveform Filter effect with default settings
 
 ..

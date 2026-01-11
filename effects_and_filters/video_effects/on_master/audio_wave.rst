@@ -22,8 +22,7 @@ Audio Wave
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-audio_wave
-
+   
 .. sidebar:: |kdenlive-show-video| Audio Wave
 
    :**Status**:
@@ -58,8 +57,7 @@ This effect/filter is an audio visualization effect that displays the audio wave
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2304_effects-audio_wave_example
-
+   
    Example of the Audio Wave effect
 
 ..

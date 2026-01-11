@@ -41,7 +41,6 @@ Rotoscoping
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-rotoscoping-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Rotoscoping
 
@@ -140,7 +139,6 @@ The following selection items are available:
 
 .. figure:: /images/effects_and_compositions/kdenlive2304_effects-rotoscoping_1.webp
    :width: 90%
-   :alt: kdenlive2304_effects-rotoscoping_1
 
    Before, during and after Rotoscoping. Note the disabled Edit Mode (bottom right)
 
@@ -151,7 +149,6 @@ The following selection items are available:
    :align: left
    :width: 328px
    :figwidth: 328px
-   :alt: kdenlive2304_effects-rotoscoping_nodes_handles
 
    Nodes and Handles
 
@@ -163,7 +160,6 @@ The region is drawn by adding nodes along your region. These act as edges for yo
       :align: left
       :width: 328px
       :figwidth: 328px
-      :alt: kdenlive2304_effects-rotoscoping_nodes
 
       Nodes and Handles
 
@@ -177,7 +173,6 @@ Close the region by right clicking the mouse on one of the nodes. Kdenlive will 
    :align: left
    :width: 328px
    :figwidth: 328px
-   :alt: kdenlive2304_effects-rotoscoping_insert_node
 
    Inserting a node for better edge control
 
@@ -189,7 +184,6 @@ Change the edge of the region by moving a node. You can insert a node between tw
       :align: left
       :width: 328px
       :figwidth: 328px
-      :alt: kdenlive2304_effects-rotoscoping_handles
 
       Using handles to create curves
 
@@ -212,7 +206,6 @@ By default, the inside of the region you created is transparent (the video track
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive2304_effects-rotoscoping_keyframes
 
    Using keyframes for Rotoscoping
 
@@ -246,7 +239,6 @@ To remove a keyframe select it by clicking on the keyframe symbol (diamond, circ
    :align: left
    :width: 400px
    :figwidth: 400px
-   :alt: kdenlive_effects-rotoscoping_image21
 
    Layout changed to Color
 
@@ -258,7 +250,6 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive_effects-rotoscoping_image13
 
       Selecting Rotoscoping from the list of effects
 
@@ -270,7 +261,6 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive_effects-rotoscoping_image14
 
       Object selection
 
@@ -282,7 +272,6 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive_effects-rotoscoping_image15
 
       Object selection
 
@@ -294,7 +283,6 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive_effects-rotoscoping_image18
 
       YUV selection
 
@@ -306,7 +294,6 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
       :align: left
       :width: 400px
       :figwidth: 400px
-      :alt: kdenlive_effects-rotoscoping_image19
 
       Color balance selection
 
@@ -368,20 +355,16 @@ We will be using the :guilabel:`Color` layout. This will allow us to work with t
 
    .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
    :class: no-scaled-link
 
    .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
    :class: no-scaled-link
 
    .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
    :class: no-scaled-link
 
    .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
    :class: no-scaled-link

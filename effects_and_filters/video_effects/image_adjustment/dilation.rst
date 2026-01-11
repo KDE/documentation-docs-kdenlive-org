@@ -17,8 +17,7 @@ Dilation
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-dilation-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Dilation
 
    :**Status**:

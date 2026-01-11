@@ -30,7 +30,6 @@ The Fade-In Ramp
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_1a.webp
    :align: left
-   :alt: kkdenlive2308_smooth_keyframes_1a.webp
    :width: 350px
    :figwidth: 350px
 
@@ -44,7 +43,6 @@ Let's start with a simple ramp, as shown here. We use two keyframes\ [1]_, one w
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_1b.webp
    :align: left
-   :alt: kdenlive2308_smooth_keyframes_1b.webp
    :width: 350px
 
    Color clip keyframe display
@@ -60,7 +58,6 @@ But what exactly is going on here?
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_catmull-rom_1.webp
    :align: left
-   :alt: kdenlive2308_catmull-rom_1.webp
    :width: 350px
    :figwidth: 350px
 
@@ -83,7 +80,6 @@ Ramp-Up, and … Overshoot
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_2a.webp
    :align: left
-   :alt: kdenlive2308_smooth_keyframes_2a.webp
    :width: 350px
    :figwidth: 350px
 
@@ -98,7 +94,6 @@ Now let's add a third keyframe, so this looks like a ramp with a plateau. This i
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_2b.webp
    :align: left
-   :alt: kdenlive2308_smooth_keyframes_2b.webp
    :width: 350px
 
    Color clip keyframe display
@@ -109,7 +104,6 @@ And now, the ramp gets a clearly visible bump instead of a sharp bend. Well, thi
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_catmull-rom_2.webp
    :align: left
-   :alt: kdenlive2308_catmull-rom_2.webp
    :width: 350px
    :figwidth: 350px
 
@@ -130,14 +124,12 @@ Ramp Up-Flat-Down
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_3a.webp
    :align: left
-   :alt: kdenlive2308_smooth_keyframes_3a.webp
    :width: 350px
 
    Keyframes in the :doc:`/effects_and_filters/video_effects/color_image_correction/brightness_keyframable` effect
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_3b.webp
    :align: left
-   :alt: kdenlive2308_smooth_keyframes_3b.webp
    :width: 350px
 
    Color clip keyframe display
@@ -152,7 +144,6 @@ And look, what is happening: we have got a hump, but not a nice and flat middle 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_catmull-rom_3.webp
    :align: left
-   :alt: kdenlive2308_catmull-rom_3.webp
    :width: 350px
    :figwidth: 350px
 
@@ -169,7 +160,6 @@ Make Flat Great Again
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_4a.webp
    :align: left
-   :alt: kdenlive2308_smooth_keyframes_4a.webp
    :width: 350px
    :figwidth: 350px
 
@@ -177,7 +167,6 @@ Make Flat Great Again
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_smooth_keyframes_4b.webp
    :align: left
-   :alt: kdenlive2308_smooth_keyframes_4b.webp
    :width: 350px
 
 Now, how do we get a flat top? Fortunately, that is easy to achieve, as you can see from the screenshots.

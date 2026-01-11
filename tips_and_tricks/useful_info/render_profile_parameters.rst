@@ -99,8 +99,7 @@ Contents of :file:`lossless/H.264`:
    -----------------
 
    .. image:: /images/glossary/render_dialog_21-08_scanning.png
-      :alt: Scanning dropdown of the render dialog
-      :align: left
+         :align: left
 
    This option controls the frame scanning setting the rendered file will have.
    Options are *Force Progressive*, *Force Interlaced* and *Auto*.

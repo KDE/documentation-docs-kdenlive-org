@@ -21,7 +21,6 @@ Mask Apply
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-mask_apply-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Mask Apply
 
@@ -53,7 +52,6 @@ Apply the previous effects starting with an effect with "(Mask)" in its name.
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-mask_apply_example-2504.webp
 
 
 This is a very powerful effect function as it does not do anything itself but instruct Kdenlive to apply the effects beginning with the (Mask) effect only to the area defined by that (Mask) effect.

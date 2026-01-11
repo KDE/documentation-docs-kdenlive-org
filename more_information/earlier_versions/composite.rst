@@ -28,7 +28,6 @@ Alpha operations
 .. image:: /images/Composite_transition_showing_alpha_channel_operation_options.png
    :width: 400px
    :align: left
-   :alt: Composite_transition_showing_alpha_channel_operation_options
 
 Alpha operation options are *Over*, *And*, *Or* and *Xor*:
 
@@ -39,7 +38,6 @@ Operation **Over**
 
 .. image:: /images/alpha_operation_Over.png
    :align: left
-   :alt: alpha_operation_Over
 
 Operation **And**
 
@@ -48,13 +46,11 @@ Operation **And**
 
 .. image:: /images/alpha_operation_And.png
    :align: left
-   :alt: alpha_operation_And
 
 Operation **Or** clears any alpha information
 
 .. image:: /images/alpha_operation_Or.png
    :align: left
-   :alt: alpha_operation_Or
 
 Operation **Xor**
 
@@ -63,7 +59,6 @@ Operation **Xor**
 
 .. image:: /images/alpha_operation_Xor.png
    :align: left
-   :alt: alpha_operation_Xor
 
 
 Tutorial 1
@@ -104,7 +99,6 @@ https://youtu.be/FIpnGlRY27U
 
 .. image:: /images/Composite_transition_with_wipe_file.png
    :align: left
-   :alt: Composite_transition_with_wipe_file
 
 Screenshot of Composite transition using a custom wipe file to mask out a section of video - as described in Tutorial 3.
 

@@ -17,8 +17,7 @@ Burning TV
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-burning_tv-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Burning TV
 
    :**Status**:

@@ -25,7 +25,6 @@ Transparency
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-transparency-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Transparency
 

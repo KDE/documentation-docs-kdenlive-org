@@ -15,8 +15,7 @@ Monochrome
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-monochrome-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Monochrome
 
    :**Status**:

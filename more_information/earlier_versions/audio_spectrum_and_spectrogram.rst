@@ -34,13 +34,11 @@ The Audio Spectrum and the Spectrogram
 This chapter is about audio scopes. It is also talking about audio in general (e.g. recording, perception, etc.).
 
 .. image:: /images/earlier_versions/audiospectrum-example.png
-   :alt: audiospectrum-example
 
 The Scopes
 ----------
 
 .. figure:: /images/earlier_versions/kdenlive-spectrogram.png
-   :alt: kdenlive-spectrogram
 
    Spectrogram screenshot
 
@@ -84,7 +82,6 @@ Clipping
 ~~~~~~~~
 
 .. figure:: /images/earlier_versions/Zoom_H4n_audio_levels.jpg
-   :alt: Zoom H4n audio levels
    :width: 40%
    :align: right
 

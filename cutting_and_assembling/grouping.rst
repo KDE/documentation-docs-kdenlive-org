@@ -34,7 +34,6 @@ You can select multiple clips in preparation for grouping them by holding shift 
 
 .. image:: /images/Kdenlive_Shift_click_drag_to_multi_select.png
    :align: left
-   :alt: Kdenlive_Shift_click_drag_to_multi_select
 
 
 To group the selected clips select :menuselection:`Timeline --> Group Clips` or right-click the selected clips and choose :menuselection:`Group Clips` or use the shortcut :kbd:`Ctrl+G`.
@@ -70,15 +69,12 @@ If you cut the video clip using the :ref:`editing` when there is an audio clip g
 
 .. image:: /images/Kdenlive_Grouped_video_audio.png
   :align: left
-  :alt: Kdenlive_Grouped_video_audio
 
 .. image:: /images/kdenlive_arrow_right.png
    :align: left
-   :alt: kdenlive_arrow_right
 
 .. image:: /images/Kdenilve_Cutting_grouped_clips.png
    :align: right
-   :alt: Kdenilve_Cutting_grouped_clips
 
 
 .. rst-class:: clear-both
@@ -93,7 +89,7 @@ Effects on grouped clips
 
 .. figure:: /images/kdenlive2405_effect-on-grouped_clips.webp
    :align: left
-   :alt: effects on grouped clips
+
 
 When :guilabel:`Apply effect change to all clips in the group` is enabled, adjusting a parameter for an effect will apply it to all items in the group which have this effect too.
 
@@ -103,7 +99,7 @@ Deleting an effect will delete it on all clips in the group.
 
 .. figure:: /images/kdenlive2405_effect-value-on-grouped_clips.webp
    :align: left
-   :alt: effect value  on grouped clips
+
 
 .. rst-class:: clear-both
 
@@ -126,6 +122,6 @@ A: Right-click on the clip and choose :menuselection:`Ungroup Clips`. Then you c
 
 .. image:: /images/Kdenlive_Grouped_video_audio.png
    :align: left
-   :alt: Kdenlive_Grouped_video_audio
+
 
 Alternatively you can keep the audio in the clip and use the :guilabel:`Mute` effect to just mute the audio on the clip.

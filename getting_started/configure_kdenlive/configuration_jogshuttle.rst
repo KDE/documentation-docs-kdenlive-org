@@ -18,8 +18,7 @@ Configure a connected jog shuttle device. Contour *ShuttlePro* and Contour *Shut
 .. figure:: /images/getting_started/configure_jogshuttle_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Kdenlive_Configure_screen_jog-shuttle
-
+   
    Configure section Jogshuttle
 
 :1: :guilabel:`Enable Jog Shuttle device`. Select this if you want to use a connected jog shuttle device (provided it is supported by your OS and Kdenlive).
@@ -65,8 +64,7 @@ which should tell the device file to be entered into Kdenlive's setting dialog. 
 .. figure:: /images/getting_started/KDENLIVE_Configure_jog_shuttle.png
    :width: 500px
    :figwidth: 500px
-   :alt: KDENLIVE_Configure_jog_shuttle
-
+   
 Enable Jog-Shuttle. For the Contour ShuttleXpress the buttons 5 - 9 are relevant, whereas Contour ShuttlePro uses all buttons. The actions for the jog and the shuttle wheel are working as expected.
 
 
@@ -79,20 +77,17 @@ On the desktop open the system tray. Right-click on the Contour icon and choose 
 
 
 .. image:: /images/getting_started/Contour_open-cotrol-panel.png
-   :alt: Contour_open-cotrol-panel
-
+   
 In the configuration window, under **Application setting** choose the program *Adobe Premiere Pro CS&CC (Edit)*. Then click on :menuselection:`Options --> Create new settings --> Copy contents from Current Settings`. 
 
 
 .. image:: /images/getting_started/Contour_new_settings.png
-   :alt: Contour_new_settings
-
+   
 Then choose :file:`kdenlive.exe` in :file:`C:\\Program Files\\kdenlive\\bin`. 
 
 
 .. image:: /images/getting_started/Contour_Design_Choose_Aplication.png
-   :alt: Contour_Design_Choose_Aplication
-
+   
 Now the basic functionality should work. Adjust the buttons of the shuttle with shortcuts as you like.
 
 .. This is not available anymore, is it?

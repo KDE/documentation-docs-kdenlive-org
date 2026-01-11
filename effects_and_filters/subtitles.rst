@@ -42,7 +42,7 @@ Kdenlive allows multiple subtitle files in the subtitle track (only one subtitle
 
 
 .. image:: /images/subtitle-timeline-1.gif
-   :alt: subtitle
+
 
 .. tip::
    Kdenlive stores subtitles as .ass files, which means you might be interested in exploring some advanced ASS features. For more details, check out the `ASS File Format Guide <https://github.com/libass/libass/wiki/ASS-File-Format-Guide>`_ and `Aegisub's Documentation <https://aegisub.org/docs/latest/>`_.
@@ -90,7 +90,6 @@ With this feature, you can cut the selected subtitle with the Razor Tool after t
 
 .. .. figure:: /images/subtitle-split_at_line.png
    :scale: 75%
-   :alt: subtitle split at line
 
    Subtitle split after first line or duplicate text
 
@@ -98,7 +97,6 @@ To enable this feature go to :menuselection:`Menu --> Settings --> Configure Kde
 
 .. figure:: /images/subtitle-split_with_razor-tool.png
    :scale: 75%
-   :alt: subtitle split with Razor-Tool
 
    Subtitle split with Razor-Tool
 
@@ -106,7 +104,6 @@ Select the subtitle in the timeline that contains two lines. Click on the subtit
 
 .. figure:: /images/subtitle-split_after.png
    :scale: 75%
-   :alt: subtitle split after the split
 
    Subtitle after you have split it with the Razor-Tool
 
@@ -128,7 +125,6 @@ Style Subtitles
 ---------------
 
 .. figure:: /images/effects_and_compositions/subtitle-manager_style.png
-   :alt: subtitle style
 
 Creating, duplicating, deleting, and editing subtitle styles can be managed through the :ref:`subtitle-manager`.
 
@@ -151,7 +147,6 @@ Move/Copy a style
 ~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/effects_and_compositions/subtitle-move_styles.gif
-   :alt: subtitle move copy
 
 In the style section of the :ref:`subtitle-manager`, drag a style to the desired item in the sidebar to move or copy it.
 
@@ -170,7 +165,6 @@ Kdenlive supports using ASS override tags to style **specific parts of the subti
 
 .. figure:: /images/effects_and_compositions/subtitle-window_page1.png
    :scale: 60%
-   :alt: subtitle override tags
 
 * A **highlighter** renders different parts of the tags in distinct styles, making them more distinguishable.
 
@@ -192,12 +186,10 @@ Multi-layer Subtitling
 Kdenlive supports multiple subtitle layers. You can create, duplicate, and delete subtitle layers using the :guilabel:`Layer` tab in :ref:`subtitle-manager`.
 
 .. figure:: /images/effects_and_compositions/subtitle-manager_event.png
-   :alt: subtitle event
 
 A new subtitle layer can also be created by :kbd:`Shift+drag` an existing subtitle down beyond the bottom of the subtitle track or by adjusting the layer indicator in the :ref:`subtitle-window`.
 
 .. figure:: /images/effects_and_compositions/subtitle-add_new_layer_on_timeline.gif
-   :alt: subtitle add new layer on timeline
 
 Subtitles with a lower Layer value are placed behind those with a higher value.
 
@@ -209,7 +201,6 @@ When you create a new subtitle by double-clicking on the timeline, the subtitle 
 You can change a subtitle's layer value using the :guilabel:`Layer` indicator in the :ref:`subtitle-window`, or you can simply drag and drop the subtitle from one layer to another on the timeline.
 
 .. figure:: /images/effects_and_compositions/subtitle-move_subtitles_between_layers.gif
-   :alt: subtitle move subtitles between layers
 
 If you set the layer value higher than the current maximum, Kdenlive will automatically add a new layer.
 
@@ -221,7 +212,6 @@ You can copy and move layers between different subtitle files using the :ref:`su
 In the :guilabel:`Layer` tab, Simply drag a layer to the desired file in the sidebar. All events within the layer will be copied or moved to the new location.
 
 .. figure:: /images/effects_and_compositions/subtitle-move_layer.gif
-   :alt: subtitle move layer
 
 Default style of layer
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -249,7 +239,6 @@ Exporting **ASS** or **SRT** subtitles: :menuselection:`Menu --> Sequence --> Su
 
 .. figure:: /images/kdenlive2402_import_subtitle.webp
    :scale: 75%
-   :alt: import_subtitle_23-04
 
 :guilabel:`Encoding`: Allow overriding of detected codecs through a list of available codecs, and show a preview to make choice easier.
 
@@ -265,7 +254,6 @@ Subtitle Window
 The subtitles window allows easier editing and also makes it possible to easily navigate between subtitles with the :guilabel:`<` and :guilabel:`>` buttons
 
 .. figure:: /images/subtitle-widget.gif
-   :alt: subtitle window
 
    Subtitle window
 
@@ -288,7 +276,6 @@ Character count and zoom
 .. .. versionadded:: 23.08
 
 .. figure:: /images/effects_and_compositions/subtitle_character_count_and_zoom.gif
-   :alt: subtitle_character_count_and_zoom
 
 :guilabel:`Character`: Character number at cursor position
 
@@ -314,7 +301,6 @@ To enable spell check, right-click the subtitle text widget in the :ref:`subtitl
 
 .. figure:: /images/Speech-to-text_Spell-Check.png
    :align: left
-   :alt: Spell check
 
 .. rst-class:: clear-both
 
@@ -334,7 +320,6 @@ You can configure subtitle scrolling using the following options:
 :menuselection:`Subtitle Window --> More Options --> Scroll`
 
 .. figure:: /images/effects_and_compositions/subtitle-scroll.gif
-   :alt: subtitle scroll
 
 * Check the :guilabel:`Scrolling` checkbox to enable scrolling.
 
@@ -355,13 +340,11 @@ You can create, duplicate, and delete subtitle files and manage its components w
 
 .. figure:: /images/kdenlive2402_drop-down_subtitle-manager.webp
    :align: left
-   :alt: drop down menu to the subtitle manager
 
    Open the subtitle manager from the drop down menu 
 
 
 .. figure:: /images/effects_and_compositions/subtitle-manager_file.png
-   :alt: subtitle event
 
    Subtitle manager with 4 subtitle files 
 
@@ -377,6 +360,5 @@ Style editor
 ------------
 
 .. figure:: /images/effects_and_compositions/subtitle-style_editor.png
-   :alt: subtitle style editor
 
 An editor that allows you to adjust style properties with a live preview.

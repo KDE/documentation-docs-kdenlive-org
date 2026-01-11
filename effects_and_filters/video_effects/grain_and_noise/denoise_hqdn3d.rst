@@ -17,8 +17,7 @@ HQ 3D Denoiser
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-denoise_hqdn3d-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| HQ 3D Denoiser
 
    :**Status**:

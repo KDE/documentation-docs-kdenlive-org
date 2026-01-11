@@ -15,9 +15,8 @@ Color Channel Mixer
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-color_channel_mixer-2504.webp
 
-.. sidebar:: |kdenlive-show-video| Color Channel Mixer
+ .. sidebar:: |kdenlive-show-video| Color Channel Mixer
 
    :**Status**:
       Maintained

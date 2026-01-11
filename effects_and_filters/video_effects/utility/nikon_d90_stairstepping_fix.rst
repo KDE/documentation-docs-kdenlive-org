@@ -17,8 +17,7 @@ Nikon D90 Stairstepping Fix
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-nikon_d90_stairstepping_fix
-
+   
 .. sidebar:: |kdenlive-show-video| Nikon D90 Stairstepping Fix
 
    :**Status**:

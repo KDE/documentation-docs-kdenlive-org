@@ -15,7 +15,6 @@ Sharp/Unsharp
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-sharp_unsharp-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Sharp/Unsharp
 

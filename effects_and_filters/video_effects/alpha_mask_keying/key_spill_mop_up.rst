@@ -18,7 +18,6 @@ Key Spill Mop Up
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-key_spill_mop_up-2504.webp
 
 .. sidebar:: |kdenlive-show-video| Key Spill Mop-up
 

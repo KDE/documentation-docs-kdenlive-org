@@ -18,8 +18,7 @@ This section controls certain aspects of the Timeline.
 .. figure:: /images/getting_started/configure_timeline_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: configure_timeline_2412
-
+   
    The Timeline section
 
 :1: :guilabel:`Thumbnails` - :guilabel:`Enable for Video/Audio`. By default, thumbnails for video and audio clips will be generated. They will be stored in the :file:`videothumbs` and :file:`audiothumbs` folders, respectively, of the project. See the :doc:`Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>` section.

@@ -20,8 +20,7 @@ LumaLiftGainGamma
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-lumaliftgaingamma-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| LumaLiftGainGamma
 
    :**Status**:

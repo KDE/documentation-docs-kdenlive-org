@@ -28,11 +28,9 @@ Lens
 |pic1|  |pic2|
 
 .. |pic1| image:: /images/tips_and_tricks/shooting_nikon_50mm.webp
-   :alt: shooting_nikon_50mm.webp
    :width: 30%
 
 .. |pic2| image:: /images/tips_and_tricks/shooting_nikon_35mm.webp
-   :alt: nshooting_nikon_35mm.webp
    :width: 30%
 
 
@@ -46,7 +44,6 @@ Filter
 ~~~~~~
 
 .. figure:: /images/tips_and_tricks/shooting_nd-filter.webp
-   :alt: shooting_nd-filter.webp
    :align: right
    :width: 200px
    :figwidth: 200px
@@ -69,11 +66,9 @@ Aperture, Shutter, and ISO
 |pic3|  |pic4|
 
 .. |pic3| image:: /images/tips_and_tricks/shooting_motion-low.webp
-   :alt: motion-low
    :width: 30%
 
 .. |pic4| image:: /images/tips_and_tricks/shooting_motion-high.webp
-   :alt: shooting_motion-high.webp
    :width: 30%
 
 The same as for shooting stills. Really? Not quite. As written above you will usually want to have the shutter speed lower than for photography in order to get motion blur — around 1/50 s. (This is just a rule of thumb, as all rules in video are - made to be broken.)
@@ -88,11 +83,9 @@ Exposure
 |pic5|  |pic6|
 
 .. |pic5| image:: /images/tips_and_tricks/shooting_low-ISO.webp
-   :alt: shooting_low-ISO.webp
    :width: 30%
 
 .. |pic6| image:: /images/tips_and_tricks/shooting_high-ISO.webp
-   :alt: shooting_high-ISO.webp
    :width: 30%
 
 The image should be exposed as bright as possible (without too much clipping!) if enough light is available. If you do not need to boost the brightness too much in post-production, you can avoid some noise in dark areas. 
@@ -103,11 +96,9 @@ White Balance
 |pic7|  |pic8|
 
 .. |pic7| image:: /images/tips_and_tricks/shooting_whitebalance-post.webp
-   :alt: shooting_whitebalance-post.webp
    :width: 30%
 
 .. |pic8| image:: /images/tips_and_tricks/shooting_whitebalance-pre.webp
-   :alt: shooting_whitebalance-pre.webp
    :width: 30%
 
 The White Balance should be set as accurate as possible because DSLRs only support 8 bit per color channel (see also the chapter about the :doc:`Waveform Monitor </tips_and_tricks/scopes/waveform_and_rgb_parade>`). If done wrong, much of the color information is lost.

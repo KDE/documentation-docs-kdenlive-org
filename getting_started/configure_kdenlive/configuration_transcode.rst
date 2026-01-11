@@ -23,8 +23,7 @@ This controls the :ref:`transcode` functionality. The parameters section are ffm
 .. figure:: /images/getting_started/configure_transcode_2412.webp
    :width: 700px
    :figwidth: 700px
-   :alt: Kdenlive_Configure_transcode
-
+   
    Configure section Transcode
 
 :1: List of all available transcoding profiles

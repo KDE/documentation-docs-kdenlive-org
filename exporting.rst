@@ -25,8 +25,7 @@ Hit :kbd:`Ctrl+Return` to open the rendering dialog or use the :menuselection:`M
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2212_rendering-render_dialog
-
+  
    Rendering dialog window
 
 * Select the :guilabel:`Output file` location
@@ -43,7 +42,6 @@ Once the video is rendered you can double-click the blue banner with the file na
    :width: 400px
    :figwidth: 400px
    :align: left
-   :alt: kdenlive2402_rendering-window
 
    Window after rendering is complete
 

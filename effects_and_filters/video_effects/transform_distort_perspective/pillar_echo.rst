@@ -18,8 +18,7 @@ Pillar Echo
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-pillar_echo-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Pillar Echo
 
    :**Status**:

@@ -17,8 +17,7 @@
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-3d_fft_denoiser-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| 3D FFT Denoiser
 
    :**Status**:

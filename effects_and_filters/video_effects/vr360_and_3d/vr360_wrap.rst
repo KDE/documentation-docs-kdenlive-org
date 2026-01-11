@@ -17,8 +17,7 @@ VR360 Wrap
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-vr360_wrap-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| VR360 Wrap
 
    :**Status**:

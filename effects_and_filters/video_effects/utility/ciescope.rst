@@ -23,8 +23,7 @@ CIE Scope
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-cie_scope-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| CIE Scope
 
    :**Status**:
@@ -157,8 +156,7 @@ The following selection items are available:
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-cie_scope_example_1-2504.webp
-
+   
    CIE Scope Example 1 - Default settings
 
 This shows the CIE Scope effect with the default settings. Depending on your source material the pixel distribution will look differently.
@@ -169,8 +167,7 @@ This shows the CIE Scope effect with the default settings. Depending on your sou
       :width: 365px
       :figwidth: 365px
       :align: left
-      :alt: effects-cie_scope_example_2-2504.webp
-
+      
       CIE Scope Example 2
 
    This shows the CIE Scope effect with the following settings:
@@ -187,8 +184,7 @@ This shows the CIE Scope effect with the default settings. Depending on your sou
       :width: 365px
       :figwidth: 365px
       :align: left
-      :alt: effects-cie_scope_example_3-2504.webp
-
+      
       CIE Scope Example 3
 
    This shows the CIE Scope effect with the following settings:
@@ -253,20 +249,16 @@ This shows the CIE Scope effect with the default settings. Depending on your sou
    
    .. |linux| image:: /images/icons/linux.png
    :width: 14px
-   :alt: Linux
-   :class: no-scaled-link
+      :class: no-scaled-link
 
    .. |appimage| image:: /images/icons/kdenlive-appimage_3.svg
    :width: 14px
-   :alt: appimage
-   :class: no-scaled-link
+      :class: no-scaled-link
 
    .. |windows| image:: /images/icons/windows.png
    :width: 14px
-   :alt: Windows
-   :class: no-scaled-link
+      :class: no-scaled-link
 
    .. |apple| image:: /images/icons/apple.png
    :width: 14px
-   :alt: MacOS
-   :class: no-scaled-link
+      :class: no-scaled-link

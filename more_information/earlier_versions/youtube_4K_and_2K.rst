@@ -139,11 +139,9 @@ Notice that the settings for :guilabel:`Project Folder`, :guilabel:`Video Tracks
 |pic1| |pic2|
 
 .. |pic1| image:: /images/earlier_versions/project_setting_4K.png
-   :alt: Project setting 4K
    :width: 45%
 
 .. |pic2| image:: /images/earlier_versions/project_setting_2K.png
-   :alt: Project setting 2K
    :width: 45%
 
 
@@ -263,7 +261,6 @@ Step 3: Create Custom Rendering Profile
 In the Rendering window create a new profile.
 
 .. image:: /images/earlier_versions/rendering_profile.png
-   :alt: rendering-profile
    :width: 45%
 
 In the **Profile** window write the following values:
@@ -388,7 +385,6 @@ In the **Profile** window write the following values:
      - 256
 
 .. image:: /images/earlier_versions/rendering_profile_4K.png
-   :alt: rendering profile 4K
    :width: 45%
 
 

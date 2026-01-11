@@ -27,7 +27,6 @@ Shows all effects you have created by saving an effect stack.
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2204_template_effect.webp
 
    List of self created effects stacks and Template effects available
 
@@ -49,7 +48,6 @@ This set of effects creates a CRT monitor shut off effect on the begin of a clip
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2204_shut-off_effect
 
    Shut-Off effect
 
@@ -64,7 +62,6 @@ This set of effects allows you to change the color of parts a video clip
    :width: 350px
    :figwidth: 350px
    :align: left
-   :alt: kdenlive2204_secondary-color-correction_effect
 
    Secondary color correction
 

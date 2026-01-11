@@ -22,7 +22,6 @@ Configure Language
 
 
 .. image:: /images/configure_language.png
-   :alt: configure language
 
 Setting Kdenlive to your preferred language.
 

@@ -37,8 +37,7 @@ Timeout Indicator
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-timeout_indicator-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Timeout Indicator
 
    :**Status**:
@@ -100,8 +99,7 @@ This effect/filter displays a kind of countdown bar in the current frame's botto
    :width: 100%
    :figwidth: 100%
    :align: left
-   :alt: effects-timeout_indicator_ex1-2504.webp
-
+   
 
 2. Countdown starts 3 seconds before the end of the clip and the indicator goes from yellow to red
 
@@ -111,5 +109,4 @@ This effect/filter displays a kind of countdown bar in the current frame's botto
    :width: 100%
    :figwidth: 100%
    :align: left
-   :alt: effects-timeout_indicator_ex2-2504.webp
-
+   

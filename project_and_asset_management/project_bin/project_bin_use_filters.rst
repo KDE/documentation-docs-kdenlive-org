@@ -44,8 +44,7 @@ Filters are an easy way to quickly narrow down assets by tag, rating, type, or w
       :width: 334px
       :figwidth: 334px
       :align: left
-      :alt: project_bin_filter
-
+   
       Filtering options
       
    :1: Category *Tags*
@@ -69,8 +68,7 @@ Filters are applied in an OR way between objects of the same category, and in an
       :width: 334px
       :figwidth: 334px
       :align: left
-      :alt: project_bin_filter_example
-
+   
       Filtering options
       
    This filter setting shows all assets that have a *red* OR *blue* tag, AND have a rating of *4 stars*, AND are *unused*, AND are an *AV Clip* (file with video and audio streams) OR a *Mute Video* (file with only a video stream).

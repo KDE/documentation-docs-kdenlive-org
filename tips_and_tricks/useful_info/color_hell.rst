@@ -66,7 +66,6 @@ Easy Transcoding: Color Me Bad
 
 .. image:: /images/tips_and_tricks/transcoding_color_change.webp
    :align: left
-   :alt: transcoding_color_change.webp
    :width: 350px
 
 Unfortunately, the resulting video now shows shifted colors! It might not be too obvious in the first place, but it can be quite prominent when you work more with your footage. And it gets clearly visible to your audience in case you are going to mix this footage side-by-side with further processed versions of it, such as extracted frames for stills.
@@ -80,7 +79,6 @@ Makeshift Measures
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_clip_properties_color_space.webp
    :align: left
-   :alt: kdenlive2308_clip_properties_color_space.webp
    :width: 350px
 
    Clip Properties color space override
@@ -152,7 +150,6 @@ For **NTSC chromaticities** (``color_space=smpte170m``), we will need a differen
 
 .. figure:: /images/tips_and_tricks/transcoding_comparison.webp
    :align: left
-   :alt: transcoding_comparison.webp
    :width: 350px
 
 In any case, Kdenlive/MLT now correctly see the transcoded video using the BT.601 color profile. In addition, other media tools correctly detect the color profile too - unless they are broken in that they do not understand BT.601 at all.

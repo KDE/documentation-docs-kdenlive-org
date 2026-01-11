@@ -17,8 +17,7 @@ GPS Text
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-gps_text-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| GPS Text
 
    :**Status**:

@@ -37,7 +37,6 @@ Effects on bin clips allow you to, for instance, color grade a clip itself. All 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_effects_everywhere_bin.webp
    :width: 650px
-   :alt: kdenlive2308_effects_everywhere_bin.webp
 
    Applying effect to a clip in the project bin
 
@@ -68,7 +67,6 @@ You can (temporarily) disable all effects on a single bin clip by selecting it a
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_effects_everywhere_bin_indicator.webp
    :align: left
-   :alt: kdenlive2308_effects_everywhere_bin_indicator.webp
    :width: 350px
 
    Indicator for bin clip effect
@@ -98,7 +96,6 @@ Similar to effects on bin clips you can also add effects to a specific timeline 
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_effects_everywhere_track.webp
    :width: 650px
-   :alt: kdenlive2308_effects_everywhere_track.webp
 
    Applying effect to an entire track
 
@@ -122,7 +119,6 @@ You can (temporarily) disable all effects for a track by clicking into the track
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_effects_everywhere_track_indicator.webp
    :align: left
-   :alt: kdenlive2308_effects_everywhere_track_indicator.webp
    :width: 350px
 
    Effect indicator in the track
@@ -141,14 +137,12 @@ Effect Zones
 Effect Zones allow you to apply effects to specific regions of tracks or the timeline. Zones can be set from the effect zone bar in the Timeline or from the interface in the effect panel.
 
 .. figure:: /images/Track-effect-zone.gif
-   :alt: track-effect-zone
    :width: 80%
 
    Track Effect Zone
 
 
 .. figure:: /images/Timeline-effect-zone.gif
-   :alt: timeline-effect-zone
    :width: 80%
 
    Master Effect Zone
@@ -164,7 +158,6 @@ Finally, you can apply effects to the Master. They apply to all clips on all tra
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_effects_everywhere_master.webp
    :width: 650px
-   :alt: kdenlive2308_effects_everywhere_master.webp
 
    Applying effect to the Master
 

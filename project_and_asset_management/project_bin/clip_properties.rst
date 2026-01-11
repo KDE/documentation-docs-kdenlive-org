@@ -141,8 +141,7 @@ Adjusting the :guilabel:`Audio sync` in increments of one millisecond (1 ms) app
 
    .. image:: /images/Kdenlive_Clip_properties_analysis.png
       :align: left
-      :alt: Kdenlive_Clip_properties_analysis
-
+   
    You can view and delete motion vector data that is associated with the clip from here. This is data created by :doc:`/effects_and_filters/video_effects/alpha_mask_keying/motion_tracker`
 
    Button 1 Will delete the selected analysis data, Button 2 will allow you to export the data (semi colon delimited text file), Button 3 will allow you to import analysis data.

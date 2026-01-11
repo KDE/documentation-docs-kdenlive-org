@@ -17,8 +17,7 @@ Flip Horizontally
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: kdenlive2304_effects-flip_horizontally
-
+   
 .. sidebar:: |kdenlive-show-video| Flip Horizontally
 
    :**Status**:

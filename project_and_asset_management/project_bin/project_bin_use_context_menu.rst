@@ -77,8 +77,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
 .. container:: clear-both
 
    .. figure:: /images/project_and_asset_management/project_bin_context_menu.webp
-      :alt: project_bin_context_menu
-
+   
       The context menu for bin items
 
 .. rst-class:: clear-both

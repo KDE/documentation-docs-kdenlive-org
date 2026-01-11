@@ -32,7 +32,6 @@ Color correction is a really important topic in video editing. It starts with si
 For color correction you basically need two things: Effects or filters for changing the colors and scopes for monitoring the changes. The first scope to look at is the histogram.
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_scopes_histogram.webp
-   :alt: kdenlive2308_scopes_histogram.webp
 
    Kdenlive Histogram :term:`widget`
 
@@ -42,7 +41,6 @@ Let's first take a look at the basic options available in all scopes. :kbd:`RMB`
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_scopes_histogram_rmb.webp
    :align: left
-   :alt: kdenlive scopes basic options 
 
 - :guilabel:`Auto Refresh` automatically refreshes the scope if the project/clip monitor changes. During the process of color correction you'll want to keep this option enabled. When not color correcting, it should be disabled as it usually heavily impacts the performance of playback. (There is a lot of calculations going on in the scopes.)
 - :guilabel:`Realtime` tries to maintain a certain frame rate in the scopes by dropping part of the color information received (e.g. taking a look at every 8th pixel only instead of every single pixel).

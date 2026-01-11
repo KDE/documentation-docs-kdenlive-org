@@ -15,8 +15,7 @@ Histogram Equalizer
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-histogram_equalizer-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Histogram Equalizer
 
    :**Status**:

@@ -162,7 +162,6 @@ Open a browser and enter |bug_tracker_URI| in the URI field.
    :width: 450px
    :figwidth: 450px
    :align: left
-   :alt: kde_bugtracking_system.webp
 
    KDE Bug Tracking System welcome screen
 
@@ -176,8 +175,7 @@ Click on :guilabel:`File a Bug`.
       :width: 450px
       :figwidth: 450px
       :align: left
-      :alt: kde_bug_classification.webp
-
+   
       KDE Bug Tracking System classification selection
 
    Click on :guilabel:`Application` to get to the list of all applications using Bugzilla.
@@ -188,8 +186,7 @@ Click on :guilabel:`File a Bug`.
       :width: 450px
       :figwidth: 450px
       :align: left
-      :alt: kde_bug_application.webp
-
+   
       KDE Bug Tracking System application selection
 
    The list is sorted alphabetically. Scroll down to where Kdenlive is listed, or use :kbd:`Ctrl+F` to open a search field and enter `kdenlive`. This should work in most browsers but may be different in yours.
@@ -201,7 +198,6 @@ Bugzilla will open the detailed bug report screen where you can enter the bug re
 .. figure:: /images/troubleshooting/kde_bug_enter.webp
    :width: 650px
    :figwidth: 650px
-   :alt: kde_bug_enter.webp
 
    KDE Bug Tracking System entering bug details
 
@@ -223,8 +219,7 @@ Bugzilla will open the detailed bug report screen where you can enter the bug re
     .. figure:: /images/troubleshooting/kde_bug_kdenlive_components.webp
       :width: 400px
       :figwidth: 400px
-      :alt: kde_bug_kdenlive_components
-
+   
       Copy information from Kdenlive
 
 :9: You can add attachments like screen recordings, screenshots, and text files with debugging and terminal output information.

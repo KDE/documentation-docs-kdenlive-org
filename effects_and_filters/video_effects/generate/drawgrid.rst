@@ -17,8 +17,7 @@ Draw Grid
    :width: 365px
    :figwidth: 365px
    :align: left
-   :alt: effects-draw_grid-2504.webp
-
+   
 .. sidebar:: |kdenlive-show-video| Draw Grid
 
    :**Status**:
