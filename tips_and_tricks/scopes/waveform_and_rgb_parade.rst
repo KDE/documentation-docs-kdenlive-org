@@ -35,7 +35,7 @@ Waveform and RGB Parade
 
 **Waveform** and **RGB Parade** are two closely related scopes. They do the same - Waveform for :term:`Luma`, RGB Parade for the :abbr:`RGB (Red Green Blue)` components. Therefore, we will not always explicitly point out what properties hold for both scopes and speak of Waveform only.
 
-.. .. image:: /images/kdenlive-colorscopes-waveform.png
+.. .. figure:: /images/kdenlive-colorscopes-waveform.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_01.webp
    :width: 650px
@@ -57,7 +57,7 @@ The Waveform is kind of a 3D Histogram. That has nothing to do with the fact tha
 Waveform Example 1: Sunset
 --------------------------
 
-.. .. image:: /images/kdenlive-colorscopes-waveform-sunset.png
+.. .. figure:: /images/kdenlive-colorscopes-waveform-sunset.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_02.webp
    :width: 650px
@@ -72,7 +72,7 @@ The Waveform looks quite impressive here. But what can we learn about the image?
 
 That is where the RGB Parade drops in now.
 
-.. .. image:: /images/kdenlive-colorscopes-rgbparade-sunset.png
+.. .. figure:: /images/kdenlive-colorscopes-rgbparade-sunset.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_03.webp
    :width: 650px
@@ -88,7 +88,7 @@ RGB Parade Example: Light Bulb
 
 Wait … imaginary? Actually there is a short clip with light bulbs. Which is quite interesting, not only due to the wrong white balance. See the how-to guide :doc:`/tips_and_tricks/how-tos/tutorial-white_balance_lms` for more details about white balance and how to use it in Kdenlive.
 
-.. .. image:: /images/kdenlive-colorscopes-rgbparade-fluorescent.png
+.. .. figure:: /images/kdenlive-colorscopes-rgbparade-fluorescent.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_04.webp
    :width: 650px
@@ -108,7 +108,7 @@ The first thing to decide is how bright the darkest spot should be. This can be 
 .. note::
    The :doc:`/effects_and_filters/video_effects/color_image_correction/sat` uses a different scale than the RGP Parade :term:`widget`. The lifting of the channels refers to the RGB Parade scale (0...255) as one can see in the :guilabel:`Min` in the RGB Parade display. The idea is to lift the channels so that their bottoms are aligned.
 
-.. .. image:: /images/kdenlive-colorscopes-rgbparade-fluorescent-offset.png
+.. .. figure:: /images/kdenlive-colorscopes-rgbparade-fluorescent-offset.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_05.webp
    :width: 650px
@@ -117,7 +117,7 @@ The first thing to decide is how bright the darkest spot should be. This can be 
 
 Second step is stretching the channels. This is done with the :guilabel:`Slope` sliders. The goal is again to find a neutral spot in the RGB Parade and use it as reference. We could again use the ceiling on the left, but after some testing it turned out that the little wave in the middle of the scope works as well. Its advantage is that it is slightly brighter than the ceiling allowing to correct the color cast more precisely.
 
-.. .. image:: /images/kdenlive-colorscopes-rgbparade-fluorescent-slope.png
+.. .. figure:: /images/kdenlive-colorscopes-rgbparade-fluorescent-slope.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_06.webp
    :width: 650px
@@ -137,7 +137,7 @@ Where you already can play with more than 8 bits per channel are :abbr:`RAW (The
 Waveform Example 2: Leaf with Hidden Clipping
 ---------------------------------------------
 
-.. .. image:: /images/kdenlive-colorscopes-waveform-leaf.png
+.. .. figure:: /images/kdenlive-colorscopes-waveform-leaf.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_07.webp
    :width: 650px
@@ -148,7 +148,7 @@ Looks perfect. Good exposure (says the eye and the Waveform), beautiful colors.
 
 Nevertheless, there is some clipping. It is just hidden by the Luma calculation: For Luma, only pixels that are totally white are at the top of the Waveform.
 
-.. .. image:: /images/kdenlive-colorscopes-rgbparade-leaf.png
+.. .. figure:: /images/kdenlive-colorscopes-rgbparade-leaf.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_08.webp
    :width: 650px
@@ -160,7 +160,7 @@ Although the green leaf looks much brighter than the red tip, it is the Red chan
 Waveform Example 3: High Key Clip
 ---------------------------------
 
-.. .. image:: /images/kdenlive-colorscopes-waveform-highkey.png
+.. .. figure:: /images/kdenlive-colorscopes-waveform-highkey.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_09.webp
    :width: 650px
@@ -176,7 +176,7 @@ Waveform Options
 
 - *Luma mode* (Context menu) - As for the Histogram you can choose how to calculate Luma (Rec.601 or Rec.709).
 
-.. .. image:: /images/kdenlive-colorscopes-waveform-green.png
+.. .. figure:: /images/kdenlive-colorscopes-waveform-green.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_10.webp
    :width: 650px
@@ -199,7 +199,7 @@ To explain the last point a little more in detail: A black/white gradient draws 
 .. attention::
    Effects working on the saturation will not have any effect on a grayscale gradient!
 
-.. .. image:: /images/kdenlive-colorscopes-waveform-gradient.png
+.. .. figure:: /images/kdenlive-colorscopes-waveform-gradient.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_waveform_rgb_parade_11.webp
    :width: 650px

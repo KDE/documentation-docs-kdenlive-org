@@ -76,17 +76,17 @@ Windows
 On the desktop open the system tray. Right-click on the Contour icon and choose **Open Control Panel**. 
 
 
-.. image:: /images/getting_started/Contour_open-cotrol-panel.png
+.. figure:: /images/getting_started/Contour_open-cotrol-panel.png
    
 In the configuration window, under **Application setting** choose the program *Adobe Premiere Pro CS&CC (Edit)*. Then click on :menuselection:`Options --> Create new settings --> Copy contents from Current Settings`. 
 
 
-.. image:: /images/getting_started/Contour_new_settings.png
+.. figure:: /images/getting_started/Contour_new_settings.png
    
 Then choose :file:`kdenlive.exe` in :file:`C:\\Program Files\\kdenlive\\bin`. 
 
 
-.. image:: /images/getting_started/Contour_Design_Choose_Aplication.png
+.. figure:: /images/getting_started/Contour_Design_Choose_Aplication.png
    
 Now the basic functionality should work. Adjust the buttons of the shuttle with shortcuts as you like.
 

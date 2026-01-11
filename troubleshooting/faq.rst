@@ -197,7 +197,7 @@ Rendering / Exporting
 Kdenlive warns me about missing codecs, I cannot render in some formats ...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. .. image:: /images/icons/MissingCodec.png
+.. .. figure:: /images/icons/MissingCodec.png
    :align: left
 
 You may get an error message like this: ``Unsupported audio codec: libmp3lame``. There are several possible reasons for this:

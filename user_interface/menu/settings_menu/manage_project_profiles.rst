@@ -16,7 +16,7 @@ Manage Project Profiles
 This is available from the **Settings** menu.
 
 
-.. image:: /images/Kdenlive_Manage_project_profiles.png
+.. figure:: /images/Kdenlive_Manage_project_profiles.png
 
 
 Once the dialog appears, select a profile to modify from the drop down.

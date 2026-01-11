@@ -60,7 +60,7 @@ The Compositions widget has six control icons that show or hide the different ef
 :Method 1:
    Click on the grey dot in the lower left or right hand corner of the clip you want to composite with the one below. The default composition **Wipe** is added (which is more a :doc:`transition <transitions>`, so you need to :ref:`change the composition type <compositing-composition_type>` to something like **Cairo Blend**).
    
-   .. image:: /images/effects_and_compositions/composition_add-method_1.gif
+   .. figure:: /images/effects_and_compositions/composition_add-method_1.gif
       :width: 400px
   
    Using the left-hand grey dot creates a Wipe composition going from the lower track to the upper track; using the right-hand grey dot creates a Wipe composition going from the upper track to lower track. 
@@ -68,7 +68,7 @@ The Compositions widget has six control icons that show or hide the different ef
 :Method 2:
    Right-click the clip you want to composite with the one below, select :guilabel:`Insert Composition`, and select :guilabel:`Composite and Transform` or :guilabel:`Wipe`.
 
-   .. image:: /images/effects_and_compositions/composition_add-method_2.gif
+   .. figure:: /images/effects_and_compositions/composition_add-method_2.gif
       :width: 400px
 
    You can add compositions to your favorites by right-clicking on the composition in the Compositions widget and selecting :guilabel:`Add to favorites`. Your favorite compositions show up as options when using this method.
@@ -76,7 +76,7 @@ The Compositions widget has six control icons that show or hide the different ef
 :Method 3:
    Drag a composition from the Compositions widget and drop it on the clip you want to composite with the one below. Adjust the start and end points by dragging the left and/or right edge of the composition bar in the timeline.
 
-   .. image:: /images/effects_and_compositions/composition_add-method_3.gif
+   .. figure:: /images/effects_and_compositions/composition_add-method_3.gif
       :width: 400px
 
 

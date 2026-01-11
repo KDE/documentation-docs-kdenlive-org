@@ -355,7 +355,7 @@ If you have a lot of rendering jobs to do, you can use **Kdenlive** to create re
 
 Alternatively, once you have submitted a rendering job on a project and it is up and running in the **Job Queue**, you can drag the render window out of the way or even close it, and continue editing the project, or load a new project and render that one, too. Any subsequent render jobs will go into the **Job Queue**. Editing the project after a render job has been submitted will not change the settings on that job.
 
-.. image:: /images/exporting/kdenlive2304_rendering-job_queue.webp
+.. figure:: /images/exporting/kdenlive2304_rendering-job_queue.webp
    :width: 400px
 
 .. rst-class:: clear-both
@@ -387,11 +387,11 @@ With this option you define the start and end point for the render by selecting 
 Generating Rendering Scripts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/exporting/kdenlive2304_rendering-guide_zones_5a.webp
+.. figure:: /images/exporting/kdenlive2304_rendering-guide_zones_5a.webp
    :align: left
    :width: 160px
 
-.. image:: /images/exporting/kdenlive2304_rendering-guide_zones_5b.webp
+.. figure:: /images/exporting/kdenlive2304_rendering-guide_zones_5b.webp
    :align: left
    :width: 160px
 
@@ -399,7 +399,7 @@ Choose which timeline markers will establish the regions of the video you want t
 
 .. container:: clear-both
 
-   .. image:: /images/exporting/kdenlive2304_rendering-guide_zones_6.webp
+   .. figure:: /images/exporting/kdenlive2304_rendering-guide_zones_6.webp
       :align: left
       :width: 345px
 
@@ -407,7 +407,7 @@ Choose which timeline markers will establish the regions of the video you want t
 
 .. rst-class:: clear-both
 
-.. image:: /images/exporting/kdenlive2304_rendering-stored_playlist.webp
+.. figure:: /images/exporting/kdenlive2304_rendering-stored_playlist.webp
    :align: left
    :width: 400px
 
@@ -422,7 +422,7 @@ Starting Your Rendering Scripts
 
 Each script needs to be started individually by selecting the script and clicking the :guilabel:`Start Script` button.
 
-.. image:: /images/exporting/kdenlive2304_rendering-job_queue.webp
+.. figure:: /images/exporting/kdenlive2304_rendering-job_queue.webp
    :align: left
    :width: 400px
 
@@ -509,7 +509,7 @@ Sharing your Videos
 
 If you want to share your work right after you finished rendering you can click on :guilabel:`Share` and select one of the options.
 
-.. image:: /images/exporting/kdenlive2304_rendering-share_video.webp
+.. figure:: /images/exporting/kdenlive2304_rendering-share_video.webp
    :align: left
 
 * **Send via Email** - Opens your default email application with the video file as an attachment in a new email window

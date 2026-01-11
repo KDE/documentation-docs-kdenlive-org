@@ -16,7 +16,7 @@ How to Fading In/Out of Titles
 
 In this short *How-to* video, we show you how to (smoothly) fade in and out Kdenlive titles over a video clip, and fading from and to transparency. The key to success is to use a **Composite & Transform** transition with keyframes (**Affine** and **Composite** will work too). **Do not use** the Fade from/to Black effects though, as these effects remove the title transparency information. 
 
-.. image:: /images/tips_and_tricks/fading_inout_titles.webp
+.. figure:: /images/tips_and_tricks/fading_inout_titles.webp
    :width: 418px
    :align: center
    :target: https://kdenlive.org/wp-content/uploads/2017/01/Kdenlive-Title-Fading.mp4

@@ -41,7 +41,7 @@ Kdenlive allows multiple subtitle files in the subtitle track (only one subtitle
 
 
 
-.. image:: /images/subtitle-timeline-1.gif
+.. figure:: /images/subtitle-timeline-1.gif
 
 
 .. tip::

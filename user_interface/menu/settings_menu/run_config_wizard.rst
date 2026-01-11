@@ -16,6 +16,6 @@ Run Config Wizard
 This feature re-runs the config wizard that runs when you first install or upgrade **Kdenlive**. It gives you the opportunity to choose the default settings again for things like the default project settings. It also resets many settings back to "factory defaults" so it can be useful to run this if the **Kdenlive** application is misbehaving.
 
 
-.. image:: /images/Kdenlive_Config_wizard.png
+.. figure:: /images/Kdenlive_Config_wizard.png
 
 

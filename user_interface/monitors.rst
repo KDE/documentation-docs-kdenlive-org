@@ -260,7 +260,7 @@ Multitrack View
 
 You enable the multitrack view via :menuselection:`Menu --> Monitor --> Multitrack view` or via right-click in the Project Monitor area and selecting :guilabel:`Multitrack View` or by pressing :kbd:`F12`.
 
-.. image:: /images/Multicam0.gif
+.. figure:: /images/Multicam0.gif
 
 The multitrack view interface allows you to select a track in the timeline by clicking on the project monitor. See the section about :ref:`multicam editing <multicam_tool>` for using it during Editing.
 

@@ -32,7 +32,7 @@ How to group clips
 You can select multiple clips in preparation for grouping them by holding shift and clicking the mouse and dragging in the timeline.
 
 
-.. image:: /images/Kdenlive_Shift_click_drag_to_multi_select.png
+.. figure:: /images/Kdenlive_Shift_click_drag_to_multi_select.png
    :align: left
 
 
@@ -67,13 +67,13 @@ Grouping is also useful if you have separate audio and video tracks and need to 
 
 If you cut the video clip using the :ref:`editing` when there is an audio clip grouped to it, then **Kdenlive** cuts the audio clip at the same point automatically.
 
-.. image:: /images/Kdenlive_Grouped_video_audio.png
+.. figure:: /images/Kdenlive_Grouped_video_audio.png
   :align: left
 
-.. image:: /images/kdenlive_arrow_right.png
+.. figure:: /images/kdenlive_arrow_right.png
    :align: left
 
-.. image:: /images/Kdenilve_Cutting_grouped_clips.png
+.. figure:: /images/Kdenilve_Cutting_grouped_clips.png
    :align: right
 
 
@@ -120,7 +120,7 @@ Q: How to delete the audio part of a clip?
 
 A: Right-click on the clip and choose :menuselection:`Ungroup Clips`. Then you can delete just the audio part of the clip. 
 
-.. image:: /images/Kdenlive_Grouped_video_audio.png
+.. figure:: /images/Kdenlive_Grouped_video_audio.png
    :align: left
 
 

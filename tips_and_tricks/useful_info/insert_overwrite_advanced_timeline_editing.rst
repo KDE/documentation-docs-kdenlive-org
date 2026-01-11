@@ -37,13 +37,13 @@ In Kdenlive we use the same timeline IN/OUT points for both functions. For this 
 Insert Clip Zone into Timeline at Timeline Cursor
 -------------------------------------------------
 
-..    .. image:: /images/timline-use-zone.png
+..    .. figure:: /images/timline-use-zone.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-         :width: 350px
+      :width: 350px
 
       Toggle the use of the timeline zone
 
@@ -51,25 +51,25 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    The **timeline zone bar** is now *dimmed* and does not show the zone duration.
 
-..   .. image:: /images/clip-monitor-with-zone.png
+..   .. figure:: /images/clip-monitor-with-zone.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_01.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Setting the clip region for insertion
 
    Next, mark the **clip region** of the source clip you want to insert into the timeline. You do this as usual, using either the :kbd:`I` and :kbd:`O` shortcuts, or the set Zone In |zone-in| / Zone Out |zone-out| buttons of the clip monitor.
 
-..   .. image:: /images/timline-select-position-and-track-e1477318374733.png
+..   .. figure:: /images/timline-select-position-and-track-e1477318374733.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_02.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Setting the insertion point in the timeline
 
@@ -77,13 +77,13 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    Also make sure to select the **correct track** using the :kbd:`Up` and :kbd:`Down` keys to navigate up and down the track list and then :kbd:`Shift+T` to mark the track as the target for the operation. The currently selected track is marked with a semi-transparent selection color (depending on your particular color theme); the **active** track is marked with a green box (see **(1)** in the screenshot)
 
-..   .. image:: /images/timeline-insert-clip-zone-after.png
+..   .. figure:: /images/timeline-insert-clip-zone-after.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_03a.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Clip region inserted in the timeline
 
@@ -93,7 +93,7 @@ Insert Clip Zone into Timeline at Timeline Cursor
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_03b.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Clip region inserted in the timeline
 
@@ -110,37 +110,37 @@ Insert Clip Zone into Timeline at Timeline Cursor
 Insert Clip (from In Point) into Timeline Zone
 ----------------------------------------------
 
-..   .. image:: /images/timline-use-timeline-zone.png
+..   .. figure:: /images/timline-use-timeline-zone.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-         :width: 350px
+      :width: 350px
 
    This time, we are going to insert some part of a clip to *exactly fit* into the timeline zone. So we now need to switch on Using the Timeline Zone |timeline-use-zone-on|.
 
    The **timeline zone bar** is now *bright* and shows the duration of the timeline zone.
 
-..   .. image:: /images/clip-monitor-with-in-point.png
+..   .. figure:: /images/clip-monitor-with-in-point.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_04.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Setting the in-point in the clip for insertion
 
    We only need to set the **in point** for our source clip. The out point does not matter, as it will be determined automatically by the length of the timeline zone.
 
-..   .. image:: /images/timeline-use-timeline-zone-before.png
+..   .. figure:: /images/timeline-use-timeline-zone-before.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_05.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Defining the timeline zone to be overwritten
 
@@ -148,13 +148,13 @@ Insert Clip (from In Point) into Timeline Zone
 
    Make sure to select the **correct track** using the :kbd:`Up` and :kbd:`Down` keys and pressing :kbd:`Shift+T` to mark the track as the target for the operation (see **(1)** in the screenshot).
 
-..   .. image:: /images/timeline-insert-timeline-zone-after.png
+..   .. figure:: /images/timeline-insert-timeline-zone-after.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_insert_06.webp
       :align: left
-         :width: 350px
+      :width: 350px
       :figwidth: 350px
 
       Timeline with clip inserted into and having overwritten the timeline zone
@@ -179,7 +179,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-         :width: 350px
+      :width: 350px
 
       Toggle the use of the timeline zone
 
@@ -191,7 +191,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_01.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Setting the clip region for the operation
 
@@ -201,7 +201,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_02.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Setting the overwrite start point in the timeline
 
@@ -213,7 +213,7 @@ Overwrite Timeline with Clip Zone
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_03.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Clip region overwrote parts of the timeline
 
@@ -237,7 +237,7 @@ Overwrite Timeline Zone with Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_01.gif
       :align: left
-         :width: 350px
+      :width: 350px
 
       Toggle the use of the timeline zone
 
@@ -249,19 +249,19 @@ Overwrite Timeline Zone with Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_04.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Setting the in-point in the clip for the operation
 
    We only need to set the **in point** for our source clip. The out point does not matter, as it will be determined automatically by the length of the timeline zone.
 
-..   .. image:: /images/timeline-use-timeline-zone-before.png
+..   .. figure:: /images/timeline-use-timeline-zone-before.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_05.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Defining the timeline zone for overwriting
 
@@ -269,13 +269,13 @@ Overwrite Timeline Zone with Clip
 
    Make sure to select the **correct track** using the :kbd:`Up` and :kbd:`Down` keys and pressing :kbd:`Shift+T` to mark the track as the target for the operation. The currently selected track is marked with a semi-transparent selection color (depending on your particular color theme); the **active** track is marked with a green box (see **(1)** in the screenshot).
 
-..   .. image:: /images/timeline-insert-timeline-zone-after.png
+..   .. figure:: /images/timeline-insert-timeline-zone-after.png
 
 .. container:: clear-both
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_editing_overwrite_06.webp
       :align: left
-         :width: 350px
+      :width: 350px
       :figwidth: 350px
 
       Timeline with clip having overwritten the timeline zone

@@ -68,7 +68,7 @@ The main advantage of using the Media Browser is the ability to drag clips not o
 
 .. rubric:: The Media Browser in Action
 
-.. image:: /images/Media-browser.gif
+.. figure:: /images/Media-browser.gif
    :align: left
 
 .. note:: 
@@ -101,11 +101,11 @@ The main advantage of using the Media Browser is the ability to drag clips not o
    * - **5**
      - |application-menu|\ :guilabel:`Options` opens a context list menu to specify sort field, sort order, and position of folders and hidden files
    * -
-     - .. image:: /images/project_and_asset_management/media_browser_2_options.webp
+     - .. figure:: /images/project_and_asset_management/media_browser_2_options.webp
    * - **6**
      - |kdenlive-show-video| opens a context list menu with additional navigation elements
    * -
-     - .. image:: /images/project_and_asset_management/media_browser_2_nav_list.webp
+     - .. figure:: /images/project_and_asset_management/media_browser_2_nav_list.webp
    * - **7**
      - :guilabel:`Import image sequence` When checked, Kdenlive will look for files with a filename pattern similar to the selected file and open the :doc:`Add Image Sequence</project_and_asset_management/project_bin/image_sequence>` dialog window.
    * - **8**

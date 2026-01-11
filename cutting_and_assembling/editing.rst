@@ -36,7 +36,7 @@ Editing
 Editing is done in the :ref:`timeline`. Add a clip by dragging it from the :doc:`project bin</project_and_asset_management/project_bin>` or the :ref:`ui-monitors`. Once a clip is dropped on a track, it can be moved (drag and drop it) to another place on the same track or onto another track.
 
 
-.. image:: /images/Kdenlive-addcliptotimeline.gif
+.. figure:: /images/Kdenlive-addcliptotimeline.gif
 
 
 .. .. versionadded:: 19.08.0
@@ -90,7 +90,7 @@ A clip can be resized from its start or end by dragging its left or right edge. 
 To even more precisely control the length of a clip, double click it in the timeline and adjust its duration using the **Clip duration** dialog. You can have frame-level accuracy with this method.
 
 
-.. image:: /images/kdenlive_timeline_current_clip_duration02.png
+.. figure:: /images/kdenlive_timeline_current_clip_duration02.png
 
 
 You can also resize a clip by cutting it with the  `Razor Tool`_ and then deleting the bit you do not want.
@@ -101,7 +101,7 @@ Adjust AV clips independently with :kbd:`Shift + resize` to resize only audio or
 
 :kbd:`alt + Move` in timeline allows to move the audio or video part to another track independently.
 
-.. image:: /images/av-metamove.gif
+.. figure:: /images/av-metamove.gif
 
 .. .. versionadded:: 23.08
 
@@ -164,12 +164,12 @@ Edit an Animation
 
 Double click on an animation clip in the timeline and this will open Glaxnimate. 
 
-.. image:: /images/animation_with__background.png
+.. figure:: /images/animation_with__background.png
 
 
 The background of the animation in Kdenlive will also be shown in Glaxnimate.
 
-.. image:: /images/glaxnimate_with_background.png
+.. figure:: /images/glaxnimate_with_background.png
 
 
 It is possible to have several Glaxnimate instances open, but the background will only be send to the one opened first in Glaxnimate. If you like to see the Kdenlive background of another animation clip, save the animation and close Glaxnimate before you double click another animation clip.
@@ -182,7 +182,7 @@ Change Speed of a Clip
 
 .. .. versionadded:: 19.08
 
-.. image:: /images/adjustspeed.gif
+.. figure:: /images/adjustspeed.gif
 
 
 Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the timeline.
@@ -198,7 +198,7 @@ Removing Space Between Clips
 Right click in the space between the clips and choose :menuselection:`Remove Space`. Be aware however that if you have clips on multiple tracks in the timeline and they are not grouped, then removing space may disturb the alignment of the clips between the different tracks – the space is only removed from the timeline where you clicked.  Under this situation it may be safer to use the `Spacer Tool`_.
 
 
-.. image:: /images/Kdenlive-removespace.gif
+.. figure:: /images/Kdenlive-removespace.gif
 
 .. .. versionadded:: 22.12
 
@@ -218,7 +218,7 @@ Adjust timeline zone
 
 :kbd:`Shift+z` adjusts timeline zone to selected clips
 
-.. image:: /images/adjust_timeline_zone_to_selection.gif
+.. figure:: /images/adjust_timeline_zone_to_selection.gif
 
 
 .. _timeline_toolbar2:
@@ -229,14 +229,14 @@ Timeline Toolbar
 There is a toolbar between monitors and the timeline that controls various aspects of the editor. 
 
 
-.. image:: /images/Kdenlive-middle-toolbar.png
+.. figure:: /images/Kdenlive-middle-toolbar.png
 
 
 1.  `Track Compositing`_ drop down.
 
 .. .. versionchanged:: 22.08
 
-.. image:: /images/Kdenlive-enable-track-composition.png
+.. figure:: /images/Kdenlive-enable-track-composition.png
 
 Track compositing is now a simple checkbox instead of the deprecated none/high resolution choice.
 
@@ -318,7 +318,7 @@ Active buttons are grey.
 
 .. .. versionadded:: 22.04
 
-   .. image:: /images/preview_using_proxy_clips.png
+   .. figure:: /images/preview_using_proxy_clips.png
 
 
    14h. Preview Using Proxy Clips. Option to render preview using original clips, not proxies (disabled by default). 
@@ -479,7 +479,7 @@ In the "After" screenshot above, you can see that the clip which was dragged fro
 
 Performing a rearrange edit. This technique lets you quickly change the order of clips in the timeline.
 
-.. image:: /images/Overwrite-mode.gif
+.. figure:: /images/Overwrite-mode.gif
 
  
 
@@ -517,7 +517,7 @@ Performing a rearrange edit. Only clips in the destination track are shifted; cl
 
 It always closes all space in the track.
 
-.. image:: /images/Insert-mode.gif
+.. figure:: /images/Insert-mode.gif
 
    
 Drag a clip, as you drop it to a new location. Releasing the clip performs an insert edit that shifts clips in the destination track only.
@@ -547,7 +547,7 @@ Spacer Tool
 Use this tool (|distribute-horizontal|) to temporarily group separate clips and then drag them around the timeline to create or remove space between clips. Very useful. Experiment with this tool to see how it works.
 
 
-.. image:: /images/Kdenlive_Spacer_tool_crop.png
+.. figure:: /images/Kdenlive_Spacer_tool_crop.png
    :width: 300px
 
    
@@ -565,12 +565,12 @@ Slip Tool
 
 .. .. versionadded:: 21.12
 
-.. image:: /images/slip_trim02.jpg
+.. figure:: /images/slip_trim02.jpg
 
 
 Slip keeps the original duration of the clip. Like working with old film material: beneath the given "window" of the clip length it slips the film strip back and forth.
 
-.. image:: /images/slip.gif
+.. figure:: /images/slip.gif
 
 
 Use Slip (|kdenlive-slip|) to trim, in a single operation, the IN and OUT points of a clip forward or backward by the same number of frames, while keeping the original duration and without affecting adjacent clips.
@@ -587,7 +587,7 @@ Slip can be done with the mouse, with the :kbd:`arrow` keys and with the buttons
 Ripple Tool
 ~~~~~~~~~~~
 
-.. image:: /images/ripple-trim.png
+.. figure:: /images/ripple-trim.png
 
 
 Ripple changes the original duration of the clip. Like working with old film material: You lengthen or shorten the film strip and move the adjacent clips back and forth as you do that.
@@ -620,7 +620,7 @@ To cut a clip on an active track at the playhead position without getting a gap 
 Multicam Tool
 ~~~~~~~~~~~~~
 
-.. image:: /images/multicam.gif
+.. figure:: /images/multicam.gif
 
    
 The multicam tool allows to cut between several cameras while playback is running. Add your clips in different tracks, but at the same position in the timeline and activate the multicam tool by going to menu :menuselection:`Tool -> Multicam tool`. You may trim the clips in the desired track while the timeline is playing by pressing their corresponding numbers (for track V1, press key :kbd:`1`; for track V2 press key :kbd:`2`, etc…) or simply select the desired track in the project monitor by clicking on it with the mouse.
@@ -708,7 +708,7 @@ Show marker comments
 
 This toggles on and off the display of :ref:`markers` saved within :doc:`clips</project_and_asset_management/project_bin/clips>` (the text with the gold background in the example below) and within :doc:`guides` (the text with the purple background).
 
-.. image:: /images/Kdenlive_Markers_and_guides_crop.png
+.. figure:: /images/Kdenlive_Markers_and_guides_crop.png
 
 
 

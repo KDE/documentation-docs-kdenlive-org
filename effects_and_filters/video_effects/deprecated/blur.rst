@@ -18,5 +18,5 @@ Blur
 
 Blurs the entire image.
 
-.. image:: /images/Kdenlive_Blur.png
+.. figure:: /images/Kdenlive_Blur.png
 

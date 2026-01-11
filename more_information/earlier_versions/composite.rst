@@ -25,7 +25,7 @@ Note: The disadvantages of the **Composite** transition are: luma bleed, and les
 Alpha operations
 ----------------
 
-.. image:: /images/Composite_transition_showing_alpha_channel_operation_options.png
+.. figure:: /images/Composite_transition_showing_alpha_channel_operation_options.png
    :width: 400px
    :align: left
 
@@ -36,7 +36,7 @@ Operation **Over**
 * The clip with alpha information is located on the top track: the selected color acquires transparency.
 * The clip with alpha information is located on the bottom track: we see only the top clip.
 
-.. image:: /images/alpha_operation_Over.png
+.. figure:: /images/alpha_operation_Over.png
    :align: left
 
 Operation **And**
@@ -44,12 +44,12 @@ Operation **And**
 * The clip with alpha information is located on the top track: the selected color becomes transparent.
 * The clip with alpha information is located on the bottom track: everything in the image becomes transparent, except for the selected color.
 
-.. image:: /images/alpha_operation_And.png
+.. figure:: /images/alpha_operation_And.png
    :align: left
 
 Operation **Or** clears any alpha information
 
-.. image:: /images/alpha_operation_Or.png
+.. figure:: /images/alpha_operation_Or.png
    :align: left
 
 Operation **Xor**
@@ -57,7 +57,7 @@ Operation **Xor**
 * The clip with alpha information is located on the top track: everything in the image becomes transparent, except for the selected color.
 * The clip with alpha information is located on the bottom track: the selected color acquires transparency.
 
-.. image:: /images/alpha_operation_Xor.png
+.. figure:: /images/alpha_operation_Xor.png
    :align: left
 
 
@@ -97,7 +97,7 @@ There appears to be a defect in this functionality which means that when the com
 
 https://youtu.be/FIpnGlRY27U
 
-.. image:: /images/Composite_transition_with_wipe_file.png
+.. figure:: /images/Composite_transition_with_wipe_file.png
    :align: left
 
 Screenshot of Composite transition using a custom wipe file to mask out a section of video - as described in Tutorial 3.

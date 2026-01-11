@@ -16,7 +16,7 @@ Automatically Raising the Properties Pane
 
 Depending on your workflow habits, you can configure when to raise the properties pane (in case it is currently hidden).
 
-.. .. image:: /images/config-raise-properties.png
+.. .. figure:: /images/config-raise-properties.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_config_raise_properties.webp
    :align: left

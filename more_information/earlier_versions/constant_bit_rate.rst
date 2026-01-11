@@ -30,11 +30,11 @@
 Constant Bit Rate
 =================
 
-.. image:: /images/earlier_versions/Kdenlive_Render_dialog_cbr_0.9.10.png
+.. figure:: /images/earlier_versions/Kdenlive_Render_dialog_cbr_0.9.10.png
    :width: 400px
 
 When a constant bitrate (CBR) profile is selected, the :menuselection:`File Size` section displays a drop down for choosing the **Video bitrate** you want. This is similar to the version <=0.9.8 behaviour of **Kdenlive**. You select the video bitrate you want and the video is encoded at that video bitrate across its entire length.
 
-.. image:: /images/earlier_versions/Kdenlive_Render_dialog_0.9.8.png
+.. figure:: /images/earlier_versions/Kdenlive_Render_dialog_0.9.8.png
    :width: 400px
    :alt: File rendering dialog - ver 0.9.8

@@ -139,7 +139,7 @@ Adjusting the :guilabel:`Audio sync` in increments of one millisecond (1 ms) app
    Analysis
    --------
 
-   .. image:: /images/Kdenlive_Clip_properties_analysis.png
+   .. figure:: /images/Kdenlive_Clip_properties_analysis.png
       :align: left
    
    You can view and delete motion vector data that is associated with the clip from here. This is data created by :doc:`/effects_and_filters/video_effects/alpha_mask_keying/motion_tracker`

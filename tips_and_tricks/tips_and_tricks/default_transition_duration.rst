@@ -16,7 +16,7 @@ Configuring the Default Transition Duration
 
 You can configure the default duration for all newly created transitions. In versions prior to 16.08, all new transitions were always 65 frames long - and this translated to varying default durations, depending on a project's frame rate. This new configuration option should appeal to all those users who work a lot with transitions.
 
-.. .. image:: /images/config-transition-duration.png
+.. .. figure:: /images/config-transition-duration.png
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_config_default_transition_duration.webp
    :align: left

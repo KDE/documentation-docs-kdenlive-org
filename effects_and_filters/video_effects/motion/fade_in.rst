@@ -99,8 +99,8 @@ The following selection values are available:
 .. hint:: 
    Since version 17.04 you can add the **Fade In** effect with a single click using the fade handles (see screenshot below). And you can adjust the length of the fade with a drag of the mouse. Move the mouse over a selected clip in the timeline and click on the green dot in the top corner at the beginning of the clip. That creates a default fade-in of 3 seconds. In order to adjust the duration of the fade-in you can drag the green dot or use the :guilabel:`Duration` slider in the **Fade In** effect panel in the clip's effect stack.
 
-.. image:: /images/effects_and_compositions/kdenlive2304_effects-fade_in_out_dots.webp
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-fade_in_out_dots.webp
    :align: left
    
-.. image:: /images/effects_and_compositions/kdenlive2304_effects-fade_in_dot.webp
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-fade_in_dot.webp
    

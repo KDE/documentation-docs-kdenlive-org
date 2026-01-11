@@ -260,7 +260,7 @@ Step 3: Create Custom Rendering Profile
 
 In the Rendering window create a new profile.
 
-.. image:: /images/earlier_versions/rendering_profile.png
+.. figure:: /images/earlier_versions/rendering_profile.png
    :width: 45%
 
 In the **Profile** window write the following values:
@@ -384,7 +384,7 @@ In the **Profile** window write the following values:
    * - Default Audio Bitrate
      - 256
 
-.. image:: /images/earlier_versions/rendering_profile_4K.png
+.. figure:: /images/earlier_versions/rendering_profile_4K.png
    :width: 45%
 
 

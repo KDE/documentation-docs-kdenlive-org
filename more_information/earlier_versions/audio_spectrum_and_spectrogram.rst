@@ -33,7 +33,7 @@ The Audio Spectrum and the Spectrogram
 
 This chapter is about audio scopes. It is also talking about audio in general (e.g. recording, perception, etc.).
 
-.. image:: /images/earlier_versions/audiospectrum-example.png
+.. figure:: /images/earlier_versions/audiospectrum-example.png
 
 The Scopes
 ----------

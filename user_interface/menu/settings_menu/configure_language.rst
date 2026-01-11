@@ -21,7 +21,7 @@ Configure Language
 ==================
 
 
-.. image:: /images/configure_language.png
+.. figure:: /images/configure_language.png
 
 Setting Kdenlive to your preferred language.
 

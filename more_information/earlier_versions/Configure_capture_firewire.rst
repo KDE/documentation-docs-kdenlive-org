@@ -28,7 +28,7 @@ Configure Firewire Capture
 The image shows the Configure Firewire capture tab which can be accessed from the :menuselection:`Settings --> Configure Kdenlive` menu or from the spanner icon in the capturing.
 
 
-.. image:: /images/Kdenlive_Configure_Capture.png
+.. figure:: /images/Kdenlive_Configure_Capture.png
    :width: 500px
 
 

@@ -18,13 +18,13 @@ Download New Render Profiles
 This feature allows you to download new render profiles that have been shared by the community. These will then appear as options in the :ref:`render` window.
 
 
-.. image:: /images/user_interface/menu/knewstuff_render_dialog_22-04.png
+.. figure:: /images/user_interface/menu/knewstuff_render_dialog_22-04.png
 
 
 The new render profile installed above shows up in the Web Sites category under Custom.  
 
 
-.. image:: /images/Kdenlive_Installed_render_profiles.png
+.. figure:: /images/Kdenlive_Installed_render_profiles.png
 
 
 .. note::

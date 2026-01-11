@@ -100,8 +100,8 @@ The following selection values are available:
 .. hint:: 
    Since version 17.04 you can add the **Fade Out** effect with a single click using the fade handles (see screenshot below). And you can adjust the length of the fade with a drag of the mouse. Move the mouse over a selected clip in the timeline and click on the red dot in the top corner at the end of the clip. That creates a default fade-out of 3 seconds. In order to adjust the duration of the fade-out you can drag the red dot or use the :guilabel:`Duration` slider in the **Fade Out** effect panel in the clip's effect stack.
 
-.. image:: /images/effects_and_compositions/kdenlive2304_effects-fade_in_out_dots.webp
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-fade_in_out_dots.webp
    :align: left
    
-.. image:: /images/effects_and_compositions/kdenlive2304_effects-fade_out_dot.webp
+.. figure:: /images/effects_and_compositions/kdenlive2304_effects-fade_out_dot.webp
    

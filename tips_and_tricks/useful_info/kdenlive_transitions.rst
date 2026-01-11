@@ -96,7 +96,7 @@ These three transitions do not offer any (user-) keyframes. Instead, their *star
 Dynamic Compositing Transitions
 -------------------------------
 
-.. image:: /images/transition-compositing-galore.png
+.. figure:: /images/transition-compositing-galore.png
    
 To some degree, Kdenlive supports (simple) compositing in its timeline. Actually, even this simple compositing can get you a long way in many projects (as the above screenshot may hint at). Kdenlive currently offers the following (keyframable) compositing transitions:
 
@@ -132,9 +132,9 @@ Compositing with Transparency
 
 .. container:: clear-both
 
-   .. image:: /images/composite-transition-over.png
+   .. figure:: /images/composite-transition-over.png
       :align: left
-         :width: 350px
+      :width: 350px
 
    **Composite & Transform** - whatever semi or non-transparent is in the frame from the upper track, it will be painted over the frame from the lower track. Hence the name of this compositing mode: over. Please note: in the transition properties, this mode is to be found as **Compositing**: **Alpha Blend** instead.
 
@@ -142,9 +142,9 @@ Compositing with Transparency
 
 .. container:: clear-both
 
-   .. image:: /images/affine-transition-atop.png
+   .. figure:: /images/affine-transition-atop.png
       :align: left
-         :width: 350px
+      :width: 350px
 
    **Affine** - as the simple rule of thumb, transparency is solely controlled by the *lower* track. Any transparency information from the upper track simply gets completely ignored. In consequence, if your lower frame has regions of full transparency, whatever falls within them on the upper frame will be invisible! You can see this result also in the screenshot.
 

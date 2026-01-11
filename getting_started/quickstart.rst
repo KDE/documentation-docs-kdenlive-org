@@ -153,7 +153,7 @@ Now that the clips overlap, the transition can be added. This is done either by 
 
 The wipe transitions fades the first clip into the second one. See also :doc:`Wipe </compositing/transitions>`.
 
-.. image:: /images/getting_started/kdenlive_add_last_clip.webp
+.. figure:: /images/getting_started/kdenlive_add_last_clip.webp
   :align: left
   :width: 375px
   
@@ -174,7 +174,7 @@ The Piano can be colorized by adding an *effect* to it.  Click on the effect vie
 
 .. container:: clear-both
 
-   .. image:: /images/getting_started/kdenlive_effect_flag.webp
+   .. figure:: /images/getting_started/kdenlive_effect_flag.webp
       :align: left
       :width: 375px
       

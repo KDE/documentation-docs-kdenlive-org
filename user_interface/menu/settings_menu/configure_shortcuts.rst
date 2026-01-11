@@ -21,7 +21,7 @@ Configure Shortcuts
 Allows modification of the keyboard shortcuts for various **Kdenlive** tasks.
 
 
-.. image:: /images/Kdenlive_Configure_shortcuts_1.png
+.. figure:: /images/Kdenlive_Configure_shortcuts_1.png
 
 **Icons, bottom row**
 

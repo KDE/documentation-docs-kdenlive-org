@@ -31,13 +31,13 @@ Sometimes you may need to work in your Kdenlive projects with image stills extra
 Project Profile and Profile-Differing Footage
 -----------------------------------------------
 
-..   .. image:: /images/hires-frames-rawvideo-clipmonitor.jpeg
+..   .. figure:: /images/hires-frames-rawvideo-clipmonitor.jpeg
       :align: left
          :width: 350px
 
 In some projects you may face source footage that *does not match the project profile at all*. For instance, when working with certain screen recordings, especially when recorded on tablets and smartphones. The recordings might be even in a different orientation\ [#f1]_.
 
-.. image:: /images/tips_and_tricks/hires-frames-rawvideo-properties.jpeg
+.. figure:: /images/tips_and_tricks/hires-frames-rawvideo-properties.jpeg
    :align: left
    :width: 250px
 
@@ -47,13 +47,13 @@ To give a concrete example: Recording the screen of an Android Tablet, say, a Sa
 
 .. note:: The frame rate displayed by Kdenlive for this footage (see screenshot) is *not even in the right ballpark*. In fact, this footage has a widely varying frame rate (not to be confused with a variable bitrate), and Kdenlive/MLT/ffmpeg seem to offer wild guesses here, maybe based on the TV color range indicated for the video stream. But a 23500/1001 framerate is used by :abbr:`NTSC (National Television Standard Committee - defined the TV system used in the United States, Japan and many other countries)`, yet this has been recorded with :abbr:`PAL (Phase Alternating Line - A color encoding system for analogue television)` cromaciticies on a PAL device.
 
-.. .. image:: /images/hires-frames-frame-clipmonitor.jpeg
+.. .. figure:: /images/hires-frames-frame-clipmonitor.jpeg
    :align: left
    :width: 350px
 
 Unfortunately, if you need to work with still images extracted from such source footage, then you might have already met a nasty surprise: Kdenlive's media engine MLT extracts still frames always according to the :doc:`project settings </project_and_asset_management/project_settings/general_settings>`. Consider you have a FullHD 1920x1080 pixels 19:6 project. And the screencast footage is 1536x2048 pixels with 2:3 portrait aspect ratio. Then you end up with extracted frames of 1920x1080 pixels size with a landscape 16:9 aspect ratio and a lot of transparent space, but not the expected 1536x2048. So not only the resolution changed, but also the aspect ratio.
 
-.. image:: /images/tips_and_tricks/hires-frames-frame-properties.jpeg
+.. figure:: /images/tips_and_tricks/hires-frames-frame-properties.jpeg
    :align: left
    :width: 250px
 
@@ -93,7 +93,7 @@ Remember that we wrote above that Kdenlive extracts frames from bin clips using 
 .. attention::
    Do not change the project frame rate afterwards, or the frame extraction will get messed up. That is because the frame numbers from the filenames do not match the project settings anymore.
 
-.. image:: /images/tips_and_tricks/hires-frames-hiresframe-properties.jpeg
+.. figure:: /images/tips_and_tricks/hires-frames-hiresframe-properties.jpeg
    :align: left
    :width: 250px
    

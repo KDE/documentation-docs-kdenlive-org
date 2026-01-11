@@ -16,7 +16,7 @@ Disable All Timeline Effects
 
 Did you know that you can **temporarily disable all timeline effects at once?** This may be helpful when you want to do some timeline work, yet some performance heavy effects slow down this work. Alternatively, you may want to consider using Kdenlive's timeline preview.
 
-.. .. image:: /images/disable-timeline-effects.jpeg
+.. .. figure:: /images/disable-timeline-effects.jpeg
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_disable_timeline_effects.webp
    :align: left

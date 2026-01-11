@@ -64,7 +64,7 @@ The constant frame rate cures the issues mentioned above, so the results are as 
 Easy Transcoding: Color Me Bad
 ------------------------------
 
-.. image:: /images/tips_and_tricks/transcoding_color_change.webp
+.. figure:: /images/tips_and_tricks/transcoding_color_change.webp
    :align: left
    :width: 350px
 

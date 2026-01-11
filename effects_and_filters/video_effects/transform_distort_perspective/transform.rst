@@ -152,10 +152,10 @@ The following selection items are available:
 
 .. **Examples of compositing options:**
 
-   .. image:: /images/effects_and_compositions/kdenlive2304_effects-transform_compositions_1.webp
+   .. figure:: /images/effects_and_compositions/kdenlive2304_effects-transform_compositions_1.webp
    :align: left
    
-   .. image:: /images/effects_and_compositions/kdenlive2304_effects-transform_compositions_2.webp
+   .. figure:: /images/effects_and_compositions/kdenlive2304_effects-transform_compositions_2.webp
    :align: left
    
 

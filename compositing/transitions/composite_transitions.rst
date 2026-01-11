@@ -20,7 +20,7 @@ There are three options to add a transition to overlapping clips like in the exa
 :Method 1:
    Click on the purple circle in the lower left or right hand corner of the clip you want to transition from. The default transition **Wipe** with :guilabel:`None (Dissolve)` with a duration of exactly the number of frames the two clips overlap is added.
    
-   .. image:: /images/effects_and_compositions/transition-composition_add_1.gif
+   .. figure:: /images/effects_and_compositions/transition-composition_add_1.gif
       :width: 400px
   
    Using the left-hand purple circle creates a transition going from the lower track to the upper track; using the right-hand purple circle creates a transition going from the upper track to lower track. 
@@ -28,7 +28,7 @@ There are three options to add a transition to overlapping clips like in the exa
 :Method 2:
    Right-click the clip you want to transition from, select :guilabel:`Insert a composition`, and select :guilabel:`Wipe`.
 
-   .. image:: /images/effects_and_compositions/transition-composition_add_2.gif
+   .. figure:: /images/effects_and_compositions/transition-composition_add_2.gif
       :width: 400px
 
    You can add transitions to your favorites by right-clicking on the transition composition in the Compositions widget and selecting :guilabel:`Add to favorites`. Your favorite transitions show up as options when using this method.
@@ -36,7 +36,7 @@ There are three options to add a transition to overlapping clips like in the exa
 :Method 3:
    Drag a transition composition from the Compositions widget and drop it on the clip you want to transition from. Adjust the start and end points by dragging the left and/or right edge of the composition bar in the timeline.
 
-   .. image:: /images/effects_and_compositions/transition-composition_add_3.gif
+   .. figure:: /images/effects_and_compositions/transition-composition_add_3.gif
       :width: 400px
 
 Once you added the transition, select it to change any of the parameter.

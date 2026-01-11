@@ -20,9 +20,9 @@ In this *How-to* video we show you how to edit the audio volume of a clip using 
 3. How to manage and edit keyframes directly in the timeline
 4. Double click to add a keyframe, remove a keyframe by dragging it above or below the clip
 
-.. .. image:: /images/volume.png
+.. .. figure:: /images/volume.png
 
-.. image:: /images/tips_and_tricks/edit_audio_volume_with_keyframes.webp
+.. figure:: /images/tips_and_tricks/edit_audio_volume_with_keyframes.webp
    :width: 418px
    :align: center
    :target: https://kdenlive.org/wp-content/uploads/2016/12/volume.mp4

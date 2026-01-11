@@ -98,7 +98,7 @@ Contents of :file:`lossless/H.264`:
    Scanning Dropdown
    -----------------
 
-   .. image:: /images/glossary/render_dialog_21-08_scanning.png
+   .. figure:: /images/glossary/render_dialog_21-08_scanning.png
          :align: left
 
    This option controls the frame scanning setting the rendered file will have.

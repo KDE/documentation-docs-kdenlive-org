@@ -40,7 +40,7 @@ To perform a capture:
 
 * Click the *Connect Button* 
 
-.. image:: /images/Kdenlive_Connect_firewire_button.png
+.. figure:: /images/Kdenlive_Connect_firewire_button.png
   :align: left
  
 * Click the Record Button – note it toggles to grey while you are recording
@@ -51,14 +51,14 @@ To perform a capture:
 
 * Once capturing is finished, click the disconnect button 
 
-.. image:: /images/Kdenlive_Disconnect_capture.png
+.. figure:: /images/Kdenlive_Disconnect_capture.png
   :align: left
  
 
 * In the *Captured Files* dialog, click the import button to have the captured files automatically imported into the project bin.
 
 
-.. image:: /images/Kdenlive_Captured_files_dialog.png
+.. figure:: /images/Kdenlive_Captured_files_dialog.png
   :align: left
  
 

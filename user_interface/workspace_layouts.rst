@@ -29,7 +29,7 @@ Workspace Layouts
 .. .. versionadded:: 20.08.0
 .. .. versionadded:: 21.12.0 edit layout can adapt vertical and horizontal settings
 
-.. image:: /images/interface_layouts.gif
+.. figure:: /images/interface_layouts.gif
 
 These workspaces aim to improve the layout for each stage of video production:
 

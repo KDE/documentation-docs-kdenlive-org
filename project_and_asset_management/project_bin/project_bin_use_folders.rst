@@ -67,7 +67,7 @@ Folders help keeping the Project Bin organized, structured, and easy to navigate
 
 Right-click on a folder opens this context menu:
 
-.. image:: /images/project_and_asset_management/project_bin_folder_options.webp
+.. figure:: /images/project_and_asset_management/project_bin_folder_options.webp
    :width: 351px
 
 |rename|:
