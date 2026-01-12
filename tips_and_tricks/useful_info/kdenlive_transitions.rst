@@ -64,7 +64,7 @@ Let's start with those **standard transitions** most users would probably expect
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_clip_to_clip_dissolve.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
    **Dissolve**: gradually transitions from one clip to another. So it is kind of fading between the two clips. (See also the Wikipedia article on `Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_) 
 
@@ -72,7 +72,7 @@ Let's start with those **standard transitions** most users would probably expect
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_clip_to_clip_slide.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
    **Slide**: gradually replaces one clip by another clip, by traveling from one side of the frame to another (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
 
@@ -80,7 +80,7 @@ Let's start with those **standard transitions** most users would probably expect
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_clip_to_clip_wipe.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
    **Wipe**: one clip gradually replaces another clip, often in form of some shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
 

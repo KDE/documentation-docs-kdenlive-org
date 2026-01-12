@@ -121,7 +121,7 @@ Kdenlive is available as an install and as a standalone version.
    Double click the downloaded file.
 
    .. figure:: /images/getting_started/kdenlive_zip_self_extracting_archive.webp
-            :width: 40%
+      :width: 40%
 	  
       Kdenlive self-extracting archive
 
@@ -129,7 +129,7 @@ Kdenlive is available as an install and as a standalone version.
    Point to the folder you like to store the Kdenlive folder  
 
    .. figure:: /images/getting_started/kdenlive_bin_folder.webp
-            :width: 30%
+      :width: 30%
 	  
       Kdenlive bin folder
 
@@ -182,49 +182,49 @@ Installation Procedure
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/getting_started/macos_download_option.webp
-      :width: 30%
+   :width: 30%
    
    MacOS download option
 
 Choose the option *Open with DiskImageMounter (Default)*.
 
 .. figure:: /images/getting_started/macos_diskimagemounter.webp
-      :width: 30%
+   :width: 30%
    
    MacOS DiskImageMounter
 
 When the dmg file is downloaded, the *DiskImageMounter* will open. Drag the *Kdenlive* Logo into the *Applications* Folder.
 
 .. figure:: /images/getting_started/macos_copy.webp
-      :width: 30%
+   :width: 30%
    
    MacOS copy
 
 The files get copied.
 
 .. figure:: /images/getting_started/macos_check.webp
-      :width: 30%
+   :width: 30%
    
    MacOS check
 
 MacOS will try to check the files for malware.
 
 .. figure:: /images/getting_started/macos_warning.webp
-      :width: 30%
+   :width: 30%
    
    MacOS warning
 
 The message *“kdenlive" cannot be opened, because Apple cannot search for malware in it* will appear. Here you have to click :guilabel:`Show in Finder`.
 
 .. figure:: /images/getting_started/macos_right_click.webp
-      :width: 30%
+   :width: 30%
    
    MacOS right-click
 
 The Finder opens. Now right click on *Kdenlive* and choose :guilabel:`Open`.
 
 .. figure:: /images/getting_started/macos_open.webp
-      :width: 30%
+   :width: 30%
    
    MacOS open
 

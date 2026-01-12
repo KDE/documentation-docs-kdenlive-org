@@ -45,7 +45,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_timeline_01.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Timeline with clips selected for the library
 
@@ -55,7 +55,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_01a.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Library widget
 
@@ -65,7 +65,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_03.webp
       :align: left
-         :width: 250px
+      :width: 250px
 
       Enter name for new library item
 
@@ -75,7 +75,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_04.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Library with the newly created item
 
@@ -95,7 +95,7 @@ Copy Library Item into (New) Project
    
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_widget_04a.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Library with new item to be copied to project bin
 
@@ -107,7 +107,7 @@ Copy Library Item into (New) Project
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_project_bin_01.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Project bin with the new library item as a separate clip
 
@@ -146,7 +146,7 @@ Expand Library Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_expand_clip.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       :menuselection:`Menu --> Sequence`
 
@@ -156,7 +156,7 @@ Expand Library Clip
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_library_timeline_03.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Timeline with the expanded library clip
 

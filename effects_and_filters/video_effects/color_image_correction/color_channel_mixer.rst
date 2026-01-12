@@ -16,7 +16,7 @@ Color Channel Mixer
    :figwidth: 365px
    :align: left
 
- .. sidebar:: |kdenlive-show-video| Color Channel Mixer
+.. sidebar:: |kdenlive-show-video| Color Channel Mixer
 
    :**Status**:
       Maintained

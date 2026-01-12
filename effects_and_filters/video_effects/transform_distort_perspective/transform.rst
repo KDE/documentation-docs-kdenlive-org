@@ -24,7 +24,8 @@ Transform
    :width: 365px
    :figwidth: 365px
    :align: left
-   .. sidebar:: |kdenlive-show-video| Transform
+
+.. sidebar:: |kdenlive-show-video| Transform
 
    :**Status**:
       Maintained

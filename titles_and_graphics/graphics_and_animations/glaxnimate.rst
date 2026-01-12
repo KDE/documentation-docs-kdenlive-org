@@ -43,7 +43,7 @@ In the Project Bin, click in |kdenlive-add-clip|\ |go-down|\ :guilabel:`Add Clip
    .. figure:: /images/titles_and_graphics/animation-create_animation.webp
       :width: 360px
       :figwidth: 360px
-         :align: left
+      :align: left
 
       Create animation dialog window
 
@@ -61,7 +61,7 @@ By default, the animation duration is set to be 5 seconds long. If you need a di
    .. figure:: /images/titles_and_graphics/animation-glaxnimate.webp
       :width: 360px
       :figwidth: 360px
-         :align: left
+      :align: left
 
       The Glaxnimate application
 

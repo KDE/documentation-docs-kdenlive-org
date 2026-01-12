@@ -45,7 +45,7 @@ In the Project Bin, click on |kdenlive-add-clip|\ |go-down|\ :guilabel:`Add clip
    .. figure:: /images/titles_and_graphics/title-add_template_title.webp
       :width: 360px
       :figwidth: 360px
-         :align: left
+      :align: left
 
       Adding a template title
 
@@ -62,7 +62,7 @@ Kdenlive added a new title clip to the Project Bin. Right-click this clip in the
    .. figure:: /images/titles_and_graphics/title-use_template_title.webp
       :width: 360px
       :figwidth: 360px
-         :align: left
+      :align: left
 
       Using a template title
 
@@ -83,7 +83,7 @@ Drag the title to the timeline.
    .. figure:: /images/titles_and_graphics/title-use_template_title_2.webp
       :width: 360px
       :figwidth: 360px
-         :align: left
+      :align: left
 
       A template title at work
 

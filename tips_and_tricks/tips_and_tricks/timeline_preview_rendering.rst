@@ -28,7 +28,7 @@ Full-FPS Preview of Effect-Heavy Timeline Clips
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_01.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Raw source footage
 
@@ -40,7 +40,7 @@ Full-FPS Preview of Effect-Heavy Timeline Clips
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_02.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Effects applied
 
@@ -112,7 +112,7 @@ Step 3: Enjoy Smooth Timeline Preview
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_06.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
    All green chunks of your timeline will now play back at full speed. You should immediately notice that scrubbing such timeline zones will be much faster, too.
 
@@ -120,7 +120,7 @@ Step 3: Enjoy Smooth Timeline Preview
 
    .. figure:: /images/tips_and_tricks/kdenlive2308_timeline_preview_rendering_07.webp
       :align: left
-         :width: 350px
+      :width: 350px
 
       Preview Rendering enables smooth playback
 
