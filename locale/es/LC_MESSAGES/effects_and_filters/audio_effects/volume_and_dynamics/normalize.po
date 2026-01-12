@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-01 01:54+0000\n"
+"POT-Creation-Date: 2026-01-11 02:00+0000\n"
 "PO-Revision-Date: 2025-07-10 03:51-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -99,17 +99,25 @@ msgid "|linux| |appimage| |windows| |apple|"
 msgstr "|linux| |appimage| |windows| |apple|"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:41
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:55
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:56
 msgid "Description"
 msgstr "Descripción"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:42
+#, fuzzy
+#| msgid ""
+#| "This filter adjusts the level of the audio based on the loudness of the "
+#| "input. It performs loudness measurement over a specified sliding window "
+#| "of time. Then, it adjusts the gain on the output based on the difference "
+#| "between the measured loudness and the target loudness in order to achieve "
+#| "the desired loudness."
 msgid ""
 "This filter adjusts the level of the audio based on the loudness of the "
-"input. It performs loudness measurement over a specified sliding window of "
-"time. Then, it adjusts the gain on the output based on the difference "
-"between the measured loudness and the target loudness in order to achieve "
-"the desired loudness."
+"input. It is designed for live streams and applies the normalization based "
+"on a measurement window but has no lookahead possibilities. It performs "
+"loudness measurement over a specified sliding window of time. Then, it "
+"adjusts the gain on the output based on the difference between the measured "
+"loudness and the target loudness in order to achieve the desired loudness."
 msgstr ""
 "Este efecto ajusta el nivel del audio, basándose en la sonoridad original "
 "del audio. Realiza una medición de la sonoridad a lo largo de una ventana de "
@@ -117,54 +125,60 @@ msgstr ""
 "diferencia entre la sonoridad medida y la sonoridad objetivo, para lograr la "
 "sonoridad deseada."
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:46
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:44
+msgid ""
+"If you like to normalize an audio file or an entire track then use :doc:"
+"`Normalize 2 Pass <normalize_2pass>`"
+msgstr ""
+
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:47
 msgid "Parameters"
 msgstr "Parámetros"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:53
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:54
 msgid "Parameter"
 msgstr "Parámetro"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:54
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:55
 msgid "Value"
 msgstr "Valor"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:57
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:58
 msgid "**Target Program Loudness**"
 msgstr "**Sonoridad objetivo programada**"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:58
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:70
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:59
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:71
 msgid "Float"
 msgstr "Decimal"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:59
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:60
 msgid "The target program loudness in :abbr:`LUFS (Loudness Units Full Scale)`"
 msgstr ""
 "La intensidad objetivo programada, expresada en :abbr:`LUFS (Loudness Units "
 "Full Scale o Unidades de sonoridad en relación a la escala completa)`"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:60
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:61
 msgid "**Measurement Window**"
 msgstr "**Ventana de medición**"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:61
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:64
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:67
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:62
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:65
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:68
 msgid "Integer"
 msgstr "Entero"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:62
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:63
 msgid "The duration of time in seconds over which the loudness is calculated"
 msgstr ""
 "La duración, en segundos, del tiempo a lo largo del cual se calculará la "
 "sonoridad"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:63
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:64
 msgid "**Maximum Gain Increase**"
 msgstr "**Aumento máximo de ganancia**"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:65
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:66
 msgid ""
 "The maximum amount that the gain will be increased by the filter (:abbr:`dB "
 "(decibels)`)"
@@ -172,11 +186,11 @@ msgstr ""
 "La cantidad máxima de aumento de la ganancia ejercida por el efecto (en :"
 "abbr:`dB (decibelios)`)"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:66
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:67
 msgid "**Maximum Gain Decrease**"
 msgstr "**Disminución máxima de ganancia**"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:68
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:69
 msgid ""
 "The maximum amount that the gain will be decreased by the filter (:abbr:`dB "
 "(decibels)`)"
@@ -184,19 +198,19 @@ msgstr ""
 "La cantidad máxima de disminución de la ganancia ejercida por el efecto (en :"
 "abbr:`dB (decibelios)`)"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:69
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:70
 msgid "**Maximum Rate Change**"
 msgstr "**Tasa máxima de ganancia**"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:71
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:72
 msgid "(:abbr:`dB (decibels)` per second)"
 msgstr "en (:abbr:`dB (decibelios)` por segundo)"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:75
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:76
 msgid "Notes"
 msgstr "Notas"
 
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:76
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:77
 msgid ""
 "The objective of a normalization is to raise the audio level to its set "
 "maximum while the loudest part of the audio must not be exceeded. Normally, "
