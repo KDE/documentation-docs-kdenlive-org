@@ -761,6 +761,6 @@ The command bar allows to easily search for any action in Kdenlive like changing
 
 ----
 
-.. [1] MW = Mouse Wheel
+.. [1] MW = Mouse wheel; MMB = Middle mouse button (MW pressed)
 .. [2] LMB = Left mouse button
 .. [3] RMB = Right mouse button
