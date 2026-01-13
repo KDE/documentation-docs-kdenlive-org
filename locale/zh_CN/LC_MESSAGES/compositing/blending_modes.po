@@ -255,6 +255,9 @@ msgid ""
 "homogeneous color, this effect is equivalent to changing the black point to "
 "the inverted color."
 msgstr ""
+"混合图层的颜色被用来加深基底图层，并增加两者之间的对比度。这是通过将反转后的"
+"基底图层除以混合图层，再将结果反转来实现的。与白色混合不会产生变化。请注意，"
+"当混合图层是同质颜色时，此效果等效于将黑点更改为该颜色的反色。"
 
 #: ../../compositing/blending_modes.rst:109
 msgid "Lighter"
@@ -304,6 +307,11 @@ msgid ""
 "changes the output black point to this color, and (input) white point to the "
 "inverted color."
 msgstr ""
+"该混合模式将基底图层除以反转的混合图层。此操作会根据混合图层的值提亮基底图"
+"层：混合图层越亮，对基底图层的影响越大。若在混合图层中使用白色，基底图层的颜"
+"色将变为白色；使用黑色则不会改变基底图层。需注意当混合图层为均匀颜色时，此混"
+"合模式本质上会将输出的黑场映射为该颜色，并将（输入的）白场映射为反转后的颜"
+"色。"
 
 #: ../../compositing/blending_modes.rst:133
 msgid "Add"

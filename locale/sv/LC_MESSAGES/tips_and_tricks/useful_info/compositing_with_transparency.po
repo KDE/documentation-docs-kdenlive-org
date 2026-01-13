@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2025-08-12 11:42+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -30,30 +30,6 @@ msgstr ""
 "KDE, Kdenlive, tips, trick, tips och trick, användbar information, "
 "komposition, genomskinlighet, dokumentation, användarhandbok, videoeditor, "
 "öppen källkod, fritt, lära, enkelt"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "affine-transition-atop"
-msgstr "affine-transition-atop"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-1"
-msgstr "Alpha-Compositing-1"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "composite-transition-over"
-msgstr "composite-transition-over"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-2"
-msgstr "Alpha-Compositing-2"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-3"
-msgstr "Alpha-Compositing-3"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-4"
-msgstr "Alpha-Compositing-4"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:23
 msgid "Compositing with Transparency"
@@ -117,7 +93,7 @@ msgstr ""
 msgid "Affine: Atop Compositing"
 msgstr "Affin: Kompositionen Ovanför"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:48
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:47
 msgid ""
 "The result of the **atop** compositing is best explained at first by showing "
 "its outcome: Text from the topmost title clip (partly) vanishes in those "
@@ -128,7 +104,7 @@ msgstr ""
 "(delvis) i de områden där det underliggande klippet på spåret i mitten är "
 "(halv) genomskinligt."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:50
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:49
 msgid ""
 "The checkerboard clip on the bottom track just serves for illustrational "
 "purposes, so we can better see the transparent regions."
@@ -136,7 +112,7 @@ msgstr ""
 "Rutmönsterklippet på det nedre spåret gör bara tjänst i illustrationssyfte, "
 "så att vi bättre kan se de genomskinliga områdena."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:52
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:51
 msgid ""
 "Please notice how the two **Affine** transitions are chained: first, the "
 "upper Affine composites the title clip onto the gradient background. Then, "
@@ -147,7 +123,7 @@ msgstr ""
 "bakgrund. Sedan kompositioner den undre Affin-övertoningen resultatet på "
 "rutmönstrets bakgrund."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:59
 msgid ""
 "But how does the **Affine** transition exactly handle transparency? Let's "
 "look at this hand-made illustration, where we have two pixels with some "
@@ -160,7 +136,7 @@ msgstr ""
 "blanda ihop bildpunkternas genomskinlighet med övertoningarnas parameter "
 "ogenomskinlig."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
 msgid ""
 "Our red pixel comes from the upper track frame (B), whereas the green pixel "
 "stems from the lower track frame (A). An alpha of 0 means a completely "
@@ -172,7 +148,7 @@ msgstr ""
 "en helt genomskinlig bildpunkt, medan alfa 1,0 (eller 255) betyder helt "
 "ogenomskinlig bildpunkt."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
 msgid ""
 "The **Affine** transition now simply ignores the transparency information "
 "from the upper frame pixel (the red one)."
@@ -180,7 +156,7 @@ msgstr ""
 "Övertoningen **Affin** ignorerar nu genomskinlighetsinformationen från den "
 "övre bildrutans bildpunkt (den röda)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
 msgid ""
 "It solely uses the transparency information (green) contained in the lower "
 "track frames! Or more mathematical: α = αA"
@@ -188,7 +164,7 @@ msgstr ""
 "Den använder enbart genomskinlighetsinformationen (grön) som finns i de "
 "nedre spårets bildrutor! Eller mer matematiskt: α = αA"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:69
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
 msgid ""
 "And that is the explanation why in our example above the title text vanishes "
 "in those regions where the middle clip is transparent."
@@ -196,11 +172,11 @@ msgstr ""
 "Och det är förklaringen till varför i vårt exempel ovan titeltexten "
 "försvinner i de områden där mittenklippet är genomskinligt."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:75
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:73
 msgid "Composite & Co: Over Compositing"
 msgstr "Komposition med och liknande: Kompositionen Över"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:84
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:81
 msgid ""
 "Again, we basically use the same setup as before, but this time we use "
 "**Composite & Transform** in place of **Affine** transitions. We chain the "
@@ -212,7 +188,7 @@ msgstr ""
 "för **Affin**. Vi kedjar övertoningarna som tidigare, så att den nedre "
 "övertoningen arbetar på resultatet av den övre övertoningen."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:86
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:83
 msgid ""
 "But look: The outcome is different! The result of the **over** operator is "
 "probably more to the expectations of most users. Now, the top title clip "
@@ -222,7 +198,7 @@ msgstr ""
 "förmodligen de flesta användares förväntningar. Nu klipps inte det övre "
 "titelklippet (*förlåt*) längre."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:91
 msgid ""
 "As the **over** operation produces results more to the expectations of many "
 "users, how does it handle transparency exactly?"
@@ -230,7 +206,7 @@ msgstr ""
 "Eftersom operationen **över** ger resultat som motsvarar många användares "
 "förväntningar, hur hanterar den transparens exakt?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:93
 msgid ""
 "**Simply spoken:** if you paint some semi-transparent pixel over another "
 "semi-transparent pixel, then **the result will be less transparent**. It "
@@ -243,7 +219,7 @@ msgstr ""
 "bildpunkten. Det är förmodligen vad vi skulle förvänta oss av att använda "
 "halvgenomskinlig färg."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
 msgid ""
 "Calculating the resulting transparency for two given pixels from an upper "
 "frame (B) and a lower frame (A) is thus more involved this time."
@@ -252,7 +228,7 @@ msgstr ""
 "från en övre bildruta (B) och en nedre bildruta (A) är alltså mer involverad "
 "denna gången."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:101
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
 msgid ""
 "Again, we start with the transparency of the lower frame pixel (green) as a "
 "base. But this time, we cannot ignore the transparency of the (red) upper "
@@ -265,7 +241,7 @@ msgstr ""
 "genomskinlighet skulle inte ge vettiga resultat; vad betyder genomskinlighet "
 "2.0 eller 511?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:103
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
 msgid ""
 "So the red pixel transparency is **scaled** - you may think of shrinking the "
 "original 0-1.0 scale into the available space above the green transparency "
@@ -280,11 +256,11 @@ msgstr ""
 "ihåg att vi på sätt och vis målar över den nedre bildrutan. Formelmässig "
 "affin: α = αA + αB (1-αA)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:108
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:104
 msgid "Transition Parameter Opacity"
 msgstr "Övertoningsparameter Ogenomskinlighet"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:110
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:106
 msgid ""
 "The dynamic compositing transitions also feature a parameter called "
 "**Opacity**. It is easy to confuse it with pixel transparency, but it is "
@@ -297,7 +273,7 @@ msgstr ""
 "endast för de övre bildrutorna (B). Den är en sorts huvudkontroll, men hur "
 "fungerar den?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:119
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:114
 msgid ""
 "Let's start with the **Affine** transition, again. Above, we have seen that "
 "Affine ignores the transparency of the (red) upper frame pixels. And Affine "
@@ -309,7 +285,7 @@ msgstr ""
 "bildrutan. Och Affin **ignorerar** också parametern **ogenomskinlighet** när "
 "resultatet **bildpunktsgenomskinlighet** beräknas."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:121
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:116
 msgid ""
 "Instead, the opacity parameter influences how the result **pixel color** "
 "gets calculated: this is a linear interpolation between the color of the "
@@ -326,7 +302,7 @@ msgstr ""
 "1,0 enbart ger färgen på den övre bildpunkten (A). 0,5 skulle vara halvvägs "
 "mellan de två bildpunktsfärgerna."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:123
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:118
 msgid ""
 "To sum up: in case of the **Affine** transition, **the opacity parameter "
 "solely affects color blending** between upper frame (B) and lower frame (A) "
@@ -336,13 +312,13 @@ msgstr ""
 "**parametern ogenomskinlighet enbart färgblandning** mellan bildpunkterna på "
 "övre bildrutan (B) och nedre bildrutan (A)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:126
 msgid "Next, let's look at the other transitions: **Composite** & Co."
 msgstr ""
 "Därefter, låt oss ta en titt på andra övertoningar: **Komposition** och "
 "liknande."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:128
 msgid ""
 "As for the color blending, the same procedure applies that we have just seen "
 "with the Affine transition: the opacity parameter controls how much upper "
@@ -352,7 +328,7 @@ msgstr ""
 "övertoningen Affine: parametern ogenomskinlighet styr hur mycket "
 "bildpunktsfärg från övre bildrutan (B) som kommer med i blandningen."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:136
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:130
 msgid ""
 "But when we look at how the transparency of the resulting pixel gets "
 "calculated, things are starting to look different. We have seen that the "
@@ -369,7 +345,7 @@ msgstr ""
 "genomskinligheten hos den övre bildrutans (B) bildpunkt. Se även "
 "illustrationen."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:138
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
 msgid ""
 "In consequence, the opacity parameter thus controls how much opacity of an "
 "upper frame (B) pixel is applied at all. This way, you can fade in or out "
@@ -379,7 +355,7 @@ msgstr ""
 "ogenomskinlighet från den övre bildrutans (B) bildpunkt som överhuvudtaget "
 "används. På så sätt kan man tona in eller tona bort den övre bildrutan."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:140
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
 msgid ""
 "To sum up: in case of the **Composite** (& Co) transitions, **the opacity "
 "parameter affects both color blending** of upper frame (B) and lower frame "
@@ -390,11 +366,11 @@ msgstr ""
 "bildrutans (B) och den nedre bildrutans (A) bildpunkter, **såväl som "
 "genomskinligheten hos den övre bildrutan (B)**."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:147
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:141
 msgid "Notes"
 msgstr "Anmärkningar"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:155
 msgid ""
 "Wikipedia article on |alpha_compositing|, with a reference to the original "
 "Porter Duff SIGGRAPH’84 paper on «Compositing Digital Images»."
@@ -403,11 +379,11 @@ msgstr ""
 "originaluppsatsen om Porter Duff SIGGRAPH’84 benämnd «Compositing Digital "
 "Images»."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid "**Further Reading**"
 msgstr "**Ytterligare läsning**"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid ""
 "The |svg_open_paper| by Craig Northway on \"Understanding Compositing and "
 "Color extensions in SVG 1.2 in 30 minutes!\" - especially the Porter Duff "
@@ -417,7 +393,7 @@ msgstr ""
 "Color extensions in SVG 1.2 in 30 minutes!\", i synnerhet Porter Duff "
 "operatortabellen i kapitel 6 med resulterande alfaberäkningskolumn."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:166
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:160
 msgid ""
 "The original text was submitted by user *TheDiveO* to the now defunct "
 "kdenlive.org blog. For this documentation it has been lifted from |"
@@ -428,6 +404,24 @@ msgstr ""
 "från |kdenlive_org|, uppdaterats och anpassats för att motsvara den "
 "övergripande stilen."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:167
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
 msgid "**Sources**"
 msgstr "**Källor**"
+
+#~ msgid "affine-transition-atop"
+#~ msgstr "affine-transition-atop"
+
+#~ msgid "Alpha-Compositing-1"
+#~ msgstr "Alpha-Compositing-1"
+
+#~ msgid "composite-transition-over"
+#~ msgstr "composite-transition-over"
+
+#~ msgid "Alpha-Compositing-2"
+#~ msgstr "Alpha-Compositing-2"
+
+#~ msgid "Alpha-Compositing-3"
+#~ msgstr "Alpha-Compositing-3"
+
+#~ msgid "Alpha-Compositing-4"
+#~ msgstr "Alpha-Compositing-4"

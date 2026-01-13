@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2023-10-31 09:12+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -38,14 +38,6 @@ msgstr ""
 "KDE, Kdenlive, підказки, трюки, підказки і настанови, корисні відомості, "
 "ffmpeg, перекодування, bt.601, документація, підручник, відеоредактор, "
 "відео, відкритий код, вільний, вивчення, вивчити, просто"
-
-#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
-msgid "transcoding_color_change.webp"
-msgstr "transcoding_color_change.webp"
-
-#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
-msgid "transcoding_comparison.webp"
-msgstr "transcoding_comparison.webp"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:38
 msgid "Color Hell: Ffmpeg Transcoding and Preserving BT.601"
@@ -146,7 +138,7 @@ msgstr ""
 msgid "Easy Transcoding: Color Me Bad"
 msgstr "Просте перекодування: розфарбуй мене усю"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:72
+#: ../../tips_and_tricks/useful_info/color_hell.rst:71
 msgid ""
 "Unfortunately, the resulting video now shows shifted colors! It might not be "
 "too obvious in the first place, but it can be quite prominent when you work "
@@ -160,7 +152,7 @@ msgstr ""
 "створити суміш цього матеріалу із його обробленими версіями, зокрема "
 "видобутими стоп-кадрами."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:74
+#: ../../tips_and_tricks/useful_info/color_hell.rst:73
 msgid ""
 "A closer inspection either using Kdenlive's built-in clip properties pane or "
 "|ffprobe| reveals that the *transcoded file* **lacks the BT.601 color "
@@ -173,19 +165,15 @@ msgstr ""
 "перетворював кольорів* під час перекодування, — правильні дані щодо профілю "
 "кольорів було просто відкинуто!"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:79
+#: ../../tips_and_tricks/useful_info/color_hell.rst:78
 msgid "Makeshift Measures"
 msgstr "Паліативні заходи"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:86
-msgid "kdenlive2308_clip_properties_color_space.webp"
-msgstr "kdenlive2308_clip_properties_color_space.webp"
-
-#: ../../tips_and_tricks/useful_info/color_hell.rst:86
+#: ../../tips_and_tricks/useful_info/color_hell.rst:84
 msgid "Clip Properties color space override"
 msgstr "Перевизначення простору кольорів у властивостях кліпу"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:88
+#: ../../tips_and_tricks/useful_info/color_hell.rst:86
 msgid ""
 "Of course, there is always Kdenlive's ability to overwrite source clip "
 "properties using the built-in clip properties :term:`widget`."
@@ -194,7 +182,7 @@ msgstr ""
 "початкового кліпу за допомогою вбудованому :term:`віджеті <widget>` "
 "властивостей кліпу."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:90
+#: ../../tips_and_tricks/useful_info/color_hell.rst:88
 msgid ""
 "Simply select the transcoded video clip in the project bin. Then go to clip "
 "properties and select its “Force Properties” tab |document-edit|. Check :"
@@ -207,7 +195,7 @@ msgstr ""
 "кольорів`, а потім виберіть **ITU-R 601**. Тепер Kdenlive застосує належний "
 "профіль кольорів."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:94
+#: ../../tips_and_tricks/useful_info/color_hell.rst:92
 msgid ""
 "While very easy, this method has its limitations: It is fine while you keep "
 "working solely inside the Kdenlive editor and its MLT renderer. But as soon "
@@ -224,16 +212,16 @@ msgstr ""
 "Kdenlive. Тому нам потрібно записати належні дані щодо профілю кольорів у "
 "самі перекодовані файли відео."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:97
+#: ../../tips_and_tricks/useful_info/color_hell.rst:95
 msgid "Preserving BT.601 in Transcoding"
 msgstr "Збереження BT.601 при перекодуванні"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:99
+#: ../../tips_and_tricks/useful_info/color_hell.rst:97
 msgid ""
 "To make this matter worse, the seemingly obvious color profile transformation"
 msgstr "Що гірше, очевидне перетворення профілю кольорів за допомогою"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:105
+#: ../../tips_and_tricks/useful_info/color_hell.rst:103
 msgid ""
 "simply does not work: |ffmpeg| complains about not being able to transform "
 "between the same input and output color profile."
@@ -241,7 +229,7 @@ msgstr ""
 "просто не працює: |ffmpeg| скаржиться про те, що неможливо перетворення між "
 "однаковими вхідним і вихідним профілем кольорів."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:107
+#: ../../tips_and_tricks/useful_info/color_hell.rst:105
 msgid ""
 "The missing puzzle piece can be found on Stack Exchange's Video Production "
 "Q&A site in a post from 2015 asking \"|explicitly_tag|\"."
@@ -250,7 +238,7 @@ msgstr ""
 "сайта питань і відповідей щодо роботи з відео у дописі 2015 року «|"
 "explicitly_tag|»."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:109
+#: ../../tips_and_tricks/useful_info/color_hell.rst:107
 msgid ""
 "There is a catch to watch out for: BT.601 comes in :abbr:`PAL (Phase "
 "Alternating Line - a colour encoding system for analogue television)` and :"
@@ -274,11 +262,11 @@ msgstr ""
 "здатність зі стандартного набору, але ця роздільна здатність має значення "
 "при кодуванні кольорів."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:112
+#: ../../tips_and_tricks/useful_info/color_hell.rst:110
 msgid "PAL and NTSC DNA"
 msgstr "PAL та NTSC DNA"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:114
+#: ../../tips_and_tricks/useful_info/color_hell.rst:112
 msgid ""
 "So how do we find out if a given video recording file, say ``raw.mp4``, uses "
 "the PAL or NTSC color space? Of course, |ffprobe| comes to our rescue. But "
@@ -294,11 +282,11 @@ msgstr ""
 "(засіб командного рядка Unix для пошуку простих текстових наборів даних у "
 "рядках, які відповідають формальному виразу)`:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:120
+#: ../../tips_and_tricks/useful_info/color_hell.rst:118
 msgid "This should give you something along these lines:"
 msgstr "Це дасть вам щось схоже на це:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:129
+#: ../../tips_and_tricks/useful_info/color_hell.rst:127
 msgid ""
 "The line ``color_space=...`` tells us whether we are dealing with PAL "
 "(bt470bg) or NTSC (smpte170m)."
@@ -306,11 +294,11 @@ msgstr ""
 "Рядок ``color_space=...`` повідомляє нам, з чим ми маємо справу, з PAL "
 "(bt470bg) або з NTSC (smpte170m)."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:132
+#: ../../tips_and_tricks/useful_info/color_hell.rst:130
 msgid "PAL"
 msgstr "PAL"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:134
+#: ../../tips_and_tricks/useful_info/color_hell.rst:132
 msgid ""
 "If it is **PAL chromaticities** (``color_space=bt470bg``), we then need to "
 "transcode as follows:"
@@ -318,11 +306,11 @@ msgstr ""
 "Якщо це **колірності PAL** (``color_space=bt470bg``), нам доведеться далі "
 "перекодувати дані так:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:143
+#: ../../tips_and_tricks/useful_info/color_hell.rst:141
 msgid "NTSC"
 msgstr "NTSC"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:145
+#: ../../tips_and_tricks/useful_info/color_hell.rst:143
 msgid ""
 "For **NTSC chromaticities** (``color_space=smpte170m``), we will need a "
 "different set of primaries, transfer curve, and colorspace:"
@@ -330,7 +318,7 @@ msgstr ""
 "Для **колірностей NTSC** (``color_space=smpte170m``) нам знадобиться інший "
 "набір основ, крива перетворення та простір кольорів:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:158
+#: ../../tips_and_tricks/useful_info/color_hell.rst:155
 msgid ""
 "In any case, Kdenlive/MLT now correctly see the transcoded video using the "
 "BT.601 color profile. In addition, other media tools correctly detect the "
@@ -342,15 +330,15 @@ msgstr ""
 "мультимедійних даних також належними чином визначатимуть профіль кольорів — "
 "якщо у них немає загальних проблем із обробкою BT.601."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:163
+#: ../../tips_and_tricks/useful_info/color_hell.rst:160
 msgid "Notes"
 msgstr "Нотатки"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:177
+#: ../../tips_and_tricks/useful_info/color_hell.rst:174
 msgid "**Sources**"
 msgstr "**Джерела**"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:177
+#: ../../tips_and_tricks/useful_info/color_hell.rst:174
 msgid ""
 "The original text was submitted by user *TheDiveO* to the now defunct "
 "kdenlive.org blog. For this documentation it has been lifted from |"
@@ -360,13 +348,22 @@ msgstr ""
 "kdenlive.org. Для цієї документації його було запозичено з |kdenlive_org| і "
 "адаптовано до загального стилю."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:181
+#: ../../tips_and_tricks/useful_info/color_hell.rst:178
 msgid "For more details see the Wikipedia article about |bt601|"
 msgstr "Щоб дізнатися більше, ознайомтеся із статтею у Вікіпедії щодо |bt601|"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:182
+#: ../../tips_and_tricks/useful_info/color_hell.rst:179
 msgid "For more details see the Wikipedia article about |bt709|"
 msgstr "Щоб дізнатися більше, ознайомтеся із статтею у Вікіпедії щодо |bt709|"
+
+#~ msgid "transcoding_color_change.webp"
+#~ msgstr "transcoding_color_change.webp"
+
+#~ msgid "transcoding_comparison.webp"
+#~ msgstr "transcoding_comparison.webp"
+
+#~ msgid "kdenlive2308_clip_properties_color_space.webp"
+#~ msgstr "kdenlive2308_clip_properties_color_space.webp"
 
 #~ msgid "add-subtitle"
 #~ msgstr "add-subtitle"

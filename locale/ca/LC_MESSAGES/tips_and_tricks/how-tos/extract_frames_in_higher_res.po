@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2025-06-22 19:28+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -36,18 +36,6 @@ msgstr ""
 "KDE, Kdenlive, consells, trucs, consells i trucs, extracció de fotogrames, "
 "edició, línia de temps, documentació, manual d'usuari, editor de vídeo, codi "
 "lliure, lliure, aprendre, fàcil"
-
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:-1
-msgid "hires-frames-rawvideo-properties"
-msgstr "hires-frames-rawvideo-properties"
-
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:-1
-msgid "hires-frames-frame-properties"
-msgstr "hires-frames-frame-properties"
-
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:-1
-msgid "hires-frames-hiresframe-properties"
-msgstr "hires-frames-hiresframe-properties"
 
 #: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:24
 msgid "Extracting Frames in Higher Resolution than Project Profile"
@@ -89,7 +77,7 @@ msgstr ""
 msgid "Project Profile and Profile-Differing Footage"
 msgstr "Perfil del projecte i metratge amb perfil diferent"
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:39
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:38
 msgid ""
 "In some projects you may face source footage that *does not match the "
 "project profile at all*. For instance, when working with certain screen "
@@ -103,7 +91,7 @@ msgstr ""
 "i tot en una orientació\\ [#f1]_ diferent."
 
 # skip-rule: kct-tab
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:46
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:44
 msgid ""
 "To give a concrete example: Recording the screen of an Android Tablet, say, "
 "a Samsung Galaxy Tab S3 gives raw footage with a frame size of 1536x2048 "
@@ -121,7 +109,7 @@ msgstr ""
 "enregistrar en la resolució original per a no perdre més tard en la baixada "
 "durant la postproducció, quan potser calgui invertir el metratge en brut."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:50
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:48
 msgid ""
 "The frame rate displayed by Kdenlive for this footage (see screenshot) is "
 "*not even in the right ballpark*. In fact, this footage has a widely varying "
@@ -147,7 +135,7 @@ msgstr ""
 "dispositiu PAL."
 
 # skip-rule: common-fixe
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:57
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:54
 msgid ""
 "Unfortunately, if you need to work with still images extracted from such "
 "source footage, then you might have already met a nasty surprise: Kdenlive's "
@@ -170,7 +158,7 @@ msgstr ""
 "de 16:9 apaïsada i força espai transparent, però no el 1536x2048 esperat. "
 "Per tant, no sols la resolució ha canviat, sinó també la relació d'aspecte."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:64
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:60
 msgid ""
 "Hardly what you want here, as our detail screenshot shows. When comparing "
 "this clip monitor screenshot with the clip monitor screenshot taken from the "
@@ -183,7 +171,7 @@ msgstr ""
 "diferents. No importa el que preferim, la qüestió és que són visiblement "
 "diferents."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:66
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:62
 msgid ""
 "This is a no-no when we need to use both the raw footage as well as the "
 "extracted frames in the same project, especially adjacent to each other in "
@@ -197,11 +185,11 @@ msgstr ""
 "visibles, llevat que comprimiu el vídeo resultant fins a l'extrem de semblar "
 "més aviat un episodi fals de |barbapapa|."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:72
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:68
 msgid "Original Resolution Frame Extraction"
 msgstr "Extracció del fotograma de la resolució original"
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:74
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:70
 msgid ""
 "Of course, after all timeline cuts have been mostly settled with the "
 "required extracted frames for stills, we could then manually (re-) extract "
@@ -215,7 +203,7 @@ msgstr ""
 "incòmoda, sinó també d'una tasca susceptible d'errors."
 
 # skip-rule: t-2p_sp, t-sp_x2
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:76
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:72
 msgid ""
 "Fortunately, there's the easy route using the |extract_frames| bash shell "
 "script (courtesy of the original blog post author TheDiveO). Download the :"
@@ -231,7 +219,7 @@ msgstr ""
 "b3e605eb74737916bffa55bbc1b907e29ee7016d.zip>` (fitxer ZIP), extraieu-lo  i "
 "feu-lo executable ($ ``chmod u+x extract-frames``)."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:78
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:74
 msgid ""
 "A word of caution: before you let loose anything on your Kdenlive project "
 "directory that makes changes, make sure to have backed up your project "
@@ -243,7 +231,7 @@ msgstr ""
 "una còpia de seguretat del vostre projecte abans. Esteu avisat. No ens "
 "responsabilitzem de cap pèrdua de dades o d'altres pèrdues que pugueu patir."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:80
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:76
 msgid ""
 "Now run the script inside your project directory, where your frame image "
 "PNGs are located together with the corresponding video files from which the "
@@ -255,7 +243,7 @@ msgstr ""
 "corresponents dels quals s'han extret els fotogrames. Sempre cal especificar "
 "el nom del fitxer del projecte Kdenlive per tal d'executar l'script:"
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:86
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:82
 msgid ""
 "That is all there is to it! You should now see also Kdenlive's project bin "
 "noticing that the image files have been updated. Thus, you can run the "
@@ -266,7 +254,7 @@ msgstr ""
 "l'script mentre el projecte Kdenlive està obert."
 
 # skip-rule: t-acc_obe
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:88
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:84
 msgid ""
 "What does this script actually do? It first scans for frame image PNGs with "
 "filenames in the form ``xxx-f000000.png``. Here, xxx is the filename "
@@ -281,7 +269,7 @@ msgstr ""
 "de vídeo corresponents que acabin en ``.mp4`` i ``.MP4``."
 
 # skip-rule: t-acc_obe
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:90
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:86
 msgid ""
 "The ``f000000`` part identifies the frame number from which the still frame "
 "has been extracted. Now this is posing an interesting question: in which "
@@ -292,7 +280,7 @@ msgstr ""
 "en quin sistema de referència s'han comptat aquests fotogrames?"
 
 # skip-rule: t-acc_obe
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:92
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:88
 msgid ""
 "Remember that we wrote above that Kdenlive extracts frames from bin clips "
 "using the project properties? So, the reference system for counting "
@@ -312,7 +300,7 @@ msgstr ""
 "tingui una velocitat dels fotogrames diferent i, per tant, un nombre "
 "diferent de fotogrames del projecte."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:95
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:91
 msgid ""
 "The frame image files can be located not only in the project directory, but "
 "also in sub directories. The script will not find any extracted frame PNG "
@@ -325,7 +313,7 @@ msgstr ""
 "projecte, perquè no escaneja el vostre projecte Kdenlive cercant fotogrames "
 "extrets."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:98
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:94
 msgid ""
 "Do not change the project frame rate afterwards, or the frame extraction "
 "will get messed up. That is because the frame numbers from the filenames do "
@@ -337,7 +325,7 @@ msgstr ""
 "del projecte."
 
 # skip-rule: t-acc_obe
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:105
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:100
 msgid ""
 "After you have run the ``extract-frames`` script, you should notice in "
 "Kdenlive's clip properties pane that the extracted frame PNGs are now having "
@@ -353,7 +341,7 @@ msgstr ""
 "qualitat d'imatge que el metratge original. Així que està tot a punt de "
 "finalitzar i de gravar, ehem, renderitzar el projecte."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:107
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:102
 msgid ""
 "If you happen to see color changes at this stage, then please check out our "
 "other How-to chapter about :ref:"
@@ -362,12 +350,12 @@ msgstr ""
 "Si veieu canvis de color en aquesta etapa, consulteu el nostre altre capítol "
 "de la guia sobre :ref:`color_hell_ffmpeg_transcoding_and_preserving_BT.601`."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:113
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:108
 msgid "Work Flow in a Nutshell"
 msgstr "El flux de treball en poques paraules"
 
 # skip-rule: t-acc_obe
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:115
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:110
 msgid ""
 "Your overall workflow does not change much, just throw running the ``extract-"
 "frames`` script inside your Kdenlive project directory whenever you need to "
@@ -382,7 +370,7 @@ msgstr ""
 "tornar a executar l'script en qualsevol moment mentre treballeu en el "
 "projecte."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:117
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:112
 msgid ""
 "But remember to not change the project frame rate while working on your "
 "project, as this will put the frame numbers encoded in the filenames out of "
@@ -392,15 +380,15 @@ msgstr ""
 "treballeu en el projecte, ja que això posarà els números dels fotogrames "
 "codificats en els noms dels fitxers fora de sincronització."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:122
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:117
 msgid "Notes"
 msgstr "Notes"
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:133
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:128
 msgid "**Sources**"
 msgstr "**Fonts**"
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:133
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:128
 msgid ""
 "The original text was submitted by user *TheDiveO* to the now defunct "
 "kdenlive.org blog. For this documentation it has been lifted from |"
@@ -410,7 +398,7 @@ msgstr ""
 "ja desaparegut. Per a aquesta documentació s'ha extret de |kdenlive_org|, "
 "s'ha actualitzat i adaptat per a concordar amb l'estil general."
 
-#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:137
+#: ../../tips_and_tricks/how-tos/extract_frames_in_higher_res.rst:132
 msgid ""
 "Such footage *might* be a sign of the - rather hilarious - |vvs| (a PSA by "
 "Glove and Boots on YouTube). Or it might be the sign of an outstanding "
@@ -425,3 +413,12 @@ msgstr ""
 "assenyades, com el seu ús en vídeos de guies d'aprenentatge: una pantalla de "
 "dispositius mòbils de retrat pot ser fàcilment composta amb una escena de "
 "16:9, deixant espai per a il·lustracions addicionals, explicacions, etc."
+
+#~ msgid "hires-frames-rawvideo-properties"
+#~ msgstr "hires-frames-rawvideo-properties"
+
+#~ msgid "hires-frames-frame-properties"
+#~ msgstr "hires-frames-frame-properties"
+
+#~ msgid "hires-frames-hiresframe-properties"
+#~ msgstr "hires-frames-hiresframe-properties"

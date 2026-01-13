@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2022-06-28 10:56+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -31,38 +31,6 @@ msgid ""
 "transparency, documentation, user manual, video editor, open source, free, "
 "learn, easy"
 msgstr ""
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "affine-transition-atop"
-msgstr ""
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-#, fuzzy
-#| msgid "Affine: Atop Compositing"
-msgid "Alpha-Compositing-1"
-msgstr "Afim: Composição 'Atop'"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "composite-transition-over"
-msgstr ""
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-#, fuzzy
-#| msgid "Affine: Atop Compositing"
-msgid "Alpha-Compositing-2"
-msgstr "Afim: Composição 'Atop'"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-#, fuzzy
-#| msgid "Affine: Atop Compositing"
-msgid "Alpha-Compositing-3"
-msgstr "Afim: Composição 'Atop'"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-#, fuzzy
-#| msgid "Affine: Atop Compositing"
-msgid "Alpha-Compositing-4"
-msgstr "Afim: Composição 'Atop'"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:23
 #, fuzzy
@@ -152,7 +120,7 @@ msgstr ""
 msgid "Affine: Atop Compositing"
 msgstr "Afim: Composição 'Atop'"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:48
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:47
 msgid ""
 "The result of the **atop** compositing is best explained at first by showing "
 "its outcome: Text from the topmost title clip (partly) vanishes in those "
@@ -163,7 +131,7 @@ msgstr ""
 "(parcialmente) nessas regiões em que o 'clip' abaixo na faixa do meio é "
 "(semi-) transparente."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:50
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:49
 msgid ""
 "The checkerboard clip on the bottom track just serves for illustrational "
 "purposes, so we can better see the transparent regions."
@@ -171,7 +139,7 @@ msgstr ""
 "O 'clip' em xadrez na faixa do fundo serve apenas para fins de ilustração, "
 "para que possamos ver melhor as regiões transparentes."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:52
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:51
 #, fuzzy
 #| msgid ""
 #| "Please notice how the two **Affine** transitions are chained: first, the "
@@ -186,7 +154,7 @@ msgstr ""
 "primeiro, a Afim superior compõe o 'clip' do título no fundo em gradiente. "
 "Depois, a Afim inferior compõe o resultado no fundo em xadrez."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:59
 #, fuzzy
 #| msgid ""
 #| "But how does the **Affine** transition exactly handle transparency? Let’s "
@@ -205,7 +173,7 @@ msgstr ""
 "transparência em cada um (com valores de alfa αA e αB). É importante **não** "
 "confundir a transparência dos pixels com o parâmetro opaco das transições."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
 msgid ""
 "Our red pixel comes from the upper track frame (B), whereas the green pixel "
 "stems from the lower track frame (A). An alpha of 0 means a completely "
@@ -217,7 +185,7 @@ msgstr ""
 "completamente transparente, enquanto um alfa de 1,0 (ou 255) significa um "
 "pixel totalmente opaco."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
 msgid ""
 "The **Affine** transition now simply ignores the transparency information "
 "from the upper frame pixel (the red one)."
@@ -225,7 +193,7 @@ msgstr ""
 "A transição **Afim** agora ignora simplesmente a informação de transparência "
 "do pixel da imagem superior (o vermelho)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
 msgid ""
 "It solely uses the transparency information (green) contained in the lower "
 "track frames! Or more mathematical: α = αA"
@@ -233,7 +201,7 @@ msgstr ""
 "Apenas usa a informação de transparência (verde) contida nas imagens da "
 "faixa inferior! Ou, de forma matemática: α = αA"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:69
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
 #, fuzzy
 #| msgid ""
 #| "And that’s the explanation why in our example above the title text "
@@ -245,11 +213,11 @@ msgstr ""
 "E isto é a explicação porque no nosso exemplo acima, o título do texto "
 "desaparece nessas regiões em que o 'clip' do meio é transparente."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:75
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:73
 msgid "Composite & Co: Over Compositing"
 msgstr "Composição & Companhia: Sobre-Composição"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:84
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:81
 msgid ""
 "Again, we basically use the same setup as before, but this time we use "
 "**Composite & Transform** in place of **Affine** transitions. We chain the "
@@ -261,7 +229,7 @@ msgstr ""
 "transições **Afins**. Encadeamos as transições como antes, de forma que a "
 "transição inferior manipule o resultado da transição superior."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:86
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:83
 #, fuzzy
 #| msgid ""
 #| "But look! The outcome is different! The result of the **over** operator "
@@ -276,7 +244,7 @@ msgstr ""
 "provavelmente mais próximo das expectativas da maioria dos utilizadores. "
 "Agora o 'clip' do título de topo não fica mais recortado (*desculpem*)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:91
 msgid ""
 "As the **over** operation produces results more to the expectations of many "
 "users, how does it handle transparency exactly?"
@@ -284,7 +252,7 @@ msgstr ""
 "Como a operação **over** produz resultados mais de encontro às expectativas "
 "de muitos utilizadores, como lida exactamente com a transparência?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:93
 msgid ""
 "**Simply spoken:** if you paint some semi-transparent pixel over another "
 "semi-transparent pixel, then **the result will be less transparent**. It "
@@ -297,7 +265,7 @@ msgstr ""
 "da imagem inferior. Isto era o que seria provavelmente esperado ao pintar "
 "com uma tinta semi-opaca."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
 msgid ""
 "Calculating the resulting transparency for two given pixels from an upper "
 "frame (B) and a lower frame (A) is thus more involved this time."
@@ -305,7 +273,7 @@ msgstr ""
 "O cálculo da transparência resultante para os dois pontos indicados de uma "
 "imagem superior (B) e uma inferior (A) é assim mais envolvido desta vez."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:101
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
 #, fuzzy
 #| msgid ""
 #| "Again, we start with the transparency of the lower frame pixel (green) as "
@@ -324,7 +292,7 @@ msgstr ""
 "transparências não iriam gerar resultados que façam sentido; o que significa "
 "uma transparência de 2,0 ou 511?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:103
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
 #, fuzzy
 #| msgid ""
 #| "So the red pixel transparency is **scaled**: you may think of shrinking "
@@ -348,11 +316,11 @@ msgstr ""
 "pintura sobre a imagem inferior. Para os adeptos das fórmulas: α = αA + αB "
 "(1-αA)"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:108
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:104
 msgid "Transition Parameter Opacity"
 msgstr "Parâmetro de Opacidade da Transição"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:110
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:106
 #, fuzzy
 #| msgid ""
 #| "The dynamic compositing transitions also feature a parameter called "
@@ -370,7 +338,7 @@ msgstr ""
 "algo diferente. O parâmetro de opacidade aplica-se apenas às imagens "
 "superiores (B). É uma espécie de controlo-mestre … mas como é que funciona?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:119
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:114
 #, fuzzy
 #| msgid ""
 #| "Let’s start with the **Affine** transition, again. Above, we’ve seen that "
@@ -388,7 +356,7 @@ msgstr ""
 "(vermelha). E a Afim **ignora** também o parâmetro de **Opacidade** ao "
 "calcular a **transparência dos pixels** do resultado."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:121
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:116
 #, fuzzy
 #| msgid ""
 #| "Instead, the Opacity parameter influences how the result **pixel color** "
@@ -412,7 +380,7 @@ msgstr ""
 "imagem inferior (B), enquanto que 1,0 mostra apenas a cor do pixel da imagem "
 "superior (A). O valor 0,5 será uma mistura de metade das duas cores."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:123
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:118
 #, fuzzy
 #| msgid ""
 #| "To sum up: in case of the **Affine** transition, **the Opacity parameter "
@@ -427,13 +395,13 @@ msgstr ""
 "simplesmente a mistura de cores** entre os pixels da imagem superior (B) e a "
 "inferior (A)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:126
 #, fuzzy
 #| msgid "Next, let’s look at the other transitions: **Composite** & Co."
 msgid "Next, let's look at the other transitions: **Composite** & Co."
 msgstr "De seguida, iremos ver as outras transições: **Composição** & Co."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:128
 #, fuzzy
 #| msgid ""
 #| "As for the color blending, the same procedure applies that we’ve just "
@@ -448,7 +416,7 @@ msgstr ""
 "que vimos com a transição Afim: o parâmetro Opacidade controla quanto da cor "
 "do pixel da imagem superior (B) contribui para a mistura."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:136
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:130
 #, fuzzy
 #| msgid ""
 #| "But when we look at how the transparency of the resulting pixel gets "
@@ -472,7 +440,7 @@ msgstr ""
 "leva isto mais adiante: também reduz a escala da transparência da imagem "
 "superior (B). Veja por favor também a ilustração."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:138
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
 #, fuzzy
 #| msgid ""
 #| "In consequence, the Opacity parameter thus controls how much opacity of "
@@ -487,7 +455,7 @@ msgstr ""
 "do pixel da imagem superior (B) é aplicado de todo. Desta forma poderá fazer "
 "aparecer ou desaparecer a imagem superior."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:140
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
 #, fuzzy
 #| msgid ""
 #| "To sum up: in case of the **Composite** (&Co) transitions, **the Opacity "
@@ -503,11 +471,11 @@ msgstr ""
 "imagem superior (B) e inferior (A), **assim como a transparência da imagem "
 "superior (B)**."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:147
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:141
 msgid "Notes"
 msgstr ""
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:155
 #, fuzzy
 #| msgid ""
 #| "Wikipedia article on `alpha compositing <https://en.wikipedia.org/wiki/"
@@ -521,11 +489,11 @@ msgstr ""
 "wiki/Alpha_compositing>`_, com uma referência ao artigo original de Porter "
 "Duff SIGGRAPH’84 sobre a «Composição de Imagens Digitais»."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid "**Further Reading**"
 msgstr ""
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 #, fuzzy
 #| msgid ""
 #| "the SVG Open 2015 paper by Craig Northway on `understanding compositing "
@@ -543,16 +511,36 @@ msgstr ""
 "operador de Porter Duff no capítulo 6 com a coluna do cálculo do alfa "
 "resultante."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:166
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:160
 msgid ""
 "The original text was submitted by user *TheDiveO* to the now defunct "
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:167
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
 msgid "**Sources**"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Affine: Atop Compositing"
+#~ msgid "Alpha-Compositing-1"
+#~ msgstr "Afim: Composição 'Atop'"
+
+#, fuzzy
+#~| msgid "Affine: Atop Compositing"
+#~ msgid "Alpha-Compositing-2"
+#~ msgstr "Afim: Composição 'Atop'"
+
+#, fuzzy
+#~| msgid "Affine: Atop Compositing"
+#~ msgid "Alpha-Compositing-3"
+#~ msgstr "Afim: Composição 'Atop'"
+
+#, fuzzy
+#~| msgid "Affine: Atop Compositing"
+#~ msgid "Alpha-Compositing-4"
+#~ msgstr "Afim: Composição 'Atop'"
 
 #~ msgid "Useful References"
 #~ msgstr "Referências Úteis"

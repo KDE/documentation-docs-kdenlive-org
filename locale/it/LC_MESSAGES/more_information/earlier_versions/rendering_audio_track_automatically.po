@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2025-08-05 21:36+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -32,30 +32,6 @@ msgid ""
 msgstr ""
 "KDE, Kdenlive, documentazione, manuale utente, editor video, open source, "
 "libero, aiuto, imparare, facile, esportazione automatica traccia audio"
-
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:-1
-msgid "kdenlive2108_rendering-audio_automatic"
-msgstr "kdenlive2108_rendering-audio_automatic"
-
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:-1
-msgid "kdenlive2108_rendering-audio_checked"
-msgstr "kdenlive2108_rendering-audio_checked"
-
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:-1
-msgid "kdenlive2108_rendering-audio_unchecked"
-msgstr "kdenlive2108_rendering-audio_unchecked"
-
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:-1
-msgid "Kdenlive_Video_with_no_audio"
-msgstr "Kdenlive_Video_with_no_audio"
-
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:-1
-msgid "Kdenlive_Render_export_audio_auto_vs_just_checked2"
-msgstr "Kdenlive_Render_export_audio_auto_vs_just_checked2"
-
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:-1
-msgid "Kdenlive_Video_plus_Audio_in_seperate_tracks"
-msgstr "Kdenlive_Video_plus_Audio_in_seperate_tracks"
 
 #: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:30
 msgid ""
@@ -105,7 +81,7 @@ msgstr ""
 msgid "So what do the three options mean?"
 msgstr "Quindi, cosa significano queste tre opzioni?"
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:47
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:46
 msgid ""
 "*Export audio (automatic)* means detect if an audio track is present and "
 "write the audio track if found"
@@ -113,7 +89,7 @@ msgstr ""
 "*Esporta l'audio (automatico)* significa rilevare se è presente una traccia "
 "audio e scriverla, se c'è"
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:55
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:53
 msgid ""
 "*Export audio*, when checked, means write an audio track in the rendered "
 "file even if there is no audio track to write."
@@ -121,7 +97,7 @@ msgstr ""
 "*Esporta l'audio*, quando spuntata, significa scrivere una traccia audio nel "
 "file esportato anche se non c'è una traccia audio da scrivere."
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:63
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:60
 msgid ""
 "*Export audio*, when unchecked, means do not write an audio track in the "
 "rendered file."
@@ -129,7 +105,7 @@ msgstr ""
 "*Esporta l'audio*, se non è spuntata, significa non scrivere una traccia "
 "audio nel file esportato."
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:67
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:64
 msgid ""
 "The difference in behavior between enabling *Export audio* versus *Export "
 "audio (automatic)* can be seen in the situation where you have a video on "
@@ -142,7 +118,7 @@ msgstr ""
 "un video ma non una traccia audio, e neanche il video ne ha una. Puoi vedere "
 "un esempio di questa situazione nella schermata qui sotto."
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:72
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:68
 msgid ""
 "In this situation, if you render with *Export audio (automatic)*, the "
 "rendered file will not have an audio track (Result 1 on screenshot below). "
@@ -155,7 +131,7 @@ msgstr ""
 "invece avrà se avevi spuntato *Esporta l'audio*. Questa traccia sarà "
 "tuttavia vuota (risultato 2 nella schermata qui sotto)."
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:77
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:72
 msgid ""
 "FFprobe on file generated from an audio-less track using *Export audio "
 "(automatic)*. Note only one stream – Stream #0.0 – a video stream. "
@@ -167,7 +143,7 @@ msgstr ""
 "**Kdenlive** rileva automaticamente che non c'è nessuna traccia audio, "
 "quindi non la scriverà."
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:93
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:88
 msgid ""
 "FFprobe on file generated from an audio-less track using *Export audio* "
 "checked. Note two streams – Stream #0.0 and Stream #0.1 – the latter being "
@@ -179,11 +155,11 @@ msgstr ""
 "una traccia audio aac. Abbiamo costretto **Kdenlive** a scrivere una traccia "
 "audio, anche se non c'era nessuna sorgente audio da scrivere."
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:111
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:106
 msgid "In cases where there is an audio track ..."
 msgstr "Nei casi in cui c'è una traccia audio..."
 
-#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:117
+#: ../../more_information/earlier_versions/rendering_audio_track_automatically.rst:111
 msgid ""
 "Rendering with :guilabel:`Export audio` unchecked will produce a file with "
 "no audio track – result 4 in the screenshot above. Rendering with :guilabel:"
@@ -195,3 +171,21 @@ msgstr ""
 "sotto. Invece, l'esportazione con l'opzione :guilabel:`Esporta l'audio "
 "(automatico)` (il risultato 3 nella schermata qui sotto), oppure con "
 "*Esporta l'audio* spuntate produrrà dei file con delle tracce audio."
+
+#~ msgid "kdenlive2108_rendering-audio_automatic"
+#~ msgstr "kdenlive2108_rendering-audio_automatic"
+
+#~ msgid "kdenlive2108_rendering-audio_checked"
+#~ msgstr "kdenlive2108_rendering-audio_checked"
+
+#~ msgid "kdenlive2108_rendering-audio_unchecked"
+#~ msgstr "kdenlive2108_rendering-audio_unchecked"
+
+#~ msgid "Kdenlive_Video_with_no_audio"
+#~ msgstr "Kdenlive_Video_with_no_audio"
+
+#~ msgid "Kdenlive_Render_export_audio_auto_vs_just_checked2"
+#~ msgstr "Kdenlive_Render_export_audio_auto_vs_just_checked2"
+
+#~ msgid "Kdenlive_Video_plus_Audio_in_seperate_tracks"
+#~ msgstr "Kdenlive_Video_plus_Audio_in_seperate_tracks"

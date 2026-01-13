@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2025-08-03 16:20+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -42,14 +42,6 @@ msgstr ""
 "ffmpeg, prekodiranje, bt.601, dokumentacija, uporabniški priročnik, montažni "
 "program, program za videomontažo, urejevalnik videa, odprta koda, "
 "brezplačno, učenje, enostavno"
-
-#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
-msgid "transcoding_color_change.webp"
-msgstr "transcoding_color_change.webp"
-
-#: ../../tips_and_tricks/useful_info/color_hell.rst:-1
-msgid "transcoding_comparison.webp"
-msgstr "transcoding_comparison.webp"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:38
 msgid "Color Hell: Ffmpeg Transcoding and Preserving BT.601"
@@ -149,7 +141,7 @@ msgstr ""
 msgid "Easy Transcoding: Color Me Bad"
 msgstr "Enostavno prekodiranje: obarvaj me čudno"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:72
+#: ../../tips_and_tricks/useful_info/color_hell.rst:71
 msgid ""
 "Unfortunately, the resulting video now shows shifted colors! It might not be "
 "too obvious in the first place, but it can be quite prominent when you work "
@@ -162,7 +154,7 @@ msgstr ""
 "jasno vidno za občinstvo v primeru, da boste mešali ta posnetek z nadalje "
 "predelanimi različicami, kot so izvlečene sličice za fotografije."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:74
+#: ../../tips_and_tricks/useful_info/color_hell.rst:73
 msgid ""
 "A closer inspection either using Kdenlive's built-in clip properties pane or "
 "|ffprobe| reveals that the *transcoded file* **lacks the BT.601 color "
@@ -175,19 +167,15 @@ msgstr ""
 "*preoblikoval barv* in je preprosto izpustil pravilne informacije o barvnem "
 "profilu!"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:79
+#: ../../tips_and_tricks/useful_info/color_hell.rst:78
 msgid "Makeshift Measures"
 msgstr "Improvizirani ukrepi"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:86
-msgid "kdenlive2308_clip_properties_color_space.webp"
-msgstr "kdenlive2308_clip_properties_color_space.webp"
-
-#: ../../tips_and_tricks/useful_info/color_hell.rst:86
+#: ../../tips_and_tricks/useful_info/color_hell.rst:84
 msgid "Clip Properties color space override"
 msgstr "Preglasitev barvnega prostora v lastnostih posnetka"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:88
+#: ../../tips_and_tricks/useful_info/color_hell.rst:86
 msgid ""
 "Of course, there is always Kdenlive's ability to overwrite source clip "
 "properties using the built-in clip properties :term:`widget`."
@@ -195,7 +183,7 @@ msgstr ""
 "Seveda imate s Kdenlive vedno možnost, da prepišete lastnosti izvornega "
 "posnetka ob uporabi vgrajenega :term:`gradnika<widget>`lastnosti posnetka."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:90
+#: ../../tips_and_tricks/useful_info/color_hell.rst:88
 msgid ""
 "Simply select the transcoded video clip in the project bin. Then go to clip "
 "properties and select its “Force Properties” tab |document-edit|. Check :"
@@ -207,7 +195,7 @@ msgstr ""
 "edit|. Potrdite :guilabel:`Barvni prostor` in nato izberite **ITU-R 601**. "
 "Kdenlive zdaj uporabi pravilen barvni profil."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:94
+#: ../../tips_and_tricks/useful_info/color_hell.rst:92
 msgid ""
 "While very easy, this method has its limitations: It is fine while you keep "
 "working solely inside the Kdenlive editor and its MLT renderer. But as soon "
@@ -224,18 +212,18 @@ msgstr ""
 "dobiti pravilne informacije o barvnem profilu ravno v samo prekodirano video "
 "datoteko."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:97
+#: ../../tips_and_tricks/useful_info/color_hell.rst:95
 msgid "Preserving BT.601 in Transcoding"
 msgstr "Ohranjanje BT.601 pri prekodiranju"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:99
+#: ../../tips_and_tricks/useful_info/color_hell.rst:97
 msgid ""
 "To make this matter worse, the seemingly obvious color profile transformation"
 msgstr ""
 "Da bi bila ta zadeva še hujša, na prvi pogled očitna transformacija barvnega "
 "profila"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:105
+#: ../../tips_and_tricks/useful_info/color_hell.rst:103
 msgid ""
 "simply does not work: |ffmpeg| complains about not being able to transform "
 "between the same input and output color profile."
@@ -243,7 +231,7 @@ msgstr ""
 "preprosto ne deluje: |ffmpeg| se pritožuje, da ne bo preoblikoval med istim "
 "vhodnim in izhodnim barvnim profilom."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:107
+#: ../../tips_and_tricks/useful_info/color_hell.rst:105
 msgid ""
 "The missing puzzle piece can be found on Stack Exchange's Video Production "
 "Q&A site in a post from 2015 asking \"|explicitly_tag|\"."
@@ -252,7 +240,7 @@ msgstr ""
 "Exchange Video Production Q&A v objavi iz leta 2015 z vprašanjem »|"
 "explicitly_tag|«."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:109
+#: ../../tips_and_tricks/useful_info/color_hell.rst:107
 msgid ""
 "There is a catch to watch out for: BT.601 comes in :abbr:`PAL (Phase "
 "Alternating Line - a colour encoding system for analogue television)` and :"
@@ -276,11 +264,11 @@ msgstr ""
 "vaš posnetek na zaslonu sploh nima standardne ločljivosti (SD), vendar je to "
 "pomembno, ko gre za kodiranje barv."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:112
+#: ../../tips_and_tricks/useful_info/color_hell.rst:110
 msgid "PAL and NTSC DNA"
 msgstr "DNK PAL in NTSC"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:114
+#: ../../tips_and_tricks/useful_info/color_hell.rst:112
 msgid ""
 "So how do we find out if a given video recording file, say ``raw.mp4``, uses "
 "the PAL or NTSC color space? Of course, |ffprobe| comes to our rescue. But "
@@ -296,11 +284,11 @@ msgstr ""
 "abbr:`grep (Unixov pripomoček ukazne vrstice za iskanje vrstic, ki ustrezajo "
 "regularnemu izrazu, v podatkovnih nizih navadnega besedila)`:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:120
+#: ../../tips_and_tricks/useful_info/color_hell.rst:118
 msgid "This should give you something along these lines:"
 msgstr "To bi ti moralo vrniti nekaj v tej smeri:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:129
+#: ../../tips_and_tricks/useful_info/color_hell.rst:127
 msgid ""
 "The line ``color_space=...`` tells us whether we are dealing with PAL "
 "(bt470bg) or NTSC (smpte170m)."
@@ -308,11 +296,11 @@ msgstr ""
 "Vrstica ``color_space=…`` nam pove, ali gre za PAL (bt470bg) ali NTSC "
 "(smpte170m)."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:132
+#: ../../tips_and_tricks/useful_info/color_hell.rst:130
 msgid "PAL"
 msgstr "PAL"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:134
+#: ../../tips_and_tricks/useful_info/color_hell.rst:132
 msgid ""
 "If it is **PAL chromaticities** (``color_space=bt470bg``), we then need to "
 "transcode as follows:"
@@ -320,11 +308,11 @@ msgstr ""
 "Za **barve PAL** (``color_space=bt470bg``) moramo prekodirati na naslednji "
 "način:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:143
+#: ../../tips_and_tricks/useful_info/color_hell.rst:141
 msgid "NTSC"
 msgstr "NTSC"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:145
+#: ../../tips_and_tricks/useful_info/color_hell.rst:143
 msgid ""
 "For **NTSC chromaticities** (``color_space=smpte170m``), we will need a "
 "different set of primaries, transfer curve, and colorspace:"
@@ -332,7 +320,7 @@ msgstr ""
 "Za **barve NTSC** (``color_space==smpte170m``) bomo potrebovali drugačen "
 "nabor primarnih barv, krivuljo prenosa in barvni prostor:"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:158
+#: ../../tips_and_tricks/useful_info/color_hell.rst:155
 msgid ""
 "In any case, Kdenlive/MLT now correctly see the transcoded video using the "
 "BT.601 color profile. In addition, other media tools correctly detect the "
@@ -344,15 +332,15 @@ msgstr ""
 "pravilno zaznajo barvni profil – razen če so okvarjena ali pa sploh ne "
 "razumejo BT.601."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:163
+#: ../../tips_and_tricks/useful_info/color_hell.rst:160
 msgid "Notes"
 msgstr "Opombe"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:177
+#: ../../tips_and_tricks/useful_info/color_hell.rst:174
 msgid "**Sources**"
 msgstr "**Viri**"
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:177
+#: ../../tips_and_tricks/useful_info/color_hell.rst:174
 msgid ""
 "The original text was submitted by user *TheDiveO* to the now defunct "
 "kdenlive.org blog. For this documentation it has been lifted from |"
@@ -362,10 +350,19 @@ msgstr ""
 "kdenlive.org. Za to dokumentacijo je bilo povzeto iz |kdenlive_org| in "
 "prilagojeno, da ustreza splošnemu slogu."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:181
+#: ../../tips_and_tricks/useful_info/color_hell.rst:178
 msgid "For more details see the Wikipedia article about |bt601|"
 msgstr "Za več informacij glejte članek v Wikipediji o |bt601|."
 
-#: ../../tips_and_tricks/useful_info/color_hell.rst:182
+#: ../../tips_and_tricks/useful_info/color_hell.rst:179
 msgid "For more details see the Wikipedia article about |bt709|"
 msgstr "Za več informacij glejte članek v Wikipediji o |bt709|."
+
+#~ msgid "transcoding_color_change.webp"
+#~ msgstr "transcoding_color_change.webp"
+
+#~ msgid "transcoding_comparison.webp"
+#~ msgstr "transcoding_comparison.webp"
+
+#~ msgid "kdenlive2308_clip_properties_color_space.webp"
+#~ msgstr "kdenlive2308_clip_properties_color_space.webp"

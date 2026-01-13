@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2024-08-21 17:24+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -31,30 +31,6 @@ msgstr ""
 "KDE, Kdenlive, підказки, трюки, підказки і настанови, корисні відомості, "
 "композиція, прозорість, документація, підручник, відеоредактор, відео, "
 "відкритий код, вільний, вивчення, вивчити, просто"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "affine-transition-atop"
-msgstr "affine-transition-atop"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-1"
-msgstr "Alpha-Compositing-1"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "composite-transition-over"
-msgstr "composite-transition-over"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-2"
-msgstr "Alpha-Compositing-2"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-3"
-msgstr "Alpha-Compositing-3"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-4"
-msgstr "Alpha-Compositing-4"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:23
 msgid "Compositing with Transparency"
@@ -116,7 +92,7 @@ msgstr ""
 msgid "Affine: Atop Compositing"
 msgstr "Афінне перетворення: композиція «згори»"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:48
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:47
 msgid ""
 "The result of the **atop** compositing is best explained at first by showing "
 "its outcome: Text from the topmost title clip (partly) vanishes in those "
@@ -126,7 +102,7 @@ msgstr ""
 "текст із найвищого кліпу титрів (частково) зникає на тих ділянках, де кліп-"
 "підкладка на середній доріжці є (напів) прозорим."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:50
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:49
 msgid ""
 "The checkerboard clip on the bottom track just serves for illustrational "
 "purposes, so we can better see the transparent regions."
@@ -134,7 +110,7 @@ msgstr ""
 "Кліп-шахівниця на нижній доріжці є лише ілюстративним, щоб краще бачити "
 "прозорі ділянки."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:52
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:51
 msgid ""
 "Please notice how the two **Affine** transitions are chained: first, the "
 "upper Affine composites the title clip onto the gradient background. Then, "
@@ -144,7 +120,7 @@ msgstr ""
 "верхній афінний перехід поєднує кліп титрів із градієнтним тлом. Далі, "
 "нижній афінний перехід накладає результат на тло-шахівницю."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:59
 msgid ""
 "But how does the **Affine** transition exactly handle transparency? Let's "
 "look at this hand-made illustration, where we have two pixels with some "
@@ -156,7 +132,7 @@ msgstr ""
 "непрозорості для кожного (значення α αA і αB). Важливо **не** плутати "
 "непрозорість пікселів із параметром непрозорості самих переходів."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
 msgid ""
 "Our red pixel comes from the upper track frame (B), whereas the green pixel "
 "stems from the lower track frame (A). An alpha of 0 means a completely "
@@ -168,7 +144,7 @@ msgstr ""
 "повністю прозорий піксель, а значення α = 1.0 (або 255) — повністю "
 "непрозорий піксель."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
 msgid ""
 "The **Affine** transition now simply ignores the transparency information "
 "from the upper frame pixel (the red one)."
@@ -176,7 +152,7 @@ msgstr ""
 "Тепер, **Афінний** перехід просто ігнорує дані прозорості з пікселя "
 "верхнього кадру (червоного)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
 msgid ""
 "It solely uses the transparency information (green) contained in the lower "
 "track frames! Or more mathematical: α = αA"
@@ -184,7 +160,7 @@ msgstr ""
 "Використано лише дані прозорості (зеленого кольору), які містяться у кадрах "
 "нижчої доріжки! Якщо визначати усе мовою математичних формул, α = αA"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:69
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
 msgid ""
 "And that is the explanation why in our example above the title text vanishes "
 "in those regions where the middle clip is transparent."
@@ -192,11 +168,11 @@ msgstr ""
 "І це є поясненням того, чому у нашому прикладі вище текст титрів зникав на "
 "тих ділянках, де середній кліп був прозорим."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:75
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:73
 msgid "Composite & Co: Over Compositing"
 msgstr "Композиція і Co: накладальна композиція"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:84
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:81
 msgid ""
 "Again, we basically use the same setup as before, but this time we use "
 "**Composite & Transform** in place of **Affine** transitions. We chain the "
@@ -209,7 +185,7 @@ msgstr ""
 "переходів, як і раніше, тому нижній перехід працюватиме з результатом "
 "верхнього переходу."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:86
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:83
 msgid ""
 "But look: The outcome is different! The result of the **over** operator is "
 "probably more to the expectations of most users. Now, the top title clip "
@@ -219,7 +195,7 @@ msgstr ""
 "ймовірно, більше відповідає очікуванням більшості користувачів. Тепер, "
 "верхній кліп титрів (*вибачте*) більше не обрізається."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:91
 msgid ""
 "As the **over** operation produces results more to the expectations of many "
 "users, how does it handle transparency exactly?"
@@ -227,7 +203,7 @@ msgstr ""
 "Оскільки дія **over** дає результат, який більше відповідає очікуванням "
 "багатьох користувачів, як саме виконується у ньому обробка прозорості?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:93
 msgid ""
 "**Simply spoken:** if you paint some semi-transparent pixel over another "
 "semi-transparent pixel, then **the result will be less transparent**. It "
@@ -239,7 +215,7 @@ msgstr ""
 "Він буде навіть менш прозорим за піксель нижнього кадру. Це те, чого ви, "
 "ймовірно, очікуєте від малювання напівнепрозорою фарбою."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
 msgid ""
 "Calculating the resulting transparency for two given pixels from an upper "
 "frame (B) and a lower frame (A) is thus more involved this time."
@@ -248,7 +224,7 @@ msgstr ""
 "верхнього кадру (B) і нижнього кадру (A) більше враховує значення прозорості "
 "цих пікселів."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:101
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
 msgid ""
 "Again, we start with the transparency of the lower frame pixel (green) as a "
 "base. But this time, we cannot ignore the transparency of the (red) upper "
@@ -260,7 +236,7 @@ msgstr ""
 "пікселя верхнього кадру. Але просте додавання прозоростей обох пікселів не "
 "дасть притомних результатів — що означала б прозорість у 2.0 або 511?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:103
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
 msgid ""
 "So the red pixel transparency is **scaled** - you may think of shrinking the "
 "original 0-1.0 scale into the available space above the green transparency "
@@ -274,11 +250,11 @@ msgstr ""
 "зеленої основи плюс масштабоване значення α червоного пікселя. Пам'ятайте, "
 "ми начебто малюємо над нижнім кадром. Формальна формула: α = αA + αB (1-αA)"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:108
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:104
 msgid "Transition Parameter Opacity"
 msgstr "Параметр непрозорості переходу"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:110
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:106
 msgid ""
 "The dynamic compositing transitions also feature a parameter called "
 "**Opacity**. It is easy to confuse it with pixel transparency, but it is "
@@ -290,7 +266,7 @@ msgstr ""
 "це дещо інше. Параметр непрозорості застосовується лише до верхніх кадрів "
 "(B). Це тип головного керування… але як він працює?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:119
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:114
 msgid ""
 "Let's start with the **Affine** transition, again. Above, we have seen that "
 "Affine ignores the transparency of the (red) upper frame pixels. And Affine "
@@ -302,7 +278,7 @@ msgstr ""
 "І афінний перехід також **ігнорує** параметр **Непрозорість** при обчислення "
 "**прозорості пікселів** результату."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:121
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:116
 msgid ""
 "Instead, the opacity parameter influences how the result **pixel color** "
 "gets calculated: this is a linear interpolation between the color of the "
@@ -318,7 +294,7 @@ msgstr ""
 "кадру (B), рівень 1.0 — колір пікселя верхнього кадру (A). 0.5 — значення "
 "посередині між кольорами двох пікселів."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:123
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:118
 msgid ""
 "To sum up: in case of the **Affine** transition, **the opacity parameter "
 "solely affects color blending** between upper frame (B) and lower frame (A) "
@@ -328,11 +304,11 @@ msgstr ""
 "впливає лише на змішування кольорів** між пікселями верхнього кадру (B) і "
 "нижнього кадру (A)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:126
 msgid "Next, let's look at the other transitions: **Composite** & Co."
 msgstr "Далі, погляньмо на інші переходи: **Композиція** і Co."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:128
 msgid ""
 "As for the color blending, the same procedure applies that we have just seen "
 "with the Affine transition: the opacity parameter controls how much upper "
@@ -342,7 +318,7 @@ msgstr ""
 "раніше для афінного переходу: параметр «Непрозорість» керує тим, яку частку "
 "кольору пікселя верхнього кадру (B) буде використано при змішуванні."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:136
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:130
 msgid ""
 "But when we look at how the transparency of the resulting pixel gets "
 "calculated, things are starting to look different. We have seen that the "
@@ -358,7 +334,7 @@ msgstr ""
 "ширшого спектра значень: при обчисленнях масштабується і рівень непрозорості "
 "пікселя верхнього кадру (B). Будь ласка, ознайомтеся із ілюстрацією."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:138
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
 msgid ""
 "In consequence, the opacity parameter thus controls how much opacity of an "
 "upper frame (B) pixel is applied at all. This way, you can fade in or out "
@@ -368,7 +344,7 @@ msgstr ""
 "верхнього кадру (B) буде взагалі застосовано. За його допомогою ви можете "
 "підсилити або притлумити верхній кадр."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:140
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
 msgid ""
 "To sum up: in case of the **Composite** (& Co) transitions, **the opacity "
 "parameter affects both color blending** of upper frame (B) and lower frame "
@@ -378,11 +354,11 @@ msgstr ""
 "впливає як на змішування кольорів** пікселів верхнього кадру (B) і нижнього "
 "кадру (A), **так і на рівень прозорості верхнього кадру (B)**."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:147
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:141
 msgid "Notes"
 msgstr "Нотатки"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:155
 msgid ""
 "Wikipedia article on |alpha_compositing|, with a reference to the original "
 "Porter Duff SIGGRAPH’84 paper on «Compositing Digital Images»."
@@ -390,11 +366,11 @@ msgstr ""
 "Стаття у Вікіпедії щодо |alpha_compositing| із посиланням на початкову "
 "статтю Портера Даффа у SIGGRAPH’84 — «Compositing Digital Images»."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid "**Further Reading**"
 msgstr "**Інформація для подальшого ознайомлення**"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid ""
 "The |svg_open_paper| by Craig Northway on \"Understanding Compositing and "
 "Color extensions in SVG 1.2 in 30 minutes!\" - especially the Porter Duff "
@@ -404,7 +380,7 @@ msgstr ""
 "розширень кольорів у SVG 1.2 за 30 хвилин!» — особливо таблиця операторів "
 "Портера Даффа у главі 6 із стовпчиком результатів обчислення прозорості."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:166
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:160
 msgid ""
 "The original text was submitted by user *TheDiveO* to the now defunct "
 "kdenlive.org blog. For this documentation it has been lifted from |"
@@ -414,9 +390,27 @@ msgstr ""
 "kdenlive.org. Для цієї документації його було запозичено з |kdenlive_org|, "
 "оновлено і адаптовано до загального стилю."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:167
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
 msgid "**Sources**"
 msgstr "**Джерела**"
+
+#~ msgid "affine-transition-atop"
+#~ msgstr "affine-transition-atop"
+
+#~ msgid "Alpha-Compositing-1"
+#~ msgstr "Alpha-Compositing-1"
+
+#~ msgid "composite-transition-over"
+#~ msgstr "composite-transition-over"
+
+#~ msgid "Alpha-Compositing-2"
+#~ msgstr "Alpha-Compositing-2"
+
+#~ msgid "Alpha-Compositing-3"
+#~ msgstr "Alpha-Compositing-3"
+
+#~ msgid "Alpha-Compositing-4"
+#~ msgstr "Alpha-Compositing-4"
 
 #~ msgid "add-subtitle"
 #~ msgstr "add-subtitle"

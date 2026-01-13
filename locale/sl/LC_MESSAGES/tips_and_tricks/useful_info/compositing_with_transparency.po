@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 08:55+0000\n"
+"POT-Creation-Date: 2026-01-12 02:19+0000\n"
 "PO-Revision-Date: 2025-08-03 16:12+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -35,30 +35,6 @@ msgstr ""
 "sestavljanje, prosojnost, dokumentacija, uporabniški priročnik, montažni "
 "program, program za videomontažo, urejevalnik videa, odprta koda, "
 "brezplačno, učenje, enostavno"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "affine-transition-atop"
-msgstr "affine-transition-atop"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-1"
-msgstr "Alpha-Compositing-1"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "composite-transition-over"
-msgstr "composite-transition-over"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-2"
-msgstr "Alpha-Compositing-2"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-3"
-msgstr "Alpha-Compositing-3"
-
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
-msgid "Alpha-Compositing-4"
-msgstr "Alpha-Compositing-4"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:23
 msgid "Compositing with Transparency"
@@ -120,7 +96,7 @@ msgstr ""
 msgid "Affine: Atop Compositing"
 msgstr "Afino: skladanje na vrhu"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:48
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:47
 msgid ""
 "The result of the **atop** compositing is best explained at first by showing "
 "its outcome: Text from the topmost title clip (partly) vanishes in those "
@@ -130,7 +106,7 @@ msgstr ""
 "njenega izida: besedilo iz najvišjega posnetka napisa (delno) izgine v "
 "tistih področjih, kjer je podležni posnetek na srednji stezi (pol)prosojen."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:50
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:49
 msgid ""
 "The checkerboard clip on the bottom track just serves for illustrational "
 "purposes, so we can better see the transparent regions."
@@ -138,7 +114,7 @@ msgstr ""
 "Posnetek s šahovnico na spodnji stezi služi le za namene ilustracije, da "
 "lahko bolje vidimo prosojna območja."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:52
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:51
 msgid ""
 "Please notice how the two **Affine** transitions are chained: first, the "
 "upper Affine composites the title clip onto the gradient background. Then, "
@@ -148,7 +124,7 @@ msgstr ""
 "zgornji afini sestavi posnetek napisa na ozadje preliva. Nato spodnji afini "
 "sestavi rezultat na ozadje šahovnice."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:59
 msgid ""
 "But how does the **Affine** transition exactly handle transparency? Let's "
 "look at this hand-made illustration, where we have two pixels with some "
@@ -160,7 +136,7 @@ msgstr ""
 "prosojnosti (alfa-vrednosti, αA in αB). Pomembno je, da **ne** zamešamo "
 "prosojnosti slikovnih točk s parametrom prekrivnosti prehodov."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
 msgid ""
 "Our red pixel comes from the upper track frame (B), whereas the green pixel "
 "stems from the lower track frame (A). An alpha of 0 means a completely "
@@ -172,7 +148,7 @@ msgstr ""
 "prosojno slikovno točko, alfa 1,0 (ali 255) pa popolnoma prekrivno slikovno "
 "točko."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
 msgid ""
 "The **Affine** transition now simply ignores the transparency information "
 "from the upper frame pixel (the red one)."
@@ -180,7 +156,7 @@ msgstr ""
 "**Afini** prehod zdaj preprosto prezre informacije o prosojnosti iz slikovne "
 "točke zgornje sličice (rdeče)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
 msgid ""
 "It solely uses the transparency information (green) contained in the lower "
 "track frames! Or more mathematical: α = αA"
@@ -188,7 +164,7 @@ msgstr ""
 "Uporablja samo informacije o prosojnosti (zeleno), vsebovano v sličicah "
 "spodnjih stez! Ali bolj matematično: α = αA"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:69
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
 msgid ""
 "And that is the explanation why in our example above the title text vanishes "
 "in those regions where the middle clip is transparent."
@@ -196,11 +172,11 @@ msgstr ""
 "In to je razlaga, zakaj v našem primeru nad besedilo napisa izgine na tistih "
 "območjih, kjer je srednji posnetek prosojen."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:75
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:73
 msgid "Composite & Co: Over Compositing"
 msgstr "Sestavljeno in sorodniki: o sestavljanju"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:84
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:81
 msgid ""
 "Again, we basically use the same setup as before, but this time we use "
 "**Composite & Transform** in place of **Affine** transitions. We chain the "
@@ -211,7 +187,7 @@ msgstr ""
 "**Sestavljeno in preoblikuj** namesto **affinih** prehodov. Prehode verižimo "
 "kot prej, tako da bo nižji prehod deloval na izidu zgornjega prehoda."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:86
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:83
 msgid ""
 "But look: The outcome is different! The result of the **over** operator is "
 "probably more to the expectations of most users. Now, the top title clip "
@@ -221,7 +197,7 @@ msgstr ""
 "bolj pričakovan za večino uporabnikov. Zgornji posnetek naslova (*žal*) ni "
 "več porezan."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:91
 msgid ""
 "As the **over** operation produces results more to the expectations of many "
 "users, how does it handle transparency exactly?"
@@ -229,7 +205,7 @@ msgstr ""
 "Ker operacija **preko** bolj izkaže pričakovanja številnih uporabnikov, kako "
 "natančno ravna s prosojnostjo?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:93
 msgid ""
 "**Simply spoken:** if you paint some semi-transparent pixel over another "
 "semi-transparent pixel, then **the result will be less transparent**. It "
@@ -241,7 +217,7 @@ msgstr ""
 "manj prosojno bo od slikovne točke prosojnosti spodnje sličice. To bi "
 "verjetno pričakovali od slikanja s polprekrivno barvo."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
 msgid ""
 "Calculating the resulting transparency for two given pixels from an upper "
 "frame (B) and a lower frame (A) is thus more involved this time."
@@ -249,7 +225,7 @@ msgstr ""
 "Tako je tokrat izračun posledične prosojnosti za dani slikovni točki iz "
 "zgornje sličice (B) in spodnje sličice (A) bolj zapleten."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:101
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
 msgid ""
 "Again, we start with the transparency of the lower frame pixel (green) as a "
 "base. But this time, we cannot ignore the transparency of the (red) upper "
@@ -261,7 +237,7 @@ msgstr ""
 "zgornje sličice. Toda preprosto seštevanje obeh prosojnosti ne bi prineslo "
 "smiselnih rezultatov; kaj pomeni prosojnost 2,0 ali 511?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:103
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
 msgid ""
 "So the red pixel transparency is **scaled** - you may think of shrinking the "
 "original 0-1.0 scale into the available space above the green transparency "
@@ -275,11 +251,11 @@ msgstr ""
 "vrednosti zelene plus preskalirana alfa-vrednost rdeče. Pomnite, nekako "
 "prebarvamo spodnjo sličico. Za formularno-afino: α = αA + αB (1-αA)"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:108
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:104
 msgid "Transition Parameter Opacity"
 msgstr "Parameter prekrivnosti prehoda"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:110
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:106
 msgid ""
 "The dynamic compositing transitions also feature a parameter called "
 "**Opacity**. It is easy to confuse it with pixel transparency, but it is "
@@ -291,7 +267,7 @@ msgstr ""
 "drugega. Parameter prekrivnost velja samo za zgornje sličice (B). To je kot "
 "nekakšen glavni nadzor, vendar kako deluje?"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:119
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:114
 msgid ""
 "Let's start with the **Affine** transition, again. Above, we have seen that "
 "Affine ignores the transparency of the (red) upper frame pixels. And Affine "
@@ -303,7 +279,7 @@ msgstr ""
 "parameter **prekrivnosti** pri izračunu rezultatov **prosojnosti slikovnih "
 "točk**."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:121
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:116
 msgid ""
 "Instead, the opacity parameter influences how the result **pixel color** "
 "gets calculated: this is a linear interpolation between the color of the "
@@ -320,7 +296,7 @@ msgstr ""
 "točke zgornje sličice (A). 0,5 bi bil na polovici med barvama obeh slikovnih "
 "točk."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:123
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:118
 msgid ""
 "To sum up: in case of the **Affine** transition, **the opacity parameter "
 "solely affects color blending** between upper frame (B) and lower frame (A) "
@@ -330,11 +306,11 @@ msgstr ""
 "samo na barvno mešanje** med slikovnimi točkami zgornje sličice (B) in "
 "spodnje sličice (A)."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:126
 msgid "Next, let's look at the other transitions: **Composite** & Co."
 msgstr "Nato si poglejmo še druge prehode: **Sestavljeno** in prijatelji."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:128
 msgid ""
 "As for the color blending, the same procedure applies that we have just seen "
 "with the Affine transition: the opacity parameter controls how much upper "
@@ -344,7 +320,7 @@ msgstr ""
 "afinim prehodom: parameter prekrivnosti nadzoruje, koliko barve slikovne "
 "točke zgornje sličice (B) pride v mešanico."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:136
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:130
 msgid ""
 "But when we look at how the transparency of the resulting pixel gets "
 "calculated, things are starting to look different. We have seen that the "
@@ -360,7 +336,7 @@ msgstr ""
 "podkrepi: dodatno zmanjša prosojnost slikovne točke zgornje sličice (B). "
 "Oglejte si tudi ilustracijo."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:138
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
 msgid ""
 "In consequence, the opacity parameter thus controls how much opacity of an "
 "upper frame (B) pixel is applied at all. This way, you can fade in or out "
@@ -370,7 +346,7 @@ msgstr ""
 "slikovne točke zgornje sličice (B) se sploh uveljavi. Na ta način lahko "
 "odtemnite ali zatemnite zgornjo sličico."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:140
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
 msgid ""
 "To sum up: in case of the **Composite** (& Co) transitions, **the opacity "
 "parameter affects both color blending** of upper frame (B) and lower frame "
@@ -380,11 +356,11 @@ msgstr ""
 "prekrivnosti vpliva tako na barvno mešanje** slikovnih točk zgornje sličice "
 "(B) in spodnje sličice (A), **kot tudi na prosojnost zgornje sličice (B)**."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:147
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:141
 msgid "Notes"
 msgstr "Opombe"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:155
 msgid ""
 "Wikipedia article on |alpha_compositing|, with a reference to the original "
 "Porter Duff SIGGRAPH’84 paper on «Compositing Digital Images»."
@@ -393,11 +369,11 @@ msgstr ""
 "na izvirni članek Porterja Duffa s konference SIGGRAPH’84 »Compositing "
 "Digital Images«."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid "**Further Reading**"
 msgstr "**Nadaljnje branje**"
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:163
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid ""
 "The |svg_open_paper| by Craig Northway on \"Understanding Compositing and "
 "Color extensions in SVG 1.2 in 30 minutes!\" - especially the Porter Duff "
@@ -407,7 +383,7 @@ msgstr ""
 "barvnih razširitev v SVG 1.2 v 30 minutah!« - glejte zlasti tabelo Porter "
 "Duffovega operatorja v poglavju 6 s stolpcem za izračun alfa."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:166
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:160
 msgid ""
 "The original text was submitted by user *TheDiveO* to the now defunct "
 "kdenlive.org blog. For this documentation it has been lifted from |"
@@ -417,6 +393,24 @@ msgstr ""
 "kdenlive.org. Za to dokumentacijo je bilo povzeto iz |kdenlive_org|, "
 "posodobljeno in prilagojeno, da ustreza splošnemu slogu."
 
-#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:167
+#: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
 msgid "**Sources**"
 msgstr "**Viri**"
+
+#~ msgid "affine-transition-atop"
+#~ msgstr "affine-transition-atop"
+
+#~ msgid "Alpha-Compositing-1"
+#~ msgstr "Alpha-Compositing-1"
+
+#~ msgid "composite-transition-over"
+#~ msgstr "composite-transition-over"
+
+#~ msgid "Alpha-Compositing-2"
+#~ msgstr "Alpha-Compositing-2"
+
+#~ msgid "Alpha-Compositing-3"
+#~ msgstr "Alpha-Compositing-3"
+
+#~ msgid "Alpha-Compositing-4"
+#~ msgstr "Alpha-Compositing-4"
