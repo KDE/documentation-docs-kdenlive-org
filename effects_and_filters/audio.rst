@@ -45,7 +45,7 @@ The audio mixer has following functions for each channel:
 :7:	Change the balance of the audio channel. You can use the slider or enter values.
 :8:	Adjustment of the volume.   
 
-      Reset value to default by either click with the :kbd:`MMB` [1]_ or :kbd:`RMB` [1]_ on the slider or level.
+      Reset value to default by either clicking with the :kbd:`MMB` [1]_ or :kbd:`RMB` [1]_ on the slider or level.
 :9:   :kbd:`RMB` [1]_ shows the menu where you can adjust the audio level appearance. These settings control the level appearance on clip and project monitor simultaneously.
 :10:  Hovering over the level shows the dB value of each channel
 :11:  Clipping indicator: Once a signal hits 0dB or higher a red dot appears and stays above the 0dB. The indicator resets after a couple of seconds (4-5sec) when the level doesn't hit 0dB anymore.
@@ -109,7 +109,7 @@ While recording you see a live waveform appearing on timeline.
 
 - *Stop record:* press :kbd:`esc` or click the :guilabel:`record` button in the track head. The audio clip get added in the timeline and project bin.
 
-After the recording is finished the audio file get created and stored in the project bin or :doc:`folder you have defined </project_and_asset_management/capturing_audio>`. The "focus" is still on the timeline. You can continue to use keyboard shortcuts to move around the newly inserted recording, like jumping to the end of it or the beginning, or the next clip.
+After the recording is finished the audio file gets created and stored in the project bin or :doc:`folder you have defined </project_and_asset_management/capturing_audio>`. The "focus" is still on the timeline. You can continue to use keyboard shortcuts to move around the newly inserted recording, like jumping to the end of it or the beginning, or the next clip.
 
 
 ----
