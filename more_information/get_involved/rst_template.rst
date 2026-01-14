@@ -4,7 +4,7 @@
 RST template
 ************
 
-This template page can be used for a new document page or as a guide or for reference.
+This template page can be used for a new document page or as a guide or just for reference.
 
 If you are using this template for a new document delete all line until ``.. meta::`` is the top line.  
 
