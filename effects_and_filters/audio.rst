@@ -114,4 +114,4 @@ After the recording is finished the audio file gets created and stored in the pr
 
 ----
 
-.. [1] :kbd:`MMB` = Middle Mouse Button, :kbd:`RMB` = Right Mouse Button
+.. [1] :kbd:`MMB` = Middle Mouse Button (mouse wheel pressed), :kbd:`RMB` = Right Mouse Button
