@@ -783,4 +783,4 @@ See also this YouTube play list from |video_5|
 
 .. [2] Robert Penners equations: http://robertpenner.com/easing/
 
-.. [3] :kbd:`MMB` = Middle Mouse Button, :kbd:`RMB` = Right Mouse Button
+.. [3] :kbd:`MMB` = Middle Mouse Button (mouse wheel pressed), :kbd:`RMB` = Right Mouse Button
