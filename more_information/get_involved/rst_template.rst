@@ -206,7 +206,7 @@ Web page link open in a new window |kde|
 
    <a href="https://www.kde.org" target="_blank">KDE</a>
 
-Web page link open in the same window `KDE store <https://store.kde.org/browse?cat=333&ord=latest>`_
+Web page link open in the same window `KDE store <https://store.kde.org/browse?cat=333&amp;ord=latest>`_
 
 
 * This is a bulleted list.

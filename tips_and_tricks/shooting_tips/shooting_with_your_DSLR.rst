@@ -165,7 +165,7 @@ DSLR Related Links
 
 .. |dslr_guide_1| raw:: html
 
-   <a href="https://webcache.googleusercontent.com/search?q=cache:3CJdJI0nNW4J:https://gadgetwise.blogs.nytimes.com/2010/04/15/tips-on-shooting-video-with-a-d-s-l-r/+&cd=1&hl=de&ct=clnk&gl=ch" target="_blank">Tips on Shooting Video With a D.S.L.R</a>
+   <a href="https://webcache.googleusercontent.com/search?q=cache:3CJdJI0nNW4J:https://gadgetwise.blogs.nytimes.com/2010/04/15/tips-on-shooting-video-with-a-d-s-l-r/+&amp;cd=1&amp;hl=de&amp;ct=clnk&amp;gl=ch" target="_blank">Tips on Shooting Video With a D.S.L.R</a>
 
 .. |dslr_guide_2| raw:: html
 

@@ -69,7 +69,7 @@ What the Scopes Might Help in as Well
 
 .. |this_review| raw:: html
    
-   <a href="https://www.youtube.com/watch?app=desktop&v=ZWXU3mScCzM" target="_blank">this review</a>
+   <a href="https://www.youtube.com/watch?app=desktop&amp;v=ZWXU3mScCzM" target="_blank">this review</a>
 
 Consider |this_review| about the Nikon D7000, and listen at 7:00 and 11:00. At 7:00 you can hear the reviewer loud and clear, at 11:00 you need to turn up the volume to even understand something. This should not happen. The audio scope helps to maintain equal loudness over multiple shots. 
 

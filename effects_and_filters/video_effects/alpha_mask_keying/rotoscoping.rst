@@ -23,7 +23,7 @@
 
 .. |arkengheist| raw:: html
 
-   <a href="https://www.youtube.com/watch?v=IkLeGgM8-OI&t=295" target="_blank">Putting yourself in a Movie</a>
+   <a href="https://www.youtube.com/watch?v=IkLeGgM8-OI&amp;t=295" target="_blank">Putting yourself in a Movie</a>
 
 .. |text_reveal| raw:: html
 

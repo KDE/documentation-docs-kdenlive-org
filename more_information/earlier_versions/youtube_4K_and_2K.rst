@@ -399,7 +399,7 @@ To see the results of using the above project and render profiles watch this |vi
 
 .. |forum| raw:: html
 
-   <a href="https://forum.kde.org/viewtopic.php%3Ff=272&t=124869.html#p329129" target="_blank">KDE Kdenlive forum</a>
+   <a href="https://forum.kde.org/viewtopic.php%3Ff=272&amp;t=124869.html#p329129" target="_blank">KDE Kdenlive forum</a>
 
 **Sources**
   This How-to was written and published in the |forum| on February 8th, 2015 by user *marcozambi*. It was adapted slightly to fit the style of this documentation.

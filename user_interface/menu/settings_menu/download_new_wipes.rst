@@ -11,7 +11,7 @@
 
 .. |kde_store| raw:: html
 
-   <a href="https://store.kde.org/browse?cat=333&ord=latest" target="_blank">KDE Store</a>
+   <a href="https://store.kde.org/browse?cat=333&amp;ord=latest" target="_blank">KDE Store</a>
 
 
 

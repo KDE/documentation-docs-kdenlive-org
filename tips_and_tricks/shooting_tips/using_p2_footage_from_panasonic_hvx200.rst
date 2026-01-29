@@ -17,7 +17,7 @@
 
 .. |mxfsplit| raw:: html
 
-  <a href="http://www.freemxf.org/forum/viewtopic.php?f=2&t=265" target="_blank">mxfsplit</a>
+  <a href="http://www.freemxf.org/forum/viewtopic.php?f=2&amp;t=265" target="_blank">mxfsplit</a>
 
 .. |freemxf| raw:: html
 

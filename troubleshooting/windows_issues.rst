@@ -93,7 +93,7 @@ Updated Intel graphics driver version leads to a corrupted Kdenlive :abbr:`GUI (
 
 **Solution 1:** Open Kdenlive. Move the mouse to the top. The menus are showing up. Try to reach :menuselection:`Menu --> Settings --> OpenGL Backend` and select OpenGLES. Restart Kdenlive. This should solve your Intel graphic driver issue.
 
-.. text moved from forum: https://forum.kde.org/viewtopic.php%3Ff=265&t=161309.html#p425882
+.. text moved from forum: https://forum.kde.org/viewtopic.php%3Ff=265&amp;t=161309.html#p425882;
 
    Maybe this statement helps (forum user "Windows User"): I would like to confirm that this issue seems to be mostly fixed. When I use the latest daily build of Kdenlive on Windows 10 with the latest Intel graphics drivers, I still get a corrupted GUI after opening Kdenlive. The only way to resolve this is to choose Settings > OpenGL Backend > OpenGLES from the menu. I can't see the menu when the GUI is corrupt but I can click where the menu should be. A quick test of Kdenlive after doing this seems fixed.
 

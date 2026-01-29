@@ -64,6 +64,6 @@ Once you added the transition, select it to change any of the parameter.
 
 .. |kde_store| raw:: html
 
-   <a href="https://store.kde.org/browse?cat=333&ord=latest" target="_blank">KDE Store</a>
+   <a href="https://store.kde.org/browse?cat=333&amp;ord=latest" target="_blank">KDE Store</a>
 
 .. [1] Kdenlive has a direct link to the |kde_store| from where you can download and install new transitions in form of luma files (greyscale images of type :file:`.pgm`). Click on the |edit-download| :guilabel:`Download` icon. If you have an active Internet connection, Kdenlive queries the KDE Store for all of the luma files available and opens a dialog window.

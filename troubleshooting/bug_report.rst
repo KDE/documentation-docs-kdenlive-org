@@ -19,7 +19,7 @@
 
 .. |bug_tracker_search| raw:: html
 
-   <a href="https://bugs.kde.org/buglist.cgi?bug_status=__open__&product=kdenlive" target="_blank">Search the bug tracker</a>
+   <a href="https://bugs.kde.org/buglist.cgi?bug_status=__open__&amp;product=kdenlive" target="_blank">Search the bug tracker</a>
 
 .. |r_kdenlive| raw:: html
 

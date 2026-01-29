@@ -69,6 +69,6 @@ You can download and install transitions from the KDE Store\ [1]_, or uninstall 
 
 .. |kde_store| raw:: html
 
-   <a href="https://store.kde.org/browse?cat=333&ord=latest" target="_blank">KDE Store</a>
+   <a href="https://store.kde.org/browse?cat=333&amp;ord=latest" target="_blank">KDE Store</a>
 
 .. [1] Kdenlive has a direct link to the |kde_store| from where you can download and install new transitions in form of luma files (greyscale images of type :file:`.pgm`). If you have an active Internet connection, Kdenlive queries the KDE Store for all of the luma files available and opens a dialog window.

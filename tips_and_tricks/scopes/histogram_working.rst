@@ -21,7 +21,7 @@
 
 .. |luminance_and_color| raw:: html
 
-   <a href="https://www.cambridgeincolour.com/tutorials/histograms2.htm" target="_blank">Camera Histograms: Luminosity & Color</a>
+   <a href="https://www.cambridgeincolour.com/tutorials/histograms2.htm" target="_blank">Camera Histograms: Luminosity &amp; Color</a>
 
 .. |digikam| raw:: html
 

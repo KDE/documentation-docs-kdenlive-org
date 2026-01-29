@@ -49,7 +49,7 @@
 
 .. |kde_store| raw:: html
 
-   <a href="https://www.pling.com/browse?cat=686&ord=latest" target="_blank">KDE Store</a>
+   <a href="https://www.pling.com/browse?cat=686&amp;ord=latest" target="_blank">KDE Store</a>
 
 .. |lame| raw:: html
 

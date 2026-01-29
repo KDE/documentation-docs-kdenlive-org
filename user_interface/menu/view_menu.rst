@@ -22,7 +22,7 @@
 
 .. |KDE_store| raw:: html
 
-   <a href="https://www.pling.com/browse?cat=333&ord=latest" target="_blank">KDE Store</a>
+   <a href="https://www.pling.com/browse?cat=333&amp;ord=latest" target="_blank">KDE Store</a>
    
    
 .. _view_menu:

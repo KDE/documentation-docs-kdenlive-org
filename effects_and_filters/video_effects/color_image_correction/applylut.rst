@@ -23,7 +23,7 @@
 
 .. |kde_store| raw:: html
 
-   <a href="https://www.pling.com/browse?cat=644&ord=latest" target="_blank">KDE Store</a>
+   <a href="https://www.pling.com/browse?cat=644&amp;ord=latest" target="_blank">KDE Store</a>
 
 
 Apply LUT

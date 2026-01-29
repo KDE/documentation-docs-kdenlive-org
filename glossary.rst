@@ -31,7 +31,7 @@
 
 .. |store| raw:: html
 
-   <a href="https://www.pling.com/browse?cat=333&ord=latest" target="_blank">store</a>
+   <a href="https://www.pling.com/browse?cat=333&amp;ord=latest" target="_blank">store</a>
 
 .. |color_temp| raw:: html
 

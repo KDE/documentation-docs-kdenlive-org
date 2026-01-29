@@ -115,7 +115,7 @@ Video Tutorials
    
    .. |yt_41| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=5kPiJURwi2Y&t=103s" target="_blank">Locked-on Stabilization</a>
+      <a href="https://www.youtube.com/watch?v=5kPiJURwi2Y&amp;t=103s" target="_blank">Locked-on Stabilization</a>
    
    .. figure:: /images/tutorials/arkengheist-locked-on_stabilization.webp
       :width: 123px
@@ -132,7 +132,7 @@ Video Tutorials
    
    .. |yt_42| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=rWHHM6VLocU&t=310s" target="_blank">Motion Tracking</a>
+      <a href="https://www.youtube.com/watch?v=rWHHM6VLocU&amp;t=310s" target="_blank">Motion Tracking</a>
    
    .. figure:: /images/tutorials/arkengheist-motion_tracker.webp
       :width: 123px
@@ -149,7 +149,7 @@ Video Tutorials
    
    .. |yt_43| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=gcIKU4KxfLk&t=8s" target="_blank">Rotoscoping</a>
+      <a href="https://www.youtube.com/watch?v=gcIKU4KxfLk&amp;t=8s" target="_blank">Rotoscoping</a>
    
    .. figure:: /images/tutorials/arkengheist-rotoscoping.webp
       :width: 123px
@@ -183,7 +183,7 @@ Video Tutorials
    
    .. |yt_70| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=zYD0b8LpiQA&t=3s" target="_blank">Beginners Tutorial "Learn Kdenlive in 30 minutes"</a>
+      <a href="https://www.youtube.com/watch?v=zYD0b8LpiQA&amp;t=3s" target="_blank">Beginners Tutorial "Learn Kdenlive in 30 minutes"</a>
    
    .. figure:: /images/tutorials/nuxttux-30_minutes.webp
       :width: 123px
@@ -207,15 +207,15 @@ Video Tutorials
 
    .. |yt_80a| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=2RyBH7fs5q8&t=132s8" target="_blank">"timecode"</a>
+      <a href="https://www.youtube.com/watch?v=2RyBH7fs5q8&amp;t=132s8" target="_blank">"timecode"</a>
 
    .. |yt_80b| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=2RyBH7fs5q8&t=240s" target="_blank">"timecode"</a>
+      <a href="https://www.youtube.com/watch?v=2RyBH7fs5q8&amp;t=240s" target="_blank">"timecode"</a>
 
    .. |yt_80c| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=2RyBH7fs5q8&t=255s" target="_blank">"timecode"</a>
+      <a href="https://www.youtube.com/watch?v=2RyBH7fs5q8&amp;t=255s" target="_blank">"timecode"</a>
 
    .. figure:: /images/tutorials/nuxttux-correction_tools.webp
       :width: 123px

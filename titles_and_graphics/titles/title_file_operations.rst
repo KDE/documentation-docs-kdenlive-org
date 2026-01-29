@@ -21,7 +21,7 @@
 
 .. |kde_store_templates| raw:: html
 
-   <a href="https://store.kde.org/browse?cat=335&ord=latest" target="_blank">KDE Store Kdenlive Title Template</a>
+   <a href="https://store.kde.org/browse?cat=335&amp;ord=latest" target="_blank">KDE Store Kdenlive Title Template</a>
 
 
 =====================
@@ -89,6 +89,6 @@ If you have a title template you want to share with the community, you can uploa
 
 .. |kde_store| raw:: html
 
-   <a href="https://store.kde.org/browse?cat=333&ord=latest" target="_blank">KDE Store</a>
+   <a href="https://store.kde.org/browse?cat=333&amp;ord=latest" target="_blank">KDE Store</a>
 
 .. [1] Kdenlive has a direct link to the |kde_store| from where you can download and install new title templates. If you have an active Internet connection, Kdenlive queries the KDE Store for all of the template files available and opens a dialog window.
