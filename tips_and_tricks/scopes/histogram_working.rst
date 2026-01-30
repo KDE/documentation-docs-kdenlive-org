@@ -29,7 +29,7 @@
 
 .. |gimp| raw:: html
 
-   <a href="https://www.gimp.org/" target="_blank" target="_blank">GIMP</a>
+   <a href="https://www.gimp.org/" target="_blank">GIMP</a>
    
 
 .. _scopes-histogram_working:

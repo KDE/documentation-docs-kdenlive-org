@@ -27,7 +27,7 @@ In this *How-to* video we show you how to edit the audio volume of a clip using 
    :align: center
    :target: https://kdenlive.org/wp-content/uploads/2016/12/volume.mp4
 
-| 
+|
 
 .. rubric:: Notes
 

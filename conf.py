@@ -117,6 +117,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |audio-volume-muted| image:: /images/icons/audio-volume-muted.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |bookmark| image:: /images/icons/bookmarks.svg
    :width: 22px
    :class: no-scaled-link
@@ -346,10 +350,6 @@ rst_epilog = """
    :class: no-scaled-link
 
 .. |kdenlive-custom-effect| image:: /images/icons/kdenlive-custom-effect.svg
-   :width: 22px
-   :class: no-scaled-link
-
-.. |kdenlive-hide-audio| image:: /images/icons/kdenlive-hide-audio.svg
    :width: 22px
    :class: no-scaled-link
 

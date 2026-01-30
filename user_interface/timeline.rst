@@ -293,7 +293,7 @@ This area shows some options for a track:
    :4: Track control icons. Use them to:
    
      + Lock the track |kdenlive-lock| which will prevent adding clips, removing clips, or moving of clips on the timeline;  
-     + Mute the track |kdenlive-hide-audio| (audio tracks only) :kbd:`Ctrl+Shift+H`
+     + Mute the track |audio-volume-muted| (audio tracks only) :kbd:`Ctrl+Shift+H`
      + Hide video |kdenlive-hide-video| from this track :kbd:`Ctrl+Shift+H`; and,  
      + Enable/Disable track effects |tools-wizard| allows you to enable or disable the effects applied to the track.
    

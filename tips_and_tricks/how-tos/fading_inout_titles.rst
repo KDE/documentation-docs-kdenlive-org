@@ -21,7 +21,7 @@ In this short *How-to* video, we show you how to (smoothly) fade in and out Kden
    :align: center
    :target: https://kdenlive.org/wp-content/uploads/2017/01/Kdenlive-Title-Fading.mp4
 
-| 
+|
 
 These are the individual steps shown in video:
 

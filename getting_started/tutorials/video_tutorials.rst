@@ -337,7 +337,7 @@ Video Tutorials
    
    .. |yt_150| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=dQNe1Dju3qs  (hqdn3d, 3D FFT Denoiser (https://youtu.be/dQNe1Dju3qs?t=91), deband (https://youtu.be/dQNe1Dju3qs?t=149))" target="_blank">Video Noise Reduction</a>
+      <a href="https://www.youtube.com/watch?v=dQNe1Dju3qs" target="_blank">Video Noise Reduction</a>
    
    .. |yt_150a| raw:: html
 
@@ -381,7 +381,7 @@ Video Tutorials
    
    .. |yt_170| raw:: html
 
-      <a href="https://www.youtube.com/watch?v=cGNC7TBk_SY  (Chroma Key (basic), Chroma Key (advanced), Key Spill Mop Up (https://youtu.be/cGNC7TBk_SY?t=251))" target="_blank">Remove Green Screen</a>
+      <a href="https://www.youtube.com/watch?v=cGNC7TBk_SY" target="_blank">Remove Green Screen</a>
    
    .. |yt_170a| raw:: html
 
