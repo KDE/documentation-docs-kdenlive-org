@@ -11,15 +11,15 @@
 
 .. |glaxnimate| raw:: html
 
-   <a href="https://glaxnimate.mattbas.org/" target="_blank">Glaxnimate</a>
+   <a href="https://glaxnimate.org/" target="_blank">Glaxnimate</a>
 
 .. |glaxnimate_download| raw:: html
 
-   <a href="https://glaxnimate.mattbas.org/download/#stable-releases" target="_blank">Glaxnimate Download</a>
+   <a href="https://glaxnimate.org/download" target="_blank">Glaxnimate Download</a>
 
 .. |glaxnimate_manual| raw:: html
 
-   <a href="https://glaxnimate.mattbas.org/manual/" target="_blank">Glaxnimate Manual</a>
+   <a href="https://docs.glaxnimate.org/" target="_blank">Glaxnimate Manual</a>
 
 
 ===========================
