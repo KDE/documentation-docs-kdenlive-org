@@ -25,6 +25,10 @@ description = 'The official Kdenlive Documentation'
 copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise'
 author = 'Kdenlive Community'
 
+# EPUB:If version ist not set, the EPUB shows no version number
+# If your project does not draw a meaningful distinction between between a ‘full’ and ‘major’ version, set both version and release to the same value.
+version = '25.12'
+
 # The full version, including alpha/beta/rc tags
 release = '25.12'
 
@@ -765,6 +769,23 @@ html_context = {
 }
 
 html_last_updated_fmt = '%Y-%m-%dT%H:%M:%S'
+
+
+# -- Options for EPUB output -------------------------------------------------
+
+# Possible variables see here: https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-epub-output
+
+# The HTML theme for the EPUB output. Since the default themes are not optimised for small screen space,
+# using the same theme for HTML and EPUB output is usually not wise. This defaults to 'epub', 
+# a theme designed to save visual space.
+epub_theme = 'epub'
+
+# The depth of the table of contents in the file toc.ncx. It should be an integer greater than zero.
+epub_tocdepth = 6
+
+# This setting control the scope of the EPUB table of contents. 
+epub_tocscope = 'includehidden' # 'default' 'includehidden'
+
 
 # -- Internationalization Options --------------------------------------------
 
