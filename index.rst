@@ -164,7 +164,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      `Bug Reports <https://kdenlive.org/en/bug-reports/>`__
+      `Bug Reports <https://kdenlive.org/en/bug-reports/>`_
          How to file a bug.
 
    .. container:: tile
@@ -175,7 +175,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      `Get Involved <https://community.kde.org/Kdenlive/Workgroup/Documentation>`__
+      `Get Involved <https://community.kde.org/Kdenlive/Workgroup/Documentation/>`_
          Contribute to this Manual
 
 

@@ -40,7 +40,7 @@ The timeline view consists in minimum of one (1) or more sequences. By adding a 
 
 
 
-.. _add_sequence:
+.. _adding_sequence:
 
 Add sequence
 ------------
@@ -116,7 +116,7 @@ It improves interoperability with other editing software and tools that rely on 
 
    Sequence timecode offset is shown in the timeline ruler
 
-.. figure:: /images/cutting_and_assembling-sequence_timocode_offset_render_dialog-2508.webp.
+.. figure:: /images/cutting_and_assembling-sequence_timocode_offset_render_dialog-2508.webp
    :scale: 75%
 
    Sequence timecode offset is shown in the render dialog

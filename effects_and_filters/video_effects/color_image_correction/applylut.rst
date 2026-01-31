@@ -79,7 +79,7 @@ This effect applies a 3D Look Up Table (LUT)\ [1]_ to the clip. A LUT is an easy
      - Description
    * - LUT file to apply
      - File selection
-     - File containing the LUT to be applied. Select **Custom...** to open a file dialog window to browse for additional LUT files. You can also download LUT files from the |kde_store| directly from here by clicking on the |edit-download| icon. See the `Notes <lut_notes>`_ section below.
+     - File containing the LUT to be applied. Select **Custom...** to open a file dialog window to browse for additional LUT files. You can also download LUT files from the |kde_store| directly from here by clicking on the |edit-download| icon. See the `Notes <lut_notes>` section below.
    * - Interpolation Mode
      - Selection
      - Selects the mode for interpolation

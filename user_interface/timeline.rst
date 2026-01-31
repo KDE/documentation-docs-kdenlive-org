@@ -258,6 +258,7 @@ This is a quick overview of the main sections of the toolbar. A more detailed de
 
 \* Please note this is a customized version of the timeline toolbar and the section #7 is not part of the default toolbar
 
+
 .. _tracks:
 
 Tracks

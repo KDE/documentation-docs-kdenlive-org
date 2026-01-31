@@ -36,21 +36,21 @@ The first tab in the Project Settings dialog is for general project settings. It
 
 :1: The available tabs for the different settings: Settings, :doc:`Proxy</project_and_asset_management/project_settings/proxy_settings>`, :doc:`Markers</project_and_asset_management/project_settings/guides_settings>`, :doc:`Metadata</project_and_asset_management/project_settings/tab_meta_data>`, :doc:`Project Files</project_and_asset_management/project_settings/tab_project_files>`, and :doc:`Cache Data</project_and_asset_management/project_settings/tab_cache_data>`. The two latter ones are only available via :menuselection:`Menu --> File --> Project Settings`.
       
-:2: Defines how to set up the `project folder`_
+:2: Defines how to set up the :ref:`project folder <project_folder>`
 
 :3: Filters the list of available project profiles by :abbr:`fps(frames per second)` or scanning method
 
 :4: Opens the dialog for :ref:`creating new <project_profile_create>` project profiles
 
-:5: List of all available `project profiles <project_profile>`_ (left) and their details (right)
+:5: List of all available :ref:`project profiles <project_profile>` (left) and their details (right)
 
-:6: Defines how many initial `video and audio tracks <tracks>`_ the project will have. You can add and delete tracks later from within the timeline.
+:6: Defines how many initial :ref:`video and audio tracks <track>` the project will have. You can add and delete tracks later from within the timeline.
 
-:7: Defines the number of `audio channels`_
+:7: Defines the number of :ref:`audio channels <audio_channels>`
 
-:8: Defines whether or not you want `thumbnails`_ of the clips in the timeline
+:8: Defines whether or not you want :ref:`thumbnails` of the clips in the timeline
 
-:9: Select which `profile <timeline preview>`_ you want to use for the preview render feature
+:9: Select which :ref:`profile <timelinepreview>` you want to use for the preview render feature
 
 
 .. _project_folder:
@@ -110,11 +110,15 @@ Further details can be found in the :doc:`Configure Project Defaults</getting_st
    Make sure you click on the |document-save|\ :guilabel:`Save profile` icon before you :guilabel:`Close` this window. Kdenlive does not issue a warning if the changed or newly created project profile was not saved.
 
 
+.. _track:
+
 Tracks
 ------
 
-You can select the default number of audio and video tracks that your project will have. You can always add or remove tracks later in the timeline of an existing project.
+You can select the default number of audio and video tracks that your project will have. You can always add or remove :ref:`tracks <tracks>` later in the timeline of an existing project.
 
+
+.. _audio_channels:
 
 Audio Channels
 --------------
@@ -132,11 +136,15 @@ You can select the number of audio channels per audio track. The following setti
      - 
 
 
+.. _thumbnails:
+
 Thumbnails
 ----------
 
 If ticked, audio and video thumbnails are shown in the :ref:`timeline`. They can also be enabled/disabled through buttons in the :ref:`status_bar`.
 
+
+.. _timelinepreview:
 
 Timeline Preview
 ----------------

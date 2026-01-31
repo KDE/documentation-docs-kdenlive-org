@@ -20,9 +20,9 @@ Clip Properties are displayed in their own widget. You enable it from the :menus
 
 The Clip Properties widget has several tabs\ [1]_:
 
-* |edit-find|\ :guilabel:`File Info` - displays general `file info`_
-* |document-edit|\ :guilabel:`Properties` - allows editing some `properties`_
-* |kdenlive-audio|\ :guilabel:`Audio Properties` - displays properties of the `audio <audio properties>`_ stream
+* |edit-find|\ :guilabel:`File Info` - displays general :ref:`file_info`
+* |document-edit|\ :guilabel:`Properties` - allows editing some :ref:`properties`
+* |kdenlive-audio|\ :guilabel:`Audio Properties` - displays properties of the :ref:`audio <audio_properties>` stream
 
 .. ================================================================================================
    Metadata doesn't display anything and probably has never really worked
@@ -33,6 +33,8 @@ The Clip Properties widget has several tabs\ [1]_:
 
    =============================================================================================
 
+
+.. _file_info:
 
 File Info
 ---------
@@ -45,6 +47,8 @@ The first tab is the **File Info** tab. It displays general information about th
 
 At the top, the filename with its full path is displayed as a link. Clicking it opens your OS file manager at that particular location.
 
+
+.. _properties:
 
 Properties
 ----------
