@@ -173,9 +173,9 @@ Kdenlive runs with Intel-based Macs on macOS 12 (Monterey)\ [1]_ or newer and on
 .. .. versionadded:: 22.04.0
 .. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
 
-Last version for macOS 10.13 (High Sierra) (Kdenlive 23.08.5) can be `downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/macOS/>`_.
+Last version for macOS 10.13 (High Sierra) (Kdenlive 23.08.5) can `be downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/macOS/>`_.
 
-Last version for macOS 11 (Big Sur) (Kdenlive 24.08.1) can be `downloaded from the attic <https://download.kde.org/Attic/kdenlive/24.08/macOS/>`_.
+Last version for macOS 11 (Big Sur) (Kdenlive 24.08.1) `can be downloaded from the attic <https://download.kde.org/Attic/kdenlive/24.08/macOS/>`_.
 
 
 Installation Procedure

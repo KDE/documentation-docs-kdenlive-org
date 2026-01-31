@@ -51,21 +51,21 @@ User Interface
    * - **2**
      - |edit-delete|\ :guilabel:`Delete clip or folder` deletes the currently selected clip or folder from the bin
    * - **3**
-     - |tag|\ :guilabel:`Tags Panel` toggles the :ref:`tags <project_bin_using_tags>` panel
+     - |tag|\ :guilabel:`Tags Panel` toggles the :doc:`tags <project_bin_use_tags>` panel
    * - **4**
      - |application-menu|\ :guilabel:`Options` opens a pop-window with more `options` including the option to :ref:`scale <scaling_the_view>` the view
    * - **5**
-     - |view-filter|\ :guilabel:`Filter` switches a :ref:`filter <project_bin_using_filters>` on or off
+     - |view-filter|\ :guilabel:`Filter` switches a :doc:`filter <project_bin_use_filters>` on or off
    * - 
      - |go-down|\ :guilabel:`Filter` opens a pop-up window to :doc:`set filter <project_bin_use_filters>` parameters
    * - **6**
-     - Search field to :ref:`search for assets <project_bin_searching_the_project_bin>` in the bin
+     - Search field to :doc:`search for assets <project_bin_use_searching>` in the bin
    * - **7**
      - |go-up|\ :guilabel:`Sort` Toggles between sorting ascending and descending
    * - **8**
      - The folder with all the sequences. It is there even if you did not :doc:`create a sequence </project_and_asset_management/project_bin/sequence>`.
    * - **9**
-     - Folders created by the user (for illustration purposes only). You can turn folders into :ref:`individual bins <project_bin_using_multiple_bins>` that can be added to your workspace and docked.
+     - Folders created by the user (for illustration purposes only). You can turn folders into :doc:`individual bins <project_bin_use_multiple_bins>` that can be added to your workspace and docked.
    * - **10**
      - |kdenlive-audio| indicates a file with an audio stream
    * - 
