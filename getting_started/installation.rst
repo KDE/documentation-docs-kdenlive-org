@@ -91,7 +91,7 @@ Kdenlive on Linux
 
 Kdenlive can be installed on non-KDE Desktops without any issues.
 
-**Packages:** Minimum Ubuntu 22.04 for PPA. AppImage, Snap or Flatpak have no such minimal requirements.
+**Packages:** AppImage or Flatpak are the official packages Kdenlive maintains.
 
 
 

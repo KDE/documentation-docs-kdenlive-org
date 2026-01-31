@@ -101,7 +101,7 @@ For a good bug report please include the following information:
 
 - Your Kdenlive and MLT version. You can copy that information from Kdenlive :menuselection:`Menu --> Help --> About`.
 - Your operating system (OS), like Windows, Linux distro, or MacOS including the respective version
-- The installation method for Kdenlive, like Windows installer or standalone, or Linux flatpak/snap/ppa or appimage
+- The installation method for Kdenlive, like Windows installer or standalone, or Linux flatpak or appimage
 - Detailed steps to reproduce the bug. Screenshots and screen recordings are very useful for replicating the issue.
 - Any error messages or log files you can provide. Please do not copy & paste log content into the bug report but add it as an **attachment**.
 - If the bug crashes Kdenlive, provide a backtrace.
