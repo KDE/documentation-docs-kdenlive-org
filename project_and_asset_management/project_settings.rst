@@ -30,7 +30,7 @@ Depending on the project profile you chose, the :ref:`edit layout <ui-workspace_
 
 .. rst-class:: clear-both
 
-Besides that, you can define where Kdenlive stores all project assets, how many video and audio tracks there are initially (you can add or delete tracks later as needed), whether or not Kdenlive should create proxy files automatically and under what circumstances, and you can enter meta data like author's name and copyright information which will be embedded in the multimedia container during export/render.
+Besides that, you can define where Kdenlive stores all project assets, how many video and audio tracks there are initially (you can add or delete tracks later as needed), whether or not Kdenlive should create proxy files automatically and under what circumstances, and you can enter metadata like author's name and copyright information which will be embedded in the multimedia container during export/render.
 
 Here you also define the categories and colors for the timeline marker and markers you can use in the timeline to structure your project.
 

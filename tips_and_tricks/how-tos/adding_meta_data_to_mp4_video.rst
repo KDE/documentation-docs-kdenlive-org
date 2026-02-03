@@ -1,6 +1,6 @@
 .. meta::
-   :description: Kdenlive Tips & Tricks - How to Add Meta Data to MP4 Video
-   :keywords: KDE, Kdenlive, tips, tricks, tips & tricks, adding meta data, documentation, user manual, video editor, open source, free, learn, easy
+   :description: Kdenlive Tips & Tricks - How to Add Metadata to MP4 Video
+   :keywords: KDE, Kdenlive, tips, tricks, tips & tricks, metadata, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
 
@@ -15,9 +15,9 @@
 
    <a href="https://ffmpeg.org" target="_blank">ffmpeg</a>
 
-.. |ffmpeg_metadata| raw:: html
+.. |ffmpeg_meta_data| raw:: html
 
-  <a href="https://ffmpeg.org/doxygen/trunk/group__metadata__api.html" target="_blank">meta data</a>
+  <a href="https://ffmpeg.org/doxygen/trunk/group__metadata__api.html" target="_blank">metadata</a>
 
 .. |matroska| raw:: html
 
@@ -28,25 +28,25 @@
   <a href="https://en.wikipedia.org/wiki/Audio_Video_Interleave" target="_blank">Audio Video Interleave</a>
 
 
-Adding Meta Data to MP4 Video
-=============================
+Adding Metadata to MP4 Video
+============================
 
-Adding a useful information to your video files - such as title, authors, the date of production, and some description - can be quite helpful to both yourself and your customers. This additional data - or *meta data* - can be used by media players to organize your many video files.
+Adding a useful information to your video files - such as title, authors, the date of production, and some description - can be quite helpful to both yourself and your customers. This additional data - or *metadata* - can be used by media players to organize your many video files.
 
-Project Meta Data
------------------
+Project Metadata
+----------------
 
 .. figure:: /images/tips_and_tricks/kdenlive2308_meta_data.webp
    :align: left
    :width: 350px
 
-   Adding a new meta data field
+   Adding a new metadata field
 
 Kdenlive allows you to specify the meta information that should be added to a rendered file. Just go to :menuselection:`Menu --> File --> Project Settings`, then select the second tab named :guilabel:`Metadata`.
 
-Double-click any existing meta data entry to change it.
+Double-click any existing metadata entry to change it.
 
-Click on |list-add| to add a new meta data entry (see the list of possible and permissible tags below).
+Click on |list-add| to add a new metadata entry (see the list of possible and permissible tags below).
 
 .. rst-class:: clear-both
 
@@ -63,18 +63,18 @@ But there are more elements that you actually may use with your MP4 containers.
 MP4 Containers
 --------------
 
-Unfortunately, there are competing sets of meta data when working with MP4 containers. The older, standard MP4 set is rather limited in what additional meta data can be used. Then, there is Apple iTunes, and that brings in a lot of meta data, and even changes the allowed set from time to time. We will come back to this difference in a second.
+Unfortunately, there are competing sets of metadata when working with MP4 containers. The older, standard MP4 set is rather limited in what additional metadata can be used. Then, there is Apple iTunes, and that brings in a lot of metadata, and even changes the allowed set from time to time. We will come back to this difference in a second.
 
-.. Unfortunately, information about what meta data can be used in which situation is rather scarce, sometimes outdated, and sometimes plainly wrong. Of course, this may also apply to this Toolbox article, but I’ve taken much effort to cross-check things in real life. As Kdenlive uses `ffmpeg <https://www.ffmpeg.org/>`_ for encoding, one would think that there’s plenty of information - unfortunately, it’s not, and the scarce information is sometimes plainly wrong. At some point, I’ve resorted to reading the source code in order to find out which so-called MP4 atoms actually are supported and through which element names (the magic happens inside `mov_write_ilst_tag()` in `moveenc.c <https://github.com/FFmpeg/FFmpeg/blob/5a8b41b4a76fc6586ff6afff78e5f0aa7b25068a/libavformat/movenc.c#L2996>`__). Luckily, you don’t need to dive into the source anymore.
+.. Unfortunately, information about what metadata can be used in which situation is rather scarce, sometimes outdated, and sometimes plainly wrong. Of course, this may also apply to this Toolbox article, but I’ve taken much effort to cross-check things in real life. As Kdenlive uses `ffmpeg <https://www.ffmpeg.org/>`_ for encoding, one would think that there’s plenty of information - unfortunately, it’s not, and the scarce information is sometimes plainly wrong. At some point, I’ve resorted to reading the source code in order to find out which so-called MP4 atoms actually are supported and through which element names (the magic happens inside `mov_write_ilst_tag()` in `moveenc.c <https://github.com/FFmpeg/FFmpeg/blob/5a8b41b4a76fc6586ff6afff78e5f0aa7b25068a/libavformat/movenc.c#L2996>`__). Luckily, you don’t need to dive into the source anymore.
 
-.. note:: Other container formats, such as |matroska| (``.mkv``) or |audio_video_interleave| (``.avi``), support yet other sets of meta data elements.
+.. note:: Other container formats, such as |matroska| (``.mkv``) or |audio_video_interleave| (``.avi``), support yet other sets of metadata elements.
 
 Ffmpeg Supported MP4 Container Meta Information
 -----------------------------------------------
 
-But now for the real meat: here come the available meta data elements that |ffmpeg| supports.
+But now for the real meat: here come the available metadata elements that |ffmpeg| supports.
 
-.. note:: You must use the |ffmpeg| meta data keys from the second column in the table below as the metadata keys in Kdenlive's Project Metadata dialog.
+.. note:: You must use the |ffmpeg| metadata keys from the second column in the table below as the metadata keys in Kdenlive's Project Metadata dialog.
 
 .. note:: |Ffmpeg| supports different |ffmpeg_metadata| elements, based on the type of container. And this container type normally gets derived from the container filename suffix: in particular, ``.mp4`` and ``.mov``.
 
@@ -85,7 +85,7 @@ But now for the real meat: here come the available meta data elements that |ffmp
   :class: table-wrap
 
   * - Element
-    - ffmpeg Meta Data Key
+    - ffmpeg Metadata Key
     - Description (data type\ [1]_\ )
     - MOV
     - MP4
@@ -285,7 +285,7 @@ But now for the real meat: here come the available meta data elements that |ffmp
 
   <a href="https://jmesb.com/how_to/dump_and_load_metadata_with_ffmpeg" target="_blank">How To: Dump and Load metadata with ffmpeg</a>
 
-.. |ffmpeg_meta_data| raw:: html
+.. |ffmpeg_metadata| raw:: html
 
   <a href="https://wiki.multimedia.cx/index.php?title=FFmpeg_Metadata" target="_blank">FFmpeg Metadata</a>
 
@@ -303,7 +303,7 @@ But now for the real meat: here come the available meta data elements that |ffmp
 * Kdenlive leverages ffmpeg for encoding, so if ffmpeg does not support certain atoms there is no way for Kdenlive to get it into the rendered output file.
 
 **Further Reading**
-  The following references give some more background information on |ffmpeg| and meta data in .mov/.mp4 containers.
+  The following references give some more background information on |ffmpeg| and metadata in .mov/.mp4 containers.
 
   1. First, and foremost, the ffmpeg source code for reference, and |moveenc| in particular.
 
@@ -311,7 +311,7 @@ But now for the real meat: here come the available meta data elements that |ffmp
      b) ``mov_write_udta_tag()`` write the MPEG-standard tags instead, when using a .mov container
 
   2. |howto_id3| by Jon Hall. This article finally got the author on the right track. However, beware of a few incorrect ffmpeg keys in Jon's table (such as the TIT3 key, which the author thinks is not correct); these may be due to later changes in ffmpeg (or whatever). In the end, since some of Jon's keys didn't work, the author went for the ffmpeg source code which is the authoritative source, of course. Nevertheless, the author is very thankful to Jon who is some of the rare really good sources with good insight into the topic. Most other sources just tell you how to press some buttons on some application, but do not give you any clue as to what is actually going on behind the scenes.
-  3. |howto_dump| by Jon Hall. Sheds more light on how to work with meta data when it comes to ffmpeg.
+  3. |howto_dump| by Jon Hall. Sheds more light on how to work with metadata when it comes to ffmpeg.
   4. |ffmpeg_meta_data| article from the |multimediawiki|.
 
 **Sources**

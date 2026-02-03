@@ -289,7 +289,7 @@ Glossary
       Lists all the clips and assets that are associated with the project. Referred to as the 'Project Tree' in earlier versions. See the chapter :doc:`Project Bin</project_and_asset_management/project_bin>`.
 
    Project Settings
-      Defines the format (dimensions, aspect ratio, frames-per-second setting) of the project through the choice of profile or :term:`preset`, which working directory to use, how many video and audio tracks there are initially, and which profile to use for previews. Stores meta data for your project (e.g. title, author, copyright information). See chapter :doc:`Project Settings</project_and_asset_management/project_settings>`.
+      Defines the format (dimensions, aspect ratio, frames-per-second setting) of the project through the choice of profile or :term:`preset`, which working directory to use, how many video and audio tracks there are initially, and which profile to use for previews. Stores metadata for your project (e.g. title, author, copyright information). See chapter :doc:`Project Settings</project_and_asset_management/project_settings>`.
 
    Profile
       For rendering see :term:`preset`, for project see :term:`project settings`

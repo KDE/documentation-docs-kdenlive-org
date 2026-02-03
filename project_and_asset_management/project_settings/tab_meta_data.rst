@@ -1,6 +1,6 @@
 .. meta::
-   :description: Kdenlive Documentation - Project Meta Data
-   :keywords: KDE, Kdenlive, project, setup, settings, metadata, meta data, documentation, user manual, video editor, open source, free, learn, easy
+   :description: Kdenlive Documentation - Project Metadata
+   :keywords: KDE, Kdenlive, project, setup, settings, metadata, documentation, user manual, video editor, open source, free, learn, easy
 
 .. metadata-placeholder
 
@@ -18,10 +18,10 @@
 
 
    
-Project Meta Data
-=================
+Project Metadata
+================
 
-This tab stores meta data about your project. By default, there are fields for **Title**, **Author**, **Copyright** and **Year**. You can add as many other fields as you need.
+This tab stores metadata about your project. By default, there are fields for **Title**, **Author**, **Copyright** and **Year**. You can add as many other fields as you need.
 
 .. container:: clear-both
 
@@ -42,7 +42,7 @@ Double-click an existing field to enter text.
 
 The data set up here will be written to the rendered files if :guilabel:`Export metadata` is checked in :doc:`/exporting/render` dialog window under :guilabel:`More Options`.
 
-You can check the meta data in the rendered video by entering this in a terminal window:
+You can check the metadata in the rendered video by entering this in a terminal window:
 
 .. code-block:: bash
 
