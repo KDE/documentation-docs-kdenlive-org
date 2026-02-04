@@ -56,7 +56,7 @@ You can install Kdenlive in two different ways:
 
 On macOS you can only use the installer version.
 
-Visit the |download_page| of the Kdenlive web site for up to date information on installing Kdenlive.
+Visit the |download_page| of the Kdenlive web site to get the latest release for your operating system.
 
 You will find all previous Kdenlive versions in the |attic|.
 
@@ -92,6 +92,12 @@ Kdenlive on Linux
 Kdenlive can be installed on non-KDE Desktops without any issues.
 
 **Packages:** AppImage or Flatpak are the official packages Kdenlive maintains.
+
+.. note:: As of Kdenlive release 24.02, PPA is no longer supported. Only AppImage and Flatpak releases are officially supported.
+
+If you use the Flatpak version, it installs properly in your desktop environment. No further action required.
+
+If you want to use the AppImage, download the AppImage and move it to a directory of your choice and make it executable. Normally you can do this using the file manager of your desktop environment (like Dolphin in KDE Plasma). Right-click the AppImage and select *Properties* and then *Make executable*. Alternatively, you can use the Linux shell command :code:`chmod 777 <appimage_name>` in a terminal. Now you can simply double-click the AppImage file to start Kdenlive or type the AppImage name in a terminal.
 
 
 
