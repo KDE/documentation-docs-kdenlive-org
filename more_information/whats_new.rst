@@ -200,7 +200,7 @@ What's New
 .. versionadded:: 22.08 (see 22.08_ release notes)
 
    * :doc:`Add animation </project_and_asset_management/project_bin/animation>` (Glaxnimate integration and support of Lottie animation files)
-   * :doc:`Edit Project Bin tags <project_bin_use_tags>`
+   * :doc:`Edit Project Bin tags </project_and_asset_management/project_bin/project_bin_use_tags>`
    * Deprecated Track compositing fly-out menu (1a/b/c in :ref:`timeline_toolbar2`)
    * Switched to :guilabel:`Enable Track Compositing` being a toggle (see :ref:`timeline_toolbar2`)
    * :ref:`Export guides as chapter descriptions <export_guides>`
