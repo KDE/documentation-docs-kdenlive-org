@@ -744,7 +744,7 @@ html_theme = 'sphinx_rtd_theme' #'alabaster' #'sphinx_rtd_theme' 'insegel'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_theme_options = {
-     # Toc options. The maximum depth of the table of contents tree (on the sidebar). Set this to -1 to allow unlimited depth. Set to 5 to see sub-title of https://docs.kdenlive.org/en/user_interface/menu/settings_menu/configure_kdenlive.html
+     # Toc options. The maximum depth of the table of contents tree (on the sidebar). Set this to -1 to allow unlimited depth. Set to 6 to see sub-title of https://docs.kdenlive.org/en/user_interface/menu/settings_menu/configure_kdenlive.html
     'navigation_depth': 6,
 }
 
@@ -771,22 +771,6 @@ html_context = {
 html_last_updated_fmt = '%Y-%m-%dT%H:%M:%S'
 
 
-# -- Options for EPUB output -------------------------------------------------
-
-# Possible variables see here: https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-epub-output
-
-# The HTML theme for the EPUB output. Since the default themes are not optimised for small screen space,
-# using the same theme for HTML and EPUB output is usually not wise. This defaults to 'epub', 
-# a theme designed to save visual space.
-epub_theme = 'epub'
-
-# The depth of the table of contents in the file toc.ncx. It should be an integer greater than zero.
-epub_tocdepth = 6
-
-# This setting control the scope of the EPUB table of contents. 
-epub_tocscope = 'includehidden' # 'default' 'includehidden'
-
-
 # -- Internationalization Options --------------------------------------------
 
 locale_dirs = ['locale/']   # Where the PO files will be stored at
@@ -794,3 +778,29 @@ gettext_compact = False     # optional.
 #gettext_additional_targets = ['image', 'index', 'literal-block'] # allows images to be translatable
 #figure_language_filename = "{path}{language}/{basename}{ext}"
 
+
+# -- Options for EPUB output -------------------------------------------------
+
+# Possible variables see here: https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-epub-output
+
+# The sphinx_rtd_theme is primarily designed for HTML output and is not inherently designed to format EPUB files, 
+# which require a much simpler, structured layout.
+# Use default (or other) for EPUB to ensure stability.
+epub_theme = 'alabaster' # 'sphinxdoc' 
+
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html', '.htaccess', '404.xhtml', '404handler.php', '_static/favicon.ico', '_static/images/favicon.ico']
+
+# The depth of the table of contents in the file toc.ncx. It should be an integer greater than zero.
+# Setting is equal then on HTML
+epub_tocdepth = 6
+
+# This setting control the scope of the EPUB table of contents. 
+epub_tocscope = 'includehidden' # 'default' 'includehidden'
+
+# This option specifies the maximum width of images. If it is set to a value greater than zero, 
+# images with a width larger than the given value are scaled accordingly. If it is zero, 
+# no scaling is performed. You need the Python Image Library (Pillow) installed to use this option.
+# This setting brought down the Kdenlive EPUB size with value: 540 = 650MB to 25MB, 800 = 650MB to 31MB, 1080 = 650MB to 34MB, 1920 = 650MB to 37MB, 3840 = 650MB to 37MB
+epub_max_image_width = 3840
