@@ -10,6 +10,11 @@
    :license: Creative Commons License SA 4.0
 
 
+.. |volume| raw:: html
+   
+   <a href="https://files.kde.org/kdenlive/kdenlive-manual/volume.mp4" target="_blank">Link to the video</a>
+
+
 Editing Audio Volume with Keyframes
 ===================================
 
@@ -25,7 +30,8 @@ In this *How-to* video we show you how to edit the audio volume of a clip using 
 .. figure:: /images/tips_and_tricks/edit_audio_volume_with_keyframes.webp
    :width: 418px
    :align: center
-   :target: https://kdenlive.org/wp-content/uploads/2016/12/volume.mp4
+
+|volume|
 
 |
 

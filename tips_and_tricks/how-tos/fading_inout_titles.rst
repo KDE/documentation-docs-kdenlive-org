@@ -11,6 +11,11 @@
    :license: Creative Commons License SA 4.0
 
 
+.. |Kdenlive-Title-Fading| raw:: html
+   
+   <a href="https://files.kde.org/kdenlive/kdenlive-manual/Kdenlive-Title-Fading.mp4" target="_blank">Link to the video</a>
+
+
 How to Fading In/Out of Titles
 ==============================
 
@@ -19,7 +24,8 @@ In this short *How-to* video, we show you how to (smoothly) fade in and out Kden
 .. figure:: /images/tips_and_tricks/fading_inout_titles.webp
    :width: 418px
    :align: center
-   :target: https://kdenlive.org/wp-content/uploads/2017/01/Kdenlive-Title-Fading.mp4
+   
+|Kdenlive-Title-Fading|
 
 |
 
