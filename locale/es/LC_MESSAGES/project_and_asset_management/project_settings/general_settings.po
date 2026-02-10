@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-01 02:00+0000\n"
-"PO-Revision-Date: 2026-01-03 15:02+0100\n"
+"PO-Revision-Date: 2026-02-08 12:09+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -127,11 +127,9 @@ msgstr ""
 "mediante :menuselection:`Archivo --> Opciones del proyecto…`."
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:39
-#, fuzzy
-#| msgid "Defines how to set up the `project folder`_"
 msgid "Defines how to set up the :ref:`project folder <project_folder>`"
 msgstr ""
-"Permitirá definir la manera en que se definirá la `carpeta del proyecto`_"
+"Permitirá definir la :ref:`carpeta de trabajo <project_folder>` del proyecto"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:41
 msgid ""
@@ -150,62 +148,46 @@ msgstr ""
 "de proyecto"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:45
-#, fuzzy
-#| msgid ""
-#| "List of all available `project profiles <project_profile>`_ (left) and "
-#| "their details (right)"
 msgid ""
 "List of all available :ref:`project profiles <project_profile>` (left) and "
 "their details (right)"
 msgstr ""
-"Lista de los `perfiles de proyecto <project_profile>` disponibles "
-"(izquierda) y sus características (derecha)"
+"Lista de los preajustes de :ref:`perfil de proyecto <project_profile>` "
+"disponibles (izquierda) y sus características específicas (derecha)"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:47
-#, fuzzy
-#| msgid ""
-#| "Defines how many initial `video and audio tracks <tracks>`_ the project "
-#| "will have. You can add and delete tracks later from within the timeline."
 msgid ""
 "Defines how many initial :ref:`video and audio tracks <track>` the project "
 "will have. You can add and delete tracks later from within the timeline."
 msgstr ""
-"Permitirá definir cuántas `pistas de video y audio <pistas>` iniciales "
-"tendrá el proyecto. Será posible agregar y borrar pistas más adelante, desde "
+"Permitirá definir cuántas :ref:`pistas de video y audio <track>` iniciales "
+"tendrá el proyecto. Más adelante será posible agregar y borrar pistas, desde "
 "propia la línea de tiempo."
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:49
-#, fuzzy
-#| msgid "Defines the number of `audio channels`_"
 msgid "Defines the number of :ref:`audio channels <audio_channels>`"
-msgstr "Permitirá definir la cantidad de `canales de audio`_"
+msgstr ""
+"Permitirá definir la cantidad de :ref:`canales de audio <audio_channels>`"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:51
-#, fuzzy
-#| msgid ""
-#| "Defines whether or not you want `thumbnails`_ of the clips in the timeline"
 msgid ""
 "Defines whether or not you want :ref:`thumbnails` of the clips in the "
 "timeline"
 msgstr ""
-"Permitirá definir si se mostrarán o no `miniaturas`_ para los clips en la "
-"línea de tiempo"
+"Permitirá definir si se mostrarán o no :ref:`miniaturas <thumbnails>` para "
+"los clips en la línea de tiempo"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:53
-#, fuzzy
-#| msgid ""
-#| "Select which `profile <timeline preview>`_ you want to use for the "
-#| "preview render feature"
 msgid ""
 "Select which :ref:`profile <timelinepreview>` you want to use for the "
 "preview render feature"
 msgstr ""
-"Permitirá seleccionar qué `perfil <previsualización de la línea de tiempo>`_ "
-"usar para procesar las previsualizaciones en la línea de tiempo"
+"Permitirá seleccionar qué :ref:`perfil <timelinepreview>` usar para procesar "
+"las previsualizaciones en la línea de tiempo"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:59
 msgid "Project Folder"
-msgstr "Carpeta del proyecto"
+msgstr "Carpeta de trabajo"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:61
 msgid ""
@@ -213,10 +195,10 @@ msgid ""
 "folder for your project. This folder will hold all temporary files that are "
 "used during the editing of your project (thumbnails, proxy clips, etc)."
 msgstr ""
-"Tal como se recomienda en la sección :ref:`inicio rápido`, se debería crear "
-"una nueva carpeta para cada nuevo proyecto. Esta carpeta contendrá todos los "
-"archivos temporales usados durante la edición del proyecto (miniaturas, "
-"medios de reemplazo, etc)."
+"Tal como se recomienda en la sección :ref:`inicio rápido`, es deseable crear "
+"una nueva carpeta para cada nuevo proyecto. La carpeta de trabajo es una "
+"carpeta que contendrá todos los archivos temporales usados durante la "
+"edición del proyecto (miniaturas, medios de reemplazo, etc)."
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:64
 msgid ":doc:`/project_and_asset_management/file_management/folder_structure`"
@@ -224,13 +206,15 @@ msgstr ":doc:`/project_and_asset_management/file_management/folder_structure`"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:71
 msgid ":guilabel:`Default`"
-msgstr ":guilabel:`Predeterminado`"
+msgstr ":guilabel:`Predeterminada`"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:72
 msgid "Lets Kdenlive determine the best location for the project folder"
 msgstr ""
-"Permitirá dejar que Kdenlive determine la mejor ubicación para la carpeta de "
-"trabajo del proyecto"
+"Permitirá que Kdenlive determine automáticamente una ubicación para la "
+"carpeta de trabajo del proyecto. Normalmente estará ubicada dentro de una "
+"carpeta de archivos temporales centralizada, cuya localización exacta "
+"variará dependiendo del sistema operativo usado."
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:73
 msgid ":guilabel:`Parent folder of the project file`"
@@ -241,8 +225,8 @@ msgid ""
 "Uses the parent folder of the folder the :file:`.kdenlive` project file is "
 "located in"
 msgstr ""
-"Usará la carpeta en donde se encuentra almacenado el archivo de proyecto :"
-"file:`.kdenlive`"
+"Usará la carpeta en donde se encuentre almacenado el archivo :file:`."
+"kdenlive` del proyecto activo"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:75
 msgid ":guilabel:`Custom`"
@@ -253,13 +237,13 @@ msgid ""
 "Enter the path to the folder, or click on the |document-open|\\ :guilabel:"
 "`Open file dialog` icon to navigate to the folder"
 msgstr ""
-"Permitirá introducir la ruta hasta la carpeta deseada o hacer clic en el "
-"botón |document-open|\\ :guilabel:`Abrir diálogo de archivos` para navegar "
-"hasta la carpeta deseada"
+"Permitirá introducir manualmente la ruta hasta la carpeta deseada o hacer "
+"clic en el botón |document-open|\\ :guilabel:`Abrir diálogo de archivos` "
+"para navegar hasta la misma"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:82
 msgid "Project Profile / Preset"
-msgstr "Perfil / Preajuste de proyecto"
+msgstr "Preajustes de perfil del proyecto"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:84
 msgid ""
@@ -267,10 +251,11 @@ msgid ""
 "the dimensions (or frame size) and the aspect ratio, the frame rate (or "
 "fps), the color space, and whether or not the frames are interlaced."
 msgstr ""
-"El perfil (o preajuste) del proyecto permitirá definir el formato que tendrá "
-"el proyecto, incluyendo sus dimensiones (o tamaño del fotograma) y "
-"proporción, la velocidad de fotogramas por segundo (fps), el espacio de "
-"color y el tipo barrido (progresivo o entrelazado) de sus fotogramas."
+"Los preajustes de perfil del proyecto permitirán definir rápidamente el "
+"formato que tendrá el mismo, incluyendo sus dimensiones (o tamaño del "
+"fotograma), proporción, la velocidad de fotogramas por segundo (fps), el "
+"espacio de color y el tipo barrido (progresivo o entrelazado) de sus "
+"fotogramas."
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:86
 msgid ""
@@ -353,18 +338,13 @@ msgid "Tracks"
 msgstr "Pistas"
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:118
-#, fuzzy
-#| msgid ""
-#| "You can select the default number of audio and video tracks that your "
-#| "project will have. You can always add or remove tracks later in the "
-#| "timeline of an existing project."
 msgid ""
 "You can select the default number of audio and video tracks that your "
 "project will have. You can always add or remove :ref:`tracks <tracks>` later "
 "in the timeline of an existing project."
 msgstr ""
-"Será posible determinar la cantidad de pistas de video y audio "
-"predeterminadas para las nuevas secuencias del proyecto. Más adelante "
+"Será posible determinar la cantidad de :ref:`pistas <tracks>` de video y "
+"audio predeterminadas para las nuevas secuencias del proyecto. Más adelante "
 "siempre será posible modificar estas cantidades en la propia línea de tiempo."
 
 #: ../../project_and_asset_management/project_settings/general_settings.rst:124
@@ -448,12 +428,3 @@ msgstr ""
 "Si simplemente se estuviera interesado en ver los parámetros usados en el "
 "perfil de previsualización seleccionado, hacer clic en el botón |help-about|"
 "\\ :guilabel:`Mostrar parámetros del perfil`."
-
-#~ msgid "project_settings"
-#~ msgstr "project_settings"
-
-#~ msgid "project_settings_preview_profile_create"
-#~ msgstr "project_settings_preview_profile_create"
-
-#~ msgid "project_settings_preview_profile"
-#~ msgstr "project_settings_preview_profile"
