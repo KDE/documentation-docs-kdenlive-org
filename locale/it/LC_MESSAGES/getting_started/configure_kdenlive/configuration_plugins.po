@@ -1,14 +1,14 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # SPDX-FileCopyrightText: 2025 Vincenzo Reale <smart2128vr@gmail.com>
-# SPDX-FileCopyrightText: 2025 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-01 02:00+0000\n"
-"PO-Revision-Date: 2025-09-13 15:49+0200\n"
+"PO-Revision-Date: 2026-02-04 22:48+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #: ../../<rst_epilog>:94
 msgid "document-open"
@@ -73,7 +73,7 @@ msgstr "Estensioni"
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:41
 msgid "This section defines settings for Speech To Text and Object Detection."
 msgstr ""
-"Questa sezione definisce le impostazioni per il Riconoscimento vocale e per "
+"Questa sezione definisce le impostazioni per il riconoscimento vocale e per "
 "il rilevamento degli oggetti."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:43
@@ -83,6 +83,11 @@ msgid ""
 "to use a virtual environment (:file:`venv`) to keep it separate for Kdenlive "
 "from other uses on your system."
 msgstr ""
+"Prima di poter configurare e utilizzare il riconoscimento vocale e il "
+"rilevamento degli oggetti, è necessario installare *Python3*. Una volta "
+"installato, è consigliabile utilizzare un ambiente virtuale (:file:`venv`) "
+"per mantenerlo separato da Kdenlive e dagli altri utilizzi presenti sul "
+"sistema."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:45
 msgid ""
@@ -90,6 +95,9 @@ msgid ""
 "of :ref:`Speech To Text<speech2text_config>` or :ref:`Object "
 "Detection<object-detection_config>`."
 msgstr ""
+"Se hai già installato Python3, passa direttamente alla pagina del :ref:"
+"`riconoscimento vocale<speech2text_config>` o del :ref:`rilevamento degli "
+"oggetti<object-detection_config>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:49
 msgid "Python installation"
@@ -107,6 +115,12 @@ msgid ""
 "Ubuntu. If your distribution is not Ubuntu-based please refer to the "
 "specific documentation or search the Internet for installation instructions."
 msgstr ""
+"Nella maggior parte delle distribuzioni Linux, Python è installato per "
+"impostazione predefinita. Puoi verificarlo eseguendo python3 --version in un "
+"terminale. Di seguito sono riportati i passaggi fondamentali per installare "
+"Python3 su Ubuntu. Se la tua distribuzione non è basata su Ubuntu fai "
+"riferimento alla documentazione specifica, oppure cerca le istruzioni per "
+"l'installazione su Internet."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:61
 msgid ""
@@ -115,6 +129,12 @@ msgid ""
 "``command -v pip`` in a terminal (some distributions use *pip* for *Python2* "
 "and *pip3* for *Python 3*). If *pip* is missing, you can install it with"
 msgstr ""
+"Il pacchetto *Python* di terze parti fondamentale di cui potresti aver "
+"bisogno è *pip*. *Python 3.4* e le versioni successive includono *pip* per "
+"impostazione predefinita, ma puoi comunque verificarlo eseguendo ``command -"
+"v pip`` in un terminale (alcune distribuzioni utilizzano *pip* per "
+"*Python2*, e *pip3* per *Python 3*). Se *pip* non è presente, puoi "
+"installarlo con"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:67
 msgid "In case of issues please refer to the |pip_installation_guide|."
@@ -139,11 +159,11 @@ msgstr "Scarica *Python* dalla pagina ufficiale |python_download|."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:77
 msgid "Select \"Add python.exe to PATH”"
-msgstr ""
+msgstr "Seleziona «Aggiungi python.exe al PATH»"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:79
 msgid "Select “Install Now”"
-msgstr "Seleziona “Installa adesso”"
+msgstr "Seleziona «Installa adesso»"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:85
 msgid "Speech To Text"
@@ -156,7 +176,7 @@ msgid ""
 msgstr ""
 "Questa sezione viene utilizzata per configurare la funzionalità di "
 "riconoscimento vocale di Kdenlive, e per la gestione dei vari modelli per i "
-"due motori VOSK e Whisper."
+"due motori, VOSK e Whisper."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:89
 msgid ""
@@ -179,12 +199,18 @@ msgid ""
 "dataset of diverse audio and is capable of performing speech translation, "
 "and language identification."
 msgstr ""
+"Ci sono due motori per la sintesi vocale: *VOSK* e *Whisper*. *Whisper* di "
+"OpenAI è un modulo di riconoscimento vocale per uso generico addestrato su "
+"un ampio insieme di dati audio diversificati, ed è in grado di eseguire la "
+"traduzione vocale e l'identificazione della lingua."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:97
 msgid ""
 "*Whisper* is slower than *VOSK* on CPU, but it is more accurate than *VOSK*. "
 "*Whisper* creates sentences with punctuation marks, even in Base mode."
 msgstr ""
+"*Whisper* è più lento di *VOSK* nella CPU, ma è un po' più preciso. "
+"*Whisper* crea frasi con i segni di punteggiatura, anche nella modalità base."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:99
 msgid "You need to set up the models to be used by these engines."
@@ -217,12 +243,17 @@ msgstr "VOSK"
 msgid ""
 "Python is working, but VOSK is not yet usable due to missing speech models"
 msgstr ""
+"Python funziona, ma VOSK non è ancora utilizzabile a causa della mancanza "
+"dei modelli vocali."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:114
 msgid ""
 "You need to download a speech model first from the alphacephei\\ [1]_ "
 "download page. Follow the link (**2**) and download the models you need."
 msgstr ""
+"Devi scaricare prima un modello vocale dalla pagina degli scaricamenti di "
+"alphacephei\\ [1]_. Segui il collegamento (**2**), e scarica i modelli "
+"necessari."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:116
 msgid ""
@@ -312,6 +343,8 @@ msgid ""
 "When you switch to Whisper for the first time you have to install the "
 "missing dependencies (about 2GB to download)."
 msgstr ""
+"Quando passi a Whisper per la prima volta devi installare le dipendenze "
+"mancanti (circa 2 GB da scaricare)."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:170
 msgid "After that you need to download one or more speech models."
