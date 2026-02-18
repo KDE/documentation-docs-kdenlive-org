@@ -18,7 +18,28 @@ Welcome to the manual for `Kdenlive <https://kdenlive.org>`_, the free and open 
 
 The current Kdenlive version you get `here <https://kdenlive.org/download/>`_. Check out :doc:`what's new </more_information/whats_new>`.
 
-You can download this manual as an `EPUB <https://docs.kdenlive.org/epub/KdenliveManual.epub>`_.
+You can download this manual as an **EPUB** in following languages:
+
+.. This is a workaround until issue https://invent.kde.org/documentation/docs-kdenlive-org/-/issues/26 is implemented
+
+.. list-table::
+   :width: 100%
+   :widths: 25 25 25 25
+   :header-rows: 0
+   :class: table-wrap
+
+   * - `English <https://docs.kdenlive.org/en/epub/KdenliveManual.epub>`_
+     - `Català <https://docs.kdenlive.org/ca/epub/KdenliveManual.epub>`_
+     - `Čeština <https://docs.kdenlive.org/cs/epub/KdenliveManual.epub>`_
+     - `Español <https://docs.kdenlive.org/es/epub/KdenliveManual.epub>`_
+   * - `Italiano <https://docs.kdenlive.org/it/epub/KdenliveManual.epub>`_
+     - `Nederlands <https://docs.kdenlive.org/nl/epub/KdenliveManual.epub>`_
+     - `Português (Barzil) <https://docs.kdenlive.org/pt_BR/epub/KdenliveManual.epub>`_
+     - `Slovenščina <https://docs.kdenlive.org/sl/epub/KdenliveManual.epub>`_
+   * - `Svenska <https://docs.kdenlive.org/sv/epub/KdenliveManual.epub>`_
+     - `Ukrainian <https://docs.kdenlive.org/uk_UA/epub/KdenliveManual.epub>`_
+     - `Simplified Chinese <https://docs.kdenlive.org/zh_CN/epub/KdenliveManual.epub>`_
+     - `Traditional Chinese <https://docs.kdenlive.org/zh_TW/epub/KdenliveManual.epub>`_
 
 ###############
 Getting started
