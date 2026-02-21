@@ -27,6 +27,7 @@ Kdenlive's application-wide persistent settings are stored in the following loca
    * - :file:`kdenliverc`
      - | |linux|: :file:`~/.config/`
        | |windows|: :file:`%LocalAppData%\\`
+       | |apple|: :file:`~/Library/Preferences/`
      - General settings of the application. Delete this and restart Kdenlive to reset the application to "factory" settings
    * - :file:`kdenlive-appimagerc`
      - | |linux|: :file:`~/.config/`
@@ -36,42 +37,52 @@ Kdenlive's application-wide persistent settings are stored in the following loca
      - temporary session info
    * - | |linux|: :file:`~/.cache/kdenlive/`
        | |windows|: :file:`%LocalAppData%\\kdenlive\\`
+       | |apple|: :file:`~/Library/Caches/kdenlive/``
      - 
      - Audio and video thumbnails, proxy clips, user defined titles, LUTS, lumas, shortcuts
    * - | |linux|: :file:`~/.local/share/kdenlive/`
        | |windows|: :file:`%AppData%\\kdenlive\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/`
      - 
      - Contains downloaded effects, export, library, opencv models, profiles, speech models, and titles
    * - | |linux|: :file:`~/.local/share/kdenlive/ lumas/`
        | |windows|: :file:`%LocalAppData%\\kdenlive\\ lumas\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/lumas/`
      - 
      - Contains the files used for :doc:`wipes </compositing/transitions/wipe>`
    * - | |linux|: :file:`~/.local/share/kdenlive/ .backup/`
        | |windows|: :file:`%AppData%\\kdenlive\\ .backup\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/.backup/`
      - 
      - Auto Save Recovery files
    * - | |linux|: :file:`~/.config/share/kdenlive/ layouts/`
        | |windows|: :file:`%LocalAppData%\\kdenlive\\ layouts\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/Layouts/`       
      -
      - Contains the different layout files saved by the user
    * - | :file:`kdenliveui.rc`
      - | |linux|: :file:`~/.local/share/kxmlgui5/ kdenlive/`
        | |windows|: :file:`%LocalAppData%\\kxmlgui5\\ kdenlive\\`
+       | |apple|: :file:`~/Library/Application Support/kxmlgui5/kdenlive/`
      - Contains UI configuration. If your UI is broken, delete this file.
    * - | :file:`knewstuff3`
      - | |linux|: :file:`~/.local/share/`
        | |windows|: :file:`%LocalAppData%\\`
+       | |apple|: :file:`~/Library/Application Support/knewstuff3/`
      - Contains LUT definition
    * - | |linux|: :file:`~/.local/share/kdenlive/ speechmodels/`
        | |windows|: :file:`%AppData%\\kdenlive\\ speechmodels\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/speechmodels/`
      - 
      - Contains the downloaded VOSK models
    * - | |linux|: :file:`~/.local/share/kdenlive/ opencvmodels/`
        | |windows|: :file:`%AppData%\\kdenlive\\ pencvmodels\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/opencvmodels/`
      - 
      - Contains the downloaded OpenCV models 
    * - | |linux|: :file:`~/.local/share/kdenlive/ venv/`
        | |windows|: :file:`%LocalAppData%\\kdenlive\\ venv\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/venv/`
      - 
      - Contains the Python virtual environment (venv)
    * - | |windows|: :file:`$HOME/.cache/huggingface`
@@ -81,3 +92,6 @@ Kdenlive's application-wide persistent settings are stored in the following loca
    
 Windows
    To reach the above folders: :kbd:`Windows+R` then copy above path into the window.
+
+MacOs
+   To reach the above folders: click on the menu on :menuselection:`Go --> Got to Folder` (:kbd:`Cmd+Shift+G`) and enter :file:`~/Library`. 
