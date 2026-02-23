@@ -94,4 +94,4 @@ Windows
    To reach the above folders: :kbd:`Windows+R` then copy above path into the window.
 
 MacOs
-   To reach the above folders: click on the menu on :menuselection:`Go --> Got to Folder` (:kbd:`Cmd+Shift+G`) and enter :file:`~/Library`. 
+   To reach the above folders: click on the menu on :menuselection:`Go --> Go to Folder` (:kbd:`Cmd+Shift+G`) and enter :file:`~/Library`. 
