@@ -790,7 +790,7 @@ epub_theme = 'alabaster' # 'sphinxdoc'
 
 
 # A list of files that should not be packed into the epub file.
-epub_exclude_files = ['search.html', '.htaccess', '404.xhtml', '404handler.php', '_static/favicon.ico', '_static/images/favicon.ico' `_static/images/favicon_old.ico`]
+epub_exclude_files = ['search.html', '.htaccess', '404.xhtml', '404handler.php', '_static/favicon.ico', '_static/images/favicon.ico', '_static/images/favicon_old.ico']
 
 # The depth of the table of contents in the file toc.ncx. It should be an integer greater than zero.
 # Setting is equal then on HTML
