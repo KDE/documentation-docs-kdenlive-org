@@ -10,9 +10,9 @@
    :license: Creative Commons License SA 4.0
 
 
-.. |link| raw:: html
+.. .. |link| raw:: html
 
-   <a href="link_URI" target="_blank">link_text</a>
+      <a href="link_URI" target="_blank">link_text</a>
 
 
 Shear
