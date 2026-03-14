@@ -1,16 +1,16 @@
 # Spanish translations for docs_kdenlive_org_effects_and_filters___video_effects___alpha_mask_keying___rotoscoping.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-#
 # Automatically generated, 2021.
+#
 # SPDX-FileCopyrightText: 2021, 2024 Eloy Cuadra <ecuadra@eloihr.net>
-# SPDX-FileCopyrightText: 2025 Gabriel Gazzán <gabcorreo@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive Manual\n"
+"Project-Id-Version: Kdenlive Manual 25.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2026-01-14 00:22-0300\n"
+"PO-Revision-Date: 2026-03-13 00:25+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: ../../<rst_epilog>:310
 msgid "kdenlive-show-video"
@@ -161,9 +161,10 @@ msgid ""
 "so it may be composited over another background.\"\\ [1]_"
 msgstr ""
 "\"En la industria de efectos visuales, el término rotoscopía se refiere a la "
-"técnica de crear, de forma manual, un mate (normalmente en forma de canal "
-"alfa) para un elemento que aparece en un material filmado, con el propósito "
-"de posibilitar su composición sobre un fondo distinto.\"\\ [1]_"
+"técnica de crear, de forma manual, un mate o máscara (normalmente afectando "
+"el canal alfa) para un elemento que aparece en un material filmado, con el "
+"propósito de posibilitar su composición sobre un fondo distinto al original."
+"\"\\ [1]_"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:73
 msgid ""
@@ -171,10 +172,10 @@ msgid ""
 "outside/inside that region will disappear showing the video track "
 "underneath. Effectively, the region defines the matte or mask for the clip."
 msgstr ""
-"El efecto\\ [2]_ será usado para dibujar un área en un clip, haciendo que "
-"todo lo que quede por fuera de la misma desaparezca, mostrando los clips de "
-"las pistas de fondo. En resumen, dicha área definirá el mate o máscara del "
-"clip."
+"El efecto\\ [2]_ será usado para dibujar un área en un medio/clip, haciendo "
+"que todo lo que quede por fuera de la misma desaparezca, mostrando, en la "
+"línea de tiempo, los clips de las pistas de fondo. En resumen, dicha área "
+"definirá el mate o máscara del medio/clip."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:77
 msgid "Parameters"
@@ -223,7 +224,7 @@ msgstr "Invertirá el área seleccionada por la rotoscopía"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:96
 msgid "Feathering width"
-msgstr "Ancho del esfumado"
+msgstr "Esfumado:  Grosor"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:97
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:100
@@ -235,12 +236,12 @@ msgid ""
 "Determines the amount of :abbr:`feathering (Smoothing or blurring the edges "
 "of a feature)`. Default is 0 (no feathering)."
 msgstr ""
-"Determinará la cantidad de :abbr:`esfumado (suavizado o desenfoque los "
-"bordes de una región)`. El valor predeterminado es 0 (sin esfumado)."
+"Determinará el grosor del :abbr:`esfumado (suavizado o desenfoque de los "
+"bordes)` de la máscara. El valor predeterminado es 0 (sin esfumado)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:99
 msgid "Feathering passes"
-msgstr "Pasadas de esfumado"
+msgstr "Pasadas"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:101
 msgid ""
@@ -249,8 +250,8 @@ msgid ""
 "Default is 1."
 msgstr ""
 "Determinará la cantidad de pasadas. Cuantas más pasadas, más detalle y "
-"precisión tendrá el :abbr:`esfumado (suavizado o desenfoque de los bordes)`. "
-"El predeterminado es 1."
+"precisión tendrá el :abbr:`esfumado (suavizado o desenfoque de los bordes)` "
+"de la máscara. Su valor predeterminado es 1."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:103
 msgid "The following selection items are available:"
@@ -347,7 +348,7 @@ msgid ""
 msgstr ""
 "Es posible agregar vértices a el área haciendo clic con el botón izquierdo "
 "del ratón. Se pueden colocar vértices fuera del área de la imagen: Reducir "
-"la imagen del Monitor del proyecto (:kbd:`Ctrl+rueda` o posando el puntero "
+"la imagen del Monitor de secuencias (:kbd:`Ctrl+rueda` o posando el puntero "
 "sobre el lado derecho del monitor hasta que se muestren las herramientas, "
 "para luego seleccionar el ícono de Reducir), luego agregar los vértices. "
 "Esto puede resultar útil cuando la máscara deba incluir o excluir regiones "
@@ -448,7 +449,7 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:210
 msgid "Using keyframes for Rotoscoping"
-msgstr "Uso de fotogramas clave en la Rotoscopía"
+msgstr "Uso de fotogramas clave en el efecto Rotoscopía"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:212
 msgid ""
@@ -528,7 +529,7 @@ msgstr "**Ejemplo \"Cómo usar Rotoscopía para cambiar el tono de color\"**"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:243
 msgid "Layout changed to Color"
-msgstr "La organización a ser usada es Color"
+msgstr "Usando la organización Color"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:245
 msgid ""
@@ -570,8 +571,8 @@ msgstr ""
 "Comenzar a crear el área/máscara alrededor del Sol, creando vértices "
 "alrededor de su contorno. Usar :guilabel:`clic izquierdo del ratón` para "
 "crear nuevos vértices. Si fuera necesario, ampliar la imagen en el Monitor "
-"del proyecto, usando :guilabel:`Ctrl+rueda` o los controles del propio "
-"Monitor del proyecto."
+"de secuencias, usando :guilabel:`Ctrl+rueda` o los controles del propio "
+"Monitor de secuencias."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:278
 msgid ""
@@ -598,28 +599,30 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:298
 msgid "Color balance selection"
-msgstr "Selección del efecto Color balance"
+msgstr "Selección del efecto Balance de color"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:300
 msgid ""
 "In the effects tab choose Color Balance and adjust the various red, green "
 "and blue values to the color of the sun you like."
 msgstr ""
-"En el panel Efectos escoger el efecto Color balance y aplicarlo al clip. "
-"Luego ajustar los distintos valores de rojo verde y azul para obtener el "
-"color buscado para el Sol."
+"En el panel Efectos escoger el efecto *Balance de color* y aplicarlo al "
+"clip. Luego ajustar los distintos valores de rojo verde y azul para obtener "
+"el color buscado para el Sol."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:320
 msgid "See this Wikipedia article about |wiki_rotoscoping|"
-msgstr "Ver este artículo de Wikipedia acerca de |wiki_rotoscoping|"
+msgstr ""
+"Ver este artículo de Wikipedia acerca de Rotoscopía (|wiki_rotoscoping|)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:322
 msgid "This is the |mlt_rotoscoping| filter"
-msgstr "Este es el filtro MLT |mlt_rotoscoping|"
+msgstr "Se trata del efecto Rotoscoping de MLT (|mlt_rotoscoping|)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:324
 msgid "See this Wikipedia article about |wiki_bezier|"
-msgstr "Ver este artículo de Wikipedia acerca de |wiki_bezier|"
+msgstr ""
+"Ver este artículo de Wikipedia acerca de las curvas Bezier (|wiki_bezier|)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/rotoscoping.rst:326
 msgid ""
