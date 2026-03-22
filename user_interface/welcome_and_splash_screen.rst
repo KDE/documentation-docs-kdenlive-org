@@ -13,28 +13,28 @@
 Welcome and Splash Screen
 =========================
 
-When starting Kdenlive a welcome screen appears on which you can: 
+When starting Kdenlive a welcome screen appears with the following functions: 
 
 .. figure:: /images/user_interface/ui-welcome_screen_2512.webp
    :scale: 60%
    
    Kdenlive's default welcome screen
 
-:1: Cancel the start of Kdenlive
+:1: Cancels the start of Kdenlive
 
 :2: Opens the :ref:`Open <file_open>` dialog after start
 
-:3: Clears the history list of recent projects 
+:3: Clears the list of recent projects 
 
 :4: Opens a recent project directly. The same list as in :ref:`open recent <file_open_recent>`. 
 
 :5: Opens the :ref:`New <file_new>` dialog after start
 
-:6: Clears the history list of recent profiles
+:6: Clears the list of recent profiles
 
 :7: Opens a new project with the setup of a recent profile 
 
-:8: If un-checked, Kdenlive will show the splash screen on startup instead. You can enable the :doc:`Welcome Screen in the environment settings </getting_started/configure_kdenlive/configuration_environment>` 
+:8: If not checked, Kdenlive will show the splash screen on startup. You can enable the :doc:`Welcome Screen in the environment settings </getting_started/configure_kdenlive/configuration_environment>` 
 
 :9: Shows the Kdenlive version
 
