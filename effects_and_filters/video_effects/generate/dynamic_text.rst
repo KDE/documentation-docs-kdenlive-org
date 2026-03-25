@@ -106,31 +106,56 @@ The following keywords are available:
 
 .. list-table::
    :width: 100%
-   :widths: 22 78
+   :widths: 22 36 42
+   :header-rows: 1
    :class: table-wrap
 
-   * - timecode
+   * - Property
+     - Keyword
+     - Description
+   * - Time code
+     - #timecode#
      - SMPTE drop-frame timecode of the frame
-   * - frame
-     - frame number of the frame
-   * - file date
-     - modification date of the file (GMT)
-   * - local file date
-     - modification date of the file (local)
-   * - source frame rate
-     - frame rate of the source video
-   * - source codec
-     - codec used in the source video
-   * - source bit rate
-     - bit rate of the source video
-   * - source width
-     - width of the source video
-   * - source height
-     - height of the source video
-   * - source comment
-     - comment embedded in the source video
+   * - Frame number
+     - #frame#
+     - Frame number of the frame
+   * - File name
+     - #filename#
+     - Name of the file including the file suffix (e.g. :file:`my_video.mp4`)
+   * - Base name
+     - #basename#
+     - Name of the file without the file suffix (e.g. :file:`my_video`)
+   * - Path
+     - #resource#
+     - Full path and filename (e.g. :file:`/path/to/my_video.mp4`)
+   * - File date
+     - #filedate#
+     - Modification date of the file (GMT)
+   * - Local file date
+     - #localfiledate#
+     - Modification date of the file (local)
+   * - Frame rate
+     - #meta.media.0.stream.frame_rate#
+     - Frame rate of the source video
+   * - Codec
+     - #meta.media.0.codec.name#
+     - Codec used in the source video
+   * - Bit rate
+     - #meta.media.0.codec.bit_rate#
+     - Bit rate of the source video
+   * - Width
+     - #meta.media.width#
+     - Width of the source video
+   * - Height
+     - #meta.media.height#
+     - Height of the source video
+   * - Comment
+     - #meta.attr.comment.markup#
+     - Comment embedded in the source video
 
-Timecode keywords are based on the frame rate (fps) and position of the frame. Time-based keywords can include a ``strftime``\ [#]_ format string to customize the output as long as you put some delimiter except '#' between the keyword and the format string and the keyword comes first. For example, ``#localtime %I:%M:%S %p#`` shows only the time in 12-hour format. The '#' may be escaped with '\'.
+The keywords can be selected from the drop-down list or entered directly in the text field.
+
+Timecode keywords are based on the frame rate (fps) and position of the frame. Time-based keywords can include a ``strftime``\ [#]_ format string to customize the output as long as you put some delimiter except '#' between the keyword and the format string and the keyword comes first. For example, ``#localtime %I:%M:%S %p#`` shows only the time in 12-hour format. The '#' may be escaped with '\''.
 
 .. note:: 
   This effect uses the clip's properties for the calculation of the keywords' values. For example, **#timecode#** will start counting at the beginning of the clip and not at the position of the clip in the timeline. **#timecode#** will reset at the start of every clip it is assigned to. In order to have **#timecode#** count across the whole length of your project you must assign the effect to the (main) video track or the Master.
