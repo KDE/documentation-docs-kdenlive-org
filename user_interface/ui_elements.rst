@@ -295,7 +295,7 @@ Project / Clip Monitor Icons
    * - |application-menu|
      - Monitor options menu
    * - |view-fullscreen|
-     - Switch full screen
+     - Switch full screen. :ref:`See here for more information <switch_monitor_fullscreen>`.
    * - |select-rectangular|
      - | Show Safe Areas. Where essentials (text, logos, main action) must stay to avoid being cut off by different screens or platform interfaces. Important for social media and older TVs.
        | Title Safe (inner 80%) for text/graphics

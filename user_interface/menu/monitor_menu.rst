@@ -139,7 +139,9 @@ This menu item opens a flyout with following seeking possibilities:
 
 .. _switch_monitor_fullscreen:
 
-* **Switch Monitor Fullscreen**: Switch the monitor to full screen when hit :kbd:`F11`.
+.. .. versionadded:: 25.08  Hide mouse cursor when placed over monitor in fullscreen and not moving for 2 seconds
+
+* **Switch Monitor Fullscreen**: Switch the monitor to full screen when hit :kbd:`F11` or double click. You can set the target monitor via :menuselection:`Menu --> Settings --> Configure Kdenlive --> Playback --> Monitor for fullscreen output`. The mouse cursor is automatically hidden after two seconds (if the mouse hasn't been moved) and automatically be shown again when the user moves the mouse.
 
 .. _multitrack_view:
 

@@ -88,7 +88,7 @@ The toolbar has the following options:
    * - Icon
      - Description
    * - |view-fullscreen|
-     - Switch full screen. You can set the target monitor via :menuselection:`Menu --> Settings --> Configure Kdenlive --> Playback --> Monitor for fullscreen output`.
+     - Switch full screen. :ref:`See here for more information <switch_monitor_fullscreen>`.
    * - |view-grid|
      - Change overlay. Click through the different available patterns. You can :ref:`change the color<ui-monitors_change_overlay_color>` of the patterns in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Markers</getting_started/configure_kdenlive/configuration_colors+markers>`.
    * - |zoom-in|
