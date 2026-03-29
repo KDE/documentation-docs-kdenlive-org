@@ -66,11 +66,8 @@ Folders help keeping the Project Bin organized, structured, and easy to navigate
 
 Right-click on a folder opens this context menu:
 
-.. figure:: /images/project_and_asset_management/project_bin_folder_options.webp
+.. figure:: /images/project_and_asset_management/project_bin-folder_options-2604.webp
    :width: 351px
-
-|rename|:
-   Renames the folder. Keyboard shortcut is :kbd:`F2`. You can also just double-click the folder name in the bin
 
 |open_new_bin|:
    Creates a new bin from the folder
@@ -81,8 +78,16 @@ Right-click on a folder opens this context menu:
 |target_audio|:
    Select this if you want this folder to receive all audio captures
 
+.. .. versionadded:: 26.04 Add Clip
+
+:guilabel:`Add Clip`
+   :doc:`Add clip or folder </project_and_asset_management/project_bin/clips>`
+
 |create_folder|:
    Creates a new folder. If nothing has been selected in the bin, a new folder is created at the bin level. If a folder has been selected, a new folder underneath the selected one is created.
+
+|rename|:
+   Renames the folder. Keyboard shortcut is :kbd:`F2`. You can also just double-click the folder name in the bin
 
 |delete_folder|:
    Deletes the selected folder.
