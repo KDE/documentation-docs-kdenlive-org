@@ -117,9 +117,13 @@ Timeline Cursor/Position Caret/Playhead
       :width: 450px
       :align: left
       
-   This indicates the position we are displaying in the :ref:`ui-monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead).
+      This indicates the position we are displaying in the :ref:`ui-monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead).
 
-   Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :doc:`Configure Kdenlive</getting_started/configuration>`.
+.. ..   Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :doc:`Configure Kdenlive</getting_started/configuration>`.
+
+.. .. versionadded:: 26.04 fixed centered playhead
+
+A fixed centered playhead can be enabled in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:`Fixed centered playhead`. When enabled, the playhead remains locked at the center of the timeline view while the timeline content scrolls smoothly beneath it during playback, scrubbing, and seeking.    
 
 .. rst-class:: clear-both
 
