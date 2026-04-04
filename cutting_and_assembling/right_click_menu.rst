@@ -136,7 +136,7 @@ Empty Space in Timeline
 A different menu appears if you click in empty space in the timeline.
 
 
-.. figure:: /images/kdenlive_right-click_in_timeline_space.png
+.. figure:: /images/cutting_and_assembling/cutting-assembling_right-click-empty-space_2604.webp
    
 
 * :menuselection:`Paste` will paste a clip from the clipboard into the timeline
@@ -161,3 +161,5 @@ A different menu appears if you click in empty space in the timeline.
 
 
 * :menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition.
+
+* :menuselection:`Add Clip` (works in video tracks only) will open a sub-menu to allow you to quickly add :ref:`clips to the timeline <add_clips_directly_to_timeline>`.

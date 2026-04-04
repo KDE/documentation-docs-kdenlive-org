@@ -75,5 +75,18 @@ In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or
    * - **10**
      - :guilabel:`Ignore subfolder structure` enables importing video footage or audio recording folders while automatically ignoring any sub-folder structures created by some devices, such as the Sony XDCam, Panasonic P2, Canon camcorders, or Zoom audio recorders.
 
-|
 
+.. .. versionadded:: 26.04 Add clips directly to timeline via context menu with smart length detection
+
+.. _add_clips_directly_to_timeline:
+
+Add clips directly to timeline
+------------------------------
+
+Alternatively you can right click on an empty space in the timeline and choose :menuselection:`Add Clip`. This will open a sub-menu to allow you to quickly add clips. The clip will be placed exactly where the mouse cursor was.
+
+This function has a smart length detection for placing clips into a gap. If the default length of color clip, Title Clip, Template Title are longer then the gap it will be shortened accordingly to fit into the gap.
+
+All other clip types are only inserted into a gap if the gap is big enough (no message shows up if the clip is too long).
+
+Adding a folder: The folder is added in the project bin but only the first A/V clip of this folder is added to the timeline.
