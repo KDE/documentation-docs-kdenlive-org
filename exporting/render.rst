@@ -301,14 +301,28 @@ Switch this on to further reduce rendering time. Once enabled you can select the
 Other Options
 ~~~~~~~~~~~~~
 
-.. figure:: /images/exporting/kdenlive2304_rendering-other.webp
-   :align: left
+.. figure:: /images/exporting/exporting_render-other_2604.webp
 
    Other rendering options
 
-:guilabel:`2 pass`
+:guilabel:`2 pass` - Two pass rendering allows a better control over the final rendered file size. Compatible with variable bitrate, and only relevant for some video codecs.
 
-:guilabel:`Export metadata` - Check this box to have the metadata entered in the :doc:`Project Settings</project_and_asset_management/project_settings/tab_meta_data>` placed into the metadata of the rendered file.
+:guilabel:`Export metadata` - Check this box to have the metadata entered in the :doc:`Project Settings</project_and_asset_management/project_settings/tab_meta_data>` placed into the :ref:`metadata of the rendered file<metadata>`.
+
+:guilabel:`Embed subtitles instead of burning them in` - Creates a stream for subtitles in the container (e.g. MKV)
+
+:guilabel:`Open folder after export` - Opens the folder where the file was saved in the default file manager application
+
+:guilabel:`Play after render` - Opens the default media player application and plays the rendered file
+
+:guilabel:`Keep log files` - When enabled, add link to quickly open the .mlt playlist file used for rendering
+
+:guilabel:`Add to Project Bin` - It automatically adds the resulting file to the Project Bin when successfully rendered. In some workflows, it is useful to render a part of a project and add it to the Project Bin for later reuse or for adding effects.
+
+
+.. _metadata:
+
+**Metadata example**
 
 .. container:: clear-both
 
@@ -330,20 +344,6 @@ You can check the metadata in the rendered video by entering this in a terminal 
 .. code-block:: bash
 
   $ ffprobe <your_video>
-
-
-.. figure:: /images/exporting/kdenlive2304_rendering-other.webp
-   :align: left
-
-   Other rendering options
-
-:guilabel:`Embed subtitles instead of burning them in` - Creates a stream for subtitles in the container (e.g. MKV)
-
-:guilabel:`Open folder after export` - Opens the folder where the file was saved in the default file manager application
-
-:guilabel:`Play after render` - Opens the default media player application and plays the rendered file
-
-.. rst-class:: clear-both
 
 
 .. _rendering-batch_mode:
