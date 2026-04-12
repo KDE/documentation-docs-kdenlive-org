@@ -640,8 +640,9 @@ Status Bar
 ----------
 
 .. .. versionadded:: 25.12 Audio track: add Zoom Audio Waveforms. Add button to hide clip overlays (clip name, effect names, ...) 
+.. .. versionadded:: 26.04 Switch for mouse zoom on playhead in timeline
 
-.. figure:: /images/cutting-assembling_statusbar_2512.webp
+.. figure:: /images/cutting-assembling_statusbar_2604.webp
    :width: 500px
    :figwidth: 500px
 
@@ -652,25 +653,27 @@ Status Bar
 
 :3: Mode you are in (default is :guilabel:`Select` = :guilabel:`Normal Mode`)
 
-:4: Switch for :guilabel:`Color Tags`
+:4: Switch for ::guilabel:`mouse zoom on playhead` in timeline
 
-:5: Switch for :guilabel:`Video Thumbnails`
+:5: Switch for :guilabel:`Color Tags`
 
-:6: Switch for :guilabel:`Audio Thumbnails`. Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio tracks. See `Show Audio Thumbnails`_
+:6: Switch for :guilabel:`Video Thumbnails`
 
-:7: Switch for :guilabel:`markers`. See `Show marker comments`_
+:7: Switch for :guilabel:`Audio Thumbnails`. Toggles zooming audio waveforms from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio tracks. See `Show Audio Thumbnails`_
 
-:8: Switch for :guilabel:`Clip Names`, effect names and info in the timeline
+:8: Switch for :guilabel:`markers`. See `Show marker comments`_
+
+:9: Switch for :guilabel:`Clip Names`, effect names and info in the timeline
    
-:9: Switch for :guilabel:`Snap`. See `Snap`_
+:10: Switch for :guilabel:`Snap`. See `Snap`_
 
-:10: :guilabel:`Fit Zoom to Project`. See `Fit Zoom to Project`_
+:11: :guilabel:`Fit Zoom to Project`. See `Fit Zoom to Project`_
 
-:11: Zoom Out
+:12: Zoom Out
 
-:12: Zoom slider `Zoom Project`_
+:13: Zoom slider `Zoom Project`_
 
-:13: Zoom In
+:14: Zoom In
 
 
 Split Audio and Video Automatically
