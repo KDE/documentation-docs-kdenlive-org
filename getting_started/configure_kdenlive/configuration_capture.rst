@@ -85,7 +85,7 @@ Audio
 .. .. versionadded:: 26.04 Add "sample format" and "Use device default setting" for recording trouble shooting
 
 
-These settings are for configuring the audio device that is used during screen recording and for recording of voice overs. See the chapter about :doc:`Capturing Audio  </project_and_asset_management/capturing_audio>`.
+These settings are for configuring the audio device that is used during screen recording and for recording of voice overs. See the chapter about :doc:`Capturing Audio</project_and_asset_management/capturing_audio>`.
 
 .. figure:: /images/getting_started/configure_capture_audio_2604.webp
    :width: 700px
@@ -96,7 +96,7 @@ These settings are for configuring the audio device that is used during screen r
 
 :2: :guilabel:`Capture volume`. Use the slider to adjust the volume for the recording.
 
-:3: :guilabel:`Use Device Default Settings`. This will set the channels, sample rate, and sample formats to the device's default.
+:3: :guilabel:`Use Device Default Settings`. This will set the channels, sample rate and sample formats to the device's default,
 
 :4: :guilabel:`Channels`. Select how many channels you want to record. Options are **Stereo (2 channels)** (default), and **Mono (1 channel)**. It only displays values supported by the selected hardware.
 
