@@ -26,7 +26,7 @@ When you open a new project, Kdenlive automatically generates one (1) sequence c
 
 A sequence behaves like a clip: you can open a sequence and play it in the Clip Monitor, mark In and Out points, drag it into another sequence, just as if it is a clip (insert in the same sequence is not possible). 
 
-.. figure:: /images/Timeline_nested_sequence.png
+.. figure:: /images/cutting_and_assembling/Timeline_nested_sequence.webp
    :scale: 75%
    
 Inserting a sequence into another sequence creates what's known as a nested sequence. Like clips, nested sequences are actually pointers or references to the original sequence, not copies. You can nest a sequence into another one; then, if you change the original sequence, all the locations in which that sequence is nested will be updated.
@@ -34,7 +34,7 @@ Inserting a sequence into another sequence creates what's known as a nested sequ
 The timeline view consists in minimum of one (1) or more sequences. By adding a second sequence to the timeline, each sequence appears with a tab above the timeline in the timeline tab bar.
 
 
-.. figure:: /images/Timeline_with_sequences.png
+.. figure:: /images/cutting_and_assembling/Timeline_with_sequences.webp
    :scale: 75%
   
 
@@ -71,7 +71,7 @@ Create new sequence in timeline's tab bar
 
 After adding a 2nd sequence, the timeline tab bar shows up and sequence tabs appear. You can add sequences from the :guilabel:`Add Timeline Sequence` on the right site (plus sign).
 
-.. figure:: /images/add_sequence_from_timeline_tab_bar.png
+.. figure:: /images/cutting_and_assembling/add_sequence_from_timeline_tab_bar.webp
    :align: left
    
 
@@ -82,7 +82,7 @@ Create a nested sequence
 
 Adds the clips which are currently selected in the timeline to a new sequence clip. The selected clips get exchanged in place by the new created sequence and the new created sequence is stored in the :ref:`default sequence folder <default_sequence_folder>`.
 
-.. figure:: /images/Create_nested_sequence.png
+.. figure:: /images/cutting_and_assembling/Create_nested_sequence.webp
    :scale: 75%
    
 Select clips in the timeline. Choose :menuselection:`Timeline --> Create Sequence from selection`
@@ -160,7 +160,7 @@ Working with sequences
 Change order of sequence tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: /images/Kdenlive_reorder_sequence_tabs.png
+.. figure:: /images/cutting_and_assembling/Kdenlive_reorder_sequence_tabs.webp
    :scale: 75%
    
 Click and hold the mouse button until the sequence tab gets a blue line on top. Drag it to the new position you want, and then release the mouse.
@@ -171,7 +171,7 @@ Open a sequence for editing
 
 There are 3 ways to open a sequence for editing:
 
-.. figure:: /images/Timeline_nested_sequence_jump.png
+.. figure:: /images/cutting_and_assembling/Timeline_nested_sequence_jump.webp
    :scale: 75%
    
    Double click a nested sequence for editing
@@ -184,10 +184,33 @@ There are 3 ways to open a sequence for editing:
 Duplicate a sequence
 ~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: /images/Duplicate_sequence.png
+.. figure:: /images/cutting_and_assembling/Duplicate_sequence.webp
    :scale: 75%
    
 Right-click a sequence in the Project Bin choose :guilabel:`Duplicate Clip`
+
+
+Update the sequence clip waveforms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. .. versionadded:: 26.04 Add waveform to sequence and update the waveform if needed
+
+.. figure:: /images/cutting_and_assembling/sequence-update_waveform-2604.webp
+   :scale: 75%
+
+   You can manually update the sequence waveform  in the clip monitor
+
+The sequence clip waveform get created:
+
+- on project load when missing
+
+- manually during editing by clicking on |view-refresh| in the Clip monitor waveform
+
+- When switching the current timeline tab, the waveform for the previous sequence tab will automatically be updated if necessary.
+
+Video processing is disabled during the creation of audio thumbnails.
+
+Sequence audio thumbnails are only cached to disk on project save to avoid saving incorrect thumbnails.
 
 
 Copy a sequence from one project to another
