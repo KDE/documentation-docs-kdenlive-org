@@ -99,9 +99,8 @@ These settings are for configuring the audio device that is used during screen r
 
 :4: :guilabel:`Channels`. Select how many channels you want to record. Options are **Stereo (2 channels)** (default), and **Mono (1 channel)**. It only displays values supported by the selected hardware.
 
-:5: :guilabel:`Disable countdown before recording`. If checked, recording will start immediately upon pressing the record button in the audio track (see :doc:`Capturing Audio </project_and_asset_management/capturing_audio>`). By default, a three-second countdown will be used and displayed in the project monitor.
 :5: :guilabel:`Sample rate`. Select the sample rate for the recording. Options are **48,000Hz** (default) and **44,100Hz** and **96,000Hz**. It only displays values supported by the selected hardware.
 
 :6: :guilabel:`Sample format`. Try one of this options if recording is not working properly. Options are **8bit** , **16bit**, **32bit**, and **float**.
 
-:7: :guilabel:`Disable countdown before recording`. If checked, recording will start immediately upon pressing the record button in the audio track (see :doc:`Capturing Audio </project_and_asset_management/capturing_audio>`). By default, a three-second countdown will be used and displayed in the project monitor.
+:7: :guilabel:`Disable countdown before recording`. If checked, recording will start immediately upon pressing the record button in the audio track (see :doc:`Capturing Audio</project_and_asset_management/capturing_audio>`). By default, a three-second countdown will be used and displayed in the project monitor.
