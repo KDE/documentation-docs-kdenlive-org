@@ -177,17 +177,21 @@ It is possible to have several Glaxnimate instances open, but the background wil
 
 .. _change_speed_of_a_clip: 
 
-Change Speed of a Clip
-----------------------
+Change Speed of Clips
+---------------------
 
 .. .. versionadded:: 19.08
+.. .. versionadded:: 26.04 Change speed of multiple clips selected from timeline
 
 .. figure:: /images/adjustspeed.gif
 
+Select in the timeline the clips on which you like to change the speed. 
 
-Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the timeline.
+Adjust the speed by pressing :kbd:`CTRL` and dragging with the LMB on one of the selected clips. The clip on which you change the speed determine the change for all selected clips. Once the mouse is released the speed change is shown on all selected clips.
 
-Doing with right click on the clip see :ref:`change_speed`. 
+Doing with right click on one of the selected clips see :ref:`change_speed`. If enabled, pitch compensation is preserved for all selected clips.
+
+If there is not enough space on a track to expand the clips an error message is shown in the status bar.
 
 
 .. _remove_spaces:
