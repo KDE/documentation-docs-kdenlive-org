@@ -34,20 +34,18 @@
 
    <a href="https://glaxnimate.mattbas.org/" target="_blank">Glaxnimate</a>
 
+.. |gyroflow| raw:: html
+
+   <a href="https://gyroflow.xyz/" target="_blank">Gyroflow</a>
 
 Environment
 -----------
 
 .. .. versionadded:: 22.08 Use lower CPU priority for proxy and transcode tasks
-
 .. .. versionadded:: 22.12 Warn if cache data exceeds
-
 .. .. versionadded:: 24.02 Check for Updates
-
 .. .. versionremoved:: 25.04 Python tab
-
 .. .. versionadded:: 25.08 Prevent sleep when playing and rendering
-
 .. .. versionadded:: 25.12 Show welcome screen at startup
 
 
@@ -193,9 +191,11 @@ These settings tell Kdenlive where project files are to be stored. It also contr
 Default Apps
 ~~~~~~~~~~~~
 
+.. .. versionadded:: 26.04 Default app, video editing
+
 These settings control which external application opens when you choose :ref:`edit_clip` for a clip in the Project Bin. 
 
-.. figure:: /images/getting_started/configure_environment_default_apps_1_2412.webp
+.. figure:: /images/getting_started/configure_environment-default_apps-2604.webp
    :width: 500px
    :figwidth: 500px
    
@@ -206,6 +206,8 @@ These settings control which external application opens when you choose :ref:`ed
 :guilabel:`Audio editing`: A free software would be |audacity|.
 
 :guilabel:`Animation editing`: Kdenlive integrates nicely with and updates files automatically which are saved in |glaxnimate| which is available from its homepage for Linux, Windows, and MacOS.
+
+:guilabel:`Video editing`: Specially to be used with other programs like |gyroflow|.
 
 .. note:: **Mac user:** See these :ref:`instructions <kdenlive_macos>` how to install and run :file:`dmg` files.
 

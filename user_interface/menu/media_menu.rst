@@ -710,6 +710,7 @@ Edit Clip
 ---------
 
 .. .. versionadded:: 22.08 animation
+.. .. versionadded:: 26.04 video
 
 This function is available for the following clip types:
 
@@ -718,6 +719,8 @@ This function is available for the following clip types:
 - image
 
 - animation
+
+- video
 
 It opens the clip in an external software specified in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Apps <configure_environment_default_apps>` ready for editing.
 
