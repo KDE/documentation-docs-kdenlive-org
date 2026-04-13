@@ -17,28 +17,30 @@
 Markers Menu
 ============
 
-.. .. versionchanged:: 25.12 Reorder menu structure and content 
+.. .. versionchanged:: 25.12 Reorder menu structure and content
+.. .. versionchanged:: 26.04 Re-arrange Markers menu to avoid confusion. Added delete all timeline markers action
 
 The functions in this menu affect markers that are selected in the Timeline **or** in the Project Bin. Menu functions are available depending on whether a clip is selected in the Project Bin or in the Timeline.
 
-.. figure:: /images/user_interface/menu_reference/menu_reference-markers_menu-2512.webp
+.. figure:: /images/user_interface/menu_reference/menu_reference-markers_menu-2604.webp
    :align: left
-   :scale: 77%
+   :scale: 74%
       
    Markers Menu
 
-- :ref:`add_marker`
 - :ref:`add_marker_quickly`
+- :ref:`add_marker`
+- :ref:`add_markers_by_category`
 - :ref:`edit_marker`
 - :ref:`delete_marker`
+- :ref:`delete_all_markers`
 - :ref:`add_remove_timeline_marker`
 - :ref:`edit_timeline_marker`
 - :ref:`delete_timeline_marker`
-- :ref:`delete_all_markers`
+- :ref:`delete_all_timeline_marker`
 - :ref:`timeline_markers_locked`
 - :ref:`search_marker`
 - :ref:`marker_menu_export_markers`
-- :ref:`add_markers_by_category`
 
 .. rst-class:: clear-both
 
@@ -47,6 +49,14 @@ The functions in this menu affect markers that are selected in the Timeline **or
 The menu allows you to Add, Edit or Delete Markers or Timeline Markers (Guides). For more details see the section about :ref:`Markers` in this documentation.
 
 .. note:: The Add Marker function behaves differently depending on whether a clip is selected in the Project Bin or in the Timeline **and** where the playhead is currently **and** whether the focus is on the Timeline or the Clip Monitor.
+
+
+.. _add_marker_quickly:
+
+Add Marker Quickly
+------------------
+
+Adds a new marker at the current time point. Shortcut :kbd:`Num+*` (On Numlock pad: :kbd:`*`)
 
 
 .. _add_marker:
@@ -59,12 +69,18 @@ Adds a Marker to the clip at the current timepoint. Markers are properties of th
 .. note:: In order for the Add Marker to work a clip must be selected in the Timeline. You can create multiple Markers in the markers widget for the clip selected in the Project Bin independent of the Timeline.
 
 
-.. _add_marker_quickly:
+.. _add_markers_by_category:
 
-Add Marker Quickly
-------------------
+Add Markers by Category
+-----------------------
 
-Adds a new marker at the current time point. Shortcut :kbd:`Num+*` (On Numlock pad: :kbd:`*`)
+Opens a flyout to add a marker by category:
+
+.. figure:: /images/user_interface/menu_reference/menu_reference-add_marker_by_category_menu-2512.webp
+   :align: left
+   :scale: 77%
+      
+   Add Markers by Category Menu
 
 
 .. _edit_marker:
@@ -85,6 +101,18 @@ Delete Marker
 For this to work the playhead needs to be right on top of a Marker. If it is not you get an error on the bottom left "No Marker found at Cursor time". Use the :kbd:`Left` and :kbd:`Right` keys to move the playhead one frame at a time, or use them with :kbd:`ALT` to jump to the next or previous edit point (for example cuts, clip edges, Markers and Timeline Markers).
 
 As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
+
+
+.. _delete_all_markers:
+
+Delete All Markers
+------------------
+
+Deletes all Markers from the current clip.
+
+As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
+
+This will delete all Timeline Markers from the timeline without any further warning. Use :guilabel:`Undo` or :menuselection:`Menu --> Edit --> Undo` or :kbd:`Ctrl+Z` to undo this action.
 
 
 .. _add_remove_timeline_marker:
@@ -111,16 +139,12 @@ Delete Timeline Marker
 This will delete the Timeline Marker (Guide) at the current playhead position.
 
 
-.. _delete_all_markers:
+.. _delete_all_timeline_marker:
 
-Delete All Markers
-------------------
+Delete All Timeline Marker
+--------------------------
 
-Deletes all Markers from the current clip.
-
-As Markers are properties of the clips in the Project Bin, this action removes the Marker from the clip in the Project Bin and thus from any other instance of this clip in the Timeline.
-
-This will delete all Timeline Markers from the timeline without any further warning. Use :guilabel:`Undo` or :menuselection:`Menu --> Edit --> Undo` or :kbd:`Ctrl+Z` to undo this action.
+This will delete all Timeline Marker (Guide).
 
 
 .. _timeline_markers_locked:
@@ -145,18 +169,3 @@ Export Markers
 --------------
 
 This will open a dialog window in which you can specify the export options for Markers. Use this function to create chapters for YouTube uploads.
-
-
-.. _add_markers_by_category:
-
-Add Markers by Category
------------------------
-
-Opens a flyout to add a marker by category:
-
-.. figure:: /images/user_interface/menu_reference/menu_reference-add_marker_by_category_menu-2512.webp
-   :align: left
-   :scale: 77%
-      
-   Add Markers by Category Menu
-
