@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2022-03-04 18:01+0100\n"
+"PO-Revision-Date: 2026-04-12 12:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -18,17 +18,20 @@ msgstr ""
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:-1
 msgid "Kdenlive Tips & Tricks - Shooting with Your DSLR"
-msgstr ""
+msgstr "Tipy a triky Kdenlive - Natáčanie s vaším DSLR"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:-1
 msgid ""
 "KDE, Kdenlive, tips, tricks, tips & tricks, shooting tips, shooting, DSLR, "
 "documentation, user manual, video editor, open source, free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, tipy, triky, tipy a triky, tipy na natáčanie, natáčanie, "
+"DSLR, dokumentácia, používateľská príručka, video editor, open source, "
+"voľný, naučiť sa, jednoducho"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:38
 msgid "Using P2 Footage from the Panasonic HVX200"
-msgstr ""
+msgstr "Použitie záznamu P2 z Panasonic HVX200"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:40
 msgid ""
@@ -41,28 +44,39 @@ msgid ""
 "transcoding and so can be done in the field while shooting just as fast as "
 "simply transferring the original P2 files."
 msgstr ""
+"Použitie záznamu z kariet P2 je jednoduché, keď viete ako na to! Súbory MXF "
+"na kartách P2 nie je možné čítať, kým ich neskonvertujete pomocou |"
+"mxfsplit|, čo je súčasť |freemxf|. Konverzia je bezstratová a výsledné "
+"súbory obsahujú video aj zvuk a dajú sa upravovať v reálnom čase s Kdenlive "
+"(alebo Blender 2.5+) na väčšine počítačov vyrobených za posledných päť "
+"rokov. Tiež |ffmpeg| dokáže čítať tieto súbory. Tento proces je veľmi "
+"rýchly, pretože nedochádza k transkódovaniu, a preto sa dá vykonať v teréne "
+"počas natáčania rovnako rýchlo ako jednoduché prenesenie pôvodných súborov "
+"P2."
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:44
 msgid "Step One: FreeMXF"
-msgstr ""
+msgstr "Krok prvý: FreeMXF"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:46
 msgid "Get the source code for **MFXlib** from |sourceforge|."
-msgstr ""
+msgstr "Získajte zdrojový kód pre **MFXlib** z |sourceforge|."
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:48
 msgid ""
 "Then configure, compile, and install it by running the following code in the "
 "directory where you saved the source files:"
 msgstr ""
+"Potom ho nakonfigurujte, skompilujte a nainštalujte spustením nasledujúceho "
+"kódu v adresári, kde ste uložili zdrojové súbory:"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:58
 msgid "This will get **mxfsplit** (part of **mxflib**) working."
-msgstr ""
+msgstr "Tým sa sprístupní **mxfsplit** (súčasť **mxflib**)."
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:62
 msgid "Step Two: Using mxfsplit"
-msgstr ""
+msgstr "Krok druhý: Použitie mxfsplit"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:64
 msgid ""
@@ -70,6 +84,9 @@ msgid ""
 "MXF files in a chosen directory into usable files. Do a search and replace "
 "for ``/source/directory`` and ``/destination/directory``"
 msgstr ""
+"Tu je jednoduchý skript, ktorý môžete spustiť v termináli. Skonvertuje "
+"všetky súbory MXF vo vybranom adresári na použiteľné súbory. Vyhľadajte a "
+"nahraďte ``/source/directory`` a ``/destination/directory``"
 
 #: ../../tips_and_tricks/shooting_tips/using_p2_footage_from_panasonic_hvx200.rst:88
 msgid "Conclusion"
@@ -82,3 +99,7 @@ msgid ""
 "the resulting .MXF files to whatever format is preferred. For example, the "
 "following code would get the files ready for Youtube, Vimeo, etc.:"
 msgstr ""
+"Teraz máte skript, ktorý dokáže jednoducho pripraviť záznam na úpravu (napr. "
+"s Kdenlive alebo Blenderom) a na transkódovanie. FFMPEG je možné použiť na "
+"transkódovanie výsledných súborov .MXF do akéhokoľvek uprednostňovaného "
+"formátu. Napríklad, nasledujúci kód pripraví súbory pre Youtube, Vimeo atď.:"
