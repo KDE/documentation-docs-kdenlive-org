@@ -30,9 +30,9 @@
 Edit Menu
 =========
 
-.. .. versionchanged:: 25.12 Reorder menu structure and content 
+.. .. versionchanged:: 25.12 Reorder menu structure and content
 
-.. figure:: /images/user_interface/menu_reference/menu_reference-edit_menu-2512.webp
+.. figure:: /images/user_interface/menu_reference/menu_reference-edit_menu-2604.webp
    :align: left
    :scale: 74%
       
@@ -40,6 +40,7 @@ Edit Menu
 
 - :ref:`edit_undo`
 - :ref:`edit_redo`
+- :ref:`clear_undo_history`
 - :ref:`edit_cut`
 - :ref:`edit_copy`
 - :ref:`edit_paste`
@@ -57,7 +58,7 @@ Undo
 
 :menuselection:`Edit --> Undo` is used to reverse the last change you made or operation you performed in Kdenlive.  If you have made multiple changes to your project, **Undo** can be used repeatedly to rollback each of the changes in the reverse order they were performed. **Undo** can also be executed from the icon on the **Extra Toolbar** (:menuselection:`Menu --> Settings --> Toolbars Shown`) or by using the default keyboard shortcut :kbd:`Ctrl+Z`.
 
-To view a navigable list of all the changes which can be undone, see :ref:`Undo_History`.
+To view a navigable list of all the changes which can be undone, see :ref:`undo_history`.
 
 
 .. _edit_redo:
@@ -67,6 +68,17 @@ Redo
 
 :menuselection:`Menu --> Edit --> Redo` reverses the previous `Undo`_ operation. The default keyboard shortcut is :kbd:`Ctrl+Shift+Z`.
 
+
+.. _clear_undo_history:
+
+Clear Undo History
+------------------
+
+.. .. versionadded:: 26.04 Clear Undo History
+
+:menuselection:`Menu --> Edit --> Clear Undo History` clears the undo history and will free the undo operation in memory for the current project. It will discard all undo history, so you cannot undo anymore.  
+
+For more information see :ref:`undo_history`.
 
 .. _edit_cut:
 

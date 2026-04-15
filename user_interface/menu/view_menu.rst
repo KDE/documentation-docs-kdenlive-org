@@ -643,7 +643,7 @@ The Undo History shows all the operations performed so far and allows to quickly
 
 There may be times when you want to quickly restore your project to the state it was in several changes ago. Instead of repeatedly executing single undo operations, it might be more efficient to jump right to the operation in question - if you could easily locate it.
 
-Use :kbd:`RMB` anywhere in the window to open a context menu to clear all undo history. Clicking that button will issue a warning that the undo history will be deleted irretrievably. Clearing the undo history may be helpful to release memory in long edit sessions. The undo stack is cleared also when a timeline sequence gets deleted.
+Use :kbd:`RMB` anywhere in the window to open a context menu to :menuselection:`Clear Undo History` complete. By default, Kdenlive keeps an unlimited number of undo operations in memory for the current project. Clicking that button will issue a warning that the undo history will be deleted irretrievably. Clearing the undo history will discard all undo history, so you cannot undo anymore, but it will free the memory and close file handles that are not necessarily needed anymore. This may be helpful to release memory in long edit sessions. The undo stack is cleared also when a timeline sequence gets deleted.
 
 .. rst-class:: clear-both
 
