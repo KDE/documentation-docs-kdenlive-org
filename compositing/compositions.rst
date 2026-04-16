@@ -25,12 +25,13 @@ Compositions Tab
 ================
 
 .. .. versionchanged:: 24.12
+.. .. versionchanged:: 26.04 Add animated transition preview support
 
 Make the Compositions widget visible in :menuselection:`Menu --> View --> Compositions`.
 
-The Compositions widget has six control icons that show or hide the different effect categories:
+The Compositions widget has four control icons that show or hide the different effect categories:
 
-.. figure:: /images/effects_and_compositions/kdenlive2412_compositions_tab.webp
+.. figure:: /images/effects_and_compositions/compositing-compositions_tab-2604.webp
    :align: left
    :width: 350px
    :figwidth: 350px
@@ -39,14 +40,20 @@ The Compositions widget has six control icons that show or hide the different ef
 
 |show-all-effects|\ :guilabel:`Main effects` shows all compositions (default view)
 
+|pixelate|\ :guilabel:`Show lumas only` shows luma compositions only
+
 |transform-move-horizontal|\ :guilabel:`Show transitions only` shows the transitions only
 
 |favorite|\ :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert a composition` from the right-click menu of a clip in the Timeline.
 
-|edit-download|\ :guilabel:`Download New Effects` opens a dialog window where compositions templates are listed from the KDE Store
+|view-list-icons|\ :guilabel:`Toggle between list and icon view` toggles between list and animated preview 
+
+|edit-download|\ :guilabel:`Download New Wipes` opens a dialog window where compositions templates are listed from the KDE Store
 
 |view-filter|\ :guilabel:`Only show reviewed assets` toggles between the compositions which are reviewed and tested by the Kdenlive team and not tested compositions (still in test phase)
 :guilabel:`Show 10 bit compatible only` it hides assets not compatible with a 10-bit pipeline. Use the :guilabel:`10 Bit` category or the :guilabel:`NVENC H265 ABR 10 bit` codec for :ref:`rendering <rendering_preset_categories>`.
+
+|view-refresh|\ :guilabel:`Generate Preview` start a Python script to generate previews for custom lumas. This is only active if Python on the computer is installed. While generating the previews following message appears :guilabel:`Generating transition previews. This may take a few minutes...`
 
 |help-about|\ :guilabel:`Show/hide description of effects` toggles the information display below the compositions list where a short description of what the composition does is displayed when on. Clicking on the link opens the online documentation to this effect.
 
@@ -78,6 +85,9 @@ The Compositions widget has six control icons that show or hide the different ef
 
    .. figure:: /images/effects_and_compositions/composition_add-method_3.gif
       :width: 400px
+
+
+.. note:: With method #1 and #2, Kdenlive by default creates a composition which automatically adjust its duration to the above/below clips.
 
 
 .. _compositing-composition_track:

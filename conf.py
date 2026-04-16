@@ -489,6 +489,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |pixelate| image:: /images/icons/pixelate.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |play| image:: /images/icons/media-playback-start.svg
    :width: 22px
    :class: no-scaled-link
