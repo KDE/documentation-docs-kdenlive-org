@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2023-12-10 11:38+0100\n"
-"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"PO-Revision-Date: 2026-04-14 17:15+0200\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -19,12 +19,15 @@ msgstr ""
 #: ../../more_information/earlier_versions/full_luma.rst:-1
 msgid "The Kdenlive User Manual - Notes for Earlier Versions - Full Luma"
 msgstr ""
+"Používateľská príručka Kdenlive - Poznámky k starším verziám - Plný jas"
 
 #: ../../more_information/earlier_versions/full_luma.rst:-1
 msgid ""
 "KDE, Kdenlive, documentation, user manual, video editor, open source, free, "
 "help, learn, easy, earlier version, full luma"
 msgstr ""
+"KDE, Kdenlive, dokumentácia, používateľská príručka, video editor, open "
+"source, zadarmo, pomoc, naučiť sa, jednoduché, staršia verzia, plný jas"
 
 #: ../../more_information/earlier_versions/full_luma.rst:28
 msgid ""
@@ -32,10 +35,13 @@ msgid ""
 "features or functions from earlier versions of Kdenlive that are deprecated "
 "or have been superseded by something else."
 msgstr ""
+"Táto stránka sa už neudržiava a obsahuje informácie odkazujúce na funkcie "
+"alebo možnosti zo starších verzií Kdenlive, ktoré sú zastarané alebo boli "
+"nahradené niečím iným."
 
 #: ../../more_information/earlier_versions/full_luma.rst:31
 msgid "Full Luma"
-msgstr ""
+msgstr "Plný jas"
 
 #: ../../more_information/earlier_versions/full_luma.rst:33
 msgid ""
@@ -43,12 +49,17 @@ msgid ""
 "`luma` recorded outside of the typical `broadcast`, limited 16 - 235 8-bit "
 "range."
 msgstr ""
+"Možnosť jasu :guilabel:`Plný (JPEG)` sa týka video zdrojov s :term:`jasom` "
+"zaznamenaným mimo typického `vysielacieho`, obmedzeného rozsahu 16 – 235 8-"
+"bitov."
 
 #: ../../more_information/earlier_versions/full_luma.rst:35
 msgid ""
 "It fixes problems when round-tripping video files with luma outside of the "
 "16 - 235 8-bit range."
 msgstr ""
+"Opravuje problémy pri spätnom spracovaní video súborov s jasom mimo rozsahu "
+"16 – 235 8-bitov."
 
 #: ../../more_information/earlier_versions/full_luma.rst:37
 msgid ""
@@ -58,6 +69,10 @@ msgid ""
 "highlights saturated in the preview in Kdenlive for camera sources that are "
 "full range."
 msgstr ""
+"Predvolene, keď importujeme video, spracúva sa a zobrazuje na základe "
+"rozsahu 16 – 235. To znamená, že úrovne pod 15 a tie nad 235 sú "
+"skomprimované na 0 a 255. Tieňové oblasti sú teda príliš tmavé a svetlé "
+"miesta nasýtené v náhľade Kdenlive pre zdroje kamier s plným rozsahom."
 
 #: ../../more_information/earlier_versions/full_luma.rst:39
 msgid ""
@@ -65,10 +80,13 @@ msgid ""
 "(compressed shadows and saturated highlights) resulting in a mismatch "
 "between the levels in the imported video and the exported video."
 msgstr ""
+"Pri renderovaní projektu tieto úrovne zostávajú vo finálnom videu "
+"(skomprimované tiene a nasýtené svetlé miesta), čo vedie k nesúladu medzi "
+"úrovňami importovaného a exportovaného videa."
 
 #: ../../more_information/earlier_versions/full_luma.rst:41
 msgid "This only really matters for round-tripping to an external application."
-msgstr ""
+msgstr "Toto je dôležité iba pri spätnom spracovaní vo externej aplikácii."
 
 #: ../../more_information/earlier_versions/full_luma.rst:43
 msgid ""
@@ -77,6 +95,10 @@ msgid ""
 "range, otherwise we see so called `gamma shifts`, `washed out` or saturated "
 "playback depending on playback handling."
 msgstr ""
+"Pre akékoľvek prehrávanie na DVD, Blu-ray a cez platformy ako Vimeo alebo "
+"Youtube by úrovne videa vo finálnom renderovanom výstupe mali byť v rozsahu "
+"16 – 235, inak vidíme tzv. `posuny gama`, `vyblednuté` alebo nasýtené "
+"prehrávanie v závislosti od spracovania prehrávania."
 
 #: ../../more_information/earlier_versions/full_luma.rst:45
 msgid ""
@@ -85,6 +107,9 @@ msgid ""
 "files and preview / scopes are based on an alternative YCbCr to RGB "
 "calculation."
 msgstr ""
+"Chceme však mať plnú kontrolu nad nastavením úrovní v Kdenlive, t. j. 0 – "
+"255 na 16 – 235. Možnosť plného jasu mení spracovanie súborov a náhľad/"
+"rozsahy sú založené na alternatívnom výpočte z YCbCr na RGB."
 
 #: ../../more_information/earlier_versions/full_luma.rst:47
 msgid ""
@@ -96,6 +121,13 @@ msgid ""
 "Kdenlive, so no effects, color correction etc. If any effects are added then "
 "the output will be restricted range again."
 msgstr ""
+"Zapnutím plného jasu, čo by sa malo robiť len pre zdroje kamier, o ktorých "
+"je známe, že sú v plnom rozsahu 0 – 255 alebo dokonca 16 – 255, ako FS100, "
+"Nex5, HV20, HV30 a pravdepodobne mnoho ďalších spotrebiteľských kamier. Tiež "
+"Canon a Nikon DSLR, ale trochu zložitejšie, môžeme exportovať video s "
+"úrovňami ako pri importe, ALE a je to veľké ALE, bez akýchkoľvek RGB "
+"operácií v Kdenlive, teda bez efektov, korekcie farieb atď. Ak sú pridané "
+"nejaké efekty, výstup bude opäť v obmedzenom rozsahu."
 
 #: ../../more_information/earlier_versions/full_luma.rst:57
 msgid ""
@@ -103,6 +135,9 @@ msgid ""
 "now defunct Kdenlive forum. For this documentation it has been lifted from |"
 "kdenlive_org| and adapted to match the overall style."
 msgstr ""
+"Pôvodný text pre **Plný jas** bol odoslaný používateľom *Yellow* na teraz "
+"zaniklé fórum Kdenlive. Pre túto dokumentáciu bol prebraný z |kdenlive_org| "
+"a upravený tak, aby zodpovedal celkovému štýlu."
 
 #: ../../more_information/earlier_versions/full_luma.rst:58
 msgid "**Sources**"
