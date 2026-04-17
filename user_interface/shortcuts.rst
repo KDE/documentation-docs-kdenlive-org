@@ -178,7 +178,7 @@ General
      - :kbd:`MW`
      - Works in:
 
-       - Timeline: scroll the timeline left/right
+       - Timeline: scroll the timeline left/right. :kbd:`Shift+MW` scroll vertical
        - Timeline Ruler
        - Project and Clip Monitor
        - Project Bin
@@ -193,7 +193,7 @@ General
        - Titler: adds clicked clips to the selection
        - Project Bin: adds all clips between already selected clip and clicked clip
    * - Expand/Collapse
-     - :kbd:`Shift+LMB`
+     - :kbd:`Shift+LMB`\ [2]_
      - Works in:
 
        - Timeline: expand/collapse all tracks of the same type
@@ -223,7 +223,7 @@ General
        - Timeline: into an empty part of a track makes the track active
        - Monitor: opens monitor in a second monitor (if installed) in fullscreen mode
    * - Reset value to default 
-     - :kbd:`MMB` [1]_ or :kbd:`RMB` [3]_
+     - :kbd:`MMB`\ [1]_ or :kbd:`RMB`\ [3]_
      - Works in:
 
        - :ref:`audio_mixer`
@@ -605,9 +605,11 @@ Timeline
      - :kbd:`Ctrl+dragging`
      - Only possible with keyboard
    * - Timeline panning
-     - :kbd:`Ctrl+dragging`
+     - | :kbd:`Ctrl+dragging`
+       | :kbd:`MMB+dragging`\ [1]_
      - | Only possible with keyboard
-       | Hold :kbd:`Ctrl` and click with :kbd:`LMB` into the timeline and start panning.
+       | Hold :kbd:`Ctrl` and click with :kbd:`LMB`\ [2]_ into the timeline and start panning.
+       | Hold :kbd:`MMB`\ [1]_ and start panning in the timeline.
    * - Return from any tools back to Selection tool.
      - :kbd:`ESC`
      - Only possible with keyboard

@@ -64,6 +64,22 @@ Zoombars
       
    Besides the availability of zoombars in the monitor and keyframe scroll bars, zoombars are now available in the timeline as well. You can easily zoom in/out in the timeline by dragging the edges of the timeline scrollbar. (Vertical zoombars coming soon.) Recommend playing this video in full-screen mode.
 
+
+
+Scrolling and Panning
+~~~~~~~~~~~~~~~~~~~~~~~
+
+**Scrolling the timeline**
+
+   Dragging the horizontally or vertically zoombar with the :kbd:`LMB`.
+   
+   Or inside the timeline horizontally with the :kbd:`MW` and vertically with :kbd:`Shift+MW` (you can invert this behavior in the :doc:`Timeline settings </getting_started/configure_kdenlive/configuration_timeline>`).
+
+**Panning continuously the timeline**
+
+   Either with :kbd:`Ctrl+LMB` or holding down the :kbd:`MMB` and dragging the timeline left or right. 
+
+
 .. _keybinding_info:
 
 Key binding information
