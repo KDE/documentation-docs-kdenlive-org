@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# SPDX-FileCopyrightText: 2023 Roman Paholik <wizzardsk@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2026 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2023-12-10 11:52+0100\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -110,7 +110,7 @@ msgstr "avfilter"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:35
 msgid "edgedetect"
-msgstr ""
+msgstr "edgedetect"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:37
 msgid "|linux| |appimage| |windows| |apple|"
@@ -130,6 +130,8 @@ msgid ""
 "This effect/filter detects and draws edges using the Canny edge detection "
 "algorithm\\ [1]_."
 msgstr ""
+"Tento efekt/filter detekuje a kreslí hrany pomocou algoritmu detekcie hrán "
+"Canny\\ [1]_."
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:56
 msgid "Parameters"
@@ -145,7 +147,7 @@ msgstr "Hodnota"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:66
 msgid "Low / High threshold"
-msgstr ""
+msgstr "Nízky / Vysoký prah"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:67
 msgid "Float"
@@ -159,6 +161,11 @@ msgid ""
 "guilabel:`Low threshold`. Range is from 0.000 to 1.000 with :guilabel:`Low "
 "threshold` being lower or equal to :guilabel:`High threshold`."
 msgstr ""
+"Nastavuje nízke a vysoké hodnoty prahu používané algoritmom. :guilabel:"
+"`Vysoký prah` vyberá \"silné\" hranové pixely, ktoré sú potom prepojené "
+"prostredníctvom 8-konektivity so \"slabými\" hranovými pixelmi vybranými "
+"pomocou :guilabel:`Nízky prah`. Rozsah je od 0,000 do 1,000, pričom :"
+"guilabel:`Nízky prah` musí byť nižší alebo rovný :guilabel:`Vysoký prah`."
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:69
 msgid "Modes"
@@ -171,7 +178,7 @@ msgstr "Výber"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:71
 msgid "Define the drawing mode"
-msgstr ""
+msgstr "Definuje režim kreslenia"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:72
 msgid "Planes"
@@ -179,7 +186,7 @@ msgstr "Roviny"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:74
 msgid "Select the :term:`planes<plane>` for filtering"
-msgstr ""
+msgstr "Vyberte :term:`roviny<plane>` na filtrovanie"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:76
 msgid "The following selection items are available:"
@@ -187,31 +194,31 @@ msgstr "K dispozícii sú nasledujúce položky výberu:"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:78
 msgid ":guilabel:`Modes`"
-msgstr ""
+msgstr ":guilabel:`Režimy`"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:85
 msgid "Wires"
-msgstr ""
+msgstr "Drôty"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:86
 msgid "Draw white/gray wires on black background (default)"
-msgstr ""
+msgstr "Kreslí biele/sivé drôty na čiernom pozadí (predvolené)"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:87
 msgid "Colormix"
-msgstr ""
+msgstr "Miešanie farieb"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:88
 msgid "Mix the colors to create a paint/cartoon effect"
-msgstr ""
+msgstr "Mieša farby na vytvorenie efektu maľby/karikatúry"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:89
 msgid "Canny"
-msgstr ""
+msgstr "Canny"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:90
 msgid "Applies Canny edge detector on all selected :term:`planes<plane>`"
-msgstr ""
+msgstr "Použije detektor hrán Canny na všetky vybrané :term:`roviny<plane>`"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:92
 msgid ":guilabel:`Planes`"
@@ -223,11 +230,11 @@ msgstr "Žiadna"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:101
 msgid "Y/U/V"
-msgstr ""
+msgstr "Y/U/V"
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:102
 msgid "Also combinations of the planes are possible. Default is **YUV**."
-msgstr ""
+msgstr "Možné sú aj kombinácie rovín. Predvolené je **YUV**."
 
 #: ../../effects_and_filters/video_effects/stylize/edge_detection.rst:103
 msgid "Alpha"
@@ -237,7 +244,7 @@ msgstr "Alfa"
 msgid ""
 "For more details refer to the |canny_edge_detector| article in Wikipedia."
 msgstr ""
+"Ďalšie podrobnosti nájdete v článku |canny_edge_detector| na Wikipédii."
 
-#, fuzzy
 #~ msgid "keyframe"
 #~ msgstr "Kľúčové snímky"

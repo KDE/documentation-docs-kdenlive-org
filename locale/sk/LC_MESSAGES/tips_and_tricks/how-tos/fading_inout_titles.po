@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# SPDX-FileCopyrightText: 2023 Roman Paholik <wizzardsk@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2026 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2023-12-10 11:40+0100\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:-1
 msgid "Kdenlive Tips & Tricks - How to Fading In/Out of Titles"
-msgstr ""
+msgstr "Kdenlive tipy a triky – Ako postupne zobraziť/skryť titulky"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:-1
 msgid ""
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:20
 msgid "How to Fading In/Out of Titles"
-msgstr ""
+msgstr "Ako postupne zobraziť/skryť titulky"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:22
 msgid ""
@@ -44,24 +44,32 @@ msgid ""
 "Fade from/to Black effects though, as these effects remove the title "
 "transparency information."
 msgstr ""
+"V tomto krátkom videu *Ako na to* vám ukážeme, ako (plynulo) zobraziť a "
+"skryť titulky Kdenlive nad videoklipm a prechody od priehľadnosti a k nej. "
+"Kľúčom k úspechu je použiť prechod **Kompozit a transformácia** s kľúčovými "
+"snímkami (fungujú aj **Affine** a **Composite**). **Nepoužívajte** však "
+"efekty Postupné zobrazenie/skrytie na čiernu, pretože tieto efekty "
+"odstraňujú informácie o priehľadnosti titulkov."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:28
 msgid "|Kdenlive-Title-Fading|"
-msgstr ""
+msgstr "|Kdenlive-Title-Fading|"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:32
 msgid "These are the individual steps shown in video:"
-msgstr ""
+msgstr "Toto sú jednotlivé kroky zobrazené vo videu:"
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:34
 msgid "Add a Composite & Transform transition to the title clip."
-msgstr ""
+msgstr "Pridajte prechod Kompozit a transformácia na klip s titulkom."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:35
 msgid ""
 "First keyframe: set :guilabel:`Opacity` to 0%. This marks the beginning of "
 "the fade in (ramp up)."
 msgstr ""
+"Prvý kľúčový snímok: nastavte :guilabel:`Krytie` na 0 %. Tým sa označí "
+"začiatok postupného zobrazovania (nábehu)."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:36
 msgid ""
@@ -69,6 +77,9 @@ msgid ""
 "faded in, set :guilabel:`Opacity` to 100%. Set the type of the keyframe to :"
 "guilabel:`Linear`."
 msgstr ""
+"Druhý kľúčový snímok: pridajte nový kľúčový snímok tam, kde chcete, aby bol "
+"titulok plne zobrazený, nastavte :guilabel:`Krytie` na 100 %. Typ kľúčového "
+"snímku nastavte na :guilabel:`Lineárny`."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:38
 msgid ""
@@ -78,12 +89,19 @@ msgid ""
 "possible opacity of 100% you will not notice. However, when you use a "
 "maximum opacity of less than 100%, then this overshooting may become visible."
 msgstr ""
+"Dôvodom nastavenia tohto kľúčového snímku na :guilabel:`Lineárny` je, že "
+"inak Kdenlive (MLT) vypočítava plynulú krivku prispôsobenú predchádzajúcemu "
+"a nasledujúcemu kľúčovému snímku, čo spôsobuje presah hodnoty krytia. Pri "
+"maximálnom možnom krytí 100 % si to nevšimnete. Keď však použijete maximálne "
+"krytie nižšie ako 100 %, tento presah sa môže stať viditeľným."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:39
 msgid ""
 "Ensure that the first keyframe is Smooth. You can only adjust the type of "
 "the first keyframes after you have added a second keyframe."
 msgstr ""
+"Uistite sa, že prvý kľúčový snímok je Plynulý. Typ prvého kľúčového snímku "
+"môžete upraviť až po pridaní druhého kľúčového snímku."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:41
 msgid ""
@@ -91,12 +109,17 @@ msgid ""
 "fading out the title. Leave the opacity at 100%. Set the keyframe type to :"
 "guilabel:`Smooth`."
 msgstr ""
+"Tretí kľúčový snímok: Pridajte ďalší kľúčový snímok blízko konca, kde chcete "
+"začať skrývať titulok. Nechajte krytie na 100 %. Typ kľúčového snímku "
+"nastavte na :guilabel:`Plynulý`."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:42
 msgid ""
 "Fourth keyframe: Add a final keyframe, where you set :guilabel:`Opacity` to "
 "0%."
 msgstr ""
+"Štvrtý kľúčový snímok: Pridajte posledný kľúčový snímok, kde nastavíte :"
+"guilabel:`Krytie` na 0 %."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:44
 msgid ""
@@ -104,6 +127,9 @@ msgid ""
 "see this chapter about the :doc:`/tips_and_tricks/useful_info/"
 "smooth_keyframe_interpolation`."
 msgstr ""
+"Viac informácií o miešaní plynulo a lineárne interpolovaných kľúčových "
+"snímkov nájdete v kapitole o :doc:`/tips_and_tricks/useful_info/"
+"smooth_keyframe_interpolation`."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:49
 msgid "Notes"
@@ -115,6 +141,9 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
+"Pôvodný text bol odoslaný používateľom *TheDiveO* do teraz nefunkčného blogu "
+"kdenlive.org. Pre túto dokumentáciu bol prevzatý z |kdenlive_org|, "
+"aktualizovaný a prispôsobený celkovému štýlu."
 
 #: ../../tips_and_tricks/how-tos/fading_inout_titles.rst:56
 msgid "**Sources**"

@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# SPDX-FileCopyrightText: 2023 Roman Paholik <wizzardsk@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2026 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2023-12-10 12:00+0100\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -108,6 +108,11 @@ msgid ""
 "processed. Keep in mind that the delay it produces is the attack time you "
 "set."
 msgstr ""
+"Obmedzovač zabraňuje vstupnému signálu stúpnuť nad požadovanú prahovú "
+"hodnotu. Tento obmedzovač používa technológiu predbežného pohľadu na "
+"zabránenie skresleniu signálu. Znamená to, že po spracovaní signálu je malé "
+"oneskorenie. Majte na pamäti, že oneskorenie, ktoré produkuje, je čas útoku, "
+"ktorý nastavíte."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:44
 msgid "Parameters"
@@ -123,7 +128,7 @@ msgstr "Hodnota"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:54
 msgid "**Input gain**"
-msgstr ""
+msgstr "**Vstupné zosilnenie**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:55
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:58
@@ -135,37 +140,41 @@ msgstr "Reálne číslo"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:56
 msgid "Set input gain. Default is 1."
-msgstr ""
+msgstr "Nastavuje vstupné zosilnenie. Predvolená hodnota je 1."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:57
 msgid "**Output gain**"
-msgstr ""
+msgstr "**Výstupné zosilnenie**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:59
 msgid "Set output gain. Default is 1."
-msgstr ""
+msgstr "Nastavuje výstupné zosilnenie. Predvolená hodnota je 1."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:60
 msgid "**Limit**"
-msgstr "Obmedzenie"
+msgstr "**Obmedzenie**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:62
 msgid "Do not let signals above this level pass the limiter. Default is 1."
 msgstr ""
+"Neprenechá signály nad touto úrovňou prejsť cez obmedzovač. Predvolená "
+"hodnota je 1."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:63
 msgid "**Attack**"
-msgstr "Útok 1"
+msgstr "**Útok**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:65
 msgid ""
 "The limiter will reach its attenuation level in this amount of time in "
 "milliseconds. Default is 5 milliseconds."
 msgstr ""
+"Obmedzovač dosiahne svoju úroveň útlmu za tento čas v milisekundách. "
+"Predvolená hodnota je 5 milisekúnd."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:66
 msgid "**Release**"
-msgstr "Release "
+msgstr "**Uvoľnenie**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:67
 msgid "Integer"
@@ -176,10 +185,12 @@ msgid ""
 "Come back from limiting to attenuation 1.0 in this amount of milliseconds. "
 "Default is 50 milliseconds."
 msgstr ""
+"Návrat z obmedzovania na útlm 1.0 za tento počet milisekúnd. Predvolená "
+"hodnota je 50 milisekúnd."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:69
 msgid "**Enable ASC**"
-msgstr ""
+msgstr "**Aktivovať ASC**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:70
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:76
@@ -192,43 +203,44 @@ msgid ""
 "average reduction level rather than reaching a reduction of 0 in the release "
 "time."
 msgstr ""
+"Keď je vždy potrebné zníženie zosilnenia, ASC sa postará o uvoľnenie na "
+"priemernú úroveň zníženia namiesto dosiahnutia zníženia 0 v čase uvoľnenia."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:72
 msgid "**ASC level**"
-msgstr ""
+msgstr "**Úroveň ASC**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:74
 msgid ""
 "Select how much the release time is affected by ASC, 0 means nearly no "
 "changes in release time while 1 produces higher release times."
 msgstr ""
+"Nastavuje, do akej miery ASC ovplyvňuje čas uvoľnenia; 0 znamená takmer "
+"žiadne zmeny v čase uvoľnenia, zatiaľ čo 1 produkuje dlhšie časy uvoľnenia."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:75
 msgid "**Normalize to 0dB**"
-msgstr ""
+msgstr "**Normalizovať na 0dB**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/limiter.rst:77
 msgid ""
 "Auto level output signal. Default is enabled. This normalizes audio back to "
 "0dB if enabled."
 msgstr ""
+"Automaticky nastaví úroveň výstupného signálu. Predvolene aktivované. Ak je "
+"aktivované, normalizuje zvuk späť na 0dB."
 
-#, fuzzy
 #~ msgid "keyframe"
 #~ msgstr "Kľúčové snímky"
 
-#, fuzzy
 #~ msgid "keyframe-add"
 #~ msgstr "Kľúčové snímky"
 
-#, fuzzy
 #~ msgid "keyframe-disable"
 #~ msgstr "Kľúčové snímky"
 
-#, fuzzy
 #~ msgid "keyframe-next"
 #~ msgstr "Kľúčové snímky"
 
-#, fuzzy
 #~ msgid "keyframe-previous"
 #~ msgstr "Kľúčové snímky"

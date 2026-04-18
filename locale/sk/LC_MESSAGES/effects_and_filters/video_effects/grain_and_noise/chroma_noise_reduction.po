@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# SPDX-FileCopyrightText: 2023 Roman Paholik <wizzardsk@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2026 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2023-12-10 11:53+0100\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -97,7 +97,7 @@ msgstr "avfilter"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:30
 msgid "chromanr"
-msgstr ""
+msgstr "chromanr"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:32
 msgid "|linux| |appimage| |windows| |apple|"
@@ -110,7 +110,7 @@ msgstr "Popis"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:43
 msgid "This effect/filter reduces :term:`chrominance` noise."
-msgstr ""
+msgstr "Tento efekt/filter znižuje :term:`chrominančný<chrominance>` šum."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:47
 msgid "Parameters"
@@ -126,7 +126,7 @@ msgstr "Hodnota"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:57
 msgid "Y+U+V Threshold"
-msgstr "Použiť prah"
+msgstr "Prah Y+U+V"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:58
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:61
@@ -143,30 +143,39 @@ msgid ""
 "is left unchanged and is copied to output. Default value is 30. Allowed "
 "range is from 1 to 200."
 msgstr ""
+"Nastavuje prah pre priemerovanie hodnôt chrominancie. Súčet absolútneho "
+"rozdielu komponentov Y, U a V aktuálneho pixela a susedných pixelov nižší "
+"ako tento prah bude použitý pri priemerovaní. Komponent :term:`Luma<luma>` "
+"zostáva nezmenený a skopíruje sa do výstupu. Predvolená hodnota je 30. "
+"Povolený rozsah je od 1 do 200."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:60
 msgid "Horizontal / Vertical size"
-msgstr ""
+msgstr "Horizontálna / vertikálna veľkosť"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:62
 msgid ""
 "Set horizontal / vertical radius of rectangle used for averaging. Allowed "
 "range is from 1 to 100. Default value is 5."
 msgstr ""
+"Nastavuje horizontálny / vertikálny polomer obdĺžnika používaného na "
+"priemerovanie. Povolený rozsah je od 1 do 100. Predvolená hodnota je 5."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:63
 msgid "Horizontal step"
-msgstr "Horizontálny rozptyl"
+msgstr "Horizontálny krok"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:65
 msgid ""
 "Set horizontal step when averaging. Default value is 1. Allowed range is "
 "from 1 to 50. Mostly useful to speed-up filtering."
 msgstr ""
+"Nastavuje horizontálny krok pri priemerovaní. Predvolená hodnota je 1. "
+"Povolený rozsah je od 1 do 50. Väčšinou užitočné na zrýchlenie filtrovania."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:66
 msgid "Y / U / V threshold"
-msgstr ""
+msgstr "Prah Y / U / V"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:68
 msgid ""
@@ -174,6 +183,10 @@ msgid ""
 "for max allowed difference between Y / U / V components of current pixel and "
 "neighbor pixels. Default value is 200. Allowed range is from 1 to 200."
 msgstr ""
+"Nastavuje prah Y / U / V pre priemerovanie hodnôt chrominancie. Umožňuje "
+"jemnejšiu kontrolu maximálneho povoleného rozdielu medzi komponentmi Y / U / "
+"V aktuálneho pixela a susedných pixelov. Predvolená hodnota je 200. Povolený "
+"rozsah je od 1 do 200."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:69
 msgid "Distance"
@@ -185,7 +198,7 @@ msgstr "Výber"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:71
 msgid "Set distance type used in calculations"
-msgstr ""
+msgstr "Nastavuje typ vzdialenosti používaný pri výpočtoch"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:74
 msgid "The following selection items are available:"
@@ -193,24 +206,23 @@ msgstr "K dispozícii sú nasledujúce položky výberu:"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:76
 msgid ":guilabel:`Distance`"
-msgstr ""
+msgstr ":guilabel:`Vzdialenosť`"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:83
 msgid "Manhatten"
-msgstr ""
+msgstr "Manhattanská"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:84
 msgid "absolute difference (default)"
-msgstr ""
+msgstr "absolútny rozdiel (predvolené)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:85
 msgid "Euclidean"
-msgstr "&Euklidovský"
+msgstr "Euklidovský"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/chroma_noise_reduction.rst:86
 msgid "difference squared"
-msgstr ""
+msgstr "kvadratický rozdiel"
 
-#, fuzzy
 #~ msgid "keyframe"
 #~ msgstr "Kľúčové snímky"

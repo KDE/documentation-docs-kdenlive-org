@@ -1,13 +1,13 @@
 # translation of docs_kdenlive_org_project_and_asset_management___file_management___project_files.po to Slovak
-# SPDX-FileCopyrightText: 2024 Roman Paholik <wizzardsk@gmail.com>
+# SPDX-FileCopyrightText: 2024, 2026 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: "
 "docs_kdenlive_org_project_and_asset_management___file_management___project_files\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2024-11-13 17:51+0100\n"
-"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -39,6 +39,11 @@ msgid ""
 "used in a project, as well as the use of that media in the timeline. For "
 "more details see |mlt-xml-doc| and |mlt-dtd-doc| (document type definition)."
 msgstr ""
+"Súbory projektu Kdenlive :file:`.kdenlive` používajú formát :abbr:"
+"`XML(Extensible Markup Language)` založený na formáte MLT na opis zdrojových "
+"médií použitých v projekte, ako aj použitia týchto médií na časovej osi. "
+"Ďalšie podrobnosti nájdete v |mlt-xml-doc| a |mlt-dtd-doc| (definícia typu "
+"dokumentu)."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:40
 msgid ""
@@ -48,10 +53,15 @@ msgid ""
 "project_and_asset_management/project_bin/title_clip>` and :doc:`color clips</"
 "project_and_asset_management/project_bin/color_clip>`."
 msgstr ""
+"Pre väčšinu médií, ako sú video, zvuk a obrázky, Kdenlive ukladá do projektu "
+"iba odkaz, nie samotné médium. Iba niektoré médiá sa ukladajú priamo v "
+"súboroch projektu Kdenlive, najmä Kdenlive :doc:`titulkové klipy</"
+"project_and_asset_management/project_bin/title_clip>` a :doc:`farebné klipy</"
+"project_and_asset_management/project_bin/color_clip>`."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:42
 msgid "The advantages of using this file format are:"
-msgstr ""
+msgstr "Výhody používania tohto formátu súborov sú:"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:44
 msgid ""
@@ -61,6 +71,11 @@ msgid ""
 "top that makes working with projects much easier than editing at the (lower) "
 "rendering level."
 msgstr ""
+"|mlt| dokáže priamo renderovať súbory projektu Kdenlive. MLT jednoducho "
+"ignoruje všetky ďalšie dáta projektu špecifické pre Kdenlive a drží sa iba "
+"informácií o renderovaní. Dáta špecifické pre Kdenlive sú ďalšou vrstvou, "
+"ktorá uľahčuje prácu s projektmi v porovnaní s úpravami na (nižšej) úrovni "
+"renderingu."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:45
 msgid ""
@@ -69,21 +84,27 @@ msgid ""
 "project_and_asset_management/library>` are simply MLT rendering files, "
 "nothing more."
 msgstr ""
+"Kdenlive môže priamo zahrnúť a pracovať so súbormi renderovania MLT, rovnako "
+"ako pracuje s inými médiami. V skutočnosti :doc:`klipy knižnice</"
+"project_and_asset_management/library>` Kdenlive sú jednoducho súbory "
+"renderovania MLT, nič viac."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:47
 msgid "The project file holds all relevant information about"
-msgstr ""
+msgstr "Súbor projektu obsahuje všetky relevantné informácie o"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:49
 msgid ""
 "target video and audio properties (selected in the :doc:`project profile</"
 "project_and_asset_management/project_settings/general_settings>`)"
 msgstr ""
+"cieľových vlastnostiach videa a zvuku (vybraných v :doc:`profile projektu</"
+"project_and_asset_management/project_settings/general_settings>`)"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:50
 msgid ""
 "references to all the source materials (and to their :term:`proxies<proxy>`)"
-msgstr ""
+msgstr "odkazoch na všetky zdrojové materiály (a na ich :term:`proxy<proxy>`)"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:51
 msgid ""
@@ -91,6 +112,9 @@ msgid ""
 "effects and their respective parameters including keyframes, and everything "
 "to get the final result"
 msgstr ""
+"polohe, trvaní a úpravách klipov na časovej osi s použitými efektmi a ich "
+"príslušnými parametrami vrátane kľúčových snímok, a všetkom potrebnom na "
+"získanie finálneho výsledku"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:53
 msgid ""
@@ -99,12 +123,18 @@ msgid ""
 "**Kdenlive** will generate *proxies* and *thumbnails*, so that an overview "
 "of your media always shows up quickly."
 msgstr ""
+"Súbory projektu sú spojené s :doc:`pracovným adresárom</"
+"project_and_asset_management/file_management/folder_structure>`, v ktorom "
+"**Kdenlive** bude generovať *proxy* a *miniatúry*, takže prehľad vašich "
+"médií sa vždy zobrazí rýchlo."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:56
 msgid ""
 "If you move your project file, you should declare the directory change in "
 "the project properties."
 msgstr ""
+"Ak presuniete súbor projektu, mali by ste deklarovať zmenu adresára vo "
+"vlastnostiach projektu."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:58
 msgid ""
@@ -115,6 +145,11 @@ msgid ""
 "changed from 1.04 to 1.1. You can find the document version in the :file:`."
 "kdenlive` file in the line containing this:"
 msgstr ""
+"Vývoj Kdenlive čas od času prináša zmeny v dokumentovom formáte :file:`."
+"kdenlive`. Napríklad zavedenie sekvencií (tiež známych ako vnorené časové "
+"osi) vo verzii 23.04 vyžadovalo ukladanie nových objektov v súbore :file:`."
+"kdenlive`. Verzia dokumentu sa zmenila z 1.04 na 1.1. Verziu dokumentu "
+"nájdete v súbore :file:`.kdenlive` na riadku obsahujúcom toto:"
 
 #: ../../project_and_asset_management/file_management/project_files.rst:64
 msgid ""
@@ -127,6 +162,14 @@ msgid ""
 "file). In case something does not work with the new version of Kdenlive, you "
 "can downgrade Kdenlive and open the backup of your project."
 msgstr ""
+"Keď Kdenlive otvorí súbor projektu vytvorený s nižšou (predchádzajúcou) "
+"verziou Kdenlive, upgraduje verziu dokumentu a automaticky vytvorí záložnú "
+"kópiu pôvodného súboru projektu. Kdenlive vám oznámi, že záloha bola "
+"vytvorená a súbor projektu bol aktualizovaný na novú verziu dokumentu. V "
+"priečinku projektu nájdete súbor s názvom :file:`myprojekt_backup.kdenlive` "
+"(kde *myprojekt* je názov vášho súboru projektu). V prípade, že niečo "
+"nefunguje s novou verziou Kdenlive, môžete downgradeovať Kdenlive a otvoriť "
+"zálohu projektu."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:66
 msgid ""
@@ -138,6 +181,13 @@ msgid ""
 "because the 23.04 release of Kdenlive introduced the document change from "
 "1.04 to 1.1 for the nested timelines."
 msgstr ""
+"Je to dôležité, pretože verzie dokumentov nie sú nevyhnutne spätne "
+"kompatibilné. Inými slovami: vyššie (novšie) verzie formátu súborov :file:`."
+"kdenlive` nemožno otvoriť s nižšími (predchádzajúcimi) verziami Kdenlive. "
+"Napríklad projekty vytvorené s Kdenlive 23.04 alebo vyšším (novším) nemôže "
+"otvoriť verzia Kdenlive nižšia ako (pred) 23.04 (napr. 22.12.8), pretože "
+"vydanie Kdenlive 23.04 zaviedlo zmenu dokumentu z 1.04 na 1.1 pre vnorené "
+"časové osi."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:73
 msgid ""
@@ -145,6 +195,8 @@ msgid ""
 "you won't be able to open your :file:`.kdenlive` project files with older "
 "versions."
 msgstr ""
+"Projekty vytvorené s verziou 20.08 a novšou nie sú spätne kompatibilné, teda "
+"nebudete môcť otvoriť súbory projektu :file:`.kdenlive` so staršími verziami."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:79
 msgid ""
@@ -152,6 +204,8 @@ msgid ""
 "you won't be able to open your :file:`.kdenlive` project files with older "
 "versions."
 msgstr ""
+"Projekty vytvorené s verziou 23.04 a novšou nie sú spätne kompatibilné, teda "
+"nebudete môcť otvoriť súbory projektu :file:`.kdenlive` so staršími verziami."
 
 #: ../../project_and_asset_management/file_management/project_files.rst:81
 msgid ""
@@ -159,3 +213,5 @@ msgid ""
 "file format and how the various objects are described is available in the |"
 "github-repo| of Kdenlive."
 msgstr ""
+"Pre technicky zdatnejšieho používateľa je podrobnejší opis formátu súborov a "
+"spôsobu opisu rôznych objektov dostupný v |github-repo| Kdenlive."

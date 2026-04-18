@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2023-12-10 11:42+0100\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -109,12 +109,19 @@ msgid ""
 "adjusts the gain on the output based on the difference between the measured "
 "loudness and the target loudness in order to achieve the desired loudness."
 msgstr ""
+"Tento filter upravuje úroveň zvuku na základe hlasitosti vstupu. Je určený "
+"pre živé prenosy a aplikuje normalizáciu na základe meracieho okna, ale nemá "
+"možnosti výhľadu dopredu. Meria hlasitosť v zadanom posuvnom časovom okne. "
+"Potom upraví zosilnenie výstupu na základe rozdielu medzi nameranou "
+"hlasitosťou a cieľovou hlasitosťou, aby dosiahol požadovanú hlasitosť."
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:44
 msgid ""
 "If you like to normalize an audio file or an entire track then use :doc:"
 "`Normalize 2 Pass <normalize_2pass>`"
 msgstr ""
+"Ak chcete normalizovať zvukový súbor alebo celú stopu, použite :doc:"
+"`Normalizovanie 2 prechody <normalize_2pass>`"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:47
 msgid "Parameters"
@@ -139,7 +146,7 @@ msgstr "Reálne číslo"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:60
 msgid "The target program loudness in :abbr:`LUFS (Loudness Units Full Scale)`"
-msgstr ""
+msgstr "Cieľová hlasitosť programu v :abbr:`LUFS (Loudness Units Full Scale)`"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:61
 msgid "**Measurement Window**"
@@ -153,35 +160,37 @@ msgstr "Celé číslo"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:63
 msgid "The duration of time in seconds over which the loudness is calculated"
-msgstr ""
+msgstr "Dĺžka času v sekundách, počas ktorého sa počíta hlasitosť"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:64
 msgid "**Maximum Gain Increase**"
-msgstr ""
+msgstr "**Maximálne zvýšenie zosilnenia**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:66
 msgid ""
 "The maximum amount that the gain will be increased by the filter (:abbr:`dB "
 "(decibels)`)"
 msgstr ""
+"Maximálna hodnota, o ktorú filter zvýši zosilnenie (:abbr:`dB (decibely)`)"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:67
 msgid "**Maximum Gain Decrease**"
-msgstr ""
+msgstr "**Maximálne zníženie zosilnenia**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:69
 msgid ""
 "The maximum amount that the gain will be decreased by the filter (:abbr:`dB "
 "(decibels)`)"
 msgstr ""
+"Maximálna hodnota, o ktorú filter zníži zosilnenie (:abbr:`dB (decibely)`)"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:70
 msgid "**Maximum Rate Change**"
-msgstr ""
+msgstr "**Maximálna zmena rýchlosti**"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:72
 msgid "(:abbr:`dB (decibels)` per second)"
-msgstr ""
+msgstr "(:abbr:`dB (decibely)` za sekundu)"
 
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize.rst:76
 msgid "Notes"
@@ -195,6 +204,11 @@ msgid ""
 "due to wrong or faulty settings in the recording device or too big of a "
 "distance between microphone and audio source."
 msgstr ""
+"Cieľom normalizácie je zvýšiť úroveň zvuku na nastavenú maximálnu hodnotu, "
+"pričom najhlasnejšia časť zvuku nesmie byť prekročená. Normalizácia je "
+"zvyčajne užitočná, ak bol zvukový signál pri nahrávaní príliš slabý kvôli "
+"nesprávnym alebo chybným nastaveniam nahrávaciu zariadenia alebo príliš "
+"veľkej vzdialenosti medzi mikrofónom a zdrojom zvuku."
 
 #, fuzzy
 #~ msgid "keyframe"

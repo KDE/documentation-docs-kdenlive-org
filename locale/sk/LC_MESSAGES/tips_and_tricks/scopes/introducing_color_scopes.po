@@ -1,12 +1,12 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-# Roman Paholik <wizzardsk@gmail.com>, 2022.
+# Roman Paholik <wizzardsk@gmail.com>, 2022, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2022-03-04 18:00+0100\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:-1
 msgid "Kdenlive Tips & Tricks - Introducing Scopes"
-msgstr ""
+msgstr "Kdenlive tipy a triky – Úvod do rozsahov"
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:-1
 msgid ""
@@ -38,6 +38,8 @@ msgid ""
 "This section contains a brief overviews over scopes in general and explains "
 "the most basic scope, the histogram, in detail."
 msgstr ""
+"Táto sekcia obsahuje stručné prehľady rozsahov všeobecne a podrobne "
+"vysvetľuje najzákladnejší rozsah – histogram."
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:30
 msgid ""
@@ -47,6 +49,11 @@ msgid ""
 "and finally ends with creating looks which make your video look unique. "
 "Remember the blue-ish |minority_report|\\ ? The contrasty |the_departed|\\ ?"
 msgstr ""
+"Korekcia farieb je skutočne dôležitá téma v strihání videa. Začína sa "
+"jednoduchým roztiahnutím tónového rozsahu, ak jas nie je ideálny, pokračuje "
+"vyvážením bielej, aby biela zostala bielou a nie modrou, a nakoniec končí "
+"vytváraním vzhľadov, ktoré vašemu videu dodajú jedinečnosť. Pamätáte sa na "
+"modrastý |minority_report|\\ ? Na kontrastný |the_departed|\\ ?"
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:32
 msgid ""
@@ -54,14 +61,17 @@ msgid ""
 "changing the colors and scopes for monitoring the changes. The first scope "
 "to look at is the histogram."
 msgstr ""
+"Na korekciu farieb v podstate potrebujete dve veci: efekty alebo filtre na "
+"zmenu farieb a rozsahy na sledovanie zmien. Prvý rozsah, na ktorý sa "
+"pozrieme, je histogram."
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:36
 msgid "Kdenlive Histogram :term:`widget`"
-msgstr ""
+msgstr "Kdenlive Histogram :term:`widget`"
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:39
 msgid "Basic Scope Options"
-msgstr ""
+msgstr "Základné možnosti rozsahu"
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:40
 msgid ""
@@ -69,6 +79,9 @@ msgid ""
 "`RMB` while overing over the scope :term:`widget<widget>` opens the scope "
 "context menu."
 msgstr ""
+"Najprv sa pozrieme na základné možnosti dostupné vo všetkých rozsahoch. :kbd:"
+"`PKM` pri umiestnení nad :term:`widget<widget>` rozsahu otvorí kontextové "
+"menu rozsahu."
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:45
 msgid ""
@@ -78,6 +91,11 @@ msgid ""
 "as it usually heavily impacts the performance of playback. (There is a lot "
 "of calculations going on in the scopes.)"
 msgstr ""
+":guilabel:`Automatická obnova` automaticky obnoví rozsah, ak sa zmení "
+"monitor projektu/klipu. Počas procesu korekcie farieb budete chcieť mať túto "
+"možnosť aktivovanú. Keď nerobíte korekciu farieb, mala by byť deaktivovaná, "
+"pretože zvyčajne výrazne ovplyvňuje výkon prehrávania. (V rozsahoch "
+"prebiehajú mnohé výpočty.)"
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:46
 msgid ""
@@ -85,6 +103,9 @@ msgid ""
 "dropping part of the color information received (e.g. taking a look at every "
 "8th pixel only instead of every single pixel)."
 msgstr ""
+":guilabel:`Reálny čas` sa pokúša udržiavať určitú snímkovú frekvenciu v "
+"rozsahoch vynechávaním časti prijatých farebných informácií (napr. "
+"kontroluje iba každý 8. pixel namiesto každého jednotlivého pixelu)."
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:47
 msgid ""
@@ -92,20 +113,25 @@ msgid ""
 "the Histogram :term:`widget`'s size. If unchecked, the horizontal axis "
 "contracts and expands with the width of widget."
 msgstr ""
+":guilabel:`Bez zmeny mierky` opraví šírku horizontálnej osi bez ohľadu na "
+"veľkosť :term:`widget`u histogramu. Ak nie je zaškrtnuté, horizontálna os sa "
+"zmršťuje a rozširuje so šírkou widgetu."
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:48
 msgid ":guilabel:`Rec 601` selects the Rec 601 :term:`color space`"
-msgstr ""
+msgstr ":guilabel:`Rec 601` vyberie :term:`farebný priestor` Rec 601"
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:49
 msgid ""
 ":guilabel:`Rec 709` selects the Rec 709 :term:`color space` (high definition "
 "content and digital video uses this one)"
 msgstr ""
+":guilabel:`Rec 709` vyberie :term:`farebný priestor` Rec 709 (obsah vo "
+"vysokom rozlíšení a digitálne video používa tento)"
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:51
 msgid "Note that you can always update a scope by clicking on it."
-msgstr ""
+msgstr "Upozorňujeme, že rozsah môžete vždy aktualizovať kliknutím naň."
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:55
 msgid "Notes"
@@ -118,6 +144,9 @@ msgid ""
 "documentation it has been lifted from |web_archive|, updated and adapted to "
 "match the overall style."
 msgstr ""
+"Pôvodný text bol odoslaný *Simonom A. Eugsterom (Granjow)* v pondelok 30. 8. "
+"2010 o 23:10 do teraz nefunkčného blogu kdenlive.org. Pre túto dokumentáciu "
+"bol prevzatý z |web_archive|, aktualizovaný a prispôsobený celkovému štýlu."
 
 #: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:62
 msgid "**Sources**"

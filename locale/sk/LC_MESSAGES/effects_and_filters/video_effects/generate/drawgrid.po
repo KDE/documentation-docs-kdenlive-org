@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
-# SPDX-FileCopyrightText: 2023 Roman Paholik <wizzardsk@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2026 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 02:02+0000\n"
-"PO-Revision-Date: 2023-12-10 11:47+0100\n"
+"PO-Revision-Date: 2026-04-16 10:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -95,7 +95,7 @@ msgstr "avfilter"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:30
 msgid "drawgrid"
-msgstr ""
+msgstr "drawgrid"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:32
 msgid "|linux| |appimage| |windows| |apple|"
@@ -113,7 +113,7 @@ msgstr "Popis"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:43
 msgid "This effect/filter draws a colored grid on the input video."
-msgstr ""
+msgstr "Tento efekt/filter vykreslí farebnú mriežku na vstupné video."
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:47
 msgid "Parameters"
@@ -137,11 +137,11 @@ msgstr "Výberník"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:59
 msgid "Defines the color for the box"
-msgstr ""
+msgstr "Definuje farbu rámčeka"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:60
 msgid "Replace color and alpha"
-msgstr "Nahradiť klip"
+msgstr "Nahradiť farbu a alfa kanál"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:61
 msgid "Switch"
@@ -153,10 +153,13 @@ msgid ""
 "and alpha pixels with the pixels of the painted box. By default (off), the "
 "box will be composited onto the input, leaving the video's alpha intact."
 msgstr ""
+"Ak má vstup alfa kanál, zaškrtnutím tohto prepíše farbu a alfa pixely videa "
+"pixelmi nakresleného rámčeka. Predvolene (vypnuté) bude rámček kompozitovaný "
+"na vstup, pričom alfa kanál videa zostane neporušený."
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:63
 msgid "X / Y Offset"
-msgstr ""
+msgstr "Posun X / Y"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:64
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:67
@@ -171,6 +174,8 @@ msgid ""
 "corner of the monitor (coordinates are based on the project dimension "
 "settings)"
 msgstr ""
+"Definuje počiatočný bod mriežky v pixeloch od ľavého horného rohu monitora "
+"(súradnice sú založené na nastaveniach rozmerov projektu)"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:66
 msgid "Width"
@@ -178,7 +183,7 @@ msgstr "Šírka"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:68
 msgid "Defines the distance between vertical grid lines in pixels"
-msgstr ""
+msgstr "Definuje vzdialenosť medzi zvislými čiarami mriežky v pixeloch"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:69
 msgid "Height"
@@ -186,7 +191,7 @@ msgstr "Výška"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:71
 msgid "Defines the distance between horizontal grid lines in pixels"
-msgstr ""
+msgstr "Definuje vzdialenosť medzi vodorovnými čiarami mriežky v pixeloch"
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:72
 msgid "Thickness (px)"
@@ -197,6 +202,8 @@ msgid ""
 "Defines the thickness of the line in pixels. If set high enough, the grid is "
 "essentially filled."
 msgstr ""
+"Definuje hrúbku čiary v pixeloch. Ak je nastavená dostatočne vysoko, mriežka "
+"je v podstate vyplnená."
 
 #: ../../effects_and_filters/video_effects/generate/drawgrid.rst:78
 msgid ""
@@ -206,11 +213,7 @@ msgid ""
 "interesting transitions by animating the number of grid lines and their "
 "thickness."
 msgstr ""
-
-#, fuzzy
-#~ msgid "keyframe"
-#~ msgstr "Kľúčové snímky"
-
-#, fuzzy
-#~ msgid "X / Y"
-#~ msgstr "x<sup>1/y</sup>"
+"Tento efekt možno použiť v kombinácii s efektmi :doc:`/effects_and_filters/"
+"video_effects/alpha_mask_keying/chroma_key` alebo :doc:`/effects_and_filters/"
+"video_effects/alpha_mask_keying/chroma_key_advanced` na vytváranie "
+"zaujímavých prechodov animovaním počtu čiar mriežky a ich hrúbky."
