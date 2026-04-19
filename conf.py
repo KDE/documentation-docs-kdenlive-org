@@ -669,6 +669,10 @@ rst_epilog = """
    :width: 22px
    :class: no-scaled-link
 
+.. |view-split-top-bottom| image:: /images/icons/view-split-top-bottom.svg
+   :width: 22px
+   :class: no-scaled-link
+
 .. |view-visible| image:: /images/icons/view-visible.svg
    :width: 22px
    :class: no-scaled-link

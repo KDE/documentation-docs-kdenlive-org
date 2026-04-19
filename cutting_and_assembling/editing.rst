@@ -238,101 +238,136 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
 1.  `Track Compositing`_ drop down.
 
-.. .. versionchanged:: 22.08
+   .. .. versionadded:: 26.04 Enable Track Compositing
 
-.. figure:: /images/Kdenlive-enable-track-composition.png
+   .. figure:: /images/cutting_and_assembling/cutting-assembling_timeline-hamburger-menu_2604.webp
 
-Track compositing is now a simple checkbox instead of the deprecated none/high resolution choice.
+   **Enable Track Compositing**
 
-When enabled Kdenlive is set to :ref:`track_compositing_hq`
+      Track compositing is now a simple checkbox instead of the deprecated none/high resolution choice.
 
-When disabled Kdenlive is set to :ref:`track_compositing_none`
+      When enabled Kdenlive is set to :ref:`track_compositing_hq`
 
-.. deprecated:: 22.08
+      When disabled Kdenlive is set to :ref:`track_compositing_none`
 
-1a, 1b and 1c cannot be selected anymore.   
+      .. deprecated:: 22.08
 
-   1a. :ref:`track_compositing_none`
+         1a, 1b and 1c cannot be selected anymore.   
 
-   1b. :ref:`track_compositing_preview`
+         .. 1a. :ref:`track_compositing_none`
+         
+         .. 1b. :ref:`track_compositing_preview`
+         
+         .. 1c. :ref:`track_compositing_hq`
 
-   1c. :ref:`track_compositing_hq`
+   |tools-wizard| **Disable timeline Effects**
 
-1d. **Mixed Audio tracks** changes the order in which tracks are displayed to mixed audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, V1, A2, V2, A3, V3
+      When enabled it Disables all Timeline effects
 
-1e. **Split Audio tracks** changes the order in which tracks are displayed to separate audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A1, V1, V2, V3
+   1d. |document-new| **Mixed Audio tracks**
+      
+      Changes the order in which tracks are displayed to mixed audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, V1, A2, V2, A3, V3
 
-1f. **Split Audio tracks (reverse)** changes the order in which tracks are displayed to separate audio and video tracks with the audio tracks in reverse order.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A3, V1, V2, V3
+   1e. |view-split-top-bottom| **Split Audio tracks**
+      
+      Changes the order in which tracks are displayed to separate audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A1, V1, V2, V3
 
-2. **Timeline Edit Mode**  Drop Down. These same settings can be found under the :menuselection:`Tool` menu.
+   1f. |view-split-top-bottom| **Split Audio tracks (reverse)**
+      
+      Changes the order in which tracks are displayed to separate audio and video tracks with the audio tracks in reverse order.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A3, V1, V2, V3
 
-2a. **Timeline Normal Mode**
+2. **Timeline Edit Mode** drop down
+   
+   These same settings can be found under the :menuselection:`Tool` menu.
 
-2b. **Timeline Overwrite Mode**
+      2a. **Timeline Normal Mode**
 
-2c. **Timeline Insert Mode**
+      2b. **Timeline Overwrite Mode**
 
-3. Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |timeline-use-zone-off| for insert (toggles). See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
+      2c. **Timeline Insert Mode**
 
+3. Toggles for insert :guilabel:`Use timeline zone` |timeline-use-zone-on|, :guilabel:`Do not use timeline zone` |timeline-use-zone-off| .
+
+   See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
 
 **Tool Group** (one of these 3 can be active)
 
 Active buttons are grey.
 
 
-4. `Selection Tool`_ - Also selected with the 'S' hotkey.  Allows the selection and manipulation of clips on the timeline
+4. `Selection Tool`_
+   
+   Also selected with :kbd:`S`.  Allows the selection and manipulation of clips on the timeline
 
-5. `Razor Tool`_ - Also selected with the 'X' hotkey, or to cut at the point of the play head use "Shift-R". This allows a clip to be cut into two clips.
+5. `Razor Tool`_
+   
+   Also selected with :kbd:`X`, or to cut at the point of the play head use "Shift-R". This allows a clip to be cut into two clips.
 
-6. `Spacer Tool`_ - Also selected with the 'M' hotkey.  This tool will select all clips at one point in the timeline and allow them to be shifted at once.
+6. `Spacer Tool`_
+   
+   Also selected with :kbd:`M`.  This tool will select all clips at one point in the timeline and allow them to be shifted at once.
 
-7. Position indicator - displays the time point or frame number of the location of the hovering mouse on the left side, and the total length of the project on the right side.
+7. **Position indicator**
 
-7a. **hh:mm:ss:ff;** Sets the position indicator to display time units
+   Displays the time point or frame number of the location of the hovering mouse on the left side, and the total length of the project on the right side.
+   
+      7a. **hh:mm:ss:ff;**
+        
+         Sets the position indicator to display time units
 
-7b. **Frames** Sets the position indicator to display frames
+      7b. **Frames**
+        
+         Sets the position indicator to display frames
 
-8. **Mix Clips** - allows same-track transitions to be applied between two clips. See :ref:`same_track_transition` for a detailed explanation.
+8. **Mix Clips**
+   
+   Allows same-track transitions to be applied between two clips. See :ref:`same_track_transition` for a detailed explanation.
 
-9. Insert Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
+9. Insert Clip Zone in Timeline
 
-10. Overwrite Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
+   See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
 
-11. Extract Timeline Zone
+10. Overwrite Clip Zone in Timeline
 
-12. Lift Timeline Zone
+   See :doc:`/tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing` for more details.
 
-13. Favourite Effects
+11. **Extract Timeline Zone**
 
-14. Start Preview Render
+12. **Lift Timeline Zone**
 
-14a. Stop Preview Render
+13. **Favorite Effects**
 
-14b. Add Preview Zone
+14. **Start Preview Render**
+   
+   14a. **Stop Preview Render**
+   
+   14b. **Add Preview Zone**
+   
+   14c. **Remove Preview Zone**
+   
+   14d. **Remove All Preview Zones**
+   
+   14e. **Automatic Preview**
+   
+   14f. **Disable Timeline Preview**
+   
+   14g. **Manage Cached Data**
+   
+   14h. **Preview Using Proxy Clips**
 
-14c. Remove Preview Zone
+      .. .. versionadded:: 22.04
 
-14d. Remove All Preview Zones
+      Option to render preview using original clips, not proxies (disabled by default). 
 
-14e. Automatic Preview
+   Items 14, 14a-14g are covered in detail by the Tips & Tricks chapter about :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`.
 
-14f. Disable Timeline Preview
+15. Show/Hide the :ref:`audio_mixer` tool
+   
+   The audio mixer tool allows audio to be managed in the project.
 
-14g. Manage Cached Data
-
-.. .. versionadded:: 22.04
-
-   .. figure:: /images/preview_using_proxy_clips.png
-
-
-   14h. Preview Using Proxy Clips. Option to render preview using original clips, not proxies (disabled by default). 
-
-
-Items 14, 14a-14g are covered in detail by the Tips & Tricks chapter about :doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`.
-
-1.   Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to be managed in the project.
-
-2.   Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the subtitle track where subtitles can be created or edited in the project.
+16. Show/Hide the :ref:`effects-subtitles` tool
+   
+   This will show or hide the subtitle track where subtitles can be created or edited in the project.
 
 
 .. _timeline_edit_modes:
