@@ -96,4 +96,4 @@ This effect/filter allows to adjust size and position of the clip using smooth a
    * Enhancement -> :doc:`/effects_and_filters/video_effects/blur_and_sharpen`
    * Alpha Manipulation -> :doc:`/effects_and_filters/video_effects/alpha_mask_keying/alpha_operations`
 
-   `Tutorial: How to do pan and zoom with Kdenlive video editor - Peter Thomson(YouTube) <https://youtu.be/B8ZPoWaxQrA>`_
+   `Tutorial: How to do pan and zoom with Kdenlive video editor - Peter Thomson(YouTube) <https://youtu.be/B8ZPoWaxQrA>`__

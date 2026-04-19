@@ -86,7 +86,7 @@ Speech To Text
 
 This section is used for setting up the Speech-to-Text feature of Kdenlive and for managing the various models for the two engines VOSK and Whisper.
 
-.. warning:: Speech To Text does not work with version 21.04.2 due to `Vosk API <https://github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and later versions.
+.. warning:: Speech To Text does not work with version 21.04.2 due to `Vosk API <https://github.com/alphacep/vosk-api>`__ issues. Use version 21.04.1 or 21.04.3 and later versions.
 
 
 Speech Engines

@@ -38,7 +38,7 @@ The installed files are placed in :file:`/usr/share/mlt/presets/consumer/avforma
 Upload/Share Render Profiles
 ============================
 
-If you want to share a render profile you can do so at the `KDE Store page <https://store.kde.org/browse?cat=334>`_. You need to create a login, then you can upload your custom rendering profile file, which is on Linux stored in :file:`.local/share/kdenlive/export/customprofiles.xml` and on Windows stored in :file:`%LocalAppData%\kdenlive\export\customprofiles.xml`. The file contains all your custom rendering profiles so you should copy it and remove the ones you don't want to export.
+If you want to share a render profile you can do so at the `KDE Store page <https://store.kde.org/browse?cat=334>`__. You need to create a login, then you can upload your custom rendering profile file, which is on Linux stored in :file:`.local/share/kdenlive/export/customprofiles.xml` and on Windows stored in :file:`%LocalAppData%\kdenlive\export\customprofiles.xml`. The file contains all your custom rendering profiles so you should copy it and remove the ones you don't want to export.
 
 Profiles submitted there appear in the *Download New Render Profiles*.
 

@@ -106,7 +106,7 @@ Kdenlive on Windows
 
 Kdenlive runs only on 64bit version of Windows. Kdenlive runs on Windows 10 (1809 or later) and newer. We cannot guarantee that Kdenlive runs on server or embedded Windows version.
 
-Last version for Windows 7 (Kdenlive 23.08.5) can be `downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/windows/>`_.
+Last version for Windows 7 (Kdenlive 23.08.5) can be `downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/windows/>`__.
 
 Kdenlive is available as an install and as a standalone version.
 
@@ -179,9 +179,9 @@ Kdenlive runs with Intel-based Macs on macOS 12 (Monterey)\ [1]_ or newer and on
 .. .. versionadded:: 22.04.0
 .. Kdenlive is running with Intel based Macs not older than macOS 10.15 (Catalina)\ [1]_ and on M1.
 
-Last version for macOS 10.13 (High Sierra) (Kdenlive 23.08.5) can `be downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/macOS/>`_.
+Last version for macOS 10.13 (High Sierra) (Kdenlive 23.08.5) can `be downloaded from the attic <https://download.kde.org/Attic/kdenlive/23.08/macOS/>`__.
 
-Last version for macOS 11 (Big Sur) (Kdenlive 24.08.1) `can be downloaded from the attic <https://download.kde.org/Attic/kdenlive/24.08/macOS/>`_.
+Last version for macOS 11 (Big Sur) (Kdenlive 24.08.1) `can be downloaded from the attic <https://download.kde.org/Attic/kdenlive/24.08/macOS/>`__.
 
 
 Installation Procedure

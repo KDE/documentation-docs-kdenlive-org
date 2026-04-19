@@ -30,7 +30,7 @@
 Speech to Text
 ==============
 
-.. warning:: Speech to text does not work with version 21.04.2 due to `Vosk API <https://github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and later versions.
+.. warning:: Speech to text does not work with version 21.04.2 due to `Vosk API <https://github.com/alphacep/vosk-api>`__ issues. Use version 21.04.1 or 21.04.3 and later versions.
 
 
 Before you can use Speech to Text, it must be properly configured and speech models installed. Please refer to the chapter :doc:`Configure Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`.

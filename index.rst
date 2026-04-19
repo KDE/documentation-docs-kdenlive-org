@@ -14,9 +14,9 @@
 Kdenlive Manual
 ###############
 
-Welcome to the manual for `Kdenlive <https://kdenlive.org>`_, the free and open source video editor.
+Welcome to the manual for `Kdenlive <https://kdenlive.org>`__, the free and open source video editor.
 
-The current Kdenlive version you get `here <https://kdenlive.org/download/>`_. Check out :doc:`what's new </more_information/whats_new>`.
+The current Kdenlive version you get `here <https://kdenlive.org/download/>`__. Check out :doc:`what's new </more_information/whats_new>`.
 
 You can download this manual as an `EPUB <epub/KdenliveManual.epub>`_.
 
@@ -164,7 +164,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      `Bug Reports <https://kdenlive.org/bug-reports/>`_
+      `Bug Reports <https://kdenlive.org/bug-reports/>`__
          How to file a bug.
 
    .. container:: tile
@@ -175,7 +175,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      `Get Involved <https://community.kde.org/Kdenlive/Workgroup/Documentation/>`_
+      `Get Involved <https://community.kde.org/Kdenlive/Workgroup/Documentation/>`__
          Contribute to this Manual
 
 

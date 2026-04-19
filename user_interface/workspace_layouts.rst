@@ -45,4 +45,4 @@ These workspaces aim to improve the layout for each stage of video production:
 * **Color** for adjusting and color grading
 
 
-Check out this `video <https://www.youtube.com/watch?v=BdHbUUjfBLk>`_ for more details.
+Check out this `video <https://www.youtube.com/watch?v=BdHbUUjfBLk>`__ for more details.

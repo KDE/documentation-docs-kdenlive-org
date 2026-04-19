@@ -48,7 +48,7 @@ In Kdenlive, **Transitions** can roughly be classified into three different type
    * - Layer Compositing
      - For combining two clips in a constant, static way: much like layer compositing in image tools. As keyframes are not supported, this type of compositing is static, thus invariant of time.
 
-Historically, Kdenlive borrows the term **transition** with its 3-fold meaning directly from the `multimedia engine MLT <https://mltframework.org/>`_. :abbr:`MLT (Media Lovin' Toolkit - An open source software multimedia framework designed and developed for tv broadcasting)` that does all the video and audio processing according to your timeline. In the MLT universe, transitions basically «merge» video frames from upper tracks with video frames from lower tracks, producing result frames.
+Historically, Kdenlive borrows the term **transition** with its 3-fold meaning directly from the `multimedia engine MLT <https://mltframework.org/>`__. :abbr:`MLT (Media Lovin' Toolkit - An open source software multimedia framework designed and developed for tv broadcasting)` that does all the video and audio processing according to your timeline. In the MLT universe, transitions basically «merge» video frames from upper tracks with video frames from lower tracks, producing result frames.
 
 In contrast, many users experienced in video editing have come to know transitions as a mechanism to transition between to adjacent clips. As of version 21.08 Kdenlive does support such in-track (or same-track) transitions as :ref:`Mixes <same_track_transition>`.
 
@@ -66,7 +66,7 @@ Let's start with those **standard transitions** most users would probably expect
       :align: left
       :width: 350px
 
-   **Dissolve**: gradually transitions from one clip to another. So it is kind of fading between the two clips. (See also the Wikipedia article on `Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_) 
+   **Dissolve**: gradually transitions from one clip to another. So it is kind of fading between the two clips. (See also the Wikipedia article on `Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`__) 
 
 .. container:: clear-both
 
@@ -74,7 +74,7 @@ Let's start with those **standard transitions** most users would probably expect
       :align: left
       :width: 350px
 
-   **Slide**: gradually replaces one clip by another clip, by traveling from one side of the frame to another (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
+   **Slide**: gradually replaces one clip by another clip, by traveling from one side of the frame to another (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`__.)
 
 .. container:: clear-both
 
@@ -82,7 +82,7 @@ Let's start with those **standard transitions** most users would probably expect
       :align: left
       :width: 350px
 
-   **Wipe**: one clip gradually replaces another clip, often in form of some shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)
+   **Wipe**: one clip gradually replaces another clip, often in form of some shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`__.)
 
 .. rst-class:: clear-both
 

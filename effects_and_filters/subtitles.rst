@@ -45,7 +45,7 @@ Kdenlive allows multiple subtitle files in the subtitle track (only one subtitle
 
 
 .. tip::
-   Kdenlive stores subtitles as .ass files, which means you might be interested in exploring some advanced ASS features. For more details, check out the `ASS File Format Guide <https://github.com/libass/libass/wiki/ASS-File-Format-Guide>`_ and `Aegisub's Documentation <https://aegisub.org/docs/latest/>`_.
+   Kdenlive stores subtitles as .ass files, which means you might be interested in exploring some advanced ASS features. For more details, check out the `ASS File Format Guide <https://github.com/libass/libass/wiki/ASS-File-Format-Guide>`__ and `Aegisub's Documentation <https://aegisub.org/docs/latest/>`__.
 
 Add Subtitles
 -------------

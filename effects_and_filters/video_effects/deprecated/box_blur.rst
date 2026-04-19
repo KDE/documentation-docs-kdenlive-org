@@ -19,7 +19,7 @@ Box Blur
    
 
 
-This is the `Boxblur <https://www.mltframework.org/plugins/FilterBoxblur/>`_ MLT filter.
+This is the `Boxblur <https://www.mltframework.org/plugins/FilterBoxblur/>`__ MLT filter.
 
 Separate horizontal and vertical blur.
 

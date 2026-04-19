@@ -19,7 +19,7 @@ K-Means Clustering
 
 
 
-This is the `Frei0r cluster <https://www.mltframework.org/plugins/FilterFrei0r-cluster/>`_ MLT filter.
+This is the `Frei0r cluster <https://www.mltframework.org/plugins/FilterFrei0r-cluster/>`__ MLT filter.
 
 Clusters of a source image by color and spatial distance.
 

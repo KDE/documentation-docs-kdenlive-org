@@ -85,7 +85,7 @@ https://youtu.be/M8hC5FbIzdE
 Tutorial 3 - Video Masks
 ------------------------
 
-This tutorial uses the Composite transition and a custom video mask (a.k.a. a Wipe File or `matte <https://en.wikipedia.org/wiki/Matte_(filmmaking)>`_) to create an effect where you can make it appear that one video is playing on the screen of a still of a computer monitor.
+This tutorial uses the Composite transition and a custom video mask (a.k.a. a Wipe File or `matte <https://en.wikipedia.org/wiki/Matte_(filmmaking)>`__) to create an effect where you can make it appear that one video is playing on the screen of a still of a computer monitor.
 
 The mask/matte is created with **GIMP**.
 
