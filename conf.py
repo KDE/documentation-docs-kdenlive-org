@@ -27,10 +27,10 @@ author = 'Kdenlive Community'
 
 # EPUB:If version ist not set, the EPUB shows no version number
 # If your project does not draw a meaningful distinction between between a ‘full’ and ‘major’ version, set both version and release to the same value.
-version = '25.12'
+version = '26.04'
 
 # The full version, including alpha/beta/rc tags
-release = '25.12'
+release = '26.04'
 
 # Get the git description if possible, to put it in the footer.
 
