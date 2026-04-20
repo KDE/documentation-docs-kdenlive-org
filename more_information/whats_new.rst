@@ -17,6 +17,8 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+.. _26.04: https://kdenlive.org/news/releases/26.04.0/
+
 .. _25.12: https://kdenlive.org/news/releases/25.12.0/
 
 .. _25.08: https://kdenlive.org/news/releases/25.08.0/
@@ -65,6 +67,27 @@
 ==========
 What's New
 ==========
+
+.. versionadded:: 26.04 (see 26.04_ release notes)
+
+   * Added continuous panning and dragging with cursor in :doc:`timeline </user_interface/timeline>`
+   * Added fixed playhead when playback in :ref:`timeline <timeline_cursor>`
+   * Added ability to add clips directly to the timeline with smart length detection :ref:`via context menu <add_clips_directly_to_timeline>`
+   * Added disable timeline effects function to :ref:`timeline hamburger menu <timeline_toolbar2>`
+   * Added switch for mouse zoom on playhead in :ref:`timeline <status_bar>`
+   * Added creation of audio waveforms of a :ref:`sequence clip <working_with_sequences>`
+   * Added "Add Clip" option in context menu when right-clicking in a folder in :doc:`project bin </project_and_asset_management/project_bin/project_bin_use_folders>`
+   * Added hide mouse cursor after 2 seconds when not moved in :ref:`fullscreen monitor <switch_monitor_fullscreen>`
+   * Added monitor mirroring when monitor is on :ref:`fullscreen <switch_monitor_fullscreen>`
+   * Reordered :ref:`markers menu <markers_menu>`
+   * Added "Delete all Timeline Markers" in :ref:`markers menu <markers_menu>`
+   * Added edit video clip with external program in :ref:`configuration environment <configure_environment_default_apps>`
+   * Added clear undo history in :ref:`edit menu <edit_menu>`
+   * Added more parameters for audio recording device, add "Use default setting" button in :ref:`capture menu <configure_capture_audio>`
+   * Added animated preview for :ref:`transition and composition <compositions-effects_tab>`
+   * Added change speed of multiple clips in :ref:`timeline <change_speed_of_a_clip>`
+   * Added "Add to Project Bin" option in :ref:`render widget <render-more_options_parallel_processing>`
+
 
 .. versionadded:: 25.12 (see 25.12_ release notes)
 
