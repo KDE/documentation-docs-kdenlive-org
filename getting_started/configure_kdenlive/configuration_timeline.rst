@@ -22,7 +22,6 @@ This section controls certain aspects of the Timeline.
    The Timeline section
 
 :1: :guilabel:`Thumbnails` - :guilabel:`Enable for Video/Audio`. By default, thumbnails for video and audio clips will be generated. They will be stored in the :file:`videothumbs` and :file:`audiothumbs` folders, respectively, of the project. See the :doc:`Project Defaults </getting_started/configure_kdenlive/configuration_project_defaults>` section.
-:1: :guilabel:`Thumbnails` - :guilabel:`Enable for Video/Audio`. By default, thumbnails for video and audio clips will be generated. They will be stored in the :file:`videothumbs` and :file:`audiothumbs` folders, respectively, of the project. See the :doc:`Project Defaults </getting_started/configure_kdenlive/configuration_project_defaults>` section.
 
 :2: :guilabel:`Separate audio channels`. If checked, you will get a separate waveform in the audio thumbnail for each audio channel in the audio track. If unchecked, you will get a single, combined waveform as the audio thumbnail.
 
@@ -44,7 +43,7 @@ This section controls certain aspects of the Timeline.
 
 :11: :guilabel:`Default track height`. Determines the default height of the tracks in the timeline in pixels. The height can be adjusted anytime by dragging the line between tracks. See the chapter about :ref:`resizing_tracks` for more details.
 
-:10: :guilabel:`Raise Properties Pane when Selecting in Timeline`. Determine for :guilabel:`Clips`, :guilabel:`Transitions`, and :guilabel:`Tracks` whether selecting any of these raises the corresponding properties pane (provided their respective view has been enabled. See the chapter about :doc:`Views</user_interface/menu/view_menu>` for more details).
+:10: :guilabel:`Raise Properties Pane when Selecting in Timeline`. Determine for :guilabel:`Clips`, :guilabel:`Transitions`, and :guilabel:`Tracks` whether selecting any of these raises the corresponding properties pane (provided their respective view has been enabled. See the chapter about :doc:`Views </user_interface/menu/view_menu>` for more details).
 
 :11: :guilabel:`On import enable` determines what Kdenlive shall do when an audio clip has multiple audio streams.
 
