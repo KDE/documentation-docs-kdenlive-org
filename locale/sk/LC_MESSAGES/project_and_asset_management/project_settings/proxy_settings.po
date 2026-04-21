@@ -34,11 +34,11 @@ msgstr "list-add"
 
 #: ../../<rst_epilog>:374
 msgid "list-remove"
-msgstr ""
+msgstr "list-remove"
 
 #: ../../<rst_epilog>:434
 msgid "run-build"
-msgstr ""
+msgstr "run-build"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:-1
 msgid "Kdenlive Documentation - Project Proxy Settings"
@@ -58,7 +58,7 @@ msgstr "Nastavenia proxy"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:31
 msgid "The Project Settings Proxy dialog window"
-msgstr ""
+msgstr "Dialógové okno Proxy v nastaveniach projektu"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:33
 msgid ""
@@ -68,12 +68,19 @@ msgid ""
 "But if you need proxies for the new project, you can switch it on here in "
 "the Project Settings Proxy tab and change the settings for it."
 msgstr ""
+"Proxy klipy možno zapínať a vypínať pre každý projekt zvlášť. Keď sú proxy "
+"klipy globálne zakázané (pozri :doc:`Proxy klipy</getting_started/"
+"configure_kdenlive/configuration_proxy_clips>`), sú vypnuté pre každý nový "
+"projekt. Ak však pre nový projekt potrebujete proxy klipy, môžete ich tu "
+"zapnúť na karte Proxy v nastaveniach projektu a zmeniť ich nastavenia."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:38
 msgid ""
 "For illustration purposes, all check boxes have been selected. This is not "
 "the case when you open this tab."
 msgstr ""
+"Na účely ilustrácie sú všetky začiarkavacie políčka zaškrtnuté. Pri otvorení "
+"tejto karty to tak nie je."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:40
 msgid ""
@@ -82,6 +89,9 @@ msgid ""
 "editing. The proxy clips will be replaced with the originals for the full "
 "resolution when rendering."
 msgstr ""
+"Keď je :guilabel:`Proxy klipy` povolené, Kdenlive automaticky vytvorí "
+"zmenšené verzie vašich zdrojových klipov a použije tieto verzie na úpravy. "
+"Proxy klipy budú pri renderovaní nahradené originálmi v plnom rozlíšení."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:42
 msgid ""
@@ -89,6 +99,9 @@ msgid ""
 "create proxy clips for all videos added to the project that have a frame "
 "width larger than the number of pixels specified here."
 msgstr ""
+"Možnosť :guilabel:`Generovať pre videá väčšie ako` automaticky vytvorí proxy "
+"klipy pre všetky videá pridané do projektu, ktorých šírka snímky je väčšia "
+"ako tu zadaný počet pixelov."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:45
 msgid ""
@@ -96,12 +109,17 @@ msgid ""
 "clip in your project bin by right-clicking on the clip and choosing :"
 "guilabel:`Proxy Clip`."
 msgstr ""
+"Máte tiež možnosť manuálne povoliť/zakázať proxy klipy pre každý klip v "
+"zásobníku projektu kliknutím pravým tlačidlom myši na klip a výberom "
+"možnosti :guilabel:`Proxy klip`."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:47
 msgid ""
 "Specify the frame width of the proxy clip. Default is 640px which is a "
 "reasonable compromise between smooth editing performance and preview detail."
 msgstr ""
+"Zadajte šírku snímky proxy klipu. Predvolená hodnota je 640 px, čo je "
+"rozumný kompromis medzi plynulým výkonom pri úpravách a detailom náhľadu."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:49
 msgid ""
@@ -113,29 +131,38 @@ msgid ""
 "the :doc:`Configure Proxy Clips</getting_started/configure_kdenlive/"
 "configuration_proxy_clips>` chapter."
 msgstr ""
+"Pre proxy klipy môžete vybrať :guilabel:`Profil kódovania`, ktorý definuje "
+"veľkosť, kodeky a dátový tok použité pri vytváraní proxy klipu. Profily "
+"proxy možno spravovať odtiaľto kliknutím na ikonu |configure|\\ :guilabel:"
+"`Spravovať profily proxy`, alebo z dialógu :menuselection:`Ponuka --> "
+"Nastavenia --> Konfigurovať Kdenlive --> Proxy`. Ďalšie podrobnosti nájdete "
+"v kapitole :doc:`Konfigurovať proxy klipy</getting_started/"
+"configure_kdenlive/configuration_proxy_clips>`."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:58
 msgid "List of available proxy profiles"
-msgstr ""
+msgstr "Zoznam dostupných profilov proxy"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:60
 msgid "|list-add|\\ :guilabel:`Add profile`: Creates a new profile"
-msgstr ""
+msgstr "|list-add|\\ :guilabel:`Pridať profil`: Vytvorí nový profil"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:62
 msgid "|document-edit|\\ :guilabel:`Edit`: Edit the selected profile"
-msgstr ""
+msgstr "|document-edit|\\ :guilabel:`Upraviť`: Upraví vybraný profil"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:64
 msgid ""
 "|list-remove|\\ :guilabel:`Remove profile`: Deletes the selected profile"
-msgstr ""
+msgstr "|list-remove|\\ :guilabel:`Odstrániť profil`: Vymaže vybraný profil"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:66
 msgid ""
 "|edit-download|\\ :guilabel:`Download`: Opens the download from KDE Store "
 "window (not yet implemented)"
 msgstr ""
+"|edit-download|\\ :guilabel:`Stiahnuť`: Otvorí okno na stiahnutie z obchodu "
+"KDE Store (zatiaľ nie je implementované)"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:70
 msgid ""
@@ -144,10 +171,14 @@ msgid ""
 "`Compare proxy profile efficiency` icon, and select :guilabel:`Test Proxy "
 "Profiles`."
 msgstr ""
+"Môžete otestovať výkon dostupných profilov proxy klipov a vybrať ten "
+"najlepší pre vaše počítačové nastavenie. Kliknite na ikonu |run-build|\\ :"
+"guilabel:`Porovnať efektivitu profilov proxy` a vyberte :guilabel:`Testovať "
+"profily proxy`."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:79
 msgid "The results of the comparison of proxy profiles"
-msgstr ""
+msgstr "Výsledky porovnania profilov proxy"
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:81
 msgid ""
@@ -155,6 +186,9 @@ msgid ""
 "against it. The results are shown for each proxy profile for render time and "
 "file size."
 msgstr ""
+"Kdenlive vygeneruje 60-sekundové testovacie video a spustí každý profil "
+"proxy voči nemu. Výsledky sú zobrazené pre každý profil proxy z hľadiska "
+"času renderovania a veľkosti súboru."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:85
 msgid ""
@@ -162,6 +196,9 @@ msgid ""
 "create proxy clips for all images added to the project that have a frame "
 "width larger than the number of pixels specified here."
 msgstr ""
+"Možnosť :guilabel:`Generovať pre obrázky väčšie ako` automaticky vytvorí "
+"proxy klipy pre všetky obrázky pridané do projektu, ktorých šírka snímky je "
+"väčšia ako tu zadaný počet pixelov."
 
 #: ../../project_and_asset_management/project_settings/proxy_settings.rst:87
 msgid ""
@@ -169,3 +206,6 @@ msgid ""
 "generated by your video camera. More details see: :ref:"
 "`using_camcorder_proxy_clips`."
 msgstr ""
+":guilabel:`Externé proxy klipy` Po povolení číta proxy klipy vygenerované "
+"vašou videokamerou. Viac podrobností nájdete tu: :ref:"
+"`using_camcorder_proxy_clips`."

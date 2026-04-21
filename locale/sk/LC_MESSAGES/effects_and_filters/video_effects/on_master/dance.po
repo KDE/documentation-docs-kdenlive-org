@@ -115,12 +115,16 @@ msgid ""
 "This effect/filter is an audio visualization effect that zooms, moves and "
 "rotates the image proportional to the magnitude of the audio spectrum."
 msgstr ""
+"Tento efekt/filter je efekt vizualizácie zvuku, ktorý priblíži, presunie a "
+"otočí obraz úmerne veľkosti zvukového spektra."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:46
 msgid ""
 "Using the :guilabel:`Zoom` alone creates a cool pump effect in sync with the "
 "beats."
 msgstr ""
+"Použitie samotného :guilabel:`Priblíženia` vytvára skvelý pump efekt "
+"synchronizovaný s rytmom."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:50
 msgid "Parameters"
@@ -151,6 +155,8 @@ msgid ""
 "The low end of the frequency range to be used to influence the image motion "
 "(:abbr:`Hz (Hertz)`)"
 msgstr ""
+"Spodná hranica frekvenčného rozsahu, ktorý sa má použiť na ovplyvnenie "
+"pohybu obrazu (:abbr:`Hz (Hertz)`)"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:63
 msgid "High Frequency"
@@ -161,6 +167,8 @@ msgid ""
 "The high end of the frequency range to be used to influence the image motion "
 "(:abbr:`Hz (Hertz)`)"
 msgstr ""
+"Horná hranica frekvenčného rozsahu, ktorý sa má použiť na ovplyvnenie pohybu "
+"obrazu (:abbr:`Hz (Hertz)`)"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:66
 msgid "Level Threshold"
@@ -171,6 +179,8 @@ msgid ""
 "The minimum amplitude of sound that must occur within the frequency range to "
 "cause the image to move (:abbr:`dB (decibel)`)"
 msgstr ""
+"Minimálna amplitúda zvuku, ktorá musí nastať v rámci frekvenčného rozsahu, "
+"aby spôsobila pohyb obrazu (:abbr:`dB (decibel)`)"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:69
 msgid "Oscillation"
@@ -181,6 +191,8 @@ msgid ""
 "Oscillation can be useful to make the image move back and forth during long "
 "periods of sound (:abbr:`Hz (Hertz)`). A value of 0 specifies no oscillation."
 msgstr ""
+"Oscilácia môže byť užitočná na pohyb obrazu tam a späť počas dlhých "
+"zvukových úsekov (:abbr:`Hz (Hertz)`). Hodnota 0 znamená žiadnu osciláciu."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:72
 msgid "Initial Zoom"
@@ -198,6 +210,8 @@ msgid ""
 "The amount to zoom the image before any motion occurs. This can be used to "
 "avoid black on the sides of the image when it moves."
 msgstr ""
+"Množstvo priblíženia obrazu pred akýmkoľvek pohybom. Toto možno použiť na "
+"zabránenie čiernym okrajom obrazu pri jeho pohybe."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:75
 msgid "Zoom"
@@ -205,27 +219,27 @@ msgstr "Lupa"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:77
 msgid "The amount that the audio affects the zoom of the image."
-msgstr ""
+msgstr "Množstvo, ktorým zvuk ovplyvňuje priblíženie obrazu."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:78
 msgid "Left / Right"
-msgstr ""
+msgstr "Vľavo / Vpravo"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:80
 msgid "The amount that the audio affects the left / right offset of the image."
-msgstr ""
+msgstr "Množstvo, ktorým zvuk ovplyvňuje posun obrazu doľava / doprava."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:81
 msgid "Up / Down"
-msgstr ""
+msgstr "Nahor / Nadol"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:83
 msgid "The amount that the audio affects the up / down offset of the image."
-msgstr ""
+msgstr "Množstvo, ktorým zvuk ovplyvňuje posun obrazu nahor / nadol."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:84
 msgid "Clockwise / Counter Clockwise"
-msgstr ""
+msgstr "V smere hodinových ručičiek / Proti smeru hodinových ručičiek"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:85
 msgid "Degree"
@@ -233,7 +247,7 @@ msgstr "Stupeň"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:86
 msgid "The amount that the audio affects the rotation of the image."
-msgstr ""
+msgstr "Množstvo, ktorým zvuk ovplyvňuje otočenie obrazu."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:87
 msgid "Window Size"
@@ -248,10 +262,16 @@ msgid ""
 "the window. The buffering is performed as a sliding window so that the most "
 "recent samples are always transformed."
 msgstr ""
+"Počet vzoriek, na ktorých sa vykoná FFT\\ [1]_. Ak je :guilabel:`Veľkosť "
+"okna` menšia ako počet vzoriek v snímke, ďalšie vzorky budú ignorované. Ak "
+"je :guilabel:`Veľkosť okna` väčšia ako počet vzoriek v snímke, vzorky z "
+"predchádzajúcich snímok sa uložia do vyrovnávacej pamäte na vyplnenie okna. "
+"Ukladanie do vyrovnávacej pamäte sa vykonáva ako posuvné okno, takže "
+"najnovšie vzorky sú vždy transformované."
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:92
 msgid ":guilabel:`Initial Zoom`"
-msgstr ""
+msgstr ":guilabel:`Počiatočné priblíženie`"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:99
 msgid "100%"
@@ -260,35 +280,35 @@ msgstr "100%"
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:100
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:117
 msgid "no zoom"
-msgstr ""
+msgstr "no zoom"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:101
 msgid "< 100%"
-msgstr ""
+msgstr "< 100%"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:102
 msgid "zoom out (make the image smaller)"
-msgstr ""
+msgstr "oddialiť (zmenšiť obraz)"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:103
 msgid "> 100%"
-msgstr ""
+msgstr "> 100%"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:104
 msgid "zoom in (make the image larger)"
-msgstr ""
+msgstr "priblížiť (zväčšiť obraz)"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:107
 msgid ":guilabel:`Zoom`"
-msgstr ""
+msgstr ":guilabel:`Priblíženie`"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:114
 msgid "< 0%"
-msgstr ""
+msgstr "< 0%"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:115
 msgid "Image will zoom out (get smaller) with more sound"
-msgstr ""
+msgstr "Obraz sa oddiali (zmenší) s väčším zvukom"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:116
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:129
@@ -302,48 +322,49 @@ msgstr "0%"
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:144
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:157
 msgid "> 0%"
-msgstr ""
+msgstr "> 0%"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:119
 msgid "Image will zoom in (get larger) with more sound"
-msgstr ""
+msgstr "Obraz sa priblíži (zväčší) s väčším zvukom"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:122
 msgid ":guilabel:`Left / Right`"
-msgstr ""
+msgstr ":guilabel:`Vľavo / vpravo`"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:130
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:143
 msgid "no offset"
-msgstr ""
+msgstr "žiadny posun"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:132
 msgid "Image will move left / right with more sound"
-msgstr ""
+msgstr "Obraz sa bude pohybovať vľavo / vpravo s väčším zvukom"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:135
 msgid ":guilabel:`Up / Down`"
-msgstr ""
+msgstr ":guilabel:`Hore / dole`"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:145
 msgid "Image will move up / down with more sound"
-msgstr ""
+msgstr "Obraz sa bude pohybovať hore / dole s väčším zvukom"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:148
 msgid ":guilabel:`Clockwise / Counter Clockwise`"
 msgstr ""
+":guilabel:`V smere hodinových ručičiek / proti smeru hodinových ručičiek`"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:156
 msgid "no rotation"
-msgstr ""
+msgstr "žiadna rotácia"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:158
 msgid "Image will rotate with more sound"
-msgstr ""
+msgstr "Obraz sa bude otáčať s väčším zvukom"
 
 #: ../../effects_and_filters/video_effects/on_master/dance.rst:163
 msgid "FFT := Fast Fourier Transform"
-msgstr ""
+msgstr "FFT := Rýchla Fourierova transformácia"
 
 #~ msgid "https://youtu.be/gqxU1nvh6JI"
 #~ msgstr "https://youtu.be/gqxU1nvh6JI"

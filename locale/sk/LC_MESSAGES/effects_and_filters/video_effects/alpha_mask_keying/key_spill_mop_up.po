@@ -109,7 +109,7 @@ msgstr "Frei0r"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:31
 msgid "keyspillm0pup"
-msgstr ""
+msgstr "keyspillm0pup"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:33
 msgid "|linux| |appimage| |windows| |apple|"
@@ -126,7 +126,7 @@ msgstr "8bit"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:41
 msgid ":ref:`Yes <tutorials-key_spill_mop_up>` |view-presentation|"
-msgstr ""
+msgstr ":ref:`Áno <tutorials-key_spill_mop_up>` |view-presentation|"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:47
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:61
@@ -142,6 +142,12 @@ msgid ""
 "This is known as \"key spill\". This effect can attempt to compensate for "
 "this issue."
 msgstr ""
+"Tento efekt sa používa v kombinácii s chroma key (inak známym ako "
+"Greenscreen alebo Bluescreen). Jeho účelom je kompenzovať skutočnosť, že "
+"niekedy sa farba zo zelenej alebo modrej obrazovky odráža na objekte a "
+"spôsobuje, že objekt dostáva odtieň modrej alebo zelenej farby, najmä okolo "
+"okrajov. Toto sa nazýva „key spill\". Tento efekt sa môže pokúsiť "
+"kompenzovať tento problém."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:52
 msgid "Parameters"
@@ -170,6 +176,7 @@ msgid ""
 "Selects the type of mask that will determine where the color altering "
 "operations will occur"
 msgstr ""
+"Vyberie typ masky, ktorá určí, kde budú prebiehať operácie zmeny farieb"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:65
 msgid "Operation 1"
@@ -181,6 +188,9 @@ msgid ""
 "selected pixels. Apart from no operation, there are four possibilities: De-"
 "key, Target, De-saturate and Luma adjust."
 msgstr ""
+"Vyberie, ktorá zo štyroch možných operácií sa vykoná na pixeloch vybraných "
+"maskou. Okrem žiadnej operácie existujú štyri možnosti: De-key, Cieľ, De-"
+"saturácia a Úprava lumy."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:68
 msgid "Operation 2"
@@ -188,11 +198,11 @@ msgstr "Operácia 2"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:70
 msgid "Enable a second operation to be performed with the same mask"
-msgstr ""
+msgstr "Umožní vykonanie druhej operácie s rovnakou maskou"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:71
 msgid "Show mask"
-msgstr ""
+msgstr "Zobraziť masku"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:72
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:75
@@ -204,6 +214,8 @@ msgid ""
 "This will show the selected mask as a greyscale image, to help with fine "
 "tuning of the masks. Should be OFF for the final render."
 msgstr ""
+"Zobrazí vybranú masku ako obrázok v odtieňoch sivej, čo pomáha pri jemnom "
+"doladení masiek. Pre finálne renderovanie by malo byť VYPNUTÉ."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:74
 msgid "Mask to Alpha"
@@ -215,10 +227,13 @@ msgid ""
 "operations, this should be OFF. By setting it ON, the Key Spill Mop Up "
 "itself can be used as a keyer, or to generate some special effects."
 msgstr ""
+"Skopíruje aktívnu masku do alpha channel. Pre všetky bežné operácie čistenia "
+"spill-u by malo byť VYPNUTÉ. Zapnutím je možné použiť samotný Key Spill Mop "
+"Up ako keyer alebo na generovanie špeciálnych efektov."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:77
 msgid "Key color"
-msgstr ""
+msgstr "Kľúčová farba"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:78
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:81
@@ -230,10 +245,13 @@ msgid ""
 "This should be the same or similar to the key color used for the preceding "
 "keying operation. Use the color bar or pipette to select the color."
 msgstr ""
+"Toto by malo byť rovnaké alebo podobné kľúčovej farbe použitej v "
+"predchádzajúcej operácii keyingu. Na výber farby použite farebný pás alebo "
+"pipetu."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:80
 msgid "Target color"
-msgstr ""
+msgstr "Cieľová farba"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:82
 msgid ""
@@ -242,6 +260,9 @@ msgid ""
 "towards this color, according to the \"Amount 1\" and \"Amount 2\" "
 "parameter, respectively."
 msgstr ""
+"Toto sa používa iba vtedy, keď je pre operáciu 1 alebo 2 vybraný „Cieľ\" a "
+"používa sa s jednou z masiek. Farby v postihnutých oblastiach sa budú "
+"posúvať smerom k tejto farbe podľa parametra „Množstvo 1\" a „Množstvo 2\"."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:83
 msgid "Tolerance"
@@ -262,6 +283,9 @@ msgid ""
 "be 100% affected. For the transparency mask, the \"amplification\". For the "
 "edge mask, the width of the affected area."
 msgstr ""
+"Pre masku farebného rozdielu je to rozsah farieb okolo kľúča, ktoré budú "
+"100% ovplyvnené. Pre masku transparentnosti je to „zosilnenie\". Pre masku "
+"okraja je to šírka postihnutej oblasti."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:86
 msgid "Slope"
@@ -273,26 +297,33 @@ msgid ""
 "that will be gradually less affected. No function for the transparency and "
 "edge masks."
 msgstr ""
+"Pre masku farebného rozdielu je to rozsah farieb mimo „Tolerancie\", ktoré "
+"budú postupne menej ovplyvnené. Pre masky transparentnosti a okraja nemá "
+"žiadnu funkciu."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:89
 msgid "Hue gate"
-msgstr ""
+msgstr "Hradlo odtieňa"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:91
 msgid ""
 "Reduces the mask according to difference from key hue, to prevent change to "
 "pixels that are within the mask, but not polluted by key."
 msgstr ""
+"Zmenšuje masku podľa rozdielu od kľúčového odtieňa, aby sa zabránilo zmene "
+"pixelov, ktoré sú v maske, ale nie sú znečistené kľúčom."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:92
 msgid "Saturation threshold"
-msgstr ""
+msgstr "Prah sýtosti"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:94
 msgid ""
 "Reduces the mask according to color saturation, to avoid affecting the "
 "neutral areas."
 msgstr ""
+"Zmenšuje masku podľa farebnej sýtosti, aby sa predišlo ovplyvneniu "
+"neutrálnych oblastí."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:95
 msgid "Amount 1"
@@ -301,7 +332,7 @@ msgstr "Množstvo 1"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:97
 msgid ""
 "The amount of the selected operation 1, how much the colors will change."
-msgstr ""
+msgstr "Množstvo vybranej operácie 1, o koľko sa farby zmenia."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:98
 msgid "Amount 2"
@@ -310,7 +341,7 @@ msgstr "Množstvo 2"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:100
 msgid ""
 "The amount of the selected operation 2, how much the colors will change."
-msgstr ""
+msgstr "Množstvo vybranej operácie 2, o koľko sa farby zmenia."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:102
 msgid "The following selection items are available:"
@@ -318,11 +349,11 @@ msgstr "K dispozícii sú nasledujúce položky výberu:"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:104
 msgid ":guilabel:`Mask type`"
-msgstr ""
+msgstr ":guilabel:`Typ masky`"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:111
 msgid "Color distance"
-msgstr ""
+msgstr "Farebná vzdialenosť"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:113
 msgid "Transparency"
@@ -330,11 +361,11 @@ msgstr "Priehľadnosť"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:115
 msgid "Edge inwards"
-msgstr ""
+msgstr "Okraj dovnútra"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:117
 msgid "Edge outwards"
-msgstr ""
+msgstr "Okraj smerom von"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:120
 msgid ""
@@ -342,6 +373,9 @@ msgid ""
 "depend on the alpha from the preceding keying, except for ignoring the 100% "
 "transparent areas, to increase speed."
 msgstr ""
+"Masky farebného rozdielu sú založené na farbe obrazu a nezávisia od alpha z "
+"predchádzajúceho keyingu, s výnimkou ignorovania 100% transparentných "
+"oblastí na zvýšenie rýchlosti."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:122
 msgid ""
@@ -351,6 +385,11 @@ msgid ""
 "values from the preceding keying operation. The effect will be proportional "
 "to the transparency."
 msgstr ""
+"Masky transparentnosti a okraja sú založené na alpha channel z "
+"predchádzajúcej operácie chroma key. Masky transparentnosti ovplyvnia iba "
+"časti, ktoré nie sú ani 100% nepriehľadné, ani 100% transparentné, na "
+"základe hodnôt alpha z predchádzajúcej operácie keyingu. Efekt bude úmerný "
+"transparentnosti."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:124
 msgid ""
@@ -360,6 +399,11 @@ msgid ""
 "away from the edge. The outer edge is the edge of the fully opaque part, "
 "where the alpha from the preceding keying is 1.0 (255)."
 msgstr ""
+"Ak bol v predchádzajúcom efekte chroma key použitý „tvrdý kľúč\", nebudú "
+"existovať žiadne oblasti, ktoré by mohli ovplyvniť operácie :guilabel:"
+"`Transparentnosť`. Masky okraja ovplyvnia iba pixely blízko okraja, pričom "
+"efekt s rastúcou vzdialenosťou od okraja slabne. Vonkajší okraj je okraj "
+"plne nepriehľadnej časti, kde je alpha z predchádzajúceho keyingu 1,0 (255)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:126
 msgid ""
@@ -367,6 +411,9 @@ msgid ""
 "like it to be. They will have to look some more into this, and improve it, "
 "so consider it a \"temporary solution\" that will change in the future."
 msgstr ""
+"Algoritmus maskovania okraja ešte nie je tým, čím by ho autor filtra chcel "
+"mať. Bude ho potrebné ďalej preskúmať a vylepšiť, preto ho považujte za "
+"„dočasné riešenie\", ktoré sa v budúcnosti zmení."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:128
 msgid ""
@@ -375,10 +422,14 @@ msgid ""
 "`Saturation threshold`, which will limit the mask to areas with color "
 "saturation above a threshold."
 msgstr ""
+"Všetky masky je možné ďalej redukovať pomocou dvoch parametrov: :guilabel:"
+"`Hradlo odtieňa`, ktoré obmedzí masku na odtiene blízke kľúčovému odtieňu, "
+"a :guilabel:`Prah sýtosti`, ktorý obmedzí masku na oblasti s farebnou "
+"sýtosťou nad prahom."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:131
 msgid ":guilabel:`Operation 1/2`"
-msgstr ""
+msgstr ":guilabel:`Operácia 1/2`"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:138
 msgid "None"
@@ -386,15 +437,15 @@ msgstr "Žiadna"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:139
 msgid "Default for :guilabel:`Operation 2`"
-msgstr ""
+msgstr "Predvolené pre :guilabel:`Operácia 2`"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:140
 msgid "De-Key"
-msgstr ""
+msgstr "De-Key"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:141
 msgid "Default for :guilabel:`Operation 1`"
-msgstr ""
+msgstr "Predvolené pre :guilabel:`Operácia 1`"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:142
 msgid "Target"
@@ -406,7 +457,7 @@ msgstr "Odsýtiť"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:146
 msgid "Luma adjust"
-msgstr ""
+msgstr "Úprava lumy"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:151
 msgid "Notes"
@@ -421,6 +472,13 @@ msgid ""
 "is a bit easier. If the hue gate and saturation threshold are not used, "
 "transparency and edge masks can be exactly the same in cascaded effects."
 msgstr ""
+"Tento efekt môže byť kaskádovaný, ale nie je možné získať rovnakú masku "
+"založenú na farbe v druhej inštancii, pretože farby budú zmenené prvou "
+"inštanciou. Aby bolo možné vykonať dve operácie s rovnakou maskou, každá "
+"inštancia efektu môže vykonávať dve operácie. Pri maskách transparentnosti a "
+"okraja je kaskádovanie o niečo jednoduchšie. Ak nie sú použité hradlo "
+"odtieňa a prah sýtosti, masky transparentnosti a okraja môžu byť v "
+"kaskádovaných efektoch úplne rovnaké."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:161
 msgid ""
@@ -432,6 +490,13 @@ msgid ""
 "Shrink Hard and :doc:`/effects_and_filters/video_effects/grain_and_noise/"
 "denoise_hqdn3d`."
 msgstr ""
+"Tento |tutorial_1| ukazuje použitie nasledujúcich efektov: :doc:`Key Spill "
+"Mop Up </effects_and_filters/video_effects/alpha_mask_keying/"
+"key_spill_mop_up>`, modrá obrazovka (teraz nazývaná :doc:`Chroma Key: Basic "
+"</effects_and_filters/video_effects/alpha_mask_keying/chroma_key>`), :doc:"
+"`Alfa operácie </effects_and_filters/video_effects/alpha_mask_keying/"
+"alpha_operations>` pomocou Shrink Hard a :doc:`/effects_and_filters/"
+"video_effects/grain_and_noise/denoise_hqdn3d`."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/key_spill_mop_up.rst:163
 msgid ""
@@ -440,6 +505,10 @@ msgid ""
 "use a composite transition. Nevertheless, the basic steps of chroma keying "
 "and keyspill mop up are explained and are still valid."
 msgstr ""
+"**Toto video je trochu zastarané.** V novších verziách Kdenlive je efekt Key "
+"Spill Mop Up nainštalovaný predvolene a použitie kompozitného prechodu už "
+"nie je potrebné. Napriek tomu sú základné kroky chroma keyingu a keyspill "
+"mop up vysvetlené a stále platné."
 
 #, fuzzy
 #~ msgid "keyframe"

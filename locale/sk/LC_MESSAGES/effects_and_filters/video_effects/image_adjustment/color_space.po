@@ -113,6 +113,8 @@ msgid ""
 "This effect/filter converts :term:`color space`, transfer characteristics or "
 "color primaries. Input video needs to have an even size."
 msgstr ""
+"Tento efekt/filter konvertuje :term:`color space`, charakteristiky prenosu "
+"alebo farebné primárne zložky. Vstupné video musí mať párne rozmery."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:50
 msgid ""
@@ -126,6 +128,15 @@ msgid ""
 "any of these are missing, the filter will log an error and no conversion "
 "will take place."
 msgstr ""
+"Filter konvertuje charakteristiky prenosu, farebný priestor a farebné "
+"primárne zložky na zadané hodnoty používateľa. Výstupná hodnota, ak nie je "
+"zadaná, je nastavená na predvolenú hodnotu na základe vlastnosti :guilabel:"
+"`Color properties`. Ak ani táto vlastnosť nie je zadaná, filter zaznamená "
+"chybu. Výstupný farebný rozsah a formát sa predvolene zhodujú s hodnotou "
+"vstupného farebného rozsahu a formátu. Vstupné charakteristiky prenosu, "
+"farebný priestor, farebné primárne zložky a farebný rozsah by mali byť "
+"nastavené na vstupných údajoch. Ak niektoré z nich chýbajú, filter zaznamená "
+"chybu a konverzia sa nevykoná."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:54
 msgid "Parameters"
@@ -161,7 +172,7 @@ msgstr "Výber"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:66
 msgid "Specify all color properties at once"
-msgstr ""
+msgstr "Zadať všetky vlastnosti farby naraz"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:67
 msgid "Output color space"
@@ -169,7 +180,7 @@ msgstr "Farebný priestor"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:69
 msgid "Specifies output color space"
-msgstr ""
+msgstr "Určuje výstupný farebný priestor"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:70
 msgid "Output transfer characteristics"
@@ -177,7 +188,7 @@ msgstr "Výstupné prenosové charakteristiky"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:72
 msgid "Specifies output transfer characteristics"
-msgstr ""
+msgstr "Určuje výstupné charakteristiky prenosu"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:73
 msgid "Output color primaries"
@@ -185,7 +196,7 @@ msgstr "Výstupný súbor"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:75
 msgid "Specifies output color primaries"
-msgstr ""
+msgstr "Určuje výstupné farebné primárne zložky"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:76
 msgid "Output color range"
@@ -193,7 +204,7 @@ msgstr "Farebný priestor"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:78
 msgid "Specifies output color range"
-msgstr ""
+msgstr "Určuje výstupný farebný rozsah"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:79
 msgid "Output color format"
@@ -201,7 +212,7 @@ msgstr "Výstupný súbor"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:81
 msgid "Specifies output color format"
-msgstr ""
+msgstr "Určuje výstupný farebný formát"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:82
 msgid "Fast conversion"
@@ -218,6 +229,11 @@ msgid ""
 "compatible with that produced by the :doc:`/effects_and_filters/"
 "video_effects/image_adjustment/color_matrix` filter, switch it on."
 msgstr ""
+"Vykonať rýchlu konverziu, ktorá preskočí korekciu gammy/primárnych zložiek. "
+"Spotrebuje výrazne menej výkonu CPU, ale bude matematicky nesprávna. Ak "
+"chcete získať výstup kompatibilný s výstupom filtra :doc:`/"
+"effects_and_filters/video_effects/image_adjustment/color_matrix`, zapnite "
+"túto možnosť."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:85
 msgid "Dithering mode"
@@ -225,15 +241,15 @@ msgstr "Režim zobrazenia"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:87
 msgid "Specifies dithering mode"
-msgstr ""
+msgstr "Určuje režim ditheringu"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:88
 msgid "Whitepoint adaption mode"
-msgstr ""
+msgstr "Režim prispôsobenia bieleho bodu"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:90
 msgid "Specifies whitepoint adaptation mode"
-msgstr ""
+msgstr "Určuje režim prispôsobenia bieleho bodu"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:91
 msgid "Override all input properties at once"
@@ -264,13 +280,15 @@ msgid ""
 ":guilabel:`Color properties` :guilabel:`Override all input properties at "
 "once`"
 msgstr ""
+":guilabel:`Color properties` :guilabel:`Override all input properties at "
+"once`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:116
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:141
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:164
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:199
 msgid "BT.709"
-msgstr ""
+msgstr "BT.709"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:117
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:142
@@ -286,83 +304,85 @@ msgstr "Predvolené"
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:166
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:201
 msgid "BT.470M"
-msgstr ""
+msgstr "BT.470M"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:120
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:168
 msgid "BT.470BG"
-msgstr ""
+msgstr "BT.470BG"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:122
 msgid "BT601-6 525"
-msgstr ""
+msgstr "BT601-6 525"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:124
 msgid "BT601-6 625"
-msgstr ""
+msgstr "BT601-6 625"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:126
 msgid "SMPTE-170M"
-msgstr ""
+msgstr "SMPTE-170M"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:128
 msgid "SMPTE-240M"
-msgstr ""
+msgstr "SMPTE-240M"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:130
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:211
 msgid "BT.2020"
-msgstr ""
+msgstr "BT.2020"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:134
 msgid ":guilabel:`Output color space` :guilabel:`Override input color space`"
-msgstr ""
+msgstr ":guilabel:`Output color space` :guilabel:`Override input color space`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:143
 msgid "FCC"
-msgstr ""
+msgstr "FCC"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:145
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:203
 msgid "BT.470BG (BT.470BG or BT.601-6 625)"
-msgstr ""
+msgstr "BT.470BG (BT.470BG alebo BT.601-6 625)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:147
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:205
 msgid "SMPTE 170M (SMPTE 170M or BT.601-6 525)"
-msgstr ""
+msgstr "SMPTE 170M (SMPTE 170M alebo BT.601-6 525)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:149
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:176
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:207
 msgid "SMPTE 240M"
-msgstr ""
+msgstr "SMPTE 240M"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:151
 msgid "YCgCo"
-msgstr ""
+msgstr "YCgCo"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:153
 msgid "BT.2020 non-constant luma"
-msgstr ""
+msgstr "BT.2020 nekonstantná luma"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:157
 msgid ""
 ":guilabel:`Output transfer characteristics` :guilabel:`Override input "
 "transfer characteristics`"
 msgstr ""
+":guilabel:`Output transfer characteristics` :guilabel:`Override input "
+"transfer characteristics`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:170
 msgid "Constant Gamma of 2.2"
-msgstr ""
+msgstr "Konštantná gamma 2,2"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:172
 msgid "Constant Gamma of 2.8"
-msgstr ""
+msgstr "Konštantná gamma 2,8"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:174
 msgid "SMPTE 170M (SMPTE 170M, BT.601-6 525 or BT.601-6 525)"
-msgstr ""
+msgstr "SMPTE 170M (SMPTE 170M, BT.601-6 525 alebo BT.601-6 525)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:178
 msgid "SRGB"
@@ -370,32 +390,33 @@ msgstr "sRGB"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:180
 msgid "IEC 61966-2-1"
-msgstr ""
+msgstr "IEC 61966-2-1"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:182
 msgid "IEC 61966-2-4"
-msgstr ""
+msgstr "IEC 61966-2-4"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:184
 msgid "xvYCC"
-msgstr ""
+msgstr "xvYCC"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:185
 msgid "extended-gamut YCbCr"
-msgstr ""
+msgstr "YCbCr s rozšíreným gamutom"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:186
 msgid "BT.2020 for 10-bits constant"
-msgstr ""
+msgstr "BT.2020 pre 10-bitovú konštantu"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:188
 msgid "BT.2020 for 12-bits constant"
-msgstr ""
+msgstr "BT.2020 pre 12-bitovú konštantu"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:192
 msgid ""
 ":guilabel:`Output color primaries` :guilabel:`Override input color primaries`"
 msgstr ""
+":guilabel:`Output color primaries` :guilabel:`Override input color primaries`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:209
 msgid "Film"
@@ -403,15 +424,15 @@ msgstr "Rodina"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:213
 msgid "SMPTE 431"
-msgstr ""
+msgstr "SMPTE 431"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:215
 msgid "SMPTE 432"
-msgstr ""
+msgstr "SMPTE 432"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:217
 msgid "JEDEC-PT22 phosphors"
-msgstr ""
+msgstr "Fosforescenčné látky JEDEC-PT22"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:221
 msgid ":guilabel:`Output color range`"
@@ -419,73 +440,75 @@ msgstr "Farebný priestor"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:228
 msgid "TV (restricted range)"
-msgstr ""
+msgstr "TV (obmedzený rozsah)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:230
 msgid "MPEG (restricted range)"
-msgstr ""
+msgstr "MPEG (obmedzený rozsah)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:232
 msgid "PC (full range)"
-msgstr ""
+msgstr "PC (plný rozsah)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:234
 msgid "JPEG (full range)"
-msgstr ""
+msgstr "JPEG (plný rozsah)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:238
 msgid ":guilabel:`Output color format`"
-msgstr ""
+msgstr ":guilabel:`Output color format`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:245
 msgid "YUV 4:2:0 planar 8-bits / 10-bits / 12-bits"
-msgstr ""
+msgstr "YUV 4:2:0 planárny 8-bitový / 10-bitový / 12-bitový"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:246
 msgid "Default is 8-bits"
-msgstr ""
+msgstr "Predvolená hodnota je 8 bitov"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:247
 msgid "YUV 4:2:2 planar 8-bits / 10-bits / 12-bits"
-msgstr ""
+msgstr "YUV 4:2:2 planárny 8-bitový / 10-bitový / 12-bitový"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:249
 msgid "YUV 4:4:4 planar 8-bits / 10-bits / 12-bits"
-msgstr ""
+msgstr "YUV 4:4:4 planárny 8-bitový / 10-bitový / 12-bitový"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:253
 msgid ":guilabel:`Dithering mode`"
-msgstr ""
+msgstr ":guilabel:`Dithering mode`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:260
 msgid "No dithering"
-msgstr ""
+msgstr "Bez ditheringu"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:262
 msgid "Floyd-Steinberg dithering"
-msgstr ""
+msgstr "Dithering Floyd-Steinberg"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:266
 msgid ":guilabel:`Whitepoint adaption mode`"
-msgstr ""
+msgstr ":guilabel:`Whitepoint adaption mode`"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:273
 msgid "Identity whitepoint adaptation (no whitepoint adaptation)"
-msgstr ""
+msgstr "Identické prispôsobenie bieleho bodu (bez prispôsobenia bieleho bodu)"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:275
 msgid "Bradford whitepoint adaptation"
-msgstr ""
+msgstr "Prispôsobenie bieleho bodu Bradford"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:277
 msgid "von Kries whitepoint adaptation"
-msgstr ""
+msgstr "Prispôsobenie bieleho bodu von Kries"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/color_space.rst:281
 msgid ""
 "For the technical inclined there is a list of detailed |"
 "color_space_descriptions| available in the Linux Kernel documentation."
 msgstr ""
+"Pre technicky zdatných je v dokumentácii jadra Linuxu k dispozícii zoznam "
+"podrobných |color_space_descriptions|."
 
 #, fuzzy
 #~ msgid "color-picker"

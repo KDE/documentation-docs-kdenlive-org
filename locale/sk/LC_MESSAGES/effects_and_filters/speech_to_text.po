@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-04-20 02:06+0000\n"
 "PO-Revision-Date: 2023-12-09 16:56+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "add-subtitle"
-msgstr ""
+msgstr "add-subtitle"
 
 #: ../../<rst_epilog>:34
 msgid "application-menu"
@@ -38,11 +38,11 @@ msgstr "edit-find"
 
 #: ../../<rst_epilog>:186
 msgid "format-font-size-less"
-msgstr ""
+msgstr "format-font-size-less"
 
 #: ../../<rst_epilog>:190
 msgid "format-font-size-more"
-msgstr ""
+msgstr "format-font-size-more"
 
 #: ../../<rst_epilog>:214
 msgid "go-down"
@@ -113,11 +113,19 @@ msgid "Speech to Text"
 msgstr "Reč na text"
 
 #: ../../effects_and_filters/speech_to_text.rst:33
+#, fuzzy
+#| msgid ""
+#| "Speech to text does not work with version 21.04.2 due to `Vosk API "
+#| "<https://github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or "
+#| "21.04.3 and later versions."
 msgid ""
 "Speech to text does not work with version 21.04.2 due to `Vosk API <https://"
-"github.com/alphacep/vosk-api>`_ issues. Use version 21.04.1 or 21.04.3 and "
+"github.com/alphacep/vosk-api>`__ issues. Use version 21.04.1 or 21.04.3 and "
 "later versions."
 msgstr ""
+"Prevod reči na text nefunguje vo verzii 21.04.2 kvôli problémom s `Vosk API "
+"<https://github.com/alphacep/vosk-api>`_. Použite verziu 21.04.1 alebo "
+"21.04.3 a novšie verzie."
 
 #: ../../effects_and_filters/speech_to_text.rst:36
 msgid ""
@@ -125,6 +133,10 @@ msgid ""
 "models installed. Please refer to the chapter :doc:`Configure Speech to "
 "Text</getting_started/configure_kdenlive/configuration_plugins>`."
 msgstr ""
+"Pred použitím funkcie Prevod reči na text je potrebné ju správne "
+"nakonfigurovať a nainštalovať rečové modely. Prečítajte si kapitolu :doc:"
+"`Nakonfigurovať prevod reči na text</getting_started/configure_kdenlive/"
+"configuration_plugins>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:38
 msgid ""
@@ -138,18 +150,27 @@ msgid ""
 "menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Speech to "
 "Text</getting_started/configure_kdenlive/configuration_plugins>` route."
 msgstr ""
+"Hoci môžete nakonfigurovať a nastaviť oba engine, VOSK aj Whisper, pre "
+"rozpoznávanie reči, pri ďalšom použití tejto funkcie sa použije engine "
+"vybraný v konfiguračnej časti :doc:`Prevod reči na text</getting_started/"
+"configure_kdenlive/configuration_plugins>`. Počas úprav môžete samozrejme "
+"prepínať medzi enginemi a používať rôzne engine na rôzne účely. Widget "
+"Editor reči má položku ponuky na rýchly prístup do konfiguračnej časti bez "
+"potreby použiť cestu :menuselection:`Ponuka --> Nastavenia --> Nastaviť "
+"Kdenlive -->` :doc:`Prevod reči na text</getting_started/configure_kdenlive/"
+"configuration_plugins>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:42
 msgid "Speech Recognition"
-msgstr ""
+msgstr "Rozpoznávanie reči"
 
 #: ../../effects_and_filters/speech_to_text.rst:44
 msgid "There are two use cases for speech recognition:"
-msgstr ""
+msgstr "Existujú dva príklady použitia rozpoznávania reči:"
 
 #: ../../effects_and_filters/speech_to_text.rst:46
 msgid "Creating subtitles automatically"
-msgstr ""
+msgstr "Automatické vytváranie titulkov"
 
 #: ../../effects_and_filters/speech_to_text.rst:47
 msgid ""
@@ -157,20 +178,26 @@ msgid ""
 "ability to :ref:`add clips to the "
 "timeline<creating_clips_by_speech_recognition>` based on the transcript"
 msgstr ""
+"Vytváranie :ref:`prepisov<creating_clips_by_speech_recognition>` a možnosť :"
+"ref:`pridávať klipy na časovú os<creating_clips_by_speech_recognition>` na "
+"základe prepisu"
 
 #: ../../effects_and_filters/speech_to_text.rst:78
 msgid "Creating Subtitles using VOSK Speech Recognition"
-msgstr ""
+msgstr "Vytváranie titulkov pomocou rozpoznávania reči VOSK"
 
 #: ../../effects_and_filters/speech_to_text.rst:82
 msgid ""
 "If not yet created, add a subtitle track by clicking on the |add-subtitle|"
 "\\ :guilabel:`Edit Subtitle Tool` icon in the Timeline tool bar (**6**)."
 msgstr ""
+"Ak ešte nebola vytvorená, pridajte stopu titulkov kliknutím na ikonu |add-"
+"subtitle|\\ :guilabel:`Nástroj na úpravu titulkov` na paneli nástrojov "
+"časovej osi (**6**)."
 
 #: ../../effects_and_filters/speech_to_text.rst:89
 msgid "Automatic subtitle generation using the VOSK engine"
-msgstr ""
+msgstr "Automatické generovanie titulkov pomocou engine VOSK"
 
 #: ../../effects_and_filters/speech_to_text.rst:91
 #: ../../effects_and_filters/speech_to_text.rst:135
@@ -178,6 +205,8 @@ msgid ""
 "|tools-wizard|\\ :guilabel:`Speech recognition`. Click here to open the "
 "**Automatic Subtitling** dialog window."
 msgstr ""
+"|tools-wizard|\\ :guilabel:`Rozpoznávanie reči`. Kliknite sem na otvorenie "
+"dialógového okna **Automatické titulkovanie**."
 
 #: ../../effects_and_filters/speech_to_text.rst:93
 #: ../../effects_and_filters/speech_to_text.rst:137
@@ -185,16 +214,18 @@ msgid ""
 "Timeline Zone. More details about Timeline Zones can be found in the "
 "chapter :ref:`timeline_ruler`."
 msgstr ""
+"Zóna časovej osi. Ďalšie podrobnosti o zónach časovej osi nájdete v "
+"kapitole :ref:`timeline_ruler`."
 
 #: ../../effects_and_filters/speech_to_text.rst:95
 #: ../../effects_and_filters/speech_to_text.rst:139
 msgid "Choose which part of the timeline should be used for speech recognition"
-msgstr ""
+msgstr "Vyberte, ktorá časť časovej osi sa má použiť na rozpoznávanie reči"
 
 #: ../../effects_and_filters/speech_to_text.rst:97
 #: ../../effects_and_filters/speech_to_text.rst:143
 msgid ":guilabel:`Process`. Click to start the recognition"
-msgstr ""
+msgstr ":guilabel:`Spracovať`. Kliknite na spustenie rozpoznávania"
 
 #: ../../effects_and_filters/speech_to_text.rst:99
 #: ../../effects_and_filters/speech_to_text.rst:141
@@ -203,6 +234,9 @@ msgid ""
 "can install more models in the Configuration section :doc:`Speech to Text</"
 "getting_started/configure_kdenlive/configuration_plugins>`."
 msgstr ""
+":guilabel:`Model`. Vyberte model pre jazyk titulkov. Ďalšie modely môžete "
+"nainštalovať v konfiguračnej časti :doc:`Prevod reči na text</"
+"getting_started/configure_kdenlive/configuration_plugins>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:101
 #: ../../effects_and_filters/speech_to_text.rst:153
@@ -210,16 +244,20 @@ msgid ""
 "|add-subtitle|\\ :guilabel:`Edit Subtitle Tool`. Click to open or close the "
 "subtitle track."
 msgstr ""
+"|add-subtitle|\\ :guilabel:`Nástroj na úpravu titulkov`. Kliknite na "
+"otvorenie alebo zatvorenie stopy titulkov."
 
 #: ../../effects_and_filters/speech_to_text.rst:104
 #: ../../effects_and_filters/speech_to_text.rst:156
 msgid "Steps to create subtitles using VOSK speech recognition"
-msgstr ""
+msgstr "Kroky na vytvorenie titulkov pomocou rozpoznávania reči VOSK"
 
 #: ../../effects_and_filters/speech_to_text.rst:105
 #: ../../effects_and_filters/speech_to_text.rst:157
 msgid "(numbers in brackets point to the GUI element in the screenshot above):"
 msgstr ""
+"(čísla v zátvorkách odkazujú na prvok GUI na vyššie uvedenej snímke "
+"obrazovky):"
 
 #: ../../effects_and_filters/speech_to_text.rst:107
 #: ../../effects_and_filters/speech_to_text.rst:159
@@ -227,6 +265,8 @@ msgid ""
 "|tools-wizard|\\ :guilabel:`Speech recognition` (**1**). Click here to open "
 "the **Automatic Subtitling** dialog window."
 msgstr ""
+"|tools-wizard|\\ :guilabel:`Rozpoznávanie reči` (**1**). Kliknite sem na "
+"otvorenie dialógového okna **Automatické titulkovanie**."
 
 #: ../../effects_and_filters/speech_to_text.rst:109
 #: ../../effects_and_filters/speech_to_text.rst:161
@@ -235,6 +275,9 @@ msgid ""
 "recognition. More details about Timeline Zones can be found in the chapter :"
 "ref:`timeline_ruler`."
 msgstr ""
+"V prípade potreby definujte zónu časovej osi (**2**), pre ktorú chcete "
+"použiť rozpoznávanie reči. Ďalšie podrobnosti o zónach časovej osi nájdete v "
+"kapitole :ref:`timeline_ruler`."
 
 #: ../../effects_and_filters/speech_to_text.rst:111
 #: ../../effects_and_filters/speech_to_text.rst:163
@@ -243,6 +286,9 @@ msgid ""
 "subtitles. You can install more models in the Configuration section :doc:"
 "`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`."
 msgstr ""
+":guilabel:`Model` (**5**). Vyberte model pre jazyk titulkov. Ďalšie modely "
+"môžete nainštalovať v konfiguračnej časti :doc:`Prevod reči na text</"
+"getting_started/configure_kdenlive/configuration_plugins>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:113
 #: ../../effects_and_filters/speech_to_text.rst:165
@@ -250,16 +296,18 @@ msgid ""
 "Choose which part of the timeline should be used for speech recognition "
 "(**3**)"
 msgstr ""
+"Vyberte, ktorá časť časovej osi sa má použiť na rozpoznávanie reči (**3**)"
 
 #: ../../effects_and_filters/speech_to_text.rst:115
 #: ../../effects_and_filters/speech_to_text.rst:167
 msgid ":guilabel:`Process` (**4**). Click to start the subtitle creation."
 msgstr ""
+":guilabel:`Spracovať` (**4**). Kliknite na spustenie vytvárania titulkov."
 
 #: ../../effects_and_filters/speech_to_text.rst:117
 #: ../../effects_and_filters/speech_to_text.rst:169
 msgid "The subtitle is created and inserted automatically."
-msgstr ""
+msgstr "Titulok je vytvorený a vložený automaticky."
 
 #: ../../effects_and_filters/speech_to_text.rst:119
 #: ../../effects_and_filters/speech_to_text.rst:171
@@ -269,32 +317,44 @@ msgid ""
 "what you want to analyze (use :kbd:`I` and :kbd:`O` to set in and out "
 "points). :guilabel:`Selected clips` option analyses the selected clip only."
 msgstr ""
+"Poznámka k kroku **4**: Predvolene sa analyzuje iba :guilabel:`Zóna časovej "
+"osi (všetky stopy)` (**2** na snímke obrazovky vyššie). Nastavte zónu "
+"časovej osi na to, čo chcete analyzovať (použite :kbd:`I` a :kbd:`O` na "
+"nastavenie vstupných a výstupných bodov). Možnosť :guilabel:`Vybrané klipy` "
+"analyzuje iba vybraný klip."
 
 #: ../../effects_and_filters/speech_to_text.rst:123
 msgid "Creating Subtitles using WHISPER Speech Recognition"
-msgstr ""
+msgstr "Vytváranie titulkov pomocou rozpoznávania reči WHISPER"
 
 #: ../../effects_and_filters/speech_to_text.rst:127
 msgid ""
 "If not yet created, add a subtitle track by clicking on the |add-subtitle|"
 "\\ :guilabel:`Edit Subtitle Tool` icon in the Timeline tool bar (**11**)."
 msgstr ""
+"Ak ešte nebola vytvorená, pridajte stopu titulkov kliknutím na ikonu |add-"
+"subtitle|\\ :guilabel:`Nástroj na úpravu titulkov` na paneli nástrojov "
+"časovej osi (**11**)."
 
 #: ../../effects_and_filters/speech_to_text.rst:133
 msgid "Automatic subtitle generation using the Whisper engine"
-msgstr ""
+msgstr "Automatické generovanie titulkov pomocou engine Whisper"
 
 #: ../../effects_and_filters/speech_to_text.rst:145
 msgid ""
 ":guilabel:`Language`. Default is **Autodetect**. Change to the correct "
 "language if not detected properly."
 msgstr ""
+":guilabel:`Jazyk`. Predvolené je **Automatická detekcia**. Zmeňte na správny "
+"jazyk, ak nie je detekovaný správne."
 
 #: ../../effects_and_filters/speech_to_text.rst:147
 msgid ""
 ":guilabel:`Maximum character per line`. Define how many characters per line "
 "are allowed before a line break is inserted."
 msgstr ""
+":guilabel:`Maximálny počet znakov na riadok`. Definujte, koľko znakov na "
+"riadok je povolených pred vložením zalomenia riadku."
 
 #: ../../effects_and_filters/speech_to_text.rst:149
 msgid ""
@@ -305,12 +365,21 @@ msgid ""
 "Kdenlive --> Speech To Text`). Please refer to the chapter about :doc:"
 "`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`."
 msgstr ""
+":guilabel:`Preložiť pomocou SeamlessM4T`. Zaškrtnutím tejto možnosti sa "
+"pridajú dve ďalšie polia výberu: jedno pre :guilabel:`Vstupný jazyk` a jedno "
+"pre :guilabel:`Výstupný jazyk`. To vyžaduje, aby bolo prekladanie pomocou "
+"SeamlessM4T povolené v nastaveniach (:menuselection:`Ponuka --> Nastavenia --"
+"> Nastaviť Kdenlive --> Prevod reči na text`). Prečítajte si kapitolu o :doc:"
+"`Prevod reči na text</getting_started/configure_kdenlive/"
+"configuration_plugins>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:151
 msgid ""
 ":guilabel:`Translate to English`. Select this to use *Whisper* for the "
 "translation to English."
 msgstr ""
+":guilabel:`Preložiť do angličtiny`. Vyberte toto na použitie *Whisper* na "
+"preklad do angličtiny."
 
 #: ../../effects_and_filters/speech_to_text.rst:177
 msgid "Translate with SeamlessM4T"
@@ -318,13 +387,15 @@ msgstr "Textový klip šablóny"
 
 #: ../../effects_and_filters/speech_to_text.rst:183
 msgid "Translating with SeamlessM4T"
-msgstr ""
+msgstr "Prekladanie pomocou SeamlessM4T"
 
 #: ../../effects_and_filters/speech_to_text.rst:185
 msgid ""
 "Select :guilabel:`Input Language` and :guilabel:`Output Language` and click :"
 "guilabel:`Process`."
 msgstr ""
+"Vyberte :guilabel:`Vstupný jazyk` a :guilabel:`Výstupný jazyk` a kliknite "
+"na :guilabel:`Spracovať`."
 
 #: ../../effects_and_filters/speech_to_text.rst:187
 msgid ""
@@ -332,38 +403,49 @@ msgid ""
 "*SeamlessM4T* translation. Translation can occupy 100% RAM, 100% CPU and "
 "100% disk access."
 msgstr ""
+"Najprv sa spracuje zvuk pomocou *Whisper*, potom sa spustí preklad "
+"*SeamlessM4T*. Preklad môže zaberať 100 % RAM, 100 % CPU a 100 % prístupu na "
+"disk."
 
 #: ../../effects_and_filters/speech_to_text.rst:192
 msgid ""
 "If the 9GB model has not yet been downloaded, it will be downloaded now. "
 "With a 100MB/s download speed this will take about 12 minutes!"
 msgstr ""
+"Ak model veľkosti 9 GB ešte nebol stiahnutý, bude stiahnutý teraz. Pri "
+"rýchlosti sťahovania 100 MB/s to bude trvať asi 12 minút!"
 
 #: ../../effects_and_filters/speech_to_text.rst:194
 msgid ""
 "During download Kdenlive will react as normal. Do not click on :guilabel:"
 "`Close`, otherwise the download is stopped."
 msgstr ""
+"Počas sťahovania bude Kdenlive reagovať normálne. Neklikajte na :guilabel:"
+"`Zavrieť`, inak sa sťahovanie zastaví."
 
 #: ../../effects_and_filters/speech_to_text.rst:201
 msgid ""
 "Don't worry if you see such a message on the box below :guilabel:"
 "`Initializing translation model` while the download is running."
 msgstr ""
+"Nebojte sa, ak sa vám zobrazí takáto správa v poli pod :guilabel:"
+"`Inicializácia modelu prekladu` počas prebiehajúceho sťahovania."
 
 #: ../../effects_and_filters/speech_to_text.rst:203
 msgid ""
 "Depending on your internet connection and bandwidth, downloading the model "
 "can take quite some time (about 12 minutes with 100MB/s download speed)."
 msgstr ""
+"V závislosti od vášho internetového pripojenia a šírky pásma môže sťahovanie "
+"modelu trvať pomerne dlho (asi 12 minút pri rýchlosti sťahovania 100 MB/s)."
 
 #: ../../effects_and_filters/speech_to_text.rst:205
 msgid "Once the translation model is downloaded, translation will start."
-msgstr ""
+msgstr "Po stiahnutí modelu prekladu sa preklad spustí."
 
 #: ../../effects_and_filters/speech_to_text.rst:236
 msgid "Creating Clips using Speech Recognition"
-msgstr ""
+msgstr "Vytváranie klipov pomocou rozpoznávania reči"
 
 #: ../../effects_and_filters/speech_to_text.rst:238
 msgid ""
@@ -371,26 +453,34 @@ msgid ""
 "Speech Editor widget. If not yet enabled, do so via :menuselection:`Menu --> "
 "View --> Speech Editor`."
 msgstr ""
+"Toto je užitočné pre rozhovory a iné záznamy súvisiace s rečou. Prejdite na "
+"widget Editor reči. Ak ešte nie je povolený, aktivujte ho cez :menuselection:"
+"`Ponuka --> Zobraziť --> Editor reči`."
 
 #: ../../effects_and_filters/speech_to_text.rst:240
 msgid ""
 "Using speech recognition to create transcripts and create clips from that, "
 "is only possible with clips in the **Project Bin**."
 msgstr ""
+"Použitie rozpoznávania reči na vytváranie prepisov a klipov z nich je možné "
+"iba s klipmi v **Kôši projektu**."
 
 #: ../../effects_and_filters/speech_to_text.rst:246
 msgid "Shown with the VOSK engine and Search (10) enabled"
-msgstr ""
+msgstr "Zobrazené s engine VOSK a povoleným vyhľadávaním (10)"
 
 #: ../../effects_and_filters/speech_to_text.rst:248
 msgid "Select a clip in the **Project Bin**."
-msgstr ""
+msgstr "Vyberte klip v **Kôši projektu**."
 
 #: ../../effects_and_filters/speech_to_text.rst:250
 msgid ""
 "If needed, set in and out points in the **Clip Monitor** and check :guilabel:"
 "`Selected zone only`. This will only transcribe text inside that zone."
 msgstr ""
+"V prípade potreby nastavte vstupné a výstupné body v **Monitore klipu** a "
+"zaškrtnite :guilabel:`Iba vybraná zóna`. Tým sa prepíše iba text v danej "
+"zóne."
 
 #: ../../effects_and_filters/speech_to_text.rst:252
 msgid ""
@@ -404,16 +494,27 @@ msgid ""
 "configuration refer to the chapter :doc:`Configure Speech to Text</"
 "getting_started/configure_kdenlive/configuration_plugins>`."
 msgstr ""
+"Kliknite na |application-menu|\\ :guilabel:`Hamburgerové menu` a vyberte "
+"model pre správny jazyk, keď je pre rozpoznávanie reči nastavený engine "
+"*VOSK*. Ak je vybraný engine *Whisper*, môžete v prípade potreby vybrať :"
+"guilabel:`Preložiť do angličtiny`. Engine rozpoznávania reči vyberiete v :"
+"menuselection:`Ponuka --> Nastavenia --> Nastaviť Kdenlive --> Prevod reči "
+"na text`. Kliknutím na :guilabel:`Nastaviť rozpoznávanie reči` otvoríte "
+"konfiguračnú časť pre Prevod reči na text. Ďalšie podrobnosti o konfigurácii "
+"nájdete v kapitole :doc:`Nakonfigurovať prevod reči na text</getting_started/"
+"configure_kdenlive/configuration_plugins>`."
 
 #: ../../effects_and_filters/speech_to_text.rst:254
 msgid "Press the :guilabel:`Transcribe` button."
-msgstr ""
+msgstr "Stlačte tlačidlo :guilabel:`Prepísať`."
 
 #: ../../effects_and_filters/speech_to_text.rst:256
 msgid ""
 "Select the text you want. Holding :kbd:`CTRL` or :kbd:`Shift` to select "
 "several texts."
 msgstr ""
+"Vyberte požadovaný text. Podržte :kbd:`CTRL` alebo :kbd:`Shift` na výber "
+"viacerých textov."
 
 #: ../../effects_and_filters/speech_to_text.rst:258
 msgid ""
@@ -423,6 +524,11 @@ msgid ""
 "position. :guilabel:`Save edited text in a playlist file` creates an asset "
 "in the project bin with the entire transcribed text."
 msgstr ""
+":guilabel:`Vytvoriť novú sekvenciu s úpravou` vytvorí novú sekvenciu s "
+"každým časovým kódom-textom ako samostatným klipom. :guilabel:`Vložiť výber "
+"do časovej osi` vytvorí klipy pre každý vybraný časový kód-text začínajúc na "
+"pozícii prehrávača. :guilabel:`Uložiť upravený text do súboru playlistu` "
+"vytvorí podklad v kôši projektu s celým prepísaným textom."
 
 #: ../../effects_and_filters/speech_to_text.rst:260
 msgid ""
@@ -430,6 +536,9 @@ msgid ""
 "size-less|\\ :guilabel:`Decrease font size` decrease, respectively, increase "
 "the font size."
 msgstr ""
+"|format-font-size-more|\\ :guilabel:`Zväčšiť veľkosť písma` a |format-font-"
+"size-less|\\ :guilabel:`Zmenšiť veľkosť písma` zmenšia, resp. zväčšia "
+"veľkosť písma."
 
 #: ../../effects_and_filters/speech_to_text.rst:262
 msgid ""
@@ -437,16 +546,20 @@ msgid ""
 "the selected text. More details about *Timeline Markers* and *Markers* are "
 "available in the chapter about :doc:`/cutting_and_assembling/guides`."
 msgstr ""
+"|bookmark-new|\\ :guilabel:`Pridať značku` pridá značku pre časový kód "
+"vybraného textu. Ďalšie podrobnosti o *Značkách časovej osi* a *Značkách* sú "
+"k dispozícii v kapitole o :doc:`/cutting_and_assembling/guides`."
 
 #: ../../effects_and_filters/speech_to_text.rst:264
 msgid "|edit-delete|\\ :guilabel:`Delete selection` deletes the selected text."
-msgstr ""
+msgstr "|edit-delete|\\ :guilabel:`Odstrániť výber` odstráni vybraný text."
 
 #: ../../effects_and_filters/speech_to_text.rst:266
 msgid ""
 ":guilabel:`Remove non speech zones` deletes all \"No speech\" entries at "
 "once."
 msgstr ""
+":guilabel:`Odstrániť zóny bez reči` vymaže všetky záznamy „Bez reči\" naraz."
 
 #: ../../effects_and_filters/speech_to_text.rst:268
 msgid ""
@@ -457,20 +570,27 @@ msgid ""
 "field turns reddish you have reached the last occurrence of the search term "
 "in the text."
 msgstr ""
+"|edit-find|\\ :guilabel:`Hľadať v texte` prepína vyhľadávacie pole. Zadajte "
+"text, ktorý chcete nájsť v prepísanom texte. Vyhľadávanie nerozlišuje malé a "
+"veľké písmená a nájde všetky výskyty reťazca aj v rámci slov. |go-up| a |go-"
+"down| navigujú na ďalší výskyt hľadaného výrazu. Ak vyhľadávacie pole "
+"sčervenie, dosiahli ste posledný výskyt hľadaného výrazu v texte."
 
 #: ../../effects_and_filters/speech_to_text.rst:274
 msgid "Silence Detection"
-msgstr ""
+msgstr "Detekcia ticha"
 
 #: ../../effects_and_filters/speech_to_text.rst:276
 msgid "This works with the VOSK engine only."
-msgstr ""
+msgstr "Toto funguje iba s engine VOSK."
 
 #: ../../effects_and_filters/speech_to_text.rst:278
 msgid ""
 "Select the clip in the **Project Bin** and open the speech editor window (:"
 "menuselection:`Menu --> View --> Speech Editor`) ."
 msgstr ""
+"Vyberte klip v **Kôši projektu** a otvorte okno editora reči (:menuselection:"
+"`Ponuka --> Zobraziť --> Editor reči`)."
 
 #: ../../effects_and_filters/speech_to_text.rst:280
 msgid ""
@@ -480,10 +600,15 @@ msgid ""
 "*VOSK* engine refer to the chapter about :doc:`/getting_started/"
 "configure_kdenlive/configuration_plugins`."
 msgstr ""
+"Kliknite na |application-menu|:guilabel:`Hamburgerové menu` a vyberte model "
+"pre váš jazyk. Ak správny model nie je v zozname, kliknite na :guilabel:"
+"`Nastaviť rozpoznávanie reči`. Podrobnosti o pridávaní modelov pre engine "
+"*VOSK* nájdete v kapitole o :doc:`/getting_started/configure_kdenlive/"
+"configuration_plugins`."
 
 #: ../../effects_and_filters/speech_to_text.rst:282
 msgid "Then click :guilabel:`Start Recognition` button."
-msgstr ""
+msgstr "Potom kliknite na tlačidlo :guilabel:`Spustiť rozpoznávanie`."
 
 #: ../../effects_and_filters/speech_to_text.rst:284
 msgid ""
@@ -492,12 +617,18 @@ msgid ""
 "indicated (hold :kbd:`Ctrl` to select several items at once) and just hit "
 "the :kbd:`Delete` key."
 msgstr ""
+"Po dokončení vyberte pod bodom 6 zhora možnosť :guilabel:`Odstrániť zóny bez "
+"reči` naraz. Alebo kliknite na časový kód, kde je indikované „Bez reči"
+"\" (podržte :kbd:`Ctrl` na výber viacerých položiek naraz) a stlačte "
+"klávesu :kbd:`Delete`."
 
 #: ../../effects_and_filters/speech_to_text.rst:286
 msgid ""
 "Repeat the operation for all the parts you want to remove, including where "
 "someone says what you do not want to include in your final edit."
 msgstr ""
+"Opakujte operáciu pre všetky časti, ktoré chcete odstrániť, vrátane miest, "
+"kde niekto hovorí to, čo nechcete zahrnúť do svojej finálnej úpravy."
 
 #: ../../effects_and_filters/speech_to_text.rst:288
 msgid ""
@@ -506,6 +637,10 @@ msgid ""
 "point 5) and after few seconds a new playlist is added in the Project Bin "
 "without silence and without the text you do not want."
 msgstr ""
+"Po dokončení sa uistite, že :guilabel:`Iba vybraná zóna` je vypnutá, "
+"kliknite na tlačidlo :guilabel:`Uložiť upravený text do súboru playlistu` "
+"(vyššie pod bodom 5) a po niekoľkých sekundách sa do Kôša projektu pridá "
+"nový playlist bez ticha a bez textu, ktorý nechcete."
 
 #, fuzzy
 #~ msgid "Speech to text subtitle"

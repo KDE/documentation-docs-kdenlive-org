@@ -61,15 +61,16 @@ msgstr "7"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:39
 msgid "Environment"
-msgstr ""
+msgstr "Prostredie"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:54
 msgid "This section defines some of the most important settings for Kdenlive."
 msgstr ""
+"Táto sekcia definuje niektoré z najdôležitejších nastavení pre Kdenlive."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:60
 msgid "The Environment section"
-msgstr ""
+msgstr "Sekcia Prostredie"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:62
 msgid ""
@@ -82,6 +83,14 @@ msgid ""
 "that ffmpeg does not do multi-threading on. Multi-threading is supported for "
 "MPEG-2, MPEG-4, H.264, and VP8."
 msgstr ""
+":guilabel:`Súbežné vlákna`. Definuje počet vlákien, ktoré sa použijú na "
+"generovanie proxy klipov a úlohy transkódovania. Tieto úlohy budú bežať na "
+"pozadí. Zadaná hodnota sa odovzdá programu ffmpeg ako parameter :code:`-"
+"threads`. Zvýšenie tohto parametra nemusí mať žiadny efekt, ak ste zmenili "
+"nastavenia kódovania proxy pomocou :doc:`nastavení projektu</"
+"project_and_asset_management/project_settings/proxy_settings>` na kodek, "
+"ktorý ffmpeg nepodporuje viacvláknové spracovanie. Viacvláknové spracovanie "
+"je podporované pre MPEG-2, MPEG-4, H.264 a VP8."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:64
 msgid ""
@@ -90,6 +99,10 @@ msgid ""
 "the main UI responsive when proxies are created or clips are being "
 "transcoded."
 msgstr ""
+":guilabel:`Použiť nižšiu prioritu procesora`. Toto dáva Kdenlive pokyn "
+"znížiť prioritu úloh generovania proxy klipov a transkódovania. Pomáha to "
+"udržať hlavné používateľské rozhranie pohotové, keď sa vytvárajú proxy alebo "
+"sa transkódujú klipy."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:66
 msgid ""
@@ -98,6 +111,11 @@ msgid ""
 "total cached data size exceeds this limit. If you need to purge the cache, "
 "use the :doc:`/tips_and_tricks/useful_info/manage_cached_data` feature."
 msgstr ""
+":guilabel:`Varovať, ak vyrovnávacia pamäť prekračuje`. Pridajte maximálnu "
+"veľkosť vyrovnávacej pamäte, ktorú Kdenlive kontroluje každé dva týždne. "
+"Kdenlive vydá varovnú správu, ak celková veľkosť uložených dát v pamäti "
+"prekročí tento limit. Ak potrebujete vyčistiť vyrovnávaciu pamäť, použite "
+"funkciu :doc:`/tips_and_tricks/useful_info/manage_cached_data`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:68
 msgid ""
@@ -106,12 +124,19 @@ msgid ""
 "select a project. When unchecked, Kdenlive will show the :ref:`splash screen "
 "<welcome_and_splash_screen>`."
 msgstr ""
+":guilabel:`Zobraziť uvítaciu obrazovku pri spustení`. Ak je zaškrtnuté, "
+"Kdenlive zobrazí :ref:`uvítaciu obrazovku <welcome_and_splash_screen>`, na "
+"ktorej môžete vybrať projekt. Ak nie je zaškrtnuté, Kdenlive zobrazí :ref:"
+"`úvodnú obrazovku <welcome_and_splash_screen>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:70
 msgid ""
 ":guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up "
 "window with a reminder if your version is older than six (6) months."
 msgstr ""
+":guilabel:`Kontrolovať aktualizácie`. Ak je zaškrtnuté, Kdenlive zobrazí "
+"vyskakovacie okno s upozornením, ak je vaša verzia staršia ako šesť (6) "
+"mesiacov."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:72
 msgid ""
@@ -119,14 +144,17 @@ msgid ""
 "disables the system's power management to avoid sleep mode and screen "
 "locking during playback and rendering."
 msgstr ""
+":guilabel:`Zabrániť spánku pri prehrávaní a renderovaní`. Ak je zaškrtnuté, "
+"Kdenlive zakáže správu napájania systému, aby sa predišlo režimu spánku a "
+"uzamknutiu obrazovky počas prehrávania a renderovania."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:74
 msgid "Tabs for the different environment settings."
-msgstr ""
+msgstr "Karty pre rôzne nastavenia prostredia."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:80
 msgid "MLT Environment"
-msgstr ""
+msgstr "Prostredie MLT"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:84
 msgid ""
@@ -137,26 +165,32 @@ msgid ""
 "directly from MLT and shows these details in the clip properties. The values "
 "differ depending on your OS."
 msgstr ""
+"Tieto nastavenia hovoria Kdenlive, kde nájsť spustiteľné súbory MLT a súbory "
+"profilov. Tieto nastavenia by skutočne potrebovali meniť len pokročilí "
+"používatelia. Kdenlive je v podstate front-end k programu MLT. Od verzie "
+"Kdenlive 25.08 |mediainfo| už nie je potrebný, pretože Kdenlive dokáže čítať "
+"časový kód priamo z MLT a zobrazuje tieto podrobnosti vo vlastnostiach "
+"klipu. Hodnoty sa líšia v závislosti od vášho operačného systému."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:89
 msgid "Environment variables in Kdenlive installed on Windows"
-msgstr ""
+msgstr "Premenné prostredia v Kdenlive nainštalovanom v systéme Windows"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:94
 msgid "Environment variables in Kdenlive installed on Linux"
-msgstr ""
+msgstr "Premenné prostredia v Kdenlive nainštalovanom v systéme Linux"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:99
 msgid "Environment variables in Kdenlive appimage on Linux"
-msgstr ""
+msgstr "Premenné prostredia v Kdenlive appimage v systéme Linux"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:104
 msgid "Environment variables in Kdenlive on MacOS"
-msgstr ""
+msgstr "Premenné prostredia v Kdenlive v systéme MacOS"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:110
 msgid "Default Folders"
-msgstr ""
+msgstr "Predvolené priečinky"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:112
 msgid ""
@@ -164,44 +198,49 @@ msgid ""
 "controls what folder Kdenlive will use as a temporary file storage location "
 "and where files captured from an external source will be saved."
 msgstr ""
+"Tieto nastavenia hovoria Kdenlive, kde sa majú ukladať súbory projektu. "
+"Taktiež kontrolujú, ktorý priečinok bude Kdenlive používať ako umiestnenie "
+"pre dočasné súbory a kde sa uložia súbory zachytené z externého zdroja."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:120
 msgid "Default folders on Windows."
-msgstr ""
+msgstr "Predvolené priečinky v systéme Windows."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:125
 msgid "Default folders on Linux (appimage)."
-msgstr ""
+msgstr "Predvolené priečinky v systéme Linux (appimage)."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:130
 msgid "Default folders on Linux (flatpak)."
-msgstr ""
+msgstr "Predvolené priečinky v systéme Linux (flatpak)."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:135
 msgid "Default folders on MacOS."
-msgstr ""
+msgstr "Predvolené priečinky v systéme MacOS."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:194
 msgid "Default Apps"
-msgstr ""
+msgstr "Predvolené aplikácie"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:196
 msgid ""
 "These settings control which external application opens when you choose :ref:"
 "`edit_clip` for a clip in the Project Bin."
 msgstr ""
+"Tieto nastavenia určujú, ktorá externá aplikácia sa otvorí, keď zvolíte :ref:"
+"`edit_clip` pre klip v zásobníku projektu."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:202
 msgid "Settings for default apps"
-msgstr ""
+msgstr "Nastavenia predvolených aplikácií"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:204
 msgid ":guilabel:`Image editing`: A free software would be |krita|."
-msgstr ""
+msgstr ":guilabel:`Úprava obrázkov`: Slobodným softvérom by bol |krita|."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:206
 msgid ":guilabel:`Audio editing`: A free software would be |audacity|."
-msgstr ""
+msgstr ":guilabel:`Úprava zvuku`: Slobodným softvérom by bol |audacity|."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:208
 msgid ""
@@ -209,12 +248,17 @@ msgid ""
 "files automatically which are saved in |glaxnimate| which is available from "
 "its homepage for Linux, Windows, and MacOS."
 msgstr ""
+":guilabel:`Úprava animácií`: Kdenlive sa pekne integruje s |glaxnimate| a "
+"automaticky aktualizuje súbory, ktoré sú v ňom uložené. |glaxnimate| je "
+"dostupný z jeho domovskej stránky pre Linux, Windows a MacOS."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:210
 msgid ""
 "**Mac user:** See these :ref:`instructions <kdenlive_macos>` how to install "
 "and run :file:`dmg` files."
 msgstr ""
+"**Používateľ Macu:** Pozrite si tieto :ref:`pokyny <kdenlive_macos>`, ako "
+"nainštalovať a spustiť súbory :file:`dmg`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:212
 msgid ""
@@ -222,25 +266,32 @@ msgid ""
 "file:`glaxnimate.exe` is in folder :file:`%PROGRAMFILES%\\\\glaxnimate\\\\bin"
 "\\\\`."
 msgstr ""
+"**Používateľ Windows:** Uistite sa, že všetky cesty ukazujú na súbor :file:`."
+"exe`. Súbor :file:`glaxnimate.exe` sa nachádza v priečinku :file:`"
+"%PROGRAMFILES%\\\\glaxnimate\\\\bin\\\\`."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:215
 msgid "Example"
-msgstr ""
+msgstr "Príklad"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:219
 msgid "Examples of properly configured default apps on Linux (appimage)"
 msgstr ""
+"Príklady správne nakonfigurovaných predvolených aplikácií v systéme Linux "
+"(appimage)"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:223
 msgid "Mime types"
-msgstr ""
+msgstr "Typy MIME"
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:225
 msgid ""
 "Specifies the Media Types (formerly known as MIME types) which Kdenlive can "
 "work with."
 msgstr ""
+"Určuje typy médií (predtým známe ako typy MIME), s ktorými môže Kdenlive "
+"pracovať."
 
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:231
 msgid "Supported MIME Types"
-msgstr ""
+msgstr "Podporované typy MIME"

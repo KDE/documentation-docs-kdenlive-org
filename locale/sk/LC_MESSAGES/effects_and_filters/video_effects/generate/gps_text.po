@@ -97,7 +97,7 @@ msgstr "MLT"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:30
 msgid "gpstext"
-msgstr ""
+msgstr "gpstext"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:32
 msgid "|linux| |appimage| |windows| |apple|"
@@ -115,6 +115,10 @@ msgid ""
 "those keywords on a frame-by-frame basis. It is based on the :doc:`/"
 "effects_and_filters/video_effects/generate/dynamic_text` effect/filter."
 msgstr ""
+"Tento efekt/filter prekrýva text súvisiaci s GPS na zdrojový obraz. **GPS "
+"Text** vyhľadá kľúčové slová v texte, ktorý sa má zobraziť, a nahradí ich na "
+"základe jednotlivých snímok. Je založený na efekte/filtri :doc:`/"
+"effects_and_filters/video_effects/generate/dynamic_text`."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:47
 msgid "Parameters"
@@ -139,10 +143,12 @@ msgstr "Reťazec"
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:59
 msgid "The text to be displayed. You can add any other text between keywords."
 msgstr ""
+"Text, ktorý sa má zobraziť. Medzi kľúčové slová môžete pridať ľubovoľný iný "
+"text."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:60
 msgid "<select a keyword>"
-msgstr ""
+msgstr "<vyberte kľúčové slovo>"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:61
 msgid "Selection"
@@ -153,6 +159,8 @@ msgid ""
 "Select the keyword to add to the :guilabel:`Text` field. Keywords must be "
 "enclosed in '#'."
 msgstr ""
+"Vyberte kľúčové slovo, ktoré chcete pridať do poľa :guilabel:`Text`. Kľúčové "
+"slová musia byť ohraničené znakom '#'."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:63
 msgid "GPS File"
@@ -167,6 +175,8 @@ msgid ""
 "The full path of file containing location (GPS) data. Supported extensions "
 "are ``.gpx`` and ``.tcx``."
 msgstr ""
+"Úplná cesta k súboru obsahujúcemu dáta o polohe (GPS). Podporované prípony "
+"sú ``.gpx`` a ``.tcx``."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:66
 msgid "Time offset in seconds"
@@ -186,6 +196,11 @@ msgid ""
 "precisely set to the correct time. GPS time is always exact and in UTC\\ "
 "[#]_. Use positive values if GPS is ahead of video, and negative otherwise."
 msgstr ""
+"Posun, ktorý sa pridá k videosúboru, aby zodpovedal GPS trase. Väčšinou bude "
+"potrebné nastaviť aspoň rozdiel časových pásiem medzi oboma súbormi a "
+"niekoľko sekúnd navyše, ak nahrávací prístroj nie je presne nastavený na "
+"správny čas. GPS čas je vždy presný a v UTC\\ [#]_. Použite kladné hodnoty, "
+"ak GPS predbieha video, a záporné v opačnom prípade."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:69
 msgid "Smoothing level"
@@ -198,6 +213,11 @@ msgid ""
 "smooth locations, it only calculates the extra fields (speed, distance, etc) "
 "it also interpolates missing values for **heart rate** and **altitude**."
 msgstr ""
+"Určuje, koľko GPS bodov sa má vyhladiť, aby sa eliminovali GPS chyby. "
+"Hodnota 0 zobrazuje iba surové hodnoty zo súboru. Hodnota 1 nevyhladzuje "
+"polohy, iba vypočítava doplnkové polia (rýchlosť, vzdialenosť atď.) a "
+"interpoluje chýbajúce hodnoty pre **tepovú frekvenciu** a **nadmorskú "
+"výšku**."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:72
 msgid "Updates per second"
@@ -209,10 +229,12 @@ msgid ""
 "(interpolated). A value of 0 will only update text when a real GPS point has "
 "been recorded."
 msgstr ""
+"Určuje, koľkokrát za sekundu sa GPS text na videu aktualizuje (interpoluje). "
+"Hodnota 0 aktualizuje text iba vtedy, keď bol zaznamenaný skutočný GPS bod."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:79
 msgid "The following keywords are available:"
-msgstr ""
+msgstr "K dispozícii sú nasledujúce kľúčové slová:"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:86
 msgid "GPS latitude"
@@ -220,7 +242,7 @@ msgstr "GPS zemepisná šírka"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:87
 msgid "the GPS latitude value"
-msgstr ""
+msgstr "hodnota zemepisnej šírky GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:88
 msgid "GPS longitude"
@@ -228,7 +250,7 @@ msgstr "GPS zemepisná dĺžka"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:89
 msgid "the GPS longitude value"
-msgstr ""
+msgstr "hodnota zemepisnej dĺžky GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:90
 msgid "GPS altitude"
@@ -236,97 +258,97 @@ msgstr "GPS nadmorská výška"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:91
 msgid "the GPS altitude or elevation value"
-msgstr ""
+msgstr "hodnota nadmorskej výšky GPS"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:92
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:93
 msgid "GPS speed"
-msgstr ""
+msgstr "GPS rýchlosť"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:94
 msgid "distance so far"
-msgstr ""
+msgstr "vzdialenosť doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:95
 msgid "Total distance so far"
-msgstr ""
+msgstr "Celková vzdialenosť doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:96
 msgid "date and time of current GPS point"
-msgstr ""
+msgstr "dátum a čas aktuálneho GPS bodu"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:97
 msgid "date and time of current GPS point shown"
-msgstr ""
+msgstr "dátum a čas zobrazeného aktuálneho GPS bodu"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:98
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:99
 msgid "date and time of current frame in video file"
-msgstr ""
+msgstr "dátum a čas aktuálnej snímky vo videosúbore"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:100
 msgid "heart rate"
-msgstr ""
+msgstr "tepová frekvencia"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:101
 msgid "heart rate (if present in GPS file)"
-msgstr ""
+msgstr "tepová frekvencia (ak je prítomná v GPS súbore)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:102
 msgid "current GPS_bearing"
-msgstr ""
+msgstr "aktuálny GPS_bearing"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:103
 msgid "current GPS bearing (degrees 0-360)"
-msgstr ""
+msgstr "aktuálny GPS smer (stupne 0–360)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:104
 msgid "current GPS direction"
-msgstr ""
+msgstr "aktuálny GPS smer"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:105
 msgid "current GPS direction (8 divisions: N, NE, E, etc)"
-msgstr ""
+msgstr "aktuálny GPS smer (8 delení: N, NE, E atď.)"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:106
 msgid "GPS altitude gain so far"
-msgstr ""
+msgstr "GPS zisk nadmorskej výšky doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:107
 msgid "total GPS altitude gain so far"
-msgstr ""
+msgstr "celkový GPS zisk nadmorskej výšky doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:108
 msgid "GPS altitude loss so far"
-msgstr ""
+msgstr "GPS strata nadmorskej výšky doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:109
 msgid "total GPS altitude loss so far"
-msgstr ""
+msgstr "celková GPS strata nadmorskej výšky doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:110
 msgid "distance travelled uphill"
-msgstr ""
+msgstr "vzdialenosť prejdená do kopca"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:111
 msgid "total distance travelled uphill so far"
-msgstr ""
+msgstr "celková vzdialenosť prejdená do kopca doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:112
 msgid "distance travelled downhill"
-msgstr ""
+msgstr "vzdialenosť prejdená z kopca"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:113
 msgid "total distance travelled downhill so far"
-msgstr ""
+msgstr "celková vzdialenosť prejdená z kopca doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:114
 msgid "distance travelled on flat area"
-msgstr ""
+msgstr "vzdialenosť prejdená po rovine"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:115
 msgid "total distance travelled on flat area so far"
-msgstr ""
+msgstr "celková vzdialenosť prejdená po rovine doteraz"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:117
 msgid ""
@@ -335,22 +357,31 @@ msgid ""
 "'-' which will offset the actual time. For example, ``#gps_datetime_now %I:"
 "%M:%S %p +3600#`` shows only the time in 12-hour format, offset by 1 hour."
 msgstr ""
+"Časové kľúčové slová môžu obsahovať formátovací reťazec ``strftime``\\ [#]_ "
+"na prispôsobenie výstupu a číslo (v sekundách) pred ktorým je '+' alebo '-', "
+"ktoré posunie skutočný čas. Napríklad ``#gps_datetime_now %I:%M:%S %p "
+"+3600#`` zobrazí iba čas v 12-hodinovom formáte, posunutý o 1 hodinu."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:119
 msgid ""
 "Speed and distance keywords may include an extra format keyword to convert "
 "the value to metric/imperial units. Default is meters and km/h respectively."
 msgstr ""
+"Kľúčové slová pre rýchlosť a vzdialenosť môžu obsahovať doplnkové kľúčové "
+"slovo formátu na konverziu hodnoty na metrické/imperiálne jednotky. "
+"Predvolené hodnoty sú metre a km/h."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:121
 msgid "Supported formats:"
-msgstr ""
+msgstr "Podporované formáty:"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:123
 msgid ""
 "Distance: **m**\\|\\ **meter**, **km**\\|\\ **kilometer**, **mi**\\|\\ "
 "**mile**, **ft**\\|\\ **feet**, **nm**\\|\\ **nautical**"
 msgstr ""
+"Vzdialenosť: **m**\\|\\ **meter**, **km**\\|\\ **kilometer**, **mi**\\|\\ "
+"**mile**, **ft**\\|\\ **feet**, **nm**\\|\\ **nautical**"
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:124
 msgid ""
@@ -358,10 +389,13 @@ msgid ""
 "**kilo**, **mih**\\|\\ **mi/h**\\|\\ **mileh**, **fts**\\|\\ **ft/s**\\|\\ "
 "**feet**, **kn**\\|\\ **nm/h**\\|\\ **knots**."
 msgstr ""
+"Rýchlosť: **ms**\\|\\ **m/s**\\|\\ **meters**, **km**\\|\\ **km/h**\\|\\ "
+"**kilo**, **mih**\\|\\ **mi/h**\\|\\ **mileh**, **fts**\\|\\ **ft/s**\\|\\ "
+"**feet**, **kn**\\|\\ **nm/h**\\|\\ **knots**."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:128
 msgid "The '#' may be escaped with '\\\\'."
-msgstr ""
+msgstr "Znak '#' možno escapovať pomocou '\\\\'."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:142
 msgid ""
@@ -369,10 +403,13 @@ msgid ""
 "by which the world regulates clocks and time. See |wiki_UTC| on Wikipedia "
 "for more details."
 msgstr ""
+"UTC je skratka pre Koordinovaný svetový čas (Coordinated Universal Time) a "
+"je primárnym časovým štandardom, podľa ktorého svet reguluje hodiny a čas. "
+"Viac podrobností nájdete na |wiki_UTC| na Wikipédii."
 
 #: ../../effects_and_filters/video_effects/generate/gps_text.rst:144
 msgid "See this list of |possible_formats|."
-msgstr ""
+msgstr "Pozrite si tento zoznam |possible_formats|."
 
 #, fuzzy
 #~ msgid "keyframe"

@@ -44,7 +44,7 @@ msgstr "Prepálenie farby"
 
 #: ../../compositing/blending_modes.rst:0
 msgid "Add / Addition"
-msgstr ""
+msgstr "Sčítanie / Pridanie"
 
 #: ../../compositing/blending_modes.rst:0
 #: ../../compositing/blending_modes.rst:139
@@ -88,19 +88,19 @@ msgstr "Vylúčenie"
 
 #: ../../compositing/blending_modes.rst:0
 msgid "HSL hue"
-msgstr ""
+msgstr "HSL odtieň"
 
 #: ../../compositing/blending_modes.rst:0
 msgid "HSL saturation"
-msgstr ""
+msgstr "HSL sýtosť"
 
 #: ../../compositing/blending_modes.rst:0
 msgid "HSL color"
-msgstr ""
+msgstr "HSL farba"
 
 #: ../../compositing/blending_modes.rst:0
 msgid "HSL luminosity"
-msgstr ""
+msgstr "HSL svetlosť"
 
 #: ../../compositing/blending_modes.rst:16
 msgid "Blending Modes"
@@ -114,12 +114,19 @@ msgid ""
 "lower track by whatever is in the upper track, while taking any :ref:`alpha "
 "channel <compositing-alpha_channels>` information into account."
 msgstr ""
+"Režimy miešania (alebo **blend modes** alebo **mixing modes**) sa v Kdenlive "
+"nazývajú aj **Composition Type**. Určujú, ako sú dve snímky zlúčené "
+"dohromady. Predvolený režim miešania jednoducho zakryje obsah dolnej stopy "
+"obsahom hornej stopy, pričom zohľadňuje informácie z :ref:`alpha channel "
+"<compositing-alpha_channels>`."
 
 #: ../../compositing/blending_modes.rst:20
 msgid ""
 "In this section, we are using the :guilabel:`Composition Type` **Cairo "
 "Blend** to explain the different blend modes."
 msgstr ""
+"V tejto časti používame :guilabel:`Composition Type` **Cairo Blend** na "
+"vysvetlenie rôznych režimov miešania."
 
 #: ../../compositing/blending_modes.rst:22
 msgid ""
@@ -131,28 +138,40 @@ msgid ""
 "default it is set to :guilabel:`Automatic` which uses the track immediately "
 "below."
 msgstr ""
+"Kompozícia/miešanie vyžaduje najmenej dve stopy: hornú stopu alebo „vrstvu"
+"\", nazývanú aj *blend layer* alebo *active layer*; a „spodnú\" stopu alebo "
+"vrstvu, nazývanú aj *base layer*. Pri miešacej kompozícii je *blend layer* "
+"vždy stopa, z ktorej kompozícia pochádza, pričom *base layer* možno určiť "
+"pomocou :guilabel:`Composition track`. Predvolene je nastavená na :guilabel:"
+"`Automatic`, čo používa stopu bezprostredne nižšie."
 
 #: ../../compositing/blending_modes.rst:31
 msgid "Selecting the composition track and blend mode"
-msgstr ""
+msgstr "Výber kompozičnej stopy a režimu miešania"
 
 #: ../../compositing/blending_modes.rst:33
 msgid ""
 "If you want to blend with a different base layer, select the correct one "
 "from the :guilabel:`Composition track`."
 msgstr ""
+"Ak chcete miešať s inou základnou vrstvou, vyberte správnu z :guilabel:"
+"`Composition track`."
 
 #: ../../compositing/blending_modes.rst:35
 msgid ""
 "Select the blend mode by clicking on the :guilabel:`Blend mode` drop-down "
 "list."
 msgstr ""
+"Vyberte režim miešania kliknutím na rozbaľovací zoznam :guilabel:`Blend "
+"mode`."
 
 #: ../../compositing/blending_modes.rst:37
 msgid ""
 "Blending can be controlled and keyframed by using the :guilabel:`Opacity` "
 "slider."
 msgstr ""
+"Miešanie možno ovládať a animovať pomocou kľúčových snímok prostredníctvom "
+"posuvníka :guilabel:`Opacity`."
 
 #: ../../compositing/blending_modes.rst:41
 msgid ""
@@ -163,34 +182,40 @@ msgid ""
 "yourself with the :doc:`/effects_and_filters/video_effects/"
 "color_image_correction/color_levels` effect."
 msgstr ""
+"Ak chcete lepšie pochopiť, ako fungujú režimy miešania, prečítajte si časti :"
+"doc:`/tips_and_tricks/index` :doc:`/tips_and_tricks/how-tos/index` o :doc:`/"
+"tips_and_tricks/how-tos/lift_gamma_gain`, :doc:`White Balance </"
+"tips_and_tricks/how-tos/tutorial-white_balance_lms>` a oboznámte sa s "
+"efektom :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"color_levels`."
 
 #: ../../compositing/blending_modes.rst:43
 msgid "Blending Modes can be grouped by their result:"
-msgstr ""
+msgstr "Režimy miešania možno zoskupiť podľa ich výsledku:"
 
 #: ../../compositing/blending_modes.rst:45
 msgid "Normal_"
-msgstr ""
+msgstr "Normal_"
 
 #: ../../compositing/blending_modes.rst:46
 msgid "Darker_"
-msgstr ""
+msgstr "Darker_"
 
 #: ../../compositing/blending_modes.rst:47
 msgid "Lighter_"
-msgstr ""
+msgstr "Lighter_"
 
 #: ../../compositing/blending_modes.rst:48
 msgid "Contrast_"
-msgstr ""
+msgstr "Contrast_"
 
 #: ../../compositing/blending_modes.rst:49
 msgid "Comparative_"
-msgstr ""
+msgstr "Comparative_"
 
 #: ../../compositing/blending_modes.rst:50
 msgid "Color_"
-msgstr ""
+msgstr "Color_"
 
 #: ../../compositing/blending_modes.rst:55
 msgid "Normal"
@@ -201,19 +226,22 @@ msgid ""
 "This is the standard blending mode. The blend layer simply covers everything "
 "in the base layer, except if there is an alpha channel in the blend layer."
 msgstr ""
+"Toto je štandardný režim miešania. Vrstva blend layer jednoducho zakryje "
+"všetko v základnej vrstve, pokiaľ v blend layer nie je alpha channel."
 
 #: ../../compositing/blending_modes.rst:70
 msgid "Darker"
-msgstr ""
+msgstr "Stmavenie"
 
 #: ../../compositing/blending_modes.rst:72
 msgid ""
 "The following blending modes all darken or amplify dark colors in the image:"
 msgstr ""
+"Nasledujúce režimy miešania stmavujú alebo zosilňujú tmavé farby v snímke:"
 
 #: ../../compositing/blending_modes.rst:75
 msgid "Keeps the darkest colors between the blend and base layers."
-msgstr ""
+msgstr "Zachováva najtmavšie farby medzi vrstvami blend layer a base layer."
 
 #: ../../compositing/blending_modes.rst:78
 msgid ""
@@ -224,6 +252,11 @@ msgid ""
 "is always darker, except for where it is pure white, since each value is "
 "less than 1."
 msgstr ""
+"Zachováva tmavšie farby vrstvy blend layer a robí svetlé farby menej "
+"nepriehľadnými. Dosahuje sa to tak, že sa hodnoty kanála :abbr:`RGB(Red "
+"Green Blue)` pixelu vo vrstve blend layer v rozsahu 0 až 1 vynásobia "
+"hodnotami zodpovedajúceho pixelu v base layer. Výsledná farba je vždy "
+"tmavšia, s výnimkou čisto bielej, pretože každá hodnota je menšia ako 1."
 
 #: ../../compositing/blending_modes.rst:81
 msgid ""
@@ -234,15 +267,22 @@ msgid ""
 "homogeneous color, this effect is equivalent to changing the black point to "
 "the inverted color."
 msgstr ""
+"Farba z vrstvy blend layer sa používa na stmavenie vrstvy base layer a "
+"zvyšuje kontrast medzi nimi. Dosahuje sa to delením invertovanej vrstvy base "
+"layer vrstvou blend layer a následným invertovaním výsledku. Miešanie s "
+"bielou nevytvára žiadnu zmenu. Upozorňujeme, že keď je vrstva blend layer "
+"homogénna farba, tento efekt je ekvivalentný zmene čierneho bodu na "
+"invertovanú farbu."
 
 #: ../../compositing/blending_modes.rst:109
 msgid "Lighter"
-msgstr ""
+msgstr "Zosvetlenie"
 
 #: ../../compositing/blending_modes.rst:111
 msgid ""
 "The following blending modes lighten or amplify light colors in the image:"
 msgstr ""
+"Nasledujúce režimy miešania zosvetľujú alebo zosilňujú svetlé farby v snímke:"
 
 #: ../../compositing/blending_modes.rst:114
 msgid ""
@@ -250,6 +290,9 @@ msgid ""
 "this always produces the same or lighter colors than the input (base layer) "
 "it is also known as *Plus Lighter*."
 msgstr ""
+"Hodnoty farieb oboch vrstiev sa jednoducho sčítajú (odtiaľ názov). Keďže to "
+"vždy vytvára rovnaké alebo svetlejšie farby než vstup (base layer), je tento "
+"režim známy aj ako *Plus Lighter*."
 
 #: ../../compositing/blending_modes.rst:117
 msgid ""
@@ -257,6 +300,9 @@ msgid ""
 "lighten of the blend layer is lighter than the brightness (or luminance) of "
 "the base layer."
 msgstr ""
+"Zachováva najsvetlejšie farby medzi vrstvami blend layer a base layer. "
+"Zosvetlí iba vtedy, keď je blend layer svetlejší ako jas (alebo svetlosť) "
+"vrstvy base layer."
 
 #: ../../compositing/blending_modes.rst:120
 msgid ""
@@ -265,6 +311,9 @@ msgid ""
 "**Multiply**: Wherever either layer was darker than white, the composite is "
 "brighter."
 msgstr ""
+"V tomto režime miešania sa hodnoty farieb snímky oboch vrstiev invertujú, "
+"vynásobia a potom opätovne invertujú. Je to opak režimu **Multiply**: Všade "
+"tam, kde bola ktorákoľvek vrstva tmavšia ako biela, je kompozit svetlejší."
 
 #: ../../compositing/blending_modes.rst:123
 msgid ""
@@ -277,6 +326,14 @@ msgid ""
 "changes the output black point to this color, and (input) white point to the "
 "inverted color."
 msgstr ""
+"Tento režim miešania delí vrstvu base layer invertovanou vrstvou blend "
+"layer. Zosvetluje vrstvu base layer v závislosti od hodnoty vrstvy blend "
+"layer: čím je blend layer svetlejší, tým viac ovplyvňuje base layer. Ak "
+"použijete bielu vo vrstve blend layer, farba v base layer sa stane bielou; "
+"použitie čiernej vo vrstve blend layer nemení base layer. Upozorňujeme, že "
+"keď je vrstva blend layer homogénna farba, tento režim miešania v podstate "
+"zmení výstupný čierny bod na túto farbu a (vstupný) biely bod na invertovanú "
+"farbu."
 
 #: ../../compositing/blending_modes.rst:133
 msgid "Add"
@@ -291,6 +348,8 @@ msgid ""
 "The following blending modes are great for adding depth and dynamics to "
 "images by having the two layers play off of each other:"
 msgstr ""
+"Nasledujúce režimy miešania sú skvelé na pridanie hĺbky a dynamiky snímkam "
+"tým, že obe vrstvy pôsobia vzájomne na seba:"
 
 #: ../../compositing/blending_modes.rst:162
 msgid ""
@@ -299,6 +358,10 @@ msgid ""
 "light, the blend layer becomes lighter; where the base layer is dark, the "
 "blend layer becomes darker; mid-tones do not affect the blend layer."
 msgstr ""
+"Tento režim miešania funguje ako **Multiply**, ak je vrstva base layer "
+"tmavšia, alebo ako **Screen**, ak je svetlejšia. Inými slovami: tam, kde je "
+"base layer svetlý, blend layer sa stáva svetlejším; tam, kde je base layer "
+"tmavý, blend layer sa stáva tmavším; stredné tóny neovplyvňujú blend layer."
 
 #: ../../compositing/blending_modes.rst:165
 msgid ""
@@ -306,20 +369,26 @@ msgid ""
 "similar to **Overlay** but uses the brightness of the blend layer where "
 "**Overlay** uses the base layer."
 msgstr ""
+"Tento režim miešania je kombináciou **Multiply** a **Screen**. Funguje "
+"podobne ako **Overlay**, ale používa jas vrstvy blend layer tam, kde "
+"**Overlay** používa base layer."
 
 #: ../../compositing/blending_modes.rst:168
 msgid ""
 "Similar to **Overlay**, it uses luminance values to either darken or lighten "
 "the image."
 msgstr ""
+"Podobne ako **Overlay**, používa hodnoty svetlosti na stmavenie alebo "
+"zosvetlenie snímky."
 
 #: ../../compositing/blending_modes.rst:196
 msgid "Comparative"
-msgstr ""
+msgstr "Porovnávacie"
 
 #: ../../compositing/blending_modes.rst:198
 msgid "The following blending modes basically invert white or light colors:"
 msgstr ""
+"Nasledujúce režimy miešania v podstate invertujú biele alebo svetlé farby:"
 
 #: ../../compositing/blending_modes.rst:201
 msgid ""
@@ -331,12 +400,20 @@ msgid ""
 "images with similar content: is the pixel values are the same, the result is "
 "black."
 msgstr ""
+"Tento režim miešania odčíta vrstvu base layer od vrstvy blend layer, alebo "
+"naopak, aby sa predišlo záporným číslam. Miešanie s čiernou (hodnota :abbr:"
+"`RGB(Red Green Blue)` je 0,0,0) nevytvára žiadnu zmenu, zatiaľ čo miešanie s "
+"bielou (hodnota :abbr:`RGB(Red Green Blue)` je 255, 255, 255) invertuje "
+"snímku. Počas procesu úprav možno tento režim použiť na overenie zarovnania "
+"snímok s podobným obsahom: ak sú hodnoty pixelov rovnaké, výsledok je čierny."
 
 #: ../../compositing/blending_modes.rst:205
 msgid ""
 "This blending mode is essentially the same as **Difference** but with less "
 "contrast as it does not invert mid-tones."
 msgstr ""
+"Tento režim miešania je v podstate rovnaký ako **Difference**, ale s menším "
+"kontrastom, pretože neinvertuje stredné tóny."
 
 #: ../../compositing/blending_modes.rst:227
 #: ../../compositing/blending_modes.rst:263
@@ -348,30 +425,41 @@ msgid ""
 "The following blending modes play with :term:`hues<hue>`, :term:"
 "`saturation`, and brightness (aka :term:`luminance`, hence the acronym HSL):"
 msgstr ""
+"Nasledujúce režimy miešania pracujú s :term:`odtieňmi<hue>`, :term:"
+"`sýtosťou<saturation>` a jasom (alias :term:`svetlosť<luminance>`, odtiaľ "
+"skratka HSL):"
 
 #: ../../compositing/blending_modes.rst:232
 msgid ""
 "This blending mode preserves the luma and saturation (:term:`chroma`) of the "
 "base layer, while taking the hue of the blend layer."
 msgstr ""
+"Tento režim miešania zachováva lumu a sýtosť (:term:`chroma`) vrstvy base "
+"layer a preberá odtieň vrstvy blend layer."
 
 #: ../../compositing/blending_modes.rst:235
 msgid ""
 "This blending mode preserves the luma and hue from the base layer, while "
 "adopting the saturation from the blend layer."
 msgstr ""
+"Tento režim miešania zachováva lumu a odtieň z vrstvy base layer a preberá "
+"sýtosť z vrstvy blend layer."
 
 #: ../../compositing/blending_modes.rst:238
 msgid ""
 "This blending mode preserves the luma from the base layer, while taking the "
 "hue and saturation from the blend layer."
 msgstr ""
+"Tento režim miešania zachováva lumu z vrstvy base layer a preberá odtieň a "
+"sýtosť z vrstvy blend layer."
 
 #: ../../compositing/blending_modes.rst:241
 msgid ""
 "This blending mode preserves the hue and saturation from the base layer, "
 "while adopting the luma from the blend layer."
 msgstr ""
+"Tento režim miešania zachováva odtieň a sýtosť z vrstvy base layer a preberá "
+"lumu z vrstvy blend layer."
 
 #: ../../compositing/blending_modes.rst:251
 msgid "Hue"

@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:-1
 msgid "Kdenlive Tips & Tricks - The Vectorscope"
-msgstr ""
+msgstr "Kdenlive – Tipy a triky – Vektoskop"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:-1
 msgid ""
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:42
 msgid "The Vectorscope"
-msgstr ""
+msgstr "Vektoskop"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:44
 msgid ""
@@ -42,10 +42,15 @@ msgid ""
 "interesting scope because it is quite different from the other ones and, "
 "secondly, is really useful for :term:`color grading`."
 msgstr ""
+"Ďalší rozsah (po :ref:`Histograme <scopes-histogram_working>` a :ref:"
+"`Priebeh a RGB prehľad <scopes-waveform_and_rgb_parade>`), o ktorom chceme "
+"podrobnejšie hovoriť, je **Vektoskop**. Je to v skutočnosti najzaujímavejší "
+"rozsah, pretože sa výrazne líši od ostatných a navyše je skutočne užitočný "
+"pri :term:`color grading`."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:50
 msgid "How the Vectorscope Works"
-msgstr ""
+msgstr "Ako funguje vektoskop"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:52
 msgid ""
@@ -54,6 +59,10 @@ msgid ""
 "previous scopes allow you to determine which brightness values exist in your "
 "image, the Vectorscope shows which colors there are."
 msgstr ""
+"Jedna jednoduchá vec robí vektoskop výnimočným: používa iný farebný priestor "
+"ako RGB. Znie to nespektakulárne, ale nie je to tak. Predchádzajúce rozsahy "
+"umožňujú určiť, aké hodnoty jasu existujú vo vašom obrázku, vektoskop "
+"ukazuje, aké farby sa v ňom nachádzajú."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:54
 msgid ""
@@ -67,6 +76,15 @@ msgid ""
 "`Luma`), called U and V. For more details look at the image with its "
 "individual YUV components on the Wikipedia page about |yuv|."
 msgstr ""
+"Vektoskop podporuje dva rôzne farebné priestory: :term:`YUV` a :term:"
+"`YPbPr`. Oba majú spoločné *Y*, čo poznáte z predchádzajúceho textu: je to "
+"*zložka lumy* (Rec.601 v oboch prípadoch). Toto okrem iného pochádza z "
+"čiernobielej televízie. Keď bola zavedená farebná televízia, niektorí ľudia "
+"si uvedomili, že nie každý okamžite vyhodí svoj starý čiernobiely televízor "
+"a kúpi si nový, preto stále vysielali čiernobiely signál, ale s dvoma "
+"ďalšími kanálmi: rozdielom modrej a rozdielom červenej (voči :term:`Luma`), "
+"nazývanými U a V. Ďalšie podrobnosti nájdete na stránke Wikipédie o |yuv| s "
+"jednotlivými zložkami YUV."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:56
 msgid ""
@@ -76,6 +94,10 @@ msgid ""
 "colors are slightly shifted. YCbCr is used basically everywhere in digital "
 "video."
 msgstr ""
+"Druhý farebný priestor, :term:`YPbPr` alebo jeho digitálny ekvivalent :term:"
+"`YCbCr`, sú podobné. Ak prepnete medzi dvoma farebnými modelmi vo vektoskope "
+"(cez kontextové menu), všimnete si, že farby sú mierne posunuté. YCbCr sa "
+"používa prakticky všade v digitálnom videu."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:58
 msgid ""
@@ -86,18 +108,23 @@ msgid ""
 "difference is on the vertical axis. (There actually are three-dimensional "
 "vectorscopes which put the Luma component on the third axis!)"
 msgstr ""
+"Čo teda vektoskop robí: Vypočíta hodnotu lumy pixela, potom vypočíta hodnoty "
+"rozdielu modrej/rozdielu červenej. Potom hodnotu lumy zahodí. Prečo? Pretože "
+"vektoskop je dvojrozmerný. Rozdiel modrej je na vodorovnej osi, rozdiel "
+"červenej na zvislej osi. (Existujú aj trojrozmerné vektoskopy, ktoré "
+"umiestňujú zložku lumy na tretiu os!)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:61
 msgid "Example 1: Grayscale Video"
-msgstr ""
+msgstr "Príklad 1: Čiernobiele video"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:63
 msgid "Now let's see at how this actually looks like in a video."
-msgstr ""
+msgstr "Pozrime sa teraz, ako to v skutočnosti vyzerá vo videu."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:68
 msgid "Vectorscope with a black-and-white image"
-msgstr ""
+msgstr "Vektoskop s čiernobielym obrázkom"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:70
 msgid ""
@@ -108,14 +135,20 @@ msgid ""
 "the further away it is from the middle, the higher its saturation aka. "
 "chrominance). This will come in very handy when it comes to white balance."
 msgstr ""
+"No... nič? Takmer. V strede rozsahu je malý pixel. A to je celý obrázok. "
+"Teraz to vyzerá trochu sklamane, ale v skutočnosti je to skvelé. Všetky "
+"odtiene šedej (vrátane čiernej a bielej) sú presne v strede. Všetko, čo nie "
+"je v strede, obsahuje nejaké farebné informácie (a čím ďalej je od stredu, "
+"tým vyššia je jeho saturácia, teda chrominancia). To sa veľmi hodí pri "
+"vyvažovaní bielej."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:73
 msgid "Example 2: Juggling Balls"
-msgstr ""
+msgstr "Príklad 2: Žonglovacie loptičky"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:78
 msgid "Vectorscope with a color image (juggling balls)"
-msgstr ""
+msgstr "Vektoskop s farebným obrázkom (žonglovacie loptičky)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:80
 msgid ""
@@ -123,36 +156,41 @@ msgid ""
 "ones above are. In this example a YUV background (with fixed Luma) has been "
 "switched in order to better identify the colors of pixel heaps on the scope."
 msgstr ""
+"Žonglovacie loptičky sú zaujímavejšie, najmä keď sú farebné. Tie vyššie sú. "
+"V tomto príklade bol prepnutý pozadie YUV (s fixnou lumou), aby bolo možné "
+"lepšie identifikovať farby zhlukov pixelov na rozsahu."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:82
 msgid "Two things can be noticed:"
-msgstr ""
+msgstr "Možno si všimnúť dve veci:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:84
 msgid ""
 "there are six areas with high black density on the scope (which means that "
 "many pixels share this :term:`hue`):"
 msgstr ""
+"na rozsahu je šesť oblastí s vysokou hustotou čiernej (čo znamená, že mnoho "
+"pixelov zdieľa tento :term:`hue`):"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:86
 msgid "One that points towards blue (bottom right),"
-msgstr ""
+msgstr "Jedna smerujúca k modrej (vpravo dole),"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:87
 msgid "A big one around yellow,"
-msgstr ""
+msgstr "Veľká okolo žltej,"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:88
 msgid "Two big ones around red,"
-msgstr ""
+msgstr "Dve veľké okolo červenej,"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:89
 msgid "A smaller one between red and yellow,"
-msgstr ""
+msgstr "Menšia medzi červenou a žltou,"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:90
 msgid "And the last one which you might have missed, between red and blue."
-msgstr ""
+msgstr "A posledná, ktorú ste možno prehliadli, medzi červenou a modrou."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:92
 msgid ""
@@ -163,6 +201,11 @@ msgid ""
 "whole scene, and the last one between red and blue is the violet part of the "
 "right red ball."
 msgstr ""
+"To sú presne farby loptičiek! Modrá pochádza z dvoch loptičiek vľavo, žltá "
+"zo žltej loptičky, ľavá červená oblasť je ružová časť ľavej loptičky, pravá "
+"červená časť je červená loptička vpravo. Časť medzi červenou a žltou, ktorá "
+"je vlastne oranžová, je pozadie celej scény a posledná medzi červenou a "
+"modrou je fialová časť pravej červenej loptičky."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:94
 msgid ""
@@ -170,6 +213,9 @@ msgid ""
 "really amazing. Like magic. It will help doing white balance. The neutral "
 "area will almost always seem to connect the other ones."
 msgstr ""
+"Zdá sa, že oranžové pozadie spája všetky ostatné oblasti. Je to skutočne "
+"úžasné. Ako kúzlo. Pomôže to pri vyvažovaní bielej. Neutrálna oblasť sa bude "
+"zdať, že spája ostatné oblasti takmer vždy."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:96
 msgid ""
@@ -179,6 +225,11 @@ msgid ""
 "effect and change the :guilabel:`Offset` parameters for the RGB values. (Do "
 "not forget to enable auto-refresh.)"
 msgstr ""
+"Keďže záber vyššie je správne vyvážený, nemali by sme sa ho tu dotýkať. Mali "
+"by ste to ale skúsiť! Stiahnite si ukážku nižšie, pridajte efekt :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/sat` a zmeňte "
+"parametre :guilabel:`Offset` pre hodnoty RGB. (Nezabudnite zapnúť "
+"automatické obnovenie.)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:98
 msgid ""
@@ -187,10 +238,14 @@ msgid ""
 "red ball out was masked out using a white Color Clip. The spot then indeed "
 "disappeared."
 msgstr ""
+"Možno sa teraz pýtate, ako sme si mohli byť takí istí, že tieto miesta "
+"priradíme farbám. Je to naozaj horné miesto spôsobené červenou loptičkou? "
+"Aby sme to zistili, červená loptička bola zakrytá bielym farebným klipom. "
+"Miesto potom skutočne zmizlo."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:103
 msgid "Vectorscope with a partly covered (masked) color image"
-msgstr ""
+msgstr "Vektoskop s čiastočne zakrytým (maskovaným) farebným obrázkom"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:105
 msgid ""
@@ -198,18 +253,20 @@ msgid ""
 "spot because the white rectangle covers a large part of the yellow ball as "
 "well."
 msgstr ""
+"Fialové miesto tiež zmizlo, rovnako ako veľké časti žltého miesta, pretože "
+"biely obdĺžnik zakrýva aj veľkú časť žltej loptičky."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:108
 msgid "Example 3: Musical Box"
-msgstr ""
+msgstr "Príklad 3: Hracia skrinka"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:113
 msgid "Vectorscope of an image of a musical box"
-msgstr ""
+msgstr "Vektoskop obrázka hracej skrinky"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:115
 msgid "Again, two things worth pointing out for this clip:"
-msgstr ""
+msgstr "Opäť dve veci, ktoré stojí za zmienku pre tento klip:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:117
 msgid ""
@@ -217,6 +274,10 @@ msgid ""
 "on the vectorscope lie between neutral (center) and orange. Not too "
 "saturated orange tones presumably coming from the bronze/messing parts."
 msgstr ""
+"Tento záber švajčiarskej hracej skrinky pozostáva prevažne z oranžových "
+"tónov, všetky body na vektoskope ležia medzi neutrálnou (stred) a oranžovou. "
+"Nie príliš nasýtené oranžové tóny pochádzajú pravdepodobne z bronzových/"
+"mosadzných častí."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:119
 msgid ""
@@ -224,16 +285,21 @@ msgid ""
 "are neutral pixels (i.e. greys), and they seem to be the origin for the "
 "other colors."
 msgstr ""
+"Vyváženie bielej sa zdá byť správne. Vektoskop naznačuje, že existujú "
+"neutrálne pixely (t. j. odtiene šedej) a zdá sa, že sú pôvodom ostatných "
+"farieb."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:121
 msgid ""
 "But when increasing the gain (or zoom level) of the Vectorscope to 5x we see "
 "that the scope image actually stops right before neutral."
 msgstr ""
+"Ale keď zvýšime zosilnenie (alebo úroveň priblíženia) vektoskopu na 5x, "
+"vidíme, že obraz rozsahu sa zastavuje tesne pred neutrálnym bodom."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:126
 msgid "Vectorscope before white balancing"
-msgstr ""
+msgstr "Vektoskop pred vyvážením bielej"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:128
 msgid ""
@@ -246,10 +312,17 @@ msgid ""
 "negative offset shifts them towards the opposite direction (that is, towards "
 "the |complementary_color| of red, cyan)."
 msgstr ""
+"Ak otvoríte tento klip a pozriete sa na priebeh, všimnete si, že zobrazuje "
+"to isté: modrá je príliš nízka, červená príliš vysoká. Na opravu tohto "
+"menšieho farebného nádechu môžeme znovu použiť efekt :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/sat` a upraviť "
+"hodnoty :guilabel:`Offset`. Tým sa body na vektoskope posunú. Kladný červený "
+"offset posunie body smerom k červenej navrchu, záporný offset ich posunie "
+"opačným smerom (t. j. k |complementary_color| červenej, teda azúrovej)."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:133
 msgid "Vectorscope after white balancing"
-msgstr ""
+msgstr "Vektoskop po vyvážení bielej"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:135
 msgid ""
@@ -261,18 +334,29 @@ msgid ""
 "recorded video file. So usually neutral areas will not share one single "
 "pixel in the vectorscope but have a certain diameter. Hence the padding."
 msgstr ""
+"Tu boli hodnoty modrej a červenej nastavené tak, aby okolo neutrálneho "
+"stredu zostala určitá rezerva. Zvyčajne nestačí, aby prvý pixel dosiahol "
+"neutrálny bod, a to z niekoľkých dôvodov: materiál samotného neutrálneho "
+"objektu, chromatická aberácia (pozri aj presnejší článok o |"
+"chromatic_aberration|) v objektívoch a artefakty v zaznamenanom video "
+"súbore. Preto neutrálne oblasti na vektoskope zvyčajne nezdieľajú jediný "
+"pixel, ale majú určitý priemer. Odtiaľ tá rezerva."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:137
 msgid ""
 "Because this is a suitable clip for :term:`hue` and the :doc:`/"
 "effects_and_filters/video_effects/color_image_correction/hue_shift` effect:"
 msgstr ""
+"Pretože tento klip je vhodný pre :term:`hue` a efekt :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift`:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:142
 msgid ""
 "Vectorscope of the musical box after applying the :doc:`/effects_and_filters/"
 "video_effects/color_image_correction/hue_shift` effect (Hue=45)"
 msgstr ""
+"Vektoskop hracej skrinky po aplikovaní efektu :doc:`/effects_and_filters/"
+"video_effects/color_image_correction/hue_shift` (Hue=45)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:144
 msgid ""
@@ -283,16 +367,23 @@ msgid ""
 "Vectorscope this becomes visible as a rotation around the center of the "
 "scope."
 msgstr ""
+"Čo sa tu teda stalo? Odtieň sa zmenil a body na rozsahu vyzerajú, akoby boli "
+"otočené o 30 stupňov. A skutočne sa otočili. Efekt :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift` mení "
+"odtieň všetkých farieb o určitú (konfigurovateľnú) hodnotu. Na vektoskope je "
+"to viditeľné ako otáčanie okolo stredu rozsahu."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:146
 msgid ""
 "Similarly, when changing the saturation/chroma, the dots on the vectorscope "
 "will move closer to the center or further away from it."
 msgstr ""
+"Podobne, keď meníte saturáciu/chromatickosť, body na vektoskope sa budú "
+"posúvať bližšie k stredu alebo ďalej od neho."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:149
 msgid "Creating a Look for Your Video"
-msgstr ""
+msgstr "Vytvorenie vizuálneho štýlu pre vaše video"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:151
 msgid ""
@@ -300,16 +391,21 @@ msgid ""
 "looks with color correction or :term:`Color Grading`. This example covers "
 "part of the tip of the iceberg of this topic."
 msgstr ""
+"V kapitole :doc:`Histogram <histogram_working>` sme spomínali vytváranie "
+"vizuálnych štýlov pomocou farebnej korekcie alebo :term:`Color Grading`. "
+"Tento príklad pokrýva iba špičku ľadovca tejto témy."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:153
 msgid ""
 "What is special about creating a look for a video? Let's take a look at some "
 "random clips:"
 msgstr ""
+"Čo je špeciálne na vytváraní vizuálneho štýlu pre video? Pozrime sa na "
+"niekoľko náhodných klipov:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:158
 msgid "Collection of not color-graded video stills"
-msgstr ""
+msgstr "Kolekcia video záberov bez farebnej gradácie"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:160
 msgid ""
@@ -319,10 +415,15 @@ msgid ""
 "color casts (which is a good thing because it gives you a neutral starting "
 "point). But we can also add new colors."
 msgstr ""
+"Väčšinou rôzny obsah, a teda rôzne farby – ako sme povedali: náhodné. Jeden "
+"cieľ farebnej gradácie je dať jednotlivým klipom vzájomnú súvislosť. Nie je "
+"to obmedzené len na vyváženie bielej. Vyváženie bielej klipa spočíva v "
+"odstránení farebných nádechu (čo je dobré, pretože vám dáva neutrálny "
+"výchozí bod). Ale môžeme tiež pridávať nové farby."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:165
 msgid "Collection of color-graded video stills"
-msgstr ""
+msgstr "Kolekcia farebne gradovaných video záberov"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:167
 msgid ""
@@ -335,18 +436,28 @@ msgid ""
 "does something similar as the Blockbuster Effect: here the blacks become "
 "blueish, the mids and the whites tend towards yellow."
 msgstr ""
+"Tieto klipy vyzerajú oveľa viac, akoby k sebe patrili. Je to výsledok "
+"**primárnej farebnej korekcie** (*Primárna* znamená, že ovplyvňuje celý "
+"obrázok; *Sekundárna farebná korekcia* by ovplyvňovala iba jeho časti, napr. "
+"pomocou masiek, výberu farebných rozsahov atď.): Vyváženie bielej (plus v "
+"niektorých prípadoch zníženie saturácie) nasledované efektom :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/sat`. Posledný "
+"efekt SOP/Sat robí niečo podobné ako efekt Blockbuster: tu čierne tóny "
+"získavajú modrastý nádych, stredné tóny a biele smerujú k žltej."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:169
 msgid "See also |this_page| for some hints about looks and the vectorscope."
 msgstr ""
+"Pozrite si aj |this_page| pre niekoľko tipov o vizuálnych štýloch a "
+"vektoskope."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:172
 msgid "Vectorscope Options"
-msgstr ""
+msgstr "Možnosti vektoskopu"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:174
 msgid "You can adjust the Vectorscope as follows by right-clicking it:"
-msgstr ""
+msgstr "Vektoskop môžete upraviť nasledovne kliknutím pravým tlačidlom myši:"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:176
 msgid ""
@@ -354,6 +465,10 @@ msgid ""
 "allows to export RGB, :term:`YUV` and :term:`YCbCr` planes (like the ones "
 "you see when visiting the Wikipedia articles about these color spaces)."
 msgstr ""
+"*Exportovať pozadie* – Exportuje farebnú rovinu požadovaného farebného "
+"priestoru. Umožňuje exportovať roviny RGB, :term:`YUV` a :term:`YCbCr` "
+"(podobne ako tie, ktoré vidíte na stránkach Wikipédie o týchto farebných "
+"priestoroch)."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:178
 msgid ""
@@ -363,15 +478,21 @@ msgid ""
 "changing the saturation to a max of 75% better consult your broadcast "
 "company."
 msgstr ""
+"*75% Box* – Označuje pozíciu, kde farebná saturácia dosahuje 75 % svojej "
+"maximálnej hodnoty. To môže byť zaujímavé, ak pracujete pre televízne "
+"vysielanie. Farby presahujúce tento box neboli považované za |"
+"broadcast_safe| – ale pred zmenou saturácie na maximum 75 % sa lepšie "
+"poraďte so svojou vysielacou spoločnosťou."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:180
 msgid "*Draw axis* - Draws the U/Pb (horizontal) and V/Cr (vertical) axis."
-msgstr ""
+msgstr "*Kresliť osi* – Nakreslí os U/Pb (vodorovná) a V/Cr (zvislá)."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:182
 msgid ""
 "*YUV* and *YPbPr* - Switches between the two color spaces YUV and YPbPr."
 msgstr ""
+"*YUV* a *YPbPr* – Prepína medzi dvoma farebnými priestormi YUV a YPbPr."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:186
 msgid "Summary"
@@ -384,6 +505,9 @@ msgid ""
 "casts, but also helps judging the color distribution of a clip and match it "
 "to others."
 msgstr ""
+"Vektoskop zobrazuje rozloženie odtieňa a saturácie spôsobom, ktorý je ľahko "
+"zrozumiteľný. Je to užitočné na rýchle rozpoznanie farebných nádechu, ale "
+"pomáha aj posúdiť farebné rozloženie klipu a prispôsobiť ho ostatným."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:189
 msgid ""
@@ -394,6 +518,12 @@ msgid ""
 "colors. So when combining these shots you first shoot a test chart and then "
 "match exposure and color."
 msgstr ""
+"Všetky rozsahy dohromady plnia ďalšiu dôležitú úlohu: Pomáhajú zladiť video "
+"z rôznych svetelných podmienok a rôznych vstupných zdrojov (ako je druhá "
+"kamera) z hľadiska jasu a farby. Na to potrebujete |test_charts|. Rôzne "
+"kamery môžu mať rôzny dynamický rozsah a rôzne farby. Preto pri kombinovaní "
+"týchto záberov najprv odfotíte testovaciu tabuľku a potom zladíte expozíciu "
+"a farbu."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:194
 msgid "Notes"
@@ -404,12 +534,16 @@ msgid ""
 ":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
 "samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
 msgstr ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
+"samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:201
 msgid ""
 ":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
 "juggling-balls.avi>` (720/24p, 11 MB)"
 msgstr ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
+"juggling-balls.avi>` (720/24p, 11 MB)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:202
 msgid ""
@@ -417,6 +551,8 @@ msgid ""
 "Musical-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom "
 "H4n.)"
 msgstr ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/"
+"Musical-box.avi>` (720/24p, 23 MB. Video zo Nikon D90, zvuk zo Zoom H4n.)"
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:204
 msgid ""
@@ -425,6 +561,10 @@ msgid ""
 "documentation it has been lifted from |web_archive|, updated and adapted to "
 "match the overall style."
 msgstr ""
+"Pôvodný text bol odoslaný používateľom *Simon A. Eugster (Granjow)* v nedeľu "
+"10. 10. 2010 o 18:30 na vtedajší blog kdenlive.org, ktorý už neexistuje. Pre "
+"túto dokumentáciu bol prevzatý z |web_archive|, aktualizovaný a prispôsobený "
+"celkovému štýlu."
 
 #: ../../tips_and_tricks/scopes/vectorscope_working.rst:205
 msgid "**Sources**"

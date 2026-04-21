@@ -13,12 +13,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.08.3\n"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:-1
 msgid "Kdenlive Tips & Tricks - Render Profile Parameters and How to Read Them"
 msgstr ""
+"Tipy a triky Kdenlive – Parametre profilu vykresľovania a ako ich čítať"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:-1
 msgid ""
@@ -38,27 +39,27 @@ msgstr "Linux"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:36
 msgid "Render Profile Parameters Explained"
-msgstr ""
+msgstr "Vysvetlenie parametrov profilu vykresľovania"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:40
 msgid "image_1"
-msgstr ""
+msgstr "image_1"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:43
 msgid "image_2"
-msgstr ""
+msgstr "image_2"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:46
 msgid "image_3"
-msgstr ""
+msgstr "image_3"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:49
 msgid "|image_1| |image_2| |image_3|"
-msgstr ""
+msgstr "|image_1| |image_2| |image_3|"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:52
 msgid "Property Presets"
-msgstr ""
+msgstr "Prednastavenia vlastností"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:54
 msgid ""
@@ -68,38 +69,52 @@ msgid ""
 "is referencing *lossless/H.264*. This refers to a property preset found in "
 "file H.264 found on the system at"
 msgstr ""
+"Kdenlive teraz využíva *prednastavenia vlastností* dodávané projektom "
+"**melt** (pozri |mlt_presets|). Na tieto prednastavenia sa odkazuje syntaxou "
+"*properties=<preset>*. V zobrazenom príklade profil vykresľovania odkazuje "
+"na *lossless/H.264*. Toto odkazuje na prednastavenie vlastností nachádzajúce "
+"sa v súbore H.264 uloženom v systéme na"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:56
 msgid ""
 ":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
 "\\\\avformat\\\\lossless`"
 msgstr ""
+":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
+"\\\\avformat\\\\lossless`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:57
 msgid ":file:`/usr/share/mlt/presets/consumer/avformat/lossless`"
-msgstr ""
+msgstr ":file:`/usr/share/mlt/presets/consumer/avformat/lossless`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:59
 msgid ""
 "On a default install, all the *<presets>* referenced in the render settings "
 "in Kdenlive will be referring to presets found in"
 msgstr ""
+"Pri predvolenej inštalácii budú všetky *<prednastavenia>* odkazované v "
+"nastaveniach vykresľovania v Kdenlive odkazovať na prednastavenia "
+"nachádzajúce sa v"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:61
 msgid ""
 ":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
 "\\\\avformat\\\\`"
 msgstr ""
+":file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt\\\\presets\\\\consumer"
+"\\\\avformat\\\\`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:62
 msgid ":file:`/usr/share/mlt/presets/consumer/avformat/`"
-msgstr ""
+msgstr ":file:`/usr/share/mlt/presets/consumer/avformat/`"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:64
 msgid ""
 "You reference presets found in subdirectories of this folder using a "
 "``<subdirname>/<profile>`` syntax as shown in the example above."
 msgstr ""
+"Na prednastavenia nachádzajúce sa v podadresároch tohto priečinka odkazujete "
+"syntaxou ``<subdirname>/<profile>``, ako je uvedené v príklade vyššie."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:74
 msgid ""
@@ -110,14 +125,20 @@ msgid ""
 "below. These are the same parameters that were used in earlier versions of "
 "Kdenlive."
 msgstr ""
+"Súbory prednastavení nachádzajúce sa na :file:`/usr/share/mlt/presets/"
+"consumer/avformat/` a :file:`C:\\\\Program Files\\\\kdenlive\\\\share\\\\mlt"
+"\\\\presets\\\\consumer\\\\avformat\\\\` sú jednoduché textové súbory "
+"obsahujúce parametre *melt*, ktoré definujú vykresľovanie. Príklad je "
+"uvedený nižšie. Sú to rovnaké parametre, ktoré sa používali v starších "
+"verziách Kdenlive."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:76
 msgid "Contents of :file:`lossless/H.264`:"
-msgstr ""
+msgstr "Obsah :file:`lossless/H.264`:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:111
 msgid "How to Read Them"
-msgstr ""
+msgstr "Ako ich čítať"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:113
 msgid ""
@@ -125,47 +146,53 @@ msgid ""
 "encoding the video and audio streams. Hence it should not come as a surprise "
 "that the parameters are well documented by the |ffmpeg_project|."
 msgstr ""
+"V podstate sú parametre inštrukciami pre ffmpeg, ktorý sa používa na "
+"kódovanie video a audio prúdov. Preto by nemalo byť prekvapením, že "
+"parametre sú dobre zdokumentované v |ffmpeg_project|."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:115
 msgid "In the example above the parameters are:"
-msgstr ""
+msgstr "V príklade vyššie sú parametre:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:132
 msgid "Another example for DVD output:"
-msgstr ""
+msgstr "Ďalší príklad pre výstup DVD:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:154
 msgid "Looking up the |ffmpeg_options| translates these parameters as follows:"
-msgstr ""
+msgstr "Vyhľadanie |ffmpeg_options| prekladá tieto parametre nasledovne:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:156
 msgid "Main option is:"
-msgstr ""
+msgstr "Hlavná voľba je:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:162
 msgid "Video options are:"
-msgstr ""
+msgstr "Voľby videa sú:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:174
 msgid "Audio options are:"
-msgstr ""
+msgstr "Voľby zvuku sú:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:182
 msgid "The AVCodecContext AVOptions include:"
-msgstr ""
+msgstr "AVOptions AVCodecContext zahŕňajú:"
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:191
 msgid ""
 "All the render profile options are documented in the **ffmpeg** "
 "documentation."
 msgstr ""
+"Všetky voľby profilu vykresľovania sú zdokumentované v dokumentácii "
+"**ffmpeg**."
 
 #: ../../tips_and_tricks/useful_info/render_profile_parameters.rst:193
 msgid "See also |mlt_presets| for more details on the MLT preset property."
 msgstr ""
+"Pozrite tiež |mlt_presets| pre viac podrobností o vlastnosti prednastavenia "
+"MLT."
 
 #, fuzzy
-#~| msgid "Windows"
 #~ msgid "window-close"
 #~ msgstr "Windows"
 

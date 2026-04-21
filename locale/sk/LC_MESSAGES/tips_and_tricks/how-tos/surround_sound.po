@@ -13,8 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.08.3\n"
 
 #: ../../<rst_epilog>:378
 msgid "media-record"
@@ -22,7 +22,7 @@ msgstr "media-record"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:-1
 msgid "Kdenlive Tips & Tricks - How to Edit Surround Sound with Kdenlive"
-msgstr ""
+msgstr "Kdenlive tipy a triky - Ako upravovať priestorový zvuk v Kdenlive"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:-1
 msgid ""
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:30
 msgid "Editing Surround Sound with Kdenlive"
-msgstr ""
+msgstr "Úprava priestorového zvuku v Kdenlive"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:32
 msgid ""
@@ -45,22 +45,27 @@ msgid ""
 "audio. In order to edit and create surround sound, some manual steps, "
 "including external tools, are required."
 msgstr ""
+"V čase písania tohto textu Kdenlive podporuje len renderovanie projektu do "
+"videa obsahujúceho stereo zvuk. Nie je možné renderovať do väčšieho počtu "
+"zvukových kanálov ani explicitne mapovať zvukové stopy na kanály vo "
+"vyrenderovanom zvuku. Na úpravu a vytvorenie priestorového zvuku sú potrebné "
+"niektoré manuálne kroky vrátane externých nástrojov."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:34
 msgid "This guide is using a six-channel 5.1 surround sound as example."
-msgstr ""
+msgstr "Táto príručka používa ako príklad šesťkanálový priestorový zvuk 5.1."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:38
 msgid "External Tools Used Here"
-msgstr ""
+msgstr "Tu použité externé nástroje"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:40
 msgid "|audacity| - Free Audio Editor and Recorder"
-msgstr ""
+msgstr "|audacity| - Bezplatný zvukový editor a rekordér"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:41
 msgid "|avconv| - A Video and Audio Converter"
-msgstr ""
+msgstr "|avconv| - Konvertor videa a zvuku"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:43
 msgid ""
@@ -68,10 +73,13 @@ msgid ""
 "is used instead. So these (and possibly other) distributions already have "
 "avconv installed."
 msgstr ""
+"Kdenlive používa |ffmpeg|, avšak na (k)ubuntu je ffmpeg zastaraný a namiesto "
+"neho sa používa avconv. Takže tieto (a prípadne ďalšie) distribúcie majú "
+"avconv už nainštalovaný."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:47
 msgid "Creating New Surround Sound"
-msgstr ""
+msgstr "Vytvorenie nového priestorového zvuku"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:49
 msgid ""
@@ -79,6 +87,9 @@ msgid ""
 "render a 5.1 surround sound audio track that can be added to the video "
 "rendered by Kdenlive."
 msgstr ""
+"Táto príručka popisuje jedno možné riešenie pomocou Audacity na vytvorenie a "
+"renderovanie zvukovej stopy priestorového zvuku 5.1, ktorú možno pridať k "
+"videu vyrenderovanému v Kdenlive."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:51
 msgid ""
@@ -86,27 +97,32 @@ msgid ""
 "rear to front) are beyond the capabilities of Audacity - but it is possible "
 "to create similar effects manually."
 msgstr ""
+"Pokročilejšie funkcie, ako napríklad priestorové panorámovanie (t. j. pohyb "
+"zvuku zozadu dopredu), sú nad rámec možností Audacity – podobné efekty je "
+"však možné vytvoriť manuálne."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:55
 msgid "Create and Edit Surround Sound with Audacity"
-msgstr ""
+msgstr "Vytvorenie a úprava priestorového zvuku v Audacity"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:57
 msgid ""
 "The following example of a simple 5.1 surround sound is used in this guide:"
 msgstr ""
+"V tejto príručke sa používa nasledujúci príklad jednoduchého priestorového "
+"zvuku 5.1:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:59
 msgid "Some original field recording from the front (stereo)"
-msgstr ""
+msgstr "Nejaká pôvodná terénna nahrávka spredu (stereo)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:60
 msgid "Some voice from the (front) center (mono)"
-msgstr ""
+msgstr "Nejaký hlas z (predného) stredu (mono)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:61
 msgid "Some music from the rear (stereo)"
-msgstr ""
+msgstr "Nejaká hudba zozadu (stereo)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:63
 msgid ""
@@ -116,22 +132,27 @@ msgid ""
 "48000Hz` from the context menu of the clip. This creates a WAV audio file in "
 "the same folder where the video clip is located."
 msgstr ""
+"Ak sa má, ako v tomto príklade, na vytvorenie zvukovej stopy priestorového "
+"zvuku použiť pôvodná terénna nahrávka z videoklipu, možno ju jednoducho "
+"extrahovať v Kdenlive pomocou :menuselection:`Extract Audio --> Wav 48000Hz` "
+"z kontextovej ponuky klipu. Tým sa vytvorí zvukový súbor WAV v rovnakom "
+"priečinku, kde sa nachádza videoklip."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:65
 msgid "The audio clips to be used in this example are:"
-msgstr ""
+msgstr "Zvukové klipy, ktoré sa použijú v tomto príklade, sú:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:67
 msgid ":file:`Field.wav` (stereo) for Front L+R"
-msgstr ""
+msgstr ":file:`Field.wav` (stereo) pre Front L+R"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:68
 msgid ":file:`Voice.wav` (mono) for Center"
-msgstr ""
+msgstr ":file:`Voice.wav` (mono) pre Center"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:69
 msgid ":file:`Music.mp3` (stereo) for Surround L+R (rear)"
-msgstr ""
+msgstr ":file:`Music.mp3` (stereo) pre Surround L+R (zadný)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:71
 msgid ""
@@ -139,14 +160,17 @@ msgid ""
 "menuselection:`Menu --> File --> Import --> Audio...`, the project should "
 "now look something like this:"
 msgstr ""
+"V novom projekte Audacity ich možno importovať vo vyššie uvedenom poradí "
+"cez :menuselection:`Menu --> File --> Import --> Audio...`, projekt by teraz "
+"mal vyzerať približne takto:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:76
 msgid "Audacity screenshot"
-msgstr ""
+msgstr "Snímka obrazovky Audacity"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:78
 msgid "The channel mapping for 5.1 surround sound is:"
-msgstr ""
+msgstr "Mapovanie kanálov pre priestorový zvuk 5.1 je:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:80
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:163
@@ -165,7 +189,7 @@ msgstr "3 - Stredný"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:83
 msgid "4 - :abbr:`LFE (Low Frequency Effects)`"
-msgstr ""
+msgstr "4 - :abbr:`LFE (Low Frequency Effects)`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:84
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:167
@@ -185,6 +209,10 @@ msgid ""
 "will redirect the LFE channel to \"large\" speakers, usually the front "
 "speakers."
 msgstr ""
+":abbr:`LFE (Low Frequency Effects)` sa často označuje ako \"kanál subwoofera"
+"\", čo nie je celkom správne. Zostava reproduktorov priestorového zvuku je "
+"plne funkčná aj bez subwoofera. V takom prípade systém priestorového zvuku "
+"presmeruje kanál LFE na \"veľké\" reproduktory, zvyčajne predné."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:89
 msgid ""
@@ -195,6 +223,12 @@ msgid ""
 "the low frequency range of the \"Music\" track to the LFE channel, otherwise "
 "the music might sound a little \"thin\"."
 msgstr ""
+"Stereo stopu \"Field\" možno teraz namapovať na Front L+R, \"Voice\" na "
+"Center a \"Music\" na Surround L+R. Je tu však jeden problém: reproduktory "
+"Surround (zadné) systému priestorového zvuku sú zvyčajne \"malé\" a nedokážu "
+"reprodukovať nízke frekvencie. Preto by bolo potrebné namapovať rozsah "
+"nízkych frekvencií stopy \"Music\" na kanál LFE, inak by hudba mohla znieť "
+"trochu \"tenúčko\"."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:91
 msgid ""
@@ -203,6 +237,10 @@ msgid ""
 "`Split Stereo to Mono` from the context menu of the third track. Then one of "
 "the two mono tracks can be deleted; the other one can be renamed to \"LFE\"."
 msgstr ""
+"Na to možno stopu \"Music\" jednoducho duplikovať cez :menuselection:`Menu --"
+"> Edit --> Duplicate` po jej výbere, a potom zvoliť :menuselection:`Split "
+"Stereo to Mono` z kontextovej ponuky tretej stopy. Potom možno jednu z dvoch "
+"mono stôp vymazať; druhú možno premenovať na \"LFE\"."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:93
 msgid ""
@@ -210,6 +248,9 @@ msgid ""
 "above around 100Hz from the \"LFE\" track, and reverse, cut off frequencies "
 "below around 100Hz from the \"Music\" track."
 msgstr ""
+"Teraz možno použiť efekt \"Equalization...\" na odfiltrovanie frekvencií nad "
+"cca 100 Hz zo stopy \"LFE\" a naopak, odfiltrovanie frekvencií pod cca 100 "
+"Hz zo stopy \"Music\"."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:95
 msgid ""
@@ -217,6 +258,9 @@ msgid ""
 "thus beyond the scope of this guide - please refer to respective resources "
 "on the web for details."
 msgstr ""
+"Vytvorenie technicky dokonalého priestorového zvuku je samostatná veda, a "
+"preto presahuje rámec tejto príručky – podrobnosti nájdete v príslušných "
+"zdrojoch na internete."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:97
 msgid ""
@@ -225,21 +269,27 @@ msgid ""
 "in this example has a length of 1:00 minute, so the lengths of the audio "
 "tracks in Audacity are adjusted accordingly."
 msgstr ""
+"Zatiaľ zostáva zabezpečiť, aby mala stopa priestorového zvuku rovnakú dĺžku "
+"ako video stopa, ku ktorej sa má pridať. Video stopa použitá v tomto "
+"príklade má dĺžku 1:00 minútu, takže dĺžky zvukových stôp v Audacity sú "
+"podľa toho upravené."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:99
 msgid "The Audacity project should now look something like this:"
-msgstr ""
+msgstr "Projekt Audacity by teraz mal vyzerať približne takto:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:104
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:190
 msgid "Audacity project screenshot"
-msgstr ""
+msgstr "Snímka obrazovky projektu Audacity"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:106
 msgid ""
 "The next thing to do is to export the project to a multichannel 5.1 surround "
 "sound audio file. The format used here is AC-3 (Dolby Digital)."
 msgstr ""
+"Ďalším krokom je exportovanie projektu do viackanálového zvukového súboru "
+"priestorového zvuku 5.1. Tu použitý formát je AC-3 (Dolby Digital)."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:108
 msgid ""
@@ -248,24 +298,30 @@ msgid ""
 "under :menuselection:`Import/Export`, select \"Use custom mix (for example "
 "to export a 5.1 multichannel file)\"."
 msgstr ""
+"Pred exportom je potrebné nakonfigurovať Audacity tak, aby umožňovalo export "
+"do viackanálového zvukového súboru: V :menuselection:`Menu --> Edit --> "
+"Preferences`, v časti :menuselection:`Import/Export`, vyberte \"Use custom "
+"mix (for example to export a 5.1 multichannel file)\"."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:110
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:259
 msgid "The project can now be exported into a 5.1 surround sound audio file:"
 msgstr ""
+"Projekt možno teraz exportovať do zvukového súboru priestorového zvuku 5.1:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:112
 msgid "Select :menuselection:`Menu --> File --> Export...`"
-msgstr ""
+msgstr "Vyberte :menuselection:`Menu --> File --> Export...`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:113
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:262
 msgid "Provide a name for \"Name\" and select \"AC3 Files (FFmpeg)\""
-msgstr ""
+msgstr "Zadajte názov do poľa \"Name\" a vyberte \"AC3 Files (FFmpeg)\""
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:114
 msgid "Click :guilabel:`Options...` and choose \"512 kbps\" as \"Bit Rate\""
 msgstr ""
+"Kliknite na :guilabel:`Options...` a zvoľte \"512 kbps\" ako \"Bit Rate\""
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:116
 msgid ""
@@ -273,27 +329,33 @@ msgid ""
 "\"Output Channels\" should be 6 and the channel mapping should already be "
 "correct:"
 msgstr ""
+"Mal by sa zobraziť dialóg \"Advanced Mixing Options\". Počet \"Output "
+"Channels\" by mal byť 6 a mapovanie kanálov by malo byť už správne:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:121
 msgid "Audacity mixing options"
-msgstr ""
+msgstr "Možnosti miešania Audacity"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:123
 msgid ""
 "The result of the export should be an :file:`*.ac3` file which is playable "
 "with e.g. **VLC** or **Dragon Player**."
 msgstr ""
+"Výsledkom exportu by mal byť súbor :file:`*.ac3`, ktorý je možné prehrať "
+"napr. v **VLC** alebo **Dragon Player**."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:127
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:276
 msgid "Muxing Video and Audio Together"
-msgstr ""
+msgstr "Multiplexovanie videa a zvuku dohromady"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:129
 msgid ""
 "The final step is to add the surround sound audio track to the video track, "
 "assuming the video was rendered without audio."
 msgstr ""
+"Posledným krokom je pridanie zvukovej stopy priestorového zvuku k video "
+"stope, pričom sa predpokladá, že video bolo vyrenderované bez zvuku."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:131
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:280
@@ -303,6 +365,10 @@ msgid ""
 "or the video streams. Also, because the streams are just copied, muxing is "
 "very fast."
 msgstr ""
+"Pri multiplexovaní zvukových a video súborov do jedného súboru sa skutočné "
+"streamy len kopírujú, nie transkódujú. Nedochádza teda k žiadnej strate "
+"kvality zvukových ani video streamov. Keďže sa streamy len kopírujú, "
+"multiplexovanie je veľmi rýchle."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:133
 msgid ""
@@ -310,6 +376,9 @@ msgid ""
 "sound was exported to :file:`5.1.ac3` the command to mux both to :file:"
 "`Video-5.1.mkv` with **avconv** would be:"
 msgstr ""
+"Za predpokladu, že video stopa bola vyrenderovaná do :file:`Video.mkv` a "
+"priestorový zvuk bol exportovaný do :file:`5.1.ac3`, príkaz na "
+"multiplexovanie oboch do :file:`Video-5.1.mkv` pomocou **avconv** by bol:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:139
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:288
@@ -317,20 +386,24 @@ msgid ""
 "The result should be an MKV video containing a Dolby Digital 5.1 surround "
 "sound audio track."
 msgstr ""
+"Výsledkom by malo byť video MKV obsahujúce zvukovú stopu priestorového zvuku "
+"Dolby Digital 5.1."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:143
 msgid "Editing Existing Surround Sound"
-msgstr ""
+msgstr "Úprava existujúceho priestorového zvuku"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:145
 msgid ""
 "When adding a clip with more than two channels to a project, Kdenlive "
 "creates an audio thumbnail that correctly shows all audio channels:"
 msgstr ""
+"Pri pridávaní klipu s viac ako dvoma kanálmi do projektu Kdenlive vytvorí "
+"zvukový náhľad, ktorý správne zobrazuje všetky zvukové kanály:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:149
 msgid "Kdenlive timeline (Note: Older version!)"
-msgstr ""
+msgstr "Časová os Kdenlive (Poznámka: Staršia verzia!)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:151
 msgid ""
@@ -338,14 +411,17 @@ msgid ""
 "work just fine - but once rendering the project, it turns out that the audio "
 "track in the resulting video file is 2 channels (stereo) only."
 msgstr ""
+"Klip možno upravovať a aplikovať naň (zvukové) efekty a zdá sa, že všetko "
+"funguje v poriadku – ale po vyrenderovaní projektu sa ukáže, že zvuková "
+"stopa vo výslednom video súbore má len 2 kanály (stereo)."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:153
 msgid "The following steps provide a manual workaround for this issue."
-msgstr ""
+msgstr "Nasledujúce kroky poskytujú manuálne riešenie tohto problému."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:157
 msgid "Extract and Split the Audio Track"
-msgstr ""
+msgstr "Extrahovanie a rozdelenie zvukovej stopy"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:159
 msgid ""
@@ -354,16 +430,22 @@ msgid ""
 "the context menu of the clip. This creates a WAV audio file in the same "
 "folder as where the video clip is located."
 msgstr ""
+"Prvým krokom je extrahovanie zvukovej stopy z videoklipu. To možno vykonať v "
+"Kdenlive pomocou :menuselection:`Extract Audio --> Wav 48000Hz` z "
+"kontextovej ponuky klipu. Tým sa vytvorí zvukový súbor WAV v rovnakom "
+"priečinku, kde sa nachádza videoklip."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:161
 msgid ""
 "The extracted WAV audio file can then be opened in **Audacity**, it should "
 "show all 6 channels, these are:"
 msgstr ""
+"Extrahovaný zvukový súbor WAV možno potom otvoriť v **Audacity**, mal by "
+"zobraziť všetkých 6 kanálov, a to:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:166
 msgid "4 - LFE"
-msgstr ""
+msgstr "4 - LFE"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:170
 msgid ""
@@ -372,32 +454,38 @@ msgid ""
 "valid without subwoofer. In this case the surround sound system will "
 "redirect the LFE channel to \"large\" speakers, usually the front speakers."
 msgstr ""
+"LFE (Low Frequency Effects) sa často označuje ako \"kanál subwoofera\", čo "
+"nie je celkom správne. Zostava reproduktorov priestorového zvuku je plne "
+"funkčná aj bez subwoofera. V takom prípade systém priestorového zvuku "
+"presmeruje kanál LFE na \"veľké\" reproduktory, zvyčajne predné."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:172
 msgid ""
 "The idea now is to split the surround sound into four separate (stereo/mono) "
 "audio files that **Kdenlive** can handle:"
 msgstr ""
+"Myšlienka je teraz rozdeliť priestorový zvuk do štyroch samostatných (stereo/"
+"mono) zvukových súborov, s ktorými **Kdenlive** dokáže pracovať:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:174
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:254
 msgid "Front (stereo)"
-msgstr ""
+msgstr "Front (stereo)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:175
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:255
 msgid "Center (mono)"
-msgstr ""
+msgstr "Center (mono)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:176
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:256
 msgid "LFE (mono)"
-msgstr ""
+msgstr "LFE (mono)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:177
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:257
 msgid "Surround (stereo)"
-msgstr ""
+msgstr "Surround (stereo)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:179
 msgid ""
@@ -406,6 +494,10 @@ msgid ""
 "`Import/Export`, select \"Use custom mix (for example to export a 5.1 "
 "multichannel file)\"."
 msgstr ""
+"Najprv je potrebné nakonfigurovať Audacity tak, aby nevždy exportovalo do "
+"stereo zvukových súborov: V :menuselection:`Edit --> Preferences`, v časti :"
+"menuselection:`Import/Export`, vyberte \"Use custom mix (for example to "
+"export a 5.1 multichannel file)\"."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:181
 msgid ""
@@ -414,6 +506,9 @@ msgid ""
 "5th track, respectively. This should result in 4 tracks, two stereo and two "
 "mono."
 msgstr ""
+"Teraz treba stopy 1+2 a 5+6 previesť na stereo stopy výberom :menuselection:"
+"`Make Stereo Track` z kontextovej ponuky 1. a 5. stopy. Výsledkom by mali "
+"byť 4 stopy, dve stereo a dve mono."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:183
 msgid ""
@@ -421,10 +516,13 @@ msgid ""
 "\"Surround\" starting from the top, using :menuselection:`Name...` from the "
 "context menu of each track."
 msgstr ""
+"Ďalej treba 4 stopy premenovať na \"Front\", \"Center\", \"LFE\" a \"Surround"
+"\" začínajúc od vrchu pomocou :menuselection:`Name...` z kontextovej ponuky "
+"každej stopy."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:185
 msgid "The tracks now look like this:"
-msgstr ""
+msgstr "Stopy teraz vyzerajú takto:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:192
 msgid ""
@@ -434,6 +532,11 @@ msgid ""
 "should already be okay: \"Split files based on: Tracks\" and \"Name files: "
 "Using Label/Track name\"."
 msgstr ""
+"Po všetkom tejto námahe je export štyroch stôp do štyroch samostatných "
+"zvukových súborov jednoduchý pomocou :menuselection:`Menu --> File --> "
+"Export --> Export Multiple...`. Použite \"WAV\" ako \"Export format\", "
+"zvyšok nastavení by mal byť v poriadku: \"Split files based on: Tracks\" a "
+"\"Name files: Using Label/Track name\"."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:194
 msgid ""
@@ -442,16 +545,22 @@ msgid ""
 "four audio files should have been exported: :file:`Front.wav`, :file:`Center."
 "wav`, :file:`LFE.wav` and :file:`Surround.wav`."
 msgstr ""
+"Pre každú stopu sa môže zobraziť dialóg \"Edit metadata\". Stačí kliknúť na :"
+"guilabel:`OK`. Na záver by sa mal zobraziť potvrdzovací dialóg a mali by byť "
+"exportované štyri zvukové súbory: :file:`Front.wav`, :file:`Center.wav`, :"
+"file:`LFE.wav` a :file:`Surround.wav`."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:198
 msgid "Import Audio Tracks into Kdenlive"
-msgstr ""
+msgstr "Import zvukových stôp do Kdenlive"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:200
 msgid ""
 "The previously created audio files can now be added to the Kdenlive project "
 "using :menuselection:`Menu --> Media --> Add Media --> Add Clip`."
 msgstr ""
+"Predtým vytvorené zvukové súbory možno teraz pridať do projektu Kdenlive "
+"pomocou :menuselection:`Menu --> Media --> Add Media --> Add Clip`."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:202
 msgid ""
@@ -459,6 +568,9 @@ msgid ""
 "necessary to add two more using :menuselection:`Menu --> Sequence --> Tracks "
 "--> Insert Track` before adding the four audio tracks to the timeline."
 msgstr ""
+"Keďže projekt predvolene obsahuje len dve zvukové stopy, je potrebné pridať "
+"ďalšie dve pomocou :menuselection:`Menu --> Sequence --> Tracks --> Insert "
+"Track` pred pridaním štyroch zvukových stôp do časovej osi."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:204
 msgid ""
@@ -466,31 +578,39 @@ msgid ""
 "by selecting all of them and then choosing :menuselection:`Menu --> Sequence "
 "--> Group Clips`."
 msgstr ""
+"Ďalším krokom je zoskupenie štyroch zvukových stôp s videoklipon výberom "
+"všetkých a následným zvolením :menuselection:`Menu --> Sequence --> Group "
+"Clips`."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:206
 msgid ""
 "Don't forget to mute the original audio track in the video clip if necessary!"
 msgstr ""
+"Nezabudnite v prípade potreby stlmiť pôvodnú zvukovú stopu vo videoklipe!"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:208
 msgid ""
 "The Kdenlive project should now be ready for the usual editing, like cutting "
 "clips and adding effects, and should look something like this:"
 msgstr ""
+"Projekt Kdenlive by teraz mal byť pripravený na bežnú úpravu, ako je "
+"strihanie klipov a pridávanie efektov, a mal by vyzerať približne takto:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:213
 msgid "Kdenlive project example (Note: older version!)"
-msgstr ""
+msgstr "Príklad projektu Kdenlive (Poznámka: staršia verzia!)"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:217
 msgid "Rendering the Project"
-msgstr ""
+msgstr "Renderovanie projektu"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:219
 msgid ""
 "Since it is not possible to render the project with a surround sound audio "
 "track, some manual steps are necessary to work around this."
 msgstr ""
+"Keďže nie je možné vyrenderovať projekt so zvukovou stopou priestorového "
+"zvuku, na obídenie tohto problému sú potrebné niektoré manuálne kroky."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:221
 msgid ""
@@ -498,6 +618,9 @@ msgid ""
 "done by rendering the project as it would normally be done, but without "
 "audio, by deselecting the :guilabel:`Audio` checkbox."
 msgstr ""
+"Najprv je potrebné vyrenderovať video stopu bez zvuku. To sa jednoducho "
+"vykoná renderovaním projektu tak, ako by sa to normálne robilo, ale bez "
+"zvuku, odznačením zaškrtávacieho políčka :guilabel:`Audio`."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:223
 msgid ""
@@ -505,42 +628,48 @@ msgid ""
 "`Center.wav`, :file:`LFE.wav` and :file:`Surround.wav` needs to be rendered "
 "into a separate audio file. For each of them, do the following:"
 msgstr ""
+"Potom je každú zo štyroch zvukových stôp priestorového zvuku :file:`Front."
+"wav`, :file:`Center.wav`, :file:`LFE.wav` a :file:`Surround.wav` potrebné "
+"vyrenderovať do samostatného zvukového súboru. Pre každú z nich vykonajte "
+"nasledovné:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:229
 msgid "Exporting audio only in separate tracks"
-msgstr ""
+msgstr "Export iba zvuku do samostatných stôp"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:231
 msgid "Mute all other audio tracks"
-msgstr ""
+msgstr "Stlmte všetky ostatné zvukové stopy"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:232
 msgid "Click on |media-record| Render..."
-msgstr ""
+msgstr "Kliknite na |media-record| Render..."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:233
 msgid "Enter a respective file name for :guilabel:`Output file`"
-msgstr ""
+msgstr "Zadajte príslušný názov súboru pre :guilabel:`Output file`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:234
 msgid "Select preset :guilabel:`Audio only`"
-msgstr ""
+msgstr "Vyberte predvoľbu :guilabel:`Audio only`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:235
 msgid "Select profile :guilabel:`WAV`"
-msgstr ""
+msgstr "Vyberte profil :guilabel:`WAV`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:236
 msgid "Make sure :guilabel:`Audio` is checked"
-msgstr ""
+msgstr "Uistite sa, že :guilabel:`Audio` je zaškrtnuté"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:237
 msgid "Make sure :guilabel:`Separate file for each audio track` is not checked"
 msgstr ""
+"Uistite sa, že :guilabel:`Separate file for each audio track` nie je "
+"zaškrtnuté"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:238
 msgid "Click on :guilabel:`Render to file`"
-msgstr ""
+msgstr "Kliknite na :guilabel:`Render to file`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:240
 msgid ""
@@ -548,10 +677,13 @@ msgid ""
 "rendered as stereo tracks, and there seems to be no way to avoid this. But "
 "this can be handled later in Audacity."
 msgstr ""
+"Bohužiaľ, mono stopy :file:`Center.wav` a :file:`LFE.wav` sú renderované ako "
+"stereo stopy a zdá sa, že tomu nie je možné zabrániť. To však možno riešiť "
+"neskôr v Audacity."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:244
 msgid "Compose a Surround Sound Audio File"
-msgstr ""
+msgstr "Zostavenie zvukového súboru priestorového zvuku"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:246
 msgid ""
@@ -559,6 +691,9 @@ msgid ""
 "into a single multichannel 5.1 surround sound audio file. This is again done "
 "in Audacity:"
 msgstr ""
+"Teraz je potrebné samostatné zvukové stopy vyrenderované Kdenlive \"zlúčiť\" "
+"do jedného viackanálového zvukového súboru priestorového zvuku 5.1. To sa "
+"opäť vykonáva v Audacity:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:248
 msgid ""
@@ -566,6 +701,9 @@ msgid ""
 "`Surround.wav` (in this order!) using :menuselection:`File --> Import --> "
 "Audio...`"
 msgstr ""
+"Importujte :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` a :file:"
+"`Surround.wav` (v tomto poradí!) pomocou :menuselection:`File --> Import --> "
+"Audio...`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:250
 msgid ""
@@ -573,19 +711,24 @@ msgid ""
 "be fixed by selecting :menuselection:`Split Stereo to Mono` from the context "
 "menu of each track, and deleting one of the two resulting mono tracks."
 msgstr ""
+"\"Center\" a \"LFE\" sú teraz stereo, čo nie je to, čo potrebujeme. To možno "
+"opraviť výberom :menuselection:`Split Stereo to Mono` z kontextovej ponuky "
+"každej stopy a vymazaním jednej z dvoch výsledných mono stôp."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:252
 msgid "Eventually, there should be four tracks in the Audacity project:"
-msgstr ""
+msgstr "Nakoniec by mal projekt Audacity obsahovať štyri stopy:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:261
 msgid "Select :menuselection:`File --> Export...`"
-msgstr ""
+msgstr "Vyberte :menuselection:`File --> Export...`"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:263
 msgid ""
 "Click :guilabel:`Options...` and choose :guilabel:`512 kbps` as \"Bit Rate\""
 msgstr ""
+"Kliknite na :guilabel:`Options...` a zvoľte :guilabel:`512 kbps` ako \"Bit "
+"Rate\""
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:265
 msgid ""
@@ -593,22 +736,28 @@ msgid ""
 "**Output Channels** should be 6 and the channel mapping should already be "
 "correct:"
 msgstr ""
+"Mal by sa zobraziť dialóg **Advanced Mixing Options**. Počet **Output "
+"Channels** by mal byť 6 a mapovanie kanálov by malo byť už správne:"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:270
 msgid "Audacity advanced mixing options"
-msgstr ""
+msgstr "Pokročilé možnosti miešania Audacity"
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:272
 msgid ""
 "The result of the export should be an :file:`*.ac3` file which is playable "
 "with i.e. **VLC** or **Dragon Player**."
 msgstr ""
+"Výsledkom exportu by mal byť súbor :file:`*.ac3`, ktorý je možné prehrať "
+"napr. v **VLC** alebo **Dragon Player**."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:278
 msgid ""
 "Since video and audio was rendered separately, both need to be multiplexed "
 "into a single file containing both the video and audio stream."
 msgstr ""
+"Keďže video a zvuk boli renderované samostatne, obe je potrebné "
+"multiplexovať do jedného súboru obsahujúceho video aj zvukový stream."
 
 #: ../../tips_and_tricks/how-tos/surround_sound.rst:282
 msgid ""
@@ -616,6 +765,9 @@ msgid ""
 "sound was exported to :file:`5.1.ac3`, the command to mux both to :file:"
 "`Video-5.1.mkv` with **avconv** would be:"
 msgstr ""
+"Za predpokladu, že video stopa bola vyrenderovaná do :file:`Video.mkv` a "
+"priestorový zvuk bol exportovaný do :file:`5.1.ac3`, príkaz na "
+"multiplexovanie oboch do :file:`Video-5.1.mkv` pomocou **avconv** by bol:"
 
 #~ msgid "Contents"
 #~ msgstr "Obsah"

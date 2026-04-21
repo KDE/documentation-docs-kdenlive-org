@@ -95,7 +95,7 @@ msgstr "MLT"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:34
 msgid "mask_start"
-msgstr ""
+msgstr "mask_start"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:36
 msgid "|linux| |appimage| |windows| |apple|"
@@ -121,6 +121,13 @@ msgid ""
 "composite the current frame's image over the snapshot. The typical use case "
 "is to add effects in the following sequence:"
 msgstr ""
+"Tento efekt funguje v podstate rovnako ako efekt :doc:`Tvarová alfa </"
+"effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes>`, ale pred "
+"nakreslením jednoduchých tvarov do alfa kanála urobí snímku snímky. "
+"Používajte ho spolu s efektom :doc:`/effects_and_filters/video_effects/"
+"alpha_mask_keying/mask_apply`, ktorý pomocou prechodu skombinuje obraz "
+"aktuálnej snímky so snímkou. Typický prípad použitia je pridanie efektov v "
+"nasledujúcom poradí:"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:49
 msgid ""
@@ -129,6 +136,10 @@ msgid ""
 "`Cartoon </effects_and_filters/video_effects/stylize/cartoon>`) -->  Mask "
 "Apply [--> more effects if needed]"
 msgstr ""
+"Maska tvarová alfa (tento efekt) -->  nula alebo viac efektov (napr. :doc:"
+"`Rozmazanie </effects_and_filters/video_effects/blur_and_sharpen/"
+"gaussian_blur>`, :doc:`Kreslený film </effects_and_filters/video_effects/"
+"stylize/cartoon>`) -->  Použiť masku [--> ďalšie efekty ak sú potrebné]"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:56
 msgid "Parameters"
@@ -153,7 +164,7 @@ msgstr "Výber"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:68
 msgid "Controls the shape of the area of opacity that the effect will create."
-msgstr ""
+msgstr "Ovláda tvar oblasti nepriehľadnosti, ktorú efekt vytvorí."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:69
 msgid "Operation"
@@ -163,7 +174,7 @@ msgstr "Operácia"
 msgid ""
 "Defines what is to happen when you have more than one alpha effect on the "
 "clip"
-msgstr ""
+msgstr "Definuje, čo sa má stať, keď máte na klipe viac ako jeden alfa efekt"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:72
 msgid "Position X / Y"
@@ -183,16 +194,19 @@ msgid ""
 "Defines the position of the shape on the screen. The range of values is from "
 "0 to 1000 where 500 defines the middle of the screen."
 msgstr ""
+"Definuje polohu tvaru na obrazovke. Rozsah hodnôt je od 0 do 1000, kde 500 "
+"definuje stred obrazovky."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:75
 msgid "Size X / Y"
-msgstr ""
+msgstr "Veľkosť X / Y"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:77
 msgid ""
 "Defines the size of the shape. The range of values is from 0 to 1000 where "
 "500 defines 100%,"
 msgstr ""
+"Definuje veľkosť tvaru. Rozsah hodnôt je od 0 do 1000, kde 500 definuje 100%,"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:78
 msgid "Tilt"
@@ -204,6 +218,10 @@ msgid ""
 "of a full rotation. For example, a value of 250 is one quarter of a circle "
 "turn and 500 is a 180-degree turn. That means, 1000 tilt units = 360 degrees."
 msgstr ""
+"Ovláda uhol, pod ktorým sa tvar zobrazuje na obrazovke. Jednotky sú v "
+"tisícinách úplného otočenia. Napríklad hodnota 250 predstavuje štvrtinu "
+"otočenia kruhu a 500 predstavuje otočenie o 180 stupňov. To znamená, 1000 "
+"jednotiek náklonu = 360 stupňov."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:81
 msgid "Transition width"
@@ -215,6 +233,8 @@ msgid ""
 "from the inside to the outside of the shape. Can be used for feathering or "
 "creating a frame."
 msgstr ""
+"Definuje šírku okraja tvaru, kde sa priehľadnosť stupňuje od vnútra smerom "
+"von. Možno použiť na mäkký prechod alebo vytvorenie rámu."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:84
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:120
@@ -248,7 +268,7 @@ msgstr "Elipsa"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:103
 msgid "Draws an ellipse/circle"
-msgstr ""
+msgstr "Nakreslí elipsu/kruh"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:104
 msgid "Triangle"
@@ -256,7 +276,7 @@ msgstr "Trojuholník"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:105
 msgid "Draws a triangle"
-msgstr ""
+msgstr "Nakreslí trojuholník"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:106
 msgid "Diamond"
@@ -272,23 +292,27 @@ msgstr ":guilabel:`Operácia`"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:116
 msgid "Write On Clear"
-msgstr ""
+msgstr "Zapísať na čistý"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:117
 msgid "Existing alpha mask is overwritten"
-msgstr ""
+msgstr "Existujúca alfa maska je prepísaná"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:119
 msgid ""
 "Take the maximum between the existing alpha mask and the mask generated by "
 "this filter"
 msgstr ""
+"Vezme maximum medzi existujúcou alfa maskou a maskou vygenerovanou týmto "
+"filtrom"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:121
 msgid ""
 "Take the minimum between existing alpha mask and mask generated by this "
 "filter"
 msgstr ""
+"Vezme minimum medzi existujúcou alfa maskou a maskou vygenerovanou týmto "
+"filtrom"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:122
 msgid "Add"
@@ -296,7 +320,7 @@ msgstr "Pridať"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:123
 msgid "Add the existing alpha mask and the mask generated by this filter"
-msgstr ""
+msgstr "Sčíta existujúcu alfa masku a masku vygenerovanú týmto filtrom"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:124
 msgid "Subtract"
@@ -304,7 +328,7 @@ msgstr "Rozdiel"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:125
 msgid "Subtract from the existing alpha mask the mask generated by this filter"
-msgstr ""
+msgstr "Odčíta od existujúcej alfa masky masku vygenerovanú týmto filtrom"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask.rst:129
 msgid "Notes"
@@ -316,6 +340,9 @@ msgid ""
 "alpha_shapes>` effect for more details and examples for the various shapes "
 "and operations."
 msgstr ""
+":doc:`Tvarová alfa</effects_and_filters/video_effects/alpha_mask_keying/"
+"alpha_shapes>` – efekt s ďalšími podrobnosťami a príkladmi pre rôzne tvary a "
+"operácie."
 
 #, fuzzy
 #~ msgid "draw-ellipse"
