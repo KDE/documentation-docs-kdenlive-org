@@ -25,7 +25,7 @@ Add Clip or Folder
 
 Clips in the context of the Project Bin are all external assets that are imported into Kdenlive. That includes **videos**, **audio files**, **images**, and :file:`.json` **animations**, as well as Krita image archives.
 
-For other asset types see :doc:`title clips </project_and_asset_management/project_bin/title_clip>` and :doc:`template titles </project_and_asset_management/project_bin/template_title>`, :doc:`color clips </project_and_asset_management/project_bin/color_clip>`, :doc:`animation </project_and_asset_management/project_bin/animation>`, and :doc:`image sequence </project_and_asset_management/project_bin/image_sequence>`.
+For other asset types see :doc:`title clips </project_and_asset_management/project_bin/title_clip>` and :doc:`template titles </project_and_asset_management/project_bin/template_title>`, :doc:`color clips </project_and_asset_management/project_bin/color_clip>`, :doc:`animation /project_and_asset_management/project_bin/animation>`, and :doc:`image sequence </project_and_asset_management/project_bin/image_sequence>`.
 
 In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or Folder` button, or double click an empty space in the project bin. This brings up the **Add Clip** Dialog where you can choose video, audio, animation, or still image files (individually or as an :doc:`image sequence </project_and_asset_management/project_bin/image_sequence>`) to add to your project.
 
