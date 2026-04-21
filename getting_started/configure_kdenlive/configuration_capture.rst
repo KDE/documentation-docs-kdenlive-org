@@ -23,6 +23,7 @@ Capture
 -------
 
 This section configures the capturing of audio and video. Kdenlive allows to capture video using :doc:`ScreenGrab </project_and_asset_management/capturing_video>` and a |blackmagic| |decklink| card, and :doc:`audio </project_and_asset_management/capturing_audio>` with the devices available on your system.
+This section configures the capturing of audio and video. Kdenlive allows to capture video using :doc:`ScreenGrab </project_and_asset_management/capturing_video>` and a |blackmagic| |decklink| card, and :doc:`audio </project_and_asset_management/capturing_audio>` with the devices available on your system.
 
 
 .. _configure_capture_screengrab:
