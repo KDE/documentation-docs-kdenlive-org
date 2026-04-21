@@ -22,7 +22,7 @@
 Capture
 -------
 
-This section configures the capturing of audio and video. Kdenlive allows to capture video using :doc:`ScreenGrab </project_and_asset_management/capturing_video>` and a |blackmagic| |decklink| card, and :doc:`audio </project_and_asset_management/capturing_audio>` with the devices available on your system.
+This section configures the capturing of audio and video. Kdenlive allows to capture video using :doc:`ScreenGrab  </project_and_asset_management/capturing_video>` and a |blackmagic| |decklink| card, and :doc:`audio  </project_and_asset_management/capturing_audio>` with the devices available on your system.
 This section configures the capturing of audio and video. Kdenlive allows to capture video using :doc:`ScreenGrab </project_and_asset_management/capturing_video>` and a |blackmagic| |decklink| card, and :doc:`audio </project_and_asset_management/capturing_audio>` with the devices available on your system.
 
 
@@ -85,7 +85,7 @@ Audio
 .. .. versionadded:: 26.04 Add "sample format" and "Use device default setting" for recording trouble shooting
 
 
-These settings are for configuring the audio device that is used during screen recording and for recording of voice overs. See the chapter about :doc:`Capturing Audio </project_and_asset_management/capturing_audio>`.
+These settings are for configuring the audio device that is used during screen recording and for recording of voice overs. See the chapter about :doc:`Capturing Audio  </project_and_asset_management/capturing_audio>`.
 
 .. figure:: /images/getting_started/configure_capture_audio_2604.webp
    :width: 700px
