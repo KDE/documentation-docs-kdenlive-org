@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-04-20 02:06+0000\n"
 "PO-Revision-Date: 2021-11-17 11:29+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -22,7 +22,7 @@ msgstr "Mediány"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:16
 msgid "This filter implements several median type filters."
-msgstr ""
+msgstr "Tento filter implementuje niekoľko filtrov typu medián."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:18
 msgid "INTRODUCTION:"
@@ -37,24 +37,53 @@ msgid ""
 "from the surrounding area, the bigger residual it will leave with a linear "
 "filter - but the more probably it will be eliminated by the median."
 msgstr ""
+"Medián je pomerne populárny nelineárny filter pri spracovaní obrazu. "
+"Najčastejšie sa používa na odstránenie impulzného šumu, ako je šum „soľ a "
+"korenie\", „mŕtve\" a „horúce\" pixely, nečistoty na filme atď. Je to preto, "
+"lebo sa správa istým spôsobom „opačne\" v porovnaní s lineárnymi filtrami "
+"pre odstránenie šumu. Čím viac sa chybný pixel odlišuje od okolitej oblasti, "
+"tým väčší zvyšok zanechá pri lineárnom filtri – ale tým pravdepodobnejšie ho "
+"medián eliminuje."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:22
+#, fuzzy
+#| msgid ""
+#| "The down side is that the median operation is quite slow. As an order-"
+#| "statistic filter, it is similar to sorting, that must be done for each "
+#| "pixel, so using a fast algorithm is very important. For the small "
+#| "medians, the algorithms of the type described in `this page <http://"
+#| "ndevilla.free.fr/median/median/src/optmed.c>`_ are used here, with some "
+#| "small modifications for a further slight improvement in speed. For the "
+#| "\"Variable size\" median, code from  [1]_  is used. The compound filters "
+#| "(ArceBI, ML3D, ML3dEX) are made according to the formulas given in the "
+#| "corresponding work [2]_. For more info on median filtering see `Wikipedia "
+#| "article <https://en.wikipedia.org/wiki/Median_filter>`_."
 msgid ""
 "The down side is that the median operation is quite slow. As an order-"
 "statistic filter, it is similar to sorting, that must be done for each "
 "pixel, so using a fast algorithm is very important. For the small medians, "
 "the algorithms of the type described in `this page <http://ndevilla.free.fr/"
-"median/median/src/optmed.c>`_ are used here, with some small modifications "
+"median/median/src/optmed.c>`__ are used here, with some small modifications "
 "for a further slight improvement in speed. For the \"Variable size\" median, "
 "code from  [1]_  is used. The compound filters (ArceBI, ML3D, ML3dEX) are "
 "made according to the formulas given in the corresponding work [2]_. For "
 "more info on median filtering see `Wikipedia article <https://en.wikipedia."
-"org/wiki/Median_filter>`_."
+"org/wiki/Median_filter>`__."
 msgstr ""
+"Nevýhodou je, že operácia mediánu je pomerne pomalá. Ako filter poriadkovej "
+"štatistiky je podobný triedeniu, ktoré sa musí vykonať pre každý pixel, "
+"takže použitie rýchleho algoritmu je veľmi dôležité. Pre malé mediány sa tu "
+"používajú algoritmy typu opísaného na `tejto stránke <http://ndevilla.free."
+"fr/median/median/src/optmed.c>`_, s malými úpravami pre ďalšie mierne "
+"zlepšenie rýchlosti. Pre medián „Premenlivá veľkosť\" sa používa kód z  "
+"[1]_ . Zložené filtre (ArceBI, ML3D, ML3dEX) sú vytvorené podľa vzorcov "
+"uvedených v príslušnej práci [2]_. Viac informácií o filtrovaní mediánom "
+"nájdete v `článku na Wikipédii <https://en.wikipedia.org/wiki/"
+"Median_filter>`_."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:24
 msgid "IMPLEMENTED ALGORITHMS:"
-msgstr ""
+msgstr "IMPLEMENTOVANÉ ALGORITMY:"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:27
 msgid "**Cross5**"
@@ -62,19 +91,19 @@ msgstr "Kríž"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:27
 msgid "Median of the pixel with its top, bottom, left and right neighbor."
-msgstr ""
+msgstr "Medián pixelu s jeho horným, dolným, ľavým a pravým susedom."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:30
 msgid "**Square3x3**"
-msgstr ""
+msgstr "**Square3x3**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:30
 msgid "Median of the pixel with the surrounding 8 pixels. (3x3 box)"
-msgstr ""
+msgstr "Medián pixelu s okolitými 8 pixelmi. (blok 3x3)"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:33
 msgid "**Bilevel**"
-msgstr ""
+msgstr "**Bilevel**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:33
 msgid ""
@@ -83,24 +112,30 @@ msgid ""
 "previously calculated medians. Slightly better preserves detail than the "
 "simple medians above."
 msgstr ""
+"Najprv sa vypočíta medián cross5, potom medián pixelu s jeho štyrmi "
+"uhlopriečnymi susedmi a nakoniec sa vezme medián pixelu a dvoch predtým "
+"vypočítaných mediánov. Mierne lepšie zachováva detaily ako jednoduché "
+"mediány uvedené vyššie."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:36
 msgid "**Diamond3x3**"
-msgstr ""
+msgstr "**Diamond3x3**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:36
 msgid ""
 "Takes median of the pixel with 12 neighboring pixels arranged in a diamond "
 "pattern."
 msgstr ""
+"Vypočíta medián pixelu s 12 susednými pixelmi usporiadanými do vzoru "
+"diamantu."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:39
 msgid "**Square5x5**"
-msgstr ""
+msgstr "**Square5x5**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:39
 msgid "Median of the pixel with the 5x5 surrounding box."
-msgstr ""
+msgstr "Medián pixelu s okolitým blokom 5x5."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:42
 msgid "**Temp3**"
@@ -111,6 +146,9 @@ msgid ""
 "Temporal only median of three frames. Can be used to reduce single frame "
 "time-impulsive noise like photoflash. Delays the video by 1 frame."
 msgstr ""
+"Iba časový medián troch snímok. Možno použiť na zníženie jednosnímkového "
+"časovo-impulzného šumu, ako je záblesk fotoaparátu. Oneskorí video o 1 "
+"snímok."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:45
 msgid "**Temp5**"
@@ -122,40 +160,49 @@ msgid ""
 "impulsive noise, but the artifacts on fast moving objects are stronger than "
 "with temp3. Delays the video by 2 frames."
 msgstr ""
+"Iba časový medián piatich snímok. Možno použiť na zníženie dvojsnímkového "
+"časovo-impulzného šumu, ale artefakty na rýchlo sa pohybujúcich objektoch sú "
+"silnejšie ako pri temp3. Oneskorí video o 2 snímky."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:48
 msgid "**ArceBI**"
-msgstr ""
+msgstr "**ArceBI**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:48
 msgid ""
 "Spatio-temporal multilevel median, as described by Arce. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
 msgstr ""
+"Priestorovo-časový viacúrovňový medián, ako ho opísal Arce. Pozri príslušnú "
+"prácu [2]_. Oneskorí video o 1 snímok."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:51
 msgid "**ML3D**"
-msgstr ""
+msgstr "**ML3D**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:51
 msgid ""
 "Spatio-temporal multilevel median, as described by Alp. See the "
 "corresponding work [2]_. Delays the video by 1 frame."
 msgstr ""
+"Priestorovo-časový viacúrovňový medián, ako ho opísal Alp. Pozri príslušnú "
+"prácu [2]_. Oneskorí video o 1 snímok."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:54
 msgid "**ML3dEX**"
-msgstr ""
+msgstr "**ML3dEX**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:54
 msgid ""
 "Spatio-temporal multilevel median. Further development of ML3D by Kokaram, "
 "see the corresponding work [2]_. Delays the video by 1 frame."
 msgstr ""
+"Priestorovo-časový viacúrovňový medián. Ďalší vývoj ML3D od Kokarama, pozri "
+"príslušnú prácu [2]_. Oneskorí video o 1 snímok."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:57
 msgid "**VarSize**"
-msgstr ""
+msgstr "**VarSize**"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:57
 msgid ""
@@ -163,6 +210,10 @@ msgid ""
 "pixel. The effect could be described as \"quasi edge preserving, corner "
 "rounding, small stuff eliminator\". Or maybe just an \"artsy blur\"."
 msgstr ""
+"Jednoduchý iba priestorový medián v štvorci s používateľom zvolenou "
+"veľkosťou okolo každého pixelu. Efekt by sa dal opísať ako „kvázi "
+"zachovávajúci hrany, zaobľovač rohov, eliminátor malých vecí\". Alebo možno "
+"len „umelecké rozmazanie\"."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:59
 msgid "PARAMETERS:"
@@ -174,31 +225,49 @@ msgstr "Typ"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:62
 msgid "Selects one of the eleven algorithms."
-msgstr ""
+msgstr "Vyberá jeden z jedenástich algoritmov."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:65
 msgid ""
 "Only active when \"VarSize\" type is selected. Determines the size of the "
 "square area over which the median is taken."
 msgstr ""
+"Aktívne iba keď je vybraný typ „VarSize\". Určuje veľkosť štvorcovej "
+"oblasti, nad ktorou sa vypočíta medián."
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:66
 msgid "**Size**"
 msgstr "Veľkosť"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:68
+#, fuzzy
+#| msgid ""
+#| "Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF "
+#| "version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80."
+#| "org/ctmf.html>`_"
 msgid ""
 "Simon Perreault, Patrick Hebert: Median filtering in constant time, `PDF "
-"version <https://nomis80.org/ctmf.pdf>`_, `HTML version <https://nomis80.org/"
-"ctmf.html>`_"
+"version <https://nomis80.org/ctmf.pdf>`__, `HTML version <https://nomis80."
+"org/ctmf.html>`__"
 msgstr ""
+"Simon Perreault, Patrick Hebert: Median filtering in constant time, `verzia "
+"PDF <https://nomis80.org/ctmf.pdf>`_, `verzia HTML <https://nomis80.org/ctmf."
+"html>`_"
 
 #: ../../effects_and_filters/video_effects/deprecated/medians.rst:70
+#, fuzzy
+#| msgid ""
+#| "`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis "
+#| "<https://citeseerx.ist.psu.edu/viewdoc/download?"
+#| "doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
 msgid ""
 "`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://"
 "citeseerx.ist.psu.edu/viewdoc/download?"
-"doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
+"doi=10.1.1.36.9618&rep=rep1&type=pdf>`__"
 msgstr ""
+"`Anil Christopher Kokaram: Motion Picture Restoration, Ph.D. thesis <https://"
+"citeseerx.ist.psu.edu/viewdoc/download?"
+"doi=10.1.1.36.9618&rep=rep1&type=pdf>`_"
 
 #~ msgid "Contents"
 #~ msgstr "Obsah"

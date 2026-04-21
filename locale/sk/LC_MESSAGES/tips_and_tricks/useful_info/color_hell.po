@@ -24,6 +24,8 @@ msgstr "document-edit"
 msgid ""
 "Kdenlive Tips & Tricks - Color Hell: ffmpeg Transcoding and Preserving BT.601"
 msgstr ""
+"Kdenlive – tipy a triky: farebné peklo – transkódovanie pomocou ffmpeg a "
+"zachovanie BT.601"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:-1
 msgid ""
@@ -37,7 +39,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:38
 msgid "Color Hell: Ffmpeg Transcoding and Preserving BT.601"
-msgstr ""
+msgstr "Farebné peklo: transkódovanie pomocou Ffmpeg a zachovanie BT.601"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:40
 msgid ""
@@ -46,10 +48,14 @@ msgid ""
 "mobile devices, such as tablets or mobile phones, only to find out that "
 "something is wrong with the colors."
 msgstr ""
+"Občas sa môžete celkom nečakane ocitnúť v záludnom území digitálneho videa. "
+"Napríklad chcete len zostrihnúť záznamy obrazovky z mobilných zariadení, ako "
+"sú tablety alebo mobilné telefóny, len aby ste zistili, že s farbami niečo "
+"nie je v poriadku."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:44
 msgid "Run-of-the-Mill Footage"
-msgstr ""
+msgstr "Bežný záber"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:46
 msgid ""
@@ -58,10 +64,15 @@ msgid ""
 "a screen recording app (such as «AZ Screen Recording», but not the “Pro” "
 "fake). And this footage has two slightly unusual properties:"
 msgstr ""
+"Dráma začína záberom zo záznamu obrazovky, ktorý sa na prvý pohľad zdá "
+"celkom nevinný a normálny. Mohol byť zaznamenaný na zariadeniach s Androidom "
+"7 pomocou aplikácie na záznam obrazovky (napríklad «AZ Screen Recording», "
+"ale nie falošnej verzie „Pro\"). A tento záber má dve mierne nezvyčajné "
+"vlastnosti:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:48
 msgid "a *highly variable frame rate*,"
-msgstr ""
+msgstr "veľmi premenlivá *snímková frekvencia*,"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:49
 msgid ""
@@ -71,10 +82,15 @@ msgid ""
 "at BT.601 but the transfer coefficients are slightly different)`\\ [#f2]_ "
 "like so much HD footage these days."
 msgstr ""
+"používa :abbr:`BT.601 (Štandard z roku 1982 definujúci, ako sa primárne "
+"farby RGB prevádzajú na kanály YCbCr používané modernými kodekmi)`\\ [#f1]_, "
+"namiesto :abbr:`BT.709 (Štandard z roku 1990, ktorý robí to isté ako BT.601, "
+"ale prenosové koeficienty sú mierne odlišné)`\\ [#f2]_, ako väčšina HD "
+"záberov v dnešnej dobe."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:51
 msgid "Should cause no problems, right? Well…"
-msgstr ""
+msgstr "To by nemalo spôsobovať problémy, však? No…"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:53
 msgid ""
@@ -88,22 +104,37 @@ msgid ""
 "interaction will appear. This is probably caused by a very low fps during "
 "the inactivity period just before the user interaction."
 msgstr ""
+"Ako sa ukazuje, mediálny engine Kdenlive |mlt| môže vykazovať problémy s "
+"videozábermi s vysoko premenlivou snímkovou frekvenciou, napríklad medzi "
+"0,001 a viac ako 100 :abbr:`fps (snímok za sekundu)`. Príznaky sú nenápadné, "
+"no ohrozujú kvalitu produkcie: zdá sa, že MLT môže vybrať budúcu snímku, "
+"ktorá je vo veľmi odľahlej oblasti s nízkou snímkovou frekvenciou. Hoci to "
+"nie je problém pri dostatočne vysokej snímkovej frekvencii, inde to "
+"spôsobuje zvláštne výsledky. Napríklad dotykové interakcie používateľa sa "
+"zobrazujú dokonca o niekoľko sekúnd skôr, ako k nim v skutočnosti dôjde. Je "
+"to pravdepodobne spôsobené veľmi nízkou snímkovou frekvenciou počas obdobia "
+"nečinnosti tesne pred interakciou používateľa."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:55
 msgid ""
 "Transcoding to a fixed frame rate surely is one of |ffmpeg|'s easy tasks "
 "(this example assumes a constant project frame rate of 25 fps):"
 msgstr ""
+"Transkódovanie na pevnú snímkovú frekvenciu je iste jednou z jednoduchých "
+"úloh nástroja |ffmpeg| (tento príklad predpokladá konštantnú snímkovú "
+"frekvenciu projektu 25 fps):"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:61
 msgid ""
 "The constant frame rate cures the issues mentioned above, so the results are "
 "as to be expected. Except…"
 msgstr ""
+"Konštantná snímková frekvencia odstraňuje vyššie uvedené problémy, takže "
+"výsledky sú také, aké sa očakávajú. Až na…"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:65
 msgid "Easy Transcoding: Color Me Bad"
-msgstr ""
+msgstr "Jednoduché transkódovanie: farby sú pokazené"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:71
 msgid ""
@@ -113,6 +144,11 @@ msgid ""
 "you are going to mix this footage side-by-side with further processed "
 "versions of it, such as extracted frames for stills."
 msgstr ""
+"Bohužiaľ, výsledné video teraz zobrazuje posunuté farby! Spočiatku to nemusí "
+"byť príliš zrejmé, ale keď so zábermi pracujete viac, môže to byť celkom "
+"nápadné. A pre vaše publikum sa to stane zreteľne viditeľným, ak budete "
+"tento záber miešať vedľa seba s ďalej spracovanými verziami, napríklad s "
+"extrahovanými snímkami pre statické obrázky."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:73
 msgid ""
@@ -121,20 +157,27 @@ msgid ""
 "profile indication**. Yet, |ffmpeg| did *not transform the colors* at all "
 "during transcoding, and simply dropped the correct color profile information!"
 msgstr ""
+"Bližšia kontrola pomocou vstavaného panela vlastností klipu Kdenlive alebo "
+"nástroja |ffprobe| odhalí, že *transkódovanému súboru* **chýba označenie "
+"farebného profilu BT.601**. Pritom však |ffmpeg| počas transkódovania farby "
+"vôbec *nepretransformoval* a jednoducho zahodil správne informácie o "
+"farebnom profile!"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:78
 msgid "Makeshift Measures"
-msgstr ""
+msgstr "Provizórne opatrenia"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:84
 msgid "Clip Properties color space override"
-msgstr ""
+msgstr "Prepísanie farebného priestoru vo vlastnostiach klipu"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:86
 msgid ""
 "Of course, there is always Kdenlive's ability to overwrite source clip "
 "properties using the built-in clip properties :term:`widget`."
 msgstr ""
+"Samozrejme, Kdenlive vždy poskytuje možnosť prepísať vlastnosti zdrojového "
+"klipu pomocou vstavaného :term:`widget`-u vlastností klipu."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:88
 msgid ""
@@ -143,6 +186,10 @@ msgid ""
 "guilabel:`Colorspace` and then select **ITU-R 601**. Kdenlive now applies "
 "the correct color profile."
 msgstr ""
+"Jednoducho vyberte transkódovaný videoklipu v zásobníku projektu. Potom "
+"prejdite na vlastnosti klipu a vyberte jeho kartu „Vynútiť vlastnosti\" |"
+"document-edit|. Zaškrtnite :guilabel:`Farebný priestor` a potom vyberte "
+"**ITU-R 601**. Kdenlive teraz použije správny farebný profil."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:92
 msgid ""
@@ -153,27 +200,40 @@ msgid ""
 "source clip property overrides. We thus need to get the correct color "
 "profile information right into the transcoded video files themselves."
 msgstr ""
+"Hoci je táto metóda veľmi jednoduchá, má svoje obmedzenia: funguje dobre, "
+"pokiaľ pracujete výhradne v editore Kdenlive a jeho rendereri MLT. Ale "
+"akonáhle potrebujete použiť externé video nástroje, napríklad |ffmpeg| na "
+"extrakciu obrázkov, prídete na to, že tieto nástroje nevedia o prepísaní "
+"vlastností zdrojového klipu v Kdenlive. Preto musíme dostať správne "
+"informácie o farebnom profile priamo do samotných transkódovaných video "
+"súborov."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:95
 msgid "Preserving BT.601 in Transcoding"
-msgstr ""
+msgstr "Zachovanie BT.601 pri transkódovaní"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:97
 msgid ""
 "To make this matter worse, the seemingly obvious color profile transformation"
 msgstr ""
+"Aby bola vec ešte horšia, zdanlivo zrejmá transformácia farebného profilu"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:103
 msgid ""
 "simply does not work: |ffmpeg| complains about not being able to transform "
 "between the same input and output color profile."
 msgstr ""
+"jednoducho nefunguje: |ffmpeg| sa sťažuje, že nedokáže transformovať medzi "
+"rovnakým vstupným a výstupným farebným profilom."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:105
 msgid ""
 "The missing puzzle piece can be found on Stack Exchange's Video Production "
 "Q&A site in a post from 2015 asking \"|explicitly_tag|\"."
 msgstr ""
+"Chýbajúci diel skladačky možno nájsť na stránke Stack Exchange pre otázky a "
+"odpovede o video produkcii v príspevku z roku 2015 s otázkou „|"
+"explicitly_tag|\"."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:107
 msgid ""
@@ -188,10 +248,20 @@ msgid ""
 "definition (SD) resolution at all, but it does matter when it comes to "
 "encoding color."
 msgstr ""
+"Je tu jedna vec, na ktorú si treba dávať pozor: BT.601 prichádza v príchuti :"
+"abbr:`PAL (Phase Alternating Line – systém kódovania farieb pre analógové "
+"televízie)` a :abbr:`NTSC (National Television Standard Committee – "
+"definoval televízny systém používaný v Spojených štátoch, Japonsku a mnohých "
+"ďalších krajinách)`, pričom každá má mierne odlišné primárne chromaticity, "
+"prenosové krivky a farebné priestory. Najskôr teda skontrolujte pomocou |"
+"ffprobe| (alebo |mediainfo|), ktorá bola použitá pri nahrávaní vo vašom "
+"prípade. Upozorňujeme, že nezáleží na tom, že váš záznam obrazovky nemá "
+"rozlíšenie štandardného rozlíšenia (SD), ale záleží na tom pri kódovaní "
+"farieb."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:110
 msgid "PAL and NTSC DNA"
-msgstr ""
+msgstr "DNA noriem PAL a NTSC"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:112
 msgid ""
@@ -202,16 +272,24 @@ msgid ""
 "command-line utility for searching plain-text data sets for lines that match "
 "a regular expression)`:"
 msgstr ""
+"Ako teda zistíme, či daný súbor videozáznamu, povedzme ``raw.mp4``, používa "
+"farebný priestor PAL alebo NTSC? Samozrejme, na pomoc prichádza |ffprobe|. "
+"Aby sme sa však nestratili vo všetkých detailoch, ktoré nám |ffprobe| "
+"predloží, musíme ho skrotiť pomocou niekoľkých volieb a :abbr:`grep (Unixový "
+"nástroj príkazového riadka na prehľadávanie textových dát pre riadky "
+"zodpovedajúce regulárnemu výrazu)`:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:118
 msgid "This should give you something along these lines:"
-msgstr ""
+msgstr "Toto by vám malo poskytnúť niečo v tomto zmysle:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:127
 msgid ""
 "The line ``color_space=...`` tells us whether we are dealing with PAL "
 "(bt470bg) or NTSC (smpte170m)."
 msgstr ""
+"Riadok ``color_space=...`` nám povie, či máme do činenia s normou PAL "
+"(bt470bg) alebo NTSC (smpte170m)."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:130
 msgid "PAL"
@@ -222,6 +300,8 @@ msgid ""
 "If it is **PAL chromaticities** (``color_space=bt470bg``), we then need to "
 "transcode as follows:"
 msgstr ""
+"Ak ide o **chromaticity PAL** (``color_space=bt470bg``), musíme transkódovať "
+"nasledovne:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:141
 msgid "NTSC"
@@ -232,6 +312,8 @@ msgid ""
 "For **NTSC chromaticities** (``color_space=smpte170m``), we will need a "
 "different set of primaries, transfer curve, and colorspace:"
 msgstr ""
+"Pre **chromaticity NTSC** (``color_space=smpte170m``) budeme potrebovať iný "
+"súbor primárnych farieb, prenosovú krivku a farebný priestor:"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:155
 msgid ""
@@ -240,6 +322,10 @@ msgid ""
 "color profile too - unless they are broken in that they do not understand "
 "BT.601 at all."
 msgstr ""
+"V každom prípade Kdenlive/MLT teraz správne rozpozná transkódované video "
+"pomocou farebného profilu BT.601. Okrem toho ďalšie mediálne nástroje tiež "
+"správne detegujú farebný profil – pokiaľ nie sú chybné v tom, že BT.601 "
+"vôbec nerozumejú."
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:160
 msgid "Notes"
@@ -261,8 +347,8 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:178
 msgid "For more details see the Wikipedia article about |bt601|"
-msgstr ""
+msgstr "Viac podrobností nájdete v článku Wikipédie o |bt601|"
 
 #: ../../tips_and_tricks/useful_info/color_hell.rst:179
 msgid "For more details see the Wikipedia article about |bt709|"
-msgstr ""
+msgstr "Viac podrobností nájdete v článku Wikipédie o |bt709|"

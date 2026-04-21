@@ -34,7 +34,7 @@ msgstr "kdenlive-add-clip"
 
 #: ../../troubleshooting/faq.rst:-1
 msgid "Troubleshooting Kdenlive - Frequently Asked Questions"
-msgstr ""
+msgstr "Riešenie problémov s Kdenlive – Často kladené otázky"
 
 #: ../../troubleshooting/faq.rst:-1
 msgid ""
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../troubleshooting/faq.rst:63
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Často kladené otázky"
 
 #: ../../troubleshooting/faq.rst:68
 msgid "User Interface"
@@ -54,7 +54,7 @@ msgstr "Užívateľské rozhranie"
 
 #: ../../troubleshooting/faq.rst:71
 msgid "Kdenlive is too large on my screen. I cannot make it smaller."
-msgstr ""
+msgstr "Kdenlive je na mojej obrazovke príliš veľký. Nedá sa zmenšiť."
 
 #: ../../troubleshooting/faq.rst:73
 msgid ""
@@ -65,12 +65,19 @@ msgid ""
 "and consider using layouts. See the :ref:`ui-workspace_layouts` chapter for "
 "more details."
 msgstr ""
+"Zvyčajne sa to stáva, keď je otvorených príliš mnoho :term:"
+"`widgetov<widget>`. Každý popis widgetu zaberá minimálnu šírku. Niektoré "
+"zatvorte cez :menuselection:`Menu --> View` alebo tlačidlom zatvoriť v "
+"záhlaví widgetu (je potrebné ho povoliť cez :menuselection:`Menu --> View --"
+"> Show Title Bars`) a zvážte používanie rozložení. Ďalšie podrobnosti "
+"nájdete v kapitole :ref:`ui-workspace_layouts`."
 
 #: ../../troubleshooting/faq.rst:77
 msgid ""
 "My monitor plays distorted images, or generally something it really should "
 "not."
 msgstr ""
+"Môj monitor prehráva skreslené obrázky alebo všeobecne niečo, čo by nemalo."
 
 #: ../../troubleshooting/faq.rst:79
 msgid ""
@@ -79,16 +86,22 @@ msgid ""
 "configuration_playback>` settings. Try to disable OpenGL if it is enabled, "
 "or use a different driver. Kdenlive may need to be restarted."
 msgstr ""
+"Skontrolujte svoje nastavenia :menuselection:`Menu --> Settings --> "
+"Configure Kdenlive -->` :doc:`Playback</getting_started/configure_kdenlive/"
+"configuration_playback>`. Skúste zakázať OpenGL, ak je povolené, alebo "
+"použite iný ovládač. Kdenlive môže byť potrebné reštartovať."
 
 #: ../../troubleshooting/faq.rst:86
 msgid "Asset Management"
-msgstr ""
+msgstr "Správa prostriedkov"
 
 #: ../../troubleshooting/faq.rst:89
 msgid ""
 "When I import a video clip into my 1920x1080 project a warning pops up "
 "asking me to create and switch to new profile. Why?"
 msgstr ""
+"Keď importujem video klip do môjho projektu s rozlíšením 1920x1080, zobrazí "
+"sa upozornenie s výzvou na vytvorenie a prepnutie na nový profil. Prečo?"
 
 #: ../../troubleshooting/faq.rst:91
 msgid ""
@@ -101,6 +114,14 @@ msgid ""
 "configure_kdenlive/configuration_misc>` by unchecking :guilabel:`Check if "
 "first added clip matches project profile`."
 msgstr ""
+"Toto je štandardné správanie Kdenlive pri pridávaní **prvého klipu** do "
+"nového projektu, ak sa vlastnosti klipu líšia od nastavení projektu. "
+"Napríklad nastavenia projektu sú 1920x1080 @ 30\\ :abbr:`fps (frames per "
+"second)` a klip má rozlíšenie 450x360 @ 24.86\\ :abbr:`fps (frames per "
+"second)`. Kontrolu môžete vypnúť v :menuselection:`Menu --> Settings --> "
+"Configure Kdenlive -->` :doc:`Misc</getting_started/configure_kdenlive/"
+"configuration_misc>` odznačením :guilabel:`Check if first added clip matches "
+"project profile`."
 
 #: ../../troubleshooting/faq.rst:95
 msgid ""
@@ -108,40 +129,46 @@ msgid ""
 "into Kdenlive but now I only get an unusable audio track from it. How do I "
 "fix this?"
 msgstr ""
+"Mám súbor .mov vytvorený z obrázkov .png, podarilo sa mi ho importovať do "
+"Kdenlive, ale teraz z neho získam iba nepoužiteľnú zvukovú stopu. Ako to "
+"opravím?"
 
 #: ../../troubleshooting/faq.rst:97
 msgid ""
 "This bug has been reported for version 23.04.3 and higher. Until a fix is "
 "available there is this as a temporary solution:"
 msgstr ""
+"Táto chyba bola hlásená pre verziu 23.04.3 a vyššie. Kým nebude k dispozícii "
+"oprava, existuje toto dočasné riešenie:"
 
 #: ../../troubleshooting/faq.rst:99
 msgid "Open the :file:`.kdenlive` project file in a text editor"
-msgstr ""
+msgstr "Otvorte súbor projektu :file:`.kdenlive` v textovom editore"
 
 #: ../../troubleshooting/faq.rst:100
 msgid "Look for this line: ``<property name=“set.test_image”>1</property>``"
 msgstr ""
+"Nájdite tento riadok: ``<property name=\"set.test_image\">1</property>``"
 
 #: ../../troubleshooting/faq.rst:101
 msgid "Remove the line or change the ``1`` to ``0``"
-msgstr ""
+msgstr "Odstráňte riadok alebo zmeňte ``1`` na ``0``"
 
 #: ../../troubleshooting/faq.rst:102
 msgid "Look for this line: ``<property name=“video_index”>-1</property>``"
-msgstr ""
+msgstr "Nájdite tento riadok: ``<property name=\"video_index\">-1</property>``"
 
 #: ../../troubleshooting/faq.rst:103
 msgid "Change the ``-1`` to ``0``"
-msgstr ""
+msgstr "Zmeňte ``-1`` na ``0``"
 
 #: ../../troubleshooting/faq.rst:104
 msgid "Repeat steps 2 thru 5 for each file that is imported"
-msgstr ""
+msgstr "Opakujte kroky 2 až 5 pre každý importovaný súbor"
 
 #: ../../troubleshooting/faq.rst:105
 msgid "Save the file"
-msgstr ""
+msgstr "Uložte súbor"
 
 #: ../../troubleshooting/faq.rst:111
 msgid "Editing"
@@ -149,7 +176,7 @@ msgstr "Editovanie"
 
 #: ../../troubleshooting/faq.rst:114
 msgid "Everyone is talking about Edit Mode. How can I switch it on?"
-msgstr ""
+msgstr "Všetci hovoria o režime úprav. Ako ho zapnem?"
 
 #: ../../troubleshooting/faq.rst:116
 msgid ""
@@ -163,10 +190,18 @@ msgid ""
 "monitor :ref:`toolbar <ui-monitors_controls_and_elements>` to switch it back "
 "on."
 msgstr ""
+":term:`Edit Mode` je funkcia :ref:`Monitora projektu <ui-"
+"monitors_project_monitor>` a umožňuje vám priamo v monitore projektu myšou "
+"ovládať parametre veľkosti a polohy určitých efektov. Napríklad: keď "
+"vyberiete efekt :doc:`/effects_and_filters/video_effects/"
+"transform_distort_perspective/transform`, v monitore sa zobrazí červený "
+"obdĺžnik. Ak červený obdĺžnik nevidíte, režim úprav je vypnutý. Kliknite na "
+"ikonu |edit-mode| na :ref:`paneli nástrojov <ui-"
+"monitors_controls_and_elements>` monitora projektu a znova ho zapnite."
 
 #: ../../troubleshooting/faq.rst:120
 msgid "I have many tracks. Can I collapse them?"
-msgstr ""
+msgstr "Mám veľa stôp. Môžem ich zbaliť?"
 
 #: ../../troubleshooting/faq.rst:122
 msgid ""
@@ -175,6 +210,9 @@ msgid ""
 "hold :kbd:`Shift` while doing this you collapse or expand all tracks of the "
 "same type at the same time."
 msgstr ""
+"Každú stopu môžete zbaliť a rozbaliť jednotlivo kliknutím na ikonu |go-down| "
+"alebo |go-next| v :ref:`záhlaví stopy <track_header>`. Ak pritom podržíte :"
+"kbd:`Shift`, zbalíte alebo rozbalíte všetky stopy rovnakého typu naraz."
 
 #: ../../troubleshooting/faq.rst:124
 msgid ""
@@ -183,10 +221,14 @@ msgid ""
 "right-click on the track header and select :guilabel:`Fit all Tracks to "
 "View`."
 msgstr ""
+"Prípadne môžete použiť možnosť :ref:`fit_tracks_to_view_height` na úpravu "
+"výšky stôp tak, aby sa zmestili do zobrazovacieho okna časovej osi. Kliknite "
+"pravým tlačidlom myši na záhlavie stopy a vyberte :guilabel:`Fit all Tracks "
+"to View`."
 
 #: ../../troubleshooting/faq.rst:128
 msgid "I want to trim videos without re-encoding them. How can I do this?"
-msgstr ""
+msgstr "Chcem strihať videá bez opätovného kódovania. Ako to môžem urobiť?"
 
 #: ../../troubleshooting/faq.rst:130
 msgid ""
@@ -196,10 +238,15 @@ msgid ""
 "Kdenlive renders frames into a new file. Check the ffmpeg wiki for using |"
 "ffmpeg_split|."
 msgstr ""
+"Žiaľ, toto s Kdenlive urobiť nemôžete. Skúste namiesto toho |avidemux| alebo "
+"|ffmpeg|. Dôvod je ten, že pri delení je potrebné so súbormi zaobchádzať "
+"úplne inak: samotný súbor je potrebné editovať, zatiaľ čo Kdenlive renderuje "
+"snímky do nového súboru. Pozrite si wiki ffmpeg ohľadom použitia |"
+"ffmpeg_split|."
 
 #: ../../troubleshooting/faq.rst:134
 msgid "Where can I get more effects?"
-msgstr ""
+msgstr "Kde môžem získať ďalšie efekty?"
 
 #: ../../troubleshooting/faq.rst:136
 msgid ""
@@ -207,6 +254,9 @@ msgid ""
 "them work with Kdenlive or are even useful for a video editor. There is no "
 "plugin capability for other third-party effects."
 msgstr ""
+"Efekty sú poskytované frameworkom MLT vo forme filtrov. Nie všetky fungujú s "
+"Kdenlive alebo sú užitočné pre video editor. Neexistuje možnosť pluginov pre "
+"iné efekty tretích strán."
 
 #: ../../troubleshooting/faq.rst:138
 msgid ""
@@ -217,12 +267,20 @@ msgid ""
 "integrated in Kdenlive so you can install effects directly from the :ref:"
 "`Effects tab <effects-effects_tab>`."
 msgstr ""
+"Komunita Kdenlive je skvelé miesto na vzájomné učenie sa, výmenu nápadov a "
+"zdieľanie. Šablóny efektov Kdenlive nájdete v |kde_store|. Sú to v podstate "
+"efekty/filtre alebo kombinácia efektov a filtrov na dosiahnutie určitého "
+"vzhľadu alebo, ehm, efektu. KDE Store je integrovaný v Kdenlive, takže "
+"efekty môžete inštalovať priamo zo záložky :ref:`Effects tab <effects-"
+"effects_tab>`."
 
 #: ../../troubleshooting/faq.rst:142
 msgid ""
 "I want to apply an effect, for example a watermark, to the whole project. "
 "What is the best way to do this?"
 msgstr ""
+"Chcem na celý projekt použiť efekt, napríklad vodotlač. Aký je na to "
+"najlepší spôsob?"
 
 #: ../../troubleshooting/faq.rst:144
 msgid ""
@@ -231,12 +289,17 @@ msgid ""
 "Media --> Add Media --> Add Clip` or by clicking on |kdenlive-add-clip| in "
 "the project bin. See also this |vimeo_how-to_watermark| on Vimeo."
 msgstr ""
+"Vytvorte nový projekt s rovnakým profilom projektu a importujte projekt, na "
+"ktorý chcete použiť efekt, ako klip cez :menuselection:`Menu --> Media --> "
+"Add Media --> Add Clip` alebo kliknutím na |kdenlive-add-clip| v koši "
+"projektu. Pozrite si tiež |vimeo_how-to_watermark| na Vimeo."
 
 #: ../../troubleshooting/faq.rst:148
 msgid ""
 "There is a black, semi-transparent background on some images. How can I get "
 "rid of that?"
 msgstr ""
+"Na niektorých obrázkoch je čierne, polopriehľadné pozadie. Ako sa ho zbaviť?"
 
 #: ../../troubleshooting/faq.rst:150
 msgid ""
@@ -246,10 +309,15 @@ msgid ""
 "effects_and_filters/video_effects/transform_distort_perspective/transform` "
 "effect. It does the same thing but does not have the compositing issues."
 msgstr ""
+"Ak ste na ich posúvanie alebo zmenu veľkosti použili efekt :doc:`/"
+"effects_and_filters/video_effects/transform_distort_perspective/"
+"position_and_zoom`, jednoducho ho nahraďte efektom :doc:`/"
+"effects_and_filters/video_effects/transform_distort_perspective/transform`. "
+"Robí to isté, ale nemá problémy s kompozitovaním."
 
 #: ../../troubleshooting/faq.rst:154
 msgid "How to return normal sound after I changed the speed of a clip?"
-msgstr ""
+msgstr "Ako obnoviť normálny zvuk po zmene rýchlosti klipu?"
 
 #: ../../troubleshooting/faq.rst:156
 msgid ""
@@ -258,12 +326,17 @@ msgid ""
 "change or reverse the speed change by doing another speed change but in the "
 "opposite direction."
 msgstr ""
+"Zdá sa, že ste zabudli zaškrtnúť možnosť :guilabel:`Pitch compensation` v "
+"dialógovom okne :ref:`change_speed`. Zmenu rýchlosti môžete možno vrátiť "
+"späť alebo ju zvrátiť ďalšou zmenou rýchlosti v opačnom smere."
 
 #: ../../troubleshooting/faq.rst:160
 msgid ""
 "Another option is to use the **rubberband** audio effect to bring it back to "
 "normal."
 msgstr ""
+"Ďalšou možnosťou je použiť zvukový efekt **rubberband** na obnovenie "
+"normálneho stavu."
 
 #: ../../troubleshooting/faq.rst:167
 msgid "Audio"
@@ -271,7 +344,7 @@ msgstr "Audio"
 
 #: ../../troubleshooting/faq.rst:170
 msgid "How do I fix Audio Sync Issues?"
-msgstr ""
+msgstr "Ako opravím problémy so synchronizáciou zvuku?"
 
 #: ../../troubleshooting/faq.rst:172
 msgid ""
@@ -279,6 +352,9 @@ msgid ""
 "project. Audio encoded with :abbr:`VBR (Variable Bit Rate)` (be it pure "
 "audio like MP3 or video with audio) can be problematic."
 msgstr ""
+"Často je to spôsobené tým, že projekt obsahuje zmes rôznych zvukových "
+"zdrojov. Zvuk kódovaný pomocou :abbr:`VBR (Variable Bit Rate)` (či už čistý "
+"zvuk ako MP3 alebo video so zvukom) môže byť problematický."
 
 #: ../../troubleshooting/faq.rst:174
 msgid ""
@@ -287,20 +363,27 @@ msgid ""
 "`extract_audio` feature of Kdenlive to do and it will create a :file:`.wav` "
 "file for you."
 msgstr ""
+"Ak je váš zvukový zdroj z video súboru, skúste extrahovať zvuk z vašich "
+"video zdrojov a transkódovať zvuk do formátu WAV. Môžete na to použiť "
+"funkciu :ref:`extract_audio` v Kdenlive, ktorá pre vás vytvorí súbor :file:`."
+"wav`."
 
 #: ../../troubleshooting/faq.rst:176
 msgid "If you have a pure audio source try transcoding that to WAV with"
-msgstr ""
+msgstr "Ak máte čistý zvukový zdroj, skúste ho transkódovať do WAV pomocou"
 
 #: ../../troubleshooting/faq.rst:183
 msgid ""
 "Please note that on Windows and MacOS you may need to download and install "
 "lame first. You can find the binaries on the official |lame| site."
 msgstr ""
+"Upozorňujeme, že v systémoch Windows a MacOS môže byť potrebné najprv "
+"stiahnuť a nainštalovať lame. Binárne súbory nájdete na oficiálnej stránke |"
+"lame|."
 
 #: ../../troubleshooting/faq.rst:187
 msgid "I have a crackling noise at cuts. How can I fix that?"
-msgstr ""
+msgstr "Na strihoch mám praskavý šum. Ako to opravím?"
 
 #: ../../troubleshooting/faq.rst:189
 msgid ""
@@ -311,21 +394,31 @@ msgid ""
 "sample of the following clip that are spliced. If the delta is above the "
 "discontinuity threshold, then smoothing will be applied."
 msgstr ""
+"Použite filter **Audio Seam**. Najlepšie funguje ako efekt stopy. Dokáže "
+"eliminovať praskanie, ktoré sa môže objavovať na strihoch klipov. Hrajte sa "
+"s hodnotou :guilabel:`Discontinuity Threshold`, kým praskanie nezmizne. "
+"Hodnota určuje rozdiel medzi poslednou vzorkou jedného klipu a prvou vzorkou "
+"nasledujúceho klipu, ktoré sú spojené. Ak je rozdiel nad prahom "
+"diskontinuity, bude aplikované vyhladzovanie."
 
 #: ../../troubleshooting/faq.rst:195
 msgid "Rendering / Exporting"
-msgstr ""
+msgstr "Renderovanie / Export"
 
 #: ../../troubleshooting/faq.rst:198
 msgid ""
 "Kdenlive warns me about missing codecs, I cannot render in some formats ..."
 msgstr ""
+"Kdenlive ma varuje pred chýbajúcimi kodekmi, nemôžem renderovať v niektorých "
+"formátoch ..."
 
 #: ../../troubleshooting/faq.rst:203
 msgid ""
 "You may get an error message like this: ``Unsupported audio codec: "
 "libmp3lame``. There are several possible reasons for this:"
 msgstr ""
+"Môžete dostať chybovú správu podobnú tejto: ``Unsupported audio codec: "
+"libmp3lame``. Existuje niekoľko možných príčin:"
 
 #: ../../troubleshooting/faq.rst:205
 msgid ""
@@ -335,6 +428,11 @@ msgid ""
 "Config Wizard`. Complete the wizard and restart Kdenlive to be sure the "
 "codecs have been detected."
 msgstr ""
+"Nainštalovali ste :term:`kodeky<codec>` po inštalácii **Kdenlive**. Ak "
+"chcete prinútiť Kdenlive skontrolovať dostupné kodeky vo vašom systéme, "
+"spustite konfiguračného sprievodcu: :menuselection:`Menu --> Settings --> "
+"Run Config Wizard`. Dokončite sprievodcu a reštartujte Kdenlive, aby ste sa "
+"uistili, že kodeky boli zistené."
 
 #: ../../troubleshooting/faq.rst:207
 msgid ""
@@ -345,6 +443,11 @@ msgid ""
 "package called ``libavcodec-extra-xx``. After that, check the codecs again "
 "as explained in the first step."
 msgstr ""
+"Kodeky nie sú dostupné vo vašom systéme. Kdenlive používa kodeky z knižnice "
+"**FFmpeg** alebo **Libav**. Z licenčných dôvodov niektoré distribúcie "
+"neposkytujú všetky kodeky predvolene a môže byť potrebné nainštalovať ďalší "
+"balík. Napríklad v Ubuntu/Mint musíte nainštalovať balík ``libavcodec-extra-"
+"xx``. Potom znova skontrolujte kodeky podľa vysvetlenia v prvom kroku."
 
 #: ../../troubleshooting/faq.rst:209
 msgid ""
@@ -354,12 +457,19 @@ msgid ""
 "`Menu --> Settings --> Configure Kdenlive` and check the :guilabel:`Bypass "
 "codec verification` option."
 msgstr ""
+"Poslednou možnosťou je, že vaša verzia **FFmpeg** alebo **Libav** je chybná "
+"a nehlási všetky podporované kodeky. Vydania Kdenlive po verzii 0.9.2 majú "
+"možnosť skúsiť použiť kodeky, aj keď sa javia ako nepodporované: :"
+"menuselection:`Menu --> Settings --> Configure Kdenlive` a zaškrtnite "
+"možnosť :guilabel:`Bypass codec verification`."
 
 #: ../../troubleshooting/faq.rst:213
 msgid ""
 "I want my 4K sources to be processed in 4K but exported in full HD, which "
 "resolution should I pick for the project?"
 msgstr ""
+"Chcem, aby moje 4K zdroje boli spracované v 4K, ale exportované v plnom HD. "
+"Aké rozlíšenie mám zvoliť pre projekt?"
 
 #: ../../troubleshooting/faq.rst:215
 msgid ""
@@ -370,6 +480,11 @@ msgid ""
 "your project in 4K later should you change your mind without having to "
 "change the project settings."
 msgstr ""
+"Ak chcete, aby bol váš export v :abbr:`HD (High Definition)`, vytvorte "
+"projekt v 4K a v dialógovom okne renderovania použite možnosť zmeny mierky "
+"(povoľte :guilabel:`More options`). Ďalšie podrobnosti nájdete v kapitole o :"
+"ref:`video options <rendering-more_options>`. Takto môžete neskôr renderovať "
+"projekt v 4K, ak si to rozmyslíte, bez nutnosti meniť nastavenia projektu."
 
 #: ../../troubleshooting/faq.rst:217
 msgid ""
@@ -377,6 +492,9 @@ msgid ""
 "your source clips, and any transformation (scale, rotation, shear or "
 "corners) is done on the original file."
 msgstr ""
+"Bez ohľadu na nastavenia projektu máte prístup k plnému rozlíšeniu vašich "
+"zdrojových klipov a akákoľvek transformácia (zmena mierky, rotácia, skosenie "
+"alebo rohy) sa vykonáva na pôvodnom súbore."
 
 #: ../../troubleshooting/faq.rst:224
 msgid "Other"
@@ -384,7 +502,7 @@ msgstr "Iné"
 
 #: ../../troubleshooting/faq.rst:227
 msgid "What components does Kdenlive use?"
-msgstr ""
+msgstr "Aké komponenty používa Kdenlive?"
 
 #: ../../troubleshooting/faq.rst:229
 msgid ""
@@ -394,22 +512,29 @@ msgid ""
 "code the edit points and transitions, and it then calls :file:`/usr/bin/"
 "kdenlive_render` and :file:`/usr/bin/melt` to render the video."
 msgstr ""
+"V podstate je Kdenlive front end pre |melt|, ktorý využíva |mlt_framework|. "
+"Multimediálny framework MLT sa opiera o projekt |ffmpeg|. Kdenlive zapisuje "
+"súbory :file:`sh.mlt` :abbr:`XML (Extensible Markup Language)`, ktoré kódujú "
+"editačné body a prechody, a potom volá :file:`/usr/bin/kdenlive_render` a :"
+"file:`/usr/bin/melt` na renderovanie videa."
 
 #: ../../troubleshooting/faq.rst:233
 msgid ""
 "I have a lot of clips in the bin but don't use all of them. Can I clean up "
 "the bin?"
-msgstr ""
+msgstr "Mám v koši veľa klipov, ale nepoužívam všetky. Môžem kôš upratať?"
 
 #: ../../troubleshooting/faq.rst:235
 msgid "Yes you can, and in two different ways:"
-msgstr ""
+msgstr "Áno, môžete, a to dvoma rôznymi spôsobmi:"
 
 #: ../../troubleshooting/faq.rst:237
 msgid ""
 ":menuselection:`Menu --> Media --> Remove Unused Media` deletes unused clips "
 "from the :term:`Project Bin`"
 msgstr ""
+":menuselection:`Menu --> Media --> Remove Unused Media` odstráni nepoužívané "
+"klipy z :term:`Project Bin`"
 
 #: ../../troubleshooting/faq.rst:238
 msgid ""
@@ -417,14 +542,17 @@ msgid ""
 "Delete Files` deletes unused files from the Project Bin **and** the storage "
 "medium (usually one of your disk drives)"
 msgstr ""
+":menuselection:`Menu --> File --> Project Settings --> Project Files --> "
+"Delete Files` odstráni nepoužívané súbory z koša projektu **a** úložného "
+"média (zvyčajne jedného z vašich diskových jednotiek)"
 
 #: ../../troubleshooting/faq.rst:242
 msgid "I want to back out to a previous release."
-msgstr ""
+msgstr "Chcem sa vrátiť na predchádzajúce vydanie."
 
 #: ../../troubleshooting/faq.rst:244
 msgid "Please see the chapter about :ref:`installation`."
-msgstr ""
+msgstr "Pozrite si kapitolu o :ref:`installation`."
 
 #~ msgid "Contents"
 #~ msgstr "Obsah"

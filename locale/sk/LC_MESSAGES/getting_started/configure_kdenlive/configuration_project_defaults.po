@@ -59,15 +59,15 @@ msgstr "1"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:0
 msgid "1a"
-msgstr ""
+msgstr "1a"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:0
 msgid "1b"
-msgstr ""
+msgstr "1b"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:0
 msgid "1c"
-msgstr ""
+msgstr "1c"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:0
 msgid "2"
@@ -87,7 +87,7 @@ msgstr "5"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:14
 msgid "Project Defaults"
-msgstr ""
+msgstr "Predvolené nastavenia projektu"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:16
 msgid ""
@@ -98,10 +98,17 @@ msgid ""
 "Please note that while changing parameter for the open project is possible, "
 "it is not recommended as it may break things like keyframes and cuts."
 msgstr ""
+"Kdenlive používa tieto nastavenia na vytvorenie nového projektu (pozri "
+"Ponuka > Súbor > Nový, alebo keď sa Kdenlive spustí a možnosť otvorenia "
+"posledného projektu nie je zaškrtnutá). Ak chcete zmeniť parametre aktuálne "
+"otvoreného projektu, použite :doc:`Nastavenia projektu</"
+"project_and_asset_management/project_settings>`. Upozorňujeme, že hoci zmena "
+"parametrov otvoreného projektu je možná, neodporúča sa, pretože môže narušiť "
+"veci ako kľúčové snímky a strihové body."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:22
 msgid "The Project Defaults section"
-msgstr ""
+msgstr "Časť Predvolené nastavenia projektu"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:24
 msgid ""
@@ -111,6 +118,11 @@ msgid ""
 "file:`videothumbs`, and :file:`workfiles`. See also :doc:`/getting_started/"
 "configure_kdenlive/configuration_info`."
 msgstr ""
+":guilabel:`Priečinok projektu`. Toto je dôležité nastavenie pre udržiavanie "
+"vašich projektov organizovaných a súborového systému v poriadku. Kdenlive "
+"vytvára nasledujúce priečinky pre každý projekt: :file:`audiothumbs`, :file:"
+"`sequences`, :file:`videothumbs` a :file:`workfiles`. Pozrite si tiež :doc:`/"
+"getting_started/configure_kdenlive/configuration_info`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:26
 msgid ""
@@ -119,6 +131,10 @@ msgid ""
 "<username>/.var/app/org.kde.kdenlive/cache/kdenlive/<projectID>/`. For "
 "Windows this is :file:`%APPDATA\\\\Local\\\\kdenlive\\\\cache`."
 msgstr ""
+"Ak je nastavené na :guilabel:`Predvolené`, Kdenlive vytvorí tieto priečinky "
+"v špeciálnom priečinku v inštalačnej ceste. Pre Linux je to :file:`/home/"
+"<username>/.var/app/org.kde.kdenlive/cache/kdenlive/<projectID>/`. Pre "
+"Windows je to :file:`%APPDATA\\\\Local\\\\kdenlive\\\\cache`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:28
 msgid ""
@@ -129,12 +145,20 @@ msgid ""
 "project_1/`: :file:`/home/my/projects/project_1/audiothumbs/`, :file:`/home/"
 "my/projects/project_1/sequences/`, etc."
 msgstr ""
+":guilabel:`Nadradený priečinok súboru projektu`. Ak je toto vybraté, "
+"Kdenlive vytvorí priečinky pre projekt v nadradenom priečinku súboru "
+"projektu. Napríklad, ak sa váš súbor projektu nachádza v :file:`/home/my/"
+"projects/project_1/`, Kdenlive vytvorí súbory súvisiace s projektom v :file:"
+"`../project_1/`: :file:`/home/my/projects/project_1/audiothumbs/`, :file:`/"
+"home/my/projects/project_1/sequences/` atď."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:30
 msgid ""
 ":guilabel:`Custom project folder`: You can specify a folder to use for these "
 "project folders."
 msgstr ""
+":guilabel:`Vlastný priečinok projektu`: Môžete zadať priečinok, ktorý sa "
+"použije pre tieto priečinky projektu."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:32
 msgid ""
@@ -146,12 +170,21 @@ msgid ""
 "profiles` icon. For details about how to do that, please see :ref:`Project "
 "Profiles / Preset <project_profile>`."
 msgstr ""
+":guilabel:`Vyberte predvolený profil (prednastavenie)`. V tejto časti "
+"definujete, ktorý z profilov sa použije pri vytváraní nového projektu. "
+"Použite filtre pre :guilabel:`Fps` a :guilabel:`Skenovanie` (starý odkaz na :"
+"term:`prekladané<interlaced>` alebo :term:`progresívne<progressive>`). Nový "
+"profil môžete vytvoriť odtiaľto kliknutím na ikonu |configure|\\ :guilabel:"
+"`Spravovať profily projektu`. Podrobnosti o tom nájdete v :ref:`Profily/"
+"prednastavenia projektu <project_profile>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:34
 msgid ""
 ":guilabel:`Video/Audio Tracks`. Determines the number of video and tracks a "
 "new project has. You can add and delete tracks later at any time."
 msgstr ""
+":guilabel:`Video/zvukové stopy`. Určuje počet video stôp a stôp, ktoré má "
+"nový projekt. Stopy môžete kedykoľvek neskôr pridávať a odstraňovať."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:36
 msgid ""
@@ -159,6 +192,9 @@ msgid ""
 "supports. Options are **2 channels (stereo)** (default), **4 channels**, and "
 "**6 channels**."
 msgstr ""
+":guilabel:`Zvukové kanály`. Určuje, koľko kanálov každá zvuková stopa "
+"podporuje. Možnosti sú **2 kanály (stereo)** (predvolené), **4 kanály** a "
+"**6 kanálov**."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:38
 msgid ""
@@ -170,22 +206,29 @@ msgid ""
 "parameters in the text window below the profile selection field, click on "
 "the |help-about| icon."
 msgstr ""
+":guilabel:`Profil náhľadu časovej osi`. Vyberte, ktorý kódovací profil sa má "
+"použiť pre funkciu :doc:`Renderovanie náhľadu</tips_and_tricks/"
+"tips_and_tricks/timeline_preview_rendering>`. Dostupné možnosti závisí od "
+"vášho HW a nainštalovaných kodekov. Profily môžete spravovať kliknutím na "
+"ikonu |configure|\\ :guilabel:`Zobraziť parametre profilu`. Ak chcete "
+"zobraziť parametre profilu v textovom okne pod poľom výberu profilu, "
+"kliknite na ikonu |help-about|."
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:42
 msgid "Encoding Profiles"
-msgstr ""
+msgstr "Kódovacie profily"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:47
 msgid "Timeline Preview profiles"
-msgstr ""
+msgstr "Profily náhľadu časovej osi"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:49
 msgid "List of available profiles"
-msgstr ""
+msgstr "Zoznam dostupných profilov"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:51
 msgid "The parameters used in the selected profile"
-msgstr ""
+msgstr "Parametre použité vo vybranom profile"
 
 #: ../../getting_started/configure_kdenlive/configuration_project_defaults.rst:53
 msgid ""
@@ -193,3 +236,6 @@ msgid ""
 "document-edit| to edit the selected profile, |edit-delete| to delete the "
 "selected profile. |edit-download| does not have a function yet."
 msgstr ""
+"Kliknite na |list-add| na vytvorenie nového profilu na základe vybraného, |"
+"document-edit| na úpravu vybraného profilu, |edit-delete| na odstránenie "
+"vybraného profilu. |edit-download| zatiaľ nemá žiadnu funkciu."

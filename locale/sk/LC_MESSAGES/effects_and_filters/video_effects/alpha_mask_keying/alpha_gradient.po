@@ -94,7 +94,7 @@ msgstr "Frei0r"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:33
 msgid "alphagrad"
-msgstr ""
+msgstr "alphagrad"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:35
 msgid "|linux| |appimage| |windows| |apple|"
@@ -117,6 +117,10 @@ msgid ""
 "the use of graduated neutral-density filters similar to what one uses in "
 "photography\\ [2]_."
 msgstr ""
+"Vyplní alfa kanál zadaným prechodom (frei0r.alphagrad)\\ [1]_. Jeho účelom "
+"je umožniť, spolu s farebnou manipuláciou riadenou alfa kanálom, použitie "
+"stupňovaných neutrálno-hustotných filtrov podobných tým, ktoré sa používajú "
+"vo fotografii\\ [2]_."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:50
 msgid "Parameters"
@@ -140,7 +144,7 @@ msgstr "Výber"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:61
 msgid "Defines the compositing operation (see list below)"
-msgstr ""
+msgstr "Definuje operáciu kompozitovania (pozri zoznam nižšie)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:62
 msgid "Position"
@@ -155,6 +159,8 @@ msgid ""
 "Position where the gradient starts (default is half the project vertical "
 "resolution)"
 msgstr ""
+"Poloha, kde prechod začína (predvolená hodnota je polovica zvislého "
+"rozlíšenia projektu)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:65
 msgid "Transition width"
@@ -168,7 +174,7 @@ msgstr "Percento"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:67
 msgid "Width of the gradient (default is 505)"
-msgstr ""
+msgstr "Šírka prechodu (predvolená hodnota je 505)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:68
 msgid "Tilt"
@@ -181,26 +187,31 @@ msgstr "Stupňe"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:70
 msgid "Rotation of the gradient in degrees (range is 0-360, default is 0)"
 msgstr ""
+"Otočenie prechodu v stupňoch (rozsah je 0–360, predvolená hodnota je 0)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:71
 msgid "Transparency top"
-msgstr ""
+msgstr "Priehľadnosť navrchu"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:73
 msgid ""
 "Sets the transparency at the top / start of the gradient (default is 100% "
 "for full transparency)"
 msgstr ""
+"Nastavuje priehľadnosť v hornej časti / na začiatku prechodu (predvolená "
+"hodnota je 100 % pre úplnú priehľadnosť)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:74
 msgid "Transparency bottom"
-msgstr ""
+msgstr "Priehľadnosť dole"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:76
 msgid ""
 "Sets the transparency at the bottom / end of the gradient (default is 0% for "
 "no transparency)"
 msgstr ""
+"Nastavuje priehľadnosť v dolnej časti / na konci prechodu (predvolená "
+"hodnota je 0 % pre žiadnu priehľadnosť)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:78
 msgid "The following selection items are available:"
@@ -216,7 +227,7 @@ msgstr "Zapisovať na čistý"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:88
 msgid "Overlay the image (default)"
-msgstr ""
+msgstr "Prekryť obrázok (predvolené)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:89
 msgid "Add"
@@ -224,7 +235,7 @@ msgstr "Pridať"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:90
 msgid "Add the existing pixel and the calculated gradient values"
-msgstr ""
+msgstr "Sčítať existujúcu hodnotu pixelu a vypočítané hodnoty prechodu"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:91
 msgid "Min"
@@ -233,6 +244,7 @@ msgstr "Minimum"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:92
 msgid "Take the minimum of existing pixel and calculated gradient values"
 msgstr ""
+"Vziať minimum z existujúcej hodnoty pixelu a vypočítaných hodnôt prechodu"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:93
 msgid "Max"
@@ -241,6 +253,7 @@ msgstr "Maximum"
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:94
 msgid "Take the maximum of existing pixel and calculated gradient values"
 msgstr ""
+"Vziať maximum z existujúcej hodnoty pixelu a vypočítaných hodnôt prechodu"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:95
 msgid "Subtract"
@@ -248,7 +261,7 @@ msgstr "Rozdiel"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:96
 msgid "Subtract from the existing pixel the calculated gradient value"
-msgstr ""
+msgstr "Odčítať od existujúcej hodnoty pixelu vypočítanú hodnotu prechodu"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:100
 msgid "Notes"
@@ -261,26 +274,34 @@ msgid ""
 "the gradient darkens the video. Note the Operation **Add** to make the text "
 "opaque."
 msgstr ""
+"V nasledujúcom príklade bol obrázok `.png` prekrytý na video klip a bol "
+"aplikovaný efekt Alpha Gradient s predvolenými hodnotami. Vidíte, ako "
+"prechod stmaví video. Všimnite si operáciu **Add** na zobrazenie textu ako "
+"nepriehľadného."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:107
 msgid "Alpha Gradient effect - before"
-msgstr ""
+msgstr "Efekt Alpha Gradient – pred"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:114
 msgid "Alpha Gradient effect - after"
-msgstr ""
+msgstr "Efekt Alpha Gradient – po"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:129
 msgid ""
 "The description of this effect has been taken in parts from the readme file "
 "for the |alphaops|. You find much more detailed information there."
 msgstr ""
+"Popis tohto efektu bol čiastočne prevzatý zo súboru readme pre |alphaops|. "
+"Nájdete tam oveľa podrobnejšie informácie."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:131
 msgid ""
 "For more details about this topic refer to the Wikipedia entry about the |"
 "wiki_graduated_nd_filter|."
 msgstr ""
+"Podrobnejšie informácie o tejto téme nájdete v položke Wikipédie o |"
+"wiki_graduated_nd_filter|."
 
 #, fuzzy
 #~ msgid "keyframe"

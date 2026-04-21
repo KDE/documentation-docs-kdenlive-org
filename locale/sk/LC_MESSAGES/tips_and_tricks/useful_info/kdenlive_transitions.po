@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-04-20 02:06+0000\n"
 "PO-Revision-Date: 2023-12-10 12:04+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:-1
 msgid "Kdenlive Tips & Tricks - Transitions"
-msgstr ""
+msgstr "Tipy a triky pre Kdenlive – prechody"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:-1
 msgid ""
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:0
 msgid "Affine"
-msgstr ""
+msgstr "Affine"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:0
 msgid "Cairo Blend"
@@ -49,7 +49,7 @@ msgstr "Kombinovať"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:0
 msgid "Composite & Transform"
-msgstr ""
+msgstr "Composite & Transform"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:0
 msgid "Region"
@@ -57,7 +57,7 @@ msgstr "Región"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:26
 msgid "Kdenlive Transitions"
-msgstr ""
+msgstr "Prechody v Kdenlive"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:28
 msgid ""
@@ -65,20 +65,25 @@ msgid ""
 "**Transitions** somewhat confusing. Hopefully, this article clears up this "
 "confusion surrounding Kdenlive transitions, at least to some degree."
 msgstr ""
+"V závislosti od skúseností s úpravou videa môžu používatelia považovať "
+"**Prechody** v Kdenlive za trochu mätúce. Dúfajme, že tento článok aspoň do "
+"istej miery objasní zmätok okolo prechodov v Kdenlive."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:32
 msgid "Kdenlive Transitions: 3-in-1"
-msgstr ""
+msgstr "Prechody v Kdenlive: 3 v 1"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:34
 msgid ""
 "In Kdenlive, **Transitions** can roughly be classified into three different "
 "types as follows:"
 msgstr ""
+"V Kdenlive možno **Prechody** zhruba rozdeliť do troch rôznych typov "
+"nasledovne:"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:42
 msgid "Type of Transition"
-msgstr ""
+msgstr "Typ prechodu"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:43
 msgid "Description"
@@ -86,7 +91,7 @@ msgstr "Popis"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:44
 msgid "Clip-to-Clip Transition"
-msgstr ""
+msgstr "Prechod klip na klip"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:45
 msgid ""
@@ -94,10 +99,13 @@ msgid ""
 "keyframes, one for start and one for end. This is what many users usually "
 "understand transitions to be."
 msgstr ""
+"Postupne nahrádza jeden klip iným klipom. Má presne dva implicitné kľúčové "
+"snímky, jeden pre začiatok a jeden pre koniec. Toto je to, čo mnohí "
+"používatelia zvyčajne rozumejú pod pojmom prechody."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:46
 msgid "Dynamic Compositing"
-msgstr ""
+msgstr "Dynamické kompozitovanie"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:47
 msgid ""
@@ -105,12 +113,15 @@ msgid ""
 "Supports user-defined keyframes that allow to control at least certain "
 "parameters."
 msgstr ""
+"Na kombinovanie dvoch klipov, pričom spôsob kombinácie sa môže meniť s "
+"časom. Podporuje používateľom definované kľúčové snímky, ktoré umožňujú "
+"ovládať aspoň určité parametre."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:48
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:159
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:164
 msgid "Layer Compositing"
-msgstr ""
+msgstr "Vrstvové kompozitovanie"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:49
 msgid ""
@@ -118,17 +129,36 @@ msgid ""
 "compositing in image tools. As keyframes are not supported, this type of "
 "compositing is static, thus invariant of time."
 msgstr ""
+"Na kombinovanie dvoch klipov konštantným, statickým spôsobom: podobne ako "
+"vrstvové kompozitovanie v obrazových nástrojoch. Keďže kľúčové snímky nie sú "
+"podporované, tento typ kompozitovania je statický, teda časovo nemenný."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:51
+#, fuzzy
+#| msgid ""
+#| "Historically, Kdenlive borrows the term **transition** with its 3-fold "
+#| "meaning directly from the `multimedia engine MLT <https://mltframework."
+#| "org/>`_. :abbr:`MLT (Media Lovin' Toolkit - An open source software "
+#| "multimedia framework designed and developed for tv broadcasting)` that "
+#| "does all the video and audio processing according to your timeline. In "
+#| "the MLT universe, transitions basically «merge» video frames from upper "
+#| "tracks with video frames from lower tracks, producing result frames."
 msgid ""
 "Historically, Kdenlive borrows the term **transition** with its 3-fold "
 "meaning directly from the `multimedia engine MLT <https://mltframework.org/"
-">`_. :abbr:`MLT (Media Lovin' Toolkit - An open source software multimedia "
+">`__. :abbr:`MLT (Media Lovin' Toolkit - An open source software multimedia "
 "framework designed and developed for tv broadcasting)` that does all the "
 "video and audio processing according to your timeline. In the MLT universe, "
 "transitions basically «merge» video frames from upper tracks with video "
 "frames from lower tracks, producing result frames."
 msgstr ""
+"Historicky si Kdenlive vypožičiava termín **prechod** s jeho trojitým "
+"významom priamo z `multimediálneho enginu MLT <https://mltframework.org/"
+">`_. :abbr:`MLT (Media Lovin' Toolkit - An open source software multimedia "
+"framework designed and developed for tv broadcasting)` vykonáva všetko "
+"spracovanie videa a zvuku podľa vašej časovej osi. Vo svete MLT prechody v "
+"podstate «zlučujú» video snímky z horných stôp s video snímkami z dolných "
+"stôp a vytvárajú výsledné snímky."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:53
 msgid ""
@@ -137,10 +167,14 @@ msgid ""
 "version 21.08 Kdenlive does support such in-track (or same-track) "
 "transitions as :ref:`Mixes <same_track_transition>`."
 msgstr ""
+"Naopak, mnohí skúsení používatelia v oblasti úpravy videa poznajú prechody "
+"ako mechanizmus prechodu medzi dvoma susednými klipmi. Od verzie 21.08 "
+"Kdenlive podporuje takéto prechody v rámci stopu (alebo na rovnakej stope) "
+"ako :ref:`Mixy <same_track_transition>`."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:59
 msgid "Clip-to-Clip Transitions"
-msgstr ""
+msgstr "Prechody klip na klip"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:61
 msgid ""
@@ -148,27 +182,54 @@ msgid ""
 "expect when they hear the word *transition*: the dissolve, slide, and wipe "
 "transitions."
 msgstr ""
+"Začnime tými **štandardnými prechodmi**, ktoré by väčšina používateľov "
+"pravdepodobne očakávala, keď počuje slovo *prechod*: prechody rozpúšťanie, "
+"posúvanie a stieranie."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:69
+#, fuzzy
+#| msgid ""
+#| "**Dissolve**: gradually transitions from one clip to another. So it is "
+#| "kind of fading between the two clips. (See also the Wikipedia article on "
+#| "`Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
 msgid ""
 "**Dissolve**: gradually transitions from one clip to another. So it is kind "
 "of fading between the two clips. (See also the Wikipedia article on "
-"`Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
+"`Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`__)"
 msgstr ""
+"**Rozpúšťanie**: postupne prechádza z jedného klipu na druhý. Ide teda o "
+"akési vyblednutie medzi dvoma klipmi. (Pozri tiež článok na Wikipédii o "
+"`Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:77
+#, fuzzy
+#| msgid ""
+#| "**Slide**: gradually replaces one clip by another clip, by traveling from "
+#| "one side of the frame to another (See also the Wikipedia article on `Wipe "
+#| "<https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
 msgid ""
 "**Slide**: gradually replaces one clip by another clip, by traveling from "
 "one side of the frame to another (See also the Wikipedia article on `Wipe "
-"<https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
+"<https://en.wikipedia.org/wiki/Wipe_%28transition%29>`__.)"
 msgstr ""
+"**Posúvanie**: postupne nahrádza jeden klip iným klipom pohybom z jednej "
+"strany snímky na druhú. (Pozri tiež článok na Wikipédii o `Wipe <https://en."
+"wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:85
+#, fuzzy
+#| msgid ""
+#| "**Wipe**: one clip gradually replaces another clip, often in form of some "
+#| "shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/"
+#| "wiki/Wipe_%28transition%29>`_.)"
 msgid ""
 "**Wipe**: one clip gradually replaces another clip, often in form of some "
 "shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/"
-"wiki/Wipe_%28transition%29>`_.)"
+"wiki/Wipe_%28transition%29>`__.)"
 msgstr ""
+"**Stieranie**: jeden klip postupne nahrádza iný klip, často v podobe "
+"nejakého tvaru. (Pozri tiež článok na Wikipédii o `Wipe <https://en."
+"wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:89
 msgid ""
@@ -176,6 +237,9 @@ msgid ""
 "*start* and *end* keyframes are *implicit* and fixed to the *start* and "
 "*end* of the transition respectively."
 msgstr ""
+"Tieto tri prechody neponúkajú žiadne (používateľské) kľúčové snímky. "
+"Namiesto toho sú ich kľúčové snímky *začiatok* a *koniec* *implicitné* a "
+"pevne viazané na *začiatok* a *koniec* prechodu."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:91
 msgid ""
@@ -189,10 +253,18 @@ msgid ""
 "guilabel:`Reverse` **on**: transition from lower track to ▲ upper track "
 "instead."
 msgstr ""
+"Pri použití dvoch samostatných stôp pre prechody sa tieto prechody, ako čas "
+"v časovej osi plynie dopredu, menia (alebo akosi vybledia) z klipu na hornej "
+"stope na klip na dolnej stope. Trochu zvláštne pomenovaný parameter "
+"prechodu :guilabel:`Reverse` umožňuje zameniť úlohy stôp: ak je :guilabel:"
+"`Reverse` zaškrtnutý, prechody sa menia z dolnej stopu na hornú stopu, ako "
+"čas plynie. Jednoducho povedané: ▼ :guilabel:`Reverse` **vypnutý**: prechod "
+"z hornej stopu na ▼ dolnú stopu; ▲ :guilabel:`Reverse` **zapnutý**: prechod "
+"z dolnej stopu na ▲ hornú stopu."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:97
 msgid "Dynamic Compositing Transitions"
-msgstr ""
+msgstr "Prechody dynamického kompozitovania"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:101
 msgid ""
@@ -201,6 +273,11 @@ msgid ""
 "projects (as the above screenshot may hint at). Kdenlive currently offers "
 "the following (keyframable) compositing transitions:"
 msgstr ""
+"Do určitej miery Kdenlive podporuje (jednoduché) kompozitovanie vo svojej "
+"časovej osi. V skutočnosti aj toto jednoduché kompozitovanie vás môže "
+"zaviesť ďaleko v mnohých projektoch (na čo môže naznačovať vyššie uvedená "
+"snímka obrazovky). Kdenlive v súčasnosti ponúka nasledujúce (kľúčovo "
+"snímkovateľné) prechody kompozitovania:"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:105
 msgid ""
@@ -210,6 +287,11 @@ msgid ""
 "does not support wipes (which only **Composite** and **Region** support in "
 "this class of transitions)."
 msgstr ""
+"Umožňuje zmenu veľkosti, otáčanie, skosenie a polohovanie. V kombinácii s "
+"kľúčovými snímkami je tento prechod naozaj všestranný. Jeho jedinými "
+"nevýhodami sú, že je pomalší ako iné zložité prechody (kvôli afinnej "
+"transformácii) a nepodporuje stieranie (ktoré v tejto triede prechodov "
+"podporujú iba **Composite** a **Region**)."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:108
 msgid ""
@@ -217,6 +299,9 @@ msgid ""
 "addition, the opacity of the upper frames can be controlled. This transition "
 "also supports keyframes."
 msgstr ""
+"Jednoduchý prechod kompozitovania podporujúci niekoľko režimov "
+"kompozitovania. Okrem toho možno ovládať priehľadnosť horných snímok. Tento "
+"prechod tiež podporuje kľúčové snímky."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:111
 msgid ""
@@ -224,6 +309,9 @@ msgid ""
 "rotate (you can even control the center of rotation!), and finally skew. And "
 "all this is keyframable."
 msgstr ""
+"Má funkčnosť oboch prechodov **Affine** aj **Composite**: polohovanie, "
+"otáčanie (môžete dokonca ovládať stred otáčania!) a nakoniec skosenie. A "
+"všetko toto podporuje kľúčové snímky."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:114
 msgid ""
@@ -233,6 +321,11 @@ msgid ""
 "precise position control. When compared to **Affine**, the **Composite** "
 "transition is much faster, albeit at the cost of luma bleed."
 msgstr ""
+"Umožňuje kľúčovo snímkované rozpúšťania, stierania a posuvy; a to všetko v "
+"rovnakom prechode. Na rozdiel od **Affine** nepodporuje otáčanie ani "
+"skosenie. Nevýhody Composite sú: :term:`luma` bleed a menej presné ovládanie "
+"polohy. V porovnaní s **Affine** je prechod **Composite** oveľa rýchlejší, "
+"aj keď za cenu luma bleed."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:117
 msgid ""
@@ -243,6 +336,12 @@ msgid ""
 "And keyframes are supported. In those situations, use **Affine** or **Cairo "
 "Affine Blend** instead."
 msgstr ""
+"Ide o pomerne nový prechod, ktorý debutoval s Kdenlive 16.04. Umožňuje "
+"jednoduché kompozitovanie klipov na seba (s podporou niekoľkých režimov "
+"kompozitovania), ako aj presúvanie klipov na hornej stope. Nepodporuje však "
+"ani zmenu mierky ani otáčanie, ale podporuje dynamickú priehľadnosť. A "
+"kľúčové snímky sú podporované. V takýchto situáciách použite namiesto toho "
+"**Affine** alebo **Cairo Affine Blend**."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:120
 msgid ""
@@ -250,6 +349,9 @@ msgid ""
 "**Region** transition properties, this matte is called the **Transparency "
 "clip**."
 msgstr ""
+"Podobne ako **Composite**, ale obmedzený na oblasť vo forme matnej masky. Vo "
+"vlastnostiach prechodu **Region** sa táto matná maska nazýva **Transparency "
+"clip**."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:123
 msgid ""
@@ -258,10 +360,14 @@ msgid ""
 "showed that **Composite** is used the most, followed by **Composite & "
 "Transform** and **Affine**."
 msgstr ""
+"Treba priznať, že MLT a Kdenlive tu ponúkajú veľa možností; pravdepodobne "
+"príliš veľa. Nereprezentívny prieskum v našej oficiálnej komunite Kdenlive G"
+"+ ukázal, že **Composite** sa používa najviac, nasledovaný **Composite & "
+"Transform** a **Affine**."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:129
 msgid "Compositing with Transparency"
-msgstr ""
+msgstr "Kompozitovanie s priehľadnosťou"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:131
 msgid ""
@@ -273,6 +379,14 @@ msgid ""
 "users need when compositing. In contrast, **Affine** uses the atop alpha "
 "compositing strategy that can drive unexpected users mad."
 msgstr ""
+"**Composite & Transform** je novou obľúbenkyňou Kdenlive, pretože uľahčí "
+"život mnohým, ak nie väčšine používateľov Kdenlive. V porovnaní s **Affine** "
+"je tento nový prechod tiež rýchlejší v štandardných prípadoch "
+"kompozitovania. Okrem toho **Composite & Transform** predvolene používa "
+"alpha (priehľadnostný) režim kompozitovania (kreslenie) *over* – čo je to, "
+"čo väčšina používateľov pri kompozitovaní pravdepodobne potrebuje. Naproti "
+"tomu **Affine** používa stratégiu kompozitovania alpha atop, ktorá môže "
+"priviesť nič netušiacich používateľov do zúfalstva."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:139
 msgid ""
@@ -282,6 +396,11 @@ msgid ""
 "transition properties, this mode is to be found as **Compositing**: **Alpha "
 "Blend** instead."
 msgstr ""
+"**Composite & Transform** – čokoľvek, čo je v snímke z hornej stopu "
+"čiastočne alebo nepriesvitné, bude namaľované cez snímku z dolnej stopu. "
+"Odtiaľ pochádza názov tohto režimu kompozitovania: over. Poznámka: vo "
+"vlastnostiach prechodu sa tento režim nachádza ako **Compositing**: **Alpha "
+"Blend**."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:141
 msgid ""
@@ -290,6 +409,10 @@ msgid ""
 "**Cairo Blend** and **Cairo Affine Blend** this **Blend mode** is called "
 "**Normal** instead."
 msgstr ""
+"Okrem toho **Composite**, **Cairo Blend** a **Cairo Affine Blend** tiež "
+"používajú rovnakú stratégiu kompozitovania over, ako Composite & Transform. "
+"Pre **Cairo Blend** a **Cairo Affine Blend** sa tento **Blend mode** nazýva "
+"**Normal**."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:149
 msgid ""
@@ -299,12 +422,19 @@ msgid ""
 "regions of full transparency, whatever falls within them on the upper frame "
 "will be invisible! You can see this result also in the screenshot."
 msgstr ""
+"**Affine** – ako jednoduchý základný princíp, priehľadnosť je riadená "
+"výhradne *dolnou* stopou. Akékoľvek informácie o priehľadnosti z hornej "
+"stopu sú jednoducho úplne ignorované. V dôsledku toho, ak má vaša dolná "
+"snímka oblasti plnej priehľadnosti, čokoľvek, čo v nich na hornej snímke "
+"leží, bude neviditeľné! Tento výsledok môžete vidieť aj na snímke obrazovky."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:151
 msgid ""
 "At least at this time, **Composite & Transform** does not support this alpha "
 "handling as **Affine** does."
 msgstr ""
+"Aspoň v súčasnosti **Composite & Transform** nepodporuje toto spracovanie "
+"alpha kanála tak, ako **Affine**."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:161
 msgid ""
@@ -313,6 +443,10 @@ msgid ""
 "compositing transitions do not have any parameters at all. This category "
 "actually has the most Kdenlive transitions to offer:"
 msgstr ""
+"Tento tretí druh prechodov Kdenlive/MLT funguje väčšinou podobne ako režimy "
+"vrstiev v obrazových editoroch, napríklad ako |gimp|. Tieto statické "
+"prechody vrstvového kompozitovania nemajú vôbec žiadne parametre. Táto "
+"kategória ponúka v skutočnosti najviac prechodov Kdenlive:"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:169
 msgid "Addition"
@@ -320,7 +454,7 @@ msgstr "Súčet"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:170
 msgid "Addition Alpha"
-msgstr ""
+msgstr "Addition Alpha"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:171
 msgid "Burn"
@@ -348,11 +482,11 @@ msgstr "Zesvietlenie"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:177
 msgid "Grain Handling: Extract / Merge"
-msgstr ""
+msgstr "Spracovanie zrna: Extract / Merge"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:178
 msgid "Hardlight / Overlay"
-msgstr ""
+msgstr "Hardlight / Overlay"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:179
 msgid "Hue"
@@ -368,7 +502,7 @@ msgstr "Násobenie"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:182
 msgid "Overlay / Hardlight"
-msgstr ""
+msgstr "Overlay / Hardlight"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:183
 msgid "Saturation"
@@ -384,7 +518,7 @@ msgstr "Vľavo,Vpravo"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:186
 msgid "Substract"
-msgstr ""
+msgstr "Substract"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:187
 msgid "UV Map"
@@ -396,27 +530,27 @@ msgstr "Hodnota"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:189
 msgid "Video Quality Management"
-msgstr ""
+msgstr "Video Quality Management"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:192
 msgid "Alpha Compositing"
-msgstr ""
+msgstr "Alpha Compositing"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:197
 msgid "Alpha atop"
-msgstr ""
+msgstr "Alpha atop"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:198
 msgid "Alpha in"
-msgstr ""
+msgstr "Alpha in"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:199
 msgid "Alpha out"
-msgstr ""
+msgstr "Alpha out"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:200
 msgid "Alpha over"
-msgstr ""
+msgstr "Alpha over"
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:201
 msgid "Alpha XOR"
@@ -434,6 +568,11 @@ msgid ""
 "extent, you may substitute the **Cairo Blend** transition, which has an "
 "opacity parameter."
 msgstr ""
+"Pevné prechody kompozitovania Kdenlive (resp. :abbr:`MLT (Media Lovin' "
+"Toolkit - An open source software multimedia framework designed and "
+"developed for tv broadcasting)`) nemajú parameter priehľadnosti. Do určitej "
+"miery môžete nahradiť prechod **Cairo Blend**, ktorý má parameter "
+"priehľadnosti."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:211
 msgid "Notes"
@@ -445,6 +584,9 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
+"Pôvodný text bol predložený používateľom *TheDiveO* na teraz nefunkčný blog "
+"kdenlive.org. Pre túto dokumentáciu bol prevzatý z |kdenlive_org|, "
+"aktualizovaný a upravený tak, aby zodpovedal celkovému štýlu."
 
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:218
 msgid "**Sources**"

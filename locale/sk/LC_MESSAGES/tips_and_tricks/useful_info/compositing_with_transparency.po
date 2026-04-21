@@ -13,12 +13,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.08.3\n"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
 msgid "Kdenlive Tips & Tricks - Compositing with Transparency"
-msgstr ""
+msgstr "Kdenlive Tipy a triky – Kompozícia s priehľadnosťou"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:-1
 msgid ""
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:23
 msgid "Compositing with Transparency"
-msgstr ""
+msgstr "Kompozícia s priehľadnosťou"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:25
 msgid ""
@@ -41,26 +41,34 @@ msgid ""
 "users. Luckily, things are not as inexplicable as they appear, so let's dive "
 "right into transparency and transitions."
 msgstr ""
+"Keď sa priehľadnosť vyskytuje v oboch snímkach spracovaných jedným z "
+"dynamických kompozitných prechodov Kdenlive, výsledok môže niektorých z nás "
+"používateľov prekvapiť. Našťastie veci nie sú také nevysvetliteľné, ako sa "
+"zdajú, takže sa rovno ponorme do priehľadnosti a prechodov."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:28
 msgid "Transparency & Dynamic Transitions"
-msgstr ""
+msgstr "Priehľadnosť a dynamické prechody"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:30
 msgid ""
 "When it comes to handling transparency, Kdenlive's :doc:`transitions </"
 "compositing/transitions>` fall into two categories:"
 msgstr ""
+"Pokiaľ ide o spracovanie priehľadnosti, :doc:`prechody </compositing/"
+"transitions>` Kdenlive sa delia do dvoch kategórií:"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:32
 msgid "**Affine** uses the so-called **atop** compositing operator"
-msgstr ""
+msgstr "**Afinný** používa takzvaný kompozitný operátor **atop**"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:33
 msgid ""
 "**Composite**, **Composite & Transform**, **Cairo (Affine) Blend** use the "
 "**over** compositing operator instead"
 msgstr ""
+"**Kompozit**, **Kompozit a transformácia**, **Cairo (Afinné) prelínanie** "
+"namiesto toho používajú kompozitný operátor **over**"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:35
 msgid ""
@@ -71,10 +79,16 @@ msgid ""
 "And after we have mastered this step, we will finally look at how the "
 "opacity parameter fits into the full picture."
 msgstr ""
+"Čo teda **atop** a **over** skutočne znamenajú? Poďme zistiť, čo tieto "
+"kompozitné operátory robia, na typickom príklade titulky a polopriehľadného "
+"pozadia. Pre jednoduchosť najprv ignorujeme parameter **opacity** "
+"(nepriehľadnosť) vyššie uvedených prechodov, aby bolo všetko ľahšie "
+"pochopiteľné. A po tom, čo tento krok zvládneme, sa nakoniec pozrieme na to, "
+"ako parameter opacity zapadá do celkového obrazu."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:39
 msgid "Affine: Atop Compositing"
-msgstr ""
+msgstr "Afinný: Kompozícia Atop"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:47
 msgid ""
@@ -82,12 +96,17 @@ msgid ""
 "its outcome: Text from the topmost title clip (partly) vanishes in those "
 "regions where the underlying clip on the middle track is (semi) transparent."
 msgstr ""
+"Výsledok kompozície **atop** je najlepšie vysvetlený najprv ukázaním jeho "
+"výsledku: Text z najvrchnejšieho klipu titulky (čiastočne) zmizne v tých "
+"oblastiach, kde je podkladový klip na strednej stope (polo)priehľadný."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:49
 msgid ""
 "The checkerboard clip on the bottom track just serves for illustrational "
 "purposes, so we can better see the transparent regions."
 msgstr ""
+"Klip so šachovnicovým vzorom na spodnej stope slúži len na ilustračné účely, "
+"aby sme lepšie videli priehľadné oblasti."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:51
 msgid ""
@@ -95,6 +114,9 @@ msgid ""
 "upper Affine composites the title clip onto the gradient background. Then, "
 "the lower Affine composites the result onto the checkboard background."
 msgstr ""
+"Všimnite si, ako sú dva **Afinné** prechody zreťazené: najprv horný Afinný "
+"skompozituje klip titulky na gradientné pozadie. Potom dolný Afinný "
+"skompozituje výsledok na šachovnicové pozadie."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:59
 msgid ""
@@ -103,6 +125,10 @@ msgid ""
 "transparency each (the alpha values, αA and αB). It is important to **not** "
 "confuse pixel transparency with the opaque parameter of transitions."
 msgstr ""
+"Ako však **Afinný** prechod presne spracováva priehľadnosť? Pozrime sa na "
+"tuto ručne vyrobenú ilustráciu, kde máme dva pixely, každý s určitou "
+"priehľadnosťou (hodnoty alpha, αA a αB). Je dôležité **nemýliť** "
+"priehľadnosť pixelov s parametrom nepriehľadnosti prechodov."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:61
 msgid ""
@@ -111,28 +137,37 @@ msgid ""
 "transparent pixel, whereas an alpha of 1.0 (or 255) means totally opaque "
 "pixel."
 msgstr ""
+"Náš červený pixel pochádza zo snímky hornej stopy (B), zatiaľ čo zelený "
+"pixel pochádza zo snímky dolnej stopy (A). Alpha 0 znamená úplne priehľadný "
+"pixel, zatiaľ čo alpha 1,0 (alebo 255) znamená úplne nepriehľadný pixel."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:63
 msgid ""
 "The **Affine** transition now simply ignores the transparency information "
 "from the upper frame pixel (the red one)."
 msgstr ""
+"**Afinný** prechod teraz jednoducho ignoruje informácie o priehľadnosti z "
+"pixelu hornej snímky (červeného)."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:65
 msgid ""
 "It solely uses the transparency information (green) contained in the lower "
 "track frames! Or more mathematical: α = αA"
 msgstr ""
+"Používa výlučne informácie o priehľadnosti (zelené) obsiahnuté v snímkach "
+"dolnej stopy! Alebo matematicky: α = αA"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:67
 msgid ""
 "And that is the explanation why in our example above the title text vanishes "
 "in those regions where the middle clip is transparent."
 msgstr ""
+"A to je vysvetlenie, prečo v našom príklade vyššie text titulky zmizne v "
+"tých oblastiach, kde je stredný klip priehľadný."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:73
 msgid "Composite & Co: Over Compositing"
-msgstr ""
+msgstr "Kompozit a spol.: Kompozícia Over"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:81
 msgid ""
@@ -141,6 +176,10 @@ msgid ""
 "transitions as before, so that the lower transition works on the outcome of "
 "the upper transition."
 msgstr ""
+"Opäť v podstate používame rovnaké nastavenie ako predtým, ale tentokrát "
+"namiesto **Afinných** prechodov používame **Kompozit a transformáciu**. "
+"Prechody zreťazíme rovnako ako predtým, takže dolný prechod pracuje s "
+"výsledkom horného prechodu."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:83
 msgid ""
@@ -148,12 +187,17 @@ msgid ""
 "probably more to the expectations of most users. Now, the top title clip "
 "does not get (*sorry*) clipped anymore."
 msgstr ""
+"Ale pozrite: Výsledok je iný! Výsledok operátora **over** pravdepodobne viac "
+"zodpovedá očakávaniam väčšiny používateľov. Teraz horný klip titulky viac "
+"nie je (*ospravedlňujem sa*) orezaný."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:91
 msgid ""
 "As the **over** operation produces results more to the expectations of many "
 "users, how does it handle transparency exactly?"
 msgstr ""
+"Keďže operácia **over** prináša výsledky, ktoré viac zodpovedajú očakávaniam "
+"mnohých používateľov, ako presne spracováva priehľadnosť?"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:93
 msgid ""
@@ -162,12 +206,18 @@ msgid ""
 "will be even less transparent than the lower frame pixel transparency. This "
 "is what we would probably expect from painting with semi-opaque paint."
 msgstr ""
+"**Jednoducho povedané:** ak namaľujete nejaký polopriehľadný pixel cez iný "
+"polopriehľadný pixel, **výsledok bude menej priehľadný**. Bude dokonca menej "
+"priehľadný ako priehľadnosť pixelu dolnej snímky. To je to, čo by sme "
+"pravdepodobne očakávali od maľovania polopriehľadnou farbou."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:95
 msgid ""
 "Calculating the resulting transparency for two given pixels from an upper "
 "frame (B) and a lower frame (A) is thus more involved this time."
 msgstr ""
+"Výpočet výslednej priehľadnosti pre dva dané pixely z hornej snímky (B) a "
+"dolnej snímky (A) je teda tentoraz zložitejší."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:97
 msgid ""
@@ -176,6 +226,10 @@ msgid ""
 "frame pixel. But simply adding both transparencies would not yield sensible "
 "results; what does a transparency of 2.0 or 511 mean?"
 msgstr ""
+"Opäť začíname s priehľadnosťou pixelu dolnej snímky (zeleného) ako základom. "
+"Tentokrát však nemôžeme ignorovať priehľadnosť pixelu (červenej) hornej "
+"snímky. Ale jednoduché sčítanie oboch priehľadností by neviedlo k "
+"zmysluplným výsledkom; čo znamená priehľadnosť 2,0 alebo 511?"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:99
 msgid ""
@@ -185,10 +239,16 @@ msgid ""
 "value, plus the rescaled red alpha value. Remember, we kind of paint over "
 "the lower frame. For the formular-affine: α = αA + αB (1-αA)"
 msgstr ""
+"Priehľadnosť červeného pixelu je teda **škálovaná** – môžete si to "
+"predstaviť ako zmenšenie pôvodnej škály 0–1,0 do dostupného priestoru nad "
+"hodnotou priehľadnosti zeleného pixelu. Výsledná priehľadnosť je potom súčet "
+"základnej alpha hodnoty zeleného pixelu plus preškálovanej alpha hodnoty "
+"červeného pixelu. Pamätajte, že akýmsi spôsobom maľujeme cez dolnú snímku. "
+"Pre vzorec-afinný: α = αA + αB (1-αA)"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:104
 msgid "Transition Parameter Opacity"
-msgstr ""
+msgstr "Parameter prechodu Nepriehľadnosť"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:106
 msgid ""
@@ -197,6 +257,10 @@ msgid ""
 "something different. The opacity parameter applies to the upper frames (B) "
 "only. It is kind of a master control but how does it work?"
 msgstr ""
+"Dynamické kompozitné prechody majú tiež parameter nazývaný "
+"**Nepriehľadnosť** (Opacity). Je ľahké ho zameniť s priehľadnosťou pixelov, "
+"ale je to niečo iné. Parameter nepriehľadnosti sa vzťahuje iba na horné "
+"snímky (B). Je to akýsi hlavný ovládač, ale ako funguje?"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:114
 msgid ""
@@ -205,6 +269,10 @@ msgid ""
 "also **ignores** the **opacity** parameter when calculating the result "
 "**pixel transparency**."
 msgstr ""
+"Začnime znova s **Afinným** prechodom. Vyššie sme videli, že Afinný ignoruje "
+"priehľadnosť pixelov (červenej) hornej snímky. A Afinný tiež **ignoruje** "
+"parameter **nepriehľadnosti** pri výpočte výslednej **priehľadnosti "
+"pixelov**."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:116
 msgid ""
@@ -215,6 +283,12 @@ msgid ""
 "lower frame (B) pixel color, while 1.0 solely yields the upper frame pixel "
 "(A) color. 0.5 would be halfway between the two pixel colors."
 msgstr ""
+"Namiesto toho parameter nepriehľadnosti ovplyvňuje spôsob výpočtu výslednej "
+"**farby pixelu**: ide o lineárnu interpoláciu medzi farbou pixelu hornej "
+"snímky (B) a pixelu dolnej snímky (A). Nepriehľadnosť teraz ovláda presný "
+"bod miešania. Nepriehľadnosť 0,0 vedie iba k farbe pixelu dolnej snímky (B), "
+"zatiaľ čo 1,0 vedie výlučne k farbe pixelu hornej snímky (A). 0,5 by bolo v "
+"strede medzi dvomi farbami pixelov."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:118
 msgid ""
@@ -222,10 +296,13 @@ msgid ""
 "solely affects color blending** between upper frame (B) and lower frame (A) "
 "pixels."
 msgstr ""
+"Zhrnúť: v prípade **Afinného** prechodu **parameter nepriehľadnosti "
+"ovplyvňuje výlučne miešanie farieb** medzi pixelmi hornej snímky (B) a "
+"dolnej snímky (A)."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:126
 msgid "Next, let's look at the other transitions: **Composite** & Co."
-msgstr ""
+msgstr "Ďalej sa pozrime na ostatné prechody: **Kompozit** a spol."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:128
 msgid ""
@@ -233,6 +310,9 @@ msgid ""
 "with the Affine transition: the opacity parameter controls how much upper "
 "frame (B) pixel color gets into the blend."
 msgstr ""
+"Pokiaľ ide o miešanie farieb, platí rovnaký postup, ktorý sme práve videli "
+"pri Afinnom prechode: parameter nepriehľadnosti ovláda, koľko farby pixelu "
+"hornej snímky (B) sa dostane do miešaniny."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:130
 msgid ""
@@ -243,6 +323,12 @@ msgid ""
 "parameter takes this even further: it additionally scales down the upper "
 "frame (B) pixel transparency. Please see also the illustration."
 msgstr ""
+"Keď sa však pozrieme na to, ako sa vypočítava priehľadnosť výsledného "
+"pixelu, veci začínajú vyzerať inak. Videli sme, že priehľadnosť pixelu "
+"hornej snímky (B) sa zmenšuje v nepriamej úmere k priehľadnosti pixelu "
+"dolnej snímky (A). Parameter **nepriehľadnosti** to posúva ešte ďalej: "
+"dodatočne zmenšuje priehľadnosť pixelu hornej snímky (B). Pozrite si tiež "
+"ilustráciu."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:132
 msgid ""
@@ -250,6 +336,9 @@ msgid ""
 "upper frame (B) pixel is applied at all. This way, you can fade in or out "
 "the upper frame."
 msgstr ""
+"V dôsledku toho parameter nepriehľadnosti teda ovláda, koľko nepriehľadnosti "
+"pixelu hornej snímky (B) sa vôbec použije. Týmto spôsobom môžete horný "
+"snímok stmievania alebo roztmievania."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:134
 msgid ""
@@ -257,6 +346,9 @@ msgid ""
 "parameter affects both color blending** of upper frame (B) and lower frame "
 "(A) pixels, **as well as transparency of the upper frame (B)**."
 msgstr ""
+"Zhrnúť: v prípade prechodov **Kompozit** (a spol.) **parameter "
+"nepriehľadnosti ovplyvňuje tak miešanie farieb** pixelov hornej snímky (B) "
+"aj dolnej snímky (A), **ako aj priehľadnosť hornej snímky (B)**."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:141
 msgid "Notes"
@@ -267,10 +359,12 @@ msgid ""
 "Wikipedia article on |alpha_compositing|, with a reference to the original "
 "Porter Duff SIGGRAPH’84 paper on «Compositing Digital Images»."
 msgstr ""
+"Článok na Wikipédii o |alpha_compositing|, s odkazom na pôvodný článok "
+"Portera Duffa z konferencie SIGGRAPH '84 o «Compositing Digital Images»."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid "**Further Reading**"
-msgstr ""
+msgstr "**Ďalšie čítanie**"
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:157
 msgid ""
@@ -278,6 +372,9 @@ msgid ""
 "Color extensions in SVG 1.2 in 30 minutes!\" - especially the Porter Duff "
 "operator table in chapter 6 with resulting alpha calculation column."
 msgstr ""
+"Dokument |svg_open_paper| od Craiga Northwaya na tému „Understanding "
+"Compositing and Color extensions in SVG 1.2 in 30 minutes!\" – najmä tabuľka "
+"operátorov Porter Duff v kapitole 6 so stĺpcom výsledného výpočtu alpha."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:160
 msgid ""
@@ -285,6 +382,9 @@ msgid ""
 "kdenlive.org blog. For this documentation it has been lifted from |"
 "kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
+"Pôvodný text bol odoslaný používateľom *TheDiveO* na teraz už nefunkčný blog "
+"kdenlive.org. Pre túto dokumentáciu bol prevzatý z |kdenlive_org|, "
+"aktualizovaný a prispôsobený tak, aby zodpovedal celkovému štýlu."
 
 #: ../../tips_and_tricks/useful_info/compositing_with_transparency.rst:161
 msgid "**Sources**"

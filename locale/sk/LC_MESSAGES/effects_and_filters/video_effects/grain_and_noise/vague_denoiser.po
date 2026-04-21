@@ -91,7 +91,7 @@ msgstr "**Kurz**"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:14
 msgid "Wavelet Denoiser"
-msgstr ""
+msgstr "Odšumovač vlnkou"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:24
 msgid "Maintained"
@@ -110,7 +110,7 @@ msgstr "avfilter"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:30
 msgid "vaguedenoiser"
-msgstr ""
+msgstr "vaguedenoiser"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:32
 msgid "|linux| |appimage| |windows| |apple|"
@@ -133,18 +133,27 @@ msgid ""
 "wavelet transform after. Due to wavelet properties, it should give a nice "
 "smoothed result and reduced noise without blurring picture features."
 msgstr ""
+"Odšumovač založený na vlnke\\ [1]_. Každý snímok zo vstupu videa "
+"transformuje do vlnkovej domény pomocou Cohen-Daubechies-Feauveau 9/7\\ "
+"[2]_. Potom aplikuje filtrovanie na získané koeficienty a následne vykoná "
+"inverznú vlnkovú transformáciu. Vďaka vlastnostiam vlnky by mal poskytovať "
+"pekný vyhladzený výsledok a potlačený šum bez rozmazania detailov obrazu."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:49
 msgid ""
 "The effect works best with smaller threshold values. It is easy to over-"
 "filter this effect."
 msgstr ""
+"Efekt funguje najlepšie s menšími prahovými hodnotami. Tento efekt je ľahké "
+"prefiltrovať."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:51
 msgid ""
 "Using different planes and/or higher threshold values can be used for "
 "artistic manipulation of the image."
 msgstr ""
+"Použitie rôznych rovín a/alebo vyšších prahových hodnôt možno využiť na "
+"umeleckú manipuláciu s obrazom."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:54
 msgid "Parameters"
@@ -160,7 +169,7 @@ msgstr "Hodnota"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:64
 msgid "Method"
-msgstr ""
+msgstr "Metóda"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:65
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:68
@@ -170,19 +179,19 @@ msgstr "Výber"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:66
 msgid "The filtering method the filter will use. See below."
-msgstr ""
+msgstr "Metóda filtrovania, ktorú filter použije. Pozri nižšie."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:67
 msgid "Threshold Type"
-msgstr ""
+msgstr "Typ prahovej hodnoty"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:69
 msgid "The threshold type the filter will use. See below."
-msgstr ""
+msgstr "Typ prahovej hodnoty, ktorý filter použije. Pozri nižšie."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:70
 msgid "Threshold"
-msgstr ""
+msgstr "Prahová hodnota"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:71
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:74
@@ -195,10 +204,13 @@ msgid ""
 "Hard thresholding can use a higher threshold than soft thresholding before "
 "the video looks overfiltered."
 msgstr ""
+"Intenzita filtrovania. Čím vyššia, tým viac bude video filtrované. Tvrdé "
+"prahovanie môže použiť vyššiu prahovú hodnotu ako mäkké prahovanie predtým, "
+"než video vyzerá prefiltrované."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:73
 msgid "Steps"
-msgstr ""
+msgstr "Kroky"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:75
 msgid ""
@@ -206,6 +218,8 @@ msgid ""
 "decomposed beyond a particular point (typically, 8 for a 640x480 frame - as "
 "2^9 = 512 > 480)."
 msgstr ""
+"Počet krokov, ktorými vlnka rozloží obrázok. Obrázok nie je možné rozložiť "
+"za určitý bod (typicky 8 pre snímok 640x480, keďže 2^9 = 512 > 480)."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:76
 msgid "Percentage"
@@ -213,19 +227,19 @@ msgstr "Percentá"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:77
 msgid "Percent"
-msgstr ""
+msgstr "Percento"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:78
 msgid "Partial of full denoising (limited coefficients shrinking)"
-msgstr ""
+msgstr "Čiastočné alebo úplné odšumovanie (obmedzené zmenšovanie koeficientov)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:79
 msgid "Planes"
-msgstr ""
+msgstr "Roviny"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:81
 msgid "Select the planes to process. See below."
-msgstr ""
+msgstr "Vyberte roviny na spracovanie. Pozri nižšie."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:83
 msgid "The following selection items are available:"
@@ -233,55 +247,59 @@ msgstr "K dispozícii sú nasledujúce položky výberu:"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:85
 msgid ":guilabel:`Method`"
-msgstr ""
+msgstr ":guilabel:`Metóda`"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:92
 msgid "Soft"
-msgstr ""
+msgstr "Soft"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:93
 msgid ""
 "All values under the threshold will be zeroed. All values above will be "
 "reduced by the threshold."
 msgstr ""
+"Všetky hodnoty pod prahom budú vynulované. Všetky hodnoty nad prahom budú "
+"znížené o prahovú hodnotu."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:94
 msgid "Hard"
-msgstr ""
+msgstr "Hard"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:95
 msgid "All values under the threshold will be zeroed"
-msgstr ""
+msgstr "Všetky hodnoty pod prahom budú vynulované"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:96
 msgid "Garrote"
-msgstr ""
+msgstr "Garrote"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:97
 msgid ""
 "Scales or nullifies coefficients - intermediary between (more) soft and "
 "(less) hard thresholding (default)"
 msgstr ""
+"Škáluje alebo nuluje koeficienty – strední cesta medzi (viac) mäkkým a "
+"(menej) tvrdým prahovaním (predvolené)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:99
 msgid ":guilabel:`Threshold Type`"
-msgstr ""
+msgstr ":guilabel:`Typ prahovej hodnoty`"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:106
 msgid "Universal"
-msgstr ""
+msgstr "Universal"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:107
 msgid "Threshold used is same for all decompositions (default)"
-msgstr ""
+msgstr "Použitá prahová hodnota je rovnaká pre všetky rozklady (predvolené)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:108
 msgid "Bayes"
-msgstr ""
+msgstr "Bayes"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:109
 msgid "Threshold used depends also on each decomposition coefficients"
-msgstr ""
+msgstr "Použitá prahová hodnota závisí aj od koeficientov každého rozkladu"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:111
 msgid ":guilabel:`Planes`"
@@ -289,7 +307,7 @@ msgstr ":guilabel:`Roviny`"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:118
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:120
 msgid "Y (Luminance)"
@@ -309,7 +327,7 @@ msgstr "V (Chroma modrá-diff)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:128
 msgid "YV"
-msgstr ""
+msgstr "YV"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:130
 msgid "UV"
@@ -317,20 +335,20 @@ msgstr "UV"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:132
 msgid "All"
-msgstr ""
+msgstr "All"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:133
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:134
 msgid "Alpha"
-msgstr ""
+msgstr "Alpha"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:149
 msgid "|wavelet|"
-msgstr ""
+msgstr "|wavelet|"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:151
 msgid "|cohen-daubechies-feauveau| (heavy on the math behind it)"
-msgstr ""
+msgstr "|cohen-daubechies-feauveau| (heavy on the math behind it)"

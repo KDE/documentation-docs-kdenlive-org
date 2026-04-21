@@ -111,7 +111,7 @@ msgstr "frei0r"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:40
 msgid "sopsat"
-msgstr ""
+msgstr "sopsat"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:42
 msgid "|linux| |appimage| |windows| |apple|"
@@ -133,6 +133,8 @@ msgid ""
 "and the overall Saturation, according to the ASC CDL (Color Decision List)\\ "
 "[1]_"
 msgstr ""
+"Tento efekt/filter mení Sklon, Posun a Mocninu farebných zložiek a celkovú "
+"Sýtosť podľa štandardu ASC CDL (Color Decision List)\\ [1]_"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:55
 msgid ""
@@ -141,10 +143,14 @@ msgid ""
 "effects can be observed well when applied on a greyscale gradient and "
 "looking at the :ref:`view-rgb_parade`."
 msgstr ""
+"Zmena sklonu znamená násobenie hodnoty pixelu konštantnou hodnotou. Čierne "
+"pixely zostanú čierne, zatiaľ čo svetlejšie budú zmenené. Všetky efekty "
+"možno dobre pozorovať pri aplikácii na šedotónový farebný prechod a pri "
+"pohľade na :ref:`view-rgb_parade`."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:57
 msgid "You can use this effect to achieve proper white balance."
-msgstr ""
+msgstr "Tento efekt môžete použiť na dosiahnutie správneho vyváženia bielej."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:61
 msgid "Parameters"
@@ -160,7 +166,7 @@ msgstr "Hodnota"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:71
 msgid "Slope R / G / B / @"
-msgstr ""
+msgstr "Sklon R / G / B / @"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:72
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:75
@@ -174,26 +180,33 @@ msgid ""
 "Slope is the multiplier to the incoming data in the respective color "
 "channels. Allowed values are from 0 to 1000, default is 50"
 msgstr ""
+"Sklon je násobiteľ vstupných dát v príslušných farebných kanáloch. Povolené "
+"hodnoty sú od 0 do 1000, predvolená hodnota je 50"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:74
 msgid "Offset R / G / B / @"
-msgstr ""
+msgstr "Posun R / G / B / @"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:76
 msgid ""
 "Offset is a summation to the incoming data in the respective color channels. "
 "Allowed values are from 0 to 2048, default is 1024."
 msgstr ""
+"Posun je súčet vstupných dát v príslušných farebných kanáloch. Povolené "
+"hodnoty sú od 0 do 2048, predvolená hodnota je 1024."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:77
 msgid "Power R / G / B / @"
-msgstr ""
+msgstr "Mocnina R / G / B / @"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:79
 msgid ""
 "Power is a power function (i.e. 2\\ :sup:`2`) to the incoming data in the "
 "respective color channels. Allowed values are from 0 to 1000, default is 50."
 msgstr ""
+"Mocnina je mocninová funkcia (t. j. 2\\ :sup:`2`) vstupných dát v "
+"príslušných farebných kanáloch. Povolené hodnoty sú od 0 do 1000, predvolená "
+"hodnota je 50."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:80
 msgid "Overall Saturation"
@@ -204,12 +217,17 @@ msgid ""
 "Changes the overall :term:`saturation`. Allowed values are from 0 to 1000, "
 "default is 100."
 msgstr ""
+"Mení celkovú :term:`sýtosť`. Povolené hodnoty sú od 0 do 1000, predvolená "
+"hodnota je 100."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:88
 msgid ""
 "Tips & Tricks chapter :doc:`/tips_and_tricks/scopes/waveform_and_rgb_parade` "
 "where this effect is used to adjust the white balance of a clip."
 msgstr ""
+"Kapitola Tipy a triky :doc:`/tips_and_tricks/scopes/"
+"waveform_and_rgb_parade`, kde sa tento efekt používa na nastavenie vyváženia "
+"bielej klipu."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:92
 msgid "Notes"
@@ -222,46 +240,54 @@ msgid ""
 "the ASC :abbr:`CDL (Color Decision List)`\\ [1]_ with the goal to exchange "
 "rudimentary color correction information between post-production tools."
 msgstr ""
+"Tento filter implementuje štandardný spôsob korekcie farieb navrhnutý "
+"Americkou spoločnosťou kameramanov: Zoznam rozhodnutí o farbe, tiež známy "
+"ako ASC :abbr:`CDL (Color Decision List)`\\ [1]_, s cieľom výmeny základných "
+"informácií o korekcii farieb medzi nástrojmi postprodukcie."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:95
 msgid ""
 "The ASC CDL is a standard format for basic primary color correction (primary "
 "meaning affecting the whole image and not only selected parts)."
 msgstr ""
+"ASC CDL je štandardný formát pre základnú primárnu korekciu farieb (primárna "
+"znamená ovplyvňujúca celý obraz, nielen vybrané časti)."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:97
 msgid "Basically there are two stages in the correction:"
-msgstr ""
+msgstr "Korekcia sa v zásade skladá z dvoch fáz:"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:99
 msgid "SOP correction for each channel separately"
-msgstr ""
+msgstr "Korekcia SOP pre každý kanál zvlášť"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:100
 msgid "Overall saturation correction"
-msgstr ""
+msgstr "Celková korekcia sýtosti"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:102
 msgid ""
 "All corrections work on [0,1], so the RGB(A) values need to be transposed "
 "from [0,...,255] to [0,1]."
 msgstr ""
+"Všetky korekcie pracujú v rozsahu [0,1], takže hodnoty RGB(A) je potrebné "
+"previesť z [0,...,255] na [0,1]."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:104
 msgid "SOP correction"
-msgstr ""
+msgstr "Korekcia SOP"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:106
 msgid "Slope:   ``out = in * slope;   0 <= slope < ∞``"
-msgstr ""
+msgstr "Sklon:   ``out = in * slope;   0 <= slope < ∞``"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:107
 msgid "Offset:  ``out = in + offset;  -∞ < offset < ∞``"
-msgstr ""
+msgstr "Posun:   ``out = in + offset;  -∞ < offset < ∞``"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:108
 msgid "Power:   ``out = in^power;     0 < power < ∞``"
-msgstr ""
+msgstr "Mocnina: ``out = in^power;     0 < power < ∞``"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:110
 msgid "Saturation"
@@ -269,20 +295,22 @@ msgstr "Sýtosť"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:112
 msgid "Luma:    ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (according to Rec. 709)"
-msgstr ""
+msgstr "Jas (luma): ``Y = 0.2126 R + 0.7152 G + 0.0722 B`` (podľa Rec. 709)"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:113
 msgid "For all channels: ``out = luma + sat * (in-luma)``"
-msgstr ""
+msgstr "Pre všetky kanály: ``out = luma + sat * (in-luma)``"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:115
 msgid ""
 "As the values may exceed 1 (or 0), they need to be clipped where necessary."
 msgstr ""
+"Keďže hodnoty môžu prekročiť 1 (alebo 0), je potrebné ich tam, kde je to "
+"nutné, orezať."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/sat.rst:120
 msgid "More details can be found in this article: |cdl_explained|."
-msgstr ""
+msgstr "Viac podrobností nájdete v tomto článku: |cdl_explained|."
 
 #~ msgid "Contents"
 #~ msgstr "Obsah"

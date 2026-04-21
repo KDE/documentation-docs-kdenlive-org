@@ -46,12 +46,17 @@ msgid ""
 "**Kdenlive** provides functionality for capturing video using |blackmagic|'s "
 "|decklink|, and via ScreenGrab."
 msgstr ""
+"**Kdenlive** poskytuje funkciu na zachytávanie videa pomocou zariadenia |"
+"decklink| od |blackmagic| a cez ScreenGrab."
 
 #: ../../project_and_asset_management/capturing_video.rst:40
 msgid ""
 "For other devices, mostly connected via Firewire (also known as IEEE 1394 "
 "High Speed Serial Bus) card and cable, use |dvgrab| directly in a terminal."
 msgstr ""
+"Pre ostatné zariadenia, väčšinou pripojené cez kartu a kábel Firewire (tiež "
+"známe ako IEEE 1394 High Speed Serial Bus), použite |dvgrab| priamo v "
+"termináli."
 
 #: ../../project_and_asset_management/capturing_video.rst:42
 msgid ""
@@ -59,6 +64,9 @@ msgid ""
 "Configure Kdenlive -->` :doc:`Capture</getting_started/configure_kdenlive/"
 "configuration_capture>`."
 msgstr ""
+"Zachytávanie videa nakonfigurujete cez :menuselection:`Menu --> Settings --> "
+"Configure Kdenlive -->` :doc:`Capture</getting_started/configure_kdenlive/"
+"configuration_capture>`."
 
 #: ../../project_and_asset_management/capturing_video.rst:44
 msgid ""
@@ -66,6 +74,9 @@ msgid ""
 "menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment --"
 ">` :ref:`Default Folders<configure_environment_default_folders>`."
 msgstr ""
+"Cieľové umiestnenie pre vaše záznamy definujete pomocou :menuselection:`Menu "
+"--> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default "
+"Folders<configure_environment_default_folders>`."
 
 #: ../../project_and_asset_management/capturing_video.rst:48
 msgid "Screen Grab"
@@ -76,6 +87,8 @@ msgid ""
 "This captures video off the PC screen. Enable the Screen Grab widget via :"
 "menuselection:`Menu --> View --> Screen Grab`."
 msgstr ""
+"Toto zachytáva video z obrazovky počítača. Povolte widget Screen Grab cez :"
+"menuselection:`Menu --> View --> Screen Grab`."
 
 #: ../../project_and_asset_management/capturing_video.rst:53
 msgid ""
@@ -85,30 +98,35 @@ msgid ""
 "be added to the dock where the Project Bin or the Library is. Docking it to "
 "the Clip Monitor widget prevents a message from being visible."
 msgstr ""
+"Akékoľvek problémy alebo chyby pri zachytávaní obrazovky sa zobrazia vo "
+"widgete Clip Monitor. Odporúča sa presunúť widget Screen Grab na miesto, kde "
+"je monitor klipu ľahko viditeľný. Napríklad widget Screen Grab možno pridať "
+"do doku, kde sa nachádza zásobník projektu alebo knižnica. Jeho ukotvenie k "
+"widgetu Clip Monitor zabraňuje zobrazeniu správy."
 
 #: ../../project_and_asset_management/capturing_video.rst:60
 msgid "The Screen Grab widget"
-msgstr ""
+msgstr "Widget Screen Grab"
 
 #: ../../project_and_asset_management/capturing_video.rst:63
 msgid ":guilabel:`Monitor 0/1`:"
-msgstr ""
+msgstr ":guilabel:`Monitor 0/1`:"
 
 #: ../../project_and_asset_management/capturing_video.rst:63
 msgid "Select the monitor to record from"
-msgstr ""
+msgstr "Vyberte monitor, z ktorého sa má nahrávať"
 
 #: ../../project_and_asset_management/capturing_video.rst:66
 msgid "|media-record|\\ :guilabel:`Screen Grab`:"
-msgstr ""
+msgstr "|media-record|\\ :guilabel:`Screen Grab`:"
 
 #: ../../project_and_asset_management/capturing_video.rst:66
 msgid "Start/Stop recording"
-msgstr ""
+msgstr "Spustiť/zastaviť nahrávanie"
 
 #: ../../project_and_asset_management/capturing_video.rst:69
 msgid "|configure|\\ :guilabel:`Configure Recording`:"
-msgstr ""
+msgstr "|configure|\\ :guilabel:`Configure Recording`:"
 
 #: ../../project_and_asset_management/capturing_video.rst:69
 msgid ""
@@ -116,20 +134,26 @@ msgid ""
 "`Screen Grab</getting_started/configure_kdenlive/configuration_capture>` "
 "window"
 msgstr ""
+"Otvorí okno :doc:`Screen Grab</getting_started/configure_kdenlive/"
+"configuration_capture>` v Kdenlive cez :menuselection:`Menu --> Settings --> "
+"Capture -->`"
 
 #: ../../project_and_asset_management/capturing_video.rst:73
 msgid "The recorded clip will be added to the project bin."
-msgstr ""
+msgstr "Nahraný klip sa pridá do zásobníka projektu."
 
 #: ../../project_and_asset_management/capturing_video.rst:76
 msgid "Possible issues"
-msgstr ""
+msgstr "Možné problémy"
 
 #: ../../project_and_asset_management/capturing_video.rst:77
 msgid ""
 "Screen grab uses ffmpeg for recording and encoding. Most issues have to do "
 "with the version of ffmpeg installed or how ffmpeg was compiled."
 msgstr ""
+"Zachytávanie obrazovky používa ffmpeg na nahrávanie a kódovanie. Väčšina "
+"problémov súvisí s verziou nainštalovaného ffmpeg alebo spôsobom jeho "
+"kompilácie."
 
 #: ../../project_and_asset_management/capturing_video.rst:79
 msgid ""
@@ -138,6 +162,10 @@ msgid ""
 "version`` in a terminal and look for that parameter in the information "
 "reported back by ffmpeg. [1]_"
 msgstr ""
+"Konkrétne, ffmpeg potrebuje na zachytávanie obrazovky parameter ``--enable-"
+"x11grab``. Skontrolujte svoju distribúciu Linuxu pre tento parameter ffmpeg "
+"zadaním ``ffmpeg -version`` v termináli a hľadajte tento parameter v "
+"informáciách, ktoré ffmpeg vráti. [1]_"
 
 #: ../../project_and_asset_management/capturing_video.rst:81
 msgid ""
@@ -146,6 +174,10 @@ msgid ""
 "for Screen Capture where ``-acodec pcm_s16le``  is replaced by ``-acodec "
 "libvorbis -b 320k``."
 msgstr ""
+"Ak zachytávate obrazovku a používate nastavenie :guilabel:`x246 with audio`, "
+"nahrávanie môže zlyhať. V takom prípade vytvorte profil kódovania pre "
+"zachytávanie obrazovky, kde ``-acodec pcm_s16le`` nahradíte výrazom ``-"
+"acodec libvorbis -b 320k``."
 
 #: ../../project_and_asset_management/capturing_video.rst:85
 msgid "Blackmagic"
@@ -154,6 +186,8 @@ msgstr "Blackmagic"
 #: ../../project_and_asset_management/capturing_video.rst:87
 msgid "This is for capturing from Blackmagic's |decklink| video capture cards."
 msgstr ""
+"Toto je určené na zachytávanie z obrazových zachytávacích kariet |decklink| "
+"od Blackmagic."
 
 #: ../../project_and_asset_management/capturing_video.rst:90
 msgid ""
@@ -162,6 +196,10 @@ msgid ""
 "is not knowing how many users actually perform video capturing with this "
 "hardware."
 msgstr ""
+"Táto časť Kdenlive nemala žiadny väčší vývoj ani testovanie. Môže fungovať, "
+"alebo môže mať problémy. Neboli vytvorené žiadne hlásenia chýb, ale nevie "
+"sa, koľko používateľov skutočne vykonáva zachytávanie videa s týmto "
+"hardvérom."
 
 #: ../../project_and_asset_management/capturing_video.rst:96
 msgid ""
@@ -171,3 +209,7 @@ msgid ""
 "does not. So this method to check for the ``--enable-x11grab`` does not work "
 "if you have the *Libav* version of *ffmpeg*."
 msgstr ""
+"Teraz existujú dve vetvy *ffmpeg*: vetva *Libav* a vetva ffmpeg.org. Verzia "
+"*ffmpeg* z poslednej vetvy hlási konfiguráciu pri spustení s ``ffmpeg -"
+"version``. Verzia *Libav* to nerobí. Takže táto metóda kontroly ``--enable-"
+"x11grab`` nefunguje, ak máte verziu *Libav* programu *ffmpeg*."
