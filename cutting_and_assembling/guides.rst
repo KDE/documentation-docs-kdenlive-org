@@ -47,7 +47,7 @@ Following procedures add a timeline marker at the timeline playhead position:
 * **Menu**
 
   * :menuselection:`Markers --> Add/Remove Timeline Marker`
-  * Right click on :ref:`timeline ruler<timeline_ruler>` and choose in the menu :guilabel:`Add/Remove Timeline Marker`
+  * Right click on :ref:`timeline ruler <timeline_ruler>` and choose in the menu :guilabel:`Add/Remove Timeline Marker`
   * Right click in the timeline and choose :guilabel:`Add/Remove TimeLine Marker`
 
 .. .. versionadded:: 24.08 Insert guides in 10 different categories using NumPad 
@@ -61,7 +61,7 @@ Following procedures add a timeline marker at the timeline playhead position:
 
   .. figure:: /images/Kdenlive_add_guide_double-click.png
 
-  * Double-click on top of the :ref:`timeline ruler<timeline_ruler>` and the timeline marker gets added where you have clicked
+  * Double-click on top of the :ref:`timeline ruler <timeline_ruler>` and the timeline marker gets added where you have clicked
 
 
 .. _timeline_ruler_right-click_menu:

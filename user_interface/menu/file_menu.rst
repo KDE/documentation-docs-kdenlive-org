@@ -67,7 +67,7 @@ Creates a new Kdenlive project. The default keyboard shortcut is :kbd:`Ctrl+N`.
 
 See :ref:`quickstart`.
 
-The default settings that appear on this feature are defined in :menuselection:`Menu --> Settings --> Configure Kdenlive`. See the chapter :doc:`Configure Kdenlive</getting_started/configuration>` for more details.
+The default settings that appear on this feature are defined in :menuselection:`Menu --> Settings --> Configure Kdenlive`. See the chapter :doc:`Configure Kdenlive </getting_started/configuration>` for more details.
 
 
 .. _file_open:
@@ -161,7 +161,7 @@ This function allows you to copy all files required by the project to a specific
    
    Archiving a project
 
-Please refer to the :doc:`archiving</project_and_asset_management/file_management/archiving>` section of this documentation for more details.
+Please refer to the :doc:`archiving </project_and_asset_management/file_management/archiving>` section of this documentation for more details.
 
 .. rst-class:: clear-both
 
@@ -228,7 +228,7 @@ This function opens the list of automatic backups of the project Kdenlive create
    
    Restore a backup file
 
-From here you can select the restore point you want to go back to. More details are available in the :doc:`backup</project_and_asset_management/file_management/backup>` section of this documentation.
+From here you can select the restore point you want to go back to. More details are available in the :doc:`backup </project_and_asset_management/file_management/backup>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -246,7 +246,7 @@ This function opens the Project Settings dialog where you can set all basic prop
    
    Project Settings window
    
-More details about the various parameters and tabs are available in the :doc:`Project Settings</project_and_asset_management/project_settings/general_settings>` section of the documentation.
+More details about the various parameters and tabs are available in the :doc:`Project Settings </project_and_asset_management/project_settings/general_settings>` section of the documentation.
 
 .. attention:: Certain things cannot be changed once assets have been added to the project or put on the timeline. Changing certain properties of the project may lead to unwanted results. It is highly recommended to create a copy of the project file before changing project settings.
 

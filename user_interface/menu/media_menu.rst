@@ -105,7 +105,7 @@ This function allows you to add video, audio and (single) image files from your 
    
    Adding a clip or entire folder
    
-A more detailed explanation of this function is available in the :doc:`clips</project_and_asset_management/project_bin/clips>` section of this documentation.
+A more detailed explanation of this function is available in the :doc:`clips </project_and_asset_management/project_bin/clips>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -234,13 +234,13 @@ Please refer to the :ref:`sequence` section of this documentation for more detai
 Generators
 ~~~~~~~~~~
 
-This function allows to create :doc:`generated clips</project_and_asset_management/project_bin/generators>` in your Project Bin for
+This function allows to create :doc:`generated clips </project_and_asset_management/project_bin/generators>` in your Project Bin for
 
 * Counter
 * Color Bars (old TV test display)
 * White Noise
 
-This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin. See the :doc:`Clips</project_and_asset_management/project_bin/clips>` section in this documentation for more details.
+This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin. See the :doc:`Clips </project_and_asset_management/project_bin/clips>` section in this documentation for more details.
 
 
 .. _create_folder:
@@ -250,11 +250,11 @@ Create Folder
 
 This function creates a new folder in the Project Bin.
 
-The folder is a virtual folder and very useful to keep your assets organized. You can also create separate bins from each folder (see the :doc:`Multiple Bins</project_and_asset_management/project_bin/project_bin_use_multiple_bins>` section)
+The folder is a virtual folder and very useful to keep your assets organized. You can also create separate bins from each folder (see the :doc:`Multiple Bins </project_and_asset_management/project_bin/project_bin_use_multiple_bins>` section)
 
 This function is also available from the menu bar of the Project Bin and by right-click on empty space in the Project Bin.
 
-More details are available in the :doc:`Create Folder</project_and_asset_management/project_bin/project_bin_use_folders>` section of this documentation.
+More details are available in the :doc:`Create Folder </project_and_asset_management/project_bin/project_bin_use_folders>` section of this documentation.
 
 .. tip:: A good way to keep your Project Bin neat and tidy is to have bin folders or separate bins for your footage (main video), B-roll, audio, still images, SFX and VFX, titles and so on.
 
@@ -563,7 +563,7 @@ Transcode
    
 Use this function to transcode your source material into a wide variety of other formats. This function is also available via the right-click menu for the clip(s) selected in the Project Bin.
 
-Choose a transcode profile from the available list to transcode the selected clip into a different video format. The options are controlled by :doc:`Transcode Settings</getting_started/configure_kdenlive/configuration_transcode>`. The transcoding is done by the |ffmpeg| program.
+Choose a transcode profile from the available list to transcode the selected clip into a different video format. The options are controlled by :doc:`Transcode Settings </getting_started/configure_kdenlive/configuration_transcode>`. The transcoding is done by the |ffmpeg| program.
 
 .. figure:: /images/user_interface/menu_reference/kdenlive2304_transcode_clips.webp
    :align: left
@@ -699,7 +699,7 @@ This menu item opens the Clip Properties widget and displays the properties of t
 
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
-For more details see the chapter :doc:`Clip Properties</project_and_asset_management/project_bin/clip_properties>`.
+For more details see the chapter :doc:`Clip Properties </project_and_asset_management/project_bin/clip_properties>`.
 
 .. rst-class:: clear-both
 
@@ -784,7 +784,7 @@ You can undo this action with :menuselection:`Menu --> Edit --> Undo`, through t
 .. rst-class:: clear-both
 
 .. note::
-   This is different from the :doc:`Project Settings</project_and_asset_management/project_settings>` dialog button :guilabel:`Delete Files` in the :doc:`Project Files</project_and_asset_management/project_settings/tab_project_files>` tab which deletes files not used by the project from the hard drive.
+   This is different from the :doc:`Project Settings </project_and_asset_management/project_settings>` dialog button :guilabel:`Delete Files` in the :doc:`Project Files </project_and_asset_management/project_settings/tab_project_files>` tab which deletes files not used by the project from the hard drive.
 
 
 ----

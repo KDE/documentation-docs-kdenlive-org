@@ -40,7 +40,7 @@ Erosion
 
 .. rubric:: Description
 
-This effect/filter simulates image erosion, an effect which will enlarge the darkest pixels in the image by replacing the pixel by the local (3x3) minimum. It is the opposite of the :doc:`Dilation</effects_and_filters/video_effects/image_adjustment/dilation>` effect.
+This effect/filter simulates image erosion, an effect which will enlarge the darkest pixels in the image by replacing the pixel by the local (3x3) minimum. It is the opposite of the :doc:`Dilation </effects_and_filters/video_effects/image_adjustment/dilation>` effect.
 
 
 .. rubric:: Parameters

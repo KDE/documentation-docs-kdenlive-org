@@ -54,7 +54,7 @@ This effect/filter adjusts the color :term:`temperature` in video or images to s
      - Description
    * - Temperature
      - Float
-     - Set the temperature in :term:`Kelvin<kelvin>`. Allowed values are from 1,000 to 40,000, default is 6,500K
+     - Set the temperature in :term:`Kelvin <kelvin>`. Allowed values are from 1,000 to 40,000, default is 6,500K
    * - Mix
      - Float
      - Set the mix with filtered output. Allowed values are from 0.0 to 1.0, default value is 1.0.

@@ -109,31 +109,31 @@ What's New
 
 .. versionadded:: 25.08 (see 25.08_ release notes)
 
-   * Added checkerboard option in :ref:`clip monitor<ui-monitors_clip_monitor_hamburger>`
-   * Added possibility to :ref:`hide all tracks at once<sequence-menu_tracks>`
-   * Added possibility to :doc:`make autosave configurable</getting_started/configure_kdenlive/configuration_misc>`
-   * Revamp and updated the :doc:`titler</titles_and_graphics/titles/title_images>`
-   * Revamp and updated the :doc:`notes widget</project_and_asset_management/project_notes>`
-   * Added possibility for :ref:`timecode offset per sequence<sequence_timecode_offset>`
-   * Added possibility to :ref:`show thumbnails/all project clip markers in markers list<guide_view>`
-   * Removed link to app :ref:`MediaInfo<configure_environment_mlt>`
-   * Added possibility to :ref:`manually clear all undo history<undo_history>`
+   * Added checkerboard option in :ref:`clip monitor <ui-monitors_clip_monitor_hamburger>`
+   * Added possibility to :ref:`hide all tracks at once <sequence-menu_tracks>`
+   * Added possibility to :doc:`make autosave configurable </getting_started/configure_kdenlive/configuration_misc>`
+   * Revamp and updated the :doc:`titler </titles_and_graphics/titles/title_images>`
+   * Revamp and updated the :doc:`notes widget </project_and_asset_management/project_notes>`
+   * Added possibility for :ref:`timecode offset per sequence <sequence_timecode_offset>`
+   * Added possibility to :ref:`show thumbnails/all project clip markers in markers list <guide_view>`
+   * Removed link to app :ref:`MediaInfo <configure_environment_mlt>`
+   * Added possibility to :ref:`manually clear all undo history <undo_history>`
    * Added possibility to :ref:`align clip based on SMPTE-esque timecode<delete_items>`
-   * Added possibility to :ref:`expand/collapse items (effects, folders) and navigate effects with arrows<track_header>`
-   * Added in the timeline :ref:`ctrl+x for cut<edit_menu>`
-   * Added possibility to :doc:`disable power management while rendering or when playback</getting_started/configure_kdenlive/configuration_environment>`
-   * Revamp :ref:`audio mixer and levels<audio_mixer>`
-   * Added possibility to :ref:`create a new subtitle layer by Shift+drag a subtitle down<subtitle-multi-layer_subtitling>`
+   * Added possibility to :ref:`expand/collapse items (effects, folders) and navigate effects with arrows <track_header>`
+   * Added in the timeline :ref:`ctrl+x for cut <edit_menu>`
+   * Added possibility to :doc:`disable power management while rendering or when playback </getting_started/configure_kdenlive/configuration_environment>`
+   * Revamp :ref:`audio mixer and levels <audio_mixer>`
+   * Added possibility to :ref:`create a new subtitle layer by Shift+drag a subtitle down <subtitle-multi-layer_subtitling>`
 
 
 .. versionadded:: 25.04 (see 25.04_ release notes)
 
-   * Introduced :doc:`object segmentation</effects_and_filters/video_effects/alpha_mask_keying/object_mask>`
+   * Introduced :doc:`object segmentation </effects_and_filters/video_effects/alpha_mask_keying/object_mask>`
    * Introduced support for :ref:`OpenTimeLineIO import and export <file_opentimelineio_export>`
    * Added possibility to :ref:`zoom waveform in the audio track <status_bar>`
-   * Added possibility to :ref:`collapse and expand all effects in the effect stack<effect_functions>`
-   * Added in the :ref:`duration dialog a checkbox for ripple delete<resizing_multiple_timeline_items>`
-   * Added :doc:`shortcuts for find next/previous text phrase in the project notes</project_and_asset_management/project_notes>`
+   * Added possibility to :ref:`collapse and expand all effects in the effect stack <effect_functions>`
+   * Added in the :ref:`duration dialog a checkbox for ripple delete <resizing_multiple_timeline_items>`
+   * Added :doc:`shortcuts for find next/previous text phrase in the project notes </project_and_asset_management/project_notes>`
 
 
 .. versionadded:: 24.12 (see 24.12_ release notes)
@@ -210,7 +210,7 @@ What's New
 
    * Added ability to :ref:`switch between a menubar and a hamburger menu <menubar>`
    * New timeline menu entry :ref:`Current Track <sequence_menu>`
-   * Removed the marker tab from :doc:`clip properties</project_and_asset_management/project_bin/clip_properties>`
+   * Removed the marker tab from :doc:`clip properties </project_and_asset_management/project_bin/clip_properties>`
    * Added ability to :ref:`double-click on animation to edit <edit_an-animation>`
    * Added new function to :ref:`remove all spaces <remove_spaces>` in the current track
    * Added the ability to :ref:`manage categories and guides <managing_guides>`

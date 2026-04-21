@@ -153,7 +153,7 @@ You can delete, re-arrange, reset, import and export the saved layouts.
 Show Title Bars
 ---------------
 
-:guilabel:`Show Title Bars` toggles the display of the title bars of the various :term:`widgets<widget>` on and off. Turn it off if you need more real estate on your screen. For some widgets you need titlebars to move them around.
+:guilabel:`Show Title Bars` toggles the display of the title bars of the various :term:`widgets <widget>` on and off. Turn it off if you need more real estate on your screen. For some widgets you need titlebars to move them around.
    
 .. figure:: /images/user_interface/menu_reference/kdenlive_show_titles01.webp
    :align: left
@@ -229,7 +229,7 @@ Switches the Clip Properties :term:`widget` on or off.
    
 The Clip Properties :term:`widget` displays the properties of the selected clip. You can change some of the properties.
 
-For more details see the chapter :doc:`Clip Properties</project_and_asset_management/project_bin/clip_properties>`.
+For more details see the chapter :doc:`Clip Properties </project_and_asset_management/project_bin/clip_properties>`.
 
 .. rst-class:: clear-both
 
@@ -247,7 +247,7 @@ Switches the Compositions :term:`widget` on or off.
    
    Kdenlive Compositions widget
    
-The Compositions :term:`widget` lists all compositions available in Kdenlive. See the chapter about :doc:`Compositions</compositing/compositions>` for more details and a list of available Compositions.
+The Compositions :term:`widget` lists all compositions available in Kdenlive. See the chapter about :doc:`Compositions </compositing/compositions>` for more details and a list of available Compositions.
 
 You can drag a composition from the list and drop it on a clip in the Timeline.
 
@@ -347,7 +347,7 @@ Switches the Online Resources :term:`widget` on or off.
 
 The Online Resources :term:`widget` allows you to include assets from various online media providers like Pixabay or Pexels in your project.
 
-See also the :doc:`Online Resources</project_and_asset_management/project_bin/online_resources>` section of this documentation.
+See also the :doc:`Online Resources </project_and_asset_management/project_bin/online_resources>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -472,7 +472,7 @@ For more information read the Tips & Tricks chapter about :doc:`/tips_and_tricks
 
 See also the :doc:`/effects_and_filters/video_effects/utility/histogram` video effect.
 
-.. attention:: Versions before 21.12.2 had an issue in Windows where scopes did not show anything. For more details and a workaround please refer to the :ref:`Windows issues<issue-scopes>` section.
+.. attention:: Versions before 21.12.2 had an issue in Windows where scopes did not show anything. For more details and a workaround please refer to the :ref:`Windows issues <issue-scopes>` section.
 
 
 .. _view-rgb_parade:
@@ -544,7 +544,7 @@ Contrary to what its name might suggest the Waveform :term:`widget` is not for a
 
 .. rst-class:: clear-both
 
-More details are available in the :doc:`Tips & Tricks</tips_and_tricks/index>` chapter about the :doc:`Waveform </tips_and_tricks/scopes/waveform_and_rgb_parade>` in the section about :doc:`/tips_and_tricks/scopes/index`.
+More details are available in the :doc:`Tips & Tricks </tips_and_tricks/index>` chapter about the :doc:`Waveform </tips_and_tricks/scopes/waveform_and_rgb_parade>` in the section about :doc:`/tips_and_tricks/scopes/index`.
 
 See also the :doc:`/effects_and_filters/video_effects/utility/video_waveform_monitor` video effect.
 

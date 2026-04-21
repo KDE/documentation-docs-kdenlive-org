@@ -152,7 +152,7 @@ Example:
 
 - ``project_bin-create_animation-2208.webp``   
 
-Try to avoid having a lot of images. Use a single image that shows all of the relevant areas placed at the top of the section. Numbering the features and then explain the features in that order. Like :doc:`this example</project_and_asset_management/project_bin/project_bin_use>`.
+Try to avoid having a lot of images. Use a single image that shows all of the relevant areas placed at the top of the section. Numbering the features and then explain the features in that order. Like :doc:`this example </project_and_asset_management/project_bin/project_bin_use>`.
 
 
 Further information

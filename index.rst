@@ -18,7 +18,7 @@ Welcome to the manual for `Kdenlive <https://kdenlive.org>`__, the free and open
 
 The current Kdenlive version you get `here <https://kdenlive.org/download/>`__. Check out :doc:`what's new </more_information/whats_new>`.
 
-You can download this manual as an `EPUB <epub/KdenliveManual.epub>`_.
+You can download this manual as an `EPUB <epub/KdenliveManual.epub>`__.
 
 ###############
 Getting started
@@ -60,13 +60,13 @@ User Interface
 
     .. container:: tile
 
-       :doc:`Project Settings</project_and_asset_management/project_settings>`
+       :doc:`Project Settings </project_and_asset_management/project_settings>`
           Setting the correct project values
 
     .. container:: tile
 
        Key components
-          :doc:`Project Bin</project_and_asset_management/project_bin>`
+          :doc:`Project Bin </project_and_asset_management/project_bin>`
 
           :ref:`Timeline`
 
@@ -111,7 +111,7 @@ Workflow
        .. figure:: /images/intro_page/Index_Effects.png
           :target: effects_and_filters.html
 
-       :doc:`Effects and Filters<effects_and_filters>`
+       :doc:`Effects and Filters <effects_and_filters>`
           Add video and audio effects and filters
 
           Create Titles and Subtitles and use Speech to Text
@@ -123,7 +123,7 @@ Workflow
        .. figure:: /images/intro_page/index_transitions.webp
           :target: compositing.html
 
-       :doc:`Transitions and Compositions</compositing>`
+       :doc:`Transitions and Compositions </compositing>`
           Add transitions between clips to advance your story
 
           Add artistic and aesthetic compositions
@@ -134,7 +134,7 @@ Workflow
        .. figure:: /images/intro_page/index_titles.gif
           :target: titles_and_graphics.html
 
-       :doc:`Titles and Graphics</titles_and_graphics/titles_and_graphics>`
+       :doc:`Titles and Graphics </titles_and_graphics/titles_and_graphics>`
           Add titles and graphics to your video
 
           Integration with Glaxnimate for vector animations
@@ -157,7 +157,7 @@ Troubleshooting, Glossary, Get Involved
 
    .. container:: tile
 
-      :doc:`Troubleshooting</troubleshooting>`
+      :doc:`Troubleshooting </troubleshooting>`
          Solving specific :ref:`troubleshooting-windows_issues`
 
          General problem solving

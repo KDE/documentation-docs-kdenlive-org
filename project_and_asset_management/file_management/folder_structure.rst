@@ -39,13 +39,13 @@ Folder Structure
 
 The standard file structure for project related files for caching purposes is as follows:
 
-* :file:`<project_folder>/proxy/` for the :doc:`clips</project_and_asset_management/project_bin/clips>` that have been generated
+* :file:`<project_folder>/proxy/` for the :doc:`clips </project_and_asset_management/project_bin/clips>` that have been generated
 
 * :file:`<project_folder>/thumbs/` for thumbnails of all used clips
 
-* :file:`<project_folder>/titles/` default location for the :doc:`title clips</titles_and_graphics/titles/titles>` saved outside the project file
+* :file:`<project_folder>/titles/` default location for the :doc:`title clips </titles_and_graphics/titles/titles>` saved outside the project file
 
-* :file:`<project_folder>/.backup/` for your project's automatic :doc:`backups</project_and_asset_management/file_management/backup>`. These directories can be deleted if not required anymore (for example for saving space on the harddrive). **Kdenlive** will create backup files again when you load the project the next time but only from that point forward.
+* :file:`<project_folder>/.backup/` for your project's automatic :doc:`backups </project_and_asset_management/file_management/backup>`. These directories can be deleted if not required anymore (for example for saving space on the harddrive). **Kdenlive** will create backup files again when you load the project the next time but only from that point forward.
 
 
 .. warning::
@@ -65,4 +65,4 @@ Source clips can be located anywhere. Still, here are some thoughts about their 
 You can find some examples on |artgrid|, |owc|, and |awesomecontentcreator|.
 
 .. tip:: 
-   You can check the file usage for your project via the :doc:`project files tab</project_and_asset_management/project_settings/tab_project_files>` and the :doc:`cached data tab</project_and_asset_management/project_settings/tab_cache_data>` in the :doc:`project settings</project_and_asset_management/project_settings>`.
+   You can check the file usage for your project via the :doc:`project files tab </project_and_asset_management/project_settings/tab_project_files>` and the :doc:`cached data tab </project_and_asset_management/project_settings/tab_cache_data>` in the :doc:`project settings </project_and_asset_management/project_settings>`.

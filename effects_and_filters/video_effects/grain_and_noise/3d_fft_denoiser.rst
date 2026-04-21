@@ -81,7 +81,7 @@ This effect/filter denoises frames using 3D FFT (Fast Fourier Transform) frequen
      - Check to include next frame in denoising. Default is off.
    * - Planes
      - Selection
-     - Set :term:`planes<plane>` which will be filtered, by default all available are filtered except alpha.
+     - Set :term:`planes <plane>` which will be filtered, by default all available are filtered except alpha.
 
 The following selection items are available:
 

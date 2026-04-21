@@ -226,7 +226,7 @@ The following blending modes basically invert white or light colors:
 Color
 =====
 
-The following blending modes play with :term:`hues<hue>`, :term:`saturation`, and brightness (aka :term:`luminance`, hence the acronym HSL):
+The following blending modes play with :term:`hues <hue>`, :term:`saturation`, and brightness (aka :term:`luminance`, hence the acronym HSL):
 
 :HSL hue:
    This blending mode preserves the luma and saturation (:term:`chroma`) of the base layer, while taking the hue of the blend layer.

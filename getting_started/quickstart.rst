@@ -263,7 +263,7 @@ A few minutes left, and the project is finished! Click the Render button (or go 
 
 .. [1] If you prefer Theora (which you probably do not since Ogg Video usually causes problems), you can alternatively download :download:`kdenlive-tutorial-videos-2011-ogv.tar.bz2 </files/kdenlive-tutorial-videos-2011-ogv.tar.bz2>`.
 .. [#] |wiki_720p| is the video height, **p** stands for |wiki_prog| (in contrast to |wiki_inter|), and the fps number denotes the number of full frames per second.
-.. [#] Provided Configure Kdenlive Settings under :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>` is set to *Check if first added clip matches project profile*
+.. [#] Provided Configure Kdenlive Settings under :doc:`Misc </getting_started/configure_kdenlive/configuration_misc>` is set to *Check if first added clip matches project profile*
 .. [#] To be correct, it *can* be played using ``melt yourproject.kdenlive``, but this is not the way you would want to present your final video since it is (most likely) too slow. Additionally, it only works if melt is installed.
 .. [#] Besides drag and drop you can use :doc:`../user_interface/shortcuts` and clip zones to insert clips into the timeline. See :ref:`3-point editing <three_point_editing>` and :ref:`using clip zones <ui-monitors_cm_clip_zone>` for more details.
 .. [#] Writing it this way suggests that there are several ways of cutting a clip. This is in fact true.

@@ -34,7 +34,7 @@ The first tab in the Project Settings dialog is for general project settings. It
 
 .. rst-class:: clear-both
 
-:1: The available tabs for the different settings: Settings, :doc:`Proxy</project_and_asset_management/project_settings/proxy_settings>`, :doc:`Markers</project_and_asset_management/project_settings/guides_settings>`, :doc:`Metadata</project_and_asset_management/project_settings/tab_meta_data>`, :doc:`Project Files</project_and_asset_management/project_settings/tab_project_files>`, and :doc:`Cache Data</project_and_asset_management/project_settings/tab_cache_data>`. The two latter ones are only available via :menuselection:`Menu --> File --> Project Settings`.
+:1: The available tabs for the different settings: Settings, :doc:`Proxy </project_and_asset_management/project_settings/proxy_settings>`, :doc:`Markers </project_and_asset_management/project_settings/guides_settings>`, :doc:`Metadata </project_and_asset_management/project_settings/tab_meta_data>`, :doc:`Project Files </project_and_asset_management/project_settings/tab_project_files>`, and :doc:`Cache Data </project_and_asset_management/project_settings/tab_cache_data>`. The two latter ones are only available via :menuselection:`Menu --> File --> Project Settings`.
       
 :2: Defines how to set up the :ref:`project folder <project_folder>`
 
@@ -102,7 +102,7 @@ For example, if your desired output is a 4K video, select one of the 4K profiles
 
 You can manage the list of project profiles from here. Click on the |configure|\ :guilabel:`Manage project profiles` icon. By default, the profile currently highlighted in the list will be opened for editing. In case this is the profile used in the current project, an error message will be displayed saying that it cannot be edited while the project is open.
 
-Further details can be found in the :doc:`Configure Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>` section of this documentation.
+Further details can be found in the :doc:`Configure Project Defaults </getting_started/configure_kdenlive/configuration_project_defaults>` section of this documentation.
 
 .. rst-class:: clear-both
 
@@ -149,7 +149,7 @@ If ticked, audio and video thumbnails are shown in the :ref:`timeline`. They can
 Timeline Preview
 ----------------
 
-This setting determines what codec to use for the :doc:`preview render feature</tips_and_tricks/tips_and_tricks/timeline_preview_rendering>`. Select the codec that works best for your HW environment and the sources you are using in the project.
+This setting determines what codec to use for the :doc:`preview render feature </tips_and_tricks/tips_and_tricks/timeline_preview_rendering>`. Select the codec that works best for your HW environment and the sources you are using in the project.
 
 .. container:: clear-both
 

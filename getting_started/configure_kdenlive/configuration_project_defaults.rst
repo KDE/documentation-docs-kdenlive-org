@@ -13,7 +13,7 @@
 Project Defaults
 ----------------
 
-Kdenlive uses these settings for creating a new project (see Menu > File > New, or when Kdenlive starts and the option for opening the last project is not checked). To change the parameters for a currently open project, use the :doc:`Project Settings</project_and_asset_management/project_settings>`. Please note that while changing parameter for the open project is possible, it is not recommended as it may break things like keyframes and cuts.
+Kdenlive uses these settings for creating a new project (see Menu > File > New, or when Kdenlive starts and the option for opening the last project is not checked). To change the parameters for a currently open project, use the :doc:`Project Settings </project_and_asset_management/project_settings>`. Please note that while changing parameter for the open project is possible, it is not recommended as it may break things like keyframes and cuts.
 
 .. figure:: /images/getting_started/configure_project_defaults_2412.webp
    :width: 700px
@@ -35,7 +35,7 @@ Kdenlive uses these settings for creating a new project (see Menu > File > New, 
 
 :4: :guilabel:`Audio channels`. Determines how many channels each audio track supports. Options are **2 channels (stereo)** (default), **4 channels**, and **6 channels**.
 
-:5: :guilabel:`Timeline Preview profile`. Select which encoding profile to use for the :doc:`Preview Render</tips_and_tricks/tips_and_tricks/timeline_preview_rendering>` function. The available options depend on your HW and installed codecs. You can manage the profiles by clicking on the |configure|\ :guilabel:`Show profile parameters` icon. To see the profile parameters in the text window below the profile selection field, click on the |help-about| icon.
+:5: :guilabel:`Timeline Preview profile`. Select which encoding profile to use for the :doc:`Preview Render </tips_and_tricks/tips_and_tricks/timeline_preview_rendering>` function. The available options depend on your HW and installed codecs. You can manage the profiles by clicking on the |configure|\ :guilabel:`Show profile parameters` icon. To see the profile parameters in the text window below the profile selection field, click on the |help-about| icon.
 
 
 .. rubric:: Encoding Profiles

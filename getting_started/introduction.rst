@@ -74,7 +74,7 @@ Video editing features
 
 * Simple tools for easy creation of color clips, text clips and image clips
 
-* Automatic :doc:`clip creation</project_and_asset_management/project_bin/image_sequence>` from pictures directories, with crossfade transitions among the images
+* Automatic :doc:`clip creation </project_and_asset_management/project_bin/image_sequence>` from pictures directories, with crossfade transitions among the images
 
 * Configurable keyboard shortcuts, toolbars and interface layouts to accommodate your workflow
 

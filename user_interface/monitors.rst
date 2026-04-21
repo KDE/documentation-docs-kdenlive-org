@@ -21,7 +21,7 @@
 Monitors
 ========
 
-Kdenlive uses two monitor :term:`widgets<widget>` to display and play back your videos, images, titles, animations or audio files:
+Kdenlive uses two monitor :term:`widgets <widget>` to display and play back your videos, images, titles, animations or audio files:
 
 .. toctree::
    :maxdepth: 1
@@ -90,7 +90,7 @@ The toolbar has the following options:
    * - |view-fullscreen|
      - Switch full screen. :ref:`See here for more information <switch_monitor_fullscreen>`.
    * - |view-grid|
-     - Change overlay. Click through the different available patterns. You can :ref:`change the color<ui-monitors_change_overlay_color>` of the patterns in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Markers</getting_started/configure_kdenlive/configuration_colors+markers>`.
+     - Change overlay. Click through the different available patterns. You can :ref:`change the color<ui-monitors_change_overlay_color>` of the patterns in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Markers </getting_started/configure_kdenlive/configuration_colors+markers>`.
    * - |zoom-in|
      - Zoom in
    * - |zoom-out|
@@ -119,7 +119,7 @@ Monitor and Effect Direct Control
 
 Effects which have parameters for X, Y, width, height, opacity (alpha, optional) and rotation, can be controlled directly in the monitor. For example: :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>` or :doc:`Crop by Padding </effects_and_filters/video_effects/transform_distort_perspective/crop_padding>`.
 
-Make sure :term:`Edit Mode<Edit Mode>` is enabled.
+Make sure :term:`Edit Mode <Edit Mode>` is enabled.
 
 .. rst-class:: clear-both
 
@@ -134,7 +134,7 @@ Once such an effect is applied either to a clip in the project bin, a clip in th
    * - Icon
      - Description
    * - |snap|
-     - Enable a grid to which the editing handles will snap. You can :ref:`change the grid size<ui-monitors_change_overlay_color>` in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Markers</getting_started/configure_kdenlive/configuration_colors+markers>`.
+     - Enable a grid to which the editing handles will snap. You can :ref:`change the grid size <ui-monitors_change_overlay_color>` in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Markers </getting_started/configure_kdenlive/configuration_colors+markers>`.
    * - |keyframe-next|
      - Go to the next keyframe.
    * - |keyframe-previous|
@@ -187,7 +187,7 @@ Monitor Change Overlay Color and Grid Size
 
    Changing the color of the monitor overlay and grid size
 
-The color of the guide and grid overlay as well as the grid size can be changed in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Markers</getting_started/configure_kdenlive/configuration_colors+markers>`.
+The color of the guide and grid overlay as well as the grid size can be changed in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Colors and Markers </getting_started/configure_kdenlive/configuration_colors+markers>`.
 
 .. rst-class:: clear-both
 
@@ -223,7 +223,7 @@ Monitor Zoom Bar
 
    Monitor zoom bar (audio file example)
 
-The timeline rulers of the monitors have zoom bars. To activate, hover over the timeline ruler and use :kbd:`Ctrl+MW`\ [2]_. A zoom bar will appear with a scrollbar that has handles on the left and the right. At the same time, the timeline ruler scaling marks will change according to the zoom factor. This is helpful when trying to make frame-accurate cuts or setting :term:`zones<zone>`.
+The timeline rulers of the monitors have zoom bars. To activate, hover over the timeline ruler and use :kbd:`Ctrl+MW`\ [2]_. A zoom bar will appear with a scrollbar that has handles on the left and the right. At the same time, the timeline ruler scaling marks will change according to the zoom factor. This is helpful when trying to make frame-accurate cuts or setting :term:`zones <zone>`.
 
 .. rst-class:: clear-both
 
@@ -244,7 +244,7 @@ Preview Resolution
 
    Preview resolutions
 
-Changing the Preview Resolution speeds up the editing experience by scaling the video resolution of the monitors. It can be used instead of :term:`proxies<proxy>` or with proxies. Speed improvement depends on your source files.
+Changing the Preview Resolution speeds up the editing experience by scaling the video resolution of the monitors. It can be used instead of :term:`proxies <proxy>` or with proxies. Speed improvement depends on your source files.
 
 Playback speed depends on several factors: source material, use of proxies, type and number of effects, and the CPU capabilities. There is limited to no GPU support for video playback. :doc:`Preview Rendering </tips_and_tricks/tips_and_tricks/timeline_preview_rendering>` is highly recommended if playback speed is lacking.
 

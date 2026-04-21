@@ -42,7 +42,7 @@ This section defines settings for Speech To Text and Object Detection.
 
 Before Speech To Text and Object Detection can be configured and used, *Python3* needs to be installed. Once *Python3* is installed, you may want to use a virtual environment (:file:`venv`) to keep it separate for Kdenlive from other uses on your system.
 
-If you have installed *Python3* already jump right to the configuration page of :ref:`Speech To Text<speech2text_config>` or :ref:`Object Detection<object-detection_config>`.
+If you have installed *Python3* already jump right to the configuration page of :ref:`Speech To Text <speech2text_config>` or :ref:`Object Detection <object-detection_config>`.
 
 
 Python installation
@@ -276,7 +276,7 @@ If all is properly installed it should look like so:
 
 :1: :guilabel:`Model` You can download different models for object detection.
 
-:2: :guilabel:`Device` You can switch between using the **CPU** or your **GPU** for object detection. A GPU supporting CUDA is required for GPU object detection. Kdenlive tries to find your graphic card automatically. If the graphic card supports CUDA (Nvidia GPU) it will install the necessary driver so you can use it. If your graphic card doesn't support CUDA or is not detected by Kdenlive you only see CPU. :guilabel:`GPU Support` If your Nvidia GPU is not listed, try installing an alternative by :ref:`following these steps<gpu-manual_config>`.
+:2: :guilabel:`Device` You can switch between using the **CPU** or your **GPU** for object detection. A GPU supporting CUDA is required for GPU object detection. Kdenlive tries to find your graphic card automatically. If the graphic card supports CUDA (Nvidia GPU) it will install the necessary driver so you can use it. If your graphic card doesn't support CUDA or is not detected by Kdenlive you only see CPU. :guilabel:`GPU Support` If your Nvidia GPU is not listed, try installing an alternative by :ref:`following these steps <gpu-manual_config>`.
 
 :3: :guilabel:`Offload video to CPU to save GPU Memory` If you have long clips on which Kdenlive has to detect objects you may get a crash. If enabled, this offloads some of the memory used to the RAM instead of the GPU memory. 
 

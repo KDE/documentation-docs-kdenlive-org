@@ -41,7 +41,7 @@ Gaussian Blur
 
 .. rubric:: Description
 
-This effect blurs the clip by applying a Gaussian function (known from statistics as an expression for the normal distribution). By default, all :term:`planes<plane>` will be affected. By setting the blur effect to different planes (e.g. red, green or blue) interesting artistic effects can be achieved.
+This effect blurs the clip by applying a Gaussian function (known from statistics as an expression for the normal distribution). By default, all :term:`planes <plane>` will be affected. By setting the blur effect to different planes (e.g. red, green or blue) interesting artistic effects can be achieved.
 
 
 .. rubric:: Parameters

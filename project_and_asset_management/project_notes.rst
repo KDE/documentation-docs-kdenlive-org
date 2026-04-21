@@ -67,4 +67,4 @@ This example has two notes with timecodes, and one just as simple text.
 
 .. rst-class:: clear-both
 
-A neat feature is the ability to create :doc:`markers</cutting_and_assembling/markers>` from the timecodes in the notes. Select a timecode (it does not matter if you select the additional text), and click on |list-add|\ :guilabel:`Create markers from selected timecodes`, and Kdenlive creates a marker at that precise point in the timeline.
+A neat feature is the ability to create :doc:`markers </cutting_and_assembling/markers>` from the timecodes in the notes. Select a timecode (it does not matter if you select the additional text), and click on |list-add|\ :guilabel:`Create markers from selected timecodes`, and Kdenlive creates a marker at that precise point in the timeline.

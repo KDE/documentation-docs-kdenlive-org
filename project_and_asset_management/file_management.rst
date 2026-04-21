@@ -36,6 +36,6 @@ File Management
    file_management/folder_structure
    file_management/project_files
 
-This chapter is about the safeguards to protect against data loss in case something goes wrong by creating :doc:`auto saves</project_and_asset_management/file_management/auto_save>` and :doc:`backups</project_and_asset_management/file_management/backup>` automatically, how you can :doc:`archive</project_and_asset_management/file_management/archiving>` your projects for long-term storage or as a means to share them.
+This chapter is about the safeguards to protect against data loss in case something goes wrong by creating :doc:`auto saves </project_and_asset_management/file_management/auto_save>` and :doc:`backups </project_and_asset_management/file_management/backup>` automatically, how you can :doc:`archive </project_and_asset_management/file_management/archiving>` your projects for long-term storage or as a means to share them.
 
-It also gives an overview about the standard :doc:`folder structure</project_and_asset_management/file_management/folder_structure>` that Kdenlive uses for each project, and some technical description of the :file:`.kdenlive` :doc:`project file</project_and_asset_management/file_management/project_files>` XML format.
+It also gives an overview about the standard :doc:`folder structure </project_and_asset_management/file_management/folder_structure>` that Kdenlive uses for each project, and some technical description of the :file:`.kdenlive` :doc:`project file </project_and_asset_management/file_management/project_files>` XML format.

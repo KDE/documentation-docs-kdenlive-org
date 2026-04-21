@@ -60,7 +60,7 @@ This effect/filter applies the Prewitt\ [1]_ operator to the input video stream.
      - Description
    * - Planes
      - Selection
-     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied.
+     - Set which :term:`planes <plane>` will be processed, unprocessed planes will be copied.
    * - Scale
      - Integer
      - Set value which will be multiplied with filtered result

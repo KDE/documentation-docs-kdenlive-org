@@ -66,7 +66,7 @@ This effect/filter adjusts shadows, midtones and highlights of an image using cu
      - Set the Output value
    * - Show graph in picture
      - Switch
-     - Check this box to overlay the graph onto the image in the Project Monitor. Note that this influences the :ref:`view-rgb_parade` and :ref:`view-histogram` :term:`widgets<widget>`.
+     - Check this box to overlay the graph onto the image in the Project Monitor. Note that this influences the :ref:`view-rgb_parade` and :ref:`view-histogram` :term:`widgets <widget>`.
    * - Graph position
      - Selection
      - Select the position for the graph
@@ -129,5 +129,5 @@ The following selection items are available:
   It is recommended to use this effect while in Color layout as this comes with :ref:`RGB Parade <view-rgb_parade>` and :ref:`view-histogram` already switched on. If you want to use the effect while in Editing or Effects layout, turn on the Histogram :term:`widget` with :menuselection:`Menu --> View --> Histogram`.
 
 .. seealso:: 
-  The :doc:`Bezier Curves</effects_and_filters/video_effects/color_image_correction/bezier_curves>` effect does the same but has the ability to adjust the steepness/flatness of the curves.
+  The :doc:`Bezier Curves </effects_and_filters/video_effects/color_image_correction/bezier_curves>` effect does the same but has the ability to adjust the steepness/flatness of the curves.
   

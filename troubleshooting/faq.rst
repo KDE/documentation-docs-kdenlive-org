@@ -70,13 +70,13 @@ User Interface
 Kdenlive is too large on my screen. I cannot make it smaller.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This usually happens when too many :term:`widgets<widget>` are open. Each widget label takes a minimum amount of space in width. Close some via :menuselection:`Menu --> View` or the close button in the widget's title bar (needs to be enabled via :menuselection:`Menu --> View --> Show Title Bars`) and consider using layouts. See the :ref:`ui-workspace_layouts` chapter for more details.
+This usually happens when too many :term:`widgets <widget>` are open. Each widget label takes a minimum amount of space in width. Close some via :menuselection:`Menu --> View` or the close button in the widget's title bar (needs to be enabled via :menuselection:`Menu --> View --> Show Title Bars`) and consider using layouts. See the :ref:`ui-workspace_layouts` chapter for more details.
 
 
 My monitor plays distorted images, or generally something it really should not.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Please check your :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Playback</getting_started/configure_kdenlive/configuration_playback>` settings. Try to disable OpenGL if it is enabled, or use a different driver. Kdenlive may need to be restarted.
+Please check your :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Playback </getting_started/configure_kdenlive/configuration_playback>` settings. Try to disable OpenGL if it is enabled, or use a different driver. Kdenlive may need to be restarted.
 
 
 
@@ -88,7 +88,7 @@ Asset Management
 When I import a video clip into my 1920x1080 project a warning pops up asking me to create and switch to new profile. Why?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is the standard behavior for Kdenlive for the **first clip** to be added to a new project if the clip's properties are different from the project's settings. For example, the project settings are 1920x1080 @ 30\ :abbr:`fps (frames per second)`, and the clip is 450x360 @ 24.86\ :abbr:`fps (frames per second)`. You can switch off the check in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>` by unchecking :guilabel:`Check if first added clip matches project profile`.
+This is the standard behavior for Kdenlive for the **first clip** to be added to a new project if the clip's properties are different from the project's settings. For example, the project settings are 1920x1080 @ 30\ :abbr:`fps (frames per second)`, and the clip is 450x360 @ 24.86\ :abbr:`fps (frames per second)`. You can switch off the check in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Misc </getting_started/configure_kdenlive/configuration_misc>` by unchecking :guilabel:`Check if first added clip matches project profile`.
 
 
 I have a .mov file that is made with .png images and was able to import it into Kdenlive but now I only get an unusable audio track from it. How do I fix this?
@@ -202,7 +202,7 @@ Kdenlive warns me about missing codecs, I cannot render in some formats ...
 
 You may get an error message like this: ``Unsupported audio codec: libmp3lame``. There are several possible reasons for this:
 
-1. You have installed the :term:`codecs<codec>` after **Kdenlive's** installation. To force Kdenlive to check available codecs on your system, run the configuration wizard: :menuselection:`Menu --> Settings --> Run Config Wizard`. Complete the wizard and restart Kdenlive to be sure the codecs have been detected.
+1. You have installed the :term:`codecs <codec>` after **Kdenlive's** installation. To force Kdenlive to check available codecs on your system, run the configuration wizard: :menuselection:`Menu --> Settings --> Run Config Wizard`. Complete the wizard and restart Kdenlive to be sure the codecs have been detected.
 
 #. The codecs are not available on your system. Kdenlive uses the codecs from your **FFmpeg** or **Libav** library. Due to licensing issues some distributions do not provide all codecs by default, and you might need to install an extra package. On Ubuntu/Mint for example, you must install a package called ``libavcodec-extra-xx``. After that, check the codecs again as explained in the first step.
 

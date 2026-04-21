@@ -39,7 +39,7 @@ Planes Blur
 
 .. rubric:: Description
 
-This effect applies just to three :term:`Planes<plane>`: :term:`Luma`, :term:`Chroma` and Alpha. You define the :guilabel:`Radius` and :guilabel:`Power` to determine the strength of the effect.
+This effect applies just to three :term:`Planes <plane>`: :term:`Luma`, :term:`Chroma` and Alpha. You define the :guilabel:`Radius` and :guilabel:`Power` to determine the strength of the effect.
 
 
 .. rubric:: Parameters

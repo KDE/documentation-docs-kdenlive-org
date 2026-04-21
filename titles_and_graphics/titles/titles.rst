@@ -30,21 +30,21 @@ Title Clips
 
 A **Title Clip** is, as the name suggests, a clip that contains a title usually mainly comprised of text. But it is more than that.
 
-Besides text elements, **Title Clips** can contain rectangles, circles, and images. This is useful for creating complex titles, chevrons, lower thirds, call-outs, or other graphical elements to enhance your project. You can create :doc:`template titles</titles_and_graphics/titles/title_template_titles>` with limited wildcard/placeholder functionality to be used for other titles in the same project, and create patterns from selected texts and shapes that can be applied across different title clips.
+Besides text elements, **Title Clips** can contain rectangles, circles, and images. This is useful for creating complex titles, chevrons, lower thirds, call-outs, or other graphical elements to enhance your project. You can create :doc:`template titles </titles_and_graphics/titles/title_template_titles>` with limited wildcard/placeholder functionality to be used for other titles in the same project, and create patterns from selected texts and shapes that can be applied across different title clips.
 
-A built-in :doc:`animation function</titles_and_graphics/graphics_and_animations/title_scrolling>` can be used to create scrolling text, for example for closing credits.
+A built-in :doc:`animation function </titles_and_graphics/graphics_and_animations/title_scrolling>` can be used to create scrolling text, for example for closing credits.
 
 You can also save any title for use in other projects as a title template that is then available from the :guilabel:`Template` drop-down list in the title editor. Title templates are also available from the KDE Store and can be installed directly from within the `the title clip app`_.
 
 Title clips behave like any other video or image clips in the timeline, and you can apply any effect to them. In particular keyframes, motion tracking, and transform allow for simple yet interesting animations.
 
-Title clips by default have an alpha channel which makes compositing rather easy. Simply put a title clip on a track above a video or image, and texts and shapes of the title clip will overlay the clips on the tracks below. Of course, you can also use a :doc:`composition</compositing/compositions>` to create other effects.
+Title clips by default have an alpha channel which makes compositing rather easy. Simply put a title clip on a track above a video or image, and texts and shapes of the title clip will overlay the clips on the tracks below. Of course, you can also use a :doc:`composition </compositing/compositions>` to create other effects.
 
 
 The Title Clip App
 ==================
 
-You create and edit title clips in the **Titler App**. When you select :guilabel:`Add Title Clip` or double-click an existing title clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` or the :doc:`Timeline</user_interface/timeline>`, or right-click a title clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` and select :guilabel:`Edit`, the **Titler App** is opened in a separate window.
+You create and edit title clips in the **Titler App**. When you select :guilabel:`Add Title Clip` or double-click an existing title clip in the :doc:`Project Bin </project_and_asset_management/project_bin>` or the :doc:`Timeline </user_interface/timeline>`, or right-click a title clip in the :doc:`Project Bin </project_and_asset_management/project_bin>` and select :guilabel:`Edit`, the **Titler App** is opened in a separate window.
 
 You can size the window as usual but not maximize or minimize it. The focus stays on this window, and you cannot work, for example, on the timeline, or do other things with Kdenlive until you close that window.
 
@@ -55,7 +55,7 @@ The window's layout consists of several areas:
 .. figure:: /images/titles_and_graphics/titler_app-layout-2508.webp
 
 * The main workspace (1)
-* Toolbars for `adding objects <title-add_objects_>`_ (2), `selecting objects <title-select_objects_>`_ (3), sizing and `aligning objects <title-move_objects_>`_ (4)/(5)/(6), :doc:`managing the workspace</titles_and_graphics/titles/title_manage_workspace>` (8)/(9), and :doc:`file operations</titles_and_graphics/titles/title_file_operations>` (10)
+* Toolbars for `adding objects <title-add_objects_>`_ (2), `selecting objects <title-select_objects_>`_ (3), sizing and `aligning objects <title-move_objects_>`_ (4)/(5)/(6), :doc:`managing the workspace </titles_and_graphics/titles/title_manage_workspace>` (8)/(9), and :doc:`file operations </titles_and_graphics/titles/title_file_operations>` (10)
 * Properties of the objects (7). You can adjust the width of the properties pane by dragging the line between the properties pane and the workspace left and right.
 
 The workspace shows three boxes marked in red indicating safe zones\ [1]_. The outermost box (bright red) shows the project dimensions. Any object outside that area will be shown only partially or not at all.
@@ -77,8 +77,8 @@ Create a Title Clip
 
 You create a title clip using one of the following options:
 
-* In the :doc:`Project Bin</project_and_asset_management/project_bin>`, click on |kdenlive-add-clip| |go-down| :guilabel:`Add Clip or Folder` and select :guilabel:`Add Title Clip`
-* Right-click on empty space in the :doc:`Project Bin</project_and_asset_management/project_bin>` and select :guilabel:`Add Title Clip`
+* In the :doc:`Project Bin </project_and_asset_management/project_bin>`, click on |kdenlive-add-clip| |go-down| :guilabel:`Add Clip or Folder` and select :guilabel:`Add Title Clip`
+* Right-click on empty space in the :doc:`Project Bin </project_and_asset_management/project_bin>` and select :guilabel:`Add Title Clip`
 * Right-click an existing title clip, select :guilabel:`Duplicate clip`, and then double-click the newly created title clip (you may want to rename it first, though)
 
 Kdenlive opens the title editor with a blank workspace (canvas). From here you can start `adding objects <title-add_objects_>`_, open a saved title, or use a title template.
@@ -99,7 +99,7 @@ Edit a Title Clip
 
 You edit a title clip using one of the following options:
 
-* Double click the title clip in the :doc:`Project Bin</project_and_asset_management/project_bin>` or in the :doc:`Timeline</user_interface/timeline>`
+* Double click the title clip in the :doc:`Project Bin </project_and_asset_management/project_bin>` or in the :doc:`Timeline </user_interface/timeline>`
 * Right-click the title clip in the project bin and select Edit Clip
 
 Once you are done editing the title clip, click on :guilabel:`Update Title`. Kdenlive closes the window and updates the title clip in the project bin and all occurrences of that title clip in the timeline. Your changes are available immediately.
@@ -127,18 +127,18 @@ Add Objects to a Title Clip
 
       Add objects toolbar
 
-   The toolbar for adding objects has icons for :doc:`text</titles_and_graphics/titles/title_text>` , :doc:`shapes</titles_and_graphics/titles/title_shapes>`, and :doc:`image</titles_and_graphics/titles/title_images>`.
+   The toolbar for adding objects has icons for :doc:`text </titles_and_graphics/titles/title_text>` , :doc:`shapes </titles_and_graphics/titles/title_shapes>`, and :doc:`image </titles_and_graphics/titles/title_images>`.
 
 .. rst-class:: clear-both
 
-* Click on |insert-text|, or use the keyboard shortcut :kbd:`Alt+T`, then click in the main workspace to :doc:`create a new text field</titles_and_graphics/titles/title_text>`
-* Click on |kdenlive-insert-rect|, or use the keyboard shortcut :kbd:`Alt+R`, then drag the mouse across the main workspace to create a :doc:`rectangle</titles_and_graphics/titles/title_shapes>`
-* Click on |draw-ellipse|, or use the keyboard shortcut :kbd:`Alt+E`, then drag the mouse across the main workspace to create an :doc:`ellipse</titles_and_graphics/titles/title_shapes>`
-* Click on |insert-image|, or use the keyboard shortcut :kbd:`Alt+I`, to bring up the Open File dialog window where you can :doc:`choose an image</titles_and_graphics/titles/title_images>` file to be inserted into the title clip
+* Click on |insert-text|, or use the keyboard shortcut :kbd:`Alt+T`, then click in the main workspace to :doc:`create a new text field </titles_and_graphics/titles/title_text>`
+* Click on |kdenlive-insert-rect|, or use the keyboard shortcut :kbd:`Alt+R`, then drag the mouse across the main workspace to create a :doc:`rectangle </titles_and_graphics/titles/title_shapes>`
+* Click on |draw-ellipse|, or use the keyboard shortcut :kbd:`Alt+E`, then drag the mouse across the main workspace to create an :doc:`ellipse </titles_and_graphics/titles/title_shapes>`
+* Click on |insert-image|, or use the keyboard shortcut :kbd:`Alt+I`, to bring up the Open File dialog window where you can :doc:`choose an image </titles_and_graphics/titles/title_images>` file to be inserted into the title clip
 
 When the title editor window is opened the default item to be created is **Text**, so you can immediately start creating a text field.
 
-A special way to add objects is to use :doc:`patterns</titles_and_graphics/titles/title_patterns>`.
+A special way to add objects is to use :doc:`patterns </titles_and_graphics/titles/title_patterns>`.
 
 The objects are placed on top of each other following the sequence in which they were created. If you need to bring an object/item forward that was created in the early stages, use the :guilabel:`Z-Index` field or click on the respective icon (|object-order-raise|, |object-order-lower|, |object-order-front|, |object-order-back|) in the stack toolbar. Likewise, you can also send an object/item backwards.
 
@@ -174,7 +174,7 @@ Move an item around by dragging it with the mouse, or by changing the :guilabel:
 
 You can restrict movement horizontally and vertically by holding :kbd:`Shift` (only vertical movement is possible) or :kbd:`Shift+Alt` (only horizontal movement possible).
 
-Rotation of an object can be done by entering the desired angle of rotation directly in the :guilabel:`Rotate X`, :guilabel:`Y`, and :guilabel:`Z` parameters. Note that the rotation will always be around the top left corner of the selected object. For certain rotation effects (see the Star Wars opening scrolling title) you need to apply effects to the title clip in the timeline (for example :doc:`/effects_and_filters/video_effects/transform_distort_perspective/corners`, :doc:`/effects_and_filters/video_effects/transform_distort_perspective/shear`, :doc:`Transform</effects_and_filters/video_effects/transform_distort_perspective/transform>`, or :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way`).
+Rotation of an object can be done by entering the desired angle of rotation directly in the :guilabel:`Rotate X`, :guilabel:`Y`, and :guilabel:`Z` parameters. Note that the rotation will always be around the top left corner of the selected object. For certain rotation effects (see the Star Wars opening scrolling title) you need to apply effects to the title clip in the timeline (for example :doc:`/effects_and_filters/video_effects/transform_distort_perspective/corners`, :doc:`/effects_and_filters/video_effects/transform_distort_perspective/shear`, :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>`, or :doc:`/effects_and_filters/video_effects/transform_distort_perspective/rotate_3_way`).
 
 The :guilabel:`Zoom` parameter is an easy way to change the size of an object without having to change the :guilabel:`W` and :guilabel:`H` parameters.
 

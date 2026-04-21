@@ -293,7 +293,7 @@ Many effects use the concept of "Keyframes". Keyframes are user-defined points i
 Keyframes types, interpolation
 ------------------------------
 
-Select the keyframe interpolation icon for selecting the keyframe type. See :ref:`quickstart` for an example on keyframing the :doc:`RGB adjustment</effects_and_filters/video_effects/color_image_correction/rgb_adjustment>` effect.
+Select the keyframe interpolation icon for selecting the keyframe type. See :ref:`quickstart` for an example on keyframing the :doc:`RGB adjustment </effects_and_filters/video_effects/color_image_correction/rgb_adjustment>` effect.
 
 .. figure:: /images/effects_and_compositions/kdenlive2402_effects-keyframe_types.webp
    :align: left
@@ -693,7 +693,7 @@ The Time Remap feature allows to keyframe the speed of a clip to achieve effects
 
    Example of using Time remapping for speed ramping
 
-See also :ref:`this tutorial<tutorials-time_remapping>`.
+See also :ref:`this tutorial <tutorials-time_remapping>`.
 
 
 .. .. _effects-speech_to_text:

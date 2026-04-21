@@ -714,7 +714,7 @@ Raise Widgets with Shortcuts
 
 .. .. versionadded:: 21.08.0
   
-You can assign shortcuts to raise docked :term:`widgets<widget>`. In the :menuselection:`Menu --> Settings --> Configure Keyboard Shortcuts` (or :kbd:`Ctrl+Alt+,` window search for "raise" and it will list all widgets that can be raised. Assign a keyboard shortcut to a widget, and if you press that key combination Kdenlive will bring the focus to the respective widget and select it.
+You can assign shortcuts to raise docked :term:`widgets <widget>`. In the :menuselection:`Menu --> Settings --> Configure Keyboard Shortcuts` (or :kbd:`Ctrl+Alt+,` window search for "raise" and it will list all widgets that can be raised. Assign a keyboard shortcut to a widget, and if you press that key combination Kdenlive will bring the focus to the respective widget and select it.
 
 .. figure:: ../images/user_interface/kdenlive_ui-shortcuts.gif
    :width: 100%

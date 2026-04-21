@@ -47,7 +47,7 @@ It is possible to have any conceivable combination between these four basic scen
 
       Creating a scrolling title
 
-   Enter your text into a :doc:`text object</titles_and_graphics/titles/title_text>`. You can copy and paste from other sources. Adjust the text's properties as needed and align it as required.
+   Enter your text into a :doc:`text object </titles_and_graphics/titles/title_text>`. You can copy and paste from other sources. Adjust the text's properties as needed and align it as required.
 
    Select the :guilabel:`Animation` tab and click the :guilabel:`Edit start viewport` button. Now drag the start rectangle to above the viewable area. Alternatively, you can keep the start rectangle where it is and move the text and any other object outside (below) the viewable area.
 

@@ -93,7 +93,7 @@ With this feature, you can cut the selected subtitle with the Razor Tool after t
 
    Subtitle split after first line or duplicate text
 
-To enable this feature go to :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Tools</getting_started/configure_kdenlive/configuration_tools>` and switch to :guilabel:`Split after first line`
+To enable this feature go to :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Tools </getting_started/configure_kdenlive/configuration_tools>` and switch to :guilabel:`Split after first line`
 
 .. figure:: /images/subtitle-split_with_razor-tool.png
    :scale: 75%

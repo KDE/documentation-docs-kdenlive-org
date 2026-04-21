@@ -62,7 +62,7 @@ Compare :doc:`/effects_and_filters/video_effects/stylize/sobel_planes`, :doc:`/e
      - Description
    * - Planes to filter
      - Selection (see below)
-     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied. Set to **All** by default.
+     - Set which :term:`planes <plane>` will be processed, unprocessed planes will be copied. Set to **All** by default.
    * - Scale
      - Float
      - Sets the value which the filtered result will be multiplied with

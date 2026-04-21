@@ -39,9 +39,9 @@ Capturing Video
 
 For other devices, mostly connected via Firewire (also known as IEEE 1394 High Speed Serial Bus) card and cable, use |dvgrab| directly in a terminal.
 
-You configure video capturing from :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Capture</getting_started/configure_kdenlive/configuration_capture>`.
+You configure video capturing from :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`Capture </getting_started/configure_kdenlive/configuration_capture>`.
 
-You define the destination location for your captures by using :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Folders<configure_environment_default_folders>`.
+You define the destination location for your captures by using :menuselection:`Menu --> Settings --> Configure Kdenlive --> Environment -->` :ref:`Default Folders <configure_environment_default_folders>`.
 
 
 Screen Grab
@@ -66,7 +66,7 @@ This captures video off the PC screen. Enable the Screen Grab widget via :menuse
   Start/Stop recording
 
 |configure|\ :guilabel:`Configure Recording`:
-  Opens the Kdenlive :menuselection:`Menu --> Settings --> Capture -->` :doc:`Screen Grab</getting_started/configure_kdenlive/configuration_capture>` window
+  Opens the Kdenlive :menuselection:`Menu --> Settings --> Capture -->` :doc:`Screen Grab </getting_started/configure_kdenlive/configuration_capture>` window
 
 .. rst-class:: clear-both
 
