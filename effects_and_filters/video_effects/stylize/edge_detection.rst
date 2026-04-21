@@ -71,7 +71,7 @@ This effect/filter detects and draws edges using the Canny edge detection algori
      - Define the drawing mode
    * - Planes
      - Selection
-     - Select the :term:`planes<plane>` for filtering
+     - Select the :term:`planes <plane>` for filtering
 
 The following selection items are available:
 
@@ -87,7 +87,7 @@ The following selection items are available:
    * - Colormix
      - Mix the colors to create a paint/cartoon effect
    * - Canny
-     - Applies Canny edge detector on all selected :term:`planes<plane>`
+     - Applies Canny edge detector on all selected :term:`planes <plane>`
 
 :guilabel:`Planes`
 

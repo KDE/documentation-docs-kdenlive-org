@@ -130,7 +130,7 @@ Right-Click Menu
 
    Clip Monitor right-click menu options
 
-These are the menu items that are available when you right-click in the Clip Monitor. These actions affect the clip that is currently selected in the :doc:`project bin</project_and_asset_management/project_bin>`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu items affect the currently selected clip on the :ref:`timeline`.
+These are the menu items that are available when you right-click in the Clip Monitor. These actions affect the clip that is currently selected in the :doc:`project bin </project_and_asset_management/project_bin>`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu items affect the currently selected clip on the :ref:`timeline`.
 
 .. rst-class:: clear-bothMouse whee
 
@@ -147,7 +147,7 @@ These are the menu items that are available when you right-click in the Clip Mon
      - Description
    * - Play
      - :kbd:`Space` or click into the monitor
-     - Plays the :term:`clip` currently selected in the :term:`project bin`. (:doc:`Disable play on click in the settings</getting_started/configure_kdenlive/configuration_playback>`)
+     - Plays the :term:`clip` currently selected in the :term:`project bin`. (:doc:`Disable play on click in the settings </getting_started/configure_kdenlive/configuration_playback>`)
    * - Play Zone
      - :kbd:`Ctrl+Space`
      - Plays the current :term:`zone` and stops
@@ -189,7 +189,7 @@ These are the menu items that are available when you right-click in the Clip Mon
      - Goes the end of the clip
    * - Add Marker
      -
-     - Opens the Edit Marker dialog window for adding a new :term:`marker<markers>` into the clip at the current time point.
+     - Opens the Edit Marker dialog window for adding a new :term:`marker <markers>` into the clip at the current time point.
 
 .. figure:: /images/user_interface/kdenlive2308_ui-monitors_edit_marker.webp
    :width: 350px
@@ -207,16 +207,16 @@ These are the menu items that are available when you right-click in the Clip Mon
      - Adds a new marker at the current time point
    * - Edit Marker
      -
-     - Brings up a dialog where you can edit the :term:`marker<markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to edit.
+     - Brings up a dialog where you can edit the :term:`marker <markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to edit.
    * - Delete Marker
      -
-     - Deletes the :term:`marker<markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to delete.
+     - Deletes the :term:`marker <markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to delete.
    * - Delete All Markers
      -
      - Deletes all the :term:`markers` from the current clip.
    * - Go to Marker...
      -
-     - The menu item pops out a list of existing :term:`marker<markers>` to select from. When one is selected the playhead moves to that marker.
+     - The menu item pops out a list of existing :term:`marker <markers>` to select from. When one is selected the playhead moves to that marker.
    * - Extract Zone
      -
      - This brings up the **Cut Clip** dialog.
@@ -258,7 +258,7 @@ The current :term:`zone` can be saved as a :file:`.mov` file in your file system
 
    * - Add Project Note
      -
-     - Opens the :doc:`Project Notes</project_and_asset_management/project_notes>` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene.
+     - Opens the :doc:`Project Notes </project_and_asset_management/project_notes>` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene.
    * - Set Zone In
      - :kbd:`I`
      - Sets the :term:`in-point` for the :term:`zone`

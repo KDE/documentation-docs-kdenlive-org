@@ -37,20 +37,20 @@ Project File Details
 
 Kdenlive's :file:`.kdenlive` project files use an :abbr:`XML(Extensible Markup Language)` format based on MLT's format to describe the source media used in a project, as well as the use of that media in the timeline. For more details see |mlt-xml-doc| and |mlt-dtd-doc| (document type definition).
 
-For most media, such as video, audio, and images, Kdenlive stores only a reference in a project, not the media itself. Only some media gets stored directly inside Kdenlive's project files, most notably Kdenlive :doc:`title</project_and_asset_management/project_bin/title_clip>` and :doc:`color clips</project_and_asset_management/project_bin/color_clip>`.
+For most media, such as video, audio, and images, Kdenlive stores only a reference in a project, not the media itself. Only some media gets stored directly inside Kdenlive's project files, most notably Kdenlive :doc:`title </project_and_asset_management/project_bin/title_clip>` and :doc:`color clips</project_and_asset_management/project_bin/color_clip>`.
 
 The advantages of using this file format are:
 
 * |mlt| is able to directly render Kdenlive project files. MLT simply ignores all the additional Kdenlive-specific project data and just sticks to its rendering information. The Kdenlive-specific data is the additional icing on top that makes working with projects much easier than editing at the (lower) rendering level.
-* Kdenlive can directly include and work with MLT rendering files, just the same way it works with other media. In fact, Kdenlive's :doc:`library clips</project_and_asset_management/library>` are simply MLT rendering files, nothing more.
+* Kdenlive can directly include and work with MLT rendering files, just the same way it works with other media. In fact, Kdenlive's :doc:`library clips </project_and_asset_management/library>` are simply MLT rendering files, nothing more.
 
 The project file holds all relevant information about
 
-* target video and audio properties (selected in the :doc:`project profile</project_and_asset_management/project_settings/general_settings>`)
-* references to all the source materials (and to their :term:`proxies<proxy>`)
+* target video and audio properties (selected in the :doc:`project profile </project_and_asset_management/project_settings/general_settings>`)
+* references to all the source materials (and to their :term:`proxies <proxy>`)
 * position, duration and edits of the clips in the timeline, with applied effects and their respective parameters including keyframes, and everything to get the final result
 
-Project files are associated with a :doc:`working directory</project_and_asset_management/file_management/folder_structure>`, in which **Kdenlive** will generate *proxies* and *thumbnails*, so that an overview of your media always shows up quickly.
+Project files are associated with a :doc:`working directory </project_and_asset_management/file_management/folder_structure>`, in which **Kdenlive** will generate *proxies* and *thumbnails*, so that an overview of your media always shows up quickly.
 
 .. note::
    If you move your project file, you should declare the directory change in the project properties.

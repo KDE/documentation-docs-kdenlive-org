@@ -33,7 +33,7 @@ Create Animation
 Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\ |go-down|\ :guilabel:`Add Clip` icon on the project bin toolbar, and select :guilabel:`Create Animation`.
 
 .. note:: 
-   This requires |glaxnimate| to be installed and the path to it configured in Kdenlive's :ref:`settings<configure_environment_default_apps>`.
+   This requires |glaxnimate| to be installed and the path to it configured in Kdenlive's :ref:`settings <configure_environment_default_apps>`.
 
 .. figure:: /images/project_and_asset_management/project_bin_create_animation.webp
    :width: 206px

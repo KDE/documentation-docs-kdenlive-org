@@ -32,7 +32,7 @@ Colors and Markers
 
 This section is used to configure the colors used for audio thumbnails, the monitor overlay and background color, and the grid for certain effects.
 
-You can also add, edit, and delete the categories and colors used for :doc:`Timeline Markers</cutting_and_assembling/guides>` and :doc:`Markers</cutting_and_assembling/markers>`.
+You can also add, edit, and delete the categories and colors used for :doc:`Timeline Markers </cutting_and_assembling/guides>` and :doc:`Markers </cutting_and_assembling/markers>`.
 
 .. figure:: /images/getting_started/configure_colors+markers_2512.webp
    :width: 700px
@@ -40,13 +40,13 @@ You can also add, edit, and delete the categories and colors used for :doc:`Time
 
    The Colors and Markers section
 
-:guilabel:`Audio thumbnail colors` Click on the color bar to change the color of the audio wave thumbnail. The color bar on the right controls the color of the second channel (see the section :doc:`Timeline</getting_started/configure_kdenlive/configuration_timeline>` :menuselection:`--> Thumbnails -->` :guilabel:`Separate audio channels`).
+:guilabel:`Audio thumbnail colors` Click on the color bar to change the color of the audio wave thumbnail. The color bar on the right controls the color of the second channel (see the section :doc:`Timeline </getting_started/configure_kdenlive/configuration_timeline>` :menuselection:`--> Thumbnails -->` :guilabel:`Separate audio channels`).
 
 :guilabel:`Monitor overlay color` Click on the color bar to change the color of the monitor overlay lines. See the chapter about the :ref:`ui-monitors_display_toolbar`.
 
 :guilabel:`Monitor background color` Click on the color bar to change the color of the monitor background.
 
-:guilabel:`Markers Categories` This lists all the defined categories for :doc:`Timeline Markers</cutting_and_assembling/guides>` and :doc:`Markers</cutting_and_assembling/markers>`. From here you can add, edit, and delete categories.
+:guilabel:`Markers Categories` This lists all the defined categories for :doc:`Timeline Markers </cutting_and_assembling/guides>` and :doc:`Markers </cutting_and_assembling/markers>`. From here you can add, edit, and delete categories.
 
 Click on :guilabel:`Add category` to add a new category. Select a color and enter a name.
 

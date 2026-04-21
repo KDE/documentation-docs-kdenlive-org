@@ -60,7 +60,7 @@ This effect/filter applies the Roberts cross operator\ [1]_ to the input video s
      - Description
    * - Planes
      - Selection
-     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied. Default is **All**.
+     - Set which :term:`planes <plane>` will be processed, unprocessed planes will be copied. Default is **All**.
    * - Scale
      - Integer
      - Set value which will be multiplied with filtered result

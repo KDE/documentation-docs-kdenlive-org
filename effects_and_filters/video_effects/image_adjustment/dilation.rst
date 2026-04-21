@@ -40,7 +40,7 @@ Dilation
 
 .. rubric:: Description
 
-This effect/filter simulates image dilation, an effect which will enlarge the lightest pixels in the image by replacing the pixel by the local (3x3) maximum. It is the opposite of the :doc:`Erosion</effects_and_filters/video_effects/image_adjustment/erosion>` effect.
+This effect/filter simulates image dilation, an effect which will enlarge the lightest pixels in the image by replacing the pixel by the local (3x3) maximum. It is the opposite of the :doc:`Erosion </effects_and_filters/video_effects/image_adjustment/erosion>` effect.
 
 
 .. rubric:: Parameters

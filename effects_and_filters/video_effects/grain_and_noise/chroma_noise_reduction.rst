@@ -56,7 +56,7 @@ This effect/filter reduces :term:`chrominance` noise.
      - Description
    * - Y+U+V Threshold
      - Integer
-     - Set threshold for averaging chrominance values. Sum of absolute difference of Y, U and V pixel components of current pixel and neighbor pixels lower than this threshold will be used in averaging. :term:`Luma<luma>` component is left unchanged and is copied to output. Default value is 30. Allowed range is from 1 to 200.
+     - Set threshold for averaging chrominance values. Sum of absolute difference of Y, U and V pixel components of current pixel and neighbor pixels lower than this threshold will be used in averaging. :term:`Luma <luma>` component is left unchanged and is copied to output. Default value is 30. Allowed range is from 1 to 200.
    * - Horizontal / Vertical size
      - Integer
      - Set horizontal / vertical radius of rectangle used for averaging. Allowed range is from 1 to 100. Default value is 5.

@@ -72,7 +72,7 @@ This effect/filter gives the clip a charcoal drawing effect.
      - Defines the contrast. Range is 1 to 10, default is 1.
    * - Mix
      - Integer
-     - Defines the color :term:`planes<plane>`. Range is 0 to 10, default is 0 (black & white)
+     - Defines the color :term:`planes <plane>`. Range is 0 to 10, default is 0 (black & white)
 
 
 .. https://youtu.be/fI1YrZcT26k

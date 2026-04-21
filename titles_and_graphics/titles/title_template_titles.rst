@@ -30,7 +30,7 @@ Template Titles
 Create a Template Title
 =======================
 
-Create a new title clip like normal, add any objects you need, and any static text. Create a new text field, and enter :code:`%s`. This will be replaced later with text you specify for each title you add to the project based on this template. Adjust the font attributes, alignment, shadow, and the :ref:`typewriter<title-text_typewriter>` effect as required. If the title needs :doc:`animation</titles_and_graphics/graphics_and_animations/title_scrolling>`, you can create that, too.
+Create a new title clip like normal, add any objects you need, and any static text. Create a new text field, and enter :code:`%s`. This will be replaced later with text you specify for each title you add to the project based on this template. Adjust the font attributes, alignment, shadow, and the :ref:`typewriter <title-text_typewriter>` effect as required. If the title needs :doc:`animation </titles_and_graphics/graphics_and_animations/title_scrolling>`, you can create that, too.
 
 Instead of simply clicking on :guilabel:`Create title`, click on |document-save-as|\ :guilabel:`Save As`, or press :kbd:`Ctrl+S`, and save the template title. Give it a meaningful name for better recognizeability.
 

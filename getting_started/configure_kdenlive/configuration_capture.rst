@@ -22,7 +22,7 @@
 Capture
 -------
 
-This section configures the capturing of audio and video. Kdenlive allows to capture video using :doc:`ScreenGrab</project_and_asset_management/capturing_video>` and a |blackmagic| |decklink| card, and :doc:`audio</project_and_asset_management/capturing_audio>` with the devices available on your system.
+This section configures the capturing of audio and video. Kdenlive allows to capture video using :doc:`ScreenGrab </project_and_asset_management/capturing_video>` and a |blackmagic| |decklink| card, and :doc:`audio </project_and_asset_management/capturing_audio>` with the devices available on your system.
 
 
 .. _configure_capture_screengrab:
@@ -83,7 +83,7 @@ If you have a |blackmagic| |decklink| video capture card you can set here the im
 Audio
 ~~~~~
 
-These settings are for configuring the audio device that is used during screen recording and for recording of voice overs. See the chapter about :doc:`Capturing Audio</project_and_asset_management/capturing_audio>`.
+These settings are for configuring the audio device that is used during screen recording and for recording of voice overs. See the chapter about :doc:`Capturing Audio </project_and_asset_management/capturing_audio>`.
 
 .. figure:: /images/getting_started/configure_capture_audio_2412.webp
    :width: 700px
@@ -98,4 +98,4 @@ These settings are for configuring the audio device that is used during screen r
 
 :4: :guilabel:`Sample rate`. Select the sample rate for the recording. Options are **48,000Hz** (default) and **44,100Hz**.
 
-:5: :guilabel:`Disable countdown before recording`. If checked, recording will start immediately upon pressing the record button in the audio track (see :doc:`Capturing Audio</project_and_asset_management/capturing_audio>`). By default, a three-second countdown will be used and displayed in the project monitor.
+:5: :guilabel:`Disable countdown before recording`. If checked, recording will start immediately upon pressing the record button in the audio track (see :doc:`Capturing Audio </project_and_asset_management/capturing_audio>`). By default, a three-second countdown will be used and displayed in the project monitor.

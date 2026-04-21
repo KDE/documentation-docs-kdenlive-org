@@ -18,7 +18,7 @@
 Customizing the Interface
 =========================
 
-The user interface model allows you to freely adjust the different panels to support your workflow. You can add :term:`widgets<widget>` to and delete them from the different panels, rearrange them, change the size of the panels, and save the workspace layout so you can have different layouts with different widgets depending on the stage of your post-production work. For example, you can have different workspace layouts for video editing, color correction and sound editing. Kdenlive comes with four different workspace layouts already defined. See the :ref:`ui-workspace_layouts` chapter.
+The user interface model allows you to freely adjust the different panels to support your workflow. You can add :term:`widgets <widget>` to and delete them from the different panels, rearrange them, change the size of the panels, and save the workspace layout so you can have different layouts with different widgets depending on the stage of your post-production work. For example, you can have different workspace layouts for video editing, color correction and sound editing. Kdenlive comes with four different workspace layouts already defined. See the :ref:`ui-workspace_layouts` chapter.
 
 .. figure::  /images/user_interface/kdenlive2304_ui-workspaces.webp
    :align: left
@@ -62,7 +62,7 @@ Rearranged layouts are stored in the project file when saving.
 Adding Widgets
 --------------
 
-You can add :term:`widgets<widget>` (e.g. :ref:`view-library`, :ref:`view-project_notes`) by enabling them in :menuselection:`Menu --> View`. Likewise, disable them by taking off the check mark right next to their entry in the menu.
+You can add :term:`widgets <widget>` (e.g. :ref:`view-library`, :ref:`view-project_notes`) by enabling them in :menuselection:`Menu --> View`. Likewise, disable them by taking off the check mark right next to their entry in the menu.
 
 
 .. _ui-moving_widgets:
@@ -74,7 +74,7 @@ You move a :term:`widget` by grabbing the tab or the :term:`title bar` and movin
 
 A widget can also be moved to a new panel, to its own (new) column or row, or undocked as a floating window. Put a floating window on a second screen on which you can dock other widgets to create a new panel. 
 
-.. note:: In order to move widgets without a tab they must have :term:`title bars<title bar>`. You can switch them on and off in :menuselection:`Menu --> View --> Show Title Bars`.
+.. note:: In order to move widgets without a tab they must have :term:`title bars <title bar>`. You can switch them on and off in :menuselection:`Menu --> View --> Show Title Bars`.
 
 .. figure::  /images/user_interface/menu-view_Show-title-bar_2512.webp
    :align: left
@@ -160,7 +160,7 @@ You can only resize the column or row the :term:`widget` is docked in. Hover ove
 Saving the Layout
 -----------------
 
-Once you have arranged the :term:`widgets<widget>` to your liking you can save the layout via :menuselection:`Menu --> View --> Save Layout`. A dialog windows opens where you can name the new layout. If you enter the name of an existing layout a warning will appear but you can overwrite the layout.
+Once you have arranged the :term:`widgets <widget>` to your liking you can save the layout via :menuselection:`Menu --> View --> Save Layout`. A dialog windows opens where you can name the new layout. If you enter the name of an existing layout a warning will appear but you can overwrite the layout.
 
 The current layout is saved within the Kdenlive project file. 
 

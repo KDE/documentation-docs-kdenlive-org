@@ -24,14 +24,14 @@ The following effects are used for masking:
 * :doc:`Alpha Shapes (Mask) </effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask>`
 * :doc:`Rectangular Alpha Mask </effects_and_filters/video_effects/alpha_mask_keying/rectangular_alpha_mask>`
 * :doc:`Rotoscoping (Mask) </effects_and_filters/video_effects/alpha_mask_keying/rotoscoping_mask>`
-* :doc:`Shape Alpha (Mask)</effects_and_filters/video_effects/alpha_mask_keying/shape_alpha_mask>`
+* :doc:`Shape Alpha (Mask) </effects_and_filters/video_effects/alpha_mask_keying/shape_alpha_mask>`
 
 The following effects are used for creating an alpha channel:
 
-* :doc:`Alpha Shapes</effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes>`
-* :doc:`Chroma Key</effects_and_filters/video_effects/alpha_mask_keying/chroma_key>`
-* :doc:`Chroma Key (Advanced)</effects_and_filters/video_effects/alpha_mask_keying/chroma_key_advanced>`
-* :doc:`Rotoscoping</effects_and_filters/video_effects/alpha_mask_keying/rotoscoping>`
+* :doc:`Alpha Shapes </effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes>`
+* :doc:`Chroma Key </effects_and_filters/video_effects/alpha_mask_keying/chroma_key>`
+* :doc:`Chroma Key (Advanced) </effects_and_filters/video_effects/alpha_mask_keying/chroma_key_advanced>`
+* :doc:`Rotoscoping </effects_and_filters/video_effects/alpha_mask_keying/rotoscoping>`
 * :doc:`Shape Alpha </effects_and_filters/video_effects/alpha_mask_keying/shape_alpha>`
 
 

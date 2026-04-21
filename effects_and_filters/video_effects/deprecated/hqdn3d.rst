@@ -71,4 +71,4 @@ High quality 3D denoiser from Mplayer.
 
 ----
 
-.. [1] Replaced by :doc:`frei0r.denoise-hqdn3d</effects_and_filters/video_effects/grain_and_noise/denoise_hqdn3d>`
+.. [1] Replaced by :doc:`frei0r.denoise-hqdn3d </effects_and_filters/video_effects/grain_and_noise/denoise_hqdn3d>`

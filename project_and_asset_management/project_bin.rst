@@ -39,9 +39,9 @@ Project Bin
    project_bin/generators
    project_bin/clip_properties
 
-The Project Bin\ [1]_ is a view in Kdenlive which lists all the :term:`assets<Asset>` (clips) that are associated with the project. You can drag files from your OS file manager to the bin, or use the :doc:`Media Browser</project_and_asset_management/media_browser>`.
+The Project Bin\ [1]_ is a view in Kdenlive which lists all the :term:`assets <Asset>` (clips) that are associated with the project. You can drag files from your OS file manager to the bin, or use the :doc:`Media Browser </project_and_asset_management/media_browser>`.
 
-It is good practice to use :doc:`folders</project_and_asset_management/project_bin/project_bin_use_folders>`, :doc:`tags</project_and_asset_management/project_bin/project_bin_use_tags>`, and even :doc:`multiple bins</project_and_asset_management/project_bin/project_bin_use_multiple_bins>` to stay organized and have quick and structured access to all assets of the project.
+It is good practice to use :doc:`folders </project_and_asset_management/project_bin/project_bin_use_folders>`, :doc:`tags </project_and_asset_management/project_bin/project_bin_use_tags>`, and even :doc:`multiple bins </project_and_asset_management/project_bin/project_bin_use_multiple_bins>` to stay organized and have quick and structured access to all assets of the project.
 
 .. .. versionchanged:: 25.12
       Show placeholder in the Bin. Explaining how to import media
@@ -57,7 +57,7 @@ It is good practice to use :doc:`folders</project_and_asset_management/project_b
 
    This is how the project bin looks when you start Kdenlive or create a new project. Note the **Sequence** folder that is there always and will hold all sequences you create.
 
-   The bin essentially consists of the toolbar and the list space. See the project bin :doc:`layout</project_and_asset_management/project_bin/project_bin_use>` for more details.
+   The bin essentially consists of the toolbar and the list space. See the project bin :doc:`layout </project_and_asset_management/project_bin/project_bin_use>` for more details.
 
 .. rst-class:: clear-both
 
@@ -74,7 +74,7 @@ It is good practice to use :doc:`folders</project_and_asset_management/project_b
 
    From here, you drag the clips into the timeline. Selecting a clip brings it automatically into the Clip Monitor.
 
-   For more details about clip management refer to the :doc:`Clips</project_and_asset_management/project_bin/clips>` chapter.
+   For more details about clip management refer to the :doc:`Clips </project_and_asset_management/project_bin/clips>` chapter.
 
 .. rst-class:: clear-both
 

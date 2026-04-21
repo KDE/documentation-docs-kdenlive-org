@@ -22,7 +22,7 @@ After starting Kdenlive the window should look similar to the image below. Kdenl
 
 The UI is separated into four main parts:
 
-[A] The Workspace with the various :term:`widgets<widget>` that can be arranged to your needs. See the :ref:`view_menu` and :ref:`ui-workspace_layouts` for more details.
+[A] The Workspace with the various :term:`widgets <widget>` that can be arranged to your needs. See the :ref:`view_menu` and :ref:`ui-workspace_layouts` for more details.
 
 [B] The Menu Bar with the :ref:`Menu <menu>` and list of :ref:`ui-workspace_layouts`.
 
@@ -48,7 +48,7 @@ The Workspace model follows the video editing workflow and can be adapted to you
 
 
 :[1] Project Bin, Library:
-   This is where you keep your source files (video clips, images and image sequences, title and color clips, animations, audio files). In this screenshot the :term:`widgets<widget>` for :ref:`Undo History <undo_history>`, :doc:`Compositions </compositing/compositions>`, and :ref:`Effects <effects-effects_tab>` have been added to this section.
+   This is where you keep your source files (video clips, images and image sequences, title and color clips, animations, audio files). In this screenshot the :term:`widgets <widget>` for :ref:`Undo History <undo_history>`, :doc:`Compositions </compositing/compositions>`, and :ref:`Effects <effects-effects_tab>` have been added to this section.
 
 :[2] Clip Monitor:
    This is where the clip selected in the project bin is displayed. In this screenshot the widget for :term:`Library` has been added to this section. See the chapter :ref:`ui-monitors_clip_monitor` for more details.

@@ -40,29 +40,29 @@ The configuration settings are divided into the following sections:
    :widths: 20 80
    :class: table-wrap
 
-   * - :doc:`Misc</getting_started/configure_kdenlive/configuration_misc>`
+   * - :doc:`Misc </getting_started/configure_kdenlive/configuration_misc>`
      - This section contains settings for the general behavior of Kdenlive, how to handle clip import and effects, and the default duration for the various clip types.
-   * - :doc:`Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>`
+   * - :doc:`Project Defaults </getting_started/configure_kdenlive/configuration_project_defaults>`
      - Kdenlive uses these settings for creating a new project (see :menuselection:`Menu --> File --> New`, or when Kdenlive starts and the option for opening the last project is not checked). To change the parameters for a currently open project, use the Project Settings. Please note that while changing parameter for the open project is possible, it is not recommended as it may break things like keyframes and cuts.
-   * - :doc:`Proxy Clips</getting_started/configure_kdenlive/configuration_proxy_clips>`
+   * - :doc:`Proxy Clips </getting_started/configure_kdenlive/configuration_proxy_clips>`
      - This section contains settings pertaining to enabling and managing proxy clip generation.
-   * - :doc:`Timeline</getting_started/configure_kdenlive/configuration_timeline>`
+   * - :doc:`Timeline </getting_started/configure_kdenlive/configuration_timeline>`
      - This section controls certain aspects of the timeline
-   * - :doc:`Tools</getting_started/configure_kdenlive/configuration_tools>`
+   * - :doc:`Tools </getting_started/configure_kdenlive/configuration_tools>`
      - Currently, this section contains only the setting for cutting subtitles.
-   * - :doc:`Environment</getting_started/configure_kdenlive/configuration_environment>`
+   * - :doc:`Environment </getting_started/configure_kdenlive/configuration_environment>`
      - This section contains settings pertaining to proxy and transcoding jobs, cache data, third party application and tools, and default folders and apps
-   * - :doc:`Colors and Markers</getting_started/configure_kdenlive/configuration_colors+markers>`
+   * - :doc:`Colors and Markers </getting_started/configure_kdenlive/configuration_colors+markers>`
      - This section defines which colors to use for thumbnails, markers, and monitor overlays, as well as grid spacing. Here you can also manage the categories for timeline markers and markers.
-   * - :doc:`Speech to Text</getting_started/configure_kdenlive/configuration_plugins>`
+   * - :doc:`Speech to Text </getting_started/configure_kdenlive/configuration_plugins>`
      - This section is used to manage the various models used for Speech To Text (VOSK and Whisper) and Object Detection
-   * - :doc:`Playback</getting_started/configure_kdenlive/configuration_playback>`
+   * - :doc:`Playback </getting_started/configure_kdenlive/configuration_playback>`
      - This section contains settings for playback during editing and external displays
-   * - :doc:`Capture</getting_started/configure_kdenlive/configuration_capture>`
+   * - :doc:`Capture </getting_started/configure_kdenlive/configuration_capture>`
      - This section contains settings for screen captures, the Blackmagic DeckLink system, and audio recording
-   * - :doc:`JogShuttle</getting_started/configure_kdenlive/configuration_jogshuttle>`
+   * - :doc:`JogShuttle </getting_started/configure_kdenlive/configuration_jogshuttle>`
      - This section contains the settings for certain attached jog shuttle devices
-   * - :doc:`Transcode</getting_started/configure_kdenlive/configuration_transcode>`
+   * - :doc:`Transcode </getting_started/configure_kdenlive/configuration_transcode>`
      - This section contains all the available profiles for transcoding video sources that are not in an edit-friendly format, for example have been recorded with a variable frame rate
 
 

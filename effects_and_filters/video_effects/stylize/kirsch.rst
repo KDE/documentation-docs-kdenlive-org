@@ -60,7 +60,7 @@ This effect/filter applies the Kirsch\ [1]_ operator to the input video stream. 
      - Description
    * - Planes
      - Selection
-     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied. Default is **Y**.
+     - Set which :term:`planes <plane>` will be processed, unprocessed planes will be copied. Default is **Y**.
    * - Scale
      - Integer
      - Set value which will be multiplied with filtered result

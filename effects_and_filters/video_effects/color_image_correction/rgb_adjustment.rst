@@ -43,7 +43,7 @@ RGB Adjustment
 
 .. rubric:: Description
 
-This filter is for simple manual color adjustment by RGB channel, either through adding constants, or changing the channel :term:`gammas<gamma>` or gains.
+This filter is for simple manual color adjustment by RGB channel, either through adding constants, or changing the channel :term:`gammas <gamma>` or gains.
 
 
 .. rubric:: Parameters

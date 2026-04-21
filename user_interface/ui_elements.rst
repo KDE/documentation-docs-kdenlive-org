@@ -72,7 +72,7 @@ Controls
    * - UI Element
      - Description
    * - 1 :guilabel:`edit frame`
-     - [Project Monitor only] Identifies the object or area of the effect. :term:`Edit Mode<edit mode>` needs to be enabled for the frame to show.
+     - [Project Monitor only] Identifies the object or area of the effect. :term:`Edit Mode <edit mode>` needs to be enabled for the frame to show.
    * - 2 :guilabel:`edit frame handles`
      - Used to change the size (square handles) and move the frame (circle in the middle)
    * - 3 :guilabel:`monitor overlay`
@@ -92,7 +92,7 @@ Controls
    * - 10 :guilabel:`tab (active)`
      - Currently active :term:`widget`
    * - 11 :guilabel:`tab (inactive)`
-     - Available :term:`widgets<widget>` in that section of the work layout
+     - Available :term:`widgets <widget>` in that section of the work layout
 
 
 Elements
@@ -116,7 +116,7 @@ Elements
    * - [B] Effect parameters
      - Contains all the parameters for controlling the effect
    * - [C] Normal parameters
-     - Contains all parameters that are not :term:`keyframable<keyframe>`
+     - Contains all parameters that are not :term:`keyframable <keyframe>`
    * - [D] Keyframe panel
      - Contains the time ruler, the keyframes and the keyframe action icons
    * - [E] Keyframable parameters
@@ -150,7 +150,7 @@ Elements
    * - Element
      - Description
    * - [A] Monitor area
-     - This is where the :term:`clip` playback is shown and where effects can be changed (only in the project monitor, if possible with the effect, and :term:`Edit Mode<edit mode>` is switched on)
+     - This is where the :term:`clip` playback is shown and where effects can be changed (only in the project monitor, if possible with the effect, and :term:`Edit Mode <edit mode>` is switched on)
    * - [B] Monitor time ruler
      - Shows the timeline for the project or clip where the current frame is indicated by the playhead or caret. A zoom bar and/or a timeline zone is displayed here if set.
    * - [C] Monitor toolbar
@@ -179,7 +179,7 @@ Effect Panel Toolbar Icons
    * - Icon
      - Description
    * - |keyframe| |keyframe-disable|
-     - Show :term:`keyframes<keyframe>` in timeline on/off
+     - Show :term:`keyframes <keyframe>` in timeline on/off
    * - |view-visible| |view-hidden|
      - Enable/disable :term:`effect`
    * - |adjustlevels|
@@ -209,7 +209,7 @@ Keyframe Icons
    * - |keyframe-previous|
      - Jump to the previous :term:`keyframe`
    * - |keyframe-add|
-     - Add a keyframe at the current position of the :term:`playhead/caret<playhead>`
+     - Add a keyframe at the current position of the :term:`playhead/caret <playhead>`
    * - |keyframe-next|
      - Jump to the next keyframe
    * - |keyframe-remove|
@@ -281,9 +281,9 @@ Project / Clip Monitor Icons
    * - 1:1 |go-down|
      - Set preview resolution
    * - |zone-in|
-     - Set the :term:`Inpoint<In-point>` at the current position of the :term:`playhead`
+     - Set the :term:`Inpoint <In-point>` at the current position of the :term:`playhead`
    * - |zone-out|
-     - Set the :term:`Outpoint<Out-point>` at the current position of the playhead
+     - Set the :term:`Outpoint <Out-point>` at the current position of the playhead
    * - |rewind|
      - Play backwards
    * - |play| |go-down|
@@ -337,7 +337,7 @@ Timeline Icons
    * - |kdenlive-ripple|
      - :term:`Ripple tool`
    * - |composite-track-preview|
-     - :term:`Mix<Mixes>` clips (same track transition)
+     - :term:`Mix <Mixes>` clips (same track transition)
    * - |timeline-insert|
      - Insert clip :term:`zone` in timeline
    * - |timeline-overwrite|

@@ -24,9 +24,9 @@ The **Misc** (Miscellaneous) section contains settings for the general behavior 
    
    The miscellaneous section
 
-:1: :guilabel:`Open last project on startup`. If checked, Kdenlive will open the project file that was last edited and saved before closing Kdenlive. If unchecked, Kdenlive will create a new project using the :doc:`Project Default</getting_started/configure_kdenlive/configuration_project_defaults>` settings.
+:1: :guilabel:`Open last project on startup`. If checked, Kdenlive will open the project file that was last edited and saved before closing Kdenlive. If unchecked, Kdenlive will create a new project using the :doc:`Project Default </getting_started/configure_kdenlive/configuration_project_defaults>` settings.
 
-:2: :guilabel:`Auto Save`. If checked, Kdenlive will automatically create a backup of the current project file every number of seconds or operations you have specified (default is 60sec / 25 operations). When saving is ongoing, a green square indicator next to the layout widget shows up for 2 seconds (top right). See also the chapter :doc:`Auto Save</project_and_asset_management/file_management/auto_save>`.
+:2: :guilabel:`Auto Save`. If checked, Kdenlive will automatically create a backup of the current project file every number of seconds or operations you have specified (default is 60sec / 25 operations). When saving is ongoing, a green square indicator next to the layout widget shows up for 2 seconds (top right). See also the chapter :doc:`Auto Save </project_and_asset_management/file_management/auto_save>`.
 
 :3: :guilabel:`Check if first added clip matches project profile`. If checked, Kdenlive compares the dimensions and fps values of the first clip added to the project bin with the respective settings in project profile. If they differ, Kdenlive asks if the project settings should be adjusted to match the values of the clip.
 
@@ -40,7 +40,7 @@ The **Misc** (Miscellaneous) section contains settings for the general behavior 
 
 :8: :guilabel:`Disable parameters when the effect is disabled`. If checked, you cannot change the parameters when the effect is disabled. If unchecked, changing parameter is possible but the video playback doesn't change. You need to enable the effect to see the changes.
 
-:9: :guilabel:`Enable built-in effects`. If checked, clips will have parameters of the :doc:`Flip</effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Transform</effects_and_filters/video_effects/transform_distort_perspective/transform>` effects automatically added and displayed in the effects stack. This eliminates the need to add those effects manually.
+:9: :guilabel:`Enable built-in effects`. If checked, clips will have parameters of the :doc:`Flip </effects_and_filters/video_effects/transform_distort_perspective/flippo>` and :doc:`Transform </effects_and_filters/video_effects/transform_distort_perspective/transform>` effects automatically added and displayed in the effects stack. This eliminates the need to add those effects manually.
 
 :10: :guilabel:`Tab position`. This determines where the tabs for stacked widgets are displayed. Options are **Bottom** (default), **Top**, **Left**, and **Right**.
 

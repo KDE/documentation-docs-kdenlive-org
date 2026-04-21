@@ -24,7 +24,7 @@
 Color Clip
 ==========
 
-Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place :doc:`titles</project_and_asset_management/project_bin/title_clip>`.
+Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place :doc:`titles </project_and_asset_management/project_bin/title_clip>`.
 
 Right-click on empty space in the project bin, or click the |kdenlive-add-clip|\ |go-down|\ :guilabel:`Add Clip` icon on the project bin toolbar, and select :guilabel:`Add Color Clip`.
 

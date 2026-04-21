@@ -56,7 +56,7 @@ This effect/filter picks the median pixel from a given rectangle defined by :gui
      - Description
    * - Planes
      - Selection
-     - Sets which :term:`planes<plane>` to process. Default is **All**.
+     - Sets which :term:`planes <plane>` to process. Default is **All**.
    * - Spatial sigma
      - Float
      - Sets the horizontal radius size. Allowed values are from 1.000 to 127.000, default is 1.

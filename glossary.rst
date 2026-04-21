@@ -102,7 +102,7 @@ Glossary
       The signal used in video systems to convey the color information of the picture. Chrominance is usually represented as two-color difference components: U (blue projection) = B' - Y' (blue - :term:`luma`) and V (red projection) = R' - Y' (red - luma). See also :term:`YUV`.
 
    Clip
-      Essentially any file with video and/or audio, a simple image or any asset created through Kdenlive, e.g. title clip, color clip, animation (via Glaxnimate). A clip can be in the :term:`Project Bin` or :term:`Timeline`, or be referred to as the result of a :term:`Render<exporting>`. See chapter :doc:`/project_and_asset_management/project_bin/clips`
+      Essentially any file with video and/or audio, a simple image or any asset created through Kdenlive, e.g. title clip, color clip, animation (via Glaxnimate). A clip can be in the :term:`Project Bin` or :term:`Timeline`, or be referred to as the result of a :term:`Render <exporting>`. See chapter :doc:`/project_and_asset_management/project_bin/clips`
 
    CMYK
       A |subtractive_color| model based on the CMY color model used in printing. The abbreviation refers to the four ink plates used: cyan, magenta, yellow and key (black).
@@ -129,11 +129,11 @@ Glossary
       A color space is a specific organization of colors. It is a useful conceptual tool for understanding the color capabilities of a particular device or digital file. When trying to reproduce color on another device, color spaces can show whether shadow/highlight detail and color :term:`saturation` can be retained, and by how much either will be compromised. See this article about |color_space| in Wikipedia.
 
    Composition
-      Also referred to as a transition, it combines at least two input :term:`clips<clip>` to one output clip. Compositions cannot be stacked. See chapters :doc:`/compositing/compositions` and :doc:`/compositing/transitions`.
+      Also referred to as a transition, it combines at least two input :term:`clips <clip>` to one output clip. Compositions cannot be stacked. See chapters :doc:`/compositing/compositions` and :doc:`/compositing/transitions`.
 
    Container
    Container Format
-      A type of file that encapsulates multiple (compressed) data :term:`streams<stream>` in one file (wrapper), usually together with metadata for identifying or further detailing the embedded streams. Examples are Matroska (.mkv), OGG (.ogg), MPEG-4 (.mp4), AVI.
+      A type of file that encapsulates multiple (compressed) data :term:`streams <stream>` in one file (wrapper), usually together with metadata for identifying or further detailing the embedded streams. Examples are Matroska (.mkv), OGG (.ogg), MPEG-4 (.mp4), AVI.
 
    Crash
       The instance when you realize you have not saved your project for at least two hours and worked on the most difficult edits. See :term:`backup`.
@@ -189,7 +189,7 @@ Glossary
       An In-point defines the beginning of a :term:`zone`. A zone can be defined in the :term:`timeline` and the :term:`project monitor` (it has the same result), or in the :term:`clip monitor` (useful to move only a certain section of a clip to the timeline). See :term:`zone` for possible usages.
 
    Jog Shuttle
-      An external device that improves video editing by using a rotary knob to scrub through the timeline, and providing a special keyboard for actions like cutting, inserting, deleting, slip and ripple editing, etc. It can be used with Kdenlive and configured in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`JogShuttle</getting_started/configure_kdenlive/configuration_jogshuttle>`. See :doc:`Settings</getting_started/configuration>`.
+      An external device that improves video editing by using a rotary knob to scrub through the timeline, and providing a special keyboard for actions like cutting, inserting, deleting, slip and ripple editing, etc. It can be used with Kdenlive and configured in :menuselection:`Menu --> Settings --> Configure Kdenlive -->` :doc:`JogShuttle </getting_started/configure_kdenlive/configuration_jogshuttle>`. See :doc:`Settings</getting_started/configuration>`.
 
    KDE Store
       An online app |store| where users can upload files like lumas for :doc:`wipes </compositing/transitions/wipe>`, :ref:`presets <exporting>` for rendering, title templates, library clips and even project files. See :ref:`effects-effects_tab` icon #7.
@@ -211,7 +211,7 @@ Glossary
       Represents the brightness of an image or video. Luma is typically paired with :term:`chrominance`. Luma represents the achromatic (aka black-and-white) image, while the chroma components represent the color information.
 
    Library
-      Holds assets for generic use in projects. For example, watermarks, logos, lower-thirds, intros, and so on. See the chapter :doc:`Library</project_and_asset_management/library>`.
+      Holds assets for generic use in projects. For example, watermarks, logos, lower-thirds, intros, and so on. See the chapter :doc:`Library </project_and_asset_management/library>`.
 
    Lock
       Locks a track for editing. Indicated by a closed padlock icon.
@@ -230,7 +230,7 @@ Glossary
       The volume of all of the audio tracks when merged into one during rendering. See :ref:`effects-audio_tools`.
 
    Media Browser
-      Allows easy browsing of the file system and previewing media clips and other assets for importing to the :term:`Project Bin`. A widget that can be switched on and off via :menuselection:`Menu --> View --> Media Browser`. See the chapter :doc:`media_browser</project_and_asset_management/media_browser>`.
+      Allows easy browsing of the file system and previewing media clips and other assets for importing to the :term:`Project Bin`. A widget that can be switched on and off via :menuselection:`Menu --> View --> Media Browser`. See the chapter :doc:`media_browser </project_and_asset_management/media_browser>`.
 
    MELT
    melt
@@ -243,7 +243,7 @@ Glossary
       A device to display a video signal. Kdenlive uses a Clip Monitor to play clips selected in the :term:`project bin` and :term:`Project Monitor` to play clips in the :term:`timeline`. Monitor is widget that can be switched on and off via :menuselection:`Menu --> View`. See :ref:`ui-monitors`.
 
    MOVIT
-      A library for high-quality, high-performance video filters. Is needed to enable GPU-supported preview and playback. See :doc:`Configure Playback</getting_started/configure_kdenlive/configuration_playback>` in :menuselection:`Menu --> Settings --> Configure Kdenlive`.
+      A library for high-quality, high-performance video filters. Is needed to enable GPU-supported preview and playback. See :doc:`Configure Playback </getting_started/configure_kdenlive/configuration_playback>` in :menuselection:`Menu --> Settings --> Configure Kdenlive`.
 
    Clip Monitor
       The Clip Monitor plays the clip currently selected in the :term:`Project Bin`. See :ref:`ui-monitors` and :term:`overlay`.
@@ -267,10 +267,10 @@ Glossary
       An Out-point defines the end of a :term:`zone`. A zone can be defined in the :term:`timeline` and the :term:`project monitor` (it has the same result), or in the :term:`clip monitor` (useful to move only a certain section of a clip to the timeline). See :term:`zone` for possible usages.
 
    Video Overlay
-      Additional information (e.g. timecode) that is overlayed during the render process. Can be selected in the More Options section of the :ref:`Render Dialog<render>`.
+      Additional information (e.g. timecode) that is overlayed during the render process. Can be selected in the More Options section of the :ref:`Render Dialog <render>`.
 
    Playhead
-      The upside-down triangle in the timeline ruler. Indicates the (play) position in the timeline. During :ref:`3-point Editing<three_point_editing>` determines where a clip or clip zone will be added to the timeline. Drag it across to scrub the timeline.
+      The upside-down triangle in the timeline ruler. Indicates the (play) position in the timeline. During :ref:`3-point Editing <three_point_editing>` determines where a clip or clip zone will be added to the timeline. Drag it across to scrub the timeline.
 
    Posterize
    Posterization
@@ -286,10 +286,10 @@ Glossary
       The sum of all assets, clips, tracks, effects, transitions, compositions and settings, their arrangements in the timeline, and references to all the source materials including their :term:`proxy` work copies. The project file is associated with a working directory where Kdenlive generates proxies and thumbs.
 
    Project Bin
-      Lists all the clips and assets that are associated with the project. Referred to as the 'Project Tree' in earlier versions. See the chapter :doc:`Project Bin</project_and_asset_management/project_bin>`.
+      Lists all the clips and assets that are associated with the project. Referred to as the 'Project Tree' in earlier versions. See the chapter :doc:`Project Bin </project_and_asset_management/project_bin>`.
 
    Project Settings
-      Defines the format (dimensions, aspect ratio, frames-per-second setting) of the project through the choice of profile or :term:`preset`, which working directory to use, how many video and audio tracks there are initially, and which profile to use for previews. Stores metadata for your project (e.g. title, author, copyright information). See chapter :doc:`Project Settings</project_and_asset_management/project_settings>`.
+      Defines the format (dimensions, aspect ratio, frames-per-second setting) of the project through the choice of profile or :term:`preset`, which working directory to use, how many video and audio tracks there are initially, and which profile to use for previews. Stores metadata for your project (e.g. title, author, copyright information). See chapter :doc:`Project Settings </project_and_asset_management/project_settings>`.
 
    Profile
       For rendering see :term:`preset`, for project see :term:`project settings`
@@ -334,7 +334,7 @@ Glossary
       Used in editing. Keeps the original duration of the clip. Compare with working with old film material: the film strip is slipped back and forth beneath the given "window" of the clip length. See :ref:`timeline_edit_tools`
 
    Snap Point
-      Sections in :term:`clips<clip>` that other clips snap to when "snapping" is turned on. Snap points include markers, timeline markers, zone in-points, zone out-points, transition start points, clip edges, and cuts.
+      Sections in :term:`clips <clip>` that other clips snap to when "snapping" is turned on. Snap points include markers, timeline markers, zone in-points, zone out-points, transition start points, clip edges, and cuts.
 
    Speed Ramping
       See :term:`Time Remapping`
@@ -347,7 +347,7 @@ Glossary
 
    Temperature
    Color Temperature
-      A parameter describing the color of the visible light source. It is measured in :term:`Kelvins<kelvin>` (K). The range is from 1,000K to 10,000K where lower temperatures are considered "warm", and higher temperatures "cool". See this article about |color_temp|.
+      A parameter describing the color of the visible light source. It is measured in :term:`Kelvins <kelvin>` (K). The range is from 1,000K to 10,000K where lower temperatures are considered "warm", and higher temperatures "cool". See this article about |color_temp|.
 
       Theme
       A set of colors, icons, fonts and other settings to change the appearance of an application or desktop. Can be set from :menuselection:`Menu --> Settings --> Color Scheme`.
@@ -359,7 +359,7 @@ Glossary
       A special widget allowing to keyframe the speed of a clip to achieve effects like speed ramping. See :ref:`effects-time_remapping`.
 
    Timeline
-      The :doc:`central part</user_interface/timeline>` of Kdenlive. This is where all the editing takes place. Keeps a chronological sequence of the clips and the relations to each other through tracks and compositions. Can be zoomed. See also :ref:`sequence` for nested timelines.
+      The :doc:`central part </user_interface/timeline>` of Kdenlive. This is where all the editing takes place. Keeps a chronological sequence of the clips and the relations to each other through tracks and compositions. Can be zoomed. See also :ref:`sequence` for nested timelines.
 
    Timeline Marker (former Guide)
       Static markings in the :term:`timeline` that do not necessarily move with clips. Not to be confused with :term:`markers`. Can be used to define regions for rendering and exported to provide chapters for YouTube videos. See :ref:`guides`.
@@ -374,7 +374,7 @@ Glossary
       In color theory a tint is a mixture of a color with white, increasing the lightness. Compare :term:`shade`, :term:`hue` and :term:`saturation`.
 
    Title Bar
-      Part of a :term:`widget's<widget>` window displaying additional information (e.g. name, title, action icons). You can grab a widget by the title bar and move it around. See :ref:`ui-moving_widgets`.
+      Part of a :term:`widget's <widget>` window displaying additional information (e.g. name, title, action icons). You can grab a widget by the title bar and move it around. See :ref:`ui-moving_widgets`.
 
    Tooltip
       A small window with more information about a function that pops up when hovering the mouse over an icon or button. Press Shift to get even more details (not available for all functions).

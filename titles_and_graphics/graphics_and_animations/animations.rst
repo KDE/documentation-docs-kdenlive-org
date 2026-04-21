@@ -18,7 +18,7 @@
 Graphics and Animations
 =======================
 
-Kdenlive is integrated with |glaxnimate| for :doc:`vector graphics and animations</titles_and_graphics/graphics_and_animations/glaxnimate>`. The title editor comes with a limited :doc:`animation function</titles_and_graphics/graphics_and_animations/title_scrolling>` that is useful to create :doc:`scrolling titles</titles_and_graphics/graphics_and_animations/title_scrolling>`.
+Kdenlive is integrated with |glaxnimate| for :doc:`vector graphics and animations </titles_and_graphics/graphics_and_animations/glaxnimate>`. The title editor comes with a limited :doc:`animation function </titles_and_graphics/graphics_and_animations/title_scrolling>` that is useful to create :doc:`scrolling titles </titles_and_graphics/graphics_and_animations/title_scrolling>`.
 
 .. toctree::
    :hidden:

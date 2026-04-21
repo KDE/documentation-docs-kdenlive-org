@@ -60,7 +60,7 @@ This effect/filter does simple color correction, in a physically meaningful way.
      - Choose the color from the source image that should be white
    * - Color Temperature
      - Integer
-     - Choose an output color temperature in degrees :term:`Kelvin<kelvin>`. Default is 6,500K
+     - Choose an output color temperature in degrees :term:`Kelvin <kelvin>`. Default is 6,500K
 
 
 .. rubric:: Notes

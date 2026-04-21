@@ -145,7 +145,7 @@ This message can appear if you do a clean reinstall of Kdenlive (see above). Sim
 Additionally this can be a problem either with the :file:`kdenliverc` file or you have some mismatch in the :file:`%APPDATA%\\local` folder.
 
 
-Message *Failed to filter source* in :doc:`Motion Tracker</effects_and_filters/video_effects/alpha_mask_keying/motion_tracker>` effect
+Message *Failed to filter source* in :doc:`Motion Tracker </effects_and_filters/video_effects/alpha_mask_keying/motion_tracker>` effect
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 You may get an error of ``mlt_repository_init: failed to dlopen C:\Program Files\kdenlive\lib\mlt/libmltjack.dll`` or ``animation initialized FAILED`` followed by many lines of ``Current Frame: <f>, percentage: <p>``.

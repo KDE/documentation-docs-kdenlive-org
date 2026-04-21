@@ -119,7 +119,7 @@ Timeline Cursor/Position Caret/Playhead
       
    This indicates the position we are displaying in the :ref:`ui-monitors`. You can scroll the position by dragging the Timeline cursor (a.k.a Position Caret or Playhead).
 
-   Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :doc:`Configure Kdenlive</getting_started/configuration>`.
+   Beginning with version 0.9.4, dragging the timeline cursor will play the audio of the clip (a.k.a. Audio Scrubbing).  This feature only works if you have checked :menuselection:`Use Open GL for video display` in :doc:`Configure Kdenlive </getting_started/configuration>`.
 
 .. rst-class:: clear-both
 
@@ -225,7 +225,7 @@ For more detailed information on preview render please refer to this section of 
 Right click into the timeline ruler opens the context menu and allows you to:
 
   * :ref:`Manipulate timeline markers <guides>`
-  * :term:`Set Zone In/Out<zone>`
+  * :term:`Set Zone In/Out <zone>`
   * :doc:`Add Project Notes </project_and_asset_management/project_notes>`
   * :ref:`Add Subtitle <effects-subtitles>`
 
@@ -264,7 +264,7 @@ This is a quick overview of the main sections of the toolbar. A more detailed de
 Tracks
 ------
 
-The timeline is made of tracks. There are two kinds of tracks: audio and video. The number of tracks is defined when creating a new project in the :doc:`project settings</project_and_asset_management/project_settings/general_settings>`. Adding a clip to the timeline can be achieved by dragging it from the :doc:`project bin</project_and_asset_management/project_bin>` or the :ref:`ui-monitors`.
+The timeline is made of tracks. There are two kinds of tracks: audio and video. The number of tracks is defined when creating a new project in the :doc:`project settings </project_and_asset_management/project_settings/general_settings>`. Adding a clip to the timeline can be achieved by dragging it from the :doc:`project bin </project_and_asset_management/project_bin>` or the :ref:`ui-monitors`.
 
 .. _track_header:
 
@@ -315,7 +315,7 @@ In order to add a track, right-click anywhere in the track header area. In the *
       :width: 400px
       :align: left
       
-   You can specify the number of tracks for a new project in :menuselection:`Menu --> Settings --> Configure Kdenlive` in the :doc:`Project Defaults</getting_started/configure_kdenlive/configuration_project_defaults>` tab. 
+   You can specify the number of tracks for a new project in :menuselection:`Menu --> Settings --> Configure Kdenlive` in the :doc:`Project Defaults </getting_started/configure_kdenlive/configuration_project_defaults>` tab. 
 
 .. rst-class:: clear-both
 
@@ -419,7 +419,7 @@ Configurable Tracks
 Continuously loop playback
 --------------------------
 
-- Disable :guilabel:`Pause playback when seeking` in :doc:`Configure Timeline</getting_started/configure_kdenlive/configuration_timeline>` settings (:menuselection:`Menu --> Settings --> Configure Kdenlive --> Timeline`). 
+- Disable :guilabel:`Pause playback when seeking` in :doc:`Configure Timeline </getting_started/configure_kdenlive/configuration_timeline>` settings (:menuselection:`Menu --> Settings --> Configure Kdenlive --> Timeline`). 
 - Make a timeline zone the length you like to loop.
 - Loop Zone (:kbd:`Ctrl+Shift+Space`)
 

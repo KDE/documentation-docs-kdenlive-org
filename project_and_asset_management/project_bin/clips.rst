@@ -25,9 +25,9 @@ Add Clip or Folder
 
 Clips in the context of the Project Bin are all external assets that are imported into Kdenlive. That includes **videos**, **audio files**, **images**, and :file:`.json` **animations**, as well as Krita image archives.
 
-For other asset types see :doc:`title clips</project_and_asset_management/project_bin/title_clip>` and :doc:`template titles</project_and_asset_management/project_bin/template_title>`, :doc:`color clips</project_and_asset_management/project_bin/color_clip>`, :doc:`animation</project_and_asset_management/project_bin/animation>`, and :doc:`image sequence</project_and_asset_management/project_bin/image_sequence>`.
+For other asset types see :doc:`title clips </project_and_asset_management/project_bin/title_clip>` and :doc:`template titles </project_and_asset_management/project_bin/template_title>`, :doc:`color clips </project_and_asset_management/project_bin/color_clip>`, :doc:`animation /project_and_asset_management/project_bin/animation>`, and :doc:`image sequence </project_and_asset_management/project_bin/image_sequence>`.
 
-In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or Folder` button, or double click an empty space in the project bin. This brings up the **Add Clip** Dialog where you can choose video, audio, animation, or still image files (individually or as an :doc:`image sequence</project_and_asset_management/project_bin/image_sequence>`) to add to your project.
+In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or Folder` button, or double click an empty space in the project bin. This brings up the **Add Clip** Dialog where you can choose video, audio, animation, or still image files (individually or as an :doc:`image sequence </project_and_asset_management/project_bin/image_sequence>`) to add to your project.
 
 .. hint:: 
    Of course, you can also drag and drop files into the project bin from your OS file manager of choice.
@@ -51,7 +51,7 @@ In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or
    * -
      - |go-up|\ :guilabel:`Go up` goes up one level in the file system folder hierarchy
    * - 
-     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder</project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their :doc:`own bins <project_bin_use_multiple_bins>`.
+     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder </project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their :doc:`own bins <project_bin_use_multiple_bins>`.
    * - **2**
      - |view-refresh|\ :guilabel:`Refresh document` refreshes the current view (default keyboard shortcut :kbd:`F5`)
    * - **3**

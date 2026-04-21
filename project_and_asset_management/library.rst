@@ -18,7 +18,7 @@ Library
 
 The **Library** is Kdenlive's way to copy and paste sets of clips and transitions between different projects. It is not just a clipboard, but instead it is a library for all the things you use in more than one project.
 
-You enable the library through the menu item :doc:`View</user_interface/menu/view_menu>`.
+You enable the library through the menu item :doc:`View </user_interface/menu/view_menu>`.
 
 .. _library-copy_to_library:
 
@@ -36,7 +36,7 @@ The **Library** is Kdenlive's central place **for copying and pasting between pr
 By default, the library is empty. For illustration purposes folders for **Audio**, **Video** and **Stock** footage have been created.
 
 .. note::
-   The library should look slightly familiar, as it works and behaves similar to the :doc:`project bin</project_and_asset_management/project_bin>`. However, while the project bin changes with each project, the library is independent of your projects. It is always the same library, there is only one of it.
+   The library should look slightly familiar, as it works and behaves similar to the :doc:`project bin </project_and_asset_management/project_bin>`. However, while the project bin changes with each project, the library is independent of your projects. It is always the same library, there is only one of it.
 
 .. tip::
    A quite useful :doc:`workspace layout </user_interface/workspace_layouts>` is to group the library together with the project bin, and optionally the project notes. This way, you do not need extra screen space for the library, yet it is no further away than just a single click.
@@ -79,7 +79,7 @@ By default, the library is empty. For illustration purposes folders for **Audio*
 
       Library with the newly created item
 
-   You can even **neatly organize** your library items **into folders** and sub-folders. This is similar to what you know from Kdenlive's :doc:`(project) bin</project_and_asset_management/project_bin>`, where you also can use :doc:`folders</project_and_asset_management/project_bin/project_bin_use_folders>` to organize your project (source) clips.
+   You can even **neatly organize** your library items **into folders** and sub-folders. This is similar to what you know from Kdenlive's :doc:`(project) bin </project_and_asset_management/project_bin>`, where you also can use :doc:`folders </project_and_asset_management/project_bin/project_bin_use_folders>` to organize your project (source) clips.
 
    Use the |folder-new|\ :guilabel:`Add Folder` button at the bottom of the library to create a new folder. You can rearrange library items and folders at any time by simple dragging them into their new place.\ [1]_
 
@@ -150,7 +150,7 @@ Expand Library Clip
 
       :menuselection:`Menu --> Sequence`
 
-   Often, you want to edit the contents of a library clip right after after you have placed it on the timeline. **Expanding** means that you want to break up a library clip into its contents for further editing. So, simply select the library clip in the timeline. Then choose :menuselection:`Menu --> Sequence --> Current Clip --> Expand Clip`. Alternatively, you can :doc:`create a keyboard shortcut</user_interface/menu/settings_menu/configure_shortcuts>` for that.
+   Often, you want to edit the contents of a library clip right after after you have placed it on the timeline. **Expanding** means that you want to break up a library clip into its contents for further editing. So, simply select the library clip in the timeline. Then choose :menuselection:`Menu --> Sequence --> Current Clip --> Expand Clip`. Alternatively, you can :doc:`create a keyboard shortcut </user_interface/menu/settings_menu/configure_shortcuts>` for that.
 
 .. container:: clear-both
 

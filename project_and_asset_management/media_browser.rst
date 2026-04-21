@@ -16,7 +16,7 @@ Media Browser
 
 .. .. versionadded:: 21.04.0
   
-The Media Browser allows you to easily navigate through your file system. You can enable it from the :doc:`View</user_interface/menu/view_menu>` menu.
+The Media Browser allows you to easily navigate through your file system. You can enable it from the :doc:`View </user_interface/menu/view_menu>` menu.
 
 The main advantage of using the Media Browser is the ability to drag clips not only to the project bin but also directly into the timeline. Make sure that when you drop a clip to the timeline there is enough space and a valid video/audio track combination available.
 
@@ -41,7 +41,7 @@ The main advantage of using the Media Browser is the ability to drag clips not o
    * -
      - |go-up|\ :guilabel:`Go up` goes up one level in the file system folder hierarchy
    * - 
-     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder</project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their own bins.
+     - |folder-new|\ :guilabel:`Add folder` creates a :doc:`new folder </project_and_asset_management/project_bin/project_bin_use_folders>` in the current project bin. These are virtual folders that help you organize large bins. Folders can be turned into their own bins.
    * - **2**
      - |view-refresh|\ :guilabel:`Refresh document` refreshes the current view (default keyboard shortcut :kbd:`F5`)
    * - **3**
@@ -107,6 +107,6 @@ The main advantage of using the Media Browser is the ability to drag clips not o
    * -
      - .. figure:: /images/project_and_asset_management/media_browser_2_nav_list.webp
    * - **7**
-     - :guilabel:`Import image sequence` When checked, Kdenlive will look for files with a filename pattern similar to the selected file and open the :doc:`Add Image Sequence</project_and_asset_management/project_bin/image_sequence>` dialog window.
+     - :guilabel:`Import image sequence` When checked, Kdenlive will look for files with a filename pattern similar to the selected file and open the :doc:`Add Image Sequence </project_and_asset_management/project_bin/image_sequence>` dialog window.
    * - **8**
      - :guilabel:`Ignore subfolder structure` When checked, Kdenlive will import the clips in the selected folders and sub-folders without recreating the folder structure in the project bin

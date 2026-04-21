@@ -59,7 +59,7 @@ This section defines some of the most important settings for Kdenlive.
    
    The Environment section
 
-:1: :guilabel:`Concurrent threads`. Defines the number of threads to use for proxy clip generation and transcode jobs. Those jobs will run in the background. The value entered is passed to ffmpeg as the :code:`-threads` parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :doc:`project settings</project_and_asset_management/project_settings/proxy_settings>` to a codec that ffmpeg does not do multi-threading on. Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8.
+:1: :guilabel:`Concurrent threads`. Defines the number of threads to use for proxy clip generation and transcode jobs. Those jobs will run in the background. The value entered is passed to ffmpeg as the :code:`-threads` parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :doc:`project settings </project_and_asset_management/project_settings/proxy_settings>` to a codec that ffmpeg does not do multi-threading on. Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8.
 
 :2: :guilabel:`Use lower CPU priority`. This instructs Kdenlive to lower the priority of the proxy clip generation and transcode jobs. It helps keeping the main UI responsive when proxies are created or clips are being transcoded.
 

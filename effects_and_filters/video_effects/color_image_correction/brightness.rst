@@ -69,4 +69,4 @@ This effect adjusts the brightness of the clip.
 .. rst-class:: clear-both
 
 .. note:: 
-   This brightness effect works differently than the :doc:`Intensity</effects_and_filters/video_effects/color_image_correction/brightness_keyframable>` effect.
+   This brightness effect works differently than the :doc:`Intensity </effects_and_filters/video_effects/color_image_correction/brightness_keyframable>` effect.

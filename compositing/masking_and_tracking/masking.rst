@@ -25,7 +25,7 @@ You create a mask with one of these effects:
 * :doc:`Alpha Shapes </effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes>` and :doc:`Alpha Shapes (Mask) </effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes_mask>`
 * :doc:`Rectangular Alpha Mask </effects_and_filters/video_effects/alpha_mask_keying/rectangular_alpha_mask>`
 * :doc:`Rotoscoping </effects_and_filters/video_effects/alpha_mask_keying/rotoscoping>` and :doc:`Rotoscoping (Mask) </effects_and_filters/video_effects/alpha_mask_keying/rotoscoping_mask>`
-* :doc:`Shape Alpha</effects_and_filters/video_effects/alpha_mask_keying/shape_alpha>` and :doc:`Shape Alpha (Mask)</effects_and_filters/video_effects/alpha_mask_keying/shape_alpha_mask>`
+* :doc:`Shape Alpha </effects_and_filters/video_effects/alpha_mask_keying/shape_alpha>` and :doc:`Shape Alpha (Mask) </effects_and_filters/video_effects/alpha_mask_keying/shape_alpha_mask>`
 
 .. note:: The effects with *(Mask)* in the name need to be used in conjunction with **Mask Apply** to work. It allows to apply other effects and filters only to the masked area (can also be inverted to apply to everything but the masked area). The effects without *(Mask)* simply create an alpha channel to allow clips on lower tracks to show through.
 

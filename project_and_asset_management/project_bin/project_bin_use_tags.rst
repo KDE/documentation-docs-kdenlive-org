@@ -117,7 +117,7 @@ You can filter the project bin list using tags.
 
    Filter criteria across different categories are applied in an AND fashion, meaning that clips with criteria from both categories will be listed (red OR green *tag* AND with four OR five *stars*)
 
-   For more details refer to the chapter about :doc:`using filters</project_and_asset_management/project_bin/project_bin_use_filters>`.
+   For more details refer to the chapter about :doc:`using filters </project_and_asset_management/project_bin/project_bin_use_filters>`.
 
 .. rst-class:: clear-both
 

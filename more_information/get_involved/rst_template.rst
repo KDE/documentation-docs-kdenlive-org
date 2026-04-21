@@ -109,7 +109,7 @@ The pipe character ``|`` is needed to execute ``rst-class:: clear-both`` when wh
    * - UI Element
      - Description
    * - 1 :guilabel:`edit frame`
-     - [Project Monitor only] Identifies the object or area of the effect. :term:`Edit Mode<edit mode>` needs to be enabled for the frame to show.
+     - [Project Monitor only] Identifies the object or area of the effect. :term:`Edit Mode <edit mode>` needs to be enabled for the frame to show.
    * - 2 :guilabel:`edit frame handles`
      - Used to change the size (square handles) and move the frame (circle in the middle)
 

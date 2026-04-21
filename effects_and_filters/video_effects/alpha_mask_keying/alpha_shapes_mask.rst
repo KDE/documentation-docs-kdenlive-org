@@ -127,4 +127,4 @@ The following selection items are available:
 
 .. rubric:: Notes
 
-.. seealso:: :doc:`Alpha Shapes</effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes>` effect for more details and examples for the various shapes and operations.
+.. seealso:: :doc:`Alpha Shapes </effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes>` effect for more details and examples for the various shapes and operations.

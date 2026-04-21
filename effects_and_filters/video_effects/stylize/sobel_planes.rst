@@ -60,7 +60,7 @@ This effect/filter is the same as the :doc:`/effects_and_filters/video_effects/s
      - Description
    * - Planes
      - Selection
-     - Set which :term:`planes<plane>` will be processed, unprocessed planes will be copied.
+     - Set which :term:`planes <plane>` will be processed, unprocessed planes will be copied.
    * - Scale
      - Integer
      - Set value which will be multiplied with filtered result

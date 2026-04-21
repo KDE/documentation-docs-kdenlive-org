@@ -24,7 +24,7 @@
 Using the Project Bin
 =====================
 
-The Project Bin\ [1]_ is where all your :term:`assets<Asset>` are. Depending on the size of your project, that list can quickly become confusing and difficult to work with. Kdenlive has several features to manage the bin's content.
+The Project Bin\ [1]_ is where all your :term:`assets <Asset>` are. Depending on the size of your project, that list can quickly become confusing and difficult to work with. Kdenlive has several features to manage the bin's content.
 
 
 User Interface
@@ -43,7 +43,7 @@ User Interface
    :class: table-wrap
 
    * - **1**
-     - |kdenlive-add-clip|\ :guilabel:`Add clip or folder` opens a window similar to the file manager of your OS allowing you to navigate around your file system and select :doc:`files to be added</project_and_asset_management/project_bin/clips>` to the project bin.
+     - |kdenlive-add-clip|\ :guilabel:`Add clip or folder` opens a window similar to the file manager of your OS allowing you to navigate around your file system and select :doc:`files to be added </project_and_asset_management/project_bin/clips>` to the project bin.
    * - 
      - |go-down| opens a pop-up window from where you can select what kind of clip you want to add 
    * - 

@@ -40,7 +40,7 @@ VR360 Rectilinear to Equirectangular
 
 .. rubric:: Description
 
-This effect/filter converts a rectilinear (a normal-looking) image to an equirectangular image. Use this together with :doc:`VR360 Transform</effects_and_filters/video_effects/vr360_and_3d/vr360_transform>` to place "normal" footage in a 360 movie. It is the opposite of the :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_equi2rect` effect.
+This effect/filter converts a rectilinear (a normal-looking) image to an equirectangular image. Use this together with :doc:`VR360 Transform </effects_and_filters/video_effects/vr360_and_3d/vr360_transform>` to place "normal" footage in a 360 movie. It is the opposite of the :doc:`/effects_and_filters/video_effects/vr360_and_3d/vr360_equi2rect` effect.
 
 
 .. rubric:: Parameters

@@ -38,7 +38,7 @@ Crop by Padding
    :**Color depth**:
       8bit
    :**Tutorial**:
-      :ref:`Yes<tutorials-crop_padding>` |view-presentation|
+      :ref:`Yes <tutorials-crop_padding>` |view-presentation|
 
 .. rst-class:: clear-both
 
