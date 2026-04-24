@@ -778,6 +778,14 @@ html_context = {
 
 html_last_updated_fmt = '%Y-%m-%dT%H:%M:%S'
 
+# If true, the reST sources are included in the HTML build as _sources/name.
+# Set to false keeps building EPUB correctly without failure 
+html_copy_source = False
+
+# If true (and html_copy_source is true as well), links to the reST sources
+# will be added to the sidebar.
+html_show_sourcelink = False
+
 
 # -- Internationalization Options --------------------------------------------
 
@@ -812,3 +820,6 @@ epub_tocscope = 'includehidden' # 'default' 'includehidden'
 # no scaling is performed. You need the Python Image Library (Pillow) installed to use this option.
 # This setting brought down the Kdenlive EPUB size with value: 540 = 650MB to 25MB, 800 = 650MB to 31MB, 1080 = 650MB to 34MB, 1920 = 650MB to 37MB, 3840 = 650MB to 37MB
 epub_max_image_width = 3840
+
+# Control whether to display URL addresses.
+epub_show_urls = "no"
