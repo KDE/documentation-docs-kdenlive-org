@@ -82,6 +82,7 @@ What's New
    * Reordered :ref:`markers menu <markers_menu>`
    * Added "Delete all Timeline Markers" in :ref:`markers menu <markers_menu>`
    * Added edit video clip with external program in :ref:`configuration environment <configure_environment_default_apps>`
+   * Added basic math in :ref:`effect panel <effect_functions>`
    * Added clear undo history in :ref:`edit menu <edit_menu>`
    * Added more parameters for audio recording device, add "Use default setting" button in :ref:`capture menu <configure_capture_audio>`
    * Added animated preview for :ref:`transition and composition <compositions-effects_tab>`
