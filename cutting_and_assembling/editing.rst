@@ -301,7 +301,7 @@ Active buttons are grey.
 
 5. `Razor Tool`_
    
-   Also selected with :kbd:`X`, or to cut at the point of the play head use "Shift-R". This allows a clip to be cut into two clips.
+   Also selected with :kbd:`X`, or to cut at the point of the play head use :kbd:`Shift+R`. This allows a clip to be cut into two clips.
 
 6. `Spacer Tool`_
    

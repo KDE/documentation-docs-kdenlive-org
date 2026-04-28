@@ -117,7 +117,7 @@ General
      -
    * - Switch Monitor Fullscreen
      - | :kbd:`F11` or
-       | double click
+       | double-click
      - Monitor
    * - Paste
      - | :kbd:`Ctrl+V` or

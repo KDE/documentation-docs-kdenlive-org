@@ -83,9 +83,9 @@ In the project bin toolbar click the |kdenlive-add-clip|\ :guilabel:`Add Clip or
 Add clips directly to timeline
 ------------------------------
 
-Alternatively you can right click on an empty space in the timeline and choose :menuselection:`Add Clip`. This will open a sub-menu to allow you to quickly add clips. The clip will be placed exactly where the mouse cursor was.
+Alternatively, you can right-click on an empty space in the timeline and choose :menuselection:`Add Clip`. This will open a sub-menu to allow you to quickly add clips. The clip will be placed exactly where the mouse cursor was.
 
-This function has a smart length detection for placing clips into a gap. If the default length of color clip, Title Clip, Template Title are longer then the gap it will be shortened accordingly to fit into the gap.
+This function has a smart length detection for placing clips into a gap. If the default length of Color Clip, Title Clip, Template Title are longer then the gap, it will be shortened accordingly to fit into the gap.
 
 All other clip types are only inserted into a gap if the gap is big enough (no message shows up if the clip is too long).
 
