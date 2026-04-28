@@ -185,13 +185,13 @@ Change Speed of Clips
 
 .. figure:: /images/adjustspeed.gif
 
-Select in the timeline the clips on which you like to change the speed. 
+In the timeline select the clip or multiple clips for which you want to change the speed. 
 
-Adjust the speed by pressing :kbd:`CTRL` and dragging with the LMB on one of the selected clips. The clip on which you change the speed determine the change for all selected clips. Once the mouse is released the speed change is shown on all selected clips.
+Adjust the speed by pressing :kbd:`CTRL` and dragging with the LMB on one of the selected clips. The clip on which you change the speed determines the change for all selected clips. Once the mouse is released the speed change is shown on all selected clips.
 
 Doing with right click on one of the selected clips see :ref:`change_speed`. If enabled, pitch compensation is preserved for all selected clips.
 
-If there is not enough space on a track to expand the clips an error message is shown in the status bar.
+If there is not enough space on a track to expand the clips, an error message is shown in the status bar.
 
 
 .. _remove_spaces:
@@ -270,7 +270,7 @@ There is a toolbar between monitors and the timeline that controls various aspec
 
    1e. |view-split-top-bottom| **Split Audio tracks**
       
-      Changes the order in which tracks are displayed to separate audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A1, V1, V2, V3
+      Changes the order in which tracks are displayed to separate audio and video tracks.  For example, from the bottom of the timeline to the top of the timeline: A3, A2, A1, V1, V2, V3
 
    1f. |view-split-top-bottom| **Split Audio tracks (reverse)**
       

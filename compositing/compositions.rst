@@ -46,14 +46,14 @@ The Compositions widget has four control icons that show or hide the different e
 
 |favorite|\ :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert a composition` from the right-click menu of a clip in the Timeline.
 
-|view-list-icons|\ :guilabel:`Toggle between list and icon view` toggles between list and animated preview 
+|view-list-icons|\ :guilabel:`Toggle between list and icon view` toggles between a simple list and animated previews
 
-|edit-download|\ :guilabel:`Download New Wipes` opens a dialog window where compositions templates are listed from the KDE Store
+|edit-download|\ :guilabel:`Download New Wipes` opens a dialog window where composition templates are listed from the KDE Store (internet connection required)
 
 |view-filter|\ :guilabel:`Only show reviewed assets` toggles between the compositions which are reviewed and tested by the Kdenlive team and not tested compositions (still in test phase)
 :guilabel:`Show 10 bit compatible only` it hides assets not compatible with a 10-bit pipeline. Use the :guilabel:`10 Bit` category or the :guilabel:`NVENC H265 ABR 10 bit` codec for :ref:`rendering <rendering_preset_categories>`.
 
-|view-refresh|\ :guilabel:`Generate Preview` start a Python script to generate previews for custom lumas. This is only active if Python on the computer is installed. While generating the previews following message appears :guilabel:`Generating transition previews. This may take a few minutes...`
+|view-refresh|\ :guilabel:`Generate Preview` start a Python script to generate previews for custom lumas. This is only active if Python on the computer is installed. While generating the previews the following message appears :guilabel:`Generating transition previews. This may take a few minutes...`
 
 |help-about|\ :guilabel:`Show/hide description of effects` toggles the information display below the compositions list where a short description of what the composition does is displayed when on. Clicking on the link opens the online documentation to this effect.
 
@@ -87,7 +87,7 @@ The Compositions widget has four control icons that show or hide the different e
       :width: 400px
 
 
-.. note:: With method #1 and #2, Kdenlive by default creates a composition which automatically adjust its duration to the above/below clips.
+.. note:: With method #1 and #2, Kdenlive by default creates a composition with a duration adjusted automatically to fit the overlap of the two clips.
 
 
 .. _compositing-composition_track:

@@ -67,7 +67,7 @@ Zoombars
 
 
 Scrolling and Panning
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 **Scrolling the timeline**
 

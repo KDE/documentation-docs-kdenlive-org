@@ -139,12 +139,12 @@ This menu item opens a flyout with following seeking possibilities:
 
 .. _switch_monitor_fullscreen:
 
-.. .. versionadded:: 25.08  Hide mouse cursor when placed over monitor in fullscreen and not moving for 2 seconds
+.. .. versionadded:: 26.04  Hide mouse cursor when placed over monitor in fullscreen and not moving for 2 seconds
 .. .. versionadded:: 26.04  Mirror monitor 
 
 * **Switch Monitor Fullscreen**: Switch the monitor to full screen when hit :kbd:`F11` or double click. You can set the target monitor via :menuselection:`Menu --> Settings --> Configure Kdenlive --> Playback --> Monitor for fullscreen output`. The mouse cursor is automatically hidden after two seconds (if the mouse hasn't been moved) and automatically be shown again when the user moves the mouse.
 
-  If you have more than 1 monitor you can enable :menuselection:`Menu --> Settings --> Configure Kdenlive --> Playback --> Mirror monitor on fullscreen` and a basic real mirror is shown on fullscreen (it doesn't show the final output in case of multi-cam view yet). This keeps the monitor as it is but shows a duplicate full screen playback on another monitor. This is useful to show another person or audience the same view on a secondary screen, such as a TV, for feedback, or to view footage on a larger, more color-accurate display.
+  If you have more than 1 monitor you can enable :menuselection:`Menu --> Settings --> Configure Kdenlive --> Playback --> Mirror monitor on fullscreen` and a basic real mirror is shown on fullscreen (it doesn't show the final output in case of multi-cam view yet). This keeps the monitor as it is but shows a duplicate full screen playback on another monitor without seekbar at the bottom. This is useful to show another person or audience the same view on a secondary screen, such as a TV, for feedback, or to view footage on a larger, more color-accurate display.
 
 .. _multitrack_view:
 

@@ -190,30 +190,30 @@ Duplicate a sequence
 Right-click a sequence in the Project Bin choose :guilabel:`Duplicate Clip`
 
 
-Update the sequence clip waveforms
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Update the Sequence Clip Waveforms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. .. versionadded:: 26.04 Add waveform to sequence and update the waveform if needed
 
 .. figure:: /images/cutting_and_assembling/sequence-update_waveform-2604.webp
    :scale: 75%
 
-   You can manually update the sequence waveform  in the clip monitor
+   You can manually update the sequence waveform in the clip monitor
 
-The sequence clip waveform get created:
+The sequence clip waveform gets created:
 
-- on project load when missing
+- Upon project load (only when missing)
 
-- manually during editing by clicking on |view-refresh| in the Clip monitor waveform
+- Manually during editing by clicking on |view-refresh| in the clip monitor waveform
 
 - When switching the current timeline tab, the waveform for the previous sequence tab will automatically be updated if necessary.
 
 Video processing is disabled during the creation of audio thumbnails.
 
-Sequence audio thumbnails are only cached to disk on project save to avoid saving incorrect thumbnails.
+Sequence audio thumbnails are only cached to disk upon project save to avoid saving incorrect thumbnails.
 
 
-Copy a sequence from one project to another
+Copy a Sequence From one Project to Another
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is not possible. If you add a Kdenlive project with multiple sequences to another Kdenlive project: which sequence will be used? 

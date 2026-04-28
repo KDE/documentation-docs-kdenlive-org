@@ -29,7 +29,7 @@ This section configures the options for playback.
 
 :2: :guilabel:`Monitor full screen output`. Set to **auto** to let Kdenlive determine the best device to use. Otherwise, specify the device to be used for monitor output when switched to full screen (:kbd:`F11`).
 
-:3: :guilabel:`Mirror monitor on fullscreen`. If checked, allow to mirror monitor on full-screen.
+:3: :guilabel:`Mirror monitor on fullscreen`. If checked, allows to mirror the project monitor on full-screen (only useful with at least a second monitor)
 
 :4: :guilabel:`GPU processing (Movit library)`. This is currently disabled due to incompatibility issues between MLT (the engine Kdenlive uses for all effects/filters, transitions, and compositing) and movit (a library to enable GPU acceleration for effects etc.).
 

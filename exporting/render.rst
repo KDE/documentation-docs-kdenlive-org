@@ -305,11 +305,11 @@ Other Options
 
    Other rendering options
 
-:guilabel:`2 pass` - Two pass rendering allows a better control over the final rendered file size. Compatible with variable bitrate, and only relevant for some video codecs.
+:guilabel:`2 pass` - Two pass rendering allows better control over the final rendered file size. Compatible with variable bit rate, and only relevant for some video codecs.
 
 :guilabel:`Export metadata` - Check this box to have the metadata entered in the :doc:`Project Settings</project_and_asset_management/project_settings/tab_meta_data>` placed into the :ref:`metadata of the rendered file<metadata>`.
 
-:guilabel:`Embed subtitles instead of burning them in` - Creates a stream for subtitles in the container (e.g. MKV)
+:guilabel:`Embed subtitles instead of burning them in` - Creates a stream for subtitles in the container (container needs to support that, for example MKV)
 
 :guilabel:`Open folder after export` - Opens the folder where the file was saved in the default file manager application
 
@@ -317,7 +317,7 @@ Other Options
 
 :guilabel:`Keep log files` - When enabled, add link to quickly open the .mlt playlist file used for rendering
 
-:guilabel:`Add to Project Bin` - It automatically adds the resulting file to the Project Bin when successfully rendered. In some workflows, it is useful to render a part of a project and add it to the Project Bin for later reuse or for adding effects.
+:guilabel:`Add to Project Bin` - It automatically adds the resulting file to the Project Bin when successfully rendered. In some workflows, it is useful to render a part of a project and add it to the Project Bin for reuse or for adding effects.
 
 
 .. _metadata:

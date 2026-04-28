@@ -242,24 +242,24 @@ Effect Functions
 :4: Effect with :ref:`keyframes <effects-keyframes>`
 
 :5: - Effect values and action button (|object-rotate-right|).
-    - The tooltip :guilabel:`Support basic math expression` shows if basic math functions are possible like:
+    - The tooltip :guilabel:`Support basic math expression` shows if the following basic math functions are possible:
       :kbd:`+` :kbd:`-` :kbd:`*` :kbd:`/` :kbd:`(` :kbd:`)`. It doesn't follow standard order of operations:
       multiplication (×) and division (÷) must be performed before addition (+) and subtraction (-).
       For standard order of operations you have to use parentheses :kbd:`(` :kbd:`)`.
-    - The tooltip :guilabel:`use "%..." to reference other spinbox's value` shows to which other field you can link:
+    - The tooltip :guilabel:`use "%..." to reference other spinbox's value` shows which other parameter you can use in the formula:
       positions, size, scale, opacity, number of value field
       (use :kbd:`%x` :kbd:`%y` :kbd:`%w` :kbd:`%h` :kbd:`%s` :kbd:`%o` :kbd:`%1-n`).
-      If an effect has several fields with the same type of value it shows a number like :kbd:`%3`. 
+      If an effect has several fields with the same type of value, it shows a number like :kbd:`%3`. 
       You can add a basic math to that link like: :kbd:`%y*2`
-    - If an effect has a timecode field you can add or subtract time by starting with :kbd:`+` or :kbd:`-`.
-      The format is [+/-]hh:mm:ss.ff. You can add time in short form:
+    - If an effect has a timecode field, you can add or subtract time by starting with :kbd:`+` or :kbd:`-`.
+      The format is [+/-]hh:mm:ss:ff. You can add time in short form:
 
          - :kbd:`1::` adds/subtracts 1 hour 1:00:00:00
          - :kbd:`2:` adds/subtracts 2 minutes 00:02:00:00
          - :kbd:`12.` adds/subtracts 12 seconds 00:00:12:00
          - :kbd:`9` adds/subtracts 9 frames 00:00:00:09
          - :kbd:`2:.9`  adds/subtracts 2 minutes an 9 frames 00:02:00:09
-    - Reset value to default by click with the  :kbd:`MMB` [3]_ on the slider or value.
+    - Reset value to default by clicking with the :kbd:`MMB` [3]_ on the slider or value.
 
 
 .. _effects-apply_effects:
