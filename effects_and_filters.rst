@@ -258,7 +258,7 @@ Effect Functions
          - :kbd:`2:` adds/subtracts 2 minutes 00:02:00:00
          - :kbd:`12.` adds/subtracts 12 seconds 00:00:12:00
          - :kbd:`9` adds/subtracts 9 frames 00:00:00:09
-         - :kbd:`2:.9`  adds/subtracts 2 minutes an 9 frames 00:02:00:09
+         - :kbd:`2:.9`  adds/subtracts 2 minutes and 9 frames 00:02:00:09
     - Reset value to default by clicking with the :kbd:`MMB` [3]_ on the slider or value.
 
 

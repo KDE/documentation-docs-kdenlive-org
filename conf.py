@@ -15,22 +15,29 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+# -- Local Vars --------------------------------------------------------------
+
+# Version number. Used to build with build with version numbers in different places.
+# The version number has to be entered only once.
+kdenlive_version = "26.04"
+
+
 # -- Project information -----------------------------------------------------
 
 import os
 import subprocess
 
-project = 'Kdenlive Manual'
+project = 'Kdenlive {} Manual'.format(kdenlive_version)
 description = 'The official Kdenlive Documentation'
 copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise'
 author = 'Kdenlive Community'
 
 # EPUB:If version ist not set, the EPUB shows no version number
 # If your project does not draw a meaningful distinction between between a ‘full’ and ‘major’ version, set both version and release to the same value.
-version = '26.04'
+version = kdenlive_version
 
 # The full version, including alpha/beta/rc tags
-release = '26.04'
+release = kdenlive_version
 
 # Get the git description if possible, to put it in the footer.
 
@@ -82,7 +89,10 @@ smartquotes_excludes = {'languages':[
                         }
 
 # This reStructuredText will be included at the begin of every source file.
-#rst_prolog = ""
+#rst_prolog = """
+#
+#"""
+
 # This reStructuredText will be included at the end of every source file.
 rst_epilog = """
 .. |add-subtitle| image:: /images/icons/add-subtitle.svg
