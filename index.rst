@@ -10,9 +10,9 @@
    :license: Creative Commons License SA 4.0
 
 
-###############
-Kdenlive Manual
-###############
+#########################
+Kdenlive |version| Manual
+#########################
 
 Welcome to the manual for `Kdenlive <https://kdenlive.org>`__, the free and open source video editor.
 
