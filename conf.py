@@ -749,7 +749,10 @@ rst_epilog = """
 
 import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme' #'alabaster' #'sphinx_rtd_theme' 'insegel'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+# Calling get_html_theme_path is deprecated. If you are calling it to define html_theme_path,
+# you are safe to remove that code.
+# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_theme_options = {
      # Toc options. The maximum depth of the table of contents tree (on the sidebar). Set this to -1 to allow unlimited depth. Set to 6 to see sub-title of https://docs.kdenlive.org/en/user_interface/menu/settings_menu/configure_kdenlive.html
