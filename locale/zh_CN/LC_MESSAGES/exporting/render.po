@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-05-02 01:58+0000\n"
 "PO-Revision-Date: 2024-04-22 16:06\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -543,30 +543,76 @@ msgstr ""
 msgid "Other Options"
 msgstr "其它选项"
 
-#: ../../exporting/render.rst:307 ../../exporting/render.rst:338
+#: ../../exporting/render.rst:306
 msgid "Other rendering options"
 msgstr "其它导出选项"
 
-#: ../../exporting/render.rst:309
-msgid ":guilabel:`2 pass`"
-msgstr ":guilabel:`2 次处理`"
+#: ../../exporting/render.rst:308
+msgid ""
+":guilabel:`2 pass` - Two pass rendering allows better control over the final "
+"rendered file size. Compatible with variable bit rate, and only relevant for "
+"some video codecs."
+msgstr ""
 
-#: ../../exporting/render.rst:311
+#: ../../exporting/render.rst:310
 msgid ""
 ":guilabel:`Export metadata` - Check this box to have the metadata entered in "
 "the :doc:`Project Settings</project_and_asset_management/project_settings/"
-"tab_meta_data>` placed into the metadata of the rendered file."
+"tab_meta_data>` placed into the :ref:`metadata of the rendered "
+"file<metadata>`."
+msgstr ""
+
+#: ../../exporting/render.rst:312
+#, fuzzy
+#| msgid ""
+#| ":guilabel:`Embed subtitles instead of burning them in` - Creates a stream "
+#| "for subtitles in the container (e.g. MKV)"
+msgid ""
+":guilabel:`Embed subtitles instead of burning them in` - Creates a stream "
+"for subtitles in the container (container needs to support that, for example "
+"MKV)"
+msgstr ":guilabel:`嵌入字幕而不是刻录` - 在容器中创建一个字幕流（例如 MKV）"
+
+#: ../../exporting/render.rst:314
+msgid ""
+":guilabel:`Open folder after export` - Opens the folder where the file was "
+"saved in the default file manager application"
+msgstr ""
+":guilabel:`导出后打开文件夹` - 在默认文件管理器应用程序中打开保存文件的文件夹"
+
+#: ../../exporting/render.rst:316
+msgid ""
+":guilabel:`Play after render` - Opens the default media player application "
+"and plays the rendered file"
+msgstr ":guilabel:`导出后播放` - 打开默认媒体播放器应用程序并播放导出的文件"
+
+#: ../../exporting/render.rst:318
+msgid ""
+":guilabel:`Keep log files` - When enabled, add link to quickly open the .mlt "
+"playlist file used for rendering"
 msgstr ""
 
 #: ../../exporting/render.rst:320
+msgid ""
+":guilabel:`Add to Project Bin` - It automatically adds the resulting file to "
+"the Project Bin when successfully rendered. In some workflows, it is useful "
+"to render a part of a project and add it to the Project Bin for reuse or for "
+"adding effects."
+msgstr ""
+
+#: ../../exporting/render.rst:325
+msgid "**Metadata example**"
+msgstr ""
+
+#: ../../exporting/render.rst:334
 msgid "Metadata for the project"
 msgstr "项目元数据"
 
-#: ../../exporting/render.rst:322
+#: ../../exporting/render.rst:336
 msgid "In this example, metadata was entered in the Project Settings dialog."
 msgstr "在本例中，元数据是在项目设置对话框中输入的。"
 
-#: ../../exporting/render.rst:324
+#: ../../exporting/render.rst:338
 msgid ""
 "You can edit this by clicking on the :guilabel:`Edit metadata` link in the "
 "rendering dialog (:guilabel:`More options` must be checked). For this "
@@ -577,30 +623,11 @@ msgstr ""
 "元数据` 链接来编辑它。在本例中，添加了一个新的字段 **Kdenlive Version** （使"
 "用 :kbd:`+` ）并输入了 *23.04.1* 的值。"
 
-#: ../../exporting/render.rst:328
+#: ../../exporting/render.rst:342
 msgid ""
 "You can check the metadata in the rendered video by entering this in a "
 "terminal window:"
 msgstr "你可以在终端窗口中输入以下命令来检查导出的视频的元数据："
-
-#: ../../exporting/render.rst:340
-msgid ""
-":guilabel:`Embed subtitles instead of burning them in` - Creates a stream "
-"for subtitles in the container (e.g. MKV)"
-msgstr ":guilabel:`嵌入字幕而不是刻录` - 在容器中创建一个字幕流（例如 MKV）"
-
-#: ../../exporting/render.rst:342
-msgid ""
-":guilabel:`Open folder after export` - Opens the folder where the file was "
-"saved in the default file manager application"
-msgstr ""
-":guilabel:`导出后打开文件夹` - 在默认文件管理器应用程序中打开保存文件的文件夹"
-
-#: ../../exporting/render.rst:344
-msgid ""
-":guilabel:`Play after render` - Opens the default media player application "
-"and plays the rendered file"
-msgstr ":guilabel:`导出后播放` - 打开默认媒体播放器应用程序并播放导出的文件"
 
 #: ../../exporting/render.rst:352
 msgid "Rendering in Batch Mode"
@@ -911,3 +938,6 @@ msgid ""
 "<effects-effects_tab>` or :ref:`compositing <compositions-effects_tab>` "
 "avfilter only"
 msgstr ""
+
+#~ msgid ":guilabel:`2 pass`"
+#~ msgstr ":guilabel:`2 次处理`"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_kdenlive_org_compositing___compositions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-05-02 01:58+0000\n"
 "PO-Revision-Date: 2024-11-13 17:44+0100\n"
 "Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -27,16 +27,30 @@ msgstr "favorite"
 msgid "help-about"
 msgstr "help-about"
 
-#: ../../<rst_epilog>:442
+#: ../../<rst_epilog>:406
+msgid "pixelate"
+msgstr ""
+
+#: ../../<rst_epilog>:446
 msgid "show-all-effects"
 msgstr "show-all-effects"
 
-#: ../../<rst_epilog>:514
+#: ../../<rst_epilog>:518
 msgid "transform-move-horizontal"
 msgstr "transform-move-horizontal"
 
-#: ../../<rst_epilog>:530
+#: ../../<rst_epilog>:534
 msgid "view-filter"
+msgstr "view-filter"
+
+#: ../../<rst_epilog>:550
+msgid "view-list-icons"
+msgstr ""
+
+#: ../../<rst_epilog>:570
+#, fuzzy
+#| msgid "view-filter"
+msgid "view-refresh"
 msgstr "view-filter"
 
 #: ../../compositing/compositions.rst:-1
@@ -83,7 +97,7 @@ msgstr ""
 msgid "Compositions Tab"
 msgstr "Karta Kompozície"
 
-#: ../../compositing/compositions.rst:29
+#: ../../compositing/compositions.rst:30
 msgid ""
 "Make the Compositions widget visible in :menuselection:`Menu --> View --> "
 "Compositions`."
@@ -91,20 +105,24 @@ msgstr ""
 "Panel Kompozície zobrazíte cez :menuselection:`Ponuka --> Zobraziť --> "
 "Kompozície`."
 
-#: ../../compositing/compositions.rst:31
+#: ../../compositing/compositions.rst:32
+#, fuzzy
+#| msgid ""
+#| "The Compositions widget has six control icons that show or hide the "
+#| "different effect categories:"
 msgid ""
-"The Compositions widget has six control icons that show or hide the "
+"The Compositions widget has four control icons that show or hide the "
 "different effect categories:"
 msgstr ""
 "Panel Kompozície má šesť ovládacích ikon, ktoré zobrazujú alebo skrývajú "
 "rôzne kategórie efektov:"
 
-#: ../../compositing/compositions.rst:38
+#: ../../compositing/compositions.rst:39
 msgid "Kdenlive Compositions widget as a tab in the Project Bin area"
 msgstr ""
 "Panel Kompozície programu Kdenlive ako karta v oblasti zásobníka projektu"
 
-#: ../../compositing/compositions.rst:40
+#: ../../compositing/compositions.rst:41
 msgid ""
 "|show-all-effects|\\ :guilabel:`Main effects` shows all compositions "
 "(default view)"
@@ -112,7 +130,17 @@ msgstr ""
 "|show-all-effects|\\ :guilabel:`Hlavné efekty` zobrazuje všetky kompozície "
 "(predvolené zobrazenie)"
 
-#: ../../compositing/compositions.rst:42
+#: ../../compositing/compositions.rst:43
+#, fuzzy
+#| msgid ""
+#| "|transform-move-horizontal|\\ :guilabel:`Show transitions only` shows the "
+#| "transitions only"
+msgid "|pixelate|\\ :guilabel:`Show lumas only` shows luma compositions only"
+msgstr ""
+"|transform-move-horizontal|\\ :guilabel:`Zobraziť iba prechody` zobrazuje "
+"iba prechody"
+
+#: ../../compositing/compositions.rst:45
 msgid ""
 "|transform-move-horizontal|\\ :guilabel:`Show transitions only` shows the "
 "transitions only"
@@ -120,7 +148,7 @@ msgstr ""
 "|transform-move-horizontal|\\ :guilabel:`Zobraziť iba prechody` zobrazuje "
 "iba prechody"
 
-#: ../../compositing/compositions.rst:44
+#: ../../compositing/compositions.rst:47
 msgid ""
 "|favorite|\\ :guilabel:`Show all favorite items` shows all compositions and "
 "transitions that were flagged as a favorite. This is the same list that "
@@ -132,15 +160,26 @@ msgstr ""
 "zoznam, ktorý sa zobrazí pri výbere :guilabel:`Vložiť kompozíciu` z "
 "kontextovej ponuky klipu na časovej osi."
 
-#: ../../compositing/compositions.rst:46
+#: ../../compositing/compositions.rst:49
 msgid ""
-"|edit-download|\\ :guilabel:`Download New Effects` opens a dialog window "
-"where compositions templates are listed from the KDE Store"
+"|view-list-icons|\\ :guilabel:`Toggle between list and icon view` toggles "
+"between a simple list and animated previews"
+msgstr ""
+
+#: ../../compositing/compositions.rst:51
+#, fuzzy
+#| msgid ""
+#| "|edit-download|\\ :guilabel:`Download New Effects` opens a dialog window "
+#| "where compositions templates are listed from the KDE Store"
+msgid ""
+"|edit-download|\\ :guilabel:`Download New Wipes` opens a dialog window where "
+"composition templates are listed from the KDE Store (internet connection "
+"required)"
 msgstr ""
 "|edit-download|\\ :guilabel:`Stiahnuť nové efekty` otvorí dialógové okno, "
 "kde sú zobrazené šablóny kompozícií z obchodu KDE Store"
 
-#: ../../compositing/compositions.rst:48
+#: ../../compositing/compositions.rst:53
 msgid ""
 "|view-filter|\\ :guilabel:`Only show reviewed assets` toggles between the "
 "compositions which are reviewed and tested by the Kdenlive team and not "
@@ -156,7 +195,16 @@ msgstr ""
 "spracovaním. Na :ref:`renderovanie <rendering_preset_categories>` použite "
 "kategóriu :guilabel:`10 Bit` alebo kodek :guilabel:`NVENC H265 ABR 10 bit`."
 
-#: ../../compositing/compositions.rst:51
+#: ../../compositing/compositions.rst:56
+msgid ""
+"|view-refresh|\\ :guilabel:`Generate Preview` start a Python script to "
+"generate previews for custom lumas. This is only active if Python on the "
+"computer is installed. While generating the previews the following message "
+"appears :guilabel:`Generating transition previews. This may take a few "
+"minutes...`"
+msgstr ""
+
+#: ../../compositing/compositions.rst:58
 msgid ""
 "|help-about|\\ :guilabel:`Show/hide description of effects` toggles the "
 "information display below the compositions list where a short description of "
@@ -168,11 +216,11 @@ msgstr ""
 "popis funkcie kompozície. Kliknutím na odkaz sa otvorí online dokumentácia k "
 "danému efektu."
 
-#: ../../compositing/compositions.rst:57
+#: ../../compositing/compositions.rst:64
 msgid "How to Composite Two Clips"
 msgstr "Ako skomponovať dva klipy"
 
-#: ../../compositing/compositions.rst:58
+#: ../../compositing/compositions.rst:65
 msgid ""
 "Alpha channels are taken into account automatically so that clips with alpha "
 "can be stacked on top of each other without the need of compositions. You "
@@ -184,7 +232,7 @@ msgstr ""
 "vytvárať pomocou efektov z kategórie :doc:`/effects_and_filters/"
 "video_effects/alpha_mask_keying`."
 
-#: ../../compositing/compositions.rst:61
+#: ../../compositing/compositions.rst:68
 msgid ""
 "Click on the grey dot in the lower left or right hand corner of the clip you "
 "want to composite with the one below. The default composition **Wipe** is "
@@ -197,7 +245,7 @@ msgstr ""
 "skôr :doc:`prechod <transitions>`, takže je potrebné :ref:`zmeniť typ "
 "kompozície <compositing-composition_type>` na niečo ako **Cairo Blend**)."
 
-#: ../../compositing/compositions.rst:66
+#: ../../compositing/compositions.rst:73
 msgid ""
 "Using the left-hand grey dot creates a Wipe composition going from the lower "
 "track to the upper track; using the right-hand grey dot creates a Wipe "
@@ -207,7 +255,7 @@ msgstr ""
 "stopy na hornú stopu; použitie pravého sivého bodu vytvorí kompozíciu Wipe "
 "prechádzajúcu z hornej stopy na dolnú stopu."
 
-#: ../../compositing/compositions.rst:69
+#: ../../compositing/compositions.rst:76
 msgid ""
 "Right-click the clip you want to composite with the one below, select :"
 "guilabel:`Insert Composition`, and select :guilabel:`Composite and "
@@ -217,7 +265,7 @@ msgstr ""
 "nižšie, vyberte :guilabel:`Vložiť kompozíciu` a vyberte :guilabel:`Composite "
 "and Transform` alebo :guilabel:`Wipe`."
 
-#: ../../compositing/compositions.rst:74
+#: ../../compositing/compositions.rst:81
 msgid ""
 "You can add compositions to your favorites by right-clicking on the "
 "composition in the Compositions widget and selecting :guilabel:`Add to "
@@ -228,7 +276,7 @@ msgstr ""
 "kompozíciu v paneli Kompozície a výberom :guilabel:`Pridať medzi obľúbené`. "
 "Vaše obľúbené kompozície sa zobrazia ako možnosti pri použití tejto metódy."
 
-#: ../../compositing/compositions.rst:77
+#: ../../compositing/compositions.rst:84
 msgid ""
 "Drag a composition from the Compositions widget and drop it on the clip you "
 "want to composite with the one below. Adjust the start and end points by "
@@ -238,11 +286,17 @@ msgstr ""
 "skomponovať s klipom nižšie. Upravte počiatočný a koncový bod potiahnutím "
 "ľavého a/alebo pravého okraja pruhu kompozície na časovej osi."
 
-#: ../../compositing/compositions.rst:86
+#: ../../compositing/compositions.rst:90
+msgid ""
+"With method #1 and #2, Kdenlive by default creates a composition with a "
+"duration adjusted automatically to fit the overlap of the two clips."
+msgstr ""
+
+#: ../../compositing/compositions.rst:96
 msgid "Composition Track"
 msgstr "Stopa kompozície"
 
-#: ../../compositing/compositions.rst:88
+#: ../../compositing/compositions.rst:98
 msgid ""
 "By default, Kdenlive uses the clip in the track immediately below for the "
 "compositing. In most cases, this is what you want. But you can instruct "
@@ -258,11 +312,11 @@ msgstr ""
 "všetky sú pod tou, v ktorej sa nachádza klip s kompozíciou. Kompozitovanie "
 "smerom nahor nie je možné."
 
-#: ../../compositing/compositions.rst:94
+#: ../../compositing/compositions.rst:104
 msgid "Composition Type"
 msgstr "Typ kompozície"
 
-#: ../../compositing/compositions.rst:96
+#: ../../compositing/compositions.rst:106
 msgid ""
 "With method #1 and #2, Kdenlive by default creates a composition with a "
 "composition type **Wipe**, **Composite and Transform**, or whatever "
@@ -276,7 +330,7 @@ msgstr ""
 "`prechod <transitions>` a **Composite and Transform** nemusí byť potrebný "
 "vždy kvôli množstvu dodatočných parametrov."
 
-#: ../../compositing/compositions.rst:98
+#: ../../compositing/compositions.rst:108
 msgid ""
 "You can change the composition type in the Effect/Composition Stack widget. "
 "Kdenlive uses the same space in the UI to display effects or compositions. "
@@ -286,11 +340,11 @@ msgstr ""
 "používa rovnaký priestor v rozhraní na zobrazenie efektov alebo kompozícií. "
 "Pozrite si časť o :doc:`/user_interface`."
 
-#: ../../compositing/compositions.rst:107
+#: ../../compositing/compositions.rst:117
 msgid "Composition type drop-down"
 msgstr "Rozbaľovací zoznam typov kompozícií"
 
-#: ../../compositing/compositions.rst:109
+#: ../../compositing/compositions.rst:119
 msgid ""
 "In the top left corner of the :guilabel:`Composition Stack` is the drop-down "
 "list for the composition type. It lists both compositions, :doc:`blend modes "

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-05-02 01:58+0000\n"
 "PO-Revision-Date: 2026-01-11 22:49+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -627,35 +627,92 @@ msgstr ""
 msgid "Other Options"
 msgstr "Druge možnosti"
 
-#: ../../exporting/render.rst:307 ../../exporting/render.rst:338
+#: ../../exporting/render.rst:306
 msgid "Other rendering options"
 msgstr "Druge možnosti izrisa"
 
-#: ../../exporting/render.rst:309
-msgid ":guilabel:`2 pass`"
-msgstr ":guilabel:`Dva prehoda`"
+#: ../../exporting/render.rst:308
+msgid ""
+":guilabel:`2 pass` - Two pass rendering allows better control over the final "
+"rendered file size. Compatible with variable bit rate, and only relevant for "
+"some video codecs."
+msgstr ""
 
-#: ../../exporting/render.rst:311
+#: ../../exporting/render.rst:310
+#, fuzzy
+#| msgid ""
+#| ":guilabel:`Export metadata` - Check this box to have the metadata entered "
+#| "in the :doc:`Project Settings</project_and_asset_management/"
+#| "project_settings/tab_meta_data>` placed into the metadata of the rendered "
+#| "file."
 msgid ""
 ":guilabel:`Export metadata` - Check this box to have the metadata entered in "
 "the :doc:`Project Settings</project_and_asset_management/project_settings/"
-"tab_meta_data>` placed into the metadata of the rendered file."
+"tab_meta_data>` placed into the :ref:`metadata of the rendered "
+"file<metadata>`."
 msgstr ""
 ":guilabel:`Izvozi metapodatke` - potrdite to polje, da so metapodatki, "
 "vneseni pod :doc:`nastavitvami projekta</project_and_asset_management/"
 "project_settings/tab_meta_data>`, vključeni v metapodatke izrisane datoteke."
 
+#: ../../exporting/render.rst:312
+#, fuzzy
+#| msgid ""
+#| ":guilabel:`Embed subtitles instead of burning them in` - Creates a stream "
+#| "for subtitles in the container (e.g. MKV)"
+msgid ""
+":guilabel:`Embed subtitles instead of burning them in` - Creates a stream "
+"for subtitles in the container (container needs to support that, for example "
+"MKV)"
+msgstr ""
+":guilabel:`Vdelaj podnaslove namesto vrisa` - ustvari tok za podnaslove v "
+"vsebniku (npr. MKV)"
+
+#: ../../exporting/render.rst:314
+msgid ""
+":guilabel:`Open folder after export` - Opens the folder where the file was "
+"saved in the default file manager application"
+msgstr ""
+":guilabel:`Odpri mapo po izvozu` - odpre mapo, v katero je bila datoteka "
+"shranjena, v privzetem programu za upravljanje datotek"
+
+#: ../../exporting/render.rst:316
+msgid ""
+":guilabel:`Play after render` - Opens the default media player application "
+"and plays the rendered file"
+msgstr ""
+":guilabel:`Predvajaj po izrisovanju` - odpre privzeti program za predvajanje "
+"datotek in predvaja izrisano datoteko"
+
+#: ../../exporting/render.rst:318
+msgid ""
+":guilabel:`Keep log files` - When enabled, add link to quickly open the .mlt "
+"playlist file used for rendering"
+msgstr ""
+
 #: ../../exporting/render.rst:320
+msgid ""
+":guilabel:`Add to Project Bin` - It automatically adds the resulting file to "
+"the Project Bin when successfully rendered. In some workflows, it is useful "
+"to render a part of a project and add it to the Project Bin for reuse or for "
+"adding effects."
+msgstr ""
+
+#: ../../exporting/render.rst:325
+msgid "**Metadata example**"
+msgstr ""
+
+#: ../../exporting/render.rst:334
 msgid "Metadata for the project"
 msgstr "Metapodatki o projektu"
 
-#: ../../exporting/render.rst:322
+#: ../../exporting/render.rst:336
 msgid "In this example, metadata was entered in the Project Settings dialog."
 msgstr ""
 "V tem primeru so bili metapodatki vneseni v pogovorno okno Nastavitve "
 "projekta."
 
-#: ../../exporting/render.rst:324
+#: ../../exporting/render.rst:338
 msgid ""
 "You can edit this by clicking on the :guilabel:`Edit metadata` link in the "
 "rendering dialog (:guilabel:`More options` must be checked). For this "
@@ -667,37 +724,13 @@ msgstr ""
 "potrjeno). V tem primeru je bilo dodano novo polje **Različica Kdenlive** (z "
 "uporabo :kbd:`+`) in vnesena vrednost *23.04.1*."
 
-#: ../../exporting/render.rst:328
+#: ../../exporting/render.rst:342
 msgid ""
 "You can check the metadata in the rendered video by entering this in a "
 "terminal window:"
 msgstr ""
 "Metapodatke v prikazanem videoposnetku lahko preverite tako, da v oknu "
 "terminala vnesete naslednje:"
-
-#: ../../exporting/render.rst:340
-msgid ""
-":guilabel:`Embed subtitles instead of burning them in` - Creates a stream "
-"for subtitles in the container (e.g. MKV)"
-msgstr ""
-":guilabel:`Vdelaj podnaslove namesto vrisa` - ustvari tok za podnaslove v "
-"vsebniku (npr. MKV)"
-
-#: ../../exporting/render.rst:342
-msgid ""
-":guilabel:`Open folder after export` - Opens the folder where the file was "
-"saved in the default file manager application"
-msgstr ""
-":guilabel:`Odpri mapo po izvozu` - odpre mapo, v katero je bila datoteka "
-"shranjena, v privzetem programu za upravljanje datotek"
-
-#: ../../exporting/render.rst:344
-msgid ""
-":guilabel:`Play after render` - Opens the default media player application "
-"and plays the rendered file"
-msgstr ""
-":guilabel:`Predvajaj po izrisovanju` - odpre privzeti program za predvajanje "
-"datotek in predvaja izrisano datoteko"
 
 #: ../../exporting/render.rst:352
 msgid "Rendering in Batch Mode"
@@ -1066,3 +1099,6 @@ msgid ""
 msgstr ""
 "Upodablja samo 10-bitni cevovod, če izberete 10-bitne :ref:`učinke <effects-"
 "effects_tab>` ali  avfilter :ref:`sestavljanje <compositions-effects_tab>`."
+
+#~ msgid ":guilabel:`2 pass`"
+#~ msgstr ":guilabel:`Dva prehoda`"

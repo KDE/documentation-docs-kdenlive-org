@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-22 02:03+0000\n"
+"POT-Creation-Date: 2026-05-02 01:58+0000\n"
 "PO-Revision-Date: 2026-04-22 11:07+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -24,6 +24,10 @@ msgstr ""
 msgid "distribute-horizontal"
 msgstr "distribute-horizontal"
 
+#: ../../<rst_epilog>:90
+msgid "document-new"
+msgstr ""
+
 #: ../../<rst_epilog>:294
 msgid "kdenlive-ripple"
 msgstr "kdenlive-ripple"
@@ -32,13 +36,21 @@ msgstr "kdenlive-ripple"
 msgid "kdenlive-slip"
 msgstr "kdenlive-slip"
 
-#: ../../<rst_epilog>:486
+#: ../../<rst_epilog>:490
 msgid "timeline-use-zone-off"
 msgstr "timeline-use-zone-off"
 
-#: ../../<rst_epilog>:490
+#: ../../<rst_epilog>:494
 msgid "timeline-use-zone-on"
 msgstr "timeline-use-zone-on"
+
+#: ../../<rst_epilog>:526
+msgid "tools-wizard"
+msgstr ""
+
+#: ../../<rst_epilog>:586
+msgid "view-split-top-bottom"
+msgstr ""
 
 #: ../../cutting_and_assembling/editing.rst:-1
 msgid "Editing in Kdenlive video editor"
@@ -103,6 +115,12 @@ msgstr "12"
 #: ../../cutting_and_assembling/editing.rst:0
 msgid "13"
 msgstr "13"
+
+#: ../../cutting_and_assembling/editing.rst:0
+#, fuzzy
+#| msgid "1"
+msgid "14"
+msgstr "1"
 
 #: ../../cutting_and_assembling/editing.rst:33
 msgid "Editing"
@@ -406,27 +424,42 @@ msgstr ""
 "Glaxnimate abans de fer doble clic a un altre clip d'animació."
 
 #: ../../cutting_and_assembling/editing.rst:181
-msgid "Change Speed of a Clip"
+#, fuzzy
+#| msgid "Change Speed of a Clip"
+msgid "Change Speed of Clips"
 msgstr "Canvia la velocitat d'un clip"
 
 #: ../../cutting_and_assembling/editing.rst:188
 msgid ""
-"Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in the "
-"timeline."
+"In the timeline select the clip or multiple clips for which you want to "
+"change the speed."
 msgstr ""
-"Ajusteu la velocitat d'un clip prement :kbd:`Ctrl + arrossegant` un clip a "
-"la línia de temps."
 
 #: ../../cutting_and_assembling/editing.rst:190
-msgid "Doing with right click on the clip see :ref:`change_speed`."
+msgid ""
+"Adjust the speed by pressing :kbd:`CTRL` and dragging with the LMB on one of "
+"the selected clips. The clip on which you change the speed determines the "
+"change for all selected clips. Once the mouse is released the speed change "
+"is shown on all selected clips."
 msgstr ""
-"Per a fer-ho amb el clic dret sobre el clip, vegeu :ref:`change_speed`."
 
-#: ../../cutting_and_assembling/editing.rst:196
+#: ../../cutting_and_assembling/editing.rst:192
+msgid ""
+"Doing with right click on one of the selected clips see :ref:`change_speed`. "
+"If enabled, pitch compensation is preserved for all selected clips."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:194
+msgid ""
+"If there is not enough space on a track to expand the clips, an error "
+"message is shown in the status bar."
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:200
 msgid "Removing Space Between Clips"
 msgstr "Eliminar l'espai entre els clips"
 
-#: ../../cutting_and_assembling/editing.rst:198
+#: ../../cutting_and_assembling/editing.rst:202
 msgid ""
 "Right click in the space between the clips and choose :menuselection:`Remove "
 "Space`. Be aware however that if you have clips on multiple tracks in the "
@@ -442,7 +475,7 @@ msgstr ""
 "l'espai només s'elimina de la línia de temps on heu fet clic-. En aquesta "
 "situació, pot ser més segur utilitzar l'`Eina espaiadora`_."
 
-#: ../../cutting_and_assembling/editing.rst:205
+#: ../../cutting_and_assembling/editing.rst:209
 msgid ""
 ":menuselection:`Timeline --> Current track --> Remove All Spaces After "
 "Cursor`"
@@ -450,7 +483,7 @@ msgstr ""
 ":menuselection:`Línia de temps --> Pista actual --> Elimina tots els espais "
 "després del cursor`"
 
-#: ../../cutting_and_assembling/editing.rst:207
+#: ../../cutting_and_assembling/editing.rst:211
 msgid ""
 "It handles AV clips as 1 element, doesn't matter on which track they are. "
 "This function is only in the Timeline menu available this to avoid clutter."
@@ -460,24 +493,24 @@ msgstr ""
 "evitar el desordre."
 
 # skip-rule: kct-remove
-#: ../../cutting_and_assembling/editing.rst:209
+#: ../../cutting_and_assembling/editing.rst:213
 msgid "More details see :ref:`timeline_space-remove`."
 msgstr "Vegeu més detalls a :ref:`timeline_space-remove`."
 
-#: ../../cutting_and_assembling/editing.rst:215
+#: ../../cutting_and_assembling/editing.rst:219
 msgid "Adjust timeline zone"
 msgstr "Ajusta la zona de la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:219
+#: ../../cutting_and_assembling/editing.rst:223
 msgid ":kbd:`Shift+z` adjusts timeline zone to selected clips"
 msgstr ""
 ":kbd:`Maj+z` ajusta la zona de la línia de temps als clips seleccionats"
 
-#: ../../cutting_and_assembling/editing.rst:227
+#: ../../cutting_and_assembling/editing.rst:231
 msgid "Timeline Toolbar"
 msgstr "Barra d'eines de la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:229
+#: ../../cutting_and_assembling/editing.rst:233
 msgid ""
 "There is a toolbar between monitors and the timeline that controls various "
 "aspects of the editor."
@@ -485,11 +518,17 @@ msgstr ""
 "Hi ha una barra d'eines entre els monitors i la línia de temps que controla "
 "diversos aspectes de l'editor."
 
-#: ../../cutting_and_assembling/editing.rst:235
+#: ../../cutting_and_assembling/editing.rst:239
 msgid "`Track Compositing`_ drop down."
 msgstr "Llista desplegable `Composició de pistes`_."
 
-#: ../../cutting_and_assembling/editing.rst:241
+#: ../../cutting_and_assembling/editing.rst:245
+#, fuzzy
+#| msgid "Track Compositing"
+msgid "**Enable Track Compositing**"
+msgstr "Composició de les pistes"
+
+#: ../../cutting_and_assembling/editing.rst:247
 msgid ""
 "Track compositing is now a simple checkbox instead of the deprecated none/"
 "high resolution choice."
@@ -497,233 +536,356 @@ msgstr ""
 "La composició de pistes ara és una única casella de selecció en lloc de "
 "l'opció obsoleta sense/alta resolució."
 
-#: ../../cutting_and_assembling/editing.rst:243
+#: ../../cutting_and_assembling/editing.rst:249
 msgid "When enabled Kdenlive is set to :ref:`track_compositing_hq`"
 msgstr ""
 "Quan sestà activat, el Kdenlive s'estableix a :ref:`track_compositing_hq`"
 
-#: ../../cutting_and_assembling/editing.rst:245
+#: ../../cutting_and_assembling/editing.rst:251
 msgid "When disabled Kdenlive is set to :ref:`track_compositing_none`"
 msgstr ""
 "Quan sestà desactivat, el Kdenlive s'estableix a :ref:"
 "`track_compositing_none`"
 
-#: ../../cutting_and_assembling/editing.rst:249
+#: ../../cutting_and_assembling/editing.rst:255
 msgid "1a, 1b and 1c cannot be selected anymore."
 msgstr "1a, 1b i 1c ja no es poden seleccionar."
 
-#: ../../cutting_and_assembling/editing.rst:251
-msgid "1a. :ref:`track_compositing_none`"
-msgstr "1 - a. :ref:`track_compositing_none`"
+#: ../../cutting_and_assembling/editing.rst:263
+msgid "|tools-wizard| **Disable timeline Effects**"
+msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:253
-msgid "1b. :ref:`track_compositing_preview`"
-msgstr "1 - b. :ref:`track_compositing_preview`"
+#: ../../cutting_and_assembling/editing.rst:265
+msgid "When enabled it Disables all Timeline effects"
+msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:255
-msgid "1c. :ref:`track_compositing_hq`"
-msgstr "1 - c. :ref:`track_compositing_hq`"
+#: ../../cutting_and_assembling/editing.rst:267
+msgid "1d. |document-new| **Mixed Audio tracks**"
+msgstr ""
 
-#: ../../cutting_and_assembling/editing.rst:257
+#: ../../cutting_and_assembling/editing.rst:269
+#, fuzzy
+#| msgid ""
+#| "1d. **Mixed Audio tracks** changes the order in which tracks are "
+#| "displayed to mixed audio and video tracks.  For example, from the bottom "
+#| "of the timeline to the top of the timeline: A1, V1, A2, V2, A3, V3"
 msgid ""
-"1d. **Mixed Audio tracks** changes the order in which tracks are displayed "
-"to mixed audio and video tracks.  For example, from the bottom of the "
-"timeline to the top of the timeline: A1, V1, A2, V2, A3, V3"
+"Changes the order in which tracks are displayed to mixed audio and video "
+"tracks.  For example, from the bottom of the timeline to the top of the "
+"timeline: A1, V1, A2, V2, A3, V3"
 msgstr ""
 "1 - d. **Pistes d'àudio mesclades** canvia l'ordre en què es mostraran les "
 "pistes d'àudio i de vídeo mesclades. Per exemple, des de la part inferior de "
 "la línia de temps fins a la part superior de la línia de temps: A1, V1, A2, "
 "V2, A3, V3"
 
-#: ../../cutting_and_assembling/editing.rst:259
+#: ../../cutting_and_assembling/editing.rst:271
+msgid "1e. |view-split-top-bottom| **Split Audio tracks**"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:273
+#, fuzzy
+#| msgid ""
+#| "1e. **Split Audio tracks** changes the order in which tracks are "
+#| "displayed to separate audio and video tracks.  For example, from the "
+#| "bottom of the timeline to the top of the timeline: A1, A2, A1, V1, V2, V3"
 msgid ""
-"1e. **Split Audio tracks** changes the order in which tracks are displayed "
-"to separate audio and video tracks.  For example, from the bottom of the "
-"timeline to the top of the timeline: A1, A2, A1, V1, V2, V3"
+"Changes the order in which tracks are displayed to separate audio and video "
+"tracks.  For example, from the bottom of the timeline to the top of the "
+"timeline: A3, A2, A1, V1, V2, V3"
 msgstr ""
 "1 - e. **Divideix les pistes d'àudio** canvia l'ordre en què es mostraran "
 "les pistes per a separar-les. Per exemple, des de la part inferior de la "
 "línia de temps fins a la part superior de la línia de temps: A1, A2, A1, V1, "
 "V2, V3"
 
-#: ../../cutting_and_assembling/editing.rst:261
+#: ../../cutting_and_assembling/editing.rst:275
+msgid "1f. |view-split-top-bottom| **Split Audio tracks (reverse)**"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:277
+#, fuzzy
+#| msgid ""
+#| "1f. **Split Audio tracks (reverse)** changes the order in which tracks "
+#| "are displayed to separate audio and video tracks with the audio tracks in "
+#| "reverse order.  For example, from the bottom of the timeline to the top "
+#| "of the timeline: A1, A2, A3, V1, V2, V3"
 msgid ""
-"1f. **Split Audio tracks (reverse)** changes the order in which tracks are "
-"displayed to separate audio and video tracks with the audio tracks in "
-"reverse order.  For example, from the bottom of the timeline to the top of "
-"the timeline: A1, A2, A3, V1, V2, V3"
+"Changes the order in which tracks are displayed to separate audio and video "
+"tracks with the audio tracks in reverse order.  For example, from the bottom "
+"of the timeline to the top of the timeline: A1, A2, A3, V1, V2, V3"
 msgstr ""
 "1 - f. **Divideix les pistes d'àudio (invers)** canvia l'ordre en què es "
 "mostraran les pistes per a separar-les amb les pistes d'àudio en ordre "
 "invers. Per exemple, des de la part inferior de la línia de temps fins a la "
 "part superior de la línia de temps: A1, A2, A3, V1, V2, V3"
 
-#: ../../cutting_and_assembling/editing.rst:263
-msgid ""
-"**Timeline Edit Mode**  Drop Down. These same settings can be found under "
-"the :menuselection:`Tool` menu."
+#: ../../cutting_and_assembling/editing.rst:279
+#, fuzzy
+#| msgid "Timeline Edit Modes"
+msgid "**Timeline Edit Mode** drop down"
+msgstr "Modes d'edició de la línia de temps"
+
+#: ../../cutting_and_assembling/editing.rst:281
+#, fuzzy
+#| msgid ""
+#| "**Timeline Edit Mode**  Drop Down. These same settings can be found under "
+#| "the :menuselection:`Tool` menu."
+msgid "These same settings can be found under the :menuselection:`Tool` menu."
 msgstr ""
 "Llista desplegable **Mode d'edició de la línia de temps**. Aquestes mateixes "
 "opcions de configuració es poden trobar en el menú :menuselection:`Eines`."
 
-#: ../../cutting_and_assembling/editing.rst:265
+#: ../../cutting_and_assembling/editing.rst:283
 msgid "2a. **Timeline Normal Mode**"
 msgstr "2 - a. **Mode normal de la línia de temps**"
 
-#: ../../cutting_and_assembling/editing.rst:267
+#: ../../cutting_and_assembling/editing.rst:285
 msgid "2b. **Timeline Overwrite Mode**"
 msgstr "2 - b. **Mode sobreescriptura de la línia de temps**"
 
-#: ../../cutting_and_assembling/editing.rst:269
+#: ../../cutting_and_assembling/editing.rst:287
 msgid "2c. **Timeline Insert Mode**"
 msgstr "2 - c. **Mode inserció de la línia de temps**"
 
-# skip-rule: t-acc_obe
-#: ../../cutting_and_assembling/editing.rst:271
-msgid ""
-"Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |"
-"timeline-use-zone-off| for insert (toggles). See :doc:`/tips_and_tricks/"
-"useful_info/insert_overwrite_advanced_timeline_editing` for more details."
-msgstr ""
-"Usa una zona de la línia de temps |timeline-use-zone-on| / No usa una zona "
-"de la línia de temps |timeline-use-zone-off| per a inserir (commutable). Per "
-"a més detalls, vegeu :doc:`/tips_and_tricks/useful_info/"
-"insert_overwrite_advanced_timeline_editing`."
-
-#: ../../cutting_and_assembling/editing.rst:274
-msgid "**Tool Group** (one of these 3 can be active)"
-msgstr "**Grup d'eines** (pot estar actiu un d'aquests 3)"
-
-#: ../../cutting_and_assembling/editing.rst:276
-msgid "Active buttons are grey."
-msgstr "Els botons actius són de color gris."
-
-# skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:279
-msgid ""
-"`Selection Tool`_ - Also selected with the 'S' hotkey.  Allows the selection "
-"and manipulation of clips on the timeline"
-msgstr ""
-"`Eina de selecció`_: també seleccionada amb la tecla :kbd:`S`. Permet la "
-"selecció i manipulació de clips a la línia de temps."
-
-#: ../../cutting_and_assembling/editing.rst:281
-msgid ""
-"`Razor Tool`_ - Also selected with the 'X' hotkey, or to cut at the point of "
-"the play head use \"Shift-R\". This allows a clip to be cut into two clips."
-msgstr ""
-"`Eina de tall`_: també seleccionada amb la tecla :kbd:`X` o per a retallar "
-"en el punt de la capçalera de reproducció, utilitzeu la drecera :kbd:`Maj + "
-"R`. Això permetrà retallar un clip en dos clips."
-
-#: ../../cutting_and_assembling/editing.rst:283
-msgid ""
-"`Spacer Tool`_ - Also selected with the 'M' hotkey.  This tool will select "
-"all clips at one point in the timeline and allow them to be shifted at once."
-msgstr ""
-"`Eina espaiadora`_: també seleccionada amb la tecla :kbd:`M`. Aquesta eina "
-"seleccionarà tots els clips en un punt de la línia de temps i permetrà que "
-"es moguin alhora."
-
-#: ../../cutting_and_assembling/editing.rst:285
-msgid ""
-"Position indicator - displays the time point or frame number of the location "
-"of the hovering mouse on the left side, and the total length of the project "
-"on the right side."
-msgstr ""
-"Indicador de posició: mostra el punt de temps o el número de fotograma de la "
-"ubicació on es manté el ratolí al costat esquerre, i la longitud total del "
-"projecte al costat dret."
-
-# skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:287
-msgid "7a. **hh:mm:ss:ff;** Sets the position indicator to display time units"
-msgstr ""
-"7 - a. **hh:mm:ss:ff;** estableix l'indicador de posició per a mostrar les "
-"unitats de temps."
-
-# skip-rule: punctuation-period-no
 #: ../../cutting_and_assembling/editing.rst:289
-msgid "7b. **Frames** Sets the position indicator to display frames"
-msgstr ""
-"7 - b **Fotogrames**: estableix l'indicador de posició per a mostrar els "
-"fotogrames."
-
-#: ../../cutting_and_assembling/editing.rst:291
 msgid ""
-"**Mix Clips** - allows same-track transitions to be applied between two "
-"clips. See :ref:`same_track_transition` for a detailed explanation."
+"Toggles for insert :guilabel:`Use timeline zone` |timeline-use-zone-on|, :"
+"guilabel:`Do not use timeline zone` |timeline-use-zone-off| ."
 msgstr ""
-"**Mescla els clips**: permet aplicar transicions de la mateixa pista entre "
-"dos clips. Per a una explicació detallada, vegeu :ref:"
-"`same_track_transition`."
 
 # skip-rule: t-acc_obe
-#: ../../cutting_and_assembling/editing.rst:293
+#: ../../cutting_and_assembling/editing.rst:291
+#: ../../cutting_and_assembling/editing.rst:328
+#: ../../cutting_and_assembling/editing.rst:332
+#, fuzzy
+#| msgid ""
+#| "Insert Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/"
+#| "insert_overwrite_advanced_timeline_editing` for more details."
 msgid ""
-"Insert Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/"
+"See :doc:`/tips_and_tricks/useful_info/"
 "insert_overwrite_advanced_timeline_editing` for more details."
 msgstr ""
 "Insereix una zona del clip a la línia de temps. Per a més detalls, vegeu :"
 "doc:`/tips_and_tricks/useful_info/"
 "insert_overwrite_advanced_timeline_editing`."
 
-# skip-rule: t-acc_obe
-#: ../../cutting_and_assembling/editing.rst:295
-msgid ""
-"Overwrite Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/"
-"insert_overwrite_advanced_timeline_editing` for more details."
-msgstr ""
-"Sobreescriu la zona del clip a la línia de temps. Per a més detalls, vegeu :"
-"doc:`/tips_and_tricks/useful_info/"
-"insert_overwrite_advanced_timeline_editing`."
+#: ../../cutting_and_assembling/editing.rst:293
+msgid "**Tool Group** (one of these 3 can be active)"
+msgstr "**Grup d'eines** (pot estar actiu un d'aquests 3)"
 
-#: ../../cutting_and_assembling/editing.rst:297
-msgid "Extract Timeline Zone"
+#: ../../cutting_and_assembling/editing.rst:295
+msgid "Active buttons are grey."
+msgstr "Els botons actius són de color gris."
+
+#: ../../cutting_and_assembling/editing.rst:298
+#, fuzzy
+#| msgid "Selection Tool"
+msgid "`Selection Tool`_"
+msgstr "Eina de selecció"
+
+# skip-rule: punctuation-period-no
+#: ../../cutting_and_assembling/editing.rst:300
+#, fuzzy
+#| msgid ""
+#| "`Selection Tool`_ - Also selected with the 'S' hotkey.  Allows the "
+#| "selection and manipulation of clips on the timeline"
+msgid ""
+"Also selected with :kbd:`S`.  Allows the selection and manipulation of clips "
+"on the timeline"
+msgstr ""
+"`Eina de selecció`_: també seleccionada amb la tecla :kbd:`S`. Permet la "
+"selecció i manipulació de clips a la línia de temps."
+
+#: ../../cutting_and_assembling/editing.rst:302
+#, fuzzy
+#| msgid "Razor Tool"
+msgid "`Razor Tool`_"
+msgstr "Eina de tall"
+
+#: ../../cutting_and_assembling/editing.rst:304
+#, fuzzy
+#| msgid ""
+#| "`Razor Tool`_ - Also selected with the 'X' hotkey, or to cut at the point "
+#| "of the play head use \"Shift-R\". This allows a clip to be cut into two "
+#| "clips."
+msgid ""
+"Also selected with :kbd:`X`, or to cut at the point of the play head use :"
+"kbd:`Shift+R`. This allows a clip to be cut into two clips."
+msgstr ""
+"`Eina de tall`_: també seleccionada amb la tecla :kbd:`X` o per a retallar "
+"en el punt de la capçalera de reproducció, utilitzeu la drecera :kbd:`Maj + "
+"R`. Això permetrà retallar un clip en dos clips."
+
+#: ../../cutting_and_assembling/editing.rst:306
+#, fuzzy
+#| msgid "Spacer Tool"
+msgid "`Spacer Tool`_"
+msgstr "Eina espaiadora"
+
+#: ../../cutting_and_assembling/editing.rst:308
+#, fuzzy
+#| msgid ""
+#| "`Spacer Tool`_ - Also selected with the 'M' hotkey.  This tool will "
+#| "select all clips at one point in the timeline and allow them to be "
+#| "shifted at once."
+msgid ""
+"Also selected with :kbd:`M`.  This tool will select all clips at one point "
+"in the timeline and allow them to be shifted at once."
+msgstr ""
+"`Eina espaiadora`_: també seleccionada amb la tecla :kbd:`M`. Aquesta eina "
+"seleccionarà tots els clips en un punt de la línia de temps i permetrà que "
+"es moguin alhora."
+
+#: ../../cutting_and_assembling/editing.rst:310
+msgid "**Position indicator**"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:312
+#, fuzzy
+#| msgid ""
+#| "Position indicator - displays the time point or frame number of the "
+#| "location of the hovering mouse on the left side, and the total length of "
+#| "the project on the right side."
+msgid ""
+"Displays the time point or frame number of the location of the hovering "
+"mouse on the left side, and the total length of the project on the right "
+"side."
+msgstr ""
+"Indicador de posició: mostra el punt de temps o el número de fotograma de la "
+"ubicació on es manté el ratolí al costat esquerre, i la longitud total del "
+"projecte al costat dret."
+
+#: ../../cutting_and_assembling/editing.rst:314
+msgid "7a. **hh:mm:ss:ff;**"
+msgstr ""
+
+# skip-rule: punctuation-period-no
+#: ../../cutting_and_assembling/editing.rst:316
+#, fuzzy
+#| msgid ""
+#| "7a. **hh:mm:ss:ff;** Sets the position indicator to display time units"
+msgid "Sets the position indicator to display time units"
+msgstr ""
+"7 - a. **hh:mm:ss:ff;** estableix l'indicador de posició per a mostrar les "
+"unitats de temps."
+
+#: ../../cutting_and_assembling/editing.rst:318
+msgid "7b. **Frames**"
+msgstr ""
+
+# skip-rule: punctuation-period-no
+#: ../../cutting_and_assembling/editing.rst:320
+#, fuzzy
+#| msgid "7b. **Frames** Sets the position indicator to display frames"
+msgid "Sets the position indicator to display frames"
+msgstr ""
+"7 - b **Fotogrames**: estableix l'indicador de posició per a mostrar els "
+"fotogrames."
+
+#: ../../cutting_and_assembling/editing.rst:322
+msgid "**Mix Clips**"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:324
+#, fuzzy
+#| msgid ""
+#| "**Mix Clips** - allows same-track transitions to be applied between two "
+#| "clips. See :ref:`same_track_transition` for a detailed explanation."
+msgid ""
+"Allows same-track transitions to be applied between two clips. See :ref:"
+"`same_track_transition` for a detailed explanation."
+msgstr ""
+"**Mescla els clips**: permet aplicar transicions de la mateixa pista entre "
+"dos clips. Per a una explicació detallada, vegeu :ref:"
+"`same_track_transition`."
+
+#: ../../cutting_and_assembling/editing.rst:326
+msgid "Insert Clip Zone in Timeline"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:330
+msgid "Overwrite Clip Zone in Timeline"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:334
+#, fuzzy
+#| msgid "Extract Timeline Zone"
+msgid "**Extract Timeline Zone**"
 msgstr "Extreu una zona de la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:299
-msgid "Lift Timeline Zone"
+#: ../../cutting_and_assembling/editing.rst:336
+#, fuzzy
+#| msgid "Lift Timeline Zone"
+msgid "**Lift Timeline Zone**"
 msgstr "Remou una zona de la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:301
-msgid "Favourite Effects"
+#: ../../cutting_and_assembling/editing.rst:338
+#, fuzzy
+#| msgid "Favourite Effects"
+msgid "**Favorite Effects**"
 msgstr "Efectes preferits"
 
-#: ../../cutting_and_assembling/editing.rst:303
-msgid "Start Preview Render"
+#: ../../cutting_and_assembling/editing.rst:340
+#, fuzzy
+#| msgid "Start Preview Render"
+msgid "**Start Preview Render**"
 msgstr "Inicia la renderització de la vista prèvia"
 
-#: ../../cutting_and_assembling/editing.rst:305
-msgid "14a. Stop Preview Render"
+#: ../../cutting_and_assembling/editing.rst:342
+#, fuzzy
+#| msgid "14a. Stop Preview Render"
+msgid "14a. **Stop Preview Render**"
 msgstr "14 - a. Atura la renderització de la vista prèvia"
 
-#: ../../cutting_and_assembling/editing.rst:307
-msgid "14b. Add Preview Zone"
+#: ../../cutting_and_assembling/editing.rst:344
+#, fuzzy
+#| msgid "14b. Add Preview Zone"
+msgid "14b. **Add Preview Zone**"
 msgstr "14 - b. Afegeix la zona a la vista prèvia"
 
-#: ../../cutting_and_assembling/editing.rst:309
-msgid "14c. Remove Preview Zone"
+#: ../../cutting_and_assembling/editing.rst:346
+#, fuzzy
+#| msgid "14c. Remove Preview Zone"
+msgid "14c. **Remove Preview Zone**"
 msgstr "14 - c. Elimina la zona de la vista prèvia"
 
-#: ../../cutting_and_assembling/editing.rst:311
-msgid "14d. Remove All Preview Zones"
+#: ../../cutting_and_assembling/editing.rst:348
+#, fuzzy
+#| msgid "14d. Remove All Preview Zones"
+msgid "14d. **Remove All Preview Zones**"
 msgstr "14 - d. Elimina totes les zones de la vista prèvia"
 
-#: ../../cutting_and_assembling/editing.rst:313
-msgid "14e. Automatic Preview"
+#: ../../cutting_and_assembling/editing.rst:350
+#, fuzzy
+#| msgid "14e. Automatic Preview"
+msgid "14e. **Automatic Preview**"
 msgstr "14 - e. Vista prèvia automàtica"
 
-#: ../../cutting_and_assembling/editing.rst:315
-msgid "14f. Disable Timeline Preview"
+#: ../../cutting_and_assembling/editing.rst:352
+#, fuzzy
+#| msgid "14f. Disable Timeline Preview"
+msgid "14f. **Disable Timeline Preview**"
 msgstr "14 - f. Desactiva la vista prèvia de la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:317
-msgid "14g. Manage Cached Data"
+#: ../../cutting_and_assembling/editing.rst:354
+#, fuzzy
+#| msgid "14g. Manage Cached Data"
+msgid "14g. **Manage Cached Data**"
 msgstr "14 - g. Gestiona les dades en la memòria cau"
 
+#: ../../cutting_and_assembling/editing.rst:356
+msgid "14h. **Preview Using Proxy Clips**"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:360
+msgid ""
+"Option to render preview using original clips, not proxies (disabled by "
+"default)."
+msgstr ""
+
 # skip-rule: t-acc_obe
-#: ../../cutting_and_assembling/editing.rst:327
+#: ../../cutting_and_assembling/editing.rst:362
 msgid ""
 "Items 14, 14a-14g are covered in detail by the Tips & Tricks chapter about :"
 "doc:`/tips_and_tricks/tips_and_tricks/timeline_preview_rendering`."
@@ -732,33 +894,47 @@ msgstr ""
 "Consells i trucs a :doc:`/tips_and_tricks/tips_and_tricks/"
 "timeline_preview_rendering`."
 
-#: ../../cutting_and_assembling/editing.rst:329
-msgid ""
-"Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio to "
-"be managed in the project."
+#: ../../cutting_and_assembling/editing.rst:364
+msgid "Show/Hide the :ref:`audio_mixer` tool"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:366
+#, fuzzy
+#| msgid ""
+#| "Show/Hide the :ref:`audio_mixer` tool.  The audio mixer tool allows audio "
+#| "to be managed in the project."
+msgid "The audio mixer tool allows audio to be managed in the project."
 msgstr ""
 "Mostra/oculta l'eina :ref:`audio_mixer`. Permet gestionar l'àudio en el "
 "projecte."
 
-#: ../../cutting_and_assembling/editing.rst:331
+#: ../../cutting_and_assembling/editing.rst:368
+msgid "Show/Hide the :ref:`effects-subtitles` tool"
+msgstr ""
+
+#: ../../cutting_and_assembling/editing.rst:370
+#, fuzzy
+#| msgid ""
+#| "Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the "
+#| "subtitle track where subtitles can be created or edited in the project."
 msgid ""
-"Show/Hide the :ref:`effects-subtitles` Tool.  This will show or hide the "
-"subtitle track where subtitles can be created or edited in the project."
+"This will show or hide the subtitle track where subtitles can be created or "
+"edited in the project."
 msgstr ""
 "Mostra/oculta l'eina de :ref:`effects-subtitles`. Mostrarà o ocultarà la "
 "pista de subtítols on es poden crear o editar els subtítols en el projecte."
 
-#: ../../cutting_and_assembling/editing.rst:337
+#: ../../cutting_and_assembling/editing.rst:376
 msgid "Track Compositing"
 msgstr "Composició de les pistes"
 
-#: ../../cutting_and_assembling/editing.rst:341
+#: ../../cutting_and_assembling/editing.rst:380
 msgid "The track compositing applies uniformly to all tracks in your timeline."
 msgstr ""
 "La composició de les pistes s'aplica de manera uniforme a totes les pistes "
 "en la vostra línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:345
+#: ../../cutting_and_assembling/editing.rst:384
 msgid ""
 "Under certain compositing conditions, if you see the outcome of a transition "
 "not to be what you would expect, try to switch track compositing off for a "
@@ -771,7 +947,7 @@ msgstr ""
 "tracta d'una interferència entre la composició automàtica de la pista de la "
 "línia de temps i les vostres transicions d'usuari."
 
-#: ../../cutting_and_assembling/editing.rst:349
+#: ../../cutting_and_assembling/editing.rst:388
 msgid ""
 "Track compositing is now a simple checkbox instead of the none/high "
 "resolution choice."
@@ -779,11 +955,11 @@ msgstr ""
 "La composició de pistes ara és una única casella de selecció en lloc de "
 "l'opció sense/alta resolució."
 
-#: ../../cutting_and_assembling/editing.rst:355
+#: ../../cutting_and_assembling/editing.rst:394
 msgid "High Quality"
 msgstr "Alta qualitat"
 
-#: ../../cutting_and_assembling/editing.rst:359
+#: ../../cutting_and_assembling/editing.rst:398
 msgid ""
 "When track compositing is set to High-Quality tracks with alpha channel "
 "information will be automatically composited with the other tracks using an "
@@ -797,11 +973,11 @@ msgstr ""
 "`track_compositing_preview`, però que conserva una informació de color de "
 "més fidelitat."
 
-#: ../../cutting_and_assembling/editing.rst:365
+#: ../../cutting_and_assembling/editing.rst:404
 msgid "None"
 msgstr "Cap"
 
-#: ../../cutting_and_assembling/editing.rst:369
+#: ../../cutting_and_assembling/editing.rst:408
 msgid ""
 "When Track Compositing is set to None you will not get tracks with alpha "
 "channel information to composite with the other tracks unless an explicit "
@@ -815,11 +991,11 @@ msgstr ""
 "Bàsicament, aquest és un mode expert quan necessiteu un control total sobre "
 "qualsevol composició en la vostra línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:375
+#: ../../cutting_and_assembling/editing.rst:414
 msgid "Preview"
 msgstr "Vista prèvia"
 
-#: ../../cutting_and_assembling/editing.rst:381
+#: ../../cutting_and_assembling/editing.rst:420
 msgid ""
 "Final rendering always uses either **High Quality** or **None**. So Preview "
 "quality is, well, for preview only."
@@ -827,7 +1003,7 @@ msgstr ""
 "El renderitzat final sempre utilitza **Alta Qualitat** o **Cap**. Per tant, "
 "la qualitat de la vista prèvia només és per a la vista prèvia."
 
-#: ../../cutting_and_assembling/editing.rst:383
+#: ../../cutting_and_assembling/editing.rst:422
 msgid ""
 "When track compositing is set to Preview tracks with alpha channel "
 "information will be automatically composited with the other tracks using an "
@@ -840,15 +1016,15 @@ msgstr ""
 "utilitzat amb :ref:`track_compositing_hq`, però que degrada lleugerament els "
 "colors."
 
-#: ../../cutting_and_assembling/editing.rst:389
+#: ../../cutting_and_assembling/editing.rst:428
 msgid "Active track"
 msgstr "Pista activa"
 
-#: ../../cutting_and_assembling/editing.rst:399
+#: ../../cutting_and_assembling/editing.rst:438
 msgid "An :term:`active track`"
 msgstr "Una :term:`pista activa`"
 
-#: ../../cutting_and_assembling/editing.rst:403
+#: ../../cutting_and_assembling/editing.rst:442
 msgid ""
 "**1** Target track (3-point editing). The highlighted target strip indicates "
 "that in the project bin an A/V clip is selected (the selected clip has an "
@@ -858,19 +1034,19 @@ msgstr ""
 "ressaltada indica que a la safata del projecte s'ha seleccionat un clip A/V "
 "(el clip seleccionat té una part d'àudio i vídeo)."
 
-#: ../../cutting_and_assembling/editing.rst:405
+#: ../../cutting_and_assembling/editing.rst:444
 msgid "**2** Active track (3-point editing)"
 msgstr "**2** Pista activa (edició de 3 punts)"
 
-#: ../../cutting_and_assembling/editing.rst:407
+#: ../../cutting_and_assembling/editing.rst:446
 msgid "**3** Track header"
 msgstr "**3** Capçalera de la pista"
 
-#: ../../cutting_and_assembling/editing.rst:409
+#: ../../cutting_and_assembling/editing.rst:448
 msgid "**4** Empty part of the track"
 msgstr "**4** Part buida de la pista"
 
-#: ../../cutting_and_assembling/editing.rst:411
+#: ../../cutting_and_assembling/editing.rst:450
 msgid ""
 "Only active tracks can accept clips or react to an edit function. An :term:"
 "`active track` is indicated by a:"
@@ -878,11 +1054,11 @@ msgstr ""
 "Només les pistes actives poden acceptar clips o reaccionar a una funció "
 "d'edició. Una :term:`pista activa` està indicada per un:"
 
-#: ../../cutting_and_assembling/editing.rst:413
+#: ../../cutting_and_assembling/editing.rst:452
 msgid "highlighted track number (**2**) (for 3-point editing)"
 msgstr "número de pista ressaltat (**2**) (per a l'edició de 3 punts)"
 
-#: ../../cutting_and_assembling/editing.rst:415
+#: ../../cutting_and_assembling/editing.rst:454
 msgid ""
 "blueish or brownish track (**3 4**) (depends on the color scheme), working "
 "with the mouse or insert clip by paste"
@@ -890,7 +1066,7 @@ msgstr ""
 "pista blavosa o marronosa (**3 4**) (depens de l'esquema de color), "
 "treballant amb el ratolí o inserint un clip enganxant-lo"
 
-#: ../../cutting_and_assembling/editing.rst:417
+#: ../../cutting_and_assembling/editing.rst:456
 msgid ""
 "When you work with the mouse Kdenlive make a track active as you drop a clip "
 "to the timeline or you select a clip."
@@ -898,15 +1074,15 @@ msgstr ""
 "Quan treballeu amb el ratolí, el Kdenlive activa una pista quan deixeu anar "
 "un clip a la línia de temps o si seleccioneu un clip."
 
-#: ../../cutting_and_assembling/editing.rst:419
+#: ../../cutting_and_assembling/editing.rst:458
 msgid "Make a track active by:"
 msgstr "Fa una pista activa amb:"
 
-#: ../../cutting_and_assembling/editing.rst:421
+#: ../../cutting_and_assembling/editing.rst:460
 msgid "click into the track header (**3**)"
 msgstr "clic en la capçalera de la pista (**3**)"
 
-#: ../../cutting_and_assembling/editing.rst:423
+#: ../../cutting_and_assembling/editing.rst:462
 msgid ""
 "double click into an empty part of the track (**4**) (the playhead moves to "
 "this point too). This is useful when you copy & paste clips."
@@ -914,53 +1090,53 @@ msgstr ""
 "doble clic en una part buida de la pista (**4**) (el capçal de reproducció "
 "també es mou a aquest punt). Això és útil quan copieu i enganxeu clips."
 
-#: ../../cutting_and_assembling/editing.rst:425
+#: ../../cutting_and_assembling/editing.rst:464
 msgid ":kbd:`1-9` select a video track"
 msgstr ":kbd:`1-9` selecciona una pista de vídeo"
 
-#: ../../cutting_and_assembling/editing.rst:427
+#: ../../cutting_and_assembling/editing.rst:466
 msgid ":kbd:`alt+1-9` select an audio track"
 msgstr ":kbd:`Alt+1-9` selecciona una pista d'àudio"
 
-#: ../../cutting_and_assembling/editing.rst:429
+#: ../../cutting_and_assembling/editing.rst:468
 msgid "arrow key up/down"
 msgstr "Fletxa amunt/avall"
 
-#: ../../cutting_and_assembling/editing.rst:431
+#: ../../cutting_and_assembling/editing.rst:470
 msgid "For 3-point editing"
 msgstr "Per a l'edició de 3 punts"
 
-#: ../../cutting_and_assembling/editing.rst:433
+#: ../../cutting_and_assembling/editing.rst:472
 msgid ":kbd:`Alt+Shift+A` Switch all tracks active"
 msgstr ":kbd:`Alt+Maj+A` canvia totes les pistes a actives"
 
-#: ../../cutting_and_assembling/editing.rst:435
+#: ../../cutting_and_assembling/editing.rst:474
 msgid ":kbd:`Shift+A` Toggle all tracks active/inactive"
 msgstr ":kbd:`Maj+A` commuta totes les pistes a actives/inactives"
 
-#: ../../cutting_and_assembling/editing.rst:437
+#: ../../cutting_and_assembling/editing.rst:476
 msgid ":kbd:`A` Toggle track active"
 msgstr ":kbd:`A` canvia la pista a activa"
 
-#: ../../cutting_and_assembling/editing.rst:439
+#: ../../cutting_and_assembling/editing.rst:478
 msgid ":kbd:`Shift+T` Toggle track target"
 msgstr ":kbd:`Maj+T` canvia a la pista de destinació"
 
-#: ../../cutting_and_assembling/editing.rst:441
+#: ../../cutting_and_assembling/editing.rst:480
 msgid ":ref:`Here you find more timeline shortcuts <ui-shortcuts_timeline>`."
 msgstr ""
 ":ref:`Aquí podeu trobar més dreceres de la línia de temps <ui-"
 "shortcuts_timeline>`."
 
-#: ../../cutting_and_assembling/editing.rst:445
+#: ../../cutting_and_assembling/editing.rst:484
 msgid "Timeline Edit Modes"
 msgstr "Modes d'edició de la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:450
+#: ../../cutting_and_assembling/editing.rst:489
 msgid "Normal Mode"
 msgstr "Mode normal"
 
-#: ../../cutting_and_assembling/editing.rst:452
+#: ../../cutting_and_assembling/editing.rst:491
 msgid ""
 "In this edit mode, you can not drag clips on top of other clips in the same "
 "track in the timeline. You can drag them to another track in the timeline "
@@ -973,11 +1149,11 @@ msgstr ""
 "punt de temps que un clip existent. Contrasteu això amb el mode "
 "sobreescriure."
 
-#: ../../cutting_and_assembling/editing.rst:457
+#: ../../cutting_and_assembling/editing.rst:496
 msgid "Overwrite Mode"
 msgstr "Mode de sobreescriptura"
 
-#: ../../cutting_and_assembling/editing.rst:459
+#: ../../cutting_and_assembling/editing.rst:498
 msgid ""
 "In this edit mode, you can drag a clip onto a track where there is an "
 "existing clip and the incoming clip will overwrite that portion of the "
@@ -987,16 +1163,16 @@ msgstr ""
 "hagi un clip existent i el clip entrant sobreescriurà aquella part del clip "
 "(o clips) existents coberts pel clip entrant."
 
-#: ../../cutting_and_assembling/editing.rst:465
-#: ../../cutting_and_assembling/editing.rst:499
+#: ../../cutting_and_assembling/editing.rst:504
+#: ../../cutting_and_assembling/editing.rst:538
 msgid "Before"
 msgstr "Abans"
 
-#: ../../cutting_and_assembling/editing.rst:471
+#: ../../cutting_and_assembling/editing.rst:510
 msgid "After"
 msgstr "Després"
 
-#: ../../cutting_and_assembling/editing.rst:474
+#: ../../cutting_and_assembling/editing.rst:513
 msgid ""
 "In the \"After\" screenshot above, you can see that the clip which was "
 "dragged from the upper track has replaced a portion of the clip on the lower "
@@ -1006,11 +1182,11 @@ msgstr ""
 "arrossegat des de la pista superior ha substituït una part del clip a la "
 "pista inferior."
 
-#: ../../cutting_and_assembling/editing.rst:477
+#: ../../cutting_and_assembling/editing.rst:516
 msgid "**Rearrange clips in the timeline**"
 msgstr "**Reorganitzar els clips a la línia de temps**"
 
-#: ../../cutting_and_assembling/editing.rst:480
+#: ../../cutting_and_assembling/editing.rst:519
 msgid ""
 "Performing a rearrange edit. This technique lets you quickly change the "
 "order of clips in the timeline."
@@ -1018,7 +1194,7 @@ msgstr ""
 "Efectuar una edició de reordenació. Aquesta tècnica permet canviar amb "
 "rapidesa l'ordre dels clips a la línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:486
+#: ../../cutting_and_assembling/editing.rst:525
 msgid ""
 "Drag a clip, as you drop it to a new location performs an overwrite edit "
 "that overwrites the existing clip."
@@ -1026,11 +1202,11 @@ msgstr ""
 "Arrossegueu un clip, mentre el deixeu anar a una ubicació nova es realitzarà "
 "una edició de sobreescriptura que sobreescriurà el clip existent."
 
-#: ../../cutting_and_assembling/editing.rst:491
+#: ../../cutting_and_assembling/editing.rst:530
 msgid "Insert Mode"
 msgstr "Mode d'inserció"
 
-#: ../../cutting_and_assembling/editing.rst:493
+#: ../../cutting_and_assembling/editing.rst:532
 msgid ""
 "With this mode selected and you drop a selection into the timeline the "
 "selection will be inserted into the timeline at the point where the mouse is "
@@ -1042,23 +1218,23 @@ msgstr ""
 "anar amb el ratolí. El clip on es deixa anar la selecció es retallarà i els "
 "clips es mouran cap a la dreta per a acomodar el clip entrant."
 
-#: ../../cutting_and_assembling/editing.rst:505
+#: ../../cutting_and_assembling/editing.rst:544
 msgid "During"
 msgstr "Durant"
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:511
+#: ../../cutting_and_assembling/editing.rst:550
 msgid ""
 "After. Incoming Clip inserted. Clips after the insert point are shifted Right"
 msgstr ""
 "Després. S'ha inserit el clip entrant. Els clips després del punt d'inserció "
 "es desplacen cap a la dreta."
 
-#: ../../cutting_and_assembling/editing.rst:514
+#: ../../cutting_and_assembling/editing.rst:553
 msgid "**Rearrange edit in the timeline**"
 msgstr "**Reorganitzar l'edició a la línia de temps**"
 
-#: ../../cutting_and_assembling/editing.rst:516
+#: ../../cutting_and_assembling/editing.rst:555
 msgid ""
 "Performing a rearrange edit. Only clips in the destination track are "
 "shifted; clips in other tracks are not affected. This technique lets you "
@@ -1069,11 +1245,11 @@ msgstr ""
 "afectats. Aquesta tècnica permet canviar amb rapidesa l'ordre dels clips a "
 "la línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:518
+#: ../../cutting_and_assembling/editing.rst:557
 msgid "It always closes all space in the track."
 msgstr "Sempre es tancarà tot l'espai en la pista."
 
-#: ../../cutting_and_assembling/editing.rst:523
+#: ../../cutting_and_assembling/editing.rst:562
 msgid ""
 "Drag a clip, as you drop it to a new location. Releasing the clip performs "
 "an insert edit that shifts clips in the destination track only."
@@ -1082,15 +1258,15 @@ msgstr ""
 "anar, es realitzarà una edició d'inserció que només desplaçarà els clips en "
 "la pista de destinació."
 
-#: ../../cutting_and_assembling/editing.rst:529
+#: ../../cutting_and_assembling/editing.rst:568
 msgid "Timeline Edit Tools"
 msgstr "Eines d'edició de la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:532
+#: ../../cutting_and_assembling/editing.rst:571
 msgid "Selection Tool"
 msgstr "Eina de selecció"
 
-#: ../../cutting_and_assembling/editing.rst:534
+#: ../../cutting_and_assembling/editing.rst:573
 msgid ""
 "Use this to select clips in the timeline. The cursor becomes a hand when "
 "this tool is active."
@@ -1098,12 +1274,12 @@ msgstr ""
 "Utilitzeu-la per a seleccionar els clips a la línia de temps. Quan aquesta "
 "eina està activa, el cursor es convertirà en una mà."
 
-#: ../../cutting_and_assembling/editing.rst:538
+#: ../../cutting_and_assembling/editing.rst:577
 msgid "Razor Tool"
 msgstr "Eina de tall"
 
 # skip-rule: barb-uns
-#: ../../cutting_and_assembling/editing.rst:540
+#: ../../cutting_and_assembling/editing.rst:579
 msgid ""
 "Use this to cut clips in the timeline. The cursor becomes a pair of scissors "
 "when this tool is active."
@@ -1111,19 +1287,19 @@ msgstr ""
 "Utilitzeu-la per a retallar els clips a la línia de temps. Quan aquesta eina "
 "està activa, el cursor es convertirà en unes tisores."
 
-#: ../../cutting_and_assembling/editing.rst:542
-#: ../../cutting_and_assembling/editing.rst:558
-#: ../../cutting_and_assembling/editing.rst:582
-#: ../../cutting_and_assembling/editing.rst:601
-#: ../../cutting_and_assembling/editing.rst:634
+#: ../../cutting_and_assembling/editing.rst:581
+#: ../../cutting_and_assembling/editing.rst:597
+#: ../../cutting_and_assembling/editing.rst:621
+#: ../../cutting_and_assembling/editing.rst:640
+#: ../../cutting_and_assembling/editing.rst:673
 msgid ":kbd:`ESC`: Return from any tools back to Selection tool."
 msgstr ":kbd:`Esc`: torna de qualsevol eina a l'eina de selecció."
 
-#: ../../cutting_and_assembling/editing.rst:545
+#: ../../cutting_and_assembling/editing.rst:584
 msgid "Spacer Tool"
 msgstr "Eina espaiadora"
 
-#: ../../cutting_and_assembling/editing.rst:547
+#: ../../cutting_and_assembling/editing.rst:586
 msgid ""
 "Use this tool (|distribute-horizontal|) to temporarily group separate clips "
 "and then drag them around the timeline to create or remove space between "
@@ -1134,7 +1310,7 @@ msgstr ""
 "eliminar espai entre els clips. Molt útil. Experimenteu amb aquesta eina per "
 "a veure com funciona."
 
-#: ../../cutting_and_assembling/editing.rst:556
+#: ../../cutting_and_assembling/editing.rst:595
 msgid ""
 "In the above example, these clips are not grouped. However, the spacer tool "
 "groups them temporarily for you so you can move them all as a group."
@@ -1142,11 +1318,11 @@ msgstr ""
 "A l'exemple anterior, aquests clips no estan agrupats. Tanmateix, l'eina "
 "espaiadora els agrupa temporalment perquè els pugueu moure tots com a grup."
 
-#: ../../cutting_and_assembling/editing.rst:564
+#: ../../cutting_and_assembling/editing.rst:603
 msgid "Slip Tool"
 msgstr "Eina de lliscament"
 
-#: ../../cutting_and_assembling/editing.rst:571
+#: ../../cutting_and_assembling/editing.rst:610
 msgid ""
 "Slip keeps the original duration of the clip. Like working with old film "
 "material: beneath the given \"window\" of the clip length it slips the film "
@@ -1156,7 +1332,7 @@ msgstr ""
 "material antic de pel·lícula: sota la «finestra» indicant la longitud del "
 "clip, es fa llisca la tira de pel·lícules cap endavant i cap enrere."
 
-#: ../../cutting_and_assembling/editing.rst:576
+#: ../../cutting_and_assembling/editing.rst:615
 msgid ""
 "Use Slip (|kdenlive-slip|) to trim, in a single operation, the IN and OUT "
 "points of a clip forward or backward by the same number of frames, while "
@@ -1167,7 +1343,7 @@ msgstr ""
 "en el mateix nombre de fotogrames, tot mantenint la durada original i sense "
 "afectar els clips adjacents."
 
-#: ../../cutting_and_assembling/editing.rst:578
+#: ../../cutting_and_assembling/editing.rst:617
 msgid ""
 "You can slip multiple clips at once now: select all clips you want to slip "
 "with the selection tool using :kbd:`Shift` then enable the slip tool and go "
@@ -1177,7 +1353,7 @@ msgstr ""
 "que voleu fer lliscar amb l'eina de selecció emprant :kbd:`Maj`, a "
 "continuació habiliteu l'eina lliscant i seguiu…"
 
-#: ../../cutting_and_assembling/editing.rst:580
+#: ../../cutting_and_assembling/editing.rst:619
 msgid ""
 "Slip can be done with the mouse, with the :kbd:`arrow` keys and with the "
 "buttons on the monitor toolbar."
@@ -1185,11 +1361,11 @@ msgstr ""
 "El lliscament es pot fer amb el ratolí, amb les :kbd:`tecles de fletxa` i "
 "els botons de la barra d'eines en el monitor."
 
-#: ../../cutting_and_assembling/editing.rst:588
+#: ../../cutting_and_assembling/editing.rst:627
 msgid "Ripple Tool"
 msgstr "Eina d'onada"
 
-#: ../../cutting_and_assembling/editing.rst:593
+#: ../../cutting_and_assembling/editing.rst:632
 msgid ""
 "Ripple changes the original duration of the clip. Like working with old film "
 "material: You lengthen or shorten the film strip and move the adjacent clips "
@@ -1199,7 +1375,7 @@ msgstr ""
 "de pel·lícula: allargar o escurçar la tira de la pel·lícula i moure els "
 "clips adjacents cap enrere i cap endavant com ho feu."
 
-#: ../../cutting_and_assembling/editing.rst:595
+#: ../../cutting_and_assembling/editing.rst:634
 msgid ""
 "Use Ripple (|kdenlive-ripple|) to trim a clip and shift following clips in "
 "the track by the number of frames you trim. When you shorten a clip by this "
@@ -1216,19 +1392,19 @@ msgstr ""
 "pista, es comportarà com un clip i es desplaçarà amb el temps, com ho faria "
 "un clip estàndard."
 
-#: ../../cutting_and_assembling/editing.rst:597
+#: ../../cutting_and_assembling/editing.rst:636
 msgid "You can Ripple only a single clip at once."
 msgstr "Només podreu fer onada en un sol clip a la vegada."
 
-#: ../../cutting_and_assembling/editing.rst:599
+#: ../../cutting_and_assembling/editing.rst:638
 msgid "Ripple can be done with the mouse only."
 msgstr "L'onada només es pot fer amb el ratolí."
 
-#: ../../cutting_and_assembling/editing.rst:607
+#: ../../cutting_and_assembling/editing.rst:646
 msgid "Ripple Trim to Playhead"
 msgstr "Retalla l'onada fins al capçal de reproducció"
 
-#: ../../cutting_and_assembling/editing.rst:609
+#: ../../cutting_and_assembling/editing.rst:648
 msgid ""
 "To cut a clip on an active track at the playhead position without getting a "
 "gap in the timeline do the following."
@@ -1236,15 +1412,15 @@ msgstr ""
 "Per a retallar un clip en una pista activa en la posició del capçal de "
 "reproducció sense obtenir un buit en la línia de temps, feu el següent."
 
-#: ../../cutting_and_assembling/editing.rst:611
+#: ../../cutting_and_assembling/editing.rst:650
 msgid "enable ripple"
 msgstr "activeu l'onada"
 
-#: ../../cutting_and_assembling/editing.rst:613
+#: ../../cutting_and_assembling/editing.rst:652
 msgid "place the playhead at the desired place"
 msgstr "situeu el capçal de reproducció en el lloc desitjat"
 
-#: ../../cutting_and_assembling/editing.rst:615
+#: ../../cutting_and_assembling/editing.rst:654
 msgid ""
 "hit :kbd:`(`: This cuts and removes the clip and space to the left side of "
 "the playhead. :kbd:`)` does the same but to the right side of the playhead."
@@ -1253,11 +1429,11 @@ msgstr ""
 "del capçal de reproducció. :kbd:`)` fa el mateix al costat dret del capçal "
 "de reproducció."
 
-#: ../../cutting_and_assembling/editing.rst:621
+#: ../../cutting_and_assembling/editing.rst:660
 msgid "Multicam Tool"
 msgstr "Eina de multicàmera"
 
-#: ../../cutting_and_assembling/editing.rst:626
+#: ../../cutting_and_assembling/editing.rst:665
 msgid ""
 "The multicam tool allows to cut between several cameras while playback is "
 "running. Add your clips in different tracks, but at the same position in the "
@@ -1278,7 +1454,7 @@ msgstr ""
 "seleccioneu la pista desitjada en el monitor del projecte fent clic sobre "
 "seu amb el ratolí."
 
-#: ../../cutting_and_assembling/editing.rst:628
+#: ../../cutting_and_assembling/editing.rst:667
 msgid ""
 "Select multicam tool will switch on the :ref:`ui-multitrack_view` in the "
 "project monitor and set a marker at the current timeline position. You can "
@@ -1295,7 +1471,7 @@ msgstr ""
 "repetir la cerca i fer clic a una altra pista per a continuar elevant les "
 "pistes."
 
-#: ../../cutting_and_assembling/editing.rst:630
+#: ../../cutting_and_assembling/editing.rst:669
 msgid ""
 "It doesn't stop playing when you perform the operation to avoid to lose the "
 "rhythm and to work as you are working during a live broadcasting. If you "
@@ -1307,7 +1483,7 @@ msgstr ""
 "necessiteu corregir l'edició, podreu aturar-la manualment i retallar el "
 "retall tal com ho feu normalment quan s'edita vídeo."
 
-#: ../../cutting_and_assembling/editing.rst:632
+#: ../../cutting_and_assembling/editing.rst:671
 msgid ""
 "The audio tracks is not involved in the process as you generally use only "
 "one audio track (the one which come from the main mixer to which the other "
@@ -1317,34 +1493,43 @@ msgstr ""
 "utilitzeu una pista d'àudio (que prové del mesclador principal amb el qual "
 "se sincronitzen les altres)"
 
-#: ../../cutting_and_assembling/editing.rst:640
+#: ../../cutting_and_assembling/editing.rst:679
 msgid "Status Bar"
 msgstr "Barra d'estat"
 
-#: ../../cutting_and_assembling/editing.rst:649
+#: ../../cutting_and_assembling/editing.rst:689
 msgid "Hints what you can do when you hover over items."
 msgstr "Indica el que podeu fer quan passeu el cursor per sobre dels elements."
 
-#: ../../cutting_and_assembling/editing.rst:651
+#: ../../cutting_and_assembling/editing.rst:691
 msgid "Names of the clip you hover over in the timeline"
 msgstr "Noms del clip sobre el qual passeu el cursor a la línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:653
+#: ../../cutting_and_assembling/editing.rst:693
 msgid ""
 "Mode you are in (default is :guilabel:`Select` = :guilabel:`Normal Mode`)"
 msgstr ""
 "Mode en el qual esteu (el predeterminat és :guilabel:`Selecció` = :guilabel:"
 "`Mode normal`)"
 
-#: ../../cutting_and_assembling/editing.rst:655
+#: ../../cutting_and_assembling/editing.rst:695
+#, fuzzy
+#| msgid ""
+#| "Switch for :guilabel:`Clip Names`, effect names and info in the timeline"
+msgid "Switch for ::guilabel:`mouse zoom on playhead` in timeline"
+msgstr ""
+"Commutador dels :guilabel:`Noms de clips`, noms d'efectes i informació a la "
+"línia de temps"
+
+#: ../../cutting_and_assembling/editing.rst:697
 msgid "Switch for :guilabel:`Color Tags`"
 msgstr "Commuta les :guilabel:`Etiquetes de color`"
 
-#: ../../cutting_and_assembling/editing.rst:657
+#: ../../cutting_and_assembling/editing.rst:699
 msgid "Switch for :guilabel:`Video Thumbnails`"
 msgstr "Commuta les :guilabel:`Miniatures de vídeo`"
 
-#: ../../cutting_and_assembling/editing.rst:659
+#: ../../cutting_and_assembling/editing.rst:701
 msgid ""
 "Switch for :guilabel:`Audio Thumbnails`. Toggles zooming audio waveforms "
 "from 1 (default) 2, 4, 8. It affects all displayed waveforms and all audio "
@@ -1355,45 +1540,45 @@ msgstr ""
 "formes d'ona visualitzades i totes les pistes d'àudio. Vegeu `Mostra les "
 "miniatures d'àudio`_"
 
-#: ../../cutting_and_assembling/editing.rst:661
+#: ../../cutting_and_assembling/editing.rst:703
 msgid "Switch for :guilabel:`markers`. See `Show marker comments`_"
 msgstr ""
 "Commuta els :guilabel:`marcadors`. Vegeu `Mostrar els marcadors de "
 "comentari`_"
 
-#: ../../cutting_and_assembling/editing.rst:663
+#: ../../cutting_and_assembling/editing.rst:705
 msgid ""
 "Switch for :guilabel:`Clip Names`, effect names and info in the timeline"
 msgstr ""
 "Commutador dels :guilabel:`Noms de clips`, noms d'efectes i informació a la "
 "línia de temps"
 
-#: ../../cutting_and_assembling/editing.rst:665
+#: ../../cutting_and_assembling/editing.rst:707
 msgid "Switch for :guilabel:`Snap`. See `Snap`_"
 msgstr "Commuta a :guilabel:`Ajusta`. Vegeu `Ajustar`_"
 
-#: ../../cutting_and_assembling/editing.rst:667
+#: ../../cutting_and_assembling/editing.rst:709
 msgid ":guilabel:`Fit Zoom to Project`. See `Fit Zoom to Project`_"
 msgstr ""
 ":guilabel:`Ajusta el zoom al projecte`. Vegeu `Ajustar el zoom al projecte`_"
 
-#: ../../cutting_and_assembling/editing.rst:669
+#: ../../cutting_and_assembling/editing.rst:711
 msgid "Zoom Out"
 msgstr "Allunyar"
 
-#: ../../cutting_and_assembling/editing.rst:671
+#: ../../cutting_and_assembling/editing.rst:713
 msgid "Zoom slider `Zoom Project`_"
 msgstr "Control lliscant de `Zoom del projecte`_"
 
-#: ../../cutting_and_assembling/editing.rst:673
+#: ../../cutting_and_assembling/editing.rst:715
 msgid "Zoom In"
 msgstr "Apropar"
 
-#: ../../cutting_and_assembling/editing.rst:677
+#: ../../cutting_and_assembling/editing.rst:719
 msgid "Split Audio and Video Automatically"
 msgstr "Divideix automàticament l'àudio i el vídeo"
 
-#: ../../cutting_and_assembling/editing.rst:679
+#: ../../cutting_and_assembling/editing.rst:721
 msgid ""
 "When this is on and you drag a clip to the timeline, the audio in the clip "
 "will end up on an audio track and the video on a video track. You can "
@@ -1409,11 +1594,11 @@ msgstr ""
 "línia de temps, tant les pistes d'àudio com de vídeo es combinaran dins "
 "d'una pista de vídeo."
 
-#: ../../cutting_and_assembling/editing.rst:693
+#: ../../cutting_and_assembling/editing.rst:735
 msgid "Show Video Thumbnails"
 msgstr "Mostra les miniatures de vídeo"
 
-#: ../../cutting_and_assembling/editing.rst:695
+#: ../../cutting_and_assembling/editing.rst:737
 msgid ""
 "When on, the video clips in the timeline will contain thumbnails as well as "
 "a filename. Otherwise, they just have the clip filename."
@@ -1422,7 +1607,7 @@ msgstr ""
 "miniatures, així com un nom de fitxer. En cas contrari, només tindran el nom "
 "de fitxer del clip."
 
-#: ../../cutting_and_assembling/editing.rst:697
+#: ../../cutting_and_assembling/editing.rst:739
 msgid ""
 "When the timeline is zoomed in to the maximum, the video track will show a "
 "thumbnail for every frame in the clip. When the timeline is not on maximum "
@@ -1434,11 +1619,11 @@ msgstr ""
 "estigui ampliada al màxim, la pista de vídeo mostrarà una miniatura per al "
 "primer i últim fotograma en el clip."
 
-#: ../../cutting_and_assembling/editing.rst:701
+#: ../../cutting_and_assembling/editing.rst:743
 msgid "Show Audio Thumbnails"
 msgstr "Mostra les miniatures d'àudio"
 
-#: ../../cutting_and_assembling/editing.rst:703
+#: ../../cutting_and_assembling/editing.rst:745
 msgid ""
 "When on, the audio clip will have a wave representation of the audio data as "
 "well as a filename.  Otherwise, they just have the clip filename."
@@ -1447,11 +1632,11 @@ msgstr ""
 "de les dades d'àudio, així com un nom de fitxer. En cas contrari, només "
 "tindran el nom de fitxer del clip."
 
-#: ../../cutting_and_assembling/editing.rst:707
+#: ../../cutting_and_assembling/editing.rst:749
 msgid "Show marker comments"
 msgstr "Mostra els marcadors de comentari"
 
-#: ../../cutting_and_assembling/editing.rst:709
+#: ../../cutting_and_assembling/editing.rst:751
 msgid ""
 "This toggles on and off the display of :ref:`markers` saved within :doc:"
 "`clips </project_and_asset_management/project_bin/clips>` (the text with the "
@@ -1463,11 +1648,11 @@ msgstr ""
 "següent, el text amb el fons daurat) i a les :doc:`guides` (el text amb el "
 "fons porpra)."
 
-#: ../../cutting_and_assembling/editing.rst:716
+#: ../../cutting_and_assembling/editing.rst:758
 msgid "Snap"
 msgstr "Ajusta"
 
-#: ../../cutting_and_assembling/editing.rst:718
+#: ../../cutting_and_assembling/editing.rst:760
 msgid ""
 "When this feature is on, dragging the beginning of one clip near to the end "
 "of another will result at the end of the first clip snapping into place to "
@@ -1484,17 +1669,17 @@ msgstr ""
 "hi haurà espai ni superposició. Cal tenir en compte que això passa fins i "
 "tot si els clips es troben en pistes diferents en la línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:721
+#: ../../cutting_and_assembling/editing.rst:763
 msgid "Clips will also snap to the cursor position, markers and :doc:`guides`."
 msgstr ""
 "Els clips també s'ajustaran a la posició del cursor, marcadors i :doc:"
 "`guides`."
 
-#: ../../cutting_and_assembling/editing.rst:725
+#: ../../cutting_and_assembling/editing.rst:767
 msgid "Fit Zoom to Project"
 msgstr "Ajusta el zoom al projecte"
 
-#: ../../cutting_and_assembling/editing.rst:727
+#: ../../cutting_and_assembling/editing.rst:769
 msgid ""
 "This will zoom the project out so that it all fits in the timeline window. "
 "This is the same function that is triggered by :ref:`sequence_menu` Menu "
@@ -1504,11 +1689,11 @@ msgstr ""
 "línia de temps. Aquesta és la mateixa funció que s'activa amb l'element de "
 "menú :ref:`sequence_menu`, :menuselection:`Ajusta el zoom al projecte`."
 
-#: ../../cutting_and_assembling/editing.rst:731
+#: ../../cutting_and_assembling/editing.rst:773
 msgid "Zoom project"
 msgstr "Zoom del projecte"
 
-#: ../../cutting_and_assembling/editing.rst:733
+#: ../../cutting_and_assembling/editing.rst:775
 msgid ""
 "The magnifying glasses zoom in or out on the timeline. The slider adjusts "
 "the zoom by large increments. These same settings are controlled by the :"
@@ -1520,12 +1705,12 @@ msgstr ""
 "configuració es controlen mitjançant els elements de menú :menuselection:"
 "`Línia de temps --> Apropa` i :menuselection:`Línia de temps --> Allunya`."
 
-#: ../../cutting_and_assembling/editing.rst:737
+#: ../../cutting_and_assembling/editing.rst:779
 msgid "Cutting Footage from multiple aligned tracks - Ripple Delete"
 msgstr "Retallar el metratge de diverses pistes alineades - Suprimir l'onada"
 
 # skip-rule: t-acc_obe
-#: ../../cutting_and_assembling/editing.rst:743
+#: ../../cutting_and_assembling/editing.rst:785
 msgid ""
 "There are 4 possibilities for ripple delete (point 1 and 2 are the classical "
 "`Ripple Delete`):"
@@ -1533,7 +1718,7 @@ msgstr ""
 "Hi ha 4 possibilitats per a suprimir l'onada (els punts 1 i 2 són el "
 "`Suprimir l'onada` clàssic):"
 
-#: ../../cutting_and_assembling/editing.rst:745
+#: ../../cutting_and_assembling/editing.rst:787
 msgid ""
 "On the active track: Cut out the piece on the clip which you do not want "
 "with :kbd:`Shift+R`. Right click on that piece and choose :menuselection:"
@@ -1547,7 +1732,7 @@ msgstr ""
 "tota la resta cap a l'esquerra per a omplir el buit. El capçal de "
 "reproducció queda a on heu fet el darrer retall."
 
-#: ../../cutting_and_assembling/editing.rst:747
+#: ../../cutting_and_assembling/editing.rst:789
 msgid ""
 "On the active track: Empty spaces between clips can only be removed by right "
 "click on empty space and choose :menuselection:`Remove Space`."
@@ -1555,7 +1740,7 @@ msgstr ""
 "A la pista activa: els espais buits entre clips només es poden eliminar fent "
 "clic dret sobre l'espai buit i triant :menuselection:`Elimina l'espai`."
 
-#: ../../cutting_and_assembling/editing.rst:749
+#: ../../cutting_and_assembling/editing.rst:791
 msgid ""
 "On all tracks together: Mark `In` and `Out` points in the Project Monitor or "
 "on the Timeline, then choose :menuselection:`Timeline --> Removal --> "
@@ -1571,7 +1756,7 @@ msgstr ""
 "desplaçant tota la resta fins a omplir el buit i posar la capçalera de "
 "reproducció sobre el punt d'entrada."
 
-#: ../../cutting_and_assembling/editing.rst:751
+#: ../../cutting_and_assembling/editing.rst:793
 msgid ""
 "On the active track with `Insert Mode`: Cut out the piece on the clip which "
 "you don't want with :kbd:`Shift+R`. Hit `Delete`. This removes the clip and "
@@ -1583,7 +1768,7 @@ msgstr ""
 "desplaça tota la resta cap a l'esquerra per a omplir el buit. El capçal de "
 "reproducció queda a on heu fet el darrer retall."
 
-#: ../../cutting_and_assembling/editing.rst:753
+#: ../../cutting_and_assembling/editing.rst:795
 msgid ""
 "You can do a ripple trim to the playhead using :ref:"
 "`ripple_trim_to_playhead`."
@@ -1591,11 +1776,11 @@ msgstr ""
 "Podeu fer un retall d'onada fins al capçal de reproducció fent servir :ref:"
 "`ripple_trim_to_playhead`."
 
-#: ../../cutting_and_assembling/editing.rst:759
+#: ../../cutting_and_assembling/editing.rst:801
 msgid "3 point editing"
 msgstr "Edició de 3 punts"
 
-#: ../../cutting_and_assembling/editing.rst:763
+#: ../../cutting_and_assembling/editing.rst:805
 msgid ""
 "3 important points to understand the 3 point editing concept (with keyboard "
 "shortcuts):"
@@ -1603,12 +1788,12 @@ msgstr ""
 "3 punts importants per a entendre el concepte d'edició de 3 punts (amb les "
 "dreceres de teclat):"
 
-#: ../../cutting_and_assembling/editing.rst:767
+#: ../../cutting_and_assembling/editing.rst:809
 msgid "Source"
 msgstr "Font"
 
 # skip-rule: barb-uns
-#: ../../cutting_and_assembling/editing.rst:773
+#: ../../cutting_and_assembling/editing.rst:815
 msgid ""
 "On the left of the track head the green vertical lines (V1 or A2). The green "
 "line is connected to the source clip in the project bin. Only when a clip is "
@@ -1621,11 +1806,11 @@ msgstr ""
 "línia verda apareixerà en funció del tipus de clip (clip A/V, clip d'imatge/"
 "títol/color, clip d'àudio)."
 
-#: ../../cutting_and_assembling/editing.rst:778
+#: ../../cutting_and_assembling/editing.rst:820
 msgid "Target"
 msgstr "Destinació"
 
-#: ../../cutting_and_assembling/editing.rst:784
+#: ../../cutting_and_assembling/editing.rst:826
 msgid ""
 "In the track head the target V1 or A1 is active when it’s yellow. An active "
 "target track reacts to edit operations like insert a clip even if the source "
@@ -1635,11 +1820,11 @@ msgstr ""
 "groga. Una pista de destinació activa reaccionarà a les operacions d'edició "
 "com ara inserir un clip encara que la font no estigui activa."
 
-#: ../../cutting_and_assembling/editing.rst:787
+#: ../../cutting_and_assembling/editing.rst:829
 msgid "**The concept is like thinking of connectors**"
 msgstr "**El concepte és com pensar en els connectors**"
 
-#: ../../cutting_and_assembling/editing.rst:789
+#: ../../cutting_and_assembling/editing.rst:831
 msgid ""
 "Connect the source (the clip in the project bin) to a target (a track in the "
 "timeline). Only when both connectors on the **same** track are switched on "
@@ -1650,27 +1835,27 @@ msgstr ""
 "pista estiguin actius, el clip «fluirà» des de la safata del projecte cap a "
 "la línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:794
+#: ../../cutting_and_assembling/editing.rst:836
 msgid "Active target tracks without connected source react on edit operations."
 msgstr ""
 "Les pistes de destinació actives sense font connectada reaccionen a les "
 "operacions d'edició."
 
-#: ../../cutting_and_assembling/editing.rst:797
+#: ../../cutting_and_assembling/editing.rst:839
 msgid "Examples of advanced edit"
 msgstr "Exemples d'edició avançada"
 
-#: ../../cutting_and_assembling/editing.rst:799
+#: ../../cutting_and_assembling/editing.rst:841
 msgid "Here is a brief introduction to the 3 point editing system."
 msgstr "Aquí teniu una breu introducció al sistema d'edició de 3 punts."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:805
+#: ../../cutting_and_assembling/editing.rst:847
 msgid "Select a clip in the project bin with an up/down arrow"
 msgstr ""
 "Seleccioneu un clip a la safata del projecte amb una fletxa amunt/avall."
 
-#: ../../cutting_and_assembling/editing.rst:807
+#: ../../cutting_and_assembling/editing.rst:849
 msgid ""
 "Navigate the clip by the :kbd:`JKL` keys or by the :kbd:`left/right` arrows "
 "and set the IN and the OUT point by the :kbd:`I` and :kbd:`O` keys."
@@ -1680,11 +1865,11 @@ msgstr ""
 "`O`."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:809
+#: ../../cutting_and_assembling/editing.rst:851
 msgid "Hit :kbd:`T` to change to the timeline"
 msgstr "Premeu la tecla :kbd:`T` per a canviar a la línia de temps."
 
-#: ../../cutting_and_assembling/editing.rst:811
+#: ../../cutting_and_assembling/editing.rst:853
 msgid ""
 "Select a video or audio track in the timeline (up/down arrow key) and set it "
 "as source with :kbd:`Shift + T`."
@@ -1693,7 +1878,7 @@ msgstr ""
 "Fletxa amunt/avall) i establiu-la com a font amb la drecera :kbd:`Maj + T`."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:813
+#: ../../cutting_and_assembling/editing.rst:855
 msgid ""
 "Activate the track as a target with shortcut :kbd:`A` (this connects the "
 "track to the source)"
@@ -1701,7 +1886,7 @@ msgstr ""
 "Activeu la pista com a destinació amb la drecera :kbd:`A` (això connectarà "
 "la pista amb la font)."
 
-#: ../../cutting_and_assembling/editing.rst:815
+#: ../../cutting_and_assembling/editing.rst:857
 msgid ""
 "Hit :kbd:`V` (insert) or :kbd:`B` (overwrite) to add the clip at the play-"
 "head position or to fill the selected area in the timeline if it is active. "
@@ -1712,7 +1897,7 @@ msgstr ""
 "l'àrea seleccionada a la línia de temps. Si necessiteu activar-la, empreu la "
 "tecla :kbd:`G`."
 
-#: ../../cutting_and_assembling/editing.rst:823
+#: ../../cutting_and_assembling/editing.rst:865
 msgid ""
 "In the following example, we want only to insert the audio part of a clip in "
 "A2 and we want to create a gap in all the other video and audio tracks:"
@@ -1720,25 +1905,65 @@ msgstr ""
 "En l'exemple següent, només volem inserir la part d'àudio d'un clip en A2 i "
 "volem crear un buit en totes les altres pistes de vídeo i àudio:"
 
-#: ../../cutting_and_assembling/editing.rst:825
+#: ../../cutting_and_assembling/editing.rst:867
 msgid "Activate all the target tracks which contain clips (yellow buttons)."
 msgstr ""
 "Activeu totes les pistes de destinació que contenen clips (botons de color "
 "groc)."
 
 # skip-rule: punctuation-period-no
-#: ../../cutting_and_assembling/editing.rst:827
+#: ../../cutting_and_assembling/editing.rst:869
 msgid "Activate just the audio source on A2"
 msgstr "Activeu només la font d'àudio a A2."
 
-#: ../../cutting_and_assembling/editing.rst:829
+#: ../../cutting_and_assembling/editing.rst:871
 msgid "Press :kbd:`V` (insert)."
 msgstr "Premeu la tecla :kbd:`V` (insereix)."
 
-#: ../../cutting_and_assembling/editing.rst:833
+#: ../../cutting_and_assembling/editing.rst:875
 msgid ""
 "For more information about 3 point editing check :ref:`Advanced Timeline "
 "Editing <advanced_timeline_editing>`"
 msgstr ""
 "Per a més informació sobre l'edició de 3 punts, vegeu :ref:`Edició avançada "
 "de la línia de temps <advanced_timeline_editing>`"
+
+#~ msgid ""
+#~ "Adjust the speed of a clip by pressing :kbd:`CTRL + dragging` a clip in "
+#~ "the timeline."
+#~ msgstr ""
+#~ "Ajusteu la velocitat d'un clip prement :kbd:`Ctrl + arrossegant` un clip "
+#~ "a la línia de temps."
+
+#~ msgid "Doing with right click on the clip see :ref:`change_speed`."
+#~ msgstr ""
+#~ "Per a fer-ho amb el clic dret sobre el clip, vegeu :ref:`change_speed`."
+
+#~ msgid "1a. :ref:`track_compositing_none`"
+#~ msgstr "1 - a. :ref:`track_compositing_none`"
+
+#~ msgid "1b. :ref:`track_compositing_preview`"
+#~ msgstr "1 - b. :ref:`track_compositing_preview`"
+
+#~ msgid "1c. :ref:`track_compositing_hq`"
+#~ msgstr "1 - c. :ref:`track_compositing_hq`"
+
+# skip-rule: t-acc_obe
+#~ msgid ""
+#~ "Use timeline zone |timeline-use-zone-on| / Do not use timeline zone |"
+#~ "timeline-use-zone-off| for insert (toggles). See :doc:`/tips_and_tricks/"
+#~ "useful_info/insert_overwrite_advanced_timeline_editing` for more details."
+#~ msgstr ""
+#~ "Usa una zona de la línia de temps |timeline-use-zone-on| / No usa una "
+#~ "zona de la línia de temps |timeline-use-zone-off| per a inserir "
+#~ "(commutable). Per a més detalls, vegeu :doc:`/tips_and_tricks/useful_info/"
+#~ "insert_overwrite_advanced_timeline_editing`."
+
+# skip-rule: t-acc_obe
+#~ msgid ""
+#~ "Overwrite Clip Zone in Timeline. See :doc:`/tips_and_tricks/useful_info/"
+#~ "insert_overwrite_advanced_timeline_editing` for more details."
+#~ msgstr ""
+#~ "Sobreescriu la zona del clip a la línia de temps. Per a més detalls, "
+#~ "vegeu :doc:`/tips_and_tricks/useful_info/"
+#~ "insert_overwrite_advanced_timeline_editing`."

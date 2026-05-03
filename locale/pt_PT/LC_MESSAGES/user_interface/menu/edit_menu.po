@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-05-02 01:58+0000\n"
 "PO-Revision-Date: 2023-05-31 10:44+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -50,34 +50,38 @@ msgid ":ref:`edit_redo`"
 msgstr ""
 
 #: ../../user_interface/menu/edit_menu.rst:43
-msgid ":ref:`edit_cut`"
+msgid ":ref:`clear_undo_history`"
 msgstr ""
 
 #: ../../user_interface/menu/edit_menu.rst:44
-msgid ":ref:`edit_copy`"
+msgid ":ref:`edit_cut`"
 msgstr ""
 
 #: ../../user_interface/menu/edit_menu.rst:45
-msgid ":ref:`edit_paste`"
+msgid ":ref:`edit_copy`"
 msgstr ""
 
 #: ../../user_interface/menu/edit_menu.rst:46
-msgid ":ref:`edit_add_effects`"
+msgid ":ref:`edit_paste`"
 msgstr ""
 
 #: ../../user_interface/menu/edit_menu.rst:47
-msgid ":ref:`edit_paste_effects`"
+msgid ":ref:`edit_add_effects`"
 msgstr ""
 
 #: ../../user_interface/menu/edit_menu.rst:48
+msgid ":ref:`edit_paste_effects`"
+msgstr ""
+
+#: ../../user_interface/menu/edit_menu.rst:49
 msgid ":ref:`edit_remove_effects`"
 msgstr ""
 
-#: ../../user_interface/menu/edit_menu.rst:56
+#: ../../user_interface/menu/edit_menu.rst:57
 msgid "Undo"
 msgstr "Desfazer"
 
-#: ../../user_interface/menu/edit_menu.rst:58
+#: ../../user_interface/menu/edit_menu.rst:59
 #, fuzzy
 #| msgid ""
 #| ":menuselection:`Edit --> Undo` is used to reverse the last change you "
@@ -104,19 +108,23 @@ msgstr ""
 "ícone na **Barra Extra** (:menuselection:`Configuração --> Barras Visíveis`) "
 "ou usando a combinação :kbd:`Ctrl+Z`."
 
-#: ../../user_interface/menu/edit_menu.rst:60
+#: ../../user_interface/menu/edit_menu.rst:61
+#, fuzzy
+#| msgid ""
+#| "To view a navigable list of all the changes which can be undone, see :ref:"
+#| "`Undo_History`."
 msgid ""
 "To view a navigable list of all the changes which can be undone, see :ref:"
-"`Undo_History`."
+"`undo_history`."
 msgstr ""
 "Para ver uma lista navegável de todas as alterações que podem ser anuladas, "
 "consulte :ref:`Undo_History`."
 
-#: ../../user_interface/menu/edit_menu.rst:66
+#: ../../user_interface/menu/edit_menu.rst:67
 msgid "Redo"
 msgstr "Refazer"
 
-#: ../../user_interface/menu/edit_menu.rst:68
+#: ../../user_interface/menu/edit_menu.rst:69
 #, fuzzy
 #| msgid ""
 #| ":menuselection:`Edit --> Redo` reverses the previous `Undo`_ operation. "
@@ -128,11 +136,26 @@ msgstr ""
 "A opção :menuselection:`Editar --> Refazer` reverte a operação :`Desfazer`_ "
 "anterior. A combinação de teclas por omissão é :kbd:`Ctrl+Shift+Z`."
 
-#: ../../user_interface/menu/edit_menu.rst:74
+#: ../../user_interface/menu/edit_menu.rst:75
+msgid "Clear Undo History"
+msgstr ""
+
+#: ../../user_interface/menu/edit_menu.rst:79
+msgid ""
+":menuselection:`Menu --> Edit --> Clear Undo History` clears the undo "
+"history and will free the undo operation in memory for the current project. "
+"It will discard all undo history, so you cannot undo anymore."
+msgstr ""
+
+#: ../../user_interface/menu/edit_menu.rst:81
+msgid "For more information see :ref:`undo_history`."
+msgstr ""
+
+#: ../../user_interface/menu/edit_menu.rst:86
 msgid "Cut"
 msgstr ""
 
-#: ../../user_interface/menu/edit_menu.rst:78
+#: ../../user_interface/menu/edit_menu.rst:90
 #, fuzzy
 #| msgid ""
 #| "Copies a clip selected in the timeline to the clipboard. The default "
@@ -154,11 +177,11 @@ msgstr ""
 "a opção `Colar os Efeitos`_ para colar apenas os efeitos do 'clip' copiado "
 "para um 'clip' diferente."
 
-#: ../../user_interface/menu/edit_menu.rst:84
+#: ../../user_interface/menu/edit_menu.rst:96
 msgid "Copy"
 msgstr "Copiar"
 
-#: ../../user_interface/menu/edit_menu.rst:86
+#: ../../user_interface/menu/edit_menu.rst:98
 msgid ""
 "Copies a clip selected in the timeline to the clipboard. The default "
 "keyboard shortcut is :kbd:`Ctrl+C`. It also copies the effects attached to "
@@ -173,11 +196,11 @@ msgstr ""
 "a opção `Colar os Efeitos`_ para colar apenas os efeitos do 'clip' copiado "
 "para um 'clip' diferente."
 
-#: ../../user_interface/menu/edit_menu.rst:92
+#: ../../user_interface/menu/edit_menu.rst:104
 msgid "Paste"
 msgstr "Colar"
 
-#: ../../user_interface/menu/edit_menu.rst:94
+#: ../../user_interface/menu/edit_menu.rst:106
 msgid ""
 "Pastes an existing clip in the clipboard into a different spot on the "
 "timeline (where the playhead is, to be exact). The default keyboard shortcut "
@@ -187,13 +210,13 @@ msgstr ""
 "linha temporal (no cursor de reprodução, para ser mais exacto). A combinação "
 "de teclas predefinida é a :kbd:`Ctrl+V`."
 
-#: ../../user_interface/menu/edit_menu.rst:100
+#: ../../user_interface/menu/edit_menu.rst:112
 #, fuzzy
 #| msgid "Paste Effects"
 msgid "Add Effects"
 msgstr "Colar os Efeitos"
 
-#: ../../user_interface/menu/edit_menu.rst:102
+#: ../../user_interface/menu/edit_menu.rst:114
 msgid ""
 "This menu item will open a flyout with all the effect categories from which "
 "you can then select an effect to be added to the track effect stack. See "
@@ -201,11 +224,11 @@ msgid ""
 "documentation."
 msgstr ""
 
-#: ../../user_interface/menu/edit_menu.rst:108
+#: ../../user_interface/menu/edit_menu.rst:120
 msgid "Paste Effects"
 msgstr "Colar os Efeitos"
 
-#: ../../user_interface/menu/edit_menu.rst:110
+#: ../../user_interface/menu/edit_menu.rst:122
 msgid ""
 "You need to have selected a clip and copied it first. Then select another "
 "clip or a group of clips. **Paste Effects** then pastes just the effects "
@@ -217,13 +240,13 @@ msgstr ""
 "depois irá colar apenas os efeitos do 'clip' seleccionado anteriormente para "
 "o novo 'clip' ou grupo de 'clips' seleccionado."
 
-#: ../../user_interface/menu/edit_menu.rst:116
+#: ../../user_interface/menu/edit_menu.rst:128
 #, fuzzy
 #| msgid "Paste Effects"
 msgid "Remove Effects"
 msgstr "Colar os Efeitos"
 
-#: ../../user_interface/menu/edit_menu.rst:118
+#: ../../user_interface/menu/edit_menu.rst:130
 msgid "Deletes all effects from the selected clip."
 msgstr ""
 

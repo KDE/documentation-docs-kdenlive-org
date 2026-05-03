@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 02:02+0000\n"
+"POT-Creation-Date: 2026-05-02 01:58+0000\n"
 "PO-Revision-Date: 2026-01-01 21:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -48,34 +48,40 @@ msgid ":ref:`edit_redo`"
 msgstr ":ref:`edit_redo`"
 
 #: ../../user_interface/menu/edit_menu.rst:43
+#, fuzzy
+#| msgid ":ref:`edit_undo`"
+msgid ":ref:`clear_undo_history`"
+msgstr ":ref:`edit_undo`"
+
+#: ../../user_interface/menu/edit_menu.rst:44
 msgid ":ref:`edit_cut`"
 msgstr ":ref:`edit_cut`"
 
-#: ../../user_interface/menu/edit_menu.rst:44
+#: ../../user_interface/menu/edit_menu.rst:45
 msgid ":ref:`edit_copy`"
 msgstr ":ref:`edit_copy`"
 
-#: ../../user_interface/menu/edit_menu.rst:45
+#: ../../user_interface/menu/edit_menu.rst:46
 msgid ":ref:`edit_paste`"
 msgstr ":ref:`edit_paste`"
 
-#: ../../user_interface/menu/edit_menu.rst:46
+#: ../../user_interface/menu/edit_menu.rst:47
 msgid ":ref:`edit_add_effects`"
 msgstr ":ref:`edit_add_effects`"
 
-#: ../../user_interface/menu/edit_menu.rst:47
+#: ../../user_interface/menu/edit_menu.rst:48
 msgid ":ref:`edit_paste_effects`"
 msgstr ":ref:`edit_paste_effects`"
 
-#: ../../user_interface/menu/edit_menu.rst:48
+#: ../../user_interface/menu/edit_menu.rst:49
 msgid ":ref:`edit_remove_effects`"
 msgstr ":ref:`edit_remove_effects`"
 
-#: ../../user_interface/menu/edit_menu.rst:56
+#: ../../user_interface/menu/edit_menu.rst:57
 msgid "Undo"
 msgstr "Скасувати"
 
-#: ../../user_interface/menu/edit_menu.rst:58
+#: ../../user_interface/menu/edit_menu.rst:59
 msgid ""
 ":menuselection:`Edit --> Undo` is used to reverse the last change you made "
 "or operation you performed in Kdenlive.  If you have made multiple changes "
@@ -94,19 +100,23 @@ msgstr ""
 "menuselection:`Меню --> Параметри --> Показані панелі`) або типового "
 "клавіатурного скорочення :kbd:`Ctrl+Z`."
 
-#: ../../user_interface/menu/edit_menu.rst:60
+#: ../../user_interface/menu/edit_menu.rst:61
+#, fuzzy
+#| msgid ""
+#| "To view a navigable list of all the changes which can be undone, see :ref:"
+#| "`Undo_History`."
 msgid ""
 "To view a navigable list of all the changes which can be undone, see :ref:"
-"`Undo_History`."
+"`undo_history`."
 msgstr ""
 "Щоб переглянути список усіх змін, які можна скасувати, скористайтеся :ref:"
 "`панеллю журналу скасувань <Undo_History>`."
 
-#: ../../user_interface/menu/edit_menu.rst:66
+#: ../../user_interface/menu/edit_menu.rst:67
 msgid "Redo"
 msgstr "Повторити"
 
-#: ../../user_interface/menu/edit_menu.rst:68
+#: ../../user_interface/menu/edit_menu.rst:69
 msgid ""
 ":menuselection:`Menu --> Edit --> Redo` reverses the previous `Undo`_ "
 "operation. The default keyboard shortcut is :kbd:`Ctrl+Shift+Z`."
@@ -114,11 +124,26 @@ msgstr ""
 ":menuselection:`Меню --> Зміни --> Повторити` скасовує попередню виконану "
 "дію `Вернути`_. Типовим клавіатурним скороченням є :kbd:`Ctrl+Shift+Z`."
 
-#: ../../user_interface/menu/edit_menu.rst:74
+#: ../../user_interface/menu/edit_menu.rst:75
+msgid "Clear Undo History"
+msgstr ""
+
+#: ../../user_interface/menu/edit_menu.rst:79
+msgid ""
+":menuselection:`Menu --> Edit --> Clear Undo History` clears the undo "
+"history and will free the undo operation in memory for the current project. "
+"It will discard all undo history, so you cannot undo anymore."
+msgstr ""
+
+#: ../../user_interface/menu/edit_menu.rst:81
+msgid "For more information see :ref:`undo_history`."
+msgstr ""
+
+#: ../../user_interface/menu/edit_menu.rst:86
 msgid "Cut"
 msgstr "Вирізати"
 
-#: ../../user_interface/menu/edit_menu.rst:78
+#: ../../user_interface/menu/edit_menu.rst:90
 msgid ""
 "Cuts a clip selected in the timeline to the clipboard. The default keyboard "
 "shortcut is :kbd:`Ctrl+X`. It also copies the effects attached to the clip "
@@ -133,11 +158,11 @@ msgstr ""
 "Скористайтеся пунктом `Вставити ефекти`_, щоб вставити лише ефекти зі "
 "скопійованого кліпу до іншого кліпу або групи кліпів."
 
-#: ../../user_interface/menu/edit_menu.rst:84
+#: ../../user_interface/menu/edit_menu.rst:96
 msgid "Copy"
 msgstr "Копіювати"
 
-#: ../../user_interface/menu/edit_menu.rst:86
+#: ../../user_interface/menu/edit_menu.rst:98
 msgid ""
 "Copies a clip selected in the timeline to the clipboard. The default "
 "keyboard shortcut is :kbd:`Ctrl+C`. It also copies the effects attached to "
@@ -152,11 +177,11 @@ msgstr ""
 "Скористайтеся пунктом `Вставити ефекти`_, щоб вставити лише ефекти зі "
 "скопійованого кліпу до іншого кліпу або групи кліпів."
 
-#: ../../user_interface/menu/edit_menu.rst:92
+#: ../../user_interface/menu/edit_menu.rst:104
 msgid "Paste"
 msgstr "Вставити"
 
-#: ../../user_interface/menu/edit_menu.rst:94
+#: ../../user_interface/menu/edit_menu.rst:106
 msgid ""
 "Pastes an existing clip in the clipboard into a different spot on the "
 "timeline (where the playhead is, to be exact). The default keyboard shortcut "
@@ -166,11 +191,11 @@ msgstr ""
 "столі (якщо точно до місця, де перебуває позиція відтворення). Типовим "
 "клавіатурним скороченням є :kbd:`Ctrl+V`."
 
-#: ../../user_interface/menu/edit_menu.rst:100
+#: ../../user_interface/menu/edit_menu.rst:112
 msgid "Add Effects"
 msgstr "Додати ефекти"
 
-#: ../../user_interface/menu/edit_menu.rst:102
+#: ../../user_interface/menu/edit_menu.rst:114
 msgid ""
 "This menu item will open a flyout with all the effect categories from which "
 "you can then select an effect to be added to the track effect stack. See "
@@ -182,11 +207,11 @@ msgstr ""
 "до стосу ефектів доріжки. Див. також розділ :ref:`Ефекти і фільтри "
 "<effects_and_filters>` документації."
 
-#: ../../user_interface/menu/edit_menu.rst:108
+#: ../../user_interface/menu/edit_menu.rst:120
 msgid "Paste Effects"
 msgstr "Вставити ефекти"
 
-#: ../../user_interface/menu/edit_menu.rst:110
+#: ../../user_interface/menu/edit_menu.rst:122
 msgid ""
 "You need to have selected a clip and copied it first. Then select another "
 "clip or a group of clips. **Paste Effects** then pastes just the effects "
@@ -197,11 +222,11 @@ msgstr ""
 "групу кліпів. Після цього пункт **Вставити ефекти** вставить ефекти з "
 "попередньо позначеного кліпу до нового позначеного кліпу або групи кліпів."
 
-#: ../../user_interface/menu/edit_menu.rst:116
+#: ../../user_interface/menu/edit_menu.rst:128
 msgid "Remove Effects"
 msgstr "Вилучити ефекти"
 
-#: ../../user_interface/menu/edit_menu.rst:118
+#: ../../user_interface/menu/edit_menu.rst:130
 msgid "Deletes all effects from the selected clip."
 msgstr "Вилучає усі ефекти з позначеного кліпу."
 
