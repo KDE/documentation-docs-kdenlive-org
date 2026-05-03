@@ -812,11 +812,13 @@ gettext_compact = False     # optional.
 
 # Possible variables see here: https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-epub-output
 
+# Default is the value of "project". Changed to have a static name, so in index.rst the EBPU link is working.
+epub_basename = 'KdenliveManual'
+
 # The sphinx_rtd_theme is primarily designed for HTML output and is not inherently designed to format EPUB files, 
 # which require a much simpler, structured layout.
 # Use default (or other) for EPUB to ensure stability.
 epub_theme = 'alabaster' # 'sphinxdoc' 
-
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html', '.htaccess', '404.xhtml', '404handler.php', '_static/favicon.ico', '_static/images/favicon.ico', '_static/images/favicon_old.ico']
