@@ -28,7 +28,7 @@ import os
 import subprocess
 
 project = 'Kdenlive {} Manual'.format(kdenlive_version)
-description = 'The official Kdenlive Documentation'
+description = 'The Official Kdenlive Documentation'
 copyright = 'licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise'
 author = 'Kdenlive Community'
 
@@ -814,6 +814,14 @@ gettext_compact = False     # optional.
 
 # Default is the value of "project". Changed to have a static name, so in index.rst the EBPU link is working.
 epub_basename = 'KdenliveManual'
+
+#The description of the document. It is used in the metadata of the EPUB file and may be displayed by EPUB readers.
+epub_description = description
+
+epub_publisher = 'https://www.kdenlive.org'
+
+# The unique identifier of the text. This can be a ISBN number or the project homepage.
+epub_identifier = epub_publisher
 
 # The sphinx_rtd_theme is primarily designed for HTML output and is not inherently designed to format EPUB files, 
 # which require a much simpler, structured layout.
