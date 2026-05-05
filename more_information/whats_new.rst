@@ -88,6 +88,7 @@ What's New
    * Added animated preview for :ref:`transition and composition <compositions-effects_tab>`
    * Added change speed of multiple clips in :ref:`timeline <change_speed_of_a_clip>`
    * Added "Add to Project Bin" option in :ref:`render widget <render-more_options_parallel_processing>`
+   * Changed minimum MacOS to :ref:`version 13 (Ventura) <installation>`
 
 
 .. versionadded:: 25.12 (see 25.12_ release notes)

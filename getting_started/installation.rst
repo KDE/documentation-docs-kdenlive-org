@@ -69,7 +69,7 @@ Minimum System Requirements
 
 - 64-bit Windows 10 (1809 or later)\ [2]_ or newer
 
-- Apple macOS 12 (Monterey)\ [1]_ or newer and on Silicon M-Series
+- Apple macOS 13 (Ventura)\ [1]_ or newer and on Silicon M-Series
 
 - 64-bit Linux
 
@@ -255,6 +255,12 @@ You can disable this function in :menuselection:`Menu --> Settings --> Configure
 
 ----
 
-.. [1] Due to QT6 compatibility the build system was switched to C++17 in January 2022 so minimum macOS requirement is macOS 10.15. With update to Qt6 in February 2024 the minimum macOS requirement is macOS 11.
+.. [1] Due to QT6 compatibility the build system was switched to C++17 in January 2022 so minimum macOS requirement is macOS 10.15 (Catalina).
+   
+   With update to Qt6 in February 2024 the minimum macOS requirement is macOS 11 (Big Sur).
+   
+   With update to QT6.09 the minimum requirement is macOS 12 (Monterey).
+   
+   With update to QT6.10 the minimum requirement is macOS 13 (Ventura).
 
 .. [2] With update to Qt6 in February 2024 the minimum requirement is Windows 10 (1809 or later).
