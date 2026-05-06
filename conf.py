@@ -826,7 +826,8 @@ epub_identifier = epub_publisher
 # The sphinx_rtd_theme is primarily designed for HTML output and is not inherently designed to format EPUB files, 
 # which require a much simpler, structured layout.
 # Use default (or other) for EPUB to ensure stability.
-epub_theme = 'alabaster' # 'sphinxdoc' 
+# Set it to `epub` to make sure text wrapping is working and the Copyright get not added on each page.
+epub_theme = 'epub' # 'alabaster' 'sphinxdoc' 
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html', '.htaccess', '404.xhtml', '404handler.php', '_static/favicon.ico', '_static/images/favicon.ico', '_static/images/favicon_old.ico']
