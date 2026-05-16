@@ -847,3 +847,6 @@ epub_max_image_width = 3840
 
 # Control whether to display URL addresses.
 epub_show_urls = "no"
+
+# Add an index to the EPUB document.
+epub_use_index = False
