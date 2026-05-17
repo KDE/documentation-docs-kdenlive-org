@@ -198,12 +198,12 @@ This is a text in the GUI :guilabel:`Play` (including button labels, window titl
    This feature was **exchanged** or **removed** in version 23.04
 
 
-.. Open a link in a new window in reStructuredText (attribute target="_blank")
+.. Open a link in a new tab in reStructuredText (attribute target="_blank")
    (see https://stackoverflow.com/questions/11716781/open-a-link-in-a-new-window-in-restructuredtext)
    The attribute rel="noreferrer" is added by to EPUB builder automatically to prevent security issues
    when using target="_blank" (see https://web.dev/external-anchors-use-rel-noopener/)
 
-Web page link open in a new window |kde| 
+Web page link open in a new tab |kde| 
 
 .. |kde| raw:: html
 
