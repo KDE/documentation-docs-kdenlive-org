@@ -143,10 +143,14 @@ A special way to add objects is to use :doc:`patterns </titles_and_graphics/titl
 The objects are placed on top of each other following the sequence in which they were created. If you need to bring an object/item forward that was created in the early stages, use the :guilabel:`Z-Index` field or click on the respective icon (|object-order-raise|, |object-order-lower|, |object-order-front|, |object-order-back|) in the stack toolbar. Likewise, you can also send an object/item backwards.
 
 
+.. .. versionadded:: 26.08 Copy & paste elements
+
+When moving text, shapes and objects it snaps to other elements (edges and center) and the frame edge and safe zone
+
 .. _title-select_objects:
 
-Select Objects
-==============
+Select Objects and Copy & Paste
+===============================
 
 Click on |transform-move| :guilabel:`Select/Move` or use the keyboard shortcut :kbd:`Alt+S` to be able to select the different objects.
 
@@ -158,6 +162,8 @@ The same logic can be applied for image objects (|kdenlive-select-images| :guila
 
 Click on |edit-select-none| :guilabel:`Deselect` or press :kbd:`Ctrl+Shift+A` to deselect all objects.
 
+You can copy and paste the selected object(s) using the standard keyboard shortcuts :kbd:`Ctrl+C` and :kbd:`Ctrl+V`. 
+The pasted object(s) will be placed on the bottom right of the original object(s).
 
 .. _title-move_objects:
 
