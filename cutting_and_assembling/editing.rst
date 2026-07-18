@@ -276,6 +276,8 @@ There is a toolbar between monitors and the timeline that controls various aspec
       
       Changes the order in which tracks are displayed to separate audio and video tracks with the audio tracks in reverse order.  For example, from the bottom of the timeline to the top of the timeline: A1, A2, A3, V1, V2, V3
 
+   You can individually reorder either video tracks or audio tracks. Details are in :ref:`reordering_tracks`.
+
 2. **Timeline Edit Mode** drop down
    
    These same settings can be found under the :menuselection:`Tool` menu.
