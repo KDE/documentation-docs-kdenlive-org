@@ -178,7 +178,29 @@ Rotation of an object can be done by entering the desired angle of rotation dire
 
 The :guilabel:`Zoom` parameter is an easy way to change the size of an object without having to change the :guilabel:`W` and :guilabel:`H` parameters.
 
-Alignment to the project dimensions is possible using the icons in the toolbar:
+.. .. versionadded:: 26.08 Add snapping in the title editor
+
+When moving text, shapes and objects it snaps to other elements (edges and center) and the frame edge and safe zone 
+(see Alignment below) in the title editor. This makes it easier to align objects with each other. You can disable 
+snapping by holding :kbd:`Ctrl` while moving an object.
+
+.. rst-class:: clear-both
+
+.. figure:: /images/titles_and_graphics/title_snapping_object.webp
+   :width: 400px
+   :figwidth: 400px
+
+   Snapping to other elements shows a dotted short line
+
+.. figure:: /images/titles_and_graphics/title_snapping_frame.webp
+   :width: 500px
+   :figwidth: 500px
+
+   Snapping to frame edge and safe zone shows a continuous line
+
+.. rst-class:: clear-both
+
+Alignment to the project dimensions (frame edge and safe zone) is also possible using the icons in the toolbar:
 
 * |align-horizontal-left| :guilabel:`Align left` or |align-horizontal-right| :guilabel:`Align right` moves the selected object towards the left or right edge stopping at the edges of each of the safety boxes with each click on the icon.
 * |align-vertical-top| :guilabel:`Align top` or |align-vertical-bottom| :guilabel:`Align bottom` moves the selected object towards the top or bottom edge stopping at the edges of each of the safety boxes with each click on the icon.
