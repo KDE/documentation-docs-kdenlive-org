@@ -339,6 +339,34 @@ In order to add a track, right-click anywhere in the track header area. In the *
 
 .. rst-class:: clear-both
 
+
+.. .. versionadded:: 26.08 reordering tracks
+
+.. _reordering_tracks:
+
+Reordering Tracks
+~~~~~~~~~~~~~~~~~
+
+Tracks can only be reordered between same type (audio or video). To reorder tracks, right-click anywhere 
+in the track header area and select :guilabel:`Move Track Up` or :guilabel:`Move Track Down`. 
+You can undo the reordering by using :kbd:`Ctrl+Z` or :menuselection:`Menu --> Edit --> Undo`.
+
+Grouped clips are kept together when reordering tracks.
+
+Compositions attached to a clip will be moved along with the clip but their settings will be changed to automatic. 
+If a clip was switched to automatic or background, it remains unchanged.
+
+.. container:: clear-both
+
+   .. figure:: /images/timeline-reorder_tracks-2608.webp
+            
+      Reordering tracks: Use :guilabel:`Move Track Up` or :guilabel:`Move Track Down`
+
+.. rst-class:: clear-both
+
+You can still mix and split tracks by using :ref:`this functions <timeline_toolbar2>` in the timeline toolbar.
+
+
 .. _deleting_tracks:
 
 Deleting Tracks
