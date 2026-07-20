@@ -50,6 +50,19 @@ The shape properties can be set in the **Properties** tab.
 
 :Border width: A value of zero (0) means no border; higher values create a border (measured in pixel).
 
+.. .. versionadded:: 26.08 rounded corners on rectangles
+
+.. rubric:: Rounded Corners on Rectangles
+
+Select a rectangle, move the mouse towards the top left corner and the mouse icon changes to a pointing finger. Now you can pull in the corner creating a rounded corner.
+
+.. figure:: /images/titles_and_graphics/title-rounded_corners-2608.webp
+   :width: 450px
+   :figwidth: 450px
+
+   Pull in the corner to create a rounded corner
+
+:Corner Radius: Enter a value for the radius of the rounded corner. A value of zero (0) means no rounding; higher values create a more rounded corner.
 
 .. rubric:: Object Zooming and Rotating
 
