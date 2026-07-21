@@ -20,7 +20,7 @@
 Transform
 =========
 
-.. figure:: /images/effects_and_compositions/effects-transform-2504.webp
+.. figure:: /images/effects_and_compositions/effects-transform-2608.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -71,12 +71,12 @@ This effect/filter allows transformation and compositing of the clip at the same
    * - Distort
      - Switch
      - If checked, allows the non-uniform stretching of the clip
-   * - Rotate from center
-     - Switch
-     - If checked, process the rotation from center, otherwise from top left corner
    * - X / Y / W / H / Size
      - Various
      - This is where the action is for the transformation
+   * - Rotation Point
+     - Various
+     - Defines the point around which the clip will be rotated showed by the rotation anchor indicator. You can choose any percentage even minus values where the rotation point will go outside of the frame. The default is the center of the clip. 0%, 0% = top left. 0%, 100% = bottom left. 100%, 0% = top right. 100%, 100% = bottom right.
    * - Rotation
      - Integer
      - Angle for rotation. Clicking |rotate| increments the value by 90 degrees. After reaching 360 it wraps to -360 and continues counting up with each click.
