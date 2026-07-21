@@ -53,7 +53,8 @@ Following procedures add a sequence:
 
   * :doc:`Project bin</project_and_asset_management/project_bin>`: Either from the drop down menu or right click in the bin and choose :menuselection:`add sequence ...`
   * Timeline: From the timeline tab bar click on the plus icon :guilabel:`Add Timeline Sequence`, :ref:`add_sequence_from_timeline_tab_bar`
-  * Timeline: Select clips and choose :menuselection:`Timeline --> Create Sequence from selection`, :ref:`Create_nested_sequence`
+  * Timeline: Select clips and choose :menuselection:`Sequence --> Create Sequence from selection`. Or use the :ref:`context menu <right_click_menu>` in the timeline and choose :guilabel:`Create Sequence from Selection`. :ref:`Create_nested_sequence`. 
+  * Timeline: Select clips and choose :menuselection:`Sequence --> Copy Selection to New Sequence`. Or use the :ref:`context menu <right_click_menu>` in the timeline and choose :guilabel:`Copy Selection to New Sequence`. This will create a new sequence with the selected clips and leave the original clips in place. 
 
 * **Keyboard**
 
@@ -80,7 +81,7 @@ After adding a 2nd sequence, the timeline tab bar shows up and sequence tabs app
 Create a nested sequence
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Adds the clips which are currently selected in the timeline to a new sequence clip. The selected clips get exchanged in place by the new created sequence and the new created sequence is stored in the :ref:`default sequence folder <default_sequence_folder>`.
+Adds the clips which are currently selected (minimum two clips) in the timeline to a new sequence clip. The selected clips get exchanged in place by the new created sequence and the new created sequence is stored in the :ref:`default sequence folder <default_sequence_folder>`.
 
 .. figure:: /images/cutting_and_assembling/Create_nested_sequence.webp
    :scale: 75%
