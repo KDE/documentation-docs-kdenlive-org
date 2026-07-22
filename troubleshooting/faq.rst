@@ -153,7 +153,7 @@ If you used the :doc:`/effects_and_filters/video_effects/transform_distort_persp
 How to return normal sound after I changed the speed of a clip?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It looks like you forgot to check the :guilabel:`Pitch compensation` option in the :ref:`change_speed` dialog window. You may be able to undo the speed change or reverse the speed change by doing another speed change but in the opposite direction.
+It looks like you forgot to check the :guilabel:`Pitch compensation` option in the :ref:`Change Speed <change_speed>` dialog window. You may be able to undo the speed change or reverse the speed change by doing another speed change but in the opposite direction.
 
 .. to do: update link to :ref:`effects-rubberband`
 

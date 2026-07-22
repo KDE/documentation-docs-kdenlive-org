@@ -189,7 +189,7 @@ In the timeline select the clip or multiple clips for which you want to change t
 
 Adjust the speed by pressing :kbd:`CTRL` and dragging with the LMB on one of the selected clips. The clip on which you change the speed determines the change for all selected clips. Once the mouse is released the speed change is shown on all selected clips.
 
-Doing with right click on one of the selected clips see :ref:`change_speed`. If enabled, pitch compensation is preserved for all selected clips.
+Doing with right click on one of the selected clips see :ref:`Change Speed <change_speed>`. If enabled, pitch compensation is preserved for all selected clips.
 
 If there is not enough space on a track to expand the clips, an error message is shown in the status bar.
 
