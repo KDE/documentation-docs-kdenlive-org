@@ -21,7 +21,7 @@ Speed
 .. attention::
 
    .. deprecated:: 21.04
-      Is not available anymore. Use :ref:`change_speed` instead
+      Is not available anymore. Use :ref:`Change Speed <change_speed>` instead
 
 
 

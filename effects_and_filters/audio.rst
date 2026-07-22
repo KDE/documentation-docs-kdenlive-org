@@ -29,7 +29,9 @@ Audio Mixer
 
 .. .. versionchanged:: 25.08 Revamp audio mixer and levels
 
-.. .. versionchanged:: 25.12 Clipping indicator added
+.. .. versionadded:: 25.12 Clipping indicator added
+
+.. .. versionadded:: 26.08 Add Shift+Click for additive soloing 
 
 
 .. figure:: /images/user_interface/effects_and_filter-audio_mixer-2512.webp
@@ -38,7 +40,7 @@ The audio mixer has following functions for each channel:
 
 :1:	Channel number (audio track number or name) and Master channel
 :2:	Mute an audio channel
-:3:	Solo an audio channel
+:3:	Solo an audio channel. Single click for exclusive solo an audio channel. Use :kbd:`Shift+Click` for additive soloing.
 :4:	:ref:`Record audio <audio-recording>` directly on the track of the related audio channel
 :5:	Opens the effect stack of the related audio channel
 :6:   Toggles the audio track controls on and off
