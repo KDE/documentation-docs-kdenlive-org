@@ -222,6 +222,17 @@ To set this, go to the :guilabel:`Layer` tab in the :ref:`subtitle-manager`. Cli
 
 This feature is particularly useful when working with multiple speakers in a subtitle file, as it allows each speaker to have a distinct style effortlessly.
 
+
+.. .. versionadded:: 26.08 detect embedded subtitle streams in MKV files
+
+.. _subtitle-mkv:
+
+MKV Subtitles
+-------------
+
+When loading an MKV file you see in the tab :guilabel:`Clip Properties` how many :guilabel:`Subtitle Streams` are available in that file.
+
+
 .. _subtitle-import_export:
 
 Import and Export Subtitles
