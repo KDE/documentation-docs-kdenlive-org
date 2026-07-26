@@ -680,7 +680,7 @@ Switches Timeline Effects on or off. Click on the :guilabel:`Master` button in t
 Show Video Thumbnails
 ---------------------
 
-Switches on or off the display of video thumbnails for the clips in the Timeline. Use the track right-click menu item :guilabel:`Thumbnails` to select which thumbnails will be displayed.
+Switches on or off the display of video thumbnails for the clips in the Timeline (how to change the video clip colors see :ref:`Configure Clip Colors <configure_clip_colors>`). Use the :ref:`configurable_tracks`, item :guilabel:`Thumbnails` to select which thumbnails will be displayed.
 
 
 .. _timeline-show_audio_thumbnails:
@@ -688,7 +688,7 @@ Switches on or off the display of video thumbnails for the clips in the Timeline
 Show Audio Thumbnails
 ---------------------
 
-Switches on or off the display of the audio waveform in audio tracks.
+Switches on or off the display of the audio waveform in audio tracks. How to change the audio clip colors see :ref:`Configure Clip Colors <configure_clip_colors>`.
 
 
 .. _timeline-show_markers_comments:

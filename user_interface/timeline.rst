@@ -347,7 +347,7 @@ Track Right Click Menu
 
 :guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more details.
 
-:guilabel:`Thumbnails` you can either show the :guilabel:`In Frame` the :guilabel:`In/Out Frames`, :guilabel:`All Frames` or :guilabel:`No Thumbnails`.
+:guilabel:`Thumbnails` you can either show the :guilabel:`In Frame` the :guilabel:`In/Out Frames`, :guilabel:`All Frames` or :guilabel:`No Thumbnails` (how to change the colors see :ref:`Configure Clip Colors <configure_clip_colors>`).
 
 
 .. rubric:: Audio Track

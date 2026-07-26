@@ -19,12 +19,11 @@
    :license: Creative Commons License SA 4.0
 
 .. .. versionadded:: 22.08 Monitor overlay color
-
 .. .. versionchanged:: 22.12 Moved "Monitor background color" from tab Playback
-
 .. .. versionadded:: 22.12 Guides and Markers Categories
-
 .. .. versionchanged:: 25.12 Replace "Guide" with "Marker"
+.. .. versionadded:: 26.08 Add configuration of colors for clip types (video, audio, title, image, slideshow)
+
 
 
 Colors and Markers
@@ -34,7 +33,7 @@ This section is used to configure the colors used for audio thumbnails, the moni
 
 You can also add, edit, and delete the categories and colors used for :doc:`Timeline Markers </cutting_and_assembling/guides>` and :doc:`Markers </cutting_and_assembling/markers>`.
 
-.. figure:: /images/getting_started/configure_colors+markers_2512.webp
+.. figure:: /images/getting_started/configure_colors+markers_2608.webp
    :width: 700px
    :figwidth: 700px
 
@@ -55,3 +54,19 @@ Select a category and click on :guilabel:`Edit category` or simply double-click 
 Click :guilabel:`Delete category` to delete the selected category.
 
 .. warning:: The selected category will be deleted without any further confirmation and will be effective immediately without the need to click on :guilabel:`Apply`. Even clicking :guilabel:`Cancel` or :guilabel:`Restore Defaults` will not bring it back!
+
+.. _configure_clip_colors:
+
+The following options are used to configure the colors for different clip types in the timeline. When you choose :guilabel:`No Thumbnails` in the track header or in the :ref:`Sequence Menu <timeline-show_video_thumbnails>` you see below selected colors (see the section :ref:`configurable_tracks`).
+
+:guilabel:`Video clip color` Click on the color bar to change the color of video clips in the timeline.
+
+:guilabel:`Audio clip color` Click on the color bar to change the color of audio clips in the timeline.
+
+:guilabel:`Title clip color` Click on the color bar to change the color of title clips in the timeline.
+
+:guilabel:`Image clip color` Click on the color bar to change the color of image clips in the timeline.
+
+:guilabel:`Slideshow clip color` Click on the color bar to change the color of slideshow clips in the timeline.
+
+:guilabel:`Reset clip colors to default` Click on this button to reset all colors to their default values.
