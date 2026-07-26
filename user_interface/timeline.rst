@@ -418,6 +418,7 @@ If a clip was switched to automatic or background, it remains unchanged.
 
 You can still mix and split tracks by using :ref:`this functions <timeline_toolbar2>` in the timeline toolbar.
 
+.. .. versionadded:: 26.08 Reordering tracksWarn before deleting tracks that contain clips
 
 .. _deleting_tracks:
 
@@ -425,8 +426,9 @@ Deleting Tracks
 ~~~~~~~~~~~~~~~
 
 In order to delete a track right-click anywhere in the track header area. In the **Delete Track** dialog window select the tracks you want to delete.
+Kdenlive warns you if there are clips on the track to be deleted. You can still delete the track and all its clips or cancel the operation.
 
-.. figure:: /images/kdenlive_timeline_delete_track.webp
+.. figure:: /images/timeline-delete-track-2608.webp
 
 
 .. _resizing_tracks:
