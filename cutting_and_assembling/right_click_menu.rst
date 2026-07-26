@@ -67,7 +67,9 @@ This is the context menu that appears when you right-click on a clip in the time
 
 .. rst-class:: clear-both
 
-:guilabel:`Replace with Bin Selection` will replace the selected clip with the clip that is selected in the project bin. If no clip is selected in the project bin it allows you to open the dialog for :guilabel:`Import New Clip`.
+.. .. versionchanged:: 26.08 renames Replace Timeline Clip to Replace with Project bin selection
+
+:guilabel:`Replace with Bin Selection` will replace the selected clip with the clip that is selected in the project bin. A dialog box appear for confirming the replacement. If no clip is selected in the project bin it allows you to open the dialog for :guilabel:`Import New Clip`.
 
 :guilabel:`Save Clip Part to Bin` save a specific cut section from the timeline back into your Project Bin as an organized sub-clip.
 
