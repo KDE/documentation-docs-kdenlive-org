@@ -128,6 +128,8 @@ Doing speed change of a clip with the mouse see: :ref:`change_speed_of_a_clip`
 :guilabel:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition.
 
 
+.. _empty_space_in_timeline:
+
 Empty Space in Timeline
 -----------------------
 
@@ -147,7 +149,9 @@ A different menu appears if you click in empty space in the timeline.
 
 :guilabel:`Edit Timeline Marker` will allow you to edit the timeline marker label.
 
-:guilabel:`Identify Gaps` will open a sub-menu to either including :guilabel:`All Tracks` or on the :guilabel:`Selected Track` to create timeline range marker where a gap/space exists.
+.. .. versionadded:: 26.08 identify gaps in the timeline
+
+:guilabel:`Identify Gaps` will open a sub-menu to either including :guilabel:`All Tracks` or on the :guilabel:`Selected Track` to create timeline range marker where a gap/space in the timeline exists.
 
 :guilabel:`Go to Marker` will pop up a sub-menu with a list of your timeline markers and will move the timeline position marker to that guide.
 
