@@ -538,6 +538,7 @@ There are the following differences:
 
 * You cannot set the duration of the space to be removed – all the empty space between clips is removed. All the clips and transitions to the right of the playhead or mouse cursor will be shifted left until the first clip encounters another clip or the beginning of the track.
 
+If you like to create timeline range markers where only gaps between clips in the timeline exist, you can use the :ref:`identify_timeline_gaps` function.
 
 .. _timeline-current_track:
 

@@ -119,6 +119,18 @@ In the Edit Marker window you can enable :guilabel:`Range Marker` which allows y
 
 .. rst-class:: clear-both
 
+.. .. versionadded:: 26.08 add timeline markers at gaps
+
+.. _identify_timeline_gaps:
+
+Identify Timeline Gaps
+~~~~~~~~~~~~~~~~~~~~~~
+
+Add timeline range markers at gaps in the timeline. It automatically places a timeline range markers at the start 
+of every gap between video clips in the timeline. Audio-only tracks are ignored. If no gaps are found an 
+info message "No gaps found in timeline" is shown. See under :ref:`empty_space_in_timeline` or 
+:ref:`configurable_tracks` under :guilabel:`Identify Gaps`. 
+
 
 .. _managing_guides:
 

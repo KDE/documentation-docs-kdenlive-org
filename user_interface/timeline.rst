@@ -295,6 +295,7 @@ Track Header
 .. .. versionadded:: 25.08 Hide all tracks Shift+Ctrl+H
 .. .. versionchanged:: 25.12 move Zoom Audio Waveforms to status bar
 
+
 This area shows some options for a track:
 
 .. container:: clear-both
@@ -321,6 +322,57 @@ This area shows some options for a track:
 :kbd:`arrow up/down` goes to the next track
 
 .. rst-class:: clear-both
+
+
+.. _configurable_tracks:
+
+Track Right Click Menu
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. .. versionadded:: 19.04.0
+.. .. versionadded:: 26.08 Add timeline range marker at gaps between clips
+
+.. rubric:: Video Track
+
+.. figure:: /images/timeline-video_track_right_click-2608.webp
+
+   
+:guilabel:`Insert Track` see :ref:`adding_tracks` for more details.
+
+:guilabel:`Delete Track` see :ref:`deleting_tracks` for more details.
+
+:guilabel:`Move Track Up` or :guilabel:`Move Track Down` see :ref:`reordering_tracks` for more details.
+
+:guilabel:`Fit all Tracks in View` see :ref:`fit_tracks_to_view_height` for more details.
+
+:guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more details.
+
+:guilabel:`Thumbnails` you can either show the :guilabel:`In Frame` the :guilabel:`In/Out Frames`, :guilabel:`All Frames` or :guilabel:`No Thumbnails`.
+
+
+.. rubric:: Audio Track
+
+.. figure:: /images/timeline-audio_track_right_click-2608.webp
+
+
+:guilabel:`Insert Track` see :ref:`adding_tracks` for more details.
+
+:guilabel:`Delete Track` see :ref:`deleting_tracks` for more details.
+
+:guilabel:`Move Track Up` or :guilabel:`Move Track Down` see :ref:`reordering_tracks` for more details.
+
+:guilabel:`Fit all Tracks in View` see :ref:`fit_tracks_to_view_height` for more details.
+   
+:guilabel:`Show Record Controls` to record audio direct into the track. More details see :ref:`audio-recording`.
+   
+:guilabel:`Separate Channels` to see each channel of an audio track (i.e stereo, 5.1)
+   
+:guilabel:`Normalize Audio Thumbnails` maximize the audio level peak to -3dB.
+
+:guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more details.
+
+.. rst-class:: clear-both
+
 
 .. _adding_tracks:
 
@@ -375,7 +427,8 @@ Deleting Tracks
 In order to delete a track right-click anywhere in the track header area. In the **Delete Track** dialog window select the tracks you want to delete.
 
 .. figure:: /images/kdenlive_timeline_delete_track.webp
-   
+
+
 .. _resizing_tracks:
 
 Resizing Tracks
@@ -423,43 +476,6 @@ Switch live between two different layout modes (Mixed or Split).
 
 .. figure:: /images/layout-modes.gif
    
-.. _configurable_tracks:
-
-Configurable Tracks
-~~~~~~~~~~~~~~~~~~~
-
-.. .. versionadded:: 19.04.0
-
-.. container:: clear-both
-
-   .. figure:: /images/Configurable_thumbnails.png
-      :align: left
-      
-   **Video track** - You can choose to display either
-   
-   - :guilabel:`In Frame`
-   
-   - :guilabel:`In/Out Frames`
-   
-   - :guilabel:`All Frames` or 
-   
-   - :guilabel:`No Thumbnails`
-
-.. container:: clear-both
-
-   .. figure:: /images/audio-track_right-click.png
-      :align: left
-      
-   **Audio track** - You can enable:
-   
-   - :guilabel:`Show Record Controls` to record audio direct into the track. More details see :ref:`audio-recording`.
-   
-   - :guilabel:`Separate Channels` to see each channel of an audio track (i.e stereo, 5.1)
-   
-   - :guilabel:`Normalize Audio Thumbnails` maximize the audio level peak to -3dB.   
-
-.. rst-class:: clear-both
-
 
 
 .. _loop_playback:
