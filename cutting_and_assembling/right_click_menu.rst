@@ -27,7 +27,7 @@ This is the context menu that appears when you right-click on a clip in the time
 
 :guilabel:`Copy` will copy the clip and selected clips to the clipboard.
 
-??? :guilabel:`Duplicate Clip` will create a copy of the clip and place it on the timeline after the selected clip.
+:guilabel:`Duplicate Clip` will create a copy of the clip and place it on the timeline after the selected clip.
 
 :guilabel:`Paste Effects` will paste only the effects of the last copied clip to the selected clip.  See :ref:`edit_paste_effects`.
 
@@ -91,21 +91,23 @@ The :guilabel:`Markers` sub-menu allows you to add, edit and remove markers from
    :align: right
    :scale: 50%
 
-The :guilabel:`Align to Reference` sub-menu allows you to set either audio or SMPTE-esque timecode to a reference. This is useful if two or more cameras recorded the same scene simultaneously.
+.. _align_to_reference:
 
-:guilabel:`Set Audio Reference` and :guilabel:`Align Audio to Reference` are used to align clips on different tracks in the timeline based on the audio in the tracks. **Kdenlive** can use the almost identical audio track to align the two clips.
+The :guilabel:`Align to Reference` sub-menu allows you to set either audio or SMPTE-esque timecode to a reference. This is useful if two or more cameras recorded the same scene simultaneously. Or when you use it within :ref:`Multicam editing <multicam_tool>`.
 
-:guilabel:`Set Timecode Reference` and :guilabel:`Align Timecode to Reference` are used to align clips on different tracks in the timeline based on the SMPTE-esque timecode in the tracks.
+   :guilabel:`Set Audio Reference` and :guilabel:`Align Audio to Reference` are used to align clips on different tracks in the timeline based on the audio in the tracks. **Kdenlive** can use the almost identical audio track to align the two clips.
 
-   To use these features:
+   :guilabel:`Set Timecode Reference` and :guilabel:`Align Timecode to Reference` are used to align clips on different tracks in the timeline based on the SMPTE-esque timecode in the tracks.
 
-   * Select the clip that you would like to align *to*.
+       To use these features:
 
-   * Right click, select :guilabel:`Set Audio Reference` or :guilabel:`Set Timecode Reference`.
+       * Select the clip that you would like to align *to*.
 
-   * Select all the clips that you would like to get aligned.
+       * Right click, select :guilabel:`Set Audio Reference` or :guilabel:`Set Timecode Reference`.
 
-   * Right-click and select :guilabel:`Align Audio to Reference` or :guilabel:`Align Timecode to Reference`.
+       * Select all the clips that you would like to get aligned.
+
+       * Right-click and select :guilabel:`Align Audio to Reference` or :guilabel:`Align Timecode to Reference`.
 
 .. rst-class:: clear-both
 
