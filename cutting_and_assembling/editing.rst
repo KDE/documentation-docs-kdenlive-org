@@ -664,7 +664,7 @@ Multicam Tool
 .. figure:: /images/multicam.gif
 
    
-The multicam tool allows to cut between several cameras while playback is running. Add your clips in different tracks, but at the same position in the timeline and activate the multicam tool by going to menu :menuselection:`Tool -> Multicam tool`. You may trim the clips in the desired track while the timeline is playing by pressing their corresponding numbers (for track V1, press key :kbd:`1`; for track V2 press key :kbd:`2`, etc…) or simply select the desired track in the project monitor by clicking on it with the mouse.
+The multicam tool allows to cut between several cameras while playback is running. Add your clips in different tracks, but at the same position in the timeline (use either :ref:`audio alignment <align_to_reference>` or right click on a clip in the project bin and :doc:`insert the clip by timecode </project_and_asset_management/project_bin/project_bin_use_context_menu>`) and activate the multicam tool by going to menu :menuselection:`Tool -> Multicam tool`. You may trim the clips in the desired track while the timeline is playing by pressing their corresponding numbers (for track V1, press key :kbd:`1`; for track V2 press key :kbd:`2`, etc…) or simply select the desired track in the project monitor by clicking on it with the mouse.
 
 Select multicam tool will switch on the :ref:`ui-multitrack_view` in the project monitor and set a marker at the current timeline position. You can then seek/play to the wanted position, click on a track view in the project monitor and it will lift all tracks except for the previously active track. You can then repeat seek and click in another track to continue lifting tracks.
 

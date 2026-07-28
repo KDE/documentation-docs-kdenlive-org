@@ -30,6 +30,8 @@
 
 .. |reload_clip| replace:: |view-refresh|\ :guilabel:`Reload Clip`
 
+.. |insert_at_timecode| replace:: :guilabel:`Insert at Timecode`
+
 .. |replace_clip| replace:: |edit-find-replace|\ :guilabel:`Replace Clip`
 
 .. |replace_clip_in_timeline| replace:: |edit-find-replace|\ :guilabel:`Replace Clip in Timeline`
@@ -67,6 +69,7 @@
    This file is being .. include(d):: in project_bin_use.rst and the chapter title designation follows the structure of the parent file. Hence the use of --- and ~~~ as chapter designation
    ====================================================================================================
 
+.. .. versionadded:: 26.08 Insert clips to Timeline using timecode metadata
 
 Context Menu
 ------------
@@ -75,7 +78,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
 
 .. container:: clear-both
 
-   .. figure:: /images/project_and_asset_management/project_bin_context_menu.webp
+   .. figure:: /images/project_and_asset_management/project_bin-context_menu-2608.webp
    
       The context menu for bin items
 
@@ -105,6 +108,9 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
 
 |reload_clip|:
    Reloads the selected clip from the file system. See also the chapter :ref:`reload_clip`.
+
+|insert_at_timecode|:
+   If a clip contains timecode in the metadata (check in :doc:`/project_and_asset_management/project_bin/clip_properties` if this is the case) you can use :guilabel:`Insert at Timecode` and the clip get inserted in the timeline at the timecode position from clips metadata. This feature will be useful for :ref:`multicam editing <multicam_tool>`, making it easier to synchronize clips. There are two ways to insert the video part only: lock the audio track or disable the audio target track.
 
 |replace_clip|:
    Opens your OS file manager. Select the file you want to replace the selected clip with. See also the chapter :ref:`replace_clip`.
