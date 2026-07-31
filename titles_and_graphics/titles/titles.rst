@@ -145,7 +145,7 @@ The objects are placed on top of each other following the sequence in which they
 
 .. .. versionadded:: 26.08 Copy & paste elements
 
-When moving text, shapes and objects it snaps to other elements (edges and center) and the frame edge and safe zone
+When moving text, shapes, and objects, it snaps to other elements (edges and center), the frame edge, and safe zone.
 
 .. _title-select_objects:
 
@@ -186,7 +186,7 @@ The :guilabel:`Zoom` parameter is an easy way to change the size of an object wi
 
 .. .. versionadded:: 26.08 Add snapping in the title editor
 
-When moving text, shapes and objects it snaps to other elements (edges and center) and the frame edge and safe zone 
+When moving text, shapes, and objects, it snaps to other elements (edges and center), the frame edge, and safe zone.
 (see Alignment below) in the title editor. This makes it easier to align objects with each other. You can disable 
 snapping by holding :kbd:`Ctrl` while moving an object.
 

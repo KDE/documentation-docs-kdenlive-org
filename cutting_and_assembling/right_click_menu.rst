@@ -69,13 +69,13 @@ This is the context menu that appears when you right-click on a clip in the time
 
 .. .. versionchanged:: 26.08 renames Replace Timeline Clip to Replace with Project bin selection
 
-:guilabel:`Replace with Bin Selection` will replace the selected clip with the clip that is selected in the project bin. A dialog box appear for confirming the replacement. If no clip is selected in the project bin it allows you to open the dialog for :guilabel:`Import New Clip`.
+:guilabel:`Replace with Bin Selection` will replace the selected clip with the clip that is selected in the project bin. A dialog box appears for confirming the replacement. If no clip is selected in the project bin, it allows you to open the dialog for :guilabel:`Import New Clip`.
 
-:guilabel:`Save Clip Part to Bin` save a specific cut section from the timeline back into your Project Bin as an organized sub-clip.
+:guilabel:`Save Clip Part to Bin` saves a specific cut section from the timeline back into your Project Bin as an organized sub-clip.
 
-:guilabel:`Create Sequence from Selection` will create a new sequence from minimum two selected clips in the timeline. The selected clips will be replaced by the new created sequence. Details see :ref:`Create_nested_sequence`.
+:guilabel:`Create Sequence from Selection` will create a new sequence from selected clips in the timeline. You need to select at least two clips. The selected clips will be replaced by the new created sequence. Details see :ref:`Create_nested_sequence`.
 
-:guilabel:`Copy Selection to New Sequence` will copy in minimum two selected clips from the timeline to a new sequence.
+:guilabel:`Copy Selection to New Sequence` will copy the selected clips from the timeline to a new sequence. You need to select at least two clips.
 
 .. figure:: /images/Kdenlive-timeline-righ-click-markersmenu.png
    :align: right
@@ -103,7 +103,7 @@ The :guilabel:`Align to Reference` sub-menu allows you to set either audio or SM
 
        * Select the clip that you would like to align *to*.
 
-       * Right click, select :guilabel:`Set Audio Reference` or :guilabel:`Set Timecode Reference`.
+       * Right-click, select :guilabel:`Set Audio Reference` or :guilabel:`Set Timecode Reference`.
 
        * Select all the clips that you would like to get aligned.
 
@@ -155,9 +155,9 @@ A different menu appears if you click in empty space in the timeline.
 
 .. .. versionadded:: 26.08 identify gaps in the timeline
 
-:guilabel:`Identify Gaps` will open a sub-menu to either including :guilabel:`All Tracks` or on the :guilabel:`Selected Track` to create timeline range marker where a gap/space in the timeline exists.
+:guilabel:`Identify Gaps` will open a sub-menu to either including :guilabel:`All Tracks` or on the :guilabel:`Selected Track` to create timeline range markers where gaps/space in the timeline exist.
 
-:guilabel:`Go to Marker` will pop up a sub-menu with a list of your timeline markers and will move the timeline position marker to that guide.
+:guilabel:`Go to Marker` will pop up a sub-menu with a list of your timeline markers. Selecting a marker from the list will move the playhead to that marker.
 
 :guilabel:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition.
 
