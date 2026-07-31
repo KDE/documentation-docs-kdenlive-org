@@ -326,7 +326,7 @@ This area shows some options for a track:
 
 .. _configurable_tracks:
 
-Track Right Click Menu
+Track Right-Click Menu
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. .. versionadded:: 19.04.0
@@ -347,7 +347,7 @@ Track Right Click Menu
 
 :guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more details.
 
-:guilabel:`Thumbnails` you can either show the :guilabel:`In Frame` the :guilabel:`In/Out Frames`, :guilabel:`All Frames` or :guilabel:`No Thumbnails` (how to change the colors see :ref:`Configure Clip Colors <configure_clip_colors>`).
+:guilabel:`Thumbnails` you can either show the :guilabel:`In Frame`, the :guilabel:`In/Out Frames`, :guilabel:`All Frames`, or :guilabel:`No Thumbnails` (for how to change the colors, see :ref:`Configure Clip Colors <configure_clip_colors>`).
 
 
 .. rubric:: Audio Track

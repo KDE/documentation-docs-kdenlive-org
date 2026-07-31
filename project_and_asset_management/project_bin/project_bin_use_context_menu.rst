@@ -110,7 +110,7 @@ Right-click on any asset or item in the Project Bin to get a context menu with s
    Reloads the selected clip from the file system. See also the chapter :ref:`reload_clip`.
 
 |insert_at_timecode|:
-   If a clip contains timecode in the metadata (check in :doc:`/project_and_asset_management/project_bin/clip_properties` if this is the case) you can use :guilabel:`Insert at Timecode` and the clip get inserted in the timeline at the timecode position from clips metadata. This feature will be useful for :ref:`multicam editing <multicam_tool>`, making it easier to synchronize clips. There are two ways to insert the video part only: lock the audio track or disable the audio target track.
+   If a clip contains timecode in the metadata (check in :doc:`/project_and_asset_management/project_bin/clip_properties` if this is the case), you can use :guilabel:`Insert at Timecode` and the clip gets inserted in the timeline at the timecode position from the clip's metadata. This feature will be useful for :ref:`multicam editing <multicam_tool>`, making it easier to synchronize clips. There are two ways to insert the video part only: lock the audio track or disable the audio target track.
 
 |replace_clip|:
    Opens your OS file manager. Select the file you want to replace the selected clip with. See also the chapter :ref:`replace_clip`.

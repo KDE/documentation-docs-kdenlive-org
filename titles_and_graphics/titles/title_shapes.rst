@@ -54,7 +54,7 @@ The shape properties can be set in the **Properties** tab.
 
 .. rubric:: Rounded Corners on Rectangles
 
-Select a rectangle, move the mouse towards the top left corner and the mouse icon changes to a pointing finger. Now you can pull in the corner creating a rounded corner.
+Select a rectangle, move the mouse towards the top left corner, and the mouse icon changes to a pointing finger. Now you can pull in the corner creating a rounded corner.
 
 .. figure:: /images/titles_and_graphics/title-rounded_corners-2608.webp
    :width: 450px

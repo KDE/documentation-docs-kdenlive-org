@@ -688,7 +688,7 @@ Switches on or off the display of video thumbnails for the clips in the Timeline
 Show Audio Thumbnails
 ---------------------
 
-Switches on or off the display of the audio waveform in audio tracks. How to change the audio clip colors see :ref:`Configure Clip Colors <configure_clip_colors>`.
+Switches on or off the display of the audio waveform in audio tracks. For how to change the audio clip colors, see :ref:`Configure Clip Colors <configure_clip_colors>`.
 
 
 .. _timeline-show_markers_comments:
