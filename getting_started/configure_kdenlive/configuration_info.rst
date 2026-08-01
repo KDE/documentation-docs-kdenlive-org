@@ -50,11 +50,16 @@ Kdenlive's application-wide persistent settings are stored in the following loca
        | |apple|: :file:`~/Library/Application Support/kdenlive/lumas/`
      - 
      - Contains the files used for :doc:`wipes </compositing/transitions/wipe>`
-   * - | |linux|: :file:`~/.local/share/kdenlive/ .backup/`
-       | |windows|: :file:`%AppData%\\kdenlive\\ .backup\\`
-       | |apple|: :file:`~/Library/Application Support/kdenlive/.backup/`
+   * - | |linux|: :file:`~/.cache/stalefiles/kdenlive/`
+       | |windows|: :file:`%LocalAppData%\\stalefiles\\kdenlive\\`
+       | |apple|: :file:`~/Library/Caches/stalefiles/kdenlive/`
      - 
      - Auto Save Recovery files
+   * - | |linux|: :file:`~/.local/share/kdenlive/.backup/`
+       | |windows|: :file:`%AppData%\\kdenlive\\.backup\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/.backup/`
+     - 
+     - Backup files  
    * - | |linux|: :file:`~/.config/share/kdenlive/ layouts/`
        | |windows|: :file:`%LocalAppData%\\kdenlive\\ layouts\\`
        | |apple|: :file:`~/Library/Application Support/kdenlive/Layouts/`       
