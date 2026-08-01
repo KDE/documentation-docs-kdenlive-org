@@ -33,6 +33,20 @@ A backup file is automatically created each time you save your project. To resto
 
 .. rst-class:: clear-both
 
+Backups are stored in folder:
+
+.. list-table::
+   :header-rows: 1
+   :width: 60%
+   :widths: 100
+   :class: table-wrap
+
+   * - File / Folder
+   * - | |linux|: :file:`~/.local/share/kdenlive/.backup/`
+       | |windows|: :file:`%AppData%\\kdenlive\\.backup\\`
+       | |apple|: :file:`~/Library/Application Support/kdenlive/.backup/`
+
+
 **Kdenlive** keeps up to 20 versions of your project file in the last hour, 20 versions from the current day, 20 versions in the last 7 days and 20 older versions, which should be sufficient to recover from any problem.
 
 .. seealso:: 
