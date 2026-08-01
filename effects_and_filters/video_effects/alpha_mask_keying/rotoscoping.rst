@@ -196,6 +196,8 @@ Once the region is created (closed) you can move individual nodes, insert and de
 By default, the inside of the region you created is transparent (the video track underneath is visible). Use the :guilabel:`Invert` checkbox to make the outside of the region transparent.
 
 .. note:: The Rotoscope effect can be keyframed. In contrast to other effects, keyframes not only can be created individually on the keyframe ruler\ [4]_ but are created automatically whenever the region is changed (nodes added, deleted or moved; curves created or changed; region moved). It is therefore important to create the rotoscope region on the very first frame of the clip.
+   
+   More information about auto-keyframing can be found in the :ref:`effects-working_auto_keyframes` section.
 
 
 .. rubric:: Using Keyframes to Make the Region Follow the Action

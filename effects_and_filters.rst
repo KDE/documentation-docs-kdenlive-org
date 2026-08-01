@@ -407,6 +407,24 @@ In this example, the cursor enables the second keyframe and you can either chang
 To switch back to the timeline view click on |switch-to-timeline-view|:guilabel:`Switch to timeline view`.
 
 
+.. .. versionchanged:: 26.08 auto-keyframe generation updated
+
+.. _effects-working_auto_keyframes:
+
+Auto-Keyframe Generation
+------------------------
+
+Keyframes can be created automatically while playback is running. To enable the function, hover in the project monitor to the right side and click in the :ref:`monitor toolbar <ui-monitors_effect_direct_control>` on |keyframe-record|:guilabel:`Add automatic keyframe`. Once enabled a red dot |media-record| will appear on top of the toolbar. You can also click this dot to quickly turn the feature off.
+
+Now start playback. Whenever you change the position or a handle or a node it creates a keyframe (nodes added, deleted or moved; curves created or changed; region moved).
+
+You can do auto-keyframing in more then one pass. For example, you can create keyframes for changing the position of a clip in one pass and then create keyframes for changing the rotation in another pass.
+
+By default the Auto-Keyframe interval is limited to every 10\ :sup:`th` frame only. To disable this limit, click on |application-menu|:guilabel:`Options` in the keyframe panel\ [1]_ and disable :guilabel:`Limit automatic keyframes`. 
+
+Auto-keyframing works with effects which have the following parameters: X, Y, width, height, opacity (alpha, optional) and rotation, including the rotoscoping effect. For all other effects auto-keyframing is not available in the monitor display toolbar.
+
+
 .. _effects-working_with_keyframes:
 
 Working with Keyframes in the Effect Stack
