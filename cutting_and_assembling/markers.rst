@@ -164,7 +164,11 @@ A double-click on a marker **text** in the timeline opens the edit window (besid
 
 .. rst-class:: clear-both
 
-Markers can only be moved by changing the :guilabel:`Position` in the edit window.
+* Markers can be moved by changing the :guilabel:`Position` in the edit window. 
+* Markers can be moved by dragging them in the timeline on the respective clip.
+* Markers with a range can be resized by dragging the left or right edge of the marker in the timeline.
 
-:guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit window.
+.. rubric:: In the edit marker window:
 
+* :guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit window.
+* When :guilabel:`Range Marker` is enabled, you can change the :guilabel:`Duration` of the marker in the edit window.
