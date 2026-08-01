@@ -442,6 +442,9 @@ Timeline
    * - Add Transition to Selection
      - :kbd:`Alt+Shift++`
      -
+   * - Duplicate Clip
+     - :kbd:`Ctrl+D`
+     - Copy selected clip and place it on the timeline after the selected clip
    * - Add/Remove Guide
      - :kbd:`G`
      - Adds a timeline marker at playhead position.

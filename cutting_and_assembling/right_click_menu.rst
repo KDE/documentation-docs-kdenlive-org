@@ -27,7 +27,7 @@ This is the context menu that appears when you right-click on a clip in the time
 
 :guilabel:`Copy` will copy the clip and selected clips to the clipboard.
 
-:guilabel:`Duplicate Clip` will create a copy of the clip and place it on the timeline after the selected clip.
+:guilabel:`Duplicate Clip` will create a copy of a single selected clip even inside a group on the respective track (including all effects and keyframes) and place it on the timeline after the selected clip.
 
 :guilabel:`Paste Effects` will paste only the effects of the last copied clip to the selected clip.  See :ref:`edit_paste_effects`.
 
