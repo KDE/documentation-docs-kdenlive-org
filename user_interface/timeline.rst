@@ -141,6 +141,11 @@ Timeline Cursor/Position Caret/Playhead
 
 A fixed centered playhead can be enabled in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:`Fixed centered playhead`. When enabled, the playhead remains locked at the center of the timeline view while the timeline content scrolls smoothly beneath it during playback, scrubbing, and seeking.    
 
+.. .. versionadded:: 26.8 Return playhead to start position on stop
+
+A playhead return to the position where playback has started can be enabled in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:`Return playhead to start position on stop`. When enabled, the playhead will return to the position where playback has started when playback is stopped. This is useful for previewing a specific section of your project without losing your place in the timeline.
+
+
 .. rst-class:: clear-both
 
 .. _keyboard_navigation:
