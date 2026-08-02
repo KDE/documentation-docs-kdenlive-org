@@ -104,6 +104,8 @@ You edit a title clip using one of the following options:
 
 Once you are done editing the title clip, click on :guilabel:`Update Title`. Kdenlive closes the window and updates the title clip in the project bin and all occurrences of that title clip in the timeline. Your changes are available immediately.
 
+You can also create a new title clip when clicking on the down arrow next to :guilabel:`Update Title` and choose :guilabel:`Add as new Title`. More information about this function can be found in the :ref:`split_replace_title_clips` section.
+
 
 .. _title-add_objects:
 
@@ -211,6 +213,35 @@ Alignment to the project dimensions (frame edge and safe zone) is also possible 
 * |align-horizontal-left| :guilabel:`Align left` or |align-horizontal-right| :guilabel:`Align right` moves the selected object towards the left or right edge stopping at the edges of each of the safety boxes with each click on the icon.
 * |align-vertical-top| :guilabel:`Align top` or |align-vertical-bottom| :guilabel:`Align bottom` moves the selected object towards the top or bottom edge stopping at the edges of each of the safety boxes with each click on the icon.
 * |align-horizontal-center| :guilabel:`Align center horizontally` or |align-vertical-center| :guilabel:`Align center vertically` centers the selected object on the vertical or horizontal center axis of the outermost box.
+
+
+.. .. versionadded:: 26.08 Split and replace title clips
+
+.. _split_replace_title_clips:
+
+Split and Replace Title Clips
+=============================
+
+.. figure:: /images/titles_and_graphics/title_add-new-title_2608.webp
+
+This function works best when the title clip is in the timeline already. 
+
+When a title clip is opened from the timeline by :kbd:`double-click` for editing and afterwards you click on the down arrow next to :guilabel:`Update Title` and choose :guilabel:`Add as new Title` you have the following options:
+
+.. figure:: /images/titles_and_graphics/title_replace-title-clip_2608.webp
+
+* If :guilabel:`Replace` is clicked, the just edited title clip is updated in-place in the timeline, plus a reference to the new title clip is added to project bin
+* If :guilabel:`Keep Existing` is clicked, it only adds a link to the already existing title clip in the project bin 
+* If you want always :guilabel:`Replace` or :guilabel:`Keep Existing` you can enable :guilabel:`Do not ask again` then the chosen action is the default action.
+
+Here is a simple example of how this works:
+
+1. Create a title clip in the project bin
+2. Add it to the timeline
+3. Split the title clip with :kbd:`Shift+R`
+4. :kbd:`double-click` the second fragment to edit it
+5. Change the text
+6. Choose :guilabel:`Add as new Title`
 
 
 ----
