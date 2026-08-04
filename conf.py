@@ -18,8 +18,8 @@
 # -- Local Vars --------------------------------------------------------------
 
 # Version number. Used to build with build with version numbers in different places.
-# The version number has to be entered only once.
-kdenlive_version = "26.04"
+# The version number has to be entered only here once.
+kdenlive_version = "26.08"
 
 
 # -- Project information -----------------------------------------------------

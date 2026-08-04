@@ -17,6 +17,8 @@
    any new features of the .x release should be listed under the respective main release
    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+.. _26.08: https://kdenlive.org/news/releases/26.08.0/
+
 .. _26.04: https://kdenlive.org/news/releases/26.04.0/
 
 .. _25.12: https://kdenlive.org/news/releases/25.12.0/
@@ -67,6 +69,28 @@
 ==========
 What's New
 ==========
+
+.. versionadded:: 26.08 (see 26.08_ release notes)
+
+   * Added snapping in the :ref:`title editor <title-move_objects>`
+   * Added rounded corners on rectangles :doc:`for titles </titles_and_graphics/titles/title_shapes>`
+   * Added copy & paste :ref:`title elements <title-select_objects>`
+   * Added option to replace the timeline clip when adding :ref:`a new title clip <title-add_objects>`
+   * Introduced copy selection to :ref:`new sequence <adding_sequence>`
+   * Added arbitrary rotation anchor for :doc:`transform effect </effects_and_filters/video_effects/transform_distort_perspective/transform>`
+   * Added auto-keyframe generation for additional :ref:`effects <effects-working_auto_keyframes>`
+   * Added detect embedded MKV subtitle streams and display count in :ref:`clip properties <subtitle-mkv>`
+   * Added "Shift+Click" for additive :ref:`soloing on audio tracks <audio_mixer>`
+   * Introduced :ref:`reorder timeline tracks <reordering_tracks>`
+   * Added "Add Markers at Gaps" feature to :ref:`Timeline menu <identify_timeline_gaps>`
+   * Added configuration of colors for :ref:`clip types <configure_clip_colors>` (video, audio, title, image, slideshow)
+   * Added warning before :ref:`deleting tracks <deleting_tracks>` that contain clips
+   * Added insert clips to timeline using :doc:`timecode metadata </project_and_asset_management/project_bin/project_bin_use_context_menu>`
+   * Added setting for "Return playhead to start position on stop" in :doc:`the timeline </getting_started/configure_kdenlive/configuration_timeline>`
+   * Renamed and repositioned "Replace Timeline Clip" :ref:`action <delete_items>`
+   * Added move clip :ref:`marker with mouse <move_edit_marker>`
+   * Added :ref:`duplicate clip action <right_click_menu>`
+
 
 .. versionadded:: 26.04 (see 26.04_ release notes)
 
