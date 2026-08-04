@@ -226,13 +226,13 @@ Split and Replace Title Clips
 
 This function works best when the title clip is in the timeline already. 
 
-When a title clip is opened from the timeline by :kbd:`double-click` for editing and afterwards you click on the down arrow next to :guilabel:`Update Title` and choose :guilabel:`Add as new Title` you have the following options:
+When a title clip is opened from the timeline by :kbd:`double-click` for editing, and after finishing editing you click on the down arrow next to :guilabel:`Update Title` and choose :guilabel:`Add as new Title`, you have the following options:
 
 .. figure:: /images/titles_and_graphics/title_replace-title-clip_2608.webp
 
 * If :guilabel:`Replace` is clicked, the just edited title clip is updated in-place in the timeline, plus a reference to the new title clip is added to project bin
 * If :guilabel:`Keep Existing` is clicked, it only adds a link to the already existing title clip in the project bin 
-* If you want always :guilabel:`Replace` or :guilabel:`Keep Existing` you can enable :guilabel:`Do not ask again` then the chosen action is the default action.
+* You can set :guilabel:`Replace` or :guilabel:`Keep Existing` as the default action by enabling :guilabel:`Do not ask again`.
 
 Here is a simple example of how this works:
 

@@ -27,13 +27,13 @@ This section controls certain aspects of the Timeline.
 
 :3: :guilabel:`Pause playback when seeking`. If checked, playback in the clip or project monitor will be paused when the playhead is moved manually or you click on a new position in the timeline. Once the seek position is reached, you must click :guilabel:`Play` again to continue playback. If not checked, playback will continue once the playhead is released, and playback is ongoing while you click on a new position in the timeline. This allows looping playback (see :ref:`loop_playback`)
 
-:4: :guilabel:`Jump to timeline start if playback is started on last frame in timeline`. If checked, playback will jump to the start of the timeline while the playhead reached the last frame in the timeline.
+:4: :guilabel:`Jump to timeline start if playback is started on last frame in timeline`. If checked, playback will jump to the start of the timeline if the playhead is on the last frame in the timeline.
 
 :5: :guilabel:`Seek to clip when adding effect`. If checked, this will position the playhead to the clip in the timeline to which you are adding effects.
 
 :6: :guilabel:`Return playhead to start position on stop`. If checked, this will return the playhead to the position where playback has started when playback is stopped.
 
-:7: :guilabel:`On Selection`. Determine for :guilabel:`Clips`, :guilabel:`Compositions`, :guilabel:`Mixes` and :guilabel:`Tracks` whether selecting any of these raises the corresponding Effect/Composition stack pane (provided their respective view has been enabled. See the chapter about :doc:`Views </user_interface/menu/view_menu>` for more details).
+:7: :guilabel:`On Selection`. Determine for :guilabel:`Clips`, :guilabel:`Compositions`, :guilabel:`Mixes`, and :guilabel:`Tracks` whether selecting any of these raises the corresponding Effect/Composition stack pane (provided their respective view has been enabled. See the chapter about :doc:`Views </user_interface/menu/view_menu>` for more details).
 
 :8: :guilabel:`Autoscroll while playing`. If checked, the timeline will scroll during playback to keep the playhead visible in the timeline. If unchecked, the timeline stays put, and the playhead may leave the timeline.
 

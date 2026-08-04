@@ -142,7 +142,7 @@ Once such an effect is applied either to a clip in the project bin, a clip in th
    * - |keyframe-add|
      - Add a keyframe
    * - |keyframe-record|
-     - Add automatic keyframe. Once enabled a red dot |media-record| will appear on top of the toolbar. More details can be found in the :ref:`effects-working_auto_keyframes` section.
+     - Add automatic keyframe. Once enabled, a red dot |media-record| will appear on top of the toolbar. More details can be found in the :ref:`effects-working_auto_keyframes` section.
 
 Grab the handles to change the size of the clip. Holding :kbd:`Shift` maintains the aspect ratio, holding :kbd:`Ctrl` resizes in all directions equally (essentially keeping the center position in place).
 
