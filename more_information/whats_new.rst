@@ -80,9 +80,9 @@ What's New
    * Added arbitrary rotation anchor for :doc:`transform effect </effects_and_filters/video_effects/transform_distort_perspective/transform>`
    * Added auto-keyframe generation for additional :ref:`effects <effects-working_auto_keyframes>`
    * Added detect embedded MKV subtitle streams and display count in :ref:`clip properties <subtitle-mkv>`
-   * Added "Shift+Click" for additive :ref:`soloing on audio tracks <audio_mixer>`
+   * Added :kbd:`Shift+Click` for additive :ref:`soloing on audio tracks <audio_mixer>`
    * Introduced :ref:`reorder timeline tracks <reordering_tracks>`
-   * Added "Add Markers at Gaps" feature to :ref:`Timeline menu <identify_timeline_gaps>`
+   * Added :menuselection:`Add Markers at Gaps` feature to :ref:`Timeline menu <identify_timeline_gaps>`
    * Added configuration of colors for :ref:`clip types <configure_clip_colors>` (video, audio, title, image, slideshow)
    * Added warning before :ref:`deleting tracks <deleting_tracks>` that contain clips
    * Added insert clips to timeline using :doc:`timecode metadata </project_and_asset_management/project_bin/project_bin_use_context_menu>`

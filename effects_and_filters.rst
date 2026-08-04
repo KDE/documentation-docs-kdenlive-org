@@ -411,18 +411,18 @@ To switch back to the timeline view click on |switch-to-timeline-view|:guilabel:
 
 .. _effects-working_auto_keyframes:
 
-Auto-Keyframe Generation
-------------------------
+Automatic Keyframe Generation
+-----------------------------
 
-Keyframes can be created automatically while playback is running. To enable the function, hover in the project monitor to the right side and click in the :ref:`monitor toolbar <ui-monitors_effect_direct_control>` on |keyframe-record|:guilabel:`Add automatic keyframe`. Once enabled a red dot |media-record| will appear on top of the toolbar. You can also click this dot to quickly turn the feature off.
+Keyframes can be created automatically while playback is running. To enable the function, hover the mouse pointer in the project monitor on the right side (left side, if you moved the monitor toolbar previously) and click in the :ref:`monitor toolbar <ui-monitors_effect_direct_control>` on |keyframe-record|:guilabel:`Add automatic keyframe`. Once enabled, a red dot |media-record| will appear at the top of the toolbar. It stays visible as long as this feature is enabled. You can click the dot to quickly turn the feature off.
 
-Now start playback. Whenever you change the position or a handle or a node it creates a keyframe (nodes added, deleted or moved; curves created or changed; region moved).
+Now start playback. Whenever you change the position, a handle, or a node it creates a keyframe (nodes added, deleted, or moved; curves created or changed; region moved).
 
 You can do auto-keyframing in more then one pass. For example, you can create keyframes for changing the position of a clip in one pass and then create keyframes for changing the rotation in another pass.
 
 By default the Auto-Keyframe interval is limited to every 10\ :sup:`th` frame only. To disable this limit, click on |application-menu|:guilabel:`Options` in the keyframe panel\ [1]_ and disable :guilabel:`Limit automatic keyframes`. 
 
-Auto-keyframing works with effects which have the following parameters: X, Y, width, height, opacity (alpha, optional) and rotation, including the rotoscoping effect. For all other effects auto-keyframing is not available in the monitor display toolbar.
+Auto-keyframing works with effects that have the following parameters: X, Y, width, height, opacity (alpha, optional) and rotation, including the Rotoscoping effect. For all other effects auto-keyframing is not available in the monitor display toolbar.
 
 
 .. _effects-working_with_keyframes:

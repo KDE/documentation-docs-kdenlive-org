@@ -24,11 +24,11 @@ Auto Save
    
    Green square top right: Auto save is ongoing
 
-Auto save files are generated according to the settings in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Misc` see :doc:`Misc </getting_started/configure_kdenlive/configuration_misc>` (default is every 60 seconds and/or 25 operations). This is where you can switch it on or off. 
+Auto-save files are generated according to the settings in :menuselection:`Menu --> Settings --> Configure Kdenlive --> Misc` see :doc:`Misc </getting_started/configure_kdenlive/configuration_misc>` (default is every 60 seconds and/or 25 operations). This is where you can switch it on or off. 
 
 Creating a backup file is offered the first time after you open the project again in case the auto save is newer than the version of the last saved project file.
 
-Autosaves are stored in stalefiles folder:
+Auto-save files are stored in the stalefiles folder:
 
 .. list-table::
    :header-rows: 1
