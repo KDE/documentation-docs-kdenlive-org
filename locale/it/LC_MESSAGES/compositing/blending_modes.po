@@ -1,13 +1,13 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
-# SPDX-FileCopyrightText: 2024, 2025 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2024-2026 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2025-06-12 16:44+0200\n"
+"PO-Revision-Date: 2026-08-02 21:58+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.1\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: ../../compositing/blending_modes.rst:-1
 msgid "Kdenlive Documentation - Compositing: Blending Modes"
-msgstr ""
+msgstr "Documentazione di Kdenlive - compositing: Metodi di fusione"
 
 #: ../../compositing/blending_modes.rst:-1
 msgid ""
@@ -32,7 +32,7 @@ msgstr ""
 #: ../../compositing/blending_modes.rst:0
 #: ../../compositing/blending_modes.rst:91
 msgid "Darken"
-msgstr "Scurisci"
+msgstr "Più scuro"
 
 #: ../../compositing/blending_modes.rst:0
 #: ../../compositing/blending_modes.rst:97
@@ -51,12 +51,12 @@ msgstr "Aggiungi / Addizione"
 #: ../../compositing/blending_modes.rst:0
 #: ../../compositing/blending_modes.rst:139
 msgid "Lighten"
-msgstr "Schiarisci"
+msgstr "Più chiaro"
 
 #: ../../compositing/blending_modes.rst:0
 #: ../../compositing/blending_modes.rst:145
 msgid "Screen"
-msgstr "Schermo"
+msgstr "Scolora (Screen)"
 
 #: ../../compositing/blending_modes.rst:0
 #: ../../compositing/blending_modes.rst:151
@@ -116,12 +116,20 @@ msgid ""
 "lower track by whatever is in the upper track, while taking any :ref:`alpha "
 "channel <compositing-alpha_channels>` information into account."
 msgstr ""
+"I metodi di fusione (Blending Modes, dette anche **Blend Modes** o **Mixing "
+"Modes**) sono denominate **tipo di composizione** in Kdenlive. Determinano "
+"il modo in cui due immagini vengono fuse tra loro. Il Metodo di fusione "
+"predefinito consiste semplicemente nel sovrapporre il contenuto della "
+"traccia superiore a quello della traccia inferiore, tenendo conto delle "
+"informazioni del :ref:`canale alfa <compositing-alpha_channels>`."
 
 #: ../../compositing/blending_modes.rst:20
 msgid ""
 "In this section, we are using the :guilabel:`Composition Type` **Cairo "
 "Blend** to explain the different blend modes."
 msgstr ""
+"In questa sezione utilizziamo il :guilabel:`tipo di composizione` **Fusione "
+"Cairo (Cairo Blend)** per illustrare le diverse modalità di fusione."
 
 #: ../../compositing/blending_modes.rst:22
 msgid ""
@@ -133,28 +141,42 @@ msgid ""
 "default it is set to :guilabel:`Automatic` which uses the track immediately "
 "below."
 msgstr ""
+"La composizione (o fusione) richiede almeno due tracce: la traccia "
+"superiore, detta anche *livello di fusione* (blend layer) o *livello attivo* "
+"(active layer), e la traccia \"inferiore\", detta anche *livello di base* "
+"(base layer). In una composizione mediante fusione, il *livello di fusione* "
+"è sempre la traccia da cui ha origine la composizione, mentre il *livello di "
+"base* può essere scelto tramite l'opzione :guilabel:`Traccia di "
+"composizione`. Per impostazione predefinita è selezionata l'opzione :"
+"guilabel:`Automatica`, che utilizza la traccia immediatamente sottostante."
 
 #: ../../compositing/blending_modes.rst:31
 msgid "Selecting the composition track and blend mode"
-msgstr ""
+msgstr "Selezione della traccia di composizione e della modalità di fusione."
 
 #: ../../compositing/blending_modes.rst:33
 msgid ""
 "If you want to blend with a different base layer, select the correct one "
 "from the :guilabel:`Composition track`."
 msgstr ""
+"Se vuoi fondere il contenuto con un livello di base diverso, selezionalo "
+"dall'elenco :guilabel:`Traccia di composizione`."
 
 #: ../../compositing/blending_modes.rst:35
 msgid ""
 "Select the blend mode by clicking on the :guilabel:`Blend mode` drop-down "
 "list."
 msgstr ""
+"Per scegliere la modalità di fusione, utilizza l'elenco a discesa :guilabel:"
+"`Modalità di fusione`."
 
 #: ../../compositing/blending_modes.rst:37
 msgid ""
 "Blending can be controlled and keyframed by using the :guilabel:`Opacity` "
 "slider."
 msgstr ""
+"La fusione può essere regolata e animata mediante fotogrammi chiave "
+"utilizzando il cursore :guilabel:`Opacità`."
 
 #: ../../compositing/blending_modes.rst:41
 msgid ""
@@ -165,10 +187,17 @@ msgid ""
 "yourself with the :doc:`/effects_and_filters/video_effects/"
 "color_image_correction/color_levels` effect."
 msgstr ""
+"Per comprendere meglio il funzionamento dei metodi di fusione, leggi le "
+"sezioni :doc:`/tips_and_tricks/index` e :doc:`/tips_and_tricks/how-tos/"
+"index` relative a :doc:`/tips_and_tricks/how-tos/lift_gamma_gain`, :doc:"
+"`Bilanciamento del bianco </tips_and_tricks/how-tos/tutorial-"
+"white_balance_lms>`, e familiarizza con l'effetto :doc:`/effects_and_filters/"
+"video_effects/color_image_correction/color_levels`."
 
 #: ../../compositing/blending_modes.rst:43
 msgid "Blending Modes can be grouped by their result:"
 msgstr ""
+"I metodi di fusione possono essere raggruppati in base al risultato ottenuto:"
 
 #: ../../compositing/blending_modes.rst:45
 msgid "Normal_"
@@ -203,19 +232,25 @@ msgid ""
 "This is the standard blending mode. The blend layer simply covers everything "
 "in the base layer, except if there is an alpha channel in the blend layer."
 msgstr ""
+"Questa è il metodo di fusione standard: il livello di fusione copre "
+"semplicemente tutto ciò che si trova nel livello di base, a meno che nel "
+"livello di fusione non ci sia un canale alfa."
 
 #: ../../compositing/blending_modes.rst:70
 msgid "Darker"
-msgstr "Darker"
+msgstr "Scurisci"
 
 #: ../../compositing/blending_modes.rst:72
 msgid ""
 "The following blending modes all darken or amplify dark colors in the image:"
 msgstr ""
+"I seguenti metodi di fusione scuriscono o amplificano i colori scuri "
+"dell'immagine:"
 
 #: ../../compositing/blending_modes.rst:75
 msgid "Keeps the darkest colors between the blend and base layers."
 msgstr ""
+"Mantiene i colori più scuri tra il livello di fusione e quello di base."
 
 #: ../../compositing/blending_modes.rst:78
 msgid ""
@@ -226,6 +261,12 @@ msgid ""
 "is always darker, except for where it is pure white, since each value is "
 "less than 1."
 msgstr ""
+"Mantiene i colori più scuri del livello di fusione, e rende i colori chiari "
+"meno opachi. Ciò avviene tenendo i valori del canale :abbr:`RGB(Red Green "
+"Blue)` compresi tra 0 e 1 del pixel nel livello di fusione, e "
+"moltiplicandoli per i valori del pixel corrispondente nel livello di base. "
+"Il colore risultante è sempre più scuro, tranne nei punti in cui è bianco "
+"puro, poiché qualsiasi valore è inferiore a 1."
 
 #: ../../compositing/blending_modes.rst:81
 msgid ""
@@ -236,15 +277,23 @@ msgid ""
 "homogeneous color, this effect is equivalent to changing the black point to "
 "the inverted color."
 msgstr ""
+"Il colore del livello di fusione viene utilizzato per scurire il livello di "
+"base, aumentando il contrasto tra i due. Ciò avviene dividendo il livello di "
+"base invertito per il livello di fusione, e poi invertendo il risultato. La "
+"fusione con il bianco non produce alcun cambiamento. Nota che, quando il "
+"livello di fusione è di un colore omogeneo, questo effetto equivale a "
+"modificare il punto nero col colore invertito."
 
 #: ../../compositing/blending_modes.rst:109
 msgid "Lighter"
-msgstr ""
+msgstr "Schiarisci"
 
 #: ../../compositing/blending_modes.rst:111
 msgid ""
 "The following blending modes lighten or amplify light colors in the image:"
 msgstr ""
+"I seguenti metodi di fusione schiariscono o amplificano i colori chiari "
+"dell'immagine:"
 
 #: ../../compositing/blending_modes.rst:114
 msgid ""
@@ -252,6 +301,10 @@ msgid ""
 "this always produces the same or lighter colors than the input (base layer) "
 "it is also known as *Plus Lighter*."
 msgstr ""
+"I valori dei colori dei due livelli vengono semplicemente sommati (da qui il "
+"nome). Poiché questo produce sempre colori uguali o più chiari rispetto "
+"all'immagine di partenza (livello di base), questa tecnica è nota anche come "
+"“Plus Lighter”."
 
 #: ../../compositing/blending_modes.rst:117
 msgid ""
@@ -259,6 +312,9 @@ msgid ""
 "lighten of the blend layer is lighter than the brightness (or luminance) of "
 "the base layer."
 msgstr ""
+"Mantiene i colori più chiari tra il livello di fusione e quello di base. "
+"L'effetto di schiaritura si verificherà solo se il livello di fusione è più "
+"chiaro della luminosità (o luminanza) del livello di base."
 
 #: ../../compositing/blending_modes.rst:120
 msgid ""
@@ -267,6 +323,10 @@ msgid ""
 "**Multiply**: Wherever either layer was darker than white, the composite is "
 "brighter."
 msgstr ""
+"In questo metodo di fusione i valori dei colori dell'immagine di entrambi i "
+"livelli vengono invertiti, moltiplicati, e poi invertiti nuovamente. È "
+"l'opposto di **Moltiplica**: ovunque uno dei due livelli fosse più scuro del "
+"bianco, l'immagine risultante è più chiara."
 
 #: ../../compositing/blending_modes.rst:123
 msgid ""
@@ -279,6 +339,15 @@ msgid ""
 "changes the output black point to this color, and (input) white point to the "
 "inverted color."
 msgstr ""
+"Questa metodo di fusione divide il livello di base per il livello di fusione "
+"invertito. Schiarisce il livello di base in base al valore del livello di "
+"fusione: più il livello di fusione è chiaro, più influenza il livello di "
+"base. Se utilizzi il bianco nel livello di fusione, il colore del livello di "
+"base diventerà bianco, ma se invece usi il nero nel livello di fusione, "
+"questo non modifica il livello di base. Nota che quando il livello di "
+"fusione è di un colore omogeneo, questa metodo di fusione modifica "
+"essenzialmente il punto nero in uscita in quel colore, e il punto bianco (in "
+"ingresso) nel colore invertito."
 
 #: ../../compositing/blending_modes.rst:133
 msgid "Add"
@@ -293,6 +362,8 @@ msgid ""
 "The following blending modes are great for adding depth and dynamics to "
 "images by having the two layers play off of each other:"
 msgstr ""
+"I seguenti metodi di fusione sono ideali per aggiungere profondità e "
+"dinamismo alle immagini, grazie all'interazione tra i due livelli:"
 
 #: ../../compositing/blending_modes.rst:162
 msgid ""
@@ -301,6 +372,11 @@ msgid ""
 "light, the blend layer becomes lighter; where the base layer is dark, the "
 "blend layer becomes darker; mid-tones do not affect the blend layer."
 msgstr ""
+"Questa modalità di fusione funziona come **Moltiplica** se il livello di "
+"base è più scuro, oppure come **Scolora (Screen)** se è più chiaro. In altre "
+"parole: dove il livello di base è chiaro, il livello di fusione diventa più "
+"chiaro; dove il livello di base è scuro, il livello di fusione diventa più "
+"scuro; i toni medi non influiscono sul livello di fusione."
 
 #: ../../compositing/blending_modes.rst:165
 msgid ""
@@ -308,12 +384,18 @@ msgid ""
 "similar to **Overlay** but uses the brightness of the blend layer where "
 "**Overlay** uses the base layer."
 msgstr ""
+"Questo metodo di fusione è una combinazione dei metodi **Moltiplica** e "
+"**Scolora (Screen)**. Funziona in modo simile al metodo **Sovrapponi**, ma "
+"utilizza la luminosità del livello di fusione, mentre il metodo "
+"**Sovrapponi** utilizza quella del livello di base."
 
 #: ../../compositing/blending_modes.rst:168
 msgid ""
 "Similar to **Overlay**, it uses luminance values to either darken or lighten "
 "the image."
 msgstr ""
+"Analogo a **Sovrapponi**, utilizza i valori di luminanza per scurire o per "
+"schiarire l'immagine."
 
 #: ../../compositing/blending_modes.rst:196
 msgid "Comparative"
@@ -322,6 +404,8 @@ msgstr "Comparativo"
 #: ../../compositing/blending_modes.rst:198
 msgid "The following blending modes basically invert white or light colors:"
 msgstr ""
+"Le seguenti modalità di fusione, in sostanza, invertono il bianco o i colori "
+"chiari:"
 
 #: ../../compositing/blending_modes.rst:201
 msgid ""
@@ -333,12 +417,21 @@ msgid ""
 "images with similar content: is the pixel values are the same, the result is "
 "black."
 msgstr ""
+"Questo metodo di fusione sottrae il livello di base dal livello di fusione, "
+"o viceversa, per evitare numeri negativi. La fusione con il nero (valore :"
+"abbr:`RGB(Red Green Blue)` pari a 0,0,0) non produce alcun cambiamento, "
+"mentre quella con il bianco (valore :abbr:`RGB(Red Green Blue)` pari a 255, "
+"255, 255) inverte l'immagine. Durante il processo di modifica, questa "
+"funzione può essere utilizzata per verificare l'allineamento di immagini con "
+"contenuti simili: se i valori dei pixel sono uguali, il risultato è nero."
 
 #: ../../compositing/blending_modes.rst:205
 msgid ""
 "This blending mode is essentially the same as **Difference** but with less "
 "contrast as it does not invert mid-tones."
 msgstr ""
+"Questo metodo di fusione è sostanzialmente identico a **Differenza**, ma, "
+"poiché non inverte i toni medi, con un contrasto minore."
 
 #: ../../compositing/blending_modes.rst:227
 #: ../../compositing/blending_modes.rst:263
@@ -350,30 +443,42 @@ msgid ""
 "The following blending modes play with :term:`hues <hue>`, :term:"
 "`saturation`, and brightness (aka :term:`luminance`, hence the acronym HSL):"
 msgstr ""
+"I seguenti metodi di fusione agiscono su :term:`tonalità <hue>`, :term:"
+"`saturazione` e luminosità (nota anche come :term:`luminanza`, da cui "
+"l'acronimo HSL):"
 
 #: ../../compositing/blending_modes.rst:232
 msgid ""
 "This blending mode preserves the luma and saturation (:term:`chroma`) of the "
 "base layer, while taking the hue of the blend layer."
 msgstr ""
+"Questo metodo di fusione mantiene la luma e la saturazione (:term:"
+"`crominanza`) del livello di base, assumendo al contempo la tonalità del "
+"livello di fusione."
 
 #: ../../compositing/blending_modes.rst:235
 msgid ""
 "This blending mode preserves the luma and hue from the base layer, while "
 "adopting the saturation from the blend layer."
 msgstr ""
+"Questo metodo di fusione mantiene la luma e la tonalità del livello di base, "
+"adottando al contempo la saturazione del livello di fusione."
 
 #: ../../compositing/blending_modes.rst:238
 msgid ""
 "This blending mode preserves the luma from the base layer, while taking the "
 "hue and saturation from the blend layer."
 msgstr ""
+"Questo metodo di fusione mantiene la luma del livello di base, mentre "
+"riprende la tonalità e la saturazione dal livello di fusione."
 
 #: ../../compositing/blending_modes.rst:241
 msgid ""
 "This blending mode preserves the hue and saturation from the base layer, "
 "while adopting the luma from the blend layer."
 msgstr ""
+"Questo metodo di fusione mantiene la tonalità e la saturazione del livello "
+"di base, adottando al contempo la luma del livello di fusione."
 
 #: ../../compositing/blending_modes.rst:251
 msgid "Hue"

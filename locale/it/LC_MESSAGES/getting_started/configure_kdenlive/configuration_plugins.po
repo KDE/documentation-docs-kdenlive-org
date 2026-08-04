@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2026-07-26 09:50+0200\n"
+"PO-Revision-Date: 2026-07-28 16:02+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -90,19 +90,14 @@ msgstr ""
 "sistema."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:45
-#, fuzzy
-#| msgid ""
-#| "If you have installed *Python3* already jump right to the configuration "
-#| "page of :ref:`Speech To Text<speech2text_config>` or :ref:`Object "
-#| "Detection<object-detection_config>`."
 msgid ""
 "If you have installed *Python3* already jump right to the configuration page "
 "of :ref:`Speech To Text <speech2text_config>` or :ref:`Object Detection "
 "<object-detection_config>`."
 msgstr ""
-"Se hai già installato Python3, passa direttamente alla pagina del :ref:"
-"`riconoscimento vocale<speech2text_config>` o del :ref:`rilevamento degli "
-"oggetti<object-detection_config>`."
+"Se hai già installato Python 3, passa direttamente alla pagina di "
+"configurazione del :ref:`Riconoscimento vocale <speech2text_config>` o del ::"
+"ref:`Rilevamento degli oggetti <object-detection_config>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:49
 msgid "Python installation"
@@ -230,6 +225,13 @@ msgid ""
 "ensurepip`` followed by ``$ python -m pip install -U openai-whisper torch`` "
 "(courtesy of |veronica_explains|). Your mileage may vary."
 msgstr ""
+"Se stai utilizzando la versione Flatpak di Kdenlive, potresti riscontrare "
+"dei problemi con l'installazione dei modelli vocali: l'approccio sandbox di "
+"Flatpak impedisce a Kdenlive di eseguire *pip*. Esiste una possibile "
+"soluzione alternativa, utilizzando il comando ``$ flatpak run --command=/bin/"
+"bash org.kde.kdenlive``, seguito da ``$ python -m ensurepip``, e infine da  "
+"``$ python -m pip install -U openai-whisper torch`` (per gentile concessione "
+"di |veronica_explains|). La tua esperienza potrebbe variare."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:103
 msgid ""
@@ -239,6 +241,11 @@ msgid ""
 "installation of *Python* and *pip*. After that you can follow the "
 "instructions for setting up VOSK and Whisper here."
 msgstr ""
+"L'altra opzione consiste nel selezionare :guilabel:`Whisper`, e poi di fare "
+"clic su :guilabel:`Installa traduzione multi lingua`: in questo scaricherai "
+"e installerai le dipendenze necessarie, e Kdenlive riconoscerà il percorso "
+"di installazione di *Python* e *pip*. Infine, potrai seguire le istruzioni "
+"per configurare VOSK e Whisper disponibili qui."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:106
 msgid "VOSK"
@@ -285,6 +292,12 @@ msgid ""
 "the default folder, it will be displayed for informational purposes in the "
 "models folder text field."
 msgstr ""
+"Se desideri utilizzare una cartella specifica, seleziona l'opzione :guilabel:"
+"`Cartella dei modelli personalizzati` (3) e inserisci il percorso nel campo "
+"di testo sottostante, oppure fai clic sun |document-open|\\ :guilabel:`Apri "
+"file` per selezionare la cartella desiderata. Se utilizzi la cartella "
+"predefinita, questa verrà visualizzata a titolo informativo nel campo di "
+"testo Cartella dei modelli."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:123
 msgid ""
@@ -292,6 +305,10 @@ msgid ""
 "chosen the :file:`venv` folder for Python, you can delete the previously "
 "installed VOSK libraries by using the following command in a terminal:"
 msgstr ""
+"Se hai installato VOSK in una versione precedente di Kdenlive e ora hai "
+"scelto la cartella :file:`venv` per Python, allora puoi eliminare le "
+"librerie VOSK installate in precedenza utilizzando il seguente comando da "
+"terminale:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:130
 msgid ""
@@ -318,6 +335,10 @@ msgid ""
 "download and extract it for you into the default folder or the custom folder "
 "you specified."
 msgstr ""
+"In alternativa, trascina il modello linguistico desiderato dalla pagina di "
+"scaricamento di alphacephei\\ [1]_ nella finestra dei modelli (**4**): "
+"Kdenlive lo scaricherà e lo estrarrà automaticamente nella cartella "
+"predefinita, o in quella personalizzata che hai specificato."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:152
 msgid ""
@@ -327,6 +348,13 @@ msgid ""
 "configuration can also take a long time. Kdenlive will appear unresponsive "
 "but is working in the background. Please be patient."
 msgstr ""
+"I modelli sono file compressi (:file:`.zip`), e possono occupare diversi GB "
+"di spazio: a seconda della connessione Internet, i tempi di scaricamento "
+"potrebbero essere lunghi. Una volta completato lo scaricamento, i file "
+"devono essere estratti: anche qui, questa operazione potrebbe richiedere "
+"molto tempo in base alle caratteristiche del sistema. Kdenlive potrebbe "
+"sembrare non rispondere, ma in realtà sta lavorando in background: sii "
+"paziente."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:154
 msgid ""
@@ -334,6 +362,9 @@ msgid ""
 "folder. Click on :guilabel:`Models folder` to open the models folder with "
 "the file manager of your OS."
 msgstr ""
+"Quando i modelli sono stati installati, Kdenlive visualizza la dimensione "
+"della cartella dei modelli: fai clic sulla :guilabel:`Cartella dei modelli` "
+"per aprirla con il gestore di file del tuo sistema operativo."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:157
 msgid "Whisper"
@@ -370,6 +401,9 @@ msgid ""
 "to use for speech recognition. If this gives the wrong results, select the "
 "correct language here."
 msgstr ""
+"Se si lascia l'impostazione su **Rilevamento automatico**, Kdenlive cercherà "
+"di individuare la lingua da utilizzare per il riconoscimento vocale. Se i "
+"risultati non dovessero essere corretti, seleziona qui quella corretta."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:185
 msgid ""
@@ -397,6 +431,11 @@ msgid ""
 "its models (around 10GB of data). Processing will happen offline from then "
 "on."
 msgstr ""
+"Puoi chiedere a Whisper di tradurre il testo in inglese. Se invece hai "
+"bisogno di traduzioni in altre lingue, fai clic su :guilabel:`Installa "
+"traduzione multi lingua`: in questo modo si attiverà SeamlessM4T\\ [2]_ e "
+"verranno scaricati e installati i relativi modelli (circa 10 GB di dati). Da "
+"questo momento in poi, l'elaborazione avverrà offline."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:194
 msgid ""
@@ -404,10 +443,13 @@ msgid ""
 "the turbo model by clicking on :guilabel:`Download (1.4GB)`. More "
 "information about the available models is on the |whisper_source|."
 msgstr ""
+"Fai clic su :guilabel:`Gestisci modelli`, oppure utilizza il modello turbo "
+"facendo clic su :guilabel:`Scarica (1.4GB). Maggiori informazioni sui "
+"modelli disponibili sono disponibili nella pagina del |whisper_source|."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:201
 msgid "Whisper download and manage models"
-msgstr ""
+msgstr "Scarica e gestisci i modelli con Whisper"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:203
 msgid "Kdenlive shows the download process."
@@ -418,12 +460,16 @@ msgid ""
 "Installed speech models have a solid circle. You can delete them by clicking "
 "on :guilabel:`Uninstall model`"
 msgstr ""
+"I modelli vocali installati sono contrassegnati da un cerchio pieno. Puoi "
+"eliminarli facendo clic su :guilabel:`Disinstalla modello`"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:207
 msgid ""
 "Available models have a hollow circle. You can install them by clicking on :"
 "guilabel:`Install model`."
 msgstr ""
+"I modelli disponibili sono contrassegnati da un cerchio vuoto: puoi "
+"installarli cliccando su :guilabel:`Installa modello`."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:219
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:273
@@ -438,7 +484,7 @@ msgstr "Percorso nel quale Whisper è installato:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:228
 msgid "The Whisper speech models are stored here:"
-msgstr ""
+msgstr "I modelli di sintesi vocale Whisper sono archiviati qui:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:230
 msgid ":file:`~/.local/share/kdenlive/opencvmodels`"
@@ -470,6 +516,10 @@ msgid ""
 "previously installed Whisper libraries by using the following command in a "
 "terminal:"
 msgstr ""
+"Se hai installato VOSK in una versione precedente di Kdenlive e ora hai "
+"scelto la cartella :file:`venv` per Python, allora puoi eliminare le "
+"librerie VOSK installate in precedenza utilizzando il seguente comando da "
+"terminale:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:244
 msgid ""
@@ -480,6 +530,13 @@ msgid ""
 "the error message says they are missing (most likely: :file:`~/.var/app/org."
 "kde.kdenlive/cache`)"
 msgstr ""
+"Se durante il riconoscimento vocale ricevi messaggi ricorrenti relativi alla "
+"mancanza di file di modelli, verifica dove ti porta il collegamento accanto "
+"alla :guilabel:`Cartella dei modelli`. Se è :file:`~/.cache`, dove è "
+"presente una cartella denominata :file:`Whisper` contenente tutti i modelli "
+"che hai scaricato, copia semplicemente questa cartella nella posizione "
+"indicata dal messaggio di errore come mancante (molto probabilmente: :file:"
+"`~/.var/app/org.kde.kdenlive/cache`)"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:250
 msgid "Object Detection"
@@ -505,7 +562,7 @@ msgstr ":file:`%LocalAppData%\\\\kdenlive\\\\venv-sam`"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:266
 msgid "If all is properly installed it should look like so:"
-msgstr ""
+msgstr "Se tutto è stato installato correttamente, dovrebbe apparire così:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:277
 msgid ""
@@ -525,6 +582,15 @@ msgid ""
 "Nvidia GPU is not listed, try installing an alternative by :ref:`following "
 "these steps <gpu-manual_config>`."
 msgstr ""
+":guilabel:`Dispositivo` Per il rilevamento degli oggetti puoi scegliere se "
+"utilizzare la **CPU** o la **GPU**. Per il rilevamento degli oggetti tramite "
+"GPU, è necessaria una che supporti CUDA. Kdenlive cerca automaticamente di "
+"individuare la scheda grafica: se supporta CUDA (GPU Nvidia), allora verrà "
+"installato il driver necessario che ne permette l'utilizzo. Diversamente, "
+"qualora cioè la scheda grafica non supporti CUDA, o non viene rilevata da "
+"Kdenlive, allora verrà visualizzata solo l'opzione CPU. :guilabel:`Supporto "
+"alla GPU` Se la GPU Nvidia non è presente nell'elenco, prova a installarne "
+"una alternativa :ref:`seguendo questi passaggi <gpu-manual_config>`."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:281
 msgid ""
@@ -532,6 +598,11 @@ msgid ""
 "on which Kdenlive has to detect objects you may get a crash. If enabled, "
 "this offloads some of the memory used to the RAM instead of the GPU memory."
 msgstr ""
+":guilabel:`Trasferisci il video alla CPU per risparmiare memoria della GPU` "
+"Se hai delle clip di lunga durata su cui Kdenlive deve rilevare degli "
+"oggetti, allora potrebbe verificarsi un crash. Se questa opzione è "
+"abilitata, parte della memoria utilizzata viene trasferita alla RAM anziché "
+"utilizzare la memoria della GPU."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:283
 msgid ""
@@ -549,6 +620,10 @@ msgid ""
 "opened where the SAM2 models are stored including the size of this folder. :"
 "guilabel:`Delete all models` will delete the content of the model folder."
 msgstr ""
+":guilabel:`Cartella dei modelli` Facendo clic sul collegamento si aprirà la "
+"cartella in cui sono salvati i modelli SAM2, con l'indicazione delle "
+"dimensioni della cartella stessa. L'opzione:guilabel:`Elimina tutti i "
+"modelli` cancellerà il contenuto di questa cartella."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:287
 msgid ""
@@ -556,6 +631,10 @@ msgid ""
 "where the venv-sam Python scripts are stored including the size of this "
 "folder. :guilabel:`Uninstall plugin` will uninstall venv-sam Python."
 msgstr ""
+":guilabel:`Dimensione delle estensioni` Facendo clic sul link si aprirà la "
+"cartella in cui sono memorizzati gli script Python per venv-sam, con "
+"l'indicazione delle dimensioni della cartella stessa. L'opzione :guilabel:"
+"`Disinstalla estensioni` disinstallerà Python per venv-sam."
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:293
 msgid "GPU manual installation"
@@ -628,6 +707,9 @@ msgid ""
 "Kdenlive starts downloading all necessary files for using the GPU. Once "
 "finished you should see your GPU under :guilabel:`Device` like so:"
 msgstr ""
+"Kdenlive avvia lo scaricamento di tutti i file necessari per l'utilizzo "
+"della GPU. Una volta terminato dovresti vedere la tua GPU nella sezione :"
+"guilabel:`Dispositivo`, come mostrato qui di seguito:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:347
 msgid "Successfully installed GPU"
@@ -638,6 +720,8 @@ msgid ""
 "The alphacephei download page with the different language models looks like "
 "this:"
 msgstr ""
+"La pagina per lo scaricamento di Alphacephei con i diversi modelli "
+"linguistici si presenta così:"
 
 #: ../../getting_started/configure_kdenlive/configuration_plugins.rst:363
 msgid "This is meta's |seamless-m4t-v2-large| model"

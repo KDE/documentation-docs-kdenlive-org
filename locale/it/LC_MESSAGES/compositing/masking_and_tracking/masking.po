@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2026-07-26 11:51+0200\n"
+"PO-Revision-Date: 2026-07-27 17:27+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -101,14 +101,23 @@ msgid ""
 "area). The effects without *(Mask)* simply create an alpha channel to allow "
 "clips on lower tracks to show through."
 msgstr ""
+"Gli effetti che contengono la parola *Maschera* nel nome devono essere "
+"utilizzati insieme a **Applica maschera** per funzionare. Ciò permette di "
+"applicare altri effetti e filtri solo all'area mascherata (è anche possibile "
+"invertire l'operazione, applicando gli effetti ovunque tranne che nell'area "
+"mascherata). Gli effetti che invece non contengono la parola *Maschera* "
+"creano semplicemente un canale alfa, che consente alle clip sulle tracce "
+"sottostanti di essere visibili."
 
 #: ../../compositing/masking_and_tracking/masking.rst:33
 msgid "Effect Stack Example"
-msgstr ""
+msgstr "Esempio di pila degli effetti"
 
 #: ../../compositing/masking_and_tracking/masking.rst:41
 msgid "Example of using **(Mask)** effects to apply effects/filters"
 msgstr ""
+"Esempio dell'uso degli effetti **Maschera** per applicare gli effetti e i "
+"filtri"
 
 #: ../../compositing/masking_and_tracking/masking.rst:43
 msgid ""
@@ -117,18 +126,26 @@ msgid ""
 "effects_and_filters/video_effects/blur_and_sharpen/gaussian_blur` and :doc:`/"
 "effects_and_filters/video_effects/color_image_correction/bw0r` (2)."
 msgstr ""
+"Questo esempio mostra la pila degli effetti con l'effetto **Forma in alfa  "
+"(maschera)** e poi **Applica maschera**, che fungono da sostegni (1) attorno "
+"agli effetti effettivi :doc:`/effects_and_filters/video_effects/"
+"blur_and_sharpen/gaussian_blur` e :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/bw0r` (2)."
 
 #: ../../compositing/masking_and_tracking/masking.rst:45
 msgid "Note that effects are always applied top down."
 msgstr ""
+"Nota che gli effetti vengono sempre applicati dall'alto verso il basso."
 
 #: ../../compositing/masking_and_tracking/masking.rst:51
 msgid "Steps to create a mask"
-msgstr ""
+msgstr "Passi per creare una maschera"
 
 #: ../../compositing/masking_and_tracking/masking.rst:52
 msgid "Depending on your use case apply one of the masking effects."
 msgstr ""
+"A seconda del contesto di utilizzo, applica uno degli effetti di "
+"mascheramento."
 
 #: ../../compositing/masking_and_tracking/masking.rst:55
 msgid ""
@@ -137,18 +154,27 @@ msgid ""
 "blurring the edges of a feature)`. For illustration purposes, :guilabel:"
 "`Operation` **Subtract** has been selected."
 msgstr ""
+"Crea una forma rettangolare, ellittica, triangolare o a diamante che sia "
+"possibile regolare per posizione, dimensioni, rotazione e sfumatura. A scopo "
+"illustrativo è stata selezionata l’operazione di :guilabel:`Operazione` di "
+"**Sottrazione**."
 
 #: ../../compositing/masking_and_tracking/masking.rst:66
 msgid ""
 "Is a simple mask whose edges are defined in number of pixels from the edge "
 "of the frame."
 msgstr ""
+"È una maschera semplice i cui bordi sono definiti in termini di numero di "
+"pixel dal bordo del fotogramma."
 
 #: ../../compositing/masking_and_tracking/masking.rst:69
 msgid ""
 "Is best suited for complex shapes, for example when persons or animals or "
 "other irregular objects need to be masked."
 msgstr ""
+"È particolarmente indicato per le forme complesse, ad esempio quando è "
+"necessario mascherare persone, animali, o altri oggetti dalla forma "
+"irregolare."
 
 #: ../../compositing/masking_and_tracking/masking.rst:72
 msgid ""
@@ -156,14 +182,18 @@ msgid ""
 "an alpha channel. This is particular useful for using masks created by "
 "online background removal service like those from a |google_search|."
 msgstr ""
+"Permette di utilizzare un'immagine o un video come maschera. La risorsa deve "
+"avere un canale alfa: ciò è particolarmente utile per poter usare le "
+"maschere create da servizi online di rimozione dello sfondo, come quelli che "
+"si trovano da |google_search|."
 
 #: ../../compositing/masking_and_tracking/masking.rst:74
 msgid "Adjust the mask to your needs"
-msgstr ""
+msgstr "Regola la maschera in base alle tue necessità"
 
 #: ../../compositing/masking_and_tracking/masking.rst:83
 msgid "Rotoscoping (click to enlarge)"
-msgstr ""
+msgstr "Rotoscopio (fai clic per ingrandire)"
 
 #: ../../compositing/masking_and_tracking/masking.rst:85
 msgid ""
@@ -173,10 +203,15 @@ msgid ""
 "mask\\ [1]_ outside the shape. Using the :guilabel:`Alpha Operation` the "
 "mask can be inverted."
 msgstr ""
+"In questo esempio, la figura che salta verrà inserita nella scena insieme "
+"alla strada. Per questa forma complessa, l'effetto :doc:`/"
+"effects_and_filters/video_effects/alpha_mask_keying/rotoscoping` è la "
+"soluzione migliore: crea una maschera\\ [1]_ all'esterno della forma. "
+"Utilizzando :guilabel:`Operazione su alfa`potrai invertire la maschera."
 
 #: ../../compositing/masking_and_tracking/masking.rst:96
 msgid "An Alpha Shapes (Mask) applied"
-msgstr ""
+msgstr "Una forma nel canale alfa (Maschera) applicata"
 
 #: ../../compositing/masking_and_tracking/masking.rst:98
 msgid ""
@@ -186,57 +221,78 @@ msgid ""
 "the mask to work (protecting the masked area) :guilabel:`Operation` must be "
 "set to **Subtract**."
 msgstr ""
+"In questo esempio è possibile regolare per dimensioni, posizione e larghezza "
+"della transizione il rettangolo della forma alfa, in modo che possa coprire "
+"la casa al centro. Per una regolazione più precisa, :guilabel:`Operazione` è "
+"stata impostata su **Write on clear**. Affinché la maschera funzioni, "
+"proteggendo cioè l'area mascherata, l'opzione :guilabel:`Operazione`’ deve "
+"essere impostata su **Sottrai**."
 
 #: ../../compositing/masking_and_tracking/masking.rst:102
 msgid "Apply the desired effect(s) to the clip and adjust as needed"
 msgstr ""
+"Applica gli effetti desiderati alla clip, e regolali secondo le tue necessità"
 
 #: ../../compositing/masking_and_tracking/masking.rst:111
 msgid "Gaussian Blur effect applied"
-msgstr ""
+msgstr "L'effetto Sfocatura gaussiana applicato"
 
 #: ../../compositing/masking_and_tracking/masking.rst:113
 msgid ""
 "This will blur the rest of the image but not the part covered by the mask."
 msgstr ""
+"In questo modo il resto dell'immagine risulterà sfocato, ma non la parte "
+"coperta dalla maschera."
 
 #: ../../compositing/masking_and_tracking/masking.rst:124
 msgid "bw0r effect (b&w) applied"
-msgstr ""
+msgstr "L'effetto bw0r (b&w) applicato"
 
 #: ../../compositing/masking_and_tracking/masking.rst:126
 msgid ""
 "This will make the rest of the image black and white but not the part "
 "covered by the mask."
 msgstr ""
+"In questo modo il resto dell'immagine risulterà in bianco e nero, ma non la "
+"parte coperta dalla maschera."
 
 #: ../../compositing/masking_and_tracking/masking.rst:130
 msgid ""
 "Add the :doc:`Mask Apply </effects_and_filters/video_effects/"
 "alpha_mask_keying/mask_apply>` effect to the clip"
 msgstr ""
+"Aggiungi l'effetto :doc:`Applica maschera </effects_and_filters/"
+"video_effects/alpha_mask_keying/mask_apply>` alla clip"
 
 #: ../../compositing/masking_and_tracking/masking.rst:139
 msgid "Result of the mask"
-msgstr ""
+msgstr "Il risultato della maschera"
 
 #: ../../compositing/masking_and_tracking/masking.rst:141
 msgid ""
 "The masked area is protected from the effects of the two effects/filters. In "
 "this example the house in the middle stands out and is in focus."
 msgstr ""
+"L'area mascherata è protetta dagli effetti dei due filtri. In questo "
+"esempio, la casa al centro risalta ed è a fuoco."
 
 #: ../../compositing/masking_and_tracking/masking.rst:143
 msgid ""
 "To adjust for camera movement, you can use keyframes in the **Mask** effect "
 "to change position, size, rotation, and other parameters."
 msgstr ""
+"Per compensare il movimento della telecamera, puoi utilizzare i fotogrammi "
+"chiave nell'effetto **Maschera**, per poter modificare posizione, "
+"dimensioni, rotazione e altri parametri."
 
 #: ../../compositing/masking_and_tracking/masking.rst:148
 msgid ""
 "You can repeat this as often as needed for the same clip or add other "
 "effects after the **Mask Apply** for affecting the entire clip."
 msgstr ""
+"Puoi ripetere questa operazione tutte le volte che vuoi per la stessa clip, "
+"oppure aggiungere altri effetti dopo **Applica maschera**: in questo modo "
+"potrai applicare questi effetti all'intera clip."
 
 #: ../../compositing/masking_and_tracking/masking.rst:151
 msgid "Other Examples"
@@ -248,20 +304,25 @@ msgid ""
 "video_effects/alpha_mask_keying/rotoscoping_mask>` with keyframes to "
 "highlight an object in a video:"
 msgstr ""
+"Ecco un esempio di come utilizzare il :doc:`rotoscopio </effects_and_filters/"
+"video_effects/alpha_mask_keying/rotoscoping_mask>` con i fotogrammi chiave, "
+"così da mettere in risalto un oggetto in un video:"
 
 #: ../../compositing/masking_and_tracking/masking.rst:161
 msgid "Rotoscoping Mask with keyframes"
-msgstr ""
+msgstr "Maschera di rotoscopio con fotogrammi chiave"
 
 #: ../../compositing/masking_and_tracking/masking.rst:163
 msgid ""
 "The :doc:`/effects_and_filters/video_effects/color_image_correction/"
 "colorize` effect was used to highlight the masked area."
 msgstr ""
+"Per evidenziare l'area mascherata è stato utilizzato l'effetto :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/colora`"
 
 #: ../../compositing/masking_and_tracking/masking.rst:170
 msgid "This is the mask that the rotoscoping effect creates:"
-msgstr ""
+msgstr "Questa è la maschera creata dall'effetto rotoscopio:"
 
 #: ../../compositing/masking_and_tracking/masking.rst:172
 msgid "|roto_mask|"
@@ -272,3 +333,5 @@ msgid ""
 "The black areas are now the alpha channel, allowing the clip in the track "
 "below to show through."
 msgstr ""
+"Le aree nere costituiscono ora il canale alfa, permettendo alla clip nella "
+"traccia sottostante di essere visibile."
