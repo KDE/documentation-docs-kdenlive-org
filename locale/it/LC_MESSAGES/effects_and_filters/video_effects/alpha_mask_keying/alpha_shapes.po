@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2026-07-27 21:48+0200\n"
+"PO-Revision-Date: 2026-08-09 15:49+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -40,7 +40,7 @@ msgstr "apple"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:-1
 msgid "Kdenlive Video Effects - Alpha Shapes"
-msgstr "Effetti video di Kdenlive - Forme sul canale alfa"
+msgstr "Effetti video di Kdenlive - Forme alfa"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:-1
 msgid ""
@@ -48,7 +48,7 @@ msgid ""
 "effects, alpha shapes"
 msgstr ""
 "KDE, Kdenlive, editor video, aiuto, impara, facile, effetti, filtro, effetti "
-"video, stilizza, forme sul canale alfa"
+"video, stilizza, forme alfa"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:0
 msgid "**Status**"
@@ -80,7 +80,7 @@ msgstr "**Bug conosciuti**"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:27
 msgid "Alpha Shapes"
-msgstr "Forme sul canale alfa"
+msgstr "Forme alfa"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:37
 msgid "Maintained"
@@ -334,7 +334,7 @@ msgstr "**Valori di Min e Max e operazioni**"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:147
 msgid "Alpha Shapes example timeline"
-msgstr "Linea temporale di esempio per Forme sul canale alfa"
+msgstr "Linea temporale di esempio per Forme alfa"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:149
 msgid ""
@@ -344,14 +344,14 @@ msgid ""
 "understand the explanations of the various parameters and operations in the "
 "examples below."
 msgstr ""
+"Negli esempi utilizzeremo una clip video sulla traccia video V1, e una clip "
+"di titolo (sfondo blu e testo «Video 1») sulla traccia video V2. L'effetto "
+"«Forme alfa» è applicato alla clip sovrapposta sulla traccia V2. È "
+"importante comprendere questo aspetto per seguire le spiegazioni relative ai "
+"vari parametri e alle operazioni illustrate negli esempi riportati di "
+"seguito."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:151
-#, fuzzy
-#| msgid ""
-#| "Alpha shapes effect draws areas of opacity onto the image. The addition "
-#| "of this filter (with the default settings of Min = 0 and Max =1000) makes "
-#| "the whole frame transparent except for an area of opaqueness where the "
-#| "top image can be seen."
 msgid ""
 "The Alpha Shapes effect draws areas of opacity onto the clip. The addition "
 "of this filter (with the default settings of Min = 0 and Max = 1000) makes "
@@ -361,25 +361,25 @@ msgid ""
 "(can be seen) except for an area of transparency defined by the shape and "
 "its position and size."
 msgstr ""
-"L'effetto forme alfa disegna aree di opacità sulla immagine. L'aggiunta di "
-"questo filtro (con le impostazioni predefinite di Min = 0 e Max =1000) rende "
-"trasparente l'intero fotogramma ad eccezione di un'area di opacità in cui "
-"può essere vista l'immagine che sta in cima."
+"L'effetto Forme alfa disegna aree di opacità sulla clip. L'applicazione di "
+"questo filtro (con le impostazioni predefinite Min = 0 e Max = 1000) rende "
+"l'intera clip trasparente, ad eccezione di un'area opaca definita dalla "
+"forma, dalla sua posizione e dalle sue dimensioni, attraverso la quale è "
+"possibile vedere la clip. Se si invertissero i valori Min e Max, il "
+"risultato sarebbe che l'intera clip risulterebbe opaca (visibile) ad "
+"eccezione di un'area trasparente definita dalla forma, dalla sua posizione e "
+"dalle sue dimensioni."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:153
-#, fuzzy
-#| msgid ""
-#| "The Max and Min controls adjust the opacity of the image inside and "
-#| "outside of the shape respectively. A setting of 1000 is 100% opaque. A "
-#| "setting of zero is 0% opaque (i.e., 100% transparent)."
 msgid ""
 "The Max and Min values adjust the opacity of the clip inside and outside of "
 "the shape, respectively. A setting of 1000 is 100% opaque. A setting of zero "
 "is 0% opaque (i.e. 100% transparent)."
 msgstr ""
-"I controlli Max e Min regolano l'opacità dell'immagine dentro e fuori della "
-"forma, rispettivamente. Un'impostazione di 1000 significa 100% di opacità. "
-"Un'impostazione di zero significa 0% di opacità (cioè 100% trasparente)."
+"I valori Max e Min regolano rispettivamente l'opacità della clip all'interno "
+"e all'esterno della forma. Un valore pari a 1000 corrisponde al 100% di "
+"opacità, mentre un valore pari a zero corrisponde allo 0% di opacità (ovvero "
+"al 100% di trasparenza)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:155
 msgid "**Max control**"
@@ -390,19 +390,14 @@ msgid "Max parameter at 1000"
 msgstr "Parametro massimo a 1000"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:164
-#, fuzzy
-#| msgid ""
-#| "The Max control regulates how opaque it is inside the shape. At Max = "
-#| "1000 it is completely opaque inside the shape and nothing of the "
-#| "background image shows through."
 msgid ""
 "The :guilabel:`Max` parameter controls how opaque it is *inside* the shape. "
 "At Max = 1000 it is completely opaque inside the shape and nothing of the "
 "clip on V1 (background) shows through."
 msgstr ""
-"Il controllo Max regola quanto è opaco l'interno della forma. Con Max = "
-"1000, l'interno della forma è completamente opaco e non viene mostrato nulla "
-"dell'immagine di sfondo."
+"Il parametro :guilabel:`Max` determina il grado di opacità *all'interno* "
+"della forma. Con Max = 1000, l'interno della forma è completamente opaco, e "
+"non si intravede nulla della clip su V1 (sfondo)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:173
 msgid "Max parameter at 500"
@@ -439,21 +434,16 @@ msgid "Min parameter at 100"
 msgstr "Parametro minimo a 100"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:200
-#, fuzzy
-#| msgid ""
-#| "The Min control adjusts how opaque it is outside the shape. When Min = 0 "
-#| "outside the shape is completely transparent (opacity of zero) and at Min "
-#| "= 500 we see something of the foreground appears outside the shape."
 msgid ""
 "The :guilabel:`Min` parameter adjusts how opaque it is *outside* the shape. "
 "When Min = 1000 the outside of the shape is completely opaque (opacity of "
 "100%), and at Min = 500 we see something of the foreground appear outside "
 "the shape."
 msgstr ""
-"Il controllo Min regola quanto è opaco l'esterno della forma. Quando Min = "
-"0, l'esterno della forma è completamente trasparente (opacità uguale a "
-"zero), mentre con Min = 500 si riesce a vedere qualcosa dell'immagine di "
-"primo piano al di fuori della forma."
+"Il parametro :guilabel:`Min` regola il grado di opacità *all'esterno* della "
+"forma. Con Min = 1000, l'esterno della forma è completamente opaco (opacità "
+"al 100%), mentre con Min = 500 si intravede qualcosa in primo piano apparire "
+"all'esterno della forma."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:209
 msgid "Min parameter at 1000"
@@ -467,11 +457,11 @@ msgstr "Con Min = 1000 l'opacità esterna è al 100% e lo sfondo non è visibile
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:216
 msgid "**Combining Alpha Shapes - Operations**"
-msgstr "**Combinazione di forme alfa - Operazioni**"
+msgstr "**Combinazione di Forme alfa - Operazioni**"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:223
 msgid "Alpha Shape effects stacked: (1) & (2)"
-msgstr ""
+msgstr "L'effetto Forme alfa impilato: (1) e (2)"
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:225
 msgid ""
@@ -480,6 +470,11 @@ msgid ""
 "interact with each other. At the onset we are using the operation :guilabel:"
 "`Write on clear` so the second alpha shape effect appears on its own."
 msgstr ""
+"In questo esempio abbiamo aggiunto un secondo effetto Forme alfa (2) "
+"utilizzando un triangolo come forma. Poiché gli effetti vengono elaborati "
+"dall’alto verso il basso, i due effetti interagiscono tra loro. All'inizio "
+"utilizziamo l'operazione :guilabel:`Scrivi su trasparente`, in modo che il "
+"secondo effetto Forme alfa appaia da solo."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:234
 msgid "Max at 1000; Min at 500"
@@ -493,6 +488,11 @@ msgid ""
 "clear` makes Kdenlive ignore the previous alpha shape effect (1) - it is "
 "simply overwritten."
 msgstr ""
+"Con Max = 1000 l'opacità all'interno del triangolo è del 100%, mentre Min = "
+"500 determina un'opacità del 50% all'esterno del triangolo: questo fa sì che "
+"lo sfondo e il primo piano si fondano insieme. Tuttavia, l'operazione :"
+"guilabel:`Scrivi su trasparente` fa sì che Kdenlive ignori il precedente "
+"effetto Forme alfa (1): viene semplicemente sovrascritto."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:245
 msgid "Operation set to Max"
@@ -506,6 +506,12 @@ msgid ""
 "effect (2) - show up because both have the :guilabel:`Max` parameter value "
 "set to 1000 (= 100% opaque)."
 msgstr ""
+"Ora che abbiamo modificato l'operazione impostando il valore di :guilabel:"
+"`Max`, il precedente effetto Forme alfa viene preso in considerazione: "
+"entrambe le aree definite dalle rispettive forme – il rettangolo "
+"dell'effetto (1), e il triangolo dell'effetto (2) – vengono visualizzate, "
+"poiché entrambe hanno il valore del parametro :guilabel:`Max` impostato su "
+"1000 (= opacità al 100%)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:256
 msgid "Operation set to Min"
@@ -519,6 +525,11 @@ msgid ""
 "1000. There is no distinction between Min or Max, only the value of that "
 "pixel is taken into account."
 msgstr ""
+"Se l'operazione è impostata su :guilabel:`Min`, la fusione è diversa. "
+"Kdenlive prende i valori minimi tra quelli dei parametri Min e Max: il "
+"valore Min dell'effetto (2) è 500 nelle aree in cui il valore Max "
+"dell'effetto (1) è 1000. Non viene fatta alcuna distinzione tra Min e Max, "
+"viene preso in considerazione solo il valore di quel pixel."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:267
 msgid "Operation set to Add"
@@ -535,8 +546,6 @@ msgstr ""
 "aree definite da entrambe le forme degli effetti sono visibili."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:278
-#, fuzzy
-#| msgid "Operation set to Substract"
 msgid "Operation set to Subtract"
 msgstr "Operazione impostata su Sottrai"
 
@@ -555,8 +564,6 @@ msgstr ""
 "al 100%)."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:289
-#, fuzzy
-#| msgid "Operation set to Substract; Min = 0"
 msgid "Operation set to Subtract; Min = 0"
 msgstr "Operazione impostata su Sottrai; Min = 0"
 
@@ -569,6 +576,13 @@ msgid ""
 "and with the :guilabel:`Subtract` operation the Max value of the pixels in "
 "the overlapping area is 0."
 msgstr ""
+"In questo esempio abbiamo ridotto il valore Min dell'effetto (2) a 0, "
+"rendendo l'area al di fuori del triangolo opaca allo 0% (cioè trasparente al "
+"100%). Ciò fa sì che la forma rettangolare dell'effetto (1) venga ritagliata "
+"dalla forma triangolare dell'effetto (2), poiché i valori massimi in "
+"entrambi gli effetti sono pari a 1000 (opacità al 100%) e, con l'operazione :"
+"guilabel:`Sottrai`, il valore massimo dei pixel nell'area di sovrapposizione "
+"è pari a 0."
 
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_shapes.rst:296
 msgid "**Feathering**"

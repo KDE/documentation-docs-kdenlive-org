@@ -1,14 +1,14 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # SPDX-FileCopyrightText: 2023 Vincenzo Reale <smart2128vr@gmail.com>
-# SPDX-FileCopyrightText: 2024, 2025 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2024-2026 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2025-08-10 09:32+0200\n"
+"PO-Revision-Date: 2026-08-05 18:12+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -16,31 +16,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: ../../<rst_epilog>:310
 msgid "kdenlive-show-video"
 msgstr "kdenlive-show-video"
 
 #: ../../<rst_epilog>:640
-#, fuzzy
-#| msgid "Linux"
 msgid "linux"
-msgstr "Linux"
+msgstr "linux"
 
 #: ../../<rst_epilog>:644
 msgid "appimage"
 msgstr "appimage"
 
 #: ../../<rst_epilog>:648
-#, fuzzy
-#| msgid "Windows"
 msgid "windows"
-msgstr "Windows"
+msgstr "windows"
 
 #: ../../<rst_epilog>:652
 msgid "apple"
-msgstr ""
+msgstr "apple"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:-1
 msgid "Kdenlive Video Effects - Cairogradient"
@@ -153,6 +149,8 @@ msgstr "Modalità di fusione"
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:62
 msgid "Determines the mode used to composite  gradient and image source"
 msgstr ""
+"Determina la modalità utilizzata per la composizione tra il gradiente e la "
+"sorgente immagine"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:63
 msgid "Start Color"
@@ -201,7 +199,7 @@ msgstr "Opacità del secondo colore del gradiente"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:75
 msgid "Start / End X"
-msgstr ""
+msgstr "X iniziale / finale"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:77
 msgid "X position of the start and end point of the gradient"
@@ -209,7 +207,7 @@ msgstr "Posizione x del punto iniziale e del punto finale del gradiente"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:78
 msgid "Start / End Y"
-msgstr ""
+msgstr "Y iniziale / finale"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:80
 msgid "Y position of the start and end point of the gradient"
@@ -224,6 +222,8 @@ msgid ""
 "Position of the first color in the line connecting gradient ends. Really "
 "useful only for **radial** :guilabel:`Pattern`."
 msgstr ""
+"Posizione del primo colore nella linea che connette le estremità del "
+"gradiente. È davvero utile col :guilabel:`Modello` **radiale**."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:85
 msgid "The following selection items are available:"
@@ -280,6 +280,12 @@ msgid ""
 "source or destination color. Multiplying any color with black results in "
 "black. Multiplying any color with white preserves the original color."
 msgstr ""
+"Il colore sorgente viene moltiplicato per il colore di destinazione, e "
+"sostituisce quest'ultimo: il colore risultante è sempre almeno altrettanto "
+"scuro quanto il colore di origine o quello di destinazione. La "
+"moltiplicazione di qualsiasi colore per il nero dà come risultato il nero: "
+"la moltiplicazione di qualsiasi colore per il bianco mantiene inalterato il "
+"colore originale."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:114
 msgid "Screen"
@@ -294,6 +300,13 @@ msgid ""
 "The effect is similar to projecting multiple photographic slides "
 "simultaneously onto a single screen."
 msgstr ""
+"Moltiplica i complementari dei valori cromatici dello sfondo e del colore "
+"sorgente, quindi calcola il complementare del risultato; il colore "
+"risultante è sempre almeno altrettanto chiaro di uno dei due colori che lo "
+"compongono. La proiezione di qualsiasi colore con il bianco produce il "
+"bianco; la proiezione con il nero lascia inalterato il colore originale. "
+"L'effetto è simile alla proiezione simultanea di più diapositive "
+"fotografiche su un unico schermo."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:116
 msgid "Overlay"
@@ -306,10 +319,14 @@ msgid ""
 "shadows. The backdrop color is not replaced but is mixed with the source "
 "color to reflect the lightness or darkness of the backdrop."
 msgstr ""
+"Moltiplica o proietta i colori, a seconda del valore cromatico dello sfondo. "
+"I colori di origine si sovrappongono allo sfondo, preservandone le luci e le "
+"ombre. Il colore dello sfondo non viene sostituito, ma si fonde con il "
+"colore di origine per riflettere la luminosità o l'oscurità dello sfondo."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:118
 msgid "Darken"
-msgstr "Scurisci"
+msgstr "Più scuro"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:119
 msgid ""
@@ -317,10 +334,13 @@ msgid ""
 "replaced with the source where the source is darker; otherwise, it is left "
 "unchanged."
 msgstr ""
+"Seleziona il colore più scuro tra quelli dello sfondo e della sorgente. Lo "
+"sfondo viene sostituito con quello della sorgente solo se quest’ultimo è più "
+"scuro; in caso contrario, rimane invariato."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:120
 msgid "Lighten"
-msgstr "Schiarisci"
+msgstr "Più chiaro"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:121
 msgid ""
@@ -328,6 +348,9 @@ msgid ""
 "replaced with the source where the source is lighter; otherwise, it is left "
 "unchanged."
 msgstr ""
+"Seleziona il colore più chiaro tra quelli dello sfondo e della sorgente. Lo "
+"sfondo viene sostituito con quello della sorgente solo se quest’ultimo è più "
+"chiaro; in caso contrario, rimane invariato."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:122
 msgid "Color dodge"
@@ -338,6 +361,8 @@ msgid ""
 "Brightens the backdrop color to reflect the source color. Painting with "
 "black produces no changes."
 msgstr ""
+"Schiarisce il colore dello sfondo per riflettere quello della sorgente. "
+"Dipingere con il nero non produce alcuna modifica."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:124
 msgid "Color burn"
@@ -348,6 +373,8 @@ msgid ""
 "Darkens the backdrop color to reflect the source color. Painting with white "
 "produces no change."
 msgstr ""
+"Scurisce il colore dello sfondo per riflettere quello della sorgente. "
+"Dipingere con il nero non produce alcuna modifica."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:126
 msgid "Hard light"
@@ -358,6 +385,8 @@ msgid ""
 "Multiplies or screens the colors, depending on the source color value. The "
 "effect is similar to shining a harsh spotlight on the backdrop."
 msgstr ""
+"Moltiplica o proietta i colori, a seconda del valore del colore sorgete. "
+"L'effetto è simile a quello di un faro molto intenso puntato sullo sfondo."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:128
 msgid "Soft light"
@@ -368,6 +397,8 @@ msgid ""
 "Darkens or lightens the colors, depending on the source color value. The "
 "effect is similar to shining a diffused spotlight on the backdrop."
 msgstr ""
+"Scurisce o schiarisce i colori, a seconda del valore del colore sorgente. "
+"L'effetto è simile a quello di un riflettore diffuso puntato sullo sfondo."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:130
 msgid "Difference"
@@ -379,6 +410,9 @@ msgid ""
 "Painting with white inverts the backdrop color; painting with black produces "
 "no change."
 msgstr ""
+"Sottrae il colore più scuro dei due costituenti dal colore più chiaro. "
+"Dipingere con il bianco inverte il colore dello sfondo, mentre il nero non "
+"produce alcuna modifica."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:132
 msgid "Exclusion"
@@ -390,24 +424,33 @@ msgid ""
 "contrast. Painting with white inverts the backdrop color; painting with "
 "black produces no change."
 msgstr ""
+"Produce un effetto simile a quello della modalità Differenza, ma con un "
+"contrasto minore. Dipingere con il bianco si inverte il colore dello sfondo, "
+"mentre il nero non produce alcuna modifica."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:134
 msgid ""
 ":abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for "
 "subtle color changes)` hue"
 msgstr ""
+"Tonalità :abbr:`HSL(Hue, Saturation, Lightness - L'uso dello spazio colore "
+"HSL è utile per apportare sottili variazioni di colore)`"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:135
 msgid ""
 "Creates a color with the hue of the source color and the saturation and "
 "luminosity of the backdrop color."
 msgstr ""
+"Crea un colore con la tonalità del colore di origine, e la saturazione e la "
+"luminosità del colore di sfondo."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:136
 msgid ""
 ":abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for "
 "subtle color changes)` saturation"
 msgstr ""
+"Saturazione :abbr:`HSL(Hue, Saturation, Lightness - L'uso dello spazio "
+"colore HSL è utile per apportare sottili variazioni di colore)`"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:137
 msgid ""
@@ -415,12 +458,18 @@ msgid ""
 "luminosity of the backdrop color. Painting with this mode in an area of the "
 "backdrop that is a pure gray (no saturation) produces no change."
 msgstr ""
+"Crea un colore con la saturazione del colore di origine e la tonalità e la "
+"luminosità del colore di sfondo. Dipingere con questa modalità su un'area "
+"dello sfondo di colore grigio puro (senza saturazione) non produce nessun "
+"cambiamento."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:138
 msgid ""
 ":abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for "
 "subtle color changes)` color"
 msgstr ""
+"Colore :abbr:`HSL(Hue, Saturation, Lightness - L'uso dello spazio colore HSL "
+"è utile per apportare sottili variazioni di colore)`"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:139
 msgid ""
@@ -429,12 +478,18 @@ msgid ""
 "backdrop and is useful for coloring monochrome images or tinting color "
 "images."
 msgstr ""
+"Crea un colore con la tonalità e la saturazione del colore di origine, e la "
+"luminosità del colore di sfondo. In questo modo vengono preservati i livelli "
+"di grigio dello sfondo; questa funzione è utile per colorare le immagini "
+"monocromatiche, o per applicare una sfumatura alle immagini a colori."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:140
 msgid ""
 ":abbr:`HSL(Hue, Saturation, Lightness - Using HSL color space is useful for "
 "subtle color changes)` luminosity"
 msgstr ""
+"Luminosità :abbr:`HSL(Hue, Saturation, Lightness - L'uso dello spazio colore "
+"HSL è utile per apportare sottili variazioni di colore)`"
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:141
 msgid ""
@@ -442,10 +497,15 @@ msgid ""
 "saturation of the backdrop color. This produces an inverse effect to that of "
 "the Color mode."
 msgstr ""
+"Crea un colore con la luminosità del colore di origine, e la saturazione, e "
+"la tonalità e la saturazione del colore di sfondo. Ciò produce un effetto "
+"opposto a quello della modalità Colore."
 
 #: ../../effects_and_filters/video_effects/generate/cairogradient.rst:151
 msgid "For more details see this W3 paper on |blending_modes|"
 msgstr ""
+"Per ulteriori dettagli, consulta questo documento del W3 sulle |"
+"blending_modes|"
 
 #~ msgid "MacOS"
 #~ msgstr "MacOS"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2026-07-26 10:26+0200\n"
+"PO-Revision-Date: 2026-08-05 17:59+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -165,8 +165,9 @@ msgid ""
 "Capture field order bottom-first, transfer top-first. Filter will delay the "
 "top field."
 msgstr ""
-"L'ordine dei campi di cattura è dal basso verso l'alto, il trasferimento "
-"dall'alto verso il basso. Il filtro ritarda il campo superiore."
+"Ordine dei campi in acquisizione: campo inferiore per primo. Ordine dei "
+"campi in uscita: campo superiore per primo. Il filtro ritarda il campo "
+"superiore."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:74
 msgid "Delay the bottom field"
@@ -177,12 +178,13 @@ msgid ""
 "Capture field order top-first, transfer bottom-first. Filter will delay the "
 "bottom field. This is the default mode."
 msgstr ""
-"L'ordine dei campi di cattura è dall'alto verso il basso, il trasferimento "
-"dal basso verso l'alto. È la modalità predefinita."
+"Ordine dei campi in acquisizione: campo superiore per primo. Ordine dei "
+"campi in uscita: campo inferiore per primo. Il filtro ritarda il campo "
+"inferiore. Questa è la modalità predefinita."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:76
 msgid "Keep the field order"
-msgstr "Mantieni ordine del campo"
+msgstr "Mantieni l'ordine dei campi"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:77
 msgid ""
@@ -190,13 +192,15 @@ msgid ""
 "the documentation of the other options to refer to, but if you actually "
 "select it, the filter will faithfully do nothing."
 msgstr ""
-"Cattura e trasferimento con lo stesso ordine di campo. Questa modalità "
-"esiste solo per la documentazione delle altre opzioni, ma, se la selezioni, "
-"il filtro non farà nulla."
+"L'ordine dei campi rimane invariato tra acquisizione e uscita. Questa "
+"modalità è presente solo come riferimento per la documentazione delle altre "
+"opzioni; se viene selezionata, il filtro non esegue alcuna operazione."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:78
 msgid "Capture field order automatically and transfer opposite"
-msgstr "Acquisizione automatica dell'ordine di campo, e trasferimento opposto"
+msgstr ""
+"Rileva automaticamente l'ordine dei campi in acquisizione e inverti quello "
+"di uscita"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:79
 msgid ""
@@ -204,10 +208,14 @@ msgid ""
 "frame basis using field flags. If no field information is available, then "
 "this works just like **Capture Unknown**."
 msgstr ""
+"Il filtro sceglie, fotogramma per fotogramma, tra **Ritarda il campo "
+"superiore** e **Ritarda il campo inferiore** utilizzando i flag dei campi. "
+"Se non sono disponibili informazioni sull'ordine dei campi, il comportamento "
+"è identico a Acquisizione sconosciuta."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:80
 msgid "Capture unknown or varying and transfer opposite"
-msgstr ""
+msgstr "Acquisizione con ordine sconosciuto o variabile, uscita invertita"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:81
 msgid ""
@@ -215,29 +223,41 @@ msgid ""
 "basis by analyzing the images and selecting the alternative that produces "
 "best match between the fields."
 msgstr ""
+"Il filtro sceglie, fotogramma per fotogramma, tra **Ritarda il campo "
+"superiore** e **Ritarda il campo inferiore** analizzando le immagini e "
+"selezionando l'alternativa che produce la migliore corrispondenza tra i "
+"campi."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:82
 msgid "Capture top-first and transfer unknown or varying"
 msgstr ""
+"Acquisizione con campo superiore per primo, uscita sconosciuta o variabile"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:83
 msgid ""
 "Filter selects among **Delay bottom** and **Keep order** using image "
 "analysis."
 msgstr ""
+"Il filtro sceglie, tramite analisi dell'immagine, tra **Ritarda il campo "
+"inferiore** e **Mantieni l'ordine dei campi**."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:84
 msgid "Capture bottom-first and transfer unknown or varying"
 msgstr ""
+"Acquisizione con campo inferiore per primo, uscita sconosciuta o variabile"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:85
 msgid ""
 "Filter selects among **Delay Top** and **Keep order** using image analysis."
 msgstr ""
+"Il filtro sceglie, tramite analisi dell'immagine, tra **Ritarda il campo "
+"superiore** e **Mantieni l'ordine dei campi**."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:86
 msgid "Capture determined by field flags and transfer unknown or varying"
 msgstr ""
+"Ordine di acquisizione determinato dai flag dei campi, uscita sconosciuta o "
+"variabile"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:87
 msgid ""
@@ -245,16 +265,24 @@ msgid ""
 "using field flags and image analysis. If no field information is available, "
 "then this works just like **Both capture**."
 msgstr ""
+"Il filtro sceglie tra **Ritarda il campo inferiore**, **Ritarda il campo "
+"superiore** e **Mantieni l'ordine dei campi** utilizzando sia i flag dei "
+"campi, sia l'analisi dell'immagine. Se non sono disponibili informazioni sui "
+"campi, il comportamento è identico a **Acquisizione e uscita entrambe "
+"sconosciute o variabili**."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:88
 msgid "Both capture and transfer unknown or varying"
-msgstr ""
+msgstr "Acquisizione e uscita entrambe sconosciute o variabili"
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:89
 msgid ""
 "Filter selects among **Delay bottom**, **Delay Top** and **Keep order** "
 "using image analysis only."
 msgstr ""
+"Il filtro sceglie tra **Ritarda il campo inferiore**, **Ritarda il campo "
+"superiore** e **Mantieni l'ordine dei campi** basandosi esclusivamente "
+"sull'analisi dell'immagine."
 
 #: ../../effects_and_filters/video_effects/image_adjustment/phase.rst:93
 msgid ""
@@ -262,6 +290,11 @@ msgid ""
 "up in the effect panel. It doesn't affect the functionality, though. You can "
 "make the effect panel widget wider to fit everything."
 msgstr ""
+"A causa della lunghezza delle voci presenti nell'elenco a tendina, il nome "
+"del parametro potrebbe non essere visualizzato completamente nel pannello "
+"degli effetti.: questo però non influisce sul funzionamento del filtro. Se "
+"necessario, puoi aumentare la larghezza del pannello degli effetti per "
+"visualizzare l'intero testo."
 
 #~ msgid "MacOS"
 #~ msgstr "MacOS"
