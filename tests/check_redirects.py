@@ -37,7 +37,7 @@ class TestRedirects(unittest.TestCase):
 
             self.assertTrue(
                 tartgetFile.is_file(),
-                f"The target {target!r} for redirect {redirect!r} does not exist",
+                f"In 404handler.php there is a rule to redirect requests matching {redirect!r} to target {target!r}, but the target does not exist",
             )
 
 
