@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2026-08-09 16:29+0200\n"
+"PO-Revision-Date: 2026-08-15 18:26+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -146,7 +146,7 @@ msgstr "Valore"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:60
 msgid "Output darkest / brightest input color"
-msgstr ""
+msgstr "Colore di uscita più scuro / più chiaro rispetto al colore di ingresso"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:61
 msgid "Picker"
@@ -163,10 +163,20 @@ msgid ""
 "Specifying saturated colors here can create some interesting effects. Use "
 "the |color-picker| color picker or the color button to select the color."
 msgstr ""
+"I colori che definiscono l'intervallo di output. Il valore minimo in "
+"ingresso viene associato al *colore di uscita più scuro*, mentre quello "
+"massimo in ingresso al *colore di uscita più chiaro*. I valori predefiniti "
+"sono rispettivamente il bianco e il nero. Specificando il bianco come "
+"*colore di uscita più scuro*, e il nero come *colore di uscita più chiaro*, "
+"si ottiene un video normalizzato con i colori invertiti. È possibile "
+"utilizzare le sfumature di grigio per ridurre la gamma dinamica (contrasto). "
+"Specificando qui colori saturi è possibile creare alcuni effetti "
+"interessanti. Utilizza il |color-picker| selettore di colori o il pulsante "
+"del colore per selezionare il colore."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:63
 msgid "Smoothing"
-msgstr "Smussatura"
+msgstr "Livellamento"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:64
 msgid "Integer"
@@ -178,10 +188,15 @@ msgid ""
 "of each channel is smoothed using a rolling average over the current frame "
 "and the smoothing previous frames. The default is 0 (no temporal smoothing)"
 msgstr ""
+"Il numero di fotogrammi precedenti da utilizzare per il livellamento "
+"temporale. L'intervallo di input di ciascun canale viene livellato "
+"utilizzando una media mobile calcolata sul fotogramma corrente e sui "
+"fotogrammi precedenti indicati dal parametro Livellamento. Il valore "
+"predefinito è 0 (nessun livellamento temporale)"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:66
 msgid "Independence"
-msgstr "Independence"
+msgstr "Indipendenza"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:67
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:70
@@ -194,19 +209,25 @@ msgid ""
 "linked (color preserving) normalization. 0.0 is fully linked, 1.0 is fully "
 "independent. Defaults to 1.0 (fully independent)."
 msgstr ""
+"Controlla il rapporto tra la normalizzazione indipendente dei canali (che "
+"modifica i colori) e la normalizzazione collegata (che preserva i colori). "
+"0,0 corrisponde alla normalizzazione completamente collegata, mentre 1,0 "
+"corrisponde alla normalizzazione completamente indipendente. Il valore "
+"predefinito è 1,0 (completamente indipendente)."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:69
 msgid "Strength"
-msgstr "Forza"
+msgstr "Intensità"
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:71
 msgid ""
 "Overall strength of the filter. 1.0 is full strength. 0.0 is a rather "
 "expensive no-op. Defaults to 1.0 (full strength)."
 msgstr ""
-"La forza complessiva del filtro. 1.0 indica la piena forza, mentre 0.0 è un "
-"\"nessuna operazione\" piuttosto costoso. Il valore predefinito è 1.0 (piena "
-"forza)"
+"L'intensità complessiva del filtro. 1,0 corrisponde all'intensità massima, "
+"mentre 0,0 equivale a una sorta di no-op (nessuna operazione), pur "
+"richiedendo comunque una notevole quantità di risorse. Il valore predefinito "
+"è 1,0 (intensità massima)."
 
 #: ../../effects_and_filters/video_effects/color_image_correction/normalize_rgb_video.rst:77
 msgid ""

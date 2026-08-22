@@ -1,14 +1,14 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # Vincenzo Reale <smart2128vr@gmail.com>, 2022.
-# SPDX-FileCopyrightText: 2022, 2023 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2022-2023, 2026 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2023-12-25 23:53+0100\n"
+"PO-Revision-Date: 2026-08-12 22:33+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:-1
 msgid "Kdenlive Tips & Tricks - How the Histogram works"
@@ -28,6 +28,9 @@ msgid ""
 "timeline, documentation, user manual, video editor, open source, free, "
 "learn, easy"
 msgstr ""
+"KDE, Kdenlive, suggerimenti, trucchi, suggerimenti e trucchi, visori, "
+"istogramma, modifica, sequenza temporale, documentazione, manuale utente, "
+"editor video, open source, libero, impara, facile"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:38
 msgid "How the Histogram Works"
@@ -41,6 +44,12 @@ msgid ""
 "represent with one Byte. 0 means that the component is not shining at all (i."
 "e. it is black), 255 means that it is shining as bright as possible."
 msgstr ""
+"Quando l'istogramma riceve un'immagine aggiornata da uno dei controlli, "
+"ciascuno dei suoi pixel è costituito da una componente rossa, verde e blu. "
+"Ciascuno di questi valori è compreso tra 0 e 255, ovvero i valori "
+"rappresentabili con un byte: 0 significa che la componente non emette "
+"nessuna luce (cioè è nera), mentre 255 significa che emette luce alla "
+"massima intensità possibile."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:42
 msgid ""
@@ -48,10 +57,13 @@ msgid ""
 "certain brightness occurs. So what the histogram then does is actually quite "
 "simple:"
 msgstr ""
+"L'istogramma è semplicemente una forma di statistica: mostra con quale "
+"frequenza si presenta una componente con una determinata luminosità. Il "
+"funzionamento dell'istogramma è quindi abbastanza semplice:"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:44
 msgid "Take the first pixel"
-msgstr ""
+msgstr "Prendi il primo pixel"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:45
 msgid ""
@@ -60,6 +72,10 @@ msgid ""
 "increase the height of the bar at position 0 (that is at the very left) of "
 "the histogram by 1. If it is 42, increase bar 42 by 1. And so on."
 msgstr ""
+"Osserva il valore Rosso (= *x*) del pixel. Aumenta di 1 l'altezza della "
+"barra dell'istogramma nella posizione *x*. Esempio: se il valore del rosso è "
+"0, aumenta di 1 l'altezza della barra nella posizione 0 (quella all'estrema "
+"sinistra dell'istogramma). Se è 42, aumenta di 1 la barra 42, e così via."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:46
 msgid "Repeat the previous step with Green and Blue."
@@ -71,10 +87,13 @@ msgid ""
 "the perceived luminance of this pixel. See :ref:`further below <scopes-"
 "luma_calc>` how it is calculated."
 msgstr ""
+"Considera insieme R, G e B, e calcola il valore di :term:`Luma`. La luma è "
+"la luminosità percepita di questo pixel. :ref:`Più avanti <scopes-"
+"luma_calc>` viene spiegato come viene calcolata."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:48
 msgid "Repeat these steps for all other pixels on the image."
-msgstr ""
+msgstr "Ripeti questi passaggi per tutti gli altri pixel dell'immagine."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:51
 msgid "What the Histogram Shows"
@@ -87,20 +106,28 @@ msgid ""
 "channels separately instead of at the calculated Luma component only, you "
 "cannot really guess the colors in the image. Take a look at these two images:"
 msgstr ""
+"L'istogramma mostra esclusivamente la distribuzione della luminanza delle "
+"componenti selezionate: niente di più, niente di meno. Anche quando si "
+"osservano separatamente i canali RGB invece della sola componente Luma "
+"calcolata non è realmente possibile dedurre quali siano i colori presenti "
+"nell'immagine. Guarda queste due immagini:"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:58
 msgid "Histogram for a simple greyscale gradient image"
-msgstr ""
+msgstr "Istogramma di una semplice immagine con gradiente in scala di grigi"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:63
 msgid "Histogram for a simple color gradient image"
-msgstr ""
+msgstr "Istogramma di una semplice immagine con gradiente a colori"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:65
 msgid ""
 "Exactly the same Histogram. Totally different colors. (What you can do is "
 "guessing the color tone; see below.) But what is the histogram good for now?"
 msgstr ""
+"Esattamente lo stesso istogramma, ma con colori completamente diversi. È "
+"possibile invece fare un'ipotesi sulla tonalità del colore; vedi più avanti. "
+"Ma allora a cosa serve l'istogramma?"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:67
 msgid ""
@@ -110,18 +137,24 @@ msgid ""
 "the same applies for digital video cameras. Both articles are easy to read "
 "and understand and may also be of interest for experienced users."
 msgstr ""
+"Per rispondere a questa domanda, è utile fare riferimento all'articolo di |"
+"cambridge_in_colour|: |tones_and_contrast|, e alla seconda parte, |"
+"luminance_and_color|. Sebbene siano stati scritti per le fotocamere "
+"digitali, gli stessi concetti valgono esattamente per le videocamere "
+"digitali. Entrambi gli articoli sono facili da leggere e comprendere, e "
+"possono risultare interessanti anche per gli utenti esperti."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:70
 msgid "Example 1: Candlelight"
-msgstr ""
+msgstr "Esempio 1: luce di candela"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:75
 msgid "Histogram example with a candlelight image"
-msgstr ""
+msgstr "Esempio di istogramma con un'immagine di una luce di candela"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:77
 msgid "Two special things about this histogram."
-msgstr "Due cose speciali su questo istogramma."
+msgstr "Ci sono due aspetti particolari in questo istogramma."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:79
 msgid ""
@@ -130,6 +163,11 @@ msgid ""
 "Nevertheless, the blue component does reach 0. This means that the darkest "
 "pixels are still slightly orange and didn't lose all color information yet."
 msgstr ""
+"La maggior parte dei pixel è scura, secondo la componente Luma (bianca). "
+"Tuttavia, non c'è nessun nero assoluto: nota che la componente Luma mostra "
+"«min: 8». La componente blu, invece, raggiunge effettivamente lo 0: questo "
+"significa che i pixel più scuri sono ancora leggermente arancioni, e non "
+"hanno ancora perso tutte le informazioni sul colore."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:81
 msgid ""
@@ -141,6 +179,14 @@ msgid ""
 "this case the candles cause the clipping. (Not too bad here, because the "
 "lost detail isn't important for the image.)"
 msgstr ""
+"È presente una quantità considerevole di clipping: molti valori R sono fermi "
+"all'estrema destra, a 255. La presenza di un picco a 255 significa "
+"generalmente che abbiamo perso informazioni, perché alcune zone erano troppo "
+"luminose per il sensore della fotocamera con le impostazioni di sensibilità "
+"utilizzate. Questo avrebbe potuto essere risolto riducendo la sensibilità, "
+"ma in tal caso il libro e praticamente tutto il resto sarebbero diventati "
+"neri. In questo caso sono le candele a causare il clipping: qui non è un "
+"problema grave, perché i dettagli persi non sono importanti per l'immagine."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:83
 msgid ""
@@ -151,24 +197,35 @@ msgid ""
 "effects_and_filters/video_effects/color_image_correction/curves` effect, but "
 "this is a matter of taste and the intended mood for the final movie."
 msgstr ""
+"Le componenti RGB mostrano inoltre molto bene che le ombre non sono grigie "
+"neutre, ma arancioni; altrimenti, come nell'istogramma del gradiente "
+"precedente, i raggruppamenti di colori sulla sinistra avrebbero il loro "
+"centro nella stessa posizione. Non c'è molto da correggere in questo caso: "
+"si potrebbe aumentare la luminosità delle ombre con un effetto  a :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/curves`, ma è una "
+"questione di gusto e dell'atmosfera che si desidera ottenere nel filmato "
+"finale."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:88
 msgid ""
 "Histogram before and after applying some color correcting with the :doc:`/"
 "effects_and_filters/video_effects/color_image_correction/curves` effect"
 msgstr ""
+"Istogramma prima e dopo l'applicazione di una correzione del colore con "
+"l'effetto :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"curves`"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:91
 msgid "Example 2: Underexposed ABC"
-msgstr ""
+msgstr "Esempio 2: ABC sottoesposta"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:96
 msgid "Histogram example 2 with an underexposed image"
-msgstr ""
+msgstr "Esempio 2 di istogramma con un'immagine sotto esposta"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:98
 msgid "We immediately notice two things:"
-msgstr ""
+msgstr "Notiamo immediatamente due cose:"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:100
 msgid ""
@@ -178,12 +235,20 @@ msgid ""
 "that the Histogram is not very accurate for white balance. Later we will "
 "introduce a much more accurate scope."
 msgstr ""
+"I picchi RGB si trovano nella stessa posizione, vicino al centro. La parete "
+"bianca è la parte più luminosa, quindi questi picchi provengono da qui. "
+"Poiché non sono spostati, il bilanciamento del bianco dovrebbe essere "
+"corretto (e l'immagine lo conferma). Nota che l'istogramma non è "
+"particolarmente preciso per quanto riguarda il bilanciamento del bianco. Più "
+"avanti presenteremo un visore molto più preciso."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:102
 msgid ""
 "The image is too dark. The brightest component, red, only reaches a value of "
 "170. The white wall is actually grey."
 msgstr ""
+"L'immagine è troppo scura. La componente più luminosa, il rosso, raggiunge "
+"appena il valore 170. La parete bianca è in realtà grigia."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:104
 msgid ""
@@ -192,12 +257,20 @@ msgid ""
 "color_image_correction/curves` as well, but this time we will use the :doc:`/"
 "effects_and_filters/video_effects/color_image_correction/levels` effect."
 msgstr ""
+"Il controllo della corretta esposizione è il punto di forza dell'istogramma! "
+"L'esposizione potrebbe essere corretta anche con :doc:`/effects_and_filters/"
+"video_effects/color_image_correction/curves`, ma questa volta utilizzeremo "
+"l'effetto :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"levels`."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:109
 msgid ""
 "Histogram before and after applying the :doc:`/effects_and_filters/"
 "video_effects/color_image_correction/levels` effect to correct exposure"
 msgstr ""
+"L'istogramma prima e dopo l'applicazione dell'effetto :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/levels` per "
+"correggere l'esposizione"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:111
 msgid ""
@@ -206,14 +279,19 @@ msgid ""
 "cause clipping on the wall and loss of image information. (Which may be "
 "desired in certain circumstances!)"
 msgstr ""
+"Abbiamo abbassato il livello di bianco in ingresso del canale Luma fino a "
+"quando una delle componenti RGB ha raggiunto 255. Abbassare ulteriormente il "
+"livello di bianco in ingresso provocherebbe clipping sulla parete, e la "
+"perdita di informazioni dell'immagine: in alcune circostanze potrebbe essere "
+"proprio ciò che si desidera!"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:113
 msgid "This process is called *Stretching* of the tonal range."
-msgstr ""
+msgstr "Questo processo viene chiamato *Espansione* dell'intervallo tonale."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:116
 msgid "Histogram Options"
-msgstr "Opzioni istogramma"
+msgstr "Opzioni dell'istogramma"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:118
 msgid "The Histogram can be adjusted as follows:"
@@ -224,6 +302,9 @@ msgid ""
 "Components - They can be enabled individually. For example, you might only "
 "want to see the Luma component, or you want to hide the Sum display."
 msgstr ""
+"Componenti: possono essere abilitate singolarmente. Per esempio, si potrebbe "
+"voler visualizzare soltanto la componente Luma, oppure nascondere la "
+"visualizzazione Somma."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:122
 msgid ""
@@ -231,6 +312,9 @@ msgid ""
 "shows it, |digikam|, |gimp|, etc. know it. See :ref:`below <scopes-"
 "luma_calc>` how it is calculated."
 msgstr ""
+":guilabel:`Y` o Luma è l'istogramma più conosciuto. È presente in tutte le "
+"fotocamere digitali, ed è supportato da applicazioni come |digikam|, |gimp|, "
+"ecc. :ref:`Più avanti <scopes-luma_calc>` verrà spiegato come è calcolato."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:124
 msgid ""
@@ -238,22 +322,31 @@ msgid ""
 "(Red Green Blue)` channels. If it shows e.g. 5 as the minimum value, you "
 "know that none of the RGB components goes lower than 5."
 msgstr ""
+":guilabel:`Somma` è sostanzialmente una rapida panoramica dei singoli "
+"canali :abbr:`RGB (Red Green Blue)`. Se, per esempio, mostra 5 come valore "
+"minimo, significa che nessuna delle componenti RGB scende al di sotto di 5."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:126
 msgid ":guilabel:`R / G / B` show the histogram for the individual channels."
-msgstr ""
+msgstr ":guilabel:`R / G / B` mostrano l'istogramma dei singoli canali."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:128
 msgid ""
 "Unscaled (Context menu) - Does not scale the width of the histogram (unless "
 "the widget size is smaller). Just a goodie if you want to have it 256px wide."
 msgstr ""
+"Non ridimensionato (menu contestuale): non ridimensiona la larghezza "
+"dell'istogramma (a meno che le dimensioni dell'oggetto non siano inferiori). "
+"È semplicemente un'opzione utile se si desidera che l'istogramma abbia una "
+"larghezza di 256 px."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:132
 msgid ""
 "Luma mode (Context menu) - This option defines how the Luma value of a pixel "
 "is calculated. Two options are available:"
 msgstr ""
+"Modalità Luma (menu contestuale): questa opzione determina come viene "
+"calcolato il valore Luma di un pixel. Sono disponibili due opzioni:"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:134
 msgid "Rec. 601 uses the formula ``Y' = 0.299 R' + 0.587 G' + 0.114 B'``"
@@ -268,6 +361,8 @@ msgid ""
 "Most of the time you will want to use Rec. 709 which is mostly used in "
 "digital video today."
 msgstr ""
+"Nella maggior parte dei casi si vorrà utilizzare Rec. 709, che oggi è lo "
+"standard utilizzato principalmente nel video digitale."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:141
 msgid "Summary"
@@ -279,6 +374,10 @@ msgid ""
 "Curves and the Levels effects. It helps to avoid clipping (burned out areas) "
 "and crushed blacks (the opposite) when applying effects."
 msgstr ""
+"L'istogramma è un ottimo strumento per la correzione dell'esposizione, "
+"insieme agli effetti Curve e Livelli. Aiuta a evitare il clipping (aree "
+"sovraesposte) e lo schiacciamento dei neri (il fenomeno opposto) quando si "
+"applicano gli effetti."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:147
 msgid "Notes"

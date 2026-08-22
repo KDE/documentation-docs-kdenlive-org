@@ -1,25 +1,26 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # SPDX-FileCopyrightText: 2024 Vincenzo Reale <smart2128vr@gmail.com>
+# SPDX-FileCopyrightText: 2026 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2024-07-07 11:24+0200\n"
-"Last-Translator: Vincenzo Reale <>\n"
+"PO-Revision-Date: 2026-08-13 10:21+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:-1
 msgid "Kdenlive Tips & Tricks - Waveform and RGB Parade"
-msgstr ""
+msgstr "Suggerimenti e trucchi con Kdenlive - Forma d'onda ed Esibizione RGB"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:-1
 msgid ""
@@ -27,10 +28,13 @@ msgid ""
 "editing, timeline, documentation, user manual, video editor, open source, "
 "free, learn, easy"
 msgstr ""
+"KDE, Kdenlive, suggerimenti, trucchi, suggerimenti e trucchi, visori, forma "
+"d'onda, esibizione RGB, modifica, sequenza temporale, documentazione, "
+"manuale utente, editor video, open source, libero, impara, facile"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:34
 msgid "Waveform and RGB Parade"
-msgstr ""
+msgstr "Forma d'onda ed Esibizione RGB"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:36
 msgid ""
@@ -39,20 +43,28 @@ msgid ""
 "Blue)` components. Therefore, we will not always explicitly point out what "
 "properties hold for both scopes and speak of Waveform only."
 msgstr ""
+"**Forma d'onda** e **Esibizione RGB** sono due visori strettamente "
+"correlati. Fanno sostanzialmente la stessa cosa: Forma d'onda per la :term:"
+"`Luma`, Esibizione RGB per le componenti :abbr:`RGB (Red Green Blue)`. "
+"Pertanto, non specificheremo sempre esplicitamente quali proprietà valgono "
+"per entrambi i visori, e parleremo semplicemente di forma d'onda."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:43
 msgid "Kdenlive Waveform :term:`widget`"
-msgstr ""
+msgstr "L' :term:`oggetto` Forme d'onda di Kdenlive"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:47
 msgid "How the Waveform Works"
-msgstr ""
+msgstr "Come funziona la forma d'onda"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:49
 msgid ""
 "The Waveform is kind of a 3D Histogram. That has nothing to do with the fact "
 "that the above image looks kind of 3D. So where are the three dimensions?"
 msgstr ""
+"La forma d'onda è una sorta di istogramma 3D. Questo non ha nulla a che "
+"vedere con il fatto che l'immagine precedente sembri in qualche modo "
+"tridimensionale. Ma dove si trovano le tre dimensioni?"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:51
 msgid ""
@@ -60,6 +72,9 @@ msgid ""
 "bright ones are at the top. So if all pixels in the Waveform stick at the "
 "very top, your video is most likely white."
 msgstr ""
+"La dimensione più evidente è la :term:`Luma`: i pixel scuri si trovano in "
+"basso, quelli luminosi in alto. Quindi, se tutti i pixel della forma d'onda "
+"si trovano proprio in cima, molto probabilmente il video è bianco."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:53
 msgid ""
@@ -69,6 +84,12 @@ msgid ""
 "the Waveform. This goes on until the scope reaches the last column of the "
 "input video, which will be painted in the last column of the Waveform."
 msgstr ""
+"La seconda dimensione è la posizione orizzontale del pixel nell'immagine "
+"originale. Ed è proprio una delle caratteristiche che rendono interessante "
+"la forma d'onda. I pixel della prima colonna del video in ingresso vengono "
+"visualizzati nella prima colonna della Forma d'onda. Il procedimento "
+"continua fino all'ultima colonna del video in ingresso, che viene "
+"visualizzata nell'ultima colonna della Forma d'onda."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:55
 msgid ""
@@ -76,6 +97,9 @@ msgid ""
 "brighter a point there, the more pixels in this column share this specific "
 "brightness value."
 msgstr ""
+"La terza dimensione è la luminosità di un pixel nella forma d'onda. Più "
+"luminoso è un punto, maggiore è il numero di pixel di quella colonna che "
+"condividono quello specifico valore di luminosità."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:58
 msgid "Waveform Example 1: Sunset"
@@ -90,12 +114,16 @@ msgid ""
 "The Waveform looks quite impressive here. But what can we learn about the "
 "image?"
 msgstr ""
+"La forma d'onda sembra piuttosto impressionante in questo caso. Ma cosa "
+"possiamo capire dall'immagine?"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:69
 msgid ""
 "In the left third we have got some clipping. There are some bright spots "
 "which are the sun and the clouds."
 msgstr ""
+"Nel terzo sinistro abbiamo un po’ di clipping. Ci sono alcune zone molto "
+"luminose, che corrispondono al sole e alle nuvole."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:71
 msgid ""
@@ -104,14 +132,18 @@ msgid ""
 "The tree does not look neutral but green with an orange touch. Or is it the "
 "other way round?"
 msgstr ""
+"L'ultimo terzo dell'immagine è scuro, ma non nero (non c'è schiacciamento): "
+"ciò significa che c'è ancora la possibilità di conservare informazioni sul "
+"colore. L'immagine lo conferma: l'albero non appare neutro, ma verde con una "
+"tonalità arancione. O forse è il contrario?"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:73
 msgid "That is where the RGB Parade drops in now."
-msgstr ""
+msgstr "È qui che entra in gioco Esibizione RGB."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:80
 msgid "Kdenlive RGB Parade :term:`widget`"
-msgstr ""
+msgstr "L' :term:`oggetto` Esibizione RGB di Kdenlive"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:82
 msgid ""
@@ -121,6 +153,12 @@ msgid ""
 "image.) Also, blue nearly does not clip at all, even in the sun. So it is "
 "still a little bit orange, which is great."
 msgstr ""
+"La cosa che vediamo è un leggerissimo schiacciamento del blu sull'albero e, "
+"più o meno, quantità equivalenti di rosso e verde. Quindi, se pensavate che "
+"l'albero fosse verde, il vostro cervello vi ha ingannato. Non lo è. (In "
+"realtà nell'immagine non c'è affatto del verde.) Inoltre, il blu non "
+"raggiunge quasi mai il clipping, nemmeno nel sole. L'immagine mantiene "
+"quindi una leggera tonalità arancione, il che è ottimo."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:84
 msgid ""
@@ -131,10 +169,17 @@ msgid ""
 "seen on the Histogram, but the Waveform shows that only the light bulb is "
 "clipped a little more, which you can afford in our imaginary case."
 msgstr ""
+"Ma l'istogramma non mostrava anch'esso clipping e schiacciamento? Sì. Ma non "
+"mostrava dove si verificavano. Ed è questo un grande vantaggio. In alcuni "
+"casi, per esempio, se vedete che c'è del clipping su una lampadina, potreste "
+"non avere problemi ad aumentare la luminosità complessiva dell'immagine. "
+"Questo aumenterebbe il clipping, come mostrato dall'Istogramma, ma la forma "
+"d'onda mostra che, nel nostro caso ipotetico, solo la lampadina diventerebbe "
+"leggermente più sovraesposta, cosa che possiamo permetterci."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:87
 msgid "RGB Parade Example: Light Bulb"
-msgstr ""
+msgstr "Esempio di Esibizione RGB: lampadina"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:89
 msgid ""
@@ -143,22 +188,31 @@ msgid ""
 "guide :doc:`/tips_and_tricks/how-tos/tutorial-white_balance_lms` for more "
 "details about white balance and how to use it in Kdenlive."
 msgstr ""
+"Aspetta... ipotetico? In realtà esiste una breve clip con delle lampadine. È "
+"piuttosto interessante, e non soltanto a causa del bilanciamento del bianco "
+"errato. Vedi la guida pratica :doc:`/tips_and_tricks/how-tos/tutorial-"
+"white_balance_lms` per maggiori informazioni sul bilanciamento del bianco, e "
+"su come utilizzarlo in Kdenlive."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:96
 msgid "RGB Parade example 1"
-msgstr ""
+msgstr "Esibizione RGB esempio 1"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:98
 msgid ""
 "The RGB Parade reveals two things at first glance. You will at least "
 "recognize the first one as well."
 msgstr ""
+"Esibizione RGB rivela immediatamente due cose. Almeno la prima la "
+"riconoscerete anche voi."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:100
 msgid ""
 "The fluorescent lamps are clipped. All channels are at 255 there, so they "
 "are totally white."
 msgstr ""
+"Le lampade fluorescenti sono in clipping: tutti i canali hanno valore 255 in "
+"quelle zone, quindi sono completamente bianchi"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:102
 msgid ""
@@ -169,6 +223,13 @@ msgid ""
 "0. Furthermore, the Blue channel is much more compressed. Its height in this "
 "area is 25, whereas the height of the Red channel is about 50."
 msgstr ""
+"Il bilanciamento del bianco è errato: questo lo si può affermare con "
+"certezza. Il soffitto in realtà è bianco, e il quarto più a sinistra "
+"dell'immagine è costituito esclusivamente dal soffitto. Questa parte "
+"dovrebbe apparire uguale nella Esibizione RGB, ma, confrontando per esempio "
+"il rosso con il blu, si vede che il rosso parte da 19, mentre il blu parte "
+"da 0. Inoltre, il canale blu è molto più compresso: in questa zona la sua "
+"altezza è 25, mentre quella del canale rosso è circa 50."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:104
 msgid ""
@@ -178,6 +239,11 @@ msgid ""
 "as well (actually curves could do everything), but let's use a new effect "
 "here."
 msgstr ""
+"Per ottenere un corretto bilanciamento del bianco utilizziamo un nuovo "
+"effetto chiamato  :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/sat`: anche :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/curves` funzionerebbe (in realtà con le curve si "
+"potrebbe fare tutto), ma qui utilizziamo questo nuovo effetto."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:106
 msgid ""
@@ -187,6 +253,13 @@ msgid ""
 "mouse to make the Waveform or RGB Parade draw a horizontal line and display "
 "the value there. All channels were lifted to around 50 in this example:"
 msgstr ""
+"La prima cosa da decidere è quanto deve essere luminoso il punto più scuro. "
+"Questo può essere controllato con il parametro :guilabel:`Scostamento`: il "
+"riferimento è ancora una volta la parte sinistra della Esibizione, cioè il "
+"soffitto che presto diventerà bianco. Puoi utilizzare il mouse per fare in "
+"modo che la forma d'onda o la Esibizione RGB disegni una linea orizzontale e "
+"visualizzi il valore corrispondente. In questo esempio tutti i canali sono "
+"stati portati a circa 50:"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:109
 msgid ""
@@ -196,12 +269,20 @@ msgid ""
 "guilabel:`Min` in the RGB Parade display. The idea is to lift the channels "
 "so that their bottoms are aligned."
 msgstr ""
+":doc:`/effects_and_filters/video_effects/color_image_correction/sat` "
+"utilizza una scala diversa da quella dell' :term:`oggetto` Esibizione RGB. "
+"La regolazione dei canali fa riferimento alla scala della Esibizione RGB "
+"(0...255), come si può vedere nel valore minimo visualizzato nella "
+"Esibizione RGB. L'obiettivo è sollevare i canali in modo che le loro parti "
+"inferiori siano allineate."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:116
 msgid ""
 "Using the :doc:`/effects_and_filters/video_effects/color_image_correction/"
 "sat` to change the color tone"
 msgstr ""
+"Utilizzo di :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"sat` per modificare la tonalità del colore"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:118
 msgid ""
@@ -212,16 +293,27 @@ msgid ""
 "scope works as well. Its advantage is that it is slightly brighter than the "
 "ceiling allowing to correct the color cast more precisely."
 msgstr ""
+"Il secondo passaggio consiste nell'espandere i canali. Questa operazione "
+"viene eseguita con i cursori :guilabel:`Inclinazione`: l'obiettivo è ancora "
+"una volta trovare un punto neutro nella Esibizione RGB e utilizzarlo come "
+"riferimento. Potremmo usare nuovamente il soffitto a sinistra, ma dopo "
+"alcune prove è risultato che anche la piccola onda al centro del visore "
+"funziona altrettanto bene. Il vantaggio è che è leggermente più luminosa del "
+"soffitto, e consente di correggere la dominante cromatica con maggiore "
+"precisione."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:125
 msgid ""
 "Using the :doc:`/effects_and_filters/video_effects/color_image_correction/"
 "sat` to adjust white balance"
 msgstr ""
+"Utilizzo di :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"sat` per regolare il bilanciamento del bianco"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:127
 msgid "And voilà, exposure and white balance are corrected."
 msgstr ""
+"Ed ecco fatto: esposizione e bilanciamento del bianco sono stati corretti."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:129
 msgid ""
@@ -235,6 +327,17 @@ msgid ""
 "apart. (Another reason might be the high compression of the Nikon D90 "
 "clips.) This effect is called *Posterization*\\ [#f1]_."
 msgstr ""
+"Osservando l'immagine a grandezza naturale (oppure provando personalmente "
+"con la clip di esempio disponibile per lo scaricamento alla fine di questo "
+"articolo), noterete delle ondulazioni di colore nell'immagine. Questo è il "
+"risultato dell'espansione: abbiamo ingrandito il soffitto a sinistra, "
+"portandolo da un'altezza di 25 pixel a quasi 100 pixel. Se la clip fosse "
+"stata esposta e bilanciata correttamente al momento della ripresa, avremmo "
+"avuto 100 valori distinti in quella zona. Ora, invece, abbiamo soltanto 25 "
+"diversi livelli di blu, che provocano questi gradini. Anche nell'istogramma "
+"l'immagine appare lacerata. (Un'altra possibile causa potrebbe essere "
+"l'elevata compressione delle clip della Nikon D90). Questo effetto viene "
+"chiamato *posterizzazione*\\ [#f1]_."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:131
 msgid ""
@@ -246,12 +349,21 @@ msgid ""
 "channel would already result in 2\\ :sup:`10` = 1024 possible values. This "
 "would already have solved our problem."
 msgstr ""
+"Questo è uno dei motivi per cui le fotocamere più costose (e con questo "
+"intendiamo *davvero* costose, come la *RED One*\\ [#f2]_, per fare un "
+"esempio estremo) registrano i video con una profondità in bit\\ [#f3]_ "
+"maggiore. Forse tutte le clip che incontrerai saranno memorizzate a 8 bit "
+"per canale, quindi ci sono 2\\ :sup:`8` = 256 valori possibili per ogni "
+"canale. Con, per esempio, 10 bit per canale, avremmo già 2\\ :sup:`10` = "
+"1024 valori possibili: ciò avrebbe già risolto il nostro problema."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:133
 msgid ""
 "But before you buy a *RED One* now - Kdenlive does not support more than 8 "
 "bit (yet)."
 msgstr ""
+"Ma prima di acquistare una *RED One*... Kdenlive non supporta (per adesso) "
+"più di 8 bit."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:135
 msgid ""
@@ -262,10 +374,17 @@ msgid ""
 "Digital Single-Lens Reflex)` cameras. Supported by many image processing "
 "applications such as |digikam| or |rawtherapee|."
 msgstr ""
+"Dove è già possibile lavorare con più di 8 bit per canale sono le immagini :"
+"abbr:`RAW (Il formato di file RAW è l'equivalente, nella fotografia "
+"digitale, del negativo nella fotografia su pellicola: contiene informazioni "
+"sui pixel non elaborate, allo stato grezzo, provenienti direttamente dal "
+"sensore della fotocamera digitale)` provenienti dalle fotocamere :abbr:`DSLR "
+"(DSLR sta per Digital Single-Lens Reflex)`, supportate da molte applicazioni "
+"di elaborazione delle immagini come |digikam| o |rawtherapee|."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:138
 msgid "Waveform Example 2: Leaf with Hidden Clipping"
-msgstr ""
+msgstr "Esempio 2 della Forma d'onda: foglia con clipping nascosto"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:145
 msgid "Waveform example 2"
@@ -276,6 +395,8 @@ msgid ""
 "Looks perfect. Good exposure (says the eye and the Waveform), beautiful "
 "colors."
 msgstr ""
+"Sembra perfetta: buona esposizione (lo dicono sia l'occhio, sia la forma "
+"d'onda), bellissimi colori."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:149
 msgid ""
@@ -283,10 +404,13 @@ msgid ""
 "calculation: For Luma, only pixels that are totally white are at the top of "
 "the Waveform."
 msgstr ""
+"Tuttavia, c'è del clipping: è semplicemente nascosto dal calcolo della luma: "
+"per la luma, solo i pixel completamente bianchi si trovano in cima alla "
+"forma d'onda."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:156
 msgid "RGB Parade exposes clipping"
-msgstr ""
+msgstr "Esibizione RGB rivela il clipping"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:158
 msgid ""
@@ -296,10 +420,16 @@ msgid ""
 "reason why the beam of a green laser is visible in the night sky, but a red "
 "one is not - unless you've got a really strong one."
 msgstr ""
+"Sebbene la foglia verde appaia molto più luminosa della punta rossa, è "
+"proprio il canale rosso a raggiungere il clipping sulle punte. Il motivo è "
+"che i nostri occhi sono più sensibili al verde, meno al rosso, e ancora meno "
+"al blu. È anche per questo che il fascio di un laser verde è visibile nel "
+"cielo notturno, mentre quello di un laser rosso non lo è, a meno che non sia "
+"davvero molto potente."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:161
 msgid "Waveform Example 3: High Key Clip"
-msgstr ""
+msgstr "Esempio 3 della Forma d'onda: ripresa High-Key"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:168
 msgid "Waveform example 3"
@@ -310,26 +440,33 @@ msgid ""
 "This is a classical |high_key| shot. Bright subject (but not clipped yet), "
 "white background."
 msgstr ""
+"Questa è una classica ripresa |high_key|: soggetto luminoso (ma non ancora "
+"in clipping), sfondo bianco."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:173
 msgid "Waveform Options"
-msgstr "Opzioni di Forma d'onda"
+msgstr "Opzioni della forma d'onda"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:175
 msgid ""
 "*Paint Mode* - Changes the paint mode for the Waveform. Usually changes its "
 "brightness as well. Green also highlights pixels with values 0 or 255."
 msgstr ""
+"*Modalità di disegno*: modifica la modalità di disegno della forma d'onda: "
+"di solito ne modifica anche la luminosità. La modalità Verde evidenzia "
+"inoltre i pixel con valore 0 o 255."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:177
 msgid ""
 "*Luma mode* (Context menu) - As for the Histogram you can choose how to "
 "calculate Luma (Rec.601 or Rec.709)."
 msgstr ""
+"*Modalità Luma* (menu contestuale): come per l'Istogramma, è possibile "
+"scegliere come calcolare la luma (Rec.601 o Rec.709)."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:184
 msgid "Waveform :term:`widget` with paint mode Green"
-msgstr ""
+msgstr "L’ :term:`oggetto` Forme d'onda con la modalità di disegno Verde"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:186
 msgid ""
@@ -339,18 +476,25 @@ msgid ""
 "If you look at a green surface and then immediately color grade an image by "
 "eye, there will be too much green in it."
 msgstr ""
+"Un dettaglio interessante: durante la correzione del colore, alcuni "
+"coloristi preferiscono utilizzare visori con colori neutri, e "
+"sostanzialmente rendere tutto neutro: soltanto una scala di grigi, ad "
+"eccezione del video stesso. Perché? Risposta rapida e curiosità: le |"
+"afterimages|: se guardi una superficie verde e subito dopo correggi a occhio "
+"il colore di un'immagine, questa tenderà ad essere troppo verde."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:189
 msgid "RGB Parade Options"
-msgstr ""
+msgstr "Le opzioni di Esibizione RGB"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:191
 msgid "*Paint Mode* - Changes the paint mode; see above."
-msgstr ""
+msgstr "*Modalità di disegno*: modifica la modalità di disegno; vedi sopra."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:193
 msgid "*Draw Axis* (Context menu) - Draws an axis with 10 steps"
 msgstr ""
+"*Disegna assi* (menu contestuale): disegna un asse con 10 suddivisioni."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:195
 msgid ""
@@ -359,6 +503,11 @@ msgid ""
 "clip (Black on the left, White on the right), to observe changes in each "
 "channels."
 msgstr ""
+"*Linea di riferimento del gradiente* (menu contestuale) : disegna una linea "
+"dall'angolo inferiore sinistro a quello superiore destro. È utile quando si "
+"testa la correzione del colore su una clip contenente un gradiente lineare "
+"(nero a sinistra, bianco a destra), per osservare le variazioni di ciascun "
+"canale."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:197
 msgid ""
@@ -368,18 +517,28 @@ msgid ""
 "color_image_correction/sat` effect or with :doc:`/effects_and_filters/"
 "video_effects/color_image_correction/curves`, the line will change."
 msgstr ""
+"Per spiegare quest'ultimo punto un po’ più nel dettaglio: un gradiente nero/"
+"bianco disegna una linea dall'angolo inferiore sinistro a quello superiore "
+"destro nella Forma d'onda. Quando si modificano i colori, per esempio con "
+"l'effetto :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"sat` o con :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"curves`, la linea cambia."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:200
 msgid ""
 "Effects working on the saturation will not have any effect on a grayscale "
 "gradient!"
 msgstr ""
+"Gli effetti che agiscono sulla saturazione non hanno alcun effetto su un "
+"gradiente in scala di grigi!"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:207
 msgid ""
 "Playing with the :doc:`/effects_and_filters/video_effects/"
 "color_image_correction/sat` and a gradient"
 msgstr ""
+"Utilizzo di :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"sat` e di un gradiente"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:209
 msgid ""
@@ -389,6 +548,12 @@ msgid ""
 "gradient file and some color correction effects on the gradient file as "
 "well. What the above is good for will be in the next part."
 msgstr ""
+"Nel gradiente precedente è stato applicato un effetto :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/sat` per dare ai "
+"neri una leggera tonalità bluastra e alle tonalità medie e alte una tonalità "
+"calda. Puoi sperimentare con il file del gradiente e con alcuni effetti di "
+"correzione del colore applicati al gradiente. A cosa serve quanto illustrato "
+"sopra lo vedremo nella prossima parte."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:213
 msgid "Summary"
@@ -403,6 +568,13 @@ msgid ""
 "the horizontal axis in the Scopes correspond to the horizontal axis in the "
 "video which allows to detect spots that should be neutral."
 msgstr ""
+"**Forma d'onda** e **Esibizione RGB** sono visori potenti, in particolare "
+"Esibizione RGB. Correggere l'esposizione è semplice e, con questi visori è "
+"sempre possibile tenere sotto controllo i livelli di ciascuna componente del "
+"colore. È inoltre possibile effettuare il bilanciamento del bianco regolando "
+"prima i neri e poi i bianchi, perché l'asse orizzontale dei visori "
+"corrisponde all'asse orizzontale del video. Ciò consente di individuare le "
+"zone che dovrebbero essere neutre."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:219
 msgid "Notes"
@@ -453,6 +625,8 @@ msgid ""
 "Depending on your browser settings you may get an error that the file "
 "download is insecure."
 msgstr ""
+"A seconda delle impostazioni del browser, potrebbe essere visualizzato un "
+"errore che indica che lo scaricamento del file non è sicuro."
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:249
 msgid "**Sources**"
@@ -472,12 +646,12 @@ msgstr ""
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:253
 msgid "See this tutorial about |posterization| from |cambridge_in_colour|"
-msgstr ""
+msgstr "Vedi questa esercitazione su |posterization| da |cambridge_in_colour|"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:254
 msgid "For more details see the Wikipedia page about |red|"
-msgstr ""
+msgstr "Per maggiori dettagli, vedi la pagina di Wikipedia su |red|"
 
 #: ../../tips_and_tricks/scopes/waveform_and_rgb_parade.rst:255
 msgid "See this tutorial about |bit_depth| from |cambridge_in_colour|"
-msgstr ""
+msgstr "Vedi questa esercitazione su |bit_depth| da |cambridge_in_colour|"
