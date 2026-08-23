@@ -90,6 +90,7 @@ What's New
    * Renamed and repositioned "Replace Timeline Clip" :ref:`action <delete_items>`
    * Added move clip :ref:`marker with mouse <move_edit_marker>`
    * Added :ref:`duplicate clip action <right_click_menu>`
+   * Added 6 new effects: :doc:`gradientmap </effects_and_filters/video_effects/color_image_correction/gradientmap>`, :doc:`baltan </effects_and_filters/video_effects/motion/baltan>`, :doc:`lightgraffiti </effects_and_filters/video_effects/stylize/lightgraffiti>`, :doc:`avfilter curves </effects_and_filters/video_effects/color_image_correction/curves_avfilter>`, :doc:`lagfun </effects_and_filters/video_effects/motion/lagfun>`, :doc:`pseudocolor </effects_and_filters/video_effects/stylize/pseudocolor>`
 
 
 .. versionadded:: 26.04 (see 26.04_ release notes)
