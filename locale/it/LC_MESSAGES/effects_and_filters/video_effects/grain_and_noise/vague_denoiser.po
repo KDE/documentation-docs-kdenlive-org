@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2026-08-03 10:17+0200\n"
+"PO-Revision-Date: 2026-08-23 17:27+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -44,13 +44,15 @@ msgstr "apple"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:-1
 msgid "Kdenlive Video Effects - Wavelet Denoiser"
-msgstr ""
+msgstr "Effetti video di Kdenlive - Riduzione del rumore tramite wavelet"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:-1
 msgid ""
 "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
 "effects, grain and noise, vague, wavelet, denoiser"
 msgstr ""
+"KDE, Kdenlive, editor video, aiuto, impara, facile, effetti, filtro, effetti "
+"video, grana e rumore, vago,wavelet, riduttore del rumore"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:0
 msgid "**Status**"
@@ -90,7 +92,7 @@ msgstr "**Esercitazione**"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:14
 msgid "Wavelet Denoiser"
-msgstr "Riduttore di disturbi wavelet"
+msgstr "Riduzione del rumore tramite wavelet"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:24
 msgid "Maintained"
@@ -132,18 +134,28 @@ msgid ""
 "wavelet transform after. Due to wavelet properties, it should give a nice "
 "smoothed result and reduced noise without blurring picture features."
 msgstr ""
+"Riduttore del rumore basato sulle wavelet\\ [1]_: trasforma ogni fotogramma "
+"del video in ingresso nel dominio delle wavelet, utilizzando Cohen-"
+"Daubechies-Feauveau 9/7\\ [2]_. Applica quindi un filtro ai coefficienti "
+"ottenuti, ed esegue successivamente una trasformata wavelet inversa. Grazie "
+"alle proprietà delle wavelet, dovrebbe produrre un buon effetto di "
+"uniformazione, riducendo il rumore senza sfocare i dettagli dell'immagine."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:49
 msgid ""
 "The effect works best with smaller threshold values. It is easy to over-"
 "filter this effect."
 msgstr ""
+"L'effetto funziona al meglio con valori di soglia più bassi: è facile "
+"applicare una riduzione eccessiva con questo effetto."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:51
 msgid ""
 "Using different planes and/or higher threshold values can be used for "
 "artistic manipulation of the image."
 msgstr ""
+"L'uso di piani diversi, o di valori di soglia più elevati, può essere "
+"utilizzato per manipolare artisticamente l'immagine."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:54
 msgid "Parameters"
@@ -169,7 +181,7 @@ msgstr "Selezione"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:66
 msgid "The filtering method the filter will use. See below."
-msgstr ""
+msgstr "Il metodo di filtraggio utilizzato dal filtro. Vedi sotto."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:67
 msgid "Threshold Type"
@@ -194,6 +206,10 @@ msgid ""
 "Hard thresholding can use a higher threshold than soft thresholding before "
 "the video looks overfiltered."
 msgstr ""
+"Intensità del filtraggio: più alto è il valore, maggiore sarà il filtraggio "
+"applicato al video. La sogliatura rigida può utilizzare una soglia più "
+"elevata rispetto alla sogliatura morbida prima che il video risulti "
+"eccessivamente filtrato."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:73
 msgid "Steps"
@@ -205,6 +221,9 @@ msgid ""
 "decomposed beyond a particular point (typically, 8 for a 640x480 frame - as "
 "2^9 = 512 > 480)."
 msgstr ""
+"Numero di livelli di scomposizione wavelet dell'immagine. L'immagine non può "
+"essere scomposta oltre un determinato punto (in genere 8 per un fotogramma "
+"640×480, poiché 2^9 = 512 > 480)."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:76
 msgid "Percentage"
@@ -212,11 +231,13 @@ msgstr "Percentuale"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:77
 msgid "Percent"
-msgstr "Percentuale"
+msgstr "Percento"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:78
 msgid "Partial of full denoising (limited coefficients shrinking)"
 msgstr ""
+"Riduzione del rumore parziale o completa (riduzione limitata dei "
+"coefficienti)"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:79
 msgid "Planes"
@@ -263,6 +284,8 @@ msgid ""
 "Scales or nullifies coefficients - intermediary between (more) soft and "
 "(less) hard thresholding (default)"
 msgstr ""
+"Riduce o annulla i coefficienti: una soluzione intermedia tra la sogliatura "
+"morbida e quella rigida (predefinita)."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:99
 msgid ":guilabel:`Threshold Type`"
@@ -275,14 +298,18 @@ msgstr "Universale"
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:107
 msgid "Threshold used is same for all decompositions (default)"
 msgstr ""
+"La soglia utilizzata è la stessa per tutti i livelli di scomposizione "
+"(predefinita)."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:108
 msgid "Bayes"
-msgstr ""
+msgstr "Bayes"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:109
 msgid "Threshold used depends also on each decomposition coefficients"
 msgstr ""
+"La soglia utilizzata dipende anche dai coefficienti di ciascun livello di "
+"scomposizione."
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:111
 msgid ":guilabel:`Planes`"
@@ -334,7 +361,7 @@ msgstr "|wavelet|"
 
 #: ../../effects_and_filters/video_effects/grain_and_noise/vague_denoiser.rst:151
 msgid "|cohen-daubechies-feauveau| (heavy on the math behind it)"
-msgstr ""
+msgstr "|cohen-daubechies-feauveau| (ce molta matematica dietro)"
 
 #~ msgid "MacOS"
 #~ msgstr "MacOS"

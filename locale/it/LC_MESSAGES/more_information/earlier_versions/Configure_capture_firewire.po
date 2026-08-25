@@ -1,21 +1,22 @@
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
 # This file is distributed under the same license as the Kdenlive Manual package.
 # SPDX-FileCopyrightText: 2025 Vincenzo Reale <smart2128vr@gmail.com>
+# SPDX-FileCopyrightText: 2026 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-03 02:21+0000\n"
-"PO-Revision-Date: 2025-02-17 08:08+0100\n"
-"Last-Translator: Vincenzo Reale <>\n"
+"PO-Revision-Date: 2026-08-22 10:52+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.2\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:-1
 msgid "Kdenlive Documentation - Configuration Capture Firewire"
@@ -27,6 +28,9 @@ msgid ""
 "capture, firewire, video capture, video editor, open source, free, learn, "
 "easy"
 msgstr ""
+"KDE, Kdenlive, documentazione, manuale utente, configurazione, preferenze, "
+"acquisizione, firewire, acquisizione video, editor video, open source, "
+"libero, impara, facile"
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:22
 msgid ""
@@ -34,13 +38,13 @@ msgid ""
 "features or functions from earlier versions of Kdenlive that are deprecated "
 "or have been superseded by something else."
 msgstr ""
-"Questa pagina non viene più mantenuta e contiene informazioni che si "
+"Questa pagina non viene più mantenuta, e contiene informazioni che si "
 "riferiscono a caratteristiche o funzioni di versioni precedenti di Kdenlive "
-"che sono deprecate o sono state sostituite da qualcos'altro."
+"che sono deprecate, oppure sono state sostituite da qualcos'altro."
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:26
 msgid "Configure Firewire Capture"
-msgstr "Configura cattura Firewire"
+msgstr "Configura acquisizione Firewire"
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:28
 msgid ""
@@ -48,6 +52,10 @@ msgid ""
 "from the :menuselection:`Settings --> Configure Kdenlive` menu or from the "
 "spanner icon in the capturing."
 msgstr ""
+"L'immagine mostra la scheda Configura acquisizione Firewire, a cui è "
+"possibile accedere dal menu :menuselection:`Impostazioni --> Configura "
+"Kdenlive`,m oppure dall'icona a forma di chiave inglese nella finestra di "
+"acquisizione."
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:36
 msgid ""
@@ -55,10 +63,13 @@ msgid ""
 "man/1/dvgrab>`__ program. The settings applied here to define how dvgrab "
 "will be used to capture the video."
 msgstr ""
+"La funzionalità di cattura firewire usa il programma `dvgrab <http://linux."
+"die.net/man/1/dvgrab>`__. Le impostazioni applicate qui definiscono come "
+"dvgrab verrà utilizzato per l'acquisizione del video.."
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:39
 msgid "**Capture Format options** are"
-msgstr "Le opzioni per il **Formato di cattura** sono"
+msgstr "Le opzioni per il **Opzioni del formato di acquisizione** sono"
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:41
 msgid "DV RAW"
@@ -82,6 +93,10 @@ msgid ""
 "standard definition codec), just packed differently into the file. Type 2 "
 "seems to be the most widely supported by other applications."
 msgstr ""
+"I primi tre sono identici dal punto di vista della qualità (utilizzano "
+"esattamente lo stesso codec DV a 25 Mb/s in definizione standard), ma sono "
+"semplicemente compressi in modo diverso all'interno del file. Il tipo 2 "
+"sembra essere quello più ampiamente supportato dalle altre applicazioni."
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:48
 msgid ""
@@ -90,6 +105,10 @@ msgid ""
 "Files in this format can also be played with Windows QuickTime when renamed "
 "to :file:`file.dv`."
 msgstr ""
+"Il formato raw contiene solo i fotogrammi video grezzi (con audio "
+"intercalato) senza alcuna informazione aggiuntiva. Il formato raw è utile "
+"per alcuni programmi Linux; i file in questo formato possono essere "
+"riprodotti anche con QuickTime di Windows se rinominati come :file:`file.dv`."
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:50
 msgid ""
@@ -101,6 +120,12 @@ msgid ""
 "data already interleaved in the DV video stream. Therefore, the type 2 DV "
 "AVI file is redundant and consumes more space."
 msgstr ""
+"I file AVI possono contenere più flussi; in genere, ne includono uno video e "
+"uno audio. Il formato nativo del flusso DV include già l'audio intercalato "
+"nel flusso video. Un file AVI DV di tipo 1 include solo un flusso video DV, "
+"dal quale l'audio deve essere estratto. Un file AVI DV di tipo 2 include un "
+"flusso audio separato, oltre ai dati audio già intercalati nel flusso video "
+"DV. Pertanto, il file AVI DV di tipo 2 è ridondante, e occupa più spazio."
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:52
 msgid "HDV is a high-definition format used on tape-based HD camcorders."
@@ -116,6 +141,12 @@ msgid ""
 "timestamp (derived from when the footage was captured) is post-pended to the "
 "capture file name, e.g. **capture2012.07.15_11-38-37.dv**"
 msgstr ""
+"Opzione **Aggiungi data e ora di registrazione al nome del file acquisito**: "
+"se questa opzione non è selezionata, a ciascun file acquisito verrà aggiunto "
+"un numero sequenziale alla fine dei nomi dei file elencati nell'impostazione "
+"Nome file acquisito. Se invece è selezionata, la data e l'ora (derivate dal "
+"momento in cui il filmato è stato acquisito) vengono aggiunte alla fine del "
+"nome del file acquisito, ad esempio **capture2012.07.15_11-38-37.dv**"
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:56
 msgid ""
@@ -126,6 +157,14 @@ msgid ""
 "from the source footage.  Where a timecode discontinuity is anything "
 "backward or greater than one second it will start a new capture file."
 msgstr ""
+"Opzione **Avvia automaticamente un nuovo file al cambio di scena**: se "
+"questa opzione è selezionata, il programma cerca di rilevare ogni volta che "
+"inizia una nuova registrazione e di salvarla in un file separato. Si tratta "
+"del parametro -autosplit di  `dvgrab <http://linux.die.net/man/1/"
+"dvgrab>`__ , che funziona rilevando le discontinuità del codice temporale "
+"nel filmato sorgente. Qualora se ne verifichi una (ovvero un salto indietro "
+"o in avanti di più di un secondo), verrà avviato un nuovo file di "
+"acquisizione."
 
 #: ../../more_information/earlier_versions/Configure_capture_firewire.rst:58
 msgid ""
@@ -133,6 +172,10 @@ msgid ""
 "switches to the capture process that will run. See  `dvgrab manual <http://"
 "linux.die.net/man/1/dvgrab>`__ for more info."
 msgstr ""
+"La casella **parametri aggiuntivi di dvgrab** ti permette di aggiungere "
+"ulteriori opzioni di dvgrab al processo di acquisizione che verrà eseguito. "
+"Per ulteriori informazioni, consulta il  `manuale di dvgrab <http://linux."
+"die.net/man/1/dvgrab>`__."
 
 #, fuzzy
 #~| msgid "Configure Firewire Capture"
