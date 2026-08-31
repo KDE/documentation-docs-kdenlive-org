@@ -264,7 +264,7 @@ Video Effects
      - |linux|\ |appimage|\ |windows|
      - Transform, Distort, and Perspective
      - Crops, scales, and tilts an Image (|frei0r.scale0tilt|)
-   * - :doc:`/effects_and_filters/video_effects/color_image_correction/curves` 
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Color curves adjustment (|frei0r.curves|)

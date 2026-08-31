@@ -101,7 +101,7 @@ The RGB Parade reveals two things at first glance. You will at least recognize t
 
 - The white balance is wrong. This can be told for sure. The ceiling is white in reality. And the left-most quarter of the image consists exclusively of the ceiling. This part should look equal in the RGB Parade, but when e.g. comparing Red to Blue, you see that Red starts at 19 whereas Blue starts at 0. Furthermore, the Blue channel is much more compressed. Its height in this area is 25, whereas the height of the Red channel is about 50.
 
-To achieve proper white balance here we make use of a new effect called :doc:`/effects_and_filters/video_effects/color_image_correction/sat`. :doc:`/effects_and_filters/video_effects/color_image_correction/curves` would work as well (actually curves could do everything), but let's use a new effect here.
+To achieve proper white balance here we make use of a new effect called :doc:`/effects_and_filters/video_effects/color_image_correction/sat`. :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` or :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter` would work as well (actually curves could do everything), but let's use a new effect here.
 
 The first thing to decide is how bright the darkest spot should be. This can be controlled with the :guilabel:`Offset` parameter. Reference is again the left part of the Parades, the soon-to-be white ceiling. You can use your mouse to make the Waveform or RGB Parade draw a horizontal line and display the value there. All channels were lifted to around 50 in this example:
 
@@ -194,7 +194,7 @@ RGB Parade Options
 
 - *Gradient reference line* (Context menu) - Draws a line from bottom left to top right. This is useful when testing color correction on a linear gradient clip (Black on the left, White on the right), to observe changes in each channels.
 
-To explain the last point a little more in detail: A black/white gradient draws a line from the bottom left to top right on the Waveform. When changing the colors, e.g. with the :doc:`/effects_and_filters/video_effects/color_image_correction/sat` effect or with :doc:`/effects_and_filters/video_effects/color_image_correction/curves`, the line will change.
+To explain the last point a little more in detail: A black/white gradient draws a line from the bottom left to top right on the Waveform. When changing the colors, e.g. with the :doc:`/effects_and_filters/video_effects/color_image_correction/sat` effect or any of the curves effects (:doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` or :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter`), the line will change.
 
 .. attention::
    Effects working on the saturation will not have any effect on a grayscale gradient!

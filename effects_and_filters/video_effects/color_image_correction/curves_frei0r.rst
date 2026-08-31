@@ -1,17 +1,17 @@
 .. meta::
 
-   :description: Kdenlive Video Effects - Curves
-   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, curves
+   :description: Kdenlive Video Effects - Curves (frei0r)
+   :keywords: KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, curves, frei0r
 
    :authors: - Bernd Jordan (https://discuss.kde.org/u/berndmj)
 
    :license: Creative Commons License SA 4.0
 
 
-Curves
-======
+Curves (frei0r)
+===============
 
-.. figure:: /images/effects_and_compositions/effects-curves-2504.webp
+.. figure:: /images/effects_and_compositions/effects-curves_frei0r-2504.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -127,6 +127,12 @@ The following selection items are available:
 
 .. hint:: 
   It is recommended to use this effect while in Color layout as this comes with :ref:`RGB Parade <view-rgb_parade>` and :ref:`view-histogram` already switched on. If you want to use the effect while in Editing or Effects layout, turn on the Histogram :term:`widget` with :menuselection:`Menu --> View --> Histogram`.
+
+.. hint::
+  Use the split-screen function of the effect panel to compare the effect with the original. You can enable it with |view-split-left-right|. See :ref:`effect_stack_functions`.
+
+.. seealso::
+  :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter` does the same thing but allows all channels to be adjusted independently.
 
 .. seealso:: 
   The :doc:`Bezier Curves </effects_and_filters/video_effects/color_image_correction/bezier_curves>` effect does the same but has the ability to adjust the steepness/flatness of the curves.
