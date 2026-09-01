@@ -20,7 +20,7 @@ Help Menu
 
 The Help Menu gives you access to various information.
 
-.. figure:: /images/user_interface/menu_reference/menu_reference-help_menu-2512.webp
+.. figure:: /images/user_interface/menu_reference/menu_reference-help_menu-2608.webp
    :align: left
    :scale: 72%
      
