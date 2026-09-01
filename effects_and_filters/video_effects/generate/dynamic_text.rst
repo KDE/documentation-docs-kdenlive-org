@@ -12,11 +12,12 @@
 
    :license: Creative Commons License SA 4.0
 
+.. ..versionchanged:: 26.08
 
 Dynamic Text
 ============
 
-.. figure:: /images/effects_and_compositions/effects-dynamic_text-2504.webp
+.. figure:: /images/effects_and_compositions/effects-dynamic_text-2608.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -56,12 +57,18 @@ This effect allows you to overlay specific keywords to the image source, for exa
    * - Parameter
      - Value
      - Description
-   * - Font Family / Size / Weight
+   * - Font Family / Size / Style / Weight
      - Selection / Integer
      - Select the font and its attributes for the text. **Font Weight** seems to behave differently depending on the selected font family.
    * - Outline Width
      - Integer
      - Set the width of the outline in pixels to 0, 1, 2 or 3
+   * - Underline
+     - Switch
+     - Enables underlined text
+   * - Strikethrough
+     - Switch
+     - Enables strikethrough text
    * - Padding
      - Integer
      - The number of pixels to pad the background rectangle beyond the edges of text
@@ -70,7 +77,7 @@ This effect allows you to overlay specific keywords to the image source, for exa
      - Set the horizontal and vertical alignment within the geometry rectangle
    * - Text
      - String
-     - What will be displayed as the overlay. You can add any other text between keywords.
+     - What will be displayed as the overlay. You can add any other text between keywords. Start a new line by pressing :kbd:`Enter`
    * - <Select a Keyword>
      - Selection
      - Select the keywords to add to the text field
@@ -128,10 +135,13 @@ The following keywords are available:
    * - Path
      - #resource#
      - Full path and filename (e.g. :file:`/path/to/my_video.mp4`)
-   * - File date
+   * - Creation date
+     - #createdate#
+     - Creation date of the file (GMT)
+   * - File date (GMT)
      - #filedate#
      - Modification date of the file (GMT)
-   * - Local file date
+   * - File date (local)
      - #localfiledate#
      - Modification date of the file (local)
    * - Frame rate

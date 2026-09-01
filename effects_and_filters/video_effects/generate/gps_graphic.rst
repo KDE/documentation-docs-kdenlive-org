@@ -14,7 +14,7 @@
 GPS Graphic
 ===========
 
-.. figure:: /images/effects_and_compositions/effects-gps_graphic_2412.webp
+.. figure:: /images/effects_and_compositions/effects-gps_graphic-2608.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -136,6 +136,9 @@ This effect/filter overlays GPS-related graphics onto the video.
    * - Colours
      - Picker
      - Sets the colors of the graph line
+   * - X / Y / W / H / Align / Scale
+     - 
+     - X and Y coordinates, Width and Height, Alignment, and Scale of the overlay rectangle. You can use these parameters to fine tune the position and size of the overlay.
 
 
 .. _effects-gps_graphic-color_style:

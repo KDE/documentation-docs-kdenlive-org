@@ -9,11 +9,13 @@
 
    :license: Creative Commons License SA 4.0
 
+.. ..versionchanged:: 26.08
+   new font options
 
 GPS Text
 ========
 
-.. figure:: /images/effects_and_compositions/effects-gps_text-2504.webp
+.. figure:: /images/effects_and_compositions/effects-gps_text-2608.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -23,7 +25,7 @@ GPS Text
    :**Status**:
       Maintained
    :**Keyframes**:
-      No
+      Yes
    :**Source library**:
       MLT
    :**Source filter**:
@@ -72,6 +74,33 @@ This effect/filter overlays GPS-related text onto the image source. **GPS Text**
    * - Updates per second
      - Integer
      - Controls how many times per second the GPS text is updated on video (interpolated). A value of 0 will only update text when a real GPS point has been recorded.
+   * - Font Family / Size / Style / Weight
+     - Selection / Integer
+     - Select the font and its attributes for the text. **Font Weight** seems to behave differently depending on the selected font family.
+   * - Outline Width
+     - Integer
+     - Set the width of the outline in pixels to 0, 1, 2 or 3
+   * - Underline
+     - Switch
+     - Enables underlined text
+   * - Strikethrough
+     - Switch
+     - Enables strikethrough text
+   * - Padding
+     - Integer
+     - The number of pixels to pad the background rectangle beyond the edges of text
+   * - Horizontal / Vertical Alignment
+     - Selection
+     - Set the horizontal and vertical alignment within the geometry rectangle
+   * - Opacity
+     - Integer
+     - Controls the opacity of the text to allow for blending
+   * - X / Y / W / H / Align / Scale
+     - 
+     - X and Y coordinates, Width and Height, Alignment, and Scale of the overlay rectangle. You can use these parameters to fine tune the position and size of the overlay.
+   * - Foreground / Background / Outline Color
+     - Picker
+     - Specify the colors for the text, the background rectangle defined by :guilabel:`Padding` and the outline color (if :guilabel:`Outline Width` is greater than 0).
 
 .. rst-class:: clear-both
 

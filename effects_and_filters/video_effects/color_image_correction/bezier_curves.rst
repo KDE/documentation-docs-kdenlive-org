@@ -48,7 +48,10 @@ Bezier Curves
 
 .. rubric:: Description
 
-This effect is used to adjust the color levels similar to the :doc:`/effects_and_filters/video_effects/color_image_correction/3_point_balance` but with finer control. Although the effect defaults to the RGB channel, it is mostly used with the :term:`Luma` channel. See also the :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` effect that does the same thing but does not have the curve handles. If you need to control the color components individually using curves, see :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter`.
+This effect is used to adjust the color levels similar to the :doc:`/effects_and_filters/video_effects/color_image_correction/3_point_balance` but with finer control. Although the effect defaults to the RGB channel, it is mostly used with the :term:`Luma` channel.
+
+.. seealso::
+   See also the :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` and :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter` effects.
 
 Click anywhere on the graph paper to insert a node. Use the extended handles on the node to adjust the steepness of the curve leading to and leaving the point.
 

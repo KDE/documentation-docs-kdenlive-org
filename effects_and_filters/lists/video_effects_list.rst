@@ -100,6 +100,10 @@ Video Effects
      - |appimage|\ |windows|\ |apple|
      - Misc
      - Turns a static background into transparency. (|avfilter.backgroundkey|)
+   * - :doc:`/effects_and_filters/video_effects/motion/baltan` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Motion
+     - Delayed alpha smoothed blit of time. (|frei0r.baltan|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/bezier_curves` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image Correction
@@ -264,6 +268,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|
      - Transform, Distort, and Perspective
      - Crops, scales, and tilts an Image (|frei0r.scale0tilt|)
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/curves_avfilter` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Color and Image correction
+     - Color curves adjustment (|avfilter.curves|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/curves_frei0r` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
@@ -448,6 +456,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Grain and Noise
      - Debands video quickly using gradients (|avfilter.gradfun|)
+   * - :doc:`/effects_and_filters/video_effects/color_image_correction/gradientmap` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Color and Image Correction
+     - Changes the image colors based on a gradient (|gradientmap|)
    * - :doc:`/effects_and_filters/video_effects/deprecated/grain` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Deprecated
@@ -460,6 +472,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
      - Discard color information (|greyscale|)
+   * - :doc:`/effects_and_filters/video_effects/stylize/heatmap0r` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Stylize
+     - Performs a continuous trichromatic tinting (|frei0r.heatmap0r|)
    * - :doc:`/effects_and_filters/video_effects/utility/histogram` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Utility
@@ -536,6 +552,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
      - Apply kirsch operator (|avfilter.kirsch|)
+   * - :doc:`/effects_and_filters/video_effects/motion/lagfun` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Motion
+     - Slowly update darker pixels (|avfilter.lagfun|)
    * - Legacy ffmpeg deinterlacer **deprecated**
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Misc
@@ -564,6 +584,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - On Master
      - An audio visualization filter that colors the image proportional to the magnitude of the audio spectrum (|lightshow|)
+   * - :doc:`/effects_and_filters/video_effects/stylize/lightgraffiti` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Stylize
+     - Creates light graffitis from a video by keeping the brightest spots (|frei0r.lightgraffiti|)
    * - :doc:`/effects_and_filters/video_effects/color_image_correction/limiter` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Color and Image correction
@@ -692,6 +716,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
      - Reduce image to primary colors (|frei0r.primaries|)
+   * - :doc:`/effects_and_filters/video_effects/stylize/pseudocolor` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Stylize
+     - Make pseudocolored video frames (|avfilter.pseudocolor|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/rectangular_alpha_mask` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Alpha, Mask, and Keying
@@ -1074,9 +1102,19 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-backgroundkey/" target="_blank">avfilter.backgroundkey</a>
 
 
+.. |frei0r.baltan| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-baltan/" target="_blank">frei0r.baltan</a>
+
+
 .. |frei0r.curves| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-curves/" target="_blank">frei0r.curves</a>
+
+
+.. |avfilter.curves| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-curves/" target="_blank">avfilter.curves</a>
 
 
 .. |avfilter.bilateral| raw:: html
@@ -1549,6 +1587,11 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-gradfun/" target="_blank">avfilter.gradfun</a>
 
 
+.. |gradientmap| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterGradientmap/" target="_blank">gradientmap</a>
+
+
 .. |grain| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterGrain/" target="_blank">grain</a>
@@ -1562,6 +1605,11 @@ Video Effects
 .. |greyscale| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterGreyscale/" target="_blank">greyscale</a>
+
+
+.. |frei0r.heatmap0r| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-heatmap0r/" target="_blank">frei0r.heatmap0r</a>
 
 
 .. |avfilter.histogram| raw:: html
@@ -1658,6 +1706,11 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-kirsch/" target="_blank">avfilter.kirsch</a>
 
 
+.. |avfilter.lagfun| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-lagfun/" target="_blank">avfilter.lagfun</a>
+
+
 .. |avfilter.latency| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-latency/" target="_blank">avfilter.latency</a>
@@ -1691,6 +1744,11 @@ Video Effects
 .. |lift_gamma_gain| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterLift_gamma_gain/" target="_blank">lift_gamma_gain</a>
+
+
+.. |frei0r.lightgraffiti| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-lightgraffiti/" target="_blank">frei0r.lightgraffiti</a>
 
 
 .. |lightshow| raw:: html
@@ -1861,6 +1919,11 @@ Video Effects
 .. |frei0r.primaries| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-primaries/" target="_blank">frei0r.primaries</a>
+
+
+.. |avfilter.pseudocolor| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-pseudocolor/" target="_blank">avfilter.pseudocolor</a>
 
 
 .. |frei0r.mask0mate| raw:: html
