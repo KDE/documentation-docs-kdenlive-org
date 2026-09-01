@@ -1,7 +1,6 @@
 # Official Documentation for Kdenlive
 
-[![Build Status](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/badge/icon)](https://binary-factory.kde.org/job/Website_docs-kdenlive-org/)  
-[Link to Kdenlive Sphinx documentation](https://docs.kdenlive.org)
+[Link to the Kdenlive online manual](https://docs.kdenlive.org)
 
 Kdenlive documentation based on [Sphinx](https://www.sphinx-doc.org)
 

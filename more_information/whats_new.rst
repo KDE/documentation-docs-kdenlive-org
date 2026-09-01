@@ -75,7 +75,7 @@ What's New
    * Added snapping in the :ref:`title editor <title-move_objects>`
    * Added rounded corners on rectangles :doc:`for titles </titles_and_graphics/titles/title_shapes>`
    * Added copy & paste :ref:`title elements <title-select_objects>`
-   * Added option to replace the timeline clip when adding :ref:`a new title clip <title-add_objects>`
+   * Added option to replace the timeline clip when adding :ref:`a new title clip <split_replace_title_clips>`
    * Introduced copy selection to :ref:`new sequence <adding_sequence>`
    * Added arbitrary rotation anchor for :doc:`transform effect </effects_and_filters/video_effects/transform_distort_perspective/transform>`
    * Added auto-keyframe generation for additional :ref:`effects <effects-working_auto_keyframes>`
