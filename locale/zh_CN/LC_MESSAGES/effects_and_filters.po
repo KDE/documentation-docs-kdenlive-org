@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 02:21+0000\n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
 "PO-Revision-Date: 2024-04-21 04:52\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -76,6 +76,16 @@ msgstr ""
 
 #: ../../<rst_epilog>:342
 msgid "keyframe-disable"
+msgstr ""
+
+#: ../../<rst_epilog>:358
+#, fuzzy
+#| msgid "Keyframe ruler"
+msgid "keyframe-record"
+msgstr "关键帧标尺"
+
+#: ../../<rst_epilog>:378
+msgid "media-record"
 msgstr ""
 
 #: ../../<rst_epilog>:402
@@ -870,55 +880,110 @@ msgid ""
 "guilabel:`Switch to timeline view`."
 msgstr ""
 
-#: ../../effects_and_filters.rst:413
+#: ../../effects_and_filters.rst:415
+#, fuzzy
+#| msgid "Keyframes types, interpolation"
+msgid "Automatic Keyframe Generation"
+msgstr "关键帧类型，插值"
+
+#: ../../effects_and_filters.rst:417
+msgid ""
+"Keyframes can be created automatically while playback is running. To enable "
+"the function, hover the mouse pointer in the project monitor on the right "
+"side (left side, if you moved the monitor toolbar previously) and click in "
+"the :ref:`monitor toolbar <ui-monitors_effect_direct_control>` on |keyframe-"
+"record|:guilabel:`Add automatic keyframe`. Once enabled, a red dot |media-"
+"record| will appear at the top of the toolbar. It stays visible as long as "
+"this feature is enabled. You can click the dot to quickly turn the feature "
+"off."
+msgstr ""
+
+#: ../../effects_and_filters.rst:419
+msgid ""
+"Now start playback. Whenever you change the position, a handle, or a node it "
+"creates a keyframe (nodes added, deleted, or moved; curves created or "
+"changed; region moved)."
+msgstr ""
+
+#: ../../effects_and_filters.rst:421
+msgid ""
+"You can do auto-keyframing in more then one pass. For example, you can "
+"create keyframes for changing the position of a clip in one pass and then "
+"create keyframes for changing the rotation in another pass."
+msgstr ""
+
+#: ../../effects_and_filters.rst:423
+#, fuzzy
+#| msgid ""
+#| "To export the keyframes to the clipboard click on |application-menu|:"
+#| "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:"
+#| "`Copy keyframes to clipboard`."
+msgid ""
+"By default the Auto-Keyframe interval is limited to every 10\\ :sup:`th` "
+"frame only. To disable this limit, click on |application-menu|:guilabel:"
+"`Options` in the keyframe panel\\ [1]_ and disable :guilabel:`Limit "
+"automatic keyframes`."
+msgstr ""
+"要导出关键帧到剪贴板，请点击关键帧面板中的\\ [1]_ |application-menu| :"
+"guilabel:`选项` 并选择 :guilabel:`复制关键帧到剪贴板`"
+
+#: ../../effects_and_filters.rst:425
+msgid ""
+"Auto-keyframing works with effects that have the following parameters: X, Y, "
+"width, height, opacity (alpha, optional) and rotation, including the "
+"Rotoscoping effect. For all other effects auto-keyframing is not available "
+"in the monitor display toolbar."
+msgstr ""
+
+#: ../../effects_and_filters.rst:431
 msgid "Working with Keyframes in the Effect Stack"
 msgstr "在效果堆栈中使用关键帧"
 
-#: ../../effects_and_filters.rst:417
+#: ../../effects_and_filters.rst:435
 msgid ""
 "The effect keyframe panel allows comprehensive manipulation of keyframes:"
 msgstr ""
 
-#: ../../effects_and_filters.rst:423
+#: ../../effects_and_filters.rst:441
 msgid "Select the keyframe you want to move"
 msgstr "选择要移动的关键帧"
 
-#: ../../effects_and_filters.rst:424
+#: ../../effects_and_filters.rst:442
 msgid "Move the cursor to the position where you want to move the keyframe to"
 msgstr "将光标移动到您希望将关键帧移动到的位置"
 
-#: ../../effects_and_filters.rst:425
+#: ../../effects_and_filters.rst:443
 msgid ""
 "Click on |align-horizontal-center|:guilabel:`Move selected keyframe to "
 "cursor`"
 msgstr "点击 |align-horizontal-center| :guilabel:`将选定的关键帧移动到光标`"
 
-#: ../../effects_and_filters.rst:433
+#: ../../effects_and_filters.rst:451
 msgid "Select the keyframe you want to duplicate"
 msgstr "选择要复制的关键帧"
 
-#: ../../effects_and_filters.rst:434
+#: ../../effects_and_filters.rst:452
 msgid "Click on |edit-copy|:guilabel:`Copy keyframe`"
 msgstr "点击 |edit-copy| :guilabel:`复制关键帧`"
 
-#: ../../effects_and_filters.rst:435
+#: ../../effects_and_filters.rst:453
 msgid ""
 "Move the cursor to the position where you want to insert the new keyframe"
 msgstr "将光标移动到您希望插入新关键帧的位置"
 
-#: ../../effects_and_filters.rst:436
+#: ../../effects_and_filters.rst:454
 msgid "Click on |edit-paste|:guilabel:`Paste keyframe`"
 msgstr "点击 |edit-paste| :guilabel:`粘贴关键帧`"
 
-#: ../../effects_and_filters.rst:444
+#: ../../effects_and_filters.rst:462
 msgid "Select all keyframes you want to apply the value on"
 msgstr "选择您想要应用值的全部关键帧"
 
-#: ../../effects_and_filters.rst:445
+#: ../../effects_and_filters.rst:463
 msgid "Go to one of the selected keyframes and change the value(s) as you want"
 msgstr "转到选定的关键帧之一，并根据需要更改值(s)"
 
-#: ../../effects_and_filters.rst:446
+#: ../../effects_and_filters.rst:464
 msgid ""
 "Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply "
 "current position value to selected keyframes`"
@@ -926,35 +991,35 @@ msgstr ""
 "点击 |application-menu| :guilabel:`选项` 并选择 :guilabel:`将当前位置值应用于"
 "选定的关键帧`"
 
-#: ../../effects_and_filters.rst:447
+#: ../../effects_and_filters.rst:465
 msgid "Select the parameters you want to apply and click on :guilabel:`OK`"
 msgstr "选择您要应用的参数，然后点击 :guilabel:`确定`"
 
-#: ../../effects_and_filters.rst:455
+#: ../../effects_and_filters.rst:473
 msgid "Select multiple individual keyframes with :kbd:`Ctrl+LMB`"
 msgstr ""
 
-#: ../../effects_and_filters.rst:463
+#: ../../effects_and_filters.rst:481
 msgid "Select contiguous keyframes with :kbd:`Shift+LMB`"
 msgstr ""
 
-#: ../../effects_and_filters.rst:471
+#: ../../effects_and_filters.rst:489
 msgid "Moving multiple keyframes at once"
 msgstr "同时移动多个关键帧"
 
-#: ../../effects_and_filters.rst:479
+#: ../../effects_and_filters.rst:497
 msgid "Keyframe Types"
 msgstr ""
 
-#: ../../effects_and_filters.rst:487
+#: ../../effects_and_filters.rst:505
 msgid "Easing functions are based on |rp_easing_func|."
 msgstr ""
 
-#: ../../effects_and_filters.rst:493
+#: ../../effects_and_filters.rst:511
 msgid "Exchanging Keyframes Across Effects"
 msgstr "交换效果之间的关键帧"
 
-#: ../../effects_and_filters.rst:497
+#: ../../effects_and_filters.rst:515
 msgid ""
 "You can import and export keyframes from/to the clipboard. This feature is "
 "not only useful to copy keyframes from one clip to another, it can also be "
@@ -964,7 +1029,7 @@ msgstr ""
 "你可以从/向剪贴板导入和导出关键帧。这个功能不仅仅适用于从一个剪辑复制关键帧到"
 "另一个剪辑，还可以用于例如将运动跟踪器的结果复制到变换效果。"
 
-#: ../../effects_and_filters.rst:499
+#: ../../effects_and_filters.rst:517
 msgid ""
 "To export the keyframes to the clipboard click on |application-menu|:"
 "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:`Copy "
@@ -973,11 +1038,11 @@ msgstr ""
 "要导出关键帧到剪贴板，请点击关键帧面板中的\\ [1]_ |application-menu| :"
 "guilabel:`选项` 并选择 :guilabel:`复制关键帧到剪贴板`"
 
-#: ../../effects_and_filters.rst:504
+#: ../../effects_and_filters.rst:522
 msgid "Importing keyframes"
 msgstr "导入关键帧"
 
-#: ../../effects_and_filters.rst:506
+#: ../../effects_and_filters.rst:524
 msgid ""
 "To import keyframes from the clipboard click on |application-menu|:guilabel:"
 "`Options` inside the keyframe panel\\ [1]_ and choose :guilabel:`Import "
@@ -988,7 +1053,7 @@ msgstr ""
 "guilabel:`选项` 并选择 :guilabel:`从剪贴板导入关键帧`。如果您在剪贴板上有有效"
 "的数据，您应该会看到这个对话框窗口，您可以在其中调整数据的映射。"
 
-#: ../../effects_and_filters.rst:508
+#: ../../effects_and_filters.rst:526
 msgid ""
 "For most use cases the default settings suffice. But you may want to copy "
 "only a subset of the data and perhaps enter an offset value, for example."
@@ -996,15 +1061,15 @@ msgstr ""
 "在大多数用例中，默认设置就足够了。但您可能只想复制一部分数据，也许要输入一个"
 "偏移值，例如。"
 
-#: ../../effects_and_filters.rst:516
+#: ../../effects_and_filters.rst:534
 msgid "Track Effect"
 msgstr "轨道效果"
 
-#: ../../effects_and_filters.rst:523
+#: ../../effects_and_filters.rst:541
 msgid "Track effect indicators"
 msgstr "轨道效果指示器"
 
-#: ../../effects_and_filters.rst:525
+#: ../../effects_and_filters.rst:543
 msgid ""
 "Effects can be added to an entire track affecting all clips in that track. "
 "Simply drag an effect from the Effects Tab to the header of the desired "
@@ -1015,11 +1080,11 @@ msgstr ""
 "果到所需轨道的标头，或单击 |tools-wizard| :guilabel:`轨道效果` 图标，并将效果"
 "拖到轨道效果堆栈中。"
 
-#: ../../effects_and_filters.rst:533
+#: ../../effects_and_filters.rst:551
 msgid "Master Effect"
 msgstr "主效果"
 
-#: ../../effects_and_filters.rst:537
+#: ../../effects_and_filters.rst:555
 msgid ""
 "If you want to apply audio or video effects throughout the whole video. "
 "Click on the :guilabel:`Master` button above the track headers to see the "
@@ -1028,21 +1093,21 @@ msgstr ""
 "如果你想在整个视频中应用音频或视频效果。点击轨道标头上面的 :guilabel:`主` 按"
 "钮，以查看主效果堆栈，您可以在其中添加效果，就像使用剪辑或轨道一样。"
 
-#: ../../effects_and_filters.rst:542
+#: ../../effects_and_filters.rst:560
 msgid "Adding a Sepia effect to the entire video"
 msgstr "添加复古褐色效果到整个视频"
 
-#: ../../effects_and_filters.rst:544
+#: ../../effects_and_filters.rst:562
 msgid ""
 "There are specific effects and filters that work :ref:`effects-on_master` "
 "only."
 msgstr "只有特定的效果和过滤器才能在 :ref:`主效果<effects-on_master>` 工作。"
 
-#: ../../effects_and_filters.rst:556
+#: ../../effects_and_filters.rst:574
 msgid "Effect Zones"
 msgstr "效果区域"
 
-#: ../../effects_and_filters.rst:560
+#: ../../effects_and_filters.rst:578
 msgid ""
 "Effect Zones allow you to apply effects to specific regions of tracks or the "
 "timeline. Zones can be set from the effect zone bar in the Timeline or from "
@@ -1051,19 +1116,19 @@ msgstr ""
 "效果区域允许您将效果应用到轨道或时间轴中的特定区域。区域可以从时间轴中的效果"
 "区域栏设置，也可以从效果面板中的界面设置。"
 
-#: ../../effects_and_filters.rst:565
+#: ../../effects_and_filters.rst:583
 msgid "Track Effect Zone"
 msgstr "轨道效果区域"
 
-#: ../../effects_and_filters.rst:571
+#: ../../effects_and_filters.rst:589
 msgid "Master Effect Zone"
 msgstr "主效果区域"
 
-#: ../../effects_and_filters.rst:577
+#: ../../effects_and_filters.rst:595
 msgid "Masking Effects"
 msgstr "遮罩效果"
 
-#: ../../effects_and_filters.rst:581
+#: ../../effects_and_filters.rst:599
 msgid ""
 "This feature allows to apply effects only to specific regions of a clip by "
 "using masks. In its current implementation the process requires three steps:"
@@ -1071,7 +1136,7 @@ msgstr ""
 "该功能允许通过使用遮罩仅将效果应用于剪辑的特定区域。在当前实现中，该过程需要"
 "三个步骤："
 
-#: ../../effects_and_filters.rst:583
+#: ../../effects_and_filters.rst:601
 msgid ""
 "Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
 "guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
@@ -1079,37 +1144,37 @@ msgstr ""
 "添加其中一个可用的遮罩：:guilabel:`形状透明度（遮罩）`、:guilabel:`旋转扫描"
 "（遮罩）` 或 :guilabel:`透明形状（遮罩）`。"
 
-#: ../../effects_and_filters.rst:584
+#: ../../effects_and_filters.rst:602
 msgid "Add an effect (or effects) to be applied to the masked region"
 msgstr "添加一个（或多个）效果（或效果）应用于遮罩区域"
 
-#: ../../effects_and_filters.rst:585
+#: ../../effects_and_filters.rst:603
 msgid ""
 "Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
 "step 2"
 msgstr "添加 :guilabel:`应用遮罩` 效果以激活步骤2中的效果的遮罩"
 
-#: ../../effects_and_filters.rst:590
+#: ../../effects_and_filters.rst:608
 msgid ""
 "Using Rotoscoping (mask) to apply the Saturation effect in one specific "
 "region only"
 msgstr "使用旋转扫描（遮罩）仅在一个特定区域中应用饱和度效果"
 
-#: ../../effects_and_filters.rst:592
+#: ../../effects_and_filters.rst:610
 msgid ""
 "You can apply more than one mask per clip by following the same three-step "
 "process."
 msgstr "您可以按照相同的三个步骤为一个剪辑应用多个遮罩。"
 
-#: ../../effects_and_filters.rst:612
+#: ../../effects_and_filters.rst:630
 msgid "Video Effects"
 msgstr "视频效果"
 
-#: ../../effects_and_filters.rst:614
+#: ../../effects_and_filters.rst:632
 msgid "The video effects are divided into the following categories:"
 msgstr "视频效果分为以下几个类别："
 
-#: ../../effects_and_filters.rst:622 ../../effects_and_filters.rst:653
+#: ../../effects_and_filters.rst:640 ../../effects_and_filters.rst:671
 msgid ""
 "The available effects are defined by :file:`.xml` files found in :file:`."
 "local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`)."
@@ -1117,7 +1182,7 @@ msgstr ""
 "可用的效果由 :file:`.xml` 文件定义，这些文件位于 :file:`.local/share/"
 "kdenlive/effects` （例如 :file:`/usr/share/kdenlive/effects`）。"
 
-#: ../../effects_and_filters.rst:624 ../../effects_and_filters.rst:655
+#: ../../effects_and_filters.rst:642 ../../effects_and_filters.rst:673
 msgid ""
 "These :file:`.xml` files contain the default values for the effects "
 "parameters. So if you don't like the default values for the effects in "
@@ -1126,59 +1191,59 @@ msgstr ""
 "这些 :file:`.xml` 文件包含 Kdenlive 中效果参数的默认值。因此，如果您不喜欢 "
 "Kdenlive 中效果的默认值，您可以修改这些 :file:`.xml` 文件。"
 
-#: ../../effects_and_filters.rst:626 ../../effects_and_filters.rst:657
+#: ../../effects_and_filters.rst:644 ../../effects_and_filters.rst:675
 msgid ""
 "See also :doc:`here <effects_and_filters/effects_and_filters_list>` for an "
 "alphabetical list of effects and filters."
 msgstr ""
 
-#: ../../effects_and_filters.rst:632
+#: ../../effects_and_filters.rst:650
 msgid "Audio Effects"
 msgstr "音频效果"
 
-#: ../../effects_and_filters.rst:634
+#: ../../effects_and_filters.rst:652
 msgid "The audio effects are divided into the following categories:"
 msgstr "音频效果分为以下几个类别："
 
-#: ../../effects_and_filters.rst:678
+#: ../../effects_and_filters.rst:696
 msgid "Alphabetical List of all Effects and Filters"
 msgstr ""
 
-#: ../../effects_and_filters.rst:690
+#: ../../effects_and_filters.rst:708
 msgid "Audio Tools"
 msgstr "音频工具"
 
-#: ../../effects_and_filters.rst:702
+#: ../../effects_and_filters.rst:720
 msgid "Time Remapping"
 msgstr "时间重映射"
 
-#: ../../effects_and_filters.rst:706
+#: ../../effects_and_filters.rst:724
 msgid ""
 "The Time Remap feature allows to keyframe the speed of a clip to achieve "
 "effects like speed ramping."
 msgstr "时间重映射功能允许对剪辑的速度进行关键帧操作，以实现速度渐变等效果。"
 
-#: ../../effects_and_filters.rst:711
+#: ../../effects_and_filters.rst:729
 msgid "Example of using Time remapping for speed ramping"
 msgstr "使用时间重映射进行速度渐变的示例"
 
-#: ../../effects_and_filters.rst:713
+#: ../../effects_and_filters.rst:731
 msgid "See also :ref:`this tutorial <tutorials-time_remapping>`."
 msgstr ""
 
-#: ../../effects_and_filters.rst:719
+#: ../../effects_and_filters.rst:737
 msgid "Speech-to-Text"
 msgstr "语音转文本"
 
-#: ../../effects_and_filters.rst:731
+#: ../../effects_and_filters.rst:749
 msgid "Subtitles"
 msgstr "普通字幕"
 
-#: ../../effects_and_filters.rst:755
+#: ../../effects_and_filters.rst:773
 msgid "Effects Demos"
 msgstr "效果演示"
 
-#: ../../effects_and_filters.rst:778
+#: ../../effects_and_filters.rst:796
 msgid ""
 "The following three YouTube videos display the results of a number of the "
 "video effects available in **Kdenlive** (Spanish captioning)."
@@ -1186,31 +1251,31 @@ msgstr ""
 "以下三个 YouTube 视频显示了 **Kdenlive** 中可用的视频效果的效果演示（西班牙语"
 "字幕）。"
 
-#: ../../effects_and_filters.rst:780
+#: ../../effects_and_filters.rst:798
 msgid "|video_1|"
 msgstr "|video_1|"
 
-#: ../../effects_and_filters.rst:782
+#: ../../effects_and_filters.rst:800
 msgid "|video_2|"
 msgstr "|video_2|"
 
-#: ../../effects_and_filters.rst:784
+#: ../../effects_and_filters.rst:802
 msgid "|video_3|"
 msgstr "|video_3|"
 
-#: ../../effects_and_filters.rst:787
+#: ../../effects_and_filters.rst:805
 msgid "Another YouTube video (English Captions)."
 msgstr "其他 YouTube 视频 (英文字幕)。"
 
-#: ../../effects_and_filters.rst:789
+#: ../../effects_and_filters.rst:807
 msgid "|video_4|"
 msgstr "|video_4|"
 
-#: ../../effects_and_filters.rst:792
+#: ../../effects_and_filters.rst:810
 msgid "See also this YouTube play list from |video_5|"
 msgstr "参看这个 YouTube 播放列表 |video_5|"
 
-#: ../../effects_and_filters.rst:799
+#: ../../effects_and_filters.rst:817
 msgid ""
 "If you do not see a keyframe panel check whether the keyframe panel has been "
 "switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
@@ -1219,11 +1284,11 @@ msgstr ""
 "如果你看不到关键帧面板，请检查是否已经关闭了此效果的关键帧面板（效果工具栏中"
 "的 |keyframe-disable| 图标）或者也许此效果不支持关键帧。"
 
-#: ../../effects_and_filters.rst:801
+#: ../../effects_and_filters.rst:819
 msgid "Robert Penners equations: http://robertpenner.com/easing/"
 msgstr "Robert Penners 方程：http://robertpenner.com/easing/"
 
-#: ../../effects_and_filters.rst:803
+#: ../../effects_and_filters.rst:821
 msgid ""
 ":kbd:`MMB` = Middle Mouse Button (mouse wheel pressed), :kbd:`RMB` = Right "
 "Mouse Button"

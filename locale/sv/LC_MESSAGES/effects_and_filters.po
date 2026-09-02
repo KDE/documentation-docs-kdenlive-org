@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 02:21+0000\n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
 "PO-Revision-Date: 2026-07-31 19:15+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -76,6 +76,18 @@ msgstr "kdenlive-show-video"
 #: ../../<rst_epilog>:342
 msgid "keyframe-disable"
 msgstr "keyframe-disable"
+
+#: ../../<rst_epilog>:358
+#, fuzzy
+#| msgid "Keyframe ruler"
+msgid "keyframe-record"
+msgstr "Nyckelbildslinjal"
+
+#: ../../<rst_epilog>:378
+#, fuzzy
+#| msgid "Keyframe ruler"
+msgid "media-record"
+msgstr "Nyckelbildslinjal"
 
 #: ../../<rst_epilog>:402
 msgid "object-rotate-right"
@@ -1034,24 +1046,88 @@ msgstr ""
 "För att byta tillbaka till tidslinjen, klicka på |switch-to-timeline-view|:"
 "guilabel:`Byt till tidslinjevy`."
 
-#: ../../effects_and_filters.rst:413
+#: ../../effects_and_filters.rst:415
+#, fuzzy
+#| msgid "Keyframes types, interpolation"
+msgid "Automatic Keyframe Generation"
+msgstr "Nyckelbildstyper, interpolering"
+
+#: ../../effects_and_filters.rst:417
+msgid ""
+"Keyframes can be created automatically while playback is running. To enable "
+"the function, hover the mouse pointer in the project monitor on the right "
+"side (left side, if you moved the monitor toolbar previously) and click in "
+"the :ref:`monitor toolbar <ui-monitors_effect_direct_control>` on |keyframe-"
+"record|:guilabel:`Add automatic keyframe`. Once enabled, a red dot |media-"
+"record| will appear at the top of the toolbar. It stays visible as long as "
+"this feature is enabled. You can click the dot to quickly turn the feature "
+"off."
+msgstr ""
+
+#: ../../effects_and_filters.rst:419
+msgid ""
+"Now start playback. Whenever you change the position, a handle, or a node it "
+"creates a keyframe (nodes added, deleted, or moved; curves created or "
+"changed; region moved)."
+msgstr ""
+
+#: ../../effects_and_filters.rst:421
+msgid ""
+"You can do auto-keyframing in more then one pass. For example, you can "
+"create keyframes for changing the position of a clip in one pass and then "
+"create keyframes for changing the rotation in another pass."
+msgstr ""
+
+#: ../../effects_and_filters.rst:423
+#, fuzzy
+#| msgid ""
+#| "To export the keyframes to the clipboard click on |application-menu|:"
+#| "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:"
+#| "`Copy keyframes to clipboard`."
+msgid ""
+"By default the Auto-Keyframe interval is limited to every 10\\ :sup:`th` "
+"frame only. To disable this limit, click on |application-menu|:guilabel:"
+"`Options` in the keyframe panel\\ [1]_ and disable :guilabel:`Limit "
+"automatic keyframes`."
+msgstr ""
+"För att exportera nyckelbilder till klippbordet klickar man på |application-"
+"menu|:guilabel:`Alternativ` i nyckelbildspanelen\\ [1]_ och väljer :guilabel:"
+"`Kopiera nyckelbilder till klippbordet`."
+
+#: ../../effects_and_filters.rst:425
+#, fuzzy
+#| msgid ""
+#| "The curve editor can only be enabled on effects which have the following "
+#| "parameters: X, Y, width, height, opacity (alpha, optional) and rotation. "
+#| "For all other effects the curve editor is greyed out."
+msgid ""
+"Auto-keyframing works with effects that have the following parameters: X, Y, "
+"width, height, opacity (alpha, optional) and rotation, including the "
+"Rotoscoping effect. For all other effects auto-keyframing is not available "
+"in the monitor display toolbar."
+msgstr ""
+"Kurveditorn kan endast aktiveras för effekter som har följande parametrar: "
+"X, Y, bredd, höjd, ogenomskinlighet (alfa, valfritt) och rotation. För alla "
+"andra effekter är kurveditorn nedtonad."
+
+#: ../../effects_and_filters.rst:431
 msgid "Working with Keyframes in the Effect Stack"
 msgstr "Arbeta med nyckelbilder i effektstapeln"
 
-#: ../../effects_and_filters.rst:417
+#: ../../effects_and_filters.rst:435
 msgid ""
 "The effect keyframe panel allows comprehensive manipulation of keyframes:"
 msgstr "Effektnyckelbildspanelen möjliggör omfattande ändring av nyckelbilder:"
 
-#: ../../effects_and_filters.rst:423
+#: ../../effects_and_filters.rst:441
 msgid "Select the keyframe you want to move"
 msgstr "Markera nyckelbilden som ska flyttas"
 
-#: ../../effects_and_filters.rst:424
+#: ../../effects_and_filters.rst:442
 msgid "Move the cursor to the position where you want to move the keyframe to"
 msgstr "Flytta markören till positionen dit nyckelbilden ska flyttas"
 
-#: ../../effects_and_filters.rst:425
+#: ../../effects_and_filters.rst:443
 msgid ""
 "Click on |align-horizontal-center|:guilabel:`Move selected keyframe to "
 "cursor`"
@@ -1059,32 +1135,32 @@ msgstr ""
 "Klicka på |align-horizontal-center|:guilabel:`Flytta markerad nyckelbild "
 "till markören`"
 
-#: ../../effects_and_filters.rst:433
+#: ../../effects_and_filters.rst:451
 msgid "Select the keyframe you want to duplicate"
 msgstr "Välj nyckelbilden som ska dupliceras"
 
-#: ../../effects_and_filters.rst:434
+#: ../../effects_and_filters.rst:452
 msgid "Click on |edit-copy|:guilabel:`Copy keyframe`"
 msgstr "Klicka på |edit-copy|:guilabel:`Kopiera nyckelbild`"
 
-#: ../../effects_and_filters.rst:435
+#: ../../effects_and_filters.rst:453
 msgid ""
 "Move the cursor to the position where you want to insert the new keyframe"
 msgstr "Flytta markören till positionen där den nya nyckelbilden ska infogas"
 
-#: ../../effects_and_filters.rst:436
+#: ../../effects_and_filters.rst:454
 msgid "Click on |edit-paste|:guilabel:`Paste keyframe`"
 msgstr "Klicka på |edit-paste|:guilabel:`Klistra in nyckelbild`"
 
-#: ../../effects_and_filters.rst:444
+#: ../../effects_and_filters.rst:462
 msgid "Select all keyframes you want to apply the value on"
 msgstr "Markera alla nyckelbilder där värdet ska användas"
 
-#: ../../effects_and_filters.rst:445
+#: ../../effects_and_filters.rst:463
 msgid "Go to one of the selected keyframes and change the value(s) as you want"
 msgstr "Gå till en av de markerade nyckelbilderna och ändra värdet efter behov"
 
-#: ../../effects_and_filters.rst:446
+#: ../../effects_and_filters.rst:464
 msgid ""
 "Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply "
 "current position value to selected keyframes`"
@@ -1092,35 +1168,35 @@ msgstr ""
 "Klicka på |application-menu|:guilabel:`Alternativ` och välj :guilabel:"
 "`Tilldela aktuellt positionsvärde till markerade nyckelbilder`"
 
-#: ../../effects_and_filters.rst:447
+#: ../../effects_and_filters.rst:465
 msgid "Select the parameters you want to apply and click on :guilabel:`OK`"
 msgstr "Markera parametrarna som ska ändras och klicka på :guilabel:`Ok`"
 
-#: ../../effects_and_filters.rst:455
+#: ../../effects_and_filters.rst:473
 msgid "Select multiple individual keyframes with :kbd:`Ctrl+LMB`"
 msgstr "Markera flera enskilda nyckelbilder med :kbd:`Ctrl+vänster musknapp`"
 
-#: ../../effects_and_filters.rst:463
+#: ../../effects_and_filters.rst:481
 msgid "Select contiguous keyframes with :kbd:`Shift+LMB`"
 msgstr "Markera angränsande nyckelbilder med :kbd:`Skift+vänster musknapp`"
 
-#: ../../effects_and_filters.rst:471
+#: ../../effects_and_filters.rst:489
 msgid "Moving multiple keyframes at once"
 msgstr "Flytta flera nyckelbilder på en gång"
 
-#: ../../effects_and_filters.rst:479
+#: ../../effects_and_filters.rst:497
 msgid "Keyframe Types"
 msgstr "Nyckelbildstyper"
 
-#: ../../effects_and_filters.rst:487
+#: ../../effects_and_filters.rst:505
 msgid "Easing functions are based on |rp_easing_func|."
 msgstr "Lättnadsfunktioner är baserade på |rp_easing_func|."
 
-#: ../../effects_and_filters.rst:493
+#: ../../effects_and_filters.rst:511
 msgid "Exchanging Keyframes Across Effects"
 msgstr "Utbyta nyckelbilder över effekter"
 
-#: ../../effects_and_filters.rst:497
+#: ../../effects_and_filters.rst:515
 msgid ""
 "You can import and export keyframes from/to the clipboard. This feature is "
 "not only useful to copy keyframes from one clip to another, it can also be "
@@ -1132,7 +1208,7 @@ msgstr ""
 "klipp till ett annat, den kan också användas till exempel för att kopiera "
 "resultaten från rörelsedetektering till transformeringseffekten."
 
-#: ../../effects_and_filters.rst:499
+#: ../../effects_and_filters.rst:517
 msgid ""
 "To export the keyframes to the clipboard click on |application-menu|:"
 "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:`Copy "
@@ -1142,11 +1218,11 @@ msgstr ""
 "menu|:guilabel:`Alternativ` i nyckelbildspanelen\\ [1]_ och väljer :guilabel:"
 "`Kopiera nyckelbilder till klippbordet`."
 
-#: ../../effects_and_filters.rst:504
+#: ../../effects_and_filters.rst:522
 msgid "Importing keyframes"
 msgstr "Importera nyckelbilder"
 
-#: ../../effects_and_filters.rst:506
+#: ../../effects_and_filters.rst:524
 msgid ""
 "To import keyframes from the clipboard click on |application-menu|:guilabel:"
 "`Options` inside the keyframe panel\\ [1]_ and choose :guilabel:`Import "
@@ -1159,7 +1235,7 @@ msgstr ""
 "klippbordet ska det här dialogfönstret visas där man kan justera avbildning "
 "av data."
 
-#: ../../effects_and_filters.rst:508
+#: ../../effects_and_filters.rst:526
 msgid ""
 "For most use cases the default settings suffice. But you may want to copy "
 "only a subset of the data and perhaps enter an offset value, for example."
@@ -1168,15 +1244,15 @@ msgstr ""
 "bara vill kopiera en delmängd av data och kanske ange ett positionsvärde, "
 "till exempel."
 
-#: ../../effects_and_filters.rst:516
+#: ../../effects_and_filters.rst:534
 msgid "Track Effect"
 msgstr "Spåreffekt"
 
-#: ../../effects_and_filters.rst:523
+#: ../../effects_and_filters.rst:541
 msgid "Track effect indicators"
 msgstr "Spåreffektindikeringar"
 
-#: ../../effects_and_filters.rst:525
+#: ../../effects_and_filters.rst:543
 msgid ""
 "Effects can be added to an entire track affecting all clips in that track. "
 "Simply drag an effect from the Effects Tab to the header of the desired "
@@ -1188,11 +1264,11 @@ msgstr ""
 "önskat spår, eller klicka på ikonen |tools-wizard|:guilabel:`Spåreffekt` och "
 "dra effekten till spårets effektstapel."
 
-#: ../../effects_and_filters.rst:533
+#: ../../effects_and_filters.rst:551
 msgid "Master Effect"
 msgstr "Master-effekt"
 
-#: ../../effects_and_filters.rst:537
+#: ../../effects_and_filters.rst:555
 msgid ""
 "If you want to apply audio or video effects throughout the whole video. "
 "Click on the :guilabel:`Master` button above the track headers to see the "
@@ -1203,11 +1279,11 @@ msgstr ""
 "effektstacken där man kan lägga till effekter precis som för klipp eller "
 "spår."
 
-#: ../../effects_and_filters.rst:542
+#: ../../effects_and_filters.rst:560
 msgid "Adding a Sepia effect to the entire video"
 msgstr "Lägga till en sepiaeffekt för hela videon"
 
-#: ../../effects_and_filters.rst:544
+#: ../../effects_and_filters.rst:562
 msgid ""
 "There are specific effects and filters that work :ref:`effects-on_master` "
 "only."
@@ -1215,11 +1291,11 @@ msgstr ""
 "Det finns specifika effekter och filer som bara fungerar för :ref:`effects-"
 "on_master`."
 
-#: ../../effects_and_filters.rst:556
+#: ../../effects_and_filters.rst:574
 msgid "Effect Zones"
 msgstr "Effektzoner"
 
-#: ../../effects_and_filters.rst:560
+#: ../../effects_and_filters.rst:578
 msgid ""
 "Effect Zones allow you to apply effects to specific regions of tracks or the "
 "timeline. Zones can be set from the effect zone bar in the Timeline or from "
@@ -1229,19 +1305,19 @@ msgstr ""
 "spåren eller tidslinjen. Zoner kan ställas in från effektzonsfältet i "
 "tidslinjen eller från gränssnittet i effektpanelen."
 
-#: ../../effects_and_filters.rst:565
+#: ../../effects_and_filters.rst:583
 msgid "Track Effect Zone"
 msgstr "Spåreffektzon"
 
-#: ../../effects_and_filters.rst:571
+#: ../../effects_and_filters.rst:589
 msgid "Master Effect Zone"
 msgstr "Master-effektzon"
 
-#: ../../effects_and_filters.rst:577
+#: ../../effects_and_filters.rst:595
 msgid "Masking Effects"
 msgstr "Maskeffekter"
 
-#: ../../effects_and_filters.rst:581
+#: ../../effects_and_filters.rst:599
 msgid ""
 "This feature allows to apply effects only to specific regions of a clip by "
 "using masks. In its current implementation the process requires three steps:"
@@ -1250,7 +1326,7 @@ msgstr ""
 "i ett klipp genom att använda masker. I den nuvarande implementeringen "
 "kräver processen tre steg:"
 
-#: ../../effects_and_filters.rst:583
+#: ../../effects_and_filters.rst:601
 msgid ""
 "Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
 "guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
@@ -1258,13 +1334,13 @@ msgstr ""
 "Lägg till en av de tre tillgängliga maskerna: :guilabel:`Form alfa (mask)`, :"
 "guilabel:`Rotoskopi (mask)` or :guilabel:`Alfaformer (mask)`."
 
-#: ../../effects_and_filters.rst:584
+#: ../../effects_and_filters.rst:602
 msgid "Add an effect (or effects) to be applied to the masked region"
 msgstr ""
 "Lägg till en effekt (eller effekter) som ska tillämpas för det maskerade "
 "området"
 
-#: ../../effects_and_filters.rst:585
+#: ../../effects_and_filters.rst:603
 msgid ""
 "Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
 "step 2"
@@ -1272,7 +1348,7 @@ msgstr ""
 "Lägg till effekten :guilabel:`Verkställ mask` för att aktivera masken för "
 "effekterna i steg 2"
 
-#: ../../effects_and_filters.rst:590
+#: ../../effects_and_filters.rst:608
 msgid ""
 "Using Rotoscoping (mask) to apply the Saturation effect in one specific "
 "region only"
@@ -1280,7 +1356,7 @@ msgstr ""
 "Använda rotoskopi (mask) för att endast tillämpa mättnadseffekten i ett "
 "specifikt område"
 
-#: ../../effects_and_filters.rst:592
+#: ../../effects_and_filters.rst:610
 msgid ""
 "You can apply more than one mask per clip by following the same three-step "
 "process."
@@ -1288,15 +1364,15 @@ msgstr ""
 "Man kan tillämpa mer än en mask per klipp genom att följa samma "
 "trestegsprocess."
 
-#: ../../effects_and_filters.rst:612
+#: ../../effects_and_filters.rst:630
 msgid "Video Effects"
 msgstr "Videoeffekter"
 
-#: ../../effects_and_filters.rst:614
+#: ../../effects_and_filters.rst:632
 msgid "The video effects are divided into the following categories:"
 msgstr "Videoeffekterna delas upp i följande kategorier:"
 
-#: ../../effects_and_filters.rst:622 ../../effects_and_filters.rst:653
+#: ../../effects_and_filters.rst:640 ../../effects_and_filters.rst:671
 msgid ""
 "The available effects are defined by :file:`.xml` files found in :file:`."
 "local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`)."
@@ -1305,7 +1381,7 @@ msgstr ""
 "file:`.local/share/kdenlive/effects` (t.ex. :file:`/usr/share/kdenlive/"
 "effects`)."
 
-#: ../../effects_and_filters.rst:624 ../../effects_and_filters.rst:655
+#: ../../effects_and_filters.rst:642 ../../effects_and_filters.rst:673
 msgid ""
 "These :file:`.xml` files contain the default values for the effects "
 "parameters. So if you don't like the default values for the effects in "
@@ -1315,7 +1391,7 @@ msgstr ""
 "Så om man inte gillar effekternas standardvärden i Kdenlive, kan man ändra "
 "standardvärden genom att redigera :file:`.xml`-filerna."
 
-#: ../../effects_and_filters.rst:626 ../../effects_and_filters.rst:657
+#: ../../effects_and_filters.rst:644 ../../effects_and_filters.rst:675
 msgid ""
 "See also :doc:`here <effects_and_filters/effects_and_filters_list>` for an "
 "alphabetical list of effects and filters."
@@ -1323,27 +1399,27 @@ msgstr ""
 "Se också :doc:`här <effects_and_filters/effects_and_transitions_list>` för "
 "en alfabetisk lista över effekter och filter."
 
-#: ../../effects_and_filters.rst:632
+#: ../../effects_and_filters.rst:650
 msgid "Audio Effects"
 msgstr "Ljudeffekter"
 
-#: ../../effects_and_filters.rst:634
+#: ../../effects_and_filters.rst:652
 msgid "The audio effects are divided into the following categories:"
 msgstr "Ljudeffekterna delas upp i följande kategorier:"
 
-#: ../../effects_and_filters.rst:678
+#: ../../effects_and_filters.rst:696
 msgid "Alphabetical List of all Effects and Filters"
 msgstr "Alfabetisk lista över alla effekter och filter"
 
-#: ../../effects_and_filters.rst:690
+#: ../../effects_and_filters.rst:708
 msgid "Audio Tools"
 msgstr "Ljudverktyg"
 
-#: ../../effects_and_filters.rst:702
+#: ../../effects_and_filters.rst:720
 msgid "Time Remapping"
 msgstr "Tidsombildning"
 
-#: ../../effects_and_filters.rst:706
+#: ../../effects_and_filters.rst:724
 msgid ""
 "The Time Remap feature allows to keyframe the speed of a clip to achieve "
 "effects like speed ramping."
@@ -1351,27 +1427,27 @@ msgstr ""
 "Funktionen för tidsombildning gör det möjligt att använda nyckelbilder för "
 "hastigheten på ett klipp för att uppnå effekter som hastighetsökning."
 
-#: ../../effects_and_filters.rst:711
+#: ../../effects_and_filters.rst:729
 msgid "Example of using Time remapping for speed ramping"
 msgstr "Exempel på att använda tidsombildning för hastighetsändring"
 
-#: ../../effects_and_filters.rst:713
+#: ../../effects_and_filters.rst:731
 msgid "See also :ref:`this tutorial <tutorials-time_remapping>`."
 msgstr "Se också :ref:`den här handledningen <tutorials-time_remapping>`."
 
-#: ../../effects_and_filters.rst:719
+#: ../../effects_and_filters.rst:737
 msgid "Speech-to-Text"
 msgstr "Tal till text"
 
-#: ../../effects_and_filters.rst:731
+#: ../../effects_and_filters.rst:749
 msgid "Subtitles"
 msgstr "Textning"
 
-#: ../../effects_and_filters.rst:755
+#: ../../effects_and_filters.rst:773
 msgid "Effects Demos"
 msgstr "Effektdemonstrationer"
 
-#: ../../effects_and_filters.rst:778
+#: ../../effects_and_filters.rst:796
 msgid ""
 "The following three YouTube videos display the results of a number of the "
 "video effects available in **Kdenlive** (Spanish captioning)."
@@ -1379,31 +1455,31 @@ msgstr ""
 "Följande tre YouTube-videor visar resultaten av ett antal av videoeffekterna "
 "som finns tillgängliga i **Kdenlive** (spansk textning)."
 
-#: ../../effects_and_filters.rst:780
+#: ../../effects_and_filters.rst:798
 msgid "|video_1|"
 msgstr "|video_1|"
 
-#: ../../effects_and_filters.rst:782
+#: ../../effects_and_filters.rst:800
 msgid "|video_2|"
 msgstr "|video_2|"
 
-#: ../../effects_and_filters.rst:784
+#: ../../effects_and_filters.rst:802
 msgid "|video_3|"
 msgstr "|video_3|"
 
-#: ../../effects_and_filters.rst:787
+#: ../../effects_and_filters.rst:805
 msgid "Another YouTube video (English Captions)."
 msgstr "En annan YouTube-video (engelsk textning)"
 
-#: ../../effects_and_filters.rst:789
+#: ../../effects_and_filters.rst:807
 msgid "|video_4|"
 msgstr "|video_4|"
 
-#: ../../effects_and_filters.rst:792
+#: ../../effects_and_filters.rst:810
 msgid "See also this YouTube play list from |video_5|"
 msgstr "Se också den här YouTube-spellistan från |video_5|"
 
-#: ../../effects_and_filters.rst:799
+#: ../../effects_and_filters.rst:817
 msgid ""
 "If you do not see a keyframe panel check whether the keyframe panel has been "
 "switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
@@ -1413,11 +1489,11 @@ msgstr ""
 "stängts av för effekten (ikonen |keyframe-disable| på effektverktygsraden) "
 "eller om effekten helt enkelt inte stöder nyckelbilder."
 
-#: ../../effects_and_filters.rst:801
+#: ../../effects_and_filters.rst:819
 msgid "Robert Penners equations: http://robertpenner.com/easing/"
 msgstr "Robert Penners ekvationer: http://robertpenner.com/easing/"
 
-#: ../../effects_and_filters.rst:803
+#: ../../effects_and_filters.rst:821
 msgid ""
 ":kbd:`MMB` = Middle Mouse Button (mouse wheel pressed), :kbd:`RMB` = Right "
 "Mouse Button"
@@ -1538,11 +1614,6 @@ msgstr ""
 #, fuzzy
 #~| msgid "Keyframe ruler"
 #~ msgid "keyframe-remove"
-#~ msgstr "Nyckelbildslinjal"
-
-#, fuzzy
-#~| msgid "Keyframe ruler"
-#~ msgid "keyframe-record"
 #~ msgstr "Nyckelbildslinjal"
 
 #, fuzzy

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_kdenlive_org_cutting_and_assembling___guides\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 02:21+0000\n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
 "PO-Revision-Date: 2026-07-15 19:15+0200\n"
 "Last-Translator: Ewald Müller <EMuede@netscape.net>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -262,15 +262,31 @@ msgstr ""
 "Markierungen` einschalten, um die :guilabel:`Dauer` des Markierungs-"
 "Abschnitts zu bestimmen. Standardmäßige :guilabel:`Dauer` ist eine Sekunde."
 
-#: ../../cutting_and_assembling/guides.rst:126
+#: ../../cutting_and_assembling/guides.rst:127
+#, fuzzy
+#| msgid "Set timeline markers"
+msgid "Identify Timeline Gaps"
+msgstr "Zeitleisten-Markierungen festlegen"
+
+#: ../../cutting_and_assembling/guides.rst:129
+msgid ""
+"Add timeline range markers at gaps in the timeline. It automatically places "
+"a timeline range marker at the start of every gap between video clips in the "
+"timeline. Audio-only tracks are ignored. If no gaps are found, an info "
+"message \"No gaps found in timeline\" is shown. See under :ref:"
+"`empty_space_in_timeline` or :ref:`configurable_tracks` under :guilabel:"
+"`Identify Gaps`."
+msgstr ""
+
+#: ../../cutting_and_assembling/guides.rst:138
 msgid "Managing Categories and Markers"
 msgstr "Kategorien und Markierungen verwalten"
 
-#: ../../cutting_and_assembling/guides.rst:134
+#: ../../cutting_and_assembling/guides.rst:146
 msgid "Categories"
 msgstr "Kategorien"
 
-#: ../../cutting_and_assembling/guides.rst:136
+#: ../../cutting_and_assembling/guides.rst:148
 msgid ""
 "When starting a new project the categories for the project are pulled in "
 "from :guilabel:`Markers Categories` in setting :doc:`Configure Colors and "
@@ -283,7 +299,7 @@ msgstr ""
 "übernommen. Diese Kategorien sind für Markierungen und "
 "Zeitleistenmarkierungen."
 
-#: ../../cutting_and_assembling/guides.rst:144
+#: ../../cutting_and_assembling/guides.rst:156
 msgid ""
 "Project specific categories can be added, edited and deleted in :"
 "menuselection:`File --> Project Settings --> Markers`"
@@ -291,7 +307,7 @@ msgstr ""
 "Projektspezifische Kategorien können hinzugefügt, bearbeitet und gelöscht "
 "werden unter :menuselection:`Datei --> Projekteinstellungen --> Markierungen`"
 
-#: ../../cutting_and_assembling/guides.rst:154
+#: ../../cutting_and_assembling/guides.rst:166
 msgid ""
 ":guilabel:`Delete category` When deleting a category where markers are "
 "assigned, Kdenlive asks if you really want to delete it or if you want to "
@@ -301,11 +317,11 @@ msgstr ""
 "Markierungen zugewiesen sind, fragt Sie Kdenlive, ob Sie diese wirklich "
 "löschen oder sie einer anderen Kategorie zuweisen möchten."
 
-#: ../../cutting_and_assembling/guides.rst:161
+#: ../../cutting_and_assembling/guides.rst:173
 msgid "Markers View"
 msgstr "Markierungen-Ansicht"
 
-#: ../../cutting_and_assembling/guides.rst:167
+#: ../../cutting_and_assembling/guides.rst:179
 msgid ""
 ":menuselection:`View --> Markers` opens the markers window where you can "
 "manage your markers."
@@ -313,11 +329,11 @@ msgstr ""
 ":menuselection:`Ansicht → Markierungen` öffnet das Markierungen-Fenster, in "
 "dem Sie Ihre Markierungen verwalten können."
 
-#: ../../cutting_and_assembling/guides.rst:170
+#: ../../cutting_and_assembling/guides.rst:182
 msgid "Shows the selected object: Clip-Name, Sequence-Name"
 msgstr "Zeigt das ausgewählte Objekt: Clip-Name, Sequenzname"
 
-#: ../../cutting_and_assembling/guides.rst:172
+#: ../../cutting_and_assembling/guides.rst:184
 msgid ""
 "Search Timeline Marker / Clip Markers. If you enter `2` in this example, it "
 "shows only `guide2` / `marker2` in the list and in the timeline/on the clip "
@@ -327,18 +343,18 @@ msgstr ""
 "Beispiel eingeben, wird nur `Hilfslinie 2` / `Markierung 2` in der Liste und "
 "in der Zeitleiste / im Clip-Monitor gezeigt."
 
-#: ../../cutting_and_assembling/guides.rst:174
+#: ../../cutting_and_assembling/guides.rst:186
 msgid ""
 "Show only the chosen categories in the list and in the timeline/clip monitor."
 msgstr ""
 "Zeige nur die ausgewählten Kategorien in der Liste und in der Zeitleiste/im "
 "Clip-Monitor an."
 
-#: ../../cutting_and_assembling/guides.rst:176
+#: ../../cutting_and_assembling/guides.rst:188
 msgid "Show markers for all clips in the project"
 msgstr "Markierungen für alle Clips im Projekt anzeigen"
 
-#: ../../cutting_and_assembling/guides.rst:178
+#: ../../cutting_and_assembling/guides.rst:190
 msgid ""
 "Sort by categories, time, or comment, and change sort order (ascending/"
 "descending)."
@@ -346,7 +362,7 @@ msgstr ""
 "Nach Kategorien, Zeit oder Kommentar sortieren und die Sortierfolge (auf-/"
 "absteigend) ändern."
 
-#: ../../cutting_and_assembling/guides.rst:180
+#: ../../cutting_and_assembling/guides.rst:192
 msgid ""
 "Clicking on a marker or :kbd:`arrow-up arrow-down` will select it, and the "
 "playhead jumps to this marker in the timeline/clip monitor. Multi-selection: "
@@ -364,7 +380,7 @@ msgstr ""
 "einer Markierung öffnet den :ref:`Bearbeitungsdialog <move_edit_guides>` / :"
 "ref:`Bearbeitungsdialog <move_edit_markers>` dafür."
 
-#: ../../cutting_and_assembling/guides.rst:182
+#: ../../cutting_and_assembling/guides.rst:194
 msgid ""
 "Add a marker. Only here you have the possibility to add multiple markers "
 "with an interval."
@@ -372,7 +388,7 @@ msgstr ""
 "Eine Markierung hinzufügen. Nur hier besteht die Möglichkeit, mehrere "
 "Abschnitts-Markierungen hinzuzufügen."
 
-#: ../../cutting_and_assembling/guides.rst:184
+#: ../../cutting_and_assembling/guides.rst:196
 msgid ""
 "Edit a selected marker. The same as double-clicking a marker under point 4, "
 "or timeline markers in the :ref:`timeline ruler<timeline_ruler>`."
@@ -381,15 +397,15 @@ msgstr ""
 "auf eine Markierung unter Punkt 4 oder einer Zeitleisten-Markierung im :ref:"
 "`Zeitleisten-Lineal <timeline_ruler>`."
 
-#: ../../cutting_and_assembling/guides.rst:186
+#: ../../cutting_and_assembling/guides.rst:198
 msgid "Delete the selected marker(s)."
 msgstr "Ausgewählte Markierung(en) löschen."
 
-#: ../../cutting_and_assembling/guides.rst:188
+#: ../../cutting_and_assembling/guides.rst:200
 msgid "Set the default category for new markers."
 msgstr "Standard-Kategorie für neue Markierungen festlegen."
 
-#: ../../cutting_and_assembling/guides.rst:190
+#: ../../cutting_and_assembling/guides.rst:202
 msgid ""
 "Timeline Markers only: :ref:`Locks Timeline Markers <move_edit_guides>`. "
 "Locked when the background is light gray (as shown on the screenshot)."
@@ -398,11 +414,11 @@ msgstr ""
 "<move_edit_guides>`. Gesperrt, wenn der Hintergrund ausgegraut ist (wie auf "
 "dem Bildschirmfoto zu sehen)."
 
-#: ../../cutting_and_assembling/guides.rst:192
+#: ../../cutting_and_assembling/guides.rst:204
 msgid "Refresh all thumbnails when thumbnails are enabled"
 msgstr "Alle Vorschaubilder aktualisieren, wenn sie aktiviert sind."
 
-#: ../../cutting_and_assembling/guides.rst:194
+#: ../../cutting_and_assembling/guides.rst:206
 msgid ""
 "Enable/disable thumbnails. Import/:ref:`export markers/marker "
 "<export_guides>` or configure the :ref:`project categories <categories>`."
@@ -411,7 +427,7 @@ msgstr ""
 "exportieren <export_guides>` oder :ref:`Projektkategorien <categories>` "
 "einrichten."
 
-#: ../../cutting_and_assembling/guides.rst:197
+#: ../../cutting_and_assembling/guides.rst:209
 msgid ""
 "You can put a comment in the marker and make the comment display by "
 "choosing :ref:`editing` in the :menuselection:`Markers` menu or by clicking "
@@ -421,11 +437,11 @@ msgstr ""
 "Auswahl :ref:`editing` im Menü :menuselection:`Markierungen` oder durch "
 "Anklicken des Knopfes :ref:`editing` aktivieren."
 
-#: ../../cutting_and_assembling/guides.rst:203
+#: ../../cutting_and_assembling/guides.rst:215
 msgid "Export Timeline Markers as Chapters Description"
 msgstr "Zeitleisten-Markierungen als Kapitelbeschreibungen exportieren"
 
-#: ../../cutting_and_assembling/guides.rst:209
+#: ../../cutting_and_assembling/guides.rst:221
 msgid ""
 "Timeline markers can mark chapters or different sections of a video while "
 "editing. Uploading edited videos to platforms like YouTube, the timeline "
@@ -439,7 +455,7 @@ msgstr ""
 "unterstützt. Das kann über :guilabel:`In die Zwischenablage kopieren` und "
 "durch Einfügen in YouTube erreicht werden."
 
-#: ../../cutting_and_assembling/guides.rst:211
+#: ../../cutting_and_assembling/guides.rst:223
 msgid ""
 "Right click in the :ref:`timeline ruler <timeline_ruler>` and choose :"
 "guilabel:`Export Markers` or :menuselection:`Markers --> Export Markers`. "
@@ -450,7 +466,7 @@ msgstr ""
 "menuselection:`Markierungen --> Markierungen exportieren`. Das öffnet das "
 "Fenster „Markierungen als Kapitelbeschreibungen exportieren“."
 
-#: ../../cutting_and_assembling/guides.rst:215
+#: ../../cutting_and_assembling/guides.rst:227
 msgid ""
 ":guilabel:`Marker Type`: Choose one of the timeline marker types to mark "
 "chapters and use other types to do other things."
@@ -459,7 +475,7 @@ msgstr ""
 "Markierungstypen aus, um Kapitel zu markieren und nutzen Sie andere Typen "
 "für andere Zwecke."
 
-#: ../../cutting_and_assembling/guides.rst:217
+#: ../../cutting_and_assembling/guides.rst:229
 msgid ""
 ":guilabel:`Save As`: Text (for Youtube) or as JSON data file which can be re-"
 "imported."
@@ -467,7 +483,7 @@ msgstr ""
 ":guilabel:`Speichern unter`: Als Text (für Youtube) oder als JSON-Datei, die "
 "zurück importiert werden kann."
 
-#: ../../cutting_and_assembling/guides.rst:219
+#: ../../cutting_and_assembling/guides.rst:231
 msgid ""
 ":guilabel:`Offset`: This adds the ability to set a general offset (hh:mm:ss:"
 "ff) to each timeline marker."
@@ -475,7 +491,7 @@ msgstr ""
 ":guilabel:`Versatz`: Das ermöglicht es, einen generellen Versatz jeder "
 "Zeitleisten-Markierung (hh:mm:ss:ff) hinzuzufügen."
 
-#: ../../cutting_and_assembling/guides.rst:221
+#: ../../cutting_and_assembling/guides.rst:233
 msgid ""
 ":guilabel:`Format`: This defines how the chapter marks are exported. When "
 "using the 2 default format strings (as shown on the picture), Kdenlive check "
@@ -487,7 +503,7 @@ msgstr ""
 "verwenden, prüft Kdenlive, ob sie den YouTube-Richtlinien entsprechen und "
 "zeigt eine Nachricht, wenn sie diese nicht einhalten."
 
-#: ../../cutting_and_assembling/guides.rst:223
+#: ../../cutting_and_assembling/guides.rst:235
 msgid ""
 ":guilabel:`i`: Shows all possible export strings. Select the string you want "
 "and Kdenlive adds it to the :guilabel:`Format` for export. Add spaces "
@@ -498,37 +514,37 @@ msgstr ""
 "haben möchten. Platzieren Sie bei Bedarf Leerzeichen zwischen den "
 "Zeichenketten."
 
-#: ../../cutting_and_assembling/guides.rst:225
+#: ../../cutting_and_assembling/guides.rst:237
 msgid "{{timecode}} adds timeline marker position at HH:MM.SS (default)"
 msgstr ""
 "{{timecode}} fügt eine Zeitleisten-Markierung bei HH:MM.SS hinzu "
 "(standardmäßig)"
 
-#: ../../cutting_and_assembling/guides.rst:227
+#: ../../cutting_and_assembling/guides.rst:239
 msgid "{{comment}} adds the timeline marker text (default)"
 msgstr ""
 "{{comment}} fügt einen Zeitleisten-Markierungstext hinzu (standardmäßig)"
 
-#: ../../cutting_and_assembling/guides.rst:229
+#: ../../cutting_and_assembling/guides.rst:241
 msgid "{{frame}} adds the frame number of each timeline marker"
 msgstr ""
 "{{frame}} fügt die jeweilige Bildnummer der Zeitleisten-Markierung hinzu"
 
-#: ../../cutting_and_assembling/guides.rst:231
+#: ../../cutting_and_assembling/guides.rst:243
 msgid "{{index}} adds timeline marker number"
 msgstr "{{index}} fügt die Nummer der Zeitleisten-Markierung hinzu"
 
-#: ../../cutting_and_assembling/guides.rst:233
+#: ../../cutting_and_assembling/guides.rst:245
 msgid "{{nexttimecode}} adds next timeline marker position at HH:MM.SS"
 msgstr ""
 "{{nexttimecode}} fügt die nächste Zeitleisten-Markierung bei HH:MM.SS hinzu"
 
-#: ../../cutting_and_assembling/guides.rst:235
+#: ../../cutting_and_assembling/guides.rst:247
 msgid "{{realtimecode}} adds timeline marker position at HH:MM:SS:FF"
 msgstr ""
 "{{realtimecode}} fügt eine Zeitleisten-Markierung bei HH:MM:SS:FF hinzu"
 
-#: ../../cutting_and_assembling/guides.rst:237
+#: ../../cutting_and_assembling/guides.rst:249
 msgid ""
 ":guilabel:`Reset`: Resets the settings to the default: {{timecode}} "
 "{{comment}}"
@@ -536,7 +552,7 @@ msgstr ""
 ":guilabel:`Zurücksetzen`: Einstellungen auf Voreinstellungen zurücksetzen: "
 "{{timecode}} {{comment}}"
 
-#: ../../cutting_and_assembling/guides.rst:239
+#: ../../cutting_and_assembling/guides.rst:251
 msgid ""
 ":guilabel:`Exported`: Shows what gets exported. To change the timeline "
 "marker text you have to edit the timeline marker in the timeline."
@@ -545,7 +561,7 @@ msgstr ""
 "Zeitleisten-Markierung zu ändern, müssen Sie diesen in der Zeitleiste "
 "bearbeiten."
 
-#: ../../cutting_and_assembling/guides.rst:241
+#: ../../cutting_and_assembling/guides.rst:253
 msgid ""
 ":guilabel:`Copy to Clipboard`: Copy the data viewed in :guilabel:`Exported` "
 "into the clipboard to use it in other applications (Youtube)."
@@ -554,7 +570,7 @@ msgstr ""
 "`Exportiert` angezeigten Daten in die Zwischenablage, um sie in anderen "
 "Anwendungen (Youtube) nutzen zu können."
 
-#: ../../cutting_and_assembling/guides.rst:243
+#: ../../cutting_and_assembling/guides.rst:255
 msgid ""
 "The warning in the blue box only show up if one of the 3 points are not "
 "fulfilled."
@@ -562,11 +578,11 @@ msgstr ""
 "Die Warnung im blauen Kasten wird nur angezeigt, wenn einer der drei Punkte "
 "nicht erfüllt ist."
 
-#: ../../cutting_and_assembling/guides.rst:249
+#: ../../cutting_and_assembling/guides.rst:261
 msgid "Move and Edit Timeline Markers"
 msgstr "Zeitleisten-Markierungen verschieben und bearbeiten"
 
-#: ../../cutting_and_assembling/guides.rst:251
+#: ../../cutting_and_assembling/guides.rst:263
 msgid ""
 "Timeline markers can be moved by clicking on a timeline marker text in the "
 "timeline and dragging it to the desired position."
@@ -574,7 +590,7 @@ msgstr ""
 "Zeitleisten-Markierungen können durch Anklicken ihres Textes in der "
 "Zeitleiste und Ziehen auf die gewünschte Position verschoben werden."
 
-#: ../../cutting_and_assembling/guides.rst:253
+#: ../../cutting_and_assembling/guides.rst:265
 msgid ""
 "Timeline markers can be moved by changing the :guilabel:`Position` in the "
 "edit window."
@@ -582,7 +598,7 @@ msgstr ""
 "Zeitleisten-Markierungen können durch Ändern der :guilabel:`Position` im "
 "Bearbeitungsdialog verschoben werden."
 
-#: ../../cutting_and_assembling/guides.rst:258
+#: ../../cutting_and_assembling/guides.rst:270
 msgid ""
 "Double-click on a timeline marker text in the timeline ruler opens the edit "
 "window (beside the possibility in :ref:`guide_view`)."
@@ -590,7 +606,7 @@ msgstr ""
 "Doppelklick auf einem Zeitleisten-Markierungstext auf dem Zeitleisten-Lineal "
 "öffnet den Bearbeitungsdialog (neben der Möglichkeit in :ref:`guide_view`)."
 
-#: ../../cutting_and_assembling/guides.rst:260
+#: ../../cutting_and_assembling/guides.rst:272
 msgid ""
 ":guilabel:`Comment` text and :guilabel:`Category` can be changed in the edit "
 "window."
@@ -598,11 +614,11 @@ msgstr ""
 ":guilabel:`Kommentar` Text und :guilabel:`Kategorie` können im "
 "Bearbeitungsdialog verändert werden."
 
-#: ../../cutting_and_assembling/guides.rst:264
+#: ../../cutting_and_assembling/guides.rst:276
 msgid "Move Timeline Markers With Spacer Tool"
 msgstr "Zeitleisten-Markierungen mit dem Abstandswerkzeug bewegen"
 
-#: ../../cutting_and_assembling/guides.rst:268
+#: ../../cutting_and_assembling/guides.rst:280
 msgid ""
 "Easily moves timeline markers along with clips using the spacer tool by "
 "using the new :menuselection:`Timeline Marker Locked` option. When locked, "

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive ref manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 02:21+0000\n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
 "PO-Revision-Date: 2026-05-03 17:20+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -83,6 +83,16 @@ msgstr "kdenlive-show-video"
 #: ../../<rst_epilog>:342
 msgid "keyframe-disable"
 msgstr "keyframe-disable"
+
+#: ../../<rst_epilog>:358
+#, fuzzy
+#| msgid "Keyframe ruler"
+msgid "keyframe-record"
+msgstr "Ravnilo ključnih sličic"
+
+#: ../../<rst_epilog>:378
+msgid "media-record"
+msgstr ""
 
 #: ../../<rst_epilog>:402
 msgid "object-rotate-right"
@@ -1042,26 +1052,90 @@ msgstr ""
 "Če želite preklopiti nazaj na pogled časovnice, kliknite |switch-to-timeline-"
 "view|:guilabel:`Preklopi na pogled časovnice`."
 
-#: ../../effects_and_filters.rst:413
+#: ../../effects_and_filters.rst:415
+#, fuzzy
+#| msgid "Keyframes types, interpolation"
+msgid "Automatic Keyframe Generation"
+msgstr "Vrste ključnih sličic, interpolacija"
+
+#: ../../effects_and_filters.rst:417
+msgid ""
+"Keyframes can be created automatically while playback is running. To enable "
+"the function, hover the mouse pointer in the project monitor on the right "
+"side (left side, if you moved the monitor toolbar previously) and click in "
+"the :ref:`monitor toolbar <ui-monitors_effect_direct_control>` on |keyframe-"
+"record|:guilabel:`Add automatic keyframe`. Once enabled, a red dot |media-"
+"record| will appear at the top of the toolbar. It stays visible as long as "
+"this feature is enabled. You can click the dot to quickly turn the feature "
+"off."
+msgstr ""
+
+#: ../../effects_and_filters.rst:419
+msgid ""
+"Now start playback. Whenever you change the position, a handle, or a node it "
+"creates a keyframe (nodes added, deleted, or moved; curves created or "
+"changed; region moved)."
+msgstr ""
+
+#: ../../effects_and_filters.rst:421
+msgid ""
+"You can do auto-keyframing in more then one pass. For example, you can "
+"create keyframes for changing the position of a clip in one pass and then "
+"create keyframes for changing the rotation in another pass."
+msgstr ""
+
+#: ../../effects_and_filters.rst:423
+#, fuzzy
+#| msgid ""
+#| "To export the keyframes to the clipboard click on |application-menu|:"
+#| "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:"
+#| "`Copy keyframes to clipboard`."
+msgid ""
+"By default the Auto-Keyframe interval is limited to every 10\\ :sup:`th` "
+"frame only. To disable this limit, click on |application-menu|:guilabel:"
+"`Options` in the keyframe panel\\ [1]_ and disable :guilabel:`Limit "
+"automatic keyframes`."
+msgstr ""
+"Za izvoz ključnih sličic na odložišče kliknite |application-menu|:guilabel:"
+"`Možnosti` na plošči ključnih sličic [1]_ in izberite :guilabel:`Kopiraj "
+"ključne sličice na odložišče`."
+
+#: ../../effects_and_filters.rst:425
+#, fuzzy
+#| msgid ""
+#| "The curve editor can only be enabled on effects which have the following "
+#| "parameters: X, Y, width, height, opacity (alpha, optional) and rotation. "
+#| "For all other effects the curve editor is greyed out."
+msgid ""
+"Auto-keyframing works with effects that have the following parameters: X, Y, "
+"width, height, opacity (alpha, optional) and rotation, including the "
+"Rotoscoping effect. For all other effects auto-keyframing is not available "
+"in the monitor display toolbar."
+msgstr ""
+"Urejevalnik krivulj je mogoče omogočiti samo za učinke, ki imajo naslednje "
+"parametre: X, Y, Širina, Višina, Prekrivnost (alfa, neobvezno) in Vrtenje. "
+"Za vse druge učinke je urejevalnik krivulj zatemnjen."
+
+#: ../../effects_and_filters.rst:431
 msgid "Working with Keyframes in the Effect Stack"
 msgstr "Delo s ključnimi sličicami v skladu učinkov"
 
-#: ../../effects_and_filters.rst:417
+#: ../../effects_and_filters.rst:435
 msgid ""
 "The effect keyframe panel allows comprehensive manipulation of keyframes:"
 msgstr ""
 "Plošča s ključnimi sličicami učinka omogoča podrobno upravljanje s ključnimi "
 "sličicami:"
 
-#: ../../effects_and_filters.rst:423
+#: ../../effects_and_filters.rst:441
 msgid "Select the keyframe you want to move"
 msgstr "Izberite ključno sličico, ki jo želite premakniti"
 
-#: ../../effects_and_filters.rst:424
+#: ../../effects_and_filters.rst:442
 msgid "Move the cursor to the position where you want to move the keyframe to"
 msgstr "Premaknite kazalec na mesto, kamor želite premakniti ključno sličico"
 
-#: ../../effects_and_filters.rst:425
+#: ../../effects_and_filters.rst:443
 msgid ""
 "Click on |align-horizontal-center|:guilabel:`Move selected keyframe to "
 "cursor`"
@@ -1069,33 +1143,33 @@ msgstr ""
 "Kliknite |align-horizontal-center|:guilabel:`Premakni izbrano ključno "
 "sličico h kazalcu`"
 
-#: ../../effects_and_filters.rst:433
+#: ../../effects_and_filters.rst:451
 msgid "Select the keyframe you want to duplicate"
 msgstr "Izberite ključno sličico, ki jo želite podvojiti"
 
-#: ../../effects_and_filters.rst:434
+#: ../../effects_and_filters.rst:452
 msgid "Click on |edit-copy|:guilabel:`Copy keyframe`"
 msgstr "Kliknite |edit-copy|:guilabel:`Kopiraj ključno sličico`"
 
-#: ../../effects_and_filters.rst:435
+#: ../../effects_and_filters.rst:453
 msgid ""
 "Move the cursor to the position where you want to insert the new keyframe"
 msgstr "Premaknite kazalec na mesto, kjer želite vstaviti novo ključno sličico"
 
-#: ../../effects_and_filters.rst:436
+#: ../../effects_and_filters.rst:454
 msgid "Click on |edit-paste|:guilabel:`Paste keyframe`"
 msgstr "Kliknite |edit-paste|:guilabel:`Prilepi ključno sličico`"
 
-#: ../../effects_and_filters.rst:444
+#: ../../effects_and_filters.rst:462
 msgid "Select all keyframes you want to apply the value on"
 msgstr "Izberite vse ključne sličice, pri katerih želite uporabiti vrednost"
 
-#: ../../effects_and_filters.rst:445
+#: ../../effects_and_filters.rst:463
 msgid "Go to one of the selected keyframes and change the value(s) as you want"
 msgstr ""
 "Pojdite na eno od izbranih ključnih sličic in spremenite želene vrednosti"
 
-#: ../../effects_and_filters.rst:446
+#: ../../effects_and_filters.rst:464
 msgid ""
 "Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply "
 "current position value to selected keyframes`"
@@ -1103,36 +1177,36 @@ msgstr ""
 "Kliknite |application-menu|:guilabel:`Možnosti` in izberite :guilabel:"
 "`Uveljavi vrednost trenutnega položaja na izbrane ključne sličice`"
 
-#: ../../effects_and_filters.rst:447
+#: ../../effects_and_filters.rst:465
 msgid "Select the parameters you want to apply and click on :guilabel:`OK`"
 msgstr ""
 "Izberite parametre, ki jih želite uveljaviti, in kliknite :guilabel:`V redu`"
 
-#: ../../effects_and_filters.rst:455
+#: ../../effects_and_filters.rst:473
 msgid "Select multiple individual keyframes with :kbd:`Ctrl+LMB`"
 msgstr "Izberite več posameznih ključnih sličic s :kbd:`krmilko+levim klikom`"
 
-#: ../../effects_and_filters.rst:463
+#: ../../effects_and_filters.rst:481
 msgid "Select contiguous keyframes with :kbd:`Shift+LMB`"
 msgstr "Izberite zaporedne ključne sličice z :kbd:`dvigalko+levim klikom`"
 
-#: ../../effects_and_filters.rst:471
+#: ../../effects_and_filters.rst:489
 msgid "Moving multiple keyframes at once"
 msgstr "Premikanje več ključnih sličic naenkrat"
 
-#: ../../effects_and_filters.rst:479
+#: ../../effects_and_filters.rst:497
 msgid "Keyframe Types"
 msgstr "Vrste ključnih sličic"
 
-#: ../../effects_and_filters.rst:487
+#: ../../effects_and_filters.rst:505
 msgid "Easing functions are based on |rp_easing_func|."
 msgstr "Funkcije za sproščanje temeljijo na |rp_easing_func|."
 
-#: ../../effects_and_filters.rst:493
+#: ../../effects_and_filters.rst:511
 msgid "Exchanging Keyframes Across Effects"
 msgstr "Izmenjevanje ključnih sličic med učinki"
 
-#: ../../effects_and_filters.rst:497
+#: ../../effects_and_filters.rst:515
 msgid ""
 "You can import and export keyframes from/to the clipboard. This feature is "
 "not only useful to copy keyframes from one clip to another, it can also be "
@@ -1144,7 +1218,7 @@ msgstr ""
 "se npr. uporablja tudi za kopiranje rezultatov sledilnika gibanja v učinek "
 "preoblikovanja."
 
-#: ../../effects_and_filters.rst:499
+#: ../../effects_and_filters.rst:517
 msgid ""
 "To export the keyframes to the clipboard click on |application-menu|:"
 "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:`Copy "
@@ -1154,11 +1228,11 @@ msgstr ""
 "`Možnosti` na plošči ključnih sličic [1]_ in izberite :guilabel:`Kopiraj "
 "ključne sličice na odložišče`."
 
-#: ../../effects_and_filters.rst:504
+#: ../../effects_and_filters.rst:522
 msgid "Importing keyframes"
 msgstr "Uvažanje ključnih sličic"
 
-#: ../../effects_and_filters.rst:506
+#: ../../effects_and_filters.rst:524
 msgid ""
 "To import keyframes from the clipboard click on |application-menu|:guilabel:"
 "`Options` inside the keyframe panel\\ [1]_ and choose :guilabel:`Import "
@@ -1171,7 +1245,7 @@ msgstr ""
 "podatke, bi se moralo prikazati to pogovorno okno, v katerem lahko "
 "prilagodite preslikavo podatkov."
 
-#: ../../effects_and_filters.rst:508
+#: ../../effects_and_filters.rst:526
 msgid ""
 "For most use cases the default settings suffice. But you may want to copy "
 "only a subset of the data and perhaps enter an offset value, for example."
@@ -1179,15 +1253,15 @@ msgstr ""
 "Za večino primerov uporabe zadostujejo privzete nastavitve. Morda pa boste "
 "želeli kopirati le podmnožico podatkov in na primer vnesti vrednost zamika."
 
-#: ../../effects_and_filters.rst:516
+#: ../../effects_and_filters.rst:534
 msgid "Track Effect"
 msgstr "Učinek steze"
 
-#: ../../effects_and_filters.rst:523
+#: ../../effects_and_filters.rst:541
 msgid "Track effect indicators"
 msgstr "Pokazatelji učinka steze"
 
-#: ../../effects_and_filters.rst:525
+#: ../../effects_and_filters.rst:543
 msgid ""
 "Effects can be added to an entire track affecting all clips in that track. "
 "Simply drag an effect from the Effects Tab to the header of the desired "
@@ -1199,11 +1273,11 @@ msgstr ""
 "kliknite ikono |tools-wizard|:guilabel:`Učinek steze` in povlecite učinek v "
 "skladovnico učinkov steze."
 
-#: ../../effects_and_filters.rst:533
+#: ../../effects_and_filters.rst:551
 msgid "Master Effect"
 msgstr "Glavni učinek"
 
-#: ../../effects_and_filters.rst:537
+#: ../../effects_and_filters.rst:555
 msgid ""
 "If you want to apply audio or video effects throughout the whole video. "
 "Click on the :guilabel:`Master` button above the track headers to see the "
@@ -1213,11 +1287,11 @@ msgstr ""
 "Kliknite gumb :guilabel:`Glavni` nad glavo steze, da si ogledate sklad "
 "učinkov za Glavno, kjer lahko dodajate učinke tako kot posnetkom ali stezam."
 
-#: ../../effects_and_filters.rst:542
+#: ../../effects_and_filters.rst:560
 msgid "Adding a Sepia effect to the entire video"
 msgstr "Dodajanje učinka sepije celotnemu videoposnetku"
 
-#: ../../effects_and_filters.rst:544
+#: ../../effects_and_filters.rst:562
 msgid ""
 "There are specific effects and filters that work :ref:`effects-on_master` "
 "only."
@@ -1225,11 +1299,11 @@ msgstr ""
 "Obstajajo posebni učinki in filtri, ki delujejo samo :ref:`na glavni<effects-"
 "on_master>`."
 
-#: ../../effects_and_filters.rst:556
+#: ../../effects_and_filters.rst:574
 msgid "Effect Zones"
 msgstr "Območja učinkov"
 
-#: ../../effects_and_filters.rst:560
+#: ../../effects_and_filters.rst:578
 msgid ""
 "Effect Zones allow you to apply effects to specific regions of tracks or the "
 "timeline. Zones can be set from the effect zone bar in the Timeline or from "
@@ -1239,19 +1313,19 @@ msgstr ""
 "časovnice. Območja lahko nastavite iz vrstice območja učinka v časovnici ali "
 "iz vmesnika na plošči učinka."
 
-#: ../../effects_and_filters.rst:565
+#: ../../effects_and_filters.rst:583
 msgid "Track Effect Zone"
 msgstr "Območje učinka steze"
 
-#: ../../effects_and_filters.rst:571
+#: ../../effects_and_filters.rst:589
 msgid "Master Effect Zone"
 msgstr "Območje učinka na glavni stezi"
 
-#: ../../effects_and_filters.rst:577
+#: ../../effects_and_filters.rst:595
 msgid "Masking Effects"
 msgstr "Učinki maskiranja"
 
-#: ../../effects_and_filters.rst:581
+#: ../../effects_and_filters.rst:599
 msgid ""
 "This feature allows to apply effects only to specific regions of a clip by "
 "using masks. In its current implementation the process requires three steps:"
@@ -1259,7 +1333,7 @@ msgstr ""
 "Ta funkcija omogoča uporabo učinkov samo na določenih območjih posnetka z "
 "uporabo mask. V trenutni izvedbi postopek zahteva tri korake:"
 
-#: ../../effects_and_filters.rst:583
+#: ../../effects_and_filters.rst:601
 msgid ""
 "Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
 "guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
@@ -1267,12 +1341,12 @@ msgstr ""
 "Dodajte eno od treh razpoložljivih mask: :guilabel:`Oblika alfa (maska)`, :"
 "guilabel:`Rotoskopiranje (maska)` ali :guilabel:`Oblike alfa (maska)`."
 
-#: ../../effects_and_filters.rst:584
+#: ../../effects_and_filters.rst:602
 msgid "Add an effect (or effects) to be applied to the masked region"
 msgstr ""
 "Dodajte učinek (ali učinke), ki jih želite uporabiti v območju z masko."
 
-#: ../../effects_and_filters.rst:585
+#: ../../effects_and_filters.rst:603
 msgid ""
 "Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
 "step 2"
@@ -1280,7 +1354,7 @@ msgstr ""
 "Dodajte učinek :guilabel:`Uveljavi masko` za aktiviranje maske na učinke v "
 "koraku 2."
 
-#: ../../effects_and_filters.rst:590
+#: ../../effects_and_filters.rst:608
 msgid ""
 "Using Rotoscoping (mask) to apply the Saturation effect in one specific "
 "region only"
@@ -1288,7 +1362,7 @@ msgstr ""
 "Uporaba rotoskopiranja (maske) za uporabo učinka nasičenosti samo v enem "
 "določenem območju"
 
-#: ../../effects_and_filters.rst:592
+#: ../../effects_and_filters.rst:610
 msgid ""
 "You can apply more than one mask per clip by following the same three-step "
 "process."
@@ -1296,15 +1370,15 @@ msgstr ""
 "Za posnetek lahko uporabite več kot eno masko, tako da sledite istemu "
 "postopku v treh korakih."
 
-#: ../../effects_and_filters.rst:612
+#: ../../effects_and_filters.rst:630
 msgid "Video Effects"
 msgstr "Slikovni učinki"
 
-#: ../../effects_and_filters.rst:614
+#: ../../effects_and_filters.rst:632
 msgid "The video effects are divided into the following categories:"
 msgstr "Slikovni učinki so razdeljeni v naslednje kategorije:"
 
-#: ../../effects_and_filters.rst:622 ../../effects_and_filters.rst:653
+#: ../../effects_and_filters.rst:640 ../../effects_and_filters.rst:671
 msgid ""
 "The available effects are defined by :file:`.xml` files found in :file:`."
 "local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`)."
@@ -1313,7 +1387,7 @@ msgstr ""
 "nahajajo v mapi :file:`.local/share/kdenlive/effects` (npr. :file:`/usr/"
 "share/kdenlive/effects`)."
 
-#: ../../effects_and_filters.rst:624 ../../effects_and_filters.rst:655
+#: ../../effects_and_filters.rst:642 ../../effects_and_filters.rst:673
 msgid ""
 "These :file:`.xml` files contain the default values for the effects "
 "parameters. So if you don't like the default values for the effects in "
@@ -1323,7 +1397,7 @@ msgstr ""
 "Če torej ne marate privzetih vrednosti za učinke v Kdenlive, lahko privzete "
 "nastavitve spremenite tako, da uredite te datoteke :file:`.xml`."
 
-#: ../../effects_and_filters.rst:626 ../../effects_and_filters.rst:657
+#: ../../effects_and_filters.rst:644 ../../effects_and_filters.rst:675
 msgid ""
 "See also :doc:`here <effects_and_filters/effects_and_filters_list>` for an "
 "alphabetical list of effects and filters."
@@ -1331,27 +1405,27 @@ msgstr ""
 "Preberite tudi :doc:`dokument <effects_and_filters/"
 "effects_and_filters_list>` z abecednim seznamom učinkov in filtrov."
 
-#: ../../effects_and_filters.rst:632
+#: ../../effects_and_filters.rst:650
 msgid "Audio Effects"
 msgstr "Zvočni učinki"
 
-#: ../../effects_and_filters.rst:634
+#: ../../effects_and_filters.rst:652
 msgid "The audio effects are divided into the following categories:"
 msgstr "Zvočni učinki so razdeljeni v naslednje kategorije:"
 
-#: ../../effects_and_filters.rst:678
+#: ../../effects_and_filters.rst:696
 msgid "Alphabetical List of all Effects and Filters"
 msgstr "Abecedni seznam vseh učinkov in filtrov"
 
-#: ../../effects_and_filters.rst:690
+#: ../../effects_and_filters.rst:708
 msgid "Audio Tools"
 msgstr "Zvokovna orodja"
 
-#: ../../effects_and_filters.rst:702
+#: ../../effects_and_filters.rst:720
 msgid "Time Remapping"
 msgstr "Časovno preslikovanje"
 
-#: ../../effects_and_filters.rst:706
+#: ../../effects_and_filters.rst:724
 msgid ""
 "The Time Remap feature allows to keyframe the speed of a clip to achieve "
 "effects like speed ramping."
@@ -1359,27 +1433,27 @@ msgstr ""
 "Funkcija Časovna preslikava omogoča določanje ključnih sličic hitrosti "
 "posnetka za doseganje učinkov, kot je spreminjanje hitrosti."
 
-#: ../../effects_and_filters.rst:711
+#: ../../effects_and_filters.rst:729
 msgid "Example of using Time remapping for speed ramping"
 msgstr "Primer uporabe časovnega preslikovanja za spreminjanje hitrosti"
 
-#: ../../effects_and_filters.rst:713
+#: ../../effects_and_filters.rst:731
 msgid "See also :ref:`this tutorial <tutorials-time_remapping>`."
 msgstr "Glejte tudi :ref:`to vadnico <tutorials-time_remapping>`."
 
-#: ../../effects_and_filters.rst:719
+#: ../../effects_and_filters.rst:737
 msgid "Speech-to-Text"
 msgstr "Govor v besedilo"
 
-#: ../../effects_and_filters.rst:731
+#: ../../effects_and_filters.rst:749
 msgid "Subtitles"
 msgstr "Podnaslovi"
 
-#: ../../effects_and_filters.rst:755
+#: ../../effects_and_filters.rst:773
 msgid "Effects Demos"
 msgstr "Demonstracije učinkov"
 
-#: ../../effects_and_filters.rst:778
+#: ../../effects_and_filters.rst:796
 msgid ""
 "The following three YouTube videos display the results of a number of the "
 "video effects available in **Kdenlive** (Spanish captioning)."
@@ -1387,31 +1461,31 @@ msgstr ""
 "Naslednji trije videoposnetki na YouTube prikazujejo rezultate številnih "
 "slikovnih učinkov, ki so na voljo v **Kdenlive** (španski napisi)."
 
-#: ../../effects_and_filters.rst:780
+#: ../../effects_and_filters.rst:798
 msgid "|video_1|"
 msgstr "|video_1|"
 
-#: ../../effects_and_filters.rst:782
+#: ../../effects_and_filters.rst:800
 msgid "|video_2|"
 msgstr "|video_2|"
 
-#: ../../effects_and_filters.rst:784
+#: ../../effects_and_filters.rst:802
 msgid "|video_3|"
 msgstr "|video_3|"
 
-#: ../../effects_and_filters.rst:787
+#: ../../effects_and_filters.rst:805
 msgid "Another YouTube video (English Captions)."
 msgstr "Še en videoposnetek na YouTube (angleški napisi)."
 
-#: ../../effects_and_filters.rst:789
+#: ../../effects_and_filters.rst:807
 msgid "|video_4|"
 msgstr "|video_4|"
 
-#: ../../effects_and_filters.rst:792
+#: ../../effects_and_filters.rst:810
 msgid "See also this YouTube play list from |video_5|"
 msgstr "Glejte tudi ta seznam predvajanja YouTube na |video_5|"
 
-#: ../../effects_and_filters.rst:799
+#: ../../effects_and_filters.rst:817
 msgid ""
 "If you do not see a keyframe panel check whether the keyframe panel has been "
 "switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
@@ -1422,11 +1496,11 @@ msgstr ""
 "orodni vrstici učinka) ali pa učinka preprosto ni mogoče nastaviti s "
 "ključnimi sličicami."
 
-#: ../../effects_and_filters.rst:801
+#: ../../effects_and_filters.rst:819
 msgid "Robert Penners equations: http://robertpenner.com/easing/"
 msgstr "Enačbe Roberta Pennerja: http://robertpenner.com/easing/"
 
-#: ../../effects_and_filters.rst:803
+#: ../../effects_and_filters.rst:821
 msgid ""
 ":kbd:`MMB` = Middle Mouse Button (mouse wheel pressed), :kbd:`RMB` = Right "
 "Mouse Button"

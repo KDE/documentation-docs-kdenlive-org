@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-03 02:21+0000\n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
 "PO-Revision-Date: 2026-05-03 14:12+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -77,6 +77,14 @@ msgstr "kdenlive-show-video"
 #: ../../<rst_epilog>:342
 msgid "keyframe-disable"
 msgstr "keyframe-disable"
+
+#: ../../<rst_epilog>:358
+msgid "keyframe-record"
+msgstr "keyframe-record"
+
+#: ../../<rst_epilog>:378
+msgid "media-record"
+msgstr "media-record"
 
 #: ../../<rst_epilog>:402
 msgid "object-rotate-right"
@@ -1042,25 +1050,89 @@ msgstr ""
 "Щоб повернутися до панелі перегляду монтажного столу, натисніть кнопку |"
 "switch-to-timeline-view|:guilabel:`Перемкнутися на панель монтажного столу`."
 
-#: ../../effects_and_filters.rst:413
+#: ../../effects_and_filters.rst:415
+#, fuzzy
+#| msgid "Keyframes types, interpolation"
+msgid "Automatic Keyframe Generation"
+msgstr "Типи ключових кадрів, інтерполяція"
+
+#: ../../effects_and_filters.rst:417
+msgid ""
+"Keyframes can be created automatically while playback is running. To enable "
+"the function, hover the mouse pointer in the project monitor on the right "
+"side (left side, if you moved the monitor toolbar previously) and click in "
+"the :ref:`monitor toolbar <ui-monitors_effect_direct_control>` on |keyframe-"
+"record|:guilabel:`Add automatic keyframe`. Once enabled, a red dot |media-"
+"record| will appear at the top of the toolbar. It stays visible as long as "
+"this feature is enabled. You can click the dot to quickly turn the feature "
+"off."
+msgstr ""
+
+#: ../../effects_and_filters.rst:419
+msgid ""
+"Now start playback. Whenever you change the position, a handle, or a node it "
+"creates a keyframe (nodes added, deleted, or moved; curves created or "
+"changed; region moved)."
+msgstr ""
+
+#: ../../effects_and_filters.rst:421
+msgid ""
+"You can do auto-keyframing in more then one pass. For example, you can "
+"create keyframes for changing the position of a clip in one pass and then "
+"create keyframes for changing the rotation in another pass."
+msgstr ""
+
+#: ../../effects_and_filters.rst:423
+#, fuzzy
+#| msgid ""
+#| "To export the keyframes to the clipboard click on |application-menu|:"
+#| "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:"
+#| "`Copy keyframes to clipboard`."
+msgid ""
+"By default the Auto-Keyframe interval is limited to every 10\\ :sup:`th` "
+"frame only. To disable this limit, click on |application-menu|:guilabel:"
+"`Options` in the keyframe panel\\ [1]_ and disable :guilabel:`Limit "
+"automatic keyframes`."
+msgstr ""
+"Щоб експортувати ключові кадри до буфера обміну даними, клацніть на |"
+"application-menu|:guilabel:`Параметри` на панелі ключових кадрів\\ [1]_ і "
+"виберіть пункт :guilabel:`Копіювати ключові кадри до буфера обміну`."
+
+#: ../../effects_and_filters.rst:425
+#, fuzzy
+#| msgid ""
+#| "The curve editor can only be enabled on effects which have the following "
+#| "parameters: X, Y, width, height, opacity (alpha, optional) and rotation. "
+#| "For all other effects the curve editor is greyed out."
+msgid ""
+"Auto-keyframing works with effects that have the following parameters: X, Y, "
+"width, height, opacity (alpha, optional) and rotation, including the "
+"Rotoscoping effect. For all other effects auto-keyframing is not available "
+"in the monitor display toolbar."
+msgstr ""
+"Редактори кривих можна увімкнути лише для ефектів, які мають такі параметри: "
+"X, Y, ширина, висота, непрозорість (альфа, необов'язковий) та обертання. Для "
+"усіх інших ефектів пункт редактора кривих буде неактивним."
+
+#: ../../effects_and_filters.rst:431
 msgid "Working with Keyframes in the Effect Stack"
 msgstr "Робота із ключовими кадрами у стосі ефектів"
 
-#: ../../effects_and_filters.rst:417
+#: ../../effects_and_filters.rst:435
 msgid ""
 "The effect keyframe panel allows comprehensive manipulation of keyframes:"
 msgstr ""
 "За допомогою панелі ключових кадрів ефекту можна керувати ключовими кадрами:"
 
-#: ../../effects_and_filters.rst:423
+#: ../../effects_and_filters.rst:441
 msgid "Select the keyframe you want to move"
 msgstr "Позначте ключовий кадр, який ви хочете пересунути"
 
-#: ../../effects_and_filters.rst:424
+#: ../../effects_and_filters.rst:442
 msgid "Move the cursor to the position where you want to move the keyframe to"
 msgstr "Пересуньте курсор у позицію, куди ви хочете пересунути ключовий кадр"
 
-#: ../../effects_and_filters.rst:425
+#: ../../effects_and_filters.rst:443
 msgid ""
 "Click on |align-horizontal-center|:guilabel:`Move selected keyframe to "
 "cursor`"
@@ -1068,35 +1140,35 @@ msgstr ""
 "Натисніть |align-horizontal-center|:guilabel:`Пересунути позначений ключовий "
 "кадр до курсораMove selected keyframe to cursor`"
 
-#: ../../effects_and_filters.rst:433
+#: ../../effects_and_filters.rst:451
 msgid "Select the keyframe you want to duplicate"
 msgstr "Позначте ключовий кадр, який ви хочете здублювати"
 
-#: ../../effects_and_filters.rst:434
+#: ../../effects_and_filters.rst:452
 msgid "Click on |edit-copy|:guilabel:`Copy keyframe`"
 msgstr "Натисніть |edit-copy|:guilabel:`Копіювати ключовий кадр`"
 
-#: ../../effects_and_filters.rst:435
+#: ../../effects_and_filters.rst:453
 msgid ""
 "Move the cursor to the position where you want to insert the new keyframe"
 msgstr ""
 "Пересуньте курсор у позицію, куди ви хочете вставити новий ключовий кадр"
 
-#: ../../effects_and_filters.rst:436
+#: ../../effects_and_filters.rst:454
 msgid "Click on |edit-paste|:guilabel:`Paste keyframe`"
 msgstr "Натисніть |edit-paste|:guilabel:`Вставити ключовий кадр`"
 
-#: ../../effects_and_filters.rst:444
+#: ../../effects_and_filters.rst:462
 msgid "Select all keyframes you want to apply the value on"
 msgstr "Позначте усі ключові кадри, до яких ви хочете застосувати значення"
 
-#: ../../effects_and_filters.rst:445
+#: ../../effects_and_filters.rst:463
 msgid "Go to one of the selected keyframes and change the value(s) as you want"
 msgstr ""
 "Перейдіть до одного з позначених ключових кадрів і змініть значення на "
 "потрібні вам"
 
-#: ../../effects_and_filters.rst:446
+#: ../../effects_and_filters.rst:464
 msgid ""
 "Click on |application-menu|:guilabel:`Options` and select :guilabel:`Apply "
 "current position value to selected keyframes`"
@@ -1105,40 +1177,40 @@ msgstr ""
 "guilabel:`Застосувати значення у поточній позиції до позначених ключових "
 "кадрів`"
 
-#: ../../effects_and_filters.rst:447
+#: ../../effects_and_filters.rst:465
 msgid "Select the parameters you want to apply and click on :guilabel:`OK`"
 msgstr ""
 "Виберіть параметри, які ви хочете застосувати і натисніть :guilabel:`Гаразд`"
 
-#: ../../effects_and_filters.rst:455
+#: ../../effects_and_filters.rst:473
 msgid "Select multiple individual keyframes with :kbd:`Ctrl+LMB`"
 msgstr ""
 "Виберіть декілька окремих ключових кадрів за допомогою комбінації :kbd:`Ctrl"
 "+клацання-лівою`"
 
-#: ../../effects_and_filters.rst:463
+#: ../../effects_and_filters.rst:481
 msgid "Select contiguous keyframes with :kbd:`Shift+LMB`"
 msgstr ""
 "Виберіть неперервну послідовність ключових кадрів за допомогою комбінації :"
 "kbd:`Shift+клацання-лівою`"
 
-#: ../../effects_and_filters.rst:471
+#: ../../effects_and_filters.rst:489
 msgid "Moving multiple keyframes at once"
 msgstr "Одночасне пересування декількох ключових кадрів"
 
-#: ../../effects_and_filters.rst:479
+#: ../../effects_and_filters.rst:497
 msgid "Keyframe Types"
 msgstr "Типи ключових кадрів"
 
-#: ../../effects_and_filters.rst:487
+#: ../../effects_and_filters.rst:505
 msgid "Easing functions are based on |rp_easing_func|."
 msgstr "Функції оптимізації засновано на |rp_easing_func|."
 
-#: ../../effects_and_filters.rst:493
+#: ../../effects_and_filters.rst:511
 msgid "Exchanging Keyframes Across Effects"
 msgstr "Обмін ключовими кадрами між ефектами"
 
-#: ../../effects_and_filters.rst:497
+#: ../../effects_and_filters.rst:515
 msgid ""
 "You can import and export keyframes from/to the clipboard. This feature is "
 "not only useful to copy keyframes from one clip to another, it can also be "
@@ -1150,7 +1222,7 @@ msgstr ""
 "ключових кадрів з одного кліпу до іншого, нею, наприклад, можна скористатися "
 "для копіювання результатів стеження за рухом до ефекту перетворення"
 
-#: ../../effects_and_filters.rst:499
+#: ../../effects_and_filters.rst:517
 msgid ""
 "To export the keyframes to the clipboard click on |application-menu|:"
 "guilabel:`Options` in the keyframe panel\\ [1]_ and choose :guilabel:`Copy "
@@ -1160,11 +1232,11 @@ msgstr ""
 "application-menu|:guilabel:`Параметри` на панелі ключових кадрів\\ [1]_ і "
 "виберіть пункт :guilabel:`Копіювати ключові кадри до буфера обміну`."
 
-#: ../../effects_and_filters.rst:504
+#: ../../effects_and_filters.rst:522
 msgid "Importing keyframes"
 msgstr "Імпортування ключових кадрів"
 
-#: ../../effects_and_filters.rst:506
+#: ../../effects_and_filters.rst:524
 msgid ""
 "To import keyframes from the clipboard click on |application-menu|:guilabel:"
 "`Options` inside the keyframe panel\\ [1]_ and choose :guilabel:`Import "
@@ -1178,7 +1250,7 @@ msgstr ""
 "вікно, подібне до наведеного на знімку. За допомогою цього вікна ви зможете "
 "скоригувати прив'язку даних."
 
-#: ../../effects_and_filters.rst:508
+#: ../../effects_and_filters.rst:526
 msgid ""
 "For most use cases the default settings suffice. But you may want to copy "
 "only a subset of the data and perhaps enter an offset value, for example."
@@ -1187,15 +1259,15 @@ msgstr ""
 "виникнути потреба у копіюванні лише підмножини даних і, наприклад, введенні "
 "значення зсуву."
 
-#: ../../effects_and_filters.rst:516
+#: ../../effects_and_filters.rst:534
 msgid "Track Effect"
 msgstr "Ефект доріжки"
 
-#: ../../effects_and_filters.rst:523
+#: ../../effects_and_filters.rst:541
 msgid "Track effect indicators"
 msgstr "Індикатори ефекту доріжки"
 
-#: ../../effects_and_filters.rst:525
+#: ../../effects_and_filters.rst:543
 msgid ""
 "Effects can be added to an entire track affecting all clips in that track. "
 "Simply drag an effect from the Effects Tab to the header of the desired "
@@ -1207,11 +1279,11 @@ msgstr ""
 "ефектів на заголовок бажаної доріжки або натисніть кнопку |tools-wizard|:"
 "guilabel:`Ефект доріжки` і перетягніть пункт ефекти до стосу ефектів доріжки."
 
-#: ../../effects_and_filters.rst:533
+#: ../../effects_and_filters.rst:551
 msgid "Master Effect"
 msgstr "Основний ефект"
 
-#: ../../effects_and_filters.rst:537
+#: ../../effects_and_filters.rst:555
 msgid ""
 "If you want to apply audio or video effects throughout the whole video. "
 "Click on the :guilabel:`Master` button above the track headers to see the "
@@ -1222,11 +1294,11 @@ msgstr ""
 "переглянути стос основний стос ефектів, де ви можете додати ефекти так, як "
 "ви це робите для кліпів або доріжок."
 
-#: ../../effects_and_filters.rst:542
+#: ../../effects_and_filters.rst:560
 msgid "Adding a Sepia effect to the entire video"
 msgstr "Додавання ефекту сепії до усього відео"
 
-#: ../../effects_and_filters.rst:544
+#: ../../effects_and_filters.rst:562
 msgid ""
 "There are specific effects and filters that work :ref:`effects-on_master` "
 "only."
@@ -1234,11 +1306,11 @@ msgstr ""
 "Існують особливі ефекти і фільтри, які працюють лише з :ref:`effects-"
 "on_master`."
 
-#: ../../effects_and_filters.rst:556
+#: ../../effects_and_filters.rst:574
 msgid "Effect Zones"
 msgstr "Зони ефектів"
 
-#: ../../effects_and_filters.rst:560
+#: ../../effects_and_filters.rst:578
 msgid ""
 "Effect Zones allow you to apply effects to specific regions of tracks or the "
 "timeline. Zones can be set from the effect zone bar in the Timeline or from "
@@ -1249,19 +1321,19 @@ msgstr ""
 "допомогою панелі зон ефектів на монтажному столі або за допомогою інтерфейсу "
 "панелі ефектів."
 
-#: ../../effects_and_filters.rst:565
+#: ../../effects_and_filters.rst:583
 msgid "Track Effect Zone"
 msgstr "Зона ефектів доріжки"
 
-#: ../../effects_and_filters.rst:571
+#: ../../effects_and_filters.rst:589
 msgid "Master Effect Zone"
 msgstr "Зона основних ефектів"
 
-#: ../../effects_and_filters.rst:577
+#: ../../effects_and_filters.rst:595
 msgid "Masking Effects"
 msgstr "Ефекти маскування"
 
-#: ../../effects_and_filters.rst:581
+#: ../../effects_and_filters.rst:599
 msgid ""
 "This feature allows to apply effects only to specific regions of a clip by "
 "using masks. In its current implementation the process requires three steps:"
@@ -1270,7 +1342,7 @@ msgstr ""
 "зображення кліпу шляхом використання масок. У поточній реалізації процедура "
 "складається з трьох кроків:"
 
-#: ../../effects_and_filters.rst:583
+#: ../../effects_and_filters.rst:601
 msgid ""
 "Add one of the three available masks: :guilabel:`Shape alpha (mask)`, :"
 "guilabel:`Rotoscoping (mask)` or :guilabel:`Alpha shapes (mask)`."
@@ -1278,11 +1350,11 @@ msgstr ""
 "Додайте одну з трьох доступних масок: :guilabel:`Форма прозорості (маска)`, :"
 "guilabel:`Ротоскопія (маска)` або :guilabel:`α-форми (маска)`."
 
-#: ../../effects_and_filters.rst:584
+#: ../../effects_and_filters.rst:602
 msgid "Add an effect (or effects) to be applied to the masked region"
 msgstr "Додайте ефект (або ефекти) для застосування до замаскованої ділянки"
 
-#: ../../effects_and_filters.rst:585
+#: ../../effects_and_filters.rst:603
 msgid ""
 "Add the :guilabel:`Mask Apply` effect to activate the mask to the effects in "
 "step 2"
@@ -1290,7 +1362,7 @@ msgstr ""
 "Додайте ефект :guilabel:`Застосування маски`, щоб активувати маску до "
 "ефектів на кроці 2"
 
-#: ../../effects_and_filters.rst:590
+#: ../../effects_and_filters.rst:608
 msgid ""
 "Using Rotoscoping (mask) to apply the Saturation effect in one specific "
 "region only"
@@ -1298,7 +1370,7 @@ msgstr ""
 "Використання ротоскопії (маски) для застосування ефекту насичення лише на "
 "окремій ділянці зображення"
 
-#: ../../effects_and_filters.rst:592
+#: ../../effects_and_filters.rst:610
 msgid ""
 "You can apply more than one mask per clip by following the same three-step "
 "process."
@@ -1306,15 +1378,15 @@ msgstr ""
 "Ви можете застосувати декілька масок на кліп, виконавши ту саму трикрокову "
 "процедуру."
 
-#: ../../effects_and_filters.rst:612
+#: ../../effects_and_filters.rst:630
 msgid "Video Effects"
 msgstr "Відеоефекти"
 
-#: ../../effects_and_filters.rst:614
+#: ../../effects_and_filters.rst:632
 msgid "The video effects are divided into the following categories:"
 msgstr "Відеоефекти поділено на такі категорії:"
 
-#: ../../effects_and_filters.rst:622 ../../effects_and_filters.rst:653
+#: ../../effects_and_filters.rst:640 ../../effects_and_filters.rst:671
 msgid ""
 "The available effects are defined by :file:`.xml` files found in :file:`."
 "local/share/kdenlive/effects` (e.g. :file:`/usr/share/kdenlive/effects`)."
@@ -1323,7 +1395,7 @@ msgstr ""
 "зберігаються у :file:`$KDEDIR/share/kdenlive/effects` (наприклад, :file:`/"
 "usr/share//kdenlive/effects`)."
 
-#: ../../effects_and_filters.rst:624 ../../effects_and_filters.rst:655
+#: ../../effects_and_filters.rst:642 ../../effects_and_filters.rst:673
 msgid ""
 "These :file:`.xml` files contain the default values for the effects "
 "parameters. So if you don't like the default values for the effects in "
@@ -1333,7 +1405,7 @@ msgstr ""
 "Отже, якщо вам не подобаються типові значення параметрів у Kdenlive, ви "
 "можете змінити їх безпосереднім редагуванням цих файлів :file:`.xml`."
 
-#: ../../effects_and_filters.rst:626 ../../effects_and_filters.rst:657
+#: ../../effects_and_filters.rst:644 ../../effects_and_filters.rst:675
 msgid ""
 "See also :doc:`here <effects_and_filters/effects_and_filters_list>` for an "
 "alphabetical list of effects and filters."
@@ -1341,27 +1413,27 @@ msgstr ""
 "Див. також :doc:`це <effects_and_filters/effects_and_filters_list>`, щоб "
 "ознайомитися із списком ефектів і переходів за абеткою."
 
-#: ../../effects_and_filters.rst:632
+#: ../../effects_and_filters.rst:650
 msgid "Audio Effects"
 msgstr "Звукові ефекти"
 
-#: ../../effects_and_filters.rst:634
+#: ../../effects_and_filters.rst:652
 msgid "The audio effects are divided into the following categories:"
 msgstr "Звукові ефекти поділено на такі категорії:"
 
-#: ../../effects_and_filters.rst:678
+#: ../../effects_and_filters.rst:696
 msgid "Alphabetical List of all Effects and Filters"
 msgstr "Список усіх ефектів та фільтрів за абеткою"
 
-#: ../../effects_and_filters.rst:690
+#: ../../effects_and_filters.rst:708
 msgid "Audio Tools"
 msgstr "Звукові інструменти"
 
-#: ../../effects_and_filters.rst:702
+#: ../../effects_and_filters.rst:720
 msgid "Time Remapping"
 msgstr "Переприв'язка за часом"
 
-#: ../../effects_and_filters.rst:706
+#: ../../effects_and_filters.rst:724
 msgid ""
 "The Time Remap feature allows to keyframe the speed of a clip to achieve "
 "effects like speed ramping."
@@ -1370,29 +1442,29 @@ msgstr ""
 "для швидкості відтворення кліпу з метою досягнення ефектів, подібних до "
 "швидкого прокручування."
 
-#: ../../effects_and_filters.rst:711
+#: ../../effects_and_filters.rst:729
 msgid "Example of using Time remapping for speed ramping"
 msgstr ""
 "Приклад використання переприв'язки за часом для створення швидкого "
 "прокручування"
 
-#: ../../effects_and_filters.rst:713
+#: ../../effects_and_filters.rst:731
 msgid "See also :ref:`this tutorial <tutorials-time_remapping>`."
 msgstr "Див. також :ref:`цей підручник <tutorials-time_remapping>`."
 
-#: ../../effects_and_filters.rst:719
+#: ../../effects_and_filters.rst:737
 msgid "Speech-to-Text"
 msgstr "Перетворення звуку на текст"
 
-#: ../../effects_and_filters.rst:731
+#: ../../effects_and_filters.rst:749
 msgid "Subtitles"
 msgstr "Субтитри"
 
-#: ../../effects_and_filters.rst:755
+#: ../../effects_and_filters.rst:773
 msgid "Effects Demos"
 msgstr "Демонстрації ефектів"
 
-#: ../../effects_and_filters.rst:778
+#: ../../effects_and_filters.rst:796
 msgid ""
 "The following three YouTube videos display the results of a number of the "
 "video effects available in **Kdenlive** (Spanish captioning)."
@@ -1400,31 +1472,31 @@ msgstr ""
 "Нижче наведено три відео з YouTube з демонстрацією декількох відеоефектів, "
 "якими можна скористатися у **Kdenlive** (субтитри іспанською):"
 
-#: ../../effects_and_filters.rst:780
+#: ../../effects_and_filters.rst:798
 msgid "|video_1|"
 msgstr "|video_1|"
 
-#: ../../effects_and_filters.rst:782
+#: ../../effects_and_filters.rst:800
 msgid "|video_2|"
 msgstr "|video_2|"
 
-#: ../../effects_and_filters.rst:784
+#: ../../effects_and_filters.rst:802
 msgid "|video_3|"
 msgstr "|video_3|"
 
-#: ../../effects_and_filters.rst:787
+#: ../../effects_and_filters.rst:805
 msgid "Another YouTube video (English Captions)."
 msgstr "Ще одне відео з YouTube (з субтитрами англійською):"
 
-#: ../../effects_and_filters.rst:789
+#: ../../effects_and_filters.rst:807
 msgid "|video_4|"
 msgstr "|video_4|"
 
-#: ../../effects_and_filters.rst:792
+#: ../../effects_and_filters.rst:810
 msgid "See also this YouTube play list from |video_5|"
 msgstr "Див. також список відтворення YouTube з |video_5|"
 
-#: ../../effects_and_filters.rst:799
+#: ../../effects_and_filters.rst:817
 msgid ""
 "If you do not see a keyframe panel check whether the keyframe panel has been "
 "switched off for this effect (|keyframe-disable| icon in the effect toolbar) "
@@ -1435,11 +1507,11 @@ msgstr ""
 "панелі інструментів ефектів) або у тому, що ефект не належить до ефектів, "
 "які не пов'язано із ключовими кадрами."
 
-#: ../../effects_and_filters.rst:801
+#: ../../effects_and_filters.rst:819
 msgid "Robert Penners equations: http://robertpenner.com/easing/"
 msgstr "Рівняння Роберта Пеннера: http://robertpenner.com/easing/"
 
-#: ../../effects_and_filters.rst:803
+#: ../../effects_and_filters.rst:821
 msgid ""
 ":kbd:`MMB` = Middle Mouse Button (mouse wheel pressed), :kbd:`RMB` = Right "
 "Mouse Button"
@@ -1761,10 +1833,6 @@ msgstr ""
 #~ msgid "keyframe-remove"
 #~ msgstr "keyframe-remove"
 
-#~| msgid "Keyframe ruler"
-#~ msgid "keyframe-record"
-#~ msgstr "keyframe-record"
-
 #~ msgid "linear"
 #~ msgstr "linear"
 
@@ -1773,9 +1841,6 @@ msgstr ""
 
 #~ msgid "list-remove"
 #~ msgstr "list-remove"
-
-#~ msgid "media-record"
-#~ msgstr "media-record"
 
 #~ msgid "network-server-database"
 #~ msgstr "network-server-database"
