@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 02:08+0000\n"
-"PO-Revision-Date: 2026-05-02 05:29-0300\n"
+"PO-Revision-Date: 2026-09-01 11:15-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: ../../<rst_epilog>:38
 msgid "audio-volume-muted"
@@ -304,13 +304,6 @@ msgstr ""
 "durante a reprodução, a busca e a navegação."
 
 #: ../../user_interface/timeline.rst:146
-#, fuzzy
-#| msgid ""
-#| "A fixed centered playhead can be enabled in :menuselection:`Settings --> "
-#| "Configure Kdenlive --> Timeline` :guilabel:`Fixed centered playhead`. "
-#| "When enabled, the playhead remains locked at the center of the timeline "
-#| "view while the timeline content scrolls smoothly beneath it during "
-#| "playback, scrubbing, and seeking."
 msgid ""
 "A playhead return to the position where playback has started can be enabled "
 "in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:"
@@ -319,12 +312,13 @@ msgid ""
 "This is useful for previewing a specific section of your project without "
 "losing your place in the timeline."
 msgstr ""
-"É possível ativar um indicador de reprodução fixo e centralizado em :"
-"menuselection:`Configurações --> Configurar o Kdenlive --> Linha do tempo` :"
-"guilabel:`Indicador de reprodução fixo e centralizado`. Quando ativado, o "
-"indicador de reprodução permanece fixo no centro da visualização da linha do "
-"tempo enquanto o conteúdo da linha do tempo rola suavemente abaixo dele "
-"durante a reprodução, a busca e a navegação."
+"É possível ativar o retorno do cursor de reprodução à posição inicial da "
+"reprodução em :menuselection:`Configurações --> Configurar o Kdenlive --> "
+"Linha do tempo` na opção :guilabel:`Retornar o cursor à posição inicial ao "
+"parar`. Quando essa opção está ativada, o cursor de reprodução volta para a "
+"posição onde a reprodução começou assim que ela é interrompida. Isso é útil "
+"para visualizar uma seção específica do projeto sem perder a referência de "
+"onde você estava na linha do tempo."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyboard Navigation"
@@ -655,37 +649,47 @@ msgstr ":kbd:`seta para cima/para baixo` leva à próxima faixa"
 
 #: ../../user_interface/timeline.rst:335
 msgid "Track Right-Click Menu"
-msgstr ""
+msgstr "Menu de clique com o botão direito na trilha"
 
 #: ../../user_interface/timeline.rst:341
 msgid "Video Track"
-msgstr ""
+msgstr "Trilha de vídeo"
 
 #: ../../user_interface/timeline.rst:345 ../../user_interface/timeline.rst:363
 msgid ":guilabel:`Insert Track` see :ref:`adding_tracks` for more details."
 msgstr ""
+":guilabel:`Inserir trilha` — consulte :ref:`adding_tracks` para mais "
+"detalhes."
 
 #: ../../user_interface/timeline.rst:347 ../../user_interface/timeline.rst:365
 msgid ":guilabel:`Delete Track` see :ref:`deleting_tracks` for more details."
 msgstr ""
+":guilabel:`Excluir trilha` — consulte :ref:`deleting_tracks` para mais "
+"detalhes."
 
 #: ../../user_interface/timeline.rst:349 ../../user_interface/timeline.rst:367
 msgid ""
 ":guilabel:`Move Track Up` or :guilabel:`Move Track Down` see :ref:"
 "`reordering_tracks` for more details."
 msgstr ""
+":guilabel:`Mover trilha para cima` ou :guilabel:`Mover trilha para baixo` — "
+"consulte :ref:`reordering_tracks` para mais detalhes."
 
 #: ../../user_interface/timeline.rst:351 ../../user_interface/timeline.rst:369
 msgid ""
 ":guilabel:`Fit all Tracks in View` see :ref:`fit_tracks_to_view_height` for "
 "more details."
 msgstr ""
+":guilabel:`Encaixar todas as trilhas na visualização` — consulte :ref:"
+"`fit_tracks_to_view_height` para mais detalhes."
 
 #: ../../user_interface/timeline.rst:353 ../../user_interface/timeline.rst:377
 msgid ""
 ":guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more "
 "details."
 msgstr ""
+":guilabel:`Identificar trilha` — consulte :ref:`identify_timeline_gaps` para "
+"mais detalhes."
 
 #: ../../user_interface/timeline.rst:355
 msgid ""
@@ -694,12 +698,14 @@ msgid ""
 "Thumbnails` (for how to change the colors, see :ref:`Configure Clip Colors "
 "<configure_clip_colors>`)."
 msgstr ""
+"Em :guilabel:`Miniaturas`, você pode exibir o :guilabel:`Quadro de entrada`, "
+"os :guilabel:`Quadros de entrada/saída`, :guilabel:`Todos os quadros` ou :"
+"guilabel:`Nenhuma miniatura` (para saber como alterar as cores, consulte :"
+"ref:`Configurar cores do clipe <configure_clip_colors>`)."
 
 #: ../../user_interface/timeline.rst:359
-#, fuzzy
-#| msgid "Adding Tracks"
 msgid "Audio Track"
-msgstr "Adicionando faixas"
+msgstr "Trilha de áudio"
 
 #: ../../user_interface/timeline.rst:371
 msgid ""
@@ -750,10 +756,8 @@ msgstr ""
 "configuration_project_defaults>`."
 
 #: ../../user_interface/timeline.rst:405
-#, fuzzy
-#| msgid "Deleting Tracks"
 msgid "Reordering Tracks"
-msgstr "Excluindo faixas"
+msgstr "Reordenar trilhas"
 
 #: ../../user_interface/timeline.rst:407
 msgid ""
@@ -762,10 +766,16 @@ msgid ""
 "`Move Track Up` or :guilabel:`Move Track Down`. You can undo the reordering "
 "by using :kbd:`Ctrl+Z` or :menuselection:`Menu --> Edit --> Undo`."
 msgstr ""
+"As trilhas só podem ser reordenadas entre trilhas do mesmo tipo (áudio ou "
+"vídeo). Para reordenar as trilhas, clique com o botão direito em qualquer "
+"lugar da área do cabeçalho da trilha e selecione :guilabel:`Mover trilha "
+"para cima` ou :guilabel:`Mover trilha para baixo`. Você pode desfazer a "
+"reordenação usando :kbd:`Ctrl+Z` ou :menuselection:`Menu --> Editar --> "
+"Desfazer`."
 
 #: ../../user_interface/timeline.rst:411
 msgid "Grouped clips are kept together when reordering tracks."
-msgstr ""
+msgstr "Clipes agrupados são mantidos juntos ao reorganizar as trilhas."
 
 #: ../../user_interface/timeline.rst:413
 msgid ""
@@ -773,38 +783,42 @@ msgid ""
 "settings will be changed to automatic. If a clip was switched to automatic "
 "or background, it remains unchanged."
 msgstr ""
+"As composições anexadas a um clipe serão movidas juntamente com o clipe, mas "
+"suas configurações serão alteradas para automático. Se um clipe tiver sido "
+"definido como automático ou plano de fundo, ele permanecerá inalterado."
 
 #: ../../user_interface/timeline.rst:420
 msgid ""
 "Reordering tracks: Use :guilabel:`Move Track Up` or :guilabel:`Move Track "
 "Down`"
 msgstr ""
+"Reordenar trilhas: Use :guilabel:`Mover trilha para cima` ou :guilabel:"
+"`Mover trilha para baixo`"
 
 #: ../../user_interface/timeline.rst:424
 msgid ""
 "You can still mix and split tracks by using :ref:`this functions "
 "<timeline_toolbar2>` in the timeline toolbar."
 msgstr ""
+"Você ainda pode combinar e dividir trilhas usando :ref:`estas funções "
+"<timeline_toolbar2>` na barra de ferramentas da linha do tempo."
 
 #: ../../user_interface/timeline.rst:431
 msgid "Deleting Tracks"
 msgstr "Excluindo faixas"
 
 #: ../../user_interface/timeline.rst:433
-#, fuzzy
-#| msgid ""
-#| "In order to delete a track right-click anywhere in the track header area. "
-#| "In the **Delete Track** dialog window select the tracks you want to "
-#| "delete."
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the **Delete Track** dialog window select the tracks you want to delete. "
 "Kdenlive warns you if there are clips on the track to be deleted. You can "
 "still delete the track and all its clips or cancel the operation."
 msgstr ""
-"Para excluir uma faixa, clique com o botão direito do mouse em qualquer "
-"lugar na área do cabeçalho da faixa. Na janela **Excluir faixa**, selecione "
-"as faixas que deseja excluir."
+"Para excluir uma trilha, clique com o botão direito em qualquer lugar da "
+"área do cabeçalho da trilha. Na janela de diálogo **Excluir trilha**, "
+"selecione as trilhas que deseja excluir. O Kdenlive avisa se houver clipes "
+"na trilha a ser excluída. Você ainda pode excluir a trilha e todos os seus "
+"clipes ou cancelar a operação."
 
 #: ../../user_interface/timeline.rst:442
 msgid "Resizing Tracks"
