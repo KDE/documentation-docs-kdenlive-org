@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: documentation-docs-kdenlive-org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 02:08+0000\n"
-"PO-Revision-Date: 2026-08-17 16:14+0200\n"
+"PO-Revision-Date: 2026-09-02 13:32+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.04.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: ../../<rst_epilog>:38
 msgid "audio-volume-muted"
@@ -306,13 +306,6 @@ msgstr ""
 "reproducció, el rastreig i la cerca."
 
 #: ../../user_interface/timeline.rst:146
-#, fuzzy
-#| msgid ""
-#| "A fixed centered playhead can be enabled in :menuselection:`Settings --> "
-#| "Configure Kdenlive --> Timeline` :guilabel:`Fixed centered playhead`. "
-#| "When enabled, the playhead remains locked at the center of the timeline "
-#| "view while the timeline content scrolls smoothly beneath it during "
-#| "playback, scrubbing, and seeking."
 msgid ""
 "A playhead return to the position where playback has started can be enabled "
 "in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:"
@@ -321,12 +314,13 @@ msgid ""
 "This is useful for previewing a specific section of your project without "
 "losing your place in the timeline."
 msgstr ""
-"Es pot activar un capçal de reproducció centrat fix a :menuselection:"
-"`Arranjament --> Configura el Kdenlive --> Línia de temps` :guilabel:`Capçal "
-"de reproducció centrat fix`. Quan està activat, el capçal de reproducció "
-"roman bloquejat al centre de la vista de la línia de temps, mentre que el "
-"contingut de la línia de temps es desplaça suaument per sota d'ell durant la "
-"reproducció, el rastreig i la cerca."
+"Es pot habilitar un retorn del capçal de reproducció a la posició on s'ha "
+"iniciat la reproducció a :menuselection:`Arranjament --> Configura el "
+"Kdenlive --> Línia de temps` :guilabel:`Retorna el capçal de reproducció a "
+"la posició d'inici en aturar-se`. Quan està activat, el capçal de "
+"reproducció tornarà a la posició on s'ha iniciat la reproducció quan s'atura "
+"la reproducció. Això és útil per a previsualitzar una secció específica del "
+"projecte sense perdre la posició a la línia de temps."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyboard Navigation"
@@ -661,37 +655,44 @@ msgstr ":kbd:`fletxa amunt/avall` va a la pista següent"
 
 #: ../../user_interface/timeline.rst:335
 msgid "Track Right-Click Menu"
-msgstr ""
+msgstr "Menú del clic dret de pista"
 
 #: ../../user_interface/timeline.rst:341
 msgid "Video Track"
-msgstr ""
+msgstr "Pista de vídeo"
 
 #: ../../user_interface/timeline.rst:345 ../../user_interface/timeline.rst:363
 msgid ":guilabel:`Insert Track` see :ref:`adding_tracks` for more details."
-msgstr ""
+msgstr ":guilabel:`Insereix pista` vegeu més detalls a :ref:`adding_tracks`."
 
 #: ../../user_interface/timeline.rst:347 ../../user_interface/timeline.rst:365
 msgid ":guilabel:`Delete Track` see :ref:`deleting_tracks` for more details."
 msgstr ""
+":guilabel:`Suprimeix la pista` vegeu més detalls a :ref:`deleting_tracks`."
 
 #: ../../user_interface/timeline.rst:349 ../../user_interface/timeline.rst:367
 msgid ""
 ":guilabel:`Move Track Up` or :guilabel:`Move Track Down` see :ref:"
 "`reordering_tracks` for more details."
 msgstr ""
+":guilabel:`Mou la pista amunt` o :guilabel:`Mou la pista avall` vegeu més "
+"detalls a :ref:`reordering_tracks`."
 
 #: ../../user_interface/timeline.rst:351 ../../user_interface/timeline.rst:369
 msgid ""
 ":guilabel:`Fit all Tracks in View` see :ref:`fit_tracks_to_view_height` for "
 "more details."
 msgstr ""
+":guilabel:`Ajusta totes les pistes en la vista` vegeu més detalls a :ref:"
+"`fit_tracks_to_view_height`."
 
 #: ../../user_interface/timeline.rst:353 ../../user_interface/timeline.rst:377
 msgid ""
 ":guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more "
 "details."
 msgstr ""
+":guilabel:`Identificació de pista` vegeu més detalls a :ref:"
+"`identify_timeline_gaps`."
 
 #: ../../user_interface/timeline.rst:355
 msgid ""
@@ -700,12 +701,14 @@ msgid ""
 "Thumbnails` (for how to change the colors, see :ref:`Configure Clip Colors "
 "<configure_clip_colors>`)."
 msgstr ""
+":guilabel:`Miniatures` podeu mostrar el :guilabel:`Fotograma d'entrada`, "
+"els :guilabel:`Fotogrames d'entrada / sortida`, :guilabel:`Tots els "
+"fotogrames` o :guilabel:`Sense miniatures` (vegeu :ref:`Configuració dels "
+"colors dels clips <configure_clip_colors>` per a com canviar el colors)."
 
 #: ../../user_interface/timeline.rst:359
-#, fuzzy
-#| msgid "Adding Tracks"
 msgid "Audio Track"
-msgstr "Afegir pistes"
+msgstr "Pista d'àudio"
 
 #: ../../user_interface/timeline.rst:371
 msgid ""
@@ -756,10 +759,8 @@ msgstr ""
 "configuration_project_defaults>`."
 
 #: ../../user_interface/timeline.rst:405
-#, fuzzy
-#| msgid "Deleting Tracks"
 msgid "Reordering Tracks"
-msgstr "Suprimir pistes"
+msgstr "Reordenació de pistes"
 
 #: ../../user_interface/timeline.rst:407
 msgid ""
@@ -768,10 +769,15 @@ msgid ""
 "`Move Track Up` or :guilabel:`Move Track Down`. You can undo the reordering "
 "by using :kbd:`Ctrl+Z` or :menuselection:`Menu --> Edit --> Undo`."
 msgstr ""
+"Les pistes només es poden reordenar entre el mateix tipus (àudio o vídeo). "
+"Per a reordenar les pistes, feu clic amb el botó dret a qualsevol lloc de "
+"l'àrea de capçalera de la pista i seleccioneu :guilabel:`Mou la pista amunt` "
+"o :guilabel:`Mou la pista avall`. Podeu desfer la reordenació fent servir :"
+"kbd:`Ctrl+Z` o :menuselection:`Menú --> Edita --> Desfés`."
 
 #: ../../user_interface/timeline.rst:411
 msgid "Grouped clips are kept together when reordering tracks."
-msgstr ""
+msgstr "Els clips agrupats es mantenen junts en reordenar les pistes."
 
 #: ../../user_interface/timeline.rst:413
 msgid ""
@@ -779,29 +785,31 @@ msgid ""
 "settings will be changed to automatic. If a clip was switched to automatic "
 "or background, it remains unchanged."
 msgstr ""
+"Les composicions adjuntes a un clip es mouran juntament amb el clip, però la "
+"seva configuració es canviarà a automàtica. Si un clip s'ha canviat a "
+"automàtic o en segon pla, es manté sense canvis."
 
 #: ../../user_interface/timeline.rst:420
 msgid ""
 "Reordering tracks: Use :guilabel:`Move Track Up` or :guilabel:`Move Track "
 "Down`"
 msgstr ""
+"Reordenació de pistes: Feu servir :guilabel:`Mou la pista amunt` o :guilabel:"
+"`Mou la pista avall`"
 
 #: ../../user_interface/timeline.rst:424
 msgid ""
 "You can still mix and split tracks by using :ref:`this functions "
 "<timeline_toolbar2>` in the timeline toolbar."
 msgstr ""
+"Encara podeu mesclar i dividir pistes utilitzant :ref:`aquestes funcions "
+"<timeline_toolbar2>` a la barra d'eines de la línia de temps."
 
 #: ../../user_interface/timeline.rst:431
 msgid "Deleting Tracks"
 msgstr "Suprimir pistes"
 
 #: ../../user_interface/timeline.rst:433
-#, fuzzy
-#| msgid ""
-#| "In order to delete a track right-click anywhere in the track header area. "
-#| "In the **Delete Track** dialog window select the tracks you want to "
-#| "delete."
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the **Delete Track** dialog window select the tracks you want to delete. "
@@ -810,7 +818,9 @@ msgid ""
 msgstr ""
 "Per a suprimir una pista feu clic amb el botó dret a qualsevol lloc de "
 "l'àrea de capçalera de la pista. A la finestra del diàleg **Suprimeix la "
-"pista** seleccioneu les pistes que voleu suprimir."
+"pista** seleccioneu les pistes que voleu suprimir. El Kdenlive us avisarà si "
+"hi ha clips a la pista a suprimir. Encara podreu suprimir la pista i tots "
+"els seus clips o cancel·lar l'operació."
 
 #: ../../user_interface/timeline.rst:442
 msgid "Resizing Tracks"
