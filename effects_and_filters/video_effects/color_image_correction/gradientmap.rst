@@ -44,7 +44,7 @@ Gradient Map
 
 This effect/filter creates a gradient map for the selected clip.
 
-By default, the effect has a gradient that goes from black to white turning the clip into a black-and-white image. The effct supports an alpha channel which will be shown as a light/dark checkerboard pattern behind any translucent stop.
+By default, the effect has a gradient that goes from black to white turning the clip into a black-and-white image. The effect supports an alpha channel which will be shown as a light/dark checkerboard pattern behind any translucent stop.
 
 
 .. rubric:: Parameters
