@@ -421,7 +421,8 @@ If a clip was switched to automatic or background, it remains unchanged.
 
 .. rst-class:: clear-both
 
-You can still mix and split tracks by using :ref:`this functions <timeline_toolbar2>` in the timeline toolbar.
+You can still mix and split tracks by using :ref:`these functions <timeline_toolbar2>` in the timeline toolbar.
+
 
 .. .. versionadded:: 26.08 Reordering tracksWarn before deleting tracks that contain clips
 
