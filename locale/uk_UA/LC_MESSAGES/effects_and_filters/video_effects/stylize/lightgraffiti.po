@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive 26.08 Manual 26.08\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 02:08+0000\n"
-"PO-Revision-Date: 2026-09-02 19:24+0300\n"
+"PO-Revision-Date: 2026-09-04 19:30+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -36,13 +36,15 @@ msgstr "apple"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:-1
 msgid "Kdenlive Video Effects - Light Graffiti"
-msgstr ""
+msgstr "Відеоефекти Kdenlive — світлове графіті"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:-1
 msgid ""
 "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video "
 "effects, stylize, lightgraffiti, light graffiti, light, graffiti"
 msgstr ""
+"KDE, Kdenlive, відеоредактор, довідка, вивчення, просте, ефекти, фільтр, "
+"відеоефекти, стилізація, світлове графіті, світло, графіті"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:0
 msgid "**Status**"
@@ -93,6 +95,11 @@ msgid ""
 "the other parameters. Only parts that are highlighted in *all* thresholds "
 "will count as light source."
 msgstr ""
+"Приклад: щоб скоригувати порогове значення яскравості, позначте цей пункт і "
+"змінюйте порогове значення, аж доки не буде позначено все джерело світла. "
+"Повторіть цю ж операцію з іншими параметрами. Джерелом світла вважатиметься "
+"лише та частина зображення, яку буде позначено за *всіма* пороговими "
+"значеннями."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:16
 msgid "Light Graffiti"
@@ -147,7 +154,7 @@ msgstr "Параметри"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:54
 msgid "**Statistics** (above the keyframe ruler)"
-msgstr ""
+msgstr "**Статистика** (над лінійкою ключових кадрів)"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:56
 msgid ""
@@ -198,7 +205,7 @@ msgstr ""
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:78
 msgid "**Switches** (above the keyframe ruler)"
-msgstr ""
+msgstr "**Перемикачі** (над лінійкою ключових кадрів)"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:89
 msgid "Transparent background"
@@ -264,6 +271,12 @@ msgid ""
 "alarms» where semi-bright parts, e.g. hands where colors can change quite a "
 "lot compared to the background, are incorrectly recognized as light source."
 msgstr ""
+"Визначає, наскільки яскравим (:code:`R+G+B`) має бути певний піксель, щоб "
+"його було розпізнано. Збільшення цього порогового значення підвищує вимоги "
+"до яскравості джерел світла (тобто ці джерела мають бути білішими або менш "
+"кольоровими, відповідно), але запобігає появі «фальшивих джерел» з "
+"напівяскравими частинами, наприклад, рук, які значно відрізняються за "
+"кольором від тла, і які помилково визначаються як джерела світла."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:116
 msgid "Difference threshold"
@@ -277,6 +290,12 @@ msgid ""
 "light sources to be accepted on bright backgrounds, but decreases the danger "
 "of noise or generally bright spots counting as light source."
 msgstr ""
+"Визначає, наскільки має змінитися найяскравіший канал кольорів пікселя (:"
+"code:`max(dR, dG, dB)`), ), порівняно з зображенням тла, щоб його було "
+"розпізнано як частину джерела світла.</em>Збільшення цього порогового "
+"значення робить важчим визначення джерел світла на яскравому тлі, але "
+"зменшує небезпеку визначення шуму або звичайних світлих плям як джерела "
+"світла."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:119
 msgid "Difference sum threshold"
@@ -289,6 +308,10 @@ msgid ""
 "a light source? Raising this value might, in some cases, avoid that some "
 "light objects lit by the light source are added to the light mask."
 msgstr ""
+"Визначає, наскільки має змінитися сума всіх каналів кольорів *відносно "
+"зображення тла* (:code:`dR + dG + dB`) для розпізнавання пікселя як частини "
+"джерела світла. Збільшення цього значення інколи може запобігти додавання до "
+"маски світла деяких світлових об’єктів, підсвічених джерелом світла."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:122
 msgid "Sensitivity"
@@ -299,6 +322,8 @@ msgid ""
 "For slowly moving light source try to use a lower sensitivity to obtain a "
 "better exposure."
 msgstr ""
+"Якщо джерело переміщується повільно, спробуйте зменшити чутливості, щоб "
+"отримати кращу експозицію."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:125
 msgid "Lower overexposure"
@@ -309,6 +334,8 @@ msgid ""
 "The light mask does not get white immediately when the light source is "
 "moving slowly or staying steady."
 msgstr ""
+"Маска світла не даватиме білого кольору негайно, якщо джерело світла "
+"рухатиметься повільно або залишатиметься нерухомим."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:128
 msgid "Dimming"
@@ -349,6 +376,11 @@ msgid ""
 "background constantly changes, e.g. on a street, try to set α > 0 to "
 "calculate an average background image."
 msgstr ""
+"Визначає рівень пристосування ефекту до змін тла. Інструмент світлового "
+"графіті запам’ятовує перший кадр кліпу, до якого його застосовано, отже кліп "
+"*завжди* має розпочинатися з кадру, коли художник поза кадром. Якщо тло "
+"постійно змінюється, наприклад на вулиці, спробуйте встановити значення α > "
+"0 для обчислення осередненого зображення тла."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:137
 msgid "Saturation"
