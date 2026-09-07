@@ -152,6 +152,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Generate
      - Draws a gradient on top of image. Filter is given gradient start and end points, colors and opacities. (|frei0r.cairogradient|)
+   * - :doc:`/effects_and_filters/video_effects/motion/camerashake` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Motion
+     - Camera movement effect with rotation, opacity, and blur. (|frei0r.camerashake|)
    * - :doc:`/effects_and_filters/video_effects/stylize/cartoon` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
@@ -688,6 +692,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Stylize
      - Pixelize input image (|frei0r.pixeliz0r|)
+   * - :doc:`/effects_and_filters/video_effects/stylize/pixels0rt` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Stylize
+     - Pixel sorting effect (|frei0r.pixels0rt|)
    * - :doc:`/effects_and_filters/video_effects/blur_and_sharpen/planes_blur` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Blur and Sharpen
@@ -792,6 +800,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Image Adjustment
      - Force color range for the output video frame (|avfilter.setrange|)
+   * - :doc:`/effects_and_filters/video_effects/motion/shake0scillate` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Motion
+     - Create smooth and controlled oscillation (|frei0r.shake0scillate|)
    * - :doc:`/effects_and_filters/video_effects/blur_and_sharpen/shape_adaptive_blur` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Blur and Sharpen
@@ -848,6 +860,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Blur and Sharpen
      - Square Blur (|frei0r.squareblur|)
+   * - :doc:`/effects_and_filters/video_effects/stylize/squigglevision` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Stylize
+     - Creates a hand-drawn wobble effect (|frei0r.squigglevision|)
    * - :doc:`/effects_and_filters/video_effects/vr360_and_3d/stereoscopic_3d` 
      - |linux|\ |appimage|\ |windows|\ |apple|
      - VR360 and 3D
@@ -1180,6 +1196,11 @@ Video Effects
 .. |frei0r.cairogradient| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-cairogradient/" target="_blank">frei0r.cairogradient</a>
+
+
+.. |frei0r.camerashake| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-camerashake/" target="_blank">frei0r.camerashake</a>
 
 
 .. |frei0r.cartoon| raw:: html
@@ -1886,6 +1907,11 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-pixelize/" target="_blank">avfilter.pixelize</a>
 
 
+.. |frei0r.pixels0rt| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterAvfilter-pixels0rt/" target="_blank">frei0r.pixels0rt</a>
+
+
 .. |frei0r.pixs0r| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-pixs0r/" target="_blank">frei0r.pixs0r</a>
@@ -2016,6 +2042,11 @@ Video Effects
    <a href="https://www.mltframework.org/plugins/FilterAvfilter-sab/" target="_blank">avfilter.sab</a>
 
 
+.. |frei0r.shake0scillate| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-shake0scillate/" target="_blank">frei0r.shake0scillate</a>
+
+
 .. |shape| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterShape/" target="_blank">shape</a>
@@ -2074,6 +2105,11 @@ Video Effects
 .. |frei0r.spillsupress| raw:: html
 
    <a href="https://www.mltframework.org/plugins/FilterFrei0r-spillsupress/" target="_blank">frei0r.spillsupress</a>
+
+
+.. |frei0r.squigglevision| raw:: html
+
+   <a href="https://www.mltframework.org/plugins/FilterFrei0r-squigglevision/" target="_blank">frei0r.squigglevision</a>
 
 
 .. |spot_remover| raw:: html
