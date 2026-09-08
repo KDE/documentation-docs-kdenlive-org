@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 02:08+0000\n"
-"PO-Revision-Date: 2026-09-02 21:48+0200\n"
+"POT-Creation-Date: 2026-09-07 02:15+0000\n"
+"PO-Revision-Date: 2026-09-06 10:35+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -311,13 +311,6 @@ msgstr ""
 "e la ricerca."
 
 #: ../../user_interface/timeline.rst:146
-#, fuzzy
-#| msgid ""
-#| "A fixed centered playhead can be enabled in :menuselection:`Settings --> "
-#| "Configure Kdenlive --> Timeline` :guilabel:`Fixed centered playhead`. "
-#| "When enabled, the playhead remains locked at the center of the timeline "
-#| "view while the timeline content scrolls smoothly beneath it during "
-#| "playback, scrubbing, and seeking."
 msgid ""
 "A playhead return to the position where playback has started can be enabled "
 "in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:"
@@ -326,13 +319,14 @@ msgid ""
 "This is useful for previewing a specific section of your project without "
 "losing your place in the timeline."
 msgstr ""
-"È possibile attivare l'indicatore di riproduzione fisso e centrato in :"
-"menuselection:`Impostazioni --> Configura Kdenlive --> Linea temporale` :"
-"guilabel:`Indicatore di riproduzione fisso centrato`. Una volta attivata "
-"questa opzione, l'indicatore di riproduzione rimane bloccato al centro della "
-"vista della linea temporale, mentre il contenuto della linea temporale "
-"scorre fluidamente al di sotto di esso durante la riproduzione, lo scrubbing "
-"e la ricerca."
+"È possibile abilitare il ritorno dell'indicatore di riproduzione alla "
+"posizione iniziale della riproduzione in :menuselection:`Impostazioni --> "
+"Configura Kdenlive --> Linea temporale` :guilabel:`Al termine, riporta "
+"l'indicatore di riproduzione nella posizione iniziale`. Se questa opzione è "
+"abilitata, al termine della riproduzione l'indicatore ritornerà alla "
+"posizione iniziale. Ciò è utile per visualizzare in anteprima una sezione "
+"specifica del progetto senza perdere il punto in cui ci si trovava nella "
+"linea temporale."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyboard Navigation"
@@ -723,6 +717,11 @@ msgid ""
 "Thumbnails` (for how to change the colors, see :ref:`Configure Clip Colors "
 "<configure_clip_colors>`)."
 msgstr ""
+":guilabel:`Miniature`; puoi visualizzare sia il :guilabel:`Fotogramma di "
+"attacco`, i :guilabel:`Fotogramma di attacco e di stacco`, :guilabel:`Tutti "
+"i fotogrammi`, oppure :guilabel:`Nessuna miniatura` (per sapere come "
+"modificare i colori, vedi :ref:`Configurare i colori delle clip "
+"<configure_clip_colors>`)."
 
 #: ../../user_interface/timeline.rst:359
 msgid "Audio Track"
@@ -788,6 +787,11 @@ msgid ""
 "`Move Track Up` or :guilabel:`Move Track Down`. You can undo the reordering "
 "by using :kbd:`Ctrl+Z` or :menuselection:`Menu --> Edit --> Undo`."
 msgstr ""
+"È possibile riordinare solo tracce dello stesso tipo (audio o video). Per "
+"farlo, clic col tasto destro sull'intestazione della traccia, poi seleziona :"
+"guilabel:`Sposta traccia verso l'alto` or :guilabel:`Sposta traccia verso il "
+"basso`. Puoi annullare il riordino con :kbd:`Ctrl+Z` oppure da :"
+"menuselection:`Menu --> Modifica --> Annulla`."
 
 #: ../../user_interface/timeline.rst:411
 msgid "Grouped clips are kept together when reordering tracks."
@@ -800,6 +804,9 @@ msgid ""
 "settings will be changed to automatic. If a clip was switched to automatic "
 "or background, it remains unchanged."
 msgstr ""
+"Le composizioni associate a una clip verranno spostate insieme a essa, ma le "
+"loro impostazioni verranno modificate in “automatico”. Se una clip è stata "
+"impostata su “automatico” o “sfondo”, rimarrà invariata."
 
 #: ../../user_interface/timeline.rst:420
 msgid ""
@@ -810,21 +817,22 @@ msgstr ""
 "guilabel:`Sposta traccia verso il basso`"
 
 #: ../../user_interface/timeline.rst:424
+#, fuzzy
+#| msgid ""
+#| "You can still mix and split tracks by using :ref:`this functions "
+#| "<timeline_toolbar2>` in the timeline toolbar."
 msgid ""
-"You can still mix and split tracks by using :ref:`this functions "
+"You can still mix and split tracks by using :ref:`these functions "
 "<timeline_toolbar2>` in the timeline toolbar."
 msgstr ""
+"Puoi ancora mischiare e dividere le tracce usando :ref:`questa funzione "
+"<timeline_toolbar2>` nella barra degli strumenti della linea temporale."
 
-#: ../../user_interface/timeline.rst:431
+#: ../../user_interface/timeline.rst:432
 msgid "Deleting Tracks"
 msgstr "Eliminare le tracce"
 
-#: ../../user_interface/timeline.rst:433
-#, fuzzy
-#| msgid ""
-#| "In order to delete a track right-click anywhere in the track header area. "
-#| "In the **Delete Track** dialog window select the tracks you want to "
-#| "delete."
+#: ../../user_interface/timeline.rst:434
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the **Delete Track** dialog window select the tracks you want to delete. "
@@ -832,14 +840,16 @@ msgid ""
 "still delete the track and all its clips or cancel the operation."
 msgstr ""
 "Per poter eliminare una traccia, fai clic col tasto destro in un punto "
-"qualsiasi dell'area dell'intestazione della traccia. Nella finestra "
-"**Elimina traccia** seleziona la traccia che vuoi eliminare."
+"qualsiasi dell'intestazione della traccia. Nella finestra **Elimina "
+"traccia** seleziona la traccia che vuoi eliminare: Kdenlive ti avvisa che se "
+"ci sono sopra delle clip, verranno eliminate anche queste. Puoi eliminare la "
+"traccia e tutte le sue clip, oppure annullare l'operazione."
 
-#: ../../user_interface/timeline.rst:442
+#: ../../user_interface/timeline.rst:443
 msgid "Resizing Tracks"
 msgstr "Ridimensionare le tracce"
 
-#: ../../user_interface/timeline.rst:446
+#: ../../user_interface/timeline.rst:447
 msgid ""
 "Tracks can be individually resized. Holding down :kbd:`Shift` makes all "
 "video or audio tracks change in height simultaneously."
@@ -848,22 +858,22 @@ msgstr ""
 "premuto :kbd:`Maiusc` puoi modificare l'altezza di tutte le tracce "
 "contemporaneamente."
 
-#: ../../user_interface/timeline.rst:454
+#: ../../user_interface/timeline.rst:455
 msgid "Fit Tracks to view height"
 msgstr "Adatta la traccia all'altezza della vista"
 
-#: ../../user_interface/timeline.rst:458
+#: ../../user_interface/timeline.rst:459
 msgid ""
 "All tracks height can be adjusted following the height of the timeline view."
 msgstr ""
 "Tutte le altezze delle tracce possono essere regolate seguendo l'altezza "
 "della vista della linea temporale."
 
-#: ../../user_interface/timeline.rst:466
+#: ../../user_interface/timeline.rst:467
 msgid "Reset track to default height"
 msgstr "Riporta la traccia alla sua altezza predefinita"
 
-#: ../../user_interface/timeline.rst:470
+#: ../../user_interface/timeline.rst:471
 msgid ""
 ":kbd:`Shift+double-click` on the track divider resets the track back to its "
 "default height."
@@ -871,20 +881,20 @@ msgstr ""
 ":kbd:`Maiusc+doppio-clic` sul divisore della traccia la riporta alla sua "
 "altezza predefinita."
 
-#: ../../user_interface/timeline.rst:480
+#: ../../user_interface/timeline.rst:481
 msgid "Switching between mixed or split audio"
 msgstr "Passare da tracce audio mescolate a divise"
 
-#: ../../user_interface/timeline.rst:482
+#: ../../user_interface/timeline.rst:483
 msgid "Switch live between two different layout modes (Mixed or Split)."
 msgstr ""
 "Passa all'istante fra le due modalità di disposizione (mescolate o separate)."
 
-#: ../../user_interface/timeline.rst:491
+#: ../../user_interface/timeline.rst:492
 msgid "Continuously loop playback"
 msgstr "Riproduci continuamente"
 
-#: ../../user_interface/timeline.rst:493
+#: ../../user_interface/timeline.rst:494
 msgid ""
 "Disable :guilabel:`Pause playback when seeking` in :doc:`Configure Timeline "
 "</getting_started/configure_kdenlive/configuration_timeline>` settings (:"
@@ -895,13 +905,13 @@ msgstr ""
 "configure_kdenlive/configuration_timeline>` (:menuselection:`Menu --> "
 "Impostazioni --> Configura Kdenlive --> Linea temporale`)."
 
-#: ../../user_interface/timeline.rst:494
+#: ../../user_interface/timeline.rst:495
 msgid "Make a timeline zone the length you like to loop."
 msgstr ""
 "Crea una zona delle linea temporale della lunghezza che vuoi riprodurre "
 "continuamente."
 
-#: ../../user_interface/timeline.rst:495
+#: ../../user_interface/timeline.rst:496
 msgid "Loop Zone (:kbd:`Ctrl+Shift+Space`)"
 msgstr "Ripeti ciclicamente la zona (:kbd:`Ctrl+Maiusc+Spazio`)"
 

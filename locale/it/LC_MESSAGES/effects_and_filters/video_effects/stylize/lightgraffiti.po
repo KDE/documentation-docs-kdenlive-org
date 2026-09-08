@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive 26.08 Manual 26.08\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 02:08+0000\n"
-"PO-Revision-Date: 2026-09-01 21:35+0200\n"
+"PO-Revision-Date: 2026-09-06 10:00+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -86,6 +86,8 @@ msgid ""
 "If **on**, displays the brightness and threshold, for adjusting the "
 "brightness threshold parameter."
 msgstr ""
+"Se è **attivo** visualizza la luminosità e la soglia per regolare il "
+"parametro di soglia di luminosità."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:0
 msgid ""
@@ -94,6 +96,10 @@ msgid ""
 "the other parameters. Only parts that are highlighted in *all* thresholds "
 "will count as light source."
 msgstr ""
+"Esempio: seleziona questa casella per regolare la soglia di luminosità; "
+"aggiusta il valore finché non viene evidenziata l'intera sorgente luminosa, "
+"e ripeti con gli altri parametri Solo le parti evidenziate in *tutte* le "
+"soglie</em> saranno considerate come sorgenti luminose."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:16
 msgid "Light Graffiti"
@@ -191,7 +197,7 @@ msgstr "Mostra statistiche sulla differenza dello sfondo"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:73
 msgid "If **on**, displays the background difference and threshold"
-msgstr "Se **attivato**, visualizza la differenza dello sfondo e la soglia"
+msgstr "Se è **attivo**, visualizza la differenza dello sfondo e la soglia"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:74
 msgid "Show background difference sum statistics"
@@ -200,7 +206,7 @@ msgstr "Mostra statistiche sulla somma della differenza dello sfondo"
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:76
 msgid "If **on**, displays the sum of the background difference and threshold"
 msgstr ""
-"Se **attivato**, visualizza la somma della differenza dello sfondo e la "
+"Se è **attivo**, visualizza la somma della differenza dello sfondo e la "
 "soglia"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:78
@@ -226,7 +232,7 @@ msgstr "Offuscamento non lineare"
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:94
 msgid "If **on**, uses nonlinear dimming (may look more natural)"
 msgstr ""
-"Se **attivato**, utilizza un offuscamento non lineare (può sembrare più "
+"Se è **attivo**, utilizza un offuscamento non lineare (può sembrare più "
 "naturale)"
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:95
@@ -278,6 +284,12 @@ msgid ""
 "alarms» where semi-bright parts, e.g. hands where colors can change quite a "
 "lot compared to the background, are incorrectly recognized as light source."
 msgstr ""
+"Quanto deve essere luminoso (:code:`R+G+B`) un pixel per essere riconosciuto "
+"come sorgente luminosa? Aumentando questa soglia è necessaria una sorgente "
+"più luminosa (cioè con più bianco o con meno colore, rispettivamente), ma "
+"impedisce alcuni «falsi allarmi», in cui parti semi lucenti, ad esempio le "
+"mani, che hanno colori che possono cambiare parecchio rispetto allo sfondo, "
+"siano riconosciuti erroneamente come sorgente luminosa."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:116
 msgid "Difference threshold"
@@ -309,6 +321,11 @@ msgid ""
 "a light source? Raising this value might, in some cases, avoid that some "
 "light objects lit by the light source are added to the light mask."
 msgstr ""
+"Di quanto la somma di tutti i canali di colore (<code>dR + dG + dB</code>) "
+"*rispetto all'immagine di sfondo* deve cambiare affinché un pixel venga "
+"riconosciuto come sorgente luminosa?  L'aumento di questo valore potrebbe, "
+"in alcuni casi, impedire che alcuni oggetti luminosi illuminati dalla "
+"sorgente luminosa vengano aggiunti alla maschera di luce."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:122
 msgid "Sensitivity"
@@ -319,6 +336,8 @@ msgid ""
 "For slowly moving light source try to use a lower sensitivity to obtain a "
 "better exposure."
 msgstr ""
+"Per una sorgente luminosa che si muove lentamente cerca di utilizzare una "
+"sensibilità inferiore per ottenere una migliore esposizione."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:125
 msgid "Lower overexposure"
@@ -372,6 +391,11 @@ msgid ""
 "background constantly changes, e.g. on a street, try to set α > 0 to "
 "calculate an average background image."
 msgstr ""
+"Determina come l'effetto cerca di adattarsi alle modifiche dello sfondo. "
+"L'effetto Graffiti di luce ricorda il primo fotogramma della clip a cui è "
+"applicato, quindi la clip deve *sempre* iniziare con il pittore al di fuori "
+"del video. Se lo sfondo cambia costantemente, ad esempio in una strada, "
+"prova ad impostare α > 0 per calcolare un'immagine di sfondo media."
 
 #: ../../effects_and_filters/video_effects/stylize/lightgraffiti.rst:137
 msgid "Saturation"
