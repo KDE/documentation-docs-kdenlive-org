@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 02:15+0000\n"
-"PO-Revision-Date: 2026-05-03 14:46+0200\n"
+"PO-Revision-Date: 2026-09-09 12:57+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: ../../<rst_epilog>:38
 msgid "audio-volume-muted"
@@ -300,13 +300,6 @@ msgstr ""
 "tijdens het afspelen, scrubben en zoeken."
 
 #: ../../user_interface/timeline.rst:146
-#, fuzzy
-#| msgid ""
-#| "A fixed centered playhead can be enabled in :menuselection:`Settings --> "
-#| "Configure Kdenlive --> Timeline` :guilabel:`Fixed centered playhead`. "
-#| "When enabled, the playhead remains locked at the center of the timeline "
-#| "view while the timeline content scrolls smoothly beneath it during "
-#| "playback, scrubbing, and seeking."
 msgid ""
 "A playhead return to the position where playback has started can be enabled "
 "in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:"
@@ -315,12 +308,13 @@ msgid ""
 "This is useful for previewing a specific section of your project without "
 "losing your place in the timeline."
 msgstr ""
-"Een vastgezette, gecentreerde afspeelkop kan worden ingeschakeld in :"
-"menuselection:`Instellingen --> Kdenlive configureren --> Tijdlijn` :"
-"guilabel:`Vastgezette, gecentreerde afspeelkop`. Wanneer deze is "
-"ingeschakeld, blijft de afspeelkop in het midden van de tijdlijnweergave "
-"vergrendeld terwijl de inhoud van de tijdlijn er soepel onderdoor schuift "
-"tijdens het afspelen, scrubben en zoeken."
+"U kunt instellen dat de afspeelkop terugkeert naar de positie waar het "
+"afspelen begon via :menuselection:`Instellingen --> Kdenlive configureren --"
+"> Tijdlijn` en de optie :guilabel:`Afspeelkop bij stoppen naar startpositie "
+"terugbrengen`. Als deze optie is ingeschakeld, keert de afspeelkop bij het "
+"stoppen van het afspelen terug naar de beginpositie. Dit is handig om een ​​"
+"specifiek deel van uw project te bekijken zonder de positie in de tijdlijn "
+"te verliezen."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyboard Navigation"
@@ -651,37 +645,46 @@ msgstr ":kbd:`pijl omhoog/omlaag` gaat naar de volgende track"
 
 #: ../../user_interface/timeline.rst:335
 msgid "Track Right-Click Menu"
-msgstr ""
+msgstr "Rechts-klik-menu van track"
 
 #: ../../user_interface/timeline.rst:341
 msgid "Video Track"
-msgstr ""
+msgstr "Videotrack"
 
 #: ../../user_interface/timeline.rst:345 ../../user_interface/timeline.rst:363
 msgid ":guilabel:`Insert Track` see :ref:`adding_tracks` for more details."
 msgstr ""
+":guilabel:`Track invoegen`, zie :ref:`adding_tracks` voor meer informatie."
 
 #: ../../user_interface/timeline.rst:347 ../../user_interface/timeline.rst:365
 msgid ":guilabel:`Delete Track` see :ref:`deleting_tracks` for more details."
 msgstr ""
+":guilabel:`Track verwijderen`, zie :ref:`deleting_tracks` voor meer "
+"informatie."
 
 #: ../../user_interface/timeline.rst:349 ../../user_interface/timeline.rst:367
 msgid ""
 ":guilabel:`Move Track Up` or :guilabel:`Move Track Down` see :ref:"
 "`reordering_tracks` for more details."
 msgstr ""
+":guilabel:`Track omhoog verplaatsen` of :guilabel:`Track omlaag "
+"verplaatsen`, zie :ref:`reordering_tracks` voor meer informatie."
 
 #: ../../user_interface/timeline.rst:351 ../../user_interface/timeline.rst:369
 msgid ""
 ":guilabel:`Fit all Tracks in View` see :ref:`fit_tracks_to_view_height` for "
 "more details."
 msgstr ""
+":guilabel:`Alle tracks passend maken in beeld`, zie :ref:"
+"`fit_tracks_to_view_height` voor meer informatie."
 
 #: ../../user_interface/timeline.rst:353 ../../user_interface/timeline.rst:377
 msgid ""
 ":guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more "
 "details."
 msgstr ""
+":guilabel:`Track identificeren`, zie :ref:`identify_timeline_gaps` voor meer "
+"informatie."
 
 #: ../../user_interface/timeline.rst:355
 msgid ""
@@ -690,12 +693,14 @@ msgid ""
 "Thumbnails` (for how to change the colors, see :ref:`Configure Clip Colors "
 "<configure_clip_colors>`)."
 msgstr ""
+"Bij :guilabel:`Miniaturen` kunt u kiezen voor :guilabel:`Beginframe`, :"
+"guilabel:`Begin-/eindframes`, :guilabel:`Alle frames` of :guilabel:`Geen "
+"miniaturen` (zie :ref:`Clipkleuren configureren <configure_clip_colors>` "
+"voor informatie over het wijzigen van de kleuren)."
 
 #: ../../user_interface/timeline.rst:359
-#, fuzzy
-#| msgid "Adding Tracks"
 msgid "Audio Track"
-msgstr "Tracks toevoegen"
+msgstr "Audiotrack"
 
 #: ../../user_interface/timeline.rst:371
 msgid ""
@@ -746,10 +751,8 @@ msgstr ""
 "configuration_project_defaults>`."
 
 #: ../../user_interface/timeline.rst:405
-#, fuzzy
-#| msgid "Deleting Tracks"
 msgid "Reordering Tracks"
-msgstr "Tracks verwijderen"
+msgstr "Tracks opnieuw rangschikken"
 
 #: ../../user_interface/timeline.rst:407
 msgid ""
@@ -758,10 +761,18 @@ msgid ""
 "`Move Track Up` or :guilabel:`Move Track Down`. You can undo the reordering "
 "by using :kbd:`Ctrl+Z` or :menuselection:`Menu --> Edit --> Undo`."
 msgstr ""
+"Tracks kunnen alleen opnieuw worden gerangschikt binnen hetzelfde type "
+"(audio of video). Om de volgorde van tracks te wijzigen, klikt u met de "
+"rechtermuisknop ergens in het gebied van de trackkoppen en kiest u :guilabel:"
+"`Track omhoog verplaatsen` of :guilabel:`Track omlaag verplaatsen`. U kunt "
+"de wijziging ongedaan maken met :kbd:`Ctrl+Z` of :menuselection:`Menu --> "
+"Bewerken --> Ongedaan maken`."
 
 #: ../../user_interface/timeline.rst:411
 msgid "Grouped clips are kept together when reordering tracks."
 msgstr ""
+"Gegroepeerde clips blijven bij elkaar wanneer tracks opnieuw worden "
+"gerangschikt."
 
 #: ../../user_interface/timeline.rst:413
 msgid ""
@@ -769,38 +780,44 @@ msgid ""
 "settings will be changed to automatic. If a clip was switched to automatic "
 "or background, it remains unchanged."
 msgstr ""
+"Composities die aan een clip zijn gekoppeld, worden samen met de clip "
+"verplaatst, maar hun instellingen worden gewijzigd naar 'automatisch'. Als "
+"een clip al op 'automatisch' of 'achtergrond' stond ingesteld, blijft deze "
+"ongewijzigd."
 
 #: ../../user_interface/timeline.rst:420
 msgid ""
 "Reordering tracks: Use :guilabel:`Move Track Up` or :guilabel:`Move Track "
 "Down`"
 msgstr ""
+"Tracks opnieuw rangschikken: gebruik :guilabel:`Track omhoog verplaatsen` "
+"of :guilabel:`Track omlaag verplaatsen`"
 
 #: ../../user_interface/timeline.rst:424
 msgid ""
 "You can still mix and split tracks by using :ref:`these functions "
 "<timeline_toolbar2>` in the timeline toolbar."
 msgstr ""
+"U kunt nog steeds tracks samenvoegen en splitsen met behulp van :ref:`deze "
+"functies <timeline_toolbar2>` in de werkbalk van de tijdlijn."
 
 #: ../../user_interface/timeline.rst:432
 msgid "Deleting Tracks"
 msgstr "Tracks verwijderen"
 
 #: ../../user_interface/timeline.rst:434
-#, fuzzy
-#| msgid ""
-#| "In order to delete a track right-click anywhere in the track header area. "
-#| "In the **Delete Track** dialog window select the tracks you want to "
-#| "delete."
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the **Delete Track** dialog window select the tracks you want to delete. "
 "Kdenlive warns you if there are clips on the track to be deleted. You can "
 "still delete the track and all its clips or cancel the operation."
 msgstr ""
-"Om een track toe te verwijderen klik rechts ergens in het trackkopgebied. In "
-"het dialoogvenster van **Track verwijderen** selecteer de tracks die u wilt "
-"verwijderen."
+"Om een track te verwijderen, klikt u met de rechtermuisknop ergens in het "
+"kopgedeelte van de track. Selecteer in het dialoogvenster **Track "
+"verwijderen** de tracks die u wilt verwijderen. Kdenlive waarschuwt u als er "
+"zich clips op de te verwijderen track bevinden. U kunt er vervolgens voor "
+"kiezen om de track en alle bijbehorende clips alsnog te verwijderen, of de "
+"actie te annuleren."
 
 #: ../../user_interface/timeline.rst:443
 msgid "Resizing Tracks"
