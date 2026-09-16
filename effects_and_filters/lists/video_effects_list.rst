@@ -908,6 +908,10 @@ Video Effects
      - |linux|\ |appimage|\ |windows|\ |apple|
      - Transform, Distort, and Perspective
      - Transpose rows with columns in the input video and optionally flip it (|avfilter.transpose|)
+   * - :doc:`/effects_and_filters/video_effects/stylize/typewriter` 
+     - |linux|\ |appimage|\ |windows|\ |apple|
+     - Typewriter
+     - Display title clip text character by character, word by word, or line by line (|typewriter|)
    * - :doc:`/effects_and_filters/video_effects/utility/vectorscope` 
      - |linux|\ |appimage|\ |windows|
      - Utility
@@ -2328,9 +2332,6 @@ Video Effects
    * - :doc:`/effects_and_filters/video_effects/misc/siti` |appimage|\ |windows|\ |apple|
      - Misc
      - Calculate spatial information (SI) and temporal information (TI). (|avfilter.siti|)
-   * - :doc:`/effects_and_filters/video_effects/stylize/typewriter`|windows|\ |apple|
-     - Stylize
-     - Typewriter effect v0.3.3 To be applied on title clips only. (|typewriter|)
    * - :doc:`/effects_and_filters/video_effects/alpha_mask_keying/shape_alpha_mask` |linux|\ |appimage|\ |windows|\ |apple|
      - Alpha, Mask, and Keying
      - This filter makes a snapshot of the frame before an alpha channel (transparency) is created based on another resource. Use it together with the mask_apply effect, that uses a transition to composite the current frame's image over the snapshot. The typical use case is to add effects in the following sequence: this effect, zero or more effects, mask_apply. (|mask_start|)
