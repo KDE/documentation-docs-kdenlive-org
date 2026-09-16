@@ -150,7 +150,7 @@ Expand Library Clip
 
       :menuselection:`Menu --> Sequence`
 
-   Often, you want to edit the contents of a library clip right after after you have placed it on the timeline. **Expanding** means that you want to break up a library clip into its contents for further editing. So, simply select the library clip in the timeline. Then choose :menuselection:`Menu --> Sequence --> Current Clip --> Expand Clip`. Alternatively, you can :doc:`create a keyboard shortcut </user_interface/menu/settings_menu/configure_shortcuts>` for that.
+   Often, you want to edit the contents of a library clip right after you have placed it on the timeline. **Expanding** means that you want to break up a library clip into its contents for further editing. So, simply select the library clip in the timeline. Then choose :menuselection:`Menu --> Sequence --> Current Clip --> Expand Clip`. Alternatively, you can :doc:`create a keyboard shortcut </user_interface/menu/settings_menu/configure_shortcuts>` for that.
 
 .. container:: clear-both
 
