@@ -42,7 +42,7 @@ Typewriter
 
 .. rubric:: Description
 
-This effect/filter displays text from a title clip in a typewriter-style character by character, word by word, or line by line.
+This effect/filter displays texts from a title clip in a typewriter-style character by character, word by word, or line by line.
 
 
 .. rubric:: Parameters
@@ -86,7 +86,6 @@ The following selection items are available:
      - Displays the text line by line
 
 
-.. note:: The Title Editor has this effect built-in already. There it can be set for each text object. Using the effect on a title clip in the timeline or bin applies the typewriter effect to **all** text objects in the title clip. That means that if set to character-by-character, the characters of all text objects in the title clip will be displayed one by one, but from all text objects at the same time.
+.. note:: The :ref:`Title Editor <title-editor>` has this effect :ref:`built-in <title-text_typewriter>` already. There it can be set for each text object individually. Using the effect on a title clip in the timeline or bin applies the typewriter effect to **all** text objects in the title clip. That means that if set to character-by-character, for example, the characters of all text objects in the title clip will be displayed *one by one*, but *from all text objects at the same time*.
 
 .. hint:: This can be combined with a typewriter sound effect from Freesound which is part of the :doc:`Online Resources</project_and_asset_management/project_bin/online_resources>` functionality.
-   

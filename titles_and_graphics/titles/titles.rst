@@ -41,6 +41,8 @@ Title clips behave like any other video or image clips in the timeline, and you 
 Title clips by default have an alpha channel which makes compositing rather easy. Simply put a title clip on a track above a video or image, and texts and shapes of the title clip will overlay the clips on the tracks below. Of course, you can also use a :doc:`composition </compositing/compositions>` to create other effects.
 
 
+.. _title-editor:
+
 The Title Clip App
 ==================
 
