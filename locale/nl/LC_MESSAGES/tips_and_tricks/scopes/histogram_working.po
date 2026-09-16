@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the Kdenlive Manual package.
 #
 # SPDX-FileCopyrightText: 2023, 2024, 2025 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2026 Ronald Stroethoff <stroet43@zonnet.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 02:08+0000\n"
-"PO-Revision-Date: 2025-07-02 11:08+0200\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2026-09-14 20:29+0200\n"
+"Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:-1
 msgid "Kdenlive Tips & Tricks - How the Histogram works"
@@ -188,15 +189,6 @@ msgstr ""
 "afbeelding)."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:83
-#, fuzzy
-#| msgid ""
-#| "The RGB components also show very well that the shadows are not neutral "
-#| "grey but orange, otherwise the color heaps on the left would, as in the "
-#| "gradient histogram above, have their center at the same position. There "
-#| "isn't a lot to correct here, what could be done is raising the shadows "
-#| "with a :doc:`/effects_and_filters/video_effects/color_image_correction/"
-#| "curves` effect, but this is a matter of taste and the intended mood for "
-#| "the final movie."
 msgid ""
 "The RGB components also show very well that the shadows are not neutral grey "
 "but orange, otherwise the color heaps on the left would, as in the gradient "
@@ -211,22 +203,20 @@ msgstr ""
 "zijn maar oranje, anders zouden de kleuren-toppen aan de linkerkant, net "
 "zoals in het kleurverloop-histogram hierboven, hun middelpunt op de dezelfde "
 "positie hebben. Er is hier niet veel wat we kunnen corrigeren, wat we zouden "
-"kunnen doen is het optillen van de schaduwen met een effect :doc:`/"
-"effects_and_filters/video_effects/color_image_correction/curves`, maar dat "
-"is een geval van smaak en de gewenste sfeer in de uiteindelijke film."
+"kunnen doen is het optillen van de schaduwen met een :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/curves_avfilter` of "
+"met :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"curves_frei0r`-effect , maar dat is een geval van smaak en de gewenste sfeer "
+"in de uiteindelijke film."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:88
-#, fuzzy
-#| msgid ""
-#| "Histogram before and after applying some color correcting with the :doc:`/"
-#| "effects_and_filters/video_effects/color_image_correction/curves` effect"
 msgid ""
 "Histogram before and after applying some color correcting with the :doc:`/"
 "effects_and_filters/video_effects/color_image_correction/curves_frei0r` "
 "effect"
 msgstr ""
-"Histogram voor en na toepassen van enige kleurcorrectie met het effect:doc:`/"
-"effects_and_filters/video_effects/color_image_correction/curves`"
+"Histogram voor en na toepassen van enige kleurcorrectie met het effect :doc:"
+"`/effects_and_filters/video_effects/color_image_correction/curves_frei0r`"
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:91
 msgid "Example 2: Underexposed ABC"
@@ -263,13 +253,6 @@ msgstr ""
 "waarde van 170. De witte muur is eigenlijk grijs."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:104
-#, fuzzy
-#| msgid ""
-#| "Monitoring correct exposure is the histogram's strength! The exposure can "
-#| "be corrected with :doc:`/effects_and_filters/video_effects/"
-#| "color_image_correction/curves` as well, but this time we will use the :"
-#| "doc:`/effects_and_filters/video_effects/color_image_correction/levels` "
-#| "effect."
 msgid ""
 "Monitoring correct exposure is the histogram's strength! The exposure can be "
 "corrected with :doc:`/effects_and_filters/video_effects/"
@@ -279,10 +262,11 @@ msgid ""
 "color_image_correction/levels` effect."
 msgstr ""
 "De correcte belichting monitoren is het sterkste punt van het histogram! De "
-"belichting kan ook met de :doc:`/effects_and_filters/video_effects/"
-"color_image_correction/curves` gecorrigeerd worden, maar deze keer zullen we "
-"het :doc:`/effects_and_filters/video_effects/color_image_correction/levels` "
-"gebruiken."
+"belichting kan met de :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/curves_frei0r` of met :doc:`/effects_and_filters/"
+"video_effects/color_image_correction/curves_avfilter`gecorrigeerd worden, "
+"maar deze keer zullen we het :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/levels` gebruiken."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:109
 msgid ""
@@ -306,7 +290,7 @@ msgstr ""
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:113
 msgid "This process is called *Stretching* of the tonal range."
-msgstr "Dit proces heet *Uitrekken* van het kleurenbereik."
+msgstr "Dit proces heet *Uitrekken* (stretching) van het kleurenbereik."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:116
 msgid "Histogram Options"
@@ -332,8 +316,8 @@ msgid ""
 "luma_calc>` how it is calculated."
 msgstr ""
 ":guilabel:`Y` of luma is het meest bekende histogram. Elke digitale camera "
-"laat het zien, |digikam|, |gimp|, enz. kennen het. Zie Zie :ref:`hieronder "
-"<scopes-luma_calc>` hoe het word berekent."
+"laat het zien, |digikam|, |gimp|, enz. kennen het. Zie :ref:`hieronder "
+"<scopes-luma_calc>` hoe het word berekend."
 
 #: ../../tips_and_tricks/scopes/histogram_working.rst:124
 msgid ""
