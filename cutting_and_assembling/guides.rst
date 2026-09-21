@@ -48,7 +48,7 @@ Following procedures add a timeline marker at the timeline playhead position:
 
   * :menuselection:`Markers --> Add/Remove Timeline Marker`
   * Right click on :ref:`timeline ruler <timeline_ruler>` and choose in the menu :guilabel:`Add/Remove Timeline Marker`
-  * Right click in the timeline and choose :guilabel:`Add/Remove TimeLine Marker`
+  * Right click in the timeline and choose :guilabel:`Add/Remove Timeline Marker`
 
 .. .. versionadded:: 24.08 Insert guides in 10 different categories using NumPad 
 

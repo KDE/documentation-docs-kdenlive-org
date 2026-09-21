@@ -156,7 +156,7 @@ What's New
 .. versionadded:: 25.04 (see 25.04_ release notes)
 
    * Introduced :doc:`object segmentation </effects_and_filters/video_effects/alpha_mask_keying/object_mask>`
-   * Introduced support for :ref:`OpenTimeLineIO import and export <file_opentimelineio_export>`
+   * Introduced support for :ref:`OpenTimelineIO import and export <file_opentimelineio_export>`
    * Added possibility to :ref:`zoom waveform in the audio track <status_bar>`
    * Added possibility to :ref:`collapse and expand all effects in the effect stack <effect_functions>`
    * Added in the :ref:`duration dialog a checkbox for ripple delete <resizing_multiple_timeline_items>`
