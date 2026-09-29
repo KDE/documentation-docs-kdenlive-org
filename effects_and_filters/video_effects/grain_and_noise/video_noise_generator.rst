@@ -13,7 +13,7 @@
 Video Noise Generator
 =====================
 
-.. figure:: /images/effects_and_compositions/effects-video_noise_generator-2504.webp
+.. figure:: /images/effects_and_compositions/effects-video_noise_generator-2608.webp
    :width: 365px
    :figwidth: 365px
    :align: left
@@ -23,7 +23,7 @@ Video Noise Generator
    :**Status**:
       Maintained
    :**Keyframes**:
-      Yes
+      No
    :**Source library**:
       avfilter
    :**Source filter**:
@@ -60,22 +60,22 @@ This effect/filter adds noise to the video input frame.
    * - Component #0 / #1 / #2 / #3 noise seed
      - Integer
      - Set noise seed for specific pixel component
-   * - All component strength
+   * - All components strength
      - Integer
      - Set noise strength for all pixel components
-   * - Component #0 / #1 / #2 / #3 noise seed
+   * - Component #0 / #1 / #2 / #3 strength
      - Integer
      - Set noise strength for specific pixel component
-   * - Flag all
+   * - All components type
      - Selection
-     - Set pixel component flag for all components
-   * - Flag component 0 / 1 / 2 / 3
+     - Set noise type for all components
+   * - Component #0 / #1 / #2 / #3 type
      - Selection
-     - Set pixel component flags
+     - Set pixel component noise type
 
 The following selection items are available:
 
-:guilabel:`Flag`
+:guilabel:`Type`
 
 .. list-table::
    :width: 100%
