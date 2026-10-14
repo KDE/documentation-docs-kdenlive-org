@@ -1,0 +1,780 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___how-tos___surround_sound into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: docs_kdenlive_org_tips_and_tricks___how-"
+"tos___surround_sound\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../<rst_epilog>:378
+msgid "media-record"
+msgstr "media-record"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:-1
+msgid "Kdenlive Tips & Tricks - How to Edit Surround Sound with Kdenlive"
+msgstr "Kdenlive: советы и приёмы — редактирование объёмного звука в Kdenlive"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, edit surround sound, "
+"documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, советы, приёмы, советы и приёмы, редактирование объёмного "
+"звука, документация, руководство пользователя, видеоредактор, открытый "
+"исходный код, свободное ПО, обучение, просто"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:30
+msgid "Editing Surround Sound with Kdenlive"
+msgstr "Редактирование объёмного звука в Kdenlive"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:32
+msgid ""
+"At the time of writing, Kdenlive only supports rendering a project to a "
+"video containing stereo audio. It is not possible to render to more audio "
+"channels or to explicitly map audio tracks to channels in the rendered "
+"audio. In order to edit and create surround sound, some manual steps, "
+"including external tools, are required."
+msgstr ""
+"На момент написания Kdenlive поддерживает сборку проекта только в видео со "
+"стереозвуком. Собрать видео с большим числом звуковых каналов или явно "
+"сопоставить звуковые дорожки каналам в собранном звуке невозможно. Чтобы "
+"редактировать и создавать объёмный звук, потребуются некоторые действия "
+"вручную, в том числе с использованием внешних инструментов."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:34
+msgid "This guide is using a six-channel 5.1 surround sound as example."
+msgstr ""
+"В этом руководстве в качестве примера используется шестиканальный объёмный "
+"звук 5.1."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:38
+msgid "External Tools Used Here"
+msgstr "Используемые внешние инструменты"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:40
+msgid "|audacity| - Free Audio Editor and Recorder"
+msgstr "|audacity| — свободный редактор звука и программа записи"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:41
+msgid "|avconv| - A Video and Audio Converter"
+msgstr "|avconv| — конвертер видео и звука"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:43
+msgid ""
+"Kdenlive uses |ffmpeg|, while on (k)ubuntu, ffmpeg is deprecated and avconv "
+"is used instead. So these (and possibly other) distributions already have "
+"avconv installed."
+msgstr ""
+"Kdenlive использует |ffmpeg|, однако в (k)ubuntu ffmpeg устарел, и вместо "
+"него применяется avconv. Поэтому в этих (а возможно, и в других) "
+"дистрибутивах avconv уже установлен."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:47
+msgid "Creating New Surround Sound"
+msgstr "Создание нового объёмного звука"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:49
+msgid ""
+"This guide describes one possible workaround using Audacity to create and "
+"render a 5.1 surround sound audio track that can be added to the video "
+"rendered by Kdenlive."
+msgstr ""
+"В этом руководстве описан один из возможных обходных путей: с помощью "
+"Audacity создаётся и собирается звуковая дорожка объёмного звука 5.1, "
+"которую затем можно добавить к видео, собранному в Kdenlive."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:51
+msgid ""
+"More advanced features such as surround panning (i.e. let a sound move from "
+"rear to front) are beyond the capabilities of Audacity - but it is possible "
+"to create similar effects manually."
+msgstr ""
+"Более сложные возможности, например панорамирование объёмного звука (то есть "
+"перемещение звука сзади вперёд), выходят за рамки возможностей Audacity, но "
+"подобные эффекты можно создать вручную."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:55
+msgid "Create and Edit Surround Sound with Audacity"
+msgstr "Создание и редактирование объёмного звука в Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:57
+msgid ""
+"The following example of a simple 5.1 surround sound is used in this guide:"
+msgstr ""
+"В этом руководстве используется следующий пример простого объёмного звука "
+"5.1:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:59
+msgid "Some original field recording from the front (stereo)"
+msgstr "Исходная запись с места съёмки спереди (стерео)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:60
+msgid "Some voice from the (front) center (mono)"
+msgstr "Голос из (переднего) центра (моно)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:61
+msgid "Some music from the rear (stereo)"
+msgstr "Музыка сзади (стерео)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:63
+msgid ""
+"If, like in this example, some original field recording from a video clip is "
+"supposed to be used to create the surround sound audio track, it can be "
+"easily extracted using Kdenlive with :menuselection:`Extract Audio --> Wav "
+"48000Hz` from the context menu of the clip. This creates a WAV audio file in "
+"the same folder where the video clip is located."
+msgstr ""
+"Если, как в этом примере, для создания звуковой дорожки объёмного звука "
+"предполагается использовать исходную запись с места съёмки из видеоклипа, её "
+"можно легко извлечь в Kdenlive с помощью пункта :menuselection:`Извлечь звук "
+"--> Wav 48000Hz` в контекстном меню клипа. При этом в той же папке, где "
+"находится видеоклип, создаётся звуковой файл WAV."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:65
+msgid "The audio clips to be used in this example are:"
+msgstr "В этом примере используются следующие звуковые клипы:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:67
+msgid ":file:`Field.wav` (stereo) for Front L+R"
+msgstr ":file:`Field.wav` (стерео) для передних левого и правого каналов"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:68
+msgid ":file:`Voice.wav` (mono) for Center"
+msgstr ":file:`Voice.wav` (моно) для центрального канала"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:69
+msgid ":file:`Music.mp3` (stereo) for Surround L+R (rear)"
+msgstr ""
+":file:`Music.mp3` (стерео) для тыловых левого и правого каналов (сзади)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:71
+msgid ""
+"In a new Audacity project, they can be imported in the above order with :"
+"menuselection:`Menu --> File --> Import --> Audio...`, the project should "
+"now look something like this:"
+msgstr ""
+"В новом проекте Audacity их можно импортировать в указанном выше порядке с "
+"помощью :menuselection:`Меню --> Файл --> Импорт --> Звуковой файл…`; теперь "
+"проект должен выглядеть примерно так:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:76
+msgid "Audacity screenshot"
+msgstr "Снимок экрана Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:78
+msgid "The channel mapping for 5.1 surround sound is:"
+msgstr "Распределение каналов для объёмного звука 5.1:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:80
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:163
+msgid "1 - Front Left"
+msgstr "1 — Передний левый"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:81
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:164
+msgid "2 - Front Right"
+msgstr "2 — Передний правый"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:82
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:165
+msgid "3 - Center"
+msgstr "3 — Центральный"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:83
+msgid "4 - :abbr:`LFE (Low Frequency Effects)`"
+msgstr "4 — :abbr:`LFE (низкочастотные эффекты)`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:84
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:167
+msgid "5 - Surround Left"
+msgstr "5 — Тыловой левый"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:85
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:168
+msgid "6 - Surround Right"
+msgstr "6 — Тыловой правый"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:87
+msgid ""
+":abbr:`LFE (Low Frequency Effects)` is often referred to as \"subwoofer "
+"channel\", which is not quite correct. A surround sound speaker setup is "
+"perfectly valid without subwoofer. In this case the surround sound system "
+"will redirect the LFE channel to \"large\" speakers, usually the front "
+"speakers."
+msgstr ""
+":abbr:`LFE (низкочастотные эффекты)` часто называют «каналом сабвуфера», что "
+"не совсем верно. Система объёмного звука вполне может работать и без "
+"сабвуфера. В этом случае система объёмного звука перенаправит канал LFE на "
+"«большие» колонки, обычно на передние."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:89
+msgid ""
+"The stereo track \"Field\" can now be mapped to Front L+R, \"Voice\" to "
+"Center and \"Music\" to Surround L+R. There is just one problem: the "
+"Surround (rear) speakers of a surround speaker system are usually \"small\" "
+"and not able to reproduce low frequencies. So it would be necessary to map "
+"the low frequency range of the \"Music\" track to the LFE channel, otherwise "
+"the music might sound a little \"thin\"."
+msgstr ""
+"Теперь стереодорожку «Field» можно назначить на передние левый и правый "
+"каналы, «Voice» — на центральный, а «Music» — на тыловые левый и правый. "
+"Есть только одна проблема: тыловые колонки системы объёмного звука обычно "
+"«маленькие» и не способны воспроизводить низкие частоты. Поэтому нужно "
+"назначить низкочастотный диапазон дорожки «Music» на канал LFE, иначе музыка "
+"может звучать немного «бедно»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:91
+msgid ""
+"To do this, the \"Music\" track can simply be duplicated with :menuselection:"
+"`Menu --> Edit --> Duplicate` after selecting it, and then :menuselection:"
+"`Split Stereo to Mono` from the context menu of the third track. Then one of "
+"the two mono tracks can be deleted; the other one can be renamed to \"LFE\"."
+msgstr ""
+"Для этого достаточно выделить дорожку «Music» и продублировать её с помощью :"
+"menuselection:`Меню --> Правка --> Дублировать`, а затем выбрать :"
+"menuselection:`Разделить стерео на моно` в контекстном меню третьей дорожки. "
+"После этого одну из двух монофонических дорожек можно удалить, а другую "
+"переименовать в «LFE»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:93
+msgid ""
+"Now the \"Equalization...\" effect could be used to cut off frequencies "
+"above around 100Hz from the \"LFE\" track, and reverse, cut off frequencies "
+"below around 100Hz from the \"Music\" track."
+msgstr ""
+"Теперь можно применить эффект «Эквалайзер…», чтобы срезать частоты выше "
+"примерно 100 Гц у дорожки «LFE», и наоборот — срезать частоты ниже примерно "
+"100 Гц у дорожки «Music»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:95
+msgid ""
+"Creating technically perfect surround sound is a science all of its own and "
+"thus beyond the scope of this guide - please refer to respective resources "
+"on the web for details."
+msgstr ""
+"Создание технически идеального объёмного звука — отдельная наука, и её "
+"рассмотрение выходит за рамки этого руководства; подробности ищите в "
+"специальных материалах в Интернете."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:97
+msgid ""
+"What remains for now is to make sure that the surround sound track has the "
+"same length as the video track it should be added to. The video track used "
+"in this example has a length of 1:00 minute, so the lengths of the audio "
+"tracks in Audacity are adjusted accordingly."
+msgstr ""
+"Теперь осталось убедиться, что дорожка объёмного звука имеет ту же длину, "
+"что и видеодорожка, к которой её нужно добавить. Видеодорожка в этом примере "
+"имеет длину 1:00 (одна минута), поэтому длины звуковых дорожек в Audacity "
+"приводятся в соответствие с ней."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:99
+msgid "The Audacity project should now look something like this:"
+msgstr "Теперь проект Audacity должен выглядеть примерно так:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:104
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:190
+msgid "Audacity project screenshot"
+msgstr "Снимок экрана проекта Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:106
+msgid ""
+"The next thing to do is to export the project to a multichannel 5.1 surround "
+"sound audio file. The format used here is AC-3 (Dolby Digital)."
+msgstr ""
+"Теперь нужно экспортировать проект в многоканальный звуковой файл объёмного "
+"звука 5.1. Здесь используется формат AC-3 (Dolby Digital)."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:108
+msgid ""
+"Before exporting, Audacity needs to be configured to allow exporting to a "
+"multichannel audio file: In :menuselection:`Menu --> Edit --> Preferences`, "
+"under :menuselection:`Import/Export`, select \"Use custom mix (for example "
+"to export a 5.1 multichannel file)\"."
+msgstr ""
+"Перед экспортом нужно настроить Audacity для экспорта в многоканальный "
+"звуковой файл: в :menuselection:`Меню --> Правка --> Параметры` в разделе :"
+"menuselection:`Импорт/Экспорт` выберите «Использовать собственное "
+"микширование (например, для экспорта многоканального файла 5.1)»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:110
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:259
+msgid "The project can now be exported into a 5.1 surround sound audio file:"
+msgstr ""
+"Теперь проект можно экспортировать в звуковой файл объёмного звука 5.1:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:112
+msgid "Select :menuselection:`Menu --> File --> Export...`"
+msgstr "Выберите :menuselection:`Меню --> Файл --> Экспорт…`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:113
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:262
+msgid "Provide a name for \"Name\" and select \"AC3 Files (FFmpeg)\""
+msgstr "Укажите имя в поле «Имя» и выберите «AC3 Files (FFmpeg)»"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:114
+msgid "Click :guilabel:`Options...` and choose \"512 kbps\" as \"Bit Rate\""
+msgstr "Нажмите :guilabel:`Параметры…` и выберите «512 kbps» в поле «Битрейт»"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:116
+msgid ""
+"The \"Advanced Mixing Options\" dialog should show up. The number of "
+"\"Output Channels\" should be 6 and the channel mapping should already be "
+"correct:"
+msgstr ""
+"Должно открыться окно «Дополнительные параметры смешивания». Число выходных "
+"каналов должно быть равно 6, а сопоставление каналов уже должно быть "
+"правильным:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:121
+msgid "Audacity mixing options"
+msgstr "Параметры смешивания Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:123
+msgid ""
+"The result of the export should be an :file:`*.ac3` file which is playable "
+"with e.g. **VLC** or **Dragon Player**."
+msgstr ""
+"В результате экспорта должен получиться файл :file:`*.ac3`, который можно "
+"воспроизвести, например, в **VLC** или **Dragon Player**."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:127
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:276
+msgid "Muxing Video and Audio Together"
+msgstr "Объединение видео и звука"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:129
+msgid ""
+"The final step is to add the surround sound audio track to the video track, "
+"assuming the video was rendered without audio."
+msgstr ""
+"Последний шаг — добавить звуковую дорожку объёмного звука к видеодорожке, "
+"если видео было собрано без звука."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:131
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:280
+msgid ""
+"When muxing audio and video files into one file, the actual streams are just "
+"copied, and not transcoded. So there is no quality loss to either the audio "
+"or the video streams. Also, because the streams are just copied, muxing is "
+"very fast."
+msgstr ""
+"При объединении звукового и видеофайлов в один файл сами потоки просто "
+"копируются, а не перекодируются. Поэтому качество ни звукового, ни "
+"видеопотока не теряется. Кроме того, поскольку потоки только копируются, "
+"объединение выполняется очень быстро."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:133
+msgid ""
+"Assuming the video track was rendered to :file:`Video.mkv` and the surround "
+"sound was exported to :file:`5.1.ac3` the command to mux both to :file:"
+"`Video-5.1.mkv` with **avconv** would be:"
+msgstr ""
+"Если видеодорожка была собрана в файл :file:`Video.mkv`, а объёмный звук "
+"экспортирован в :file:`5.1.ac3`, команда для объединения обоих файлов в :"
+"file:`Video-5.1.mkv` с помощью **avconv** будет такой:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:139
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:288
+msgid ""
+"The result should be an MKV video containing a Dolby Digital 5.1 surround "
+"sound audio track."
+msgstr ""
+"В результате должен получиться видеофайл MKV со звуковой дорожкой объёмного "
+"звука Dolby Digital 5.1."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:143
+msgid "Editing Existing Surround Sound"
+msgstr "Редактирование имеющегося объёмного звука"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:145
+msgid ""
+"When adding a clip with more than two channels to a project, Kdenlive "
+"creates an audio thumbnail that correctly shows all audio channels:"
+msgstr ""
+"При добавлении в проект клипа с более чем двумя каналами Kdenlive создаёт "
+"звуковую миниатюру, на которой правильно показываются все звуковые каналы:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:149
+msgid "Kdenlive timeline (Note: Older version!)"
+msgstr "Монтажный стол Kdenlive (примечание: старая версия!)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:151
+msgid ""
+"The clip can be edited and (audio) effects applied to it, and all appears to "
+"work just fine - but once rendering the project, it turns out that the audio "
+"track in the resulting video file is 2 channels (stereo) only."
+msgstr ""
+"Клип можно редактировать и применять к нему (звуковые) эффекты, и всё как "
+"будто работает — но при сборке проекта выясняется, что звуковая дорожка в "
+"полученном видеофайле содержит только 2 канала (стерео)."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:153
+msgid "The following steps provide a manual workaround for this issue."
+msgstr "Приведённые ниже шаги описывают, как обойти эту проблему вручную."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:157
+msgid "Extract and Split the Audio Track"
+msgstr "Извлечение и разделение звуковой дорожки"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:159
+msgid ""
+"The first step is to extract the audio track from the video clip. This can "
+"be done in Kdenlive with :menuselection:`Extract Audio --> Wav 48000Hz` from "
+"the context menu of the clip. This creates a WAV audio file in the same "
+"folder as where the video clip is located."
+msgstr ""
+"Первый шаг — извлечь звуковую дорожку из видеоклипа. Это можно сделать в "
+"Kdenlive с помощью пункта :menuselection:`Извлечь звук --> Wav 48000Hz` в "
+"контекстном меню клипа. При этом в той же папке, где находится видеоклип, "
+"создаётся звуковой файл WAV."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:161
+msgid ""
+"The extracted WAV audio file can then be opened in **Audacity**, it should "
+"show all 6 channels, these are:"
+msgstr ""
+"Извлечённый звуковой файл WAV можно затем открыть в **Audacity**; в нём "
+"должны показаться все 6 каналов:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:166
+msgid "4 - LFE"
+msgstr "4 — LFE"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:170
+msgid ""
+"LFE (Low Frequency Effects) is often referred to as \"subwoofer channel\", "
+"which is not quite correct. A surround sound speaker setup is perfectly "
+"valid without subwoofer. In this case the surround sound system will "
+"redirect the LFE channel to \"large\" speakers, usually the front speakers."
+msgstr ""
+"LFE (низкочастотные эффекты) часто называют «каналом сабвуфера», что не "
+"совсем верно. Конфигурация колонок объёмного звука вполне может обходиться и "
+"без сабвуфера. В этом случае система объёмного звука перенаправит канал LFE "
+"на «большие» колонки, обычно на передние."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:172
+msgid ""
+"The idea now is to split the surround sound into four separate (stereo/mono) "
+"audio files that **Kdenlive** can handle:"
+msgstr ""
+"Теперь нужно разделить объёмный звук на четыре отдельных звуковых файла "
+"(стерео/моно), с которыми **Kdenlive** справится:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:174
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:254
+msgid "Front (stereo)"
+msgstr "Передние (стерео)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:175
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:255
+msgid "Center (mono)"
+msgstr "Центральный (моно)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:176
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:256
+msgid "LFE (mono)"
+msgstr "LFE (моно)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:177
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:257
+msgid "Surround (stereo)"
+msgstr "Тыловые (стерео)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:179
+msgid ""
+"First, Audacity needs to be configured to not always export to stereo audio "
+"files: In :menuselection:`Edit --> Preferences`, under :menuselection:"
+"`Import/Export`, select \"Use custom mix (for example to export a 5.1 "
+"multichannel file)\"."
+msgstr ""
+"Сначала нужно настроить Audacity так, чтобы она не всегда экспортировала в "
+"стереофонические звуковые файлы: в :menuselection:`Правка --> Параметры` в "
+"разделе :menuselection:`Импорт/Экспорт` выберите «Использовать собственное "
+"микширование (например, для экспорта многоканального файла 5.1)»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:181
+msgid ""
+"Now, tracks 1+2 and 5+6 should be turned into stereo tracks by choosing :"
+"menuselection:`Make Stereo Track` from the context menu of the 1st and the "
+"5th track, respectively. This should result in 4 tracks, two stereo and two "
+"mono."
+msgstr ""
+"Теперь дорожки 1+2 и 5+6 нужно превратить в стереодорожки, выбрав :"
+"menuselection:`Сделать стереодорожкой` в контекстном меню первой и пятой "
+"дорожки соответственно. В результате должно получиться 4 дорожки: две стерео "
+"и две моно."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:183
+msgid ""
+"Next, the 4 tracks should be renamed to \"Front\", \"Center\", \"LFE\" and "
+"\"Surround\" starting from the top, using :menuselection:`Name...` from the "
+"context menu of each track."
+msgstr ""
+"Затем 4 дорожки нужно переименовать в «Front», «Center», «LFE» и «Surround», "
+"начиная сверху, с помощью :menuselection:`Имя…` в контекстном меню каждой "
+"дорожки."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:185
+msgid "The tracks now look like this:"
+msgstr "Теперь дорожки выглядят так:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:192
+msgid ""
+"After all this hard work, exporting the four tracks to four separate audio "
+"files is easy with :menuselection:`Menu --> File --> Export --> Export "
+"Multiple...`. Use \"WAV\" as \"Export format\", the rest of the settings "
+"should already be okay: \"Split files based on: Tracks\" and \"Name files: "
+"Using Label/Track name\"."
+msgstr ""
+"После всей этой работы экспортировать четыре дорожки в четыре отдельных "
+"звуковых файла легко с помощью :menuselection:`Меню --> Файл --> Экспорт --> "
+"Экспортировать несколько…`. В поле «Формат экспорта» выберите «WAV», "
+"остальные параметры уже должны быть подходящими: «Разделять файлы по: "
+"дорожкам» и «Имена файлов: по метке/имени дорожки»."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:194
+msgid ""
+"The \"Edit metadata\" dialog might pop up for each track. It is fine to just "
+"say :guilabel:`OK`. At the end there should be a confirmation dialog and "
+"four audio files should have been exported: :file:`Front.wav`, :file:`Center."
+"wav`, :file:`LFE.wav` and :file:`Surround.wav`."
+msgstr ""
+"Для каждой дорожки может появиться диалоговое окно «Редактирование "
+"метаданных». Достаточно нажать :guilabel:`OK`. В конце должно появиться окно "
+"подтверждения, и будут экспортированы четыре звуковых файла: :file:`Front."
+"wav`, :file:`Center.wav`, :file:`LFE.wav` и :file:`Surround.wav`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:198
+msgid "Import Audio Tracks into Kdenlive"
+msgstr "Импорт звуковых дорожек в Kdenlive"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:200
+msgid ""
+"The previously created audio files can now be added to the Kdenlive project "
+"using :menuselection:`Menu --> Media --> Add Media --> Add Clip`."
+msgstr ""
+"Созданные ранее звуковые файлы теперь можно добавить в проект Kdenlive с "
+"помощью :menuselection:`Меню --> Мультимедиа --> Добавить мультимедиа --> "
+"Добавить клип`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:202
+msgid ""
+"Since there are only two audio tracks in a project by default, it is "
+"necessary to add two more using :menuselection:`Menu --> Sequence --> Tracks "
+"--> Insert Track` before adding the four audio tracks to the timeline."
+msgstr ""
+"Поскольку по умолчанию в проекте только две звуковые дорожки, перед "
+"добавлением четырёх звуковых дорожек на монтажный стол нужно добавить ещё "
+"две с помощью :menuselection:`Меню --> Последовательность --> Дорожки --> "
+"Добавить дорожку`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:204
+msgid ""
+"The next thing to do is to group the four audio tracks with the video clip "
+"by selecting all of them and then choosing :menuselection:`Menu --> Sequence "
+"--> Group Clips`."
+msgstr ""
+"Затем нужно сгруппировать четыре звуковые дорожки с видеоклипом: выделите их "
+"все и выберите :menuselection:`Меню --> Последовательность --> Сгруппировать "
+"клипы`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:206
+msgid ""
+"Don't forget to mute the original audio track in the video clip if necessary!"
+msgstr ""
+"При необходимости не забудьте отключить звук исходной звуковой дорожки в "
+"видеоклипе!"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:208
+msgid ""
+"The Kdenlive project should now be ready for the usual editing, like cutting "
+"clips and adding effects, and should look something like this:"
+msgstr ""
+"Теперь проект Kdenlive должен быть готов к обычному редактированию, например "
+"к разрезанию клипов и добавлению эффектов, и выглядеть примерно так:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:213
+msgid "Kdenlive project example (Note: older version!)"
+msgstr "Пример проекта Kdenlive (примечание: старая версия!)"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:217
+msgid "Rendering the Project"
+msgstr "Сборка проекта"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:219
+msgid ""
+"Since it is not possible to render the project with a surround sound audio "
+"track, some manual steps are necessary to work around this."
+msgstr ""
+"Поскольку собрать проект со звуковой дорожкой объёмного звука невозможно, "
+"для обхода этого потребуются некоторые действия вручную."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:221
+msgid ""
+"First, the video track needs to be rendered without audio. This is simply "
+"done by rendering the project as it would normally be done, but without "
+"audio, by deselecting the :guilabel:`Audio` checkbox."
+msgstr ""
+"Сначала нужно собрать видеодорожку без звука. Для этого достаточно выполнить "
+"обычную сборку проекта, но без звука, сняв флажок :guilabel:`Звук`."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:223
+msgid ""
+"Then, each of the four surround sound audio tracks :file:`Front.wav`, :file:"
+"`Center.wav`, :file:`LFE.wav` and :file:`Surround.wav` needs to be rendered "
+"into a separate audio file. For each of them, do the following:"
+msgstr ""
+"Затем каждую из четырёх звуковых дорожек объёмного звука :file:`Front.wav`, :"
+"file:`Center.wav`, :file:`LFE.wav` и :file:`Surround.wav` нужно собрать в "
+"отдельный звуковой файл. Для каждой из них выполните следующие действия:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:229
+msgid "Exporting audio only in separate tracks"
+msgstr "Экспорт только звука в отдельные дорожки"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:231
+msgid "Mute all other audio tracks"
+msgstr "Отключите звук всех остальных звуковых дорожек"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:232
+msgid "Click on |media-record| Render..."
+msgstr "Нажмите |media-record| Сборка…"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:233
+msgid "Enter a respective file name for :guilabel:`Output file`"
+msgstr "Введите соответствующее имя файла в поле :guilabel:`Выходной файл`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:234
+msgid "Select preset :guilabel:`Audio only`"
+msgstr "Выберите предустановку :guilabel:`Только звук`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:235
+msgid "Select profile :guilabel:`WAV`"
+msgstr "Выберите профиль :guilabel:`WAV`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:236
+msgid "Make sure :guilabel:`Audio` is checked"
+msgstr "Убедитесь, что флажок :guilabel:`Звук` установлен"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:237
+msgid "Make sure :guilabel:`Separate file for each audio track` is not checked"
+msgstr ""
+"Убедитесь, что флажок :guilabel:`Отдельный файл для каждой звуковой дорожки` "
+"снят"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:238
+msgid "Click on :guilabel:`Render to file`"
+msgstr "Нажмите :guilabel:`Сборка в файл`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:240
+msgid ""
+"Unfortunately, the mono tracks :file:`Center.wav` and :file:`LFE.wav` are "
+"rendered as stereo tracks, and there seems to be no way to avoid this. But "
+"this can be handled later in Audacity."
+msgstr ""
+"К сожалению, монодорожки :file:`Center.wav` и :file:`LFE.wav` собираются как "
+"стереодорожки, и, по-видимому, этого никак не избежать. Но это можно "
+"исправить позже в Audacity."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:244
+msgid "Compose a Surround Sound Audio File"
+msgstr "Создание звукового файла объёмного звука"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:246
+msgid ""
+"Now the separate audio tracks rendered by Kdenlive need to be \"merged\" "
+"into a single multichannel 5.1 surround sound audio file. This is again done "
+"in Audacity:"
+msgstr ""
+"Теперь отдельные звуковые дорожки, собранные в Kdenlive, нужно «объединить» "
+"в один многоканальный звуковой файл объёмного звука 5.1. Это снова делается "
+"в Audacity:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:248
+msgid ""
+"Import :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` and :file:"
+"`Surround.wav` (in this order!) using :menuselection:`File --> Import --> "
+"Audio...`"
+msgstr ""
+"Импортируйте :file:`Front.wav`, :file:`Center.wav`, :file:`LFE.wav` и :file:"
+"`Surround.wav` (именно в этом порядке!) с помощью :menuselection:`Файл --> "
+"Импорт --> Звуковой файл…`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:250
+msgid ""
+"\"Center\" and \"LFE\" are now stereo, which is not what is needed. This can "
+"be fixed by selecting :menuselection:`Split Stereo to Mono` from the context "
+"menu of each track, and deleting one of the two resulting mono tracks."
+msgstr ""
+"«Center» и «LFE» теперь стерео, а это не то, что нужно. Это можно исправить, "
+"выбрав :menuselection:`Разделить стерео на моно` в контекстном меню каждой "
+"дорожки и удалив одну из двух получившихся монодорожек."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:252
+msgid "Eventually, there should be four tracks in the Audacity project:"
+msgstr "В итоге в проекте Audacity должно быть четыре дорожки:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:261
+msgid "Select :menuselection:`File --> Export...`"
+msgstr "Выберите :menuselection:`Файл --> Экспорт…`"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:263
+msgid ""
+"Click :guilabel:`Options...` and choose :guilabel:`512 kbps` as \"Bit Rate\""
+msgstr ""
+"Нажмите :guilabel:`Параметры…` и выберите :guilabel:`512 kbps` в поле "
+"«Битрейт»"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:265
+msgid ""
+"The **Advanced Mixing Options** dialog should show up. The number of "
+"**Output Channels** should be 6 and the channel mapping should already be "
+"correct:"
+msgstr ""
+"Должно открыться окно **Дополнительные параметры смешивания**. Число "
+"**выходных каналов** должно быть равно 6, а сопоставление каналов уже должно "
+"быть правильным:"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:270
+msgid "Audacity advanced mixing options"
+msgstr "Дополнительные параметры смешивания Audacity"
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:272
+msgid ""
+"The result of the export should be an :file:`*.ac3` file which is playable "
+"with i.e. **VLC** or **Dragon Player**."
+msgstr ""
+"В результате экспорта должен получиться файл :file:`*.ac3`, который можно "
+"воспроизвести, например, в **VLC** или **Dragon Player**."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:278
+msgid ""
+"Since video and audio was rendered separately, both need to be multiplexed "
+"into a single file containing both the video and audio stream."
+msgstr ""
+"Поскольку видео и звук были собраны отдельно, их нужно объединить в один "
+"файл, содержащий и видеопоток, и звуковой поток."
+
+#: ../../tips_and_tricks/how-tos/surround_sound.rst:282
+msgid ""
+"Assuming the video track was rendered to :file:`Video.mkv` and the surround "
+"sound was exported to :file:`5.1.ac3`, the command to mux both to :file:"
+"`Video-5.1.mkv` with **avconv** would be:"
+msgstr ""
+"Если видеодорожка была собрана в файл :file:`Video.mkv`, а объёмный звук "
+"экспортирован в :file:`5.1.ac3`, команда для объединения обоих файлов в :"
+"file:`Video-5.1.mkv` с помощью **avconv** будет такой:"

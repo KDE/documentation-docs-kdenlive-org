@@ -1,0 +1,142 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___useful_info___library_clips into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_tips_and_tricks___useful_info___library_clips\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:-1
+msgid "Kdenlive Tips & Tricks - Improved Handling of Library Clips"
+msgstr "Советы и приёмы Kdenlive — улучшенная работа с клипами библиотеки"
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, useful information, library, "
+"editing, documentation, user manual, video editor, open source, free, learn, "
+"easy"
+msgstr ""
+"KDE, Kdenlive, советы, приёмы, советы и приёмы, полезная информация, "
+"библиотека, редактирование, документация, руководство пользователя, "
+"видеоредактор, открытый исходный код, свободный, обучение, простота"
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:17
+msgid "Improved Handling of Library Clips"
+msgstr "Улучшенная работа с клипами библиотеки"
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:21
+msgid ""
+"Kdenlive 16.12.0 introduced further improvements to its :term:`library` clip "
+"expansion feature (and, in consequence, to :abbr:`MLT (Media Lovin' Toolkit "
+"- An open source software multimedia framework designed and developed for tv "
+"broadcasting)` playlist import). Not every Kdenlive user may have noticed "
+"the improved functionality, as it affects only library clips where the same "
+"image sequence or title is used multiple times."
+msgstr ""
+"В Kdenlive 16.12.0 появились дополнительные улучшения функции развёртывания "
+"клипов :term:`библиотеки <Библиотека>` (а вместе с ней и импорта списков "
+"воспроизведения :abbr:`MLT (Media Lovin' Toolkit — мультимедийная платформа "
+"с открытым исходным кодом, созданная для телевещания)`). Не каждый "
+"пользователь Kdenlive мог заметить улучшенную функциональность, поскольку "
+"она затрагивает только клипы библиотеки, в которых одна и та же серия "
+"изображений или один и тот же титр используется несколько раз."
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:23
+msgid ""
+"In particular, if you (re)use the same image sequence clip, title clip, or "
+"even color clip multiple times **in the same library clip**, such image "
+"sequences and titles  **will only be added once to your project bin**. "
+"Before Kdenlive 16.12.0, multiple instances of the same clip in the timeline "
+"unfortunately resulted in these clips getting added multiple times to the "
+"project bin. To emphasize, this undesired behavior only affected image "
+"sequences, titles, and color clips."
+msgstr ""
+"В частности, если один и тот же клип серии изображений, клип титров или даже "
+"цветовой клип используется (повторно) несколько раз **в одном и том же клипе "
+"библиотеки**, такие серии изображений и титры **будут добавлены в корзину "
+"проекта только один раз**. До Kdenlive 16.12.0 несколько экземпляров одного "
+"и того же клипа на монтажном столе, к сожалению, приводили к тому, что эти "
+"клипы добавлялись в корзину проекта несколько раз. Подчеркнём: это "
+"нежелательное поведение затрагивало только серии изображений, титры и "
+"цветовые клипы."
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:25
+msgid ""
+"When :ref:`expanding a library clip <library-expand_library_clip>`, Kdenlive "
+"checks image sequences, titles, and color clips in the timeline for their "
+"content, clip name, and original bin folder location. If there is a match, "
+"then such a timeline clip will be added only once to your project bin."
+msgstr ""
+"При :ref:`развёртывании клипа библиотеки <library-expand_library_clip>` "
+"Kdenlive проверяет серии изображений, титры и цветовые клипы на монтажном "
+"столе по их содержимому, имени клипа и исходному расположению папки в "
+"корзине. При совпадении такой клип монтажного стола будет добавлен в корзину "
+"проекта только один раз."
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:29
+msgid ""
+"A “library clip” is a clip with the “.mlt” suffix, and in particular, a clip "
+"that has been added to your personal Kdenlive library. They show up in "
+"Kdenlive's library pane."
+msgstr ""
+"«Клип библиотеки» — это клип с расширением «.mlt», в частности клип, "
+"добавленный в личную библиотеку Kdenlive. Они показываются на панели "
+"библиотеки Kdenlive."
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:31
+msgid ""
+"Internally, when you select some clips & transitions from the timeline and "
+"add them to Kdenlive's library, these clips and transitions are stored in "
+"the file system in a “.mlt” file (which is an MLT playlist to be precise), "
+"and shown in the library widget as a new library clip."
+msgstr ""
+"Когда из монтажного стола выбираются клипы и переходы и добавляются в "
+"библиотеку Kdenlive, они сохраняются в файловой системе в файле «."
+"mlt» (точнее, это список воспроизведения MLT) и показываются в виджете "
+"библиотеки как новый клип библиотеки."
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:33
+msgid ""
+"Technically, Kdenlive projects are also MLT playlist files. When you add a "
+"clip from the library pane to your project this simply adds the underlying "
+"MLT playlist file to your project. But in contrast to other clips, such as "
+"an MP4 video, you can “expand” library (that is, MLT playlist) clips to get "
+"back the individual clips and transitions inside it."
+msgstr ""
+"С технической точки зрения, проекты Kdenlive также являются файлами списков "
+"воспроизведения MLT. Когда клип с панели библиотеки добавляется в проект, в "
+"проект просто добавляется соответствующий файл списка воспроизведения MLT. "
+"Но в отличие от других клипов, например видео MP4, клипы библиотеки (то есть "
+"списки воспроизведения MLT) можно «развернуть», чтобы получить отдельные "
+"клипы и переходы внутри них."
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:38
+msgid "Notes"
+msgstr "Примечания"
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:44
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+"Исходный текст был отправлен пользователем *TheDiveO* в ныне не существующий "
+"блог kdenlive.org. Для этой документации он взят из |kdenlive_org|, обновлён "
+"и приведён в соответствие с общим стилем."
+
+#: ../../tips_and_tricks/useful_info/library_clips.rst:45
+msgid "**Sources**"
+msgstr "**Источники**"

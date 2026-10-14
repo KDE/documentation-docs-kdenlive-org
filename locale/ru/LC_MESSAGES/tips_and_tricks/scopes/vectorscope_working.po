@@ -1,0 +1,583 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___scopes___vectorscope_working into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_tips_and_tricks___scopes___vectorscope_working\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:-1
+msgid "Kdenlive Tips & Tricks - The Vectorscope"
+msgstr "Kdenlive: советы и приёмы — вектороскоп"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, vectorscope, editing, "
+"timeline, documentation, user manual, video editor, open source, free, "
+"learn, easy"
+msgstr ""
+"KDE, Kdenlive, советы, приёмы, советы и приёмы, приборы, вектороскоп, "
+"монтаж, монтажный стол, документация, руководство пользователя, "
+"видеоредактор, открытый исходный код, свободное ПО, обучение, просто"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:42
+msgid "The Vectorscope"
+msgstr "Вектороскоп"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:44
+msgid ""
+"The next scope (after the :ref:`Histogram <scopes-histogram_working>` and "
+"the :ref:`Waveform and RGB Parade <scopes-waveform_and_rgb_parade>`) we want "
+"to discuss in more detail is the **Vectorscope**. This is actually the most "
+"interesting scope because it is quite different from the other ones and, "
+"secondly, is really useful for :term:`color grading`."
+msgstr ""
+"Следующий прибор (после :ref:`гистограммы <scopes-histogram_working>` и :ref:"
+"`формы сигнала и парада RGB <scopes-waveform_and_rgb_parade>`), который "
+"стоит рассмотреть подробнее, — **вектороскоп**. На самом деле это самый "
+"интересный прибор: он заметно отличается от остальных и, во-вторых, очень "
+"полезен для :term:`цветовой градации <Цветовая градация>`."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:50
+msgid "How the Vectorscope Works"
+msgstr "Принцип работы вектороскопа"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:52
+msgid ""
+"There is one simple thing that makes the Vectorscope so special: It uses a "
+"color space different than RGB. That sounds unspectacular but it is not. The "
+"previous scopes allow you to determine which brightness values exist in your "
+"image, the Vectorscope shows which colors there are."
+msgstr ""
+"Есть одна простая вещь, которая делает вектороскоп таким особенным: он "
+"использует цветовое пространство, отличное от RGB. Звучит невзрачно, но это "
+"не так. Предыдущие приборы позволяют определить, какие значения яркости есть "
+"в изображении, а вектороскоп показывает, какие в нём есть цвета."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:54
+msgid ""
+"The Vectorscope supports two different color spaces: :term:`YUV` and :term:"
+"`YPbPr`. Both of them have the *Y* in common, something you know from "
+"before: It is the *Luma component* (Rec.601 in both cases). This, amongst "
+"others, comes from black/white TV. When Color TV was introduced, some people "
+"actually recognized that not everybody would immediately trash his old b/w "
+"TV and buy a new one, so they still sent the b/w signal, but with two "
+"additional channels: The blue difference and the red difference (to :term:"
+"`Luma`), called U and V. For more details look at the image with its "
+"individual YUV components on the Wikipedia page about |yuv|."
+msgstr ""
+"Вектороскоп поддерживает два разных цветовых пространства: :term:`YUV` и :"
+"term:`YPbPr`. У обоих общая составляющая *Y*, уже знакомая вам: это "
+"*составляющая Luma* (в обоих случаях Rec.601). Она, помимо прочего, пришла "
+"из чёрно-белого телевидения. Когда появилось цветное телевидение, кто-то "
+"сообразил, что не все сразу выбросят свой старый чёрно-белый телевизор и "
+"купят новый, поэтому по-прежнему передавали чёрно-белый сигнал, но с двумя "
+"дополнительными каналами: разностью синего и разностью красного "
+"(относительно :term:`яркостного сигнала <Яркостный сигнал>`), которые "
+"называются U и V. Подробнее см. изображение с отдельными компонентами YUV на "
+"странице Википедии о |yuv|."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:56
+msgid ""
+"The other color space, :term:`YPbPr` or its digital counterpart :term:"
+"`YCbCr` respectively, are similar. If you switch between the two color "
+"models in the Vectorscope (via the context menu) you will notice that the "
+"colors are slightly shifted. YCbCr is used basically everywhere in digital "
+"video."
+msgstr ""
+"Другое цветовое пространство, :term:`YPbPr`, или его цифровой аналог :term:"
+"`YCbCr`, устроены похоже. Если переключиться между этими двумя цветовыми "
+"моделями в вектороскопе (через контекстное меню), можно заметить, что цвета "
+"немного смещаются. YCbCr используется практически везде в цифровом видео."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:58
+msgid ""
+"So, what the Vectorscope does: It calculates the Luma value of a pixel, then "
+"calculates the blue difference/red difference values. Then it throws the "
+"Luma value away. Why is that? It is because the Vectorscope is 2-"
+"dimensional. The blue difference is on the horizontal axis, the red "
+"difference is on the vertical axis. (There actually are three-dimensional "
+"vectorscopes which put the Luma component on the third axis!)"
+msgstr ""
+"Итак, что делает вектороскоп: он вычисляет значение яркости пикселя, затем "
+"вычисляет значения синей и красной разности. После этого значение яркости "
+"отбрасывается. Почему? Потому что вектороскоп двумерный. Синяя разность — по "
+"горизонтальной оси, красная разность — по вертикальной. (Существуют и "
+"трёхмерные вектороскопы, у которых компонент яркости отложен по третьей оси!)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:61
+msgid "Example 1: Grayscale Video"
+msgstr "Пример 1. Видео в оттенках серого"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:63
+msgid "Now let's see at how this actually looks like in a video."
+msgstr "Теперь посмотрим, как это выглядит в видео."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:68
+msgid "Vectorscope with a black-and-white image"
+msgstr "Вектороскоп с чёрно-белым изображением"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:70
+msgid ""
+"Well … nothing? Close. There is a little pixel in the middle of the scope. "
+"And that is the whole image. That looks a little disappointing now, but "
+"actually it is great. All greys (plus black and white) are exactly in the "
+"middle. Everything that is not in the middle has some color information (and "
+"the further away it is from the middle, the higher its saturation aka. "
+"chrominance). This will come in very handy when it comes to white balance."
+msgstr ""
+"Ну… ничего? Почти. В середине прибора есть маленькая точка. И это всё "
+"изображение. Сейчас это выглядит немного разочаровывающе, но на самом деле "
+"это здорово. Все серые оттенки (плюс чёрный и белый) находятся точно в "
+"середине. Всё, что не в середине, несёт информацию о цвете (и чем дальше от "
+"середины, тем выше насыщенность, она же цветность). Это очень пригодится при "
+"работе с балансом белого."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:73
+msgid "Example 2: Juggling Balls"
+msgstr "Пример 2. Жонглирование мячами"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:78
+msgid "Vectorscope with a color image (juggling balls)"
+msgstr "Вектороскоп с цветным изображением (жонглирование мячами)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:80
+msgid ""
+"Juggling balls are more interesting, especially when they are colored. The "
+"ones above are. In this example a YUV background (with fixed Luma) has been "
+"switched in order to better identify the colors of pixel heaps on the scope."
+msgstr ""
+"Жонглирование мячами интереснее, особенно когда мячи цветные. На изображении "
+"выше они как раз такие. В этом примере был включён фон YUV (с фиксированной "
+"яркостью), чтобы лучше различать цвета скоплений пикселей на приборе."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:82
+msgid "Two things can be noticed:"
+msgstr "Можно заметить две вещи:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:84
+msgid ""
+"there are six areas with high black density on the scope (which means that "
+"many pixels share this :term:`hue`):"
+msgstr ""
+"на приборе есть шесть областей с высокой плотностью чёрного (это значит, что "
+"многие пиксели имеют один и тот же :term:`оттенок <Оттенок>`):"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:86
+msgid "One that points towards blue (bottom right),"
+msgstr "Одна направлена в сторону синего (внизу справа),"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:87
+msgid "A big one around yellow,"
+msgstr "Большая — вокруг жёлтого,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:88
+msgid "Two big ones around red,"
+msgstr "Две большие — вокруг красного,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:89
+msgid "A smaller one between red and yellow,"
+msgstr "Меньшая — между красным и жёлтым,"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:90
+msgid "And the last one which you might have missed, between red and blue."
+msgstr "И последняя, которую можно было не заметить, — между красным и синим."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:92
+msgid ""
+"These are exactly the ball's colors! Blue comes from the two balls on the "
+"left, yellow from the yellow ball, the left red area is the pink part of the "
+"left ball, the right part in red is the red ball on the right. The part "
+"between red and yellow, which is actually orange, is the background of the "
+"whole scene, and the last one between red and blue is the violet part of the "
+"right red ball."
+msgstr ""
+"Это в точности цвета мячей! Синий происходит от двух мячей слева, жёлтый — "
+"от жёлтого мяча, левая красная область — это розовая часть левого мяча, "
+"правая часть в красном — красный мяч справа. Часть между красным и жёлтым, "
+"которая на самом деле оранжевая, — это фон всей сцены, а последняя, между "
+"красным и синим, — фиолетовая часть правого красного мяча."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:94
+msgid ""
+"The orange background seems to connect all other areas. This is something "
+"really amazing. Like magic. It will help doing white balance. The neutral "
+"area will almost always seem to connect the other ones."
+msgstr ""
+"Оранжевый фон, похоже, связывает все остальные области. Это действительно "
+"удивительно. Прямо как магия. Это поможет при выполнении баланса белого. "
+"Нейтральная область почти всегда будет казаться связующей для остальных."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:96
+msgid ""
+"As the shot above is actually correctly white balanced, it should not be "
+"maltreated it here. But you should actually try! Download the sample below, "
+"add a :doc:`/effects_and_filters/video_effects/color_image_correction/sat` "
+"effect and change the :guilabel:`Offset` parameters for the RGB values. (Do "
+"not forget to enable auto-refresh.)"
+msgstr ""
+"Поскольку на приведённом выше кадре баланс белого на самом деле верен, "
+"портить его здесь не стоит. Но попробовать всё же стоит! Загрузите образец "
+"ниже, добавьте эффект :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/sat` и измените параметры :guilabel:`Смещение` для "
+"значений RGB. (Не забудьте включить автообновление.)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:98
+msgid ""
+"Now perhaps you wonder how we could be so sure assigning those spots to "
+"colors. Is it really the upper spot caused by the red ball? To find out, the "
+"red ball out was masked out using a white Color Clip. The spot then indeed "
+"disappeared."
+msgstr ""
+"Возможно, теперь возникает вопрос, почему можно быть настолько уверенным в "
+"привязке этих пятен к цветам. Действительно ли верхнее пятно вызвано красным "
+"мячом? Чтобы это выяснить, красный мяч был закрыт белым цветовым клипом. "
+"После этого пятно действительно исчезло."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:103
+msgid "Vectorscope with a partly covered (masked) color image"
+msgstr "Вектороскоп с частично закрытым (замаскированным) цветным изображением"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:105
+msgid ""
+"The violet spot has disappeared as well, and also big parts of the yellow "
+"spot because the white rectangle covers a large part of the yellow ball as "
+"well."
+msgstr ""
+"Фиолетовое пятно также исчезло, как и большая часть жёлтого пятна, поскольку "
+"белый прямоугольник закрывает и значительную часть жёлтого мяча."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:108
+msgid "Example 3: Musical Box"
+msgstr "Пример 3. Музыкальная шкатулка"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:113
+msgid "Vectorscope of an image of a musical box"
+msgstr "Вектороскоп изображения музыкальной шкатулки"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:115
+msgid "Again, two things worth pointing out for this clip:"
+msgstr "И снова в этом клипе стоит отметить две вещи:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:117
+msgid ""
+"This shot of a Swiss Musical Box mainly consists of orange tones, all points "
+"on the vectorscope lie between neutral (center) and orange. Not too "
+"saturated orange tones presumably coming from the bronze/messing parts."
+msgstr ""
+"Этот кадр со швейцарской музыкальной шкатулкой состоит в основном из "
+"оранжевых тонов: все точки на вектороскопе лежат между нейтральным (центр) и "
+"оранжевым. Не слишком насыщенные оранжевые тона, вероятно, происходят от "
+"бронзовых/латунных деталей."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:119
+msgid ""
+"The white balance seems to be correct. The Vectorscope indicates that there "
+"are neutral pixels (i.e. greys), and they seem to be the origin for the "
+"other colors."
+msgstr ""
+"Баланс белого, похоже, верен. Вектороскоп показывает наличие нейтральных "
+"пикселей (то есть серых), и, судя по всему, именно они служат началом для "
+"остальных цветов."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:121
+msgid ""
+"But when increasing the gain (or zoom level) of the Vectorscope to 5x we see "
+"that the scope image actually stops right before neutral."
+msgstr ""
+"Но если увеличить усиление (или уровень масштабирования) вектороскопа до 5x, "
+"видно, что изображение прибора на самом деле останавливается прямо перед "
+"нейтральной точкой."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:126
+msgid "Vectorscope before white balancing"
+msgstr "Вектороскоп до балансировки белого"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:128
+msgid ""
+"If you open this clip and take a look at the Waveform you will notice that "
+"it shows the same: Blue is too low, red is too high. To correct this minor "
+"color cast we can use the :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/sat` effect again, adjusting the :guilabel:`Offset` "
+"values. By doing that the points on the Vectorscope will be shifted around. "
+"A positive red offset will make the points shift towards red at the top, a "
+"negative offset shifts them towards the opposite direction (that is, towards "
+"the |complementary_color| of red, cyan)."
+msgstr ""
+"Если открыть этот клип и взглянуть на форму сигнала, можно заметить то же "
+"самое: синего слишком мало, красного слишком много. Чтобы исправить этот "
+"небольшой цветовой сдвиг, снова можно воспользоваться эффектом :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/sat`, "
+"скорректировав значения :guilabel:`Смещение`. В результате точки на "
+"вектороскопе сместятся. Положительное смещение красного сдвинет точки вверх "
+"к красному, отрицательное — в противоположную сторону (то есть к |"
+"complementary_color| красного — бирюзовому)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:133
+msgid "Vectorscope after white balancing"
+msgstr "Вектороскоп после балансировки белого"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:135
+msgid ""
+"Here, the blue and red values were adjusted such that there is some padding "
+"around the neutral center. It is usually not enough to just let the first "
+"pixel hit the neutral point because of several factors like the material of "
+"the neutral object itself, chromatic aberration (also see this more accurate "
+"article about |chromatic_aberration|) in lenses, and artifacts in the "
+"recorded video file. So usually neutral areas will not share one single "
+"pixel in the vectorscope but have a certain diameter. Hence the padding."
+msgstr ""
+"Здесь значения синего и красного были скорректированы так, чтобы вокруг "
+"нейтрального центра оставался некоторый запас. Обычно недостаточно просто "
+"довести первый пиксель до нейтральной точки из-за ряда факторов: материала "
+"самого нейтрального объекта, хроматической аберрации (см. также эту более "
+"подробную статью о |chromatic_aberration|) в объективах и артефактов в "
+"записанном видеофайле. Поэтому нейтральные области обычно занимают на "
+"вектороскопе не один пиксель, а имеют определённый диаметр. Отсюда и запас."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:137
+msgid ""
+"Because this is a suitable clip for :term:`hue` and the :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift` effect:"
+msgstr ""
+"Поскольку этот клип подходит для работы с :term:`оттенком <Оттенок>` и "
+"эффектом :doc:`/effects_and_filters/video_effects/color_image_correction/"
+"hue_shift`:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:142
+msgid ""
+"Vectorscope of the musical box after applying the :doc:`/effects_and_filters/"
+"video_effects/color_image_correction/hue_shift` effect (Hue=45)"
+msgstr ""
+"Вектороскоп музыкальной шкатулки после применения эффекта :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift` (Hue=45)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:144
+msgid ""
+"Now what happened here? The hue has changed, and the points on the scope "
+"look like rotated by 30 degrees. And indeed they did rotate. The :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift` effect "
+"changes the hue of all colors by a certain (configurable) amount. In the "
+"Vectorscope this becomes visible as a rotation around the center of the "
+"scope."
+msgstr ""
+"Что же здесь произошло? Оттенок изменился, и точки на приборе выглядят "
+"повёрнутыми на 30 градусов. И действительно, они повернулись. Эффект :doc:`/"
+"effects_and_filters/video_effects/color_image_correction/hue_shift` изменяет "
+"оттенок всех цветов на определённую (настраиваемую) величину. На "
+"вектороскопе это видно как поворот вокруг его центра."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:146
+msgid ""
+"Similarly, when changing the saturation/chroma, the dots on the vectorscope "
+"will move closer to the center or further away from it."
+msgstr ""
+"Аналогично, при изменении насыщенности/цветности точки на вектороскопе "
+"смещаются к центру или от него."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:149
+msgid "Creating a Look for Your Video"
+msgstr "Создание визуального стиля для видео"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:151
+msgid ""
+"In the :doc:`Histogram <histogram_working>` chapter we mentioned creating "
+"looks with color correction or :term:`Color Grading`. This example covers "
+"part of the tip of the iceberg of this topic."
+msgstr ""
+"В главе :doc:`Гистограмма <histogram_working>` упоминалось создание "
+"визуальных стилей с помощью цветокоррекции или :term:`цветовой градации "
+"<Цветовая градация>`. Этот пример приоткрывает лишь верхушку айсберга этой "
+"темы."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:153
+msgid ""
+"What is special about creating a look for a video? Let's take a look at some "
+"random clips:"
+msgstr ""
+"Что особенного в создании визуального стиля для видео? Рассмотрим несколько "
+"случайных клипов:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:158
+msgid "Collection of not color-graded video stills"
+msgstr "Подборка кадров видео без цветокоррекции"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:160
+msgid ""
+"Mostly different content and therefore different colors - as said: random. "
+"One point of Color Grading is to give single clips a connection. This is not "
+"limited to white balance only. White balancing a clip is about removing "
+"color casts (which is a good thing because it gives you a neutral starting "
+"point). But we can also add new colors."
+msgstr ""
+"Содержание в основном разное, а значит, и цвета разные — как уже говорилось, "
+"случайные. Одна из задач цветокоррекции — связать отдельные клипы. Это не "
+"ограничивается только балансом белого. Баланс белого клипа нужен для "
+"устранения цветовых сдвигов (это хорошо, поскольку даёт нейтральную точку "
+"отсчёта). Но можно также добавлять новые цвета."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:165
+msgid "Collection of color-graded video stills"
+msgstr "Подборка кадров видео с цветокоррекцией"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:167
+msgid ""
+"These clips look much more like if they belonged together. This is the "
+"result of **Primary Color Correction** (*Primary* means that it affects the "
+"whole image; *Secondary Color Correction* would only affect parts of it, e."
+"g. by using masks, choosing color ranges, etc.): White balance (plus in some "
+"cases reduction of saturation) followed by a :doc:`/effects_and_filters/"
+"video_effects/color_image_correction/sat` effect. The latter SOP/Sat effect "
+"does something similar as the Blockbuster Effect: here the blacks become "
+"blueish, the mids and the whites tend towards yellow."
+msgstr ""
+"Эти клипы выглядят гораздо более согласованно, как будто они из одного "
+"набора. Это результат **первичной цветокоррекции** (*первичная* означает, "
+"что она влияет на всё изображение; *вторичная цветокоррекция* затрагивала бы "
+"лишь его части, например, с помощью масок, выбора цветовых диапазонов и т. "
+"д.): баланс белого (а в некоторых случаях и уменьшение насыщенности), после "
+"чего применяется эффект :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/sat`. Последний эффект SOP/Sat делает примерно то же, "
+"что и эффект Blockbuster: чёрные становятся синеватыми, средние тона и белые "
+"— желтоватыми."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:169
+msgid "See also |this_page| for some hints about looks and the vectorscope."
+msgstr ""
+"См. также |this_page|, где приведены некоторые подсказки о визуальных стилях "
+"и вектороскопе."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:172
+msgid "Vectorscope Options"
+msgstr "Параметры вектороскопа"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:174
+msgid "You can adjust the Vectorscope as follows by right-clicking it:"
+msgstr ""
+"Вектороскоп можно настроить следующим образом, щёлкнув по нему правой "
+"кнопкой мыши:"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:176
+msgid ""
+"*Export Background* - Exports a color plane of the desired color space. It "
+"allows to export RGB, :term:`YUV` and :term:`YCbCr` planes (like the ones "
+"you see when visiting the Wikipedia articles about these color spaces)."
+msgstr ""
+"*Экспорт фона* — экспортирует цветовую плоскость нужного цветового "
+"пространства. Позволяет экспортировать плоскости RGB, :term:`YUV` и :term:"
+"`YCbCr` (такие же, как в статьях Википедии об этих цветовых пространствах)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:178
+msgid ""
+"*75% Box* - Marks the position where color saturation reaches 75% of its "
+"maximum value. This may be interesting if you work for broadcast. Colors "
+"exceeding this box were not regarded as |broadcast_safe| - but before "
+"changing the saturation to a max of 75% better consult your broadcast "
+"company."
+msgstr ""
+"*75% шкала интенсивности* — отмечает положение, в котором насыщенность цвета "
+"достигает 75 % от максимального значения. Это может быть интересно при "
+"работе для телевещания. Цвета за пределами этой шкалы не считались |"
+"broadcast_safe|, но прежде чем ограничивать насыщенность до 75 %, лучше "
+"проконсультироваться с телевещательной компанией."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:180
+msgid "*Draw axis* - Draws the U/Pb (horizontal) and V/Cr (vertical) axis."
+msgstr ""
+"*Показывать ось* — рисует горизонтальную ось U/Pb и вертикальную ось V/Cr."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:182
+msgid ""
+"*YUV* and *YPbPr* - Switches between the two color spaces YUV and YPbPr."
+msgstr ""
+"*YUV* и *YPbPr* — переключает между двумя цветовыми пространствами YUV и "
+"YPbPr."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:186
+msgid "Summary"
+msgstr "Сводка"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:187
+msgid ""
+"The Vectorscope shows the hue and saturation distribution in a way we can "
+"understand without problems. This is useful for quickly recognizing color "
+"casts, but also helps judging the color distribution of a clip and match it "
+"to others."
+msgstr ""
+"Вектороскоп показывает распределение оттенка и насыщенности в легко "
+"воспринимаемом виде. Это помогает быстро распознавать цветовые сдвиги, а "
+"также оценивать распределение цветов в клипе и согласовывать его с другими."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:189
+msgid ""
+"All scopes together fulfill another important task: They help matching video "
+"from different light situations and different input sources (like a second "
+"camera) regarding brightness and color. This is what you need |test_charts| "
+"for. Different cameras might have a different dynamic range and different "
+"colors. So when combining these shots you first shoot a test chart and then "
+"match exposure and color."
+msgstr ""
+"Все приборы вместе решают ещё одну важную задачу: помогают согласовывать "
+"видео из разных условий освещения и от разных источников (например, со "
+"второй камеры) по яркости и цвету. Именно для этого нужны |test_charts|. У "
+"разных камер может быть разный динамический диапазон и разные цвета. Поэтому "
+"при объединении таких кадров сначала снимают тестовую таблицу, а затем "
+"согласовывают экспозицию и цвет."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:194
+msgid "Notes"
+msgstr "Примечания"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:200
+msgid ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
+"samples/raclette-greyscale.avi>` (720/24p, 12 MB)"
+msgstr ""
+":download:`raclette-greyscale.avi <http://granjow.net/uploads/kdenlive/"
+"samples/raclette-greyscale.avi>` (720/24p, 12 МБ)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:201
+msgid ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
+"juggling-balls.avi>` (720/24p, 11 MB)"
+msgstr ""
+":download:`juggling-balls.avi <http://granjow.net/uploads/kdenlive/samples/"
+"juggling-balls.avi>` (720/24p, 11 МБ)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:202
+msgid ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/"
+"Musical-box.avi>` (720/24p, 23 MB. Video from Nikon D90, Audio from Zoom "
+"H4n.)"
+msgstr ""
+":download:`Musical-box.avi <http://granjow.net/uploads/kdenlive/samples/"
+"Musical-box.avi>` (720/24p, 23 МБ. Видео с Nikon D90, звук с Zoom H4n.)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:204
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Sun, "
+"10/10/2010 - 18:30 to the now defunct kdenlive.org blog. For this "
+"documentation it has been lifted from |web_archive|, updated and adapted to "
+"match the overall style."
+msgstr ""
+"Исходный текст был отправлен *Simon A. Eugster (Granjow)* в воскресенье, "
+"10.10.2010, 18:30 в ныне не существующий блог kdenlive.org. Для этой "
+"документации он взят из |web_archive|, обновлён и приведён в соответствие с "
+"общим стилем."
+
+#: ../../tips_and_tricks/scopes/vectorscope_working.rst:205
+msgid "**Sources**"
+msgstr "**Источники**"

@@ -1,0 +1,183 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___useful_info___fixing_slow_audio_fade-ins into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_tips_and_tricks___useful_info___fixing_slow_audio_fade-"
+"ins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:-1
+msgid "Kdenlive Tips & Tricks - Fixing Unwanted Slow Audio Fade-Ins"
+msgstr ""
+"Советы и приёмы Kdenlive — устранение нежелательного медленного нарастания "
+"звука"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, useful information, usb, audio, "
+"card, fixing, documentation, user manual, video editor, open source, free, "
+"learn, easy"
+msgstr ""
+"KDE, Kdenlive, советы, приёмы, советы и приёмы, полезная информация, usb, "
+"звук, карта, устранение, документация, руководство пользователя, "
+"видеоредактор, открытый исходный код, свободное ПО, обучение, просто"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:15
+msgid "Fixing Unwanted Slow Audio Fade-Ins"
+msgstr "Устранение нежелательного медленного нарастания звука"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:17
+msgid ""
+"Do you suffer from an unwanted slow audio fade-ins whenever starting "
+"playback in the timeline or in the clip monitor, while you do not have any "
+"audio fade effects applied at all? Turns out this is some odd interference "
+"between some(!) USB audio cards and the PulseAudio sound backend."
+msgstr ""
+"Случается ли, что при запуске воспроизведения на монтажном столе или в "
+"Мониторе клипов возникает нежелательное медленное нарастание звука, хотя "
+"никакие эффекты нарастания звука не применялись? Как выяснилось, это "
+"странное взаимодействие между некоторыми(!) USB-звуковыми картами и звуковой "
+"подсистемой PulseAudio."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:20
+msgid "ALSA to the Res-Cue"
+msgstr "ALSA спешит на помощь"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:25
+msgid "Setting the audio driver to ALSA"
+msgstr "Установка звукового драйвера ALSA"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:27
+msgid "Luckily, there is an easy remedy in case you are affected."
+msgstr "К счастью, если проблема проявилась, есть простое решение."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:29
+msgid ""
+"Go to :menuselection:`Menu --> Settings > Configure Kdenlive`, then in the "
+"configuration dialog select the :guilabel:`Playback` section. Change the :"
+"guilabel:`Audio driver` from :guilabel:`Automatic` to :guilabel:`ALSA`. "
+"Leave the Audio device set to “Default”, so your desktop audio device "
+"settings apply."
+msgstr ""
+"Откройте :menuselection:`Меню --> Настройка > Настроить Kdenlive`, затем в "
+"диалоге настройки выберите раздел :guilabel:`Воспроизведение`. Измените "
+"значение параметра :guilabel:`Звуковой драйвер` с :guilabel:`Автоматически` "
+"на :guilabel:`ALSA`. Оставьте для звукового устройства значение «По "
+"умолчанию», чтобы применялись параметры звукового устройства рабочего стола."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:31
+msgid "Click :guilabel:`OK`, and you are done."
+msgstr "Нажмите :guilabel:`OK` — и всё готово."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:35
+msgid ""
+"Your timeline and bin clip audio playback should now be working as expected, "
+"without any unwanted slow audio fade-ins anymore."
+msgstr ""
+"Воспроизведение звука на монтажном столе и в клипах корзины теперь должно "
+"работать как ожидается, без нежелательного медленного нарастания звука."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:38
+msgid ""
+"You will find the corresponding option in the main menu via :menuselection:"
+"`Menu --> Sequence --> Disable Timeline Effects`. This disables or re-"
+"enables all timeline effects, that is, timeline clip effects and track "
+"effects."
+msgstr ""
+"Соответствующий параметр можно найти в главном меню: :menuselection:`Меню --"
+"> Последовательность --> Отключить эффекты на монтажном столе`. Он отключает "
+"или снова включает все эффекты монтажного стола, то есть эффекты клипов и "
+"эффекты дорожек."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:40
+msgid ""
+"However, please note that prior to Kdenlive 16.08.1, track effects are not "
+"properly disabled or re-enabled by :menuselection:`Menu --> Sequence --> "
+"Disable Timeline Effects`."
+msgstr ""
+"Однако учтите, что до Kdenlive 16.08.1 эффекты дорожек не отключались и не "
+"включались должным образом с помощью :menuselection:`Меню --> "
+"Последовательность --> Отключить эффекты на монтажном столе`."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:42
+msgid ""
+"Please see :doc:`/tips_and_tricks/tips_and_tricks/effects_everywhere` about "
+"how to temporarily disable bin clip effects."
+msgstr ""
+"О том, как временно отключить эффекты клипов корзины, см. :doc:`/"
+"tips_and_tricks/tips_and_tricks/effects_everywhere`."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:49
+msgid "Notes"
+msgstr "Примечания"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:55
+msgid ""
+"Please note that the unwanted ~2 seconds audio fade-in only happens with "
+"**some** USB audio cards but not others. It was noticed when trying a "
+"Steinberg UR22mkII USB audio interface."
+msgstr ""
+"Учтите, что нежелательное нарастание звука длительностью около 2 секунд "
+"происходит только с **некоторыми** USB-звуковыми картами, но не со всеми. "
+"Это было замечено при испытании USB-аудиоинтерфейса Steinberg UR22mkII."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:57
+msgid ""
+"Using the UR22mkII in Kdenlive using the stock audio settings was "
+"impossible, as the automatic fade-in made any voice over editing a complete "
+"and utter fail. Curiously, the UR22mkII worked beautifully when playing back "
+"audio using an Android tablet (that is a beautiful aspect of the UR22mkII: "
+"it is designed to be used with mobile devices). For comparison, a (much "
+"bulkier) Behringer QX1202USB does not exhibit the strange behavior even with "
+"the default audio settings in Kdenlive, or when using PulseAudio."
+msgstr ""
+"Использовать UR22mkII в Kdenlive со стандартными звуковыми параметрами было "
+"невозможно: из-за автоматического нарастания звука монтаж закадрового голоса "
+"был полностью невозможен. Любопытно, что UR22mkII прекрасно работал при "
+"воспроизведении звука с планшета Android (это замечательное свойство "
+"UR22mkII: он рассчитан на использование с мобильными устройствами). Для "
+"сравнения: (гораздо более громоздкий) Behringer QX1202USB не проявляет "
+"такого странного поведения даже со стандартными звуковыми параметрами "
+"Kdenlive или при использовании PulseAudio."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:59
+msgid "**Background Information**"
+msgstr "**Дополнительные сведения**"
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:59
+msgid ""
+"And what is even more strange and surprising: at least some other software, "
+"such as VLC, are completely unaffected, even when using PulseAudio for audio "
+"output."
+msgstr ""
+"И что ещё более странно и удивительно: по крайней мере некоторые другие "
+"программы, например VLC, совершенно не подвержены этой проблеме, даже если "
+"для вывода звука используется PulseAudio."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:62
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+"Исходный текст был прислан пользователем *TheDiveO* в ныне не существующий "
+"блог kdenlive.org. Для этой документации он взят из |kdenlive_org|, обновлён "
+"и приведён в соответствие с общим стилем."
+
+#: ../../tips_and_tricks/useful_info/fixing_slow_audio_fade-ins.rst:63
+msgid "**Sources**"
+msgstr "**Источники**"

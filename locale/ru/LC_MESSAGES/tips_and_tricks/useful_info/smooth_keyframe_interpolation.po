@@ -1,0 +1,376 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___useful_info___smooth_keyframe_interpolation into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_tips_and_tricks___useful_info___smooth_keyframe_interpolation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:-1
+msgid "Kdenlive Tips & Tricks - Smooth Keyframe Interpolation"
+msgstr "Советы и приёмы Kdenlive — плавная интерполяция ключевых кадров"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, useful information, smooth, "
+"keyframe, interpolation, editing, documentation, user manual, video editor, "
+"open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, советы, приёмы, советы и приёмы, полезная информация, "
+"плавность, ключевой кадр, интерполяция, редактирование, документация, "
+"руководство пользователя, видеоредактор, открытый исходный код, свободный, "
+"обучение, простота"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:22
+msgid "Smooth Keyframe Interpolation"
+msgstr "Плавная интерполяция ключевых кадров"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:24
+msgid ""
+"Did you ever wonder why Kdenlive's **smooth interpolation mode may "
+"overshoot** between keyframes? And how to tell Kdenlive to avoid such "
+"situations?"
+msgstr ""
+"Почему **режим плавной интерполяции Kdenlive может давать выбросы** между "
+"ключевыми кадрами? И как указать Kdenlive, чтобы избежать таких ситуаций?"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:26
+msgid ""
+"Let's start to look behind the scenes and introduce you to the strange world "
+"of smoothness. Do not worry, there will not be any mathematics for you to "
+"learn and understand. Just watch the figures. We will also show you how to "
+"avoid such overshots in those situations you do not want it. And for the "
+"really curious who want to know what the mathematics behind “smooth” "
+"interpolation are there is some :ref:`further reading <ski_further_reading>` "
+"in the **Notes** section at the bottom of this page."
+msgstr ""
+"Начнём с того, что заглянем за кулисы и познакомимся со странным миром "
+"плавности. Не беспокойтесь: математику учить и понимать не придётся. Просто "
+"смотрите на рисунки. Также будет показано, как избежать таких выбросов в "
+"ситуациях, когда они не нужны. А для самых любопытных, кто хочет узнать, "
+"какая математика стоит за «плавной» интерполяцией, в разделе **Примечания** "
+"внизу страницы есть :ref:`дополнительные материалы <ski_further_reading>`."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:29
+msgid "The Fade-In Ramp"
+msgstr "Кривая нарастания"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:36
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:86
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:129
+msgid ""
+"Keyframes in the :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/brightness_keyframable` effect"
+msgstr ""
+"Ключевые кадры в эффекте :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/brightness_keyframable`"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:38
+msgid ""
+"Let's start with a simple ramp, as shown here. We use two keyframes\\ [1]_, "
+"one with a low value setting, and the other with a high value setting. The "
+"particular values do not matter. We set both keyframes to the interpolation "
+"mode :guilabel:`smooth`."
+msgstr ""
+"Начнём с простого нарастания, как показано здесь. Используются два ключевых "
+"кадра\\ [1]_: один с низким значением, другой с высоким. Конкретные значения "
+"не важны. Для обоих ключевых кадров задан режим интерполяции :guilabel:"
+"`плавная`."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:48
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:99
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:135
+msgid "Color clip keyframe display"
+msgstr "Показ ключевых кадров цветового клипа"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:50
+msgid ""
+"The effect display inside the timeline clip looks like a straight ramp. But "
+"if you watch the interpolated values closely while scrubbing the timeline, "
+"you should notice that the slope of the ramp varies. At the end and "
+"beginning the slope is smaller than in the middle, where it is higher."
+msgstr ""
+"График эффекта внутри клипа на монтажном столе выглядит как прямая линия. Но "
+"если внимательно следить за интерполированными значениями, перемещая "
+"указатель по монтажному столу, можно заметить, что наклон меняется. В начале "
+"и в конце наклон меньше, чем в середине, где он больше."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:52
+msgid "But what exactly is going on here?"
+msgstr "Но что же здесь происходит?"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:64
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:110
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:150
+msgid "GeoGebra visualization of the Catmull-Rom interpolation"
+msgstr "Визуализация интерполяции Catmull-Rom в GeoGebra"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:66
+msgid ""
+"There is this online open source tool |geogebra| for trying out the "
+"mathematics inside Kdenlive's MLT engine."
+msgstr ""
+"Есть онлайн-инструмент с открытым исходным кодом |geogebra|, с помощью "
+"которого можно проверить математику, лежащую в основе движка MLT в Kdenlive."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:68
+msgid ""
+"This figure shows two keyframes P1=0 and P2=1, which is a fairly typical "
+"ramp up setting. In case you are already wondering: it does not matter at "
+"which exact frames the individual keyframes are."
+msgstr ""
+"На этом рисунке показаны два ключевых кадра, P1=0 и P2=1, — довольно "
+"типичная настройка нарастания. Если вопрос уже возник: не важно, на каких "
+"именно кадрах расположены отдельные ключевые кадры."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:72
+msgid ""
+"The smooth interpolation that :abbr:`MLT (Media Lovin' Toolkit - An open "
+"source software multimedia framework designed and developed for tv "
+"broadcasting)` will calculate is drawn as a thick green line. It is bent a "
+"little bit like the capital letter S, but then, not really too much."
+msgstr ""
+"Плавная интерполяция, которую рассчитает :abbr:`MLT (Media Lovin' Toolkit — "
+"мультимедийная платформа с открытым исходным кодом, созданная для "
+"телевещания)`, показана толстой зелёной линией. Она немного изогнута, как "
+"заглавная буква S, но, впрочем, не очень сильно."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:74
+msgid ""
+"And if you look closely, then beginning and ending slope of the green line "
+"are not horizontal - at least what could be expected at first."
+msgstr ""
+"А если присмотреться, наклон зелёной линии в начале и в конце не "
+"горизонтален — во всяком случае, не такой, как можно было ожидать на первый "
+"взгляд."
+
+# BUGME: Trailing control point should be P3, not P1 --ayavorsky 2026-10-12
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:76
+msgid ""
+"You may wonder what the two other keyframes P0 and P3 are good for? Well, "
+"the math underneath always requires four keyframes in order to interpolate "
+"segment-wise between any two adjacent keyframes. And if there is no "
+"preceding (P0) or trailing (P1) keyframe, then we will simple repeat the "
+"left (P1) or right (P2) keyframe."
+msgstr ""
+"Возможно, возникнет вопрос: зачем нужны два других ключевых кадра, P0 и P3? "
+"Дело в том, что математика всегда требует четырёх ключевых кадров, чтобы "
+"интерполировать значения по отрезкам между любыми двумя соседними ключевыми "
+"кадрами. А если нет предыдущего (P0) или последующего (P1) ключевого кадра, "
+"то просто повторяется левый (P1) или правый (P2) ключевой кадр."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:79
+msgid "Ramp-Up, and … Overshoot"
+msgstr "Нарастание и … выброс"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:88
+msgid ""
+"Now let's add a third keyframe, so this looks like a ramp with a plateau. "
+"This is shown in the screenshots."
+msgstr ""
+"Теперь добавим третий ключевой кадр, и получится нарастание с полкой. Это "
+"показано на снимках экрана."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:101
+msgid ""
+"And now, the ramp gets a clearly visible bump instead of a sharp bend. Well, "
+"this looks smooth, but not exactly what we may have intended? So why is this "
+"the way it is?"
+msgstr ""
+"А теперь вместо резкого излома на нарастании появляется отчётливо заметный "
+"горб. Что ж, выглядит плавно, но не совсем так, как задумывалось? Так почему "
+"же так происходит?"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:112
+msgid ""
+"This is now our ramp with a plateau: P0=0, P1=1, P2=2. Do not worry about "
+"the keyframe numbering, though."
+msgstr ""
+"Вот наше нарастание с полкой: P0=0, P1=1, P2=2. Впрочем, о нумерации "
+"ключевых кадров можно не беспокоиться."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:114
+msgid ""
+"Did you expect the plateau to be, well a *straight* plateau? Of course you "
+"did. But you may have already noticed that Kdenlive does not exactly behave "
+"like this. Instead, the interpolation math causes the interpolated values to "
+"overshoot, as you can easily see in the figure."
+msgstr ""
+"Ожидали, что полка будет… ну, *прямой*? Конечно, ожидали. Но, возможно, уже "
+"заметили, что Kdenlive ведёт себя не совсем так. Вместо этого математика "
+"интерполяции приводит к выбросу интерполированных значений, что хорошо видно "
+"на рисунке."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:116
+msgid ""
+"What the underlying math does is this: the interpolation is smooth, so that "
+"the slope to the *left* of P1 is the same as to the *right* of P1. Yeah, "
+"that is a slightly different “smooth” from what you might have been "
+"expecting."
+msgstr ""
+"Математически это означает следующее: интерполяция плавная, поэтому наклон "
+"*слева* от P1 такой же, как и *справа* от P1. Да, это несколько иное "
+"«плавно», чем можно было ожидать."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:118
+msgid ""
+"If you want the plateau to be straight instead, then you must set the "
+"interpolation mode of the keyframe P1 to :guilabel:`linear` instead. By the "
+"way, this does not change the *previous* smooth segment in any way. And this "
+"results in a “rough bent” at P1, but luckily you probably will not notice in "
+"most situations."
+msgstr ""
+"Если же нужно, чтобы полка была прямой, задайте для ключевого кадра P1 режим "
+"интерполяции :guilabel:`линейная`. Кстати, это никак не изменяет "
+"*предыдущий* плавный сегмент. В точке P1 получается «резкий излом», но, к "
+"счастью, в большинстве случаев он, скорее всего, останется незамеченным."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:123
+msgid "Ramp Up-Flat-Down"
+msgstr "Нарастание — полка — спад"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:137
+msgid ""
+"Let's add another, fourth keyframe, so we have: ramp-up first, then flat, "
+"then ramp-down. A fairly typical fade-in and fade-out keyframe template."
+msgstr ""
+"Добавим ещё один, четвёртый ключевой кадр, и получим: сначала нарастание, "
+"затем полка, затем спад. Довольно типичный шаблон ключевых кадров для "
+"нарастания и исчезания."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:143
+msgid ""
+"And look, what is happening: we have got a hump, but not a nice and flat "
+"middle section."
+msgstr ""
+"И вот что получается: вместо аккуратного плоского среднего участка "
+"образуется горб."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:152
+msgid ""
+"This time, we look at the middle section P1-P2. To the left, we see the up "
+"ramp, to the right, the down ramp."
+msgstr ""
+"На этот раз рассмотрим средний участок P1-P2. Слева видно нарастание, справа "
+"— спад."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:154
+msgid ""
+"Again, smooth now means that there is no sharp bend in the segments. "
+"Instead, the left and right slopes are continuous at P1 and P2; that is, in "
+"the middle section. And this causes our interpolated value to overshoot."
+msgstr ""
+"И снова «плавно» означает отсутствие резкого излома в сегментах. Вместо "
+"этого левый и правый наклоны непрерывны в точках P1 и P2, то есть на среднем "
+"участке. Из-за этого интерполированное значение даёт выброс."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:159
+msgid "Make Flat Great Again"
+msgstr "Снова сделаем полку ровной"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:166
+msgid ""
+"Smooth keyframes in the :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/brightness_keyframable` effect"
+msgstr ""
+"Плавные ключевые кадры в эффекте :doc:`/effects_and_filters/video_effects/"
+"color_image_correction/brightness_keyframable`"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:172
+msgid ""
+"Now, how do we get a flat top? Fortunately, that is easy to achieve, as you "
+"can see from the screenshots."
+msgstr ""
+"Как же получить плоскую вершину? К счастью, это легко, как видно на снимках "
+"экрана."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:174
+msgid "1. keyframe: smooth,"
+msgstr "1. ключевой кадр: плавный,"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:175
+msgid "2. keyframe: linear (interpolated!),"
+msgstr "2. ключевой кадр: линейный (интерполированный!),"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:176
+msgid "3. keyframe: smooth,"
+msgstr "3. ключевой кадр: плавный,"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:177
+msgid ""
+"4. keyframe: smooth (albeit that does not really matter if there are no "
+"further keyframes)."
+msgstr ""
+"4. ключевой кадр: плавный (впрочем, это не имеет значения, если дальше "
+"ключевых кадров нет)."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:184
+msgid "Notes"
+msgstr "Примечания"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:208
+msgid "**Further Reading**"
+msgstr "**Дополнительная литература**"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:208
+msgid ""
+"As you may (or rather may not) remember, Kdenlive's rendering engine is the |"
+"mlt_framework|. While :abbr:`MLT (Media Lovin' Toolkit - An open source "
+"software multimedia framework designed and developed for tv broadcasting)` "
+"has |smooth_interpolation| since around mid-2013, Kdenlive only later caught "
+"up and now supports all three interpolation modes linear, discrete, and "
+"smooth. As can be seen from the MLT |source_code|, smooth interpolation is "
+"done using a |cr_spline|. In particular, MLT uses the so-called *uniform* "
+"variant, because it is so simple. The downside is that this smoothing "
+"sometimes has the unwanted property of overshooting, especially when you "
+"least expect it."
+msgstr ""
+"Как вы, возможно (а вернее — вряд ли), помните, движком сборки Kdenlive "
+"служит |mlt_framework|. Хотя :abbr:`MLT (Media Lovin' Toolkit — "
+"мультимедийная платформа с открытым исходным кодом, созданная для "
+"телевещания)` поддерживает |smooth_interpolation| примерно с середины 2013 "
+"года, Kdenlive догнал его лишь позже и теперь поддерживает все три режима "
+"интерполяции: линейный, дискретный и плавный. Как видно из |source_code| "
+"MLT, плавная интерполяция выполняется с помощью |cr_spline|. В частности, "
+"MLT использует так называемый *равномерный* вариант, поскольку он очень "
+"прост. Недостаток в том, что такое сглаживание иногда даёт нежелательный "
+"выброс, особенно когда его совсем не ждёшь."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:211
+msgid "**Sources**"
+msgstr "**Источники**"
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:211
+msgid ""
+"The original text was submitted by user *TheDiveO* to the now defunct "
+"kdenlive.org blog. For this documentation it has been lifted from |"
+"kdenlive_org|, updated and adapted to match the overall style."
+msgstr ""
+"Исходный текст был прислан пользователем *TheDiveO* в ныне не существующий "
+"блог kdenlive.org. Для этой документации он был взят из |kdenlive_org|, "
+"обновлён и приведён в соответствие с общим стилем."
+
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:215
+msgid ""
+"You may notice that there are three keyframes: one at frame 0 of the clip, "
+"and the two we created for this screenshot. Kdenlive always sets a keyframe "
+"at frame 0 of a clip, and we chose to ignore that one for the purpose of "
+"this demonstration."
+msgstr ""
+"Можно заметить, что здесь три ключевых кадра: один в кадре 0 клипа и два, "
+"созданных для этого снимка экрана. Kdenlive всегда устанавливает ключевой "
+"кадр в кадре 0 клипа, и для этой демонстрации этот кадр было решено не "
+"учитывать."

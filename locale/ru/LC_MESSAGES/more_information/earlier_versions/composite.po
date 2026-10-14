@@ -1,0 +1,276 @@
+# Translation of docs_kdenlive_org_more_information___earlier_versions___composite into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_more_information___earlier_versions___composite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../more_information/earlier_versions/composite.rst:15
+msgid ""
+"This page is not maintained anymore and contains information referring to "
+"features or functions from earlier versions of Kdenlive that are deprecated "
+"or have been superseded by something else."
+msgstr ""
+"Эта страница больше не поддерживается и содержит сведения о возможностях или "
+"функциях из более ранних версий Kdenlive, которые устарели или были заменены "
+"чем-то другим."
+
+#: ../../more_information/earlier_versions/composite.rst:19
+msgid "Composite Transition"
+msgstr "Переход «Композитный»"
+
+#: ../../more_information/earlier_versions/composite.rst:21
+msgid ""
+"The Composite transition combines the video data from two video tracks into "
+"one. This transition is used in combination with Alpha Channel information "
+"supplied by one of the :ref:`effects-alpha_mask_keying` or by the use of a :"
+"doc:`/compositing/transitions/composite_transitions`. This Alpha Channel "
+"data describes how the data from the two video tracks should be combined. "
+"Until you define some alpha channel data using an :ref:`effects-"
+"alpha_mask_keying` or a Wipe File, changes in the Composite transition "
+"settings will have no visible effect."
+msgstr ""
+"Переход «Композитный» объединяет видеоданные с двух видеодорожек в одну. "
+"Этот переход применяется вместе со сведениями об альфа-канале, которые "
+"предоставляет один из эффектов :ref:`effects-alpha_mask_keying`, или при "
+"использовании :doc:`/compositing/transitions/composite_transitions`. Эти "
+"данные альфа-канала описывают, как следует объединять данные с двух "
+"видеодорожек. Пока данные альфа-канала не заданы с помощью :ref:`effects-"
+"alpha_mask_keying` или файла вытеснения, изменения параметров перехода "
+"«Композитный» не дадут видимого результата."
+
+#: ../../more_information/earlier_versions/composite.rst:23
+msgid ""
+"Note: The disadvantages of the **Composite** transition are: luma bleed, and "
+"less precise position control. When compared to **Affine**, the "
+"**Composite** transition, it does not support rotation or skewing but it is "
+"much faster, albeit at the cost of luma bleed."
+msgstr ""
+"Примечание. Недостатки перехода **Композитный**: утечка яркости и менее "
+"точное управление положением. По сравнению с переходом **Аффинное "
+"преобразование** переход **Композитный** не поддерживает поворот и наклон, "
+"но работает гораздо быстрее, хотя и за счёт утечки яркости."
+
+#: ../../more_information/earlier_versions/composite.rst:26
+msgid "Alpha operations"
+msgstr "Обработка альфа-канала"
+
+#: ../../more_information/earlier_versions/composite.rst:32
+msgid "Alpha operation options are *Over*, *And*, *Or* and *Xor*:"
+msgstr "Возможные операции с альфа-каналом: *Over*, *And*, *Or* и *Xor*:"
+
+#: ../../more_information/earlier_versions/composite.rst:34
+msgid "Operation **Over**"
+msgstr "Операция **Over**"
+
+#: ../../more_information/earlier_versions/composite.rst:36
+msgid ""
+"The clip with alpha information is located on the top track: the selected "
+"color acquires transparency."
+msgstr ""
+"Клип с данными альфа-канала находится на верхней дорожке: выбранный цвет "
+"становится прозрачным."
+
+#: ../../more_information/earlier_versions/composite.rst:37
+msgid ""
+"The clip with alpha information is located on the bottom track: we see only "
+"the top clip."
+msgstr ""
+"Клип с данными альфа-канала находится на нижней дорожке: виден только "
+"верхний клип."
+
+#: ../../more_information/earlier_versions/composite.rst:42
+msgid "Operation **And**"
+msgstr "Операция **And**"
+
+#: ../../more_information/earlier_versions/composite.rst:44
+msgid ""
+"The clip with alpha information is located on the top track: the selected "
+"color becomes transparent."
+msgstr ""
+"Клип с данными альфа-канала находится на верхней дорожке: выбранный цвет "
+"становится прозрачным."
+
+#: ../../more_information/earlier_versions/composite.rst:45
+msgid ""
+"The clip with alpha information is located on the bottom track: everything "
+"in the image becomes transparent, except for the selected color."
+msgstr ""
+"Клип с данными альфа-канала находится на нижней дорожке: всё изображение "
+"становится прозрачным, кроме выбранного цвета."
+
+#: ../../more_information/earlier_versions/composite.rst:50
+msgid "Operation **Or** clears any alpha information"
+msgstr "Операция **Or** удаляет все данные альфа-канала"
+
+#: ../../more_information/earlier_versions/composite.rst:55
+msgid "Operation **Xor**"
+msgstr "Операция **Xor**"
+
+#: ../../more_information/earlier_versions/composite.rst:57
+msgid ""
+"The clip with alpha information is located on the top track: everything in "
+"the image becomes transparent, except for the selected color."
+msgstr ""
+"Клип с данными альфа-канала находится на верхней дорожке: всё изображение "
+"становится прозрачным, кроме выбранного цвета."
+
+#: ../../more_information/earlier_versions/composite.rst:58
+msgid ""
+"The clip with alpha information is located on the bottom track: the selected "
+"color acquires transparency."
+msgstr ""
+"Клип с данными альфа-канала находится на нижней дорожке: выбранный цвет "
+"становится прозрачным."
+
+#: ../../more_information/earlier_versions/composite.rst:65
+msgid "Tutorial 1"
+msgstr "Видеоурок 1"
+
+#: ../../more_information/earlier_versions/composite.rst:67
+msgid ""
+"See this :doc:`/effects_and_filters/video_effects/alpha_mask_keying/"
+"chroma_key` that describes how to use:"
+msgstr ""
+"См. :doc:`/effects_and_filters/video_effects/alpha_mask_keying/chroma_key`, "
+"где описано, как использовать:"
+
+#: ../../more_information/earlier_versions/composite.rst:69
+msgid ""
+"Alpha Manipulation -> :doc:`/effects_and_filters/video_effects/"
+"alpha_mask_keying/chroma_key`"
+msgstr ""
+"Работа с альфа-каналом -> :doc:`/effects_and_filters/video_effects/"
+"alpha_mask_keying/chroma_key`"
+
+#: ../../more_information/earlier_versions/composite.rst:70
+msgid ":doc:`/effects_and_filters/video_effects/alpha_mask_keying/rotoscoping`"
+msgstr ""
+":doc:`/effects_and_filters/video_effects/alpha_mask_keying/rotoscoping`"
+
+#: ../../more_information/earlier_versions/composite.rst:71
+msgid "Composite Transition."
+msgstr "Переход «Композитный»."
+
+#: ../../more_information/earlier_versions/composite.rst:72
+msgid ""
+"Crop and Transform -> :doc:`/effects_and_filters/video_effects/"
+"transform_distort_perspective/position_and_zoom`"
+msgstr ""
+"Обрезка и трансформация -> :doc:`/effects_and_filters/video_effects/"
+"transform_distort_perspective/position_and_zoom`"
+
+#: ../../more_information/earlier_versions/composite.rst:73
+msgid "Enhancement -> :ref:`sharpen`"
+msgstr "Улучшение -> :ref:`sharpen`"
+
+#: ../../more_information/earlier_versions/composite.rst:74
+msgid ""
+"Alpha Manipulation -> :doc:`/effects_and_filters/video_effects/"
+"alpha_mask_keying/alpha_operations`"
+msgstr ""
+"Работа с альфа-каналом -> :doc:`/effects_and_filters/video_effects/"
+"alpha_mask_keying/alpha_operations`"
+
+#: ../../more_information/earlier_versions/composite.rst:78
+msgid "Tutorial 2 - composite transition and Blue Screen"
+msgstr "Видеоурок 2 — переход «Композитный» и синий экран"
+
+#: ../../more_information/earlier_versions/composite.rst:80
+msgid ""
+"Tutorial showing how to use the \"Blue screen\" function, composite "
+"transition and :ref:`effects_and_filters` to animate one image moving over "
+"another in the **Kdenlive** video editor."
+msgstr ""
+"Видеоурок, показывающий, как использовать функцию «синий экран», переход "
+"«Композитный» и :ref:`effects_and_filters`, чтобы анимировать перемещение "
+"одного изображения поверх другого в видеоредакторе **Kdenlive**."
+
+#: ../../more_information/earlier_versions/composite.rst:82
+msgid "https://youtu.be/M8hC5FbIzdE"
+msgstr "https://youtu.be/M8hC5FbIzdE"
+
+#: ../../more_information/earlier_versions/composite.rst:86
+msgid "Tutorial 3 - Video Masks"
+msgstr "Видеоурок 3 — видеомаски"
+
+#: ../../more_information/earlier_versions/composite.rst:88
+msgid ""
+"This tutorial uses the Composite transition and a custom video mask (a.k.a. "
+"a Wipe File or `matte <https://en.wikipedia.org/wiki/Matte_(filmmaking)>`__) "
+"to create an effect where you can make it appear that one video is playing "
+"on the screen of a still of a computer monitor."
+msgstr ""
+"В этом видеоуроке используется переход «Композитный» и пользовательская "
+"видеомаска (также известная как файл вытеснения или `matte <https://en."
+"wikipedia.org/wiki/Matte_(filmmaking)>`__), чтобы создать эффект, при "
+"котором кажется, будто одно видео воспроизводится на экране неподвижного "
+"изображения компьютерного монитора."
+
+#: ../../more_information/earlier_versions/composite.rst:90
+msgid "The mask/matte is created with **GIMP**."
+msgstr "Маска (matte) создаётся в **GIMP**."
+
+#: ../../more_information/earlier_versions/composite.rst:92
+msgid "Save your mattes to :file:`/usr/share/kdenlive/lumas`."
+msgstr "Сохраняйте маски в :file:`/usr/share/kdenlive/lumas`."
+
+#: ../../more_information/earlier_versions/composite.rst:94
+msgid ""
+"It would appear that you need to stop and restart **Kdenlive** in order for "
+"it to pick up new matte/wipe files saved in the above folder."
+msgstr ""
+"По-видимому, чтобы **Kdenlive** обнаружил новые файлы масок и вытеснения, "
+"сохранённые в указанной выше папке, его нужно закрыть и снова запустить."
+
+#: ../../more_information/earlier_versions/composite.rst:96
+msgid ""
+"There appears to be a defect in this functionality which means that when the "
+"composite is on 100% Opacity, the wipe file does not work. You need to "
+"change it to 99% to make the effect kick in."
+msgstr ""
+"По-видимому, в этой функции есть дефект: когда у перехода «Композитный» "
+"непрозрачность равна 100 %, файл вытеснения не работает. Чтобы эффект "
+"заработал, измените значение на 99 %."
+
+#: ../../more_information/earlier_versions/composite.rst:98
+msgid "https://youtu.be/FIpnGlRY27U"
+msgstr "https://youtu.be/FIpnGlRY27U"
+
+#: ../../more_information/earlier_versions/composite.rst:103
+msgid ""
+"Screenshot of Composite transition using a custom wipe file to mask out a "
+"section of video - as described in Tutorial 3."
+msgstr ""
+"Снимок перехода «Композитный» с пользовательским файлом вытеснения, "
+"маскирующим участок видео, — как описано в видеоуроке 3."
+
+#: ../../more_information/earlier_versions/composite.rst:105
+msgid ""
+"Aspirational goal - a compositing experiment made using detonation films "
+"free sample effects."
+msgstr ""
+"Заветная цель — эксперимент по композиции с использованием бесплатных "
+"примеров эффектов Detonation Films."
+
+#: ../../more_information/earlier_versions/composite.rst:107
+msgid ""
+"**Warning**: video below may be inappropriate for some users. https://youtu."
+"be/vo-xntF1bns"
+msgstr ""
+"**Внимание**: приведённое ниже видео может не подойти некоторым "
+"пользователям. https://youtu.be/vo-xntF1bns"

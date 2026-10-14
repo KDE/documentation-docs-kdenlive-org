@@ -1,0 +1,156 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___scopes___vectorscope_i_and_q_lines into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_tips_and_tricks___scopes___vectorscope_i_and_q_lines\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:-1
+msgid "Kdenlive Tips & Tricks - The Vectorscope's I and Q Lines"
+msgstr "Kdenlive: советы и приёмы — линии I и Q вектороскопа"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, vectorscope, I and Q, "
+"editing, timeline, documentation, user manual, video editor, open source, "
+"free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, советы, приёмы, советы и приёмы, приборы, вектороскоп, I и Q, "
+"монтаж, монтажный стол, документация, руководство пользователя, "
+"видеоредактор, открытый исходный код, свободное ПО, обучение, просто"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:22
+msgid "Vectorscope I and Q Lines"
+msgstr "Линии I и Q вектороскопа"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:24
+msgid ""
+"The Vectorscope has an option to draw I/Q lines. So you may be wondering "
+"what are they good for?"
+msgstr ""
+"В вектороскопе есть параметр для отрисовки линий I/Q. Возникает вопрос: для "
+"чего они нужны?"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:29
+msgid "I and Q lines in the Vectorscope"
+msgstr "Линии I и Q в вектороскопе"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:32
+msgid "Where I/Q lines Come From"
+msgstr "Происхождение линий I/Q"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:34
+msgid ""
+"You may remember from the :doc:`Vectorscope chapter <vectorscope_working>` "
+"that the Vectorscope uses a color space different than RGB. In the image "
+"above it is :term:`YUV`, in the image below it is :term:`YPbPr`. They both "
+"share the property that the Y component represents :term:`Luma` only (i.e. "
+"how bright a pixel is), and the other two components represent :term:"
+"`Chroma` (colour) by expressing deviations from neutral color on the red-"
+"green and yellow-blue axis. (These are complementary colours each, so mixing "
+"them in equal parts results in neutral again - which is why they can be used "
+"for the deviation.)"
+msgstr ""
+"Возможно, вы помните из :doc:`главы о вектороскопе <vectorscope_working>`, "
+"что вектороскоп использует цветовое пространство, отличное от RGB. На "
+"изображении выше это :term:`YUV`, на изображении ниже — :term:`YPbPr`. У них "
+"есть общее свойство: компонента Y представляет только :term:`яркостный "
+"сигнал <Яркостный сигнал>` (то есть насколько ярок пиксель), а две другие "
+"компоненты представляют :term:`цветность <Цветность>`, выражая отклонения от "
+"нейтрального цвета по красно-зелёной и жёлто-синей осям. (В каждом случае "
+"это дополнительные цвета, поэтому их смешение в равных долях снова даёт "
+"нейтральный цвет — именно поэтому их можно использовать для описания "
+"отклонения.)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:36
+msgid ""
+"YUV is the standard color space for analog PAL television. NTSC, the "
+"american analog TV standard, uses a color space I did not mention yet: :term:"
+"`YIQ`. The special thing about this color space is that the I component was "
+"chosen such that skin tones (also known as flesh tones) lie on the I line "
+"(orange-blue), and it was given more than four times as much bandwidth as "
+"the Q component (which represents the green-purple line; the human eye is "
+"also less sensitive for changes on this line)."
+msgstr ""
+"YUV — стандартное цветовое пространство аналогового телевидения PAL. NTSC, "
+"американский стандарт аналогового телевидения, использует цветовое "
+"пространство, о котором ещё не упоминалось: :term:`YIQ`. Особенность этого "
+"цветового пространства в том, что компонент I был выбран так, чтобы тона "
+"кожи (также известные как телесные тона) лежали на линии I (оранжево-синей), "
+"и ему была отведена более чем в четыре раза большая полоса пропускания, чем "
+"компоненту Q (который представляет зелёно-пурпурную линию; человеческий глаз "
+"также менее чувствителен к изменениям на этой линии)."
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:41
+msgid "Vectorscope showing skin tones along the I line"
+msgstr "Вектороскоп, показывающий тона кожи вдоль линии I"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:44
+msgid "Purpose of the I and the Q line"
+msgstr "Назначение линий I и Q"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:46
+msgid ""
+"Displaying the Q and especially the I line is to help with skin tones. There "
+"is a rule of thumb in post production saying that all skin tones should "
+"approximately lie on the I line. If it is not, you might want to |color-"
+"correct| your clip."
+msgstr ""
+"Показ линии Q и особенно линии I помогает работать с тонами кожи. В "
+"постобработке существует эмпирическое правило: все тона кожи должны "
+"приблизительно лежать на линии I. Если это не так, возможно, стоит |color-"
+"correct| клип."
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:48
+msgid ""
+"The simple reason for this is that our eyes are trained on skin tones, and "
+"if skin tones in your video do not lie in the I line they are very likely to "
+"look unnatural. There are very good picture examples in the Save our Skins "
+"article mentioned above."
+msgstr ""
+"Причина проста: глаз человека привык к тонам кожи, и если тона кожи в видео "
+"не лежат на линии I, они, скорее всего, будут выглядеть неестественно. В "
+"упомянутой выше статье «Save our Skins» есть очень хорошие примеры "
+"изображений."
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:53
+msgid "Notes"
+msgstr "Примечания"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:59
+msgid ""
+":download:`skin1.avi <http://granjow.net/uploads/kdenlive/samples/skin1."
+"avi>` (720p, 5.1 MB)"
+msgstr ""
+":download:`skin1.avi <http://granjow.net/uploads/kdenlive/samples/skin1."
+"avi>` (720p, 5,1 МБ)"
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:61
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Fri, "
+"11/26/2010 - 18:05 to the now defunct kdenlive.org blog. For this "
+"documentation it has been lifted from |web_archive|, updated and adapted to "
+"match the overall style."
+msgstr ""
+"Исходный текст был отправлен *Simon A. Eugster (Granjow)* в пятницу, "
+"26.11.2010, 18:05 в ныне не существующий блог kdenlive.org. Для этой "
+"документации он взят из |web_archive|, обновлён и приведён в соответствие с "
+"общим стилем."
+
+#: ../../tips_and_tricks/scopes/vectorscope_i_and_q_lines.rst:62
+msgid "**Sources**"
+msgstr "**Источники**"

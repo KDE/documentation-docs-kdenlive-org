@@ -1,0 +1,162 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___scopes___introducing_color_scopes into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_tips_and_tricks___scopes___introducing_color_scopes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:-1
+msgid "Kdenlive Tips & Tricks - Introducing Scopes"
+msgstr "Советы и приёмы Kdenlive — знакомство с приборами"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:-1
+msgid ""
+"KDE, Kdenlive, tips, tricks, tips & tricks, scopes, editing, timeline, "
+"documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, советы, приёмы, советы и приёмы, приборы, монтаж, монтажный "
+"стол, документация, руководство пользователя, видеоредактор, открытый "
+"исходный код, свободное ПО, обучение, просто"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:26
+msgid "Introducing Color Scopes"
+msgstr "Знакомство с приборами цветокоррекции"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:28
+msgid ""
+"This section contains a brief overviews over scopes in general and explains "
+"the most basic scope, the histogram, in detail."
+msgstr ""
+"В этом разделе приведён краткий обзор приборов в целом и подробно описан "
+"простейший прибор — гистограмма."
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:30
+msgid ""
+"Color correction is a really important topic in video editing. It starts "
+"with simple stretching of the tonal range if the brightness is not ideal, "
+"goes on with white balance to ensure that white remains white and not blue, "
+"and finally ends with creating looks which make your video look unique. "
+"Remember the blue-ish |minority_report|\\ ? The contrasty |the_departed|\\ ?"
+msgstr ""
+"Цветокоррекция — очень важная тема в видеомонтаже. Она начинается с простого "
+"растяжения тонального диапазона, если яркость не идеальна, продолжается "
+"балансом белого, чтобы белый оставался белым, а не синим, и наконец "
+"завершается созданием визуальных стилей, которые делают ваше видео "
+"уникальным. Помните синеватый |minority_report|\\ ? Контрастный |"
+"the_departed|\\ ?"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:32
+msgid ""
+"For color correction you basically need two things: Effects or filters for "
+"changing the colors and scopes for monitoring the changes. The first scope "
+"to look at is the histogram."
+msgstr ""
+"Для цветокоррекции в основном нужны две вещи: эффекты или фильтры для "
+"изменения цветов и приборы для контроля изменений. Первый прибор, на который "
+"стоит взглянуть, — гистограмма."
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:36
+msgid "Kdenlive Histogram :term:`widget`"
+msgstr ":term:`Виджет <Виджет>` гистограммы Kdenlive"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:39
+msgid "Basic Scope Options"
+msgstr "Основные параметры приборов"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:40
+msgid ""
+"Let's first take a look at the basic options available in all scopes. :kbd:"
+"`RMB` while overing over the scope :term:`widget<widget>` opens the scope "
+"context menu."
+msgstr ""
+"Сначала рассмотрим основные параметры, доступные во всех приборах. :kbd:"
+"`RMB` при наведении на :term:`виджет <Виджет>` прибора открывает контекстное "
+"меню прибора."
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:45
+msgid ""
+":guilabel:`Auto Refresh` automatically refreshes the scope if the project/"
+"clip monitor changes. During the process of color correction you'll want to "
+"keep this option enabled. When not color correcting, it should be disabled "
+"as it usually heavily impacts the performance of playback. (There is a lot "
+"of calculations going on in the scopes.)"
+msgstr ""
+":guilabel:`Автообновление` автоматически обновляет прибор при изменении "
+"монитора проекта или клипа. Во время цветокоррекции этот параметр следует "
+"держать включённым. Если цветокоррекция не выполняется, его лучше отключить, "
+"так как он обычно сильно снижает производительность воспроизведения. (В "
+"приборах выполняется множество вычислений.)"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:46
+msgid ""
+":guilabel:`Realtime` tries to maintain a certain frame rate in the scopes by "
+"dropping part of the color information received (e.g. taking a look at every "
+"8th pixel only instead of every single pixel)."
+msgstr ""
+":guilabel:`Режим реального времени (с потерей точности)` пытается "
+"поддерживать определённую частоту кадров в приборах, отбрасывая часть "
+"получаемой цветовой информации (например, рассматривая только каждый восьмой "
+"пиксель вместо каждого)."
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:47
+msgid ""
+":guilabel:`Unscaled` fixes the width of the horizontal axis irrespective of "
+"the Histogram :term:`widget`'s size. If unchecked, the horizontal axis "
+"contracts and expands with the width of widget."
+msgstr ""
+":guilabel:`Без масштабирования` фиксирует ширину горизонтальной оси "
+"независимо от размера :term:`виджета <Виджет>` гистограммы. Если флажок "
+"снят, горизонтальная ось сжимается и растягивается вместе с шириной виджета."
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:48
+msgid ":guilabel:`Rec 601` selects the Rec 601 :term:`color space`"
+msgstr ""
+":guilabel:`Rec 601` выбирает :term:`цветовое пространство <Цветовое "
+"пространство>` Rec 601"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:49
+msgid ""
+":guilabel:`Rec 709` selects the Rec 709 :term:`color space` (high definition "
+"content and digital video uses this one)"
+msgstr ""
+":guilabel:`Rec 709` выбирает :term:`цветовое пространство <Цветовое "
+"пространство>` Rec 709 (используется для контента высокой чёткости и "
+"цифрового видео)"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:51
+msgid "Note that you can always update a scope by clicking on it."
+msgstr "Прибор всегда можно обновить, щёлкнув по нему."
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:55
+msgid "Notes"
+msgstr "Примечания"
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:61
+msgid ""
+"The original text was submitted by *Simon A. Eugster (Granjow)* on Mon, "
+"8/30/2010 - 23:10 to the now defunct kdenlive.org blog. For this "
+"documentation it has been lifted from |web_archive|, updated and adapted to "
+"match the overall style."
+msgstr ""
+"Исходный текст был отправлен *Simon A. Eugster (Granjow)* в понедельник, 30 "
+"августа 2010 г., 23:10 в ныне не существующий блог kdenlive.org. Для этой "
+"документации он взят из |web_archive|, обновлён и приведён в соответствие с "
+"общим стилем."
+
+#: ../../tips_and_tricks/scopes/introducing_color_scopes.rst:62
+msgid "**Sources**"
+msgstr "**Источники**"

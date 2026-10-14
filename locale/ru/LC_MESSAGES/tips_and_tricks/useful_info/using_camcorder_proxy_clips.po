@@ -1,0 +1,150 @@
+# Translation of docs_kdenlive_org_tips_and_tricks___useful_info___using_camcorder_proxy_clips into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_tips_and_tricks___useful_info___using_camcorder_proxy_clips\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:-1
+msgid "Kdenlive Tips & Tricks - Using Camcorder Proxy Clips"
+msgstr "Советы и приёмы Kdenlive — использование прокси-клипов камкордера"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:-1
+msgid ""
+"KDE, Kdenlive, useful information, import external proxy clips, camcorder, "
+"camera, editing, documentation, user manual, video editor, open source, "
+"free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, полезная информация, импорт внешних прокси-клипов, камкордер, "
+"камера, монтаж, документация, руководство пользователя, видеоредактор, "
+"открытый исходный код, свободный, обучение, просто"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:18
+msgid "Using Camera Proxy Clips"
+msgstr "Использование прокси-клипов камеры"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:24
+msgid ""
+"Kdenlive supports using external proxy clips. Some cameras, like Sony PXW-"
+"X70 and others allow you to record proxy clips during the normal recording "
+"operation."
+msgstr ""
+"Kdenlive поддерживает использование внешних прокси-клипов. Некоторые камеры, "
+"например Sony PXW-X70 и другие, позволяют записывать прокси-клипы во время "
+"обычной записи."
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:26
+msgid "For Sony camcorders, the file layout is the following:"
+msgstr "У камкордеров Sony файлы размещаются следующим образом:"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:28
+msgid ""
+"On your :abbr:`SD (Secure Digital - a proprietary, non-volatile, flash "
+"memory card format developed by the SD Association)` card, you will have a "
+"folder with original full resolution clips (called \"Clips\") and a folder "
+"with low res proxy clips (called \"Sub\")."
+msgstr ""
+"На карте :abbr:`SD (Secure Digital — проприетарный формат энергонезависимых "
+"карт флеш-памяти, разработанный SD Association)` есть папка с исходными "
+"клипами полного разрешения (называемая «Clips») и папка с прокси-клипами "
+"низкого разрешения (называемая «Sub»)."
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:29
+msgid "The proxy clips will end with \"S03.MP4\" instead of \".MXF\"."
+msgstr "Имена прокси-клипов заканчиваются на «S03.MP4», а не на «.MXF»."
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:31
+msgid "For example:"
+msgstr "Например:"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:33
+msgid "**Original clip:**"
+msgstr "**Исходный клип:**"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:34
+msgid "Clips/Clip0001.MXF"
+msgstr "Clips/Clip0001.MXF"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:36
+msgid "**Proxy:**"
+msgstr "**Прокси:**"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:36
+msgid "Sub/Clip0001S03.MP4"
+msgstr "Sub/Clip0001S03.MP4"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:38
+msgid ""
+"You can create your own external camcorder proxy links directly in the :doc:"
+"`proxy clip setup </getting_started/configure_kdenlive/"
+"configuration_proxy_clips>`."
+msgstr ""
+"Собственные связи внешних прокси-клипов камкордера можно создать прямо в "
+"разделе :doc:`Настройка прокси-клипов </getting_started/configure_kdenlive/"
+"configuration_proxy_clips>`."
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:40
+msgid ""
+"Or you can do it manually: In Kdenlive we have a file called :file:"
+"`externalproxies.rc` that will be installed in :code:`$INSTALL_PREFIX/share/"
+"kdenlive/externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/"
+"data/kdenlive/externalproxies.rc`). This is a text file that lists supported "
+"camera profiles giving indication about the path and name of proxy clips. "
+"This is currently in the form:"
+msgstr ""
+"Или это можно сделать вручную: в Kdenlive есть файл :file:`externalproxies."
+"rc`, который устанавливается в :code:`$INSTALL_PREFIX/share/kdenlive/"
+"externalproxies.rc` (Windows: :code:`KDENLIVE_INSTALL_FOLDER/bin/data/"
+"kdenlive/externalproxies.rc`). Это текстовый файл со списком поддерживаемых "
+"профилей камер, в котором указываются путь и имя прокси-клипов. Сейчас он "
+"имеет такой вид:"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:46
+msgid "Following camera proxies are supported:"
+msgstr "Поддерживаются прокси-клипы следующих камер:"
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:57
+msgid ""
+"In order to use the already available proxy files go to the project "
+"settings, and in the section :doc:`Proxy Clips</getting_started/"
+"configure_kdenlive/configuration_proxy_clips>` check :guilabel:`Enable proxy "
+"clips` if not enabled already, and then check :guilabel:`External proxy "
+"clips` and select your camera profile. Now when you add a clip to your "
+"project, Kdenlive will automatically use the camera generated proxy instead "
+"of creating a new one. You can also directly add the proxy clip in the "
+"project and it will be recognized as a proxy."
+msgstr ""
+"Чтобы использовать уже имеющиеся файлы прокси-клипов, откройте параметры "
+"проекта и в разделе :doc:`Прокси-клипы</getting_started/configure_kdenlive/"
+"configuration_proxy_clips>` установите флажок :guilabel:`Включить прокси-"
+"клипы`, если он ещё не установлен, затем установите флажок :guilabel:"
+"`Внешние прокси-клипы` и выберите профиль камеры. Теперь при добавлении "
+"клипа в проект Kdenlive автоматически использует созданный камерой прокси-"
+"клип вместо создания нового. Можно также напрямую добавить прокси-клип в "
+"проект, и он будет распознан как прокси-клип."
+
+#: ../../tips_and_tricks/useful_info/using_camcorder_proxy_clips.rst:63
+msgid ""
+"This greatly improves workflow if you have such a camera. Other camera "
+"brands also enable the creation of proxy clips, so if you have one, please |"
+"send_us| information about the path and naming schemes so we can include it "
+"in Kdenlive."
+msgstr ""
+"Это значительно упрощает работу, если у вас есть такая камера. Другие "
+"производители камер также позволяют создавать прокси-клипы, поэтому, если у "
+"вас есть такая камера, |send_us| сведения о путях и схемах именования, чтобы "
+"их можно было добавить в Kdenlive."

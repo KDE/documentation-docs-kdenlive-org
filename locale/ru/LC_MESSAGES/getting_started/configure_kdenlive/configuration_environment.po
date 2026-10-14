@@ -1,0 +1,306 @@
+# Translation of docs_kdenlive_org_getting_started___configure_kdenlive___configuration_environment into Russian.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"docs_kdenlive_org_getting_started___configure_kdenlive___configuration_environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:08+0000\n"
+"PO-Revision-Date: 2026-10-12 07:47+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:-1
+msgid "Kdenlive Documentation - Configuration Environment"
+msgstr "Документация Kdenlive — Настройка окружения"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:-1
+msgid ""
+"KDE, Kdenlive, documentation, user manual, configuration, preferences, "
+"environment, default folders, default apps, mlt, mime types, python, video "
+"editor, open source, free, learn, easy"
+msgstr ""
+"KDE, Kdenlive, документация, руководство пользователя, настройка, параметры, "
+"окружение, папки по умолчанию, приложения по умолчанию, mlt, типы MIME, "
+"python, видеоредактор, открытый исходный код, свободный, изучение, простота"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "1"
+msgstr "1"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "2"
+msgstr "2"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "3"
+msgstr "3"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "4"
+msgstr "4"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "5"
+msgstr "5"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "6"
+msgstr "6"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "7"
+msgstr "7"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:42
+msgid "Environment"
+msgstr "Окружение"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:52
+msgid "This section defines some of the most important settings for Kdenlive."
+msgstr ""
+"В этом разделе описаны некоторые из наиболее важных параметров Kdenlive."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:58
+msgid "The Environment section"
+msgstr "Раздел «Окружение»"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:60
+msgid ""
+":guilabel:`Concurrent threads`. Defines the number of threads to use for "
+"proxy clip generation and transcode jobs. Those jobs will run in the "
+"background. The value entered is passed to ffmpeg as the :code:`-threads` "
+"parameter. Increasing this parameter may not have an effect if you have "
+"changed the proxy encoding settings using :doc:`project settings </"
+"project_and_asset_management/project_settings/proxy_settings>` to a codec "
+"that ffmpeg does not do multi-threading on. Multi-threading is supported for "
+"MPEG-2, MPEG-4, H.264, and VP8."
+msgstr ""
+":guilabel:`Параллельные потоки`. Задаёт число потоков, используемых для "
+"создания прокси-клипов и перекодирования. Эти задачи выполняются в фоновом "
+"режиме. Введённое значение передаётся ffmpeg в качестве параметра :code:`-"
+"threads`. Увеличение этого параметра может не дать результата, если в :doc:"
+"`параметрах проекта </project_and_asset_management/project_settings/"
+"proxy_settings>` выбран кодек, для которого ffmpeg не поддерживает "
+"многопоточность. Многопоточность поддерживается для MPEG-2, MPEG-4, H.264 и "
+"VP8."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:62
+msgid ""
+":guilabel:`Use lower CPU priority`. This instructs Kdenlive to lower the "
+"priority of the proxy clip generation and transcode jobs. It helps keeping "
+"the main UI responsive when proxies are created or clips are being "
+"transcoded."
+msgstr ""
+":guilabel:`Использовать низкий приоритет ЦП`. Указывает Kdenlive понизить "
+"приоритет задач создания прокси-клипов и перекодирования. Это помогает "
+"сохранить отзывчивость основного интерфейса во время создания прокси-клипов "
+"или перекодирования."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:64
+msgid ""
+":guilabel:`Warn if cached data exceeds`. Add a maximal cache size that "
+"Kdenlive checks every two weeks. Kdenlive issues a warning message if the "
+"total cached data size exceeds this limit. If you need to purge the cache, "
+"use the :doc:`/tips_and_tricks/useful_info/manage_cached_data` feature."
+msgstr ""
+":guilabel:`Выводить предупреждение при превышении размера данных кэша`. "
+"Задаёт максимальный размер кэша, который Kdenlive проверяет каждые две "
+"недели. Если общий размер кэшированных данных превышает этот предел, "
+"Kdenlive выводит предупреждение. Чтобы очистить кэш, воспользуйтесь "
+"функцией :doc:`/tips_and_tricks/useful_info/manage_cached_data`."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:66
+msgid ""
+":guilabel:`Show welcome screen at startup`. If checked, Kdenlive will show "
+"the :ref:`welcome screen <welcome_and_splash_screen>` on which you can "
+"select a project. When unchecked, Kdenlive will show the :ref:`splash screen "
+"<welcome_and_splash_screen>`."
+msgstr ""
+":guilabel:`Показывать приветственное окно при запуске`. Если флажок "
+"установлен, Kdenlive показывает :ref:`экран приветствия "
+"<welcome_and_splash_screen>`, в котором можно выбрать проект. Если флажок "
+"снят, Kdenlive показывает :ref:`заставку <welcome_and_splash_screen>`."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:68
+msgid ""
+":guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up "
+"window with a reminder if your version is older than six (6) months."
+msgstr ""
+":guilabel:`Проверить наличие обновлений`. Если флажок установлен, Kdenlive "
+"показывает всплывающее окно с напоминанием, если ваша версия старше шести "
+"(6) месяцев."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:70
+msgid ""
+":guilabel:`Prevent sleep when playing and rendering`. If checked, Kdenlive "
+"disables the system's power management to avoid sleep mode and screen "
+"locking during playback and rendering."
+msgstr ""
+":guilabel:`Не переходить в спящий режим при воспроизведении и сборке`. Если "
+"флажок установлен, Kdenlive отключает управление питанием системы, чтобы "
+"избежать перехода в спящий режим и блокировки экрана во время "
+"воспроизведения и сборки."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:72
+msgid "Tabs for the different environment settings."
+msgstr "Вкладки для различных параметров окружения."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:78
+msgid "MLT Environment"
+msgstr "Окружение MLT"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:82
+msgid ""
+"These settings tell Kdenlive where to find the MLT executables and profile "
+"files. Only advanced users would really need to change these settings. "
+"Kdenlive is basically a frontend to the MLT program. Since Kdenlive version "
+"25.08, |mediainfo| is not needed anymore as Kdenlive can read the timecode "
+"directly from MLT and shows these details in the clip properties. The values "
+"differ depending on your OS."
+msgstr ""
+"Эти параметры указывают Kdenlive, где искать исполняемые файлы MLT и файлы "
+"профилей. Менять эти параметры требуется только опытным пользователям. По "
+"сути, Kdenlive — это интерфейс к программе MLT. Начиная с версии Kdenlive "
+"25.08, |mediainfo| больше не нужен, так как Kdenlive может считывать тайм-"
+"код напрямую из MLT и показывает эти сведения в свойствах клипа. Значения "
+"зависят от операционной системы."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:87
+msgid "Environment variables in Kdenlive installed on Windows"
+msgstr "Переменные окружения в Kdenlive, установленном в Windows"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:92
+msgid "Environment variables in Kdenlive installed on Linux"
+msgstr "Переменные окружения в Kdenlive, установленном в Linux"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:97
+msgid "Environment variables in Kdenlive appimage on Linux"
+msgstr "Переменные окружения в Kdenlive appimage в Linux"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:102
+msgid "Environment variables in Kdenlive on MacOS"
+msgstr "Переменные окружения в Kdenlive в MacOS"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:108
+msgid "Default Folders"
+msgstr "Папки по умолчанию"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:110
+msgid ""
+"These settings tell Kdenlive where project files are to be stored. It also "
+"controls what folder Kdenlive will use as a temporary file storage location "
+"and where files captured from an external source will be saved."
+msgstr ""
+"Эти параметры указывают Kdenlive, где хранить файлы проекта. Они также "
+"определяют, какую папку Kdenlive будет использовать для временного хранения "
+"файлов и куда будут сохраняться файлы, захваченные из внешнего источника."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:118
+msgid "Default folders on Windows."
+msgstr "Папки по умолчанию в Windows."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:123
+msgid "Default folders on Linux (appimage)."
+msgstr "Папки по умолчанию в Linux (appimage)."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:128
+msgid "Default folders on Linux (flatpak)."
+msgstr "Папки по умолчанию в Linux (flatpak)."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:133
+msgid "Default folders on MacOS."
+msgstr "Папки по умолчанию в MacOS."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:192
+msgid "Default Apps"
+msgstr "Приложения по умолчанию"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:196
+msgid ""
+"These settings control which external application opens when you choose :ref:"
+"`edit_clip` for a clip in the Project Bin."
+msgstr ""
+"Эти параметры определяют, какое внешнее приложение открывается при выборе :"
+"ref:`edit_clip` для клипа в корзине проекта."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:202
+msgid "Settings for default apps"
+msgstr "Параметры приложений по умолчанию"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:204
+msgid ":guilabel:`Image editing`: A free software would be |krita|."
+msgstr ":guilabel:`Редактор изображений`: подойдёт свободное ПО |krita|."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:206
+msgid ":guilabel:`Audio editing`: A free software would be |audacity|."
+msgstr ":guilabel:`Звуковой редактор`: подойдёт свободное ПО |audacity|."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:208
+msgid ""
+":guilabel:`Animation editing`: Kdenlive integrates nicely with and updates "
+"files automatically which are saved in |glaxnimate| which is available from "
+"its homepage for Linux, Windows, and MacOS."
+msgstr ""
+":guilabel:`Редактирование анимации`: Kdenlive хорошо интегрируется с |"
+"glaxnimate| и автоматически обновляет файлы, сохранённые в нём. |glaxnimate| "
+"можно загрузить с его домашней страницы для Linux, Windows и MacOS."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:210
+msgid ""
+":guilabel:`Video editing`: Specially to be used with other programs like |"
+"gyroflow|."
+msgstr ""
+":guilabel:`Видеоредактор`: специально для использования с другими "
+"программами, такими как |gyroflow|."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:212
+msgid ""
+"**Mac user:** See these :ref:`instructions <kdenlive_macos>` how to install "
+"and run :file:`dmg` files."
+msgstr ""
+"**Пользователям Mac:** см. :ref:`инструкции <kdenlive_macos>` по установке и "
+"запуску файлов :file:`dmg`."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:214
+msgid ""
+"**Windows user:** Make sure all the paths point to an :file:`.exe` file. :"
+"file:`glaxnimate.exe` is in folder :file:`%PROGRAMFILES%\\\\glaxnimate\\\\bin"
+"\\\\`."
+msgstr ""
+"**Пользователям Windows:** убедитесь, что все пути указывают на файл :file:`."
+"exe`. Файл :file:`glaxnimate.exe` находится в папке :file:`%PROGRAMFILES%\\"
+"\\glaxnimate\\\\bin\\\\`."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:217
+msgid "Example"
+msgstr "Пример"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:221
+msgid "Examples of properly configured default apps on Linux (appimage)"
+msgstr ""
+"Примеры правильно настроенных приложений по умолчанию в Linux (appimage)"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:225
+msgid "Mime types"
+msgstr "Типы MIME"
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:227
+msgid ""
+"Specifies the Media Types (formerly known as MIME types) which Kdenlive can "
+"work with."
+msgstr ""
+"Задаёт медиатипы (ранее — типы MIME), с которыми может работать Kdenlive."
+
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:233
+msgid "Supported MIME Types"
+msgstr "Поддерживаемые типы MIME"
