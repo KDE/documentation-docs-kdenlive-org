@@ -1,6 +1,6 @@
 # Spanish translations for docs_kdenlive_org_user_interface___timeline.po package.
 # Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
-# This file is distributed under the same license as the Kdenlive 26.04 Manual package.
+# This file is distributed under the same license as the Kdenlive 26.08 Manual package.
 # Automatically generated, 2021.
 #
 # SPDX-FileCopyrightText: 2021-2022 Eloy Cuadra <ecuadra@eloihr.net>
@@ -8,10 +8,10 @@
 # SPDX-FileCopyrightText: 2025-2026 Gabriel Gazzán <gabcorreo@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive 26.04 Manual 26.04\n"
+"Project-Id-Version: Kdenlive 26.08 Manual 26.08\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 02:15+0000\n"
-"PO-Revision-Date: 2026-07-14 16:09+0100\n"
+"PO-Revision-Date: 2026-10-17 01:02+0100\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -314,13 +314,6 @@ msgstr ""
 "interactivo del cursor de tiempo."
 
 #: ../../user_interface/timeline.rst:146
-#, fuzzy
-#| msgid ""
-#| "A fixed centered playhead can be enabled in :menuselection:`Settings --> "
-#| "Configure Kdenlive --> Timeline` :guilabel:`Fixed centered playhead`. "
-#| "When enabled, the playhead remains locked at the center of the timeline "
-#| "view while the timeline content scrolls smoothly beneath it during "
-#| "playback, scrubbing, and seeking."
 msgid ""
 "A playhead return to the position where playback has started can be enabled "
 "in :menuselection:`Settings --> Configure Kdenlive --> Timeline` :guilabel:"
@@ -329,14 +322,14 @@ msgid ""
 "This is useful for previewing a specific section of your project without "
 "losing your place in the timeline."
 msgstr ""
-"Será posible habilitar la fijación del cursor de tiempo en el centro de la "
-"Línea de tiempo durante la reproducción, desde :menuselection:`Preferencias "
-"--> Configurar Kdenlive --> Línea de tiempo`, activando la opción :guilabel:"
-"`Mantener cursor de tiempo en el centro`. Cuando esta opción se encuentre "
-"activa, el cursor de tiempo permanecerá fijo en el centro de la Línea de "
-"tiempo a medida que el contenido de la misma es desplazado suavemente hacia "
-"la izquierda durante la reproducción, la búsqueda rápida o el arrastre "
-"interactivo del cursor de tiempo."
+"Permitirá el regreso del cursor de tiempo a la posición en donde comenzó la "
+"reproducción, desde :menuselection:`Preferencias --> Configurar Kdenlive --> "
+"Línea de tiempo`, activando la opción :guilabel:`Restablecer cursor de "
+"tiempo a posición de partida al detener reproducción`. Cuando esta opción se "
+"encuentre activa, el cursor de tiempo regresará a la posición de comienzo de "
+"la reproducción, cuando la misma finalice. Esto resultará útil para "
+"previsualizar alguna sección específica de una secuencia, sin perder la "
+"referencia de su lugar de inicio."
 
 #: ../../user_interface/timeline.rst:154
 msgid "Keyboard Navigation"
@@ -679,37 +672,47 @@ msgstr ":kbd:`flecha arriba/abajo` lleva a la pista siguiente"
 
 #: ../../user_interface/timeline.rst:335
 msgid "Track Right-Click Menu"
-msgstr ""
+msgstr "Menú contextual de pistas"
 
 #: ../../user_interface/timeline.rst:341
 msgid "Video Track"
-msgstr ""
+msgstr "Pista de video"
 
 #: ../../user_interface/timeline.rst:345 ../../user_interface/timeline.rst:363
 msgid ":guilabel:`Insert Track` see :ref:`adding_tracks` for more details."
 msgstr ""
+":guilabel:`Insertar pista` ver :ref:`Adición de pistas <adding_tracks>` para "
+"más detalles."
 
 #: ../../user_interface/timeline.rst:347 ../../user_interface/timeline.rst:365
 msgid ":guilabel:`Delete Track` see :ref:`deleting_tracks` for more details."
 msgstr ""
+":guilabel:`Borrar pista` ver :ref:`Borrado de pistas <deleting_tracks>` para "
+"más detalles."
 
 #: ../../user_interface/timeline.rst:349 ../../user_interface/timeline.rst:367
 msgid ""
 ":guilabel:`Move Track Up` or :guilabel:`Move Track Down` see :ref:"
 "`reordering_tracks` for more details."
 msgstr ""
+":guilabel:`Subir pista` o :guilabel:`Bajar pista` ver :ref:`Reordenamiento "
+"de pistas <reordering_tracks>` para más detalles."
 
 #: ../../user_interface/timeline.rst:351 ../../user_interface/timeline.rst:369
 msgid ""
 ":guilabel:`Fit all Tracks in View` see :ref:`fit_tracks_to_view_height` for "
 "more details."
 msgstr ""
+":guilabel:`Ajustar todas las pistas a la vista` ver :ref:`Ajuste de altura "
+"de pistas a la vista <fit_tracks_to_view_height>` para más detalles."
 
 #: ../../user_interface/timeline.rst:353 ../../user_interface/timeline.rst:377
 msgid ""
 ":guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more "
 "details."
 msgstr ""
+":guilabel:`Identificar huecos` ver :ref:`Identificación de huecos en la "
+"línea de tiempo <identify_timeline_gaps>` para más detalles."
 
 #: ../../user_interface/timeline.rst:355
 msgid ""
@@ -718,12 +721,15 @@ msgid ""
 "Thumbnails` (for how to change the colors, see :ref:`Configure Clip Colors "
 "<configure_clip_colors>`)."
 msgstr ""
+":guilabel:`Miniaturas` será posible mostrar los :guilabel:`Fotogramas de "
+"entrada`, los :guilabel:`Fotogramas de entrada y salida`, :guilabel:`Todos "
+"los fotogramas` o mostrar los clips completamente :guilabel:`Sin miniaturas` "
+"(para indicaciones sobre cómo cambiar el color de los distintos tipos de "
+"clips, ver :ref:`Configuración de colores de clips <configure_clip_colors>`)."
 
 #: ../../user_interface/timeline.rst:359
-#, fuzzy
-#| msgid "Adding Tracks"
 msgid "Audio Track"
-msgstr "Adición de pistas"
+msgstr "Pista de audio"
 
 #: ../../user_interface/timeline.rst:371
 msgid ""
@@ -775,10 +781,8 @@ msgstr ""
 "configure_kdenlive/configuration_project_defaults>`."
 
 #: ../../user_interface/timeline.rst:405
-#, fuzzy
-#| msgid "Deleting Tracks"
 msgid "Reordering Tracks"
-msgstr "Borrado de pistas"
+msgstr "Reordenamiento de pistas"
 
 #: ../../user_interface/timeline.rst:407
 msgid ""
@@ -787,10 +791,15 @@ msgid ""
 "`Move Track Up` or :guilabel:`Move Track Down`. You can undo the reordering "
 "by using :kbd:`Ctrl+Z` or :menuselection:`Menu --> Edit --> Undo`."
 msgstr ""
+"Las pistas podrán ser reordenadas únicamente dentro de su mismo tipo (video "
+"o audio). Para realizarlo, hacer clic derecho sobre el encabezado de una "
+"pista y seleccionar :guilabel:`Subir pista` o :guilabel:`Bajar pista`. La "
+"reorganización podrá ser deshecha usando los métodos estándar: :kbd:`Ctrl+Z` "
+"o :menuselection:`Editar --> Deshacer`."
 
 #: ../../user_interface/timeline.rst:411
 msgid "Grouped clips are kept together when reordering tracks."
-msgstr ""
+msgstr "Los clips agrupados se mantendrán de esa manera al reordenar pistas."
 
 #: ../../user_interface/timeline.rst:413
 msgid ""
@@ -798,37 +807,44 @@ msgid ""
 "settings will be changed to automatic. If a clip was switched to automatic "
 "or background, it remains unchanged."
 msgstr ""
+"Las composiciones aplicadas a clips serán movidas conjuntamente con los "
+"clips, pero su opción **Componer con pista** será cambiada a *Automático*. "
+"En caso de que una composición ya estuviera en *Automático* o en *Fondo*, se "
+"mantendrán dichas opciones incambiadas."
 
 #: ../../user_interface/timeline.rst:420
 msgid ""
 "Reordering tracks: Use :guilabel:`Move Track Up` or :guilabel:`Move Track "
 "Down`"
 msgstr ""
+"Reordenamiento de pistas: Usar :guilabel:`Subir pista` o :guilabel:`Bajar "
+"pista`"
 
 #: ../../user_interface/timeline.rst:424
 msgid ""
 "You can still mix and split tracks by using :ref:`these functions "
 "<timeline_toolbar2>` in the timeline toolbar."
 msgstr ""
+"Aún será posible Intercalar o Separar las pistas, usando :ref:`estas "
+"funciones <timeline_toolbar2>` en la barra de herramientas de la Línea de "
+"tiempo."
 
 #: ../../user_interface/timeline.rst:432
 msgid "Deleting Tracks"
 msgstr "Borrado de pistas"
 
 #: ../../user_interface/timeline.rst:434
-#, fuzzy
-#| msgid ""
-#| "In order to delete a track right-click anywhere in the track header area. "
-#| "In the **Delete Track** dialog window select the tracks you want to "
-#| "delete."
 msgid ""
 "In order to delete a track right-click anywhere in the track header area. In "
 "the **Delete Track** dialog window select the tracks you want to delete. "
 "Kdenlive warns you if there are clips on the track to be deleted. You can "
 "still delete the track and all its clips or cancel the operation."
 msgstr ""
-"Para borrar una pista hacer clic derecho sobre el encabezado de la misma. En "
-"el diálogo emergente seleccionar todas las pistas que se desee borrar."
+"Para borrar una pista, hacer clic derecho sobre el encabezado de la misma. "
+"En el diálogo **Borrar pista(s)** seleccionar todas las pistas que se desee "
+"borrar. Kdenlive advertirá en caso de que existieran clips en la pista a ser "
+"borrada. Será posible borrar la pista de todas formas o cancelar la "
+"operación."
 
 #: ../../user_interface/timeline.rst:443
 msgid "Resizing Tracks"
@@ -845,7 +861,7 @@ msgstr ""
 
 #: ../../user_interface/timeline.rst:455
 msgid "Fit Tracks to view height"
-msgstr "Ajustar altura de las pistas a la vista"
+msgstr "Ajuste de altura de pistas a la vista"
 
 #: ../../user_interface/timeline.rst:459
 msgid ""
@@ -902,26 +918,3 @@ msgid "Loop Zone (:kbd:`Ctrl+Shift+Space`)"
 msgstr ""
 "Usar el comando :guilabel:`Repetir zona`, del menú contextual del Monitor de "
 "secuencias. (:kbd:`Ctrl+Mayús+Espacio`)"
-
-#~ msgid "Configurable Tracks"
-#~ msgstr "Configuración de pistas"
-
-#~ msgid "**Video track** - You can choose to display either"
-#~ msgstr ""
-#~ "**Pistas de video** - En el submenú Miniaturas será posible elegir si "
-#~ "mostrar:"
-
-#~ msgid ":guilabel:`In Frame`"
-#~ msgstr ":guilabel:`Fotogramas de entrada`"
-
-#~ msgid ":guilabel:`In/Out Frames`"
-#~ msgstr ":guilabel:`Fotogramas de entrada y salida`"
-
-#~ msgid ":guilabel:`All Frames` or"
-#~ msgstr ":guilabel:`Todos los fotogramas` o"
-
-#~ msgid ":guilabel:`No Thumbnails`"
-#~ msgstr ":guilabel:`Sin miniaturas`"
-
-#~ msgid "**Audio track** - You can enable:"
-#~ msgstr "**Pistas de audio** - Será posible activar:"
