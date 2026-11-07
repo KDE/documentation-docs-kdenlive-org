@@ -38,6 +38,8 @@ When starting Kdenlive a welcome screen appears with the following functions:
 
 :9: Shows the Kdenlive version
 
+The welcome screen can be moved by dragging its banner.
+
 If a project is opened from command line or file browser, instead of the welcome screen the splash screen is showing up.
 
 .. figure:: /images/user_interface/ui-splash_screen_2512.webp
