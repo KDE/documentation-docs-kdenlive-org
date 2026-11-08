@@ -19,7 +19,9 @@ Exporting in Kdenlive means Rendering, or vice versa. Rendering turns the projec
 
 Kdenlive uses *Presets* or *Rendering Profiles* to control or determine the output. You can create your own presets and profiles.
 
-Hit :kbd:`Ctrl+Return` to open the rendering dialog or use the :menuselection:`Menu --> File --> Render` and click on the render button |media-record|.
+.. .. versionchanged:: 26.12 change the render icon from record to run-build
+
+Hit :kbd:`Ctrl+Return` to open the rendering dialog or use the :menuselection:`Menu --> File --> Render` and click on the render button |run-build|.
 
 .. figure:: /images/exporting/kdenlive2212_rendering-render_dialog.webp
    :width: 400px

@@ -58,7 +58,9 @@ The main toolbar can be configured in :menuselection:`Settings --> Configure Too
 Extra Toolbar
 -------------
 
-.. figure:: /images/Kdenlive_extra_toolbar.png
+.. .. versionchanged:: 26.12 change the render icon from record to run-build
+
+.. figure:: /images/user_interface/toolbar-extra_toolbar-26012.webp
 
 The extra toolbar contains by default the **Render** button. The extra toolbar can be configured in :menuselection:`Settings --> Configure Toolbars` or right-click on the toolbar and choose :guilabel:`Configure Toolbars...`. It can be switched on/off in :menuselection:`Settings --> Toolbars Shown`.
 

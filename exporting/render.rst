@@ -33,8 +33,10 @@ Rendering
 .. TODO:
    * How to choose the correct output format and bit rate? * What to do for rendering lossless, for an iPhone, or whatever? (Dropdown containing targets like lossless/HQ/player)
 
+.. .. versionchanged:: 26.12 change the render icon from record to run-build
 
-The rendering dialog is brought up by selecting |media-record| Render... from the :menuselection:`Menu --> File --> Render`, or by the :kbd:`Ctrl+Enter` default keyboard shortcut.
+
+The rendering dialog is brought up by selecting |run-build| Render... from the :menuselection:`Menu --> File --> Render`, or by the :kbd:`Ctrl+Enter` default keyboard shortcut.
 
 
 Rendering Dialog
