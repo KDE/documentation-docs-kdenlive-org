@@ -616,6 +616,15 @@ If you select an audio file only, Kdenlive ask you if you want to change the aud
 
 .. rst-class:: clear-both
 
+.. .. versionadded:: 26.12 Replace Clip cancellation behavior
+
+.. figure:: /images/user_interface/menu_reference/media_menu-replace_multiple_clips-2612.webp
+   :align: left
+   
+   Question if you have selected multiple clips and want to change all of them at once
+
+.. rst-class:: clear-both
+
 This function is also available via the right-click menu of a clip selected in the Project Bin.
 
 .. note:: Make sure the clip replacement is at least of the same length/duration. Otherwise it may lead to unwanted gaps in the Timeline. If effects are used on these clips the replacement clips should have the same dimensions to avoid unwanted behaviour of effects.
