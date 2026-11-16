@@ -589,7 +589,7 @@ This menu item opens a flyout with the following functions:
 
 ----
 
-* **Select All in Current Track**: Selects all items in the current track
+* **Select All in Current Track**: Selects all items in the current track. This is also available in the :ref:`configurable_tracks`.
 
 * **Select All**: Selects all items in all tracks. Default shortcut: :kbd:`Ctrl+A`
 

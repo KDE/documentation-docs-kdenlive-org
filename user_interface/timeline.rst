@@ -336,10 +336,11 @@ Track Right-Click Menu
 
 .. .. versionadded:: 19.04.0
 .. .. versionadded:: 26.08 Add timeline range marker at gaps between clips
+.. .. versionadded:: 26.12 Add Select All in Current Track
 
 .. rubric:: Video Track
 
-.. figure:: /images/timeline-video_track_right_click-2608.webp
+.. figure:: /images/timeline-video_track_right_click-2612.webp
 
    
 :guilabel:`Insert Track` see :ref:`adding_tracks` for more details.
@@ -349,6 +350,8 @@ Track Right-Click Menu
 :guilabel:`Move Track Up` or :guilabel:`Move Track Down` see :ref:`reordering_tracks` for more details.
 
 :guilabel:`Fit all Tracks in View` see :ref:`fit_tracks_to_view_height` for more details.
+
+:guilabel:`Select All in Current Track` selects all clips in the current track.
 
 :guilabel:`Identify Track` see :ref:`identify_timeline_gaps` for more details.
 
