@@ -774,6 +774,11 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['resources/static']
 
+# By default, Sphinx builds the HTML <title> tag using the pattern {project} {release} documentation
+# To avoid the doubled version number in the page title ("Kdenlive 26.08 Manual 26.08 documentation"), 
+# override Sphinx's default title template by setting html_title explicitly
+html_title = project
+
 html_favicon = 'resources/static/images/favicon.ico'
 
 html_logo = 'resources/static/images/logo-light.svg'
