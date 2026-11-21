@@ -16,12 +16,7 @@ variables:
     # Remember to also update resources/static/js/version_switch.js and 404handler.php
     WEBSITE_LANGUAGES: en ca cs es it nl pt pt_BR sl sv uk_UA zh_CN zh_TW
 
-# Modify the build job to use the VM image (instead of Poadman) to fix performance issues
 build_sphinx_app_docs:
-  image: storage.kde.org/vm-images/staticweb
-  tags:
-    - VM
-    - amd64
   variables:
     # This needs to be a path that exists, otherwise it will fallback to /tmp
     TMPDIR: $CI_PROJECT_DIR
